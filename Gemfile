@@ -42,7 +42,21 @@ end
 
 gem 'jquery-rails'
 gem 'pusher'
+gem 'factual-api'
+gem 'rufus-scheduler'
+
+#content parsing
+gem 'nokogiri'
+
+#SOLR Support
+gem 'sunspot_rails'
+gem 'sunspot_solr'
+gem 'progress_bar' #for indexing
+
+#Remove before MVP
 gem 'lorem-ipsum-me'
+
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

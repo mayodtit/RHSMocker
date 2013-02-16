@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
 	Pusher.secret = '513445887ae45c985287'
 
 	#height is stored in meters
-	attr_accessible :firstName, :lastName, :imageURL, :gender, :birthDate, :install_id, :email, :phone, :generic_call_time
+	attr_accessible :firstName, :lastName, :imageURL, :gender, :height, :birthDate, :install_id, :email, :phone, :generic_call_time
 	after_create :default_content
 
 	#Things the user has read
@@ -77,11 +77,11 @@ class User < ActiveRecord::Base
 	#nasty hack based on known ID's that makes me want to puke
 	def default_content
 		#if for some reason, the content was not created yet, then there is no default content
-		if !Content.where("headline = 'Installed RHS'").empty?
-			UserReading.create(user:self, content:Content.where("headline = 'Installed RHS'").first, read_date: Time.zone.now.iso8601)
+		if !Content.where("title = 'Installed RHS'").empty?
+			UserReading.create(user:self, content:Content.where("title = 'Installed RHS'").first, read_date: Time.zone.now.iso8601)
 		end
-		if !Content.where("headline = 'Welcome'").empty?
-			UserReading.create(user:self, content:Content.where("headline = 'Welcome'").first)
+		if !Content.where("title = 'Welcome'").empty?
+			UserReading.create(user:self, content:Content.where("title = 'Welcome'").first)
 		end
 	end
 

@@ -1,18 +1,16 @@
 <p id="notice"><%= notice %></p>
 
-<% if !@content.content_authors.first.nil? %>
-		<% if !@content.content_authors.first.user.imageURL.empty? %>
-			<div class="authorPicture" style="float:left">
-				<%= image_tag @content.content_authors.first.user.imageURL %>
-			</div>
-		<% end %>
-		<div class="content_subtitle"> 
-			<%= @content.created_at.to_s %>&nbsp;|&nbsp;By&nbsp;<%= @content.content_authors.first.user.firstName %>&nbsp;<%= @content.content_authors.first.user.lastName %>
-		</div> 
-		<div class="content_text">
-			<%= @content.body %>
-		</div>
-<% end %>
+
+<h1><%= @content.title %></h1>
+<h2><%= @content.abstract%></h2>
+<h2><%= @content.question%></h2>
+<h3><%= @content.contentsType%></h3>
+<h3><%= @content.keywords%><h3>
+
+
+	<%=@content.body.html_safe%>
+
+
 
 
 <%= link_to 'Edit', edit_content_path(@content) %> |

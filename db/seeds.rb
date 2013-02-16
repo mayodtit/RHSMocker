@@ -19,19 +19,19 @@ ContentKeywords.create!(name:"Healthy Eating", default:true)
 #some default content
 installed = Content.create!(
 	contentsType: 'message',
-	headline: "Installed RHS",
+	title: "Installed RHS",
 	body:"Installed RHS")
 
 
 welcome = Content.create!( 
 	contentsType: 'message',
-	headline: 'Welcome',
+	title: 'Welcome',
 	body:'<p>I''m Sandra, one of your RHS Health Advocates here to support you in your quest for a healthier, fuller, life. The more you use RHS, the smarter we will get in providing you a personalized health expierence and better care</p>'
 	)
 
 bpWeather = Content.create!(
 	contentsType: 'article',
-	headline: "Weather alert: Low Temps and your Blood Pressure.",
+	title: "Weather alert: Low Temps and your Blood Pressure.",
 	body:"<p>Blood pressure generally is higher in the winter because low temperatures cause your blood vessels to narrow, which increases blood pressure because more pressure is needed to force blood through your narrowed veins and arteries.</p>"
 	)
 

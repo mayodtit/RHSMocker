@@ -1,6 +1,6 @@
 class Content < ActiveRecord::Base
 	require 'lorem-ipsum'
-	attr_accessible :headline, :body, :author, :contentsType
+	attr_accessible :title, :body, :author, :contentsType, :abstract, :question, :keywords
 
 	has_many :content_authors
 	has_many :users, :through => :content_authors
@@ -9,6 +9,12 @@ class Content < ActiveRecord::Base
 	has_many :users, 
 			:through => :user_readings, 
 			:select => "users.*, user_readings.completed_date AS completedDate"
+
+	searchable do
+		text :body 
+		text :title, :boost => 2.0
+		text :keywords, :boost => 3.0
+	end
 
 	def formatArticle
 		item = "<html><head><link href=""/assets/application.css"" rel=""stylesheet"" type=""text/css""></head><body>"
@@ -29,12 +35,12 @@ class Content < ActiveRecord::Base
 #====================
 	def self.createFakeArticle
 		fakeBody = LoremIpsum.generate(:type => "blog")
-		fakeArticle = Content.create(headline: self.headlineWithNumber(["Lorum", "Mayo", "Ipsum", "Healthy","Foo","WellCheck"]), contentsType:"message", body:fakeBody)
+		fakeArticle = Content.create(title: self.titleWithNumber(["Lorum", "Mayo", "Ipsum", "Healthy","Foo","WellCheck"]), contentsType:"message", body:fakeBody)
 		fakeArticle.save!
 		fakeArticle.id
 	end
 
-	def self.headlineWithNumber(words)
+	def self.titleWithNumber(words)
    		words[rand(words.length)]+(rand(900)+100).to_s()+" Headline"
 	end
 
