@@ -12,7 +12,6 @@ class ContentsController < ApplicationController
          @searchterm = params[:q]
       end
     end
-    
 
     respond_to do |format|
       format.html # index.html.erb
