@@ -1,12 +1,18 @@
-<h1>Listing contents</h1>
+<h1>Content Browser</h1>
 
-<table>
+<% if !@searchterm.nil? %>
+  Searched for: <%=@searchterm%><br>
+<%end%>
+
+<table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="contentList">
+  <thead>
   <tr>
     <th>Title</th>
     <th>Type</th>
     <th>Abstract</th>
   </tr>
-
+</thead>
+<tbody>
 <% @contents.each do |content| %>
   <tr>
     <td><%= link_to content.title, content %></td>
@@ -18,6 +24,7 @@
     <% end %>
   </tr>
 <% end %>
+<tbody>
 </table>
 
 <br />

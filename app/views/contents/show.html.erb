@@ -1,16 +1,29 @@
 <p id="notice"><%= notice %></p>
 
+<div class='content' style="padding-left:20px">
 
-<h1><%= @content.title %></h1>
-<h2><%= @content.abstract%></h2>
-<h2><%= @content.question%></h2>
-<h3><%= @content.contentsType%></h3>
-<h3><%= @content.keywords%><h3>
+<div class="content_title">
+<%= @content.title %>
+</div>
 
+<div class="content_subtitle">
+	<% if !@content.abstract.nil? %>
+		<%= @content.abstract.html_safe%>
+	<% end %>
+</div>
 
+<div class="content_subtitle">
+	<%= @content.question%>
+</div>
+
+<div class="content_subtitle">
+	Type:<%= @content.contentsType%>
+</div>
+
+<div class="content_text">
 	<%=@content.body.html_safe%>
-
-
+</div>
+</div>
 
 
 <%= link_to 'Edit', edit_content_path(@content) %> |

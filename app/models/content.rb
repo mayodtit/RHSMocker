@@ -10,11 +10,17 @@ class Content < ActiveRecord::Base
 			:through => :user_readings, 
 			:select => "users.*, user_readings.completed_date AS completedDate"
 
+#SOLR Support in model
+#=============================
 	searchable do
 		text :body 
 		text :title, :boost => 2.0
 		text :keywords, :boost => 3.0
 	end
+
+	def as_json(options)
+  		{:title => content.title, :contents_type => content.contents_Type}
+  	end
 
 	def formatArticle
 		item = "<html><head><link href=""/assets/application.css"" rel=""stylesheet"" type=""text/css""></head><body>"
