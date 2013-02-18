@@ -91,9 +91,9 @@ class User < ActiveRecord::Base
 		if !self.user_readings.empty?
 
 			self.user_readings.order('read_date DESC').includes(:content).each do |reading|
-					puts reading.content.id
-					puts reading.content.headline
-					puts reading.content.body
+					#puts reading.content.id
+					#puts reading.content.title
+					#puts reading.content.body
 			if !reading.content.body.nil?
 				reading.content.body = reading.content.formatArticle
 			end
