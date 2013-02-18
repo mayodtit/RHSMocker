@@ -19,7 +19,7 @@ class Content < ActiveRecord::Base
 	end
 
 	def as_json(options)
-  		{:title => content.title, :contents_type => content.contentsType}
+  		{:title => title, :contents_type => contentsType}
   	end
 
 	def formatArticle
