@@ -65,7 +65,8 @@ class User < ActiveRecord::Base
 		#count > 5 return, else add in two trending things
 
 		#count = 0, return default list
-		keywords = ContentKeywords.where(:default => true)
+		#keywords = ContentKeywords.where(:default => true)
+		keywords = ContentKeywords.all()
 
 	end
 
