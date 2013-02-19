@@ -28,7 +28,7 @@
 
 <table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="readingList">
 	<thead>
-		<th>Headline</th>
+		<th>Title</th>
 		<th>Content ID</th>
 		<th>Date Read</th>
 		<th>Date Dismissed</th>
@@ -39,7 +39,7 @@
     
       <% @user.readContent.each do | readingItem | %>
       <tr> 
-        <td> <%= readingItem.content.headline %> </td>
+        <td> <%= readingItem.content.title %> </td>
         <td> <%= readingItem.content.id %></td>
         <% if readingItem.read_date.nil? && readingItem.dismiss_date.nil? %>
           <td> <%= link_to 'Mark Read', markread_url(:id => @user.id, :contentId => readingItem.content.id) %> </td>
