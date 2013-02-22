@@ -98,7 +98,7 @@ class User < ActiveRecord::Base
 					#puts reading.content.title
 					#puts reading.content.body
 			if !reading.content.body.nil?
-				reading.content.body = reading.content.formatArticle
+				reading.content.body = reading.content.asFullArticle
 			end
 			readingList << reading
 		end
