@@ -1,9 +1,13 @@
 class Content < ActiveRecord::Base
 	require 'lorem-ipsum'
-	attr_accessible :title, :body, :author, :contentsType, :abstract, :question, :keywords
+	attr_accessible :title, :body, :author, :contentsType, :abstract, :question, :keywords, :updateDate
 
 	has_many :content_authors
 	has_many :users, :through => :content_authors
+
+	has_many :content_vocabularies
+	has_many :mayo_vocabularies, :through => :content_vocabularies
+
 
 	has_many :user_readings
 	has_many :users, 
