@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+	#has_secure_password
+
 	Pusher.app_id = '36367'
 	Pusher.key = 'f93e7c2a2a407ef7747b'
 	Pusher.secret = '513445887ae45c985287'
@@ -167,10 +169,10 @@ class User < ActiveRecord::Base
 	def checkForNewContent
 		#create something, add to user_Reading, push it out
 		if !hasMaxContent
-			fakeArticleID = Content.createFakeArticle()
-			fakeArticle = Content.find(fakeArticleID)
-			UserReading.create(user:self, content:fakeArticle)
-			Pusher['RHS_'+self.id.to_s].trigger('newcontent', {:content_id => fakeArticle.id, :content_type => fakeArticle.contentsType})
+			randomContentID = Content.getRandomContent()
+			randomContent = Content.find(randomContentID)
+			UserReading.create(user:self, content:randomContent)
+			Pusher['RHS_'+self.id.to_s].trigger('newcontent', {:content_id => randomContent.id, :content_type => randomContent.contentsType})
 		end
 	end
 

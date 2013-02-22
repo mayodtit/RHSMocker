@@ -13,7 +13,9 @@
 </div>
 
 <div class="content_subtitle">
+	<% if !@content.question.nil? %>
 	<%= @content.question%>
+	<% end %>
 </div>
 
 <div class="content_subtitle">
@@ -21,7 +23,9 @@
 </div>
 
 <div class="content_text">
+	<% if !@content.body.nil? %>
 	<%=@content.body.html_safe%>
+	<% end %>
 </div>
 </div>
 

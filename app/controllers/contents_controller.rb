@@ -24,11 +24,19 @@ class ContentsController < ApplicationController
   # GET /contents/1.json
   def show
     @content = Content.find(params[:id])
+    puts (params[:q] == 'cardview')
+    
+    if params[:q] == 'cardview'
+      h = {"layout" => "cardview"}
+    else
+      h = {}
+    end
 
     respond_to do |format|
       format.html 
-      format.json { render json: @content }
+      format.json { render :json =>  @content.as_json(h) }
     end
   end
+
 
 end

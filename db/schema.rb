@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130216015248) do
+ActiveRecord::Schema.define(:version => 20130221225610) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -31,8 +31,17 @@ ActiveRecord::Schema.define(:version => 20130216015248) do
   create_table "content_keywords", :force => true do |t|
     t.string   "name"
     t.boolean  "default"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+    t.string   "mcvid"
+    t.string   "mayo_description"
+  end
+
+  create_table "content_vocabularies", :force => true do |t|
+    t.integer  "content_id"
+    t.integer  "mayo_vocabulary_id"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
   end
 
   create_table "contents", :force => true do |t|
@@ -45,6 +54,14 @@ ActiveRecord::Schema.define(:version => 20130216015248) do
     t.text     "abstract"
     t.text     "question"
     t.text     "keywords"
+    t.datetime "updateDate"
+  end
+
+  create_table "mayo_vocabularies", :force => true do |t|
+    t.string   "mcvid"
+    t.string   "title"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "user_locations", :force => true do |t|
@@ -88,6 +105,7 @@ ActiveRecord::Schema.define(:version => 20130216015248) do
     t.decimal  "height",                          :precision => 6, :scale => 2, :default => 0.0
     t.string   "phone"
     t.string   "generic_call_time"
+    t.string   "password_digest"
   end
 
 end

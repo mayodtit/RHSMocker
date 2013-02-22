@@ -39,7 +39,7 @@
     
       <% @user.readContent.each do | readingItem | %>
       <tr> 
-        <td> <%= readingItem.content.title %> </td>
+        <td> <%= link_to readingItem.content.title, readingItem.content %> </td>
         <td> <%= readingItem.content.id %></td>
         <% if readingItem.read_date.nil? && readingItem.dismiss_date.nil? %>
           <td> <%= link_to 'Mark Read', markread_url(:id => @user.id, :contentId => readingItem.content.id) %> </td>

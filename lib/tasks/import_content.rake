@@ -4,7 +4,6 @@ require 'nokogiri'
 namespace :admin do
 
 	task :import_content=> :environment do
-		#puts Dir.pwd
 		Dir.glob('./db/mayo_content/*.xml') do | answerFile |
 
 			print "."
@@ -40,7 +39,7 @@ namespace :admin do
 		 	@content.abstract 	= abstract_text.gsub(/\n/,"").gsub(/\t/,"") 	if !abstract_text.nil?
 		 	@content.question 	= question_text.gsub(/\n/,"").gsub(/\t/,"") 	if !question_text.nil?
 		 	@content.body 		= body_text.gsub(/\n/,"").gsub(/\t/,"") 		if !body_text.nil?
-		 	@content.contentsType = type_text.gsub(/\n/,"").gsub(/\t/,"").downcase if !type_text.nil?
+		 	@content.contentsType = type_text.gsub(/\n/,"").gsub(/\t/,"").titlecase if !type_text.nil?
 		 	@content.updateDate = update_text.gsub(/\n/,"").gsub(/\t/,"") 		if !update_text.nil?
 		 	@content.keywords 	= keywords
 			@content.save!
@@ -56,21 +55,16 @@ namespace :admin do
 					@mayoVocab.mcvid = vocab.attributes["MCVID"].value
 					@mayoVocab.title = vocab.attributes["Title"].value
 					@mayoVocab.save!
-					puts "MayoVocab=" + @mayoVocab.mcvid
 
 				elsif mcvidList
 					@mayoVocab = mcvidList.first #TODO: need to add constraint on MCVID
-					puts "MayoVocab=" + @mayoVocab.mcvid
 
 				end
 
 				if !@mayoVocab.nil?
-					puts "MayoVocab2=" + @mayoVocab.mcvid
 					ContentVocabulary.create(mayo_vocabulary:@mayoVocab, content:@content)
 				end
 
-				#puts "MCVID=" + 
-				#puts "Title=" + vocab.attributes["Title"].value
 			end
 
 		end
