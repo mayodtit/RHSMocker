@@ -52,8 +52,16 @@ def asCardView
 	item += "<div class=""content_title"">"+ title + "</div>"
 
 	if !abstract.nil?
-		item += "<div class=""content_title"">"+ title + "</div>"
+		item += "<div class=""content_title"">"+ abstract + "</div>"
 	end
+
+	puts Nokogiri::HTML.parse(body).css('p').first.text
+
+	if !body.nil?
+		item += "<div class=""content_text"">" + Nokogiri::HTML.parse(body).css('p').first.text + "</div>"
+		item += "<div class=""more_text""> More... </div>"
+	end
+
 	item += "</body></html>"
 end
 
