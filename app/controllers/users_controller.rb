@@ -88,10 +88,11 @@ class UsersController < ApplicationController
     respond_to do |format|
       if @user.markRead(Content.find(params[:contentId]))
         format.html { redirect_to @user, notice: 'User reading was successfully updated.' }
-        format.json { head :no_content }
+        format.json { head :no_content}
       else
         format.html { redirect_to @user, notice: 'User reading was not updated.'}
-        format.json { render json: @user.errors, status: :unprocessable_entity }
+        #decided to be silent on errors, including if the content was already read
+        format.json { head :no_content }
       end
     end
   end
@@ -105,7 +106,8 @@ class UsersController < ApplicationController
         format.json { head :no_content }
       else
         format.html { redirect_to @user, notice: 'User reading was not dismissed.'}
-        format.json { render json: @user.errors, status: :unprocessable_entity }
+        #decided to be silent on errors, including if the content was already read
+        format.json { head :no_content }
       end
     end
   end
@@ -119,7 +121,8 @@ class UsersController < ApplicationController
         format.json { head :no_content }
       else
         format.html { redirect_to @user, notice: 'User reading was not set to read later.'}
-        format.json { render json: @user.errors, status: :unprocessable_entity }
+         #decided to be silent on errors, including if the content was already read
+        format.json { head :no_content }
       end
     end
   end

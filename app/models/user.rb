@@ -113,12 +113,12 @@ class User < ActiveRecord::Base
 			userReading.read_date = Time.now
 			userReading.save!
 			notifyContentChange('read', content.id, content.contentsType)
-
 		else
-			#throw an error on the size or skip on the already read
+			userReadings = nil #throw an error on the size or skip on the already dismissed
 		end
 		#TESTCODE
-		checkForNewContent
+		self.checkForNewContent
+		userReadings
 	end
 
 	def markDismissed(content)
@@ -128,12 +128,12 @@ class User < ActiveRecord::Base
 			userReading.dismiss_date = Time.now
 			userReading.save!
 			notifyContentChange('dismissed', content.id, content.contentsType)
-
 		else
-			#throw an error on the size or skip on the already dismissed
+			userReadings = nil #throw an error on the size or skip on the already dismissed
 		end
 		#TESTCODE
-		checkForNewContent
+		self.checkForNewContent
+		userReadings
 	end
 
 	def markReadLater(content)
@@ -145,7 +145,7 @@ class User < ActiveRecord::Base
 			userReading.save!
 			notifyContentChange('readLater', content.id, content.contentsType)
 		else
-			#throw an error on the size or skip on the already read
+			userReadings = nil #throw an error on the size or skip on the already dismissed
 		end
 	end
 
