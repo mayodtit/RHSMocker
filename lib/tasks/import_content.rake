@@ -4,6 +4,9 @@ require 'nokogiri'
 namespace :admin do
 
 	task :import_content=> :environment do
+
+		Content.destroy_all #ensure dependancies
+
 		Dir.glob('./db/mayo_content/*.xml') do | answerFile |
 
 			print "."
@@ -15,9 +18,11 @@ namespace :admin do
 			type_text	  = type_search.first.text 		if !type_search.empty?
 
 			#TODO: would much prefer to do this as an "in" clause. This is lazycode
-			if !(type_text.casecmp "selfassessment") 
-				&& !(type_text.casecmp "calculator") 
-				&& !(type_text.casecmp "interactivetable")
+			#TODO: type_text could be null here. Add safe check
+			type_text = type_text.gsub(/\n/,"").gsub(/\t/,"") 
+			print type_text
+
+			if type_text.casecmp("answer") == 0 || type_text.casecmp("disease") == 0 || type_text.casecmp("article") == 0 || type_text.casecmp("firstaid") == 0 || type_text.casecmp("healthtip") == 0 || type_text.casecmp("TestProcedure") == 0
 
 				title_search 	= answer.search('Title')
 				abstract_search = answer.search('Abstract')
