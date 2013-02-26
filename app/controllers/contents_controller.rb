@@ -26,15 +26,16 @@ class ContentsController < ApplicationController
     @content = Content.find(params[:id])
     
     if params[:q] == 'cardview'
-      h = {"layout" => "cardview"}
+      first_paragraph = @content.firstParagraph
+      html = render_to_string :action => "content_cardview", :formats=>:html,  :locals => {:first_paragraph => first_paragraph}
+      options = {"layout" => "cardview", "source" => html}
     else
-      h = {}
+      html =  render_to_string :action => "content_full"
     end
 
     respond_to do |format|
-      format.html { render :text => @content.as_html(h) }
-      format.json { render :json => @content.as_json(h) }
+      format.html { render :text => html}
+      format.json { render :json => @content.as_json(options)}
     end
   end
-
 end
