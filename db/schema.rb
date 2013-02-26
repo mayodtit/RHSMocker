@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130221225610) do
+ActiveRecord::Schema.define(:version => 20130225203819) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -46,9 +46,9 @@ ActiveRecord::Schema.define(:version => 20130221225610) do
 
   create_table "contents", :force => true do |t|
     t.string   "title"
-    t.text     "body"      
-    t.datetime "created_at",                    :null => false
-    t.datetime "updated_at",                    :null => false
+    t.text     "body"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
     t.integer  "author_id"
     t.string   "contentsType"
     t.text     "abstract"
@@ -60,6 +60,11 @@ ActiveRecord::Schema.define(:version => 20130221225610) do
   create_table "mayo_vocabularies", :force => true do |t|
     t.string   "mcvid"
     t.string   "title"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "recipe_contents", :force => true do |t|
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

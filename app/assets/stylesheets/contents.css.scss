@@ -6,37 +6,65 @@
 @font-face {font-family:"ITC Franklin Gothic Medium Condensed"; src: local("FranklinGothic-MedCnd");}
 @font-face {font-family:"ITC Franklin Gothic Book Condensed"; src: local("FranklinGothic-BookCnd");}
 
+body {
+	margin:0px;
+	padding:0px;
+}
+
 div.content {
     width:620px;
 }
 
 div.content_full {
-    width:320px;
+    width:300px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-bottom: 16px;
+    margin-top:10px;
 }
 
 div.content_cardview {
-    width:300px;
+    width:288px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-bottom: 16px;
+    margin-top:10px;
 }
 
-div.content_source {
+div.content_type_and_sender {
 	font-family:"ITC Franklin Gothic Medium Condensed";
 	font-size:15px;
-	color:#f27522;
+	color:#D97D2B;
     text-transform:uppercase;
-    padding-bottom:15px;
+    padding-bottom:4px;
+    float:left;
+    vertical-align: bottom;
+}
+
+div.content_type_and_sender img {
+    vertical-align: middle;
+    padding-right: 6px;
 }
 
 div.content_title {
 	font-family:"ITC Franklin Gothic Medium Condensed";
-	font-size:24px;
+	font-size:21px;
 	color:#4c4c4c;
-    padding-bottom:12px;
+    padding-bottom:2px;
+    clear:left;
+}
+
+div.content_date_and_source {
+	font-family:"ITC Franklin Gothic Book Condensed";
+	font-size:14px;
+    color:#999999;
+    padding-bottom:5px;
 }
 
 div.content_subtitle {
 	font-family:"ITC Franklin Gothic Book Condensed";
-	font-size:14px;
-	color:#999999;
+	font-size:17px;
+	color:#4c4c4c;
     padding-bottom:15px;
 }
 

@@ -1,5 +1,4 @@
 class Content < ActiveRecord::Base
-	#require 'lorem-ipsum'
 	attr_accessible :title, :body, :author, :contentsType, :abstract, :question, :keywords, :updateDate
 
 	has_many :content_authors
@@ -27,7 +26,7 @@ def as_json(options)
 end
 
 def firstParagraph
-	if body.nil?
+	if !body.nil?
 		first_paragraph = Nokogiri::HTML.parse(body).css('p').first.text 
 	else
 		first_paragraph = ''
