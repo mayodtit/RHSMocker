@@ -99,7 +99,6 @@ class UsersController < ApplicationController
 
   def dismiss
     @user = User.find(params[:id])
-
     respond_to do |format|
       if @user.markDismissed(Content.find(params[:contentId]))
         format.html { redirect_to @user, notice: 'User reading was successfully dismissed.' }
