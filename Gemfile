@@ -40,6 +40,14 @@ group :assets do
 
 end
 
+group :development, :test do
+  # API documentation
+  gem 'rspec_api_documentation'
+  gem "rspec-rails", "~> 2.0"
+  gem 'factory_girl_rails'
+  gem 'database_cleaner', '~>0.9.1'
+end
+
 gem 'jquery-rails'
 gem 'pusher'
 gem 'factual-api'
@@ -55,6 +63,11 @@ gem 'progress_bar' #for indexing
 
 #Remove before MVP
 gem 'lorem-ipsum-me'
+
+
+
+
+gem 'sorcery'
 
 
 

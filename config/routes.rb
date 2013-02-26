@@ -1,4 +1,18 @@
 RHSMocker::Application.routes.draw do
+
+  namespace :api do
+    namespace :v1 do
+      post "signup" => "users#create", :as=>"signup"
+      post "login" => "sessions#create", :as=>"login"
+      delete "logout" => "sessions#destroy", :as=>"logout"
+
+    end
+  end
+
+  match '/docs', :to => redirect('/docs/index.html')
+
+
+
   resources :users
   resources :contents
   resources :authors

@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+  authenticates_with_sorcery!
 	#has_secure_password
 
 	#TODO: this is really lazy code. Move to initializer
@@ -23,12 +24,12 @@ class User < ActiveRecord::Base
 
 	#Validations
 	#++++++++++++++
-	validates :install_id, :presence => true
+	validates :install_id, :presence => true, :uniqueness => true
 
 	validates :generic_call_time, :inclusion => { :in => %w(Morning Afternoon Evening),
     :message => "%{value} is not a call time" }, :allow_nil => true
 
-    validates_length_of :phone, :in => 7..11, :allow_blank => true
+  validates_length_of :phone, :in => 7..11, :allow_blank => true
 
 	#DEMOGRAPHIC and PHR Related methods
 	#+++++++++++++++++++++++++++++++++++
@@ -39,6 +40,10 @@ class User < ActiveRecord::Base
 		else
 			fullName = "Not Set"
 		end
+	end
+
+	def login
+		update_attribute :auth_token, Base64.urlsafe_encode64(SecureRandom.base64(36))
 	end
 
 	#def height(uom)

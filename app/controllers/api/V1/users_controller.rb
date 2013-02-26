@@ -1,4 +1,5 @@
-class UsersController < ApplicationController
+class Api::V1::UsersController < Api::V1::ABaseController
+   skip_before_filter :authentication_check, :only =>:create
   # GET /users
   # GET /users.json
   def index
@@ -38,19 +39,24 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
   end
 
-  # POST /users
-  # POST /users.json
   def create
-    @user = User.new(params[:user])
+    # TODO: refactor into the model
+    if params[:user].present? && params[:user][:install_id].present?
+      user = User.find_by_install_id(params[:user][:install_id])
+    end
 
-    respond_to do |format|
-      if @user.save
-        format.html { redirect_to @user, notice: 'User was successfully created.' }
-        format.json { render json: @user, status: :created, location: @user }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @user.errors, status: :unprocessable_entity }
-      end
+    if user.present?
+      user.update_attributes params[:user]
+    else
+      user = User.new(params[:user])
+    end
+
+    if user.save
+      auto_login(user)
+      user.login
+      render_success( {auth_token:user.auth_token, user:user} )
+    else
+      render_failure( {reason:user.errors.full_messages.to_sentences} )
     end
   end
 
@@ -99,6 +105,7 @@ class UsersController < ApplicationController
 
   def dismiss
     @user = User.find(params[:id])
+
     respond_to do |format|
       if @user.markDismissed(Content.find(params[:contentId]))
         format.html { redirect_to @user, notice: 'User reading was successfully dismissed.' }

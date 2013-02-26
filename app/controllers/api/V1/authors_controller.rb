@@ -1,4 +1,4 @@
-class AuthorsController < ApplicationController
+class Api::V1::AuthorsController < Api::V1::ABaseController
   # GET /authors
   # GET /authors.json
   def index
