@@ -69,8 +69,7 @@ class User < ActiveRecord::Base
 
 		#count = 0, return default list
 		#keywords = ContentKeywords.where(:default => true)
-		keywords = ContentKeywords.all()
-
+		keywords = ["Diabetes", "Weight Loss", "Low Sugar Diet", "Exercise"]
 	end
 
 
