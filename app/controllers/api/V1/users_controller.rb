@@ -9,7 +9,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
 
     if user.present? && user.email.blank?
       password = params[:user][:password]
-      params[:user].remove :password
+      params[:user].delete :password
       user.update_attributes params[:user]
       user.password = password
     else
@@ -33,6 +33,14 @@ class Api::V1::UsersController < Api::V1::ABaseController
     else
       render_failure {reason:user.errors.full_messages.to_sentences} 
     end
+  end
+
+  def reset_password
+    render_success 
+  end
+
+  def update_password
+    render_success 
   end
 
   

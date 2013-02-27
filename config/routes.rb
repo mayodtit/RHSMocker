@@ -6,9 +6,9 @@ RHSMocker::Application.routes.draw do
       post "signup" => "users#create", :as=>"signup"
       post "login" => "sessions#create", :as=>"login"
       delete "logout" => "sessions#destroy", :as=>"logout"
-      put "user" => "user#update", :as=>"user_update"
-      post "user/update_password" => "user#update_password", :as=>"update_password"
-      post "user/reset_password" => "user#reset_password", :as=>"reset_password"
+      put "user" => "users#update", :as=>"user_update"
+      post "user/update_password" => "users#update_password", :as=>"update_password"
+      post "user/reset_password" => "users#reset_password", :as=>"reset_password"
 
       #content
       get "contents" => "contents#index", :as=>"content_index"

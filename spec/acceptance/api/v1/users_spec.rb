@@ -3,8 +3,8 @@ require 'rspec_api_documentation/dsl'
 
 resource "Users" do
   before(:each) do
-    # @user = Fabricate(:user)
-    # @user.login
+    @user = FactoryGirl.create(:user_with_email)
+    @user.login
   end
 
   post '/api/v1/signup' do
@@ -39,6 +39,26 @@ resource "Users" do
 
     example_request "Signup Using Email and Password" do
       explanation "Signing up (or upgrade) the user using email"
+
+      resp = JSON.parse response_body
+
+      status.should == 200
+    end
+
+  end
+
+
+  post '/api/v1/user/update_password' do
+    parameter :password, "New account password"
+    parameter :auth_token, "Auth token"
+
+    required_parameters :password, :auth_token
+
+    let (:password){ "111111"}
+    let (:auth_token){ @user.auth_token }
+
+    example_request "Change the Password" do
+      explanation "Change the password on the current user"
 
       resp = JSON.parse response_body
 
