@@ -1,18 +1,14 @@
 class Content < ActiveRecord::Base
 	#require 'lorem-ipsum'
-	attr_accessible :title, :body, :author, :contentsType, :abstract, :question, :keywords, :updateDate
-
-	has_many :content_authors
-	has_many :users, :through => :content_authors
-
-	has_many :content_vocabularies
-	has_many :mayo_vocabularies, :through => :content_vocabularies
+	attr_accessible :title, :body, :contentsType, :abstract, :question, :keywords, :updateDate
+	has_and_belongs_to_many :authors
+	has_and_belongs_to_many :mayo_vocabularies
 
 
 	has_many :user_readings
 	has_many :users, 
-	:through => :user_readings, 
-	:select => "users.*, user_readings.completed_date AS completedDate"
+		:through => :user_readings,
+		:select => "users.*, user_readings.completed_date AS completedDate"
 
 	#SOLR Support in model
 	#=============================

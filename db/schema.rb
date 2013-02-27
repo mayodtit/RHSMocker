@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130226151658) do
+ActiveRecord::Schema.define(:version => 20130227220233) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -21,27 +21,11 @@ ActiveRecord::Schema.define(:version => 20130226151658) do
     t.string   "shortName"
   end
 
-  create_table "content_authors", :force => true do |t|
-    t.integer  "user_id"
+  create_table "authors_contents", :force => true do |t|
+    t.integer  "author_id"
     t.integer  "content_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-  end
-
-  create_table "content_keywords", :force => true do |t|
-    t.string   "name"
-    t.boolean  "default"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
-    t.string   "mcvid"
-    t.string   "mayo_description"
-  end
-
-  create_table "content_vocabularies", :force => true do |t|
-    t.integer  "content_id"
-    t.integer  "mayo_vocabulary_id"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
   end
 
   create_table "contents", :force => true do |t|
@@ -49,12 +33,18 @@ ActiveRecord::Schema.define(:version => 20130226151658) do
     t.text     "body"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
-    t.integer  "author_id"
     t.string   "contentsType"
     t.text     "abstract"
     t.text     "question"
     t.text     "keywords"
     t.datetime "updateDate"
+  end
+
+  create_table "contents_vocabularies", :force => true do |t|
+    t.integer  "content_id"
+    t.integer  "mayo_vocabulary_id"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
   end
 
   create_table "mayo_vocabularies", :force => true do |t|

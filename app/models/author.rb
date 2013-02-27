@@ -1,4 +1,4 @@
 class Author < ActiveRecord::Base
   attr_accessible :imageURL, :name, :shortName
-  has_many :contents
+  has_and_belongs_to_many :contents
 end
