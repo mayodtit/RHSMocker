@@ -26,8 +26,7 @@ class ContentsController < ApplicationController
     @content = Content.find(params[:id])
     
     if params[:q] == 'cardview'
-      first_paragraph = @content.firstParagraph
-      html = render_to_string :action => "content_cardview", :formats=>:html, :locals => {:first_paragraph => first_paragraph}
+      html = render_to_string :action => "content_cardview", :formats=>:html, :locals => {:first_paragraph => @content.previewText}
       options = {"layout" => "cardview", "source" => html}
     else
       html =  render_to_string :action => "content_full", :formats=>:html
