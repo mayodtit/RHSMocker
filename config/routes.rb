@@ -22,7 +22,7 @@ RHSMocker::Application.routes.draw do
 
 
   resources :users
-  # resources :contents
+  resources :contents
   resources :authors
 
   match "/users/:id/readinglist"        => "users#showReadingList"
