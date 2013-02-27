@@ -1,43 +1,5 @@
 class Api::V1::UsersController < Api::V1::ABaseController
-   skip_before_filter :authentication_check, :only =>:create
-  # GET /users
-  # GET /users.json
-  def index
-    @users = User.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @users }
-    end
-  end
-
-  # GET /users/1
-  # GET /users/1.json
-  def show
-    @user = User.includes(:contents).find(params[:id])
-
-    respond_to do |format|
-      format.html #{ render html: @user.readContent }
-      format.json { render json: @user}
-    end
-  end
-
-
-  # GET /users/new
-  # GET /users/new.json
-  def new
-    @user = User.new
-
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @user }
-    end
-  end
-
-  # GET /users/1/edit
-  def edit
-    @user = User.find(params[:id])
-  end
+  skip_before_filter :authentication_check, :only =>:create
 
   def create
     # TODO: refactor into the model
@@ -45,8 +7,11 @@ class Api::V1::UsersController < Api::V1::ABaseController
       user = User.find_by_install_id(params[:user][:install_id])
     end
 
-    if user.present?
+    if user.present? && user.email.blank?
+      password = params[:user][:password]
+      params[:user].remove :password
       user.update_attributes params[:user]
+      user.password = password
     else
       user = User.new(params[:user])
     end
@@ -60,33 +25,17 @@ class Api::V1::UsersController < Api::V1::ABaseController
     end
   end
 
-  # PUT /users/1
-  # PUT /users/1.json
   def update
-    @user = User.find(params[:id])
+    user = User.find(params[:id])
 
-    respond_to do |format|
-      if @user.update_attributes(params[:user])
-        format.html { redirect_to @user, notice: 'User was successfully updated.' }
-        format.json { head :no_content }
-      else
-        format.html { render action: "edit" }
-        format.json { render json: @user.errors, status: :unprocessable_entity }
-      end
+    if user.update_attributes!(params[:user])
+      render_success user
+    else
+      render_failure {reason:user.errors.full_messages.to_sentences} 
     end
   end
 
-  # DELETE /users/1
-  # DELETE /users/1.json
-  # def destroy
-  #   @user = User.find(params[:id])
-  #   @user.destroy
-
-  #   respond_to do |format|
-  #     format.html { redirect_to users_url }
-  #     format.json { head :no_content }
-  #   end
-  # end
+  
 
   def read
     @user = User.find(params[:id])

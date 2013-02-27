@@ -29,7 +29,7 @@ resource "Users" do
     parameter :install_id, "Unique install_id"
     parameter :email, "Account email"
     parameter :password, "Account password"
-    scope_parameters :user, [:install_id]
+    scope_parameters :user, [:install_id, :email, :password]
 
     required_parameters :install_id
 

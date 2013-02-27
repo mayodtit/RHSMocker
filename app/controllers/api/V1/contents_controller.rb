@@ -1,9 +1,7 @@
 class Api::V1::ContentsController < Api::V1::ABaseController
-  # GET /contents
-  # GET /contents.json
-  def index
-    #@contents = Content.all
+  skip_before_filter :authentication_check
 
+  def index
     @contents = if params[:q].blank?
       Content.all :order => 'title ASC'
     else
@@ -13,30 +11,18 @@ class Api::V1::ContentsController < Api::V1::ABaseController
       end
     end
 
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @contents }
-    end
-
+    render :json => @contents
   end
 
-   # GET /contents/1
-  # GET /contents/1.json
   def show
     @content = Content.find(params[:id])
-    
-    if params[:q] == 'cardview'
-      first_paragraph = @content.firstParagraph
-      html = render_to_string :action => "content_cardview", :formats=>:html, :locals => {:first_paragraph => first_paragraph}
-      options = {"layout" => "cardview", "source" => html}
+    html = if params[:q] == 'cardview'
+      render_to_string :action => "content_cardview", :formats=>:html, :locals => {:first_paragraph => @content.firstParagraph}
     else
-      html =  render_to_string :action => "content_full", :formats=>:html
-      options = {"source" => html}
+      render_to_string :action => "content_full", :formats=>:html
     end
 
-    respond_to do |format|
-      format.html { render :text => html}
-      format.json { render :json => @content.as_json(options)}
-    end
+    render_success @content.as_json({"source"=>html})
   end
+
 end
