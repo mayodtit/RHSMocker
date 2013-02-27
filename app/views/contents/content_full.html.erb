@@ -5,7 +5,11 @@
 </div>
 
 <div class="content_title"><%= @content.title %></div>
-<div class="content_date_and_source"><%= @content.updateDate.strftime("%b. #{@content.updateDate.day.ordinalize}, %Y") %>&nbsp;&nbsp;|&nbsp;&nbsp;Mayo Clinic</div>
+<div class="content_date_and_source">
+	<% if !@content.updateDate.nil? %>
+		<%= @content.updateDate.strftime("%b. #{@content.updateDate.day.ordinalize}, %Y") %>&nbsp;&nbsp;|&nbsp;&nbsp;
+	<% end %>Mayo Clinic</div>
+
 <% if !@content.abstract.nil? %>
 	<div class="content_subtitle"><%= @content.abstract.html_safe%></div>
 <% end %>
