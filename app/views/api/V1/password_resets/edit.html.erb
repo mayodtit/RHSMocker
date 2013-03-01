@@ -1,0 +1,36 @@
+<% if @user.present? %>
+  <h2>Choose a new password</h2>
+
+  <%= form_for @user, :url => update_password_resets_path, :html => {:method=>:put} do |f| %>
+    <% if @user.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+      
+        <ul>
+        <% @user.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+      
+    <div class="field">
+      <%= f.label :password %>
+      <%= f.password_field :password %>
+    </div>
+
+    <div class="field">
+      <%= f.label :password_confirmation %>
+      <%= f.password_field :password_confirmation %>
+      <%= hidden_field_tag :token, @token %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit 'Reset password' %>
+    </div>
+
+  <% end %>
+
+<% else %>
+  <h2>Link has expired</h2>
+<% end %>

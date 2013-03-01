@@ -35,15 +35,10 @@ class Api::V1::UsersController < Api::V1::ABaseController
     end
   end
 
-  def reset_password
-    render_success 
-  end
-
+  # TODO - implement
   def update_password
     render_success 
   end
-
-  
 
   def read
     @user = User.find(params[:id])

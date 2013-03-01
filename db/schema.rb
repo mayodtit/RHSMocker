@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130227220233) do
+ActiveRecord::Schema.define(:version => 20130228154441) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -86,19 +86,24 @@ ActiveRecord::Schema.define(:version => 20130227220233) do
     t.string   "lastName"
     t.string   "gender"
     t.date     "birthDate"
-    t.datetime "created_at",                                                                     :null => false
-    t.datetime "updated_at",                                                                     :null => false
+    t.datetime "created_at",                                                                                   :null => false
+    t.datetime "updated_at",                                                                                   :null => false
     t.string   "imageURL"
-    t.string   "uuid",              :limit => 32
-    t.string   "install_id",        :limit => 36
+    t.string   "uuid",                            :limit => 32
+    t.string   "install_id",                      :limit => 36
     t.string   "email"
-    t.decimal  "height",                          :precision => 6, :scale => 2, :default => 0.0
+    t.decimal  "height",                                        :precision => 6, :scale => 2, :default => 0.0
     t.string   "phone"
     t.string   "generic_call_time"
     t.string   "password_digest"
     t.string   "crypted_password"
     t.string   "auth_token"
     t.string   "salt"
+    t.string   "reset_password_token"
+    t.datetime "reset_password_token_expires_at"
+    t.datetime "reset_password_email_sent_at"
   end
+
+  add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"
 
 end

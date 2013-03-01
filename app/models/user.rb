@@ -8,7 +8,7 @@ class User < ActiveRecord::Base
 	Pusher.secret = '513445887ae45c985287'
 
 	#height is stored in meters
-	attr_accessible :firstName, :lastName, :imageURL, :gender, :height, :birthDate, :install_id, :email, :phone, :generic_call_time
+	attr_accessible :firstName, :lastName, :imageURL, :gender, :height, :birthDate, :install_id, :email, :phone, :generic_call_time, :password, :password_confirmation
 	after_create :default_content
 
 	#Things the user has read
@@ -32,6 +32,9 @@ class User < ActiveRecord::Base
     :message => "%{value} is not a call time" }, :allow_nil => true
 
   validates_length_of :phone, :in => 7..11, :allow_blank => true
+
+  validates_length_of :password, :minimum => 8, :message => "must be at least 8 characters long", :if => :password
+  validates_confirmation_of :password, :message => "should match confirmation", :if => :password
 
 	#DEMOGRAPHIC and PHR Related methods
 	#+++++++++++++++++++++++++++++++++++
