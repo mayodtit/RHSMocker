@@ -1,4 +1,29 @@
 RHSMocker::Application.routes.draw do
+
+  namespace :api do
+    namespace :v1 do
+      #account management
+      post "signup" => "users#create", :as=>"signup"
+      post "login" => "sessions#create", :as=>"login"
+      delete "logout" => "sessions#destroy", :as=>"logout"
+      put "user" => "users#update", :as=>"user_update"
+      post "user/update_password" => "users#update_password", :as=>"update_password"
+      post "password_resets" => "password_resets#create", :as=>"create_password_resets"
+
+      #content
+      get "contents" => "contents#index", :as=>"content_index"
+      get "contents/:id" => "contents#show", :as=>"content_show"
+
+    end
+  end
+
+  get "password_resets/:id" => "api/v1/password_resets#edit", :as=>"edit_password_resets"
+  put "password_resets/:id" => "api/v1/password_resets#update", :as=>"update_password_resets"
+
+  match '/docs', :to => redirect('/docs/index.html')
+
+
+
   resources :users
   resources :contents
   resources :authors
