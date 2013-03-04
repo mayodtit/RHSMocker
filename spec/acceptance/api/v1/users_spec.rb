@@ -5,8 +5,10 @@ resource "Users" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  before(:each) do
-    @user = FactoryGirl.create(:user_with_email)
+  # currently, only update_password needs user object
+  before(:all) do
+    @password = 'current_password'
+    @user = FactoryGirl.create(:user_with_email, :password=>@password, :password_confirmation=>@password)
     @user.login
   end
 
@@ -26,7 +28,7 @@ resource "Users" do
 
       status.should == 200
     end
-
+ 
   end
 
   post '/api/v1/signup' do
@@ -52,24 +54,23 @@ resource "Users" do
 
   end
 
-
   post '/api/v1/user/update_password' do
-    parameter :password, "New account password"
-    parameter :auth_token, "Auth token"
+    parameter :auth_token,        "Auth token"
+    parameter :current_password,  "User's current password"
+    parameter :password,          "New account password"
 
-    required_parameters :password, :auth_token
+    required_parameters :auth_token, :current_password, :password
 
-    let (:password)   { "11111111" }
-    let (:auth_token) { @user.auth_token }
-    let (:raw_post)   { params.to_json }  # JSON format request body
+    let (:auth_token)       { @user.auth_token }
+    let (:current_password) { @password }
+    let (:password)         { "new_password" }
+    let (:raw_post)         { params.to_json }  # JSON format request body
 
     example_request "Change the Password" do
-      explanation "Change the password on the current user"
-
-      resp = JSON.parse response_body
-
+      explanation "Change the password for the current user"
       status.should == 200
+      JSON.parse(response_body)['user'].should_not be_empty
     end
-
   end
+
 end

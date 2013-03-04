@@ -35,9 +35,16 @@ class Api::V1::UsersController < Api::V1::ABaseController
     end
   end
 
-  # TODO - implement
   def update_password
-    render_success 
+    user = login(current_user.email, params[:current_password])
+    return render_failure( {reason:"Invalid current password"} ) unless user
+    return render_failure( {reason:"Empty new password"} ) unless params[:password].present?
+
+    if user.update_attributes(:password => params[:password])
+      render_success( {user:user} )
+    else
+      render_failure( {reason:user.errors.full_messages} )
+    end
   end
 
   def read

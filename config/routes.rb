@@ -8,19 +8,16 @@ RHSMocker::Application.routes.draw do
       delete "logout" => "sessions#destroy", :as=>"logout"
       put "user" => "users#update", :as=>"user_update"
       post "user/update_password" => "users#update_password", :as=>"update_password"
+      post "password_resets" => "password_resets#create", :as=>"create_password_resets"
 
       #content
       get "contents" => "contents#index", :as=>"content_index"
       get "contents/:id" => "contents#show", :as=>"content_show"
 
-      post "password_resets" => "password_resets#create", :as=>"create_password_resets"
-      # resources :password_resets, :only=>:create
-      # get "password_resets/update"
     end
   end
 
   get "password_resets/:id" => "api/v1/password_resets#edit", :as=>"edit_password_resets"
-  # get "password_resets/:id" => "Api::V1::PasswordResets#edit", :as=>"edit_password_resets"
   put "password_resets/:id" => "api/v1/password_resets#update", :as=>"update_password_resets"
 
   match '/docs', :to => redirect('/docs/index.html')
