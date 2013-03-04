@@ -17,7 +17,7 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   def show
     @content = Content.find(params[:id])
     html = if params[:q] == 'cardview'
-      render_to_string :action => "content_cardview", :formats=>:html, :locals => {:first_paragraph => @content.firstParagraph}
+      render_to_string :action => "content_cardview", :formats=>:html, :locals => {:first_paragraph => @content.previewText}
     else
       render_to_string :action => "content_full", :formats=>:html
     end
