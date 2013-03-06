@@ -14,6 +14,11 @@ class User < ActiveRecord::Base
 	#Things the user has read
 	has_many :user_readings
 
+	has_many :messages
+
+  has_many :user_diseases
+  has_many :diseases, :through=> :user_diseases
+
 	#Weight Readings
 	has_many :user_weights
 
@@ -23,6 +28,13 @@ class User < ActiveRecord::Base
 	has_many :contents, :through => :user_readings
 
 	has_many :content_authors
+
+	has_many :associations, :dependent => :destroy
+  has_many :associates, :through=>:associations
+
+  has_and_belongs_to_many :institutions
+
+  has_many :feedbacks
 
 	#Validations
 	#++++++++++++++

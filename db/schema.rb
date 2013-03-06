@@ -11,8 +11,24 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+ActiveRecord::Schema.define(:version => 20130306221204) do
 
-ActiveRecord::Schema.define(:version => 20130228154441) do
+  create_table "associations", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "associate_id"
+    t.string   "relation_type"
+    t.string   "relation"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
+
+  add_index "associations", ["user_id"], :name => "index_associations_on_user_id"
+
+  create_table "attachments", :force => true do |t|
+    t.string   "url"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -48,6 +64,34 @@ ActiveRecord::Schema.define(:version => 20130228154441) do
     t.datetime "updated_at",         :null => false
   end
 
+  create_table "diseases", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "feedbacks", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "note"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "feedbacks", ["user_id"], :name => "index_feedbacks_on_user_id"
+
+  create_table "institutions", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "institutions_users", :force => true do |t|
+    t.integer  "institution_id"
+    t.integer  "user_id"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+  end
+
   create_table "mayo_vocabularies", :force => true do |t|
     t.string   "mcvid"
     t.string   "title"
@@ -55,10 +99,33 @@ ActiveRecord::Schema.define(:version => 20130228154441) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "recipe_contents", :force => true do |t|
+  create_table "mayo_vocabularies_messages", :force => true do |t|
+    t.integer  "mayo_vocabulary_id"
+    t.integer  "message_id"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+  end
+
+  create_table "messages", :force => true do |t|
+    t.string   "text"
+    t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "user_diseases", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "disease_id"
+    t.date     "start_date"
+    t.date     "end_date"
+    t.boolean  "being_treated"
+    t.boolean  "diagnosed"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
+
+  add_index "user_diseases", ["disease_id"], :name => "index_user_diseases_on_disease_id"
+  add_index "user_diseases", ["user_id"], :name => "index_user_diseases_on_user_id"
 
   create_table "user_locations", :force => true do |t|
     t.integer  "user_id"
