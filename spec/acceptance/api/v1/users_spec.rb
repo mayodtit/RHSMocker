@@ -73,4 +73,27 @@ resource "Users" do
     end
   end
 
+
+
+  put '/api/v1/user' do
+    parameter :auth_token,        "Auth token"
+    parameter :user,              "User object"
+    parameter :phone,          "User's phone"
+    parameter :firstName,          "User's first name"
+    scope_parameters :user, [:phone, :firstName]
+
+    required_parameters :user, :auth_token
+
+    let (:auth_token)       { @user.auth_token }
+    let (:phone)         { "34534544" }
+    let (:firstName)         { "Batman" }
+    let (:raw_post)         { params.to_json }  # JSON format request body
+
+    example_request "Update the current user" do
+      explanation "Update attributes for currently logged in user (as identified by auth_token)"
+      status.should == 200
+      JSON.parse(response_body)['user'].should_not be_empty
+    end
+  end
+
 end

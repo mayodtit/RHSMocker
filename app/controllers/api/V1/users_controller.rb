@@ -26,12 +26,20 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def update
-    user = User.find(params[:id])
-
-    if user.update_attributes!(params[:user])
-      render_success user
+    if params[:id].present?
+      if current_user.allowed_to_edit_user? params[:id].to_i
+        user = User.find(params[:id])
+      else
+        return render_failure({reason:"Not authorized to edit this user"})
+      end
     else
-      render_failure {reason:user.errors.full_messages.to_sentences} 
+      user = current_user
+    end
+
+    if user.update_attributes(params[:user])
+      render_success({user:user})
+    else
+      render_failure({reason:user.errors.full_messages.to_sentence}, 422) 
     end
   end
 
@@ -153,6 +161,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
       format.json { render json: @user.keywords}
     end
   end
+
 
 
 end

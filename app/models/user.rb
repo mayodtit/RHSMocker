@@ -196,4 +196,9 @@ class User < ActiveRecord::Base
 		self.user_readings.where(:read_date => nil, :dismiss_date => nil, :read_later_count => 0).count >= 7
 	end
 
+
+	def allowed_to_edit_user? user_id
+		associates.map(&:id).include? user_id
+  end
+
 end
