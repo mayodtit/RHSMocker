@@ -3,6 +3,7 @@
 FactoryGirl.define do
   factory :association do
     user nil
+    associate nil
     relation_type "MyString"
     relation "MyString"
   end
