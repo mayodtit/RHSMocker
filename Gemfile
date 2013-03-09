@@ -73,7 +73,7 @@ gem 'lorem-ipsum-me'
 gem 'sorcery'
 
 
-
+gem "active_model_serializers", "~> 0.7.0"
 # To use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.0.0'
 

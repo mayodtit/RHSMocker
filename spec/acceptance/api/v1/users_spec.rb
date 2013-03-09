@@ -31,7 +31,7 @@ resource "Users" do
 
       status.should == 200
     end
- 
+
   end
 
   post '/api/v1/signup' do
@@ -82,14 +82,14 @@ resource "Users" do
     parameter :auth_token,        "Auth token"
     parameter :user,              "User object"
     parameter :phone,          "User's phone"
-    parameter :firstName,          "User's first name"
-    scope_parameters :user, [:phone, :firstName]
+    parameter :first_name,          "User's first name"
+    scope_parameters :user, [:phone, :first_name]
 
     required_parameters :user, :auth_token
 
     let (:auth_token)       { @user.auth_token }
     let (:phone)         { "34534544" }
-    let (:firstName)         { "Batman" }
+    let (:first_name)         { "Batman" }
     let (:raw_post)         { params.to_json }  # JSON format request body
 
     example_request "Update the current user" do
@@ -104,15 +104,15 @@ resource "Users" do
     parameter :id,          "ID of user to update"
     parameter :user,        "User object"
     parameter :phone,       "User's phone"
-    parameter :firstName,   "User's first name"
-    scope_parameters :user, [:phone, :firstName]
+    parameter :first_name,   "User's first name"
+    scope_parameters :user, [:phone, :first_name]
 
     required_parameters :user, :auth_token, :id
 
     let (:auth_token) { @user.auth_token }
     let (:id)         { @user.associates.first.id }
     let (:phone)      { "34534544" }
-    let (:firstName)  { "Batman" }
+    let (:first_name)  { "Batman" }
     let (:raw_post)   { params.to_json }  # JSON format request body
 
     example_request "Update the specific user" do
