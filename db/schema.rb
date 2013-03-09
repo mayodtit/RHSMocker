@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130309001249) do
+ActiveRecord::Schema.define(:version => 20130309055215) do
 
   create_table "associations", :force => true do |t|
     t.integer  "user_id"
@@ -47,9 +47,9 @@ ActiveRecord::Schema.define(:version => 20130309001249) do
 
   create_table "contents", :force => true do |t|
     t.string   "title"
-    t.text     "body"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.text     "body",         :limit => 255
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
     t.string   "contentsType"
     t.text     "abstract"
     t.text     "question"
@@ -106,6 +106,13 @@ ActiveRecord::Schema.define(:version => 20130309001249) do
     t.datetime "updated_at",         :null => false
   end
 
+  create_table "mayo_vocabulary", :force => true do |t|
+    t.string   "mcvid"
+    t.string   "title"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "messages", :force => true do |t|
     t.string   "text"
     t.integer  "user_id"
@@ -142,7 +149,7 @@ ActiveRecord::Schema.define(:version => 20130309001249) do
     t.datetime "created_at",                      :null => false
     t.datetime "updated_at",                      :null => false
     t.datetime "read_later_date"
-    t.integer  "read_later_count", :default => 0
+    t.integer  "read_later_count", :default => 0, :null => false
     t.datetime "dismiss_date"
   end
 
@@ -162,13 +169,11 @@ ActiveRecord::Schema.define(:version => 20130309001249) do
     t.datetime "created_at",                                                                                   :null => false
     t.datetime "updated_at",                                                                                   :null => false
     t.string   "image_url"
-    t.string   "uuid",                            :limit => 32
     t.string   "install_id",                      :limit => 36
     t.string   "email"
     t.decimal  "height",                                        :precision => 6, :scale => 2, :default => 0.0
     t.string   "phone"
     t.string   "generic_call_time"
-    t.string   "password_digest"
     t.string   "crypted_password"
     t.string   "auth_token"
     t.string   "salt"
