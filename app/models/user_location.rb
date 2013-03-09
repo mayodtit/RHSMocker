@@ -1,10 +1,10 @@
 class UserLocation < ActiveRecord::Base
-  attr_accessible :lat, :long
+  attr_accessible :latitude, :longitude, :user
 
 	belongs_to :user
 
 	#Validations
-	validates :lat,  :presence => true
-	validates :long, :presence => true
+	validates :latitude,  :presence => true
+	validates :longitude, :presence => true
 
 end

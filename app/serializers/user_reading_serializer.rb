@@ -1,3 +1,3 @@
 class UserReadingSerializer < ActiveModel::Serializer
- attributes :id
+  attributes :id
 end

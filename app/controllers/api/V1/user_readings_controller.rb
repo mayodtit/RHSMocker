@@ -32,7 +32,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
     return render_failure("Not Found", 404) unless user_reading
     return render_failure("Not allowed to change this user reading", 401) if user_reading.user_id!=current_user.id
     user_reading.update_attribute :read_later_date, Time.now
-    UserReading.increment_counter(:read_later_counter, user_reading.id)
+    UserReading.increment_counter(:read_later_count, user_reading.id)
     PusherModule.broadcast(user_reading.user_id, 'readLater', user_reading.content_id, user_reading.content.contentsType)
     render_success
   end
@@ -56,6 +56,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
       reading.read_later_date = nil
       reading.save!
     end
+    render_success
   end
 
   def push_random_content
@@ -63,7 +64,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
     if !hasMaxContent
       randomContentID = Content.getRandomContent()
       randomContent = Content.find(randomContentID)
-      UserReading.create(user:self, content:randomContent)
+      UserReading.create(user:current_user, content:randomContent)
       PusherModule.broadcast(current_user.id, 'newcontent', randomContent.id, randomContent.contentsType)
     end
   end

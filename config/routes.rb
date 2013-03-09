@@ -23,8 +23,8 @@ RHSMocker::Application.routes.draw do
       get "user_readings/reset" => "user_readings#reset", :as=>"user_readings_reset"
 
 
-      post "location" =>"user_location#create", :as=>"create_user_location"
-      post "weight" => "user_weight#create", :as=>"create_user_weight"
+      post "location" =>"user_locations#create", :as=>"create_user_location"
+      post "weight" => "user_weights#create", :as=>"create_user_weight"
 
       get "user/keywords" => "user#keywords", :as=>"user_keywords"
 

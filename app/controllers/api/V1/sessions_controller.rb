@@ -1,14 +1,12 @@
 class Api::V1::SessionsController < Api::V1::ABaseController
   skip_before_filter :authentication_check, :only =>:create
 
-  HTTP_ERRORS = []
-
   def create
-    if params[:email] && params[:password]    
+    if params[:email] && params[:password]
       user = login(params[:email], params[:password])
     elsif params[:install_id]
       user = User.find_by_install_id(params[:install_id])
-      if user.present? 
+      if user.present?
         if user.email.present?
           user = nil
         else
@@ -17,7 +15,7 @@ class Api::V1::SessionsController < Api::V1::ABaseController
       end
     end
 
-    if user.blank? 
+    if user.blank?
       render_failure({reason:"Incorrect credentials"}, 401) unless performed?
     else
       user.login
@@ -31,6 +29,4 @@ class Api::V1::SessionsController < Api::V1::ABaseController
     logout
     render_success
   end
-
-
 end
