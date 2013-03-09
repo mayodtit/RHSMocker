@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130306221204) do
+ActiveRecord::Schema.define(:version => 20130309001249) do
 
   create_table "associations", :force => true do |t|
     t.integer  "user_id"
@@ -129,8 +129,8 @@ ActiveRecord::Schema.define(:version => 20130306221204) do
 
   create_table "user_locations", :force => true do |t|
     t.integer  "user_id"
-    t.decimal  "lat",        :precision => 10, :scale => 6
-    t.decimal  "long",       :precision => 10, :scale => 6
+    t.decimal  "latitude",   :precision => 10, :scale => 6
+    t.decimal  "longitude",  :precision => 10, :scale => 6
     t.datetime "created_at",                                :null => false
     t.datetime "updated_at",                                :null => false
   end
@@ -155,13 +155,13 @@ ActiveRecord::Schema.define(:version => 20130306221204) do
   end
 
   create_table "users", :force => true do |t|
-    t.string   "firstName"
-    t.string   "lastName"
+    t.string   "first_name"
+    t.string   "last_name"
     t.string   "gender"
-    t.date     "birthDate"
+    t.date     "birth_date"
     t.datetime "created_at",                                                                                   :null => false
     t.datetime "updated_at",                                                                                   :null => false
-    t.string   "imageURL"
+    t.string   "image_url"
     t.string   "uuid",                            :limit => 32
     t.string   "install_id",                      :limit => 36
     t.string   "email"

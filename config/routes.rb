@@ -15,6 +15,19 @@ RHSMocker::Application.routes.draw do
       get "contents" => "contents#index", :as=>"content_index"
       get "contents/:id" => "contents#show", :as=>"content_show"
 
+      #reading list
+      get "user_readings" => "user_readings#index", :as=>"user_readings_index"
+      get "user_readings/:id/mark_read" => "user_readings#mark_read", :as=>"user_readings_mark_read"
+      get "user_readings/:id/dismiss" => "user_readings#dismiss", :as=>"user_readings_dismiss"
+      get "user_readings/:id/read_later" => "user_readings#read_later", :as=>"user_readings_read_later"
+      get "user_readings/reset" => "user_readings#reset", :as=>"user_readings_reset"
+
+
+      post "location" =>"user_location#create", :as=>"create_user_location"
+      post "weight" => "user_weight#create", :as=>"create_user_weight"
+
+      get "user/keywords" => "user#keywords", :as=>"user_keywords"
+
     end
   end
 
@@ -22,7 +35,6 @@ RHSMocker::Application.routes.draw do
   put "password_resets/:id" => "api/v1/password_resets#update", :as=>"update_password_resets"
 
   match '/docs', :to => redirect('/docs/index.html')
-
 
 
   resources :users
@@ -37,61 +49,4 @@ RHSMocker::Application.routes.draw do
   match "/users/:id/weight/:weight"     => "users#updateWeight"
   match "/users/:id/location/:lat/:long" => "users#addLocation"
   match "/users/:id/keywords"           => "users#keywords"
-
-  # The priority is based upon order of creation:
-  # first created -> highest priority.
-
-  # Sample of regular route:
-  #   match 'products/:id' => 'catalog#view'
-  # Keep in mind you can assign values other than :controller and :action
-
-  # Sample of named route:
-  #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
-  # This route can be invoked with purchase_url(:id => product.id)
-
-  # Sample resource route (maps HTTP verbs to controller actions automatically):
-  #   resources :products
-
-  # Sample resource route with options:
-  #   resources :products do
-  #     member do
-  #       get 'short'
-  #       post 'toggle'
-  #     end
-  #
-  #     collection do
-  #       get 'sold'
-  #     end
-  #   end
-
-  # Sample resource route with sub-resources:
-  #   resources :products do
-  #     resources :comments, :sales
-  #     resource :seller
-  #   end
-
-  # Sample resource route with more complex sub-resources
-  #   resources :products do
-  #     resources :comments
-  #     resources :sales do
-  #       get 'recent', :on => :collection
-  #     end
-  #   end
-
-  # Sample resource route within a namespace:
-  #   namespace :admin do
-  #     # Directs /admin/products/* to Admin::ProductsController
-  #     # (app/controllers/admin/products_controller.rb)
-  #     resources :products
-  #   end
-
-  # You can have the root of your site routed with "root"
-  # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
-
-  # See how all your routes lay out with "rake routes"
-
-  # This is a legacy wild controller route that's not recommended for RESTful applications.
-  # Note: This route will make all actions in every controller accessible via GET requests.
-  # match ':controller(/:action(/:id))(.:format)'
 end

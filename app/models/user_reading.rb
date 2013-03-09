@@ -4,15 +4,4 @@ class UserReading < ActiveRecord::Base
   belongs_to :content
   belongs_to :user
 
-  def as_json(options)
-  		{:content_id => content.id, 
-  			:content_title => content.title, 
-  			:type => content.contentsType,
-  			:user_id => user_id, 
-  		 	:read_date => read_date,
-  			:read_later_date => read_later_date, 
-  			:dismiss_date => dismiss_date}
-  end
-
-
 end
