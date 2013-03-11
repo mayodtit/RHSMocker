@@ -4,7 +4,8 @@ class Content < ActiveRecord::Base
   attr_accessible :title, :body, :contentsType, :abstract, :question, :keywords, :updateDate
   
   has_and_belongs_to_many :authors
-  has_and_belongs_to_many :mayo_vocabularies
+  has_many :contents_mayo_vocabularies
+  has_many :mayo_vocabularies, :through => :contents_mayo_vocabularies
 
   has_many :user_readings
   has_many :users,

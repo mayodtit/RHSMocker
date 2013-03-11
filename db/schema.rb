@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130311031542) do
+ActiveRecord::Schema.define(:version => 20130311152251) do
 
   create_table "associations", :force => true do |t|
     t.integer  "user_id"
@@ -57,7 +57,7 @@ ActiveRecord::Schema.define(:version => 20130311031542) do
     t.datetime "updateDate"
   end
 
-  create_table "contents_vocabularies", :force => true do |t|
+  create_table "contents_mayo_vocabularies", :force => true do |t|
     t.integer  "content_id"
     t.integer  "mayo_vocabulary_id"
     t.datetime "created_at",         :null => false

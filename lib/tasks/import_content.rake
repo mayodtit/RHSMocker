@@ -71,7 +71,8 @@ namespace :admin do
 					end
 
 					if !@mayoVocab.nil?
-						ContentVocabulary.create(mayo_vocabulary:@mayoVocab, content:@content)
+						@content.mayo_vocabularies << @mayoVocab
+						#ContentVocabulary.create(mayo_vocabulary:@mayoVocab, content:@content)
 					end
 
 			end
