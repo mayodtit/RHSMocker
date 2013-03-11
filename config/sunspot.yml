@@ -1,6 +1,6 @@
 production:
   solr:
-    hostname: localhost
+    hostname: <%=ENV["WEBSOLR_URL"]%>
     port: 8983
     log_level: WARNING
 
