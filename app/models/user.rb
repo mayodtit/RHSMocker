@@ -78,7 +78,7 @@ class User < ActiveRecord::Base
     associates.map(&:id).include? user_id
   end
 
-  ßdef readContent
+  def readContent
     readingList = Array.new
 
     if !self.user_readings.empty?
