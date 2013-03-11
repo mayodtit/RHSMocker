@@ -46,7 +46,7 @@ class User < ActiveRecord::Base
 
 
 	def full_name
-		return "Not Set" if !first_name.nil? && !last_name.nil?
+		return "Not Set" if first_name.empty? || last_name.empty?
 		"#{first_name} #{last_name}".strip
 	end
 

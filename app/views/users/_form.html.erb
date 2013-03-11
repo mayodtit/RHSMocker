@@ -12,7 +12,7 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :firstName %><%= f.text_field :firstName %><%= f.label :lastName %><%= f.text_field :lastName %>
+    <%= f.label :first_name %><%= f.text_field :first_name %><%= f.label :last_name %><%= f.text_field :last_name %>
   </div>
   <div class="field">
     <%= f.label :email %><br />
@@ -27,8 +27,8 @@
     <%= f.text_field :gender %>
   </div>
   <div class="field">
-    <%= f.label :birthDate %><br />
-    <%= f.date_select :birthDate %>
+    <%= f.label :birth_date %><br />
+    <%= f.date_select :birth_date %>
   </div>
     <div class="field">
     <%= f.label 'Install ID' %><%= @user.install_id %>

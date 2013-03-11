@@ -14,16 +14,16 @@
   <tr>
     <td><%= user.id %></td>
     <td>
-    <% if user.fullName.nil? %>
+    <% if user.full_name.nil? %>
         <%= link_to 'Show', user %>
     <% else %>
-        <%= link_to user.fullName, user %>
+        <%= link_to user.full_name, user %>
     <% end %>
         &nbsp;|&nbsp;<%= link_to 'Edit', edit_user_path(user) %></td>
     <td><%= user.email %></td>
     <td><%= user.install_id %></td>
     <td><%= user.gender %></td>
-    <td><%= user.birthDate %></td>
+    <td><%= user.birth_date %></td>
   </tr>
 <% end %>
 </table>
