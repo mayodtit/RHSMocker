@@ -2,38 +2,34 @@ require 'pusher_module'
 include PusherModule
 
 class Api::V1::UserReadingsController < Api::V1::ABaseController
-
   after_filter :push_random_content, :only => [:mark_read, :dismiss, :read_later]
 
   def index
-    render_success contents:current_user.user_readings
+    render_success contents:current_user.contents
   end
 
   def mark_read
-    user_reading = UserReading.find(params[:id])
-    return render_failure("Not Found", 404) unless user_reading
-    return render_failure("Not allowed to change this user reading", 401) if user_reading.user_id!=current_user.id
-    user_reading.update_attribute :read_date, Time.now
-    PusherModule.broadcast(user_reading.user_id, 'read', user_reading.content_id, user_reading.content.contentsType)
-    render_success
+    status :read_date, 'read'
   end
 
   def dismiss
-    user_reading = UserReading.find(params[:id])
-    return render_failure("Not Found", 404) unless user_reading
-    return render_failure("Not allowed to change this user reading", 401) if user_reading.user_id!=current_user.id
-    user_reading.update_attribute :dismiss_date, Time.now
-    PusherModule.broadcast(user_reading.user_id, 'dismissed', user_reading.content_id, user_reading.content.contentsType)
-    render_success
+    status :dismiss_date, 'dismissed'
   end
 
   def read_later
-    user_reading = UserReading.find(params[:id])
-    return render_failure("Not Found", 404) unless user_reading
-    return render_failure("Not allowed to change this user reading", 401) if user_reading.user_id!=current_user.id
-    user_reading.update_attribute :read_later_date, Time.now
-    UserReading.increment_counter(:read_later_count, user_reading.id)
-    PusherModule.broadcast(user_reading.user_id, 'readLater', user_reading.content_id, user_reading.content.contentsType)
+    status :read_later_date, 'readLater' do |user_reading|
+      UserReading.increment_counter(:read_later_count, user_reading.id)
+    end
+  end
+
+  def status attribute, broadcast
+    return render_failure("'contents' not part of json", 417) unless params[:contents]
+    params[:contents].each do |content|
+      user_reading = UserReading.find_or_create_by_user_id_and_content_id(current_user.id, content['id'])
+      user_reading.update_attribute attribute, Time.now
+      yield user_reading if block_given?
+      PusherModule.broadcast(user_reading.user_id, broadcast, user_reading.content_id, user_reading.content.contentsType)
+    end
     render_success
   end
 

@@ -27,18 +27,6 @@ class Content < ActiveRecord::Base
 		end
 	end
 
-def previewText
-	if !body.nil?
-		#first_paragraph = Nokogiri::HTML.parse(body).css('p').first.text
-		two_sentances = body.split('. ').slice(0, 3).join('. ')
-  		# Take first 50 words of the above
-  		preview = two_sentances.split(' ').slice(0, 20).join(' ')
-  		preview += "..."
-  		#todo add in javascript link here
-  	end
-end
-
-
 	def previewText
 		if !body.nil?
 			#first_paragraph = Nokogiri::HTML.parse(body).css('p').first.text
