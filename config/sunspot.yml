@@ -1,6 +1,6 @@
 production:
   solr:
-    hostname: http://index.websolr.com/solr/c3ffe4a4efc
+    hostname: localhost #ignored, use web_solr_url in heroku
     port: 8983
     log_level: WARNING
 
