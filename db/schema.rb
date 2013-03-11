@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130309055215) do
+ActiveRecord::Schema.define(:version => 20130311031542) do
 
   create_table "associations", :force => true do |t|
     t.integer  "user_id"
@@ -32,10 +32,10 @@ ActiveRecord::Schema.define(:version => 20130309055215) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
-    t.string   "imageURL"
+    t.string   "image_url"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-    t.string   "shortName"
+    t.string   "short_name"
   end
 
   create_table "authors_contents", :force => true do |t|
@@ -47,9 +47,9 @@ ActiveRecord::Schema.define(:version => 20130309055215) do
 
   create_table "contents", :force => true do |t|
     t.string   "title"
-    t.text     "body",         :limit => 255
-    t.datetime "created_at",                  :null => false
-    t.datetime "updated_at",                  :null => false
+    t.text     "body"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
     t.string   "contentsType"
     t.text     "abstract"
     t.text     "question"
@@ -106,13 +106,6 @@ ActiveRecord::Schema.define(:version => 20130309055215) do
     t.datetime "updated_at",         :null => false
   end
 
-  create_table "mayo_vocabulary", :force => true do |t|
-    t.string   "mcvid"
-    t.string   "title"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
   create_table "messages", :force => true do |t|
     t.string   "text"
     t.integer  "user_id"
@@ -149,7 +142,7 @@ ActiveRecord::Schema.define(:version => 20130309055215) do
     t.datetime "created_at",                      :null => false
     t.datetime "updated_at",                      :null => false
     t.datetime "read_later_date"
-    t.integer  "read_later_count", :default => 0, :null => false
+    t.integer  "read_later_count", :default => 0
     t.datetime "dismiss_date"
   end
 

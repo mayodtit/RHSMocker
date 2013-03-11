@@ -22,10 +22,10 @@ welcome = Content.create!(
 
 
 # Create some default Users
-nancy 	= User.create!(firstName: "Nancy", 	lastName: "Smith", 	gender:"F", birthDate:"06/18/1950", install_id: "123345")
-bob 	= User.create!(firstName: "Bob", 	lastName: "Jones", 	gender:"M", birthDate:"01/10/1973", install_id: "122233")
-limburg = User.create!(firstName: "Paul", 	lastName: "Limburg",gender:"M", install_id: "144444") 
-shelly  = User.create!(firstName: "Shelly", 	lastName: "Norman", gender:"F", imageURL: "shelly.png", install_id: "555555")
+nancy 	= User.create!(first_name: "Nancy", last_name: "Smith", 	gender:"F", birth_date:"06/18/1950", install_id: "123345")
+bob 	= User.create!(first_name: "Bob", 	last_name: "Jones", 	gender:"M", birth_date:"01/10/1973", install_id: "122233")
+limburg = User.create!(first_name: "Paul", 	last_name: "Limburg",	gender:"M", install_id: "144444") 
+shelly  = User.create!(first_name: "Shelly",last_name: "Norman", 	gender:"F", imageURL: "shelly.png", install_id: "555555")
 
 
 ContentAuthor.create!(user:shelly, content:installed)
