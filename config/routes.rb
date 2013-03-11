@@ -17,10 +17,10 @@ RHSMocker::Application.routes.draw do
 
       #reading list
       get "user_readings" => "user_readings#index", :as=>"user_readings_index"
-      get "user_readings/:id/mark_read" => "user_readings#mark_read", :as=>"user_readings_mark_read"
-      get "user_readings/:id/dismiss" => "user_readings#dismiss", :as=>"user_readings_dismiss"
-      get "user_readings/:id/read_later" => "user_readings#read_later", :as=>"user_readings_read_later"
-      get "user_readings/reset" => "user_readings#reset", :as=>"user_readings_reset"
+      post "contents/mark_read" => "user_readings#mark_read", :as=>"contents_mark_read"
+      post "contents/dismiss" => "user_readings#dismiss", :as=>"contents_dismiss"
+      post "contents/read_later" => "user_readings#read_later", :as=>"contents_read_later"
+      post "contents/reset" => "user_readings#reset", :as=>"contents_reset"
 
 
       post "location" =>"user_locations#create", :as=>"create_user_location"
