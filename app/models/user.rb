@@ -78,4 +78,90 @@ class User < ActiveRecord::Base
     associates.map(&:id).include? user_id
   end
 
+  ßdef readContent
+    readingList = Array.new
+
+    if !self.user_readings.empty?
+
+      self.user_readings.order('read_date DESC').includes(:content).each do |reading|
+      readingList << reading
+    end
+
+    end
+  end
+
+  def markRead(content)
+    userReadings = UserReading.where("user_id = ? AND content_id = ?", self.id, content.id)
+    if userReadings.size == 1 and userReadings.first.read_date.nil?
+      userReading = userReadings.first 
+      userReading.read_date = Time.now
+      userReading.save!
+      notifyContentChange('read', content.id, content.contentsType)
+    else
+      userReadings = nil #throw an error on the size or skip on the already dismissed
+    end
+    #TESTCODE
+    self.checkForNewContent
+    userReadings
+  end
+
+  def markDismissed(content)
+    userReadings = UserReading.where("user_id = ? AND content_id = ?", self.id, content.id)
+    if userReadings.size == 1 and userReadings.first.dismiss_date.nil? and userReadings.first.read_date.nil?
+      userReading = userReadings.first 
+      userReading.dismiss_date = Time.now
+      userReading.save!
+      notifyContentChange('dismissed', content.id, content.contentsType)
+    else
+      userReadings = nil #throw an error on the size or skip on the already dismissed
+    end
+    #TESTCODE
+    self.checkForNewContent
+    userReadings
+  end
+
+  def markReadLater(content)
+    userReadings = UserReading.where("user_id = ? AND content_id = ?", self.id, content.id)
+    if userReadings.size == 1 and userReadings.first.read_date.nil?
+      userReading = userReadings.first 
+      userReading.read_later_date, = Time.now
+      userReading.read_later_count = userReading.read_later_count + 1 #no ++ incrementor sucks
+      userReading.save!
+      notifyContentChange('readLater', content.id, content.contentsType)
+    else
+      userReadings = nil #throw an error on the size or skip on the already dismissed
+    end
+  end
+
+  def resetReadingList
+    self.user_readings.each do |reading|
+
+      if reading.content_id != 1 #nasty hack to not reset installed message
+        reading.read_date     = nil
+        reading.dismiss_date  = nil
+        reading.read_later_count = 0
+        reading.read_later_date = nil
+        reading.save!
+      end
+    end
+  end
+
+  def notifyContentChange(type, contentID, contentType)
+    Pusher['RHS_'+self.id.to_s].trigger(type, {:content_id => contentID, :content_type => contentType})
+  end
+
+  def checkForNewContent
+    #create something, add to user_Reading, push it out
+    if !hasMaxContent
+      randomContentID = Content.getRandomContent()
+      randomContent = Content.find(randomContentID)
+      UserReading.create(user:self, content:randomContent)
+      Pusher['RHS_'+self.id.to_s].trigger('newcontent', {:content_id => randomContent.id, :content_type => randomContent.contentsType})
+    end
+  end
+
+  def hasMaxContent
+    self.user_readings.where(:read_date => nil, :dismiss_date => nil, :read_later_count => 0).count >= 7
+  end
+
 end
