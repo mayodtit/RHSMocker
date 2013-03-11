@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contents API</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="docs/assets/stylesheets/bootstrap.css"/>
+    <link rel="stylesheet" href="docs/assets/stylesheets/codemirror.css"/>
+    <link rel="stylesheet" href="docs/assets/stylesheets/application.css"/>
+    <script src="docs/assets/javascripts/jquery-1-7-2.js"></script>
+    <script src="docs/assets/javascripts/codemirror.js"></script>
+    <script src="docs/assets/javascripts/mode/css/css.js"></script>
+    <script src="docs/assets/javascripts/mode/htmlmixed/htmlmixed.js"></script>
+    <script src="docs/assets/javascripts/mode/javascript/javascript.js"></script>
+    <script src="docs/assets/javascripts/mode/xml/xml.js"></script>
+    <script>
+      function mirror(textarea, contentType, options) {
+        $textarea = $(textarea);
+        if ($textarea.val() != '') {
+          if(contentType.indexOf('json') >= 0) {
+            $textarea.val(JSON.stringify(JSON.parse($textarea.val()), undefined, 2));
+            options.json = true;
+            options.mode = 'javascript';
+          } else if (contentType.indexOf('javascript') >= 0) {
+            options.mode = 'javascript';
+          } else if (contentType.indexOf('xml') >= 0) {
+            options.mode = 'xml';
+          } else {
+            options.mode = 'htmlmixed';
+          }
+        }
+        return CodeMirror.fromTextArea(textarea, options);
+      };
+
+      $(function(){
+        $(".request.body").each(function(i, el) {
+          el = $(el);
+          mirror(el.find("textarea")[0], el.data("content-type"), { "readOnly": true, "lineNumbers": true });
+        });
+        $(".response.body").each(function(i, el) {
+          el = $(el);
+          mirror(el.find("textarea")[0], el.data("content-type"), { "readOnly": true, "lineNumbers": true });
+        });
+      });
+    </script>
+    <style>
+      td.required .name:after {
+        float: right;
+        content: "required";
+        font-weight: normal;
+        color: #F08080;
+      }
+
+      p {
+        padding: 15px;
+        font-size: 130%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Contents API</h1>
+
+      <div class="article">
+        <h2>Getting all the contents</h2>
+        <h3>GET /api/v1/contents</h3>
+          <p class="explanation">
+            Getting all the contents (should not be used in the iOS app)
+          </p>
+
+
+          <h3>Request</h3>
+
+          <h4>Headers</h4>
+          <pre class="request headers">Accept: application/json
+Content-Type: application/json
+Host: example.org
+Cookie: </pre>
+
+          <h4>Route</h4>
+          <pre class="request route highlight">GET /api/v1/contents</pre>
+
+
+
+
+            <h3>Response</h3>
+            <h4>Headers</h4>
+            <pre class="response headers">Content-Type: application/json; charset=utf-8
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: &quot;2bb619597baa1f5c10d6993bfb50bff8&quot;
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 7f136b8b45ddf4f2ec01840853da242f
+X-Runtime: 0.050959
+Content-Length: 15</pre>
+            <h4>Status</h4>
+            <pre class="response status">200 OK</pre>
+              <h4>Body</h4>
+              <div class="response body" data-content-type="application/json; charset=utf-8"><textarea>{"contents":[]}</textarea></div>
+      </div>
+    </div>
+  </body>
+</html>
