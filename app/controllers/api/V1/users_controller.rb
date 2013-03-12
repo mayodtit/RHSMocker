@@ -30,6 +30,8 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def update
+    params[:user].delete :password
+    
     if params[:id].present?
       if current_user.allowed_to_edit_user? params[:id].to_i
         user = User.find(params[:id])
