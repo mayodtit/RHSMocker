@@ -7,11 +7,15 @@ class Api::V1::UsersController < Api::V1::ABaseController
       user = User.find_by_install_id(params[:user][:install_id])
     end
 
-    if user.present? && user.email.blank?
-      password = params[:user][:password]
-      params[:user].delete :password
-      user.update_attributes params[:user]
-      user.password = password
+    if user.present?
+      if user.email.blank?
+        password = params[:user][:password]
+        params[:user].delete :password
+        user.update_attributes params[:user]
+        user.password = password
+      else
+        return render_failure( {reason:"Registration is already complete"} )
+      end
     else
       user = User.new(params[:user])
     end
@@ -21,7 +25,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
       user.login
       render_success( {auth_token:user.auth_token, user:user} )
     else
-      render_failure( {reason:user.errors.full_messages.to_sentences} )
+      render_failure( {reason:user.errors.full_messages.to_sentence} )
     end
   end
 
