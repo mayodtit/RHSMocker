@@ -122,4 +122,18 @@ resource "Users" do
     end
   end
 
+  delete '/api/v1/logout' do
+    parameter :auth_token,        "Auth token"
+
+    required_parameters :auth_token
+
+    let (:auth_token)       { @user.auth_token }
+    let (:raw_post)         { params.to_json }  # JSON format request body
+
+    example_request "Logout" do
+      explanation "Logout the current user (specified by the auth_token"
+      status.should == 200
+    end
+  end
+
 end
