@@ -23,7 +23,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   end
 
   def status attribute, broadcast
-    return render_failure("'contents' not part of json", 417) unless params[:contents]
+    return render_failure({reason:"'contents' not part of json"}, 417) unless params[:contents]
     params[:contents].each do |content|
       user_reading = UserReading.find_or_create_by_user_id_and_content_id(current_user.id, content['id'])
       user_reading.update_attribute attribute, Time.now
