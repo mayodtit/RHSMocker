@@ -5,6 +5,6 @@ class Api::V1::UserWeightsController < Api::V1::ABaseController
   end
 
   def list
-    render_success current_user.user_weights
+    render_success weights:current_user.user_weights
   end
 end

@@ -10,7 +10,7 @@ resource "UserWeights" do
     @user.login
   end
 
-  post '/api/v1/weight' do
+  post '/api/v1/weights' do
     parameter :auth_token,    "User's auth token"
     parameter :weight,        "User's weight"
 
@@ -27,4 +27,17 @@ resource "UserWeights" do
     end
   end
 
+  get 'api/v1/weights' do
+    parameter :auth_token, "User's auth_token"
+
+    required_parameters :auth_token
+
+    let (:auth_token) { @user.auth_token }
+
+    example_request "Get all user weights" do
+      explanation "Get all user weights"
+
+      status.should == 200
+    end
+  end
 end

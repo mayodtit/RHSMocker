@@ -10,7 +10,7 @@ resource "UserLocations" do
     @user.login
   end
 
-  post '/api/v1/location' do
+  post '/api/v1/locations' do
     parameter :auth_token,    "User's auth token"
     parameter :longitude,     "User's longitude"
     parameter :latitude,      "User's latitude"
