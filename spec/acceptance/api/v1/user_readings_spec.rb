@@ -7,18 +7,19 @@ resource "UserReadings" do
 
   before(:each) do
     @user = FactoryGirl.create(:user_with_email)
-
+    @user.login
   end
 
-  get '/api/v1/user_readings?auth_token=:auth_token' do
+  get '/api/v1/user_readings' do
     parameter :auth_token,       "User's auth token"
+    required_parameters :auth_token
 
     let (:auth_token)    { @user.auth_token }
 
     example_request "Get user_readings" do
       explanation "Get user_readings"
-
       status.should == 200
+      JSON.parse(response_body)['contents'].should be_a Array
     end
   end
 end
