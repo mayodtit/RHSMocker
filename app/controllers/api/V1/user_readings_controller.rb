@@ -2,7 +2,6 @@ require 'pusher_module'
 include PusherModule
 
 class Api::V1::UserReadingsController < Api::V1::ABaseController
-  after_filter :push_random_content, :only => [:mark_read, :dismiss, :read_later]
 
   def index
     render_success contents:current_user.contents
@@ -30,6 +29,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
       yield user_reading if block_given?
       PusherModule.broadcast(user_reading.user_id, broadcast, user_reading.content_id, user_reading.content.contentsType)
     end
+    push_random_content
     render_success
   end
 

@@ -122,6 +122,19 @@ resource "Users" do
     end
   end
 
+  get '/api/v1/user/keywords' do
+    parameter :auth_token,      "User's Auth token"
+    required_parameters :auth_token
+
+    let (:auth_token)       { @user.auth_token }
+
+    example_request "Retrieve user's keywords" do
+      explanation ""
+      status.should == 200
+      JSON.parse(response_body)['keywords']
+    end
+  end
+
   delete '/api/v1/logout' do
     parameter :auth_token,        "Auth token"
 

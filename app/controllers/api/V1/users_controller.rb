@@ -61,6 +61,6 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def keywords
-    render_success current_user.keywords
+    render_success keywords:current_user.keywords
   end
 end

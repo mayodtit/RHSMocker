@@ -25,30 +25,40 @@ resource "UserReadings" do
   end
 
   post '/api/v1/contents/mark_read' do
-    # parameter :auth_token,    "User's auth token"
-    # parameter :contents,      "User's contents"
-    # parameter :id,            "Content ID"
-    # scope_parameters :contents, [:id]
+    parameter :auth_token,       "User's auth token"
+    required_parameters :auth_token
 
+    let (:raw_post)   { {:auth_token=>@user.auth_token, :contents=>[{:id=>1}]}.to_json }  # JSON format request body
+    example_request "Mark read user_readings" do
+      explanation "Mark current user's readings as read"
 
-    # required_parameters :auth_token, :contents
-
-    # let (:auth_token) { @user.auth_token }
-    # let (:id)         { @content.id }
-    # let (:raw_post)   { params.to_json }  # JSON format request body
-
-    # example_request "Mark Read a user_reading" do
-    #   explanation "Mark a user_reading as Read"
-    #   puts response_body
-    #   status.should == 200
-    #   JSON.parse(response_body)['read_date'].should eq 'read'
-    # end
+      status.should == 200
+    end
   end
+
 
   post '/api/v1/contents/dismiss' do
+    parameter :auth_token,       "User's auth token"
+    required_parameters :auth_token
+
+    let (:raw_post)   { {:auth_token=>@user.auth_token, :contents=>[{:id=>1}]}.to_json }  # JSON format request body
+    example_request "Dismiss user_readings" do
+      explanation "Dismiss current user's readings"
+
+      status.should == 200
+    end
   end
 
-  post '/api/v1/content/read_later' do
+  post '/api/v1/contents/read_later' do
+    parameter :auth_token,       "User's auth token"
+    required_parameters :auth_token
+
+    let (:raw_post)   { {:auth_token=>@user.auth_token, :contents=>[{:id=>1}]}.to_json }  # JSON format request body
+    example_request "Read later user_readings" do
+      explanation "Mark current user's readings as read later"
+
+      status.should == 200
+    end
   end
 
   post '/api/v1/contents/reset' do
