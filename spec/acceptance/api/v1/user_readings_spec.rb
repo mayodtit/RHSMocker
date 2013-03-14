@@ -26,7 +26,8 @@ resource "UserReadings" do
 
   post '/api/v1/contents/mark_read' do
     parameter :auth_token,       "User's auth token"
-    required_parameters :auth_token
+    parameter :contents,         "Array of IDs"
+    required_parameters :auth_token, :contents
 
     let (:raw_post)   { {:auth_token=>@user.auth_token, :contents=>[{:id=>1}]}.to_json }  # JSON format request body
     example_request "Mark read user_readings" do
@@ -39,7 +40,8 @@ resource "UserReadings" do
 
   post '/api/v1/contents/dismiss' do
     parameter :auth_token,       "User's auth token"
-    required_parameters :auth_token
+    parameter :contents,         "Array of IDs"
+    required_parameters :auth_token, :contents
 
     let (:raw_post)   { {:auth_token=>@user.auth_token, :contents=>[{:id=>1}]}.to_json }  # JSON format request body
     example_request "Dismiss user_readings" do
@@ -51,7 +53,8 @@ resource "UserReadings" do
 
   post '/api/v1/contents/read_later' do
     parameter :auth_token,       "User's auth token"
-    required_parameters :auth_token
+    parameter :contents,         "Array of IDs"
+    required_parameters :auth_token, :contents
 
     let (:raw_post)   { {:auth_token=>@user.auth_token, :contents=>[{:id=>1}]}.to_json }  # JSON format request body
     example_request "Read later user_readings" do

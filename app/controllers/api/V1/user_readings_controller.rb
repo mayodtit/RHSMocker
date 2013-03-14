@@ -24,6 +24,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   def status attribute, broadcast
     return render_failure({reason:"'contents' not part of json"}, 417) unless params[:contents]
     params[:contents].each do |content|
+      return render_failure({reason:"Content not found for id provided"}, 404) unless Content.find_by_id(content['id'])
       user_reading = UserReading.find_or_create_by_user_id_and_content_id(current_user.id, content['id'])
       user_reading.update_attribute attribute, Time.now
       yield user_reading if block_given?
