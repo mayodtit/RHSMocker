@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130311152251) do
+ActiveRecord::Schema.define(:version => 20130314192940) do
 
   create_table "associations", :force => true do |t|
     t.integer  "user_id"
@@ -70,6 +70,28 @@ ActiveRecord::Schema.define(:version => 20130311152251) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "encounters", :force => true do |t|
+    t.string   "status"
+    t.string   "priority"
+    t.integer  "user_id"
+    t.boolean  "checked"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "encounters", ["user_id"], :name => "index_encounters_on_user_id"
+
+  create_table "encounters_users", :force => true do |t|
+    t.string   "role"
+    t.integer  "encounter_id"
+    t.integer  "user_id"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  add_index "encounters_users", ["encounter_id"], :name => "index_encounters_users_on_encounter_id"
+  add_index "encounters_users", ["user_id"], :name => "index_encounters_users_on_user_id"
+
   create_table "feedbacks", :force => true do |t|
     t.integer  "user_id"
     t.string   "note"
@@ -106,11 +128,24 @@ ActiveRecord::Schema.define(:version => 20130311152251) do
     t.datetime "updated_at",         :null => false
   end
 
+  create_table "message_statuses", :force => true do |t|
+    t.integer  "message_id"
+    t.integer  "user_id"
+    t.string   "status"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "message_statuses", ["message_id"], :name => "index_message_statuses_on_message_id"
+  add_index "message_statuses", ["user_id"], :name => "index_message_statuses_on_user_id"
+
   create_table "messages", :force => true do |t|
     t.string   "text"
     t.integer  "user_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+    t.integer  "user_location_id"
+    t.integer  "encounter_id"
   end
 
   create_table "user_diseases", :force => true do |t|

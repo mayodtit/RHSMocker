@@ -30,6 +30,12 @@ class User < ActiveRecord::Base
   has_and_belongs_to_many :institutions
 
   has_many :feedbacks
+  
+  has_many :encounters_user
+
+  has_many :message_statuses
+
+  has_many :encounters
 
   #Validations
   #++++++++++++++
