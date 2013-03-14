@@ -9,7 +9,6 @@ class UserReading < ActiveRecord::Base
       :read_date=> read_date, 
       :dismiss_date => dismiss_date, 
       :read_later_date=> read_later_date, 
-      :read_later_count=> read_later_count,
       :title=> content.title,
       :contentsType => content.contentsType,
       :content_id => content.id
