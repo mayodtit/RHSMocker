@@ -20,7 +20,7 @@ resource "UserReadings" do
     example_request "Get user_readings" do
       explanation "Get user_readings"
       status.should == 200
-      JSON.parse(response_body)['contents'].should be_a Array
+      JSON.parse(response_body)['user_readings'].should be_a Array
     end
   end
 
