@@ -15,7 +15,8 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   end
 
   def show
-    @content = Content.find(params[:id])
+    @content = Content.find_by_id(params[:id])
+    return render_failure({reason:"Content not found"}, 404) unless @content
     html = if params[:q] == 'cardview'
       render_to_string :action => "content_cardview", :formats=>:html, :locals => {:first_paragraph => @content.previewText}
     else

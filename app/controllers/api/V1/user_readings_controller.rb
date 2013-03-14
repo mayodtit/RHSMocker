@@ -4,7 +4,7 @@ include PusherModule
 class Api::V1::UserReadingsController < Api::V1::ABaseController
 
   def index
-    render_success contents:current_user.contents
+    render_success user_readings:current_user.user_readings
   end
 
   def mark_read
@@ -23,14 +23,20 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
 
   def status attribute, broadcast
     return render_failure({reason:"'contents' not part of json"}, 417) unless params[:contents]
+    errors = []
     params[:contents].each do |content|
-      return render_failure({reason:"Content not found for id provided"}, 404) unless Content.find_by_id(content['id'])
+      unless Content.find_by_id(content['id'])
+        errors << "Content with id=#{content['id']} not found"
+        next
+      end
+
       user_reading = UserReading.find_or_create_by_user_id_and_content_id(current_user.id, content['id'])
       user_reading.update_attribute attribute, Time.now
       yield user_reading if block_given?
       PusherModule.broadcast(user_reading.user_id, broadcast, user_reading.content_id, user_reading.content.contentsType)
     end
     push_random_content
+    return render_failure({reason:errors.to_sentence}, 404) unless errors.empty?
     render_success
   end
 

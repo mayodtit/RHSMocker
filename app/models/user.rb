@@ -36,7 +36,7 @@ class User < ActiveRecord::Base
   validates :install_id, :presence => true, :uniqueness => true
   validates :email, :allow_nil => true, :uniqueness => {:message => 'account already exists'}
 
-  validates :generic_call_time, :inclusion => { :in => %w(Morning Afternoon Evening),
+  validates :generic_call_time, :inclusion => { :in => %w(morning afternoon evening),
     :message => "%{value} is not a call time" }, :allow_nil => true
 
   validates_length_of :phone, :in => 7..11, :allow_blank => true
