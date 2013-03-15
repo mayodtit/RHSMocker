@@ -1,7 +1,7 @@
 class Encounter < ActiveRecord::Base
   attr_accessible :checked, :priority, :status
   
-  belongs_to :user
-  has_many :encounters_user
+  has_many :encounters_users
   has_many :messages
+  has_many :users, :through=> :encounters_users
 end

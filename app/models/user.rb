@@ -31,11 +31,11 @@ class User < ActiveRecord::Base
 
   has_many :feedbacks
   
-  has_many :encounters_user
+  has_many :encounters_users
 
   has_many :message_statuses
 
-  has_many :encounters
+  has_many :encounters, :through => :encounters_users
 
   #Validations
   #++++++++++++++
