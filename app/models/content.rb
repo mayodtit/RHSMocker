@@ -1,6 +1,5 @@
 class Content < ActiveRecord::Base
 
-  #require 'lorem-ipsum'
   attr_accessible :title, :body, :contentsType, :abstract, :question, :keywords, :updateDate
   
   has_and_belongs_to_many :authors
@@ -12,8 +11,6 @@ class Content < ActiveRecord::Base
     :through => :user_readings,
     :select => "users.*, user_readings.completed_date AS completedDate"
 
-  #SOLR Support in model
-  #=============================
   searchable do
     text :body
     text :title, :boost => 2.0
@@ -28,13 +25,15 @@ class Content < ActiveRecord::Base
     end
   end
 
+########
+# Get the first 20 words, remove the word "Description" from the start and any opening <p> tag we 
+# may not close, and then add an ellipsis to the end. This is only used in the preview cardview
+########
   def previewText
     if !body.nil?
-      #first_paragraph = Nokogiri::HTML.parse(body).css('p').first.text
-      two_sentances = body.split('. ').slice(0, 3).join('. ')
-      # Take first 50 words of the above
-      preview = two_sentances.split(' ').slice(0, 20).join(' ')
-      preview += "..."
+
+      # two_sentances = body.split('. ').slice(0, 3).join('. ').gsub(/\ADescription/, '')
+      preview = body.split(' ').slice(0, 20).join(' ').gsub(/\ADefinition<p>/, "") + "&hellip;"
       #todo add in javascript link here
     end
   end
