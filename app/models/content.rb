@@ -43,4 +43,5 @@ class Content < ActiveRecord::Base
     Content.find(:first, :offset =>rand(count))
   end
 
+
 end

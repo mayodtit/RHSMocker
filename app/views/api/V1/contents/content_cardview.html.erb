@@ -1,1 +1,15 @@
-<div class="content_cardview"><div class="content_title"><%= @content.title %></div><div class="content_subtitle"><% if !@content.abstract.nil? %><%= @content.abstract.html_safe%><% end %></div><div class="content_subtitle"><% if !@content.question.nil? %><%= @content.question%><% end %></div><div class="content_text"><% if !first_paragraph.nil? %><%=first_paragraph.html_safe%><% end %></div></div>
+<div class="content_cardview">
+	<div class="content_type_and_sender">
+		<div style="float:left;"><%= image_tag ("inbox_icn.png") %></div>
+		<span style="display:inline-block;margin-top:3px;"><%= @content.contentsType %></span>
+	</div>
+	<div class="content_title"><%= @content.title %></div>
+	<div class="content_date_and_source">
+		<% if !@content.updateDate.nil? %>
+		<%= @content.updateDate.strftime("%b. #{@content.updateDate.day.ordinalize}, %Y") %>&nbsp;&nbsp;|&nbsp;&nbsp;
+		<% end %><%= image_tag ("mayo_clinic_logo.png")%>&nbsp;&nbsp;Mayo Clinic</div>
+		<% if !@content.previewText.nil? %>
+			<div class="content_subtitle"><%= @content.previewText.html_safe%></div>
+		<% end %>
+	</div>
+</div>
