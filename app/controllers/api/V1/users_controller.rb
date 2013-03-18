@@ -8,13 +8,10 @@ class Api::V1::UsersController < Api::V1::ABaseController
     end
 
     if user.present?
-      if user.email.blank?
-        password = params[:user][:password]
-        params[:user].delete :password
+      if user.email.blank? && params[:user][:password].present? && params[:user][:email].present?
         user.update_attributes params[:user]
-        user.password = password
       else
-        return render_failure( {reason:"Registration is already complete"} )
+        return render_failure( {reason:"Registration is already complete"}, 409 )
       end
     else
       user = User.new(params[:user])
@@ -25,7 +22,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
       user.login
       render_success( {auth_token:user.auth_token, user:user} )
     else
-      render_failure( {reason:user.errors.full_messages.to_sentence} )
+      render_failure( {reason:user.errors.full_messages.to_sentence}, 400 )
     end
   end
 
@@ -56,7 +53,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
     if user.update_attributes(:password => params[:password])
       render_success( {user:user} )
     else
-      render_failure( {reason:user.errors.full_messages} )
+      render_failure( {reason:user.errors.full_messages.to_sentence}, 400 )
     end
   end
 

@@ -16,7 +16,7 @@ resource "PasswordResets" do
     let(:email)     { @user.email }
     let(:raw_post)  { params.to_json }  # JSON format request body
 
-    example_request "Reset the Password (Forgot Password)" do
+    example_request "[POST] Reset password (forgot password)" do
       explanation "Emails password reset instructions to the user"
       status.should == 200
       JSON.parse(response_body).should_not be_empty
