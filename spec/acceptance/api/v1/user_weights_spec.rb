@@ -8,11 +8,26 @@ resource "UserWeights" do
   before(:each) do
     @user = FactoryGirl.create(:user_with_email)
     @user.login
+    FactoryGirl.create(:user_weight, :user=>@user)
+    FactoryGirl.create(:user_weight, :user=>@user)
+  end
+
+  get 'api/v1/weights' do
+    parameter :auth_token, "User's auth_token"
+    required_parameters :auth_token
+
+    let (:auth_token) { @user.auth_token }
+
+    example_request "[GET] Get all user's weights" do
+      explanation "Returns an array of weights recorded by the user"
+      status.should == 200
+      JSON.parse(response_body)['weights'].should be_a Array
+    end
   end
 
   post '/api/v1/weights' do
     parameter :auth_token,    "User's auth token"
-    parameter :weight,        "User's weight"
+    parameter :weight,        "User's weight (kg)"
 
     required_parameters :auth_token, :weight
 
@@ -20,24 +35,11 @@ resource "UserWeights" do
     let (:weight)     { 90 }
     let (:raw_post)   { params.to_json }  # JSON format request body
 
-    example_request "Set user's weight" do
-      explanation "Set the current user's weight by kg"
+    example_request "[POST] Set user's weight" do
+      explanation "Set the user's weight"
       status.should == 200
-      JSON.parse(response_body)
+      JSON.parse(response_body).should_not be_empty
     end
   end
 
-  get 'api/v1/weights' do
-    parameter :auth_token, "User's auth_token"
-
-    required_parameters :auth_token
-
-    let (:auth_token) { @user.auth_token }
-
-    example_request "Get all user weights" do
-      explanation "Get all user weights"
-
-      status.should == 200
-    end
-  end
 end
