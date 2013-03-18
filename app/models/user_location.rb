@@ -7,4 +7,10 @@ class UserLocation < ActiveRecord::Base
   validates :latitude,  :presence => true
   validates :longitude, :presence => true
 
+  def as_json options=nil
+    {
+      :latitude=>latitude,
+      :longitude=>longitude
+    }
+  end
 end

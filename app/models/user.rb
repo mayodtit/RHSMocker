@@ -50,6 +50,9 @@ class User < ActiveRecord::Base
   validates_length_of :password, :minimum => 8, :message => "must be at least 8 characters long", :if => :password
   validates_confirmation_of :password, :message => "should match confirmation", :if => :password
 
+  def admin?
+    true
+  end
 
   def full_name
     return "Not Set" if first_name.blank? || last_name.blank?
