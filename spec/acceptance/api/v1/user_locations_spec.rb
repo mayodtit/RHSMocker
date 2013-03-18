@@ -22,8 +22,8 @@ resource "UserLocations" do
     let (:latitude)   { 0 }
     let (:raw_post)   { params.to_json }  # JSON format request body
 
-    example_request "Set user's location" do
-      explanation "Set the current user's location by coordinates"
+    example_request "[POST] Set user's location" do
+      explanation "Set the user's location by coordinates"
       status.should == 200
       JSON.parse(response_body)
     end
