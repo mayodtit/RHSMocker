@@ -1,47 +1,54 @@
 class Content < ActiveRecord::Base
 
-  #require 'lorem-ipsum'
-  attr_accessible :title, :body, :contentsType, :abstract, :question, :keywords, :updateDate
-  
-  has_and_belongs_to_many :authors
-  has_many :contents_mayo_vocabularies
-  has_many :mayo_vocabularies, :through => :contents_mayo_vocabularies
+	attr_accessible :title, :body, :contentsType, :abstract, :question, :keywords, :updateDate
 
-  has_many :user_readings
-  has_many :users,
-    :through => :user_readings,
-    :select => "users.*, user_readings.completed_date AS completedDate"
+	has_and_belongs_to_many :authors
+	has_many :contents_mayo_vocabularies
+	has_many :mayo_vocabularies, :through => :contents_mayo_vocabularies
 
-  #SOLR Support in model
-  #=============================
-  searchable do
-    text :body
-    text :title, :boost => 2.0
-    text :keywords
-  end
+	has_many :user_readings
+	has_many :users,
+	:through => :user_readings,
+	:select => "users.*, user_readings.completed_date AS completedDate"
 
-  def as_json(options=nil)
-    if options && options["source"].present?
-      json = {:title => title, :contents_type => contentsType, :contentID => id, :body => options["source"]}
-    else
-      json =  {:title => title, :contents_type => contentsType, :contentID => id, :body => body}
-    end
-  end
+	searchable do
+		text :body
+		text :title, :boost => 2.0
+		text :keywords
+	end
 
-  def previewText
-    if !body.nil?
-      #first_paragraph = Nokogiri::HTML.parse(body).css('p').first.text
-      two_sentances = body.split('. ').slice(0, 3).join('. ')
-      # Take first 50 words of the above
-      preview = two_sentances.split(' ').slice(0, 20).join(' ')
-      preview += "..."
+	def as_json(options=nil)
+		if options && options["source"].present?
+			json = {:title => title, :contents_type => contentsType, :contentID => id, :body => options["source"]}
+		else
+			json =  {:title => title, :contents_type => contentsType, :contentID => id, :body => body}
+		end
+	end
+
+########
+# Get the first 20 words, remove the word "Description" from the start and any opening <p> tag we
+# may not close, and then add an ellipsis to the end. This is only used in the preview cardview
+########
+def previewText
+	if !body.nil?
+
+      # two_sentances = body.split('. ').slice(0, 3).join('. ').gsub(/\ADescription/, '')
+      preview = body.split(' ').slice(0, 20).join(' ')
+
+      if contentsType == 'Disease'
+        preview.gsub(/\ADefinition<p>/, "") 
+      else
+     	preview.gsub(/<p>/,"")
+      end 
+
+      preview +=  "&hellip;"
       #todo add in javascript link here
-    end
   end
+end
 
   #Utility Methods to be removed
   def self.getRandomContent
-    Content.find(:first, :offset =>rand(count))
+  	Content.find(:first, :offset =>rand(count))
   end
 
 end
