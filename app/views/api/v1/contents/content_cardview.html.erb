@@ -6,7 +6,8 @@
 <% end %>
 	<div class="content_type_and_sender">
 		<div style="float:left;"><%= image_tag ("inbox_icn.png") %></div>
-		<span style="display:inline-block;margin-top:3px;"><%= @content.contentsType %></span>
+		<span style="display:inline-block;margin-top:3px;">
+			<a href="http://www.apple.com"><%= @content.contentsType %></a></span>
 	</div>
 
 	<div class="content_title"><%= @content.title %></div>
