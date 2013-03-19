@@ -1,7 +1,7 @@
 class Content < ActiveRecord::Base
 
 	attr_accessible :title, :body, :contentsType, :abstract, :question, :keywords, :updateDate
-	
+
 	has_and_belongs_to_many :authors
 	has_many :contents_mayo_vocabularies
 	has_many :mayo_vocabularies, :through => :contents_mayo_vocabularies
@@ -33,7 +33,15 @@ def previewText
 	if !body.nil?
 
       # two_sentances = body.split('. ').slice(0, 3).join('. ').gsub(/\ADescription/, '')
-      preview = body.split(' ').slice(0, 20).join(' ').gsub(/\ADefinition<p>/, "") + "&hellip;"
+      preview = body.split(' ').slice(0, 20).join(' ')
+
+      if contentsType == 'Disease'
+        preview.gsub(/\ADefinition<p>/, "") 
+      else
+     	preview.gsub(/<p>/,"")
+      end 
+
+      preview +=  "&hellip;"
       #todo add in javascript link here
   end
 end
