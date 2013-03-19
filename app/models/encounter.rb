@@ -6,17 +6,25 @@ class Encounter < ActiveRecord::Base
   has_many :users, :through=> :encounters_users
 
   def as_json options=nil
-    patient_user = encounters_users.patients.first.user
-    {
+    patient_user = encounters_users.patients.first
+    
+    result = {
       :id=> id,
       :status=> status,
       :priority=> priority,
       :checked => checked,
-      :messages => messages.as_json(options),
-      :patient_user => {
-        :id=> patient_user.id,
-        :full_name=> patient_user.full_name
-      }
+      :messages => messages.as_json(options)
     }
+
+    if patient_user
+      result.merge!({ 
+        :patient_user => {
+          :id=> patient_user.user.id,
+          :full_name=> patient_user.user.full_name
+        }
+      })
+    end
+
+    return result
   end
 end

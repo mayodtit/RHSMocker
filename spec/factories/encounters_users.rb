@@ -2,7 +2,7 @@
 
 FactoryGirl.define do
   factory :encounters_user do
-    role "MyString"
+    role "patient"
     encounter nil
     user nil
   end

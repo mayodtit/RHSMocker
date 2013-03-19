@@ -2,6 +2,6 @@
 
 FactoryGirl.define do
   factory :attachment do
-    url "MyString"
+    url "http://aws.amazon.com/32423nfo3n/ouch.jpg"
   end
 end
