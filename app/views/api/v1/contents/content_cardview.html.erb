@@ -2,12 +2,12 @@
 <% if @content.contentsType == 'quiz' %>
 <div class="content_cardview" >
 <% else %>
-<div class="content_cardview" onclick="document.actionJSON = [{'type':'fullscreen'}]; loadUrl('http://dontload/')">
+<div class="content_cardview" onclick="document.actionJSON = [{'type':'fullscreen'}];this.document.location.href = 'http://dontload/'">
 <% end %>
 	<div class="content_type_and_sender">
 		<div style="float:left;"><%= image_tag ("inbox_icn.png") %></div>
 		<span style="display:inline-block;margin-top:3px;">
-			<a href="http://www.apple.com"><%= @content.contentsType %></a></span>
+			<%= @content.contentsType %></span>
 	</div>
 
 	<div class="content_title"><%= @content.title %></div>
