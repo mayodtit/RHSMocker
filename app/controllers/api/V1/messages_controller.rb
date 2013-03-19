@@ -16,7 +16,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
     #create encounter_member entry
     encounter_user ||= EncountersUser.find_or_create_by_encounter_id_and_user_id encounter.id, current_user.id
-    
+
     if params[:patient_user_id] && params[:patient_user_id]!=current_user.id
       encounter_user.update_attribute :role, "participator"
       return render_failure({reason:"User with id #{params[:patient_user_id]} was not found"}, 404) unless User.find_by_id(params[:patient_user_id])
@@ -77,9 +77,32 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def mark_read
-    
+    warnings = []
+
+    return render_failure({reason:"Did not pass an array of [messages]"}, 417) unless params[:messages].present?
+    params[:messages].each do |message_json|
+      message = Message.find_by_id message_json[:id]
+      if message
+        encounters_user = EncountersUser.find_by_encounter_id_and_user_id message.encounter_id, current_user.id
+        if encounters_user.nil?
+          if current_user.admin?
+            encounters_user = EncountersUser.create :encounter=>message.encounter, :user=>current_user, :role=>"reader"
+          else
+            warnings << "Permission denied to mark message with id #{message_json[:id]} as read"
+            next
+          end
+        end
+        if encounters_user.role != "patient" && current_user.admin?
+          message.encounter.update_attribute :checked, true
+        end
+
+        message_status = MessageStatus.find_or_create_by_message_id_and_user_id message.id, current_user.id
+        message_status.update_attribute :status, "read"
+      else
+        warnings << "Message with id #{message_json.id} not found"
+      end
+    end
+    render_success({warnings:warnings})
   end
-
-
 
 end
