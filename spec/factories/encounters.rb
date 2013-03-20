@@ -1,13 +1,16 @@
-# Read about factories at https://github.com/thoughtbot/factory_girl
-
 FactoryGirl.define do
+
   factory :encounter do
-    status    "open"
-    priority  "medium"
+    status    { ['open', 'closed', 'on hold'].sample }
+    priority  { ['high', 'medium', 'low'].sample }
     checked   false
 
     factory :encounter_with_messages do
-      messages {[FactoryGirl.create(:message, :text=>"ouch my liver"), FactoryGirl.create(:message, :text=>"that's not good")]}
+      after(:create) { |encounter|
+        FactoryGirl.create(:message, :text=> 'ouch my liver', :encounter=>encounter)
+        FactoryGirl.create(:message, :text=> "that's not good", :encounter=>encounter)
+      }
     end
   end
+
 end
