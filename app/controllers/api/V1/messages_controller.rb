@@ -27,6 +27,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     end
 
     #create message
+    return render_failure({reason:"Text cannot be empty"}, 412) unless params[:text].present?
     message = Message.create :text=>params[:text]
     message.encounter = encounter
     message.user = current_user
