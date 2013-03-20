@@ -2,7 +2,7 @@ class User < ActiveRecord::Base
   authenticates_with_sorcery!
 
   attr_accessible :first_name, :last_name, :image_url, :gender, :height, :birth_date, :install_id, :email, :phone,\
-                  :generic_call_time, :password, :password_confirmation
+                  :generic_call_time, :password, :password_confirmation, :feature_bucket
 
   after_create :default_content
 
@@ -44,6 +44,9 @@ class User < ActiveRecord::Base
 
   validates :generic_call_time, :inclusion => { :in => %w(morning afternoon evening),
     :message => "%{value} is not a call time" }, :allow_nil => true
+
+  validates :feature_bucket, :inclusion => { :in => %w(none message_only call_only message_call),
+    :message => "%{value} is not a valid value for feature_bucket" }, :allow_nil => true
 
   validates_length_of :phone, :in => 7..11, :allow_blank => true
 

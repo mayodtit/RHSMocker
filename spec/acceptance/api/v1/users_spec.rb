@@ -51,13 +51,15 @@ resource "Users" do
     parameter :install_id,  "Unique install ID"
     parameter :email,       "Account email"
     parameter :password,    "Account password"
-    scope_parameters :user, [:install_id, :email, :password]
+    parameter :feature_bucket, "The feature bucket that the user is in (none, message_only, call_only, message_call)"
+    scope_parameters :user, [:install_id, :email, :password, :feature_bucket]
 
     required_parameters :install_id, :email, :password
 
-    let (:install_id) { "1234" }
-    let (:email)      { "tst@test.com" }
-    let (:password)   { "11111111" }
+    let (:install_id)     { "1234" }
+    let (:email)          { "tst@test.com" }
+    let (:password)       { "11111111" }
+    let (:feature_bucket) { "message_only" }
     let (:raw_post)   { params.to_json }  # JSON format request body
 
     example_request "[POST] Sign up using email and password" do
@@ -93,13 +95,15 @@ resource "Users" do
     parameter :auth_token,    "User's auth token"
     parameter :first_name,    "User's first name"
     parameter :phone,         "User's phone number"
+    parameter :feature_bucket, "The feature bucket that the user is in (none, message_only, call_only, message_call)"
 
-    scope_parameters :user, [:phone, :first_name]
+    scope_parameters :user, [:phone, :first_name, :feature_bucket]
     required_parameters :auth_token
 
     let (:auth_token)    { @user.auth_token }
     let (:first_name)    { "Batman" }
     let (:phone)         { "1234567890" }
+    let (:feature_bucket) { "message_only" }
     let (:raw_post)      { params.to_json }  # JSON format request body
 
     example_request "[PUT] Update user" do
