@@ -3,6 +3,7 @@ class Encounter < ActiveRecord::Base
 
   has_many :encounters_users
   has_many :messages
+  belongs_to :user
   has_many :users, :through=> :encounters_users
 
   def as_json options=nil
