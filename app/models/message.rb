@@ -15,7 +15,6 @@ class Message < ActiveRecord::Base
   def as_json options=nil
     statuses = []
     if options[:current_user].present?
-      puts message_statuses
       statuses = message_statuses.where(:user_id=>options[:current_user].id)
     end
     result = {

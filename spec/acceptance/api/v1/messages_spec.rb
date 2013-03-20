@@ -15,6 +15,7 @@ resource "Messages" do
     @location = FactoryGirl.create(:user_location)
     @patient_user = FactoryGirl.create(:user_with_email)
     @keyword = FactoryGirl.create(:mayo_vocabulary)
+    @message = FactoryGirl.create(:message)
   end
 
   get '/api/v1/messages' do
@@ -62,6 +63,22 @@ resource "Messages" do
       JSON.parse(response_body).should_not be_empty
     end
 
+  end
+
+  post '/api/v1/messages/mark_read' do
+    parameter :auth_token,  "User's auth token"
+    parameter :messages,    "Array of messages"
+    required_parameters :auth_token, :messages
+
+    let(:auth_token)  { @user.auth_token }
+    let(:messages)    { [@message] }
+    let(:raw_post)    { params.to_json }  # JSON format request body
+
+    example_request "[POST] Mark message(s) as read" do
+      explanation "Returns an array of warnings, if any."
+      status.should == 200
+      JSON.parse(response_body)['warnings'].should be_a Array
+    end
   end
 
 end

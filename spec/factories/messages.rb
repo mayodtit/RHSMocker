@@ -7,5 +7,6 @@ FactoryGirl.define do
     user_location {FactoryGirl.create(:user_location)}
     attachments {[FactoryGirl.create(:attachment)]}
     mayo_vocabularies {[FactoryGirl.create(:mayo_vocabulary)]}
+    encounter		{ FactoryGirl.create(:encounter) }
   end
 end
