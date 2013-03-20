@@ -9,8 +9,9 @@ resource "Messages" do
     @user = FactoryGirl.create(:user_with_email)
     @user.login
 
-    encounter = FactoryGirl.create(:encounter_with_messages)
-    FactoryGirl.create(:encounters_user, :user=>@user, :encounter=>encounter)
+    @encounter = FactoryGirl.create(:encounter_with_messages)
+    FactoryGirl.create(:encounters_user, :user=>@user, :encounter=>@encounter)
+    @message = FactoryGirl.create(:message, :user=>@user, :encounter=>@encounter)
     @attachment = FactoryGirl.create(:attachment)
     @location = FactoryGirl.create(:user_location)
     @patient_user = FactoryGirl.create(:user_with_email)
@@ -57,6 +58,60 @@ resource "Messages" do
 
     example_request "[POST] Create a message with a new encounter" do
       explanation "Endpoint for posting a new message. If the patient_user_id is not supplied, we assume that the current user is the patient."
+
+      status.should == 200
+      JSON.parse(response_body).should_not be_empty
+    end
+
+  end
+
+
+
+  post "/api/v1/messages" do
+    parameter :auth_token, "User's auth token"
+    parameter :keywords, "Keywords to add to the message"
+    parameter :text, "The body text for the message"
+    parameter :attachments, "Set of urls to attachments (images)"
+    parameter :url, "Url of the attachment"
+    parameter :location, "Latitude and longitude of location where message was sent from"
+    parameter :latitude, "Latitude of the location"
+    parameter :longitude, "Longitude of the location"
+    parameter :encounter, "Encapsulating encounter object"
+    parameter :id, "Id of the encounter"
+    scope_parameters :encounter, [:id]
+    scope_parameters :location, [:latitude, :longitude]
+    scope_parameters :attachments, [:url]
+
+    let(:auth_token) {@user.auth_token}
+    let(:keywords) {[@keyword.title]}
+    let(:text) {"Ouch, my liver"}
+    let(:attachments){[@attachment]}
+    let(:location){@location}
+    let(:id){@encounter.id}
+    let (:raw_post)   { params.to_json }  # JSON format request body
+
+    example_request "[POST] Create a responce message to an existing encounter" do
+      explanation "Endpoint for posting a new message on an existing encounter"
+
+      status.should == 200
+      JSON.parse(response_body).should_not be_empty
+    end
+
+  end
+
+  post "/api/v1/messages/mark_read" do
+    parameter :auth_token, "User's auth token"
+    parameter :messages, "Collection of augmented message objects"
+    parameter :id, "Message id"
+
+    scope_parameters :message, [:id]
+
+    let(:auth_token) {@user.auth_token}
+    let(:messages) {[:id=>@message.id]}
+    let (:raw_post)   { params.to_json }  # JSON format request body
+
+    example_request "[POST] Mark message as read" do
+      explanation "Pass a set of augmented message objects (with ids) and have them marked at 'read'"
 
       status.should == 200
       JSON.parse(response_body).should_not be_empty
