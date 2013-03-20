@@ -20,7 +20,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     if params[:patient_user_id] && params[:patient_user_id]!=current_user.id
       encounter_user.update_attribute :role, "participator"
       return render_failure({reason:"User with id #{params[:patient_user_id]} was not found"}, 404) unless User.find_by_id(params[:patient_user_id])
-      encounter_subject_user = EncountersUser.find_or_createby_encounter_id_and_user_id encounter.id, params[:patient_user_id]
+      encounter_subject_user = EncountersUser.find_or_create_by_encounter_id_and_user_id encounter.id, params[:patient_user_id]
     else
       encounter_user.update_attribute :role, "patient"
       encounter.update_attribute :checked, false
@@ -45,8 +45,8 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
     #attach attachments
     if params[:attachments].present?
-      params[:attachments].each do |attachment_url|
-        attachment = Attachment.create :url => attachment_url
+      params[:attachments].each do |attachment_json|
+        attachment = Attachment.create :url => attachment_json[:url]
         message.attachments << attachment
       end
     end

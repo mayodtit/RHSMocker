@@ -2,12 +2,12 @@ FactoryGirl.define do
 
   factory :content do
     sequence(:title){|n| "Content Title #{n}" }
-    body            'This is the HTML formatted body of the content.'
-    contentsType    'Answer'
-    abstract        'This is the abstract of the content.'
-    question        'What is the JSON format of content?'
-    keywords        'content,json,format,'
-    updateDate      Time.now
+    body            {'This is the HTML formatted body of the content.'}
+    contentsType    {'Answer'}
+    abstract        {'This is the abstract of the content.'}
+    question        {'What is the JSON format of content?'}
+    keywords       { 'content,json,format,' }
+    updateDate     { Time.now }
 
     factory :disease_content do
       sequence(:title){|n| "Craniosynostosis #{n}" }
