@@ -7,7 +7,7 @@ class Disease < ActiveRecord::Base
     text :name
   end
 
-  def as_json options
+  def as_json options=nil
     {
       :id=>id,
       :name=>name

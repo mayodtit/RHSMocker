@@ -22,7 +22,7 @@ resource "Diseases" do
       explanation "Returns an array of diseases retrieved by Solr"
 
       status.should == 200
-      JSON.parse(response_body).should be_a Array
+      JSON.parse(response_body).should_not be_empty
     end
   end
 end

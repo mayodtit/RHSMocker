@@ -15,7 +15,12 @@ RHSMocker::Application.routes.draw do
       get "contents" => "contents#index", :as=>"content_index"
       get "contents/:id" => "contents#show", :as=>"content_show"
 
+      #diseases
       get "diseases" => "diseases#index", :as=>"diseases_index"
+      get "user_diseases" => "user_diseases#index", :as=>"user_diseases_index"
+      post "user_diseases" => "user_diseases#create", :as=>"user_diseases_create"
+      put "user_diseases" => "user_diseases#update", :as=>"user_diseases_update"
+      delete "user_diseases" => "user_diseases#remove", :as=>"user_diseases_remove"
 
       #reading list
       get "user_readings" => "user_readings#index", :as=>"user_readings_index"

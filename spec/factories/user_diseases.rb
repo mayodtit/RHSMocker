@@ -4,8 +4,8 @@ FactoryGirl.define do
   factory :user_disease do
     user nil
     disease nil
-    start_date "2013-03-05"
-    end_date "2013-03-05"
+    start_date { Date.current()}
+    end_date {Date.tomorrow()}
     being_treated false
     diagnosed false
   end
