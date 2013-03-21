@@ -80,6 +80,9 @@ div.content_talk {
     color:#5a8791;
     text-transform:uppercase;
     background-color: #bfbfbf;
+    padding-bottom:10px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 div.talk_icon{
@@ -87,4 +90,6 @@ div.talk_icon{
     padding-right: 10px;
     padding-left: 10px;
     background-image: url(/assets/talk_icn.png);
+    background-size:37px 32px;
+    background-repeat:no-repeat;
 }
