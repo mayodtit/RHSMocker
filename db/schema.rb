@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130320182424) do
+ActiveRecord::Schema.define(:version => 20130321135617) do
 
   create_table "associations", :force => true do |t|
     t.integer  "user_id"
@@ -140,7 +140,7 @@ ActiveRecord::Schema.define(:version => 20130320182424) do
   add_index "message_statuses", ["user_id"], :name => "index_message_statuses_on_user_id"
 
   create_table "messages", :force => true do |t|
-    t.string   "text"
+    t.text     "text"
     t.integer  "user_id"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
