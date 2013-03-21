@@ -18,5 +18,6 @@
 public/docs
 public/assets
 *.pid
-solr
+solr/data
+solr/pids
 .idea
