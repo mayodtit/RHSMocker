@@ -33,18 +33,30 @@ def previewText
 	if !body.nil?
 
       # two_sentances = body.split('. ').slice(0, 3).join('. ').gsub(/\ADescription/, '')
-      preview = body.split(' ').slice(0, 20).join(' ')
-
-      if contentsType == 'Disease'
-        preview.gsub(/\ADefinition<p>/, "") 
-      else
-     	preview.gsub(/<p>/,"")
-      end 
+      preview = body.split(' ').slice(0, 20).join(' ').gsub(/\ADefinition<p>/, "") 
 
       preview +=  "&hellip;"
-      #todo add in javascript link here
   end
 end
+
+########
+# Insert the "would you like to call someone text"
+########
+def reformattedBody
+	if !body.nil?
+      body.insert(body.index(/<\/p>/,body.index(/<\/p>/)+4)+4, talkDiv)
+  	end
+end
+
+#THIS IS NOT HOW I PLAN ON DOING IT - TESTING OUT THE IDEA FIRST
+# VIEW CODE IN THE MODEL == BAD
+def talkDiv
+	#onclick="document.actionJSON = '[{&quot;type&quot;:&quot;fullscreen&quot;}]'; window.location.href = 'http://dontload/'"
+
+	insertHTML = '<div class="content_talk"><div class="talk_icon">icon</div><div>Would you like to discuss this with a healthcare professional?</div></div>'
+
+end
+
 
   #Utility Methods to be removed
   def self.getRandomContent
