@@ -83,13 +83,16 @@ div.content_talk {
     padding-bottom:10px;
     margin-top:10px;
     margin-bottom:10px;
+    height:90px;
 }
 
 div.talk_icon{
     float:left;
     padding-right: 10px;
     padding-left: 10px;
-    background-image: url(/assets/talk_icn.png);
-    background-size:37px 32px;
+    background-image:url(/assets/talk_icn.png);
+    background-size:74px 64px;
     background-repeat:no-repeat;
+    height:64px;
+    width:74px;
 }
