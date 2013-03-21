@@ -74,11 +74,7 @@ div.content_text {
 	color:#4c4c4c;
 }
 
-div.content_talk {
-    font-family:"ITC Franklin Gothic Medium Condensed";
-    font-size:15px;
-    color:#5a8791;
-    text-transform:uppercase;
+div.talk {
     background-color: #bfbfbf;
     margin-top:10px;
     margin-bottom:10px;
@@ -91,6 +87,16 @@ div.talk_icon{
     background-image:url(/assets/talk_icn.png);
     background-size:74px 64px;
     background-repeat:no-repeat;
+    background-position:center;
     height:64px;
     width:74px;
+}
+
+div.talk_content {
+    font-family:"ITC Franklin Gothic Medium Condensed";
+    font-size:15px;
+    color:#5a8791;
+    text-transform:uppercase;
+    background-color: #bfbfbf;
+    display: inline-block;
 }
