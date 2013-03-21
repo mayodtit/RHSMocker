@@ -15,6 +15,8 @@ RHSMocker::Application.routes.draw do
       get "contents" => "contents#index", :as=>"content_index"
       get "contents/:id" => "contents#show", :as=>"content_show"
 
+      get "diseases" => "diseases#index", :as=>"diseases_index"
+
       #reading list
       get "user_readings" => "user_readings#index", :as=>"user_readings_index"
       post "contents/mark_read" => "user_readings#mark_read", :as=>"contents_mark_read"
