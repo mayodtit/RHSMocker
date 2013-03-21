@@ -58,14 +58,33 @@ end
 
 #THIS IS NOT HOW I PLAN ON DOING IT - TESTING OUT THE IDEA FIRST
 # VIEW CODE IN THE MODEL == BAD
-def talkDiv
-	#onclick="document.actionJSON = '[{&quot;type&quot;:&quot;fullscreen&quot;}]'; window.location.href = 'http://dontload/'"
-	insertHTML = '<div class="talk"><div class="talk_icon"></div><div class="talk_content">Would you like to discuss this with a healthcare professional?</div></div>'
+ def talkDiv
+	insertHTML = '<div class="talk" onclick=&quot;' 
+	insertHTML += javascriptOpening 
+	insertHTML += '&quot;><div class="talk_icon"></div><div class="talk_content">Would you like to discuss this with a healthcare professional?</div></div>'
+ end
 
-end
+ def javascriptOpening
 
+  openingJavascript = 'onclick=&quot;document.actionJSON = '
 
-  #Utility Methods to be removed
+  openingJavascript += '[{'
+
+  openingJavascript += '&quot;type&quot;:&quot;launch_call_screen&quot;,'
+  openingJavascript += '&quot;body&quot;:{'
+  openingJavascript += '&quot;keywords&quot;: [&quot;diabetes&quot;, &quot;treatment&quot;, &quot;symptoms&quot;],'
+  openingJavascript += '&quot;selected_keywords&quot;: [&quot;diabetes&quot;, &quot;treatment&quot;],'
+  openingJavascript += '&quot;message_body&quot;: &quot;Testing out this javascript...&quot;'
+
+  openingJavascript += '};'
+  openingJavascript += '}];'
+
+  openingJavascript += 'window.location.href = &quot;http://dontload/&quot;&quot;'
+
+  openingJavascript
+ end
+
+ #Utility Methods to be removed
   def self.getRandomContent
   	Content.find(:first, :offset =>rand(count))
   end

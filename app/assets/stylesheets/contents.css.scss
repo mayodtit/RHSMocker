@@ -83,20 +83,22 @@ div.talk {
 
 div.talk_icon{
     float:left;
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
     background-image:url(/assets/talk_icn.png);
     background-size:74px 64px;
     background-repeat:no-repeat;
     background-position:center;
     height:64px;
     width:74px;
+    vertical-align:middle;
 }
 
 div.talk_content {
     font-family:"ITC Franklin Gothic Medium Condensed";
     font-size:15px;
     color:#5a8791;
+    height:80px;
     text-transform:uppercase;
     background-color: #bfbfbf;
-    display: inline-block;
+    vertical-align:middle;
 }
