@@ -76,15 +76,15 @@ div.content_text {
 
 div.content_talk {
     font-family:"ITC Franklin Gothic Medium Condensed";
-    font-size:30px;
+    font-size:15px;
     color:#5a8791;
     text-transform:uppercase;
     background-color: #bfbfbf;
-    opacity:0.2;
 }
 
-div.content_talk talk_icon{
+div.talk_icon{
     float:left;
     padding-right: 10px;
     padding-left: 10px;
+    background-image: url(/assets/talk_icn.png);
 }

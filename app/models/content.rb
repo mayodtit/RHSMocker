@@ -52,8 +52,7 @@ end
 # VIEW CODE IN THE MODEL == BAD
 def talkDiv
 	#onclick="document.actionJSON = '[{&quot;type&quot;:&quot;fullscreen&quot;}]'; window.location.href = 'http://dontload/'"
-
-	insertHTML = '<div class="content_talk"><div class="talk_icon">icon</div><div>Would you like to discuss this with a healthcare professional?</div></div>'
+	insertHTML = '<div class="content_talk"><div class="talk_icon">&nbsp;</div><div>Would you like to discuss this with a healthcare professional?</div></div>'
 
 end
 
