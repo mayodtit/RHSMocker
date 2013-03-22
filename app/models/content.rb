@@ -59,7 +59,7 @@ end
 #THIS IS NOT HOW I PLAN ON DOING IT - TESTING OUT THE IDEA FIRST
 # VIEW CODE IN THE MODEL == BAD
  def talkDiv
-	insertHTML = '<div class="talk" onclick=&quot;' 
+	insertHTML = '<div class="talk"' 
 	insertHTML += javascriptOpening 
 	insertHTML += '&quot;><div class="talk_icon"></div><div class="talk_content">Would you like to discuss this with a healthcare professional?</div></div>'
  end
