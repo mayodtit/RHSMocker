@@ -22,6 +22,13 @@ RHSMocker::Application.routes.draw do
       put "user_diseases" => "user_diseases#update", :as=>"user_diseases_update"
       delete "user_diseases" => "user_diseases#remove", :as=>"user_diseases_remove"
 
+      #associates
+      get "associations" => "associations#index", :as=>"associations_index"
+      post "associations" => "associations#create", :as=>"associations_create"
+      put "associations" => "associations#update", :as=>"associations_update"
+      delete "associations" => "associations#remove", :as=>"associations_remove"
+
+
       #reading list
       get "user_readings" => "user_readings#index", :as=>"user_readings_index"
       post "contents/mark_read" => "user_readings#mark_read", :as=>"contents_mark_read"
