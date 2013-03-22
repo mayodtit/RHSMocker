@@ -59,14 +59,14 @@ end
 #THIS IS NOT HOW I PLAN ON DOING IT - TESTING OUT THE IDEA FIRST
 # VIEW CODE IN THE MODEL == BAD
  def talkDiv
-	insertHTML = '<div class="talk"' 
+	insertHTML = '<div class="talk" ' 
 	insertHTML += javascriptOpening 
-	insertHTML += '&quot;><div class="talk_icon"></div><div class="talk_content">Would you like to discuss this with a healthcare professional?</div></div>'
+	insertHTML += '><div class="talk_icon"></div><div class="talk_content">Would you like to discuss this with a healthcare professional?</div></div>'
  end
 
  def javascriptOpening
 
-  openingJavascript = 'onclick=&quot;document.actionJSON = '
+  openingJavascript = 'onclick="document.actionJSON = '
 
   openingJavascript += '[{'
 
@@ -79,7 +79,7 @@ end
   openingJavascript += '};'
   openingJavascript += '}];'
 
-  openingJavascript += 'window.location.href = &quot;http://dontload/&quot;&quot;'
+  openingJavascript += 'window.location.href = &quot;http://dontload/&quot;"'
 
   openingJavascript
  end
