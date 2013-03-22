@@ -66,7 +66,7 @@ end
 
  def javascriptOpening
 
-  openingJavascript = 'onclick="document.actionJSON = '
+  openingJavascript = 'onclick="document.actionJSON = \''
 
   openingJavascript += '[{'
 
@@ -76,10 +76,10 @@ end
   openingJavascript += '&quot;selected_keywords&quot;: [&quot;diabetes&quot;, &quot;treatment&quot;],'
   openingJavascript += '&quot;message_body&quot;: &quot;Testing out this javascript...&quot;'
 
-  openingJavascript += '};'
-  openingJavascript += '}];'
+  openingJavascript += '}'
+  openingJavascript += '}]\';'
 
-  openingJavascript += 'window.location.href = &quot;http://dontload/&quot;"'
+  openingJavascript += ' window.location.href = &quot;http://dontload/&quot;"'
 
   openingJavascript
  end
