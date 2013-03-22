@@ -72,9 +72,19 @@ end
 
   openingJavascript += '&quot;type&quot;:&quot;launch_call_screen&quot;,'
   openingJavascript += '&quot;body&quot;:{'
-  openingJavascript += '&quot;keywords&quot;: [&quot;diabetes&quot;, &quot;treatment&quot;, &quot;symptoms&quot;],'
-  openingJavascript += '&quot;selected_keywords&quot;: [&quot;diabetes&quot;, &quot;treatment&quot;],'
-  openingJavascript += '&quot;message_body&quot;: &quot;Testing out this javascript...&quot;'
+  openingJavascript += '&quot;keywords&quot;: ['
+
+  contents_mayo_vocabularies[0..6].each do |vocab|
+  	#puts vocab.mayo_vocabulary.title
+  	#&quot;diabetes&quot;, &quot;treatment&quot;, &quot;symptoms&quot;
+  	if !vocab.nil?
+  		openingJavascript += '&quot;' + vocab.mayo_vocabulary.title + '&quot;,'
+  	end
+  end
+
+  openingJavascript += '],'
+  #openingJavascript += '&quot;selected_keywords&quot;: [&quot;diabetes&quot;, &quot;treatment&quot;],'
+  openingJavascript += '&quot;message_body&quot;: &quot;I was reading about ' +self.title+ ' and want to talk about: &quot;'
 
   openingJavascript += '}'
   openingJavascript += '}]\';'
