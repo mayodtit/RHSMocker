@@ -1,5 +1,5 @@
 class Message < ActiveRecord::Base
-  attr_accessible :text
+  attr_accessible :text, :content_id
 
   has_many :message_statuses
 
@@ -11,6 +11,7 @@ class Message < ActiveRecord::Base
   belongs_to :user
   belongs_to :encounter
   belongs_to :user_location
+  belongs_to :content
 
   def as_json options=nil
     statuses = []
@@ -27,7 +28,8 @@ class Message < ActiveRecord::Base
       },
       :location => user_location,
       :attachments => attachments,
-      :keywords => mayo_vocabularies
+      :keywords => mayo_vocabularies,
+      :content_id=> content_id
     }
     if statuses.empty?
       result.merge!({status:"unread"})

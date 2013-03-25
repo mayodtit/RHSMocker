@@ -11,6 +11,8 @@ class Content < ActiveRecord::Base
 	:through => :user_readings,
 	:select => "users.*, user_readings.completed_date AS completedDate"
 
+  has_many :messages
+
 	searchable do
 		text :body
 		text :title, :boost => 2.0

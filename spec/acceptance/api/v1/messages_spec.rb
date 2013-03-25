@@ -19,6 +19,8 @@ resource "Messages" do
 
     @message1 = FactoryGirl.create(:message, :text=>'I have a rash', :user=>@user, :encounter=>@encounter)
     @message2 = FactoryGirl.create(:message, :text=>'Please send a picture', :user=>@user)
+
+    @content = FactoryGirl.create(:disease_content)
   end
 
   get '/api/v1/messages' do
@@ -46,6 +48,7 @@ resource "Messages" do
     parameter :patient_user_id, "User id of the patient. If not specified, the current user is the patient"
     parameter :encounter,       "Encapsulating encounter object"
     parameter :priority,        "Priority of the encounter. Default: 'medium'"
+    parameter :content_id,      "Content associated with the message"
 
     scope_parameters :encounter, [:priority]
     scope_parameters :location, [:latitude, :longitude]
@@ -59,7 +62,9 @@ resource "Messages" do
     let(:location)        { @location }
     let(:patient_user_id) { @patient_user.id }
     let(:priority)        { "medium" }
+    let(:content_id)      { @content.id }
     let(:raw_post)        { params.to_json }  # JSON format request body
+
 
     example_request "[POST] Create a message with a new encounter" do
       explanation "Endpoint for posting a new message. If the patient_user_id is not supplied, we assume that the current user is the patient."

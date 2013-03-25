@@ -28,7 +28,8 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
     #create message
     return render_failure({reason:"Text cannot be empty"}, 412) unless params[:text].present?
-    message = Message.create :text=>params[:text]
+    return render_failure({reason:"Content with id #{params[:content_id]} not found"}, 404) if params[:content_id].present? && !Content.find_by_id(params[:content_id])
+    message = Message.create({:text=>params[:text], :content_id=>params[:content_id]}) 
     message.encounter = encounter
     message.user = current_user
 

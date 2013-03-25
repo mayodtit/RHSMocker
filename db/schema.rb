@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130321135617) do
+ActiveRecord::Schema.define(:version => 20130325184938) do
 
   create_table "associations", :force => true do |t|
     t.integer  "user_id"
@@ -146,7 +146,10 @@ ActiveRecord::Schema.define(:version => 20130321135617) do
     t.datetime "updated_at",       :null => false
     t.integer  "user_location_id"
     t.integer  "encounter_id"
+    t.integer  "content_id"
   end
+
+  add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
 
   create_table "user_diseases", :force => true do |t|
     t.integer  "user_id"
