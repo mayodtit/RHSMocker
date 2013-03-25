@@ -28,7 +28,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
 
   def update
     params[:user].delete :password
-    
+
     if params[:id].present?
       if current_user.allowed_to_edit_user? params[:id].to_i
         user = User.find(params[:id])
@@ -38,7 +38,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
     else
       user = current_user
     end
-
+    return render_failure({reason:"User not found"}, 404) unless user
     if user.update_attributes(params[:user])
       render_success({user:user})
     else

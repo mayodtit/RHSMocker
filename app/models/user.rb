@@ -30,7 +30,7 @@ class User < ActiveRecord::Base
   has_and_belongs_to_many :institutions
 
   has_many :feedbacks
-  
+
   has_many :encounters_users
 
   has_many :message_statuses
@@ -88,7 +88,7 @@ class User < ActiveRecord::Base
   end
 
   def allowed_to_edit_user? user_id
-    associates.map(&:id).include? user_id
+    admin? || associates.map(&:id).include?(user_id)
   end
 
   def readContent
@@ -106,7 +106,7 @@ class User < ActiveRecord::Base
   def markRead(content)
     userReadings = UserReading.where("user_id = ? AND content_id = ?", self.id, content.id)
     if userReadings.size == 1 and userReadings.first.read_date.nil?
-      userReading = userReadings.first 
+      userReading = userReadings.first
       userReading.read_date = Time.now
       userReading.save!
       notifyContentChange('read', content.id, content.contentsType)
@@ -121,7 +121,7 @@ class User < ActiveRecord::Base
   def markDismissed(content)
     userReadings = UserReading.where("user_id = ? AND content_id = ?", self.id, content.id)
     if userReadings.size == 1 and userReadings.first.dismiss_date.nil? and userReadings.first.read_date.nil?
-      userReading = userReadings.first 
+      userReading = userReadings.first
       userReading.dismiss_date = Time.now
       userReading.save!
       notifyContentChange('dismissed', content.id, content.contentsType)
@@ -136,7 +136,7 @@ class User < ActiveRecord::Base
   def markReadLater(content)
     userReadings = UserReading.where("user_id = ? AND content_id = ?", self.id, content.id)
     if userReadings.size == 1 and userReadings.first.read_date.nil?
-      userReading = userReadings.first 
+      userReading = userReadings.first
       userReading.read_later_date, = Time.now
       userReading.read_later_count = userReading.read_later_count + 1 #no ++ incrementor sucks
       userReading.save!
