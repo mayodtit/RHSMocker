@@ -12,11 +12,11 @@ module Api
       end
 
       def render_success resp=Hash.new
-        render :json=> {status:"success"}.merge(resp)
+        render :json=> {status:"success", user_message:""}.merge(resp)
       end
 
       def render_failure resp=Hash.new, status=401
-        render :json=> {status:"failure"}.merge(resp), :status=>status
+        render :json=> {status:"failure", user_message:""}.merge(resp), :status=>status
       end
 
     end
