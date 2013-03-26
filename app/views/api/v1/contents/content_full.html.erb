@@ -11,8 +11,12 @@
 <div class="content_subtitle"><%= @content.abstract.html_safe%></div>
 <% end %>
 <% end %>
-<% if ["Answer"].include?(@content.contentsType) %>
+<!-- <% if ["Answer"].include?(@content.contentsType) %>
 <div class="content_subtitle"><% if !@content.question.nil? %><%= @content.question%><% end %></div>
-<% end %>
+<% end %> -->
+<% if not ["Quiz", "Question"].include?(@content.contentsType) %>
 <div class="content_text"><% if !@content.body.nil? %><%=@content.reformattedBody.html_safe%><% end %></div>
+<% else %>
+<div class="content_text"><% if !@content.body.nil? %><%=@content.body.html_safe%><% end %></div>
+<% end %>
 </div>

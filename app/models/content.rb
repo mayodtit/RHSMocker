@@ -73,6 +73,7 @@ end
 
   openingJavascript += '&quot;type&quot;:&quot;launch_call_screen&quot;,'
   openingJavascript += '&quot;body&quot;:{'
+  openingJavascript += '&quot;content_id&quot; : ' + '&quot;' + @content.id + '&quot;,' 
   openingJavascript += '&quot;keywords&quot;: ['
 
   contents_mayo_vocabularies[0..6].each do |vocab|
