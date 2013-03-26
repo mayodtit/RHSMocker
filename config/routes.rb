@@ -56,6 +56,9 @@ RHSMocker::Application.routes.draw do
 
   match '/docs', :to => redirect('/docs/index.html')
 
+  get "/messages" => "messages#index", :as=>"messages_index"
+  root :to => "home#index"
+  get "/logout" => "home#logout_user", :as=>"logout"
 
   resources :users
   resources :contents

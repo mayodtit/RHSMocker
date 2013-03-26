@@ -1,0 +1,54 @@
+<script type="text/javascript">
+function sendMessage(encounter_id){
+	var text = $("#text"+encounter_id).val();
+	$("#text"+encounter_id).val("");
+	var data = {
+	  "auth_token": "<%=@user.auth_token%>",
+	  "text": text,
+	  "encounter": {
+	    "id": encounter_id
+	  }
+	};
+
+	$.post("/api/v1/messages", data, function(data, status){
+		if(status=="success"){
+			$("#container"+encounter_id).append("<div class='bs-docs-example'><div class='name'><%=@user.full_name%></div>"+text+"</div>");
+		}else{
+			alert("Message could not be sent");
+		}
+	});
+	return false;
+}
+
+</script>
+
+<div class="accordion" id="accordion2">
+	<% @encounters.each do |encounter| %>
+	  <div class="accordion-group">
+	  	<div class="accordion-heading">
+			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse<%= encounter.id %>">
+				<%= encounter.encounters_users.patients.first.user.full_name %> - <%= encounter.created_at %>
+			</a>
+		</div>
+		<div id="collapse<%= encounter.id %>" class="accordion-body collapse">
+		 	<div class="accordion-inner">
+		 		<div id="container<%= encounter.id %>">
+			 		<% encounter.messages.each do |message| %>
+						<div class="bs-docs-example">
+							<div class="name"><%= message.user.full_name %></div>
+							<%= message.text %>
+						</div>
+					<% end %>
+				</div>
+				<div class="bs-docs-example">
+					<div class="name"><%=@user.full_name%></div>
+					<form class="navbar-form">
+					  <textarea class="span11 clear" rows="3" id="text<%=encounter.id%>"></textarea>
+					  <button type="submit" class="btn" onClick="sendMessage(<%=encounter.id%>); return false;">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	  </div>
+	<% end %>
+</div>
