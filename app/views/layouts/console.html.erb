@@ -36,7 +36,7 @@
   </head>
   <body>
 
- <!--    <div class="navbar navbar-fixed-top">
+   <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
@@ -44,21 +44,25 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">RHSMocker</a>
+          <a class="brand" href="#">RHS</a>
           <div class="container nav-collapse">
             <ul class="nav">
-              <li><%= link_to "Link1", "/path1"  %></li>
-              <li><%= link_to "Link2", "/path2"  %></li>
-              <li><%= link_to "Link3", "/path3"  %></li>
+              <li><%= nav_link "Messages", "/messages"  %></li>
+            </ul>
+             <ul class="nav pull-right">
+              <% if @user %>
+                <li style="padding: 10px;"><span><%= @user.full_name %></span></li>
+                <li><%= link_to "Logout", "/logout"%></li>
+              <% end %>
             </ul>
           </div>
         </div>
       </div>
-    </div> -->
+    </div> 
 
     <div class="container">
         <div class="row">
-          <div class="span12">
+          <div class="span12" style="padding-top:50px;">
             <%= bootstrap_flash %>
             <%= yield %>
           </div>

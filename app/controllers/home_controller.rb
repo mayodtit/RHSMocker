@@ -1,4 +1,5 @@
 class HomeController < ApplicationController
+  layout "console"
   
   def index
   end
