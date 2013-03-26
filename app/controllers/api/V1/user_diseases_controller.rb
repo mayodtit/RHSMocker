@@ -5,7 +5,14 @@ class Api::V1::UserDiseasesController < Api::V1::ABaseController
     return render_failure({reason:"Disease_id not supplied"}, 412) unless params[:user_disease][:disease_id].present?
     disease = Disease.find_by_id params[:user_disease][:disease_id]
     return render_failure({reason:"Disease with id #{params[:user_disease][:disease_id]} is not found"}, 404) unless disease
-    user_disease = UserDisease.create params[:user_disease].merge({:user=>current_user})
+    if params[:user_id].present?
+      user = User.find_by_id params[:user_id]
+      return render_failure({reason:"User with id #{params[:user_id]} is not found"}, 404) unless user
+      return render_failure({reason:"Permission denied to edit user with id #{params[:user_id]}"}) unless current_user.allowed_to_edit_user?(params[:user_id])
+    else
+      user = current_user
+    end
+    user_disease = UserDisease.create params[:user_disease].merge({:user=>user})
     if user_disease.errors.empty?
       render_success({user_disease:user_disease})
     else
@@ -22,7 +29,7 @@ class Api::V1::UserDiseasesController < Api::V1::ABaseController
     return render_failure({reason:"UserDisease id not supplied"}, 412) unless params[:user_disease][:id].present?
     user_disease = UserDisease.find_by_id params[:user_disease][:id]
     return render_failure({reason:"UserDisease with id #{params[:user_disease][:id]} is not found"}, 404) unless user_disease
-    if user_disease.user_id!=current_user.id && !current_user.allowed_to_edit_user?(user_disease.user_id) && !current_user.admin?
+    if user_disease.user_id!=current_user.id && !current_user.allowed_to_edit_user?(user_disease.user_id)
       return render_failure({reason:"Permission denied to edit user_disease with id #{params[:user_disease][:id]}"})
     end
 
