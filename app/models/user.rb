@@ -82,8 +82,8 @@ class User < ActiveRecord::Base
     if !Content.where("title = 'Installed RHS'").empty?
       UserReading.create(user:self, content:Content.where("title = 'Installed RHS'").first, read_date: Time.zone.now.iso8601)
     end
-    if !Content.where("title = 'Welcome'").empty?
-      UserReading.create(user:self, content:Content.where("title = 'Welcome'").first)
+    if !Content.where("title = 'Which hand do you hold your phone in?'").empty?
+      UserReading.create(user:self, content:Content.where("title = 'Which hand do you hold your phone in?'").first)
     end
   end
 
@@ -95,11 +95,9 @@ class User < ActiveRecord::Base
     readingList = Array.new
 
     if !self.user_readings.empty?
-
       self.user_readings.order('read_date DESC').includes(:content).each do |reading|
-      readingList << reading
-    end
-
+         readingList << reading
+      end
     end
   end
 

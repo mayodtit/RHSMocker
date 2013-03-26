@@ -15,25 +15,35 @@ installed = Content.create!(
 
 
 welcome = Content.create!(
-	contentsType: 'message',
-	title: 'Welcome',
-	body:'<p>I''m Sandra, one of your RHS Health Advocates here to support you in your quest for a healthier, fuller, life. The more you use RHS, the smarter we will get in providing you a personalized health expierence and better care</p>'
+	contentsType: 'Question',
+	title: 'Which hand do you hold your phone in?',
+	body:'<div id="panel-1">
+<div class = "content_subtitle">
+Let us know to customize your experience.
+</div>
+<div style="float:left; width:140px;text-align:center;">
+<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;move_thumb&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;right&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
+<img style="display : block; margin : auto;" alt="Left" width="43" height="63" src="/assets/lefthand_sm.png"/></a>
+</div>
+<div style="margin-left:140px;text-align:center;">
+<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;move_thumb&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;left&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display =&quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
+<img style="display : block; margin : auto;" alt="Right" width="43" height="63" src="/assets/righthand_sm.png"/></a>
+</div>      
+</div>
+<div id="panel-2" style="display:none">
+<div class="content_subtitle">
+Thank you!
+</div>
+<div class = "content_text">
+We\'ve now positioned the thumb controller to it\'s most comfortable (and healthy!) position. 
+</div>
+</div>'
 	)
 
-
 # Create some default Users
-nancy 	= User.create!(first_name: "Nancy", last_name: "Smith", 	gender:"F", birth_date:"06/18/1950", install_id: "123345")
-bob 	= User.create!(first_name: "Bob", 	last_name: "Jones", 	gender:"M", birth_date:"01/10/1973", install_id: "122233")
-limburg = User.create!(first_name: "Paul", 	last_name: "Limburg",	gender:"M", install_id: "144444")
-shelly  = User.create!(first_name: "Shelly",last_name: "Norman", 	gender:"F", install_id: "555555")
-
-
-
-
-#nancyReadInstalled = UserReading.create!(read_date:Time.zone.now.iso8601, user:nancy, content:installed)
-#nancyReadWelcome = UserReading.create!(read_date:Time.zone.now.iso8601, user:nancy, content:welcome)
-
-#bobReadInstalled = UserReading.create!(read_date:Time.now, user:bob, content:installed)
-#bobWelcome   = UserReading.create!(user:bob, content:welcome)
+#nancy 	= User.create!(first_name: "Nancy", last_name: "Smith", 	gender:"F", birth_date:"06/18/1950", install_id: "123345")
+#bob 	= User.create!(first_name: "Bob", 	last_name: "Jones", 	gender:"M", birth_date:"01/10/1973", install_id: "122233")
+#limburg = User.create!(first_name: "Paul", 	last_name: "Limburg",	gender:"M", install_id: "144444")
+#shelly  = User.create!(first_name: "Shelly",last_name: "Norman", 	gender:"F", install_id: "555555")
 
 
