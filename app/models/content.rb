@@ -33,10 +33,7 @@ class Content < ActiveRecord::Base
 ########
 def previewText
 	if !body.nil?
-
-      # two_sentances = body.split('. ').slice(0, 3).join('. ').gsub(/\ADescription/, '')
       preview = body.split(' ').slice(0, 20).join(' ').gsub(/\ADefinition<p>/, "") 
-
       preview +=  "&hellip;"
   end
 end
@@ -58,8 +55,10 @@ def reformattedBody
   	body
 end
 
-#THIS IS NOT HOW I PLAN ON DOING IT - TESTING OUT THE IDEA FIRST
+########
+# THIS IS NOT HOW I PLAN ON DOING IT - TESTING OUT THE IDEA FIRST
 # VIEW CODE IN THE MODEL == BAD
+########
  def talkDiv
 	insertHTML = '<div class="talk" ' 
 	insertHTML += javascriptOpening 
@@ -77,8 +76,6 @@ end
   openingJavascript += '&quot;keywords&quot;: ['
 
   contents_mayo_vocabularies[0..6].each do |vocab|
-  	#puts vocab.mayo_vocabulary.title
-  	#&quot;diabetes&quot;, &quot;treatment&quot;, &quot;symptoms&quot;
   	if !vocab.nil?
   		openingJavascript += '&quot;' + vocab.mayo_vocabulary.title + '&quot;,'
   	end
@@ -86,7 +83,7 @@ end
 
   openingJavascript += '],'
   #openingJavascript += '&quot;selected_keywords&quot;: [&quot;diabetes&quot;, &quot;treatment&quot;],'
-  openingJavascript += '&quot;message_body&quot;: &quot;I was reading about ' +self.title+ ' and want to talk about: &quot;'
+  openingJavascript += '&quot;message_body&quot;: &quot;I was reading ' +self.title+ ' and want to talk about: &quot;'
 
   openingJavascript += '}'
   openingJavascript += '}]\';'
