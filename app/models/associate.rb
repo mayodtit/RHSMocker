@@ -8,7 +8,8 @@ class Associate < User
       :phone=>phone,
       :image_url=>image_url,
       :gender=>gender,
-      :height=>height
+      :height=>height,
+      :diseases=>diseases
     }
   end
 
