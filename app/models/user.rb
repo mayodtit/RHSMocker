@@ -66,6 +66,10 @@ class User < ActiveRecord::Base
     update_attribute :auth_token, Base64.urlsafe_encode64(SecureRandom.base64(36))
   end
 
+  def can_call?
+    self.admin? || self.feature_bucket == 'call_only' || self.feature_bucket == 'message_call'
+  end
+
   #Keywords (aka search history)
   def keywords
     ["Diabetes", "Weight Loss", "Low Sugar Diet", "Exercise"]
