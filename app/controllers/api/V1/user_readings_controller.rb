@@ -7,6 +7,18 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
     render_success user_readings:current_user.user_readings
   end
 
+   # {
+   #    "read_date": null,
+   #    "dismiss_date": null,
+   #    "read_later_date": null,
+   #    "title": "Content Title 2",
+   #    "contentsType": "Answer",
+   #    "content_id": 5
+   #  }
+  def inbox
+
+  end
+
   def mark_read
     status :read_date, 'read'
   end
@@ -42,9 +54,8 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
 
 
   def hasMaxContent
-    current_user.user_readings.where(:read_date => nil, :dismiss_date => nil, :read_later_count => 0).count >= 7
+    current_user.user_readings.unread.count >= 7
   end
-
 
 
 

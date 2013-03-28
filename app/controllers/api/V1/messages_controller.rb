@@ -123,7 +123,6 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
   def mark_user_encounter msg, encounters_user
     msg.encounter.messages.each do |message|
-      puts message.id
       message_status = MessageStatus.find_by_user_id_and_message_id encounters_user.user.id, message.id
       if message_status && message_status.status == "unread" 
         encounters_user.update_attribute :read, false

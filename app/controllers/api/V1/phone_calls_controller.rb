@@ -14,6 +14,9 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
     if phone_call
       PhoneCall.increment_counter(:counter, phone_call.id)
     else
+      params[:phone_call].keep_if do |key, val|
+        (%w(time_to_call time_zone message_id)).include?(key)
+      end
       phone_call = PhoneCall.create params[:phone_call].merge({:status=>'open', :counter=>1})
     end
 
