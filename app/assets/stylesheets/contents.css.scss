@@ -11,22 +11,19 @@ body {
 	padding:0px;
 }
 
-div.content {
-    width:620px;
-}
-
 div.content_full {
     width:300px;
-    margin-left: 14px;
-    margin-right: 14px;
+    margin-left:10px;
+    margin-right:10px;
     margin-top:10px;
 }
 
 div.content_cardview {
-    width:288px;
-    margin-left: 14px;
-    margin-right: 14px;
+    width:278px;
+    margin-left:10px;
+    margin-right:10px;
     margin-top:10px;
+    height: 160px;
 }
 
 div.content_type_and_sender {
@@ -53,33 +50,40 @@ div.content_title {
 }
 
 div.content_date_and_source {
-	font-family:"ITC Franklin Gothic Book Condensed";
-	font-size:14px;
-    color:#999999;
-    padding-bottom:5px;
+	font-family: "ITC Franklin Gothic Book Condensed";
+	font-size: 14px;
+    color: #999999;
+    padding-bottom: 5px;
 }
 
 div.content_subtitle {
-	font-family:"ITC Franklin Gothic Book Condensed";
-	font-size:17px;
-	color:#4c4c4c;
-    padding-bottom:5px;
+	font-family: "ITC Franklin Gothic Book Condensed";
+	font-size: 18px;
+	color: #4c4c4c;
+    padding-bottom: 5px;
 }
 
 div.content_text {
-	font-family:"ITC Franklin Gothic Book Condensed";
-	font-size:18px;
-	color:#4c4c4c;
+	font-family: "ITC Franklin Gothic Book Condensed";
+	font-size: 16px;
+	color: #4c4c4c;
+}
+
+div.content_text_preview {
+    font-family: "ITC Franklin Gothic Book Condensed";
+    font-size: 16px;
+    color: #4c4c4c;
+    text-overflow: ellipsis;
+    overflow: hidden; 
 }
 
 div.talk {
     background-color: #bfbfbf;
-    padding-top:5px;
-    margin-bottom:10px;
-    padding-bottom: 14px;
-    height:60px;
-    margin-left:-14px;
-    margin-right:-10px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 div.talk_icon{
@@ -96,10 +100,10 @@ div.talk_icon{
 
 div.talk_content {
     font-family:"ITC Franklin Gothic Medium Condensed";
-    padding: 13px 15px 0px 10px;
-    font-size:15px;
+    padding: 10px 15px 0px 10px;
+    font-size: 15px;
     color:#5a8791;
-    height:60px;
+    height:45px;
     text-transform:uppercase;
     background-color: #bfbfbf;
     vertical-align:middle;

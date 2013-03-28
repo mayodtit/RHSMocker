@@ -32,8 +32,8 @@ class Content < ActiveRecord::Base
 # may not close, and then add an ellipsis to the end. This is only used in the preview cardview
 ########
 def previewText
-	if !body.nil?
-      preview = body.split(' ').slice(0, 20).join(' ').gsub(/\ADefinition<p>/, "") 
+  if !body.nil?
+      preview = body.split(' ').slice(0, 21).join(' ').gsub(/\ADefinition<p>/, "") 
       preview +=  "&hellip;"
   end
 end
@@ -84,7 +84,7 @@ end
 
   openingJavascript += '],'
   #openingJavascript += '&quot;selected_keywords&quot;: [&quot;diabetes&quot;, &quot;treatment&quot;],'
-  openingJavascript += '&quot;message_body&quot;: &quot;I was reading ' +self.title+ ' and want to talk about: &quot;'
+  openingJavascript += '&quot;message_body&quot; : &quot;I was reading the article ' + self.title + ' and would like to discuss it with a Health Advocate. &quot;'
 
   openingJavascript += '}'
   openingJavascript += '}]\';'
@@ -96,7 +96,8 @@ end
 
  #Utility Methods to be removed
   def self.getRandomContent
-  	Content.find(:first, :offset =>rand(count))
+  	types = ["Article", "Answer", "Health Tip"]
+   		content = Content.find(:first, :offset =>rand(count), :conditions => ["contentsType IN (?)", types])
   end
 
 end
