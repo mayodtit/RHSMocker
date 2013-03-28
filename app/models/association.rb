@@ -13,6 +13,11 @@ class Association < ActiveRecord::Base
     :message=> "%{value} is not valid.",
     :allow_nil=>true
   }
+  validate :not_its_own_associate
+
+  def not_its_own_associate
+    errors.add(:user, "cannot be associated to itself") if self.user.id==self.associate.id
+  end 
 
   def as_json options=nil
     {
