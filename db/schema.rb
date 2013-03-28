@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130326230532) do
+ActiveRecord::Schema.define(:version => 20130328191338) do
 
   create_table "associations", :force => true do |t|
     t.integer  "user_id"
@@ -87,6 +87,7 @@ ActiveRecord::Schema.define(:version => 20130326230532) do
     t.integer  "user_id"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
+    t.boolean  "read"
   end
 
   add_index "encounters_users", ["encounter_id"], :name => "index_encounters_users_on_encounter_id"

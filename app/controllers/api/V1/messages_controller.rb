@@ -64,6 +64,9 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     encounter.encounters_users.each do |encounter_user|
       status_name = (encounter_user.user_id == current_user.id) ? "read" : "unread"
       MessageStatus.create(:status=>status_name, :user_id=>encounter_user.user_id, :message=>message)
+      if encounter_user.user_id != current_user.id
+        encounter_user.update_attribute :read, false
+      end
     end
 
     if message.save
@@ -104,7 +107,30 @@ class Api::V1::MessagesController < Api::V1::ABaseController
         warnings << "Message with id #{message_json.id} not found"
       end
     end
+
+    params[:messages].each do |message_json|
+      message = Message.find_by_id message_json[:id]
+      if message
+        encounters_user = EncountersUser.find_by_encounter_id_and_user_id message.encounter_id, current_user.id
+        if !encounters_user.nil?
+           mark_user_encounter message, encounters_user
+        end
+      end
+    end
+
     render_success({warnings:warnings})
+  end
+
+  def mark_user_encounter msg, encounters_user
+    msg.encounter.messages.each do |message|
+      puts message.id
+      message_status = MessageStatus.find_by_user_id_and_message_id encounters_user.user.id, message.id
+      if message_status && message_status.status == "unread" 
+        encounters_user.update_attribute :read, false
+        return
+      end
+    end
+    encounters_user.update_attribute :read, true
   end
 
 end
