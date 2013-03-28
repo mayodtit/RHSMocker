@@ -1,22 +1,17 @@
-
-<% if @content.contentsType == 'quiz' %>
-<div class="content_cardview">
+<% if ["Question", "Quiz", "quiz"].include?(@content.contentsType) %>
+	<div class="content_cardview">
 <% else %>
-<% if ["Question"].include?(@content.contentsType) %>
-		<div class="content_cardview">
-	<% else %>
-		<div class="content_cardview" onclick="document.actionJSON = '[{&quot;type&quot;:&quot;fullscreen&quot;}]'; window.location.href = 'http://dontload/'">
-	<% end %>
+	<div class="content_cardview" onclick="document.actionJSON = '[{&quot;type&quot;:&quot;fullscreen&quot;}]'; window.location.href = 'http://dontload/'">
 <% end %>
-	<div class="content_type_and_sender">
-		<div style="float:left;">
-		<% if ["Question"].include?(@content.contentsType) %>
-			<%= image_tag ("question_icn.png") %></div>
-			<% else %>
-			<%= image_tag ("inbox_icn.png") %></div>
-		<% end %>
- 		<span style="display:inline-block;margin-top:3px;">
-			<%= @content.contentsType %></span>
+
+<div class="content_type_and_sender">
+	<div style="float:left;">
+	<% if ["Question"].include?(@content.contentsType) %>
+		<%= image_tag ("question_icn.png") %></div>
+	<% else %>
+		<%= image_tag ("inbox_icn.png") %></div>
+	<% end %>
+ 	<span style="display:inline-block;margin-top:3px;"><%= @content.contentsType %></span>
 	</div>
 	<div class="content_title"><%= @content.title %></div>
 	<div class="content_date_and_source">
@@ -27,11 +22,11 @@
 			&nbsp;&nbsp;|&nbsp;&nbsp;
 			<%= image_tag ("mayo_clinic_logo.png")%>&nbsp;&nbsp;Mayo Clinic</div>
 		<% end %>
-		<% if ["Question", "Message"].include?(@content.contentsType) %>
-			<div class="content_subtitle"><%= @content.body.html_safe%></div>
+		<% if ["Question"].include?(@content.contentsType) %>
+				<div class="content_text_preview"><%= @content.body.html_safe%></div>
 			<% else %>
 			<% if !@content.previewText.nil? %>
-				<div class="content_subtitle"><%= @content.previewText.html_safe%></div>
+				<div class="content_text_preview"><%= @content.previewText.html_safe%></div>
 			<% end %>
 		<% end %>
 	</div>
