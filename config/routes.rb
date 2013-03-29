@@ -46,6 +46,7 @@ RHSMocker::Application.routes.draw do
       get "user/keywords" => "users#keywords", :as=>"user_keywords"
 
       get "messages" => "messages#list", :as=>"list_user_messages"
+      get "messages/:id" => "messages#show", :as=>"show_user_message"
       post "messages" => "messages#create", :as => "create_user_message"
       post "messages/mark_read" => "messages#mark_read", :as => "messages_mark_read"
 

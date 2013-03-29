@@ -36,6 +36,20 @@ class Message < ActiveRecord::Base
     else 
       result.merge!({status:statuses.first.status})
     end
+
+    if options && options["source"].present?
+      result.merge!({:body => options["source"]})
+    end
     result
+  end
+
+  def previewText
+    if !text.nil?
+      preview = text.split(' ').slice(0, 21).join(' ')+"&hellip;"
+    end
+  end
+
+  def title
+    "Conversation with HCP"
   end
 end

@@ -81,6 +81,18 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     render_success encounters:current_user.encounters.as_json({:current_user=>current_user})
   end
 
+  def show
+    @message = Message.find_by_id(params[:id])
+    return render_failure({reason:"Message not found"}, 404) unless @message
+    html = if params[:q] == 'cardview'
+      render_to_string :action => "cardview", :formats=>:html, :locals => {:first_paragraph => @message.previewText}
+    else
+      render_to_string :action => "full", :formats=>:html
+    end
+
+    render_success @message.as_json({"source"=>html})
+  end
+
   def mark_read
     warnings = []
 
