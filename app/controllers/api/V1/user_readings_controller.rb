@@ -7,15 +7,10 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
     render_success user_readings:current_user.user_readings
   end
 
-   # {
-   #    "read_date": null,
-   #    "dismiss_date": null,
-   #    "read_later_date": null,
-   #    "title": "Content Title 2",
-   #    "contentsType": "Answer",
-   #    "content_id": 5
-   #  }
   def inbox
+    page = Integer(params[:page] || 1)
+    per_page = Integer(params[:per_page] || 10)
+
     unread = current_user.message_statuses.unread.map { |message_status|
       render_message_into_common_format(message_status)
     } | current_user.user_readings.unread
@@ -24,7 +19,11 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
       render_message_into_common_format(message_status)
     } | current_user.user_readings.read
 
-    render_success({unread:unread.sort_by!{|obj| obj[:created_at]}, read:read.sort_by!{|obj| obj[:created_at]}})
+    unread.sort_by!{|obj| obj[:created_at]}
+    read.sort_by!{|obj| obj[:created_at]}
+
+
+    render_success({unread:unread, read:read.slice((page-1)*per_page, per_page)})
   end
 
   def render_message_into_common_format message_status
