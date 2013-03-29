@@ -20,11 +20,12 @@ class Content < ActiveRecord::Base
 	end
 
 	def as_json(options=nil)
-		if options && options["source"].present?
-			json = {:title => title, :contents_type => contentsType, :contentID => id, :body => options["source"]}
-		else
-			json =  {:title => title, :contents_type => contentsType, :contentID => id, :body => body}
-		end
+    if options && options["source"].present?
+      json_body = options["source"]
+    else
+      json_body = body
+    end
+    {:title => title, :contents_type => contentsType, :contentID => id, :body=>json_body}
 	end
 
 ########
