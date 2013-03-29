@@ -16,8 +16,29 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
    #    "content_id": 5
    #  }
   def inbox
+    unread = current_user.message_statuses.unread.map { |message_status|
+      render_message_into_common_format(message_status)
+    } | current_user.user_readings.unread
 
+    read = current_user.message_statuses.read.map { |message_status|
+      render_message_into_common_format(message_status)
+    } | current_user.user_readings.read
+
+    render_success({unread:unread.sort_by!{|obj| obj[:created_at]}, read:read.sort_by!{|obj| obj[:created_at]}})
   end
+
+  def render_message_into_common_format message_status
+    {
+      :read_date=>nil,
+      :dismiss_date=>nil,
+      :read_later_date=>nil,
+      :title=> "Conversation with an HCP",
+      :contentsType=>"Message",
+      :message_id=>message_status.message.id,
+      :created_at=>message_status.message.created_at
+    }
+  end
+
 
   def mark_read
     status :read_date, 'read'

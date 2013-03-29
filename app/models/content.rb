@@ -8,10 +8,10 @@ class Content < ActiveRecord::Base
 
 	has_many :user_readings
 	has_many :users,
-	:through => :user_readings,
-	:select => "users.*, user_readings.completed_date AS completedDate"
+		:through => :user_readings,
+		:select => "users.*, user_readings.completed_date AS completedDate"
 
-  has_many :messages
+  	has_many :messages
 
 	searchable do
 		text :body

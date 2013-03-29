@@ -14,7 +14,8 @@ class UserReading < ActiveRecord::Base
       :read_later_date=> read_later_date, 
       :title=> content.title,
       :contentsType => content.contentsType,
-      :content_id => content.id
+      :content_id => content.id,
+      :created_at => created_at
     }
 
   end
