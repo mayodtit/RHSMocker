@@ -98,7 +98,7 @@ end
  #Utility Methods to be removed
   def self.getRandomContent
   	types = ["Article", "Answer", "Health Tip"]
-   		content = Content.find(:first, :offset =>rand(count), :conditions => ["contentsType IN (?)", types])
+   		content = Content.find(:first, :offset =>rand(count), :conditions => ["contentstype IN (?)", types])
   end
 
 end
