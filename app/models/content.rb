@@ -12,6 +12,8 @@ class Content < ActiveRecord::Base
 		:select => "users.*, user_readings.completed_date AS completedDate"
 
   	has_many :messages
+  	has_and_belongs_to_many :symptoms
+  	has_and_belongs_to_many :symptoms_factors
 
 	searchable do
 		text :body
