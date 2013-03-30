@@ -98,7 +98,12 @@ end
  #Utility Methods to be removed
   def self.getRandomContent
   	types = ["Article", "Answer", "Health Tip"]
-   		content = Content.find(:first, :offset =>rand(count), :conditions => ["contentstype IN (?)", types])
+    if Rails.env.development? || Rails.env.test?
+      content = Content.first(:order => "RANDOM()", :conditions => ["contentsType IN (?)", types])
+    else
+      content = Content.first(:order => "RAND()", :conditions => ["contentsType IN (?)", types])
+    end
+    content
   end
 
 end
