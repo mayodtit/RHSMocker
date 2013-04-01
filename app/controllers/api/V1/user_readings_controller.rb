@@ -17,7 +17,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
 
     read = current_user.message_statuses.read.map { |message_status|
       render_message_into_common_format(message_status)
-    } | current_user.user_readings.read
+    } | current_user.user_readings.read.not_dismissed
 
     unread.sort_by!{|obj| obj[:created_at]}
     read.sort_by!{|obj| obj[:created_at]}
