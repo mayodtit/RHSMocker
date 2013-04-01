@@ -99,9 +99,9 @@ end
   def self.getRandomContent
   	types = ["Article", "Answer", "Health Tip"]
     if Rails.env.development? || Rails.env.test?
-      content = Content.first(:order => "RANDOM()", :conditions => ["contentsType IN (?)", types])
+      content = Content.first(:order => "RANDOM()")
     else
-      content = Content.first(:order => "RAND()", :conditions => ["contentsType IN (?)", types])
+      content = Content.first(:order => "RAND()")
     end
     content
   end
