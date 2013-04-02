@@ -98,12 +98,7 @@ end
  #Utility Methods to be removed
   def self.getRandomContent
   	types = ["Article", "Answer", "Health Tip"]
-    if Rails.env.development? || Rails.env.test?
-      content = Content.first(:order => "RANDOM()")
-    else
-      content = Content.first(:order => "RAND()")
-    end
-    content
+    Content.first(:order => "RANDOM()")
   end
 
 end
