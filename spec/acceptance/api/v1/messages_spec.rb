@@ -36,6 +36,36 @@ resource "Messages" do
     end
   end
 
+  get '/api/v1/messages/:id' do
+    parameter :auth_token,       "User's auth token"
+    parameter :id,       "Message id"
+    required_parameters :auth_token, :id
+
+    let(:auth_token)    { @user.auth_token }
+    let(:id)    { @message1.id }
+
+    example_request "[GET] Get message by id" do
+      explanation "Returns rendered message"
+      status.should == 200
+    end
+  end
+
+  get '/api/v1/messages/:id' do
+    parameter :q,     "cardview"
+    parameter :auth_token,       "User's auth token"
+    parameter :id,       "Message id"
+    required_parameters :q, :auth_token, :id
+
+    let(:q) { "cardview"}
+    let(:auth_token)    { @user.auth_token }
+    let(:id)    { @message1.id }
+
+    example_request "[GET] Get message by id (cardview)" do
+      explanation "Returns rendered message in cardview"
+      status.should == 200
+    end
+  end
+
   post "/api/v1/messages" do
     parameter :auth_token,      "User's auth token"
     parameter :keywords,        "Keywords to add to the message"
