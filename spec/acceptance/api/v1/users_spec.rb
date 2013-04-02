@@ -72,6 +72,25 @@ resource "Users" do
     end
   end
 
+  post '/api/v1/user/update_email' do
+    parameter :auth_token,        "User's auth token"
+    parameter :password,          "User's password; for verification"
+    parameter :email,             "New email address"
+
+    required_parameters :auth_token, :password, :email
+
+    let (:auth_token)       { @user.auth_token }
+    let (:password)         { @password }
+    let (:email)            { 'new_email@address.com' }
+    let (:raw_post)         { params.to_json }  # JSON format request body
+
+    example_request "[POST] Change the email" do
+      explanation "Returns the user"
+      status.should == 200
+      JSON.parse(response_body)['user'].should_not be_empty
+    end
+  end
+
   post '/api/v1/user/update_password' do
     parameter :auth_token,        "User's auth token"
     parameter :current_password,  "User's current password"

@@ -9,6 +9,7 @@ RHSMocker::Application.routes.draw do
       put "user" => "users#update", :as=>"user_update"
       put "user/:id" => "users#update", :as=>"user_update"
       post "user/update_password" => "users#update_password", :as=>"update_password"
+      post "user/update_email" => "users#update_email", :as=>"update_email"
       post "password_resets" => "password_resets#create", :as=>"create_password_resets"
 
       #content
