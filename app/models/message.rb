@@ -30,7 +30,8 @@ class Message < ActiveRecord::Base
       :location => user_location,
       :attachments => attachments,
       :keywords => mayo_vocabularies,
-      :content_id=> content_id
+      :content_id=> content_id,
+      :encounter_id=> encounter.id
     }
     if statuses.empty?
       result.merge!({status:"unread"})
