@@ -2,6 +2,7 @@
 
 FactoryGirl.define do
   factory :symptom do
-    name "MyString"
+    name "Abdominal Pain"
+    patient_type "adult"
   end
 end

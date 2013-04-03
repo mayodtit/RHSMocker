@@ -52,6 +52,8 @@ RHSMocker::Application.routes.draw do
       post "phone_calls" => "phone_calls#create"
       # put "phone_calls" => "phone_calls#update"
 
+      get "symptoms" => "symptoms#index"
+
     end
   end
 
