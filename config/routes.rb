@@ -53,6 +53,7 @@ RHSMocker::Application.routes.draw do
       # put "phone_calls" => "phone_calls#update"
 
       get "symptoms" => "symptoms#index"
+      get "factors/:id" => "factors#index"
 
     end
   end
