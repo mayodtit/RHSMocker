@@ -81,6 +81,18 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     render_success encounters:current_user.encounters.as_json({:current_user=>current_user})
   end
 
+  def show
+    @message = Message.find_by_id(params[:id])
+    return render_failure({reason:"Message not found"}, 404) unless @message
+    html = if params[:q] == 'cardview'
+      render_to_string :action => "cardview", :formats=>:html, :locals => {:first_paragraph => @message.previewText}
+    else
+      render_to_string :action => "full", :formats=>:html
+    end
+
+    render_success @message.as_json({"source"=>html})
+  end
+
   def mark_read
     warnings = []
 
@@ -103,6 +115,48 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
         message_status = MessageStatus.find_or_create_by_message_id_and_user_id message.id, current_user.id
         message_status.update_attribute :status, "read"
+      else
+        warnings << "Message with id #{message_json.id} not found"
+      end
+    end
+
+    params[:messages].each do |message_json|
+      message = Message.find_by_id message_json[:id]
+      if message
+        encounters_user = EncountersUser.find_by_encounter_id_and_user_id message.encounter_id, current_user.id
+        if !encounters_user.nil?
+           mark_user_encounter message, encounters_user
+        end
+      end
+    end
+
+    render_success({warnings:warnings})
+  end
+
+
+
+  def mark_dismissed
+    warnings = []
+
+    return render_failure({reason:"Did not pass an array of [messages]"}, 417) unless params[:messages].present?
+    params[:messages].each do |message_json|
+      message = Message.find_by_id message_json[:id]
+      if message
+        encounters_user = EncountersUser.find_by_encounter_id_and_user_id message.encounter_id, current_user.id
+        if encounters_user.nil?
+          if current_user.admin?
+            encounters_user = EncountersUser.create :encounter=>message.encounter, :user=>current_user, :role=>"reader"
+          else
+            warnings << "Permission denied to mark message with id #{message_json[:id]} as read"
+            next
+          end
+        end
+        if encounters_user.role != "patient" && current_user.admin?
+          message.encounter.update_attribute :checked, true
+        end
+
+        message_status = MessageStatus.find_or_create_by_message_id_and_user_id message.id, current_user.id
+        message_status.update_attribute :status, "dismissed"
       else
         warnings << "Message with id #{message_json.id} not found"
       end

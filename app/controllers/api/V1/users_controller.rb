@@ -27,7 +27,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def update
-    params[:user].delete :password
+    # params[:user].delete :password
 
     if params[:id].present?
       if current_user.allowed_to_edit_user? params[:id].to_i
@@ -51,6 +51,16 @@ class Api::V1::UsersController < Api::V1::ABaseController
     return render_failure( {reason:"Invalid current password"} ) unless user
     return render_failure( {reason:"Empty new password"} ) unless params[:password].present?
     if user.update_attributes(:password => params[:password])
+      render_success( {user:user} )
+    else
+      render_failure( {reason:user.errors.full_messages.to_sentence}, 400 )
+    end
+  end
+
+  def update_email
+    user = login(current_user.email, params[:password])
+    return render_failure( {reason:"Invalid password"} ) unless user
+    if user.update_attributes(:email => params[:email])
       render_success( {user:user} )
     else
       render_failure( {reason:user.errors.full_messages.to_sentence}, 400 )

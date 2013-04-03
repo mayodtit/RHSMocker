@@ -22,11 +22,12 @@ class Content < ActiveRecord::Base
 	end
 
 	def as_json(options=nil)
-		if options && options["source"].present?
-			json = {:title => title, :contents_type => contentsType, :contentID => id, :body => options["source"]}
-		else
-			json =  {:title => title, :contents_type => contentsType, :contentID => id, :body => body}
-		end
+    if options && options["source"].present?
+      json_body = options["source"]
+    else
+      json_body = body
+    end
+    {:title => title, :contents_type => contentsType, :contentID => id, :body=>json_body}
 	end
 
 ########
@@ -44,17 +45,19 @@ end
 # Insert the "would you like to call someone text"
 ########
 def reformattedBody
-	if !body.nil? 
-		case 
-		when body.scan('</p>').count > 1
-          body.insert(body.index(/<\/p>/,body.index(/<\/p>/)+4)+4, talkDiv)
-        when body.scan('</p>').count == 1
-          body.insert(body.index(/<\/p>/)+4, talkDiv)
-		else
-		  body.insert(body.index(/<\/body>/)+6, talkDiv)
-		end
-  	end
-  	body
+  if !body.nil? 
+    case 
+      when body.scan('</p>').count > 1
+        body.insert(body.index(/<\/p>/,body.index(/<\/p>/)+4)+4, talkDiv)
+      when body.scan('</p>').count == 1
+        body.insert(body.index(/<\/p>/)+4, talkDiv)
+      when !body.index(/<\/body>/).nil?
+        body.insert(body.index(/<\/body>/)+6, talkDiv)
+      else
+        
+    end
+  end
+  body
 end
 
 ########
@@ -99,7 +102,7 @@ end
  #Utility Methods to be removed
   def self.getRandomContent
   	types = ["Article", "Answer", "Health Tip"]
-   		content = Content.find(:first, :offset =>rand(count), :conditions => ["contentsType IN (?)", types])
+    Content.first(:order => "RANDOM()")
   end
 
 end

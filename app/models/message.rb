@@ -24,18 +24,34 @@ class Message < ActiveRecord::Base
       :created_at=>created_at,
       :user=>{
         :id=> user.id,
-        :full_name=> user.full_name
+        :full_name=> user.full_name,
+        :feature_bucket=> user.feature_bucket
       },
       :location => user_location,
       :attachments => attachments,
       :keywords => mayo_vocabularies,
-      :content_id=> content_id
+      :content_id=> content_id,
+      :encounter_id=> encounter.id
     }
     if statuses.empty?
       result.merge!({status:"unread"})
     else 
       result.merge!({status:statuses.first.status})
     end
+
+    if options && options["source"].present?
+      result.merge!({:body => options["source"]})
+    end
     result
+  end
+
+  def previewText
+    if !text.nil?
+      preview = text.split(' ').slice(0, 21).join(' ')+"&hellip;"
+    end
+  end
+
+  def title
+    "Conversation with HCP"
   end
 end

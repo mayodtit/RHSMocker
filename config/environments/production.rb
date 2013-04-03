@@ -1,6 +1,22 @@
 RHSMocker::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
+  # Heroku REQUIRES this to be false
+  config.assets.initialize_on_precompile = false
+
+  # Include any files that you want to link to directly from your templates directly.
+  config.assets.precompile += ['application.css', 'application.js']
+
+  # Not required, but a good best-practice for performance.
+  # This setting will compress your assets as much as possible using YUI and Uglifier by default
+  config.assets.compress = true
+
+  # Allow fingerprinting of asset filenames - good for caching.
+  config.assets.digest = true
+
+  # Configure the sendfile headers for Heroku.  "X-Accel-Redirect" is also a good value for this since Heroku use Nginx.
+  config.action_dispatch.x_sendfile_header = nil
+
   # Code is not reloaded between requests
   config.cache_classes = true
 
@@ -11,14 +27,12 @@ RHSMocker::Application.configure do
   # Disable Rails's static asset server (Apache or nginx will already do this)
   config.serve_static_assets = false
 
-  # Compress JavaScripts and CSS
-  config.assets.compress = true
+
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
   config.assets.compile = false
 
-  # Generate digests for assets URLs
-  config.assets.digest = true
+
 
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH

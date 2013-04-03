@@ -5,11 +5,30 @@ resource "UserReadings" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  before(:each) do
+  before(:all) do
     @user = FactoryGirl.create(:user_with_email)
     @user.login
+
+    # to test mark_read, dismiss, and read_later
     @content = FactoryGirl.create(:content)
-    FactoryGirl.create(:user_reading, :user=>@user, :content=>@content)
+
+    # to test inbox
+    encounter = FactoryGirl.create(:encounter)
+    content = FactoryGirl.create(:content)
+
+    # unread messages and contents
+    7.times do
+      message = FactoryGirl.create(:message, :encounter=>encounter, :user=>@user)
+      FactoryGirl.create(:message_status, :user=>@user, :message=>message, :status=>'unread')
+      FactoryGirl.create(:user_reading, :user=>@user, :content=>content)
+    end
+
+    # read messages and contents
+    30.times do
+      message = FactoryGirl.create(:message, :encounter=>encounter, :user=>@user)
+      FactoryGirl.create(:message_status, :user=>@user, :message=>message, :status=>'read')
+      FactoryGirl.create(:user_reading, :user=>@user, :content=>content, :read_date=>Date.today())
+    end
   end
 
   get '/api/v1/user_readings' do
@@ -25,6 +44,54 @@ resource "UserReadings" do
     end
   end
 
+  get '/api/v1/inbox' do
+    parameter :auth_token,       "User's auth token"
+    required_parameters :auth_token
+
+    let (:auth_token)    { @user.auth_token }
+
+    example_request "[GET] Get all inbox items (messages and content)" do
+      explanation "Returns two arrays (read, and unread) of the specified user's readings and messages. Returns only 10 most recent 'read' items (defaults to page=1 and number_per_page=10)."
+      status.should == 200
+      JSON.parse(response_body)['unread'].should be_a Array
+      JSON.parse(response_body)['read'].should be_a Array
+    end
+  end
+
+  get '/api/v1/inbox/:page' do
+    parameter :auth_token,       "User's auth token"
+    parameter :page,             "Page number"
+    required_parameters :auth_token, :page
+
+    let(:auth_token)    { @user.auth_token }
+    let(:page)          { 2 }
+
+    example_request "[GET] Get all of inbox items (messages and content), and specific page of read items" do
+      explanation "Returns two arrays (read and unread) of the specified user's readings and messages. Returns only 10 items on that page (defaults to number_per_page=10)."
+      status.should == 200
+      JSON.parse(response_body)['unread'].should be_a Array
+      JSON.parse(response_body)['read'].should be_a Array
+    end
+  end
+
+  get '/api/v1/inbox/:page/:per_page' do
+    parameter :auth_token,       "User's auth token"
+    parameter :page,             "Page number"
+    parameter :per_page,         "Items per page"
+    required_parameters :auth_token, :page, :per_page
+
+    let(:auth_token)    { @user.auth_token }
+    let(:page)          { 2 }
+    let(:per_page)      { 5 }
+
+    example_request "[GET] Get all of inbox items (messages and content), items per page" do
+      explanation "Returns two arrays (read and unread) of the specified user's readings and messages"
+      status.should == 200
+      JSON.parse(response_body)['unread'].should be_a Array
+      JSON.parse(response_body)['read'].should be_a Array
+    end
+  end
+
   post '/api/v1/contents/mark_read' do
     parameter :auth_token,  "User's auth token"
     parameter :contents,    "Array of content IDs"
@@ -33,7 +100,7 @@ resource "UserReadings" do
     scope_parameters :contents, [:id]
 
     let(:auth_token)  { @user.auth_token }
-    let(:contents)    { [{:id=>1}] }
+    let(:contents)    { [{:id=>@content.id}] }
     let (:raw_post)   { params.to_json }  # JSON format request body
     
     example_request "[POST] Mark read user readings" do
@@ -52,7 +119,7 @@ resource "UserReadings" do
     scope_parameters :contents, [:id]
 
     let(:auth_token)  { @user.auth_token }
-    let(:contents)    { [{:id=>1}] }
+    let(:contents)    { [{:id=>@content.id}] }
     let (:raw_post)   { params.to_json }  # JSON format request body
 
     example_request "[POST] Dismiss user readings" do
@@ -71,7 +138,7 @@ resource "UserReadings" do
     scope_parameters :contents, [:id]
 
     let(:auth_token)  { @user.auth_token }
-    let(:contents)    { [{:id=>1}] }
+    let(:contents)    { [{:id=>@content.id}] }
     let (:raw_post)   { params.to_json }  # JSON format request body
     example_request "[POST] Read later user readings" do
       explanation "Mark specified content as 'read later' for this user"
@@ -88,7 +155,7 @@ resource "UserReadings" do
     let (:auth_token) { @user.auth_token }
     let (:raw_post)   { params.to_json }  # JSON format request body
 
-    example_request "[POST] Reset user readings" do
+    example_request "[POST] Reset user readings (FOR TESTING ONLY)" do
       explanation "Clears the user's readings list"
       
       status.should == 200

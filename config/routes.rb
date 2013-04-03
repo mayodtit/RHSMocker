@@ -9,6 +9,7 @@ RHSMocker::Application.routes.draw do
       put "user" => "users#update", :as=>"user_update"
       put "user/:id" => "users#update", :as=>"user_update"
       post "user/update_password" => "users#update_password", :as=>"update_password"
+      post "user/update_email" => "users#update_email", :as=>"update_email"
       post "password_resets" => "password_resets#create", :as=>"create_password_resets"
 
       #content
@@ -32,7 +33,7 @@ RHSMocker::Application.routes.draw do
 
       #reading list
       get "user_readings" => "user_readings#index", :as=>"user_readings_index"
-      get "inbox" => "user_readings#inbox", :as=>"inbox"
+      get "inbox(/:page)(/:per_page)" => "user_readings#inbox", :as=>"inbox"
       post "contents/mark_read" => "user_readings#mark_read", :as=>"contents_mark_read"
       post "contents/dismiss" => "user_readings#dismiss", :as=>"contents_dismiss"
       post "contents/read_later" => "user_readings#read_later", :as=>"contents_read_later"
@@ -46,8 +47,10 @@ RHSMocker::Application.routes.draw do
       get "user/keywords" => "users#keywords", :as=>"user_keywords"
 
       get "messages" => "messages#list", :as=>"list_user_messages"
+      get "messages/:id" => "messages#show", :as=>"show_user_message"
       post "messages" => "messages#create", :as => "create_user_message"
       post "messages/mark_read" => "messages#mark_read", :as => "messages_mark_read"
+      post "messages/mark_dismissed" => "messages#mark_dismissed", :as => "messages_mark_dismissed"
 
       post "phone_calls" => "phone_calls#create"
       # put "phone_calls" => "phone_calls#update"
