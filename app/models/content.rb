@@ -43,17 +43,19 @@ end
 # Insert the "would you like to call someone text"
 ########
 def reformattedBody
-	if !body.nil? 
-		case 
-		when body.scan('</p>').count > 1
-          body.insert(body.index(/<\/p>/,body.index(/<\/p>/)+4)+4, talkDiv)
-        when body.scan('</p>').count == 1
-          body.insert(body.index(/<\/p>/)+4, talkDiv)
-		else
-		  body.insert(body.index(/<\/body>/)+6, talkDiv)
-		end
-  	end
-  	body
+  if !body.nil? 
+    case 
+      when body.scan('</p>').count > 1
+        body.insert(body.index(/<\/p>/,body.index(/<\/p>/)+4)+4, talkDiv)
+      when body.scan('</p>').count == 1
+        body.insert(body.index(/<\/p>/)+4, talkDiv)
+      when !body.index(/<\/body>/).nil?
+        body.insert(body.index(/<\/body>/)+6, talkDiv)
+      else
+        
+    end
+  end
+  body
 end
 
 ########
