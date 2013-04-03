@@ -50,6 +50,7 @@ RHSMocker::Application.routes.draw do
       get "messages/:id" => "messages#show", :as=>"show_user_message"
       post "messages" => "messages#create", :as => "create_user_message"
       post "messages/mark_read" => "messages#mark_read", :as => "messages_mark_read"
+      post "messages/mark_dismissed" => "messages#mark_dismissed", :as => "messages_mark_dismissed"
 
       post "phone_calls" => "phone_calls#create"
       # put "phone_calls" => "phone_calls#update"

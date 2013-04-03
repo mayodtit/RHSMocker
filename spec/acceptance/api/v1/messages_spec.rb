@@ -162,6 +162,27 @@ resource "Messages" do
   end
 
 
+  post '/api/v1/messages/mark_dismissed' do
+    parameter :auth_token,  "User's auth token"
+    parameter :messages,    "Collection of augmented message objects"
+    parameter :id,          "Message ID"
+    required_parameters :auth_token, :messages
+
+    scope_parameters :message, [:id]
+
+    let(:auth_token)  { @user.auth_token }
+    let(:messages)    { [{id:@message1.id}, {id:@message2.id}] }
+    let(:raw_post)    { params.to_json }  # JSON format request body
+
+    example_request "[POST] Mark message(s) as dismissed" do
+       explanation "Pass a set of augmented message objects (with ids) and have them marked at 'dismissed'"
+
+      status.should == 200
+      JSON.parse(response_body)['warnings'].should be_a Array
+    end
+  end
+
+
 
 
 end
