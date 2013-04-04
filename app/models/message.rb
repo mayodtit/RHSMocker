@@ -16,7 +16,7 @@ class Message < ActiveRecord::Base
   def as_json options=nil
     statuses = []
     if options[:current_user].present?
-      statuses = message_statuses.where(:user_id=>options[:current_user].id)
+      statuses = message_statuses.where(:user_id=>options[:current_user].id).order('created_at DESC')
     end
     result = {
       :id => id,
@@ -31,12 +31,13 @@ class Message < ActiveRecord::Base
       :attachments => attachments,
       :keywords => mayo_vocabularies,
       :content_id=> content_id,
-      :encounter_id=> encounter.id
+      :encounter_id=> encounter.id,
+      :title=>title
     }
-    if statuses.empty?
-      result.merge!({status:"unread"})
+    if statuses.empty? || statuses.first.status == "unread"
+      result.merge!({status:"unread", read_date:nil})
     else 
-      result.merge!({status:statuses.first.status})
+      result.merge!({status:statuses.first.status, read_date:statuses.first.updated_at})
     end
 
     if options && options["source"].present?
