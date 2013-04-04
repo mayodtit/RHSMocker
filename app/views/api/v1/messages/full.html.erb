@@ -5,7 +5,7 @@
 		<% if !@message.created_at.nil? %>
 			<%= @message.created_at.strftime("%b. #{@message.created_at.day.ordinalize}, %Y") %>&nbsp;&nbsp;|&nbsp;&nbsp;
 		<% end %>
-		<%= image_tag ("mayo_clinic_logo.png")%>&nbsp;&nbsp;Mayo Clinic
+		<%= image_tag("mayo_clinic_logo.png", :class => "mayo_icon")%>&nbsp;&nbsp;Mayo Clinic
 	</div>
 	
 	<div class="content_text">

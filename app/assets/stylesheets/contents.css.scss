@@ -29,7 +29,7 @@ div.content_cardview {
 div.content_type_and_sender {
 	font-family:"ITC Franklin Gothic Medium Condensed";
 	font-size:15px;
-	color:#D97D2B;
+	color:#ff7400;
     text-transform:uppercase;
     padding-bottom:4px;
     float:left;
@@ -112,6 +112,8 @@ div.talk_content {
 img.top_icon{
     height:14px;
     width:14px;
+    display:inline-block;
+    margin-top:-4px;
 }
 
 img.mayo_icon{

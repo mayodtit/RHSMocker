@@ -4,18 +4,17 @@
   <div class="content_cardview" onclick="document.actionJSON = '[{&quot;type&quot;:&quot;fullscreen&quot;}]'; window.location.href = 'http://dontload/'">
 <% end %>
 
-<div class="content_type_and_sender">
-  <div style="float:left;">
-  <% if ["Question"].include?(@content.contentsType) %>
-    <%= image_tag("question_icn@2x.png", :class => "top_icon") %>
-    </div>
-  <% else %>
-    <%= image_tag("inbox_icn@2x.png", :class => "top_icon") %>
-    </div>
-  <% end %>
-  <span style="display:inline-block;margin-top:3px;"><%= @content.contentsType %></span>
+	<div class="content_type_and_sender">
+	  <% if ["Question"].include?(@content.contentsType) %>
+	    <%= image_tag("question_icn@2x.png", :class => "top_icon") %>
+	  <% else %>
+	    <%= image_tag("inbox_icn@2x.png", :class => "top_icon") %>
+	  <% end %>
+	  <span style="display:inline-block;margin-top:3px;"><%= @content.contentsType %></span>
+	</div>
+  <div class="content_title">
+  	<%= @content.title %>
   </div>
-  <div class="content_title"><%= @content.title %></div>
   <div class="content_date_and_source">
     <% if !@content.updateDate.nil? %>
       <%= @content.updateDate.strftime("%b. #{@content.updateDate.day.ordinalize}, %Y") %>
