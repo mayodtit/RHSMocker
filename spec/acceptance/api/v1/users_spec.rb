@@ -52,7 +52,9 @@ resource "Users" do
     parameter :email,       "Account email"
     parameter :password,    "Account password"
     parameter :feature_bucket, "The feature bucket that the user is in (none, message_only, call_only, message_call)"
-    scope_parameters :user, [:install_id, :email, :password, :feature_bucket]
+    parameter :first_name,  "User's first name"
+    parameter :last_name,   "User's last name"
+    scope_parameters :user, [:install_id, :email, :password, :feature_bucket, :first_name, :last_name]
 
     required_parameters :install_id, :email, :password
 
@@ -60,10 +62,12 @@ resource "Users" do
     let (:email)          { "tst@test.com" }
     let (:password)       { "11111111" }
     let (:feature_bucket) { "message_only" }
+    let (:first_name)     { "Bob" }
+    let (:last_name)      { "Smith" }
     let (:raw_post)   { params.to_json }  # JSON format request body
 
-    example_request "[POST] Sign up using email and password" do
-      explanation "If install ID exists, update that user's account with email and password; Returns auth_token and the user"
+    example_request "[POST] Sign up using email and password (or add email and password to account)" do
+      explanation "If the install ID exists, update that user's account with email and password.  Can pass additional user fields, such as first_name, gender, birth_date, etc.  Returns auth_token and the user."
 
       status.should == 200
       response = JSON.parse(response_body)
@@ -125,8 +129,8 @@ resource "Users" do
     let (:feature_bucket) { "message_only" }
     let (:raw_post)      { params.to_json }  # JSON format request body
 
-    example_request "[PUT] Update user" do
-      explanation "Update attributes for currently logged in user (as identified by auth_token); Returns the updated user"
+    example_request "[PUT] Update user (temporary allow changes to password field)" do
+      explanation "Update attributes for currently logged in user (as identified by auth_token). Can pass additional user fields, such as first_name, gender, birth_date, etc.  Returns the updated user"
       status.should == 200
       JSON.parse(response_body)['user'].should_not be_empty
     end
