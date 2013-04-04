@@ -30,7 +30,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
       :read_date=>(message_status.status=="read" ? message_status.updated_at : nil),
       :dismiss_date=>nil,
       :read_later_date=>nil,
-      :title=> "Conversation with an HCP",
+      :title=> message.title,
       :contentsType=>"Message",
       :message_id=>message_status.message.id,
       :created_at=>message_status.message.created_at
