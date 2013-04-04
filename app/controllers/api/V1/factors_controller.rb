@@ -1,5 +1,5 @@
 class Api::V1::FactorsController < Api::V1::ABaseController
-  skip_before_filter :authentication_check, :only=>:index
+  skip_before_filter :authentication_check
 
   def index
     symptom = Symptom.find_by_id params[:id]
