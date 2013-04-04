@@ -11,6 +11,7 @@ class Api::V1::FactorsController < Api::V1::ABaseController
 
   def check
     result = []
+    #SymptomsFactor.includes(:contents).where(:id=>params[:symptoms_factors])
     Content.joins(:contents_symptoms_factors => :symptoms_factor).
       where(:contents_symptoms_factors => { :symptoms_factor_id => params[:symptoms_factors]}).
       includes(:symptoms_factors).uniq.each do |content|

@@ -2,6 +2,6 @@
 
 FactoryGirl.define do
   factory :factor do
-    name "MyString"
+    name "intense"
   end
 end

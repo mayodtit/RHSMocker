@@ -2,6 +2,6 @@
 
 FactoryGirl.define do
   factory :factor_group do
-    name "MyString"
+    name "pain is"
   end
 end
