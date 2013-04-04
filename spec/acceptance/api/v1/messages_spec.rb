@@ -162,7 +162,7 @@ resource "Messages" do
   end
 
 
-  post '/api/v1/messages/mark_dismissed' do
+  post '/api/v1/messages/dismiss' do
     parameter :auth_token,  "User's auth token"
     parameter :messages,    "Collection of augmented message objects"
     parameter :id,          "Message ID"
