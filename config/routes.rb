@@ -57,6 +57,7 @@ RHSMocker::Application.routes.draw do
 
       get "symptoms" => "symptoms#index"
       get "factors/:id" => "factors#index"
+      post "symptoms/check" => "factors#check"
 
     end
   end

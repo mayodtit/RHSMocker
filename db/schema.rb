@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130402235702) do
+ActiveRecord::Schema.define(:version => 20130403212354) do
 
   create_table "associations", :force => true do |t|
     t.integer  "user_id"
@@ -67,16 +67,6 @@ ActiveRecord::Schema.define(:version => 20130402235702) do
     t.datetime "updated_at",         :null => false
   end
 
-  create_table "contents_symptom_factors", :force => true do |t|
-    t.integer  "content_id"
-    t.integer  "symptom_factor_id"
-    t.datetime "created_at",        :null => false
-    t.datetime "updated_at",        :null => false
-  end
-
-  add_index "contents_symptom_factors", ["content_id"], :name => "index_contents_symptom_factors_on_content_id"
-  add_index "contents_symptom_factors", ["symptom_factor_id"], :name => "index_contents_symptom_factors_on_symptom_factor_id"
-
   create_table "contents_symptoms", :force => true do |t|
     t.integer  "content_id"
     t.integer  "symptom_id"
@@ -86,6 +76,16 @@ ActiveRecord::Schema.define(:version => 20130402235702) do
 
   add_index "contents_symptoms", ["content_id"], :name => "index_contents_symptoms_on_content_id"
   add_index "contents_symptoms", ["symptom_id"], :name => "index_contents_symptoms_on_symptom_id"
+
+  create_table "contents_symptoms_factors", :force => true do |t|
+    t.integer  "content_id"
+    t.integer  "symptoms_factor_id"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+  end
+
+  add_index "contents_symptoms_factors", ["content_id"], :name => "index_contents_symptom_factors_on_content_id"
+  add_index "contents_symptoms_factors", ["symptoms_factor_id"], :name => "index_contents_symptom_factors_on_symptom_factor_id"
 
   create_table "diseases", :force => true do |t|
     t.string   "name"
@@ -214,6 +214,10 @@ ActiveRecord::Schema.define(:version => 20130402235702) do
     t.datetime "created_at",         :null => false
     t.datetime "updated_at",         :null => false
   end
+
+  add_index "symptoms_factors", ["factor_group_id"], :name => "index_symptoms_factors_on_factor_group_id"
+  add_index "symptoms_factors", ["factor_id"], :name => "index_symptoms_factors_on_factor_id"
+  add_index "symptoms_factors", ["symptom_id"], :name => "index_symptoms_factors_on_symptom_id"
 
   create_table "user_diseases", :force => true do |t|
     t.integer  "user_id"

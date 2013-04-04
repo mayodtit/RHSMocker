@@ -13,7 +13,8 @@ class Content < ActiveRecord::Base
 
   	has_many :messages
   	has_and_belongs_to_many :symptoms
-  	has_and_belongs_to_many :symptoms_factors
+    has_many :contents_symptoms_factors
+  	has_many :symptoms_factors, :through => :contents_symptoms_factors
 
 	searchable do
 		text :body
