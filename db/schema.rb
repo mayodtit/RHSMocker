@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130328191338) do
+ActiveRecord::Schema.define(:version => 20130403212354) do
 
   create_table "associations", :force => true do |t|
     t.integer  "user_id"
@@ -67,6 +67,26 @@ ActiveRecord::Schema.define(:version => 20130328191338) do
     t.datetime "updated_at",         :null => false
   end
 
+  create_table "contents_symptoms", :force => true do |t|
+    t.integer  "content_id"
+    t.integer  "symptom_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "contents_symptoms", ["content_id"], :name => "index_contents_symptoms_on_content_id"
+  add_index "contents_symptoms", ["symptom_id"], :name => "index_contents_symptoms_on_symptom_id"
+
+  create_table "contents_symptoms_factors", :force => true do |t|
+    t.integer  "content_id"
+    t.integer  "symptoms_factor_id"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+  end
+
+  add_index "contents_symptoms_factors", ["content_id"], :name => "index_contents_symptom_factors_on_content_id"
+  add_index "contents_symptoms_factors", ["symptoms_factor_id"], :name => "index_contents_symptom_factors_on_symptom_factor_id"
+
   create_table "diseases", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
@@ -92,6 +112,18 @@ ActiveRecord::Schema.define(:version => 20130328191338) do
 
   add_index "encounters_users", ["encounter_id"], :name => "index_encounters_users_on_encounter_id"
   add_index "encounters_users", ["user_id"], :name => "index_encounters_users_on_user_id"
+
+  create_table "factor_groups", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "factors", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "feedbacks", :force => true do |t|
     t.integer  "user_id"
@@ -165,6 +197,27 @@ ActiveRecord::Schema.define(:version => 20130328191338) do
   end
 
   add_index "phone_calls", ["message_id"], :name => "index_phone_calls_on_message_id"
+
+  create_table "symptoms", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.string   "patient_type"
+  end
+
+  create_table "symptoms_factors", :force => true do |t|
+    t.boolean  "doctor_call_worthy"
+    t.boolean  "er_worthy"
+    t.integer  "symptom_id"
+    t.integer  "factor_id"
+    t.integer  "factor_group_id"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+  end
+
+  add_index "symptoms_factors", ["factor_group_id"], :name => "index_symptoms_factors_on_factor_group_id"
+  add_index "symptoms_factors", ["factor_id"], :name => "index_symptoms_factors_on_factor_id"
+  add_index "symptoms_factors", ["symptom_id"], :name => "index_symptoms_factors_on_symptom_id"
 
   create_table "user_diseases", :force => true do |t|
     t.integer  "user_id"

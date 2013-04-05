@@ -8,6 +8,8 @@ class Message < ActiveRecord::Base
   has_many :mayo_vocabularies_messages
   has_many :mayo_vocabularies, :through => :mayo_vocabularies_messages
 
+  has_one :phone_call
+
   belongs_to :user
   belongs_to :encounter
   belongs_to :user_location
