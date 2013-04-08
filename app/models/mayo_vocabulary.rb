@@ -12,4 +12,8 @@ class MayoVocabulary < ActiveRecord::Base
       :mcvid=>mcvid
     }
   end
+
+  def self.find_by_title(title)
+    MayoVocabulary.find(:all, :conditions => ["lower(title) = ?", title.downcase]).first 
+  end
 end
