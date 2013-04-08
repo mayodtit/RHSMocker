@@ -72,6 +72,10 @@ gem 'lorem-ipsum-me'
 
 gem 'sorcery'
 
+gem 'cancan'
+
+gem "rolify",        :git => "git://github.com/EppO/rolify.git"
+
 
 gem "active_model_serializers", "~> 0.7.0"
 # To use ActiveModel has_secure_password

@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+  rolify
   authenticates_with_sorcery!
 
   attr_accessible :first_name, :last_name, :image_url, :gender, :height, :birth_date, :install_id, :email, :phone,\
