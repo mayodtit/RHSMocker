@@ -25,7 +25,7 @@ resource "Factors" do
     example_request "[GET] Get all the factors for a symptom" do
       explanation "Returns an array of factors available for a symptom"
       status.should == 200
-      JSON.parse(response_body)['factor_groups'].should be_a Hash
+      JSON.parse(response_body)['factor_groups'].should be_a Array
     end
   end
 
