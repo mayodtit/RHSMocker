@@ -28,11 +28,16 @@ class Api::V1::FactorsController < Api::V1::ABaseController
     Content.joins(:contents_symptoms_factors => :symptoms_factor).
       where(:contents_symptoms_factors => { :symptoms_factor_id => params[:symptoms_factors]}).
       includes(:symptoms_factors).uniq.each do |content|
-        symptom_factors = content.symptoms_factors.where(:id=>params[:symptoms_factors])
+        symptoms_factors = []
+        content.symptoms_factors.where(:symptom_id=>params[:symptom_id]).each do |sf|
+          symptoms_factors << {:id=>sf.id, :name=>sf.factor_group.name+" "+sf.factor.name}
+        end
+        # symptoms_factors = content.symptoms_factors.where(:id=>params[:symptoms_factors])
+
         result << {
           :id=>content.id,
           :name=>content.title,
-          :factors=>symptom_factors
+          :factors=>symptoms_factors
         }
     end
     render_success({contents:result})
