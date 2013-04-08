@@ -7,11 +7,12 @@ resource "Symptoms" do
 
   before :all do
     FactoryGirl.create(:symptom)
+    FactoryGirl.create(:symptom, :name=>'Cough')
   end
 
   get 'api/v1/symptoms' do
     example_request "[GET] Get all symptoms" do
-      explanation "Returns an array of symptoms available"
+      explanation "Returns an array of symptoms available, sorted by name"
       status.should == 200
       JSON.parse(response_body)['symptoms'].should be_a Array
     end
