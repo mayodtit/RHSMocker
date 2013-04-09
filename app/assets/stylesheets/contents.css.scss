@@ -78,13 +78,17 @@ div.content_text_preview {
 }
 
 div.talk {
-    background-color: #EAEAEA;
-    margin: 5px -10px 5px -10px;
+    background-color: #bfbfbf;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 div.talk_icon{
-    display:inline-block;
-    margin: 7px 0 0 2px;
+    float:left;
+    padding: 10px 10px 0px 10px;
     background-image:url(/assets/talk_icn.png);
     background-size:37px 32px;
     background-repeat:no-repeat;
@@ -96,25 +100,12 @@ div.talk_icon{
 
 div.talk_content {
     font-family:"ITC Franklin Gothic Medium Condensed";
-    padding: 10px 20px 0px 10px;
+    padding: 10px 15px 0px 10px;
     font-size: 15px;
     color:#5a8791;
     height:45px;
     text-transform:uppercase;
-    background-color: #EAEAEA;
-    vertical-align:middle;
-}
-
-
-div.chevron_icon{
-    float:right;
-    margin: 23px 7px 0 0;
-    background-image:url(/assets/grey_chevron@2x.png);
-    background-size:9px 14px;
-    background-repeat:no-repeat;
-    background-position:center center;
-    width:9px;
-    height:14px;
+    background-color: #bfbfbf;
     vertical-align:middle;
 }
 
