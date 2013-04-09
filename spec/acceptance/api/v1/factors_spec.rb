@@ -7,14 +7,26 @@ resource "Factors" do
 
   before :all do
     @symptom = FactoryGirl.create(:symptom, :patient_type=>'adult')
-    @factor_group = FactoryGirl.create(:factor_group)
+    @factor_group = FactoryGirl.create(:factor_group, :name=>'pain is', :order=>2)
+    @factor_group2 = FactoryGirl.create(:factor_group, :name=>'caused by', :order=>1)
+
     @factor1 = FactoryGirl.create(:factor, :name=>'burning')
     @factor2 = FactoryGirl.create(:factor, :name=>'steady')
+    @factor3 = FactoryGirl.create(:factor, :name=>'stress')
+    @factor4 = FactoryGirl.create(:factor, :name=>'almost')
+    @factor5 = FactoryGirl.create(:factor, :name=>'none')
+    
     @content = FactoryGirl.create(:content)
+    
     @symptoms_factor1 = FactoryGirl.create(:symptoms_factor, :symptom=>@symptom, :factor_group=>@factor_group, :factor=>@factor1)
-    @symptoms_factor2 = FactoryGirl.create(:symptoms_factor, :symptom=>@symptom, :factor_group=>@factor_group, :factor=>@factor2)
+    @symptoms_factor2 = FactoryGirl.create(:symptoms_factor, :symptom=>@symptom, :factor_group=>@factor_group, :factor=>@factor2, :er_worthy=>true)
+    @symptoms_factor3 = FactoryGirl.create(:symptoms_factor, :symptom=>@symptom, :factor_group=>@factor_group2, :factor=>@factor3)
+    @symptoms_factor4 = FactoryGirl.create(:symptoms_factor, :symptom=>@symptom, :factor_group=>@factor_group, :factor=>@factor4)
+    @symptoms_factor5 = FactoryGirl.create(:symptoms_factor, :symptom=>@symptom, :factor_group=>@factor_group, :factor=>@factor5, :doctor_call_worthy=>true)
+    
     FactoryGirl.create(:contents_symptoms_factor, :content=>@content, :symptoms_factor=>@symptoms_factor1)
     FactoryGirl.create(:contents_symptoms_factor, :content=>@content, :symptoms_factor=>@symptoms_factor2)
+    FactoryGirl.create(:contents_symptoms_factor, :content=>@content, :symptoms_factor=>@symptoms_factor3)
   end
 
   get 'api/v1/factors/:id' do

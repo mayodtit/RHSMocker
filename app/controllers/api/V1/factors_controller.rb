@@ -6,8 +6,13 @@ class Api::V1::FactorsController < Api::V1::ABaseController
     return render_failure({reason:"Symptom with id #{params[:id]} could not be found"}, 404) unless symptom
     factor_groups = []
     factor_groups_json = []
+    symptoms_factors = symptom.symptoms_factors.sort{ |x, y| 
+      [x.factor_group.order, x.factor.name] 
+      <=> 
+      [y.factor_group.order, y.factor.name] 
+    } 
 
-    symptom.symptoms_factors.each do |sf|
+    symptoms_factors.each do |sf|
       if !factor_groups[sf.factor_group.id]
         temp = {:name=>sf.factor_group.name, :factors=>[]}
         factor_groups[sf.factor_group.id] = temp
