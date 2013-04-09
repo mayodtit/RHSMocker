@@ -79,11 +79,16 @@ div.content_text_preview {
 
 div.talk {
     background-color: #bfbfbf;
-    padding-top: 5px;
+    background-image: url(/assets/talkpromo_banner@2x.png);
+    background-size:320px 54px;
+    width:320px;
+    height:54px;
+    background-repeat:no-repeat;
+    background-position:center center;
     margin-bottom: 10px;
-    padding-bottom: 10px;
     margin-left: -10px;
     margin-right: -10px;
+    padding:0;
 }
 
 div.talk_icon{
