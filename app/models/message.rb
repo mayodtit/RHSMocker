@@ -55,6 +55,6 @@ class Message < ActiveRecord::Base
   end
 
   def title
-    "Conversation with HCP"
+    "Conversation with a Health Advocate"
   end
 end
