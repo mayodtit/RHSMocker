@@ -7,9 +7,7 @@ class Api::V1::FactorsController < Api::V1::ABaseController
     factor_groups = []
     factor_groups_json = []
     symptoms_factors = symptom.symptoms_factors.sort{ |x, y| 
-      [x.factor_group.order, x.factor.name] 
-      <=> 
-      [y.factor_group.order, y.factor.name] 
+      [x.factor_group.order, x.factor.name] <=> [y.factor_group.order, y.factor.name]
     } 
 
     symptoms_factors.each do |sf|
