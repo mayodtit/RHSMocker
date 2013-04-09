@@ -68,7 +68,7 @@ end
  def talkDiv
 	insertHTML = '<div class="talk" ' 
 	insertHTML += javascriptOpening 
-	insertHTML += '><div class="talk_icon"></div><div class="talk_content">Would you like to discuss this with a healthcare professional?</div></div>'
+	insertHTML += '><div class="talk_icon"></div><div class="chevron_icon"></div><div class="talk_content">Would you like to discuss this with a healthcare professional?</div></div>'
  end
 
  def javascriptOpening
