@@ -69,7 +69,9 @@ RHSMocker::Application.routes.draw do
 
   get "/messages" => "messages#index", :as=>"messages_index"
   root :to => "home#index"
-  get "/logout" => "home#logout_user", :as=>"logout"
+  get "/logout" => "sessions#destroy", :as=>"logout"
+  get '/login' => "sessions#new", :as=>"login"
+  resources :sessions
 
   resources :users
   resources :contents

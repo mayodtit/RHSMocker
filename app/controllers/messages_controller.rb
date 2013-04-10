@@ -1,6 +1,7 @@
 class MessagesController < ApplicationController
   layout "console"
-  before_filter :require_login_from_http_basic
+  before_filter :require_login
+  load_and_authorize_resource
 
   def index
     @encounters = Encounter.all

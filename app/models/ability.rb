@@ -28,5 +28,42 @@ class Ability
     #
     # See the wiki for details:
     # https://github.com/ryanb/cancan/wiki/Defining-Abilities
+
+    # if user.has_role? :hcp
+    #   can :manage, Message
+    # end
+
+    # if user.has_role? :admin
+    #   can :manage, :all
+    # end
+    user ||= User.new # guest user (not logged in)
+
+    if user.has_role? :admin
+      can :manage, :all
+    elsif user.has_role? :hcp
+      can :manage, Message
+    else
+      # can :read, Message do |msg|
+      #   msg.encounter.encounters_users.map{|eu| user_id }.contains? user.user_id
+      # end 
+    end
+
+
+
+    # if user.role == 'admin'
+    #   can :manage, :all
+
+    # elsif user.role == 'hcp'
+    #   can :manage, Message
+
+    # elsif user.role == 'participator'
+
+    # elsif user.role == 'patient'
+    #   can :read, Message
+    #   can :create, Message
+    # else
+    #   # something went wrong...
+    # end
   end
+
 end

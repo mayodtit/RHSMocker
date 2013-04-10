@@ -26,7 +26,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">RHS</a>
+          <a class="brand" href="/">RHS</a>
           <div class="container nav-collapse">
             <ul class="nav">
               <li><%= nav_link "Messages", "/messages"  %></li>
@@ -35,6 +35,8 @@
               <% if @user %>
                 <li style="padding: 10px;"><span><%= @user.full_name %></span></li>
                 <li><%= link_to "Logout", "/logout"%></li>
+              <% else %>
+                <li><%= link_to "Login", "/login"%></li>
               <% end %>
             </ul>
           </div>
