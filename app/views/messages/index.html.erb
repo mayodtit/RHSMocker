@@ -27,7 +27,7 @@ function sendMessage(encounter_id){
 	  <div class="accordion-group">
 	  	<div class="accordion-heading">
 			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse<%= encounter.id %>">
-				<%= if (encounter.encounters_users.patients.first.user) 
+				<%= if (!encounter.encounters_users.patients.empty? && encounter.encounters_users.patients.first.user) 
 						encounter.encounters_users.patients.first.user.full_name 
 					end %> - <%= encounter.created_at %>
 			</a>
