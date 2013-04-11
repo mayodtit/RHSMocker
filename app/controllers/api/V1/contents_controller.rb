@@ -14,6 +14,21 @@ class Api::V1::ContentsController < Api::V1::ABaseController
     render :json => @contents
   end
 
+  def test_index
+    t1=Time.now
+    @contents = if params[:q].blank?
+      Content.all :order => 'title ASC'
+    else
+      Content.solr_search do |s|
+         @contents = s.keywords params[:q]
+         @searchterm = params[:q]
+      end
+    end
+    t2 = Time.now
+    logger.fatal "!!!time elapsed: #{t2-t1}"
+    render :json => @contents
+  end
+
   def show
     @content = Content.find_by_id(params[:id])
     return render_failure({reason:"Content not found"}, 404) unless @content
