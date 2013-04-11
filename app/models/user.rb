@@ -83,8 +83,8 @@ class User < ActiveRecord::Base
   #nasty hack based on known ID's that makes me want to puke
   def default_content
     #if for some reason, the content was not created yet, then there is no default content
-    if !Content.where("title = 'Installed RHS'").empty?
-      UserReading.create(user:self, content:Content.where("title = 'Installed RHS'").first, read_date: Time.zone.now.iso8601)
+    if !Content.where("title = 'Installed Better'").empty?
+      UserReading.create(user:self, content:Content.where("title = 'Installed Better'").first, read_date: Time.zone.now.iso8601)
     end
     if !Content.where("title = 'Which hand do you hold your phone in?'").empty?
       UserReading.create(user:self, content:Content.where("title = 'Which hand do you hold your phone in?'").first)
