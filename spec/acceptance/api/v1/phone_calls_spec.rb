@@ -6,7 +6,7 @@ resource "PhoneCalls" do
   header 'Content-Type', 'application/json'
 
   before(:all) do
-    @user = FactoryGirl.create(:user_with_email)
+    @user = FactoryGirl.create(:hcp_user)
     @user.login
 
     @message = FactoryGirl.create(:message, :user=>@user)

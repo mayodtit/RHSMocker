@@ -55,7 +55,11 @@ class User < ActiveRecord::Base
   validates_confirmation_of :password, :message => "should match confirmation", :if => :password
 
   def admin?
-    true
+    has_role? :admin
+  end
+
+  def hcp?
+    has_role?(:hcp) || has_role?(:admin)
   end
 
   def full_name
@@ -68,7 +72,7 @@ class User < ActiveRecord::Base
   end
 
   def can_call?
-    self.admin? || self.feature_bucket == 'call_only' || self.feature_bucket == 'message_call'
+    self.hcp? || self.feature_bucket == 'call_only' || self.feature_bucket == 'message_call'
   end
 
   #Keywords (aka search history)

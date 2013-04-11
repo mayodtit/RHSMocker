@@ -7,7 +7,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
       encounter = Encounter.find_by_id params[:encounter][:id]
       return render_failure({reason:"Encounter with id #{params[:encounter][:id]} is not found"}, 404) unless encounter
       encounter_user = EncountersUser.find_by_encounter_id_and_user_id encounter.id, current_user.id
-      return render_failure({reason:"Permission denied"}) unless encounter_user || current_user.admin?
+      return render_failure({reason:"Permission denied"}) unless encounter_user || current_user.hcp?
     else
       #create encounter
       priority = params[:encounter].present? && params[:encounter][:priority].present? ? params[:encounter][:priority] : "medium"
@@ -102,14 +102,14 @@ class Api::V1::MessagesController < Api::V1::ABaseController
       if message
         encounters_user = EncountersUser.find_by_encounter_id_and_user_id message.encounter_id, current_user.id
         if encounters_user.nil?
-          if current_user.admin?
+          if current_user.hcp?
             encounters_user = EncountersUser.create :encounter=>message.encounter, :user=>current_user, :role=>"reader"
           else
             warnings << "Permission denied to mark message with id #{message_json[:id]} as read"
             next
           end
         end
-        if encounters_user.role != "patient" && current_user.admin?
+        if encounters_user.role != "patient" && current_user.hcp?
           message.encounter.update_attribute :checked, true
         end
 
