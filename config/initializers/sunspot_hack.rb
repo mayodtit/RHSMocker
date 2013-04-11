@@ -1,3 +1,5 @@
+Sunspot.config.pagination.default_per_page = 10
+
 ::Sunspot::Search::StandardSearch.class_eval do
  
   include Enumerable
