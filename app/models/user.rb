@@ -38,6 +38,10 @@ class User < ActiveRecord::Base
 
   has_many :encounters, :through => :encounters_users
 
+  has_many :user_disease_treatments
+  has_many :treatments, :through=> :user_disease_treatments
+
+
   #Validations
   #++++++++++++++
   validates :install_id, :presence => true, :uniqueness => true

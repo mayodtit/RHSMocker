@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130408195823) do
+ActiveRecord::Schema.define(:version => 20130412182009) do
 
   create_table "associations", :force => true do |t|
     t.integer  "user_id"
@@ -117,6 +117,7 @@ ActiveRecord::Schema.define(:version => 20130408195823) do
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "order"
   end
 
   create_table "factors", :force => true do |t|
@@ -229,6 +230,34 @@ ActiveRecord::Schema.define(:version => 20130408195823) do
   add_index "symptoms_factors", ["factor_group_id"], :name => "index_symptoms_factors_on_factor_group_id"
   add_index "symptoms_factors", ["factor_id"], :name => "index_symptoms_factors_on_factor_id"
   add_index "symptoms_factors", ["symptom_id"], :name => "index_symptoms_factors_on_symptom_id"
+
+  create_table "treatments", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "user_disease_treatments", :force => true do |t|
+    t.boolean  "prescribed_by_doctor"
+    t.date     "start_date"
+    t.date     "end_date"
+    t.integer  "time_duration"
+    t.string   "time_duration_unit"
+    t.integer  "amount"
+    t.string   "amount_unit"
+    t.boolean  "side_effect"
+    t.boolean  "successful"
+    t.integer  "user_disease_id"
+    t.integer  "treatment_id"
+    t.integer  "user_id"
+    t.integer  "doctor_user_id"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+  end
+
+  add_index "user_disease_treatments", ["treatment_id"], :name => "index_user_disease_treatments_on_treatment_id"
+  add_index "user_disease_treatments", ["user_disease_id"], :name => "index_user_disease_treatments_on_user_disease_id"
+  add_index "user_disease_treatments", ["user_id"], :name => "index_user_disease_treatments_on_user_id"
 
   create_table "user_diseases", :force => true do |t|
     t.integer  "user_id"
