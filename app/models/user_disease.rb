@@ -12,6 +12,7 @@ class UserDisease < ActiveRecord::Base
       :diagnosed=>diagnosed,
       :start_date=>start_date,
       :end_date=>end_date,
+      :user_disease_treatments=>user_disease_treatments,
       :disease=>disease
     }
   end
