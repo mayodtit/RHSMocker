@@ -41,6 +41,9 @@ class User < ActiveRecord::Base
   has_many :user_disease_treatments
   has_many :treatments, :through=> :user_disease_treatments
 
+  has_many :user_allergies
+  has_many :allergies, :through=>:user_allergies
+
 
   #Validations
   #++++++++++++++

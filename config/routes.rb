@@ -30,6 +30,12 @@ RHSMocker::Application.routes.draw do
       put "user_disease_treatments" => "user_disease_treatments#update", :as=>"user_disease_treatments_update"
       delete "user_disease_treatments" => "user_disease_treatments#remove", :as=>"user_disease_treatments_remove"
 
+      #allergies
+      get "allergies"=> "allergies#index", :as=>"allergies_index"
+      get "user_allergies" => "user_allergies#index"
+      post "user_allergies" => "user_allergies#create"
+      delete "user_allergies" => "user_allergies#remove"
+
       #associates
       put "associates/:id" => "associates#update", :as=>"associates_update"
       get "associations" => "associations#index", :as=>"associations_index"
