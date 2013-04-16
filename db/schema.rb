@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130415151518) do
+ActiveRecord::Schema.define(:version => 20130416185208) do
 
   create_table "allergies", :force => true do |t|
     t.string   "name"
@@ -134,9 +134,9 @@ ActiveRecord::Schema.define(:version => 20130415151518) do
 
   create_table "feedbacks", :force => true do |t|
     t.integer  "user_id"
-    t.string   "note"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.text     "note"
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
   end
 
   add_index "feedbacks", ["user_id"], :name => "index_feedbacks_on_user_id"

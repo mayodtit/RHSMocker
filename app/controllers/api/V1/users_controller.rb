@@ -70,4 +70,14 @@ class Api::V1::UsersController < Api::V1::ABaseController
   def keywords
     render_success keywords:current_user.keywords
   end
+
+  def add_feedback
+    feedback = Feedback.create({:note=>params['note'], :user=>current_user})
+    if feedback.errors.empty?
+      render_success( {feedback:feedback})
+    else
+      render_failure( {reason:feedback.errors.full_messages.to_sentence}, 400 )
+    end
+  end
+
 end

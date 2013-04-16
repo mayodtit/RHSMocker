@@ -72,6 +72,9 @@ RHSMocker::Application.routes.draw do
       get "factors/:id" => "factors#index"
       post "symptoms/check" => "factors#check"
 
+
+      post "feedback" => "users#add_feedback"
+
     end
   end
 
