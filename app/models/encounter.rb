@@ -3,6 +3,8 @@ class Encounter < ActiveRecord::Base
 
   has_many :encounters_users
   has_many :messages
+  has_many :phone_calls, :through=>:messages
+  
   belongs_to :user
   has_many :users, :through=> :encounters_users
 
@@ -28,4 +30,5 @@ class Encounter < ActiveRecord::Base
 
     return result
   end
+
 end
