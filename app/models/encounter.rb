@@ -8,6 +8,8 @@ class Encounter < ActiveRecord::Base
   belongs_to :user
   has_many :users, :through=> :encounters_users
 
+  scope :open, where(:status=>"open")
+
   def as_json options=nil
     patient_user = encounters_users.patients.first
     

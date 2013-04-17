@@ -4,7 +4,7 @@ class MessagesController < ApplicationController
   load_and_authorize_resource
 
   def index
-    @encounters = Encounter.all
+    @encounters = Encounter.open
     @user = current_user
     # render :layout=>"console"
     # render :view=>"index"
