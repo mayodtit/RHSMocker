@@ -66,7 +66,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
       yield user_reading if block_given?
       PusherModule.broadcast(user_reading.user_id, broadcast, user_reading.content_id, user_reading.content.contentsType)
     end
-    push_random_content
+    push_content
     return render_failure({reason:errors.to_sentence}, 404) unless errors.empty?
     render_success
   end
@@ -92,13 +92,32 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
     render_success
   end
 
-  def push_random_content
+  def push_content
     #create something, add to user_Reading, push it out
     if !hasMaxContent
-      randomContentID = Content.getRandomContent()
-      randomContent = Content.find(randomContentID)
-      UserReading.create(user:current_user, content:randomContent)
-      PusherModule.broadcast(current_user.id, 'newcontent', randomContent.id, randomContent.contentsType)
+      contents = {}
+      current_user.keywords.each do |mv|
+        mv[0].contents.each do |content|
+          if contents.has_key? content
+            contents[content]+=mv[1]
+          else
+            contents[content] = mv[1]
+          end
+        end
+      end
+      contents = contents.sort_by{|x,y| contents[x]<=>contents[y]}
+      content_id = nil
+      contents.each do |content|
+        unless current_user.user_readings.map{|ur| ur.content_id}.include? content[0].id
+          content_id = content[0].id
+          break
+        end
+      end
+
+      content_id||=Content.getRandomContent()
+      content = Content.find(content_id)
+      UserReading.create(user:current_user, content:content)
+      PusherModule.broadcast(current_user.id, 'newcontent', content.id, content.contentsType)
     end
   end
 

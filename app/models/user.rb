@@ -9,6 +9,7 @@ class User < ActiveRecord::Base
 
   #Things the user has read
   has_many :user_readings, :order => 'read_date DESC'
+  has_many :contents, :through=>:user_readings
 
   has_many :messages
 
@@ -84,7 +85,17 @@ class User < ActiveRecord::Base
 
   #Keywords (aka search history)
   def keywords
-    ["Diabetes", "Weight Loss", "Low Sugar Diet", "Exercise"]
+    keywords = {}
+    user_readings.map{|ur| ur.read_date ? ur.content.mayo_vocabularies : [] }.each do |mvs|
+      mvs.each do |mv|
+        if keywords.has_key? mv
+          keywords[mv]+=1
+        else
+          keywords[mv]=1
+        end
+      end
+    end
+    keywords.sort_by{|x,y| keywords[x]<=>keywords[y]}
   end
 
 

@@ -10,6 +10,8 @@ resource "Users" do
     @password = 'current_password'
     @user = FactoryGirl.create(:user_with_email, :password=>@password, :password_confirmation=>@password)
     @user.login
+    @content = FactoryGirl.create(:content)
+    @user_reading = FactoryGirl.create(:user_reading, :user=>@user, :content=>@content, :read_date=>DateTime.now())
 
     @user2 = FactoryGirl.create(:associate)
     @association = FactoryGirl.create(:association, :user=>@user, :associate=>@user2)

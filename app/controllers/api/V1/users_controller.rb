@@ -68,7 +68,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def keywords
-    render_success keywords:current_user.keywords
+    render_success keywords:current_user.keywords.map{|mv| mv[0].title }
   end
 
   def add_feedback
