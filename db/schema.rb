@@ -11,7 +11,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130409142957) do
+ActiveRecord::Schema.define(:version => 20130416185208) do
+
+  create_table "allergies", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "associations", :force => true do |t|
     t.integer  "user_id"
@@ -128,9 +134,9 @@ ActiveRecord::Schema.define(:version => 20130409142957) do
 
   create_table "feedbacks", :force => true do |t|
     t.integer  "user_id"
-    t.string   "note"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.text     "note",       :limit => 255
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
   end
 
   add_index "feedbacks", ["user_id"], :name => "index_feedbacks_on_user_id"
@@ -199,6 +205,17 @@ ActiveRecord::Schema.define(:version => 20130409142957) do
 
   add_index "phone_calls", ["message_id"], :name => "index_phone_calls_on_message_id"
 
+  create_table "roles", :force => true do |t|
+    t.string   "name"
+    t.integer  "resource_id"
+    t.string   "resource_type"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
+
+  add_index "roles", ["name", "resource_type", "resource_id"], :name => "index_roles_on_name_and_resource_type_and_resource_id"
+  add_index "roles", ["name"], :name => "index_roles_on_name"
+
   create_table "symptoms", :force => true do |t|
     t.string   "name"
     t.datetime "created_at",   :null => false
@@ -219,6 +236,44 @@ ActiveRecord::Schema.define(:version => 20130409142957) do
   add_index "symptoms_factors", ["factor_group_id"], :name => "index_symptoms_factors_on_factor_group_id"
   add_index "symptoms_factors", ["factor_id"], :name => "index_symptoms_factors_on_factor_id"
   add_index "symptoms_factors", ["symptom_id"], :name => "index_symptoms_factors_on_symptom_id"
+
+  create_table "treatments", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "user_allergies", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "allergy_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "user_allergies", ["allergy_id"], :name => "index_user_allergies_on_allergy_id"
+  add_index "user_allergies", ["user_id"], :name => "index_user_allergies_on_user_id"
+
+  create_table "user_disease_treatments", :force => true do |t|
+    t.boolean  "prescribed_by_doctor"
+    t.date     "start_date"
+    t.date     "end_date"
+    t.integer  "time_duration"
+    t.string   "time_duration_unit"
+    t.integer  "amount"
+    t.string   "amount_unit"
+    t.boolean  "side_effect"
+    t.boolean  "successful"
+    t.integer  "user_disease_id"
+    t.integer  "treatment_id"
+    t.integer  "user_id"
+    t.integer  "doctor_user_id"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+  end
+
+  add_index "user_disease_treatments", ["treatment_id"], :name => "index_user_disease_treatments_on_treatment_id"
+  add_index "user_disease_treatments", ["user_disease_id"], :name => "index_user_disease_treatments_on_user_disease_id"
+  add_index "user_disease_treatments", ["user_id"], :name => "index_user_disease_treatments_on_user_id"
 
   create_table "user_diseases", :force => true do |t|
     t.integer  "user_id"
@@ -284,5 +339,12 @@ ActiveRecord::Schema.define(:version => 20130409142957) do
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"
+
+  create_table "users_roles", :id => false, :force => true do |t|
+    t.integer "user_id"
+    t.integer "role_id"
+  end
+
+  add_index "users_roles", ["user_id", "role_id"], :name => "index_users_roles_on_user_id_and_role_id"
 
 end

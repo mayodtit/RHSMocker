@@ -21,4 +21,4 @@ public/assets
 solr/data
 solr/pids
 .idea
-coverage
+coverage*

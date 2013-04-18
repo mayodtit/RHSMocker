@@ -26,35 +26,72 @@ function sendMessage(encounter_id){
 	<% @encounters.each do |encounter| %>
 	  <div class="accordion-group">
 	  	<div class="accordion-heading">
-			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse<%= encounter.id %>">
-				<%= if (encounter.encounters_users.patients.first.user) 
-						encounter.encounters_users.patients.first.user.full_name 
-					end %> - <%= encounter.created_at %>
-			</a>
-		</div>
-		<div id="collapse<%= encounter.id %>" class="accordion-body collapse">
-		 	<div class="accordion-inner">
-		 		<div id="container<%= encounter.id %>">
-			 		<% encounter.messages.each do |message| %>
-						<div class="bs-docs-example">
-							<div class="name">
-								<%= if(message.user) 
-									message.user.full_name 
-								end %>
+				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse<%= encounter.id %>">
+					<span class="ref-number">#<%=encounter.id%></span>
+					<%= if (!encounter.encounters_users.patients.empty? && encounter.encounters_users.patients.first.user) 
+							encounter.encounters_users.patients.first.user.full_name 
+						end %> 
+						<% unless encounter.phone_calls.empty? %>
+							<i class="icon-volume-up"></i>
+						<% end %>
+						<%= if(encounter.messages.count>1)
+							"("+encounter.messages.count.to_s+")"
+						end %>
+						<span class="pull-right time" title="<%= encounter.created_at %>"><%= time_ago_in_words(encounter.created_at) %> ago</span>
+				</a>
+			</div>
+			<div id="collapse<%= encounter.id %>" class="accordion-body collapse">
+			 	<div class="accordion-inner">
+			 		<div id="container<%= encounter.id %>">
+				 		<% encounter.messages.each do |message| %>
+							<div class="bs-docs-example">
+								<div class="name">
+									<%= if(message.user) 
+										message.user.full_name 
+									end %>
+								</div>
+								<div  title="<%= message.created_at %>" class="time">
+									<%= time_ago_in_words(message.created_at) %> ago
+								</div>
+								<%= message.text %>
+								<div class="keywords">
+									<% message.mayo_vocabularies.each do |keyword| %>
+										<span class="label label-info"><%=keyword.title %></span>
+									<% end %>
+								</div>
+								<div class="attachments">
+									<% message.attachments.each do |attachment| %>
+										<img class="img-polaroid" src="<%=attachment.url %>">
+									<% end %>
+								</div>
 							</div>
-							<%= message.text %>
-						</div>
-					<% end %>
-				</div>
-				<div class="bs-docs-example">
-					<div class="name"><%=@user.full_name%></div>
-					<form class="navbar-form">
-					  <textarea class="span11 clear" rows="3" id="text<%=encounter.id%>"></textarea>
-					  <button type="submit" class="btn" onClick="sendMessage(<%=encounter.id%>); return false;">Submit</button>
-					</form>
+							<% if message.phone_call %>
+								<div class="bs-docs-example">
+									<div class="name">
+										<i class="icon-volume-up"></i>
+										<%= if(message.user) 
+											message.user.full_name 
+										end %>
+									</div>
+									<% if(message.phone_call.created_at) %>
+										<div title="<%= message.phone_call.created_at %>" class="time">
+											<%= time_ago_in_words(message.phone_call.created_at) %> ago
+										</div>
+									<% end %>
+									Please call me back in the <%=message.phone_call.time_to_call%>. I'm in <%=message.phone_call.time_zone%> timezone.
+								</div>
+							<% end %>
+						<% end %>
+					</div>
+					<div class="bs-docs-example">
+						<div class="name"><%=@user.full_name%></div>
+						<form class="navbar-form">
+						  <textarea class="span11 clear" rows="3" id="text<%=encounter.id%>"></textarea>
+						  <button type="submit" class="btn" onClick="sendMessage(<%=encounter.id%>); return false;">Submit</button>
+						</form>
+					</div>
 				</div>
 			</div>
-		</div>
 	  </div>
 	<% end %>
 </div>

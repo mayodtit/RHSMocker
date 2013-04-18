@@ -47,8 +47,15 @@ group :development, :test do
   # API documentation
   gem 'rspec_api_documentation'
   gem "rspec-rails", "~> 2.0"
-  gem 'factory_girl_rails'
+  
   gem 'database_cleaner', '~>0.9.1'
+end
+
+group :test do
+  gem 'factory_girl_rails'
+  gem 'capybara'
+  gem 'guard-rspec'
+  gem 'simplecov'
 end
 
 gem 'jquery-rails'
@@ -71,6 +78,10 @@ gem 'lorem-ipsum-me'
 
 
 gem 'sorcery'
+
+gem 'cancan'
+
+gem "rolify",        :git => "git://github.com/EppO/rolify.git"
 
 
 gem "active_model_serializers", "~> 0.7.0"

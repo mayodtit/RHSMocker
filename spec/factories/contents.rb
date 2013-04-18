@@ -6,8 +6,8 @@ FactoryGirl.define do
     contentsType    {'Answer'}
     abstract        {'This is the abstract of the content.'}
     question        {'What is the JSON format of content?'}
-    keywords       { 'content,json,format,' }
     updateDate     { Time.now }
+    mayo_vocabularies {[FactoryGirl.create(:mayo_vocabulary)]}
 
     factory :disease_content do
       sequence(:title){|n| "Craniosynostosis #{n}" }
@@ -15,7 +15,7 @@ FactoryGirl.define do
       contentsType    'Disease'
       abstract        "Craniosynostosis &mdash; Comprehensive overview covers causes, treatment of this birth defect involving a baby's skull."
       question        nil
-      keywords        'craniosynostosis,synostosis,'
+
     end
   end
 

@@ -10,7 +10,9 @@ resource "UserDiseases" do
     @user.login
 
     @disease = FactoryGirl.create(:disease)
+    @treatment = FactoryGirl.create(:treatment)
     @user_disease = FactoryGirl.create(:user_disease, :user=>@user, :disease=>@disease)
+    @user_disease_treatment = FactoryGirl.create(:user_disease_treatment, :user_disease=>@user_disease, :treatment=>@treatment)
 
     @associate = FactoryGirl.create(:associate)
     @association = FactoryGirl.create(:association, :user=>@user, :associate=>@associate)

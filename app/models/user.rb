@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+  rolify
   authenticates_with_sorcery!
 
   attr_accessible :first_name, :last_name, :image_url, :gender, :height, :birth_date, :install_id, :email, :phone,\
@@ -8,6 +9,7 @@ class User < ActiveRecord::Base
 
   #Things the user has read
   has_many :user_readings, :order => 'read_date DESC'
+  has_many :contents, :through=>:user_readings
 
   has_many :messages
 
@@ -37,6 +39,13 @@ class User < ActiveRecord::Base
 
   has_many :encounters, :through => :encounters_users
 
+  has_many :user_disease_treatments
+  has_many :treatments, :through=> :user_disease_treatments
+
+  has_many :user_allergies
+  has_many :allergies, :through=>:user_allergies
+
+
   #Validations
   #++++++++++++++
   validates :install_id, :presence => true, :uniqueness => true
@@ -54,7 +63,11 @@ class User < ActiveRecord::Base
   validates_confirmation_of :password, :message => "should match confirmation", :if => :password
 
   def admin?
-    true
+    has_role? :admin
+  end
+
+  def hcp?
+    has_role?(:hcp) || has_role?(:admin)
   end
 
   def full_name
@@ -67,12 +80,22 @@ class User < ActiveRecord::Base
   end
 
   def can_call?
-    self.admin? || self.feature_bucket == 'call_only' || self.feature_bucket == 'message_call'
+    self.hcp? || self.feature_bucket == 'call_only' || self.feature_bucket == 'message_call'
   end
 
   #Keywords (aka search history)
   def keywords
-    ["Diabetes", "Weight Loss", "Low Sugar Diet", "Exercise"]
+    keywords = {}
+    user_readings.map{|ur| ur.read_date ? ur.content.mayo_vocabularies : [] }.each do |mvs|
+      mvs.each do |mv|
+        if keywords.has_key? mv
+          keywords[mv]+=1
+        else
+          keywords[mv]=1
+        end
+      end
+    end
+    keywords.sort_by{|x,y| keywords[x]<=>keywords[y]}
   end
 
 

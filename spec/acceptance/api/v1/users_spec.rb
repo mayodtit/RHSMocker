@@ -10,6 +10,8 @@ resource "Users" do
     @password = 'current_password'
     @user = FactoryGirl.create(:user_with_email, :password=>@password, :password_confirmation=>@password)
     @user.login
+    @content = FactoryGirl.create(:content)
+    @user_reading = FactoryGirl.create(:user_reading, :user=>@user, :content=>@content, :read_date=>DateTime.now())
 
     @user2 = FactoryGirl.create(:associate)
     @association = FactoryGirl.create(:association, :user=>@user, :associate=>@user2)
@@ -155,6 +157,23 @@ resource "Users" do
       explanation "Update attributes for the specified user, if the currently logged in user has permission to do so"
       status.should == 200
       JSON.parse(response_body)['user'].should_not be_empty
+    end
+  end
+
+   post '/api/v1/feedback' do
+    parameter :auth_token,    "User's auth token"
+    parameter :note,          "Note to be sent as feedback"
+
+    required_parameters :auth_token, :note
+
+    let (:auth_token)       { @user.auth_token }
+    let (:note) { "this is awesome" }
+    let (:raw_post)         { params.to_json }  # JSON format request body
+
+    example_request "[POST] Add feedback" do
+      explanation "Adds feedback from the user"
+      status.should == 200
+      JSON.parse(response_body)['feedback'].should_not be_empty
     end
   end
 
