@@ -131,7 +131,7 @@ resource "Users" do
     let (:feature_bucket) { "message_only" }
     let (:raw_post)      { params.to_json }  # JSON format request body
 
-    example_request "[PUT] Update user (temporary allow changes to password field)" do
+    example_request "[PUT] Update user" do
       explanation "Update attributes for currently logged in user (as identified by auth_token). Can pass additional user fields, such as first_name, gender, birth_date, etc.  Returns the updated user"
       status.should == 200
       JSON.parse(response_body)['user'].should_not be_empty
