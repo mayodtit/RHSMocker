@@ -20,9 +20,24 @@ function sendMessage(encounter_id){
 	return false;
 }
 
+// $(document).ready(function(){
+// 	$(".accordion-toggle").on('click', function(e){
+// 		var element = this;
+// 		setTimeout(function(){
+// 			console.log("called");
+// 			if($(element).hasClass('collapsed')){
+// 				$('.profile').hide();
+// 			}else{
+// 				$('.profile').offset({ top: element.offsetTop-51})
+// 				$('.profile').show();
+// 			}
+// 		}, 1000);
+// 	});
+// });
+
 </script>
 
-<div class="accordion" id="accordion2">
+<div class="accordion span12" id="accordion2" style="margin-left:0;">
 	<% @encounters.each do |encounter| %>
 	  <div class="accordion-group">
 	  	<div class="accordion-heading">
@@ -42,7 +57,7 @@ function sendMessage(encounter_id){
 			</div>
 			<div id="collapse<%= encounter.id %>" class="accordion-body collapse">
 			 	<div class="accordion-inner">
-			 		<div id="container<%= encounter.id %>">
+			 		<div id="container<%= encounter.id %>" class="span6" style="margin-left:0;">
 				 		<% encounter.messages.each do |message| %>
 							<div class="bs-docs-example">
 								<div class="name">
@@ -83,15 +98,31 @@ function sendMessage(encounter_id){
 							<% end %>
 						<% end %>
 					</div>
-					<div class="bs-docs-example">
-						<div class="name"><%=@user.full_name%></div>
-						<form class="navbar-form">
-						  <textarea class="span11 clear" rows="3" id="text<%=encounter.id%>"></textarea>
-						  <button type="submit" class="btn" onClick="sendMessage(<%=encounter.id%>); return false;">Submit</button>
-						</form>
+					<% if !encounter.encounters_users.patients.empty? %> 
+						<div class="span5 profile pull-right" style="height:500px;">
+							<img class="img-polaroid pull-right" src="http://placekitten.com/90/90">
+							<div >
+								<h5 style="margin-top:0;"><%=encounter.encounters_users.patients.first.user.full_name %></h5>
+								<p><%=encounter.encounters_users.patients.first.user.gender %></p>
+								<p><%=encounter.encounters_users.patients.first.user.height %>cm</p>
+								<p>5 years old</p>
+								<p><%=encounter.encounters_users.patients.first.user.phone %></p>
+							</div>
+						</div>
+					<% end %>
+					<div class="span6" style="margin-left:0;">
+						<div class="bs-docs-example">
+							<div class="name"><%=@user.full_name%></div>
+							<form class="navbar-form">
+							  <textarea class="input-block-level" rows="3" id="text<%=encounter.id%>" style="display:block;"></textarea>
+							  <button type="submit" class="btn" onClick="sendMessage(<%=encounter.id%>); return false;">Submit</button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
 	  </div>
 	<% end %>
 </div>
+
+

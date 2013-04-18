@@ -44,6 +44,8 @@ table.table thead .sorting_desc_disabled { background: url('images/sort_desc_dis
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
+  word-break: break-all; 
+  word-wrap: break-word;
 }
 
 /*/* Echo out a label for the example 
@@ -116,4 +118,14 @@ table.table thead .sorting_desc_disabled { background: url('images/sort_desc_dis
 
 .keywords{
   margin-top:10px;
+}
+
+.profile{
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  margin: 15px;
+  padding: 10px;
 }
