@@ -53,7 +53,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   end
 
   def status attribute, broadcast
-    return render_failure({reason:"'contents' not part of json"}, 417) unless params[:contents]
+    return render_failure({reason:"'contents' not part of json"}, 412) unless params[:contents]
     errors = []
     params[:contents].each do |content|
       unless Content.find_by_id(content['id'])

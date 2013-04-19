@@ -72,7 +72,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     if message.save
       render_success({message:message.as_json({:current_user=>current_user}), warnings:warnings})
     else
-      render_failure( {reason:message.errors.full_messages.to_sentence}, 400 )
+      render_failure( {reason:message.errors.full_messages.to_sentence}, 422 )
     end
   end
 
@@ -96,7 +96,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   def mark_read
     warnings = []
 
-    return render_failure({reason:"Did not pass an array of [messages]"}, 417) unless params[:messages].present?
+    return render_failure({reason:"Did not pass an array of [messages]"}, 412) unless params[:messages].present?
     params[:messages].each do |message_json|
       message = Message.find_by_id message_json[:id]
       if message
@@ -138,7 +138,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   def mark_dismissed
     warnings = []
 
-    return render_failure({reason:"Did not pass an array of [messages]"}, 417) unless params[:messages].present?
+    return render_failure({reason:"Did not pass an array of [messages]"}, 412) unless params[:messages].present?
     params[:messages].each do |message_json|
       message = Message.find_by_id message_json[:id]
       if message

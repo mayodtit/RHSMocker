@@ -16,7 +16,7 @@ class Api::V1::UserDiseasesController < Api::V1::ABaseController
     if user_disease.errors.empty?
       render_success({user_disease:user_disease})
     else
-      render_failure( {reason:user_disease.errors.full_messages.to_sentence}, 412 )
+      render_failure( {reason:user_disease.errors.full_messages.to_sentence}, 422 )
     end
   end
 

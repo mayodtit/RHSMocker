@@ -22,7 +22,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
       user.login
       render_success( {auth_token:user.auth_token, user:user} )
     else
-      render_failure( {reason:user.errors.full_messages.to_sentence}, 400 )
+      render_failure( {reason:user.errors.full_messages.to_sentence}, 422 )
     end
   end
 
@@ -49,11 +49,11 @@ class Api::V1::UsersController < Api::V1::ABaseController
   def update_password
     user = login(current_user.email, params[:current_password])
     return render_failure( {reason:"Invalid current password"} ) unless user
-    return render_failure( {reason:"Empty new password"} ) unless params[:password].present?
+    return render_failure( {reason:"Empty new password"}, 412 ) unless params[:password].present?
     if user.update_attributes(:password => params[:password])
       render_success( {user:user} )
     else
-      render_failure( {reason:user.errors.full_messages.to_sentence}, 400 )
+      render_failure( {reason:user.errors.full_messages.to_sentence}, 422 )
     end
   end
 
@@ -63,7 +63,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
     if user.update_attributes(:email => params[:email])
       render_success( {user:user} )
     else
-      render_failure( {reason:user.errors.full_messages.to_sentence}, 400 )
+      render_failure( {reason:user.errors.full_messages.to_sentence}, 422 )
     end
   end
 
@@ -76,7 +76,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
     if feedback.errors.empty?
       render_success( {feedback:feedback})
     else
-      render_failure( {reason:feedback.errors.full_messages.to_sentence}, 400 )
+      render_failure( {reason:feedback.errors.full_messages.to_sentence}, 422 )
     end
   end
 

@@ -8,7 +8,7 @@ class Api::V1::PasswordResetsController < Api::V1::ABaseController
       user.deliver_reset_password_instructions!  # emails a url with a random token
       render_success
     else
-      render_failure( {reason:'Failed to send password reset instructions'} )
+      render_failure( {reason:"User with email '#{params[:email]}' does not exist.  Failed to send password reset instructions."}, 404 )
     end
   end
 
