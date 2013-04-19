@@ -20,21 +20,6 @@ function sendMessage(encounter_id){
 	return false;
 }
 
-// $(document).ready(function(){
-// 	$(".accordion-toggle").on('click', function(e){
-// 		var element = this;
-// 		setTimeout(function(){
-// 			console.log("called");
-// 			if($(element).hasClass('collapsed')){
-// 				$('.profile').hide();
-// 			}else{
-// 				$('.profile').offset({ top: element.offsetTop-51})
-// 				$('.profile').show();
-// 			}
-// 		}, 1000);
-// 	});
-// });
-
 </script>
 
 <div class="accordion span12" id="accordion2" style="margin-left:0;">
@@ -102,10 +87,10 @@ function sendMessage(encounter_id){
 						<div class="span5 profile pull-right" style="height:500px;">
 							<img class="img-polaroid pull-right" src="http://placekitten.com/90/90">
 							<div >
-								<h5 style="margin-top:0;"><%=encounter.encounters_users.patients.first.user.full_name %></h5>
+								<h4 style="margin-top:0;"><%=encounter.encounters_users.patients.first.user.full_name %></h4>
 								<p><%=encounter.encounters_users.patients.first.user.gender %></p>
 								<p><%=encounter.encounters_users.patients.first.user.height %>cm</p>
-								<p>5 years old</p>
+								<p><%=time_ago_in_words(encounter.encounters_users.patients.first.user.birth_date, {:prefix=>'birthday'}) %> old</p>
 								<p><%=encounter.encounters_users.patients.first.user.phone %></p>
 							</div>
 						</div>
