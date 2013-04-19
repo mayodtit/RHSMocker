@@ -90,7 +90,11 @@ function sendMessage(encounter_id){
 								<h4 style="margin-top:0;"><%=encounter.encounters_users.patients.first.user.full_name %></h4>
 								<p><%=encounter.encounters_users.patients.first.user.gender %></p>
 								<p><%=encounter.encounters_users.patients.first.user.height %>cm</p>
-								<p><%=time_ago_in_words(encounter.encounters_users.patients.first.user.birth_date, {:prefix=>'birthday'}) %> old</p>
+
+								<% if encounter.encounters_users.patients.first.user.birth_date.present? %>
+									<p><%=time_ago_in_words(encounter.encounters_users.patients.first.user.birth_date, {:prefix=>'birthday'}) %> old</p>
+								<% end %>
+
 								<p><%=encounter.encounters_users.patients.first.user.phone %></p>
 							</div>
 						</div>
