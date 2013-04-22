@@ -1,4 +1,6 @@
-#Better Rails Server
+#Better Rails Server  
+![](better_icn.png)
+
 This project includes:
 
 1. Better App API + docs
@@ -26,6 +28,17 @@ rake docs:generate
 To deploy run 
 ```
 git push heroku master
+```
+
+#####To add roles to users
+```
+heroku run rails console
+```
+in console
+
+```
+u = User.where(:email=>"geoff.clapp@gmail.com")
+u.add_role :hcp
 ```
 
 ####Alpha
