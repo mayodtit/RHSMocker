@@ -41,14 +41,14 @@ git push heroku alpha
 ```
 
 ##Data Models
-![](https://raw.github.com/RemoteHealthServices/RHSMocker/master/diagram.jpg)
+![](diagram.jpg)
 
 
 ##Notes
 
-** Heroku is case sensitive for directories.**
+** Heroku is case sensitive for directories. **
 
-** Solr needs extra changes on config to make partial word searches possible.**
+** Solr needs extra changes on config to make partial word searches possible. **
 > change schema.xml to contain this chunk. <fieldType name="text" class="solr.TextField" omitNorms="false"> is already there, but the stuff under that directive need to merged.
 
 ```
