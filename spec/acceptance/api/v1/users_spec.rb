@@ -56,7 +56,14 @@ resource "Users" do
     parameter :feature_bucket, "The feature bucket that the user is in (none, message_only, call_only, message_call)"
     parameter :first_name,  "User's first name"
     parameter :last_name,   "User's last name"
-    scope_parameters :user, [:install_id, :email, :password, :feature_bucket, :first_name, :last_name]
+    parameter :image_url,   "User's image URL"
+    parameter :gender,   "User's gender(male or female)"
+    parameter :height,   "User's height(in cm)"
+    parameter :birth_date,   "User's birth date"
+    parameter :phone,   "User's phone number"
+    parameter :generic_call_time,   "User's preferred call time (morning, afternoon, evening)"
+    parameter :feature_bucket,   "User's feature bucket (none message_only call_only message_call)"
+    scope_parameters :user, [:install_id, :email, :password, :feature_bucket, :first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket]
 
     required_parameters :install_id, :email, :password
 
@@ -66,13 +73,20 @@ resource "Users" do
     let (:feature_bucket) { "message_only" }
     let (:first_name)     { "Bob" }
     let (:last_name)      { "Smith" }
+    let (:image_url)      { "http://placekitten.com/90/90" }
+    let (:gender)      { "male" }
+    let (:height)      { 190 }
+    let (:birth_date)      { "1980-10-15" }
+    let (:phone)      { "4163442356" }
+    let (:generic_call_time)      { "morning" }
+    let (:feature_bucket)      { "none" }
     let (:raw_post)   { params.to_json }  # JSON format request body
 
     example_request "[POST] Sign up using email and password (or add email and password to account)" do
       explanation "If the install ID exists, update that user's account with email and password.  Can pass additional user fields, such as first_name, gender, birth_date, etc.  Returns auth_token and the user."
-
       status.should == 200
       response = JSON.parse(response_body)
+
       response['auth_token'].should_not be_empty
       response['user'].should_not be_empty
     end
@@ -118,17 +132,35 @@ resource "Users" do
 
   put '/api/v1/user' do
     parameter :auth_token,    "User's auth token"
-    parameter :first_name,    "User's first name"
-    parameter :phone,         "User's phone number"
+    parameter :email,       "Account email"
     parameter :feature_bucket, "The feature bucket that the user is in (none, message_only, call_only, message_call)"
+    parameter :first_name,  "User's first name"
+    parameter :last_name,   "User's last name"
+    parameter :image_url,   "User's image URL"
+    parameter :gender,   "User's gender(male or female)"
+    parameter :height,   "User's height(in cm)"
+    parameter :birth_date,   "User's birth date"
+    parameter :phone,   "User's phone number"
+    parameter :generic_call_time,   "User's preferred call time (morning, afternoon, evening)"
+    parameter :feature_bucket,   "User's feature bucket (none message_only call_only message_call)"
+    scope_parameters :user, [:email, :first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket]
 
-    scope_parameters :user, [:phone, :first_name, :feature_bucket]
     required_parameters :auth_token
 
-    let (:auth_token)    { @user.auth_token }
-    let (:first_name)    { "Batman" }
-    let (:phone)         { "1234567890" }
+    let (:email)          { "tst111@test.com" }
     let (:feature_bucket) { "message_only" }
+    let (:first_name)     { "Bob" }
+    let (:last_name)      { "Smith" }
+    let (:image_url)      { "http://placekitten.com/90/90" }
+    let (:gender)      { "male" }
+    let (:height)      { 190 }
+    let (:birth_date)      { "1980-10-15" }
+    let (:phone)      { "4163442356" }
+    let (:generic_call_time)      { "morning" }
+    let (:feature_bucket)      { "none" }
+    let (:auth_token)    { @user.auth_token }
+
+
     let (:raw_post)      { params.to_json }  # JSON format request body
 
     example_request "[PUT] Update user" do
@@ -139,19 +171,37 @@ resource "Users" do
   end
 
   put '/api/v1/user/:id' do
-    parameter :auth_token,  "User's auth token"
+    parameter :auth_token,    "User's auth token"
     parameter :id,          "ID of user to update"
+    parameter :email,       "Account email"
+    parameter :feature_bucket, "The feature bucket that the user is in (none, message_only, call_only, message_call)"
     parameter :first_name,  "User's first name"
-    parameter :phone,       "User's phone number"
+    parameter :last_name,   "User's last name"
+    parameter :image_url,   "User's image URL"
+    parameter :gender,   "User's gender(male or female)"
+    parameter :height,   "User's height(in cm)"
+    parameter :birth_date,   "User's birth date"
+    parameter :phone,   "User's phone number"
+    parameter :generic_call_time,   "User's preferred call time (morning, afternoon, evening)"
+    parameter :feature_bucket,   "User's feature bucket (none message_only call_only message_call)"
+    scope_parameters :user, [:email, :first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket]
 
-    scope_parameters :user, [:phone, :first_name]
     required_parameters :auth_token, :id
 
-    let (:auth_token) { @user.auth_token }
     let (:id)         { @user.associates.first.id }
-    let (:first_name) { "Robin" }
-    let (:phone)      { "2234567890" }
-    let (:raw_post)   { params.to_json }  # JSON format request body
+    let (:email)          { "tst121@test.com" }
+    let (:feature_bucket) { "message_only" }
+    let (:first_name)     { "Bob" }
+    let (:last_name)      { "Smith" }
+    let (:image_url)      { "http://placekitten.com/90/90" }
+    let (:gender)      { "male" }
+    let (:height)      { 190 }
+    let (:birth_date)      { "1980-10-15" }
+    let (:phone)      { "4163442356" }
+    let (:generic_call_time)      { "morning" }
+    let (:feature_bucket)      { "none" }
+    let (:auth_token)    { @user.auth_token }
+    let (:raw_post)      { params.to_json }  # JSON format request body
 
     example_request "[PUT] Update a specific user" do
       explanation "Update attributes for the specified user, if the currently logged in user has permission to do so"
