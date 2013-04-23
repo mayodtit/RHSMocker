@@ -9,7 +9,6 @@ resource "Allergies" do
     @allergy = FactoryGirl.create(:allergy, :name=>"dust")
   end
 
- 
 
   get '/api/v1/allergies' do
     parameter :q, "Query string"
@@ -24,4 +23,5 @@ resource "Allergies" do
       JSON.parse(response_body).should_not be_empty
     end
   end
+
 end

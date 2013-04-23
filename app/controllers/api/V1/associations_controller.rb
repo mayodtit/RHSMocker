@@ -1,7 +1,7 @@
 class Api::V1::AssociationsController < Api::V1::ABaseController
+  before_filter :check_association, :except=>:index
 
   def create
-    return render_failure({reason: "Association not supplied"}, 412) unless params[:association].present?
     associate = Associate.new params[:association][:associate]
     associate.save(:validate=>false)
     return render_failure( {reason:"Could not create an associate #{params[:association][:associate]}"}, 412 ) if associate.nil?
@@ -15,7 +15,6 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   end
 
   def update
-    return render_failure({reason: "Association not supplied"}, 412) unless params[:association].present?
     association = Association.find_by_id params[:association][:id]
     return render_failure({reason: "Could not find association with id #{params[:association][:id]}"}, 404) unless association
     return render_failure({reason:"Permission denied"}) unless association.user==current_user
@@ -25,7 +24,6 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   end
 
   def remove
-    return render_failure({reason: "Association not supplied"}, 412) unless params[:association].present?
     association = Association.find_by_id params[:association][:id]
     return render_failure({reason: "Could not find association with id #{params[:association][:id]}"}, 404) unless association
     return render_failure({reason:"Permission denied"}) unless association.user==current_user
@@ -34,6 +32,11 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
     else
       render_failure({reason:association.errors.full_messages.to_sentence}, 422)
     end
+  end
+
+
+  def check_association
+    return render_failure({reason: "Association not supplied"}, 412) if params[:association].empty?
   end
 
 end
