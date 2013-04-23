@@ -32,7 +32,7 @@ git push heroku master
 
 #####To add roles to users
 ```
-heroku run rails console
+heroku run rails console --app rhs-staging
 ```
 in console
 
@@ -50,7 +50,7 @@ u.add_role :hcp
 
 To deploy run 
 ```
-git push heroku alpha
+git push [remote for alpha] alpha:master
 ```
 
 ##Data Models
