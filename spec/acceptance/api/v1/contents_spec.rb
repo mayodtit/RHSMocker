@@ -67,4 +67,18 @@ resource "Contents" do
     end
   end
 
+  get '/api/v1/contents/:id' do
+    parameter :id,  "Content ID"
+    required_parameters :id
+
+    let(:id)       { 1234 }
+
+    example_request "[GET] Get specific content (404)" do
+      explanation "Returns the specified content with its HTML formatted body"
+
+      status.should == 404
+      JSON.parse(response_body)['reason'].should_not be_empty
+    end
+  end
+
 end

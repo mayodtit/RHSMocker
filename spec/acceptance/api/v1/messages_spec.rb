@@ -8,6 +8,7 @@ resource "Messages" do
   before(:all) do
     @user = FactoryGirl.create(:user_with_email)
     @user.login
+    @user2 = FactoryGirl.create(:user_with_email)
 
     @encounter = FactoryGirl.create(:encounter_with_messages)
     FactoryGirl.create(:encounters_user, :user=>@user, :encounter=>@encounter)
@@ -136,10 +137,69 @@ resource "Messages" do
       status.should == 200
       JSON.parse(response_body).should_not be_empty
     end
-
   end
 
+  post "/api/v1/messages" do
+    parameter :auth_token, "User's auth token"
+    parameter :keywords, "Keywords to add to the message"
+    parameter :text, "The body text for the message"
+    parameter :attachments, "Set of urls to attachments (images)"
+    parameter :url, "Url of the attachment"
+    parameter :location, "Latitude and longitude of location where message was sent from"
+    parameter :latitude, "Latitude of the location"
+    parameter :longitude, "Longitude of the location"
+    parameter :encounter, "Encapsulating encounter object"
+    parameter :id, "Id of the encounter"
+    scope_parameters :encounter, [:id]
+    scope_parameters :location, [:latitude, :longitude]
+    scope_parameters :attachments, [:url]
+    required_parameters :auth_token, :text
 
+    let(:auth_token)  {@user.auth_token}
+    let(:keywords)    {[@keyword.title]}
+    let(:text)        {"Ouch, my liver"}
+    let(:attachments) {[@attachment]}
+    let(:location)    {@location}
+    let(:id)          { 1234 }
+    let (:raw_post)   { params.to_json }  # JSON format request body
+
+    example_request "[POST] Create a response message to an existing encounter b (404)" do
+      explanation "Endpoint for posting a new message on an existing encounter"
+      status.should == 404
+      JSON.parse(response_body)['reason'].should_not be_empty
+    end
+  end
+
+  post "/api/v1/messages" do
+    parameter :auth_token, "User's auth token"
+    parameter :keywords, "Keywords to add to the message"
+    parameter :text, "The body text for the message"
+    parameter :attachments, "Set of urls to attachments (images)"
+    parameter :url, "Url of the attachment"
+    parameter :location, "Latitude and longitude of location where message was sent from"
+    parameter :latitude, "Latitude of the location"
+    parameter :longitude, "Longitude of the location"
+    parameter :encounter, "Encapsulating encounter object"
+    parameter :id, "Id of the encounter"
+    scope_parameters :encounter, [:id]
+    scope_parameters :location, [:latitude, :longitude]
+    scope_parameters :attachments, [:url]
+    required_parameters :auth_token, :text
+
+    let(:auth_token)  {@user2.auth_token}
+    let(:keywords)    {[@keyword.title]}
+    let(:text)        {"Ouch, my liver"}
+    let(:attachments) {[@attachment]}
+    let(:location)    {@location}
+    let(:id)          { 1234 }
+    let (:raw_post)   { params.to_json }  # JSON format request body
+
+    example_request "[POST] Create a response message to an existing encounter c (401)" do
+      explanation "Endpoint for posting a new message on an existing encounter"
+      status.should == 401
+      JSON.parse(response_body)['reason'].should_not be_empty
+    end
+  end
 
   post '/api/v1/messages/mark_read' do
     parameter :auth_token,  "User's auth token"

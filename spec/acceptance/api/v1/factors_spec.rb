@@ -29,6 +29,7 @@ resource "Factors" do
     FactoryGirl.create(:contents_symptoms_factor, :content=>@content, :symptoms_factor=>@symptoms_factor3)
   end
 
+
   get 'api/v1/factors/:id' do
     parameter :id,      "Symptom id"
     required_parameters :id
@@ -38,6 +39,19 @@ resource "Factors" do
       explanation "Returns an array of factors available for a symptom"
       status.should == 200
       JSON.parse(response_body)['factor_groups'].should be_a Array
+    end
+  end
+
+  get 'api/v1/factors/:id' do
+    parameter :id,      "Symptom id"
+    required_parameters :id
+
+    let(:id)   { 1234 }
+
+    example_request "[GET] Get all the factors for a symptom (404)" do
+      explanation "Returns an array of factors available for a symptom"
+      status.should == 404
+      JSON.parse(response_body)['reason'].should_not be_empty
     end
   end
 
