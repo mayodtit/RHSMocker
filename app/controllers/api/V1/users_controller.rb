@@ -31,7 +31,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
 
     if params[:id].present?
       if current_user.allowed_to_edit_user? params[:id].to_i
-        user = User.find(params[:id])
+        user = User.find_by_id params[:id]
       else
         return render_failure({reason:"Not authorized to edit this user"})
       end

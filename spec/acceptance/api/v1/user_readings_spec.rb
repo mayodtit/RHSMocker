@@ -92,22 +92,36 @@ resource "UserReadings" do
     end
   end
 
-  post '/api/v1/contents/mark_read' do
+  describe 'mark read user_reading' do
     parameter :auth_token,  "User's auth token"
     parameter :contents,    "Array of content IDs"
     parameter :id,          "Content ID"
     required_parameters :auth_token, :contents, :id
     scope_parameters :contents, [:id]
 
-    let(:auth_token)  { @user.auth_token }
-    let(:contents)    { [{:id=>@content.id}] }
-    let (:raw_post)   { params.to_json }  # JSON format request body
-    
-    example_request "[POST] Mark read user readings" do
-      explanation "Mark specified contents as read for this user"
+    post '/api/v1/contents/mark_read' do
+      let(:auth_token)  { @user.auth_token }
+      let(:contents)    { [{:id=>@content.id}] }
+      let (:raw_post)   { params.to_json }  # JSON format request body
+      
+      example_request "[POST] Mark read user readings" do
+        explanation "Mark specified contents as read for this user"
 
-      status.should == 200
-      JSON.parse(response_body).should_not be_empty
+        status.should == 200
+        JSON.parse(response_body).should_not be_empty
+      end
+    end
+
+    post '/api/v1/contents/mark_read' do
+      let(:auth_token)  { @user.auth_token }
+      let(:contents)    { [{:id=>1234}] }
+      let (:raw_post)   { params.to_json }  # JSON format request body
+      
+      example_request "[POST] Mark read user readings (404)" do
+        explanation "Mark specified contents as read for this user"
+        status.should == 404
+        JSON.parse(response_body)['reason'].should_not be_empty
+      end
     end
   end
 

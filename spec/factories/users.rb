@@ -10,6 +10,10 @@ FactoryGirl.define do
     factory :user_with_email do
       sequence(:email)    { |n| "user#{n}@test.com" }
 
+      factory :admin do
+        after(:create) {|user| user.add_role(:admin)}
+      end
+
       factory :hcp_user do
         after(:create) {|user| user.add_role(:hcp)}
       end

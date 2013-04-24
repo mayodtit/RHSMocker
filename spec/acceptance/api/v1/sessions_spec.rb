@@ -11,39 +11,66 @@ resource "Sessions" do
     @user = FactoryGirl.create(:user)
   end
 
-  post '/api/v1/login' do
+  describe 'create session with email and password' do
     parameter :email,       "User's email address"
     parameter :password,    "User's password"
     required_parameters :email, :password
 
-    let (:email)    { @user_with_email.email }
-    let (:password) { @password }
-    let (:raw_post) { params.to_json }  # JSON format request body
+    post '/api/v1/login' do
+      let (:email)    { @user_with_email.email }
+      let (:password) { @password }
+      let (:raw_post) { params.to_json }  # JSON format request body
 
-    example_request "[POST] Sign in using email and password" do
-      explanation "Returns auth_token and the user"
+      example_request "[POST] Sign in using email and password" do
+        explanation "Returns auth_token and the user"
 
-      status.should == 200
-      response = JSON.parse(response_body)
-      response['auth_token'].should_not be_empty
-      response['user'].should_not be_empty
+        status.should == 200
+        response = JSON.parse(response_body)
+        response['auth_token'].should_not be_empty
+        response['user'].should_not be_empty
+      end
+    end
+
+    post '/api/v1/login' do
+      let (:email)    { @user_with_email.email }
+      let (:password) { 'wrong password' }
+      let (:raw_post) { params.to_json }  # JSON format request body
+
+      example_request "[POST] Sign in using email and password (401)" do
+        explanation "Returns auth_token and the user"
+        status.should == 401
+        JSON.parse(response_body)['reason'].should_not be_empty
+      end
     end
   end
 
-  post '/api/v1/login' do
+  describe 'create session with install ID' do
     parameter :install_id,  "Unique install id" 
     required_parameters :install_id
 
-    let (:install_id) { @user.install_id }
-    let (:raw_post)   { params.to_json }  # JSON format request body
+    post '/api/v1/login' do
+      let (:install_id) { @user.install_id }
+      let (:raw_post)   { params.to_json }  # JSON format request body
 
-    example_request "[POST] Sign in using install id" do
-      explanation "Only works if the user's email isn't set up; Returns auth_token and the user"
+      example_request "[POST] Sign in using install id" do
+        explanation "Only works if the user's email isn't set up; Returns auth_token and the user"
 
-      status.should == 200
-      response = JSON.parse(response_body)
-      response['auth_token'].should_not be_empty
-      response['user'].should_not be_empty
+        status.should == 200
+        response = JSON.parse(response_body)
+        response['auth_token'].should_not be_empty
+        response['user'].should_not be_empty
+      end
+    end
+
+    post '/api/v1/login' do
+      let (:install_id) { 123456789 }
+      let (:raw_post)   { params.to_json }  # JSON format request body
+
+      example_request "[POST] Sign in using install id (401)" do
+        explanation "Only works if the user's email isn't set up; Returns auth_token and the user"
+        status.should == 401
+        JSON.parse(response_body)['reason'].should_not be_empty
+      end
     end
   end
 
