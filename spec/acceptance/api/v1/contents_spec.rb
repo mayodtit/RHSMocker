@@ -14,12 +14,11 @@ resource "Contents" do
   get '/api/v1/contents' do
     example_request "[GET] Get all contents (should not be used in the iOS app)" do
       explanation "Returns all the contents in the database ordered by their title"
-
       status.should == 200
       response = JSON.parse response_body
       response['contents'].should be_a Array
       content = response['contents'].first
-      content.should include('title', 'body', 'contentsType', 'abstract', 'question', 'keywords', 'updateDate')
+      content.keys.should include('title', 'body', 'contents_type', 'contentID')
     end
   end
 
@@ -33,7 +32,7 @@ resource "Contents" do
       explanation "Returns an array of contents retrieved by Solr"
 
       status.should == 200
-      JSON.parse(response_body).should be_a Array
+      JSON.parse(response_body)['contents'].should_not be_nil
     end
   end
 

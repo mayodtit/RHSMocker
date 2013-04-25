@@ -14,7 +14,6 @@ RHSMocker::Application.routes.draw do
 
       #content
       get "contents" => "contents#index", :as=>"content_index"
-      get "test_contents" => "contents#test_index", :as=>"test_content_index"
       get "contents/:id" => "contents#show", :as=>"content_show"
 
       #diseases

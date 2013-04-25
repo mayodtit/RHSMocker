@@ -10,23 +10,7 @@ class Api::V1::ContentsController < Api::V1::ABaseController
          @searchterm = params[:q]
       end
     end
-
-    render :json => @contents
-  end
-
-  def test_index
-    t1=Time.now
-    @contents = if params[:q].blank?
-      Content.all :order => 'title ASC'
-    else
-      Content.solr_search do |s|
-         @contents = s.keywords params[:q]
-         @searchterm = params[:q]
-      end
-    end
-    t2 = Time.now
-    logger.fatal "!!!time elapsed: #{t2-t1}"
-    render :json => @contents
+    render_success({contents:@contents})
   end
 
   def show
