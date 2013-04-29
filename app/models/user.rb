@@ -3,7 +3,8 @@ class User < ActiveRecord::Base
   authenticates_with_sorcery!
 
   attr_accessible :first_name, :last_name, :image_url, :gender, :height, :birth_date, :install_id, :email, :phone,\
-                  :generic_call_time, :password, :password_confirmation, :feature_bucket
+                  :generic_call_time, :password, :password_confirmation, :feature_bucket, :blood_type, :holds_phone_in,\
+                  :diet_id, :ethnic_group_id
 
   after_create :default_content
 
@@ -47,6 +48,9 @@ class User < ActiveRecord::Base
   has_many :user_allergies
   has_many :allergies, :through=>:user_allergies
 
+  belongs_to :ethnic_group
+  belongs_to :diet
+
 
   #Validations
   #++++++++++++++
@@ -83,6 +87,28 @@ class User < ActiveRecord::Base
 
   def can_call?
     self.hcp? || self.feature_bucket == 'call_only' || self.feature_bucket == 'message_call'
+  end
+
+
+  def as_json options=nil
+    {
+      id:id,
+      first_name:first_name,
+      last_name:last_name,
+      birth_date:birth_date,
+      blood_type:blood_type,
+      diet_id:diet_id,
+      email:email,
+      ethnic_group_id:ethnic_group_id,
+      feature_bucket:feature_bucket,
+      gender:gender,
+      generic_call_time:generic_call_time,
+      height:height,
+      holds_phone_in:holds_phone_in,
+      image_url:image_url,
+      install_id:install_id,
+      phone:phone
+    }
   end
 
   #Keywords (aka search history)

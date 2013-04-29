@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130429182427) do
+ActiveRecord::Schema.define(:version => 20130429221122) do
 
   create_table "allergies", :force => true do |t|
     t.string   "name"
@@ -112,6 +112,12 @@ ActiveRecord::Schema.define(:version => 20130429182427) do
   add_index "contents_symptoms_factors", ["content_id"], :name => "index_contents_symptom_factors_on_content_id"
   add_index "contents_symptoms_factors", ["symptoms_factor_id"], :name => "index_contents_symptom_factors_on_symptom_factor_id"
 
+  create_table "diets", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "diseases", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
@@ -137,6 +143,12 @@ ActiveRecord::Schema.define(:version => 20130429182427) do
 
   add_index "encounters_users", ["encounter_id"], :name => "index_encounters_users_on_encounter_id"
   add_index "encounters_users", ["user_id"], :name => "index_encounters_users_on_user_id"
+
+  create_table "ethnic_groups", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "factor_groups", :force => true do |t|
     t.string   "name"
@@ -355,6 +367,10 @@ ActiveRecord::Schema.define(:version => 20130429182427) do
     t.datetime "reset_password_token_expires_at"
     t.datetime "reset_password_email_sent_at"
     t.string   "feature_bucket"
+    t.integer  "ethnic_group_id"
+    t.integer  "diet_id"
+    t.string   "blood_type"
+    t.string   "holds_phone_in"
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"

@@ -77,6 +77,9 @@ RHSMocker::Application.routes.draw do
 
       post "feedback" => "users#add_feedback"
 
+      get "diets" => "diets#list"
+      get "ethnic_groups" => "ethnic_groups#list"
+
     end
   end
 

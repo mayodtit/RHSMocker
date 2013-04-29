@@ -80,7 +80,12 @@ resource "Users" do
     parameter :phone,   "User's phone number"
     parameter :generic_call_time,   "User's preferred call time (morning, afternoon, evening)"
     parameter :feature_bucket,   "User's feature bucket (none message_only call_only message_call)"
-    scope_parameters :user, [:install_id, :email, :password, :feature_bucket, :first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket]
+    parameter :ethnic_group_id, "User's ethnic group"
+    parameter :diet_id, "User's diet id"
+    parameter :blood_type, "User's blood type"
+    parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
+    scope_parameters :user, [:install_id, :email, :password, :feature_bucket, :first_name, :last_name, :image_url,\
+     :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in]
     required_parameters :install_id, :email, :password
 
     post '/api/v1/signup' do
@@ -96,7 +101,10 @@ resource "Users" do
       let (:birth_date)      { "1980-10-15" }
       let (:phone)      { "4163442356" }
       let (:generic_call_time)      { "morning" }
-      let (:feature_bucket)      { "none" }
+      let (:ethnic_group_id)      { 1 }
+      let (:diet_id)      { 1 }
+      let (:blood_type)      { "B-positive" }
+      let (:holds_phone_in)      { "left" }
       let (:raw_post)   { params.to_json }  # JSON format request body
 
       example_request "[POST] Sign up using email and password (or add email and password to account)" do
@@ -242,7 +250,11 @@ resource "Users" do
     parameter :phone,   "User's phone number"
     parameter :generic_call_time,   "User's preferred call time (morning, afternoon, evening)"
     parameter :feature_bucket,   "User's feature bucket (none message_only call_only message_call)"
-    scope_parameters :user, [:email, :first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket]
+    parameter :ethnic_group_id, "User's ethnic group"
+    parameter :diet_id, "User's diet id"
+    parameter :blood_type, "User's blood type"
+    parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
+    scope_parameters :user, [:email, :first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in]
     required_parameters :auth_token
 
     put '/api/v1/user' do
@@ -257,6 +269,10 @@ resource "Users" do
       let (:generic_call_time)      { "morning" }
       let (:feature_bucket)      { "none" }
       let (:auth_token)    { @user.auth_token }
+      let (:ethnic_group_id)      { 1 }
+      let (:diet_id)      { 1 }
+      let (:blood_type)      { "B-positive" }
+      let (:holds_phone_in)      { "left" }
       let (:raw_post)      { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update user" do
@@ -294,7 +310,11 @@ resource "Users" do
     parameter :phone,   "User's phone number"
     parameter :generic_call_time,   "User's preferred call time (morning, afternoon, evening)"
     parameter :feature_bucket,   "User's feature bucket (none message_only call_only message_call)"
-    scope_parameters :user, [:email, :first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket]
+    parameter :ethnic_group_id, "User's ethnic group"
+    parameter :diet_id, "User's diet id"
+    parameter :blood_type, "User's blood type"
+    parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
+    scope_parameters :user, [:email, :first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in]
     required_parameters :auth_token, :id
 
     put '/api/v1/user/:id' do
@@ -311,6 +331,10 @@ resource "Users" do
       let (:generic_call_time)      { "morning" }
       let (:feature_bucket)      { "none" }
       let (:auth_token)    { @user.auth_token }
+      let (:ethnic_group_id)      { 1 }
+      let (:diet_id)      { 1 }
+      let (:blood_type)      { "B-positive" }
+      let (:holds_phone_in)      { "left" }
       let (:raw_post)      { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update a specific user" do
