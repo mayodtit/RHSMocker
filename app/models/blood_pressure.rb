@@ -16,6 +16,7 @@ class BloodPressure < ActiveRecord::Base
   		diastolic:diastolic,
   		systolic:systolic,
   		pulse:pulse,
+      mean_arterial_pressure:mean_arterial_pressure,
   		collection_type_id:collection_type_id
   	}
   end
