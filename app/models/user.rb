@@ -19,6 +19,8 @@ class User < ActiveRecord::Base
   #Weight Readings
   has_many :user_weights
 
+  has_many :blood_pressures
+
   has_many :user_locations
 
   #All of the content assigned to this user

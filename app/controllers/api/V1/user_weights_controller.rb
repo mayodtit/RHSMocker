@@ -3,7 +3,7 @@ class Api::V1::UserWeightsController < Api::V1::ABaseController
     user_weight = UserWeight.create(weight:params[:weight], user:current_user)
     
     if user_weight.errors.empty?
-      render_success
+      render_success user_weight:user_weight
     else
       render_failure( {reason:user_weight.errors.full_messages.to_sentence}, 412 )
     end

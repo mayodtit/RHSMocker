@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130416185208) do
+ActiveRecord::Schema.define(:version => 20130429182427) do
 
   create_table "allergies", :force => true do |t|
     t.string   "name"
@@ -50,6 +50,25 @@ ActiveRecord::Schema.define(:version => 20130416185208) do
   create_table "authors_contents", :force => true do |t|
     t.integer  "author_id"
     t.integer  "content_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "blood_pressures", :force => true do |t|
+    t.integer  "systolic"
+    t.integer  "diastolic"
+    t.integer  "pulse"
+    t.integer  "collection_type_id"
+    t.integer  "user_id"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+  end
+
+  add_index "blood_pressures", ["collection_type_id"], :name => "index_blood_pressures_on_collection_type_id"
+  add_index "blood_pressures", ["user_id"], :name => "index_blood_pressures_on_user_id"
+
+  create_table "collection_types", :force => true do |t|
+    t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
