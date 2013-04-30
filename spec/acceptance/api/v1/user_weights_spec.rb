@@ -8,8 +8,10 @@ resource "UserWeights" do
   before(:each) do
     @user = FactoryGirl.create(:user_with_email)
     @user.login
-    FactoryGirl.create(:user_weight, :user=>@user)
-    FactoryGirl.create(:user_weight, :user=>@user)
+    @user2 = FactoryGirl.create(:user_with_email)
+    @user2.login
+    @user_weight1 = FactoryGirl.create(:user_weight, :user=>@user)
+    @user_weight2 = FactoryGirl.create(:user_weight, :user=>@user)
   end
 
   get 'api/v1/weights' do
@@ -51,6 +53,57 @@ resource "UserWeights" do
         explanation "Set the user's weight"
         status.should == 412
         JSON.parse(response_body)['reason'].should_not be_empty
+      end
+    end
+  end
+
+
+
+
+  describe 'delete user_weights' do
+    parameter :auth_token,    "User's auth token"
+    parameter :id,            "User weight reading id"
+    parameter :user_weight,            "User weight reading object"
+
+    required_parameters :auth_token, :id, :user_weight
+    scope_parameters :user_weight, [:id]
+
+    delete '/api/v1/weights' do
+      let (:auth_token) { @user.auth_token }
+      let (:id) { @user_weight1.id }
+
+      let (:raw_post)   { params.to_json }  # JSON format request body
+
+      example_request "[DELETE] Remove user's user weight reading" do
+        explanation "Remove user's user weight reading"
+        status.should == 200
+        JSON.parse(response_body).should_not be_empty
+      end
+    end
+
+    delete '/api/v1/weights' do
+      let (:auth_token) { @user.auth_token }
+      let (:id) { 2344 }
+
+      let (:raw_post)   { params.to_json }  # JSON format request body
+
+      example_request "[DELETE] Remove user's user weight reading b (404)" do
+        explanation "Remove user's user weight reading"
+        status.should == 404
+        JSON.parse(response_body).should_not be_empty
+      end
+    end
+
+    delete '/api/v1/weights' do
+      let (:auth_token) { @user2.auth_token }
+      let (:id) { @user_weight2.id }
+
+      let (:raw_post)   { params.to_json }  # JSON format request body
+
+      example_request "[DELETE] Remove user's user weight reading c (401)" do
+        explanation "Remove user's user weight reading"
+        status.should == 401
+        JSON.parse(response_body).should_not be_empty
       end
     end
   end

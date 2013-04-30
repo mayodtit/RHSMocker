@@ -56,8 +56,10 @@ RHSMocker::Application.routes.draw do
       post "locations" =>"user_locations#create", :as=>"create_user_location"
       post "weights" => "user_weights#create", :as=>"create_user_weight"
       get "weights" => "user_weights#list", :as=>"list_user_weights"
+      delete "weights" => "user_weights#remove", :as=>"remove_user_weight"
       post "blood_pressures" => "blood_pressures#create", :as=>"create_blood_pressures"
       get "blood_pressures" => "blood_pressures#list", :as=>"list_blood_pressures"
+      delete "blood_pressures" => "blood_pressures#remove", :as=>"remove_blood_pressure"
 
       get "user/keywords" => "users#keywords", :as=>"user_keywords"
 

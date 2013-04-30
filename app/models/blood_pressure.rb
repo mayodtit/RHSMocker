@@ -13,6 +13,7 @@ class BloodPressure < ActiveRecord::Base
 
   def as_json options=nil
   	{
+      id:id, 
   		diastolic:diastolic,
   		systolic:systolic,
   		pulse:pulse,

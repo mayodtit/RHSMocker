@@ -14,4 +14,15 @@ class Api::V1::BloodPressuresController < Api::V1::ABaseController
   def list
     render_success blood_pressures:current_user.blood_pressures
   end
+
+  def remove
+    blood_pressure = BloodPressure.find_by_id params[:blood_pressure][:id]
+    return render_failure({reason: "Could not find blood_pressure reading with id #{params[:blood_pressure][:id]}"}, 404) unless blood_pressure
+    return render_failure({reason:"Permission denied"}) unless blood_pressure.user==current_user
+    if BloodPressure.destroy(blood_pressure.id)
+      render_success
+    else
+      render_failure({reason:blood_pressure.errors.full_messages.to_sentence}, 422)
+    end
+  end
 end

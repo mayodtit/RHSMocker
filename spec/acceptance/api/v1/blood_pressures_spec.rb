@@ -8,8 +8,10 @@ resource "BloodPressures" do
   before(:all) do
     @user = FactoryGirl.create(:user_with_email)
     @user.login
-    FactoryGirl.create(:blood_pressure, :user=>@user)
-    FactoryGirl.create(:blood_pressure, :user=>@user)
+    @user2 = FactoryGirl.create(:user_with_email)
+    @user2.login
+    @blood_pressure1 = FactoryGirl.create(:blood_pressure, :user=>@user)
+    @blood_pressure2 = FactoryGirl.create(:blood_pressure, :user=>@user)
   end
 
 
@@ -27,7 +29,7 @@ resource "BloodPressures" do
   end
 
 
-  describe 'create user_weight' do
+  describe 'create blood_pressure' do
     parameter :auth_token,    "User's auth token"
     parameter :diastolic,     "User's diastolic pressure"
     parameter :systolic,      "User's systolic pressure"
@@ -65,5 +67,54 @@ resource "BloodPressures" do
       end
     end
   end
+
+  describe 'delete blood_pressure' do
+    parameter :auth_token,    "User's auth token"
+    parameter :id,            "Blood pressure reading id"
+    parameter :blood_pressure,            "Blood pressure reading object"
+
+    required_parameters :auth_token, :id, :blood_pressure
+    scope_parameters :blood_pressure, [:id]
+
+    delete '/api/v1/blood_pressures' do
+      let (:auth_token) { @user.auth_token }
+      let (:id) { @blood_pressure1.id }
+
+      let (:raw_post)   { params.to_json }  # JSON format request body
+
+      example_request "[DELETE] Remove user's blood pressure reading" do
+        explanation "Remove user's blood pressure reading"
+        status.should == 200
+        JSON.parse(response_body).should_not be_empty
+      end
+    end
+
+    delete '/api/v1/blood_pressures' do
+      let (:auth_token) { @user.auth_token }
+      let (:id) { 2344 }
+
+      let (:raw_post)   { params.to_json }  # JSON format request body
+
+      example_request "[DELETE] Remove user's blood pressure reading b (404)" do
+        explanation "Remove user's blood pressure reading"
+        status.should == 404
+        JSON.parse(response_body).should_not be_empty
+      end
+    end
+
+    delete '/api/v1/blood_pressures' do
+      let (:auth_token) { @user2.auth_token }
+      let (:id) { @blood_pressure2.id }
+
+      let (:raw_post)   { params.to_json }  # JSON format request body
+
+      example_request "[DELETE] Remove user's blood pressure reading c (401)" do
+        explanation "Remove user's blood pressure reading"
+        status.should == 401
+        JSON.parse(response_body).should_not be_empty
+      end
+    end
+  end
+
 
 end
