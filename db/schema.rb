@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130429221122) do
+ActiveRecord::Schema.define(:version => 20130430174638) do
 
   create_table "allergies", :force => true do |t|
     t.string   "name"
@@ -352,12 +352,12 @@ ActiveRecord::Schema.define(:version => 20130429221122) do
     t.string   "last_name"
     t.string   "gender"
     t.date     "birth_date"
-    t.datetime "created_at",                                                                                   :null => false
-    t.datetime "updated_at",                                                                                   :null => false
+    t.datetime "created_at",                                                                  :null => false
+    t.datetime "updated_at",                                                                  :null => false
     t.string   "image_url"
     t.string   "install_id",                      :limit => 36
     t.string   "email"
-    t.decimal  "height",                                        :precision => 6, :scale => 2, :default => 0.0
+    t.decimal  "height",                                        :precision => 6, :scale => 2
     t.string   "phone"
     t.string   "generic_call_time"
     t.string   "crypted_password"
