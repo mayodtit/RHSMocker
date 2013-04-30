@@ -100,6 +100,7 @@ RHSMocker::Application.routes.draw do
   get "/logout" => "sessions#destroy", :as=>"logout"
   get '/login' => "sessions#new", :as=>"login"
   resources :sessions
+  get "faq" =>"home#faq"
 
   resources :users
   resources :contents
