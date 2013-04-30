@@ -82,6 +82,11 @@ RHSMocker::Application.routes.draw do
       get "diets" => "diets#list"
       get "ethnic_groups" => "ethnic_groups#list"
 
+      get "agreement_pages" => "agreement_pages#list"
+      get "agreements" => "agreements#list"
+      post "agreements" => "agreements#create"
+      get "agreements/up_to_date" => "agreements#up_to_date?"
+
     end
   end
 

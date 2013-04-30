@@ -51,6 +51,9 @@ class User < ActiveRecord::Base
   belongs_to :ethnic_group
   belongs_to :diet
 
+  has_many :agreements
+  has_many :agreement_pages, :through => :agreements
+
 
   #Validations
   #++++++++++++++
