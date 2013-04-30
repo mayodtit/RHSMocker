@@ -8,7 +8,7 @@ class BloodPressure < ActiveRecord::Base
 
 
   def mean_arterial_pressure
-  	(Float(2*diastolic+systolic)/3).round
+  	(Float(2*diastolic+systolic)/3).round(1)
   end
 
   def as_json options=nil
