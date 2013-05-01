@@ -11,14 +11,12 @@ class UserReading < ActiveRecord::Base
 
   def as_json options=nil
     {
-      id:id,
       read_date:read_date, 
       dismiss_date:dismiss_date, 
       read_later_date:read_later_date, 
       title:content.title,
       contentsType:content.contentsType,
       content_id:content.id,
-      mayo_doc_id:content.mayo_doc_id,
       created_at:created_at,
       share_url:content.share_url(id)
     }

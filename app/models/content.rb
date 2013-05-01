@@ -28,7 +28,7 @@ class Content < ActiveRecord::Base
     else
       json_body = body
     end
-    result = {:title => title, :contents_type => contentsType, :contentID => id, :body=>json_body, :mayo_doc_id=>mayo_doc_id }
+    result = {:title => title, :contents_type => contentsType, :contentID => id, :body=>json_body }
     if options && options[:user_reading_id].present?
       result.merge!(user_reading_id:options[:user_reading_id], :share_url=>share_url(options[:user_reading_id]))
     end
