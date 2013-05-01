@@ -1,6 +1,6 @@
 class Content < ActiveRecord::Base
 
-	attr_accessible :title, :body, :contentsType, :abstract, :question, :keywords, :updateDate
+	attr_accessible :title, :body, :contentsType, :abstract, :question, :keywords, :updateDate, :mayo_doc_id
 
 	has_and_belongs_to_many :authors
 	has_many :contents_mayo_vocabularies
@@ -28,7 +28,11 @@ class Content < ActiveRecord::Base
     else
       json_body = body
     end
-    {:title => title, :contents_type => contentsType, :contentID => id, :body=>json_body}
+    result = {:title => title, :contents_type => contentsType, :contentID => id, :body=>json_body, :mayo_doc_id=>mayo_doc_id }
+    if options && options[:user_reading_id].present?
+      result.merge!(user_reading_id:options[:user_reading_id], :share_url=>share_url(options[:user_reading_id]))
+    end
+    result
 	end
 
 ########
@@ -40,6 +44,12 @@ def previewText
       preview = body.split(' ').slice(0, 21).join(' ').gsub(/\ADefinition<p>/, "") 
       preview +=  "&hellip;"
   end
+end
+
+def share_url user_reading_id=nil
+  result = "/contents/#{mayo_doc_id}"
+  result+= "/#{user_reading_id}" if user_reading_id
+  result
 end
 
 ########

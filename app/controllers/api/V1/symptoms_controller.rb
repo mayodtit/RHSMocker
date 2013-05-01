@@ -5,8 +5,4 @@ class Api::V1::SymptomsController < Api::V1::ABaseController
     render_success symptoms:Symptom.all(:order=>:name)
   end
 
-  def check
-
-  end
-
 end

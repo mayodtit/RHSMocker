@@ -1,33 +1,22 @@
-<p id="notice"><%= notice %></p>
-
-<div class='content_full' style="padding-left:20px">
-
-<div class="content_title">
-<%= @content.title %>
+<div class="content_full">
+<div class="content_type_and_sender"><%= @content.contentsType %></div>
+<div class="content_title"><%= @content.title %></div>
+<div class="content_date_and_source">
+<% if !@content.updateDate.nil? %>
+<%= @content.updateDate.strftime("%b. #{@content.updateDate.day.ordinalize}, %Y") %>&nbsp;&nbsp;|&nbsp;&nbsp;
+<% end %><%= image_tag("mayo_clinic_logo.png", :class => "mayo_icon")%>&nbsp;&nbsp;Mayo Clinic
 </div>
-
-<div class="content_subtitle">
-	<% if !@content.abstract.nil? %>
-		<%= @content.abstract.html_safe%>
-	<% end %>
+<% if not ["Disease", "Test Procedure", "Answer"].include?(@content.contentsType) %>
+<% if !@content.abstract.nil? %>
+<div class="content_subtitle"><%= @content.abstract.html_safe%></div>
+<% end %>
+<% end %>
+<!-- <% if ["Answer"].include?(@content.contentsType) %>
+<div class="content_subtitle"><% if !@content.question.nil? %><%= @content.question%><% end %></div>
+<% end %> -->
+<% if not ["Quiz", "Question"].include?(@content.contentsType) %>
+<div class="content_text"><% if !@content.body.nil? %><%=@content.reformattedBody.html_safe%><% end %></div>
+<% else %>
+<div class="content_text"><% if !@content.body.nil? %><%=@content.body.html_safe%><% end %></div>
+<% end %>
 </div>
-
-<div class="content_subtitle">
-	<% if !@content.question.nil? %>
-	<%= @content.question%>
-	<% end %>
-</div>
-
-<div class="content_subtitle">
-	Type:<%= @content.contentsType%>
-</div>
-
-<div class="content_text">
-	<% if !@content.body.nil? %>
-	<%=@content.body.html_safe%>
-	<% end %>
-</div>
-</div>
-
-
-<%= link_to 'Back', contents_path %>

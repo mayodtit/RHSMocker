@@ -28,12 +28,14 @@ namespace :admin do
 				keyword_search	= answer.search('MetaKeyword')
 				update_search	= answer.search('UpdateDate')
 				mayo_vocab_search = answer.search('Keyword')
+				doc_id_search = answer.search('DocID')
 
 				title_text 	  = title_search.first.text 	if !title_search.empty?
 				abstract_text = abstract_search.first.text 	if !abstract_search.empty?
 				question_text = question_search.first.text 	if !question_search.empty?
 				body_text	  = body_search.first.text 		if !body_search.empty?
 				update_text	  = update_search.first.text    if !update_search.empty?
+				doc_id	   	  = doc_id_search.first.text.strip    if !doc_id_search.empty?
 
 				keywords = ''
 
@@ -51,6 +53,7 @@ namespace :admin do
 				@content.contentsType = type_text.gsub(/\n/,"").gsub(/\t/,"").titlecase if !type_text.nil?
 				@content.updateDate = update_text.gsub(/\n/,"").gsub(/\t/,"") 		if !update_text.nil?
 				@content.keywords 	= keywords
+				@content.mayo_doc_id = doc_id if !doc_id.nil?
 				@content.save!
 
 				mayo_vocab_search.each do | vocab |

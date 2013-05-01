@@ -6,12 +6,20 @@ resource "Contents" do
   header 'Content-Type', 'application/json'
 
   before(:all) do
+    @user = FactoryGirl.create(:user_with_email)
+    @user.login
+
     FactoryGirl.create(:content)
     @content = FactoryGirl.create(:disease_content)
     FactoryGirl.create(:disease_content)
   end
 
   get '/api/v1/contents' do
+    parameter :auth_token, "User's auth_token"
+    required_parameters :auth_token
+
+    let(:auth_token)  { @user.auth_token}
+
     example_request "[GET] Get all contents (should not be used in the iOS app)" do
       explanation "Returns all the contents in the database ordered by their title"
       status.should == 200
@@ -23,9 +31,11 @@ resource "Contents" do
   end
 
   get '/api/v1/contents' do
+    parameter :auth_token, "User's auth_token"
     parameter :q, "Query string"
-    required_parameters :q
+    required_parameters :auth_token, :q
 
+    let(:auth_token)  { @user.auth_token}
     let(:q)   { 'craniosynostosis' }
 
     example_request "[GET] Search contents with query string" do
@@ -37,9 +47,11 @@ resource "Contents" do
   end
 
   get '/api/v1/contents/:id' do
+    parameter :auth_token, "User's auth_token"
     parameter :id,  "Content ID"
-    required_parameters :id
+    required_parameters :auth_token, :id
 
+    let(:auth_token)  { @user.auth_token}
     let(:id)       { @content.id }
 
     example_request "[GET] Get specific content" do
@@ -47,29 +59,35 @@ resource "Contents" do
 
       status.should == 200
       content = JSON.parse response_body
-      content.should include('title', 'contents_type', 'contentID', 'body')
-    end
-  end
-
-  get '/api/v1/contents/:id?q=cardview' do
-    parameter :id,  "Content ID"
-    required_parameters :id
-
-    let(:id)       { @content.id }
-
-    example_request "[GET] Get specific content (cardview)" do
-      explanation "Returns the specified content with its HTML formatted body for cardview"
-
-      status.should == 200
-      content = JSON.parse response_body
-      content.should include('title', 'contents_type', 'contentID', 'body')
+      content.should include('content')
     end
   end
 
   get '/api/v1/contents/:id' do
+    parameter :auth_token, "User's auth_token"
     parameter :id,  "Content ID"
-    required_parameters :id
+    parameter :q, "Query string"
+    required_parameters :auth_token, :id, :q
 
+    let(:auth_token)  { @user.auth_token }
+    let(:id)       { @content.id }
+    let(:q)   { 'cardview' }
+
+    example_request "[GET] Get specific content (cardview)" do
+      explanation "Returns the specified content with its HTML formatted body for cardview"
+      puts response_body
+      status.should == 200
+      content = JSON.parse response_body
+      content.should include('content')
+    end
+  end
+
+  get '/api/v1/contents/:id' do
+    parameter :auth_token, "User's auth_token"
+    parameter :id,  "Content ID"
+    required_parameters :auth_token, :id
+
+    let(:auth_token)  { @user.auth_token}
     let(:id)       { 1234 }
 
     example_request "[GET] Get specific content (404)" do

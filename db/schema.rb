@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130430174638) do
+ActiveRecord::Schema.define(:version => 20130501175618) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -102,7 +102,10 @@ ActiveRecord::Schema.define(:version => 20130430174638) do
     t.text     "question"
     t.text     "keywords"
     t.datetime "updateDate"
+    t.string   "mayo_doc_id"
   end
+
+  add_index "contents", ["mayo_doc_id"], :name => "index_contents_on_mayo_doc_id"
 
   create_table "contents_mayo_vocabularies", :force => true do |t|
     t.integer  "content_id"
@@ -356,6 +359,8 @@ ActiveRecord::Schema.define(:version => 20130430174638) do
     t.datetime "read_later_date"
     t.integer  "read_later_count", :default => 0
     t.datetime "dismiss_date"
+    t.datetime "view_date"
+    t.integer  "share_counter"
   end
 
   create_table "user_weights", :force => true do |t|

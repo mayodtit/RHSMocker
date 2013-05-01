@@ -8,6 +8,7 @@ FactoryGirl.define do
     question        {'What is the JSON format of content?'}
     updateDate     { Time.now }
     mayo_vocabularies {[FactoryGirl.create(:mayo_vocabulary)]}
+    mayo_doc_id "AA004345"
 
     factory :disease_content do
       sequence(:title){|n| "Craniosynostosis #{n}" }

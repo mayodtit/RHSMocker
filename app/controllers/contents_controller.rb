@@ -20,22 +20,10 @@ class ContentsController < ApplicationController
 
   end
 
-  # GET /contents/1
-  # GET /contents/1.json
   def show
-    @content = Content.find(params[:id])
-    
-    if params[:q] == 'cardview'
-      html = render_to_string :action => "content_cardview", :formats=>:html, :locals => {:first_paragraph => @content.previewText}
-      options = {"layout" => "cardview", "source" => html}
-    else
-      html =  render_to_string :action => "content_full", :formats=>:html
-      options = {"source" => html}
-    end
-
-    respond_to do |format|
-      format.html { render :text => html}
-      format.json { render :json => @content.as_json(options)}
-    end
+    @content = Content.find_by_mayo_doc_id params[:doc_id]
+    #return 404 unless @content
+    render :file=>"#{Rails.root}/public/404", :layout=>false, :status=>404 unless @content
+    UserReading.increment_counter(:share_counter, params[:user_reading_id]) if params[:user_reading_id]
   end
 end

@@ -1,5 +1,4 @@
 class Api::V1::ContentsController < Api::V1::ABaseController
-  skip_before_filter :authentication_check
 
   def index
     @contents = if params[:q].blank?
@@ -22,7 +21,9 @@ class Api::V1::ContentsController < Api::V1::ABaseController
       render_to_string :action => "content_full", :formats=>:html
     end
 
-    render_success @content.as_json({"source"=>html})
+    user_reading = UserReading.find_by_user_id_and_content_id(current_user.id, @content.id) || UserReading.create(view_date:DateTime.now, user_id:current_user.id, content_id:@content.id)
+
+    render_success content:@content.as_json({"source"=>html, :user_reading_id=>user_reading.id})
   end
 
 end

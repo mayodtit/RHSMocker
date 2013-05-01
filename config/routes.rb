@@ -101,6 +101,8 @@ RHSMocker::Application.routes.draw do
   get '/login' => "sessions#new", :as=>"login"
   resources :sessions
   get "faq" =>"home#faq"
+  get "contents/:doc_id" => "contents#show"
+  get "contents/:doc_id/:user_reading_id" => "contents#show"
 
   resources :users
   resources :contents

@@ -4,7 +4,7 @@ include PusherModule
 class Api::V1::UserReadingsController < Api::V1::ABaseController
 
   def index
-    render_success user_readings:current_user.user_readings
+    render_success user_readings:current_user.user_readings.for_timeline
   end
 
   def inbox
