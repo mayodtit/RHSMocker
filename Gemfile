@@ -74,7 +74,7 @@ gem 'progress_bar' #for indexing
 #Remove before MVP
 gem 'lorem-ipsum-me'
 
-
+gem "rails_config"
 
 
 gem 'sorcery'
