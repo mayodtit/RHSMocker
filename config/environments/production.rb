@@ -68,12 +68,12 @@ RHSMocker::Application.configure do
   # Set Mailer Host
   config.action_mailer.perform_deliveries = true
 
-  config.action_mailer.default_url_options = { :host => 'rhs-staging.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'rhs-alpha.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     :address              => "smtp.gmail.com",
     :port                 => 587,
-    :domain               => 'rhs-staging.herokuapp.com',
+    :domain               => 'rhs-alpha.herokuapp.com',
     :user_name            => 'test@xtremelabs.com',
     :password             => 'xtremelabs1',
     :authentication       => :login,
