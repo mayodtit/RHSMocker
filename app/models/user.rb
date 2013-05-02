@@ -66,7 +66,7 @@ class User < ActiveRecord::Base
   validates :feature_bucket, :inclusion => { :in => %w(none message_only call_only message_call),
     :message => "%{value} is not a valid value for feature_bucket" }, :allow_nil => true
 
-  validates_length_of :phone, :in => 7..11, :allow_blank => true
+  validates_length_of :phone, :in => 7..17, :allow_blank => true
 
   validates_length_of :password, :minimum => 8, :message => "must be at least 8 characters long", :if => :password
   validates_confirmation_of :password, :message => "should match confirmation", :if => :password
