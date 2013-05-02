@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130501175618) do
+ActiveRecord::Schema.define(:version => 20130502212924) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -138,6 +138,7 @@ ActiveRecord::Schema.define(:version => 20130501175618) do
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "order"
   end
 
   create_table "diseases", :force => true do |t|
@@ -168,8 +169,10 @@ ActiveRecord::Schema.define(:version => 20130501175618) do
 
   create_table "ethnic_groups", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+    t.string   "ethnicity_code"
+    t.integer  "order"
   end
 
   create_table "factor_groups", :force => true do |t|
