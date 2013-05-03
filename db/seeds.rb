@@ -68,3 +68,27 @@ Diet.find_or_create_by_name(:name=>"Kosher", :order=>7)
 Diet.find_or_create_by_name(:name=>"Halal", :order=>8)
 Diet.find_or_create_by_name(:name=>"Organic", :order=>9)
 
+AssociationType.find_or_create_by_name(:name=>"Sister", :relationship_type=>"family")
+AssociationType.find_or_create_by_name(:name=>"Brother", :relationship_type=>"family")
+AssociationType.find_or_create_by_name(:name=>"Mother", :relationship_type=>"family")
+AssociationType.find_or_create_by_name(:name=>"Father", :relationship_type=>"family")
+AssociationType.find_or_create_by_name(:name=>"Grandfather", :relationship_type=>"family")
+AssociationType.find_or_create_by_name(:name=>"Grandmother", :relationship_type=>"family")
+AssociationType.find_or_create_by_name(:name=>"Cousin", :relationship_type=>"family")
+AssociationType.find_or_create_by_name(:name=>"Son", :relationship_type=>"family")
+AssociationType.find_or_create_by_name(:name=>"Daughter", :relationship_type=>"family")
+AssociationType.find_or_create_by_name(:name=>"Uncle", :relationship_type=>"family")
+AssociationType.find_or_create_by_name(:name=>"Aunt", :relationship_type=>"family")
+
+AssociationType.find_or_create_by_name(:name=>"Primary Physician", :relationship_type=>"hcp")
+AssociationType.find_or_create_by_name(:name=>"Nurse", :relationship_type=>"hcp")
+AssociationType.find_or_create_by_name(:name=>"Executive Health Physician", :relationship_type=>"hcp")
+AssociationType.find_or_create_by_name(:name=>"Pediatrician", :relationship_type=>"hcp")
+AssociationType.find_or_create_by_name(:name=>"Pharmacist", :relationship_type=>"hcp")
+AssociationType.find_or_create_by_name(:name=>"Lifestyle Coach", :relationship_type=>"hcp")
+AssociationType.find_or_create_by_name(:name=>"Nutritionist", :relationship_type=>"hcp")
+
+
+
+
+

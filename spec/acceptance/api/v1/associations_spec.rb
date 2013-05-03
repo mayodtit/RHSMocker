@@ -11,13 +11,14 @@ resource "Associations" do
     @user2 = FactoryGirl.create(:user_with_email)
 
     associate = FactoryGirl.create(:associate)
-    @association = FactoryGirl.create(:association, :user=>@user, :associate=>associate)
+    @association_type = FactoryGirl.create(:association_type)
+    @association = FactoryGirl.create(:association, :user=>@user, :associate=>associate, :association_type=>@association_type)
 
     associate2 = FactoryGirl.create(:associate)
-    @association2 = FactoryGirl.create(:association, :user=>@user2, :associate=>associate2)
+    @association2 = FactoryGirl.create(:association, :user=>@user2, :associate=>associate2, :association_type=>@association_type)
 
     associate3 = FactoryGirl.create(:associate)
-    @association3 = FactoryGirl.create(:association, :user=>@user, :associate=>associate3)
+    @association3 = FactoryGirl.create(:association, :user=>@user, :associate=>associate3, :association_type=>@association_type)
   end
 
 
@@ -38,18 +39,16 @@ resource "Associations" do
   describe 'create an association' do
     parameter :auth_token,      "User's auth token"
     parameter :association,     "Contains the associate parameter"
-    parameter :relation,        "The relation of the associate (sister, doctor)"
-    parameter :relation_type,   "The type of relation of the associate (family or hcp)"
+    parameter :association_type_id,        "The id of the association type. The relation of the associate (sister, doctor)"
     parameter :associate,       "Attributes of the associate"
 
-    scope_parameters :association, [:associate, :relation, :relation_type]
-    required_parameters :auth_token, :association, :relation, :relation_type
+    scope_parameters :association, [:associate, :association_type_id]
+    required_parameters :auth_token, :association, :association_type_id
 
 
     post '/api/v1/associations' do
       let(:auth_token)   { @user.auth_token }
-      let(:relation)      { "sister" }
-      let(:relation_type) { "family" }
+      let(:association_type_id)      { @association_type.id }
       let(:associate)    { nil }
       let(:raw_post)     { params.to_json }  # JSON format request body
 
@@ -59,29 +58,29 @@ resource "Associations" do
         JSON.parse(response_body)['association'].should be_a Hash
       end
     end
+    post '/api/v1/associations' do
+      let(:auth_token)   { @user.auth_token }
+      let(:association_type_id)      { "343" }
+      let(:associate)    { nil }
+      let(:raw_post)     { params.to_json }  # JSON format request body
+
+      example_request "[POST] Create an association b (404)" do
+        explanation "Create an association between the user and the specified associate. Invalid association_type_id."
+        status.should == 404
+        JSON.parse(response_body)['reason'].should_not be_empty
+      end
+    end
 
     post '/api/v1/associations' do
       let(:auth_token)   { @user.auth_token }
       let(:raw_post)     { params.to_json }  # JSON format request body
 
-      example_request "[POST] Create an association b (412)" do
+      example_request "[POST] Create an association c (412)" do
         explanation "Create an association between the user and the specified associate"
         status.should == 412
       end
     end
 
-    post '/api/v1/associations' do
-      let(:auth_token)   { @user.auth_token }
-      let(:relation)      { "sister" }
-      let(:relation_type) { "someone" }
-      let(:associate)    { nil }
-      let(:raw_post)     { params.to_json }  # JSON format request body
-
-      example_request "[POST] Create an association c (412)" do
-        explanation "Create an association between the user and the specified associate. Fails because 'someone' is not a valid relation_type"
-        status.should == 412
-      end
-    end
   end
 
 
@@ -89,18 +88,16 @@ resource "Associations" do
     parameter :auth_token,      "User's auth token"
     parameter :association,     "Contains the association's attributes"
     parameter :id,              "Association ID"
-    parameter :relation,        "The relation of the associate (sister, doctor)"
-    parameter :relation_type,   "The type of relation of the associate (family or hcp)"
+    parameter :association_type_id,        "The id of the association type. The relation of the associate (sister, doctor)"
     
-    scope_parameters :association, [:id, :relation, :relation_type]
+    scope_parameters :association, [:id, :association_type_id]
     required_parameters :auth_token, :association, :id
 
 
     put '/api/v1/associations' do
       let(:auth_token)   { @user.auth_token }
       let(:id)            { @association.id }
-      let(:relation)      { "grandmother" }
-      let(:relation_type) { "family" }
+      let(:association_type_id)      { @association_type.id }
       let(:raw_post)     { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update an association" do
@@ -113,8 +110,7 @@ resource "Associations" do
     put '/api/v1/associations' do
       let(:auth_token)   { @user.auth_token }
       let(:id)            { 1234 }
-      let(:relation)      { "grandmother" }
-      let(:relation_type) { "family" }
+      let(:association_type_id)      { @association_type.id }
       let(:raw_post)     { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update an association b (404)" do
@@ -127,8 +123,7 @@ resource "Associations" do
     put '/api/v1/associations' do
       let(:auth_token)   { @user.auth_token }
       let(:id)            { @association2.id }
-      let(:relation)      { "grandmother" }
-      let(:relation_type) { "family" }
+      let(:association_type_id)      { @association_type.id }
       let(:raw_post)     { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update an association c (401)" do
@@ -141,13 +136,12 @@ resource "Associations" do
     put '/api/v1/associations' do
       let(:auth_token)   { @user.auth_token }
       let(:id)            { @association.id }
-      let(:relation)      { "not_a_valid_value" }
-      let(:relation_type) { "family" }
+      let(:association_type_id)      { "43" }
       let(:raw_post)     { params.to_json }  # JSON format request body
 
-      example_request "[PUT] Update an association d (422)" do
-        explanation "Update an association between the user and the specified associate (by ID)"
-        status.should == 422
+      example_request "[PUT] Update an association d (404)" do
+        explanation "Update an association between the user and the specified associate (by ID). Invalid association_type_id."
+        status.should == 404
         JSON.parse(response_body)['reason'].should_not be_empty
       end
     end

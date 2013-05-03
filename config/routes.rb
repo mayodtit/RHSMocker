@@ -42,6 +42,7 @@ RHSMocker::Application.routes.draw do
       post "associations" => "associations#create", :as=>"associations_create"
       put "associations" => "associations#update", :as=>"associations_update"
       delete "associations" => "associations#remove", :as=>"associations_remove"
+      get "association_types" =>"association_types#list"
 
 
       #reading list

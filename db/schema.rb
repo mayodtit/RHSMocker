@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130502212924) do
+ActiveRecord::Schema.define(:version => 20130503222307) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -38,13 +38,19 @@ ActiveRecord::Schema.define(:version => 20130502212924) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "association_types", :force => true do |t|
+    t.string   "name"
+    t.string   "relationship_type"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
+
   create_table "associations", :force => true do |t|
     t.integer  "user_id"
     t.integer  "associate_id"
-    t.string   "relation_type"
-    t.string   "relation"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+    t.integer  "association_type_id"
   end
 
   add_index "associations", ["user_id"], :name => "index_associations_on_user_id"
