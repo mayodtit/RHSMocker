@@ -20,6 +20,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
     if user.save
       auto_login(user)
       user.login
+      UserMailer.welcome_email(user).deliver unless user.email.blank?
       render_success( {auth_token:user.auth_token, user:user} )
     else
       render_failure( {reason:user.errors.full_messages.to_sentence}, 422 )

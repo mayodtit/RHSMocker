@@ -81,6 +81,14 @@ git push [remote for alpha] alpha:master
 ```
 
 
+####Email
+Using [Sendgrid](http://sendgrid.com/) for sending out emails.
+
+> TODOs
+* make sending emails asychronous. Use one of the [delayed_job](https://github.com/collectiveidea/delayed_job), [resque](https://github.com/resque/resque), [sidekiq](http://sidekiq.org/) type of utilities
+* get a [litmus](http://litmus.com/) account. It will literally save lives.
+
+
 
 
 

@@ -71,12 +71,12 @@ RHSMocker::Application.configure do
   config.action_mailer.default_url_options = { :host => 'rhs-alpha.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    :address              => "smtp.gmail.com",
+    :address              => "smtp.sendgrid.net",
     :port                 => 587,
     :domain               => 'rhs-alpha.herokuapp.com',
-    :user_name            => 'test@xtremelabs.com',
-    :password             => 'xtremelabs1',
-    :authentication       => :login,
+    :user_name            => 'better_eng',
+    :password             => 'better120!',
+    :authentication       => :plain,
     :enable_starttls_auto => true
   }
 
