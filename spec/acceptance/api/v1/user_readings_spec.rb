@@ -144,7 +144,7 @@ resource "UserReadings" do
     end
   end
 
-  post '/api/v1/contents/read_later' do
+  post '/api/v1/contents/save' do
     parameter :auth_token,  "User's auth token"
     parameter :contents,    "Array of content IDs"
     parameter :id,          "Content ID"

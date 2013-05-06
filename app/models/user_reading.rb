@@ -5,7 +5,7 @@ class UserReading < ActiveRecord::Base
   belongs_to :user
 
   scope :unread,  :conditions => { :read_date => nil, :dismiss_date => nil, :save_date=>nil, :view_date => nil } 
-  scope :saved, :conditios => "(save_date is not null) and (dismiss_date is null)"
+  scope :saved, :conditions => "(save_date is not null) and (dismiss_date is null)"
   scope :not_dismissed, :conditions => {:dismiss_date => nil} 
   scope :for_timeline, :conditions => {:view_date => nil}
 

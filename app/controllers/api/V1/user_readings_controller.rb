@@ -47,8 +47,8 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   end
 
   def save
-    status :read_later_date, 'readLater' do |user_reading|
-      UserReading.increment_counter(:read_later_count, user_reading.id)
+    status :save_date, 'saved' do |user_reading|
+      UserReading.increment_counter(:save_count, user_reading.id)
     end
   end
 
@@ -85,8 +85,8 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
     current_user.user_readings.each do |reading|
       reading.read_date     = nil
       reading.dismiss_date  = nil
-      reading.read_later_count = 0
-      reading.read_later_date = nil
+      reading.save_count = 0
+      reading.save_date = nil
       reading.save!
     end
     render_success
