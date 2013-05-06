@@ -300,6 +300,10 @@ ActiveRecord::Schema.define(:version => 20130505031930) do
     t.datetime "updated_at",         :null => false
   end
 
+  add_index "symptoms_factors", ["factor_group_id"], :name => "index_symptoms_factors_on_factor_group_id"
+  add_index "symptoms_factors", ["factor_id"], :name => "index_symptoms_factors_on_factor_id"
+  add_index "symptoms_factors", ["symptom_id"], :name => "index_symptoms_factors_on_symptom_id"
+
   create_table "treatments", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false

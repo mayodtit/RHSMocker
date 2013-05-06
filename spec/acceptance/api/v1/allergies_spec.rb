@@ -7,6 +7,8 @@ resource "Allergies" do
 
   before(:all) do
     @allergy = FactoryGirl.create(:allergy, :name=>"dust")
+    FactoryGirl.create(:allergy)
+    FactoryGirl.create(:allergy)
   end
 
 
@@ -18,6 +20,16 @@ resource "Allergies" do
 
     example_request "[GET] Search allergies with query string" do
       explanation "Returns an array of allergies retrieved by Solr"
+
+      status.should == 200
+      JSON.parse(response_body).should_not be_empty
+    end
+  end
+
+   get '/api/v1/allergies' do
+
+    example_request "[GET] Get all allergies" do
+      explanation "Returns an array of allergies"
 
       status.should == 200
       JSON.parse(response_body).should_not be_empty
