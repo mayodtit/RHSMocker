@@ -54,7 +54,7 @@ git push [remote for alpha] alpha:master
 ```
 
 ##Data Models
-![](diagram.jpg)
+![](diagram.png)
 
 
 ##Notes
