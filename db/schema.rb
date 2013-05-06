@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130503222307) do
+ActiveRecord::Schema.define(:version => 20130505020627) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -363,10 +363,10 @@ ActiveRecord::Schema.define(:version => 20130503222307) do
     t.datetime "read_date"
     t.integer  "user_id"
     t.integer  "content_id"
-    t.datetime "created_at",                      :null => false
-    t.datetime "updated_at",                      :null => false
-    t.datetime "read_later_date"
-    t.integer  "read_later_count", :default => 0
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
+    t.datetime "save_date"
+    t.integer  "save_count",    :default => 0
     t.datetime "dismiss_date"
     t.datetime "view_date"
     t.integer  "share_counter"

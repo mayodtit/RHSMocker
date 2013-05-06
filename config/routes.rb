@@ -50,7 +50,7 @@ RHSMocker::Application.routes.draw do
       get "inbox(/:page)(/:per_page)" => "user_readings#inbox", :as=>"inbox"
       post "contents/mark_read" => "user_readings#mark_read", :as=>"contents_mark_read"
       post "contents/dismiss" => "user_readings#dismiss", :as=>"contents_dismiss"
-      post "contents/read_later" => "user_readings#read_later", :as=>"contents_read_later"
+      post "contents/save" => "user_readings#save", :as=>"contents_read_later"
       post "contents/reset" => "user_readings#reset", :as=>"contents_reset"
 
 

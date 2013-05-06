@@ -17,7 +17,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
 
     read = current_user.message_statuses.read.map { |message_status|
       render_message_into_common_format(message_status)
-    } | current_user.user_readings.read.not_dismissed
+    } | current_user.user_readings.saved
 
     unread.sort_by!{|obj| obj[:created_at]}
     read.sort_by!{|obj| obj[:created_at]}
@@ -46,7 +46,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
     status :dismiss_date, 'dismissed'
   end
 
-  def read_later
+  def save
     status :read_later_date, 'readLater' do |user_reading|
       UserReading.increment_counter(:read_later_count, user_reading.id)
     end
