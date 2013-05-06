@@ -4,7 +4,6 @@ require 'nokogiri'
 namespace :admin do
 
 	task :import_content=> :environment do
-
 		Dir.glob('./db/mayo_content/*.xml') do | answerFile |
 
 			print "."
@@ -46,6 +45,7 @@ namespace :admin do
 
 				@content = Content.new()
 
+				@content.id = doc_id
 				@content.title 		= CGI.unescapeHTML(title_text.gsub(/\n/,"").gsub(/\t/,"")) 		if !title_text.nil?
 				@content.abstract 	= abstract_text.gsub(/\n/,"").gsub(/\t/,"") 	if !abstract_text.nil?
 				@content.question 	= question_text.gsub(/\n/,"").gsub(/\t/,"") 	if !question_text.nil?
@@ -78,8 +78,69 @@ namespace :admin do
 						#ContentVocabulary.create(mayo_vocabulary:@mayoVocab, content:@content)
 					end
 
+				end
 			end
 		end
 	end
-end
+
+
+
+	task :import_content_ids=> :environment do
+
+		Dir.glob('./db/mayo_content/*.xml') do | answerFile |
+
+			print "."
+			#puts "Found File: #{answerFile}"
+			answer = Nokogiri::XML(open(answerFile))
+
+
+			type_search		= answer.search('Meta ContentType')
+			type_text	  	= type_search.first.text 		if !type_search.empty?
+
+			#TODO: would much prefer to do this as an "in" clause. This is lazycode
+			#TODO: type_text could be null here. Add safe check
+			type_text = type_text.gsub(/\n/,"").gsub(/\t/,"") 
+
+			if type_text.casecmp("answer") == 0 || type_text.casecmp("disease") == 0 || type_text.casecmp("article") == 0 || type_text.casecmp("firstaid") == 0 || type_text.casecmp("healthtip") == 0 || type_text.casecmp("TestProcedure") == 0
+
+				title_search 	= answer.search('Title')
+				doc_id_search = answer.search('DocID')
+
+				title_text 	  = title_search.first.text 	if !title_search.empty?
+				doc_id	   	  = doc_id_search.first.text.strip    if !doc_id_search.empty?
+
+
+				@content = Content.find_by_title title_text.gsub(/\n/,"").gsub(/\t/,"")
+				@content.mayo_doc_id = doc_id if !doc_id.nil?
+				@content.save!
+			end
+		end
+	end
+
+
+
+
+
+	task :migrate_content_ids => :environment do
+
+		UserReading.all.each do |ur|
+			ur.update_attribute :content_id, ur.content.mayo_doc_id if ur.content && ur.content.mayo_doc_id
+		end
+
+		Message.all.each do |message|
+			message.update_attribute :content_id, message.content.mayo_doc_id if message.content && message.content.mayo_doc_id
+		end
+
+		ContentsMayoVocabulary.all.each do |cmv|
+			cmv.update_attribute :content_id, cmv.content.mayo_doc_id if cmv.content && cmv.content.mayo_doc_id
+		end
+
+		ContentsSymptomsFactors.all.each do |csf|
+			csf.update_attribute :content_id, csf.content.mayo_doc_id if csf.content && csf.content.mayo_doc_id
+		end
+
+		AuthorsContent.all.each do |ac| 
+     	ac.update_attribute :content_id, ac.content.mayo_doc_id if ac.content && ac.content.mayo_doc_id
+    end
+	end
 end

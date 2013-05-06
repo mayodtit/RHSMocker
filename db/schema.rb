@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130506192917) do
+ActiveRecord::Schema.define(:version => 20130506205417) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -79,7 +79,7 @@ ActiveRecord::Schema.define(:version => 20130506192917) do
 
   create_table "authors_contents", :force => true do |t|
     t.integer  "author_id"
-    t.integer  "content_id"
+    t.string   "content_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -104,7 +104,8 @@ ActiveRecord::Schema.define(:version => 20130506192917) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "contents", :force => true do |t|
+  create_table "contents", :id => false, :force => true do |t|
+    t.string   "id"
     t.string   "title"
     t.text     "body"
     t.datetime "created_at",   :null => false
@@ -120,7 +121,7 @@ ActiveRecord::Schema.define(:version => 20130506192917) do
   add_index "contents", ["mayo_doc_id"], :name => "index_contents_on_mayo_doc_id"
 
   create_table "contents_mayo_vocabularies", :force => true do |t|
-    t.integer  "content_id"
+    t.string   "content_id"
     t.integer  "mayo_vocabulary_id"
     t.datetime "created_at",         :null => false
     t.datetime "updated_at",         :null => false
@@ -137,7 +138,7 @@ ActiveRecord::Schema.define(:version => 20130506192917) do
   add_index "contents_symptoms", ["symptom_id"], :name => "index_contents_symptoms_on_symptom_id"
 
   create_table "contents_symptoms_factors", :force => true do |t|
-    t.integer  "content_id"
+    t.string   "content_id"
     t.integer  "symptoms_factor_id"
     t.datetime "created_at",         :null => false
     t.datetime "updated_at",         :null => false
@@ -254,7 +255,7 @@ ActiveRecord::Schema.define(:version => 20130506192917) do
     t.datetime "updated_at",       :null => false
     t.integer  "user_location_id"
     t.integer  "encounter_id"
-    t.integer  "content_id"
+    t.string   "content_id"
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
@@ -368,7 +369,7 @@ ActiveRecord::Schema.define(:version => 20130506192917) do
   create_table "user_readings", :force => true do |t|
     t.datetime "read_date"
     t.integer  "user_id"
-    t.integer  "content_id"
+    t.string   "content_id"
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
     t.datetime "save_date"
