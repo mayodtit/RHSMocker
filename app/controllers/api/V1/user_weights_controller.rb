@@ -1,6 +1,6 @@
 class Api::V1::UserWeightsController < Api::V1::ABaseController
   def create
-    user_weight = UserWeight.create(weight:params[:weight], user:current_user)
+    user_weight = UserWeight.create(weight:params[:weight], taken_at:params[:taken_at], user:current_user)
     
     if user_weight.errors.empty?
       render_success user_weight:user_weight

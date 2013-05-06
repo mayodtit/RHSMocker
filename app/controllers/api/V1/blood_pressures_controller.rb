@@ -3,7 +3,7 @@ class Api::V1::BloodPressuresController < Api::V1::ABaseController
     collection_type_id = params[:collection_type_id]
     collection_type_id ||= CollectionType.find_or_create_by_name("self-reported").id
 
-    blood_pressure = BloodPressure.create(collection_type_id:collection_type_id, diastolic:params[:diastolic], systolic:params[:systolic], pulse:params[:pulse], user:current_user)
+    blood_pressure = BloodPressure.create(collection_type_id:collection_type_id, diastolic:params[:diastolic], systolic:params[:systolic], pulse:params[:pulse], taken_at:params[:taken_at], user:current_user)
     if blood_pressure.errors.empty?
       render_success blood_pressure:blood_pressure
     else

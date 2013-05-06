@@ -30,12 +30,14 @@ resource "UserWeights" do
   describe 'create user_weight' do
     parameter :auth_token,    "User's auth token"
     parameter :weight,        "User's weight (kg)"
+    parameter :taken_at,         "DateTime of when the reading was taken"
 
     required_parameters :auth_token, :weight
 
     post '/api/v1/weights' do
       let (:auth_token) { @user.auth_token }
       let (:weight)     { 90 }
+      let (:taken_at)      { DateTime.now-20.minutes }
       let (:raw_post)   { params.to_json }  # JSON format request body
 
       example_request "[POST] Set user's weight" do

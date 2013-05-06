@@ -1,7 +1,7 @@
 class BloodPressure < ActiveRecord::Base
   belongs_to :user
   belongs_to :collection_type
-  attr_accessible :diastolic, :pulse, :systolic, :user, :collection_type_id
+  attr_accessible :diastolic, :pulse, :systolic, :user, :collection_type_id, :taken_at
 
   validates :diastolic, :presence=>true
   validates :systolic, :presence=>true
@@ -18,7 +18,8 @@ class BloodPressure < ActiveRecord::Base
   		systolic:systolic,
   		pulse:pulse,
       mean_arterial_pressure:mean_arterial_pressure,
-  		collection_type_id:collection_type_id
+  		collection_type_id:collection_type_id,
+      taken_at:taken_at
   	}
   end
 

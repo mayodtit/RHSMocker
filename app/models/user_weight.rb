@@ -1,5 +1,5 @@
 class UserWeight < ActiveRecord::Base
-  attr_accessible :user, :weight, :bmi
+  attr_accessible :user, :weight, :bmi, :taken_at
 
   belongs_to :user
 

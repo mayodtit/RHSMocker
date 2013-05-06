@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130505031930) do
+ActiveRecord::Schema.define(:version => 20130506192917) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -92,6 +92,7 @@ ActiveRecord::Schema.define(:version => 20130505031930) do
     t.integer  "user_id"
     t.datetime "created_at",         :null => false
     t.datetime "updated_at",         :null => false
+    t.datetime "taken_at"
   end
 
   add_index "blood_pressures", ["collection_type_id"], :name => "index_blood_pressures_on_collection_type_id"
@@ -383,6 +384,7 @@ ActiveRecord::Schema.define(:version => 20130505031930) do
     t.decimal  "bmi",        :precision => 5, :scale => 2, :default => 0.0
     t.datetime "created_at",                                                :null => false
     t.datetime "updated_at",                                                :null => false
+    t.datetime "taken_at"
   end
 
   create_table "users", :force => true do |t|

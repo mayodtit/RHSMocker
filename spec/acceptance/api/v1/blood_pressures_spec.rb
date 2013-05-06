@@ -34,6 +34,7 @@ resource "BloodPressures" do
     parameter :diastolic,     "User's diastolic pressure"
     parameter :systolic,      "User's systolic pressure"
     parameter :pulse,         "User's pulse"
+    parameter :taken_at,         "DateTime of when the reading was taken"
     parameter :collection_type_id,         "collection_type_id optional (will make it 'self-reported' by defaults)"
 
     required_parameters :auth_token, :diastolic, :systolic
@@ -44,6 +45,7 @@ resource "BloodPressures" do
       let (:diastolic)  { 90 }
       let (:systolic)   { 91 }
       let (:pulse)      { 92 }
+      let (:taken_at)      { DateTime.now-20.minutes }
       let (:collection_type_id)      { 1 }
       let (:raw_post)   { params.to_json }  # JSON format request body
 
