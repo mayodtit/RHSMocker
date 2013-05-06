@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130505020627) do
+ActiveRecord::Schema.define(:version => 20130505031930) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -34,8 +34,13 @@ ActiveRecord::Schema.define(:version => 20130505020627) do
 
   create_table "allergies", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+    t.string   "snomed_name"
+    t.string   "snomed_code"
+    t.boolean  "food_allergen"
+    t.boolean  "environment_allergen"
+    t.boolean  "medication_allergen"
   end
 
   create_table "association_types", :force => true do |t|
@@ -294,10 +299,6 @@ ActiveRecord::Schema.define(:version => 20130505020627) do
     t.datetime "created_at",         :null => false
     t.datetime "updated_at",         :null => false
   end
-
-  add_index "symptoms_factors", ["factor_group_id"], :name => "index_symptoms_factors_on_factor_group_id"
-  add_index "symptoms_factors", ["factor_id"], :name => "index_symptoms_factors_on_factor_id"
-  add_index "symptoms_factors", ["symptom_id"], :name => "index_symptoms_factors_on_symptom_id"
 
   create_table "treatments", :force => true do |t|
     t.string   "name"
