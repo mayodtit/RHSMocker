@@ -18,6 +18,9 @@ resource "UserAllergies" do
 
     allergy2 = FactoryGirl.create(:allergy)
     @user_allergy2 = FactoryGirl.create(:user_allergy, :user=>@user, :allergy=>allergy2)
+
+    @associate = FactoryGirl.create(:associate)
+    @association = FactoryGirl.create(:association, :user=>@user, :associate=>@associate)
   end
 
 
@@ -75,6 +78,44 @@ resource "UserAllergies" do
       end
     end
   end
+
+
+  describe 'create user_allergies for an associate' do
+    parameter :auth_token,    "User's auth token"
+    parameter :allergy_id,  "Allergy ID"  
+    parameter :user_id,    "ID of the associate you want to add a allergy to"
+    
+    required_parameters :auth_token, :allergy_id, :user_id
+
+    post '/api/v1/user_allergies' do
+      let(:auth_token)    { @user.auth_token }
+      let(:allergy_id)    { @allergy.id }
+      let(:user_id)       { @associate.id }
+      let(:raw_post)      { params.to_json }  # JSON format request body
+
+      example_request "[POST] Add a allergy for an associate" do
+        explanation "Returns the created user allergy object"
+        status.should == 200
+        JSON.parse(response_body)['user_allergy'].should be_a Hash
+      end
+    end
+
+    post '/api/v1/user_allergies' do
+      let(:auth_token)    { @user2.auth_token }
+      let(:allergy_id)    { @allergy.id }
+      let(:user_id)       { @associate.id }
+      let(:raw_post)      { params.to_json }  # JSON format request body
+
+      example_request "[POST] Add a allergy for an associate c (401)" do
+        explanation "Returns the created user allergy object"
+        puts response_body
+        status.should == 401
+        JSON.parse(response_body)['reason'].should_not be_empty
+      end
+    end
+  end
+
+
 
 
   describe 'remove allergy' do

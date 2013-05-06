@@ -44,7 +44,7 @@ class Api::V1::UserDiseasesController < Api::V1::ABaseController
     return render_failure({reason:"UserDisease id not supplied"}, 412) unless params[:user_disease][:id].present?
     user_disease = UserDisease.find_by_id params[:user_disease][:id]
     return render_failure({reason:"UserDisease with id #{params[:user_disease][:id]} is not found"}, 404) unless user_disease
-    if user_disease.user_id!=current_user.id && !current_user.allowed_to_edit_user?(user_disease.user_id) && !current_user.admin?
+    if user_disease.user_id!=current_user.id && !current_user.allowed_to_edit_user?(user_disease.user_id) && !current_user.hcp?
       return render_failure({reason:"Permission denied to edit user_disease with id #{params[:user_disease][:id]}"})
     end
 

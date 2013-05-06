@@ -7,7 +7,7 @@ class UserAllergy < ActiveRecord::Base
   def as_json options=nil
     {
       :id=>id,
-      :name=>allergy.name
+      :allergy=>allergy
     }
   end
   

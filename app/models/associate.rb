@@ -9,7 +9,8 @@ class Associate < User
       :image_url=>image_url,
       :gender=>gender,
       :height=>height,
-      :diseases=>diseases
+      :user_diseases=>user_diseases,
+      :allergies=>allergies
     }
   end
 
