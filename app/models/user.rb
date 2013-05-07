@@ -92,6 +92,19 @@ class User < ActiveRecord::Base
     self.hcp? || self.feature_bucket == 'call_only' || self.feature_bucket == 'message_call'
   end
 
+  def merge user
+    user.user_readings.each do |ur|
+      logged_in_user_reading = UserReading.find_by_user_id_and_content_id id, ur.content_id
+      if logged_in_user_reading
+        logged_in_user_reading.merge(ur)
+        UserReading.destroy(ur.id)
+      else
+        ur.update_attribute :user_id, id
+      end
+    end
+    User.destroy(user.id)
+  end
+
 
   def as_json options=nil
     {

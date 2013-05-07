@@ -4,6 +4,11 @@ class Api::V1::SessionsController < Api::V1::ABaseController
   def create
     if params[:email] && params[:password]
       user = login(params[:email], params[:password])
+      if params[:auth_token] && params[:auth_token]!=user.auth_token
+        #merge user_readings
+        original_user = User.find_by_auth_token params[:auth_token]
+        user.merge(original_user) if original_user
+      end
     elsif params[:install_id]
       user = User.find_by_install_id(params[:install_id])
       if user.present?

@@ -21,4 +21,22 @@ class UserReading < ActiveRecord::Base
       share_url:content.share_url(id)
     }
   end
+
+  def merge user_reading
+    [:read_date, :dismiss_date, :save_date, :view_date].each do |field|
+      old_value = send(field)
+      new_value = user_reading.send(field)
+      if new_value
+        if old_value
+          if old_value < new_value
+            update_attribute field, new_value
+          end
+        else
+          update_attribute field, new_value
+        end
+      end
+    end
+    update_attribute :save_count, save_count+user_reading.save_count
+  end
+
 end
