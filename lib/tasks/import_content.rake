@@ -135,7 +135,7 @@ namespace :admin do
 			cmv.update_attribute :content_id, cmv.content.mayo_doc_id if cmv.content && cmv.content.mayo_doc_id
 		end
 
-		ContentsSymptomsFactors.all.each do |csf|
+		ContentsSymptomsFactor.all.each do |csf|
 			csf.update_attribute :content_id, csf.content.mayo_doc_id if csf.content && csf.content.mayo_doc_id
 		end
 
