@@ -36,7 +36,8 @@ class UserReading < ActiveRecord::Base
         end
       end
     end
-    update_attribute :save_count, save_count+user_reading.save_count
+    update_attribute :save_count, save_count.to_i+user_reading.save_count.to_i
+    update_attribute :share_counter, share_counter.to_i+user_reading.share_counter.to_i
   end
 
 end
