@@ -239,7 +239,6 @@ resource "Users" do
 
   describe 'update user' do
     parameter :auth_token,    "User's auth token"
-    parameter :email,       "Account email"
     parameter :feature_bucket, "The feature bucket that the user is in (none, message_only, call_only, message_call)"
     parameter :first_name,  "User's first name"
     parameter :last_name,   "User's last name"
@@ -254,11 +253,10 @@ resource "Users" do
     parameter :diet_id, "User's diet id"
     parameter :blood_type, "User's blood type"
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
-    scope_parameters :user, [:email, :first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in]
+    scope_parameters :user, [:first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in]
     required_parameters :auth_token
 
     put '/api/v1/user' do
-      let (:email)          { "tst111@test.com" }
       let (:first_name)     { "Bob" }
       let (:last_name)      { "Smith" }
       let (:image_url)      { "http://placekitten.com/90/90" }
