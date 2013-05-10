@@ -29,6 +29,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
 
   def update
     params[:user].delete :password
+    params[:user].delete :email
 
     if params[:id].present?
       if current_user.allowed_to_edit_user? params[:id].to_i
