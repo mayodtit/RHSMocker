@@ -45,7 +45,6 @@ namespace :admin do
 
 				@content = Content.new()
 
-				@content.id = doc_id
 				@content.title 		= CGI.unescapeHTML(title_text.gsub(/\n/,"").gsub(/\t/,"")) 		if !title_text.nil?
 				@content.abstract 	= abstract_text.gsub(/\n/,"").gsub(/\t/,"") 	if !abstract_text.nil?
 				@content.question 	= question_text.gsub(/\n/,"").gsub(/\t/,"") 	if !question_text.nil?

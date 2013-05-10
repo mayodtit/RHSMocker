@@ -1,5 +1,4 @@
 class Content < ActiveRecord::Base
-  self.primary_key = 'id'
 
 	attr_accessible :title, :body, :contentsType, :abstract, :question, :keywords, :updateDate, :mayo_doc_id
 
