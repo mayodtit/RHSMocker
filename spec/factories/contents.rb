@@ -1,7 +1,6 @@
 FactoryGirl.define do
 
   factory :content do
-    sequence(:id)   {|n| "#{n}"}
     sequence(:title){|n| "Content Title #{n}"}
     body            {'This is the HTML formatted body of the content.'}
     contentsType    {'Answer'}
