@@ -1,5 +1,4 @@
-class Api::V1::AssociatesController < Api::V1::UsersController
-  before_filter :authentication_check
+class Api::V1::AssociatesController < Api::V1::ABaseController
 
   def update
     params[:associate].delete :password
