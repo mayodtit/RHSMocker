@@ -80,6 +80,12 @@ git push [remote for alpha] alpha:master
     </fieldType>
 ```
 
+To reindex
+
+```
+heroku rake sunspot:reindex --app rhs-staging
+```
+
 
 ####Email
 Using [Sendgrid](http://sendgrid.com/) for sending out emails.
