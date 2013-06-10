@@ -50,8 +50,25 @@ resource "Associations" do
     parameter :association,     "Contains the associate parameter"
     parameter :association_type_id,        "The id of the association type. The relation of the associate (sister, doctor)"
     parameter :associate,       "Attributes of the associate"
+    parameter :first_name, "First name of the associate"
+    parameter :last_name, "Last name of the associate"
+    parameter :email, "Email of the associate"
+    parameter :image_url,   "Associate's image URL"
+    parameter :gender,   "Associate's gender(male or female)"
+    parameter :height,   "Associate's height(in cm)"
+    parameter :birth_date,   "Associate's birth date"
+    parameter :phone,   "Associate's phone number"
+    parameter :generic_call_time,   "Associate's preferred call time (morning, afternoon, evening)"
+    parameter :feature_bucket,   "Associate's feature bucket (none message_only call_only message_call)"
+    parameter :ethnic_group_id, "Associate's ethnic group"
+    parameter :diet_id, "Associate's diet id"
+    parameter :blood_type, "Associate's blood type"
+    parameter :holds_phone_in, "The hand the associate holds the phone in (left, right)"
 
     scope_parameters :association, [:associate, :association_type_id]
+    scope_parameters :associate, [ :email, :feature_bucket, :first_name, :last_name, :image_url,\
+     :gender, :height, :birth_date, :phone, :generic_call_time, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in]  
+
     required_parameters :auth_token, :association, :association_type_id
 
 
@@ -67,6 +84,35 @@ resource "Associations" do
         JSON.parse(response_body)['association'].should be_a Hash
       end
     end
+
+    post '/api/v1/associations' do
+      let(:auth_token)   { @user.auth_token }
+      let(:association_type_id)      { @association_type.id }
+      let (:email)          { "tst@test.com" }
+      let (:password)       { "11111111" }
+      let (:feature_bucket) { "message_only" }
+      let (:first_name)     { "Bob" }
+      let (:last_name)      { "Smith" }
+      let (:image_url)      { "http://placekitten.com/90/90" }
+      let (:gender)      { "male" }
+      let (:height)      { 190 }
+      let (:birth_date)      { "1980-10-15" }
+      let (:phone)      { "4163442356" }
+      let (:generic_call_time)      { "morning" }
+      let (:ethnic_group_id)      { 1 }
+      let (:diet_id)      { 1 }
+      let (:blood_type)      { "B-positive" }
+      let (:holds_phone_in)      { "left" }
+      let(:raw_post)     { {"auth_token"=>params["auth_token"], "association"=>{"association_type_id"=>params["association"]["association_type_id"], "associate"=>params["associate"]}}.to_json }  # JSON format request body
+
+      example_request "[POST] Create an association full" do
+        explanation "Create an association between the user and the specified associate"
+        status.should == 200
+        JSON.parse(response_body)['association'].should be_a Hash
+      end
+    end
+
+
     post '/api/v1/associations' do
       let(:auth_token)   { @user.auth_token }
       let(:association_type_id)      { "343" }

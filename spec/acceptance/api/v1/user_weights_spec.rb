@@ -12,6 +12,10 @@ resource "UserWeights" do
     @user2.login
     @user_weight1 = FactoryGirl.create(:user_weight, :user=>@user)
     @user_weight2 = FactoryGirl.create(:user_weight, :user=>@user)
+
+    @associate = FactoryGirl.create(:associate)
+    @association = FactoryGirl.create(:association, :user=>@user, :associate=>@associate)
+
   end
 
   get 'api/v1/weights' do
@@ -59,7 +63,56 @@ resource "UserWeights" do
     end
   end
 
+  describe 'create user_weight for an associate' do
+    parameter :auth_token,    "User's auth token"
+    parameter :weight,        "User's weight (kg)"
+    parameter :taken_at,         "DateTime of when the reading was taken"
+    parameter :user_id,    "ID of the associate you want to add a user_weight to"
 
+    required_parameters :auth_token, :weight
+
+    post '/api/v1/weights' do
+      let (:auth_token) { @user.auth_token }
+      let (:weight)     { 90 }
+      let (:taken_at)      { DateTime.now-20.minutes }
+      let(:user_id)       { @associate.id }
+      let (:raw_post)   { params.to_json }  # JSON format request body
+
+      example_request "[POST] Set associate's weight" do
+        explanation "Set the associate's weight"
+        status.should == 200
+        JSON.parse(response_body).should_not be_empty
+      end
+    end
+
+    post '/api/v1/weights' do
+      let(:auth_token)    { @user.auth_token }
+      let (:weight)     { 90 }
+      let (:taken_at)      { DateTime.now-20.minutes }
+      let(:user_id)       { 234234 }
+      let (:raw_post)   { params.to_json }  # JSON format request body
+
+      example_request "[POST] Set associate's weight b (404)" do
+        explanation "Returns the created user disease object"
+        status.should == 404
+        JSON.parse(response_body)['reason'].should_not be_empty
+      end
+    end
+
+    post '/api/v1/weights' do
+      let(:auth_token)    { @user2.auth_token }
+      let (:weight)     { 90 }
+      let (:taken_at)      { DateTime.now-20.minutes }
+      let(:user_id)       { @user2.id }
+      let (:raw_post)   { params.to_json }  # JSON format request body
+
+      example_request "[[POST] Set associate's weight c (401)" do
+        explanation "Returns the created user disease object"
+        status.should == 401
+        JSON.parse(response_body)['reason'].should_not be_empty
+      end
+    end
+  end
 
 
   describe 'delete user_weights' do

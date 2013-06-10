@@ -12,6 +12,9 @@ resource "BloodPressures" do
     @user2.login
     @blood_pressure1 = FactoryGirl.create(:blood_pressure, :user=>@user)
     @blood_pressure2 = FactoryGirl.create(:blood_pressure, :user=>@user)
+
+    @associate = FactoryGirl.create(:associate)
+    @association = FactoryGirl.create(:association, :user=>@user, :associate=>@associate)
   end
 
 
@@ -65,6 +68,71 @@ resource "BloodPressures" do
       example_request "[POST] Set user's blood pressure b (412)" do
         explanation "Set the user's blood pressure"
         status.should == 412
+        JSON.parse(response_body)['reason'].should_not be_empty
+      end
+    end
+  end
+
+
+  describe 'create blood_pressure for associate' do
+    parameter :auth_token,    "User's auth token"
+    parameter :diastolic,     "User's diastolic pressure"
+    parameter :systolic,      "User's systolic pressure"
+    parameter :pulse,         "User's pulse"
+    parameter :taken_at,         "DateTime of when the reading was taken"
+    parameter :collection_type_id,         "collection_type_id optional (will make it 'self-reported' by defaults)"
+    parameter :user_id,    "ID of the associate you want to add a blood_pressure reading to"
+
+    required_parameters :auth_token, :diastolic, :systolic
+
+
+    post '/api/v1/blood_pressures' do
+      let (:auth_token) { @user.auth_token }
+      let (:diastolic)  { 90 }
+      let (:systolic)   { 91 }
+      let (:pulse)      { 92 }
+      let (:taken_at)      { DateTime.now-20.minutes }
+      let (:collection_type_id)      { 1 }
+      let(:user_id)       { @associate.id }
+      let (:raw_post)   { params.to_json }  # JSON format request body
+
+      example_request "[POST] Set associate's blood pressure" do
+        explanation "Set the associates's blood pressure"
+        status.should == 200
+        JSON.parse(response_body).should_not be_empty
+      end
+    end
+
+    post '/api/v1/blood_pressures' do
+      let (:auth_token) { @user.auth_token }
+      let (:diastolic)  { 90 }
+      let (:systolic)   { 91 }
+      let (:pulse)      { 92 }
+      let (:taken_at)      { DateTime.now-20.minutes }
+      let (:collection_type_id)      { 1 }
+      let(:user_id)       { 234234 }
+      let (:raw_post)   { params.to_json }  # JSON format request body
+
+      example_request "[POST] Set associate's blood pressure b (404)" do
+        explanation "Set the associate's blood pressure"
+        status.should == 404
+        JSON.parse(response_body)['reason'].should_not be_empty
+      end
+    end
+
+     post '/api/v1/blood_pressures' do
+      let (:auth_token) { @user.auth_token }
+      let (:diastolic)  { 90 }
+      let (:systolic)   { 91 }
+      let (:pulse)      { 92 }
+      let (:taken_at)      { DateTime.now-20.minutes }
+      let (:collection_type_id)      { 1 }
+      let(:user_id)       { @user2.id }
+      let (:raw_post)   { params.to_json }  # JSON format request body
+
+      example_request "[POST] Set associate's blood pressure b (401)" do
+        explanation "Set the associate's blood pressure"
+        status.should == 401
         JSON.parse(response_body)['reason'].should_not be_empty
       end
     end

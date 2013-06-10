@@ -70,7 +70,6 @@ resource "Users" do
     parameter :install_id,  "Unique install ID"
     parameter :email,       "Account email"
     parameter :password,    "Account password"
-    parameter :feature_bucket, "The feature bucket that the user is in (none, message_only, call_only, message_call)"
     parameter :first_name,  "User's first name"
     parameter :last_name,   "User's last name"
     parameter :image_url,   "User's image URL"
@@ -85,12 +84,12 @@ resource "Users" do
     parameter :blood_type, "User's blood type"
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
     scope_parameters :user, [:install_id, :email, :password, :feature_bucket, :first_name, :last_name, :image_url,\
-     :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in]
+     :gender, :height, :birth_date, :phone, :generic_call_time, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in]
     required_parameters :install_id, :email, :password
 
     post '/api/v1/signup' do
       let (:install_id)     { "1234" }
-      let (:email)          { "tst@test.com" }
+      let (:email)          { "tst11@test.com" }
       let (:password)       { "11111111" }
       let (:feature_bucket) { "message_only" }
       let (:first_name)     { "Bob" }

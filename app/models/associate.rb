@@ -1,17 +1,11 @@
 class Associate < User
   def as_json options=nil
-    {
-      :id=>id,
-      :first_name=>first_name,
-      :last_name=>last_name,
-      :birth_date=>birth_date,
-      :phone=>phone,
-      :image_url=>image_url,
-      :gender=>gender,
-      :height=>height,
+    super.merge({
       :user_diseases=>user_diseases,
-      :allergies=>allergies
-    }
+      :allergies=>allergies,
+      :weights=>user_weights,
+      :blood_pressures=>blood_pressures
+      })
   end
 
   def update_attributes params
