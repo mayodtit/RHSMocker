@@ -307,7 +307,6 @@ ActiveRecord::Schema.define(:version => 20130611193325) do
     t.string   "name"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
-    t.string   "type"
     t.string   "snomed_name"
     t.string   "snomed_code"
   end
