@@ -1,5 +1,5 @@
 class Treatment < ActiveRecord::Base
-  attr_accessible :name
+  attr_accessible :name, :type
   has_many :user_disease_treatments
   has_many :users, :through=> :user_disease_treatments
 
@@ -12,5 +12,9 @@ class Treatment < ActiveRecord::Base
       :id=>id,
       :name=>name
     }
+  end
+
+  def type_name
+    self.class.name.demodulize.underscore.downcase
   end
 end
