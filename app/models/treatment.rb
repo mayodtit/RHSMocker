@@ -5,6 +5,9 @@ class Treatment < ActiveRecord::Base
 
   searchable do
     text :name
+    string :type do
+      type_name
+    end
   end
 
   def as_json options=nil
