@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130510155356) do
+ActiveRecord::Schema.define(:version => 20130610230740) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -348,8 +348,10 @@ ActiveRecord::Schema.define(:version => 20130510155356) do
     t.date     "end_date"
     t.boolean  "being_treated"
     t.boolean  "diagnosed"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+    t.integer  "diagnoser_id"
+    t.datetime "diagnosed_date"
   end
 
   add_index "user_diseases", ["disease_id"], :name => "index_user_diseases_on_disease_id"

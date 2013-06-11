@@ -133,16 +133,18 @@ resource "UserDiseases" do
 
 
   describe 'update user_disease' do
-    parameter :auth_token,    "User's auth token"
-    parameter :user_disease,  "Contains the fields to be updated"
-    parameter :id,            "ID of the disease the user has; this is the user disease ID"
-    parameter :start_date,    "Start date of the disease"
-    parameter :end_date,      "End date of the disease"
-    parameter :being_treated, "Boolean; is the disease being treated?"
-    parameter :diagnosed,     "Boolean; was the disease diagnosed?"
-    
+    parameter :auth_token,     "User's auth token"
+    parameter :user_disease,   "Contains the fields to be updated"
+    parameter :id,             "ID of the disease the user has; this is the user disease ID"
+    parameter :start_date,     "Start date of the disease"
+    parameter :end_date,       "End date of the disease"
+    parameter :being_treated,  "Boolean; is the disease being treated?"
+    parameter :diagnosed,      "Boolean; was the disease diagnosed?"
+    parameter :diagnoser_id,   "ID of the user that made the diagnosis; required if diagnosed"
+    parameter :diagnosed_date, "ID of the user that made the diagnosis; required if diagnosed"
+
     required_parameters :auth_token, :user_disease, :id
-    scope_parameters :user_disease, [:id, :start_date, :end_date, :being_treated, :diagnosed]
+    scope_parameters :user_disease, [:id, :start_date, :end_date, :being_treated, :diagnosed, :diagnoser_id, :diagnosed_date]
 
     put '/api/v1/user_diseases' do
       let(:auth_token)    { @user.auth_token }
@@ -151,6 +153,8 @@ resource "UserDiseases" do
       let(:end_date)      { @user_disease.end_date + 1.day }
       let(:being_treated) { true }
       let(:diagnosed)     { true }
+      let(:diagnoser_id)  { create(:user).id }
+      let(:diagnosed_date){ @user_disease.start_date + 1.day }
       let(:raw_post)      { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update the user's disease" do
