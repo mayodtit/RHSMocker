@@ -10,6 +10,7 @@ class Treatment < ActiveRecord::Base
   def as_json options=nil
     {
       :id=>id,
+      :type=>type_name,
       :name=>name
     }
   end

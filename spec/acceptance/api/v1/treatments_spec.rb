@@ -5,19 +5,15 @@ resource "Treatments" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  before(:all) do
-    @treatment = FactoryGirl.create(:treatment)
-    
-    FactoryGirl.create(:treatment)
-    FactoryGirl.create(:treatment)
-  end
-
+  let!(:medicine) { create(:medicine_treatment) }
+  let!(:supplement) { create(:supplement_treatment) }
+  let!(:vaccine) { create(:vaccine_treatment) }
 
   get '/api/v1/treatments' do
-    parameter :q,         "Query string"
+    parameter :q, "Query string"
     required_parameters :q
 
-    let(:q)   { @treatment.name }
+    let(:q) { medicine.name }
 
     example_request "[GET] Search treatments with query string" do
       explanation "Returns an array of treatments retrieved by Solr, if any."
@@ -33,5 +29,4 @@ resource "Treatments" do
       JSON.parse(response_body).should_not be_empty
     end
   end
-
 end

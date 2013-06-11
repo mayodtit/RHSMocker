@@ -11,6 +11,17 @@ describe Treatment do
     end
   end
 
+  describe '#as_json' do
+    let(:treatment) { create(:medicine_treatment) }
+
+    it 'returns a hash of model attributes' do
+      json = treatment.as_json
+      json[:id].should == treatment.id
+      json[:type].should == treatment.type_name
+      json[:name].should == treatment.name
+    end
+  end
+
   describe '#type_name' do
     it 'returns the type as a string' do
       treatment.type_name.should == 'treatment'
