@@ -309,6 +309,7 @@ ActiveRecord::Schema.define(:version => 20130611193325) do
     t.datetime "updated_at",  :null => false
     t.string   "snomed_name"
     t.string   "snomed_code"
+    t.string   "type"
   end
 
   create_table "user_allergies", :force => true do |t|
