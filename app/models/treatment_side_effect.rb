@@ -10,4 +10,6 @@ class TreatmentSideEffect < ActiveRecord::Base
 
   validates :treatment, :presence => true
   validates :side_effect, :presence => true
+
+  delegate :name, :description, :to => :side_effect
 end
