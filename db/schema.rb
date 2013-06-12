@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130611194449) do
+ActiveRecord::Schema.define(:version => 20130612151451) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -283,6 +283,13 @@ ActiveRecord::Schema.define(:version => 20130611194449) do
 
   add_index "roles", ["name", "resource_type", "resource_id"], :name => "index_roles_on_name_and_resource_type_and_resource_id"
   add_index "roles", ["name"], :name => "index_roles_on_name"
+
+  create_table "side_effects", :force => true do |t|
+    t.string   "name",        :null => false
+    t.string   "description"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
 
   create_table "symptoms", :force => true do |t|
     t.string   "name"
