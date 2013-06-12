@@ -5,4 +5,9 @@ class SideEffect < ActiveRecord::Base
   attr_accessible :name, :description
 
   validates :name, :presence => true
+
+  def self.for_treatment(treatment)
+    treatment_id = treatment.try_method(:id) || treatment
+    joins(:treatment_side_effects).where(:treatment_side_effects => {:treatment_id => treatment_id})
+  end
 end
