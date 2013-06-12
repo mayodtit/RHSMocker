@@ -12,22 +12,13 @@ module Api
       end
 
       def render_success resp=Hash.new
-        json = {status:"success", user_message:""}.merge(resp)
-        json = JSON.pretty_generate(json) if testing_environment?
-        render :json => json
+        render :json=> {status:"success", user_message:""}.merge(resp)
       end
 
       def render_failure resp=Hash.new, status=401
-        json = {status:"failure", user_message:""}.merge(resp)
-        json = JSON.pretty_generate(json) if testing_environment?
-        render :json => json, :status => status
+        render :json=> {status:"failure", user_message:""}.merge(resp), :status=>status
       end
 
-      private
-
-      def testing_environment?
-        %w(development staging).include?(Rails.env)
-      end
     end
   end
 end
