@@ -12,4 +12,12 @@ class TreatmentSideEffect < ActiveRecord::Base
   validates :side_effect, :presence => true
 
   delegate :name, :description, :to => :side_effect
+
+  def as_json
+    {
+      id: id,
+      name: name,
+      description: description
+    }
+  end
 end

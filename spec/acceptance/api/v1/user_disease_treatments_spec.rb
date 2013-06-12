@@ -18,7 +18,7 @@ resource "UserDiseaseTreatments" do
     @user_disease2 = FactoryGirl.create(:user_disease, :user=>@user, :disease=>@disease2)
 
     treatment = FactoryGirl.create(:treatment)
-    @user_disease_treatment = FactoryGirl.create(:user_disease_treatment, :user=>@user, :treatment=>treatment, :user_disease=>@user_disease, :doctor_user_id=>@hcp.id)
+    @user_disease_treatment = FactoryGirl.create(:user_disease_treatment, :with_side_effect, :user=>@user, :treatment=>treatment, :user_disease=>@user_disease, :doctor_user_id=>@hcp.id)
     @user_disease_treatment2 = FactoryGirl.create(:user_disease_treatment, :user=>@user, :treatment=>treatment, :user_disease=>@user_disease, :doctor_user_id=>@hcp.id)
     
     @treatment = FactoryGirl.create(:treatment)

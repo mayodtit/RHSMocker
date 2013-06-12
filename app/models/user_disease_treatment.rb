@@ -12,6 +12,7 @@ class UserDiseaseTreatment < ActiveRecord::Base
                   :time_duration_unit
 
   def as_json options=nil
-    super.merge({treatment:treatment.as_json})
+    super.merge({treatment: treatment.as_json,
+                 treatment_side_effects: treatment_side_effects.as_json})
   end
 end
