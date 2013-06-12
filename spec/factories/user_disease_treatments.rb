@@ -1,6 +1,8 @@
 FactoryGirl.define do
-
   factory :user_disease_treatment do
+    user
+    treatment
+    user_disease { association :user_disease, :user => user }
     prescribed_by_doctor      true
     start_date                { Date.today }
     end_date                  nil

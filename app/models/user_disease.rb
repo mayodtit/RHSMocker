@@ -20,7 +20,7 @@ class UserDisease < ActiveRecord::Base
       :diagnosed_date=>diagnosed_date,
       :start_date=>start_date,
       :end_date=>end_date,
-      :user_disease_treatments=>user_disease_treatments,
+      :user_disease_treatments=>user_disease_treatments.as_json,
       :disease=>disease
     }
   end
