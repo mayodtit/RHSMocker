@@ -30,14 +30,14 @@ unless Content.find_by_title("Which hand do you hold your phone in?")
 	<div style="margin-left:140px;text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;move_thumb&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;left&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display =&quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
 	<img style="display : block; margin : auto;" alt="Right" width="43" height="63" src="/assets/righthand_sm.png"/></a>
-	</div>      
+	</div>
 	</div>
 	<div id="panel-2" style="display:none">
 	<div class="content_subtitle">
 	Thank you!
 	</div>
 	<div class = "content_text">
-	We\'ve now positioned the thumb controller to it\'s most comfortable (and healthy!) position. 
+	We\'ve now positioned the thumb controller to it\'s most comfortable (and healthy!) position.
 	</div>
 	</div>'
 		)
@@ -68,17 +68,36 @@ Diet.find_or_create_by_name(:name=>"Kosher", :order=>7)
 Diet.find_or_create_by_name(:name=>"Halal", :order=>8)
 Diet.find_or_create_by_name(:name=>"Organic", :order=>9)
 
-AssociationType.find_or_create_by_name(:name=>"Sister", :relationship_type=>"family")
-AssociationType.find_or_create_by_name(:name=>"Brother", :relationship_type=>"family")
-AssociationType.find_or_create_by_name(:name=>"Mother", :relationship_type=>"family")
-AssociationType.find_or_create_by_name(:name=>"Father", :relationship_type=>"family")
-AssociationType.find_or_create_by_name(:name=>"Grandfather", :relationship_type=>"family")
-AssociationType.find_or_create_by_name(:name=>"Grandmother", :relationship_type=>"family")
-AssociationType.find_or_create_by_name(:name=>"Cousin", :relationship_type=>"family")
-AssociationType.find_or_create_by_name(:name=>"Son", :relationship_type=>"family")
-AssociationType.find_or_create_by_name(:name=>"Daughter", :relationship_type=>"family")
-AssociationType.find_or_create_by_name(:name=>"Uncle", :relationship_type=>"family")
-AssociationType.find_or_create_by_name(:name=>"Aunt", :relationship_type=>"family")
+sister=AssociationType.find_or_create_by_name(:name=>"Sister", :gender=>"female", :relationship_type=>"family")
+sister.update_attribute :gender, "female"
+brother = AssociationType.find_or_create_by_name(:name=>"Brother", :gender=>"male", :relationship_type=>"family")
+brother.update_attribute :gender, "male"
+
+mother = AssociationType.find_or_create_by_name(:name=>"Mother", :gender=>"female", :relationship_type=>"family")
+mother.update_attribute :gender, "female"
+
+father = AssociationType.find_or_create_by_name(:name=>"Father", :gender=>"male", :relationship_type=>"family")
+father.update_attribute :gender, "male"
+
+grandfather = AssociationType.find_or_create_by_name(:name=>"Grandfather", :gender=>"male", :relationship_type=>"family")
+grandfather.update_attribute :gender, "male"
+
+grandmother = AssociationType.find_or_create_by_name(:name=>"Grandmother", :gender=>"female", :relationship_type=>"family")
+grandmother.update_attribute :gender, "female"
+
+cousin = AssociationType.find_or_create_by_name(:name=>"Cousin", :gender=>nil, :relationship_type=>"family")
+son = AssociationType.find_or_create_by_name(:name=>"Son", :gender=>"male", :relationship_type=>"family")
+son.update_attribute :gender, "male"
+
+daughter = AssociationType.find_or_create_by_name(:name=>"Daughter", :gender=>"female", :relationship_type=>"family")
+daughter.update_attribute :gender, "female"
+
+uncle = AssociationType.find_or_create_by_name(:name=>"Uncle", :gender=>"male", :relationship_type=>"family")
+uncle.update_attribute :gender, "male"
+
+aunt = AssociationType.find_or_create_by_name(:name=>"Aunt", :gender=>"female", :relationship_type=>"family")
+aunt.update_attribute :gender, "female"
+
 
 AssociationType.find_or_create_by_name(:name=>"Primary Physician", :relationship_type=>"hcp")
 AssociationType.find_or_create_by_name(:name=>"Nurse", :relationship_type=>"hcp")

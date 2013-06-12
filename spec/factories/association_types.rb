@@ -4,5 +4,6 @@ FactoryGirl.define do
   factory :association_type do
     name "sister"
     relationship_type "family"
+    gender "male"
   end
 end
