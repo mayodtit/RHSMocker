@@ -100,7 +100,7 @@ resource "UserWeights" do
     end
 
     post '/api/v1/weights' do
-      let(:auth_token)    { @user2.auth_token }
+      let(:auth_token)    { @user.auth_token }
       let (:weight)     { 90 }
       let (:taken_at)      { DateTime.now-20.minutes }
       let(:user_id)       { @user2.id }

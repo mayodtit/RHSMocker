@@ -48,6 +48,7 @@ resource "Associations" do
   describe 'create an association' do
     parameter :auth_token,      "User's auth token"
     parameter :association,     "Contains the associate parameter"
+    parameter :user_id, 'ID of the user for which to create an association; current_user is assumed if omitted'
     parameter :association_type_id,        "The id of the association type. The relation of the associate (sister, doctor)"
     parameter :associate,       "Attributes of the associate"
     parameter :first_name, "First name of the associate"
@@ -65,7 +66,7 @@ resource "Associations" do
     parameter :blood_type, "Associate's blood type"
     parameter :holds_phone_in, "The hand the associate holds the phone in (left, right)"
 
-    scope_parameters :association, [:associate, :association_type_id]
+    scope_parameters :association, [:user_id, :associate, :association_type_id]
     scope_parameters :associate, [ :email, :feature_bucket, :first_name, :last_name, :image_url,\
      :gender, :height, :birth_date, :phone, :generic_call_time, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in]  
 
@@ -87,22 +88,23 @@ resource "Associations" do
 
     post '/api/v1/associations' do
       let(:auth_token)   { @user.auth_token }
+      let(:user_id) { @user.id }
       let(:association_type_id)      { @association_type.id }
-      let (:email)          { "tst@test.com" }
-      let (:password)       { "11111111" }
-      let (:feature_bucket) { "message_only" }
-      let (:first_name)     { "Bob" }
-      let (:last_name)      { "Smith" }
-      let (:image_url)      { "http://placekitten.com/90/90" }
-      let (:gender)      { "male" }
-      let (:height)      { 190 }
-      let (:birth_date)      { "1980-10-15" }
-      let (:phone)      { "4163442356" }
-      let (:generic_call_time)      { "morning" }
-      let (:ethnic_group_id)      { 1 }
-      let (:diet_id)      { 1 }
-      let (:blood_type)      { "B-positive" }
-      let (:holds_phone_in)      { "left" }
+      let(:email)          { "tst@test.com" }
+      let(:password)       { "11111111" }
+      let(:feature_bucket) { "message_only" }
+      let(:first_name)     { "Bob" }
+      let(:last_name)      { "Smith" }
+      let(:image_url)      { "http://placekitten.com/90/90" }
+      let(:gender)      { "male" }
+      let(:height)      { 190 }
+      let(:birth_date)      { "1980-10-15" }
+      let(:phone)      { "4163442356" }
+      let(:generic_call_time)      { "morning" }
+      let(:ethnic_group_id)      { 1 }
+      let(:diet_id)      { 1 }
+      let(:blood_type)      { "B-positive" }
+      let(:holds_phone_in)      { "left" }
       let(:raw_post)     { {"auth_token"=>params["auth_token"], "association"=>{"association_type_id"=>params["association"]["association_type_id"], "associate"=>params["associate"]}}.to_json }  # JSON format request body
 
       example_request "[POST] Create an association full" do
