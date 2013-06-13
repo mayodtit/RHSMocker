@@ -54,6 +54,14 @@ class User < ActiveRecord::Base
   has_many :agreements
   has_many :agreement_pages, :through => :agreements
 
+  searchable do
+    text :name do
+      "#{first_name} #{last_name}"
+    end
+    string :role_name, :multiple => true do
+      roles.map(&:name)
+    end
+  end
 
   #Validations
   #++++++++++++++

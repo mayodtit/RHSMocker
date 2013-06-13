@@ -18,12 +18,25 @@ resource "Users" do
 
     @admin_user = FactoryGirl.create(:admin, :email=>'email_exists@address.com')
     @admin_user.login
+
+    @hcp = create(:hcp_user)
   end
 
   get '/api/v1/users' do
     parameter :auth_token, "User's Auth token"
     parameter :role_name, 'Optional role name for filtering'
     required_parameters :auth_token
+
+    context 'solr query' do
+      let(:q) { @hcp.first_name }
+      let(:role_name) { 'hcp' }
+
+      example_request "[GET] Get list of users filtered by name" do
+        explanation "Returns an array of Users that match the name"
+        status.should == 200
+        JSON.parse(response_body)['users'].should be_a Array
+      end
+    end
 
     let(:auth_token) { @user.auth_token }
     let(:role_name) { 'hcp' }
