@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
 
   attr_accessible :first_name, :last_name, :image_url, :gender, :height, :birth_date, :install_id, :email, :phone,\
                   :generic_call_time, :password, :password_confirmation, :feature_bucket, :blood_type, :holds_phone_in,\
-                  :diet_id, :ethnic_group_id
+                  :diet_id, :ethnic_group_id, :npi_number
 
   after_create :default_content
 
@@ -78,6 +78,8 @@ class User < ActiveRecord::Base
 
   validates_length_of :password, :minimum => 8, :message => "must be at least 8 characters long", :if => :password
   validates_confirmation_of :password, :message => "should match confirmation", :if => :password
+
+  validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
 
   def admin?
     has_role? :admin
