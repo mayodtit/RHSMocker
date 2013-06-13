@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130612222149) do
+ActiveRecord::Schema.define(:version => 20130613232252) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -419,12 +419,12 @@ ActiveRecord::Schema.define(:version => 20130612222149) do
     t.string   "last_name"
     t.string   "gender"
     t.date     "birth_date"
-    t.datetime "created_at",                                                                                   :null => false
-    t.datetime "updated_at",                                                                                   :null => false
+    t.datetime "created_at",                                                                  :null => false
+    t.datetime "updated_at",                                                                  :null => false
     t.string   "image_url"
     t.string   "install_id",                      :limit => 36
     t.string   "email"
-    t.decimal  "height",                                        :precision => 9, :scale => 5, :default => 0.0
+    t.decimal  "height",                                        :precision => 9, :scale => 5
     t.string   "phone"
     t.string   "generic_call_time"
     t.string   "crypted_password"
