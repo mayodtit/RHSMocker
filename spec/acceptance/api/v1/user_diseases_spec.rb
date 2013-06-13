@@ -15,6 +15,7 @@ resource "UserDiseases" do
     @treatment = FactoryGirl.create(:treatment)
     @user_disease = FactoryGirl.create(:user_disease, :user=>@user, :disease=>@disease)
     @user_disease_treatment = FactoryGirl.create(:user_disease_treatment, :user_disease=>@user_disease, :treatment=>@treatment)
+    @unlinked_user_disease_treatment = create(:user_disease_treatment, :user_disease => nil, :treatment => @treatment, :user => @user)
 
     @user_disease2 = FactoryGirl.create(:user_disease, :user=>@user2, :disease=>@disease)
 
@@ -142,9 +143,10 @@ resource "UserDiseases" do
     parameter :diagnosed,      "Boolean; was the disease diagnosed?"
     parameter :diagnoser_id,   "ID of the user that made the diagnosis; required if diagnosed"
     parameter :diagnosed_date, "ID of the user that made the diagnosis; required if diagnosed"
+    parameter :user_disease_treatments_attributes, "Array of UserDiseaseTreatment hashes to link to UserDisease object; optional"
 
     required_parameters :auth_token, :user_disease, :id
-    scope_parameters :user_disease, [:id, :start_date, :end_date, :being_treated, :diagnosed, :diagnoser_id, :diagnosed_date]
+    scope_parameters :user_disease, [:id, :start_date, :end_date, :being_treated, :diagnosed, :diagnoser_id, :diagnosed_date, :user_disease_treatments_attributes]
 
     put '/api/v1/user_diseases' do
       let(:auth_token)    { @user.auth_token }
@@ -155,6 +157,7 @@ resource "UserDiseases" do
       let(:diagnosed)     { true }
       let(:diagnoser_id)  { create(:user).id }
       let(:diagnosed_date){ @user_disease.start_date + 1.day }
+      let(:user_disease_treatments_attributes) { [{:id => @unlinked_user_disease_treatment.id}] }
       let(:raw_post)      { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update the user's disease" do
