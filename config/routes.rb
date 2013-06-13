@@ -2,6 +2,8 @@ RHSMocker::Application.routes.draw do
 
   namespace :api do
     namespace :v1 do
+      resources :side_effects, :only => :index
+
       #account management
       post "signup" => "users#create", :as=>"signup"
       post "login" => "sessions#create", :as=>"login"

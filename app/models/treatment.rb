@@ -3,6 +3,9 @@ class Treatment < ActiveRecord::Base
   has_many :user_disease_treatments
   has_many :users, :through=> :user_disease_treatments
 
+  has_many :treatment_side_effects
+  has_many :side_effects, :through => :treatment_side_effects
+
   searchable do
     text :name
     text :snomed_name
