@@ -246,7 +246,9 @@ class User < ActiveRecord::Base
     self.user_readings.where(:read_date => nil, :dismiss_date => nil, :read_later_count => 0).count >= 7
   end
 
-  def self.health_care_professionals
-    joins(:roles).where(:roles => {:name => 'hcp'})
+  def self.by_role(role)
+    return [] unless role
+    role_id = role.try_method(:id) || role
+    joins(:roles).where(:roles => {:id => role_id})
   end
 end

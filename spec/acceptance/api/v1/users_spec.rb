@@ -20,6 +20,21 @@ resource "Users" do
     @admin_user.login
   end
 
+  get '/api/v1/users' do
+    parameter :auth_token, "User's Auth token"
+    parameter :role_name, 'Optional role name for filtering'
+    required_parameters :auth_token
+
+    let(:auth_token) { @user.auth_token }
+    let(:role_name) { 'hcp' }
+
+    example_request "[GET] Get list of users" do
+      explanation "Returns an array of Users that match the role"
+      status.should == 200
+      JSON.parse(response_body)['users'].should be_a Array
+    end
+  end
+
   get '/api/v1/user/keywords' do
     parameter :auth_token,      "User's Auth token"
     required_parameters :auth_token
