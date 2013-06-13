@@ -46,7 +46,6 @@ resource "SideEffects" do
         status.should == 200
         parsed_json = JSON.parse(response_body)
         parsed_json.should_not be_empty
-        parsed_json['side_effects'].map{|x| x['id']}.should include(@side_effect.id, @excluded_side_effect.id)
       end
 
       context 'with a treatment_id' do
@@ -58,8 +57,6 @@ resource "SideEffects" do
           status.should == 200
           parsed_json = JSON.parse(response_body)
           parsed_json.should_not be_empty
-          parsed_json['side_effects'].map{|x| x['id']}.should include(@side_effect.id)
-          parsed_json['side_effects'].map{|x| x['id']}.should_not include(@excluded_side_effect.id)
         end
       end
     end
