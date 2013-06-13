@@ -20,7 +20,6 @@ class Api::V1::UserDiseasesController < Api::V1::ABaseController
     end
   end
 
-
   def index
     render_success({user_diseases:current_user.user_diseases})
   end
@@ -31,6 +30,10 @@ class Api::V1::UserDiseasesController < Api::V1::ABaseController
     return render_failure({reason:"UserDisease with id #{params[:user_disease][:id]} is not found"}, 404) unless user_disease
     if user_disease.user_id!=current_user.id && !current_user.allowed_to_edit_user?(user_disease.user_id)
       return render_failure({reason:"Permission denied to edit user_disease with id #{params[:user_disease][:id]}"})
+    end
+
+    if params['user_disease']['user_disease_treatments_attributes']
+      link_treatments(user_disease, params['user_disease']['user_disease_treatments_attributes'].map{|x| x[:id]})
     end
 
     if(user_disease.update_attributes params[:user_disease])
@@ -55,8 +58,13 @@ class Api::V1::UserDiseasesController < Api::V1::ABaseController
     end
   end
 
+  private
+
   def check_disease
     return render_failure({reason:"user_disease not supplied"}, 412) unless params[:user_disease].present?
   end
 
+  def link_treatments(user_disease, ids)
+    UserDiseaseTreatment.batch_link_to_user_disease_by_ids(user_disease, ids)
+  end
 end

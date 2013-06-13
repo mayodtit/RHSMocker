@@ -5,7 +5,9 @@ class UserDisease < ActiveRecord::Base
   has_many :user_disease_treatments
   has_many :treatments, :through=>:user_disease_treatments
 
-  attr_accessible :user, :disease, :diagnoser
+  accepts_nested_attributes_for :user_disease_treatments
+
+  attr_accessible :user, :disease, :diagnoser, :user_disease_treatments_attributes
   attr_accessible :being_treated, :diagnosed, :diagnosed_date, :end_date, :start_date, :disease_id, :diagnoser_id
 
   validates :diagnoser, :presence => true, :if => :diagnosed?

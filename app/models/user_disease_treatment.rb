@@ -15,4 +15,10 @@ class UserDiseaseTreatment < ActiveRecord::Base
     super.merge({treatment: treatment.as_json,
                  treatment_side_effects: treatment_side_effects.as_json})
   end
+
+  def self.batch_link_to_user_disease_by_ids(user_disease, ids)
+    udts = self.where(:id => ids, :user_disease_id => nil)
+    udts.update_all(:user_disease_id => user_disease.id)
+    udts
+  end
 end
