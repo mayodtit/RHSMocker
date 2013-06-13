@@ -5,6 +5,7 @@ RHSMocker::Application.routes.draw do
       resources :side_effects, :only => :index
 
       #account management
+      resources :users, :only => :index
       post "signup" => "users#create", :as=>"signup"
       post "login" => "sessions#create", :as=>"login"
       delete "logout" => "sessions#destroy", :as=>"logout"

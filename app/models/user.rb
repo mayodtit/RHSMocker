@@ -54,6 +54,14 @@ class User < ActiveRecord::Base
   has_many :agreements
   has_many :agreement_pages, :through => :agreements
 
+  searchable do
+    text :name do
+      "#{first_name} #{last_name}"
+    end
+    string :role_name, :multiple => true do
+      roles.map(&:name)
+    end
+  end
 
   #Validations
   #++++++++++++++
@@ -246,4 +254,9 @@ class User < ActiveRecord::Base
     self.user_readings.where(:read_date => nil, :dismiss_date => nil, :read_later_count => 0).count >= 7
   end
 
+  def self.by_role(role)
+    return [] unless role
+    role_id = role.try_method(:id) || role
+    joins(:roles).where(:roles => {:id => role_id})
+  end
 end

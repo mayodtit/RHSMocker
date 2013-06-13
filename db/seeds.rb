@@ -48,6 +48,17 @@ end
 #limburg = User.create!(first_name: "Paul", 	last_name: "Limburg",	gender:"M", install_id: "144444")
 #shelly  = User.create!(first_name: "Shelly",last_name: "Norman", 	gender:"F", install_id: "555555")
 
+hcp = Role.find_or_create_by_name(:name => 'hcp')
+Role.find_or_create_by_name(:name => 'admin')
+
+[
+  {:install_id => 'test-1', :first_name => 'Jack', :last_name => 'Kevorkian', :gender => 'M'},
+  {:install_id => 'test-2', :first_name => 'Emmett', :last_name => 'Brown', :gender => 'M'},
+  {:install_id => 'test-3', :first_name => 'Hannibal', :last_name => 'Lecter', :gender => 'M'}
+].each do |u|
+  user = User.find_or_create_by_install_id(u)
+  user.roles << hcp unless user.hcp?
+end
 
 EthnicGroup.find_or_create_by_name(:name=>"American Indian", :ethnicity_code=>"1", :order=>1)
 EthnicGroup.find_or_create_by_name(:name=>"Alaskan Native", :ethnicity_code=>"1", :order=>2)
@@ -134,8 +145,3 @@ Treatment.find_or_create_by_name(:name=>"Arthroscopy of knee",:type=>"Treatment:
 Treatment.find_or_create_by_name(:name=>"Anticoagulant Therapy",:type=>"Treatment::medicine",:snomed_name=>"Anticoagulant Therapy",:snomed_code=>"182764009")
 Treatment.find_or_create_by_name(:name=>"Cholecystectomy",:type=>"Treatment::surgury",:snomed_name=>"Cholecystectomy",:snomed_code=>"38102005")
 Treatment.find_or_create_by_name(:name=>"Appendectomy",:type=>"Treatment::surgury",:snomed_name=>"Appendectomy",:snomed_code=>"80146002")
-
-
-
-
-

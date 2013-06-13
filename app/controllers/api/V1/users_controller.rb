@@ -1,6 +1,18 @@
 class Api::V1::UsersController < Api::V1::ABaseController
   skip_before_filter :authentication_check, :only =>:create
 
+  def index
+    if params[:q]
+      @users = User.search do
+        fulltext params[:q]
+        with :role_name, params[:role_name] if params[:role_name]
+      end
+    else
+      @users = params[:role_name] ? User.by_role(Role.find_by_name(params[:role_name])) : User.all
+    end
+    render_success(users: @users)
+  end
+
   def create
     # TODO: refactor into the model
     if params[:user].present? && params[:user][:install_id].present?
