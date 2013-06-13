@@ -13,6 +13,13 @@ class TreatmentSideEffect < ActiveRecord::Base
 
   delegate :name, :description, :to => :side_effect
 
+  searchable do
+    text :name do
+      name
+    end
+    integer :treatment_id
+  end
+
   def as_json
     {
       id: id,

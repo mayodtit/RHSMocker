@@ -6,6 +6,10 @@ class SideEffect < ActiveRecord::Base
 
   validates :name, :presence => true
 
+  searchable do
+    text :name
+  end
+
   def self.for_treatment(treatment)
     treatment_id = treatment.try_method(:id) || treatment
     joins(:treatment_side_effects).where(:treatment_side_effects => {:treatment_id => treatment_id})
