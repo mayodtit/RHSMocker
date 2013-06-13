@@ -48,6 +48,17 @@ end
 #limburg = User.create!(first_name: "Paul", 	last_name: "Limburg",	gender:"M", install_id: "144444")
 #shelly  = User.create!(first_name: "Shelly",last_name: "Norman", 	gender:"F", install_id: "555555")
 
+hcp = Role.find_or_create_by_name(:name => 'hcp')
+Role.find_or_create_by_name(:name => 'admin')
+
+[
+  {:install_id => 'test-1', :first_name => 'Jack', :last_name => 'Kevorkian', :gender => 'M'},
+  {:install_id => 'test-2', :first_name => 'Emmett', :last_name => 'Brown', :gender => 'M'},
+  {:install_id => 'test-3', :first_name => 'Hannibal', :last_name => 'Lecter', :gender => 'M'}
+].each do |u|
+  user = User.find_or_create_by_install_id(u)
+  user.roles << hcp unless user.hcp?
+end
 
 EthnicGroup.find_or_create_by_name(:name=>"American Indian", :ethnicity_code=>"1", :order=>1)
 EthnicGroup.find_or_create_by_name(:name=>"Alaskan Native", :ethnicity_code=>"1", :order=>2)
