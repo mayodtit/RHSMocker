@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130613234504) do
+ActiveRecord::Schema.define(:version => 20130614000308) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -419,8 +419,8 @@ ActiveRecord::Schema.define(:version => 20130613234504) do
     t.string   "last_name"
     t.string   "gender"
     t.date     "birth_date"
-    t.datetime "created_at",                                                                  :null => false
-    t.datetime "updated_at",                                                                  :null => false
+    t.datetime "created_at",                                                                                    :null => false
+    t.datetime "updated_at",                                                                                    :null => false
     t.string   "image_url"
     t.string   "install_id",                      :limit => 36
     t.string   "email"
@@ -439,6 +439,8 @@ ActiveRecord::Schema.define(:version => 20130613234504) do
     t.string   "blood_type"
     t.string   "holds_phone_in"
     t.string   "npi_number",                      :limit => 10
+    t.boolean  "alive",                                                                       :default => true
+    t.date     "date_of_death"
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"
