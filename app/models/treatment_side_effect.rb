@@ -2,9 +2,6 @@ class TreatmentSideEffect < ActiveRecord::Base
   belongs_to :treatment
   belongs_to :side_effect
 
-  has_many :user_disease_treatment_treatment_side_effects
-  has_many :user_disease_treatments, :through => :user_disease_treatment_treatment_side_effects
-
   attr_accessible :treatment, :side_effect
   attr_accessible :treatment_id, :side_effect_id
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130614000308) do
+ActiveRecord::Schema.define(:version => 20130614165902) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -339,9 +339,9 @@ ActiveRecord::Schema.define(:version => 20130614000308) do
   add_index "user_allergies", ["allergy_id"], :name => "index_user_allergies_on_allergy_id"
   add_index "user_allergies", ["user_id"], :name => "index_user_allergies_on_user_id"
 
-  create_table "user_disease_treatment_treatment_side_effects", :force => true do |t|
-    t.integer  "user_disease_treatment_id", :null => false
-    t.integer  "treatment_side_effect_id",  :null => false
+  create_table "user_disease_treatment_side_effects", :force => true do |t|
+    t.integer  "user_disease_treatment_id"
+    t.integer  "side_effect_id"
     t.datetime "created_at",                :null => false
     t.datetime "updated_at",                :null => false
   end

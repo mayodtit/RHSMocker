@@ -27,6 +27,12 @@ class Api::V1::UserDiseaseTreatmentsController < Api::V1::ABaseController
       return render_failure({reason:"Permission denied to edit user_disease_treatment with id #{params[:user_disease_treatment][:id]}"})
     end
 
+    if params['user_disease_treatment']['side_effects_attributes']
+      link_side_effects(user_disease_treatment, params['user_disease_treatment']['side_effects_attributes'])
+      params['user_disease_treatment']['user_disease_treatment_side_effects_attributes'] = params['user_disease_treatment']['side_effects_attributes']
+      params['user_disease_treatment'].delete('side_effects_attributes')
+    end
+
     if(user_disease_treatment.update_attributes params[:user_disease_treatment])
       render_success({user_disease_treatment:user_disease_treatment})
     else
@@ -53,4 +59,13 @@ class Api::V1::UserDiseaseTreatmentsController < Api::V1::ABaseController
     return render_failure({reason:"user_disease_treatment not supplied"}, 412) unless params[:user_disease_treatment].present?
   end
 
+  private
+
+  def link_side_effects(user_disease_treatment, attributes_array)
+    attributes_array.each_with_index do |attributes, index|
+      if UserDiseaseTreatmentSideEffect.create(:user_disease_treatment => user_disease_treatment, :side_effect_id => attributes[:id]).errors.any?
+        attributes_array.delete_at(index)
+      end
+    end
+  end
 end

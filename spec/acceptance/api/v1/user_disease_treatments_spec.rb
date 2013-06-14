@@ -18,9 +18,11 @@ resource "UserDiseaseTreatments" do
     @user_disease2 = FactoryGirl.create(:user_disease, :user=>@user, :disease=>@disease2)
 
     treatment = FactoryGirl.create(:treatment)
-    @user_disease_treatment = FactoryGirl.create(:user_disease_treatment, :with_side_effect, :user=>@user, :treatment=>treatment, :user_disease=>@user_disease, :doctor_user_id=>@hcp.id)
+    @side_effect = create(:side_effect)
+    @user_disease_treatment = FactoryGirl.create(:user_disease_treatment, :user=>@user, :treatment=>treatment, :user_disease=>@user_disease, :doctor_user_id=>@hcp.id)
+    @user_disease_treatment.side_effects << @side_effect
     @user_disease_treatment2 = FactoryGirl.create(:user_disease_treatment, :user=>@user, :treatment=>treatment, :user_disease=>@user_disease, :doctor_user_id=>@hcp.id)
-    
+
     @treatment = FactoryGirl.create(:treatment)
   end
 
@@ -120,10 +122,11 @@ resource "UserDiseaseTreatments" do
     parameter :amount_unit,             "Unit for amount; i.e. pill(s), tsp, mL"
     parameter :side_effect,             "Boolean; does this treatment have a side effect?"
     parameter :successful,              "Boolean; was the treatment successful?"
-    
+    parameter :side_effects_attributes, "Hash of side effect ids that the user is experiencing"
+
     required_parameters :auth_token, :user_disease_treatment, :id
     scope_parameters :user_disease_treatment, [:id, :user_disease_id, :prescribed_by_doctor, :doctor_user_id,
-      :start_date, :end_date, :time_duration, :time_duration_unit, :amount, :amount_unit, :side_effect, :successful]
+      :start_date, :end_date, :time_duration, :time_duration_unit, :amount, :amount_unit, :side_effect, :successful, :side_effects_attributes]
 
     put '/api/v1/user_disease_treatments' do
       let(:auth_token)  { @user.auth_token }
@@ -131,6 +134,7 @@ resource "UserDiseaseTreatments" do
       let(:user_disease_id) { @user_disease2.id }
       let(:end_date)    { Date.tomorrow }
       let(:successful)  { true }
+      let(:side_effects_attributes) { [{:side_effect_id => @side_effect.id}] }
       let(:raw_post)    { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update the user's treatment" do
