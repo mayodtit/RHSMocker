@@ -27,4 +27,8 @@ class Treatment < ActiveRecord::Base
   def type_name
     self.class.name.demodulize.underscore.downcase
   end
+
+  def self.type_class(type_name)
+    "Treatment::#{type_name.camelize}".constantize
+  end
 end
