@@ -7,4 +7,5 @@ class UserDiseaseTreatmentSideEffect < ActiveRecord::Base
 
   validates :user_disease_treatment, :presence => true
   validates :side_effect, :presence => true
+  validates :user_disease_treatment_id, :uniqueness => {:scope => :side_effect_id}
 end

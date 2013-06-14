@@ -28,7 +28,7 @@ class Api::V1::UserDiseaseTreatmentsController < Api::V1::ABaseController
     end
 
     if params['user_disease_treatment']['side_effects_attributes']
-      link_side_effects(user_disease_treatment, params['user_disease_treatment']['side_effects_attributes'].map{|x| x[:id]})
+      link_side_effects(user_disease_treatment, params['user_disease_treatment']['side_effects_attributes'])
       params['user_disease_treatment']['user_disease_treatment_side_effects_attributes'] = params['user_disease_treatment']['side_effects_attributes']
       params['user_disease_treatment'].delete('side_effects_attributes')
     end
@@ -61,9 +61,11 @@ class Api::V1::UserDiseaseTreatmentsController < Api::V1::ABaseController
 
   private
 
-  def link_side_effects(user_disease_treatment, ids)
-    ids.each do |id|
-      UserDiseaseTreatmentSideEffect.find_or_create_by_user_disease_treatment_id_and_side_effect_id(user_disease_treatment.id, id)
+  def link_side_effects(user_disease_treatment, attributes_array)
+    attributes_array.each_with_index do |attributes, index|
+      if UserDiseaseTreatmentSideEffect.create(:user_disease_treatment => user_disease_treatment, :side_effect_id => attributes[:id]).errors.any?
+        attributes_array.delete_at(index)
+      end
     end
   end
 end
