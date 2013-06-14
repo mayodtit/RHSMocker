@@ -133,7 +133,9 @@ class User < ActiveRecord::Base
       holds_phone_in:holds_phone_in,
       image_url:image_url,
       install_id:install_id,
-      phone:phone
+      phone:phone,
+      alive:alive,
+      date_of_death:date_of_death
     }
   end
 

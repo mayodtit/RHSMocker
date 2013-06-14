@@ -111,8 +111,10 @@ resource "Users" do
     parameter :diet_id, "User's diet id"
     parameter :blood_type, "User's blood type"
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
+    parameter :alive, "Boolean, is the user alive"
+    parameter :date_of_death, "If the user is not alive, when did they die"
     scope_parameters :user, [:install_id, :email, :password, :feature_bucket, :first_name, :last_name, :image_url,\
-     :gender, :height, :birth_date, :phone, :generic_call_time, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in]
+     :gender, :height, :birth_date, :phone, :generic_call_time, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :alive, :date_of_death]
     required_parameters :install_id, :email, :password
 
     post '/api/v1/signup' do
@@ -132,6 +134,7 @@ resource "Users" do
       let (:diet_id)      { 1 }
       let (:blood_type)      { "B-positive" }
       let (:holds_phone_in)      { "left" }
+      let(:alive) { true }
       let (:raw_post)   { params.to_json }  # JSON format request body
 
       example_request "[POST] Sign up using email and password (or add email and password to account)" do
@@ -280,7 +283,9 @@ resource "Users" do
     parameter :diet_id, "User's diet id"
     parameter :blood_type, "User's blood type"
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
-    scope_parameters :user, [:first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in]
+    parameter :alive, "Boolean, is the user alive"
+    parameter :date_of_death, "If the user is not alive, when did they die"
+    scope_parameters :user, [:first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :alive, :date_of_death]
     required_parameters :auth_token
 
     put '/api/v1/user' do
@@ -298,6 +303,7 @@ resource "Users" do
       let (:diet_id)      { 1 }
       let (:blood_type)      { "B-positive" }
       let (:holds_phone_in)      { "left" }
+      let(:alive) { true }
       let (:raw_post)      { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update user" do
@@ -339,7 +345,9 @@ resource "Users" do
     parameter :diet_id, "User's diet id"
     parameter :blood_type, "User's blood type"
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
-    scope_parameters :user, [:email, :first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in]
+    parameter :alive, "Boolean, is the user alive"
+    parameter :date_of_death, "If the user is not alive, when did they die"
+    scope_parameters :user, [:email, :first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :alive, :date_of_death]
     required_parameters :auth_token, :id
 
     put '/api/v1/user/:id' do
@@ -360,6 +368,7 @@ resource "Users" do
       let (:diet_id)      { 1 }
       let (:blood_type)      { "B-positive" }
       let (:holds_phone_in)      { "left" }
+      let(:alive) { true }
       let (:raw_post)      { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update a specific user" do
