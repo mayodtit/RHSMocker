@@ -1,7 +1,15 @@
 class Api::V1::UserAllergiesController < Api::V1::ABaseController
   
   def index
-    render_success({user_allergies:current_user.user_allergies})
+    if params[:user_id]
+      user = User.find_by_id(params[:user_id])
+      return render_failure({reason:"User with id #{params[:user_id]} is not found"}, 404) unless user
+      return render_failure({reason:"Permission denied to view associates of user with id #{params[:user_id]}"}) if !current_user.allowed_to_edit_user?(user.id) && !current_user.hcp?
+    else
+      user = current_user
+    end
+
+    render_success({user_allergies:user.user_allergies})
   end
 
   def create

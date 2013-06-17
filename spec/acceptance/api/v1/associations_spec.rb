@@ -15,12 +15,12 @@ resource "Associations" do
     @treatment = FactoryGirl.create(:treatment)
     @user_disease_treatment = FactoryGirl.create(:user_disease_treatment, :user_disease=>@user_disease, :treatment=>@treatment)
     @allergy = FactoryGirl.create(:allergy)
-    associate = FactoryGirl.create(:associate, :user_diseases=>[@user_disease], :allergies=>[@allergy])
+    @associate = FactoryGirl.create(:associate, :user_diseases=>[@user_disease], :allergies=>[@allergy])
     @association_type = FactoryGirl.create(:association_type)
-    @association = FactoryGirl.create(:association, :user=>@user, :associate=>associate, :association_type=>@association_type)
+    @association = FactoryGirl.create(:association, :user=>@user, :associate=>@associate, :association_type=>@association_type)
 
 
-   
+
     associate2 = FactoryGirl.create(:associate, :diseases=>[@disease], :first_name=>"Alex")
     @association_type2 = FactoryGirl.create(:association_type, :name=>"brother")
     @association2 = FactoryGirl.create(:association, :user=>@user2, :associate=>associate2, :association_type=>@association_type2)
@@ -39,6 +39,22 @@ resource "Associations" do
 
     example_request "[GET] Get user's associations" do
       explanation "Returns an array of the user's associations (relationships)"
+      status.should == 200
+      JSON.parse(response_body)['associations'].should be_a Array
+    end
+  end
+
+
+  get '/api/v1/associations' do
+    parameter :auth_token,      "User's auth token"
+    parameter :user_id,         "User id of the associate that you want to see the associations for"
+    required_parameters :auth_token
+
+    let(:auth_token)   { @user.auth_token }
+    let(:user_id)   { @associate.id }
+
+    example_request "[GET] Get associate's associations" do
+      explanation "Returns an array of the associate's associations (relationships)"
       status.should == 200
       JSON.parse(response_body)['associations'].should be_a Array
     end
@@ -169,7 +185,7 @@ resource "Associations" do
     parameter :association,     "Contains the association's attributes"
     parameter :id,              "Association ID"
     parameter :association_type_id,        "The id of the association type. The relation of the associate (sister, doctor)"
-    
+
     scope_parameters :association, [:id, :association_type_id]
     required_parameters :auth_token, :association, :id
 

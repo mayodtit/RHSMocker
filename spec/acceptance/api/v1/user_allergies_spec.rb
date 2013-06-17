@@ -38,6 +38,22 @@ resource "UserAllergies" do
   end
 
 
+  get '/api/v1/user_allergies' do
+    parameter :auth_token,    "User's auth token"
+    parameter :user_id,       "The user id of the associate"
+    required_parameters :auth_token
+
+    let(:auth_token)  { @user.auth_token }
+    let(:user_id)  { @associate.id }
+
+    example_request "[GET] Get all of this associate's allergies" do
+      explanation "Returns an array of allergies"
+      status.should == 200
+      JSON.parse(response_body)['user_allergies'].should be_a Array
+    end
+  end
+
+
   describe 'create allergy' do
     parameter :auth_token,    "User's auth token" 
     parameter :allergy_id,    "Allergy ID"
