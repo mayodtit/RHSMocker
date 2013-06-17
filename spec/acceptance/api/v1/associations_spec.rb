@@ -55,7 +55,6 @@ resource "Associations" do
 
     example_request "[GET] Get associate's associations" do
       explanation "Returns an array of the associate's associations (relationships)"
-      puts response_body
       status.should == 200
       JSON.parse(response_body)['associations'].should be_a Array
     end
