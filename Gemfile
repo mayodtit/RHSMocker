@@ -56,8 +56,6 @@ group :test do
   gem 'capybara'
   gem 'guard-rspec'
   gem 'simplecov'
-  gem 'debugger'
-  gem 'awesome_print'
 end
 
 gem 'jquery-rails'
@@ -98,3 +96,7 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Deploy with Capistrano
 # gem 'capistrano'
+
+gem 'httparty'
+gem 'debugger'
+gem 'awesome_print'

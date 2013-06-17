@@ -24,27 +24,57 @@ resource "Users" do
 
   get '/api/v1/users' do
     parameter :auth_token, "User's Auth token"
-    parameter :role_name, 'Optional role name for filtering'
+    parameter :only, 'Filter results by source, use "internal" to only search RHS database'
+    parameter :role_name, 'Optional filter for internal search'
+    parameter :first_name, "Optional filter for external search"
+    parameter :last_name, "Optional filter for external search"
+    parameter :state, "Optional filter for external search"
+    parameter :city_name, "Optional filter for external search"
+    parameter :zip, "Optional filter for external search"
     required_parameters :auth_token
 
-    context 'solr query' do
-      let(:q) { @hcp.first_name }
-      let(:role_name) { 'hcp' }
+    let(:auth_token) { @user.auth_token }
 
-      example_request "[GET] Get list of users filtered by name" do
-        explanation "Returns an array of Users that match the name"
-        status.should == 200
-        JSON.parse(response_body)['users'].should be_a Array
+    context 'external search' do
+      let(:last_name) { 'chilcutt' }
+
+      before(:each) do
+        Search::Service.any_instance.stub(:query => [ {:first_name => 'Kyle',
+                                                       :last_name => 'Chilcutt',
+                                                       :npi_number => '0123456789',
+                                                       :city => 'San Francisco',
+                                                       :state => 'CA',
+                                                       :expertise => 'Counterfeiting Medical Credentials'} ])
+      end
+
+      example_request "[GET] Get list of users from external source (e.g. NPI database)" do
+          explanation "Returns an array of Users that match the parameters"
+          status.should == 200
+          JSON.parse(response_body)['users'].should be_a Array
       end
     end
 
-    let(:auth_token) { @user.auth_token }
-    let(:role_name) { 'hcp' }
+    context 'internal search' do
+      let(:only) { 'internal' }
 
-    example_request "[GET] Get list of users" do
-      explanation "Returns an array of Users that match the role"
-      status.should == 200
-      JSON.parse(response_body)['users'].should be_a Array
+      context 'solr query' do
+        let(:q) { @hcp.first_name }
+        let(:role_name) { 'hcp' }
+
+        example_request "[GET] Get list of users filtered by name" do
+          explanation "Returns an array of Users that match the name"
+          status.should == 200
+          JSON.parse(response_body)['users'].should be_a Array
+        end
+      end
+
+      let(:role_name) { 'hcp' }
+
+      example_request "[GET] Get list of users from RHS internal database only" do
+        explanation "Returns an array of Users that match the role"
+        status.should == 200
+        JSON.parse(response_body)['users'].should be_a Array
+      end
     end
   end
 

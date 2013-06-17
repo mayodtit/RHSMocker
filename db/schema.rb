@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130614165902) do
+ActiveRecord::Schema.define(:version => 20130617185430) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -441,6 +441,7 @@ ActiveRecord::Schema.define(:version => 20130614165902) do
     t.string   "npi_number",                      :limit => 10
     t.boolean  "alive",                                                                       :default => true
     t.date     "date_of_death"
+    t.string   "expertise"
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"
