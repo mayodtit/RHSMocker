@@ -43,7 +43,8 @@ resource "Users" do
                                                        :last_name => 'Chilcutt',
                                                        :npi_number => '0123456789',
                                                        :city => 'San Francisco',
-                                                       :state => 'CA'} ])
+                                                       :state => 'CA',
+                                                       :expertise => 'Counterfeiting Medical Credentials'} ])
       end
 
       example_request "[GET] Get list of users from external source (e.g. NPI database)" do

@@ -98,7 +98,8 @@ resource "Associations" do
                                                     :last_name => 'Chilcutt',
                                                     :npi_number => '0123456789',
                                                     :city => 'San Francisco',
-                                                    :state => 'CA'})
+                                                    :state => 'CA',
+                                                    :expertise => 'Counterfeiting Medical Credentials'})
       end
 
       example_request "[POST] Create an association by NPI number" do

@@ -3,7 +3,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   before_filter :check_association, :except=>:index
 
-  attr_accessible :first_name, :last_name, :npi_number
+  attr_accessible :first_name, :last_name, :npi_number, :expertise
 
   def create
     if params[:association][:user_id]

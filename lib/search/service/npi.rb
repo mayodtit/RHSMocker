@@ -21,7 +21,8 @@ class Search::Service::Npi
         :last_name => user['last_name'],
         :npi_number => user['npi'],
         :city => user['city'],
-        :state => user['state']
+        :state => user['state'],
+        :expertise => user['description']
       }
     end
   end
