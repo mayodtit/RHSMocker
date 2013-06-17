@@ -82,10 +82,11 @@ resource "Associations" do
     parameter :diet_id, "Associate's diet id"
     parameter :blood_type, "Associate's blood type"
     parameter :holds_phone_in, "The hand the associate holds the phone in (left, right)"
+    parameter :npi_number, "NPI number of associate; when provided, data fetched from NPI database"
 
     scope_parameters :association, [:user_id, :associate, :association_type_id]
     scope_parameters :associate, [ :email, :feature_bucket, :first_name, :last_name, :image_url,\
-     :gender, :height, :birth_date, :phone, :generic_call_time, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in]
+     :gender, :height, :birth_date, :phone, :generic_call_time, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :npi_number]
 
     required_parameters :auth_token, :association, :association_type_id
 
@@ -97,6 +98,28 @@ resource "Associations" do
       let(:raw_post)     { params.to_json }  # JSON format request body
 
       example_request "[POST] Create an association" do
+        explanation "Create an association between the user and the specified associate"
+        status.should == 200
+        JSON.parse(response_body)['association'].should be_a Hash
+      end
+    end
+
+    post '/api/v1/associations' do
+      let(:auth_token)   { @user.auth_token }
+      let(:association_type_id)      { @association_type.id }
+      let(:associate) { {'npi_number' => '0123456789'} }
+      let(:raw_post)     { params.to_json }  # JSON format request body
+
+      before(:each) do
+        Search::Service.any_instance.stub(:find => {:first_name => 'Kyle',
+                                                    :last_name => 'Chilcutt',
+                                                    :npi_number => '0123456789',
+                                                    :city => 'San Francisco',
+                                                    :state => 'CA',
+                                                    :expertise => 'Counterfeiting Medical Credentials'})
+      end
+
+      example_request "[POST] Create an association by NPI number" do
         explanation "Create an association between the user and the specified associate"
         status.should == 200
         JSON.parse(response_body)['association'].should be_a Hash
