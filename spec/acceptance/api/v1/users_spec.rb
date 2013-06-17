@@ -24,27 +24,57 @@ resource "Users" do
 
   get '/api/v1/users' do
     parameter :auth_token, "User's Auth token"
-    parameter :role_name, 'Optional role name for filtering'
+    parameter :only, 'Filter results by source, use "internal" to only search RHS database'
+    parameter :role_name, 'Optional filter for internal search'
+    parameter :first_name, "Optional filter for external search"
+    parameter :last_name, "Optional filter for external search"
+    parameter :state, "Optional filter for external search"
+    parameter :city_name, "Optional filter for external search"
+    parameter :zip, "Optional filter for external search"
     required_parameters :auth_token
 
-    context 'solr query' do
-      let(:q) { @hcp.first_name }
-      let(:role_name) { 'hcp' }
+    let(:auth_token) { @user.auth_token }
 
-      example_request "[GET] Get list of users filtered by name" do
-        explanation "Returns an array of Users that match the name"
-        status.should == 200
-        JSON.parse(response_body)['users'].should be_a Array
+    context 'external search' do
+      let(:last_name) { 'chilcutt' }
+
+      before(:each) do
+        Search::Service.any_instance.stub(:query => [ {:first_name => 'Kyle',
+                                                       :last_name => 'Chilcutt',
+                                                       :npi_number => '0123456789',
+                                                       :city => 'San Francisco',
+                                                       :state => 'CA',
+                                                       :expertise => 'Counterfeiting Medical Credentials'} ])
+      end
+
+      example_request "[GET] Get list of users from external source (e.g. NPI database)" do
+          explanation "Returns an array of Users that match the parameters"
+          status.should == 200
+          JSON.parse(response_body)['users'].should be_a Array
       end
     end
 
-    let(:auth_token) { @user.auth_token }
-    let(:role_name) { 'hcp' }
+    context 'internal search' do
+      let(:only) { 'internal' }
 
-    example_request "[GET] Get list of users" do
-      explanation "Returns an array of Users that match the role"
-      status.should == 200
-      JSON.parse(response_body)['users'].should be_a Array
+      context 'solr query' do
+        let(:q) { @hcp.first_name }
+        let(:role_name) { 'hcp' }
+
+        example_request "[GET] Get list of users filtered by name" do
+          explanation "Returns an array of Users that match the name"
+          status.should == 200
+          JSON.parse(response_body)['users'].should be_a Array
+        end
+      end
+
+      let(:role_name) { 'hcp' }
+
+      example_request "[GET] Get list of users from RHS internal database only" do
+        explanation "Returns an array of Users that match the role"
+        status.should == 200
+        JSON.parse(response_body)['users'].should be_a Array
+      end
     end
   end
 
@@ -111,8 +141,10 @@ resource "Users" do
     parameter :diet_id, "User's diet id"
     parameter :blood_type, "User's blood type"
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
+    parameter :alive, "Boolean, is the user alive"
+    parameter :date_of_death, "If the user is not alive, when did they die"
     scope_parameters :user, [:install_id, :email, :password, :feature_bucket, :first_name, :last_name, :image_url,\
-     :gender, :height, :birth_date, :phone, :generic_call_time, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in]
+     :gender, :height, :birth_date, :phone, :generic_call_time, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :alive, :date_of_death]
     required_parameters :install_id, :email, :password
 
     post '/api/v1/signup' do
@@ -132,6 +164,7 @@ resource "Users" do
       let (:diet_id)      { 1 }
       let (:blood_type)      { "B-positive" }
       let (:holds_phone_in)      { "left" }
+      let(:alive) { true }
       let (:raw_post)   { params.to_json }  # JSON format request body
 
       example_request "[POST] Sign up using email and password (or add email and password to account)" do
@@ -280,7 +313,9 @@ resource "Users" do
     parameter :diet_id, "User's diet id"
     parameter :blood_type, "User's blood type"
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
-    scope_parameters :user, [:first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in]
+    parameter :alive, "Boolean, is the user alive"
+    parameter :date_of_death, "If the user is not alive, when did they die"
+    scope_parameters :user, [:first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :alive, :date_of_death]
     required_parameters :auth_token
 
     put '/api/v1/user' do
@@ -298,6 +333,7 @@ resource "Users" do
       let (:diet_id)      { 1 }
       let (:blood_type)      { "B-positive" }
       let (:holds_phone_in)      { "left" }
+      let(:alive) { true }
       let (:raw_post)      { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update user" do
@@ -339,7 +375,9 @@ resource "Users" do
     parameter :diet_id, "User's diet id"
     parameter :blood_type, "User's blood type"
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
-    scope_parameters :user, [:email, :first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in]
+    parameter :alive, "Boolean, is the user alive"
+    parameter :date_of_death, "If the user is not alive, when did they die"
+    scope_parameters :user, [:email, :first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :alive, :date_of_death]
     required_parameters :auth_token, :id
 
     put '/api/v1/user/:id' do
@@ -360,6 +398,7 @@ resource "Users" do
       let (:diet_id)      { 1 }
       let (:blood_type)      { "B-positive" }
       let (:holds_phone_in)      { "left" }
+      let(:alive) { true }
       let (:raw_post)      { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update a specific user" do

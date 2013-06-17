@@ -15,7 +15,7 @@ FactoryGirl.define do
 
     trait :with_side_effect do
       side_effect true
-      user_disease_treatment_treatment_side_effects {|se| [se.association(:user_disease_treatment_treatment_side_effect)]}
+      user_disease_treatment_side_effects {|se| [se.association(:user_disease_treatment_side_effect)]}
     end
   end
 end

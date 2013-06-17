@@ -3,10 +3,11 @@ class Api::V1::TreatmentsController < Api::V1::ABaseController
 
   def index
     treatments = if params[:q].blank?
-      Treatment.all :order => 'name ASC'
+      (params[:type] ? Treatment.type_class(params[:type]) : Treatment).all :order => 'name ASC'
     else
       Treatment.search do
         fulltext params[:q]
+        with :type, params[:type] if params[:type]
       end
     end
 
