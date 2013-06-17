@@ -16,6 +16,7 @@ class UserDisease < ActiveRecord::Base
   def as_json options=nil
     {
       :id=>id,
+      :user_id=>user_id,
       :being_treated=>being_treated,
       :diagnosed=>diagnosed,
       :diagnoser_id=>diagnoser_id,
