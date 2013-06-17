@@ -9,7 +9,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
     if params[:association][:user_id]
       user = User.find_by_id(params[:association][:user_id])
       return render_failure({reason:"User with id #{params[:association][:user_id]} is not found"}, 404) unless user
-      return render_failure({reason:"Permission denied to edit user with id #{params[:association][:user_id]}"}) if !current_user.allowed_to_edit_user?(params[:association][:user_id]) && !current_user.hcp?
+      return render_failure({reason:"Permission denied to edit user with id #{params[:association][:user_id]}"}) if !current_user.allowed_to_edit_user?(user.id) && !current_user.hcp?
     else
       user = current_user
     end
