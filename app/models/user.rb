@@ -135,7 +135,8 @@ class User < ActiveRecord::Base
       install_id:install_id,
       phone:phone,
       alive:alive,
-      date_of_death:date_of_death
+      date_of_death:date_of_death,
+      npi_number:npi_number
     }
   end
 

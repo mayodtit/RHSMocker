@@ -88,6 +88,27 @@ resource "Associations" do
 
     post '/api/v1/associations' do
       let(:auth_token)   { @user.auth_token }
+      let(:association_type_id)      { @association_type.id }
+      let(:associate)    { {:npi_number => '0123456789'} }
+      let(:raw_post)     { params.to_json }  # JSON format request body
+
+      before(:each) do
+        Search::Service.any_instance.stub(:find => {:first_name => 'Kyle',
+                                                    :last_name => 'Chilcutt',
+                                                    :npi_number => '0123456789',
+                                                    :city => 'San Francisco',
+                                                    :state => 'CA'})
+      end
+
+      example_request "[POST] Create an association" do
+        explanation "Create an association between the user and the specified associate"
+        status.should == 200
+        JSON.parse(response_body)['association'].should be_a Hash
+      end
+    end
+
+    post '/api/v1/associations' do
+      let(:auth_token)   { @user.auth_token }
       let(:user_id) { @user.id }
       let(:association_type_id)      { @association_type.id }
       let(:email)          { "tst@test.com" }

@@ -1,5 +1,9 @@
 class Api::V1::AssociationsController < Api::V1::ABaseController
+  include ActiveModel::MassAssignmentSecurity
+
   before_filter :check_association, :except=>:index
+
+  attr_accessible :first_name, :last_name, :npi_number
 
   def create
     if params[:association][:user_id]
@@ -10,8 +14,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
       user = current_user
     end
 
-    associate = Associate.new params[:association][:associate]
-    associate.save(:validate=>false)
+    associate = create_associate(params)
     return render_failure( {reason:"Could not create an associate #{params[:association][:associate]}"}, 412 ) if associate.nil?
     association_type = AssociationType.find_by_id params[:association][:association_type_id]
     return render_failure( {reason:"Could not find association type id #{params[:association][:association_type_id]}"}, 404 ) if association_type.nil?
@@ -46,9 +49,27 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
     end
   end
 
+  private
 
   def check_association
     return render_failure({reason: "Association not supplied"}, 412) if params[:association].empty?
   end
 
+  def create_associate(params)
+    if params[:association][:associate].try(:[], :npi_number)
+      associate = Associate.find_by_npi_number(params[:association][:associate][:npi_number])
+      return associate if associate
+      associate = Associate.new sanitize_for_mass_assignment(search_service.find(:npi_number => params[:association][:associate][:npi_number]))
+      associate.save(:validate=>false)
+      associate
+    else
+      associate = Associate.new params[:association][:associate]
+      associate.save(:validate=>false)
+      associate
+    end
+  end
+
+  def search_service
+    @search_service ||= Search::Service.new
+  end
 end
