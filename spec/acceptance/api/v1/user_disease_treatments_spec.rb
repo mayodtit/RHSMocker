@@ -12,6 +12,9 @@ resource "UserDiseaseTreatments" do
     @user2.login
     @hcp = FactoryGirl.create(:hcp_user)
 
+    @associate = create(:associate)
+    @user.associates << @associate
+
     @disease = FactoryGirl.create(:disease)
     @user_disease = FactoryGirl.create(:user_disease, :user=>@user, :disease=>@disease)
     @disease2 = FactoryGirl.create(:disease)
@@ -43,6 +46,7 @@ resource "UserDiseaseTreatments" do
 
   describe 'create user_disease_treatment' do
     parameter :auth_token,              "User's auth token"
+    parameter :user_id,                 "ID of treatment's user; optional, defaults to current_user"
     parameter :user_disease_treatment,  "A hash; Contains treatment properties"
     parameter :treatment_id,            "ID of the treatment the user is using"
     parameter :user_disease_id,         "ID of the user disease this treatment is for"
@@ -76,6 +80,27 @@ resource "UserDiseaseTreatments" do
       let(:raw_post)      { params.to_json }  # JSON format request body
 
       example_request "[POST] Add a treatment for a user" do
+        explanation "Returns the created user disease treatment object"
+        status.should == 200
+        JSON.parse(response_body)['user_disease_treatment'].should be_a Hash
+      end
+    end
+
+    post '/api/v1/user_disease_treatments' do
+      let(:auth_token)    { @user.auth_token }
+      let(:user_id)       { @associate.id }
+      let(:treatment_id)  { @treatment.id }
+      let(:prescribed_by_doctor) { true }
+      let(:doctor_user_id) { @hcp.id }
+      let(:start_date)    { Date.today }
+      let(:time_duration) { 1 }
+      let(:time_duration_unit)  { 'day(s)' }
+      let(:amount)        { 4 }
+      let(:amount_unit)   { 'tsp' }
+      let(:side_effect)   { true }
+      let(:raw_post)      { params.to_json }  # JSON format request body
+
+      example_request "[POST] Add a treatment for another user" do
         explanation "Returns the created user disease treatment object"
         status.should == 200
         JSON.parse(response_body)['user_disease_treatment'].should be_a Hash
