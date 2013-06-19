@@ -4,8 +4,21 @@ RHSMocker::Application.routes.draw do
     namespace :v1 do
       resources :side_effects, :only => :index
 
+      resources :plans, :only => [:index, :show] do
+        resources :offerings, :only => [:index, :show]
+      end
+
+      resources :offerings, :only => [:index, :show]
+
+      resources :users, :only => :index do
+        resources :subscriptions, :except => [:new, :edit]
+        resources :offerings, :only => [:index, :show]
+        resources :plans, :only => [:index, :show]
+      end
+
+      resources :subscriptions, :except => [:new, :edit]
+
       #account management
-      resources :users, :only => :index
       post "signup" => "users#create", :as=>"signup"
       post "login" => "sessions#create", :as=>"login"
       delete "logout" => "sessions#destroy", :as=>"logout"
