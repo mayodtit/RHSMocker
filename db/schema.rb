@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130619004415) do
+ActiveRecord::Schema.define(:version => 20130619230528) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -275,6 +275,7 @@ ActiveRecord::Schema.define(:version => 20130619004415) do
     t.integer  "message_id"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
+    t.boolean  "complete"
   end
 
   add_index "phone_calls", ["message_id"], :name => "index_phone_calls_on_message_id"
@@ -428,8 +429,9 @@ ActiveRecord::Schema.define(:version => 20130619004415) do
   create_table "user_offerings", :force => true do |t|
     t.integer  "offering_id"
     t.integer  "user_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+    t.integer  "phone_call_id"
   end
 
   add_index "user_offerings", ["offering_id"], :name => "index_user_offerings_on_offering_id"
@@ -438,8 +440,9 @@ ActiveRecord::Schema.define(:version => 20130619004415) do
   create_table "user_plans", :force => true do |t|
     t.integer  "plan_id"
     t.integer  "user_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+    t.date     "cancellation_date"
   end
 
   add_index "user_plans", ["plan_id"], :name => "index_user_plans_on_plan_id"
