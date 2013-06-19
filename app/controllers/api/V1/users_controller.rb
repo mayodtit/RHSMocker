@@ -12,7 +12,11 @@ class Api::V1::UsersController < Api::V1::ABaseController
         @users = params[:role_name] ? User.by_role(Role.find_by_name(params[:role_name])) : User.all
       end
     else
-      @users = search_service.query(params)
+      begin
+        @users = search_service.query(params)
+      rescue => e
+        render_failure({reason: e.message}, 502) and return
+      end
     end
     render_success(users: @users)
   end
