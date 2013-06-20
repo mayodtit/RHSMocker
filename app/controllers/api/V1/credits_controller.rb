@@ -12,8 +12,8 @@ class Api::V1::CreditsController < Api::V1::ABaseController
   end
 
   def summary
-    @credits_hash = Offering.hash_ids_to_objects(credits_scope.with_offering_counts)
-    render_success({:credit_counts => @credits_hash})
+    @offerings = Offering.with_credits(credits_scope.with_offering_counts)
+    render_success({:offerings => @offerings})
   end
 
   private
