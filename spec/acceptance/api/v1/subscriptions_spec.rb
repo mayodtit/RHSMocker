@@ -8,11 +8,6 @@ resource 'Subscriptions' do
   let!(:user) { create(:user) }
   let(:user_id) { user.id }
 
-  parameter :auth_token, "User's authentication token"
-  required_parameters :auth_token
-
-  let(:auth_token) { user.auth_token }
-
   post '/api/v1/users/:user_id/subscriptions' do
     example_request '[POST] Create a new subscription for the user' do
       explanation 'Returns the subscription object'
@@ -23,7 +18,7 @@ resource 'Subscriptions' do
   end
 
   context 'with existing records' do
-    let!(:subscription) { create(:subscription, :user => user) }
+    let!(:subscription) { create(:user_plan, :user => user) }
     let(:id) { subscription.id }
 
     describe 'retreiving records' do

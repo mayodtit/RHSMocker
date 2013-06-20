@@ -1,6 +1,6 @@
 class Api::V1::SubscriptionsController < Api::V1::ABaseController
   skip_before_filter :authentication_check
-  before_filter :load_user!, :except => :destroy
+  before_filter :load_user
 
   def index
     @subscriptions = subscription_scope.all
@@ -31,7 +31,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   end
 
   def destroy
-    @subscription = Subscription.find(params[:id])
+    @subscription = subscription_scope.find(params[:id])
     if @subscription.destroy
       render_success
     else
@@ -41,11 +41,11 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
 
   private
 
-  def load_user!
-    @user = User.find(params[:user_id]) if params[:user_id]
+  def load_user
+    @user = User.find(params[:user_id])
   end
 
   def subscription_scope
-    @user.try(:subscriptions) || Subscription
+    @user.try(:user_plans) || UserPlan
   end
 end
