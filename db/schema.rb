@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130617185430) do
+ActiveRecord::Schema.define(:version => 20130619231304) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -80,9 +80,9 @@ ActiveRecord::Schema.define(:version => 20130617185430) do
 
   create_table "authors_contents", :force => true do |t|
     t.integer  "author_id"
-    t.integer  "content_id", :limit => 255
-    t.datetime "created_at",                :null => false
-    t.datetime "updated_at",                :null => false
+    t.integer  "content_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "blood_pressures", :force => true do |t|
@@ -119,10 +119,10 @@ ActiveRecord::Schema.define(:version => 20130617185430) do
   end
 
   create_table "contents_mayo_vocabularies", :force => true do |t|
-    t.integer  "content_id",         :limit => 255
+    t.integer  "content_id"
     t.integer  "mayo_vocabulary_id"
-    t.datetime "created_at",                        :null => false
-    t.datetime "updated_at",                        :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
   end
 
   create_table "contents_symptoms", :force => true do |t|
@@ -251,14 +251,19 @@ ActiveRecord::Schema.define(:version => 20130617185430) do
   create_table "messages", :force => true do |t|
     t.text     "text"
     t.integer  "user_id"
-    t.datetime "created_at",                      :null => false
-    t.datetime "updated_at",                      :null => false
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
     t.integer  "user_location_id"
     t.integer  "encounter_id"
-    t.integer  "content_id",       :limit => 255
+    t.integer  "content_id"
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
+  create_table "offerings", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "phone_calls", :force => true do |t|
     t.string   "time_to_call"
@@ -270,9 +275,38 @@ ActiveRecord::Schema.define(:version => 20130617185430) do
     t.integer  "message_id"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
+    t.boolean  "complete"
   end
 
   add_index "phone_calls", ["message_id"], :name => "index_phone_calls_on_message_id"
+
+  create_table "plan_groups", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "plan_offerings", :force => true do |t|
+    t.integer  "plan_id"
+    t.integer  "offering_id"
+    t.integer  "amount"
+    t.boolean  "unlimited"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "plan_offerings", ["offering_id"], :name => "index_plan_offerings_on_offering_id"
+  add_index "plan_offerings", ["plan_id"], :name => "index_plan_offerings_on_plan_id"
+
+  create_table "plans", :force => true do |t|
+    t.string   "name"
+    t.integer  "plan_group_id"
+    t.boolean  "monthly"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
+
+  add_index "plans", ["plan_group_id"], :name => "index_plans_on_plan_group_id"
 
   create_table "roles", :force => true do |t|
     t.string   "name"
@@ -392,14 +426,37 @@ ActiveRecord::Schema.define(:version => 20130617185430) do
     t.datetime "updated_at",                                :null => false
   end
 
+  create_table "user_offerings", :force => true do |t|
+    t.integer  "offering_id"
+    t.integer  "user_id"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+    t.integer  "phone_call_id"
+  end
+
+  add_index "user_offerings", ["offering_id"], :name => "index_user_offerings_on_offering_id"
+  add_index "user_offerings", ["phone_call_id"], :name => "index_user_offerings_on_phone_call_id"
+  add_index "user_offerings", ["user_id"], :name => "index_user_offerings_on_user_id"
+
+  create_table "user_plans", :force => true do |t|
+    t.integer  "plan_id"
+    t.integer  "user_id"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+    t.date     "cancellation_date"
+  end
+
+  add_index "user_plans", ["plan_id"], :name => "index_user_plans_on_plan_id"
+  add_index "user_plans", ["user_id"], :name => "index_user_plans_on_user_id"
+
   create_table "user_readings", :force => true do |t|
     t.datetime "read_date"
     t.integer  "user_id"
-    t.integer  "content_id",    :limit => 255
-    t.datetime "created_at",                                  :null => false
-    t.datetime "updated_at",                                  :null => false
+    t.integer  "content_id"
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
     t.datetime "save_date"
-    t.integer  "save_count",                   :default => 0
+    t.integer  "save_count",    :default => 0
     t.datetime "dismiss_date"
     t.datetime "view_date"
     t.integer  "share_counter"
