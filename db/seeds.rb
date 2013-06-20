@@ -8,11 +8,11 @@
 
 
 #some default content
-unless Content.find_by_title("Installed RHS")
+unless Content.find_by_title("Installed Better")
 	installed = Content.create!(
 		contentsType: 'message',
-		title: "Installed RHS",
-		body:"Installed RHS")
+		title: "Installed Better",
+		body:"Thank you for installing Better!")
 end
 
 unless Content.find_by_title("Which hand do you hold your phone in?")
@@ -109,6 +109,12 @@ uncle.update_attribute :gender, "male"
 
 aunt = AssociationType.find_or_create_by_name(:name=>"Aunt", :gender=>"female", :relationship_type=>"family")
 aunt.update_attribute :gender, "female"
+
+wife=AssociationType.find_or_create_by_name(:name=>"Wife", :gender=>"female", :relationship_type=>"family")
+wife.update_attribute :gender, "female"
+
+husband = AssociationType.find_or_create_by_name(:name=>"Husband", :gender=>"male", :relationship_type=>"family")
+husband.update_attribute :gender, "male"
 
 
 AssociationType.find_or_create_by_name(:name=>"Primary Physician", :relationship_type=>"hcp")
@@ -225,8 +231,6 @@ Disease.find_or_create_by_name(:name=>"Coronary arteriosclerosis",:snomed_name=>
 Disease.find_or_create_by_name(:name=>"Hypercholesterolemia",:snomed_name=>"Hypercholesterolemia",:snomed_code=>"13644009")
 Disease.find_or_create_by_name(:name=>"Urinary tract infectious disease",:snomed_name=>"Urinary tract infectious disease",:snomed_code=>"68566005")
 Disease.find_or_create_by_name(:name=>"Anemia",:snomed_name=>"Anemia",:snomed_code=>"271737000")
-
-
 
 
 #Treatment.create!(:name=>"",:snomed_name=>"",:snomed_code=>"")
