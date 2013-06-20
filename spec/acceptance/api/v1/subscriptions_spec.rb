@@ -6,19 +6,30 @@ resource 'Subscriptions' do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:user) }
+  let!(:plan) { create(:plan) }
   let(:user_id) { user.id }
 
-  post '/api/v1/users/:user_id/subscriptions' do
-    example_request '[POST] Create a new subscription for the user' do
-      explanation 'Returns the subscription object'
-      status.should == 200
-      parsed_json = JSON.parse(response_body)
-      parsed_json.should_not be_empty
+  context 'creating a subscription' do
+    post '/api/v1/users/:user_id/subscriptions' do
+      parameter :subscription, 'Contains subscription information'
+      parameter :plan_id, 'Plan ID for subscription'
+
+      required_parameters :subscription, :plan_id
+
+      let(:subscription) { {:plan_id => plan.id} }
+      let(:raw_post) { params.to_json }
+
+      example_request '[POST] Create a new subscription for the user' do
+        explanation 'Returns the subscription object'
+        status.should == 200
+        parsed_json = JSON.parse(response_body)
+        parsed_json.should_not be_empty
+      end
     end
   end
 
   context 'with existing records' do
-    let!(:subscription) { create(:user_plan, :user => user) }
+    let!(:subscription) { create(:user_plan, :user => user, :plan => plan) }
     let(:id) { subscription.id }
 
     describe 'retreiving records' do
@@ -42,14 +53,14 @@ resource 'Subscriptions' do
     end
 
     describe 'updating records' do
-      put '/api/v1/users/:user_id/subscriptions/:id' do
-        example_request '[PUT] Update a subscription for the user' do
-          explanation 'Returns the subscription object'
-          status.should == 200
-          parsed_json = JSON.parse(response_body)
-          parsed_json.should_not be_empty
-        end
-      end
+     #put '/api/v1/users/:user_id/subscriptions/:id' do
+     #  example_request '[PUT] Update a subscription for the user' do
+     #    explanation 'Returns the subscription object'
+     #    status.should == 200
+     #    parsed_json = JSON.parse(response_body)
+     #    parsed_json.should_not be_empty
+     #  end
+     #end
 
       delete '/api/v1/users/:user_id/subscriptions/:id' do
         example_request '[DELETE] Delete a subscription for the user' do
