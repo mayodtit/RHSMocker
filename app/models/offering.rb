@@ -2,7 +2,7 @@ class Offering < ActiveRecord::Base
   attr_accessible :name
   attr_accessor :credits
 
-  def as_json
+  def as_json options=nil
     json = {id: id, name: name}
     json[:credits] = credits if credits
     json

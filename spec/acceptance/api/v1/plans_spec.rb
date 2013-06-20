@@ -5,7 +5,7 @@ resource 'Plans' do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  let!(:plan) { create(:plan) }
+  let!(:plan) { create(:plan, :with_offering) }
   let(:id) { plan.id }
 
   get '/api/v1/plans' do
