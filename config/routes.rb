@@ -8,7 +8,6 @@ RHSMocker::Application.routes.draw do
 
       resources :users, :only => :index do
         resources :subscriptions, :except => [:new, :edit]
-        resources :plans, :only => [:index, :show]
         resources :credits, :only => [:index, :show] do
           get 'summary', :on => :collection
         end
