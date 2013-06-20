@@ -57,6 +57,9 @@ class User < ActiveRecord::Base
   has_many :user_plans
   has_many :plans, :through => :user_plans
 
+  has_many :user_offerings
+  has_many :offerings, :through => :user_offerings
+
   searchable do
     text :name do
       "#{first_name} #{last_name}"
