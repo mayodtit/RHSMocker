@@ -8,7 +8,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   end
 
   def inbox
-    page = Integer(params[:page] || 1)
+    page = Integer(params[:page] || 2) #only first page will render, see below
     per_page = Integer(params[:per_page] || 10)
 
     unread = current_user.message_statuses.unread.map { |message_status|
@@ -23,6 +23,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
     read.sort_by!{|obj| obj[:created_at]}
 
     render_success({unread:unread, read:( read.slice( (page-1)*per_page, per_page ) || []) })
+
   end
 
   def render_message_into_common_format message_status

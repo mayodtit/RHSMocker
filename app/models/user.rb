@@ -173,11 +173,11 @@ class User < ActiveRecord::Base
     if !Content.where("title = 'Installed Better'").empty?
       UserReading.create(user:self, content:Content.where("title = 'Installed Better'").first, read_date: Time.zone.now.iso8601)
     end
-    if !Content.where("title = 'Which hand do you hold your phone in?'").empty?
-      UserReading.create(user:self, content:Content.where("title = 'Which hand do you hold your phone in?'").first)
-    end
     if !Content.where("title = 'What is your gender?'").empty?
       UserReading.create(user:self, content:Content.where("title = 'What is your gender?'").first)
+    end
+    if !Content.where("title = 'Which hand do you hold your phone in?'").empty?
+      UserReading.create(user:self, content:Content.where("title = 'Which hand do you hold your phone in?'").first)
     end
   end
 

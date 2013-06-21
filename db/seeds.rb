@@ -21,13 +21,13 @@ unless Content.find_by_title("Which hand do you hold your phone in?")
 		title: 'Which hand do you hold your phone in?',
 		body:'<div id="panel-1">
 	<div class = "content_subtitle">
-	Let us know to customize your experience.
+	Here''s a sample to try out answering questions in Better:
 	</div>
-	<div style="float:left; width:140px;text-align:center;">
+	<div style="float:left; width:140px; text-align:center; padding-top:5px;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;move_thumb&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;right&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
 	<img style="display : block; margin : auto; padding-top:5px;" alt="Left" width="54" height="60" src="/assets/lefthand_sm.png"/></a>
 	</div>
-	<div style="margin-left:140px;text-align:center;">
+	<div style="margin-left:140px; text-align:center; padding-top:5px;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;move_thumb&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;left&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display =&quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
 	<img style="display : block; margin : auto; padding-top:5px;" alt="Right" width="54" height="60" src="/assets/righthand_sm.png"/></a>
 	</div>
@@ -50,15 +50,15 @@ unless Content.find_by_title("What is your gender?")
 		title: 'What is your gender?',
 		body:'<div id="panel-1">
 	<div class = "content_subtitle">
-	Tell us a little about yourself.
+	Help us get to know you:
 	</div>
 	<div style="float:left; width:140px;text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;set_gender&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;male&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
-	<img style="display : block; margin : auto;" alt="Left" width="24" height="62" src="/assets/male.png"/></a>
+	<img style="display : block; margin : auto;" alt="Male" width="24" height="62" src="/assets/male.png"/></a>
 	</div>
-	<div style="margin-left:140px;text-align:center;">
+	<div style="margin-left:140px; text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;set_gender&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;female&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display =&quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
-	<img style="display : block; margin : auto;" alt="Right" width="24" height="62" src="/assets/female.png"/></a>
+	<img style="display : block; margin : auto;" alt="Female" width="24" height="62" src="/assets/female.png"/></a>
 	</div>
 	</div>
 	<div id="panel-2" style="display:none">
@@ -66,7 +66,7 @@ unless Content.find_by_title("What is your gender?")
 	Thank you!
 	</div>
 	<div class = "content_text">
-	We\'ve updated your health profile with your gender, and will us it to better personalize your expierence.
+	Your health profile has been updated with your gender. This will help us personalize your Better expierence.
 	</div>
 	</div>'
 		)
