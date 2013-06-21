@@ -176,6 +176,9 @@ class User < ActiveRecord::Base
     if !Content.where("title = 'Which hand do you hold your phone in?'").empty?
       UserReading.create(user:self, content:Content.where("title = 'Which hand do you hold your phone in?'").first)
     end
+    if !Content.where("title = 'What is your gender?'").empty?
+      UserReading.create(user:self, content:Content.where("title = 'What is your gender?'").first)
+    end
   end
 
   def allowed_to_edit_user? user_id
