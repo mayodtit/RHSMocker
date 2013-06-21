@@ -25,11 +25,11 @@ unless Content.find_by_title("Which hand do you hold your phone in?")
 	</div>
 	<div style="float:left; width:140px;text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;move_thumb&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;right&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
-	<img style="display : block; margin : auto;" alt="Left" width="43" height="63" src="/assets/lefthand_sm.png"/></a>
+	<img style="display : block; margin : auto; padding-top:5px;" alt="Left" width="54" height="60" src="/assets/lefthand_sm.png"/></a>
 	</div>
 	<div style="margin-left:140px;text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;move_thumb&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;left&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display =&quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
-	<img style="display : block; margin : auto;" alt="Right" width="43" height="63" src="/assets/righthand_sm.png"/></a>
+	<img style="display : block; margin : auto; padding-top:5px;" alt="Right" width="54" height="60" src="/assets/righthand_sm.png"/></a>
 	</div>
 	</div>
 	<div id="panel-2" style="display:none">
@@ -42,6 +42,36 @@ unless Content.find_by_title("Which hand do you hold your phone in?")
 	</div>'
 		)
 end
+
+
+unless Content.find_by_title("What is your gender?")
+	gender = Content.create!(
+		contentsType: 'Question',
+		title: 'What is your gender?',
+		body:'<div id="panel-1">
+	<div class = "content_subtitle">
+	Tell us a little about yourself.
+	</div>
+	<div style="float:left; width:140px;text-align:center;">
+	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;set_gender&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;male&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
+	<img style="display : block; margin : auto;" alt="Left" width="24" height="62" src="/assets/male.png"/></a>
+	</div>
+	<div style="margin-left:140px;text-align:center;">
+	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;set_gender&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;female&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display =&quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
+	<img style="display : block; margin : auto;" alt="Right" width="24" height="62" src="/assets/female.png"/></a>
+	</div>
+	</div>
+	<div id="panel-2" style="display:none">
+	<div class="content_subtitle">
+	Thank you!
+	</div>
+	<div class = "content_text">
+	We\'ve updated your health profile with your gender, and will us it to better personalize your expierence.
+	</div>
+	</div>'
+		)
+end
+
 # Create some default Users
 #nancy 	= User.create!(first_name: "Nancy", last_name: "Smith", 	gender:"F", birth_date:"06/18/1950", install_id: "123345")
 #bob 	= User.create!(first_name: "Bob", 	last_name: "Jones", 	gender:"M", birth_date:"01/10/1973", install_id: "122233")
