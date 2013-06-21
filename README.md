@@ -71,7 +71,7 @@ git push [remote for alpha] alpha:master
         <tokenizer class="solr.StandardTokenizerFactory"/>
         <filter class="solr.StandardFilterFactory"/>
         <filter class="solr.LowerCaseFilterFactory"/>
-        <filter class="solr.NGramFilterFactory" minGramSize="2" maxGramSize="15"/>
+        <filter class="solr.EdgeNGramFilterFactory" minGramSize="1" maxGramSize="15"/>
       </analyzer>
       <analyzer type="query">
         <tokenizer class="solr.StandardTokenizerFactory"/>
