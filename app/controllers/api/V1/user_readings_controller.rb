@@ -23,7 +23,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
     read.sort_by!{|obj| obj[:created_at]}
 
     #render_success({unread:unread, read:( read.slice( (page-1)*per_page, per_page ) || []) })
-    render_success({unread:unread, read:read)}
+    render_success({unread:unread, read:read})
   end
 
   def render_message_into_common_format message_status
