@@ -171,7 +171,10 @@ class User < ActiveRecord::Base
   def default_content
     #if for some reason, the content was not created yet, then there is no default content
     if !Content.where("title = 'Installed Better'").empty?
-      UserReading.create(user:self, content:Content.where("title = 'Installed Better'").first, save_date: Time.zone.now.iso8601, save_count: 1)
+      UserReading.create(user:self, content:Content.where("title = 'Installed Better'").first, read_date: Time.zone.now.iso8601, save_date: Time.zone.now.iso8601, save_count: 1)
+    end
+    if !Content.where("title = 'Do you have allergies?'").empty?
+      UserReading.create(user:self, content:Content.where("title = 'Do you have allergies?'").first)
     end
     if !Content.where("title = 'What is your gender?'").empty?
       UserReading.create(user:self, content:Content.where("title = 'What is your gender?'").first)

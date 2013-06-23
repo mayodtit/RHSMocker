@@ -50,14 +50,14 @@ unless Content.find_by_title("What is your gender?")
 		title: 'What is your gender?',
 		body:'<div id="panel-1">
 	<div class = "content_subtitle">
-	Help us get to know you:
+	Help us get to know you better:
 	</div>
 	<div style="float:left; width:140px;text-align:center;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;set_gender&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;male&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
+	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;change_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;male&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
 	<img style="display : block; margin : auto;" alt="Male" width="24" height="62" src="/assets/male.png"/></a>
 	</div>
 	<div style="margin-left:140px; text-align:center;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;set_gender&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;female&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display =&quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
+	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;change_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;female&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display =&quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
 	<img style="display : block; margin : auto;" alt="Female" width="24" height="62" src="/assets/female.png"/></a>
 	</div>
 	</div>
@@ -66,11 +66,43 @@ unless Content.find_by_title("What is your gender?")
 	Thank you!
 	</div>
 	<div class = "content_text">
-	Your health profile has been updated with your gender. This will help us personalize your Better expierence.
+	Your <a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_profile&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ;">
+	health profile</a> has been updated with your gender. This will help us personalize your Better expierence.
 	</div>
 	</div>'
 		)
 end
+
+unless Content.find_by_title("Do you have allergies?")
+	gender = Content.create!(
+		contentsType: 'Question',
+		title: 'Do you have allergies?',
+		body:'<div id="panel-1">
+	<div class = "content_subtitle">
+	Help us get to know you better:
+	</div>
+	<div style="float:left; width:140px;text-align:center;">
+	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_allergies&quot; } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
+	<img style="display : block; margin : auto;" alt="Have Allergies" width="53" height="53" src="/assets/allergy_icon.png"/></a>
+	</div>
+	<div style="margin-left:140px; text-align:center;">
+	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;add_allergy&quot; , &quot;body&quot; : {&quot;allergy_id&quot; : &quot;49&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display =&quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
+	<img style="display : block; margin : auto;" alt="No Allergies" width="53" height="53" src="/assets/allergy_none_icon.png"/></a>
+	</div>
+	</div>
+	<div id="panel-2" style="display:none">
+	<div class="content_subtitle">
+	Thank you!
+	</div>
+	<div class = "content_text">
+	Your <a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_profile&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ;">
+	health profile</a>  has been updated with your allergy information. This will be very helpful to us in personalizing your Better expierence.
+	</div>
+	</div>'
+		)
+end
+
+
 
 # Create some default Users
 #nancy 	= User.create!(first_name: "Nancy", last_name: "Smith", 	gender:"F", birth_date:"06/18/1950", install_id: "123345")
