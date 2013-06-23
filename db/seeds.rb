@@ -56,11 +56,11 @@ unless Content.find_by_title("What is your gender?")
 	Tell us a little about yourself so we can talior your Better experience;
 	</div>
 	<div style="float:left; width:140px;text-align:center;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;change_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;male&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
+	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;change_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;male&quot;}, {&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
 	<img style="display : block; margin : auto;" alt="Male" width="24" height="62" src="/assets/male.png"/></a>
 	</div>
 	<div style="margin-left:140px; text-align:center;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;change_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;female&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display =&quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
+	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;change_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;female&quot;} , {&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display =&quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
 	<img style="display : block; margin : auto;" alt="Female" width="24" height="62" src="/assets/female.png"/></a>
 	</div>
 	</div>
@@ -72,7 +72,7 @@ unless Content.find_by_title("What is your gender?")
 	Thank you!
 	</div>
 	<div class = "content_text">
-	Your <a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_profile&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot;">
+	Your <a href="#" onclick="document.actionJSON = \'[{ &quot;type&quot; : &quot;goto_profile&quot;} ]\'; window.location.href = &quot;http://dontload/&quot;">
 	health profile</a> has been updated with your gender. This will help us personalize your Better experience.
 	</div>
 	</div>'
@@ -104,7 +104,7 @@ unless Content.find_by_title("Do you have allergies?")
 	Thank you!
 	</div>
 	<div class = "content_text">
-	Your <a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_profile&quot;} } ]\';  window.location.href = &quot;http://dontload/&quot;">
+	Your <a href="#" onclick="document.actionJSON = \'[ { &quot;type&quot; : &quot;goto_profile&quot;} ]\';  window.location.href = &quot;http://dontload/&quot;">
 	health profile</a> has been updated with your allergy information. This will be very helpful to us in personalizing your Better experience.
 	</div>
 	</div>'
