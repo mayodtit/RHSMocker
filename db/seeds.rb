@@ -33,6 +33,9 @@ unless Content.find_by_title("Which hand do you hold your phone in?")
 	</div>
 	</div>
 	<div id="panel-2" style="display:none">
+	<script type="text/javascript">
+   		document.actionJSON = \'[{&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;actions&quot; : [&quot;dismiss&quot; ] } ]\';  window.location.href = &quot;http://dontload/&quot;
+	</script>
 	<div class="content_subtitle">
 	Thank you!
 	</div>
@@ -50,7 +53,7 @@ unless Content.find_by_title("What is your gender?")
 		title: 'What is your gender?',
 		body:'<div id="panel-1">
 	<div class = "content_subtitle">
-	Help us get to know you better:
+	Tell us a little about yourself so we can talior your Better experience;
 	</div>
 	<div style="float:left; width:140px;text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;change_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;male&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
@@ -62,12 +65,15 @@ unless Content.find_by_title("What is your gender?")
 	</div>
 	</div>
 	<div id="panel-2" style="display:none">
+	<script type="text/javascript">
+   		document.actionJSON = \'[{&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;actions&quot; : [&quot;dismiss&quot; ] } ]\';  window.location.href = &quot;http://dontload/&quot;
+	</script>
 	<div class="content_subtitle">
 	Thank you!
 	</div>
 	<div class = "content_text">
-	Your <a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_profile&quot;} } ]\';">
-	health profile</a> has been updated with your gender. This will help us personalize your Better expierence.
+	Your <a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_profile&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot;">
+	health profile</a> has been updated with your gender. This will help us personalize your Better experience.
 	</div>
 	</div>'
 		)
@@ -79,7 +85,7 @@ unless Content.find_by_title("Do you have allergies?")
 		title: 'Do you have allergies?',
 		body:'<div id="panel-1">
 	<div class = "content_subtitle">
-	Help us get to know you better:
+	Understanding your allergies will help us provide you better care.
 	</div>
 	<div style="float:left; width:140px;text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_allergies&quot; } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
@@ -91,12 +97,15 @@ unless Content.find_by_title("Do you have allergies?")
 	</div>
 	</div>
 	<div id="panel-2" style="display:none">
+	<script type="text/javascript">
+   		document.actionJSON = \'[{&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;actions&quot; : [&quot;dismiss&quot; ] } ]\';  window.location.href = &quot;http://dontload/&quot;
+	</script>
 	<div class="content_subtitle">
 	Thank you!
 	</div>
 	<div class = "content_text">
-	Your <a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_profile&quot;} } ]\';">
-	health profile</a>  has been updated with your allergy information. This will be very helpful to us in personalizing your Better expierence.
+	Your <a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_profile&quot;} } ]\';  window.location.href = &quot;http://dontload/&quot;">
+	health profile</a> has been updated with your allergy information. This will be very helpful to us in personalizing your Better experience.
 	</div>
 	</div>'
 		)
