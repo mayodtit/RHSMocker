@@ -66,7 +66,7 @@ unless Content.find_by_title("What is your gender?")
 	Thank you!
 	</div>
 	<div class = "content_text">
-	Your <a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_profile&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ;">
+	Your <a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_profile&quot;} } ]\';">
 	health profile</a> has been updated with your gender. This will help us personalize your Better expierence.
 	</div>
 	</div>'
@@ -95,7 +95,7 @@ unless Content.find_by_title("Do you have allergies?")
 	Thank you!
 	</div>
 	<div class = "content_text">
-	Your <a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_profile&quot;} } ]\'; window.location.href = &quot;http://dontload/&quot; ;">
+	Your <a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_profile&quot;} } ]\';">
 	health profile</a>  has been updated with your allergy information. This will be very helpful to us in personalizing your Better expierence.
 	</div>
 	</div>'
