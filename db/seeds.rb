@@ -34,7 +34,7 @@ unless Content.find_by_title("Which hand do you hold your phone in?")
 	</div>
 	<div id="panel-2" style="display:none">
 	<script type="text/javascript">
-   		document.actionJSON = \'[{&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;actions&quot; : [&quot;dismiss&quot; ] } ]\';  window.location.href = &quot;http://dontload/&quot;
+   		document.actionJSON = "\'[{&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ]\';  window.location.href = &quot;http://dontload/&quot;""
 	</script>
 	<div class="content_subtitle">
 	Thank you!
@@ -66,7 +66,7 @@ unless Content.find_by_title("What is your gender?")
 	</div>
 	<div id="panel-2" style="display:none">
 	<script type="text/javascript">
-   		document.actionJSON = \'[{&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;actions&quot; : [&quot;dismiss&quot; ] } ]\';  window.location.href = &quot;http://dontload/&quot;
+   		document.actionJSON = "\'[{&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ]\';  window.location.href = &quot;http://dontload/&quot;""
 	</script>
 	<div class="content_subtitle">
 	Thank you!
@@ -98,7 +98,7 @@ unless Content.find_by_title("Do you have allergies?")
 	</div>
 	<div id="panel-2" style="display:none">
 	<script type="text/javascript">
-   		document.actionJSON = \'[{&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;actions&quot; : [&quot;dismiss&quot; ] } ]\';  window.location.href = &quot;http://dontload/&quot;
+   		document.actionJSON = "\'[{&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ]\';  window.location.href = &quot;http://dontload/&quot;""
 	</script>
 	<div class="content_subtitle">
 	Thank you!
