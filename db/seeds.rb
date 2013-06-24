@@ -312,14 +312,14 @@ Treatment::Surgery.find_or_create_by_name(:name=>"Appendectomy",:snomed_name=>"A
 
 
 #FactorGroup
-pain_is_factor_group =FactorGroup.find_or_create_by_name(:name=>"Pain is")
-caused_by_factor_group = FactorGroup.find_or_create_by_name(:name=>"Caused by")
-problem_is_factor_group = FactorGroup.find_or_create_by_name(:name=>"Problem is")
+pain_is_factor_group 		= FactorGroup.find_or_create_by_name(:name=>"Pain is")
+caused_by_factor_group 		= FactorGroup.find_or_create_by_name(:name=>"Caused by")
+problem_is_factor_group 	= FactorGroup.find_or_create_by_name(:name=>"Problem is")
 accompanied_by_factor_group = FactorGroup.find_or_create_by_name(:name=>"Accompanied by")
-relieved_by_factor_group = FactorGroup.find_or_create_by_name(:name=>"Relieved by")
-important_factor_group = FactorGroup.find_or_create_by_name(:name=>"Important")
-triggered_by_factor_group = FactorGroup.find_or_create_by_name(:name=>"Triggered by")
-pain_located_factor_group = FactorGroup.find_or_create_by_name(:name=>"Pain located")
+relieved_by_factor_group 	= FactorGroup.find_or_create_by_name(:name=>"Relieved by")
+important_factor_group 		= FactorGroup.find_or_create_by_name(:name=>"Important")
+triggered_by_factor_group 	= FactorGroup.find_or_create_by_name(:name=>"Triggered by")
+pain_located_factor_group 	= FactorGroup.find_or_create_by_name(:name=>"Pain located")
 
 #Factor
 intense_factor = Factor.find_or_create_by_name(:name=>"Intense")
@@ -645,56 +645,56 @@ SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id
   :er_worthy=>true,
   :symptom_id=>abdominal_pain_symptom.id,
   :factor_id=>pain_from_accident_or_injury_factor.id,
-  :factor_group_id=>triggered_factor_group.id
+  :factor_group_id=>triggered_by_factor_group.id
 )
 SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>true,
   :symptom_id=>abdominal_pain_symptom.id,
   :factor_id=>pain_in_chest_neck_shoulder_factor.id,
-  :factor_group_id=>triggered_factor_group.id
+  :factor_group_id=>triggered_by_factor_group.id
 )
 SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>true,
   :symptom_id=>abdominal_pain_symptom.id,
   :factor_id=>short_of_breath_or_dizzy_factor.id,
-  :factor_group_id=>triggered_factor_group.id
+  :factor_group_id=>triggered_by_factor_group.id
 )
 SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>true,
   :symptom_id=>abdominal_pain_symptom.id,
   :factor_id=>vomiting_blood_factor.id,
-  :factor_group_id=>triggered_factor_group.id
+  :factor_group_id=>triggered_by_factor_group.id
 )
 SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>true,
   :symptom_id=>abdominal_pain_symptom.id,
   :factor_id=>blood_in_urine_factor.id,
-  :factor_group_id=>triggered_factor_group.id
+  :factor_group_id=>triggered_by_factor_group.id
 )
 SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>true,
   :symptom_id=>abdominal_pain_symptom.id,
   :factor_id=>abdomen_swollen_or_tender_factor.id,
-  :factor_group_id=>triggered_factor_group.id
+  :factor_group_id=>triggered_by_factor_group.id
 )
 SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>true,
   :symptom_id=>abdominal_pain_symptom.id,
   :factor_id=>high_fever_factor.id,
-  :factor_group_id=>triggered_factor_group.id
+  :factor_group_id=>triggered_by_factor_group.id
 )
 SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>true,
   :symptom_id=>abdominal_pain_symptom.id,
   :factor_id=>persistant_nausea_or_vomiting_factor.id,
-  :factor_group_id=>triggered_factor_group.id
+  :factor_group_id=>triggered_by_factor_group.id
 )
 
 SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
