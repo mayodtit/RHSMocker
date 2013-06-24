@@ -24,11 +24,11 @@ unless Content.find_by_title("Which hand do you hold your phone in?")
 	Try answering questions in Better:
 	</div>
 	<div style="float:left; width:140px; text-align:center; padding-top:5px;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;move_thumb&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;right&quot;} }, {&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ] \'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
+	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;move_thumb&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;right&quot;} }, {&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ] \'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot; ; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
 	<img style="display : block; margin : auto; padding-top:5px;" alt="Left" width="54" height="60" src="/assets/lefthand_sm.png"/></a>
 	</div>
 	<div style="margin-left:140px; text-align:center; padding-top:5px;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;move_thumb&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;left&quot;} }, {&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ] \'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
+	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;move_thumb&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;left&quot;} }, {&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ] \'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot; ; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
 	<img style="display : block; margin : auto; padding-top:5px;" alt="Right" width="54" height="60" src="/assets/righthand_sm.png"/></a>
 	</div>
 	</div>
@@ -56,7 +56,7 @@ unless Content.find_by_title("What is your gender?")
 	Gender helps us personalize your Better experience:
 	</div>
 	<div style="float:left; width:140px;text-align:center;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;change_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;male&quot;}}, {&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ] \'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
+	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;change_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;male&quot;} }, {&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
 	<img style="display : block; margin : auto;" alt="Male" width="24" height="62" src="/assets/male.png"/></a>
 	</div>
 	<div style="margin-left:140px; text-align:center;">
@@ -65,15 +65,6 @@ unless Content.find_by_title("What is your gender?")
 	</div>
 	</div>
 	<div id="panel-2" style="display:none">
-	<div class="content_subtitle">
-	Thank you!
-	</div>
-	<div class = "content_text">
-	Your <a href="#" onclick="document.actionJSON = \'[{ &quot;type&quot; : &quot;goto_profile&quot;} ]\'; window.location.href = &quot;http://dontload/&quot;">
-	health profile</a> has been updated with your gender. This will help us personalize your Better experience.
-	</div>
-	</div>
-	<div id="panel-3" style="display:none">
 	<div class="content_subtitle">
 	Thank you!
 	</div>
@@ -94,7 +85,8 @@ unless Content.find_by_title("Do you have allergies?")
 	Understanding your allergies will help us provide you great care.
 	</div>
 	<div style="float:left; width:140px;text-align:center;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_allergies&quot; , {&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ] \'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
+
+	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_allergies&quot; , {&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ]\'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot;; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
 	<img style="display : block; margin : auto;" alt="Have Allergies" width="53" height="53" src="/assets/allergy_icon.png"/></a>
 	</div>
 	<div style="margin-left:140px; text-align:center;">
