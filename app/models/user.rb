@@ -2,9 +2,9 @@ class User < ActiveRecord::Base
   rolify
   authenticates_with_sorcery!
 
-  attr_accessible :first_name, :last_name, :image_url, :gender, :height, :birth_date, :install_id, :email, :phone,\
-                  :generic_call_time, :password, :password_confirmation, :feature_bucket, :blood_type, :holds_phone_in,\
-                  :diet_id, :ethnic_group_id, :npi_number, :alive, :date_of_death, :expertise
+  attr_accessible :first_name, :last_name, :image_url, :gender, :height, :birth_date, :install_id, :email, :phone,
+                  :generic_call_time, :password, :password_confirmation, :feature_bucket, :blood_type, :holds_phone_in,
+                  :diet_id, :ethnic_group_id, :npi_number, :alive, :date_of_death, :expertise, :city, :state
 
   after_create :default_content
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130619231304) do
+ActiveRecord::Schema.define(:version => 20130626203053) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -259,6 +259,7 @@ ActiveRecord::Schema.define(:version => 20130619231304) do
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
+
   create_table "offerings", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
@@ -499,6 +500,8 @@ ActiveRecord::Schema.define(:version => 20130619231304) do
     t.boolean  "alive",                                                                       :default => true
     t.date     "date_of_death"
     t.string   "expertise"
+    t.string   "city"
+    t.string   "state"
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"
