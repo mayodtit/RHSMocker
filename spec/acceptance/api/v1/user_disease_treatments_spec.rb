@@ -51,7 +51,7 @@ resource "UserDiseaseTreatments" do
     parameter :treatment_id,            "ID of the treatment the user is using"
     parameter :user_disease_id,         "ID of the user disease this treatment is for"
     parameter :prescribed_by_doctor,    "Boolean; is the treatment prescribed by a HCP"
-    parameter :doctor_user_id,          "ID of HCP that prescribed the treatment"
+    parameter :doctor_user_id,          "ID of HCP that prescribed the treatment, required if prescribed_by_doctor is set"
     parameter :start_date,              "Start date of this treatment"
     parameter :end_date,                "End date of this treatment"
     parameter :time_duration,           "Integer; frequency of treatment - how often"

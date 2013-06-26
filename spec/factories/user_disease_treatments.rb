@@ -3,7 +3,7 @@ FactoryGirl.define do
     user
     treatment
     user_disease { association :user_disease, :user => user }
-    prescribed_by_doctor      true
+    prescribed_by_doctor      false
     start_date                { Date.today }
     end_date                  nil
     sequence(:time_duration)  {|n| n+1 }
