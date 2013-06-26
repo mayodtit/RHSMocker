@@ -61,5 +61,11 @@ module RHSMocker
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # user Rails routes to handle exceptions by status code
+    config.exceptions_app = self.routes
+
+    # add exception status codes to configuration, don't forget to add the status code route too!
+    config.action_dispatch.rescue_responses.merge!('Error::PreconditionFailed' => :precondition_failed)
   end
 end
