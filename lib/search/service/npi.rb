@@ -3,8 +3,9 @@ class Search::Service::Npi
   base_uri 'http://docnpi.com'
 
   def query(search_params)
-    sanitize_response(self.class.get('/api/index.php', :query => search_params.merge(:format => :json))
-                      .parsed_response)
+    response = self.class.get('/api/index.php', :query => search_params.merge(:format => :json))
+    raise StandardError, 'Non-success response from NPI database' unless response.success?
+    sanitize_response(response.parsed_response)
   end
 
   def find(params)
