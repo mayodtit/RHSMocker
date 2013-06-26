@@ -86,6 +86,7 @@ class User < ActiveRecord::Base
   validates_confirmation_of :password, :message => "should match confirmation", :if => :password
 
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
+  validates :deceased, :inclusion => {:in => [true, false]}
 
   def admin?
     has_role? :admin
