@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :treatment do
+  factory :treatment, :class => Treatment::Medicine do
     sequence(:name) { |n| "penicillin #{n}" }
 
     factory :medicine_treatment, :class => Treatment::Medicine

@@ -6,6 +6,8 @@ class Treatment < ActiveRecord::Base
   has_many :treatment_side_effects
   has_many :side_effects, :through => :treatment_side_effects
 
+  validates :type, :presence => true
+
   searchable do
     text :name
     text :snomed_name

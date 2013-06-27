@@ -9,6 +9,16 @@ describe Treatment do
       treatment.save.should be_true
       treatment.should be_persisted
     end
+
+    it 'defaults to Treatment::Medicine type' do
+      treatment.should be_instance_of(Treatment::Medicine)
+    end
+  end
+
+  describe 'validations' do
+    it 'requires type' do
+      build(:treatment, :type => nil).should_not be_valid
+    end
   end
 
   describe '#as_json' do
@@ -24,12 +34,7 @@ describe Treatment do
 
   describe '#type_name' do
     it 'returns the type as a string' do
-      treatment.type_name.should == 'treatment'
-    end
-
-    it "returns 'treatment' when nil" do
-      treatment.type = nil
-      treatment.type_name.should == 'treatment'
+      treatment.type_name.should == 'medicine'
     end
   end
 end
