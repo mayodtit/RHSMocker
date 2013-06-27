@@ -1,4 +1,6 @@
 class Associate < User
+  validates :city, :state, :presence => true, :if => lambda{|a| a.inverse_associations.hcp.any?}
+
   def as_json options=nil
     super.merge({
       :user_diseases=>user_diseases,

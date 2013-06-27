@@ -500,6 +500,8 @@ ActiveRecord::Schema.define(:version => 20130626205348) do
     t.date     "date_of_death"
     t.string   "expertise"
     t.boolean  "deceased",                                                                    :default => false, :null => false
+    t.string   "city"
+    t.string   "state"
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"

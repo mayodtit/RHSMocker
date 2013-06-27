@@ -6,6 +6,10 @@ class Association < ActiveRecord::Base
 
   validate :not_its_own_associate
 
+  def self.hcp
+    joins(:association_type).where(:association_types => {:relationship_type => 'hcp'})
+  end
+
   def not_its_own_associate
     errors.add(:user, "cannot be associated to itself") if self.user.id==self.associate.id
   end 
