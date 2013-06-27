@@ -19,10 +19,10 @@ class Search::Service::Npi
     return response if response.empty?
     response.values.map do |user|
       {
-        :first_name => user['first_name'],
-        :last_name => user['last_name'],
+        :first_name => user['first_name'].titleize(:underscore => false, :humanize => false),
+        :last_name => user['last_name'].titleize(:underscore => false, :humanize => false),
         :npi_number => user['npi'],
-        :city => user['city'],
+        :city => user['city'].titleize(:underscore => false, :humanize => false),
         :state => user['state'],
         :expertise => user['description']
       }
