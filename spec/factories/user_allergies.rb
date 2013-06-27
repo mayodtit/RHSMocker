@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :user_allergy do
-    user nil
-    allergy nil 
+    association :user
+    association :allergy
   end
 end

@@ -15,7 +15,8 @@ resource "Associations" do
     @treatment = FactoryGirl.create(:treatment)
     @user_disease_treatment = FactoryGirl.create(:user_disease_treatment, :user_disease=>@user_disease, :treatment=>@treatment)
     @allergy = FactoryGirl.create(:allergy)
-    @associate = FactoryGirl.create(:associate, :user_diseases=>[@user_disease], :allergies=>[@allergy])
+    @associate = FactoryGirl.create(:associate, :user_diseases=>[@user_disease])
+    @associate.allergies << @allergy
     @association_type = FactoryGirl.create(:association_type)
     @association = FactoryGirl.create(:association, :user=>@user, :associate=>@associate, :association_type=>@association_type)
 
