@@ -16,6 +16,7 @@ class Search::Service::Npi
   private
 
   def sanitize_response(response)
+    return response if response.empty?
     response.values.map do |user|
       {
         :first_name => user['first_name'],
