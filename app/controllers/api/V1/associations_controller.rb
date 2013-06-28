@@ -3,7 +3,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   before_filter :check_association, :except=>:index
 
-  attr_accessible :first_name, :last_name, :npi_number, :expertise
+  attr_accessible :first_name, :last_name, :npi_number, :expertise, :city, :state
 
   def create
     if params[:association][:user_id]
@@ -67,7 +67,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
     if params[:association][:associate].try(:[], :npi_number)
       associate = Associate.find_by_npi_number(params[:association][:associate][:npi_number])
       return associate if associate
-      associate = Associate.new sanitize_for_mass_assignment(search_service.find(:npi_number => params[:association][:associate][:npi_number]))
+      associate = Associate.new sanitize_for_mass_assignment(search_service.find(params[:association][:associate]))
       associate.save(:validate=>false)
       associate
     else
