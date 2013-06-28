@@ -4,7 +4,9 @@ class SymptomsFactor < ActiveRecord::Base
   belongs_to :factor_group
   has_many :contents_symptoms_factors
   has_many :contents, :through => :contents_symptoms_factors
-  attr_accessible :doctor_call_worthy, :er_worthy
+
+  attr_accessible :symptom, :factor, :factor_group
+  attr_accessible :doctor_call_worthy, :er_worthy, :symptom_id, :factor_id, :factor_group_id
 
   def as_json options=nil
     {
