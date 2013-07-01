@@ -13,14 +13,10 @@
 	  <span style="display:inline-block;margin-top:3px;"><%= @content.contentsType %></span>
 	</div>
   <div class="content_title">
-  	<%= @content.title %>
+  	<%= @content.title.html_safe %>
   </div>
   <div class="content_date_and_source">
-    <% if !@content.updateDate.nil? %>
-      <%= @content.updateDate.strftime("%b. #{@content.updateDate.day.ordinalize}, %Y") %>
-    <% end %>
     <% if not ["Question", "Message"].include?(@content.contentsType) %>
-      &nbsp;&nbsp;|&nbsp;&nbsp;
       <%= image_tag("mayo_clinic_logo.png", :class => "mayo_icon") %>&nbsp;&nbsp;Mayo Clinic</div>
     <% end %>
     <% if ["Question"].include?(@content.contentsType) %>
