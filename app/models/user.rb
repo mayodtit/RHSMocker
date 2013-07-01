@@ -125,6 +125,9 @@ class User < ActiveRecord::Base
     User.destroy(user.id)
   end
 
+  def most_recent_blood_pressure
+    BloodPressure.most_recent_for_user(self)
+  end
 
   def as_json options=nil
     {
@@ -147,7 +150,8 @@ class User < ActiveRecord::Base
       deceased:deceased,
       date_of_death:date_of_death,
       npi_number:npi_number,
-      expertise:expertise
+      expertise:expertise,
+      blood_pressure: most_recent_blood_pressure
     }
   end
 
