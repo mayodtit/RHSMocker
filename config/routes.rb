@@ -11,6 +11,7 @@ RHSMocker::Application.routes.draw do
         resources :credits, :only => [:index, :show] do
           get 'summary', :on => :collection
         end
+        resources :blood_pressures, :only => :index
       end
 
       #account management
