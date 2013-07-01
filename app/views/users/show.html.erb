@@ -14,7 +14,7 @@
   <tbody>
   <% @user.user_weights.each do | userWeight | %>
       <tr> 
-        <td> <%= userWeight.poundsForKg(userWeight.weight) %> </td>
+        <td> <%= userWeight.weight %> </td>
         <td> <%= userWeight.bmi %></td>
       </tr>
     <% end %>
