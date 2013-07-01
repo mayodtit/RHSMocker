@@ -14,6 +14,7 @@
 <% end %> -->
 <% if not ["Quiz", "Question"].include?(@content.contentsType) %>
 <div class="content_text"><% if !@content.body.nil? %><%=@content.reformattedBody.html_safe%><% end %></div>
+<div class="mayo_copyright">&copy;&nbsp;2013&nbsp;Mayo Foundation for Medical Education and Research (MFMER). All rights reserved.</div>
 <% else %>
 <div class="content_text"><% if !@content.body.nil? %><%=@content.body.html_safe%><% end %></div>
 <% end %>
