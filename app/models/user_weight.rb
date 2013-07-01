@@ -1,43 +1,22 @@
 class UserWeight < ActiveRecord::Base
-  attr_accessible :user, :weight, :bmi, :taken_at
-
   belongs_to :user
 
-  validates :weight, :presence => true
+  attr_accessible :user
+  attr_accessible :user_id, :weight, :bmi, :taken_at
 
-  after_create do |variable|
-    self.updateBMI
+  validates :user, :weight, :taken_at, presence: true
+
+  before_validation :set_bmi
+
+  def self.most_recent_for_user(user)
+    where(:user_id => (user.try_method(:id) || user)).order('taken_at DESC').first
   end
 
-  #Check writes
-  #convert to lbs and inches?
+  private
 
-  #Metric BMI is kg/m(2)
-  def updateBMI
-    if (!user.height.nil?)
-      heightInMeters = self.user.height * 0.01
-      if (user.height > 0) && (weight > 0)
-        self.bmi = self.weight / (heightInMeters * heightInMeters)
-        save!
-      end
-    end
+  # metric bmi calculation is kg / m^2
+  def set_bmi
+    return true if !weight || !user.try(:height) || !(user.height > 0 && weight > 0)
+    self.bmi = self.weight / ((user.height * 0.01)**2)
   end
-
-  #Braindamage - move to a utilities class
-  def metersForInches(inches)
-    meters = inches * 0.0254
-  end
-
-  def inchesForMeters(meters)
-    inches = meters * 39.3701
-  end
-
-  def poundsForKg(kg)
-    lbs = kg * 2.2
-  end
-
-  def kgForPounds(lbs)
-    kg = lbs / 2.2
-  end
-
 end
