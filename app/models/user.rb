@@ -129,6 +129,10 @@ class User < ActiveRecord::Base
     BloodPressure.most_recent_for_user(self)
   end
 
+  def most_recent_weight
+    UserWeight.most_recent_for_user(self)
+  end
+
   def as_json options=nil
     {
       id:id,
@@ -151,7 +155,8 @@ class User < ActiveRecord::Base
       date_of_death:date_of_death,
       npi_number:npi_number,
       expertise:expertise,
-      blood_pressure: most_recent_blood_pressure
+      blood_pressure: most_recent_blood_pressure,
+      weight: most_recent_weight
     }
   end
 

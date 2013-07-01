@@ -8,6 +8,10 @@ class UserWeight < ActiveRecord::Base
 
   before_validation :set_bmi
 
+  def self.most_recent_for_user(user)
+    where(:user_id => (user.try_method(:id) || user)).order('taken_at DESC').first
+  end
+
   private
 
   # metric bmi calculation is kg / m^2
