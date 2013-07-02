@@ -23,20 +23,33 @@ resource "UserDiseases" do
     @association = FactoryGirl.create(:association, :user=>@user, :associate=>@associate)
   end
 
-
   get '/api/v1/user_diseases' do
     parameter :auth_token,       "User's auth token"
     required_parameters :auth_token
 
     let(:auth_token)    { @user.auth_token }
 
-    example_request "[GET] Get all of this user's diseases" do
+    example_request "[GET] Get all of this user's diseases [DEPRECATED]" do
       explanation "Returns an array of diseases"
       status.should == 200
       JSON.parse(response_body)['user_diseases'].should be_a Array
     end
   end
 
+  get '/api/v1/users/:user_id/diseases' do
+    parameter :user_id, "User ID for which to fetch disease information"
+    parameter :auth_token, "User's auth token"
+    required_parameters :user_id, :auth_token
+
+    let(:user_id) { @user.id }
+    let(:auth_token) { @user.auth_token }
+
+    example_request "[GET] Get all diseases for a given user" do
+      explanation "Returns an array of diseases"
+      status.should == 200
+      JSON.parse(response_body)['user_diseases'].should be_a Array
+    end
+  end
 
   describe 'create user_disease' do
     parameter :auth_token,    "User's auth token"
