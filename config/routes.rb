@@ -2,6 +2,8 @@ RHSMocker::Application.routes.draw do
 
   namespace :api do
     namespace :v1 do
+      resources :remote_events, :only => :create
+
       resources :side_effects, :only => :index
 
       resources :plans, :only => [:index, :show]
