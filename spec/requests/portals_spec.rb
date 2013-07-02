@@ -7,14 +7,14 @@ describe "Portals" do
 
   end
 
-  it "goes to login page when user attempts to access portal" do
+  xit "goes to login page when user attempts to access portal" do
     visit root_path
     click_link "Messages"
     current_path.should == login_path
     page.should have_content("First log in")
   end
 
-  it "should let user log into portal" do
+  xit "should let user log into portal" do
     visit login_path
     fill_in "Email", :with => @user.email
     fill_in "Password",  :with => 'password'
@@ -22,7 +22,7 @@ describe "Portals" do
     page.should have_content("Logged in")
   end
 
-  it "should not let patients log into portal" do
+  xit "should not let patients log into portal" do
     visit root_path
     click_link "Messages"
     fill_in "Email", :with => @user.email
@@ -31,7 +31,7 @@ describe "Portals" do
     page.should have_content("Access Denied")
   end
 
-  it "should let HCP log into the portal" do
+  xit "should let HCP log into the portal" do
     visit root_path
     click_link "Messages"
     fill_in "Email", :with => @hcp_user.email
