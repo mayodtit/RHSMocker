@@ -74,16 +74,12 @@ def reformattedBody
   body
 end
 
-########
-# THIS IS NOT HOW I PLAN ON DOING IT - TESTING OUT THE IDEA FIRST
-# VIEW CODE IN THE MODEL == BAD
-########
+#Note: The image with the Health Advocate Text is served up in the CSS talk class. 
  def talkDiv
 	insertHTML = '<div class="talk" ' 
 	insertHTML += javascriptOpening 
   insertHTML += "'></div>"
-	# insertHTML += '><div class="talk_icon"></div><div class="talk_content">Would you like to discuss this with a healthcare professional?</div></div>'
-  insertHTML
+	insertHTML
  end
 
  def javascriptOpening
