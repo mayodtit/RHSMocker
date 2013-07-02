@@ -1,10 +1,10 @@
 class Api::V1::BloodPressuresController < Api::V1::ABaseController
   before_filter :load_user!
-  before_filter :load_blood_pressure!, shallow: true
+  before_filter :load_blood_pressure!, only: :destroy
   before_filter :add_default_collection_type, only: :create
 
   def index
-    render_success(blood_pressures: @user.blood_pressures.order('taken_at DESC'))
+    render_success(blood_pressures: @user.blood_pressures)
   end
 
   def create
