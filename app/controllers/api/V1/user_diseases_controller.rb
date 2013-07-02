@@ -1,5 +1,10 @@
 class Api::V1::UserDiseasesController < Api::V1::ABaseController
+  before_filter :load_user!
   before_filter :check_disease, :only=>[:create, :update, :remove]
+
+  def index
+    render_success(user_diseases: @user.user_diseases)
+  end
 
   def create
     return render_failure({reason:"Disease_id not supplied"}, 412) unless params[:user_disease][:disease_id].present?
@@ -18,10 +23,6 @@ class Api::V1::UserDiseasesController < Api::V1::ABaseController
     else
       render_failure( {reason:user_disease.errors.full_messages.to_sentence}, 422 )
     end
-  end
-
-  def index
-    render_success({user_diseases:current_user.user_diseases})
   end
 
   def update
@@ -59,6 +60,10 @@ class Api::V1::UserDiseasesController < Api::V1::ABaseController
   end
 
   private
+
+  def load_user!
+    @user = params[:user_id] ? User.find(params[:user_id]) : current_user
+  end
 
   def check_disease
     return render_failure({reason:"user_disease not supplied"}, 412) unless params[:user_disease].present?
