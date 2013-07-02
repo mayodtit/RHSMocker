@@ -24,7 +24,22 @@ resource "UserWeights" do
 
     let (:auth_token) { @user.auth_token }
 
-    example_request "[GET] Get all user's weights" do
+    example_request "[GET] Get all user's weights [DEPRECATED]" do
+      explanation "Returns an array of weights recorded by the user"
+      status.should == 200
+      JSON.parse(response_body)['weights'].should be_a Array
+    end
+  end
+
+  get 'api/v1/users/:user_id/weights' do
+    parameter :user_id, "User ID for which to get weights"
+    parameter :auth_token, "User's auth_token"
+    required_parameters :auth_token
+
+    let(:auth_token) { @user.auth_token }
+    let(:user_id) { @user.id }
+
+    example_request "[GET] Get all weights for a user" do
       explanation "Returns an array of weights recorded by the user"
       status.should == 200
       JSON.parse(response_body)['weights'].should be_a Array

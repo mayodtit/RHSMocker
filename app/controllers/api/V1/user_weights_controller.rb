@@ -1,7 +1,7 @@
 class Api::V1::UserWeightsController < Api::V1::ABaseController
   def index
     @weights = weights_scope.order('taken_at DESC').all
-    render_success({user_weights: @weights})
+    render_success({weights: @weights})
   end
 
   def create
