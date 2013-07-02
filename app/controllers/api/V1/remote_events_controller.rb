@@ -3,7 +3,7 @@ class Api::V1::RemoteEventsController < Api::V1::ABaseController
 
   def create
     has_errors = false
-    json = params['Events'].inject([]) do |event, response|
+    json = params['Events'].inject([]) do |response, event|
       remote_event = RemoteEvent.create(format_params(event, params['Properties']))
       if remote_event.errors.empty?
         response << {status: :success}
