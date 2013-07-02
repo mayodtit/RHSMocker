@@ -50,6 +50,65 @@ describe Api::V1::BloodPressuresController do
     end
   end
 
-  describe 'POST create'
+  describe 'POST create' do
+    def do_request
+      post :create, blood_pressure: blood_pressure.as_json
+    end
+
+    let(:blood_pressures) { double('blood_pressures', :create => blood_pressure) }
+
+    before(:each) do
+      user.stub(:blood_pressures => blood_pressures)
+    end
+
+    it 'requires authentication' do
+      do_request
+      response.should_not be_success
+      json = JSON.parse(response.body)
+      json['reason'].should == "Invalid auth_token"
+    end
+
+    context 'user signed-in' do
+      before(:each) do
+        controller.stub(:authentication_check)
+        controller.stub(:current_user => user)
+      end
+
+      it 'requires User authorization' do
+        expect{ do_request }.to raise_error(CanCan::AccessDenied)
+      end
+
+      context 'authorized' do
+        before(:each) do
+          controller.stub(:authorize!)
+        end
+
+        context 'save succeeds' do
+          it 'returns success' do
+            do_request
+            response.should be_success
+          end
+
+          it 'returns the blood pressure' do
+            do_request
+            json = JSON.parse(response.body)
+            json['blood_pressure'].to_json.should == blood_pressure.as_json.to_json
+          end
+        end
+
+        context 'save fails' do
+          before(:each) do
+            blood_pressure.errors.add(:base, :invalid)
+          end
+
+          it 'returns failure' do
+            do_request
+            response.should_not be_success
+          end
+        end
+      end
+    end
+  end
+
   describe 'delete destroy'
 end

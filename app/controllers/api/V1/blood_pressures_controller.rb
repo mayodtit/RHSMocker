@@ -12,7 +12,7 @@ class Api::V1::BloodPressuresController < Api::V1::ABaseController
     if @blood_pressure.errors.empty?
       render_success(blood_pressure: @blood_pressure)
     else
-      render_failure({reason: @blood_pressure.errrors.full_messages.to_sentence}, 412)
+      render_failure({reason: @blood_pressure.errors.full_messages.to_sentence}, 412)
     end
   end
 
