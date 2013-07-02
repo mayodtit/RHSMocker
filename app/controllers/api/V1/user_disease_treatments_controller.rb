@@ -1,5 +1,10 @@
 class Api::V1::UserDiseaseTreatmentsController < Api::V1::ABaseController
+  before_filter :load_user!, :only => :index
   before_filter :check_treatment, :only=>[:create, :update, :remove]
+
+  def index
+    render_success(user_disease_treatments: @user.user_disease_treatments)
+  end
 
   def create
     return render_failure({reason:"Treatment_id not supplied"}, 412) unless params[:user_disease_treatment][:treatment_id].present?
@@ -75,6 +80,10 @@ class Api::V1::UserDiseaseTreatmentsController < Api::V1::ABaseController
   end
 
   private
+
+  def load_user!
+    @user = params[:user_id] ? User.find(params[:user_id]) : current_user
+  end
 
   def link_side_effects(user_disease_treatment, attributes_array)
     attributes_array.each_with_index do |attributes, index|

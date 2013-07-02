@@ -14,6 +14,7 @@ RHSMocker::Application.routes.draw do
         end
         resources :blood_pressures, :only => :index
         resources :weights, :only => :index, :controller => 'user_weights'
+        resources :treatments, :only => :index, :controller => 'user_disease_treatments'
       end
 
       #account management
