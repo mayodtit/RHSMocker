@@ -7,6 +7,7 @@ RHSMocker::Application.routes.draw do
       resources :plans, :only => [:index, :show]
 
       resources :users, :only => :index do
+        resources :allergies, :only => :index, :controller => 'user_allergies'
         resources :subscriptions, :except => [:new, :edit]
         resources :credits, :only => [:index, :show] do
           get 'summary', :on => :collection

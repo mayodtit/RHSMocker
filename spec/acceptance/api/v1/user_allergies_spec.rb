@@ -23,20 +23,18 @@ resource "UserAllergies" do
     @association = FactoryGirl.create(:association, :user=>@user, :associate=>@associate)
   end
 
-
   get '/api/v1/user_allergies' do
     parameter :auth_token,    "User's auth token"
     required_parameters :auth_token
 
     let(:auth_token)  { @user.auth_token }
 
-    example_request "[GET] Get all of this user's allergies" do
+    example_request "[GET] Get all of this user's allergies [DEPRECATED]" do
       explanation "Returns an array of allergies"
       status.should == 200
       JSON.parse(response_body)['user_allergies'].should be_a Array
     end
   end
-
 
   get '/api/v1/user_allergies' do
     parameter :auth_token,    "User's auth token"
@@ -46,13 +44,27 @@ resource "UserAllergies" do
     let(:auth_token)  { @user.auth_token }
     let(:user_id)  { @associate.id }
 
-    example_request "[GET] Get all of this associate's allergies" do
+    example_request "[GET] Get all of this associate's allergies [DEPRECATED]" do
       explanation "Returns an array of allergies"
       status.should == 200
       JSON.parse(response_body)['user_allergies'].should be_a Array
     end
   end
 
+  get '/api/v1/users/:user_id/allergies' do
+    parameter :user_id,       "User ID for which to fetch allergy information"
+    parameter :auth_token,    "User's auth token"
+    required_parameters :auth_token, :user_id
+
+    let(:auth_token)  { @user.auth_token }
+    let(:user_id) { @user.id }
+
+    example_request "[GET] Get all allergies for user" do
+      explanation "Returns an array of allergies"
+      status.should == 200
+      JSON.parse(response_body)['user_allergies'].should be_a Array
+    end
+  end
 
   describe 'create allergy' do
     parameter :auth_token,    "User's auth token" 
