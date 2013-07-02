@@ -2,8 +2,8 @@ require 'spec_helper'
 
 describe "Portals" do
   before :all do
-    @user = FactoryGirl.create(:user_with_email, :password=>"password")
-    @hcp_user = FactoryGirl.create(:hcp_user, :password=>"password")
+    #@user = FactoryGirl.create(:user_with_email, :password=>"password")
+    #@hcp_user = FactoryGirl.create(:hcp_user, :password=>"password")
 
   end
 
