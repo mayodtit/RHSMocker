@@ -1,4 +1,9 @@
 class Api::V1::UserWeightsController < Api::V1::ABaseController
+  def index
+    @weights = weights_scope.order('taken_at DESC').all
+    render_success({weights: @weights})
+  end
+
   def create
     if params[:user_id].present?
       user = User.find_by_id(params[:user_id]) 
@@ -31,5 +36,11 @@ class Api::V1::UserWeightsController < Api::V1::ABaseController
     else
       render_failure({reason:user_weight.errors.full_messages.to_sentence}, 422)
     end
+  end
+
+  private
+
+  def weights_scope
+    params[:user_id] ? User.find(params[:user_id]).user_weights : current_user.user_weights
   end
 end

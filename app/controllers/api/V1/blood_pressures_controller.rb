@@ -1,4 +1,9 @@
 class Api::V1::BloodPressuresController < Api::V1::ABaseController
+  def index
+    @blood_pressures = blood_pressure_scope.order('taken_at DESC').all
+    render_success({blood_pressures: @blood_pressures})
+  end
+
   def create
 
     if params[:user_id].present?
@@ -34,5 +39,11 @@ class Api::V1::BloodPressuresController < Api::V1::ABaseController
     else
       render_failure({reason:blood_pressure.errors.full_messages.to_sentence}, 422)
     end
+  end
+
+  private
+
+  def blood_pressure_scope
+    params[:user_id] ? User.find(params[:user_id]).blood_pressures : current_user.blood_pressures
   end
 end

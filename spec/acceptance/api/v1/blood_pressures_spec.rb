@@ -24,13 +24,27 @@ resource "BloodPressures" do
 
     let (:auth_token) { @user.auth_token }
 
-    example_request "[GET] Get all user's blood_pressures" do
+    example_request "[GET] Get all user's blood_pressures [DEPRECATED]" do
       explanation "Returns an array of blood_pressures recorded by the user"
       status.should == 200
       JSON.parse(response_body)['blood_pressures'].should be_a Array
     end
   end
 
+  get 'api/v1/users/:user_id/blood_pressures' do
+    parameter :user_id, "User ID for which to get blood pressures"
+    parameter :auth_token, "User's auth_token"
+    required_parameters :auth_token
+
+    let(:auth_token) { @user.auth_token }
+    let(:user_id) { @user.id }
+
+    example_request "[GET] Get all blood_pressures for a user" do
+      explanation "Returns an array of blood_pressures recorded by the user"
+      status.should == 200
+      JSON.parse(response_body)['blood_pressures'].should be_a Array
+    end
+  end
 
   describe 'create blood_pressure' do
     parameter :auth_token,    "User's auth token"
