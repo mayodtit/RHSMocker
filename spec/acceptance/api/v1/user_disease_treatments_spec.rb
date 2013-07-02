@@ -50,7 +50,7 @@ resource "UserDiseaseTreatments" do
     let(:user_id) { @user.id }
     let(:auth_token)    { @user.auth_token }
 
-    example_request "[GET] Get all of this user's treatments" do
+    example_request "[GET] Get all treatments for a given user" do
       explanation "Returns an array of treatments for the specified user"
       status.should == 200
       JSON.parse(response_body)['user_disease_treatments'].should be_a Array
