@@ -7,5 +7,9 @@ class Ability
     can :manage, User do |u|
       user.id == u.id
     end
+
+    can :manage, BloodPressure do |bp|
+      (user.id == bp.user_id) || (can?(:manage, bp.user))
+    end
   end
 end
