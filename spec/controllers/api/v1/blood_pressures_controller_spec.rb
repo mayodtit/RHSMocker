@@ -1,9 +1,9 @@
 require 'spec_helper'
 
 describe Api::V1::BloodPressuresController do
-  let(:user) { build(:user) }
+  let(:user) { build_stubbed(:user) }
   let(:ability) { Object.new.extend(CanCan::Ability) }
-  let(:blood_pressure) { build(:blood_pressure, :user => user) }
+  let(:blood_pressure) { build_stubbed(:blood_pressure, :user => user) }
 
   before(:each) do
     controller.stub(:current_ability => ability)
