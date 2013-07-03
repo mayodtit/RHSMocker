@@ -2,7 +2,12 @@ require 'spec_helper'
 
 describe Api::V1::BloodPressuresController do
   let(:user) { build(:user) }
+  let(:ability) { Object.new.extend(CanCan::Ability) }
   let(:blood_pressure) { build(:blood_pressure, :user => user) }
+
+  before(:each) do
+    controller.stub(:current_ability => ability)
+  end
 
   describe 'GET index' do
     def do_request
@@ -33,7 +38,7 @@ describe Api::V1::BloodPressuresController do
 
       context 'authorized' do
         before(:each) do
-          controller.stub(:authorize!)
+          ability.can :manage, User
         end
 
         it 'is successful' do
@@ -80,7 +85,7 @@ describe Api::V1::BloodPressuresController do
 
       context 'authorized' do
         before(:each) do
-          controller.stub(:authorize!)
+          ability.can :manage, User
         end
 
         it 'attempts to create the record' do
@@ -144,7 +149,8 @@ describe Api::V1::BloodPressuresController do
 
       context 'authorized' do
         before(:each) do
-          controller.stub(:authorize!)
+          ability.can :manage, User
+          ability.can :manage, BloodPressure
         end
 
         it 'attempts to destroy the record' do
