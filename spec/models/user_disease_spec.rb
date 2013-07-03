@@ -3,10 +3,13 @@ require 'spec_helper'
 describe UserDisease do
   it_has_a 'valid factory'
 
-  describe 'diagnosed' do
-    describe 'factory trait' do
-      let(:diagnosed_user_disease) { build_stubbed(:user_disease, :diagnosed) }
+  it_validates 'presence of', :user
+  it_validates 'presence of', :disease
 
+  describe 'diagnosed' do
+    let(:diagnosed_user_disease) { build_stubbed(:user_disease, :diagnosed) }
+
+    describe 'factory trait' do
       it 'creates valid objects' do
         diagnosed_user_disease.should be_valid
       end
