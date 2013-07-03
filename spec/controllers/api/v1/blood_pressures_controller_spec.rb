@@ -14,20 +14,9 @@ describe Api::V1::BloodPressuresController do
       get :index, auth_token: user.auth_token
     end
 
-    before(:each) do
-      user.stub(:blood_pressures => [blood_pressure])
-    end
-
     it_behaves_like 'action requiring authentication and authorization'
-
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
-      it_behaves_like 'success'
-
-      it 'returns an array of user blood pressures' do
-        do_request
-        json = JSON.parse(response.body)
-        json['blood_pressures'].to_json.should == [blood_pressure.as_json].to_json
-      end
+      it_behaves_like 'index action', new.blood_pressure
     end
   end
 
