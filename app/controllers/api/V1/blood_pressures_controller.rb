@@ -1,4 +1,7 @@
 class Api::V1::BloodPressuresController < Api::V1::ABaseController
+  include ActiveModel::MassAssignmentSecurity
+  attr_accessible :diastolic, :systolic, :pulse, :user_id, :collection_type_id, :taken_at
+
   before_filter :load_user!
   before_filter :load_blood_pressure!, only: :destroy
 
@@ -11,11 +14,11 @@ class Api::V1::BloodPressuresController < Api::V1::ABaseController
   end
 
   def create
-    create_resource(@user.blood_pressures, params[:blood_pressure])
+    create_resource(@user.blood_pressures, sanitize_for_mass_assignment(params[:blood_pressure]))
   end
 
   def update
-    update_resource(@blood_pressure, params[:blood_pressure])
+    update_resource(@blood_pressure, sanitize_for_mass_assignment(params[:blood_pressure]))
   end
 
   def destroy
