@@ -17,7 +17,7 @@ RHSMocker::Application.routes.draw do
         end
         resources :diseases, except: [:new, :edit], controller: 'user_diseases'
         resources :subscriptions, :except => [:new, :edit]
-        resources :treatments, :only => :index, :controller => 'user_disease_treatments'
+        resources :treatments, :except => [:new, :edit], :controller => 'user_disease_treatments'
         resources :weights, :only => :index, :controller => 'user_weights'
       end
 
@@ -34,12 +34,6 @@ RHSMocker::Application.routes.draw do
       #content
       get "contents" => "contents#index", :as=>"content_index"
       get "contents/:id" => "contents#show", :as=>"content_show"
-
-      #treatments
-      get "user_disease_treatments" => "user_disease_treatments#list", :as=>"user_disease_treatments_list"
-      post "user_disease_treatments" => "user_disease_treatments#create", :as=>"user_disease_treatments_create"
-      put "user_disease_treatments" => "user_disease_treatments#update", :as=>"user_disease_treatments_update"
-      delete "user_disease_treatments" => "user_disease_treatments#remove", :as=>"user_disease_treatments_remove"
 
       #allergies
       get "user_allergies" => "user_allergies#index"
