@@ -83,45 +83,6 @@ describe Api::V1::UserAllergiesController do
     end
   end
 
-  describe 'PUT update' do
-    def do_request
-      put :update, user_allergy: attributes_for(:user_allergy)
-    end
-
-    let(:user_allergies) { double('user_allergies', :find => user_allergy) }
-
-    before(:each) do
-      user.stub(:user_allergies => user_allergies)
-      user_allergy.stub(:update_attributes)
-    end
-
-    it_behaves_like 'action requiring authentication and authorization'
-
-    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
-      it 'attempts to update the record' do
-        user_allergy.should_receive(:update_attributes).once
-        do_request
-      end
-
-      context 'update_attributes succeeds' do
-        before(:each) do
-          user_allergy.stub(:update_attributes => true)
-        end
-
-        it_behaves_like 'success'
-      end
-
-      context 'update_attributes fails' do
-        before(:each) do
-          user_allergy.stub(:update_attributes => false)
-          user_allergy.errors.add(:base, :invalid)
-        end
-
-        it_behaves_like 'failure'
-      end
-    end
-  end
-
   describe 'delete destroy' do
     def do_request
       delete :destroy
