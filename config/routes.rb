@@ -2,22 +2,23 @@ RHSMocker::Application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :remote_events, :only => :create
-
-      resources :side_effects, :only => :index
-
+      resources :allergies, :only => :index
+      resources :diseases, :only => :index
       resources :plans, :only => [:index, :show]
-
+      resources :remote_events, :only => :create
+      resources :side_effects, :only => :index
+      resources :symptoms, :only => :index
+      resources :treatments, :only => :index
       resources :users, :only => :index do
         resources :allergies, :only => :index, :controller => 'user_allergies'
-        resources :subscriptions, :except => [:new, :edit]
+        resources :blood_pressures, only: [:index, :create, :destroy], shallow: true
         resources :credits, :only => [:index, :show] do
           get 'summary', :on => :collection
         end
-        resources :blood_pressures, only: [:index, :create, :destroy], shallow: true
-        resources :weights, :only => :index, :controller => 'user_weights'
-        resources :treatments, :only => :index, :controller => 'user_disease_treatments'
         resources :diseases, :only => :index, :controller => 'user_diseases'
+        resources :subscriptions, :except => [:new, :edit]
+        resources :treatments, :only => :index, :controller => 'user_disease_treatments'
+        resources :weights, :only => :index, :controller => 'user_weights'
       end
 
       #account management
@@ -35,21 +36,17 @@ RHSMocker::Application.routes.draw do
       get "contents/:id" => "contents#show", :as=>"content_show"
 
       #diseases
-      get "diseases" => "diseases#index", :as=>"diseases_index"
-      get "user_diseases" => "user_diseases#index", :as=>"user_diseases_index"
       post "user_diseases" => "user_diseases#create", :as=>"user_diseases_create"
       put "user_diseases" => "user_diseases#update", :as=>"user_diseases_update"
       delete "user_diseases" => "user_diseases#remove", :as=>"user_diseases_remove"
 
       #treatments
-      get "treatments" => "treatments#index", :as=>"treatments_index"
       get "user_disease_treatments" => "user_disease_treatments#list", :as=>"user_disease_treatments_list"
       post "user_disease_treatments" => "user_disease_treatments#create", :as=>"user_disease_treatments_create"
       put "user_disease_treatments" => "user_disease_treatments#update", :as=>"user_disease_treatments_update"
       delete "user_disease_treatments" => "user_disease_treatments#remove", :as=>"user_disease_treatments_remove"
 
       #allergies
-      get "allergies"=> "allergies#index", :as=>"allergies_index"
       get "user_allergies" => "user_allergies#index"
       post "user_allergies" => "user_allergies#create"
       delete "user_allergies" => "user_allergies#remove"
@@ -88,7 +85,6 @@ RHSMocker::Application.routes.draw do
       post "phone_calls" => "phone_calls#create"
       # put "phone_calls" => "phone_calls#update"
 
-      get "symptoms" => "symptoms#index"
       get "factors/:id" => "factors#index"
       post "symptoms/check" => "factors#check"
 
