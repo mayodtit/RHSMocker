@@ -17,10 +17,6 @@ class Api::V1::UserAllergiesController < Api::V1::ABaseController
     create_resource(@user.user_allergies, sanitize_for_mass_assignment(params[:user_allergy]))
   end
 
-  def update
-    update_resource(@user_allergy, sanitize_for_mass_assignment(params[:user_allergy]))
-  end
-
   def destroy
     destroy_resource(@user_allergy)
   end
