@@ -7,7 +7,7 @@ class Api::V1::UserDiseasesController < Api::V1::ABaseController
   end
 
   def show
-    render_success(user_diseases: @user_disease)
+    render_success(user_disease: @user_disease)
   end
 
   def create
