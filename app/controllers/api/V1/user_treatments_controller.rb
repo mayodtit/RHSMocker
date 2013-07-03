@@ -1,4 +1,4 @@
-class Api::V1::UserDiseaseTreatmentsController < Api::V1::ABaseController
+class Api::V1::UserTreatmentsController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_user_disease_treatment!, only: [:show, :update, :destroy]
 
