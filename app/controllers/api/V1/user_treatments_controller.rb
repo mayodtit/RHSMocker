@@ -30,7 +30,7 @@ class Api::V1::UserTreatmentsController < Api::V1::ABaseController
   end
 
   def load_user_disease_treatment!
-    @user_disease = @user.user_diseases.find(params[:id])
-    authorize! :manage, @user_disease
+    @user_disease_treatment = @user.user_disease_treatments.find(params[:id])
+    authorize! :manage, @user_disease_treatment
   end
 end
