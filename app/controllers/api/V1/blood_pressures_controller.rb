@@ -3,24 +3,23 @@ class Api::V1::BloodPressuresController < Api::V1::ABaseController
   before_filter :load_blood_pressure!, only: :destroy
 
   def index
-    render_success(blood_pressures: @user.blood_pressures)
+    index_resource(@user.blood_pressures)
+  end
+
+  def show
+    show_resource(@blood_pressure)
   end
 
   def create
-    @blood_pressure = @user.blood_pressures.create(params[:blood_pressure])
-    if @blood_pressure.errors.empty?
-      render_success(blood_pressure: @blood_pressure)
-    else
-      render_failure({reason: @blood_pressure.errors.full_messages.to_sentence}, 412)
-    end
+    create_resource(@user.blood_pressures, params[:blood_pressure])
+  end
+
+  def update
+    update_resource(@blood_pressure, params[:blood_pressure])
   end
 
   def destroy
-    if @blood_pressure.destroy
-      render_success
-    else
-      render_failure({reason: @blood_pressure.errors.full_messages.to_sentence}, 422)
-    end
+    destroy_resource(@blood_pressure)
   end
 
   private

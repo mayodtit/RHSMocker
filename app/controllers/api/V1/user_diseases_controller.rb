@@ -3,36 +3,23 @@ class Api::V1::UserDiseasesController < Api::V1::ABaseController
   before_filter :load_user_disease!, only: [:show, :update, :destroy]
 
   def index
-    render_success(user_diseases: @user.user_diseases)
+    index_resource(@user.user_diseases)
   end
 
   def show
-    render_success(user_disease: @user_disease)
+    show_resource(@user_disease)
   end
 
   def create
-    @user_disease = @user.user_diseases.create(params[:user_disease])
-    if @user_disease.errors.empty?
-      render_success(user_disease: @user_disease)
-    else
-      render_failure({reason: @user_disease.errors.full_messages.to_sentence}, 422)
-    end
+    create_resource(@user.user_diseases, params[:user_disease])
   end
 
   def update
-    if @user_disease.update_attributes(params[:user_disease])
-      render_success(user_disease: @user_disease)
-    else
-      render_failure({reason: @user_disease.errors.full_messages.to_sentence}, 422)
-    end
+    update_resource(@user_disease, params[:user_disease])
   end
 
   def destroy
-    if @user_disease.destroy
-      render_success
-    else
-      render_failure({reason: @user_disease.errors.full_messages.to_sentence}, 422)
-    end
+    destroy_resource(@user_disease)
   end
 
   private
