@@ -96,7 +96,7 @@ describe Api::V1::UserTreatmentsController do
 
   describe 'PUT update' do
     def do_request
-      put :update
+      put :update, user_disease_treatment: attributes_for(:user_disease_treatment)
     end
 
     let(:user_disease_treatments) { double('user_disease_treatments', :find => user_disease_treatment) }
