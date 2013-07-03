@@ -1,4 +1,9 @@
 class Api::V1::UserTreatmentsController < Api::V1::ABaseController
+  include ActiveModel::MassAssignmentSecurity
+  attr_accessible :user_id, :treatment_id, :user_disease_id, :amount, :amount_unit, :doctor_user_id,
+                  :end_date, :prescribed_by_doctor, :side_effect, :start_date, :successful, :time_duration,
+                  :time_duration_unit
+
   before_filter :load_user!
   before_filter :load_user_disease_treatment!, only: [:show, :update, :destroy]
 
@@ -11,11 +16,11 @@ class Api::V1::UserTreatmentsController < Api::V1::ABaseController
   end
 
   def create
-    create_resource(@user.user_disease_treatments, params[:user_disease_treatment])
+    create_resource(@user.user_disease_treatments, sanitize_for_mass_assignment(params[:user_disease_treatment]))
   end
 
   def update
-    update_resource(@user_disease_treatment, params[:user_disease_treatment])
+    update_resource(@user_disease_treatment, sanitize_for_mass_assignment(params[:user_disease_treatment]))
   end
 
   def destroy
