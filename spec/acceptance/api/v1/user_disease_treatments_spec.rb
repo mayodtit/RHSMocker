@@ -29,20 +29,33 @@ resource "UserDiseaseTreatments" do
     @treatment = FactoryGirl.create(:treatment)
   end
 
-
   get '/api/v1/user_disease_treatments' do
     parameter :auth_token,       "User's auth token"
     required_parameters :auth_token
 
     let(:auth_token)    { @user.auth_token }
 
-    example_request "[GET] Get all of this user's treatments" do
+    example_request "[GET] Get all of this user's treatments [DEPRECATED]" do
       explanation "Returns an array of treatments for the specified user"
       status.should == 200
       JSON.parse(response_body)['user_disease_treatments'].should be_a Array
     end
   end
 
+  get '/api/v1/users/:user_id/treatments' do
+    parameter :user_id, "User ID for which to load UserDiseaseTreatments"
+    parameter :auth_token,       "User's auth token"
+    required_parameters :user_id, :auth_token
+
+    let(:user_id) { @user.id }
+    let(:auth_token)    { @user.auth_token }
+
+    example_request "[GET] Get all treatments for a given user" do
+      explanation "Returns an array of treatments for the specified user"
+      status.should == 200
+      JSON.parse(response_body)['user_disease_treatments'].should be_a Array
+    end
+  end
 
   describe 'create user_disease_treatment' do
     parameter :auth_token,              "User's auth token"

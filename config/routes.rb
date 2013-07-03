@@ -2,15 +2,22 @@ RHSMocker::Application.routes.draw do
 
   namespace :api do
     namespace :v1 do
+      resources :remote_events, :only => :create
+
       resources :side_effects, :only => :index
 
       resources :plans, :only => [:index, :show]
 
       resources :users, :only => :index do
+        resources :allergies, :only => :index, :controller => 'user_allergies'
         resources :subscriptions, :except => [:new, :edit]
         resources :credits, :only => [:index, :show] do
           get 'summary', :on => :collection
         end
+        resources :blood_pressures, :only => :index
+        resources :weights, :only => :index, :controller => 'user_weights'
+        resources :treatments, :only => :index, :controller => 'user_disease_treatments'
+        resources :diseases, :only => :index, :controller => 'user_diseases'
       end
 
       #account management

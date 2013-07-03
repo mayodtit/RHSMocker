@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130626205348) do
+ActiveRecord::Schema.define(:version => 20130702192056) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -308,6 +308,20 @@ ActiveRecord::Schema.define(:version => 20130626205348) do
   end
 
   add_index "plans", ["plan_group_id"], :name => "index_plans_on_plan_group_id"
+
+  create_table "remote_events", :force => true do |t|
+    t.string   "name",                   :null => false
+    t.integer  "device_created_at",      :null => false
+    t.string   "device_language",        :null => false
+    t.string   "device_os",              :null => false
+    t.string   "device_os_version",      :null => false
+    t.string   "device_model",           :null => false
+    t.integer  "device_timezone_offset", :null => false
+    t.string   "app_version",            :null => false
+    t.string   "app_build",              :null => false
+    t.datetime "created_at",             :null => false
+    t.datetime "updated_at",             :null => false
+  end
 
   create_table "roles", :force => true do |t|
     t.string   "name"
