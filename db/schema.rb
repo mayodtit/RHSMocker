@@ -470,15 +470,6 @@ ActiveRecord::Schema.define(:version => 20130716004205) do
     t.integer  "share_counter"
   end
 
-  create_table "user_weights", :force => true do |t|
-    t.integer  "user_id"
-    t.decimal  "weight",     :precision => 9, :scale => 5, :default => 0.0
-    t.decimal  "bmi",        :precision => 8, :scale => 5, :default => 0.0
-    t.datetime "created_at",                                                :null => false
-    t.datetime "updated_at",                                                :null => false
-    t.datetime "taken_at"
-  end
-
   create_table "users", :force => true do |t|
     t.string   "first_name"
     t.string   "last_name"
@@ -519,5 +510,14 @@ ActiveRecord::Schema.define(:version => 20130716004205) do
   end
 
   add_index "users_roles", ["user_id", "role_id"], :name => "index_users_roles_on_user_id_and_role_id"
+
+  create_table "weights", :force => true do |t|
+    t.integer  "user_id"
+    t.decimal  "amount",     :precision => 9, :scale => 5, :default => 0.0
+    t.decimal  "bmi",        :precision => 8, :scale => 5, :default => 0.0
+    t.datetime "created_at",                                                :null => false
+    t.datetime "updated_at",                                                :null => false
+    t.datetime "taken_at"
+  end
 
 end

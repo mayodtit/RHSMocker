@@ -20,7 +20,7 @@ RHSMocker::Application.routes.draw do
         resources :diseases, except: [:new, :edit], controller: 'user_diseases'
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_disease_treatments'
-        resources :weights, :only => [:index, :create, :destroy], :controller => 'user_weights'
+        resources :weights, :only => [:index, :create, :destroy]
       end
 
       #account management

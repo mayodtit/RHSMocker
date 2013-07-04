@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'rspec_api_documentation/dsl'
 
-resource "UserWeights" do
+resource "Weights" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
@@ -16,7 +16,7 @@ resource "UserWeights" do
   required_parameters :auth_token
 
   get '/api/v1/users/:user_id/weights' do
-    let!(:user_weight) { create(:user_weight, :user => user) }
+    let!(:weight) { create(:weight, :user => user) }
 
     parameter :user_id, "User ID for which to get weights"
     required_parameters :user_id
@@ -25,20 +25,20 @@ resource "UserWeights" do
     example_request "[GET] Get all weights for a user" do
       explanation "Returns an array of weights recorded by the user"
       status.should == 200
-      JSON.parse(response_body)['user_weights'].should be_a Array
+      JSON.parse(response_body)['weights'].should be_a Array
     end
   end
 
   post '/api/v1/users/:user_id/weights' do
-    let!(:user_weight) { build(:user_weight, :user => user) }
+    let!(:weight) { build(:weight, :user => user) }
 
     parameter :user_id, "User ID for which to get weights"
-    parameter :weight, "User's weight (kg)"
+    parameter :amount, "User's weight (kg)"
     parameter :taken_at, "DateTime of when the reading was taken"
-    required_parameters :user_id, :weight, :taken_at
+    required_parameters :user_id, :amount, :taken_at
 
     let(:user_id) { user.id }
-    let(:weight) { 90 }
+    let(:amount) { 90 }
     let(:taken_at) { DateTime.now-20.minutes }
     let(:raw_post) { params.to_json }
 
@@ -50,14 +50,14 @@ resource "UserWeights" do
   end
 
   delete '/api/v1/users/:user_id/weights/:id' do
-    let!(:user_weight) { create(:user_weight, :user => user) }
+    let!(:weight) { create(:weight, :user => user) }
 
     parameter :user_id, "User ID for which to get weights"
     parameter :id, "Weight ID to delete"
     required_parameters :user_id, :id
 
     let(:user_id) { user.id }
-    let(:id) { user_weight.id }
+    let(:id) { weight.id }
     let(:raw_post) { params.to_json }
 
     example_request "[DELETE] Remove user's user weight reading" do

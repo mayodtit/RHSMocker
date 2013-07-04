@@ -5,7 +5,7 @@ class Associate < User
     super.merge({
       :user_diseases=>user_diseases,
       :allergies=>allergies,
-      :weights=>user_weights,
+      :weights=>weights,
       :blood_pressures=>blood_pressures
       })
   end

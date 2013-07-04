@@ -1,7 +1,7 @@
 FactoryGirl.define do
-  factory :user_weight do
+  factory :weight do
     user
-    sequence(:weight) {|n| 80+n}
+    sequence(:amount) {|n| 80 + n}
     taken_at DateTime.now
   end
 end
