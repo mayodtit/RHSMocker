@@ -20,7 +20,7 @@ RHSMocker::Application.routes.draw do
         resources :diseases, except: [:new, :edit], controller: 'user_diseases'
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_disease_treatments'
-        resources :weights, :only => :index, :controller => 'user_weights'
+        resources :weights, :only => [:index, :create, :destroy], :controller => 'user_weights'
       end
 
       #account management
@@ -56,9 +56,6 @@ RHSMocker::Application.routes.draw do
 
 
       post "locations" =>"user_locations#create", :as=>"create_user_location"
-      post "weights" => "user_weights#create", :as=>"create_user_weight"
-      get "weights" => "user_weights#list", :as=>"list_user_weights"
-      delete "weights" => "user_weights#remove", :as=>"remove_user_weight"
 
       get "user/keywords" => "users#keywords", :as=>"user_keywords"
 

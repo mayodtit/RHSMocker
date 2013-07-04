@@ -1,46 +1,31 @@
 class Api::V1::UserWeightsController < Api::V1::ABaseController
+  include ActiveModel::MassAssignmentSecurity
+  attr_accessible :weight, :bmi, :taken_at
+
+  before_filter :load_user!
+  before_filter :load_user_weight!, only: :destroy
+
   def index
-    @weights = weights_scope.order('taken_at DESC').all
-    render_success({weights: @weights})
+    index_resource(@user.user_weights)
   end
 
   def create
-    if params[:user_id].present?
-      user = User.find_by_id(params[:user_id]) 
-      return render_failure({reason:"User with id #{params[:user_id]} is not found"}, 404) unless user
-      return render_failure({reason:"Permission denied to edit user with id #{params[:user_id]}"}) unless current_user.allowed_to_edit_user?(params[:user_id])
-    else
-      user = current_user
-    end
-    user_weight = UserWeight.create(weight:params[:weight], taken_at:params[:taken_at], user:user)
-    
-    if user_weight.errors.empty?
-      render_success user_weight:user_weight
-    else
-      render_failure( {reason:user_weight.errors.full_messages.to_sentence}, 412 )
-    end
+    create_resource(@user.user_weights, sanitize_for_mass_assignment(params[:user_weight]))
   end
 
-  def list
-    render_success weights:current_user.user_weights
-  end
-
-  def remove
-    user_weight = UserWeight.find_by_id params[:user_weight][:id]
-    return render_failure({reason: "Could not find user_weight reading with id #{params[:user_weight][:id]}"}, 404) unless user_weight
-    if user_weight.user_id!=current_user.id && !current_user.allowed_to_edit_user?(user_weight.user_id) && !current_user.hcp?
-      return render_failure({reason:"Permission denied to delete user_weight with id #{params[:user_weight][:id]}"})
-    end
-    if UserWeight.destroy(user_weight.id)
-      render_success
-    else
-      render_failure({reason:user_weight.errors.full_messages.to_sentence}, 422)
-    end
+  def destroy
+    destroy_resource(@user_weight)
   end
 
   private
 
-  def weights_scope
-    params[:user_id] ? User.find(params[:user_id]).user_weights : current_user.user_weights
+  def load_user!
+    @user = params[:user_id] ? User.find(params[:user_id]) : current_user
+    authorize! :manage, @user
+  end
+
+  def load_user_weight!
+    @user_weight = @user.user_weights.find(params[:id])
+    authorize! :manage, @user_weight
   end
 end
