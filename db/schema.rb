@@ -181,11 +181,11 @@ ActiveRecord::Schema.define(:version => 20130716004205) do
   add_index "encounters_users", ["user_id"], :name => "index_encounters_users_on_user_id"
 
   create_table "ethnic_groups", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
-    t.string   "ethnicity_code"
-    t.integer  "order"
+    t.string   "name",                          :default => "", :null => false
+    t.datetime "created_at",                                    :null => false
+    t.datetime "updated_at",                                    :null => false
+    t.integer  "ethnicity_code", :limit => 255, :default => 0,  :null => false
+    t.integer  "ordinal",                       :default => 0,  :null => false
   end
 
   create_table "factor_groups", :force => true do |t|
