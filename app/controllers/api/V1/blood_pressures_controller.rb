@@ -33,7 +33,7 @@ class Api::V1::BloodPressuresController < Api::V1::ABaseController
   end
 
   def load_blood_pressure!
-    @blood_pressure = BloodPressure.find(params[:id])
+    @blood_pressure = @user.blood_pressures.find(params[:id])
     authorize! :manage, @blood_pressure
   end
 end
