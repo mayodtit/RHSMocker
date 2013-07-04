@@ -149,7 +149,7 @@ ActiveRecord::Schema.define(:version => 20130716004205) do
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-    t.integer  "order"
+    t.integer  "ordinal"
   end
 
   create_table "diseases", :force => true do |t|

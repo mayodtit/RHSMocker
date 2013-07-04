@@ -3,6 +3,7 @@ RHSMocker::Application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :allergies, :only => :index
+      resources :diets, :only => :index
       resources :diseases, :only => :index
       resources :plans, :only => [:index, :show]
       resources :remote_events, :only => :create
@@ -75,7 +76,6 @@ RHSMocker::Application.routes.draw do
 
       post "feedback" => "users#add_feedback"
 
-      get "diets" => "diets#list"
       get "ethnic_groups" => "ethnic_groups#list"
 
       get "agreement_pages" => "agreement_pages#list"
