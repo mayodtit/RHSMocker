@@ -146,10 +146,10 @@ ActiveRecord::Schema.define(:version => 20130716004205) do
   add_index "contents_symptoms_factors", ["symptoms_factor_id"], :name => "index_contents_symptom_factors_on_symptom_factor_id"
 
   create_table "diets", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-    t.integer  "ordinal"
+    t.string   "name",       :default => "", :null => false
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
+    t.integer  "ordinal",    :default => 0,  :null => false
   end
 
   create_table "diseases", :force => true do |t|

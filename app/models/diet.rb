@@ -13,6 +13,7 @@ class Diet < ActiveRecord::Base
   end
 
   def set_ordinal
+    return true if ordinal > 0
     self.ordinal = self.class.max_ordinal + 1
   end
 end
