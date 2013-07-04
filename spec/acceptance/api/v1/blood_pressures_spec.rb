@@ -7,20 +7,18 @@ resource 'BloodPressures' do
 
   let!(:user) { create(:user) }
   let(:auth_token) { user.auth_token }
+  let(:user_id) { user.id }
 
   before(:each) do
     user.login
   end
 
-  parameter :user_id, 'User ID'
+  parameter :user_id, "Target user's ID"
   parameter :auth_token, "User's auth_token"
   required_parameters :auth_token, :user_id
 
-  let(:user_id) { user.id }
-
   get '/api/v1/users/:user_id/blood_pressures' do
     let!(:blood_pressure) { create(:blood_pressure, :user => user) }
-    let(:raw_post) { params.to_json }
 
     example_request "[GET] Get all blood_pressures for a user" do
       explanation 'Returns an array of blood_pressures recorded by the user'
@@ -32,10 +30,10 @@ resource 'BloodPressures' do
   post '/api/v1/users/:user_id/blood_pressures' do
     parameter :diastolic, "User's diastolic pressure"
     parameter :systolic, "User's systolic pressure"
-    parameter :pulse, "User's pulse"
     parameter :taken_at, "DateTime of when the reading was taken"
+    parameter :pulse, "User's pulse"
     parameter :collection_type_id, "collection_type_id optional (will make it 'self-reported' by defaults)"
-    required_parameters :diastolic, :systolic
+    required_parameters :diastolic, :systolic, :taken_at
 
     let(:diastolic) { 90 }
     let(:systolic) { 91 }
@@ -52,10 +50,11 @@ resource 'BloodPressures' do
   end
 
   delete '/api/v1/users/:user_id/blood_pressures/:id' do
+    let!(:blood_pressure) { create(:blood_pressure, :user => user) }
+
     parameter :id, "Blood pressure reading id"
     required_parameters :id
 
-    let!(:blood_pressure) { create(:blood_pressure, :user => user) }
     let(:id) { blood_pressure.id }
     let(:raw_post) { params.to_json }
 
