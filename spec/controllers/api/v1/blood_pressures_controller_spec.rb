@@ -64,8 +64,10 @@ describe Api::V1::BloodPressuresController do
       delete :destroy
     end
 
+    let(:blood_pressures) { double('blood_pressures', :find => blood_pressure) }
+
     before(:each) do
-      BloodPressure.stub(:find => blood_pressure)
+      user.stub(:blood_pressures => blood_pressures)
       blood_pressure.stub(:destroy)
     end
 
