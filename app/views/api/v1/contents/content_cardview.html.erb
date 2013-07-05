@@ -4,7 +4,7 @@
   <div class="content_cardview" onclick="document.actionJSON = '[{&quot;type&quot;:&quot;fullscreen&quot;}]'; window.location.href = 'http://dontload/'">
 <% end %>
 
-	<div class="content_type_and_sender">
+	<div class="content_type">
 	  <% if ["Question"].include?(@content.contentsType) %>
 	    <%= image_tag("question_icn@2x.png", :class => "top_icon") %>
 	  <% else %>
@@ -12,13 +12,16 @@
 	  <% end %>
 	  <span style="display:inline-block;margin-top:3px;"><%= @content.contentsType %></span>
 	</div>
+
+ <div class="content_source">
+    <% if not ["Question", "Message"].include?(@content.contentsType) %>
+      <%= image_tag("mayo_clinic_logo.png", :class => "mayo_icon") %>
+    <% end %>
+  </div>
+
   <div class="content_title">
   	<%= @content.title.html_safe %>
   </div>
-  <div class="content_date_and_source">
-    <% if not ["Question", "Message"].include?(@content.contentsType) %>
-      <%= image_tag("mayo_clinic_logo.png", :class => "mayo_icon") %>&nbsp;&nbsp;Mayo Clinic</div>
-    <% end %>
     <% if ["Question"].include?(@content.contentsType) %>
         <div class="content_text_preview"><%= @content.body.html_safe%></div>
       <% else %>
@@ -26,5 +29,4 @@
         <div class="content_text_preview"><%= @content.previewText.html_safe%></div>
       <% end %>
     <% end %>
-  </div>
 </div>

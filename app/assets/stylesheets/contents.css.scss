@@ -26,7 +26,7 @@ div.content_cardview {
     height: 160px;
 }
 
-div.content_type_and_sender {
+div.content_type{
 	font-family:"ITC Franklin Gothic Medium Condensed";
 	font-size:15px;
 	color:#ff7400;
@@ -34,9 +34,10 @@ div.content_type_and_sender {
     padding-bottom:4px;
     float:left;
     vertical-align: bottom;
+
 }
 
-div.content_type_and_sender img {
+div.content_type img {
     vertical-align: middle;
     padding-right: 6px;
 }
@@ -45,16 +46,22 @@ div.content_title {
 	font-family:"ITC Franklin Gothic Medium Condensed";
 	font-size:18px;
 	color:#4c4c4c;
-    padding-bottom:2px;
+    padding-bottom:5px;
+    padding-top: 5px;
     clear:left;
 }
 
-div.content_date_and_source {
+div.content_source {
 	font-family: "ITC Franklin Gothic Book Condensed";
 	font-size: 14px;
     color: #999999;
     padding-bottom: 5px;
+    text-align:right;
+    float:right;
 }
+
+div.content_source img {
+ }
 
 div.content_subtitle {
 	font-family: "ITC Franklin Gothic Book Condensed";
@@ -130,5 +137,5 @@ img.top_icon{
 }
 
 img.mayo_icon{
-    width:17px;
+    width:100px;
 }

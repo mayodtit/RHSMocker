@@ -1,7 +1,7 @@
 <div class="content_full">
-	<div class="content_type_and_sender">Message</div>
+	<div class="content_type">Message</div>
 	<div class="content_title"><%= @message.title %></div>
-	<div class="content_date_and_source">
+	<div class="content_source">
 		<% if !@message.created_at.nil? %>
 			<%= @message.created_at.strftime("%b. #{@message.created_at.day.ordinalize}, %Y") %>&nbsp;&nbsp;|&nbsp;&nbsp;
 		<% end %>
