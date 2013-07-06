@@ -15,7 +15,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
           with :role_name, params[:role_name] if params[:role_name]
         end
       else
-        @users = params[:role_name] ? User.by_role(Role.find_by_name(params[:role_name])) : User.all
+        @users = params[:role_name] ? (Role.find_by_name(params[:role_name]).try(:users) || []) : User.all
       end
     else
       begin

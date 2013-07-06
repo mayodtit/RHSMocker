@@ -63,12 +63,6 @@ class User < ActiveRecord::Base
     end
   end
 
-  def self.by_role(role)
-    return [] unless role
-    role_id = role.try_method(:id) || role
-    joins(:roles).where(:roles => {:id => role_id})
-  end
-
   def admin?
     has_role? :admin
   end
