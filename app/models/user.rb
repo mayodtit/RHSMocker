@@ -17,7 +17,6 @@ class User < ActiveRecord::Base
   has_many :encounters, :through => :encounters_users
   has_many :message_statuses
   has_many :user_locations
-  has_and_belongs_to_many :institutions
 
   has_many :user_weights
   has_many :blood_pressures

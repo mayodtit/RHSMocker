@@ -210,19 +210,6 @@ ActiveRecord::Schema.define(:version => 20130719203248) do
 
   add_index "feedbacks", ["user_id"], :name => "index_feedbacks_on_user_id"
 
-  create_table "institutions", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  create_table "institutions_users", :force => true do |t|
-    t.integer  "institution_id"
-    t.integer  "user_id"
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
-  end
-
   create_table "mayo_vocabularies", :force => true do |t|
     t.string   "mcvid"
     t.string   "title"
