@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+
   rolify
   authenticates_with_sorcery!
 
@@ -102,6 +103,15 @@ class User < ActiveRecord::Base
   def full_name
     return "Not Set" if first_name.blank? || last_name.blank?
     "#{first_name} #{last_name}".strip
+  end
+
+  def age
+    if birth_date.nil?
+      birth_date
+    else
+      now = Time.now.utc.to_date
+      now.year - self.birth_date.year - ((now.month > self.birth_date.month || (now.month == self.birth_date.month && now.day >= self.birth_date.day)) ? 0 : 1)
+    end
   end
 
   def login
