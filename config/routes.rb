@@ -3,6 +3,7 @@ RHSMocker::Application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :allergies, :only => :index
+      resources :contents, :only => [:index, :show]
       resources :diets, :only => :index
       resources :diseases, :only => :index
       resources :ethnic_groups, :only => :index
@@ -34,10 +35,6 @@ RHSMocker::Application.routes.draw do
       post "user/update_email" => "users#update_email", :as=>"update_email"
       post "password_resets" => "password_resets#create", :as=>"create_password_resets"
 
-      #content
-      get "contents" => "contents#index", :as=>"content_index"
-      get "contents/:id" => "contents#show", :as=>"content_show"
-
       #associates
       put "associates/:id" => "associates#update", :as=>"associates_update"
       get "associations" => "associations#index", :as=>"associations_index"
@@ -45,7 +42,6 @@ RHSMocker::Application.routes.draw do
       put "associations" => "associations#update", :as=>"associations_update"
       delete "associations" => "associations#remove", :as=>"associations_remove"
       get "association_types" =>"association_types#list"
-
 
       #reading list
       get "user_readings" => "user_readings#index", :as=>"user_readings_index"
