@@ -18,6 +18,7 @@ RHSMocker::Application.routes.draw do
           get 'summary', :on => :collection
         end
         resources :diseases, except: [:new, :edit], controller: 'user_diseases'
+        get 'keywords', :on => :member
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_disease_treatments'
         resources :weights, :only => [:index, :create, :destroy]
@@ -56,8 +57,6 @@ RHSMocker::Application.routes.draw do
 
 
       post "locations" =>"user_locations#create", :as=>"create_user_location"
-
-      get "user/keywords" => "users#keywords", :as=>"user_keywords"
 
       get "messages" => "messages#list", :as=>"list_user_messages"
       get "messages/:id" => "messages#show", :as=>"show_user_message"

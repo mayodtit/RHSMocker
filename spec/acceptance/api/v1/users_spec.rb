@@ -85,11 +85,15 @@ resource "Users" do
     end
   end
 
-  get '/api/v1/user/keywords' do
-    parameter :auth_token,      "User's Auth token"
-    required_parameters :auth_token
+  get '/api/v1/users/:id/keywords' do
+    let(:auth_token) { @user.auth_token }
+    let(:id) { @user.id }
 
-    let (:auth_token)       { @user.auth_token }
+    parameter :auth_token, "User's Auth token"
+    parameter :id, "user's ID"
+    required_parameters :auth_token, :id
+
+    let(:raw_post) { params.to_json }
 
     example_request "[GET] Get user's keywords (search history)" do
       explanation "[Implementation incomplete] Returns an array of keywords"
