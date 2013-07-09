@@ -3,6 +3,7 @@ RHSMocker::Application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :allergies, :only => :index
+      resources :association_types, :only => :index
       resources :contents, :only => [:index, :show]
       resources :diets, :only => :index
       resources :diseases, :only => :index
@@ -14,6 +15,7 @@ RHSMocker::Application.routes.draw do
       resources :treatments, :only => :index
       resources :users, :only => :index do
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
+        resources :associates, :except => [:new, :edit]
         resources :blood_pressures, only: [:index, :create, :destroy]
         resources :credits, :only => [:index, :show] do
           get 'summary', :on => :collection
@@ -34,14 +36,6 @@ RHSMocker::Application.routes.draw do
       post "user/update_password" => "users#update_password", :as=>"update_password"
       post "user/update_email" => "users#update_email", :as=>"update_email"
       post "password_resets" => "password_resets#create", :as=>"create_password_resets"
-
-      #associates
-      put "associates/:id" => "associates#update", :as=>"associates_update"
-      get "associations" => "associations#index", :as=>"associations_index"
-      post "associations" => "associations#create", :as=>"associations_create"
-      put "associations" => "associations#update", :as=>"associations_update"
-      delete "associations" => "associations#remove", :as=>"associations_remove"
-      get "association_types" =>"association_types#list"
 
       #reading list
       get "user_readings" => "user_readings#index", :as=>"user_readings_index"
