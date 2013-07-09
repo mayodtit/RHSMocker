@@ -6,7 +6,7 @@ module Api
       def authentication_check
         auth_token = params[:auth_token]
         return render_failure({reason:"Invalid auth_token"}) if auth_token.blank?
-        user = User.find_by_auth_token(auth_token)
+        user = Member.find_by_auth_token(auth_token)
         return render_failure({reason:"Invalid auth_token"}) unless user
         auto_login(user)
       end
