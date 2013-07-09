@@ -6,7 +6,7 @@ class Api::V1::AssociatesController < Api::V1::ABaseController
   before_filter :load_association!, only: [:show, :update, :destroy]
 
   def index
-    index_resource(@user.associates)
+    index_resource(@user.associations)
   end
 
   def show
@@ -33,7 +33,7 @@ class Api::V1::AssociatesController < Api::V1::ABaseController
   end
 
   def load_association!
-    @association = @user.associations.find_by_associate_id!(associate_id: params[:id])
+    @association = @user.associations.find_by_associate_id!(params[:id])
     authorize! :manage, @association.associate
   end
 
