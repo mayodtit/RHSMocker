@@ -74,7 +74,7 @@ class User < ActiveRecord::Base
 
   #Validations
   #++++++++++++++
-  validates :install_id, :presence => true, :uniqueness => true
+  validates :install_id, :uniqueness => true, :allow_nil => true
   validates :email, :allow_nil => true, :uniqueness => {:message => 'account already exists'}
 
   validates :generic_call_time, :inclusion => { :in => %w(morning afternoon evening),
