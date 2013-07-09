@@ -5,7 +5,7 @@ resource 'Credits' do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  let!(:user) { create(:user) }
+  let!(:user) { create(:member) }
   let!(:credit) { create(:user_offering, :user => user) }
 
   parameter :auth_token, 'User auth_token'

@@ -1,21 +1,21 @@
 class Member < User
   authenticates_with_sorcery!
 
-  has_many :user_readings, :order => 'read_date DESC'
+  has_many :user_readings, :order => 'read_date DESC', :foreign_key => :user_id
   has_many :contents, :through => :user_readings
-  has_many :content_authors
-  has_many :messages
-  has_many :feedbacks
-  has_many :encounters_users
+  has_many :content_authors, :foreign_key => :user_id
+  has_many :messages, :foreign_key => :user_id
+  has_many :feedbacks, :foreign_key => :user_id
+  has_many :encounters_users, :foreign_key => :user_id
   has_many :encounters, :through => :encounters_users
-  has_many :message_statuses
-  has_many :user_locations
+  has_many :message_statuses, :foreign_key => :user_id
+  has_many :user_locations, :foreign_key => :user_id
 
-  has_many :agreements
+  has_many :agreements, :foreign_key => :user_id
   has_many :agreement_pages, :through => :agreements
-  has_many :user_plans
+  has_many :user_plans, :foreign_key => :user_id
   has_many :plans, :through => :user_plans
-  has_many :user_offerings
+  has_many :user_offerings, :foreign_key => :user_id
   has_many :offerings, :through => :user_offerings
 
   attr_accessible :install_id, :generic_call_time, :password, :password_confirmation, :feature_bucket,
@@ -50,6 +50,15 @@ class Member < User
       install_id:install_id,
       phone:phone,
     })
+  end
+
+  # rolify only adds class methods to the base class, cast first to call
+  def has_role?(role)
+    becomes(User).has_role?(role)
+  end
+
+  def add_role(role)
+    becomes(User).add_role(role)
   end
 
   def admin?

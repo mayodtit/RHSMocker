@@ -5,7 +5,7 @@ resource "Weights" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  let!(:user) { create(:user) }
+  let!(:user) { create(:member) }
   let(:auth_token) { user.auth_token }
 
   before(:each) do
