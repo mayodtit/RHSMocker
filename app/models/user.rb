@@ -18,7 +18,7 @@ class User < ActiveRecord::Base
   has_many :message_statuses
   has_many :user_locations
 
-  has_many :user_weights
+  has_many :weights
   has_many :blood_pressures
   has_many :user_allergies
   has_many :allergies, :through=>:user_allergies
@@ -40,7 +40,7 @@ class User < ActiveRecord::Base
                   :generic_call_time, :password, :password_confirmation, :feature_bucket, :blood_type, :holds_phone_in,
                   :diet_id, :ethnic_group_id, :npi_number, :deceased, :date_of_death, :expertise, :city, :state
 
-  validates :install_id, :presence => true, :uniqueness => true
+  validates :install_id, :uniqueness => true, :allow_nil => true
   validates :email, :allow_nil => true, :uniqueness => {:message => 'account already exists'}
   validates :phone, :allow_blank => true, :length => {:in => 7..17}
   validates :password, :length => {:minimum => 8, :message => "must be at least 8 characters long"}, :confirmation => true, :if => :password
