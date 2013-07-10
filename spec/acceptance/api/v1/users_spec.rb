@@ -394,7 +394,6 @@ resource "Users" do
     put '/api/v1/user/:id' do
       let(:id)         { @user.associates.first.id }
       let(:email)          { "tst121@test.com" }
-      let(:feature_bucket) { "message_only" }
       let(:first_name)     { "Bob" }
       let(:last_name)      { "Smith" }
       let(:image_url)      { "http://placekitten.com/90/90" }
@@ -402,13 +401,10 @@ resource "Users" do
       let(:height)      { 190 }
       let(:birth_date)      { "1980-10-15" }
       let(:phone)      { "4163442356" }
-      let(:generic_call_time)      { "morning" }
-      let(:feature_bucket)      { "none" }
       let(:auth_token)    { @user.auth_token }
       let(:ethnic_group_id)      { 1 }
       let(:diet_id)      { 1 }
       let(:blood_type)      { "B-positive" }
-      let(:holds_phone_in)      { "left" }
       let(:deceased) { false }
       let(:raw_post)      { params.to_json }  # JSON format request body
 
