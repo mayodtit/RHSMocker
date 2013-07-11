@@ -6,18 +6,6 @@ require 'rspec/rails'
 require 'rspec/autorun'
 require 'capybara/rspec'
 
-#Don't Run SOLR for Unit Tests
-Spec::Runner.configure do |config|
-  config.before(:each) do
-    ::Sunspot.session = ::Sunspot::Rails::StubSessionProxy.new(::Sunspot.session)
-  end
-
-  config.after(:each) do
-    ::Sunspot.session = ::Sunspot.session.original_session
-  end
-end
-
-
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.
 Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
