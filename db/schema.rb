@@ -203,7 +203,7 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
 
   create_table "feedbacks", :force => true do |t|
     t.integer  "user_id"
-    t.text     "note",       :limit => 255
+    t.text     "note"
     t.datetime "created_at",                :null => false
     t.datetime "updated_at",                :null => false
   end
