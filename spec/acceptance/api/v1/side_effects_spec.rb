@@ -14,6 +14,10 @@ resource "SideEffects" do
     @excluded_side_effect = create(:side_effect, :with_treatment)
   end
 
+  before(:each) do
+    TreatmentSideEffect.stub(:search => [@treatment_side_effect])
+  end
+
   get '/api/v1/side_effects' do
     example_request "[GET] Retrieve all side effects" do
       explanation "Returns an array of side effects"
