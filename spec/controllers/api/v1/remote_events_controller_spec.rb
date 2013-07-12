@@ -28,44 +28,23 @@ describe Api::V1::RemoteEventsController do
       RemoteEvent.stub(:create => remote_event)
     end
 
-    it 'calls create for every event' do
-      RemoteEvent.should_receive(:create).exactly(valid_attributes['Events'].size).times
-      do_request
-    end
-
     context 'success' do
       it 'returns success' do
         do_request
         response.should be_success
-      end
-
-      it 'returns an array of successful responses' do
-        do_request
-        json = JSON.parse(response.body)
-        json['remote_events'].should be_instance_of(Array)
-        json['remote_events'].size.should == valid_attributes['Events'].size
-        json['remote_events'].each{|h| h['status'].should == 'success'}
       end
     end
 
     context' failure' do
       before(:each) do
         # invalidate record to generate an error
-        remote_event.name = nil
+        remote_event.data = nil
         remote_event.valid?
       end
 
       it 'returns failure' do
         do_request
         response.should_not be_success
-      end
-
-      it 'returns an array of failure responses' do
-        do_request
-        json = JSON.parse(response.body)
-        json['remote_events'].should be_instance_of(Array)
-        json['remote_events'].size.should == valid_attributes['Events'].size
-        json['remote_events'].each{|h| h['status'].should == 'failure'}
       end
     end
   end
