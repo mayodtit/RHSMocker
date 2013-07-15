@@ -3,6 +3,11 @@ require 'spec_helper'
 describe UserWeight do
   let(:weight) { build(:user_weight) }
 
+  # TODO - this is a hack to eliminate false positives resulting from dirty database
+  before(:each) do
+    User.delete_all
+  end
+
   describe 'factory' do
     it 'builds a valid object' do
       weight.should be_valid
