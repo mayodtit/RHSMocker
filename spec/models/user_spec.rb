@@ -3,6 +3,11 @@ require 'spec_helper'
 describe User do
   let(:user) { build(:user) }
 
+  # TODO - this is a hack to eliminate false positives resulting from dirty database
+  before(:each) do
+    User.delete_all
+  end
+
   describe 'factory' do
     it 'creates a valid object' do
       user.should be_valid
