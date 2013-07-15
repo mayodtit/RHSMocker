@@ -6,7 +6,7 @@ resource "Users" do
   header 'Content-Type', 'application/json'
 
   # currently, only update_password needs user object
-  before(:all) do
+  before(:each) do
     @password = 'current_password'
     @user = FactoryGirl.create(:user_with_email, :password=>@password, :password_confirmation=>@password)
     @user.login
@@ -112,7 +112,7 @@ resource "Users" do
     end
 
     post '/api/v1/signup' do
-      let (:install_id) { "1234" }
+      let (:install_id) { @user.install_id }
       let (:raw_post)   { params.to_json }  # JSON format request body
  
       example_request "[POST] Sign up using install ID (409)" do
@@ -271,7 +271,7 @@ resource "Users" do
 
     post '/api/v1/user/update_password' do
       let (:auth_token)       { @user.auth_token }
-      let (:current_password) { "new_password" }
+      let (:current_password) { @password }
       let (:raw_post)         { params.to_json }  # JSON format request body
 
       example_request "[POST] Change the password c (412)" do
@@ -284,7 +284,7 @@ resource "Users" do
 
     post '/api/v1/user/update_password' do
       let (:auth_token)       { @user.auth_token }
-      let (:current_password) { "new_password" }
+      let (:current_password) { @password }
       let (:password)         { "short" }
       let (:raw_post)         { params.to_json }  # JSON format request body
 
