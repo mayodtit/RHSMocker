@@ -4,14 +4,21 @@ require 'nokogiri'
 namespace :admin do
 
 	task :import_content=> :environment do
-		Dir.glob('./db/mayo_content/*.xml') do | answerFile |
+
+		logger = Logger.new('./log/import_content.log')
+
+		Dir.glob('./db/mayo_content/*.xml') do | contentFile |
 
 			print "."
 			#puts "Found File: #{answerFile}"
-			answer = Nokogiri::XML(open(answerFile))
+			@content = Nokogiri::XML(File.open(contentFile))
 
+			#Preprocessing the nodes of the document
+			#Change all <SectionHead> to div with <section_head id and class>
+			sectionhead_nodes = @content.css "SectionHead"
+			wrapper = sectionhead_nodes.wrap("&lt;div class='section_head'&gt;&lt;/div&gt;")
 
-			type_search		= answer.search('Meta ContentType')
+			type_search		= @content.search('Meta ContentType')
 			type_text	  	= type_search.first.text 		if !type_search.empty?
 
 			#TODO: would much prefer to do this as an "in" clause. This is lazycode
@@ -20,21 +27,29 @@ namespace :admin do
 
 			if type_text.casecmp("answer") == 0 || type_text.casecmp("disease") == 0 || type_text.casecmp("article") == 0 || type_text.casecmp("firstaid") == 0 || type_text.casecmp("healthtip") == 0 || type_text.casecmp("TestProcedure") == 0
 
-				title_search 	= answer.search('Title')
-				abstract_search = answer.search('Abstract')
-				question_search = answer.search('Question')
-				body_search		= answer.search('Body')
-				keyword_search	= answer.search('MetaKeyword')
-				update_search	= answer.search('UpdateDate')
-				mayo_vocab_search = answer.search('Keyword')
-				doc_id_search = answer.search('DocID')
+				title_search 		= @content.search('Title')
+				abstract_search 	= @content.search('Abstract')
+				question_search 	= @content.search('Question')
+				body_search			= @content.search('Body')
+				keyword_search		= @content.search('MetaKeyword')
+				update_search		= @content.search('UpdateDate')
+				mayo_vocab_search 	= @content.search('Keyword')
+				doc_id_search 		= @content.search('DocID')
 
-				title_text 	  = title_search.first.text 	if !title_search.empty?
-				abstract_text = abstract_search.first.text 	if !abstract_search.empty?
-				question_text = question_search.first.text 	if !question_search.empty?
-				body_text	  = body_search.first.text 		if !body_search.empty?
-				update_text	  = update_search.first.text    if !update_search.empty?
-				doc_id	   	  = doc_id_search.first.text.strip    if !doc_id_search.empty?
+				title_text 	  = title_search.first.text 		if !title_search.empty?
+				abstract_text = abstract_search.first.text 		if !abstract_search.empty?
+				question_text = question_search.first.text 		if !question_search.empty?
+				body_text	  = body_search.first.text	 		if !body_search.empty? 
+				update_text	  = update_search.first.text    	if !update_search.empty?
+				doc_id	   	  = doc_id_search.first.text.strip 	if !doc_id_search.empty?
+
+				#preprocssing specific text items
+				#1 Remove strong tags, which Mayo interjects semi-randomly
+				body_text = body_text.gsub("&lt;strong&gt;","").gsub("&lt;/strong&gt;",":")
+				body_text = body_text.gsub("<strong>","").gsub("</strong>",":")
+
+				logger.info("=========> Pre HTML Changes to Title")
+				logger.info(title_text)
 
 				keywords = ''
 
@@ -45,14 +60,16 @@ namespace :admin do
 
 				@content = Content.new()
 
-				@content.title 		= CGI.unescapeHTML(title_text.gsub(/\n/,"").gsub(/\t/,"")) 		if !title_text.nil?
-				@content.abstract 	= abstract_text.gsub(/\n/,"").gsub(/\t/,"") 	if !abstract_text.nil?
-				@content.question 	= question_text.gsub(/\n/,"").gsub(/\t/,"") 	if !question_text.nil?
-				@content.body 		= body_text.gsub(/\n/,"").gsub(/\t/,"") 		if !body_text.nil?
-				@content.contentsType = type_text.gsub(/\n/,"").gsub(/\t/,"").titlecase if !type_text.nil?
-				@content.updateDate = update_text.gsub(/\n/,"").gsub(/\t/,"") 		if !update_text.nil?
-				@content.keywords 	= keywords
-				@content.mayo_doc_id = doc_id if !doc_id.nil?
+				@content.title 			= CGI.unescapeHTML(title_text.gsub(/\n/,"").gsub(/\t/,"")) 		if !title_text.nil?
+				logger.info("=========> After HTML Changes to Title")
+				logger.info(title_text)
+				@content.abstract 		= abstract_text.gsub(/\n/,"").gsub(/\t/,"") 					if !abstract_text.nil?
+				@content.question 		= question_text.gsub(/\n/,"").gsub(/\t/,"") 					if !question_text.nil?
+				@content.body 			= body_text.gsub(/\n/,"").gsub(/\t/,"") 						if !body_text.nil?
+				@content.contentsType 	= type_text.gsub(/\n/,"").gsub(/\t/,"").titlecase 				if !type_text.nil?
+				@content.updateDate 	= update_text.gsub(/\n/,"").gsub(/\t/,"") 						if !update_text.nil?
+				@content.keywords 		= keywords
+				@content.mayo_doc_id 	= doc_id if !doc_id.nil?
 				@content.save!
 
 				mayo_vocab_search.each do | vocab |
@@ -102,11 +119,11 @@ namespace :admin do
 
 			if type_text.casecmp("answer") == 0 || type_text.casecmp("disease") == 0 || type_text.casecmp("article") == 0 || type_text.casecmp("firstaid") == 0 || type_text.casecmp("healthtip") == 0 || type_text.casecmp("TestProcedure") == 0
 
-				title_search 	= answer.search('Title')
+				title_search  = answer.search('Title')
 				doc_id_search = answer.search('DocID')
 
-				title_text 	  = title_search.first.text 	if !title_search.empty?
-				doc_id	   	  = doc_id_search.first.text.strip    if !doc_id_search.empty?
+				title_text 	  = title_search.first.text 	    if !title_search.empty?
+				doc_id	   	  = doc_id_search.first.text.strip  if !doc_id_search.empty?
 
 
 				@content = Content.find_by_title title_text.gsub(/\n/,"").gsub(/\t/,"")
