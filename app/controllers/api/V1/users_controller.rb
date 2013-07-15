@@ -1,4 +1,10 @@
 class Api::V1::UsersController < Api::V1::ABaseController
+  include ActiveModel::MassAssignmentSecurity
+  attr_accessible :first_name, :last_name, :image_url, :gender, :height, :birth_date, :email, :phone,
+                  :generic_call_time, :password, :password_confirmation, :feature_bucket, :blood_type,
+                  :holds_phone_in, :diet_id, :ethnic_group_id, :deceased, :date_of_death, :npi_number,
+                  :expertise, :city, :state
+
   skip_before_filter :authentication_check, :only =>:create
 
   def index
@@ -61,7 +67,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
       user = current_user
     end
     return render_failure({reason:"User not found"}, 404) unless user
-    if user.update_attributes(params[:user])
+    if user.update_attributes(sanitize_for_mass_assignment(params[:user]))
       render_success({user:user})
     else
       render_failure({reason:user.errors.full_messages.to_sentence}, 422)
