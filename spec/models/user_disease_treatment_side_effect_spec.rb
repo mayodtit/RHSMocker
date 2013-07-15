@@ -3,6 +3,11 @@ require 'spec_helper'
 describe UserDiseaseTreatmentSideEffect do
   let(:udtse) { build(:user_disease_treatment_side_effect) }
 
+  # TODO - this is a hack to eliminate false positives resulting from dirty database
+  before(:each) do
+    User.delete_all
+  end
+
   describe 'factory' do
     it 'creates a valid object' do
       udtse.should be_valid
