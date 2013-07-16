@@ -1,17 +1,11 @@
 require 'spec_helper'
 
 describe UserDisease do
-  let(:user_disease) { build(:user_disease) }
+  it_has_a 'valid factory'
 
-  describe 'factory' do
-    it 'creates valid objects' do
-      user_disease.should be_valid
-      user_disease.save.should be_true
-      user_disease.should be_persisted
-    end
-
-    describe 'trait diagnosed' do
-      let(:diagnosed_user_disease) { build(:user_disease, :diagnosed) }
+  describe 'diagnosed' do
+    describe 'factory trait' do
+      let(:diagnosed_user_disease) { build_stubbed(:user_disease, :diagnosed) }
 
       it 'creates valid objects' do
         diagnosed_user_disease.should be_valid
@@ -21,24 +15,14 @@ describe UserDisease do
         diagnosed_user_disease.diagnosed.should be_true
       end
     end
-  end
 
-  describe 'validations' do
-    context 'diagnosed' do
-      let(:diagnosed_user_disease) { build(:user_disease, :diagnosed) }
-
+    describe 'validations' do
       it 'requires diagnoser' do
-        diagnosed_user_disease.should be_valid
-        diagnosed_user_disease.diagnoser.should_not be_nil
-        diagnosed_user_disease.diagnoser = nil
-        diagnosed_user_disease.should_not be_valid
+        build_stubbed(:user_disease, :diagnosed, :diagnoser => nil).should_not be_valid
       end
 
       it 'requires diagnosed_date' do
-        diagnosed_user_disease.should be_valid
-        diagnosed_user_disease.diagnosed_date.should_not be_nil
-        diagnosed_user_disease.diagnosed_date = nil
-        diagnosed_user_disease.should_not be_valid
+        build_stubbed(:user_disease, :diagnosed, :diagnosed_date => nil).should_not be_valid
       end
     end
   end
