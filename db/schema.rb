@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130712013405) do
+ActiveRecord::Schema.define(:version => 20130716004205) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -204,8 +204,8 @@ ActiveRecord::Schema.define(:version => 20130712013405) do
   create_table "feedbacks", :force => true do |t|
     t.integer  "user_id"
     t.text     "note"
-    t.datetime "created_at",                :null => false
-    t.datetime "updated_at",                :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   add_index "feedbacks", ["user_id"], :name => "index_feedbacks_on_user_id"
@@ -436,9 +436,10 @@ ActiveRecord::Schema.define(:version => 20130712013405) do
   create_table "user_offerings", :force => true do |t|
     t.integer  "offering_id"
     t.integer  "user_id"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.datetime "created_at",                       :null => false
+    t.datetime "updated_at",                       :null => false
     t.integer  "phone_call_id"
+    t.boolean  "unlimited",     :default => false, :null => false
   end
 
   add_index "user_offerings", ["offering_id"], :name => "index_user_offerings_on_offering_id"
