@@ -8,27 +8,10 @@ describe UserWeight do
     User.delete_all
   end
 
-  describe 'factory' do
-    it 'builds a valid object' do
-      weight.should be_valid
-      weight.save.should be_true
-      weight.should be_persisted
-    end
-  end
-
-  describe 'validations' do
-    it 'requires a user' do
-      build(:user_weight, :user => nil).should_not be_valid
-    end
-
-    it 'requires a weight' do
-      build(:user_weight, :weight => nil).should_not be_valid
-    end
-
-    it 'requires a taken_at' do
-      build(:user_weight, :taken_at => nil).should_not be_valid
-    end
-  end
+  it_has_a 'valid factory'
+  it_validates 'presence of', :user
+  it_validates 'presence of', :weight
+  it_validates 'presence of', :taken_at
 
   describe 'callbacks' do
     let(:height) { 180 }
