@@ -9,6 +9,8 @@ class BloodPressure < ActiveRecord::Base
 
   validates :user, :collection_type, :diastolic, :systolic, :taken_at, presence: true
 
+  before_validation :set_collection_type
+
   def self.most_recent_for_user(user)
     where(:user_id => (user.try_method(:id) || user)).order('taken_at DESC').first
   end
@@ -27,5 +29,11 @@ class BloodPressure < ActiveRecord::Base
       collection_type_id: collection_type_id,
       taken_at: taken_at
     }
+  end
+
+  private
+
+  def set_collection_type
+    self.collection_type ||= CollectionType.self_reported
   end
 end
