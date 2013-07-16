@@ -12,14 +12,13 @@ resource 'BloodPressures' do
     user.login
   end
 
+  parameter :user_id, 'User ID'
   parameter :auth_token, "User's auth_token"
-  required_parameters :auth_token
+  required_parameters :auth_token, :user_id
+
+  let(:user_id) { user.id }
 
   get '/api/v1/users/:user_id/blood_pressures' do
-    parameter :user_id, 'User ID for which to get blood pressures'
-    required_parameters :user_id
-
-    let(:user_id) { user.id }
     let!(:blood_pressure) { create(:blood_pressure, :user => user) }
     let(:raw_post) { params.to_json }
 
@@ -31,15 +30,13 @@ resource 'BloodPressures' do
   end
 
   post '/api/v1/users/:user_id/blood_pressures' do
-    parameter :user_id, 'user for which to create a new record'
     parameter :diastolic, "User's diastolic pressure"
     parameter :systolic, "User's systolic pressure"
     parameter :pulse, "User's pulse"
     parameter :taken_at, "DateTime of when the reading was taken"
     parameter :collection_type_id, "collection_type_id optional (will make it 'self-reported' by defaults)"
-    required_parameters :user_id, :diastolic, :systolic
+    required_parameters :diastolic, :systolic
 
-    let(:user_id) { user.id }
     let(:diastolic) { 90 }
     let(:systolic) { 91 }
     let(:pulse) { 92 }
@@ -54,7 +51,7 @@ resource 'BloodPressures' do
     end
   end
 
-  delete '/api/v1/blood_pressures/:id' do
+  delete '/api/v1/users/:user_id/blood_pressures/:id' do
     parameter :id, "Blood pressure reading id"
     required_parameters :id
 

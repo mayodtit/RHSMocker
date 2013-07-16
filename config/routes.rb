@@ -11,7 +11,7 @@ RHSMocker::Application.routes.draw do
       resources :treatments, :only => :index
       resources :users, :only => :index do
         resources :allergies, :only => :index, :controller => 'user_allergies'
-        resources :blood_pressures, only: [:index, :create, :destroy], shallow: true
+        resources :blood_pressures, only: [:index, :create, :destroy]
         resources :credits, :only => [:index, :show] do
           get 'summary', :on => :collection
         end
