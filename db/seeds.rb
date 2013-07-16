@@ -732,3 +732,11 @@ SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id
   :factor_id=>one_or_both_sides_factor.id,
   :factor_group_id=>pain_located_factor_group.id
 )
+
+o = Offering.find_or_create_by_name(name: 'Phone Call')
+p = Plan.find_or_create_by_name(name: 'Silver', monthly: true)
+PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: 2, unlimited: false)
+p = Plan.find_or_create_by_name(name: 'Gold', monthly: true)
+PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: 3, unlimited: false)
+p = Plan.find_or_create_by_name(name: 'Platinum', monthly: true)
+PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: nil, unlimited: true)
