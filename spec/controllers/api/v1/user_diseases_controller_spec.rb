@@ -18,39 +18,15 @@ describe Api::V1::UserDiseasesController do
       user.stub(:user_diseases => [user_disease])
     end
 
-    # TODO - make this more sensible; we should be intercepting an exception here.
-    it 'requires authentication' do
-      do_request
-      response.should_not be_success
-      json = JSON.parse(response.body)
-      json['reason'].should == "Invalid auth_token"
-    end
+    it_behaves_like 'action requiring authentication and authorization'
 
-    context 'user signed-in' do
-      before(:each) do
-        controller.stub(:authentication_check)
-        controller.stub(:current_user => user)
-      end
+    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+      it_behaves_like 'success'
 
-      it 'requires User authorization' do
-        expect{ do_request }.to raise_error(CanCan::AccessDenied)
-      end
-
-      context 'authorized' do
-        before(:each) do
-          ability.can :manage, User
-        end
-
-        it 'is successful' do
-          do_request
-          response.should be_success
-        end
-
-        it 'returns an array of user diseases' do
-          do_request
-          json = JSON.parse(response.body)
-          json['user_diseases'].to_json.should == [user_disease.as_json].to_json
-        end
+      it 'returns an array of user diseases' do
+        do_request
+        json = JSON.parse(response.body)
+        json['user_diseases'].to_json.should == [user_disease.as_json].to_json
       end
     end
   end
@@ -66,40 +42,15 @@ describe Api::V1::UserDiseasesController do
       user.stub(:user_diseases => user_diseases)
     end
 
-    # TODO - make this more sensible; we should be intercepting an exception here.
-    it 'requires authentication' do
-      do_request
-      response.should_not be_success
-      json = JSON.parse(response.body)
-      json['reason'].should == "Invalid auth_token"
-    end
+    it_behaves_like 'action requiring authentication and authorization'
 
-    context 'user signed-in' do
-      before(:each) do
-        controller.stub(:authentication_check)
-        controller.stub(:current_user => user)
-      end
+    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+      it_behaves_like 'success'
 
-      it 'requires User authorization' do
-        expect{ do_request }.to raise_error(CanCan::AccessDenied)
-      end
-
-      context 'authorized' do
-        before(:each) do
-          ability.can :manage, User
-          ability.can :manage, UserDisease
-        end
-
-        it 'is successful' do
-          do_request
-          response.should be_success
-        end
-
-        it 'returns the user diseases' do
-          do_request
-          json = JSON.parse(response.body)
-          json['user_disease'].to_json.should == user_disease.as_json.to_json
-        end
+      it 'returns the user diseases' do
+        do_request
+        json = JSON.parse(response.body)
+        json['user_disease'].to_json.should == user_disease.as_json.to_json
       end
     end
   end
@@ -115,56 +66,30 @@ describe Api::V1::UserDiseasesController do
       user.stub(:user_diseases => user_diseases)
     end
 
-    it 'requires authentication' do
-      do_request
-      response.should_not be_success
-      json = JSON.parse(response.body)
-      json['reason'].should == "Invalid auth_token"
-    end
+    it_behaves_like 'action requiring authentication and authorization'
 
-    context 'user signed-in' do
-      before(:each) do
-        controller.stub(:authentication_check)
-        controller.stub(:current_user => user)
+    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+      it 'attempts to create the record' do
+        user_diseases.should_receive(:create).once
+        do_request
       end
 
-      it 'requires User authorization' do
-        expect{ do_request }.to raise_error(CanCan::AccessDenied)
-      end
+      context 'save succeeds' do
+        it_behaves_like 'success'
 
-      context 'authorized' do
-        before(:each) do
-          ability.can :manage, User
-        end
-
-        it 'attempts to create the record' do
-          user_diseases.should_receive(:create).once
+        it 'returns the user disease' do
           do_request
+          json = JSON.parse(response.body)
+          json['user_disease'].to_json.should == user_disease.as_json.to_json
+        end
+      end
+
+      context 'save fails' do
+        before(:each) do
+          user_disease.errors.add(:base, :invalid)
         end
 
-        context 'save succeeds' do
-          it 'returns success' do
-            do_request
-            response.should be_success
-          end
-
-          it 'returns the user disease' do
-            do_request
-            json = JSON.parse(response.body)
-            json['user_disease'].to_json.should == user_disease.as_json.to_json
-          end
-        end
-
-        context 'save fails' do
-          before(:each) do
-            user_disease.errors.add(:base, :invalid)
-          end
-
-          it 'returns failure' do
-            do_request
-            response.should_not be_success
-          end
-        end
+        it_behaves_like 'failure'
       end
     end
   end
@@ -181,56 +106,29 @@ describe Api::V1::UserDiseasesController do
       user_disease.stub(:update_attributes)
     end
 
-    it 'requires authentication' do
-      do_request
-      response.should_not be_success
-      json = JSON.parse(response.body)
-      json['reason'].should == "Invalid auth_token"
-    end
+    it_behaves_like 'action requiring authentication and authorization'
 
-    context 'user signed-in' do
-      before(:each) do
-        controller.stub(:authentication_check)
-        controller.stub(:current_user => user)
+    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+      it 'attempts to update the record' do
+        user_disease.should_receive(:update_attributes).once
+        do_request
       end
 
-      it 'requires User authorization' do
-        expect{ do_request }.to raise_error(CanCan::AccessDenied)
-      end
-
-      context 'authorized' do
+      context 'update_attributes succeeds' do
         before(:each) do
-          ability.can :manage, User
-          ability.can :manage, UserDisease
+          user_disease.stub(:update_attributes => true)
         end
 
-        it 'attempts to update the record' do
-          user_disease.should_receive(:update_attributes).once
-          do_request
+        it_behaves_like 'success'
+      end
+
+      context 'update_attributes fails' do
+        before(:each) do
+          user_disease.stub(:update_attributes => false)
+          user_disease.errors.add(:base, :invalid)
         end
 
-        context 'update_attributes succeeds' do
-          before(:each) do
-            user_disease.stub(:update_attributes => true)
-          end
-
-          it 'returns success' do
-            do_request
-            response.should be_success
-          end
-        end
-
-        context 'update_attributes fails' do
-          before(:each) do
-            user_disease.stub(:update_attributes => false)
-            user_disease.errors.add(:base, :invalid)
-          end
-
-          it 'returns failure' do
-            do_request
-            response.should_not be_success
-          end
-        end
+        it_behaves_like 'failure'
       end
     end
   end
@@ -247,56 +145,29 @@ describe Api::V1::UserDiseasesController do
       user_disease.stub(:destroy)
     end
 
-    it 'requires authentication' do
-      do_request
-      response.should_not be_success
-      json = JSON.parse(response.body)
-      json['reason'].should == "Invalid auth_token"
-    end
+    it_behaves_like 'action requiring authentication and authorization'
 
-    context 'user signed-in' do
-      before(:each) do
-        controller.stub(:authentication_check)
-        controller.stub(:current_user => user)
+    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+      it 'attempts to destroy the record' do
+        user_disease.should_receive(:destroy).once
+        do_request
       end
 
-      it 'requires User authorization' do
-        expect{ do_request }.to raise_error(CanCan::AccessDenied)
-      end
-
-      context 'authorized' do
+      context 'destroy succeeds' do
         before(:each) do
-          ability.can :manage, User
-          ability.can :manage, UserDisease
+          user_disease.stub(:destroy => true)
         end
 
-        it 'attempts to destroy the record' do
-          user_disease.should_receive(:destroy).once
-          do_request
+        it_behaves_like 'success'
+      end
+
+      context 'destroy fails' do
+        before(:each) do
+          user_disease.stub(:destroy => false)
+          user_disease.errors.add(:base, :invalid)
         end
 
-        context 'destroy succeeds' do
-          before(:each) do
-            user_disease.stub(:destroy => true)
-          end
-
-          it 'returns success' do
-            do_request
-            response.should be_success
-          end
-        end
-
-        context 'destroy fails' do
-          before(:each) do
-            user_disease.stub(:destroy => false)
-            user_disease.errors.add(:base, :invalid)
-          end
-
-          it 'returns failure' do
-            do_request
-            response.should_not be_success
-          end
-        end
+        it_behaves_like 'failure'
       end
     end
   end
