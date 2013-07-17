@@ -21,7 +21,7 @@ class Api::V1::UserDiseasesController < Api::V1::ABaseController
 
   def update
     if @user_disease.update_attributes(params[:user_disease])
-      render_success
+      render_success(user_disease: @user_disease)
     else
       render_failure({reason: @user_disease.errors.full_messages.to_sentence}, 422)
     end
