@@ -5,7 +5,7 @@ class Ability
     user ||= User.new # support for not logged-in user
 
     can :manage, User do |u|
-      user.id == u.id
+      user.id == u.id || user.associates.find_by_id(u.id)
     end
 
     can :manage, BloodPressure do |bp|
