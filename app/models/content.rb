@@ -76,10 +76,10 @@ end
 
 #Note: The image with the Health Advocate Text is served up in the CSS talk class. 
  def talkDiv
-	insertHTML = '<div class="talk" ' 
-	insertHTML += javascriptOpening 
-  insertHTML += "'></div>"
-	insertHTML
+    insertHTML = '<div class="talk" ' 
+    insertHTML += javascriptOpening 
+    insertHTML += "'></div>"
+    insertHTML
  end
 
  def javascriptOpening
@@ -113,8 +113,8 @@ end
 
  #Utility Methods to be removed
   def self.getRandomContent
-  	types = ["Article", "Answer", "Health Tip"]
-    Content.first(:order => "RANDOM()")
+    types = ["Article", "Answer", "Health Tip", "First Aid"]
+    Content.where(:contentsType => types).first(:order => "RANDOM()")
   end
 
 end
