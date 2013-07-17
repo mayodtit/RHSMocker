@@ -21,7 +21,50 @@ module Api
         render :json => json, :status => status
       end
 
+      protected
+
+      def index_resource(collection)
+        render_success(resource_plural_symbol => collection)
+      end
+
+      def show_resource(resource)
+        render_success(resource_singular_symbol => resource)
+      end
+
+      def create_resource(collection, resource_params)
+        resource = collection.create(resource_params)
+        if resource.errors.empty?
+          render_success(resource_singular_symbol => resource)
+        else
+          render_failure({reason: resource.errors.full_messages.to_sentence}, 422)
+        end
+      end
+
+      def update_resource(resource, resource_params)
+        if resource.update_attributes(resource_params)
+          render_success
+        else
+          render_failure({reason: resource.errors.full_messages.to_sentence}, 422)
+        end
+      end
+
+      def destroy_resource(resource)
+        if resource.destroy
+          render_success
+        else
+          render_failure({reason: resource.errors.full_messages.to_sentence}, 422)
+        end
+      end
+
       private
+
+      def resource_plural_symbol
+        controller_name.pluralize.to_sym
+      end
+
+      def resource_singular_symbol
+        controller_name.singularize.to_sym
+      end
 
       def testing_environment?
         %w(development staging test).include?(Rails.env)
