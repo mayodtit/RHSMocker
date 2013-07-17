@@ -1,6 +1,6 @@
 FactoryGirl.define do
 
-  factory :user do
+  factory :user, aliases: [:associate] do
     sequence(:install_id) { |n| n }
     password              "password"
     password_confirmation "password"

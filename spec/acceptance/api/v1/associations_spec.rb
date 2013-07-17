@@ -11,23 +11,24 @@ resource "Associations" do
     @user2 = FactoryGirl.create(:user_with_email)
 
     @disease = FactoryGirl.create(:disease)
-    @user_disease = FactoryGirl.create(:user_disease, :disease=>@disease)
     @treatment = FactoryGirl.create(:treatment)
-    @user_disease_treatment = FactoryGirl.create(:user_disease_treatment, :user_disease=>@user_disease, :treatment=>@treatment)
     @allergy = FactoryGirl.create(:allergy)
-    @associate = FactoryGirl.create(:associate, :user_diseases=>[@user_disease])
+    @associate = FactoryGirl.create(:user)
+    @user_disease = FactoryGirl.create(:user_disease, :disease=>@disease, :user => @associate)
+    @user_disease_treatment = FactoryGirl.create(:user_disease_treatment, :user_disease=>@user_disease, :treatment=>@treatment)
     @associate.allergies << @allergy
     @association_type = FactoryGirl.create(:association_type)
     @association = FactoryGirl.create(:association, :user=>@user, :associate=>@associate, :association_type=>@association_type)
 
 
 
-    associate2 = FactoryGirl.create(:associate, :diseases=>[@disease], :first_name=>"Alex")
+    associate2 = FactoryGirl.create(:user, :first_name=>"Alex")
+    associate2.diseases << @disease
     @association_type2 = FactoryGirl.create(:association_type, :name=>"brother")
     @association2 = FactoryGirl.create(:association, :user=>@user2, :associate=>associate2, :association_type=>@association_type2)
 
 
-    associate3 = FactoryGirl.create(:associate)
+    associate3 = FactoryGirl.create(:user)
     @association3 = FactoryGirl.create(:association, :user=>@user, :associate=>associate3, :association_type=>@association_type)
   end
 

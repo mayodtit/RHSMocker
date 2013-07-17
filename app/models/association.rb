@@ -1,6 +1,6 @@
 class Association < ActiveRecord::Base
   belongs_to :user
-  belongs_to :associate
+  belongs_to :associate, :class_name => 'User'
   belongs_to :association_type
   attr_accessible :association_type_id, :user, :associate
 
