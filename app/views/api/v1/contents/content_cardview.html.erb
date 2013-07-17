@@ -14,7 +14,7 @@
 	</div>
 
  <div class="content_source">
-    <% if not ["Question", "Message"].include?(@content.contentsType) %>
+    <% if not ["Question", "Quiz", "Message"].include?(@content.contentsType) %>
       <%= image_tag("mayo_clinic_logo.png", :class => "mayo_icon") %>
     <% end %>
   </div>
