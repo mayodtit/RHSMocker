@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Api::V1::UserTreatmentsController do
+describe Api::V1::UserDiseaseTreatmentsController do
   let(:user) { build_stubbed(:user) }
   let(:ability) { Object.new.extend(CanCan::Ability) }
   let(:user_disease_treatment) { build_stubbed(:user_disease_treatment, :user => user) }
@@ -26,7 +26,7 @@ describe Api::V1::UserTreatmentsController do
       it 'returns an array of user diseases' do
         do_request
         json = JSON.parse(response.body)
-        json['user_treatments'].to_json.should == [user_disease_treatment.as_json].to_json
+        json['user_disease_treatments'].to_json.should == [user_disease_treatment.as_json].to_json
       end
     end
   end
@@ -50,7 +50,7 @@ describe Api::V1::UserTreatmentsController do
       it 'returns the user diseases' do
         do_request
         json = JSON.parse(response.body)
-        json['user_treatment'].to_json.should == user_disease_treatment.as_json.to_json
+        json['user_disease_treatment'].to_json.should == user_disease_treatment.as_json.to_json
       end
     end
   end
@@ -80,7 +80,7 @@ describe Api::V1::UserTreatmentsController do
         it 'returns the user disease' do
           do_request
           json = JSON.parse(response.body)
-          json['user_treatment'].to_json.should == user_disease_treatment.as_json.to_json
+          json['user_disease_treatment'].to_json.should == user_disease_treatment.as_json.to_json
         end
       end
 
