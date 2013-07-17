@@ -8,7 +8,7 @@ shared_examples 'valid factory' do
 end
 
 shared_examples 'presence of' do |property|
-  it "requires a value for #{property}" do
+  its "#{property}" do
     model = build_stubbed(described_class.name.underscore.to_sym)
     model.send(:"#{property}=", nil)
     model.should_not be_valid
@@ -17,7 +17,7 @@ shared_examples 'presence of' do |property|
 end
 
 shared_examples 'scoped uniqueness of' do |property, scope|
-  it "requires a value for #{property}" do
+  its "#{property} per #{scope}" do
     model = create(described_class.name.underscore.to_sym)
     duplicate = build_stubbed(described_class.name.underscore.to_sym, property => model.send(property),
                                                                       scope => model.send(scope))

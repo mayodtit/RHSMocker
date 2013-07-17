@@ -1,14 +1,20 @@
 require 'spec_helper'
 
 describe BloodPressure do
-  let(:blood_pressure) { build(:blood_pressure) }
-
   it_has_a 'valid factory'
-  it_validates 'presence of', :user
-  it_validates 'presence of', :collection_type
-  it_validates 'presence of', :diastolic
-  it_validates 'presence of', :systolic
-  it_validates 'presence of', :taken_at
+
+  describe 'validations' do
+    # stub collection_type setter to test validation
+    before(:each) do
+      described_class.any_instance.stub(:set_collection_type)
+    end
+
+    it_validates 'presence of', :user
+    it_validates 'presence of', :collection_type
+    it_validates 'presence of', :diastolic
+    it_validates 'presence of', :systolic
+    it_validates 'presence of', :taken_at
+  end
 
   describe '::most_recent_for_user' do
     let!(:blood_pressure) { create(:blood_pressure) }
