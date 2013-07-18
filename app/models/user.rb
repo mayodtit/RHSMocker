@@ -283,16 +283,33 @@ class User < ActiveRecord::Base
 
   def checkForNewContent
     #create something, add to user_Reading, push it out
-    if !hasMaxContent
-      randomContentID = Content.getRandomContent()
-      randomContent = Content.find(randomContentID)
-      UserReading.create(user:self, content:randomContent)
-      Pusher['RHS_'+self.id.to_s].trigger('newcontent', {:content_id => randomContent.id, :content_type => randomContent.contentsType})
-    end
+    UserReading.push_content
   end
 
-  def hasMaxContent
-    self.user_readings.where(:read_date => nil, :dismiss_date => nil, :read_later_count => 0).count >= 7
+def getContent
+      gender_not_array = []
+      age_array = []
+
+      #Add Gender MCVIDS - these are usedin a NOT clause, so the logic is flipped
+
+      if !gender.nil?
+          gender_not_array = Content.byGender(gender)
+      end
+
+      if !age.nil?
+          age_array = Content.mcvidsForAge(age)
+      end
+
+      contents = Content.joins(:mayo_vocabularies).where(:mayo_vocabularies => {:mcvid => age_array}).reject{|c| gender_not_array.include?(c.id)}
+
+       # Cannot be in reading list
+
+      #All Else Fails, pick something reasonably random
+      if contents.empty?
+        Content.getRandomContent()
+      else
+        contents.first
+      end
   end
 
   def self.by_role(role)

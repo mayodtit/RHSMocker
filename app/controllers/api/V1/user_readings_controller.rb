@@ -8,6 +8,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   end
 
   def inbox
+    push_content
     page = Integer(params[:page] || 2)
     per_page = Integer(params[:per_page] || 10)
 
@@ -37,7 +38,6 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
       :created_at=>message_status.message.created_at
     }
   end
-
 
   def mark_read
     status :read_date, 'read'
@@ -77,9 +77,6 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
     current_user.user_readings.unread.count >= 7
   end
 
-
-
-
   #FOR TESTING ONLY
 
   def reset
@@ -96,8 +93,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   def push_content
     #create something, add to user_Reading, push it out
     if !hasMaxContent
-      content_id||=Content.getRandomContent()
-      content = Content.find(content_id)
+      content = current_user.getContent
       UserReading.create(user:current_user, content:content)
       PusherModule.broadcast(current_user.id, 'newcontent', content.id, content.contentsType)
     end
