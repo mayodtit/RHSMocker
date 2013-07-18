@@ -111,6 +111,64 @@ end
   openingJavascript
  end
 
+#Content Methods to find types by MCVIDs semantically
+def byGender(gender)
+  genderSpecificIDs = []
+
+  unless gender.blank?
+     gender = gender[0]
+     if gender <=> 'F'
+       genderSpecificIDs = [1131,3899,3900]
+     elsif gender <=> 'M'
+       genderSpecificIDs = [1130,3896,3897]
+     end
+
+     if !genderSpecificIDs.empty?
+        return MayoVocabulary.where(:mcvid => genderSpecificIDs).inject([]){|array, vocab| array << vocab.contents.map(&:id);array}.flatten
+     end
+  end
+  []
+end
+
+def mcvidsForAge(age)
+      #Add Age Specific MCVIDS
+      #Birth to 1 month = 1119
+      #2 months to 2 years = 1120
+      #3 to 5 years  = 1121
+      #6 to 12 years = 1122
+      #13 to 18 years = 1123
+      #19 to 44 = 1125 
+      #45 to 64 = 1126
+      #65 to 80 = 1127
+      #80 and over = 1128
+
+      mcvid_array = []
+
+      case age 
+        when 0..2  then
+          mcvid_array << '1119'
+          mcvid_array << '1120'
+        when 3..5 then
+          mcvid_array << '1121'
+        when 6..12 then
+          mcvid_array << '1122'
+        when 13..18 then
+          mcvid_array << '1123'
+        when 19..44 then
+          mcvid_array << '1125'
+        when 45..64 then
+          mcvid_array << '1126'
+        when 65..80 then
+          mcvid_array << '1127'
+        when 80..200 then
+          mcvid_array << '1128'
+      end
+
+      mcvid_array
+end
+
+
+
  #Utility Methods to be removed
   def self.getRandomContent
     types = ["Article", "Answer", "Health Tip", "First Aid"]
