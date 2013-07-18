@@ -1,47 +1,35 @@
 class Api::V1::UserAllergiesController < Api::V1::ABaseController
-  before_filter :load_user!, :only => :index
+  include ActiveModel::MassAssignmentSecurity
+  attr_accessible :user_id, :allergy_id
+
+  before_filter :load_user!
+  before_filter :load_user_allergy!, only: [:show, :update, :destroy]
 
   def index
-    render_success(user_allergies: @user.user_allergies)
+    index_resource(@user.user_allergies)
+  end
+
+  def show
+    show_resource(@user_allergy)
   end
 
   def create
-    return render_failure( {reason:"Allergy_id not supplied"}, 412 ) unless params[:allergy_id].present?
-    allergy = Allergy.find_by_id params[:allergy_id]
-    return render_failure( {reason:"Allergy with id #{params[:allergy_id]} is not found"}, 404 ) unless allergy
-    if params[:user_id].present?
-      user = User.find_by_id params[:user_id]
-      return render_failure({reason:"User with id #{params[:user_id]} is not found"}, 404) unless user
-      return render_failure({reason:"Permission denied to edit user with id #{params[:user_id]}"}) unless current_user.allowed_to_edit_user?(params[:user_id])
-    else
-      user = current_user
-    end
-    user_allergy = UserAllergy.create( {:allergy=>allergy, :user=>user} )
-    if user_allergy.errors.empty?
-      render_success( {user_allergy:user_allergy} )
-    else
-      render_failure( {reason:user_allergy.errors.full_messages.to_sentence}, 412 )
-    end
+    create_resource(@user.user_allergies, sanitize_for_mass_assignment(params[:user_allergy]))
   end
 
-  def remove
-    return render_failure( {reason:"UserAllergy id not supplied"}, 412 ) unless params[:user_allergy_id].present?
-    user_allergy = UserAllergy.find_by_id params[:user_allergy_id]
-    return render_failure({reason:"user_allergy with id #{params[:user_allergy_id]} is not found"}, 404) unless user_allergy
-    if user_allergy.user_id!=current_user.id && !current_user.allowed_to_edit_user?(user_allergy.user_id) && !current_user.hcp?
-      return render_failure({reason:"Permission denied to edit user_allergy with id #{params[:user_allergy_id]}"})
-    end
-
-    if UserAllergy.destroy(user_allergy.id)
-      render_success user_allergy:user_allergy
-    else
-      render_failure({reason:user_allergy.errors.full_messages.to_sentence}, 422)
-    end
+  def destroy
+    destroy_resource(@user_allergy)
   end
 
   private
 
   def load_user!
     @user = params[:user_id] ? User.find(params[:user_id]) : current_user
+    authorize! :manage, @user
+  end
+
+  def load_user_allergy!
+    @user_allergy = @user.user_allergies.find(params[:id])
+    authorize! :manage, @user_allergy
   end
 end

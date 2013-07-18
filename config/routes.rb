@@ -10,7 +10,7 @@ RHSMocker::Application.routes.draw do
       resources :symptoms, :only => :index
       resources :treatments, :only => :index
       resources :users, :only => :index do
-        resources :allergies, :only => :index, :controller => 'user_allergies'
+        resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
         resources :blood_pressures, only: [:index, :create, :destroy]
         resources :credits, :only => [:index, :show] do
           get 'summary', :on => :collection
@@ -34,11 +34,6 @@ RHSMocker::Application.routes.draw do
       #content
       get "contents" => "contents#index", :as=>"content_index"
       get "contents/:id" => "contents#show", :as=>"content_show"
-
-      #allergies
-      get "user_allergies" => "user_allergies#index"
-      post "user_allergies" => "user_allergies#create"
-      delete "user_allergies" => "user_allergies#remove"
 
       #associates
       put "associates/:id" => "associates#update", :as=>"associates_update"
