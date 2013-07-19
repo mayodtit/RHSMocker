@@ -18,8 +18,7 @@ class User < ActiveRecord::Base
   has_many :user_diseases
   has_many :diseases, :through=> :user_diseases
 
-  #Weight Readings
-  has_many :user_weights
+  has_many :weights
 
   has_many :blood_pressures
 
@@ -140,7 +139,7 @@ class User < ActiveRecord::Base
   end
 
   def most_recent_weight
-    UserWeight.most_recent_for_user(self)
+    Weight.most_recent_for(self)
   end
 
   def as_json options=nil

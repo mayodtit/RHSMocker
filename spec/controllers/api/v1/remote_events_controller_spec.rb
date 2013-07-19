@@ -17,7 +17,7 @@ describe Api::V1::RemoteEventsController do
     }
   end
 
-  let(:remote_event) { build(:remote_event) }
+  let(:remote_event) { build_stubbed(:remote_event) }
 
   describe 'POST create' do
     def do_request

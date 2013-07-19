@@ -96,7 +96,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def keywords
-    render_success keywords:current_user.keywords.map{|mv| mv[0].title }[0,7]
+    render_success keywords: User.find(params[:id]).keywords.map{|mv| mv[0].title }[0,7]
   end
 
   def add_feedback

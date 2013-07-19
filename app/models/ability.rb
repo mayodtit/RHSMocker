@@ -8,8 +8,8 @@ class Ability
       user.id == u.id || user.associates.find_by_id(u.id)
     end
 
-    can :manage, [BloodPressure, UserDisease, UserDiseaseTreatment, UserAllergy] do |bp|
-      (user.id == bp.user_id) || (can?(:manage, bp.user))
+    can :manage, [BloodPressure, UserDiseaseTreatment, UserAllergy, UserDisease, Weight] do |o|
+      (user.id == o.user_id) || (can?(:manage, o.user))
     end
   end
 end

@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :ethnic_group do   
-    name { ['Asian or Pacific Islander', 'Black', 'Hispanic'].sample }
+  factory :ethnic_group do
+    sequence(:name) {|n| "Ethnic Group #{n}"}
   end
 end

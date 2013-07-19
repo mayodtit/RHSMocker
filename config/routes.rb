@@ -3,7 +3,10 @@ RHSMocker::Application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :allergies, :only => :index
+      resources :contents, :only => [:index, :show]
+      resources :diets, :only => :index
       resources :diseases, :only => :index
+      resources :ethnic_groups, :only => :index
       resources :plans, :only => [:index, :show]
       resources :remote_events, :only => :create
       resources :side_effects, :only => :index
@@ -16,9 +19,10 @@ RHSMocker::Application.routes.draw do
           get 'summary', :on => :collection
         end
         resources :diseases, except: [:new, :edit], controller: 'user_diseases'
+        get 'keywords', :on => :member
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_disease_treatments'
-        resources :weights, :only => :index, :controller => 'user_weights'
+        resources :weights, :only => [:index, :create, :destroy]
       end
 
       #account management
@@ -31,10 +35,6 @@ RHSMocker::Application.routes.draw do
       post "user/update_email" => "users#update_email", :as=>"update_email"
       post "password_resets" => "password_resets#create", :as=>"create_password_resets"
 
-      #content
-      get "contents" => "contents#index", :as=>"content_index"
-      get "contents/:id" => "contents#show", :as=>"content_show"
-
       #associates
       put "associates/:id" => "associates#update", :as=>"associates_update"
       get "associations" => "associations#index", :as=>"associations_index"
@@ -42,7 +42,6 @@ RHSMocker::Application.routes.draw do
       put "associations" => "associations#update", :as=>"associations_update"
       delete "associations" => "associations#remove", :as=>"associations_remove"
       get "association_types" =>"association_types#list"
-
 
       #reading list
       get "user_readings" => "user_readings#index", :as=>"user_readings_index"
@@ -54,11 +53,6 @@ RHSMocker::Application.routes.draw do
 
 
       post "locations" =>"user_locations#create", :as=>"create_user_location"
-      post "weights" => "user_weights#create", :as=>"create_user_weight"
-      get "weights" => "user_weights#list", :as=>"list_user_weights"
-      delete "weights" => "user_weights#remove", :as=>"remove_user_weight"
-
-      get "user/keywords" => "users#keywords", :as=>"user_keywords"
 
       get "messages" => "messages#list", :as=>"list_user_messages"
       get "messages/:id" => "messages#show", :as=>"show_user_message"
@@ -74,9 +68,6 @@ RHSMocker::Application.routes.draw do
 
 
       post "feedback" => "users#add_feedback"
-
-      get "diets" => "diets#list"
-      get "ethnic_groups" => "ethnic_groups#list"
 
       get "agreement_pages" => "agreement_pages#list"
       get "agreements" => "agreements#list"
