@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130716004205) do
+ActiveRecord::Schema.define(:version => 20130719203248) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -514,7 +514,7 @@ ActiveRecord::Schema.define(:version => 20130716004205) do
   create_table "weights", :force => true do |t|
     t.integer  "user_id"
     t.decimal  "amount",     :precision => 9, :scale => 5, :default => 0.0
-    t.decimal  "bmi",        :precision => 8, :scale => 5, :default => 0.0
+    t.decimal  "bmi",        :precision => 8, :scale => 5
     t.datetime "created_at",                                                :null => false
     t.datetime "updated_at",                                                :null => false
     t.datetime "taken_at"
