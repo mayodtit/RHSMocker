@@ -94,6 +94,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
     #create something, add to user_Reading, push it out
     if !hasMaxContent
       content = current_user.getContent
+      return unless content
       UserReading.create(user:current_user, content:content)
       PusherModule.broadcast(current_user.id, 'newcontent', content.id, content.contentsType)
     end
