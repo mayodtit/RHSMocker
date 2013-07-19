@@ -8,22 +8,13 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   end
 
   def inbox
-    page = Integer(params[:page] || 2)
-    per_page = Integer(params[:per_page] || 10)
-
-    unread = current_user.message_statuses.unread.map { |message_status|
-      render_message_into_common_format(message_status)
-    } | current_user.user_readings.unread
-
-    read = current_user.message_statuses.read.map { |message_status|
-      render_message_into_common_format(message_status)
-    } | current_user.user_readings.saved
-
-    unread.sort_by!{|obj| obj[:created_at]}
-    read.sort_by!{|obj| obj[:created_at]}
-
-    #render_success({unread:unread, read:( read.slice( (page-1)*per_page, per_page ) || []) })
-    render_success({unread:unread, read:read})
+    if params[:type] == 'carousel'
+      render_success(unread: unread_items)
+    elsif params[:type] == 'timeline'
+      render_success(read: read_items)
+    else
+      render_success(unread: unread_items, read: read_items)
+    end
   end
 
   def render_message_into_common_format message_status
@@ -103,4 +94,21 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
     end
   end
 
+  private
+
+  def read_items
+    read = current_user.message_statuses.read.map { |message_status|
+      render_message_into_common_format(message_status)
+    } | current_user.user_readings.saved
+    read.sort_by!{|obj| obj[:created_at]}
+    read
+  end
+
+  def unread_items
+    unread = current_user.message_statuses.unread.map { |message_status|
+      render_message_into_common_format(message_status)
+    } | current_user.user_readings.unread
+    unread.sort_by!{|obj| obj[:created_at]}
+    unread
+  end
 end
