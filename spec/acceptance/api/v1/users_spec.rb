@@ -7,13 +7,11 @@ resource "Users" do
 
   before(:all) do
     User.destroy_all
-    Associate.destroy_all
   end
 
   # currently, only update_password needs user object
   before(:each) do
     User.destroy_all
-    Associate.destroy_all
     @password = 'current_password'
     @user = FactoryGirl.create(:user_with_email, :password=>@password, :password_confirmation=>@password)
     @user.login
