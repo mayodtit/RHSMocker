@@ -13,7 +13,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
 
     unread = current_user.message_statuses.unread.map { |message_status|
       render_message_into_common_format(message_status)
-    } | current_user.user_readings.unread
+    } | current_user.user_readings.not_saved_not_dismissed
 
     read = current_user.message_statuses.read.map { |message_status|
       render_message_into_common_format(message_status)
