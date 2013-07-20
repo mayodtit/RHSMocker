@@ -5,22 +5,13 @@ resource "AssociationTypes" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  before(:all) do
-    @user = FactoryGirl.create(:user_with_email)
-    @user.login
-    FactoryGirl.create(:association_type)
-  end
-
-
-
   get '/api/v1/association_types' do
+    let!(:association_type) { create(:association_type) }
 
-    example_request "[GET] Get all association_types" do
-      explanation "Returns an array of association_types"
-
+    example_request "[GET] Get all association types" do
+      explanation "Returns a hash of association_types by relationship type"
       status.should == 200
-      JSON.parse(response_body).should_not be_empty
+      JSON.parse(response_body).should be_a Hash
     end
   end
-
 end

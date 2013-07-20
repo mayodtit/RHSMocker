@@ -11,5 +11,8 @@ class Ability
     can :manage, [BloodPressure, UserDiseaseTreatment, UserAllergy, UserDisease, Weight] do |o|
       (user.id == o.user_id) || (can?(:manage, o.user))
     end
+
+    # hack until User/Member model is refactored
+    can :manage, User
   end
 end

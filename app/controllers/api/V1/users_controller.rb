@@ -10,12 +10,12 @@ class Api::V1::UsersController < Api::V1::ABaseController
   def index
     if params[:only] == 'internal'
       if params[:q]
-        @users = User.search do
+        @users = Member.search do
           fulltext params[:q]
           with :role_name, params[:role_name] if params[:role_name]
         end
       else
-        @users = params[:role_name] ? User.by_role(Role.find_by_name(params[:role_name])) : User.all
+        @users = params[:role_name] ? (Role.find_by_name(params[:role_name]).try(:users) || []) : Member.all
       end
     else
       begin
@@ -30,7 +30,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   def create
     # TODO: refactor into the model
     if params[:user].present? && params[:user][:install_id].present?
-      user = User.find_by_install_id(params[:user][:install_id])
+      user = Member.find_by_install_id(params[:user][:install_id])
     end
 
     if user.present?
@@ -40,7 +40,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
         return render_failure( {reason:"Registration is already complete"}, 409 )
       end
     else
-      user = User.new(params[:user])
+      user = Member.new(params[:user])
     end
 
     if user.save
@@ -96,7 +96,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def keywords
-    render_success keywords: User.find(params[:id]).keywords.map{|mv| mv[0].title }[0,7]
+    render_success keywords: Member.find(params[:id]).keywords.map{|mv| mv[0].title }[0,7]
   end
 
   def add_feedback

@@ -8,9 +8,9 @@ resource "Sessions" do
   before(:each) do
     @password = 'some_password'
     @user_with_email = FactoryGirl.create(:user_with_email, :password=>@password, :password_confirmation=>@password)
-    @user = FactoryGirl.create(:user)
+    @user = FactoryGirl.create(:member)
     @user.login
-    @user2 = FactoryGirl.create(:user)
+    @user2 = FactoryGirl.create(:member)
     @user2.login
   end
 

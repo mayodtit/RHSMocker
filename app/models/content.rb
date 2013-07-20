@@ -25,6 +25,16 @@ class Content < ActiveRecord::Base
 		text :keywords
 	end
 
+  def self.install_message
+    where(:title => 'Installed Better').first
+  end
+
+  def self.new_member_content
+    where(:title => ['Do you have allergies?',
+                     'What is your gender?',
+                     'Which hand do you hold your phone in?'])
+  end
+
 	def as_json(options=nil)
     if options && options["source"].present?
       json_body = options["source"]
