@@ -15,7 +15,7 @@ class Association < ActiveRecord::Base
   end
 
   def as_json options=nil
-    associate.as_json.merge!(association_type_id: association_type_id)
+    super.merge!(associate: associate, association_type: association_type)
   end
 
   private

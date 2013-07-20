@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'rspec_api_documentation/dsl'
 
-resource "Associate" do
+resource "Association" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
@@ -17,30 +17,30 @@ resource "Associate" do
   parameter :user_id, "Target user's id"
   required_parameters :auth_token, :user_id
 
-  get '/api/v1/users/:user_id/associates' do
+  get '/api/v1/users/:user_id/associations' do
     let!(:association) { create(:association, user: user) }
     let(:raw_post) { params.to_json }
 
-    example_request "[GET] Get all associates for a user" do
-      explanation 'Returns an array of associates for the user'
+    example_request "[GET] Get all associations for a user" do
+      explanation 'Returns an array of associations for the user'
       status.should == 200
-      JSON.parse(response_body)['associates'].should be_a Array
+      JSON.parse(response_body)['associations'].should be_a Array
     end
   end
 
-  get '/api/v1/users/:user_id/associates/:id' do
+  get '/api/v1/users/:user_id/associations/:id' do
     let!(:association) { create(:association, user: user) }
-    let(:id) { association.associate_id }
+    let(:id) { association.id }
     let(:raw_post) { params.to_json }
 
-    example_request "[GET] Get can associate for a user" do
-      explanation 'Returns an associate for the user'
+    example_request "[GET] Get an association for a user" do
+      explanation 'Returns an association for the user'
       status.should == 200
-      JSON.parse(response_body)['associate'].should be_a Hash
+      JSON.parse(response_body)['association'].should be_a Hash
     end
   end
 
-  post '/api/v1/users/:user_id/associates' do
+  post '/api/v1/users/:user_id/associations' do
     let!(:association_type) { create(:association_type) }
 
     parameter :first_name, "Associate's first name"
@@ -52,7 +52,8 @@ resource "Associate" do
     parameter :height, "Associate's height (cm)"
     parameter :association_type_id, "Association type"
     scope_parameters :associate, [:first_name, :last_name, :birth_date, :phone,
-                                  :image_url, :gender, :height, :association_type_id]
+                                  :image_url, :gender, :height]
+    scope_parameters :association, [:associate]
     required_parameters :association_type_id
 
     let(:first_name) { "Kyle" }
@@ -65,18 +66,18 @@ resource "Associate" do
     let(:association_type_id) { association_type.id }
     let(:raw_post) { params.to_json }
 
-    example_request "[POST] Create an associate for a user" do
-      explanation 'Create an associate for the user'
+    example_request "[POST] Create an association for a user" do
+      explanation 'Create an association for the user'
       status.should == 200
     end
   end
 
-  put '/api/v1/users/:user_id/associates/:id' do
+  put '/api/v1/users/:user_id/associations/:id' do
     let!(:association) { create(:association, user: user) }
     let!(:association_type) { create(:association_type) }
-    let(:id) { association.associate_id }
+    let(:id) { association.id }
 
-    parameter :id, "Associate's ID"
+    parameter :id, "Association's ID"
     parameter :first_name, "Associate's first name"
     parameter :last_name, "Associate's last name"
     parameter :birth_date, "Associate's birth date"
@@ -86,7 +87,8 @@ resource "Associate" do
     parameter :height, "Associate's height (cm)"
     parameter :association_type_id, "Association type"
     scope_parameters :associate, [:first_name, :last_name, :birth_date, :phone,
-                                  :image_url, :gender, :height, :association_type_id]
+                                  :image_url, :gender, :height]
+    scope_parameters :association, [:associate]
     required_parameters :id
 
     let(:first_name) { "Kyle" }
@@ -96,22 +98,22 @@ resource "Associate" do
     let(:image_url) { 'http://www.chilcutt.com/kyle.jpg' }
     let(:gender) { 'male' }
     let(:height) { 180 }
-    let(:assocation_type_id) { association_type.id }
+    let(:association_type_id) { association_type.id }
     let(:raw_post) { params.to_json }
 
-    example_request "[PUT] Update an associate for a user" do
-      explanation 'Update an associate for the user'
+    example_request "[PUT] Update an association for a user" do
+      explanation 'Update an association for the user'
       status.should == 200
     end
   end
 
-  delete '/api/v1/users/:user_id/associates/:id' do
+  delete '/api/v1/users/:user_id/associations/:id' do
     let!(:association) { create(:association, user: user) }
-    let(:id) { association.associate_id }
+    let(:id) { association.id }
     let(:raw_post) { params.to_json }
 
-    example_request "[DELETE] Delete an associate for a user" do
-      explanation 'Delete an associate for the user'
+    example_request "[DELETE] Delete an association for a user" do
+      explanation 'Delete an association for the user'
       status.should == 200
     end
   end
