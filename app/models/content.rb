@@ -112,9 +112,8 @@ end
  end
 
 #Content Methods to find types by MCVIDs semantically
-def byGender(gender)
+def self.byGender(gender)
   genderSpecificIDs = []
-
   unless gender.blank?
      gender = gender[0]
      if gender <=> 'F'
@@ -130,7 +129,7 @@ def byGender(gender)
   []
 end
 
-def mcvidsForAge(age)
+def self.mcvidsForAge(age)
       #Add Age Specific MCVIDS
       #Birth to 1 month = 1119
       #2 months to 2 years = 1120
