@@ -40,7 +40,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   def association_params
     hash = if params[:association][:associate][:npi_number]
              npi_user = User.find_by_npi_number(params[:association][:associate][:npi_number])
-             npi_user ? {associate: npi_user} : {associate_attributes: sanitize_for_mass_assignment(search_service.find(params[:association][:associate][:npi_number]))}
+             npi_user ? {associate: npi_user} : {associate_attributes: sanitize_for_mass_assignment(search_service.find(params[:association][:associate]))}
            else
              {associate_attributes: sanitize_for_mass_assignment(params[:association][:associate])}
            end
