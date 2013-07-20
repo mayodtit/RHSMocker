@@ -16,10 +16,6 @@ describe AssociationType do
       build_stubbed(:association_type, name: nil).should_not be_valid
     end
 
-    it 'requires a gender' do
-      build_stubbed(:association_type, gender: nil).should_not be_valid
-    end
-
     it 'requires a relationship_type' do
       build_stubbed(:association_type, relationship_type: nil).should_not be_valid
     end

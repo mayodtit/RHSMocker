@@ -3,7 +3,7 @@ class AssociationType < ActiveRecord::Base
 
   attr_accessible :name, :gender, :relationship_type
 
-  validates :name, :gender, :relationship_type, presence: true
+  validates :name, :relationship_type, presence: true
 
   def self.by_relationship_type
     Set.new(all).classify(&:relationship_type)
