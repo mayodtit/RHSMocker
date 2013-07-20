@@ -1,4 +1,4 @@
-class Api::V1::AssociatesController < Api::V1::ABaseController
+class Api::V1::AssociationsController < Api::V1::ABaseController
   include ActiveModel::MassAssignmentSecurity
   attr_accessible :first_name, :last_name, :npi_number, :expertise, :city, :state
 
@@ -33,18 +33,18 @@ class Api::V1::AssociatesController < Api::V1::ABaseController
   end
 
   def load_association!
-    @association = @user.associations.find_by_associate_id!(params[:id])
+    @association = @user.associations.find(params[:id])
     authorize! :manage, @association.associate
   end
 
   def association_params
-    hash = if params[:associate][:npi_number]
-             npi_user = User.find_by_npi_number(params[:associate][:npi_number])
-             npi_user ? {associate: npi_user} : {associate_attributes: sanitize_for_mass_assignment(search_service.find(params[:associate][:npi_number]))}
+    hash = if params[:association][:associate][:npi_number]
+             npi_user = User.find_by_npi_number(params[:association][:associate][:npi_number])
+             npi_user ? {associate: npi_user} : {associate_attributes: sanitize_for_mass_assignment(search_service.find(params[:association][:associate][:npi_number]))}
            else
-             {associate_attributes: sanitize_for_mass_assignment(params[:associate])}
+             {associate_attributes: sanitize_for_mass_assignment(params[:association][:associate])}
            end
-    hash[:association_type_id] = params[:associate][:association_type_id] if params[:associate][:association_type_id]
+    hash[:association_type_id] = params[:association][:association_type_id]
     hash
   end
 

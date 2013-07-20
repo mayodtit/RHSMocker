@@ -13,9 +13,9 @@ RHSMocker::Application.routes.draw do
       resources :side_effects, :only => :index
       resources :symptoms, :only => :index
       resources :treatments, :only => :index
-      resources :users, :only => :index do
+      resources :users, :only => [:index, :update] do
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
-        resources :associates, :except => [:new, :edit]
+        resources :associations, :except => [:new, :edit]
         resources :blood_pressures, only: [:index, :create, :destroy]
         resources :credits, :only => [:index, :show] do
           get 'summary', :on => :collection
