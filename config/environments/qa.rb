@@ -68,12 +68,12 @@ RHSMocker::Application.configure do
   # Set Mailer Host
   config.action_mailer.perform_deliveries = true
 
-  config.action_mailer.default_url_options = { :host => 'rhs-staging.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'rhs-qa.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     :address              => "smtp.sendgrid.net",
     :port                 => 587,
-    :domain               => 'rhs-staging.herokuapp.com',
+    :domain               => 'rhs-qa.herokuapp.com',
     :user_name            => 'better_eng',
     :password             => 'better120',
     :authentication       => :plain,

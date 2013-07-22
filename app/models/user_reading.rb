@@ -8,6 +8,7 @@ class UserReading < ActiveRecord::Base
   scope :saved, :conditions => "(save_date is not null) and (dismiss_date is null)"
   scope :not_dismissed, :conditions => {:dismiss_date => nil} 
   scope :for_timeline, :conditions => {:view_date => nil}
+  scope :not_saved_not_dismissed, :conditions => {:save_date => nil, :dismiss_date => nil}
 
   def as_json options=nil
     {

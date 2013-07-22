@@ -29,7 +29,6 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
     }
   end
 
-
   def mark_read
     status :read_date, 'read'
   end
@@ -68,9 +67,6 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
     current_user.user_readings.unread.count >= 7
   end
 
-
-
-
   #FOR TESTING ONLY
 
   def reset
@@ -87,8 +83,8 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   def push_content
     #create something, add to user_Reading, push it out
     if !hasMaxContent
-      content_id||=Content.getRandomContent()
-      content = Content.find(content_id)
+      content = current_user.getContent
+      return unless content
       UserReading.create(user:current_user, content:content)
       PusherModule.broadcast(current_user.id, 'newcontent', content.id, content.contentsType)
     end
@@ -107,7 +103,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   def unread_items
     unread = current_user.message_statuses.unread.map { |message_status|
       render_message_into_common_format(message_status)
-    } | current_user.user_readings.unread
+    } | current_user.user_readings.not_saved_not_dismissed
     unread.sort_by!{|obj| obj[:created_at]}
     unread
   end
