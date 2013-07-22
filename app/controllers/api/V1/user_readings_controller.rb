@@ -8,6 +8,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   end
 
   def inbox
+    push_content
     page = Integer(params[:page] || 2)
     per_page = Integer(params[:per_page] || 10)
 
