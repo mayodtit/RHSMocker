@@ -300,7 +300,10 @@ def getContent
           age_array = Content.mcvidsForAge(age)
       end
 
-      contents = Content.joins(:mayo_vocabularies).where(:mayo_vocabularies => {:mcvid => age_array}).reject{|c| gender_not_array.include?(c.id)}
+      contents = Content.joins(:mayo_vocabularies)
+                        .where(:mayo_vocabularies => {:mcvid => age_array})
+                        .where("contents.id NOT IN (#{user_readings.pluck(:content_id).join(', ')})")
+                        .reject{|c| gender_not_array.include?(c.id)}
 
        # Cannot be in reading list
 
