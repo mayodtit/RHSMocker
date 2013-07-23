@@ -127,9 +127,9 @@ def self.byGender(gender)
   unless gender.blank?
      gender = gender[0]
      if gender <=> 'F'
-       genderSpecificIDs = [1131,3899,3900]
+       genderSpecificIDs = ['1131','3899','3900']
      elsif gender <=> 'M'
-       genderSpecificIDs = [1130,3896,3897]
+       genderSpecificIDs = ['1130','3896','3897']
      end
 
      if !genderSpecificIDs.empty?

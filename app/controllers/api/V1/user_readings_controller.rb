@@ -8,6 +8,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   end
 
   def inbox
+    push_content
     if params[:type] == 'carousel'
       render_success(unread: unread_items)
     elsif params[:type] == 'timeline'
