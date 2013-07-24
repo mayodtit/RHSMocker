@@ -18,6 +18,8 @@ class Member < User
   has_many :user_offerings, :foreign_key => :user_id
   has_many :offerings, :through => :user_offerings
 
+  has_many :invitations
+
   attr_accessible :install_id, :generic_call_time, :password, :password_confirmation, :feature_bucket,
                   :holds_phone_in, :invitation_token
 
