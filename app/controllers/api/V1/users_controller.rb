@@ -108,6 +108,13 @@ class Api::V1::UsersController < Api::V1::ABaseController
     end
   end
 
+  def invite
+    @user = User.find(params[:id])
+    @member = @user.member || Member.create_from_user!(@user)
+    current_user.invitations.create!(invited_member: @member)
+    render_success
+  end
+
   private
 
   def search_service

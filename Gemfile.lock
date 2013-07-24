@@ -301,6 +301,7 @@ DEPENDENCIES
   factory_girl_rails
   factual-api
   guard-rspec
+  haml
   httparty
   jquery-datatables-rails!
   jquery-rails

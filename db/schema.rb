@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130719203248) do
+ActiveRecord::Schema.define(:version => 20130724190012) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -209,6 +209,13 @@ ActiveRecord::Schema.define(:version => 20130719203248) do
   end
 
   add_index "feedbacks", ["user_id"], :name => "index_feedbacks_on_user_id"
+
+  create_table "invitations", :force => true do |t|
+    t.integer  "member_id"
+    t.integer  "invited_member_id"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
 
   create_table "mayo_vocabularies", :force => true do |t|
     t.string   "mcvid"
@@ -488,6 +495,7 @@ ActiveRecord::Schema.define(:version => 20130719203248) do
     t.string   "city"
     t.string   "state"
     t.string   "type",                                                                        :default => "",    :null => false
+    t.string   "invitation_token"
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"

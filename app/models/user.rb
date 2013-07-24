@@ -68,4 +68,9 @@ class User < ActiveRecord::Base
       weight: most_recent_weight
     }
   end
+
+  def member
+    return nil unless email
+    Member.find_by_email(email)
+  end
 end

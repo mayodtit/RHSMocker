@@ -15,4 +15,10 @@ class UserMailer < ActionMailer::Base
       :to => user.email,
       :subject => 'Better already')
   end
+
+  def invitation_email user
+    @user = user
+    @url = invite_url(@user.invitation_token)
+    mail(to: user.email, subject: 'Complete your registration to Better')
+  end
 end

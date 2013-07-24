@@ -21,6 +21,7 @@ RHSMocker::Application.routes.draw do
           get 'summary', :on => :collection
         end
         resources :diseases, except: [:new, :edit], controller: 'user_diseases'
+        post 'invite', :on => :member
         get 'keywords', :on => :member
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_disease_treatments'
@@ -69,6 +70,11 @@ RHSMocker::Application.routes.draw do
       get "agreements/up_to_date" => "agreements#up_to_date?"
 
     end
+  end
+
+  resources :invites, :only => [:update, :show] do
+    get :complete, :on => :collection
+    get :signup, :on => :collection
   end
 
   get "password_resets/:id" => "api/v1/password_resets#edit", :as=>"edit_password_resets"
