@@ -162,6 +162,14 @@ class Member < User
   end
 
   def invite!
-    update_attributes!(:invitation_token, Base64.urlsafe_encode64(SecureRandom.base64(36)))
+    update_attributes!(:invitation_token => Base64.urlsafe_encode64(SecureRandom.base64(36)))
+  end
+
+  def member
+    self
+  end
+
+  def self.create_from_user!(user)
+    create!(email: user.email)
   end
 end

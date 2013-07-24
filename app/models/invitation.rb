@@ -10,7 +10,7 @@ class Invitation < ActiveRecord::Base
 
   after_create :invite_member!
 
-  def invite_member
+  def invite_member!
     invited_member.invite!
   end
 end

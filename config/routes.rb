@@ -21,6 +21,7 @@ RHSMocker::Application.routes.draw do
           get 'summary', :on => :collection
         end
         resources :diseases, except: [:new, :edit], controller: 'user_diseases'
+        post 'invite', :on => :member
         get 'keywords', :on => :member
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_disease_treatments'
