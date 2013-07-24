@@ -1,4 +1,6 @@
 class EthnicGroup < ActiveRecord::Base
+  include SoftDeleteModule
+
   attr_accessible :name, :ethnicity_code, :ordinal
 
   validates :name, :ethnicity_code, :ordinal, presence: true

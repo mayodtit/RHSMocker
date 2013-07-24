@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130724190012) do
+ActiveRecord::Schema.define(:version => 20130724224321) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(:version => 20130724190012) do
     t.boolean  "food_allergen"
     t.boolean  "environment_allergen"
     t.boolean  "medication_allergen"
+    t.datetime "disabled_at"
   end
 
   create_table "association_types", :force => true do |t|
@@ -49,6 +50,7 @@ ActiveRecord::Schema.define(:version => 20130724190012) do
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
     t.string   "gender"
+    t.datetime "disabled_at"
   end
 
   create_table "associations", :force => true do |t|
@@ -146,10 +148,11 @@ ActiveRecord::Schema.define(:version => 20130724190012) do
   add_index "contents_symptoms_factors", ["symptoms_factor_id"], :name => "index_contents_symptom_factors_on_symptom_factor_id"
 
   create_table "diets", :force => true do |t|
-    t.string   "name",       :default => "", :null => false
-    t.datetime "created_at",                 :null => false
-    t.datetime "updated_at",                 :null => false
-    t.integer  "ordinal",    :default => 0,  :null => false
+    t.string   "name",        :default => "", :null => false
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
+    t.integer  "ordinal",     :default => 0,  :null => false
+    t.datetime "disabled_at"
   end
 
   create_table "diseases", :force => true do |t|
@@ -158,6 +161,7 @@ ActiveRecord::Schema.define(:version => 20130724190012) do
     t.datetime "updated_at",  :null => false
     t.string   "snomed_name"
     t.string   "snomed_code"
+    t.datetime "disabled_at"
   end
 
   create_table "encounters", :force => true do |t|
@@ -186,6 +190,7 @@ ActiveRecord::Schema.define(:version => 20130724190012) do
     t.datetime "updated_at",                                    :null => false
     t.integer  "ethnicity_code", :limit => 255, :default => 0,  :null => false
     t.integer  "ordinal",                       :default => 0,  :null => false
+    t.datetime "disabled_at"
   end
 
   create_table "factor_groups", :force => true do |t|
@@ -362,6 +367,7 @@ ActiveRecord::Schema.define(:version => 20130724190012) do
     t.string   "snomed_name"
     t.string   "snomed_code"
     t.string   "type"
+    t.datetime "disabled_at"
   end
 
   create_table "user_allergies", :force => true do |t|

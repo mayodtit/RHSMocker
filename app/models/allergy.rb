@@ -1,4 +1,6 @@
 class Allergy < ActiveRecord::Base
+  include SoftDeleteModule
+
   attr_accessible :name, :snomed_name, :snomed_code, :food_allergen, :environment_allergen, :medication_allergen
   has_many :user_allergies
   has_many :user, :through=>:user_allergies

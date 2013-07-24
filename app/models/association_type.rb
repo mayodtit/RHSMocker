@@ -1,4 +1,6 @@
 class AssociationType < ActiveRecord::Base
+  include SoftDeleteModule
+
   has_many :associations
 
   attr_accessible :name, :gender, :relationship_type

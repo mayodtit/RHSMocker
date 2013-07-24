@@ -1,4 +1,6 @@
 class Diet < ActiveRecord::Base
+  include SoftDeleteModule
+
   attr_accessible :name, :ordinal
 
   validates :name, :ordinal, presence: true
