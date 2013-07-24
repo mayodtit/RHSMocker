@@ -1,0 +1,4 @@
+%p You've been invited to join Better!
+
+:erb
+  <p>Please complete your registration at <%= link_to invite_path(@user.invitation_token)  %>.</p>
