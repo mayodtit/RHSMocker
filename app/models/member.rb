@@ -164,6 +164,7 @@ class Member < User
   def invite!
     return if crypted_password.present?
     update_attributes!(:invitation_token => Base64.urlsafe_encode64(SecureRandom.base64(36)))
+    UserMailer.invitation_email(self).deliver
   end
 
   def member
