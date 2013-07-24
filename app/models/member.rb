@@ -162,6 +162,7 @@ class Member < User
   end
 
   def invite!
+    return if crypted_password.present?
     update_attributes!(:invitation_token => Base64.urlsafe_encode64(SecureRandom.base64(36)))
   end
 

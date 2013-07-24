@@ -30,7 +30,7 @@ describe 'Users' do
     end
 
     context 'for a member' do
-      let!(:user) { create(:user_with_email) }
+      let!(:user) { create(:user_with_email, password: nil, password_confirmation: nil) }
       let!(:user_id) { user.id }
 
       it 'sets the members invite token' do
