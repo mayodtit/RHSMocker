@@ -19,7 +19,7 @@ class Member < User
   has_many :offerings, :through => :user_offerings
 
   attr_accessible :install_id, :generic_call_time, :password, :password_confirmation, :feature_bucket,
-                  :holds_phone_in
+                  :holds_phone_in, :invitation_token
 
   validates :install_id, :uniqueness => true, :allow_nil => true
   validates :email, :allow_nil => true, :uniqueness => {:message => 'account already exists'}
@@ -157,5 +157,9 @@ class Member < User
       else
         contents.first
       end
+  end
+
+  def invite!
+    update_attributes!(:invitation_token, Base64.urlsafe_encode64(SecureRandom.base64(36)))
   end
 end
