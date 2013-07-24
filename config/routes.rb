@@ -71,6 +71,11 @@ RHSMocker::Application.routes.draw do
     end
   end
 
+  resources :invites, :only => [:update, :show] do
+    get :complete, :on => :collection
+    get :signup, :on => :collection
+  end
+
   get "password_resets/:id" => "api/v1/password_resets#edit", :as=>"edit_password_resets"
   put "password_resets/:id" => "api/v1/password_resets#update", :as=>"update_password_resets"
 
