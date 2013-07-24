@@ -29,11 +29,6 @@ class Api::V1::UserDiseaseTreatmentsController < Api::V1::ABaseController
 
   private
 
-  def load_user!
-    @user = params[:user_id] ? User.find(params[:user_id]) : current_user
-    authorize! :manage, @user
-  end
-
   def load_user_disease_treatment!
     @user_disease_treatment = @user.user_disease_treatments.find(params[:id])
     authorize! :manage, @user_disease_treatment

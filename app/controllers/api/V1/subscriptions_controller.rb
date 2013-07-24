@@ -1,6 +1,6 @@
 class Api::V1::SubscriptionsController < Api::V1::ABaseController
   skip_before_filter :authentication_check
-  before_filter :load_user
+  before_filter :load_user!
 
   def index
     @subscriptions = subscription_scope.all
@@ -40,10 +40,6 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   end
 
   private
-
-  def load_user
-    @user = User.find(params[:user_id])
-  end
 
   def subscription_scope
     @user.try(:user_plans) || UserPlan

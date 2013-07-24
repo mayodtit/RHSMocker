@@ -19,11 +19,6 @@ class Api::V1::WeightsController < Api::V1::ABaseController
 
   private
 
-  def load_user!
-    @user = params[:user_id] ? User.find(params[:user_id]) : current_user
-    authorize! :manage, @user
-  end
-
   def load_weight!
     @weight = @user.weights.find(params[:id])
     authorize! :manage, @weight

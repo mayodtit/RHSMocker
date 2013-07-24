@@ -23,11 +23,6 @@ class Api::V1::UserAllergiesController < Api::V1::ABaseController
 
   private
 
-  def load_user!
-    @user = params[:user_id] ? User.find(params[:user_id]) : current_user
-    authorize! :manage, @user
-  end
-
   def load_user_allergy!
     @user_allergy = @user.user_allergies.find(params[:id])
     authorize! :manage, @user_allergy
