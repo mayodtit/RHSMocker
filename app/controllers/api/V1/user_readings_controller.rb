@@ -1,6 +1,3 @@
-require 'pusher_module'
-include PusherModule
-
 class Api::V1::UserReadingsController < Api::V1::ABaseController
 
   def index
@@ -56,7 +53,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
       user_reading = UserReading.find_or_create_by_user_id_and_content_id(current_user.id, content['id'])
       user_reading.update_attribute attribute, Time.now
       yield user_reading if block_given?
-      PusherModule.broadcast(user_reading.user_id, broadcast, user_reading.content_id, user_reading.content.contentsType)
+      PusherJob.new.push_content(user_reading.user_id, user_reading.id, broadcast)
     end
     push_content
     return render_failure({reason:errors.to_sentence}, 404) unless errors.empty?
@@ -82,13 +79,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   end
 
   def push_content
-    #create something, add to user_Reading, push it out
-    if !hasMaxContent
-      content = current_user.getContent
-      return unless content
-      UserReading.create(user:current_user, content:content)
-      PusherModule.broadcast(current_user.id, 'newcontent', content.id, content.contentsType)
-    end
+    PusherJob.new.push_content(current_user.id)
   end
 
   private
