@@ -10,6 +10,9 @@ class UserReading < ActiveRecord::Base
   scope :for_timeline, :conditions => {:view_date => nil}
   scope :not_saved_not_dismissed, :conditions => {:save_date => nil, :dismiss_date => nil}
 
+  validates :user, :content, presence: true
+  validates :content_id, :uniqueness => {:scope => :user_id}
+
   def as_json options=nil
     {
       read_date:read_date, 
