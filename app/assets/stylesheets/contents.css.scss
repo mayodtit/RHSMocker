@@ -46,9 +46,11 @@ div.content_title {
 	font-family:"Avenir Next Medium Condensed";
 	font-size:18px;
 	color:#4c4c4c;
-    padding-bottom:5px;
+    padding-bottom:3px;
     padding-top: 5px;
     clear:left;
+    overflow: hidden;
+    height: 40px;
 }
 
 div.content_title_full {
@@ -102,8 +104,16 @@ div.content_text_preview {
     font-family: "Avenir Next Regular Condensed";
     font-size: 16px;
     color: #4c4c4c;
-    text-overflow: ellipsis;
     overflow: hidden; 
+}
+
+div.content_text_preview_fade {
+    font-family: "Avenir Next Regular Condensed";
+    font-size: 16px;
+    color: #4c4c4c;
+    height: 93px;
+    overflow: hidden;
+    -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
 
 div.mayo_copyright {
