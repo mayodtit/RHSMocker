@@ -11,9 +11,9 @@ namespace :admin do
 		Dir.glob('./db/mayo_content/*.xml') do | contentFile |
 
 			rawData = Nokogiri::XML(File.open(contentFile))
-			logger.info("DOC ID: " + rawData.search('DocID').first.text.strip) 
+			docID = rawData.search('DocID').first.text.strip
 			if rawData.css('HTML').empty?
-				logger.info("---->NO HTML")
+				logger.info(docID + ", NO HTML")
 			else
 				### Clean up images
 	# &lt;!-- mcimagecaption --&gt;
@@ -33,21 +33,24 @@ namespace :admin do
 				#1 Remove strong tags, which Mayo interjects seemingly semi-randomly, Remove all horizontal rules, structure HTML
 				#Body can be empty, so need to handle that
 
-				structured_body = Nokogiri::HTML(rawData.css('Body').first.text.gsub(/\n/,"").gsub(/\t/,"").gsub("<strong>","").gsub("</strong>","").gsub("<hr />",""))
+				structured_body = Nokogiri::HTML(rawData.css('Body').first.text.gsub(/\n|\t/,"").gsub("<strong>","").gsub("</strong>","").gsub("<hr />",""))
 				#2 Cleanup Images
 				divNodes = structured_body.search('div.inlineimage.right')
 				divNodes.map do |image_div_node|
-					logger.info("----> Has Image") 
+					logger.info(docID + ", Has Embedded Image")
 					#change the class of this div, remove style
-					image_div_node.remove_attribute('style') 
+
+					#style="background-image:url('http://img.labnol.org/di/bo.jpg')
+
 					image_div_node.set_attribute('class', 'authorImageDiv') 
-					#change the source of the image, class name
+					#Make a background image and remove the img tag
 					author_image = image_div_node.at_css('img')
-					author_image['class'] = 'authorImage'
-					author_image.remove_attribute('width')
-					author_image.remove_attribute('height')
 	  				original_src = author_image['src']
-	  				author_image['src'] = 'http://www.mayoclinic.com' + original_src
+	  				author_image.remove
+	  				#remove any lable text
+	  				image_div_node.content = ""
+	  				bgImage = "background-image:url(' " + 'http://www.mayoclinic.com' + original_src +" ')"
+	  				image_div_node.set_attribute('style', bgImage)
 				end
 
 				type_search		= rawData.search('Meta ContentType')
