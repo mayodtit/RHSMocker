@@ -54,9 +54,6 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def update
-    params[:user].delete :password
-    params[:user].delete :email
-
     if params[:id].present?
       if current_user.allowed_to_edit_user? params[:id].to_i
         user = User.find_by_id params[:id]
@@ -67,6 +64,10 @@ class Api::V1::UsersController < Api::V1::ABaseController
       user = current_user
     end
     return render_failure({reason:"User not found"}, 404) unless user
+
+    params[:user].delete :email if current_user == user
+    params[:user].delete :password
+
     if user.update_attributes(sanitize_for_mass_assignment(params[:user]))
       render_success({user:user})
     else
