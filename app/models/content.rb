@@ -49,13 +49,12 @@ class Content < ActiveRecord::Base
 	end
 
 ########
-# Get the first 20 words, remove the word "Description" from the start and any opening <p> tag we
+# Get the first 100 words, remove the word "Description" from the start and any opening <p> tag we
 # may not close, and then add an ellipsis to the end. This is only used in the preview cardview
 ########
 def previewText
   if !body.nil?
-      preview = body.split(' ').slice(0, 21).join(' ').gsub(/\ADefinition<p>/, "") 
-      preview +=  "&hellip;"
+      preview = body.split(' ').slice(0, 101).join(' ').gsub(/\ADefinition<p>/, "") 
   end
 end
 
