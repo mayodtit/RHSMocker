@@ -1,99 +1,115 @@
 #Import Cinical Content from Mayo Into the database
 require 'nokogiri'
+require 'html/sanitizer'
 
 namespace :admin do
 
 	task :import_content=> :environment do
 
 		logger = Logger.new('./log/import_content.log')
-
+		
 		Dir.glob('./db/mayo_content/*.xml') do | contentFile |
 
-			print "."
-			#puts "Found File: #{answerFile}"
-			@content = Nokogiri::XML(File.open(contentFile))
+			rawData = Nokogiri::XML(File.open(contentFile))
+			logger.info("DOC ID: " + rawData.search('DocID').first.text.strip) 
+			if rawData.css('HTML').empty?
+				logger.info("---->NO HTML")
+			else
+				### Clean up images
+	# &lt;!-- mcimagecaption --&gt;
+	# &lt;div class=&quot;inlineimage right&quot; style=&quot;width: 138px&quot;&gt;
+	# &lt;img src=&quot;/images/inline/moynihant_lg.jpg&quot; border=&quot;0&quot; alt=&quot;Photo of Timothy Moynihan, M.D.&quot; width=&quot;138&quot; height=&quot;168&quot; /&gt; 
+	# &lt;div&gt;
+	# Timothy Moynihan, M.D. 
+	# &lt;/div&gt;
+	# &lt;hr /&gt;
+	# &lt;/div&gt;
 
-			#Preprocessing the nodes of the document
-			#Change all <SectionHead> to div with <section_head id and class>
-			sectionhead_nodes = @content.css "SectionHead"
-			wrapper = sectionhead_nodes.wrap("&lt;div class='section_head'&gt;&lt;/div&gt;")
+				#Preprocssing specific text items
+				#================================
+				#0 Change all <SectionHead> to div with <section_head id and class>
+				sectionhead_nodes = rawData.css "SectionHead"
+				wrapper = sectionhead_nodes.wrap("&lt;div class='section_head'&gt;&lt;/div&gt;")
+				#1 Remove strong tags, which Mayo interjects seemingly semi-randomly, Remove all horizontal rules, structure HTML
+				#Body can be empty, so need to handle that
 
-			type_search		= @content.search('Meta ContentType')
-			type_text	  	= type_search.first.text 		if !type_search.empty?
-
-			#TODO: would much prefer to do this as an "in" clause. This is lazycode
-			#TODO: type_text could be null here. Add safe check
-			type_text = type_text.gsub(/\n/,"").gsub(/\t/,"") 
-
-			if type_text.casecmp("answer") == 0 || type_text.casecmp("disease") == 0 || type_text.casecmp("article") == 0 || type_text.casecmp("firstaid") == 0 || type_text.casecmp("healthtip") == 0 || type_text.casecmp("TestProcedure") == 0
-
-				title_search 		= @content.search('Title')
-				abstract_search 	= @content.search('Abstract')
-				question_search 	= @content.search('Question')
-				body_search			= @content.search('Body')
-				keyword_search		= @content.search('MetaKeyword')
-				update_search		= @content.search('UpdateDate')
-				mayo_vocab_search 	= @content.search('Keyword')
-				doc_id_search 		= @content.search('DocID')
-
-				title_text 	  = title_search.first.text 		if !title_search.empty?
-				abstract_text = abstract_search.first.text 		if !abstract_search.empty?
-				question_text = question_search.first.text 		if !question_search.empty?
-				body_text	  = body_search.first.text	 		if !body_search.empty? 
-				update_text	  = update_search.first.text    	if !update_search.empty?
-				doc_id	   	  = doc_id_search.first.text.strip 	if !doc_id_search.empty?
-
-				#preprocssing specific text items
-				#1 Remove strong tags, which Mayo interjects semi-randomly
-				body_text = body_text.gsub("&lt;strong&gt;","").gsub("&lt;/strong&gt;",":")
-				body_text = body_text.gsub("<strong>","").gsub("</strong>",":")
-
-				logger.info("=========> Pre HTML Changes to Title")
-				logger.info(title_text)
-
-				keywords = ''
-
-				keyword_search.each do | keyword |
-					keywords += keyword.text.gsub(/\n/,"").gsub(/\t/,"") + ','
+				structured_body = Nokogiri::HTML(rawData.css('Body').first.text.gsub(/\n/,"").gsub(/\t/,"").gsub("<strong>","").gsub("</strong>","").gsub("<hr />",""))
+				#2 Cleanup Images
+				divNodes = structured_body.search('div.inlineimage.right')
+				divNodes.map do |image_div_node|
+					logger.info("----> Has Image") 
+					#change the class of this div, remove style
+					image_div_node.remove_attribute('style') 
+					image_div_node.set_attribute('class', 'authorImageDiv') 
+					#change the source of the image, class name
+					author_image = image_div_node.at_css('img')
+					author_image['class'] = 'authorImage'
+					author_image.remove_attribute('width')
+					author_image.remove_attribute('height')
+	  				original_src = author_image['src']
+	  				author_image['src'] = 'http://www.mayoclinic.com' + original_src
 				end
 
+				type_search		= rawData.search('Meta ContentType')
+				type_text	  	= type_search.first.text 				if !type_search.empty?
+				type_text 		= type_text.gsub(/\n/,"").gsub(/\t/,"") if !type_text.nil?
 
-				@content = Content.new()
+				if type_text.casecmp("answer") == 0 || type_text.casecmp("disease") == 0 || type_text.casecmp("article") == 0 || type_text.casecmp("firstaid") == 0 || type_text.casecmp("healthtip") == 0 || type_text.casecmp("TestProcedure") == 0
 
-				@content.title 			= CGI.unescapeHTML(title_text.gsub(/\n/,"").gsub(/\t/,"")) 		if !title_text.nil?
-				logger.info("=========> After HTML Changes to Title")
-				logger.info(title_text)
-				@content.abstract 		= abstract_text.gsub(/\n/,"").gsub(/\t/,"") 					if !abstract_text.nil?
-				@content.question 		= question_text.gsub(/\n/,"").gsub(/\t/,"") 					if !question_text.nil?
-				@content.body 			= body_text.gsub(/\n/,"").gsub(/\t/,"") 						if !body_text.nil?
-				@content.contentsType 	= type_text.gsub(/\n/,"").gsub(/\t/,"").titlecase 				if !type_text.nil?
-				@content.updateDate 	= update_text.gsub(/\n/,"").gsub(/\t/,"") 						if !update_text.nil?
-				@content.keywords 		= keywords
-				@content.mayo_doc_id 	= doc_id if !doc_id.nil?
-				@content.save!
+					title_search 		= rawData.search('Title')
+					abstract_search 	= rawData.search('Abstract')
+					question_search 	= rawData.search('Question')
+					keyword_search		= rawData.search('MetaKeyword')
+					update_search		= rawData.search('UpdateDate')
+					mayo_vocab_search 	= rawData.search('Keyword')
+					doc_id_search 		= rawData.search('DocID')
 
-				mayo_vocab_search.each do | vocab |
-				#If it exists, do nothing except join table
-				#if it does not exist, put it in the DB
+					title_text 	  = title_search.first.text 		if !title_search.empty?
+					abstract_text = abstract_search.first.text 		if !abstract_search.empty?
+					question_text = question_search.first.text 		if !question_search.empty?
+					update_text	  = update_search.first.text    	if !update_search.empty?
+					doc_id	   	  = doc_id_search.first.text.strip 	if !doc_id_search.empty?
 
-					mcvidList = MayoVocabulary.where(:mcvid => vocab.attributes["MCVID"].value)
+					body_text	  = Nokogiri::HTML.fragment(structured_body.search('body').to_html).to_html #case sensative on the re-created HTML document
 
-					if mcvidList && mcvidList.count == 0 
-						@mayoVocab = MayoVocabulary.new()
-						@mayoVocab.mcvid = vocab.attributes["MCVID"].value
-						@mayoVocab.title = vocab.attributes["Title"].value
-						@mayoVocab.save!
-
-					elsif mcvidList
-						@mayoVocab = mcvidList.first #TODO: need to add constraint on MCVID
-
+					keywords = ''
+					keyword_search.each do | keyword |
+						keywords += keyword.text.gsub(/\n/,"").gsub(/\t/,"") + ','
 					end
 
-					if !@mayoVocab.nil?
-						@content.mayo_vocabularies << @mayoVocab
-						#ContentVocabulary.create(mayo_vocabulary:@mayoVocab, content:@content)
-					end
+					@content = Content.new()
+					@content.title 			= CGI.unescapeHTML(title_text.gsub(/\n/,"").gsub(/\t/,"")) 		if !title_text.nil?
+					@content.abstract 		= abstract_text.gsub(/\n/,"").gsub(/\t/,"") 					if !abstract_text.nil?
+					@content.question 		= question_text.gsub(/\n/,"").gsub(/\t/,"") 					if !question_text.nil?
+					@content.body 			= body_text								 						if !body_text.nil?
+					@content.contentsType 	= type_text.gsub(/\n/,"").gsub(/\t/,"").titlecase 				if !type_text.nil?
+					@content.updateDate 	= update_text.gsub(/\n/,"").gsub(/\t/,"") 						if !update_text.nil?
+					@content.keywords 		= keywords
+					@content.mayo_doc_id 	= doc_id if !doc_id.nil?
+					@content.save!
 
+					mayo_vocab_search.each do | vocab |
+					#If it exists, do nothing except join table
+					#if it does not exist, put it in the DB
+
+						mcvidList = MayoVocabulary.where(:mcvid => vocab.attributes["MCVID"].value)
+
+						if mcvidList && mcvidList.count == 0 
+							@mayoVocab = MayoVocabulary.new()
+							@mayoVocab.mcvid = vocab.attributes["MCVID"].value
+							@mayoVocab.title = vocab.attributes["Title"].value
+							@mayoVocab.save!
+
+						elsif mcvidList
+							@mayoVocab = mcvidList.first #TODO: need to add constraint on MCVID
+
+						end
+
+						if !@mayoVocab.nil?
+							@content.mayo_vocabularies << @mayoVocab
+							#ContentVocabulary.create(mayo_vocabulary:@mayoVocab, content:@content)
+						end
+					end
 				end
 			end
 		end
