@@ -227,9 +227,11 @@ ActiveRecord::Schema.define(:version => 20130726154300) do
     t.integer  "resource_id"
     t.string   "resource_type"
     t.string   "state"
-    t.datetime "state_changed_at"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "read_at"
+    t.datetime "saved_at"
+    t.datetime "dismissed_at"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
   end
 
   create_table "mayo_vocabularies", :force => true do |t|

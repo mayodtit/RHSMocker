@@ -5,7 +5,9 @@ class CreateItems < ActiveRecord::Migration
       t.integer :resource_id
       t.string :resource_type
       t.string :state
-      t.datetime :state_changed_at
+      t.datetime :read_at
+      t.datetime :saved_at
+      t.datetime :dismissed_at
       t.timestamps
     end
   end
