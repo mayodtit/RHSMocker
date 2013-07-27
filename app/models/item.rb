@@ -12,16 +12,24 @@ class Item < ActiveRecord::Base
   validates :saved_at, presence: true, if: :saved?
   validates :dismissed_at, presence: true, if: :dismissed?
 
+  before_validation :set_default_priority
+
   def self.inbox_or_timeline
-    where(:state => [:unread, :read, :saved])
+    where(:state => [:unread, :read, :saved]).order('priority DESC')
   end
 
   def self.inbox
-    where(:state => [:unread, :read])
+    where(:state => [:unread, :read]).order('priority DESC')
   end
 
   def self.timeline
-    where(:state => :saved)
+    where(:state => :saved).order('priority DESC')
+  end
+
+  private
+
+  def set_default_priority
+    self.priority = 0
   end
 
   state_machine :initial => :unread do
