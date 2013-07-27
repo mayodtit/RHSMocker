@@ -75,7 +75,7 @@ describe 'Items' do
     let(:dismissed_item) { create(:item, :dismissed, :user => user) }
 
     describe 'mark read' do
-      let(:attributes) { {:item => {:state_event => :read}} }
+      let(:attributes) { {:item => {:state_event => :read, :read_at => Time.now}} }
 
       context 'unread item' do
         let!(:item) { unread_item }
@@ -120,7 +120,7 @@ describe 'Items' do
     end
 
     describe 'mark saved' do
-      let(:attributes) { {:item => {:state_event => :saved}} }
+      let(:attributes) { {:item => {:state_event => :saved, :saved_at => Time.now}} }
 
       context 'unread item' do
         let!(:item) { unread_item }
@@ -164,7 +164,7 @@ describe 'Items' do
     end
 
     describe 'mark dismissed' do
-      let(:attributes) { {:item => {:state_event => :dismissed}} }
+      let(:attributes) { {:item => {:state_event => :dismissed, :dismissed_at => Time.now}} }
 
       context 'unread item' do
         let!(:item) { unread_item }
