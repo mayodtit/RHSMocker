@@ -23,7 +23,7 @@ class Item < ActiveRecord::Base
   state_machine :initial => :unread do
     event :read do
       transition :unread => :read
-      transition [:unread, :saved, :dismissed] => :same
+      transition [:read, :saved, :dismissed] => same
     end
 
     event :saved do
