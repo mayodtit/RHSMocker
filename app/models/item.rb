@@ -36,7 +36,7 @@ class Item < ActiveRecord::Base
   end
 
   def as_json options={}
-    options.merge!(:only => [:id, :read_date, :dismiss_date, :save_date],
+    options.merge!(:only => [:id, :state, :read_date, :dismiss_date, :save_date],
                    :methods => [:title, :contentsType, :share_url]) do |k, v1, v2|
       v1.is_a?(Array) ? v1 + v2 : [v1] + v2
     end
