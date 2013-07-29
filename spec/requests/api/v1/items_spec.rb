@@ -21,9 +21,12 @@ describe 'Items' do
       do_request
       response.should be_success
       body = JSON.parse(response.body, :symbolize_names => true)
-      ids = body[:items].map{|item| item[:id]}
-      ids.should include(unread_item.id, read_item.id, saved_item.id)
-      ids.should_not include(dismissed_item.id)
+      inbox_ids = body[:items][:inbox].map{|item| item[:id]}
+      inbox_ids.should include(unread_item.id, read_item.id)
+      inbox_ids.should_not include(saved_item.id, dismissed_item.id)
+      timeline_ids = body[:items][:timeline].map{|item| item[:id]}
+      timeline_ids.should include(saved_item.id)
+      timeline_ids.should_not include(unread_item.id, read_item.id, dismissed_item.id)
     end
 
     describe 'carousel' do

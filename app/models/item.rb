@@ -15,7 +15,10 @@ class Item < ActiveRecord::Base
   before_validation :set_default_priority
 
   def self.inbox_or_timeline
-    where(:state => [:unread, :read, :saved]).order('priority DESC')
+    {
+      inbox: inbox.limit(10),
+      timeline: timeline.limit(10)
+    }
   end
 
   def self.inbox
