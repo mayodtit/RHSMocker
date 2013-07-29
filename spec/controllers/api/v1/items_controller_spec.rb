@@ -16,7 +16,19 @@ describe Api::V1::ItemsController do
 
     it_behaves_like 'action requiring authentication and authorization'
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
-      it_behaves_like 'index action', new.item
+      let(:items) { double('items', :inbox_or_timeline => [item]) }
+
+      before(:each) do
+        user.stub(:items => items)
+      end
+
+      it_behaves_like 'success'
+
+      it 'returns a hash of items by type' do
+        do_request
+        json = JSON.parse(response.body)
+        json['items'].to_json.should == [item].to_json
+      end
     end
   end
 
