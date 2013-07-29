@@ -57,4 +57,8 @@ class Message < ActiveRecord::Base
   def title
     "Conversation with a Health Advocate"
   end
+
+  def contentsType
+    'Message'
+  end
 end
