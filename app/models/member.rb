@@ -52,6 +52,7 @@ class Member < User
       holds_phone_in:holds_phone_in,
       install_id:install_id,
       phone:phone,
+      pusher_id: pusher_id
     })
   end
 
@@ -174,5 +175,9 @@ class Member < User
 
   def self.create_from_user!(user)
     create!(email: user.email)
+  end
+
+  def pusher_id
+    "RHS_#{Rails.env}_#{id}"
   end
 end
