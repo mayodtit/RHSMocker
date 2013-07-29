@@ -16,18 +16,23 @@ namespace :migrate do
       item = Item.where(:user_id => ur.user_id,
                         :resource_id => ur.content_id,
                         :resource_type => 'Content').first_or_initialize
-      item.update_attributes(:state => state,
-                             :read_at => ur.read_date,
-                             :saved_at => ur.save_date,
-                             :dismissed_at => ur.dismiss_date)
+      if item.new_record? || ur.updated_at > item.updated_at
+        item.update_attributes(:state => state,
+                               :read_at => ur.read_date,
+                               :saved_at => ur.save_date,
+                               :dismissed_at => ur.dismiss_date)
+        if item.errors.empty?
+          print '.'
+        else
+          print '!'
+        end
+      else
+        print '-'
+      end
 
       i += 1
-      if item.errors.empty?
-        print '.'
-      else
-        print '!'
-      end
-      puts i if (i % 100) == 0
+      puts "#{i}/#{total}" if (i % 100) == 0
     end
+    puts "\nAll done!"
   end
 end
