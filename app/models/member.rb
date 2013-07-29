@@ -1,7 +1,7 @@
 class Member < User
   authenticates_with_sorcery!
 
-  has_many :items, :foreign_key => :user_id
+  has_many :cards, :foreign_key => :user_id
   has_many :user_readings, :order => 'read_date DESC', :foreign_key => :user_id
   has_many :contents, :through => :user_readings
   has_many :content_authors, :foreign_key => :user_id

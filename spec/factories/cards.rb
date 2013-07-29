@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :item do
+  factory :card do
     user
     association :resource, factory: :content
 

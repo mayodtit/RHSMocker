@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe Api::V1::ItemsController do
+describe Api::V1::CardsController do
   let(:user) { build_stubbed(:member) }
   let(:ability) { Object.new.extend(CanCan::Ability) }
-  let(:item) { build_stubbed(:item, :user => user) }
+  let(:card) { build_stubbed(:card, :user => user) }
 
   before(:each) do
     controller.stub(:current_ability => ability)
@@ -16,18 +16,18 @@ describe Api::V1::ItemsController do
 
     it_behaves_like 'action requiring authentication and authorization'
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
-      let(:items) { double('items', :inbox_or_timeline => [item]) }
+      let(:cards) { double('cards', :inbox_or_timeline => [card]) }
 
       before(:each) do
-        user.stub(:items => items)
+        user.stub(:cards => cards)
       end
 
       it_behaves_like 'success'
 
-      it 'returns a hash of items by type' do
+      it 'returns a hash of cards by type' do
         do_request
         json = JSON.parse(response.body)
-        json['items'].to_json.should == [item].to_json
+        json['cards'].to_json.should == [card].to_json
       end
     end
   end
@@ -37,10 +37,10 @@ describe Api::V1::ItemsController do
       get :show
     end
 
-    let(:items) { double('items', :find => item) }
+    let(:cards) { double('cards', :find => card) }
 
     before(:each) do
-      user.stub(:items => items)
+      user.stub(:cards => cards)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -48,37 +48,37 @@ describe Api::V1::ItemsController do
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it_behaves_like 'success'
 
-      it 'returns the item' do
+      it 'returns the card' do
         do_request
         json = JSON.parse(response.body)
-        json['item'].to_json.should == item.as_json.to_json
+        json['card'].to_json.should == card.as_json.to_json
       end
     end
   end
 
   describe 'PUT update' do
     def do_request
-      put :update, item: attributes_for(:item)
+      put :update, card: attributes_for(:card)
     end
 
-    let(:items) { double('items', :find => item) }
+    let(:cards) { double('cards', :find => card) }
 
     before(:each) do
-      user.stub(:items => items)
-      item.stub(:update_attributes)
+      user.stub(:cards => cards)
+      card.stub(:update_attributes)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it 'attempts to update the record' do
-        item.should_receive(:update_attributes).once
+        card.should_receive(:update_attributes).once
         do_request
       end
 
       context 'update_attributes succeeds' do
         before(:each) do
-          item.stub(:update_attributes => true)
+          card.stub(:update_attributes => true)
         end
 
         it_behaves_like 'success'
@@ -86,8 +86,8 @@ describe Api::V1::ItemsController do
 
       context 'update_attributes fails' do
         before(:each) do
-          item.stub(:update_attributes => false)
-          item.errors.add(:base, :invalid)
+          card.stub(:update_attributes => false)
+          card.errors.add(:base, :invalid)
         end
 
         it_behaves_like 'failure'

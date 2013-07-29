@@ -1,5 +1,5 @@
 namespace :migrate do
-  task :covert_user_readings_to_items => :environment do
+  task :covert_user_readings_to_cards => :environment do
     total = UserReading.count
     i = 0
     UserReading.find_each do |ur|
@@ -13,15 +13,15 @@ namespace :migrate do
         state = 'unread'
       end
 
-      item = Item.where(:user_id => ur.user_id,
+      card = Card.where(:user_id => ur.user_id,
                         :resource_id => ur.content_id,
                         :resource_type => 'Content').first_or_initialize
-      if item.new_record? || ur.updated_at > item.updated_at
-        item.update_attributes(:state => state,
+      if card.new_record? || ur.updated_at > card.updated_at
+        card.update_attributes(:state => state,
                                :read_at => ur.read_date,
                                :saved_at => ur.save_date,
                                :dismissed_at => ur.dismiss_date)
-        if item.errors.empty?
+        if card.errors.empty?
           print '.'
         else
           print '!'
@@ -36,7 +36,7 @@ namespace :migrate do
     puts "\nAll done!"
   end
 
-  task :convert_message_statuses_to_items => :environment do
+  task :convert_message_statuses_to_cards => :environment do
     total = MessageStatus.count
     i = 0
     MessageStatus.find_each do |ms|
@@ -49,12 +49,12 @@ namespace :migrate do
         attributes = {state: :dismissed, read_at: ms.updated_at, dismissed_at: ms.updated_at}
       end
 
-      item = Item.where(:user_id => ms.user_id,
+      card = Card.where(:user_id => ms.user_id,
                         :resource_id => ms.message_id,
                         :resource_type => 'Message').first_or_initialize
-      if item.new_record? || ur.updated_at > item.updated_at
-        item.update_attributes(attributes)
-        if item.errors.empty?
+      if card.new_record? || ur.updated_at > card.updated_at
+        card.update_attributes(attributes)
+        if card.errors.empty?
           print '.'
         else
           print '!'
