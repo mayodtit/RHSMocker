@@ -40,31 +40,37 @@ describe Item do
 
       describe 'read' do
         it 'changes unread to read' do
-          build(:item).read.should be_true
+          build(:item, :with_timestamps).read.should be_true
         end
 
-        it 'does not change read, saved, or dismissed' do
-          build(:item, :read, :user => user).read.should be_false
-          build(:item, :saved, :user => user).read.should be_false
-          build(:item, :dismissed, :user => user).read.should be_false
+        it 'does not change read, saved, or dismissed state' do
+          read = build(:item, :read, :with_timestamps, :user => user)
+          read.read.should be_true
+          read.read?.should be_true
+          saved = build(:item, :saved, :with_timestamps, :user => user)
+          saved.read.should be_true
+          saved.saved?.should be_true
+          dismissed = build(:item, :dismissed, :with_timestamps, :user => user)
+          dismissed.read.should be_true
+          dismissed.dismissed?.should be_true
         end
       end
 
       describe 'saved' do
         it 'changes all to saved' do
-          build(:item, :user => user).saved.should be_true
-          build(:item, :read, :user => user).saved.should be_true
-          build(:item, :saved, :user => user).saved.should be_true
-          build(:item, :dismissed, :user => user).saved.should be_true
+          build(:item, :with_timestamps, :user => user).saved.should be_true
+          build(:item, :read, :with_timestamps, :user => user).saved.should be_true
+          build(:item, :saved, :with_timestamps, :user => user).saved.should be_true
+          build(:item, :dismissed, :with_timestamps, :user => user).saved.should be_true
         end
       end
 
       describe 'dismissed' do
         it 'changes all to dismissed' do
-          build(:item, :user => user).dismissed.should be_true
-          build(:item, :read, :user => user).dismissed.should be_true
-          build(:item, :saved, :user => user).dismissed.should be_true
-          build(:item, :dismissed, :user => user).dismissed.should be_true
+          build(:item, :with_timestamps, :user => user).dismissed.should be_true
+          build(:item, :read, :with_timestamps, :user => user).dismissed.should be_true
+          build(:item, :saved, :with_timestamps, :user => user).dismissed.should be_true
+          build(:item, :dismissed, :with_timestamps, :user => user).dismissed.should be_true
         end
       end
     end
