@@ -35,4 +35,37 @@ namespace :migrate do
     end
     puts "\nAll done!"
   end
+
+  task :convert_message_statuses_to_items => :environment do
+    total = MessageStatus.count
+    i = 0
+    MessageStatus.find_each do |ms|
+      case ms.status
+      when 'unread'
+        attributes = {state: :unread}
+      when 'read'
+        attributes = {state: :read, read_at: ms.updated_at}
+      when 'dismissed'
+        attributes = {state: :dismissed, read_at: ms.updated_at, dismissed_at: ms.updated_at}
+      end
+
+      item = Item.where(:user_id => ms.user_id,
+                        :resource_id => ms.message_id,
+                        :resource_type => 'Message').first_or_initialize
+      if item.new_record? || ur.updated_at > item.updated_at
+        item.update_attributes(attributes)
+        if item.errors.empty?
+          print '.'
+        else
+          print '!'
+        end
+      else
+        print '-'
+      end
+
+      i += 1
+      puts "#{i}/#{total}" if (i % 100) == 0
+    end
+    puts "\nAll done!"
+  end
 end
