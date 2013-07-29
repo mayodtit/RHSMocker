@@ -14,6 +14,12 @@ class Item < ActiveRecord::Base
 
   before_validation :set_default_priority
 
+  delegate :title, :contentsType, to: :resource
+
+  def share_url
+    resource.try_method(:root_share_url).try(:+, "/#{id}")
+  end
+
   def self.inbox_or_timeline
     {
       inbox: inbox.limit(10),
@@ -27,6 +33,14 @@ class Item < ActiveRecord::Base
 
   def self.timeline
     where(:state => :saved).order('priority DESC')
+  end
+
+  def as_json options={}
+    options.merge!(:only => [:id, :read_date, :dismiss_date, :save_date],
+                   :methods => [:title, :contentsType, :share_url]) do |k, v1, v2|
+      v1.is_a?(Array) ? v1 + v2 : [v1] + v2
+    end
+    super(options).keep_if{|k, v| v.present?}
   end
 
   private
