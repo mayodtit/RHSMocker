@@ -19,7 +19,7 @@ class UserReading < ActiveRecord::Base
       dismiss_date:dismiss_date, 
       save_date:save_date, 
       title:content.title,
-      contentsType:content.contentsType,
+      content_type:content.content_type,
       content_id:content.id,
       created_at:created_at,
       share_url:content.share_url(id)

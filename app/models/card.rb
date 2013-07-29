@@ -14,7 +14,7 @@ class Card < ActiveRecord::Base
 
   before_validation :set_default_priority
 
-  delegate :title, :contentsType, to: :resource
+  delegate :title, :content_type, to: :resource
 
   def share_url
     resource.try_method(:root_share_url).try(:+, "/#{id}")
@@ -37,7 +37,7 @@ class Card < ActiveRecord::Base
 
   def as_json options={}
     options.merge!(:only => [:id, :state, :read_at, :dismissed_at, :saved_at],
-                   :methods => [:title, :contentsType, :share_url]) do |k, v1, v2|
+                   :methods => [:title, :content_type, :share_url]) do |k, v1, v2|
       v1.is_a?(Array) ? v1 + v2 : [v1] + v2
     end
     super(options).keep_if{|k, v| v.present?}

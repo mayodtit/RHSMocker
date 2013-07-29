@@ -4,14 +4,14 @@
 	<div style="float:left;">
 		<%= image_tag ("inbox_icn.png") %>
 	</div>
-	<span style="display:inline-block;margin-top:3px;"><%= @content.contentsType %></span>
+	<span style="display:inline-block;margin-top:3px;"><%= @content.content_type %></span>
 </div>
 
 
 <div class="content_title"><%= @content.title %></div>
 <div class="content_date_and_source">
-	<% if !@content.updateDate.nil? %>
-		<%= @content.updateDate.strftime("%b. #{@content.updateDate.day.ordinalize}, %Y") %>&nbsp;&nbsp;|&nbsp;&nbsp;
+	<% if !@content.content_updated_at.nil? %>
+		<%= @content.content_updated_at.strftime("%b. #{@content.content_updated_at.day.ordinalize}, %Y") %>&nbsp;&nbsp;|&nbsp;&nbsp;
 	<% end %>Mayo Clinic</div>
 
 <% if !@content.previewText.nil? %>

@@ -21,7 +21,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
       :dismiss_date=>nil,
       :read_later_date=>nil,
       :title=> message_status.message.title,
-      :contentsType=>"Message",
+      :content_type=>"Message",
       :message_id=>message_status.message.id,
       :created_at=>message_status.message.created_at
     }

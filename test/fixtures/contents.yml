@@ -4,9 +4,9 @@
 one:
   body: Welcome-Body
   headline: Installed RHS
-  contentsType: message
+  content_type: message
 
 two:
   body: Welcome-Body
   headline: Welcome
-  contentsType: message
+  content_type: message

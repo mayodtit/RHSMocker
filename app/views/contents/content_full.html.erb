@@ -1,13 +1,13 @@
 <div class="content_full">
 
 <div class="content_type_and_sender">
-<%= @content.contentsType %>
+<%= @content.content_type %>
 </div>
 
 <div class="content_title"><%= @content.title %></div>
 <div class="content_date_and_source">
-	<% if !@content.updateDate.nil? %>
-		<%= @content.updateDate.strftime("%b. #{@content.updateDate.day.ordinalize}, %Y") %>&nbsp;&nbsp;|&nbsp;&nbsp;
+	<% if !@content.content_updated_at.nil? %>
+		<%= @content.content_updated_at.strftime("%b. #{@content.content_updated_at.day.ordinalize}, %Y") %>&nbsp;&nbsp;|&nbsp;&nbsp;
 	<% end %>Mayo Clinic</div>
 
 <% if !@content.abstract.nil? %>

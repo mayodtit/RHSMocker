@@ -1,26 +1,26 @@
-<% if ["Question", "Quiz", "quiz"].include?(@content.contentsType) %>
+<% if ["Question", "Quiz", "quiz"].include?(@content.content_type) %>
   <div class="content_cardview">
 <% else %>
   <div class="content_cardview" onclick="document.actionJSON = '[{&quot;type&quot;:&quot;fullscreen&quot;}]'; window.location.href = 'http://dontload/'">
 <% end %>
 
 	<div class="content_type">
-	  <% if ["Question"].include?(@content.contentsType) %>
+	  <% if ["Question"].include?(@content.content_type) %>
 	    <%= image_tag("question_icn@2x.png", :class => "top_icon") %>
 	  <% else %>
 	    <%= image_tag("inbox_icn@2x.png", :class => "top_icon") %>
 	  <% end %>
-	  <span style="display:inline-block;margin-top:3px;"><%= @content.contentsType %></span>
+	  <span style="display:inline-block;margin-top:3px;"><%= @content.content_type %></span>
 	</div>
  <div class="content_source">
-    <% if not ["Question", "Quiz", "Message"].include?(@content.contentsType) %>
+    <% if not ["Question", "Quiz", "Message"].include?(@content.content_type) %>
       <%= image_tag("mayo_clinic_logo.png", :class => "mayo_icon") %>
     <% end %>
   </div>
   <div class="content_title">
   	<%= @content.title.html_safe %>
   </div>
-    <% if ["Question"].include?(@content.contentsType) %>
+    <% if ["Question"].include?(@content.content_type) %>
         <div class="content_text_preview"><%= @content.body.html_safe%></div>
     <% else %>
         <% if !@content.previewText.nil? %>

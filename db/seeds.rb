@@ -10,14 +10,14 @@
 #some default content
 unless Content.find_by_title("Installed Better")
 	installed = Content.create!(
-		contentsType: 'Message',
+		content_type: 'Message',
 		title: "Installed Better",
 		body:"Thank you for installing Better!")
 end
 
 unless Content.find_by_title("Which hand do you hold your phone in?")
 	welcome = Content.create!(
-		contentsType: 'Question',
+		content_type: 'Question',
 		title: 'Which hand do you hold your phone in?',
 		body:'<div id="panel-1">
 	<div class = "content_subtitle">
@@ -49,7 +49,7 @@ end
 
 unless Content.find_by_title("What is your gender?")
 	gender = Content.create!(
-		contentsType: 'Question',
+		content_type: 'Question',
 		title: 'What is your gender?',
 		body:'<div id="panel-1">
 	<div class = "content_subtitle">
@@ -78,7 +78,7 @@ end
 
 unless Content.find_by_title("Do you have allergies?")
 	gender = Content.create!(
-		contentsType: 'Question',
+		content_type: 'Question',
 		title: 'Do you have allergies?',
 		body:'<div id="panel-1">
 	<div class = "content_subtitle">

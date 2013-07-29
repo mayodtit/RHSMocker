@@ -1,6 +1,6 @@
 class Content < ActiveRecord::Base
 
-	attr_accessible :title, :body, :contentsType, :abstract, :question, :keywords, :updateDate, :mayo_doc_id
+	attr_accessible :title, :body, :content_type, :abstract, :question, :keywords, :content_updated_at, :mayo_doc_id
 
 	has_many :contents_mayo_vocabularies
 	has_many :mayo_vocabularies, :through => :contents_mayo_vocabularies
@@ -41,7 +41,7 @@ class Content < ActiveRecord::Base
     else
       json_body = body
     end
-    result = {:title => title, :contents_type => contentsType, :contentID => id, :body=>json_body }
+    result = {:title => title, :contents_type => content_type, :contentID => id, :body=>json_body }
     if options && options[:user_reading_id].present?
       result.merge!(user_reading_id:options[:user_reading_id], :share_url=>share_url(options[:user_reading_id]))
     end
@@ -185,7 +185,7 @@ end
  #Utility Methods to be removed
   def self.getRandomContent
     types = ["Article", "Answer", "Health Tip", "First Aid"]
-    Content.where(:contentsType => types).first(:order => "RANDOM()")
+    Content.where(:content_type => types).first(:order => "RANDOM()")
   end
 
 end

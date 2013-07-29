@@ -85,8 +85,8 @@ namespace :admin do
 					@content.abstract 		= abstract_text.gsub(/\n/,"").gsub(/\t/,"") 					if !abstract_text.nil?
 					@content.question 		= question_text.gsub(/\n/,"").gsub(/\t/,"") 					if !question_text.nil?
 					@content.body 			= body_text								 						if !body_text.nil?
-					@content.contentsType 	= type_text.gsub(/\n/,"").gsub(/\t/,"").titlecase 				if !type_text.nil?
-					@content.updateDate 	= update_text.gsub(/\n/,"").gsub(/\t/,"") 						if !update_text.nil?
+					@content.content_type 	= type_text.gsub(/\n/,"").gsub(/\t/,"").titlecase 				if !type_text.nil?
+					@content.content_updated_at 	= update_text.gsub(/\n/,"").gsub(/\t/,"") 						if !update_text.nil?
 					@content.keywords 		= keywords
 					@content.mayo_doc_id 	= doc_id if !doc_id.nil?
 					@content.save!
