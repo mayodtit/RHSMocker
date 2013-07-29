@@ -46,7 +46,11 @@ class Item < ActiveRecord::Base
   private
 
   def set_default_priority
-    self.priority = 0
+    if resource_type == 'Message'
+      self.priority = 10
+    else
+      self.priority = 0
+    end
   end
 
   state_machine :initial => :unread do
