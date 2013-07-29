@@ -58,10 +58,15 @@ def previewText
   end
 end
 
+# TODO - replace in future with root_share_url, move append to UserReading
 def share_url user_reading_id=nil
   result = "/contents/#{mayo_doc_id}"
   result+= "/#{user_reading_id}" if user_reading_id
   result
+end
+
+def root_share_url
+  mayo_doc_id.present? ? "/contents/#{mayo_doc_id}" : nil
 end
 
 ########

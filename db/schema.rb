@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130724224321) do
+ActiveRecord::Schema.define(:version => 20130727013451) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -220,6 +220,19 @@ ActiveRecord::Schema.define(:version => 20130724224321) do
     t.integer  "invited_member_id"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
+  end
+
+  create_table "items", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "resource_id"
+    t.string   "resource_type"
+    t.string   "state"
+    t.datetime "read_at"
+    t.datetime "saved_at"
+    t.datetime "dismissed_at"
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
+    t.integer  "priority",      :default => 0, :null => false
   end
 
   create_table "mayo_vocabularies", :force => true do |t|
