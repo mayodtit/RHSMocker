@@ -27,6 +27,18 @@ resource 'Items' do
       status.should == 200
       JSON.parse(response_body)['items'].should be_a Hash
     end
+
+    context 'with type parameter' do
+      parameter :type, 'Filter type for index action, one of ["carousel", "timeline"]'
+
+      let(:type) { 'carousel' }
+
+      example_request "[GET] Get items for a user by type" do
+        explanation "Retreive items by status"
+        status.should == 200
+        JSON.parse(response_body)['items'].should be_a Array
+      end
+    end
   end
 
   context 'member routes' do
