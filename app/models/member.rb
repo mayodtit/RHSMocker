@@ -131,7 +131,7 @@ class Member < User
   end
 
   def hasMaxContent
-    self.user_readings.where(:read_date => nil, :dismiss_date => nil, :read_later_count => 0).count >= 7
+    user_readings.unread.count >= 7
   end
 
   def getContent
