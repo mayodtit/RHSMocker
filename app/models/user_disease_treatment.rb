@@ -7,9 +7,9 @@ class UserDiseaseTreatment < ActiveRecord::Base
   has_many :user_disease_treatment_side_effects
   has_many :side_effects, :through => :user_disease_treatment_side_effects
 
-  attr_accessible :user, :treatment, :user_disease, :doctor
-  attr_accessible :user_id, :treatment_id, :user_disease_id, :amount, :amount_unit, :doctor_id,
-                  :end_date, :prescribed_by_doctor, :side_effect, :start_date, :successful, :time_duration,
+  attr_accessible :user, :treatment, :doctor
+  attr_accessible :user_id, :treatment_id, :amount, :amount_unit, :doctor_id, :end_date,
+                  :prescribed_by_doctor, :side_effect, :start_date, :successful, :time_duration,
                   :time_duration_unit
 
   validates :user, :treatment, presence: true
