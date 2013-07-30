@@ -45,7 +45,8 @@ class Member < User
     end
   end
 
-  def as_json options={}
+  def serializable_hash options=nil
+    options ||= {}
     options.merge!(:only => [:feature_bucket, :generic_call_time, :holds_phone_in, :install_id,
                              :phone],
                    :methods => :pusher_id) do |k, v1, v2|

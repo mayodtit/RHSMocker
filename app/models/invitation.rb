@@ -10,6 +10,10 @@ class Invitation < ActiveRecord::Base
 
   after_create :invite_member!
 
+  def self.exists_for_pair?(member_id, invited_member_id)
+    where(:member_id => member_id, :invited_member_id => invited_member_id).any?
+  end
+
   def invite_member!
     invited_member.invite!
   end

@@ -39,7 +39,8 @@ class User < ActiveRecord::Base
     end
   end
 
-  def as_json options={}
+  def serializable_hash options=nil
+    options ||= {}
     options.merge!(:only => [:id, :first_name, :last_name, :birth_date, :blood_type,
                              :diet_id, :email, :ethnic_group_id, :gender, :height,
                              :image_url, :deceased, :date_of_death, :npi_number, :expertise],
