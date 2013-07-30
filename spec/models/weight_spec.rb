@@ -1,33 +1,14 @@
 require 'spec_helper'
 
 describe Weight do
-  let(:weight) { build_stubbed(:weight) }
+  it_has_a 'valid factory'
 
-  describe 'factory' do
-    let(:weight) { build(:weight) }
-
-    it 'builds a valid object' do
-      weight.should be_valid
-      weight.save.should be_true
-      weight.should be_persisted
-    end
-  end
-
-  describe 'validations' do
-    it 'requires a user' do
-      build_stubbed(:weight, :user => nil).should_not be_valid
-    end
-
-    it 'requires an amount' do
-      build_stubbed(:weight, :amount => nil).should_not be_valid
-    end
-
-    it 'requires a taken_at' do
-      build_stubbed(:weight, :taken_at => nil).should_not be_valid
-    end
-  end
+  it_validates 'presence of', :user
+  it_validates 'presence of', :amount
+  it_validates 'presence of', :taken_at
 
   describe 'callbacks' do
+    let(:weight) { build_stubbed(:weight) }
     let(:height) { 180 }
 
     before(:each) do
@@ -47,25 +28,14 @@ describe Weight do
     end
   end
 
-  describe '::most_recent_for' do
+  describe '::most_recent' do
     let!(:weight) { create(:weight) }
     let!(:other_weight) { create(:weight,
                                  :user => weight.user,
                                  :taken_at => weight.taken_at - 1.day) }
-    let(:user) { weight.user }
 
     it 'returns the most recent weight for a given user' do
-      described_class.most_recent_for(user).should == weight
-    end
-
-    it 'returns the most recent weight for the correct user' do
-      create(:weight, :taken_at => weight.taken_at + 1.day)
-      described_class.most_recent_for(user).should == weight
-    end
-
-    it 'accepts user or user_id as argument' do
-      described_class.most_recent_for(user).should == weight
-      described_class.most_recent_for(user.id).should == weight
+      described_class.most_recent.should == weight
     end
   end
 end

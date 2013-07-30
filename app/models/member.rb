@@ -45,15 +45,13 @@ class Member < User
     end
   end
 
-  def as_json options=nil
-    super.merge!({
-      feature_bucket:feature_bucket,
-      generic_call_time:generic_call_time,
-      holds_phone_in:holds_phone_in,
-      install_id:install_id,
-      phone:phone,
-      pusher_id: pusher_id
-    })
+  def as_json options={}
+    options.merge!(:only => [:feature_bucket, :generic_call_time, :holds_phone_in, :install_id,
+                             :phone],
+                   :methods => :pusher_id) do |k, v1, v2|
+      v1.is_a?(Array) ? v1 + v2 : [v1] + v2
+    end
+    super(options)
   end
 
   # rolify only adds class methods to the base class, cast first to call

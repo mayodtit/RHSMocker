@@ -8,8 +8,8 @@ class Weight < ActiveRecord::Base
 
   before_validation :set_bmi
 
-  def self.most_recent_for(user)
-    where(:user_id => (user.try_method(:id) || user)).order('taken_at DESC').first
+  def self.most_recent
+    order('taken_at DESC').first
   end
 
   private

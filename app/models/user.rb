@@ -39,38 +39,26 @@ class User < ActiveRecord::Base
     end
   end
 
-  def most_recent_blood_pressure
-    BloodPressure.most_recent_for_user(self)
-  end
-
-  def most_recent_weight
-    Weight.most_recent_for(self)
-  end
-
-  def as_json options=nil
-    {
-      id:id,
-      first_name:first_name,
-      last_name:last_name,
-      birth_date:birth_date,
-      blood_type:blood_type,
-      diet_id:diet_id,
-      email:email,
-      ethnic_group_id:ethnic_group_id,
-      gender:gender,
-      height:height,
-      image_url:image_url,
-      deceased:deceased,
-      date_of_death:date_of_death,
-      npi_number:npi_number,
-      expertise:expertise,
-      blood_pressure: most_recent_blood_pressure,
-      weight: most_recent_weight
-    }
+  def as_json options={}
+    options.merge!(:only => [:id, :first_name, :last_name, :birth_date, :blood_type,
+                             :diet_id, :email, :ethnic_group_id, :gender, :height,
+                             :image_url, :deceased, :date_of_death, :npi_number, :expertise],
+                   :methods => [:blood_pressure, :weight]) do |k, v1, v2|
+      v1.is_a?(Array) ? v1 + v2 : [v1] + v2
+    end
+    super(options)
   end
 
   def member
     return nil unless email
     Member.find_by_email(email)
+  end
+
+  def blood_pressure
+    blood_pressures.most_recent
+  end
+
+  def weight
+    weights.most_recent
   end
 end
