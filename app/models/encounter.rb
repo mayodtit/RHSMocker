@@ -1,5 +1,4 @@
 class Encounter < ActiveRecord::Base
-  belongs_to :user
   has_many :messages
   has_many :phone_calls, :through => :messages
   has_many :encounter_users
@@ -7,8 +6,9 @@ class Encounter < ActiveRecord::Base
 
   attr_accessible :user, :user_id, :checked, :priority, :status
 
-  validates :user, :status, presence: true
+  validates :status, presence: true
   validates :checked, :inclusion => {:in => [true, false]}
+  validates :users, :length => {:minimum => 1}
 
   def self.open
     where(:status => :open)

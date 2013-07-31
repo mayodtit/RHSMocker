@@ -43,3 +43,12 @@ shared_examples 'scoped uniqueness of' do |property, scope|
     duplicate.errors[property.to_sym].should include("has already been taken")
   end
 end
+
+shared_examples 'length of' do |property|
+  its "#{property}" do
+    model = build_stubbed(described_class.name.underscore.to_sym)
+    model.should be_valid
+    model.send(:"#{property}=", [])
+    model.should_not be_valid
+  end
+end
