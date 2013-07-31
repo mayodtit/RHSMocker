@@ -1,16 +1,12 @@
 FactoryGirl.define do
-
   factory :encounter do
+    association :user, factory: :member
     status    { 'open' }
     priority  { ['high', 'medium', 'low'].sample }
     checked   false
 
-    factory :encounter_with_messages do
-      after(:create) { |encounter|
-        FactoryGirl.create(:message, :text=> 'ouch my liver', :encounter=>encounter)
-        FactoryGirl.create(:message, :text=> "that's not good", :encounter=>encounter)
-      }
+    trait :with_messages do
+      messages {|m| [m.association(:message)]}
     end
   end
-
 end

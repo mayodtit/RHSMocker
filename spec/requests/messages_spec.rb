@@ -8,7 +8,7 @@ describe "Messages" do
 
     @patient_in_encounter = FactoryGirl.create(:user_with_email)
     @patient_in_encounter.login
-    @encounter = FactoryGirl.create(:encounter_with_messages)
+    @encounter = FactoryGirl.create(:encounter, :with_messages)
     FactoryGirl.create(:encounters_user, :user=>@patient_in_encounter, :encounter=>@encounter)
 
     @hcp = FactoryGirl.create(:hcp_user)

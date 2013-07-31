@@ -16,6 +16,15 @@ shared_examples 'presence of' do |property|
   end
 end
 
+shared_examples 'inclusion of' do |property|
+  its "#{property}" do
+    model = build_stubbed(described_class.name.underscore.to_sym)
+    model.send(:"#{property}=", nil)
+    model.should_not be_valid
+    model.errors[property.to_sym].should include("is not included in the list")
+  end
+end
+
 shared_examples 'scoped uniqueness of' do |property, scope|
   its "#{property} per #{scope}" do
     model = create(described_class.name.underscore.to_sym)
