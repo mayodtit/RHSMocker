@@ -12,7 +12,7 @@ resource "Messages" do
     @user2.login
 
     @encounter = FactoryGirl.create(:encounter, :with_messages)
-    FactoryGirl.create(:encounters_user, :user=>@user, :encounter=>@encounter)
+    FactoryGirl.create(:encounter_user, :user=>@user, :encounter=>@encounter)
 
     @attachment = FactoryGirl.create(:attachment)
     @location = FactoryGirl.create(:user_location)

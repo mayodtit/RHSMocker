@@ -7,8 +7,8 @@ class Member < User
   has_many :content_authors, :foreign_key => :user_id
   has_many :messages, :foreign_key => :user_id
   has_many :feedbacks, :foreign_key => :user_id
-  has_many :encounters_users, :foreign_key => :user_id
-  has_many :encounters, :through => :encounters_users
+  has_many :encounter_users, :foreign_key => :user_id
+  has_many :encounters, :through => :encounter_users
   has_many :message_statuses, :foreign_key => :user_id
   has_many :user_locations, :foreign_key => :user_id
 

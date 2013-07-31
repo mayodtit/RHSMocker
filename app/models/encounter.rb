@@ -2,8 +2,8 @@ class Encounter < ActiveRecord::Base
   belongs_to :user
   has_many :messages
   has_many :phone_calls, :through => :messages
-  has_many :encounters_users
-  has_many :users, :through => :encounters_users
+  has_many :encounter_users
+  has_many :users, :through => :encounter_users
 
   attr_accessible :user, :user_id, :checked, :priority, :status
 
@@ -15,7 +15,7 @@ class Encounter < ActiveRecord::Base
   end
 
   def as_json options=nil
-    patient_user = encounters_users.patients.first
+    patient_user = encounter_users.patients.first
 
     result = {
       :id=> id,

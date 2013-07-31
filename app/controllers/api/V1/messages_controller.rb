@@ -6,7 +6,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     if params[:encounter].present? && params[:encounter][:id].present?
       encounter = Encounter.find_by_id params[:encounter][:id]
       return render_failure({reason:"Encounter with id #{params[:encounter][:id]} is not found"}, 404) unless encounter
-      encounter_user = EncountersUser.find_by_encounter_id_and_user_id encounter.id, current_user.id
+      encounter_user = EncounterUser.find_by_encounter_id_and_user_id encounter.id, current_user.id
       return render_failure({reason:"Permission denied"}) unless encounter_user || current_user.hcp?
     else
       #create encounter
@@ -15,12 +15,12 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     end
 
     #create encounter_member entry
-    encounter_user ||= EncountersUser.find_or_create_by_encounter_id_and_user_id encounter.id, current_user.id
+    encounter_user ||= EncounterUser.find_or_create_by_encounter_id_and_user_id encounter.id, current_user.id
 
     if params[:patient_user_id] && params[:patient_user_id]!=current_user.id
       encounter_user.update_attribute :role, "participator"
       return render_failure({reason:"User with id #{params[:patient_user_id]} was not found"}, 404) unless User.find_by_id(params[:patient_user_id])
-      encounter_subject_user = EncountersUser.find_or_create_by_encounter_id_and_user_id encounter.id, params[:patient_user_id]
+      encounter_subject_user = EncounterUser.find_or_create_by_encounter_id_and_user_id encounter.id, params[:patient_user_id]
     else
       encounter_user.update_attribute :role, "patient"
       encounter.update_attribute :checked, false
@@ -61,7 +61,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     end
 
     #create message_status
-    encounter.encounters_users.each do |encounter_user|
+    encounter.encounter_users.each do |encounter_user|
       status_name = (encounter_user.user_id == current_user.id) ? "read" : "unread"
       MessageStatus.create(:status=>status_name, :user_id=>encounter_user.user_id, :message=>message)
       if encounter_user.user_id != current_user.id
@@ -100,16 +100,16 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     params[:messages].each do |message_json|
       message = Message.find_by_id message_json[:id]
       if message
-        encounters_user = EncountersUser.find_by_encounter_id_and_user_id message.encounter_id, current_user.id
-        if encounters_user.nil?
+        encounter_user = EncounterUser.find_by_encounter_id_and_user_id message.encounter_id, current_user.id
+        if encounter_user.nil?
           if current_user.hcp?
-            encounters_user = EncountersUser.create :encounter=>message.encounter, :user=>current_user, :role=>"reader"
+            encounter_user = EncounterUser.create :encounter=>message.encounter, :user=>current_user, :role=>"reader"
           else
             warnings << "Permission denied to mark message with id #{message_json[:id]} as read"
             next
           end
         end
-        if encounters_user.role != "patient" && current_user.hcp?
+        if encounter_user.role != "patient" && current_user.hcp?
           message.encounter.update_attribute :checked, true
         end
 
@@ -123,9 +123,9 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     params[:messages].each do |message_json|
       message = Message.find_by_id message_json[:id]
       if message
-        encounters_user = EncountersUser.find_by_encounter_id_and_user_id message.encounter_id, current_user.id
-        if !encounters_user.nil?
-           mark_user_encounter message, encounters_user
+        encounter_user = EncounterUser.find_by_encounter_id_and_user_id message.encounter_id, current_user.id
+        if !encounter_user.nil?
+           mark_user_encounter message, encounter_user
         end
       end
     end
@@ -142,16 +142,16 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     params[:messages].each do |message_json|
       message = Message.find_by_id message_json[:id]
       if message
-        encounters_user = EncountersUser.find_by_encounter_id_and_user_id message.encounter_id, current_user.id
-        if encounters_user.nil?
+        encounter_user = EncounterUser.find_by_encounter_id_and_user_id message.encounter_id, current_user.id
+        if encounter_user.nil?
           if current_user.admin?
-            encounters_user = EncountersUser.create :encounter=>message.encounter, :user=>current_user, :role=>"reader"
+            encounter_user = EncounterUser.create :encounter=>message.encounter, :user=>current_user, :role=>"reader"
           else
             warnings << "Permission denied to mark message with id #{message_json[:id]} as read"
             next
           end
         end
-        if encounters_user.role != "patient" && current_user.admin?
+        if encounter_user.role != "patient" && current_user.admin?
           message.encounter.update_attribute :checked, true
         end
 
@@ -165,9 +165,9 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     params[:messages].each do |message_json|
       message = Message.find_by_id message_json[:id]
       if message
-        encounters_user = EncountersUser.find_by_encounter_id_and_user_id message.encounter_id, current_user.id
-        if !encounters_user.nil?
-           mark_user_encounter message, encounters_user
+        encounter_user = EncounterUser.find_by_encounter_id_and_user_id message.encounter_id, current_user.id
+        if !encounter_user.nil?
+           mark_user_encounter message, encounter_user
         end
       end
     end
@@ -175,15 +175,15 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     render_success({warnings:warnings})
   end
 
-  def mark_user_encounter msg, encounters_user
+  def mark_user_encounter msg, encounter_user
     msg.encounter.messages.each do |message|
-      message_status = MessageStatus.find_by_user_id_and_message_id encounters_user.user.id, message.id
+      message_status = MessageStatus.find_by_user_id_and_message_id encounter_user.user.id, message.id
       if message_status && message_status.status == "unread" 
-        encounters_user.update_attribute :read, false
+        encounter_user.update_attribute :read, false
         return
       end
     end
-    encounters_user.update_attribute :read, true
+    encounter_user.update_attribute :read, true
   end
 
 end
