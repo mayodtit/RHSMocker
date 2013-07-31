@@ -1,6 +1,6 @@
 class MayoVocabulary < ActiveRecord::Base
-  has_many :contents_mayo_vocabularies
-  has_many :contents, :through => :contents_mayo_vocabularies
+  has_many :content_mayo_vocabularies
+  has_many :contents, :through => :content_mayo_vocabularies
   has_many :message_mayo_vocabularies
   has_many :messages, :through => :message_mayo_vocabularies
 

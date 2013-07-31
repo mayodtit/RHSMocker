@@ -2,8 +2,8 @@ class Content < ActiveRecord::Base
 
 	attr_accessible :title, :body, :content_type, :abstract, :question, :keywords, :content_updated_at, :mayo_doc_id
 
-	has_many :contents_mayo_vocabularies
-	has_many :mayo_vocabularies, :through => :contents_mayo_vocabularies
+	has_many :content_mayo_vocabularies
+	has_many :mayo_vocabularies, :through => :content_mayo_vocabularies
 
 
   has_many :authors_contents
@@ -107,7 +107,7 @@ end
   openingJavascript += '&quot;content_id&quot; : ' + '&quot;' + id.to_s+ '&quot;,' 
   openingJavascript += '&quot;keywords&quot;: ['
 
-  contents_mayo_vocabularies[0..6].each do |vocab|
+  content_mayo_vocabularies[0..6].each do |vocab|
   	if !vocab.nil?
   		openingJavascript += '&quot;' + vocab.mayo_vocabulary.title + '&quot;,'
   	end

@@ -166,7 +166,7 @@ namespace :admin do
 			message.update_attribute :content_id, message.content.mayo_doc_id if message.content && message.content.mayo_doc_id
 		end
 
-		ContentsMayoVocabulary.all.each do |cmv|
+		ContentMayoVocabulary.all.each do |cmv|
 			cmv.update_attribute :content_id, cmv.content.mayo_doc_id if cmv.content && cmv.content.mayo_doc_id
 		end
 
