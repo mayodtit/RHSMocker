@@ -1,19 +1,31 @@
 class Message < ActiveRecord::Base
-  attr_accessible :text, :content_id
+  belongs_to :user
+  belongs_to :encounter
 
-  has_many :message_statuses
-
-  has_many :attachments
-
+  belongs_to :content
   has_many :mayo_vocabularies_messages
   has_many :mayo_vocabularies, :through => :mayo_vocabularies_messages
 
+  belongs_to :user_location
+  has_many :attachments
+  has_many :message_statuses
   has_one :phone_call
 
-  belongs_to :user
-  belongs_to :encounter
-  belongs_to :user_location
-  belongs_to :content
+  attr_accessible :user, :user_id, :encounter, :encounter_id, :content, :content_id, :text
+
+  validates :user, :encounter, :text, presence: true
+
+  def title
+    "Conversation with a Health Advocate"
+  end
+
+  def content_type
+    'Message'
+  end
+
+  def previewText
+    text.split(' ').slice(0, 21).join(' ')+"&hellip;" if text.present?
+  end
 
   def as_json options=nil
     statuses = []
@@ -46,19 +58,5 @@ class Message < ActiveRecord::Base
       result.merge!({:body => options["source"]})
     end
     result
-  end
-
-  def previewText
-    if !text.nil?
-      preview = text.split(' ').slice(0, 21).join(' ')+"&hellip;"
-    end
-  end
-
-  def title
-    "Conversation with a Health Advocate"
-  end
-
-  def content_type
-    'Message'
   end
 end
