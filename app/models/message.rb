@@ -3,8 +3,8 @@ class Message < ActiveRecord::Base
   belongs_to :encounter
 
   belongs_to :content
-  has_many :mayo_vocabularies_messages
-  has_many :mayo_vocabularies, :through => :mayo_vocabularies_messages
+  has_many :message_mayo_vocabularies
+  has_many :mayo_vocabularies, :through => :message_mayo_vocabularies
 
   belongs_to :user_location
   has_many :attachments

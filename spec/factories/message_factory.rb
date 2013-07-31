@@ -17,7 +17,7 @@ FactoryGirl.define do
     end
 
     trait :with_vocabularies do
-      mayo_vocabularies_messages {|mvm| [mvm.association(:mayo_vocabularies_message)]}
+      message_mayo_vocabularies {|mvm| [mvm.association(:message_mayo_vocabulary)]}
     end
   end
 end

@@ -38,7 +38,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
       params[:keywords].each do |keyword_name|
         keyword = MayoVocabulary.find_by_title keyword_name
         if keyword
-          MayoVocabulariesMessage.create(:mayo_vocabulary_id=>keyword.id, :message_id=>message.id)
+          MessageMayoVocabulary.create(:mayo_vocabulary_id=>keyword.id, :message_id=>message.id)
         else
           warnings << "Keyword #{keyword_name} was not found"
         end
