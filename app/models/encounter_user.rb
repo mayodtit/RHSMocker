@@ -5,6 +5,7 @@ class EncounterUser < ActiveRecord::Base
   attr_accessible :user, :user_id, :encounter, :encounter_id, :role, :read
 
   validates :encounter, :user, presence: true
+  validates :user_id, :uniqueness => {:scope => :encounter_id}
 
   def self.patients
     where(:role => :patient)
