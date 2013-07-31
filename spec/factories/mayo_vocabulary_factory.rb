@@ -1,8 +1,6 @@
 FactoryGirl.define do
-
   factory :mayo_vocabulary do
-    title {"Cancer"}
-    mcvid {10584}
+    sequence(:title) {|n| "Vocabulary #{n}" }
+    sequence(:mcvid) {|n| "MCVID #{n}" }
   end
-
 end
