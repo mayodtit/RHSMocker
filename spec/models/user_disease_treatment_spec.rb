@@ -1,5 +1,8 @@
 require 'spec_helper'
 
 describe UserDiseaseTreatment do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it_has_a 'valid factory'
+
+  it_validates 'presence of', :user
+  it_validates 'presence of', :treatment
 end

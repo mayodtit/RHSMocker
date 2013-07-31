@@ -33,9 +33,8 @@ resource "UserTreatments" do
 
     parameter :user_disease_treatment, "A hash; Contains treatment properties"
     parameter :treatment_id, "ID of the treatment the user is using"
-    parameter :user_disease_id, "ID of the user disease this treatment is for"
     parameter :prescribed_by_doctor, "Boolean; is the treatment prescribed by a HCP"
-    parameter :doctor_user_id, "ID of HCP that prescribed the treatment, required if prescribed_by_doctor is set"
+    parameter :doctor_id, "ID of HCP that prescribed the treatment, required if prescribed_by_doctor is set"
     parameter :start_date, "Start date of this treatment"
     parameter :end_date, "End date of this treatment"
     parameter :time_duration, "Integer; frequency of treatment - how often"
@@ -47,12 +46,12 @@ resource "UserTreatments" do
 
     required_parameters :auth_token, :user_disease_treatment, :treatment_id, :prescribed_by_doctor,
       :start_date, :time_duration, :time_duration_unit, :amount, :amount_unit, :side_effect
-    scope_parameters :user_disease_treatment, [:treatment_id, :user_disease_id, :prescribed_by_doctor, :doctor_user_id,
+    scope_parameters :user_disease_treatment, [:treatment_id, :prescribed_by_doctor, :doctor_id,
       :start_date, :end_date, :time_duration, :time_duration_unit, :amount, :amount_unit, :side_effect, :successful]
 
     let(:treatment_id) { user_disease_treatment.treatment_id }
     let(:prescribed_by_doctor) { false }
-    let(:doctor_user_id) { nil }
+    let(:doctor_id) { nil }
     let(:start_date) { Date.today }
     let(:time_duration) { 1 }
     let(:time_duration_unit)  { 'day(s)' }
@@ -73,9 +72,8 @@ resource "UserTreatments" do
 
     parameter :user_disease_treatment,  "Contains the fields to be updated"
     parameter :id,                      "ID of the treatment the user is using"
-    parameter :user_disease_id,         "ID of the user disease this treatment is for"
     parameter :prescribed_by_doctor,    "Boolean; is the treatment prescribed by a HCP"
-    parameter :doctor_user_id,          "ID of HCP that prescribed the treatment"
+    parameter :doctor_id,          "ID of HCP that prescribed the treatment"
     parameter :start_date,              "Start date of this treatment"
     parameter :end_date,                "End date of this treatment"
     parameter :time_duration,           "Integer; frequency of treatment - how often"
@@ -87,7 +85,7 @@ resource "UserTreatments" do
     parameter :side_effects_attributes, "Hash of side effect ids that the user is experiencing"
 
     required_parameters :id
-    scope_parameters :user_disease_treatment, [:user_disease_id, :prescribed_by_doctor, :doctor_user_id,
+    scope_parameters :user_disease_treatment, [:prescribed_by_doctor, :doctor_id,
       :start_date, :end_date, :time_duration, :time_duration_unit, :amount, :amount_unit, :side_effect, :successful, :side_effects_attributes]
 
     let(:id)          { user_disease_treatment.id }

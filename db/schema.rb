@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130729225607) do
+ActiveRecord::Schema.define(:version => 20130730215127) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -426,17 +426,22 @@ ActiveRecord::Schema.define(:version => 20130729225607) do
     t.string   "amount_unit"
     t.boolean  "side_effect"
     t.boolean  "successful"
-    t.integer  "user_disease_id"
     t.integer  "treatment_id"
     t.integer  "user_id"
-    t.integer  "doctor_user_id"
+    t.integer  "doctor_id"
     t.datetime "created_at",           :null => false
     t.datetime "updated_at",           :null => false
   end
 
   add_index "user_disease_treatments", ["treatment_id"], :name => "index_user_disease_treatments_on_treatment_id"
-  add_index "user_disease_treatments", ["user_disease_id"], :name => "index_user_disease_treatments_on_user_disease_id"
   add_index "user_disease_treatments", ["user_id"], :name => "index_user_disease_treatments_on_user_id"
+
+  create_table "user_disease_user_treatments", :force => true do |t|
+    t.integer  "user_disease_id",           :null => false
+    t.integer  "user_disease_treatment_id", :null => false
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
+  end
 
   create_table "user_diseases", :force => true do |t|
     t.integer  "user_id"
