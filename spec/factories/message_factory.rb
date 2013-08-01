@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :message do
-    user
     encounter
+    user { encounter.users.first }
     text {"I don't feel well."}
 
     trait :with_content do

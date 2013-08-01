@@ -46,7 +46,8 @@ class Message < ActiveRecord::Base
     text.split(' ').slice(0, 21).join(' ')+"&hellip;" if text.present?
   end
 
-  def serializable_hash(options={})
+  def serializable_hash(options=nil)
+    options ||= {}
     options.reverse_merge!(:only => [:id, :text],
                            :methods => :title,
                            :include => [:user_location, :attachments, :mayo_vocabularies, :content])
