@@ -20,7 +20,8 @@ class Encounter < ActiveRecord::Base
     users << user unless users.include?(user)
   end
 
-  def serializable_hash(options={})
+  def serializable_hash(options=nil)
+    options ||= {}
     options.reverse_merge!(:only => [:id, :status, :priority, :checked],
                            :include => :messages)
     super(options)
