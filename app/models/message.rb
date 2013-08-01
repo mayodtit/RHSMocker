@@ -1,5 +1,5 @@
 class Message < ActiveRecord::Base
-  belongs_to :user
+  belongs_to :user # that sent this message
   belongs_to :encounter
 
   belongs_to :content
@@ -14,6 +14,25 @@ class Message < ActiveRecord::Base
   attr_accessible :user, :user_id, :encounter, :encounter_id, :content, :content_id, :text
 
   validates :user, :encounter, :text, presence: true
+  validates :content, presence: true, if: lambda{|m| m.content_id.present?}
+
+  before_create :add_user_to_encounter
+
+  def mayo_vocabulary_ids=(ids)
+    ids.each do |id|
+      message_mayo_vocabularies.build(:mayo_vocabulary_id => id)
+    end
+  end
+
+  def attachment_urls=(urls)
+    urls.each do |url|
+      attachments.build(:url => url)
+    end
+  end
+
+  def location=(params)
+    user_location.build(params)
+  end
 
   def title
     "Conversation with a Health Advocate"
@@ -27,36 +46,16 @@ class Message < ActiveRecord::Base
     text.split(' ').slice(0, 21).join(' ')+"&hellip;" if text.present?
   end
 
-  def as_json options=nil
-    statuses = []
-    if options[:current_user].present?
-      statuses = message_statuses.where(:user_id=>options[:current_user].id).order('created_at DESC')
-    end
-    result = {
-      :id => id,
-      :text=>text,
-      :created_at=>created_at,
-      :user=>{
-        :id=> user.id,
-        :full_name=> user.full_name,
-        :feature_bucket=> user.feature_bucket
-      },
-      :location => user_location,
-      :attachments => attachments,
-      :keywords => mayo_vocabularies,
-      :content_id=> content_id,
-      :encounter_id=> encounter.id,
-      :title=>title
-    }
-    if statuses.empty? || statuses.first.status == "unread"
-      result.merge!({status:"unread", read_date:nil})
-    else 
-      result.merge!({status:statuses.first.status, read_date:statuses.first.updated_at})
-    end
+  def serializable_hash(options={})
+    options.reverse_merge!(:only => [:id, :text],
+                           :methods => :title,
+                           :include => [:user_location, :attachments, :mayo_vocabularies, :content])
+    super(options)
+  end
 
-    if options && options["source"].present?
-      result.merge!({:body => options["source"]})
-    end
-    result
+  private
+
+  def add_user_to_encounter
+    encounter.add_user = user
   end
 end
