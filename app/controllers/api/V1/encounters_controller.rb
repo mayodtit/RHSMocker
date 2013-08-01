@@ -11,7 +11,7 @@ class Api::V1::EncountersController < Api::V1::ABaseController
   end
 
   def create
-    create_resource(@user.encounters, params[:encounter])
+    create_resource(Encounter, create_params)
   end
 
   private
@@ -19,5 +19,9 @@ class Api::V1::EncountersController < Api::V1::ABaseController
   def load_encounter!
     @encounter = @user.encounters.find(params[:id])
     authorize! :manage, @encounter
+  end
+
+  def create_params
+    {:add_user => @user}.merge!(params[:encounter] || {})
   end
 end

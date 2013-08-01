@@ -1,10 +1,10 @@
 class Encounter < ActiveRecord::Base
+  has_many :encounter_users
   has_many :users, :through => :encounter_users
   has_many :messages
   has_many :phone_calls, :through => :messages
-  has_many :encounter_users
 
-  attr_accessible :checked, :priority, :status, :new_user
+  attr_accessible :checked, :priority, :status, :add_user
 
   validates :status, :priority, presence: true
   validates :checked, :inclusion => {:in => [true, false]}
@@ -17,7 +17,7 @@ class Encounter < ActiveRecord::Base
   end
 
   def add_user=(user)
-    users << user unless users.include?(user)
+    self.users << user unless self.users.include?(user)
   end
 
   def serializable_hash(options=nil)
@@ -32,5 +32,7 @@ class Encounter < ActiveRecord::Base
   def set_defaults
     self.status ||= 'open'
     self.priority ||= 'medium'
+    self.checked = false if checked.nil?
+    true
   end
 end
