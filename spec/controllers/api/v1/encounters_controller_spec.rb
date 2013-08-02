@@ -49,17 +49,15 @@ describe Api::V1::EncountersController do
       post :create, encounter: encounter.as_json
     end
 
-    let(:encounters) { double('encounters', :create => encounter) }
-
     before(:each) do
-      user.stub(:encounters => encounters)
+      Encounter.stub(:create => encounter)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it 'attempts to create the record' do
-        encounters.should_receive(:create).once
+        Encounter.should_receive(:create).once
         do_request
       end
 

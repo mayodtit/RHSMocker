@@ -41,14 +41,14 @@ describe 'Encounters' do
   end
 
   describe 'POST /api/v1/encounters' do
+    def do_request(params={})
+      post "api/v1/encounters", {auth_token: user.auth_token}.merge!(:encounter => params)
+    end
+
     let!(:user) { create(:member) }
 
     before(:each) do
       user.login
-    end
-
-    def do_request(params={})
-      post "api/v1/encounters", params.merge!(auth_token: user.auth_token)
     end
 
     it 'creates a new encounter for the current user' do
@@ -57,6 +57,28 @@ describe 'Encounters' do
       body = JSON.parse(response.body, :symbolize_names => true)
       body[:encounter][:id].should_not be_nil
       user.reload.encounters.should include(Encounter.find(body[:encounter][:id]))
+    end
+
+    context 'with a message' do
+      let(:message_param) { {:message => {:text => 'test message'}} }
+
+      it 'creates an encounter for the current user' do
+        lambda{ do_request(message_param) }.should change(Encounter, :count).by(1)
+        response.should be_success
+        body = JSON.parse(response.body, :symbolize_names => true)
+        body[:encounter][:id].should_not be_nil
+        user.reload.encounters.should include(Encounter.find(body[:encounter][:id]))
+      end
+
+      it 'creates a message for the user and encounter' do
+        lambda{ do_request(message_param) }.should change(Message, :count).by(1)
+        response.should be_success
+        body = JSON.parse(response.body, :symbolize_names => true)
+        user.reload.messages.count.should == 1
+        encounter = Encounter.find(body[:encounter][:id])
+        encounter.messages.count.should == 1
+        user.messages.first.should == encounter.messages.first
+      end
     end
   end
 end

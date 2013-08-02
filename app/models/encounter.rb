@@ -4,7 +4,7 @@ class Encounter < ActiveRecord::Base
   has_many :messages
   has_many :phone_calls, :through => :messages
 
-  attr_accessible :checked, :priority, :status, :add_user
+  attr_accessible :checked, :priority, :status, :add_user, :messages, :message
 
   validates :status, :priority, presence: true
   validates :checked, :inclusion => {:in => [true, false]}
@@ -14,6 +14,10 @@ class Encounter < ActiveRecord::Base
 
   def self.open
     where(:status => :open)
+  end
+
+  def message=(message_params)
+    self.messages.build(message_params.merge!(:encounter => self))
   end
 
   def add_user=(user)

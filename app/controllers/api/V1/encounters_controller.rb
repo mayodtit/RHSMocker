@@ -22,6 +22,8 @@ class Api::V1::EncountersController < Api::V1::ABaseController
   end
 
   def create_params
-    {:add_user => @user}.merge!(params[:encounter] || {})
+    new_params = (params[:encounter] || {}).merge!(:add_user => @user)
+    new_params[:message].merge!(:user => @user) if new_params[:message]
+    new_params
   end
 end
