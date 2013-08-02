@@ -23,7 +23,7 @@ class Message < ActiveRecord::Base
   accepts_nested_attributes_for :attachments
 
   def new_location=(attributes)
-    self.location_attributes = attributes
+    self.location_attributes = attributes.merge!(:user => user)
   end
 
   def new_keyword_ids=(ids)
