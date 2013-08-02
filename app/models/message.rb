@@ -1,37 +1,37 @@
 class Message < ActiveRecord::Base
   belongs_to :user # that sent this message
   belongs_to :encounter
+  has_many :message_statuses
 
   belongs_to :content
+  belongs_to :location
   has_many :message_mayo_vocabularies
   has_many :mayo_vocabularies, :through => :message_mayo_vocabularies
-
-  belongs_to :user_location
   has_many :attachments
-  has_many :message_statuses
   has_one :phone_call
 
-  attr_accessible :user, :user_id, :encounter, :encounter_id, :content, :content_id, :text
+  attr_accessible :user, :user_id, :encounter, :encounter_id, :content, :content_id, :text,
+                  :new_location, :new_keyword_ids, :new_attachments
 
   validates :user, :encounter, :text, presence: true
   validates :content, presence: true, if: lambda{|m| m.content_id.present?}
 
   before_create :add_user_to_encounter
 
-  def mayo_vocabulary_ids=(ids)
-    ids.each do |id|
-      message_mayo_vocabularies.build(:mayo_vocabulary_id => id)
-    end
+  accepts_nested_attributes_for :location
+  accepts_nested_attributes_for :message_mayo_vocabularies
+  accepts_nested_attributes_for :attachments
+
+  def new_location=(attributes)
+    self.location_attributes = attributes
   end
 
-  def attachment_urls=(urls)
-    urls.each do |url|
-      attachments.build(:url => url)
-    end
+  def new_keyword_ids=(ids)
+    self.message_mayo_vocabularies_attributes = ids.inject([]){|a, id| a << {:mayo_vocabulary_id => id, :message => self}; a}
   end
 
-  def location=(params)
-    user_location.build(params)
+  def new_attachments=(attributes)
+    self.attachments_attributes = attributes
   end
 
   def title
