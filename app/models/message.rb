@@ -50,7 +50,7 @@ class Message < ActiveRecord::Base
     options ||= {}
     options.reverse_merge!(:only => [:id, :text],
                            :methods => :title,
-                           :include => [:user_location, :attachments, :mayo_vocabularies, :content])
+                           :include => [:location, :attachments, :mayo_vocabularies, :content])
     super(options)
   end
 

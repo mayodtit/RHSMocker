@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130731194809) do
+ActiveRecord::Schema.define(:version => 20130802075940) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -251,6 +251,14 @@ ActiveRecord::Schema.define(:version => 20130731194809) do
     t.datetime "updated_at",        :null => false
   end
 
+  create_table "locations", :force => true do |t|
+    t.integer  "user_id"
+    t.decimal  "latitude",   :precision => 10, :scale => 6
+    t.decimal  "longitude",  :precision => 10, :scale => 6
+    t.datetime "created_at",                                :null => false
+    t.datetime "updated_at",                                :null => false
+  end
+
   create_table "mayo_vocabularies", :force => true do |t|
     t.string   "mcvid"
     t.string   "title"
@@ -279,9 +287,9 @@ ActiveRecord::Schema.define(:version => 20130731194809) do
   create_table "messages", :force => true do |t|
     t.text     "text"
     t.integer  "user_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
-    t.integer  "user_location_id"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.integer  "location_id"
     t.integer  "encounter_id"
     t.integer  "content_id"
   end
@@ -458,14 +466,6 @@ ActiveRecord::Schema.define(:version => 20130731194809) do
 
   add_index "user_diseases", ["disease_id"], :name => "index_user_diseases_on_disease_id"
   add_index "user_diseases", ["user_id"], :name => "index_user_diseases_on_user_id"
-
-  create_table "user_locations", :force => true do |t|
-    t.integer  "user_id"
-    t.decimal  "latitude",   :precision => 10, :scale => 6
-    t.decimal  "longitude",  :precision => 10, :scale => 6
-    t.datetime "created_at",                                :null => false
-    t.datetime "updated_at",                                :null => false
-  end
 
   create_table "user_offerings", :force => true do |t|
     t.integer  "offering_id"

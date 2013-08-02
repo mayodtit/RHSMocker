@@ -9,7 +9,7 @@ FactoryGirl.define do
     end
 
     trait :with_location do
-      user_location
+      location
     end
 
     trait :with_attachments do

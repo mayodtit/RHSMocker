@@ -10,7 +10,7 @@ class Member < User
   has_many :encounter_users, :foreign_key => :user_id
   has_many :encounters, :through => :encounter_users
   has_many :message_statuses, :foreign_key => :user_id
-  has_many :user_locations, :foreign_key => :user_id
+  has_many :locations, :foreign_key => :user_id
 
   has_many :agreements, :foreign_key => :user_id
   has_many :agreement_pages, :through => :agreements
