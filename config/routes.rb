@@ -12,6 +12,7 @@ RHSMocker::Application.routes.draw do
       end
       resources :ethnic_groups, :only => :index
       resources :locations, :only => :create
+      resources :messages, :only => :show
       resources :plans, :only => [:index, :show]
       resources :remote_events, :only => :create
       resources :side_effects, :only => :index
@@ -58,12 +59,6 @@ RHSMocker::Application.routes.draw do
       post "contents/dismiss" => "user_readings#dismiss", :as=>"contents_dismiss"
       post "contents/save" => "user_readings#save", :as=>"contents_read_later"
       post "contents/reset" => "user_readings#reset", :as=>"contents_reset"
-
-      get "messages" => "messages#list", :as=>"list_user_messages"
-      get "messages/:id" => "messages#show", :as=>"show_user_message"
-      post "messages" => "messages#create", :as => "create_user_message"
-      post "messages/mark_read" => "messages#mark_read", :as => "messages_mark_read"
-      post "messages/dismiss" => "messages#mark_dismissed", :as => "messages_mark_dismissed"
 
       post "phone_calls" => "phone_calls#create"
       # put "phone_calls" => "phone_calls#update"
