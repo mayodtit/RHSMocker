@@ -10,7 +10,7 @@
 #some default content
 unless Content.find_by_title("Installed Better")
 	installed = Content.create!(
-		content_type: 'Message',
+		content_type: 'Content',
 		title: "Installed Better",
 		body:"Thank you for installing Better!")
 end
