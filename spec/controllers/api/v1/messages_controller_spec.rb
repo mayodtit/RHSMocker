@@ -37,20 +37,18 @@ describe Api::V1::MessagesController do
       get :show, auth_token: user.auth_token
     end
 
-    let(:messages) { double('messages', :find => message) }
-
     before(:each) do
-      encounter.stub(:messages => messages)
+      Message.stub(:find => message)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it_behaves_like 'success'
 
-      it 'returns the encounter' do
+      it 'returns the message' do
         do_request
-        json = JSON.parse(response.body)
-        json['message'].to_json.should == message.as_json.to_json
+        json = JSON.parse(response.body, :symbolize_names => true)
+        json[:message][:id].should == message.as_json['id']
       end
     end
   end
