@@ -12,6 +12,10 @@ class Ability
       (user.id == o.user_id) || (can?(:manage, o.user))
     end
 
+    can :manage, Encounter do |o|
+      o.users.include?(user)
+    end
+
     # hack until User/Member model is refactored
     can :manage, User
   end

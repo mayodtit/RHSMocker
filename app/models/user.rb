@@ -39,14 +39,13 @@ class User < ActiveRecord::Base
     end
   end
 
+  BASE_OPTIONS = {:only => [:id, :first_name, :last_name, :birth_date, :blood_type,
+                            :diet_id, :email, :ethnic_group_id, :gender, :height,
+                            :image_url, :deceased, :date_of_death, :npi_number, :expertise],
+                  :methods => [:blood_pressure, :weight]}
+
   def serializable_hash options=nil
-    options ||= {}
-    options.merge!(:only => [:id, :first_name, :last_name, :birth_date, :blood_type,
-                             :diet_id, :email, :ethnic_group_id, :gender, :height,
-                             :image_url, :deceased, :date_of_death, :npi_number, :expertise],
-                   :methods => [:blood_pressure, :weight]) do |k, v1, v2|
-      v1.is_a?(Array) ? v1 + v2 : [v1] + v2
-    end
+    options ||= BASE_OPTIONS
     super(options)
   end
 

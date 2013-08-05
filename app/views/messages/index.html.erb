@@ -28,8 +28,8 @@ function sendMessage(encounter_id){
 	  	<div class="accordion-heading">
 				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse<%= encounter.id %>">
 					<span class="ref-number">#<%=encounter.id%></span>
-					<%= if (!encounter.encounters_users.patients.empty? && encounter.encounters_users.patients.first.user) 
-							encounter.encounters_users.patients.first.user.full_name 
+					<%= if (!encounter.encounter_users.patients.empty? && encounter.encounter_users.patients.first.user) 
+							encounter.encounter_users.patients.first.user.full_name 
 						end %> 
 						<% unless encounter.phone_calls.empty? %>
 							<i class="icon-volume-up"></i>
@@ -83,19 +83,19 @@ function sendMessage(encounter_id){
 							<% end %>
 						<% end %>
 					</div>
-					<% if !encounter.encounters_users.patients.empty? %> 
+					<% if !encounter.encounter_users.patients.empty? %> 
 						<div class="span5 profile pull-right" style="height:500px;">
 							<img class="img-polaroid pull-right" src="http://placekitten.com/90/90">
 							<div >
-								<h4 style="margin-top:0;"><%=encounter.encounters_users.patients.first.user.full_name %></h4>
-								<p><%=encounter.encounters_users.patients.first.user.gender %></p>
-								<p><%=encounter.encounters_users.patients.first.user.height %>cm</p>
+								<h4 style="margin-top:0;"><%=encounter.encounter_users.patients.first.user.full_name %></h4>
+								<p><%=encounter.encounter_users.patients.first.user.gender %></p>
+								<p><%=encounter.encounter_users.patients.first.user.height %>cm</p>
 
-								<% if encounter.encounters_users.patients.first.user.birth_date.present? %>
-									<p><%=time_ago_in_words(encounter.encounters_users.patients.first.user.birth_date, {:prefix=>'birthday'}) %> old</p>
+								<% if encounter.encounter_users.patients.first.user.birth_date.present? %>
+									<p><%=time_ago_in_words(encounter.encounter_users.patients.first.user.birth_date, {:prefix=>'birthday'}) %> old</p>
 								<% end %>
 
-								<p><%=encounter.encounters_users.patients.first.user.phone %></p>
+								<p><%=encounter.encounter_users.patients.first.user.phone %></p>
 							</div>
 						</div>
 					<% end %>

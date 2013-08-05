@@ -7,10 +7,10 @@ class Member < User
   has_many :content_authors, :foreign_key => :user_id
   has_many :messages, :foreign_key => :user_id
   has_many :feedbacks, :foreign_key => :user_id
-  has_many :encounters_users, :foreign_key => :user_id
-  has_many :encounters, :through => :encounters_users
+  has_many :encounter_users, :foreign_key => :user_id
+  has_many :encounters, :through => :encounter_users
   has_many :message_statuses, :foreign_key => :user_id
-  has_many :user_locations, :foreign_key => :user_id
+  has_many :locations, :foreign_key => :user_id
 
   has_many :agreements, :foreign_key => :user_id
   has_many :agreement_pages, :through => :agreements
@@ -45,13 +45,15 @@ class Member < User
     end
   end
 
+  BASE_OPTIONS = User::BASE_OPTIONS.merge(:only => [:feature_bucket, :generic_call_time,
+                                                    :holds_phone_in, :install_id,
+                                                    :phone],
+                                          :methods => [:pusher_id]) do |k, v1, v2|
+                   v1.is_a?(Array) ? v1 + v2 : [v1] + v2
+                 end
+
   def serializable_hash options=nil
-    options ||= {}
-    options.merge!(:only => [:feature_bucket, :generic_call_time, :holds_phone_in, :install_id,
-                             :phone],
-                   :methods => :pusher_id) do |k, v1, v2|
-      v1.is_a?(Array) ? v1 + v2 : [v1] + v2
-    end
+    options ||= BASE_OPTIONS
     super(options)
   end
 

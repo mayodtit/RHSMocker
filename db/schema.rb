@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130730215127) do
+ActiveRecord::Schema.define(:version => 20130802075940) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -120,6 +120,13 @@ ActiveRecord::Schema.define(:version => 20130730215127) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "content_mayo_vocabularies", :force => true do |t|
+    t.integer  "content_id"
+    t.integer  "mayo_vocabulary_id"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+  end
+
   create_table "contents", :force => true do |t|
     t.string   "title"
     t.text     "body"
@@ -131,13 +138,6 @@ ActiveRecord::Schema.define(:version => 20130730215127) do
     t.text     "keywords"
     t.datetime "content_updated_at"
     t.string   "mayo_doc_id"
-  end
-
-  create_table "contents_mayo_vocabularies", :force => true do |t|
-    t.integer  "content_id"
-    t.integer  "mayo_vocabulary_id"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
   end
 
   create_table "contents_symptoms", :force => true do |t|
@@ -193,15 +193,7 @@ ActiveRecord::Schema.define(:version => 20130730215127) do
     t.datetime "disabled_at"
   end
 
-  create_table "encounters", :force => true do |t|
-    t.string   "status"
-    t.string   "priority"
-    t.boolean  "checked"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  create_table "encounters_users", :force => true do |t|
+  create_table "encounter_users", :force => true do |t|
     t.string   "role"
     t.integer  "encounter_id"
     t.integer  "user_id"
@@ -210,8 +202,16 @@ ActiveRecord::Schema.define(:version => 20130730215127) do
     t.boolean  "read"
   end
 
-  add_index "encounters_users", ["encounter_id"], :name => "index_encounters_users_on_encounter_id"
-  add_index "encounters_users", ["user_id"], :name => "index_encounters_users_on_user_id"
+  add_index "encounter_users", ["encounter_id"], :name => "index_encounters_users_on_encounter_id"
+  add_index "encounter_users", ["user_id"], :name => "index_encounters_users_on_user_id"
+
+  create_table "encounters", :force => true do |t|
+    t.string   "status"
+    t.string   "priority"
+    t.boolean  "checked"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "ethnic_groups", :force => true do |t|
     t.string   "name",                          :default => "", :null => false
@@ -251,6 +251,14 @@ ActiveRecord::Schema.define(:version => 20130730215127) do
     t.datetime "updated_at",        :null => false
   end
 
+  create_table "locations", :force => true do |t|
+    t.integer  "user_id"
+    t.decimal  "latitude",   :precision => 10, :scale => 6
+    t.decimal  "longitude",  :precision => 10, :scale => 6
+    t.datetime "created_at",                                :null => false
+    t.datetime "updated_at",                                :null => false
+  end
+
   create_table "mayo_vocabularies", :force => true do |t|
     t.string   "mcvid"
     t.string   "title"
@@ -258,7 +266,7 @@ ActiveRecord::Schema.define(:version => 20130730215127) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "mayo_vocabularies_messages", :force => true do |t|
+  create_table "message_mayo_vocabularies", :force => true do |t|
     t.integer  "mayo_vocabulary_id"
     t.integer  "message_id"
     t.datetime "created_at",         :null => false
@@ -279,9 +287,9 @@ ActiveRecord::Schema.define(:version => 20130730215127) do
   create_table "messages", :force => true do |t|
     t.text     "text"
     t.integer  "user_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
-    t.integer  "user_location_id"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.integer  "location_id"
     t.integer  "encounter_id"
     t.integer  "content_id"
   end
@@ -458,14 +466,6 @@ ActiveRecord::Schema.define(:version => 20130730215127) do
 
   add_index "user_diseases", ["disease_id"], :name => "index_user_diseases_on_disease_id"
   add_index "user_diseases", ["user_id"], :name => "index_user_diseases_on_user_id"
-
-  create_table "user_locations", :force => true do |t|
-    t.integer  "user_id"
-    t.decimal  "latitude",   :precision => 10, :scale => 6
-    t.decimal  "longitude",  :precision => 10, :scale => 6
-    t.datetime "created_at",                                :null => false
-    t.datetime "updated_at",                                :null => false
-  end
 
   create_table "user_offerings", :force => true do |t|
     t.integer  "offering_id"
