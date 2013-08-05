@@ -1,6 +1,6 @@
 class Api::V1::MessagesController < Api::V1::ABaseController
   before_filter :load_user!
-  before_filter :load_encounter!
+  before_filter :load_encounter!, :except => :show
   before_filter :load_message!, :only => :show
 
   def index
@@ -8,7 +8,13 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def show
-    show_resource(@message)
+    # TODO - move cardview rendering to CardsController
+    if params[:q] == 'cardview'
+      html = render_to_string(:action => "cardview", :formats => :html, :locals => {:first_paragraph => @message.previewText})
+    else
+      html = render_to_string(:action => "full", :formats => :html)
+    end
+    show_resource(@message.as_json.merge(:body => html))
   end
 
   def create
@@ -23,7 +29,8 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def load_message!
-    @message = @encounter.messages.find(params[:id])
+    @message = Message.find(params[:id])
+    authorize! :manage, @message.encounter
   end
 
   def create_params
