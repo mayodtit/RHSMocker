@@ -14,11 +14,8 @@ class UserDiseaseTreatment < ActiveRecord::Base
 
   validates :user, :treatment, presence: true
 
-  def serializable_hash options=nil
-    options ||= {}
-    options.merge!(:include => [:treatment, :side_effects]) do |k, v1, v2|
-      v1.is_a?(Array) ? v1 + v2 : [v1] + v2
-    end
+  def serializable_hash(options=nil)
+    options ||= {:include => [:treatment, :side_effects]}
     super(options)
   end
 end

@@ -13,11 +13,8 @@ class MayoVocabulary < ActiveRecord::Base
     where("lower(title) = ?", title.downcase).first
   end
 
-  def serializable_hash options=nil
-    options ||= {}
-    options.merge!(:only => [:mcvid, :title]) do |k, v1, v2|
-      v1.is_a?(Array) ? v1 + v2 : [v1] + v2
-    end
+  def serializable_hash(options=nil)
+    options ||= {:only => [:mcvid, :title]}
     super(options)
   end
 end
