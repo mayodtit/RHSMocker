@@ -22,7 +22,7 @@ class Member < User
   has_many :invitations
 
   attr_accessible :install_id, :generic_call_time, :password, :password_confirmation, :feature_bucket,
-                  :holds_phone_in, :invitation_token
+                  :holds_phone_in, :invitation_token, :units
 
   validates :install_id, :uniqueness => true, :allow_nil => true
   validates :email, :allow_nil => true, :uniqueness => {:message => 'account already exists'}
@@ -32,6 +32,7 @@ class Member < User
                                                     :message => "%{value} is not a call time" }
   validates :feature_bucket, :allow_nil => true, :inclusion => {:in => %w(none message_only call_only message_call),
                                                                 :message => "%{value} is not a valid value for feature_bucket"}
+  validates :units, :inclusion => {:in => %w(US Metric)}
 
   after_create :add_install_message
   after_create :add_new_member_content
@@ -47,7 +48,7 @@ class Member < User
 
   BASE_OPTIONS = User::BASE_OPTIONS.merge(:only => [:feature_bucket, :generic_call_time,
                                                     :holds_phone_in, :install_id,
-                                                    :phone],
+                                                    :phone, :units],
                                           :methods => [:pusher_id]) do |k, v1, v2|
                    v1.is_a?(Array) ? v1 + v2 : [v1] + v2
                  end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130802075940) do
+ActiveRecord::Schema.define(:version => 20130806204708) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -536,6 +536,7 @@ ActiveRecord::Schema.define(:version => 20130802075940) do
     t.string   "state"
     t.string   "type",                                                                        :default => "",    :null => false
     t.string   "invitation_token"
+    t.string   "units",                                                                       :default => "US",  :null => false
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"

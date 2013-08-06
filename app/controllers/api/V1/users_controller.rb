@@ -3,7 +3,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   attr_accessible :first_name, :last_name, :image_url, :gender, :height, :birth_date, :email, :phone,
                   :generic_call_time, :password, :password_confirmation, :feature_bucket, :blood_type,
                   :holds_phone_in, :diet_id, :ethnic_group_id, :deceased, :date_of_death, :npi_number,
-                  :expertise, :city, :state
+                  :expertise, :city, :state, :units
 
   skip_before_filter :authentication_check, :only =>:create
 
