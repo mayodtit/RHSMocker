@@ -33,7 +33,7 @@ class Content < ActiveRecord::Base
     where(:title => ['Do you have allergies?',
                      'What is your gender?',
                      'Which hand do you hold your phone in?',
-                     'Your diet'])
+                     'Which of these do you eat?'])
   end
 
 	def as_json(options=nil)

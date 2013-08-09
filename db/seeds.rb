@@ -107,7 +107,7 @@ unless Content.find_by_title("Do you have allergies?")
 end
 
 
-Content.upsert_attributes({:title => 'Your diet',
+Content.upsert_attributes({:title => 'Which of these do you eat?',
                            :content_type => 'Question'},
                           {
                             :body => <<-EOF
@@ -139,19 +139,13 @@ Content.upsert_attributes({:title => 'Your diet',
     </div>
   </div>
 </div>
-<div id="panel-2" style="display: none;">
-  <div class="content_text">
-    Thank You!
-  </div>
-  <div class="content_text">
-    Your <a href="#">health profile</a> has been updated with your diet information. This will be very helpful to us in personalizing your Better experience.
-  </div>
-</div>
 
-<script>
+<script type="text/javascript">
+document.actionJSON = JSON.stringify([{type: "set_available_user_actions", body: {actions: ["save"]}}]);
+
 function toggleElement(type) {
   $('.' + type).toggle();
-}
+};
 </script>
                                     EOF
                           })
