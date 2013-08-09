@@ -107,6 +107,56 @@ unless Content.find_by_title("Do you have allergies?")
 end
 
 
+Content.upsert_attributes({:title => 'Your diet',
+                           :content_type => 'Question'},
+                          {
+                            :body => <<-EOF
+<div id="panel-1">
+  <div class="content_text">
+    <div style="position: absolute; left: 25px; top: 65px;">
+      <a href="#" onclick="toggleElement('vegetables')"><img class="vegetables" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/vegetables_unselect.png"/></a>
+      <a href="#" onclick="toggleElement('vegetables')"><img class="vegetables" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/vegetables_select.png"/></a>
+    </div>
+    <div style="position: absolute; left: 115px; top: 65px;">
+      <a href="#" onclick="toggleElement('meat')"><img class="meat" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/meat_unselect.png"/></a>
+      <a href="#" onclick="toggleElement('meat')"><img class="meat" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/meat_select.png"/></a>
+    </div>
+    <div style="position: absolute; left: 205px; top: 65px;">
+      <a href="#" onclick="toggleElement('fish')"><img class="fish" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/fish_unselect.png"/></a>
+      <a href="#" onclick="toggleElement('fish')"><img class="fish" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/fish_select.png"/></a>
+    </div>
+    <div style="position: absolute; left: 25px; top: 125px">
+      <a href="#" onclick="toggleElement('bread')"><img class="bread" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/bread_unselect.png"/></a>
+      <a href="#" onclick="toggleElement('bread')"><img class="bread" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/bread_select.png"/></a>
+    </div>
+    <div style="position: absolute; left: 115px; top: 125px">
+      <a href="#" onclick="toggleElement('dairy')"><img class="dairy" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/dairy_unselect.png"/></a>
+      <a href="#" onclick="toggleElement('dairy')"><img class="dairy" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/dairy_select.png"/></a>
+    </div>
+    <div style="position: absolute; left: 205px; top: 125px">
+      <a href="#" onclick="toggleElement('eggs')"><img class="eggs" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/eggs_unselect.png"/></a>
+      <a href="#" onclick="toggleElement('eggs')"><img class="eggs" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/eggs_select.png"/></a>
+    </div>
+  </div>
+</div>
+<div id="panel-2" style="display: none;">
+  <div class="content_text">
+    Thank You!
+  </div>
+  <div class="content_text">
+    Your <a href="#">health profile</a> has been updated with your diet information. This will be very helpful to us in personalizing your Better experience.
+  </div>
+</div>
+
+<script>
+function toggleElement(type) {
+  $('.' + type).toggle();
+}
+</script>
+                                    EOF
+                          })
+
+
 
 # Create some default Members
 #nancy 	= Member.create!(first_name: "Nancy", last_name: "Smith", 	gender:"F", birth_date:"06/18/1950", install_id: "123345")
