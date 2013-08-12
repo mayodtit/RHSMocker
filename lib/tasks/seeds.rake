@@ -1,6 +1,6 @@
 namespace :seeds do
-  task :demo, [:email] => :environment do |t, args|
-    u = Member.find_by_email!(args[:email])
+  task :demo, [:id] => :environment do |t, args|
+    u = Member.find(args[:id])
     u.user_readings.destroy_all
     u.user_readings.create(priority: 50, content: Content.find_by_title('Installed Better'), read_date: Time.zone.now.iso8601, save_date: Time.zone.now.iso8601, save_count: 1)
     u.user_readings.create(priority: 49, content: Content.find_by_title('Which of these do you eat?'))
