@@ -150,7 +150,56 @@ function toggleElement(type) {
                                     EOF
                           })
 
+Content.upsert_attributes({:title => 'Enter your blood pressure',
+                           :content_type => 'Question'},
+                          {
+                             :body => <<-EOF
+<form width=\"100%\" align=\"center\">
+  <input type=\"text\" name=\"systolic\" id=\"systolic\" style=\"width:45px\" size=\"3\" maxlength=\"3\" onblur=\"submitBloodPressure(this)\" /> /
+  <input type=\"text\" name=\"diastolic\" id=\"diastolic\" style=\"width:45px\" size=\"3\" maxlength=\"3\" onblur=\"submitBloodPressure(this)\" />
+  <input type=\"text\" name=\"pulse\" id=\"pulse\" style=\"margin-left:15px; width:45px\" size=\"3\" maxlength=\"3\" onblur=\"submitBloodPressure(this)\" /> bpm
+</form>
 
+<script>
+  function quoteForJSONIfString(object) {
+   if(Object.prototype.toString.call(object) === '[object String]') {
+    return '\"' + object + '\"';
+   } else {
+    return object;
+   }
+  }
+  function JSONWithTypeAndBody(type, body) {
+   if(Object.prototype.toString.call(body) === '[object Object]') {
+    var bodyString = '{';
+    for (var i in body) {
+     bodyString += quoteForJSONIfString(i) + ':' + quoteForJSONIfString(body[i]) + ',';
+    }
+    bodyString = bodyString.replace(/,+$/, \"\") + '}';
+    body = bodyString;
+   }
+   return '{\"type\":\"'+type+'\",\"body\":'+body+'}';
+  }
+  
+  function submitBloodPressure(e) {
+  var eValue = e.value*1;
+  if(isNaN(eValue)) e.value = 0;
+  var systolicInput = document.getElementById('systolic');
+  var diastolicInput = document.getElementById('diastolic');
+  var pulseInput = document.getElementById('pulse');
+  
+  if(systolicInput.value != ''  && diastolicInput.value != '' && pulseInput.value != '') {
+ 
+  var bloodpressureDictionary = {'systolic' : systolicInput.value*1,'diastolic' : diastolicInput.value*1, 'pulse' : pulseInput.value*1};
+  var actionJSON = '[' + JSONWithTypeAndBody('available_user_actions','[\"dismiss\"]');
+  actionJSON += ',' + JSONWithTypeAndBody('add_blood_pressure',bloodpressureDictionary) + ']';
+  console.log(actionJSON);
+  document.actionJSON = actionJSON;
+  window.location.href = 'http://dontload';
+  }
+  }
+</script>
+                                      EOF
+                          })
 
 # Create some default Members
 #nancy 	= Member.create!(first_name: "Nancy", last_name: "Smith", 	gender:"F", birth_date:"06/18/1950", install_id: "123345")
