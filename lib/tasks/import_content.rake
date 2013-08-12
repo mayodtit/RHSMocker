@@ -109,7 +109,7 @@ namespace :admin do
 						end
 
 						if !@mayoVocab.nil?
-							@content.mayo_vocabularies << @mayoVocab
+							@content.mayo_vocabularies << @mayoVocab unless @content.mayo_vocabularies.include?(@mayoVocab)
 							#ContentVocabulary.create(mayo_vocabulary:@mayoVocab, content:@content)
 						end
 					end
