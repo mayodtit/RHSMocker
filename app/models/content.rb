@@ -32,7 +32,6 @@ class Content < ActiveRecord::Base
   def self.new_member_content
     where(:title => ['Do you have allergies?',
                      'What is your gender?',
-                     'Which hand do you hold your phone in?',
                      'Which of these do you eat?',
                      'Enter your blood pressure',
                      'Enter your weight'])
