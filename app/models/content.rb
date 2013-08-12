@@ -34,7 +34,8 @@ class Content < ActiveRecord::Base
                      'What is your gender?',
                      'Which hand do you hold your phone in?',
                      'Which of these do you eat?',
-                     'Enter your blood pressure'])
+                     'Enter your blood pressure',
+                     'Enter your weight'])
   end
 
 	def as_json(options=nil)

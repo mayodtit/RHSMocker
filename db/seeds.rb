@@ -201,6 +201,61 @@ Content.upsert_attributes({:title => 'Enter your blood pressure',
                                       EOF
                           })
 
+Content.upsert_attributes({:title => 'Enter your weight',
+                           :content_type => 'Question'},
+                          {
+                            :body => <<-EOF
+<form width=\"100%\" align=\"center\">
+  <input type=\"text\" name=\"weight\" id=\"weight\" style=\"width:50%\" size=\"3\" maxlength=\"3\" onblur=\"submitWeight(this)\" />
+</form>
+
+<script>
+  function quoteForJSONIfString(object) {
+  if(Object.prototype.toString.call(object) === '[object String]') {
+  return '\"' + object + '\"';
+  } else {
+  return object;
+  }
+  }
+  function JSONWithTypeAndBody(type, body) {
+  if(Object.prototype.toString.call(body) === '[object Object]') {
+  var bodyString = '{';
+  for (var i in body) {
+  bodyString += quoteForJSONIfString(i) + ':' + quoteForJSONIfString(body[i]);
+  }
+  bodyString += '}';
+  body = bodyString;
+  }
+  return '{\"type\":\"'+type+'\",\"body\":'+body+'}';
+  }
+
+  function submitWeight(weightInput) {
+  var weight = weightInput.value * 1;
+  if(isNaN(weight)) weightInput.value = weight = 0;
+
+  if(weight < 5) {
+  weightInput.value = 5;
+  weight = 5;
+  }
+
+  if(weight > 750) {
+  weightInput.value = 750;
+  weight = 750;
+  }
+
+  weight *= 0.453592;
+
+  var weightDictionary = {'weight' : weight};
+  var actionJSON = '[' + JSONWithTypeAndBody('available_user_actions','[\"dismiss\"]');
+  actionJSON += ',' + JSONWithTypeAndBody('add_weight',weightDictionary) + ']';
+  document.actionJSON = actionJSON;
+  console.log(actionJSON);
+  window.location.href = 'http://dontload';
+  }
+</script>
+                                     EOF
+                          })
+
 # Create some default Members
 #nancy 	= Member.create!(first_name: "Nancy", last_name: "Smith", 	gender:"F", birth_date:"06/18/1950", install_id: "123345")
 #bob 	= Member.create!(first_name: "Bob", 	last_name: "Jones", 	gender:"M", birth_date:"01/10/1973", install_id: "122233")
