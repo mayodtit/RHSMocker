@@ -88,16 +88,14 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   def read_items
     read = current_user.message_statuses.read.map { |message_status|
       render_message_into_common_format(message_status)
-    } | current_user.user_readings.saved
-    read.sort_by!{|obj| obj[:created_at]}
+    } | current_user.user_readings.saved.order('priority DESC')
     read
   end
 
   def unread_items
     unread = current_user.message_statuses.unread.map { |message_status|
       render_message_into_common_format(message_status)
-    } | current_user.user_readings.not_saved_not_dismissed
-    unread.sort_by!{|obj| obj[:created_at]}
+    } | current_user.user_readings.not_saved_not_dismissed.order('priority DESC')
     unread
   end
 end

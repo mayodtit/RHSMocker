@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130806204708) do
+ActiveRecord::Schema.define(:version => 20130812205823) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -502,6 +502,7 @@ ActiveRecord::Schema.define(:version => 20130806204708) do
     t.datetime "dismiss_date"
     t.datetime "view_date"
     t.integer  "share_counter"
+    t.integer  "priority",      :default => 0, :null => false
   end
 
   create_table "users", :force => true do |t|

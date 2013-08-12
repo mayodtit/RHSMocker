@@ -1,5 +1,5 @@
 class UserReading < ActiveRecord::Base
-  attr_accessible :read_date, :dismiss_date, :save_count, :save_date, :user, :content, :user_id, :content_id, :view_date
+  attr_accessible :read_date, :dismiss_date, :save_count, :save_date, :user, :content, :user_id, :content_id, :view_date, :priority
 
   belongs_to :content
   belongs_to :user
