@@ -15,15 +15,6 @@ namespace :admin do
 			if rawData.css('HTML').empty?
 				logger.info(docID + ", NO HTML")
 			else
-				### Clean up images
-	# &lt;!-- mcimagecaption --&gt;
-	# &lt;div class=&quot;inlineimage right&quot; style=&quot;width: 138px&quot;&gt;
-	# &lt;img src=&quot;/images/inline/moynihant_lg.jpg&quot; border=&quot;0&quot; alt=&quot;Photo of Timothy Moynihan, M.D.&quot; width=&quot;138&quot; height=&quot;168&quot; /&gt; 
-	# &lt;div&gt;
-	# Timothy Moynihan, M.D. 
-	# &lt;/div&gt;
-	# &lt;hr /&gt;
-	# &lt;/div&gt;
 
 				#Preprocssing specific text items
 				#================================
@@ -36,11 +27,10 @@ namespace :admin do
 				structured_body = Nokogiri::HTML(rawData.css('Body').first.text.gsub(/\n|\t/,"").gsub("<strong>","").gsub("</strong>","").gsub("<hr />",""))
 				#2 Cleanup Images
 				divNodes = structured_body.search('div.inlineimage.right')
+				
 				divNodes.map do |image_div_node|
 					logger.info(docID + ", Has Embedded Image")
 					#change the class of this div, remove style
-
-					#style="background-image:url('http://img.labnol.org/di/bo.jpg')
 
 					image_div_node.set_attribute('class', 'authorImageDiv') 
 					#Make a background image and remove the img tag
@@ -51,6 +41,31 @@ namespace :admin do
 	  				image_div_node.content = ""
 	  				bgImage = "background-image:url(' " + 'http://www.mayoclinic.com' + original_src +" ')"
 	  				image_div_node.set_attribute('style', bgImage)
+				end
+
+				popup_media_nodes = rawData.css "PopupMedia"
+				count = 0;
+				popup_media_nodes.map do | popup_node |
+					#Remove extra HTML tag 
+					count+=1;
+					popup_node.at_css('HTML').remove
+					thumb_img_node = Nokogiri::XML::Node.new "img", rawData
+					thumb_img_node.set_attribute('class', 'mayoContentImage') 
+					full_img_src = 'http://www.mayoclinic.com' + popup_node.at_css('Image')['URI']
+					loggedTitle = rawData.search('Title').first.text.gsub(/\n/,"").gsub(/\t/,"") 
+					logger.info(loggedTitle + " " + docID + " full_img_src:" + full_img_src)
+					thumb_img_node.set_attribute('src', full_img_src)
+					#Total hack to skip second paragraph where the banner goes
+					count = 3 if count == 2
+					logger.info("count = " + count.to_s)
+					#structured_body.at_xpath('//p[$count]', {:count => count}).add_next_sibling(thumb_img_node)
+					#THIS IS A HUGE FUCKING HACK.
+					pcount = 0;
+					structured_body.css('p').each do |p|
+						pcount += 1;
+						logger.info("pcount = " + pcount.to_s)
+ 						p.add_next_sibling(thumb_img_node) if pcount == count
+					end
 				end
 
 				type_search		= rawData.search('Meta ContentType')
@@ -80,16 +95,29 @@ namespace :admin do
 						keywords += keyword.text.gsub(/\n/,"").gsub(/\t/,"") + ','
 					end
 
-					@content = Content.new()
-					@content.title 			= CGI.unescapeHTML(title_text.gsub(/\n/,"").gsub(/\t/,"")) 		if !title_text.nil?
-					@content.abstract 		= abstract_text.gsub(/\n/,"").gsub(/\t/,"") 					if !abstract_text.nil?
-					@content.question 		= question_text.gsub(/\n/,"").gsub(/\t/,"") 					if !question_text.nil?
-					@content.body 			= body_text								 						if !body_text.nil?
-					@content.content_type 	= type_text.gsub(/\n/,"").gsub(/\t/,"").titlecase 				if !type_text.nil?
-					@content.content_updated_at 	= update_text.gsub(/\n/,"").gsub(/\t/,"") 						if !update_text.nil?
-					@content.keywords 		= keywords
-					@content.mayo_doc_id 	= doc_id if !doc_id.nil?
-					@content.save!
+					title 			= CGI.unescapeHTML(title_text.gsub(/\n/,"").gsub(/\t/,"")) 		if !title_text.nil?
+					abstract 		= abstract_text.gsub(/\n/,"").gsub(/\t/,"") 					if !abstract_text.nil?
+					question 		= question_text.gsub(/\n/,"").gsub(/\t/,"") 					if !question_text.nil?
+					content_type 	= type_text.gsub(/\n/,"").gsub(/\t/,"").titlecase 				if !type_text.nil?
+					content_updated_at 	= update_text.gsub(/\n/,"").gsub(/\t/,"") 					if !update_text.nil?
+					#body 			= body_text								 						if !body_text.nil?
+					#keywords 		= keywords
+					#mayo_doc_id 	= doc_id if !doc_id.nil?
+
+					@content = Content.find_or_create_by_mayo_doc_id(mayo_doc_id: doc_id, 
+												title: title, 
+												abstract: abstract, 
+												question: question, 
+												body: body_text, 
+												content_type: content_type, 
+												content_updated_at: content_updated_at,
+												keywords: keywords)
+
+					if @content.present?
+   						@content.update_attributes(title: title, abstract: abstract, question: question, 
+												body: body_text, keywords: keywords)
+   						#Content Updated At?
+					end
 
 					mayo_vocab_search.each do | vocab |
 					#If it exists, do nothing except join table
@@ -101,24 +129,25 @@ namespace :admin do
 							@mayoVocab = MayoVocabulary.new()
 							@mayoVocab.mcvid = vocab.attributes["MCVID"].value
 							@mayoVocab.title = vocab.attributes["Title"].value
-							@mayoVocab.save!
+							@mayoVocab.save! #took off validation since it's okay to re-save.
 
-						elsif mcvidList
+						elsif mcvidList && 
 							@mayoVocab = mcvidList.first #TODO: need to add constraint on MCVID
 
 						end
 
-						if !@mayoVocab.nil?
-							@content.mayo_vocabularies << @mayoVocab unless @content.mayo_vocabularies.include?(@mayoVocab)
-							#ContentVocabulary.create(mayo_vocabulary:@mayoVocab, content:@content)
+						mcvidListForContent = ContentMayoVocabulary.where(:content => @content)
+						
+						#TODO: Makke this smarter to allow for updating mcvids for content
+						if !@mayoVocab.nil? && mcvidListForContent.nil?
+							@content.mayo_vocabularies << @mayoVocab
+							#ContentMayoVocabulary.create(mayo_vocabulary:@mayoVocab, content:@content)
 						end
 					end
 				end
 			end
 		end
 	end
-
-
 
 	task :import_content_ids=> :environment do
 
@@ -152,10 +181,6 @@ namespace :admin do
 		end
 	end
 
-
-
-
-
 	task :migrate_content_ids => :environment do
 
 		UserReading.all.each do |ur|
@@ -176,6 +201,7 @@ namespace :admin do
 
 		AuthorsContent.all.each do |ac| 
      	ac.update_attribute :content_id, ac.content.mayo_doc_id if ac.content && ac.content.mayo_doc_id
+    	end
     end
-	end
+	
 end
