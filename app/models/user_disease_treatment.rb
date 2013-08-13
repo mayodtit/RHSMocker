@@ -15,7 +15,11 @@ class UserDiseaseTreatment < ActiveRecord::Base
   validates :user, :treatment, presence: true
 
   def serializable_hash(options=nil)
-    options ||= {:include => [:treatment, :side_effects]}
+    options ||= {:include => [:treatment, :side_effects], :methods => :user_disease_ids}
     super(options)
+  end
+
+  def user_disease_ids
+    user_disease_user_treatments.pluck(:user_disease_id)
   end
 end

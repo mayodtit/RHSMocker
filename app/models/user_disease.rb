@@ -12,10 +12,11 @@ class UserDisease < ActiveRecord::Base
   validates :diagnoser, :diagnosed_date, presence: true, if: :diagnosed?
 
   def serializable_hash options=nil
-    options ||= {}
-    options.merge!(:include => :disease) do |k, v1, v2|
-      v1.is_a?(Array) ? v1 + v2 : [v1] + v2
-    end
+    options ||= {:include => :disease, :methods => :user_disease_treatment_ids}
     super(options)
+  end
+
+  def user_disease_treatment_ids
+    user_disease_user_treatments.pluck(:user_disease_treatment_id)
   end
 end
