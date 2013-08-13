@@ -31,6 +31,10 @@ class Encounter < ActiveRecord::Base
     super(options)
   end
 
+  def members
+    users.where(:type => 'Member')
+  end
+
   private
 
   def set_defaults

@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :message do
-    user
+    association :user, factory: :member
     encounter
     text {"I don't feel well."}
 

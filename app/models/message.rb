@@ -17,6 +17,7 @@ class Message < ActiveRecord::Base
   validates :content, presence: true, if: lambda{|m| m.content_id.present?}
 
   before_create :add_user_to_encounter
+  after_create :create_message_statuses_for_users
 
   accepts_nested_attributes_for :location
   accepts_nested_attributes_for :message_mayo_vocabularies
@@ -62,5 +63,11 @@ class Message < ActiveRecord::Base
 
   def add_user_to_encounter
     encounter.add_user = user
+  end
+
+  def create_message_statuses_for_users
+    encounter.members.each do |user|
+      user.message_statuses.create!(message: self, status: :unread)
+    end
   end
 end
