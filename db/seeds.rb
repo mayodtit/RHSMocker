@@ -76,11 +76,11 @@ unless Content.find_by_title("What is your gender?")
 		)
 end
 
-unless Content.find_by_title("Do you have allergies?")
-	gender = Content.create!(
-		content_type: 'Question',
-		title: 'Do you have allergies?',
-		body:'<div id="panel-1">
+Content.upsert_attributes({:title => "Do you have allergies?",
+                           :content_type => 'Question'},
+                          {
+                            :body => <<-EOF
+<div id="panel-1">
 	<div class = "content_subtitle">
 	Understanding your allergies will help us provide you great care.
 	</div>
@@ -90,7 +90,7 @@ unless Content.find_by_title("Do you have allergies?")
 	<img style="display : block; margin : auto;" alt="Have Allergies" width="53" height="53" src="/assets/allergy_icon.png"/></a>
 	</div>
 	<div style="margin-left:140px; text-align:center;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;add_allergy&quot; , &quot;body&quot; : {&quot;allergy_id&quot; : &quot;49&quot;} } , {&quot;type&quot; : &quot;save_item&quot; } ] \'; window.location.href = &quot;http://dontload/&quot; ;">
+	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;add_allergy&quot; , &quot;body&quot; : {&quot;allergy_id&quot; : &quot;50&quot;} } , {&quot;type&quot; : &quot;save_item&quot; } ] \'; window.location.href = &quot;http://dontload/&quot; ;">
 	<img style="display : block; margin : auto;" alt="No Allergies" width="53" height="53" src="/assets/allergy_none_icon.png"/></a>
 	</div>
 	</div>
@@ -102,9 +102,9 @@ unless Content.find_by_title("Do you have allergies?")
 	Your <a href="#" onclick="document.actionJSON = \'[ { &quot;type&quot; : &quot;goto_profile&quot;} ]\';  window.location.href = &quot;http://dontload/&quot;">
 	health profile</a> has been updated with your allergy information. This will be very helpful to us in personalizing your Better experience.
 	</div>
-	</div>'
-		)
-end
+	</div>
+                                     EOF
+                          })
 
 
 Content.upsert_attributes({:title => 'Which of these do you eat?',
