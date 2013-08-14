@@ -7,10 +7,12 @@ class UserDisease < ActiveRecord::Base
 
   attr_accessible :user, :disease, :diagnoser
   attr_accessible :being_treated, :diagnosed, :diagnosed_date, :end_date, :start_date, :disease_id, :diagnoser_id,
-                  :user_disease_treatment_ids
+                  :user_disease_treatment_ids, :user_disease_user_treatment_attributes
 
   validates :user, :disease, presence: true
   validates :diagnoser, :diagnosed_date, presence: true, if: :diagnosed?
+
+  accepts_nested_attributes_for :user_disease_user_treatments, allow_destroy: true
 
   def serializable_hash options=nil
     options ||= {:include => :disease, :methods => :user_disease_treatment_ids}
@@ -23,12 +25,14 @@ class UserDisease < ActiveRecord::Base
 
   def user_disease_treatment_ids=(ids)
     ids ||= []
-    UserDisease.transaction do
-      user_disease_user_treatments.destroy_all and return if ids.empty?
-      user_disease_user_treatments.where('user_disease_user_treatments.user_disease_treatment_id NOT IN (?)', ids).destroy_all
-      ids.each do |id|
-        user_disease_treatments << user.user_disease_treatments.find(id) unless user_disease_treatment_ids.include?(id)
-      end
-    end
+    self.user_disease_user_treatments_attributes = removed_treatments(ids) +
+                                                   ids.map{|id| {user_disease_treatment_id: id}}
+  end
+
+  private
+
+  def removed_treatments(ids)
+    user_disease_user_treatments.reject{|dt| ids.include?(dt.user_disease_treatment_id)}
+                                .map{|dt| {id: dt.id, _destroy: true}}
   end
 end
