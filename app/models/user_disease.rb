@@ -26,7 +26,7 @@ class UserDisease < ActiveRecord::Base
   def user_disease_treatment_ids=(ids)
     ids ||= []
     self.user_disease_user_treatments_attributes = removed_treatments(ids) +
-                                                   ids.map{|id| {user_disease_treatment_id: id}}
+                                                   ids.map{|id| {user_disease_treatment_id: id, user_disease: self}}
   end
 
   private
