@@ -8,10 +8,10 @@
 
 
 #some default content
-unless Content.find_by_title("Installed Better")
+unless Content.find_by_title("Welcome to Better!")
 	installed = Content.create!(
 		content_type: 'Content',
-		title: "Installed Better",
+		title: "Welcome to Better!",
 		body:"Thank you for installing Better!")
 end
 
@@ -154,10 +154,11 @@ Content.upsert_attributes({:title => 'Enter your blood pressure',
                            :content_type => 'Question'},
                           {
                              :body => <<-EOF
-<form width=\"100%\" align=\"center\">
-  <input type=\"text\" name=\"systolic\" id=\"systolic\" style=\"width:45px\" size=\"3\" maxlength=\"3\" onblur=\"submitBloodPressure(this)\" /> /
-  <input type=\"text\" name=\"diastolic\" id=\"diastolic\" style=\"width:45px\" size=\"3\" maxlength=\"3\" onblur=\"submitBloodPressure(this)\" />
-  <input type=\"text\" name=\"pulse\" id=\"pulse\" style=\"margin-left:15px; width:45px\" size=\"3\" maxlength=\"3\" onblur=\"submitBloodPressure(this)\" /> bpm
+<div style="color:#999999;margin-left:35px;font-size:16px;font-weight:bold;float:left;">SYS</div><div style="color:#999999;margin-left:70px;font-size:16px;font-weight:bold;float:left;">DIA</div><div style="color:#999999;margin-left:55px;font-size:16px;font-weight:bold;float:left;">PULSE</div><br />
+<form width="100%" align="center" action="http://dontload" method="post">
+  <input type="text" pattern="[0-9]*" name="systolic" id="systolic" style="width:60px;height:47px;" size="3" maxlength="3" onblur="submitBloodPressure(this)" /><img src="/assets/bp_slash.png" style="width:15px;height:47px;margin-bottom:10px;margin-left:4px;"/>
+  <input type="text" pattern="[0-9]*" name="diastolic" id="diastolic" style="width:60px;height:47px;" size="3" maxlength="3" onblur="submitBloodPressure(this)" />
+  <input type="text" pattern="[0-9]*" name="pulse" id="pulse" style="margin-left:10px;width:60px;height:47px;" size="3" maxlength="3" onblur="submitBloodPressure(this)" />
 </form>
 
 <script>
@@ -205,9 +206,13 @@ Content.upsert_attributes({:title => 'Enter your weight',
                            :content_type => 'Question'},
                           {
                             :body => <<-EOF
-<form width=\"100%\" align=\"center\">
-  <input type=\"text\" name=\"weight\" id=\"weight\" style=\"width:50%\" size=\"3\" maxlength=\"3\" onblur=\"submitWeight(this)\" />
+<div align="center">
+<img src="/assets/weight_meter.png" style="width:64px; height:29px;"/>
+<p style="margin-top:2px;margin-bottom:2px;color:#999999;font-size:16px;font-weight:bold;f">LBS</p>
+<form width="100%" align="center" action="http://dontload" method="post" >
+  <input type="text" pattern="[0-9]*" name="weight" id="weight" style="width:171px;height:48px;" size="3" maxlength="3" onblur="submitWeight(this)" />
 </form>
+</div>
 
 <script>
   function quoteForJSONIfString(object) {

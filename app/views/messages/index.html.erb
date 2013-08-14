@@ -4,13 +4,12 @@ function sendMessage(encounter_id){
 	$("#text"+encounter_id).val("");
 	var data = {
 	  "auth_token": "<%=@user.auth_token%>",
-	  "text": text,
-	  "encounter": {
-	    "id": encounter_id
-	  }
+    "message": {
+      "text": text,
+    }
 	};
 
-	$.post("/api/v1/messages", data, function(data, status){
+	$.post("/api/v1/encounters/" + encounter_id + "/messages", data, function(data, status){
 		if(status=="success"){
 			$("#container"+encounter_id).append("<div class='bs-docs-example'><div class='name'><%=@user.full_name%></div>"+text+"</div>");
 		}else{

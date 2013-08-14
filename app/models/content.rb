@@ -26,7 +26,7 @@ class Content < ActiveRecord::Base
 	end
 
   def self.install_message
-    where(:title => 'Installed Better').first
+    where(:title => 'Welcome to Better!').first
   end
 
   def self.new_member_content

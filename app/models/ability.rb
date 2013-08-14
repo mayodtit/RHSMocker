@@ -18,5 +18,9 @@ class Ability
 
     # hack until User/Member model is refactored
     can :manage, User
+
+    if user.hcp?
+      can :manage, :all
+    end
   end
 end
