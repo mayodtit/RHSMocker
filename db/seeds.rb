@@ -53,7 +53,7 @@ unless Content.find_by_title("What is your gender?")
 		title: 'What is your gender?',
 		body:'<div id="panel-1">
 	<div class = "content_subtitle">
-	Gender helps us personalize your Better experience:
+	Gender helps us personalize your Better experience.
 	</div>
 	<div style="float:left; width:140px;text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;set_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;male&quot;} }, {&quot;type&quot; : &quot;save_item&quot; } ]\'; window.location.href = &quot;http://dontload/&quot; ; ">
@@ -100,7 +100,7 @@ Content.upsert_attributes({:title => "Do you have allergies?",
 	</div>
 	<div class = "content_text">
 	Your <a href="#" onclick="document.actionJSON = \'[ { &quot;type&quot; : &quot;goto_profile&quot;} ]\';  window.location.href = &quot;http://dontload/&quot;">
-	health profile</a> has been updated with your allergy information. This will be very helpful to us in personalizing your Better experience.
+	health profile</a> has been updated with your allergy information. This will help us personalize your Better experience.
 	</div>
 	</div>
                                      EOF
