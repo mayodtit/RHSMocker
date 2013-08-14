@@ -24,6 +24,7 @@ class UserDiseaseTreatment < ActiveRecord::Base
   end
 
   def user_disease_ids=(ids)
+    ids ||= []
     UserDiseaseTreatment.transaction do
       user_disease_user_treatments.destroy_all and return if ids.empty?
       user_disease_user_treatments.where('user_disease_user_treatments.user_disease_id NOT IN (?)', ids).destroy_all
