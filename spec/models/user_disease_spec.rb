@@ -29,4 +29,23 @@ describe UserDisease do
       end
     end
   end
+
+  describe '#user_disease_treatment_ids=' do
+    let(:user) { create(:member) }
+    let(:user_disease) { create(:user_disease, :user => user) }
+    let(:user_disease_treatment) { create(:user_disease_treatment, :user => user) }
+
+    it 'links the user_disease_treatment to the user_disease' do
+      user_disease.user_disease_treatments.should_not include(user_disease_treatment)
+      user_disease.update_attributes(user_disease_treatment_ids: [user_disease_treatment.id])
+      user_disease.reload.user_disease_treatments.should include(user_disease_treatment)
+    end
+
+    it 'deletes user_disease_treatments removed from the list' do
+      user_disease.user_disease_treatments << user_disease_treatment
+      user_disease.user_disease_treatments.should include(user_disease_treatment)
+      user_disease.update_attributes(user_disease_treatment_ids: [])
+      user_disease.reload.user_disease_treatments.should_not include(user_disease_treatment)
+    end
+  end
 end
