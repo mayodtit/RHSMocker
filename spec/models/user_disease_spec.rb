@@ -37,14 +37,14 @@ describe UserDisease do
 
     it 'links the user_disease_treatment to the user_disease' do
       user_disease.user_disease_treatments.should_not include(user_disease_treatment)
-      user_disease.update_attributes(user_disease_treatment_ids: [user_disease_treatment.id])
+      user_disease.update_attributes(user_disease_treatment_ids: [user_disease_treatment.id]).should be_true
       user_disease.reload.user_disease_treatments.should include(user_disease_treatment)
     end
 
     it 'deletes user_disease_treatments removed from the list' do
       user_disease.user_disease_treatments << user_disease_treatment
       user_disease.user_disease_treatments.should include(user_disease_treatment)
-      user_disease.update_attributes(user_disease_treatment_ids: [])
+      user_disease.update_attributes(user_disease_treatment_ids: []).should be_true
       user_disease.reload.user_disease_treatments.should_not include(user_disease_treatment)
     end
   end
