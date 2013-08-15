@@ -4,7 +4,7 @@ class Api::V1::SessionsController < Api::V1::ABaseController
   def create
     if params[:email] && params[:password]
       user = login(params[:email], params[:password])
-      return render_failure({reason:"Incorrect credentials"}, 401) unless user
+      return render_failure({reason:"Incorrect credentials", user_message: 'Invalid email and/or password'}, 401) unless user
       if params[:auth_token] && params[:auth_token]!=user.auth_token
         #merge user_readings
         original_user = Member.find_by_auth_token params[:auth_token]
@@ -22,7 +22,7 @@ class Api::V1::SessionsController < Api::V1::ABaseController
     end
 
     if user.blank?
-      render_failure({reason:"Incorrect credentials"}, 401) unless performed?
+      render_failure({reason:"Incorrect credentials", user_message: 'Invalid email and/or password'}, 401) unless performed?
     else
       user.login
       render_success(auth_token:user.auth_token, user:user)

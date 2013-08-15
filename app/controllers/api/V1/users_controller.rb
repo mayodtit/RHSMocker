@@ -37,7 +37,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
       if user.email.blank? && params[:user][:password].present? && params[:user][:email].present?
         user.update_attributes params[:user]
       else
-        return render_failure( {reason:"Registration is already complete"}, 409 )
+        return render_failure( {reason:"Registration is already complete", user_message: 'User with this email already exists'}, 409 )
       end
     else
       user = Member.new(params[:user])
@@ -49,7 +49,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
       UserMailer.welcome_email(user).deliver unless user.email.blank?
       render_success( {auth_token:user.auth_token, user:user} )
     else
-      render_failure( {reason:user.errors.full_messages.to_sentence}, 422 )
+      render_failure( {reason: user.errors.full_messages.to_sentence, user_message: user.errors.full_messages.to_sentence}, 422 )
     end
   end
 

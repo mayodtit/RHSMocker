@@ -26,8 +26,8 @@ class Member < User
 
   validates :install_id, :uniqueness => true, :allow_nil => true
   validates :email, :allow_nil => true, :uniqueness => {:message => 'account already exists'}
-  validates :phone, :allow_blank => true, :length => {:in => 7..17}
-  validates :password, :length => {:minimum => 8, :message => "must be at least 8 characters long"}, :confirmation => true, :if => :password
+  validates :phone, :allow_blank => true, :length => {:in => 7..17, :message => 'must be between 7 and 17 digits'}
+  validates :password, :length => {:minimum => 8, :message => "must be 8 or more characters long"}, :confirmation => true, :if => :password
   validates :generic_call_time, :allow_nil => true, :inclusion => {:in => %w(morning afternoon evening),
                                                     :message => "%{value} is not a call time" }
   validates :feature_bucket, :allow_nil => true, :inclusion => {:in => %w(none message_only call_only message_call),
