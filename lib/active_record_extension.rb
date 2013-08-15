@@ -17,14 +17,27 @@ module ActiveRecordExtension
     #                    to be set.  IDs that were set before but not present in the arguments
     #                    will be unset.
     def simple_has_many_accessor_for(relation, through)
+      define_attribute_helpers(relation, through)
+      define_relation_helpers(relation, through)
+      define_relation_reader(relation, through)
+      define_relation_writer(relation, through)
+    end
+
+    def define_attribute_helpers(relation, through)
       accepts_nested_attributes_for through, allow_destroy: true
       attr_accessible "#{relation.to_s.singularize}_ids".to_sym
       attr_accessible "#{through.to_s.singularize}_attributes".to_sym
+    end
+    private :define_attribute_helpers
 
+    def define_relation_reader(relation, through)
       define_method("#{relation.to_s.singularize}_ids") do
         send(through).pluck("#{relation.to_s.singularize}_id")
       end
+    end
+    private :define_relation_reader
 
+    def define_relation_writer(relation, through)
       define_method("#{relation.to_s.singularize}_ids=") do |ids|
         ids ||= []
         ids = ids.reject{|id| send("#{relation.to_s.singularize}_ids").include?(id)}
@@ -32,13 +45,17 @@ module ActiveRecordExtension
                      ids.map{|id| {"#{relation.to_s.singularize}_id" => id, self.class.name.underscore => self}}
         send("#{through}_attributes=", attributes)
       end
+    end
+    private :define_relation_writer
 
+    def define_relation_helpers(relation, through)
       define_method("removed_#{relation}") do |ids|
-        send(through).reject{|o| ids.include?(o.send("#{relation.to_s.singularize}"))}
+        send(through).reject{|o| ids.include?(o.send(relation.to_s.singularize))}
                      .map{|o| {id: o.id, _destroy: true}}
       end
       private "removed_#{relation}".to_sym
     end
+    private :define_relation_helpers
   end
 end
 
