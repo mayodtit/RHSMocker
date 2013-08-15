@@ -20,6 +20,7 @@ module ActiveRecordExtension
       define_attribute_helpers(relation, through)
       define_mark_for_deletion
       define_mark_for_creation
+      define_convert_ids_to_attributes
       define_relation_reader(relation, through)
       define_relation_writer(relation, through)
     end
@@ -41,11 +42,19 @@ module ActiveRecordExtension
     def define_relation_writer(relation, through)
       define_method("#{relation.to_s.singularize}_ids=") do |ids|
         ids ||= []
-        ids = ids.reject{|id| send("#{relation.to_s.singularize}_ids").include?(id)}
-        send("#{through}_attributes=", mark_for_deletion(relation, through, ids) + mark_for_creation(relation, ids))
+        send("#{through}_attributes=", convert_ids_to_attributes(relation, through, ids))
       end
     end
     private :define_relation_writer
+
+    def define_convert_ids_to_attributes
+      define_method(:convert_ids_to_attributes) do |relation, through, ids|
+        ids = ids.reject{|id| send("#{relation.to_s.singularize}_ids").include?(id)}
+        mark_for_deletion(relation, through, ids) + mark_for_creation(relation, ids)
+      end
+      private :convert_ids_to_attributes
+    end
+    private :define_convert_ids_to_attributes
 
     def define_mark_for_deletion
       define_method(:mark_for_deletion) do |relation, through, ids|
