@@ -32,9 +32,7 @@ class Content < ActiveRecord::Base
   def self.new_member_content
     where(:title => ['Do you have allergies?',
                      'What is your gender?',
-                     'Which of these do you eat?',
-                     'Enter your blood pressure',
-                     'Enter your weight'])
+                     'Which of these do you eat?'])
   end
 
 	def as_json(options=nil)
