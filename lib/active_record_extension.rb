@@ -18,7 +18,8 @@ module ActiveRecordExtension
     #                    will be unset.
     def simple_has_many_accessor_for(relation, through)
       define_attribute_helpers(relation, through)
-      define_relation_helpers(relation, through)
+      define_mark_for_deletion
+      define_mark_for_creation
       define_relation_reader(relation, through)
       define_relation_writer(relation, through)
     end
@@ -41,21 +42,27 @@ module ActiveRecordExtension
       define_method("#{relation.to_s.singularize}_ids=") do |ids|
         ids ||= []
         ids = ids.reject{|id| send("#{relation.to_s.singularize}_ids").include?(id)}
-        attributes = send("removed_#{relation}", ids) +
-                     ids.map{|id| {"#{relation.to_s.singularize}_id" => id, self.class.name.underscore => self}}
-        send("#{through}_attributes=", attributes)
+        send("#{through}_attributes=", mark_for_deletion(relation, through, ids) + mark_for_creation(relation, ids))
       end
     end
     private :define_relation_writer
 
-    def define_relation_helpers(relation, through)
-      define_method("removed_#{relation}") do |ids|
+    def define_mark_for_deletion
+      define_method(:mark_for_deletion) do |relation, through, ids|
         send(through).reject{|o| ids.include?(o.send(relation.to_s.singularize))}
                      .map{|o| {id: o.id, _destroy: true}}
       end
-      private "removed_#{relation}".to_sym
+      private :mark_for_deletion
     end
-    private :define_relation_helpers
+    private :define_mark_for_deletion
+
+    def define_mark_for_creation
+      define_method(:mark_for_creation) do |relation, ids|
+        ids.map{|id| {"#{relation.to_s.singularize}_id" => id, self.class.name.underscore => self}}
+      end
+      private :mark_for_creation
+    end
+    private :define_mark_for_creation
   end
 end
 
