@@ -54,7 +54,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
       user_reading = UserReading.find_or_create_by_user_id_and_content_id(current_user.id, content['id'])
       user_reading.update_attribute attribute, Time.now
       yield user_reading if block_given?
-      PusherJob.new.push_content(user_reading.user_id, user_reading.id, broadcast)
+      PusherJob.new.push_status(user_reading.user_id, user_reading.id, broadcast)
     end
     push_content
     return render_failure({reason:errors.to_sentence}, 404) unless errors.empty?

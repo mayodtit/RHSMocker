@@ -17,4 +17,5 @@ class PusherJob
     user_reading = user.user_readings.find(user_reading_id)
     PusherModule.broadcast(user.pusher_id, status, user_reading.content_id, user_reading.content_type)
   end
+  handle_asynchronously :push_status
 end
