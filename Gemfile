@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '1.9.3'
 
-gem 'rails', '3.2.11'
+gem 'rails', '3.2.14'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -102,3 +102,6 @@ gem 'httparty'
 gem 'debugger'
 gem 'awesome_print'
 gem 'titleize'
+gem 'haml'
+gem 'state_machine'
+gem 'delayed_job_active_record'

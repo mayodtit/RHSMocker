@@ -5,7 +5,7 @@ resource 'Subscriptions' do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  let!(:user) { create(:user) }
+  let!(:user) { create(:member) }
   let!(:plan) { create(:plan) }
   let(:user_id) { user.id }
 

@@ -1,20 +1,21 @@
 <div class="content_full">
-<div class="content_type"><%= @content.contentsType %></div>
-<div class="content_source">
-<%= image_tag("mayo_clinic_logo.png", :class => "mayo_icon")%>
-</div>
-<div class="content_title"><%= @content.title.html_safe %></div>
-<% if not ["Disease", "Test Procedure", "Answer"].include?(@content.contentsType) %>
+	<div class="content_source_full">
+    <% if not ["Question", "Quiz", "Message"].include?(@content.content_type) %>
+      <%= image_tag("mayo_clinic_logo.png", :class => "mayo_icon") %>
+    <% end %>
+  </div>
+<div class="content_title_full"><%= @content.title.html_safe %></div>
+  
+<% if not ["Disease", "Test Procedure"].include?(@content.content_type) %>
 <% if !@content.abstract.nil? %>
-<div class="content_subtitle"><%= @content.abstract.html_safe%></div>
+<div class="content_abstract"><%= @content.abstract.html_safe%></div>
 <% end %>
 <% end %>
-<!-- <% if ["Answer"].include?(@content.contentsType) %>
-<div class="content_subtitle"><% if !@content.question.nil? %><%= @content.question%><% end %></div>
-<% end %> -->
-<% if not ["Quiz", "Question"].include?(@content.contentsType) %>
+<% if not ["Quiz", "Question", "Message"].include?(@content.content_type) %>
 <div class="content_text"><% if !@content.body.nil? %><%=@content.reformattedBody.html_safe%><% end %></div>
-<div class="mayo_copyright">&copy;&nbsp;2013&nbsp;Mayo Foundation for Medical Education and Research (MFMER).<br>All rights reserved.</div>
+<% if not ["Question", "Quiz", "Message"].include?(@content.content_type) %>
+		<div class="mayo_copyright">&copy;2013&nbsp;Mayo Foundation for Medical Education and Research (MFMER).&nbsp;All rights reserved.</div>
+<% end %>
 <% else %>
 <div class="content_text"><% if !@content.body.nil? %><%=@content.body.html_safe%><% end %></div>
 <% end %>

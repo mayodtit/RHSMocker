@@ -1,7 +1,6 @@
 class MessagesController < ApplicationController
   layout "console"
   before_filter :require_login
-  load_and_authorize_resource
 
   def index
     @encounters = Encounter.open.order("created_at DESC")

@@ -1,60 +1,73 @@
 class Message < ActiveRecord::Base
-  attr_accessible :text, :content_id
-
+  belongs_to :user # that sent this message
+  belongs_to :encounter
   has_many :message_statuses
 
+  belongs_to :content
+  belongs_to :location
+  has_many :message_mayo_vocabularies
+  has_many :mayo_vocabularies, :through => :message_mayo_vocabularies
   has_many :attachments
-
-  has_many :mayo_vocabularies_messages
-  has_many :mayo_vocabularies, :through => :mayo_vocabularies_messages
-
   has_one :phone_call
 
-  belongs_to :user
-  belongs_to :encounter
-  belongs_to :user_location
-  belongs_to :content
+  attr_accessible :user, :user_id, :encounter, :encounter_id, :content, :content_id, :text,
+                  :new_location, :new_keyword_ids, :new_attachments
 
-  def as_json options=nil
-    statuses = []
-    if options[:current_user].present?
-      statuses = message_statuses.where(:user_id=>options[:current_user].id).order('created_at DESC')
-    end
-    result = {
-      :id => id,
-      :text=>text,
-      :created_at=>created_at,
-      :user=>{
-        :id=> user.id,
-        :full_name=> user.full_name,
-        :feature_bucket=> user.feature_bucket
-      },
-      :location => user_location,
-      :attachments => attachments,
-      :keywords => mayo_vocabularies,
-      :content_id=> content_id,
-      :encounter_id=> encounter.id,
-      :title=>title
-    }
-    if statuses.empty? || statuses.first.status == "unread"
-      result.merge!({status:"unread", read_date:nil})
-    else 
-      result.merge!({status:statuses.first.status, read_date:statuses.first.updated_at})
-    end
+  validates :user, :encounter, :text, presence: true
+  validates :content, presence: true, if: lambda{|m| m.content_id.present?}
 
-    if options && options["source"].present?
-      result.merge!({:body => options["source"]})
-    end
-    result
+  before_create :add_user_to_encounter
+  after_create :create_message_statuses_for_users
+
+  accepts_nested_attributes_for :location
+  accepts_nested_attributes_for :message_mayo_vocabularies
+  accepts_nested_attributes_for :attachments
+
+  def new_location=(attributes)
+    self.location_attributes = attributes.merge!(:user => user)
   end
 
-  def previewText
-    if !text.nil?
-      preview = text.split(' ').slice(0, 21).join(' ')+"&hellip;"
-    end
+  def new_keyword_ids=(ids)
+    self.message_mayo_vocabularies_attributes = ids.inject([]){|a, id| a << {:mayo_vocabulary_id => id, :message => self}; a}
+  end
+
+  def new_attachments=(attributes)
+    self.attachments_attributes = attributes
   end
 
   def title
     "Conversation with a Health Advocate"
+  end
+
+  def content_type
+    'Message'
+  end
+
+  def previewText
+    text.split(' ').slice(0, 21).join(' ')+"&hellip;" if text.present?
+  end
+
+  def serializable_hash(options=nil)
+    options ||= {}
+    options.reverse_merge!(:only => [:id, :text],
+                           :methods => :title,
+                           :include => {:location => {},
+                                        :attachments => {},
+                                        :mayo_vocabularies => {},
+                                        :content => {},
+                                        :user => {:only => :id, :methods => :full_name}})
+    super(options)
+  end
+
+  private
+
+  def add_user_to_encounter
+    encounter.add_user = user
+  end
+
+  def create_message_statuses_for_users
+    encounter.members.each do |user|
+      user.message_statuses.create!(message: self, status: :unread)
+    end
   end
 end

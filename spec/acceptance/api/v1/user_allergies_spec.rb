@@ -5,198 +5,70 @@ resource "UserAllergies" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  before(:all) do
-    @user = FactoryGirl.create(:user_with_email)
-    @user.login
-    @user2 = FactoryGirl.create(:user_with_email)
-    @user2.login
+  let!(:user) { create(:member) }
+  let(:auth_token) { user.auth_token }
+  let(:user_id) { user.id }
 
-    @allergy = FactoryGirl.create(:allergy, :name=>'pollen')
-
-    allergy = FactoryGirl.create(:allergy)
-    @user_allergy = FactoryGirl.create(:user_allergy, :user=>@user, :allergy=>allergy)
-
-    allergy2 = FactoryGirl.create(:allergy)
-    @user_allergy2 = FactoryGirl.create(:user_allergy, :user=>@user, :allergy=>allergy2)
-
-    @associate = FactoryGirl.create(:associate)
-    @association = FactoryGirl.create(:association, :user=>@user, :associate=>@associate)
+  before(:each) do
+    user.login
   end
 
-  get '/api/v1/user_allergies' do
-    parameter :auth_token,    "User's auth token"
-    required_parameters :auth_token
-
-    let(:auth_token)  { @user.auth_token }
-
-    example_request "[GET] Get all of this user's allergies [DEPRECATED]" do
-      explanation "Returns an array of allergies"
-      status.should == 200
-      JSON.parse(response_body)['user_allergies'].should be_a Array
-    end
-  end
-
-  get '/api/v1/user_allergies' do
-    parameter :auth_token,    "User's auth token"
-    parameter :user_id,       "The user id of the associate"
-    required_parameters :auth_token
-
-    let(:auth_token)  { @user.auth_token }
-    let(:user_id)  { @associate.id }
-
-    example_request "[GET] Get all of this associate's allergies [DEPRECATED]" do
-      explanation "Returns an array of allergies"
-      status.should == 200
-      JSON.parse(response_body)['user_allergies'].should be_a Array
-    end
-  end
+  parameter :auth_token, "Performing user's auth_token"
+  parameter :user_id, "Target user's id"
+  required_parameters :auth_token, :user_id
 
   get '/api/v1/users/:user_id/allergies' do
-    parameter :user_id,       "User ID for which to fetch allergy information"
-    parameter :auth_token,    "User's auth token"
-    required_parameters :auth_token, :user_id
+    let!(:user_allergy) { create(:user_allergy, :user => user) }
+    let(:raw_post) { params.to_json }
 
-    let(:auth_token)  { @user.auth_token }
-    let(:user_id) { @user.id }
-
-    example_request "[GET] Get all allergies for user" do
-      explanation "Returns an array of allergies"
+    example_request "[GET] Get all allergies for a user" do
+      explanation 'Returns an array of allergies for the user'
       status.should == 200
       JSON.parse(response_body)['user_allergies'].should be_a Array
     end
   end
 
-  describe 'create allergy' do
-    parameter :auth_token,    "User's auth token" 
-    parameter :allergy_id,    "Allergy ID"
-    required_parameters :auth_token, :allergy_id
+  get '/api/v1/users/:user_id/allergies/:id' do
+    let!(:user_allergy) { create(:user_allergy, :user => user) }
+    let(:id) { user_allergy.id }
+    let(:raw_post) { params.to_json }
 
-    post '/api/v1/user_allergies' do
-      let(:auth_token)   { @user.auth_token }
-      let(:allergy_id)   { @allergy.id }
-      let(:raw_post)     { params.to_json }  # JSON format request body
-
-      example_request "[POST] Add an allergy for current user" do
-        explanation "Return the created user allergy object"
-        status.should == 200
-        JSON.parse(response_body)['user_allergy'].should be_a Hash
-      end
-    end
-
-    post '/api/v1/user_allergies' do
-      let(:auth_token)   { @user.auth_token }
-      let(:raw_post)     { params.to_json }  # JSON format request body
-
-      example_request "[POST] Add an allergy for current user b (412)" do
-        explanation "Return the created user allergy object"
-        status.should == 412
-        JSON.parse(response_body)['reason'].should_not be_empty
-      end
-    end
-
-    post '/api/v1/user_allergies' do
-      let(:auth_token)   { @user.auth_token }
-      let(:allergy_id)   { 1234 }
-      let(:raw_post)     { params.to_json }  # JSON format request body
-
-      example_request "[POST] Add an allergy for current user c (404)" do
-        explanation "Return the created user allergy object"
-        status.should == 404
-        JSON.parse(response_body)['reason'].should_not be_empty
-      end
+    example_request "[GET] Get a given allergy for a user" do
+      explanation 'Returns the allergy for the user'
+      status.should == 200
+      JSON.parse(response_body)['user_allergy'].should be_a Hash
     end
   end
 
+  post '/api/v1/users/:user_id/allergies' do
+    let!(:user_allergy) { build(:user_allergy, :user => user) }
 
-  describe 'create user_allergies for an associate' do
-    parameter :auth_token,    "User's auth token"
-    parameter :allergy_id,  "Allergy ID"  
-    parameter :user_id,    "ID of the associate you want to add a allergy to"
-    
-    required_parameters :auth_token, :allergy_id, :user_id
+    parameter :allergy_id, "ID of allergy to add"
+    required_parameters :allergy_id
+    scope_parameters :user_allergy, [:allergy_id]
 
-    post '/api/v1/user_allergies' do
-      let(:auth_token)    { @user.auth_token }
-      let(:allergy_id)    { @allergy.id }
-      let(:user_id)       { @associate.id }
-      let(:raw_post)      { params.to_json }  # JSON format request body
+    let(:allergy_id) { user_allergy.allergy_id }
+    let(:raw_post) { params.to_json }
 
-      example_request "[POST] Add a allergy for an associate" do
-        explanation "Returns the created user allergy object"
-        status.should == 200
-        JSON.parse(response_body)['user_allergy'].should be_a Hash
-      end
-    end
-
-    post '/api/v1/user_allergies' do
-      let(:auth_token)    { @user2.auth_token }
-      let(:allergy_id)    { @allergy.id }
-      let(:user_id)       { @associate.id }
-      let(:raw_post)      { params.to_json }  # JSON format request body
-
-      example_request "[POST] Add a allergy for an associate c (401)" do
-        explanation "Returns the created user allergy object"
-        puts response_body
-        status.should == 401
-        JSON.parse(response_body)['reason'].should_not be_empty
-      end
+    example_request "[POST] Add an allergy for a user" do
+      explanation "Return the created user allergy"
+      status.should == 200
+      JSON.parse(response_body)['user_allergy'].should be_a Hash
     end
   end
 
+  delete '/api/v1/users/:user_id/allergies/:id' do
+    parameter :id, "User Allergy ID"
+    required_parameters :id
 
+    let!(:user_allergy) { create(:user_allergy, :user => user) }
+    let(:id) { user_allergy.id }
+    let(:raw_post) { params.to_json }
 
-
-  describe 'remove allergy' do
-    parameter :auth_token,        "User's auth token" 
-    parameter :user_allergy_id,   "User Allergy ID"
-    required_parameters :auth_token, :user_allergy_id
-
-    delete '/api/v1/user_allergies' do
-      let(:auth_token)      { @user.auth_token }
-      let(:user_allergy_id) { @user_allergy.id }
-      let(:raw_post)        { params.to_json }  # JSON format request body
-
-      example_request "[DELETE] Delete a user's allergy" do
-        explanation "Delete's the specified allergy for the user"
-        status.should == 200
-        JSON.parse(response_body).should_not be_empty
-      end
-    end
-
-    delete '/api/v1/user_allergies' do
-      let(:auth_token)      { @user.auth_token }
-      let(:raw_post)        { params.to_json }  # JSON format request body
-
-      example_request "[DELETE] Delete a user's allergy b (412)" do
-        explanation "Delete's the specified allergy for the user"
-        status.should == 412
-        JSON.parse(response_body)['reason'].should_not be_empty
-      end
-    end
-
-    delete '/api/v1/user_allergies' do
-      let(:auth_token)      { @user.auth_token }
-      let(:user_allergy_id) { 1234 }
-      let(:raw_post)        { params.to_json }  # JSON format request body
-
-      example_request "[DELETE] Delete a user's allergy c (404)" do
-        explanation "Delete's the specified allergy for the user"
-        status.should == 404
-        JSON.parse(response_body)['reason'].should_not be_empty
-      end
-    end
-
-    delete '/api/v1/user_allergies' do
-      let(:auth_token)      { @user2.auth_token }
-      let(:user_allergy_id) { @user_allergy2.id }
-      let(:raw_post)        { params.to_json }  # JSON format request body
-
-      example_request "[DELETE] Delete a user's allergy d (401)" do
-        explanation "Delete's the specified allergy for the user"
-        status.should == 401
-        JSON.parse(response_body)['reason'].should_not be_empty
-      end
+    example_request "[DELETE] Delete a user's allergy" do
+      explanation "Delete's the specified allergy for the user"
+      status.should == 200
+      JSON.parse(response_body).should_not be_empty
     end
   end
-
 end

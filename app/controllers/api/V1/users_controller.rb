@@ -1,15 +1,21 @@
 class Api::V1::UsersController < Api::V1::ABaseController
+  include ActiveModel::MassAssignmentSecurity
+  attr_accessible :first_name, :last_name, :image_url, :gender, :height, :birth_date, :email, :phone,
+                  :generic_call_time, :password, :password_confirmation, :feature_bucket, :blood_type,
+                  :holds_phone_in, :diet_id, :ethnic_group_id, :deceased, :date_of_death, :npi_number,
+                  :expertise, :city, :state, :units
+
   skip_before_filter :authentication_check, :only =>:create
 
   def index
     if params[:only] == 'internal'
       if params[:q]
-        @users = User.search do
+        @users = Member.search do
           fulltext params[:q]
           with :role_name, params[:role_name] if params[:role_name]
         end
       else
-        @users = params[:role_name] ? User.by_role(Role.find_by_name(params[:role_name])) : User.all
+        @users = params[:role_name] ? (Role.find_by_name(params[:role_name]).try(:users) || []) : Member.all
       end
     else
       begin
@@ -24,17 +30,17 @@ class Api::V1::UsersController < Api::V1::ABaseController
   def create
     # TODO: refactor into the model
     if params[:user].present? && params[:user][:install_id].present?
-      user = User.find_by_install_id(params[:user][:install_id])
+      user = Member.find_by_install_id(params[:user][:install_id])
     end
 
     if user.present?
       if user.email.blank? && params[:user][:password].present? && params[:user][:email].present?
         user.update_attributes params[:user]
       else
-        return render_failure( {reason:"Registration is already complete"}, 409 )
+        return render_failure( {reason:"Registration is already complete", user_message: 'User with this email already exists'}, 409 )
       end
     else
-      user = User.new(params[:user])
+      user = Member.new(params[:user])
     end
 
     if user.save
@@ -43,14 +49,11 @@ class Api::V1::UsersController < Api::V1::ABaseController
       UserMailer.welcome_email(user).deliver unless user.email.blank?
       render_success( {auth_token:user.auth_token, user:user} )
     else
-      render_failure( {reason:user.errors.full_messages.to_sentence}, 422 )
+      render_failure( {reason: user.errors.full_messages.to_sentence, user_message: user.errors.full_messages.to_sentence}, 422 )
     end
   end
 
   def update
-    params[:user].delete :password
-    params[:user].delete :email
-
     if params[:id].present?
       if current_user.allowed_to_edit_user? params[:id].to_i
         user = User.find_by_id params[:id]
@@ -61,7 +64,11 @@ class Api::V1::UsersController < Api::V1::ABaseController
       user = current_user
     end
     return render_failure({reason:"User not found"}, 404) unless user
-    if user.update_attributes(params[:user])
+
+    params[:user].delete :email if current_user == user
+    params[:user].delete :password
+
+    if user.update_attributes(sanitize_for_mass_assignment(params[:user]))
       render_success({user:user})
     else
       render_failure({reason:user.errors.full_messages.to_sentence}, 422)
@@ -90,7 +97,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def keywords
-    render_success keywords:current_user.keywords.map{|mv| mv[0].title }[0,7]
+    render_success keywords: Member.find(params[:id]).keywords.map{|mv| mv[0].title }[0,7]
   end
 
   def add_feedback
@@ -100,6 +107,13 @@ class Api::V1::UsersController < Api::V1::ABaseController
     else
       render_failure( {reason:feedback.errors.full_messages.to_sentence}, 422 )
     end
+  end
+
+  def invite
+    @user = User.find(params[:id])
+    @member = @user.member || Member.create_from_user!(@user)
+    current_user.invitations.create(invited_member: @member) # fail silently, always return success
+    render_success
   end
 
   private

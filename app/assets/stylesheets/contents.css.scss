@@ -3,8 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 //Mappings for iOS fonts
-@font-face {font-family:"ITC Franklin Gothic Medium Condensed"; src: local("FranklinGothic-MedCnd");}
-@font-face {font-family:"ITC Franklin Gothic Book Condensed"; src: local("FranklinGothic-BookCnd");}
+@font-face {font-family:"Avenir Next Medium Condensed"; src: local("AvenirNextCondensed-Medium");}
+@font-face {font-family:"Avenir Next Regular Condensed"; src: local("AvenirNextCondensed-Regular");}
 
 body {
 	margin:0px;
@@ -27,7 +27,7 @@ div.content_cardview {
 }
 
 div.content_type{
-	font-family:"ITC Franklin Gothic Medium Condensed";
+	font-family:"Avenir Next Medium Condensed";
 	font-size:15px;
 	color:#ff7400;
     text-transform:uppercase;
@@ -43,49 +43,82 @@ div.content_type img {
 }
 
 div.content_title {
-	font-family:"ITC Franklin Gothic Medium Condensed";
+	font-family:"Avenir Next Medium Condensed";
 	font-size:18px;
 	color:#4c4c4c;
+    padding-bottom:3px;
+    #padding-top: 5px;
+    clear:left;
+    overflow: hidden;
+    color:#E86E32;
+    text-transform:uppercase;
+    height: 40px;
+}
+
+div.content_title_full {
+    font-family:"Avenir Next Medium Condensed";
+    font-size:20px;
+    #color:#4c4c4c;
+    color:#E86E32;
+    text-transform:uppercase;
     padding-bottom:5px;
     padding-top: 5px;
     clear:left;
 }
 
 div.content_source {
-	font-family: "ITC Franklin Gothic Book Condensed";
+	font-family: "Avenir Next Regular Condensed";
 	font-size: 14px;
     color: #999999;
     padding-bottom: 5px;
-    text-align:right;
-    float:right;
 }
 
-div.content_source img {
- }
+div.content_source_full {
+    font-family: "Avenir Next Regular Condensed";
+    font-size: 14px;
+    color: #999999;
+}
 
 div.content_subtitle {
-	font-family: "ITC Franklin Gothic Book Condensed";
+	font-family: "Avenir Next Regular Condensed";
 	font-size: 18px;
 	color: #4c4c4c;
     padding-bottom: 5px;
 }
 
+div.content_abstract{
+    font-family: "Avenir Next Regular Condensed";
+    font-size: 20px;
+    #color: #4c4c4c;
+    color: #c0c0c0;
+    padding-bottom: 10px;
+    #text-transform:uppercase;
+}
+
 div.content_text {
-	font-family: "ITC Franklin Gothic Book Condensed";
-	font-size: 16px;
+	font-family: "Avenir Next Regular Condensed";
+	font-size: 17px;
 	color: #4c4c4c;
 }
 
 div.content_text_preview {
-    font-family: "ITC Franklin Gothic Book Condensed";
+    font-family: "Avenir Next Regular Condensed";
     font-size: 16px;
     color: #4c4c4c;
-    text-overflow: ellipsis;
     overflow: hidden; 
 }
 
+div.content_text_preview_fade {
+    font-family: "Avenir Next Regular Condensed";
+    font-size: 16px;
+    color: #4c4c4c;
+    height: 93px;
+    overflow: hidden;
+    -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
 div.mayo_copyright {
-    font-family: "ITC Franklin Gothic Book Condensed";
+    font-family: "Avenir Next Regular Condensed";
     font-size: 10px;
     color: #999999;
     padding-bottom: 5px;
@@ -119,7 +152,7 @@ div.talk_icon{
 }
 
 div.talk_content {
-    font-family:"ITC Franklin Gothic Medium Condensed";
+    font-family:"Avenir Next Medium Condensed";
     padding: 10px 15px 0px 10px;
     font-size: 15px;
     color:#5a8791;
@@ -137,5 +170,30 @@ img.top_icon{
 }
 
 img.mayo_icon{
-    width:100px;
+    width:90px;
+    padding-top:3px;
+    padding-bottom:2px;
+}
+
+div.section_head {
+    text-transform:uppercase;
+}
+
+img.mayoContentImage {
+  padding-bottom: 7px;
+}
+
+.authorImageDiv {
+  float:left;
+  width: 69px;
+  height: 84px;
+  margin-right: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  border: 5px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
 }

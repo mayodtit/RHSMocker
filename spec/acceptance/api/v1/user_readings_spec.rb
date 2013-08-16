@@ -20,14 +20,14 @@ resource "UserReadings" do
     7.times do
       message = FactoryGirl.create(:message, :encounter=>encounter, :user=>@user)
       FactoryGirl.create(:message_status, :user=>@user, :message=>message, :status=>'unread')
-      FactoryGirl.create(:user_reading, :user=>@user, :content=>content)
+      FactoryGirl.create(:user_reading, :user=>@user)
     end
 
     # read messages and contents
     30.times do
       message = FactoryGirl.create(:message, :encounter=>encounter, :user=>@user)
       FactoryGirl.create(:message_status, :user=>@user, :message=>message, :status=>'read')
-      FactoryGirl.create(:user_reading, :user=>@user, :content=>content, :read_date=>Date.today())
+      FactoryGirl.create(:user_reading, :user=>@user, :read_date=>Date.today())
     end
   end
 

@@ -2,22 +2,44 @@ RHSMocker::Application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :remote_events, :only => :create
-
-      resources :side_effects, :only => :index
-
+      resources :allergies, :only => :index
+      resources :association_types, :only => :index
+      resources :contents, :only => [:index, :show]
+      resources :diets, :only => :index
+      resources :diseases, :only => :index
+      resources :encounters, :only => [:index, :show, :create] do
+        resources :messages, :only => [:index, :show, :create]
+      end
+      resources :ethnic_groups, :only => :index
+      resources :locations, :only => :create
+      resources :messages, :only => :show
       resources :plans, :only => [:index, :show]
-
-      resources :users, :only => :index do
-        resources :allergies, :only => :index, :controller => 'user_allergies'
-        resources :subscriptions, :except => [:new, :edit]
+      resources :remote_events, :only => :create
+      resources :side_effects, :only => :index
+      resources :symptoms, :only => :index
+      resources :treatments, :only => :index
+      resources :users, :only => [:index, :update] do
+        resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
+        resources :associations, :except => [:new, :edit]
+        resources :blood_pressures, only: [:index, :create, :destroy]
         resources :credits, :only => [:index, :show] do
           get 'summary', :on => :collection
         end
-        resources :blood_pressures, :only => :index
-        resources :weights, :only => :index, :controller => 'user_weights'
-        resources :treatments, :only => :index, :controller => 'user_disease_treatments'
-        resources :diseases, :only => :index, :controller => 'user_diseases'
+        resources :diseases, except: [:new, :edit], controller: 'user_diseases' do
+          resources :treatments, only: :destroy, controller: 'user_disease_user_treatments' do
+            post ':id', to: 'user_disease_user_treatments#create', on: :collection
+          end
+        end
+        post 'invite', :on => :member
+        resources :cards, :only => [:index, :show, :update]
+        get 'keywords', :on => :member
+        resources :subscriptions, :except => [:new, :edit]
+        resources :treatments, :except => [:new, :edit], :controller => 'user_disease_treatments' do
+          resources :diseases, only: :destroy, controller: 'user_disease_user_treatments' do
+            post ':id', to: 'user_disease_user_treatments#create', on: :collection
+          end
+        end
+        resources :weights, :only => [:index, :create, :destroy]
       end
 
       #account management
@@ -30,39 +52,6 @@ RHSMocker::Application.routes.draw do
       post "user/update_email" => "users#update_email", :as=>"update_email"
       post "password_resets" => "password_resets#create", :as=>"create_password_resets"
 
-      #content
-      get "contents" => "contents#index", :as=>"content_index"
-      get "contents/:id" => "contents#show", :as=>"content_show"
-
-      #diseases
-      get "diseases" => "diseases#index", :as=>"diseases_index"
-      get "user_diseases" => "user_diseases#index", :as=>"user_diseases_index"
-      post "user_diseases" => "user_diseases#create", :as=>"user_diseases_create"
-      put "user_diseases" => "user_diseases#update", :as=>"user_diseases_update"
-      delete "user_diseases" => "user_diseases#remove", :as=>"user_diseases_remove"
-
-      #treatments
-      get "treatments" => "treatments#index", :as=>"treatments_index"
-      get "user_disease_treatments" => "user_disease_treatments#list", :as=>"user_disease_treatments_list"
-      post "user_disease_treatments" => "user_disease_treatments#create", :as=>"user_disease_treatments_create"
-      put "user_disease_treatments" => "user_disease_treatments#update", :as=>"user_disease_treatments_update"
-      delete "user_disease_treatments" => "user_disease_treatments#remove", :as=>"user_disease_treatments_remove"
-
-      #allergies
-      get "allergies"=> "allergies#index", :as=>"allergies_index"
-      get "user_allergies" => "user_allergies#index"
-      post "user_allergies" => "user_allergies#create"
-      delete "user_allergies" => "user_allergies#remove"
-
-      #associates
-      put "associates/:id" => "associates#update", :as=>"associates_update"
-      get "associations" => "associations#index", :as=>"associations_index"
-      post "associations" => "associations#create", :as=>"associations_create"
-      put "associations" => "associations#update", :as=>"associations_update"
-      delete "associations" => "associations#remove", :as=>"associations_remove"
-      get "association_types" =>"association_types#list"
-
-
       #reading list
       get "user_readings" => "user_readings#index", :as=>"user_readings_index"
       get "inbox(/:page)(/:per_page)" => "user_readings#inbox", :as=>"inbox"
@@ -71,35 +60,14 @@ RHSMocker::Application.routes.draw do
       post "contents/save" => "user_readings#save", :as=>"contents_read_later"
       post "contents/reset" => "user_readings#reset", :as=>"contents_reset"
 
-
-      post "locations" =>"user_locations#create", :as=>"create_user_location"
-      post "weights" => "user_weights#create", :as=>"create_user_weight"
-      get "weights" => "user_weights#list", :as=>"list_user_weights"
-      delete "weights" => "user_weights#remove", :as=>"remove_user_weight"
-      post "blood_pressures" => "blood_pressures#create", :as=>"create_blood_pressures"
-      get "blood_pressures" => "blood_pressures#list", :as=>"list_blood_pressures"
-      delete "blood_pressures" => "blood_pressures#remove", :as=>"remove_blood_pressure"
-
-      get "user/keywords" => "users#keywords", :as=>"user_keywords"
-
-      get "messages" => "messages#list", :as=>"list_user_messages"
-      get "messages/:id" => "messages#show", :as=>"show_user_message"
-      post "messages" => "messages#create", :as => "create_user_message"
-      post "messages/mark_read" => "messages#mark_read", :as => "messages_mark_read"
-      post "messages/dismiss" => "messages#mark_dismissed", :as => "messages_mark_dismissed"
-
       post "phone_calls" => "phone_calls#create"
       # put "phone_calls" => "phone_calls#update"
 
-      get "symptoms" => "symptoms#index"
       get "factors/:id" => "factors#index"
       post "symptoms/check" => "factors#check"
 
 
       post "feedback" => "users#add_feedback"
-
-      get "diets" => "diets#list"
-      get "ethnic_groups" => "ethnic_groups#list"
 
       get "agreement_pages" => "agreement_pages#list"
       get "agreements" => "agreements#list"
@@ -107,6 +75,11 @@ RHSMocker::Application.routes.draw do
       get "agreements/up_to_date" => "agreements#up_to_date?"
 
     end
+  end
+
+  resources :invites, :only => [:update, :show] do
+    get :complete, :on => :collection
+    get :signup, :on => :collection
   end
 
   get "password_resets/:id" => "api/v1/password_resets#edit", :as=>"edit_password_resets"

@@ -5,18 +5,23 @@ resource "Users" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  # currently, only update_password needs user object
   before(:all) do
+    User.destroy_all
+  end
+
+  # currently, only update_password needs user object
+  before(:each) do
+    User.destroy_all
     @password = 'current_password'
     @user = FactoryGirl.create(:user_with_email, :password=>@password, :password_confirmation=>@password)
     @user.login
     @content = FactoryGirl.create(:content)
     @user_reading = FactoryGirl.create(:user_reading, :user=>@user, :content=>@content, :read_date=>DateTime.now())
 
-    @user2 = FactoryGirl.create(:associate)
+    @user2 = FactoryGirl.create(:associate, :install_id => '9999')
     @association = FactoryGirl.create(:association, :user=>@user, :associate=>@user2)
 
-    @admin_user = FactoryGirl.create(:admin, :email=>'email_exists@address.com')
+    @admin_user = FactoryGirl.create(:admin, :email=>'email_exists@address.com', :install_id => '99999')
     @admin_user.login
 
     @hcp = create(:hcp_user)
@@ -78,11 +83,15 @@ resource "Users" do
     end
   end
 
-  get '/api/v1/user/keywords' do
-    parameter :auth_token,      "User's Auth token"
-    required_parameters :auth_token
+  get '/api/v1/users/:id/keywords' do
+    let(:auth_token) { @user.auth_token }
+    let(:id) { @user.id }
 
-    let (:auth_token)       { @user.auth_token }
+    parameter :auth_token, "User's Auth token"
+    parameter :id, "user's ID"
+    required_parameters :auth_token, :id
+
+    let(:raw_post) { params.to_json }
 
     example_request "[GET] Get user's keywords (search history)" do
       explanation "[Implementation incomplete] Returns an array of keywords"
@@ -98,8 +107,8 @@ resource "Users" do
     required_parameters :install_id
 
     post '/api/v1/signup' do
-      let (:install_id) { "1234" }
-      let (:raw_post)   { params.to_json }  # JSON format request body
+      let(:install_id) { "1234" }
+      let(:raw_post)   { params.to_json }  # JSON format request body
 
       example_request "[POST] Sign up using install ID" do
         explanation "Returns auth_token and the user"
@@ -112,8 +121,8 @@ resource "Users" do
     end
 
     post '/api/v1/signup' do
-      let (:install_id) { "1234" }
-      let (:raw_post)   { params.to_json }  # JSON format request body
+      let(:install_id) { @user.install_id }
+      let(:raw_post)   { params.to_json }  # JSON format request body
  
       example_request "[POST] Sign up using install ID (409)" do
         explanation "Returns auth_token and the user"
@@ -148,24 +157,24 @@ resource "Users" do
     required_parameters :install_id, :email, :password
 
     post '/api/v1/signup' do
-      let (:install_id)     { "1234" }
-      let (:email)          { "tst11@test.com" }
-      let (:password)       { "11111111" }
-      let (:feature_bucket) { "message_only" }
-      let (:first_name)     { "Bob" }
-      let (:last_name)      { "Smith" }
-      let (:image_url)      { "http://placekitten.com/90/90" }
-      let (:gender)      { "male" }
-      let (:height)      { 190 }
-      let (:birth_date)      { "1980-10-15" }
-      let (:phone)      { "4163442356" }
-      let (:generic_call_time)      { "morning" }
-      let (:ethnic_group_id)      { 1 }
-      let (:diet_id)      { 1 }
-      let (:blood_type)      { "B-positive" }
-      let (:holds_phone_in)      { "left" }
+      let(:install_id)     { "1234" }
+      let(:email)          { "tst11@test.com" }
+      let(:password)       { "11111111" }
+      let(:feature_bucket) { "message_only" }
+      let(:first_name)     { "Bob" }
+      let(:last_name)      { "Smith" }
+      let(:image_url)      { "http://placekitten.com/90/90" }
+      let(:gender)      { "male" }
+      let(:height)      { 190 }
+      let(:birth_date)      { "1980-10-15" }
+      let(:phone)      { "4163442356" }
+      let(:generic_call_time)      { "morning" }
+      let(:ethnic_group_id)      { 1 }
+      let(:diet_id)      { 1 }
+      let(:blood_type)      { "B-positive" }
+      let(:holds_phone_in)      { "left" }
       let(:deceased) { false }
-      let (:raw_post)   { params.to_json }  # JSON format request body
+      let(:raw_post)   { params.to_json }  # JSON format request body
 
       example_request "[POST] Sign up using email and password (or add email and password to account)" do
         explanation "If the install ID exists, update that user's account with email and password.  Can pass additional user fields, such as first_name, gender, birth_date, etc.  Returns auth_token and the user."
@@ -178,10 +187,10 @@ resource "Users" do
     end
 
     post '/api/v1/signup' do
-      let (:install_id)     { "2222" }
-      let (:email)          { "test2@test.com" }
-      let (:password)       { "short" }
-      let (:raw_post)       { params.to_json }  # JSON format request body
+      let(:install_id)     { "2222" }
+      let(:email)          { "test2@test.com" }
+      let(:password)       { "short" }
+      let(:raw_post)       { params.to_json }  # JSON format request body
 
       example_request "[POST] Sign up using email and password (or add email and password to account) (422)" do
         explanation "If the install ID exists, update that user's account with email and password.  Can pass additional user fields, such as first_name, gender, birth_date, etc.  Returns auth_token and the user."
@@ -199,10 +208,10 @@ resource "Users" do
     required_parameters :auth_token, :password, :email
 
     post '/api/v1/user/update_email' do
-      let (:auth_token)       { @user.auth_token }
-      let (:password)         { @password }
-      let (:email)            { 'new_email@address.com' }
-      let (:raw_post)         { params.to_json }  # JSON format request body
+      let(:auth_token)       { @user.auth_token }
+      let(:password)         { @password }
+      let(:email)            { 'new_email@address.com' }
+      let(:raw_post)         { params.to_json }  # JSON format request body
 
       example_request "[POST] Change the email" do
         explanation "Returns the user"
@@ -212,9 +221,9 @@ resource "Users" do
     end
 
     post '/api/v1/user/update_email' do
-      let (:auth_token)       { @user.auth_token }
-      let (:password)         { 'wrong password' }
-      let (:raw_post)         { params.to_json }  # JSON format request body
+      let(:auth_token)       { @user.auth_token }
+      let(:password)         { 'wrong password' }
+      let(:raw_post)         { params.to_json }  # JSON format request body
 
       example_request "[POST] Change the email b (401)" do
         explanation "Returns the user"
@@ -224,10 +233,10 @@ resource "Users" do
     end
 
     post '/api/v1/user/update_email' do
-      let (:auth_token)       { @user.auth_token }
-      let (:password)         { @password }
-      let (:email)            { 'email_exists@address.com' }
-      let (:raw_post)         { params.to_json }  # JSON format request body
+      let(:auth_token)       { @user.auth_token }
+      let(:password)         { @password }
+      let(:email)            { 'email_exists@address.com' }
+      let(:raw_post)         { params.to_json }  # JSON format request body
 
       example_request "[POST] Change the email c (422)" do
         explanation "Returns the user"
@@ -245,10 +254,10 @@ resource "Users" do
     required_parameters :auth_token, :current_password, :password
 
     post '/api/v1/user/update_password' do
-      let (:auth_token)       { @user.auth_token }
-      let (:current_password) { @password }
-      let (:password)         { "new_password" }
-      let (:raw_post)         { params.to_json }  # JSON format request body
+      let(:auth_token)       { @user.auth_token }
+      let(:current_password) { @password }
+      let(:password)         { "new_password" }
+      let(:raw_post)         { params.to_json }  # JSON format request body
 
       example_request "[POST] Change the password" do
         explanation "Returns the user"
@@ -258,9 +267,9 @@ resource "Users" do
     end
 
     post '/api/v1/user/update_password' do
-      let (:auth_token)       { @user.auth_token }
-      let (:current_password) { 'wrong password' }
-      let (:raw_post)         { params.to_json }  # JSON format request body
+      let(:auth_token)       { @user.auth_token }
+      let(:current_password) { 'wrong password' }
+      let(:raw_post)         { params.to_json }  # JSON format request body
 
       example_request "[POST] Change the password b (401)" do
         explanation "Returns the user"
@@ -270,9 +279,9 @@ resource "Users" do
     end
 
     post '/api/v1/user/update_password' do
-      let (:auth_token)       { @user.auth_token }
-      let (:current_password) { "new_password" }
-      let (:raw_post)         { params.to_json }  # JSON format request body
+      let(:auth_token)       { @user.auth_token }
+      let(:current_password) { "current_password" }
+      let(:raw_post)         { params.to_json }  # JSON format request body
 
       example_request "[POST] Change the password c (412)" do
         explanation "Returns the user"
@@ -283,10 +292,10 @@ resource "Users" do
     end
 
     post '/api/v1/user/update_password' do
-      let (:auth_token)       { @user.auth_token }
-      let (:current_password) { "new_password" }
-      let (:password)         { "short" }
-      let (:raw_post)         { params.to_json }  # JSON format request body
+      let(:auth_token)       { @user.auth_token }
+      let(:current_password) { "current_password" }
+      let(:password)         { "short" }
+      let(:raw_post)         { params.to_json }  # JSON format request body
 
       example_request "[POST] Change the password d (422)" do
         explanation "Returns the user"
@@ -319,22 +328,22 @@ resource "Users" do
     required_parameters :auth_token
 
     put '/api/v1/user' do
-      let (:first_name)     { "Bob" }
-      let (:last_name)      { "Smith" }
-      let (:image_url)      { "http://placekitten.com/90/90" }
-      let (:gender)      { "male" }
-      let (:height)      { 190 }
-      let (:birth_date)      { "1980-10-15" }
-      let (:phone)      { "4163442356" }
-      let (:generic_call_time)      { "morning" }
-      let (:feature_bucket)      { "none" }
-      let (:auth_token)    { @user.auth_token }
-      let (:ethnic_group_id)      { 1 }
-      let (:diet_id)      { 1 }
-      let (:blood_type)      { "B-positive" }
-      let (:holds_phone_in)      { "left" }
+      let(:first_name)     { "Bob" }
+      let(:last_name)      { "Smith" }
+      let(:image_url)      { "http://placekitten.com/90/90" }
+      let(:gender)      { "male" }
+      let(:height)      { 190 }
+      let(:birth_date)      { "1980-10-15" }
+      let(:phone)      { "4163442356" }
+      let(:generic_call_time)      { "morning" }
+      let(:feature_bucket)      { "none" }
+      let(:auth_token)    { @user.auth_token }
+      let(:ethnic_group_id)      { 1 }
+      let(:diet_id)      { 1 }
+      let(:blood_type)      { "B-positive" }
+      let(:holds_phone_in)      { "left" }
       let(:deceased) { false }
-      let (:raw_post)      { params.to_json }  # JSON format request body
+      let(:raw_post)      { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update user" do
         explanation "Update attributes for currently logged in user (as identified by auth_token). Can pass additional user fields, such as first_name, gender, birth_date, etc.  Returns the updated user"
@@ -344,9 +353,9 @@ resource "Users" do
     end
 
     put '/api/v1/user' do
-      let (:auth_token)     { @user.auth_token }
-      let (:feature_bucket) { 'invalid value' }
-      let (:raw_post)       { params.to_json }  # JSON format request body
+      let(:auth_token)     { @user.auth_token }
+      let(:feature_bucket) { 'invalid value' }
+      let(:raw_post)       { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update user (422)" do
         explanation "Update attributes for currently logged in user (as identified by auth_token). Can pass additional user fields, such as first_name, gender, birth_date, etc.  Returns the updated user"
@@ -381,25 +390,21 @@ resource "Users" do
     required_parameters :auth_token, :id
 
     put '/api/v1/user/:id' do
-      let (:id)         { @user.associates.first.id }
-      let (:email)          { "tst121@test.com" }
-      let (:feature_bucket) { "message_only" }
-      let (:first_name)     { "Bob" }
-      let (:last_name)      { "Smith" }
-      let (:image_url)      { "http://placekitten.com/90/90" }
-      let (:gender)      { "male" }
-      let (:height)      { 190 }
-      let (:birth_date)      { "1980-10-15" }
-      let (:phone)      { "4163442356" }
-      let (:generic_call_time)      { "morning" }
-      let (:feature_bucket)      { "none" }
-      let (:auth_token)    { @user.auth_token }
-      let (:ethnic_group_id)      { 1 }
-      let (:diet_id)      { 1 }
-      let (:blood_type)      { "B-positive" }
-      let (:holds_phone_in)      { "left" }
+      let(:id)         { @user.associates.first.id }
+      let(:email)          { "tst121@test.com" }
+      let(:first_name)     { "Bob" }
+      let(:last_name)      { "Smith" }
+      let(:image_url)      { "http://placekitten.com/90/90" }
+      let(:gender)      { "male" }
+      let(:height)      { 190 }
+      let(:birth_date)      { "1980-10-15" }
+      let(:phone)      { "4163442356" }
+      let(:auth_token)    { @user.auth_token }
+      let(:ethnic_group_id)      { 1 }
+      let(:diet_id)      { 1 }
+      let(:blood_type)      { "B-positive" }
       let(:deceased) { false }
-      let (:raw_post)      { params.to_json }  # JSON format request body
+      let(:raw_post)      { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update a specific user" do
         explanation "Update attributes for the specified user, if the currently logged in user has permission to do so"
@@ -409,9 +414,9 @@ resource "Users" do
     end
 
     put '/api/v1/user/:id' do
-      let (:auth_token) { @user.auth_token }
-      let (:id)         { 123 }
-      let (:raw_post)   { params.to_json }  # JSON format request body
+      let(:auth_token) { @user.auth_token }
+      let(:id)         { 123 }
+      let(:raw_post)   { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update a specific user b (401)" do
         explanation "Update attributes for the specified user, if the currently logged in user has permission to do so"
@@ -421,9 +426,9 @@ resource "Users" do
     end
 
     put '/api/v1/user/:id' do
-      let (:auth_token) { @admin_user.auth_token }
-      let (:id)         { 1234 }
-      let (:raw_post)   { params.to_json }  # JSON format request body
+      let(:auth_token) { @admin_user.auth_token }
+      let(:id)         { 1234 }
+      let(:raw_post)   { params.to_json }  # JSON format request body
 
       example_request "[PUT] Update a specific user c (404)" do
         explanation "Update attributes for the specified user, if the currently logged in user has permission to do so.  Admin can update any user."
@@ -439,9 +444,9 @@ resource "Users" do
 
     required_parameters :auth_token, :note
 
-    let (:auth_token)       { @user.auth_token }
-    let (:note) { "this is awesome" }
-    let (:raw_post)         { params.to_json }  # JSON format request body
+    let(:auth_token)       { @user.auth_token }
+    let(:note) { "this is awesome" }
+    let(:raw_post)         { params.to_json }  # JSON format request body
 
     example_request "[POST] Add feedback" do
       explanation "Adds feedback from the user"

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130702192056) do
+ActiveRecord::Schema.define(:version => 20130812205823) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
     t.boolean  "food_allergen"
     t.boolean  "environment_allergen"
     t.boolean  "medication_allergen"
+    t.datetime "disabled_at"
   end
 
   create_table "association_types", :force => true do |t|
@@ -49,6 +50,7 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
     t.string   "gender"
+    t.datetime "disabled_at"
   end
 
   create_table "associations", :force => true do |t|
@@ -99,30 +101,43 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
   add_index "blood_pressures", ["collection_type_id"], :name => "index_blood_pressures_on_collection_type_id"
   add_index "blood_pressures", ["user_id"], :name => "index_blood_pressures_on_user_id"
 
+  create_table "cards", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "resource_id"
+    t.string   "resource_type"
+    t.string   "state"
+    t.datetime "read_at"
+    t.datetime "saved_at"
+    t.datetime "dismissed_at"
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
+    t.integer  "priority",      :default => 0, :null => false
+  end
+
   create_table "collection_types", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
 
-  create_table "contents", :force => true do |t|
-    t.string   "title"
-    t.text     "body"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
-    t.string   "contentsType"
-    t.text     "abstract"
-    t.text     "question"
-    t.text     "keywords"
-    t.datetime "updateDate"
-    t.string   "mayo_doc_id"
-  end
-
-  create_table "contents_mayo_vocabularies", :force => true do |t|
+  create_table "content_mayo_vocabularies", :force => true do |t|
     t.integer  "content_id"
     t.integer  "mayo_vocabulary_id"
     t.datetime "created_at",         :null => false
     t.datetime "updated_at",         :null => false
+  end
+
+  create_table "contents", :force => true do |t|
+    t.string   "title"
+    t.text     "body"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.string   "content_type"
+    t.text     "abstract"
+    t.text     "question"
+    t.text     "keywords"
+    t.datetime "content_updated_at"
+    t.string   "mayo_doc_id"
   end
 
   create_table "contents_symptoms", :force => true do |t|
@@ -145,11 +160,28 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
   add_index "contents_symptoms_factors", ["content_id"], :name => "index_contents_symptom_factors_on_content_id"
   add_index "contents_symptoms_factors", ["symptoms_factor_id"], :name => "index_contents_symptom_factors_on_symptom_factor_id"
 
+  create_table "delayed_jobs", :force => true do |t|
+    t.integer  "priority",   :default => 0
+    t.integer  "attempts",   :default => 0
+    t.text     "handler"
+    t.text     "last_error"
+    t.datetime "run_at"
+    t.datetime "locked_at"
+    t.datetime "failed_at"
+    t.string   "locked_by"
+    t.string   "queue"
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
+  end
+
+  add_index "delayed_jobs", ["priority", "run_at"], :name => "delayed_jobs_priority"
+
   create_table "diets", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-    t.integer  "order"
+    t.string   "name",        :default => "", :null => false
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
+    t.integer  "ordinal",     :default => 0,  :null => false
+    t.datetime "disabled_at"
   end
 
   create_table "diseases", :force => true do |t|
@@ -158,7 +190,20 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
     t.datetime "updated_at",  :null => false
     t.string   "snomed_name"
     t.string   "snomed_code"
+    t.datetime "disabled_at"
   end
+
+  create_table "encounter_users", :force => true do |t|
+    t.string   "role"
+    t.integer  "encounter_id"
+    t.integer  "user_id"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.boolean  "read"
+  end
+
+  add_index "encounter_users", ["encounter_id"], :name => "index_encounters_users_on_encounter_id"
+  add_index "encounter_users", ["user_id"], :name => "index_encounters_users_on_user_id"
 
   create_table "encounters", :force => true do |t|
     t.string   "status"
@@ -168,24 +213,13 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "encounters_users", :force => true do |t|
-    t.string   "role"
-    t.integer  "encounter_id"
-    t.integer  "user_id"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
-    t.boolean  "read"
-  end
-
-  add_index "encounters_users", ["encounter_id"], :name => "index_encounters_users_on_encounter_id"
-  add_index "encounters_users", ["user_id"], :name => "index_encounters_users_on_user_id"
-
   create_table "ethnic_groups", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
-    t.string   "ethnicity_code"
-    t.integer  "order"
+    t.string   "name",                          :default => "", :null => false
+    t.datetime "created_at",                                    :null => false
+    t.datetime "updated_at",                                    :null => false
+    t.integer  "ethnicity_code", :limit => 255, :default => 0,  :null => false
+    t.integer  "ordinal",                       :default => 0,  :null => false
+    t.datetime "disabled_at"
   end
 
   create_table "factor_groups", :force => true do |t|
@@ -204,23 +238,25 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
   create_table "feedbacks", :force => true do |t|
     t.integer  "user_id"
     t.text     "note"
-    t.datetime "created_at",                :null => false
-    t.datetime "updated_at",                :null => false
-  end
-
-  add_index "feedbacks", ["user_id"], :name => "index_feedbacks_on_user_id"
-
-  create_table "institutions", :force => true do |t|
-    t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
 
-  create_table "institutions_users", :force => true do |t|
-    t.integer  "institution_id"
+  add_index "feedbacks", ["user_id"], :name => "index_feedbacks_on_user_id"
+
+  create_table "invitations", :force => true do |t|
+    t.integer  "member_id"
+    t.integer  "invited_member_id"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
+
+  create_table "locations", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
+    t.decimal  "latitude",   :precision => 10, :scale => 6
+    t.decimal  "longitude",  :precision => 10, :scale => 6
+    t.datetime "created_at",                                :null => false
+    t.datetime "updated_at",                                :null => false
   end
 
   create_table "mayo_vocabularies", :force => true do |t|
@@ -230,7 +266,7 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "mayo_vocabularies_messages", :force => true do |t|
+  create_table "message_mayo_vocabularies", :force => true do |t|
     t.integer  "mayo_vocabulary_id"
     t.integer  "message_id"
     t.datetime "created_at",         :null => false
@@ -251,9 +287,9 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
   create_table "messages", :force => true do |t|
     t.text     "text"
     t.integer  "user_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
-    t.integer  "user_location_id"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.integer  "location_id"
     t.integer  "encounter_id"
     t.integer  "content_id"
   end
@@ -310,17 +346,9 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
   add_index "plans", ["plan_group_id"], :name => "index_plans_on_plan_group_id"
 
   create_table "remote_events", :force => true do |t|
-    t.string   "name",                   :null => false
-    t.integer  "device_created_at",      :null => false
-    t.string   "device_language",        :null => false
-    t.string   "device_os",              :null => false
-    t.string   "device_os_version",      :null => false
-    t.string   "device_model",           :null => false
-    t.integer  "device_timezone_offset", :null => false
-    t.string   "app_version",            :null => false
-    t.string   "app_build",              :null => false
-    t.datetime "created_at",             :null => false
-    t.datetime "updated_at",             :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.text     "data"
   end
 
   create_table "roles", :force => true do |t|
@@ -376,6 +404,7 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
     t.string   "snomed_name"
     t.string   "snomed_code"
     t.string   "type"
+    t.datetime "disabled_at"
   end
 
   create_table "user_allergies", :force => true do |t|
@@ -405,17 +434,22 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
     t.string   "amount_unit"
     t.boolean  "side_effect"
     t.boolean  "successful"
-    t.integer  "user_disease_id"
     t.integer  "treatment_id"
     t.integer  "user_id"
-    t.integer  "doctor_user_id"
+    t.integer  "doctor_id"
     t.datetime "created_at",           :null => false
     t.datetime "updated_at",           :null => false
   end
 
   add_index "user_disease_treatments", ["treatment_id"], :name => "index_user_disease_treatments_on_treatment_id"
-  add_index "user_disease_treatments", ["user_disease_id"], :name => "index_user_disease_treatments_on_user_disease_id"
   add_index "user_disease_treatments", ["user_id"], :name => "index_user_disease_treatments_on_user_id"
+
+  create_table "user_disease_user_treatments", :force => true do |t|
+    t.integer  "user_disease_id",           :null => false
+    t.integer  "user_disease_treatment_id", :null => false
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
+  end
 
   create_table "user_diseases", :force => true do |t|
     t.integer  "user_id"
@@ -433,20 +467,13 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
   add_index "user_diseases", ["disease_id"], :name => "index_user_diseases_on_disease_id"
   add_index "user_diseases", ["user_id"], :name => "index_user_diseases_on_user_id"
 
-  create_table "user_locations", :force => true do |t|
-    t.integer  "user_id"
-    t.decimal  "latitude",   :precision => 10, :scale => 6
-    t.decimal  "longitude",  :precision => 10, :scale => 6
-    t.datetime "created_at",                                :null => false
-    t.datetime "updated_at",                                :null => false
-  end
-
   create_table "user_offerings", :force => true do |t|
     t.integer  "offering_id"
     t.integer  "user_id"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.datetime "created_at",                       :null => false
+    t.datetime "updated_at",                       :null => false
     t.integer  "phone_call_id"
+    t.boolean  "unlimited",     :default => false, :null => false
   end
 
   add_index "user_offerings", ["offering_id"], :name => "index_user_offerings_on_offering_id"
@@ -475,15 +502,7 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
     t.datetime "dismiss_date"
     t.datetime "view_date"
     t.integer  "share_counter"
-  end
-
-  create_table "user_weights", :force => true do |t|
-    t.integer  "user_id"
-    t.decimal  "weight",     :precision => 9, :scale => 5, :default => 0.0
-    t.decimal  "bmi",        :precision => 8, :scale => 5, :default => 0.0
-    t.datetime "created_at",                                                :null => false
-    t.datetime "updated_at",                                                :null => false
-    t.datetime "taken_at"
+    t.integer  "priority",      :default => 0, :null => false
   end
 
   create_table "users", :force => true do |t|
@@ -516,6 +535,9 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
     t.boolean  "deceased",                                                                    :default => false, :null => false
     t.string   "city"
     t.string   "state"
+    t.string   "type",                                                                        :default => "",    :null => false
+    t.string   "invitation_token"
+    t.string   "units",                                                                       :default => "US",  :null => false
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"
@@ -526,5 +548,14 @@ ActiveRecord::Schema.define(:version => 20130702192056) do
   end
 
   add_index "users_roles", ["user_id", "role_id"], :name => "index_users_roles_on_user_id_and_role_id"
+
+  create_table "weights", :force => true do |t|
+    t.integer  "user_id"
+    t.decimal  "amount",     :precision => 9, :scale => 5, :default => 0.0
+    t.decimal  "bmi",        :precision => 8, :scale => 5
+    t.datetime "created_at",                                                :null => false
+    t.datetime "updated_at",                                                :null => false
+    t.datetime "taken_at"
+  end
 
 end

@@ -1,5 +1,5 @@
 class UserReading < ActiveRecord::Base
-  attr_accessible :read_date, :dismiss_date, :save_count, :save_date, :user, :content, :user_id, :content_id, :view_date
+  attr_accessible :read_date, :dismiss_date, :save_count, :save_date, :user, :content, :user_id, :content_id, :view_date, :priority
 
   belongs_to :content
   belongs_to :user
@@ -8,6 +8,10 @@ class UserReading < ActiveRecord::Base
   scope :saved, :conditions => "(save_date is not null) and (dismiss_date is null)"
   scope :not_dismissed, :conditions => {:dismiss_date => nil} 
   scope :for_timeline, :conditions => {:view_date => nil}
+  scope :not_saved_not_dismissed, :conditions => {:save_date => nil, :dismiss_date => nil}
+
+  validates :user, :content, presence: true
+  validates :content_id, :uniqueness => {:scope => :user_id}
 
   def as_json options=nil
     {
@@ -15,7 +19,7 @@ class UserReading < ActiveRecord::Base
       dismiss_date:dismiss_date, 
       save_date:save_date, 
       title:content.title,
-      contentsType:content.contentsType,
+      content_type:content.content_type,
       content_id:content.id,
       created_at:created_at,
       share_url:content.share_url(id)

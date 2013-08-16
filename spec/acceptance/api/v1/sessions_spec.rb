@@ -5,11 +5,12 @@ resource "Sessions" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  before(:all) do
+  before(:each) do
     @password = 'some_password'
     @user_with_email = FactoryGirl.create(:user_with_email, :password=>@password, :password_confirmation=>@password)
-    @user = FactoryGirl.create(:user)
-    @user2 = FactoryGirl.create(:user)
+    @user = FactoryGirl.create(:member)
+    @user.login
+    @user2 = FactoryGirl.create(:member)
     @user2.login
   end
 
@@ -115,7 +116,7 @@ resource "Sessions" do
     parameter :auth_token,   "User's auth token"
     required_parameters :auth_token
 
-    let (:auth_token)       { User.find_by_id(@user.id).auth_token }
+    let (:auth_token)       { @user.auth_token }
     let (:raw_post)         { params.to_json }  # JSON format request body
 
     example_request "[DELETE] Sign out" do

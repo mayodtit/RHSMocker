@@ -1,6 +1,3 @@
-require 'pusher_module'
-include PusherModule
-
 class Api::V1::UserReadingsController < Api::V1::ABaseController
 
   def index
@@ -8,22 +5,14 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   end
 
   def inbox
-    page = Integer(params[:page] || 2)
-    per_page = Integer(params[:per_page] || 10)
-
-    unread = current_user.message_statuses.unread.map { |message_status|
-      render_message_into_common_format(message_status)
-    } | current_user.user_readings.unread
-
-    read = current_user.message_statuses.read.map { |message_status|
-      render_message_into_common_format(message_status)
-    } | current_user.user_readings.saved
-
-    unread.sort_by!{|obj| obj[:created_at]}
-    read.sort_by!{|obj| obj[:created_at]}
-
-    #render_success({unread:unread, read:( read.slice( (page-1)*per_page, per_page ) || []) })
-    render_success({unread:unread, read:read})
+    push_content
+    if params[:type] == 'carousel'
+      render_success(unread: unread_items)
+    elsif params[:type] == 'timeline'
+      render_success(read: read_items)
+    else
+      render_success(unread: unread_items, read: read_items)
+    end
   end
 
   def render_message_into_common_format message_status
@@ -32,12 +21,12 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
       :dismiss_date=>nil,
       :read_later_date=>nil,
       :title=> message_status.message.title,
-      :contentsType=>"Message",
+      :content_type=>"Message",
       :message_id=>message_status.message.id,
-      :created_at=>message_status.message.created_at
+      :created_at=>message_status.message.created_at,
+      :encounter_id => message_status.message.encounter.id
     }
   end
-
 
   def mark_read
     status :read_date, 'read'
@@ -65,7 +54,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
       user_reading = UserReading.find_or_create_by_user_id_and_content_id(current_user.id, content['id'])
       user_reading.update_attribute attribute, Time.now
       yield user_reading if block_given?
-      PusherModule.broadcast(user_reading.user_id, broadcast, user_reading.content_id, user_reading.content.contentsType)
+      PusherJob.new.push_status(user_reading.user_id, user_reading.id, broadcast)
     end
     push_content
     return render_failure({reason:errors.to_sentence}, 404) unless errors.empty?
@@ -76,9 +65,6 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   def hasMaxContent
     current_user.user_readings.unread.count >= 7
   end
-
-
-
 
   #FOR TESTING ONLY
 
@@ -94,32 +80,22 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   end
 
   def push_content
-    #create something, add to user_Reading, push it out
-    if !hasMaxContent
-      contents = {}
-      current_user.keywords.each do |mv|
-        mv[0].contents.each do |content|
-          if contents.has_key? content
-            contents[content]+=mv[1]
-          else
-            contents[content] = mv[1]
-          end
-        end
-      end
-      contents = contents.sort_by{|x,y| contents[x]<=>contents[y]}
-      content_id = nil
-      contents.each do |content|
-        unless current_user.user_readings.map{|ur| ur.content_id}.include? content[0].id
-          content_id = content[0].id
-          break
-        end
-      end
-
-      content_id||=Content.getRandomContent()
-      content = Content.find(content_id)
-      UserReading.create(user:current_user, content:content)
-      PusherModule.broadcast(current_user.id, 'newcontent', content.id, content.contentsType)
-    end
+    PusherJob.new.push_content(current_user.id)
   end
 
+  private
+
+  def read_items
+    read = current_user.message_statuses.read.map { |message_status|
+      render_message_into_common_format(message_status)
+    } | current_user.user_readings.saved.order('priority DESC')
+    read
+  end
+
+  def unread_items
+    unread = current_user.message_statuses.unread.map { |message_status|
+      render_message_into_common_format(message_status)
+    } | current_user.user_readings.not_saved_not_dismissed.order('priority DESC')
+    unread
+  end
 end

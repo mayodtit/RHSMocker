@@ -1,18 +1,15 @@
 require 'spec_helper'
 
 describe UserDisease do
-  let(:user_disease) { build(:user_disease) }
+  it_has_a 'valid factory'
 
-  describe 'factory' do
-    it 'creates valid objects' do
-      user_disease.should be_valid
-      user_disease.save.should be_true
-      user_disease.should be_persisted
-    end
+  it_validates 'presence of', :user
+  it_validates 'presence of', :disease
 
-    describe 'trait diagnosed' do
-      let(:diagnosed_user_disease) { build(:user_disease, :diagnosed) }
+  describe 'diagnosed' do
+    let(:diagnosed_user_disease) { build_stubbed(:user_disease, :diagnosed) }
 
+    describe 'factory trait' do
       it 'creates valid objects' do
         diagnosed_user_disease.should be_valid
       end
@@ -21,25 +18,34 @@ describe UserDisease do
         diagnosed_user_disease.diagnosed.should be_true
       end
     end
-  end
 
-  describe 'validations' do
-    context 'diagnosed' do
-      let(:diagnosed_user_disease) { build(:user_disease, :diagnosed) }
-
+    describe 'validations' do
       it 'requires diagnoser' do
-        diagnosed_user_disease.should be_valid
-        diagnosed_user_disease.diagnoser.should_not be_nil
-        diagnosed_user_disease.diagnoser = nil
-        diagnosed_user_disease.should_not be_valid
+        build_stubbed(:user_disease, :diagnosed, :diagnoser => nil).should_not be_valid
       end
 
       it 'requires diagnosed_date' do
-        diagnosed_user_disease.should be_valid
-        diagnosed_user_disease.diagnosed_date.should_not be_nil
-        diagnosed_user_disease.diagnosed_date = nil
-        diagnosed_user_disease.should_not be_valid
+        build_stubbed(:user_disease, :diagnosed, :diagnosed_date => nil).should_not be_valid
       end
+    end
+  end
+
+  describe '#user_disease_treatment_ids=' do
+    let(:user) { create(:member) }
+    let(:user_disease) { create(:user_disease, :user => user) }
+    let(:user_disease_treatment) { create(:user_disease_treatment, :user => user) }
+
+    it 'links the user_disease_treatment to the user_disease' do
+      user_disease.user_disease_treatments.should_not include(user_disease_treatment)
+      user_disease.update_attributes(user_disease_treatment_ids: [user_disease_treatment.id]).should be_true
+      user_disease.reload.user_disease_treatments.should include(user_disease_treatment)
+    end
+
+    it 'deletes user_disease_treatments removed from the list' do
+      user_disease.user_disease_treatments << user_disease_treatment
+      user_disease.user_disease_treatments.should include(user_disease_treatment)
+      user_disease.update_attributes(user_disease_treatment_ids: []).should be_true
+      user_disease.reload.user_disease_treatments.should_not include(user_disease_treatment)
     end
   end
 end

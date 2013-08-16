@@ -3,20 +3,12 @@ require 'spec_helper'
 describe User do
   let(:user) { build(:user) }
 
-  describe 'factory' do
-    it 'creates a valid object' do
-      user.should be_valid
-      user.save.should be_true
-      user.should be_persisted
-    end
+  # TODO - this is a hack to eliminate false positives resulting from dirty database
+  before(:each) do
+    User.delete_all
   end
 
-  describe 'validations' do
-    #it 'requires a user' do
-    #  build(:blood_pressure, :user => nil).should_not be_valid
-    #end
-
-  end
+  it_has_a 'valid factory'
 
   describe '#age' do
     let!(:no_birthday_user) { build_stubbed(:user, :birth_date => nil) }

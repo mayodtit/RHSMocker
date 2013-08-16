@@ -1,4 +1,6 @@
 class Disease < ActiveRecord::Base
+  include SoftDeleteModule
+
   attr_accessible :name, :snomed_name, :snomed_code
   has_many :user_diseases
   has_many :users, :through=> :user_diseases

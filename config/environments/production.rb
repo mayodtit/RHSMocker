@@ -75,7 +75,7 @@ RHSMocker::Application.configure do
     :port                 => 587,
     :domain               => 'rhs-alpha.herokuapp.com',
     :user_name            => 'better_eng',
-    :password             => 'better120!',
+    :password             => 'better120',
     :authentication       => :plain,
     :enable_starttls_auto => true
   }

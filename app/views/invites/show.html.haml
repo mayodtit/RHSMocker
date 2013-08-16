@@ -1,0 +1,14 @@
+%h1 Complete registration for #{@member.email}
+
+- if @member.errors.any?
+  %ul
+    - @member.errors.full_messages.each do |error|
+      %li= error
+
+= form_tag @member.invitation_token, :method => :put do
+  = label_tag 'user[password]', 'Password'
+  = password_field_tag 'user[password]'
+  = label_tag 'user[password_confirmation]', 'Confirm password'
+  = password_field_tag 'user[password_confirmation]'
+  %br
+  = submit_tag 'Sign up!'

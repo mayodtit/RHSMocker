@@ -16,7 +16,7 @@
 <% @contents.each do |content| %>
   <tr>
     <td><%= link_to content.title, content %></td>
-    <td><%= content.contentsType %></td>
+    <td><%= content.content_type %></td>
     <% if content.abstract.nil? %>
       <td> </td>
     <% else %>

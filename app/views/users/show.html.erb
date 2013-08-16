@@ -12,9 +12,9 @@
     <th>BMI</th>
   </thead>
   <tbody>
-  <% @user.user_weights.each do | userWeight | %>
+  <% @user.weights.each do | userWeight | %>
       <tr> 
-        <td> <%= userWeight.weight %> </td>
+        <td> <%= userWeight.amount %> </td>
         <td> <%= userWeight.bmi %></td>
       </tr>
     <% end %>

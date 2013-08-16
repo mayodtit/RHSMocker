@@ -1,36 +1,46 @@
 class Encounter < ActiveRecord::Base
-  attr_accessible :checked, :priority, :status
-
-  has_many :encounters_users
+  has_many :encounter_users
+  has_many :users, :through => :encounter_users
   has_many :messages
-  has_many :phone_calls, :through=>:messages
-  
-  belongs_to :user
-  has_many :users, :through=> :encounters_users
+  has_many :phone_calls, :through => :messages
 
-  scope :open, where(:status=>"open")
+  attr_accessible :checked, :priority, :status, :add_user, :messages, :message
 
-  def as_json options=nil
-    patient_user = encounters_users.patients.first
-    
-    result = {
-      :id=> id,
-      :status=> status,
-      :priority=> priority,
-      :checked => checked,
-      :messages => messages.as_json(options)
-    }
+  validates :status, :priority, presence: true
+  validates :checked, :inclusion => {:in => [true, false]}
+  validates :users, :length => {:minimum => 1}
 
-    if patient_user
-      result.merge!({ 
-        :patient_user => {
-          :id=> patient_user.user.id,
-          :full_name=> patient_user.user.full_name
-        }
-      })
-    end
+  before_validation :set_defaults
 
-    return result
+  def self.open
+    where(:status => :open)
   end
 
+  def message=(message_params)
+    self.messages.build(message_params.merge!(:encounter => self))
+  end
+
+  def add_user=(user)
+    self.users << user unless self.users.include?(user)
+  end
+
+  def serializable_hash(options=nil)
+    options ||= {}
+    options.reverse_merge!(:only => [:id, :status, :priority, :checked],
+                           :include => :messages)
+    super(options)
+  end
+
+  def members
+    users.where(:type => 'Member')
+  end
+
+  private
+
+  def set_defaults
+    self.status ||= 'open'
+    self.priority ||= 'medium'
+    self.checked = false if checked.nil?
+    true
+  end
 end
