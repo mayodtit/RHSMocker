@@ -12,7 +12,6 @@ class Treatment < ActiveRecord::Base
 
   searchable do
     text :name
-    text :snomed_name
     string :type do
       type_name
     end
