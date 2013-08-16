@@ -12,7 +12,11 @@ RHSMocker::Application.routes.draw do
       end
       resources :ethnic_groups, :only => :index
       resources :locations, :only => :create
-      resources :messages, :only => :show
+      resources :messages, :only => :show do
+        post :mark_read, :on => :collection
+        post :save, :on => :collection
+        post :dismiss, :on => :collection
+      end
       resources :plans, :only => [:index, :show]
       resources :remote_events, :only => :create
       resources :side_effects, :only => :index

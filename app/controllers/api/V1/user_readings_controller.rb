@@ -18,6 +18,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
   def render_message_into_common_format message_status
     {
       :read_date=>(message_status.status=="read" ? message_status.updated_at : nil),
+      :save_date=>(message_status.status=="read" ? message_status.updated_at : nil),
       :dismiss_date=>nil,
       :read_later_date=>nil,
       :title=> message_status.message.title,

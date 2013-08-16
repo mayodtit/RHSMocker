@@ -7,7 +7,6 @@ class Disease < ActiveRecord::Base
 
   searchable do
     text :name
-    text :snomed_name
   end
 
   def as_json options=nil
