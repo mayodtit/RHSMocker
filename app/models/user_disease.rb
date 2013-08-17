@@ -9,7 +9,6 @@ class UserDisease < ActiveRecord::Base
   attr_accessible :being_treated, :diagnosed, :diagnosed_date, :end_date, :start_date, :disease_id, :diagnoser_id
 
   validates :user, :disease, presence: true
-  validates :diagnoser, :diagnosed_date, presence: true, if: :diagnosed?
 
   simple_has_many_accessor_for :user_disease_treatments, :user_disease_user_treatments
 

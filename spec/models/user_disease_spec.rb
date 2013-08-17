@@ -18,16 +18,6 @@ describe UserDisease do
         diagnosed_user_disease.diagnosed.should be_true
       end
     end
-
-    describe 'validations' do
-      it 'requires diagnoser' do
-        build_stubbed(:user_disease, :diagnosed, :diagnoser => nil).should_not be_valid
-      end
-
-      it 'requires diagnosed_date' do
-        build_stubbed(:user_disease, :diagnosed, :diagnosed_date => nil).should_not be_valid
-      end
-    end
   end
 
   describe '#user_disease_treatment_ids=' do

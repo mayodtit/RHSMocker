@@ -36,8 +36,8 @@ resource "UserDiseases" do
     parameter :end_date, "End date of the disease"
     parameter :being_treated, "Boolean; is the disease being treated?"
     parameter :diagnosed, "Boolean; was the disease diagnosed?"
-    parameter :diagnoser_id, "ID of the user that made the diagnosis; required if diagnosed"
-    parameter :diagnosed_date, "ID of the user that made the diagnosis; required if diagnosed"
+    parameter :diagnoser_id, "ID of the user that made the diagnosis"
+    parameter :diagnosed_date, "ID of the user that made the diagnosis"
     required_parameters :disease_id
     scope_parameters :user_disease, [:disease_id, :start_date, :end_date, :being_treated, :diagnosed,
                                      :diagnoser_id, :diagnosed_date]
@@ -66,8 +66,8 @@ resource "UserDiseases" do
     parameter :end_date, "End date of the disease"
     parameter :being_treated, "Boolean; is the disease being treated?"
     parameter :diagnosed, "Boolean; was the disease diagnosed?"
-    parameter :diagnoser_id, "ID of the user that made the diagnosis; required if diagnosed"
-    parameter :diagnosed_date, "ID of the user that made the diagnosis; required if diagnosed"
+    parameter :diagnoser_id, "ID of the user that made the diagnosis"
+    parameter :diagnosed_date, "ID of the user that made the diagnosis"
     required_parameters :id
     scope_parameters :user_disease, [:id, :start_date, :end_date, :being_treated, :diagnosed, :diagnoser_id,
                                      :diagnosed_date]
