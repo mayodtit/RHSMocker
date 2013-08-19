@@ -105,17 +105,17 @@ end
   openingJavascript += '&quot;type&quot;:&quot;launch_call_screen&quot;,'
   openingJavascript += '&quot;body&quot;:{'
   openingJavascript += '&quot;content_id&quot; : ' + '&quot;' + id.to_s+ '&quot;,' 
-  openingJavascript += '&quot;keywords&quot;: ['
+  #Removed Keywords consistant with https://www.pivotaltracker.com/story/show/55438340
+  #openingJavascript += '&quot;keywords&quot;: ['
 
-  content_mayo_vocabularies[0..6].each do |vocab|
-  	if !vocab.nil?
-  		openingJavascript += '&quot;' + vocab.mayo_vocabulary.title + '&quot;,'
-  	end
-  end
-
-  openingJavascript += '],'
+  #content_mayo_vocabularies[0..6].each do |vocab|
+  #	if !vocab.nil?
+  #		openingJavascript += '&quot;' + vocab.mayo_vocabulary.title + '&quot;,'
+  #	end
+  #end
+  #openingJavascript += '],'
   #openingJavascript += '&quot;selected_keywords&quot;: [&quot;diabetes&quot;, &quot;treatment&quot;],'
-  openingJavascript += '&quot;message_body&quot; : &quot;I was reading the article ' + self.title + ' and would like to discuss it with a Health Advocate. &quot;'
+  openingJavascript += '&quot;message_body&quot; : &quot;I was reading the article ' + self.title + ' and would like to discuss it with a Personal Health Assistant.&nbsp;&quot;'
 
   openingJavascript += '}'
   openingJavascript += '}]\';'

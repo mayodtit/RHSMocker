@@ -52,9 +52,6 @@ unless Content.find_by_title("What is your gender?")
 		content_type: 'Question',
 		title: 'What is your gender?',
 		body:'<div id="panel-1">
-	<div class = "content_subtitle">
-	Gender helps us personalize your Better experience.
-	</div>
 	<div style="float:left; width:140px;text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;set_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;male&quot;} }, {&quot;type&quot; : &quot;save_item&quot; } ]\'; window.location.href = &quot;http://dontload/&quot; ; ">
 	<img style="display : block; margin : auto;" alt="Male" width="24" height="62" src="/assets/male.png"/></a>
@@ -81,11 +78,7 @@ Content.upsert_attributes({:title => "Do you have allergies?",
                           {
                             :body => <<-EOF
 <div id="panel-1">
-	<div class = "content_subtitle">
-	Understanding your allergies will help us provide you great care.
-	</div>
 	<div style="float:left; width:140px;text-align:center;">
-
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_allergies&quot; } , {&quot;type&quot; : &quot;save_item&quot; } ]\'; window.location.href = &quot;http://dontload/&quot; ; ">
 	<img style="display : block; margin : auto;" alt="Have Allergies" width="53" height="53" src="/assets/allergy_icon.png"/></a>
 	</div>
