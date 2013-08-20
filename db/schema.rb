@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130812205823) do
+ActiveRecord::Schema.define(:version => 20130820022010) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -209,8 +209,9 @@ ActiveRecord::Schema.define(:version => 20130812205823) do
     t.string   "status"
     t.string   "priority"
     t.boolean  "checked"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
+    t.integer  "subject_id", :default => 0, :null => false
   end
 
   create_table "ethnic_groups", :force => true do |t|

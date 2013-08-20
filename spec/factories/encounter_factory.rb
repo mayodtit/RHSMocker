@@ -1,5 +1,6 @@
 FactoryGirl.define do
   factory :encounter do
+    association :subject, factory: :user
     users {|e| [e.association(:member)]}
     status { 'open' }
     priority { ['high', 'medium', 'low'].sample }

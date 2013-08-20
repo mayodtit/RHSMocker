@@ -51,12 +51,27 @@ describe 'Encounters' do
       user.login
     end
 
-    it 'creates a new encounter for the current user' do
+    it 'creates a new encounter for the current user as the subject' do
       lambda{ do_request }.should change(Encounter, :count).by(1)
       response.should be_success
       body = JSON.parse(response.body, :symbolize_names => true)
-      body[:encounter][:id].should_not be_nil
-      user.reload.encounters.should include(Encounter.find(body[:encounter][:id]))
+      encounter = Encounter.find(body[:encounter][:id])
+      user.reload.encounters.should include(encounter)
+      encounter.subject.should == user
+    end
+
+    context 'with a subject' do
+      let(:subject) { create(:user) }
+      let(:subject_param) { {:subject_id => subject.id} }
+
+      it 'creates a new encounter for the given subject' do
+        lambda{ do_request(subject_param) }.should change(Encounter, :count).by(1)
+        response.should be_success
+        body = JSON.parse(response.body, :symbolize_names => true)
+        encounter = Encounter.find(body[:encounter][:id])
+        user.reload.encounters.should include(encounter)
+        encounter.subject.should == subject
+      end
     end
 
     context 'with a message' do

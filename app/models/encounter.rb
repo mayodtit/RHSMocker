@@ -1,12 +1,13 @@
 class Encounter < ActiveRecord::Base
+  belongs_to :subject, :class_name => 'User'
   has_many :encounter_users
   has_many :users, :through => :encounter_users
   has_many :messages
   has_many :phone_calls, :through => :messages
 
-  attr_accessible :checked, :priority, :status, :add_user, :messages, :message
+  attr_accessible :subject, :subject_id, :checked, :priority, :status, :add_user, :messages, :message
 
-  validates :status, :priority, presence: true
+  validates :subject, :status, :priority, presence: true
   validates :checked, :inclusion => {:in => [true, false]}
   validates :users, :length => {:minimum => 1}
 
