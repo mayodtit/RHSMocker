@@ -12,8 +12,9 @@ namespace :admin do
 
 			rawData = Nokogiri::XML(File.open(contentFile))
 			docID = rawData.search('DocID').first.text.strip
+			logger.info(docID + ", Processing , " + "----------")
 			if rawData.css('HTML').empty?
-				logger.info(docID + ", NO HTML")
+				logger.info(docID + ", Has NO HTML")
 			else
 
 				#Preprocssing specific text items
@@ -21,15 +22,23 @@ namespace :admin do
 				#0 Change all <SectionHead> to div with <section_head id and class>
 				sectionhead_nodes = rawData.css "SectionHead"
 				wrapper = sectionhead_nodes.wrap("&lt;div class='section_head'&gt;&lt;/div&gt;")
-				#1 Remove strong tags, which Mayo interjects seemingly semi-randomly, Remove all horizontal rules, structure HTML
-				#Body can be empty, so need to handle that
+				
+				#1 Remove any code referring to Flash (example, NU00584.xml)
+                flashNodes = rawData.css 'Flash'
+                flashNodes.map do |flash_node|
+                	logger.info(docID + ", Has Embedded Flash")
+                	flash_node.remove
+                end
 
-				structured_body = Nokogiri::HTML(rawData.css('Body').first.text.gsub(/\n|\t/,"").gsub("<strong>","").gsub("</strong>","").gsub("<hr />",""))
-				#2 Cleanup Images
+				#2 Remove strong tags, which Mayo interjects seemingly semi-randomly, Remove all horizontal rules, structure HTML
+				#Body can be empty, so need to handle that
+                structured_body = Nokogiri::HTML(rawData.css('Body').first.text.gsub(/\n|\t/,"").gsub("<strong>","").gsub("</strong>","").gsub("<hr />",""))
+
+				#3 Cleanup Images
 				divNodes = structured_body.search('div.inlineimage.right')
 				
 				divNodes.map do |image_div_node|
-					logger.info(docID + ", Has Embedded Image")
+					logger.info(docID + ", Has Embedded Author Image")
 					#change the class of this div, remove style
 
 					image_div_node.set_attribute('class', 'authorImageDiv') 
@@ -47,23 +56,22 @@ namespace :admin do
 				count = 0;
 				popup_media_nodes.map do | popup_node |
 					#Remove extra HTML tag 
+					logger.info(docID + ", Has Embedded Image , " + count.to_s)
 					count+=1;
 					popup_node.at_css('HTML').remove
 					thumb_img_node = Nokogiri::XML::Node.new "img", rawData
 					thumb_img_node.set_attribute('class', 'mayoContentImage') 
 					full_img_src = 'http://www.mayoclinic.com' + popup_node.at_css('Image')['URI']
-					loggedTitle = rawData.search('Title').first.text.gsub(/\n/,"").gsub(/\t/,"") 
-					logger.info(loggedTitle + " " + docID + " full_img_src:" + full_img_src)
+					#loggedTitle = rawData.search('Title').first.text.gsub(/\n/,"").gsub(/\t/,"") 
+					#logger.info(loggedTitle + " " + docID + " full_img_src:" + full_img_src)
 					thumb_img_node.set_attribute('src', full_img_src)
 					#Total hack to skip second paragraph where the banner goes
 					count = 3 if count == 2
-					logger.info("count = " + count.to_s)
 					#structured_body.at_xpath('//p[$count]', {:count => count}).add_next_sibling(thumb_img_node)
 					#THIS IS A HUGE FUCKING HACK.
 					pcount = 0;
 					structured_body.css('p').each do |p|
 						pcount += 1;
-						logger.info("pcount = " + pcount.to_s)
  						p.add_next_sibling(thumb_img_node) if pcount == count
 					end
 				end
