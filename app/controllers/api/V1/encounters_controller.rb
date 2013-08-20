@@ -3,7 +3,11 @@ class Api::V1::EncountersController < Api::V1::ABaseController
   before_filter :load_encounter!, :only => :show
 
   def index
-    index_resource(@user.encounters)
+    if params[:status]
+      index_resource(@user.encounters.where(:status => params[:status]))
+    else
+      index_resource(@user.encounters)
+    end
   end
 
   def show
