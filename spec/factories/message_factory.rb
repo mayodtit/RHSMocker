@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :message do
     association :user, factory: :member
-    encounter
+    consult
     text {"I don't feel well."}
 
     trait :with_content do

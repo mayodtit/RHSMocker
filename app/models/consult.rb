@@ -1,8 +1,8 @@
-class Encounter < ActiveRecord::Base
+class Consult < ActiveRecord::Base
   belongs_to :initiator, :class_name => 'Member'
   belongs_to :subject, :class_name => 'User'
-  has_many :encounter_users
-  has_many :users, :through => :encounter_users
+  has_many :consult_users
+  has_many :users, :through => :consult_users
   has_many :messages
   has_many :phone_calls, :through => :messages
 
@@ -21,7 +21,7 @@ class Encounter < ActiveRecord::Base
   end
 
   def message=(message_params)
-    self.messages.build(message_params.merge!(:encounter => self))
+    self.messages.build(message_params.merge!(:consult => self))
   end
 
   def add_user=(user)

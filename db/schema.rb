@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130820025244) do
+ActiveRecord::Schema.define(:version => 20130820180244) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -120,6 +120,25 @@ ActiveRecord::Schema.define(:version => 20130820025244) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "consult_users", :force => true do |t|
+    t.string   "role"
+    t.integer  "consult_id"
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.boolean  "read"
+  end
+
+  create_table "consults", :force => true do |t|
+    t.string   "status"
+    t.string   "priority"
+    t.boolean  "checked"
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
+    t.integer  "subject_id",   :default => 0, :null => false
+    t.integer  "initiator_id", :default => 0, :null => false
+  end
+
   create_table "content_mayo_vocabularies", :force => true do |t|
     t.integer  "content_id"
     t.integer  "mayo_vocabulary_id"
@@ -191,28 +210,6 @@ ActiveRecord::Schema.define(:version => 20130820025244) do
     t.string   "snomed_name"
     t.string   "snomed_code"
     t.datetime "disabled_at"
-  end
-
-  create_table "encounter_users", :force => true do |t|
-    t.string   "role"
-    t.integer  "encounter_id"
-    t.integer  "user_id"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
-    t.boolean  "read"
-  end
-
-  add_index "encounter_users", ["encounter_id"], :name => "index_encounters_users_on_encounter_id"
-  add_index "encounter_users", ["user_id"], :name => "index_encounters_users_on_user_id"
-
-  create_table "encounters", :force => true do |t|
-    t.string   "status"
-    t.string   "priority"
-    t.boolean  "checked"
-    t.datetime "created_at",                  :null => false
-    t.datetime "updated_at",                  :null => false
-    t.integer  "subject_id",   :default => 0, :null => false
-    t.integer  "initiator_id", :default => 0, :null => false
   end
 
   create_table "ethnic_groups", :force => true do |t|
@@ -289,10 +286,10 @@ ActiveRecord::Schema.define(:version => 20130820025244) do
   create_table "messages", :force => true do |t|
     t.text     "text"
     t.integer  "user_id"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
     t.integer  "location_id"
-    t.integer  "encounter_id"
+    t.integer  "consult_id"
     t.integer  "content_id"
   end
 
