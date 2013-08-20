@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130820225447) do
+ActiveRecord::Schema.define(:version => 20130820225732) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -286,11 +286,12 @@ ActiveRecord::Schema.define(:version => 20130820225447) do
   create_table "messages", :force => true do |t|
     t.text     "text"
     t.integer  "user_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
     t.integer  "location_id"
     t.integer  "consult_id"
     t.integer  "content_id"
+    t.integer  "scheduled_phone_call_id"
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
@@ -345,6 +346,14 @@ ActiveRecord::Schema.define(:version => 20130820225447) do
 
   add_index "roles", ["name", "resource_type", "resource_id"], :name => "index_roles_on_name_and_resource_type_and_resource_id"
   add_index "roles", ["name"], :name => "index_roles_on_name"
+
+  create_table "scheduled_phone_calls", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "phone_call_id"
+    t.datetime "scheduled_at"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
 
   create_table "side_effects", :force => true do |t|
     t.string   "name",        :null => false
