@@ -57,6 +57,7 @@ describe 'Encounters' do
       body = JSON.parse(response.body, :symbolize_names => true)
       encounter = Encounter.find(body[:encounter][:id])
       user.reload.encounters.should include(encounter)
+      encounter.initiator.should == user
       encounter.subject.should == user
     end
 
@@ -70,6 +71,7 @@ describe 'Encounters' do
         body = JSON.parse(response.body, :symbolize_names => true)
         encounter = Encounter.find(body[:encounter][:id])
         user.reload.encounters.should include(encounter)
+        encounter.initiator.should == user
         encounter.subject.should == subject
       end
     end

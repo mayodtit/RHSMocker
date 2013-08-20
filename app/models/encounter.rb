@@ -1,13 +1,16 @@
 class Encounter < ActiveRecord::Base
+  belongs_to :initiator, :class_name => 'Member'
   belongs_to :subject, :class_name => 'User'
   has_many :encounter_users
   has_many :users, :through => :encounter_users
   has_many :messages
   has_many :phone_calls, :through => :messages
 
-  attr_accessible :subject, :subject_id, :checked, :priority, :status, :add_user, :messages, :message
+  attr_accessible :initiator, :initiator_id, :subject, :subject_id, :checked,
+                  :priority, :status, :add_user, :messages, :message
 
-  validates :subject, :status, :priority, presence: true
+  validates :initiator, :subject, :status, :priority, presence: true
+  validates :subject_id, :uniqueness => {:scope => :initiator_id}
   validates :checked, :inclusion => {:in => [true, false]}
   validates :users, :length => {:minimum => 1}
 

@@ -8,9 +8,11 @@ describe Encounter do
       Encounter.any_instance.stub(:set_defaults)
     end
 
+    it_validates 'presence of', :initiator
     it_validates 'presence of', :subject
     it_validates 'presence of', :status
     it_validates 'presence of', :priority
+    it_validates 'scoped uniqueness of', :subject_id, :initiator_id
     it_validates 'inclusion of', :checked
     it_validates 'length of', :users
   end
