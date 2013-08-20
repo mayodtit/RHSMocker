@@ -47,56 +47,37 @@ unless Content.find_by_title("Which hand do you hold your phone in?")
 end
 
 
-unless Content.find_by_title("What is your gender?")
+unless Content.find_by_title("Your Gender")
 	gender = Content.create!(
 		content_type: 'Question',
-		title: 'What is your gender?',
-		body:'<div id="panel-1">
-	<div style="float:left; width:140px;text-align:center;">
+		title: 'Your Gender',
+		body:'
+	<div class = "content_subtitle">What&#39;s your gender?</div>
+	<div style="float:left; width:110px;text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;set_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;male&quot;} }, {&quot;type&quot; : &quot;save_item&quot; } ]\'; window.location.href = &quot;http://dontload/&quot; ; ">
-	<img style="display : block; margin : auto;" alt="Male" width="24" height="62" src="/assets/male.png"/></a>
+	<img alt="Male" width="110" src="/assets/male.png"/></a>
 	</div>
-	<div style="margin-left:140px; text-align:center;">
+	<div style="float:right; width:110px; text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;set_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;female&quot;}},{&quot;type&quot; : &quot;save_item&quot; }] \'; window.location.href = &quot;http://dontload/&quot; ; ">
-	<img style="display : block; margin : auto;" alt="Female" width="24" height="62" src="/assets/female.png"/></a>
-	</div>
-	</div>
-	<div id="panel-2" style="display:none">
-	<div class="content_subtitle">
-	Thank you!
-	</div>
-	<div class = "content_text">
-	Your <a href="#" onclick="document.actionJSON = \'[{ &quot;type&quot; : &quot;goto_profile&quot;} ]\'; window.location.href = &quot;http://dontload/&quot;">
-	health profile</a> has been updated with your gender. This will help us personalize your Better experience.
-	</div>
+	<img alt="Female" width="110" src="/assets/female.png"/></a>
 	</div>'
 		)
 end
 
-Content.upsert_attributes({:title => "Do you have allergies?",
+Content.upsert_attributes({:title => "Your Allergies",
                            :content_type => 'Question'},
                           {
                             :body => <<-EOF
-<div id="panel-1">
-	<div style="float:left; width:140px;text-align:center;">
+	<div class = "content_subtitle">Are you allergic to anything?</div>
+	<div style="float:left;width:110px;text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_allergies&quot; } , {&quot;type&quot; : &quot;save_item&quot; } ]\'; window.location.href = &quot;http://dontload/&quot; ; ">
-	<img style="display : block; margin : auto;" alt="Have Allergies" width="53" height="53" src="/assets/allergy_icon.png"/></a>
+	<img alt="Have Allergies" width="110" src="/assets/allergy_icon.png"/></a>
 	</div>
-	<div style="margin-left:140px; text-align:center;">
+	<div style="float:right;width:110px;text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;add_allergy&quot; , &quot;body&quot; : {&quot;allergy_id&quot; : &quot;50&quot;} } , {&quot;type&quot; : &quot;save_item&quot; } ] \'; window.location.href = &quot;http://dontload/&quot; ;">
-	<img style="display : block; margin : auto;" alt="No Allergies" width="53" height="53" src="/assets/allergy_none_icon.png"/></a>
+	<img alt="No Allergies" width="110" src="/assets/allergy_none_icon.png"/></a>
 	</div>
-	</div>
-	<div id="panel-2" style="display:none">
-	<div class="content_subtitle">
-	Thank you!
-	</div>
-	<div class = "content_text">
-	Your <a href="#" onclick="document.actionJSON = \'[ { &quot;type&quot; : &quot;goto_profile&quot;} ]\';  window.location.href = &quot;http://dontload/&quot;">
-	health profile</a> has been updated with your allergy information. This will help us personalize your Better experience.
-	</div>
-	</div>
-                                     EOF
+    EOF
                           })
 
 

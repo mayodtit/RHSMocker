@@ -30,8 +30,8 @@ class Content < ActiveRecord::Base
   end
 
   def self.new_member_content
-    where(:title => ['Do you have allergies?',
-                     'What is your gender?',
+    where(:title => ['Your Allergies',
+                     'Your Gender',
                      'Which of these do you eat?'])
   end
 
