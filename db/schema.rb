@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130820162009) do
+ActiveRecord::Schema.define(:version => 20130820164830) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -120,6 +120,15 @@ ActiveRecord::Schema.define(:version => 20130820162009) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "conditions", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.string   "snomed_name"
+    t.string   "snomed_code"
+    t.datetime "disabled_at"
+  end
+
   create_table "content_mayo_vocabularies", :force => true do |t|
     t.integer  "content_id"
     t.integer  "mayo_vocabulary_id"
@@ -181,15 +190,6 @@ ActiveRecord::Schema.define(:version => 20130820162009) do
     t.datetime "created_at",                  :null => false
     t.datetime "updated_at",                  :null => false
     t.integer  "ordinal",     :default => 0,  :null => false
-    t.datetime "disabled_at"
-  end
-
-  create_table "diseases", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
-    t.string   "snomed_name"
-    t.string   "snomed_code"
     t.datetime "disabled_at"
   end
 
@@ -428,7 +428,7 @@ ActiveRecord::Schema.define(:version => 20130820162009) do
 
   create_table "user_conditions", :force => true do |t|
     t.integer  "user_id"
-    t.integer  "disease_id"
+    t.integer  "condition_id"
     t.date     "start_date"
     t.date     "end_date"
     t.boolean  "being_treated"

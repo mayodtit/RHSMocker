@@ -1,6 +1,6 @@
 class Api::V1::UserConditionUserTreatmentsController < Api::V1::ABaseController
   before_filter :load_user!
-  before_filter :load_disease_and_treatment!
+  before_filter :load_condition_and_treatment!
   before_filter :load_user_condition_user_treatment!, only: :destroy
 
   def create
@@ -13,9 +13,9 @@ class Api::V1::UserConditionUserTreatmentsController < Api::V1::ABaseController
 
   private
 
-  def load_disease_and_treatment!
-    if params[:disease_id]
-      @user_condition = @user.user_conditions.find(params[:disease_id])
+  def load_condition_and_treatment!
+    if params[:condition_id]
+      @user_condition = @user.user_conditions.find(params[:condition_id])
       @user_treatment = @user.user_treatments.find(params[:id])
     else params[:treatment_id]
       @user_treatment = @user.user_treatments.find(params[:treatment_id])

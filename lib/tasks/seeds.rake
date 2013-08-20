@@ -100,7 +100,7 @@ namespace :seeds do
       m.associations.create(:associate => d, :association_type_id => 14)
 
       u.user_conditions.destroy_all
-      u.user_conditions.create(:disease_id => 1,
+      u.user_conditions.create(:condition_id => 1,
                              :start_date => Date.parse('18/6/2013'),
                              :being_treated => true,
                              :diagnosed => true,

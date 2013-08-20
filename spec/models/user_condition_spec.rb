@@ -4,7 +4,7 @@ describe UserCondition do
   it_has_a 'valid factory'
 
   it_validates 'presence of', :user
-  it_validates 'presence of', :disease
+  it_validates 'presence of', :condition
 
   describe 'diagnosed' do
     let(:diagnosed_user_condition) { build_stubbed(:user_condition, :diagnosed) }

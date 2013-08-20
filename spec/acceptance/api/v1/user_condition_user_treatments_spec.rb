@@ -10,7 +10,7 @@ resource "UserConditionUserTreatments" do
   let!(:user_condition) { create(:user_condition, :user => user) }
   let!(:user_treatment) { create(:user_treatment, :user => user) }
   let(:user_id) { user.id }
-  let(:disease_id) { user_condition.id }
+  let(:condition_id) { user_condition.id }
   let(:treatment_id) { user_treatment.id }
   let(:raw_post) { params.to_json }
 
@@ -23,16 +23,16 @@ resource "UserConditionUserTreatments" do
   required_parameters :auth_token, :user_id
 
   describe 'create' do
-    post '/api/v1/users/:user_id/diseases/:disease_id/treatments/:treatment_id' do
-      example_request "[POST] associate a treatment to a disease" do
+    post '/api/v1/users/:user_id/conditions/:condition_id/treatments/:treatment_id' do
+      example_request "[POST] associate a treatment to a condition" do
         explanation "Returns the created association object"
         status.should == 200
         JSON.parse(response_body)['user_condition_user_treatment'].should be_a Hash
       end
     end
 
-    post '/api/v1/users/:user_id/treatments/:treatment_id/diseases/:disease_id' do
-      example_request "[POST] associate a disease to a treatment" do
+    post '/api/v1/users/:user_id/treatments/:treatment_id/conditions/:condition_id' do
+      example_request "[POST] associate a condition to a treatment" do
         explanation "Returns the created association object"
         status.should == 200
         JSON.parse(response_body)['user_condition_user_treatment'].should be_a Hash
@@ -46,16 +46,16 @@ resource "UserConditionUserTreatments" do
                                            :user_treatment => user_treatment)
     end
 
-    delete '/api/v1/users/:user_id/diseases/:disease_id/treatments/:treatment_id' do
-      example_request "[DELETE] remove a treatment from a disease" do
-        explanation "Deletes a disease-treatment association"
+    delete '/api/v1/users/:user_id/conditions/:condition_id/treatments/:treatment_id' do
+      example_request "[DELETE] remove a treatment from a condition" do
+        explanation "Deletes a condition-treatment association"
         status.should == 200
       end
     end
 
-    delete '/api/v1/users/:user_id/treatments/:treatment_id/diseases/:disease_id' do
-      example_request "[DELETE] Remove a disease from a treatment" do
-        explanation "Deletes a disease-treatment association"
+    delete '/api/v1/users/:user_id/treatments/:treatment_id/conditions/:condition_id' do
+      example_request "[DELETE] Remove a condition from a treatment" do
+        explanation "Deletes a condition-treatment association"
         status.should == 200
       end
     end

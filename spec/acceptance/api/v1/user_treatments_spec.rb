@@ -61,7 +61,7 @@ resource "UserTreatments" do
     let(:raw_post) { params.to_json }
 
     example_request "[POST] Add a treatment for a user" do
-      explanation "Returns the created user disease treatment object"
+      explanation "Returns the created user treatment object"
       status.should == 200
       JSON.parse(response_body)['user_treatment'].should be_a Hash
     end
@@ -94,7 +94,7 @@ resource "UserTreatments" do
     let(:raw_post)    { params.to_json }  # JSON format request body
 
     example_request "[PUT] Update the user's treatment" do
-      explanation "A HCP can update anyone's treatment; Returns the updated user disease treatment object"
+      explanation "A HCP can update anyone's treatment; Returns the updated user treatment object"
       status.should == 200
     end
   end

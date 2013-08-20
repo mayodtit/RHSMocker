@@ -6,7 +6,7 @@ RHSMocker::Application.routes.draw do
       resources :association_types, :only => :index
       resources :contents, :only => [:index, :show]
       resources :diets, :only => :index
-      resources :diseases, :only => :index
+      resources :conditions, :only => :index
       resources :encounters, :only => [:index, :show, :create] do
         resources :messages, :only => [:index, :show, :create]
       end
@@ -29,7 +29,7 @@ RHSMocker::Application.routes.draw do
         resources :credits, :only => [:index, :show] do
           get 'summary', :on => :collection
         end
-        resources :diseases, except: [:new, :edit], controller: 'user_conditions' do
+        resources :conditions, except: [:new, :edit], controller: 'user_conditions' do
           resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
@@ -39,7 +39,7 @@ RHSMocker::Application.routes.draw do
         get 'keywords', :on => :member
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
-          resources :diseases, only: :destroy, controller: 'user_condition_user_treatments' do
+          resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end

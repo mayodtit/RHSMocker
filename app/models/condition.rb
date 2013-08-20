@@ -1,4 +1,4 @@
-class Disease < ActiveRecord::Base
+class Condition < ActiveRecord::Base
   include SoftDeleteModule
 
   attr_accessible :name, :snomed_name, :snomed_code

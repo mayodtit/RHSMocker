@@ -23,7 +23,7 @@ describe Api::V1::UserConditionsController do
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it_behaves_like 'success'
 
-      it 'returns an array of user diseases' do
+      it 'returns an array of user conditions' do
         do_request
         json = JSON.parse(response.body)
         json['user_conditions'].to_json.should == [user_condition.as_json].to_json
@@ -47,7 +47,7 @@ describe Api::V1::UserConditionsController do
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it_behaves_like 'success'
 
-      it 'returns the user diseases' do
+      it 'returns the user conditions' do
         do_request
         json = JSON.parse(response.body)
         json['user_condition'].to_json.should == user_condition.as_json.to_json
@@ -77,7 +77,7 @@ describe Api::V1::UserConditionsController do
       context 'save succeeds' do
         it_behaves_like 'success'
 
-        it 'returns the user disease' do
+        it 'returns the user condition' do
           do_request
           json = JSON.parse(response.body)
           json['user_condition'].to_json.should == user_condition.as_json.to_json

@@ -10,9 +10,9 @@ describe 'UserConditionUserTreatments' do
   end
 
   describe 'creating a record' do
-    describe 'POST /api/v1/users/:user_id/diseases/:disease_id/treatments/:id' do
+    describe 'POST /api/v1/users/:user_id/conditions/:condition_id/treatments/:id' do
       def do_request(params={})
-        post "/api/v1/users/#{user.id}/diseases/#{user_condition.id}/treatments/#{user_treatment.id}", params.merge!(auth_token: user.auth_token)
+        post "/api/v1/users/#{user.id}/conditions/#{user_condition.id}/treatments/#{user_treatment.id}", params.merge!(auth_token: user.auth_token)
       end
 
       it 'creates a new record' do
@@ -24,9 +24,9 @@ describe 'UserConditionUserTreatments' do
       end
     end
 
-    describe 'POST /api/v1/users/:user_id/diseases/:disease_id/treatments/:id' do
+    describe 'POST /api/v1/users/:user_id/conditions/:condition_id/treatments/:id' do
       def do_request(params={})
-        post "/api/v1/users/#{user.id}/treatments/#{user_treatment.id}/diseases/#{user_condition.id}", params.merge!(auth_token: user.auth_token)
+        post "/api/v1/users/#{user.id}/treatments/#{user_treatment.id}/conditions/#{user_condition.id}", params.merge!(auth_token: user.auth_token)
       end
 
       it 'creates a new record' do
@@ -45,9 +45,9 @@ describe 'UserConditionUserTreatments' do
                                            :user_treatment => user_treatment)
     end
 
-    describe 'DELETE /api/v1/users/:user_id/diseases/:disease_id/treatments/:id' do
+    describe 'DELETE /api/v1/users/:user_id/conditions/:condition_id/treatments/:id' do
       def do_request(params={})
-        delete "/api/v1/users/#{user.id}/diseases/#{user_condition.id}/treatments/#{user_treatment.id}", params.merge!(auth_token: user.auth_token)
+        delete "/api/v1/users/#{user.id}/conditions/#{user_condition.id}/treatments/#{user_treatment.id}", params.merge!(auth_token: user.auth_token)
       end
 
       it 'deletes the record' do
@@ -56,9 +56,9 @@ describe 'UserConditionUserTreatments' do
       end
     end
 
-    describe 'DELETE /api/v1/users/:user_id/treatments/:treatment_id/diseases/:id' do
+    describe 'DELETE /api/v1/users/:user_id/treatments/:treatment_id/conditions/:id' do
       def do_request(params={})
-        delete "/api/v1/users/#{user.id}/treatments/#{user_treatment.id}/diseases/#{user_condition.id}", params.merge!(auth_token: user.auth_token)
+        delete "/api/v1/users/#{user.id}/treatments/#{user_treatment.id}/conditions/#{user_condition.id}", params.merge!(auth_token: user.auth_token)
       end
 
       it 'deletes the record' do
