@@ -38,7 +38,7 @@ RHSMocker::Application.routes.draw do
         resources :cards, :only => [:index, :show, :update]
         get 'keywords', :on => :member
         resources :subscriptions, :except => [:new, :edit]
-        resources :treatments, :except => [:new, :edit], :controller => 'user_disease_treatments' do
+        resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
           resources :diseases, only: :destroy, controller: 'user_disease_user_treatments' do
             post ':id', to: 'user_disease_user_treatments#create', on: :collection
           end

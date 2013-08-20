@@ -8,10 +8,10 @@ resource "UserDiseaseUserTreatments" do
   let!(:user) { create(:member) }
   let(:auth_token) { user.auth_token }
   let!(:user_disease) { create(:user_disease, :user => user) }
-  let!(:user_disease_treatment) { create(:user_disease_treatment, :user => user) }
+  let!(:user_treatment) { create(:user_treatment, :user => user) }
   let(:user_id) { user.id }
   let(:disease_id) { user_disease.id }
-  let(:treatment_id) { user_disease_treatment.id }
+  let(:treatment_id) { user_treatment.id }
   let(:raw_post) { params.to_json }
 
   before(:each) do
@@ -43,7 +43,7 @@ resource "UserDiseaseUserTreatments" do
   describe 'destroy' do
     before(:each) do
       create(:user_disease_user_treatment, :user_disease => user_disease,
-                                           :user_disease_treatment => user_disease_treatment)
+                                           :user_treatment => user_treatment)
     end
 
     delete '/api/v1/users/:user_id/diseases/:disease_id/treatments/:treatment_id' do

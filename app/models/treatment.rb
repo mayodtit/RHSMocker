@@ -2,8 +2,8 @@ class Treatment < ActiveRecord::Base
   include SoftDeleteModule
 
   attr_accessible :name, :type, :snomed_name, :snomed_code
-  has_many :user_disease_treatments
-  has_many :users, :through=> :user_disease_treatments
+  has_many :user_treatments
+  has_many :users, :through=> :user_treatments
 
   has_many :treatment_side_effects
   has_many :side_effects, :through => :treatment_side_effects

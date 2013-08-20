@@ -18,20 +18,20 @@ resource "UserTreatments" do
   required_parameters :auth_token, :user_id
 
   get '/api/v1/users/:user_id/treatments' do
-    let!(:user_disease_treatment) { create(:user_disease_treatment, :user => user) }
+    let!(:user_treatment) { create(:user_treatment, :user => user) }
     let(:raw_post) { params.to_json }
 
     example_request "[GET] Get all treatments for a user" do
       explanation 'Returns an array of treatments for the user'
       status.should == 200
-      JSON.parse(response_body)['user_disease_treatments'].should be_a Array
+      JSON.parse(response_body)['user_treatments'].should be_a Array
     end
   end
 
   post '/api/v1/users/:user_id/treatments' do
-    let!(:user_disease_treatment) { build(:user_disease_treatment, :user => user) }
+    let!(:user_treatment) { build(:user_treatment, :user => user) }
 
-    parameter :user_disease_treatment, "A hash; Contains treatment properties"
+    parameter :user_treatment, "A hash; Contains treatment properties"
     parameter :treatment_id, "ID of the treatment the user is using"
     parameter :prescribed_by_doctor, "Boolean; is the treatment prescribed by a HCP"
     parameter :doctor_id, "ID of HCP that prescribed the treatment, required if prescribed_by_doctor is set"
@@ -44,12 +44,12 @@ resource "UserTreatments" do
     parameter :side_effect, "Boolean; does this treatment have a side effect?"
     parameter :successful, "Boolean; was the treatment successful?"
 
-    required_parameters :auth_token, :user_disease_treatment, :treatment_id, :prescribed_by_doctor,
+    required_parameters :auth_token, :user_treatment, :treatment_id, :prescribed_by_doctor,
       :start_date, :time_duration, :time_duration_unit, :amount, :amount_unit, :side_effect
-    scope_parameters :user_disease_treatment, [:treatment_id, :prescribed_by_doctor, :doctor_id,
+    scope_parameters :user_treatment, [:treatment_id, :prescribed_by_doctor, :doctor_id,
       :start_date, :end_date, :time_duration, :time_duration_unit, :amount, :amount_unit, :side_effect, :successful]
 
-    let(:treatment_id) { user_disease_treatment.treatment_id }
+    let(:treatment_id) { user_treatment.treatment_id }
     let(:prescribed_by_doctor) { false }
     let(:doctor_id) { nil }
     let(:start_date) { Date.today }
@@ -63,14 +63,14 @@ resource "UserTreatments" do
     example_request "[POST] Add a treatment for a user" do
       explanation "Returns the created user disease treatment object"
       status.should == 200
-      JSON.parse(response_body)['user_disease_treatment'].should be_a Hash
+      JSON.parse(response_body)['user_treatment'].should be_a Hash
     end
   end
 
   put '/api/v1/users/:user_id/treatments/:id' do
-    let!(:user_disease_treatment) { create(:user_disease_treatment, :user => user) }
+    let!(:user_treatment) { create(:user_treatment, :user => user) }
 
-    parameter :user_disease_treatment,  "Contains the fields to be updated"
+    parameter :user_treatment,  "Contains the fields to be updated"
     parameter :id,                      "ID of the treatment the user is using"
     parameter :prescribed_by_doctor,    "Boolean; is the treatment prescribed by a HCP"
     parameter :doctor_id,          "ID of HCP that prescribed the treatment"
@@ -85,10 +85,10 @@ resource "UserTreatments" do
     parameter :side_effects_attributes, "Hash of side effect ids that the user is experiencing"
 
     required_parameters :id
-    scope_parameters :user_disease_treatment, [:prescribed_by_doctor, :doctor_id,
+    scope_parameters :user_treatment, [:prescribed_by_doctor, :doctor_id,
       :start_date, :end_date, :time_duration, :time_duration_unit, :amount, :amount_unit, :side_effect, :successful, :side_effects_attributes]
 
-    let(:id)          { user_disease_treatment.id }
+    let(:id)          { user_treatment.id }
     let(:end_date)    { Date.tomorrow }
     let(:successful)  { true }
     let(:raw_post)    { params.to_json }  # JSON format request body
@@ -100,15 +100,15 @@ resource "UserTreatments" do
   end
 
   delete '/api/v1/users/:user_id/treatments/:id' do
-    let!(:user_disease_treatment) { create(:user_disease_treatment, :user => user) }
+    let!(:user_treatment) { create(:user_treatment, :user => user) }
 
-    parameter :id, "ID of the user_disease_treatment to remove"
+    parameter :id, "ID of the user_treatment to remove"
     required_parameters :id
 
-    let(:id)            { user_disease_treatment.id }
+    let(:id)            { user_treatment.id }
     let(:raw_post)      { params.to_json }  # JSON format request body
 
-    example_request "[DELETE] Delete a user_disease_treatment" do
+    example_request "[DELETE] Delete a user_treatment" do
       explanation "A HCP can remove anyone's treatment; Delete's the specified treatment for the user"
       status.should == 200
       JSON.parse(response_body).should_not be_empty

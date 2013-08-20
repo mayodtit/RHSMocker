@@ -16,24 +16,24 @@ class Api::V1::UserDiseaseUserTreatmentsController < Api::V1::ABaseController
   def load_disease_and_treatment!
     if params[:disease_id]
       @user_disease = @user.user_diseases.find(params[:disease_id])
-      @user_disease_treatment = @user.user_disease_treatments.find(params[:id])
+      @user_treatment = @user.user_treatments.find(params[:id])
     else params[:treatment_id]
-      @user_disease_treatment = @user.user_disease_treatments.find(params[:treatment_id])
+      @user_treatment = @user.user_treatments.find(params[:treatment_id])
       @user_disease = @user.user_diseases.find(params[:id])
     end
     authorize! :manage, @user_disease
-    authorize! :manage, @user_disease_treatment
+    authorize! :manage, @user_treatment
   end
 
   def load_user_disease_user_treatment!
     @user_disease_user_treatment = UserDiseaseUserTreatment.where(:user_disease_id => @user_disease.id,
-                                                                  :user_disease_treatment_id => @user_disease_treatment.id).first!
+                                                                  :user_treatment_id => @user_treatment.id).first!
   end
 
   def attributes_for_create
     {
       user_disease: @user_disease,
-      user_disease_treatment: @user_disease_treatment
+      user_treatment: @user_treatment
     }
   end
 end

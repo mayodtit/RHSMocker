@@ -4,17 +4,17 @@ describe Api::V1::UserDiseaseUserTreatmentsController do
   let(:user) { build_stubbed(:user) }
   let(:ability) { Object.new.extend(CanCan::Ability) }
   let(:user_disease) { build_stubbed(:user_disease, :user => user) }
-  let(:user_disease_treatment) { build_stubbed(:user_disease_treatment, :user => user) }
+  let(:user_treatment) { build_stubbed(:user_treatment, :user => user) }
   let(:user_disease_user_treatment) { build_stubbed(:user_disease_user_treatment,
                                                     :user_disease => user_disease,
-                                                    :user_disease_treatment => user_disease_treatment) }
+                                                    :user_treatment => user_treatment) }
   let(:user_diseases) { double('user_diseases', :find => user_disease) }
-  let(:user_disease_treatments) { double('user_disease_treatments', :find => user_disease_treatment) }
+  let(:user_treatments) { double('user_treatments', :find => user_treatment) }
 
   before(:each) do
     controller.stub(:current_ability => ability)
     user.stub(:user_diseases => user_diseases)
-    user.stub(:user_disease_treatments => user_disease_treatments)
+    user.stub(:user_treatments => user_treatments)
     UserDiseaseUserTreatment.stub_chain(:where, :first!).and_return(user_disease_user_treatment)
   end
 

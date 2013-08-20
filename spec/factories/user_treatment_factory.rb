@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :user_disease_treatment do
+  factory :user_treatment do
     user
     treatment
     prescribed_by_doctor      false
@@ -14,7 +14,7 @@ FactoryGirl.define do
 
     trait :with_side_effect do
       side_effect true
-      user_disease_treatment_side_effects {|se| [se.association(:user_disease_treatment_side_effect)]}
+      user_treatment_side_effects {|se| [se.association(:user_treatment_side_effect)]}
     end
   end
 end

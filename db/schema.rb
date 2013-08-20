@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130820025244) do
+ActiveRecord::Schema.define(:version => 20130820153114) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -419,38 +419,11 @@ ActiveRecord::Schema.define(:version => 20130820025244) do
   add_index "user_allergies", ["allergy_id"], :name => "index_user_allergies_on_allergy_id"
   add_index "user_allergies", ["user_id"], :name => "index_user_allergies_on_user_id"
 
-  create_table "user_disease_treatment_side_effects", :force => true do |t|
-    t.integer  "user_disease_treatment_id"
-    t.integer  "side_effect_id"
-    t.datetime "created_at",                :null => false
-    t.datetime "updated_at",                :null => false
-  end
-
-  create_table "user_disease_treatments", :force => true do |t|
-    t.boolean  "prescribed_by_doctor"
-    t.date     "start_date"
-    t.date     "end_date"
-    t.integer  "time_duration"
-    t.string   "time_duration_unit"
-    t.integer  "amount"
-    t.string   "amount_unit"
-    t.boolean  "side_effect"
-    t.boolean  "successful"
-    t.integer  "treatment_id"
-    t.integer  "user_id"
-    t.integer  "doctor_id"
-    t.datetime "created_at",           :null => false
-    t.datetime "updated_at",           :null => false
-  end
-
-  add_index "user_disease_treatments", ["treatment_id"], :name => "index_user_disease_treatments_on_treatment_id"
-  add_index "user_disease_treatments", ["user_id"], :name => "index_user_disease_treatments_on_user_id"
-
   create_table "user_disease_user_treatments", :force => true do |t|
-    t.integer  "user_disease_id",           :null => false
-    t.integer  "user_disease_treatment_id", :null => false
-    t.datetime "created_at",                :null => false
-    t.datetime "updated_at",                :null => false
+    t.integer  "user_disease_id",   :null => false
+    t.integer  "user_treatment_id", :null => false
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
   end
 
   create_table "user_diseases", :force => true do |t|
@@ -505,6 +478,30 @@ ActiveRecord::Schema.define(:version => 20130820025244) do
     t.datetime "view_date"
     t.integer  "share_counter"
     t.integer  "priority",      :default => 0, :null => false
+  end
+
+  create_table "user_treatment_side_effects", :force => true do |t|
+    t.integer  "user_treatment_id"
+    t.integer  "side_effect_id"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
+
+  create_table "user_treatments", :force => true do |t|
+    t.boolean  "prescribed_by_doctor"
+    t.date     "start_date"
+    t.date     "end_date"
+    t.integer  "time_duration"
+    t.string   "time_duration_unit"
+    t.integer  "amount"
+    t.string   "amount_unit"
+    t.boolean  "side_effect"
+    t.boolean  "successful"
+    t.integer  "treatment_id"
+    t.integer  "user_id"
+    t.integer  "doctor_id"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
   end
 
   create_table "users", :force => true do |t|

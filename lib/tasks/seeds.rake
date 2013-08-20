@@ -107,8 +107,8 @@ namespace :seeds do
                              :diagnoser_id => d.id,
                              :diagnosed_date => Time.parse('20/6/2013'))
 
-      u.user_disease_treatments.destroy_all
-      u.user_disease_treatments.create(:treatment_id => 10,
+      u.user_treatments.destroy_all
+      u.user_treatments.create(:treatment_id => 10,
                                        :doctor_id => d.id,
                                        :prescribed_by_doctor => true,
                                        :start_date => Date.parse('22/6/2013'))
