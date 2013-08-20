@@ -64,9 +64,6 @@ RHSMocker::Application.routes.draw do
       post "contents/save" => "user_readings#save", :as=>"contents_read_later"
       post "contents/reset" => "user_readings#reset", :as=>"contents_reset"
 
-      post "phone_calls" => "phone_calls#create"
-      # put "phone_calls" => "phone_calls#update"
-
       get "factors/:id" => "factors#index"
       post "symptoms/check" => "factors#check"
 

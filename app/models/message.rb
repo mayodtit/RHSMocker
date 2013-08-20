@@ -8,7 +8,6 @@ class Message < ActiveRecord::Base
   has_many :message_mayo_vocabularies
   has_many :mayo_vocabularies, :through => :message_mayo_vocabularies
   has_many :attachments
-  has_one :phone_call
 
   attr_accessible :user, :user_id, :consult, :consult_id, :content, :content_id, :text,
                   :new_location, :new_keyword_ids, :new_attachments
