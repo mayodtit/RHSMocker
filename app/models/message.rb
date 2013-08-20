@@ -9,9 +9,11 @@ class Message < ActiveRecord::Base
   has_many :mayo_vocabularies, :through => :message_mayo_vocabularies
   has_many :attachments
   belongs_to :scheduled_phone_call
+  belongs_to :phone_call
 
   attr_accessible :user, :user_id, :consult, :consult_id, :content, :content_id, :text,
-                  :new_location, :new_keyword_ids, :new_attachments, :scheduled_phone_call_id
+                  :new_location, :new_keyword_ids, :new_attachments, :scheduled_phone_call_id,
+                  :phone_call, :phone_call_id
 
   validates :user, :consult, :text, presence: true
   validates :content, presence: true, if: lambda{|m| m.content_id.present?}
