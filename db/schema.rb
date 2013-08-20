@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130820153114) do
+ActiveRecord::Schema.define(:version => 20130820162009) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -419,14 +419,14 @@ ActiveRecord::Schema.define(:version => 20130820153114) do
   add_index "user_allergies", ["allergy_id"], :name => "index_user_allergies_on_allergy_id"
   add_index "user_allergies", ["user_id"], :name => "index_user_allergies_on_user_id"
 
-  create_table "user_disease_user_treatments", :force => true do |t|
-    t.integer  "user_disease_id",   :null => false
+  create_table "user_condition_user_treatments", :force => true do |t|
+    t.integer  "user_condition_id", :null => false
     t.integer  "user_treatment_id", :null => false
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
   end
 
-  create_table "user_diseases", :force => true do |t|
+  create_table "user_conditions", :force => true do |t|
     t.integer  "user_id"
     t.integer  "disease_id"
     t.date     "start_date"
@@ -438,9 +438,6 @@ ActiveRecord::Schema.define(:version => 20130820153114) do
     t.integer  "diagnoser_id"
     t.datetime "diagnosed_date"
   end
-
-  add_index "user_diseases", ["disease_id"], :name => "index_user_diseases_on_disease_id"
-  add_index "user_diseases", ["user_id"], :name => "index_user_diseases_on_user_id"
 
   create_table "user_offerings", :force => true do |t|
     t.integer  "offering_id"

@@ -6,22 +6,22 @@ describe UserTreatment do
   it_validates 'presence of', :user
   it_validates 'presence of', :treatment
 
-  describe '#user_disease_ids=' do
+  describe '#user_condition_ids=' do
     let(:user) { create(:member) }
-    let(:user_disease) { create(:user_disease, :user => user) }
+    let(:user_condition) { create(:user_condition, :user => user) }
     let(:user_treatment) { create(:user_treatment, :user => user) }
 
-    it 'links the user_disease to the user_treatment' do
-      user_treatment.user_diseases.should_not include(user_disease)
-      user_treatment.update_attributes(user_disease_ids: [user_disease.id]).should be_true
-      user_treatment.reload.user_diseases.should include(user_disease)
+    it 'links the user_condition to the user_treatment' do
+      user_treatment.user_conditions.should_not include(user_condition)
+      user_treatment.update_attributes(user_condition_ids: [user_condition.id]).should be_true
+      user_treatment.reload.user_conditions.should include(user_condition)
     end
 
-    it 'deletes user_disease removed from the list' do
-      user_treatment.user_diseases << user_disease
-      user_treatment.user_diseases.should include(user_disease)
-      user_treatment.update_attributes(user_disease_ids: []).should be_true
-      user_treatment.reload.user_diseases.should_not include(user_disease)
+    it 'deletes user_condition removed from the list' do
+      user_treatment.user_conditions << user_condition
+      user_treatment.user_conditions.should include(user_condition)
+      user_treatment.update_attributes(user_condition_ids: []).should be_true
+      user_treatment.reload.user_conditions.should_not include(user_condition)
     end
   end
 end

@@ -29,9 +29,9 @@ RHSMocker::Application.routes.draw do
         resources :credits, :only => [:index, :show] do
           get 'summary', :on => :collection
         end
-        resources :diseases, except: [:new, :edit], controller: 'user_diseases' do
-          resources :treatments, only: :destroy, controller: 'user_disease_user_treatments' do
-            post ':id', to: 'user_disease_user_treatments#create', on: :collection
+        resources :diseases, except: [:new, :edit], controller: 'user_conditions' do
+          resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do
+            post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
         post 'invite', :on => :member
@@ -39,8 +39,8 @@ RHSMocker::Application.routes.draw do
         get 'keywords', :on => :member
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
-          resources :diseases, only: :destroy, controller: 'user_disease_user_treatments' do
-            post ':id', to: 'user_disease_user_treatments#create', on: :collection
+          resources :diseases, only: :destroy, controller: 'user_condition_user_treatments' do
+            post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
         resources :weights, :only => [:index, :create, :destroy]

@@ -1,21 +1,21 @@
 require 'spec_helper'
 
-describe Api::V1::UserDiseaseUserTreatmentsController do
+describe Api::V1::UserConditionUserTreatmentsController do
   let(:user) { build_stubbed(:user) }
   let(:ability) { Object.new.extend(CanCan::Ability) }
-  let(:user_disease) { build_stubbed(:user_disease, :user => user) }
+  let(:user_condition) { build_stubbed(:user_condition, :user => user) }
   let(:user_treatment) { build_stubbed(:user_treatment, :user => user) }
-  let(:user_disease_user_treatment) { build_stubbed(:user_disease_user_treatment,
-                                                    :user_disease => user_disease,
+  let(:user_condition_user_treatment) { build_stubbed(:user_condition_user_treatment,
+                                                    :user_condition => user_condition,
                                                     :user_treatment => user_treatment) }
-  let(:user_diseases) { double('user_diseases', :find => user_disease) }
+  let(:user_conditions) { double('user_conditions', :find => user_condition) }
   let(:user_treatments) { double('user_treatments', :find => user_treatment) }
 
   before(:each) do
     controller.stub(:current_ability => ability)
-    user.stub(:user_diseases => user_diseases)
+    user.stub(:user_conditions => user_conditions)
     user.stub(:user_treatments => user_treatments)
-    UserDiseaseUserTreatment.stub_chain(:where, :first!).and_return(user_disease_user_treatment)
+    UserConditionUserTreatment.stub_chain(:where, :first!).and_return(user_condition_user_treatment)
   end
 
   describe 'POST create' do
@@ -24,14 +24,14 @@ describe Api::V1::UserDiseaseUserTreatmentsController do
     end
 
     before(:each) do
-      UserDiseaseUserTreatment.stub(:create => user_disease_user_treatment)
+      UserConditionUserTreatment.stub(:create => user_condition_user_treatment)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it 'attempts to create the record' do
-        UserDiseaseUserTreatment.should_receive(:create).once
+        UserConditionUserTreatment.should_receive(:create).once
         do_request
       end
 
@@ -41,13 +41,13 @@ describe Api::V1::UserDiseaseUserTreatmentsController do
         it 'returns the record' do
           do_request
           json = JSON.parse(response.body)
-          json['user_disease_user_treatment'].to_json.should == user_disease_user_treatment.as_json.to_json
+          json['user_condition_user_treatment'].to_json.should == user_condition_user_treatment.as_json.to_json
         end
       end
 
       context 'save fails' do
         before(:each) do
-          user_disease_user_treatment.errors.add(:base, :invalid)
+          user_condition_user_treatment.errors.add(:base, :invalid)
         end
 
         it_behaves_like 'failure'
@@ -61,20 +61,20 @@ describe Api::V1::UserDiseaseUserTreatmentsController do
     end
 
     before(:each) do
-      user_disease_user_treatment.stub(:destroy)
+      user_condition_user_treatment.stub(:destroy)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it 'attempts to destroy the record' do
-        user_disease_user_treatment.should_receive(:destroy).once
+        user_condition_user_treatment.should_receive(:destroy).once
         do_request
       end
 
       context 'destroy succeeds' do
         before(:each) do
-          user_disease_user_treatment.stub(:destroy => true)
+          user_condition_user_treatment.stub(:destroy => true)
         end
 
         it_behaves_like 'success'
@@ -82,8 +82,8 @@ describe Api::V1::UserDiseaseUserTreatmentsController do
 
       context 'destroy fails' do
         before(:each) do
-          user_disease.stub(:destroy => false)
-          user_disease.errors.add(:base, :invalid)
+          user_condition.stub(:destroy => false)
+          user_condition.errors.add(:base, :invalid)
         end
 
         it_behaves_like 'failure'

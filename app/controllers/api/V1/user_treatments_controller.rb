@@ -1,8 +1,8 @@
 class Api::V1::UserTreatmentsController < Api::V1::ABaseController
   include ActiveModel::MassAssignmentSecurity
-  attr_accessible :user_id, :treatment_id, :user_disease_id, :amount, :amount_unit, :doctor_id,
+  attr_accessible :user_id, :treatment_id, :user_condition_id, :amount, :amount_unit, :doctor_id,
                   :end_date, :prescribed_by_doctor, :side_effect, :start_date, :successful, :time_duration,
-                  :time_duration_unit, :user_disease_ids
+                  :time_duration_unit, :user_condition_ids
 
   before_filter :load_user!
   before_filter :load_user_treatment!, only: [:show, :update, :destroy]
