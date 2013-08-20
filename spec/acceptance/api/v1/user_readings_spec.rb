@@ -13,19 +13,19 @@ resource "UserReadings" do
     @content = FactoryGirl.create(:content)
 
     # to test inbox
-    encounter = FactoryGirl.create(:encounter)
+    consult = FactoryGirl.create(:consult)
     content = FactoryGirl.create(:content)
 
     # unread messages and contents
     7.times do
-      message = FactoryGirl.create(:message, :encounter=>encounter, :user=>@user)
+      message = FactoryGirl.create(:message, :consult=>consult, :user=>@user)
       FactoryGirl.create(:message_status, :user=>@user, :message=>message, :status=>'unread')
       FactoryGirl.create(:user_reading, :user=>@user)
     end
 
     # read messages and contents
     30.times do
-      message = FactoryGirl.create(:message, :encounter=>encounter, :user=>@user)
+      message = FactoryGirl.create(:message, :consult=>consult, :user=>@user)
       FactoryGirl.create(:message_status, :user=>@user, :message=>message, :status=>'read')
       FactoryGirl.create(:user_reading, :user=>@user, :read_date=>Date.today())
     end

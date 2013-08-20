@@ -7,7 +7,7 @@ RHSMocker::Application.routes.draw do
       resources :contents, :only => [:index, :show]
       resources :diets, :only => :index
       resources :diseases, :only => :index
-      resources :encounters, :only => [:index, :show, :create] do
+      resources :consults, :only => [:index, :show, :create] do
         resources :messages, :only => [:index, :show, :create]
       end
       resources :ethnic_groups, :only => :index

@@ -1,6 +1,6 @@
 class Message < ActiveRecord::Base
   belongs_to :user # that sent this message
-  belongs_to :encounter
+  belongs_to :consult
   has_many :message_statuses
 
   belongs_to :content
@@ -10,13 +10,13 @@ class Message < ActiveRecord::Base
   has_many :attachments
   has_one :phone_call
 
-  attr_accessible :user, :user_id, :encounter, :encounter_id, :content, :content_id, :text,
+  attr_accessible :user, :user_id, :consult, :consult_id, :content, :content_id, :text,
                   :new_location, :new_keyword_ids, :new_attachments
 
-  validates :user, :encounter, :text, presence: true
+  validates :user, :consult, :text, presence: true
   validates :content, presence: true, if: lambda{|m| m.content_id.present?}
 
-  before_create :add_user_to_encounter
+  before_create :add_user_to_consult
   after_create :create_message_statuses_for_users
 
   accepts_nested_attributes_for :location
@@ -61,12 +61,12 @@ class Message < ActiveRecord::Base
 
   private
 
-  def add_user_to_encounter
-    encounter.add_user = user
+  def add_user_to_consult
+    consult.add_user = user
   end
 
   def create_message_statuses_for_users
-    encounter.members.each do |user|
+    consult.members.each do |user|
       user.message_statuses.create!(message: self, status: :unread)
     end
   end

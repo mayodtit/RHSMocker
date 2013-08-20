@@ -1,10 +1,10 @@
 class Api::V1::MessagesController < Api::V1::ABaseController
   before_filter :load_user!
-  before_filter :load_encounter!, :except => [:show, :mark_read, :dismiss, :save]
+  before_filter :load_consult!, :except => [:show, :mark_read, :dismiss, :save]
   before_filter :load_message!, :only => :show
 
   def index
-    index_resource(@encounter.messages)
+    index_resource(@consult.messages)
   end
 
   def show
@@ -18,7 +18,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def create
-    create_resource(@encounter.messages, create_params)
+    create_resource(@consult.messages, create_params)
   end
 
   def mark_read
@@ -37,14 +37,14 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
   private
 
-  def load_encounter!
-    @encounter = Encounter.find(params[:encounter_id])
-    authorize! :manage, @encounter
+  def load_consult!
+    @consult = Consult.find(params[:consult_id])
+    authorize! :manage, @consult
   end
 
   def load_message!
     @message = Message.find(params[:id])
-    authorize! :manage, @message.encounter
+    authorize! :manage, @message.consult
   end
 
   def create_params
@@ -54,7 +54,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   def mark_message_statuses(status)
     params[:message].each do |message_params|
       message = Message.find(message_params[:id])
-      authorize! :manage, message.encounter
+      authorize! :manage, message.consult
       MessageStatus.find_by_user_id_and_message_id(@user.id, message.id).update_attributes(:status => status)
     end
   end

@@ -1,6 +1,6 @@
 FactoryGirl.define do
-  factory :encounter_user do
-    encounter
+  factory :consult_user do
+    consult
     user
     role "patient"
   end
