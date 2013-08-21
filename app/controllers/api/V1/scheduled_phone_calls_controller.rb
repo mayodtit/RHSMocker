@@ -1,4 +1,5 @@
 class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
+  before_filter :load_user!
   before_filter :load_consult!
   before_filter :load_scheduled_phone_call!, :only => [:show, :update, :destroy]
 
@@ -11,7 +12,7 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   end
 
   def create
-    create_resource(@consult.scheduled_phone_calls, params[:scheduled_phone_call])
+    create_resource(ScheduledPhoneCall, scheduled_phone_call_params)
   end
 
   def update
@@ -31,5 +32,17 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
 
   def load_scheduled_phone_call!
     @scheduled_phone_call = @consult.scheduled_phone_calls.find(params[:id])
+  end
+
+  def scheduled_phone_call_params
+    (params[:scheduled_phone_call] || {}).merge!(:user => @user, :message_attributes => message_params)
+  end
+
+  def message_params
+    {
+      user: @user,
+      consult: @consult,
+      text: 'Scheduled phone call'
+    }
   end
 end

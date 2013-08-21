@@ -4,6 +4,7 @@ class Consult < ActiveRecord::Base
   has_many :consult_users
   has_many :users, :through => :consult_users
   has_many :messages
+  has_many :scheduled_phone_calls, :through => :messages
 
   attr_accessible :initiator, :initiator_id, :subject, :subject_id, :checked,
                   :priority, :status, :add_user, :messages, :message

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130820231752) do
+ActiveRecord::Schema.define(:version => 20130821163335) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -360,6 +360,7 @@ ActiveRecord::Schema.define(:version => 20130820231752) do
     t.datetime "scheduled_at"
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
+    t.datetime "disabled_at"
   end
 
   create_table "side_effects", :force => true do |t|

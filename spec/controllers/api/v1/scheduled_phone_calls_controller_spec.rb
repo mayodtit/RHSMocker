@@ -60,17 +60,15 @@ describe Api::V1::ScheduledPhoneCallsController do
       post :create, scheduled_phone_call: scheduled_phone_call.as_json
     end
 
-    let(:scheduled_phone_calls) { double('scheduled_phone_calls', :create => scheduled_phone_call) }
-
     before(:each) do
-      consult.stub(:scheduled_phone_calls => scheduled_phone_calls)
+      ScheduledPhoneCall.stub(:create => scheduled_phone_call)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it 'attempts to create the record' do
-        scheduled_phone_calls.should_receive(:create).once
+        ScheduledPhoneCall.should_receive(:create).once
         do_request
       end
 
