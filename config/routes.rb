@@ -9,6 +9,8 @@ RHSMocker::Application.routes.draw do
       resources :diseases, :only => :index
       resources :consults, :only => [:index, :show, :create] do
         resources :messages, :only => [:index, :show, :create]
+        resources :scheduled_phone_calls, :except => [:new, :edit]
+        resources :phone_calls, :only => [:index, :show, :create]
       end
       resources :ethnic_groups, :only => :index
       resources :locations, :only => :create
@@ -63,9 +65,6 @@ RHSMocker::Application.routes.draw do
       post "contents/dismiss" => "user_readings#dismiss", :as=>"contents_dismiss"
       post "contents/save" => "user_readings#save", :as=>"contents_read_later"
       post "contents/reset" => "user_readings#reset", :as=>"contents_reset"
-
-      post "phone_calls" => "phone_calls#create"
-      # put "phone_calls" => "phone_calls#update"
 
       get "factors/:id" => "factors#index"
       post "symptoms/check" => "factors#check"

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130820180244) do
+ActiveRecord::Schema.define(:version => 20130821215923) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -286,11 +286,13 @@ ActiveRecord::Schema.define(:version => 20130820180244) do
   create_table "messages", :force => true do |t|
     t.text     "text"
     t.integer  "user_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
     t.integer  "location_id"
     t.integer  "consult_id"
     t.integer  "content_id"
+    t.integer  "scheduled_phone_call_id"
+    t.integer  "phone_call_id"
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
@@ -302,19 +304,12 @@ ActiveRecord::Schema.define(:version => 20130820180244) do
   end
 
   create_table "phone_calls", :force => true do |t|
-    t.string   "time_to_call"
-    t.string   "time_zone"
-    t.string   "status"
-    t.text     "summary"
-    t.datetime "start_time"
-    t.integer  "counter"
-    t.integer  "message_id"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
-    t.boolean  "complete"
+    t.integer  "user_id"
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
+    t.string   "origin_phone_number"
+    t.string   "destination_phone_number"
   end
-
-  add_index "phone_calls", ["message_id"], :name => "index_phone_calls_on_message_id"
 
   create_table "plan_groups", :force => true do |t|
     t.string   "name"
@@ -360,6 +355,15 @@ ActiveRecord::Schema.define(:version => 20130820180244) do
 
   add_index "roles", ["name", "resource_type", "resource_id"], :name => "index_roles_on_name_and_resource_type_and_resource_id"
   add_index "roles", ["name"], :name => "index_roles_on_name"
+
+  create_table "scheduled_phone_calls", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "phone_call_id"
+    t.datetime "scheduled_at"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+    t.datetime "disabled_at"
+  end
 
   create_table "side_effects", :force => true do |t|
     t.string   "name",        :null => false
@@ -469,14 +473,12 @@ ActiveRecord::Schema.define(:version => 20130820180244) do
   create_table "user_offerings", :force => true do |t|
     t.integer  "offering_id"
     t.integer  "user_id"
-    t.datetime "created_at",                       :null => false
-    t.datetime "updated_at",                       :null => false
-    t.integer  "phone_call_id"
-    t.boolean  "unlimited",     :default => false, :null => false
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+    t.boolean  "unlimited",   :default => false, :null => false
   end
 
   add_index "user_offerings", ["offering_id"], :name => "index_user_offerings_on_offering_id"
-  add_index "user_offerings", ["phone_call_id"], :name => "index_user_offerings_on_phone_call_id"
   add_index "user_offerings", ["user_id"], :name => "index_user_offerings_on_user_id"
 
   create_table "user_plans", :force => true do |t|
