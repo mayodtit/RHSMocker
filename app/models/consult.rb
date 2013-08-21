@@ -27,11 +27,11 @@ class Consult < ActiveRecord::Base
   end
 
   def scheduled_phone_call=(params)
-    self.messages.build(ScheduledPhoneCall.message_params(initiator, self, params))
+    self.messages.build(Message.phone_params(:scheduled_phone_call, initiator, self, params))
   end
 
   def phone_call=(params)
-    self.messages.build(PhoneCall.message_params(initiator, self, params))
+    self.messages.build(Message.phone_params(:phone_call, initiator, self, params))
   end
 
   def add_user=(user)

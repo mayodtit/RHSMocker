@@ -64,6 +64,12 @@ class Message < ActiveRecord::Base
     super(options)
   end
 
+  def self.phone_params(type, user, consult, nested_params=nil)
+    params = {user: user, consult: consult, text: phone_text(type)}
+    params.merge!((type.to_s + "_attributes").to_sym => nested_params.merge!(:user => user)) if nested_params
+    params
+  end
+
   private
 
   def add_user_to_consult
@@ -73,6 +79,15 @@ class Message < ActiveRecord::Base
   def create_message_statuses_for_users
     consult.members.each do |user|
       user.message_statuses.create!(message: self, status: :unread)
+    end
+  end
+
+  def self.phone_text(type)
+    case type
+    when :phone_call
+      'Phone call!'
+    when :scheduled_phone_call
+      'Scheduled phone call!'
     end
   end
 end

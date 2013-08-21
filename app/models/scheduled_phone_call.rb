@@ -13,10 +13,4 @@ class ScheduledPhoneCall < ActiveRecord::Base
   accepts_nested_attributes_for :message
 
   delegate :consult, :to => :message
-
-  def self.message_params(user, consult, nested_params=nil)
-    params = {user: user, consult: consult, text: 'Scheduled phone call!'}
-    params.merge!(:scheduled_phone_call_attributes => nested_params.merge!(:user => user)) if nested_params
-    params
-  end
 end
