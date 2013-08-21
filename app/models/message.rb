@@ -9,11 +9,12 @@ class Message < ActiveRecord::Base
   has_many :mayo_vocabularies, :through => :message_mayo_vocabularies
   has_many :attachments
   belongs_to :scheduled_phone_call, :inverse_of => :message
-  belongs_to :phone_call
+  belongs_to :phone_call, :inverse_of => :message
 
   attr_accessible :user, :user_id, :consult, :consult_id, :content, :content_id, :text,
                   :new_location, :new_keyword_ids, :new_attachments, :scheduled_phone_call,
-                  :scheduled_phone_call_id, :phone_call, :phone_call_id
+                  :scheduled_phone_call_id, :phone_call, :phone_call_id,
+                  :scheduled_phone_call_attributes, :phone_call_attributes
 
   validates :user, :consult, :text, presence: true
   validates :content, presence: true, if: lambda{|m| m.content_id.present?}
@@ -24,6 +25,8 @@ class Message < ActiveRecord::Base
   accepts_nested_attributes_for :location
   accepts_nested_attributes_for :message_mayo_vocabularies
   accepts_nested_attributes_for :attachments
+  accepts_nested_attributes_for :scheduled_phone_call
+  accepts_nested_attributes_for :phone_call
 
   def new_location=(attributes)
     self.location_attributes = attributes.merge!(:user => user)

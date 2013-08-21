@@ -35,14 +35,7 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   end
 
   def scheduled_phone_call_params
-    (params[:scheduled_phone_call] || {}).merge!(:user => @user, :message_attributes => message_params)
-  end
-
-  def message_params
-    {
-      user: @user,
-      consult: @consult,
-      text: 'Scheduled phone call'
-    }
+    (params[:scheduled_phone_call] || {}).merge!(:user => @user,
+                                                 :message_attributes => ScheduledPhoneCall.message_params(@user, @consult))
   end
 end

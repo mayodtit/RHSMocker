@@ -27,14 +27,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
   end
 
   def phone_call_params
-    (params[:phone_call] || {}).merge!(:user => @user, :message_attributes => message_params)
-  end
-
-  def message_params
-    {
-      user: @user,
-      consult: @consult,
-      text: 'Phone call'
-    }
+    (params[:phone_call] || {}).merge!(:user => @user,
+                                       :message_attributes => PhoneCall.message_params(@user, @consult))
   end
 end

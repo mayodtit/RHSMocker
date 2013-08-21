@@ -8,7 +8,8 @@ class Consult < ActiveRecord::Base
   has_many :phone_calls, :through => :messages
 
   attr_accessible :initiator, :initiator_id, :subject, :subject_id, :checked,
-                  :priority, :status, :add_user, :messages, :message
+                  :priority, :status, :add_user, :messages, :message,
+                  :scheduled_phone_call, :phone_call
 
   validates :initiator, :subject, :status, :priority, presence: true
   validates :subject_id, :uniqueness => {:scope => :initiator_id}
@@ -21,8 +22,16 @@ class Consult < ActiveRecord::Base
     where(:status => :open)
   end
 
-  def message=(message_params)
-    self.messages.build(message_params.merge!(:consult => self))
+  def message=(params)
+    self.messages.build(params.merge!(:consult => self))
+  end
+
+  def scheduled_phone_call=(params)
+    self.messages.build(ScheduledPhoneCall.message_params(initiator, self, params))
+  end
+
+  def phone_call=(params)
+    self.messages.build(PhoneCall.message_params(initiator, self, params))
   end
 
   def add_user=(user)
