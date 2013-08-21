@@ -45,11 +45,13 @@ describe 'PhoneCall' do
   context 'creating a record' do
     describe 'POST /api/v1/consults/:consult_id/phone_calls' do
       def do_request(params={})
-        post "/api/v1/consults/#{consult.id}/phone_calls", params.merge!(auth_token: user.auth_token)
+        post "/api/v1/consults/#{consult.id}/phone_calls", {auth_token: user.auth_token}.merge!(:phone_call => attributes)
       end
 
+      let(:attributes) { attributes_for(:phone_call) }
+
       it 'creates a new phone_call' do
-        expect{ do_request }.to change(PhoneCall, :count).by(1)
+        expect{ do_request(attributes) }.to change(PhoneCall, :count).by(1)
         response.should be_success
         body = JSON.parse(response.body, :symbolize_names => true)
         PhoneCall.find(body[:phone_call][:id]).should_not be_nil

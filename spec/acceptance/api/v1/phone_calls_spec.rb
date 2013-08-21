@@ -46,6 +46,11 @@ resource "PhoneCalls" do
   end
 
   post '/api/v1/consults/:consult_id/phone_calls' do
+    parameter :origin_phone_number, 'Phone number making the call'
+    parameter :destination_phone_number, 'Phone number where the call is directed'
+
+    let(:origin_phone_number) { '555-123-4567' }
+    let(:destination_phone_number) { '555-888-8888' }
     let(:raw_post) { params.to_json }
 
     example_request "[POST] Create a phone_call" do

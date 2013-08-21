@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130821163335) do
+ActiveRecord::Schema.define(:version => 20130821215923) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -305,8 +305,10 @@ ActiveRecord::Schema.define(:version => 20130821163335) do
 
   create_table "phone_calls", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
+    t.string   "origin_phone_number"
+    t.string   "destination_phone_number"
   end
 
   create_table "plan_groups", :force => true do |t|
