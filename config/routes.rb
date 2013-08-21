@@ -10,6 +10,7 @@ RHSMocker::Application.routes.draw do
       resources :consults, :only => [:index, :show, :create] do
         resources :messages, :only => [:index, :show, :create]
         resources :scheduled_phone_calls, :except => [:new, :edit]
+        resources :phone_calls, :only => [:index, :show, :create]
       end
       resources :ethnic_groups, :only => :index
       resources :locations, :only => :create

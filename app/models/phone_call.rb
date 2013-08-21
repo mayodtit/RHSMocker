@@ -3,7 +3,11 @@ class PhoneCall < ActiveRecord::Base
   has_one :message
   has_one :scheduled_phone_call
 
-  attr_accessible :user, :user_id
+  attr_accessible :user, :user_id, :message_attributes
 
-  validates :user, presence: true
+  validates :user, :message, presence: true
+
+  accepts_nested_attributes_for :message
+
+  delegate :consult, :to => :message
 end
