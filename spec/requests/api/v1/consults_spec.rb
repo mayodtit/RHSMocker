@@ -97,5 +97,51 @@ describe 'Consults' do
         user.messages.first.should == consult.messages.first
       end
     end
+
+    context 'with a phone_call' do
+      let(:phone_call_param) { {:phone_call => attributes_for(:phone_call) } }
+
+      it 'creates an consult for the current user' do
+        lambda{ do_request(phone_call_param) }.should change(Consult, :count).by(1)
+        response.should be_success
+        body = JSON.parse(response.body, :symbolize_names => true)
+        body[:consult][:id].should_not be_nil
+        user.reload.consults.should include(Consult.find(body[:consult][:id]))
+      end
+
+      it 'creates a message for the user and consult with phone_call' do
+        lambda{ do_request(phone_call_param) }.should change(Message, :count).by(1)
+        response.should be_success
+        body = JSON.parse(response.body, :symbolize_names => true)
+        user.reload.messages.count.should == 1
+        consult = Consult.find(body[:consult][:id])
+        consult.messages.count.should == 1
+        user.messages.first.should == consult.messages.first
+        consult.messages.first.phone_call.should_not be_nil
+      end
+    end
+
+    context 'with a scheduled_phone_call' do
+      let(:scheduled_phone_call_param) { {:scheduled_phone_call => attributes_for(:scheduled_phone_call) } }
+
+      it 'creates an consult for the current user' do
+        lambda{ do_request(scheduled_phone_call_param) }.should change(Consult, :count).by(1)
+        response.should be_success
+        body = JSON.parse(response.body, :symbolize_names => true)
+        body[:consult][:id].should_not be_nil
+        user.reload.consults.should include(Consult.find(body[:consult][:id]))
+      end
+
+      it 'creates a message for the user and consult with scheduled_phone_call' do
+        lambda{ do_request(scheduled_phone_call_param) }.should change(Message, :count).by(1)
+        response.should be_success
+        body = JSON.parse(response.body, :symbolize_names => true)
+        user.reload.messages.count.should == 1
+        consult = Consult.find(body[:consult][:id])
+        consult.messages.count.should == 1
+        user.messages.first.should == consult.messages.first
+        consult.messages.first.scheduled_phone_call.should_not be_nil
+      end
+    end
   end
 end
