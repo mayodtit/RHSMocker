@@ -11,18 +11,7 @@ class Card < ActiveRecord::Base
 
   before_validation :set_default_priority
 
-  delegate :title, :content_type, to: :resource
-
-  def share_url
-    resource.try_method(:root_share_url).try(:+, "/#{id}")
-  end
-
-  def self.inbox_or_timeline
-    {
-      inbox: inbox.limit(10),
-      timeline: timeline.limit(10)
-    }
-  end
+  delegate :title, :content_type, :abstract, to: :resource
 
   def self.inbox
     where(:state => [:unread, :read]).order('priority DESC')
@@ -45,6 +34,10 @@ class Card < ActiveRecord::Base
     else
       self.priority = 0
     end
+  end
+
+  def share_url
+    resource.try_method(:root_share_url).try(:+, "/#{id}")
   end
 
   state_machine :initial => :unread do

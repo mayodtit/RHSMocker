@@ -46,7 +46,10 @@ RHSMocker::Application.routes.draw do
           end
         end
         post 'invite', :on => :member
-        resources :cards, :only => [:index, :show, :update]
+        resources :cards, :only => [:index, :show, :update] do
+          get :inbox, :on => :collection
+          get :timeline, :on => :collection
+        end
         get 'keywords', :on => :member
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
