@@ -2,15 +2,12 @@ class Card < ActiveRecord::Base
   belongs_to :user
   belongs_to :resource, polymorphic: true
 
-  attr_accessible :user, :resource
-  attr_accessible :user_id, :resource_id, :resource_type, :state, :state_event,
-                  :read_at, :saved_at, :dismissed_at
+  attr_accessible :user, :user_id, :resource, :resource_id, :resource_type,
+                  :state, :state_event, :state_changed_at
 
   validates :user, :resource, presence: true
   validates :resource_id, :uniqueness => {:scope => [:user_id, :resource_type]}
-  validates :read_at, presence: true, if: :read?
-  validates :saved_at, presence: true, if: :saved?
-  validates :dismissed_at, presence: true, if: :dismissed?
+  validates :state_changed_at, presence: true, unless: :unread?
 
   before_validation :set_default_priority
 
@@ -35,12 +32,9 @@ class Card < ActiveRecord::Base
     where(:state => :saved).order('priority DESC')
   end
 
-  def as_json options={}
-    options.merge!(:only => [:id, :state, :read_at, :dismissed_at, :saved_at],
-                   :methods => [:title, :content_type, :share_url]) do |k, v1, v2|
-      v1.is_a?(Array) ? v1 + v2 : [v1] + v2
-    end
-    super(options).keep_if{|k, v| v.present?}
+  def serializable_hash options=nil
+    options ||=  {:methods => [:title, :content_type, :share_url]}
+    super(options)
   end
 
   private

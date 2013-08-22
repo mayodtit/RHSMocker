@@ -114,12 +114,10 @@ ActiveRecord::Schema.define(:version => 20130823233414) do
     t.integer  "resource_id"
     t.string   "resource_type"
     t.string   "state"
-    t.datetime "read_at"
-    t.datetime "saved_at"
-    t.datetime "dismissed_at"
-    t.datetime "created_at",                   :null => false
-    t.datetime "updated_at",                   :null => false
-    t.integer  "priority",      :default => 0, :null => false
+    t.datetime "created_at",                      :null => false
+    t.datetime "updated_at",                      :null => false
+    t.integer  "priority",         :default => 0, :null => false
+    t.datetime "state_changed_at"
   end
 
   create_table "collection_types", :force => true do |t|
