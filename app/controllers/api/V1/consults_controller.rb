@@ -30,7 +30,7 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
   end
 
   def create_params
-    new_params = (encounter_path? ? params[:encounter] : params[:consult]).merge!(:add_user => @user)
+    new_params = original_params.merge!(:add_user => @user)
     new_params[:initiator_id] ||= @user.id
     new_params[:subject_id] ||= @user.id
     new_params[:message].merge!(:user => @user) if new_params[:message]
@@ -39,5 +39,9 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
 
   def encounter_path?
     request.env['PATH_INFO'].include?('encounter')
+  end
+
+  def original_params
+    (encounter_path? ? params[:encounter] : params[:consult]) || {}
   end
 end
