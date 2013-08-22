@@ -12,6 +12,9 @@ RHSMocker::Application.routes.draw do
         resources :scheduled_phone_calls, :except => [:new, :edit]
         resources :phone_calls, :only => [:index, :show, :create]
       end
+      resources :encounters, :only => [:index, :show, :create], :controller => 'consults' do
+        resources :messages, :only => [:index, :show, :create]
+      end
       resources :ethnic_groups, :only => :index
       resources :locations, :only => :create
       resources :messages, :only => :show do

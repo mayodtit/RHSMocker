@@ -14,7 +14,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     else
       html = render_to_string(:action => "full", :formats => :html)
     end
-    show_resource(@message.as_json.merge(:body => html))
+    show_resource(@message.as_json.merge(:body => html, :encounter_id => @message.consult_id))
   end
 
   def create
@@ -38,7 +38,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   private
 
   def load_consult!
-    @consult = Consult.find(params[:consult_id])
+    @consult = Consult.find(params[:consult_id] || params[:encounter_id])
     authorize! :manage, @consult
   end
 
