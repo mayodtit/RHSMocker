@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130821215923) do
+ActiveRecord::Schema.define(:version => 20130823203203) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -296,6 +296,12 @@ ActiveRecord::Schema.define(:version => 20130821215923) do
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
+
+  create_table "nurseline_records", :force => true do |t|
+    t.text     "payload"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "offerings", :force => true do |t|
     t.string   "name"
