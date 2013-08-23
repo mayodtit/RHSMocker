@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130823203203) do
+ActiveRecord::Schema.define(:version => 20130823220419) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -42,6 +42,14 @@ ActiveRecord::Schema.define(:version => 20130823203203) do
     t.boolean  "environment_allergen"
     t.boolean  "medication_allergen"
     t.datetime "disabled_at"
+  end
+
+  create_table "api_users", :force => true do |t|
+    t.string   "name"
+    t.string   "auth_token"
+    t.datetime "disabled_at"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "association_types", :force => true do |t|
@@ -299,8 +307,9 @@ ActiveRecord::Schema.define(:version => 20130823203203) do
 
   create_table "nurseline_records", :force => true do |t|
     t.text     "payload"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.integer  "api_user_id"
   end
 
   create_table "offerings", :force => true do |t|

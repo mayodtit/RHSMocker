@@ -1,5 +1,7 @@
 class NurselineRecord < ActiveRecord::Base
-  attr_accessible :payload
+  belongs_to :api_user
 
-  validates :payload, presence: true
+  attr_accessible :api_user, :api_user_id, :payload
+
+  validates :api_user, :payload, presence: true
 end
