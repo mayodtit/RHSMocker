@@ -20,6 +20,9 @@ class NurselineRecordsController < ApplicationController
   end
 
   def params_from_request
-    {:payload => request.body.read}
+    {
+      :api_user => @api_user,
+      :payload => request.body.read
+    }
   end
 end
