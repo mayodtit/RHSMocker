@@ -1,4 +1,6 @@
 class NurselineRecord < ActiveRecord::Base
+  include SoftDeleteModule
+
   belongs_to :api_user
 
   attr_accessible :api_user, :api_user_id, :payload
