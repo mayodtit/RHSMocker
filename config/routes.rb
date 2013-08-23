@@ -87,6 +87,7 @@ RHSMocker::Application.routes.draw do
     get :complete, :on => :collection
     get :signup, :on => :collection
   end
+  resources :nurseline_records, :only => :create
 
   get "password_resets/:id" => "api/v1/password_resets#edit", :as=>"edit_password_resets"
   put "password_resets/:id" => "api/v1/password_resets#update", :as=>"update_password_resets"
