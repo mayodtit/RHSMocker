@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :encounter do
+  factory :consult, aliases: [:encounter] do
     association :initiator, factory: :member
     association :subject, factory: :user
     users {|e| [e.initiator]}

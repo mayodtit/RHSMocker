@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe Api::V1::EncountersController do
-  let(:encounter) { build_stubbed(:encounter) }
-  let(:user) { encounter.users.first }
+describe Api::V1::ConsultsController do
+  let(:consult) { build_stubbed(:consult) }
+  let(:user) { consult.users.first }
   let(:ability) { Object.new.extend(CanCan::Ability) }
 
   before(:each) do
@@ -16,7 +16,7 @@ describe Api::V1::EncountersController do
 
     it_behaves_like 'action requiring authentication and authorization'
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
-      it_behaves_like 'index action', new.encounter
+      it_behaves_like 'index action', new.consult
     end
   end
 
@@ -25,10 +25,10 @@ describe Api::V1::EncountersController do
       get :show, auth_token: user.auth_token
     end
 
-    let(:encounters) { double('encounters', :find => encounter) }
+    let(:consults) { double('consults', :find => consult) }
 
     before(:each) do
-      user.stub(:encounters => encounters)
+      user.stub(:consults => consults)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -36,44 +36,44 @@ describe Api::V1::EncountersController do
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it_behaves_like 'success'
 
-      it 'returns the encounter' do
+      it 'returns the consult' do
         do_request
         json = JSON.parse(response.body)
-        json['encounter'].to_json.should == encounter.as_json.to_json
+        json['consult'].to_json.should == consult.as_json.to_json
       end
     end
   end
 
   describe 'POST create' do
     def do_request
-      post :create, encounter: encounter.as_json
+      post :create, consult: consult.as_json
     end
 
     before(:each) do
-      Encounter.stub(:create => encounter)
+      Consult.stub(:create => consult)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it 'attempts to create the record' do
-        Encounter.should_receive(:create).once
+        Consult.should_receive(:create).once
         do_request
       end
 
       context 'save succeeds' do
         it_behaves_like 'success'
 
-        it 'returns the encounter' do
+        it 'returns the consult' do
           do_request
           json = JSON.parse(response.body)
-          json['encounter'].to_json.should == encounter.as_json.to_json
+          json['consult'].to_json.should == consult.as_json.to_json
         end
       end
 
       context 'save fails' do
         before(:each) do
-          encounter.errors.add(:base, :invalid)
+          consult.errors.add(:base, :invalid)
         end
 
         it_behaves_like 'failure'

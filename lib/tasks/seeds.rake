@@ -13,7 +13,7 @@ namespace :seeds do
                            :blood_type => 'O-',
                            :ethnic_group_id => 6)
 
-      u.encounter_users.destroy_all
+      u.consult_users.destroy_all
       u.messages.destroy_all
       u.message_statuses.destroy_all
 

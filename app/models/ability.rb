@@ -12,7 +12,7 @@ class Ability
       (user.id == o.user_id) || (can?(:manage, o.user))
     end
 
-    can :manage, Encounter do |o|
+    can :manage, Consult do |o|
       o.users.include?(user)
     end
 

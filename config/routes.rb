@@ -7,7 +7,12 @@ RHSMocker::Application.routes.draw do
       resources :contents, :only => [:index, :show]
       resources :diets, :only => :index
       resources :conditions, :only => :index
-      resources :encounters, :only => [:index, :show, :create] do
+      resources :consults, :only => [:index, :show, :create] do
+        resources :messages, :only => [:index, :show, :create]
+        resources :scheduled_phone_calls, :except => [:new, :edit]
+        resources :phone_calls, :only => [:index, :show, :create]
+      end
+      resources :encounters, :only => [:index, :show, :create], :controller => 'consults' do
         resources :messages, :only => [:index, :show, :create]
       end
       resources :ethnic_groups, :only => :index
@@ -64,9 +69,6 @@ RHSMocker::Application.routes.draw do
       post "contents/save" => "user_readings#save", :as=>"contents_read_later"
       post "contents/reset" => "user_readings#reset", :as=>"contents_reset"
 
-      post "phone_calls" => "phone_calls#create"
-      # put "phone_calls" => "phone_calls#update"
-
       get "factors/:id" => "factors#index"
       post "symptoms/check" => "factors#check"
 
@@ -85,6 +87,7 @@ RHSMocker::Application.routes.draw do
     get :complete, :on => :collection
     get :signup, :on => :collection
   end
+  resources :nurseline_records, :only => :create
 
   get "password_resets/:id" => "api/v1/password_resets#edit", :as=>"edit_password_resets"
   put "password_resets/:id" => "api/v1/password_resets#update", :as=>"update_password_resets"

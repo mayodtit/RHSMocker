@@ -1,11 +1,11 @@
 require 'spec_helper'
 
-describe Encounter do
+describe Consult do
   it_has_a 'valid factory'
 
   describe 'validations' do
     before(:each) do
-      Encounter.any_instance.stub(:set_defaults)
+      Consult.any_instance.stub(:set_defaults)
     end
 
     it_validates 'presence of', :initiator

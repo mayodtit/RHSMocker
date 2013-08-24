@@ -1,8 +1,14 @@
 class PhoneCall < ActiveRecord::Base
-  belongs_to :message
-  attr_accessible :start_time, :status, :summary, :time_to_call, :time_zone, :message_id, :counter
+  belongs_to :user, class_name: 'Member'
+  has_one :message, :inverse_of => :phone_call
+  has_one :scheduled_phone_call
 
-  validates :time_to_call, :inclusion => { :in => %w(morning afternoon evening),
-    :message => "%{value} is not a call time" }
+  attr_accessible :user, :user_id, :message, :message_attributes, :origin_phone_number,
+                  :destination_phone_number
 
+  validates :user, :message, :origin_phone_number, :destination_phone_number, presence: true
+
+  accepts_nested_attributes_for :message
+
+  delegate :consult, :to => :message
 end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130820164830) do
+ActiveRecord::Schema.define(:version => 20130823233414) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -42,6 +42,14 @@ ActiveRecord::Schema.define(:version => 20130820164830) do
     t.boolean  "environment_allergen"
     t.boolean  "medication_allergen"
     t.datetime "disabled_at"
+  end
+
+  create_table "api_users", :force => true do |t|
+    t.string   "name"
+    t.string   "auth_token"
+    t.datetime "disabled_at"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "association_types", :force => true do |t|
@@ -129,6 +137,25 @@ ActiveRecord::Schema.define(:version => 20130820164830) do
     t.datetime "disabled_at"
   end
 
+  create_table "consult_users", :force => true do |t|
+    t.string   "role"
+    t.integer  "consult_id"
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.boolean  "read"
+  end
+
+  create_table "consults", :force => true do |t|
+    t.string   "status"
+    t.string   "priority"
+    t.boolean  "checked"
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
+    t.integer  "subject_id",   :default => 0, :null => false
+    t.integer  "initiator_id", :default => 0, :null => false
+  end
+
   create_table "content_mayo_vocabularies", :force => true do |t|
     t.integer  "content_id"
     t.integer  "mayo_vocabulary_id"
@@ -191,28 +218,6 @@ ActiveRecord::Schema.define(:version => 20130820164830) do
     t.datetime "updated_at",                  :null => false
     t.integer  "ordinal",     :default => 0,  :null => false
     t.datetime "disabled_at"
-  end
-
-  create_table "encounter_users", :force => true do |t|
-    t.string   "role"
-    t.integer  "encounter_id"
-    t.integer  "user_id"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
-    t.boolean  "read"
-  end
-
-  add_index "encounter_users", ["encounter_id"], :name => "index_encounters_users_on_encounter_id"
-  add_index "encounter_users", ["user_id"], :name => "index_encounters_users_on_user_id"
-
-  create_table "encounters", :force => true do |t|
-    t.string   "status"
-    t.string   "priority"
-    t.boolean  "checked"
-    t.datetime "created_at",                  :null => false
-    t.datetime "updated_at",                  :null => false
-    t.integer  "subject_id",   :default => 0, :null => false
-    t.integer  "initiator_id", :default => 0, :null => false
   end
 
   create_table "ethnic_groups", :force => true do |t|
@@ -289,14 +294,24 @@ ActiveRecord::Schema.define(:version => 20130820164830) do
   create_table "messages", :force => true do |t|
     t.text     "text"
     t.integer  "user_id"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
     t.integer  "location_id"
-    t.integer  "encounter_id"
+    t.integer  "consult_id"
     t.integer  "content_id"
+    t.integer  "scheduled_phone_call_id"
+    t.integer  "phone_call_id"
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
+
+  create_table "nurseline_records", :force => true do |t|
+    t.text     "payload"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.integer  "api_user_id"
+    t.datetime "disabled_at"
+  end
 
   create_table "offerings", :force => true do |t|
     t.string   "name"
@@ -305,19 +320,12 @@ ActiveRecord::Schema.define(:version => 20130820164830) do
   end
 
   create_table "phone_calls", :force => true do |t|
-    t.string   "time_to_call"
-    t.string   "time_zone"
-    t.string   "status"
-    t.text     "summary"
-    t.datetime "start_time"
-    t.integer  "counter"
-    t.integer  "message_id"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
-    t.boolean  "complete"
+    t.integer  "user_id"
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
+    t.string   "origin_phone_number"
+    t.string   "destination_phone_number"
   end
-
-  add_index "phone_calls", ["message_id"], :name => "index_phone_calls_on_message_id"
 
   create_table "plan_groups", :force => true do |t|
     t.string   "name"
@@ -363,6 +371,15 @@ ActiveRecord::Schema.define(:version => 20130820164830) do
 
   add_index "roles", ["name", "resource_type", "resource_id"], :name => "index_roles_on_name_and_resource_type_and_resource_id"
   add_index "roles", ["name"], :name => "index_roles_on_name"
+
+  create_table "scheduled_phone_calls", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "phone_call_id"
+    t.datetime "scheduled_at"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+    t.datetime "disabled_at"
+  end
 
   create_table "side_effects", :force => true do |t|
     t.string   "name",        :null => false
@@ -442,14 +459,12 @@ ActiveRecord::Schema.define(:version => 20130820164830) do
   create_table "user_offerings", :force => true do |t|
     t.integer  "offering_id"
     t.integer  "user_id"
-    t.datetime "created_at",                       :null => false
-    t.datetime "updated_at",                       :null => false
-    t.integer  "phone_call_id"
-    t.boolean  "unlimited",     :default => false, :null => false
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+    t.boolean  "unlimited",   :default => false, :null => false
   end
 
   add_index "user_offerings", ["offering_id"], :name => "index_user_offerings_on_offering_id"
-  add_index "user_offerings", ["phone_call_id"], :name => "index_user_offerings_on_phone_call_id"
   add_index "user_offerings", ["user_id"], :name => "index_user_offerings_on_user_id"
 
   create_table "user_plans", :force => true do |t|

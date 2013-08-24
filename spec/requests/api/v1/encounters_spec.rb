@@ -52,11 +52,11 @@ describe 'Encounters' do
     end
 
     it 'creates a new encounter for the current user as the subject' do
-      lambda{ do_request }.should change(Encounter, :count).by(1)
+      lambda{ do_request }.should change(Consult, :count).by(1)
       response.should be_success
       body = JSON.parse(response.body, :symbolize_names => true)
-      encounter = Encounter.find(body[:encounter][:id])
-      user.reload.encounters.should include(encounter)
+      encounter = Consult.find(body[:encounter][:id])
+      user.reload.consults.should include(encounter)
       encounter.initiator.should == user
       encounter.subject.should == user
     end
@@ -66,11 +66,11 @@ describe 'Encounters' do
       let(:subject_param) { {:subject_id => subject.id} }
 
       it 'creates a new encounter for the given subject' do
-        lambda{ do_request(subject_param) }.should change(Encounter, :count).by(1)
+        lambda{ do_request(subject_param) }.should change(Consult, :count).by(1)
         response.should be_success
         body = JSON.parse(response.body, :symbolize_names => true)
-        encounter = Encounter.find(body[:encounter][:id])
-        user.reload.encounters.should include(encounter)
+        encounter = Consult.find(body[:encounter][:id])
+        user.reload.consults.should include(encounter)
         encounter.initiator.should == user
         encounter.subject.should == subject
       end
@@ -80,11 +80,11 @@ describe 'Encounters' do
       let(:message_param) { {:message => {:text => 'test message'}} }
 
       it 'creates an encounter for the current user' do
-        lambda{ do_request(message_param) }.should change(Encounter, :count).by(1)
+        lambda{ do_request(message_param) }.should change(Consult, :count).by(1)
         response.should be_success
         body = JSON.parse(response.body, :symbolize_names => true)
         body[:encounter][:id].should_not be_nil
-        user.reload.encounters.should include(Encounter.find(body[:encounter][:id]))
+        user.reload.consults.should include(Consult.find(body[:encounter][:id]))
       end
 
       it 'creates a message for the user and encounter' do
@@ -92,7 +92,7 @@ describe 'Encounters' do
         response.should be_success
         body = JSON.parse(response.body, :symbolize_names => true)
         user.reload.messages.count.should == 1
-        encounter = Encounter.find(body[:encounter][:id])
+        encounter = Consult.find(body[:encounter][:id])
         encounter.messages.count.should == 1
         user.messages.first.should == encounter.messages.first
       end

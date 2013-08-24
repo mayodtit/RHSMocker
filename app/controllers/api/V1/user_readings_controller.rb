@@ -25,7 +25,7 @@ class Api::V1::UserReadingsController < Api::V1::ABaseController
       :content_type=>"Message",
       :message_id=>message_status.message.id,
       :created_at=>message_status.message.created_at,
-      :encounter_id => message_status.message.encounter.id
+      :consult_id => message_status.message.consult.id
     }
   end
 
