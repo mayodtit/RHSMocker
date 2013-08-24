@@ -1,15 +1,20 @@
 class Api::V1::DiseasesController < Api::V1::ABaseController
   skip_before_filter :authentication_check
+  before_filter :load_diseases!
 
   def index
-    diseases = if params[:q].blank?
-      Disease.all :order => 'name ASC'
-    else
-      Disease.search do
-        fulltext params[:q]
-      end
-    end
+    index_resource(@diseases)
+  end
 
-    render_success({diseases:diseases})
+  private
+
+  def load_diseases!
+    @diseases = params[:q] ? diseases_solr_query : Disease.order('name ASC')
+  end
+
+  def diseases_solr_query
+    Disease.search do
+      fulltext params[:q]
+    end.results
   end
 end
