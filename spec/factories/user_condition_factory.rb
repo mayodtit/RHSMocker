@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :user_condition do
+  factory :user_condition, aliases: [:user_disease] do
     association :user
     association :condition
     start_date { Date.current() }

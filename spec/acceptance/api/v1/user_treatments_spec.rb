@@ -24,7 +24,7 @@ resource "UserTreatments" do
     example_request "[GET] Get all treatments for a user" do
       explanation 'Returns an array of treatments for the user'
       status.should == 200
-      JSON.parse(response_body)['user_treatments'].should be_a Array
+      JSON.parse(response_body)['user_disease_treatments'].should be_a Array
     end
   end
 
@@ -63,7 +63,7 @@ resource "UserTreatments" do
     example_request "[POST] Add a treatment for a user" do
       explanation "Returns the created user treatment object"
       status.should == 200
-      JSON.parse(response_body)['user_treatment'].should be_a Hash
+      JSON.parse(response_body)['user_disease_treatment'].should be_a Hash
     end
   end
 

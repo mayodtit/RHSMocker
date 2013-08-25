@@ -63,7 +63,7 @@ describe 'UserDiseases' do
       end
 
       it 'deletes the user\'s disease' do
-        expect{ do_request }.to change(UserDisease, :count).by(-1)
+        expect{ do_request }.to change(UserCondition, :count).by(-1)
         response.should be_success
       end
     end
@@ -78,10 +78,10 @@ describe 'UserDiseases' do
     let(:user_disease_params) { attributes_for(:user_disease, :disease_id => disease.id) }
 
     it 'creates a new disease for the user' do
-      expect{ do_request(user_disease_params) }.to change(UserDisease, :count).by(1)
+      expect{ do_request(user_disease_params) }.to change(UserCondition, :count).by(1)
       response.should be_success
       body = JSON.parse(response.body, :symbolize_names => true)
-      UserDisease.find(body[:user_disease][:id]).user.should == user
+      UserCondition.find(body[:user_disease][:id]).user.should == user
     end
   end
 end

@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :user_treatment do
+  factory :user_treatment, aliases: [:user_disease_treatment] do
     user
     treatment
     prescribed_by_doctor      false
