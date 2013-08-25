@@ -1,15 +1,20 @@
 class Api::V1::ConditionsController < Api::V1::ABaseController
   skip_before_filter :authentication_check
+  before_filter :load_conditions!
 
   def index
-    conditions = if params[:q].blank?
-      Condition.all :order => 'name ASC'
-    else
-      Condition.search do
-        fulltext params[:q]
-      end
-    end
+    index_resource(@conditions)
+  end
 
-    render_success({conditions:conditions})
+  private
+
+  def load_conditions!
+    @conditions = params[:q] ? conditions_solr_query : Condition.order('name ASC')
+  end
+
+  def conditions_solr_query
+    Condition.search do
+      fulltext params[:q]
+    end.results
   end
 end
