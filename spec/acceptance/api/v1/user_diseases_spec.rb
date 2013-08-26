@@ -21,7 +21,7 @@ resource "UserDiseases" do
     let!(:user_disease) { create(:user_disease, :user => user) }
     let(:raw_post) { params.to_json }
 
-    example_request "[GET] Get all diseases for a given user" do
+    example_request "[DEPRECATED] [GET] Get all diseases for a given user" do
       explanation "Returns an array of diseases"
       status.should == 200
       JSON.parse(response_body)['user_diseases'].should be_a Array
@@ -51,7 +51,7 @@ resource "UserDiseases" do
     let(:diagnosed_date){ user_disease.start_date + 1.day }
     let(:raw_post) { params.to_json }
 
-    example_request "[POST] Add a disease for a user" do
+    example_request "[DEPRECATED] [POST] Add a disease for a user" do
       explanation "Returns the created user disease object"
       status.should == 200
       JSON.parse(response_body)['user_disease'].should be_a Hash
@@ -81,7 +81,7 @@ resource "UserDiseases" do
     let(:diagnosed_date){ user_disease.start_date + 1.day }
     let(:raw_post) { params.to_json }
 
-    example_request "[PUT] Update the user's disease" do
+    example_request "[DEPRECATED] [PUT] Update the user's disease" do
       explanation "Returns the updated user disease object"
       status.should == 200
       JSON.parse(response_body).should_not be_empty
@@ -97,7 +97,7 @@ resource "UserDiseases" do
     let(:id) { user_disease.id }
     let(:raw_post) { params.to_json }
 
-    example_request "[DELETE] Delete a user's disease" do
+    example_request "[DEPRECATED] [DELETE] Delete a user's disease" do
       explanation "Delete's the specified disease for the user"
       status.should == 200
       JSON.parse(response_body).should_not be_empty

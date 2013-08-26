@@ -1,28 +1,35 @@
 require 'spec_helper'
 require 'rspec_api_documentation/dsl'
 
-resource "Conditions" do
+resource 'Conditions' do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  before(:all) do
-    @condition = FactoryGirl.create(:condition, :name=>"scurvy")
-    @condition2 = FactoryGirl.create(:condition, :name=>"scurvy2")
-  end
-
- 
+  let!(:condition) { create(:condition) }
 
   get '/api/v1/conditions' do
-    parameter :q, "Query string"
-    required_parameters :q
-
-    let(:q)   { @condition.name }
-
-    example_request "[GET] Search conditions with query string" do
-      explanation "Returns an array of conditions retrieved by Solr"
-
+    example_request '[GET] Get all Conditions' do
+      explanation 'Returns an array of Conditions'
       status.should == 200
-      JSON.parse(response_body).should_not be_empty
+      body = JSON.parse(response_body, :symbolize_names => true)
+      body[:conditions].map{|d| d[:id]}.should include(condition.id)
+    end
+
+    context 'with a query string' do
+      before(:each) do
+        Sunspot::Rails::StubSessionProxy::Search.any_instance.stub(:results => [condition])
+      end
+
+      parameter :q, "Query string"
+      required_parameters :q
+      let(:q) { condition.name.split(' ').first }
+
+      example_request "[GET] Search Conditions with query string" do
+        explanation "Returns an array of Conditions retrieved by Solr"
+        status.should == 200
+        body = JSON.parse(response_body, :symbolize_names => true)
+        body[:conditions].map{|d| d[:id]}.should include(condition.id)
+      end
     end
   end
 end

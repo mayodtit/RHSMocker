@@ -24,7 +24,7 @@ resource "UserDiseaseUserTreatments" do
 
   describe 'create' do
     post '/api/v1/users/:user_id/diseases/:disease_id/treatments/:treatment_id' do
-      example_request "[POST] associate a treatment to a disease" do
+      example_request "[DEPRECATED] [POST] associate a treatment to a disease" do
         explanation "Returns the created association object"
         status.should == 200
         JSON.parse(response_body)['user_disease_user_treatment'].should be_a Hash
@@ -32,7 +32,7 @@ resource "UserDiseaseUserTreatments" do
     end
 
     post '/api/v1/users/:user_id/treatments/:treatment_id/diseases/:disease_id' do
-      example_request "[POST] associate a disease to a treatment" do
+      example_request "[DEPRECATED] [POST] associate a disease to a treatment" do
         explanation "Returns the created association object"
         status.should == 200
         JSON.parse(response_body)['user_disease_user_treatment'].should be_a Hash
@@ -47,14 +47,14 @@ resource "UserDiseaseUserTreatments" do
     end
 
     delete '/api/v1/users/:user_id/diseases/:disease_id/treatments/:treatment_id' do
-      example_request "[DELETE] remove a treatment from a disease" do
+      example_request "[DEPRECATED] [DELETE] remove a treatment from a disease" do
         explanation "Deletes a disease-treatment association"
         status.should == 200
       end
     end
 
     delete '/api/v1/users/:user_id/treatments/:treatment_id/diseases/:disease_id' do
-      example_request "[DELETE] Remove a disease from a treatment" do
+      example_request "[DEPRECATED] [DELETE] Remove a disease from a treatment" do
         explanation "Deletes a disease-treatment association"
         status.should == 200
       end

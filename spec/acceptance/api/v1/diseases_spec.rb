@@ -8,7 +8,7 @@ resource 'Diseases' do
   let!(:disease) { create(:disease) }
 
   get '/api/v1/diseases' do
-    example_request '[GET] Get all Diseases' do
+    example_request '[DEPRECATED] [GET] Get all Diseases' do
       explanation 'Returns an array of Diseases'
       status.should == 200
       body = JSON.parse(response_body, :symbolize_names => true)
@@ -24,7 +24,7 @@ resource 'Diseases' do
       required_parameters :q
       let(:q) { disease.name.split(' ').first }
 
-      example_request "[GET] Search Diseases with query string" do
+      example_request "[DEPRECATED] [GET] Search Diseases with query string" do
         explanation "Returns an array of Diseases retrieved by Solr"
         status.should == 200
         body = JSON.parse(response_body, :symbolize_names => true)
