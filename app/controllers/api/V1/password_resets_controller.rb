@@ -14,12 +14,12 @@ class Api::V1::PasswordResetsController < Api::V1::ABaseController
 
   def edit
     @token = params[:id]
-    @user = User.load_from_reset_password_token(@token)
+    @user = User.find_by_reset_password_token(@token)
   end
  
   def update
     @token = params[:token]
-    @user = User.load_from_reset_password_token(@token)
+    @user = User.find_by_reset_password_token(@token)
 
     if @user.present?
       @user.password_confirmation = params[:user][:password_confirmation]
