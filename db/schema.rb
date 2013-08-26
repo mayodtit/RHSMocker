@@ -128,6 +128,15 @@ ActiveRecord::Schema.define(:version => 20130823233414) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "conditions", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.string   "snomed_name"
+    t.string   "snomed_code"
+    t.datetime "disabled_at"
+  end
+
   create_table "consult_users", :force => true do |t|
     t.string   "role"
     t.integer  "consult_id"
@@ -208,15 +217,6 @@ ActiveRecord::Schema.define(:version => 20130823233414) do
     t.datetime "created_at",                  :null => false
     t.datetime "updated_at",                  :null => false
     t.integer  "ordinal",     :default => 0,  :null => false
-    t.datetime "disabled_at"
-  end
-
-  create_table "diseases", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
-    t.string   "snomed_name"
-    t.string   "snomed_code"
     t.datetime "disabled_at"
   end
 
@@ -436,43 +436,16 @@ ActiveRecord::Schema.define(:version => 20130823233414) do
   add_index "user_allergies", ["allergy_id"], :name => "index_user_allergies_on_allergy_id"
   add_index "user_allergies", ["user_id"], :name => "index_user_allergies_on_user_id"
 
-  create_table "user_disease_treatment_side_effects", :force => true do |t|
-    t.integer  "user_disease_treatment_id"
-    t.integer  "side_effect_id"
-    t.datetime "created_at",                :null => false
-    t.datetime "updated_at",                :null => false
+  create_table "user_condition_user_treatments", :force => true do |t|
+    t.integer  "user_condition_id", :null => false
+    t.integer  "user_treatment_id", :null => false
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
   end
 
-  create_table "user_disease_treatments", :force => true do |t|
-    t.boolean  "prescribed_by_doctor"
-    t.date     "start_date"
-    t.date     "end_date"
-    t.integer  "time_duration"
-    t.string   "time_duration_unit"
-    t.integer  "amount"
-    t.string   "amount_unit"
-    t.boolean  "side_effect"
-    t.boolean  "successful"
-    t.integer  "treatment_id"
+  create_table "user_conditions", :force => true do |t|
     t.integer  "user_id"
-    t.integer  "doctor_id"
-    t.datetime "created_at",           :null => false
-    t.datetime "updated_at",           :null => false
-  end
-
-  add_index "user_disease_treatments", ["treatment_id"], :name => "index_user_disease_treatments_on_treatment_id"
-  add_index "user_disease_treatments", ["user_id"], :name => "index_user_disease_treatments_on_user_id"
-
-  create_table "user_disease_user_treatments", :force => true do |t|
-    t.integer  "user_disease_id",           :null => false
-    t.integer  "user_disease_treatment_id", :null => false
-    t.datetime "created_at",                :null => false
-    t.datetime "updated_at",                :null => false
-  end
-
-  create_table "user_diseases", :force => true do |t|
-    t.integer  "user_id"
-    t.integer  "disease_id"
+    t.integer  "condition_id"
     t.date     "start_date"
     t.date     "end_date"
     t.boolean  "being_treated"
@@ -482,9 +455,6 @@ ActiveRecord::Schema.define(:version => 20130823233414) do
     t.integer  "diagnoser_id"
     t.datetime "diagnosed_date"
   end
-
-  add_index "user_diseases", ["disease_id"], :name => "index_user_diseases_on_disease_id"
-  add_index "user_diseases", ["user_id"], :name => "index_user_diseases_on_user_id"
 
   create_table "user_offerings", :force => true do |t|
     t.integer  "offering_id"
@@ -520,6 +490,30 @@ ActiveRecord::Schema.define(:version => 20130823233414) do
     t.datetime "view_date"
     t.integer  "share_counter"
     t.integer  "priority",      :default => 0, :null => false
+  end
+
+  create_table "user_treatment_side_effects", :force => true do |t|
+    t.integer  "user_treatment_id"
+    t.integer  "side_effect_id"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
+
+  create_table "user_treatments", :force => true do |t|
+    t.boolean  "prescribed_by_doctor"
+    t.date     "start_date"
+    t.date     "end_date"
+    t.integer  "time_duration"
+    t.string   "time_duration_unit"
+    t.integer  "amount"
+    t.string   "amount_unit"
+    t.boolean  "side_effect"
+    t.boolean  "successful"
+    t.integer  "treatment_id"
+    t.integer  "user_id"
+    t.integer  "doctor_id"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
   end
 
   create_table "users", :force => true do |t|

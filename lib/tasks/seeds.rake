@@ -99,16 +99,16 @@ namespace :seeds do
       a.associations.create(:associate => d, :association_type_id => 14)
       m.associations.create(:associate => d, :association_type_id => 14)
 
-      u.user_diseases.destroy_all
-      u.user_diseases.create(:disease_id => 1,
+      u.user_conditions.destroy_all
+      u.user_conditions.create(:condition_id => 1,
                              :start_date => Date.parse('18/6/2013'),
                              :being_treated => true,
                              :diagnosed => true,
                              :diagnoser_id => d.id,
                              :diagnosed_date => Time.parse('20/6/2013'))
 
-      u.user_disease_treatments.destroy_all
-      u.user_disease_treatments.create(:treatment_id => 10,
+      u.user_treatments.destroy_all
+      u.user_treatments.create(:treatment_id => 10,
                                        :doctor_id => d.id,
                                        :prescribed_by_doctor => true,
                                        :start_date => Date.parse('22/6/2013'))

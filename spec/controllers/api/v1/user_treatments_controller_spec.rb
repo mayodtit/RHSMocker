@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe Api::V1::UserDiseasesController do
+describe Api::V1::UserTreatmentsController do
   let(:user) { build_stubbed(:user) }
   let(:ability) { Object.new.extend(CanCan::Ability) }
-  let(:user_disease) { build_stubbed(:user_disease, :user => user) }
+  let(:user_treatment) { build_stubbed(:user_treatment, :user => user) }
 
   before(:each) do
     controller.stub(:current_ability => ability)
@@ -15,7 +15,7 @@ describe Api::V1::UserDiseasesController do
     end
 
     before(:each) do
-      user.stub(:user_diseases => [user_disease])
+      user.stub(:user_treatments => [user_treatment])
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -23,10 +23,10 @@ describe Api::V1::UserDiseasesController do
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it_behaves_like 'success'
 
-      it 'returns an array of user diseases' do
+      it 'returns an array of user conditions' do
         do_request
         json = JSON.parse(response.body)
-        json['user_diseases'].to_json.should == [user_disease.as_json].to_json
+        json['user_disease_treatments'].to_json.should == [user_treatment.as_json].to_json
       end
     end
   end
@@ -36,10 +36,10 @@ describe Api::V1::UserDiseasesController do
       get :show, auth_token: user.auth_token
     end
 
-    let(:user_diseases) { double('user_diseases', :find => user_disease) }
+    let(:user_treatments) { double('user_treatments', :find => user_treatment) }
 
     before(:each) do
-      user.stub(:user_diseases => user_diseases)
+      user.stub(:user_treatments => user_treatments)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -47,46 +47,46 @@ describe Api::V1::UserDiseasesController do
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it_behaves_like 'success'
 
-      it 'returns the user diseases' do
+      it 'returns the user conditions' do
         do_request
         json = JSON.parse(response.body)
-        json['user_disease'].to_json.should == user_disease.as_json.to_json
+        json['user_disease_treatment'].to_json.should == user_treatment.as_json.to_json
       end
     end
   end
 
   describe 'POST create' do
     def do_request
-      post :create, user_disease: user_disease.as_json
+      post :create, user_treatment: user_treatment.as_json
     end
 
-    let(:user_diseases) { double('user_diseases', :create => user_disease) }
+    let(:user_treatments) { double('user_treatments', :create => user_treatment) }
 
     before(:each) do
-      user.stub(:user_diseases => user_diseases)
+      user.stub(:user_treatments => user_treatments)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it 'attempts to create the record' do
-        user_diseases.should_receive(:create).once
+        user_treatments.should_receive(:create).once
         do_request
       end
 
       context 'save succeeds' do
         it_behaves_like 'success'
 
-        it 'returns the user disease' do
+        it 'returns the user condition' do
           do_request
           json = JSON.parse(response.body)
-          json['user_disease'].to_json.should == user_disease.as_json.to_json
+          json['user_disease_treatment'].to_json.should == user_treatment.as_json.to_json
         end
       end
 
       context 'save fails' do
         before(:each) do
-          user_disease.errors.add(:base, :invalid)
+          user_treatment.errors.add(:base, :invalid)
         end
 
         it_behaves_like 'failure'
@@ -96,27 +96,27 @@ describe Api::V1::UserDiseasesController do
 
   describe 'PUT update' do
     def do_request
-      put :update
+      put :update, user_treatment: attributes_for(:user_treatment)
     end
 
-    let(:user_diseases) { double('user_diseases', :find => user_disease) }
+    let(:user_treatments) { double('user_treatments', :find => user_treatment) }
 
     before(:each) do
-      user.stub(:user_diseases => user_diseases)
-      user_disease.stub(:update_attributes)
+      user.stub(:user_treatments => user_treatments)
+      user_treatment.stub(:update_attributes)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it 'attempts to update the record' do
-        user_disease.should_receive(:update_attributes).once
+        user_treatment.should_receive(:update_attributes).once
         do_request
       end
 
       context 'update_attributes succeeds' do
         before(:each) do
-          user_disease.stub(:update_attributes => true)
+          user_treatment.stub(:update_attributes => true)
         end
 
         it_behaves_like 'success'
@@ -124,8 +124,8 @@ describe Api::V1::UserDiseasesController do
 
       context 'update_attributes fails' do
         before(:each) do
-          user_disease.stub(:update_attributes => false)
-          user_disease.errors.add(:base, :invalid)
+          user_treatment.stub(:update_attributes => false)
+          user_treatment.errors.add(:base, :invalid)
         end
 
         it_behaves_like 'failure'
@@ -138,24 +138,24 @@ describe Api::V1::UserDiseasesController do
       delete :destroy
     end
 
-    let(:user_diseases) { double('user_diseases', :find => user_disease) }
+    let(:user_treatments) { double('user_treatments', :find => user_treatment) }
 
     before(:each) do
-      user.stub(:user_diseases => user_diseases)
-      user_disease.stub(:destroy)
+      user.stub(:user_treatments => user_treatments)
+      user_treatment.stub(:destroy)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it 'attempts to destroy the record' do
-        user_disease.should_receive(:destroy).once
+        user_treatment.should_receive(:destroy).once
         do_request
       end
 
       context 'destroy succeeds' do
         before(:each) do
-          user_disease.stub(:destroy => true)
+          user_treatment.stub(:destroy => true)
         end
 
         it_behaves_like 'success'
@@ -163,8 +163,8 @@ describe Api::V1::UserDiseasesController do
 
       context 'destroy fails' do
         before(:each) do
-          user_disease.stub(:destroy => false)
-          user_disease.errors.add(:base, :invalid)
+          user_treatment.stub(:destroy => false)
+          user_treatment.errors.add(:base, :invalid)
         end
 
         it_behaves_like 'failure'

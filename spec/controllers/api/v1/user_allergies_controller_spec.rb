@@ -36,7 +36,7 @@ describe Api::V1::UserAllergiesController do
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it_behaves_like 'success'
 
-      it 'returns the user diseases' do
+      it 'returns the user allergies' do
         do_request
         json = JSON.parse(response.body)
         json['user_allergy'].to_json.should == user_allergy.as_json.to_json

@@ -6,12 +6,13 @@ RHSMocker::Application.routes.draw do
       resources :association_types, :only => :index
       resources :contents, :only => [:index, :show]
       resources :diets, :only => :index
-      resources :diseases, :only => :index
+      resources :conditions, :only => :index
       resources :consults, :only => [:index, :show, :create] do
         resources :messages, :only => [:index, :show, :create]
         resources :scheduled_phone_calls, :except => [:new, :edit]
         resources :phone_calls, :only => [:index, :show, :create]
       end
+      resources :diseases, :only => :index, :controller => :conditions
       resources :encounters, :only => [:index, :show, :create], :controller => 'consults' do
         resources :messages, :only => [:index, :show, :create]
       end
@@ -34,18 +35,26 @@ RHSMocker::Application.routes.draw do
         resources :credits, :only => [:index, :show] do
           get 'summary', :on => :collection
         end
-        resources :diseases, except: [:new, :edit], controller: 'user_diseases' do
-          resources :treatments, only: :destroy, controller: 'user_disease_user_treatments' do
-            post ':id', to: 'user_disease_user_treatments#create', on: :collection
+        resources :conditions, except: [:new, :edit], controller: 'user_conditions' do
+          resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do
+            post ':id', to: 'user_condition_user_treatments#create', on: :collection
+          end
+        end
+        resources :diseases, except: [:new, :edit], controller: 'user_conditions' do
+          resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do
+            post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
         post 'invite', :on => :member
         resources :cards, :only => [:index, :show, :update]
         get 'keywords', :on => :member
         resources :subscriptions, :except => [:new, :edit]
-        resources :treatments, :except => [:new, :edit], :controller => 'user_disease_treatments' do
-          resources :diseases, only: :destroy, controller: 'user_disease_user_treatments' do
-            post ':id', to: 'user_disease_user_treatments#create', on: :collection
+        resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
+          resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do
+            post ':id', to: 'user_condition_user_treatments#create', on: :collection
+          end
+          resources :diseases, only: :destroy, controller: 'user_condition_user_treatments' do
+            post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
         resources :weights, :only => [:index, :create, :destroy]

@@ -16,7 +16,7 @@ describe 'UserDiseaseUserTreatments' do
       end
 
       it 'creates a new record' do
-        lambda{ do_request }.should change(UserDiseaseUserTreatment, :count).by(1)
+        lambda{ do_request }.should change(UserConditionUserTreatment, :count).by(1)
         response.should be_success
         body = JSON.parse(response.body, :symbolize_names => true)
         body[:user_disease_user_treatment][:user_disease_id].should == user_disease.id
@@ -30,7 +30,7 @@ describe 'UserDiseaseUserTreatments' do
       end
 
       it 'creates a new record' do
-        lambda{ do_request }.should change(UserDiseaseUserTreatment, :count).by(1)
+        lambda{ do_request }.should change(UserConditionUserTreatment, :count).by(1)
         response.should be_success
         body = JSON.parse(response.body, :symbolize_names => true)
         body[:user_disease_user_treatment][:user_disease_id].should == user_disease.id
@@ -51,7 +51,7 @@ describe 'UserDiseaseUserTreatments' do
       end
 
       it 'deletes the record' do
-        lambda{ do_request }.should change(UserDiseaseUserTreatment, :count).by(-1)
+        lambda{ do_request }.should change(UserConditionUserTreatment, :count).by(-1)
         response.should be_success
       end
     end
@@ -62,7 +62,7 @@ describe 'UserDiseaseUserTreatments' do
       end
 
       it 'deletes the record' do
-        lambda{ do_request }.should change(UserDiseaseUserTreatment, :count).by(-1)
+        lambda{ do_request }.should change(UserConditionUserTreatment, :count).by(-1)
         response.should be_success
       end
     end
