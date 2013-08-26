@@ -17,26 +17,35 @@ resource 'Cards' do
   parameter :auth_token, "User's auth_token"
   required_parameters :auth_token, :user_id
 
-  get '/api/v1/users/:user_id/cards' do
+  context 'with many cards' do
     let!(:unread_card) { create(:card, :user => user) }
     let!(:read_card) { create(:card, :read, :user => user) }
     let!(:saved_card) { create(:card, :saved, :user => user) }
 
-    example_request "[GET] Get cards for a user" do
-      explanation "Retreive cards by status"
-      status.should == 200
-      JSON.parse(response_body)['cards'].should be_a Hash
+    get '/api/v1/users/:user_id/cards' do
+      example_request "[GET] Get all cards for a user" do
+        explanation "Retreive all non-dismissed cards"
+        status.should == 200
+        json = JSON.parse(response_body, :symbolize_names => true)
+        json[:cards].map{|c| c[:id]}.should include(unread_card.id, read_card.id, saved_card.id)
+      end
     end
 
-    context 'with type parameter' do
-      parameter :type, 'Filter type for index action, one of ["carousel", "timeline"]'
-
-      let(:type) { 'carousel' }
-
-      example_request "[GET] Get cards for a user by type" do
-        explanation "Retreive cards by status"
+    get '/api/v1/users/:user_id/cards/inbox' do
+      example_request "[GET] Get inbox cards for a user" do
+        explanation "Retreive all inbox cards"
         status.should == 200
-        JSON.parse(response_body)['cards'].should be_a Array
+        json = JSON.parse(response_body, :symbolize_names => true)
+        json[:cards].map{|c| c[:id]}.should include(unread_card.id, read_card.id)
+      end
+    end
+
+    get '/api/v1/users/:user_id/cards/timeline' do
+      example_request "[GET] Get timeline cards for a user" do
+        explanation "Retreive all timeline cards"
+        status.should == 200
+        json = JSON.parse(response_body, :symbolize_names => true)
+        json[:cards].map{|c| c[:id]}.should include(saved_card.id)
       end
     end
   end
@@ -58,14 +67,12 @@ resource 'Cards' do
 
     put '/api/v1/users/:user_id/cards/:id' do
       parameter :state_event, 'Card event, one of ["read", "saved", "dismissed"]'
-      parameter :read_at, 'Read timestamp, required for "read" state event'
-      parameter :saved_at, 'Saved timestamp, required for "saved" state event'
-      parameter :dismissed_at, 'Dismissed timestamp, required for "dismissed" state event'
+      parameter :state_changed_at, 'Change timestamp, required when making a state transition'
 
-      scope_parameters :card, [:state_event, :read_at, :saved_at, :dismissed_at]
+      scope_parameters :card, [:state_event, :state_changed_at]
 
       let(:state_event) { 'saved' }
-      let(:saved_at) { Time.now }
+      let(:state_changed_at) { Time.now }
       let(:raw_post) { params.to_json }
 
       example_request "[PUT] Update single card for user" do

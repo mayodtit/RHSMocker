@@ -4,6 +4,7 @@ describe Api::V1::CardsController do
   let(:user) { build_stubbed(:member) }
   let(:ability) { Object.new.extend(CanCan::Ability) }
   let(:card) { build_stubbed(:card, :user => user) }
+  let(:card_keys) { card.as_json.keys.map(&:to_sym) << :preview }
 
   before(:each) do
     controller.stub(:current_ability => ability)
@@ -16,7 +17,7 @@ describe Api::V1::CardsController do
 
     it_behaves_like 'action requiring authentication and authorization'
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
-      let(:cards) { double('cards', :inbox_or_timeline => [card]) }
+      let(:cards) { double('cards', :not_dismissed => [card]) }
 
       before(:each) do
         user.stub(:cards => cards)
@@ -26,8 +27,54 @@ describe Api::V1::CardsController do
 
       it 'returns a hash of cards by type' do
         do_request
-        json = JSON.parse(response.body)
-        json['cards'].to_json.should == [card].to_json
+        json = JSON.parse(response.body, :symbolize_names => true)
+        json[:cards].first.keys.should =~ card_keys
+      end
+    end
+  end
+
+  describe 'GET inbox' do
+    def do_request
+      get :inbox
+    end
+
+    it_behaves_like 'action requiring authentication and authorization'
+    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+      let(:cards) { double('cards', :inbox => [card]) }
+
+      before(:each) do
+        user.stub(:cards => cards)
+      end
+
+      it_behaves_like 'success'
+
+      it 'returns a hash of cards by type' do
+        do_request
+        json = JSON.parse(response.body, :symbolize_names => true)
+        json[:cards].first.keys.should =~ card_keys
+      end
+    end
+  end
+
+  describe 'GET timeline' do
+    def do_request
+      get :timeline
+    end
+
+    it_behaves_like 'action requiring authentication and authorization'
+    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+      let(:cards) { double('cards', :timeline => [card]) }
+
+      before(:each) do
+        user.stub(:cards => cards)
+      end
+
+      it_behaves_like 'success'
+
+      it 'returns a hash of cards by type' do
+        do_request
+        json = JSON.parse(response.body, :symbolize_names => true)
+        json[:cards].first.keys.should =~ card_keys
       end
     end
   end
