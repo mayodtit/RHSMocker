@@ -31,7 +31,7 @@ resource "Consults" do
     get '/api/v1/consults/:id' do
       let(:id) { consult.id }
 
-      example_request "[GET] Get an consult for a given user" do
+      example_request "[GET] Get a consult for a given user" do
         explanation "Returns an array of consults"
         status.should == 200
         body = JSON.parse(response_body, :symbolize_names => true)[:consult]
@@ -60,7 +60,7 @@ resource "Consults" do
 
       let(:raw_post) { params.to_json }
 
-      example_request "[POST] Create an Consult with a Message" do
+      example_request "[POST] Create a Consult with a Message" do
         explanation "Creates a new Consult for a given user"
         status.should == 200
         body = JSON.parse(response_body, :symbolize_names => true)[:consult]
@@ -77,7 +77,7 @@ resource "Consults" do
 
       let(:raw_post) { params.to_json }
 
-      example_request "[POST] Create an Consult with a PhoneCall" do
+      example_request "[POST] Create a Consult with a PhoneCall" do
         explanation "Creates a new Consult for a given user"
         status.should == 200
         body = JSON.parse(response_body, :symbolize_names => true)[:consult]
@@ -94,7 +94,7 @@ resource "Consults" do
 
       let(:raw_post) { params.to_json }
 
-      example_request "[POST] Create an Consult with a ScheduledPhoneCall" do
+      example_request "[POST] Create a Consult with a ScheduledPhoneCall" do
         explanation "Creates a new Consult for a given user"
         status.should == 200
         body = JSON.parse(response_body, :symbolize_names => true)[:consult]
