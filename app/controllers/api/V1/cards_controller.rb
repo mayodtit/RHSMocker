@@ -3,15 +3,15 @@ class Api::V1::CardsController < Api::V1::ABaseController
   before_filter :load_card!, only: [:show, :update]
 
   def index
-    index_resource(merge_abstracts(@user.cards))
+    index_resource(merge_previews(@user.cards.not_dismissed))
   end
 
   def inbox
-    index_resource(merge_abstracts(@user.cards.inbox))
+    index_resource(merge_previews(@user.cards.inbox))
   end
 
   def timeline
-    index_resource(merge_abstracts(@user.cards.timeline))
+    index_resource(merge_previews(@user.cards.timeline))
   end
 
   def show
@@ -29,7 +29,7 @@ class Api::V1::CardsController < Api::V1::ABaseController
     authorize! :manage, @card
   end
 
-  def merge_abstracts(cards)
-    cards.map{|c| c.as_json.merge!(:abstract => render_to_string(:action => :abstract, :locals => {:card => c}))}
+  def merge_previews(cards)
+    cards.map{|c| c.as_json.merge!(:preview => render_to_string(:action => :preview, :locals => {:card => c}))}
   end
 end

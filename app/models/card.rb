@@ -11,14 +11,22 @@ class Card < ActiveRecord::Base
 
   before_validation :set_default_priority
 
-  delegate :title, :content_type, :abstract, to: :resource
+  delegate :title, :content_type, :preview, to: :resource
 
   def self.inbox
-    where(:state => [:unread, :read]).order('priority DESC')
+    where(:state => [:unread, :read]).by_priority
   end
 
   def self.timeline
-    where(:state => :saved).order('priority DESC')
+    where(:state => :saved).by_priority
+  end
+
+  def self.not_dismissed
+    where(:state => [:unread, :read, :saved]).by_priority
+  end
+
+  def self.by_priority
+    order('priority DESC')
   end
 
   def serializable_hash options=nil

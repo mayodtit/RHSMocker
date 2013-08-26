@@ -57,7 +57,7 @@ def previewText
       preview = body.split(' ').slice(0, 101).join(' ').gsub(/\ADefinition<p>/, "") 
   end
 end
-alias_method :abstract, :previewText
+alias_method :preview, :previewText
 
 # TODO - replace in future with root_share_url, move append to UserReading
 def share_url user_reading_id=nil
