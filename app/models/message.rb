@@ -51,6 +51,7 @@ class Message < ActiveRecord::Base
   def previewText
     text.split(' ').slice(0, 21).join(' ')+"&hellip;" if text.present?
   end
+  alias_method :preview, :previewText
 
   def serializable_hash(options=nil)
     options ||= {}

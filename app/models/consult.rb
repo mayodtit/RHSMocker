@@ -46,6 +46,14 @@ class Consult < ActiveRecord::Base
     users.where(:type => 'Member')
   end
 
+  def content_type
+    'Consult'
+  end
+
+  def preview
+    messages.last.try(:preview) || ''
+  end
+
   private
 
   def set_defaults
