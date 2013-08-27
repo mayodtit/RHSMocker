@@ -68,6 +68,7 @@ class Consult < ActiveRecord::Base
     self.status ||= 'open'
     self.priority ||= 'medium'
     self.checked = false if checked.nil?
+    self.title = "Consult for #{subject.first_name}" unless self.title.present?
     true
   end
 end
