@@ -40,7 +40,7 @@ class Consult < ActiveRecord::Base
   end
 
   def serializable_hash(options=nil)
-    super(options || {:include => :message})
+    super(options || {:include => :messages})
   end
 
   def members
