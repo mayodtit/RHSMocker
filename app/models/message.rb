@@ -71,6 +71,12 @@ class Message < ActiveRecord::Base
     params
   end
 
+  def self.unread_user_ids
+    joins(:message_statuses)
+    .where(:message_statuses => {:status => :unread})
+    .pluck('distinct message_statuses.user_id')
+  end
+
   private
 
   def add_user_to_consult

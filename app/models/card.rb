@@ -61,5 +61,13 @@ class Card < ActiveRecord::Base
     event :dismissed do
       transition all => :dismissed
     end
+
+    event :reset do
+      transition all => :unread
+    end
+
+    before_transition any => :unread do |card, transition|
+      card.state_changed_at = nil
+    end
   end
 end

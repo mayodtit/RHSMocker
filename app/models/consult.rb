@@ -6,6 +6,7 @@ class Consult < ActiveRecord::Base
   has_many :messages
   has_many :scheduled_phone_calls, :through => :messages
   has_many :phone_calls, :through => :messages
+  has_many :cards, :as => :resource
 
   attr_accessible :initiator, :initiator_id, :subject, :subject_id, :checked,
                   :priority, :status, :add_user, :messages, :message,
@@ -52,6 +53,13 @@ class Consult < ActiveRecord::Base
 
   def preview
     messages.last.try(:preview) || ''
+  end
+
+  def notify_members
+    messages.unread_user_ids.each do |id|
+      cards.upsert_attributes({:user_id => id},
+                              {:state_event => :reset})
+    end
   end
 
   private
