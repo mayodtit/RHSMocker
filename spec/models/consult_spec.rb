@@ -8,6 +8,7 @@ describe Consult do
       Consult.any_instance.stub(:set_defaults)
     end
 
+    it_validates 'presence of', :title
     it_validates 'presence of', :initiator
     it_validates 'presence of', :subject
     it_validates 'presence of', :status

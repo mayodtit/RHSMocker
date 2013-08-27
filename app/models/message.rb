@@ -21,6 +21,7 @@ class Message < ActiveRecord::Base
 
   before_create :add_user_to_consult
   after_create :create_message_statuses_for_users
+  after_create :notify_members
 
   accepts_nested_attributes_for :location
   accepts_nested_attributes_for :message_mayo_vocabularies
@@ -51,6 +52,7 @@ class Message < ActiveRecord::Base
   def previewText
     text.split(' ').slice(0, 21).join(' ')+"&hellip;" if text.present?
   end
+  alias_method :preview, :previewText
 
   def serializable_hash(options=nil)
     options ||= {}
@@ -68,6 +70,12 @@ class Message < ActiveRecord::Base
     params = {user: user, consult: consult, text: phone_text(type)}
     params.merge!((type.to_s + "_attributes").to_sym => nested_params.merge!(:user => user)) if nested_params
     params
+  end
+
+  def self.unread_user_ids
+    joins(:message_statuses)
+    .where(:message_statuses => {:status => :unread})
+    .pluck('distinct message_statuses.user_id')
   end
 
   private
@@ -89,5 +97,9 @@ class Message < ActiveRecord::Base
     when :scheduled_phone_call
       'Scheduled phone call!'
     end
+  end
+
+  def notify_members
+    consult.notify_members
   end
 end
