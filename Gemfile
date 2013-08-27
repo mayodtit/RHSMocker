@@ -48,7 +48,7 @@ group :development, :test do
   # API documentation
   gem 'rspec_api_documentation'
   gem "rspec-rails", "~> 2.0"
-  
+
   gem 'database_cleaner', '~>0.9.1'
 end
 
