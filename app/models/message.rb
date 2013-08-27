@@ -21,6 +21,7 @@ class Message < ActiveRecord::Base
 
   before_create :add_user_to_consult
   after_create :create_message_statuses_for_users
+  after_create :notify_members
 
   accepts_nested_attributes_for :location
   accepts_nested_attributes_for :message_mayo_vocabularies
@@ -96,5 +97,9 @@ class Message < ActiveRecord::Base
     when :scheduled_phone_call
       'Scheduled phone call!'
     end
+  end
+
+  def notify_members
+    consult.notify_members
   end
 end
