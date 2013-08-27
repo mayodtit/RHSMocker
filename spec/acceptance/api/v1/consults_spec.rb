@@ -32,7 +32,7 @@ resource "Consults" do
       let(:id) { consult.id }
 
       example_request "[GET] Get a consult for a given user" do
-        explanation "Returns an array of consults"
+        explanation "Returns a single consult"
         status.should == 200
         body = JSON.parse(response_body, :symbolize_names => true)[:consult]
         body.should be_a Hash
