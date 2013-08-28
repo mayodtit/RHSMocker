@@ -437,22 +437,4 @@ resource "Users" do
       end
     end
   end
-
-  post '/api/v1/feedback' do
-    parameter :auth_token,    "User's auth token"
-    parameter :note,          "Note to be sent as feedback"
-
-    required_parameters :auth_token, :note
-
-    let(:auth_token)       { @user.auth_token }
-    let(:note) { "this is awesome" }
-    let(:raw_post)         { params.to_json }  # JSON format request body
-
-    example_request "[POST] Add feedback" do
-      explanation "Adds feedback from the user"
-      status.should == 200
-      JSON.parse(response_body)['feedback'].should_not be_empty
-    end
-  end
-
 end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130826231001) do
+ActiveRecord::Schema.define(:version => 20130828165851) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -240,15 +240,6 @@ ActiveRecord::Schema.define(:version => 20130826231001) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
-
-  create_table "feedbacks", :force => true do |t|
-    t.integer  "user_id"
-    t.text     "note"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  add_index "feedbacks", ["user_id"], :name => "index_feedbacks_on_user_id"
 
   create_table "invitations", :force => true do |t|
     t.integer  "member_id"
