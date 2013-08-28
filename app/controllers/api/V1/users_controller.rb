@@ -6,94 +6,46 @@ class Api::V1::UsersController < Api::V1::ABaseController
                   :expertise, :city, :state, :units
 
   skip_before_filter :authentication_check, :only =>:create
+  before_filter :load_user!, :only => :update
 
   def index
-    if params[:only] == 'internal'
-      if params[:q]
-        @users = Member.search do
-          fulltext params[:q]
-          with :role_name, params[:role_name] if params[:role_name]
-        end
-      else
-        @users = params[:role_name] ? (Role.find_by_name(params[:role_name]).try(:users) || []) : Member.all
-      end
-    else
-      begin
-        @users = search_service.query(params)
-      rescue => e
-        render_failure({reason: e.message}, 502) and return
-      end
+    begin
+      @users = search_service.query(params)
+      render_success(users: @users)
+    rescue => e
+      render_failure({reason: e.message}, 502)
     end
-    render_success(users: @users)
   end
 
   def create
-    # TODO: refactor into the model
-    if params[:user].present? && params[:user][:install_id].present?
-      user = Member.find_by_install_id(params[:user][:install_id])
-    end
-
-    if user.present?
-      if user.email.blank? && params[:user][:password].present? && params[:user][:email].present?
-        user.update_attributes params[:user]
-      else
-        return render_failure( {reason:"Registration is already complete", user_message: 'User with this email already exists'}, 409 )
-      end
-    else
-      user = Member.new(params[:user])
-    end
-
-    if user.save
+    @user = Member.where(:install_id => params[:user][:install_id]).first_or_initialize
+    render_failure({reason:"Registration is already complete",
+                    user_message: 'User with this email already exists'}, 409) if @user.email.present?
+    if @user.update_attributes(params[:user])
       auto_login(user)
       user.login
-      UserMailer.welcome_email(user).deliver unless user.email.blank?
-      render_success( {auth_token:user.auth_token, user:user} )
+      UserMailer.welcome_email(@user).deliver unless @user.email.blank?
+      render_success(auth_token: @user.auth_token, user: @user)
     else
-      render_failure( {reason: user.errors.full_messages.to_sentence, user_message: user.errors.full_messages.to_sentence}, 422 )
+      render_failure({reason: user.errors.full_messages.to_sentence,
+                      user_message: user.errors.full_messages.to_sentence}, 422)
     end
   end
 
   def update
-    if params[:id].present?
-      if current_user.allowed_to_edit_user? params[:id].to_i
-        user = User.find_by_id params[:id]
-      else
-        return render_failure({reason:"Not authorized to edit this user"})
-      end
-    else
-      user = current_user
-    end
-    return render_failure({reason:"User not found"}, 404) unless user
-
-    params[:user].delete :email if current_user == user
-    params[:user].delete :password
-
-    if user.update_attributes(sanitize_for_mass_assignment(params[:user]))
-      render_success({user:user})
-    else
-      render_failure({reason:user.errors.full_messages.to_sentence}, 422)
-    end
+    update_resource(@user, sanitized_params)
   end
 
   def update_password
-    user = login(current_user.email, params[:current_password])
-    return render_failure( {reason:"Invalid current password"} ) unless user
-    return render_failure( {reason:"Empty new password"}, 412 ) unless params[:password].present?
-    if user.update_attributes(:password => params[:password])
-      render_success( {user:user} )
-    else
-      render_failure( {reason:user.errors.full_messages.to_sentence}, 422 )
-    end
+    @user = login(current_user.email, params[:current_password])
+    render_failure(reason: "Invalid current password") unless @user
+    update_resource(@user, :password => params[:password])
   end
 
   def update_email
-    user = login(current_user.email, params[:password])
-    return render_failure( {reason:"Invalid password"} ) unless user
-    if user.update_attributes(:email => params[:email])
-      render_success( {user:user} )
-    else
-      render_failure( {reason:user.errors.full_messages.to_sentence}, 422 )
-    end
+    @user = login(current_user.email, params[:password])
+    render_failure(reason: "Invalid current password") unless @user
+    update_resource(@user, :email => params[:email])
   end
 
   def keywords
@@ -109,7 +61,18 @@ class Api::V1::UsersController < Api::V1::ABaseController
 
   private
 
+  def load_user!
+    @user = params[:id] ? User.find(params[:id]) : current_user
+    authorize! :manage, @user
+  end
+
   def search_service
     @search_service ||= Search::Service.new
+  end
+
+  def sanitized_params
+    params[:user].delete(:email) if @user == current_user
+    params[:user].delete(:password)
+    sanitize_for_mass_assignment(params[:user])
   end
 end
