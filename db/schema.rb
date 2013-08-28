@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130828165851) do
+ActiveRecord::Schema.define(:version => 20130828170327) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -79,21 +79,6 @@ ActiveRecord::Schema.define(:version => 20130828165851) do
   end
 
   add_index "attachments", ["message_id"], :name => "index_attachments_on_message_id"
-
-  create_table "authors", :force => true do |t|
-    t.string   "name"
-    t.string   "image_url"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-    t.string   "short_name"
-  end
-
-  create_table "authors_contents", :force => true do |t|
-    t.integer  "author_id"
-    t.integer  "content_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
 
   create_table "blood_pressures", :force => true do |t|
     t.integer  "systolic"
