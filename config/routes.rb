@@ -116,17 +116,7 @@ RHSMocker::Application.routes.draw do
   get "contents/:doc_id" => "contents#show"
   get "contents/:doc_id/:user_reading_id" => "contents#show"
 
-  resources :users
   resources :contents
-
-  match "/users/:id/readinglist"        => "users#showReadingList"
-  match "/users/:id/read/:contentId"    => "users#read", :as => :markread
-  match "/users/:id/dismiss/:contentId" => "users#dismiss", :as => :dismiss
-  match "/users/:id/later/:contentId"   => "users#later", :as => :readlater
-  match "/users/:id/reset"              => "users#resetReadingList", :as =>  :reset_content
-  match "/users/:id/weight/:weight"     => "users#updateWeight"
-  match "/users/:id/location/:lat/:long" => "users#addLocation"
-  match "/users/:id/keywords"           => "users#keywords"
 
   %w(403 404 412 500).each do |status_code|
     match status_code => 'errors#exception'
