@@ -19,16 +19,19 @@ class Api::V1::UsersController < Api::V1::ABaseController
 
   def create
     @user = Member.where(:install_id => params[:user][:install_id]).first_or_initialize
-    render_failure({reason:"Registration is already complete",
-                    user_message: 'User with this email already exists'}, 409) if @user.email.present?
+    if @user.email.present?
+      render_failure({reason:"Registration is already complete",
+                      user_message: 'User with this email already exists'}, 409)
+      return
+    end
     if @user.update_attributes(params[:user])
-      auto_login(user)
-      user.login
+      auto_login(@user)
+      @user.login
       UserMailer.welcome_email(@user).deliver unless @user.email.blank?
       render_success(auth_token: @user.auth_token, user: @user)
     else
-      render_failure({reason: user.errors.full_messages.to_sentence,
-                      user_message: user.errors.full_messages.to_sentence}, 422)
+      render_failure({reason: @user.errors.full_messages.to_sentence,
+                      user_message: @user.errors.full_messages.to_sentence}, 422)
     end
   end
 
@@ -38,13 +41,13 @@ class Api::V1::UsersController < Api::V1::ABaseController
 
   def update_password
     @user = login(current_user.email, params[:current_password])
-    render_failure(reason: "Invalid current password") unless @user
+    render_failure(reason: "Invalid current password") and return unless @user
     update_resource(@user, :password => params[:password])
   end
 
   def update_email
     @user = login(current_user.email, params[:password])
-    render_failure(reason: "Invalid current password") unless @user
+    render_failure(reason: "Invalid current password") and return unless @user
     update_resource(@user, :email => params[:email])
   end
 
