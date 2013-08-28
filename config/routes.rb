@@ -118,7 +118,6 @@ RHSMocker::Application.routes.draw do
 
   resources :users
   resources :contents
-  resources :authors
 
   match "/users/:id/readinglist"        => "users#showReadingList"
   match "/users/:id/read/:contentId"    => "users#read", :as => :markread

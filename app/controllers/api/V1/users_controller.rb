@@ -100,15 +100,6 @@ class Api::V1::UsersController < Api::V1::ABaseController
     render_success keywords: Member.find(params[:id]).keywords.map{|mv| mv[0].title }[0,7]
   end
 
-  def add_feedback
-    feedback = Feedback.create({:note=>params['note'], :user=>current_user})
-    if feedback.errors.empty?
-      render_success( {feedback:feedback})
-    else
-      render_failure( {reason:feedback.errors.full_messages.to_sentence}, 422 )
-    end
-  end
-
   def invite
     @user = User.find(params[:id])
     @member = @user.member || Member.create_from_user!(@user)

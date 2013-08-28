@@ -4,9 +4,7 @@ class Member < User
   has_many :cards, :foreign_key => :user_id
   has_many :user_readings, :order => 'read_date DESC', :foreign_key => :user_id
   has_many :contents, :through => :user_readings
-  has_many :content_authors, :foreign_key => :user_id
   has_many :messages, :foreign_key => :user_id
-  has_many :feedbacks, :foreign_key => :user_id
   has_many :consult_users, :foreign_key => :user_id
   has_many :consults, :through => :consult_users
   has_many :message_statuses, :foreign_key => :user_id
