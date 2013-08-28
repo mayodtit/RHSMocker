@@ -77,6 +77,10 @@ class Member < User
     update_attribute :auth_token, Base64.urlsafe_encode64(SecureRandom.base64(36))
   end
 
+  def logout
+    update_attribute(:auth_token, nil)
+  end
+
   def can_call?
     self.hcp? || self.feature_bucket == 'call_only' || self.feature_bucket == 'message_call'
   end
