@@ -21,7 +21,7 @@ describe 'Diseases' do
         Sunspot::Rails::StubSessionProxy::Search.any_instance.stub(:results => [disease])
       end
 
-      it 'filters Diseases with SOLR' do
+      xit 'filters Diseases with SOLR' do
         do_request(:q => disease.name)
         response.should be_success
         body = JSON.parse(response.body, :symbolize_names => true)
