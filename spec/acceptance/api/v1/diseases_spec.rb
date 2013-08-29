@@ -25,7 +25,6 @@ resource 'Diseases' do
       let(:q) { disease.name.split(' ').first }
 
       example_request "[DEPRECATED] [GET] Search Diseases with query string" do
-        pending 'disabled to debug solr rendering issue'
         explanation "Returns an array of Diseases retrieved by Solr"
         status.should == 200
         body = JSON.parse(response_body, :symbolize_names => true)
