@@ -10,13 +10,11 @@ class Api::V1::ConditionsController < Api::V1::ABaseController
   private
 
   def load_conditions!
-    @conditions = params[:q] ? conditions_solr_query : Condition.order('name ASC')
+    @conditions = params[:q].blank? ? Condition.order('name ASC') : solr_results
   end
 
-  def conditions_solr_query
-    Condition.search do
-      fulltext params[:q]
-    end.results
+  def solr_results
+    Condition.search{ fulltext params[:q] }.results
   end
 
   def diseases_path?
