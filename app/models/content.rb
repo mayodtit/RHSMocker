@@ -6,9 +6,6 @@ class Content < ActiveRecord::Base
 	has_many :mayo_vocabularies, :through => :content_mayo_vocabularies
 
 
-  has_many :authors_contents
-  has_many :authors, :through=>:authors_contents
-
 	has_many :user_readings
 	has_many :users,
 		:through => :user_readings,

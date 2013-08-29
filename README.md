@@ -54,10 +54,6 @@ To deploy run
 git push [remote for alpha] alpha:master
 ```
 
-##Data Models
-![](diagram.png)
-
-
 ##Notes
 
 ** Heroku is case sensitive for directories. **
