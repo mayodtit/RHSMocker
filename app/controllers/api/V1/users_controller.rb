@@ -18,7 +18,8 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def create
-    @user = Member.where(:install_id => params[:user][:install_id]).first_or_initialize
+    params[:install_id] ||= ('RHS-' + SecureRandom.base64)
+    @user = Member.where(:install_id => params[:install_id]).first_or_initialize
     if @user.email.present?
       render_failure({reason:"Registration is already complete",
                       user_message: 'User with this email already exists'}, 409)
