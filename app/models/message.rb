@@ -29,6 +29,8 @@ class Message < ActiveRecord::Base
   accepts_nested_attributes_for :scheduled_phone_call
   accepts_nested_attributes_for :phone_call
 
+  mount_uploader :image, MessageImageUploader
+
   def new_location=(attributes)
     self.location_attributes = attributes.merge!(:user => user)
   end
