@@ -18,14 +18,13 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def create
-    params[:install_id] ||= ('RHS-' + SecureRandom.base64)
-    @user = Member.where(:install_id => params[:install_id]).first_or_initialize
+    @user = Member.where(:install_id => install_id).first_or_initialize
     if @user.email.present?
       render_failure({reason:"Registration is already complete",
                       user_message: 'User with this email already exists'}, 409)
       return
     end
-    if @user.update_attributes(params[:user])
+    if @user.update_attributes(sanitize_for_mass_assignment(params[:user]))
       auto_login(@user)
       @user.login
       UserMailer.welcome_email(@user).deliver unless @user.email.blank?
@@ -72,6 +71,10 @@ class Api::V1::UsersController < Api::V1::ABaseController
 
   def search_service
     @search_service ||= Search::Service.new
+  end
+
+  def install_id
+    params[:user].try(:[], :install_id) || params[:install_id] || ('RHS-' + SecureRandom.base64)
   end
 
   def sanitized_params
