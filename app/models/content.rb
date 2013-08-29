@@ -6,9 +6,6 @@ class Content < ActiveRecord::Base
 	has_many :mayo_vocabularies, :through => :content_mayo_vocabularies
 
 
-  has_many :authors_contents
-  has_many :authors, :through=>:authors_contents
-
 	has_many :user_readings
 	has_many :users,
 		:through => :user_readings,
@@ -30,8 +27,8 @@ class Content < ActiveRecord::Base
   end
 
   def self.new_member_content
-    where(:title => ['Do you have allergies?',
-                     'What is your gender?',
+    where(:title => ['Your Allergies',
+                     'Your Gender',
                      'Which of these do you eat?'])
   end
 
@@ -57,6 +54,7 @@ def previewText
       preview = body.split(' ').slice(0, 101).join(' ').gsub(/\ADefinition<p>/, "") 
   end
 end
+alias_method :preview, :previewText
 
 # TODO - replace in future with root_share_url, move append to UserReading
 def share_url user_reading_id=nil
@@ -105,17 +103,17 @@ end
   openingJavascript += '&quot;type&quot;:&quot;launch_call_screen&quot;,'
   openingJavascript += '&quot;body&quot;:{'
   openingJavascript += '&quot;content_id&quot; : ' + '&quot;' + id.to_s+ '&quot;,' 
-  openingJavascript += '&quot;keywords&quot;: ['
+  #Removed Keywords consistant with https://www.pivotaltracker.com/story/show/55438340
+  #openingJavascript += '&quot;keywords&quot;: ['
 
-  content_mayo_vocabularies[0..6].each do |vocab|
-  	if !vocab.nil?
-  		openingJavascript += '&quot;' + vocab.mayo_vocabulary.title + '&quot;,'
-  	end
-  end
-
-  openingJavascript += '],'
+  #content_mayo_vocabularies[0..6].each do |vocab|
+  #	if !vocab.nil?
+  #		openingJavascript += '&quot;' + vocab.mayo_vocabulary.title + '&quot;,'
+  #	end
+  #end
+  #openingJavascript += '],'
   #openingJavascript += '&quot;selected_keywords&quot;: [&quot;diabetes&quot;, &quot;treatment&quot;],'
-  openingJavascript += '&quot;message_body&quot; : &quot;I was reading the article ' + self.title + ' and would like to discuss it with a Health Advocate. &quot;'
+  openingJavascript += '&quot;message_body&quot; : &quot;I was reading the article ' + self.title + ' and would like to discuss it with a Personal Health Assistant.&nbsp;&quot;'
 
   openingJavascript += '}'
   openingJavascript += '}]\';'

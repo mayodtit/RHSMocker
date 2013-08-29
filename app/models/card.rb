@@ -2,45 +2,36 @@ class Card < ActiveRecord::Base
   belongs_to :user
   belongs_to :resource, polymorphic: true
 
-  attr_accessible :user, :resource
-  attr_accessible :user_id, :resource_id, :resource_type, :state, :state_event,
-                  :read_at, :saved_at, :dismissed_at
+  attr_accessible :user, :user_id, :resource, :resource_id, :resource_type,
+                  :state, :state_event, :state_changed_at
 
   validates :user, :resource, presence: true
   validates :resource_id, :uniqueness => {:scope => [:user_id, :resource_type]}
-  validates :read_at, presence: true, if: :read?
-  validates :saved_at, presence: true, if: :saved?
-  validates :dismissed_at, presence: true, if: :dismissed?
+  validates :state_changed_at, presence: true, unless: :unread?
 
   before_validation :set_default_priority
 
-  delegate :title, :content_type, to: :resource
-
-  def share_url
-    resource.try_method(:root_share_url).try(:+, "/#{id}")
-  end
-
-  def self.inbox_or_timeline
-    {
-      inbox: inbox.limit(10),
-      timeline: timeline.limit(10)
-    }
-  end
+  delegate :title, :content_type, :preview, to: :resource
 
   def self.inbox
-    where(:state => [:unread, :read]).order('priority DESC')
+    where(:state => [:unread, :read]).by_priority
   end
 
   def self.timeline
-    where(:state => :saved).order('priority DESC')
+    where(:state => :saved).by_priority
   end
 
-  def as_json options={}
-    options.merge!(:only => [:id, :state, :read_at, :dismissed_at, :saved_at],
-                   :methods => [:title, :content_type, :share_url]) do |k, v1, v2|
-      v1.is_a?(Array) ? v1 + v2 : [v1] + v2
-    end
-    super(options).keep_if{|k, v| v.present?}
+  def self.not_dismissed
+    where(:state => [:unread, :read, :saved]).by_priority
+  end
+
+  def self.by_priority
+    order('priority DESC')
+  end
+
+  def serializable_hash options=nil
+    options ||=  {:methods => [:title, :content_type, :share_url]}
+    super(options)
   end
 
   private
@@ -51,6 +42,10 @@ class Card < ActiveRecord::Base
     else
       self.priority = 0
     end
+  end
+
+  def share_url
+    resource.try_method(:root_share_url).try(:+, "/#{id}")
   end
 
   state_machine :initial => :unread do
@@ -65,6 +60,14 @@ class Card < ActiveRecord::Base
 
     event :dismissed do
       transition all => :dismissed
+    end
+
+    event :reset do
+      transition all => :unread
+    end
+
+    before_transition any => :unread do |card, transition|
+      card.state_changed_at = nil
     end
   end
 end

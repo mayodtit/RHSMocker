@@ -7,31 +7,34 @@ describe 'Cards' do
     user.login
   end
 
-  describe 'GET /api/v1/users/:user_id/cards' do
-    def do_request(params={})
-      get "/api/v1/users/#{user.id}/cards", params.merge!(auth_token: user.auth_token)
-    end
-
+  describe 'index methods' do
     let!(:unread_card) { create(:card, :user => user) }
     let!(:read_card) { create(:card, :read, :user => user) }
     let!(:saved_card) { create(:card, :saved, :user => user) }
     let!(:dismissed_card) { create(:card, :dismissed, :user => user) }
 
-    it 'indexes the user\'s cards' do
-      do_request
-      response.should be_success
-      body = JSON.parse(response.body, :symbolize_names => true)
-      inbox_ids = body[:cards][:inbox].map{|card| card[:id]}
-      inbox_ids.should include(unread_card.id, read_card.id)
-      inbox_ids.should_not include(saved_card.id, dismissed_card.id)
-      timeline_ids = body[:cards][:timeline].map{|card| card[:id]}
-      timeline_ids.should include(saved_card.id)
-      timeline_ids.should_not include(unread_card.id, read_card.id, dismissed_card.id)
+    describe 'GET /api/v1/users/:user_id/cards' do
+      def do_request
+        get "/api/v1/users/#{user.id}/cards", auth_token: user.auth_token
+      end
+
+      it 'indexes the user\'s cards' do
+        do_request
+        response.should be_success
+        body = JSON.parse(response.body, :symbolize_names => true)
+        ids = body[:cards].map{|card| card[:id]}
+        ids.should include(unread_card.id, read_card.id, saved_card.id)
+        ids.should_not include(dismissed_card.id)
+      end
     end
 
-    describe 'carousel' do
+    describe 'GET /api/v1/users/:user_id/cards/inbox' do
+      def do_request
+        get "/api/v1/users/#{user.id}/cards/inbox", auth_token: user.auth_token
+      end
+
       it 'indexes only carousel cards' do
-        do_request(type: :carousel)
+        do_request
         response.should be_success
         body = JSON.parse(response.body, :symbolize_names => true)
         ids = body[:cards].map{|card| card[:id]}
@@ -40,9 +43,13 @@ describe 'Cards' do
       end
     end
 
-    describe 'timeline' do
+    describe 'GET /api/v1/users/:user_id/cards/timeline' do
+      def do_request
+        get "/api/v1/users/#{user.id}/cards/timeline", auth_token: user.auth_token
+      end
+
       it 'indexes only timeline cards' do
-        do_request(type: :timeline)
+        do_request
         response.should be_success
         body = JSON.parse(response.body, :symbolize_names => true)
         ids = body[:cards].map{|card| card[:id]}
@@ -78,7 +85,7 @@ describe 'Cards' do
     let(:dismissed_card) { create(:card, :dismissed, :user => user) }
 
     describe 'mark read' do
-      let(:attributes) { {:card => {:state_event => :read, :read_at => Time.now}} }
+      let(:attributes) { {:card => {:state_event => :read, :state_changed_at => Time.now}} }
 
       context 'unread card' do
         let!(:card) { unread_card }
@@ -123,7 +130,7 @@ describe 'Cards' do
     end
 
     describe 'mark saved' do
-      let(:attributes) { {:card => {:state_event => :saved, :saved_at => Time.now}} }
+      let(:attributes) { {:card => {:state_event => :saved, :state_changed_at => Time.now}} }
 
       context 'unread card' do
         let!(:card) { unread_card }
@@ -167,7 +174,7 @@ describe 'Cards' do
     end
 
     describe 'mark dismissed' do
-      let(:attributes) { {:card => {:state_event => :dismissed, :dismissed_at => Time.now}} }
+      let(:attributes) { {:card => {:state_event => :dismissed, :state_changed_at => Time.now}} }
 
       context 'unread card' do
         let!(:card) { unread_card }

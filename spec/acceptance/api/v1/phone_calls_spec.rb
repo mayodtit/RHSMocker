@@ -5,131 +5,60 @@ resource "PhoneCalls" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  before(:all) do
-    @hcp_user = FactoryGirl.create(:hcp_user)
-    @hcp_user.login
-    @user = FactoryGirl.create(:user_with_email)
-    @user.login
+  let!(:user) { create(:member) }
+  let(:auth_token) { user.auth_token }
+  let!(:consult) { create(:consult, :initiator => user) }
+  let(:consult_id) { consult.id }
 
-    @message = FactoryGirl.create(:message, :user=>@hcp_user)
-    @message2 = FactoryGirl.create(:message, :user=>@hcp_user)
-    @user_message = FactoryGirl.create(:message, :user=>@user)
+  before(:each) do
+    user.login
   end
 
+  parameter :auth_token, "Performing user's auth_token"
+  required_parameters :auth_token
 
-  describe 'create phone call' do
-    parameter :auth_token,    "User's auth token"
-    parameter :phone_call,    "Contains details of the phone call"
-    parameter :message_id,    "ID of the message the call is referring to"
-    parameter :time_to_call,  "One of (morning, afternoon, evening)"
-    parameter :time_zone,     "Time zone specified as a number"
+  context 'existing record' do
+    let!(:phone_call) { create(:phone_call) }
+    let!(:message) { create(:message, :user => user,
+                                      :consult => consult,
+                                      :phone_call => phone_call) }
+    let(:id) { phone_call.id }
 
-    scope_parameters :phone_call, [:message_id, :time_to_call, :time_zone]
-    required_parameters :auth_token, :phone_call, :message_id, :time_to_call, :time_zone
-
-
-    post '/api/v1/phone_calls' do
-      let(:auth_token)  { @hcp_user.auth_token }
-      let(:message_id)  { @message.id }
-      let(:time_to_call){ 'morning' }
-      let(:time_zone)   { '-5' }
-      let(:raw_post)    { params.to_json }  # JSON format request body
-
-      example_request "[POST] Create (schedule) a phone call" do
-        explanation "Returns the created phone call"
+    get '/api/v1/consults/:consult_id/phone_calls' do
+      example_request "[GET] Get all phone_calls for a given user" do
+        explanation "Returns an array of phone_calls"
         status.should == 200
-        JSON.parse(response_body)['phone_call'].should be_a Hash
+        body = JSON.parse(response_body, :symbolize_names => true)[:phone_calls]
+        body.should be_a Array
+        body.should_not be_empty
       end
     end
 
-    post '/api/v1/phone_calls' do
-      let(:auth_token)  { @user.auth_token }
-      let(:raw_post)    { params.to_json }  # JSON format request body
-
-      example_request "[POST] Create (schedule) a phone call b (401)" do
-        explanation "Returns the created phone call"
-        status.should == 401
-        JSON.parse(response_body)['reason'].should_not be_empty
+    get '/api/v1/consults/:consult_id/phone_calls/:id' do
+      example_request "[GET] Get a phone_call for a given user" do
+        explanation "Returns the phone_call"
+        status.should == 200
+        body = JSON.parse(response_body, :symbolize_names => true)[:phone_call]
+        body.should be_a Hash
+        body[:id].should == phone_call.id
       end
     end
+  end
 
-    post '/api/v1/phone_calls' do
-      let(:auth_token)  { @hcp_user.auth_token }
-      let(:raw_post)    { params.to_json }  # JSON format request body
+  post '/api/v1/consults/:consult_id/phone_calls' do
+    parameter :origin_phone_number, 'Phone number making the call'
+    parameter :destination_phone_number, 'Phone number where the call is directed'
 
-      example_request "[POST] Create (schedule) a phone call c (412)" do
-        explanation "Returns the created phone call"
-        status.should == 412
-        JSON.parse(response_body)['reason'].should_not be_empty
-      end
+    let(:origin_phone_number) { '555-123-4567' }
+    let(:destination_phone_number) { '555-888-8888' }
+    let(:raw_post) { params.to_json }
+
+    example_request "[POST] Create a phone_call" do
+      explanation "Creates a phone_call"
+      status.should == 200
+      body = JSON.parse(response_body, :symbolize_names => true)[:phone_call]
+      body.should be_a Hash
+      PhoneCall.find(body[:id]).should_not be_nil
     end
-
-    post '/api/v1/phone_calls' do
-      let(:auth_token)  { @hcp_user.auth_token }
-      let(:time_to_call){ 'morning' }
-      let(:raw_post)    { params.to_json }  # JSON format request body
-
-      example_request "[POST] Create (schedule) a phone call d (412)" do
-        explanation "Returns the created phone call"
-        status.should == 412
-        JSON.parse(response_body)['reason'].should_not be_empty
-      end
-    end
-
-    post '/api/v1/phone_calls' do
-      let(:auth_token)  { @hcp_user.auth_token }
-      let(:time_to_call){ 'morning' }
-      let(:time_zone)   { '-5' }
-      let(:raw_post)    { params.to_json }  # JSON format request body
-
-      example_request "[POST] Create (schedule) a phone call e (412)" do
-        explanation "Returns the created phone call"
-        status.should == 412
-        JSON.parse(response_body)['reason'].should_not be_empty
-      end
-    end
-
-    post '/api/v1/phone_calls' do
-      let(:auth_token)  { @hcp_user.auth_token }
-      let(:message_id)  { 1234 }
-      let(:time_to_call){ 'morning' }
-      let(:time_zone)   { '-5' }
-      let(:raw_post)    { params.to_json }  # JSON format request body
-
-      example_request "[POST] Create (schedule) a phone call f (404)" do
-        explanation "Returns the created phone call"
-        status.should == 404
-        JSON.parse(response_body)['reason'].should_not be_empty
-      end
-    end
-
-    post '/api/v1/phone_calls' do
-      let(:auth_token)  { @hcp_user.auth_token }
-      let(:message_id)  { @user_message.id }
-      let(:time_to_call){ 'morning' }
-      let(:time_zone)   { '-5' }
-      let(:raw_post)    { params.to_json }  # JSON format request body
-
-      example_request "[POST] Create (schedule) a phone call g (404)" do
-        explanation "Returns the created phone call"
-        status.should == 404
-        JSON.parse(response_body)['reason'].should_not be_empty
-      end
-    end
-
-    post '/api/v1/phone_calls' do
-      let(:auth_token)  { @hcp_user.auth_token }
-      let(:message_id)  { @message2.id }
-      let(:time_to_call){ 'not_a_valid_value' }
-      let(:time_zone)   { '-5' }
-      let(:raw_post)    { params.to_json }  # JSON format request body
-
-      example_request "[POST] Create (schedule) a phone call h (412)" do
-        explanation "Returns the created phone call"
-        status.should == 412
-        JSON.parse(response_body)['reason'].should_not be_empty
-      end
-    end
-
   end
 end

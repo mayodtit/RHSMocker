@@ -19,7 +19,7 @@ resource "Encounters" do
     let!(:encounter) { create(:encounter, :users => [user]) }
 
     get '/api/v1/encounters' do
-      example_request "[GET] Get all encounters for a given user" do
+      example_request "[DEPRECATED] [GET] Get all encounters for a given user" do
         explanation "Returns an array of encounters"
         status.should == 200
         body = JSON.parse(response_body, :symbolize_names => true)[:encounters]
@@ -31,7 +31,7 @@ resource "Encounters" do
     get '/api/v1/encounters/:id' do
       let(:id) { encounter.id }
 
-      example_request "[GET] Get an encounter for a given user" do
+      example_request "[DEPRECATED] [GET] Get an encounter for a given user" do
         explanation "Returns an array of encounters"
         status.should == 200
         body = JSON.parse(response_body, :symbolize_names => true)[:encounter]
@@ -57,7 +57,7 @@ resource "Encounters" do
 
     let(:raw_post) { params.to_json }
 
-    example_request "[POST] Create an Encounter" do
+    example_request "[DEPRECATED] [POST] Create an Encounter" do
       explanation "Creates a new Encounter for a given user"
       status.should == 200
       body = JSON.parse(response_body, :symbolize_names => true)[:encounter]

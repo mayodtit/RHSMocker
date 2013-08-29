@@ -2,13 +2,13 @@ require 'spec_helper'
 
 describe Api::V1::MessagesController do
   let(:message) { build_stubbed(:message) }
-  let(:encounter) { message.encounter }
+  let(:consult) { message.consult }
   let(:user) { message.user }
   let(:ability) { Object.new.extend(CanCan::Ability) }
 
   before(:each) do
     controller.stub(:current_ability => ability)
-    Encounter.stub(:find => encounter)
+    Consult.stub(:find => consult)
   end
 
   describe 'GET index' do
@@ -17,7 +17,7 @@ describe Api::V1::MessagesController do
     end
 
     before(:each) do
-      encounter.stub(:messages => [message])
+      consult.stub(:messages => [message])
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -61,7 +61,7 @@ describe Api::V1::MessagesController do
     let(:messages) { double('messages', :create => message) }
 
     before(:each) do
-      encounter.stub(:messages => messages)
+      consult.stub(:messages => messages)
     end
 
     it_behaves_like 'action requiring authentication and authorization'

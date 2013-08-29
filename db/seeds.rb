@@ -47,63 +47,37 @@ unless Content.find_by_title("Which hand do you hold your phone in?")
 end
 
 
-unless Content.find_by_title("What is your gender?")
+unless Content.find_by_title("Your Gender")
 	gender = Content.create!(
 		content_type: 'Question',
-		title: 'What is your gender?',
-		body:'<div id="panel-1">
-	<div class = "content_subtitle">
-	Gender helps us personalize your Better experience.
-	</div>
-	<div style="float:left; width:140px;text-align:center;">
+		title: 'Your Gender',
+		body:'
+	<div class = "content_subtitle">What&#39;s your gender?</div>
+	<div style="float:left; width:110px;text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;set_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;male&quot;} }, {&quot;type&quot; : &quot;save_item&quot; } ]\'; window.location.href = &quot;http://dontload/&quot; ; ">
-	<img style="display : block; margin : auto;" alt="Male" width="24" height="62" src="/assets/male.png"/></a>
+	<img alt="Male" width="110" src="/assets/male.png"/></a>
 	</div>
-	<div style="margin-left:140px; text-align:center;">
+	<div style="float:right; width:110px; text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;set_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;female&quot;}},{&quot;type&quot; : &quot;save_item&quot; }] \'; window.location.href = &quot;http://dontload/&quot; ; ">
-	<img style="display : block; margin : auto;" alt="Female" width="24" height="62" src="/assets/female.png"/></a>
-	</div>
-	</div>
-	<div id="panel-2" style="display:none">
-	<div class="content_subtitle">
-	Thank you!
-	</div>
-	<div class = "content_text">
-	Your <a href="#" onclick="document.actionJSON = \'[{ &quot;type&quot; : &quot;goto_profile&quot;} ]\'; window.location.href = &quot;http://dontload/&quot;">
-	health profile</a> has been updated with your gender. This will help us personalize your Better experience.
-	</div>
+	<img alt="Female" width="110" src="/assets/female.png"/></a>
 	</div>'
 		)
 end
 
-Content.upsert_attributes({:title => "Do you have allergies?",
+Content.upsert_attributes({:title => "Your Allergies",
                            :content_type => 'Question'},
                           {
                             :body => <<-EOF
-<div id="panel-1">
-	<div class = "content_subtitle">
-	Understanding your allergies will help us provide you great care.
-	</div>
-	<div style="float:left; width:140px;text-align:center;">
-
+	<div class = "content_subtitle">Are you allergic to anything?</div>
+	<div style="float:left;width:110px;text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_allergies&quot; } , {&quot;type&quot; : &quot;save_item&quot; } ]\'; window.location.href = &quot;http://dontload/&quot; ; ">
-	<img style="display : block; margin : auto;" alt="Have Allergies" width="53" height="53" src="/assets/allergy_icon.png"/></a>
+	<img alt="Have Allergies" width="110" src="/assets/allergy_icon.png"/></a>
 	</div>
-	<div style="margin-left:140px; text-align:center;">
+	<div style="float:right;width:110px;text-align:center;">
 	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;add_allergy&quot; , &quot;body&quot; : {&quot;allergy_id&quot; : &quot;50&quot;} } , {&quot;type&quot; : &quot;save_item&quot; } ] \'; window.location.href = &quot;http://dontload/&quot; ;">
-	<img style="display : block; margin : auto;" alt="No Allergies" width="53" height="53" src="/assets/allergy_none_icon.png"/></a>
+	<img alt="No Allergies" width="110" src="/assets/allergy_none_icon.png"/></a>
 	</div>
-	</div>
-	<div id="panel-2" style="display:none">
-	<div class="content_subtitle">
-	Thank you!
-	</div>
-	<div class = "content_text">
-	Your <a href="#" onclick="document.actionJSON = \'[ { &quot;type&quot; : &quot;goto_profile&quot;} ]\';  window.location.href = &quot;http://dontload/&quot;">
-	health profile</a> has been updated with your allergy information. This will help us personalize your Better experience.
-	</div>
-	</div>
-                                     EOF
+    EOF
                           })
 
 
@@ -395,6 +369,8 @@ Allergy.find_or_create_by_name(:name=>"Multiple Environmental",:snomed_name=>"Mu
 Allergy.find_or_create_by_name(:name=>"Mushroom",:snomed_name=>"Mushroom allergy",:snomed_code=>"447961002",:food_allergen=>"true",:environment_allergen=>"false",:medication_allergen=>"false")
 Allergy.find_or_create_by_name(:name=>"Nickel",:snomed_name=>"Nickel allergy",:snomed_code=>"419788000",:food_allergen=>"true",:environment_allergen=>"false",:medication_allergen=>"false")
 Allergy.find_or_create_by_name(:name=>"No Known Allergies",:snomed_name=>"No Known Allergies",:snomed_code=>"160244002",:food_allergen=>"false",:environment_allergen=>"false",:medication_allergen=>"false")
+Allergy.find_or_create_by_name(:name=>"No Allergies",:snomed_name=>"No Known Allergies",:snomed_code=>"160244002",:food_allergen=>"false",:environment_allergen=>"false",:medication_allergen=>"false")
+Allergy.find_or_create_by_name(:name=>"None",:snomed_name=>"No Known Allergies",:snomed_code=>"160244002",:food_allergen=>"false",:environment_allergen=>"false",:medication_allergen=>"false")
 Allergy.find_or_create_by_name(:name=>"Nut",:snomed_name=>"Nut allergy",:snomed_code=>"91934008",:food_allergen=>"false",:environment_allergen=>"true",:medication_allergen=>"false")
 Allergy.find_or_create_by_name(:name=>"Oat",:snomed_name=>"Oats allergy",:snomed_code=>"419342009",:food_allergen=>"false",:environment_allergen=>"true",:medication_allergen=>"false")
 Allergy.find_or_create_by_name(:name=>"Olive oil",:snomed_name=>"Olive oil allergy",:snomed_code=>"294316000",:food_allergen=>"true",:environment_allergen=>"true",:medication_allergen=>"false")
@@ -434,23 +410,23 @@ Allergy.find_or_create_by_name(:name=>"Wool",:snomed_name=>"Wool allergy",:snome
 Allergy.find_or_create_by_name(:name=>"Zinc",:snomed_name=>"Zinc allergy",:snomed_code=>"294950002",:food_allergen=>"false",:environment_allergen=>"true",:medication_allergen=>"false")
 
 
-#Disease.create!(:name=>"",:snomed_name=>"",:snomed_code=>"")
-Disease.find_or_create_by_name(:name=>"Hypertensive disorder",:snomed_name=>"Hypertensive disorder, systemic arterial",:snomed_code=>"38341003")
-Disease.find_or_create_by_name(:name=>"Hyperlipidemia",:snomed_name=>"Hyperlipidemia",:snomed_code=>"55822004")
-Disease.find_or_create_by_name(:name=>"Depressive Disorder",:snomed_name=>"Depressive disorder",:snomed_code=>"35489007")
-Disease.find_or_create_by_name(:name=>"Gastroesophageal reflux",:snomed_name=>"Gastroesophageal reflux",:snomed_code=>"235595009")
-Disease.find_or_create_by_name(:name=>"Type 2 Diabetes",:snomed_name=>"Diabetes mellitus type 2",:snomed_code=>"44054006")
-Disease.find_or_create_by_name(:name=>"Asthma",:snomed_name=>"Asthma",:snomed_code=>"195967001")
-Disease.find_or_create_by_name(:name=>"Essential Hypertension",:snomed_name=>"Essential hypertension",:snomed_code=>"59621000")
-Disease.find_or_create_by_name(:name=>"Obesity",:snomed_name=>"Obesity",:snomed_code=>"414916001")
-Disease.find_or_create_by_name(:name=>"Diabetes",:snomed_name=>"Diabetes mellitus",:snomed_code=>"73211009")
-Disease.find_or_create_by_name(:name=>"Allergic rhinitis",:snomed_name=>"Allergic rhinitis",:snomed_code=>"61582004")
-Disease.find_or_create_by_name(:name=>"Hypothyroidism",:snomed_name=>"Hypothyroidism",:snomed_code=>"40930008")
-Disease.find_or_create_by_name(:name=>"Upper respiratory infection",:snomed_name=>"Upper respiratory infection",:snomed_code=>"54150009")
-Disease.find_or_create_by_name(:name=>"Coronary arteriosclerosis",:snomed_name=>"Coronary arteriosclerosis",:snomed_code=>"53741008")
-Disease.find_or_create_by_name(:name=>"Hypercholesterolemia",:snomed_name=>"Hypercholesterolemia",:snomed_code=>"13644009")
-Disease.find_or_create_by_name(:name=>"Urinary tract infectious disease",:snomed_name=>"Urinary tract infectious disease",:snomed_code=>"68566005")
-Disease.find_or_create_by_name(:name=>"Anemia",:snomed_name=>"Anemia",:snomed_code=>"271737000")
+#Condition.create!(:name=>"",:snomed_name=>"",:snomed_code=>"")
+Condition.find_or_create_by_name(:name=>"Hypertensive disorder",:snomed_name=>"Hypertensive disorder, systemic arterial",:snomed_code=>"38341003")
+Condition.find_or_create_by_name(:name=>"Hyperlipidemia",:snomed_name=>"Hyperlipidemia",:snomed_code=>"55822004")
+Condition.find_or_create_by_name(:name=>"Depressive Disorder",:snomed_name=>"Depressive disorder",:snomed_code=>"35489007")
+Condition.find_or_create_by_name(:name=>"Gastroesophageal reflux",:snomed_name=>"Gastroesophageal reflux",:snomed_code=>"235595009")
+Condition.find_or_create_by_name(:name=>"Type 2 Diabetes",:snomed_name=>"Diabetes mellitus type 2",:snomed_code=>"44054006")
+Condition.find_or_create_by_name(:name=>"Asthma",:snomed_name=>"Asthma",:snomed_code=>"195967001")
+Condition.find_or_create_by_name(:name=>"Essential Hypertension",:snomed_name=>"Essential hypertension",:snomed_code=>"59621000")
+Condition.find_or_create_by_name(:name=>"Obesity",:snomed_name=>"Obesity",:snomed_code=>"414916001")
+Condition.find_or_create_by_name(:name=>"Diabetes",:snomed_name=>"Diabetes mellitus",:snomed_code=>"73211009")
+Condition.find_or_create_by_name(:name=>"Allergic rhinitis",:snomed_name=>"Allergic rhinitis",:snomed_code=>"61582004")
+Condition.find_or_create_by_name(:name=>"Hypothyroidism",:snomed_name=>"Hypothyroidism",:snomed_code=>"40930008")
+Condition.find_or_create_by_name(:name=>"Upper respiratory infection",:snomed_name=>"Upper respiratory infection",:snomed_code=>"54150009")
+Condition.find_or_create_by_name(:name=>"Coronary arteriosclerosis",:snomed_name=>"Coronary arteriosclerosis",:snomed_code=>"53741008")
+Condition.find_or_create_by_name(:name=>"Hypercholesterolemia",:snomed_name=>"Hypercholesterolemia",:snomed_code=>"13644009")
+Condition.find_or_create_by_name(:name=>"Urinary tract infectious disease",:snomed_name=>"Urinary tract infectious disease",:snomed_code=>"68566005")
+Condition.find_or_create_by_name(:name=>"Anemia",:snomed_name=>"Anemia",:snomed_code=>"271737000")
 
 
 #Treatment.create!(:name=>"",:snomed_name=>"",:snomed_code=>"")

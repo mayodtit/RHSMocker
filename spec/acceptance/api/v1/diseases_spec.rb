@@ -1,28 +1,35 @@
 require 'spec_helper'
 require 'rspec_api_documentation/dsl'
 
-resource "Diseases" do
+resource 'Diseases' do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  before(:all) do
-    @disease = FactoryGirl.create(:disease, :name=>"scurvy")
-    @disease2 = FactoryGirl.create(:disease, :name=>"scurvy2")
-  end
-
- 
+  let!(:disease) { create(:disease) }
 
   get '/api/v1/diseases' do
-    parameter :q, "Query string"
-    required_parameters :q
-
-    let(:q)   { @disease.name }
-
-    example_request "[GET] Search diseases with query string" do
-      explanation "Returns an array of diseases retrieved by Solr"
-
+    example_request '[DEPRECATED] [GET] Get all Diseases' do
+      explanation 'Returns an array of Diseases'
       status.should == 200
-      JSON.parse(response_body).should_not be_empty
+      body = JSON.parse(response_body, :symbolize_names => true)
+      body[:diseases].map{|d| d[:id]}.should include(disease.id)
+    end
+
+    context 'with a query string' do
+      before(:each) do
+        Condition.stub(:search => [disease])
+      end
+
+      parameter :q, "Query string"
+      required_parameters :q
+      let(:q) { disease.name.split(' ').first }
+
+      example_request "[DEPRECATED] [GET] Search Diseases with query string" do
+        explanation "Returns an array of Diseases retrieved by Solr"
+        status.should == 200
+        body = JSON.parse(response_body, :symbolize_names => true)
+        body[:diseases].map{|d| d[:id]}.should include(disease.id)
+      end
     end
   end
 end

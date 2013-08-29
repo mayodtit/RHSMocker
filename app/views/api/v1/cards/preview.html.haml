@@ -1,0 +1,7 @@
+.content_cardview
+.content_source= image_tag 'mayo_clinic_logo.png', :class => 'mayo_icon'
+.content_title= card.title.html_safe
+- if card.resource.is_a?(Consult)
+  .content_text_preview= render :partial => 'consult', :locals => {:consult => card.resource}
+- else
+  .content_text_preview_fade= card.preview.html_safe

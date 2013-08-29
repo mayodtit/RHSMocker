@@ -8,11 +8,11 @@ class Ability
       user.id == u.id || user.associates.find_by_id(u.id)
     end
 
-    can :manage, [BloodPressure, UserDiseaseTreatment, UserAllergy, UserDisease, Weight, Card] do |o|
+    can :manage, [BloodPressure, UserTreatment, UserAllergy, UserCondition, Weight, Card] do |o|
       (user.id == o.user_id) || (can?(:manage, o.user))
     end
 
-    can :manage, Encounter do |o|
+    can :manage, Consult do |o|
       o.users.include?(user)
     end
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130812205823) do
+ActiveRecord::Schema.define(:version => 20130828170327) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -44,6 +44,14 @@ ActiveRecord::Schema.define(:version => 20130812205823) do
     t.datetime "disabled_at"
   end
 
+  create_table "api_users", :force => true do |t|
+    t.string   "name"
+    t.string   "auth_token"
+    t.datetime "disabled_at"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
   create_table "association_types", :force => true do |t|
     t.string   "name"
     t.string   "relationship_type"
@@ -72,21 +80,6 @@ ActiveRecord::Schema.define(:version => 20130812205823) do
 
   add_index "attachments", ["message_id"], :name => "index_attachments_on_message_id"
 
-  create_table "authors", :force => true do |t|
-    t.string   "name"
-    t.string   "image_url"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-    t.string   "short_name"
-  end
-
-  create_table "authors_contents", :force => true do |t|
-    t.integer  "author_id"
-    t.integer  "content_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
   create_table "blood_pressures", :force => true do |t|
     t.integer  "systolic"
     t.integer  "diastolic"
@@ -106,18 +99,45 @@ ActiveRecord::Schema.define(:version => 20130812205823) do
     t.integer  "resource_id"
     t.string   "resource_type"
     t.string   "state"
-    t.datetime "read_at"
-    t.datetime "saved_at"
-    t.datetime "dismissed_at"
-    t.datetime "created_at",                   :null => false
-    t.datetime "updated_at",                   :null => false
-    t.integer  "priority",      :default => 0, :null => false
+    t.datetime "created_at",                      :null => false
+    t.datetime "updated_at",                      :null => false
+    t.integer  "priority",         :default => 0, :null => false
+    t.datetime "state_changed_at"
   end
 
   create_table "collection_types", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "conditions", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.string   "snomed_name"
+    t.string   "snomed_code"
+    t.datetime "disabled_at"
+  end
+
+  create_table "consult_users", :force => true do |t|
+    t.string   "role"
+    t.integer  "consult_id"
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.boolean  "read"
+  end
+
+  create_table "consults", :force => true do |t|
+    t.string   "status"
+    t.string   "priority"
+    t.boolean  "checked"
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
+    t.integer  "subject_id",   :default => 0, :null => false
+    t.integer  "initiator_id", :default => 0, :null => false
+    t.string   "title"
   end
 
   create_table "content_mayo_vocabularies", :force => true do |t|
@@ -184,35 +204,6 @@ ActiveRecord::Schema.define(:version => 20130812205823) do
     t.datetime "disabled_at"
   end
 
-  create_table "diseases", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
-    t.string   "snomed_name"
-    t.string   "snomed_code"
-    t.datetime "disabled_at"
-  end
-
-  create_table "encounter_users", :force => true do |t|
-    t.string   "role"
-    t.integer  "encounter_id"
-    t.integer  "user_id"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
-    t.boolean  "read"
-  end
-
-  add_index "encounter_users", ["encounter_id"], :name => "index_encounters_users_on_encounter_id"
-  add_index "encounter_users", ["user_id"], :name => "index_encounters_users_on_user_id"
-
-  create_table "encounters", :force => true do |t|
-    t.string   "status"
-    t.string   "priority"
-    t.boolean  "checked"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
   create_table "ethnic_groups", :force => true do |t|
     t.string   "name",                          :default => "", :null => false
     t.datetime "created_at",                                    :null => false
@@ -234,15 +225,6 @@ ActiveRecord::Schema.define(:version => 20130812205823) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
-
-  create_table "feedbacks", :force => true do |t|
-    t.integer  "user_id"
-    t.text     "note"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  add_index "feedbacks", ["user_id"], :name => "index_feedbacks_on_user_id"
 
   create_table "invitations", :force => true do |t|
     t.integer  "member_id"
@@ -287,14 +269,24 @@ ActiveRecord::Schema.define(:version => 20130812205823) do
   create_table "messages", :force => true do |t|
     t.text     "text"
     t.integer  "user_id"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
     t.integer  "location_id"
-    t.integer  "encounter_id"
+    t.integer  "consult_id"
     t.integer  "content_id"
+    t.integer  "scheduled_phone_call_id"
+    t.integer  "phone_call_id"
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
+
+  create_table "nurseline_records", :force => true do |t|
+    t.text     "payload"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.integer  "api_user_id"
+    t.datetime "disabled_at"
+  end
 
   create_table "offerings", :force => true do |t|
     t.string   "name"
@@ -303,19 +295,12 @@ ActiveRecord::Schema.define(:version => 20130812205823) do
   end
 
   create_table "phone_calls", :force => true do |t|
-    t.string   "time_to_call"
-    t.string   "time_zone"
-    t.string   "status"
-    t.text     "summary"
-    t.datetime "start_time"
-    t.integer  "counter"
-    t.integer  "message_id"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
-    t.boolean  "complete"
+    t.integer  "user_id"
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
+    t.string   "origin_phone_number"
+    t.string   "destination_phone_number"
   end
-
-  add_index "phone_calls", ["message_id"], :name => "index_phone_calls_on_message_id"
 
   create_table "plan_groups", :force => true do |t|
     t.string   "name"
@@ -361,6 +346,15 @@ ActiveRecord::Schema.define(:version => 20130812205823) do
 
   add_index "roles", ["name", "resource_type", "resource_id"], :name => "index_roles_on_name_and_resource_type_and_resource_id"
   add_index "roles", ["name"], :name => "index_roles_on_name"
+
+  create_table "scheduled_phone_calls", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "phone_call_id"
+    t.datetime "scheduled_at"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+    t.datetime "disabled_at"
+  end
 
   create_table "side_effects", :force => true do |t|
     t.string   "name",        :null => false
@@ -417,43 +411,16 @@ ActiveRecord::Schema.define(:version => 20130812205823) do
   add_index "user_allergies", ["allergy_id"], :name => "index_user_allergies_on_allergy_id"
   add_index "user_allergies", ["user_id"], :name => "index_user_allergies_on_user_id"
 
-  create_table "user_disease_treatment_side_effects", :force => true do |t|
-    t.integer  "user_disease_treatment_id"
-    t.integer  "side_effect_id"
-    t.datetime "created_at",                :null => false
-    t.datetime "updated_at",                :null => false
+  create_table "user_condition_user_treatments", :force => true do |t|
+    t.integer  "user_condition_id", :null => false
+    t.integer  "user_treatment_id", :null => false
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
   end
 
-  create_table "user_disease_treatments", :force => true do |t|
-    t.boolean  "prescribed_by_doctor"
-    t.date     "start_date"
-    t.date     "end_date"
-    t.integer  "time_duration"
-    t.string   "time_duration_unit"
-    t.integer  "amount"
-    t.string   "amount_unit"
-    t.boolean  "side_effect"
-    t.boolean  "successful"
-    t.integer  "treatment_id"
+  create_table "user_conditions", :force => true do |t|
     t.integer  "user_id"
-    t.integer  "doctor_id"
-    t.datetime "created_at",           :null => false
-    t.datetime "updated_at",           :null => false
-  end
-
-  add_index "user_disease_treatments", ["treatment_id"], :name => "index_user_disease_treatments_on_treatment_id"
-  add_index "user_disease_treatments", ["user_id"], :name => "index_user_disease_treatments_on_user_id"
-
-  create_table "user_disease_user_treatments", :force => true do |t|
-    t.integer  "user_disease_id",           :null => false
-    t.integer  "user_disease_treatment_id", :null => false
-    t.datetime "created_at",                :null => false
-    t.datetime "updated_at",                :null => false
-  end
-
-  create_table "user_diseases", :force => true do |t|
-    t.integer  "user_id"
-    t.integer  "disease_id"
+    t.integer  "condition_id"
     t.date     "start_date"
     t.date     "end_date"
     t.boolean  "being_treated"
@@ -464,20 +431,15 @@ ActiveRecord::Schema.define(:version => 20130812205823) do
     t.datetime "diagnosed_date"
   end
 
-  add_index "user_diseases", ["disease_id"], :name => "index_user_diseases_on_disease_id"
-  add_index "user_diseases", ["user_id"], :name => "index_user_diseases_on_user_id"
-
   create_table "user_offerings", :force => true do |t|
     t.integer  "offering_id"
     t.integer  "user_id"
-    t.datetime "created_at",                       :null => false
-    t.datetime "updated_at",                       :null => false
-    t.integer  "phone_call_id"
-    t.boolean  "unlimited",     :default => false, :null => false
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+    t.boolean  "unlimited",   :default => false, :null => false
   end
 
   add_index "user_offerings", ["offering_id"], :name => "index_user_offerings_on_offering_id"
-  add_index "user_offerings", ["phone_call_id"], :name => "index_user_offerings_on_phone_call_id"
   add_index "user_offerings", ["user_id"], :name => "index_user_offerings_on_user_id"
 
   create_table "user_plans", :force => true do |t|
@@ -503,6 +465,30 @@ ActiveRecord::Schema.define(:version => 20130812205823) do
     t.datetime "view_date"
     t.integer  "share_counter"
     t.integer  "priority",      :default => 0, :null => false
+  end
+
+  create_table "user_treatment_side_effects", :force => true do |t|
+    t.integer  "user_treatment_id"
+    t.integer  "side_effect_id"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
+
+  create_table "user_treatments", :force => true do |t|
+    t.boolean  "prescribed_by_doctor"
+    t.date     "start_date"
+    t.date     "end_date"
+    t.integer  "time_duration"
+    t.string   "time_duration_unit"
+    t.integer  "amount"
+    t.string   "amount_unit"
+    t.boolean  "side_effect"
+    t.boolean  "successful"
+    t.integer  "treatment_id"
+    t.integer  "user_id"
+    t.integer  "doctor_id"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
   end
 
   create_table "users", :force => true do |t|

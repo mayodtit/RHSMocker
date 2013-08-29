@@ -1,5 +1,9 @@
 require 'spec_helper'
 
 describe PhoneCall do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it_has_a 'valid factory'
+
+  it_validates 'presence of', :user
+  it_validates 'presence of', :origin_phone_number
+  it_validates 'presence of', :destination_phone_number
 end

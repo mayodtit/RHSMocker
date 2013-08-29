@@ -6,8 +6,15 @@ RHSMocker::Application.routes.draw do
       resources :association_types, :only => :index
       resources :contents, :only => [:index, :show]
       resources :diets, :only => :index
-      resources :diseases, :only => :index
-      resources :encounters, :only => [:index, :show, :create] do
+      resources :conditions, :only => :index
+      resources :consults, :only => [:index, :show, :create] do
+        resources :messages, :only => [:index, :show, :create]
+        resources :scheduled_phone_calls, :except => [:new, :edit]
+        resources :phone_calls, :only => [:index, :show, :create]
+        resources :users, only: :index, controller: 'consult_users'
+      end
+      resources :diseases, :only => :index, :controller => :conditions
+      resources :encounters, :only => [:index, :show, :create], :controller => 'consults' do
         resources :messages, :only => [:index, :show, :create]
       end
       resources :ethnic_groups, :only => :index
@@ -29,18 +36,29 @@ RHSMocker::Application.routes.draw do
         resources :credits, :only => [:index, :show] do
           get 'summary', :on => :collection
         end
-        resources :diseases, except: [:new, :edit], controller: 'user_diseases' do
-          resources :treatments, only: :destroy, controller: 'user_disease_user_treatments' do
-            post ':id', to: 'user_disease_user_treatments#create', on: :collection
+        resources :conditions, except: [:new, :edit], controller: 'user_conditions' do
+          resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do
+            post ':id', to: 'user_condition_user_treatments#create', on: :collection
+          end
+        end
+        resources :diseases, except: [:new, :edit], controller: 'user_conditions' do
+          resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do
+            post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
         post 'invite', :on => :member
-        resources :cards, :only => [:index, :show, :update]
+        resources :cards, :only => [:index, :show, :update] do
+          get :inbox, :on => :collection
+          get :timeline, :on => :collection
+        end
         get 'keywords', :on => :member
         resources :subscriptions, :except => [:new, :edit]
-        resources :treatments, :except => [:new, :edit], :controller => 'user_disease_treatments' do
-          resources :diseases, only: :destroy, controller: 'user_disease_user_treatments' do
-            post ':id', to: 'user_disease_user_treatments#create', on: :collection
+        resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
+          resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do
+            post ':id', to: 'user_condition_user_treatments#create', on: :collection
+          end
+          resources :diseases, only: :destroy, controller: 'user_condition_user_treatments' do
+            post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
         resources :weights, :only => [:index, :create, :destroy]
@@ -64,9 +82,6 @@ RHSMocker::Application.routes.draw do
       post "contents/save" => "user_readings#save", :as=>"contents_read_later"
       post "contents/reset" => "user_readings#reset", :as=>"contents_reset"
 
-      post "phone_calls" => "phone_calls#create"
-      # put "phone_calls" => "phone_calls#update"
-
       get "factors/:id" => "factors#index"
       post "symptoms/check" => "factors#check"
 
@@ -85,6 +100,7 @@ RHSMocker::Application.routes.draw do
     get :complete, :on => :collection
     get :signup, :on => :collection
   end
+  resources :nurseline_records, :only => :create
 
   get "password_resets/:id" => "api/v1/password_resets#edit", :as=>"edit_password_resets"
   put "password_resets/:id" => "api/v1/password_resets#update", :as=>"update_password_resets"
@@ -100,18 +116,7 @@ RHSMocker::Application.routes.draw do
   get "contents/:doc_id" => "contents#show"
   get "contents/:doc_id/:user_reading_id" => "contents#show"
 
-  resources :users
   resources :contents
-  resources :authors
-
-  match "/users/:id/readinglist"        => "users#showReadingList"
-  match "/users/:id/read/:contentId"    => "users#read", :as => :markread
-  match "/users/:id/dismiss/:contentId" => "users#dismiss", :as => :dismiss
-  match "/users/:id/later/:contentId"   => "users#later", :as => :readlater
-  match "/users/:id/reset"              => "users#resetReadingList", :as =>  :reset_content
-  match "/users/:id/weight/:weight"     => "users#updateWeight"
-  match "/users/:id/location/:lat/:long" => "users#addLocation"
-  match "/users/:id/keywords"           => "users#keywords"
 
   %w(403 404 412 500).each do |status_code|
     match status_code => 'errors#exception'

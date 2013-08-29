@@ -4,11 +4,9 @@ class Member < User
   has_many :cards, :foreign_key => :user_id
   has_many :user_readings, :order => 'read_date DESC', :foreign_key => :user_id
   has_many :contents, :through => :user_readings
-  has_many :content_authors, :foreign_key => :user_id
   has_many :messages, :foreign_key => :user_id
-  has_many :feedbacks, :foreign_key => :user_id
-  has_many :encounter_users, :foreign_key => :user_id
-  has_many :encounters, :through => :encounter_users
+  has_many :consult_users, :foreign_key => :user_id
+  has_many :consults, :through => :consult_users
   has_many :message_statuses, :foreign_key => :user_id
   has_many :locations, :foreign_key => :user_id
 
@@ -77,6 +75,10 @@ class Member < User
 
   def login
     update_attribute :auth_token, Base64.urlsafe_encode64(SecureRandom.base64(36))
+  end
+
+  def logout
+    update_attribute(:auth_token, nil)
   end
 
   def can_call?
