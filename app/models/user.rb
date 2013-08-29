@@ -25,6 +25,8 @@ class User < ActiveRecord::Base
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
 
+  mount_uploader :image_url, AvatarUploader
+
   def full_name
     return "Not Set" if first_name.blank? || last_name.blank?
     "#{first_name} #{last_name}".strip

@@ -67,6 +67,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
 
     params[:user].delete :email if current_user == user
     params[:user].delete :password
+    params[:user].delete :image_url
 
     if user.update_attributes(sanitize_for_mass_assignment(params[:user]))
       render_success({user:user})
@@ -94,6 +95,25 @@ class Api::V1::UsersController < Api::V1::ABaseController
     else
       render_failure( {reason:user.errors.full_messages.to_sentence}, 422 )
     end
+  end
+
+  def update_avatar
+    Rails.logger.info '*' * 80
+    Rails.logger.info 'here1'
+
+    user = current_user
+
+    #user = login(current_user.email, current_user.password)
+
+    user.image_url = params[:avatar]
+    if user.save
+      render_success( {user: user})
+    else
+      Rails.logger.info '*' * 80
+      Rails.logger.info user.errors
+      render_failure
+    end
+
   end
 
   def keywords
