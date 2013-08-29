@@ -17,7 +17,7 @@ resource 'Diseases' do
 
     context 'with a query string' do
       before(:each) do
-        Sunspot::Rails::StubSessionProxy::Search.any_instance.stub(:results => [disease])
+        Condition.stub(:search => [disease])
       end
 
       parameter :q, "Query string"

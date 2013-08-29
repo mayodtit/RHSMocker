@@ -18,7 +18,7 @@ describe 'Diseases' do
 
     context 'with a query param' do
       before(:each) do
-        Sunspot::Rails::StubSessionProxy::Search.any_instance.stub(:results => [disease])
+        Condition.stub(:search => [disease])
       end
 
       it 'filters Diseases with SOLR' do
