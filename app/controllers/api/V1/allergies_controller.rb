@@ -4,9 +4,9 @@ class Api::V1::AllergiesController < Api::V1::ABaseController
 
   def index
     @allergies = if params[:q].blank?
-      Allergy.where('snomed_code is NOT ?', NO_KNOWN_ALLERGIES_SNOMED_CODE).order('name ASC')
+      Allergy.where('snomed_code NOT in (?)', excluded_allergies).order('name ASC')
     else
-      solr_results.reject{|a| a.snomed_code == NO_KNOWN_ALLERGIES_SNOMED_CODE}
+      solr_results.reject{|a| excluded_allergies.include?(a.snomed_code) }
     end
 
     render_success({allergies: @allergies})
@@ -16,5 +16,13 @@ class Api::V1::AllergiesController < Api::V1::ABaseController
 
   def solr_results
     Allergy.search { fulltext params[:q] }.results
+  end
+
+  # array of snomed codes that we don't want to appear in results
+  def excluded_allergies
+    [
+      '160244002', # No Known Allergies
+      '414285001', # Food
+    ]
   end
 end
