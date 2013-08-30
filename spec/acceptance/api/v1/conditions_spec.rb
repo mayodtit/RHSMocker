@@ -17,7 +17,7 @@ resource 'Conditions' do
 
     context 'with a query string' do
       before(:each) do
-        Sunspot::Rails::StubSessionProxy::Search.any_instance.stub(:results => [condition])
+        Condition.stub(:search => [condition])
       end
 
       parameter :q, "Query string"
@@ -25,7 +25,6 @@ resource 'Conditions' do
       let(:q) { condition.name.split(' ').first }
 
       example_request "[GET] Search Conditions with query string" do
-        pending 'disabled to debug solr rendering issue'
         explanation "Returns an array of Conditions retrieved by Solr"
         status.should == 200
         body = JSON.parse(response_body, :symbolize_names => true)
