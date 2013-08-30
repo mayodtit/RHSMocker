@@ -114,6 +114,9 @@ GEM
       multipart-post (~> 1.1)
     fastercsv (1.5.5)
     fattr (2.2.1)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     formatador (0.2.4)
     guard (1.7.0)
       formatador (>= 0.2.4)
@@ -308,6 +311,7 @@ DEPENDENCIES
   delayed_job_active_record
   factory_girl_rails
   factual-api
+  figaro
   guard-rspec
   haml
   httparty
