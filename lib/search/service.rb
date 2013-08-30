@@ -10,6 +10,6 @@ class Search::Service
   private
 
   def npi
-    @npi ||= Search::Service::Mock.new
+    @npi ||= Search::Service::Npi.new
   end
 end
