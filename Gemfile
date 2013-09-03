@@ -107,3 +107,6 @@ gem 'state_machine'
 gem 'delayed_job_active_record'
 gem 'figaro'
 gem 'stripe'
+
+# analytics
+gem 'mixpanel-ruby'

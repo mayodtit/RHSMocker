@@ -159,6 +159,7 @@ GEM
       treetop (~> 1.4.8)
     method_source (0.8.1)
     mime-types (1.23)
+    mixpanel-ruby (1.0.0)
     multi_json (1.7.9)
     multi_xml (0.5.4)
     multipart-post (1.2.0)
@@ -325,6 +326,7 @@ DEPENDENCIES
   jquery-ui-rails
   less-rails
   lorem-ipsum-me
+  mixpanel-ruby
   newrelic_rpm
   nokogiri
   pg
