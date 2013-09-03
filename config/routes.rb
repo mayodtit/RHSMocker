@@ -33,6 +33,7 @@ RHSMocker::Application.routes.draw do
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
         resources :associations, :except => [:new, :edit]
         resources :blood_pressures, only: [:index, :create, :destroy]
+        resources :credit_cards, :only => :create
         resources :credits, :only => [:index, :show] do
           get 'summary', :on => :collection
         end
