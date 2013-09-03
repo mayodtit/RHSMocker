@@ -1,0 +1,32 @@
+require 'spec_helper'
+require 'rspec_api_documentation/dsl'
+
+resource 'CreditCards' do
+  header 'Accept', 'application/json'
+  header 'Content-Type', 'application/json'
+
+  parameter :auth_token, 'User auth_token'
+  required_parameters :auth_token
+
+  let!(:user) { create(:member).tap{|u| u.login} }
+  let(:user_id) { user.id }
+  let(:auth_token) { user.auth_token }
+  let(:stripe_customer) { double('stripe_customer', :id => 'stripe_id') }
+
+  post '/api/v1/users/:user_id/credit_cards' do
+    before(:each) do
+      Stripe::Customer.stub(:create => stripe_customer, :retrieve => stripe_customer)
+    end
+
+    parameter :stripeToken, 'Stripe CreditCard token'
+    required_parameters :stripeToken
+
+    let(:stripeToken) { 'tok_DEADBEEFBAADBEEF' }
+    let(:raw_post) { params.to_json }
+
+    example_request '[POST] Add a CreditCard to a member' do
+      explanation 'Associate a member with a Stripe CreditCard'
+      status.should == 200
+    end
+  end
+end
