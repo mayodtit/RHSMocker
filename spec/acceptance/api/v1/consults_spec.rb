@@ -16,7 +16,7 @@ resource "Consults" do
   required_parameters :auth_token
 
   describe 'index and show' do
-    let!(:consult) { create(:consult, :users => [user]) }
+    let!(:consult) { create(:consult, :with_messages, :users => [user]) }
 
     get '/api/v1/consults' do
       example_request "[GET] Get all consults for a given user" do

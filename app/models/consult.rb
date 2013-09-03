@@ -40,7 +40,7 @@ class Consult < ActiveRecord::Base
   end
 
   def serializable_hash(options=nil)
-    super(options || {:include => :messages})
+    super(options || {:methods => :last_message_at})
   end
 
   def members
@@ -60,6 +60,10 @@ class Consult < ActiveRecord::Base
       cards.upsert_attributes({:user_id => id},
                               {:state_event => :reset})
     end
+  end
+
+  def last_message_at
+    messages.order('created_at DESC').pluck(:created_at).first
   end
 
   private
