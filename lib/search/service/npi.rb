@@ -1,6 +1,6 @@
 class Search::Service::Npi
   include HTTParty
-  base_uri 'http://docnpi.com'
+  base_uri 'http://api.notonlydev.com/'
 
   def query(params)
     sanitize_response(get_records(params))
@@ -17,7 +17,8 @@ class Search::Service::Npi
   private
 
   def get_records(params)
-    response = self.class.get('/api/index.php', :query => params.merge(:is_person => true,
+    response = self.class.get('/api/index.php', :query => params.merge(:apikey => ENV['NOD_API_KEY'],
+                                                                       :is_person => true,
                                                                        :is_address => false,
                                                                        :is_org => false,
                                                                        :is_ident => false,

@@ -1,6 +1,8 @@
 class Diet < ActiveRecord::Base
   include SoftDeleteModule
 
+  has_many :users
+
   attr_accessible :name, :ordinal
 
   validates :name, :ordinal, presence: true
@@ -15,7 +17,7 @@ class Diet < ActiveRecord::Base
   end
 
   def set_ordinal
-    return true if ordinal > 0
+    return true if ordinal.try(:>, 0)
     self.ordinal = self.class.max_ordinal + 1
   end
 end

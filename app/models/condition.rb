@@ -1,20 +1,12 @@
 class Condition < ActiveRecord::Base
   include SoftDeleteModule
 
-  attr_accessible :name, :snomed_name, :snomed_code
   has_many :user_conditions
-  has_many :users, :through=> :user_conditions
+  has_many :users, :through => :user_conditions
+
+  attr_accessible :name, :snomed_name, :snomed_code
 
   searchable do
     text :name
-  end
-
-  def as_json options=nil
-    {
-      id:id,
-      name:name,
-      snomed_name:snomed_name,
-      snomed_code:snomed_code
-    }
   end
 end

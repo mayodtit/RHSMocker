@@ -105,6 +105,7 @@ gem 'titleize'
 gem 'haml'
 gem 'state_machine'
 gem 'delayed_job_active_record'
+gem 'figaro'
 
 # for image storage
 gem 'carrierwave'
