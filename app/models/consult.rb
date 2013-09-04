@@ -74,8 +74,12 @@ class Consult < ActiveRecord::Base
             ON message_statuses.message_id = messages.id
             AND message_statuses.user_id = #{user.id}
             AND message_statuses.status = 'unread'")
-    .select('consults.*, count(message_statuses.id) as unread_messages_count')
+    .select('consults.*, count(message_statuses.id) as unread_messages_count_string')
     .group('consults.id')
+  end
+
+  def unread_messages_count
+    unread_messages_count_string.to_i
   end
 
   private

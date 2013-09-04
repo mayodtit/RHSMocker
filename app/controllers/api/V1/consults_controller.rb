@@ -5,8 +5,12 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
   def index
     @consults = @user.consults.with_unread_messages_count_for(@user)
     @consults = @consults.where(:status => params[:status]) if params[:status]
-    index_resource(@consults, :encounters) and return if encounter_path?
-    index_resource(@consults)
+    options = Consult::BASE_OPTIONS.merge({:except => :unread_messages_count_string,
+                                           :methods => :unread_messages_count}) do |k, v1, v2|
+      Array.wrap(v1) << v2
+    end
+    index_resource(@consults.as_json(options), :encounters) and return if encounter_path?
+    index_resource(@consults.as_json(options))
   end
 
   def show

@@ -18,6 +18,7 @@ describe Api::V1::ConsultsController do
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       before(:each) do
         user.stub_chain(:consults, :with_unread_messages_count_for).and_return([consult])
+        consult.stub(:unread_messages_count => 1)
       end
 
       it_behaves_like 'success'
@@ -25,7 +26,7 @@ describe Api::V1::ConsultsController do
       it "returns an array of Consults" do
         do_request
         json = JSON.parse(response.body, :symbolize_names => true)
-        json[:consults].to_json.should == [consult.as_json].to_json
+        json[:consults].to_json.should == [consult.as_json.merge!(:unread_messages_count => 1)].to_json
       end
     end
   end
