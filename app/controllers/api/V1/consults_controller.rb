@@ -3,13 +3,10 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
   before_filter :load_consult!, :only => :show
 
   def index
-    if params[:status]
-      index_resource(@user.consults.where(:status => params[:status]), :encounters) and return if encounter_path?
-      index_resource(@user.consults.where(:status => params[:status]))
-    else
-      index_resource(@user.consults, :encounters) and return if encounter_path?
-      index_resource(@user.consults)
-    end
+    @consults = @user.consults.with_unread_messages_count_for(@user)
+    @consults = @consults.where(:status => params[:status]) if params[:status]
+    index_resource(@consults, :encounters) and return if encounter_path?
+    index_resource(@consults)
   end
 
   def show
