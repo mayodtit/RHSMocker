@@ -42,7 +42,7 @@ class Message < ActiveRecord::Base
   end
 
   def title
-    "Conversation with a Health Advocate"
+    'Conversation with a Health Assistant'
   end
 
   def content_type
