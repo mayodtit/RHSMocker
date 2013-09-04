@@ -16,16 +16,7 @@ class RemoteEvent < ActiveRecord::Base
 
   def log
     events.each do |e|
-      log_mixpanel(e['name'])
-      log_ga
+      LogAnalyticsJob.new(user_id_for_logging, e['name']).log_all
     end
-  end
-
-  def log_ga
-    # TBD
-  end
-
-  def log_mixpanel(event_name)
-    MIXPANEL.track(user_id_for_logging, event_name)
   end
 end
