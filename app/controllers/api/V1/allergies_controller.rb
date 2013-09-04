@@ -1,6 +1,5 @@
 class Api::V1::AllergiesController < Api::V1::ABaseController
   skip_before_filter :authentication_check
-  NO_KNOWN_ALLERGIES_SNOMED_CODE = '160244002'
 
   def index
     @allergies = if params[:q].blank?
