@@ -26,6 +26,7 @@ describe Api::V1::RemoteEventsController do
 
     before(:each) do
       RemoteEvent.stub(:create => remote_event)
+      RemoteEvent.any_instance.stub(:log).and_return(nil)
     end
 
     context 'success' do
