@@ -4,3 +4,6 @@ development:
   STRIPE_PUBLIC_KEY: pk_test_KFkJ0eRff3PMczxCVA4ErzYc
   API_DOCS_USERNAME: better
   API_DOCS_PASSWORD: betterpassword
+  AWS_ACCESS_KEY_ID: AKIAJYP4DRAT7EQ3RREQ
+  AWS_SECRET_ACCESS_KEY: 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
+  S3_BUCKET: btr01-devlocal
