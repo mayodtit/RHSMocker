@@ -22,9 +22,6 @@ resource 'ConsultUsers' do
     example_request '[GET] Get all users associated for a given consult' do
       explanation 'Returns a list of users'
       status.should == 200
-
-      puts response_body
-
       body = JSON.parse(response_body, :symbolize_names => true)[:consult_users]
       body.should be_a Array
       body.first.should be_a Hash

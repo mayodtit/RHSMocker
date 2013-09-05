@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130828170327) do
+ActiveRecord::Schema.define(:version => 20130903215455) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -524,6 +524,7 @@ ActiveRecord::Schema.define(:version => 20130828170327) do
     t.string   "type",                                                                        :default => "",    :null => false
     t.string   "invitation_token"
     t.string   "units",                                                                       :default => "US",  :null => false
+    t.string   "stripe_customer_id"
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"

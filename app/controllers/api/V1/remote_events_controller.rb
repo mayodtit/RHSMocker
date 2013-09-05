@@ -4,7 +4,11 @@ class Api::V1::RemoteEventsController < Api::V1::ABaseController
   def create
     remote_event = RemoteEvent.create(data: params.to_json)
     if remote_event.errors.empty?
-      render_success
+      begin
+        remote_event.log
+      ensure
+        render_success
+      end
     else
       render_failure({reason: remote_event.errors.full_messages.to_sentence}, 422)
     end

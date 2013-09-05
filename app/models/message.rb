@@ -42,7 +42,7 @@ class Message < ActiveRecord::Base
   end
 
   def title
-    "Conversation with a Health Advocate"
+    'Conversation with a Health Assistant'
   end
 
   def content_type
@@ -54,16 +54,16 @@ class Message < ActiveRecord::Base
   end
   alias_method :preview, :previewText
 
+  BASE_OPTIONS = {:only => [:id, :text, :created_at],
+                  :methods => :title,
+                  :include => {:location => {},
+                               :attachments => {},
+                               :mayo_vocabularies => {},
+                               :content => {},
+                               :user => {:only => :id, :methods => :full_name}}}
+
   def serializable_hash(options=nil)
-    options ||= {}
-    options.reverse_merge!(:only => [:id, :text],
-                           :methods => :title,
-                           :include => {:location => {},
-                                        :attachments => {},
-                                        :mayo_vocabularies => {},
-                                        :content => {},
-                                        :user => {:only => :id, :methods => :full_name}})
-    super(options)
+    super(options || BASE_OPTIONS)
   end
 
   def self.phone_params(type, user, consult, nested_params=nil)
@@ -76,6 +76,13 @@ class Message < ActiveRecord::Base
     joins(:message_statuses)
     .where(:message_statuses => {:status => :unread})
     .pluck('distinct message_statuses.user_id')
+  end
+
+  def self.with_message_statuses_for(user)
+    joins("LEFT OUTER JOIN message_statuses
+           ON message_statuses.message_id = messages.id
+           AND message_statuses.user_id = #{user.id}")
+    .select('messages.*, message_statuses.status')
   end
 
   private

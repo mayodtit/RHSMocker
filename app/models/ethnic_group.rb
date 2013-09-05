@@ -1,6 +1,8 @@
 class EthnicGroup < ActiveRecord::Base
   include SoftDeleteModule
 
+  has_many :users
+
   attr_accessible :name, :ethnicity_code, :ordinal
 
   validates :name, :ethnicity_code, :ordinal, presence: true
@@ -9,14 +11,6 @@ class EthnicGroup < ActiveRecord::Base
   before_validation :set_ordinal
   before_validation :set_ethnicity_code
 
-  def as_json(options=nil)
-    {
-      id: id,
-      name: name,
-      ordinal: ordinal
-    }
-  end
-
   private
 
   def self.max_ordinal
@@ -24,7 +18,7 @@ class EthnicGroup < ActiveRecord::Base
   end
 
   def set_ordinal
-    return true if ordinal > 0
+    return true if ordinal.try(:>, 0)
     self.ordinal = self.class.max_ordinal + 1
   end
 
@@ -33,7 +27,7 @@ class EthnicGroup < ActiveRecord::Base
   end
 
   def set_ethnicity_code
-    return true if ethnicity_code > 0
+    return true if ethnicity_code.try(:>, 0)
     self.ethnicity_code = self.class.max_ethnicity_code + 1
   end
 end

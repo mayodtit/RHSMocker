@@ -17,7 +17,7 @@ describe Api::V1::MessagesController do
     end
 
     before(:each) do
-      consult.stub(:messages => [message])
+      consult.stub_chain(:messages, :with_message_statuses_for).and_return([message])
     end
 
     it_behaves_like 'action requiring authentication and authorization'

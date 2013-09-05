@@ -1,5 +1,5 @@
 FactoryGirl.define do
   factory :condition, aliases: [:disease] do
-    sequence(:name){|n| "condition #{n}" }
+    sequence(:name) {|n| "Condition #{n}"}
   end
 end
