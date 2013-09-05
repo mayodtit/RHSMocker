@@ -35,7 +35,7 @@ RSpec.configure do |config|
   # order dependency and want to debug it, you can fix the order by providing
   # the seed, which is printed after each run.
   #     --seed 1234
-  #config.order = "random"
+  config.order = "random"
   config.alias_it_should_behave_like_to :it_validates, "it validates"
   config.alias_it_should_behave_like_to :it_has_a, "it has a"
 end
