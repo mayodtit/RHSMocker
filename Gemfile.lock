@@ -175,6 +175,9 @@ GEM
       rack (~> 1.2)
     options (2.3.0)
       fattr
+    parallel (0.8.0)
+    parallel_tests (0.15.3)
+      parallel
     pg (0.13.2)
     polyglot (0.3.3)
     pr_geohash (1.0.0)
@@ -300,6 +303,11 @@ GEM
       crack (>= 0.3.2)
     xpath (2.0.0)
       nokogiri (~> 1.3)
+    zeus (0.13.3)
+      method_source (>= 0.6.7)
+    zeus-parallel_tests (0.2.4)
+      parallel_tests (>= 0.11.3)
+      zeus (~> 0.13.3)
 
 PLATFORMS
   ruby
@@ -329,6 +337,7 @@ DEPENDENCIES
   mixpanel-ruby
   newrelic_rpm
   nokogiri
+  parallel_tests
   pg
   progress_bar
   pusher
@@ -350,3 +359,4 @@ DEPENDENCIES
   titleize
   twitter-bootstrap-rails!
   uglifier (>= 1.0.3)
+  zeus-parallel_tests
