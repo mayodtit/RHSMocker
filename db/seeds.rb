@@ -1152,13 +1152,6 @@ SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>in_or_on_toilet_bowl_factor.id,
-  :factor_group_id=>blood_appears_factor_group
-)
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>in_or_on_toilet_bowl_factor.id,
   :factor_group_id=>blood_appears_factor_group.id
 )
 SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
