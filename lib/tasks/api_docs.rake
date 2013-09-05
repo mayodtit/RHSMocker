@@ -1,6 +1,6 @@
 require 'archive/tar/minitar'
 
-namespace :docs do
+namespace :api_docs do
   task :export do
     Archive::Tar::Minitar.pack(docs_directory_path, Zlib::GzipWriter.new(File.open(gzip_file_path, 'wb')))
     s3_directory.files.create(:key => docs_filename, :body => File.open(gzip_file_path), :public => true)
