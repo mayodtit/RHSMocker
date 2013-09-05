@@ -47,7 +47,6 @@ end
 group :development, :test do
   gem 'rspec_api_documentation'
   gem "rspec-rails", "~> 2.0"
-  gem 'raddocs', :git => 'git://github.com/chilcutt/raddocs.git'
   gem 'database_cleaner', '~>0.9.1'
   gem "parallel_tests"
   gem "zeus-parallel_tests"
@@ -56,6 +55,8 @@ group :development, :test do
   gem 'guard-rspec'
   gem 'simplecov'
 end
+
+gem 'raddocs', :git => 'git://github.com/chilcutt/raddocs.git'
 
 gem 'jquery-rails'
 gem 'pusher'
