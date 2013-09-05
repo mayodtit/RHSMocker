@@ -13,7 +13,7 @@ Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
 RspecApiDocumentation.configure do |config|
   config.docs_dir = Rails.root.join("public", "docs")
   config.format = [:html, :json]
-  config.keep_source_order = true
+  config.keep_source_order = false
 end
 
 RSpec.configure do |config|
