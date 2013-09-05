@@ -108,3 +108,5 @@ gem 'stripe'
 
 # analytics
 gem 'mixpanel-ruby'
+
+gem 'minitar'
