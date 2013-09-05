@@ -110,3 +110,4 @@ gem 'stripe'
 gem 'mixpanel-ruby'
 
 gem 'minitar'
+gem 'fog'
