@@ -11,8 +11,8 @@ Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
 
 # Rpsec Doc Generator Config
 RspecApiDocumentation.configure do |config|
-  config.docs_dir = Rails.root.join("public", "docs")
-  config.format = [:html, :json]
+  config.docs_dir = Rails.root.join("tmp", "docs")
+  config.format = [:json]
   config.keep_source_order = false
 end
 
