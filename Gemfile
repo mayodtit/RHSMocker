@@ -50,6 +50,8 @@ group :development, :test do
   gem "rspec-rails", "~> 2.0"
 
   gem 'database_cleaner', '~>0.9.1'
+  gem "parallel_tests"
+  gem "zeus-parallel_tests"
 end
 
 group :test do
@@ -110,3 +112,4 @@ gem 'stripe'
 
 # analytics
 gem 'mixpanel-ruby'
+gem 'curb'
