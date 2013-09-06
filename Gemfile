@@ -112,3 +112,4 @@ gem 'mixpanel-ruby'
 
 gem 'minitar'
 gem 'fog'
+gem 's3_uploader'
