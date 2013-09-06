@@ -47,7 +47,6 @@ end
 group :development, :test do
   gem 'rspec_api_documentation'
   gem "rspec-rails", "~> 2.0"
-  gem 'database_cleaner', '~>0.9.1'
   gem "parallel_tests"
   gem "zeus-parallel_tests"
   gem 'factory_girl_rails'

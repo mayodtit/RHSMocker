@@ -97,7 +97,6 @@ GEM
     crack (0.4.1)
       safe_yaml (~> 0.9.0)
     curb (0.8.4)
-    database_cleaner (0.9.1)
     debugger (1.6.0)
       columnize (>= 0.3.1)
       debugger-linecache (~> 1.2.0)
@@ -363,7 +362,6 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 3.2.1)
   curb
-  database_cleaner (~> 0.9.1)
   debugger
   delayed_job_active_record
   factory_girl_rails
