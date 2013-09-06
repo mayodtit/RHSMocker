@@ -114,3 +114,6 @@ gem 'curb'
 gem 'minitar'
 gem 'fog'
 gem 's3_uploader'
+
+# Used for rails_stdout_logging and rails_serve_static_assets
+gem 'rails_12factor', group: :production
