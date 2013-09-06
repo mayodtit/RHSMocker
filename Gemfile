@@ -112,3 +112,4 @@ gem 'stripe'
 
 # analytics
 gem 'mixpanel-ruby'
+gem 'curb'
