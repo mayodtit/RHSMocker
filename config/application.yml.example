@@ -6,7 +6,7 @@ development:
   API_DOCS_PASSWORD: betterpassword
   AWS_ACCESS_KEY_ID: AKIAJYP4DRAT7EQ3RREQ
   AWS_SECRET_ACCESS_KEY: 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
-  S3_BUCKET: btr01-devlocal
+  S3_BUCKET: btr01-dev
 test:
   NOD_API_KEY: ukWpqVwGyS7Aq3USxYEK
   STRIPE_API_KEY: sk_test_sozodqhf3PL25boLKYlBWWzX
@@ -15,4 +15,4 @@ test:
   API_DOCS_PASSWORD: betterpassword
   AWS_ACCESS_KEY_ID: AKIAJYP4DRAT7EQ3RREQ
   AWS_SECRET_ACCESS_KEY: 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
-  S3_BUCKET: btr01-devlocal
+  S3_BUCKET: btr01-dev
