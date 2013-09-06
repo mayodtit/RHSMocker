@@ -14,7 +14,8 @@ class Message < ActiveRecord::Base
   attr_accessible :user, :user_id, :consult, :consult_id, :content, :content_id, :text,
                   :new_location, :new_keyword_ids, :new_attachments, :scheduled_phone_call,
                   :scheduled_phone_call_id, :phone_call, :phone_call_id,
-                  :scheduled_phone_call_attributes, :phone_call_attributes
+                  :scheduled_phone_call_attributes, :phone_call_attributes,
+                  :created_at
 
   validates :user, :consult, :text, presence: true
   validates :content, presence: true, if: lambda{|m| m.content_id.present?}

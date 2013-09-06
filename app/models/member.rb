@@ -184,4 +184,10 @@ class Member < User
   def pusher_id
     "RHS_#{Rails.env}_#{id}"
   end
+
+  def self.robot
+    find_or_create_by_email(:email => 'robot@getbetter.com',
+                            :first_name => 'Better',
+                            :last_name => 'Robot')
+  end
 end
