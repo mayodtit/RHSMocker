@@ -4,7 +4,6 @@ namespace :api_docs do
                                 {:s3_key => ENV['AWS_ACCESS_KEY_ID'],
                                  :s3_secret => ENV['AWS_SECRET_ACCESS_KEY'],
                                  :destination_dir => 'docs/',
-                                 :region => 's3-us-west-2',
                                  :threads => 4})
   end
 end
