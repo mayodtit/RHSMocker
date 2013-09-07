@@ -45,21 +45,17 @@ group :assets do
 end
 
 group :development, :test do
-  # API documentation
   gem 'rspec_api_documentation'
   gem "rspec-rails", "~> 2.0"
-
-  gem 'database_cleaner', '~>0.9.1'
   gem "parallel_tests"
   gem "zeus-parallel_tests"
-end
-
-group :test do
   gem 'factory_girl_rails'
   gem 'capybara'
   gem 'guard-rspec'
   gem 'simplecov'
 end
+
+gem 'raddocs', :git => 'git://github.com/chilcutt/raddocs.git'
 
 gem 'jquery-rails'
 gem 'pusher'
@@ -112,4 +108,11 @@ gem 'stripe'
 
 # analytics
 gem 'mixpanel-ruby'
+
 gem 'curb'
+gem 'minitar'
+gem 'fog'
+gem 's3_uploader'
+
+# Used for rails_stdout_logging and rails_serve_static_assets
+gem 'rails_12factor', group: :production

@@ -19,6 +19,9 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
   def create
     create_resource(@consult.messages, create_params)
+    @consult.messages.create(:user => Member.robot,
+                             :text => "We've received your message! If the system was live, I would be a real Health Care Professional talking with you!",
+                             :created_at => Time.now + 1.second)
   end
 
   def mark_read

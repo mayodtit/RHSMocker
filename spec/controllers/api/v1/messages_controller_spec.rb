@@ -68,7 +68,7 @@ describe Api::V1::MessagesController do
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it 'attempts to create the record' do
-        messages.should_receive(:create).once
+        messages.should_receive(:create).twice #TODO - creates 2 messages including auto-response
         do_request
       end
 
