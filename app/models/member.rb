@@ -115,6 +115,10 @@ class Member < User
 
   def add_install_message
     if Content.install_message
+      user_readings.create!(content: Content.install_message, # TODO - remove when UserReadings retired
+                            read_date: Time.zone.now.iso8601,
+                            save_date: Time.zone.now.iso8601,
+                            save_count: 1)
       cards.create!(resource: Content.install_message,
                     state: :saved,
                     state_changed_at: Time.zone.now.iso8601)
@@ -124,6 +128,7 @@ class Member < User
 
   def add_new_member_content
     Content.new_member_content.each do |c|
+      user_readings.create!(content: c) # TODO - remove when UserReadings retired
       cards.create!(resource: c)
     end
     true
