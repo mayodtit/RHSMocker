@@ -115,10 +115,9 @@ class Member < User
 
   def add_install_message
     if Content.install_message
-      user_readings.create!(content: Content.install_message,
-                            read_date: Time.zone.now.iso8601,
-                            save_date: Time.zone.now.iso8601,
-                            save_count: 1)
+      cards.create!(resource: Content.install_message,
+                    state: :saved,
+                    state_changed_at: Time.zone.now.iso8601)
     end
     true
   end
