@@ -124,7 +124,7 @@ class Member < User
 
   def add_new_member_content
     Content.new_member_content.each do |c|
-      user_readings.create!(content: c)
+      cards.create!(resource: c)
     end
     true
   end
