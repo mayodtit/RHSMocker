@@ -6,6 +6,7 @@ RHSMocker::Application.routes.draw do
       resources :association_types, :only => :index
       resources :contents, :only => [:index, :show]
       resources :diets, :only => :index
+      resources :cards, :only => [:show, :update]
       resources :conditions, :only => :index
       resources :consults, :only => [:index, :show, :create] do
         resources :messages, :only => [:index, :show, :create]
