@@ -11,7 +11,7 @@ class Card < ActiveRecord::Base
 
   before_validation :set_default_priority
 
-  delegate :title, :content_type, :preview, to: :resource
+  delegate :title, :content_type, :preview, :abstract, :body, :formatted_body, to: :resource
 
   def self.inbox
     where(:state => [:unread, :read]).by_priority
