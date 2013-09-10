@@ -1042,147 +1042,147 @@ abdominal_pain_stress_triggered_or_worsened_by_SF = SymptomsFactor.find_or_creat
 )
 ## Blood in Stool - ADULT
 ## ##################################################################################################################################
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_abdominal_pain_or_cramping_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>abdominal_pain_or_cramping_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_anal_itching_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>anal_itching_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_change_in_bowel_habits_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>change_in_bowel_habits_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_constipation_factor_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>constipation_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_diarrhea_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>diarrhea_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_fatigue_or_weakness_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>fatigue_or_weakness_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_fever_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>fever_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_frequent_urge_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>frequent_urge_to_have_bowel_movement_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_narrow_stools_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>narrow_stools_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_nausea_or_vomiting_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>nausea_or_vomiting_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_painful_bowel_movements_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>painful_bowel_movements_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_rectal_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>rectal_pain_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_unintended_weight_loss_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>unintended_weight_loss_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_in_or_on_stool_blood_appears_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>in_or_on_stool_factor.id,
   :factor_group_id=>blood_appears_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_in_or_on_toilet_bowl_blood_appears_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>in_or_on_toilet_bowl_factor.id,
   :factor_group_id=>blood_appears_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_drinking_more_water_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>drinking_more_water_factor.id,
   :factor_group_id=>relieved_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_eating_certain_foods_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>eating_certain_foods_factor.id,
   :factor_group_id=>relieved_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_eating_more_fibre_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>eating_more_fibre_factor.id,
   :factor_group_id=>relieved_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_drinking_alcohol_or_caffenine_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>drinking_alcohol_or_caffenine_factor.id,
   :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_eating_certain_foods_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>eating_certain_foods_factor.id,
   :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_straining_during_bowel_movements_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
@@ -2276,17 +2276,334 @@ ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :content_id=>Content.where(:mayo_doc_id=>'DS00085').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
-:symptoms_factor_id=>abdominal_pain_diarrhea_accompanied_by_SF.id ,
+:symptoms_factor_id=>abdominal_pain_diarrhea_accompanied_by_SF.id,
 :content_id=>Content.where(:mayo_doc_id=>'DS00085').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
-:symptoms_factor_id=>abdominal_pain_fever_accompanied_by_SF.id ,
+:symptoms_factor_id=>abdominal_pain_fever_accompanied_by_SF.id,
 :content_id=>Content.where(:mayo_doc_id=>'DS00085').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
-:symptoms_factor_id=>abdominal_pain_nausea_or_vomiting_accompanied_by_SF.id ,
+:symptoms_factor_id=>abdominal_pain_nausea_or_vomiting_accompanied_by_SF.id,
 :content_id=>Content.where(:mayo_doc_id=>'DS00085').first.id
 )
+#BLOOD IN STOOL - DS00762
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_in_or_on_stool_blood_appears_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00762').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_in_or_on_toilet_bowl_blood_appears_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00762').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_straining_during_bowel_movements_triggered_or_worsened_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00762').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_painful_bowel_movements_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00762').first.id
+)
+#BLOOD IN STOOL - DS00035
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_in_or_on_stool_blood_appears_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_change_in_bowel_habits_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_constipation_factor_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_diarrhea_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_fatigue_or_weakness_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_narrow_stools_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_nausea_or_vomiting_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_painful_bowel_movements_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_unintended_weight_loss_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+)
+#BLOOD IN STOOL - DS00511
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_in_or_on_stool_blood_appears_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00511').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_in_or_on_toilet_bowl_blood_appears_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00511').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id ,
+:content_id=>Content.where(:mayo_doc_id=>'DS00511').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_change_in_bowel_habits_accompanied_by_SF.id ,
+:content_id=>Content.where(:mayo_doc_id=>'DS00511').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_constipation_factor_accompanied_by_SF.id ,
+:content_id=>Content.where(:mayo_doc_id=>'DS00511').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_diarrhea_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00511').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_narrow_stools_accompanied_by_SF.id ,
+:content_id=>Content.where(:mayo_doc_id=>'DS00511').first.id
+)
+#BLOOD IN STOOL - DS00063
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_drinking_more_water_relieved_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00063').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_eating_more_fibre_relieved_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00063').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00063').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_constipation_factor_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00063').first.id
+)
+#BLOOD IN STOOL - DS00104
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_in_or_on_stool_blood_appears_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_in_or_on_toilet_bowl_blood_appears_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id ,
+:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_change_in_bowel_habits_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_diarrhea_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_fatigue_or_weakness_accompanied_by_SF.id ,
+:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_fever_accompanied_by_SF.id ,
+:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_unintended_weight_loss_accompanied_by_SF.id ,
+:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+)
+#BLOOD IN STOOL - DS00070
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_in_or_on_toilet_bowl_blood_appears_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_change_in_bowel_habits_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_constipation_factor_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_diarrhea_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_fever_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_nausea_or_vomiting_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+)
+#BLOOD IN STOOL - DS00488
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_in_or_on_stool_blood_appears_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_drinking_alcohol_or_caffenine_triggered_or_worsened_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_nausea_or_vomiting_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+)
+#BLOOD IN STOOL - DS00096
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_in_or_on_toilet_bowl_blood_appears_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00096').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_straining_during_bowel_movements_triggered_or_worsened_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00096').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_anal_itching_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00096').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_rectal_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00096').first.id
+)
+#BLOOD IN STOOL - DS00459
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_in_or_on_stool_blood_appears_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00459').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00459').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_frequent_urge_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00459').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_nausea_or_vomiting_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00459').first.id
+)
+#BLOOD IN STOOL - DS00242
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_in_or_on_stool_blood_appears_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_drinking_alcohol_or_caffenine_triggered_or_worsened_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_eating_certain_foods_triggered_or_worsened_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_eating_certain_foods_relieved_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_nausea_or_vomiting_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+)
+#BLOOD IN STOOL - DS00705
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_in_or_on_toilet_bowl_blood_appears_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00705').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00705').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_diarrhea_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00705').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_frequent_urge_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00705').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_painful_bowel_movements_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00705').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_rectal_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00705').first.id
+)
+#BLOOD IN STOOL - DS00598
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_in_or_on_stool_blood_appears_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_in_or_on_toilet_bowl_blood_appears_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_diarrhea_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_fatigue_or_weakness_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_fever_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_frequent_urge_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_rectal_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>blood_stool_unintended_weight_loss_accompanied_by_SF.id,
+:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+)
+
 
 o = Offering.find_or_create_by_name(name: 'Phone Call')
 p = Plan.find_or_create_by_name(name: 'Silver', monthly: true)
