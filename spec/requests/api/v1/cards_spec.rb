@@ -70,7 +70,8 @@ describe 'Cards' do
       do_request
       response.should be_success
       body = JSON.parse(response.body, :symbolize_names => true)
-      body[:card].to_json.should == card.as_json.to_json
+      body[:card][:body].should_not be_nil
+      body[:card].tap{|c| c.delete(:body)}.to_json.should == card.as_json.to_json
     end
   end
 

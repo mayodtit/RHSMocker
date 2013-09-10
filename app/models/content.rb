@@ -85,6 +85,7 @@ def reformattedBody
   end
   body
 end
+alias_method :formatted_body, :reformattedBody
 
 #Note: The image with the Health Advocate Text is served up in the CSS talk class. 
  def talkDiv
