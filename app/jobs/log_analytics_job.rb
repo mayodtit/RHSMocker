@@ -1,11 +1,11 @@
 class LogAnalyticsJob
   def initialize(remote_event)
-    data_json = JSON.parse(remote_event.data)
+    @data_json = JSON.parse(remote_event.data)
 
-    @user_id = data_json['auth_token']
-    @events = data_json['events']
-    @build_number = data_json['properties']['app_build']
-    @user_agent = get_user_agent(data_json['properties']['device_os_version'])
+    @user_id = @data_json['auth_token']
+    @events = @data_json['events']
+    @build_number = @data_json['properties']['app_build']
+    @user_agent = get_user_agent
   end
 
   def log_all
@@ -39,9 +39,12 @@ class LogAnalyticsJob
   handle_asynchronously :log_ga
 
   def log_mixpanel(event_name)
-    MIXPANEL.track(@user_id, event_name)
+    hash = @data_json['properties']
+    hash.delete('device_id') # Google Analytics doesn't allow device ID logging; don't log to Mixpanel, either
+
+    MIXPANEL.track(@user_id, event_name, hash)
   end
-  handle_asynchronously :log_mixpanel
+  #handle_asynchronously :log_mixpanel
 
   # for debugging
   #def dev
@@ -55,8 +58,8 @@ class LogAnalyticsJob
 
   # using request.user_agent results in "better-devloc/5047 CFNetwork/609.1.4 Darwin/12.4.0",
   # which Google Analytics doesn't map to an operating system
-  def get_user_agent(os_version)
-    case os_version
+  def get_user_agent
+    case @data_json['properties']['device_os_version']
       when /^6\.0/ then 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25'
       when /^6\.1/ then 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B143 Safari/8536.25'
       else nil
