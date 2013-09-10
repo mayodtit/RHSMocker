@@ -6,6 +6,7 @@ RHSMocker::Application.routes.draw do
       resources :association_types, :only => :index
       resources :contents, :only => [:index, :show]
       resources :diets, :only => :index
+      resources :cards, :only => [:show, :update]
       resources :conditions, :only => :index
       resources :consults, :only => [:index, :show, :create] do
         resources :messages, :only => [:index, :show, :create]
@@ -106,8 +107,6 @@ RHSMocker::Application.routes.draw do
   get "password_resets/:id" => "api/v1/password_resets#edit", :as=>"edit_password_resets"
   put "password_resets/:id" => "api/v1/password_resets#update", :as=>"update_password_resets"
 
-  match '/docs', :to => redirect('/docs/index.html')
-
   get "/messages" => "messages#index", :as=>"messages_index"
   root :to => "home#index"
   get "/logout" => "sessions#destroy", :as=>"logout"
@@ -122,4 +121,6 @@ RHSMocker::Application.routes.draw do
   %w(403 404 412 500).each do |status_code|
     match status_code => 'errors#exception'
   end
+
+  match '/docs' => Raddocs::App, :anchor => false
 end

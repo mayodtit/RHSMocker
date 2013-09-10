@@ -11,7 +11,7 @@ class Card < ActiveRecord::Base
 
   before_validation :set_default_priority
 
-  delegate :title, :content_type, :preview, to: :resource
+  delegate :title, :content_type, :preview, :abstract, :body, :formatted_body, to: :resource
 
   def self.inbox
     where(:state => [:unread, :read]).by_priority
@@ -31,7 +31,7 @@ class Card < ActiveRecord::Base
 
   def serializable_hash options=nil
     options ||=  {:methods => [:title, :content_type, :share_url]}
-    super(options)
+    super(options).merge!(state_specific_date)
   end
 
   private
@@ -46,6 +46,16 @@ class Card < ActiveRecord::Base
 
   def share_url
     resource.try_method(:root_share_url).try(:+, "/#{id}")
+  end
+
+  def state_specific_date
+    if read?
+      {:read_date => state_changed_at}
+    elsif saved?
+      {:save_date => state_changed_at}
+    else
+      {}
+    end
   end
 
   state_machine :initial => :unread do
