@@ -83,5 +83,9 @@ class Card < ActiveRecord::Base
     before_transition any => :unread do |card, transition|
       card.state_changed_at = nil
     end
+
+    after_transition any => [:saved, :dismissed] do |card, transition|
+      PusherJob.new.push_content(card.user_id)
+    end
   end
 end
