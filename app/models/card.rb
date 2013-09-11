@@ -48,11 +48,15 @@ class Card < ActiveRecord::Base
     resource.try_method(:root_share_url).try(:+, "/#{id}")
   end
 
+  # TODO - hack this in so the client doesn't have to change field names yet
   def state_specific_date
     if read?
       {:read_date => state_changed_at}
     elsif saved?
-      {:save_date => state_changed_at}
+      {
+        :read_date => state_changed_at,
+        :save_date => state_changed_at
+      }
     else
       {}
     end
@@ -76,8 +80,16 @@ class Card < ActiveRecord::Base
       transition all => :unread
     end
 
+    before_transition any => [:read, :saved, :dismissed] do |card, transition|
+      card.state_changed_at ||= Time.now
+    end
+
     before_transition any => :unread do |card, transition|
       card.state_changed_at = nil
+    end
+
+    after_transition any => [:saved, :dismissed] do |card, transition|
+      PusherJob.new.push_content(card.user_id)
     end
   end
 end
