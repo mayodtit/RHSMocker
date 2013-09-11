@@ -55,6 +55,9 @@ group :development, :test do
   gem 'simplecov'
 end
 
+# test coverage for Code Climate
+gem 'codeclimate-test-reporter', group: :test, require: nil
+
 gem 'raddocs', :git => 'git://github.com/chilcutt/raddocs.git'
 
 gem 'jquery-rails'
