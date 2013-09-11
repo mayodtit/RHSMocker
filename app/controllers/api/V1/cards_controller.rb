@@ -19,7 +19,7 @@ class Api::V1::CardsController < Api::V1::ABaseController
   end
 
   def update
-    update_resource(@card, params[:card])
+    update_resource(@card, card_params)
   end
 
   private
@@ -27,6 +27,13 @@ class Api::V1::CardsController < Api::V1::ABaseController
   def load_card!
     @card = @user.cards.find(params[:id])
     authorize! :manage, @card
+  end
+
+  def card_params
+    if @card.saved? || @card.dismissed?
+      params[:card].delete(:state_changed_at) unless [:saved, :dismissed].include?(params[:card][:state_event])
+    end
+    params[:card]
   end
 
   def merge_previews(cards)
