@@ -76,6 +76,10 @@ class Card < ActiveRecord::Base
       transition all => :unread
     end
 
+    before_transition any => [:read, :saved, :dismissed] do |card, transition|
+      card.state_changed_at ||= Time.now
+    end
+
     before_transition any => :unread do |card, transition|
       card.state_changed_at = nil
     end
