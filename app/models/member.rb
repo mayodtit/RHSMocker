@@ -139,7 +139,7 @@ class Member < User
   end
 
   def hasMaxContent
-    user_readings.unread.count >= 7
+    user_readings.unread.count >= 7 && cards.inbox.count >= 7
   end
 
   def getContent
