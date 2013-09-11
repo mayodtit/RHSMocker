@@ -2,7 +2,7 @@ class LogAnalyticsJob
   def initialize(remote_event)
     @data_json = JSON.parse(remote_event.data)
 
-    @user_id = @data_json['auth_token']
+    @user = User.find_by_auth_token(@data_json['auth_token'])
     @events = @data_json['events']
     @build_number = @data_json['properties']['app_build']
     @user_agent = get_user_agent
@@ -20,16 +20,16 @@ class LogAnalyticsJob
     payload = {
 
       # the following four are required
-      v:   '1',             # this shouldn't change
-      tid: GA_TRACKING_ID,  # tracking ID
-      cid: @user_id,        # user ID
-      t:   'event',         # hit type
+      v:   '1',                         # this shouldn't change
+      tid: GA_TRACKING_ID,              # tracking ID
+      cid: @user.google_analytics_uuid, # user ID
+      t:   'event',                     # hit type
 
       # optional params
-      an: 'better',         # app name
-      av: @build_number,    # app version
-      ea: event_name,       # event action
-      ul: 'en-us',          # user language
+      an: 'better',                     # app name
+      av: @build_number,                # app version
+      ea: event_name,                   # event action
+      ul: 'en-us',                      # user language
     }.to_query
 
     Curl::Easy.http_post('https://ssl.google-analytics.com/collect', payload) do |c|
@@ -42,7 +42,7 @@ class LogAnalyticsJob
     hash = @data_json['properties']
     hash.delete('device_id') # Google Analytics doesn't allow device ID logging; don't log to Mixpanel, either
 
-    MIXPANEL.track(@user_id, event_name, hash)
+    MIXPANEL.track(@user.mixpanel_uuid, event_name, hash)
   end
   #handle_asynchronously :log_mixpanel
 
