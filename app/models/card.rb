@@ -3,7 +3,7 @@ class Card < ActiveRecord::Base
   belongs_to :resource, polymorphic: true
 
   attr_accessible :user, :user_id, :resource, :resource_id, :resource_type,
-                  :state, :state_event, :state_changed_at
+                  :state, :state_event, :state_changed_at, :priority
 
   validates :user, :resource, presence: true
   validates :resource_id, :uniqueness => {:scope => [:user_id, :resource_type]}
@@ -38,9 +38,9 @@ class Card < ActiveRecord::Base
 
   def set_default_priority
     if resource_type == 'Message'
-      self.priority = 10
+      self.priority ||= 10
     else
-      self.priority = 0
+      self.priority ||= 0
     end
   end
 
