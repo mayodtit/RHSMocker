@@ -4,7 +4,9 @@ RHSMocker::Application.routes.draw do
     namespace :v1 do
       resources :allergies, :only => :index
       resources :association_types, :only => :index
-      resources :contents, :only => [:index, :show]
+      resources :contents, :only => [:index, :show] do
+        post :status, :on => :member
+      end
       resources :diets, :only => :index
       resources :cards, :only => [:show, :update]
       resources :conditions, :only => :index

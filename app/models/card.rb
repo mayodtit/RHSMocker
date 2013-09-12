@@ -29,6 +29,10 @@ class Card < ActiveRecord::Base
     order('priority DESC')
   end
 
+  def self.for_resource(resource)
+    where(:resource_id => resource.id, :resource_type => resource.class.name).first
+  end
+
   def serializable_hash options=nil
     options ||=  {:methods => [:title, :content_type, :share_url]}
     super(options).merge!(state_specific_date)
