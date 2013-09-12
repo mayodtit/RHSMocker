@@ -38,6 +38,10 @@ class Card < ActiveRecord::Base
     super(options).merge!(state_specific_date)
   end
 
+  def share_url
+    resource.try_method(:root_share_url).try(:+, "/#{id}")
+  end
+
   private
 
   def set_default_priority
@@ -46,10 +50,6 @@ class Card < ActiveRecord::Base
     else
       self.priority ||= 0
     end
-  end
-
-  def share_url
-    resource.try_method(:root_share_url).try(:+, "/#{id}")
   end
 
   # TODO - hack this in so the client doesn't have to change field names yet
