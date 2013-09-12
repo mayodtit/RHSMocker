@@ -26,4 +26,11 @@ class Api::V1::ContentsController < Api::V1::ABaseController
     render_success content:@content.as_json({"source"=>html, :user_reading_id=>user_reading.id})
   end
 
+  def status
+    @user = current_user
+    @content = Content.find(params[:id])
+    @card = @user.cards.for_resource(@content) || @user.cards.build(:resource => @content)
+    update_resource(@card, params[:card], :card)
+  end
+
 end

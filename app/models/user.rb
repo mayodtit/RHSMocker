@@ -25,6 +25,8 @@ class User < ActiveRecord::Base
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
 
+  before_create :create_analytics_uuids
+
   def full_name
     return "Not Set" if first_name.blank? || last_name.blank?
     "#{first_name} #{last_name}".strip
@@ -60,5 +62,12 @@ class User < ActiveRecord::Base
 
   def weight
     weights.most_recent
+  end
+
+  private
+
+  def create_analytics_uuids
+    self.mixpanel_uuid = SecureRandom.uuid
+    self.google_analytics_uuid = SecureRandom.uuid
   end
 end

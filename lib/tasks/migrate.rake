@@ -5,12 +5,16 @@ namespace :migrate do
     UserReading.find_each do |ur|
       if ur.dismiss_date
         state = 'dismissed'
+        state_changed_at = ur.dismiss_date
       elsif ur.save_date
         state = 'saved'
+        state_changed_at = ur.save_date
       elsif ur.read_date
         state = 'read'
+        state_changed_at = ur.read_date
       else
         state = 'unread'
+        state_changed_at = nil
       end
 
       card = Card.where(:user_id => ur.user_id,
@@ -18,9 +22,7 @@ namespace :migrate do
                         :resource_type => 'Content').first_or_initialize
       if card.new_record? || ur.updated_at > card.updated_at
         card.update_attributes(:state => state,
-                               :read_at => ur.read_date,
-                               :saved_at => ur.save_date,
-                               :dismissed_at => ur.dismiss_date)
+                               :state_changed_at => state_changed_at)
         if card.errors.empty?
           print '.'
         else

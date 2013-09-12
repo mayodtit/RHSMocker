@@ -82,6 +82,10 @@ class Consult < ActiveRecord::Base
     unread_messages_count_string.to_i
   end
 
+  def most_recent_message
+    messages.order('created_at DESC').first
+  end
+
   private
 
   def set_defaults
