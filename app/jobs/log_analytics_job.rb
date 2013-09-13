@@ -44,7 +44,7 @@ class LogAnalyticsJob
 
     MIXPANEL.track(@user.mixpanel_uuid, event_name, hash)
   end
-  #handle_asynchronously :log_mixpanel
+  handle_asynchronously :log_mixpanel
 
   # for debugging
   #def dev
