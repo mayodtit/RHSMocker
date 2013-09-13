@@ -2,10 +2,13 @@ class LogAnalyticsJob
   def initialize(remote_event)
     @data_json = JSON.parse(remote_event.data)
 
-    @user = User.find_by_auth_token(@data_json['auth_token'])
     @events = @data_json['events']
     @build_number = @data_json['properties']['app_build']
     @user_agent = get_user_agent
+
+    user = User.find_by_auth_token(@data_json['auth_token'])
+    @mixpanel_uuid = user.mixpanel_uuid
+    @google_analytics_uuid = user.google_analytics_uuid
   end
 
   def log_all
@@ -22,7 +25,7 @@ class LogAnalyticsJob
       # the following four are required
       v:   '1',                         # this shouldn't change
       tid: GA_TRACKING_ID,              # tracking ID
-      cid: @user.google_analytics_uuid, # user ID
+      cid: @google_analytics_uuid,      # user ID
       t:   'event',                     # hit type
 
       # optional params
@@ -42,7 +45,7 @@ class LogAnalyticsJob
     hash = @data_json['properties']
     hash.delete('device_id') # Google Analytics doesn't allow device ID logging; don't log to Mixpanel, either
 
-    MIXPANEL.track(@user.mixpanel_uuid, event_name, hash)
+    MIXPANEL.track(@mixpanel_uuid, event_name, hash)
   end
   handle_asynchronously :log_mixpanel
 
