@@ -59,7 +59,8 @@ class Card < ActiveRecord::Base
     elsif saved?
       {
         :read_date => state_changed_at,
-        :save_date => state_changed_at
+        :save_date => state_changed_at,
+        :dismiss_date => ''
       }
     else
       {}
