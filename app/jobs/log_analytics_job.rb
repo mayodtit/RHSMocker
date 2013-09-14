@@ -23,16 +23,19 @@ class LogAnalyticsJob
     payload = {
 
       # the following four are required
-      v:   '1',                         # this shouldn't change
-      tid: GA_TRACKING_ID,              # tracking ID
-      cid: @google_analytics_uuid,      # user ID
-      t:   'event',                     # hit type
+      v:   '1',                    # this shouldn't change
+      tid: GA_TRACKING_ID,         # tracking ID
+      cid: @google_analytics_uuid, # user ID
+      t:   'event',                # hit type
 
       # optional params
-      an: 'better',                     # app name
-      av: @build_number,                # app version
-      ea: event_name,                   # event action
-      ul: 'en-us',                      # user language
+      an: 'better',      # app name
+      av: @build_number, # app version
+      ul: 'en-us',       # user language
+
+      # event tracking is optional, but the following two are both required to track an event
+      ea: event_name,                      # event action
+      ec: 'Better Default Event Category', # event category
     }.to_query
 
     Curl::Easy.http_post('https://ssl.google-analytics.com/collect', payload) do |c|
