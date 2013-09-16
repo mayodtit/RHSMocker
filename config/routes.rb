@@ -27,6 +27,7 @@ RHSMocker::Application.routes.draw do
         post :save, :on => :collection
         post :dismiss, :on => :collection
       end
+      resources :password_resets, :only => :create
       resources :plans, :only => [:index, :show]
       resources :remote_events, :only => :create
       resources :side_effects, :only => :index
@@ -76,7 +77,6 @@ RHSMocker::Application.routes.draw do
       put "user/:id" => "users#update", :as=>"user_update"
       post "user/update_password" => "users#update_password", :as=>"update_password"
       post "user/update_email" => "users#update_email", :as=>"update_email"
-      post "password_resets" => "password_resets#create", :as=>"create_password_resets"
 
       #reading list
       get "user_readings" => "user_readings#index", :as=>"user_readings_index"
@@ -105,9 +105,10 @@ RHSMocker::Application.routes.draw do
     get :signup, :on => :collection
   end
   resources :nurseline_records, :only => :create
-
-  get "password_resets/:id" => "api/v1/password_resets#edit", :as=>"edit_password_resets"
-  put "password_resets/:id" => "api/v1/password_resets#update", :as=>"update_password_resets"
+  resources :users, :only => [] do
+    get 'reset_password/:token', :to => 'users#reset_password', :on => :collection, :as => 'reset_password'
+    put 'reset_password', :to => 'users#reset_password_update', :on => :collection, :as => 'reset_password_update'
+  end
 
   get "/messages" => "messages#index", :as=>"messages_index"
   root :to => "home#index"
