@@ -8,14 +8,31 @@ namespace :admin do
 
 		logger = Logger.new('./log/import_content.log')
 		
+		noCallList 		= ['HT00648'] #this needs to move out of this area
+		noSymptomsList 	= ['HT00648'] 
+
 		Dir.glob('./db/mayo_content/*.xml') do | contentFile |
 
 			rawData = Nokogiri::XML(File.open(contentFile))
-			docID = rawData.search('DocID').first.text.strip
-			logger.info(docID + ", Processing , " + "----------")
-			if rawData.css('HTML').empty?
-				logger.info(docID + ", Has NO HTML")
-			else
+			docID 	= rawData.search('DocID').first.text.strip
+			type 	= rawData.search('ContentType').first.text.strip
+			
+			#logger.info(docID + ", Processing , " + "----------")
+
+			if type.casecmp("SelfAssessment") == 0 			#SKIP SELF ASSESSMENTS FOR NOW
+				logger.info(docID + ", Skipping SelfAssessment")
+				next
+			elsif type.casecmp("Recipe") == 0 				#SKIP RECIPIES FOR NOW
+				logger.info(docID + ", Skipping Recipe")
+				next
+			elsif type.casecmp("HealthTip") == 0 			#REFORMAT HEALTH TIPS BUT CONTINUE
+				logger.info(docID + ", Reformatting HealthTip")
+				body_tag = rawData.at('Body')
+				body_tag.inner_html = "<HTML>#{body_tag.inner_html}</HTML>"
+			elsif rawData.css('HTML').empty?
+				logger.info(docID + ", Has NO HTML and not clear why ---- DEBUG ME!")
+				next
+			end
 
 				#Preprocssing specific text items
 				#================================
@@ -38,7 +55,7 @@ namespace :admin do
 				divNodes = structured_body.search('div.inlineimage.right')
 				
 				divNodes.map do |image_div_node|
-					logger.info(docID + ", Has Embedded Author Image")
+					#logger.info(docID + ", Has Embedded Author Image")
 					#change the class of this div, remove style
 
 					image_div_node.set_attribute('class', 'authorImageDiv') 
@@ -56,14 +73,12 @@ namespace :admin do
 				count = 0;
 				popup_media_nodes.map do | popup_node |
 					#Remove extra HTML tag 
-					logger.info(docID + ", Has Embedded Image , " + count.to_s)
+					#logger.info(docID + ", Has Embedded Image , " + count.to_s)
 					count+=1;
 					popup_node.at_css('HTML').remove
 					thumb_img_node = Nokogiri::XML::Node.new "img", rawData
 					thumb_img_node.set_attribute('class', 'mayoContentImage') 
 					full_img_src = 'http://www.mayoclinic.com' + popup_node.at_css('Image')['URI']
-					#loggedTitle = rawData.search('Title').first.text.gsub(/\n/,"").gsub(/\t/,"") 
-					#logger.info(loggedTitle + " " + docID + " full_img_src:" + full_img_src)
 					thumb_img_node.set_attribute('src', full_img_src)
 					#Total hack to skip second paragraph where the banner goes
 					count = 3 if count == 2
@@ -80,7 +95,8 @@ namespace :admin do
 				type_text	  	= type_search.first.text 				if !type_search.empty?
 				type_text 		= type_text.gsub(/\n/,"").gsub(/\t/,"") if !type_text.nil?
 
-				if type_text.casecmp("answer") == 0 || type_text.casecmp("disease") == 0 || type_text.casecmp("article") == 0 || type_text.casecmp("firstaid") == 0 || type_text.casecmp("healthtip") == 0 || type_text.casecmp("TestProcedure") == 0
+				if type_text.casecmp("answer") == 0 || type_text.casecmp("disease") == 0 || type_text.casecmp("article") == 0 || 
+								type_text.casecmp("firstaid") == 0 || type_text.casecmp("healthtip") == 0 || type_text.casecmp("TestProcedure") == 0
 
 					title_search 		= rawData.search('Title')
 					abstract_search 	= rawData.search('Abstract')
@@ -112,6 +128,18 @@ namespace :admin do
 					#keywords 		= keywords
 					#mayo_doc_id 	= doc_id if !doc_id.nil?
 
+					if noCallList.include?(doc_id)
+						showCall = false
+					else
+						showCall = true
+					end
+
+					if noSymptomsList.include?(doc_id)
+						showSymptoms = false
+					else
+						showSymptoms = true
+					end
+
 					@content = Content.find_or_create_by_mayo_doc_id(mayo_doc_id: doc_id, 
 												title: title, 
 												abstract: abstract, 
@@ -119,7 +147,9 @@ namespace :admin do
 												body: body_text, 
 												content_type: content_type, 
 												content_updated_at: content_updated_at,
-												keywords: keywords)
+												keywords: keywords,
+												show_call_option: showCall,
+												show_checker_option: showSymptoms)
 
 					if @content.present?
    						@content.update_attributes(title: title, abstract: abstract, question: question, 
@@ -153,7 +183,6 @@ namespace :admin do
 						end
 					end
 				end
-			end
 		end
 	end
 
@@ -211,5 +240,4 @@ namespace :admin do
      	ac.update_attribute :content_id, ac.content.mayo_doc_id if ac.content && ac.content.mayo_doc_id
     	end
     end
-	
 end

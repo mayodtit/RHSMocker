@@ -71,7 +71,7 @@ end
 # Insert the "would you like to call someone text"
 ########
 def reformattedBody
-  if !body.nil? 
+  if !body.nil? && show_call_option?
     case 
       when body.scan('</p>').count > 1
         body.insert(body.index(/<\/p>/,body.index(/<\/p>/)+4)+4, talkDiv)
@@ -80,7 +80,7 @@ def reformattedBody
       when !body.index(/<\/body>/).nil?
         body.insert(body.index(/<\/body>/)+6, talkDiv)
       else
-        
+        #don't insert it
     end
   end
   body
