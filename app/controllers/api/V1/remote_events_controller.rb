@@ -2,15 +2,16 @@ class Api::V1::RemoteEventsController < Api::V1::ABaseController
   skip_before_filter :authentication_check
 
   def create
-    remote_event = RemoteEvent.create(data: params.to_json)
-    if remote_event.errors.empty?
-      begin
-        remote_event.log
-      ensure
-        render_success
-      end
-    else
-      render_failure({reason: remote_event.errors.full_messages.to_sentence}, 422)
-    end
+    create_resource(RemoteEvent, remote_event_params)
+  end
+
+  private
+
+  def remote_event_params
+    user = params[:auth_token].present? ? Member.find_by_auth_token(params[:auth_token]) : current_user
+    {
+      :user => user,
+      :data => params.to_json
+    }
   end
 end

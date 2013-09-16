@@ -1,8 +1,14 @@
 class RemoteEvent < ActiveRecord::Base
-  attr_accessible :data
+  belongs_to :user
+
+  attr_accessible :user, :user_id, :data
   validates :data, presence: true
 
+  after_create :log
+
+  private
+
   def log
-    LogAnalyticsJob.new(self).log_all
+    LogAnalyticsJob.new.log_all(id)
   end
 end

@@ -38,6 +38,10 @@ class Card < ActiveRecord::Base
     super(options).merge!(state_specific_date)
   end
 
+  def share_url
+    resource.try_method(:root_share_url).try(:+, "/#{id}")
+  end
+
   private
 
   def set_default_priority
@@ -48,10 +52,6 @@ class Card < ActiveRecord::Base
     end
   end
 
-  def share_url
-    resource.try_method(:root_share_url).try(:+, "/#{id}")
-  end
-
   # TODO - hack this in so the client doesn't have to change field names yet
   def state_specific_date
     if read?
@@ -59,7 +59,8 @@ class Card < ActiveRecord::Base
     elsif saved?
       {
         :read_date => state_changed_at,
-        :save_date => state_changed_at
+        :save_date => state_changed_at,
+        :dismiss_date => ''
       }
     else
       {}
