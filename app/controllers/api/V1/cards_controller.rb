@@ -43,7 +43,7 @@ class Api::V1::CardsController < Api::V1::ABaseController
   end
 
   def merge_body(card)
-    card.as_json.merge!(:body => render_to_string(:action => :body,
+    card.as_json.merge!(:body => render_to_string(:action => :show,
                                                   :formats => [:html],
                                                   :locals => {:card => card}))
   end
