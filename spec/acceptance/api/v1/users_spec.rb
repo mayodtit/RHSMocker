@@ -241,4 +241,20 @@ resource "Users" do
       end
     end
   end
+
+  describe 'reset password' do
+    parameter :email, "User's email address"
+    required_parameters :email
+
+    let(:email) { user.email }
+    let(:raw_post) { params.to_json }
+
+    post '/api/v1/users/reset_password' do
+      example_request "[POST] Reset password (forgot password)" do
+        explanation "Emails password reset instructions to the user"
+        status.should == 200
+        JSON.parse(response_body).should_not be_empty
+      end
+    end
+  end
 end

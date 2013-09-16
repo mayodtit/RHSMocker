@@ -173,10 +173,10 @@ ActiveRecord::Schema.define(:version => 20130916193956) do
   add_index "contents_symptoms", ["symptom_id"], :name => "index_contents_symptoms_on_symptom_id"
 
   create_table "contents_symptoms_factors", :force => true do |t|
-    t.integer  "content_id",         :limit => 255
+    t.integer  "content_id"
     t.integer  "symptoms_factor_id"
-    t.datetime "created_at",                        :null => false
-    t.datetime "updated_at",                        :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
   end
 
   add_index "contents_symptoms_factors", ["content_id"], :name => "index_contents_symptom_factors_on_content_id"
@@ -207,11 +207,11 @@ ActiveRecord::Schema.define(:version => 20130916193956) do
   end
 
   create_table "ethnic_groups", :force => true do |t|
-    t.string   "name",                          :default => "", :null => false
-    t.datetime "created_at",                                    :null => false
-    t.datetime "updated_at",                                    :null => false
-    t.integer  "ethnicity_code", :limit => 255, :default => 0,  :null => false
-    t.integer  "ordinal",                       :default => 0,  :null => false
+    t.string   "name",           :default => "", :null => false
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+    t.integer  "ethnicity_code", :default => 0,  :null => false
+    t.integer  "ordinal",        :default => 0,  :null => false
     t.datetime "disabled_at"
   end
 
