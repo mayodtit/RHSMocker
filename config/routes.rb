@@ -27,7 +27,7 @@ RHSMocker::Application.routes.draw do
         post :save, :on => :collection
         post :dismiss, :on => :collection
       end
-      resources :password_resets, :only => :create
+      post :password_resets, :controller => :users, :action => :reset_password # TODO - deprecated!
       resources :plans, :only => [:index, :show]
       resources :remote_events, :only => :create
       resources :side_effects, :only => :index
@@ -57,6 +57,7 @@ RHSMocker::Application.routes.draw do
           get :timeline, :on => :collection
         end
         get 'keywords', :on => :member
+        post :reset_password, :on => :collection
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
           resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do

@@ -5,7 +5,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
                   :holds_phone_in, :diet_id, :ethnic_group_id, :deceased, :date_of_death, :npi_number,
                   :expertise, :city, :state, :units
 
-  skip_before_filter :authentication_check, :only =>:create
+  skip_before_filter :authentication_check, :only => [:create, :reset_password]
   before_filter :load_user!, :only => :update
 
   def index
@@ -59,6 +59,13 @@ class Api::V1::UsersController < Api::V1::ABaseController
     @user = User.find(params[:id])
     @member = @user.member || Member.create_from_user!(@user)
     current_user.invitations.create(invited_member: @member) # fail silently, always return success
+    render_success
+  end
+
+  def reset_password
+    render_failure({reason: 'Email address required'}, 422) and return unless params[:email].present?
+    @user = Member.find_by_email!(params[:email])
+    @user.deliver_reset_password_instructions!
     render_success
   end
 
