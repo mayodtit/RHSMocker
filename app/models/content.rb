@@ -1,6 +1,6 @@
 class Content < ActiveRecord::Base
 
-	attr_accessible :title, :body, :content_type, :abstract, :question, :keywords, :content_updated_at, :mayo_doc_id
+	attr_accessible :title, :body, :content_type, :abstract, :question, :keywords, :content_updated_at, :mayo_doc_id, :show_call_option, :show_checker_option
 
 	has_many :content_mayo_vocabularies
 	has_many :mayo_vocabularies, :through => :content_mayo_vocabularies
