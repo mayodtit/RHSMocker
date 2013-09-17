@@ -7,8 +7,7 @@ gem 'nokogiri'
 gem 'pg' # This needs to come after Nokogiri https://github.com/sparklemotion/nokogiri/issues/742
 
 #static security scanner
-
-gem 'brakeman' #http://brakemanscanner.org/
+#gem 'brakeman' #http://brakemanscanner.org/
 
 #Monitoring
 gem 'newrelic_rpm'
