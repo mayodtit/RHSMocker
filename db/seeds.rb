@@ -442,7 +442,19 @@ Treatment::Surgery.find_or_create_by_name(:name=>"Cholecystectomy", :snomed_name
 Treatment::Surgery.find_or_create_by_name(:name=>"Appendectomy",:snomed_name=>"Appendectomy",:snomed_code=>"80146002")
 Treatment::Medicine.find_or_create_by_name(:name => "Captopril", :snomed_name => "Captopril", :snomed_code => 'DEADBEEF')
 
+o = Offering.find_or_create_by_name(name: 'Phone Call')
+p = Plan.find_or_create_by_name(name: 'Silver', monthly: true)
+PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: 2, unlimited: false)
+p = Plan.find_or_create_by_name(name: 'Gold', monthly: true)
+PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: 3, unlimited: false)
+p = Plan.find_or_create_by_name(name: 'Platinum', monthly: true)
+PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: nil, unlimited: true)
 
+########################################################################
+#
+# ONLY SYMTPOMS CHECKER CONTENT AFTER THIS LINE!
+#
+#########################################################################
 #FactorGroup
 accompanied_by_factor_group   = FactorGroup.find_or_create_by_name(:name=>"Accompanied by")
 appearance_of_eye_factor_group= FactorGroup.find_or_create_by_name(:name=>"Appearance of eye includes")
@@ -2605,11 +2617,9 @@ ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
 )
 
+########################################################################
+#
+# DO NOT PUT ANY CONTENT AT BOTTOM OF THIS FILE. GO BEFORE SYMPTOMS CHECKER
+#
+#########################################################################
 
-o = Offering.find_or_create_by_name(name: 'Phone Call')
-p = Plan.find_or_create_by_name(name: 'Silver', monthly: true)
-PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: 2, unlimited: false)
-p = Plan.find_or_create_by_name(name: 'Gold', monthly: true)
-PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: 3, unlimited: false)
-p = Plan.find_or_create_by_name(name: 'Platinum', monthly: true)
-PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: nil, unlimited: true)
