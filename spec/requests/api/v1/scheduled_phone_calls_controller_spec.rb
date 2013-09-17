@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe 'ScheduledPhoneCall' do
-  let(:user) { create(:member) }
+  let(:user) { create(:user_with_email) }
   let(:consult) { create(:consult, :initiator => user) }
 
   before(:each) do
