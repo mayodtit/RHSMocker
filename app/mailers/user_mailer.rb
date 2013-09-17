@@ -21,4 +21,10 @@ class UserMailer < ActionMailer::Base
     @url = invite_url(@user.invitation_token)
     mail(to: user.email, subject: 'Complete your registration to Better')
   end
+
+  def scheduled_phone_call_email(phone_call)
+    @phone_call = phone_call
+    attachments['event.ics'] = {:mime_type => 'text/calendar', :content => @phone_call.calendar_event.export}
+    mail(to: @phone_call.user.email, subject: 'Your phone call with Better')
+  end
 end
