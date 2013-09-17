@@ -27,14 +27,19 @@ class LogAnalyticsJob
       cid: @google_analytics_uuid, # user ID
       t:   'event',                # hit type
 
+      # for mobile app tracking, the app name is also required
+      an: 'better',
+
       # optional params
-      an: 'better',      # app name
       av: @build_number, # app version
       ul: 'en-us',       # user language
 
       # event tracking is optional, but the following two are both required to track an event
       ea: event_name,                      # event action
       ec: 'Better Default Event Category', # event category
+
+      # anonymize IP to reduce pollution of location data
+      aip: 1,
     }.to_query
 
     Curl::Easy.http_post('https://ssl.google-analytics.com/collect', payload) do |c|
