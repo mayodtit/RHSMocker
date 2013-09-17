@@ -1,12 +1,14 @@
 source 'https://rubygems.org'
-ruby '1.9.3'
+#ruby '1.9.3'
 
 gem 'rails', '3.2.14'
-gem 'pg'
+#content parsing
+gem 'nokogiri'
+gem 'pg' # This needs to come after Nokogiri https://github.com/sparklemotion/nokogiri/issues/742
 
 #static security scanner
-#http://brakemanscanner.org/
-gem 'brakeman'
+
+gem 'brakeman' #http://brakemanscanner.org/
 
 #Monitoring
 gem 'newrelic_rpm'
@@ -54,8 +56,7 @@ gem 'pusher'
 gem 'factual-api'
 gem 'rufus-scheduler'
 
-#content parsing
-gem 'nokogiri'
+
 
 #SOLR Support
 gem 'sunspot_rails'
