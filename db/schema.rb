@@ -11,26 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130916193956) do
-
-  create_table "agreement_pages", :force => true do |t|
-    t.text     "content"
-    t.string   "page_type"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  create_table "agreements", :force => true do |t|
-    t.string   "ip_address"
-    t.string   "user_agent"
-    t.integer  "agreement_page_id"
-    t.integer  "user_id"
-    t.datetime "created_at",        :null => false
-    t.datetime "updated_at",        :null => false
-  end
-
-  add_index "agreements", ["agreement_page_id"], :name => "index_agreements_on_agreement_page_id"
-  add_index "agreements", ["user_id"], :name => "index_agreements_on_user_id"
+ActiveRecord::Schema.define(:version => 20130917221035) do
 
   create_table "allergies", :force => true do |t|
     t.string   "name"

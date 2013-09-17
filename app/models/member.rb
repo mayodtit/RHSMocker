@@ -10,8 +10,6 @@ class Member < User
   has_many :message_statuses, :foreign_key => :user_id
   has_many :locations, :foreign_key => :user_id
 
-  has_many :agreements, :foreign_key => :user_id
-  has_many :agreement_pages, :through => :agreements
   has_many :user_plans, :foreign_key => :user_id
   has_many :plans, :through => :user_plans
   has_many :user_offerings, :foreign_key => :user_id
