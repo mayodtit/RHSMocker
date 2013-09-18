@@ -19,8 +19,10 @@ class Member < User
 
   has_many :invitations
 
+  accepts_nested_attributes_for :user_agreements
+
   attr_accessible :install_id, :generic_call_time, :password, :password_confirmation, :feature_bucket,
-                  :holds_phone_in, :invitation_token, :units
+                  :holds_phone_in, :invitation_token, :units, :agreement_params
 
   validates :install_id, :uniqueness => true, :allow_nil => true
   validates :email, :allow_nil => true, :uniqueness => {:message => 'account already exists', :case_sensitive => false}
@@ -193,5 +195,12 @@ class Member < User
     find_or_create_by_email(:email => 'robot@getbetter.com',
                             :first_name => 'Better',
                             :last_name => 'Robot')
+  end
+
+  def agreement_params=(params)
+    self.user_agreements_attributes = params[:ids].map{|id| {:user => self,
+                                                             :agreement_id => id,
+                                                             :ip_address => params[:ip_address],
+                                                             :user_agent => params[:user_agent]}}
   end
 end
