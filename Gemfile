@@ -110,3 +110,4 @@ gem 's3_uploader'
 gem 'rails_12factor', group: :production
 
 gem 'ri_cal'
+gem 'symbolize'
