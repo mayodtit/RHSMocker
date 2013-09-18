@@ -12,5 +12,9 @@ class Analytics
       end
     end
     handle_asynchronously :log_remote_event
+
+    def log_started_symptoms_checker(user_ga_uuid)
+      LogAnalyticsJob.new(user_ga_uuid, 'started_symptom_checker').log_ga
+    end
   end
 end
