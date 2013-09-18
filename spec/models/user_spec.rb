@@ -36,10 +36,9 @@ describe User do
   end
 
   describe 'observers' do
-    it 'should generate analytics UUIDs for a new user' do
+    it 'should generate Google Analytics UUID for a new user' do
       user.save
       user.reload
-      user.mixpanel_uuid.should_not be_nil
       user.google_analytics_uuid.should_not be_nil
     end
   end

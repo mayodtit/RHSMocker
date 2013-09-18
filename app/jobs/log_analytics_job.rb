@@ -3,15 +3,12 @@ class LogAnalyticsJob
     remote_event = RemoteEvent.find(remote_event_id)
     data_json = JSON.parse(remote_event.data)
     events = data_json['events']
-    @properties = data_json['properties']
     @build_number = data_json['properties']['app_build']
     @user_agent = get_user_agent(data_json)
     user = remote_event.user || User.find_by_auth_token(data_json['auth_token'])
-    @mixpanel_uuid = user.try(:mixpanel_uuid)
     @google_analytics_uuid = user.try(:google_analytics_uuid)
 
     events.each do |e|
-      log_mixpanel(e['name'])
       log_ga(e['name'])
     end
   end
@@ -47,14 +44,6 @@ class LogAnalyticsJob
     end
   end
   handle_asynchronously :log_ga
-
-  def log_mixpanel(event_name)
-    hash = @properties
-    hash.delete('device_id') # Google Analytics doesn't allow device ID logging; don't log to Mixpanel, either
-
-    MIXPANEL.track(@mixpanel_uuid, event_name, hash)
-  end
-  handle_asynchronously :log_mixpanel
 
   # for debugging
   #def dev

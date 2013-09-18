@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130916193956) do
+ActiveRecord::Schema.define(:version => 20130918004242) do
 
   create_table "agreement_pages", :force => true do |t|
     t.text     "content"
@@ -528,7 +528,6 @@ ActiveRecord::Schema.define(:version => 20130916193956) do
     t.string   "invitation_token"
     t.string   "units",                                                                       :default => "US",  :null => false
     t.string   "stripe_customer_id"
-    t.string   "mixpanel_uuid",                   :limit => 36
     t.string   "google_analytics_uuid",           :limit => 36
   end
 

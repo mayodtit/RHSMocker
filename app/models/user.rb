@@ -25,7 +25,7 @@ class User < ActiveRecord::Base
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
 
-  before_create :create_analytics_uuids
+  before_create :create_google_analytics_uuid
 
   def full_name
     return "Not Set" if first_name.blank? || last_name.blank?
@@ -66,8 +66,7 @@ class User < ActiveRecord::Base
 
   private
 
-  def create_analytics_uuids
-    self.mixpanel_uuid = SecureRandom.uuid
+  def create_google_analytics_uuid
     self.google_analytics_uuid = SecureRandom.uuid
   end
 end
