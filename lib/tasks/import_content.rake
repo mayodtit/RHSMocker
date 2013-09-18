@@ -11,13 +11,13 @@ namespace :admin do
 		noCallList 		= ['HT00648','AM00021']
 		noSymptomsList 	= ['HT00648','AM00021'] 
 
-		Dir.glob('./db/mayo_content/DS00118.xml') do | contentFile |
+		Dir.glob('./db/mayo_content/*.xml') do | contentFile |
 
 			rawData = Nokogiri::XML(File.open(contentFile))
 			docID 	= rawData.search('DocID').first.text.strip
 			type 	= rawData.search('ContentType').first.text.strip
 			
-			#logger.info(docID + ", Processing , " + "----------")
+			logger.info(docID + ", Processing , " + "----------")
 
 			if type.casecmp("SelfAssessment") == 0 			#SKIP SELF ASSESSMENTS FOR NOW
 				logger.info(docID + ", Skipping SelfAssessment")
@@ -44,14 +44,43 @@ namespace :admin do
 				flash_node.remove
 			end
 
+			#Remove extra HTML sections that come right after pictures (They are partial text and not for showing)
+			popup_media_nodes = rawData.css "PopupMedia"
+  			popup_media_nodes.map do | popup_node |
+				popup_node.at_css('HTML').remove
+			end
+
+
 			#2 Change all <SectionHead> to div with <section_head id and class>
 			#Have to drop into xpath b/c normal node creation will not get converted correctly to HTML
-			rawData.xpath("//SectionHead").each{ |sh| sh.swap("&lt;div class='section_head'&gt;#{sh}&lt;/div&gt;") }
+
+			rawData.xpath("//Section").each{ |section_node| 
+
+				section_head_node = section_node.at("SectionHead")
+				if !section_head_node.nil? && !section_head_node.content.nil? && !section_head_node.content.to_s.blank?
+					idName = section_head_node.content.to_s.gsub!(/\s+/, "").downcase
+					#var%20this_element=document.getElementById(#{idName}_header);this_element.className=(this_element.className==%27div.section_head.show%27)?%27div.section_head.hide%27:%27div.section_head.show%27;
+					javascriptFunction = "javascript:%24(#{idName}_section).toggle();var%20this_element=document.getElementById('#{idName}_header');this_element.className=(this_element.className=='section_head_show')?'section_head_hide':'section_head_show';"
+					section_head_node.swap("&lt;div class='section_head_show' id=#{idName}_header &gt;&lt;a href=#{javascriptFunction} &gt;#{section_head_node}&lt;/a&gt;&lt;/div&gt;")
+
+					html_node = section_node.at("HTML")
+					html_node.swap("&lt;div class='section' id=#{idName}_section&gt;#{html_node}&lt;/div&gt;")
+				end
+			}
+
+			
+# rawData.xpath("//SectionHead").each{ |sh| 
+# 												idName = sh.content.to_s.gsub!(/\s+/, "").downcase
+# 												sh.swap("&lt;div class='section_head' id=#{idName}_header&gt;#{sh}&lt;/div&gt;") 
+# 											}
+
+# 			rawData.xpath("//Section/HTML").each{ |html_node| html_node.swap("&lt;div class='section'&gt;#{html_node}&lt;/div&gt;")}
+
 
 			#2 Remove strong tags, which Mayo interjects seemingly semi-randomly, Remove all horizontal rules, structure HTML
 			#Body can be empty, so need to handle that
 			structured_body = Nokogiri::HTML(rawData.css('Body').first.text.gsub(/\n|\t/,"").gsub("<strong>","").gsub("</strong>","").gsub("<hr />",""))
-
+			logger.info(structured_body.to_s)
 			#3 Cleanup Images
 			divNodes = structured_body.search('div.inlineimage.right')
 			
@@ -73,10 +102,9 @@ namespace :admin do
   			popup_media_nodes = rawData.css "PopupMedia"
   			count = 0;
   			popup_media_nodes.map do | popup_node |
-				#Remove extra HTML tag 
+				#Previously removed the extra HTML tag 
 				#logger.info(docID + ", Has Embedded Image , " + count.to_s)
 				count+=1;
-				popup_node.at_css('HTML').remove
 				thumb_img_node = Nokogiri::XML::Node.new "img", rawData
 				thumb_img_node.set_attribute('class', 'mayoContentImage') 
 				full_img_src = 'http://www.mayoclinic.com' + popup_node.at_css('Image')['URI']
@@ -112,7 +140,6 @@ namespace :admin do
 			doc_id	   	  = doc_id_search.first.text.strip 	if !doc_id_search.empty?
 
 			body_text	  = Nokogiri::HTML.fragment(structured_body.search('body').to_html).to_html #case sensative on the re-created HTML document
-			logger.info(rawData.to_s)
 
 			keywords = ''
 			keyword_search.each do | keyword |
