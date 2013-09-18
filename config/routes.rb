@@ -92,12 +92,6 @@ RHSMocker::Application.routes.draw do
 
 
       post "feedback" => "users#add_feedback"
-
-      get "agreement_pages" => "agreement_pages#list"
-      get "agreements" => "agreements#list"
-      post "agreements" => "agreements#create"
-      get "agreements/up_to_date" => "agreements#up_to_date?"
-
     end
   end
 
