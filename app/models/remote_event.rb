@@ -6,9 +6,25 @@ class RemoteEvent < ActiveRecord::Base
 
   after_create :log
 
+  def build_number
+    data_json['properties'].try(:[], 'app_build')
+  end
+
+  def events
+    data_json['events']
+  end
+
+  def device_os_version
+    data_json['properties'].try(:[], 'device_os_version')
+  end
+
+  def data_json
+    @dj ||= JSON.parse(data)
+  end
+
   private
 
   def log
-    LogAnalyticsJob.new.log_all(id)
+    Analytics.log_remote_event(id)
   end
 end
