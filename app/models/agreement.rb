@@ -1,6 +1,9 @@
 class Agreement < ActiveRecord::Base
   self.inheritance_column = nil # allow use non-STI :type column name
 
+  has_many :user_agreements
+  has_many :users, :through => :user_agreements
+
   attr_accessible :text, :type, :active
 
   validates :text, :type, presence: true
