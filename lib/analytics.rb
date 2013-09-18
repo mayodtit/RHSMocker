@@ -16,5 +16,13 @@ class Analytics
     def log_started_symptoms_checker(user_ga_uuid)
       LogAnalyticsJob.new(user_ga_uuid, 'started_symptom_checker').log_ga
     end
+
+    def log_user_login(user_ga_uuid)
+      LogAnalyticsJob.new(user_ga_uuid, 'user_logged_in').log_ga
+    end
+
+    def log_user_logout(user_ga_uuid)
+      LogAnalyticsJob.new(user_ga_uuid, 'user_logged_out').log_ga
+    end
   end
 end
