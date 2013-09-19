@@ -11,12 +11,7 @@ body {
 	padding:0px;
 }
 
-div.content_full {
-    width:300px;
-    margin-left:10px;
-    margin-right:10px;
-    margin-top:10px;
-}
+//Cardview + Preview CSS
 
 div.content_cardview {
     width:278px;
@@ -26,28 +21,10 @@ div.content_cardview {
     height: 160px;
 }
 
-div.content_type{
-	font-family:"Avenir Next Medium Condensed";
-	font-size:15px;
-	color:#ff7400;
-    text-transform:uppercase;
-    padding-bottom:4px;
-    float:left;
-    vertical-align: bottom;
-
-}
-
-div.content_type img {
-    vertical-align: middle;
-    padding-right: 6px;
-}
-
-div.content_title {
-	font-family:"Avenir Next Medium Condensed";
-	font-size:18px;
-	color:#4c4c4c;
+div.content_title_preview {
+    font-family:"Avenir Next Medium Condensed";
+    font-size:18px;
     padding-bottom:3px;
-    #padding-top: 5px;
     clear:left;
     overflow: hidden;
     color:#E86E32;
@@ -55,50 +32,12 @@ div.content_title {
     height: 40px;
 }
 
-div.content_title_full {
-    font-family:"Avenir Next Medium Condensed";
-    font-size:20px;
-    #color:#4c4c4c;
-    color:#E86E32;
-    text-transform:uppercase;
-    padding-bottom:15px;
-    padding-top: 5px;
-    clear:left;
-}
-
-div.content_source {
-	font-family: "Avenir Next Regular Condensed";
-	font-size: 14px;
-    color: #999999;
-    padding-bottom: 5px;
-}
-
-div.content_source_full {
+div.content_source_preview {
     font-family: "Avenir Next Regular Condensed";
     font-size: 14px;
     color: #999999;
-}
-
-div.content_subtitle {
-	font-family: "Avenir Next Regular Condensed";
-	font-size: 18px;
-	color: #4c4c4c;
     padding-bottom: 5px;
-}
-
-div.content_abstract{
-    font-family: "Avenir Next Regular Condensed";
-    font-size: 20px;
-    #color: #4c4c4c;
-    color: #c0c0c0;
-    padding-bottom: 10px;
-    #text-transform:uppercase;
-}
-
-div.content_text {
-	font-family: "Avenir Next Regular Condensed";
-	font-size: 16px;
-	color: #4c4c4c;
+    text-align: right;
 }
 
 div.content_text_preview {
@@ -115,6 +54,65 @@ div.content_text_preview_fade {
     height: 93px;
     overflow: hidden;
     -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+// #########################################################
+// Full Screen Content CSS
+// #########################################################
+
+div.content_full {
+    width:300px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+}
+
+div.content_source_full {
+    font-family: "Avenir Next Regular Condensed";
+    font-size: 14px;
+    color: #999999;
+    text-align: right;
+}
+
+div.content_type{
+	font-family:"Avenir Next Medium Condensed";
+	font-size:15px;
+	color:#ff7400;
+    text-transform:uppercase;
+    padding-bottom:4px;
+    float:left;
+    vertical-align: bottom;
+}
+
+div.content_type img {
+    vertical-align: middle;
+    padding-right: 6px;
+}
+
+div.content_abstract{
+    font-family: "Avenir Next Regular Condensed";
+    font-size: 20px;
+    #color: #4c4c4c;
+    color: #c0c0c0;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    #text-transform:uppercase;
+}
+
+div.content_title_full {
+    font-family:"Avenir Next Medium Condensed";
+    font-size:28px;
+    #color:#4c4c4c;
+    color:#E86E32;
+    text-transform:uppercase;
+    margin-top: 5px;
+    line-height:100%
+}
+
+div.content_text {
+	font-family: "Avenir Next Regular Condensed";
+	font-size: 16px;
+	color: #4c4c4c;
 }
 
 div.mayo_copyright {
@@ -161,19 +159,17 @@ img.mayo_icon{
     width:90px;
     padding-top:3px;
     padding-bottom:2px;
-    float: right;
-    clear: both;
 }
 
 div.section_head_show {
     background-image: url(/assets/down_arrow.png) ;
-    background-size: 10px auto;
-    background-position: left center;
+    background-size: 20px auto;
+    background-position: left top;
     background-repeat: no-repeat;
     //background-color: #808080;
-    margin-bottom: 1px;
-    padding-bottom: 1px;
-    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 24px;
     border-bottom:thin solid #E2E3E4;
     color: #4c4c4c;
     text-decoration: none;
@@ -182,13 +178,13 @@ div.section_head_show {
 
 div.section_head_hide {
     background-image: url(/assets/up_arrow.png);
-    background-size: 10px auto;
+    background-size: 20px auto;
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left top;
     //background-color: #808080; 
-    margin-bottom: 1px;
-    padding-bottom: 1px;
-    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 24px;
     border-bottom:thin solid #E2E3E4;
     color: #4c4c4c;
     text-decoration: none;
@@ -196,19 +192,20 @@ div.section_head_hide {
     }
 
 div.section_head_show a {
-    padding-left:15px;
+    padding-left:25px;
     color: #4c4c4c;
     text-decoration: none;
     text-transform: uppercase;
+    display: inline-block;
     }
 
 div.section_head_hide a {
-    padding-left:15px;
+    padding-left:25px;
     color: #4c4c4c;
     text-decoration: none;
     text-transform: uppercase;
+    display: inline-block;
     }
-
 
 div.section {
    display: none; //default state
