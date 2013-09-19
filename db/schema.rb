@@ -11,14 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130829221723) do
-
-  create_table "agreement_pages", :force => true do |t|
-    t.text     "content"
-    t.string   "page_type"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
+ActiveRecord::Schema.define(:version => 20130918181711) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
