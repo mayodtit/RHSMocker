@@ -362,7 +362,6 @@ DEPENDENCIES
   delayed_job_active_record
   factory_girl_rails
   factual-api
-  fog
   figaro
   fog
   guard-rspec
