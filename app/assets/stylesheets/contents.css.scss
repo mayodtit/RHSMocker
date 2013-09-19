@@ -97,7 +97,7 @@ div.content_abstract{
 
 div.content_text {
 	font-family: "Avenir Next Regular Condensed";
-	font-size: 17px;
+	font-size: 16px;
 	color: #4c4c4c;
 }
 
@@ -232,4 +232,15 @@ img.mayoContentImage {
   border-radius: 99em;
   border: 5px solid #eee;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+//Content Tables
+div.mctable {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+table.content {
+    max-width: 95%;
+    font-size: 14px;
 }
