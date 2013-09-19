@@ -67,5 +67,7 @@ module RHSMocker
 
     # add exception status codes to configuration, don't forget to add the status code route too!
     config.action_dispatch.rescue_responses.merge!('Error::PreconditionFailed' => :precondition_failed)
+
+    config.middleware.use 'Raddocs::Middleware'
   end
 end

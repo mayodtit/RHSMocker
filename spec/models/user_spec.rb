@@ -34,4 +34,12 @@ describe User do
     end
 
   end
+
+  describe 'observers' do
+    it 'should generate Google Analytics UUID for a new user' do
+      user.save
+      user.reload
+      user.google_analytics_uuid.should_not be_nil
+    end
+  end
 end

@@ -61,7 +61,7 @@ div.content_title_full {
     #color:#4c4c4c;
     color:#E86E32;
     text-transform:uppercase;
-    padding-bottom:5px;
+    padding-bottom:15px;
     padding-top: 5px;
     clear:left;
 }
@@ -97,7 +97,7 @@ div.content_abstract{
 
 div.content_text {
 	font-family: "Avenir Next Regular Condensed";
-	font-size: 17px;
+	font-size: 16px;
 	color: #4c4c4c;
 }
 
@@ -121,8 +121,8 @@ div.mayo_copyright {
     font-family: "Avenir Next Regular Condensed";
     font-size: 10px;
     color: #999999;
-    padding-bottom: 5px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    line-height:normal;
 }
 
 div.talk {
@@ -161,14 +161,62 @@ img.mayo_icon{
     width:90px;
     padding-top:3px;
     padding-bottom:2px;
+    float: right;
+    clear: both;
 }
 
-div.section_head {
-    text-transform:uppercase;
+div.section_head_show {
+    background-image: url(/assets/down_arrow.png) ;
+    background-size: 10px auto;
+    background-position: left center;
+    background-repeat: no-repeat;
+    //background-color: #808080;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+    font-size: 15px;
+    border-bottom:thin solid #E2E3E4;
+    color: #4c4c4c;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+div.section_head_hide {
+    background-image: url(/assets/up_arrow.png);
+    background-size: 10px auto;
+    background-repeat: no-repeat;
+    background-position: left center;
+    //background-color: #808080; 
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+    font-size: 15px;
+    border-bottom:thin solid #E2E3E4;
+    color: #4c4c4c;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+
+div.section_head_show a {
+    padding-left:15px;
+    color: #4c4c4c;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+
+div.section_head_hide a {
+    padding-left:15px;
+    color: #4c4c4c;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+
+
+div.section {
+   display: none; //default state
 }
 
 img.mayoContentImage {
-  padding-bottom: 7px;
+  padding-bottom: 12px;
+  padding-top: 3px; 
 }
 
 .authorImageDiv {
@@ -184,4 +232,15 @@ img.mayoContentImage {
   border-radius: 99em;
   border: 5px solid #eee;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+//Content Tables
+div.mctable {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+table.content {
+    max-width: 95%;
+    font-size: 14px;
 }

@@ -1,6 +1,6 @@
 namespace :db do
-  desc 'Drops, recreates, loads, and seeds database'
-  task :reboot => [:check_if_development, :drop, :create, 'db:schema:load', :seed] do
+  desc 'Resets development and test databases, and then imports and seeds development database'
+  task :reboot => [:check_if_development, :drop, :create, 'db:schema:load', 'admin:import_content', :seed, 'db:test:prepare'] do
 
   end
 

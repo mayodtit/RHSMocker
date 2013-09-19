@@ -45,7 +45,7 @@ describe 'Consults' do
       post "api/v1/consults", {auth_token: user.auth_token}.merge!(:consult => params)
     end
 
-    let!(:user) { create(:member) }
+    let!(:user) { create(:user_with_email) }
 
     before(:each) do
       user.login

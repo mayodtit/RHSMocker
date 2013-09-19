@@ -27,6 +27,8 @@ class User < ActiveRecord::Base
 
   mount_uploader :image_url, AvatarUploader
 
+  before_create :create_google_analytics_uuid
+
   def full_name
     return "Not Set" if first_name.blank? || last_name.blank?
     "#{first_name} #{last_name}".strip
@@ -62,5 +64,11 @@ class User < ActiveRecord::Base
 
   def weight
     weights.most_recent
+  end
+
+  private
+
+  def create_google_analytics_uuid
+    self.google_analytics_uuid = SecureRandom.uuid
   end
 end

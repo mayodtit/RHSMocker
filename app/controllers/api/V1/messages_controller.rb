@@ -4,7 +4,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   before_filter :load_message!, :only => :show
 
   def index
-    index_resource(@consult.messages)
+    index_resource(messages_with_message_statuses)
   end
 
   def show
@@ -19,6 +19,9 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
   def create
     create_resource(@consult.messages, create_params)
+    @consult.messages.create(:user => Member.robot,
+                             :text => "We've received your message! If the system was live, I would be a real Health Care Professional talking with you!",
+                             :created_at => Time.now + 1.second)
   end
 
   def mark_read
@@ -57,5 +60,12 @@ class Api::V1::MessagesController < Api::V1::ABaseController
       authorize! :manage, message.consult
       MessageStatus.find_by_user_id_and_message_id(@user.id, message.id).update_attributes(:status => status)
     end
+  end
+
+  def messages_with_message_statuses
+    options = Message::BASE_OPTIONS.merge(:only => :status) do |k, v1, v2|
+      v1 << v2
+    end
+    @consult.messages.with_message_statuses_for(current_user).as_json(options)
   end
 end

@@ -85,6 +85,7 @@ describe Api::V1::CardsController do
     end
 
     let(:cards) { double('cards', :find => card) }
+    let(:card_keys) { card.as_json.keys.map(&:to_sym) << :body }
 
     before(:each) do
       user.stub(:cards => cards)
@@ -97,8 +98,8 @@ describe Api::V1::CardsController do
 
       it 'returns the card' do
         do_request
-        json = JSON.parse(response.body)
-        json['card'].to_json.should == card.as_json.to_json
+        json = JSON.parse(response.body, :symbolize_names => true)
+        json[:card].keys.should =~ card_keys
       end
     end
   end

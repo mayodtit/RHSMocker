@@ -4,8 +4,11 @@ RHSMocker::Application.routes.draw do
     namespace :v1 do
       resources :allergies, :only => :index
       resources :association_types, :only => :index
-      resources :contents, :only => [:index, :show]
+      resources :contents, :only => [:index, :show] do
+        post :status, :on => :member
+      end
       resources :diets, :only => :index
+      resources :cards, :only => [:show, :update]
       resources :conditions, :only => :index
       resources :consults, :only => [:index, :show, :create] do
         resources :messages, :only => [:index, :show, :create]
@@ -24,6 +27,7 @@ RHSMocker::Application.routes.draw do
         post :save, :on => :collection
         post :dismiss, :on => :collection
       end
+      post :password_resets, :controller => :users, :action => :reset_password # TODO - deprecated!
       resources :plans, :only => [:index, :show]
       resources :remote_events, :only => :create
       resources :side_effects, :only => :index
@@ -33,6 +37,7 @@ RHSMocker::Application.routes.draw do
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
         resources :associations, :except => [:new, :edit]
         resources :blood_pressures, only: [:index, :create, :destroy]
+        resources :credit_cards, :only => :create
         resources :credits, :only => [:index, :show] do
           get 'summary', :on => :collection
         end
@@ -52,6 +57,7 @@ RHSMocker::Application.routes.draw do
           get :timeline, :on => :collection
         end
         get 'keywords', :on => :member
+        post :reset_password, :on => :collection
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
           resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do
@@ -72,7 +78,6 @@ RHSMocker::Application.routes.draw do
       put "user/:id" => "users#update", :as=>"user_update"
       post "user/update_password" => "users#update_password", :as=>"update_password"
       post "user/update_email" => "users#update_email", :as=>"update_email"
-      post "password_resets" => "password_resets#create", :as=>"create_password_resets"
 
       #reading list
       get "user_readings" => "user_readings#index", :as=>"user_readings_index"
@@ -87,12 +92,6 @@ RHSMocker::Application.routes.draw do
 
 
       post "feedback" => "users#add_feedback"
-
-      get "agreement_pages" => "agreement_pages#list"
-      get "agreements" => "agreements#list"
-      post "agreements" => "agreements#create"
-      get "agreements/up_to_date" => "agreements#up_to_date?"
-
     end
   end
 
@@ -101,11 +100,10 @@ RHSMocker::Application.routes.draw do
     get :signup, :on => :collection
   end
   resources :nurseline_records, :only => :create
-
-  get "password_resets/:id" => "api/v1/password_resets#edit", :as=>"edit_password_resets"
-  put "password_resets/:id" => "api/v1/password_resets#update", :as=>"update_password_resets"
-
-  match '/docs', :to => redirect('/docs/index.html')
+  resources :users, :only => [] do
+    get 'reset_password/:token', :to => 'users#reset_password', :on => :collection, :as => 'reset_password'
+    put 'reset_password', :to => 'users#reset_password_update', :on => :collection, :as => 'reset_password_update'
+  end
 
   get "/messages" => "messages#index", :as=>"messages_index"
   root :to => "home#index"
@@ -121,4 +119,6 @@ RHSMocker::Application.routes.draw do
   %w(403 404 412 500).each do |status_code|
     match status_code => 'errors#exception'
   end
+
+  match '/docs' => Raddocs::App, :anchor => false
 end

@@ -5,7 +5,6 @@
       <%= image_tag("mayo_clinic_logo.png", :class => "mayo_icon") %>
     <% end %>
   </div>
-
  <% if not ["Disease", "Test Procedure"].include?(@content.content_type) %>
 	<% if !@content.abstract.nil? %>
 		<div class="content_abstract"><%= @content.abstract.html_safe%></div>

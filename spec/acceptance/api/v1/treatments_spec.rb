@@ -5,18 +5,16 @@ resource "Treatments" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  before(:all) do
-    @medicine = create(:medicine_treatment)
-    @supplement = create(:supplement_treatment)
-    @vaccine = create(:vaccine_treatment)
-  end
+  let!(:medicine) { create(:medicine_treatment) }
+  let!(:supplement) { create(:supplement_treatment) }
+  let!(:vaccine) { create(:vaccine_treatment) }
 
   get '/api/v1/treatments' do
     parameter :q, "Query string"
     parameter :type, "Treatment type"
 
-    let(:type) { @medicine.type_name }
-    let(:q) { @medicine.name.split(' ')[0] }
+    let(:type) { medicine.type_name }
+    let(:q) { medicine.name.split(' ')[0] }
 
     example_request "[GET] Search treatments with query string and type" do
       explanation "Returns an array of treatments filtered by type matching query string"

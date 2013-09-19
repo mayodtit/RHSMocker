@@ -21,16 +21,12 @@ ActiveRecord::Schema.define(:version => 20130829221723) do
   end
 
   create_table "agreements", :force => true do |t|
-    t.string   "ip_address"
-    t.string   "user_agent"
-    t.integer  "agreement_page_id"
-    t.integer  "user_id"
-    t.datetime "created_at",        :null => false
-    t.datetime "updated_at",        :null => false
+    t.text     "text"
+    t.string   "type"
+    t.boolean  "active",     :default => false, :null => false
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
   end
-
-  add_index "agreements", ["agreement_page_id"], :name => "index_agreements_on_agreement_page_id"
-  add_index "agreements", ["user_id"], :name => "index_agreements_on_user_id"
 
   create_table "allergies", :force => true do |t|
     t.string   "name"
@@ -99,9 +95,9 @@ ActiveRecord::Schema.define(:version => 20130829221723) do
     t.integer  "resource_id"
     t.string   "resource_type"
     t.string   "state"
-    t.datetime "created_at",                      :null => false
-    t.datetime "updated_at",                      :null => false
-    t.integer  "priority",         :default => 0, :null => false
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+    t.integer  "priority",         :null => false
     t.datetime "state_changed_at"
   end
 
@@ -150,14 +146,16 @@ ActiveRecord::Schema.define(:version => 20130829221723) do
   create_table "contents", :force => true do |t|
     t.string   "title"
     t.text     "body"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
     t.string   "content_type"
     t.text     "abstract"
     t.text     "question"
     t.text     "keywords"
     t.datetime "content_updated_at"
     t.string   "mayo_doc_id"
+    t.boolean  "show_call_option"
+    t.boolean  "show_checker_option"
   end
 
   create_table "contents_symptoms", :force => true do |t|
@@ -171,10 +169,10 @@ ActiveRecord::Schema.define(:version => 20130829221723) do
   add_index "contents_symptoms", ["symptom_id"], :name => "index_contents_symptoms_on_symptom_id"
 
   create_table "contents_symptoms_factors", :force => true do |t|
-    t.integer  "content_id",         :limit => 255
+    t.integer  "content_id"
     t.integer  "symptoms_factor_id"
-    t.datetime "created_at",                        :null => false
-    t.datetime "updated_at",                        :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
   end
 
   add_index "contents_symptoms_factors", ["content_id"], :name => "index_contents_symptom_factors_on_content_id"
@@ -205,11 +203,11 @@ ActiveRecord::Schema.define(:version => 20130829221723) do
   end
 
   create_table "ethnic_groups", :force => true do |t|
-    t.string   "name",                          :default => "", :null => false
-    t.datetime "created_at",                                    :null => false
-    t.datetime "updated_at",                                    :null => false
-    t.integer  "ethnicity_code", :limit => 255, :default => 0,  :null => false
-    t.integer  "ordinal",                       :default => 0,  :null => false
+    t.string   "name",           :default => "", :null => false
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+    t.integer  "ethnicity_code", :default => 0,  :null => false
+    t.integer  "ordinal",        :default => 0,  :null => false
     t.datetime "disabled_at"
   end
 
@@ -335,6 +333,7 @@ ActiveRecord::Schema.define(:version => 20130829221723) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.text     "data"
+    t.integer  "user_id"
   end
 
   create_table "roles", :force => true do |t|
@@ -400,6 +399,15 @@ ActiveRecord::Schema.define(:version => 20130829221723) do
     t.string   "snomed_code"
     t.string   "type"
     t.datetime "disabled_at"
+  end
+
+  create_table "user_agreements", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "agreement_id"
+    t.string   "user_agent"
+    t.string   "ip_address"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
   create_table "user_allergies", :force => true do |t|
@@ -525,6 +533,8 @@ ActiveRecord::Schema.define(:version => 20130829221723) do
     t.string   "type",                                                                        :default => "",    :null => false
     t.string   "invitation_token"
     t.string   "units",                                                                       :default => "US",  :null => false
+    t.string   "stripe_customer_id"
+    t.string   "google_analytics_uuid",           :limit => 36
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"

@@ -5,10 +5,7 @@ resource "Symptoms" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  before :all do
-    FactoryGirl.create(:symptom)
-    FactoryGirl.create(:symptom, :name=>'Cough')
-  end
+  let!(:symptom) { create(:symptom) }
 
   get 'api/v1/symptoms' do
     example_request "[GET] Get all symptoms" do
@@ -17,5 +14,4 @@ resource "Symptoms" do
       JSON.parse(response_body)['symptoms'].should be_a Array
     end
   end
-
 end

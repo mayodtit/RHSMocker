@@ -44,7 +44,7 @@ describe 'Messages' do
     let(:message_params) { {:text => 'test message'} }
 
     it 'create a new message for the consult' do
-      lambda{ do_request(message_params) }.should change(Message, :count).by(1)
+      lambda{ do_request(message_params) }.should change(Message, :count).by(2) #TODO - creates 2 messages including auto-response
       response.should be_success
       body = JSON.parse(response.body, :symbolize_names => true)
       new_message = Message.find(body[:message][:id])

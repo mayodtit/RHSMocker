@@ -15,11 +15,11 @@ class Api::V1::CardsController < Api::V1::ABaseController
   end
 
   def show
-    show_resource(@card)
+    show_resource(merge_body(@card))
   end
 
   def update
-    update_resource(@card, params[:card])
+    update_resource(@card, card_params)
   end
 
   private
@@ -29,9 +29,22 @@ class Api::V1::CardsController < Api::V1::ABaseController
     authorize! :manage, @card
   end
 
+  def card_params
+    if @card.saved? || @card.dismissed?
+      params[:card].delete(:state_changed_at) unless [:saved, :dismissed].include?(params[:card][:state_event])
+    end
+    params[:card]
+  end
+
   def merge_previews(cards)
     cards.map{|c| c.as_json.merge!(:preview => render_to_string(:action => :preview,
                                                                 :formats => [:html],
                                                                 :locals => {:card => c}))}
+  end
+
+  def merge_body(card)
+    card.as_json.merge!(:body => render_to_string(:action => :show,
+                                                  :formats => [:html],
+                                                  :locals => {:card => card}))
   end
 end

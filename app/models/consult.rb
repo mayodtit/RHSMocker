@@ -39,8 +39,10 @@ class Consult < ActiveRecord::Base
     self.users << user unless self.users.include?(user)
   end
 
+  BASE_OPTIONS = {:methods => :last_message_at}
+
   def serializable_hash(options=nil)
-    super(options || {:methods => :last_message_at})
+    super(options || BASE_OPTIONS)
   end
 
   def members
@@ -64,6 +66,24 @@ class Consult < ActiveRecord::Base
 
   def last_message_at
     messages.order('created_at DESC').pluck(:created_at).first
+  end
+
+  def self.with_unread_messages_count_for(user)
+    joins('LEFT OUTER JOIN messages ON messages.consult_id = consults.id')
+    .joins("LEFT OUTER JOIN message_statuses
+            ON message_statuses.message_id = messages.id
+            AND message_statuses.user_id = #{user.id}
+            AND message_statuses.status = 'unread'")
+    .select('consults.*, count(message_statuses.id) as unread_messages_count_string')
+    .group('consults.id')
+  end
+
+  def unread_messages_count
+    unread_messages_count_string.to_i
+  end
+
+  def most_recent_message
+    messages.order('created_at DESC').first
   end
 
   private

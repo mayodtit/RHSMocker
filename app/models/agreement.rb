@@ -1,16 +1,30 @@
 class Agreement < ActiveRecord::Base
-  belongs_to :agreement_page
-  belongs_to :user
-  attr_accessible :ip_address, :user_agent, :user, :agreement_page
+  self.inheritance_column = nil # allow use non-STI :type column name
 
-  scope :user_agreement, lambda { joins(:agreement_page).where("agreement_pages.page_type = ?", "user_agreement") }
-  scope :privacy_policy, lambda { joins(:agreement_page).where("agreement_pages.page_type = ?", "privacy_policy") }
+  has_many :user_agreements
+  has_many :users, :through => :user_agreements
 
-  def as_json options=nil
-  	{
-  		id:id,
-  		created_at:created_at,
-  		agreement_page:agreement_page
-  	}
+  attr_accessible :text, :type, :active
+
+  validates :text, :type, presence: true
+  validates :active, :inclusion => {:in => [true, false]}
+  validates :active, :uniqueness => {:scope => :type}, :if => :active?
+
+  symbolize :type, :in => [:terms_of_service, :privacy_policy], :scopes => :shallow, :methods => true
+
+  def self.active
+    where(:active => true)
+  end
+
+  def self.current_for(type)
+    where(:type => type).active.first
+  end
+
+  def activate!
+    return true if active?
+    transaction do
+      self.class.update_all(:active => false)
+      update_attributes!(:active => true)
+    end
   end
 end

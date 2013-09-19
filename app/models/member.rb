@@ -1,6 +1,8 @@
 class Member < User
   authenticates_with_sorcery!
 
+  has_many :user_agreements, :foreign_key => :user_id
+  has_many :agreements, :through => :user_agreements
   has_many :cards, :foreign_key => :user_id
   has_many :user_readings, :order => 'read_date DESC', :foreign_key => :user_id
   has_many :contents, :through => :user_readings
@@ -10,8 +12,6 @@ class Member < User
   has_many :message_statuses, :foreign_key => :user_id
   has_many :locations, :foreign_key => :user_id
 
-  has_many :agreements, :foreign_key => :user_id
-  has_many :agreement_pages, :through => :agreements
   has_many :user_plans, :foreign_key => :user_id
   has_many :plans, :through => :user_plans
   has_many :user_offerings, :foreign_key => :user_id
@@ -19,11 +19,15 @@ class Member < User
 
   has_many :invitations
 
-  attr_accessible :install_id, :generic_call_time, :password, :password_confirmation, :feature_bucket,
-                  :holds_phone_in, :invitation_token, :units
+  accepts_nested_attributes_for :user_agreements
 
+  attr_accessible :install_id, :generic_call_time, :password, :password_confirmation, :feature_bucket,
+                  :holds_phone_in, :invitation_token, :units, :agreement_params
+
+  # TODO - conditions on acceptance are needed to support anonymous usage until it is disabled on the client
+  validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :on => :create, :if => lambda{|m| m.email.present?}
   validates :install_id, :uniqueness => true, :allow_nil => true
-  validates :email, :allow_nil => true, :uniqueness => {:message => 'account already exists'}
+  validates :email, :allow_nil => true, :uniqueness => {:message => 'account already exists', :case_sensitive => false}
   validates :phone, :allow_blank => true, :length => {:in => 7..17, :message => 'must be between 7 and 17 digits'}
   validates :password, :length => {:minimum => 8, :message => "must be 8 or more characters long"}, :confirmation => true, :if => :password
   validates :generic_call_time, :allow_nil => true, :inclusion => {:in => %w(morning afternoon evening),
@@ -115,17 +119,21 @@ class Member < User
 
   def add_install_message
     if Content.install_message
-      user_readings.create!(content: Content.install_message,
+      user_readings.create!(content: Content.install_message, # TODO - remove when UserReadings retired
                             read_date: Time.zone.now.iso8601,
                             save_date: Time.zone.now.iso8601,
                             save_count: 1)
+      cards.create!(resource: Content.install_message,
+                    state: :saved,
+                    state_changed_at: Time.zone.now.iso8601)
     end
     true
   end
 
   def add_new_member_content
     Content.new_member_content.each do |c|
-      user_readings.create!(content: c)
+      user_readings.create!(content: c) # TODO - remove when UserReadings retired
+      cards.create!(resource: c)
     end
     true
   end
@@ -135,7 +143,7 @@ class Member < User
   end
 
   def hasMaxContent
-    user_readings.unread.count >= 7
+    user_readings.unread.count >= 7 && cards.inbox.count >= 7
   end
 
   def getContent
@@ -183,5 +191,22 @@ class Member < User
 
   def pusher_id
     "RHS_#{Rails.env}_#{id}"
+  end
+
+  def self.robot
+    find_or_create_by_email(:email => 'robot@getbetter.com',
+                            :first_name => 'Better',
+                            :last_name => 'Robot')
+  end
+
+  def agreement_params=(params)
+    self.user_agreements_attributes = params[:ids].map{|id| {:user => self,
+                                                             :agreement_id => id,
+                                                             :ip_address => params[:ip_address],
+                                                             :user_agent => params[:user_agent]}}
+  end
+
+  def terms_of_service_and_privacy_policy
+    user_agreements.map(&:agreement_id).to_set.superset?(Agreement.active.pluck(:id).to_set)
   end
 end

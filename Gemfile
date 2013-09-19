@@ -1,23 +1,13 @@
 source 'https://rubygems.org'
-ruby '1.9.3'
+#ruby '1.9.3'
 
 gem 'rails', '3.2.14'
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-group :development do
-  gem 'sqlite3'
-  #gem 'pg'
-end
-
-group :production do
-  gem 'pg'
-end
+#content parsing
+gem 'nokogiri'
+gem 'pg' # This needs to come after Nokogiri https://github.com/sparklemotion/nokogiri/issues/742
 
 #static security scanner
-#http://brakemanscanner.org/
-gem 'brakeman'
+#gem 'brakeman' #http://brakemanscanner.org/
 
 #Monitoring
 gem 'newrelic_rpm'
@@ -45,27 +35,27 @@ group :assets do
 end
 
 group :development, :test do
-  # API documentation
   gem 'rspec_api_documentation'
   gem "rspec-rails", "~> 2.0"
-
-  gem 'database_cleaner', '~>0.9.1'
-end
-
-group :test do
+  gem "parallel_tests"
+  gem "zeus-parallel_tests"
   gem 'factory_girl_rails'
   gem 'capybara'
   gem 'guard-rspec'
   gem 'simplecov'
 end
 
+# test coverage for Code Climate
+gem 'codeclimate-test-reporter', group: :test, require: nil
+
+gem 'raddocs', :git => 'git://github.com/chilcutt/raddocs.git'
+
 gem 'jquery-rails'
 gem 'pusher'
 gem 'factual-api'
 gem 'rufus-scheduler'
 
-#content parsing
-gem 'nokogiri'
+
 
 #SOLR Support
 gem 'sunspot_rails'
@@ -109,4 +99,16 @@ gem 'figaro'
 
 # for image storage
 gem 'carrierwave'
+
+gem 'stripe'
+
+gem 'curb'
+gem 'minitar'
 gem 'fog'
+gem 's3_uploader'
+
+# Used for rails_stdout_logging and rails_serve_static_assets
+gem 'rails_12factor', group: :production
+
+gem 'ri_cal'
+gem 'symbolize'

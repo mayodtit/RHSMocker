@@ -5,7 +5,7 @@ resource "ScheduledPhoneCalls" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  let!(:user) { create(:member) }
+  let!(:user) { create(:user_with_email) }
   let(:auth_token) { user.auth_token }
   let!(:consult) { create(:consult, :initiator => user) }
   let(:consult_id) { consult.id }
