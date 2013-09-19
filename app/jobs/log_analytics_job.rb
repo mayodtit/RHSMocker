@@ -1,12 +1,18 @@
 class LogAnalyticsJob
-  def initialize(user_uuid, event_name, build_number = nil, device_os_version = nil)
+  def initialize(user_uuid, event_name, misc_params = {})
+    @device_os_version = misc_params[:device_os_version]
+    build_number = misc_params[:build_number]
+    event_label = misc_params[:event_label]
+    event_category = misc_params[:event_category] || DEFAULT_EVENT_CATEGORY
+
     # for debugging
     #t = Time.now.to_i
     #user_uuid = "testing_#{user_uuid}_#{t}"
     #build_number = "testing_#{build_number}_#{t}"
 
-    @device_os_version = device_os_version
     @payload = {
+
+      # details on parameters here: https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters
       v:   '1',            # required - this shouldn't change
       tid: GA_TRACKING_ID, # required - tracking ID
       cid: user_uuid,      # required - user ID
@@ -16,11 +22,12 @@ class LogAnalyticsJob
       aip: 1,              # optional - anomymize IP (to reduce pollution of location data)
 
       # event tracking is optional, but the following two are both required to track an event
-      ea: event_name,                      # event action
-      ec: 'Better Default Event Category', # event category
+      ea: event_name,      # event action
+      ec: event_category,  # event category
     }
 
     @payload.merge!({av: build_number}) if build_number # optional - add app version if provided
+    @payload.merge!({el: event_label})  if event_label  # optional - add event label if provided
   end
 
   def log_ga
