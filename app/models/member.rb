@@ -24,7 +24,6 @@ class Member < User
   attr_accessible :install_id, :generic_call_time, :password, :password_confirmation, :feature_bucket,
                   :holds_phone_in, :invitation_token, :units, :agreement_params
 
-  validates :all_current_agreements, :acceptance => {:accept => true}, :on => :create, :if => lambda{|m| m.email.present?}
   validates :install_id, :uniqueness => true, :allow_nil => true
   validates :email, :allow_nil => true, :uniqueness => {:message => 'account already exists', :case_sensitive => false}
   validates :phone, :allow_blank => true, :length => {:in => 7..17, :message => 'must be between 7 and 17 digits'}
@@ -203,9 +202,5 @@ class Member < User
                                                              :agreement_id => id,
                                                              :ip_address => params[:ip_address],
                                                              :user_agent => params[:user_agent]}}
-  end
-
-  def all_current_agreements
-    user_agreements.map(&:agreement_id).to_set.superset?(Agreement.active.pluck(:id).to_set)
   end
 end
