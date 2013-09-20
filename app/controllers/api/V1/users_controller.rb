@@ -3,7 +3,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   attr_accessible :first_name, :last_name, :image_url, :gender, :height, :birth_date, :email, :phone,
                   :generic_call_time, :password, :password_confirmation, :feature_bucket, :blood_type,
                   :holds_phone_in, :diet_id, :ethnic_group_id, :deceased, :date_of_death, :npi_number,
-                  :expertise, :city, :state, :units, :agreement_params
+                  :expertise, :city, :state, :units
 
   skip_before_filter :authentication_check, :only => [:create, :reset_password]
   before_filter :load_user!, :only => :update
@@ -18,26 +18,13 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def create
-    # TODO - the client is still creating blanks on launch, keep this junk until that is fixed
     @user = Member.where(:install_id => install_id).first_or_initialize
     if @user.email.present?
       render_failure({reason:"Registration is already complete",
                       user_message: 'User with this email already exists'}, 409)
       return
-    else
-      @user.destroy
     end
-
-    # TODO - hack in the TOS here until the controller is cleaned up, move params to private method
-    if params[:user][:tos_checked]
-      params[:user][:agreement_params] = {:ids => Agreement.active.pluck(:id), :ip_address => request.remote_ip, :user_agent => request.env['HTTP_USER_AGENT']}
-    end
-
-    # TODO - Ack; force in install_id without changing the mass assignment security list
-    @user = Member.new(sanitize_for_mass_assignment(params[:user]))
-    @user.install_id = install_id
-    @user.save
-    if @user.errors.empty?
+    if @user.update_attributes(sanitize_for_mass_assignment(params[:user]))
       auto_login(@user)
       @user.login
       UserMailer.welcome_email(@user).deliver unless @user.email.blank?
