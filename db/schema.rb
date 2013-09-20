@@ -11,26 +11,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130915203422) do
-
-  create_table "agreement_pages", :force => true do |t|
-    t.text     "content"
-    t.string   "page_type"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
+ActiveRecord::Schema.define(:version => 20130918181711) do
 
   create_table "agreements", :force => true do |t|
-    t.string   "ip_address"
-    t.string   "user_agent"
-    t.integer  "agreement_page_id"
-    t.integer  "user_id"
-    t.datetime "created_at",        :null => false
-    t.datetime "updated_at",        :null => false
+    t.text     "text"
+    t.string   "type"
+    t.boolean  "active",     :default => false, :null => false
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
   end
-
-  add_index "agreements", ["agreement_page_id"], :name => "index_agreements_on_agreement_page_id"
-  add_index "agreements", ["user_id"], :name => "index_agreements_on_user_id"
 
   create_table "allergies", :force => true do |t|
     t.string   "name"
@@ -150,14 +139,16 @@ ActiveRecord::Schema.define(:version => 20130915203422) do
   create_table "contents", :force => true do |t|
     t.string   "title"
     t.text     "body"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
     t.string   "content_type"
     t.text     "abstract"
     t.text     "question"
     t.text     "keywords"
     t.datetime "content_updated_at"
     t.string   "mayo_doc_id"
+    t.boolean  "show_call_option"
+    t.boolean  "show_checker_option"
   end
 
   create_table "contents_symptoms", :force => true do |t|
@@ -171,10 +162,10 @@ ActiveRecord::Schema.define(:version => 20130915203422) do
   add_index "contents_symptoms", ["symptom_id"], :name => "index_contents_symptoms_on_symptom_id"
 
   create_table "contents_symptoms_factors", :force => true do |t|
-    t.integer  "content_id",         :limit => 255
+    t.integer  "content_id"
     t.integer  "symptoms_factor_id"
-    t.datetime "created_at",                        :null => false
-    t.datetime "updated_at",                        :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
   end
 
   add_index "contents_symptoms_factors", ["content_id"], :name => "index_contents_symptom_factors_on_content_id"
@@ -205,11 +196,11 @@ ActiveRecord::Schema.define(:version => 20130915203422) do
   end
 
   create_table "ethnic_groups", :force => true do |t|
-    t.string   "name",                          :default => "", :null => false
-    t.datetime "created_at",                                    :null => false
-    t.datetime "updated_at",                                    :null => false
-    t.integer  "ethnicity_code", :limit => 255, :default => 0,  :null => false
-    t.integer  "ordinal",                       :default => 0,  :null => false
+    t.string   "name",           :default => "", :null => false
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+    t.integer  "ethnicity_code", :default => 0,  :null => false
+    t.integer  "ordinal",        :default => 0,  :null => false
     t.datetime "disabled_at"
   end
 
@@ -402,6 +393,15 @@ ActiveRecord::Schema.define(:version => 20130915203422) do
     t.datetime "disabled_at"
   end
 
+  create_table "user_agreements", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "agreement_id"
+    t.string   "user_agent"
+    t.string   "ip_address"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
   create_table "user_allergies", :force => true do |t|
     t.integer  "user_id"
     t.integer  "allergy_id"
@@ -526,7 +526,6 @@ ActiveRecord::Schema.define(:version => 20130915203422) do
     t.string   "invitation_token"
     t.string   "units",                                                                       :default => "US",  :null => false
     t.string   "stripe_customer_id"
-    t.string   "mixpanel_uuid",                   :limit => 36
     t.string   "google_analytics_uuid",           :limit => 36
   end
 

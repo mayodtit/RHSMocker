@@ -1,29 +1,14 @@
 class Api::V1::ContentsController < Api::V1::ABaseController
+  before_filter :load_contents!, :only => :index
+  before_filter :load_content!, :only => :show
 
   def index
-    @contents = if params[:q].blank?
-      Content.all :order => 'title ASC'
-    else
-      Content.solr_search do |s|
-         @contents = s.keywords params[:q]
-         @searchterm = params[:q]
-      end
-    end
-    render_success({contents:@contents})
+    index_resource(@contents)
+    #Analytics.log_content_search(current_user.google_analytics_uuid, params[:q]) if current_user
   end
 
   def show
-    @content = Content.find_by_id(params[:id])
-    return render_failure({reason:"Content not found"}, 404) unless @content
-    html = if params[:q] == 'cardview'
-      render_to_string :action => "content_cardview", :formats=>:html, :locals => {:first_paragraph => @content.previewText}
-    else
-      render_to_string :action => "content_full", :formats=>:html
-    end
-
-    user_reading = UserReading.find_by_user_id_and_content_id(current_user.id, @content.id) || UserReading.create(view_date:DateTime.now, user_id:current_user.id, content_id:@content.id)
-
-    render_success content:@content.as_json({"source"=>html, :user_reading_id=>user_reading.id})
+    show_resource(merge_body(@content))
   end
 
   def status
@@ -33,4 +18,26 @@ class Api::V1::ContentsController < Api::V1::ABaseController
     update_resource(@card, params[:card], :card)
   end
 
+  private
+
+  def load_contents!
+    @contents = params[:q].blank? ? Content.order('title ASC') : solr_results
+  end
+
+  def solr_results
+    Content.solr_search do |s|
+      @contents = s.keywords params[:q]
+      @searchterm = params[:q]
+    end
+  end
+
+  def load_content!
+    @content = Content.find(params[:id])
+  end
+
+  def merge_body(content)
+    content.as_json.merge!(:body => render_to_string(:action => :show,
+                                                     :formats => :html,
+                                                     :locals => {:content => content}))
+  end
 end

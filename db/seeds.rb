@@ -397,6 +397,7 @@ Allergy.find_or_create_by_name(:name=>"Shrimp",:snomed_name=>"Shrimp allergy",:s
 Allergy.find_or_create_by_name(:name=>"Silicone",:snomed_name=>"Silicone allergy",:snomed_code=>"294328008",:food_allergen=>"false",:environment_allergen=>"true",:medication_allergen=>"false")
 Allergy.find_or_create_by_name(:name=>"Spider bite",:snomed_name=>"Spider bite allergy",:snomed_code=>"427487000",:food_allergen=>"false",:environment_allergen=>"true",:medication_allergen=>"false")
 Allergy.find_or_create_by_name(:name=>"Sulfur",:snomed_name=>"Sulfur allergy",:snomed_code=>"294179008",:food_allergen=>"true",:environment_allergen=>"true",:medication_allergen=>"false")
+Allergy.find_or_create_by_name(:name=>"Sunlight",:snomed_name=>"Photosensitization due to sun",:snomed_code=>"258155009",:food_allergen=>"false",:environment_allergen=>"true",:medication_allergen=>"false")
 Allergy.find_or_create_by_name(:name=>"Tape",:snomed_name=>"Tape allergy",:snomed_code=>"405649006",:food_allergen=>"true",:environment_allergen=>"false",:medication_allergen=>"false")
 Allergy.find_or_create_by_name(:name=>"Tomato",:snomed_name=>"Tomato allergy",:snomed_code=>"418779002",:food_allergen=>"true",:environment_allergen=>"false",:medication_allergen=>"false")
 Allergy.find_or_create_by_name(:name=>"Tryptophan",:snomed_name=>"Tryptophan allergy",:snomed_code=>"293842000",:food_allergen=>"true",:environment_allergen=>"false",:medication_allergen=>"false")
@@ -441,7 +442,19 @@ Treatment::Surgery.find_or_create_by_name(:name=>"Cholecystectomy", :snomed_name
 Treatment::Surgery.find_or_create_by_name(:name=>"Appendectomy",:snomed_name=>"Appendectomy",:snomed_code=>"80146002")
 Treatment::Medicine.find_or_create_by_name(:name => "Captopril", :snomed_name => "Captopril", :snomed_code => 'DEADBEEF')
 
+o = Offering.find_or_create_by_name(name: 'Phone Call')
+p = Plan.find_or_create_by_name(name: 'Silver', monthly: true)
+PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: 2, unlimited: false)
+p = Plan.find_or_create_by_name(name: 'Gold', monthly: true)
+PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: 3, unlimited: false)
+p = Plan.find_or_create_by_name(name: 'Platinum', monthly: true)
+PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: nil, unlimited: true)
 
+########################################################################
+#
+# ONLY SYMTPOMS CHECKER CONTENT AFTER THIS LINE!
+#
+#########################################################################
 #FactorGroup
 accompanied_by_factor_group   = FactorGroup.find_or_create_by_name(:name=>"Accompanied by")
 appearance_of_eye_factor_group= FactorGroup.find_or_create_by_name(:name=>"Appearance of eye includes")
@@ -2604,11 +2617,9 @@ ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
 )
 
+########################################################################
+#
+# DO NOT PUT ANY CONTENT AT BOTTOM OF THIS FILE. GO BEFORE SYMPTOMS CHECKER
+#
+#########################################################################
 
-o = Offering.find_or_create_by_name(name: 'Phone Call')
-p = Plan.find_or_create_by_name(name: 'Silver', monthly: true)
-PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: 2, unlimited: false)
-p = Plan.find_or_create_by_name(name: 'Gold', monthly: true)
-PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: 3, unlimited: false)
-p = Plan.find_or_create_by_name(name: 'Platinum', monthly: true)
-PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: nil, unlimited: true)

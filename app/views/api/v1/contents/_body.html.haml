@@ -1,0 +1,13 @@
+.content_full
+  .content_source_full
+    - unless %w(Question Quiz Message).include?(content.content_type)
+      = image_tag('mayo_clinic_logo.png', :class => 'mayo_icon')
+  .content_title_full= content.title.html_safe
+  - unless ['Disease', 'Test Procedure'].include?(content.content_type)
+    .content_abstract= content.abstract.html_safe if content.abstract.present?
+  - if %w(Quiz Question Message).include?(content.content_type)
+    .content_text= content.body.html_safe if content.body.present?
+  - else
+    .content_text= content.formatted_body.html_safe if content.body.present?
+    .mayo_copyright
+      &copy;2013&nbsp;Mayo Foundation for Medical Education and Research (MFMER).<br>All rights reserved.

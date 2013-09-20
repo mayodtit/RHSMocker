@@ -54,4 +54,17 @@ describe 'Users' do
       end
     end
   end
+
+  describe 'POST /api/v1/users/reset_password' do
+    def do_request(params={})
+      post "/api/v1/users/reset_password", params
+    end
+
+    let!(:user) { create(:user_with_email).tap{|m| m.login} }
+
+    it 'sends reset password email' do
+      do_request(:email => user.email)
+      response.should be_success
+    end
+  end
 end
