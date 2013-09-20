@@ -57,7 +57,7 @@ namespace :admin do
 				section_head_node = section_node.at("SectionHead")
 				if !section_head_node.nil? && !section_head_node.content.nil? && !section_head_node.content.to_s.blank?
 					idName = section_head_node.content.to_s.gsub!(/\s+/, "").downcase
-					idName = idName.gsub(/[?'':-.]/, "")
+					idName = idName.gsub(/[-?'':.]/, "")
 					logger.info("ID is: " + idName)
 					#var%20this_element=document.getElementById(#{idName}_header);this_element.className=(this_element.className==%27div.section_head.show%27)?%27div.section_head.hide%27:%27div.section_head.show%27;
 					javascriptFunction = "javascript:%24(#{idName}_section).toggle();var%20this_element=document.getElementById('#{idName}_header');this_element.className=(this_element.className=='section_head_show')?'section_head_hide':'section_head_show';"
@@ -172,7 +172,7 @@ namespace :admin do
 
 			if @content.present?
 				@content.update_attributes(title: title, abstract: abstract, question: question, 
-					body: body_text, keywords: keywords)
+					body: body_text, keywords: keywords, show_call_option: showCall, show_checker_option: showSymptoms)
 					#Content Updated At?
 				end
 
