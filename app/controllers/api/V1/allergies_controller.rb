@@ -14,7 +14,7 @@ class Api::V1::AllergiesController < Api::V1::ABaseController
   private
 
   def solr_results
-    Allergy.search { fulltext params[:q] }.results
+    Allergy.or_search(params[:q]).results
   end
 
   # array of snomed codes that we don't want to appear in results
