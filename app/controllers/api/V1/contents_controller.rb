@@ -25,9 +25,10 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   end
 
   def solr_results
+    query = Content.sanitize_solr_query(params[:q])
     Content.solr_search do |s|
-      @contents = s.keywords params[:q]
-      @searchterm = params[:q]
+      @contents = s.keywords query
+      @searchterm = query
     end
   end
 
