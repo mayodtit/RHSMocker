@@ -49,7 +49,7 @@ class User < ActiveRecord::Base
                   :methods => [:blood_pressure, :weight]}
 
   def serializable_hash(options = nil)
-    options = BASE_OPTIONS if options.empty?
+    options = BASE_OPTIONS if options.blank?
     super(options)
   end
 
