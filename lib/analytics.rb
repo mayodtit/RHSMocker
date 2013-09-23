@@ -33,24 +33,5 @@ class Analytics
       LogAnalyticsJob.new(user_ga_uuid, 'content_search', event_data).log_ga
     end
     handle_asynchronously :log_content_search
-
-    def dummy_method_for_code_coverage_testing
-      (@a == 1) ? b = 1 : b = 2
-      (@b == 1) ? b = 1 : b = 2
-      (@c == 1) ? b = 1 : b = 2
-      (@d == 1) ? b = 1 : b = 2
-      (@e == 1) ? b = 1 : b = 2
-      (@f == 1) ? b = 1 : b = 2
-      (@g == 1) ? b = 1 : b = 2
-      (@h == 1) ? b = 1 : b = 2
-      (@i == 1) ? b = 1 : b = 2
-      (@j == 1) ? b = 1 : b = 2
-      (@k == 1) ? b = 1 : b = 2
-      (@l == 1) ? b = 1 : b = 2
-      (@m == 1) ? b = 1 : b = 2
-      (@n == 1) ? b = 1 : b = 2
-      (@o == 1) ? b = 1 : b = 2
-      (@p == 1) ? b = 1 : b = 2
-    end
   end
 end
