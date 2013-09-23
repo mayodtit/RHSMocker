@@ -342,7 +342,6 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers (~> 0.7.0)
   awesome_print
-  bcrypt-ruby (~> 3.0.0)
   cancan
   capybara
   codeclimate-test-reporter
