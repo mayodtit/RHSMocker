@@ -1,5 +1,6 @@
 class Treatment < ActiveRecord::Base
   include SoftDeleteModule
+  include SolrExtensionModule
 
   attr_accessible :name, :type, :snomed_name, :snomed_code
   has_many :user_treatments

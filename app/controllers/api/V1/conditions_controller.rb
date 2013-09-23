@@ -14,7 +14,7 @@ class Api::V1::ConditionsController < Api::V1::ABaseController
   end
 
   def solr_results
-    Condition.search{ fulltext params[:q] }
+    Condition.or_search(params[:q])
   end
 
   def diseases_path?

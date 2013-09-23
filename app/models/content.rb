@@ -1,4 +1,5 @@
 class Content < ActiveRecord::Base
+  include SolrExtensionModule
 
 	attr_accessible :title, :body, :content_type, :abstract, :question, :keywords, :content_updated_at, :mayo_doc_id, :show_call_option, :show_checker_option
 

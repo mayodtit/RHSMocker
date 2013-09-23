@@ -36,7 +36,14 @@ resource "Association" do
     example_request "[GET] Get an association for a user" do
       explanation 'Returns an association for the user'
       status.should == 200
-      JSON.parse(response_body)['association'].should be_a Hash
+      association = JSON.parse(response_body)['association']
+      association.should be_a Hash
+
+      # don't include sensitive data in a user's JSON
+      excluded_columns = %w(auth_token created_time crypted_password google_analytics_uuid salt stripe_customer_id salt updated_at)
+      excluded_columns.each do |column|
+        association['associate'].keys.should_not include(column)
+      end
     end
   end
 

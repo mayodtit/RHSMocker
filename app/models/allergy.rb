@@ -1,5 +1,6 @@
 class Allergy < ActiveRecord::Base
   include SoftDeleteModule
+  include SolrExtensionModule
 
   has_many :user_allergies
   has_many :users, :through => :user_allergies

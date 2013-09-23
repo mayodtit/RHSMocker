@@ -48,8 +48,8 @@ class User < ActiveRecord::Base
                             :image_url, :deceased, :date_of_death, :npi_number, :expertise],
                   :methods => [:blood_pressure, :weight]}
 
-  def serializable_hash options=nil
-    options ||= BASE_OPTIONS
+  def serializable_hash(options = nil)
+    options = BASE_OPTIONS if options.empty?
     super(options)
   end
 
