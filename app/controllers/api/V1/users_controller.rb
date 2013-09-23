@@ -51,25 +51,6 @@ class Api::V1::UsersController < Api::V1::ABaseController
     update_resource(@user, :email => params[:email])
   end
 
-  def update_avatar
-    Rails.logger.info '*' * 80
-    Rails.logger.info 'here1'
-
-    user = current_user
-
-    #user = login(current_user.email, current_user.password)
-
-    user.image_url = params[:avatar]
-    if user.save
-      render_success( {user: user})
-    else
-      Rails.logger.info '*' * 80
-      Rails.logger.info user.errors
-      render_failure
-    end
-
-  end
-
   def keywords
     render_success keywords: Member.find(params[:id]).keywords.map{|mv| mv[0].title }[0,7]
   end
