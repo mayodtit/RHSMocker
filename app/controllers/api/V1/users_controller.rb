@@ -36,7 +36,13 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def update
-    update_resource(@user, sanitized_params)
+    p = sanitized_params
+
+    if params[:user][:avatar].present?
+      p.merge!(image_url: CarrierwaveStringIO.new(Base64.decode64(params[:user][:avatar])))
+    end
+
+    update_resource(@user, p)
   end
 
   def update_password

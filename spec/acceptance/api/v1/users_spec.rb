@@ -146,7 +146,7 @@ resource "Users" do
     parameter :feature_bucket, "The feature bucket that the user is in (none, message_only, call_only, message_call)"
     parameter :first_name, "User's first name"
     parameter :last_name, "User's last name"
-    parameter :image_url, "User's image URL"
+    parameter :avatar, 'Base64 encoded image'
     parameter :gender, "User's gender(male or female)"
     parameter :height, "User's height(in cm)"
     parameter :birth_date, "User's birth date"
@@ -159,13 +159,12 @@ resource "Users" do
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
     parameter :deceased, "Boolean, is the user deceased"
     parameter :date_of_death, "If the user is deceased, when did they die"
-    scope_parameters :user, [:first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
+    scope_parameters :user, [:first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
     required_parameters :auth_token
 
     put '/api/v1/user' do
       let(:first_name) { "Bob" }
       let(:last_name) { "Smith" }
-      let(:image_url) { "http://placekitten.com/90/90" }
       let(:gender) { "male" }
       let(:height) { 190 }
       let(:birth_date) { "1980-10-15" }
@@ -180,11 +179,15 @@ resource "Users" do
       let(:deceased) { false }
       let(:raw_post) { params.to_json }
 
+      file = Rails.root.join('spec','support','kbcat.jpg')
+      let(:avatar) { Base64.encode64(open(file) { |io| io.read }) }
+
       example_request "[PUT] Update user" do
         explanation "Update attributes for currently logged in user (as identified by auth_token). Can pass additional user fields, such as first_name, gender, birth_date, etc.  Returns the updated user"
         status.should == 200
-        response = JSON.parse(response_body, :symbolize_names => true)
-        response[:user].to_json.should == user.reload.as_json.to_json
+        response = JSON.parse(response_body, :symbolize_names => true)[:user]
+        response.to_json.should == user.reload.as_json.to_json
+        response[:avatar_url].should_not be_nil
       end
     end
   end
