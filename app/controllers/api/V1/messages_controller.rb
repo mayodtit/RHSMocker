@@ -21,7 +21,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     p = create_params
 
     if params[:image].present?
-      p.merge!(image: CarrierwaveStringIO.new(Base64.decode64(params[:image])))
+      p.merge!(image: decode_b64_image(params[:image]))
     end
 
     create_resource(@consult.messages, p)

@@ -39,7 +39,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
     p = sanitized_params
 
     if params[:user][:avatar].present?
-      p.merge!(image_url: CarrierwaveStringIO.new(Base64.decode64(params[:user][:avatar])))
+      p.merge!(image_url: decode_b64_image(params[:user][:avatar]))
     end
 
     update_resource(@user, p)
