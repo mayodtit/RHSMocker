@@ -15,7 +15,7 @@ class Message < ActiveRecord::Base
                   :new_location, :new_keyword_ids, :new_attachments, :scheduled_phone_call,
                   :scheduled_phone_call_id, :phone_call, :phone_call_id,
                   :scheduled_phone_call_attributes, :phone_call_attributes,
-                  :created_at
+                  :created_at, :image
 
   validates :user, :consult, :text, presence: true
   validates :content, presence: true, if: lambda{|m| m.content_id.present?}
@@ -58,7 +58,7 @@ class Message < ActiveRecord::Base
   alias_method :preview, :previewText
 
   BASE_OPTIONS = {:only => [:id, :text, :created_at],
-                  :methods => :title,
+                  :methods => [:title, :image_url],
                   :include => {:location => {},
                                :attachments => {},
                                :mayo_vocabularies => {},
@@ -66,7 +66,12 @@ class Message < ActiveRecord::Base
                                :user => {:only => :id, :methods => :full_name}}}
 
   def serializable_hash(options=nil)
-    super(options || BASE_OPTIONS)
+    options = BASE_OPTIONS if options.blank?
+    super(options)
+  end
+
+  def image_url
+    image.url
   end
 
   def self.phone_params(type, user, consult, nested_params=nil)

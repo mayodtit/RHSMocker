@@ -48,7 +48,11 @@ resource "Messages" do
                                              :new_keyword_ids => [mayo_vocabulary.id],
                                              :new_attachments => [attributes_for(:attachment)]) }
 
+    file = Rails.root.join('spec','support','kbcat.jpg')
+    let(:image) { Base64.encode64(open(file) { |io| io.read }) }
+
     parameter :message, 'Hash of message parameters'
+    parameter :image, 'Base64 encoded image'
 
     let(:raw_post) { params.to_json }
 
@@ -57,6 +61,7 @@ resource "Messages" do
       status.should == 200
       body = JSON.parse(response_body, :symbolize_names => true)[:message]
       body.should be_a Hash
+      body[:image_url].should_not be_nil
     end
   end
 end
