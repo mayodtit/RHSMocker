@@ -3,7 +3,7 @@
     - unless %w(Question Quiz Message).include?(content.content_type)
       = image_tag('mayo_clinic_logo.png', :class => 'mayo_icon')
   .content_title_full= content.title.html_safe
-  - unless ['Disease', 'Test Procedure'].include?(content.content_type)
+  - unless ['Test Procedure'].include?(content.content_type)
     .content_abstract= content.abstract.html_safe if content.abstract.present?
   - if %w(Quiz Question Message).include?(content.content_type)
     .content_text= content.body.html_safe if content.body.present?
