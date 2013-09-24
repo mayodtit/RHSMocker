@@ -178,9 +178,7 @@ resource "Users" do
       let(:holds_phone_in) { "left" }
       let(:deceased) { false }
       let(:raw_post) { params.to_json }
-
-      file = Rails.root.join('spec','support','kbcat.jpg')
-      let(:avatar) { Base64.encode64(open(file) { |io| io.read }) }
+      let(:avatar) { base64_test_image }
 
       example_request "[PUT] Update user" do
         explanation "Update attributes for currently logged in user (as identified by auth_token). Can pass additional user fields, such as first_name, gender, birth_date, etc.  Returns the updated user"

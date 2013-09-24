@@ -47,9 +47,7 @@ resource "Messages" do
                                              :new_location => attributes_for(:location),
                                              :new_keyword_ids => [mayo_vocabulary.id],
                                              :new_attachments => [attributes_for(:attachment)]) }
-
-    file = Rails.root.join('spec','support','kbcat.jpg')
-    let(:image) { Base64.encode64(open(file) { |io| io.read }) }
+    let(:image) { base64_test_image }
 
     parameter :message, 'Hash of message parameters'
     parameter :image, 'Base64 encoded image'
