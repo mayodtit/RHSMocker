@@ -16,4 +16,10 @@ describe Message do
       message.reload.user.message_statuses.should_not be_empty
     end
   end
+
+  describe '#image_url' do
+    it 'should return nil for a message without an image' do
+      build(:message).image_url.should be_nil
+    end
+  end
 end
