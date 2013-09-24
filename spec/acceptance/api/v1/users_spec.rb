@@ -55,26 +55,6 @@ resource "Users" do
     end
   end
 
-  describe 'create user with install ID' do
-    parameter :install_id, "Unique install ID"
-    scope_parameters :user, [:install_id]
-    required_parameters :install_id
-
-    post '/api/v1/signup' do
-      let(:install_id) { "1234" }
-      let(:raw_post) { params.to_json }
-
-      example_request "[POST] Sign up using install ID" do
-        explanation "Returns auth_token and the user"
-        status.should == 200
-        response = JSON.parse(response_body, :symbolize_names => true)
-        new_user = User.find(response[:user][:id])
-        response[:auth_token].should == new_user.auth_token
-        response[:user].to_json.should == new_user.as_json.to_json
-      end
-    end
-  end
-
   describe 'create user with email and password' do
     parameter :install_id, "Unique install ID"
     parameter :email, "Account email"
