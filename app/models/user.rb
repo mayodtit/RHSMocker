@@ -18,14 +18,14 @@ class User < ActiveRecord::Base
   belongs_to :ethnic_group
   belongs_to :diet
 
-  attr_accessible :first_name, :last_name, :image_url, :gender, :height, :birth_date, :email,
+  attr_accessible :first_name, :last_name, :avatar, :gender, :height, :birth_date, :email,
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
                   :date_of_death, :expertise, :city, :state
 
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
 
-  mount_uploader :image_url, AvatarUploader
+  mount_uploader :avatar, AvatarUploader
 
   before_create :create_google_analytics_uuid
 
@@ -67,7 +67,7 @@ class User < ActiveRecord::Base
   end
 
   def avatar_url
-    image_url.url
+    avatar.url
   end
 
   private

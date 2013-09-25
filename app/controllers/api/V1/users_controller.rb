@@ -1,6 +1,6 @@
 class Api::V1::UsersController < Api::V1::ABaseController
   include ActiveModel::MassAssignmentSecurity
-  attr_accessible :first_name, :last_name, :image_url, :gender, :height, :birth_date, :email, :phone,
+  attr_accessible :first_name, :last_name, :avatar, :gender, :height, :birth_date, :email, :phone,
                   :generic_call_time, :password, :password_confirmation, :feature_bucket, :blood_type,
                   :holds_phone_in, :diet_id, :ethnic_group_id, :deceased, :date_of_death, :npi_number,
                   :expertise, :city, :state, :units, :agreement_params, :install_id
@@ -100,7 +100,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
     params[:user].delete(:email) if @user == current_user
     params[:user].delete(:password)
     params[:user].delete(:install_id)
-    params[:user][:image_url] = decode_b64_image(params[:user][:avatar]) if params[:user][:avatar].present?
+    params[:user][:avatar] = decode_b64_image(params[:user][:avatar]) if params[:user][:avatar].present?
     sanitize_for_mass_assignment(params[:user])
   end
 end
