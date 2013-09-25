@@ -24,12 +24,12 @@ class Member < User
   attr_accessible :install_id, :generic_call_time, :password, :password_confirmation, :feature_bucket,
                   :holds_phone_in, :invitation_token, :units, :agreement_params
 
-  validates :email, :uniqueness => {:message => 'account already exists', :case_sensitive => false}
+  validates :email, :uniqueness => {:message => 'account already exists', :case_sensitive => false}, :allow_nil => true
   validates :password, :length => {:minimum => 8, :message => "must be 8 or more characters long"}, :confirmation => true, :if => :password
   validates :install_id, :uniqueness => true, :allow_nil => true
   validates :phone, :length => {:in => 7..17, :message => 'must be between 7 and 17 digits'}, :allow_blank => true
   validates :units, :inclusion => {:in => %w(US Metric)}
-  validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :on => :create
+  validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :on => :create, :if => lambda{|m| m.email.present?}
 
   # TODO - KC - remove these validations, I don't think they're used anymore
   validates :generic_call_time, :allow_nil => true, :inclusion => {:in => %w(morning afternoon evening),
@@ -40,7 +40,7 @@ class Member < User
   after_create :login # generate inital auth_token
   after_create :add_install_message
   after_create :add_new_member_content
-  after_create :send_welcome_message
+  after_create :send_welcome_message, :if => lambda{|m| m.email.present?}
 
   searchable do
     text :name do

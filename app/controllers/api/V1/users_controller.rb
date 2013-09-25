@@ -7,6 +7,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
 
   skip_before_filter :authentication_check, :only => [:create, :reset_password]
   before_filter :load_user!, :only => :update
+  before_filter :upgrade_legacy_users, :only => :create
 
   def index
     begin
@@ -20,6 +21,18 @@ class Api::V1::UsersController < Api::V1::ABaseController
   def create
     @user = Member.create(create_params)
     if @user.errors.empty?
+      render_success(:user => @user, :auth_token => @user.auth_token)
+    else
+      render_failure({:reason => @user.errors.full_messages.to_sentence,
+                      :user_message => @user.errors.full_messages.to_sentence}, 422)
+    end
+  end
+
+  # TODO - remove this before filter when old clients supporting anonymous user are removed
+  def upgrade_legacy_users
+    @user = Member.find_by_install_id(params[:user][:install_id])
+    return if @user.nil? || @user.email.present?
+    if @user.update_attributes(create_params)
       render_success(:user => @user, :auth_token => @user.auth_token)
     else
       render_failure({:reason => @user.errors.full_messages.to_sentence,
