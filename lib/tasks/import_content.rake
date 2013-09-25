@@ -67,16 +67,24 @@ namespace :admin do
 				end
 			}
 
-			#2 Remove strong tags, which Mayo interjects seemingly semi-randomly, Remove all horizontal rules, structure HTML
+			#2 Remove hr and return/tab tags, which Mayo interjects seemingly semi-randomly, Remove all horizontal rules, <br> HTML, and hiddem chars
 			#Body can be empty, so need to handle that
-			structured_body = Nokogiri::HTML(rawData.css('Body').first.text.gsub(/\n|\t/,"").gsub("<strong>","").gsub("</strong>","").gsub("<hr />",""))
+			structured_body = Nokogiri::HTML(rawData.css('Body').first.text.gsub(/\n|\t/,"").gsub("<hr />","").gsub("<hr/>","").gsub("<br />","").gsub("<br>",""))
+
+			#3 Change strong tags
+			strongNodes = structured_body.css 'strong'
+			strongNodes.map do |strong_node|
+				strongText = strong_node.inner_html.gsub(/\n|\t/,"").gsub("<hr />","").gsub("<hr/>","").gsub("<br>","")
+				strong_node.swap("<div class='subtitle'>#{strongText}</div>")
+				logger.info(docID + "," + type + "," + title + ", Has a subtitles")
+			end
 
 			tableNodes = structured_body.search 'div.mctable'
 			tableNodes.map do |table_node|
 				logger.info(docID + "," + type + "," + title + ", Has a Table")
 			end
 
-			#3 Cleanup Images
+			#4 Cleanup Images
 			divNodes = structured_body.search('div.inlineimage.right')
 			divNodes.map do |image_div_node|
 				logger.info(docID + "," + type + "," + title + ", Has Embedded Author Image")
@@ -136,6 +144,9 @@ namespace :admin do
 			if type.casecmp("Disease") == 0 
 				abstract_text = structured_body.css('p').first.inner_html
 				logger.info("Abstract = " + abstract_text)
+				#type = "Condition"
+			#elsif type.casecmp("TestProcedure") == 0 
+				#type = "Tests & Procedures"
 			end
 
 			body_text	  = Nokogiri::HTML.fragment(structured_body.search('body').to_html).to_html #case sensative on the re-created HTML document
@@ -148,7 +159,6 @@ namespace :admin do
 			title 				= CGI.unescapeHTML(title_text.gsub(/\n/,"").gsub(/\t/,"")) 	if !title_text.nil?
 			abstract 			= abstract_text.gsub(/\n/,"").gsub(/\t/,"") 				if !abstract_text.nil?
 			question 			= question_text.gsub(/\n/,"").gsub(/\t/,"") 				if !question_text.nil?
-			content_type 		= type_text.gsub(/\n/,"").gsub(/\t/,"").titlecase 			if !type_text.nil?
 			content_updated_at 	= update_text.gsub(/\n/,"").gsub(/\t/,"") 					if !update_text.nil?
 
 			if noCallList.include?(doc_id)
@@ -168,7 +178,7 @@ namespace :admin do
 				abstract: abstract, 
 				question: question, 
 				body: body_text, 
-				content_type: content_type, 
+				content_type: type, 
 				content_updated_at: content_updated_at,
 				keywords: keywords,
 				show_call_option: showCall,
