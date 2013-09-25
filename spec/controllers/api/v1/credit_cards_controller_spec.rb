@@ -7,18 +7,16 @@ describe Api::V1::CreditCardsController do
 
   before(:each) do
     controller.stub(:current_ability => ability)
-  end
-
-  before(:each) do
     Stripe::Customer.stub(:create => stripe_customer, :retrieve => stripe_customer)
   end
 
   describe 'POST create' do
     def do_request
-      post :create, auth_token: user.auth_token
+      post :create
     end
 
     it_behaves_like 'action requiring authentication and authorization'
+
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       context 'user without stripe id' do
         it 'creates a stripe customer' do

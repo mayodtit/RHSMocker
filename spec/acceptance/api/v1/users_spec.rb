@@ -64,7 +64,7 @@ resource "Users" do
       let(:install_id) { "1234" }
       let(:raw_post) { params.to_json }
 
-      example_request "[POST] Sign up using install ID" do
+      example_request "[DEPRECATED] [POST] Sign up using install ID" do
         explanation "Returns auth_token and the user"
         status.should == 200
         response = JSON.parse(response_body, :symbolize_names => true)
