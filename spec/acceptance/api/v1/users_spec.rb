@@ -237,8 +237,9 @@ resource "Users" do
       example_request "[PUT] Update a specific user" do
         explanation "Update attributes for the specified user, if the currently logged in user has permission to do so"
         status.should == 200
-        response = JSON.parse(response_body, :symbolize_names => true)
-        response[:user].to_json.should == associate.reload.as_json.to_json
+        response = JSON.parse(response_body, :symbolize_names => true)[:user]
+        response.to_json.should == associate.reload.as_json.to_json
+        response.keys.should include(:avatar_url)
         response[:avatar_url].should be_nil # check for non_nil avatar in 'update user' spec
       end
     end
