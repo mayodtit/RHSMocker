@@ -4,7 +4,7 @@ class Api::V1::ContentsController < Api::V1::ABaseController
 
   def index
     index_resource(@contents)
-    #Analytics.log_content_search(current_user.google_analytics_uuid, params[:q]) if current_user
+    Analytics.log_content_search(current_user.google_analytics_uuid, params[:q]) if current_user
   end
 
   def show
