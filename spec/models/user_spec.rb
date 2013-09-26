@@ -42,4 +42,10 @@ describe User do
       user.google_analytics_uuid.should_not be_nil
     end
   end
+
+  describe '#avatar_url' do
+    it 'should return nil for a user without an image' do
+      build(:user).avatar_url.should be_nil
+    end
+  end
 end

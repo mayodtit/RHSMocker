@@ -47,8 +47,10 @@ resource "Messages" do
                                              :new_location => attributes_for(:location),
                                              :new_keyword_ids => [mayo_vocabulary.id],
                                              :new_attachments => [attributes_for(:attachment)]) }
+    let(:image) { base64_test_image }
 
     parameter :message, 'Hash of message parameters'
+    parameter :image, 'Base64 encoded image'
 
     let(:raw_post) { params.to_json }
 
@@ -57,6 +59,7 @@ resource "Messages" do
       status.should == 200
       body = JSON.parse(response_body, :symbolize_names => true)[:message]
       body.should be_a Hash
+      body[:image_url].should_not be_nil
     end
   end
 end

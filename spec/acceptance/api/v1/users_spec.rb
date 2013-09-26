@@ -64,7 +64,7 @@ resource "Users" do
       let(:install_id) { "1234" }
       let(:raw_post) { params.to_json }
 
-      example_request "[POST] Sign up using install ID" do
+      example_request "[DEPRECATED] [POST] Sign up using install ID" do
         explanation "Returns auth_token and the user"
         status.should == 200
         response = JSON.parse(response_body, :symbolize_names => true)
@@ -146,7 +146,7 @@ resource "Users" do
     parameter :feature_bucket, "The feature bucket that the user is in (none, message_only, call_only, message_call)"
     parameter :first_name, "User's first name"
     parameter :last_name, "User's last name"
-    parameter :image_url, "User's image URL"
+    parameter :avatar, 'Base64 encoded image'
     parameter :gender, "User's gender(male or female)"
     parameter :height, "User's height(in cm)"
     parameter :birth_date, "User's birth date"
@@ -159,13 +159,12 @@ resource "Users" do
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
     parameter :deceased, "Boolean, is the user deceased"
     parameter :date_of_death, "If the user is deceased, when did they die"
-    scope_parameters :user, [:first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
+    scope_parameters :user, [:first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
     required_parameters :auth_token
 
     put '/api/v1/user' do
       let(:first_name) { "Bob" }
       let(:last_name) { "Smith" }
-      let(:image_url) { "http://placekitten.com/90/90" }
       let(:gender) { "male" }
       let(:height) { 190 }
       let(:birth_date) { "1980-10-15" }
@@ -179,12 +178,14 @@ resource "Users" do
       let(:holds_phone_in) { "left" }
       let(:deceased) { false }
       let(:raw_post) { params.to_json }
+      let(:avatar) { base64_test_image }
 
       example_request "[PUT] Update user" do
         explanation "Update attributes for currently logged in user (as identified by auth_token). Can pass additional user fields, such as first_name, gender, birth_date, etc.  Returns the updated user"
         status.should == 200
-        response = JSON.parse(response_body, :symbolize_names => true)
-        response[:user].to_json.should == user.reload.as_json.to_json
+        response = JSON.parse(response_body, :symbolize_names => true)[:user]
+        response.to_json.should == user.reload.as_json.to_json
+        response[:avatar_url].should_not be_nil # check for nil avatar in 'update specific user' spec
       end
     end
   end
@@ -200,7 +201,7 @@ resource "Users" do
     parameter :feature_bucket, "The feature bucket that the user is in (none, message_only, call_only, message_call)"
     parameter :first_name, "User's first name"
     parameter :last_name, "User's last name"
-    parameter :image_url, "User's image URL"
+    parameter :avatar, 'Base64 encoded image'
     parameter :gender, "User's gender(male or female)"
     parameter :height, "User's height(in cm)"
     parameter :birth_date, "User's birth date"
@@ -213,7 +214,7 @@ resource "Users" do
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
     parameter :deceased, "Boolean, is the user deceased"
     parameter :date_of_death, "If the user is deceased, when did they die"
-    scope_parameters :user, [:email, :first_name, :last_name, :image_url, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
+    scope_parameters :user, [:email, :first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
     required_parameters :auth_token, :id
 
     put '/api/v1/user/:id' do
@@ -221,7 +222,6 @@ resource "Users" do
       let(:email) { "tst121@test.com" }
       let(:first_name) { "Bob" }
       let(:last_name) { "Smith" }
-      let(:image_url) { "http://placekitten.com/90/90" }
       let(:gender) { "male" }
       let(:height) { 190 }
       let(:birth_date) { "1980-10-15" }
@@ -232,12 +232,15 @@ resource "Users" do
       let(:blood_type) { "B-positive" }
       let(:deceased) { false }
       let(:raw_post) { params.to_json }
+      # purposely don't include avatar
 
       example_request "[PUT] Update a specific user" do
         explanation "Update attributes for the specified user, if the currently logged in user has permission to do so"
         status.should == 200
-        response = JSON.parse(response_body, :symbolize_names => true)
-        response[:user].to_json.should == associate.reload.as_json.to_json
+        response = JSON.parse(response_body, :symbolize_names => true)[:user]
+        response.to_json.should == associate.reload.as_json.to_json
+        response.keys.should include(:avatar_url)
+        response[:avatar_url].should be_nil # check for non_nil avatar in 'update user' spec
       end
     end
   end

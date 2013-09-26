@@ -76,8 +76,6 @@ gem "rolify",        :git => "git://github.com/EppO/rolify.git"
 
 
 gem "active_model_serializers", "~> 0.7.0"
-# To use ActiveModel has_secure_password
-gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
@@ -96,6 +94,10 @@ gem 'haml'
 gem 'state_machine'
 gem 'delayed_job_active_record'
 gem 'figaro'
+
+# for image storage
+gem 'carrierwave'
+
 gem 'stripe'
 
 gem 'curb'

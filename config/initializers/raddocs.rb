@@ -11,5 +11,5 @@ Raddocs.configure do |config|
   config.aws_storage = true
   config.aws_access_key_id = ENV['AWS_ACCESS_KEY_ID']
   config.aws_secret_access_key = ENV['AWS_SECRET_ACCESS_KEY']
-  config.aws_s3_bucket = ENV['S3_BUCKET']
+  config.aws_s3_bucket = S3_BUCKET
 end

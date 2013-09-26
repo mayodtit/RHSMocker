@@ -1,0 +1,1 @@
+S3_BUCKET = ENV['S3_BUCKET'] || 'btr01-devlocal'

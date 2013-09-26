@@ -18,12 +18,14 @@ class User < ActiveRecord::Base
   belongs_to :ethnic_group
   belongs_to :diet
 
-  attr_accessible :first_name, :last_name, :image_url, :gender, :height, :birth_date, :email,
+  attr_accessible :first_name, :last_name, :avatar, :gender, :height, :birth_date, :email,
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
                   :date_of_death, :expertise, :city, :state
 
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
+
+  mount_uploader :avatar, AvatarUploader
 
   before_create :create_google_analytics_uuid
 
@@ -43,11 +45,11 @@ class User < ActiveRecord::Base
 
   BASE_OPTIONS = {:only => [:id, :first_name, :last_name, :birth_date, :blood_type,
                             :diet_id, :email, :ethnic_group_id, :gender, :height,
-                            :image_url, :deceased, :date_of_death, :npi_number, :expertise],
-                  :methods => [:blood_pressure, :weight]}
+                            :deceased, :date_of_death, :npi_number, :expertise],
+                  :methods => [:blood_pressure, :avatar_url, :weight]}
 
-  def serializable_hash options=nil
-    options ||= BASE_OPTIONS
+  def serializable_hash(options = nil)
+    options = BASE_OPTIONS if options.blank?
     super(options)
   end
 
@@ -62,6 +64,10 @@ class User < ActiveRecord::Base
 
   def weight
     weights.most_recent
+  end
+
+  def avatar_url
+    avatar.url
   end
 
   private

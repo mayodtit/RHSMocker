@@ -18,7 +18,13 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def create
-    create_resource(@consult.messages, create_params)
+    p = create_params
+
+    if params[:image].present?
+      p.merge!(image: decode_b64_image(params[:image]))
+    end
+
+    create_resource(@consult.messages, p)
     @consult.messages.create(:user => Member.robot,
                              :text => "We've received your message! If the system was live, I would be a real Health Care Professional talking with you!",
                              :created_at => Time.now + 1.second)

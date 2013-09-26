@@ -8,29 +8,29 @@ namespace :admin do
 
 		logger = Logger.new('./log/import_content.log')
 		
-		noCallList 		= ['HT00648','AM00021']
-		noSymptomsList 	= ['HT00648','AM00021'] 
+		noCallList 		= ['HT00648','AM00021', 'HT00022', 'NU00585', 'NU00584']
+		noSymptomsList 	= ['HT00648','AM00021', 'HT00022', 'NU00585', 'NU00584'] 
 
 		Dir.glob('./db/mayo_content/*.xml') do | contentFile |
 
 			rawData = Nokogiri::XML(File.open(contentFile))
 			docID 	= rawData.search('DocID').first.text.strip
 			type 	= rawData.search('ContentType').first.text.strip
-			title   = rawData.search('Title').first.text.strip
-			logger.info(docID + ", Processing , " + "----------")
+			title   = rawData.search('Title').first.text.strip.gsub(/,/," ")
+			#logger.info(docID + ", Processing , " + "----------")
 
 			if type.casecmp("SelfAssessment") == 0 			#SKIP SELF ASSESSMENTS FOR NOW
-				logger.info(docID + "," + title + ", Skipping SelfAssessment")
+				logger.info(docID + "," + type + "," + title + ", Skipping SelfAssessment")
 				next
 			elsif type.casecmp("Recipe") == 0 				#SKIP RECIPIES FOR NOW
-				logger.info(docID + "," + title + ", Skipping Recipe")
+				logger.info(docID + "," + type + "," + title + ", Skipping Recipe")
 				next
 			elsif type.casecmp("HealthTip") == 0 			#REFORMAT HEALTH TIPS BUT CONTINUE
-				logger.info(docID + "," + title + ", Reformatting HealthTip")
+				logger.info(docID + "," + type + "," + title + ", Reformatting HealthTip")
 				body_tag = rawData.at('Body')
 				body_tag.inner_html = "<HTML>#{body_tag.inner_html}</HTML>"
 			elsif rawData.css('HTML').empty?
-				logger.info(docID + "," + title + ", Has NO HTML and not clear why ---- DEBUG ME!")
+				logger.info(docID + "," + type + "," + title + ", Has NO HTML and not clear why ---- DEBUG ME!")
 				next
 			end
 		
@@ -40,14 +40,14 @@ namespace :admin do
 			#1 Remove any code referring to Flash (example, NU00584.xml)
 			flashNodes = rawData.css 'Flash'
 			flashNodes.map do |flash_node|
-				logger.info(docID + "," + title + ", Has Embedded Flash")
+				logger.info(docID + "," + type + "," + title + ", Has Embedded Flash")
 				flash_node.remove
 			end
 
 			#Remove extra HTML sections that come right after pictures (They are partial text and not for showing)
 			popup_media_nodes = rawData.css "PopupMedia"
   			popup_media_nodes.map do | popup_node |
-  				logger.info(docID + "," + title + ", Has Popup Media")
+  				logger.info(docID + "," + type + "," + title + ", Has Popup Media")
 				popup_node.at_css('HTML').remove
 			end
 
@@ -57,8 +57,7 @@ namespace :admin do
 				section_head_node = section_node.at("SectionHead")
 				if !section_head_node.nil? && !section_head_node.content.nil? && !section_head_node.content.to_s.blank?
 					idName = section_head_node.content.to_s.gsub!(/\s+/, "").downcase
-					idName = idName.gsub(/[-?'':.]/, "")
-					logger.info("ID is: " + idName)
+					idName = idName.gsub(/[-?'':,.]/, "")
 					#var%20this_element=document.getElementById(#{idName}_header);this_element.className=(this_element.className==%27div.section_head.show%27)?%27div.section_head.hide%27:%27div.section_head.show%27;
 					javascriptFunction = "javascript:%24(#{idName}_section).toggle();var%20this_element=document.getElementById('#{idName}_header');this_element.className=(this_element.className=='section_head_show')?'section_head_hide':'section_head_show';"
 					section_head_node.swap("&lt;div class='section_head_show' id=#{idName}_header &gt;&lt;a href=#{javascriptFunction} &gt;#{section_head_node}&lt;/a&gt;&lt;/div&gt;")
@@ -68,19 +67,27 @@ namespace :admin do
 				end
 			}
 
-			#2 Remove strong tags, which Mayo interjects seemingly semi-randomly, Remove all horizontal rules, structure HTML
+			#2 Remove hr and return/tab tags, which Mayo interjects seemingly semi-randomly, Remove all horizontal rules, <br> HTML, and hiddem chars
 			#Body can be empty, so need to handle that
-			structured_body = Nokogiri::HTML(rawData.css('Body').first.text.gsub(/\n|\t/,"").gsub("<strong>","").gsub("</strong>","").gsub("<hr />",""))
+			structured_body = Nokogiri::HTML(rawData.css('Body').first.text.gsub(/\n|\t/,"").gsub("<hr />","").gsub("<hr/>","").gsub("<br />","").gsub("<br>",""))
 
-			tableNodes = structured_body.css 'mctable'
-			tableNodes.map do |table_node|
-				logger.info(docID + "," + title + ", Has a Table")
+			#3 Change strong tags
+			strongNodes = structured_body.css 'strong'
+			strongNodes.map do |strong_node|
+				strongText = strong_node.inner_html.gsub(/\n|\t/,"").gsub("<hr />","").gsub("<hr/>","").gsub("<br>","")
+				strong_node.swap("<div class='subtitle'>#{strongText}</div>")
+				logger.info(docID + "," + type + "," + title + ", Has a subtitles")
 			end
 
-			#3 Cleanup Images
+			tableNodes = structured_body.search 'div.mctable'
+			tableNodes.map do |table_node|
+				logger.info(docID + "," + type + "," + title + ", Has a Table")
+			end
+
+			#4 Cleanup Images
 			divNodes = structured_body.search('div.inlineimage.right')
 			divNodes.map do |image_div_node|
-				logger.info(docID + "," + title + ", Has Embedded Author Image")
+				logger.info(docID + "," + type + "," + title + ", Has Embedded Author Image")
 				#change the class of this div, remove style
 
 				image_div_node.set_attribute('class', 'authorImageDiv') 
@@ -114,7 +121,7 @@ namespace :admin do
 				end
 			end
 
-			#5 Create objects
+			# Create objects
 			type_search		= rawData.search('Meta ContentType')
 			type_text	  	= type_search.first.text 				if !type_search.empty?
 			type_text 		= type_text.gsub(/\n/,"").gsub(/\t/,"") if !type_text.nil?
@@ -133,6 +140,15 @@ namespace :admin do
 			update_text	  = update_search.first.text    	if !update_search.empty?
 			doc_id	   	  = doc_id_search.first.text.strip 	if !doc_id_search.empty?
 
+			#If this is type disease, put in an abstract paragraph since diseases have very unfriendly abstract
+			if type.casecmp("Disease") == 0 
+				abstract_text = structured_body.css('p').first.inner_html
+				logger.info("Abstract = " + abstract_text)
+				#type = "Condition"
+			#elsif type.casecmp("TestProcedure") == 0 
+				#type = "Tests & Procedures"
+			end
+
 			body_text	  = Nokogiri::HTML.fragment(structured_body.search('body').to_html).to_html #case sensative on the re-created HTML document
 
 			keywords = ''
@@ -140,12 +156,10 @@ namespace :admin do
 				keywords += keyword.text.gsub(/\n/,"").gsub(/\t/,"") + ','
 			end
 
-			title 			= CGI.unescapeHTML(title_text.gsub(/\n/,"").gsub(/\t/,"")) 		if !title_text.nil?
-			abstract 		= abstract_text.gsub(/\n/,"").gsub(/\t/,"") 					if !abstract_text.nil?
-			question 		= question_text.gsub(/\n/,"").gsub(/\t/,"") 					if !question_text.nil?
-			content_type 	= type_text.gsub(/\n/,"").gsub(/\t/,"").titlecase 				if !type_text.nil?
+			title 				= CGI.unescapeHTML(title_text.gsub(/\n/,"").gsub(/\t/,"")) 	if !title_text.nil?
+			abstract 			= abstract_text.gsub(/\n/,"").gsub(/\t/,"") 				if !abstract_text.nil?
+			question 			= question_text.gsub(/\n/,"").gsub(/\t/,"") 				if !question_text.nil?
 			content_updated_at 	= update_text.gsub(/\n/,"").gsub(/\t/,"") 					if !update_text.nil?
-
 
 			if noCallList.include?(doc_id)
 				showCall = false
@@ -164,7 +178,7 @@ namespace :admin do
 				abstract: abstract, 
 				question: question, 
 				body: body_text, 
-				content_type: content_type, 
+				content_type: type, 
 				content_updated_at: content_updated_at,
 				keywords: keywords,
 				show_call_option: showCall,

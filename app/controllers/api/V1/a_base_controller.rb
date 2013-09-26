@@ -22,6 +22,10 @@ module Api
         render :json => json, :status => status
       end
 
+      def decode_b64_image(base64_image)
+        CarrierwaveStringIO.new(Base64.decode64(base64_image))
+      end
+
       protected
 
       def index_resource(collection, resource_name=resource_plural_symbol)

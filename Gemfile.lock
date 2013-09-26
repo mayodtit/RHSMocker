@@ -74,6 +74,10 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
+    carrierwave (0.9.0)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      json (>= 1.7)
     codeclimate-test-reporter (0.0.7)
       simplecov (>= 0.7.1, < 1.0.0)
     coderay (1.0.9)
@@ -270,6 +274,11 @@ GEM
       rspec (>= 2.6.0)
       webmock (>= 1.7.0)
     ruby-hmac (0.4.0)
+    ruby2ruby (2.0.2)
+      ruby_parser (~> 3.1)
+      sexp_processor (~> 4.0)
+    ruby_parser (3.1.1)
+      sexp_processor (~> 4.1)
     rufus-scheduler (2.0.17)
       tzinfo (>= 0.3.23)
     s3_uploader (0.0.5)
@@ -342,9 +351,9 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers (~> 0.7.0)
   awesome_print
-  bcrypt-ruby (~> 3.0.0)
   cancan
   capybara
+  carrierwave
   codeclimate-test-reporter
   coffee-rails (~> 3.2.1)
   curb

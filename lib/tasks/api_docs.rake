@@ -1,6 +1,6 @@
 namespace :api_docs do
-  task :export do
-    S3Uploader.upload_directory(docs_directory_path, ENV['S3_BUCKET'],
+  task :export => :environment do
+    S3Uploader.upload_directory(docs_directory_path, S3_BUCKET,
                                 {:s3_key => ENV['AWS_ACCESS_KEY_ID'],
                                  :s3_secret => ENV['AWS_SECRET_ACCESS_KEY'],
                                  :destination_dir => 'docs/',

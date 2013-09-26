@@ -178,7 +178,7 @@ div.section_head_show {
 
 div.section_head_hide {
     background-image: url(/assets/up_arrow.png);
-    background-size: 20px auto;
+    background-size: 15px auto;
     background-repeat: no-repeat;
     background-position: left top;
     //background-color: #808080; 
@@ -229,6 +229,10 @@ img.mayoContentImage {
   border-radius: 99em;
   border: 5px solid #eee;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+div.subtitle {
+    font-weight: bold;
 }
 
 //Content Tables
