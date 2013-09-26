@@ -68,12 +68,6 @@ GEM
     bcrypt-ruby (3.0.1)
     builder (3.0.4)
     cancan (1.6.9)
-    capybara (2.1.0)
-      mime-types (>= 1.16)
-      nokogiri (>= 1.3.3)
-      rack (>= 1.0.0)
-      rack-test (>= 0.5.4)
-      xpath (~> 2.0)
     carrierwave (0.9.0)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
@@ -274,11 +268,6 @@ GEM
       rspec (>= 2.6.0)
       webmock (>= 1.7.0)
     ruby-hmac (0.4.0)
-    ruby2ruby (2.0.2)
-      ruby_parser (~> 3.1)
-      sexp_processor (~> 4.0)
-    ruby_parser (3.1.1)
-      sexp_processor (~> 4.1)
     rufus-scheduler (2.0.17)
       tzinfo (>= 0.3.23)
     s3_uploader (0.0.5)
@@ -337,8 +326,6 @@ GEM
     webmock (1.13.0)
       addressable (>= 2.2.7)
       crack (>= 0.3.2)
-    xpath (2.0.0)
-      nokogiri (~> 1.3)
     zeus (0.13.3)
       method_source (>= 0.6.7)
     zeus-parallel_tests (0.2.4)
@@ -352,7 +339,6 @@ DEPENDENCIES
   active_model_serializers (~> 0.7.0)
   awesome_print
   cancan
-  capybara
   carrierwave
   codeclimate-test-reporter
   coffee-rails (~> 3.2.1)
@@ -389,7 +375,6 @@ DEPENDENCIES
   rufus-scheduler
   s3_uploader
   sass-rails (~> 3.2.3)
-  simplecov
   sorcery
   state_machine
   stripe

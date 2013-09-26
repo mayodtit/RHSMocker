@@ -40,9 +40,7 @@ group :development, :test do
   gem "parallel_tests"
   gem "zeus-parallel_tests"
   gem 'factory_girl_rails'
-  gem 'capybara'
   gem 'guard-rspec'
-  gem 'simplecov'
 end
 
 # test coverage for Code Climate
