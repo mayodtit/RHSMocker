@@ -13,12 +13,18 @@ body {
 
 //Cardview + Preview CSS
 
-div.content_cardview {
+.content_cardview {
     width:278px;
     margin-left:10px;
     margin-right:10px;
     margin-top:10px;
     height: 160px;
+    .content_date {
+        font-family: "Avenir Next Regular Condensed";
+        font-size: 14px;
+        color: #999999;
+        padding-bottom: 5px;
+    }
 }
 
 div.content_title_preview {

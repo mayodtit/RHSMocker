@@ -3,4 +3,4 @@
 - elsif card.resource.is_a?(Content)
   = render :partial => 'content_preview', :locals => {:content => card.resource}
 - elsif card.resource.is_a?(Consult)
-  = render :partial => 'consult_preview', :locals => {:consult => card.resource}
+  = render :partial => 'consult_preview', :locals => {:consult => card.resource, :message => card.resource.most_recent_message}
