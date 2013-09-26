@@ -5,6 +5,7 @@ require 'html/sanitizer'
 namespace :admin do
 
 	task :import_content=> :environment do
+        include ImportContentModule
 
 		logger = Logger.new('./log/import_content.log')
 		
@@ -69,12 +70,12 @@ namespace :admin do
 
 			#2 Remove hr and return/tab tags, which Mayo interjects seemingly semi-randomly, Remove all horizontal rules, <br> HTML, and hiddem chars
 			#Body can be empty, so need to handle that
-			structured_body = Nokogiri::HTML(rawData.css('Body').first.text.gsub(/\n|\t/,"").gsub("<hr />","").gsub("<hr/>","").gsub("<br />","").gsub("<br>",""))
+			structured_body = Nokogiri::HTML(rawData.css('Body').first.text.remove_newlines_and_tabs.remove_hr_tags.remove_br_tags)
 
 			#3 Change strong tags
 			strongNodes = structured_body.css 'strong'
 			strongNodes.map do |strong_node|
-				strongText = strong_node.inner_html.gsub(/\n|\t/,"").gsub("<hr />","").gsub("<hr/>","").gsub("<br>","")
+				strongText = strong_node.inner_html.remove_newlines_and_tabs.remove_hr_tags.remove_br_tags
 				strong_node.swap("<div class='subtitle'>#{strongText}</div>")
 				logger.info(docID + "," + type + "," + title + ", Has a subtitles")
 			end
@@ -123,8 +124,8 @@ namespace :admin do
 
 			# Create objects
 			type_search		= rawData.search('Meta ContentType')
-			type_text	  	= type_search.first.text 				if !type_search.empty?
-			type_text 		= type_text.gsub(/\n/,"").gsub(/\t/,"") if !type_text.nil?
+			type_text	  	= type_search.first.text             if !type_search.empty?
+			type_text 		= type_text.remove_newlines_and_tabs if !type_text.nil?
 
 			title_search 		= rawData.search('Title')
 			abstract_search 	= rawData.search('Abstract')
@@ -153,13 +154,13 @@ namespace :admin do
 
 			keywords = ''
 			keyword_search.each do | keyword |
-				keywords += keyword.text.gsub(/\n/,"").gsub(/\t/,"") + ','
+				keywords += keyword.text.remove_newlines_and_tabs + ','
 			end
 
-			title 				= CGI.unescapeHTML(title_text.gsub(/\n/,"").gsub(/\t/,"")) 	if !title_text.nil?
-			abstract 			= abstract_text.gsub(/\n/,"").gsub(/\t/,"") 				if !abstract_text.nil?
-			question 			= question_text.gsub(/\n/,"").gsub(/\t/,"") 				if !question_text.nil?
-			content_updated_at 	= update_text.gsub(/\n/,"").gsub(/\t/,"") 					if !update_text.nil?
+			title 				= CGI.unescapeHTML(title_text.remove_newlines_and_tabs) if !title_text.nil?
+			abstract 			= abstract_text.remove_newlines_and_tabs                if !abstract_text.nil?
+			question 			= question_text.remove_newlines_and_tabs                if !question_text.nil?
+			content_updated_at 	= update_text.remove_newlines_and_tabs                  if !update_text.nil?
 
 			if noCallList.include?(doc_id)
 				showCall = false
@@ -236,7 +237,7 @@ namespace :admin do
 
 			#TODO: would much prefer to do this as an "in" clause. This is lazycode
 			#TODO: type_text could be null here. Add safe check
-			type_text = type_text.gsub(/\n/,"").gsub(/\t/,"") 
+			type_text = type_text.remove_newlines_and_tabs
 
 			if type_text.casecmp("answer") == 0 || type_text.casecmp("disease") == 0 || type_text.casecmp("article") == 0 || type_text.casecmp("firstaid") == 0 || type_text.casecmp("healthtip") == 0 || type_text.casecmp("TestProcedure") == 0
 
@@ -247,7 +248,7 @@ namespace :admin do
 				doc_id	   	  = doc_id_search.first.text.strip  if !doc_id_search.empty?
 
 
-				@content = Content.find_by_title title_text.gsub(/\n/,"").gsub(/\t/,"")
+				@content = Content.find_by_title title_text.remove_newlines_and_tabs
 				@content.mayo_doc_id = doc_id if !doc_id.nil?
 				@content.save!
 			end
