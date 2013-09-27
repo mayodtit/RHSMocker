@@ -36,4 +36,14 @@ RSpec.configure do |config|
   config.order = "random"
   config.alias_it_should_behave_like_to :it_validates, "it validates"
   config.alias_it_should_behave_like_to :it_has_a, "it has a"
+
+  # this increases spec run time by ~4%, but is probably more convenient
+  # than remembering which exact specs require Analytics stubbing
+  config.before(:each) { stub_out_analytics_methods }
+end
+
+def stub_out_analytics_methods
+  (Analytics.methods - Object.methods).each do |m|
+    Analytics.stub(m).and_return(nil)
+  end
 end
