@@ -4,14 +4,11 @@ require 'html/sanitizer'
 
 namespace :admin do
 
-	task :import_content=> :environment do
-        include ImportContentModule
+  task :import_content=> :environment do
+    include ImportContentModule
 
 		logger = Logger.new('./log/import_content.log')
 		
-		noCallList 		= ['HT00648','AM00021', 'HT00022', 'NU00585', 'NU00584']
-		noSymptomsList 	= ['HT00648','AM00021', 'HT00022', 'NU00585', 'NU00584'] 
-
 		Dir.glob('./db/mayo_content/*.xml') do | contentFile |
 
 			rawData = Nokogiri::XML(File.open(contentFile))
@@ -162,17 +159,8 @@ namespace :admin do
 			question 			= question_text.remove_newlines_and_tabs                if !question_text.nil?
 			content_updated_at 	= update_text.remove_newlines_and_tabs                  if !update_text.nil?
 
-			if noCallList.include?(doc_id)
-				showCall = false
-			else
-				showCall = true
-			end
-
-			if noSymptomsList.include?(doc_id)
-				showSymptoms = false
-			else
-				showSymptoms = true
-			end
+      show_call = show_call_for_doc_id?(doc_id)
+      show_symptoms = show_symptoms_for_doc_id?(doc_id)
 
 			@content = Content.find_or_create_by_mayo_doc_id(mayo_doc_id: doc_id, 
 				title: title, 
@@ -182,12 +170,12 @@ namespace :admin do
 				content_type: type, 
 				content_updated_at: content_updated_at,
 				keywords: keywords,
-				show_call_option: showCall,
-				show_checker_option: showSymptoms)
+				show_call_option: show_call,
+				show_checker_option: show_symptoms)
 
 			if @content.present?
 				@content.update_attributes(title: title, abstract: abstract, question: question, 
-					body: body_text, keywords: keywords, show_call_option: showCall, show_checker_option: showSymptoms)
+					body: body_text, keywords: keywords, show_call_option: show_call, show_checker_option: show_symptoms)
 					#Content Updated At?
 				end
 
