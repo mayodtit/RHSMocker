@@ -1,6 +1,7 @@
 #Import Cinical Content from Mayo Into the database
 require 'nokogiri'
 require 'html/sanitizer'
+include Math # for padding
 
 namespace :admin do
 
@@ -9,7 +10,15 @@ namespace :admin do
 
     logger = Logger.new('./log/import_content.log')
 
-    Dir.glob('./db/mayo_content/*.xml') do | contentFile |
+    glob = Dir.glob('./db/mayo_content/*.xml')
+    num_files = glob.count
+    padding = Math::log10(num_files).ceil
+
+    glob.each_with_index do |contentFile, i|
+      process_string = 'Processing file ' + "#{i+1}".rjust(padding) + "/#{num_files}: #{contentFile}"
+      puts process_string
+      logger.info process_string
+
       rawData = Nokogiri::XML(File.open(contentFile))
       docID 	= rawData.search('DocID').first.text.strip
       type 	= rawData.search('ContentType').first.text.strip
@@ -99,10 +108,10 @@ namespace :admin do
       end
 
       popup_media_nodes = rawData.css "PopupMedia"
-      count = 0;
+      count = 0
       popup_media_nodes.map do | popup_node |
         #Previously removed the extra HTML tag
-        count+=1;
+        count+=1
         thumb_img_node = Nokogiri::XML::Node.new "img", rawData
         thumb_img_node.set_attribute('class', 'mayoContentImage')
         full_img_src = 'http://www.mayoclinic.com' + popup_node.at_css('Image')['URI']
@@ -111,9 +120,9 @@ namespace :admin do
         count = 3 if count == 2
         #structured_body.at_xpath('//p[$count]', {:count => count}).add_next_sibling(thumb_img_node)
         #THIS IS A HUGE FUCKING HACK.
-        pcount = 0;
+        pcount = 0
         structured_body.css('p').each do |p|
-          pcount += 1;
+          pcount += 1
           p.add_next_sibling(thumb_img_node) if pcount == count
         end
       end
