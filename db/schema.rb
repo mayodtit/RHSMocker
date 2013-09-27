@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130925220732) do
+ActiveRecord::Schema.define(:version => 20130927222504) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
