@@ -20,6 +20,10 @@ class ContentDecorator < Draper::Decorator
   private
 
   def talk
-    '<div class="talk"></div>'
+    "<div class=\"talk\" data-content-id=#{id} data-message=\"#{talk_message}\"></div>"
+  end
+
+  def talk_message
+    "I was reading the article #{title} and would like to discuss it with a Personal Health Assistant."
   end
 end
