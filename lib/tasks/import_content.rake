@@ -66,7 +66,7 @@ namespace :admin do
           idName = idName.gsub(/[-?'':,.]/, "")
           #var%20this_element=document.getElementById(#{idName}_header);this_element.className=(this_element.className==%27div.section_head.show%27)?%27div.section_head.hide%27:%27div.section_head.show%27;
           javascriptFunction = "javascript:%24(#{idName}_section).toggle();var%20this_element=document.getElementById('#{idName}_header');this_element.className=(this_element.className=='section_head_show')?'section_head_hide':'section_head_show';"
-          section_head_node.swap("&lt;div class='section_head_show' id=#{idName}_header &gt;&lt;a href=#{javascriptFunction} &gt;#{section_head_node}&lt;/a&gt;&lt;/div&gt;")
+          section_head_node.swap("&lt;div class='section_head_show' id=#{idName}_header &gt;&lt;a href=#{javascriptFunction} &gt;#{section_head_node.content.strip.remove_leading_numbered_list}&lt;/a&gt;&lt;/div&gt;")
 
           html_node = section_node.at("HTML")
           html_node.swap("&lt;div class='section' id=#{idName}_section&gt;#{html_node}&lt;/div&gt;")

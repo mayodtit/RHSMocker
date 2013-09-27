@@ -15,6 +15,10 @@ module ImportContentModule
     def remove_newlines_and_tabs
       self.gsub(/\n|\t/, '')
     end
+
+    def remove_leading_numbered_list
+      self.gsub(/^No\. \d+: /, '')
+    end
   end
 
   #############################################################################

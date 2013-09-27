@@ -20,6 +20,14 @@ describe ImportContentModule do
     end
   end
 
+  describe '#remove_leading_numbered_list' do
+    it 'should remove "No. 1:" from the beginning of the line' do
+      'No. 1: foo'.remove_leading_numbered_list.should == 'foo'
+      'No. 42: foo'.remove_leading_numbered_list.should == 'foo'
+      'Mambo No. 5: Go!'.remove_leading_numbered_list.should == 'Mambo No. 5: Go!'
+    end
+  end
+
   describe '#show_call_for_doc_id?(doc_id)' do
     it 'return true or false given a doc_id (sanity check)' do
       show_call_for_doc_id?('HT00648').should be_false
