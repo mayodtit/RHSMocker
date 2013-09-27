@@ -46,17 +46,6 @@ class Content < ActiveRecord::Base
     result
 	end
 
-########
-# Get the first 100 words, remove the word "Description" from the start and any opening <p> tag we
-# may not close, and then add an ellipsis to the end. This is only used in the preview cardview
-########
-def previewText
-  if !body.nil?
-      preview = body.split(' ').slice(0, 101).join(' ').gsub(/\ADefinition<p>/, "") 
-  end
-end
-alias_method :preview, :previewText
-
 # TODO - replace in future with root_share_url, move append to UserReading
 def share_url user_reading_id=nil
   result = "/contents/#{mayo_doc_id}"
@@ -67,63 +56,6 @@ end
 def root_share_url
   mayo_doc_id.present? ? "/contents/#{mayo_doc_id}" : nil
 end
-
-########
-# Insert the "would you like to call someone text"
-########
-def reformattedBody
-  if !body.nil? && show_call_option?
-    case 
-      when body.scan('</p>').count > 1
-        body.insert(body.index(/<\/p>/,body.index(/<\/p>/)+4)+4, talkDiv)
-      when body.scan('</p>').count == 1
-        body.insert(body.index(/<\/p>/)+4, talkDiv)
-      when !body.index(/<\/body>/).nil?
-        body.insert(body.index(/<\/body>/)+6, talkDiv)
-      else
-        #don't insert it
-    end
-  end
-  body
-end
-alias_method :formatted_body, :reformattedBody
-
-#Note: The image with the Health Advocate Text is served up in the CSS talk class. 
- def talkDiv
-    insertHTML = '<div class="talk" ' 
-    insertHTML += javascriptOpening 
-    insertHTML += "'></div>"
-    insertHTML
- end
-
- def javascriptOpening
-
-  openingJavascript = 'onclick="document.actionJSON = \''
-
-  openingJavascript += '[{'
-
-  openingJavascript += '&quot;type&quot;:&quot;launch_call_screen&quot;,'
-  openingJavascript += '&quot;body&quot;:{'
-  openingJavascript += '&quot;content_id&quot; : ' + '&quot;' + id.to_s+ '&quot;,' 
-  #Removed Keywords consistant with https://www.pivotaltracker.com/story/show/55438340
-  #openingJavascript += '&quot;keywords&quot;: ['
-
-  #content_mayo_vocabularies[0..6].each do |vocab|
-  #	if !vocab.nil?
-  #		openingJavascript += '&quot;' + vocab.mayo_vocabulary.title + '&quot;,'
-  #	end
-  #end
-  #openingJavascript += '],'
-  #openingJavascript += '&quot;selected_keywords&quot;: [&quot;diabetes&quot;, &quot;treatment&quot;],'
-  openingJavascript += '&quot;message_body&quot; : &quot;I was reading the article ' + self.title + ' and would like to discuss it with a Personal Health Assistant.&nbsp;&quot;'
-
-  openingJavascript += '}'
-  openingJavascript += '}]\';'
-
-  openingJavascript += ' window.location.href = &quot;http://dontload/&quot;"'
-
-  openingJavascript
- end
 
 #Content Methods to find types by MCVIDs semantically
 def self.byGender(gender)
