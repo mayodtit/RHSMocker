@@ -153,30 +153,27 @@ namespace :admin do
         keywords += keyword.text.remove_newlines_and_tabs + ','
       end
 
-      title 				= CGI.unescapeHTML(title_text.remove_newlines_and_tabs) if !title_text.nil?
-      abstract 			= abstract_text.remove_newlines_and_tabs                if !abstract_text.nil?
-      question 			= question_text.remove_newlines_and_tabs                if !question_text.nil?
-      content_updated_at 	= update_text.remove_newlines_and_tabs                  if !update_text.nil?
+      title              = CGI.unescapeHTML(title_text.remove_newlines_and_tabs) if !title_text.nil?
+      abstract           = abstract_text.remove_newlines_and_tabs                if !abstract_text.nil?
+      question           = question_text.remove_newlines_and_tabs                if !question_text.nil?
+      content_updated_at = update_text.remove_newlines_and_tabs                  if !update_text.nil?
 
       show_call = show_call_for_doc_id?(doc_id)
       show_symptoms = show_symptoms_for_doc_id?(doc_id)
 
-      @content = Content.find_or_create_by_mayo_doc_id(mayo_doc_id: doc_id,
-                                                       title: title,
-                                                       abstract: abstract,
-                                                       question: question,
-                                                       body: body_text,
-                                                       content_type: type,
-                                                       content_updated_at: content_updated_at,
-                                                       keywords: keywords,
-                                                       show_call_option: show_call,
-                                                       show_checker_option: show_symptoms)
+      params = { title: title,
+                 abstract: abstract,
+                 question: question,
+                 body: body_text,
+                 keywords: keywords,
+                 show_call_option: show_call,
+                 show_checker_option: show_symptoms }
+      params_for_find = params.merge({ mayo_doc_id: doc_id,
+                                       content_type: type,
+                                       content_updated_at: content_updated_at })
 
-      if @content.present?
-        @content.update_attributes(title: title, abstract: abstract, question: question,
-                                   body: body_text, keywords: keywords, show_call_option: show_call, show_checker_option: show_symptoms)
-        #Content Updated At?
-      end
+      @content = Content.find_or_create_by_mayo_doc_id(params_for_find)
+      @content.update_attributes(params) if @content.present?
 
       mayo_vocab_search.each do | vocab |
         #If it exists, do nothing except join table
