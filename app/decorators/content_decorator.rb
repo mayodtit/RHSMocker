@@ -8,20 +8,46 @@ class ContentDecorator < Draper::Decorator
 
   # insert the "would you like to talk to someone" text
   def formatted_body
-    if !show_call_option?
-      body
-    elsif body.scan('</p>').count > 1
-      body.insert(body.index(/<\/p>/, body.index(/<\/p>/) + 4) + 4, talk)
-    elsif body.scan('</p>').count == 1
-      body.insert(body.index(/<\/p>/) + 4, talk)
-    elsif body.index(/<\/body>/)
-      body.insert(body.index(/<\/body>/) + 6, talk)
+    if show_call_option?
+      insert_talk_button
     else
       body
     end
   end
 
   private
+
+  def insert_talk_button
+    if paragraph_tag_count > 1
+      body.insert(second_paragraph_tag_position, talk)
+    elsif paragraph_tag_count == 1
+      body.insert(paragraph_tag_position, talk)
+    elsif body_tag_present?
+      body.insert(body_tag_position, talk)
+    else
+      body
+    end
+  end
+
+  def paragraph_tag_count
+    body.scan('</p>').count
+  end
+
+  def paragraph_tag_position
+    body.index(/<\/p>/) + 4
+  end
+
+  def second_paragraph_tag_position
+    body.index(/<\/p>/, paragraph_tag_position) + 4
+  end
+
+  def body_tag_present?
+    body.index(/<\/body>/)
+  end
+
+  def body_tag_position
+    body.index(/<\/body>/) + 6
+  end
 
   def talk
     "<div class=\"talk\" data-content-id=#{id} data-message=\"#{talk_message}\"></div>"
