@@ -6,7 +6,9 @@ class ContentDecorator < Draper::Decorator
   end
 
   def formatted_body
-    if body.scan('</p>').count > 1
+    if !show_call_option?
+      body
+    elsif body.scan('</p>').count > 1
       body.insert(body.index(/<\/p>/, body.index(/<\/p>/) + 4) + 4, talk)
     elsif body.scan('</p>').count == 1
       body.insert(body.index(/<\/p>/) + 4, talk)
