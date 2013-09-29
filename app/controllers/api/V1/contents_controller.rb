@@ -39,6 +39,6 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   def merge_body(content)
     content.as_json.merge!(:body => render_to_string(:action => :show,
                                                      :formats => :html,
-                                                     :locals => {:content => content}))
+                                                     :locals => {:content => content.decorate}))
   end
 end
