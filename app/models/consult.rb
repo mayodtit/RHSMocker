@@ -10,7 +10,7 @@ class Consult < ActiveRecord::Base
 
   attr_accessible :initiator, :initiator_id, :subject, :subject_id, :checked,
                   :priority, :status, :add_user, :messages, :message,
-                  :scheduled_phone_call, :phone_call, :title
+                  :scheduled_phone_call, :phone_call, :title, :description
 
   validates :title, :initiator, :subject, :status, :priority, presence: true
   validates :checked, :inclusion => {:in => [true, false]}

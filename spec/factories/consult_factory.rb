@@ -7,6 +7,7 @@ FactoryGirl.define do
     status { :open }
     priority { ['high', 'medium', 'low'].sample }
     checked false
+    description 'description'
 
     trait :with_messages do
       messages {|m| [m.association(:message)]}
