@@ -1,6 +1,6 @@
 class Api::V1::AssociationsController < Api::V1::ABaseController
   include ActiveModel::MassAssignmentSecurity
-  attr_accessible :first_name, :last_name, :npi_number, :expertise, :city, :state
+  attr_accessible :first_name, :last_name, :npi_number, :expertise, :city, :state, :avatar
 
   before_filter :load_user!
   before_filter :load_association!, only: [:show, :update, :destroy]
@@ -40,6 +40,12 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
              {associate_attributes: sanitize_for_mass_assignment(params[:association][:associate])}
            end
     hash[:association_type_id] = params[:association][:association_type_id]
+
+    if hash[:associate_attributes][:avatar].present?
+      v = decode_b64_image(hash[:associate_attributes][:avatar])
+      hash[:associate_attributes][:avatar] = v
+    end
+
     hash
   end
 
