@@ -95,6 +95,9 @@ RHSMocker::Application.routes.draw do
     end
   end
 
+  resources :contents, :only => [:index, :show] do
+    get ":user_reading_id", :to => :show, :on => :member
+  end
   resources :invites, :only => [:update, :show] do
     get :complete, :on => :collection
     get :signup, :on => :collection
@@ -111,10 +114,6 @@ RHSMocker::Application.routes.draw do
   get '/login' => "sessions#new", :as=>"login"
   resources :sessions
   get "faq" =>"home#faq"
-  get "contents/:doc_id" => "contents#show"
-  get "contents/:doc_id/:user_reading_id" => "contents#show"
-
-  resources :contents
 
   %w(403 404 412 500).each do |status_code|
     match status_code => 'errors#exception'
