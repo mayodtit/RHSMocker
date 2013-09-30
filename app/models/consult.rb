@@ -13,11 +13,13 @@ class Consult < ActiveRecord::Base
                   :scheduled_phone_call, :phone_call, :title
 
   validates :title, :initiator, :subject, :status, :priority, presence: true
-  validates :subject_id, :uniqueness => {:scope => :initiator_id}
   validates :checked, :inclusion => {:in => [true, false]}
   validates :users, :length => {:minimum => 1}
+  validate :one_open_subject_per_initiator
 
   before_validation :set_defaults
+
+  symbolize :status, :in => [:open, :closed]
 
   def self.open
     where(:status => :open)
@@ -89,10 +91,17 @@ class Consult < ActiveRecord::Base
   private
 
   def set_defaults
-    self.status ||= 'open'
+    self.status ||= :open
     self.priority ||= 'medium'
     self.checked = false if checked.nil?
     self.title = "Consult for #{subject.first_name}" unless self.title.present?
     true
+  end
+
+  def one_open_subject_per_initiator
+    return true unless status == :open
+    if self.class.where(:status => status, :initiator_id => initiator_id, :subject_id => subject_id).any?
+      errors.add(:base, 'You can only have one open consult per person in your family')
+    end
   end
 end

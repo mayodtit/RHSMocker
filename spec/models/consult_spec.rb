@@ -13,9 +13,25 @@ describe Consult do
     it_validates 'presence of', :subject
     it_validates 'presence of', :status
     it_validates 'presence of', :priority
-    it_validates 'scoped uniqueness of', :subject_id, :initiator_id
     it_validates 'inclusion of', :checked
     it_validates 'length of', :users
+
+    describe '#one_open_subject_per_initiator' do
+      let!(:consult) { create(:consult) }
+
+      it 'prevents the user from having two open consults' do
+        new_consult = build_stubbed(:consult, :subject => consult.subject, :initiator => consult.initiator)
+        new_consult.should_not be_valid
+        new_consult.errors[:base].should include('You can only have one open consult per person in your family')
+      end
+
+      it 'allows one open and one closed consult for the same subject' do
+        new_consult = build_stubbed(:consult, :subject => consult.subject,
+                                              :initiator => consult.initiator,
+                                              :status => :closed)
+        new_consult.should be_valid
+      end
+    end
   end
 
   describe '#serializable_hash' do

@@ -4,7 +4,7 @@ FactoryGirl.define do
     association :initiator, factory: :member
     association :subject, factory: :user
     users {|e| [e.initiator]}
-    status { 'open' }
+    status { :open }
     priority { ['high', 'medium', 'low'].sample }
     checked false
 
