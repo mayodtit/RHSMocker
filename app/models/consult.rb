@@ -88,6 +88,10 @@ class Consult < ActiveRecord::Base
     messages.order('created_at DESC').first
   end
 
+  def self.allowed_subject_ids_for(user)
+    user.associates.pluck(:id).push(user.id) - where(:initiator_id => user.id, :status => :open).pluck(:subject_id)
+  end
+
   private
 
   def set_defaults

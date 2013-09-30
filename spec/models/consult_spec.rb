@@ -39,4 +39,31 @@ describe Consult do
       build_stubbed(:consult).serializable_hash.should have_key(:last_message_at)
     end
   end
+
+  describe '::allowed_subject_ids_for' do
+    let(:user) { create(:member) }
+    let(:associate) { create(:user) }
+
+    it 'includes the calling user' do
+      described_class.allowed_subject_ids_for(user).should include(user.id)
+    end
+
+    context 'with a family member' do
+      let!(:association) { create(:association, :user => user, :associate => associate) }
+
+      it 'includes the calling user\'s family members' do
+        described_class.allowed_subject_ids_for(user).should include(user.id, associate.id)
+      end
+
+      it 'does not include users that already have consults' do
+        create(:consult, :initiator => user, :subject => user)
+        result = described_class.allowed_subject_ids_for(user)
+        result.should include(associate.id)
+        result.should_not include(user.id)
+        create(:consult, :initiator => user, :subject => associate)
+        result = described_class.allowed_subject_ids_for(user)
+        result.should be_empty
+      end
+    end
+  end
 end
