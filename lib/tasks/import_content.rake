@@ -170,15 +170,16 @@ namespace :admin do
       show_call = show_call_for_doc_id?(doc_id)
       show_symptoms = show_symptoms_for_doc_id?(doc_id)
 
+      type = 'Condition' if type == 'Disease'
       params = { title: title,
                  abstract: abstract,
                  question: question,
                  body: body_text,
                  keywords: keywords,
                  show_call_option: show_call,
-                 show_checker_option: show_symptoms }
+                 show_checker_option: show_symptoms,
+                 content_type: type }
       params_for_find = params.merge({ mayo_doc_id: doc_id,
-                                       content_type: type,
                                        content_updated_at: content_updated_at })
 
       @content = Content.find_or_create_by_mayo_doc_id(params_for_find)
