@@ -57,7 +57,7 @@ gem "rails_config"
 gem 'sorcery'
 gem 'cancan'
 gem "rolify",        :git => "git://github.com/EppO/rolify.git"
-gem "active_model_serializers", "~> 0.7.0"
+gem "active_model_serializers"
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
