@@ -8,3 +8,4 @@ end
 
 ActiveRecord::Base.send(:include, ActiveModelSerializerExtension)
 ActiveRecord::Relation.send(:include, ActiveModelSerializerExtension)
+Array.send(:include, ActiveModelSerializerExtension)
