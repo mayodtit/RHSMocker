@@ -6,6 +6,21 @@
 @font-face {font-family:"Avenir Next Medium Condensed"; src: local("AvenirNextCondensed-Medium");}
 @font-face {font-family:"Avenir Next Regular Condensed"; src: local("AvenirNextCondensed-Regular");}
 
+
+@font-face {
+  font-family: 'Roboto Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/Hgo13k-tfSpn0qi1SFdUfbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+
 body {
 	margin:0px;
 	padding:0px;
@@ -75,7 +90,7 @@ div.content_source_full {
     font-family: "Avenir Next Regular Condensed";
     font-size: 14px;
     color: #999999;
-    text-align: right;
+    text-align: left;
 }
 
 div.content_header {
@@ -85,30 +100,28 @@ div.content_header {
 }
 
 div.content_title_full {
-    font-family:"Avenir Next Medium Condensed";
-    font-size:32px;
+    font-family:"Roboto Light";
+    font-size:27px;
     color:#3b392f;
-    #text-transform:uppercase;
     padding: 10px 10px 10px 10px;
-    line-height:100%
+    line-height:33px;
 }
 
 div.content_abstract{
-    font-family: "Avenir Next Regular Condensed";
-    font-size: 24px;
+    font-family:"Roboto Light";
+    font-size: 18px;
     color: #706e67;
-    padding: 10px 10px 10px 10px;
-    line-height:100%
+    padding: 0px 10px 10px 10px;
+    line-height: 23px
 
 }
 
 div.content_text {
-	font-family: "Avenir Next Regular Condensed";
-	font-size: 18px;
+	font-family:"Roboto";
+	font-size: 16px;
 	color: #4c4c4c;
     padding: 10px 10px 10px 10px;
-    line-height:100%
-
+    line-height: 21px;
 }
 
 div.mayo_copyright {
@@ -116,21 +129,23 @@ div.mayo_copyright {
     font-size: 10px;
     color: #999999;
     padding: 10px 10px 10px 10px;
+    margin-bottom: 25px;
     line-height:normal;
 }
 
 div.talk {
     background-color: #bfbfbf;
     background-image: url(/assets/talkpromo_banner@2x.png);
-    background-size:320px 54px;
+    background-size:320px 68px;
     width:320px;
-    height:54px;
+    height:68px;
     background-repeat:no-repeat;
     background-position:center center;
-    margin-bottom: 10px;
     margin-left: -10px;
     margin-right: -10px;
     padding:0;
+    position: fixed;
+    bottom:20px;
 }
 
 div.talk_content {
@@ -155,7 +170,7 @@ img.mayo_icon {
     width:90px;
     padding-top:2px;
     padding-bottom:5px;
-    padding-right: 10px;
+    padding-left: 10px;
 }
 
 div.section_head_show {
@@ -166,11 +181,13 @@ div.section_head_show {
     //background-color: #808080;
     margin-bottom: 10px;
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 18px;
     border-bottom:thin solid #E2E3E4;
     color: #4c4c4c;
     text-decoration: none;
     text-transform: uppercase;
+    padding-bottom: 6px;
+
 }
 
 div.section_head_hide {
@@ -178,23 +195,23 @@ div.section_head_hide {
     background-size: 15px auto;
     background-repeat: no-repeat;
     background-position: left top;
-    //background-color: #808080; 
     margin-bottom: 10px;
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 18px;
     border-bottom:thin solid #E2E3E4;
     color: #4c4c4c;
     text-decoration: none;
     text-transform: uppercase;
+    padding-bottom: 6px;
     }
 
 div.section_head_show a {
     padding-left:25px;
     color: #4c4c4c;
     text-decoration: none;
-    text-transform: uppercase;
     display: inline-block;
-    }
+    padding-bottom: 6px;
+}
 
 div.section_head_hide a {
     padding-left:25px;
@@ -202,7 +219,8 @@ div.section_head_hide a {
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    }
+    padding-bottom: 6px;
+}
 
 div.section {
    display: none; //default state
@@ -234,11 +252,13 @@ div.subtitle {
 
 //Content Tables
 div.mctable {
-    width: 100%;
+    width: 300px;
+    max-width: 300px;
     padding-bottom: 10px;
+    font-size: 14px;
 }
 
 table.content {
-    max-width: 95%;
+    max-width: 300px;
     font-size: 14px;
 }

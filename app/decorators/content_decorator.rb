@@ -18,6 +18,9 @@ class ContentDecorator < Draper::Decorator
   private
 
   def insert_talk_button
+    body.insert(body_tag_position, talk)
+    return body
+    
     if paragraph_tag_count > 1
       body.insert(second_paragraph_tag_position, talk)
     elsif paragraph_tag_count == 1
@@ -46,7 +49,7 @@ class ContentDecorator < Draper::Decorator
   end
 
   def body_tag_position
-    body.index(/<\/body>/) + 6
+    body.index(/<\/body>/)
   end
 
   def talk
