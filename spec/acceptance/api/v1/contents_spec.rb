@@ -20,7 +20,7 @@ resource "Contents" do
       response = JSON.parse response_body
       response['contents'].should be_a Array
       content = response['contents'].first
-      content.keys.should include('title', 'body', 'contents_type', 'contentID')
+      content.keys.should include('title', 'contents_type', 'contentID')
     end
   end
 
