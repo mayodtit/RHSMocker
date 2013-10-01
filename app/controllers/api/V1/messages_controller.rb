@@ -4,7 +4,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   before_filter :load_message!, :only => :show
 
   def index
-    index_resource(messages_with_message_statuses)
+    render_success(:consult => @consult.as_json({}), :messages => messages_with_message_statuses)
   end
 
   def show
