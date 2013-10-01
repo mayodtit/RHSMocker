@@ -5,13 +5,8 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
   def index
     @consults = @user.consults.with_unread_messages_count_for(@user)
     @consults = @consults.where(:status => params[:status]) if params[:status]
-    if encounter_path?
-      render_success(:encounters => index_response,
-                     :allowed_subject_ids => Consult.allowed_subject_ids_for(@user))
-    else
-      render_success(:consults => index_response,
-                     :allowed_subject_ids => Consult.allowed_subject_ids_for(@user))
-    end
+    index_resource(index_response, :encounters) and return if encounter_path?
+    index_resource(index_response)
   end
 
   def show
