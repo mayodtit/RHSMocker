@@ -67,9 +67,7 @@ div.content_text_preview_fade {
 // #########################################################
 
 div.content_full {
-    width:300px;
-    margin-left:10px;
-    margin-right:10px;
+    width:  320px;
     margin-top:10px;
 }
 
@@ -80,52 +78,44 @@ div.content_source_full {
     text-align: right;
 }
 
-div.content_type{
-	font-family:"Avenir Next Medium Condensed";
-	font-size:15px;
-	color:#ff7400;
-    text-transform:uppercase;
-    padding-bottom:4px;
-    float:left;
-    vertical-align: bottom;
-}
-
-div.content_type img {
-    vertical-align: middle;
-    padding-right: 6px;
-}
-
-div.content_abstract{
-    font-family: "Avenir Next Regular Condensed";
-    font-size: 20px;
-    #color: #4c4c4c;
-    color: #c0c0c0;
-    margin-top: 5px;
-    padding-bottom: 10px;
-    #text-transform:uppercase;
+div.content_header {
+    background-color: #ececec;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
 }
 
 div.content_title_full {
     font-family:"Avenir Next Medium Condensed";
-    font-size:28px;
-    #color:#4c4c4c;
-    color:#E86E32;
-    text-transform:uppercase;
-    margin-top: 5px;
+    font-size:32px;
+    color:#3b392f;
+    #text-transform:uppercase;
+    padding: 10px 10px 10px 10px;
     line-height:100%
+}
+
+div.content_abstract{
+    font-family: "Avenir Next Regular Condensed";
+    font-size: 24px;
+    color: #706e67;
+    padding: 10px 10px 10px 10px;
+    line-height:100%
+
 }
 
 div.content_text {
 	font-family: "Avenir Next Regular Condensed";
-	font-size: 16px;
+	font-size: 18px;
 	color: #4c4c4c;
+    padding: 10px 10px 10px 10px;
+    line-height:100%
+
 }
 
 div.mayo_copyright {
     font-family: "Avenir Next Regular Condensed";
     font-size: 10px;
     color: #999999;
-    padding-top: 10px;
+    padding: 10px 10px 10px 10px;
     line-height:normal;
 }
 
@@ -154,17 +144,18 @@ div.talk_content {
     vertical-align:middle;
 }
 
-img.top_icon{
+img.top_icon {
     height:14px;
     width:14px;
     display:inline-block;
     margin-top:-4px;
 }
 
-img.mayo_icon{
+img.mayo_icon {
     width:90px;
-    padding-top:3px;
-    padding-bottom:2px;
+    padding-top:2px;
+    padding-bottom:5px;
+    padding-right: 10px;
 }
 
 div.section_head_show {
