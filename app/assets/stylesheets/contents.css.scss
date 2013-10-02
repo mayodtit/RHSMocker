@@ -163,16 +163,18 @@ div.section_head_show {
     background-size: 32px auto;
     background-position: left center;
     background-repeat: no-repeat;
-    //background-color: #808080;
+    background-color: #ececec;
+    border-top: 1px solid #CCCCCC;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 18px;
-    border-bottom:thin solid #E2E3E4;
     color: #4c4c4c;
     text-decoration: none;
-    text-transform: uppercase;
     min-height: 34px;
-
+    width:320px;
+    padding-left: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 div.section_head_hide {
@@ -183,15 +185,19 @@ div.section_head_hide {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 18px;
-    border-bottom:thin solid #E2E3E4;
+    border-top: 1px solid #CCCCCC;
     color: #4c4c4c;
     text-decoration: none;
-    text-transform: uppercase;
     min-height: 34px;
-    }
+    width:320px;
+    padding-left: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
 
 div.section_head_show a {
     padding-left:40px;
+    padding-right:10px;
     color: #4c4c4c;
     text-decoration: none;
     display: inline-block;
@@ -201,11 +207,10 @@ div.section_head_show a {
 
 div.section_head_hide a {
     padding-left:40px;
+    padding-right:10px;
     color: #4c4c4c;
     text-decoration: none;
-    text-transform: uppercase;
     display: inline-block;
-    float: none;
     min-height: 34px;
 }
 
