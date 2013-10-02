@@ -43,7 +43,6 @@ gem 'raddocs', :git => 'git://github.com/chilcutt/raddocs.git' # gem for parsing
 gem 'jquery-rails'
 gem 'pusher'
 gem 'factual-api'
-gem 'rufus-scheduler'
 
 #SOLR Support
 gem 'sunspot_rails'
