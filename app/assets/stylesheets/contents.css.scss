@@ -159,52 +159,54 @@ img.mayo_icon {
 }
 
 div.section_head_show {
-    background-image: url(/assets/down_arrow.png) ;
-    background-size: 15px auto;
-    background-position: left top;
+    background-image: url(/assets/arrow_down_@2x.png);
+    background-size: 32px auto;
+    background-position: left center;
     background-repeat: no-repeat;
     //background-color: #808080;
-    margin-bottom: 10px;
-    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 18px;
     border-bottom:thin solid #E2E3E4;
     color: #4c4c4c;
     text-decoration: none;
     text-transform: uppercase;
-    padding-bottom: 6px;
+    min-height: 34px;
 
 }
 
 div.section_head_hide {
-    background-image: url(/assets/up_arrow.png);
-    background-size: 15px auto;
+    background-image: url(/assets/arrow_up_@2x.png);
+    background-size: 32px auto;
     background-repeat: no-repeat;
-    background-position: left top;
-    margin-bottom: 10px;
-    margin-top: 15px;
+    background-position: left center;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 18px;
     border-bottom:thin solid #E2E3E4;
     color: #4c4c4c;
     text-decoration: none;
     text-transform: uppercase;
-    padding-bottom: 6px;
+    min-height: 34px;
     }
 
 div.section_head_show a {
-    padding-left:25px;
+    padding-left:40px;
     color: #4c4c4c;
     text-decoration: none;
     display: inline-block;
-    padding-bottom: 6px;
+    float: none;
+    min-height: 34px;
 }
 
 div.section_head_hide a {
-    padding-left:25px;
+    padding-left:40px;
     color: #4c4c4c;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    padding-bottom: 6px;
+    float: none;
+    min-height: 34px;
 }
 
 div.section {
