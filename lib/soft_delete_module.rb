@@ -1,7 +1,7 @@
 module SoftDeleteModule
   def self.included(base)
     base.class_eval do
-      default_scope where(:disabled_at => nil)
+      default_scope { where(disabled_at: nil) }
     end
   end
 
