@@ -59,7 +59,17 @@ div.content_title_card {
     padding-right: 10px;
 }
 
-div.content_text_card_fade {
+.content_subtitle {
+    font-family:"Roboto Light";
+    font-size:14px;
+    line-height:28px;
+    overflow: hidden;
+    color:#3b392f;
+    padding-left:  10px;
+    padding-right: 10px;
+}
+
+.content_text_card_fade {
     font-family: "Roboto Light";
     font-size: 14px;
     color: #4c4c4c;
@@ -67,6 +77,11 @@ div.content_text_card_fade {
     padding: 10px 10px 20px 10px;
     overflow: hidden;
     -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.content_date {
+  float: right;
+  margin: 3px 10px 0px 0px;
 }
 
 // #########################################################
