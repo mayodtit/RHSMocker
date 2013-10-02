@@ -26,53 +26,42 @@ body {
 	padding:0px;
 }
 
-//Cardview + Preview CSS
+// #########################################################
+// Shared Content CSS
+// #########################################################
 
-.content_cardview {
-    width:278px;
-    margin-left:10px;
-    margin-right:10px;
-    margin-top:10px;
-    height: 160px;
-    .content_date {
-        font-family: "Avenir Next Regular Condensed";
-        font-size: 14px;
-        color: #999999;
-        padding-bottom: 5px;
-    }
+div.content_source{
+    text-align: left;
 }
 
-div.content_title_preview {
-    font-family:"Avenir Next Medium Condensed";
+// #########################################################
+// Cardview + Preview CSS
+// #########################################################
+
+div.content_card {
+    width:300px;
+    height:288px;
+}
+
+div.content_header_card {
+    background-color: #ececec;
+    border-top: 1px solid #CCCCCC;
+}
+
+div.content_title_card {
+    font-family:"Roboto Light";
     font-size:18px;
-    padding-bottom:3px;
-    clear:left;
     overflow: hidden;
-    color:#E86E32;
-    text-transform:uppercase;
-    height: 40px;
+    color:#3b392f;
+    padding: 10px 10px 10px 10px;
 }
 
-div.content_source_preview {
-    font-family: "Avenir Next Regular Condensed";
-    font-size: 14px;
-    color: #999999;
-    padding-bottom: 5px;
-    text-align: right;
-}
-
-div.content_text_preview {
-    font-family: "Avenir Next Regular Condensed";
-    font-size: 16px;
-    color: #4c4c4c;
-    overflow: hidden; 
-}
-
-div.content_text_preview_fade {
-    font-family: "Avenir Next Regular Condensed";
+div.content_text_card_fade {
+    font-family: "Roboto";
     font-size: 16px;
     color: #4c4c4c;
     height: 93px;
+    padding: 10px 10px 20px 10px;
     overflow: hidden;
     -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
@@ -82,15 +71,8 @@ div.content_text_preview_fade {
 // #########################################################
 
 div.content_full {
-    width:  320px;
+    width:320px;
     margin-top:10px;
-}
-
-div.content_source_full {
-    font-family: "Avenir Next Regular Condensed";
-    font-size: 14px;
-    color: #999999;
-    text-align: left;
 }
 
 div.content_header {
