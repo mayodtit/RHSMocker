@@ -1,10 +1,14 @@
 source 'https://rubygems.org'
 #ruby '1.9.3'
 
-gem 'rails', '3.2.14' # Caltrain
+gem 'rails', '4.0.0'  # Caltrain
 gem 'nokogiri'        # content parsing
 gem 'pg'              # This needs to come after Nokogiri https://github.com/sparklemotion/nokogiri/issues/742
 gem 'newrelic_rpm'    # Monitoring
+
+# Temporarily using this as a bridge for migrating to Rails 4.
+# There's a Pivotal chore to migrate this to strong_params (the new convention in Rails 4)
+gem 'protected_attributes'
 
 #installing therubyracer, less-rails, and twitter-bootstrap-rails
 gem 'therubyracer'
@@ -14,13 +18,13 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails'
+  gem 'coffee-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
-  gem 'uglifier', '>= 1.0.3'
+  gem 'uglifier'
 
   #datatables
   gem 'jquery-datatables-rails', github: 'rweng/jquery-datatables-rails'
