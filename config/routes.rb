@@ -113,8 +113,8 @@ RHSMocker::Application.routes.draw do
   get "faq" =>"home#faq"
 
   %w(403 404 412 500).each do |status_code|
-    match status_code => 'errors#exception'
+    get status_code => 'errors#exception'
   end
 
-  match '/docs' => Raddocs::App, :anchor => false
+  get '/docs' => Raddocs::App, :anchor => false
 end
