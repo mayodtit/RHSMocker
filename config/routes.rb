@@ -74,8 +74,8 @@ RHSMocker::Application.routes.draw do
       post "signup" => "users#create", :as=>"signup"
       post "login" => "sessions#create", :as=>"login"
       delete "logout" => "sessions#destroy", :as=>"logout"
-      put "user" => "users#update", :as=>"user_update"
-      put "user/:id" => "users#update", :as=>"user_update"
+      put "user" => "users#update"
+      put "user/:id" => "users#update"
       post "user/update_password" => "users#update_password", :as=>"update_password"
       post "user/update_email" => "users#update_email", :as=>"update_email"
 
