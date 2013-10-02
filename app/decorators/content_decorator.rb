@@ -20,16 +20,6 @@ class ContentDecorator < Draper::Decorator
   def insert_talk_button
     body.insert(body_tag_position, talk)
     return body
-    
-    if paragraph_tag_count > 1
-      body.insert(second_paragraph_tag_position, talk)
-    elsif paragraph_tag_count == 1
-      body.insert(paragraph_tag_position, talk)
-    elsif body_tag_present?
-      body.insert(body_tag_position, talk)
-    else
-      body
-    end
   end
 
   def paragraph_tag_count
