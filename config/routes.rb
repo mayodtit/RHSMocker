@@ -74,8 +74,8 @@ RHSMocker::Application.routes.draw do
       post "signup" => "users#create", :as=>"signup"
       post "login" => "sessions#create", :as=>"login"
       delete "logout" => "sessions#destroy", :as=>"logout"
-      put "user" => "users#update", :as=>"user_update"
-      put "user/:id" => "users#update", :as=>"user_update"
+      put "user" => "users#update"
+      put "user/:id" => "users#update"
       post "user/update_password" => "users#update_password", :as=>"update_password"
       post "user/update_email" => "users#update_email", :as=>"update_email"
 
@@ -89,12 +89,12 @@ RHSMocker::Application.routes.draw do
 
       get "factors/:id" => "factors#index"
       post "symptoms/check" => "factors#check"
-
-
-      post "feedback" => "users#add_feedback"
     end
   end
 
+  resources :contents, :only => [:index, :show] do
+    get ":user_reading_id", :to => :show, :on => :member
+  end
   resources :invites, :only => [:update, :show] do
     get :complete, :on => :collection
     get :signup, :on => :collection
@@ -111,10 +111,6 @@ RHSMocker::Application.routes.draw do
   get '/login' => "sessions#new", :as=>"login"
   resources :sessions
   get "faq" =>"home#faq"
-  get "contents/:doc_id" => "contents#show"
-  get "contents/:doc_id/:user_reading_id" => "contents#show"
-
-  resources :contents
 
   %w(403 404 412 500).each do |status_code|
     match status_code => 'errors#exception'

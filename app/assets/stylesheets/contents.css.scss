@@ -6,54 +6,82 @@
 @font-face {font-family:"Avenir Next Medium Condensed"; src: local("AvenirNextCondensed-Medium");}
 @font-face {font-family:"Avenir Next Regular Condensed"; src: local("AvenirNextCondensed-Regular");}
 
+
+@font-face {
+  font-family: 'Roboto Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/Hgo13k-tfSpn0qi1SFdUfbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+
 body {
 	margin:0px;
 	padding:0px;
 }
 
-//Cardview + Preview CSS
+// #########################################################
+// Shared Content CSS
+// #########################################################
 
-div.content_cardview {
-    width:278px;
-    margin-left:10px;
-    margin-right:10px;
-    margin-top:10px;
-    height: 160px;
+div.content_source{
+    text-align: left;
 }
 
-div.content_title_preview {
-    font-family:"Avenir Next Medium Condensed";
-    font-size:18px;
-    padding-bottom:3px;
-    clear:left;
+// #########################################################
+// Cardview + Preview CSS
+// #########################################################
+
+div.content_card {
+    width:300px;
+    height:288px;
+}
+
+div.content_header_card {
+    background-color: #ececec;
+    border-top: 1px solid #CCCCCC;
+}
+
+div.content_title_card {
+    font-family:"Roboto Light";
+    font-size:22px;
+    line-height:28px;
     overflow: hidden;
-    color:#E86E32;
-    text-transform:uppercase;
-    height: 40px;
+    color:#3b392f;
+    padding-left:  10px;
+    padding-top:   10px;
+    padding-right: 10px;
 }
 
-div.content_source_preview {
-    font-family: "Avenir Next Regular Condensed";
+.content_subtitle {
+    font-family:"Roboto Light";
+    font-size:14px;
+    line-height:28px;
+    overflow: hidden;
+    color:#3b392f;
+    padding-left:  10px;
+    padding-right: 10px;
+}
+
+.content_text_card_fade {
+    font-family: "Roboto Light";
     font-size: 14px;
-    color: #999999;
-    padding-bottom: 5px;
-    text-align: right;
-}
-
-div.content_text_preview {
-    font-family: "Avenir Next Regular Condensed";
-    font-size: 16px;
-    color: #4c4c4c;
-    overflow: hidden; 
-}
-
-div.content_text_preview_fade {
-    font-family: "Avenir Next Regular Condensed";
-    font-size: 16px;
     color: #4c4c4c;
     height: 93px;
+    padding: 10px 10px 20px 10px;
     overflow: hidden;
     -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.content_date {
+  float: right;
+  margin: 3px 10px 0px 0px;
 }
 
 // #########################################################
@@ -61,80 +89,63 @@ div.content_text_preview_fade {
 // #########################################################
 
 div.content_full {
-    width:300px;
-    margin-left:10px;
-    margin-right:10px;
+    width:320px;
     margin-top:10px;
 }
 
-div.content_source_full {
-    font-family: "Avenir Next Regular Condensed";
-    font-size: 14px;
-    color: #999999;
-    text-align: right;
-}
-
-div.content_type{
-	font-family:"Avenir Next Medium Condensed";
-	font-size:15px;
-	color:#ff7400;
-    text-transform:uppercase;
-    padding-bottom:4px;
-    float:left;
-    vertical-align: bottom;
-}
-
-div.content_type img {
-    vertical-align: middle;
-    padding-right: 6px;
-}
-
-div.content_abstract{
-    font-family: "Avenir Next Regular Condensed";
-    font-size: 20px;
-    #color: #4c4c4c;
-    color: #c0c0c0;
-    margin-top: 5px;
-    padding-bottom: 10px;
-    #text-transform:uppercase;
+div.content_header {
+    background-color: #ececec;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
 }
 
 div.content_title_full {
-    font-family:"Avenir Next Medium Condensed";
-    font-size:28px;
-    #color:#4c4c4c;
-    color:#E86E32;
-    text-transform:uppercase;
-    margin-top: 5px;
-    line-height:100%
+    font-family:"Roboto Light";
+    font-size:27px;
+    color:#3b392f;
+    padding: 10px 10px 10px 10px;
+    line-height:33px;
+}
+
+div.content_abstract{
+    font-family:"Roboto Light";
+    font-size: 18px;
+    color: #706e67;
+    padding: 0px 10px 10px 10px;
+    line-height: 23px
+
 }
 
 div.content_text {
-	font-family: "Avenir Next Regular Condensed";
+	font-family:"Roboto";
 	font-size: 16px;
 	color: #4c4c4c;
+    padding: 10px 10px 10px 10px;
+    line-height: 21px;
 }
 
 div.mayo_copyright {
     font-family: "Avenir Next Regular Condensed";
     font-size: 10px;
     color: #999999;
-    padding-top: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 25px;
     line-height:normal;
 }
 
 div.talk {
     background-color: #bfbfbf;
     background-image: url(/assets/talkpromo_banner@2x.png);
-    background-size:320px 54px;
+    background-size:320px 68px;
     width:320px;
-    height:54px;
+    height:68px;
     background-repeat:no-repeat;
     background-position:center center;
-    margin-bottom: 10px;
     margin-left: -10px;
     margin-right: -10px;
     padding:0;
+    position: fixed;
+    bottom: 0px;
 }
 
 div.talk_content {
@@ -148,64 +159,75 @@ div.talk_content {
     vertical-align:middle;
 }
 
-img.top_icon{
+img.top_icon {
     height:14px;
     width:14px;
     display:inline-block;
     margin-top:-4px;
 }
 
-img.mayo_icon{
+img.mayo_icon {
     width:90px;
-    padding-top:3px;
-    padding-bottom:2px;
+    padding-top:2px;
+    padding-bottom:5px;
+    padding-left: 10px;
 }
 
 div.section_head_show {
-    background-image: url(/assets/down_arrow.png) ;
-    background-size: 15px auto;
-    background-position: left top;
+    background-image: url(/assets/arrow_down_@2x.png);
+    background-size: 32px auto;
+    background-position: left center;
     background-repeat: no-repeat;
-    //background-color: #808080;
-    margin-bottom: 10px;
-    margin-top: 15px;
-    font-size: 20px;
-    border-bottom:thin solid #E2E3E4;
+    background-color: #ececec;
+    border-top: 1px solid #CCCCCC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
     color: #4c4c4c;
     text-decoration: none;
-    text-transform: uppercase;
+    min-height: 34px;
+    width:320px;
+    padding-left: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 div.section_head_hide {
-    background-image: url(/assets/up_arrow.png);
-    background-size: 15px auto;
+    background-image: url(/assets/arrow_up_@2x.png);
+    background-size: 32px auto;
     background-repeat: no-repeat;
-    background-position: left top;
-    //background-color: #808080; 
-    margin-bottom: 10px;
-    margin-top: 15px;
-    font-size: 20px;
-    border-bottom:thin solid #E2E3E4;
+    background-position: left center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border-top: 1px solid #CCCCCC;
     color: #4c4c4c;
     text-decoration: none;
-    text-transform: uppercase;
-    }
+    min-height: 34px;
+    width:320px;
+    padding-left: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
 
 div.section_head_show a {
-    padding-left:25px;
+    padding-left:40px;
+    padding-right:10px;
     color: #4c4c4c;
     text-decoration: none;
-    text-transform: uppercase;
     display: inline-block;
-    }
+    float: none;
+    min-height: 34px;
+}
 
 div.section_head_hide a {
-    padding-left:25px;
+    padding-left:40px;
+    padding-right:10px;
     color: #4c4c4c;
     text-decoration: none;
-    text-transform: uppercase;
     display: inline-block;
-    }
+    min-height: 34px;
+}
 
 div.section {
    display: none; //default state
@@ -237,11 +259,13 @@ div.subtitle {
 
 //Content Tables
 div.mctable {
-    width: 100%;
+    width: 300px;
+    max-width: 300px;
     padding-bottom: 10px;
+    font-size: 14px;
 }
 
 table.content {
-    max-width: 95%;
+    max-width: 300px;
     font-size: 14px;
 }

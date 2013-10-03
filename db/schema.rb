@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130925220732) do
+ActiveRecord::Schema.define(:version => 20130930223307) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -127,6 +127,7 @@ ActiveRecord::Schema.define(:version => 20130925220732) do
     t.integer  "subject_id",   :default => 0, :null => false
     t.integer  "initiator_id", :default => 0, :null => false
     t.string   "title"
+    t.string   "description"
   end
 
   create_table "content_mayo_vocabularies", :force => true do |t|

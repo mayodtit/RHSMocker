@@ -3,8 +3,8 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   before_filter :load_content!, :only => :show
 
   def index
-    index_resource(@contents)
-    #Analytics.log_content_search(current_user.google_analytics_uuid, params[:q]) if current_user
+    index_resource(@contents.active_model_serializer_instance)
+    Analytics.log_content_search(current_user.google_analytics_uuid, params[:q]) if current_user
   end
 
   def show
@@ -26,10 +26,7 @@ class Api::V1::ContentsController < Api::V1::ABaseController
 
   def solr_results
     query = Content.sanitize_solr_query(params[:q])
-    Content.solr_search do |s|
-      @contents = s.keywords query
-      @searchterm = query
-    end
+    Content.search{ fulltext query }.results
   end
 
   def load_content!
@@ -39,6 +36,6 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   def merge_body(content)
     content.as_json.merge!(:body => render_to_string(:action => :show,
                                                      :formats => :html,
-                                                     :locals => {:content => content}))
+                                                     :locals => {:content => content.decorate}))
   end
 end

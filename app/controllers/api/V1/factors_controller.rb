@@ -43,6 +43,8 @@ class Api::V1::FactorsController < Api::V1::ABaseController
           :factors=>symptoms_factors
         }
     end
+
+    result.sort! { |a,b| b[:factors].count <=> a[:factors].count }
     render_success({contents:result})
   end
 

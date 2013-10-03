@@ -4,7 +4,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   before_filter :load_message!, :only => :show
 
   def index
-    index_resource(messages_with_message_statuses)
+    render_success(:consult => @consult.as_json({}), :messages => messages_with_message_statuses)
   end
 
   def show
@@ -26,7 +26,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
     create_resource(@consult.messages, p)
     @consult.messages.create(:user => Member.robot,
-                             :text => "We've received your message! If the system was live, I would be a real Health Care Professional talking with you!",
+                             :text => "We've received your message! This is a testing scenario, but when this is live, a Healthcare Professional will be messaging you!",
                              :created_at => Time.now + 1.second)
   end
 

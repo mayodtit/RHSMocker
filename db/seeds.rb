@@ -584,7 +584,7 @@ bulge_or_lump_in_groin_area_factor        = Factor.find_or_create_by_name(:name=
 bumps_blisters_or_open_sores_factor       = Factor.find_or_create_by_name(:name=>"Bumps, blisters or open sores")
 bumps_blisters_or_open_sores_factor_genitals_factor = Factor.find_or_create_by_name(:name=>"Bumps, blisters or open sores around genitals")
 burning_factor                            = Factor.find_or_create_by_name(:name=>"Burning")
-burning_pain_factor                       = Factor.find_or_create_by_name(:name=>"Burning Pain")
+burning_pain_factor                       = Factor.find_or_create_by_name(:name=>"Burning pain")
 buzzing_or_ringing_in_ear_factor          = Factor.find_or_create_by_name(:name=>"Buzzing or ringing in ear")
 
 
@@ -602,7 +602,7 @@ chronic_ongoing_factor  = Factor.find_or_create_by_name(:name=>"Chronic, ongoing
 constipation_factor     = Factor.find_or_create_by_name(:name=>"Constipation")
 crampy_factor           = Factor.find_or_create_by_name(:name=>"Crampy")
 cramping_factor         = Factor.find_or_create_by_name(:name=>"Cramping")
-coughing_or_jarring_movements_factor = Factor.find_or_create_by_name(:name=>"Coughing or Jarring Movements")
+coughing_or_jarring_movements_factor = Factor.find_or_create_by_name(:name=>"Coughing or jarring movements")
 cough_with_blood_phlegm_factor       = Factor.find_or_create_by_name(:name=>"Cough with blood or phlegm")
 
 
@@ -661,7 +661,7 @@ in_or_on_toilet_bowl_factor = Factor.find_or_create_by_name(:name=>"In toilet bo
 increased_sensitivity_to_cold_factor = Factor.find_or_create_by_name(:name=>"Increased sensitivity to cold")
 intense_factor              = Factor.find_or_create_by_name(:name=>"Intense")
 intermittent_factor         = Factor.find_or_create_by_name(:name=>"Intermittent")
-intermittent_episodic_factor= Factor.find_or_create_by_name(:name=>"Intermittent, Episodic")
+intermittent_episodic_factor= Factor.find_or_create_by_name(:name=>"Intermittent, episodic")
 inability_to_move_bowels_factor = Factor.find_or_create_by_name(:name=>"Inability to move bowels")
 injury_factor               = Factor.find_or_create_by_name(:name=>"Injury")
 injury_trauma_factor        = Factor.find_or_create_by_name(:name=>"Injury or trauma")
@@ -687,7 +687,7 @@ ongoing_or_recurrent_factor = Factor.find_or_create_by_name(:name=>"Ongoing or r
 
 one_or_both_sides_factor = Factor.find_or_create_by_name(:name=>"One or both sides")
 
-radiates_from_abdomen_factor = Factor.find_or_create_by_name(:name=>"Radiates from Abdomen")
+radiates_from_abdomen_factor = Factor.find_or_create_by_name(:name=>"Radiates from abdomen")
 rapid_heart_rate_factor = Factor.find_or_create_by_name(:name=>"Rapid heart rate")
 rash_factor             = Factor.find_or_create_by_name(:name=>"Rash")
 recent_factor           = Factor.find_or_create_by_name(:name=>"Recent")
@@ -715,7 +715,7 @@ sharp_factor              = Factor.find_or_create_by_name(:name=>"Sharp")
 steady_factor             = Factor.find_or_create_by_name(:name=>"Steady")
 straining_during_bowel_movements_factor = Factor.find_or_create_by_name(:name=>"Straining during bowel movements")
 stress_factor             = Factor.find_or_create_by_name(:name=>"Stress")
-stiff_neck_factor         = Factor.find_or_create_by_name(:name=>"Stiff Neck")
+stiff_neck_factor         = Factor.find_or_create_by_name(:name=>"Stiff neck")
 
 stomach_growling_or_rumbling_factor = Factor.find_or_create_by_name(:name=>"Stomach growling or rumbling")
 short_of_breath_or_dizzy_factor = Factor.find_or_create_by_name(:name=>"Short of breath or dizzy")

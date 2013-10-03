@@ -2,11 +2,8 @@ require 'codeclimate-test-reporter'
 CodeClimate::TestReporter.start
 
 ENV["RAILS_ENV"] ||= 'test'
-require 'simplecov'
-SimpleCov.start "rails"
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
-require 'capybara/rspec'
 
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.
@@ -20,7 +17,6 @@ RspecApiDocumentation.configure do |config|
 end
 
 RSpec.configure do |config|
-  config.include Capybara::DSL
   config.include FactoryGirl::Syntax::Methods
 
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
@@ -40,4 +36,14 @@ RSpec.configure do |config|
   config.order = "random"
   config.alias_it_should_behave_like_to :it_validates, "it validates"
   config.alias_it_should_behave_like_to :it_has_a, "it has a"
+
+  # this increases spec run time by ~4%, but is probably more convenient
+  # than remembering which exact specs require Analytics stubbing
+  config.before(:each) { stub_out_analytics_methods }
+end
+
+def stub_out_analytics_methods
+  (Analytics.methods - Object.methods).each do |m|
+    Analytics.stub(m).and_return(nil)
+  end
 end

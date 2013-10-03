@@ -58,7 +58,7 @@ class Message < ActiveRecord::Base
   alias_method :preview, :previewText
 
   BASE_OPTIONS = {:only => [:id, :text, :created_at],
-                  :methods => [:title, :image_url],
+                  :methods => [:title, :image_url, :type],
                   :include => {:location => {},
                                :attachments => {},
                                :mayo_vocabularies => {},
@@ -91,6 +91,14 @@ class Message < ActiveRecord::Base
            ON message_statuses.message_id = messages.id
            AND message_statuses.user_id = #{user.id}")
     .select('messages.*, message_statuses.status')
+  end
+
+  def type
+    if phone_call || scheduled_phone_call
+      :system
+    else
+      :user
+    end
   end
 
   private

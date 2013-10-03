@@ -8,6 +8,7 @@
   <thead>
   <tr>
     <th>Title</th>
+    <th>MCVID</th>
     <th>Type</th>
     <th>Abstract</th>
   </tr>
@@ -16,6 +17,7 @@
 <% @contents.each do |content| %>
   <tr>
     <td><%= link_to content.title, content %></td>
+    <td><%= content.mayo_doc_id %></td>
     <td><%= content.content_type %></td>
     <% if content.abstract.nil? %>
       <td> </td>
