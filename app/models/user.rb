@@ -29,8 +29,9 @@ class User < ActiveRecord::Base
 
   before_create :create_google_analytics_uuid
 
+  # TODO - I think this should be moved to Member, needs investigation
   def full_name
-    return "Not Set" if first_name.blank? || last_name.blank?
+    return email if first_name.blank? || last_name.blank?
     "#{first_name} #{last_name}".strip
   end
 
