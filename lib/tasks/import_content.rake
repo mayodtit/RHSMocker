@@ -21,7 +21,7 @@ namespace :admin do
 
       rawData = Nokogiri::XML(File.open(contentFile))
       docID 	= rawData.search('DocID').first.text.strip
-      type 	= rawData.search('ContentType').first.text.strip
+      type 	  = rawData.search('ContentType').first.text.strip
       title   = rawData.search('Title').first.text.strip.gsub(/,/," ")
       #logger.info(docID + ", Processing , " + "----------")
 
@@ -109,22 +109,26 @@ namespace :admin do
 
       popup_media_nodes = rawData.css "PopupMedia"
       count = 0
+      previous_img_src = ""
       popup_media_nodes.map do | popup_node |
-        #Previously removed the extra HTML tag
-        count+=1
-        thumb_img_node = Nokogiri::XML::Node.new "img", rawData
-        thumb_img_node.set_attribute('class', 'mayoContentImage')
+        #Some content has duplicate images in a row in it. Seems like a bug in the 
+        #content but we have to handle it...
         full_img_src = 'http://www.mayoclinic.com' + popup_node.at_css('Image')['URI']
-        thumb_img_node.set_attribute('src', full_img_src)
-        #Total hack to skip second paragraph where the banner goes
-        count = 3 if count == 2
-        #structured_body.at_xpath('//p[$count]', {:count => count}).add_next_sibling(thumb_img_node)
-        #THIS IS A HUGE FUCKING HACK.
-        pcount = 0
-        structured_body.css('p').each do |p|
-          pcount += 1
-          p.add_next_sibling(thumb_img_node) if pcount == count
+        if full_img_src.casecmp(previous_img_src) == 0 
+          count+=1
+          thumb_img_node = Nokogiri::XML::Node.new "img", rawData
+          thumb_img_node.set_attribute('class', 'mayoContentImage')
+          thumb_img_node.set_attribute('src', full_img_src)
+          #Total hack to skip second paragraph where the banner goes
+          count = 3 if count == 2
+          #THIS IS A HUGE HACK.
+            pcount = 0
+            structured_body.css('p').each do |p|
+            pcount += 1
+            p.add_next_sibling(thumb_img_node) if pcount == count
+          end
         end
+        previous_img_src = full_img_src #reset for comparision
       end
 
       # Create objects
@@ -132,22 +136,22 @@ namespace :admin do
       type_text	  	= type_search.first.text             if !type_search.empty?
       type_text 		= type_text.remove_newlines_and_tabs if !type_text.nil?
 
-      title_search 		= rawData.search('Title')
+      title_search 		  = rawData.search('Title')
       abstract_search 	= rawData.search('Abstract')
       question_search 	= rawData.search('Question')
       keyword_search		= rawData.search('MetaKeyword')
-      update_search		= rawData.search('UpdateDate')
-      mayo_vocab_search 	= rawData.search('Keyword')
+      update_search		  = rawData.search('UpdateDate')
+      mayo_vocab_search = rawData.search('Keyword')
       doc_id_search 		= rawData.search('DocID')
 
-      title_text 	  = title_search.first.text 		if !title_search.empty?
-      abstract_text = abstract_search.first.text 		if !abstract_search.empty?
-      question_text = question_search.first.text 		if !question_search.empty?
-      update_text	  = update_search.first.text    	if !update_search.empty?
+      title_text 	  = title_search.first.text 		    if !title_search.empty?
+      abstract_text = abstract_search.first.text 		  if !abstract_search.empty?
+      question_text = question_search.first.text 		  if !question_search.empty?
+      update_text	  = update_search.first.text    	  if !update_search.empty?
       doc_id	   	  = doc_id_search.first.text.strip 	if !doc_id_search.empty?
 
       #If this is type disease, put in an abstract paragraph since diseases have very unfriendly abstract
-      if type.casecmp("Disease") == 0
+      if type.casecmp("Disease") == 0 || type.casecmp("TestProcedure")  == 0
         abstract_text = structured_body.css('p').first.inner_html
         logger.info("Abstract = " + abstract_text)
         #type = "Condition"
