@@ -116,7 +116,7 @@ class Message < ActiveRecord::Base
   def self.phone_text(type)
     case type
     when :phone_call
-      'Phone call!'
+      'A new consult has been started'
     when :scheduled_phone_call
       'Scheduled phone call!'
     end

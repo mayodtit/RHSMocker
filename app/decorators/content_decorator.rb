@@ -47,6 +47,6 @@ class ContentDecorator < Draper::Decorator
   end
 
   def talk_message
-    "I was reading the article #{title} and would like to discuss it with a Personal Health Assistant."
+    "I was reading the article \'#{title}\' and would like to discuss it with a Personal Health Assistant."
   end
 end
