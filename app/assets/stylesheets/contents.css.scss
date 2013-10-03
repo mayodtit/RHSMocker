@@ -59,7 +59,17 @@ div.content_title_card {
     padding-right: 10px;
 }
 
-div.content_text_card_fade {
+.content_subtitle {
+    font-family:"Roboto Light";
+    font-size:14px;
+    line-height:28px;
+    overflow: hidden;
+    color:#3b392f;
+    padding-left:  10px;
+    padding-right: 10px;
+}
+
+.content_text_card_fade {
     font-family: "Roboto Light";
     font-size: 14px;
     color: #4c4c4c;
@@ -67,6 +77,11 @@ div.content_text_card_fade {
     padding: 10px 10px 20px 10px;
     overflow: hidden;
     -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.content_date {
+  float: right;
+  margin: 3px 10px 0px 0px;
 }
 
 // #########################################################
@@ -159,52 +174,59 @@ img.mayo_icon {
 }
 
 div.section_head_show {
-    background-image: url(/assets/down_arrow.png) ;
-    background-size: 15px auto;
-    background-position: left top;
+    background-image: url(/assets/arrow_down_@2x.png);
+    background-size: 32px auto;
+    background-position: left center;
     background-repeat: no-repeat;
-    //background-color: #808080;
-    margin-bottom: 10px;
-    margin-top: 15px;
+    background-color: #ececec;
+    border-top: 1px solid #CCCCCC;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 18px;
-    border-bottom:thin solid #E2E3E4;
     color: #4c4c4c;
     text-decoration: none;
-    text-transform: uppercase;
-    padding-bottom: 6px;
-
+    min-height: 34px;
+    width:320px;
+    padding-left: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 div.section_head_hide {
-    background-image: url(/assets/up_arrow.png);
-    background-size: 15px auto;
+    background-image: url(/assets/arrow_up_@2x.png);
+    background-size: 32px auto;
     background-repeat: no-repeat;
-    background-position: left top;
-    margin-bottom: 10px;
-    margin-top: 15px;
+    background-position: left center;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 18px;
-    border-bottom:thin solid #E2E3E4;
+    border-top: 1px solid #CCCCCC;
     color: #4c4c4c;
     text-decoration: none;
-    text-transform: uppercase;
-    padding-bottom: 6px;
-    }
+    min-height: 34px;
+    width:320px;
+    padding-left: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
 
 div.section_head_show a {
-    padding-left:25px;
+    padding-left:40px;
+    padding-right:10px;
     color: #4c4c4c;
     text-decoration: none;
     display: inline-block;
-    padding-bottom: 6px;
+    float: none;
+    min-height: 34px;
 }
 
 div.section_head_hide a {
-    padding-left:25px;
+    padding-left:40px;
+    padding-right:10px;
     color: #4c4c4c;
     text-decoration: none;
-    text-transform: uppercase;
     display: inline-block;
-    padding-bottom: 6px;
+    min-height: 34px;
 }
 
 div.section {
