@@ -25,7 +25,7 @@ module ImportContentModule
   # constants
   #############################################################################
 
-  # these two are the same
+  # these two will not always be the same
   NO_CALL_LIST     = %w(HT00648 AM00021 HT00022 NU00585 NU00584)
   NO_SYMPTOMS_LIST = %w(HT00648 AM00021 HT00022 NU00585 NU00584)
 
