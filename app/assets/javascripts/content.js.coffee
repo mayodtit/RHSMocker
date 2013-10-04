@@ -10,3 +10,8 @@ $ ->
   $(".consult-link").click ->
     document.actionJSON = JSON.stringify([{type:"open_consult", body: {consult_id: $(@).data("consult-id").toString()}}])
     window.location.href = "http://dontload"
+
+  $(".date").each ->
+    d = new Date(0)
+    d.setUTCSeconds $(@).data("time")
+    $(@).text((d.getMonth() + 1) + "/" + d.getDate() + "/" + d.getFullYear())
