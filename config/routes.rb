@@ -28,6 +28,7 @@ RHSMocker::Application.routes.draw do
         post :dismiss, :on => :collection
       end
       post :password_resets, :controller => :users, :action => :reset_password # TODO - deprecated!
+      resources :ping, :only => :index
       resources :plans, :only => [:index, :show]
       resources :remote_events, :only => :create
       resources :side_effects, :only => :index
