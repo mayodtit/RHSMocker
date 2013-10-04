@@ -10,12 +10,13 @@ class Message < ActiveRecord::Base
   has_many :attachments
   belongs_to :scheduled_phone_call, :inverse_of => :message
   belongs_to :phone_call, :inverse_of => :message
+  belongs_to :phone_call_summary, :inverse_of => :message
 
   attr_accessible :user, :user_id, :consult, :consult_id, :content, :content_id, :text,
                   :new_location, :new_keyword_ids, :new_attachments, :scheduled_phone_call,
                   :scheduled_phone_call_id, :phone_call, :phone_call_id,
                   :scheduled_phone_call_attributes, :phone_call_attributes,
-                  :created_at, :image
+                  :created_at, :image, :phone_call_summary, :phone_call_summary_id
 
   validates :user, :consult, :text, presence: true
   validates :content, presence: true, if: lambda{|m| m.content_id.present?}
@@ -94,7 +95,7 @@ class Message < ActiveRecord::Base
   end
 
   def type
-    if phone_call || scheduled_phone_call
+    if phone_call || scheduled_phone_call || phone_call_summary
       :system
     else
       :user

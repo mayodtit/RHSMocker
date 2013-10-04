@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131003182456) do
+ActiveRecord::Schema.define(:version => 20131004203846) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -269,6 +269,7 @@ ActiveRecord::Schema.define(:version => 20131003182456) do
     t.integer  "scheduled_phone_call_id"
     t.integer  "phone_call_id"
     t.string   "image"
+    t.integer  "phone_call_summary_id"
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
