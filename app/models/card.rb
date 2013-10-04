@@ -45,7 +45,7 @@ class Card < ActiveRecord::Base
   private
 
   def set_default_priority
-    if resource_type == 'Message'
+    if resource_type == 'Consult'
       self.priority ||= 10
     else
       self.priority ||= 0
