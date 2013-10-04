@@ -14,7 +14,7 @@ class Card < ActiveRecord::Base
   delegate :title, :content_type, :preview, :abstract, :body, :formatted_body, to: :resource
 
   def self.inbox
-    where(:state => [:unread, :read]).by_priority
+    where(:state => [:unread, :read]).by_priority.reject {|c| c.resource.content_type == 'disease' if c.resource_type == 'Content'}
   end
 
   def self.timeline
