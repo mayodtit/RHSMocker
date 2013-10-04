@@ -88,13 +88,14 @@ describe Card do
     let!(:read) { create(:card, :read, :user => user) }
     let!(:saved) { create(:card, :saved, :user => user) }
     let!(:dismissed) { create(:card, :dismissed, :user => user) }
-    let!(:disease) { create(:card, resource: (create :content, content_type: 'disease')) }
+    let!(:disease1) { create(:card, resource: (create :content, content_type: 'disease')) }
+    let!(:disease2) { create(:card, resource: (create :content, content_type: 'Disease')) }
 
     describe '::inbox' do
       it 'returns unread and read cards' do
         results = described_class.inbox
         results.should =~ [unread, read]
-        results.should_not include(saved, dismissed, disease)
+        results.should_not include(saved, dismissed, disease1, disease2)
       end
     end
 
