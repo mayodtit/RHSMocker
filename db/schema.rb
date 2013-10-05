@@ -437,7 +437,7 @@ ActiveRecord::Schema.define(:version => 20131004224928) do
   create_table "user_content_likes", :force => true do |t|
     t.integer  "user_id"
     t.integer  "content_id"
-    t.integer  "action"
+    t.string   "action"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
