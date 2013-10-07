@@ -11,6 +11,9 @@ $ ->
     document.actionJSON = JSON.stringify([{type:"open_consult", body: {consult_id: $(@).data("consult-id").toString()}}])
     window.location.href = "http://dontload"
 
+  $(".diet-question .tile").click ->
+    $('.' + $(@).data('type')).toggle()
+
   $(".date").each ->
     d = new Date(0)
     d.setUTCSeconds $(@).data("time")
