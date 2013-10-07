@@ -17,3 +17,6 @@
   .bottom-right
     = link_to image_tag('eggs_unselect.png', :class => "tile eggs", :data => {:type => :eggs}), '#'
     = link_to image_tag('eggs_select.png', :class => "tile eggs", :data => {:type => :eggs}, :style => "display: none;"), '#'
+
+%script{:type=>"text/javascript"}
+  document.actionJSON = JSON.stringify([{type: "set_available_user_actions", body: {actions: ["save"]}}]);
