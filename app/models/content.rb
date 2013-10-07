@@ -26,8 +26,7 @@ class Content < ActiveRecord::Base
 
   def self.new_member_content
     where(:title => ['Your Allergies',
-                     'Your Gender',
-                     'Which of these do you eat?'])
+                     'Your Gender'])
   end
 
   # TODO - replace in future with root_share_url, move append to UserReading

@@ -80,49 +80,7 @@ Content.upsert_attributes({:title => "Your Allergies",
     EOF
                           })
 
-
-Content.upsert_attributes({:title => 'Which of these do you eat?',
-                           :content_type => 'Question'},
-                          {
-                            :body => <<-EOF
-<div id="panel-1">
-  <div class="content_text">
-    <div style="position: absolute; left: 25px; top: 65px;">
-      <a href="#" onclick="toggleElement('vegetables')"><img class="vegetables" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/vegetables_unselect.png"/></a>
-      <a href="#" onclick="toggleElement('vegetables')"><img class="vegetables" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/vegetables_select.png"/></a>
-    </div>
-    <div style="position: absolute; left: 115px; top: 65px;">
-      <a href="#" onclick="toggleElement('meat')"><img class="meat" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/meat_unselect.png"/></a>
-      <a href="#" onclick="toggleElement('meat')"><img class="meat" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/meat_select.png"/></a>
-    </div>
-    <div style="position: absolute; left: 205px; top: 65px;">
-      <a href="#" onclick="toggleElement('fish')"><img class="fish" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/fish_unselect.png"/></a>
-      <a href="#" onclick="toggleElement('fish')"><img class="fish" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/fish_select.png"/></a>
-    </div>
-    <div style="position: absolute; left: 25px; top: 125px">
-      <a href="#" onclick="toggleElement('bread')"><img class="bread" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/bread_unselect.png"/></a>
-      <a href="#" onclick="toggleElement('bread')"><img class="bread" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/bread_select.png"/></a>
-    </div>
-    <div style="position: absolute; left: 115px; top: 125px">
-      <a href="#" onclick="toggleElement('dairy')"><img class="dairy" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/dairy_unselect.png"/></a>
-      <a href="#" onclick="toggleElement('dairy')"><img class="dairy" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/dairy_select.png"/></a>
-    </div>
-    <div style="position: absolute; left: 205px; top: 125px">
-      <a href="#" onclick="toggleElement('eggs')"><img class="eggs" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/eggs_unselect.png"/></a>
-      <a href="#" onclick="toggleElement('eggs')"><img class="eggs" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/eggs_select.png"/></a>
-    </div>
-  </div>
-</div>
-
-<script type="text/javascript">
-document.actionJSON = JSON.stringify([{type: "set_available_user_actions", body: {actions: ["save"]}}]);
-
-function toggleElement(type) {
-  $('.' + type).toggle();
-};
-</script>
-                                    EOF
-                          })
+Question.upsert_attributes({:view => :diet}, {:title => 'Which of these do you eat?'})
 
 Content.upsert_attributes({:title => 'Enter your blood pressure',
                            :content_type => 'Question'},
