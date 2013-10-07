@@ -270,6 +270,20 @@ table.content {
     font-size: 14px;
 }
 
+.gender-question {
+  height: 124px;
+  .gender {
+    width: 110px;
+    padding: 0px 15px;
+  }
+  .male {
+    float: left;
+  }
+  .female {
+    float: right;
+  }
+}
+
 .diet-question {
   .top-left {
     position: absolute;

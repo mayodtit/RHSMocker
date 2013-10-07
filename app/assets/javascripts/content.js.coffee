@@ -14,6 +14,10 @@ $ ->
   $(".diet-question .tile").click ->
     $('.' + $(@).data('type')).toggle()
 
+  $(".gender").click ->
+    document.actionJSON = JSON.stringify([{type:"set_gender", body: {gender: $(@).data("gender")}}, {type: "save_item"}])
+    window.location.href = "http://dontload"
+
   $(".date").each ->
     d = new Date(0)
     d.setUTCSeconds $(@).data("time")

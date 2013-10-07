@@ -1,68 +1,8 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create!([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create!(name: 'Emanuel', city: cities.first)
+Content.upsert_attributes({:title => 'Welcome to Better!'},
+                          {:content_type => 'Content',
+                           :body => 'Thank you for installing Better!'})
 
-
-#some default content
-unless Content.find_by_title("Welcome to Better!")
-	installed = Content.create!(
-		content_type: 'Content',
-		title: "Welcome to Better!",
-		body:"Thank you for installing Better!")
-end
-
-unless Content.find_by_title("Which hand do you hold your phone in?")
-	welcome = Content.create!(
-		content_type: 'Question',
-		title: 'Which hand do you hold your phone in?',
-		body:'<div id="panel-1">
-	<div class = "content_subtitle">
-	Try answering questions in Better:
-	</div>
-	<div style="float:left; width:140px; text-align:center; padding-top:5px;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;move_thumb&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;right&quot;} }, {&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ] \'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot; ; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
-	<img style="display : block; margin : auto; padding-top:5px;" alt="Left" width="54" height="60" src="/assets/lefthand_sm.png"/></a>
-	</div>
-	<div style="margin-left:140px; text-align:center; padding-top:5px;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;move_thumb&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;left&quot;} }, {&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ] \'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot; ; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
-	<img style="display : block; margin : auto; padding-top:5px;" alt="Right" width="54" height="60" src="/assets/righthand_sm.png"/></a>
-	</div>
-	</div>
-	<div id="panel-2" style="display:none">
-	<script type="text/javascript">
-   		document.actionJSON = "\'[{&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ]\';  window.location.href = &quot;http://dontload/&quot;""
-	</script>
-	<div class="content_subtitle">
-	Thank you!
-	</div>
-	<div class = "content_text">
-	We\'ve now positioned the thumb controller to it\'s most comfortable (and healthy!) position.
-	</div>
-	</div>'
-	)
-end
-
-
-unless Content.find_by_title("Your Gender")
-	gender = Content.create!(
-		content_type: 'Question',
-		title: 'Your Gender',
-		body:'
-	<div class = "content_subtitle">What&#39;s your gender?</div>
-	<div style="float:left; width:110px;text-align:center;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;set_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;male&quot;} }, {&quot;type&quot; : &quot;save_item&quot; } ]\'; window.location.href = &quot;http://dontload/&quot; ; ">
-	<img alt="Male" width="110" src="/assets/male.png"/></a>
-	</div>
-	<div style="float:right; width:110px; text-align:center;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;set_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;female&quot;}},{&quot;type&quot; : &quot;save_item&quot; }] \'; window.location.href = &quot;http://dontload/&quot; ; ">
-	<img alt="Female" width="110" src="/assets/female.png"/></a>
-	</div>'
-		)
-end
+Question.upsert_attributes({:view => :gender}, {:title => 'Your Gender'})
 
 Content.upsert_attributes({:title => "Your Allergies",
                            :content_type => 'Question'},
