@@ -101,6 +101,7 @@ RHSMocker::Application.routes.draw do
     get :signup, :on => :collection
   end
   resources :nurseline_records, :only => :create
+  resources :questions, :only => :show
   resources :users, :only => [] do
     get 'reset_password/:token', :to => 'users#reset_password', :on => :collection, :as => 'reset_password'
     put 'reset_password', :to => 'users#reset_password_update', :on => :collection, :as => 'reset_password_update'
