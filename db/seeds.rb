@@ -3,23 +3,7 @@ Content.upsert_attributes({:title => 'Welcome to Better!'},
                            :body => 'Thank you for installing Better!'})
 
 Question.upsert_attributes({:view => :gender}, {:title => 'Your Gender'})
-
-Content.upsert_attributes({:title => "Your Allergies",
-                           :content_type => 'Question'},
-                          {
-                            :body => <<-EOF
-	<div class = "content_subtitle">Are you allergic to anything?</div>
-	<div style="float:left;width:110px;text-align:center;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_allergies&quot; } , {&quot;type&quot; : &quot;save_item&quot; } ]\'; window.location.href = &quot;http://dontload/&quot; ; ">
-	<img alt="Have Allergies" width="110" src="/assets/allergy_icon.png"/></a>
-	</div>
-	<div style="float:right;width:110px;text-align:center;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;add_allergy&quot; , &quot;body&quot; : {&quot;allergy_id&quot; : &quot;50&quot;} } , {&quot;type&quot; : &quot;save_item&quot; } ] \'; window.location.href = &quot;http://dontload/&quot; ;">
-	<img alt="No Allergies" width="110" src="/assets/allergy_none_icon.png"/></a>
-	</div>
-    EOF
-                          })
-
+Question.upsert_attributes({:view => :allergies}, {:title => 'Your Allergies'})
 Question.upsert_attributes({:view => :diet}, {:title => 'Which of these do you eat?'})
 
 # Create some default Members

@@ -270,16 +270,19 @@ table.content {
     font-size: 14px;
 }
 
-.gender-question {
+.question {
   height: 124px;
-  .gender {
+
+  img {
     width: 110px;
     padding: 0px 15px;
   }
-  .male {
+
+  .left {
     float: left;
   }
-  .female {
+
+  .right {
     float: right;
   }
 }

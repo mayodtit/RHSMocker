@@ -12,6 +12,19 @@ namespace :migrate do
     end
   end
 
+  task :update_allergies_question_resource do
+    content = Content.find_by_title!('Your Allergies')
+    question = Question.find_by_view!(:allergies)
+    Card.where(:resource_id => content.id,
+               :resource_type => 'Content').find_each do |c|
+      if c.update_attributes(:resource => question)
+        print '.'
+      else
+        print '!'
+      end
+    end
+  end
+
   task :update_diet_question_resource do
     diet_content = Content.find_by_title!('Which of these do you eat?')
     diet_question = Question.find_by_view!(:diet)
