@@ -15,3 +15,12 @@ $ ->
     d = new Date(0)
     d.setUTCSeconds $(@).data("time")
     $(@).text((d.getMonth() + 1) + "/" + d.getDate() + "/" + d.getFullYear())
+
+  # TODO - the following is an example of how to use the NativeBridge
+  $(".nb-submit").click (event) ->
+    event.preventDefault()
+    NativeBridge.call('dansCard', {value: $("#number").val()}, NativeBridgeCallback.callback)
+
+class NativeBridgeCallback
+  @callback: () ->
+    alert 'callback'
