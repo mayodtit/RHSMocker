@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131007183624) do
+ActiveRecord::Schema.define(:version => 20131008214902) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -545,6 +545,7 @@ ActiveRecord::Schema.define(:version => 20131007183624) do
     t.string   "units",                                                                       :default => "US",  :null => false
     t.string   "stripe_customer_id"
     t.string   "google_analytics_uuid",           :limit => 36
+    t.string   "avatar_url_override"
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"

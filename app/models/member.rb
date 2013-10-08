@@ -202,7 +202,8 @@ class Member < User
   def self.robot
     find_or_create_by_email(:email => 'robot@getbetter.com',
                             :first_name => 'Better',
-                            :last_name => 'Robot')
+                            :last_name => 'Robot',
+                            :avatar_url_override => "nurse_robot.jpg")
   end
 
   def agreement_params=(params)
