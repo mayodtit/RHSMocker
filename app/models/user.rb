@@ -71,6 +71,21 @@ class User < ActiveRecord::Base
     avatar.url
   end
 
+  def gender_url
+    case gender
+    when 'M'
+      'profilepic_M_L@2x.png'
+    when 'F'
+      'profilepic_F_L@2x.png'
+    else
+      'profilepic_U_L@2x.png'
+    end
+  end
+
+  def avatar_or_gender_url
+    avatar_url || gender_url
+  end
+
   private
 
   def create_google_analytics_uuid
