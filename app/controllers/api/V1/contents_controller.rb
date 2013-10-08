@@ -18,6 +18,21 @@ class Api::V1::ContentsController < Api::V1::ABaseController
     update_resource(@card, params[:card], :card)
   end
 
+  def like
+    current_user.like_content(params[:content_id])
+    render_success
+  end
+
+  def dislike
+    current_user.dislike_content(params[:content_id])
+    render_success
+  end
+
+  def remove_like
+    current_user.remove_content_like(params[:content_id])
+    render_success
+  end
+
   private
 
   def load_contents!

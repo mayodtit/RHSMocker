@@ -6,6 +6,9 @@ RHSMocker::Application.routes.draw do
       resources :association_types, :only => :index
       resources :contents, :only => [:index, :show] do
         post :status, :on => :member
+        post :like
+        post :dislike
+        post :remove_like
       end
       resources :diets, :only => :index
       resources :cards, :only => [:show, :update]
