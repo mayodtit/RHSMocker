@@ -21,6 +21,13 @@
   src: local('Roboto Regular'), local('Roboto-Regular'), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
 }
 
+@font-face {
+  font-family: 'Roboto Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/d-6IYplOFocCacKzxwXSOLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
 body {
 	margin:0px;
 	padding:0px;
@@ -39,6 +46,7 @@ div.content_source{
 // #########################################################
 
 div.content_card {
+    font-family:"Roboto Light";
     width:300px;
     height:288px;
 }
@@ -77,11 +85,6 @@ div.content_title_card {
     padding: 10px 10px 20px 10px;
     overflow: hidden;
     -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-}
-
-.content_date {
-  float: right;
-  margin: 3px 10px 0px 0px;
 }
 
 // #########################################################
@@ -270,18 +273,63 @@ table.content {
     font-size: 14px;
 }
 
+.consult-header {
+  background-color: #ececec;
+  border-bottom: 1px solid #CCCCCC;
+  img {
+    margin: 9px 7px 9px 15px;
+  }
+  .date {
+    display: inline-block;
+    width: 156px;
+    text-align: right;
+    font-size: 12px;
+    color: #999999;
+  }
+}
+
+.consult-source {
+  padding: 8px 15px;
+  border-bottom: 1px solid #CCCCCC;
+  strong {
+    font-family:"Roboto";
+  }
+}
+
+.consult-info {
+  .left {
+    float: left;
+    width: 86px;
+  }
+  .right {
+    float: right;
+    padding-top: 12px;
+    width: 214px;
+  }
+  img {
+    height: 62px;
+    width: 62px;
+    margin: 12px 10px 12px 15px;
+    -moz-border-radius: 31px;
+    border-radius: 31px;
+  }
+  span {
+    display: block;
+    strong {
+      font-family:"Roboto Bold";
+    }
+  }
+}
+
 .question {
   height: 124px;
-
   img {
     width: 110px;
     padding: 0px 15px;
   }
-
   .left {
     float: left;
   }
-
   .right {
     float: right;
   }

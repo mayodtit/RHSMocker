@@ -93,6 +93,7 @@ RHSMocker::Application.routes.draw do
     end
   end
 
+  resources :cards, :only => :show
   resources :contents, :only => [:index, :show] do
     get ":user_reading_id", :to => :show, :on => :member
   end
