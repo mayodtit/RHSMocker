@@ -11,6 +11,21 @@ $ ->
     document.actionJSON = JSON.stringify([{type:"open_consult", body: {consult_id: $(@).data("consult-id").toString()}}])
     window.location.href = "http://dontload"
 
+  $(".diet-question .tile").click ->
+    $('.' + $(@).data('type')).toggle()
+
+  $(".gender").click ->
+    document.actionJSON = JSON.stringify([{type:"set_gender", body: {gender: $(@).data("gender")}}, {type: "save_item"}])
+    window.location.href = "http://dontload"
+
+  $(".allergies").click ->
+    document.actionJSON = JSON.stringify([{type:"goto_allergies"}, {type: "save_item"}])
+    window.location.href = "http://dontload"
+
+  $(".no-allergies").click ->
+    document.actionJSON = JSON.stringify([{type:"add_allergy", body:{allergy_id: $(@).data('allergy-id').toString()}}, {type: "save_item"}])
+    window.location.href = "http://dontload"
+
   $(".date").each ->
     d = new Date(0)
     d.setUTCSeconds $(@).data("time")

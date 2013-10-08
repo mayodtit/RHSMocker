@@ -134,9 +134,8 @@ class Member < User
   end
 
   def add_new_member_content
-    Content.new_member_content.each do |c|
-      user_readings.create!(content: c) # TODO - remove when UserReadings retired
-      cards.create!(resource: c)
+    Question.new_member_questions.each do |q|
+      cards.create!(resource: q)
     end
     true
   end

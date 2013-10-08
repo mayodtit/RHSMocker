@@ -269,3 +269,60 @@ table.content {
     max-width: 300px;
     font-size: 14px;
 }
+
+.question {
+  height: 124px;
+
+  img {
+    width: 110px;
+    padding: 0px 15px;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+}
+
+.diet-question {
+  .top-left {
+    position: absolute;
+    left: 25px;
+    top: 65px;
+  }
+  .top-middle {
+    position: absolute;
+    left: 115px;
+    top: 65px;
+  }
+  .top-right {
+    position: absolute;
+    left: 205px;
+    top: 65px;
+  }
+  .bottom-left {
+    position: absolute;
+    left: 25px;
+    top: 125px;
+  }
+  .bottom-middle {
+    position: absolute;
+    left: 115px;
+    top: 125px;
+  }
+  .bottom-right {
+    position: absolute;
+    left: 205px;
+    top: 125px;
+  }
+  .tile {
+    display: block;
+    margin: auto;
+    padding: 5px 0px;
+    width: 70px;
+    height: 55px;
+  }
+}

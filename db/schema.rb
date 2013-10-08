@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131004203846) do
+ActiveRecord::Schema.define(:version => 20131007183624) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -331,6 +331,13 @@ ActiveRecord::Schema.define(:version => 20131004203846) do
   end
 
   add_index "plans", ["plan_group_id"], :name => "index_plans_on_plan_group_id"
+
+  create_table "questions", :force => true do |t|
+    t.string   "title"
+    t.string   "view"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "remote_events", :force => true do |t|
     t.datetime "created_at", :null => false
