@@ -24,10 +24,6 @@ class Content < ActiveRecord::Base
     where(:title => 'Welcome to Better!').first
   end
 
-  def self.new_member_content
-    where(:title => ['Your Allergies'])
-  end
-
   # TODO - replace in future with root_share_url, move append to UserReading
   def share_url user_reading_id=nil
     result = "/contents/#{mayo_doc_id}"

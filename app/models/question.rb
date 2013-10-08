@@ -4,7 +4,7 @@ class Question < ActiveRecord::Base
   validates :title, :view, presence: true, uniqueness: true
 
   def self.new_member_questions
-    where(:view => [:diet, :gender])
+    where(:view => [:diet, :gender, :allergies])
   end
 
   def content_type
