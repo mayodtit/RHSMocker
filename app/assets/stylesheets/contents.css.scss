@@ -296,13 +296,13 @@ table.content {
 
 .consult-info {
   .left {
-    display: inline-block;
+    float: left;
     width: 86px;
   }
   .right {
-    display: inline-block;
-    padding-top: 20px;
-    width: 86px;
+    float: right;
+    padding-top: 12px;
+    width: 214px;
   }
   img {
     height: 62px;
