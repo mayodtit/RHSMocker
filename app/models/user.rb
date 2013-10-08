@@ -20,7 +20,7 @@ class User < ActiveRecord::Base
 
   attr_accessible :first_name, :last_name, :avatar, :gender, :height, :birth_date, :email,
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
-                  :date_of_death, :expertise, :city, :state
+                  :date_of_death, :expertise, :city, :state, :avatar_url_override
 
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
@@ -68,7 +68,22 @@ class User < ActiveRecord::Base
   end
 
   def avatar_url
-    avatar.url
+    avatar_url_override || avatar.url
+  end
+
+  def gender_url
+    case gender
+    when 'M'
+      'profilepic_M_L@2x.png'
+    when 'F'
+      'profilepic_F_L@2x.png'
+    else
+      'profilepic_U_L@2x.png'
+    end
+  end
+
+  def avatar_or_gender_url
+    avatar_url || gender_url
   end
 
   #############################################################################
