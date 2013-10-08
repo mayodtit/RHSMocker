@@ -101,6 +101,7 @@ class User < ActiveRecord::Base
     ucl = UserContentLike.find_by_user_id_and_content_id(id, content_id)
     if ucl
       ucl.update_attributes(action: action) unless ucl.action == action
+      ucl
     else
       UserContentLike.create!(user_id: id, content_id: content_id, action: action)
     end
