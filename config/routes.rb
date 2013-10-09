@@ -6,6 +6,9 @@ RHSMocker::Application.routes.draw do
       resources :association_types, :only => :index
       resources :contents, :only => [:index, :show] do
         post :status, :on => :member
+        post :like
+        post :dislike
+        post :remove_like
       end
       resources :diets, :only => :index
       resources :cards, :only => [:show, :update]
@@ -93,7 +96,7 @@ RHSMocker::Application.routes.draw do
     end
   end
 
-  resources :cards, :only => :show
+  resources :cards, :only => :show # TODO: used for debugging - remove route and controller before app becomes public
   resources :contents, :only => [:index, :show] do
     get ":user_reading_id", :to => :show, :on => :member
   end

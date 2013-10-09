@@ -86,6 +86,48 @@ class User < ActiveRecord::Base
     avatar_url || gender_url
   end
 
+  #############################################################################
+  # Rather than using ActiveRecord associations, these like/dislike actions
+  # and fetchers are broken out into their own methods in case we decide to
+  # move to a different relationship store (such as a graph DB)
+  #############################################################################
+  def like_content(content_id)
+    like_dislike_content_common(content_id, 'like')
+  end
+
+  def dislike_content(content_id)
+    like_dislike_content_common(content_id, 'dislike')
+  end
+
+  def remove_content_like(content_id)
+    ucl = UserContentLike.find_by_user_id_and_content_id(id, content_id)
+    ucl.destroy if ucl
+  end
+
+  def content_likes
+    content_likes_dislikes_common('like')
+  end
+
+  def content_dislikes
+    content_likes_dislikes_common('dislike')
+  end
+
+  def like_dislike_content_common(content_id, action)
+    ucl = UserContentLike.find_by_user_id_and_content_id(id, content_id)
+    if ucl
+      ucl.update_attributes(action: action) unless ucl.action == action
+      ucl
+    else
+      UserContentLike.create!(user_id: id, content_id: content_id, action: action)
+    end
+  end
+
+  def content_likes_dislikes_common(action)
+    ucl = UserContentLike.where(user_id: id, action: action).pluck(:content_id)
+    Content.where(id: ucl)
+  end
+  #############################################################################
+
   private
 
   def create_google_analytics_uuid

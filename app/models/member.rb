@@ -203,7 +203,7 @@ class Member < User
     find_or_create_by_email(:email => 'robot@getbetter.com',
                             :first_name => 'Better',
                             :last_name => 'Robot',
-                            :avatar_url_override => "nurse_robot.jpg")
+                            :avatar_url_override => "http://i.imgur.com/c3vNPCO.jpg")
   end
 
   def agreement_params=(params)

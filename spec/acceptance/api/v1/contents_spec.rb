@@ -87,4 +87,46 @@ resource "Contents" do
       JSON.parse(response_body)['reason'].should_not be_empty
     end
   end
+
+  post '/api/v1/contents/:id/like' do
+    parameter :auth_token, "User's auth_token"
+    parameter :id,         'Content ID'
+    required_parameters :auth_token, :id
+
+    let(:auth_token) { user.auth_token }
+    let(:id)         { content.id }
+    let(:raw_post)   { params.to_json }
+
+    example_request '[POST] Like specific content' do
+      status.should == 200
+    end
+  end
+
+  post '/api/v1/contents/:id/dislike' do
+    parameter :auth_token, "User's auth_token"
+    parameter :id,         'Content ID'
+    required_parameters :auth_token, :id
+
+    let(:auth_token) { user.auth_token }
+    let(:id)         { content.id }
+    let(:raw_post)   { params.to_json }
+
+    example_request '[POST] Dislike specific content' do
+      status.should == 200
+    end
+  end
+
+  post '/api/v1/contents/:id/remove_like' do
+    parameter :auth_token, "User's auth_token"
+    parameter :id,         'Content ID'
+    required_parameters :auth_token, :id
+
+    let(:auth_token) { user.auth_token }
+    let(:id)         { content.id }
+    let(:raw_post)   { params.to_json }
+
+    example_request '[POST] Remove a specific content like or dislike' do
+      status.should == 200
+    end
+  end
 end

@@ -450,6 +450,14 @@ ActiveRecord::Schema.define(:version => 20131008214902) do
     t.datetime "diagnosed_date"
   end
 
+  create_table "user_content_likes", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "content_id"
+    t.string   "action"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "user_offerings", :force => true do |t|
     t.integer  "offering_id"
     t.integer  "user_id"
