@@ -51,6 +51,7 @@ resource "Messages" do
 
     parameter :message, 'Hash of message parameters'
     parameter :image, 'Base64 encoded image'
+    scope_parameters :message, [:image]
 
     let(:raw_post) { params.to_json }
 

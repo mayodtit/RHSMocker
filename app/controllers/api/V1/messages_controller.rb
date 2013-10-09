@@ -20,8 +20,8 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   def create
     p = create_params
 
-    if params[:image].present?
-      p.merge!(image: decode_b64_image(params[:image]))
+    if params[:message][:image].present?
+      p.merge!(image: decode_b64_image(params[:message][:image]))
     end
 
     create_resource(@consult.messages, p)
