@@ -5,7 +5,6 @@ describe Message do
 
   it_validates 'presence of', :user
   it_validates 'presence of', :consult
-  it_validates 'presence of', :text
 
   describe 'callbacks' do
     let(:message) { build(:message) }
