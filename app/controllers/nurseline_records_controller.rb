@@ -1,5 +1,7 @@
 class NurselineRecordsController < ApplicationController
   before_filter :authenticate_api_user!
+  before_filter :log_request
+  before_filter :rewind_body
 
   def create
     @record = NurselineRecord.create(params_from_request)
@@ -24,5 +26,14 @@ class NurselineRecordsController < ApplicationController
       :api_user => @api_user,
       :payload => request.body.read
     }
+  end
+
+  def log_request
+    logger.info('NURSELINE RECORD REQUEST')
+    logger.info(request.env)
+  end
+
+  def rewind_body
+    request.body.rewind
   end
 end
