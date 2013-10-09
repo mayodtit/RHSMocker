@@ -12,7 +12,7 @@
     .right
       %span
         %strong= consult.title.html_safe
-      %span= consult.description.html_safe
+      %span= consult.description.try(:html_safe)
 
 %script{:type=>"text/javascript"}
   document.actionJSON = JSON.stringify([{type: "set_available_user_actions", body: {actions: ["save"]}}]);
