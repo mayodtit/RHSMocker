@@ -227,6 +227,11 @@ div.section_head_hide {
 
 div.section {
    display: none; //default state
+   li {
+     .subtitle {
+       font-style: italic;
+     }
+   }
 }
 
 img.mayoContentImage {
