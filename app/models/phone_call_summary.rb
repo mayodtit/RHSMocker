@@ -9,4 +9,6 @@ class PhoneCallSummary < ActiveRecord::Base
   validates :caller, :callee, :message, :body, presence: true
 
   accepts_nested_attributes_for :message
+
+  delegate :consult, :to => :message
 end

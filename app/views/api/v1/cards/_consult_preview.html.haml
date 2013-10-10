@@ -1,16 +1,32 @@
 .content_card.consult-link{:data => {:consult_id => consult.id}}
   - if message
-    .content_source
-      = image_tag "message_icn@2x.png", :class => "top_icon"
-      %span{:style => "display: inline-block; margin-top: 3px;"} Message
-      %span.content_date.date{:data => {:time => message.created_at.to_i}}
-    .content_header_card
-      .content_title_card= message.title.html_safe
-      .content_text_card_fade= message.preview.html_safe
-  - else
-    .content_source
-      = image_tag "message_icn@2x.png", :class => "top_icon"
-      %span{:style => "display: inline-block; margin-top: 3px;"} Consult
-    .content_header_card
-      .content_title_card= consult.title.html_safe
-      .content_text_card_fade Tell us more to start your consult.
+    .consult-header
+      = image_tag "message_bubbles.png", :class => "top_icon"
+      %span New Message
+      %span.date{:data => {:time => message.created_at.to_i}}
+    .consult-source
+      %strong= message.user.full_name
+      has sent you a new message about:
+    .consult-info
+      .left
+        = image_tag consult.subject.avatar_or_gender_url
+      .right
+        %span
+          %strong= consult.title.html_safe
+        %span= consult.description.try(:html_safe)
+  -else
+    .consult-header
+      = image_tag "message_bubbles.png", :class => "top_icon"
+      %span New Consult
+      %span.date{:data => {:time => consult.created_at.to_i}}
+    .consult-source Tell us more information to begin your consult
+    .consult-info
+      .left
+        = image_tag consult.subject.avatar_or_gender_url
+      .right
+        %span
+          %strong= consult.title.html_safe
+        %span= consult.description.try(:html_safe)
+
+%script{:type=>"text/javascript"}
+  document.actionJSON = JSON.stringify([{type: "set_available_user_actions", body: {actions: ["save"]}}]);

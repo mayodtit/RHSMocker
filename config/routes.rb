@@ -6,6 +6,9 @@ RHSMocker::Application.routes.draw do
       resources :association_types, :only => :index
       resources :contents, :only => [:index, :show] do
         post :status, :on => :member
+        post :like
+        post :dislike
+        post :remove_like
       end
       resources :diets, :only => :index
       resources :cards, :only => [:show, :update]
@@ -28,6 +31,7 @@ RHSMocker::Application.routes.draw do
         post :dismiss, :on => :collection
       end
       post :password_resets, :controller => :users, :action => :reset_password # TODO - deprecated!
+      resources :phone_call_summaries, :only => :show
       resources :ping, :only => :index
       resources :plans, :only => [:index, :show]
       resources :remote_events, :only => :create
@@ -93,6 +97,7 @@ RHSMocker::Application.routes.draw do
     end
   end
 
+  resources :cards, :only => :show # TODO: used for debugging - remove route and controller before app becomes public
   resources :contents, :only => [:index, :show] do
     get ":user_reading_id", :to => :show, :on => :member
   end
@@ -101,6 +106,7 @@ RHSMocker::Application.routes.draw do
     get :signup, :on => :collection
   end
   resources :nurseline_records, :only => :create
+  resources :questions, :only => :show
   resources :users, :only => [] do
     get 'reset_password/:token', :to => 'users#reset_password', :on => :collection, :as => 'reset_password'
     put 'reset_password', :to => 'users#reset_password_update', :on => :collection, :as => 'reset_password_update'

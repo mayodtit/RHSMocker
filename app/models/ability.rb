@@ -19,6 +19,10 @@ class Ability
     # hack until User/Member model is refactored
     can :manage, User
 
+    can :manage, PhoneCallSummary do |pcs|
+      pcs.message.consult.users.include?(user)
+    end
+
     if user.try_method(:hcp?)
       can :manage, :all
     end

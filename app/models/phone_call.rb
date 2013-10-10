@@ -6,7 +6,7 @@ class PhoneCall < ActiveRecord::Base
   attr_accessible :user, :user_id, :message, :message_attributes, :origin_phone_number,
                   :destination_phone_number
 
-  validates :user, :message, :origin_phone_number, :destination_phone_number, presence: true
+  validates :user, :message, :destination_phone_number, presence: true
 
   # TODO - remove this fake job when nurseline is built
   after_create :schedule_phone_call_summary

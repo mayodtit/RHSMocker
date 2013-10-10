@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131004203846) do
+ActiveRecord::Schema.define(:version => 20131008214902) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -332,6 +332,13 @@ ActiveRecord::Schema.define(:version => 20131004203846) do
 
   add_index "plans", ["plan_group_id"], :name => "index_plans_on_plan_group_id"
 
+  create_table "questions", :force => true do |t|
+    t.string   "title"
+    t.string   "view"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "remote_events", :force => true do |t|
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
@@ -443,6 +450,14 @@ ActiveRecord::Schema.define(:version => 20131004203846) do
     t.datetime "diagnosed_date"
   end
 
+  create_table "user_content_likes", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "content_id"
+    t.string   "action"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "user_offerings", :force => true do |t|
     t.integer  "offering_id"
     t.integer  "user_id"
@@ -538,6 +553,7 @@ ActiveRecord::Schema.define(:version => 20131004203846) do
     t.string   "units",                                                                       :default => "US",  :null => false
     t.string   "stripe_customer_id"
     t.string   "google_analytics_uuid",           :limit => 36
+    t.string   "avatar_url_override"
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"

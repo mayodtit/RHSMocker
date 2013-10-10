@@ -18,7 +18,7 @@ class Message < ActiveRecord::Base
                   :scheduled_phone_call_attributes, :phone_call_attributes,
                   :created_at, :image, :phone_call_summary, :phone_call_summary_id
 
-  validates :user, :consult, :text, presence: true
+  validates :user, :consult, presence: true
   validates :content, presence: true, if: lambda{|m| m.content_id.present?}
 
   before_create :add_user_to_consult
