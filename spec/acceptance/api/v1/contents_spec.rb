@@ -98,6 +98,7 @@ resource "Contents" do
     let(:raw_post)   { params.to_json }
 
     example_request '[POST] Like specific content' do
+      explanation "Like specific content for the current_user"
       status.should == 200
     end
   end
@@ -112,6 +113,7 @@ resource "Contents" do
     let(:raw_post)   { params.to_json }
 
     example_request '[POST] Dislike specific content' do
+      explanation "Dislike specific content for the current_user"
       status.should == 200
     end
   end
@@ -126,6 +128,7 @@ resource "Contents" do
     let(:raw_post)   { params.to_json }
 
     example_request '[POST] Remove a specific content like or dislike' do
+      explanation "Remove specific content like or dislike for the current_user"
       status.should == 200
     end
   end
