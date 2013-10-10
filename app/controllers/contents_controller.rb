@@ -12,6 +12,7 @@ class ContentsController < ApplicationController
     respond_to do |format|
       format.html
       format.json { render json: @contents }
+      format.csv { send_data Content.to_csv }
     end
   end
 
