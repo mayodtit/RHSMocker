@@ -184,18 +184,21 @@ div.section_head_show {
     background-repeat: no-repeat;
     background-color: #ececec;
     border-top: 1px solid #CCCCCC;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 15px 0px;
     font-size: 18px;
     color: #4c4c4c;
     text-decoration: none;
-    min-height: 34px;
     width:320px;
     margin-left: -10px;
     margin-right: -10px;
     position: relative;
     a {
       margin-left: 5px;
+      padding-left:40px;
+      padding-right:10px;
+      color: #4c4c4c;
+      text-decoration: none;
+      display: inline-block;
     }
 }
 
@@ -204,38 +207,22 @@ div.section_head_hide {
     background-size: 32px auto;
     background-repeat: no-repeat;
     background-position: 5px center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 15px 0px;
     font-size: 18px;
     border-top: 1px solid #CCCCCC;
     color: #4c4c4c;
     text-decoration: none;
-    min-height: 34px;
     width:320px;
     margin-left: -10px;
     margin-right: -10px;
     a {
       margin-left: 5px;
+      padding-left:40px;
+      padding-right:10px;
+      color: #4c4c4c;
+      text-decoration: none;
+      display: inline-block;
     }
-}
-
-div.section_head_show a {
-    padding-left:40px;
-    padding-right:10px;
-    color: #4c4c4c;
-    text-decoration: none;
-    display: inline-block;
-    float: none;
-    min-height: 34px;
-}
-
-div.section_head_hide a {
-    padding-left:40px;
-    padding-right:10px;
-    color: #4c4c4c;
-    text-decoration: none;
-    display: inline-block;
-    min-height: 34px;
 }
 
 div.section {
