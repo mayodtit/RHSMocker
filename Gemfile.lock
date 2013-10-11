@@ -186,7 +186,6 @@ GEM
     multi_xml (0.5.4)
     multipart-post (1.2.0)
     mustache (0.99.4)
-    mysql2 (0.3.13)
     net-scp (1.1.2)
       net-ssh (>= 2.6.5)
     net-sftp (2.1.2)
@@ -377,7 +376,6 @@ DEPENDENCIES
   less-rails
   lorem-ipsum-me
   minitar
-  mysql2
   newrelic_rpm
   nokogiri
   parallel_tests
