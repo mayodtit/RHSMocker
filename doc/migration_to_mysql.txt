@@ -1,0 +1,60 @@
+This document explains migration to mySQL from Postgres (on local machine)
+
+Prerequisites:
+	mysql server installed and running; root password
+	solr server installed (if you don't have it and use brew: brew install solr)
+
+Assumptions: RAILS_ENV=benchmark
+
+Steps:
+
+1. Modify config/database.yml and add entry for RAILS_ENV=benchmark
+
+benchmark:
+  adapter: mysql2
+  encoding: utf8
+  database: rhs_development
+  username: rhs_development
+  password: password
+  host: localhost
+
+
+2. Modify config/sunspot.yml and add entry for RAILS_ENV=benchmark by copying entry for development
+
+benchmark:
+  solr:
+    hostname: localhost
+    port: 8982
+    log_level: INFO
+
+3. Login to mySQL as root, create database rhs_development, grant application user's access
+
+mysql -u root -p
+mysql> create database rhs_development;
+mysql> GRANT ALL ON rhs_development.* TO 'rhs_development'@'localhost' IDENTIFIED BY 'password';
+mysql> quit
+
+4. Load DB schema, check migrations
+
+RAILS_ENV=benchmark rake db:schema:load
+RAILS_ENV=benchmark rake db:migrate:status
+
+5. Start SOLR, if it is not running
+
+RAILS_ENV=benchmark rake sunspot:solr:start
+
+6. Seed the database
+
+RAILS_ENV=benchmark rake admin:import_content
+RAILS_ENV=benchmark rake db:seed
+
+7. All set? Check basics:
+
+RAILS_ENV=benchmark rails c (console)
+RAILS_ENV=benchmark rails s (Webrick)
+
+---
+Last change: 10/11/2013
+Misha
+
+
