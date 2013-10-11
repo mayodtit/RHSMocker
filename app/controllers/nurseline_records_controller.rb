@@ -6,7 +6,7 @@ class NurselineRecordsController < ApplicationController
   def create
     @record = NurselineRecord.create(params_from_request)
     if @record.errors.empty?
-      head :created
+      render text: @record.payload, status: :created
     else
       render json: @record.errors, status: :unprocessable_entity
     end
