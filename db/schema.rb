@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131008214902) do
+ActiveRecord::Schema.define(:version => 20131011232556) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -59,15 +59,6 @@ ActiveRecord::Schema.define(:version => 20131008214902) do
   end
 
   add_index "associations", ["user_id"], :name => "index_associations_on_user_id"
-
-  create_table "attachments", :force => true do |t|
-    t.string   "url"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-    t.integer  "message_id"
-  end
-
-  add_index "attachments", ["message_id"], :name => "index_attachments_on_message_id"
 
   create_table "blood_pressures", :force => true do |t|
     t.integer  "systolic"
