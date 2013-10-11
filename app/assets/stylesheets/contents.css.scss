@@ -172,9 +172,7 @@ img.top_icon {
 
 img.mayo_icon {
     width:90px;
-    padding-top:2px;
-    padding-bottom:5px;
-    padding-left: 10px;
+    padding: 4px 0px 4px 10px;
 }
 
 div.section_head_show {
@@ -227,6 +225,11 @@ div.section_head_hide {
 
 div.section {
    display: none; //default state
+   li {
+     .subtitle {
+       font-style: italic;
+     }
+   }
 }
 
 img.mayoContentImage {
@@ -258,12 +261,12 @@ div.mctable {
     width: 300px;
     max-width: 300px;
     padding-bottom: 10px;
-    font-size: 14px;
+    font-size: 9px;
 }
 
 table.content {
     max-width: 300px;
-    font-size: 14px;
+    font-size: 9px;
 }
 
 .consult-header {
@@ -298,6 +301,8 @@ table.content {
     float: right;
     padding-top: 12px;
     width: 214px;
+    min-height: 80px;
+    -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
   }
   img {
     height: 62px;
