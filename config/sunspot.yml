@@ -14,3 +14,9 @@ test:
     hostname: localhost
     port: 8981
     log_level: WARNING
+
+benchmark:
+  solr:
+    hostname: localhost
+    port: 8982
+    log_level: INFO
