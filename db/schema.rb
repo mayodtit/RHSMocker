@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131011232556) do
+ActiveRecord::Schema.define(:version => 20131014165501) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -472,17 +472,14 @@ ActiveRecord::Schema.define(:version => 20131011232556) do
   add_index "user_plans", ["user_id"], :name => "index_user_plans_on_user_id"
 
   create_table "user_readings", :force => true do |t|
-    t.datetime "read_date"
     t.integer  "user_id"
     t.integer  "content_id"
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
-    t.datetime "save_date"
-    t.integer  "save_count",    :default => 0
-    t.datetime "dismiss_date"
-    t.datetime "view_date"
-    t.integer  "share_counter"
-    t.integer  "priority",      :default => 0, :null => false
+    t.integer  "view_count",    :default => 0, :null => false
+    t.integer  "save_count",    :default => 0, :null => false
+    t.integer  "dismiss_count", :default => 0, :null => false
+    t.integer  "share_count",   :default => 0, :null => false
   end
 
   create_table "user_treatment_side_effects", :force => true do |t|

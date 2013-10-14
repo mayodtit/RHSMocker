@@ -4,7 +4,7 @@ class Member < User
   has_many :user_agreements, :foreign_key => :user_id
   has_many :agreements, :through => :user_agreements
   has_many :cards, :foreign_key => :user_id
-  has_many :user_readings, :order => 'read_date DESC', :foreign_key => :user_id
+  has_many :user_readings, :foreign_key => :user_id
   has_many :contents, :through => :user_readings
   has_many :messages, :foreign_key => :user_id
   has_many :consult_users, :foreign_key => :user_id
@@ -92,23 +92,10 @@ class Member < User
     self.hcp? || self.feature_bucket == 'call_only' || self.feature_bucket == 'message_call'
   end
 
-  def merge user
-    user.user_readings.each do |ur|
-      logged_in_user_reading = UserReading.find_by_user_id_and_content_id id, ur.content_id
-      if logged_in_user_reading
-        logged_in_user_reading.merge(ur)
-        UserReading.destroy(ur.id)
-      else
-        ur.update_attribute :user_id, id
-      end
-    end
-    User.destroy(user.id)
-  end
-
   #Keywords (aka search history)
   def keywords
     keywords = {}
-    user_readings.map{|ur| ur.read_date ? ur.content.mayo_vocabularies : [] }.each do |mvs|
+    user_readings.map{|ur| (ur.view_count > 0) ? ur.content.mayo_vocabularies : [] }.each do |mvs|
       mvs.each do |mv|
         if keywords.has_key? mv
           keywords[mv]+=1
@@ -122,10 +109,6 @@ class Member < User
 
   def add_install_message
     if Content.install_message
-      user_readings.create!(content: Content.install_message, # TODO - remove when UserReadings retired
-                            read_date: Time.zone.now.iso8601,
-                            save_date: Time.zone.now.iso8601,
-                            save_count: 1)
       cards.create!(resource: Content.install_message,
                     state: :saved,
                     state_changed_at: Time.zone.now.iso8601)
