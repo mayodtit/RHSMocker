@@ -4,7 +4,7 @@ class Member < User
   has_many :user_agreements, :foreign_key => :user_id
   has_many :agreements, :through => :user_agreements
   has_many :cards, :foreign_key => :user_id
-  has_many :user_readings, :order => 'read_date DESC', :foreign_key => :user_id
+  has_many :user_readings, :foreign_key => :user_id
   has_many :contents, :through => :user_readings
   has_many :messages, :foreign_key => :user_id
   has_many :consult_users, :foreign_key => :user_id
@@ -108,7 +108,7 @@ class Member < User
   #Keywords (aka search history)
   def keywords
     keywords = {}
-    user_readings.map{|ur| ur.read_date ? ur.content.mayo_vocabularies : [] }.each do |mvs|
+    user_readings.map{|ur| (ur.view_count > 0) ? ur.content.mayo_vocabularies : [] }.each do |mvs|
       mvs.each do |mv|
         if keywords.has_key? mv
           keywords[mv]+=1
