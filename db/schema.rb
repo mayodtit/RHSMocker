@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131014190156) do
+ActiveRecord::Schema.define(:version => 20131014205650) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -162,6 +162,14 @@ ActiveRecord::Schema.define(:version => 20131014190156) do
 
   add_index "contents_symptoms_factors", ["content_id"], :name => "index_contents_symptom_factors_on_content_id"
   add_index "contents_symptoms_factors", ["symptoms_factor_id"], :name => "index_contents_symptom_factors_on_symptom_factor_id"
+
+  create_table "credits", :force => true do |t|
+    t.integer  "offering_id"
+    t.integer  "user_id"
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+    t.boolean  "unlimited",   :default => false, :null => false
+  end
 
   create_table "delayed_jobs", :force => true do |t|
     t.integer  "priority",   :default => 0
@@ -455,17 +463,6 @@ ActiveRecord::Schema.define(:version => 20131014190156) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
-
-  create_table "user_offerings", :force => true do |t|
-    t.integer  "offering_id"
-    t.integer  "user_id"
-    t.datetime "created_at",                     :null => false
-    t.datetime "updated_at",                     :null => false
-    t.boolean  "unlimited",   :default => false, :null => false
-  end
-
-  add_index "user_offerings", ["offering_id"], :name => "index_user_offerings_on_offering_id"
-  add_index "user_offerings", ["user_id"], :name => "index_user_offerings_on_user_id"
 
   create_table "user_plans", :force => true do |t|
     t.integer  "plan_id"

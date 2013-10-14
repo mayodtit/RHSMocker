@@ -19,6 +19,6 @@ class Api::V1::CreditsController < Api::V1::ABaseController
   private
 
   def credits_scope
-    @user.user_offerings || UserOffering
+    @user.credits || Credit
   end
 end
