@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131014165501) do
+ActiveRecord::Schema.define(:version => 20131014190156) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -264,6 +264,13 @@ ActiveRecord::Schema.define(:version => 20131014165501) do
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
+
+  create_table "metadata", :force => true do |t|
+    t.string   "key",        :null => false
+    t.string   "value",      :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "nurseline_records", :force => true do |t|
     t.text     "payload"
