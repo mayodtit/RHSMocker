@@ -3,4 +3,8 @@ class Metadata < ActiveRecord::Base
 
   validates :key, :value, presence: true
   validates :key, uniqueness: true
+
+  def self.to_hash
+    all.inject({}){|hash, metadata| hash[metadata.key] = metadata.value; hash}
+  end
 end
