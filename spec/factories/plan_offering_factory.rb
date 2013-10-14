@@ -1,6 +1,8 @@
 FactoryGirl.define do
   factory :plan_offering do
-    association :plan
-    association :offering
+    plan
+    offering
+    amount 1
+    unlimited false
   end
 end
