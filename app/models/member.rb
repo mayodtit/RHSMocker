@@ -92,19 +92,6 @@ class Member < User
     self.hcp? || self.feature_bucket == 'call_only' || self.feature_bucket == 'message_call'
   end
 
-  def merge user
-    user.user_readings.each do |ur|
-      logged_in_user_reading = UserReading.find_by_user_id_and_content_id id, ur.content_id
-      if logged_in_user_reading
-        logged_in_user_reading.merge(ur)
-        UserReading.destroy(ur.id)
-      else
-        ur.update_attribute :user_id, id
-      end
-    end
-    User.destroy(user.id)
-  end
-
   #Keywords (aka search history)
   def keywords
     keywords = {}
@@ -122,10 +109,6 @@ class Member < User
 
   def add_install_message
     if Content.install_message
-      user_readings.create!(content: Content.install_message, # TODO - remove when UserReadings retired
-                            read_date: Time.zone.now.iso8601,
-                            save_date: Time.zone.now.iso8601,
-                            save_count: 1)
       cards.create!(resource: Content.install_message,
                     state: :saved,
                     state_changed_at: Time.zone.now.iso8601)
