@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131014225343) do
+ActiveRecord::Schema.define(:version => 20131014230704) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -370,6 +370,13 @@ ActiveRecord::Schema.define(:version => 20131014225343) do
     t.datetime "updated_at",  :null => false
   end
 
+  create_table "subscriptions", :force => true do |t|
+    t.integer  "plan_id"
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "symptoms", :force => true do |t|
     t.string   "name"
     t.datetime "created_at",   :null => false
@@ -454,17 +461,6 @@ ActiveRecord::Schema.define(:version => 20131014225343) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
-
-  create_table "user_plans", :force => true do |t|
-    t.integer  "plan_id"
-    t.integer  "user_id"
-    t.datetime "created_at",        :null => false
-    t.datetime "updated_at",        :null => false
-    t.date     "cancellation_date"
-  end
-
-  add_index "user_plans", ["plan_id"], :name => "index_user_plans_on_plan_id"
-  add_index "user_plans", ["user_id"], :name => "index_user_plans_on_user_id"
 
   create_table "user_readings", :force => true do |t|
     t.integer  "user_id"
