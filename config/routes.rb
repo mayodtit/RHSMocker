@@ -30,6 +30,7 @@ RHSMocker::Application.routes.draw do
         post :save, :on => :collection
         post :dismiss, :on => :collection
       end
+      resources :offerings, :only => :index
       post :password_resets, :controller => :users, :action => :reset_password # TODO - deprecated!
       resources :phone_call_summaries, :only => :show
       resources :ping, :only => :index
