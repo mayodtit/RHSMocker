@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131008214902) do
+ActiveRecord::Schema.define(:version => 20131014230704) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -59,15 +59,6 @@ ActiveRecord::Schema.define(:version => 20131008214902) do
   end
 
   add_index "associations", ["user_id"], :name => "index_associations_on_user_id"
-
-  create_table "attachments", :force => true do |t|
-    t.string   "url"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-    t.integer  "message_id"
-  end
-
-  add_index "attachments", ["message_id"], :name => "index_attachments_on_message_id"
 
   create_table "blood_pressures", :force => true do |t|
     t.integer  "systolic"
@@ -172,6 +163,14 @@ ActiveRecord::Schema.define(:version => 20131008214902) do
   add_index "contents_symptoms_factors", ["content_id"], :name => "index_contents_symptom_factors_on_content_id"
   add_index "contents_symptoms_factors", ["symptoms_factor_id"], :name => "index_contents_symptom_factors_on_symptom_factor_id"
 
+  create_table "credits", :force => true do |t|
+    t.integer  "offering_id"
+    t.integer  "user_id"
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+    t.boolean  "unlimited",   :default => false, :null => false
+  end
+
   create_table "delayed_jobs", :force => true do |t|
     t.integer  "priority",   :default => 0
     t.integer  "attempts",   :default => 0
@@ -274,6 +273,13 @@ ActiveRecord::Schema.define(:version => 20131008214902) do
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
 
+  create_table "metadata", :force => true do |t|
+    t.string   "key",        :null => false
+    t.string   "value",      :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "nurseline_records", :force => true do |t|
     t.text     "payload"
     t.datetime "created_at",  :null => false
@@ -304,12 +310,6 @@ ActiveRecord::Schema.define(:version => 20131008214902) do
     t.string   "destination_phone_number"
   end
 
-  create_table "plan_groups", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
   create_table "plan_offerings", :force => true do |t|
     t.integer  "plan_id"
     t.integer  "offering_id"
@@ -324,13 +324,10 @@ ActiveRecord::Schema.define(:version => 20131008214902) do
 
   create_table "plans", :force => true do |t|
     t.string   "name"
-    t.integer  "plan_group_id"
     t.boolean  "monthly"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
-
-  add_index "plans", ["plan_group_id"], :name => "index_plans_on_plan_group_id"
 
   create_table "questions", :force => true do |t|
     t.string   "title"
@@ -371,6 +368,13 @@ ActiveRecord::Schema.define(:version => 20131008214902) do
     t.string   "description"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+  end
+
+  create_table "subscriptions", :force => true do |t|
+    t.integer  "plan_id"
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "symptoms", :force => true do |t|
@@ -458,40 +462,15 @@ ActiveRecord::Schema.define(:version => 20131008214902) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "user_offerings", :force => true do |t|
-    t.integer  "offering_id"
-    t.integer  "user_id"
-    t.datetime "created_at",                     :null => false
-    t.datetime "updated_at",                     :null => false
-    t.boolean  "unlimited",   :default => false, :null => false
-  end
-
-  add_index "user_offerings", ["offering_id"], :name => "index_user_offerings_on_offering_id"
-  add_index "user_offerings", ["user_id"], :name => "index_user_offerings_on_user_id"
-
-  create_table "user_plans", :force => true do |t|
-    t.integer  "plan_id"
-    t.integer  "user_id"
-    t.datetime "created_at",        :null => false
-    t.datetime "updated_at",        :null => false
-    t.date     "cancellation_date"
-  end
-
-  add_index "user_plans", ["plan_id"], :name => "index_user_plans_on_plan_id"
-  add_index "user_plans", ["user_id"], :name => "index_user_plans_on_user_id"
-
   create_table "user_readings", :force => true do |t|
-    t.datetime "read_date"
     t.integer  "user_id"
     t.integer  "content_id"
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
-    t.datetime "save_date"
-    t.integer  "save_count",    :default => 0
-    t.datetime "dismiss_date"
-    t.datetime "view_date"
-    t.integer  "share_counter"
-    t.integer  "priority",      :default => 0, :null => false
+    t.integer  "view_count",    :default => 0, :null => false
+    t.integer  "save_count",    :default => 0, :null => false
+    t.integer  "dismiss_count", :default => 0, :null => false
+    t.integer  "share_count",   :default => 0, :null => false
   end
 
   create_table "user_treatment_side_effects", :force => true do |t|

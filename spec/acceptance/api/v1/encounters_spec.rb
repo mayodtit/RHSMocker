@@ -47,8 +47,7 @@ resource "Encounters" do
     let(:encounter) { attributes_for(:encounter, :users => nil).keep_if{|k,v| v.present?} }
     let(:message) { attributes_for(:message, :content_id => content.id,
                                              :new_location => attributes_for(:location),
-                                             :new_keyword_ids => [mayo_vocabulary.id],
-                                             :new_attachments => [attributes_for(:attachment)]) }
+                                             :new_keyword_ids => [mayo_vocabulary.id]) }
 
     parameter :encounter, 'Hash of encounter parameters'
     parameter :message, 'Hash of message parameters'

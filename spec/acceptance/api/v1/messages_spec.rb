@@ -45,8 +45,7 @@ resource "Messages" do
     let!(:mayo_vocabulary) { create(:mayo_vocabulary) }
     let(:message) { attributes_for(:message, :content_id => content.id,
                                              :new_location => attributes_for(:location),
-                                             :new_keyword_ids => [mayo_vocabulary.id],
-                                             :new_attachments => [attributes_for(:attachment)]) }
+                                             :new_keyword_ids => [mayo_vocabulary.id]) }
     let(:image) { base64_test_image }
 
     parameter :message, 'Hash of message parameters'

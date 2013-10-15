@@ -1,47 +1,31 @@
 class Api::V1::SubscriptionsController < Api::V1::ABaseController
-  skip_before_filter :authentication_check
   before_filter :load_user!
+  before_filter :load_subscription!, :only => [:show, :update, :destroy]
 
   def index
-    @subscriptions = subscription_scope.all
-    render_success({subscriptions: @subscriptions})
+    index_resource(@user.subscriptions.active_model_serializer_instance)
   end
 
   def show
-    @subscription = subscription_scope.find(params[:id])
-    render_success({subscription: @subscription})
+    show_resource(@subscription.active_model_serializer_instance)
   end
 
   def create
-    @subscription = subscription_scope.create(params[:subscription])
-    if @subscription.errors.empty?
-      render_success({subscription: @subscription})
-    else
-      render_failure({reason: @subscription.errors.full_messages.to_sentence}, 422)
-    end
+    create_resource(@user.subscriptions, params[:subscription])
   end
 
   def update
-    @subscription = subscription_scope.find(params[:id])
-    if @subscription.update_attributes(params[:subscription])
-      render_success({subscription: @subscription})
-    else
-      render_failure({reason: @subscription.errors.full_messages.to_sentence}, 422)
-    end
+    update_resource(@subscription, params[:subscription])
   end
 
   def destroy
-    @subscription = subscription_scope.find(params[:id])
-    if @subscription.destroy
-      render_success
-    else
-      render_failure({reason: @subscription.errors.full_messages.to_sentence}, 422)
-    end
+    destroy_resource(@subscription)
   end
 
   private
 
-  def subscription_scope
-    @user.try(:user_plans) || UserPlan
+  def load_subscription!
+    @subscription = @user.subscriptions.find(params[:id])
+    authorize! :manage, @subscription
   end
 end

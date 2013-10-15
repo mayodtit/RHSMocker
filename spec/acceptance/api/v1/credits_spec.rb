@@ -6,7 +6,7 @@ resource 'Credits' do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:member) }
-  let!(:credit) { create(:user_offering, :user => user) }
+  let!(:credit) { create(:credit, :user => user) }
 
   parameter :auth_token, 'User auth_token'
   required_parameters :auth_token
@@ -14,10 +14,6 @@ resource 'Credits' do
   let(:user_id) { user.id }
   let(:id) { credit.id }
   let(:auth_token) { user.auth_token }
-
-  before(:each) do
-    user.login
-  end
 
   get '/api/v1/users/:user_id/credits' do
     example_request '[GET] Retreive all user credits' do
@@ -37,8 +33,8 @@ resource 'Credits' do
     end
   end
 
-  get '/api/v1/users/:user_id/credits/summary' do
-    example_request "[GET] Retreive summary details for a user's credits" do
+  get '/api/v1/users/:user_id/credits/available' do
+    example_request "[GET] Retreive summary details for a user's credits by offering" do
       explanation 'Returns a hash of offerings and counts'
       status.should == 200
       parsed_json = JSON.parse(response_body)

@@ -1,6 +1,6 @@
 FactoryGirl.define do
-  factory :user_reading do
+  factory :credit do
     association :user, factory: :member
-    content
+    offering
   end
 end

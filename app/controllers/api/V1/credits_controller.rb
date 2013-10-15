@@ -1,24 +1,26 @@
 class Api::V1::CreditsController < Api::V1::ABaseController
   before_filter :load_user!
+  before_filter :load_credit!, :only => :show
 
   def index
-    @credits = credits_scope.all
-    render_success({:credits => @credits})
+    index_resource(@user.credits)
   end
 
   def show
-    @credit = credits_scope.find(params[:id])
-    render_success({:credit => @credit})
+    show_resource(@credit)
   end
 
-  def summary
-    @offerings = Offering.with_credits(credits_scope.with_offering_counts)
-    render_success({:offerings => @offerings})
+  def create
+    create_resource(@user.credits, params[:credit])
+  end
+
+  def available
+    render_success(:offerings => Offering.hash_with_credits(@user.credits.totals_for_offerings))
   end
 
   private
 
-  def credits_scope
-    @user.user_offerings || UserOffering
+  def load_credit!
+    @credit = @user.credits.find(params[:id])
   end
 end

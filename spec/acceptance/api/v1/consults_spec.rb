@@ -51,8 +51,7 @@ resource "Consults" do
     context 'with a message' do
       let(:message) { attributes_for(:message, :content_id => content.id,
                                                :new_location => attributes_for(:location),
-                                               :new_keyword_ids => [mayo_vocabulary.id],
-                                               :new_attachments => [attributes_for(:attachment)]) }
+                                               :new_keyword_ids => [mayo_vocabulary.id]) }
 
       parameter :message, 'Hash of message parameters'
 
