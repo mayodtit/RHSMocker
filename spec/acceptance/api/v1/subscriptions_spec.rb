@@ -29,7 +29,7 @@ resource 'Subscriptions' do
   end
 
   context 'with existing records' do
-    let!(:subscription) { create(:user_plan, :user => user, :plan => plan) }
+    let!(:subscription) { create(:subscription, :user => user, :plan => plan) }
     let(:id) { subscription.id }
 
     describe 'retreiving records' do

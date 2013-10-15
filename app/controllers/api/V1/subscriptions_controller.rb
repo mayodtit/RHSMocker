@@ -42,6 +42,6 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   private
 
   def subscription_scope
-    @user.try(:user_plans) || UserPlan
+    @user.try(:subscriptions) || Subscription
   end
 end

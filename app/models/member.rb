@@ -12,8 +12,8 @@ class Member < User
   has_many :message_statuses, :foreign_key => :user_id
   has_many :locations, :foreign_key => :user_id
 
-  has_many :user_plans, :foreign_key => :user_id
-  has_many :plans, :through => :user_plans
+  has_many :subscriptions, :foreign_key => :user_id
+  has_many :plans, :through => :subscriptions
   has_many :credits, :foreign_key => :user_id
   has_many :offerings, :through => :credits
 
