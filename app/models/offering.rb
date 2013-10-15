@@ -1,16 +1,10 @@
 class Offering < ActiveRecord::Base
+  has_many :plan_offerings
+  has_many :plans, :through => :plan_offerings
+  has_many :credits
+  has_many :users, :through => :credits
+
   attr_accessible :name
-  attr_accessor :credits
 
-  def as_json options=nil
-    json = {id: id, name: name}
-    json[:credits] = credits if credits
-    json
-  end
-
-  def self.with_credits(hash)
-    Offering.where(:id => hash.keys).each do |offering|
-      offering.credits = hash[offering.id]
-    end
-  end
+  validates :name, presence: true, uniqueness: true
 end
