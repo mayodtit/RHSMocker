@@ -31,6 +31,7 @@ RHSMocker::Application.routes.draw do
         post :save, :on => :collection
         post :dismiss, :on => :collection
       end
+      resources :offerings, :only => :index
       post :password_resets, :controller => :users, :action => :reset_password # TODO - deprecated!
       resources :phone_call_summaries, :only => :show
       resources :ping, :only => :index
@@ -44,8 +45,8 @@ RHSMocker::Application.routes.draw do
         resources :associations, :except => [:new, :edit]
         resources :blood_pressures, only: [:index, :create, :destroy]
         resources :credit_cards, :only => :create
-        resources :credits, :only => [:index, :show] do
-          get 'summary', :on => :collection
+        resources :credits, :only => [:index, :show, :create] do
+          get 'available', :on => :collection
         end
         resources :conditions, except: [:new, :edit], controller: 'user_conditions' do
           resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do
