@@ -66,7 +66,7 @@ class Consult < ActiveRecord::Base
   end
 
   def last_message_at
-    messages.order('created_at DESC').pluck(:created_at).first
+    messages.order('created_at DESC').select('created_at').first.try(:created_at)
   end
 
   def self.with_unread_messages_count_for(user)
