@@ -6,7 +6,7 @@ class Credit < ActiveRecord::Base
 
   validates :user, :offering, presence: true
 
-  def self.with_offering_counts
+  def self.totals_for_offerings
     joins(:offering).group('offerings.id').count
   end
 end

@@ -7,4 +7,11 @@ class Offering < ActiveRecord::Base
   attr_accessible :name
 
   validates :name, presence: true, uniqueness: true
+
+  def self.hash_with_credits(hash)
+    where(:id => hash.keys).as_json.each do |offering|
+      offering.symbolize_keys!
+      offering[:credits] = hash[offering[:id]]
+    end
+  end
 end

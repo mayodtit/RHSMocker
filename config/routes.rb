@@ -44,8 +44,8 @@ RHSMocker::Application.routes.draw do
         resources :associations, :except => [:new, :edit]
         resources :blood_pressures, only: [:index, :create, :destroy]
         resources :credit_cards, :only => :create
-        resources :credits, :only => [:index, :show] do
-          get 'summary', :on => :collection
+        resources :credits, :only => [:index, :show, :create] do
+          get 'available', :on => :collection
         end
         resources :conditions, except: [:new, :edit], controller: 'user_conditions' do
           resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do

@@ -15,10 +15,6 @@ resource 'Credits' do
   let(:id) { credit.id }
   let(:auth_token) { user.auth_token }
 
-  before(:each) do
-    user.login
-  end
-
   get '/api/v1/users/:user_id/credits' do
     example_request '[GET] Retreive all user credits' do
       explanation 'Returns an array of user credits'
@@ -37,8 +33,8 @@ resource 'Credits' do
     end
   end
 
-  get '/api/v1/users/:user_id/credits/summary' do
-    example_request "[GET] Retreive summary details for a user's credits" do
+  get '/api/v1/users/:user_id/credits/available' do
+    example_request "[GET] Retreive summary details for a user's credits by offering" do
       explanation 'Returns a hash of offerings and counts'
       status.should == 200
       parsed_json = JSON.parse(response_body)
