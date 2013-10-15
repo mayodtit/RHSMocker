@@ -1,4 +1,5 @@
 RHSMocker::Application.routes.draw do
+  root to: 'home#blank'
 
   namespace :api do
     namespace :v1 do
@@ -105,7 +106,6 @@ RHSMocker::Application.routes.draw do
   end
 
   get "/messages" => "messages#index", :as=>"messages_index"
-  root :to => "home#index"
   get "/logout" => "sessions#destroy", :as=>"logout"
   get '/login' => "sessions#new", :as=>"login"
   resources :sessions

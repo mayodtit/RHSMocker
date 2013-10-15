@@ -8,4 +8,8 @@ class HomeController < ApplicationController
   def faq
   end
 
+  def blank
+    head :ok
+  end
+
 end
