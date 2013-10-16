@@ -4,7 +4,7 @@ FactoryGirl.define do
     monthly false
 
     trait :with_offering do
-      offerings {|p| [p.association(:offering)]}
+      plan_offerings {|p| [p.association(:plan_offering)]}
     end
   end
 end
