@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131014230704) do
+ActiveRecord::Schema.define(:version => 20131016001827) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -215,6 +215,13 @@ ActiveRecord::Schema.define(:version => 20131014230704) do
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "feature_groups", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+    t.text     "metadata_override"
   end
 
   create_table "invitations", :force => true do |t|
@@ -460,6 +467,13 @@ ActiveRecord::Schema.define(:version => 20131014230704) do
     t.string   "action"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "user_feature_groups", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "feature_group_id"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
   create_table "user_readings", :force => true do |t|
