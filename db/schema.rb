@@ -120,6 +120,7 @@ ActiveRecord::Schema.define(:version => 20131016211017) do
     t.integer  "initiator_id", :default => 0, :null => false
     t.string   "title"
     t.string   "description"
+    t.string   "image"
   end
 
   create_table "content_mayo_vocabularies", :force => true do |t|

@@ -9,7 +9,7 @@ class Consult < ActiveRecord::Base
   has_many :cards, :as => :resource, :dependent => :destroy
 
   attr_accessible :initiator, :initiator_id, :subject, :subject_id, :checked,
-                  :priority, :status, :add_user, :messages, :message,
+                  :priority, :status, :add_user, :messages, :message, :image,
                   :scheduled_phone_call, :phone_call, :title, :description
 
   validates :title, :initiator, :subject, :status, :priority, presence: true
@@ -19,6 +19,8 @@ class Consult < ActiveRecord::Base
   before_validation :set_defaults
 
   symbolize :status, :in => [:open, :closed]
+
+  mount_uploader :image, ConsultImageUploader
 
   def self.open
     where(:status => :open)
@@ -43,7 +45,17 @@ class Consult < ActiveRecord::Base
   BASE_OPTIONS = {:methods => :last_message_at}
 
   def serializable_hash(options=nil)
-    super(options || BASE_OPTIONS)
+    hash = super(options || BASE_OPTIONS)
+
+    # HACK - turning the value of :methods into an array results in test errors,
+    # even though the symbol is cast to an array by ActiveModel
+    # Adding :image_url and removing :image manually
+    hash.merge!({image_url: image_url}).delete(:image)
+    hash
+  end
+
+  def image_url
+    image.url
   end
 
   def members
