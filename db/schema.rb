@@ -529,7 +529,6 @@ ActiveRecord::Schema.define(:version => 20131023123851) do
     t.string   "email"
     t.decimal  "height",                                        :precision => 9, :scale => 5
     t.string   "phone"
-    t.string   "generic_call_time"
     t.string   "crypted_password"
     t.string   "auth_token"
     t.string   "salt"

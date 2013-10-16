@@ -151,7 +151,6 @@ resource "Users" do
     parameter :height, "User's height(in cm)"
     parameter :birth_date, "User's birth date"
     parameter :phone, "User's phone number"
-    parameter :generic_call_time, "User's preferred call time (morning, afternoon, evening)"
     parameter :feature_bucket, "User's feature bucket (none message_only call_only message_call)"
     parameter :ethnic_group_id, "User's ethnic group"
     parameter :diet_id, "User's diet id"
@@ -159,7 +158,7 @@ resource "Users" do
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
     parameter :deceased, "Boolean, is the user deceased"
     parameter :date_of_death, "If the user is deceased, when did they die"
-    scope_parameters :user, [:first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
+    scope_parameters :user, [:first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
     required_parameters :auth_token
 
     put '/api/v1/user' do
@@ -169,7 +168,6 @@ resource "Users" do
       let(:height) { 190 }
       let(:birth_date) { "1980-10-15" }
       let(:phone) { "4163442356" }
-      let(:generic_call_time) { "morning" }
       let(:feature_bucket) { "none" }
       let(:auth_token) { user.auth_token }
       let(:ethnic_group_id) { 1 }
@@ -206,7 +204,6 @@ resource "Users" do
     parameter :height, "User's height(in cm)"
     parameter :birth_date, "User's birth date"
     parameter :phone, "User's phone number"
-    parameter :generic_call_time, "User's preferred call time (morning, afternoon, evening)"
     parameter :feature_bucket, "User's feature bucket (none message_only call_only message_call)"
     parameter :ethnic_group_id, "User's ethnic group"
     parameter :diet_id, "User's diet id"
@@ -214,7 +211,7 @@ resource "Users" do
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
     parameter :deceased, "Boolean, is the user deceased"
     parameter :date_of_death, "If the user is deceased, when did they die"
-    scope_parameters :user, [:email, :first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
+    scope_parameters :user, [:email, :first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
     required_parameters :auth_token, :id
 
     put '/api/v1/user/:id' do

@@ -24,7 +24,7 @@ class Member < User
 
   accepts_nested_attributes_for :user_agreements
 
-  attr_accessible :install_id, :generic_call_time, :password, :password_confirmation, :feature_bucket,
+  attr_accessible :install_id, :password, :password_confirmation, :feature_bucket,
                   :holds_phone_in, :invitation_token, :units, :agreement_params
 
   validates :email, :uniqueness => {:message => 'account already exists', :case_sensitive => false}, :allow_nil => true
@@ -35,8 +35,6 @@ class Member < User
   validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :on => :create, :if => lambda{|m| m.email.present?}
 
   # TODO - KC - remove these validations, I don't think they're used anymore
-  validates :generic_call_time, :allow_nil => true, :inclusion => {:in => %w(morning afternoon evening),
-                                                    :message => "%{value} is not a call time" }
   validates :feature_bucket, :allow_nil => true, :inclusion => {:in => %w(none message_only call_only message_call),
                                                                 :message => "%{value} is not a valid value for feature_bucket"}
 
@@ -54,7 +52,7 @@ class Member < User
     end
   end
 
-  BASE_OPTIONS = User::BASE_OPTIONS.merge(:only => [:feature_bucket, :generic_call_time,
+  BASE_OPTIONS = User::BASE_OPTIONS.merge(:only => [:feature_bucket,
                                                     :holds_phone_in, :install_id,
                                                     :phone, :units],
                                           :methods => [:pusher_id]) do |k, v1, v2|
