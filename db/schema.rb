@@ -535,7 +535,6 @@ ActiveRecord::Schema.define(:version => 20131023123851) do
     t.string   "reset_password_token"
     t.datetime "reset_password_token_expires_at"
     t.datetime "reset_password_email_sent_at"
-    t.string   "feature_bucket"
     t.integer  "ethnic_group_id"
     t.integer  "diet_id"
     t.string   "blood_type"

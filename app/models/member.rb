@@ -24,7 +24,7 @@ class Member < User
 
   accepts_nested_attributes_for :user_agreements
 
-  attr_accessible :install_id, :password, :password_confirmation, :feature_bucket,
+  attr_accessible :install_id, :password, :password_confirmation,
                   :holds_phone_in, :invitation_token, :units, :agreement_params
 
   validates :email, :uniqueness => {:message => 'account already exists', :case_sensitive => false}, :allow_nil => true
@@ -33,10 +33,6 @@ class Member < User
   validates :phone, :length => {:in => 7..17, :message => 'must be between 7 and 17 digits'}, :allow_blank => true
   validates :units, :inclusion => {:in => %w(US Metric)}
   validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :on => :create, :if => lambda{|m| m.email.present?}
-
-  # TODO - KC - remove these validations, I don't think they're used anymore
-  validates :feature_bucket, :allow_nil => true, :inclusion => {:in => %w(none message_only call_only message_call),
-                                                                :message => "%{value} is not a valid value for feature_bucket"}
 
   after_create :login # generate inital auth_token
   after_create :add_install_message
@@ -52,8 +48,7 @@ class Member < User
     end
   end
 
-  BASE_OPTIONS = User::BASE_OPTIONS.merge(:only => [:feature_bucket,
-                                                    :holds_phone_in, :install_id,
+  BASE_OPTIONS = User::BASE_OPTIONS.merge(:only => [:holds_phone_in, :install_id,
                                                     :phone, :units],
                                           :methods => [:pusher_id]) do |k, v1, v2|
                    v1.is_a?(Array) ? v1 + v2 : [v1] + v2
@@ -87,10 +82,6 @@ class Member < User
 
   def logout
     update_attribute(:auth_token, nil)
-  end
-
-  def can_call?
-    self.hcp? || self.feature_bucket == 'call_only' || self.feature_bucket == 'message_call'
   end
 
   #Keywords (aka search history)
