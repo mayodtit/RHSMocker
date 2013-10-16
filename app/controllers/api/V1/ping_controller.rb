@@ -3,7 +3,7 @@ class Api::V1::PingController < Api::V1::ABaseController
 
   def index
     if current_user
-      render_success(:metadata => Metadata.to_hash)
+      render_success(:metadata => Metadata.to_hash_for(current_user))
     else
       render_success
     end

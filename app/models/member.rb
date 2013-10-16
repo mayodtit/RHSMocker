@@ -19,6 +19,9 @@ class Member < User
 
   has_many :invitations
 
+  has_many :user_feature_groups, :foreign_key => :user_id
+  has_many :feature_groups, :through => :user_feature_groups
+
   accepts_nested_attributes_for :user_agreements
 
   attr_accessible :install_id, :generic_call_time, :password, :password_confirmation, :feature_bucket,
