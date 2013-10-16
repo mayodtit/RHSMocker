@@ -4,7 +4,7 @@ class Member < User
   has_many :user_agreements, :foreign_key => :user_id
   has_many :agreements, :through => :user_agreements
   has_many :cards, :foreign_key => :user_id
-  has_many :user_readings, :order => 'read_date DESC', :foreign_key => :user_id
+  has_many :user_readings, :foreign_key => :user_id
   has_many :contents, :through => :user_readings
   has_many :messages, :foreign_key => :user_id
   has_many :consult_users, :foreign_key => :user_id
@@ -12,12 +12,15 @@ class Member < User
   has_many :message_statuses, :foreign_key => :user_id
   has_many :locations, :foreign_key => :user_id
 
-  has_many :user_plans, :foreign_key => :user_id
-  has_many :plans, :through => :user_plans
-  has_many :user_offerings, :foreign_key => :user_id
-  has_many :offerings, :through => :user_offerings
+  has_many :subscriptions, :foreign_key => :user_id
+  has_many :plans, :through => :subscriptions
+  has_many :credits, :foreign_key => :user_id
+  has_many :offerings, :through => :credits
 
   has_many :invitations
+
+  has_many :user_feature_groups, :foreign_key => :user_id
+  has_many :feature_groups, :through => :user_feature_groups
 
   accepts_nested_attributes_for :user_agreements
 
@@ -92,23 +95,10 @@ class Member < User
     self.hcp? || self.feature_bucket == 'call_only' || self.feature_bucket == 'message_call'
   end
 
-  def merge user
-    user.user_readings.each do |ur|
-      logged_in_user_reading = UserReading.find_by_user_id_and_content_id id, ur.content_id
-      if logged_in_user_reading
-        logged_in_user_reading.merge(ur)
-        UserReading.destroy(ur.id)
-      else
-        ur.update_attribute :user_id, id
-      end
-    end
-    User.destroy(user.id)
-  end
-
   #Keywords (aka search history)
   def keywords
     keywords = {}
-    user_readings.map{|ur| ur.read_date ? ur.content.mayo_vocabularies : [] }.each do |mvs|
+    user_readings.map{|ur| (ur.view_count > 0) ? ur.content.mayo_vocabularies : [] }.each do |mvs|
       mvs.each do |mv|
         if keywords.has_key? mv
           keywords[mv]+=1
@@ -122,10 +112,6 @@ class Member < User
 
   def add_install_message
     if Content.install_message
-      user_readings.create!(content: Content.install_message, # TODO - remove when UserReadings retired
-                            read_date: Time.zone.now.iso8601,
-                            save_date: Time.zone.now.iso8601,
-                            save_count: 1)
       cards.create!(resource: Content.install_message,
                     state: :saved,
                     state_changed_at: Time.zone.now.iso8601)
@@ -134,9 +120,8 @@ class Member < User
   end
 
   def add_new_member_content
-    Content.new_member_content.each do |c|
-      user_readings.create!(content: c) # TODO - remove when UserReadings retired
-      cards.create!(resource: c)
+    Question.new_member_questions.each do |q|
+      cards.create!(resource: q)
     end
     true
   end
@@ -203,7 +188,8 @@ class Member < User
   def self.robot
     find_or_create_by_email(:email => 'robot@getbetter.com',
                             :first_name => 'Better',
-                            :last_name => 'Robot')
+                            :last_name => 'Robot',
+                            :avatar_url_override => "http://i.imgur.com/c3vNPCO.jpg")
   end
 
   def agreement_params=(params)

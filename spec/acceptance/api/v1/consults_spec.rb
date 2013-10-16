@@ -51,12 +51,13 @@ resource "Consults" do
     context 'with a message' do
       let(:message) { attributes_for(:message, :content_id => content.id,
                                                :new_location => attributes_for(:location),
-                                               :new_keyword_ids => [mayo_vocabulary.id],
-                                               :new_attachments => [attributes_for(:attachment)]) }
+                                               :new_keyword_ids => [mayo_vocabulary.id]) }
+      let(:consult_image) { base64_test_image }
 
       parameter :message, 'Hash of message parameters'
+      parameter :consult_image, 'Base64 encoded image'
 
-      scope_parameters :consult, [:message]
+      scope_parameters :consult, [:message, :consult_image]
 
       let(:raw_post) { params.to_json }
 
@@ -65,6 +66,7 @@ resource "Consults" do
         status.should == 200
         body = JSON.parse(response_body, :symbolize_names => true)[:consult]
         body.should be_a Hash
+        body[:image_url].should_not be_nil
       end
     end
 

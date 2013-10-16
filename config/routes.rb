@@ -1,4 +1,5 @@
 RHSMocker::Application.routes.draw do
+  root to: 'home#index'
 
   namespace :api do
     namespace :v1 do
@@ -6,6 +7,9 @@ RHSMocker::Application.routes.draw do
       resources :association_types, :only => :index
       resources :contents, :only => [:index, :show] do
         post :status, :on => :member
+        post :like
+        post :dislike
+        post :remove_like
       end
       resources :diets, :only => :index
       resources :cards, :only => [:show, :update]
@@ -27,7 +31,10 @@ RHSMocker::Application.routes.draw do
         post :save, :on => :collection
         post :dismiss, :on => :collection
       end
+      resources :offerings, :only => :index
       post :password_resets, :controller => :users, :action => :reset_password # TODO - deprecated!
+      resources :phone_call_summaries, :only => :show
+      resources :ping, :only => :index
       resources :plans, :only => [:index, :show]
       resources :remote_events, :only => :create
       resources :side_effects, :only => :index
@@ -38,8 +45,8 @@ RHSMocker::Application.routes.draw do
         resources :associations, :except => [:new, :edit]
         resources :blood_pressures, only: [:index, :create, :destroy]
         resources :credit_cards, :only => :create
-        resources :credits, :only => [:index, :show] do
-          get 'summary', :on => :collection
+        resources :credits, :only => [:index, :show, :create] do
+          get 'available', :on => :collection
         end
         resources :conditions, except: [:new, :edit], controller: 'user_conditions' do
           resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do
@@ -79,19 +86,12 @@ RHSMocker::Application.routes.draw do
       post "user/update_password" => "users#update_password", :as=>"update_password"
       post "user/update_email" => "users#update_email", :as=>"update_email"
 
-      #reading list
-      get "user_readings" => "user_readings#index", :as=>"user_readings_index"
-      get "inbox(/:page)(/:per_page)" => "user_readings#inbox", :as=>"inbox"
-      post "contents/mark_read" => "user_readings#mark_read", :as=>"contents_mark_read"
-      post "contents/dismiss" => "user_readings#dismiss", :as=>"contents_dismiss"
-      post "contents/save" => "user_readings#save", :as=>"contents_read_later"
-      post "contents/reset" => "user_readings#reset", :as=>"contents_reset"
-
       get "factors/:id" => "factors#index"
       post "symptoms/check" => "factors#check"
     end
   end
 
+  resources :cards, :only => :show # TODO: used for debugging - remove route and controller before app becomes public
   resources :contents, :only => [:index, :show] do
     get ":user_reading_id", :to => :show, :on => :member
   end
@@ -100,13 +100,13 @@ RHSMocker::Application.routes.draw do
     get :signup, :on => :collection
   end
   resources :nurseline_records, :only => :create
+  resources :questions, :only => :show
   resources :users, :only => [] do
     get 'reset_password/:token', :to => 'users#reset_password', :on => :collection, :as => 'reset_password'
     put 'reset_password', :to => 'users#reset_password_update', :on => :collection, :as => 'reset_password_update'
   end
 
   get "/messages" => "messages#index", :as=>"messages_index"
-  root :to => "home#index"
   get "/logout" => "sessions#destroy", :as=>"logout"
   get '/login' => "sessions#new", :as=>"login"
   resources :sessions

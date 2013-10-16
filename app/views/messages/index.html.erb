@@ -58,11 +58,6 @@ function sendMessage(consult_id){
 										<span class="label label-info"><%=keyword.title %></span>
 									<% end %>
 								</div>
-								<div class="attachments">
-									<% message.attachments.each do |attachment| %>
-										<img class="img-polaroid" src="<%=attachment.url %>">
-									<% end %>
-								</div>
 							</div>
 							<% if message.phone_call %>
 								<div class="bs-docs-example">

@@ -15,8 +15,15 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
   end
 
   def create
-    create_resource(Consult, create_params, :encounter) and return if encounter_path?
-    create_resource(Consult, create_params)
+    p = create_params
+
+    if params[:consult].try(:[], :consult_image).present?
+      p.merge!(image: decode_b64_image(params[:consult][:consult_image]))
+      p.delete(:consult_image)
+    end
+
+    create_resource(Consult, p, :encounter) and return if encounter_path?
+    create_resource(Consult, p)
   end
 
   private

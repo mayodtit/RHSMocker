@@ -1,239 +1,10 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create!([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create!(name: 'Emanuel', city: cities.first)
+Content.upsert_attributes({:title => 'Welcome to Better!'},
+                          {:content_type => 'Content',
+                           :body => 'Thank you for installing Better!'})
 
-
-#some default content
-unless Content.find_by_title("Welcome to Better!")
-	installed = Content.create!(
-		content_type: 'Content',
-		title: "Welcome to Better!",
-		body:"Thank you for installing Better!")
-end
-
-unless Content.find_by_title("Which hand do you hold your phone in?")
-	welcome = Content.create!(
-		content_type: 'Question',
-		title: 'Which hand do you hold your phone in?',
-		body:'<div id="panel-1">
-	<div class = "content_subtitle">
-	Try answering questions in Better:
-	</div>
-	<div style="float:left; width:140px; text-align:center; padding-top:5px;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;move_thumb&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;right&quot;} }, {&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ] \'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot; ; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
-	<img style="display : block; margin : auto; padding-top:5px;" alt="Left" width="54" height="60" src="/assets/lefthand_sm.png"/></a>
-	</div>
-	<div style="margin-left:140px; text-align:center; padding-top:5px;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;move_thumb&quot; , &quot;body&quot; : {&quot;side&quot; : &quot;left&quot;} }, {&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ] \'; window.location.href = &quot;http://dontload/&quot; ; document.getElementById(&quot;panel-1&quot;).style.display = &quot;none&quot; ; document.getElementById(&quot;panel-2&quot;).style.display = &quot;block&quot;;">
-	<img style="display : block; margin : auto; padding-top:5px;" alt="Right" width="54" height="60" src="/assets/righthand_sm.png"/></a>
-	</div>
-	</div>
-	<div id="panel-2" style="display:none">
-	<script type="text/javascript">
-   		document.actionJSON = "\'[{&quot;type&quot; : &quot;set_available_user_actions&quot; , &quot;body&quot; : { &quot;actions&quot; : [&quot;dismiss&quot; ] } } ]\';  window.location.href = &quot;http://dontload/&quot;""
-	</script>
-	<div class="content_subtitle">
-	Thank you!
-	</div>
-	<div class = "content_text">
-	We\'ve now positioned the thumb controller to it\'s most comfortable (and healthy!) position.
-	</div>
-	</div>'
-	)
-end
-
-
-unless Content.find_by_title("Your Gender")
-	gender = Content.create!(
-		content_type: 'Question',
-		title: 'Your Gender',
-		body:'
-	<div class = "content_subtitle">What&#39;s your gender?</div>
-	<div style="float:left; width:110px;text-align:center;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;set_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;male&quot;} }, {&quot;type&quot; : &quot;save_item&quot; } ]\'; window.location.href = &quot;http://dontload/&quot; ; ">
-	<img alt="Male" width="110" src="/assets/male.png"/></a>
-	</div>
-	<div style="float:right; width:110px; text-align:center;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;set_gender&quot; , &quot;body&quot; : {&quot;gender&quot; : &quot;female&quot;}},{&quot;type&quot; : &quot;save_item&quot; }] \'; window.location.href = &quot;http://dontload/&quot; ; ">
-	<img alt="Female" width="110" src="/assets/female.png"/></a>
-	</div>'
-		)
-end
-
-Content.upsert_attributes({:title => "Your Allergies",
-                           :content_type => 'Question'},
-                          {
-                            :body => <<-EOF
-	<div class = "content_subtitle">Are you allergic to anything?</div>
-	<div style="float:left;width:110px;text-align:center;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;goto_allergies&quot; } , {&quot;type&quot; : &quot;save_item&quot; } ]\'; window.location.href = &quot;http://dontload/&quot; ; ">
-	<img alt="Have Allergies" width="110" src="/assets/allergy_icon.png"/></a>
-	</div>
-	<div style="float:right;width:110px;text-align:center;">
-	<a href="#" onclick="document.actionJSON = \'[{&quot;type&quot; : &quot;add_allergy&quot; , &quot;body&quot; : {&quot;allergy_id&quot; : &quot;50&quot;} } , {&quot;type&quot; : &quot;save_item&quot; } ] \'; window.location.href = &quot;http://dontload/&quot; ;">
-	<img alt="No Allergies" width="110" src="/assets/allergy_none_icon.png"/></a>
-	</div>
-    EOF
-                          })
-
-
-Content.upsert_attributes({:title => 'Which of these do you eat?',
-                           :content_type => 'Question'},
-                          {
-                            :body => <<-EOF
-<div id="panel-1">
-  <div class="content_text">
-    <div style="position: absolute; left: 25px; top: 65px;">
-      <a href="#" onclick="toggleElement('vegetables')"><img class="vegetables" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/vegetables_unselect.png"/></a>
-      <a href="#" onclick="toggleElement('vegetables')"><img class="vegetables" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/vegetables_select.png"/></a>
-    </div>
-    <div style="position: absolute; left: 115px; top: 65px;">
-      <a href="#" onclick="toggleElement('meat')"><img class="meat" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/meat_unselect.png"/></a>
-      <a href="#" onclick="toggleElement('meat')"><img class="meat" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/meat_select.png"/></a>
-    </div>
-    <div style="position: absolute; left: 205px; top: 65px;">
-      <a href="#" onclick="toggleElement('fish')"><img class="fish" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/fish_unselect.png"/></a>
-      <a href="#" onclick="toggleElement('fish')"><img class="fish" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/fish_select.png"/></a>
-    </div>
-    <div style="position: absolute; left: 25px; top: 125px">
-      <a href="#" onclick="toggleElement('bread')"><img class="bread" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/bread_unselect.png"/></a>
-      <a href="#" onclick="toggleElement('bread')"><img class="bread" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/bread_select.png"/></a>
-    </div>
-    <div style="position: absolute; left: 115px; top: 125px">
-      <a href="#" onclick="toggleElement('dairy')"><img class="dairy" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/dairy_unselect.png"/></a>
-      <a href="#" onclick="toggleElement('dairy')"><img class="dairy" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/dairy_select.png"/></a>
-    </div>
-    <div style="position: absolute; left: 205px; top: 125px">
-      <a href="#" onclick="toggleElement('eggs')"><img class="eggs" style="display: block; margin: auto; padding-top: 5px; width:70; height:55;" alt="Left" src="/assets/eggs_unselect.png"/></a>
-      <a href="#" onclick="toggleElement('eggs')"><img class="eggs" style="display: block; margin: auto; padding-top: 5px; width:70; height:55; display: none;" alt="Left" src="/assets/eggs_select.png"/></a>
-    </div>
-  </div>
-</div>
-
-<script type="text/javascript">
-document.actionJSON = JSON.stringify([{type: "set_available_user_actions", body: {actions: ["save"]}}]);
-
-function toggleElement(type) {
-  $('.' + type).toggle();
-};
-</script>
-                                    EOF
-                          })
-
-Content.upsert_attributes({:title => 'Enter your blood pressure',
-                           :content_type => 'Question'},
-                          {
-                             :body => <<-EOF
-<div style="color:#999999;margin-left:35px;font-size:16px;font-weight:bold;float:left;">SYS</div><div style="color:#999999;margin-left:70px;font-size:16px;font-weight:bold;float:left;">DIA</div><div style="color:#999999;margin-left:55px;font-size:16px;font-weight:bold;float:left;">PULSE</div><br />
-<form width="100%" align="center" action="http://dontload" method="post">
-  <input type="text" pattern="[0-9]*" name="systolic" id="systolic" style="width:60px;height:47px;" size="3" maxlength="3" onblur="submitBloodPressure(this)" /><img src="/assets/bp_slash.png" style="width:15px;height:47px;margin-bottom:10px;margin-left:4px;"/>
-  <input type="text" pattern="[0-9]*" name="diastolic" id="diastolic" style="width:60px;height:47px;" size="3" maxlength="3" onblur="submitBloodPressure(this)" />
-  <input type="text" pattern="[0-9]*" name="pulse" id="pulse" style="margin-left:10px;width:60px;height:47px;" size="3" maxlength="3" onblur="submitBloodPressure(this)" />
-</form>
-
-<script>
-  function quoteForJSONIfString(object) {
-   if(Object.prototype.toString.call(object) === '[object String]') {
-    return '\"' + object + '\"';
-   } else {
-    return object;
-   }
-  }
-  function JSONWithTypeAndBody(type, body) {
-   if(Object.prototype.toString.call(body) === '[object Object]') {
-    var bodyString = '{';
-    for (var i in body) {
-     bodyString += quoteForJSONIfString(i) + ':' + quoteForJSONIfString(body[i]) + ',';
-    }
-    bodyString = bodyString.replace(/,+$/, \"\") + '}';
-    body = bodyString;
-   }
-   return '{\"type\":\"'+type+'\",\"body\":'+body+'}';
-  }
-  
-  function submitBloodPressure(e) {
-  var eValue = e.value*1;
-  if(isNaN(eValue)) e.value = 0;
-  var systolicInput = document.getElementById('systolic');
-  var diastolicInput = document.getElementById('diastolic');
-  var pulseInput = document.getElementById('pulse');
-  
-  if(systolicInput.value != ''  && diastolicInput.value != '' && pulseInput.value != '') {
- 
-  var bloodpressureDictionary = {'systolic' : systolicInput.value*1,'diastolic' : diastolicInput.value*1, 'pulse' : pulseInput.value*1};
-  var actionJSON = '[' + JSONWithTypeAndBody('available_user_actions','[\"dismiss\"]');
-  actionJSON += ',' + JSONWithTypeAndBody('add_blood_pressure',bloodpressureDictionary) + ']';
-  console.log(actionJSON);
-  document.actionJSON = actionJSON;
-  window.location.href = 'http://dontload';
-  }
-  }
-</script>
-                                      EOF
-                          })
-
-Content.upsert_attributes({:title => 'Enter your weight',
-                           :content_type => 'Question'},
-                          {
-                            :body => <<-EOF
-<div align="center">
-<img src="/assets/weight_meter.png" style="width:64px; height:29px;"/>
-<p style="margin-top:2px;margin-bottom:2px;color:#999999;font-size:16px;font-weight:bold;f">LBS</p>
-<form width="100%" align="center" action="http://dontload" method="post" >
-  <input type="text" pattern="[0-9]*" name="weight" id="weight" style="width:171px;height:48px;" size="3" maxlength="3" onblur="submitWeight(this)" />
-</form>
-</div>
-
-<script>
-  function quoteForJSONIfString(object) {
-  if(Object.prototype.toString.call(object) === '[object String]') {
-  return '\"' + object + '\"';
-  } else {
-  return object;
-  }
-  }
-  function JSONWithTypeAndBody(type, body) {
-  if(Object.prototype.toString.call(body) === '[object Object]') {
-  var bodyString = '{';
-  for (var i in body) {
-  bodyString += quoteForJSONIfString(i) + ':' + quoteForJSONIfString(body[i]);
-  }
-  bodyString += '}';
-  body = bodyString;
-  }
-  return '{\"type\":\"'+type+'\",\"body\":'+body+'}';
-  }
-
-  function submitWeight(weightInput) {
-  var weight = weightInput.value * 1;
-  if(isNaN(weight)) weightInput.value = weight = 0;
-
-  if(weight < 5) {
-  weightInput.value = 5;
-  weight = 5;
-  }
-
-  if(weight > 750) {
-  weightInput.value = 750;
-  weight = 750;
-  }
-
-  weight *= 0.453592;
-
-  var weightDictionary = {'weight' : weight};
-  var actionJSON = '[' + JSONWithTypeAndBody('available_user_actions','[\"dismiss\"]');
-  actionJSON += ',' + JSONWithTypeAndBody('add_weight',weightDictionary) + ']';
-  document.actionJSON = actionJSON;
-  console.log(actionJSON);
-  window.location.href = 'http://dontload';
-  }
-</script>
-                                     EOF
-                          })
+Question.upsert_attributes({:view => :gender}, {:title => 'Your Gender'})
+Question.upsert_attributes({:view => :allergies}, {:title => 'Your Allergies'})
+Question.upsert_attributes({:view => :diet}, {:title => 'Which of these do you eat?'})
 
 # Create some default Members
 #nancy 	= Member.create!(first_name: "Nancy", last_name: "Smith", 	gender:"F", birth_date:"06/18/1950", install_id: "123345")
@@ -442,7 +213,7 @@ Treatment::Surgery.find_or_create_by_name(:name=>"Cholecystectomy", :snomed_name
 Treatment::Surgery.find_or_create_by_name(:name=>"Appendectomy",:snomed_name=>"Appendectomy",:snomed_code=>"80146002")
 Treatment::Medicine.find_or_create_by_name(:name => "Captopril", :snomed_name => "Captopril", :snomed_code => 'DEADBEEF')
 
-o = Offering.find_or_create_by_name(name: 'Phone Call')
+o = Offering.find_or_create_by_name(name: 'Consult')
 p = Plan.find_or_create_by_name(name: 'Silver', monthly: true)
 PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: 2, unlimited: false)
 p = Plan.find_or_create_by_name(name: 'Gold', monthly: true)
@@ -472,32 +243,28 @@ numbness_or_tingling_is_factor_group = FactorGroup.find_or_create_by_name(:name=
 onset_factor_group            = FactorGroup.find_or_create_by_name(:name=>"Onset")
 onset_is_factor_group         = FactorGroup.find_or_create_by_name(:name=>"Onset is")
 pain_factor_group             = FactorGroup.find_or_create_by_name(:name=>"Pain")
-pain_best_described_as_factor_group       = FactorGroup.find_or_create_by_name(:name=>"Pain best described as")
-pain_is_factor_group 		      = FactorGroup.find_or_create_by_name(:name=>"Pain is")
-pain_located_factor_group     = FactorGroup.find_or_create_by_name(:name=>"Pain located")
-pain_started_factor_group     = FactorGroup.find_or_create_by_name(:name=>"Pain started")
+pain_best_described_as_factor_group     = FactorGroup.find_or_create_by_name(:name=>"Pain best described as")
+pain_is_factor_group 		      		= FactorGroup.find_or_create_by_name(:name=>"Pain is")
+pain_located_factor_group     			= FactorGroup.find_or_create_by_name(:name=>"Pain located")
+pain_started_factor_group     			= FactorGroup.find_or_create_by_name(:name=>"Pain started")
 palpitations_often_occur_when_factor_group   = FactorGroup.find_or_create_by_name(:name=>"Palpitations often occur when")
-preceded_by_factor_group      = FactorGroup.find_or_create_by_name(:name=>"Preceded by")
-preceded_by_use_of_factor_group   = FactorGroup.find_or_create_by_name(:name=>"Preceded by use of")
-problem_affects_factor_group   = FactorGroup.find_or_create_by_name(:name=>"Problem affects")
-problem_is_factor_group       = FactorGroup.find_or_create_by_name(:name=>"Problem is")
-recurrence_of_headache_factor_group    = FactorGroup.find_or_create_by_name(:name=>"Recurrence of headache")
-related_pain_involves_factor_group     = FactorGroup.find_or_create_by_name(:name=>"Related pain involves")
-relieved_by_factor_group      = FactorGroup.find_or_create_by_name(:name=>"Relieved by")
-swallowing_factor_group       = FactorGroup.find_or_create_by_name(:name=>"Swallowing")
-swelling_occurs_factor_group  = FactorGroup.find_or_create_by_name(:name=>"Swelling occurs")
-symptoms_are_factor_group     = FactorGroup.find_or_create_by_name(:name=>"Symptoms are")
-triggered_by_factor_group     = FactorGroup.find_or_create_by_name(:name=>"Triggered by")
+preceded_by_factor_group      			= FactorGroup.find_or_create_by_name(:name=>"Preceded by")
+preceded_by_use_of_factor_group   		= FactorGroup.find_or_create_by_name(:name=>"Preceded by use of")
+problem_affects_factor_group   			= FactorGroup.find_or_create_by_name(:name=>"Problem affects")
+problem_is_factor_group       			= FactorGroup.find_or_create_by_name(:name=>"Problem is")
+recurrence_of_headache_factor_group    	= FactorGroup.find_or_create_by_name(:name=>"Recurrence of headache")
+related_pain_involves_factor_group     	= FactorGroup.find_or_create_by_name(:name=>"Related pain involves")
+relieved_by_factor_group     			= FactorGroup.find_or_create_by_name(:name=>"Relieved by")
+swallowing_factor_group       			= FactorGroup.find_or_create_by_name(:name=>"Swallowing")
+swelling_occurs_factor_group  			= FactorGroup.find_or_create_by_name(:name=>"Swelling occurs")
+symptoms_are_factor_group     			= FactorGroup.find_or_create_by_name(:name=>"Symptoms are")
+triggered_by_factor_group     			= FactorGroup.find_or_create_by_name(:name=>"Triggered by")
 triggered_or_worsened_by_factor_group   = FactorGroup.find_or_create_by_name(:name=>"Triggered or worsened by")
 vision_improves_somewhat_factor_group   = FactorGroup.find_or_create_by_name(:name=>"Vision improves somewhat with")
 vision_problem_includes_factor_group    = FactorGroup.find_or_create_by_name(:name=>"Vision problem includes")
-wheezing_is_factor_group      = FactorGroup.find_or_create_by_name(:name=>"Wheezing is")
-worsened_by_factor_group      = FactorGroup.find_or_create_by_name(:name=>"Worsened by")
-you_feel_factor_group         = FactorGroup.find_or_create_by_name(:name=>"You feel")
-
-#Special Case Factor Groups
-important_factor_group 		  = FactorGroup.find_or_create_by_name(:name=>"Important")
-
+wheezing_is_factor_group      			= FactorGroup.find_or_create_by_name(:name=>"Wheezing is")
+worsened_by_factor_group      			= FactorGroup.find_or_create_by_name(:name=>"Worsened by")
+you_feel_factor_group         			= FactorGroup.find_or_create_by_name(:name=>"You feel")
 
 #Factor
 #_factor          = Factor.find_or_create_by_name(:name=>" ")
@@ -591,20 +358,16 @@ buzzing_or_ringing_in_ear_factor          = Factor.find_or_create_by_name(:name=
 ##??
 ##abdomen_swollen_or_tender_factor = Factor.find_or_create_by_name(:name=>"Abdomen swollen or tender")
 
-
-
-change_in_bowel_habits_factor   = Factor.find_or_create_by_name(:name=>"Change in your bowel habits")
-changing_position_factor        = Factor.find_or_create_by_name(:name=>"Changing position")
-chest_pain_or_tightness_factor  = Factor.find_or_create_by_name(:name=>"Chest pain or tightness")
-chills_or_sweating_factor       = Factor.find_or_create_by_name(:name=>"Chills or sweating")
-
-chronic_ongoing_factor  = Factor.find_or_create_by_name(:name=>"Chronic, ongoing")
-constipation_factor     = Factor.find_or_create_by_name(:name=>"Constipation")
-crampy_factor           = Factor.find_or_create_by_name(:name=>"Crampy")
-cramping_factor         = Factor.find_or_create_by_name(:name=>"Cramping")
-coughing_or_jarring_movements_factor = Factor.find_or_create_by_name(:name=>"Coughing or jarring movements")
-cough_with_blood_phlegm_factor       = Factor.find_or_create_by_name(:name=>"Cough with blood or phlegm")
-
+change_in_bowel_habits_factor   		= Factor.find_or_create_by_name(:name=>"Change in your bowel habits")
+changing_position_factor        		= Factor.find_or_create_by_name(:name=>"Changing position")
+chest_pain_or_tightness_factor  		= Factor.find_or_create_by_name(:name=>"Chest pain or tightness")
+chills_or_sweating_factor       		= Factor.find_or_create_by_name(:name=>"Chills or sweating")
+chronic_ongoing_factor  				= Factor.find_or_create_by_name(:name=>"Chronic, ongoing")
+constipation_factor     				= Factor.find_or_create_by_name(:name=>"Constipation")
+crampy_factor           				= Factor.find_or_create_by_name(:name=>"Crampy")
+cramping_factor         				= Factor.find_or_create_by_name(:name=>"Cramping")
+coughing_or_jarring_movements_factor 	= Factor.find_or_create_by_name(:name=>"Coughing or jarring movements")
+cough_with_blood_phlegm_factor       	= Factor.find_or_create_by_name(:name=>"Cough with blood or phlegm")
 
 diarrhea_factor                         = Factor.find_or_create_by_name(:name=>"Diarrhea")
 difficult_or_painful_swallowing_factor  = Factor.find_or_create_by_name(:name=>"Difficult or painful swallowing")
@@ -746,34 +509,34 @@ vomiting_blood_factor = Factor.find_or_create_by_name(:name=>"Vomiting blood ")
 
 
 #Symptom
-abdominal_pain_symptom  = Symptom.find_or_create_by_name_and_patient_type(:name=>"Abdominal Pain", :patient_type=>"adult")
-blood_in_stool_symptom  = Symptom.find_or_create_by_name_and_patient_type(:name=>"Blood in Stool", :patient_type=>"adult")
-chest_pain_symptom      = Symptom.find_or_create_by_name_and_patient_type(:name=>"Chest Pain", :patient_type=>"adult")
-cough_symptom           = Symptom.find_or_create_by_name_and_patient_type(:name=>"Cough", :patient_type=>"adult")
-constipation_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Constipation", :patient_type=>"adult")
-diarrhea_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Diarrhea", :patient_type=>"adult")
-difficulty_swallowing_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Difficulty Swallowing", :patient_type=>"adult")
-dizziness_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Dizziness", :patient_type=>"adult")
-eye_discomfort_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Eye Discomfort", :patient_type=>"adult")
-foot_ankle_pain_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Foot/Ankle Pain", :patient_type=>"adult")
-foot_leg_swelling_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Foot/Leg Swelling", :patient_type=>"adult")
-headache_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Headache", :patient_type=>"adult")
-heart_palpitations_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Heart Palpitations", :patient_type=>"adult")
-hip_pain_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Hip Pain", :patient_type=>"adult")
-knee_pain_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Knee Pain", :patient_type=>"adult")
-low_back_pain_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Low Back Pain", :patient_type=>"adult")
-nasal_congestion_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Nasal Congestion", :patient_type=>"adult")
-nausea_or_vomiting_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Nausea of Vomiting", :patient_type=>"adult")
-neck_pain_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Neck Pain", :patient_type=>"adult")
-numbness_in_hands_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Numbness in Hands", :patient_type=>"adult")
-pelvic_pain_female_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Pelvic Pain (Female)", :patient_type=>"adult")
-pelvic_pain_male_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Pelvic Pain (Male)", :patient_type=>"adult")
-shortness_of_breath_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Shortness of Breath", :patient_type=>"adult")
-shoulder_pain_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Shoulder Pain", :patient_type=>"adult")
-sore_throat_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Sore Throat", :patient_type=>"adult")
-urinary_problems_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Urinary Problems", :patient_type=>"adult")
-vision_problems_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Vision Problems", :patient_type=>"adult")
-wheezing_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Wheezing", :patient_type=>"adult")
+abdominal_pain_symptom  = Symptom.find_or_create_by_name_and_patient_type(:name=>"Abdominal Pain", :patient_type=>"adult", :description=>"Abdominal pain can indicate a wide variety of medical conditions. Identify possible common causes based on symptoms you're experiencing.")
+blood_in_stool_symptom  = Symptom.find_or_create_by_name_and_patient_type(:name=>"Blood in Stool", :patient_type=>"adult", :description=>"Blood in the stool requires a prompt diagnosis. Identify possible common causes based on symptoms you’re experiencing.")
+chest_pain_symptom      = Symptom.find_or_create_by_name_and_patient_type(:name=>"Chest Pain", :patient_type=>"adult", :description=>"Chest pain can indicate a serious condition. Identify possible common causes based on symptoms you're experiencing and learn when to get emergency care.")
+cough_symptom           = Symptom.find_or_create_by_name_and_patient_type(:name=>"Cough", :patient_type=>"adult", :description=>"Constipation usually isn't serious and improves with a well-balanced diet and increased water intake. Identify other possible common causes based on symptoms you’re experiencing.")
+constipation_symptom 	= Symptom.find_or_create_by_name_and_patient_type(:name=>"Constipation", :patient_type=>"adult", :description=>"Cough can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing.")
+diarrhea_symptom 		= Symptom.find_or_create_by_name_and_patient_type(:name=>"Diarrhea", :patient_type=>"adult", :description=>"Diarrhea in adults is common and only rarely due to a serious problem. Identify possible common causes based on symptoms you’re experiencing.")
+difficulty_swallowing_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Difficulty Swallowing", :patient_type=>"adult", :description=>"Difficulty swallowing means that it takes more time or effort to swallow. Identify possible common causes based on symptoms you're experiencing.")
+dizziness_symptom 			= Symptom.find_or_create_by_name_and_patient_type(:name=>"Dizziness", :patient_type=>"adult", :description=>"Dizziness can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing.")
+eye_discomfort_symptom 		= Symptom.find_or_create_by_name_and_patient_type(:name=>"Eye Discomfort", :patient_type=>"adult", :description=>"Eye discomfort and redness can be concerning and disrupt your ability to do everyday activities. Identify possible common causes based on symptoms you're experiencing.")
+foot_ankle_pain_symptom 	= Symptom.find_or_create_by_name_and_patient_type(:name=>"Foot/Ankle Pain", :patient_type=>"adult", :description=>"Foot pain or ankle pain can be distressing and limit your ability to get around. Identify possible common causes based on symptoms you’re experiencing.")
+foot_leg_swelling_symptom 	= Symptom.find_or_create_by_name_and_patient_type(:name=>"Foot/Leg Swelling", :patient_type=>"adult", :description=>"Foot or leg swelling occurs because of inflammation or the accumulation of fluid in tissues. Identify possible common causes based on symptoms you're experiencing.")
+headache_symptom 			= Symptom.find_or_create_by_name_and_patient_type(:name=>"Headache", :patient_type=>"adult", :description=>"Headaches are common and usually aren't the result of serious illness. Identify possible common causes based on symptoms you're experiencing.")
+heart_palpitations_symptom 	= Symptom.find_or_create_by_name_and_patient_type(:name=>"Heart Palpitations", :patient_type=>"adult", :description=>"Heart palpitations are racing, uncomfortable or irregular heartbeats or a 'flopping' sensation in your chest. Identify possible common causes based on symptoms you're experiencing.")
+hip_pain_symptom 			= Symptom.find_or_create_by_name_and_patient_type(:name=>"Hip Pain", :patient_type=>"adult", :description=>"Hip pain can affect your ability to move about normally. Identify possible common causes based on symptoms you’re experiencing.")
+knee_pain_symptom 			= Symptom.find_or_create_by_name_and_patient_type(:name=>"Knee Pain", :patient_type=>"adult", :description=>"Knee pain can seriously impair walking and exercise. Identify possible common causes based on symptoms you're experiencing.")
+low_back_pain_symptom 		= Symptom.find_or_create_by_name_and_patient_type(:name=>"Low Back Pain", :patient_type=>"adult", :description=>"Low back pain can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing.")
+nasal_congestion_symptom 	= Symptom.find_or_create_by_name_and_patient_type(:name=>"Nasal Congestion", :patient_type=>"adult", :description=>"Nasal congestion is a common problem in adults. Identify possible common causes based on symptoms you're experiencing.")
+nausea_or_vomiting_symptom 	= Symptom.find_or_create_by_name_and_patient_type(:name=>"Nausea of Vomiting", :patient_type=>"adult", :description=>"Nausea or vomiting is most often caused by the stomach flu. Identify other possible common causes based on symptoms you're experiencing.")
+neck_pain_symptom 			= Symptom.find_or_create_by_name_and_patient_type(:name=>"Neck Pain", :patient_type=>"adult", :description=>"Neck pain may be a short-term problem or a chronic disability. Identify possible common causes based on symptoms you're experiencing.")
+numbness_in_hands_symptom 	= Symptom.find_or_create_by_name_and_patient_type(:name=>"Numbness in Hands", :patient_type=>"adult", :description=>"Numbness or tingling in hands is often triggered by injury or repetitive use. Identify possible common causes based on symptoms you're experiencing.")
+pelvic_pain_female_symptom 	= Symptom.find_or_create_by_name_and_patient_type(:name=>"Pelvic Pain (Female)", :patient_type=>"adult", :description=>"Pelvic pain in women can be caused by a wide variety of diseases and conditions. Identify possible common causes based on symptoms you’re experiencing.")
+pelvic_pain_male_symptom 	= Symptom.find_or_create_by_name_and_patient_type(:name=>"Pelvic Pain (Male)", :patient_type=>"adult", :description=>"Pelvic pain in men can be concerning. Identify possible common causes based on symptoms you're experiencing.")
+shortness_of_breath_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Shortness of Breath", :patient_type=>"adult", :description=>"Shortness of breath can signal a number of conditions that need prompt medical care. Identify possible common causes based on symptoms you're experiencing.")
+shoulder_pain_symptom 		= Symptom.find_or_create_by_name_and_patient_type(:name=>"Shoulder Pain", :patient_type=>"adult", :description=>"Shoulder pain often is due to a mechanical problem in the shoulder joint. Identify possible common causes based on symptoms you're experiencing.")
+sore_throat_symptom 		= Symptom.find_or_create_by_name_and_patient_type(:name=>"Sore Throat", :patient_type=>"adult", :description=>"Sore throat is a common problem. Identify possible causes based on symptoms you're experiencing.")
+urinary_problems_symptom 	= Symptom.find_or_create_by_name_and_patient_type(:name=>"Urinary Problems", :patient_type=>"adult", :description=>"Urinary problems are a common complaint among adults. Identify possible common causes based on symptoms you're experiencing.")
+vision_problems_symptom 	= Symptom.find_or_create_by_name_and_patient_type(:name=>"Vision Problems", :patient_type=>"adult", :description=>"Vision problems, even those easily corrected, can greatly affect everyday activities. Identify possible common causes based on symptoms you're experiencing.")
+wheezing_symptom 			= Symptom.find_or_create_by_name_and_patient_type(:name=>"Wheezing", :patient_type=>"adult", :description=>"Wheezing is a high-pitched, whistling noise that occurs with breathing. Identify possible common causes based on symptoms you're experiencing.")
 
 
 #SymptomsFactor

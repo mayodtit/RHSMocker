@@ -8,7 +8,7 @@ class Ability
       user.id == u.id || user.associates.find_by_id(u.id)
     end
 
-    can :manage, [BloodPressure, UserTreatment, UserAllergy, UserCondition, Weight, Card] do |o|
+    can :manage, [BloodPressure, UserTreatment, UserAllergy, UserCondition, Weight, Card, Subscription] do |o|
       (user.id == o.user_id) || (can?(:manage, o.user))
     end
 
@@ -18,6 +18,10 @@ class Ability
 
     # hack until User/Member model is refactored
     can :manage, User
+
+    can :manage, PhoneCallSummary do |pcs|
+      pcs.message.consult.users.include?(user)
+    end
 
     if user.try_method(:hcp?)
       can :manage, :all

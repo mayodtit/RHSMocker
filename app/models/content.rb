@@ -24,12 +24,6 @@ class Content < ActiveRecord::Base
     where(:title => 'Welcome to Better!').first
   end
 
-  def self.new_member_content
-    where(:title => ['Your Allergies',
-                     'Your Gender',
-                     'Which of these do you eat?'])
-  end
-
   # TODO - replace in future with root_share_url, move append to UserReading
   def share_url user_reading_id=nil
     result = "/contents/#{mayo_doc_id}"
@@ -100,5 +94,16 @@ class Content < ActiveRecord::Base
   def self.getRandomContent
     types = ["Article", "Answer", "Health Tip", "First Aid"]
     Content.where(:content_type => types).first(:order => "RANDOM()")
+  end
+
+  CSV_COLUMNS = %w(id mayo_doc_id content_type title)
+
+  def self.to_csv
+    CSV.generate do |csv|
+      csv << CSV_COLUMNS
+      all.each do |content|
+        csv << content.attributes.values_at(*CSV_COLUMNS)
+      end
+    end
   end
 end

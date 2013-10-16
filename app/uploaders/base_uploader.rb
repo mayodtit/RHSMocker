@@ -1,6 +1,6 @@
 class BaseUploader < CarrierWave::Uploader::Base
   def hash_filename
-    "#{secure_token}.#{file.extension}" if original_filename
+    "#{secure_token}" if original_filename
   end
 
   protected

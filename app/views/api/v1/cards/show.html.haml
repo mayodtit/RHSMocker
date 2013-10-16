@@ -1,1 +1,2 @@
-= render :partial => 'api/v1/contents/body', :locals => {:content => card.resource.decorate}
+- if card.resource.is_a?(Content)
+  = render :partial => 'api/v1/contents/body', :locals => {:content => card.resource.decorate}

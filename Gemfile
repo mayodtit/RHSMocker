@@ -37,6 +37,10 @@ group :development, :test do
   gem 'guard-rspec'
 end
 
+group :development do
+  gem 'capistrano', '~> 2.15'
+end
+
 gem 'codeclimate-test-reporter', group: :test, require: nil    # test coverage for Code Climate
 gem 'raddocs', :git => 'git://github.com/chilcutt/raddocs.git' # gem for parsing API documentation JSON
 
