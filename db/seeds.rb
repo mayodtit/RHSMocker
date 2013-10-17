@@ -510,36 +510,112 @@ wheezing_factor = Factor.find_or_create_by_name(:name=>"Wheezing")
 vomiting_blood_factor = Factor.find_or_create_by_name(:name=>"Vomiting blood ")
 
 
-#Symptom
-abdominal_pain_symptom  = Symptom.upsert_attributes({:name=>"Abdominal Pain", :patient_type=>"adult"}, {:description=>"Abdominal pain can indicate a wide variety of medical conditions. Identify possible common causes based on symptoms you're experiencing."})
-blood_in_stool_symptom  = Symptom.upsert_attributes({:name=>"Blood in Stool", :patient_type=>"adult"} , {:description=>"Blood in the stool requires a prompt diagnosis. Identify possible common causes based on symptoms you’re experiencing."})
-chest_pain_symptom      = Symptom.upsert_attributes({:name=>"Chest Pain", :patient_type=>"adult" } , {:description=>"Chest pain can indicate a serious condition. Identify possible common causes based on symptoms you're experiencing and learn when to get emergency care."})
-cough_symptom           = Symptom.upsert_attributes({:name=>"Cough", :patient_type=>"adult"},{:description=>"Constipation usually isn't serious and improves with a well-balanced diet and increased water intake. Identify other possible common causes based on symptoms you’re experiencing."})
-constipation_symptom 	= Symptom.upsert_attributes({:name=>"Constipation", :patient_type=>"adult"},{:description=>"Cough can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing."})
-diarrhea_symptom 		= Symptom.upsert_attributes({:name=>"Diarrhea", :patient_type=>"adult"}, {:description=>"Diarrhea in adults is common and only rarely due to a serious problem. Identify possible common causes based on symptoms you’re experiencing."})
-difficulty_swallowing_symptom = Symptom.upsert_attributes({:name=>"Difficulty Swallowing", :patient_type=>"adult"} ,  {:description=>"Difficulty swallowing means that it takes more time or effort to swallow. Identify possible common causes based on symptoms you're experiencing."})
-dizziness_symptom 			= Symptom.upsert_attributes({:name=>"Dizziness", :patient_type=>"adult"}, {:description=>"Dizziness can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing."})
-eye_discomfort_symptom 		= Symptom.upsert_attributes({:name=>"Eye Discomfort", :patient_type=>"adult"}, {:description=>"Eye discomfort and redness can be concerning and disrupt your ability to do everyday activities. Identify possible common causes based on symptoms you're experiencing."})
-foot_ankle_pain_symptom 	= Symptom.upsert_attributes({:name=>"Foot/Ankle Pain", :patient_type=>"adult"}, {:description=>"Foot pain or ankle pain can be distressing and limit your ability to get around. Identify possible common causes based on symptoms you’re experiencing."})
-foot_leg_swelling_symptom 	= Symptom.upsert_attributes({:name=>"Foot/Leg Swelling", :patient_type=>"adult"}, {:description=>"Foot or leg swelling occurs because of inflammation or the accumulation of fluid in tissues. Identify possible common causes based on symptoms you're experiencing."})
-headache_symptom 			= Symptom.upsert_attributes({:name=>"Headache", :patient_type=>"adult"}, {:description=>"Headaches are common and usually aren't the result of serious illness. Identify possible common causes based on symptoms you're experiencing."})
-heart_palpitations_symptom 	= Symptom.upsert_attributes({:name=>"Heart Palpitations", :patient_type=>"adult"}, {:description=>"Heart palpitations are racing, uncomfortable or irregular heartbeats or a 'flopping' sensation in your chest. Identify possible common causes based on symptoms you're experiencing."})
-hip_pain_symptom 			= Symptom.upsert_attributes({:name=>"Hip Pain", :patient_type=>"adult"}, {:description=>"Hip pain can affect your ability to move about normally. Identify possible common causes based on symptoms you’re experiencing."})
-knee_pain_symptom 			= Symptom.upsert_attributes({:name=>"Knee Pain", :patient_type=>"adult"}, {:description=>"Knee pain can seriously impair walking and exercise. Identify possible common causes based on symptoms you're experiencing."})
-low_back_pain_symptom 		= Symptom.upsert_attributes({:name=>"Low Back Pain", :patient_type=>"adult"}, {:description=>"Low back pain can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing."})
-nasal_congestion_symptom 	= Symptom.upsert_attributes({:name=>"Nasal Congestion", :patient_type=>"adult"}, {:description=>"Nasal congestion is a common problem in adults. Identify possible common causes based on symptoms you're experiencing."})
-nausea_or_vomiting_symptom 	= Symptom.upsert_attributes({:name=>"Nausea of Vomiting", :patient_type=>"adult"}, {:description=>"Nausea or vomiting is most often caused by the stomach flu. Identify other possible common causes based on symptoms you're experiencing."})
-neck_pain_symptom 			= Symptom.upsert_attributes({:name=>"Neck Pain", :patient_type=>"adult"}, {:description=>"Neck pain may be a short-term problem or a chronic disability. Identify possible common causes based on symptoms you're experiencing."})
-numbness_in_hands_symptom 	= Symptom.upsert_attributes({:name=>"Numbness in Hands", :patient_type=>"adult"}, {:description=>"Numbness or tingling in hands is often triggered by injury or repetitive use. Identify possible common causes based on symptoms you're experiencing."})
-pelvic_pain_female_symptom 	= Symptom.upsert_attributes({:name=>"Pelvic Pain (Female)", :patient_type=>"adult"}, {:description=>"Pelvic pain in women can be caused by a wide variety of diseases and conditions. Identify possible common causes based on symptoms you’re experiencing."})
-pelvic_pain_male_symptom 	= Symptom.upsert_attributes({:name=>"Pelvic Pain (Male)", :patient_type=>"adult"}, {:description=>"Pelvic pain in men can be concerning. Identify possible common causes based on symptoms you're experiencing."})
-shortness_of_breath_symptom = Symptom.upsert_attributes({:name=>"Shortness of Breath", :patient_type=>"adult"}, {:description=>"Shortness of breath can signal a number of conditions that need prompt medical care. Identify possible common causes based on symptoms you're experiencing."})
-shoulder_pain_symptom 		= Symptom.upsert_attributes({:name=>"Shoulder Pain", :patient_type=>"adult"}, {:description=>"Shoulder pain often is due to a mechanical problem in the shoulder joint. Identify possible common causes based on symptoms you're experiencing."})
-sore_throat_symptom 		= Symptom.upsert_attributes({:name=>"Sore Throat", :patient_type=>"adult"}, {:description=>"Sore throat is a common problem. Identify possible causes based on symptoms you're experiencing."})
-urinary_problems_symptom 	= Symptom.upsert_attributes({:name=>"Urinary Problems", :patient_type=>"adult"}, {:description=>"Urinary problems are a common complaint among adults. Identify possible common causes based on symptoms you're experiencing."})
-vision_problems_symptom 	= Symptom.upsert_attributes({:name=>"Vision Problems", :patient_type=>"adult"}, {:description=>"Vision problems, even those easily corrected, can greatly affect everyday activities. Identify possible common causes based on symptoms you're experiencing."})
-wheezing_symptom 			= Symptom.upsert_attributes({:name=>"Wheezing", :patient_type=>"adult"}, {:description=>"Wheezing is a high-pitched, whistling noise that occurs with breathing. Identify possible common causes based on symptoms you're experiencing."})
+#Symptoms - ADULT
+##############################
+abdominal_pain_symptom  = Symptom.upsert_attributes({:name=>"Abdominal Pain", :patient_type=>"adult"}, 
+	{:description=>"Abdominal pain can indicate a wide variety of medical conditions. Identify possible common causes based on symptoms you're experiencing.",
+	 :selfcare=>"The following self-care tips may be beneficial for mild abdominal pain, but you should still see your doctor for a prompt diagnosis and appropriate treatment."	
+	})
 
+blood_in_stool_symptom  = Symptom.upsert_attributes({:name=>"Blood in Stool", :patient_type=>"adult"}, 
+	{:description=>"Blood in the stool requires a prompt diagnosis. Identify possible common causes based on symptoms you’re experiencing."})
+
+chest_pain_symptom      = Symptom.upsert_attributes({:name=>"Chest Pain", :patient_type=>"adult" }, 
+	{:description=>"Chest pain can indicate a serious condition. Identify possible common causes based on symptoms you're experiencing and learn when to get emergency care."})
+
+cough_symptom           = Symptom.upsert_attributes({:name=>"Cough", :patient_type=>"adult"},
+	{:description=>"Cough can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing.",
+	 :selfcare=>"To soothe your cough:"
+	})
+
+constipation_symptom 	= Symptom.upsert_attributes({:name=>"Constipation", :patient_type=>"adult"},
+	{:description=>"Constipation usually isn't serious and improves with a well-balanced diet and increased water intake. Identify other possible common causes based on symptoms you’re experiencing.",
+	 :selfcare=>"Constipation is a common problem and usually not the result of a serious illness. Lifestyle changes that can help you manage constipation include the following:"
+	})
+
+diarrhea_symptom 		= Symptom.upsert_attributes({:name=>"Diarrhea", :patient_type=>"adult"},
+	{:description=>"Diarrhea in adults is common and only rarely due to a serious problem. Identify possible common causes based on symptoms you’re experiencing.",
+		:selfcare=>"Most cases of diarrhea resolve without treatment within a couple of days. In the meantime:"
+	})
+
+difficulty_swallowing_symptom = Symptom.upsert_attributes({:name=>"Difficulty Swallowing", :patient_type=>"adult"},
+	{:description=>"Difficulty swallowing means that it takes more time or effort to swallow. Identify possible common causes based on symptoms you're experiencing."})
+
+dizziness_symptom 			= Symptom.upsert_attributes({:name=>"Dizziness", :patient_type=>"adult"},
+	{:description=>"Dizziness can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing."})
+
+eye_discomfort_symptom 		= Symptom.upsert_attributes({:name=>"Eye Discomfort", :patient_type=>"adult"},
+	{:description=>"Eye discomfort and redness can be concerning and disrupt your ability to do everyday activities. Identify possible common causes based on symptoms you're experiencing."})
+
+foot_ankle_pain_symptom 	= Symptom.upsert_attributes({:name=>"Foot/Ankle Pain", :patient_type=>"adult"},
+	{:description=>"Foot pain or ankle pain can be distressing and limit your ability to get around. Identify possible common causes based on symptoms you’re experiencing.",
+	 :selfcare=>"If you've injured your foot or ankle, follow these guidelines, often called the P.R.I.C.E. treatment:"
+	 })
+foot_leg_swelling_symptom 	= Symptom.upsert_attributes({:name=>"Foot/Leg Swelling", :patient_type=>"adult"},
+	{:description=>"Foot or leg swelling occurs because of inflammation or the accumulation of fluid in tissues. Identify possible common causes based on symptoms you're experiencing.",
+	 :selfcare=>"If you experience leg or foot swelling not related to an injury or joint pain, you may try the following self-care strategies to lessen symptoms:"
+	 })
+headache_symptom 			= Symptom.upsert_attributes({:name=>"Headache", :patient_type=>"adult"},
+	{:description=>"Headaches are common and usually aren't the result of serious illness. Identify possible common causes based on symptoms you're experiencing.",
+	 :selfcare=>"For occasional tension headaches, the following self-care strategies may provide relief:"
+	 })
+heart_palpitations_symptom 	= Symptom.upsert_attributes({:name=>"Heart Palpitations", :patient_type=>"adult"},
+	{:description=>"Heart palpitations are racing, uncomfortable or irregular heartbeats or a 'flopping' sensation in your chest. Identify possible common causes based on symptoms you're experiencing."})
+hip_pain_symptom 			= Symptom.upsert_attributes({:name=>"Hip Pain", :patient_type=>"adult"}, 
+	{:description=>"Hip pain can affect your ability to move about normally. Identify possible common causes based on symptoms you’re experiencing.",
+	 :selfcare=>"The following self-care strategies may temporarily lessen pain in your hip:"
+	})
+knee_pain_symptom 			= Symptom.upsert_attributes({:name=>"Knee Pain", :patient_type=>"adult"},
+	{:description=>"Knee pain can seriously impair walking and exercise. Identify possible common causes based on symptoms you're experiencing.",
+	:selfcare=>"You may temporarily lessen pain with an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers. If you're experiencing knee pain, follow these guidelines, often called the P.R.I.C.E. treatment:"
+	})
+low_back_pain_symptom 		= Symptom.upsert_attributes({:name=>"Low Back Pain", :patient_type=>"adult"},
+	{:description=>"Low back pain can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing.",
+	 :selfcare=>"Back pain usually improves on its own. In the meantime, try these strategies:"
+	})
+nasal_congestion_symptom 	= Symptom.upsert_attributes({:name=>"Nasal Congestion", :patient_type=>"adult"},
+	{:description=>"Nasal congestion is a common problem in adults. Identify possible common causes based on symptoms you're experiencing.",
+	 :selfcare=>"To relieve a stuffy nose:"
+	 })
+nausea_or_vomiting_symptom 	= Symptom.upsert_attributes({:name=>"Nausea of Vomiting", :patient_type=>"adult"},
+	{:description=>"Nausea or vomiting is most often caused by the stomach flu. Identify other possible common causes based on symptoms you're experiencing.",
+	 :selfcare=>"If you're experiencing nausea or vomiting:"
+	 })
+neck_pain_symptom 			= Symptom.upsert_attributes({:name=>"Neck Pain", :patient_type=>"adult"},
+	{:description=>"Neck pain may be a short-term problem or a chronic disability. Identify possible common causes based on symptoms you're experiencing.",
+	:selfcare=>"The following tips may help relieve mild to moderate neck pain:"
+	})
+numbness_in_hands_symptom 	= Symptom.upsert_attributes({:name=>"Numbness in Hands", :patient_type=>"adult"},
+	{:description=>"Numbness or tingling in hands is often triggered by injury or repetitive use. Identify possible common causes based on symptoms you're experiencing."})
+pelvic_pain_female_symptom 	= Symptom.upsert_attributes({:name=>"Pelvic Pain (Female)", :patient_type=>"adult"},
+	{:description=>"Pelvic pain in women can be caused by a wide variety of diseases and conditions. Identify possible common causes based on symptoms you’re experiencing."})
+pelvic_pain_male_symptom 	= Symptom.upsert_attributes({:name=>"Pelvic Pain (Male)", :patient_type=>"adult"},
+	{:description=>"Pelvic pain in men can be concerning. Identify possible common causes based on symptoms you're experiencing."})
+shortness_of_breath_symptom = Symptom.upsert_attributes({:name=>"Shortness of Breath", :patient_type=>"adult"},
+	{:description=>"Shortness of breath can signal a number of conditions that need prompt medical care. Identify possible common causes based on symptoms you're experiencing."})
+shoulder_pain_symptom 		= Symptom.upsert_attributes({:name=>"Shoulder Pain", :patient_type=>"adult"},
+	{:description=>"Shoulder pain often is due to a mechanical problem in the shoulder joint. Identify possible common causes based on symptoms you're experiencing.",
+	 :selfcare=>"The following self-care strategies may lessen mild to moderate shoulder pain:"
+	 })
+sore_throat_symptom 		= Symptom.upsert_attributes({:name=>"Sore Throat", :patient_type=>"adult"},
+	{:description=>"Sore throat is a common problem. Identify possible causes based on symptoms you're experiencing.",
+	:selfcare=>"Most sore throats go away within about a week. In the meantime, try these tips:"
+	})
+urinary_problems_symptom 	= Symptom.upsert_attributes({:name=>"Urinary Problems", :patient_type=>"adult"},
+	{:description=>"Urinary problems are a common complaint among adults. Identify possible common causes based on symptoms you're experiencing."})
+vision_problems_symptom 	= Symptom.upsert_attributes({:name=>"Vision Problems", :patient_type=>"adult"},
+	{:description=>"Vision problems, even those easily corrected, can greatly affect everyday activities. Identify possible common causes based on symptoms you're experiencing."})
+wheezing_symptom 			= Symptom.upsert_attributes({:name=>"Wheezing", :patient_type=>"adult"}, 
+	{:description=>"Wheezing is a high-pitched, whistling noise that occurs with breathing. Identify possible common causes based on symptoms you're experiencing.",
+	 :selfcare=>"Wheezing requires medical attention. But taking good care of yourself can help:"})
+
+#Symptoms - CHILD
+##############################
+
+vision_problems_symptom_child 	= Symptom.upsert_attributes({:name=>"Vision Problems", :patient_type=>"child"},
+	{:description=>"Vision problems in children can be difficult to detect. Identify possible common causes based on signs and symptoms your child may have."})
+wheezing_symptom_child	= Symptom.upsert_attributes({:name=>"Wheezing", :patient_type=>"child"}, 
+	{:description=>"Wheezing is a high-pitched, whistling noise that occurs with breathing. Identify possible common causes based on symptoms your child is experiencing."})
 
 #SymptomsFactor
 
