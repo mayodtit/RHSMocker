@@ -90,10 +90,11 @@ class Content < ActiveRecord::Base
     mcvid_array
   end
 
+  CONTENT_TYPES = %w(Article Answer HealthTip FirstAid)
+
   # Utility Methods to be removed
   def self.getRandomContent
-    types = ["Article", "Answer", "Health Tip", "First Aid"]
-    Content.where(:content_type => types).first(:order => "RANDOM()")
+    Content.where(:content_type => CONTENT_TYPES).first(:order => "RANDOM()")
   end
 
   CSV_COLUMNS = %w(id mayo_doc_id content_type title)
