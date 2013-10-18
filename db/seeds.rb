@@ -611,7 +611,59 @@ wheezing_symptom 			= Symptom.upsert_attributes({:name=>"Wheezing", :patient_typ
 
 #Symptoms - CHILD
 ##############################
-
+abdominal_pain_symptom_child		= Symptom.upsert_attributes({:name=>"Abdominal Pain", :patient_type=>"child"},
+	{:description=>"Abdominal pain is common in children and often is the result of stomach flu. Identify other possible common causes based on your child's symptoms.",
+	 :selfcare=>"The following self-care tips may be beneficial for mild abdominal pain:"
+	})
+constipation_symptom_child		= Symptom.upsert_attributes({:name=>"Constipation", :patient_type=>"child"},
+	{:description=>"Constipation in children is most often caused by poor diet or poor bowel habits. Identify other common causes of constipation based on your child's symptoms.",
+	 :selfcare=>"If your child is constipated:"
+	})
+cough_symptom_child		= Symptom.upsert_attributes({:name=>"Cough", :patient_type=>"child"},
+	{:description=>"Infections, allergies and asthma can cause coughs in children. Identify possible common causes based on symptoms your child is experiencing.",
+	 :selfcare=>"To soothe your child's cough:"
+	})
+decreased_hearing_symptom_child		= Symptom.upsert_attributes({:name=>"Decreased Hearing", :patient_type=>"child"},
+	{:description=>"Middle ear infection is the most common cause of decreased hearing in children. Identify other possible common causes based on your child's symptoms."
+	})
+diarrhea_symptom_child 		= Symptom.upsert_attributes({:name=>"Diarrhea", :patient_type=>"child"},
+	{:description=>"Diarrhea in children is common and is only rarely due to a serious problem. Identify possible common causes based on symptoms your child is experiencing.",
+	 :selfcare=>"Most cases of diarrhea resolve without treatment within a couple of days. In the meantime, follow these recommendations:"
+	})
+earache_symptom_child  = Symptom.upsert_attributes({:name=>"Earache", :patient_type=>"child"},
+	{:description=>"Middle ear infection is the most common cause of earache in children. Identify other possible common causes based on symptoms your child is experiencing.",
+	 :selfcare=>"To relieve your child's discomfort:"})
+eye_discomfort_and_red_symptom_child  = Symptom.upsert_attributes({:name=>"Eye Discomfort and Redness", :patient_type=>"child"},
+	{:description=>"Eye discomfort and redness can be concerning and disrupt your ability to do everyday activities. Identify possible common causes based on symptoms you're experiencing."})
+fever_symptom_child	= Symptom.upsert_attributes({:name=>"Fever", :patient_type=>"child"},
+	{:description=>"Childhood fevers are common and not necessarily a serious concern. Identify common causes of fever based on your child's symptoms.",
+	 :selfcare=>"The goal for treating a fever is to make your child less uncomfortable and better able to rest. These self-care strategies may help:"
+	 })
+headache_symptom_child	= Symptom.upsert_attributes({:name=>"Headache", :patient_type=>"child"},
+	{:description=>"Headaches are common and usually aren't the result of serious illness. Identify possible common causes based on your child's symptoms.",
+	 :selfcare=>"For occasional tension headaches, the following self-care strategies may provide relief for your child:"
+	 })
+joint_muscle_pain_symptom_child = Symptom.upsert_attributes({:name=>"Joint or Muscle Pain", :patient_type=>"child"},
+	{:description=>"Joint pain and muscle pain is fairly common and often due to active lifestyles. Identify other possible causes based on your child's symptoms.",
+	 :selfcare=>"You may temporarily lessen pain with an over-the-counter children's pain reliever, such as ibuprofen (Advil, Motrin, others) or acetaminophen (Tylenol, others) — but not aspirin. Use only as directed on the label, and do not give your child combinations of pain relievers. If your child is experiencing pain from a sprain or fall, you may provide some relief with the following self-care strategies:"
+	 })
+nasal_congestion_symptom_child = Symptom.upsert_attributes({:name=>"Nasal Congestion", :patient_type=>"child"},
+	{:description=>"Nasal congestion is a common problem in children. Identify possible common causes based on symptoms your child is experiencing.",
+	 :selfcare=>"To relieve your child's stuffy nose:"
+	 })
+nausea_or_vomiting_symptom_child = Symptom.upsert_attributes({:name=>"Nausea of Vomiting", :patient_type=>"child"},
+	{:description=>"Nausea or vomiting is most often caused by the stomach flu. Identify other possible common causes based on symptoms you're experiencing.",
+	 :selfcare=>"The following strategies can lessen discomfort and prevent dehydration if your child experiences nausea or vomiting:"
+	 })
+skin_rash_symptom_child	= Symptom.upsert_attributes({:name=>"Skin Rash", :patient_type=>"child"},
+	{:description=>"Nausea or vomiting in children is a common problem. Identify possible causes based on the symptoms your child is experiencing."
+	})
+sore_throat_symptom_child	= Symptom.upsert_attributes({:name=>"Sore Throat", :patient_type=>"child"},
+	{:description=>"Sore throat is common during childhood. Identify possible causes based on your child's symptoms.",
+	:selfcare=>"The following tips may help soothe your child's sore throat:"
+	})
+urinary_problems_symptom_child	= Symptom.upsert_attributes({:name=>"Urinary Problems", :patient_type=>"child"},
+	{:description=>"Urinary problems are common. Consider what may be causing your child's signs and symptoms."})
 vision_problems_symptom_child 	= Symptom.upsert_attributes({:name=>"Vision Problems", :patient_type=>"child"},
 	{:description=>"Vision problems in children can be difficult to detect. Identify possible common causes based on signs and symptoms your child may have."})
 wheezing_symptom_child	= Symptom.upsert_attributes({:name=>"Wheezing", :patient_type=>"child"}, 
