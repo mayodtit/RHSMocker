@@ -155,6 +155,7 @@ class Member < User
       contents = Content.joins(:mayo_vocabularies)
                         .where(:mayo_vocabularies => {:mcvid => age_array})
                         .where("contents.id NOT IN (#{cards.where(:resource_type => Content).pluck(:resource_id).join(', ')})")
+                        .where(:content_type => Content::CONTENT_TYPES)
                         .reject{|c| gender_not_array.include?(c.id)}
 
        # Cannot be in reading list
