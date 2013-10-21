@@ -378,7 +378,7 @@ difficulty_swallowing_factor            = Factor.find_or_create_by_name(:name=>"
 
 
 drinking_alcohol_factor = Factor.find_or_create_by_name(:name=>"Drinking alcohol")
-drinking_alcohol_or_caffenine_factor = Factor.find_or_create_by_name(:name=>"Drinking alcohol or caffenine")
+drinking_alcohol_or_caffenine_factor = Factor.find_or_create_by_name(:name=>"Drinking alcohol or caffeine")
 drinking_more_water_factor = Factor.find_or_create_by_name(:name=>"Drinking more water")
 dry_factor              = Factor.find_or_create_by_name(:name=>"Dry")
 dry_cough_factor        = Factor.find_or_create_by_name(:name=>"Dry cough")
