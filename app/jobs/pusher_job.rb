@@ -7,7 +7,6 @@ class PusherJob
     return if user.hasMaxContent
     content = user.getContent
     return unless content
-    user.user_readings.create(content: content)
     user.cards.create(resource: content)
     PusherModule.broadcast(user.pusher_id, 'newcontent', content.id, content.content_type)
   end

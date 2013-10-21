@@ -1,3 +1,5 @@
+#encoding: utf-8
+
 Content.upsert_attributes({:title => 'Welcome to Better!'},
                           {:content_type => 'Content',
                            :body => 'Thank you for installing Better!'})
@@ -243,32 +245,28 @@ numbness_or_tingling_is_factor_group = FactorGroup.find_or_create_by_name(:name=
 onset_factor_group            = FactorGroup.find_or_create_by_name(:name=>"Onset")
 onset_is_factor_group         = FactorGroup.find_or_create_by_name(:name=>"Onset is")
 pain_factor_group             = FactorGroup.find_or_create_by_name(:name=>"Pain")
-pain_best_described_as_factor_group       = FactorGroup.find_or_create_by_name(:name=>"Pain best described as")
-pain_is_factor_group 		      = FactorGroup.find_or_create_by_name(:name=>"Pain is")
-pain_located_factor_group     = FactorGroup.find_or_create_by_name(:name=>"Pain located")
-pain_started_factor_group     = FactorGroup.find_or_create_by_name(:name=>"Pain started")
+pain_best_described_as_factor_group     = FactorGroup.find_or_create_by_name(:name=>"Pain best described as")
+pain_is_factor_group 		      		= FactorGroup.find_or_create_by_name(:name=>"Pain is")
+pain_located_factor_group     			= FactorGroup.find_or_create_by_name(:name=>"Pain located")
+pain_started_factor_group     			= FactorGroup.find_or_create_by_name(:name=>"Pain started")
 palpitations_often_occur_when_factor_group   = FactorGroup.find_or_create_by_name(:name=>"Palpitations often occur when")
-preceded_by_factor_group      = FactorGroup.find_or_create_by_name(:name=>"Preceded by")
-preceded_by_use_of_factor_group   = FactorGroup.find_or_create_by_name(:name=>"Preceded by use of")
-problem_affects_factor_group   = FactorGroup.find_or_create_by_name(:name=>"Problem affects")
-problem_is_factor_group       = FactorGroup.find_or_create_by_name(:name=>"Problem is")
-recurrence_of_headache_factor_group    = FactorGroup.find_or_create_by_name(:name=>"Recurrence of headache")
-related_pain_involves_factor_group     = FactorGroup.find_or_create_by_name(:name=>"Related pain involves")
-relieved_by_factor_group      = FactorGroup.find_or_create_by_name(:name=>"Relieved by")
-swallowing_factor_group       = FactorGroup.find_or_create_by_name(:name=>"Swallowing")
-swelling_occurs_factor_group  = FactorGroup.find_or_create_by_name(:name=>"Swelling occurs")
-symptoms_are_factor_group     = FactorGroup.find_or_create_by_name(:name=>"Symptoms are")
-triggered_by_factor_group     = FactorGroup.find_or_create_by_name(:name=>"Triggered by")
+preceded_by_factor_group      			= FactorGroup.find_or_create_by_name(:name=>"Preceded by")
+preceded_by_use_of_factor_group   		= FactorGroup.find_or_create_by_name(:name=>"Preceded by use of")
+problem_affects_factor_group   			= FactorGroup.find_or_create_by_name(:name=>"Problem affects")
+problem_is_factor_group       			= FactorGroup.find_or_create_by_name(:name=>"Problem is")
+recurrence_of_headache_factor_group    	= FactorGroup.find_or_create_by_name(:name=>"Recurrence of headache")
+related_pain_involves_factor_group     	= FactorGroup.find_or_create_by_name(:name=>"Related pain involves")
+relieved_by_factor_group     			= FactorGroup.find_or_create_by_name(:name=>"Relieved by")
+swallowing_factor_group       			= FactorGroup.find_or_create_by_name(:name=>"Swallowing")
+swelling_occurs_factor_group  			= FactorGroup.find_or_create_by_name(:name=>"Swelling occurs")
+symptoms_are_factor_group     			= FactorGroup.find_or_create_by_name(:name=>"Symptoms are")
+triggered_by_factor_group     			= FactorGroup.find_or_create_by_name(:name=>"Triggered by")
 triggered_or_worsened_by_factor_group   = FactorGroup.find_or_create_by_name(:name=>"Triggered or worsened by")
 vision_improves_somewhat_factor_group   = FactorGroup.find_or_create_by_name(:name=>"Vision improves somewhat with")
 vision_problem_includes_factor_group    = FactorGroup.find_or_create_by_name(:name=>"Vision problem includes")
-wheezing_is_factor_group      = FactorGroup.find_or_create_by_name(:name=>"Wheezing is")
-worsened_by_factor_group      = FactorGroup.find_or_create_by_name(:name=>"Worsened by")
-you_feel_factor_group         = FactorGroup.find_or_create_by_name(:name=>"You feel")
-
-#Special Case Factor Groups
-important_factor_group 		  = FactorGroup.find_or_create_by_name(:name=>"Important")
-
+wheezing_is_factor_group      			= FactorGroup.find_or_create_by_name(:name=>"Wheezing is")
+worsened_by_factor_group      			= FactorGroup.find_or_create_by_name(:name=>"Worsened by")
+you_feel_factor_group         			= FactorGroup.find_or_create_by_name(:name=>"You feel")
 
 #Factor
 #_factor          = Factor.find_or_create_by_name(:name=>" ")
@@ -362,20 +360,16 @@ buzzing_or_ringing_in_ear_factor          = Factor.find_or_create_by_name(:name=
 ##??
 ##abdomen_swollen_or_tender_factor = Factor.find_or_create_by_name(:name=>"Abdomen swollen or tender")
 
-
-
-change_in_bowel_habits_factor   = Factor.find_or_create_by_name(:name=>"Change in your bowel habits")
-changing_position_factor        = Factor.find_or_create_by_name(:name=>"Changing position")
-chest_pain_or_tightness_factor  = Factor.find_or_create_by_name(:name=>"Chest pain or tightness")
-chills_or_sweating_factor       = Factor.find_or_create_by_name(:name=>"Chills or sweating")
-
-chronic_ongoing_factor  = Factor.find_or_create_by_name(:name=>"Chronic, ongoing")
-constipation_factor     = Factor.find_or_create_by_name(:name=>"Constipation")
-crampy_factor           = Factor.find_or_create_by_name(:name=>"Crampy")
-cramping_factor         = Factor.find_or_create_by_name(:name=>"Cramping")
-coughing_or_jarring_movements_factor = Factor.find_or_create_by_name(:name=>"Coughing or jarring movements")
-cough_with_blood_phlegm_factor       = Factor.find_or_create_by_name(:name=>"Cough with blood or phlegm")
-
+change_in_bowel_habits_factor   		= Factor.find_or_create_by_name(:name=>"Change in your bowel habits")
+changing_position_factor        		= Factor.find_or_create_by_name(:name=>"Changing position")
+chest_pain_or_tightness_factor  		= Factor.find_or_create_by_name(:name=>"Chest pain or tightness")
+chills_or_sweating_factor       		= Factor.find_or_create_by_name(:name=>"Chills or sweating")
+chronic_ongoing_factor  				= Factor.find_or_create_by_name(:name=>"Chronic, ongoing")
+constipation_factor     				= Factor.find_or_create_by_name(:name=>"Constipation")
+crampy_factor           				= Factor.find_or_create_by_name(:name=>"Crampy")
+cramping_factor         				= Factor.find_or_create_by_name(:name=>"Cramping")
+coughing_or_jarring_movements_factor 	= Factor.find_or_create_by_name(:name=>"Coughing or jarring movements")
+cough_with_blood_phlegm_factor       	= Factor.find_or_create_by_name(:name=>"Cough with blood or phlegm")
 
 diarrhea_factor                         = Factor.find_or_create_by_name(:name=>"Diarrhea")
 difficult_or_painful_swallowing_factor  = Factor.find_or_create_by_name(:name=>"Difficult or painful swallowing")
@@ -384,7 +378,7 @@ difficulty_swallowing_factor            = Factor.find_or_create_by_name(:name=>"
 
 
 drinking_alcohol_factor = Factor.find_or_create_by_name(:name=>"Drinking alcohol")
-drinking_alcohol_or_caffenine_factor = Factor.find_or_create_by_name(:name=>"Drinking alcohol or caffenine")
+drinking_alcohol_or_caffenine_factor = Factor.find_or_create_by_name(:name=>"Drinking alcohol or caffeine")
 drinking_more_water_factor = Factor.find_or_create_by_name(:name=>"Drinking more water")
 dry_factor              = Factor.find_or_create_by_name(:name=>"Dry")
 dry_cough_factor        = Factor.find_or_create_by_name(:name=>"Dry cough")
@@ -516,36 +510,164 @@ wheezing_factor = Factor.find_or_create_by_name(:name=>"Wheezing")
 vomiting_blood_factor = Factor.find_or_create_by_name(:name=>"Vomiting blood ")
 
 
-#Symptom
-abdominal_pain_symptom  = Symptom.find_or_create_by_name_and_patient_type(:name=>"Abdominal Pain", :patient_type=>"adult")
-blood_in_stool_symptom  = Symptom.find_or_create_by_name_and_patient_type(:name=>"Blood in Stool", :patient_type=>"adult")
-chest_pain_symptom      = Symptom.find_or_create_by_name_and_patient_type(:name=>"Chest Pain", :patient_type=>"adult")
-cough_symptom           = Symptom.find_or_create_by_name_and_patient_type(:name=>"Cough", :patient_type=>"adult")
-constipation_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Constipation", :patient_type=>"adult")
-diarrhea_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Diarrhea", :patient_type=>"adult")
-difficulty_swallowing_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Difficulty Swallowing", :patient_type=>"adult")
-dizziness_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Dizziness", :patient_type=>"adult")
-eye_discomfort_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Eye Discomfort", :patient_type=>"adult")
-foot_ankle_pain_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Foot/Ankle Pain", :patient_type=>"adult")
-foot_leg_swelling_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Foot/Leg Swelling", :patient_type=>"adult")
-headache_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Headache", :patient_type=>"adult")
-heart_palpitations_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Heart Palpitations", :patient_type=>"adult")
-hip_pain_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Hip Pain", :patient_type=>"adult")
-knee_pain_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Knee Pain", :patient_type=>"adult")
-low_back_pain_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Low Back Pain", :patient_type=>"adult")
-nasal_congestion_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Nasal Congestion", :patient_type=>"adult")
-nausea_or_vomiting_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Nausea of Vomiting", :patient_type=>"adult")
-neck_pain_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Neck Pain", :patient_type=>"adult")
-numbness_in_hands_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Numbness in Hands", :patient_type=>"adult")
-pelvic_pain_female_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Pelvic Pain (Female)", :patient_type=>"adult")
-pelvic_pain_male_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Pelvic Pain (Male)", :patient_type=>"adult")
-shortness_of_breath_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Shortness of Breath", :patient_type=>"adult")
-shoulder_pain_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Shoulder Pain", :patient_type=>"adult")
-sore_throat_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Sore Throat", :patient_type=>"adult")
-urinary_problems_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Urinary Problems", :patient_type=>"adult")
-vision_problems_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Vision Problems", :patient_type=>"adult")
-wheezing_symptom = Symptom.find_or_create_by_name_and_patient_type(:name=>"Wheezing", :patient_type=>"adult")
+#Symptoms - ADULT
+##############################
+abdominal_pain_symptom  = Symptom.upsert_attributes({:name=>"Abdominal Pain", :patient_type=>"adult"}, 
+	{:description=>"Abdominal pain can indicate a wide variety of medical conditions. Identify possible common causes based on symptoms you're experiencing.",
+	 :selfcare=>"The following self-care tips may be beneficial for mild abdominal pain, but you should still see your doctor for a prompt diagnosis and appropriate treatment."	
+	})
 
+blood_in_stool_symptom  = Symptom.upsert_attributes({:name=>"Blood in Stool", :patient_type=>"adult"}, 
+	{:description=>"Blood in the stool requires a prompt diagnosis. Identify possible common causes based on symptoms you’re experiencing."})
+
+chest_pain_symptom      = Symptom.upsert_attributes({:name=>"Chest Pain", :patient_type=>"adult" }, 
+	{:description=>"Chest pain can indicate a serious condition. Identify possible common causes based on symptoms you're experiencing and learn when to get emergency care."})
+
+cough_symptom           = Symptom.upsert_attributes({:name=>"Cough", :patient_type=>"adult"},
+	{:description=>"Cough can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing.",
+	 :selfcare=>"To soothe your cough:"
+	})
+
+constipation_symptom 	= Symptom.upsert_attributes({:name=>"Constipation", :patient_type=>"adult"},
+	{:description=>"Constipation usually isn't serious and improves with a well-balanced diet and increased water intake. Identify other possible common causes based on symptoms you’re experiencing.",
+	 :selfcare=>"Constipation is a common problem and usually not the result of a serious illness. Lifestyle changes that can help you manage constipation include the following:"
+	})
+
+diarrhea_symptom 		= Symptom.upsert_attributes({:name=>"Diarrhea", :patient_type=>"adult"},
+	{:description=>"Diarrhea in adults is common and only rarely due to a serious problem. Identify possible common causes based on symptoms you’re experiencing.",
+		:selfcare=>"Most cases of diarrhea resolve without treatment within a couple of days. In the meantime:"
+	})
+
+difficulty_swallowing_symptom = Symptom.upsert_attributes({:name=>"Difficulty Swallowing", :patient_type=>"adult"},
+	{:description=>"Difficulty swallowing means that it takes more time or effort to swallow. Identify possible common causes based on symptoms you're experiencing."})
+
+dizziness_symptom 			= Symptom.upsert_attributes({:name=>"Dizziness", :patient_type=>"adult"},
+	{:description=>"Dizziness can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing."})
+
+eye_discomfort_symptom 		= Symptom.upsert_attributes({:name=>"Eye Discomfort", :patient_type=>"adult"},
+	{:description=>"Eye discomfort and redness can be concerning and disrupt your ability to do everyday activities. Identify possible common causes based on symptoms you're experiencing."})
+
+foot_ankle_pain_symptom 	= Symptom.upsert_attributes({:name=>"Foot/Ankle Pain", :patient_type=>"adult"},
+	{:description=>"Foot pain or ankle pain can be distressing and limit your ability to get around. Identify possible common causes based on symptoms you’re experiencing.",
+	 :selfcare=>"If you've injured your foot or ankle, follow these guidelines, often called the P.R.I.C.E. treatment:"
+	 })
+foot_leg_swelling_symptom 	= Symptom.upsert_attributes({:name=>"Foot/Leg Swelling", :patient_type=>"adult"},
+	{:description=>"Foot or leg swelling occurs because of inflammation or the accumulation of fluid in tissues. Identify possible common causes based on symptoms you're experiencing.",
+	 :selfcare=>"If you experience leg or foot swelling not related to an injury or joint pain, you may try the following self-care strategies to lessen symptoms:"
+	 })
+headache_symptom 			= Symptom.upsert_attributes({:name=>"Headache", :patient_type=>"adult"},
+	{:description=>"Headaches are common and usually aren't the result of serious illness. Identify possible common causes based on symptoms you're experiencing.",
+	 :selfcare=>"For occasional tension headaches, the following self-care strategies may provide relief:"
+	 })
+heart_palpitations_symptom 	= Symptom.upsert_attributes({:name=>"Heart Palpitations", :patient_type=>"adult"},
+	{:description=>"Heart palpitations are racing, uncomfortable or irregular heartbeats or a 'flopping' sensation in your chest. Identify possible common causes based on symptoms you're experiencing."})
+hip_pain_symptom 			= Symptom.upsert_attributes({:name=>"Hip Pain", :patient_type=>"adult"}, 
+	{:description=>"Hip pain can affect your ability to move about normally. Identify possible common causes based on symptoms you’re experiencing.",
+	 :selfcare=>"The following self-care strategies may temporarily lessen pain in your hip:"
+	})
+knee_pain_symptom 			= Symptom.upsert_attributes({:name=>"Knee Pain", :patient_type=>"adult"},
+	{:description=>"Knee pain can seriously impair walking and exercise. Identify possible common causes based on symptoms you're experiencing.",
+	:selfcare=>"You may temporarily lessen pain with an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers. If you're experiencing knee pain, follow these guidelines, often called the P.R.I.C.E. treatment:"
+	})
+low_back_pain_symptom 		= Symptom.upsert_attributes({:name=>"Low Back Pain", :patient_type=>"adult"},
+	{:description=>"Low back pain can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing.",
+	 :selfcare=>"Back pain usually improves on its own. In the meantime, try these strategies:"
+	})
+nasal_congestion_symptom 	= Symptom.upsert_attributes({:name=>"Nasal Congestion", :patient_type=>"adult"},
+	{:description=>"Nasal congestion is a common problem in adults. Identify possible common causes based on symptoms you're experiencing.",
+	 :selfcare=>"To relieve a stuffy nose:"
+	 })
+nausea_or_vomiting_symptom 	= Symptom.upsert_attributes({:name=>"Nausea of Vomiting", :patient_type=>"adult"},
+	{:description=>"Nausea or vomiting is most often caused by the stomach flu. Identify other possible common causes based on symptoms you're experiencing.",
+	 :selfcare=>"If you're experiencing nausea or vomiting:"
+	 })
+neck_pain_symptom 			= Symptom.upsert_attributes({:name=>"Neck Pain", :patient_type=>"adult"},
+	{:description=>"Neck pain may be a short-term problem or a chronic disability. Identify possible common causes based on symptoms you're experiencing.",
+	:selfcare=>"The following tips may help relieve mild to moderate neck pain:"
+	})
+numbness_in_hands_symptom 	= Symptom.upsert_attributes({:name=>"Numbness in Hands", :patient_type=>"adult"},
+	{:description=>"Numbness or tingling in hands is often triggered by injury or repetitive use. Identify possible common causes based on symptoms you're experiencing."})
+pelvic_pain_female_symptom 	= Symptom.upsert_attributes({:name=>"Pelvic Pain (Female)", :patient_type=>"adult"},
+	{:description=>"Pelvic pain in women can be caused by a wide variety of diseases and conditions. Identify possible common causes based on symptoms you’re experiencing."})
+pelvic_pain_male_symptom 	= Symptom.upsert_attributes({:name=>"Pelvic Pain (Male)", :patient_type=>"adult"},
+	{:description=>"Pelvic pain in men can be concerning. Identify possible common causes based on symptoms you're experiencing."})
+shortness_of_breath_symptom = Symptom.upsert_attributes({:name=>"Shortness of Breath", :patient_type=>"adult"},
+	{:description=>"Shortness of breath can signal a number of conditions that need prompt medical care. Identify possible common causes based on symptoms you're experiencing."})
+shoulder_pain_symptom 		= Symptom.upsert_attributes({:name=>"Shoulder Pain", :patient_type=>"adult"},
+	{:description=>"Shoulder pain often is due to a mechanical problem in the shoulder joint. Identify possible common causes based on symptoms you're experiencing.",
+	 :selfcare=>"The following self-care strategies may lessen mild to moderate shoulder pain:"
+	 })
+sore_throat_symptom 		= Symptom.upsert_attributes({:name=>"Sore Throat", :patient_type=>"adult"},
+	{:description=>"Sore throat is a common problem. Identify possible causes based on symptoms you're experiencing.",
+	:selfcare=>"Most sore throats go away within about a week. In the meantime, try these tips:"
+	})
+urinary_problems_symptom 	= Symptom.upsert_attributes({:name=>"Urinary Problems", :patient_type=>"adult"},
+	{:description=>"Urinary problems are a common complaint among adults. Identify possible common causes based on symptoms you're experiencing."})
+vision_problems_symptom 	= Symptom.upsert_attributes({:name=>"Vision Problems", :patient_type=>"adult"},
+	{:description=>"Vision problems, even those easily corrected, can greatly affect everyday activities. Identify possible common causes based on symptoms you're experiencing."})
+wheezing_symptom 			= Symptom.upsert_attributes({:name=>"Wheezing", :patient_type=>"adult"}, 
+	{:description=>"Wheezing is a high-pitched, whistling noise that occurs with breathing. Identify possible common causes based on symptoms you're experiencing.",
+	 :selfcare=>"Wheezing requires medical attention. But taking good care of yourself can help:"})
+
+#Symptoms - CHILD
+##############################
+abdominal_pain_symptom_child		= Symptom.upsert_attributes({:name=>"Abdominal Pain", :patient_type=>"child"},
+	{:description=>"Abdominal pain is common in children and often is the result of stomach flu. Identify other possible common causes based on your child's symptoms.",
+	 :selfcare=>"The following self-care tips may be beneficial for mild abdominal pain:"
+	})
+constipation_symptom_child		= Symptom.upsert_attributes({:name=>"Constipation", :patient_type=>"child"},
+	{:description=>"Constipation in children is most often caused by poor diet or poor bowel habits. Identify other common causes of constipation based on your child's symptoms.",
+	 :selfcare=>"If your child is constipated:"
+	})
+cough_symptom_child		= Symptom.upsert_attributes({:name=>"Cough", :patient_type=>"child"},
+	{:description=>"Infections, allergies and asthma can cause coughs in children. Identify possible common causes based on symptoms your child is experiencing.",
+	 :selfcare=>"To soothe your child's cough:"
+	})
+decreased_hearing_symptom_child		= Symptom.upsert_attributes({:name=>"Decreased Hearing", :patient_type=>"child"},
+	{:description=>"Middle ear infection is the most common cause of decreased hearing in children. Identify other possible common causes based on your child's symptoms."
+	})
+diarrhea_symptom_child 		= Symptom.upsert_attributes({:name=>"Diarrhea", :patient_type=>"child"},
+	{:description=>"Diarrhea in children is common and is only rarely due to a serious problem. Identify possible common causes based on symptoms your child is experiencing.",
+	 :selfcare=>"Most cases of diarrhea resolve without treatment within a couple of days. In the meantime, follow these recommendations:"
+	})
+earache_symptom_child  = Symptom.upsert_attributes({:name=>"Earache", :patient_type=>"child"},
+	{:description=>"Middle ear infection is the most common cause of earache in children. Identify other possible common causes based on symptoms your child is experiencing.",
+	 :selfcare=>"To relieve your child's discomfort:"})
+eye_discomfort_and_red_symptom_child  = Symptom.upsert_attributes({:name=>"Eye Discomfort and Redness", :patient_type=>"child"},
+	{:description=>"Eye discomfort and redness can be concerning and disrupt your ability to do everyday activities. Identify possible common causes based on symptoms you're experiencing."})
+fever_symptom_child	= Symptom.upsert_attributes({:name=>"Fever", :patient_type=>"child"},
+	{:description=>"Childhood fevers are common and not necessarily a serious concern. Identify common causes of fever based on your child's symptoms.",
+	 :selfcare=>"The goal for treating a fever is to make your child less uncomfortable and better able to rest. These self-care strategies may help:"
+	 })
+headache_symptom_child	= Symptom.upsert_attributes({:name=>"Headache", :patient_type=>"child"},
+	{:description=>"Headaches are common and usually aren't the result of serious illness. Identify possible common causes based on your child's symptoms.",
+	 :selfcare=>"For occasional tension headaches, the following self-care strategies may provide relief for your child:"
+	 })
+joint_muscle_pain_symptom_child = Symptom.upsert_attributes({:name=>"Joint or Muscle Pain", :patient_type=>"child"},
+	{:description=>"Joint pain and muscle pain is fairly common and often due to active lifestyles. Identify other possible causes based on your child's symptoms.",
+	 :selfcare=>"You may temporarily lessen pain with an over-the-counter children's pain reliever, such as ibuprofen (Advil, Motrin, others) or acetaminophen (Tylenol, others) — but not aspirin. Use only as directed on the label, and do not give your child combinations of pain relievers. If your child is experiencing pain from a sprain or fall, you may provide some relief with the following self-care strategies:"
+	 })
+nasal_congestion_symptom_child = Symptom.upsert_attributes({:name=>"Nasal Congestion", :patient_type=>"child"},
+	{:description=>"Nasal congestion is a common problem in children. Identify possible common causes based on symptoms your child is experiencing.",
+	 :selfcare=>"To relieve your child's stuffy nose:"
+	 })
+nausea_or_vomiting_symptom_child = Symptom.upsert_attributes({:name=>"Nausea of Vomiting", :patient_type=>"child"},
+	{:description=>"Nausea or vomiting is most often caused by the stomach flu. Identify other possible common causes based on symptoms you're experiencing.",
+	 :selfcare=>"The following strategies can lessen discomfort and prevent dehydration if your child experiences nausea or vomiting:"
+	 })
+skin_rash_symptom_child	= Symptom.upsert_attributes({:name=>"Skin Rash", :patient_type=>"child"},
+	{:description=>"Nausea or vomiting in children is a common problem. Identify possible causes based on the symptoms your child is experiencing."
+	})
+sore_throat_symptom_child	= Symptom.upsert_attributes({:name=>"Sore Throat", :patient_type=>"child"},
+	{:description=>"Sore throat is common during childhood. Identify possible causes based on your child's symptoms.",
+	:selfcare=>"The following tips may help soothe your child's sore throat:"
+	})
+urinary_problems_symptom_child	= Symptom.upsert_attributes({:name=>"Urinary Problems", :patient_type=>"child"},
+	{:description=>"Urinary problems are common. Consider what may be causing your child's signs and symptoms."})
+vision_problems_symptom_child 	= Symptom.upsert_attributes({:name=>"Vision Problems", :patient_type=>"child"},
+	{:description=>"Vision problems in children can be difficult to detect. Identify possible common causes based on signs and symptoms your child may have."})
+wheezing_symptom_child	= Symptom.upsert_attributes({:name=>"Wheezing", :patient_type=>"child"}, 
+	{:description=>"Wheezing is a high-pitched, whistling noise that occurs with breathing. Identify possible common causes based on symptoms your child is experiencing."})
 
 #SymptomsFactor
 

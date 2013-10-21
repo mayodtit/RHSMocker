@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131016001827) do
+ActiveRecord::Schema.define(:version => 20131017231953) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -119,6 +119,7 @@ ActiveRecord::Schema.define(:version => 20131016001827) do
     t.integer  "initiator_id", :default => 0, :null => false
     t.string   "title"
     t.string   "description"
+    t.string   "image"
   end
 
   create_table "content_mayo_vocabularies", :force => true do |t|
@@ -389,6 +390,8 @@ ActiveRecord::Schema.define(:version => 20131016001827) do
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
     t.string   "patient_type"
+    t.string   "description"
+    t.text     "selfcare"
   end
 
   create_table "symptoms_factors", :force => true do |t|

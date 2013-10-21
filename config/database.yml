@@ -16,6 +16,7 @@ test:
   username: rhs_test
   password: password
   host: localhost
+  min_messages: WARNING
 
 # production:
 #   adapter: pg
