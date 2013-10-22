@@ -175,61 +175,39 @@ img.mayo_icon {
     padding: 4px 0px 4px 10px;
 }
 
-div.section_head_show {
+.section-head {
+  width: 260px;
+  margin: 0px -10px;
+  padding: 15px 10px 15px 50px;
+  font-size: 18px;
+  color: #4c4c4c;
+  border-top: 1px solid #cccccc;
+  background-size: 32px auto;
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  background-image: url(/assets/arrow_up_@2x.png);
+  &.closed {
     background-image: url(/assets/arrow_down_@2x.png);
-    background-size: 32px auto;
-    background-position: 5px center;
-    background-repeat: no-repeat;
     background-color: #ececec;
-    border-top: 1px solid #CCCCCC;
-    padding: 15px 0px;
-    font-size: 18px;
-    color: #4c4c4c;
-    text-decoration: none;
-    width:320px;
-    margin-left: -10px;
-    margin-right: -10px;
-    position: relative;
-    a {
-      margin-left: 5px;
-      padding-left:40px;
-      padding-right:10px;
-      color: #4c4c4c;
-      text-decoration: none;
-      display: inline-block;
+    &.last {
+      border-bottom: 1px solid #cccccc;
     }
+  }
 }
 
-div.section_head_hide {
-    background-image: url(/assets/arrow_up_@2x.png);
-    background-size: 32px auto;
-    background-repeat: no-repeat;
-    background-position: 5px center;
-    padding: 15px 0px;
-    font-size: 18px;
-    border-top: 1px solid #CCCCCC;
-    color: #4c4c4c;
-    text-decoration: none;
-    width:320px;
-    margin-left: -10px;
-    margin-right: -10px;
-    a {
-      margin-left: 5px;
-      padding-left:40px;
-      padding-right:10px;
-      color: #4c4c4c;
-      text-decoration: none;
-      display: inline-block;
+.section {
+  &.last {
+    border-bottom: 1px solid #cccccc;
+  }
+  li {
+    strong {
+      font-style: italic;
     }
+  }
 }
 
-div.section {
-   display: none; //default state
-   li {
-     .subtitle {
-       font-style: italic;
-     }
-   }
+.disabled {
+  display: none;
 }
 
 img.mayoContentImage {
@@ -252,7 +230,7 @@ img.mayoContentImage {
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
 }
 
-div.subtitle {
+strong {
     font-weight: bold;
 }
 

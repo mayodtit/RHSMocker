@@ -31,15 +31,9 @@ $ ->
     d.setUTCSeconds $(@).data("time")
     $(@).text((d.getMonth() + 1) + "/" + d.getDate() + "/" + d.getFullYear())
 
-  # TODO - this is much cleaner to just do in CSS, need to clean up importer first
-  $(".section_head_show:last").css({'border-bottom': '1px solid #CCCCCC'})
-  $(".section:last").css({'border-bottom': '1px solid #CCCCCC'})
-  $(".section_head_show:last").toggle (->
-    $(@).css({'border-bottom': 'none'})
-    $(".section:last").show()
-  ), ->
-    $(@).css({'border-bottom': '1px solid #CCCCCC'})
-    $(".section:last").hide()
+  $(".section-head").click ->
+    $(@).toggleClass("closed")
+    $("#section-" + $(@).data("section-id")).toggleClass("disabled")
 
   # TODO - the following is an example of how to use the NativeBridge
   $(".nb-submit").click (event) ->
