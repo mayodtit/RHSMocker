@@ -2,7 +2,7 @@ This document explains migration to mySQL from Postgres (on local machine)
 
 Prerequisites:
 	mysql server installed and running; root password
-	solr server installed (if you don't have it and use brew: brew install solr)
+	solr server installed (if you don't have it, use brew: brew install solr)
 
 Assumptions: RAILS_ENV=benchmark
 
@@ -48,10 +48,18 @@ RAILS_ENV=benchmark rake sunspot:solr:start
 RAILS_ENV=benchmark rake admin:import_content
 RAILS_ENV=benchmark rake db:seed
 
-7. All set? Check basics:
+7. Index SOLR
+
+RAILS_ENV=benchmark rake sunspot:reindex
+
+
+All set? Check basics:
 
 RAILS_ENV=benchmark rails c (console)
 RAILS_ENV=benchmark rails s (Webrick)
+
+(you might need to precompile assets: RAILS_ENV=benchmark rake assets:precompile)
+
 
 ---
 Last change: 10/11/2013
