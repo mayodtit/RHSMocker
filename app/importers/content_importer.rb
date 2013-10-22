@@ -90,11 +90,16 @@ class ContentImporter
     # interlace unique images with text
     html_paragraphs = @html.css('p')
     urls = @data.css('PopupMedia').map{|pm| 'http://www.mayoclinic.com' + pm.at_css('Image')['URI']}.uniq
-    urls.each_with_index do |url, i|
+    url_index = 0
+    html_paragraphs.each_with_index do |p, i|
+      break unless urls[url_index]
+      next if i < 2 # skip the first 2 paragraphs
+      next if %w(ul ol).include?(p.next_sibling.try(:name))
       node = Nokogiri::XML::Node.new('img', @data)
       node.set_attribute('class', 'mayoContentImage')
-      node.set_attribute('src', url)
-      html_paragraphs[i+2].try(:add_next_sibling, node) # skip the first 2 paragraphs
+      node.set_attribute('src', urls[url_index])
+      p.add_next_sibling(node)
+      url_index += 1
     end
 
     true
