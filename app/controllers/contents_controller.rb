@@ -1,14 +1,6 @@
 class ContentsController < ApplicationController
   def index
-    @contents = if params[:q].blank?
-      Content.all :order => 'title ASC'
-    else
-      Content.solr_search do |s|
-         @contents = s.keywords params[:q]
-         @searchterm = params[:q]
-      end
-    end
-
+    @contents = Content.order('title ASC').page(params[:page]).per(200)
     respond_to do |format|
       format.html
       format.json { render json: @contents }
