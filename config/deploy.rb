@@ -21,7 +21,7 @@ set :keep_releases, 5
 set :rails_env, "development"
 set :use_sudo,  false
 
-
+desc "Deploy target bench1 @ EC2"
 task :bench1 do
   set :port, 9722
   set :branch, "devops"
@@ -31,12 +31,14 @@ task :bench1 do
   role :db,             'bench1.getbetter.com', :primary => true
 end
 
-
-desc "Restart solr server."
-task :restart_solr, :roles => :solr do
-   run "sudo service jetty stop"
-   sleep 5
-   run "sudo service jetty start"
+desc "Deploy target bench2 @ FireHost"
+task :bench2 do
+  set :port, 22
+  set :branch, "devops"
+  set :rails_env,       "benchmark"
+  role :web,            "bench2.getbetter.com"
+  role :app,            "bench2.getbetter.com", :primary => true
+  role :db,             'bench2.getbetter.com', :primary => true
 end
 
 
