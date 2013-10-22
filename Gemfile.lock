@@ -127,6 +127,8 @@ GEM
     figaro (0.7.0)
       bundler (~> 1.0)
       rails (>= 3, < 5)
+    fitter-happier (0.0.5)
+      actionpack
     fog (1.15.0)
       builder
       excon (~> 0.25.0)
@@ -367,6 +369,7 @@ DEPENDENCIES
   factory_girl_rails
   factual-api
   figaro
+  fitter-happier
   fog
   guard-rspec
   haml

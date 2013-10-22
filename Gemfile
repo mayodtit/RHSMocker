@@ -14,6 +14,9 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 #databse
 gem 'mysql2'
 
+# Site monitoring
+gem 'fitter-happier'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
