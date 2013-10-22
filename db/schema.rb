@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131017231953) do
+ActiveRecord::Schema.define(:version => 20131022170558) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -143,6 +143,8 @@ ActiveRecord::Schema.define(:version => 20131017231953) do
     t.boolean  "show_call_option"
     t.boolean  "show_checker_option"
   end
+
+  add_index "contents", ["mayo_doc_id"], :name => "index_contents_on_mayo_doc_id"
 
   create_table "contents_symptoms", :force => true do |t|
     t.integer  "content_id"
