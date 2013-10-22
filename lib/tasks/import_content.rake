@@ -30,7 +30,7 @@ namespace :admin do
     skipped.each{|f| log("  #{f}")}
     log("Failed to process #{failed.count} files:")
     failed.each{|f| log("  #{f}")}
-    log("Re-run failed: rake admin:import_content[#{failed.join(',')}]")
+    log("Re-run failed: rake admin:import_content[#{failed.join(',')}]") if failed.any?
   end
 
   private
