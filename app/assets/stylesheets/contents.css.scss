@@ -199,6 +199,9 @@ img.mayo_icon {
   &.last {
     border-bottom: 1px solid #cccccc;
   }
+  strong {
+    display: block;
+  }
   li {
     strong {
       font-style: italic;
