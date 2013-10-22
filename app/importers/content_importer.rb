@@ -87,11 +87,11 @@ class ContentImporter
       image.set_attribute('style', "background-image:url(\"http://www.mayoclinic.com#{image_url}\")")
     end
 
-    # interlace images with text
+    # interlace unique images with text
     html_paragraphs = @html.css('p')
-    @data.css('PopupMedia').each_with_index do |popup_media, i|
-      url = 'http://www.mayoclinic.com' + popup_media.at_css('Image')['URI']
-      node = Nokogiri::XML::Node.new 'img', @data
+    urls = @data.css('PopupMedia').map{|pm| 'http://www.mayoclinic.com' + pm.at_css('Image')['URI']}.uniq
+    urls.each_with_index do |url, i|
+      node = Nokogiri::XML::Node.new('img', @data)
       node.set_attribute('class', 'mayoContentImage')
       node.set_attribute('src', url)
       html_paragraphs[i+2].try(:add_next_sibling, node) # skip the first 2 paragraphs
