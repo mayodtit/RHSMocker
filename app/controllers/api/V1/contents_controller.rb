@@ -1,4 +1,5 @@
 class Api::V1::ContentsController < Api::V1::ABaseController
+  skip_before_filter :authentication_check, :only => :show
   before_filter :load_contents!, :only => :index
   before_filter :load_content!, :only => :show
 

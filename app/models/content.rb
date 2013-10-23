@@ -115,4 +115,8 @@ class Content < ActiveRecord::Base
       content_type.underscore.humanize.titleize
     end
   end
+
+  def self.mayo_terms_of_service
+    @mayo_terms_of_service ||= find_by_mayo_doc_id('AM00021')
+  end
 end

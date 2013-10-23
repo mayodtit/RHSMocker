@@ -11,6 +11,14 @@ $ ->
     document.actionJSON = JSON.stringify([{type:"open_consult", body: {consult_id: $(@).data("consult-id").toString()}}])
     window.location.href = "http://dontload"
 
+  $(".content-link").click ->
+    if not $(@).data("content-id")
+      return
+    NativeBridge.call('open_content', {content_id: $(@).data("content-id")})
+    # TODO - use the below until the client supports the "open_content" hook
+    if window.mayo_terms_of_service_url?
+      window.location.href = window.mayo_terms_of_service_url
+
   $(".diet-question .tile").click ->
     $('.' + $(@).data('type')).toggle()
 
