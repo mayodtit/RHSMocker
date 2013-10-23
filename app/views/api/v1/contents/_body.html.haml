@@ -9,8 +9,9 @@
     .content_text= content.body.html_safe if content.body.present?
   - else
     .content_text= content.formatted_body.html_safe if content.body.present?
-    .mayo-copyright.content-link{:data => {:content_id => Content.mayo_terms_of_service.try(:id)}}
-      &copy;2013&nbsp;Mayo Foundation for Medical Education and Research (MFMER).<br>All rights reserved.
+    - unless content == Content.mayo_terms_of_service
+      .mayo-copyright.content-link{:data => {:content_id => Content.mayo_terms_of_service.try(:id)}}
+        &copy;2013&nbsp;Mayo Foundation for Medical Education and Research (MFMER).<br>All rights reserved.
 
 -# TODO - use the below until the client supports the "open_content" hook
 - if Content.mayo_terms_of_service

@@ -1,6 +1,8 @@
 class ContentImporter
   include ImportContentModule
 
+  TERMS_OF_SERVICE = 'AM00021'
+
   def initialize(xml_data, logger=nil)
     @data = xml_data
     @logger = logger
@@ -63,6 +65,7 @@ class ContentImporter
     # add markup to sections
     sections = @data.css('Section')
     sections.each_with_index do |section, i|
+      break if @mayo_doc_id == TERMS_OF_SERVICE
       section_head = section.at("SectionHead")
       next unless section_head.content.to_s.present?
       section_head.children = Nokogiri::XML::Text.new("<div class=\"section-head closed#{" last" if i == (sections.count - 1)}\" data-section-id=#{i}>#{section_head.content.strip.remove_leading_numbered_list}</div>", section_head)
@@ -121,6 +124,7 @@ class ContentImporter
     params[:content_updated_at] = @data.search('UpdateDate').first.text.remove_newlines_and_tabs
     params[:show_call_option] = show_call_for_doc_id?(params[:mayo_doc_id])
     params[:show_checker_option] = show_symptoms_for_doc_id?(params[:mayo_doc_id])
+    params[:show_mayo_copyright] = show_mayo_copyright_for_doc_id?(params[:mayo_doc_id])
     @content = Content.upsert_attributes({:mayo_doc_id => params[:mayo_doc_id]}, params)
   end
 
@@ -141,5 +145,9 @@ class ContentImporter
 
   def show_symptoms_for_doc_id?(doc_id)
     !NO_SYMPTOMS_LIST.include?(doc_id)
+  end
+
+  def show_mayo_copyright_for_doc_id?(doc_id)
+    doc_id != TERMS_OF_SERVICE
   end
 end
