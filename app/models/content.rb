@@ -107,4 +107,12 @@ class Content < ActiveRecord::Base
       end
     end
   end
+
+  def content_type_display
+    if content_type == 'Disease'
+      'Condition'
+    else
+      content_type.underscore.humanize.titleize
+    end
+  end
 end

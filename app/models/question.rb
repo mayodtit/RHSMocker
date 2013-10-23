@@ -10,4 +10,5 @@ class Question < ActiveRecord::Base
   def content_type
     'Question'
   end
+  alias_method :content_type_display, :content_type
 end

@@ -109,7 +109,6 @@ class ContentImporter
     params = {}
     params[:mayo_doc_id] = @data.search('DocID').first.text.strip
     params[:content_type] = @data.search('ContentType').first.text.strip
-    params[:content_type] = 'Condition' if params[:content_type] == 'Disease'
     params[:title] = CGI.unescapeHTML(@data.search('Title').first.text.remove_newlines_and_tabs)
     params[:abstract] = if %w(Condition TestProcedure).include?(params[:content_type])
                                   @html.css('p').first.inner_html.remove_newlines_and_tabs

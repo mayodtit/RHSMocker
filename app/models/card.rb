@@ -12,7 +12,7 @@ class Card < ActiveRecord::Base
   before_validation :set_default_priority
   after_create :create_user_reading, :if => lambda{|c| c.content_card? }
 
-  delegate :title, :content_type, :preview, :abstract, :body, :formatted_body, to: :resource
+  delegate :title, :content_type, :content_type_display, :preview, :abstract, :body, :formatted_body, to: :resource
 
   def self.inbox
     where(:state => [:unread, :read]).by_priority.reject {|c| c.resource.content_type.downcase == 'disease' if c.content_card? }
@@ -35,7 +35,7 @@ class Card < ActiveRecord::Base
   end
 
   def serializable_hash options=nil
-    options ||=  {:methods => [:title, :content_type, :share_url]}
+    options ||=  {:methods => [:title, :content_type, :content_type_display, :share_url]}
     super(options).merge!(state_specific_date)
   end
 
