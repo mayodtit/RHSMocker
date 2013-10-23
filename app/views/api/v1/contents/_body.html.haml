@@ -5,13 +5,13 @@
   .content_header
     .content_title_full= content.title.html_safe
     .content_abstract= content.abstract.html_safe if content.abstract.present?
-  - if %w(Quiz Question Message).include?(content.content_type)
-    .content_text= content.body.html_safe if content.body.present?
-  - else
-    .content_text= content.formatted_body.html_safe if content.body.present?
-    - unless content == Content.mayo_terms_of_service
-      .mayo-copyright.content-link{:data => {:content_id => Content.mayo_terms_of_service.try(:id)}}
-        &copy;2013&nbsp;Mayo Foundation for Medical Education and Research (MFMER).<br>All rights reserved.
+  .content_text= content.body.html_safe if content.body.present?
+  - unless content == Content.mayo_terms_of_service
+    .mayo-copyright.content-link{:data => {:content_id => Content.mayo_terms_of_service.try(:id)}}
+      &copy;2013&nbsp;Mayo Foundation for Medical Education and Research (MFMER).<br>All rights reserved.
+  - if content.show_call_option?
+    .talk{:data => {:content_id => content.id, :message => "I was reading the article '#{content.title}' and would like to discuss it with a Personal Health Assistant."}}
+      Discuss this with a Personal Health Assistant
 
 -# TODO - use the below until the client supports the "open_content" hook
 - if Content.mayo_terms_of_service

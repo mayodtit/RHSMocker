@@ -133,34 +133,24 @@ div.content_text {
     font-size: 10px;
     color: #999999;
     padding: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 32px;
     line-height: normal;
 }
 
-div.talk {
-    background-color: #bfbfbf;
-    background-image: url(/assets/talkpromo_banner@2x.png);
-    background-size:320px 68px;
-    width:320px;
-    height:68px;
-    background-repeat:no-repeat;
-    background-position:center center;
-    margin-left: -10px;
-    margin-right: -10px;
-    padding:0;
+.talk {
+    width: 235px;
+    height: 42px;
+    padding: 13px 10px 13px 75px;
     position: fixed;
     bottom: 0px;
-}
-
-div.talk_content {
-    font-family:"Avenir Next Medium Condensed";
-    padding: 10px 15px 0px 10px;
-    font-size: 15px;
-    color:#5a8791;
-    height:45px;
-    text-transform:uppercase;
-    background-color: #bfbfbf;
-    vertical-align:middle;
+    font-family:"Roboto Light";
+    font-size: 16px;
+    color: #ffffff;
+    background-size: 40px auto;
+    background-color: #f08b3a;
+    background-image: url(/assets/CTA@2x.png);
+    background-repeat: no-repeat;
+    background-position: 15px center;
 }
 
 img.top_icon {
