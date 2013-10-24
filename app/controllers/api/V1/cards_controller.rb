@@ -37,14 +37,14 @@ class Api::V1::CardsController < Api::V1::ABaseController
   end
 
   def merge_previews(cards)
-    cards.map{|c| c.as_json.merge!(:preview => render_to_string(:action => :preview,
-                                                                :formats => [:html],
-                                                                :locals => {:card => c, :resource => c.resource}))}
+    cards.map{|c| c.active_model_serializer_instance.as_json.merge!(:preview => render_to_string(:action => :preview,
+                                                                    :formats => [:html],
+                                                                    :locals => {:card => c, :resource => c.resource}))}
   end
 
   def merge_body(card)
-    card.as_json.merge!(:body => render_to_string(:action => :show,
-                                                  :formats => [:html],
-                                                  :locals => {:card => card}))
+    card.active_model_serializer_instance.as_json.merge!(:body => render_to_string(:action => :show,
+                                                         :formats => [:html],
+                                                         :locals => {:card => card}))
   end
 end

@@ -4,7 +4,7 @@ describe Api::V1::CardsController do
   let(:user) { build_stubbed(:member) }
   let(:ability) { Object.new.extend(CanCan::Ability) }
   let(:card) { build_stubbed(:card, :user => user) }
-  let(:card_keys) { card.as_json.keys.map(&:to_sym) << :preview }
+  let(:card_keys) { card.active_model_serializer_instance.as_json.keys.map(&:to_sym) << :preview }
 
   before(:each) do
     controller.stub(:current_ability => ability)
@@ -85,7 +85,7 @@ describe Api::V1::CardsController do
     end
 
     let(:cards) { double('cards', :find => card) }
-    let(:card_keys) { card.as_json.keys.map(&:to_sym) << :body }
+    let(:card_keys) { card.active_model_serializer_instance.as_json.keys.map(&:to_sym) << :body }
 
     before(:each) do
       user.stub(:cards => cards)
