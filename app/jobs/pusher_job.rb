@@ -4,7 +4,7 @@ include PusherModule
 class PusherJob
   def push_content(user_id)
     user = Member.find(user_id)
-    return if user.hasMaxContent
+    return if user.max_inbox_content?
     content = user.getContent
     return unless content
     user.cards.create(resource: content)

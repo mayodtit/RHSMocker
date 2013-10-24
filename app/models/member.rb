@@ -104,8 +104,8 @@ class Member < User
     UserMailer.welcome_email(self).deliver
   end
 
-  def hasMaxContent
-    cards.inbox.count >= 7
+  def max_inbox_content?
+    cards.inbox.where(:resource_type => Content).count > Card::MAX_CONTENT_PER_USER
   end
 
   def getContent
