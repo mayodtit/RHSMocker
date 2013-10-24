@@ -54,6 +54,12 @@ shared_examples 'failure' do
   end
 end
 
+shared_examples '404' do
+  it 'returns 404' do
+    expect{ do_request }.to raise_error(ActiveRecord::RecordNotFound)
+  end
+end
+
 shared_examples 'index action' do |object|
   before(:each) do
     user.stub(object_plural_symbol(object) => [object])

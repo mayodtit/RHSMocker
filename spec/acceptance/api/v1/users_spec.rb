@@ -234,4 +234,13 @@ resource "Users" do
       end
     end
   end
+
+  describe 'get current user' do
+    get '/api/v1/user' do
+      example_request "[GET] Get the current user" do
+        explanation "Get the current user's info"
+        # TODO
+      end
+    end
+  end
 end

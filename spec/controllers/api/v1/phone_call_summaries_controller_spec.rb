@@ -15,7 +15,6 @@ describe Api::V1::PhoneCallSummariesController do
       get :show, auth_token: user.auth_token
     end
 
-    it_behaves_like 'action requiring authentication and authorization'
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it_behaves_like 'success'
 

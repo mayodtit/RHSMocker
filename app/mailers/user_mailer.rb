@@ -16,10 +16,19 @@ class UserMailer < ActionMailer::Base
       :subject => 'Better already')
   end
 
-  def invitation_email user
+  def invitation_email user, invitor
+    @user = user
+    @invitor = invitor
+    @url = invite_url(@user.invitation_token)
+    subject = user.hcp? ? "#{invitor.full_name} invited you to care for patients with Better!" : 'Complete your registration to Better'
+    mail(to: user.email, subject: 'Complete your registration to Better')
+  end
+
+  def assigned_role_email user, assignor
+    @assignor = assignor
     @user = user
     @url = invite_url(@user.invitation_token)
-    mail(to: user.email, subject: 'Complete your registration to Better')
+    mail(to: user.email, subject: "#{assignor.full_name} invited you to care for patients with Better!")
   end
 
   def scheduled_phone_call_email(phone_call)
