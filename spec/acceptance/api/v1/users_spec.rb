@@ -37,24 +37,6 @@ resource "Users" do
     end
   end
 
-  get '/api/v1/users/:id/keywords' do
-    let!(:user_reading) { create(:user_reading, :user => user) }
-
-    parameter :auth_token, "User's Auth token"
-    parameter :id, "user's ID"
-    required_parameters :auth_token, :id
-
-    let(:auth_token) { user.auth_token }
-    let(:id) { user.id }
-    let(:raw_post) { params.to_json }
-
-    example_request "[GET] Get user's keywords (search history)" do
-      explanation "[Implementation incomplete] Returns an array of keywords"
-      status.should == 200
-      JSON.parse(response_body)['keywords'].should be_a Array
-    end
-  end
-
   describe 'create user with install ID' do
     parameter :install_id, "Unique install ID"
     scope_parameters :user, [:install_id]

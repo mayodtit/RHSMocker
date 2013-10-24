@@ -84,21 +84,6 @@ class Member < User
     update_attribute(:auth_token, nil)
   end
 
-  #Keywords (aka search history)
-  def keywords
-    keywords = {}
-    user_readings.map{|ur| (ur.view_count > 0) ? ur.content.mayo_vocabularies : [] }.each do |mvs|
-      mvs.each do |mv|
-        if keywords.has_key? mv
-          keywords[mv]+=1
-        else
-          keywords[mv]=1
-        end
-      end
-    end
-    keywords.sort_by{|x,y| keywords[x]<=>keywords[y]}
-  end
-
   def add_install_message
     if Content.install_message
       cards.create!(resource: Content.install_message,
