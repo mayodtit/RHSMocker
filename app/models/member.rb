@@ -104,10 +104,6 @@ class Member < User
     UserMailer.welcome_email(self).deliver
   end
 
-  def allowed_to_edit_user? user_id
-    user_id == id || admin? || associates.map(&:id).include?(user_id)
-  end
-
   def hasMaxContent
     cards.inbox.count >= 7
   end
