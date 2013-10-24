@@ -3,20 +3,20 @@ $ ->
     document.actionJSON = JSON.stringify([{type: "launch_call_screen", body: {content_id: $(@).data("content-id").toString(), message_body: $(@).data("message")}}])
     window.location.href = "http://dontload"
 
-  $(".fullscreen-available").click ->
-    document.actionJSON = JSON.stringify([{type: "fullscreen"}])
-    window.location.href = "http://dontload"
-
   $(".consult-link").click ->
     if not $(@).data("consult-id")
       return
     NativeBridge.call('openConsult', {consultId: $(@).data("consult-id")})
 
-
   $(".content-link").click ->
     if not $(@).data("content-id")
       return
     NativeBridge.call('openContent', {contentId: $(@).data("content-id")})
+
+  $(".card-link").click ->
+    if not $(@).data("card-id")
+      return
+    NativeBridge.call('openCard', {cardId: $(@).data("card-id")})
 
   $(".diet-question .tile").click ->
     $('.' + $(@).data('type')).toggle()

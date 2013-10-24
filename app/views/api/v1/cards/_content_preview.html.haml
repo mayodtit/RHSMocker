@@ -1,4 +1,4 @@
-.content_card.fullscreen-available
+.content_card.card-link{:data => {:card_id => card.try(:id)}}
   .content_source= image_tag('mayo_clinic_logo.png', :class => 'mayo_icon')
   .content_header_card
     .content_title_card= content.title.html_safe
