@@ -33,11 +33,12 @@ class RHSSiegeBench
   end
 
   def create_urls_file
-    auth_param = "&auth_token=#{get_auth_token}"
+    auth_param = "auth_token=#{get_auth_token}"
     remove_file
     File.open(@file_name, 'w') do |file|
       paths.each do |p|
-        full_url = @api_base_path + p + auth_param
+        auth_prefix = p.include?('?') ? '&' : '?' # most question marks i've typed in a single line [TS]
+        full_url = @api_base_path + p + auth_prefix + auth_param
         file.puts(full_url)
       end
       file.puts('login = rhs:let!me!in')
