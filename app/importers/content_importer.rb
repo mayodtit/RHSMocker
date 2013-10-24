@@ -89,12 +89,29 @@ class ContentImporter
   def add_section_markup!
     sections = @data.css('Section')
     sections.each_with_index do |section, i|
-      section_head = section.at("SectionHead")
-      next unless section_head.content.to_s.present?
-      section_head.children = Nokogiri::XML::Text.new("<div class=\"section-head closed#{" last" if i == (sections.count - 1)}\" data-section-id=#{i}>#{section_head.content.strip.remove_leading_numbered_list}</div>", section_head)
-      section_html = section.at("HTML")
-      section_html.children = Nokogiri::XML::Text.new("<div class=\"section disabled #{" last" if i == (sections.count - 1)}\" id=\"section-#{i}\">#{section_html.content}</div>", section_html)
+      next unless replace_section_head!(i, section, sections.count)
+      replace_section!(i, section, sections.count)
     end
+  end
+
+  def replace_section_head!(id, section, count)
+    section_head = section.at("SectionHead")
+    return false unless section_head.content.present?
+    section_head.children = section_head_node(id, section_head, id == count - 1)
+    true
+  end
+
+  def replace_section!(id, section, count)
+    section_html = section.at("HTML")
+    section_html.children = section_node(id, section_html, id == count - 1)
+  end
+
+  def section_head_node(id, section_head, last=false)
+    Nokogiri::XML::Text.new("<div class=\"section-head closed#{" last" if last}\" data-section-id=#{id}>#{section_head.content.strip.remove_leading_numbered_list}</div>", section_head)
+  end
+
+  def section_node(id, section_html, last=false)
+    Nokogiri::XML::Text.new("<div class=\"section disabled#{" last" if last}\" id=\"section-#{id}\">#{section_html.content}</div>", section_html)
   end
 
   def has_html?
@@ -122,19 +139,25 @@ class ContentImporter
   end
 
   def insert_images_into_html!
-    html_paragraphs = @html.css('p')
-    urls = @data.css('PopupMedia').map{|pm| 'http://www.mayoclinic.com' + pm.at_css('Image')['URI']}.uniq
     url_index = 0
-    html_paragraphs.each_with_index do |p, i|
-      break unless urls[url_index]
+    @html.css('p').each_with_index do |p, i|
+      break unless image_urls[url_index]
       next if i < 2 # skip the first 2 paragraphs
-      next if %w(ul ol).include?(p.next_sibling.try(:name))
-      node = Nokogiri::XML::Node.new('img', @data)
-      node.set_attribute('class', 'mayoContentImage')
-      node.set_attribute('src', urls[url_index])
-      p.add_next_sibling(node)
+      next if %w(ul ol).include?(p.next_sibling.try(:name)) # skip spaces before lists
+      add_image_node!(p, image_urls[url_index])
       url_index += 1
     end
+  end
+
+  def image_urls
+    @image_urls ||= @data.css('PopupMedia').map{|pm| 'http://www.mayoclinic.com' + pm.at_css('Image')['URI']}.uniq
+  end
+
+  def add_image_node!(parent, url)
+    node = Nokogiri::XML::Node.new('img', @data)
+    node.set_attribute('class', 'mayoContentImage')
+    node.set_attribute('src', url)
+    parent.add_next_sibling(node)
   end
 
   def create_content!
