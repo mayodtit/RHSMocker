@@ -1,6 +1,9 @@
 class Content < ActiveRecord::Base
   include SolrExtensionModule
 
+  CONTENT_TYPES = %w(Article Answer HealthTip FirstAid)
+  CSV_COLUMNS = %w(id mayo_doc_id content_type title)
+
   has_many :user_readings
   has_many :users, :through => :user_readings
   has_many :content_mayo_vocabularies
@@ -13,6 +16,10 @@ class Content < ActiveRecord::Base
   attr_accessible :title, :body, :content_type, :abstract, :question, :keywords,
                   :content_updated_at, :mayo_doc_id, :show_call_option,
                   :show_checker_option, :show_mayo_copyright
+
+  validates :title, :body, :content_type, :mayo_doc_id, presence: true
+  validates :show_call_option, :show_checker_option, :show_mayo_copyright, inclusion: {:in => [true, false]}
+  validates :mayo_doc_id, uniqueness: true
 
   searchable do
     text :body
@@ -90,14 +97,10 @@ class Content < ActiveRecord::Base
     mcvid_array
   end
 
-  CONTENT_TYPES = %w(Article Answer HealthTip FirstAid)
-
   # Utility Methods to be removed
   def self.getRandomContent
     Content.where(:content_type => CONTENT_TYPES).first(:order => "RANDOM()")
   end
-
-  CSV_COLUMNS = %w(id mayo_doc_id content_type title)
 
   def self.to_csv
     CSV.generate do |csv|
