@@ -1,20 +1,24 @@
 class ContentImporter
   include ImportContentModule
 
-  TERMS_OF_SERVICE = 'AM00021'
-
   def initialize(xml_data, logger=nil)
     @data = xml_data
     @logger = logger
-    @mayo_doc_id = @data.search('DocID').first.text.strip
-    @type = @data.search('ContentType').first.text.strip
-    @title = @data.search('Title').first.text.strip.gsub(/,/," ")
   end
 
   def import
-    return false unless preprocess
-    create_content
-    create_content_vocabularies
+    extract_required_params_from_xml!
+    return false unless has_required_params?
+    return false unless allow_type?
+    remove_flash_assets!
+    remove_popup_media!
+    add_section_markup! unless @mayo_doc_id == TERMS_OF_SERVICE
+    return false unless has_html?
+    extract_html_from_xml!
+    add_absolute_url_to_images!
+    insert_images_into_html!
+    create_content!
+    create_content_vocabularies!
     true
   end
 
@@ -28,8 +32,12 @@ class ContentImporter
 
   private
 
+  TERMS_OF_SERVICE = 'AM00021'
+  NO_CALL_LIST     = %w(HT00648 AM00021 HT00022 NU00585 NU00584)
+  NO_SYMPTOMS_LIST = %w(HT00648 AM00021 HT00022 NU00585 NU00584)
+
   def log(message)
-    formatted_message = "#{@mayo_doc_id}, #{@type}, #{@title}, #{message}"
+    formatted_message = "#{@mayo_doc_id}, #{@content_type}, '#{@title}', #{message}"
     logger.info(formatted_message) if @logger
     puts(formatted_message)
   end
@@ -46,41 +54,63 @@ class ContentImporter
     false
   end
 
-  def preprocess
-    # skip SelfAssessments and Recipes
-    if %(SelfAssessment Recipe).include?(@type)
-      return skip("skipping #{@type}")
-    end
+  def extract_required_params_from_xml!
+    @mayo_doc_id = @data.search('DocID').first.text.strip
+    @content_type = @data.search('ContentType').first.text.strip
+    @title = CGI.unescapeHTML(@data.search('Title').first.text.remove_newlines_and_tabs)
+  end
 
-    # remove flash assets
+  def has_required_params?
+    unless (@data && @mayo_doc_id && @content_type && @title)
+      return failed("xml did not have required parameters")
+    end
+    true
+  end
+
+  def allow_type?
+    if %(SelfAssessment Recipe).include?(@content_type)
+      return skip("skipping #{@content_type}")
+    end
+    true
+  end
+
+  def remove_flash_assets!
     @data.css('Flash').each do |node|
       node.remove
     end
+  end
 
-    # remove PopupMedia assets
+  def remove_popup_media!
     @data.css('PopupMedia').each do |node|
       node.at_css('HTML').remove
     end
+  end
 
-    # add markup to sections
+  def add_section_markup!
     sections = @data.css('Section')
     sections.each_with_index do |section, i|
-      break if @mayo_doc_id == TERMS_OF_SERVICE
       section_head = section.at("SectionHead")
       next unless section_head.content.to_s.present?
       section_head.children = Nokogiri::XML::Text.new("<div class=\"section-head closed#{" last" if i == (sections.count - 1)}\" data-section-id=#{i}>#{section_head.content.strip.remove_leading_numbered_list}</div>", section_head)
       section_html = section.at("HTML")
       section_html.children = Nokogiri::XML::Text.new("<div class=\"section disabled #{" last" if i == (sections.count - 1)}\" id=\"section-#{i}\">#{section_html.content}</div>", section_html)
     end
+  end
 
-    # extract HTML body from data
+  def has_html?
     body = @data.css('Body').first
     return fail("content did not have a body tag") unless body
+    true
+  end
+
+  def extract_html_from_xml!
+    body = @data.css('Body').first
     @html = Nokogiri::HTML(body.text.remove_newlines_and_tabs
                                      .remove_hr_tags
                                      .remove_br_tags)
+  end
 
-    # add absolute URL to inline images
+  def add_absolute_url_to_images!
     @html.search('div.inlineimage.right').each do |image|
       image_tag = image.at_css('img')
       image_url = image_tag['src']
@@ -89,8 +119,9 @@ class ContentImporter
       image.content = ''
       image.set_attribute('style', "background-image:url(\"http://www.mayoclinic.com#{image_url}\")")
     end
+  end
 
-    # interlace unique images with text
+  def insert_images_into_html!
     html_paragraphs = @html.css('p')
     urls = @data.css('PopupMedia').map{|pm| 'http://www.mayoclinic.com' + pm.at_css('Image')['URI']}.uniq
     url_index = 0
@@ -104,50 +135,53 @@ class ContentImporter
       p.add_next_sibling(node)
       url_index += 1
     end
-
-    true
   end
 
-  def create_content
-    params = {}
-    params[:mayo_doc_id] = @data.search('DocID').first.text.strip
-    params[:content_type] = @data.search('ContentType').first.text.strip
-    params[:title] = CGI.unescapeHTML(@data.search('Title').first.text.remove_newlines_and_tabs)
-    params[:abstract] = if %w(Condition TestProcedure).include?(params[:content_type])
-                                  @html.css('p').first.inner_html.remove_newlines_and_tabs
-                                else
-                                  @data.search('Abstract').first.try(:text).try(:remove_newlines_and_tabs)
-                                end
-    params[:question] = @data.search('Question').first.try(:text).try(:remove_newlines_and_tabs)
-    params[:body] = Nokogiri::HTML.fragment(@html.search('body').to_html).to_html
-    params[:keywords] = @data.search('MetaKeyword').map{|k| k.text.remove_newlines_and_tabs}.join(',')
-    params[:content_updated_at] = @data.search('UpdateDate').first.text.remove_newlines_and_tabs
-    params[:show_call_option] = show_call_for_doc_id?(params[:mayo_doc_id])
-    params[:show_checker_option] = show_symptoms_for_doc_id?(params[:mayo_doc_id])
-    params[:show_mayo_copyright] = show_mayo_copyright_for_doc_id?(params[:mayo_doc_id])
-    @content = Content.upsert_attributes({:mayo_doc_id => params[:mayo_doc_id]}, params)
+  def create_content!
+    @content = Content.upsert_attributes({:mayo_doc_id => @mayo_doc_id},
+                                         {
+                                           :content_type => @content_type,
+                                           :title => @title,
+                                           :abstract => abstract,
+                                           :question => question,
+                                           :body => body,
+                                           :keywords => keywords,
+                                           :content_updated_at => content_updated_at,
+                                           :show_call_option => !NO_CALL_LIST.include?(@mayo_doc_id),
+                                           :show_checker_option => !NO_SYMPTOMS_LIST.include?(@mayo_doc_id),
+                                           :show_mayo_copyright => (@mayo_doc_id != TERMS_OF_SERVICE)
+                                         })
   end
 
-  def create_content_vocabularies
+  def abstract
+    if %w(Condition TestProcedure).include?(@content_type)
+      @html.css('p').first.inner_html.remove_newlines_and_tabs
+    else
+      @data.search('Abstract').first.try(:text).try(:remove_newlines_and_tabs)
+    end
+  end
+
+  def question
+    @data.search('Question').first.try(:text).try(:remove_newlines_and_tabs)
+  end
+
+  def body
+    Nokogiri::HTML.fragment(@html.search('body').to_html).to_html
+  end
+
+  def keywords
+    @data.search('MetaKeyword').map{|k| k.text.remove_newlines_and_tabs}.join(',')
+  end
+
+  def content_updated_at
+    @data.search('UpdateDate').first.try(:text).try(:remove_newlines_and_tabs)
+  end
+
+  def create_content_vocabularies!
     @data.search('Keyword').each do |keyword|
       vocab = MayoVocabulary.find_or_create_by_mcvid_and_title!(keyword.attributes['MCVID'].value,
                                                                 keyword.attributes['Title'].value)
       @content.mayo_vocabularies << vocab unless @content.mayo_vocabularies.include?(vocab)
     end
-  end
-
-  NO_CALL_LIST     = %w(HT00648 AM00021 HT00022 NU00585 NU00584)
-  NO_SYMPTOMS_LIST = %w(HT00648 AM00021 HT00022 NU00585 NU00584)
-
-  def show_call_for_doc_id?(doc_id)
-    !NO_CALL_LIST.include?(doc_id)
-  end
-
-  def show_symptoms_for_doc_id?(doc_id)
-    !NO_SYMPTOMS_LIST.include?(doc_id)
-  end
-
-  def show_mayo_copyright_for_doc_id?(doc_id)
-    doc_id != TERMS_OF_SERVICE
   end
 end
