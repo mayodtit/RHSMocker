@@ -39,15 +39,6 @@ class Member < User
   after_create :add_new_member_content
   after_create :send_welcome_message, :if => lambda{|m| m.email.present?}
 
-  searchable do
-    text :name do
-      "#{first_name} #{last_name}"
-    end
-    string :role_name, :multiple => true do
-      roles.map(&:name)
-    end
-  end
-
   BASE_OPTIONS = User::BASE_OPTIONS.merge(:only => [:holds_phone_in, :install_id,
                                                     :phone, :units],
                                           :methods => [:pusher_id]) do |k, v1, v2|
