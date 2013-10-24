@@ -108,36 +108,6 @@ class Member < User
     cards.inbox.where(:resource_type => Content).count > Card::MAX_CONTENT_PER_USER
   end
 
-  def getContent
-      gender_not_array = []
-      age_array = []
-
-      #Add Gender MCVIDS - these are usedin a NOT clause, so the logic is flipped
-
-      if !gender.nil?
-          gender_not_array = Content.byGender(gender)
-      end
-
-      if !age.nil?
-          age_array = Content.mcvidsForAge(age)
-      end
-
-      contents = Content.joins(:mayo_vocabularies)
-                        .where(:mayo_vocabularies => {:mcvid => age_array})
-                        .where("contents.id NOT IN (#{cards.where(:resource_type => Content).pluck(:resource_id).join(', ')})")
-                        .where(:content_type => Content::CONTENT_TYPES)
-                        .reject{|c| gender_not_array.include?(c.id)}
-
-       # Cannot be in reading list
-
-      #All Else Fails, pick something reasonably random
-      if contents.empty?
-        Content.getRandomContent()
-      else
-        contents.first
-      end
-  end
-
   def invite!
     return if crypted_password.present?
     update_attributes!(:invitation_token => Base64.urlsafe_encode64(SecureRandom.base64(36)))
