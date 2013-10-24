@@ -8,8 +8,10 @@ $ ->
     window.location.href = "http://dontload"
 
   $(".consult-link").click ->
-    document.actionJSON = JSON.stringify([{type:"open_consult", body: {consult_id: $(@).data("consult-id").toString()}}])
-    window.location.href = "http://dontload"
+    if not $(@).data("consult-id")
+      return
+    NativeBridge.call('openConsult', {consultId: $(@).data("consult-id")})
+
 
   $(".content-link").click ->
     if not $(@).data("content-id")
