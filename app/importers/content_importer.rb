@@ -8,26 +8,18 @@ class ContentImporter
 
   def import
     extract_required_params_from_xml!
-    return false unless has_required_params?
-    return false unless allow_type?
+    return :failed unless has_required_params?
+    return :skipped unless allow_type?
     remove_flash_assets!
     remove_popup_media!
     add_section_markup! unless @mayo_doc_id == TERMS_OF_SERVICE
-    return false unless has_html?
+    return :failed unless has_html?
     extract_html_from_xml!
     add_absolute_url_to_images!
     insert_images_into_html!
     create_content!
     create_content_vocabularies!
-    true
-  end
-
-  def skipped?
-    @skipped || false
-  end
-
-  def failed?
-    @failed || false
+    :success
   end
 
   private
@@ -37,21 +29,8 @@ class ContentImporter
   NO_SYMPTOMS_LIST = %w(HT00648 AM00021 HT00022 NU00585 NU00584)
 
   def log(message)
-    formatted_message = "#{@mayo_doc_id}, #{@content_type}, '#{@title}', #{message}"
-    logger.info(formatted_message) if @logger
-    puts(formatted_message)
-  end
-
-  def skip(message)
-    @skipped = true
-    log(message)
-    false
-  end
-
-  def fail(message)
-    @failed = true
-    log(message)
-    false
+    @logger.info(message) if @logger
+    puts(message)
   end
 
   def extract_required_params_from_xml!
@@ -62,14 +41,16 @@ class ContentImporter
 
   def has_required_params?
     unless (@data && @mayo_doc_id && @content_type && @title)
-      return failed("xml did not have required parameters")
+      log("xml did not have required parameters")
+      return false
     end
     true
   end
 
   def allow_type?
     if %(SelfAssessment Recipe).include?(@content_type)
-      return skip("skipping #{@content_type}")
+      log("skipping #{@content_type}")
+      return false
     end
     true
   end
@@ -115,16 +96,17 @@ class ContentImporter
   end
 
   def has_html?
-    body = @data.css('Body').first
-    return fail("content did not have a body tag") unless body
+    unless @data.css('Body').first
+      log("content did not have a body tag")
+      return false
+    end
     true
   end
 
   def extract_html_from_xml!
-    body = @data.css('Body').first
-    @html = Nokogiri::HTML(body.text.remove_newlines_and_tabs
-                                     .remove_hr_tags
-                                     .remove_br_tags)
+    @html = Nokogiri::HTML(@data.css('Body').first.text.remove_newlines_and_tabs
+                                                       .remove_hr_tags
+                                                       .remove_br_tags)
   end
 
   def add_absolute_url_to_images!
@@ -139,24 +121,18 @@ class ContentImporter
   end
 
   def insert_images_into_html!
-    url_index = 0
-    @html.css('p').each_with_index do |p, i|
-      break unless image_urls[url_index]
-      next if i < 2 # skip the first 2 paragraphs
+    image_urls = @data.css('PopupMedia').map{|pm| 'http://www.mayoclinic.com' + pm.at_css('Image')['URI']}.uniq
+    @html.css('p').drop(2).each do |p|
+      break if image_urls.empty?
       next if %w(ul ol).include?(p.next_sibling.try(:name)) # skip spaces before lists
-      add_image_node!(p, image_urls[url_index])
-      url_index += 1
+      add_image_node!(p, image_urls.shift)
     end
-  end
-
-  def image_urls
-    @image_urls ||= @data.css('PopupMedia').map{|pm| 'http://www.mayoclinic.com' + pm.at_css('Image')['URI']}.uniq
   end
 
   def add_image_node!(parent, url)
     node = Nokogiri::XML::Node.new('img', @data)
-    node.set_attribute('class', 'mayoContentImage')
-    node.set_attribute('src', url)
+    node['class'] = 'mayoContentImage'
+    node['src'] = url
     parent.add_next_sibling(node)
   end
 
