@@ -128,39 +128,29 @@ div.content_text {
     line-height: 21px;
 }
 
-div.mayo_copyright {
+.mayo-copyright {
     font-family: "Avenir Next Regular Condensed";
     font-size: 10px;
     color: #999999;
-    padding: 10px 10px 10px 10px;
-    margin-bottom: 25px;
-    line-height:normal;
+    padding: 10px;
+    margin-bottom: 32px;
+    line-height: normal;
 }
 
-div.talk {
-    background-color: #bfbfbf;
-    background-image: url(/assets/talkpromo_banner@2x.png);
-    background-size:320px 68px;
-    width:320px;
-    height:68px;
-    background-repeat:no-repeat;
-    background-position:center center;
-    margin-left: -10px;
-    margin-right: -10px;
-    padding:0;
+.talk {
+    width: 235px;
+    height: 42px;
+    padding: 13px 10px 13px 75px;
     position: fixed;
     bottom: 0px;
-}
-
-div.talk_content {
-    font-family:"Avenir Next Medium Condensed";
-    padding: 10px 15px 0px 10px;
-    font-size: 15px;
-    color:#5a8791;
-    height:45px;
-    text-transform:uppercase;
-    background-color: #bfbfbf;
-    vertical-align:middle;
+    font-family:"Roboto Light";
+    font-size: 16px;
+    color: #ffffff;
+    background-size: 40px auto;
+    background-color: #f08b3a;
+    background-image: url(/assets/CTA@2x.png);
+    background-repeat: no-repeat;
+    background-position: 15px center;
 }
 
 img.top_icon {
@@ -175,61 +165,42 @@ img.mayo_icon {
     padding: 4px 0px 4px 10px;
 }
 
-div.section_head_show {
+.section-head {
+  width: 260px;
+  margin: 0px -10px;
+  padding: 15px 10px 15px 50px;
+  font-size: 18px;
+  color: #4c4c4c;
+  border-top: 1px solid #cccccc;
+  background-size: 32px auto;
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  background-image: url(/assets/arrow_up_@2x.png);
+  &.closed {
     background-image: url(/assets/arrow_down_@2x.png);
-    background-size: 32px auto;
-    background-position: 5px center;
-    background-repeat: no-repeat;
     background-color: #ececec;
-    border-top: 1px solid #CCCCCC;
-    padding: 15px 0px;
-    font-size: 18px;
-    color: #4c4c4c;
-    text-decoration: none;
-    width:320px;
-    margin-left: -10px;
-    margin-right: -10px;
-    position: relative;
-    a {
-      margin-left: 5px;
-      padding-left:40px;
-      padding-right:10px;
-      color: #4c4c4c;
-      text-decoration: none;
-      display: inline-block;
+    &.last {
+      border-bottom: 1px solid #cccccc;
     }
+  }
 }
 
-div.section_head_hide {
-    background-image: url(/assets/arrow_up_@2x.png);
-    background-size: 32px auto;
-    background-repeat: no-repeat;
-    background-position: 5px center;
-    padding: 15px 0px;
-    font-size: 18px;
-    border-top: 1px solid #CCCCCC;
-    color: #4c4c4c;
-    text-decoration: none;
-    width:320px;
-    margin-left: -10px;
-    margin-right: -10px;
-    a {
-      margin-left: 5px;
-      padding-left:40px;
-      padding-right:10px;
-      color: #4c4c4c;
-      text-decoration: none;
-      display: inline-block;
+.section {
+  &.last {
+    border-bottom: 1px solid #cccccc;
+  }
+  strong {
+    display: block;
+  }
+  li {
+    strong {
+      font-style: italic;
     }
+  }
 }
 
-div.section {
-   display: none; //default state
-   li {
-     .subtitle {
-       font-style: italic;
-     }
-   }
+.disabled {
+  display: none;
 }
 
 img.mayoContentImage {
@@ -252,7 +223,7 @@ img.mayoContentImage {
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
 }
 
-div.subtitle {
+strong {
     font-weight: bold;
 }
 

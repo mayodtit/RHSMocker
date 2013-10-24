@@ -46,6 +46,7 @@ class Message < ActiveRecord::Base
   def content_type
     'Message'
   end
+  alias_method :content_type_display, :content_type
 
   def previewText
     text.split(' ').slice(0, 21).join(' ')+"&hellip;" if text.present?

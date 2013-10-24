@@ -378,7 +378,7 @@ difficulty_swallowing_factor            = Factor.find_or_create_by_name(:name=>"
 
 
 drinking_alcohol_factor = Factor.find_or_create_by_name(:name=>"Drinking alcohol")
-drinking_alcohol_or_caffenine_factor = Factor.find_or_create_by_name(:name=>"Drinking alcohol or caffeine")
+drinking_alcohol_or_caffeine_factor = Factor.find_or_create_by_name(:name=>"Drinking alcohol or caffeine")
 drinking_more_water_factor = Factor.find_or_create_by_name(:name=>"Drinking more water")
 dry_factor              = Factor.find_or_create_by_name(:name=>"Dry")
 dry_cough_factor        = Factor.find_or_create_by_name(:name=>"Dry cough")
@@ -1074,11 +1074,11 @@ blood_stool_eating_more_fibre_relieved_by_SF = SymptomsFactor.find_or_create_by_
   :factor_id=>eating_more_fibre_factor.id,
   :factor_group_id=>relieved_by_factor_group.id
 )
-blood_stool_drinking_alcohol_or_caffenine_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_drinking_alcohol_or_caffeine_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>drinking_alcohol_or_caffenine_factor.id,
+  :factor_id=>drinking_alcohol_or_caffeine_factor.id,
   :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
 blood_stool_eating_certain_foods_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
@@ -2372,7 +2372,7 @@ ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
-:symptoms_factor_id=>blood_stool_drinking_alcohol_or_caffenine_triggered_or_worsened_by_SF.id,
+:symptoms_factor_id=>blood_stool_drinking_alcohol_or_caffeine_triggered_or_worsened_by_SF.id,
 :content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
@@ -2426,7 +2426,7 @@ ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
-:symptoms_factor_id=>blood_stool_drinking_alcohol_or_caffenine_triggered_or_worsened_by_SF.id,
+:symptoms_factor_id=>blood_stool_drinking_alcohol_or_caffeine_triggered_or_worsened_by_SF.id,
 :content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(

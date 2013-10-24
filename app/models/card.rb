@@ -10,11 +10,12 @@ class Card < ActiveRecord::Base
   validates :state_changed_at, presence: true, unless: :unread?
 
   before_validation :set_default_priority
+  after_create :create_user_reading, :if => lambda{|c| c.content_card? }
 
-  delegate :title, :content_type, :preview, :abstract, :body, :formatted_body, to: :resource
+  delegate :title, :content_type, :content_type_display, :preview, :abstract, :body, to: :resource
 
   def self.inbox
-    where(:state => [:unread, :read]).by_priority.reject {|c| c.resource.content_type.downcase == 'disease' if c.resource_type == 'Content'}
+    where(:state => [:unread, :read]).by_priority.reject {|c| c.resource.content_type.downcase == 'disease' if c.content_card? }
   end
 
   def self.timeline
@@ -34,12 +35,16 @@ class Card < ActiveRecord::Base
   end
 
   def serializable_hash options=nil
-    options ||=  {:methods => [:title, :content_type, :share_url]}
+    options ||=  {:methods => [:title, :content_type, :content_type_display, :share_url]}
     super(options).merge!(state_specific_date)
   end
 
   def share_url
     resource.try_method(:root_share_url).try(:+, "/#{id}")
+  end
+
+  def content_card?
+    resource_type.constantize == Content
   end
 
   private
@@ -50,6 +55,10 @@ class Card < ActiveRecord::Base
     else
       self.priority ||= 0
     end
+  end
+
+  def create_user_reading
+    UserReading.where(:user_id => user.id, :content_id => resource.id).first_or_create!
   end
 
   # TODO - hack this in so the client doesn't have to change field names yet
@@ -91,6 +100,14 @@ class Card < ActiveRecord::Base
 
     before_transition any => :unread do |card, transition|
       card.state_changed_at = nil
+    end
+
+    after_transition any => :saved do |card, transition|
+      UserReading.increment_save!(card.user, card.resource) if card.content_card?
+    end
+
+    after_transition any => :dismissed do |card, transition|
+      UserReading.increment_dismiss!(card.user, card.resource) if card.content_card?
     end
 
     after_transition any => [:saved, :dismissed] do |card, transition|

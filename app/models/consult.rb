@@ -65,6 +65,7 @@ class Consult < ActiveRecord::Base
   def content_type
     'Consult'
   end
+  alias_method :content_type_display, :content_type
 
   def preview
     messages.last.try(:preview) || ''
