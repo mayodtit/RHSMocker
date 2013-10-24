@@ -92,3 +92,4 @@ gem 'rails_12factor', group: :production
 gem 'ri_cal'
 gem 'symbolize'
 gem 'draper' # decorator pattern for models
+gem 'kaminari' # pagination

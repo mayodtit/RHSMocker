@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131017231953) do
+ActiveRecord::Schema.define(:version => 20131023123851) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -132,8 +132,8 @@ ActiveRecord::Schema.define(:version => 20131017231953) do
   create_table "contents", :force => true do |t|
     t.string   "title"
     t.text     "body"
-    t.datetime "created_at",          :null => false
-    t.datetime "updated_at",          :null => false
+    t.datetime "created_at",                            :null => false
+    t.datetime "updated_at",                            :null => false
     t.string   "content_type"
     t.text     "abstract"
     t.text     "question"
@@ -142,7 +142,10 @@ ActiveRecord::Schema.define(:version => 20131017231953) do
     t.string   "mayo_doc_id"
     t.boolean  "show_call_option"
     t.boolean  "show_checker_option"
+    t.boolean  "show_mayo_copyright", :default => true, :null => false
   end
+
+  add_index "contents", ["mayo_doc_id"], :name => "index_contents_on_mayo_doc_id"
 
   create_table "contents_symptoms", :force => true do |t|
     t.integer  "content_id"

@@ -12,7 +12,7 @@ class Content < ActiveRecord::Base
 
   attr_accessible :title, :body, :content_type, :abstract, :question, :keywords,
                   :content_updated_at, :mayo_doc_id, :show_call_option,
-                  :show_checker_option
+                  :show_checker_option, :show_mayo_copyright
 
   searchable do
     text :body
@@ -106,5 +106,17 @@ class Content < ActiveRecord::Base
         csv << content.attributes.values_at(*CSV_COLUMNS)
       end
     end
+  end
+
+  def content_type_display
+    if content_type == 'Disease'
+      'Condition'
+    else
+      content_type.underscore.humanize.titleize
+    end
+  end
+
+  def self.mayo_terms_of_service
+    @mayo_terms_of_service ||= find_by_mayo_doc_id('AM00021')
   end
 end
