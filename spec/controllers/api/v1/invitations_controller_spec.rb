@@ -168,21 +168,28 @@ describe Api::V1::InvitationsController do
         Invitation.stub(find_by_token!: @invitation)
       end
 
-      it 'updates the invited member with email, first name, last name, and password' do
-        user_params = {
+      let(:user_params) {
+        {
           'email' => email, 'first_name' => 'Paula', 'last_name' => 'Abdul',
           'password' => 'hello', 'password_confirmation' => 'hello',
           'invitation_token' => 'hello'
         }
+      }
+
+      it 'updates the invited member with email, first name, last name, and password' do
         filtered_params = user_params.select { |key, value| key.match(/^(email)|(first_name)|(last_name)|(password)|(password_confirmation)/) }
 
         @invitation.invited_member.should_receive(:update_attributes).with(filtered_params)
         @invitation.stub(:claim!)
 
-        post :update, id: 'ABCD', user: user_params
+        put :update, id: 'ABCD', user: user_params
       end
 
       context 'user attributes are valid' do
+        def do_request
+          put :update, id: 'ABCD', user: user_params
+        end
+
         before do
           @invitation.invited_member.stub(:valid?) { true }
           @invitation.invited_member.stub(:update_attributes)

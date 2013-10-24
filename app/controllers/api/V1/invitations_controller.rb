@@ -3,23 +3,25 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
   before_filter :load_invitation!, :only => [:show, :update]
 
   def create
-    user_params = params.permit(user: [:email, :first_name, :last_name])[:user]
-    user = Member.find_by_email(user_params[:email]) || Member.create(user_params)
+    Member.transaction do
+      user_params = params.permit(user: [:email, :first_name, :last_name])[:user]
+      user = Member.find_by_email(user_params[:email]) || Member.create(user_params)
 
-    authorize! :assign_roles, user
+      authorize! :assign_roles, user
 
-    if user.signed_up?
-      user.add_role :hcp
-      UserMailer.assigned_role_email(user, current_user).deliver
-      render_success
-    else
-      if user.valid?
+      if user.signed_up?
         user.add_role :hcp
-
-        current_user.invitations.create invited_member: user
+        UserMailer.assigned_role_email(user, current_user).deliver
         render_success
       else
-        render_failure({:reason => user.errors.full_messages.to_sentence}, 422)
+        if user.valid?
+          user.add_role :hcp
+
+          current_user.invitations.create invited_member: user
+          render_success
+        else
+          render_failure({:reason => user.errors.full_messages.to_sentence}, 422)
+        end
       end
     end
   end
@@ -42,7 +44,7 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
   end
 
   def update
-    user_params = params.permit(:user => [:email, :first_name, :last_name, :password, :password_confirmation])[:user]
+    user_params = params.require(:user).permit(:email, :first_name, :last_name, :password, :password_confirmation)
 
     user = @invitation.invited_member
     user.update_attributes user_params

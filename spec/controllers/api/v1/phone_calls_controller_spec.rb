@@ -20,7 +20,11 @@ describe Api::V1::PhoneCallsController do
         @json = [{},{}]
         PhoneCall.stub(:where) {
           o = Object.new
-          o.stub(:as_json) { @json }
+          o.stub(:order).with('created_at DESC') {
+            o_o = Object.new
+            o_o.stub(:as_json) { @json }
+            o_o
+          }
           o
         }
       end
@@ -35,7 +39,11 @@ describe Api::V1::PhoneCallsController do
       it 'doesn\'t permit other query parameters' do
         PhoneCall.should_receive(:where).with('state' => 'unclaimed') {
           o = Object.new
-          o.stub(:as_json) { @json }
+          o.stub(:order).with('created_at DESC') {
+            o_o = Object.new
+            o_o.stub(:as_json) { @json }
+            o_o
+          }
           o
         }
         get :index, auth_token: user.auth_token, state: 'unclaimed', member_id: '1'

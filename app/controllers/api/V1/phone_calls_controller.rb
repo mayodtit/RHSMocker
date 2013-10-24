@@ -4,12 +4,19 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
 
   def index
     authorize! :read, PhoneCall
-    index_resource PhoneCall.where(params.permit(:state)).as_json(:include => :user)
+    index_resource PhoneCall.where(params.permit(:state)).order('created_at DESC').as_json(
+      include: {
+        user: {
+          only: [:first_name, :last_name, :email],
+          methods: [:full_name]
+        }
+      }
+    )
   end
 
   def show
     authorize! :read, @phone_call
-    show_resource @phone_call.as_json(:include => :user)
+    show_resource @phone_call.as_json(include: :user)
   end
 
   def update
@@ -26,7 +33,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
     end
 
     if @phone_call.valid?
-      render_success :phone_call => @phone_call
+      show_resource @phone_call.as_json(include: :user)
     else
       render_failure({reason: @phone_call.errors.full_messages.to_sentence}, 422)
     end

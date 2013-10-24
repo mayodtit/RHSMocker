@@ -236,10 +236,20 @@ resource "Users" do
   end
 
   describe 'get current user' do
+    parameter :auth_token, 'User\'s auth token'
+    required_parameters :auth_token
+
+    let(:auth_token) { user.auth_token }
+
+    # For posts
+    # let(:raw_post) { params.to_json }
+
     get '/api/v1/user' do
-      example_request "[GET] Get the current user" do
-        explanation "Get the current user's info"
-        # TODO
+      example_request '[GET] Get the current user' do
+        explanation 'Get the current user\'s info'
+        status.should == 200
+        response = JSON.parse(response_body, :symbolize_names => true)
+        response[:user].to_json.should == user.as_json(only: [:first_name, :last_name, :email], methods: :full_name).to_json
       end
     end
   end
