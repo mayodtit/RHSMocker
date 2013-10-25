@@ -59,7 +59,7 @@ RHSMocker::Application.routes.draw do
           end
         end
         post 'invite', :on => :member
-        resources :cards, :only => [:index, :show, :update] do
+        resources :cards, :only => [:show, :update] do
           get :inbox, :on => :collection
           get :timeline, :on => :collection
         end

@@ -13,21 +13,6 @@ describe 'Cards' do
     let!(:saved_card) { create(:card, :saved, :user => user) }
     let!(:dismissed_card) { create(:card, :dismissed, :user => user) }
 
-    describe 'GET /api/v1/users/:user_id/cards' do
-      def do_request
-        get "/api/v1/users/#{user.id}/cards", auth_token: user.auth_token
-      end
-
-      it 'indexes the user\'s cards' do
-        do_request
-        response.should be_success
-        body = JSON.parse(response.body, :symbolize_names => true)
-        ids = body[:cards].map{|card| card[:id]}
-        ids.should include(unread_card.id, read_card.id, saved_card.id)
-        ids.should_not include(dismissed_card.id)
-      end
-    end
-
     describe 'GET /api/v1/users/:user_id/cards/inbox' do
       def do_request
         get "/api/v1/users/#{user.id}/cards/inbox", auth_token: user.auth_token

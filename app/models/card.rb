@@ -22,10 +22,6 @@ class Card < ActiveRecord::Base
     where(:state => :saved).by_priority
   end
 
-  def self.not_dismissed
-    where(:state => [:unread, :read, :saved]).by_priority
-  end
-
   def self.by_priority
     order('priority DESC')
   end

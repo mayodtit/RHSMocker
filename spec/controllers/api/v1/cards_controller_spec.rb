@@ -10,29 +10,6 @@ describe Api::V1::CardsController do
     controller.stub(:current_ability => ability)
   end
 
-  describe 'GET index' do
-    def do_request
-      get :index
-    end
-
-    it_behaves_like 'action requiring authentication and authorization'
-    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
-      let(:cards) { double('cards', :not_dismissed => [card]) }
-
-      before(:each) do
-        user.stub(:cards => cards)
-      end
-
-      it_behaves_like 'success'
-
-      it 'returns a hash of cards by type' do
-        do_request
-        json = JSON.parse(response.body, :symbolize_names => true)
-        json[:cards].first.keys.should =~ card_keys
-      end
-    end
-  end
-
   describe 'GET inbox' do
     def do_request
       get :inbox

@@ -22,15 +22,6 @@ resource 'Cards' do
     let!(:read_card) { create(:card, :read, :user => user) }
     let!(:saved_card) { create(:card, :saved, :user => user) }
 
-    get '/api/v1/users/:user_id/cards' do
-      example_request "[GET] Get all cards for a user" do
-        explanation "Retreive all non-dismissed cards"
-        status.should == 200
-        json = JSON.parse(response_body, :symbolize_names => true)
-        json[:cards].map{|c| c[:id]}.should include(unread_card.id, read_card.id, saved_card.id)
-      end
-    end
-
     get '/api/v1/users/:user_id/cards/inbox' do
       example_request "[GET] Get inbox cards for a user" do
         explanation "Retreive all inbox cards"

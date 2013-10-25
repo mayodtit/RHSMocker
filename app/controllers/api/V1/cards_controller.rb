@@ -2,10 +2,6 @@ class Api::V1::CardsController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_card!, only: [:show, :update]
 
-  def index
-    index_resource(merge_previews(@user.cards.not_dismissed))
-  end
-
   def inbox
     index_resource(merge_previews(@user.cards.inbox))
   end
