@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131023123851) do
+ActiveRecord::Schema.define(:version => 20131025153029) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -485,12 +485,12 @@ ActiveRecord::Schema.define(:version => 20131023123851) do
   create_table "user_readings", :force => true do |t|
     t.integer  "user_id"
     t.integer  "content_id"
-    t.datetime "created_at",                   :null => false
-    t.datetime "updated_at",                   :null => false
-    t.integer  "view_count",    :default => 0, :null => false
-    t.integer  "save_count",    :default => 0, :null => false
-    t.integer  "dismiss_count", :default => 0, :null => false
-    t.integer  "share_count",   :default => 0, :null => false
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+    t.integer  "viewed_count",    :default => 0, :null => false
+    t.integer  "saved_count",     :default => 0, :null => false
+    t.integer  "dismissed_count", :default => 0, :null => false
+    t.integer  "shared_count",    :default => 0, :null => false
   end
 
   create_table "user_treatment_side_effects", :force => true do |t|

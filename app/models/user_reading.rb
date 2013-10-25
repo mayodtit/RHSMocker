@@ -2,25 +2,29 @@ class UserReading < ActiveRecord::Base
   belongs_to :user
   belongs_to :content
 
-  attr_accessible :user, :content, :view_count, :save_count, :dismiss_count, :share_count
+  attr_accessible :user, :content, :viewed_count, :saved_count, :dismissed_count, :shared_count
 
-  validates :user, :content, :view_count, :save_count, :dismiss_count, :share_count, presence: true
+  validates :user, :content, :viewed_count, :saved_count, :dismissed_count, :shared_count, presence: true
   validates :content_id, :uniqueness => {:scope => :user_id}
 
-  def self.increment_view!(user, content)
-    increment_attribute!(user, content, :view_count)
+  def self.increment_event!(user, content, event)
+    send("increment_#{event}!", user, content)
   end
 
-  def self.increment_save!(user, content)
-    increment_attribute!(user, content, :save_count)
+  def self.increment_viewed!(user, content)
+    increment_attribute!(user, content, :viewed_count)
   end
 
-  def self.increment_dismiss!(user, content)
-    increment_attribute!(user, content, :dismiss_count)
+  def self.increment_saved!(user, content)
+    increment_attribute!(user, content, :saved_count)
   end
 
-  def self.increment_share!(user, content)
-    increment_attribute!(user, content, :share_count)
+  def self.increment_dismissed!(user, content)
+    increment_attribute!(user, content, :dismissed_count)
+  end
+
+  def self.increment_shared!(user, content)
+    increment_attribute!(user, content, :shared_count)
   end
 
   private

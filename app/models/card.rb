@@ -78,15 +78,8 @@ class Card < ActiveRecord::Base
       card.state_changed_at = nil
     end
 
-    after_transition any => :saved do |card, transition|
-      UserReading.increment_save!(card.user, card.resource) if card.content_card?
-    end
-
-    after_transition any => :dismissed do |card, transition|
-      UserReading.increment_dismiss!(card.user, card.resource) if card.content_card?
-    end
-
     after_transition any => [:saved, :dismissed] do |card, transition|
+      UserReading.increment_event!(card.user, card.resource, transition.to_name) if card.content_card?
       PusherJob.new.push_content(card.user_id)
     end
   end
