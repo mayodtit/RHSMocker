@@ -86,7 +86,7 @@ resource "Invitations" do
     let(:raw_post) { params.to_json }
 
     put '/api/v1/invitations/:token' do
-      example_request '[GET] Invitation' do
+      example_request '[PUT] Sign Up via Invitation' do
         explanation 'Retrieve an invitation by it\'s token. Also adds invitor and invitee names.'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
