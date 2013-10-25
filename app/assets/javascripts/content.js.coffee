@@ -1,7 +1,6 @@
 $ ->
   $(".talk").click ->
-    document.actionJSON = JSON.stringify([{type: "launch_call_screen", body: {content_id: $(@).data("content-id").toString(), message_body: $(@).data("message")}}])
-    window.location.href = "http://dontload"
+    NativeBridge.call('newConsult', {contentId: $(@).data("content-id"), message: $(@).data("message")})
 
   $(".consult-link").click ->
     if not $(@).data("consult-id")
@@ -18,20 +17,17 @@ $ ->
       return
     NativeBridge.call('openCard', {cardId: $(@).data("card-id")})
 
-  $(".diet-question .tile").click ->
-    $('.' + $(@).data('type')).toggle()
-
   $(".gender").click ->
-    document.actionJSON = JSON.stringify([{type:"set_gender", body: {gender: $(@).data("gender")}}, {type: "save_item"}])
-    window.location.href = "http://dontload"
+    NativeBridge.call('setGender', {gender: $(@).data("gender")})
 
   $(".allergies").click ->
-    document.actionJSON = JSON.stringify([{type:"goto_allergies"}, {type: "save_item"}])
-    window.location.href = "http://dontload"
+    NativeBridge.call('openView', {view: "allergies"})
 
   $(".no-allergies").click ->
-    document.actionJSON = JSON.stringify([{type:"add_allergy", body:{allergy_id: $(@).data('allergy-id').toString()}}, {type: "save_item"}])
-    window.location.href = "http://dontload"
+    NativeBridge.call('addAllergy', {allergyId: $(@).data("allergy-id")})
+
+  $(".diet-question .tile").click ->
+    $('.' + $(@).data('type')).toggle()
 
   $(".date").each ->
     d = new Date(0)
