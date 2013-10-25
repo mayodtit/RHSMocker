@@ -77,12 +77,12 @@ if `which siege` == ''
 end
 
 api_urls = [
-  'http://rhs:let!me!in@bench1.getbetter.com', # EC2
-  'http://api-qa.getbetter.com', # heroku
+  #'http://bench1.getbetter.com', # EC2
+  #'http://api-qa.getbetter.com', # heroku
   #'http://localhost:3000'
 ]
 
-run_time = 5 # in seconds
+run_time = 120 # in seconds
 concurrent_connections = 1
 
 api_urls.each do |url|
