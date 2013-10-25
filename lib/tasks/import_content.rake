@@ -16,10 +16,10 @@ namespace :admin do
     filenames.each_with_index do |filename, i|
       log("Processing file #{(i + 1).to_s.rjust(padding)}/#{num_files}: #{filename}")
       importer = ContentImporter.new(Nokogiri::XML(File.open(filename)), logger)
-      importer.import
-      if importer.skipped?
+      case importer.import
+      when :skipped
         skipped << filename
-      elsif importer.failed?
+      when :failed
         failed << filename
       end
     end

@@ -3,21 +3,20 @@ $ ->
     document.actionJSON = JSON.stringify([{type: "launch_call_screen", body: {content_id: $(@).data("content-id").toString(), message_body: $(@).data("message")}}])
     window.location.href = "http://dontload"
 
-  $(".fullscreen-available").click ->
-    document.actionJSON = JSON.stringify([{type: "fullscreen"}])
-    window.location.href = "http://dontload"
-
   $(".consult-link").click ->
-    document.actionJSON = JSON.stringify([{type:"open_consult", body: {consult_id: $(@).data("consult-id").toString()}}])
-    window.location.href = "http://dontload"
+    if not $(@).data("consult-id")
+      return
+    NativeBridge.call('openConsult', {consultId: $(@).data("consult-id")})
 
   $(".content-link").click ->
     if not $(@).data("content-id")
       return
-    NativeBridge.call('open_content', {content_id: $(@).data("content-id")})
-    # TODO - use the below until the client supports the "open_content" hook
-    if window.mayo_terms_of_service_url?
-      window.location.href = window.mayo_terms_of_service_url
+    NativeBridge.call('openContent', {contentId: $(@).data("content-id")})
+
+  $(".card-link").click ->
+    if not $(@).data("card-id")
+      return
+    NativeBridge.call('openCard', {cardId: $(@).data("card-id")})
 
   $(".diet-question .tile").click ->
     $('.' + $(@).data('type')).toggle()

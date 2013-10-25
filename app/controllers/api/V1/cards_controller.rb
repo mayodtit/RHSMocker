@@ -39,7 +39,7 @@ class Api::V1::CardsController < Api::V1::ABaseController
   def merge_previews(cards)
     cards.map{|c| c.as_json.merge!(:preview => render_to_string(:action => :preview,
                                                                 :formats => [:html],
-                                                                :locals => {:resource => c.resource}))}
+                                                                :locals => {:card => c, :resource => c.resource}))}
   end
 
   def merge_body(card)

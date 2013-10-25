@@ -1,6 +1,9 @@
 class Content < ActiveRecord::Base
   include SolrExtensionModule
 
+  CONTENT_TYPES = %w(Article Answer HealthTip FirstAid)
+  CSV_COLUMNS = %w(id mayo_doc_id content_type title)
+
   has_many :user_readings
   has_many :users, :through => :user_readings
   has_many :content_mayo_vocabularies
@@ -13,6 +16,10 @@ class Content < ActiveRecord::Base
   attr_accessible :title, :body, :content_type, :abstract, :question, :keywords,
                   :content_updated_at, :mayo_doc_id, :show_call_option,
                   :show_checker_option, :show_mayo_copyright
+
+  validates :title, :body, :content_type, :mayo_doc_id, presence: true
+  validates :show_call_option, :show_checker_option, :show_mayo_copyright, inclusion: {:in => [true, false]}
+  validates :mayo_doc_id, uniqueness: true
 
   searchable do
     text :body
@@ -35,69 +42,10 @@ class Content < ActiveRecord::Base
     mayo_doc_id.present? ? "/contents/#{mayo_doc_id}" : nil
   end
 
-  #Content Methods to find types by MCVIDs semantically
-  def self.byGender(gender)
-    genderSpecificIDs = []
-    unless gender.blank?
-       gender = gender[0]
-       if gender <=> 'F'
-         genderSpecificIDs = ['1131','3899','3900']
-       elsif gender <=> 'M'
-         genderSpecificIDs = ['1130','3896','3897']
-       end
-
-       if !genderSpecificIDs.empty?
-          return MayoVocabulary.where(:mcvid => genderSpecificIDs).inject([]){|array, vocab| array << vocab.contents.map(&:id);array}.flatten
-       end
-    end
-    []
+  # RANDOM() is PSQL specific
+  def self.random
+    where(:content_type => CONTENT_TYPES).first(:order => "RANDOM()")
   end
-
-  def self.mcvidsForAge(age)
-    #Add Age Specific MCVIDS
-    #Birth to 1 month = 1119
-    #2 months to 2 years = 1120
-    #3 to 5 years  = 1121
-    #6 to 12 years = 1122
-    #13 to 18 years = 1123
-    #19 to 44 = 1125
-    #45 to 64 = 1126
-    #65 to 80 = 1127
-    #80 and over = 1128
-
-    mcvid_array = []
-
-    case age
-      when 0..2  then
-        mcvid_array << '1119'
-        mcvid_array << '1120'
-      when 3..5 then
-        mcvid_array << '1121'
-      when 6..12 then
-        mcvid_array << '1122'
-      when 13..18 then
-        mcvid_array << '1123'
-      when 19..44 then
-        mcvid_array << '1125'
-      when 45..64 then
-        mcvid_array << '1126'
-      when 65..80 then
-        mcvid_array << '1127'
-      when 80..200 then
-        mcvid_array << '1128'
-    end
-
-    mcvid_array
-  end
-
-  CONTENT_TYPES = %w(Article Answer HealthTip FirstAid)
-
-  # Utility Methods to be removed
-  def self.getRandomContent
-    Content.where(:content_type => CONTENT_TYPES).first(:order => "RANDOM()")
-  end
-
-  CSV_COLUMNS = %w(id mayo_doc_id content_type title)
 
   def self.to_csv
     CSV.generate do |csv|
@@ -118,5 +66,9 @@ class Content < ActiveRecord::Base
 
   def self.mayo_terms_of_service
     @mayo_terms_of_service ||= find_by_mayo_doc_id('AM00021')
+  end
+
+  def self.next_for(user)
+    random
   end
 end

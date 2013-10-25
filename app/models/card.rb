@@ -1,4 +1,6 @@
 class Card < ActiveRecord::Base
+  MAX_CONTENT_PER_USER = 7
+
   belongs_to :user
   belongs_to :resource, polymorphic: true
 

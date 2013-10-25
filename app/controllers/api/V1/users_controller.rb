@@ -1,7 +1,7 @@
 class Api::V1::UsersController < Api::V1::ABaseController
   include ActiveModel::MassAssignmentSecurity
   attr_accessible :first_name, :last_name, :avatar, :gender, :height, :birth_date, :email, :phone,
-                  :generic_call_time, :password, :password_confirmation, :feature_bucket, :blood_type,
+                  :password, :password_confirmation, :blood_type,
                   :holds_phone_in, :diet_id, :ethnic_group_id, :deceased, :date_of_death, :npi_number,
                   :expertise, :city, :state, :units, :agreement_params, :install_id
 
@@ -54,10 +54,6 @@ class Api::V1::UsersController < Api::V1::ABaseController
     @user = login(current_user.email, params[:password])
     render_failure(reason: "Invalid current password") and return unless @user
     update_resource(@user, :email => params[:email])
-  end
-
-  def keywords
-    render_success keywords: Member.find(params[:id]).keywords.map{|mv| mv[0].title }[0,7]
   end
 
   def invite
