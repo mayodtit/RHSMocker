@@ -1,21 +1,21 @@
 $ ->
   $(".talk").click ->
-    NativeBridge.call('newConsult', {contentId: $(@).data("content-id"), message: $(@).data("message")})
+    NativeBridge.call('newConsult', {id: $(@).data("content-id"), message: $(@).data("message")})
 
   $(".consult-link").click ->
     if not $(@).data("consult-id")
       return
-    NativeBridge.call('openConsult', {consultId: $(@).data("consult-id")})
+    NativeBridge.call('openConsult', {id: $(@).data("consult-id")})
 
   $(".content-link").click ->
     if not $(@).data("content-id")
       return
-    NativeBridge.call('openContent', {contentId: $(@).data("content-id")})
+    NativeBridge.call('openContent', {id: $(@).data("content-id")})
 
   $(".card-link").click ->
     if not $(@).data("card-id")
       return
-    NativeBridge.call('openCard', {cardId: $(@).data("card-id")})
+    NativeBridge.call('openCard', {id: $(@).data("card-id")})
 
   $(".gender").click ->
     NativeBridge.call('setGender', {gender: $(@).data("gender")})
@@ -24,7 +24,7 @@ $ ->
     NativeBridge.call('openView', {view: "allergies"})
 
   $(".no-allergies").click ->
-    NativeBridge.call('addAllergy', {allergyId: $(@).data("allergy-id")})
+    NativeBridge.call('addAllergy', {id: $(@).data("allergy-id")})
 
   $(".diet-question .tile").click ->
     $('.' + $(@).data('type')).toggle()
