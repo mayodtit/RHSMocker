@@ -114,21 +114,13 @@ describe Api::V1::InvitationsController do
   end
 
   shared_examples 'invitation 404' do
-    context 'invitation doesn\'t exist' do
+    context 'invitation doesn\'t exist or is claimed' do
       before do
-        Invitation.stub(:find_by_token!) { raise(ActiveRecord::RecordNotFound) }
-      end
-
-      it_behaves_like '404'
-    end
-
-    context 'invitation unclaimed' do
-      before do
-        Invitation.stub(:find_by_token!) do
+        Invitation.stub(:where).with(state: :unclaimed) {
           o = Object.new
-          o.stub(:unclaimed?) { false }
+          o.stub(:find_by_token!) { raise(ActiveRecord::RecordNotFound) }
           o
-        end
+        }
       end
 
       it_behaves_like '404'

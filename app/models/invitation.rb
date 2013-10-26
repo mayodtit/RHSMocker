@@ -8,6 +8,7 @@ class Invitation < ActiveRecord::Base
 
   validates :member, :invited_member, :token, presence: true
   validates :invited_member_id, :uniqueness => {:scope => :member_id}
+  validates :token, uniqueness: true
 
   before_validation :generate_token, on: :create
   after_create :invite_member!

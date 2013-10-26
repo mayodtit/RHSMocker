@@ -5,11 +5,13 @@ describe PhoneCall do
   it_validates 'presence of', :user
   it_validates 'presence of', :destination_phone_number
 
-
   describe 'states' do
     before do
-      @now = Time.now
-      Time.stub(:now) { @now }
+      Timecop.freeze()
+    end
+
+    after do
+      Timecop.return
     end
 
     before :each do
@@ -42,7 +44,7 @@ describe PhoneCall do
       end
 
       it 'sets the claimed time' do
-        @phone_call.claimed_at.should == @now
+        @phone_call.claimed_at.should == Time.now
       end
     end
 
@@ -61,7 +63,7 @@ describe PhoneCall do
       end
 
       it 'sets the ended time' do
-        @phone_call.ended_at.should == @now
+        @phone_call.ended_at.should == Time.now
       end
     end
 
@@ -69,7 +71,7 @@ describe PhoneCall do
       before do
         @phone_call.state = 'ended'
         @phone_call.ender = @other_nurse
-        @phone_call.ended_at = @now
+        @phone_call.ended_at = Time.now
 
         @phone_call.reclaim!
       end
@@ -91,7 +93,7 @@ describe PhoneCall do
       before do
         @phone_call.state = 'claimed'
         @phone_call.claimer = @nurse
-        @phone_call.claimed_at = @now
+        @phone_call.claimed_at = Time.now
 
         @phone_call.unclaim!
       end

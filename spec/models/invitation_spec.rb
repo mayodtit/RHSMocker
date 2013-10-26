@@ -1,19 +1,21 @@
 require 'spec_helper'
 
+
 describe Invitation do
   it_has_a 'valid factory'
   it_validates 'presence of', :member
   it_validates 'presence of', :invited_member
   it_validates 'presence of', :token
   it_validates 'uniqueness of', :invited_member_id, :member_id
+  it_validates 'uniqueness of', :token
 
   describe '#generate_token' do
     it 'generates unique tokens' do
       invitationA = Invitation.new
       invitationB = Invitation.new
 
-      invitationA.send(:generate_token)
-      invitationB.send(:generate_token)
+      invitationA.send :generate_token
+      invitationB.send :generate_token
 
       invitationA.token.should_not == invitationB.token
     end

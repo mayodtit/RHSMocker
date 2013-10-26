@@ -61,7 +61,6 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
   private
 
   def load_invitation!
-    @invitation = Invitation.find_by_token!(params[:id])
-    raise(ActiveRecord::RecordNotFound) unless @invitation.unclaimed?
+    @invitation = Invitation.where(state: :unclaimed).find_by_token!(params[:id])
   end
 end

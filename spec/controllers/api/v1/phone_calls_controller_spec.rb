@@ -124,8 +124,6 @@ describe Api::V1::PhoneCallsController do
               end
 
               do_request
-
-              received.should be_true
             end
 
             context 'update is valid' do

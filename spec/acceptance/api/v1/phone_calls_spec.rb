@@ -79,7 +79,7 @@ resource "PhoneCalls" do
         explanation 'Get a phone call (along with the caller\'s information). Accessible only by HCPs'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        intify_values(response[:phone_call]).to_json.should == intify_values(phone_call.reload.as_json(include: :user)).to_json
+        response[:phone_call].to_json.should == phone_call.reload.as_json(include: :user).to_json
       end
     end
   end

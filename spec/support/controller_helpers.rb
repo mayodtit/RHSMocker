@@ -90,15 +90,3 @@ def base64_test_image
   file = Rails.root.join('spec','support','kbcat.jpg')
   Base64.encode64(open(file) { |io| io.read })
 end
-
-def intify_values o
-  if o.is_a? Array
-    o.map {|item| intify_values item }
-  elsif o.is_a? Hash
-    o.merge(o) {|k, val| intify_values val }
-  elsif o.is_a?(String) && /^\d+$/.match(o.to_s)
-    o.to_i
-  else
-    o
-  end
-end
