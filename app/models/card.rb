@@ -12,7 +12,7 @@ class Card < ActiveRecord::Base
   validates :resource_id, :uniqueness => {:scope => [:user_id, :resource_type]}
 
   before_validation :set_default_priority
-  after_create :create_user_reading, :if => lambda{|c| c.content_card? }
+  after_create :create_user_reading, :if => :content_card?
 
   def self.inbox
     where(:state => :unsaved).by_priority.reject {|c| c.resource.content_type.downcase == 'disease' if c.content_card? }
