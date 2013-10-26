@@ -8,14 +8,14 @@ class Card < ActiveRecord::Base
                   :state, :state_event, :state_changed_at, :priority
 
   validates :user, :resource, presence: true
+  validates :state_changed_at, presence: true, unless: :unsaved?
   validates :resource_id, :uniqueness => {:scope => [:user_id, :resource_type]}
-  validates :state_changed_at, presence: true, unless: :unread?
 
   before_validation :set_default_priority
   after_create :create_user_reading, :if => lambda{|c| c.content_card? }
 
   def self.inbox
-    where(:state => [:unread, :read]).by_priority.reject {|c| c.resource.content_type.downcase == 'disease' if c.content_card? }
+    where(:state => :unsaved).by_priority.reject {|c| c.resource.content_type.downcase == 'disease' if c.content_card? }
   end
 
   def self.timeline
@@ -48,12 +48,7 @@ class Card < ActiveRecord::Base
     UserReading.where(:user_id => user.id, :content_id => resource.id).first_or_create!
   end
 
-  state_machine :initial => :unread do
-    event :read do
-      transition :unread => :read
-      transition [:read, :saved, :dismissed] => same
-    end
-
+  state_machine :initial => :unsaved do
     event :saved do
       transition all => :saved
     end
@@ -63,15 +58,11 @@ class Card < ActiveRecord::Base
     end
 
     event :reset do
-      transition all => :unread
+      transition all => :unsaved
     end
 
-    before_transition any => [:read, :saved, :dismissed] do |card, transition|
+    before_transition any => any do |card, transition|
       card.state_changed_at ||= Time.now
-    end
-
-    before_transition any => :unread do |card, transition|
-      card.state_changed_at = nil
     end
 
     after_transition any => [:saved, :dismissed] do |card, transition|

@@ -42,9 +42,7 @@ class CardSerializer < ActiveModel::Serializer
   end
 
   def state_specific_date
-    if object.read?
-      {:read_date => object.state_changed_at}
-    elsif object.saved?
+    if object.saved?
       {
         :read_date => object.state_changed_at,
         :save_date => object.state_changed_at,

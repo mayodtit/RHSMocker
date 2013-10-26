@@ -29,6 +29,7 @@ class Api::V1::CardsController < Api::V1::ABaseController
     if @card.saved? || @card.dismissed?
       params[:card].delete(:state_changed_at) unless [:saved, :dismissed].include?(params[:card][:state_event])
     end
+    params[:card].delete(:state_event) if params[:card].try(:[], :state_event).try(:to_sym) == :read # TODO - allow the client to send us read without crashing, for now
     params[:card]
   end
 
