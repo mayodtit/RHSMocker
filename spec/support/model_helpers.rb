@@ -1,6 +1,6 @@
-shared_examples 'valid factory' do
+shared_examples 'valid factory' do |*traits|
   it 'builds a valid object' do
-    model = build(described_class.name.underscore.to_sym)
+    model = build(described_class.name.underscore.to_sym, *traits)
     model.should be_valid
     model.save.should be_true
     model.should be_persisted
