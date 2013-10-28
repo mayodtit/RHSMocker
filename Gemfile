@@ -35,6 +35,8 @@ group :development, :test do
   gem "zeus-parallel_tests"
   gem 'factory_girl_rails'
   gem 'guard-rspec'
+  gem 'ruby-debug-base19x'
+  gem 'ruby-debug-ide'
 end
 
 group :development do
@@ -72,7 +74,7 @@ gem "active_model_serializers"
 # gem 'capistrano'
 
 gem 'httparty'
-gem 'debugger'
+gem 'debugger', require: false
 gem 'awesome_print'
 gem 'titleize'
 gem 'haml'
@@ -93,3 +95,5 @@ gem 'ri_cal'
 gem 'symbolize'
 gem 'draper' # decorator pattern for models
 gem 'kaminari' # pagination
+gem 'strong_parameters'
+gem 'timecop'

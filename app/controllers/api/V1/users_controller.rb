@@ -18,6 +18,10 @@ class Api::V1::UsersController < Api::V1::ABaseController
     end
   end
 
+  def show
+    render_success user: current_user.as_json(only: [:first_name, :last_name, :email], methods: [:full_name, :admin?, :hcp?])
+  end
+
   def create
     @user = Member.create(create_params)
     if @user.errors.empty?
@@ -56,6 +60,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
     update_resource(@user, :email => params[:email])
   end
 
+  # Invites a ghost user
   def invite
     @user = User.find(params[:id])
     @member = @user.member || Member.create_from_user!(@user)

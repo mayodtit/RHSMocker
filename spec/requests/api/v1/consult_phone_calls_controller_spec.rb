@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'PhoneCall' do
+describe 'ConsultPhoneCall' do
   let(:user) { create(:member) }
   let(:consult) { create(:consult, :initiator => user) }
 

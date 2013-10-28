@@ -13,7 +13,7 @@ FactoryGirl.define do
         after(:create) {|user| user.add_role(:admin)}
       end
 
-      factory :hcp_user do
+      factory :hcp do
         after(:create) {|user| user.add_role(:hcp)}
       end
     end
