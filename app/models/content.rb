@@ -21,6 +21,8 @@ class Content < ActiveRecord::Base
   validates :show_call_option, :show_checker_option, :show_mayo_copyright, inclusion: {:in => [true, false]}
   validates :mayo_doc_id, uniqueness: true
 
+  before_validation :set_defaults, on: :create
+
   searchable do
     text :body
     text :title, :boost => 2.0
@@ -77,5 +79,11 @@ class Content < ActiveRecord::Base
   # TODO: remove this once we migrate over to MySQL
   def self.rand_str
     @rand_str ||= (Rails.configuration.database_configuration[Rails.env]['adapter'] == 'postgresql') ? 'RANDOM()' : 'RAND()'
+  end
+
+  def set_defaults
+    self.show_call_option = true if show_call_option.nil?
+    self.show_checker_option = true if show_checker_option.nil?
+    self.show_mayo_copyright = true if show_mayo_copyright.nil?
   end
 end
