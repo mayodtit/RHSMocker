@@ -101,6 +101,7 @@ RHSMocker::Application.routes.draw do
     get :complete, :on => :collection
     get :signup, :on => :collection
   end
+  resources :mayo_vocabularies, only: :index
   resources :nurseline_records, :only => :create
   resources :questions, :only => :show
   resources :users, :only => [] do
