@@ -34,11 +34,11 @@ shared_examples 'uniqueness of' do |property|
   end
 end
 
-shared_examples 'scoped uniqueness of' do |property, scope|
-  its "#{property} per #{scope}" do
+shared_examples 'scoped uniqueness of' do |property, *scopes|
+  its "#{property} per #{scopes.join(',')}" do
     model = create(described_class.name.underscore.to_sym)
-    duplicate = build_stubbed(described_class.name.underscore.to_sym, property => model.send(property),
-                                                                      scope => model.send(scope))
+    duplicate = build_stubbed(described_class.name.underscore.to_sym,
+                              scopes.inject({property => model.send(property)}){|h,v| h[v] = model.send(v); h})
     duplicate.should_not be_valid
     duplicate.errors[property.to_sym].should include("has already been taken")
   end
