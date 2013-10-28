@@ -4,11 +4,9 @@ describe Card do
   it_has_a 'valid factory'
   it_has_a 'valid factory', :saved
   it_has_a 'valid factory', :dismissed
-
-  describe 'validations' do
-    it_validates 'presence of', :user
-    it_validates 'presence of', :resource
-  end
+  it_validates 'presence of', :user
+  it_validates 'presence of', :resource
+  it_validates 'uniqueness of', :resource_id, :user_id, :resource_type
 
   describe 'state machine' do
     describe 'states' do
