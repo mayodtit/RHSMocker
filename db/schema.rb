@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131023123851) do
+ActiveRecord::Schema.define(:version => 20131025202657) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -233,7 +233,11 @@ ActiveRecord::Schema.define(:version => 20131023123851) do
     t.integer  "invited_member_id"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
+    t.string   "token"
+    t.string   "state"
   end
+
+  add_index "invitations", ["token"], :name => "index_invitations_on_token"
 
   create_table "locations", :force => true do |t|
     t.integer  "user_id"
@@ -319,7 +323,16 @@ ActiveRecord::Schema.define(:version => 20131023123851) do
     t.datetime "updated_at",               :null => false
     t.string   "origin_phone_number"
     t.string   "destination_phone_number"
+    t.string   "state"
+    t.datetime "claimed_at"
+    t.datetime "ended_at"
+    t.integer  "claimer_id"
+    t.integer  "ender_id"
   end
+
+  add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"
+  add_index "phone_calls", ["ender_id"], :name => "index_phone_calls_on_ender_id"
+  add_index "phone_calls", ["state"], :name => "index_phone_calls_on_state"
 
   create_table "plan_offerings", :force => true do |t|
     t.integer  "plan_id"
@@ -485,12 +498,12 @@ ActiveRecord::Schema.define(:version => 20131023123851) do
   create_table "user_readings", :force => true do |t|
     t.integer  "user_id"
     t.integer  "content_id"
-    t.datetime "created_at",                   :null => false
-    t.datetime "updated_at",                   :null => false
-    t.integer  "view_count",    :default => 0, :null => false
-    t.integer  "save_count",    :default => 0, :null => false
-    t.integer  "dismiss_count", :default => 0, :null => false
-    t.integer  "share_count",   :default => 0, :null => false
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+    t.integer  "viewed_count",    :default => 0, :null => false
+    t.integer  "saved_count",     :default => 0, :null => false
+    t.integer  "dismissed_count", :default => 0, :null => false
+    t.integer  "shared_count",    :default => 0, :null => false
   end
 
   create_table "user_treatment_side_effects", :force => true do |t|

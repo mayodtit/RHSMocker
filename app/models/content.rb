@@ -32,7 +32,7 @@ class Content < ActiveRecord::Base
   end
 
   # TODO - replace in future with root_share_url, move append to UserReading
-  def share_url user_reading_id=nil
+  def share_url(user_reading_id=nil)
     result = "/contents/#{mayo_doc_id}"
     result+= "/#{user_reading_id}" if user_reading_id
     result
@@ -42,9 +42,8 @@ class Content < ActiveRecord::Base
     mayo_doc_id.present? ? "/contents/#{mayo_doc_id}" : nil
   end
 
-  # RANDOM() is PSQL specific
   def self.random
-    where(:content_type => CONTENT_TYPES).first(:order => "RANDOM()")
+    where(:content_type => CONTENT_TYPES).first(order: rand_str)
   end
 
   def self.to_csv
@@ -70,5 +69,13 @@ class Content < ActiveRecord::Base
 
   def self.next_for(user)
     random
+  end
+
+  private
+
+  # RANDOM() is PSQL specific
+  # TODO: remove this once we migrate over to MySQL
+  def self.rand_str
+    @rand_str ||= (Rails.configuration.database_configuration[Rails.env]['adapter'] == 'postgresql') ? 'RANDOM()' : 'RAND()'
   end
 end

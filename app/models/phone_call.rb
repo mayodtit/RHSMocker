@@ -1,10 +1,16 @@
 class PhoneCall < ActiveRecord::Base
+  include ActiveModel::ForbiddenAttributesProtection
+
   belongs_to :user, class_name: 'Member'
+  belongs_to :claimer, class_name: 'Member'
+  belongs_to :ender, class_name: 'Member'
+
   has_one :message, :inverse_of => :phone_call
   has_one :scheduled_phone_call
 
   attr_accessible :user, :user_id, :message, :message_attributes, :origin_phone_number,
-                  :destination_phone_number
+                  :destination_phone_number, :claimer, :claimer_id, :claimed_at,
+                  :ender, :ender_id, :ended_at
 
   validates :user, :message, :destination_phone_number, presence: true
 
@@ -19,5 +25,43 @@ class PhoneCall < ActiveRecord::Base
 
   def schedule_phone_call_summary
     PhoneCallSummaryJob.new.queue_summary(user.id, consult.id)
+  end
+
+  state_machine :initial => :unclaimed do
+    event :claim do
+      transition :unclaimed => :claimed
+    end
+
+    event :end do
+      transition :claimed => :ended
+    end
+
+    event :reclaim do
+      transition :ended => :claimed
+    end
+
+    event :unclaim do
+      transition :claimed => :unclaimed
+    end
+
+    before_transition :unclaimed => :claimed do |phone_call, transition|
+      phone_call.claimer = transition.args.first
+      phone_call.claimed_at = Time.now
+    end
+
+    before_transition :claimed => :ended do |phone_call, transition|
+      phone_call.ender = transition.args.first
+      phone_call.ended_at = Time.now
+    end
+
+    before_transition :ended => :claimed do |phone_call, transition|
+      phone_call.ender = nil
+      phone_call.ended_at = nil
+    end
+
+    before_transition :claimed => :unclaimed do |phone_call, transition|
+      phone_call.claimer = nil
+      phone_call.claimed_at = nil
+    end
   end
 end

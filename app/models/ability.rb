@@ -4,6 +4,8 @@ class Ability
   def initialize(user)
     user ||= User.new # support for not logged-in user
 
+    alias_action :read, :update, :to => :ru
+
     can :manage, User do |u|
       user.id == u.id || user.associates.find_by_id(u.id)
     end
@@ -16,15 +18,20 @@ class Ability
       o.users.include?(user)
     end
 
-    # hack until User/Member model is refactored
-    can :manage, User
-
     can :manage, PhoneCallSummary do |pcs|
       pcs.message.consult.users.include?(user)
     end
 
     if user.try_method(:hcp?)
       can :manage, :all
+    end
+
+    if user.admin?
+      can :assign_roles, User
+    end
+
+    if user.hcp?
+      can :ru, PhoneCall
     end
   end
 end

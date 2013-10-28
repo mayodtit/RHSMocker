@@ -99,10 +99,14 @@ class Member < User
     cards.inbox.where(:resource_type => Content).count > Card::MAX_CONTENT_PER_USER
   end
 
-  def invite!
-    return if crypted_password.present?
-    update_attributes!(:invitation_token => Base64.urlsafe_encode64(SecureRandom.base64(36)))
-    UserMailer.invitation_email(self).deliver
+  def invite! invitation
+    return if signed_up?
+    update_attributes!(:invitation_token => invitation.token)
+    UserMailer.invitation_email(self, invitation.member).deliver
+  end
+
+  def signed_up?
+    crypted_password.present?
   end
 
   def member

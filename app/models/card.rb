@@ -8,24 +8,18 @@ class Card < ActiveRecord::Base
                   :state, :state_event, :state_changed_at, :priority
 
   validates :user, :resource, presence: true
+  validates :state_changed_at, presence: true, unless: :unsaved?
   validates :resource_id, :uniqueness => {:scope => [:user_id, :resource_type]}
-  validates :state_changed_at, presence: true, unless: :unread?
 
   before_validation :set_default_priority
-  after_create :create_user_reading, :if => lambda{|c| c.content_card? }
-
-  delegate :title, :content_type, :content_type_display, :preview, :abstract, :body, to: :resource
+  after_create :create_user_reading, :if => :content_card?
 
   def self.inbox
-    where(:state => [:unread, :read]).by_priority.reject {|c| c.resource.content_type.downcase == 'disease' if c.content_card? }
+    where(:state => :unsaved).by_priority.reject {|c| c.resource.content_type.downcase == 'disease' if c.content_card? }
   end
 
   def self.timeline
     where(:state => :saved).by_priority
-  end
-
-  def self.not_dismissed
-    where(:state => [:unread, :read, :saved]).by_priority
   end
 
   def self.by_priority
@@ -34,15 +28,6 @@ class Card < ActiveRecord::Base
 
   def self.for_resource(resource)
     where(:resource_id => resource.id, :resource_type => resource.class.name).first
-  end
-
-  def serializable_hash options=nil
-    options ||=  {:methods => [:title, :content_type, :content_type_display, :share_url]}
-    super(options).merge!(state_specific_date)
-  end
-
-  def share_url
-    resource.try_method(:root_share_url).try(:+, "/#{id}")
   end
 
   def content_card?
@@ -63,27 +48,7 @@ class Card < ActiveRecord::Base
     UserReading.where(:user_id => user.id, :content_id => resource.id).first_or_create!
   end
 
-  # TODO - hack this in so the client doesn't have to change field names yet
-  def state_specific_date
-    if read?
-      {:read_date => state_changed_at}
-    elsif saved?
-      {
-        :read_date => state_changed_at,
-        :save_date => state_changed_at,
-        :dismiss_date => ''
-      }
-    else
-      {}
-    end
-  end
-
-  state_machine :initial => :unread do
-    event :read do
-      transition :unread => :read
-      transition [:read, :saved, :dismissed] => same
-    end
-
+  state_machine :initial => :unsaved do
     event :saved do
       transition all => :saved
     end
@@ -93,26 +58,15 @@ class Card < ActiveRecord::Base
     end
 
     event :reset do
-      transition all => :unread
+      transition all => :unsaved
     end
 
-    before_transition any => [:read, :saved, :dismissed] do |card, transition|
+    before_transition any => any do |card, transition|
       card.state_changed_at ||= Time.now
     end
 
-    before_transition any => :unread do |card, transition|
-      card.state_changed_at = nil
-    end
-
-    after_transition any => :saved do |card, transition|
-      UserReading.increment_save!(card.user, card.resource) if card.content_card?
-    end
-
-    after_transition any => :dismissed do |card, transition|
-      UserReading.increment_dismiss!(card.user, card.resource) if card.content_card?
-    end
-
     after_transition any => [:saved, :dismissed] do |card, transition|
+      UserReading.increment_event!(card.user, card.resource, transition.to_name) if card.content_card?
       PusherJob.new.push_content(card.user_id)
     end
   end

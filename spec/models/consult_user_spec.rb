@@ -5,5 +5,5 @@ describe ConsultUser do
 
   it_validates 'presence of', :consult
   it_validates 'presence of', :user
-  it_validates 'scoped uniqueness of', :user_id, :consult_id
+  it_validates 'uniqueness of', :user_id, :consult_id
 end

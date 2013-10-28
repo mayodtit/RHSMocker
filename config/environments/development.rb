@@ -23,6 +23,18 @@ RHSMocker::Application.configure do
   config.action_mailer.delivery_method = :file
   config.action_mailer.file_settings = { :location => 'tmp/mails' }
 
+  #config.action_mailer.default_url_options = { :host => 'rhs-dev.herokuapp.com' }
+  #config.action_mailer.delivery_method = :smtp
+  #config.action_mailer.smtp_settings = {
+  #  :address              => "smtp.sendgrid.net",
+  #  :port                 => 587,
+  #  :domain               => 'rhs-dev.herokuapp.com',
+  #  :user_name            => 'better_eng',
+  #  :password             => 'better120',
+  #  :authentication       => :plain,
+  #  :enable_starttls_auto => true
+  #}
+
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
 
