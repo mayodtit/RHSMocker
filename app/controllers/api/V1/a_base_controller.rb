@@ -17,7 +17,10 @@ module Api
       end
 
       def render_failure resp=Hash.new, status=401
-        headers["WWW-Authenticate"] = %(Basic realm="Better") if status == 401
+        if status == 401 && request.headers['Authorization'] != 'BasicCustom'
+          headers["WWW-Authenticate"] = %(Basic realm="Better")
+        end
+
         json = {status_code: status, status:"failure", user_message:""}.merge(resp).as_json
         render :json => json, :status => status
       end
