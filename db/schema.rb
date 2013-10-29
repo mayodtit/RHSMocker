@@ -138,13 +138,13 @@ ActiveRecord::Schema.define(:version => 20131029235829) do
     t.text     "question"
     t.text     "keywords"
     t.datetime "content_updated_at"
-    t.string   "mayo_doc_id",         :default => "",   :null => false
+    t.string   "document_id",         :default => "",   :null => false
     t.boolean  "show_call_option",    :default => true, :null => false
     t.boolean  "show_checker_option", :default => true, :null => false
     t.boolean  "show_mayo_copyright", :default => true, :null => false
   end
 
-  add_index "contents", ["mayo_doc_id"], :name => "index_contents_on_mayo_doc_id"
+  add_index "contents", ["document_id"], :name => "index_contents_on_document_id"
 
   create_table "contents_symptoms", :force => true do |t|
     t.integer  "content_id"

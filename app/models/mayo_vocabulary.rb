@@ -1,5 +1,5 @@
 class MayoVocabulary < ActiveRecord::Base
-  CSV_COLUMNS = %w(id mcvid title content_title content_mayo_doc_id)
+  CSV_COLUMNS = %w(id mcvid title content_title content_document_id)
 
   has_many :content_mayo_vocabularies
   has_many :contents, :through => :content_mayo_vocabularies
@@ -56,7 +56,7 @@ class MayoVocabulary < ActiveRecord::Base
   def self.with_contents
     joins(:contents).select('mayo_vocabularies.*,
                              contents.title AS content_title,
-                             contents.mayo_doc_id AS content_mayo_doc_id')
+                             contents.document_id AS content_document_id')
   end
 
   def self.to_csv

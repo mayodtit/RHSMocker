@@ -26,7 +26,7 @@
 <% @contents.each do |content| %>
   <tr>
     <td><%= link_to content.title, content %></td>
-    <td><%= content.mayo_doc_id %></td>
+    <td><%= content.document_id %></td>
     <td><%= content.content_type %></td>
     <% if content.abstract.nil? %>
       <td> </td>

@@ -13,7 +13,7 @@ class ContentImporter
     return RecipeImporter.new(@data, @logger).import if @content_type == 'Recipe'
     remove_flash_assets!
     remove_popup_media!
-    add_section_markup! unless @mayo_doc_id == TERMS_OF_SERVICE
+    add_section_markup! unless @document_id == TERMS_OF_SERVICE
     return :failed unless has_html?
     extract_html_from_xml!
     add_absolute_url_to_images!
@@ -35,13 +35,13 @@ class ContentImporter
   end
 
   def extract_required_params_from_xml!
-    @mayo_doc_id = @data.search('DocID').first.text.strip
+    @document_id = @data.search('DocID').first.text.strip
     @content_type = @data.search('ContentType').first.text.strip
     @title = CGI.unescapeHTML(@data.search('Title').first.text.remove_newlines_and_tabs)
   end
 
   def has_required_params?
-    unless (@data && @mayo_doc_id && @content_type && @title)
+    unless (@data && @document_id && @content_type && @title)
       log("xml did not have required parameters")
       return false
     end
@@ -138,7 +138,7 @@ class ContentImporter
   end
 
   def create_content!
-    @content = Content.upsert_attributes({:mayo_doc_id => @mayo_doc_id},
+    @content = Content.upsert_attributes({:document_id => @document_id},
                                          {
                                            :content_type => @content_type,
                                            :title => @title,
@@ -147,9 +147,9 @@ class ContentImporter
                                            :body => body,
                                            :keywords => keywords,
                                            :content_updated_at => content_updated_at,
-                                           :show_call_option => !NO_CALL_LIST.include?(@mayo_doc_id),
-                                           :show_checker_option => !NO_SYMPTOMS_LIST.include?(@mayo_doc_id),
-                                           :show_mayo_copyright => (@mayo_doc_id != TERMS_OF_SERVICE)
+                                           :show_call_option => !NO_CALL_LIST.include?(@document_id),
+                                           :show_checker_option => !NO_SYMPTOMS_LIST.include?(@document_id),
+                                           :show_mayo_copyright => (@document_id != TERMS_OF_SERVICE)
                                          })
   end
 
