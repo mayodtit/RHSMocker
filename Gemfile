@@ -35,8 +35,6 @@ group :development, :test do
   gem "zeus-parallel_tests"
   gem 'factory_girl_rails'
   gem 'guard-rspec'
-  gem 'ruby-debug-base19x'
-  gem 'ruby-debug-ide'
 end
 
 group :development do
