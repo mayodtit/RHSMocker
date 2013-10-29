@@ -96,7 +96,7 @@ class Member < User
   end
 
   def max_inbox_content?
-    cards.inbox.where(:resource_type => Content).count > Card::MAX_CONTENT_PER_USER
+    cards.inbox.select{|c| c.content_card?}.count > Card::MAX_CONTENT_PER_USER
   end
 
   def invite! invitation

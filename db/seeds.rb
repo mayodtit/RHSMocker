@@ -1,9 +1,12 @@
 #encoding: utf-8
 
-Content.upsert_attributes({:title => 'Welcome to Better!'},
-                          {:content_type => 'Content',
-                           :body => 'Thank you for installing Better!',
-                           :mayo_doc_id => 'RHS0000'})
+Content.upsert_attributes({title: 'Welcome to Better!'},
+                          {content_type: 'Content',
+                           body: 'Thank you for installing Better!',
+                           mayo_doc_id: 'RHS0000',
+                           show_call_option: false,
+                           show_checker_option: false,
+                           show_mayo_copyright: false})
 
 Question.upsert_attributes({:view => :gender}, {:title => 'Your Gender'})
 Question.upsert_attributes({:view => :allergies}, {:title => 'Your Allergies'})

@@ -1,4 +1,6 @@
 class MayoVocabulary < ActiveRecord::Base
+  CSV_COLUMNS = %w(id mcvid title content_title content_mayo_doc_id)
+
   has_many :content_mayo_vocabularies
   has_many :contents, :through => :content_mayo_vocabularies
   has_many :message_mayo_vocabularies
@@ -48,6 +50,21 @@ class MayoVocabulary < ActiveRecord::Base
       %w(1130 3896 3897)
     else
       []
+    end
+  end
+
+  def self.with_contents
+    joins(:contents).select('mayo_vocabularies.*,
+                             contents.title AS content_title,
+                             contents.mayo_doc_id AS content_mayo_doc_id')
+  end
+
+  def self.to_csv
+    CSV.generate do |csv|
+      csv << CSV_COLUMNS
+      with_contents.find_each do |vocab|
+        csv << vocab.attributes.values_at(*CSV_COLUMNS)
+      end
     end
   end
 end
