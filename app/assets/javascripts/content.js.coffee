@@ -36,7 +36,7 @@ $ ->
     window.location.href = "http://dontload"
 
   $(".allergies").click ->
-    NativeBridge.call('openView', {view: "allergies"})
+    NativeBridge.call('openPage', {view: "allergies"})
     # TODO - remove the following when the client is ready to stop support
     document.actionJSON = JSON.stringify([{type:"goto_allergies"}, {type: "save_item"}])
     window.location.href = "http://dontload"
