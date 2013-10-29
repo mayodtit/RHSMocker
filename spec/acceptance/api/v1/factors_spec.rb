@@ -6,7 +6,7 @@ resource "Factors" do
   header 'Content-Type', 'application/json'
 
   let!(:symptom) { create(:symptom, :patient_type => 'adult') }
-  let!(:factor_group) { create(:factor_group, :name => 'pain is', :order => 2) }
+  let!(:factor_group) { create(:factor_group, :name => 'pain is') }
   let!(:factor) { create(:factor) }
   let!(:symptoms_factor) { create(:symptoms_factor, :symptom => symptom, :factor_group => factor_group, :factor => factor) }
   let!(:content) { create(:content) }
