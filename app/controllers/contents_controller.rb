@@ -16,7 +16,7 @@ class ContentsController < ApplicationController
   def show
     @content = Content.find_by_mayo_doc_id(params[:id]) || Content.find(params[:id])
     if params[:type] == 'card'
-      render :template => 'api/v1/cards/preview', :locals => {:resource => @content.decorate}
+      render :template => 'api/v1/cards/preview', :locals => {:card => nil, :resource => @content.decorate}
     else
       render :template => 'api/v1/contents/show'
     end

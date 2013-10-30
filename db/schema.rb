@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131023123851) do
+ActiveRecord::Schema.define(:version => 20131028212904) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -130,18 +130,18 @@ ActiveRecord::Schema.define(:version => 20131023123851) do
   end
 
   create_table "contents", :force => true do |t|
-    t.string   "title"
-    t.text     "body"
+    t.string   "title",               :default => "",   :null => false
+    t.text     "body",                :default => "",   :null => false
     t.datetime "created_at",                            :null => false
     t.datetime "updated_at",                            :null => false
-    t.string   "content_type"
+    t.string   "content_type",        :default => "",   :null => false
     t.text     "abstract"
     t.text     "question"
     t.text     "keywords"
     t.datetime "content_updated_at"
-    t.string   "mayo_doc_id"
-    t.boolean  "show_call_option"
-    t.boolean  "show_checker_option"
+    t.string   "mayo_doc_id",         :default => "",   :null => false
+    t.boolean  "show_call_option",    :default => true, :null => false
+    t.boolean  "show_checker_option", :default => true, :null => false
     t.boolean  "show_mayo_copyright", :default => true, :null => false
   end
 
@@ -233,7 +233,11 @@ ActiveRecord::Schema.define(:version => 20131023123851) do
     t.integer  "invited_member_id"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
+    t.string   "token"
+    t.string   "state"
   end
+
+  add_index "invitations", ["token"], :name => "index_invitations_on_token"
 
   create_table "locations", :force => true do |t|
     t.integer  "user_id"
@@ -319,7 +323,16 @@ ActiveRecord::Schema.define(:version => 20131023123851) do
     t.datetime "updated_at",               :null => false
     t.string   "origin_phone_number"
     t.string   "destination_phone_number"
+    t.string   "state"
+    t.datetime "claimed_at"
+    t.datetime "ended_at"
+    t.integer  "claimer_id"
+    t.integer  "ender_id"
   end
+
+  add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"
+  add_index "phone_calls", ["ender_id"], :name => "index_phone_calls_on_ender_id"
+  add_index "phone_calls", ["state"], :name => "index_phone_calls_on_state"
 
   create_table "plan_offerings", :force => true do |t|
     t.integer  "plan_id"
@@ -485,12 +498,12 @@ ActiveRecord::Schema.define(:version => 20131023123851) do
   create_table "user_readings", :force => true do |t|
     t.integer  "user_id"
     t.integer  "content_id"
-    t.datetime "created_at",                   :null => false
-    t.datetime "updated_at",                   :null => false
-    t.integer  "view_count",    :default => 0, :null => false
-    t.integer  "save_count",    :default => 0, :null => false
-    t.integer  "dismiss_count", :default => 0, :null => false
-    t.integer  "share_count",   :default => 0, :null => false
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+    t.integer  "viewed_count",    :default => 0, :null => false
+    t.integer  "saved_count",     :default => 0, :null => false
+    t.integer  "dismissed_count", :default => 0, :null => false
+    t.integer  "shared_count",    :default => 0, :null => false
   end
 
   create_table "user_treatment_side_effects", :force => true do |t|
@@ -529,14 +542,12 @@ ActiveRecord::Schema.define(:version => 20131023123851) do
     t.string   "email"
     t.decimal  "height",                                        :precision => 9, :scale => 5
     t.string   "phone"
-    t.string   "generic_call_time"
     t.string   "crypted_password"
     t.string   "auth_token"
     t.string   "salt"
     t.string   "reset_password_token"
     t.datetime "reset_password_token_expires_at"
     t.datetime "reset_password_email_sent_at"
-    t.string   "feature_bucket"
     t.integer  "ethnic_group_id"
     t.integer  "diet_id"
     t.string   "blood_type"

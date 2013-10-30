@@ -17,9 +17,10 @@ RHSMocker::Application.routes.draw do
       resources :consults, :only => [:index, :show, :create] do
         resources :messages, :only => [:index, :show, :create]
         resources :scheduled_phone_calls, :except => [:new, :edit]
-        resources :phone_calls, :only => [:index, :show, :create]
+        resources :phone_calls, only: [:index, :show, :create], controller: 'consult_phone_calls'
         resources :users, only: :index, controller: 'consult_users'
       end
+      resources :phone_calls, only: [:index, :show, :update]
       resources :diseases, :only => :index, :controller => :conditions
       resources :encounters, :only => [:index, :show, :create], :controller => 'consults' do
         resources :messages, :only => [:index, :show, :create]
@@ -59,11 +60,10 @@ RHSMocker::Application.routes.draw do
           end
         end
         post 'invite', :on => :member
-        resources :cards, :only => [:index, :show, :update] do
+        resources :cards, :only => [:show, :update] do
           get :inbox, :on => :collection
           get :timeline, :on => :collection
         end
-        get 'keywords', :on => :member
         post :reset_password, :on => :collection
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
@@ -76,6 +76,7 @@ RHSMocker::Application.routes.draw do
         end
         resources :weights, :only => [:index, :create, :destroy]
       end
+      resources :invitations, :only => [:create, :show, :update]
 
       #account management
       post "signup" => "users#create", :as=>"signup"
@@ -85,6 +86,7 @@ RHSMocker::Application.routes.draw do
       put "user/:id" => "users#update"
       post "user/update_password" => "users#update_password", :as=>"update_password"
       post "user/update_email" => "users#update_email", :as=>"update_email"
+      get 'user/' => 'users#show'
 
       get "factors/:id" => "factors#index"
       post "symptoms/check" => "factors#check"
@@ -99,6 +101,7 @@ RHSMocker::Application.routes.draw do
     get :complete, :on => :collection
     get :signup, :on => :collection
   end
+  resources :mayo_vocabularies, only: :index
   resources :nurseline_records, :only => :create
   resources :questions, :only => :show
   resources :users, :only => [] do

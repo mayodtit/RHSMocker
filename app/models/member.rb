@@ -24,7 +24,7 @@ class Member < User
 
   accepts_nested_attributes_for :user_agreements
 
-  attr_accessible :install_id, :generic_call_time, :password, :password_confirmation, :feature_bucket,
+  attr_accessible :install_id, :password, :password_confirmation,
                   :holds_phone_in, :invitation_token, :units, :agreement_params
 
   validates :email, :uniqueness => {:message => 'account already exists', :case_sensitive => false}, :allow_nil => true
@@ -34,28 +34,12 @@ class Member < User
   validates :units, :inclusion => {:in => %w(US Metric)}
   validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :on => :create, :if => lambda{|m| m.email.present?}
 
-  # TODO - KC - remove these validations, I don't think they're used anymore
-  validates :generic_call_time, :allow_nil => true, :inclusion => {:in => %w(morning afternoon evening),
-                                                    :message => "%{value} is not a call time" }
-  validates :feature_bucket, :allow_nil => true, :inclusion => {:in => %w(none message_only call_only message_call),
-                                                                :message => "%{value} is not a valid value for feature_bucket"}
-
   after_create :login # generate inital auth_token
   after_create :add_install_message
   after_create :add_new_member_content
   after_create :send_welcome_message, :if => lambda{|m| m.email.present?}
 
-  searchable do
-    text :name do
-      "#{first_name} #{last_name}"
-    end
-    string :role_name, :multiple => true do
-      roles.map(&:name)
-    end
-  end
-
-  BASE_OPTIONS = User::BASE_OPTIONS.merge(:only => [:feature_bucket, :generic_call_time,
-                                                    :holds_phone_in, :install_id,
+  BASE_OPTIONS = User::BASE_OPTIONS.merge(:only => [:holds_phone_in, :install_id,
                                                     :phone, :units],
                                           :methods => [:pusher_id]) do |k, v1, v2|
                    v1.is_a?(Array) ? v1 + v2 : [v1] + v2
@@ -91,25 +75,6 @@ class Member < User
     update_attribute(:auth_token, nil)
   end
 
-  def can_call?
-    self.hcp? || self.feature_bucket == 'call_only' || self.feature_bucket == 'message_call'
-  end
-
-  #Keywords (aka search history)
-  def keywords
-    keywords = {}
-    user_readings.map{|ur| (ur.view_count > 0) ? ur.content.mayo_vocabularies : [] }.each do |mvs|
-      mvs.each do |mv|
-        if keywords.has_key? mv
-          keywords[mv]+=1
-        else
-          keywords[mv]=1
-        end
-      end
-    end
-    keywords.sort_by{|x,y| keywords[x]<=>keywords[y]}
-  end
-
   def add_install_message
     if Content.install_message
       cards.create!(resource: Content.install_message,
@@ -130,48 +95,18 @@ class Member < User
     UserMailer.welcome_email(self).deliver
   end
 
-  def allowed_to_edit_user? user_id
-    user_id == id || admin? || associates.map(&:id).include?(user_id)
+  def max_inbox_content?
+    cards.inbox.select{|c| c.content_card?}.count > Card::MAX_CONTENT_PER_USER
   end
 
-  def hasMaxContent
-    cards.inbox.count >= 7
+  def invite! invitation
+    return if signed_up?
+    update_attributes!(:invitation_token => invitation.token)
+    UserMailer.invitation_email(self, invitation.member).deliver
   end
 
-  def getContent
-      gender_not_array = []
-      age_array = []
-
-      #Add Gender MCVIDS - these are usedin a NOT clause, so the logic is flipped
-
-      if !gender.nil?
-          gender_not_array = Content.byGender(gender)
-      end
-
-      if !age.nil?
-          age_array = Content.mcvidsForAge(age)
-      end
-
-      contents = Content.joins(:mayo_vocabularies)
-                        .where(:mayo_vocabularies => {:mcvid => age_array})
-                        .where("contents.id NOT IN (#{cards.where(:resource_type => Content).pluck(:resource_id).join(', ')})")
-                        .where(:content_type => Content::CONTENT_TYPES)
-                        .reject{|c| gender_not_array.include?(c.id)}
-
-       # Cannot be in reading list
-
-      #All Else Fails, pick something reasonably random
-      if contents.empty?
-        Content.getRandomContent()
-      else
-        contents.first
-      end
-  end
-
-  def invite!
-    return if crypted_password.present?
-    update_attributes!(:invitation_token => Base64.urlsafe_encode64(SecureRandom.base64(36)))
-    UserMailer.invitation_email(self).deliver
+  def signed_up?
+    crypted_password.present?
   end
 
   def member

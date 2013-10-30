@@ -1,82 +1,44 @@
 require 'spec_helper'
 
 describe Card do
-
-  #TODO - this is a hack to eliminate false positives resulting from dirty database
-  before(:each) do
-    Card.delete_all
-  end
-
   it_has_a 'valid factory'
+  it_has_a 'valid factory', :saved
+  it_has_a 'valid factory', :dismissed
   it_validates 'presence of', :user
+  it_validates 'presence of', :resource
+  it_validates 'uniqueness of', :resource_id, :user_id, :resource_type
 
   describe 'state machine' do
     describe 'states' do
-      it 'sets the initial state to unread' do
-        described_class.new.state?(:unread).should be_true
-      end
-
-      describe 'read' do
-        describe 'factory trait' do
-          it 'builds a valid object' do
-            build_stubbed(:card, :read).should be_valid
-          end
-        end
-      end
-
-      describe 'saved' do
-        describe 'factory trait' do
-          it 'builds a valid object' do
-            build_stubbed(:card, :saved).should be_valid
-          end
-        end
-      end
-
-      describe 'dismissed' do
-        describe 'factory trait' do
-          it 'builds a valid object' do
-            build_stubbed(:card, :dismissed).should be_valid
-          end
-        end
+      it 'sets the initial state to unsaved' do
+        described_class.new.state?(:unsaved).should be_true
       end
     end
 
     describe 'events' do
       let!(:user) { create(:user) }
 
-      describe 'read' do
-        it 'changes unread to read' do
-          build(:card, :with_timestamps).read.should be_true
-        end
-
-        it 'does not change read, saved, or dismissed state' do
-          read = build(:card, :read, :with_timestamps, :user => user)
-          read.read.should be_true
-          read.read?.should be_true
-          saved = build(:card, :saved, :with_timestamps, :user => user)
-          saved.read.should be_true
-          saved.saved?.should be_true
-          dismissed = build(:card, :dismissed, :with_timestamps, :user => user)
-          dismissed.read.should be_true
-          dismissed.dismissed?.should be_true
-        end
-      end
-
       describe 'saved' do
         it 'changes all to saved' do
-          build(:card, :with_timestamps, :user => user).saved.should be_true
-          build(:card, :read, :with_timestamps, :user => user).saved.should be_true
-          build(:card, :saved, :with_timestamps, :user => user).saved.should be_true
-          build(:card, :dismissed, :with_timestamps, :user => user).saved.should be_true
+          build(:card, :user => user).saved.should be_true
+          build(:card, :saved, :user => user).saved.should be_true
+          build(:card, :dismissed, :user => user).saved.should be_true
         end
       end
 
       describe 'dismissed' do
         it 'changes all to dismissed' do
-          build(:card, :with_timestamps, :user => user).dismissed.should be_true
-          build(:card, :read, :with_timestamps, :user => user).dismissed.should be_true
-          build(:card, :saved, :with_timestamps, :user => user).dismissed.should be_true
-          build(:card, :dismissed, :with_timestamps, :user => user).dismissed.should be_true
+          build(:card, :user => user).dismissed.should be_true
+          build(:card, :saved, :user => user).dismissed.should be_true
+          build(:card, :dismissed, :user => user).dismissed.should be_true
+        end
+      end
+
+      describe 'reset' do
+        it 'changes all to unsaved' do
+          build(:card, :user => user).reset.should be_true
+          build(:card, :saved, :user => user).reset.should be_true
+          build(:card, :dismissed, :user => user).reset.should be_true
         end
       end
     end
@@ -84,17 +46,16 @@ describe Card do
 
   describe 'scopes' do
     let!(:user) { create(:user) }
-    let!(:unread) { create(:card, :user => user) }
-    let!(:read) { create(:card, :read, :user => user) }
+    let!(:unsaved) { create(:card, :user => user) }
     let!(:saved) { create(:card, :saved, :user => user) }
     let!(:dismissed) { create(:card, :dismissed, :user => user) }
     let!(:disease1) { create(:card, resource: (create :content, content_type: 'disease')) }
     let!(:disease2) { create(:card, resource: (create :content, content_type: 'Disease')) }
 
     describe '::inbox' do
-      it 'returns unread and read cards' do
+      it 'returns unsaved cards' do
         results = described_class.inbox
-        results.should =~ [unread, read]
+        results.should =~ [unsaved]
         results.should_not include(saved, dismissed, disease1, disease2)
       end
     end
@@ -103,7 +64,7 @@ describe Card do
       it 'returns saved cards' do
         results = described_class.timeline
         results.should =~ [saved]
-        results.should_not include(unread, read, dismissed)
+        results.should_not include(unsaved, dismissed)
       end
     end
   end

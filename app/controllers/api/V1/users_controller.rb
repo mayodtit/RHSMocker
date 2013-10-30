@@ -1,7 +1,7 @@
 class Api::V1::UsersController < Api::V1::ABaseController
   include ActiveModel::MassAssignmentSecurity
   attr_accessible :first_name, :last_name, :avatar, :gender, :height, :birth_date, :email, :phone,
-                  :generic_call_time, :password, :password_confirmation, :feature_bucket, :blood_type,
+                  :password, :password_confirmation, :blood_type,
                   :holds_phone_in, :diet_id, :ethnic_group_id, :deceased, :date_of_death, :npi_number,
                   :expertise, :city, :state, :units, :agreement_params, :install_id
 
@@ -16,6 +16,10 @@ class Api::V1::UsersController < Api::V1::ABaseController
     rescue => e
       render_failure({reason: e.message}, 502)
     end
+  end
+
+  def show
+    render_success user: current_user.as_json(only: [:first_name, :last_name, :email], methods: [:full_name, :admin?, :hcp?])
   end
 
   def create
@@ -56,10 +60,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
     update_resource(@user, :email => params[:email])
   end
 
-  def keywords
-    render_success keywords: Member.find(params[:id]).keywords.map{|mv| mv[0].title }[0,7]
-  end
-
+  # Invites a ghost user
   def invite
     @user = User.find(params[:id])
     @member = @user.member || Member.create_from_user!(@user)

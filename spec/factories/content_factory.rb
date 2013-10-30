@@ -1,23 +1,11 @@
 FactoryGirl.define do
-
   factory :content do
-    sequence(:title){|n| "Content Title #{n}"}
-    body            {'This is the HTML formatted body of the content.'}
-    content_type    {'Answer'}
-    abstract        {'This is the abstract of the content.'}
-    question        {'What is the JSON format of content?'}
-    content_updated_at     { Time.now }
-    mayo_vocabularies {[FactoryGirl.create(:mayo_vocabulary)]}
-    mayo_doc_id "AA004345"
-
-    factory :disease_content do
-      sequence(:title){|n| "Craniosynostosis #{n}" }
-      body            "Definition<p>Craniosynostosis is a birth defect in which one or more of the joints between the bones of your infant's skull close prematurely, before your infant's brain is fully formed. When your baby has craniosynostosis, his or her brain can't grow in its natural shape and the head is misshapen. </p>"
-      content_type    'Disease'
-      abstract        "Craniosynostosis &mdash; Comprehensive overview covers causes, treatment of this birth defect involving a baby's skull."
-      question        nil
-
-    end
+    sequence(:title) {|x| "Content #{x}"}
+    body "HTML body"
+    content_type "Content"
+    sequence(:mayo_doc_id) {|x| "#{x}"}
+    show_call_option true
+    show_checker_option true
+    show_mayo_copyright true
   end
-
 end

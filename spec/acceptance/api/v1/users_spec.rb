@@ -37,24 +37,6 @@ resource "Users" do
     end
   end
 
-  get '/api/v1/users/:id/keywords' do
-    let!(:user_reading) { create(:user_reading, :user => user) }
-
-    parameter :auth_token, "User's Auth token"
-    parameter :id, "user's ID"
-    required_parameters :auth_token, :id
-
-    let(:auth_token) { user.auth_token }
-    let(:id) { user.id }
-    let(:raw_post) { params.to_json }
-
-    example_request "[GET] Get user's keywords (search history)" do
-      explanation "[Implementation incomplete] Returns an array of keywords"
-      status.should == 200
-      JSON.parse(response_body)['keywords'].should be_a Array
-    end
-  end
-
   describe 'create user with install ID' do
     parameter :install_id, "Unique install ID"
     scope_parameters :user, [:install_id]
@@ -143,7 +125,6 @@ resource "Users" do
 
   describe 'update user' do
     parameter :auth_token, "User's auth token"
-    parameter :feature_bucket, "The feature bucket that the user is in (none, message_only, call_only, message_call)"
     parameter :first_name, "User's first name"
     parameter :last_name, "User's last name"
     parameter :avatar, 'Base64 encoded image'
@@ -151,15 +132,13 @@ resource "Users" do
     parameter :height, "User's height(in cm)"
     parameter :birth_date, "User's birth date"
     parameter :phone, "User's phone number"
-    parameter :generic_call_time, "User's preferred call time (morning, afternoon, evening)"
-    parameter :feature_bucket, "User's feature bucket (none message_only call_only message_call)"
     parameter :ethnic_group_id, "User's ethnic group"
     parameter :diet_id, "User's diet id"
     parameter :blood_type, "User's blood type"
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
     parameter :deceased, "Boolean, is the user deceased"
     parameter :date_of_death, "If the user is deceased, when did they die"
-    scope_parameters :user, [:first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
+    scope_parameters :user, [:first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
     required_parameters :auth_token
 
     put '/api/v1/user' do
@@ -169,8 +148,6 @@ resource "Users" do
       let(:height) { 190 }
       let(:birth_date) { "1980-10-15" }
       let(:phone) { "4163442356" }
-      let(:generic_call_time) { "morning" }
-      let(:feature_bucket) { "none" }
       let(:auth_token) { user.auth_token }
       let(:ethnic_group_id) { 1 }
       let(:diet_id) { 1 }
@@ -198,7 +175,6 @@ resource "Users" do
     parameter :auth_token, "User's auth token"
     parameter :id, "ID of user to update"
     parameter :email, "Account email"
-    parameter :feature_bucket, "The feature bucket that the user is in (none, message_only, call_only, message_call)"
     parameter :first_name, "User's first name"
     parameter :last_name, "User's last name"
     parameter :avatar, 'Base64 encoded image'
@@ -206,15 +182,13 @@ resource "Users" do
     parameter :height, "User's height(in cm)"
     parameter :birth_date, "User's birth date"
     parameter :phone, "User's phone number"
-    parameter :generic_call_time, "User's preferred call time (morning, afternoon, evening)"
-    parameter :feature_bucket, "User's feature bucket (none message_only call_only message_call)"
     parameter :ethnic_group_id, "User's ethnic group"
     parameter :diet_id, "User's diet id"
     parameter :blood_type, "User's blood type"
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
     parameter :deceased, "Boolean, is the user deceased"
     parameter :date_of_death, "If the user is deceased, when did they die"
-    scope_parameters :user, [:email, :first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone, :generic_call_time, :feature_bucket, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
+    scope_parameters :user, [:email, :first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
     required_parameters :auth_token, :id
 
     put '/api/v1/user/:id' do
@@ -257,6 +231,25 @@ resource "Users" do
         explanation "Emails password reset instructions to the user"
         status.should == 200
         JSON.parse(response_body).should_not be_empty
+      end
+    end
+  end
+
+  describe 'get current user' do
+    parameter :auth_token, 'User\'s auth token'
+    required_parameters :auth_token
+
+    let(:auth_token) { user.auth_token }
+
+    # For posts
+    # let(:raw_post) { params.to_json }
+
+    get '/api/v1/user' do
+      example_request '[GET] Get the current user' do
+        explanation 'Get the current user\'s info'
+        status.should == 200
+        response = JSON.parse(response_body, :symbolize_names => true)
+        response[:user].to_json.should == user.as_json(only: [:first_name, :last_name, :email], methods: [:full_name, :admin?, :hcp?]).to_json
       end
     end
   end

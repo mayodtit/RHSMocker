@@ -1,0 +1,9 @@
+%p Hi #{@user.first_name}!
+
+%p I've invited you to start caring for patients with Better. Log in with your Better account:
+
+%p #{link_to 'Login', 'http://localhost:4567/#/login', :next => 'settings/member'}
+
+%p Take a moment to verify your personal information.
+
+%p - #{@assignor.full_name}
