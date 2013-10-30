@@ -10,6 +10,7 @@ class ContentImporter
     extract_required_params_from_xml!
     return :failed unless has_required_params?
     return :skipped unless allow_type?
+    return RecipeImporter.new(@data, @logger).import if @content_type == 'Recipe'
     remove_flash_assets!
     remove_popup_media!
     add_section_markup! unless @mayo_doc_id == TERMS_OF_SERVICE
@@ -22,7 +23,7 @@ class ContentImporter
     :success
   end
 
-  private
+  protected
 
   TERMS_OF_SERVICE = 'AM00021'
   NO_CALL_LIST     = %w(HT00648 AM00021 HT00022 NU00585 NU00584)
@@ -48,7 +49,7 @@ class ContentImporter
   end
 
   def allow_type?
-    if %(SelfAssessment Recipe).include?(@content_type)
+    if %(SelfAssessment).include?(@content_type)
       log("skipping #{@content_type}")
       return false
     end

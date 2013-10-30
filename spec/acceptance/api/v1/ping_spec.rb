@@ -6,8 +6,8 @@ resource "Ping" do
   header 'Content-Type', 'application/json'
 
   get '/api/v1/ping' do
-    let!(:phone_metadata) { create(:metadata, :key => 'phone_number', :value => '5555555555') }
-    let!(:version_metadata) { create(:metadata, :key => 'current_version', :value => '5000') }
+    let!(:phone_metadata) { create(:metadata, :mkey => 'phone_number', :mvalue => '5555555555') }
+    let!(:version_metadata) { create(:metadata, :mkey => 'current_version', :mvalue => '5000') }
 
     example_request "[GET] Ping the backend" do
       explanation "Ping the backend while unauthenticated"
@@ -26,8 +26,8 @@ resource "Ping" do
         explanation "Get authenticated metadata from the backend"
         status.should == 200
         json = JSON.parse(response_body, :symbolize_names => true)
-        json[:metadata][phone_metadata.key.to_sym].should == phone_metadata.value
-        json[:metadata][version_metadata.key.to_sym].should == version_metadata.value
+        json[:metadata][phone_metadata.mkey.to_sym].should == phone_metadata.mvalue
+        json[:metadata][version_metadata.mkey.to_sym].should == version_metadata.mvalue
       end
     end
   end

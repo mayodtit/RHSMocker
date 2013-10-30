@@ -121,12 +121,15 @@ div.content_abstract{
 
 }
 
-div.content_text {
-	font-family:"Roboto";
-	font-size: 16px;
-	color: #4c4c4c;
-    padding: 10px 10px 10px 10px;
-    line-height: 21px;
+.content_text {
+  font-family:"Roboto";
+  font-size: 16px;
+  color: #4c4c4c;
+  padding: 10px 10px 10px 10px;
+  line-height: 21px;
+  h3 {
+    font-size: 18px;
+  }
 }
 
 .mayo-copyright {
