@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default from: "noreply@getbetter.com"
+  default from: lambda{ Rails.env.production? ? "noreply@getbetter.com" : "noreply@#{Rails.env}.getbetter.com" }
 
   def reset_password_email user
     @user = user
@@ -21,7 +21,7 @@ class UserMailer < ActionMailer::Base
     @invitor = invitor
     @url = invite_url(@user.invitation_token)
     subject = user.hcp? ? "#{invitor.full_name} invited you to care for patients with Better!" : 'Complete your registration to Better'
-    mail(to: user.email, subject: 'Complete your registration to Better')
+    mail(to: user.email, subject: subject)
   end
 
   def assigned_role_email user, assignor
