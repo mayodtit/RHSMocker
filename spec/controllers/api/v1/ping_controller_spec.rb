@@ -28,7 +28,7 @@ describe Api::V1::PingController do
         it 'renders application metadata' do
           do_request
           json = JSON.parse(response.body, :symbolize_names => true)
-          json[:metadata][metadata.key.to_sym].should == metadata.value
+          json[:metadata][metadata.mkey.to_sym].should == metadata.mvalue
         end
       end
     end
