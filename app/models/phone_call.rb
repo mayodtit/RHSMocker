@@ -10,10 +10,12 @@ class PhoneCall < ActiveRecord::Base
 
   attr_accessible :user, :user_id, :message, :message_attributes, :origin_phone_number,
                   :destination_phone_number, :claimer, :claimer_id, :claimed_at,
-                  :ender, :ender_id, :ended_at
+                  :ender, :ender_id, :ended_at, :identifier_token
 
-  validates :user, :message, :destination_phone_number, presence: true
+  validates :user, :message, :destination_phone_number, :identifier_token, presence: true
+  validates :identifier_token, uniqueness: true
 
+  before_validation :generate_identifier_token
   # TODO - remove this fake job when nurseline is built
   after_create :schedule_phone_call_summary
 
@@ -22,6 +24,14 @@ class PhoneCall < ActiveRecord::Base
   delegate :consult, :to => :message
 
   private
+
+  # 15-digit 0-padded unique random number
+  def generate_identifier_token
+    self.identifier_token ||= loop do
+      token = ('%015i' % SecureRandom.random_number(10**15))
+      break token unless self.class.find_by_identifier_token(token)
+    end
+  end
 
   def schedule_phone_call_summary
     PhoneCallSummaryJob.new.queue_summary(user.id, consult.id)

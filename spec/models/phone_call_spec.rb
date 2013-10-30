@@ -2,8 +2,44 @@ require 'spec_helper'
 
 describe PhoneCall do
   it_has_a 'valid factory'
-  it_validates 'presence of', :user
-  it_validates 'presence of', :destination_phone_number
+
+  describe 'validations' do
+    before do
+      PhoneCall.any_instance.stub(:generate_identifier_token)
+    end
+
+    it_validates 'presence of', :user
+    it_validates 'presence of', :destination_phone_number
+    it_validates 'presence of', :identifier_token
+    it_validates 'uniqueness of', :identifier_token
+  end
+
+  describe 'callbacks' do
+    let(:phone_call) { build_stubbed(:phone_call, :identifier_token => nil) }
+
+    describe '#generate_identifier_token' do
+      before do
+        SecureRandom.stub(:random_number).and_return(5, 5, 5, 10)
+      end
+
+      it 'generates an identifier token on validate' do
+        phone_call.identifier_token.should be_nil
+        phone_call.valid?
+        phone_call.identifier_token.should_not be_nil
+      end
+
+      it 'generates a length 15 string' do
+        phone_call.valid?
+        phone_call.identifier_token.length.should == 15
+      end
+
+      it 'generates a unique number' do
+        create(:phone_call, :identifier_token => nil)
+        phone_call.valid?
+        phone_call.identifier_token.to_i.should == 10
+      end
+    end
+  end
 
   describe 'states' do
     before do

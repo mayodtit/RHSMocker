@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131029235829) do
+ActiveRecord::Schema.define(:version => 20131030161716) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -326,10 +326,12 @@ ActiveRecord::Schema.define(:version => 20131029235829) do
     t.datetime "ended_at"
     t.integer  "claimer_id"
     t.integer  "ender_id"
+    t.string   "identifier_token"
   end
 
   add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"
   add_index "phone_calls", ["ender_id"], :name => "index_phone_calls_on_ender_id"
+  add_index "phone_calls", ["identifier_token"], :name => "index_phone_calls_on_identifier_token"
   add_index "phone_calls", ["state"], :name => "index_phone_calls_on_state"
 
   create_table "plan_offerings", :force => true do |t|
