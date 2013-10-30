@@ -2,7 +2,7 @@ class Content < ActiveRecord::Base
   include SolrExtensionModule
 
   CONTENT_TYPES = %w(Article Answer HealthTip FirstAid)
-  CSV_COLUMNS = %w(id mayo_doc_id content_type title)
+  CSV_COLUMNS = %w(id document_id content_type title)
 
   has_many :user_readings
   has_many :users, :through => :user_readings
@@ -14,12 +14,12 @@ class Content < ActiveRecord::Base
   has_and_belongs_to_many :symptoms
 
   attr_accessible :title, :body, :content_type, :abstract, :question, :keywords,
-                  :content_updated_at, :mayo_doc_id, :show_call_option,
+                  :content_updated_at, :document_id, :show_call_option,
                   :show_checker_option, :show_mayo_copyright
 
-  validates :title, :body, :content_type, :mayo_doc_id, presence: true
+  validates :title, :body, :content_type, :document_id, presence: true
   validates :show_call_option, :show_checker_option, :show_mayo_copyright, inclusion: {:in => [true, false]}
-  validates :mayo_doc_id, uniqueness: true
+  validates :document_id, uniqueness: true
 
   before_validation :set_defaults, on: :create
 
@@ -35,13 +35,13 @@ class Content < ActiveRecord::Base
 
   # TODO - replace in future with root_share_url, move append to UserReading
   def share_url(user_reading_id=nil)
-    result = "/contents/#{mayo_doc_id}"
+    result = "/contents/#{document_id}"
     result+= "/#{user_reading_id}" if user_reading_id
     result
   end
 
   def root_share_url
-    mayo_doc_id.present? ? "/contents/#{mayo_doc_id}" : nil
+    document_id.present? ? "/contents/#{document_id}" : nil
   end
 
   def self.random
@@ -66,7 +66,7 @@ class Content < ActiveRecord::Base
   end
 
   def self.mayo_terms_of_service
-    @mayo_terms_of_service ||= find_by_mayo_doc_id('AM00021')
+    @mayo_terms_of_service ||= find_by_document_id('AM00021')
   end
 
   def self.next_for(user)
