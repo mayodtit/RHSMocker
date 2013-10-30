@@ -137,9 +137,23 @@ div.content_abstract{
     font-family: "Avenir Next Regular Condensed";
     font-size: 10px;
     color: #999999;
-    padding: 10px;
-    margin-bottom: 78px;
+    height: 56px;
+    padding: 10px 0px;
+    margin: 0px 5px 78px 5px;
     line-height: normal;
+    position: relative;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    div {
+      width: 170px;
+    }
+    img {
+      position: absolute;
+      top: 10px;
+      right: 5px;
+      height: 46px;
+      padding: 5px 0px;
+    }
 }
 
 .talk {
