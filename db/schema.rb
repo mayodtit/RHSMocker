@@ -353,6 +353,12 @@ ActiveRecord::Schema.define(:version => 20131030161716) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "programs", :force => true do |t|
+    t.string   "title",      :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "questions", :force => true do |t|
     t.string   "title"
     t.string   "view"
