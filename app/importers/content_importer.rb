@@ -10,6 +10,7 @@ class ContentImporter
     extract_required_params_from_xml!
     return :failed unless has_required_params?
     return :skipped unless allow_type?
+    return :skipped if has_flash?
     return RecipeImporter.new(@data, @logger).import if @content_type == 'Recipe'
     remove_flash_assets!
     remove_popup_media!
@@ -54,6 +55,10 @@ class ContentImporter
       return false
     end
     true
+  end
+
+  def has_flash?
+    @data.at('HasFlash').children.to_html.remove_newlines_and_tabs == '1'
   end
 
   def remove_flash_assets!
