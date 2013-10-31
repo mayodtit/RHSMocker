@@ -589,34 +589,88 @@ neck_pain_symptom 			= Symptom.upsert_attributes({:name=>"Neck Pain", :patient_t
 	{:description=>"Neck pain may be a short-term problem or a chronic disability. Identify possible common causes based on symptoms you're experiencing.",
 	:selfcare=>"The following tips may help relieve mild to moderate neck pain:"
 	})
+
 numbness_in_hands_symptom 	= Symptom.upsert_attributes({:name=>"Numbness in Hands", :patient_type=>"adult"},
 	{:description=>"Numbness or tingling in hands is often triggered by injury or repetitive use. Identify possible common causes based on symptoms you're experiencing."})
+## NO SELF CARE
+
 pelvic_pain_female_symptom 	= Symptom.upsert_attributes({:name=>"Pelvic Pain (Female)", :patient_type=>"adult"},
 	{:description=>"Pelvic pain in women can be caused by a wide variety of diseases and conditions. Identify possible common causes based on symptoms you’re experiencing.",
 	  :gender=>"F"})
+## NO SELF CARE
+
 pelvic_pain_male_symptom 	= Symptom.upsert_attributes({:name=>"Pelvic Pain (Male)", :patient_type=>"adult"},
 	{:description=>"Pelvic pain in men can be concerning. Identify possible common causes based on symptoms you're experiencing.", 
 	   :gender=>"M"})
+## NO SELF CARE
+
 shortness_of_breath_symptom = Symptom.upsert_attributes({:name=>"Shortness of Breath", :patient_type=>"adult"},
 	{:description=>"Shortness of breath can signal a number of conditions that need prompt medical care. Identify possible common causes based on symptoms you're experiencing."})
+## NO SELF CARE
+
 shoulder_pain_symptom 		= Symptom.upsert_attributes({:name=>"Shoulder Pain", :patient_type=>"adult"},
 	{:description=>"Shoulder pain often is due to a mechanical problem in the shoulder joint. Identify possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"The following self-care strategies may lessen mild to moderate shoulder pain:"
 	 })
+shoulder_pain_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"The following self-care strategies may lessen mild to moderate shoulder pain:",
+                                                                                      :symptom_id=>shoulder_pain_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use ice to reduce pain and inflammation", 
+                                          :symptom_selfcare_id=>shoulder_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Do gentle exercises to move your arm through its normal range of motion", 
+                                          :symptom_selfcare_id=>shoulder_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers.", 
+                                          :symptom_selfcare_id=>shoulder_pain_selfcare.id)
+
 sore_throat_symptom 		= Symptom.upsert_attributes({:name=>"Sore Throat", :patient_type=>"adult"},
 	{:description=>"Sore throat is a common problem. Identify possible causes based on symptoms you're experiencing.",
 	:selfcare=>"Most sore throats go away within about a week. In the meantime, try these tips:"
 	})
+sore_throat_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Most sore throats go away within about a week. In the meantime, try these tips:",
+                                                                                      :symptom_id=>sore_throat_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Drink plenty of fluids", 
+                                          :symptom_selfcare_id=>sore_throat_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Gargle with warm salt water", 
+                                           :symptom_selfcare_id=>sore_throat_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Suck on hard candy or throat lozenges", 
+                                           :symptom_selfcare_id=>sore_throat_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Rest your voice", 
+                                           :symptom_selfcare_id=>sore_throat_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a humidifier or take a steamy shower", 
+                                           :symptom_selfcare_id=>sore_throat_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid smoke and other air pollutants", 
+                                           :symptom_selfcare_id=>sore_throat_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers.", 
+                                           :symptom_selfcare_id=>sore_throat_selfcare.id)
+
 urinary_problems_symptom 	= Symptom.upsert_attributes({:name=>"Urinary Problems", :patient_type=>"adult"},
 	{:description=>"Urinary problems are a common complaint among adults. Identify possible common causes based on symptoms you're experiencing."})
+###NO URINARY SELFCARE
+
+
 vision_problems_symptom 	= Symptom.upsert_attributes({:name=>"Vision Problems", :patient_type=>"adult"},
 	{:description=>"Vision problems, even those easily corrected, can greatly affect everyday activities. Identify possible common causes based on symptoms you're experiencing."})
+### NO VISION SELFCARE
+
 wheezing_symptom 			= Symptom.upsert_attributes({:name=>"Wheezing", :patient_type=>"adult"}, 
 	{:description=>"Wheezing is a high-pitched, whistling noise that occurs with breathing. Identify possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"Wheezing requires medical attention. But taking good care of yourself can help:"})
-
+wheezing_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Wheezing requires medical attention. But taking good care of yourself can help:",
+                                                                                      :symptom_id=>wheezing_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"If you smoke, quit", 
+                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid exposure to irritants, such as tobacco smoke", 
+                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take a break when you begin to wheeze", 
+                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Practice deep-breathing exercises", 
+                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a humidifier or take hot, steamy showers to alleviate symptoms", 
+                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use an inhaler or other asthma medications as prescribed", 
+                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+#######################################################################################################################################################################
 #Symptoms - CHILD
-##############################
+#######################################################################################################################################################################
 abdominal_pain_symptom_child		= Symptom.upsert_attributes({:name=>"Abdominal Pain", :patient_type=>"child"},
 	{:description=>"Abdominal pain is common in children and often is the result of stomach flu. Identify other possible common causes based on your child's symptoms.",
 	 :selfcare=>"The following self-care tips may be beneficial for mild abdominal pain:"

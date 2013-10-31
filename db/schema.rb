@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131030222223) do
+ActiveRecord::Schema.define(:version => 20131031224019) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -405,6 +405,22 @@ ActiveRecord::Schema.define(:version => 20131030222223) do
     t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "symptom_selfcare_items", :force => true do |t|
+    t.string   "description"
+    t.integer  "symptom_selfcare_id"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
+
+  add_index "symptom_selfcare_items", ["symptom_selfcare_id"], :name => "index_symptom_selfcare_items_on_symptom_selfcare_id"
+
+  create_table "symptom_selfcares", :force => true do |t|
+    t.text     "description"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.integer  "symptom_id"
   end
 
   create_table "symptoms", :force => true do |t|
