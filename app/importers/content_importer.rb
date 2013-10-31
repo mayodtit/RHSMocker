@@ -16,6 +16,7 @@ class ContentImporter
     add_section_markup! unless @document_id == TERMS_OF_SERVICE
     return :failed unless has_html?
     extract_html_from_xml!
+    return :failed unless has_body_content?
     add_absolute_url_to_images!
     insert_images_into_html!
     create_intro_paragraph!
@@ -112,6 +113,10 @@ class ContentImporter
       return false
     end
     true
+  end
+
+  def has_body_content?
+    @html.at('body').try(:children).try(:any?)
   end
 
   def extract_html_from_xml!
