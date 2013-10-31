@@ -7,3 +7,4 @@ describe Symptom do
   it_validates 'inclusion of', :patient_type
   it_validates 'allows nil inclusion of', :gender
 end
+
