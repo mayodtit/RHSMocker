@@ -25,10 +25,10 @@ shared_examples 'inclusion of' do |property|
   end
 end
 
-shared_examples 'correctness of' do |property|
+shared_examples 'allows nil inclusion of' do |property|
   its "#{property}" do
     model = build_stubbed(described_class.name.underscore.to_sym)
-    model.send(:"#{property}=", 'foo')
+    model.send(:"#{property}=", 'BAADBEEFDEADBEEF')
     model.should_not be_valid
     model.errors[property.to_sym].should include("is not included in the list")
   end
