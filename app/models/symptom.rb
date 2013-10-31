@@ -6,6 +6,10 @@ class Symptom < ActiveRecord::Base
 
   validates :patient_type, :inclusion =>{
     :in=> %w(adult child),
-    :message=>"%{value} is not valid. Only 'adult' or 'child' accepted'.",
-    :allow_nil=>false }
+    :allow_nil=>false}
+
+  validates :gender, :inclusion=> {
+  	:in=> %w(M F), 
+  	:allow_nil=>true}
+
 end
