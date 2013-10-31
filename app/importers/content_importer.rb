@@ -19,6 +19,7 @@ class ContentImporter
     extract_html_from_xml!
     add_absolute_url_to_images!
     insert_images_into_html!
+    create_intro_paragraph!
     create_content!
     create_content_vocabularies!
     :success
@@ -99,6 +100,15 @@ class ContentImporter
 
   def section_node(id, section_html, last=false)
     Nokogiri::XML::Text.new("<div class=\"section disabled#{" last" if last}\" id=\"section-#{id}\">#{section_html.content}</div>", section_html)
+  end
+
+  def create_intro_paragraph!
+    return unless promote_first_paragraph?
+    @html.at('body').children.first.add_previous_sibling('<div class="intro">' + @html.at('p').to_html.remove_newlines_and_tabs + '</div>')
+  end
+
+  def promote_first_paragraph?
+    (@html.at('body').children.first['class'] || '').split(/\s/).include?("section-head")
   end
 
   def has_html?
