@@ -16,8 +16,10 @@ class ContentImporter
     add_section_markup! unless @document_id == TERMS_OF_SERVICE
     return :failed unless has_html?
     extract_html_from_xml!
+    return :failed unless has_body_content?
     add_absolute_url_to_images!
     insert_images_into_html!
+    create_intro_paragraph!
     create_content!
     create_content_vocabularies!
     :success
@@ -96,12 +98,25 @@ class ContentImporter
     Nokogiri::XML::Text.new("<div class=\"section disabled#{" last" if last}\" id=\"section-#{id}\">#{section_html.content}</div>", section_html)
   end
 
+  def create_intro_paragraph!
+    return unless promote_first_paragraph?
+    @html.at('body').children.first.add_previous_sibling('<div class="intro">' + @html.at('p').to_html.remove_newlines_and_tabs + '</div>')
+  end
+
+  def promote_first_paragraph?
+    (@html.at('body').children.first['class'] || '').split(/\s/).include?("section-head")
+  end
+
   def has_html?
     unless @data.css('Body').first
       log("content did not have a body tag")
       return false
     end
     true
+  end
+
+  def has_body_content?
+    @html.at('body').try(:children).try(:any?)
   end
 
   def extract_html_from_xml!
