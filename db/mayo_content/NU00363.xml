@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00363
 		</OriginalURL>
 		<UpdateDate>
-			2007-06-01
+			2013-06-01
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -43,27 +43,37 @@
 	<Title>
 		Recipe: Baby minted carrots
 	</Title>
-	<Abstract />
+	<Abstract>
+		Baby minted carrots &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
 	<ServingInfo Label="Serves">
 		6
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
-		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Carrots are an excellent source of beta carotene, which is converted by the body into vitamin A (retinol). Vitamin A helps maintain vision and promotes the growth of healthy cells and tissues. Carrots also contain lutein, which is thought to protect the retina. One serving of this recipe provides twice the estimated daily requirement for vitamin A.&lt;/p&gt;
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; One serving of this recipe provides twice the estimated daily requirement for vitamin A. 
+&lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
-		&lt;p&gt;Put 6 cups of water into a large saucepan. Add the carrots and boil until tender-crisp, about 10 minutes. Drain the carrots and set aside in a serving bowl.&lt;/p&gt;
-
-&lt;p&gt;In a separate saucepan over moderate heat, combine the apple juice and cornstarch. Stir until the mixture thickens, about 5 minutes. Stir in the mint and cinnamon.&lt;/p&gt;
-
-&lt;p&gt;Pour the apple juice mixture over the carrots. Serve immediately.&lt;/p&gt;
+		&lt;p&gt;
+Put 6 cups of water into a large saucepan. Add the carrots and boil until tender-crisp, about 10 minutes. Drain the carrots and set aside in a serving bowl. 
+&lt;/p&gt;
+&lt;p&gt;
+In a separate saucepan over moderate heat, combine the apple juice and cornstarch. Stir until the mixture thickens, about 5 minutes. Stir in the mint and cinnamon. 
+&lt;/p&gt;
+&lt;p&gt;
+Pour the apple juice mixture over the carrots. Serve immediately. 
+&lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
-		&lt;p&gt;6 cups water&lt;br /&gt;
+		&lt;p&gt;
+6 cups water&lt;br /&gt;
 1 pound baby carrots, rinsed&lt;br /&gt;
 1/4 cup apple juice&lt;br /&gt;
 1 tablespoon cornstarch&lt;br /&gt;
 1/2 tablespoon chopped fresh mint leaves&lt;br /&gt;
-1/8 teaspoon ground cinnamon&lt;/p&gt;
+1/8 teaspoon ground cinnamon 
+&lt;/p&gt;
 	</Ingredients>
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
@@ -102,10 +112,10 @@
 		</HWP>
 		<NutrientAnalysis Label="Nutritional Analysis per serving">
 			<Calories Label="Calories">
-				38
+				40
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
-				10 g
+				9 g
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
 				0 mg
@@ -114,23 +124,27 @@
 				2 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
-				0 g
+				trace
 			</Monounsaturatedfat>
 			<Protein Label="Protein">
 				1 g
 			</Protein>
 			<Saturatedfat Label="Saturated fat">
-				0 g
+				trace
 			</Saturatedfat>
 			<Servingsize Label="Serving size" />
 			<Sodium Label="Sodium">
 				45 mg
 			</Sodium>
-			<Sugars />
-			<TotalFat Label="Total fat">
+			<Sugars Label="Sugars">
 				0 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				trace
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>

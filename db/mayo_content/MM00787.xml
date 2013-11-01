@@ -1,0 +1,79 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00787
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/stem-cell-transplant/MM00787
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-09
+		</UpdateDate>
+		<PublicationDate>
+			2010-05-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="3981" Title="Stem cell transplant" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			255D3C99-F208-37DF-CDFEAEEC6D81B5A7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		How a stem cell transplant works
+	</Title>
+	<Abstract>
+		During stem cell transplant treatment for cancer, healthy stem cells migrate to your bone marrow.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00787_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+Bone marrow is the spongy tissue inside some bones. Its job is to produce blood cells. If your bone marrow isn&apos;t functioning properly because of cancer or another disease, you may receive a stem cell transplant. 
+&lt;/p&gt;
+&lt;p&gt;
+To prepare for a stem cell transplant, you receive chemotherapy to kill the diseased cells and malfunctioning bone marrow. Then, transplanted blood stem cells are put into your bloodstream. The transplanted stem cells find their way to your marrow, where &amp;mdash; ideally &amp;mdash; they begin producing new, healthy blood cells. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00787_licensingthumb.jpg" width="60" />
+</Video>

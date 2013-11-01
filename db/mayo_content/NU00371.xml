@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00371
 		</OriginalURL>
 		<UpdateDate>
-			2007-08-01
+			2013-08-17
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -43,28 +43,38 @@
 	<Title>
 		Recipe: Blackberry iced tea with cinnamon and ginger
 	</Title>
-	<Abstract />
+	<Abstract>
+		This blackberry iced tea is made with cinnamon and ginger, and is caffeine-free.
+	</Abstract>
 	<ServingInfo Label="Serves">
 		6
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
-		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Herbal tea isn&apos;t made from tea leaves. Instead, herbs, flowers or spices are steeped in water. Most herbal teas are caffeine-free.&lt;/p&gt;
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Herbal tea isn&apos;t made from tea leaves. Instead, herbs, flowers or spices are steeped in water. Most herbal teas are caffeine-free. 
+&lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
-		&lt;p&gt;In a large saucepan, heat water to just before boiling. Add tea bags, 2 of the cinnamon sticks and ginger. Remove from heat, cover and let steep for about 15 minutes.&lt;/p&gt;
-
-&lt;p&gt;Pass the mixture through a fine-mesh sieve, placed over a pitcher. Add the juice and sweetener to taste. Refrigerate until very cold.&lt;/p&gt;
-
-&lt;p&gt;To serve, fill 6 tall, chilled glasses with crushed ice. Pour the tea over the top of the ice and garnish with cinnamon sticks. Serve immediately.&lt;/p&gt;
+		&lt;p&gt;
+In a large saucepan, heat water to just before boiling. Add tea bags, 2 of the cinnamon sticks and ginger. Remove from heat, cover and let steep for about 15 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+Pass the mixture through a fine-mesh sieve, placed over a pitcher. Add the juice and sweetener to taste. Refrigerate until very cold. 
+&lt;/p&gt;
+&lt;p&gt;
+To serve, fill 6 tall, chilled glasses with crushed ice. Pour the tea over the top of the ice and garnish with cinnamon sticks. Serve immediately. 
+&lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
-		&lt;p&gt;6 cups water&lt;br /&gt;
-12 blackberry herbal tea bags&lt;br /&gt;
-8 3-inch-long cinnamon sticks&lt;br /&gt;
-1 tablespoon minced fresh ginger&lt;br /&gt;
-1 cup unsweetened cranberry juice&lt;br /&gt;
-Sugar substitute, to taste&lt;br /&gt;
-Ice cubes, crushed&lt;/p&gt;
+		&lt;ul&gt;
+	&lt;li&gt;6 cups water&lt;/li&gt;
+	&lt;li&gt;12 blackberry herbal tea bags&lt;/li&gt;
+	&lt;li&gt;8 3-inch-long cinnamon sticks&lt;/li&gt;
+	&lt;li&gt;1 tablespoon minced fresh ginger&lt;/li&gt;
+	&lt;li&gt;1 cup unsweetened cranberry juice&lt;/li&gt;
+	&lt;li&gt;Sugar substitute, to taste&lt;/li&gt;
+	&lt;li&gt;Ice cubes, crushed &lt;/li&gt;
+&lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
@@ -112,7 +122,7 @@ Ice cubes, crushed&lt;/p&gt;
 				0 mg
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
-				0 g
+				Trace
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
 				0 g
@@ -125,13 +135,17 @@ Ice cubes, crushed&lt;/p&gt;
 			</Saturatedfat>
 			<Servingsize Label="Serving size" />
 			<Sodium Label="Sodium">
-				0 mg
+				3 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
 			<TotalFat Label="Total fat">
 				0 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>

@@ -1,0 +1,132 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00784
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/how-to-measure-blood-pressure/MM00784
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-13
+		</UpdateDate>
+		<PublicationDate>
+			2009-12-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1147" Title="High blood pressure" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3359" Title="Manage tests and screenings">
+					<Keyword MCVID="3357" Title="Manage condition self-monitoring" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4725" Title="Care plan">
+					<Keyword MCVID="3382" Title="Alert" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3363" Title="Guidance">
+					<Keyword MCVID="3368" Title="Monitor condition">
+						<Keyword MCVID="4395" Title="Comorbidities" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3363" Title="Guidance">
+					<Keyword MCVID="3368" Title="Monitor condition">
+						<Keyword MCVID="4396" Title="No comorbidities" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3471" Title="Manage wellness">
+					<Keyword MCVID="4729" Title="Health Information">
+						<Keyword MCVID="4397" Title="Heart disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E4AC6F86-E982-CDFA-7000379CDB6D02C5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		How to measure blood pressure using a manual monitor
+	</Title>
+	<Abstract>
+		Watch this video to learn how to measure blood pressure using a manual monitor.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00784_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+Manual, or aneroid, equipment includes a cuff, an attached pump, a stethoscope and a gauge. 
+&lt;/p&gt;
+&lt;p&gt;
+This equipment requires coordination. It&apos;s difficult to use if you&apos;re hearing or visually impaired or if you&apos;re unable to perform the hand movements needed to squeeze the bulb and inflate the cuff. 
+&lt;/p&gt;
+&lt;p&gt;
+When you&apos;re ready to take your blood pressure, sit quietly for three to five minutes beforehand. 
+&lt;/p&gt;
+&lt;p&gt;
+To begin, place the cuff on your bare upper arm one inch above the bend of your elbow. Pull the end of the cuff so that it&apos;s evenly tight around your arm. You should place it tight enough so that you can only slip two fingertips under the top edge of the cuff. Make sure your skin doesn&apos;t pinch when the cuff inflates. 
+&lt;/p&gt;
+&lt;p&gt;
+Once the cuff is on, place the disk of the stethoscope facedown under the cuff, just to the inner side of your upper arm. 
+&lt;/p&gt;
+&lt;p&gt;
+Next, place the stethoscope earpieces in your ears, with the earpieces facing forward, pointing toward the tip of your nose. Rest the gauge in the open palm of the hand of your cuffed arm so that you can clearly see it. 
+&lt;/p&gt;
+&lt;p&gt;
+Then, squeeze the pump rapidly with your opposite hand until the gauge reads 30 points above your usual systolic pressure. (Be sure to inflate the cuff rapidly). Stop squeezing. Turn the knob on the pump toward you (counterclockwise) to let the air out slowly. 
+&lt;/p&gt;
+&lt;p&gt;
+Let the pressure fall 2 millimeters, or lines on the dial, per second while listening for your heart sounds. Note the reading when you first hear a heartbeat. This is your systolic pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+Note when you no longer hear the beating sounds. This is your diastolic pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+Rest quietly and wait about one to two minutes before taking another measurement. Record your numbers either by writing the information down or by entering the information into an electronic personal health record. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00784_licensingthumb.jpg" width="60" />
+</Video>

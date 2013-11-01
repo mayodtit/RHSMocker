@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00473
 		</OriginalURL>
 		<UpdateDate>
-			2009-09-01
+			2013-06-01
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -56,21 +56,27 @@
 		1
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
-		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; By using egg substitutes instead of whole eggs and substituting vegetables for sausage and cheese, you cut out much of the fat and cholesterol in this breakfast burrito.&lt;/p&gt;
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; By using egg substitutes instead of whole eggs and substituting vegetables for sausage and cheese, you cut out much of the fat and cholesterol in this breakfast burrito. 
+&lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
-		&lt;p&gt;In a small skillet, add the chopped tomato, onion and corn. Cook over medium heat until the vegetables are soft and moisture is evaporated. Add the egg substitute and scramble with the vegetables until cooked through, about 3 minutes.&lt;/p&gt;
-
-&lt;p&gt;To serve, spread the egg mixture in the center of the tortilla and top with salsa. Fold in both sides of the tortilla up over the filling, then roll to close. Serve immediately.&lt;/p&gt;
+		&lt;p&gt;
+In a small skillet, add the chopped tomato, onion and corn. Cook over medium heat until the vegetables are soft and moisture has evaporated. Add the egg substitute and scramble with the vegetables until cooked through, about 3 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+To serve, spread the egg mixture in the center of the tortilla and top with salsa. Fold in both sides of the tortilla up over the filling, then roll to close. Serve immediately. 
+&lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
-		&lt;p&gt;1/2 cup chopped tomato&lt;br /&gt;
-2 tablespoons chopped onion&lt;br /&gt;
-1/4 cup canned corn&lt;br /&gt;
-1/4 cup egg substitute&lt;br /&gt;
-1 flour tortilla, 6 inches in diameter&lt;br /&gt;
-2 tablespoons salsa&lt;br /&gt;
-&lt;/p&gt;
+		&lt;ul&gt;
+	&lt;li&gt;1/2 cup chopped tomato&lt;/li&gt;
+	&lt;li&gt;2 tablespoons chopped onion&lt;/li&gt;
+	&lt;li&gt;1/4 cup frozen corn&lt;/li&gt;
+	&lt;li&gt;1/4 cup egg substitute&lt;/li&gt;
+	&lt;li&gt;1 whole-wheat tortilla, 6 inches in diameter&lt;/li&gt;
+	&lt;li&gt;2 tablespoons salsa &lt;/li&gt;
+&lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
@@ -86,7 +92,7 @@
 			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
 			<Sweets Label="Sweets" />
 			<Vegetables Label="Vegetables">
-				1
+				2
 			</Vegetables>
 		</Dash>
 		<Diabetes Label="Diabetes Meal Plan Exchanges">
@@ -98,7 +104,7 @@
 			</Meat>
 			<Milk Label="Milk and milk products" />
 			<NonStarchyVegetables Label="Nonstarchy vegetables">
-				1
+				2
 			</NonStarchyVegetables>
 			<Starches Label="Starches">
 				2
@@ -116,27 +122,27 @@
 			</Protein_Dairy>
 			<Sweets Label="Sweets" />
 			<Vegetables Label="Vegetables">
-				1
+				2
 			</Vegetables>
 		</HWP>
 		<NutrientAnalysis Label="Nutritional Analysis per serving">
 			<Calories Label="Calories">
-				231
+				256
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
-				34 g
+				40 g
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
 				1 mg
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
-				4 g
+				11 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
-				2 g
+				1 g
 			</Monounsaturatedfat>
 			<Protein Label="Protein">
-				12 g
+				15 g
 			</Protein>
 			<Saturatedfat Label="Saturated fat">
 				1 g
@@ -145,21 +151,31 @@
 				1 burrito
 			</Servingsize>
 			<Sodium Label="Sodium">
-				519 mg
+				629 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
 			<TotalFat Label="Total fat">
-				5 g
+				4 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>
 		<Category CategoryLabel="Special diets">
 			Meatless
 		</Category>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
 		<Category CategoryLabel="Number of servings">
 			Serves 1
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
 		</Category>
 		<Category CategoryLabel="Special diets">
 			Diabetes meal plan

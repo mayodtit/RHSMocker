@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/grilled-salmon/NU00398
 		</OriginalURL>
 		<UpdateDate>
-			2008-02-01
+			2013-08-20
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -43,29 +43,38 @@
 	<Title>
 		Recipe: Grilled salmon on sourdough bread
 	</Title>
-	<Abstract />
+	<Abstract>
+		Salmon is a good source of omega-3 fatty acids, a type of fat that may be beneficial to your heart.
+	</Abstract>
 	<ServingInfo Label="Serves">
 		4
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
-		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Salmon is a good source of omega-3 fatty acids &amp;mdash; a type of fat that may be beneficial to your heart.&lt;/p&gt;
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Salmon is a good source of omega-3 fatty acids &amp;mdash; a type of fat that may be beneficial to your heart. 
+&lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
-		&lt;p&gt;Prepare a hot fire in a charcoal grill or heat a gas grill or broiler. Away from the heat source, lightly coat the grill rack or broiler pan with cooking spray. Position the cooking rack 4 to 6 inches from the heat source.&lt;/p&gt;
-
-&lt;p&gt;Sprinkle the salmon fillets with Italian seasoning. Place the fillets on the grill rack or broiler pan and grill or broil until the fish is opaque throughout when tested with the tip of a knife, about 15 to 20 minutes.&lt;/p&gt;
-
-&lt;p&gt;In a small bowl, mix together the mayonnaise and basil. Spread on each slice of the sourdough bread. Place salmon on a slice of bread and top with tomato and lettuce and another slice of bread. Serve immediately.&lt;/p&gt;
+		&lt;p&gt;
+Prepare a hot fire in a charcoal grill or heat a gas grill or broiler. Away from the heat source, lightly coat the grill rack or broiler pan with cooking spray. Position the cooking rack 4 to 6 inches from the heat source. 
+&lt;/p&gt;
+&lt;p&gt;
+Sprinkle the salmon fillets with Italian seasoning. Place the fillets on the grill rack or broiler pan and grill or broil until the fish is opaque throughout when tested with the tip of a knife, about 15 to 20 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+In a small bowl, mix together the mayonnaise and basil. Spread on each slice of the sourdough bread. Place salmon on a slice of bread and top with tomato and lettuce and another slice of bread. Serve immediately. 
+&lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
-		&lt;p&gt;4 salmon fillets, each 4 ounces&lt;br /&gt;
-2 1/2 tablespoons Italian seasoning&lt;br /&gt;
-1/2 cup reduced-fat mayonnaise&lt;br /&gt;
-1 tablespoon chopped fresh basil&lt;br /&gt;
-8 slices sourdough bread&lt;br /&gt;
-1 tomato, thinly sliced&lt;br /&gt;
-4 butter (Boston) lettuce leaves&lt;br /&gt;
-&lt;/p&gt;
+		&lt;ul&gt;
+	&lt;li&gt;4 salmon fillets, each 4 ounces&lt;/li&gt;
+	&lt;li&gt;2 1/2 tablespoons Italian seasoning&lt;/li&gt;
+	&lt;li&gt;1/4 cup reduced-fat mayonnaise&lt;/li&gt;
+	&lt;li&gt;1 tablespoon chopped fresh basil&lt;/li&gt;
+	&lt;li&gt;8 slices sourdough bread&lt;/li&gt;
+	&lt;li&gt;1 tomato, thinly sliced&lt;/li&gt;
+	&lt;li&gt;4 butter (Boston) lettuce leaves &lt;/li&gt;
+&lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
@@ -78,7 +87,7 @@
 				2
 			</Grains>
 			<Meat Label="Meats, poultry and fish">
-				2
+				4
 			</Meat>
 			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
 			<Sweets Label="Sweets" />
@@ -93,12 +102,10 @@
 			<Freefoods Label="Free foods" />
 			<Fruits Label="Fruits" />
 			<Meat Label="Meat and meat substitutes">
-				2
+				4
 			</Meat>
 			<Milk Label="Milk and milk products" />
-			<NonStarchyVegetables Label="Nonstarchy vegetables">
-				2
-			</NonStarchyVegetables>
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
 			<Starches Label="Starches">
 				2
 			</Starches>
@@ -113,44 +120,48 @@
 			</Fats>
 			<Fruits Label="Fruits" />
 			<Protein_Dairy Label="Protein and dairy">
-				1
+				2
 			</Protein_Dairy>
 			<Sweets Label="Sweets" />
-			<Vegetables Label="Vegetables">
-				2
-			</Vegetables>
+			<Vegetables Label="Vegetables" />
 		</HWP>
 		<NutrientAnalysis Label="Nutritional Analysis per serving">
 			<Calories Label="Calories">
-				368
+				392
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
-				39 g
+				32 g
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
-				51 mg
+				62 mg
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
-				3 g
+				2 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
 				4 g
 			</Monounsaturatedfat>
 			<Protein Label="Protein">
-				23 g
+				30 g
 			</Protein>
 			<Saturatedfat Label="Saturated fat">
-				2 g
+				4 g
 			</Saturatedfat>
-			<Servingsize Label="Serving size" />
+			<Servingsize Label="Serving size">
+				1 sandwich
+			</Servingsize>
 			<Sodium Label="Sodium">
-				601 mg
+				452 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
 			<TotalFat Label="Total fat">
-				12 g
+				16 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>

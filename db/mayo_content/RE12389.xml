@@ -1,0 +1,236 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12389
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/baby-beet-and-orange-salad/RE12389
+		</OriginalURL>
+		<UpdateDate>
+			2013-03-01
+		</UpdateDate>
+		<PublicationDate>
+			2013-03-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			FFDCE7EE-C53A-C477-8E9ECD3ED69A17A6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				DAHLC
+			</MetaKeyword>
+			<MetaKeyword>
+				salads
+			</MetaKeyword>
+			<MetaKeyword>
+				vegetables
+			</MetaKeyword>
+			<MetaKeyword>
+				meatless
+			</MetaKeyword>
+			<MetaKeyword>
+				dinner recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				lunch recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				meatless recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				DASH recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy carb recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				low fat recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				low sodium recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				heart healthy recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			Created by the chefs at Mayo Clinic&apos;s Dan Abraham Healthy Living Center.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Baby beet and orange salad
+	</Title>
+	<Abstract>
+		Beets can be steamed or boiled, but roasting brings out their earthy flavor.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; You can steam or boil beets, but roasting them is best for bringing out their earthy flavor.
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat oven to 400 F. Cut greens off of beets, rinse under cold running water, drain well and reserve. 
+&lt;/p&gt;
+&lt;p&gt;
+Wash beets. Drizzle a bit of olive oil onto your hands and rub beets to coat them lightly. Wrap beets in aluminum foil and bake for about 45 minutes or until tender. Cool until you can handle and then pull off the outer skin. Slice and set aside. 
+&lt;/p&gt;
+&lt;p&gt;
+Cut beet greens into strips and place in mixing bowl. Chop celery, cabbage and onion, and add to bowl. Zest and juice 1 orange. Peel the other orange and cut into thin slices. Add slices to bowl. Drizzle mixture with olive oil. Season with black pepper and toss to combine. Arrange salad and beets on chilled plates and serve. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;2 bunches baby beets with greens&lt;/li&gt;
+	&lt;li&gt;2 ribs celery (1/2 cup)&lt;/li&gt;
+	&lt;li&gt;1/4 head Napa cabbage (1 1/2 cups)&lt;/li&gt;
+	&lt;li&gt;1 small yellow onion (1/2 cup)&lt;/li&gt;
+	&lt;li&gt;2 oranges (1 tablespoon zest, 1 cup orange flesh)&lt;/li&gt;
+	&lt;li&gt;1/2 tablespoon olive oil&lt;/li&gt;
+	&lt;li&gt;Black pepper to taste&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits">
+				1/2
+			</Fruits>
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1/2
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				2
+			</NonStarchyVegetables>
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits">
+				1/2
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				78
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				13 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				4 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				1 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				2 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				trace
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				About 2 cups
+			</Servingsize>
+			<Sodium Label="Sodium">
+				83 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				2 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Salads
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Roast
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

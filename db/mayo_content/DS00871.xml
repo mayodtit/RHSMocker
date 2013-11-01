@@ -16,12 +16,22 @@
 			http://www.mayoclinic.com/health/enlarged-spleen/DS00871
 		</OriginalURL>
 		<UpdateDate>
-			2010-11-11
+			2013-07-26
 		</UpdateDate>
 		<PublicationDate>
 			2006-11-10
 		</PublicationDate>
 		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
 			<Category MCVID="1000" Title="Age">
 				<Keyword MCVID="1124" Title="Adult">
 					<Keyword MCVID="1125" Title="19 to 44 younger" />
@@ -77,24 +87,24 @@
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-Your spleen is a small organ located just below your rib cage on your left side. Normally, your spleen is about the size of a fist, but a number of conditions &amp;mdash; from infections to liver disease and some cancers &amp;mdash; can cause an enlarged spleen, also known as splenomegaly (spleh-no-MEG-uh-lee). 
+Your spleen is an organ located just below your rib cage on your left side. A number of conditions &amp;mdash; from infections to liver disease and some cancers &amp;mdash; can cause an enlarged spleen, also known as splenomegaly (spleh-no-MEG-uh-lee). 
 &lt;/p&gt;
 &lt;p&gt;
-Most people don&apos;t have symptoms with an enlarged spleen. The problem is often discovered during a routine physical exam. Your doctor won&apos;t be able to feel a normal-sized spleen &amp;mdash; unless you&apos;re very slender &amp;mdash; but can feel an enlarged spleen.
+Most people don&apos;t have symptoms with an enlarged spleen. The problem is often discovered during a routine physical exam. Your doctor can&apos;t feel a normal-sized spleen in adults &amp;mdash; unless you&apos;re very slender &amp;mdash; but can feel an enlarged spleen. If you have an enlarged spleen, your doctor will likely request imaging and blood tests to help identify the cause. 
 &lt;/p&gt;
 &lt;p&gt;
-Treatment for an enlarged spleen focuses on relieving the underlying condition. Although surgically removing an enlarged spleen isn&apos;t a first choice, it may be an option for you in certain situations. 
+Treatment for an enlarged spleen focuses on relieving the underlying condition. Surgically removing an enlarged spleen isn&apos;t usually the first treatment, but it may be recommended in certain situations. 
 &lt;/p&gt;
 			</HTML>
 			<PopupMedia>
 				<Thumbnail Alt="Image of enlarged spleen 
-" Caption="The spleen is a small organ normally about the size of your fist. But a number of conditions, including liver disease and some cancers, can cause your spleen to become enlarged. 
+" Caption="The spleen is a small organ normally about the size of your fist. But a number of conditions, including liver disease and some cancers, can cause your spleen to become enlarged.
 " Height="60" Title="Enlarged spleen" URI="/images/image_popup/thumbs/r7_enlargedspleenthu.jpg" Width="60" />
 				<Image Alt="Image of enlarged spleen 
-" Caption="The spleen is a small organ normally about the size of your fist. But a number of conditions, including liver disease and some cancers, can cause your spleen to become enlarged. 
+" Caption="The spleen is a small organ normally about the size of your fist. But a number of conditions, including liver disease and some cancers, can cause your spleen to become enlarged.
 " Height="366" Title="Enlarged spleen" URI="/images/image_popup/r7_enlargedspleen.jpg" Width="400" />
 				<HTML>
-					The spleen is a small organ normally about the size of your fist. But a number of conditions, including liver disease and some cancers, can cause your spleen to become enlarged. 
+					The spleen is a small organ normally about the size of your fist. But a number of conditions, including liver disease and some cancers, can cause your spleen to become enlarged.
 ...
 				</HTML>
 			</PopupMedia>
@@ -108,7 +118,7 @@ Treatment for an enlarged spleen focuses on relieving the underlying condition. 
 An enlarged spleen may cause: 
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;No symptoms, in some cases&lt;/li&gt;
+	&lt;li&gt;No symptoms in some cases&lt;/li&gt;
 	&lt;li&gt;Pain or fullness in the left upper abdomen that may spread to the left shoulder&lt;/li&gt;
 	&lt;li&gt;Feeling full without eating or after eating only a small amount &amp;mdash; this can occur when an enlarged spleen presses on your stomach&lt;/li&gt;
 	&lt;li&gt;Anemia&lt;/li&gt;
@@ -148,7 +158,6 @@ Your spleen is tucked under your rib cage next to your stomach on the left side 
 	&lt;li&gt;Filters out and destroys old and damaged blood cells&lt;/li&gt;
 	&lt;li&gt;Plays a key role in preventing infection by producing white blood cells called lymphocytes and acting as a first line of defense against invading pathogens&lt;/li&gt;
 	&lt;li&gt;Stores red blood cells and platelets, the cells that help your blood clot&lt;/li&gt;
-	&lt;li&gt;May act as an intermediary between your immune system and your brain, leading researchers to speculate that they may one day be able to trigger the spleen&apos;s infection-fighting abilities by manipulating the nervous system&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
 An enlarged spleen affects each of these vital functions. For instance, as your spleen grows larger, it begins to filter normal red blood cells as well as abnormal ones, reducing the number of healthy cells in your bloodstream. It also traps too many platelets. Eventually, excess red blood cells and platelets can clog your spleen, interfering with its normal functioning. An enlarged spleen may even outgrow its own blood supply, which can damage or destroy sections of the organ. 
@@ -164,10 +173,9 @@ An enlarged spleen affects each of these vital functions. For instance, as your 
 Anyone can develop an enlarged spleen at any age, but certain groups are at higher risk, including: 
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;Children and young adults with infections such as mononucleosis&lt;/li&gt;
-	&lt;li&gt;People of African descent, who may develop splenomegaly as a complication of sickle cell disease, a genetic blood disorder&lt;/li&gt;
-	&lt;li&gt;People of Ashkenazi Jewish ancestry, who are at higher risk of Gaucher&apos;s disease, Niemann-Pick disease and several other inherited metabolic disorders affecting the liver and spleen&lt;/li&gt;
-	&lt;li&gt;Travelers to areas where malaria is endemic&lt;/li&gt;
+	&lt;li&gt;Children and young adults with infections, such as mononucleosis&lt;/li&gt;
+	&lt;li&gt;People who have Gaucher&apos;s disease, Niemann-Pick disease, and several other inherited metabolic disorders affecting the liver and spleen&lt;/li&gt;
+	&lt;li&gt;People who live in or travel to areas where malaria is endemic&lt;/li&gt;
 &lt;/ul&gt;
 			</HTML>
 		</Section>
@@ -209,7 +217,7 @@ Imaging tests aren&apos;t always needed to diagnose an enlarged spleen. But if y
 Sometimes you may need further testing to identify what&apos;s causing an enlarged spleen, including liver function tests and a bone marrow exam, which can give more detailed information about your blood cells than can blood drawn from a vein. 
 &lt;/p&gt;
 &lt;p&gt;
-In some cases, a sample of solid bone marrow is removed in a procedure called a bone marrow biopsy. Or, you may have a bone marrow aspiration, which removes the liquid portion of your marrow. In many cases, both procedures are performed at the same time (bone marrow exam). 
+In some cases, a sample of solid bone marrow is removed in a procedure called a bone marrow biopsy. Or you may have a bone marrow aspiration, which removes the liquid portion of your marrow. In many cases, both procedures are performed at the same time (bone marrow exam). 
 &lt;/p&gt;
 &lt;p&gt;
 Both the liquid and solid bone marrow samples are frequently taken from the same place on the back of one of your hipbones. A needle is inserted into the bone through an incision. Because bone marrow tests cause discomfort, you&apos;ll receive either general or local anesthesia before the test. 
@@ -228,19 +236,26 @@ Occasionally, when there&apos;s no explanation for an enlarged spleen despite a 
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
+If the cause of an enlarged spleen can be identified, treatment focuses on the underlying problem. For example, if you have a bacterial infection, treatment will include antibiotics. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have an enlarged spleen but don&apos;t have any symptoms and the cause can&apos;t be found, your doctor may suggest watchful waiting. You&apos;ll have to see your doctor for revaluation in six to 12 months, or sooner if you develop any symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
 If an enlarged spleen causes serious complications or the underlying problem can&apos;t be identified or treated, surgical removal of your spleen (splenectomy) may be an option. In fact, in chronic or critical cases, surgery may offer the best hope for recovery. 
 &lt;/p&gt;
 &lt;p&gt;
-But elective spleen removal requires careful consideration. You can live an active life without a spleen, but you&apos;re more likely to contract serious or even life-threatening infections, including overwhelming post-splenectomy infection, which can occur soon after the operation. Sometimes, radiation can shrink your spleen so that you can avoid surgery. 
+But elective spleen removal requires careful consideration. You can live an active life without a spleen, but you&apos;re more likely to contract serious or even life-threatening infections after having your spleen removed. Sometimes radiation can shrink your spleen so that you can avoid surgery. 
 &lt;/p&gt;
 &lt;p&gt;
 &lt;strong&gt;Reducing infection risk after surgery&lt;/strong&gt; &lt;br /&gt;
 If you do have your spleen removed, certain steps can help reduce your risk of infection, including: 
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;A series of vaccinations both before and after the splenectomy. These include the pneumococcal (Pneumovax), meningococcal and haemophilus influenzae type b (Hib) vaccines, which protect against pneumonia, meningitis, and infections of the blood, bones and joints.&lt;/li&gt;
+	&lt;li&gt;A series of vaccinations both before and after the splenectomy. These include the pneumococcal (Pneumovax 23), meningococcal and haemophilus influenzae type b (Hib) vaccines, which protect against pneumonia, meningitis, and infections of the blood, bones and joints. In addition, you&apos;ll need to get the pneumococcal vaccine every five years after surgery.&lt;/li&gt;
 	&lt;li&gt;Taking penicillin or other antibiotics after your operation and anytime you or your doctor suspects the possibility of an infection.&lt;/li&gt;
-	&lt;li&gt;Avoiding travel to parts of the world where diseases such as malaria are endemic.&lt;/li&gt;
+	&lt;li&gt;Calling your doctor as soon as you know that you have a fever because this may indicate an infection.&lt;/li&gt;
+	&lt;li&gt;Avoiding travel to parts of the world where certain diseases, such as malaria, are endemic.&lt;/li&gt;
 &lt;/ul&gt;
 			</HTML>
 		</Section>
@@ -256,7 +271,7 @@ If you have an enlarged spleen, avoid contact sports &amp;mdash; such as soccer,
 It&apos;s also important to wear a seat belt. If you&apos;re in an accident, a seat belt can help prevent injury to your spleen. 
 &lt;/p&gt;
 &lt;p&gt;
-Finally, be sure to keep your vaccinations up to date. 
+Finally, be sure to keep your vaccinations up to date because your risk of infection is increased. That means at least an annual flu shot, and a tetanus, diphtheria and pertussis booster every 10 years. Ask your doctor if you need any additional vaccines. 
 &lt;/p&gt;
 			</HTML>
 		</Section>
@@ -265,7 +280,7 @@ Finally, be sure to keep your vaccinations up to date.
 		Enlarged spleen (splenomegaly)
 	</Title>
 	<Abstract>
-		Enlarged spleen &amp;mdash; Comprehensive overview covers symptoms, causes, and treatment of splenomegaly.
+		Enlarged spleen &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of splenomegaly.
 	</Abstract>
 	<BenefitSummary />
 	<RelatedLinksBox>

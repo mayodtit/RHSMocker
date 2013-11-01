@@ -1,0 +1,76 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00082
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/babys-soft-spots/MM00082
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-21
+		</UpdateDate>
+		<PublicationDate>
+			2001-03-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="1533" Title="Children">
+					<Keyword MCVID="3747" Title="Infants and toddlers">
+						<Keyword MCVID="3749" Title="Newborn health" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B1DFBD28-96C6-4B98-85B009299FB7D7DA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		Baby&apos;s soft spots (fontanels)
+	</Title>
+	<Abstract>
+		A baby&apos;s soft spots (fontanels) close when the skull bones fuse together. See how.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00082.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+A baby&apos;s skull consists of several bones, and there are soft spots &amp;mdash; or fontanels &amp;mdash; where they meet. A baby&apos;s soft spots are covered by a thick fibrous layer. The soft spots are safe to touch and typically close within 12 to 18 months, when the skull bones fuse together. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00082_babyskull.jpg" width="60" />
+</Video>

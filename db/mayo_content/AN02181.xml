@@ -112,14 +112,14 @@ One situation where the test might have some value: If a woman is late in the fe
 	</QuestionState>
 	<BenefitSummary />
 	<RelatedLinksBox>
-		<LinkItem ContentType="Answer" DocID="AN01189" LinkType="Internal" ObjectID="A5ABBAB7-89E8-4994-94A4A32CE3524E6A" Title="Male masturbation: Does frequency affect male fertility?" Url="http://www.mayoclinic.com/health/male-masturbation/AN01189" />
+		<LinkItem ContentType="Answer" DocID="AN01305" LinkType="Internal" ObjectID="0482A36E-2A5D-9994-E659E52D1802DD2A" Title="Abnormal sperm morphology: What does it mean?" Url="http://www.mayoclinic.com/health/sperm-morphology/AN01305" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02078" LinkType="Internal" ObjectID="BD384E2A-A8A1-F09E-8B994003A6EB84F7" Title="Sperm donation" Url="http://www.mayoclinic.com/health/sperm-donation/MY02078" />
 		<LinkItem ContentType="TestProcedure" DocID="MY00104" LinkType="Internal" ObjectID="BC50D0DD-E7FF-0DBD-107893C2F894FAD6" Title="Intrauterine insemination (IUI)" Url="http://www.mayoclinic.com/health/intrauterine-insemination/MY00104" />
 		<LinkItem ContentType="TestProcedure" DocID="MY01648" LinkType="Internal" ObjectID="52C2A4CD-D51A-5516-57462451EECCE9F1" Title="In vitro fertilization (IVF)" Url="http://www.mayoclinic.com/health/in-vitro-fertilization/MY01648" />
 		<LinkItem ContentType="Disease" DocID="DS01038" LinkType="Internal" ObjectID="28DFF4EE-E7FF-0DBD-14CF93141A06B62F" Title="Male infertility" Url="http://www.mayoclinic.com/health/male-infertility/DS01038" />
 		<LinkItem ContentType="Disease" DocID="DS01057" LinkType="Internal" ObjectID="FDA8A33A-E7FF-0DBD-10FCF3AF0B544AFF" Title="Klinefelter syndrome" Url="http://www.mayoclinic.com/health/klinefelter-syndrome/DS01057" />
 		<LinkItem ContentType="Disease" DocID="DS00618" LinkType="Internal" ObjectID="43D97C63-2A5D-9994-E05C930C1F82F35F" Title="Varicocele" Url="http://www.mayoclinic.com/health/Varicocele/DS00618" />
 		<LinkItem ContentType="Disease" DocID="DS01049" LinkType="Internal" ObjectID="8B5D3F76-E7FF-0DBD-18972BEE0E8AF194" Title="Low sperm count" Url="http://www.mayoclinic.com/health/low-sperm-count/DS01049" />
-		<LinkItem ContentType="Answer" DocID="AN01305" LinkType="Internal" ObjectID="0482A36E-2A5D-9994-E659E52D1802DD2A" Title="Abnormal sperm morphology: What does it mean?" Url="http://www.mayoclinic.com/health/sperm-morphology/AN01305" />
-		<LinkItem ContentType="TestProcedure" DocID="MY02078" LinkType="Internal" ObjectID="BD384E2A-A8A1-F09E-8B994003A6EB84F7" Title="Sperm donation" Url="http://www.mayoclinic.com/health/sperm-donation/MY02078" />
+		<LinkItem ContentType="Answer" DocID="AN01189" LinkType="Internal" ObjectID="A5ABBAB7-89E8-4994-94A4A32CE3524E6A" Title="Male masturbation: Does frequency affect male fertility?" Url="http://www.mayoclinic.com/health/male-masturbation/AN01189" />
 	</RelatedLinksBox>
 </Answer>

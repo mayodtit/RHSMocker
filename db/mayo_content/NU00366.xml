@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00366
 		</OriginalURL>
 		<UpdateDate>
-			2007-06-01
+			2013-06-01
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -43,9 +43,11 @@
 	<Title>
 		Recipe: Balsamic roast chicken
 	</Title>
-	<Abstract />
+	<Abstract>
+		Combined with a hint of brown sugar, balsamic vinegar makes this sauce much healthier than a traditional high-fat gravy.
+	</Abstract>
 	<ServingInfo Label="Serves">
-		6
+		8
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
 		&lt;p&gt;
@@ -63,26 +65,26 @@ Rinse the chicken inside and out with cold running water. Pat it dry with paper 
 In a small bowl, mince together the rosemary and garlic. Loosen the chicken skin from the flesh, and rub the flesh with olive oil and then the herb mixture. Sprinkle with black pepper. Put 2 rosemary sprigs into the cavity of the chicken. Truss the chicken. 
 &lt;/p&gt;
 &lt;p&gt;
-Place the chicken into a roasting pan and roast for 20 to 25 minutes per pound, about 1 hour and 20 minutes. Whole chicken should cook to an internal temperature of 180 F. Baste frequently with pan juices. When browned and juices run clear, transfer the chicken to a serving platter. 
+Place the chicken into a roasting pan and roast for 20 to 25 minutes per pound, about 1 hour and 20 minutes. Whole chicken should cook to a minimum internal temperature of 165 F. Baste frequently with pan juices. When browned and juices run clear, transfer the chicken to a serving platter. 
 &lt;/p&gt;
 &lt;p&gt;
-In a small saucepan, combine the balsamic vinegar and brown sugar. Heat until warmed but don&apos;t boil. 
+In a small saucepan, combine the balsamic vinegar and brown sugar. Heat until warmed and brown sugar dissolves, but don&apos;t boil. 
 &lt;/p&gt;
 &lt;p&gt;
 Carve the chicken and remove the skin. Top the pieces with the vinegar mixture. Garnish with the remaining rosemary sprigs and serve immediately. 
 &lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
-		&lt;p&gt;
-1 whole chicken, about 4 pounds&lt;br /&gt;
-1 tablespoon fresh rosemary or 1 teaspoon dried rosemary&lt;br /&gt;
-1 garlic clove&lt;br /&gt;
-1 tablespoon olive oil&lt;br /&gt;
-1/8 teaspoon freshly ground black pepper&lt;br /&gt;
-8 sprigs fresh rosemary&lt;br /&gt;
-1/4 cup balsamic vinegar&lt;br /&gt;
-1/2 teaspoon brown sugar 
-&lt;/p&gt;
+		&lt;ul&gt;
+	&lt;li&gt;1 whole chicken, about 4 pounds&lt;/li&gt;
+	&lt;li&gt;1 tablespoon fresh rosemary or 1 teaspoon dried rosemary&lt;/li&gt;
+	&lt;li&gt;1 garlic clove&lt;/li&gt;
+	&lt;li&gt;1 tablespoon olive oil&lt;/li&gt;
+	&lt;li&gt;1/8 teaspoon freshly ground black pepper&lt;/li&gt;
+	&lt;li&gt;8 sprigs fresh rosemary&lt;/li&gt;
+	&lt;li&gt;1/2 cup balsamic vinegar&lt;/li&gt;
+	&lt;li&gt;1 teaspoon brown sugar &lt;/li&gt;
+&lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
@@ -91,7 +93,7 @@ Carve the chicken and remove the skin. Top the pieces with the vinegar mixture. 
 			<Fruits Label="Fruits" />
 			<Grains Label="Grains and grain products" />
 			<Meat Label="Meats, poultry and fish">
-				6
+				7
 			</Meat>
 			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
 			<Sweets Label="Sweets" />
@@ -102,7 +104,7 @@ Carve the chicken and remove the skin. Top the pieces with the vinegar mixture. 
 			<Freefoods Label="Free foods" />
 			<Fruits Label="Fruits" />
 			<Meat Label="Meat and meat substitutes">
-				6
+				7
 			</Meat>
 			<Milk Label="Milk and milk products" />
 			<NonStarchyVegetables Label="Nonstarchy vegetables" />
@@ -114,42 +116,48 @@ Carve the chicken and remove the skin. Top the pieces with the vinegar mixture. 
 			<Fats Label="Fats" />
 			<Fruits Label="Fruits" />
 			<Protein_Dairy Label="Protein and dairy">
-				2
+				3
 			</Protein_Dairy>
 			<Sweets Label="Sweets" />
 			<Vegetables Label="Vegetables" />
 		</HWP>
 		<NutrientAnalysis Label="Nutritional Analysis per serving">
 			<Calories Label="Calories">
-				290
+				364
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
 				4 g
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
-				127 mg
+				198 mg
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
 				0 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
-				5 g
+				8 g
 			</Monounsaturatedfat>
 			<Protein Label="Protein">
-				44 g
+				51 g
 			</Protein>
 			<Saturatedfat Label="Saturated fat">
-				3 g
+				5 g
 			</Saturatedfat>
-			<Servingsize Label="Serving size" />
+			<Servingsize Label="Serving size">
+				1/8 chicken
+			</Servingsize>
 			<Sodium Label="Sodium">
-				108 mg
+				257 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				trace
+			</Sugars>
 			<TotalFat Label="Total fat">
-				11 g
+				16 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>
@@ -166,7 +174,7 @@ Carve the chicken and remove the skin. Top the pieces with the vinegar mixture. 
 			Weight management
 		</Category>
 		<Category CategoryLabel="Number of servings">
-			Serves 6
+			Serves 8
 		</Category>
 		<Category CategoryLabel="Meal">
 			Dinner
@@ -181,5 +189,4 @@ Carve the chicken and remove the skin. Top the pieces with the vinegar mixture. 
 			Low-sodium
 		</Category>
 	</Categorization>
-	<BillboardGraphic alt="Balsamic roast chicken" height="100" uri="/images/billboardsmall/re1_balsamicchicken.jpg" width="100" />
 </Recipe>

@@ -1,0 +1,85 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00048
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/coronary-angioplasty/MM00048
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-16
+		</UpdateDate>
+		<PublicationDate>
+			2000-11-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3781" Title="Cardiovascular">
+						<Keyword MCVID="3994" Title="Coronary angioplasty" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			98A07B67-7CCA-41C5-BAFE4F4E2EA6C987
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		Coronary angioplasty
+	</Title>
+	<Abstract>
+		Coronary angioplasty and stenting open narrowed arteries. Watch this video to find out more.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00048_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+Percutaneous coronary intervention, also known as coronary angioplasty, opens narrowed coronary arteries. 
+&lt;/p&gt;
+&lt;p&gt;
+A catheter inserted in an artery in the groin or arm is threaded to the affected artery. A second catheter is then inserted inside the first one. 
+&lt;/p&gt;
+&lt;p&gt;
+When the catheter reaches the narrowed area, a balloon on its tip is inflated to reopen the artery. 
+&lt;/p&gt;
+&lt;p&gt;
+While the catheters are in the artery, a stent may be placed to prevent re-narrowing after an artery is widened. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00048_coronary_angioplasty.jpg" width="60" />
+</Video>

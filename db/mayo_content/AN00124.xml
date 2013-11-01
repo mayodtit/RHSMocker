@@ -87,14 +87,15 @@ If you have osteoarthritis, your doctor will work with you to develop a treatmen
 &lt;/p&gt;
 			</HTML>
 			<PopupMedia>
-				<Thumbnail Alt="Illustration showing difference between a normal spine and an arthritic spine 
-" Caption="Osteoarthritis of the spine results in a narrowing of the spaces between the vertebrae. Bone spurs often form. When bone surfaces rub together, the vertebral joints (facets) and areas surrounding the cartilage become inflamed and painful. 
-" Height="60" Title="Arthritis of the spine" URI="/images/image_popup/thumbs/ans7_osteoarthritisthu.jpg" Width="60" />
-				<Image Alt="Illustration showing difference between a normal spine and an arthritic spine 
-" Caption="Osteoarthritis of the spine results in a narrowing of the spaces between the vertebrae. Bone spurs often form. When bone surfaces rub together, the vertebral joints (facets) and areas surrounding the cartilage become inflamed and painful. 
-" Height="263" Title="Arthritis of the spine" URI="/images/image_popup/ans7_osteoarthritis.jpg" Width="400" />
+				<Thumbnail Alt="Illustration showing osteoarthritis of the spine 
+" Caption="In osteoarthritis of the spine, disks narrow and bone spurs form. 
+" Height="60" Title="Osteoarthritis of the spine" URI="/images/image_popup/thumbs/ans7_osteoarthritisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing osteoarthritis of the spine 
+" Caption="In osteoarthritis of the spine, disks narrow and bone spurs form. 
+" Height="263" Title="Osteoarthritis of the spine" URI="/images/image_popup/ans7_osteoarthritis.jpg" Width="400" />
 				<HTML>
-					Osteoarthritis of the spine results in a narrowing of the spaces between the vertebrae. Bone spurs often form. When bone surfaces rub together, the vertebral joints (facets) and areas surrounding the ...
+					In osteoarthritis of the spine, disks narrow and bone spurs form. 
+...
 				</HTML>
 			</PopupMedia>
 		</Section>
@@ -142,7 +143,7 @@ If you have osteoarthritis, your doctor will work with you to develop a treatmen
 		<LinkItem ContentType="Answer" DocID="AN01723" LinkType="Internal" ObjectID="04C5153C-E7FF-0DBD-114DEF772F0DCB6E" Title="Glucosamine: Does it affect blood sugar?" Url="http://www.mayoclinic.com/health/glucosamine/AN01723" />
 		<LinkItem ContentType="Disease" DocID="DS00555" LinkType="Internal" ObjectID="B65CF34E-35A3-4045-93DB0750884250C0" Title="Knee pain" Url="http://www.mayoclinic.com/health/knee-pain/DS00555" />
 		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
-		<LinkItem ContentType="Article" DocID="PN00041" LinkType="Internal" ObjectID="6FD00550-05BE-4813-9D4B41564D8A04F4" Title="Arthritis pain: Creams and gels for aching joints" Url="http://www.mayoclinic.com/health/pain-medications/PN00041" />
+		<LinkItem ContentType="Article" DocID="PN00041" LinkType="Internal" ObjectID="6FD00550-05BE-4813-9D4B41564D8A04F4" Title="Arthritis pain: Treatments absorbed through your skin" Url="http://www.mayoclinic.com/health/pain-medications/PN00041" />
 		<LinkItem ContentType="Disease" DocID="DS00019" LinkType="Internal" ObjectID="2B275878-8417-41E5-AB4FA4B6646DD7F6" Title="Osteoarthritis" Url="http://www.mayoclinic.com/health/osteoarthritis/DS00019" />
 	</RelatedLinksBox>
 </Answer>

@@ -1,0 +1,224 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12388
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/nonalcoholic-margarita/RE12388
+		</OriginalURL>
+		<UpdateDate>
+			2013-03-01
+		</UpdateDate>
+		<PublicationDate>
+			2013-03-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			FFD93E54-04D2-3094-E7F91A9565641479
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				DAHLC
+			</MetaKeyword>
+			<MetaKeyword>
+				beverages
+			</MetaKeyword>
+			<MetaKeyword>
+				fruits
+			</MetaKeyword>
+			<MetaKeyword>
+				snacks
+			</MetaKeyword>
+			<MetaKeyword>
+				DASH recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				low sodium recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				low fat recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				meatless recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				heart healthy recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			Created by the chefs at Mayo Clinic&apos;s Dan Abraham Healthy Living Center.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Nonalcoholic margarita
+	</Title>
+	<Abstract>
+		This margarita, made from lime juice and simple syrup, is a thirst-quenching nonalcoholic treat.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		1
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; This recipe makes extra simple syrup, which can be kept in the refrigerator for several days.
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In small sauce pan, heat water and sugar. Stir until sugar is dissolved. Remove from heat and chill. (Simple syrup may be refrigerated for several days.) 
+&lt;/p&gt;
+&lt;p&gt;
+In blender, add ice, juice and simple syrup. Blend until smooth, pour in favorite chilled glass and garnish rim with cut fruit. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;
+Simple syrup (makes 3/4 cup): 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;1/2 cup sugar&lt;/li&gt;
+	&lt;li&gt;1/2 cup water&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Margarita (1 glass): 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;2 cups ice &lt;/li&gt;
+	&lt;li&gt;1/2 cup fresh lime juice&lt;/li&gt;
+	&lt;li&gt;3 tablespoons simple syrup&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Cut fresh fruit to garnish
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets">
+				1
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates">
+				1
+			</Sweets>
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets">
+				1
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				140
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				35 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				0.5 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				0 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				0.5 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				0 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				About 2 cups (16 fluid ounces)
+			</Servingsize>
+			<Sodium Label="Sodium">
+				10 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				25 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				0 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			No cook
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fruits
+		</Category>
+		<Category CategoryLabel="Meal">
+			Snacks
+		</Category>
+		<Category CategoryLabel="Course">
+			Beverages
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

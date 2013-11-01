@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00460
 		</OriginalURL>
 		<UpdateDate>
-			2009-06-01
+			2013-08-20
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -43,55 +43,70 @@
 	<Title>
 		Recipe: Asian pork tenderloin
 	</Title>
-	<Abstract />
+	<Abstract>
+		To turn this pork tenderloin recipe into a meal, add steamed pea pods, brown rice with dried apricots, and fresh mango and papaya.
+	</Abstract>
 	<ServingInfo Label="Serves">
 		4
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
-		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; To make this spicy pork tenderloin a meal, serve it with a side of steamed pea pods tossed with sliced water chestnuts, brown rice mixed with dried apricots, and fresh mango and papaya slices.&lt;/p&gt;
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; To make this spicy pork tenderloin into a meal, serve it with a side of steamed pea pods tossed with sliced water chestnuts, brown rice mixed with dried apricots, and fresh mango and papaya slices. 
+&lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
-		&lt;p&gt;Preheat the oven to 400 F. Lightly coat a baking dish with cooking spray.&lt;/p&gt;
-
-&lt;p&gt;In a heavy frying pan, add the sesame seeds in a single layer. Over low heat, cook the seeds stirring constantly until they look golden and give off a noticeably toasty aroma, about 1 to 2 minutes. Remove the seeds from the pan to cool.&lt;/p&gt;
-
-&lt;p&gt;In a bowl, add the coriander, cayenne pepper, celery seed, minced onion, cumin, cinnamon, sesame oil and toasted sesame seeds. Stir to mix evenly.&lt;/p&gt;
-
-&lt;p&gt;Place the pork tenderloin in the prepared baking dish. Rub the spices on both sides of the pork pieces. Bake until no longer pink, about 15 minutes. Or bake until a meat thermometer reaches 160 degrees (medium) or 170 degrees (well-done).&lt;/p&gt;
-
-&lt;p&gt;Transfer the pork tenderloin to warmed plates. Serve immediately.&lt;/p&gt;
+		&lt;p&gt;
+Preheat the oven to 400 F. Lightly coat a baking dish with cooking spray. 
+&lt;/p&gt;
+&lt;p&gt;
+In a heavy frying pan, add the sesame seeds in a single layer. Over low heat, cook the seeds, stirring constantly until they look golden and give off a noticeably toasty aroma, about 1 to 2 minutes. Remove the seeds from the pan to cool. 
+&lt;/p&gt;
+&lt;p&gt;
+In a bowl, add the coriander, cayenne pepper, celery seed, minced onion, cumin, cinnamon, sesame oil and toasted sesame seeds. Stir to mix evenly. 
+&lt;/p&gt;
+&lt;p&gt;
+Place the pork tenderloin in the prepared baking dish. Rub the spices on both sides of the pork pieces. Bake until no longer pink, about 15 minutes. Or bake until a meat thermometer reaches 165 F (medium) or 170 F (well-done). 
+&lt;/p&gt;
+&lt;p&gt;
+Transfer the pork tenderloin to warmed plates. Serve immediately. 
+&lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
-		&lt;p&gt;2 tablespoons sesame seeds&lt;br /&gt;
-1 teaspoon ground coriander&lt;br /&gt;
-1/8 teaspoon cayenne pepper&lt;br /&gt;
-1/8 teaspoon celery seed&lt;br /&gt;
-1/2 teaspoon minced onion&lt;br /&gt;
-1/4 teaspoon ground cumin&lt;br /&gt;
-1/8 teaspoon ground cinnamon&lt;br /&gt;
-1 tablespoon sesame oil&lt;br /&gt;
-1 pound pork tenderloin, sliced into 4 4-ounce portions&lt;br /&gt;
-&lt;/p&gt;
+		&lt;ul&gt;
+	&lt;li&gt;2 tablespoons sesame seeds&lt;/li&gt;
+	&lt;li&gt;1 teaspoon ground coriander&lt;/li&gt;
+	&lt;li&gt;1/8 teaspoon cayenne pepper&lt;/li&gt;
+	&lt;li&gt;1/8 teaspoon celery seed&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon minced onion&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon ground cumin&lt;/li&gt;
+	&lt;li&gt;1/8 teaspoon ground cinnamon&lt;/li&gt;
+	&lt;li&gt;1 tablespoon sesame oil&lt;/li&gt;
+	&lt;li&gt;1 pound pork tenderloin, sliced into 4 4-ounce portions &lt;/li&gt;
+&lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
 			<Dairy Label="Dairy foods (low-fat or fat-free)" />
-			<Fats Label="Fats and oils" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
 			<Fruits Label="Fruits" />
 			<Grains Label="Grains and grain products" />
 			<Meat Label="Meats, poultry and fish">
-				3
+				4
 			</Meat>
 			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
 			<Sweets Label="Sweets" />
 			<Vegetables Label="Vegetables" />
 		</Dash>
 		<Diabetes Label="Diabetes Meal Plan Exchanges">
-			<Fats Label="Fats" />
+			<Fats Label="Fats">
+				1
+			</Fats>
 			<Freefoods Label="Free foods" />
 			<Fruits Label="Fruits" />
 			<Meat Label="Meat and meat substitutes">
-				3
+				4
 			</Meat>
 			<Milk Label="Milk and milk products" />
 			<NonStarchyVegetables Label="Nonstarchy vegetables" />
@@ -100,7 +115,9 @@
 		</Diabetes>
 		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
 			<Carbs Label="Carbohydrates" />
-			<Fats Label="Fats" />
+			<Fats Label="Fats">
+				1
+			</Fats>
 			<Fruits Label="Fruits" />
 			<Protein_Dairy Label="Protein and dairy">
 				2
@@ -110,35 +127,41 @@
 		</HWP>
 		<NutrientAnalysis Label="Nutritional Analysis per serving">
 			<Calories Label="Calories">
-				196
+				248
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
 				trace
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
-				74 mg
+				61 mg
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
 				0 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
-				3 g
+				7 g
 			</Monounsaturatedfat>
 			<Protein Label="Protein">
-				25 g
+				26 g
 			</Protein>
 			<Saturatedfat Label="Saturated fat">
-				2 g
+				5 g
 			</Saturatedfat>
-			<Servingsize Label="Serving size" />
+			<Servingsize Label="Serving size">
+				1 piece
+			</Servingsize>
 			<Sodium Label="Sodium">
 				57 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
 			<TotalFat Label="Total fat">
-				10 g
+				16 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				trace
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>
@@ -154,14 +177,14 @@
 		<Category CategoryLabel="Course">
 			Main dishes
 		</Category>
-		<Category CategoryLabel="Preparation method">
-			Bake
-		</Category>
 		<Category CategoryLabel="Special diets">
 			Weight management
 		</Category>
 		<Category CategoryLabel="Meal">
 			Dinner
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Grilling recipes galore
 		</Category>
 		<Category CategoryLabel="Main ingredient">
 			Poultry and meat

@@ -1,0 +1,213 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12381
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/guacamole/RE12381
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-14
+		</UpdateDate>
+		<PublicationDate>
+			2013-02-14
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			89C893D0-92A7-4BB1-A489E934F7788001
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				DAHLC
+			</MetaKeyword>
+			<MetaKeyword>
+				guacamole
+			</MetaKeyword>
+			<MetaKeyword>
+				gluten free
+			</MetaKeyword>
+			<MetaKeyword>
+				dips
+			</MetaKeyword>
+			<MetaKeyword>
+				beans
+			</MetaKeyword>
+			<MetaKeyword>
+				legumes
+			</MetaKeyword>
+			<MetaKeyword>
+				snacks
+			</MetaKeyword>
+			<MetaKeyword>
+				vegetarian
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Guacamole
+	</Title>
+	<Abstract>
+		This version of guacamole uses the traditional avocado plus beans for added fiber and protein. It&apos;s great as a dip or as a spread for sandwiches or wraps.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		8
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; This easy dish is great as a dip or a spread for sandwiches or wraps. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In a medium bowl, mix avocado, beans, cumin, lime juice and cayenne pepper. Add chopped tomato and shallot and stir to combine. Serve. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 avocado, diced (about 1/2 cup)&lt;/li&gt;
+	&lt;li&gt;1/2 cup canned beans (black or pinto), drained and rinsed&lt;/li&gt;
+	&lt;li&gt;2 teaspoons ground cumin&lt;/li&gt;
+	&lt;li&gt;Juice of 1 lime (about 2 tablespoons)&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon cayenne, chipotle or ancho chili powder (optional)&lt;/li&gt;
+	&lt;li&gt;1 large ripe tomato, diced (about 1 cup)&lt;/li&gt;
+	&lt;li&gt;1 shallot, minced (about 1/4 cup)&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1/2
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans">
+				1/2
+			</Nuts_Seeds_Drybeans>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1/2
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				1/2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1/2
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				59
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				6 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 g
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				2 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				2 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				&lt; 0.5 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				About 1/4 cup (4 tablespoons)
+			</Servingsize>
+			<Sodium Label="Sodium">
+				4 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				3 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			No cook
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Beans and legumes
+		</Category>
+		<Category CategoryLabel="Meal">
+			Snacks
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 8
+		</Category>
+		<Category CategoryLabel="Course">
+			Sauces and dressings
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

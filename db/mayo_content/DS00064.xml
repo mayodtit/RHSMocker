@@ -382,10 +382,10 @@ Sometimes more aggressive treatment is needed. Here are a few options:
 			</HTML>
 			<PopupMedia>
 				<Thumbnail Alt="Illustration showing a coronary artery stent 
-" Caption="When placing a coronary artery stent, your doctor will find a blockage in your heart&apos;s arteries (A) using cardiac catheterization techniques. A balloon on the tip of the catheter is inflated to widen the blocked artery, and a metal mesh stent is placed (B). After the stent is placed, the artery is held open by the stent, which allows blood to flow through the previously blocked artery (C). 
+" Caption="When placing a coronary artery stent, your doctor will find a blockage in your heart&apos;s arteries (A) using cardiac catheterization techniques. A balloon on the tip of the catheter is inflated to widen the blocked artery, and a metal mesh stent is placed (B). After the stent is placed, the artery is held open by the stent, which allows blood to flow through the previously blocked artery (C).
 " Height="60" Title="Coronary artery stent" URI="/images/image_popup/thumbs/mcdc7_coronarystentthu.jpg" Width="60" />
 				<Image Alt="Illustration showing a coronary artery stent 
-" Caption="When placing a coronary artery stent, your doctor will find a blockage in your heart&apos;s arteries (A) using cardiac catheterization techniques. A balloon on the tip of the catheter is inflated to widen the blocked artery, and a metal mesh stent is placed (B). After the stent is placed, the artery is held open by the stent, which allows blood to flow through the previously blocked artery (C). 
+" Caption="When placing a coronary artery stent, your doctor will find a blockage in your heart&apos;s arteries (A) using cardiac catheterization techniques. A balloon on the tip of the catheter is inflated to widen the blocked artery, and a metal mesh stent is placed (B). After the stent is placed, the artery is held open by the stent, which allows blood to flow through the previously blocked artery (C).
 " Height="573" Title="Coronary artery stent" URI="/images/image_popup/mcdc7_coronarystent.jpg" Width="400" />
 				<HTML>
 					When placing a coronary artery stent, your doctor will find a blockage in your heart&apos;s arteries (A) using cardiac catheterization techniques. A balloon on the tip of the catheter is inflated to widen ...
@@ -486,6 +486,7 @@ The same lifestyle habits that can help treat coronary artery disease can also h
 		<LinkItem ContentType="Answer" DocID="AN02066" LinkType="Internal" ObjectID="1F592789-EAB0-EB7E-CC07A47C78BCE0AF" Title="Polypill: Does it treat heart disease?" Url="http://www.mayoclinic.com/health/polypill/AN02066" />
 		<LinkItem ContentType="Answer" DocID="AN02053" LinkType="Internal" ObjectID="130D9F13-0264-35D9-1B6E07A2FB0DADD9" Title="Grass-fed beef: What are the heart-health benefits?" Url="http://www.mayoclinic.com/health/grass-fed-beef/AN02053" />
 		<LinkItem ContentType="Disease" DocID="DS00994" LinkType="Internal" ObjectID="34831AF2-E7FF-0DBD-1494376728891037" Title="Angina" Url="http://www.mayoclinic.com/health/angina/DS00994" />
+		<LinkItem ContentType="Disease" DocID="DS01209" LinkType="Internal" ObjectID="00181BF2-A05D-C7CA-9AC2C61BC10CCFFA" Title="Spontaneous coronary artery dissection" Url="http://www.mayoclinic.com/health/spontaneous-coronary-artery-dissection/DS01209" />
 		<LinkItem ContentType="Article" DocID="HB00089" LinkType="Internal" ObjectID="F3B561EB-E7FF-0DBD-12ACC7FD196B1ED3" Title="Red wine and resveratrol: Good for your heart?" Url="http://www.mayoclinic.com/health/red-wine/HB00089" />
 		<LinkItem ContentType="Article" DocID="NU00196" LinkType="Internal" ObjectID="CEC0DBA2-8C25-4390-B56802619D846C6F" Title="Heart-healthy diet: 8 steps to prevent heart disease" Url="http://www.mayoclinic.com/health/heart-healthy-diet/NU00196" />
 		<LinkItem ContentType="Article" DocID="HB00073" LinkType="Internal" ObjectID="9CD00E35-2A5D-9994-EF86A3EE674B8F8C" Title="Daily aspirin therapy: Understand the benefits and risks" Url="http://www.mayoclinic.com/health/daily-aspirin-therapy/HB00073" />
@@ -508,7 +509,6 @@ The same lifestyle habits that can help treat coronary artery disease can also h
 		<LinkItem ContentType="TestProcedure" DocID="MY00541" LinkType="Internal" ObjectID="195133F5-B002-FC90-364C46B34EBBF4FA" Title="Coronary angiogram" Url="http://www.mayoclinic.com/health/coronary-angiogram/MY00541" />
 		<LinkItem ContentType="TestProcedure" DocID="MY00977" LinkType="Internal" ObjectID="109B6DD1-BA68-DCBF-4EC2DEF73F50ED30" Title="Stress test" Url="http://www.mayoclinic.com/health/stress-test/MY00977" />
 		<LinkItem ContentType="TestProcedure" DocID="MY00238" LinkType="Internal" ObjectID="05C8BD86-E7FF-0DBD-150059E403970C30" Title="Positron emission tomography (PET) scan" Url="http://www.mayoclinic.com/health/pet-scan/MY00238" />
-		<LinkItem ContentType="Calculator" DocID="CL00034" LinkType="Internal" ObjectID="01F97204-E7FF-0DBD-10ED8C5F6FEF9742" Title="LDL cholesterol calculator" Url="http://www.mayoclinic.com/health/ldl-cholesterol/CL00034" />
 		<LinkItem ContentType="Disease" DocID="DS01120" LinkType="Internal" ObjectID="4E220F62-E7FF-0DBD-1342984A795DA6B2" Title="Heart disease" Url="http://www.mayoclinic.com/health/heart-disease/DS01120" />
 		<LinkItem ContentType="Article" DocID="CL00036" LinkType="Internal" ObjectID="7FD30B1C-E7FF-0DBD-1A4BD415229049AF" Title="Niacin to boost your HDL, &apos;good,&apos; cholesterol" Url="http://www.mayoclinic.com/health/niacin/CL00036" />
 		<LinkItem ContentType="Answer" DocID="AN01472" LinkType="Internal" ObjectID="52ABD89B-E7FF-0DBD-1417DAEB1C72968E" Title="Coronary artery disease: Angioplasty or bypass surgery?" Url="http://www.mayoclinic.com/health/coronary-artery-disease/AN01472" />

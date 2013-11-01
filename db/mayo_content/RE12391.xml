@@ -1,0 +1,229 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12391
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/asian-vegetable-salad/RE12391
+		</OriginalURL>
+		<UpdateDate>
+			2013-03-01
+		</UpdateDate>
+		<PublicationDate>
+			2013-03-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			001BDDF7-9E48-FAC6-7C2CA5D17967FCD0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				DAHLC
+			</MetaKeyword>
+			<MetaKeyword>
+				salads
+			</MetaKeyword>
+			<MetaKeyword>
+				vegetables
+			</MetaKeyword>
+			<MetaKeyword>
+				meatless
+			</MetaKeyword>
+			<MetaKeyword>
+				dinner recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				lunch recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				heart healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				DASH recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			Created by the chefs at Mayo Clinic&apos;s Dan Abraham Healthy Living Center.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Asian vegetable salad
+	</Title>
+	<Abstract>
+		Bok choy, red cabbage, cashews and snow peas combine to make a visually stunning salad.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; This recipe uses several knife techniques &amp;mdash; julienne, chiffonade, mince and chop &amp;mdash; to bring together a lovely and tasty salad.
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Rinse all vegetables under cold running water. Let drain. 
+&lt;/p&gt;
+&lt;p&gt;
+Julienne (cut into very thin strips like match sticks) carrot, bell pepper, bok choy and yellow onion. 
+&lt;/p&gt;
+&lt;p&gt;
+Chiffonade (cut across grain into very narrow thin strips) cabbage and spinach. 
+&lt;/p&gt;
+&lt;p&gt;
+Mince (cut into tiny pieces) garlic. Then chop (cut into slightly larger pieces) cilantro and cashews. 
+&lt;/p&gt;
+&lt;p&gt;
+Place vegetables, cilantro, cashews and snow peas in a large bowl. Drizzle with sesame oil and soy sauce. Toss well to combine. Serve. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 1/2 cup carrot&lt;/li&gt;
+	&lt;li&gt;1/2 cup red bell pepper&lt;/li&gt;
+	&lt;li&gt;1 1/2 cup bok choy&lt;/li&gt;
+	&lt;li&gt;1/2 cup yellow onion&lt;/li&gt;
+	&lt;li&gt;1 cup red cabbage&lt;/li&gt;
+	&lt;li&gt;1 1/2 cup spinach&lt;/li&gt;
+	&lt;li&gt;1 tablespoon garlic&lt;/li&gt;
+	&lt;li&gt;1 tablespoon cilantro&lt;/li&gt;
+	&lt;li&gt;1 1/2 tablespoons cashews&lt;/li&gt;
+	&lt;li&gt;1 1/2 cups snow peas&lt;/li&gt;
+	&lt;li&gt;2 teaspoons toasted sesame oil&lt;/li&gt;
+	&lt;li&gt;2 teaspoons low-sodium soy sauce&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				3
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				3
+			</NonStarchyVegetables>
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				3
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				113
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				14 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				4 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				3 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				About 2 cups
+			</Servingsize>
+			<Sodium Label="Sodium">
+				173 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				4 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			No cook
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Salads
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

@@ -1,0 +1,225 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12395
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tomato-basil-bruschetta/RE12395
+		</OriginalURL>
+		<UpdateDate>
+			2013-04-02
+		</UpdateDate>
+		<PublicationDate>
+			2013-04-02
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			002A0710-C0E9-E2BA-D468EA38DC317A3C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				DAHLC
+			</MetaKeyword>
+			<MetaKeyword>
+				appetizers
+			</MetaKeyword>
+			<MetaKeyword>
+				snacks
+			</MetaKeyword>
+			<MetaKeyword>
+				grains
+			</MetaKeyword>
+			<MetaKeyword>
+				meatless
+			</MetaKeyword>
+			<MetaKeyword>
+				DASH recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				heart healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				low fat recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				low sodium recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy carb recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			Created by the chefs at Mayo Clinic&apos;s Dan Abraham Healthy Living Center.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Tomato basil bruschetta
+	</Title>
+	<Abstract>
+		Bruschetta is a quick and easy appetizer or snack, and a great way to enjoy tomatoes when they&apos;re in season.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; If you want a drier topping, remove the seeds from the tomato before dicing. (Cut tomato in half and scoop out seeds with your finger or a spoon.)
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Toast baguette slices in 400 F oven until lightly browned. Mix all other ingredients together. Spoon mixture evenly over toasted bread. Serve immediately.
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1/2 whole-grain baguette, cut into six 1/2-inch-thick diagonal slices&lt;/li&gt;
+	&lt;li&gt;2 tablespoons chopped basil&lt;/li&gt;
+	&lt;li&gt;1 tablespoon chopped parsley&lt;/li&gt;
+	&lt;li&gt;2 cloves garlic, minced&lt;/li&gt;
+	&lt;li&gt;3 tomatoes, diced&lt;/li&gt;
+	&lt;li&gt;1/2 cup diced fennel&lt;/li&gt;
+	&lt;li&gt;1 teaspoon olive oil&lt;/li&gt;
+	&lt;li&gt;2 teaspoons balsamic vinegar&lt;/li&gt;
+	&lt;li&gt;1 teaspoon black pepper&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				110
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				20 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				4 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				1 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				3 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				&lt; 0.5 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 slice
+			</Servingsize>
+			<Sodium Label="Sodium">
+				123 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				2 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Course">
+			Appetizers
+		</Category>
+		<Category CategoryLabel="Meal">
+			Snacks
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 6
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

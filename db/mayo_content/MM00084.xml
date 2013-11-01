@@ -1,0 +1,81 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00084
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ultrasound/MM00084
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-06
+		</UpdateDate>
+		<PublicationDate>
+			2001-03-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3887" Title="Life stage">
+						<Keyword MCVID="3052" Title="Pregnancy">
+							<Keyword MCVID="3727" Title="Fetal ultrasound" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8B3FEAE2-BC48-446E-8A2211AEFA2EAB63
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		Fetal ultrasound
+	</Title>
+	<Abstract>
+		Fetal ultrasound provides a glimpse of your developing baby.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00084_fetalultrasound_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+A fetal ultrasound is an exam that allows your health care provider to check on your baby&apos;s growth and development. A fetal ultrasound can be done at any point during pregnancy. This video shows an ultrasound of a 17-week-old fetus. You can see the heart beating as well as the mouth opening and closing. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00084_fetalultrasound.jpg" width="60" />
+</Video>

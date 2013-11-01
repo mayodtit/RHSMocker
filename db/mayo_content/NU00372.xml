@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00372
 		</OriginalURL>
 		<UpdateDate>
-			2007-08-01
+			2013-08-17
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -43,33 +43,43 @@
 	<Title>
 		Recipe: Creole-style black-eyed peas
 	</Title>
-	<Abstract />
+	<Abstract>
+		Black-eyed peas are an excellent source of folate. One serving of this recipe provides 70 percent of the daily recommended amounts.
+	</Abstract>
 	<ServingInfo Label="Serves">
 		8
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
-		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Most dried peas and beans, including black-eyed peas, are an excellent source of folate. One serving of this dish provides 70 percent of the daily recommended amounts.&lt;/p&gt;
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Most dried peas and beans, including black-eyed peas, are an excellent source of folate. One serving of this dish provides 70 percent of the daily recommended amounts. 
+&lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
-		&lt;p&gt;In a medium saucepan over high heat, add 2 cups of the water and black-eyed peas. Bring to a boil for 2 minutes, cover, remove from heat and let stand for 1 hour.&lt;/p&gt;
-
-&lt;p&gt;Drain the water, leaving the peas in the saucepan. Add the remaining 1 cup of water, bouillon granules, tomatoes, onion, celery, garlic, mustard, ginger, cayenne pepper and bay leaf. Stir together and bring to a boil. Cover, reduce heat and simmer slowly for 2 hours, stirring occasionally. Add water as necessary to keep the peas covered with liquid.&lt;/p&gt;
-
-&lt;p&gt;Remove the bay leaf, pour into a serving bowl and garnish with parsley. Serve immediately.&lt;/p&gt;
+		&lt;p&gt;
+In a medium saucepan over high heat, add 2 cups of the water and black-eyed peas. Bring to a boil for 2 minutes, cover, remove from heat and let stand for 1 hour. 
+&lt;/p&gt;
+&lt;p&gt;
+Drain the water, leaving the peas in the saucepan. Add the remaining 1 cup of water, bouillon granules, tomatoes, onion, celery, garlic, mustard, ginger, cayenne pepper and bay leaf. Stir together and bring to a boil. Cover, reduce heat and simmer slowly for 2 hours, stirring occasionally. Add water as necessary to keep the peas covered with liquid. 
+&lt;/p&gt;
+&lt;p&gt;
+Remove the bay leaf, pour into a serving bowl and garnish with parsley. Serve immediately. 
+&lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
-		&lt;p&gt;3 cups water&lt;br /&gt;
-2 cups dried black-eyed peas&lt;br /&gt;
-1 teaspoon low-sodium chicken-flavored bouillon granules&lt;br /&gt;
-2 cups canned unsalted tomatoes, crushed&lt;br /&gt;
-1 large onion, finely chopped&lt;br /&gt;
-2 stalks celery, finely chopped&lt;br /&gt;
-3 teaspoons minced garlic&lt;br /&gt;
-1/2 teaspoon dry mustard&lt;br /&gt;
-1/4 teaspoon ground ginger&lt;br /&gt;
-1/4 teaspoon cayenne pepper&lt;br /&gt;
-1 bay leaf&lt;br /&gt;
-1/2 cup chopped parsley&lt;/p&gt;
+		&lt;ul&gt;
+	&lt;li&gt;3 cups water&lt;/li&gt;
+	&lt;li&gt;2 cups dried black-eyed peas&lt;/li&gt;
+	&lt;li&gt;1 teaspoon low-sodium chicken-flavored bouillon granules&lt;/li&gt;
+	&lt;li&gt;2 cups canned unsalted tomatoes, crushed&lt;/li&gt;
+	&lt;li&gt;1 large onion, finely chopped&lt;/li&gt;
+	&lt;li&gt;2 stalks celery, finely chopped&lt;/li&gt;
+	&lt;li&gt;3 teaspoons minced garlic&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon dry mustard&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon ground ginger&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon cayenne pepper&lt;/li&gt;
+	&lt;li&gt;1 bay leaf&lt;/li&gt;
+	&lt;li&gt;1/2 cup chopped parsley &lt;/li&gt;
+&lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
@@ -79,34 +89,36 @@
 			<Grains Label="Grains and grain products" />
 			<Meat Label="Meats, poultry and fish" />
 			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans">
-				2
+				1
 			</Nuts_Seeds_Drybeans>
 			<Sweets Label="Sweets" />
 			<Vegetables Label="Vegetables">
-				1
+				2
 			</Vegetables>
 		</Dash>
 		<Diabetes Label="Diabetes Meal Plan Exchanges">
 			<Fats Label="Fats" />
 			<Freefoods Label="Free foods" />
 			<Fruits Label="Fruits" />
-			<Meat Label="Meat and meat substitutes" />
+			<Meat Label="Meat and meat substitutes">
+				1
+			</Meat>
 			<Milk Label="Milk and milk products" />
 			<NonStarchyVegetables Label="Nonstarchy vegetables">
-				1
+				2
 			</NonStarchyVegetables>
 			<Starches Label="Starches">
-				2
+				1
 			</Starches>
 			<Sweets Label="Sweets, desserts and other carbohydrates" />
 		</Diabetes>
 		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
-			<Carbs Label="Carbohydrates">
-				1
-			</Carbs>
+			<Carbs Label="Carbohydrates" />
 			<Fats Label="Fats" />
 			<Fruits Label="Fruits" />
-			<Protein_Dairy Label="Protein and dairy" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
 			<Sweets Label="Sweets" />
 			<Vegetables Label="Vegetables">
 				2
@@ -117,13 +129,13 @@
 				173
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
-				31 g
+				32 g
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
 				0 mg
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
-				5 g
+				6 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
 				trace
@@ -134,20 +146,29 @@
 			<Saturatedfat Label="Saturated fat">
 				trace
 			</Saturatedfat>
-			<Servingsize Label="Serving size" />
+			<Servingsize Label="Serving size">
+				About 1 cup
+			</Servingsize>
 			<Sodium Label="Sodium">
-				34 mg
+				43 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
 			<TotalFat Label="Total fat">
 				1 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>
 		<Category CategoryLabel="Special diets">
 			High-fiber
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
 		</Category>
 		<Category CategoryLabel="Special diets">
 			Diabetes meal plan

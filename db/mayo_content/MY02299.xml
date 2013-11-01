@@ -1,0 +1,217 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY02299
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/nonstress-test/MY02299
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-27
+		</UpdateDate>
+		<PublicationDate>
+			2013-02-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3887" Title="Life stage">
+						<Keyword MCVID="3052" Title="Pregnancy">
+							<Keyword MCVID="5432" Title="Nonstress test" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0031C050-0F25-78B7-D7A06ADB09457A97
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Nonstress test
+			</MetaKeyword>
+			<MetaKeyword>
+				biophysical profile
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal tests
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal testing
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A nonstress test is a common prenatal test used to check on a baby&apos;s health. During a nonstress test, also known as fetal heart rate monitoring, a baby&apos;s heart rate is monitored to see how it responds to the baby&apos;s movements. 
+&lt;/p&gt;
+&lt;p&gt;
+Typically, a nonstress test is recommended for women at increased risk of fetal death. A nonstress test is usually done after week 26 of pregnancy. Certain nonstress test results might indicate that you and your baby need further monitoring, testing or special care. 
+&lt;/p&gt;
+&lt;p&gt;
+A nonstress test is a noninvasive test that doesn&apos;t pose any physical risks to you or your baby. Find out what a nonstress test involves and whether this prenatal test might benefit you or your baby. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A nonstress test is used to evaluate a baby&apos;s health before birth. The goal of a nonstress test is to provide useful information about your baby&apos;s oxygen supply by checking his or her heart rate and how it responds to your baby&apos;s movement. The test might indicate the need for treatment or delivery to prevent fetal death. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, a baby&apos;s heart beats faster when he or she is active later in pregnancy. However, conditions such as fetal hypoxia &amp;mdash; when the baby doesn&apos;t get enough oxygen &amp;mdash; can disrupt this pathway. 
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider will decide whether a nonstress test is needed based on several factors. These include whether your baby could survive if delivered early, the severity of your condition and the risk of pregnancy loss. 
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider might recommend a nonstress test if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A multiple pregnancy with complications&lt;/li&gt;
+	&lt;li&gt;An underlying medical condition, such as type 1 diabetes, high blood pressure, a blood disorder, lupus, thyroid disease, kidney disease or heart disease&lt;/li&gt;
+	&lt;li&gt;A pregnancy that has extended two weeks past your due date (postterm pregnancy)&lt;/li&gt;
+	&lt;li&gt;A history of pregnancy loss&lt;/li&gt;
+	&lt;li&gt;A baby who has decreased fetal movements or possible fetal growth problems&lt;/li&gt;
+	&lt;li&gt;Too much amniotic fluid (polyhydramnios) or low amniotic fluid (oligohydramnios)&lt;/li&gt;
+	&lt;li&gt;Rh (rhesus) sensitization &amp;mdash; a potentially serious condition that can occur, typically during a second or subsequent pregnancy, when your blood group is Rh negative and your baby&apos;s blood group is Rh positive&lt;/li&gt;
+	&lt;li&gt;Worrisome results from other prenatal tests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your health care provider might recommend having nonstress tests once or twice a week &amp;mdash; and occasionally daily &amp;mdash; depending on your and your baby&apos;s health. For example, you might need to have regular nonstress tests if your health care provider suspects that your baby is at risk of not getting enough oxygen. You might also need another nonstress test if you or your baby has any negative changes in health. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A nonstress test is a noninvasive test that poses no physical risks for you or your baby. 
+&lt;/p&gt;
+&lt;p&gt;
+While a nonstress test can offer reassurance about your baby&apos;s health, it can cause anxiety. A nonstress test also might not detect an existing problem or might suggest that a problem exists when there is none. 
+&lt;/p&gt;
+&lt;p&gt;
+Also, keep in mind that while a nonstress test is often recommended for women who have an increased risk of pregnancy loss, it&apos;s not always clear if the test is helpful. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A nonstress test typically requires no special preparation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A nonstress test is usually done in your health care provider&apos;s office. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+During the nonstress test, you&apos;ll lie on a reclining bed. You&apos;ll likely have your blood pressure taken before the test and at regular intervals during the test. 
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider or a member of your health care team will then place two belts with monitors attached to them across your abdomen. One belt will record your baby&apos;s heart rate, and the other will record any uterine contractions you might have. You&apos;ll likely be asked to press a button when your baby moves. Your baby&apos;s movements will then be noted on the fetal heart record. Your health care provider will be looking to see if your baby&apos;s heart beats faster when he or she moves. 
+&lt;/p&gt;
+&lt;p&gt;
+Typically, a nonstress test lasts 20 minutes. However, if your baby is asleep, you might need to extend the test for another 20 minutes &amp;mdash; with the expectation that your baby will awaken &amp;mdash; to ensure accurate results. In some cases, your health care provider might try to awaken the baby by making a loud noise or asking you to drink a glass of juice. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+After the nonstress test is complete, your health care provider will likely discuss the results with you right away. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Results of a nonstress test are considered: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reactive.&lt;/strong&gt; Before week 32 of pregnancy, results are considered normal (reactive) if your baby&apos;s heartbeat accelerates to a certain level twice or more for at least 10 seconds each within a 20-minute window. At week 32 of pregnancy or later, if your baby&apos;s heartbeat accelerates to a certain level twice or more for at least 15 seconds each within a 20-minute window, the results are considered reactive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonreactive.&lt;/strong&gt; If your baby&apos;s heartbeat doesn&apos;t meet the criteria described above, the results are considered nonreactive. Keep in mind that nonreactive results might occur because your baby was asleep during the test.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your baby&apos;s nonstress test results are nonreactive, your health care provider will likely do another prenatal test to further check your baby&apos;s health. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Biophysical profile.&lt;/strong&gt; A biophysical profile combines a nonstress test with ultrasound tests that evaluate your baby&apos;s breathing, movements, muscle tone and amniotic fluid level.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Contraction stress test.&lt;/strong&gt; This test looks at how your baby&apos;s heart rate reacts when your uterus contracts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your health care provider might also ask you to have another nonstress test later in the day. Keep in mind that a reactive result is far more likely to be correct than is a nonreactive result. If you have a nonreactive nonstress test and a second nonstress test that&apos;s reactive, the second test&apos;s results are considered reliable. 
+&lt;/p&gt;
+&lt;p&gt;
+Rarely, during a nonstress test, problems with a baby&apos;s heart rate are detected that require further monitoring or treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Be sure to discuss the results of your nonstress test with your health care provider and what they might mean for you and your baby. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Nonstress test
+	</Title>
+	<Abstract>
+		Nonstress test &amp;mdash; Overview covers definition and results of this prenatal test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01919" LinkType="Internal" ObjectID="8F721657-ED13-7D11-6153103214893F79" Title="Biophysical profile" Url="http://www.mayoclinic.com/health/biophysical-profile/MY01919" />
+		<LinkItem ContentType="Article" DocID="MY01923" LinkType="Internal" ObjectID="A93493C6-AD18-6A9C-A4311F65AED90D23" Title="High-risk pregnancy: Know what to expect" Url="http://www.mayoclinic.com/health/high-risk-pregnancy/MY01923" />
+		<LinkItem ContentType="Disease" DocID="DS00316" LinkType="Internal" ObjectID="F26EA786-DF0A-470F-BA3801EF0A7EE346" Title="Gestational diabetes" Url="http://www.mayoclinic.com/health/gestational-diabetes/DS00316" />
+		<LinkItem ContentType="Disease" DocID="DS00583" LinkType="Internal" ObjectID="A19B8D07-BA14-48BD-9427AA9EC15F7BE8" Title="Preeclampsia" Url="http://www.mayoclinic.com/health/preeclampsia/DS00583" />
+	</RelatedLinksBox>
+</TestProcedure>

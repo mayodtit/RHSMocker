@@ -1,0 +1,91 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00723
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lunge/MM00723
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-01
+		</UpdateDate>
+		<PublicationDate>
+			2008-02-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1090" Title="Fitness">
+					<Keyword MCVID="1198" Title="Strength training">
+						<Keyword MCVID="3307" Title="Body weight exercises" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3FC83969-E7FF-0DBD-1007BAB62F5210AF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		Lunge exercise
+	</Title>
+	<Abstract>
+		The lunge is an exercise that targets the leg muscles. See how it&apos;s done.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00723_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+&lt;strong&gt;Dr. Laskowski:&lt;/strong&gt; The lunge is a body resistance exercise that works the leg muscles. Specifically, the lunge targets the quadriceps and the hamstring muscles in the thigh, the gluteal muscles in the buttock, and to a lesser extent, the lower leg muscles. The lunge is a great conditioning exercise for many sports, especially those that involve lunging movements, such as tennis, basketball or soccer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nicole Krupa:&lt;/strong&gt; To do a stationary lunge, start by standing up comfortably. Step ahead with one foot and lean forward until your knee reaches a 90-degree angle and your rear knee is parallel to the ground. Then return to the starting position. You&apos;ll feel some tension in your legs. 
+&lt;/p&gt;
+&lt;p&gt;
+When you&apos;re doing lunges, keep your back in a neutral position, but don&apos;t flatten the curve of your lower back, and don&apos;t arch your back in the other direction. Make sure that your knee doesn&apos;t go beyond your toes and that your knee stays centered over your foot. Don&apos;t let your knee roll inward or outward. 
+&lt;/p&gt;
+&lt;p&gt;
+If you can&apos;t lower your knee to a 90-degree angle, simply go as low as you can. Do as many repetitions as you can, depending on your fitness level. Stop when you&apos;re fatigued or your form begins to suffer. 
+&lt;/p&gt;
+&lt;p&gt;
+For a variety, try a traveling lunge. Simply step ahead with the opposite foot rather than return to the starting position. 
+&lt;/p&gt;
+&lt;p&gt;
+Remember, for best results, keep your back in a neutral position and let your knee follow your foot on the way down. Keep your movements smooth and controlled. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00723.jpg" width="60" />
+</Video>

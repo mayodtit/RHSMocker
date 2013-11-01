@@ -1,0 +1,209 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12397
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/macaroni-and-cheese/RE12397
+		</OriginalURL>
+		<UpdateDate>
+			2013-08-17
+		</UpdateDate>
+		<PublicationDate>
+			2013-08-21
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			5B9CE98D-D1FB-EA2F-F131788238554354
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				meatless dishes
+			</MetaKeyword>
+			<MetaKeyword>
+				vegetarian
+			</MetaKeyword>
+			<MetaKeyword>
+				main dishes
+			</MetaKeyword>
+			<MetaKeyword>
+				creamy cheesy macaroni
+			</MetaKeyword>
+			<MetaKeyword>
+				macaroni and cheese
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy macaroni and cheese
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Creamy cheesy macaroni
+	</Title>
+	<Abstract>
+		This whole-wheat pasta is creamy, cheesy and lower in fat than are other homemade varieties.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		10
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; This whole-wheat pasta is creamy, cheesy and lower in fat than are other homemade varieties.
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Cook macaroni according to package directions. Meanwhile, blend cottage cheese in a food processor or blender until smooth. Set aside. 
+&lt;/p&gt;
+&lt;p&gt;
+In a large saucepan over medium heat, combine oil, flour, pepper and garlic powder. Stir until mixed. Gradually stir in the milk and bring to a boil. Cook for 2 minutes or until thickened and smooth. Add cottage cheese and cheddar cheese, stirring until melted. 
+&lt;/p&gt;
+&lt;p&gt;
+Spray a 2-quart casserole dish with cooking spray. After the macaroni has been cooked and drained, place it in the prepared dish. Pour the cheese mixture over the macaroni and mix until blended. Bake at 350 F for about 30 minutes, or until heated through. Top with tomatoes just before serving.
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 package (14.5 ounces) whole-wheat elbow macaroni&lt;/li&gt;
+	&lt;li&gt;1 1/2 cups fat-free cottage cheese&lt;/li&gt;
+	&lt;li&gt;2 tablespoons canola oil&lt;/li&gt;
+	&lt;li&gt;1/2 cup flour&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon ground black pepper&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon garlic powder&lt;/li&gt;
+	&lt;li&gt;2 cups skim milk&lt;/li&gt;
+	&lt;li&gt;2 cups reduced-fat sharp cheddar cheese, shredded&lt;/li&gt;
+	&lt;li&gt;2 cups cherry tomatoes, cut in half&lt;/li&gt;
+	&lt;li&gt;Fresh parsley for garnish, optional&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)">
+				1
+			</Dairy>
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				2.5
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				1
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				2.5
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				2.5
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				300
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				41 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				27 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				4 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				4 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				18
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				5 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 cup
+			</Servingsize>
+			<Sodium Label="Sodium">
+				292 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				11 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+	</Categorization>
+</Recipe>

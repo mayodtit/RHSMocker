@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/flu-vaccine-egg-allergy/AN02033
 		</OriginalURL>
 		<UpdateDate>
-			2013-01-26
+			2013-09-13
 		</UpdateDate>
 		<PublicationDate>
 			2009-09-30
@@ -52,6 +52,9 @@
 			<MetaKeyword>
 				flu vaccine egg allergy
 			</MetaKeyword>
+			<MetaKeyword>
+				flu vaccine
+			</MetaKeyword>
 		</MetaKeywords>
 		<HasFlash>
 			0
@@ -67,13 +70,16 @@
 Yes. Some flu vaccines are made using eggs. As a result, the vaccines have tiny amounts of egg proteins in them. However, this doesn&apos;t necessarily mean that if you&apos;re allergic to eggs that you can&apos;t get a flu shot. 
 &lt;/p&gt;
 &lt;p&gt;
-There is a flu vaccine that doesn&apos;t contain egg proteins, approved for use in adults age 18 and older. And even flu vaccines that do have egg proteins can be given safely to most people with egg allergy without any problems.
+There is a flu vaccine that doesn&apos;t contain egg proteins, approved for use in adults age 18 and older. And even flu vaccines that do have egg proteins can be given safely to most people with egg allergy. 
 &lt;/p&gt;
 &lt;p&gt;
-If you&apos;ve had a reaction to eggs in the past, talk to your doctor before getting a flu vaccination. Your doctor may choose to give you the vaccine made without use of eggs or send you to a physician who specializes in allergies. A skin test may be needed to see if you truly are allergic to eggs. A nurse or doctor will scratch a tiny amount of egg protein on your skin and watch to see if your skin reacts to it.
+If you&apos;ve had a reaction to eggs in the past, talk to your doctor before getting a flu vaccination. Your doctor may choose to give you the vaccine made without use of eggs or send you to a physician who specializes in allergies. 
 &lt;/p&gt;
 &lt;p&gt;
-If the skin test is positive, you still will probably be able to get the influenza vaccine. Your doctor may want you to wait 30 minutes before leaving, in case you have a reaction. Some physicians recommend giving 10 percent of the vaccine in one injection, then the remaining 90 percent of the vaccine in a second injection if there is no reaction to the first dose. 
+A skin test may be needed to see if you&apos;re truly allergic to eggs. A nurse or doctor will scratch a tiny amount of egg protein on your skin and watch to see if your skin reacts to it. 
+&lt;/p&gt;
+&lt;p&gt;
+If the skin test is positive, you&apos;ll still probably be able to get the influenza vaccine. Your doctor may want you to wait 30 minutes before leaving, in case you have a reaction. Some physicians recommend giving 10 percent of the vaccine in one injection, then the remaining 90 percent of the vaccine in a second injection if there&apos;s no reaction to the first dose. 
 &lt;/p&gt;
 			</HTML>
 		</Section>
@@ -95,17 +101,15 @@ If the skin test is positive, you still will probably be able to get the influen
 	</QuestionState>
 	<BenefitSummary />
 	<RelatedLinksBox>
-		<LinkItem ContentType="SelfAssessment" DocID="FU00013" LinkType="Internal" ObjectID="491D1E3C-E7FF-0DBD-1F7CA70710272614" Title="Flu symptoms self-assessment: Do you have the flu?" Url="http://www.mayoclinic.com/health/flu-symptoms/FU00013" />
+		<LinkItem ContentType="Answer" DocID="AN02214" LinkType="Internal" ObjectID="5E1CF628-D4A2-84DB-0EA9E405753066C7" Title="Flu symptoms: Should I see my doctor?" Url="http://www.mayoclinic.com/health/flu-symptoms/AN02214" />
 		<LinkItem ContentType="Answer" DocID="AN01238" LinkType="Internal" ObjectID="35958F8C-2A5D-9994-E6DBF7EFD2A7FF7D" Title="Flu germs: How long can they live outside the body?" Url="http://www.mayoclinic.com/health/infectious-disease/AN01238" />
 		<LinkItem ContentType="Article" DocID="ID00017" LinkType="Internal" ObjectID="DF0C9B47-E104-40E7-99D4923ED6D7FD1E" Title="Flu shot: Your best bet for avoiding influenza" Url="http://www.mayoclinic.com/health/flu-shots/ID00017" />
 		<LinkItem ContentType="Answer" DocID="AN02177" LinkType="Internal" ObjectID="A0AD14E9-9C6D-449F-29F7CA3E69C8F2BC" Title="Flu and pregnancy: Is antiviral medication safe?" Url="http://www.mayoclinic.com/health/flu-and-pregnancy/AN02177" />
 		<LinkItem ContentType="Answer" DocID="AN02128" LinkType="Internal" ObjectID="7E32257A-A073-9C8B-5F7162F4290FBB80" Title="Immunization: Are you immune to a disease?" Url="http://www.mayoclinic.com/health/immunization/AN02128" />
 		<LinkItem ContentType="Disease" DocID="DS00081" LinkType="Internal" ObjectID="5CB89570-8B46-4961-8BFE66D06D5BDD1B" Title="Influenza (flu)" Url="http://www.mayoclinic.com/health/influenza/DS00081" />
-		<LinkItem ContentType="Article" DocID="MY00816" LinkType="Internal" ObjectID="E19704C8-97C2-8E63-1C5F56B0CFE4F5BB" Title="H1N1 flu (swine flu) vaccine Q &amp; A" Url="http://www.mayoclinic.com/health/swine-flu-vaccine/MY00816" />
 		<LinkItem ContentType="Answer" DocID="AN02035" LinkType="Internal" ObjectID="DE56047D-E433-C93E-10ADFA3ED4A40D05" Title="Flu mask: Should I wear one?" Url="http://www.mayoclinic.com/health/flu-mask/AN02035" />
-		<LinkItem ContentType="Answer" DocID="AN02034" LinkType="Internal" ObjectID="DE53A8C6-016A-7AA9-C1D8D5A0B27014B5" Title="Flu symptoms: Self-care for the flu" Url="http://www.mayoclinic.com/health/swine-flu-symptoms/AN02034" />
+		<LinkItem ContentType="Answer" DocID="AN02034" LinkType="Internal" ObjectID="DE53A8C6-016A-7AA9-C1D8D5A0B27014B5" Title="Self-care for the flu" Url="http://www.mayoclinic.com/health/swine-flu-symptoms/AN02034" />
 		<LinkItem ContentType="Answer" DocID="AN02041" LinkType="Internal" ObjectID="B659EB88-09E2-708B-ED5C810B3C72C0DB" Title="What&apos;s the difference between H1N1 flu and influenza A?" Url="http://www.mayoclinic.com/health/influenza-a/AN02041" />
-		<LinkItem ContentType="Article" DocID="MY00675" LinkType="Internal" ObjectID="ED89FA7E-E747-57F6-4AC2FB8C523175DF" Title="H1N1 flu (swine flu): What&apos;s happening now" Url="http://www.mayoclinic.com/health/swine-flu/MY00675" />
 		<LinkItem ContentType="Disease" DocID="DS01144" LinkType="Internal" ObjectID="ED85EF12-D20D-C00F-95E27F2334B0258D" Title="Swine flu (H1N1 flu)" Url="http://www.mayoclinic.com/health/swine-flu/DS01144" />
 	</RelatedLinksBox>
 </Answer>

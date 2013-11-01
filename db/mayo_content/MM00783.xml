@@ -1,0 +1,89 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00783
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/what-is-blood-pressure/MM00783
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-01
+		</UpdateDate>
+		<PublicationDate>
+			2010-01-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1147" Title="High blood pressure" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E4A91387-DA91-1FD3-6FA25DF674886A49
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		What is blood pressure?
+	</Title>
+	<Abstract>
+		Watch this video to see what your blood pressure reading means.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00783_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+Your heart is a pump. 
+&lt;/p&gt;
+&lt;p&gt;
+When it contracts, or beats, it sends a surge of blood through the vessels, increasing blood pressure. This is called systolic pressure. When your heart relaxes between beats, your blood pressure decreases. This is called diastolic pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+For example, if your systolic pressure is 120 and your diastolic is 70, your blood pressure is recorded as 120 over 70. 
+&lt;/p&gt;
+&lt;p&gt;
+Monitoring your blood pressure at home is easy to do. It&apos;s done with a blood pressure monitor. There are two main types: manual, also called aneroid, and automatic. 
+&lt;/p&gt;
+&lt;p&gt;
+Automatic equipment contains electronics that sense the pulse wave under an inflated arm cuff. Automatic equipment minimizes human error and is recommended if you have hearing or vision loss. 
+&lt;/p&gt;
+&lt;p&gt;
+Using the proper cuff will help ensure an accurate reading. Look for a D-ring cuff style for easier use. Children and adults with smaller or larger than average-sized arms may need special-sized cuffs. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00783_licensingthumb.jpg" width="60" />
+</Video>

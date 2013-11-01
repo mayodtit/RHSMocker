@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/coronary-artery-disease/AN01472
 		</OriginalURL>
 		<UpdateDate>
-			2010-11-12
+			2013-05-15
 		</UpdateDate>
 		<PublicationDate>
 			2006-11-16
@@ -71,7 +71,7 @@
 			<SectionHead />
 			<HTML>
 				&lt;p&gt;
-During cardiac catheterization, your doctor will examine images of the inside of your coronary arteries. If cholesterol plaques in these arteries (coronary artery disease) have caused areas of narrowing, treatment options depend on various factors, including: 
+During cardiac catheterization, your doctor will examine images of the inside of your coronary arteries. If cholesterol plaques in these arteries (coronary artery disease) have caused areas of narrowing, treatment options depend on various factors, including:
 &lt;/p&gt;
 &lt;ul&gt;
 	&lt;li&gt;Severity and extent of coronary artery disease&lt;/li&gt;
@@ -83,10 +83,10 @@ During cardiac catheterization, your doctor will examine images of the inside of
 For some people, medications and lifestyle changes may be the treatment of choice &amp;mdash; especially if only one artery is narrowed. 
 &lt;/p&gt;
 &lt;p&gt;
-In other cases, angioplasty may be recommended to open the clogged arteries &amp;mdash; especially if blood flow to the heart is reduced while you&apos;re at rest. During angioplasty, a tiny balloon is inserted and expanded at the site of the blockage to widen the narrowed artery. Typically, a small metal coil called a stent is implanted in the clogged artery to help prop the artery open and reduce the risk of it narrowing again. It&apos;s possible you may even have angioplasty during your cardiac catheterization, if your doctor thinks it&apos;s the best treatment option for you. 
+In other cases, angioplasty may be recommended to open the clogged arteries &amp;mdash; especially if you are having chest discomfort (angina) due to reduced blood flow that has not responded to medication and lifestyle changes. During angioplasty, a tiny balloon is inserted and expanded at the site of the blockage to widen the narrowed artery. Typically, a small metal coil called a stent is implanted in the clogged artery to help prop the artery open and reduce the risk of it narrowing again. It&apos;s possible you may even have angioplasty during your cardiac catheterization, if your doctor thinks it&apos;s the best treatment option for you.
 &lt;/p&gt;
 &lt;p&gt;
-If your arteries are narrowed or blocked in multiple areas, coronary bypass surgery may be necessary. During bypass surgery, a section of healthy blood vessel &amp;mdash; often taken from inside the chest wall or the lower leg &amp;mdash; is attached above and below the blocked artery. This allows blood to bypass the blocked area and flow to the heart muscle. 
+If your arteries are narrowed or blocked in multiple areas, coronary bypass surgery may be necessary. During bypass surgery, a section of healthy blood vessel &amp;mdash; often taken from inside the chest wall or the lower leg &amp;mdash; is attached above and below the blocked artery. This allows blood to bypass the blocked area and flow to the heart muscle.
 &lt;/p&gt;
 			</HTML>
 		</Section>
@@ -98,7 +98,7 @@ If your arteries are narrowed or blocked in multiple areas, coronary bypass surg
 		The best treatment for coronary artery disease varies, depending on the circumstances.
 	</Abstract>
 	<Question>
-		I&apos;m getting a cardiac catheterization. If blockages are found, what&apos;s the best treatment, angioplasty or stenting?
+		I&apos;m getting a cardiac catheterization. If blockages are found, what&apos;s the best treatment, angioplasty or bypass surgery?
 	</Question>
 	<QuestionFirstName>
 		No name
@@ -119,6 +119,7 @@ If your arteries are narrowed or blocked in multiple areas, coronary bypass surg
 		<LinkItem ContentType="Answer" DocID="AN02066" LinkType="Internal" ObjectID="1F592789-EAB0-EB7E-CC07A47C78BCE0AF" Title="Polypill: Does it treat heart disease?" Url="http://www.mayoclinic.com/health/polypill/AN02066" />
 		<LinkItem ContentType="Answer" DocID="AN02053" LinkType="Internal" ObjectID="130D9F13-0264-35D9-1B6E07A2FB0DADD9" Title="Grass-fed beef: What are the heart-health benefits?" Url="http://www.mayoclinic.com/health/grass-fed-beef/AN02053" />
 		<LinkItem ContentType="Disease" DocID="DS00994" LinkType="Internal" ObjectID="34831AF2-E7FF-0DBD-1494376728891037" Title="Angina" Url="http://www.mayoclinic.com/health/angina/DS00994" />
+		<LinkItem ContentType="Disease" DocID="DS01209" LinkType="Internal" ObjectID="00181BF2-A05D-C7CA-9AC2C61BC10CCFFA" Title="Spontaneous coronary artery dissection" Url="http://www.mayoclinic.com/health/spontaneous-coronary-artery-dissection/DS01209" />
 		<LinkItem ContentType="Article" DocID="HB00089" LinkType="Internal" ObjectID="F3B561EB-E7FF-0DBD-12ACC7FD196B1ED3" Title="Red wine and resveratrol: Good for your heart?" Url="http://www.mayoclinic.com/health/red-wine/HB00089" />
 		<LinkItem ContentType="Article" DocID="NU00196" LinkType="Internal" ObjectID="CEC0DBA2-8C25-4390-B56802619D846C6F" Title="Heart-healthy diet: 8 steps to prevent heart disease" Url="http://www.mayoclinic.com/health/heart-healthy-diet/NU00196" />
 		<LinkItem ContentType="Article" DocID="HB00073" LinkType="Internal" ObjectID="9CD00E35-2A5D-9994-EF86A3EE674B8F8C" Title="Daily aspirin therapy: Understand the benefits and risks" Url="http://www.mayoclinic.com/health/daily-aspirin-therapy/HB00073" />
