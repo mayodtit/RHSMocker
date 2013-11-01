@@ -36,9 +36,11 @@ task :bench2 do
   set :port, 22
   set :branch, "devops"
   set :rails_env,       "benchmark"
-  role :web,            "bench2.getbetter.com"
-  role :app,            "bench2.getbetter.com", :primary => true
-  role :db,             'bench2.getbetter.com', :primary => true
+  role :web,            "fh1.getbetter.com"
+  role :app,            "fh1.getbetter.com", :primary => true
+  role :web,            "fh2.getbetter.com"
+#  role :app,            "fh2.getbetter.com", :primary => true
+  role :db,             'fh1.getbetter.com', :primary => true
 end
 
 
