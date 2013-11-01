@@ -562,25 +562,73 @@ constipation_symptom 	= Symptom.upsert_attributes({:name=>"Constipation", :patie
 	{:description=>"Constipation usually isn't serious and improves with a well-balanced diet and increased water intake. Identify other possible common causes based on symptoms you’re experiencing.",
 	 :selfcare=>"Constipation is a common problem and usually not the result of a serious illness. Lifestyle changes that can help you manage constipation include the following:"
 	})
+constipation_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Constipation is a common problem and usually not the result of a serious illness. Lifestyle changes that can help you manage constipation include the following:",
+                                                                                  :symptom_id=>cough_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Eat high-fiber foods — fruits, vegetables, and whole-grain cereals and breads", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Limit problem foods — those high in fat and sugar, but low in fiber", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Drink plenty of water", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Exercise regularly", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use the toilet when you have the urge", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Add fiber supplements to food or beverages — oat bran, flaxseed or an over-the-counter fiber supplement", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Don't rely on laxatives", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
 
 diarrhea_symptom 		= Symptom.upsert_attributes({:name=>"Diarrhea", :patient_type=>"adult"},
 	{:description=>"Diarrhea in adults is common and only rarely due to a serious problem. Identify possible common causes based on symptoms you’re experiencing.",
 		:selfcare=>"Most cases of diarrhea resolve without treatment within a couple of days. In the meantime:"
 	})
+diarrhea_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Most cases of diarrhea resolve without treatment within a couple of days. In the meantime:",
+                                                                                  :symptom_id=>diarrhea_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Drink plenty of clear liquids — water, clear broth or tea", 
+                                          :symptom_selfcare_id=>diarrhea_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"As your bowel movements return to normal, eat bland foods — bananas, soda crackers, toast, rice, boiled potatoes or boiled carrots", 
+                                          :symptom_selfcare_id=>diarrhea_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid dairy products", 
+                                          :symptom_selfcare_id=>diarrhea_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid fatty, greasy, high-fiber, sweet or spicy foods", 
+                                          :symptom_selfcare_id=>diarrhea_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid caffeine and alcohol", 
+                                          :symptom_selfcare_id=>diarrhea_selfcare.id)
 
 difficulty_swallowing_symptom = Symptom.upsert_attributes({:name=>"Difficulty Swallowing", :patient_type=>"adult"},
 	{:description=>"Difficulty swallowing means that it takes more time or effort to swallow. Identify possible common causes based on symptoms you're experiencing."})
 
+## No Selfcare
+
 dizziness_symptom 			= Symptom.upsert_attributes({:name=>"Dizziness", :patient_type=>"adult"},
 	{:description=>"Dizziness can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing."})
 
+## No Selfcare
+
 eye_discomfort_symptom 		= Symptom.upsert_attributes({:name=>"Eye Discomfort", :patient_type=>"adult"},
 	{:description=>"Eye discomfort and redness can be concerning and disrupt your ability to do everyday activities. Identify possible common causes based on symptoms you're experiencing."})
+
+## No Selfcare
 
 foot_ankle_pain_symptom 	= Symptom.upsert_attributes({:name=>"Foot/Ankle Pain", :patient_type=>"adult"},
 	{:description=>"Foot pain or ankle pain can be distressing and limit your ability to get around. Identify possible common causes based on symptoms you’re experiencing.",
 	 :selfcare=>"If you've injured your foot or ankle, follow these guidelines, often called the P.R.I.C.E. treatment:"
 	 })
+foot_ankle_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"If you've injured your foot or ankle, follow these guidelines, often called the P.R.I.C.E. treatment:",
+                                                                                  :symptom_id=>foot_ankle_pain_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Protect: Protect the area from further injury", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Rest: Avoid activities that hurt", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Ice: Reduce pain and inflammation with an ice pack", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Compress: Reduce swelling with an elastic bandage", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Elevate: Raise your foot or ankle as you rest", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"You may temporarily lessen pain with an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
 
 foot_leg_swelling_symptom 	= Symptom.upsert_attributes({:name=>"Foot/Leg Swelling", :patient_type=>"adult"},
 	{:description=>"Foot or leg swelling occurs because of inflammation or the accumulation of fluid in tissues. Identify possible common causes based on symptoms you're experiencing.",
@@ -591,8 +639,6 @@ headache_symptom 			= Symptom.upsert_attributes({:name=>"Headache", :patient_typ
 	{:description=>"Headaches are common and usually aren't the result of serious illness. Identify possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"For occasional tension headaches, the following self-care strategies may provide relief:"
 	 })
-
-
 
 heart_palpitations_symptom 	= Symptom.upsert_attributes({:name=>"Heart Palpitations", :patient_type=>"adult"},
 	{:description=>"Heart palpitations are racing, uncomfortable or irregular heartbeats or a 'flopping' sensation in your chest. Identify possible common causes based on symptoms you're experiencing."})
