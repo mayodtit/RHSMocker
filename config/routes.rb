@@ -65,7 +65,10 @@ RHSMocker::Application.routes.draw do
           get :inbox, :on => :collection
           get :timeline, :on => :collection
         end
+        get 'reset_password/:token', :to => 'users#check_reset_password', :on => :collection, :as => 'check_reset_password'
+        put 'reset_password/:token', :to => 'users#update_password_from_reset', :on => :collection, :as => 'update_password_from_reset'
         post :reset_password, :on => :collection
+        # TODO: Add reset password paths here
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
           resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do

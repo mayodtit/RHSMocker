@@ -2,8 +2,8 @@
 
 %p I've invited you to start caring for patients with Better. Log in with your Better account:
 
-%p #{link_to 'Login', 'http://localhost:4567/#/login', :next => 'settings/member'}
+%p #{link_to 'Login', "#{CARE_URL_PREFIX}/login", :next => '/settings/profile'}
 
-%p Take a moment to verify your personal information.
+%p After you log in, take a moment to verify your personal information.
 
 %p - #{@assignor.full_name}

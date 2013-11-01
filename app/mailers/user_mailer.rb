@@ -3,6 +3,7 @@ class UserMailer < ActionMailer::Base
 
   def reset_password_email user
     @user = user
+    @token = @user.reset_password_token
     @url = reset_password_users_url(@user.reset_password_token)
     mail(
       :to => user.email,
