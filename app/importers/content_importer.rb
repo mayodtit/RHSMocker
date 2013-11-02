@@ -10,19 +10,22 @@ class ContentImporter
     extract_required_params_from_xml!
     return :failed unless has_required_params?
     return :skipped unless allow_type?
+    return RecipeImporter.new(@data, @logger).import if @content_type == 'Recipe'
     remove_flash_assets!
     remove_popup_media!
-    add_section_markup! unless @mayo_doc_id == TERMS_OF_SERVICE
+    add_section_markup! unless @document_id == TERMS_OF_SERVICE
     return :failed unless has_html?
     extract_html_from_xml!
+    return :failed unless has_body_content?
     add_absolute_url_to_images!
     insert_images_into_html!
+    create_intro_paragraph!
     create_content!
     create_content_vocabularies!
     :success
   end
 
-  private
+  protected
 
   TERMS_OF_SERVICE = 'AM00021'
   NO_CALL_LIST     = %w(HT00648 AM00021 HT00022 NU00585 NU00584)
@@ -34,13 +37,13 @@ class ContentImporter
   end
 
   def extract_required_params_from_xml!
-    @mayo_doc_id = @data.search('DocID').first.text.strip
+    @document_id = @data.search('DocID').first.text.strip
     @content_type = @data.search('ContentType').first.text.strip
     @title = CGI.unescapeHTML(@data.search('Title').first.text.remove_newlines_and_tabs)
   end
 
   def has_required_params?
-    unless (@data && @mayo_doc_id && @content_type && @title)
+    unless (@data && @document_id && @content_type && @title)
       log("xml did not have required parameters")
       return false
     end
@@ -48,7 +51,7 @@ class ContentImporter
   end
 
   def allow_type?
-    if %(SelfAssessment Recipe).include?(@content_type)
+    if %(SelfAssessment).include?(@content_type)
       log("skipping #{@content_type}")
       return false
     end
@@ -95,12 +98,25 @@ class ContentImporter
     Nokogiri::XML::Text.new("<div class=\"section disabled#{" last" if last}\" id=\"section-#{id}\">#{section_html.content}</div>", section_html)
   end
 
+  def create_intro_paragraph!
+    return unless promote_first_paragraph?
+    @html.at('body').children.first.add_previous_sibling('<div class="intro">' + @html.at('p').to_html.remove_newlines_and_tabs + '</div>')
+  end
+
+  def promote_first_paragraph?
+    (@html.at('body').children.first['class'] || '').split(/\s/).include?("section-head")
+  end
+
   def has_html?
     unless @data.css('Body').first
       log("content did not have a body tag")
       return false
     end
     true
+  end
+
+  def has_body_content?
+    @html.at('body').try(:children).try(:any?)
   end
 
   def extract_html_from_xml!
@@ -137,7 +153,7 @@ class ContentImporter
   end
 
   def create_content!
-    @content = Content.upsert_attributes({:mayo_doc_id => @mayo_doc_id},
+    @content = Content.upsert_attributes({:document_id => @document_id},
                                          {
                                            :content_type => @content_type,
                                            :title => @title,
@@ -146,9 +162,9 @@ class ContentImporter
                                            :body => body,
                                            :keywords => keywords,
                                            :content_updated_at => content_updated_at,
-                                           :show_call_option => !NO_CALL_LIST.include?(@mayo_doc_id),
-                                           :show_checker_option => !NO_SYMPTOMS_LIST.include?(@mayo_doc_id),
-                                           :show_mayo_copyright => (@mayo_doc_id != TERMS_OF_SERVICE)
+                                           :show_call_option => !NO_CALL_LIST.include?(@document_id),
+                                           :show_checker_option => !NO_SYMPTOMS_LIST.include?(@document_id),
+                                           :show_mayo_copyright => (@document_id != TERMS_OF_SERVICE)
                                          })
   end
 

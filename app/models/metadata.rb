@@ -1,11 +1,11 @@
 class Metadata < ActiveRecord::Base
-  attr_accessible :key, :value
+  attr_accessible :mkey, :mvalue
 
-  validates :key, :value, presence: true
-  validates :key, uniqueness: true
+  validates :mkey, :mvalue, presence: true
+  validates :mkey, uniqueness: true
 
   def self.to_hash
-    all.inject({}){|hash, metadata| hash[metadata.key] = metadata.value; hash}
+    all.inject({}){|hash, metadata| hash[metadata.mkey] = metadata.mvalue; hash}
   end
 
   def self.to_hash_for(user)

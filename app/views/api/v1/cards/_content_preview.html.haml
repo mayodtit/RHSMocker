@@ -1,5 +1,5 @@
 .content_card.card-link{:data => {:card_id => card.try(:id)}}
-  .content_source= image_tag('mayo_clinic_logo.png', :class => 'mayo_icon')
+  .content_source
   .content_header_card
     .content_title_card= content.title.html_safe
     .content_text_card_fade= content.preview.html_safe

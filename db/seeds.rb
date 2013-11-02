@@ -3,7 +3,7 @@
 Content.upsert_attributes({title: 'Welcome to Better!'},
                           {content_type: 'Content',
                            body: 'Thank you for installing Better!',
-                           mayo_doc_id: 'RHS0000',
+                           document_id: 'RHS0000',
                            show_call_option: false,
                            show_checker_option: false,
                            show_mayo_copyright: false})
@@ -520,101 +520,316 @@ abdominal_pain_symptom  = Symptom.upsert_attributes({:name=>"Abdominal Pain", :p
 	{:description=>"Abdominal pain can indicate a wide variety of medical conditions. Identify possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"The following self-care tips may be beneficial for mild abdominal pain, but you should still see your doctor for a prompt diagnosis and appropriate treatment."	
 	})
+abdominal_pain_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"The following self-care tips may be beneficial for mild abdominal pain, but you should still see your doctor for a prompt diagnosis and appropriate treatment:",
+                                                                                  :symptom_id=>abdominal_pain_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid foods that you suspect may cause or worsen symptoms, including alcohol", 
+                                          :symptom_selfcare_id=>abdominal_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter antacid as directed on the label", 
+                                          :symptom_selfcare_id=>abdominal_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter anti-diarrhea medication as directed on the label if your abdominal pain is accompanied by diarrhea", 
+                                          :symptom_selfcare_id=>abdominal_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Drink plenty of water if your abdominal pain is accompanied by diarrhea or constipation", 
+                                          :symptom_selfcare_id=>abdominal_pain_selfcare.id)
 
 blood_in_stool_symptom  = Symptom.upsert_attributes({:name=>"Blood in Stool", :patient_type=>"adult"}, 
 	{:description=>"Blood in the stool requires a prompt diagnosis. Identify possible common causes based on symptoms you’re experiencing."})
+## NO SELFCARE
 
 chest_pain_symptom      = Symptom.upsert_attributes({:name=>"Chest Pain", :patient_type=>"adult" }, 
 	{:description=>"Chest pain can indicate a serious condition. Identify possible common causes based on symptoms you're experiencing and learn when to get emergency care."})
+## NO SELFCARE
 
 cough_symptom           = Symptom.upsert_attributes({:name=>"Cough", :patient_type=>"adult"},
 	{:description=>"Cough can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing.",
 	 :selfcare=>"To soothe your cough:"
 	})
+cough_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"To soothe your cough:",
+                                                                                  :symptom_id=>cough_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Drink plenty of fluids, particularly warm water, tea or clear broth", 
+                                          :symptom_selfcare_id=>cough_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Rest", 
+                                          :symptom_selfcare_id=>cough_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a humidifier or take a hot, steamy shower", 
+                                          :symptom_selfcare_id=>cough_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Suck on hard candy or throat lozenges", 
+                                          :symptom_selfcare_id=>cough_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Gargle with warm salt water", 
+                                          :symptom_selfcare_id=>cough_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid irritants, such as cigarette smoke or pet dander", 
+                                          :symptom_selfcare_id=>cough_selfcare.id)
 
 constipation_symptom 	= Symptom.upsert_attributes({:name=>"Constipation", :patient_type=>"adult"},
 	{:description=>"Constipation usually isn't serious and improves with a well-balanced diet and increased water intake. Identify other possible common causes based on symptoms you’re experiencing.",
 	 :selfcare=>"Constipation is a common problem and usually not the result of a serious illness. Lifestyle changes that can help you manage constipation include the following:"
 	})
+constipation_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Constipation is a common problem and usually not the result of a serious illness. Lifestyle changes that can help you manage constipation include the following:",
+                                                                                  :symptom_id=>cough_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Eat high-fiber foods — fruits, vegetables, and whole-grain cereals and breads", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Limit problem foods — those high in fat and sugar, but low in fiber", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Drink plenty of water", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Exercise regularly", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use the toilet when you have the urge", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Add fiber supplements to food or beverages — oat bran, flaxseed or an over-the-counter fiber supplement", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Don't rely on laxatives", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
 
 diarrhea_symptom 		= Symptom.upsert_attributes({:name=>"Diarrhea", :patient_type=>"adult"},
 	{:description=>"Diarrhea in adults is common and only rarely due to a serious problem. Identify possible common causes based on symptoms you’re experiencing.",
 		:selfcare=>"Most cases of diarrhea resolve without treatment within a couple of days. In the meantime:"
 	})
+diarrhea_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Most cases of diarrhea resolve without treatment within a couple of days. In the meantime:",
+                                                                                  :symptom_id=>diarrhea_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Drink plenty of clear liquids — water, clear broth or tea", 
+                                          :symptom_selfcare_id=>diarrhea_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"As your bowel movements return to normal, eat bland foods — bananas, soda crackers, toast, rice, boiled potatoes or boiled carrots", 
+                                          :symptom_selfcare_id=>diarrhea_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid dairy products", 
+                                          :symptom_selfcare_id=>diarrhea_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid fatty, greasy, high-fiber, sweet or spicy foods", 
+                                          :symptom_selfcare_id=>diarrhea_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid caffeine and alcohol", 
+                                          :symptom_selfcare_id=>diarrhea_selfcare.id)
 
 difficulty_swallowing_symptom = Symptom.upsert_attributes({:name=>"Difficulty Swallowing", :patient_type=>"adult"},
 	{:description=>"Difficulty swallowing means that it takes more time or effort to swallow. Identify possible common causes based on symptoms you're experiencing."})
 
+## No Selfcare
+
 dizziness_symptom 			= Symptom.upsert_attributes({:name=>"Dizziness", :patient_type=>"adult"},
 	{:description=>"Dizziness can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing."})
 
+## No Selfcare
+
 eye_discomfort_symptom 		= Symptom.upsert_attributes({:name=>"Eye Discomfort", :patient_type=>"adult"},
 	{:description=>"Eye discomfort and redness can be concerning and disrupt your ability to do everyday activities. Identify possible common causes based on symptoms you're experiencing."})
+
+## No Selfcare
 
 foot_ankle_pain_symptom 	= Symptom.upsert_attributes({:name=>"Foot/Ankle Pain", :patient_type=>"adult"},
 	{:description=>"Foot pain or ankle pain can be distressing and limit your ability to get around. Identify possible common causes based on symptoms you’re experiencing.",
 	 :selfcare=>"If you've injured your foot or ankle, follow these guidelines, often called the P.R.I.C.E. treatment:"
 	 })
+foot_ankle_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"If you've injured your foot or ankle, follow these guidelines, often called the P.R.I.C.E. treatment:",
+                                                                                  :symptom_id=>foot_ankle_pain_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Protect: Protect the area from further injury", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Rest: Avoid activities that hurt", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Ice: Reduce pain and inflammation with an ice pack", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Compress: Reduce swelling with an elastic bandage", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Elevate: Raise your foot or ankle as you rest", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"You may temporarily lessen pain with an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+
 foot_leg_swelling_symptom 	= Symptom.upsert_attributes({:name=>"Foot/Leg Swelling", :patient_type=>"adult"},
 	{:description=>"Foot or leg swelling occurs because of inflammation or the accumulation of fluid in tissues. Identify possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"If you experience leg or foot swelling not related to an injury or joint pain, you may try the following self-care strategies to lessen symptoms:"
 	 })
+
 headache_symptom 			= Symptom.upsert_attributes({:name=>"Headache", :patient_type=>"adult"},
 	{:description=>"Headaches are common and usually aren't the result of serious illness. Identify possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"For occasional tension headaches, the following self-care strategies may provide relief:"
 	 })
+
 heart_palpitations_symptom 	= Symptom.upsert_attributes({:name=>"Heart Palpitations", :patient_type=>"adult"},
 	{:description=>"Heart palpitations are racing, uncomfortable or irregular heartbeats or a 'flopping' sensation in your chest. Identify possible common causes based on symptoms you're experiencing."})
+## No Selfcare
+
 hip_pain_symptom 			= Symptom.upsert_attributes({:name=>"Hip Pain", :patient_type=>"adult"}, 
 	{:description=>"Hip pain can affect your ability to move about normally. Identify possible common causes based on symptoms you’re experiencing.",
 	 :selfcare=>"The following self-care strategies may temporarily lessen pain in your hip:"
 	})
+hip_pain_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"The following self-care strategies may temporarily lessen pain in your hip:",
+                                                                                  :symptom_id=>hip_pain_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use an ice pack to reduce pain and inflammation", 
+                                          :symptom_selfcare_id=>hip_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Rest and avoid any activities that hurt", 
+                                          :symptom_selfcare_id=>hip_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the package label, and do not take combinations of pain relievers", 
+                                          :symptom_selfcare_id=>hip_pain_selfcare.id)
+
 knee_pain_symptom 			= Symptom.upsert_attributes({:name=>"Knee Pain", :patient_type=>"adult"},
 	{:description=>"Knee pain can seriously impair walking and exercise. Identify possible common causes based on symptoms you're experiencing.",
 	:selfcare=>"You may temporarily lessen pain with an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers. If you're experiencing knee pain, follow these guidelines, often called the P.R.I.C.E. treatment:"
 	})
+knee_pain_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"If you're experiencing knee pain, follow these guidelines, often called the P.R.I.C.E. treatment:",
+                                                                                  :symptom_id=>knee_pain_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Protect: Protect the area from further injury", 
+                                          :symptom_selfcare_id=>knee_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Rest: Avoid activities that hurt", 
+                                          :symptom_selfcare_id=>knee_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Ice: Reduce pain and inflammation with an ice pack", 
+                                          :symptom_selfcare_id=>knee_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Compress: Reduce swelling with an elastic bandage", 
+                                          :symptom_selfcare_id=>knee_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Elevate: Raise your foot or ankle as you rest", 
+                                          :symptom_selfcare_id=>knee_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"You may temporarily lessen pain with an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers", 
+                                          :symptom_selfcare_id=>knee_pain_selfcare.id)
+
 low_back_pain_symptom 		= Symptom.upsert_attributes({:name=>"Low Back Pain", :patient_type=>"adult"},
 	{:description=>"Low back pain can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing.",
 	 :selfcare=>"Back pain usually improves on its own. In the meantime, try these strategies:"
 	})
+back_pain_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Back pain usually improves on its own. In the meantime, try these strategies:",
+                                                                                  :symptom_id=>low_back_pain_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid heavy lifting, pushing, pulling, bending or twisting", 
+                                          :symptom_selfcare_id=>back_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid sitting for long periods of time", 
+                                          :symptom_selfcare_id=>back_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Continue your usual activities as much as possible", 
+                                          :symptom_selfcare_id=>back_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Engage in gentle exercise, such as walking", 
+                                          :symptom_selfcare_id=>back_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a heating pad or take a warm bath", 
+                                          :symptom_selfcare_id=>back_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers", 
+                                          :symptom_selfcare_id=>back_pain_selfcare.id)
+
 nasal_congestion_symptom 	= Symptom.upsert_attributes({:name=>"Nasal Congestion", :patient_type=>"adult"},
 	{:description=>"Nasal congestion is a common problem in adults. Identify possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"To relieve a stuffy nose:"
 	 })
+nasal_congestion_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"To relieve a stuffy nose:",
+                                                                                  :symptom_id=>nasal_congestion_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Gently blow your nose, or sniff and swallow", 
+                                          :symptom_selfcare_id=>nasal_congestion_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Breathe steam from a warm shower", 
+                                          :symptom_selfcare_id=>nasal_congestion_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a humidifier", 
+                                          :symptom_selfcare_id=>nasal_congestion_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a nasal saline spray", 
+                                          :symptom_selfcare_id=>nasal_congestion_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Try an oral decongestant", 
+                                          :symptom_selfcare_id=>nasal_congestion_selfcare.id)
+
 nausea_or_vomiting_symptom 	= Symptom.upsert_attributes({:name=>"Nausea of Vomiting", :patient_type=>"adult"},
 	{:description=>"Nausea or vomiting is most often caused by the stomach flu. Identify other possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"If you're experiencing nausea or vomiting:"
 	 })
+nausea_or_vomiting_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"If you're experiencing nausea or vomiting:",
+                                                                                  :symptom_id=>nausea_or_vomiting_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Rest", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Drink small amounts of water or sports drinks", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Eat foods with high water content, such as broth and gelatin", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Eat bland foods, such as crackers, toast and rice", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid unpleasant food odors", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid dairy products and fatty or heavily seasoned foods", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid caffeine and alcohol", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_selfcare.id)
+
+
 neck_pain_symptom 			= Symptom.upsert_attributes({:name=>"Neck Pain", :patient_type=>"adult"},
 	{:description=>"Neck pain may be a short-term problem or a chronic disability. Identify possible common causes based on symptoms you're experiencing.",
 	:selfcare=>"The following tips may help relieve mild to moderate neck pain:"
 	})
+neck_pain_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"The following tips may help relieve mild to moderate neck pain:",
+                                                                                      :symptom_id=>neck_pain_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use ice to reduce pain and inflammation", 
+                                          :symptom_selfcare_id=>neck_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Gently stretch or massage your neck", 
+                                          :symptom_selfcare_id=>neck_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid activities that are painful", 
+                                          :symptom_selfcare_id=>neck_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers", 
+                                          :symptom_selfcare_id=>neck_pain_selfcare.id)
+
 numbness_in_hands_symptom 	= Symptom.upsert_attributes({:name=>"Numbness in Hands", :patient_type=>"adult"},
 	{:description=>"Numbness or tingling in hands is often triggered by injury or repetitive use. Identify possible common causes based on symptoms you're experiencing."})
+## NO SELF CARE
+
 pelvic_pain_female_symptom 	= Symptom.upsert_attributes({:name=>"Pelvic Pain (Female)", :patient_type=>"adult"},
-	{:description=>"Pelvic pain in women can be caused by a wide variety of diseases and conditions. Identify possible common causes based on symptoms you’re experiencing."})
+	{:description=>"Pelvic pain in women can be caused by a wide variety of diseases and conditions. Identify possible common causes based on symptoms you’re experiencing.",
+	  :gender=>"F"})
+## NO SELF CARE
+
 pelvic_pain_male_symptom 	= Symptom.upsert_attributes({:name=>"Pelvic Pain (Male)", :patient_type=>"adult"},
-	{:description=>"Pelvic pain in men can be concerning. Identify possible common causes based on symptoms you're experiencing."})
+	{:description=>"Pelvic pain in men can be concerning. Identify possible common causes based on symptoms you're experiencing.", 
+	   :gender=>"M"})
+## NO SELF CARE
+
 shortness_of_breath_symptom = Symptom.upsert_attributes({:name=>"Shortness of Breath", :patient_type=>"adult"},
 	{:description=>"Shortness of breath can signal a number of conditions that need prompt medical care. Identify possible common causes based on symptoms you're experiencing."})
+## NO SELF CARE
+
 shoulder_pain_symptom 		= Symptom.upsert_attributes({:name=>"Shoulder Pain", :patient_type=>"adult"},
 	{:description=>"Shoulder pain often is due to a mechanical problem in the shoulder joint. Identify possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"The following self-care strategies may lessen mild to moderate shoulder pain:"
 	 })
+shoulder_pain_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"The following self-care strategies may lessen mild to moderate shoulder pain:",
+                                                                                      :symptom_id=>shoulder_pain_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use ice to reduce pain and inflammation", 
+                                          :symptom_selfcare_id=>shoulder_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Do gentle exercises to move your arm through its normal range of motion", 
+                                          :symptom_selfcare_id=>shoulder_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers.", 
+                                          :symptom_selfcare_id=>shoulder_pain_selfcare.id)
+
 sore_throat_symptom 		= Symptom.upsert_attributes({:name=>"Sore Throat", :patient_type=>"adult"},
 	{:description=>"Sore throat is a common problem. Identify possible causes based on symptoms you're experiencing.",
 	:selfcare=>"Most sore throats go away within about a week. In the meantime, try these tips:"
 	})
+sore_throat_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Most sore throats go away within about a week. In the meantime, try these tips:",
+                                                                                      :symptom_id=>sore_throat_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Drink plenty of fluids", 
+                                          :symptom_selfcare_id=>sore_throat_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Gargle with warm salt water", 
+                                           :symptom_selfcare_id=>sore_throat_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Suck on hard candy or throat lozenges", 
+                                           :symptom_selfcare_id=>sore_throat_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Rest your voice", 
+                                           :symptom_selfcare_id=>sore_throat_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a humidifier or take a steamy shower", 
+                                           :symptom_selfcare_id=>sore_throat_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid smoke and other air pollutants", 
+                                           :symptom_selfcare_id=>sore_throat_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers.", 
+                                           :symptom_selfcare_id=>sore_throat_selfcare.id)
+
 urinary_problems_symptom 	= Symptom.upsert_attributes({:name=>"Urinary Problems", :patient_type=>"adult"},
 	{:description=>"Urinary problems are a common complaint among adults. Identify possible common causes based on symptoms you're experiencing."})
+###NO URINARY SELFCARE
+
+
 vision_problems_symptom 	= Symptom.upsert_attributes({:name=>"Vision Problems", :patient_type=>"adult"},
 	{:description=>"Vision problems, even those easily corrected, can greatly affect everyday activities. Identify possible common causes based on symptoms you're experiencing."})
+### NO VISION SELFCARE
+
 wheezing_symptom 			= Symptom.upsert_attributes({:name=>"Wheezing", :patient_type=>"adult"}, 
 	{:description=>"Wheezing is a high-pitched, whistling noise that occurs with breathing. Identify possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"Wheezing requires medical attention. But taking good care of yourself can help:"})
-
+wheezing_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Wheezing requires medical attention. But taking good care of yourself can help:",
+                                                                                      :symptom_id=>wheezing_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"If you smoke, quit", 
+                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid exposure to irritants, such as tobacco smoke", 
+                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take a break when you begin to wheeze", 
+                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Practice deep-breathing exercises", 
+                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a humidifier or take hot, steamy showers to alleviate symptoms", 
+                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use an inhaler or other asthma medications as prescribed", 
+                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+#######################################################################################################################################################################
 #Symptoms - CHILD
-##############################
+#######################################################################################################################################################################
 abdominal_pain_symptom_child		= Symptom.upsert_attributes({:name=>"Abdominal Pain", :patient_type=>"child"},
 	{:description=>"Abdominal pain is common in children and often is the result of stomach flu. Identify other possible common causes based on your child's symptoms.",
 	 :selfcare=>"The following self-care tips may be beneficial for mild abdominal pain:"
@@ -1347,1171 +1562,1171 @@ SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_abdomen_but_radiates_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS01194').first.id
+:content_id=>Content.where(:document_id=>'DS01194').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_middle_abdomen_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS01194').first.id
+:content_id=>Content.where(:document_id=>'DS01194').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_pulsing_near_navel_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS01194').first.id
+:content_id=>Content.where(:document_id=>'DS01194').first.id
 )
 #Abdominal Pain - DS00274
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_acute_began_suddenly_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00274').first.id
+:content_id=>Content.where(:document_id=>'DS00274').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id, 
-:content_id=>Content.where(:mayo_doc_id=>'DS00274').first.id
+:content_id=>Content.where(:document_id=>'DS00274').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_dull_pain_is_SF.id, 
-:content_id=>Content.where(:mayo_doc_id=>'DS00274').first.id
+:content_id=>Content.where(:document_id=>'DS00274').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intense_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00274').first.id
+:content_id=>Content.where(:document_id=>'DS00274').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_sharp_pain_is_SF.id, 
-:content_id=>Content.where(:mayo_doc_id=>'DS00274').first.id
+:content_id=>Content.where(:document_id=>'DS00274').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_steady_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00274').first.id
+:content_id=>Content.where(:document_id=>'DS00274').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_lower_abdomen_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00274').first.id
+:content_id=>Content.where(:document_id=>'DS00274').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_middle_abdomen_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00274').first.id
+:content_id=>Content.where(:document_id=>'DS00274').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_one_or_both_sides_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00274').first.id
+:content_id=>Content.where(:document_id=>'DS00274').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_coughing_or_jarring_movements_triggered_or_worsened_by_SF.id, 
-:content_id=>Content.where(:mayo_doc_id=>'DS00274').first.id
+:content_id=>Content.where(:document_id=>'DS00274').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_abdominal_swelling_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00274').first.id,
+:content_id=>Content.where(:document_id=>'DS00274').first.id,
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_constipation_accompanied_by_SF.id, 
-:content_id=>Content.where(:mayo_doc_id=>'DS00274').first.id
+:content_id=>Content.where(:document_id=>'DS00274').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_diarrhea_accompanied_by_SF.id, 
-:content_id=>Content.where(:mayo_doc_id=>'DS00274').first.id
+:content_id=>Content.where(:document_id=>'DS00274').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_fever_accompanied_by_SF.id, 
-:content_id=>Content.where(:mayo_doc_id=>'DS00274').first.id
+:content_id=>Content.where(:document_id=>'DS00274').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00274').first.id
+:content_id=>Content.where(:document_id=>'DS00274').first.id
 )
 #Abdominal Pain - DS00319
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_chronic_ongoing_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00319').first.id
+:content_id=>Content.where(:document_id=>'DS00319').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00319').first.id
+:content_id=>Content.where(:document_id=>'DS00319').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_eating_certain_foods_triggered_or_worsened_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00319').first.id
+:content_id=>Content.where(:document_id=>'DS00319').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_avoiding_certain_foods_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00319').first.id
+:content_id=>Content.where(:document_id=>'DS00319').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_abdominal_swelling_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00319').first.id
+:content_id=>Content.where(:document_id=>'DS00319').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00319').first.id
+:content_id=>Content.where(:document_id=>'DS00319').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_passing_gas_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00319').first.id
+:content_id=>Content.where(:document_id=>'DS00319').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_stomach_growling_or_rumbling_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00319').first.id
+:content_id=>Content.where(:document_id=>'DS00319').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_rash_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00319').first.id
+:content_id=>Content.where(:document_id=>'DS00319').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_unintended_weight_loss_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00319').first.id
+:content_id=>Content.where(:document_id=>'DS00319').first.id
 )
 #Abdominal Pain - DS01153
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS01153').first.id
+:content_id=>Content.where(:document_id=>'DS01153').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intense_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS01153').first.id
+:content_id=>Content.where(:document_id=>'DS01153').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intermittent_episodic_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS01153').first.id
+:content_id=>Content.where(:document_id=>'DS01153').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_steady_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS01153').first.id
+:content_id=>Content.where(:document_id=>'DS01153').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_abdomen_but_radiates_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS01153').first.id
+:content_id=>Content.where(:document_id=>'DS01153').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_upper_abdomen_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS01153').first.id
+:content_id=>Content.where(:document_id=>'DS01153').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_fever_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS01153').first.id
+:content_id=>Content.where(:document_id=>'DS01153').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS01153').first.id
+:content_id=>Content.where(:document_id=>'DS01153').first.id
 )
 #Abdominal Pain - DS00035
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_chronic_ongoing_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_progressive_or_worsening_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_black_or_bloody_stool_factor_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_constipation_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_unintended_weight_loss_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 #Abdominal Pain - DS00063
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_acute_began_suddenly_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00063').first.id
+:content_id=>Content.where(:document_id=>'DS00063').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_chronic_ongoing_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00063').first.id
+:content_id=>Content.where(:document_id=>'DS00063').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00063').first.id
+:content_id=>Content.where(:document_id=>'DS00063').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intermittent_episodic_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00063').first.id
+:content_id=>Content.where(:document_id=>'DS00063').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_eating_more_fibre_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00063').first.id
+:content_id=>Content.where(:document_id=>'DS00063').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_drinking_more_water_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00063').first.id
+:content_id=>Content.where(:document_id=>'DS00063').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_constipation_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00063').first.id
+:content_id=>Content.where(:document_id=>'DS00063').first.id
 )
 #Abdominal Pain - DS00104
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_chronic_ongoing_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_dull_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intermittent_episodic_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_abdominal_swelling_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_black_or_bloody_stool_factor_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_constipation_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_fever_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_rash_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_unintended_weight_loss_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 #Abdominal Pain - DS00292
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00292').first.id
+:content_id=>Content.where(:document_id=>'DS00292').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00292').first.id
+:content_id=>Content.where(:document_id=>'DS00292').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_fever_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00292').first.id
+:content_id=>Content.where(:document_id=>'DS00292').first.id
 )
 #Abdominal Pain - DS00070
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_acute_began_suddenly_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intermittent_episodic_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_sharp_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_steady_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_coughing_or_jarring_movements_triggered_or_worsened_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_constipation_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_fever_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 #Abdominal Pain - DS00289
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id ,
-:content_id=>Content.where(:mayo_doc_id=>'DS00289').first.id
+:content_id=>Content.where(:document_id=>'DS00289').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intermittent_episodic_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00289').first.id
+:content_id=>Content.where(:document_id=>'DS00289').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_lower_abdomen_pain_located_SF,
-:content_id=>Content.where(:mayo_doc_id=>'DS00289').first.id
+:content_id=>Content.where(:document_id=>'DS00289').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_menstrual_cycle_triggered_or_worsened_by_SF,
-:content_id=>Content.where(:mayo_doc_id=>'DS00289').first.id
+:content_id=>Content.where(:document_id=>'DS00289').first.id
 )
 #Abdominal Pain - DS00981
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_acute_began_suddenly_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00981').first.id
+:content_id=>Content.where(:document_id=>'DS00981').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00981').first.id
+:content_id=>Content.where(:document_id=>'DS00981').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_eating_certain_foods_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00981').first.id
+:content_id=>Content.where(:document_id=>'DS00981').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_abdominal_swelling_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00981').first.id
+:content_id=>Content.where(:document_id=>'DS00981').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00981').first.id
+:content_id=>Content.where(:document_id=>'DS00981').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_fever_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00981').first.id
+:content_id=>Content.where(:document_id=>'DS00981').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00981').first.id
+:content_id=>Content.where(:document_id=>'DS00981').first.id
 )
 #Abdominal Pain - DS00165
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intense_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00165').first.id
+:content_id=>Content.where(:document_id=>'DS00165').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intermittent_episodic_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00165').first.id
+:content_id=>Content.where(:document_id=>'DS00165').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_steady_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00165').first.id
+:content_id=>Content.where(:document_id=>'DS00165').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_abdomen_but_radiates_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00165').first.id
+:content_id=>Content.where(:document_id=>'DS00165').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_middle_abdomen_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00165').first.id
+:content_id=>Content.where(:document_id=>'DS00165').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_upper_abdomen_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00165').first.id
+:content_id=>Content.where(:document_id=>'DS00165').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_eating_certain_foods_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00165').first.id
+:content_id=>Content.where(:document_id=>'DS00165').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_fever_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00165').first.id
+:content_id=>Content.where(:document_id=>'DS00165').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=> abdominal_pain_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00165').first.id
+:content_id=>Content.where(:document_id=>'DS00165').first.id
 )
 #Abdominal Pain - DS00080
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_acute_began_suddenly_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00080').first.id
+:content_id=>Content.where(:document_id=>'DS00080').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_chronic_ongoing_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00080').first.id
+:content_id=>Content.where(:document_id=>'DS00080').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00080').first.id
+:content_id=>Content.where(:document_id=>'DS00080').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_sharp_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00080').first.id
+:content_id=>Content.where(:document_id=>'DS00080').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_eating_certain_foods_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00080').first.id
+:content_id=>Content.where(:document_id=>'DS00080').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_avoiding_certain_foods_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00080').first.id
+:content_id=>Content.where(:document_id=>'DS00080').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_passing_gas_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00080').first.id
+:content_id=>Content.where(:document_id=>'DS00080').first.id
 )
 #Abdominal Pain - DS00488
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_burning_factor_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+:content_id=>Content.where(:document_id=>'DS00488').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_chronic_ongoing_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+:content_id=>Content.where(:document_id=>'DS00488').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_gnawing_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+:content_id=>Content.where(:document_id=>'DS00488').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intermittent_episodic_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+:content_id=>Content.where(:document_id=>'DS00488').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_steady_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+:content_id=>Content.where(:document_id=>'DS00488').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_middle_abdomen_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+:content_id=>Content.where(:document_id=>'DS00488').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_upper_abdomen_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+:content_id=>Content.where(:document_id=>'DS00488').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_drinking_alcohol_triggered_or_worsened_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+:content_id=>Content.where(:document_id=>'DS00488').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_eating_certain_foods_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+:content_id=>Content.where(:document_id=>'DS00488').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_abdominal_swelling_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+:content_id=>Content.where(:document_id=>'DS00488').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+:content_id=>Content.where(:document_id=>'DS00488').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_unintended_weight_loss_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+:content_id=>Content.where(:document_id=>'DS00488').first.id
 )
 #Abdominal Pain - DS00823
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_acute_began_suddenly_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00823').first.id
+:content_id=>Content.where(:document_id=>'DS00823').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00823').first.id
+:content_id=>Content.where(:document_id=>'DS00823').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intermittent_episodic_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00823').first.id
+:content_id=>Content.where(:document_id=>'DS00823').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_steady_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00823').first.id
+:content_id=>Content.where(:document_id=>'DS00823').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_abdominal_swelling_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00823').first.id
+:content_id=>Content.where(:document_id=>'DS00823').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_constipation_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00823').first.id
+:content_id=>Content.where(:document_id=>'DS00823').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00823').first.id
+:content_id=>Content.where(:document_id=>'DS00823').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00823').first.id
+:content_id=>Content.where(:document_id=>'DS00823').first.id
 )
 #Abdominal Pain - DS00106
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_chronic_ongoing_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00106').first.id
+:content_id=>Content.where(:document_id=>'DS00106').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00106').first.id
+:content_id=>Content.where(:document_id=>'DS00106').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intermittent_episodic_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00106').first.id
+:content_id=>Content.where(:document_id=>'DS00106').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_steady_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00106').first.id
+:content_id=>Content.where(:document_id=>'DS00106').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_eating_certain_foods_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00106').first.id
+:content_id=>Content.where(:document_id=>'DS00106').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_stress_triggered_or_worsened_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00106').first.id
+:content_id=>Content.where(:document_id=>'DS00106').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_abdominal_swelling_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00106').first.id
+:content_id=>Content.where(:document_id=>'DS00106').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_constipation_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00106').first.id
+:content_id=>Content.where(:document_id=>'DS00106').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00106').first.id
+:content_id=>Content.where(:document_id=>'DS00106').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_passing_gas_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00106').first.id
+:content_id=>Content.where(:document_id=>'DS00106').first.id
 )
 #Abdominal Pain - DS00282
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_acute_began_suddenly_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00282').first.id
+:content_id=>Content.where(:document_id=>'DS00282').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intense_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00282').first.id
+:content_id=>Content.where(:document_id=>'DS00282').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_abdomen_but_radiates_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00282').first.id
+:content_id=>Content.where(:document_id=>'DS00282').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_one_or_both_sides_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00282').first.id
+:content_id=>Content.where(:document_id=>'DS00282').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00282').first.id
+:content_id=>Content.where(:document_id=>'DS00282').first.id
 )
 #Abdominal Pain - DS00530
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_chronic_ongoing_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00530').first.id
+:content_id=>Content.where(:document_id=>'DS00530').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00530').first.id
+:content_id=>Content.where(:document_id=>'DS00530').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_eating_certain_foods_triggered_or_worsened_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00530').first.id
+:content_id=>Content.where(:document_id=>'DS00530').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_eating_certain_foods_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00530').first.id
+:content_id=>Content.where(:document_id=>'DS00530').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00530').first.id
+:content_id=>Content.where(:document_id=>'DS00530').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00530').first.id
+:content_id=>Content.where(:document_id=>'DS00530').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_passing_gas_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00530').first.id
+:content_id=>Content.where(:document_id=>'DS00530').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_stomach_growling_or_rumbling_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00530').first.id
+:content_id=>Content.where(:document_id=>'DS00530').first.id
 )
 #Abdominal Pain - DS00506
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00506').first.id
+:content_id=>Content.where(:document_id=>'DS00506').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_dull_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00506').first.id
+:content_id=>Content.where(:document_id=>'DS00506').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intermittent_episodic_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00506').first.id
+:content_id=>Content.where(:document_id=>'DS00506').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_abdomen_but_radiates_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00506').first.id
+:content_id=>Content.where(:document_id=>'DS00506').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_menstrual_cycle_triggered_or_worsened_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00506').first.id
+:content_id=>Content.where(:document_id=>'DS00506').first.id
 )
 #Abdominal Pain - DS00524
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_burning_factor_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00524').first.id
+:content_id=>Content.where(:document_id=>'DS00524').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_gnawing_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00524').first.id
+:content_id=>Content.where(:document_id=>'DS00524').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_upper_abdomen_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00524').first.id
+:content_id=>Content.where(:document_id=>'DS00524').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_stress_triggered_or_worsened_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00524').first.id
+:content_id=>Content.where(:document_id=>'DS00524').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_antacids_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00524').first.id
+:content_id=>Content.where(:document_id=>'DS00524').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_eating_certain_foods_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00524').first.id
+:content_id=>Content.where(:document_id=>'DS00524').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00524').first.id
+:content_id=>Content.where(:document_id=>'DS00524').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_passing_gas_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00524').first.id
+:content_id=>Content.where(:document_id=>'DS00524').first.id
 )
 #Abdominal Pain - DS00371
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_acute_began_suddenly_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00371').first.id
+:content_id=>Content.where(:document_id=>'DS00371').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intense_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00371').first.id
+:content_id=>Content.where(:document_id=>'DS00371').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_sharp_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00371').first.id
+:content_id=>Content.where(:document_id=>'DS00371').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_steady_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00371').first.id
+:content_id=>Content.where(:document_id=>'DS00371').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_abdomen_but_radiates_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00371').first.id
+:content_id=>Content.where(:document_id=>'DS00371').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_upper_abdomen_pain_located_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00371').first.id
+:content_id=>Content.where(:document_id=>'DS00371').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_eating_certain_foods_triggered_or_worsened_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00371').first.id
+:content_id=>Content.where(:document_id=>'DS00371').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_changing_position_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00371').first.id
+:content_id=>Content.where(:document_id=>'DS00371').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00371').first.id
+:content_id=>Content.where(:document_id=>'DS00371').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_unintended_weight_loss_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00371').first.id
+:content_id=>Content.where(:document_id=>'DS00371').first.id
 )
 #Abdominal Pain - DS00242
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_burning_factor_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_chronic_ongoing_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_gnawing_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intermittent_episodic_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_progressive_or_worsening_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_abdomen_but_radiates_pain_located_SF.id ,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_drinking_alcohol_triggered_or_worsened_by_SF.id ,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_eating_certain_foods_triggered_or_worsened_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_stress_triggered_or_worsened_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_antacids_relieved_by_SF.id ,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_eating_certain_foods_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_black_or_bloody_stool_factor_accompanied_by_SF.id ,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_unintended_weight_loss_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 #Abdominal Pain - DS00098
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_burning_factor_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00098').first.id
+:content_id=>Content.where(:document_id=>'DS00098').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_acute_began_suddenly_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00098').first.id
+:content_id=>Content.where(:document_id=>'DS00098').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intense_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00098').first.id
+:content_id=>Content.where(:document_id=>'DS00098').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_steady_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00098').first.id
+:content_id=>Content.where(:document_id=>'DS00098').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_rash_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00098').first.id
+:content_id=>Content.where(:document_id=>'DS00098').first.id
 )
 #Abdominal Pain - DS00598
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_chronic_ongoing_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_intermittent_episodic_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_black_or_bloody_stool_factor_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_inability_to_move_bowels_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_rash_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_unintended_weight_loss_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 #Abdominal Pain - DS00085
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_acute_began_suddenly_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00085').first.id
+:content_id=>Content.where(:document_id=>'DS00085').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_crampy_pain_is_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00085').first.id
+:content_id=>Content.where(:document_id=>'DS00085').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_eating_certain_foods_triggered_or_worsened_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00085').first.id
+:content_id=>Content.where(:document_id=>'DS00085').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00085').first.id
+:content_id=>Content.where(:document_id=>'DS00085').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_fever_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00085').first.id
+:content_id=>Content.where(:document_id=>'DS00085').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>abdominal_pain_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00085').first.id
+:content_id=>Content.where(:document_id=>'DS00085').first.id
 )
 #BLOOD IN STOOL - DS00762
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_in_or_on_stool_blood_appears_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00762').first.id
+:content_id=>Content.where(:document_id=>'DS00762').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_in_or_on_toilet_bowl_blood_appears_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00762').first.id
+:content_id=>Content.where(:document_id=>'DS00762').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_straining_during_bowel_movements_triggered_or_worsened_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00762').first.id
+:content_id=>Content.where(:document_id=>'DS00762').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_painful_bowel_movements_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00762').first.id
+:content_id=>Content.where(:document_id=>'DS00762').first.id
 )
 #BLOOD IN STOOL - DS00035
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_in_or_on_stool_blood_appears_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_change_in_bowel_habits_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_constipation_factor_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_fatigue_or_weakness_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_narrow_stools_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_painful_bowel_movements_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_unintended_weight_loss_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00035').first.id
+:content_id=>Content.where(:document_id=>'DS00035').first.id
 )
 #BLOOD IN STOOL - DS00511
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_in_or_on_stool_blood_appears_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00511').first.id
+:content_id=>Content.where(:document_id=>'DS00511').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_in_or_on_toilet_bowl_blood_appears_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00511').first.id
+:content_id=>Content.where(:document_id=>'DS00511').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id ,
-:content_id=>Content.where(:mayo_doc_id=>'DS00511').first.id
+:content_id=>Content.where(:document_id=>'DS00511').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_change_in_bowel_habits_accompanied_by_SF.id ,
-:content_id=>Content.where(:mayo_doc_id=>'DS00511').first.id
+:content_id=>Content.where(:document_id=>'DS00511').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_constipation_factor_accompanied_by_SF.id ,
-:content_id=>Content.where(:mayo_doc_id=>'DS00511').first.id
+:content_id=>Content.where(:document_id=>'DS00511').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00511').first.id
+:content_id=>Content.where(:document_id=>'DS00511').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_narrow_stools_accompanied_by_SF.id ,
-:content_id=>Content.where(:mayo_doc_id=>'DS00511').first.id
+:content_id=>Content.where(:document_id=>'DS00511').first.id
 )
 #BLOOD IN STOOL - DS00063
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_drinking_more_water_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00063').first.id
+:content_id=>Content.where(:document_id=>'DS00063').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_eating_more_fibre_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00063').first.id
+:content_id=>Content.where(:document_id=>'DS00063').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00063').first.id
+:content_id=>Content.where(:document_id=>'DS00063').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_constipation_factor_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00063').first.id
+:content_id=>Content.where(:document_id=>'DS00063').first.id
 )
 #BLOOD IN STOOL - DS00104
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_in_or_on_stool_blood_appears_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_in_or_on_toilet_bowl_blood_appears_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id ,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_change_in_bowel_habits_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_fatigue_or_weakness_accompanied_by_SF.id ,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_fever_accompanied_by_SF.id ,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_unintended_weight_loss_accompanied_by_SF.id ,
-:content_id=>Content.where(:mayo_doc_id=>'DS00104').first.id
+:content_id=>Content.where(:document_id=>'DS00104').first.id
 )
 #BLOOD IN STOOL - DS00070
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_in_or_on_toilet_bowl_blood_appears_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_change_in_bowel_habits_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_constipation_factor_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_fever_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00070').first.id
+:content_id=>Content.where(:document_id=>'DS00070').first.id
 )
 #BLOOD IN STOOL - DS00488
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_in_or_on_stool_blood_appears_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+:content_id=>Content.where(:document_id=>'DS00488').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_drinking_alcohol_or_caffeine_triggered_or_worsened_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+:content_id=>Content.where(:document_id=>'DS00488').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+:content_id=>Content.where(:document_id=>'DS00488').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00488').first.id
+:content_id=>Content.where(:document_id=>'DS00488').first.id
 )
 #BLOOD IN STOOL - DS00096
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_in_or_on_toilet_bowl_blood_appears_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00096').first.id
+:content_id=>Content.where(:document_id=>'DS00096').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_straining_during_bowel_movements_triggered_or_worsened_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00096').first.id
+:content_id=>Content.where(:document_id=>'DS00096').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_anal_itching_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00096').first.id
+:content_id=>Content.where(:document_id=>'DS00096').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_rectal_pain_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00096').first.id
+:content_id=>Content.where(:document_id=>'DS00096').first.id
 )
 #BLOOD IN STOOL - DS00459
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_in_or_on_stool_blood_appears_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00459').first.id
+:content_id=>Content.where(:document_id=>'DS00459').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00459').first.id
+:content_id=>Content.where(:document_id=>'DS00459').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_frequent_urge_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00459').first.id
+:content_id=>Content.where(:document_id=>'DS00459').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00459').first.id
+:content_id=>Content.where(:document_id=>'DS00459').first.id
 )
 #BLOOD IN STOOL - DS00242
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_in_or_on_stool_blood_appears_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_drinking_alcohol_or_caffeine_triggered_or_worsened_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_eating_certain_foods_triggered_or_worsened_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_eating_certain_foods_relieved_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_nausea_or_vomiting_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00242').first.id
+:content_id=>Content.where(:document_id=>'DS00242').first.id
 )
 #BLOOD IN STOOL - DS00705
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_in_or_on_toilet_bowl_blood_appears_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00705').first.id
+:content_id=>Content.where(:document_id=>'DS00705').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00705').first.id
+:content_id=>Content.where(:document_id=>'DS00705').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00705').first.id
+:content_id=>Content.where(:document_id=>'DS00705').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_frequent_urge_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00705').first.id
+:content_id=>Content.where(:document_id=>'DS00705').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_painful_bowel_movements_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00705').first.id
+:content_id=>Content.where(:document_id=>'DS00705').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_rectal_pain_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00705').first.id
+:content_id=>Content.where(:document_id=>'DS00705').first.id
 )
 #BLOOD IN STOOL - DS00598
 ###############################################################################
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_in_or_on_stool_blood_appears_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_in_or_on_toilet_bowl_blood_appears_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_abdominal_pain_or_cramping_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_diarrhea_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_fatigue_or_weakness_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_fever_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_frequent_urge_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_rectal_pain_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>blood_stool_unintended_weight_loss_accompanied_by_SF.id,
-:content_id=>Content.where(:mayo_doc_id=>'DS00598').first.id
+:content_id=>Content.where(:document_id=>'DS00598').first.id
 )
 
 ########################################################################

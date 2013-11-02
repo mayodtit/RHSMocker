@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :metadata do
-    sequence(:key) {|k| "Key #{k}"}
-    sequence(:value) {|v| "Value #{v}"}
+    sequence(:mkey) {|k| "Key #{k}"}
+    sequence(:mvalue) {|v| "Value #{v}"}
   end
 end

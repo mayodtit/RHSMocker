@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131028212904) do
+ActiveRecord::Schema.define(:version => 20131101002612) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -106,7 +106,6 @@ ActiveRecord::Schema.define(:version => 20131028212904) do
     t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-    t.boolean  "read"
   end
 
   create_table "consults", :force => true do |t|
@@ -131,7 +130,7 @@ ActiveRecord::Schema.define(:version => 20131028212904) do
 
   create_table "contents", :force => true do |t|
     t.string   "title",               :default => "",   :null => false
-    t.text     "body",                :default => "",   :null => false
+    t.text     "body"
     t.datetime "created_at",                            :null => false
     t.datetime "updated_at",                            :null => false
     t.string   "content_type",        :default => "",   :null => false
@@ -139,13 +138,13 @@ ActiveRecord::Schema.define(:version => 20131028212904) do
     t.text     "question"
     t.text     "keywords"
     t.datetime "content_updated_at"
-    t.string   "mayo_doc_id",         :default => "",   :null => false
+    t.string   "document_id",         :default => "",   :null => false
     t.boolean  "show_call_option",    :default => true, :null => false
     t.boolean  "show_checker_option", :default => true, :null => false
     t.boolean  "show_mayo_copyright", :default => true, :null => false
   end
 
-  add_index "contents", ["mayo_doc_id"], :name => "index_contents_on_mayo_doc_id"
+  add_index "contents", ["document_id"], :name => "index_contents_on_document_id"
 
   create_table "contents_symptoms", :force => true do |t|
     t.integer  "content_id"
@@ -212,7 +211,6 @@ ActiveRecord::Schema.define(:version => 20131028212904) do
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-    t.integer  "order"
   end
 
   create_table "factors", :force => true do |t|
@@ -289,8 +287,8 @@ ActiveRecord::Schema.define(:version => 20131028212904) do
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
 
   create_table "metadata", :force => true do |t|
-    t.string   "key",        :null => false
-    t.string   "value",      :null => false
+    t.string   "mkey",       :null => false
+    t.string   "mvalue",     :null => false
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -328,10 +326,12 @@ ActiveRecord::Schema.define(:version => 20131028212904) do
     t.datetime "ended_at"
     t.integer  "claimer_id"
     t.integer  "ender_id"
+    t.string   "identifier_token"
   end
 
   add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"
   add_index "phone_calls", ["ender_id"], :name => "index_phone_calls_on_ender_id"
+  add_index "phone_calls", ["identifier_token"], :name => "index_phone_calls_on_identifier_token"
   add_index "phone_calls", ["state"], :name => "index_phone_calls_on_state"
 
   create_table "plan_offerings", :force => true do |t|
@@ -349,6 +349,12 @@ ActiveRecord::Schema.define(:version => 20131028212904) do
   create_table "plans", :force => true do |t|
     t.string   "name"
     t.boolean  "monthly"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "programs", :force => true do |t|
+    t.string   "title",      :null => false
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -401,6 +407,22 @@ ActiveRecord::Schema.define(:version => 20131028212904) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "symptom_selfcare_items", :force => true do |t|
+    t.text     "description"
+    t.integer  "symptom_selfcare_id"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
+
+  add_index "symptom_selfcare_items", ["symptom_selfcare_id"], :name => "index_symptom_selfcare_items_on_symptom_selfcare_id"
+
+  create_table "symptom_selfcares", :force => true do |t|
+    t.text     "description"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.integer  "symptom_id"
+  end
+
   create_table "symptoms", :force => true do |t|
     t.string   "name"
     t.datetime "created_at",   :null => false
@@ -408,6 +430,7 @@ ActiveRecord::Schema.define(:version => 20131028212904) do
     t.string   "patient_type"
     t.string   "description"
     t.text     "selfcare"
+    t.string   "gender"
   end
 
   create_table "symptoms_factors", :force => true do |t|

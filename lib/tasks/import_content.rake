@@ -7,7 +7,7 @@ namespace :admin do
     skipped = []
     failed = []
 
-    filenames = Dir.glob(args.extras.any? ? args.extras : './db/mayo_content/*.xml')
+    filenames = Dir.glob(args.extras.try(:any?) ? args.extras : './db/mayo_content/*.xml')
     num_files = filenames.count
     padding = Math::log10(num_files).ceil
 

@@ -3,8 +3,8 @@ CarrierWave.configure do |config|
 
       # required
       :provider               => 'AWS',
-      :aws_access_key_id      => 'AKIAJYP4DRAT7EQ3RREQ',
-      :aws_secret_access_key  => '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',
+      :aws_access_key_id      => AWS_ACCESS_KEY_ID,
+      :aws_secret_access_key  => AWS_SECRET_ACCESS_KEY,
 
       # optional
       :region                 => 'us-west-2'                    # defaults to 'us-east-1'
