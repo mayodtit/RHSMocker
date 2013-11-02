@@ -102,8 +102,8 @@ after 'deploy:update_code', 'deploy:cleanup'
 
 after("deploy:finalize_update", "deploy:fix_symlinks")
 before "deploy:create_symlink", "deploy:web:disable"
-after 'deploy', 'deploy:web:enable'
-#after 'deploy', 'restart_solr'
+after 'deploy', 'deploy:migrate'
+after 'deploy:migrate', 'deploy:web:enable'
 after 'deploy:web:enable', 'complete'
 
 require './config/boot'
