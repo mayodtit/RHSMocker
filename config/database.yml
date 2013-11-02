@@ -24,11 +24,10 @@ test:
 #   pool: 5
 #   timeout: 5000
 
-benchmark:
+devhosted:
   adapter: mysql2
   encoding: utf8
   database: rhs_development
   username: rhs_development
   password: password
   host: localhost
-
