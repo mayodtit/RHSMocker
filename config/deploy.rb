@@ -21,14 +21,14 @@ set :keep_releases, 5
 set :rails_env, "development"
 set :use_sudo,  false
 
-desc "Deploy target bench1 @ EC2"
-task :bench1 do
+desc "Deploy target devhosted (goldenbear @ EC2)"
+task :devhosted do
   set :port, 9722
   set :branch, "devops"
-  set :rails_env,       "benchmark"
-  role :web,            "bench1.getbetter.com"
-  role :app,            "bench1.getbetter.com", :primary => true
-  role :db,             'bench1.getbetter.com', :primary => true
+  set :rails_env, 'devhosted'
+  role :web,      'goldenbear.getbetter.com'
+  role :app,      'goldenbear.getbetter.com', :primary => true
+  role :db,       'goldenbear.getbetter.com', :primary => true
 end
 
 desc "Deploy target bench2 @ FireHost"
