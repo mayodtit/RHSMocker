@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131031224019) do
+ActiveRecord::Schema.define(:version => 20131101002612) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -408,7 +408,7 @@ ActiveRecord::Schema.define(:version => 20131031224019) do
   end
 
   create_table "symptom_selfcare_items", :force => true do |t|
-    t.string   "description"
+    t.text     "description"
     t.integer  "symptom_selfcare_id"
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false

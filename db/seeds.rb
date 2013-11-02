@@ -520,75 +520,234 @@ abdominal_pain_symptom  = Symptom.upsert_attributes({:name=>"Abdominal Pain", :p
 	{:description=>"Abdominal pain can indicate a wide variety of medical conditions. Identify possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"The following self-care tips may be beneficial for mild abdominal pain, but you should still see your doctor for a prompt diagnosis and appropriate treatment."	
 	})
+abdominal_pain_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"The following self-care tips may be beneficial for mild abdominal pain, but you should still see your doctor for a prompt diagnosis and appropriate treatment:",
+                                                                                  :symptom_id=>abdominal_pain_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid foods that you suspect may cause or worsen symptoms, including alcohol", 
+                                          :symptom_selfcare_id=>abdominal_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter antacid as directed on the label", 
+                                          :symptom_selfcare_id=>abdominal_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter anti-diarrhea medication as directed on the label if your abdominal pain is accompanied by diarrhea", 
+                                          :symptom_selfcare_id=>abdominal_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Drink plenty of water if your abdominal pain is accompanied by diarrhea or constipation", 
+                                          :symptom_selfcare_id=>abdominal_pain_selfcare.id)
 
 blood_in_stool_symptom  = Symptom.upsert_attributes({:name=>"Blood in Stool", :patient_type=>"adult"}, 
 	{:description=>"Blood in the stool requires a prompt diagnosis. Identify possible common causes based on symptoms you’re experiencing."})
+## NO SELFCARE
 
 chest_pain_symptom      = Symptom.upsert_attributes({:name=>"Chest Pain", :patient_type=>"adult" }, 
 	{:description=>"Chest pain can indicate a serious condition. Identify possible common causes based on symptoms you're experiencing and learn when to get emergency care."})
+## NO SELFCARE
 
 cough_symptom           = Symptom.upsert_attributes({:name=>"Cough", :patient_type=>"adult"},
 	{:description=>"Cough can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing.",
 	 :selfcare=>"To soothe your cough:"
 	})
+cough_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"To soothe your cough:",
+                                                                                  :symptom_id=>cough_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Drink plenty of fluids, particularly warm water, tea or clear broth", 
+                                          :symptom_selfcare_id=>cough_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Rest", 
+                                          :symptom_selfcare_id=>cough_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a humidifier or take a hot, steamy shower", 
+                                          :symptom_selfcare_id=>cough_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Suck on hard candy or throat lozenges", 
+                                          :symptom_selfcare_id=>cough_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Gargle with warm salt water", 
+                                          :symptom_selfcare_id=>cough_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid irritants, such as cigarette smoke or pet dander", 
+                                          :symptom_selfcare_id=>cough_selfcare.id)
 
 constipation_symptom 	= Symptom.upsert_attributes({:name=>"Constipation", :patient_type=>"adult"},
 	{:description=>"Constipation usually isn't serious and improves with a well-balanced diet and increased water intake. Identify other possible common causes based on symptoms you’re experiencing.",
 	 :selfcare=>"Constipation is a common problem and usually not the result of a serious illness. Lifestyle changes that can help you manage constipation include the following:"
 	})
+constipation_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Constipation is a common problem and usually not the result of a serious illness. Lifestyle changes that can help you manage constipation include the following:",
+                                                                                  :symptom_id=>cough_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Eat high-fiber foods — fruits, vegetables, and whole-grain cereals and breads", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Limit problem foods — those high in fat and sugar, but low in fiber", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Drink plenty of water", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Exercise regularly", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use the toilet when you have the urge", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Add fiber supplements to food or beverages — oat bran, flaxseed or an over-the-counter fiber supplement", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Don't rely on laxatives", 
+                                          :symptom_selfcare_id=>constipation_selfcare.id)
 
 diarrhea_symptom 		= Symptom.upsert_attributes({:name=>"Diarrhea", :patient_type=>"adult"},
 	{:description=>"Diarrhea in adults is common and only rarely due to a serious problem. Identify possible common causes based on symptoms you’re experiencing.",
 		:selfcare=>"Most cases of diarrhea resolve without treatment within a couple of days. In the meantime:"
 	})
+diarrhea_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Most cases of diarrhea resolve without treatment within a couple of days. In the meantime:",
+                                                                                  :symptom_id=>diarrhea_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Drink plenty of clear liquids — water, clear broth or tea", 
+                                          :symptom_selfcare_id=>diarrhea_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"As your bowel movements return to normal, eat bland foods — bananas, soda crackers, toast, rice, boiled potatoes or boiled carrots", 
+                                          :symptom_selfcare_id=>diarrhea_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid dairy products", 
+                                          :symptom_selfcare_id=>diarrhea_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid fatty, greasy, high-fiber, sweet or spicy foods", 
+                                          :symptom_selfcare_id=>diarrhea_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid caffeine and alcohol", 
+                                          :symptom_selfcare_id=>diarrhea_selfcare.id)
 
 difficulty_swallowing_symptom = Symptom.upsert_attributes({:name=>"Difficulty Swallowing", :patient_type=>"adult"},
 	{:description=>"Difficulty swallowing means that it takes more time or effort to swallow. Identify possible common causes based on symptoms you're experiencing."})
 
+## No Selfcare
+
 dizziness_symptom 			= Symptom.upsert_attributes({:name=>"Dizziness", :patient_type=>"adult"},
 	{:description=>"Dizziness can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing."})
 
+## No Selfcare
+
 eye_discomfort_symptom 		= Symptom.upsert_attributes({:name=>"Eye Discomfort", :patient_type=>"adult"},
 	{:description=>"Eye discomfort and redness can be concerning and disrupt your ability to do everyday activities. Identify possible common causes based on symptoms you're experiencing."})
+
+## No Selfcare
 
 foot_ankle_pain_symptom 	= Symptom.upsert_attributes({:name=>"Foot/Ankle Pain", :patient_type=>"adult"},
 	{:description=>"Foot pain or ankle pain can be distressing and limit your ability to get around. Identify possible common causes based on symptoms you’re experiencing.",
 	 :selfcare=>"If you've injured your foot or ankle, follow these guidelines, often called the P.R.I.C.E. treatment:"
 	 })
+foot_ankle_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"If you've injured your foot or ankle, follow these guidelines, often called the P.R.I.C.E. treatment:",
+                                                                                  :symptom_id=>foot_ankle_pain_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Protect: Protect the area from further injury", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Rest: Avoid activities that hurt", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Ice: Reduce pain and inflammation with an ice pack", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Compress: Reduce swelling with an elastic bandage", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Elevate: Raise your foot or ankle as you rest", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"You may temporarily lessen pain with an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers", 
+                                          :symptom_selfcare_id=>foot_ankle_selfcare.id)
+
 foot_leg_swelling_symptom 	= Symptom.upsert_attributes({:name=>"Foot/Leg Swelling", :patient_type=>"adult"},
 	{:description=>"Foot or leg swelling occurs because of inflammation or the accumulation of fluid in tissues. Identify possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"If you experience leg or foot swelling not related to an injury or joint pain, you may try the following self-care strategies to lessen symptoms:"
 	 })
+
 headache_symptom 			= Symptom.upsert_attributes({:name=>"Headache", :patient_type=>"adult"},
 	{:description=>"Headaches are common and usually aren't the result of serious illness. Identify possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"For occasional tension headaches, the following self-care strategies may provide relief:"
 	 })
+
 heart_palpitations_symptom 	= Symptom.upsert_attributes({:name=>"Heart Palpitations", :patient_type=>"adult"},
 	{:description=>"Heart palpitations are racing, uncomfortable or irregular heartbeats or a 'flopping' sensation in your chest. Identify possible common causes based on symptoms you're experiencing."})
+## No Selfcare
+
 hip_pain_symptom 			= Symptom.upsert_attributes({:name=>"Hip Pain", :patient_type=>"adult"}, 
 	{:description=>"Hip pain can affect your ability to move about normally. Identify possible common causes based on symptoms you’re experiencing.",
 	 :selfcare=>"The following self-care strategies may temporarily lessen pain in your hip:"
 	})
+hip_pain_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"The following self-care strategies may temporarily lessen pain in your hip:",
+                                                                                  :symptom_id=>hip_pain_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use an ice pack to reduce pain and inflammation", 
+                                          :symptom_selfcare_id=>hip_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Rest and avoid any activities that hurt", 
+                                          :symptom_selfcare_id=>hip_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the package label, and do not take combinations of pain relievers", 
+                                          :symptom_selfcare_id=>hip_pain_selfcare.id)
+
 knee_pain_symptom 			= Symptom.upsert_attributes({:name=>"Knee Pain", :patient_type=>"adult"},
 	{:description=>"Knee pain can seriously impair walking and exercise. Identify possible common causes based on symptoms you're experiencing.",
 	:selfcare=>"You may temporarily lessen pain with an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers. If you're experiencing knee pain, follow these guidelines, often called the P.R.I.C.E. treatment:"
 	})
+knee_pain_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"If you're experiencing knee pain, follow these guidelines, often called the P.R.I.C.E. treatment:",
+                                                                                  :symptom_id=>knee_pain_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Protect: Protect the area from further injury", 
+                                          :symptom_selfcare_id=>knee_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Rest: Avoid activities that hurt", 
+                                          :symptom_selfcare_id=>knee_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Ice: Reduce pain and inflammation with an ice pack", 
+                                          :symptom_selfcare_id=>knee_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Compress: Reduce swelling with an elastic bandage", 
+                                          :symptom_selfcare_id=>knee_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Elevate: Raise your foot or ankle as you rest", 
+                                          :symptom_selfcare_id=>knee_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"You may temporarily lessen pain with an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers", 
+                                          :symptom_selfcare_id=>knee_pain_selfcare.id)
+
 low_back_pain_symptom 		= Symptom.upsert_attributes({:name=>"Low Back Pain", :patient_type=>"adult"},
 	{:description=>"Low back pain can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing.",
 	 :selfcare=>"Back pain usually improves on its own. In the meantime, try these strategies:"
 	})
+back_pain_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Back pain usually improves on its own. In the meantime, try these strategies:",
+                                                                                  :symptom_id=>low_back_pain_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid heavy lifting, pushing, pulling, bending or twisting", 
+                                          :symptom_selfcare_id=>back_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid sitting for long periods of time", 
+                                          :symptom_selfcare_id=>back_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Continue your usual activities as much as possible", 
+                                          :symptom_selfcare_id=>back_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Engage in gentle exercise, such as walking", 
+                                          :symptom_selfcare_id=>back_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a heating pad or take a warm bath", 
+                                          :symptom_selfcare_id=>back_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers", 
+                                          :symptom_selfcare_id=>back_pain_selfcare.id)
+
 nasal_congestion_symptom 	= Symptom.upsert_attributes({:name=>"Nasal Congestion", :patient_type=>"adult"},
 	{:description=>"Nasal congestion is a common problem in adults. Identify possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"To relieve a stuffy nose:"
 	 })
+nasal_congestion_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"To relieve a stuffy nose:",
+                                                                                  :symptom_id=>nasal_congestion_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Gently blow your nose, or sniff and swallow", 
+                                          :symptom_selfcare_id=>nasal_congestion_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Breathe steam from a warm shower", 
+                                          :symptom_selfcare_id=>nasal_congestion_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a humidifier", 
+                                          :symptom_selfcare_id=>nasal_congestion_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a nasal saline spray", 
+                                          :symptom_selfcare_id=>nasal_congestion_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Try an oral decongestant", 
+                                          :symptom_selfcare_id=>nasal_congestion_selfcare.id)
+
 nausea_or_vomiting_symptom 	= Symptom.upsert_attributes({:name=>"Nausea of Vomiting", :patient_type=>"adult"},
 	{:description=>"Nausea or vomiting is most often caused by the stomach flu. Identify other possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"If you're experiencing nausea or vomiting:"
 	 })
+nausea_or_vomiting_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"If you're experiencing nausea or vomiting:",
+                                                                                  :symptom_id=>nausea_or_vomiting_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Rest", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Drink small amounts of water or sports drinks", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Eat foods with high water content, such as broth and gelatin", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Eat bland foods, such as crackers, toast and rice", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid unpleasant food odors", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid dairy products and fatty or heavily seasoned foods", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid caffeine and alcohol", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_selfcare.id)
+
+
 neck_pain_symptom 			= Symptom.upsert_attributes({:name=>"Neck Pain", :patient_type=>"adult"},
 	{:description=>"Neck pain may be a short-term problem or a chronic disability. Identify possible common causes based on symptoms you're experiencing.",
 	:selfcare=>"The following tips may help relieve mild to moderate neck pain:"
 	})
+neck_pain_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"The following tips may help relieve mild to moderate neck pain:",
+                                                                                      :symptom_id=>neck_pain_symptom.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use ice to reduce pain and inflammation", 
+                                          :symptom_selfcare_id=>neck_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Gently stretch or massage your neck", 
+                                          :symptom_selfcare_id=>neck_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid activities that are painful", 
+                                          :symptom_selfcare_id=>neck_pain_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers", 
+                                          :symptom_selfcare_id=>neck_pain_selfcare.id)
 
 numbness_in_hands_symptom 	= Symptom.upsert_attributes({:name=>"Numbness in Hands", :patient_type=>"adult"},
 	{:description=>"Numbness or tingling in hands is often triggered by injury or repetitive use. Identify possible common causes based on symptoms you're experiencing."})

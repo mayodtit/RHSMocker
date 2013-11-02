@@ -9,7 +9,7 @@
       - if content.content_updated_at
         %div Updated #{content.content_updated_at.strftime('%m/%d/%Y')}
       %div &copy;2013&nbsp;Mayo Foundation for Medical Education and Research (MFMER).<br>All rights reserved.
-      = image_tag 'content_from_mayo_logo.jpeg'
+      = image_tag 'content_from_mayo_logo.png'
   - if content.show_call_option?
     .talk{:data => {:content_id => content.id, :message => "I was reading the article '#{content.title}' and would like to discuss it with a Personal Health Assistant."}}
       Discuss this with a Personal Health Assistant
