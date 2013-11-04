@@ -114,4 +114,105 @@ namespace :seeds do
                                        :start_date => Date.parse('22/6/2013'))
     end
   end
+
+  task :care => :environment do
+    BOOL_SET = [true, false]
+    LAST_NAMES = ['Smith', 'Henry', 'Johnson', 'Patel', 'Chen', 'Nightingale', 'Richards', 'Shah', 'Singh', 'Rivera', 'Lin']
+    GENDERS = ['male', 'female']
+
+    def time_rand from = Time.parse('1/1/1930'), to = Time.parse('1/1/1995')
+      Time.at(from + rand * (to.to_f - from.to_f))
+    end
+
+    # Create some members, a consult, and a phone call
+    %w(joey@example.com, suzy@example.com, geoff@example.com, jackie@example.com, peter@example.com, tarsem@example.com, ruchi@example.com).each do |email|
+      m = Member.find_or_create_by_email!(email)
+
+      attrs = {
+        password: 'careportal',
+        password_confirmation: 'careportal'
+      }
+
+      if BOOL_SET.sample
+        attrs[:first_name] = email[/[^@]+/].capitalize
+      else
+        attrs[:first_name] = nil
+
+      if BOOL_SET.sample
+        attrs[:last_name] = LAST_NAMES.sample
+      else
+        attrs[:last_name] = nil
+
+      if BOOL_SET.sample
+        attrs[:birth_date] = time_rand
+      else
+        attrs[:birth_date] = nil
+
+      if BOOL_SET.sample
+        attrs[:gender] = GENDERS.sample
+      else
+        attrs[:gender] = nil
+
+      m.update_attributes! attrs
+
+      c = Consult.create!(
+        title: 'Hip hurting',
+        status: 'open',
+        priority: 'low',
+        description: 'My hip hurts really badly.',
+        initiator_id: m.id,
+        subject_id: m.id,
+        add_user: m,
+        phone_call: {
+          message: nil,
+          destination_phone_number: '855-234-5678'
+        }
+      )
+    end
+
+    TO_INVITE = %w(clarissa@mayo.example.com matt@mayo.example.com)
+
+    # Create some ghost users to invite
+    TO_INVITE.each do |email|
+      m = Member.find_or_create_by_email!(email)
+      m.update_attributes!(
+        first_name: email[/[^@]+/].capitalize,
+        last_name: LAST_NAMES.sample,
+      )
+
+      m.add_role :hcp
+    end
+
+    # Create some admins
+    %w(paul@admin.getbetter.com abhik@admin.getbetter.com clare@admin.getbetter.com geoff@admin.getbetter.com mark@admin.getbetter.com).each do |email|
+      m = Member.find_or_create_by_email!(email)
+      m.update_attributes!(
+        password: 'careportal',
+        password_confirmation: 'careportal',
+        first_name: email[/[^@]+/].capitalize,
+        last_name: LAST_NAMES.sample,
+      )
+
+      m.add_role :admin
+
+      # Invite the nurses
+      TO_INVITE.each do |email|
+        n = Member.find_by_email!(email)
+        m.invitations.create invited_member: n
+      end
+    end
+
+    # Create some nurses
+    %w(florence@mayo.example.com mary@mayo.example.com walt@mayo.example.com clarissa@mayo.example.com).each do |email|
+      m = Member.find_or_create_by_email!(email)
+      m.update_attributes!(
+        password: 'careportal',
+        password_confirmation: 'careportal',
+        first_name: email[/[^@]+/].capitalize,
+        last_name: LAST_NAMES.sample,
+      )
+
+      m.add_role :hcp
+    end
+  end
 end
