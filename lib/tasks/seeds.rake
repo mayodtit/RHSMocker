@@ -125,7 +125,7 @@ namespace :seeds do
     end
 
     # Create some members, a consult, and a phone call
-    %w(joey@example.com, suzy@example.com, geoff@example.com, jackie@example.com, peter@example.com, tarsem@example.com, ruchi@example.com).each do |email|
+    %w(joey@example.com suzy@example.com geoff@example.com jackie@example.com peter@example.com tarsem@example.com ruchi@example.com).each do |email|
       m = Member.find_or_create_by_email!(email)
 
       attrs = {
