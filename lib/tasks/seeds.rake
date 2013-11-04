@@ -124,9 +124,16 @@ namespace :seeds do
       Time.at(from + rand * (to.to_f - from.to_f))
     end
 
-    # Create some members, a consult, and a phone call
+    puts 'Creating members along with a phone call...'
     %w(joey@example.com suzy@example.com geoff@example.com jackie@example.com peter@example.com tarsem@example.com ruchi@example.com).each do |email|
-      m = Member.find_or_create_by_email!(email)
+      m = Member.find_or_create_by_email!(
+        email: email,
+        agreement_params: {
+          ids: Agreement.active.pluck(:id),
+          ip_address: '255.255.255.255',
+          user_agent: 'seeds'
+        }
+      )
 
       attrs = {
         password: 'careportal',
@@ -176,9 +183,17 @@ namespace :seeds do
 
     TO_INVITE = %w(clarissa@mayo.example.com matt@mayo.example.com)
 
-    # Create some ghost users to invite
+    puts 'Creating ghost members to invite as nurses...'
     TO_INVITE.each do |email|
-      m = Member.find_or_create_by_email!(email)
+      m = Member.find_or_create_by_email!(
+        email: email,
+        agreement_params: {
+          ids: Agreement.active.pluck(:id),
+          ip_address: '255.255.255.255',
+          user_agent: 'seeds'
+        }
+      )
+
       m.update_attributes!(
         first_name: email[/[^@]+/].capitalize,
         last_name: LAST_NAMES.sample,
@@ -187,9 +202,17 @@ namespace :seeds do
       m.add_role :hcp
     end
 
-    # Create some admins
+    puts 'Creating admins with each inviting a ghost member...'
     %w(paul@admin.getbetter.com abhik@admin.getbetter.com clare@admin.getbetter.com geoff@admin.getbetter.com mark@admin.getbetter.com).each do |email|
-      m = Member.find_or_create_by_email!(email)
+      m = Member.find_or_create_by_email!(
+        email: email,
+        agreement_params: {
+          ids: Agreement.active.pluck(:id),
+          ip_address: '255.255.255.255',
+          user_agent: 'seeds'
+        }
+      )
+
       m.update_attributes!(
         password: 'careportal',
         password_confirmation: 'careportal',
@@ -206,9 +229,17 @@ namespace :seeds do
       end
     end
 
-    # Create some nurses
+    puts 'Creating nurses...'
     %w(florence@mayo.example.com mary@mayo.example.com walt@mayo.example.com clarissa@mayo.example.com).each do |email|
-      m = Member.find_or_create_by_email!(email)
+      m = Member.find_or_create_by_email!(
+        email: email,
+        agreement_params: {
+          ids: Agreement.active.pluck(:id),
+          ip_address: '255.255.255.255',
+          user_agent: 'seeds'
+        }
+      )
+
       m.update_attributes!(
         password: 'careportal',
         password_confirmation: 'careportal',
