@@ -137,21 +137,25 @@ namespace :seeds do
         attrs[:first_name] = email[/[^@]+/].capitalize
       else
         attrs[:first_name] = nil
+      end
 
       if BOOL_SET.sample
         attrs[:last_name] = LAST_NAMES.sample
       else
         attrs[:last_name] = nil
+      end
 
       if BOOL_SET.sample
         attrs[:birth_date] = time_rand
       else
         attrs[:birth_date] = nil
+      end
 
       if BOOL_SET.sample
         attrs[:gender] = GENDERS.sample
       else
         attrs[:gender] = nil
+      end
 
       m.update_attributes! attrs
 
@@ -196,8 +200,8 @@ namespace :seeds do
       m.add_role :admin
 
       # Invite the nurses
-      TO_INVITE.each do |email|
-        n = Member.find_by_email!(email)
+      TO_INVITE.each do |mail|
+        n = Member.find_by_email!(mail)
         m.invitations.create invited_member: n
       end
     end
