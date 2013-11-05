@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00508
 		</OriginalURL>
 		<UpdateDate>
-			2010-05-01
+			2013-06-01
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -59,7 +59,7 @@
 Preheat the oven to 400 F. Lightly coat a baking sheet with cooking spray. 
 &lt;/p&gt;
 &lt;p&gt;
-Soak the potato wedges in ice water for 5 minutes. Drain the potatoes and rinse thoroughly under cold water. Press between paper towels to dry. Transfer potatoes to a large bowl, pour the olive oil over the potatoes and toss to coat evenly. 
+Soak the potato wedges in ice water for 5 minutes. Drain the potatoes and rinse thoroughly under cold water. Press between paper towels to dry. Transfer potatoes to a large bowl, pour the olive oil over the potatoes and toss to coat evenly.
 &lt;/p&gt;
 &lt;p&gt;
 Arrange the potatoes in a single layer on the prepared baking sheet. Bake for 15 minutes. Turn the potatoes over and bake another 5 minutes. Sprinkle the herbs over the potatoes. Return the potatoes to the oven and bake until they&apos;re brown and crispy, about 5 minutes. Serve immediately. 
@@ -127,7 +127,7 @@ Arrange the potatoes in a single layer on the prepared baking sheet. Bake for 15
 				2 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
-				2.5 g
+				2 g
 			</Monounsaturatedfat>
 			<Protein Label="Protein">
 				2 g
@@ -137,13 +137,17 @@ Arrange the potatoes in a single layer on the prepared baking sheet. Bake for 15
 			</Saturatedfat>
 			<Servingsize Label="Serving size" />
 			<Sodium Label="Sodium">
-				7 mg
+				20 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
 			<TotalFat Label="Total fat">
 				4 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>

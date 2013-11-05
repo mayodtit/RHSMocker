@@ -1,0 +1,220 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY02238
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/noninvasive-prenatal-testing/MY02238
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-23
+		</UpdateDate>
+		<PublicationDate>
+			2013-02-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5198" Title="Pregnancy week by week">
+							<Keyword MCVID="3400" Title="Week 9" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5210" Title="Prenatal care">
+							<Keyword MCVID="5211" Title="Medical tests" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3887" Title="Life stage">
+						<Keyword MCVID="3052" Title="Pregnancy">
+							<Keyword MCVID="5434" Title="Noninvasive prenatal testing" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DAED6A40-D44C-59CD-155AAB4DD0A9BD66
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				noninvasive prenatal testing
+			</MetaKeyword>
+			<MetaKeyword>
+				down syndrome blood test
+			</MetaKeyword>
+			<MetaKeyword>
+				genetic testing
+			</MetaKeyword>
+			<MetaKeyword>
+				trisomy 18 blood test
+			</MetaKeyword>
+			<MetaKeyword>
+				trisomy 13 blood test
+			</MetaKeyword>
+			<MetaKeyword>
+				Edward&apos;s syndrome blood test
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Noninvasive prenatal testing (NIPT), also known as noninvasive prenatal diagnosis (NIPD), is a screening method for detecting certain specific chromosomal abnormalities in a developing baby. 
+&lt;/p&gt;
+&lt;p&gt;
+Noninvasive prenatal testing is a sophisticated blood test that examines fetal DNA in the maternal bloodstream to determine whether your baby is at risk of Down syndrome, extra sequences of chromosome 13 (trisomy 13), extra sequences of chromosome 18 (trisomy 18) or a sex chromosome abnormality, such as Turner syndrome. The testing can also be used to determine a baby&apos;s sex and rhesus (Rh) blood type. 
+&lt;/p&gt;
+&lt;p&gt;
+Currently, noninvasive prenatal testing is only available for women who have certain risk factors. 
+&lt;/p&gt;
+&lt;p&gt;
+Noninvasive prenatal testing might help you avoid other tests that might put your pregnancy at risk. Your health care provider or a genetic counselor will discuss whether noninvasive prenatal testing might benefit you and how to interpret the results. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Noninvasive prenatal testing is much more sensitive and specific than traditional first and second trimester screening. As a result, noninvasive testing can often help women who have certain risk factors avoid invasive testing, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Amniocentesis.&lt;/strong&gt; During this procedure, a small sample of the fluid that surrounds and protects the baby during pregnancy (amniotic fluid) is removed from the uterus for testing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chorionic villus sampling (CVS).&lt;/strong&gt; During CVS, a small sample of the wispy projections that are part of the developing placenta (chorionic villi) are removed from the placenta for testing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Amniocentesis and CVS both carry a slight risk of miscarriage. 
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider might recommend noninvasive prenatal testing first if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You have risk factors for having a baby who has a chromosomal condition.&lt;/strong&gt; Noninvasive prenatal testing can determine whether your baby is at risk of a chromosomal condition. Risk factors might include older maternal age or having previously given birth to a baby who has Down syndrome, trisomy 13 or trisomy 18. Your health care provider also might recommend noninvasive prenatal testing if you&apos;ve gotten worrisome results from another prenatal screening test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re a carrier of an X-linked recessive disorder.&lt;/strong&gt; X-linked recessive disorders, such as Duchenne&apos;s muscular dystrophy or a blood-clotting disorder (hemophilia), typically affect only males. Noninvasive prenatal testing can determine the sex of your baby earlier than an ultrasound. While noninvasive prenatal testing can determine your baby&apos;s sex, it won&apos;t determine if your baby has the disorder. Depending on your test results, a genetic counselor can help you understand the next steps.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You have an Rh negative blood type.&lt;/strong&gt; Noninvasive prenatal testing can determine your baby&apos;s Rh factor. If you&apos;re Rh negative and your baby is Rh positive, you might produce Rh antibodies after exposure to your baby&apos;s red blood cells. This is called becoming sensitized. (This is typically not a concern during a first pregnancy, but can be a concern during subsequent pregnancies.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+While noninvasive prenatal testing is currently recommended for women at high risk of carrying a baby who has a chromosomal abnormality, research is under way to see how it might be helpful for other women. Research is also being done to see what other chromosomal abnormalities and genetic conditions can be detected through this type of testing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Noninvasive prenatal testing poses no physical risks for you or your baby. 
+&lt;/p&gt;
+&lt;p&gt;
+While noninvasive prenatal testing might cause anxiety, it might help you avoid the need for more invasive tests, treatment or monitoring during your pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind, however, that noninvasive prenatal testing doesn&apos;t screen for all chromosomal or genetic conditions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re interested in noninvasive prenatal testing, talk to your health care provider about its availability. Also, consider checking to see if your health insurance covers the cost of noninvasive prenatal testing. 
+&lt;/p&gt;
+&lt;p&gt;
+Before you undergo noninvasive prenatal testing, your health care provider or a genetic counselor will explain the possible results and what they might mean for you and your baby. Be sure to discuss any questions or concerns you have about the testing process. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Noninvasive prenatal testing can be done as early as week 10 of pregnancy.
+&lt;/p&gt;
+&lt;p&gt;
+During noninvasive prenatal testing a maternal blood sample is taken and sent to a lab. The lab analyzes the maternal and fetal DNA in the blood sample. A higher than expected ratio of chromosome 21 sequences indicates, for example, the likely presence of trisomy 21 in the baby. Trisomy 21 is the most common cause of Down syndrome.
+&lt;/p&gt;
+&lt;p&gt;
+Typically, test results are available within two weeks.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your health care provider or a genetic counselor will explain the results of noninvasive prenatal testing. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chromosomal conditions.&lt;/strong&gt; If the test results are normal, you might not need further testing. However, if results indicate the likelihood that your baby has a chromosomal abnormality, amniocentesis or CVS will be offered. Further testing using the sample from amniocentesis or CVS can be used to confirm the diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fetal sex.&lt;/strong&gt; If you&apos;re the carrier of an X-linked recessive disorder and the test results indicate that you&apos;re carrying a girl, you might not need further testing. If the test results indicate that you&apos;re carrying a boy, amniocentesis or CVS will be offered. These tests can be used to diagnose a genetic condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rh factor.&lt;/strong&gt; If you&apos;re Rh negative and the test results indicate that your baby is Rh negative, you won&apos;t need medication to prevent your body from producing Rh antibodies during your pregnancy. If the test results indicate that your baby is Rh positive and you&apos;ve previously become sensitized, your baby will be carefully monitored.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Chromosomal abnormalities can&apos;t be corrected. If your baby is diagnosed with a chromosomal abnormality, you&apos;ll need to decide whether to continue with your pregnancy or what steps to take to care for your baby during pregnancy and after he or she is born. Your health care provider or a genetic counselor can help answer any questions you might have. 
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind that regardless of the results of noninvasive prenatal testing, if you have risk factors that suggest your baby might be at increased risk of a chromosomal condition you have the option of undergoing amniocentesis or CVS. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Noninvasive prenatal testing
+	</Title>
+	<Abstract>
+		Find out how noninvasive prenatal testing might benefit you and your baby.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

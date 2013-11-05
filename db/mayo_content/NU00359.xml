@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00359
 		</OriginalURL>
 		<UpdateDate>
-			2007-05-01
+			2013-05-01
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -33,6 +33,12 @@
 			<MetaKeyword>
 				mayocliniccookbook
 			</MetaKeyword>
+			<MetaKeyword>
+				apples
+			</MetaKeyword>
+			<MetaKeyword>
+				apple recipes
+			</MetaKeyword>
 		</MetaKeywords>
 		<HasFlash>
 			0
@@ -43,32 +49,43 @@
 	<Title>
 		Recipe: Apple corn muffins
 	</Title>
-	<Abstract />
+	<Abstract>
+		Apple corn muffins &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
 	<ServingInfo Label="Serves">
 		MAKES 12 MUFFINS
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
-		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Of the many varieties available, Baldwin, Braeburn, Cortland, Fuji and Gala are among the best apples to use in baked goods or for eating raw. When buying apples, select those that are firm and even-colored and don&apos;t have bruises, holes or soft spots.&lt;/p&gt;
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Of the many varieties available, Baldwin, Braeburn, Cortland, Fuji and Gala are among the best apples to use in baked goods. When buying apples, select those that are firm and even-colored and don&apos;t have bruises, holes or soft spots.
+&lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
-		&lt;p&gt;Preheat the oven to 425 F. Line a 12-cup muffin pan with paper or foil liners.&lt;/p&gt;
-
-&lt;p&gt;In a large bowl, combine the flour, cornmeal, brown sugar, baking powder and salt. Stir to blend evenly.&lt;/p&gt;
-
-&lt;p&gt;In a separate bowl, combine the milk and egg whites. Add the apple and corn, whisk to mix evenly and pour over the flour mixture. Stir lightly until all are slightly moist. The batter will be lumpy.&lt;/p&gt;
-
-&lt;p&gt;Fill prepared muffin cups 2/3 full and bake about 30 minutes. Tops will spring back when touched.&lt;/p&gt;
+		&lt;p&gt;
+Preheat the oven to 425 F. Line a 12-cup muffin pan with paper or foil liners. 
+&lt;/p&gt;
+&lt;p&gt;
+In a large bowl, combine flour, cornmeal, brown sugar, baking powder and salt. Stir to blend evenly. 
+&lt;/p&gt;
+&lt;p&gt;
+In a separate bowl, combine milk and egg whites. Add chopped apple and corn kernels. Whisk to mix evenly and pour over the flour mixture. Stir gently until the dry ingredients are slightly moist. The batter will be lumpy. 
+&lt;/p&gt;
+&lt;p&gt;
+Fill prepared muffin cups 2/3 full and bake about 30 minutes. Tops of muffins should spring back to the touch when they&apos;re baked. 
+&lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
-		&lt;p&gt;2 cups all-purpose (plain) flour&lt;br /&gt;
-1/2 cup yellow cornmeal&lt;br /&gt;
-1/4 cup packed brown sugar&lt;br /&gt;
-1 tablespoon baking powder&lt;br /&gt;
-1/4 teaspoon salt&lt;br /&gt;
-3/4 cup fat-free milk&lt;br /&gt;
-2 egg whites&lt;br /&gt;
-1 apple, peeled and coarsely chopped&lt;br /&gt;
-1/2 cup corn kernels&lt;/p&gt;
+		&lt;ul&gt;
+	&lt;li&gt;2 cups all-purpose flour&lt;/li&gt;
+	&lt;li&gt;1/2 cup yellow cornmeal&lt;/li&gt;
+	&lt;li&gt;1/4 cup packed brown sugar&lt;/li&gt;
+	&lt;li&gt;1 tablespoon baking powder&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon salt&lt;/li&gt;
+	&lt;li&gt;3/4 cup fat-free milk&lt;/li&gt;
+	&lt;li&gt;2 egg whites&lt;/li&gt;
+	&lt;li&gt;1 apple, peeled and coarsely chopped&lt;/li&gt;
+	&lt;li&gt;1/2 cup corn kernels &lt;/li&gt;
+&lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
@@ -107,37 +124,41 @@
 		</HWP>
 		<NutrientAnalysis Label="Nutritional Analysis per serving">
 			<Calories Label="Calories">
-				130
+				120
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
-				28 g
+				26 g
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
-				3 mg
+				trace
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
 				1 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
-				0 g
+				trace
 			</Monounsaturatedfat>
 			<Protein Label="Protein">
 				4 g
 			</Protein>
 			<Saturatedfat Label="Saturated fat">
-				0 g
+				trace
 			</Saturatedfat>
 			<Servingsize Label="Serving size">
 				1 muffin
 			</Servingsize>
 			<Sodium Label="Sodium">
-				150 mg
+				127 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				3 g
+			</Sugars>
 			<TotalFat Label="Total fat">
 				&lt; 1 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>
@@ -170,6 +191,9 @@
 		</Category>
 		<Category CategoryLabel="Meal">
 			Dinner
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
 		</Category>
 		<Category CategoryLabel="Special diets">
 			Heart-healthy

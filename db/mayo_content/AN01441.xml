@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/acute-bronchitis/AN01441
 		</OriginalURL>
 		<UpdateDate>
-			2010-10-07
+			2013-05-23
 		</UpdateDate>
 		<PublicationDate>
 			2006-10-09
@@ -68,10 +68,19 @@
 			<SectionHead />
 			<HTML>
 				&lt;p&gt;
-In otherwise healthy people, most cases of acute bronchitis are caused by viral infections &amp;mdash; which can spread from person to person through direct and indirect contact. To reduce the risk of &quot;catching&quot; bronchitis, wash your hands often or use hand sanitizers regularly. It&apos;s also helpful to get an annual flu vaccination. Many cases of acute bronchitis result from influenza. 
+Yes. Most cases of acute bronchitis are caused by viral infections. Influenza viruses are a common cause, but many other viruses also have been identified in people with acute bronchitis. These viruses spread from person to person through direct and indirect contact. 
 &lt;/p&gt;
 &lt;p&gt;
-Sometimes people who have chronic bronchitis or asthma also develop acute bronchitis. When acute bronchitis develops as a complication of a chronic disease, it&apos;s less likely to be contagious. 
+To reduce the risk of &quot;catching&quot; bronchitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid close contact with sick people&lt;/li&gt;
+	&lt;li&gt;Wash your hands often or use hand sanitizers regularly&lt;/li&gt;
+	&lt;li&gt;Avoid touching your eyes, nose and mouth&lt;/li&gt;
+	&lt;li&gt;Get an annual flu vaccination&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+People who have chronic bronchitis or asthma sometimes develop acute bronchitis. In these cases, the acute bronchitis is most likely a complication of their existing condition, and not caused by an infectious virus, so it&apos;s less likely to be contagious.
 &lt;/p&gt;
 			</HTML>
 		</Section>
@@ -80,21 +89,22 @@ Sometimes people who have chronic bronchitis or asthma also develop acute bronch
 		Acute bronchitis: Is it contagious?
 	</Title>
 	<Abstract>
-		Acute bronchitis may be contagious if it&apos;s caused by a viral infection.
+		Most cases of acute bronchitis are caused by viruses and are contagious.
 	</Abstract>
 	<Question>
 		Is acute bronchitis contagious?
 	</Question>
 	<QuestionFirstName>
-		Lindsey
+		No name
 	</QuestionFirstName>
 	<QuestionState>
-		Virginia
+		No state given
 	</QuestionState>
 	<BenefitSummary />
 	<RelatedLinksBox>
 		<LinkItem ContentType="TestProcedure" DocID="MY00413" LinkType="Internal" ObjectID="B14D4995-E7FF-0DBD-1E98F85183EE3B1D" Title="Spirometry" Url="http://www.mayoclinic.com/health/spirometry/MY00413" />
 		<LinkItem ContentType="Answer" DocID="AN02143" LinkType="Internal" ObjectID="399DF620-BDAA-8F5C-475E946ECCF36A6F" Title="Trouble breathing: Could it be asthma?" Url="http://www.mayoclinic.com/health/trouble-breathing/AN02143" />
+		<LinkItem ContentType="Article" DocID="MY02523" LinkType="Internal" ObjectID="3BA1D951-96EA-1423-7EA1E4AB155CF29C" Title="How much sleep do you really need?" Url="http://www.mayoclinic.com/health/sleep-custom-site/MY02523" />
 		<LinkItem ContentType="Article" DocID="CC00023" LinkType="Internal" ObjectID="055661AE-8008-40C8-A8526ED085B5CCC1" Title="Secondhand smoke: Avoid dangers in the air" Url="http://www.mayoclinic.com/health/secondhand-smoke/CC00023" />
 		<LinkItem ContentType="Disease" DocID="DS00081" LinkType="Internal" ObjectID="5CB89570-8B46-4961-8BFE66D06D5BDD1B" Title="Influenza (flu)" Url="http://www.mayoclinic.com/health/influenza/DS00081" />
 		<LinkItem ContentType="Disease" DocID="DS00967" LinkType="Internal" ObjectID="0AB1073D-E7FF-0DBD-166CDBDA5B87C689" Title="GERD" Url="http://www.mayoclinic.com/health/gerd/DS00967" />

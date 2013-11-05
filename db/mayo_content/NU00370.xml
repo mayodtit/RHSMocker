@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00370
 		</OriginalURL>
 		<UpdateDate>
-			2007-07-01
+			2013-07-16
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -56,41 +56,41 @@
 		Recipe: Grilled turkey burger
 	</Title>
 	<Abstract>
-		Turkey burger &amp;mdash; one of many healthy recipes from Mayo Clinic.
+		Substituting ground turkey breast for ground beef reduces the calories and saturated fat in this recipe.
 	</Abstract>
 	<ServingInfo Label="Serves">
 		4
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
 		&lt;p&gt;
-&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Substituting ground turkey breast for ground beef sheds about 200 calories, 7 grams of fat and 4 grams of saturated fat.
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Substituting ground turkey breast for ground beef reduces the fat and calories in this recipe. 
 &lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
 		&lt;p&gt;
-Combine the ground turkey breast, bread crumbs, chopped onion, parsley, Worcestershire sauce and hot sauce in a large bowl. Mix well. Divide turkey mixture into 4 equal portions and form into patties.
+Combine the ground turkey breast, bread crumbs, chopped onion, parsley, Worcestershire sauce and hot sauce in a large bowl. Mix well. Divide turkey mixture into 4 equal portions and form into patties. 
 &lt;/p&gt;
 &lt;p&gt;
-Prepare a hot fire in a charcoal grill or heat a gas grill or broiler (grill). Away from the heat source, lightly coat the grill rack or broiler pan with cooking spray. Position the cooking rack 4 to 6 inches from the heat source.
+Prepare a hot fire in a charcoal grill or heat a gas grill or broiler. Away from the heat source, lightly coat the grill rack or broiler pan with cooking spray. Position the cooking rack 4 to 6 inches from the heat source. 
 &lt;/p&gt;
 &lt;p&gt;
-Grill burgers until nicely browned on both sides and heated through, about 7 minutes a side.&amp;nbsp; Serve each burger on a bun topped with 1 tomato slice, 1 onion slice, 1/2 lettuce leaf and a dollop of ketchup.
+Grill burgers until nicely browned on both sides and heated through, about 7 minutes a side. Serve each burger on a bun topped with 1 tomato slice, 1 onion slice, 1/2 lettuce leaf and a dollop of ketchup. 
 &lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
-		&lt;p&gt;
-1 pound ground turkey breast&lt;br /&gt;
-1/4 cup dried bread crumbs&lt;br /&gt;
-1/4 cup chopped onion&lt;br /&gt;
-2 tablespoons fresh parsley, chopped&lt;br /&gt;
-1 1/2 tablespoons Worcestershire sauce&lt;br /&gt;
-1 teaspoon Tabasco (hot) sauce&lt;br /&gt;
-4 whole-grain buns&lt;br /&gt;
-4 slices tomato&lt;br /&gt;
-4 slices red onion&lt;br /&gt;
-2 bibb lettuce leaves, halved&lt;br /&gt;
-4 tablespoons ketchup
-&lt;/p&gt;
+		&lt;ul&gt;
+	&lt;li&gt;1 pound ground turkey breast&lt;/li&gt;
+	&lt;li&gt;1/4 cup dried bread crumbs&lt;/li&gt;
+	&lt;li&gt;1/4 cup chopped onion&lt;/li&gt;
+	&lt;li&gt;2 tablespoons fresh parsley, chopped&lt;/li&gt;
+	&lt;li&gt;1 1/2 tablespoons Worcestershire sauce&lt;/li&gt;
+	&lt;li&gt;1 teaspoon Tabasco (hot) sauce&lt;/li&gt;
+	&lt;li&gt;4 whole-grain buns&lt;/li&gt;
+	&lt;li&gt;4 slices tomato&lt;/li&gt;
+	&lt;li&gt;4 slices red onion&lt;/li&gt;
+	&lt;li&gt;2 bibb lettuce leaves, halved&lt;/li&gt;
+	&lt;li&gt;4 tablespoons ketchup &lt;/li&gt;
+&lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
@@ -101,7 +101,7 @@ Grill burgers until nicely browned on both sides and heated through, about 7 min
 				2
 			</Grains>
 			<Meat Label="Meats, poultry and fish">
-				4
+				3
 			</Meat>
 			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
 			<Sweets Label="Sweets" />
@@ -111,15 +111,15 @@ Grill burgers until nicely browned on both sides and heated through, about 7 min
 		</Dash>
 		<Diabetes Label="Diabetes Meal Plan Exchanges">
 			<Fats Label="Fats" />
-			<Freefoods Label="Free foods" />
+			<Freefoods Label="Free foods">
+				1
+			</Freefoods>
 			<Fruits Label="Fruits" />
 			<Meat Label="Meat and meat substitutes">
-				4
+				3
 			</Meat>
 			<Milk Label="Milk and milk products" />
-			<NonStarchyVegetables Label="Nonstarchy vegetables">
-				1
-			</NonStarchyVegetables>
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
 			<Starches Label="Starches">
 				2
 			</Starches>
@@ -141,42 +141,49 @@ Grill burgers until nicely browned on both sides and heated through, about 7 min
 		</HWP>
 		<NutrientAnalysis Label="Nutritional Analysis per serving">
 			<Calories Label="Calories">
-				244
+				292
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
-				29 g
+				28 g
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
-				59 mg
+				45 mg
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
-				4 g
+				3 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
-				2 g
+				1 g
 			</Monounsaturatedfat>
 			<Protein Label="Protein">
-				17 g
+				36 g
 			</Protein>
 			<Saturatedfat Label="Saturated fat">
-				2 g
+				1 g
 			</Saturatedfat>
 			<Servingsize Label="Serving size">
-				1 prepared burger including bun and toppings
+				1 prepared burger
 			</Servingsize>
 			<Sodium Label="Sodium">
-				340 mg
+				484 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
 			<TotalFat Label="Total fat">
-				8 g
+				4 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>
 		<Category CategoryLabel="Number of servings">
 			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
 		</Category>
 		<Category CategoryLabel="Special diets">
 			Diabetes meal plan

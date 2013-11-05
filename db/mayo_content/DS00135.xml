@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/pneumonia/DS00135
 		</OriginalURL>
 		<UpdateDate>
-			2011-05-10
+			2013-05-21
 		</UpdateDate>
 		<PublicationDate>
 			2000-07-31
@@ -51,7 +51,16 @@
 				pneumonia
 			</MetaKeyword>
 			<MetaKeyword>
+				pneumococcal pneumonia
+			</MetaKeyword>
+			<MetaKeyword>
 				walking pneumonia
+			</MetaKeyword>
+			<MetaKeyword>
+				viral pneumonia
+			</MetaKeyword>
+			<MetaKeyword>
+				bacterial pneumonia
 			</MetaKeyword>
 			<MetaKeyword>
 				mycoplasma
@@ -72,7 +81,7 @@
 				pnuemonia
 			</MetaKeyword>
 			<MetaKeyword>
-				phlem
+				phlegm
 			</MetaKeyword>
 		</MetaKeywords>
 		<HasFlash>
@@ -88,18 +97,21 @@
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-Pneumonia is an inflammation of the lungs caused by infection. Bacteria, viruses, fungi or parasites can cause pneumonia. Pneumonia is a particular concern if you&apos;re older than 65 or have a chronic illness or weak immune system. It can also occur in young, healthy people.
+Pneumonia is an infection that inflames the air sacs in one or both lungs. The air sacs may fill with fluid or pus, causing cough with phlegm or pus, fever, chills and difficulty breathing. A variety of organisms, including bacteria, viruses and fungi, can cause pneumonia. 
 &lt;/p&gt;
 &lt;p&gt;
-Pneumonia can range in seriousness from mild to life-threatening. Pneumonia often is a complication of another condition, such as the flu. Antibiotics can treat most common forms of bacterial pneumonias, but antibiotic-resistant strains are a growing problem. The best approach is to try to prevent infection. 
+Pneumonia can range in seriousness from mild to life-threatening. It is most serious for infants and young children, people older than age 65, and people with underlying health problems or weakened immune systems. 
+&lt;/p&gt;
+&lt;p&gt;
+Antibiotics and antiviral medications can treat many common forms of pneumonia. 
 &lt;/p&gt;
 			</HTML>
 			<PopupMedia>
-				<Thumbnail Alt="Illustration of lungs with pneumonia
-" Caption="Most pneumonia occurs when a breakdown in your body&apos;s natural defenses allows germs to invade and multiply within your lungs. To destroy the attacking organisms, white blood cells rapidly accumulate. Along with bacteria, they fill the air sacs within your lungs (alveoli). Breathing may be labored as air sacs become inflamed and filled with fluid. A classic sign of pneumonia is a cough that produces thick, blood-tinged or yellowish-greenish sputum. 
+				<Thumbnail Alt="Illustration of lungs with pneumonia 
+" Caption="Most pneumonia occurs when a breakdown in your body&apos;s natural defenses allows germs to invade and multiply within your lungs. To destroy the attacking organisms, white blood cells rapidly accumulate. Along with bacteria and fungi, they fill the air sacs within your lungs (alveoli). Breathing may be labored. A classic sign of bacterial pneumonia is a cough that produces thick, blood-tinged or yellowish-greenish sputum with pus.
 " Height="60" Title="Pneumonia and your lungs" URI="/images/image_popup/thumbs/ww5r032t.gif" Width="60" />
-				<Image Alt="Illustration of lungs with pneumonia
-" Caption="Most pneumonia occurs when a breakdown in your body&apos;s natural defenses allows germs to invade and multiply within your lungs. To destroy the attacking organisms, white blood cells rapidly accumulate. Along with bacteria, they fill the air sacs within your lungs (alveoli). Breathing may be labored as air sacs become inflamed and filled with fluid. A classic sign of pneumonia is a cough that produces thick, blood-tinged or yellowish-greenish sputum. 
+				<Image Alt="Illustration of lungs with pneumonia 
+" Caption="Most pneumonia occurs when a breakdown in your body&apos;s natural defenses allows germs to invade and multiply within your lungs. To destroy the attacking organisms, white blood cells rapidly accumulate. Along with bacteria and fungi, they fill the air sacs within your lungs (alveoli). Breathing may be labored. A classic sign of bacterial pneumonia is a cough that produces thick, blood-tinged or yellowish-greenish sputum with pus.
 " Height="241" Title="Pneumonia and your lungs" URI="/images/image_popup/ww5r032.jpg" Width="400" />
 				<HTML>
 					Most pneumonia occurs when a breakdown in your body&apos;s natural defenses allows germs to invade and multiply within your lungs. To destroy the attacking organisms, white blood cells rapidly accumulate. ...
@@ -112,29 +124,42 @@ Pneumonia can range in seriousness from mild to life-threatening. Pneumonia ofte
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-Pneumonia often mimics the flu, beginning with a cough and a fever, so you may not realize you have a more serious condition. Symptoms can vary depending on your age and general health. 
+The signs and symptoms of pneumonia vary from mild to severe, depending upon factors such as the type of germ causing the infection and your age and overall health. Mild signs and symptoms often are similar to those of a cold or flu, but they last longer. 
 &lt;/p&gt;
 &lt;p&gt;
-The signs and symptoms of pneumonia may include: 
+Signs and symptoms of pneumonia include: 
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;Fever&lt;/li&gt;
-	&lt;li&gt;Lower-than-normal body temperature in older people&lt;/li&gt;
-	&lt;li&gt;Cough&lt;/li&gt;
+	&lt;li&gt;Fever, sweating and shaking chills&lt;/li&gt;
+	&lt;li&gt;Lower than normal body temperature in people older than age 65, and in people with poor overall health or weakened immune systems&lt;/li&gt;
+	&lt;li&gt;Cough, which may produce thick, sticky fluid&lt;/li&gt;
+	&lt;li&gt;Chest pain when you breathe deeply or cough&lt;/li&gt;
 	&lt;li&gt;Shortness of breath&lt;/li&gt;
-	&lt;li&gt;Sweating&lt;/li&gt;
-	&lt;li&gt;Shaking chills&lt;/li&gt;
-	&lt;li&gt;Chest pain that fluctuates with breathing (pleurisy)&lt;/li&gt;
+	&lt;li&gt;Fatigue and muscle aches&lt;/li&gt;
+	&lt;li&gt;Nausea, vomiting or diarrhea&lt;/li&gt;
 	&lt;li&gt;Headache&lt;/li&gt;
-	&lt;li&gt;Muscle pain&lt;/li&gt;
-	&lt;li&gt;Fatigue&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
-Because pneumonia can be serious, see your doctor as soon as possible if you have a persistent cough, shortness of breath, chest pain, and fever &amp;mdash; especially a lasting fever of 102 F (39 C) or higher with chills and sweating. Also contact your doctor if you suddenly feel worse after a cold or the flu. 
+Newborns and infants may not show any sign of the infection. Or they may vomit, have a fever and cough, appear restless or tired and without energy, or have difficulty breathing and eating. 
 &lt;/p&gt;
 &lt;p&gt;
-Be especially prompt about seeking medical care if you&apos;re an older adult or you smoke, drink excessively, have an injury, are undergoing chemotherapy or taking medication, such as prednisone, that suppresses your immune system. For some older adults and people with heart failure or lung ailments, pneumonia can quickly become a life-threatening condition. 
+Older people who have pneumonia sometimes have sudden changes in mental awareness. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you have difficulty breathing, chest pain, persistent fever of 102 F (39 C) or higher or persistent cough, especially if you are coughing up pus. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s especially important to see a doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A child with signs and symptoms is younger than age 2&lt;/li&gt;
+	&lt;li&gt;You are older than age 65&lt;/li&gt;
+	&lt;li&gt;You have an underlying health condition or weakened immune system&lt;/li&gt;
+	&lt;li&gt;You&apos;re having chemotherapy or taking medication that suppresses your immune system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For some older adults and people with heart failure or lung ailments, pneumonia can quickly become a life-threatening condition. 
 &lt;/p&gt;
 			</HTML>
 		</Section>
@@ -144,46 +169,43 @@ Be especially prompt about seeking medical care if you&apos;re an older adult or
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-Pneumonia has many possible causes, but the most common ones are bacteria and viruses normally encountered in the environment. Usually your body keeps these microbes from invading your lungs. Sometimes, though, a robust germ can breach your defenses, regardless of your general health. 
+Pneumonia has many possible causes. The most common are bacteria and viruses in the air we breathe. Your body usually prevents these germs from infecting your lungs. But sometimes these germs can overpower your immune system, even if your health is generally good. 
 &lt;/p&gt;
 &lt;p&gt;
-The germs that cause pneumonia in otherwise healthy people are not usually the same ones that cause pneumonia in hospitals and other health care settings. Similarly, the germs that can infect your lungs if you inhale foreign substances (inhalation or aspiration pneumonia) differ from those that cause more-common types of pneumonia. The same is true of the germs that cause pneumonia in people with weak immune responses. 
+Pneumonia is classified according to the types of germs that cause it, and where you acquired the infection. 
 &lt;/p&gt;
 &lt;p&gt;
 &lt;strong&gt;Community-acquired pneumonia&lt;/strong&gt; &lt;br /&gt;
-When you get pneumonia from contact with germs you encounter in the course of your normal routine, it&apos;s called community-acquired pneumonia. These commonplace germs generally cause mild forms of pneumonia that doctors can treat without difficulty. The microbes responsible for most community-acquired pneumonia are: 
+Community-acquired pneumonia is the most common type of pneumonia. It occurs outside of hospitals and other health care facilities, and may be caused by: 
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;strong&gt;Bacteria&lt;/strong&gt;. The bacterium that causes most cases of community-acquired pneumonia is Streptococcus pneumoniae. Other possible agents include Staphylococcus aureus, Haemophilus influenzae and Klebsiella pneumoniae. It&apos;s not unusual to have pneumonia caused by more than one type of bacteria at a time. Methicillin-resistant Staphylococcus aureus (MRSA), an antibiotic-resistant bacterium once found only in health care settings, now causes skin infections and pneumonia in the community, too.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Bacteria-like organisms.&lt;/strong&gt; Mycoplasma pneumoniae is a tiny organism that typically produces milder signs and symptoms than other types of pneumonia. Walking pneumonia, a term used to describe pneumonia that isn&apos;t severe enough to require bed rest, may result from Mycoplasma pneumoniae. Legionella and Chlamydia pneumonia are two other pneumonia-causing germs that are neither bacteria nor viruses.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Viruses.&lt;/strong&gt; Some of the same types of viruses that cause the flu and colds can also cause pneumonia. Although most cases of viral pneumonia are mild and resolve in time with rest and fluids, viral pneumonia caused by influenza viruses can become very serious. Viral pneumonia can set up a prime environment for the invasion of bacteria, causing a second infection.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Fungi and parasites&lt;/strong&gt;. Other less-common causes of community-acquired pneumonia include fungi, parasites and the germ that causes tuberculosis. Most cases of parasitic pneumonia occur in people who live or have traveled in developing countries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bacteria&lt;/strong&gt;, such as Streptococcus pneumoniae. Bacterial community-acquired pneumonia can occur on its own or after you have a cold or respiratory flu. This type of pneumonia often affects one area (lobe) of the lung, a condition called lobar pneumonia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bacteria-like organisms&lt;/strong&gt;, such as Mycoplasma pneumoniae, which typically produce milder signs and symptoms than do other types of pneumonia. &quot;Walking pneumonia,&quot; a term used to describe pneumonia that isn&apos;t severe enough to require bed rest, may result from Mycoplasma pneumoniae.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Viruses&lt;/strong&gt;, including some that are the same type of viruses that cause colds and flu. Viruses are the most common cause of pneumonia in children younger than 2 years. Viral pneumonia is usually mild. But viral pneumonia caused by certain influenza viruses, such as sudden acute respiratory syndrome (SARS), can become very serious.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fungi&lt;/strong&gt;, which can be found in soil and in bird droppings. This type of pneumonia is most common in people with an underlying health problem or weakened immune system and in people who have inhaled a large dose of the organisms.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-&lt;strong&gt;Health-care-acquired pneumonia&lt;/strong&gt; &lt;br /&gt;
-Severe, difficult-to-treat bacterial pneumonia is a major problem in health care facilities &amp;mdash; not only hospitals and nursing homes, but also kidney dialysis centers and outpatient infusion centers, where people regularly receive cancer chemotherapy and other intravenous medications. 
+&lt;strong&gt;Hospital-acquired pneumonia&lt;/strong&gt; &lt;br /&gt;
+Hospital-acquired pneumonia is a bacterial infection that occurs in people 48 hours or more after being hospitalized for another condition. Hospital-acquired pneumonia can be serious because the bacteria causing it may be more resistant to antibiotics. 
 &lt;/p&gt;
 &lt;p&gt;
-Health-care-acquired pneumonia is sometimes caused by strains of Streptococcus pneumoniae and Haemophilus influenzae, which also occur in the community. But the list of germs causing hospital-acquired pneumonia doesn&apos;t stop there. In the hospital setting, bacteria may quickly become resistant to standard antibiotics, so drug resistant germs are much more common. Resistant bacteria such as Pseudomonas aeruginosa and MRSA make treatment difficult. People on breathing machines (ventilators), often used in hospital intensive care units, are particularly vulnerable. 
+People who are on a breathing machine (ventilator), often used in intensive care units, are at higher risk of this type of pneumonia. 
 &lt;/p&gt;
 &lt;p&gt;
-With so many possible culprits and a high likelihood of resistant strains, the challenge in the hospital is to identify the causative organism and determine what antibiotics will work against it. 
+&lt;strong&gt;Health care-acquired pneumonia&lt;/strong&gt; &lt;br /&gt;
+Health care-acquired pneumonia is a bacterial infection that occurs in people who are living in long-term care facilities or have been treated in outpatient clinics, including kidney dialysis centers. Like hospital-acquired pneumonia, health care-acquired pneumonia can be caused by bacteria more resistant to antibiotics. 
 &lt;/p&gt;
 &lt;p&gt;
-&lt;strong&gt;Inhalation or aspiration pneumonia&lt;/strong&gt; &lt;br /&gt;
-Aspiration pneumonia occurs when you breathe foreign matter into your lungs. This can happen if you vomit while asleep or unconscious and breathe in some of the contents of the stomach. Difficulty swallowing, which occurs with diseases such as amyotrophic lateral sclerosis (ALS), Parkinson&apos;s disease and strokes, occasionally leads to aspiration pneumonia. 
-&lt;/p&gt;
-&lt;p&gt;
-&lt;strong&gt;Opportunistic viral, bacterial and fungal pneumonias&lt;/strong&gt; &lt;br /&gt;
-These types of pneumonia strike people with weakened immune systems. Organisms that aren&apos;t harmful for healthy people can be dangerous for people who have had an organ transplant and people with AIDS and other conditions that impair the immune system. Medications that suppress your immune system, such as corticosteroids or chemotherapy, also can put you at risk of opportunistic pneumonia. 
+&lt;strong&gt;Aspiration pneumonia&lt;/strong&gt; &lt;br /&gt;
+Aspiration pneumonia occurs when you inhale food, drink, vomit or saliva into your lungs. This aspiration may happen if something disturbs your normal gag reflex, such as a brain injury, swallowing problem, or excessive use of alcohol or drugs. 
 &lt;/p&gt;
 			</HTML>
 			<PopupMedia>
-				<Thumbnail Alt="Illustration of lungs with pneumonia
-" Caption="Most pneumonia occurs when a breakdown in your body&apos;s natural defenses allows germs to invade and multiply within your lungs. To destroy the attacking organisms, white blood cells rapidly accumulate. Along with bacteria, they fill the air sacs within your lungs (alveoli). Breathing may be labored as air sacs become inflamed and filled with fluid. A classic sign of pneumonia is a cough that produces thick, blood-tinged or yellowish-greenish sputum. 
+				<Thumbnail Alt="Illustration of lungs with pneumonia 
+" Caption="Most pneumonia occurs when a breakdown in your body&apos;s natural defenses allows germs to invade and multiply within your lungs. To destroy the attacking organisms, white blood cells rapidly accumulate. Along with bacteria and fungi, they fill the air sacs within your lungs (alveoli). Breathing may be labored. A classic sign of bacterial pneumonia is a cough that produces thick, blood-tinged or yellowish-greenish sputum with pus.
 " Height="60" Title="Pneumonia and your lungs" URI="/images/image_popup/thumbs/ww5r032t.gif" Width="60" />
-				<Image Alt="Illustration of lungs with pneumonia
-" Caption="Most pneumonia occurs when a breakdown in your body&apos;s natural defenses allows germs to invade and multiply within your lungs. To destroy the attacking organisms, white blood cells rapidly accumulate. Along with bacteria, they fill the air sacs within your lungs (alveoli). Breathing may be labored as air sacs become inflamed and filled with fluid. A classic sign of pneumonia is a cough that produces thick, blood-tinged or yellowish-greenish sputum. 
+				<Image Alt="Illustration of lungs with pneumonia 
+" Caption="Most pneumonia occurs when a breakdown in your body&apos;s natural defenses allows germs to invade and multiply within your lungs. To destroy the attacking organisms, white blood cells rapidly accumulate. Along with bacteria and fungi, they fill the air sacs within your lungs (alveoli). Breathing may be labored. A classic sign of bacterial pneumonia is a cough that produces thick, blood-tinged or yellowish-greenish sputum with pus.
 " Height="241" Title="Pneumonia and your lungs" URI="/images/image_popup/ww5r032.jpg" Width="400" />
 				<HTML>
 					Most pneumonia occurs when a breakdown in your body&apos;s natural defenses allows germs to invade and multiply within your lungs. To destroy the attacking organisms, white blood cells rapidly accumulate. ...
@@ -196,14 +218,20 @@ These types of pneumonia strike people with weakened immune systems. Organisms t
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-Factors associated with an increased risk of pneumonia include: 
+Pneumonia can affect anyone. But the two age groups at highest risk are:
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; If you&apos;re age 65 or older, particularly if you have other conditions that make you more prone to developing pneumonia, you&apos;re at increased risk of pneumonia. Very young children, whose immune systems aren&apos;t fully developed, also are at increased risk of pneumonia.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Certain diseases.&lt;/strong&gt; These include immune deficiency diseases such as HIV/AIDS and chronic illnesses such as heart disease, emphysema and other lung diseases. You&apos;re also at increased risk if your immune system has been weakened by chemotherapy or long-term use of immunosuppressant drugs.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Smoking damages your body&apos;s natural defenses against the bacteria and viruses that cause pneumonia.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Having chronic obstructive pulmonary disease (COPD) and using inhaled corticosteroids for more than 24 weeks.&lt;/strong&gt; Research indicates that this greatly increases your risk of developing possibly serious pneumonia.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Exposure to certain chemicals or pollutants.&lt;/strong&gt; Your risk of developing some uncommon types of pneumonia may be increased if you work in agriculture, in construction or around certain industrial chemicals or animals. Exposure to air pollution or toxic fumes can also contribute to lung inflammation, which makes it harder for the lungs to clear themselves.&lt;/li&gt;
+	&lt;li&gt;Infants and children younger than age 2 years, because their immune systems are still developing&lt;/li&gt;
+	&lt;li&gt;People older than age 65&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other risk factors include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Certain chronic diseases&lt;/strong&gt;, such as asthma, chronic obstructive pulmonary disease and heart disease&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weakened or suppressed immune system,&lt;/strong&gt; due to factors such as HIV/AIDS, organ transplant, chemotherapy for cancer or long-term steroid use&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking,&lt;/strong&gt; which damages your body&apos;s natural defenses against the bacteria and viruses that cause pneumonia&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being placed on a ventilator&lt;/strong&gt; while hospitalized&lt;/li&gt;
 &lt;/ul&gt;
 			</HTML>
 		</Section>
@@ -213,17 +241,13 @@ Factors associated with an increased risk of pneumonia include:
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-If you&apos;re young and healthy, appropriate treatment &amp;mdash; specifically, antibiotics for bacterial pneumonia &amp;mdash; usually results in uncomplicated recovery. However, some organisms that cause pneumonia are so virulent that they overwhelm the defense mechanisms, even in otherwise healthy people. 
-&lt;/p&gt;
-&lt;p&gt;
-Pneumonia is more likely to cause complications in older people, smokers and people with heart failure or lung disease, such as COPD. Pneumonia complications may include: 
+Often, people who have pneumonia can be treated successfully with medication.&lt;em&gt; &lt;/em&gt;But some people, especially those in high-risk groups, may experience complications, including: 
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;strong&gt;Bacteria in your bloodstream.&lt;/strong&gt; The smallest airways in your lungs terminate in tiny air sacs called alveoli (al-VEE-o-li), where blood cells exchange carbon dioxide for oxygen. In pneumonia, alveoli contain bacteria that may enter the bloodstream during gas exchange. Infection then spreads through the bloodstream, potentially causing shock and failure of multiple organs.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Septic shock. &lt;/strong&gt;Unchecked bacterial growth in the bloodstream can shut down normal circulation. Blood fills the veins and leaks through the walls of the capillaries, causing uncontrolled tissue swelling and possibly organ failure, which can lead to death.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Fluid accumulation and infection around your lungs.&lt;/strong&gt; Sometimes fluid accumulates between the thin, transparent membrane (pleura) covering your lungs and the membrane that lines the inner surface of your chest wall - a condition known as pleural effusion. When the pleurae around your lungs become inflamed (pleurisy) &amp;mdash; often as a result of pneumonia &amp;mdash; fluid can accumulate and may become infected (empyema).&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Lung abscess.&lt;/strong&gt; Occasionally a cavity containing pus (abscess) forms within the area affected by pneumonia.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Acute respiratory distress syndrome (ARDS).&lt;/strong&gt; When pneumonia involves most areas of both lungs, breathing is difficult and your body doesn&apos;t get enough oxygen. Underlying lung disease of any kind, but especially COPD, makes you more susceptible to ARDS.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bacteria in the bloodstream (bacteremia).&lt;/strong&gt; Bacteria that enter the bloodstream from your lungs can spread the infection to other organs, potentially causing organ failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lung abscess.&lt;/strong&gt; An abscess occurs if pus forms in a cavity in the lung. An abscess is usually treated with antibiotics. Sometimes, surgery or drainage with a long needle or tube placed into the abscess is needed to remove the pus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluid accumulation around your lungs (pleural effusion).&lt;/strong&gt; Pneumonia may cause fluid to build up in the thin space between layers of tissue that line the lungs and chest cavity (pleura). If the fluid becomes infected, you may need to have it drained through a chest tube or removed with surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Difficulty breathing&lt;/strong&gt;. If your pneumonia is severe or you have chronic underlying lung diseases, you may have trouble breathing in enough oxygen. You may need to be hospitalized and use a mechanical ventilator while your lung heals.&lt;/li&gt;
 &lt;/ul&gt;
 			</HTML>
 		</Section>
@@ -233,64 +257,58 @@ Pneumonia is more likely to cause complications in older people, smokers and peo
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-Most people who have pneumonia see a family doctor or a primary care provider. However, in some cases when you call to set up an appointment, you may be referred immediately to a doctor who specializes in treating lung disease (pulmonologist) or an infectious diseases doctor, or you may be advised to go to an emergency room. 
+You may start by seeing a primary care doctor, or you may be referred to a doctor who specializes in infectious diseases or in lung disease (pulmonologist). 
 &lt;/p&gt;
 &lt;p&gt;
-To get the most information at your appointment, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready. 
+Here&apos;s some information to help you get ready for your appointment and know what to expect from the doctor. 
 &lt;/p&gt;
 &lt;p&gt;
 &lt;strong&gt;What you can do&lt;/strong&gt; 
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment. Record your temperature.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including recent hospitalizations or exposure to any chemicals or known toxins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a record of any symptoms,&lt;/strong&gt; including your temperature.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key medical information,&lt;/strong&gt; including recent hospitalizations and any medical conditions you have.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including exposure to any chemicals or toxins.&lt;/li&gt;
 	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Bring a family member or friend along,&lt;/strong&gt; if possible. It may be difficult to soak up all the information provided to you during an appointment. Someone who goes with you may help you remember.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a family member or friend along,&lt;/strong&gt; if possible, to help you remember questions to ask and what your doctor said.&lt;/li&gt;
 	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-Preparing a list of questions ahead of time will help make the most of your time with your doctor. List your questions from most important to least important. For pneumonia, some basic questions to ask your doctor include: 
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt; &lt;br /&gt;
+Some basic questions to ask the doctor include: 
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
-	&lt;li&gt;Other than the most likely cause, what are other possible causes?&lt;/li&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
 	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
-	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
-	&lt;li&gt;What is the best course of action?&lt;/li&gt;
-	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend?&lt;/li&gt;
+	&lt;li&gt;Will I need to be hospitalized?&lt;/li&gt;
 	&lt;li&gt;I have other health conditions. How will my pneumonia affect them?&lt;/li&gt;
 	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
-	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
-	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
-	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
-	&lt;li&gt;If you don&apos;t recommend immediate hospitalization for me, how long can we wait before considering hospitalization?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-In addition to the questions that you&apos;ve prepared, don&apos;t hesitate to ask questions during your appointment any time that you don&apos;t understand or need information clarified. 
+Don&apos;t hesitate to ask other questions. 
 &lt;/p&gt;
 &lt;p&gt;
-&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
-Your doctor is likely to ask you a number of questions. It&apos;s helpful if you can answer them. Your doctor may ask: 
+&lt;strong&gt;What to expect from the doctor&lt;/strong&gt; &lt;br /&gt;
+Be ready to answer questions your doctor may ask: 
 &lt;/p&gt;
 &lt;ul&gt;
 	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
-	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
-	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
-	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
-	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
-	&lt;li&gt;Have you traveled or had unusual exposures?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional? How severe are they?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve or worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you traveled or been exposed to chemicals or toxic substances?&lt;/li&gt;
+	&lt;li&gt;Have you been exposed to sick people at home, school or work?&lt;/li&gt;
+	&lt;li&gt;Do you smoke?&lt;/li&gt;
+	&lt;li&gt;How much alcohol do you consume in a week?&lt;/li&gt;
+	&lt;li&gt;Have you had flu or pneumonia vaccinations?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
 &lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
-To keep from making your condition worse: 
+To avoid making your condition worse: 
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;Don&apos;t smoke or be around smoke.&lt;/li&gt;
-	&lt;li&gt;Don&apos;t drink alcohol.&lt;/li&gt;
-	&lt;li&gt;If you have signs and symptoms of pneumonia, don&apos;t go to work or school until your doctor gives you the go-ahead because getting enough rest is important.&lt;/li&gt;
-	&lt;li&gt;Drink plenty of fluids.&lt;/li&gt;
-	&lt;li&gt;If you get sicker before you see a doctor, go to an emergency room.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t smoke or be around smoke&lt;/li&gt;
+	&lt;li&gt;Drink plenty of fluids and get plenty of rest&lt;/li&gt;
 &lt;/ul&gt;
 			</HTML>
 		</Section>
@@ -300,19 +318,33 @@ To keep from making your condition worse:
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-Your doctor may first suspect pneumonia based on your medical history and a physical exam. You may undergo some or all of these tests: 
+Your doctor will start by asking about your medical history and doing a physical exam, including listening to your lungs with a stethoscope to check for abnormal bubbling or crackling sounds that indicate the presence of thick liquid.
+&lt;/p&gt;
+&lt;p&gt;
+If pneumonia is suspected, your doctor may recommend:
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; During the exam, your doctor listens to your lungs with a stethoscope to check for abnormal bubbling or crackling sounds (rales) and for rumblings (rhonchi) that signal the presence of thick liquid.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Chest X-rays.&lt;/strong&gt; X-rays can confirm the presence of pneumonia and determine the extent and location of the infection.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Blood and mucus tests.&lt;/strong&gt; You may have a blood test to measure your white cell count and look for the presence of viruses, bacteria or other organisms. Your doctor also may examine a sample of your mucus or your blood&lt;strong&gt; &lt;/strong&gt;to help identify the particular microorganism that&apos;s causing your illness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-rays&lt;/strong&gt;, to confirm the presence of pneumonia and determine the extent and location of the infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests,&lt;/strong&gt; to confirm the presence of infection and to try to identify the type of organism causing the infection. Precise identification occurs in only about half of people with pneumonia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pulse oximetry&lt;/strong&gt;, to measure the oxygen level in your blood. Pneumonia can prevent your lungs from moving enough oxygen into your bloodstream.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sputum test.&lt;/strong&gt; A sample of fluid from yours lungs (sputum) is taken after a deep cough, and analyzed to pinpoint the type of infection.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;
+If you are older than age 65, are in the hospital or have serious symptoms or an underlying health condition, your doctor may recommend:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pleural fluid culture.&lt;/strong&gt; A fluid sample is taken from the pleural area and analyzed to help determine the type of infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bronchoscopy.&lt;/strong&gt; A thin, flexible tube with a camera is inserted down your throat and through your airways to check whether something is blocking the airways or whether something else is contributing to your pneumonia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your pneumonia isn&apos;t clearing as quickly as expected, your doctor may recommend a chest CT scan to obtain a more detailed image of your lungs. 
+&lt;/p&gt;
 			</HTML>
 			<PopupMedia>
-				<Thumbnail Alt="X-ray image showing an area of inflammation in the lungs that indicates pneumonia 
+				<Thumbnail Alt="X-ray image of lungs with pneumonia 
 " Caption="This chest X-ray shows an area of lung inflammation indicating the presence of pneumonia. 
 " Height="60" Title="Chest X-ray showing pneumonia" URI="/images/image_popup/thumbs/pnuesmal.gif" Width="60" />
-				<Image Alt="X-ray image showing an area of inflammation in the lungs that indicates pneumonia 
+				<Image Alt="X-ray image of lungs with pneumonia 
 " Caption="This chest X-ray shows an area of lung inflammation indicating the presence of pneumonia. 
 " Height="300" Title="Chest X-ray showing pneumonia" URI="/images/image_popup/pneubig.jpg" Width="400" />
 				<HTML>
@@ -327,28 +359,49 @@ Your doctor may first suspect pneumonia based on your medical history and a phys
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-The best approach to treating pneumonia depends on a number of factors, including your age and general health, the organism or organisms involved, and the setting &amp;mdash; community or health care &amp;mdash; where the infection developed. Treatment may include: 
+Treatment for pneumonia involves curing the infection and preventing any complications. 
 &lt;/p&gt;
 &lt;p&gt;
-&lt;strong&gt;Medication&lt;/strong&gt; &lt;br /&gt;
-Antibiotics are used to treat bacterial pneumonia. Other medications may help improve breathing and relieve symptoms in bacterial and viral pneumonia. Medication options include: 
+People who have community-acquired pneumonia usually can be treated at home with medication. Although your symptoms may ease in a few days or weeks, tiredness can persist for a month or more. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will likely recommend a follow-up chest X-ray to check that the infection is clearing. It may be safe to stop treatment even if your X-ray isn&apos;t completely normal. Only about half of chest X-rays in people with community-acquired pneumonia are normal after 28 days of treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Specific treatments depend on the type and severity of your pneumonia, and your age and overall health. The options include: 
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; The decision to treat pneumonia with an antibiotic isn&apos;t always straightforward. Even with a high likelihood of bacterial infection, it takes time to identify the bacterium involved and choose the best antibiotic to wipe it out. Initially, your doctor may prescribe a particular antibiotic based on trends in infection and antibiotic use in your area. If tests show that you need a different drug or your condition doesn&apos;t improve, you may switch to another antibiotic.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Antivirals.&lt;/strong&gt; Your doctor may recommend antiviral medication for viral pneumonia. Antibiotics are not effective for treating viral pneumonia.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Fever reducers.&lt;/strong&gt; You may treat your fever with aspirin, ibuprofen, naproxen or acetaminophen. (Children should not take aspirin.)&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Cough medicine.&lt;/strong&gt; Talk to your doctor before taking cough medicine. Coughing helps loosen and get rid of extra sputum. If your doctor advises cough medicine, only take enough to calm your cough and get some rest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics,&lt;/strong&gt; to treat bacterial pneumonia. It may take time to identify the type of bacteria causing your pneumonia and to choose the best antibiotic to treat it. Symptoms often improve within three days, although improvement usually takes twice as long in smokers. If your symptoms don&apos;t improve, your doctor may recommend a different antibiotic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antiviral medications,&lt;/strong&gt; to treat viral pneumonia. Symptoms generally improve in one to three weeks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fever reducers&lt;/strong&gt;, such as aspirin or ibuprofen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cough medicine,&lt;/strong&gt; to calm your cough so you can rest. Because coughing helps loosen and move fluid from your lungs, it&apos;s a good idea not to eliminate your cough completely.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-&lt;strong&gt;Hospital admission&lt;/strong&gt; &lt;br /&gt;
-Community-acquired pneumonia generally does not require hospital care. You may need to be admitted, however, if you have any two of these indicators of severity. If you have three or more, you may need admission to an intensive care unit: 
+&lt;strong&gt;Hospitalization&lt;/strong&gt; &lt;br /&gt;
+You may need to be hospitalized if: 
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;You are older than 65 years&lt;/li&gt;
-	&lt;li&gt;You become confused&lt;/li&gt;
-	&lt;li&gt;Your breathing is rapid&lt;/li&gt;
+	&lt;li&gt;You are older than age 65&lt;/li&gt;
+	&lt;li&gt;You become confused about time, people or places&lt;/li&gt;
+	&lt;li&gt;Your nausea and vomiting prevent you from keeping down oral antibiotics&lt;/li&gt;
 	&lt;li&gt;Your blood pressure drops&lt;/li&gt;
-	&lt;li&gt;Your need breathing assistance, including oxygen or respiratory therapy&lt;/li&gt;
+	&lt;li&gt;Your breathing is rapid&lt;/li&gt;
+	&lt;li&gt;You need breathing assistance&lt;/li&gt;
+	&lt;li&gt;Your temperature is below normal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you need to be placed on a ventilator or your symptoms are severe, you may need to be admitted &amp;nbsp;to an intensive care unit. 
+&lt;/p&gt;
+&lt;p&gt;
+Children may be hospitalized if they: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are younger than age 3 months&lt;/li&gt;
+	&lt;li&gt;Are excessively sleepy&lt;/li&gt;
+	&lt;li&gt;Have trouble breathing&lt;/li&gt;
+	&lt;li&gt;Have low blood oxygen levels&lt;/li&gt;
+	&lt;li&gt;Appear dehydrated&lt;/li&gt;
+	&lt;li&gt;Have a lower than normal temperature&lt;/li&gt;
 &lt;/ul&gt;
 			</HTML>
 		</Section>
@@ -358,14 +411,13 @@ Community-acquired pneumonia generally does not require hospital care. You may n
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-If you have pneumonia, the following measures can help you recover more quickly and decrease your risk of complications:
+To help you recover more quickly and decrease your risk of complications:
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;strong&gt;Get plenty of rest.&lt;/strong&gt; Even when you start to feel better, be careful not to overdo it.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Stay home from school or work until after your temperature returns to normal and you stop coughing up mucus.&lt;/strong&gt; This advice depends partially on how sick you were. If you&apos;re uncertain, ask your doctor. Because pneumonia can recur within a week or so, it may be better not to return to a full workload until you&apos;re sure you&apos;re well.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Drink plenty of fluids, especially water.&lt;/strong&gt; Liquids keep you from becoming dehydrated and help loosen mucus in your lungs.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Take the entire course of any prescribed medications.&lt;/strong&gt; If you stop medication too soon, your lungs may continue to harbor bacteria capable of multiplying and causing a relapse of your pneumonia. Also, bacteria begin to develop drug resistance when they survive inadequate treatment and continue to multiply and spread.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Keep all of your follow-up appointments.&lt;/strong&gt; Even though you feel better, your lungs may still be infected. It&apos;s important to have your doctor monitor your progress.&lt;/li&gt;
+	&lt;li&gt;Get plenty of rest. Even when you start to feel better, be careful not to overdo it.&lt;/li&gt;
+	&lt;li&gt;Stay home from school or work until after your temperature returns to normal and you stop coughing up mucus. Because pneumonia can recur, it&apos;s better not to return to a full workload until you&apos;re sure you&apos;re well. Ask your doctor if you&apos;re not sure.&lt;/li&gt;
+	&lt;li&gt;Drink plenty of fluids, especially water, to help loosen mucus in your lungs.&lt;/li&gt;
+	&lt;li&gt;Take the entire course of any prescribed medications. If you stop medication too soon, your lungs may continue to harbor bacteria that can multiply and cause your pneumonia to recur.&lt;/li&gt;
 &lt;/ul&gt;
 			</HTML>
 		</Section>
@@ -375,27 +427,16 @@ If you have pneumonia, the following measures can help you recover more quickly 
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-Take these steps to prevent pneumonia. 
-&lt;/p&gt;
-&lt;p&gt;
-&lt;strong&gt;Get vaccinated&lt;/strong&gt; &lt;br /&gt;
-Although a long list of germs and inhaled irritants can cause pneumonia, vaccination lowers your risk of two leading offenders. 
+To help prevent pneumonia: 
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;strong&gt;Seasonal flu shot.&lt;/strong&gt; The influenza virus can be a direct cause of viral pneumonia. Bacterial pneumonia is also a common complication of the flu. A yearly flu shot provides significant protection either way.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Pneumonia vaccine.&lt;/strong&gt; Doctors recommend a one-time vaccine against Streptococcus pneumoniae bacteria (pneumococcus) for everyone older than age 65, as well as for people of any age residing in nursing homes and long-term care facilities. In addition, the vaccine is recommended for anyone at high risk of pneumococcal pneumonia. The high-risk categories are smokers; anyone with heart disease, lung disease or other chronic conditions; and anyone with reduced immune defenses due to HIV or long-term therapy with immunosuppressant drugs, such as corticosteroids or medications to prevent transplant rejection.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Childhood vaccines.&lt;/strong&gt; Children should receive the seasonal flu vaccine every year. Doctors also recommend a pneumonia vaccine &amp;mdash; pneumococcal conjugate vaccine, as opposed to pneumococcal polysaccharide vaccine, which is for adults &amp;mdash; for all children younger than age 2 and for children ages 2 to 5 years who are at particular risk of pneumococcal disease, including those with immune system deficiency, cancer, cardiovascular disease or sickle cell anemia. Children who attend a group day care center should also get the vaccine.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-&lt;strong&gt;Take care of yourself&lt;/strong&gt;&lt;br /&gt;
-Ordinary respiratory infections sometimes lead to pneumonia, so do what you can to protect yourself from all kinds of germs. Here are the basics: 
-&lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;strong&gt;Wash your hands.&lt;/strong&gt; Your hands are in almost constant contact with germs that can cause pneumonia. These germs enter your body when you touch your eyes or rub the inside of your nose. Washing your hands often and thoroughly can help reduce your risk. When washing isn&apos;t possible, use an alcohol-based hand sanitizer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get a seasonal flu shot.&lt;/strong&gt; The influenza virus can be a direct cause of viral pneumonia. Bacterial pneumonia is also a common complication of the flu. A yearly flu shot provides significant protection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get a pneumonia vaccination.&lt;/strong&gt; Doctors recommend a one-time vaccine against Streptococcus pneumoniae bacteria (pneumococcus) for everyone older than age 65, as well as for people of any age residing in nursing homes and long-term care facilities, and for smokers. The vaccine is especially recommended for anyone at high risk of pneumococcal pneumonia. Some doctors recommend a booster shot five years after the first dose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have your child vaccinated.&lt;/strong&gt; Doctors recommend a different pneumonia vaccine for all children younger than age 2 and for children ages 2 to 5 years who are at particular risk of pneumococcal disease. Children who attend a group day care center should also get the vaccine. Doctors also recommend seasonal flu shots for children older than six months.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Practice good hygiene.&lt;/strong&gt; To protect yourself against ordinary respiratory infections that sometimes lead to pneumonia, wash your hands regularly or use an alcohol-based hand sanitizer.&lt;/li&gt;
 	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Smoking damages your lungs&apos; natural defenses against respiratory infections.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Stay rested and fit.&lt;/strong&gt; Proper rest and moderate exercise can help keep your immune system strong.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Eat a healthy diet&lt;/strong&gt;. Include plenty of fat-free dairy products, fruits, vegetables and whole grains.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Set an example.&lt;/strong&gt; Stay home when you&apos;re sick. When you&apos;re in public with a cold, catch your coughs and sneezes in the inner crook of your elbow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay rested and fit.&lt;/strong&gt; Proper rest, a healthy diet and moderate exercise can help keep your immune system strong.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Set an example.&lt;/strong&gt; Stay home when you&apos;re sick. When you&apos;re in public and have a cold, catch your coughs and sneezes in the inner crook of your elbow.&lt;/li&gt;
 &lt;/ul&gt;
 			</HTML>
 		</Section>

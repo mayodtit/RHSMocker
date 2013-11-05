@@ -1,0 +1,79 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00550
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vbac/MM00550
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-17
+		</UpdateDate>
+		<PublicationDate>
+			2002-09-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="1104" Title="Pregnancy">
+					<Keyword MCVID="3707" Title="Labor and delivery, postpartum care">
+						<Keyword MCVID="1116" Title="Labor and delivery" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5BBBE8B1-7242-444C-A732AC179FF4FA9A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		The epidural block
+	</Title>
+	<Abstract>
+		Epidural block &amp;mdash; Understand this anesthesia for labor and birth.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00550_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+An epidural block is a common type of anesthesia for labor and delivery. During labor, a needle is placed in the epidural space, which is just outside the spinal canal. A small, hollow tube called a catheter is inserted through this needle. Once the catheter is in place, the needle is removed and medication is injected through the catheter to numb your lower abdomen and birth canal. It may take 10 to 20 minutes to feel pain relief from an epidural block. As labor continues, the medication can be adjusted to help keep you comfortable. Additional medication can be given through the catheter should your health care provider need to use forceps or do a vacuum delivery or C-section.
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00550_epidural.jpg" width="60" />
+</Video>

@@ -1,0 +1,76 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00813
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lap-band/MM00813
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-13
+		</UpdateDate>
+		<PublicationDate>
+			2013-02-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="4129" Title="Lifestyle">
+						<Keyword MCVID="4130" Title="Surgery">
+							<Keyword MCVID="4131" Title="Gastric bypass surgery" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2A7BA107-E322-4E23-2CA1454D67C5FCD3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		Laparoscopic adjustable gastric banding
+	</Title>
+	<Abstract>
+		In a lap band procedure, a band is placed around the upper part of the stomach. Tightening the band limits how much food the stomach can hold.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00813_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		In the adjustable laparoscopic gastric banding procedure, a band containing an inflatable balloon is placed around the upper part of the stomach and fixed in place. This creates a small stomach pouch above the band with a very narrow opening to the rest of the stomach. A port is then placed under the skin of the abdomen. A tube connects the port to the band. By injecting or removing fluid through the port, the balloon can be inflated or deflated to adjust the size of the band. Gastric banding restricts the amount of food that your stomach can hold, so you feel full sooner, but it doesn&apos;t reduce the absorption of calories and nutrients.
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00813_licensingthumb.jpg" width="60" />
+</Video>

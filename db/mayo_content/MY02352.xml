@@ -1,0 +1,282 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY02352
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/laryngotracheal-reconstruction/MY02352
+		</OriginalURL>
+		<UpdateDate>
+			2013-04-26
+		</UpdateDate>
+		<PublicationDate>
+			2013-04-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3789" Title="Lungs and respiratory system">
+						<Keyword MCVID="4361" Title="Surgery">
+							<Keyword MCVID="5164" Title="Laryngotracheal reconstruction" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5D4DBE69-92C2-B292-5F8AF94DE9D02640
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				laryngotracheal reconstruction
+			</MetaKeyword>
+			<MetaKeyword>
+				windpipe surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				laryngotracheal resection
+			</MetaKeyword>
+			<MetaKeyword>
+				endoscopic laryngotracheal reconstruction surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				airway reconstruction
+			</MetaKeyword>
+			<MetaKeyword>
+				airway surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				Mayo Clinic
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Laryngotracheal (luh-ring-go-TRAY-key-ul) reconstruction surgery widens your windpipe (trachea) to make breathing easier. Laryngotracheal reconstruction involves inserting a small piece of cartilage &amp;mdash; stiff connective tissue found in many areas of your body &amp;mdash; into the narrowed section of the windpipe. 
+&lt;/p&gt;
+&lt;p&gt;
+Children most commonly experience problems with a narrowed windpipe. It can occur for many reasons, including injury, infection, stomach acid reflux, a birth defect or the result of the insertion of a breathing tube. An adult&apos;s windpipe can become narrowed for the same reasons, but the cause may also be a disease that causes blood vessel or tissue inflammation, such as Wegener&apos;s granulomatosis or sarcoidosis. 
+&lt;/p&gt;
+&lt;p&gt;
+The goal of laryngotracheal reconstruction is to provide a safe and stable airway without the use of assistance from a breathing tube. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the anatomy of the throat 
+" Caption="Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea). 
+" Height="60" Title="Throat anatomy" URI="/images/image_popup/thumbs/r7_croupthu.jpg" Width="60" />
+				<Image Alt="Illustration of the anatomy of the throat 
+" Caption="Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea). 
+" Height="358" Title="Throat anatomy" URI="/images/image_popup/r7_croup.jpg" Width="400" />
+				<HTML>
+					Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The primary goal of laryngotracheal reconstruction surgery is to establish a permanent, stable airway for you or your child to breathe through without the use of a breathing tube. Surgery can also improve voice and swallowing issues. Reasons for this surgery include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Narrowing of the airway (stenosis).&lt;/strong&gt; Stenosis may be caused by infection, disease or injury, but it&apos;s most often due to irritation related to breathing tube insertion (endotracheal intubation) in infants born with congenital conditions or born prematurely or as a result of a medical procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Malformation of the voice box (larynx).&lt;/strong&gt; Rarely, the larynx may be incompletely developed at birth (laryngeal cleft) or constricted by abnormal tissue growth (laryngeal web), which may be present at birth or a result of scarring from a medical procedure or infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weak cartilage (tracheomalacia).&lt;/strong&gt; This condition occurs when an infant&apos;s soft, immature cartilage lacks the stiffness to maintain a clear airway, making it difficult for your child to breath.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vocal cord paralysis.&lt;/strong&gt; Also known as vocal fold paralysis, this voice disorder occurs when one or both of the vocal cords don&apos;t open or close properly, leaving the trachea and lungs unprotected. It can be caused by injury, disease, infection or stroke. In many cases, the cause is unknown.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Pre-surgery studies and tests&lt;/strong&gt; &lt;br /&gt;
+A number of studies or tests are often necessary before laryngotracheal reconstruction surgery. The goal of each study or test is to help evaluate medical conditions that may cause problems with the airway or affect the surgical plan and to prepare for individual follow-up care. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Endoscopic exam&lt;/strong&gt;&lt;strong&gt;ination&lt;/strong&gt; provides a direct view of the airway and allows accurate assessment of the location, length and severity of the airway narrowing. Because of the frequent association of acid reflux, it may be combined with upper gastrointestinal endoscopy to view the esophagus and stomach.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pulmonary function tests&lt;/strong&gt; determine whether your or your child&apos;s lungs can handle certain airway reconstruction procedures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;CT scan and MRI tests&lt;/strong&gt; may be used to further visualize the laryngotracheal anatomy.&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swallowing difficulty (dysphagia) evaluations&lt;/strong&gt; record the swallowing process as you or your child eats or drinks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Voice evaluation&lt;/strong&gt; helps find the cause of vocal problems and helps plan effective treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;pH probe studies&lt;/strong&gt; help determine whether acid from the stomach is backing up into the esophagus and airway.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep studies (polysomnograms)&lt;/strong&gt; look for disruptions in your or your child&apos;s sleep pattern caused by the airway.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional surgical procedures&lt;/strong&gt; &lt;br /&gt;
+One or more of the following surgeries may be recommended before performing an airway reconstruction: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Removing the adenoids or tonsils (adenoidectomy or tonsillectomy).&lt;/strong&gt; Tonsils are the two round lumps of visible tissue in the back of the throat, while adenoids are higher in the throat behind the nose. Sometimes these tissues can become infected and swollen and block the airway.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing tissue in the larynx (supraglottoplasty).&lt;/strong&gt; This surgery may be necessary to repair the voice box (larynx) if it has partially collapsed (laryngomalacia), by removing any tissue obstructing the airway.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nissen fundoplication.&lt;/strong&gt; This treatment for gastroesophageal reflux disease (GERD) helps keep stomach acid from flowing back up into the esophagus, which can cause inflammation and contribute to narrowing of the airway.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the anatomy of the throat 
+" Caption="Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea). 
+" Height="60" Title="Throat anatomy" URI="/images/image_popup/thumbs/r7_croupthu.jpg" Width="60" />
+				<Image Alt="Illustration of the anatomy of the throat 
+" Caption="Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea). 
+" Height="358" Title="Throat anatomy" URI="/images/image_popup/r7_croup.jpg" Width="400" />
+				<HTML>
+					Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea). 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of inflamed tonsils 
+" Caption="Tonsils are fleshy pads located at each side of the back of the throat. 
+" Height="60" Title="Inflamed tonsils" URI="/images/image_popup/thumbs/r7_tonsillitis2thu.jpg" Width="60" />
+				<Image Alt="Illustration of inflamed tonsils 
+" Caption="Tonsils are fleshy pads located at each side of the back of the throat. 
+" Height="281" Title="Inflamed tonsils" URI="/images/image_popup/r7_tonsillitis2.jpg" Width="400" />
+				<HTML>
+					Tonsils are fleshy pads located at each side of the back of the throat. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Discussing surgical options&lt;/strong&gt; &lt;br /&gt;
+Laryngotracheal reconstruction surgery may be performed using a couple different techniques: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;An endoscopic approach&lt;/strong&gt; involves inserting instruments through your mouth to reach the airway.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Open-airway surgery&lt;/strong&gt; involves making an incision in your neck. Open-airway surgery may be performed in a single stage or in multiple stages (procedures).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Endoscopic and single-stage open-airway surgeries are generally recommended for mild cases of stenosis, when your or your child&apos;s airway isn&apos;t severely narrowed. 
+&lt;/p&gt;
+&lt;p&gt;
+For more-severe cases of stenosis or if you have medical conditions that may complicate surgery &amp;mdash; such as heart, lung or neurological conditions &amp;mdash; the doctor may recommend a slower, more conservative approach and perform multiple-stage open-airway reconstruction, which involves a series of procedures over the span of a few months to several years. 
+&lt;/p&gt;
+&lt;p&gt;
+After taking into consideration your or your child&apos;s condition and any other medical issues, the doctor will discuss the most appropriate course of action. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preparing for surgery&lt;/strong&gt; &lt;br /&gt;
+Carefully follow your doctor&apos;s directions about how to prepare for surgery. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid food and drink.&lt;/strong&gt; Your doctor should tell you what time you or your child need to stop eating and drinking in the hours before surgery. Having food or drink before surgery could lead to complications during surgery, such as inhaling partially digested food into the lungs (aspiration). Young children are generally scheduled for morning surgery. If you or your child eats or drinks after the requested cutoff time, surgery may have to be postponed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring favorite items from home to comfort your child.&lt;/strong&gt; If your child is having surgery, favorite items from home such as a stuffed animal, blanket or photos displayed in the hospital room may help comfort your child. This can help smooth the recovery process.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The length of laryngotracheal reconstruction surgery varies and depends on your or your child&apos;s individual situation and what type of procedure is performed. All surgical options for laryngotracheal reconstruction require general anesthesia, so you or your child will be unconscious during the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During surgery&lt;/strong&gt; &lt;br /&gt;
+&lt;strong&gt;Open-airway laryngotracheal reconstruction&lt;/strong&gt; can be done in one or multiple stages, using different techniques, depending on the severity of your or your child&apos;s condition. 
+&lt;/p&gt;
+&lt;p&gt;
+Many people undergoing laryngotracheal reconstruction surgery have already undergone a tracheostomy &amp;mdash; a surgically inserted tube from the neck directly into the trachea &amp;mdash; to help with breathing. 
+&lt;/p&gt;
+&lt;p&gt;
+During a single-stage reconstruction: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A tracheostomy tube, if present, is removed.&lt;/li&gt;
+	&lt;li&gt;The surgeon widens (reconstructs) the airway by inserting precisely shaped pieces of cartilage (grafts) from the ribs, ear or thyroid into the trachea.&lt;/li&gt;
+	&lt;li&gt;A temporary tube inserted through the mouth into the trachea (endotracheal tube), is put into place to support the cartilage grafts. The endotracheal tube will typically remain in place from a few days to about two weeks, depending on the amount of time it will take for the area to heal &amp;mdash; a factor mostly determined by the amount and position of the cartilage grafts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+During a double or multistage reconstruction: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The surgeon widens (reconstructs) the airway by inserting precisely shaped pieces of cartilage from the ribs, ear or thyroid into the trachea.&lt;/li&gt;
+	&lt;li&gt;To provide a framework for the airway to heal, the tracheostomy tube is left in place or a stent (a straight or T-shaped hollow tube) is inserted. The stent remains in place until the area heals &amp;mdash; a process that takes about four to six weeks or more &amp;mdash; with the intent of removing it during the next stage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes, the narrow part of the windpipe is removed completely and the remaining segments are sewn together. This is called a resection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Endoscopic&lt;/strong&gt;&lt;strong&gt; laryngotracheal reconstruction&lt;/strong&gt; is a less invasive procedure. During endoscopic surgery, the doctor inserts surgical instruments and a rod fitted with a light and camera through a rigid viewing tube (laryngoscope) into your or your child&apos;s mouth and moves them into the airway to perform the surgery. This surgical option may not be recommended if the airway is severely narrowed or scarred. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After surgery&lt;/strong&gt; &lt;br /&gt;
+Your child may need help from a breathing machine (ventilator, or respirator) or may need sedation to help prevent the breathing tube from coming out. How long your child may need sedation or breathing assistance depends on your child&apos;s other medical conditions and age. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people stay in the hospital seven to14 days after open-airway laryngotracheal reconstruction surgery, although in some cases it may be longer. Endoscopic surgery is performed on an outpatient basis, so you or your child may go home the same day or spend several days in the hospital. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment and recovery after surgery varies depending on what procedure you or your child has. Full recovery may take a few weeks to several months. 
+&lt;/p&gt;
+&lt;p&gt;
+In the weeks following surgery, the doctor performs regular endoscopic exams to check the progression of airway healing. Speech therapy may be recommended to help with any voice or swallowing problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Laryngotracheal reconstruction
+	</Title>
+	<Abstract>
+		Laryngotracheal reconstruction surgery &amp;mdash; Comprehensive overview covers why it&apos;s done and what&apos;s involved with the procedure.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

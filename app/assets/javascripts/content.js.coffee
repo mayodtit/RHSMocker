@@ -31,18 +31,21 @@ $ ->
 
   $(".gender").click ->
     NativeBridge.call('setGender', {gender: $(@).data("gender")})
+    NativeBridge.call('saveCard', {id: $(@).data("card-id")})
     # TODO - remove the following when the client is ready to stop support
     document.actionJSON = JSON.stringify([{type:"set_gender", body: {gender: $(@).data("gender")}}, {type: "save_item"}])
     window.location.href = "http://dontload"
 
   $(".allergies").click ->
-    NativeBridge.call('openPage', {view: "allergies"})
+    NativeBridge.call('openPage', {page: "allergies"})
+    NativeBridge.call('saveCard', {id: $(@).data("card-id")})
     # TODO - remove the following when the client is ready to stop support
     document.actionJSON = JSON.stringify([{type:"goto_allergies"}, {type: "save_item"}])
     window.location.href = "http://dontload"
 
   $(".no-allergies").click ->
     NativeBridge.call('addAllergy', {id: $(@).data("allergy-id")})
+    NativeBridge.call('saveCard', {id: $(@).data("card-id")})
     # TODO - remove the following when the client is ready to stop support
     document.actionJSON = JSON.stringify([{type:"add_allergy", body:{allergy_id: $(@).data('allergy-id').toString()}}, {type: "save_item"}])
     window.location.href = "http://dontload"

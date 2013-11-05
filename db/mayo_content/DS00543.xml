@@ -1,0 +1,465 @@
+<SlideShow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SlideShow.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			SlideShow
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00543
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dermatitis/DS00543
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-21
+		</UpdateDate>
+		<PublicationDate>
+			2004-05-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2165" Title="Skin inflammation">
+						<Keyword MCVID="2815" Title="Dermatitis/eczema" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			24EEAE39-2697-4971-95705ABC4DBBE485
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				eczema
+			</MetaKeyword>
+			<MetaKeyword>
+				itching
+			</MetaKeyword>
+			<MetaKeyword>
+				excema
+			</MetaKeyword>
+			<MetaKeyword>
+				exema
+			</MetaKeyword>
+			<MetaKeyword>
+				excema
+			</MetaKeyword>
+			<MetaKeyword>
+				exzema
+			</MetaKeyword>
+			<MetaKeyword>
+				ezcema
+			</MetaKeyword>
+			<MetaKeyword>
+				dermitis
+			</MetaKeyword>
+			<MetaKeyword>
+				contact dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				allergic contact dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				irritant contact dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				neurodermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				lichen simplex chronicus
+			</MetaKeyword>
+			<MetaKeyword>
+				seborrheic dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				statis dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				atopic dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				rash
+			</MetaKeyword>
+			<MetaKeyword>
+				rashes
+			</MetaKeyword>
+			<MetaKeyword>
+				skin rash
+			</MetaKeyword>
+			<MetaKeyword>
+				skin rashes
+			</MetaKeyword>
+			<MetaKeyword>
+				red rash
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy rash
+			</MetaKeyword>
+			<MetaKeyword>
+				face rash
+			</MetaKeyword>
+			<MetaKeyword>
+				facial rash
+			</MetaKeyword>
+			<MetaKeyword>
+				foot rash
+			</MetaKeyword>
+			<MetaKeyword>
+				underarm rash
+			</MetaKeyword>
+			<MetaKeyword>
+				leg rash
+			</MetaKeyword>
+			<MetaKeyword>
+				neck rash
+			</MetaKeyword>
+			<MetaKeyword>
+				body rash
+			</MetaKeyword>
+			<MetaKeyword>
+				rash on face
+			</MetaKeyword>
+			<MetaKeyword>
+				skin conditions
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disease
+			</MetaKeyword>
+			<MetaKeyword>
+				skin diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				skin problem
+			</MetaKeyword>
+			<MetaKeyword>
+				skin problems
+			</MetaKeyword>
+			<MetaKeyword>
+				skin lesion
+			</MetaKeyword>
+			<MetaKeyword>
+				skin lesions
+			</MetaKeyword>
+			<MetaKeyword>
+				red skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin irritation
+			</MetaKeyword>
+			<MetaKeyword>
+				itching skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin bumps
+			</MetaKeyword>
+			<MetaKeyword>
+				skin itch
+			</MetaKeyword>
+			<MetaKeyword>
+				skin pain
+			</MetaKeyword>
+			<MetaKeyword>
+				skin itching
+			</MetaKeyword>
+			<MetaKeyword>
+				cracked skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin condition
+			</MetaKeyword>
+			<MetaKeyword>
+				skin conditions
+			</MetaKeyword>
+			<MetaKeyword>
+				red spots on skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin eruptions
+			</MetaKeyword>
+			<MetaKeyword>
+				skin sores
+			</MetaKeyword>
+			<MetaKeyword>
+				white spots on skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin lumps
+			</MetaKeyword>
+			<MetaKeyword>
+				itching
+			</MetaKeyword>
+			<MetaKeyword>
+				itch
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy
+			</MetaKeyword>
+			<MetaKeyword>
+				severe itching
+			</MetaKeyword>
+			<MetaKeyword>
+				itchiness
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Slide show: Types of dermatitis
+	</Title>
+	<Abstract>
+		Dermatitis &amp;mdash; See pictures of several types of dermatitis, including atopic dermatitis and contact dermatitis.
+	</Abstract>
+	<Slides>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Common signs and symptoms of allergic contact dermatitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Red rash or bumps&lt;/li&gt;
+	&lt;li&gt;Blisters and draining fluid from the involved skin in severe cases&lt;/li&gt;
+	&lt;li&gt;Itching, which may be severe&lt;/li&gt;
+	&lt;li&gt;Pain or tenderness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Contact dermatitis results from direct contact with certain substances called allergens. The resulting reaction is your body&apos;s response to the sensitizing agent. Common allergens include rubber, costume jewelry, perfume, cosmetics, hair dyes and poison ivy. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Allergic contact dermatitis
+			</Title>
+			<ImageAltText>
+				Photo of allergic contact dermatitis
+			</ImageAltText>
+			<Height>
+				320
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/mcdc22_contact_dermatitis.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Common signs and symptoms of atopic dermatitis (eczema) include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Red to brownish-gray colored patches&lt;/li&gt;
+	&lt;li&gt;Itching, which may be severe&lt;/li&gt;
+	&lt;li&gt;Small, raised bumps, which may leak fluid and crust over when scratched&lt;/li&gt;
+	&lt;li&gt;Thickened, cracked or scaly skin&lt;/li&gt;
+	&lt;li&gt;Raw, sensitive skin from scratching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most often, atopic dermatitis occurs in the folds of the elbows, backs of the knees or the front of the neck. It tends to flare periodically and then subside for a time, even up to several years. The exact cause of this skin disorder is unknown.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Atopic dermatitis
+			</Title>
+			<ImageAltText>
+				Photo of atopic dermatitis
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/sn22_atopicdermatitis.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Common signs and symptoms of irritant contact dermatitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Red rash or bumps&lt;/li&gt;
+	&lt;li&gt;Itching, which may be severe&lt;/li&gt;
+	&lt;li&gt;Dry, red patches, which may resemble a burn&lt;/li&gt;
+	&lt;li&gt;Skin rash limited to the exposed area&lt;/li&gt;
+	&lt;li&gt;Pain or tenderness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Irritant contact dermatitis develops when your skin regularly comes into contact with an irritating substance. Skin products, such as soap, cosmetics and deodorant, are frequent causes.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Irritant contact dermatitis
+			</Title>
+			<ImageAltText>
+				Photo of irritant contact dermatitis
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/r22_contactdermatitis.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Common signs and symptoms of neurodermatitis (lichen simplex chronicus) include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Itchy skin in a single, limited area&lt;/li&gt;
+	&lt;li&gt;Leathery or scaly texture to the skin&lt;/li&gt;
+	&lt;li&gt;Raised, rough patch that is red or darker than the rest of your skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Neurodermatitis occurs because of repeated scratching. Typically, neurodermatitis occurs on the scalp, neck, wrist, upper forearm and ankle.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Neurodermatitis
+			</Title>
+			<ImageAltText>
+				Photo of neurodermatitis
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/r22_neurodermatitis.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Common signs and symptoms of perioral dermatitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Small red, pus-filled bumps&lt;/li&gt;
+	&lt;li&gt;Mild peeling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Perioral dermatitis usually affects the area around the mouth, but can also affect the areas around the nose, cheeks and eyes. The exact cause of perioral dermatitis is unknown, but misuse of topical corticosteroids may play a role. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Perioral dermatitis
+			</Title>
+			<ImageAltText>
+				Photo of perioral dermatitis
+			</ImageAltText>
+			<Height>
+				320
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/r22_perioraldermatitis.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Common signs and symptoms of seborrheic (seb-o-REE-ik) dermatitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Patchy scaling or thick crusts on the scalp&lt;/li&gt;
+	&lt;li&gt;Yellow or white scales that may attach to the hair shaft&lt;/li&gt;
+	&lt;li&gt;Red, greasy skin covered with flaky white or yellow scales&lt;/li&gt;
+	&lt;li&gt;Itching or soreness&lt;/li&gt;
+	&lt;li&gt;Skin flakes or dandruff&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Seborrheic dermatitis is often found on oily areas of the body, such as the face, upper chest and back. Seborrheic dermatitis can also appear on the scalp as stubborn, itchy dandruff. For infants, it&apos;s known as cradle cap. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Seborrheic dermatitis
+			</Title>
+			<ImageAltText>
+				Photo of seborrheic dermatitis
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/mcdc22_seborrheic_dermatitis.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Common signs and symptoms of stasis dermatitis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Skin discoloration (red or brown) on the ankles or shins&lt;/li&gt;
+	&lt;li&gt;Itching and redness&lt;/li&gt;
+	&lt;li&gt;Thickened skin&lt;/li&gt;
+	&lt;li&gt;Open sores or ulcers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Stasis dermatitis occurs when varicose veins or other circulatory conditions cause fluids to build up in the lower legs. The swelling produces pressure beneath the skin and prevents adequate blood and oxygen from reaching the skin. This causes the skin at your ankles and shins to become discolored, thick and itchy.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Stasis dermatitis
+			</Title>
+			<ImageAltText>
+				Photo of stasis dermatitis
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/r22_stasisdermatitis.jpg
+			</URI>
+		</Slide>
+	</Slides>
+</SlideShow>

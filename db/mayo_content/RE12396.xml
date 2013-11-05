@@ -1,0 +1,237 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12396
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vegetarian-chili/RE12396
+		</OriginalURL>
+		<UpdateDate>
+			2013-04-02
+		</UpdateDate>
+		<PublicationDate>
+			2013-04-02
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			002D7F9D-CEBA-F120-9211662C24BD7F1C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				DAHLC
+			</MetaKeyword>
+			<MetaKeyword>
+				soups
+			</MetaKeyword>
+			<MetaKeyword>
+				lunch
+			</MetaKeyword>
+			<MetaKeyword>
+				beans
+			</MetaKeyword>
+			<MetaKeyword>
+				legumes
+			</MetaKeyword>
+			<MetaKeyword>
+				meatless
+			</MetaKeyword>
+			<MetaKeyword>
+				DASH recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				heart healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				low fat recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				low sodium recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy carb recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			Created by the chefs at Mayo Clinic&apos;s Dan Abraham Healthy Living Center.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Vegetarian chili
+	</Title>
+	<Abstract>
+		This meatless chili gets its kick from Fresno peppers. If you can&apos;t find them, jalapeno peppers are a good substitute.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		8
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; If you can&apos;t find Fresno peppers, you can substitute jalapeno peppers in this recipe.
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In a stockpot over low heat, cook onion, celery, bell pepper and garlic in 2 tablespoons of water until onions become translucent, about 10 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+Add the remaining ingredients. Cover and simmer for 1-2 hours, stirring occasionally. If chili becomes too thick, thin with a little water.
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;2 cups diced onion&lt;/li&gt;
+	&lt;li&gt;1 cup diced celery&lt;/li&gt;
+	&lt;li&gt;1 cup diced bell pepper&lt;/li&gt;
+	&lt;li&gt;2 cloves garlic, minced&lt;/li&gt;
+	&lt;li&gt;2 tablespoons water&lt;/li&gt;
+	&lt;li&gt;2 Fresno peppers, diced&lt;/li&gt;
+	&lt;li&gt;2 quarts crushed tomatoes (no salt added)&lt;/li&gt;
+	&lt;li&gt;2 cups cooked pinto beans (no salt added; if canned, rinse under water)&lt;/li&gt;
+	&lt;li&gt;2 tablespoons cumin&lt;/li&gt;
+	&lt;li&gt;1 tablespoon chipotle pepper&lt;/li&gt;
+	&lt;li&gt;1 tablespoon black pepper&lt;/li&gt;
+	&lt;li&gt;1 tablespoon balsamic vinegar&lt;/li&gt;
+	&lt;li&gt;1 tablespoon oregano&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans">
+				1
+			</Nuts_Seeds_Drybeans>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				4
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				1/2
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				4
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				3
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				178
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				34 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				9 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				1 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				7 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				trace
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				About 1 1/2 cups
+			</Servingsize>
+			<Sodium Label="Sodium">
+				79 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				1 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Course">
+			Soups
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Beans and legumes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Slow cook
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 8
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

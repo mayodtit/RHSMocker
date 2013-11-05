@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00360
 		</OriginalURL>
 		<UpdateDate>
-			2007-05-01
+			2013-05-01
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -33,6 +33,12 @@
 			<MetaKeyword>
 				mayocliniccookbook
 			</MetaKeyword>
+			<MetaKeyword>
+				apples
+			</MetaKeyword>
+			<MetaKeyword>
+				apple recipes
+			</MetaKeyword>
 		</MetaKeywords>
 		<HasFlash>
 			0
@@ -43,23 +49,31 @@
 	<Title>
 		Recipe: Apple salad with figs and almonds
 	</Title>
-	<Abstract />
+	<Abstract>
+		Apple salad with figs and almonds &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
 	<ServingInfo Label="Serves">
 		6
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
-		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Figs &amp;mdash; a sweet fruit with soft flesh and tiny edible seeds &amp;mdash; are a good source of iron, calcium and phosphorus. Dried figs are a good source of fiber. You can eat figs raw, with or without their peel, or use them in baked goods.&lt;/p&gt;
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Figs are a sweet fruit with soft flesh and tiny edible seeds. They are a good source of iron, calcium and phosphorus. You can eat figs raw, with or without their peel, or use them in baked goods. 
+&lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
-		&lt;p&gt;In a small bowl, combine the apples, figs and celery. Add yogurt and mix thoroughly. Serve on separate plates topped with almonds and garnished with grated carrots.&lt;/p&gt;
+		&lt;p&gt;
+In a small bowl, combine apples, figs and celery. Add yogurt and mix thoroughly. Top with almonds and grated carrots. Serve. 
+&lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
-		&lt;p&gt;2 large red apples, cored and diced&lt;br /&gt;
-6 dried figs, chopped&lt;br /&gt;
-2 ribs of celery, diced&lt;br /&gt;
-1/2 cup fat-free lemon yogurt&lt;br /&gt;
-2 tablespoons slivered almonds&lt;br /&gt;
-2 carrots, peeled and grated&lt;/p&gt;
+		&lt;ul&gt;
+	&lt;li&gt;2 large red apples, cored and diced&lt;/li&gt;
+	&lt;li&gt;6 dried figs, chopped&lt;/li&gt;
+	&lt;li&gt;2 ribs of celery, diced&lt;/li&gt;
+	&lt;li&gt;1/2 cup fat-free lemon yogurt&lt;/li&gt;
+	&lt;li&gt;2 tablespoons slivered almonds&lt;/li&gt;
+	&lt;li&gt;2 carrots, peeled and grated &lt;/li&gt;
+&lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
@@ -72,7 +86,9 @@
 			<Meat Label="Meats, poultry and fish" />
 			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
 			<Sweets Label="Sweets" />
-			<Vegetables Label="Vegetables" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
 		</Dash>
 		<Diabetes Label="Diabetes Meal Plan Exchanges">
 			<Fats Label="Fats" />
@@ -82,7 +98,9 @@
 			</Fruits>
 			<Meat Label="Meat and meat substitutes" />
 			<Milk Label="Milk and milk products" />
-			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
 			<Starches Label="Starches" />
 			<Sweets Label="Sweets, desserts and other carbohydrates" />
 		</Diabetes>
@@ -94,17 +112,19 @@
 			</Fruits>
 			<Protein_Dairy Label="Protein and dairy" />
 			<Sweets Label="Sweets" />
-			<Vegetables Label="Vegetables" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
 		</HWP>
 		<NutrientAnalysis Label="Nutritional Analysis per serving">
 			<Calories Label="Calories">
-				95
+				89
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
-				17 g
+				18 g
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
-				0 mg
+				trace
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
 				3 g
@@ -118,15 +138,21 @@
 			<Saturatedfat Label="Saturated fat">
 				trace
 			</Saturatedfat>
-			<Servingsize Label="Serving size" />
+			<Servingsize Label="Serving size">
+				About 3/4 cup
+			</Servingsize>
 			<Sodium Label="Sodium">
-				35 mg
+				38 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				3 g
+			</Sugars>
 			<TotalFat Label="Total fat">
-				2 g
+				1 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>
@@ -135,6 +161,9 @@
 		</Category>
 		<Category CategoryLabel="Preparation method">
 			No cook
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
 		</Category>
 		<Category CategoryLabel="Special diets">
 			Diabetes meal plan

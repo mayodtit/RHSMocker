@@ -1,0 +1,278 @@
+<SlideShow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SlideShow.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			SlideShow
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00549
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/genetic-disorders/DS00549
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-07
+		</UpdateDate>
+		<PublicationDate>
+			2005-05-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3846" Title="Genetics/Birth defects">
+						<Keyword MCVID="3126" Title="Genetic tests" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			270140A4-A09B-4746-8BBE8E05B51FAB44
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				genetics
+			</MetaKeyword>
+			<MetaKeyword>
+				genetic condition
+			</MetaKeyword>
+			<MetaKeyword>
+				genetic conditions
+			</MetaKeyword>
+			<MetaKeyword>
+				genetic disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				genetic diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				inheritance
+			</MetaKeyword>
+			<MetaKeyword>
+				patterns of inheritance
+			</MetaKeyword>
+			<MetaKeyword>
+				family medical history
+			</MetaKeyword>
+			<MetaKeyword>
+				family health history
+			</MetaKeyword>
+			<MetaKeyword>
+				family medical tree
+			</MetaKeyword>
+			<MetaKeyword>
+				medical family tree
+			</MetaKeyword>
+			<MetaKeyword>
+				family tree
+			</MetaKeyword>
+			<MetaKeyword>
+				hereditary illness
+			</MetaKeyword>
+			<MetaKeyword>
+				heredity
+			</MetaKeyword>
+			<MetaKeyword>
+				genogram
+			</MetaKeyword>
+			<MetaKeyword>
+				pedigree
+			</MetaKeyword>
+			<MetaKeyword>
+				genetic counseling
+			</MetaKeyword>
+			<MetaKeyword>
+				genetic testing
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Slide show: How genetic disorders are inherited
+	</Title>
+	<Abstract>
+		Genetic disorders often are inherited from parents. This slide show explains how it happens.
+	</Abstract>
+	<Slides>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Your body is made up of trillions of cells. Each cell has a core structure (nucleus) that contains your chromosomes.
+&lt;/p&gt;
+&lt;p&gt;
+Each chromosome is made up of tightly coiled strands of deoxyribonucleic acid (DNA). Genes are segments of DNA that determine specific traits, such as eye or hair color. You have more than 20,000 genes.
+&lt;/p&gt;
+&lt;p&gt;
+A gene mutation is an alteration in your DNA. It can be inherited or acquired during your lifetime, as cells age or are exposed to certain chemicals. These changes in your DNA can result in genetic disorders.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Your genes, chromosomes and DNA
+			</Title>
+			<ImageAltText>
+				Illustration showing cell, chromosome, gene and DNA
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/r22_chromosome.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Most cells in your body normally contain 46 chromosomes, organized into 23 pairs. In each of these 23 pairs, you&apos;ve inherited one chromosome from your father and one from your mother. Of these 23 pairs, 22 pairs are nonsex chromosomes (autosomes) and the one remaining pair is made up of sex chromosomes, which determine whether you&apos;re male (XY) or female (XX). This illustration shows chromosomes from a male cell.
+&lt;/p&gt;
+&lt;p&gt;
+Disorders may have a dominant or recessive inheritance pattern. Dominant inheritance implies that only one copy of the gene needs to have a mutation for the trait or disease to be expressed. Recessive inheritance implies the trait or disease will only occur if both copies of the gene are mutated.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Human chromosomes
+			</Title>
+			<ImageAltText>
+				Illustration of the human chromosomes
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/r22_humanchromosomes.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+In an autosomal dominant disorder, the mutated gene is located on one of the first 22 pairs of chromosomes (autosomes). You only need one copy of the mutated gene to be affected by this type of disorder.
+&lt;/p&gt;
+&lt;p&gt;
+A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of passing the mutated copy of the gene (and having an affected child) and a 50 percent chance of passing the nonmutated copy of the gene (and having an unaffected child).
+&lt;/p&gt;
+&lt;p&gt;
+Huntington&apos;s disease and Marfan syndrome are two examples of autosomal dominant disorders. Mutations to BRCA1 and BRCA2 genes &amp;mdash; which have been associated with breast cancer &amp;mdash; also are transmitted in this pattern.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Autosomal dominant inheritance pattern
+			</Title>
+			<ImageAltText>
+				Illustration of autosomal dominant inheritance pattern
+			</ImageAltText>
+			<Height>
+				306
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/r22_autosomaldominant.gif
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+In an autosomal recessive disorder, the mutated recessive gene is located on one of the nonsex chromosomes (autosomes). To inherit an autosomal recessive disorder &amp;mdash; such as cystic fibrosis, sickle cell anemia or phenylketonuria (PKU) &amp;mdash; both copies of the gene must be mutated.
+&lt;/p&gt;
+&lt;p&gt;
+A &quot;carrier&quot; is an unaffected individual who has one copy of the mutated gene and the other copy is normal. Two carriers have a 25 percent chance of having an unaffected child with two normal copies of a gene (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two mutations (right).
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Autosomal recessive inheritance pattern
+			</Title>
+			<ImageAltText>
+				Illustration of autosomal recessive inheritance pattern
+			</ImageAltText>
+			<Height>
+				306
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/r22_autosomalrecessive.gif
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+In an X-linked inheritance pattern, the mutated gene is on the X chromosome. Duchenne muscular dystrophy, color blindness and hemophilia A are examples of X-linked recessive disorders.
+&lt;/p&gt;
+&lt;p&gt;
+For a person to have a recessive disorder, it usually requires two copies of the mutated gene. However, males are affected by a single X-linked recessive gene because they don&apos;t have a second X chromosome to override the recessive trait.
+&lt;/p&gt;
+&lt;p&gt;
+A woman who is a carrier of an X-linked recessive disorder has a 25 percent chance of each of the following scenarios: Having an unaffected son, having an affected son, having an unaffected daughter and having an unaffected daughter who also is a carrier.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				X-linked recessive inheritance pattern with carrier mother
+			</Title>
+			<ImageAltText>
+				Illustration of X-linked recessive inheritance with carrier mother
+			</ImageAltText>
+			<Height>
+				306
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/r22_xlinkedrecessivemother.gif
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+A man with an X-linked recessive disorder will pass his unaffected Y chromosome to his sons, and none will be affected. He will pass his X chromosome (with the gene mutation) to his daughters, and all will be carriers of the disease. Their health is rarely affected, but these daughters may pass the mutated gene down to their children.
+&lt;/p&gt;
+&lt;p&gt;
+If you know &amp;mdash; or suspect &amp;mdash; that you or your partner has a family history of any genetic disorder, a genetic counselor can help assess your risk of having a child with that disorder. This counselor can also help you decide whether or not to have genetic testing. He or she can also explain treatments, preventive measures and reproductive options.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				X-linked recessive inheritance pattern with affected father
+			</Title>
+			<ImageAltText>
+				Illustration of X-linked recessive inheritance with affected father
+			</ImageAltText>
+			<Height>
+				306
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/r22_xlinkedrecessivefather.gif
+			</URI>
+		</Slide>
+	</Slides>
+</SlideShow>

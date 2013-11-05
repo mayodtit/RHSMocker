@@ -1,0 +1,86 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00657
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/melanoma/MM00657
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-08
+		</UpdateDate>
+		<PublicationDate>
+			2005-11-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="3036" Title="Skin cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B384DE16-2A5D-9994-E670963F50D3A098
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		Skin cancer &amp;mdash; How skin cancer develops
+	</Title>
+	<Abstract>
+		Skin cancer &amp;mdash; Watch this video to see how skin cancers form, including melanoma.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00657_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+Skin cancer is the most common of all cancers. It&apos;s highly curable when detected early. Most skin cancers are classified as nonmelanoma, meaning they arise from cells in the skin other than pigment-producing cells called melanocytes. Nonmelanoma cancer isn&apos;t likely to spread, and it&apos;s usually easily removed. 
+&lt;/p&gt;
+&lt;p&gt;
+Melanoma begins in the melanocytes, cells that produce skin color &amp;mdash; or melanin. Melanin helps protect deep layers of skin from harmful effects of the sun. A suntan is produced by melanin trying to protect your skin by blocking harmful ultraviolet light, but protection only goes so far. While melanoma accounts for a small percentage of skin cancer, it causes the majority of skin cancer deaths. 
+&lt;/p&gt;
+&lt;p&gt;
+Melanoma typically begins as a mole. If you identify it early and it hasn&apos;t spread, it can be surgically treated. Here you see the mole being removed, along with surrounding skin. The extra skin is taken to ensure that no cancer cells are left behind. 
+&lt;/p&gt;
+&lt;p&gt;
+Melanoma is dangerous because it can spread beyond what you can see, moving deep into your skin where it can gain access to your lymphatic vessels. This allows cancer cells to travel to distant locations in your body. Cancer cells can also travel to different parts of your body by way of your blood vessels. 
+&lt;/p&gt;
+&lt;p&gt;
+In this example, melanoma cells migrate to a lymph node. From the lymph node, the melanoma cells can then travel to other parts of your body. Here, you see cancer spreading to the lung. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00657_melanoma.jpg" width="60" />
+</Video>

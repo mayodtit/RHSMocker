@@ -1,0 +1,161 @@
+<Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Table.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Table
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DA00091
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/insulin/DA00091
+		</OriginalURL>
+		<UpdateDate>
+			2013-07-30
+		</UpdateDate>
+		<PublicationDate>
+			2004-11-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1139" Title="Diabetes mellitus" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5EBD4F51-485A-43CC-B9267FF9CF6E49F4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				diabetes and insulin
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes medications
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				type 1 diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				type 2 diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				insulin
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Insulin therapy is a critical part of treatment for those with type 1 diabetes and also for many with type 2 diabetes. The goal of insulin therapy is to maintain blood sugar levels within your target range. Insulin is usually administered in the fat under your skin using a syringe, insulin pen or insulin pump. Which insulin regimen is best for you depends on factors such as the type of diabetes you have, how much your blood sugar fluctuates throughout the day and your lifestyle. 
+&lt;/p&gt;
+&lt;p&gt;
+Each insulin type is characterized by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Onset &amp;mdash;&lt;/strong&gt; how long it takes to begin working&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Peak &amp;mdash;&lt;/strong&gt; when it&apos;s working the hardest&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Duration &amp;mdash; &lt;/strong&gt;how long it lasts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Many types of insulin are available. Here&apos;s how they compare. Keep in mind that your doctor may prescribe a mixture of insulin types to use throughout the day and night. 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;20%&quot;&gt;Insulin type &lt;/th&gt;&lt;th width=&quot;20%&quot;&gt;Generic and brand names &lt;/th&gt;&lt;th width=&quot;20%&quot;&gt;Onset &lt;/th&gt;&lt;th width=&quot;20%&quot;&gt;Peak &lt;/th&gt;&lt;th width=&quot;20%&quot;&gt;Duration &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;strong&gt;Rapid-acting&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;
+			&lt;p&gt;
+			Insulin aspart (NovoLog) 
+			&lt;/p&gt;
+			&lt;p&gt;
+			Insulin glulisine (Apidra) 
+			&lt;/p&gt;
+			&lt;p&gt;
+			Insulin lispro (Humalog) 
+			&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td&gt;15 minutes &lt;/td&gt;
+			&lt;td&gt;30 to 90 minutes &lt;/td&gt;
+			&lt;td&gt;3 to 5 hours &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;Short-acting&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;
+			&lt;p&gt;
+			Insulin regular (Humulin R, Novolin R) 
+			&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td&gt;30 to 60 minutes &lt;/td&gt;
+			&lt;td&gt;2 to 4 hours &lt;/td&gt;
+			&lt;td&gt;5 to 8 hours &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;strong&gt;Intermediate-acting&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;Insulin NPH human (Humulin N, Novolin N) &lt;/td&gt;
+			&lt;td&gt;1 to 3 hours &lt;/td&gt;
+			&lt;td&gt;8 hours &lt;/td&gt;
+			&lt;td&gt;12 to 16 hours &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;Long-acting&lt;/strong&gt; &lt;/td&gt;
+			&lt;td width=&quot;108&quot; valign=&quot;top&quot;&gt;
+			&lt;p&gt;
+			Insulin glargine (Lantus) 
+			&lt;/p&gt;
+			&lt;p&gt;
+			Insulin detemir (Levemir) 
+			&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td&gt;1 hour &lt;/td&gt;
+			&lt;td&gt;No clear peak &lt;/td&gt;
+			&lt;td&gt;20 to 26 hours &lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+In some cases, pre-mixed insulin &amp;mdash; a combination of specific proportions of intermediate-acting and short- or rapid-acting insulin in one bottle or insulin pen &amp;mdash; may be an option. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Insulin: Compare common options for insulin therapy
+	</Title>
+	<Abstract>
+		Insulin comes in many types. Consider how each type affects your blood sugar.
+	</Abstract>
+</Table>

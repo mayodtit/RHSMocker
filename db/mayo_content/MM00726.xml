@@ -1,0 +1,82 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00726
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/resistance-tubing/MM00726
+		</OriginalURL>
+		<UpdateDate>
+			2013-03-02
+		</UpdateDate>
+		<PublicationDate>
+			2008-02-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1090" Title="Fitness">
+					<Keyword MCVID="1198" Title="Strength training">
+						<Keyword MCVID="1202" Title="Elastic resistance" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3FC9F794-E7FF-0DBD-1904E059A74BEAF0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		How to choose resistance tubing
+	</Title>
+	<Abstract>
+		Resistance tubing is a lightweight, portable strength training tool. See how it&apos;s used.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00726_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+&lt;strong&gt;Edward R. Laskowski, M.D.:&lt;/strong&gt; Resistance tubing is a lightweight, portable, inexpensive strength training tool. The tubing provides resistance when stretched. 
+&lt;/p&gt;
+&lt;p&gt;
+You can choose from many types of resistance tubes in nearly any sporting goods store. In general, the lighter the color of the tubing, the lighter the resistance. Likewise, the darker the tubing, or the shorter you make the tubing, the greater the resistance. 
+&lt;/p&gt;
+&lt;p&gt;
+You can use resistance tubing to strengthen virtually any muscle group, both in the arms and the legs. As you get stronger, you can use tubes that provide more resistance. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00726.jpg" width="60" />
+</Video>

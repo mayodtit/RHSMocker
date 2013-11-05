@@ -1,5 +1,5 @@
 - if resource.is_a?(Question)
-  = render :template => 'api/v1/questions/show', :locals => {:question => resource}
+  = render :template => 'api/v1/questions/show', :locals => {:card => card, :question => resource}
 - elsif resource.is_a?(Content) && resource.content_type == 'Question'
   = render :partial => 'api/v1/cards/question_preview', :locals => {:question => resource.decorate}
 - elsif resource.is_a?(Content)

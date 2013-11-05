@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00564
 		</OriginalURL>
 		<UpdateDate>
-			2011-07-01
+			2013-08-17
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -44,14 +44,14 @@
 		Recipe: Rotelle pasta with sun-dried tomato and black olive sauce
 	</Title>
 	<Abstract>
-		Rotelle pasta with sun-dried tomato and black olive sauce &amp;mdash; one of many healthy recipes from Mayo Clinic.
+		Rotelle pasta with sun-dried tomato and black olive sauce is a quick lunch or dinner option.
 	</Abstract>
 	<ServingInfo Label="Serves">
 		4
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
 		&lt;p&gt;
-&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; For a different flavor, try sliced green or Greek olives in this pasta sauce. The calorie value is approximately the same. If you use Greek olives, substitute feta cheese for the Parmesan cheese.
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; For a different flavor, try sliced green or Greek olives in this pasta sauce. The calorie value is approximately the same. If you use Greek olives, substitute feta cheese for the Parmesan cheese. 
 &lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
@@ -59,7 +59,7 @@
 In a large skillet, heat the olive oil and garlic over medium heat. Stir in the sun-dried tomatoes and unsalted vegetable broth. Reduce heat, cover and simmer for 10 minutes. 
 &lt;/p&gt;
 &lt;p&gt;
-Fill a large pot 3/4 full with water and bring to a boil. Add the pasta and cook until al dente (tender), 10 to 12 minutes, or according to the package directions. Drain the pasta thoroughly. 
+Fill a large pot 3/4 full with water and bring to a boil. Add the pasta and cook until al dente, 10 to 12 minutes, or according to the package directions. Drain the pasta thoroughly. 
 &lt;/p&gt;
 &lt;p&gt;
 Add the olives and parsley to the sun-dried tomato mixture. Stir to mix evenly. 
@@ -74,7 +74,7 @@ Divide the pasta among individual plates. Top each serving with 1/4 of the sun-d
 	&lt;li&gt;4 garlic cloves, mashed&lt;/li&gt;
 	&lt;li&gt;1/3 cup dry-packed sun-dried tomatoes, soaked in water to rehydrate, drained and chopped&lt;/li&gt;
 	&lt;li&gt;1 3/4 cups unsalted vegetable broth&lt;/li&gt;
-	&lt;li&gt;8 ounces uncooked whole-wheat rotelle (wheel-shaped) pasta&lt;/li&gt;
+	&lt;li&gt;8 ounces uncooked whole-wheat rotelle pasta&lt;/li&gt;
 	&lt;li&gt;1/2 cup sliced black olives (about 15 medium olives)&lt;/li&gt;
 	&lt;li&gt;1/2 cup chopped fresh parsley&lt;/li&gt;
 	&lt;li&gt;4 teaspoons Parmesan cheese &lt;/li&gt;
@@ -135,16 +135,16 @@ Divide the pasta among individual plates. Top each serving with 1/4 of the sun-d
 				47 g
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
-				4 mg
+				2 mg
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
-				6 g
+				3 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
 				7 g
 			</Monounsaturatedfat>
 			<Protein Label="Protein">
-				12 g
+				10 g
 			</Protein>
 			<Saturatedfat Label="Saturated fat">
 				2 g
@@ -153,13 +153,17 @@ Divide the pasta among individual plates. Top each serving with 1/4 of the sun-d
 				About 1 1/2 cups
 			</Servingsize>
 			<Sodium Label="Sodium">
-				306 mg
+				192 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
 			<TotalFat Label="Total fat">
-				11 g
+				10 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>
@@ -181,6 +185,9 @@ Divide the pasta among individual plates. Top each serving with 1/4 of the sun-d
 		<Category CategoryLabel="Main ingredient">
 			Pasta
 		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
 		<Category CategoryLabel="Course">
 			Main dishes
 		</Category>
@@ -189,6 +196,12 @@ Divide the pasta among individual plates. Top each serving with 1/4 of the sun-d
 		</Category>
 		<Category CategoryLabel="Meal">
 			Dinner
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
 		</Category>
 	</Categorization>
 </Recipe>

@@ -1,0 +1,88 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00716
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cpap/MM00716
+		</OriginalURL>
+		<UpdateDate>
+			2013-05-08
+		</UpdateDate>
+		<PublicationDate>
+			2007-09-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1156" Title="Sleep disorders">
+						<Keyword MCVID="1935" Title="Sleep apnea" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			84A0D09E-E7FF-0DBD-1613202322835EE6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		How CPAP controls sleep apnea
+	</Title>
+	<Abstract>
+		See how CPAP can keep you breathing easy if you have sleep apnea.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00716_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+Continuous positive airway pressure is a treatment option for sleep apnea. 
+&lt;/p&gt;
+&lt;p&gt;
+As you sleep, CPAP provides air at a pressure just high enough to prevent the collapse of your airway. The pressurized air is provided through a mask that seals with your mouth or nose. This allows you to breathe without much effort and sleep without waking up. 
+&lt;/p&gt;
+&lt;p&gt;
+The CPAP machine doesn&apos;t breathe for you. You can breathe in and out normally on your own. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people require different pressures during the inhale and exhale cycle to help them breathe more normally or comfortably. 
+&lt;/p&gt;
+&lt;p&gt;
+A variety of masks are available. If one type of mask or machine isn&apos;t comfortable, ask your doctor for suggestions about other options for you. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00716.jpg" width="60" />
+</Video>

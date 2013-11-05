@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00429
 		</OriginalURL>
 		<UpdateDate>
-			2010-10-01
+			2013-08-20
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -44,31 +44,43 @@
 		Recipe: Roasted potatoes with garlic and herbs
 	</Title>
 	<Abstract>
-		Roasted potatoes with garlic and herbs &amp;mdash; one of many healthy recipes from Mayo Clinic.
+		Potatoes are a good source of potassium and vitamins C and B-6. The skins also provide fiber.
 	</Abstract>
 	<ServingInfo Label="Serves">
 		4
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
 		&lt;p&gt;
-&lt;strong&gt;Dietitian&apos;s tip: &lt;/strong&gt;Potatoes are a good source of vitamin C, vitamin B-6 and potassium. If you eat them with their skins, you nearly double the amount of fiber.
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Potatoes are a good source of vitamin C, vitamin B-6 and potassium. If you eat them with their skins, you nearly double the amount of fiber. 
 &lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
 		&lt;p&gt;
-Preheat the oven to 400 F. Lightly coat a large baking dish with cooking spray. In a large mixing bowl, add the whole potatoes, garlic cloves, olive oil, rosemary, salt and pepper. Mix thoroughly (hands work best) until the potatoes are coated evenly with the oil and spices. Arrange the potatoes in a single layer in the prepared baking dish. Cover with a lid or aluminum foil and bake for 25 minutes. Remove the lid or foil. Turn potatoes and bake uncovered until the potatoes are soft and slightly browned, about 25 minutes. Transfer to a serving bowl, mix with butter. Sprinkle with parsley and serve. 
+Preheat oven to 400 F. Lightly coat a large baking dish with cooking spray. 
+&lt;/p&gt;
+&lt;p&gt;
+In a large mixing bowl, add the whole potatoes, garlic cloves, olive oil, rosemary, salt and pepper. Mix thoroughly (hands work best) until the potatoes are coated evenly with the oil and spices. 
+&lt;/p&gt;
+&lt;p&gt;
+Arrange the potatoes in a single layer in the prepared baking dish. Cover with a lid or aluminum foil and bake for 25 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+Remove the lid or foil. Turn potatoes and bake uncovered until the potatoes are soft and slightly browned, about 25 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+Transfer to a serving bowl and mix with butter. Sprinkle with parsley and serve. 
 &lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
 		&lt;ul&gt;
-	&lt;li&gt;1 pound small (2-inch) white or red potatoes&lt;/li&gt;&lt;br /&gt;
-	&lt;li&gt;10 garlic cloves&lt;/li&gt;&lt;br /&gt;
-	&lt;li&gt;1 tablespoon olive oil&lt;/li&gt;&lt;br /&gt;
-	&lt;li&gt;1 teaspoon chopped fresh rosemary&lt;/li&gt;&lt;br /&gt;
-	&lt;li&gt;1/4 teaspoon salt&lt;/li&gt;&lt;br /&gt;
-	&lt;li&gt;1/4 teaspoon ground black pepper&lt;/li&gt;&lt;br /&gt;
-	&lt;li&gt;1 teaspoon butter&lt;/li&gt;&lt;br /&gt;
-	&lt;li&gt;2 tablespoons chopped fresh parsley&lt;/li&gt;
+	&lt;li&gt;3/4 pound small (2-inch) white or red potatoes&lt;/li&gt;
+	&lt;li&gt;4 garlic cloves&lt;/li&gt;
+	&lt;li&gt;1 tablespoon olive oil&lt;/li&gt;
+	&lt;li&gt;1 teaspoon chopped fresh rosemary&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon salt&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon ground black pepper&lt;/li&gt;
+	&lt;li&gt;1 teaspoon butter&lt;/li&gt;
+	&lt;li&gt;2 tablespoons chopped fresh parsley &lt;/li&gt;
 &lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
@@ -96,7 +108,7 @@ Preheat the oven to 400 F. Lightly coat a large baking dish with cooking spray. 
 			<Milk Label="Milk and milk products" />
 			<NonStarchyVegetables Label="Nonstarchy vegetables" />
 			<Starches Label="Starches">
-				2
+				1
 			</Starches>
 			<Sweets Label="Sweets, desserts and other carbohydrates" />
 		</Diabetes>
@@ -110,16 +122,14 @@ Preheat the oven to 400 F. Lightly coat a large baking dish with cooking spray. 
 			<Fruits Label="Fruits" />
 			<Protein_Dairy Label="Protein and dairy" />
 			<Sweets Label="Sweets" />
-			<Vegetables Label="Vegetables">
-				1
-			</Vegetables>
+			<Vegetables Label="Vegetables" />
 		</HWP>
 		<NutrientAnalysis Label="Nutritional Analysis per serving">
 			<Calories Label="Calories">
-				152
+				125
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
-				25 g
+				18 g
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
 				3 mg
@@ -131,20 +141,26 @@ Preheat the oven to 400 F. Lightly coat a large baking dish with cooking spray. 
 				3 g
 			</Monounsaturatedfat>
 			<Protein Label="Protein">
-				3 g
+				2 g
 			</Protein>
 			<Saturatedfat Label="Saturated fat">
 				1 g
 			</Saturatedfat>
-			<Servingsize Label="Serving size" />
+			<Servingsize Label="Serving size">
+				About 2/3 cup
+			</Servingsize>
 			<Sodium Label="Sodium">
-				164 mg
+				162 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
 			<TotalFat Label="Total fat">
 				5 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>
@@ -153,6 +169,9 @@ Preheat the oven to 400 F. Lightly coat a large baking dish with cooking spray. 
 		</Category>
 		<Category CategoryLabel="Number of servings">
 			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
 		</Category>
 		<Category CategoryLabel="Special diets">
 			Diabetes meal plan
@@ -171,9 +190,6 @@ Preheat the oven to 400 F. Lightly coat a large baking dish with cooking spray. 
 		</Category>
 		<Category CategoryLabel="Main ingredient">
 			Vegetables
-		</Category>
-		<Category CategoryLabel="Meal">
-			Lunch
 		</Category>
 		<Category CategoryLabel="Preparation method">
 			Roast

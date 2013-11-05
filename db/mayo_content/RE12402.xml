@@ -1,0 +1,192 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12402
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/fruit-ice-pops/RE12402
+		</OriginalURL>
+		<UpdateDate>
+			2013-07-27
+		</UpdateDate>
+		<PublicationDate>
+			2013-07-27
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			5BAD7104-DB48-802C-E7567AFB04AF05B6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ice pops
+			</MetaKeyword>
+			<MetaKeyword>
+				fruit pops
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Rainbow ice pops
+	</Title>
+	<Abstract>
+		These frozen pops are a refreshing way to add more fruit to your diet.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; These pops are a refreshing way to add more fruit to your diet. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Mix the fruit together and divide evenly into the paper cups. Pour 1/3 cup of juice into each paper cup. 
+&lt;/p&gt;
+&lt;p&gt;
+Place the cups on a level surface in the freezer. Freeze until partially frozen, approximately 1 hour. Insert craft stick into center of each pop. Freeze until firm. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 1/2 cups diced strawberries, cantaloupe and watermelon&lt;/li&gt;
+	&lt;li&gt;1/2 cup blueberries&lt;/li&gt;
+	&lt;li&gt;2 cups 100 percent apple juice (or another favorite juice)&lt;/li&gt;
+	&lt;li&gt;6 paper cups (6-8 ounces each)&lt;/li&gt;
+	&lt;li&gt;6 craft sticks&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				60
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				14 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				1 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				0 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				0.5 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				0 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 pop
+			</Servingsize>
+			<Sodium Label="Sodium">
+				6 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				0 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			No cook
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fruits
+		</Category>
+		<Category CategoryLabel="Meal">
+			Snacks
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 6
+		</Category>
+		<Category CategoryLabel="Course">
+			Desserts
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>
