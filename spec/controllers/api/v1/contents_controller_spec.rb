@@ -37,6 +37,30 @@ describe Api::V1::ContentsController do
     end
   end
 
+  describe 'GET show' do
+    def do_request
+      get :show
+    end
+
+    let(:content_keys) { content.active_model_serializer_instance.as_json.keys.map(&:to_sym) << :body }
+
+    before do
+      Content.stub(:find => content)
+    end
+
+    it_behaves_like 'action requiring authentication'
+
+    context 'authenticated', :user => :authenticate! do
+      it_behaves_like 'success'
+
+      it 'returns the content' do
+        do_request
+        json = JSON.parse(response.body, :symbolize_names => true)
+        json[:content].keys.should =~ content_keys
+      end
+    end
+  end
+
   describe 'POST like' do
     def do_request
       post :like, auth_token: user.auth_token, content_id: content.id
