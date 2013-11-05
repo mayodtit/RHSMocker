@@ -36,12 +36,19 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   private
 
   def load_contents!
-    @contents = params[:q].blank? ? Content.order('title ASC') : solr_results
+    @contents = params[:q].blank? ? sql_query : solr_query
   end
 
-  def solr_results
-    query = Content.sanitize_solr_query(params[:q])
-    Content.search{ fulltext query }.results
+  def sql_query
+    Content.order('title ASC').page(page).per(per)
+  end
+
+  def solr_query
+    query = Content.sanitize_solr_query params[:q]
+    Content.search do
+      fulltext query
+      paginate page: page, per_page: per
+    end.results
   end
 
   def load_content!
@@ -56,5 +63,13 @@ class Api::V1::ContentsController < Api::V1::ABaseController
     content.active_model_serializer_instance.as_json.merge!(:body => render_to_string(:action => :show,
                                                             :formats => :html,
                                                             :locals => {:content => content.decorate}))
+  end
+
+  def page
+    params[:page] || 1
+  end
+
+  def per
+    params[:per] || 50
   end
 end

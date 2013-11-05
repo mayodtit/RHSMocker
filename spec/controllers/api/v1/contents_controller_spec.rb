@@ -11,12 +11,12 @@ describe Api::V1::ContentsController do
   end
 
   describe 'GET index' do
-    def do_request
-      get :index, auth_token: user.auth_token
+    def do_request(params={})
+      get :index, {auth_token: user.auth_token}.merge!(params)
     end
 
     before(:each) do
-      Content.stub(:order => [content])
+      Content.stub_chain(:order, :page, :per).and_return([content])
     end
 
     it_behaves_like 'action requiring authentication'
@@ -33,6 +33,19 @@ describe Api::V1::ContentsController do
       it 'logs the content search to analytics' do
         Analytics.should_receive(:log_content_search).once
         do_request
+      end
+
+      context 'solr query' do
+        before do
+          Content.should_receive(:search).once
+          Content.stub_chain(:search, :results).and_return([content])
+        end
+
+        it 'returns an array of contents' do
+          do_request(q: 'diabetes')
+          json = JSON.parse(response.body, :symbolize_names => true)
+          json[:contents].first.keys.should =~ content_keys
+        end
       end
     end
   end
