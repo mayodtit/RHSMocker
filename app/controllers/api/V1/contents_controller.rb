@@ -4,7 +4,10 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   after_filter :log_content_search, only: :index
 
   def index
-    index_resource @contents.active_model_serializer_instance
+    render_success(contents: @contents.active_model_serializer_instance,
+                   page: page,
+                   per: per,
+                   total_count: @total_count)
   end
 
   def show
@@ -36,19 +39,22 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   private
 
   def load_contents!
-    @contents = params[:q].blank? ? sql_query : solr_query
+    params[:q].blank? ? load_from_sql! : load_from_solr!
   end
 
-  def sql_query
-    Content.order('title ASC').page(page).per(per)
+  def load_from_sql!
+    @contents = Content.order('title ASC').page(page).per(per)
+    @total_count = @contents.total_count
   end
 
-  def solr_query
+  def load_from_solr!
     query = Content.sanitize_solr_query params[:q]
-    Content.search do
+    solr_query = Content.search do
       fulltext query
       paginate page: page, per_page: per
-    end.results
+    end
+    @total_count = solr_query.total
+    @contents = solr_query.results
   end
 
   def load_content!

@@ -15,30 +15,37 @@ describe Api::V1::ContentsController do
       get :index, {auth_token: user.auth_token}.merge!(params)
     end
 
-    before(:each) do
-      Content.stub_chain(:order, :page, :per).and_return([content])
-    end
-
     it_behaves_like 'action requiring authentication'
 
     context 'authenticated', :user => :authenticate! do
-      it_behaves_like 'success'
+      context 'sql query' do
+        let(:results) { [content] }
 
-      it 'returns an array of contents' do
-        do_request
-        json = JSON.parse(response.body, :symbolize_names => true)
-        json[:contents].first.keys.should =~ content_keys
-      end
+        before(:each) do
+          Content.stub_chain(:order, :page, :per).and_return(results)
+          results.stub(total_count: 1)
+        end
 
-      it 'logs the content search to analytics' do
-        Analytics.should_receive(:log_content_search).once
-        do_request
+        it_behaves_like 'success'
+
+        it 'returns an array of contents' do
+          do_request
+          json = JSON.parse(response.body, :symbolize_names => true)
+          json[:contents].first.keys.should =~ content_keys
+        end
+
+        it 'logs the content search to analytics' do
+          Analytics.should_receive(:log_content_search).once
+          do_request
+        end
       end
 
       context 'solr query' do
+        let(:search) { double(results: [content], total: 1) }
+
         before do
           Content.should_receive(:search).once
-          Content.stub_chain(:search, :results).and_return([content])
+          Content.stub(search: search)
         end
 
         it 'returns an array of contents' do
