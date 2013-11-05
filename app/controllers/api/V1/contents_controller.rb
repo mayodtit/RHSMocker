@@ -1,11 +1,11 @@
 class Api::V1::ContentsController < Api::V1::ABaseController
-  skip_before_filter :authentication_check, :only => :show
-  before_filter :load_contents!, :only => :index
-  before_filter :load_content!, :only => :show
+  skip_before_filter :authentication_check, only: :show
+  before_filter :load_contents!, only: :index
+  before_filter :load_content!, only: :show
+  after_filter :log_content_search, only: :index
 
   def index
     index_resource(@contents.active_model_serializer_instance)
-    Analytics.log_content_search(current_user.google_analytics_uuid, params[:q]) if current_user
   end
 
   def show
@@ -47,6 +47,10 @@ class Api::V1::ContentsController < Api::V1::ABaseController
 
   def load_content!
     @content = Content.find(params[:id])
+  end
+
+  def log_content_search
+    Analytics.log_content_search(current_user.google_analytics_uuid, params[:q]) if current_user
   end
 
   def merge_body(content)
