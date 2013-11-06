@@ -233,11 +233,11 @@ PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_i
 #
 #########################################################################
 #FactorGroup
-accompanied_by_factor_group   = FactorGroup.find_or_create_by_name(:name=>"Accompanied by")
-appearance_of_eye_factor_group= FactorGroup.find_or_create_by_name(:name=>"Appearance of eye includes")
-blood_appears_factor_group    = FactorGroup.find_or_create_by_name(:name=>"Blood appears")
-cough_is_factor_group         = FactorGroup.find_or_create_by_name(:name=>"Cough is")
-duration_is_factor_group      = FactorGroup.find_or_create_by_name(:name=>"Duration is")
+accompanied_by_factor_group         = FactorGroup.find_or_create_by_name(:name=>"Accompanied by")
+appearance_of_eye_factor_group      = FactorGroup.find_or_create_by_name(:name=>"Appearance of eye includes")
+blood_appears_factor_group          = FactorGroup.find_or_create_by_name(:name=>"Blood appears")
+cough_is_factor_group               = FactorGroup.find_or_create_by_name(:name=>"Cough is")
+duration_is_factor_group            = FactorGroup.find_or_create_by_name(:name=>"Duration is")
 duration_of_headache_is_factor_group = FactorGroup.find_or_create_by_name(:name=>"Duration of headache is")
 eye_discomfort_described_as_factor_group = FactorGroup.find_or_create_by_name(:name=>"Eye discomfort best described as")
 heart_rate_is_factor_group    = FactorGroup.find_or_create_by_name(:name=>"Heart rate is")
@@ -442,34 +442,37 @@ lower_abdomen_factor = Factor.find_or_create_by_name(:name=>"Lower abdomen")
 loss_of_appetite_factor = Factor.find_or_create_by_name(:name=>"Loss of appetite")
 lying_down_for_a_long_period_factor = Factor.find_or_create_by_name(:name=>"Lying down for a long period")
 
-middle_abdomen_factor   = Factor.find_or_create_by_name(:name=>"Middle abdomen")
-muscle_aches_factor     = Factor.find_or_create_by_name(:name=>"Muscle aches")
-menstrual_cycle_factor  = Factor.find_or_create_by_name(:name=>"Menstrual cycle")
+middle_abdomen_factor         = Factor.find_or_create_by_name(:name=>"Middle abdomen")
+muscle_aches_factor           = Factor.find_or_create_by_name(:name=>"Muscle aches")
+muscle_or_joint_aches_factor  = Factor.find_or_create_by_name(:name=>"Muscle or joint aches")
+muscle_weakness_factor        = Factor.find_or_create_by_name(:name=>"Muscle weakness")
+mucus_in_stools_factor        = Factor.find_or_create_by_name(:name=>"Mucus in stools")
+menstrual_cycle_factor        = Factor.find_or_create_by_name(:name=>"Menstrual cycle")
 
 
-narrow_stools_factor = Factor.find_or_create_by_name(:name=>"Narrow stools")
-nausea_factor = Factor.find_or_create_by_name(:name=>"Nausea")
-nausea_or_vomiting_factor = Factor.find_or_create_by_name(:name=>"Nausea or vomiting")
-new_or_began_recently_factor = Factor.find_or_create_by_name(:name=>"New or began recently")
-ongoing_or_recurrent_factor = Factor.find_or_create_by_name(:name=>"Ongoing or recurrent")
+narrow_stools_factor          = Factor.find_or_create_by_name(:name=>"Narrow stools")
+nausea_factor                 = Factor.find_or_create_by_name(:name=>"Nausea")
+nausea_or_vomiting_factor     = Factor.find_or_create_by_name(:name=>"Nausea or vomiting")
+new_or_began_recently_factor  = Factor.find_or_create_by_name(:name=>"New or began recently")
+ongoing_or_recurrent_factor   = Factor.find_or_create_by_name(:name=>"Ongoing or recurrent")
 
 
 one_or_both_sides_factor = Factor.find_or_create_by_name(:name=>"One or both sides")
 
-radiates_from_abdomen_factor = Factor.find_or_create_by_name(:name=>"Radiates from abdomen")
-rapid_heart_rate_factor = Factor.find_or_create_by_name(:name=>"Rapid heart rate")
-rash_factor             = Factor.find_or_create_by_name(:name=>"Rash")
-recent_factor           = Factor.find_or_create_by_name(:name=>"Recent")
-recently_factor         = Factor.find_or_create_by_name(:name=>"Recently")
-rectal_pain_factor      = Factor.find_or_create_by_name(:name=>"Rectal pain")
-rest_factor             = Factor.find_or_create_by_name(:name=>"Rest")
+radiates_from_abdomen_factor  = Factor.find_or_create_by_name(:name=>"Radiates from abdomen")
+rapid_heart_rate_factor       = Factor.find_or_create_by_name(:name=>"Rapid heart rate")
+rash_factor                   = Factor.find_or_create_by_name(:name=>"Rash")
+recent_factor                 = Factor.find_or_create_by_name(:name=>"Recent")
+recently_factor               = Factor.find_or_create_by_name(:name=>"Recently")
+rectal_pain_factor            = Factor.find_or_create_by_name(:name=>"Rectal pain")
+rest_factor                   = Factor.find_or_create_by_name(:name=>"Rest")
 rapid_or_irregular_heartbeat_factor = Factor.find_or_create_by_name(:name=>"Rapid or irregular heartbeat")
-runny_or_stuffy_nose_factor = Factor.find_or_create_by_name(:name=>"Runny or stuffy nose")
+runny_or_stuffy_nose_factor   = Factor.find_or_create_by_name(:name=>"Runny or stuffy nose")
 
-
-pain_in_neck_jaw_arms_shoulders_back_factor          = Factor.find_or_create_by_name(:name=>"Pain in neck, jaw, arms, shoulders or back")
-pressing_on_chest_wall_factor          = Factor.find_or_create_by_name(:name=>"Pressing on chest wall")
-passing_gas_factor = Factor.find_or_create_by_name(:name=>"Passing gas")
+pale_dry_skin_factor                        = Factor.find_or_create_by_name(:name=>"Pale, dry skin")
+pain_in_neck_jaw_arms_shoulders_back_factor = Factor.find_or_create_by_name(:name=>"Pain in neck, jaw, arms, shoulders or back")
+pressing_on_chest_wall_factor               = Factor.find_or_create_by_name(:name=>"Pressing on chest wall")
+passing_gas_factor                          = Factor.find_or_create_by_name(:name=>"Passing gas")
 pain_from_accident_or_injury_factor = Factor.find_or_create_by_name(:name=>"Pain from accident or injury")
 pain_in_chest_neck_shoulder_factor = Factor.find_or_create_by_name(:name=>"Pain in chest, neck, shoulder")
 painful_bowel_movements_factor = Factor.find_or_create_by_name(:name=>"Painful bowel movements")
@@ -488,31 +491,25 @@ stiff_neck_factor         = Factor.find_or_create_by_name(:name=>"Stiff neck")
 
 stomach_growling_or_rumbling_factor = Factor.find_or_create_by_name(:name=>"Stomach growling or rumbling")
 short_of_breath_or_dizzy_factor = Factor.find_or_create_by_name(:name=>"Short of breath or dizzy")
-shortness_of_breath_factor = Factor.find_or_create_by_name(:name=>"Shortness of breath")
-severe_factor              = Factor.find_or_create_by_name(:name=>"Severe")
-sore_throat_factor         = Factor.find_or_create_by_name(:name=>"Sore throat")
-squeezing_or_pressure_factor = Factor.find_or_create_by_name(:name=>"Squeezing or pressure")
-sneezing_factor            = Factor.find_or_create_by_name(:name=>"Sneezing")
-sudden_factor              = Factor.find_or_create_by_name(:name=>"Sudden")
-sweating_factor            = Factor.find_or_create_by_name(:name=>"Sweating")
-
-taking_a_deep_breath_factor       = Factor.find_or_create_by_name(:name=>"Taking a deep breath")
-tearing_or_ripping_factor         = Factor.find_or_create_by_name(:name=>"Tearing or ripping")
-tight_factor                      = Factor.find_or_create_by_name(:name=>"Tight")
+shortness_of_breath_factor    = Factor.find_or_create_by_name(:name=>"Shortness of breath")
+severe_factor                 = Factor.find_or_create_by_name(:name=>"Severe")
+sore_throat_factor            = Factor.find_or_create_by_name(:name=>"Sore throat")
+squeezing_or_pressure_factor  = Factor.find_or_create_by_name(:name=>"Squeezing or pressure")
+sneezing_factor               = Factor.find_or_create_by_name(:name=>"Sneezing")
+sudden_factor                 = Factor.find_or_create_by_name(:name=>"Sudden")
+sweating_factor               = Factor.find_or_create_by_name(:name=>"Sweating")
+taking_a_deep_breath_factor   = Factor.find_or_create_by_name(:name=>"Taking a deep breath")
+tearing_or_ripping_factor     = Factor.find_or_create_by_name(:name=>"Tearing or ripping")
+tight_factor                  = Factor.find_or_create_by_name(:name=>"Tight")
 thick_green_or_yellow_phlegm_or_sputum = Factor.find_or_create_by_name(:name=>"Thick green or yellow phlegm or sputum")
-
-
-unexplained_fatigue_factor          = Factor.find_or_create_by_name(:name=>"Unexplained fatigue")
-upper_abdomen_factor = Factor.find_or_create_by_name(:name=>"Upper abdomen")
+unexplained_fatigue_factor    = Factor.find_or_create_by_name(:name=>"Unexplained fatigue")
+upper_abdomen_factor          = Factor.find_or_create_by_name(:name=>"Upper abdomen")
 unintended_weight_loss_factor = Factor.find_or_create_by_name(:name=>"Unintended weight loss")
-
-weakness_factor = Factor.find_or_create_by_name(:name=>"Weakness")
-watery_or_itchy_eyes_factor = Factor.find_or_create_by_name(:name=>"Watery or itchy eyes")
-wheezing_factor = Factor.find_or_create_by_name(:name=>"Wheezing")
-
-
-vomiting_blood_factor = Factor.find_or_create_by_name(:name=>"Vomiting blood ")
-
+unintended_weight_gain_factor = Factor.find_or_create_by_name(:name=>"Unintended weight gain")
+weakness_factor               = Factor.find_or_create_by_name(:name=>"Weakness")
+watery_or_itchy_eyes_factor   = Factor.find_or_create_by_name(:name=>"Watery or itchy eyes")
+wheezing_factor               = Factor.find_or_create_by_name(:name=>"Wheezing")
+vomiting_blood_factor         = Factor.find_or_create_by_name(:name=>"Vomiting blood ")
 
 #Symptoms - ADULT
 ##############################
@@ -1685,8 +1682,141 @@ SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id
   :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
 
-
-
+## Constipation - ADULT
+## #############################
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>ongoing_or_recurrent_factor.id,
+  :factor_group_id=>problem_is_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>recent_factor.id,
+  :factor_group_id=>problem_is_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>progressive_or_worsening_factor.id,
+  :factor_group_id=>problem_is_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>abdominal_pain_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>anal_or_rectal_pain_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>bloody_stools_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>cramping_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>diarrhea_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>fever_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>gas_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>increased_sensitivity_to_cold_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>mucus_in_stools_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>muscle_or_joint_aches_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>muscle_weakness_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>nausea_or_vomiting_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>pale_dry_skin_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>unexplained_fatigue_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>unintended_weight_loss_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>constipation_symptom.id,
+  :factor_id=>unintended_weight_gain_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
 #########################################
 ##
 ##
