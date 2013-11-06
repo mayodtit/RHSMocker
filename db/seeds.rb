@@ -362,11 +362,13 @@ buzzing_or_ringing_in_ear_factor        = Factor.find_or_create_by_name(:name=>"
 change_in_bowel_habits_factor   		    = Factor.find_or_create_by_name(:name=>"Change in your bowel habits")
 changing_position_factor        		    = Factor.find_or_create_by_name(:name=>"Changing position")
 chest_pain_or_tightness_factor  		    = Factor.find_or_create_by_name(:name=>"Chest pain or tightness")
+chest_pain_or_pressure_factor           = Factor.find_or_create_by_name(:name=>"Chest pain or pressure")
 chills_or_sweating_factor       		    = Factor.find_or_create_by_name(:name=>"Chills or sweating")
 chronic_ongoing_factor  				        = Factor.find_or_create_by_name(:name=>"Chronic, ongoing")
 constipation_factor     				        = Factor.find_or_create_by_name(:name=>"Constipation")
 crampy_factor           				        = Factor.find_or_create_by_name(:name=>"Crampy")
 cramping_factor         				        = Factor.find_or_create_by_name(:name=>"Cramping")
+confusion_factor                        = Factor.find_or_create_by_name(:name=>"Confusion")
 cough_factor                            = Factor.find_or_create_by_name(:name=>"Cough")
 coughing_or_jarring_movements_factor 	  = Factor.find_or_create_by_name(:name=>"Coughing or jarring movements")
 cough_with_blood_phlegm_factor       	  = Factor.find_or_create_by_name(:name=>"Cough with blood or phlegm")
@@ -383,10 +385,12 @@ dry_eyes_factor                         = Factor.find_or_create_by_name(:name=>"
 dry_mouth_factor                        = Factor.find_or_create_by_name(:name=>"Dry mouth")
 dull_factor                             = Factor.find_or_create_by_name(:name=>"Dull")
 earache_factor                          = Factor.find_or_create_by_name(:name=>"Earache")
+ear_pain_or_pressure_factor             = Factor.find_or_create_by_name(:name=>"Ear pain or pressure")
 eating_or_drinking_factor               = Factor.find_or_create_by_name(:name=>"Eating or drinking")
 eating_more_fibre_factor                = Factor.find_or_create_by_name(:name=>"Eating more fiber")
 eating_certain_foods_factor             = Factor.find_or_create_by_name(:name=>"Eating certain foods")
 exertion_factor                         = Factor.find_or_create_by_name(:name=>"Exertion")
+facial_numbness_factor                  = Factor.find_or_create_by_name(:name=>"Facial Numbness")
 fainting_or_dizziness_factor            = Factor.find_or_create_by_name(:name=>"Fainting or dizziness")
 fatigue_factor                          = Factor.find_or_create_by_name(:name=>"Fatigue")
 fatigue_or_weakness_factor              = Factor.find_or_create_by_name(:name=>"Fatigue or weakness")
@@ -424,9 +428,11 @@ intermittent_episodic_factor              = Factor.find_or_create_by_name(:name=
 inability_to_move_bowels_factor           = Factor.find_or_create_by_name(:name=>"Inability to move bowels")
 injury_factor                             = Factor.find_or_create_by_name(:name=>"Injury")
 injury_trauma_factor                      = Factor.find_or_create_by_name(:name=>"Injury or trauma")
+irregular_heartbeat_factor                = Factor.find_or_create_by_name(:name=>"Injury or trauma")
 jaw_pain_or_stiffness_factor              = Factor.find_or_create_by_name(:name=>"Jaw pain or stiffness")
 large_amounts_blood_factor                = Factor.find_or_create_by_name(:name=>"Large amounts of blood")
 lightheadedness_factor                    = Factor.find_or_create_by_name(:name=>"Lightheadedness")
+lightneadedned_or_faint_factor            = Factor.find_or_create_by_name(:name=>"Lightheaded or faint")
 lower_abdomen_factor                      = Factor.find_or_create_by_name(:name=>"Lower abdomen")
 loss_of_appetite_factor                   = Factor.find_or_create_by_name(:name=>"Loss of appetite")
 loose_teeth_or_poorly_fitting_dentures    = Factor.find_or_create_by_name(:name=>"Loose teeth or poorly fitting dentures")
@@ -445,7 +451,9 @@ narrow_stools_factor          = Factor.find_or_create_by_name(:name=>"Narrow sto
 nausea_factor                 = Factor.find_or_create_by_name(:name=>"Nausea")
 nausea_or_vomiting_factor     = Factor.find_or_create_by_name(:name=>"Nausea or vomiting")
 new_or_began_recently_factor  = Factor.find_or_create_by_name(:name=>"New or began recently")
+new_or_began_suddenly_factor  = Factor.find_or_create_by_name(:name=>"New or began suddenly")
 numbness_pain_color_factor    = Factor.find_or_create_by_name(:name=>"Numbness, pain and color changes in fingers")
+numbness_or_weakness_one_side = Factor.find_or_create_by_name(:name=>"Numbness or weakness on one side of body")
 ongoing_or_recurrent_factor   = Factor.find_or_create_by_name(:name=>"Ongoing or recurrent")
 one_or_both_sides_factor      = Factor.find_or_create_by_name(:name=>"One or both sides")
 radiates_from_abdomen_factor  = Factor.find_or_create_by_name(:name=>"Radiates from abdomen")
@@ -454,6 +462,7 @@ rash_factor                   = Factor.find_or_create_by_name(:name=>"Rash")
 recent_factor                 = Factor.find_or_create_by_name(:name=>"Recent")
 recent_day_week_factor        = Factor.find_or_create_by_name(:name=>"Recent (days to weeks)")
 recently_factor               = Factor.find_or_create_by_name(:name=>"Recently")
+recurrent_or_ongoing_factor   = Factor.find_or_create_by_name(:name=>"Recurrent or ongoing")
 rectal_pain_factor            = Factor.find_or_create_by_name(:name=>"Rectal pain")
 regurgitation_food_liquid_factor    = Factor.find_or_create_by_name(:name=>"Regurgitation of food or sour liquid")
 rest_factor                   = Factor.find_or_create_by_name(:name=>"Rest")
@@ -468,6 +477,7 @@ passing_gas_factor                          = Factor.find_or_create_by_name(:nam
 pain_from_accident_or_injury_factor         = Factor.find_or_create_by_name(:name=>"Pain from accident or injury")
 pain_in_chest_neck_factor                   = Factor.find_or_create_by_name(:name=>"Pain in chest or back")
 pain_in_chest_neck_shoulder_factor          = Factor.find_or_create_by_name(:name=>"Pain in chest, neck, shoulder")
+pain_in_chest_neck_shoulder_arm_factor      = Factor.find_or_create_by_name(:name=>"Pain in chest, neck, arm shoulder")
 painful_bowel_movements_factor              = Factor.find_or_create_by_name(:name=>"Painful bowel movements")
 persistant_nausea_or_vomiting_factor        = Factor.find_or_create_by_name(:name=>"Persistant nausea or vomiting")
 pulsing_near_navel_factor                   = Factor.find_or_create_by_name(:name=>"Pulsing near navel")
@@ -482,9 +492,11 @@ stomach_growling_or_rumbling_factor         = Factor.find_or_create_by_name(:nam
 short_of_breath_or_dizzy_factor             = Factor.find_or_create_by_name(:name=>"Short of breath or dizzy")
 shortness_of_breath_factor    = Factor.find_or_create_by_name(:name=>"Shortness of breath")
 severe_factor                 = Factor.find_or_create_by_name(:name=>"Severe")
+severe_headache_factor        = Factor.find_or_create_by_name(:name=>"Severe headache")
 sore_throat_factor            = Factor.find_or_create_by_name(:name=>"Sore throat")
 squeezing_or_pressure_factor  = Factor.find_or_create_by_name(:name=>"Squeezing or pressure")
 sneezing_factor               = Factor.find_or_create_by_name(:name=>"Sneezing")
+slurred_speech_factor = Factor.find_or_create_by_name(:name=>"Slurred speech")
 slurred_speech_difficulty_speaking_factor = Factor.find_or_create_by_name(:name=>"Slurred speech or difficulty speaking")
 sudden_factor                 = Factor.find_or_create_by_name(:name=>"Sudden")
 sudden_hours_days_factor      = Factor.find_or_create_by_name(:name=>"Sudden (hours to days)")
@@ -500,10 +512,12 @@ unexplained_fatigue_factor    = Factor.find_or_create_by_name(:name=>"Unexplaine
 upper_abdomen_factor          = Factor.find_or_create_by_name(:name=>"Upper abdomen")
 unintended_weight_loss_factor = Factor.find_or_create_by_name(:name=>"Unintended weight loss")
 unintended_weight_gain_factor = Factor.find_or_create_by_name(:name=>"Unintended weight gain")
+unsteady_factor               = Factor.find_or_create_by_name(:name=>"Unsteady")
 urgency_to_have_bowel_movement= Factor.find_or_create_by_name(:name=>"Urgency to have a bowel movement")
 weakness_factor               = Factor.find_or_create_by_name(:name=>"Weakness")
 watery_or_itchy_eyes_factor   = Factor.find_or_create_by_name(:name=>"Watery or itchy eyes")
 wheezing_factor               = Factor.find_or_create_by_name(:name=>"Wheezing")
+worsening_or_progressing_factor = Factor.find_or_create_by_name(:name=>"Worsening or progressing")
 vomiting_blood_factor         = Factor.find_or_create_by_name(:name=>"Vomiting blood ")
 
 #Symptoms - ADULT
@@ -2266,6 +2280,170 @@ SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>unintended_weight_loss_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+
+## Difficulty Swallowing - ADULT
+## #############################
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>a_spinning_sensation_factor.id,
+  :factor_group_id=>you_feel_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>lightneadedned_or_faint_factor.id,
+  :factor_group_id=>you_feel_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>unsteady_factor.id,
+  :factor_group_id=>you_feel_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>new_or_began_suddenly_factor.id,
+  :factor_group_id=>symptoms_are_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>recurrent_or_ongoing_factor.id,
+  :factor_group_id=>symptoms_are_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>worsening_or_progressing_factor.id,
+  :factor_group_id=>symptoms_are_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>a_change_in_head_or_body_position_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>anxiety_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>blurred_or_double_vision_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>buzzing_or_ringing_in_ear_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>chest_pain_or_pressure_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>confusion_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>ear_pain_or_pressure_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>facial_numbness_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>fever_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>hearing_loss_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>irregular_heartbeat_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>numbness_or_weakness_one_side.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>pain_in_chest_neck_shoulder_arm_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>severe_headache_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>shortness_of_breath_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>slurred_speech_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>sweating_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
 #########################################
