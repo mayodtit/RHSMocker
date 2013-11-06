@@ -834,53 +834,190 @@ abdominal_pain_symptom_child		= Symptom.upsert_attributes({:name=>"Abdominal Pai
 	{:description=>"Abdominal pain is common in children and often is the result of stomach flu. Identify other possible common causes based on your child's symptoms.",
 	 :selfcare=>"The following self-care tips may be beneficial for mild abdominal pain:"
 	})
+abdominal_pain_child_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"The following self-care tips may be beneficial for mild abdominal pain:",
+                                                                                  :symptom_id=>abdominal_pain_symptom_child.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Don't serve foods that you suspect may cause or worsen symptoms", 
+                                          :symptom_selfcare_id=>abdominal_pain_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Give your child plenty of water if the abdominal pain is accompanied by diarrhea or constipation", 
+                                          :symptom_selfcare_id=>abdominal_pain_child_selfcare.id)
+
 constipation_symptom_child		= Symptom.upsert_attributes({:name=>"Constipation", :patient_type=>"child"},
 	{:description=>"Constipation in children is most often caused by poor diet or poor bowel habits. Identify other common causes of constipation based on your child's symptoms.",
 	 :selfcare=>"If your child is constipated:"
 	})
+constipation_symptom_child_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"If your child is constipated:",
+                                                                                  :symptom_id=>constipation_symptom_child.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Offer plenty of water", 
+                                          :symptom_selfcare_id=>constipation_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Feed your child fruits, vegetables and high-fiber foods", 
+                                          :symptom_selfcare_id=>constipation_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Limit dairy products and fats", 
+                                          :symptom_selfcare_id=>constipation_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use laxatives only as recommended by your doctor", 
+                                          :symptom_selfcare_id=>constipation_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"If your child resists having bowels movements, create a regular schedule for attempting a bowel movement and consider a reward system for successful bowel movements", 
+                                          :symptom_selfcare_id=>constipation_symptom_child_selfcare.id)
+
 cough_symptom_child		= Symptom.upsert_attributes({:name=>"Cough", :patient_type=>"child"},
 	{:description=>"Infections, allergies and asthma can cause coughs in children. Identify possible common causes based on symptoms your child is experiencing.",
 	 :selfcare=>"To soothe your child's cough:"
 	})
+cough_symptom_child_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"To soothe your child's cough:",
+                                                                                  :symptom_id=>cough_symptom_child.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Offer plenty of water", 
+                                          :symptom_selfcare_id=>cough_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Encourage rest", 
+                                          :symptom_selfcare_id=>cough_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a humidifier or sit with your child in a steamy bathroom", 
+                                          :symptom_selfcare_id=>cough_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Offer an older child hard candy or throat lozenges", 
+                                          :symptom_selfcare_id=>cough_symptom_child_selfcare.id)
+
 decreased_hearing_symptom_child		= Symptom.upsert_attributes({:name=>"Decreased Hearing", :patient_type=>"child"},
 	{:description=>"Middle ear infection is the most common cause of decreased hearing in children. Identify other possible common causes based on your child's symptoms."
 	})
+## No selfcare
+
 diarrhea_symptom_child 		= Symptom.upsert_attributes({:name=>"Diarrhea", :patient_type=>"child"},
 	{:description=>"Diarrhea in children is common and is only rarely due to a serious problem. Identify possible common causes based on symptoms your child is experiencing.",
 	 :selfcare=>"Most cases of diarrhea resolve without treatment within a couple of days. In the meantime, follow these recommendations:"
 	})
+diarrhea_symptom_child_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Most cases of diarrhea resolve without treatment within a couple of days. In the meantime, follow these recommendations:",
+                                                                                  :symptom_id=>diarrhea_symptom_child.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Offer your child plenty of clear liquids — water, clear broth or beverages specifically intended for preventing dehydration in children", 
+                                          :symptom_selfcare_id=>diarrhea_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"As your child's bowel movements return to normal, offer bland foods — bananas, soda crackers, toast, rice, boiled potatoes or boiled carrots", 
+                                          :symptom_selfcare_id=>diarrhea_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid dairy products", 
+                                          :symptom_selfcare_id=>diarrhea_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid fatty, greasy, high-fiber, sweet or spicy foods", 
+                                          :symptom_selfcare_id=>diarrhea_symptom_child_selfcare.id)
+
 earache_symptom_child  = Symptom.upsert_attributes({:name=>"Earache", :patient_type=>"child"},
 	{:description=>"Middle ear infection is the most common cause of earache in children. Identify other possible common causes based on symptoms your child is experiencing.",
 	 :selfcare=>"To relieve your child's discomfort:"})
+earache_symptom_child_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"To relieve your child's discomfort:",
+                                                                                  :symptom_id=>earache_symptom_child.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Give your child acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others) — not aspirin — as directed on the label", 
+                                          :symptom_selfcare_id=>earache_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Hold a warm, moist cloth over your child's ear", 
+                                          :symptom_selfcare_id=>earache_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Ask the pharmacist about numbing eardrops", 
+                                          :symptom_selfcare_id=>earache_symptom_child_selfcare.id)
+
 eye_discomfort_and_red_symptom_child  = Symptom.upsert_attributes({:name=>"Eye Discomfort and Redness", :patient_type=>"child"},
 	{:description=>"Eye discomfort and redness can be concerning and disrupt your ability to do everyday activities. Identify possible common causes based on symptoms you're experiencing."})
+#No Selfcare
+
 fever_symptom_child	= Symptom.upsert_attributes({:name=>"Fever", :patient_type=>"child"},
 	{:description=>"Childhood fevers are common and not necessarily a serious concern. Identify common causes of fever based on your child's symptoms.",
 	 :selfcare=>"The goal for treating a fever is to make your child less uncomfortable and better able to rest. These self-care strategies may help:"
 	 })
+fever_symptom_child_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"The goal for treating a fever is to make your child less uncomfortable and better able to rest. These self-care strategies may help:",
+                                                                                  :symptom_id=>fever_symptom_child.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Encourage your child to drink water or juice or to suck on frozen ice pops", 
+                                          :symptom_selfcare_id=>fever_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Dress your child in lightweight clothing", 
+                                          :symptom_selfcare_id=>fever_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"If your child feels chilled, use a light blanket until the chills end", 
+                                          :symptom_selfcare_id=>fever_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Give your child acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others) — not aspirin — as directed on the label", 
+                                          :symptom_selfcare_id=>fever_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Give your child a lukewarm bath", 
+                                          :symptom_selfcare_id=>fever_symptom_child_selfcare.id)
+
 headache_symptom_child	= Symptom.upsert_attributes({:name=>"Headache", :patient_type=>"child"},
 	{:description=>"Headaches are common and usually aren't the result of serious illness. Identify possible common causes based on your child's symptoms.",
 	 :selfcare=>"For occasional tension headaches, the following self-care strategies may provide relief for your child:"
 	 })
+
+
 joint_muscle_pain_symptom_child = Symptom.upsert_attributes({:name=>"Joint or Muscle Pain", :patient_type=>"child"},
 	{:description=>"Joint pain and muscle pain is fairly common and often due to active lifestyles. Identify other possible causes based on your child's symptoms.",
 	 :selfcare=>"You may temporarily lessen pain with an over-the-counter children's pain reliever, such as ibuprofen (Advil, Motrin, others) or acetaminophen (Tylenol, others) — but not aspirin. Use only as directed on the label, and do not give your child combinations of pain relievers. If your child is experiencing pain from a sprain or fall, you may provide some relief with the following self-care strategies:"
 	 })
+joint_muscle_pain_symptom_child_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"If your child is experiencing pain from a sprain or fall, you may provide some relief with the following self-care strategies:",
+                                                                                  :symptom_id=>joint_muscle_pain_symptom_child.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Protect. Protect the area from further injury", 
+                                          :symptom_selfcare_id=>joint_muscle_pain_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Rest. Avoid activities that hurt", 
+                                          :symptom_selfcare_id=>joint_muscle_pain_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Ice. Reduce pain and inflammation with an ice pack", 
+                                          :symptom_selfcare_id=>joint_muscle_pain_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Compress. Reduce swelling with an elastic bandage", 
+                                          :symptom_selfcare_id=>joint_muscle_pain_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Elevate. Elevate the affected limb while your child rests", 
+                                          :symptom_selfcare_id=>joint_muscle_pain_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"You may temporarily lessen pain with an over-the-counter children's pain reliever, such as ibuprofen (Advil, Motrin, others) or acetaminophen (Tylenol, others) — but not aspirin. Use only as directed on the label, and do not give your child combinations of pain relievers.", 
+                                          :symptom_selfcare_id=>joint_muscle_pain_symptom_child_selfcare.id)
+
 nasal_congestion_symptom_child = Symptom.upsert_attributes({:name=>"Nasal Congestion", :patient_type=>"child"},
 	{:description=>"Nasal congestion is a common problem in children. Identify possible common causes based on symptoms your child is experiencing.",
 	 :selfcare=>"To relieve your child's stuffy nose:"
 	 })
+nasal_congestion_symptom_child_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"To relieve your child's stuffy nose:",
+                                                                                  :symptom_id=>nasal_congestion_symptom_child.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Help your child gently blow his or her nose", 
+                                          :symptom_selfcare_id=>nasal_congestion_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a bulb syringe for a younger child", 
+                                          :symptom_selfcare_id=>nasal_congestion_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Offer plenty of fluids", 
+                                          :symptom_selfcare_id=>nasal_congestion_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Sit with your child in a steamy bathroom", 
+                                          :symptom_selfcare_id=>nasal_congestion_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Put a humidifier in your child's room", 
+                                          :symptom_selfcare_id=>nasal_congestion_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a nasal saline spray", 
+                                          :symptom_selfcare_id=>nasal_congestion_symptom_child_selfcare.id)
+
 nausea_or_vomiting_symptom_child = Symptom.upsert_attributes({:name=>"Nausea of Vomiting", :patient_type=>"child"},
 	{:description=>"Nausea or vomiting is most often caused by the stomach flu. Identify other possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"The following strategies can lessen discomfort and prevent dehydration if your child experiences nausea or vomiting:"
 	 })
+nausea_or_vomiting_symptom_child_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"The following strategies can lessen discomfort and prevent dehydration if your child experiences nausea or vomiting:",
+                                                                                  :symptom_id=>nausea_or_vomiting_symptom_child.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Encourage rest", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"After your child vomits, give him or her small sips of a pediatric rehydrating solution every 10 to 20 minutes", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"When your child can tolerate more fluids, provide more rehydrating solution, water, and foods with high water content, such as broth, gelatin or ice pops", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"When solid foods can be tolerated, provide bland foods, such as crackers, toast and rice", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Help your child avoid unpleasant food odors, dairy products, fatty or heavily seasoned foods, and caffeine", 
+                                          :symptom_selfcare_id=>nausea_or_vomiting_symptom_child_selfcare.id)
+
 skin_rash_symptom_child	= Symptom.upsert_attributes({:name=>"Skin Rash", :patient_type=>"child"},
 	{:description=>"Nausea or vomiting in children is a common problem. Identify possible causes based on the symptoms your child is experiencing."
 	})
+skin_rash_symptom_child_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Call your child's doctor before treating a rash or skin irritation of unknown origin. If you know that a rash is caused by an insect bite or exposure to an irritating plant, such as poison ivy, use these self-care tips: ",
+                                                                                  :symptom_id=>skin_rash_symptom_child.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Clean the affected area with soap or water", 
+                                          :symptom_selfcare_id=>skin_rash_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Give your child a colloidal oatmeal bath", 
+                                          :symptom_selfcare_id=>skin_rash_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Apply a soothing cream, such as calamine lotion", 
+                                          :symptom_selfcare_id=>skin_rash_symptom_child_selfcare.id)
+
 sore_throat_symptom_child	= Symptom.upsert_attributes({:name=>"Sore Throat", :patient_type=>"child"},
 	{:description=>"Sore throat is common during childhood. Identify possible causes based on your child's symptoms.",
 	:selfcare=>"The following tips may help soothe your child's sore throat:"
 	})
+sore_throat_symptom_child_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"The following tips may help soothe your child's sore throat:",
+                                                                                  :symptom_id=>sore_throat_symptom_child.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Offer plenty of fluids", 
+                                          :symptom_selfcare_id=>sore_throat_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Encourage your child to rest his or her voice", 
+                                          :symptom_selfcare_id=>sore_throat_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a humidifier or sit with your child in a steamy bathroom", 
+                                          :symptom_selfcare_id=>sore_throat_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Offer an older child hard candy or throat lozenges", 
+                                          :symptom_selfcare_id=>sore_throat_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Offer an older child warm salt water to gargle", 
+                                          :symptom_selfcare_id=>sore_throat_symptom_child_selfcare.id)
+SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Help your child avoid smoke and other air pollutants", 
+                                          :symptom_selfcare_id=>sore_throat_symptom_child_selfcare.id)
+
 urinary_problems_symptom_child	= Symptom.upsert_attributes({:name=>"Urinary Problems", :patient_type=>"child"},
 	{:description=>"Urinary problems are common. Consider what may be causing your child's signs and symptoms."})
 vision_problems_symptom_child 	= Symptom.upsert_attributes({:name=>"Vision Problems", :patient_type=>"child"},
