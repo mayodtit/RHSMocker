@@ -386,12 +386,14 @@ dry_cough_factor                        = Factor.find_or_create_by_name(:name=>"
 dry_eyes_factor                         = Factor.find_or_create_by_name(:name=>"Dry eyes")
 dry_mouth_factor                        = Factor.find_or_create_by_name(:name=>"Dry mouth")
 dry_or_itchy_factor                     = Factor.find_or_create_by_name(:name=>"Dry or itchy")
+dry_warm_air_factor                     = Factor.find_or_create_by_name(:name=>"Dry, warm air")
 dull_factor                             = Factor.find_or_create_by_name(:name=>"Dull")
 earache_factor                          = Factor.find_or_create_by_name(:name=>"Earache")
 ear_pain_or_pressure_factor             = Factor.find_or_create_by_name(:name=>"Ear pain or pressure")
 eating_or_drinking_factor               = Factor.find_or_create_by_name(:name=>"Eating or drinking")
 eating_more_fibre_factor                = Factor.find_or_create_by_name(:name=>"Eating more fiber")
 eating_certain_foods_factor             = Factor.find_or_create_by_name(:name=>"Eating certain foods")
+eye_movement_factor                     = Factor.find_or_create_by_name(:name=>"Eye Movement")
 excessive_tearing_factor                = Factor.find_or_create_by_name(:name=>"Excessive tearing")
 exertion_factor                         = Factor.find_or_create_by_name(:name=>"Exertion")
 facial_numbness_factor                  = Factor.find_or_create_by_name(:name=>"Facial Numbness")
@@ -2575,42 +2577,98 @@ SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>blurred_vision_factor.id,
-  :factor_group_id=>vision_problem_includes_factor_group
+  :factor_group_id=>vision_problem_includes_factor_group.id
 )
 SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>dark_floating_spots_in_vision_factor.id,
-  :factor_group_id=>vision_problem_includes_factor_group
+  :factor_group_id=>vision_problem_includes_factor_group.id
 )
 SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>halos_around_lights_factor.id,
-  :factor_group_id=>vision_problem_includes_factor_group
+  :factor_group_id=>vision_problem_includes_factor_group.id
 )
 SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>loss_of_color_vision.id,
-  :factor_group_id=>vision_problem_includes_factor_group
+  :factor_group_id=>vision_problem_includes_factor_group.id
 )
 SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>shimmering_or_flash_of_light_factor.id,
-  :factor_group_id=>vision_problem_includes_factor_group
+  :factor_group_id=>vision_problem_includes_factor_group.id
 )
 SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>vision_loss_factor.id,
-  :factor_group_id=>vision_problem_includes_factor_group
+  :factor_group_id=>vision_problem_includes_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>allergens_or_irritants_factor.id,
+  :factor_group_id=>triggered_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>injury_trauma_factor.id,
+  :factor_group_id=>triggered_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>dry_warm_air_factor.id,
+  :factor_group_id=>worsened_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>eye_movement_factor.id,
+  :factor_group_id=>worsened_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>dry_mouth_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>headache_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>nausea_or_vomiting_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>runny_or_stuffy_nose_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
 )
 #########################################
 ##
