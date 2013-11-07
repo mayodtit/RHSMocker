@@ -1,4 +1,4 @@
 - if card.resource.is_a?(Content)
-  = render :partial => 'api/v1/contents/body', :locals => {:content => card.resource.decorate}
+  = render :partial => 'api/v1/contents/body', :locals => {:content => card.resource}
 - elsif card.resource.is_a?(Question)
   = render :template => 'api/v1/questions/show', :locals => {:card => card, :question => card.resource}

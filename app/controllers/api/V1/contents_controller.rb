@@ -68,7 +68,7 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   def merge_body(content)
     content.active_model_serializer_instance.as_json.merge!(:body => render_to_string(:action => :show,
                                                             :formats => :html,
-                                                            :locals => {:content => content.decorate}))
+                                                            :locals => {:content => content}))
   end
 
   def page
