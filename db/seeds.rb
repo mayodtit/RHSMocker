@@ -368,10 +368,12 @@ chronic_ongoing_factor  				        = Factor.find_or_create_by_name(:name=>"Chro
 constipation_factor     				        = Factor.find_or_create_by_name(:name=>"Constipation")
 crampy_factor           				        = Factor.find_or_create_by_name(:name=>"Crampy")
 cramping_factor         				        = Factor.find_or_create_by_name(:name=>"Cramping")
+crusted_eyelashes_after_sleeping        = Factor.find_or_create_by_name(:name=>"Crusted eyelashes after sleeping")
 confusion_factor                        = Factor.find_or_create_by_name(:name=>"Confusion")
 cough_factor                            = Factor.find_or_create_by_name(:name=>"Cough")
 coughing_or_jarring_movements_factor 	  = Factor.find_or_create_by_name(:name=>"Coughing or jarring movements")
 cough_with_blood_phlegm_factor       	  = Factor.find_or_create_by_name(:name=>"Cough with blood or phlegm")
+dark_floating_spots_in_vision_factor    = Factor.find_or_create_by_name(:name=>"Dark, floating spots in vision")
 diarrhea_factor                         = Factor.find_or_create_by_name(:name=>"Diarrhea")
 difficult_or_painful_swallowing_factor  = Factor.find_or_create_by_name(:name=>"Difficult or painful swallowing")
 difficulty_breathing_factor             = Factor.find_or_create_by_name(:name=>"Difficulty breathing")
@@ -383,12 +385,14 @@ dry_factor                              = Factor.find_or_create_by_name(:name=>"
 dry_cough_factor                        = Factor.find_or_create_by_name(:name=>"Dry cough")
 dry_eyes_factor                         = Factor.find_or_create_by_name(:name=>"Dry eyes")
 dry_mouth_factor                        = Factor.find_or_create_by_name(:name=>"Dry mouth")
+dry_or_itchy_factor                     = Factor.find_or_create_by_name(:name=>"Dry or itchy")
 dull_factor                             = Factor.find_or_create_by_name(:name=>"Dull")
 earache_factor                          = Factor.find_or_create_by_name(:name=>"Earache")
 ear_pain_or_pressure_factor             = Factor.find_or_create_by_name(:name=>"Ear pain or pressure")
 eating_or_drinking_factor               = Factor.find_or_create_by_name(:name=>"Eating or drinking")
 eating_more_fibre_factor                = Factor.find_or_create_by_name(:name=>"Eating more fiber")
 eating_certain_foods_factor             = Factor.find_or_create_by_name(:name=>"Eating certain foods")
+excessive_tearing_factor                = Factor.find_or_create_by_name(:name=>"Excessive tearing")
 exertion_factor                         = Factor.find_or_create_by_name(:name=>"Exertion")
 facial_numbness_factor                  = Factor.find_or_create_by_name(:name=>"Facial Numbness")
 fainting_or_dizziness_factor            = Factor.find_or_create_by_name(:name=>"Fainting or dizziness")
@@ -399,6 +403,7 @@ fever_factor                            = Factor.find_or_create_by_name(:name=>"
 frequent_urge_to_have_bowel_movement_factor  = Factor.find_or_create_by_name(:name=>"Frequent urge to have bowel movement")
 gas_factor                                = Factor.find_or_create_by_name(:name=>"Gas")
 gnawing_factor                            = Factor.find_or_create_by_name(:name=>"Gnawing")
+gritty_sensation_factor                   = Factor.find_or_create_by_name(:name=>"Gritty sensation")
 halos_around_lights_factor                = Factor.find_or_create_by_name(:name=>"Halos around lights")
 hardening_of_skin_in_affected_area_factor = Factor.find_or_create_by_name(:name=>"Hardening of skin in affected area")
 have_something_stuck_in_your_throat_factor= Factor.find_or_create_by_name(:name=>"Have something stuck in your throat")
@@ -435,6 +440,7 @@ lightheadedness_factor                    = Factor.find_or_create_by_name(:name=
 lightneadedned_or_faint_factor            = Factor.find_or_create_by_name(:name=>"Lightheaded or faint")
 lower_abdomen_factor                      = Factor.find_or_create_by_name(:name=>"Lower abdomen")
 loss_of_appetite_factor                   = Factor.find_or_create_by_name(:name=>"Loss of appetite")
+loss_of_color_vision                      = Factor.find_or_create_by_name(:name=>"Loss of color vision")
 loose_teeth_or_poorly_fitting_dentures    = Factor.find_or_create_by_name(:name=>"Loose teeth or poorly fitting dentures")
 lump_in_front_of_neck_factor                     = Factor.find_or_create_by_name(:name=>"Lump in front of neck")
 lying_down_for_a_long_period_factor       = Factor.find_or_create_by_name(:name=>"Lying down for a long period")
@@ -464,8 +470,11 @@ recent_day_week_factor        = Factor.find_or_create_by_name(:name=>"Recent (da
 recently_factor               = Factor.find_or_create_by_name(:name=>"Recently")
 recurrent_or_ongoing_factor   = Factor.find_or_create_by_name(:name=>"Recurrent or ongoing")
 rectal_pain_factor            = Factor.find_or_create_by_name(:name=>"Rectal pain")
-regurgitation_food_liquid_factor    = Factor.find_or_create_by_name(:name=>"Regurgitation of food or sour liquid")
-rest_factor                   = Factor.find_or_create_by_name(:name=>"Rest")
+redness_factor                = Factor.find_or_create_by_name(:name=>"Redness")
+redness_without_discomfort_factor           = Factor.find_or_create_by_name(:name=>"Redness without actual discomfort")
+red_painful_lump_on_eyelid                  = Factor.find_or_create_by_name(:name=>"Red, painful lump on the eyelid")
+regurgitation_food_liquid_factor            = Factor.find_or_create_by_name(:name=>"Regurgitation of food or sour liquid")
+rest_factor                                 = Factor.find_or_create_by_name(:name=>"Rest")
 rapid_or_irregular_heartbeat_factor         = Factor.find_or_create_by_name(:name=>"Rapid or irregular heartbeat")
 runny_or_stuffy_nose_factor                 = Factor.find_or_create_by_name(:name=>"Runny or stuffy nose")
 pale_dry_skin_factor                        = Factor.find_or_create_by_name(:name=>"Pale, dry skin")
@@ -491,16 +500,22 @@ stiff_neck_factor                           = Factor.find_or_create_by_name(:nam
 stomach_growling_or_rumbling_factor         = Factor.find_or_create_by_name(:name=>"Stomach growling or rumbling")
 short_of_breath_or_dizzy_factor             = Factor.find_or_create_by_name(:name=>"Short of breath or dizzy")
 shortness_of_breath_factor    = Factor.find_or_create_by_name(:name=>"Shortness of breath")
+shimmering_or_flash_of_light_factor = Factor.find_or_create_by_name(:name=>"Shimmering or flash of light")
+sensitivity_to_light          = Factor.find_or_create_by_name(:name=>"Sensitivity to light")
 severe_factor                 = Factor.find_or_create_by_name(:name=>"Severe")
 severe_headache_factor        = Factor.find_or_create_by_name(:name=>"Severe headache")
+severe_pain_factor            = Factor.find_or_create_by_name(:name=>"Severe pain")
 sore_throat_factor            = Factor.find_or_create_by_name(:name=>"Sore throat")
 squeezing_or_pressure_factor  = Factor.find_or_create_by_name(:name=>"Squeezing or pressure")
 sneezing_factor               = Factor.find_or_create_by_name(:name=>"Sneezing")
-slurred_speech_factor = Factor.find_or_create_by_name(:name=>"Slurred speech")
+slurred_speech_factor         = Factor.find_or_create_by_name(:name=>"Slurred speech")
 slurred_speech_difficulty_speaking_factor = Factor.find_or_create_by_name(:name=>"Slurred speech or difficulty speaking")
 sudden_factor                 = Factor.find_or_create_by_name(:name=>"Sudden")
 sudden_hours_days_factor      = Factor.find_or_create_by_name(:name=>"Sudden (hours to days)")
+stinging_or_burning_sensation_factor = Factor.find_or_create_by_name(:name=>"Stinging or burning sensation")
+stringy_mucus_in_around_eye_factor = Factor.find_or_create_by_name(:name=>"Stringy mucus in or around the eye")
 sweating_factor               = Factor.find_or_create_by_name(:name=>"Sweating")
+swelling_around_eye_factor    = Factor.find_or_create_by_name(:name=>"Swelling around the eye")
 taking_a_deep_breath_factor   = Factor.find_or_create_by_name(:name=>"Taking a deep breath")
 tearing_or_ripping_factor     = Factor.find_or_create_by_name(:name=>"Tearing or ripping")
 takes_effort_factor           = Factor.find_or_create_by_name(:name=>"Takes effort")
@@ -518,7 +533,8 @@ weakness_factor               = Factor.find_or_create_by_name(:name=>"Weakness")
 watery_or_itchy_eyes_factor   = Factor.find_or_create_by_name(:name=>"Watery or itchy eyes")
 wheezing_factor               = Factor.find_or_create_by_name(:name=>"Wheezing")
 worsening_or_progressing_factor = Factor.find_or_create_by_name(:name=>"Worsening or progressing")
-vomiting_blood_factor         = Factor.find_or_create_by_name(:name=>"Vomiting blood ")
+vomiting_blood_factor         = Factor.find_or_create_by_name(:name=>"Vomiting blood")
+vision_loss_factor            = Factor.find_or_create_by_name(:name=>"Vision loss")
 
 #Symptoms - ADULT
 ##############################
@@ -2098,7 +2114,7 @@ SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id
   :factor_group_id=>accompanied_by_factor_group.id
 )
 
-## Difficulty Swallowing - ADULT
+## Dizziness - ADULT
 ## #############################
 SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
@@ -2445,6 +2461,156 @@ SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>sweating_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
+)
+
+## Eye Discomfort - ADULT
+## #############################
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>ache_factor.id,
+  :factor_group_id=>eye_discomfort_described_as_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>dry_or_itchy_factor.id,
+  :factor_group_id=>eye_discomfort_described_as_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>gritty_sensation_factor.id,
+  :factor_group_id=>eye_discomfort_described_as_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>redness_without_discomfort_factor.id,
+  :factor_group_id=>eye_discomfort_described_as_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>sensitivity_to_light.id,
+  :factor_group_id=>eye_discomfort_described_as_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>severe_pain_factor.id,
+  :factor_group_id=>eye_discomfort_described_as_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>stinging_or_burning_sensation_factor.id,
+  :factor_group_id=>eye_discomfort_described_as_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>bleeding_on_surface_eye_factor.id,
+  :factor_group_id=>appearance_of_eye_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>crusted_eyelashes_after_sleeping.id,
+  :factor_group_id=>appearance_of_eye_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>excessive_tearing_factor.id,
+  :factor_group_id=>appearance_of_eye_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>red_painful_lump_on_eyelid.id,
+  :factor_group_id=>appearance_of_eye_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>redness_factor.id,
+  :factor_group_id=>appearance_of_eye_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>stringy_mucus_in_around_eye_factor.id,
+  :factor_group_id=>appearance_of_eye_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>stringy_mucus_in_around_eye_factor.id,
+  :factor_group_id=>appearance_of_eye_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>swelling_around_eye_factor.id,
+  :factor_group_id=>appearance_of_eye_factor_group.id
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>blurred_vision_factor.id,
+  :factor_group_id=>vision_problem_includes_factor_group
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>dark_floating_spots_in_vision_factor.id,
+  :factor_group_id=>vision_problem_includes_factor_group
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>halos_around_lights_factor.id,
+  :factor_group_id=>vision_problem_includes_factor_group
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>loss_of_color_vision.id,
+  :factor_group_id=>vision_problem_includes_factor_group
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>shimmering_or_flash_of_light_factor.id,
+  :factor_group_id=>vision_problem_includes_factor_group
+)
+SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>eye_discomfort_symptom.id,
+  :factor_id=>vision_loss_factor.id,
+  :factor_group_id=>vision_problem_includes_factor_group
 )
 #########################################
 ##
