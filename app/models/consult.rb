@@ -42,18 +42,6 @@ class Consult < ActiveRecord::Base
     self.users << user unless self.users.include?(user)
   end
 
-  BASE_OPTIONS = {:methods => :last_message_at}
-
-  def serializable_hash(options=nil)
-    hash = super(options || BASE_OPTIONS)
-
-    # HACK - turning the value of :methods into an array results in test errors,
-    # even though the symbol is cast to an array by ActiveModel
-    # Adding :image_url and removing :image manually
-    hash.merge!({image_url: image_url}).delete(:image)
-    hash
-  end
-
   def image_url
     image.url
   end
@@ -62,24 +50,11 @@ class Consult < ActiveRecord::Base
     users.where(:type => 'Member')
   end
 
-  def content_type
-    'Consult'
-  end
-  alias_method :content_type_display, :content_type
-
-  def preview
-    messages.last.try(:preview) || ''
-  end
-
   def notify_members
     messages.unread_user_ids.each do |id|
       cards.upsert_attributes({:user_id => id},
                               {:state_event => :reset})
     end
-  end
-
-  def last_message_at
-    messages.order('created_at DESC').select('created_at').first.try(:created_at)
   end
 
   def self.with_unread_messages_count_for(user)
@@ -94,10 +69,6 @@ class Consult < ActiveRecord::Base
 
   def unread_messages_count
     unread_messages_count_string.to_i
-  end
-
-  def most_recent_message
-    messages.order('created_at DESC').first
   end
 
   private

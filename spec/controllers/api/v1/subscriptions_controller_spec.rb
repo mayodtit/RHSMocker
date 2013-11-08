@@ -80,7 +80,7 @@ describe Api::V1::SubscriptionsController do
         it 'returns the subscription' do
           do_request
           json = JSON.parse(response.body)
-          json['subscription'].to_json.should == subscription.as_json.to_json
+          json['subscription'].to_json.should == subscription.active_model_serializer_instance.as_json.to_json
         end
       end
 

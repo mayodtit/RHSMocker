@@ -11,7 +11,7 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   end
 
   def show
-    show_resource merge_body(@content)
+    show_resource @content.active_model_serializer_instance(body: true)
   end
 
   def status
@@ -63,12 +63,6 @@ class Api::V1::ContentsController < Api::V1::ABaseController
 
   def log_content_search
     Analytics.log_content_search(current_user.google_analytics_uuid, params[:q]) if current_user
-  end
-
-  def merge_body(content)
-    content.active_model_serializer_instance.as_json.merge!(:body => render_to_string(:action => :show,
-                                                            :formats => :html,
-                                                            :locals => {:content => content.decorate}))
   end
 
   def page
