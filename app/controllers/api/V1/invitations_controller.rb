@@ -1,7 +1,9 @@
 class Api::V1::InvitationsController < Api::V1::ABaseController
   skip_before_filter :authentication_check, :only => [:show, :update]
   before_filter :load_invitation!, :only => [:show, :update]
+  before_filter :downcase_user_email, :only => [:create, :update]
 
+  # TODO: Accept TOS here
   def create
     Member.transaction do
       user_params = params.permit(user: [:email, :first_name, :last_name])[:user]
@@ -62,5 +64,9 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
 
   def load_invitation!
     @invitation = Invitation.where(state: :unclaimed).find_by_token!(params[:id])
+  end
+
+  def downcase_user_email
+    params[:user][:email].downcase! if params[:user] && params[:user].has_key?(:email)
   end
 end
