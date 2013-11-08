@@ -1,4 +1,4 @@
-- if resource.is_a? Content
+- if resource.is_a? ContentSerializer
   = render :template => 'api/v1/contents/show', locals: {content: resource}
-- elsif resource.is_a? Question
+- elsif resource.is_a? QuestionSerializer
   = render :template => 'api/v1/questions/show', locals: {card: card, question: resource}
