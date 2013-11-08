@@ -26,7 +26,7 @@ class Api::V1::CardsController < Api::V1::ABaseController
   end
 
   def card_params
-    params[:card][:state_event] = params[:card].delete(:state) # don't let the client set the state explicitly
+    params[:card][:state_event] ||= params[:card].delete(:state) # don't let the client set the state explicitly
     params[:card]
   end
 end
