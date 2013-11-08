@@ -16,7 +16,7 @@ shared_examples 'resource that can be a card' do
   it 'responds to required messages' do
     serializer = described_class.new(resource, preview: true)
     [:title, :content_type, :content_type_display, :share_url,
-     :raw_body, :raw_preview, :partial_name].each do |key|
+     :raw_body, :raw_preview, :partial_name, :card_actions].each do |key|
       serializer.should respond_to(key)
     end
   end

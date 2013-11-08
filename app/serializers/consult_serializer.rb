@@ -50,6 +50,14 @@ class ConsultSerializer < ViewSerializer
     nil
   end
 
+  def card_actions
+    [
+      {title: 'Save', action: :save},
+      {title: 'Dismiss', action: :dismiss},
+      {title: 'Reply', action: :reply}
+    ]
+  end
+
   private
 
   def include_unread_messages_count?

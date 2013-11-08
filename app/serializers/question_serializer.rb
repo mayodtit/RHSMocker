@@ -34,4 +34,17 @@ class QuestionSerializer < ViewSerializer
   def share_url
     nil
   end
+
+  def card_actions
+    if object.view == :diet
+      [
+        {title: 'Save', action: :save}
+      ]
+    else
+      [
+        {title: 'Dismiss', action: :dismiss},
+        {title: 'Answer Later', action: :save}
+      ]
+    end
+  end
 end

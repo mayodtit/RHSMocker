@@ -34,4 +34,12 @@ class ContentSerializer < ViewSerializer
   def share_url
     nil
   end
+
+  def card_actions
+    [
+      {title: 'Save', action: :save},
+      {title: 'Dismiss', action: :dismiss},
+      {title: 'Share', action: :share}
+    ]
+  end
 end
