@@ -39,7 +39,7 @@ module Api
       def create_resource(collection, resource_params, resource_name=resource_singular_symbol)
         resource = collection.create(resource_params)
         if resource.errors.empty?
-          render_success(resource_name => resource)
+          render_success(resource_name => (resource.active_model_serializer_instance || resource))
         else
           render_failure({reason: resource.errors.full_messages.to_sentence}, 422)
         end
