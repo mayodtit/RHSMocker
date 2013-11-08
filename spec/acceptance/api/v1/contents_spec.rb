@@ -17,10 +17,10 @@ resource "Contents" do
     example_request "[GET] Get all contents (should not be used in the iOS app)" do
       explanation "Returns all the contents in the database ordered by their title"
       status.should == 200
-      response = JSON.parse response_body
-      response['contents'].should be_a Array
-      content = response['contents'].first
-      content.keys.should include('title', 'contents_type', 'contentID')
+      response = JSON.parse response_body, symbolize_names: true
+      response[:contents].should be_a Array
+      content = response[:contents].first
+      content.keys.should include(:id, :title, :content_type)
     end
   end
 
