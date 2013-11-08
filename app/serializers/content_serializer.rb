@@ -2,9 +2,12 @@ class ContentSerializer < ViewSerializer
   self.root = false
 
   attributes :id, :title, :content_type, :content_updated_at, :document_id,
-             :created_at, :updated_at, :content_type_display, :abstract
+             :created_at, :updated_at, :content_type_display, :abstract,
+             :contentID, :contents_type
 
   delegate :show_call_option?, to: :object
+  alias_method :contentID, :id
+  alias_method :contents_type, :content_type
 
   def body
     controller.render_to_string(template: 'api/v1/contents/show',
