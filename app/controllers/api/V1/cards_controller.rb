@@ -3,25 +3,25 @@ class Api::V1::CardsController < Api::V1::ABaseController
   before_filter :load_card!, only: [:show, :update]
 
   def inbox
-    index_resource(merge_previews(@user.cards.inbox))
+    index_resource @user.cards.inbox.active_model_serializer_instance(preview: true)
   end
 
   def timeline
-    index_resource(merge_previews(@user.cards.timeline))
+    index_resource @user.cards.timeline.active_model_serializer_instance
   end
 
   def show
-    show_resource(merge_body(@card))
+    show_resource @card.active_model_serializer_instance(body: true)
   end
 
   def update
-    update_resource(@card, card_params)
+    update_resource @card, card_params
   end
 
   private
 
   def load_card!
-    @card = @user.cards.find(params[:id])
+    @card = @user.cards.find params[:id]
     authorize! :manage, @card
   end
 
@@ -31,17 +31,5 @@ class Api::V1::CardsController < Api::V1::ABaseController
     end
     params[:card].delete(:state_event) if params[:card].try(:[], :state_event).try(:to_sym) == :read # TODO - allow the client to send us read without crashing, for now
     params[:card]
-  end
-
-  def merge_previews(cards)
-    cards.map{|c| c.active_model_serializer_instance.as_json.merge!(:preview => render_to_string(:action => :preview,
-                                                                    :formats => [:html],
-                                                                    :locals => {:card => c, :resource => c.resource}))}
-  end
-
-  def merge_body(card)
-    card.active_model_serializer_instance.as_json.merge!(:body => render_to_string(:action => :show,
-                                                         :formats => [:html],
-                                                         :locals => {:card => card}))
   end
 end

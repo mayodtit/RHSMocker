@@ -1,0 +1,5 @@
+.content_card.card-link{:data => {:card_id => card.try(:id)}}
+  .content_source
+  .content_header_card
+    .content_title_card= resource.title.html_safe
+    .content_text_card_fade= resource.raw_preview.html_safe
