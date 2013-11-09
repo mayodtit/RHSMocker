@@ -3,7 +3,6 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
   before_filter :load_invitation!, :only => [:show, :update]
   before_filter :downcase_user_email, :only => [:create, :update]
 
-  # TODO: Accept TOS here
   def create
     Member.transaction do
       user_params = params.permit(user: [:email, :first_name, :last_name])[:user]
@@ -47,6 +46,9 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
 
   def update
     user_params = params.require(:user).permit(:email, :first_name, :last_name, :password, :password_confirmation)
+
+    # NOTE: We're doing this automatically and it's the agreement for consumer. MUST BE CHANGED
+    user_params[:agreement_params] = {:ids => Agreement.active.pluck(:id), :ip_address => 'SERVER', :user_agent => 'SERVER'}
 
     user = @invitation.invited_member
     user.update_attributes user_params
