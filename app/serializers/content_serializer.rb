@@ -35,11 +35,11 @@ class ContentSerializer < ViewSerializer
     nil
   end
 
-  def card_actions
+  def actions
     [
-      {title: 'Save', action: :save},
-      {title: 'Dismiss', action: :dismiss},
-      {title: 'Share', action: :share}
+      {normal: {title: 'Save', action: :save}},
+      {normal: {title: 'Dismiss', action: :dismiss}},
+      {normal: {title: 'Share', action: :share}}
     ]
   end
 end

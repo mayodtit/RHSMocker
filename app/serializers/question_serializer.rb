@@ -35,15 +35,15 @@ class QuestionSerializer < ViewSerializer
     nil
   end
 
-  def card_actions
+  def actions
     if object.view == :diet
       [
-        {title: 'Save', action: :save}
+        {normal: {title: 'Save', action: :save}}
       ]
     else
       [
-        {title: 'Dismiss', action: :dismiss},
-        {title: 'Answer Later', action: :save}
+        {normal: {title: 'Dismiss', action: :dismiss}},
+        {normal: {title: 'Answer Later', action: :save}}
       ]
     end
   end

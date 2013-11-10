@@ -3,10 +3,10 @@ class CardSerializer < ViewSerializer
 
   attributes :id, :user_id, :resource_id, :resource_type, :state, :created_at, :updated_at,
              :priority, :state_changed_at, :title, :content_type, :content_type_display,
-             :share_url, :card_actions
+             :share_url, :actions
 
   delegate :title, :content_type, :content_type_display, :share_url,
-           :raw_body, :raw_preview, :card_actions, to: :resource
+           :raw_body, :raw_preview, :actions, to: :resource
 
   def body
     controller.render_to_string(template: 'api/v1/cards/show',
