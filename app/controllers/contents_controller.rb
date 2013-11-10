@@ -16,9 +16,9 @@ class ContentsController < ApplicationController
   def show
     @content = Content.find_by_document_id(params[:id]) || Content.find(params[:id])
     if params[:type] == 'card'
-      render :template => 'api/v1/cards/preview', :locals => {:card => nil, :resource => @content}
+      render :template => 'api/v1/cards/preview', :locals => {:card => nil, :resource => @content.active_model_serializer_instance}
     else
-      render :template => 'api/v1/contents/show'
+      render :template => 'api/v1/contents/show', :locals => {content: @content.active_model_serializer_instance}
     end
   end
 end
