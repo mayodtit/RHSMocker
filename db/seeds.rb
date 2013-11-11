@@ -377,6 +377,7 @@ dark_floating_spots_in_vision_factor    = Factor.find_or_create_by_name(:name=>"
 diarrhea_factor                         = Factor.find_or_create_by_name(:name=>"Diarrhea")
 difficult_or_painful_swallowing_factor  = Factor.find_or_create_by_name(:name=>"Difficult or painful swallowing")
 difficulty_breathing_factor             = Factor.find_or_create_by_name(:name=>"Difficulty breathing")
+difficulty_pushing_off_with_toes_factor = Factor.find_or_create_by_name(:name=>"Difficulty pushing off with toes")
 difficulty_swallowing_factor            = Factor.find_or_create_by_name(:name=>"Difficulty swallowing")
 drinking_alcohol_factor                 = Factor.find_or_create_by_name(:name=>"Drinking alcohol")
 drinking_alcohol_or_caffeine_factor     = Factor.find_or_create_by_name(:name=>"Drinking alcohol or caffeine")
@@ -401,7 +402,9 @@ fainting_or_dizziness_factor            = Factor.find_or_create_by_name(:name=>"
 fatigue_factor                          = Factor.find_or_create_by_name(:name=>"Fatigue")
 fatigue_or_weakness_factor              = Factor.find_or_create_by_name(:name=>"Fatigue or weakness")
 feeling_somthing_stuck_throat_factor    = Factor.find_or_create_by_name(:name=>"Feeling of something stuck in your throat")
+feeling_of_instability_factor           = Factor.find_or_create_by_name(:name=>"Feeling of instability")
 fever_factor                            = Factor.find_or_create_by_name(:name=>"Fever")
+flattened_arch_factor                   = Factor.find_or_create_by_name(:name=>"Flattened arch")
 frequent_urge_to_have_bowel_movement_factor  = Factor.find_or_create_by_name(:name=>"Frequent urge to have bowel movement")
 gas_factor                                = Factor.find_or_create_by_name(:name=>"Gas")
 gnawing_factor                            = Factor.find_or_create_by_name(:name=>"Gnawing")
@@ -426,21 +429,27 @@ holding_objects_away_factor               = Factor.find_or_create_by_name(:name=
 holding_objects_close_factor              = Factor.find_or_create_by_name(:name=>"Holding objects close to face")
 hormonal_changes_factor                   = Factor.find_or_create_by_name(:name=>"Hormonal changes")
 hurts_factor                              = Factor.find_or_create_by_name(:name=>"Hurts")
+ill_fitting_shoes_factor                  = Factor.find_or_create_by_name(:name=>"Ill-fitting shoes")
+in_both_limbs_factor                      = Factor.find_or_create_by_name(:name=>"In both limbs")
+in_one_limb_factor                        = Factor.find_or_create_by_name(:name=>"In one limb")
 in_or_on_stool_factor                     = Factor.find_or_create_by_name(:name=>"In or on the stool")
 in_or_on_toilet_bowl_factor               = Factor.find_or_create_by_name(:name=>"In toilet bowl or on toilet tissue")
 increased_sensitivity_to_cold_factor      = Factor.find_or_create_by_name(:name=>"Increased sensitivity to cold")
 intense_factor                            = Factor.find_or_create_by_name(:name=>"Intense")
 intermittent_factor                       = Factor.find_or_create_by_name(:name=>"Intermittent")
 intermittent_episodic_factor              = Factor.find_or_create_by_name(:name=>"Intermittent, episodic")
+inability_to_bear_weight_factor           = Factor.find_or_create_by_name(:name=>"Inability to bear weight")
 inability_to_move_bowels_factor           = Factor.find_or_create_by_name(:name=>"Inability to move bowels")
 injury_factor                             = Factor.find_or_create_by_name(:name=>"Injury")
 injury_trauma_factor                      = Factor.find_or_create_by_name(:name=>"Injury or trauma")
 irregular_heartbeat_factor                = Factor.find_or_create_by_name(:name=>"Injury or trauma")
 jaw_pain_or_stiffness_factor              = Factor.find_or_create_by_name(:name=>"Jaw pain or stiffness")
+joint_deformity_factor                    = Factor.find_or_create_by_name(:name=>"Joint deformity")
 large_amounts_blood_factor                = Factor.find_or_create_by_name(:name=>"Large amounts of blood")
 lightheadedness_factor                    = Factor.find_or_create_by_name(:name=>"Lightheadedness")
 lightneadedned_or_faint_factor            = Factor.find_or_create_by_name(:name=>"Lightheaded or faint")
 lower_abdomen_factor                      = Factor.find_or_create_by_name(:name=>"Lower abdomen")
+long_periods_of_rest_factor               = Factor.find_or_create_by_name(:name=>"Long periods of rest")
 loss_of_appetite_factor                   = Factor.find_or_create_by_name(:name=>"Loss of appetite")
 loss_of_color_vision                      = Factor.find_or_create_by_name(:name=>"Loss of color vision")
 loose_teeth_or_poorly_fitting_dentures    = Factor.find_or_create_by_name(:name=>"Loose teeth or poorly fitting dentures")
@@ -448,6 +457,7 @@ lump_in_front_of_neck_factor              = Factor.find_or_create_by_name(:name=
 lying_down_for_a_long_period_factor       = Factor.find_or_create_by_name(:name=>"Lying down for a long period")
 mouth_sores_lumps_or_pain_factor          = Factor.find_or_create_by_name(:name=>"Mouth sores, lumps or pain")
 middle_abdomen_factor                     = Factor.find_or_create_by_name(:name=>"Middle abdomen")
+middle_part_of_foot_factor                = Factor.find_or_create_by_name(:name=>"Middle part of foot")
 muscle_aches_factor                       = Factor.find_or_create_by_name(:name=>"Muscle aches")
 muscle_or_joint_aches_factor              = Factor.find_or_create_by_name(:name=>"Muscle or joint aches")
 muscle_cramps_or_twitching_factor         = Factor.find_or_create_by_name(:name=>"Muscle cramps or twitching")
@@ -460,6 +470,7 @@ nausea_factor                             = Factor.find_or_create_by_name(:name=
 nausea_or_vomiting_factor                 = Factor.find_or_create_by_name(:name=>"Nausea or vomiting")
 new_or_began_recently_factor              = Factor.find_or_create_by_name(:name=>"New or began recently")
 new_or_began_suddenly_factor              = Factor.find_or_create_by_name(:name=>"New or began suddenly")
+numbness_or_tingling_factor               = Factor.find_or_create_by_name(:name=>"Numbness or tingling")
 numbness_pain_color_factor                = Factor.find_or_create_by_name(:name=>"Numbness, pain and color changes in fingers")
 numbness_or_weakness_one_side             = Factor.find_or_create_by_name(:name=>"Numbness or weakness on one side of body")
 ongoing_or_recurrent_factor               = Factor.find_or_create_by_name(:name=>"Ongoing or recurrent")
@@ -514,9 +525,11 @@ slurred_speech_factor         = Factor.find_or_create_by_name(:name=>"Slurred sp
 slurred_speech_difficulty_speaking_factor = Factor.find_or_create_by_name(:name=>"Slurred speech or difficulty speaking")
 sudden_factor                 = Factor.find_or_create_by_name(:name=>"Sudden")
 sudden_hours_days_factor      = Factor.find_or_create_by_name(:name=>"Sudden (hours to days)")
+stiffness_factor              = Factor.find_or_create_by_name(:name=>"Stiffness")
 stinging_or_burning_sensation_factor = Factor.find_or_create_by_name(:name=>"Stinging or burning sensation")
 stringy_mucus_in_around_eye_factor = Factor.find_or_create_by_name(:name=>"Stringy mucus in or around the eye")
 sweating_factor               = Factor.find_or_create_by_name(:name=>"Sweating")
+swelling_factor               = Factor.find_or_create_by_name(:name=>"Swelling")
 swelling_around_eye_factor    = Factor.find_or_create_by_name(:name=>"Swelling around the eye")
 taking_a_deep_breath_factor   = Factor.find_or_create_by_name(:name=>"Taking a deep breath")
 tearing_or_ripping_factor     = Factor.find_or_create_by_name(:name=>"Tearing or ripping")
@@ -525,6 +538,8 @@ tight_factor                  = Factor.find_or_create_by_name(:name=>"Tight")
 tight_hardened_skin           = Factor.find_or_create_by_name(:name=>"Tight, hardened skin")
 thick_saliva_factor           = Factor.find_or_create_by_name(:name=>"Thick saliva")
 thick_green_or_yellow_phlegm_or_sputum = Factor.find_or_create_by_name(:name=>"Thick green or yellow phlegm or sputum")
+thickened_or_rough_skin_factor = Factor.find_or_create_by_name(:name=>"Thickened or rough skin")
+toe_or_front_part_of_foot_factor = Factor.find_or_create_by_name(:name=>"Toe or front part of foot")
 unexplained_fatigue_factor    = Factor.find_or_create_by_name(:name=>"Unexplained fatigue")
 upper_abdomen_factor          = Factor.find_or_create_by_name(:name=>"Upper abdomen")
 unintended_weight_loss_factor = Factor.find_or_create_by_name(:name=>"Unintended weight loss")
@@ -534,6 +549,7 @@ urgency_to_have_bowel_movement= Factor.find_or_create_by_name(:name=>"Urgency to
 weakness_factor               = Factor.find_or_create_by_name(:name=>"Weakness")
 watery_or_itchy_eyes_factor   = Factor.find_or_create_by_name(:name=>"Watery or itchy eyes")
 wheezing_factor               = Factor.find_or_create_by_name(:name=>"Wheezing")
+whole_foot_factor             = Factor.find_or_create_by_name(:name=>"Whole foot")
 worsening_or_progressing_factor = Factor.find_or_create_by_name(:name=>"Worsening or progressing")
 vomiting_blood_factor         = Factor.find_or_create_by_name(:name=>"Vomiting blood")
 vision_loss_factor            = Factor.find_or_create_by_name(:name=>"Vision loss")
@@ -2762,6 +2778,222 @@ SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>runny_or_stuffy_nose_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
+)
+
+## Foot and Ankle Pain - ADULT
+## #############################
+foot_ankle_ankle_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>ankle_factor.id,
+  :factor_group_id=>located_factor_group.id
+)
+foot_ankle_toenail_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>area_along_edge_of_toenail_factor.id,
+  :factor_group_id=>located_factor_group.id
+)
+foot_ankle_back_ankle_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>back_of_ankle_factor.id,
+  :factor_group_id=>located_factor_group.id
+)
+foot_ankle_back_heel_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>back_of_heel_factor.id,
+  :factor_group_id=>located_factor_group.id
+)
+foot_ankle_bottom_foot_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>bottom_of_foot_factor.id,
+  :factor_group_id=>located_factor_group.id
+)
+foot_ankle_heel_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>heel_factor.id,
+  :factor_group_id=>located_factor_group.id
+)
+foot_ankle_middle_foot_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>middle_part_of_foot_factor.id,
+  :factor_group_id=>located_factor_group.id
+)
+foot_ankle_toe_front_foot_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>toe_or_front_part_of_foot_factor.id,
+  :factor_group_id=>located_factor_group.id
+)
+foot_ankle_whole_foot_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>whole_foot_factor.id,
+  :factor_group_id=>located_factor_group.id
+)
+foot_ankle_activity_triggered_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>activity_or_overuse_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+foot_ankle_ill_fitting_shoes_triggered_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>ill_fitting_shoes_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+foot_ankle_injury_triggered_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>injury_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+foot_ankle_long_periods_rest_triggered_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>long_periods_of_rest_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+foot_ankle_burning_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>burning_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+foot_ankle_difficulty_pushing_off_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>difficulty_pushing_off_with_toes_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+foot_ankle_feeling_of_instability_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>feeling_of_instability_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+foot_ankle_flattened_arch_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>flattened_arch_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+foot_ankle_inability_bear_weight_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>inability_to_bear_weight_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+foot_ankle_joint_deformity_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>joint_deformity_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+foot_ankle_numbness_tingling_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>numbness_or_tingling_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+foot_ankle_redness_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>redness_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+foot_ankle_stiffness_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>stiffness_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+foot_ankle_swelling_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>swelling_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+foot_ankle_thickened_skin_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>thickened_or_rough_skin_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+foot_ankle_thickened_skin_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_ankle_pain_symptom.id,
+  :factor_id=>weakness_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+
+## Foot swelling or Leg Swelling - ADULT
+## ######################################
+foot_swelling_swelling_occurs_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_leg_swelling_symptom.id,
+  :factor_id=>along_whole_limb_factor.id,
+  :factor_group_id=>swelling_occurs_factor_group.id
+)
+foot_swelling_ankle_foot_swelling_occurs_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_leg_swelling_symptom.id,
+  :factor_id=>around_ankle_or_foot_factor.id,
+  :factor_group_id=>swelling_occurs_factor_group.id
+)
+foot_swelling_around_knee_swelling_occurs_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_leg_swelling_symptom.id,
+  :factor_id=>around_knee_factor.id,
+  :factor_group_id=>swelling_occurs_factor_group.id
+)
+foot_swelling_both_limbs_swelling_occurs_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_leg_swelling_symptom.id,
+  :factor_id=>in_both_limbs_factor.id,
+  :factor_group_id=>swelling_occurs_factor_group.id
+)
+foot_swelling_one_limb_swelling_occurs_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>foot_leg_swelling_symptom.id,
+  :factor_id=>in_one_limb_factor.id,
+  :factor_group_id=>swelling_occurs_factor_group.id
 )
 #########################################
 ##
