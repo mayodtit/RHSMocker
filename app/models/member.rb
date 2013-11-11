@@ -32,7 +32,7 @@ class Member < User
   validates :install_id, :uniqueness => true, :allow_nil => true
   validates :phone, :length => {:in => 7..17, :message => 'must be between 7 and 17 digits'}, :allow_blank => true
   validates :units, :inclusion => {:in => %w(US Metric)}
-  validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :on => :create, :if => lambda{|m| m.email.present?}
+  validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :if => lambda{|m| m.signed_up? || m.password}
 
   after_create :login # generate inital auth_token
   after_create :add_install_message

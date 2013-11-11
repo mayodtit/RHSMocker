@@ -1,0 +1,5 @@
+.content_card
+  .content_header_card
+    .content_title_card= resource.title.html_safe
+    .content_text_card
+      = render partial: "api/v1/questions/#{resource.view}", locals: {card: card, question: resource}

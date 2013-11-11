@@ -4,7 +4,7 @@ describe Api::V1::CardsController do
   let(:user) { build_stubbed(:member) }
   let(:ability) { Object.new.extend(CanCan::Ability) }
   let(:card) { build_stubbed(:card, :user => user) }
-  let(:card_keys) { card.active_model_serializer_instance.as_json.keys.map(&:to_sym) << :preview }
+  let(:card_keys) { card.active_model_serializer_instance.as_json.keys.map(&:to_sym) }
 
   before(:each) do
     controller.stub(:current_ability => ability)
@@ -14,6 +14,8 @@ describe Api::V1::CardsController do
     def do_request
       get :inbox
     end
+
+    let(:inbox_keys) { card_keys << :preview }
 
     it_behaves_like 'action requiring authentication and authorization'
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
@@ -28,7 +30,7 @@ describe Api::V1::CardsController do
       it 'returns a hash of cards by type' do
         do_request
         json = JSON.parse(response.body, :symbolize_names => true)
-        json[:cards].first.keys.should =~ card_keys
+        json[:cards].first.keys.should =~ inbox_keys
       end
     end
   end

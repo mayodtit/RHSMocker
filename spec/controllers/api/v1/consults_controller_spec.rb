@@ -26,13 +26,7 @@ describe Api::V1::ConsultsController do
       it "returns an array of Consults" do
         do_request
         json = JSON.parse(response.body, :symbolize_names => true)
-
-        # workaround since hashes are ordered and unread_messages_count isn't the last key
-        expected_hash = consult.as_json.merge!(unread_messages_count: 1)
-        i = expected_hash.delete(:image_url)
-        expected_hash.merge!(image_url: i)
-
-        json[:consults].first.to_json.should == expected_hash.to_json
+        json[:consults].first.to_json.should == consult.active_model_serializer_instance(include_unread_messages_count: true).as_json.to_json
       end
     end
   end
@@ -56,7 +50,7 @@ describe Api::V1::ConsultsController do
       it 'returns the consult' do
         do_request
         json = JSON.parse(response.body)
-        json['consult'].to_json.should == consult.as_json.to_json
+        json['consult'].to_json.should == consult.active_model_serializer_instance.as_json.to_json
       end
     end
   end
@@ -84,7 +78,7 @@ describe Api::V1::ConsultsController do
         it 'returns the consult' do
           do_request
           json = JSON.parse(response.body)
-          json['consult'].to_json.should == consult.as_json.to_json
+          json['consult'].to_json.should == consult.active_model_serializer_instance.as_json.to_json
         end
       end
 

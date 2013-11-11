@@ -35,6 +35,8 @@ group :development, :test do
   gem "zeus-parallel_tests"
   gem 'factory_girl_rails'
   gem 'guard-rspec'
+  # gem 'ruby-debug-base19x', '>= 0.11.30.pre15'
+  # gem 'ruby-debug-ide', '>= 0.4.21.pre1'
 end
 
 group :development do
@@ -91,7 +93,6 @@ gem 'rails_12factor', group: :production
 
 gem 'ri_cal'
 gem 'symbolize'
-gem 'draper' # decorator pattern for models
 gem 'kaminari' # pagination
 gem 'strong_parameters'
 gem 'timecop'

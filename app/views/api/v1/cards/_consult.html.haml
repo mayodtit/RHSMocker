@@ -1,0 +1,22 @@
+.content_card.consult-link{:data => {:consult_id => resource.try(:id)}}
+  - if resource.last_message
+    .consult-header
+      = image_tag "message_bubbles.png", :class => "top_icon"
+      %span New Message
+      %span.date{:data => {:time => resource.last_message_at.to_i}}
+    .consult-source
+      %strong= resource.last_message.user.full_name
+      has sent you a new message about:
+  - else
+    .consult-header
+      = image_tag "message_bubbles.png", :class => "top_icon"
+      %span New Consult
+      %span.date{:data => {:time => resource.created_at.to_i}}
+    .consult-source Tell us more information to begin your consult
+  .consult-info
+    .left
+      = image_tag resource.subject.avatar_or_gender_url
+    .right
+      %span
+        %strong= resource.title.html_safe
+      %span= resource.description.try(:html_safe)

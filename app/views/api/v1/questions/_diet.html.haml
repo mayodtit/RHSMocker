@@ -1,22 +1,19 @@
 .diet-question
   .top-left
-    = link_to image_tag('vegetables_unselect.png', :class => "tile vegetables", :data => {:type => :vegetables}), '#'
-    = link_to image_tag('vegetables_select.png', :class => "tile vegetables", :data => {:type => :vegetables}, :style => "display: none;"), '#'
+    = link_to image_tag('vegetables_unselect.png', class: "tile vegetables", data: {type: :vegetables}), '#'
+    = link_to image_tag('vegetables_select.png', class: "tile vegetables", data: {type: :vegetables}, style: "display: none;"), '#'
   .top-middle
-    = link_to image_tag('meat_unselect.png', :class => "tile meat", :data => {:type => :meat}), '#'
-    = link_to image_tag('meat_select.png', :class => "tile meat", :data => {:type => :meat}, :style => "display: none;"), '#'
+    = link_to image_tag('meat_unselect.png', class: "tile meat", data: {type: :meat}), '#'
+    = link_to image_tag('meat_select.png', class: "tile meat", data: {type: :meat}, style: "display: none;"), '#'
   .top-right
-    = link_to image_tag('fish_unselect.png', :class => "tile fish", :data => {:type => :fish}), '#'
-    = link_to image_tag('fish_select.png', :class => "tile fish", :data => {:type => :fish}, :style => "display: none;"), '#'
+    = link_to image_tag('fish_unselect.png', class: "tile fish", data: {type: :fish}), '#'
+    = link_to image_tag('fish_select.png', class: "tile fish", data: {type: :fish}, style: "display: none;"), '#'
   .bottom-left
-    = link_to image_tag('bread_unselect.png', :class => "tile bread", :data => {:type => :bread}), '#'
-    = link_to image_tag('bread_select.png', :class => "tile bread", :data => {:type => :bread}, :style => "display: none;"), '#'
+    = link_to image_tag('bread_unselect.png', class: "tile bread", data: {type: :bread}), '#'
+    = link_to image_tag('bread_select.png', class: "tile bread", data: {type: :bread}, style: "display: none;"), '#'
   .bottom-middle
-    = link_to image_tag('dairy_unselect.png', :class => "tile dairy", :data => {:type => :dairy}), '#'
-    = link_to image_tag('dairy_select.png', :class => "tile dairy", :data => {:type => :dairy}, :style => "display: none;"), '#'
+    = link_to image_tag('dairy_unselect.png', class: "tile dairy", data: {type: :dairy}), '#'
+    = link_to image_tag('dairy_select.png', class: "tile dairy", data: {type: :dairy}, style: "display: none;"), '#'
   .bottom-right
-    = link_to image_tag('eggs_unselect.png', :class => "tile eggs", :data => {:type => :eggs}), '#'
-    = link_to image_tag('eggs_select.png', :class => "tile eggs", :data => {:type => :eggs}, :style => "display: none;"), '#'
-
-%script{:type=>"text/javascript"}
-  document.actionJSON = JSON.stringify([{type: "set_available_user_actions", body: {actions: ["save"]}}]);
+    = link_to image_tag('eggs_unselect.png', class: "tile eggs", data: {type: :eggs}), '#'
+    = link_to image_tag('eggs_select.png', class: "tile eggs", data: {type: :eggs}, style: "display: none;"), '#'

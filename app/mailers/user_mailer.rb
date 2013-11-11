@@ -28,7 +28,6 @@ class UserMailer < ActionMailer::Base
   def assigned_role_email user, assignor
     @assignor = assignor
     @user = user
-    @url = invite_url(@user.invitation_token)
     mail(to: user.email, subject: "#{assignor.full_name} invited you to care for patients with Better!")
   end
 
