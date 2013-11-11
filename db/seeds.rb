@@ -402,6 +402,7 @@ entire_leg_or_calf_being_pale_and_cool_factor = Factor.find_or_create_by_name(:n
 eye_movement_factor                     = Factor.find_or_create_by_name(:name=>"Eye Movement")
 excessive_tearing_factor                = Factor.find_or_create_by_name(:name=>"Excessive tearing")
 exertion_factor                         = Factor.find_or_create_by_name(:name=>"Exertion")
+extreme_factor                          = Factor.find_or_create_by_name(:name=>"Extreme")
 facial_numbness_factor                  = Factor.find_or_create_by_name(:name=>"Facial Numbness")
 fainting_or_dizziness_factor            = Factor.find_or_create_by_name(:name=>"Fainting or dizziness")
 fatigue_factor                          = Factor.find_or_create_by_name(:name=>"Fatigue")
@@ -464,8 +465,10 @@ loose_teeth_or_poorly_fitting_dentures    = Factor.find_or_create_by_name(:name=
 lump_in_front_of_neck_factor              = Factor.find_or_create_by_name(:name=>"Lump in front of neck")
 lying_down_for_a_long_period_factor       = Factor.find_or_create_by_name(:name=>"Lying down for a long period")
 mouth_sores_lumps_or_pain_factor          = Factor.find_or_create_by_name(:name=>"Mouth sores, lumps or pain")
+moderate_to_severe_factor                 = Factor.find_or_create_by_name(:name=>"Moderate to severe")
 middle_abdomen_factor                     = Factor.find_or_create_by_name(:name=>"Middle abdomen")
 middle_part_of_foot_factor                = Factor.find_or_create_by_name(:name=>"Middle part of foot")
+mild_to_moderate_factor                   = Factor.find_or_create_by_name(:name=>"Mild to moderate")
 muscle_aches_factor                       = Factor.find_or_create_by_name(:name=>"Muscle aches")
 muscle_or_joint_aches_factor              = Factor.find_or_create_by_name(:name=>"Muscle or joint aches")
 muscle_cramps_or_twitching_factor         = Factor.find_or_create_by_name(:name=>"Muscle cramps or twitching")
@@ -514,6 +517,7 @@ painful_bowel_movements_factor              = Factor.find_or_create_by_name(:nam
 persistent_cough_factor                     = Factor.find_or_create_by_name(:name=>"Persistent cough")
 persistant_nausea_or_vomiting_factor        = Factor.find_or_create_by_name(:name=>"Persistant nausea or vomiting")
 pulsing_near_navel_factor                   = Factor.find_or_create_by_name(:name=>"Pulsing near navel")
+pressure_or_squeezing_factor                = Factor.find_or_create_by_name(:name=>"Pressure or squeezing sensation")
 producing_phlegm_or_sputum_factor           = Factor.find_or_create_by_name(:name=>"Producing phlegm or sputum")
 progressive_or_worsening_factor             = Factor.find_or_create_by_name(:name=>"Progressive or worsening")
 sitting_or_standing_still_factor            = Factor.find_or_create_by_name(:name=>"Sitting or standing still for long periods")
@@ -532,6 +536,7 @@ slurred_speech_factor         = Factor.find_or_create_by_name(:name=>"Slurred sp
 slurred_speech_difficulty_speaking_factor = Factor.find_or_create_by_name(:name=>"Slurred speech or difficulty speaking")
 sudden_factor                 = Factor.find_or_create_by_name(:name=>"Sudden")
 sudden_hours_days_factor      = Factor.find_or_create_by_name(:name=>"Sudden (hours to days)")
+stabbing_or_burning_factor    = Factor.find_or_create_by_name(:name=>"Stabbing or burning")
 steady_factor                               = Factor.find_or_create_by_name(:name=>"Steady")
 straining_during_bowel_movements_factor     = Factor.find_or_create_by_name(:name=>"Straining during bowel movements")
 stress_factor                               = Factor.find_or_create_by_name(:name=>"Stress")
@@ -554,6 +559,7 @@ tight_hardened_skin           = Factor.find_or_create_by_name(:name=>"Tight, har
 thick_saliva_factor           = Factor.find_or_create_by_name(:name=>"Thick saliva")
 thick_green_or_yellow_phlegm_or_sputum = Factor.find_or_create_by_name(:name=>"Thick green or yellow phlegm or sputum")
 thickened_or_rough_skin_factor = Factor.find_or_create_by_name(:name=>"Thickened or rough skin")
+throbbing_factor               = Factor.find_or_create_by_name(:name=>"Throbbing")
 toe_or_front_part_of_foot_factor = Factor.find_or_create_by_name(:name=>"Toe or front part of foot")
 unexplained_fatigue_factor    = Factor.find_or_create_by_name(:name=>"Unexplained fatigue")
 upper_abdomen_factor          = Factor.find_or_create_by_name(:name=>"Upper abdomen")
@@ -3200,6 +3206,56 @@ foot_swelling_abdommen_other_parts_accompanied_by_SF = SymptomsFactor.find_or_cr
   :factor_id=>swelling_in_abdomen_other_parts_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
+
+## Headache - ADULT
+## ######################################
+headache_extreme_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>extreme_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+headache_mild_to_moderate_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>mild_to_moderate_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+headache_moderate_to_severe_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>moderate_to_severe_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+headache_pressure_or_squeezing_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>pressure_or_squeezing_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+headache_stabbing_or_burning_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>stabbing_or_burning_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+headache_throbbing_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>throbbing_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+
+
+
+
+
 #########################################
 ##
 ##
