@@ -1935,42 +1935,35 @@ chest_pain_exertion_triggered_worsened_by_SF=SymptomsFactor.find_or_create_by_do
   :factor_id=>exertion_factor.id,
   :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+chest_pain_injury_triggered_worsened_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>chest_pain_symptom.id,
   :factor_id=>injury_factor.id,
   :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>chest_pain_symptom.id,
-  :factor_id=>injury_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
-)
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+chest_pain_lying_down_triggered_worsened_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>chest_pain_symptom.id,
   :factor_id=>lying_down_for_a_long_period_factor.id,
   :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+chest_pain_chest_wall_triggered_worsened_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>chest_pain_symptom.id,
   :factor_id=>pressing_on_chest_wall_factor.id,
   :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+chest_pain_stress_triggered_worsened_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>chest_pain_symptom.id,
   :factor_id=>stress_factor.id,
   :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+chest_pain_deep_breath_triggered_worsened_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>chest_pain_symptom.id,
@@ -5068,6 +5061,57 @@ ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>chest_pain_unex_fatigue_accompanied_by_SF.id,
 :content_id=>Content.where(:document_id=>'DS00994').first.id
 )
+#ChestPain - DS00605
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_severe_pain_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00605').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_sudden_pain_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00605').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_tearing_or_ripping_pain_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00605').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_faint_dizzy_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00605').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_rapid_heartbeat_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00605').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_shortness_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00605').first.id
+)
+#ChestPain - DS00939
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_sudden_pain_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00939').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_injury_triggered_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00939').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_chest_wall_triggered_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00939').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_deep_breath_triggered_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00939').first.id
+)
+#ChestPain - DS00626
+###############################################################################
+
+
+
+
+
 ########################################################################
 #
 # DO NOT PUT ANY CONTENT AT BOTTOM OF THIS FILE. GO BEFORE SYMPTOMS CHECKER
