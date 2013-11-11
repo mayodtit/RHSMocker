@@ -11,7 +11,7 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   end
 
   def show
-    show_resource @content.active_model_serializer_instance(body: true)
+    show_resource @content.active_model_serializer_instance(body: true, preview: params[:preview] || false)
   end
 
   def status
