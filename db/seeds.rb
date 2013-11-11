@@ -361,10 +361,14 @@ bumps_blisters_or_open_sores_factor_genitals_factor = Factor.find_or_create_by_n
 burning_factor                          = Factor.find_or_create_by_name(:name=>"Burning")
 burning_pain_factor                     = Factor.find_or_create_by_name(:name=>"Burning pain")
 buzzing_or_ringing_in_ear_factor        = Factor.find_or_create_by_name(:name=>"Buzzing or ringing in ear")
+clenching_grinding_teeth_factor         = Factor.find_or_create_by_name(:name=>"Clenching or grinding teeth")
 change_in_bowel_habits_factor   		    = Factor.find_or_create_by_name(:name=>"Change in your bowel habits")
 changing_position_factor        		    = Factor.find_or_create_by_name(:name=>"Changing position")
+change_sleep_patterns_factor            = Factor.find_or_create_by_name(:name=>"Change in sleep patterns")
+change_personality_factor               = Factor.find_or_create_by_name(:name=>"Change in personality, behaviors or mental status")
 chest_pain_or_tightness_factor  		    = Factor.find_or_create_by_name(:name=>"Chest pain or tightness")
 chest_pain_or_pressure_factor           = Factor.find_or_create_by_name(:name=>"Chest pain or pressure")
+chewing_factor                          = Factor.find_or_create_by_name(:name=>"Chewing")
 chills_or_sweating_factor       		    = Factor.find_or_create_by_name(:name=>"Chills or sweating")
 chronic_ongoing_factor  				        = Factor.find_or_create_by_name(:name=>"Chronic, ongoing")
 constipation_factor     				        = Factor.find_or_create_by_name(:name=>"Constipation")
@@ -381,6 +385,7 @@ difficult_or_painful_swallowing_factor  = Factor.find_or_create_by_name(:name=>"
 difficulty_breathing_factor             = Factor.find_or_create_by_name(:name=>"Difficulty breathing")
 difficulty_pushing_off_with_toes_factor = Factor.find_or_create_by_name(:name=>"Difficulty pushing off with toes")
 difficulty_swallowing_factor            = Factor.find_or_create_by_name(:name=>"Difficulty swallowing")
+difficulty_speaking_factor              = Factor.find_or_create_by_name(:name=>"Difficulty speaking")
 drinking_alcohol_factor                 = Factor.find_or_create_by_name(:name=>"Drinking alcohol")
 drinking_alcohol_or_caffeine_factor     = Factor.find_or_create_by_name(:name=>"Drinking alcohol or caffeine")
 drinking_more_water_factor              = Factor.find_or_create_by_name(:name=>"Drinking more water")
@@ -400,6 +405,7 @@ eating_certain_foods_factor             = Factor.find_or_create_by_name(:name=>"
 enlarged_or_purplish_vein_factor        = Factor.find_or_create_by_name(:name=>"Enlarged or purplish vein in affected leg")
 entire_leg_or_calf_being_pale_and_cool_factor = Factor.find_or_create_by_name(:name=>"Entire leg or calf being pale and cool")
 eye_movement_factor                     = Factor.find_or_create_by_name(:name=>"Eye Movement")
+everday_activities_factor               = Factor.find_or_create_by_name(:name=>"Everyday activities")
 excessive_tearing_factor                = Factor.find_or_create_by_name(:name=>"Excessive tearing")
 exertion_factor                         = Factor.find_or_create_by_name(:name=>"Exertion")
 extreme_factor                          = Factor.find_or_create_by_name(:name=>"Extreme")
@@ -415,6 +421,7 @@ frequent_urge_to_have_bowel_movement_factor  = Factor.find_or_create_by_name(:na
 gas_factor                                = Factor.find_or_create_by_name(:name=>"Gas")
 gnawing_factor                            = Factor.find_or_create_by_name(:name=>"Gnawing")
 gritty_sensation_factor                   = Factor.find_or_create_by_name(:name=>"Gritty sensation")
+gradually_becomes_frequent_factor         = Factor.find_or_create_by_name(:name=>"Gradually becomes more frequent")
 halos_around_lights_factor                = Factor.find_or_create_by_name(:name=>"Halos around lights")
 hardening_of_skin_in_affected_area_factor = Factor.find_or_create_by_name(:name=>"Hardening of skin in affected area")
 have_something_stuck_in_your_throat_factor= Factor.find_or_create_by_name(:name=>"Have something stuck in your throat")
@@ -451,10 +458,18 @@ inability_to_point_forefoot_and_toes_down_factor = Factor.find_or_create_by_name
 injury_factor                             = Factor.find_or_create_by_name(:name=>"Injury")
 injury_trauma_factor                      = Factor.find_or_create_by_name(:name=>"Injury or trauma")
 irregular_heartbeat_factor                = Factor.find_or_create_by_name(:name=>"Injury or trauma")
+is_daily_factor                           = Factor.find_or_create_by_name(:name=>"Is daily")
+is_gradual_factor                         = Factor.find_or_create_by_name(:name=>"Is gradual")
+is_often_at_same_time_factor              = Factor.find_or_create_by_name(:name=>"Is often the same time every day")
+is_preceded_by_meds_factor  = Factor.find_or_create_by_name(:name=>"Is preceded by frequent use of pain medication")
+is_preceded_by_visual_factor = Factor.find_or_create_by_name(:name=>"Is preceded by visual or other sensory disturbances") 
+is_sudden_factor                          = Factor.find_or_create_by_name(:name=>"Is sudden")
+jaw_pain_factor                           = Factor.find_or_create_by_name(:name=>"Jaw pain")
 jaw_pain_or_stiffness_factor              = Factor.find_or_create_by_name(:name=>"Jaw pain or stiffness")
 joint_deformity_factor                    = Factor.find_or_create_by_name(:name=>"Joint deformity")
 lack_appetite_factor                      = Factor.find_or_create_by_name(:name=>"Lack of appetite")
 large_amounts_blood_factor                = Factor.find_or_create_by_name(:name=>"Large amounts of blood")
+less_than_few_minutes_factor              = Factor.find_or_create_by_name(:name=>"Less than a few minutes")
 lightheadedness_factor                    = Factor.find_or_create_by_name(:name=>"Lightheadedness")
 lightneadedned_or_faint_factor            = Factor.find_or_create_by_name(:name=>"Lightheaded or faint")
 lower_abdomen_factor                      = Factor.find_or_create_by_name(:name=>"Lower abdomen")
@@ -464,6 +479,7 @@ loss_of_color_vision                      = Factor.find_or_create_by_name(:name=
 loose_teeth_or_poorly_fitting_dentures    = Factor.find_or_create_by_name(:name=>"Loose teeth or poorly fitting dentures")
 lump_in_front_of_neck_factor              = Factor.find_or_create_by_name(:name=>"Lump in front of neck")
 lying_down_for_a_long_period_factor       = Factor.find_or_create_by_name(:name=>"Lying down for a long period")
+lying_down_dark_factor                    = Factor.find_or_create_by_name(:name=>"Lying down in the dark")
 mouth_sores_lumps_or_pain_factor          = Factor.find_or_create_by_name(:name=>"Mouth sores, lumps or pain")
 moderate_to_severe_factor                 = Factor.find_or_create_by_name(:name=>"Moderate to severe")
 middle_abdomen_factor                     = Factor.find_or_create_by_name(:name=>"Middle abdomen")
@@ -484,8 +500,12 @@ new_or_began_suddenly_factor              = Factor.find_or_create_by_name(:name=
 numbness_or_tingling_factor               = Factor.find_or_create_by_name(:name=>"Numbness or tingling")
 numbness_pain_color_factor                = Factor.find_or_create_by_name(:name=>"Numbness, pain and color changes in fingers")
 numbness_or_weakness_one_side             = Factor.find_or_create_by_name(:name=>"Numbness or weakness on one side of body")
+orgasm_factor                             = Factor.find_or_create_by_name(:name=>"Orgasm")
+on_both_sides_of_head_factor              = Factor.find_or_create_by_name(:name=>"On both sides of your head")
+on_one_side_of_head_factor                = Factor.find_or_create_by_name(:name=>"On one side of your head")
 ongoing_or_recurrent_factor               = Factor.find_or_create_by_name(:name=>"Ongoing or recurrent")
 one_or_both_sides_factor                  = Factor.find_or_create_by_name(:name=>"One or both sides")
+over_the_counter_meds_factor              = Factor.find_or_create_by_name(:name=>"Over-the-counter pain medication")
 radiates_from_abdomen_factor              = Factor.find_or_create_by_name(:name=>"Radiates from abdomen")
 rapid_heart_rate_factor                   = Factor.find_or_create_by_name(:name=>"Rapid heart rate")
 rash_factor                               = Factor.find_or_create_by_name(:name=>"Rash")
@@ -500,6 +520,7 @@ redness_without_discomfort_factor           = Factor.find_or_create_by_name(:nam
 red_painful_lump_on_eyelid                  = Factor.find_or_create_by_name(:name=>"Red, painful lump on the eyelid")
 regurgitation_food_liquid_factor            = Factor.find_or_create_by_name(:name=>"Regurgitation of food or sour liquid")
 rest_factor                                 = Factor.find_or_create_by_name(:name=>"Rest")
+restlessness_or_agitation_factor            = Factor.find_or_create_by_name(:name=>"Restlessness or agitation")
 rapid_or_irregular_heartbeat_factor         = Factor.find_or_create_by_name(:name=>"Rapid or irregular heartbeat")
 runny_or_stuffy_nose_factor                 = Factor.find_or_create_by_name(:name=>"Runny or stuffy nose")
 pale_dry_skin_factor                        = Factor.find_or_create_by_name(:name=>"Pale, dry skin")
@@ -515,8 +536,10 @@ pain_in_chest_neck_shoulder_factor          = Factor.find_or_create_by_name(:nam
 pain_in_chest_neck_shoulder_arm_factor      = Factor.find_or_create_by_name(:name=>"Pain in chest, neck, arm shoulder")
 painful_bowel_movements_factor              = Factor.find_or_create_by_name(:name=>"Painful bowel movements")
 persistent_cough_factor                     = Factor.find_or_create_by_name(:name=>"Persistent cough")
-persistant_nausea_or_vomiting_factor        = Factor.find_or_create_by_name(:name=>"Persistant nausea or vomiting")
+persistent_nausea_or_vomiting_factor        = Factor.find_or_create_by_name(:name=>"Persistent nausea or vomiting")
+persistent_weakness_or_numbness_factor      = Factor.find_or_create_by_name(:name=>"Persistent weakness or numbness")
 pulsing_near_navel_factor                   = Factor.find_or_create_by_name(:name=>"Pulsing near navel")
+poor_posture_factor                         = Factor.find_or_create_by_name(:name=>"Poor posture")
 pressure_or_squeezing_factor                = Factor.find_or_create_by_name(:name=>"Pressure or squeezing sensation")
 producing_phlegm_or_sputum_factor           = Factor.find_or_create_by_name(:name=>"Producing phlegm or sputum")
 progressive_or_worsening_factor             = Factor.find_or_create_by_name(:name=>"Progressive or worsening")
@@ -525,7 +548,11 @@ sharp_factor                                = Factor.find_or_create_by_name(:nam
 short_of_breath_or_dizzy_factor             = Factor.find_or_create_by_name(:name=>"Short of breath or dizzy")
 shortness_of_breath_factor    = Factor.find_or_create_by_name(:name=>"Shortness of breath")
 shimmering_or_flash_of_light_factor = Factor.find_or_create_by_name(:name=>"Shimmering or flash of light")
+seizures_factor               = Factor.find_or_create_by_name(:name=>"Seizures")
 sensitivity_to_light          = Factor.find_or_create_by_name(:name=>"Sensitivity to light")
+sensitivity_to_light_noise_factor = Factor.find_or_create_by_name(:name=>"Sensitivity to light or noise")
+several_hours_to_days_factor  = Factor.find_or_create_by_name(:name=>"Several hours to several days")
+several_minutes_to_few_hours_factor  = Factor.find_or_create_by_name(:name=>"Several minutes to a few hours")
 severe_factor                 = Factor.find_or_create_by_name(:name=>"Severe")
 severe_headache_factor        = Factor.find_or_create_by_name(:name=>"Severe headache")
 severe_pain_factor            = Factor.find_or_create_by_name(:name=>"Severe pain")
@@ -554,12 +581,14 @@ swelling_in_abdomen_other_parts_factor = Factor.find_or_create_by_name(:name=>"S
 taking_a_deep_breath_factor   = Factor.find_or_create_by_name(:name=>"Taking a deep breath")
 tearing_or_ripping_factor     = Factor.find_or_create_by_name(:name=>"Tearing or ripping")
 takes_effort_factor           = Factor.find_or_create_by_name(:name=>"Takes effort")
+tender_scalp_factor           = Factor.find_or_create_by_name(:name=>"Tender scalp")
 tight_factor                  = Factor.find_or_create_by_name(:name=>"Tight")
 tight_hardened_skin           = Factor.find_or_create_by_name(:name=>"Tight, hardened skin")
 thick_saliva_factor           = Factor.find_or_create_by_name(:name=>"Thick saliva")
 thick_green_or_yellow_phlegm_or_sputum = Factor.find_or_create_by_name(:name=>"Thick green or yellow phlegm or sputum")
 thickened_or_rough_skin_factor = Factor.find_or_create_by_name(:name=>"Thickened or rough skin")
 throbbing_factor               = Factor.find_or_create_by_name(:name=>"Throbbing")
+touching_face_eating_factor    = Factor.find_or_create_by_name(:name=>"Touching your face, eating or other facial movement")
 toe_or_front_part_of_foot_factor = Factor.find_or_create_by_name(:name=>"Toe or front part of foot")
 unexplained_fatigue_factor    = Factor.find_or_create_by_name(:name=>"Unexplained fatigue")
 upper_abdomen_factor          = Factor.find_or_create_by_name(:name=>"Upper abdomen")
@@ -575,7 +604,7 @@ whole_foot_factor             = Factor.find_or_create_by_name(:name=>"Whole foot
 worsening_or_progressing_factor = Factor.find_or_create_by_name(:name=>"Worsening or progressing")
 vomiting_blood_factor         = Factor.find_or_create_by_name(:name=>"Vomiting blood")
 vision_loss_factor            = Factor.find_or_create_by_name(:name=>"Vision loss")
-
+vision_problems_factor        = Factor.find_or_create_by_name(:name=>"Vision problems")
 #Symptoms - ADULT
 ##############################
 abdominal_pain_symptom  = Symptom.upsert_attributes({:name=>"Abdominal Pain", :patient_type=>"adult"}, 
@@ -3251,11 +3280,301 @@ headache_throbbing_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_wor
   :factor_id=>throbbing_factor.id,
   :factor_group_id=>pain_is_factor_group.id
 )
+headache_around_face_forehead_pain_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>around_face_or_forehead_factor.id,
+  :factor_group_id=>pain_located_factor_group.id
+)
+headache_one_eye_radiates_pain_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>around_one_eye_or_radiates_factor.id,
+  :factor_group_id=>pain_located_factor_group.id
+)
+headache_around_temples_pain_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>around_your_temples_factor.id,
+  :factor_group_id=>pain_located_factor_group.id
+)
+headache_both_sides_head_pain_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>on_both_sides_of_head_factor.id,
+  :factor_group_id=>pain_located_factor_group.id
+)
+headache_one_side_head_pain_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>on_one_side_of_head_factor.id,
+  :factor_group_id=>pain_located_factor_group.id
+)
+headache_gradual_onset_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>is_gradual_factor.id,
+  :factor_group_id=>onset_factor_group.id
+)
+headache_preceded_meds_onset_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>is_preceded_by_meds_factor.id,
+  :factor_group_id=>onset_factor_group.id
+)
+headache_preceded_by_visual_onset_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>is_preceded_by_visual_factor.id,
+  :factor_group_id=>onset_factor_group.id
+)
+headache_sudden_onset_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>is_sudden_factor.id,
+  :factor_group_id=>onset_factor_group.id
+)
+headache_less_few_min_duration_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>less_than_few_minutes_factor.id,
+  :factor_group_id=>duration_is_factor_group.id
+)
+headache_several_hours_days_duration_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>several_hours_to_days_factor.id,
+  :factor_group_id=>duration_is_factor_group.id
+)
+headache_several_minutes_to_hours_duration_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>several_minutes_to_few_hours_factor.id,
+  :factor_group_id=>duration_is_factor_group.id
+)
+headache_gradually_becomes_frequent_recurrence_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>gradually_becomes_frequent_factor.id,
+  :factor_group_id=>recurrence_of_headache_factor_group.id
+)
+headache_is_daily_recurrence_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>is_daily_factor.id,
+  :factor_group_id=>recurrence_of_headache_factor_group.id
+)
+headache_is_often_at_same_time_every_date_recurrence_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>is_often_at_same_time_factor.id,
+  :factor_group_id=>recurrence_of_headache_factor_group.id
+)
 
-
-
-
-
+headache_change_sleep_patterns_triggered_or_worsened_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>change_sleep_patterns_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+headache_chewing_triggered_or_worsened_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>chewing_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+headache_clenching_grinding_teeth_triggered_or_worsened_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>clenching_grinding_teeth_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+headache_everyday_activities_triggered_or_worsened_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>everday_activities_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+headache_hormonal_changes_triggered_or_worsened_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>hormonal_changes_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+headache_orgasm_triggered_or_worsened_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>orgasm_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+headache_poor_posture_triggered_or_worsened_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>poor_posture_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+headache_stress_triggered_or_worsened_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>stress_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+headache_touching_face_triggered_or_worsened_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>touching_face_eating_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+headache_lying_down_dark_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>lying_down_dark_factor.id,
+  :factor_group_id=>relieved_by_factor_group.id
+)
+headache_over_counter_meds_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>over_the_counter_meds_factor.id,
+  :factor_group_id=>relieved_by_factor_group.id
+)
+headache_rest_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>rest_factor.id,
+  :factor_group_id=>relieved_by_factor_group.id
+)
+headache_achy_joints_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>achy_joints_or_muscles_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+headache_change_personality_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>change_personality_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+headache_confusion_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>confusion_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+headache_difficulty_speaking_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>difficulty_speaking_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+headache_fever_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>fever_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+headache_jaw_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>jaw_pain_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+headache_nausea_vomit_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>nausea_or_vomiting_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+headache_persistant_weakness_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>persistent_weakness_or_numbness_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+headache_restless_agitation_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>restlessness_or_agitation_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+headache_runny_stuffy_nose_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>runny_or_stuffy_nose_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+headache_seizures_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>seizures_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+headache_sensitivty_light_noise_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>sensitivity_to_light_noise_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+headache_stiff_neck_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>stiff_neck_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+headache_tender_scalp_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>tender_scalp_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+headache_vision_problems_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>vision_problems_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
 #########################################
 ##
 ##
