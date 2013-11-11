@@ -361,13 +361,16 @@ bumps_blisters_or_open_sores_factor_genitals_factor = Factor.find_or_create_by_n
 burning_factor                          = Factor.find_or_create_by_name(:name=>"Burning")
 burning_pain_factor                     = Factor.find_or_create_by_name(:name=>"Burning pain")
 buzzing_or_ringing_in_ear_factor        = Factor.find_or_create_by_name(:name=>"Buzzing or ringing in ear")
+caffeine_or_alcohol_factor              = Factor.find_or_create_by_name(:name=>"Caffeine or alcohol")
 clenching_grinding_teeth_factor         = Factor.find_or_create_by_name(:name=>"Clenching or grinding teeth")
+cigarettes_or_recreational_drugs_factor = Factor.find_or_create_by_name(:name=>"Cigarettes or recreational drugs")
 change_in_bowel_habits_factor   		    = Factor.find_or_create_by_name(:name=>"Change in your bowel habits")
 changing_position_factor        		    = Factor.find_or_create_by_name(:name=>"Changing position")
 change_sleep_patterns_factor            = Factor.find_or_create_by_name(:name=>"Change in sleep patterns")
 change_personality_factor               = Factor.find_or_create_by_name(:name=>"Change in personality, behaviors or mental status")
 chest_pain_or_tightness_factor  		    = Factor.find_or_create_by_name(:name=>"Chest pain or tightness")
 chest_pain_or_pressure_factor           = Factor.find_or_create_by_name(:name=>"Chest pain or pressure")
+chest_pain_or_discomfort_factor         = Factor.find_or_create_by_name(:name=>"Chest pain or discomfort")
 chewing_factor                          = Factor.find_or_create_by_name(:name=>"Chewing")
 chills_or_sweating_factor       		    = Factor.find_or_create_by_name(:name=>"Chills or sweating")
 chronic_ongoing_factor  				        = Factor.find_or_create_by_name(:name=>"Chronic, ongoing")
@@ -386,6 +389,7 @@ difficulty_breathing_factor             = Factor.find_or_create_by_name(:name=>"
 difficulty_pushing_off_with_toes_factor = Factor.find_or_create_by_name(:name=>"Difficulty pushing off with toes")
 difficulty_swallowing_factor            = Factor.find_or_create_by_name(:name=>"Difficulty swallowing")
 difficulty_speaking_factor              = Factor.find_or_create_by_name(:name=>"Difficulty speaking")
+dizziness_or_lightheadedness_factor     = Factor.find_or_create_by_name(:name=>"Dizziness or lightheadedness")
 drinking_alcohol_factor                 = Factor.find_or_create_by_name(:name=>"Drinking alcohol")
 drinking_alcohol_or_caffeine_factor     = Factor.find_or_create_by_name(:name=>"Drinking alcohol or caffeine")
 drinking_more_water_factor              = Factor.find_or_create_by_name(:name=>"Drinking more water")
@@ -410,6 +414,8 @@ excessive_tearing_factor                = Factor.find_or_create_by_name(:name=>"
 exertion_factor                         = Factor.find_or_create_by_name(:name=>"Exertion")
 extreme_factor                          = Factor.find_or_create_by_name(:name=>"Extreme")
 facial_numbness_factor                  = Factor.find_or_create_by_name(:name=>"Facial Numbness")
+faster_than_normal_factor               = Factor.find_or_create_by_name(:name=>"Faster than normal")
+fainting_factor                         = Factor.find_or_create_by_name(:name=>"Fainting")
 fainting_or_dizziness_factor            = Factor.find_or_create_by_name(:name=>"Fainting or dizziness")
 fatigue_factor                          = Factor.find_or_create_by_name(:name=>"Fatigue")
 fatigue_or_weakness_factor              = Factor.find_or_create_by_name(:name=>"Fatigue or weakness")
@@ -457,7 +463,8 @@ inability_to_move_bowels_factor           = Factor.find_or_create_by_name(:name=
 inability_to_point_forefoot_and_toes_down_factor = Factor.find_or_create_by_name(:name=>"Inability to point forefoot and toes down")
 injury_factor                             = Factor.find_or_create_by_name(:name=>"Injury")
 injury_trauma_factor                      = Factor.find_or_create_by_name(:name=>"Injury or trauma")
-irregular_heartbeat_factor                = Factor.find_or_create_by_name(:name=>"Injury or trauma")
+irregular_heartbeat_factor                = Factor.find_or_create_by_name(:name=>"Irregular heartbeat")
+irregular_or_not_steady_factor            = Factor.find_or_create_by_name(:name=>"Irregular or not steady")
 is_daily_factor                           = Factor.find_or_create_by_name(:name=>"Is daily")
 is_gradual_factor                         = Factor.find_or_create_by_name(:name=>"Is gradual")
 is_often_at_same_time_factor              = Factor.find_or_create_by_name(:name=>"Is often the same time every day")
@@ -480,6 +487,7 @@ loose_teeth_or_poorly_fitting_dentures    = Factor.find_or_create_by_name(:name=
 lump_in_front_of_neck_factor              = Factor.find_or_create_by_name(:name=>"Lump in front of neck")
 lying_down_for_a_long_period_factor       = Factor.find_or_create_by_name(:name=>"Lying down for a long period")
 lying_down_dark_factor                    = Factor.find_or_create_by_name(:name=>"Lying down in the dark")
+medications_or_herbal_supplements_factor  = Factor.find_or_create_by_name(:name=>"Medications or herbal supplements")
 mouth_sores_lumps_or_pain_factor          = Factor.find_or_create_by_name(:name=>"Mouth sores, lumps or pain")
 moderate_to_severe_factor                 = Factor.find_or_create_by_name(:name=>"Moderate to severe")
 middle_abdomen_factor                     = Factor.find_or_create_by_name(:name=>"Middle abdomen")
@@ -495,6 +503,7 @@ menstrual_cycle_factor                    = Factor.find_or_create_by_name(:name=
 narrow_stools_factor                      = Factor.find_or_create_by_name(:name=>"Narrow stools")
 nausea_factor                             = Factor.find_or_create_by_name(:name=>"Nausea")
 nausea_or_vomiting_factor                 = Factor.find_or_create_by_name(:name=>"Nausea or vomiting")
+nervousness_factor                        = Factor.find_or_create_by_name(:name=>"Nervousness")
 new_or_began_recently_factor              = Factor.find_or_create_by_name(:name=>"New or began recently")
 new_or_began_suddenly_factor              = Factor.find_or_create_by_name(:name=>"New or began suddenly")
 numbness_or_tingling_factor               = Factor.find_or_create_by_name(:name=>"Numbness or tingling")
@@ -561,8 +570,10 @@ squeezing_or_pressure_factor  = Factor.find_or_create_by_name(:name=>"Squeezing 
 sneezing_factor               = Factor.find_or_create_by_name(:name=>"Sneezing")
 slurred_speech_factor         = Factor.find_or_create_by_name(:name=>"Slurred speech")
 slurred_speech_difficulty_speaking_factor = Factor.find_or_create_by_name(:name=>"Slurred speech or difficulty speaking")
+slower_than_normal_factor     = Factor.find_or_create_by_name(:name=>"Slower than normal")
 sudden_factor                 = Factor.find_or_create_by_name(:name=>"Sudden")
 sudden_hours_days_factor      = Factor.find_or_create_by_name(:name=>"Sudden (hours to days)")
+sudden_weight_loss_factor     = Factor.find_or_create_by_name(:name=>"Sudden weight loss")
 stabbing_or_burning_factor    = Factor.find_or_create_by_name(:name=>"Stabbing or burning")
 steady_factor                               = Factor.find_or_create_by_name(:name=>"Steady")
 straining_during_bowel_movements_factor     = Factor.find_or_create_by_name(:name=>"Straining during bowel movements")
@@ -590,10 +601,12 @@ thickened_or_rough_skin_factor = Factor.find_or_create_by_name(:name=>"Thickened
 throbbing_factor               = Factor.find_or_create_by_name(:name=>"Throbbing")
 touching_face_eating_factor    = Factor.find_or_create_by_name(:name=>"Touching your face, eating or other facial movement")
 toe_or_front_part_of_foot_factor = Factor.find_or_create_by_name(:name=>"Toe or front part of foot")
-unexplained_fatigue_factor    = Factor.find_or_create_by_name(:name=>"Unexplained fatigue")
+tremors_factor                = Factor.find_or_create_by_name(:name=>"Tremors")
+trouble_sleeping_factor       = Factor.find_or_create_by_name(:name=>"Trouble sleeping")
 upper_abdomen_factor          = Factor.find_or_create_by_name(:name=>"Upper abdomen")
 unintended_weight_loss_factor = Factor.find_or_create_by_name(:name=>"Unintended weight loss")
 unintended_weight_gain_factor = Factor.find_or_create_by_name(:name=>"Unintended weight gain")
+unexplained_fatigue_factor = Factor.find_or_create_by_name(:name=>"Unexplained fatigue") 
 unsteady_factor               = Factor.find_or_create_by_name(:name=>"Unsteady")
 urgency_to_have_bowel_movement= Factor.find_or_create_by_name(:name=>"Urgency to have a bowel movement")
 walking_factor                = Factor.find_or_create_by_name(:name=>"Walking")
@@ -605,6 +618,9 @@ worsening_or_progressing_factor = Factor.find_or_create_by_name(:name=>"Worsenin
 vomiting_blood_factor         = Factor.find_or_create_by_name(:name=>"Vomiting blood")
 vision_loss_factor            = Factor.find_or_create_by_name(:name=>"Vision loss")
 vision_problems_factor        = Factor.find_or_create_by_name(:name=>"Vision problems")
+youre_anxious_or_stressed_factor = Factor.find_or_create_by_name(:name=>"You're anxious or stressed")
+youre_exerting_factor           = Factor.find_or_create_by_name(:name=>"You're exerting yourself")
+youre_resting_going_bed_factor  = Factor.find_or_create_by_name(:name=>"You're resting or going to bed")
 #Symptoms - ADULT
 ##############################
 abdominal_pain_symptom  = Symptom.upsert_attributes({:name=>"Abdominal Pain", :patient_type=>"adult"}, 
@@ -750,11 +766,29 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
                                           :symptom_selfcare_id=>diarrhea_selfcare.id)
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid caffeine and alcohol", 
                                           :symptom_selfcare_id=>diarrhea_selfcare.id)
+diarrhea_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Consult your doctor if diarrhea lasts longer or is more severe than usual, or if you experience any of the following signs or symptoms:",
+                                                                                  :symptom_id=>diarrhea_symptom.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Severe abdominal or rectal pain",
+                                                          :symptom_medical_advice_id=>diarrhea_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Blood in your stool or black, tarry stools",
+                                                          :symptom_medical_advice_id=>diarrhea_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"A fever of 102 F (38.9 C) or higher",
+                                                          :symptom_medical_advice_id=>diarrhea_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Signs of dehydration, such as thirst, infrequent urination, dry skin, lightheadedness or dark urine",
+                                                          :symptom_medical_advice_id=>diarrhea_medadvice.id)
+
 
 difficulty_swallowing_symptom = Symptom.upsert_attributes({:name=>"Difficulty Swallowing", :patient_type=>"adult"},
 	{:description=>"Difficulty swallowing means that it takes more time or effort to swallow. Identify possible common causes based on symptoms you're experiencing."})
-
 ## No Selfcare
+difficulty_swallowing_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Get emergency care for difficulty swallowing if you:",
+                                                                                  :symptom_id=>difficulty_swallowing_symptom.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Have something stuck in your throat",
+                                                          :symptom_medical_advice_id=>difficulty_swallowing_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Can't swallow at all",
+                                                          :symptom_medical_advice_id=>difficulty_swallowing_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Have trouble breathing",
+                                                          :symptom_medical_advice_id=>difficulty_swallowing_medadvice.id)
 
 dizziness_symptom 			= Symptom.upsert_attributes({:name=>"Dizziness", :patient_type=>"adult"},
 	{:description=>"Dizziness can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing."})
@@ -3575,6 +3609,166 @@ headache_vision_problems_accompanied_by_SF = SymptomsFactor.find_or_create_by_do
   :factor_id=>vision_problems_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
+
+heart_palpitations_anxious_stressed_often_occur_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>youre_anxious_or_stressed_factor.id,
+  :factor_group_id=>palpitations_often_occur_when_factor_group.id
+)
+
+heart_palpitations_exerting_often_occur_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>youre_exerting_factor.id,
+  :factor_group_id=>palpitations_often_occur_when_factor_group.id
+)
+heart_palpitations_resting_going_bed_often_occur_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>youre_resting_going_bed_factor.id,
+  :factor_group_id=>palpitations_often_occur_when_factor_group.id
+)
+heart_palpitations_faster_than_normal_heart_rate_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>faster_than_normal_factor.id,
+  :factor_group_id=>heart_rate_is_factor_group.id
+)
+heart_palpitations_irregular_not_steady_heart_rate_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>irregular_or_not_steady_factor.id,
+  :factor_group_id=>heart_rate_is_factor_group.id
+)
+heart_palpitations_slower_than_normal_heart_rate_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>slower_than_normal_factor.id,
+  :factor_group_id=>heart_rate_is_factor_group.id
+)
+heart_palpitations_caffeine_alcohol_preceded_by_use_of_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>caffeine_or_alcohol_factor.id,
+  :factor_group_id=>preceded_by_factor_group.id
+)
+heart_palpitations_cigarettes_or_rec_drugs_preceded_by_use_of_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>cigarettes_or_recreational_drugs_factor.id,
+  :factor_group_id=>preceded_by_factor_group.id
+)
+heart_palpitations_medications_herbal_supplements_preceded_by_use_of_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>medications_or_herbal_supplements_factor.id,
+  :factor_group_id=>preceded_by_factor_group.id
+)
+heart_palpitations_chest_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>chest_pain_or_discomfort_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+heart_palpitations_dizziness_lightheadedness_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>dizziness_or_lightheadedness_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+heart_palpitations_fainting_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>fainting_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+heart_palpitations_headache_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>headache_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+heart_palpitations_nausea_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>nausea_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+heart_palpitations_nervousness_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>nervousness_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+heart_palpitations_persistent_cough_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>persistent_cough_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+heart_palpitations_shortness_breath_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>shortness_of_breath_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+heart_palpitations_sudden_weight_loss_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>sudden_weight_loss_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+heart_palpitations_sweating_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>sweating_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+heart_palpitations_tremors_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>tremors_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+heart_palpitations_trouble_sleeping_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>trouble_sleeping_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+heart_palpitations_unexplained_fatigue_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>headache_symptom.id,
+  :factor_id=>unexplained_fatigue_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+## Heart Palpitations - ADULT
+## ######################################
+
+
 #########################################
 ##
 ##
