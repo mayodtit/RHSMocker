@@ -792,13 +792,51 @@ SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advic
 
 dizziness_symptom 			= Symptom.upsert_attributes({:name=>"Dizziness", :patient_type=>"adult"},
 	{:description=>"Dizziness can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing."})
-
 ## No Selfcare
+dizziness_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Get emergency medical care if you experience dizziness after a head injury or if the dizziness is accompanied by:",
+                                                                                  :symptom_id=>dizziness_symptom.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Sudden, severe headache",
+                                                          :symptom_medical_advice_id=>dizziness_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Chest pain",
+                                                          :symptom_medical_advice_id=>dizziness_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Difficulty breathing",
+                                                          :symptom_medical_advice_id=>dizziness_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Numbness or weakness",
+                                                          :symptom_medical_advice_id=>dizziness_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Fainting",
+                                                          :symptom_medical_advice_id=>dizziness_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Blurred or double vision",
+                                                          :symptom_medical_advice_id=>dizziness_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Irregular heartbeat",
+                                                          :symptom_medical_advice_id=>dizziness_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Confusion or trouble talking",
+                                                          :symptom_medical_advice_id=>dizziness_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Nausea or vomiting",
+                                                          :symptom_medical_advice_id=>dizziness_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Stumbling or difficulty walking",
+                                                          :symptom_medical_advice_id=>dizziness_medadvice.id)
 
 eye_discomfort_symptom 		= Symptom.upsert_attributes({:name=>"Eye Discomfort", :patient_type=>"adult"},
 	{:description=>"Eye discomfort and redness can be concerning and disrupt your ability to do everyday activities. Identify possible common causes based on symptoms you're experiencing."})
-
 ## No Selfcare
+eye_discomfort_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Get emergency care if you have eye discomfort and redness accompanied by:",
+                                                                                  :symptom_id=>eye_discomfort_symptom.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Severe eye pain or irritation",
+                                                          :symptom_medical_advice_id=>eye_discomfort_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Direct injury to the eye",
+                                                          :symptom_medical_advice_id=>eye_discomfort_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Swelling in or around your eyes",
+                                                          :symptom_medical_advice_id=>eye_discomfort_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Discharge of blood or pus from your eyes",
+                                                          :symptom_medical_advice_id=>eye_discomfort_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Double vision or loss of vision",
+                                                          :symptom_medical_advice_id=>eye_discomfort_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Sudden or new appearance of halos around lights",
+                                                          :symptom_medical_advice_id=>eye_discomfort_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Nausea or vomiting",
+                                                          :symptom_medical_advice_id=>eye_discomfort_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Sudden, severe headache",
+                                                          :symptom_medical_advice_id=>eye_discomfort_medadvice.id)
 
 foot_ankle_pain_symptom 	= Symptom.upsert_attributes({:name=>"Foot/Ankle Pain", :patient_type=>"adult"},
 	{:description=>"Foot pain or ankle pain can be distressing and limit your ability to get around. Identify possible common causes based on symptoms you’re experiencing.",
@@ -846,14 +884,51 @@ foot_leg_swelling_symptom 	= Symptom.upsert_attributes({:name=>"Foot/Leg Swellin
 	 :selfcare=>"If you experience leg or foot swelling not related to an injury or joint pain, you may try the following self-care strategies to lessen symptoms:"
 	 })
 
+
+foot_leg_swelling_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Get medical care as soon as possible if:",
+                                                                                  :symptom_id=>foot_leg_swelling_symptom.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You have unexplained, painful swelling of your feet or legs",
+                                                          :symptom_medical_advice_id=>foot_leg_swelling_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"The swollen area becomes warm, red or inflamed",
+                                                          :symptom_medical_advice_id=>foot_leg_swelling_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"The swelling is accompanied by a fever",
+                                                          :symptom_medical_advice_id=>foot_leg_swelling_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You are pregnant and have new foot swelling",
+                                                          :symptom_medical_advice_id=>foot_leg_swelling_medadvice.id)
+
 headache_symptom 			= Symptom.upsert_attributes({:name=>"Headache", :patient_type=>"adult"},
 	{:description=>"Headaches are common and usually aren't the result of serious illness. Identify possible common causes based on symptoms you're experiencing.",
 	 :selfcare=>"For occasional tension headaches, the following self-care strategies may provide relief:"
 	 })
 
+headache_emergency_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Get emergency medical care if your headache:",
+                                                                                  :symptom_id=>headache_symptom.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Is sudden and severe or the 'worst headache ever'",
+                                                          :symptom_medical_advice_id=>headache_emergency_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Is accompanied by a fever, nausea or vomiting not related to a known illness",
+                                                          :symptom_medical_advice_id=>headache_emergency_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Is accompanied by stiff neck, rash, confusion, seizures, double vision, weakness, numbness or difficulty speaking",
+                                                          :symptom_medical_advice_id=>headache_emergency_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Follows a head injury, fall or bump",
+                                                          :symptom_medical_advice_id=>headache_emergency_medadvice.id)
+headache_prompt_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Get prompt medical care if your headache:",
+                                                                                  :symptom_id=>headache_symptom.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Gets worse despite rest and over-the-counter pain medication",
+                                                          :symptom_medical_advice_id=>headache_prompt_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Is new and you have a history of cancer or HIV/AIDS",
+                                                          :symptom_medical_advice_id=>headache_prompt_medadvice.id)
+
 heart_palpitations_symptom 	= Symptom.upsert_attributes({:name=>"Heart Palpitations", :patient_type=>"adult"},
 	{:description=>"Heart palpitations are racing, uncomfortable or irregular heartbeats or a 'flopping' sensation in your chest. Identify possible common causes based on symptoms you're experiencing."})
 ## No Selfcare
+heart_palpitations_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"See your doctor if you experience heart palpitations. Most often heart palpitations don't present a significant health risk, but they can be caused by a serious illness. It's important to get a prompt, accurate diagnosis and appropriate care. Get emergency medical care if heart palpitations are accompanied by:",
+                                                                                  :symptom_id=>heart_palpitations_symptom.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Chest pain that lasts more than a few minutes",
+                                                          :symptom_medical_advice_id=>heart_palpitations_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Dizziness, lightheadedness or fainting",
+                                                          :symptom_medical_advice_id=>heart_palpitations_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Shortness of breath",
+                                                          :symptom_medical_advice_id=>heart_palpitations_medadvice.id)
 
 hip_pain_symptom 			= Symptom.upsert_attributes({:name=>"Hip Pain", :patient_type=>"adult"}, 
 	{:description=>"Hip pain can affect your ability to move about normally. Identify possible common causes based on symptoms you’re experiencing.",
