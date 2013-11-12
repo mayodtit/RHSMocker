@@ -54,6 +54,10 @@ class Content < ActiveRecord::Base
     random
   end
 
+  def active_model_serializer
+    ContentSerializer
+  end
+
   protected
 
   # RANDOM() is PSQL specific
@@ -66,9 +70,5 @@ class Content < ActiveRecord::Base
     self.show_call_option = true if show_call_option.nil?
     self.show_checker_option = true if show_checker_option.nil?
     self.show_mayo_copyright = false if show_mayo_copyright.nil?
-  end
-
-  def active_model_serializer
-    ContentSerializer
   end
 end
