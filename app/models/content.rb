@@ -25,6 +25,7 @@ class Content < ActiveRecord::Base
     text :body
     text :title, :boost => 2.0
     text :keywords
+    string :type
   end
 
   def self.install_message
