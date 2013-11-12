@@ -234,6 +234,18 @@ Agreement.find_or_create_by_type(type: :terms_of_service, active: true, text: 'S
 # ONLY SYMTPOMS CHECKER CONTENT AFTER THIS LINE!
 #
 #########################################################################
+
+############## CLEAR OUT EXISTING DATA
+ContentsSymptomsFactor.delete_all
+SymptomMedicalAdviceItem.delete_all
+SymptomMedicalAdvice.delete_all
+SymptomSelfcare.delete_all
+SymptomSelfcareItem.delete_all
+SymptomsFactor.delete_all
+FactorGroup.delete_all
+Factor.delete_all
+
+
 #FactorGroup
 accompanied_by_factor_group           = FactorGroup.find_or_create_by_name(:name=>"Accompanied by")
 appearance_of_eye_factor_group        = FactorGroup.find_or_create_by_name(:name=>"Appearance of eye includes")
@@ -622,6 +634,9 @@ vision_problems_factor        = Factor.find_or_create_by_name(:name=>"Vision pro
 youre_anxious_or_stressed_factor = Factor.find_or_create_by_name(:name=>"You're anxious or stressed")
 youre_exerting_factor           = Factor.find_or_create_by_name(:name=>"You're exerting yourself")
 youre_resting_going_bed_factor  = Factor.find_or_create_by_name(:name=>"You're resting or going to bed")
+
+
+
 #Symptoms - ADULT
 ##############################
 abdominal_pain_symptom  = Symptom.upsert_attributes({:name=>"Abdominal Pain", :patient_type=>"adult"}, 
@@ -1313,6 +1328,9 @@ wheezing_symptom_child	= Symptom.upsert_attributes({:name=>"Wheezing", :patient_
 	{:description=>"Wheezing is a high-pitched, whistling noise that occurs with breathing. Identify possible common causes based on symptoms your child is experiencing."})
 
 #SymptomsFactor
+
+############## CLEAR OUT EXISTING DATA
+SymptomsFactor.delete_all
 
 ## ABDOMINAL PAIN - ADULT
 ## #################################################################################################################################################
@@ -3843,6 +3861,8 @@ heart_palpitations_unexplained_fatigue_accompanied_by_SF = SymptomsFactor.find_o
 )
 ## Heart Palpitations - ADULT
 ## ######################################
+
+
 
 
 #########################################
