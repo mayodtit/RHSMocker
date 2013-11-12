@@ -345,7 +345,7 @@ being_in_one_position_factor              = Factor.find_or_create_by_name(:name=
 belching_factor                           = Factor.find_or_create_by_name(:name=>"Belching")
 bending_forward_factor                    = Factor.find_or_create_by_name(:name=>"Bending forward")
 bending_forward_leaning_factor            = Factor.find_or_create_by_name(:name=>"Bending over or leaning on something for support")
-black_or_bloody_stool_factor              = Factor.find_or_create_by_name(:name=>"Black or bloody stool")
+black_or_bloody_stool_factor              = Factor.find_or_create_by_name(:name=>"Black or bloody stools")
 bleeding_on_surface_eye_factor            = Factor.find_or_create_by_name(:name=>"Bleeding on the surface of the white of the eye")
 bloating_or_abdominal_swelling_factor     = Factor.find_or_create_by_name(:name=>"Bloating or abdominal swelling")
 bloating_constipation_or_diarrhea_factor  = Factor.find_or_create_by_name(:name=>"Bloating, constipation or diarrhea")
