@@ -2273,119 +2273,119 @@ cough_wheezing_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_
 )
 ## Diarrhea - ADULT
 ## #############################
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_ongoing_problem_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
   :factor_id=>ongoing_or_recurrent_factor.id,
   :factor_group_id=>problem_is_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_eating_suspect_food_problem_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
   :factor_id=>preceded_by_eating_suspect_food_factor.id,
   :factor_group_id=>problem_is_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_antibiotic_use_problem_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
   :factor_id=>preceded_by_recent_antibiotic_use_factor.id,
   :factor_group_id=>problem_is_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_antibiotic_use_problem_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
   :factor_id=>recent_day_week_factor.id,
   :factor_group_id=>problem_is_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_sudden_hours_days_problem_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
   :factor_id=>sudden_hours_days_factor.id,
   :factor_group_id=>problem_is_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_eating_certain_foods_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
   :factor_id=>eating_certain_foods_factor.id,
   :factor_group_id=>triggered_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_avoiding_certain_foods_relieved_by__SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
   :factor_id=>avoiding_certain_foods_factor.id,
   :factor_group_id=>relieved_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_abdominal_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
   :factor_id=>abdominal_pain_or_cramping_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_abdominal_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
   :factor_id=>bloating_or_abdominal_swelling_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_bloody_stools_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
   :factor_id=>bloody_stools_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_constipation_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
   :factor_id=>constipation_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_fever_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
   :factor_id=>fever_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_mucus_in_stool_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
   :factor_id=>mucus_in_stools_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_muscle_or_joint_aches_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
   :factor_id=>muscle_or_joint_aches_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_passing_gas_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
   :factor_id=>passing_gas_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_unintended_weight_loss_factor_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
   :factor_id=>unintended_weight_loss_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_urgency_to_have_bowel_movement_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
@@ -2393,184 +2393,184 @@ SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id
   :factor_group_id=>accompanied_by_factor_group.id
 )
 
-## Dizziness - ADULT
+## Diff Swallowing - ADULT
 ## #############################
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_swallowing_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>hurts_factor.id,
   :factor_group_id=>swallowing_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_takes_effort_swallowing_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>takes_effort_factor.id,
   :factor_group_id=>swallowing_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_eating_certain_foods_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>eating_certain_foods_factor.id,
   :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_bad_breath_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>bad_breath_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_cough_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>cough_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_difficulty_breathing_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>difficulty_breathing_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_dry_eyes_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>dry_eyes_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_dry_mouth_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>dry_mouth_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_earache_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>earache_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_feeling_somthing_stuck_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>feeling_somthing_stuck_throat_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_hoarse_voice_or_difficulty_speaking_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>heartburn_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_heartburn_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>hoarse_voice_or_difficulty_speaking_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_jaw_pain_or_stiffness_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>jaw_pain_or_stiffness_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_loose_teeth_or_poorly_fitting_dentures_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>loose_teeth_or_poorly_fitting_dentures.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_lump_in_front_of_neck_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>lump_in_front_of_neck_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_mouth_sores_lumps_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>mouth_sores_lumps_or_pain_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_muscle_cramps_or_twitching_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>muscle_cramps_or_twitching_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_muscle_weakness_hands_legs_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>muscle_weakness_hands_legs_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_numbness_pain_color_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>numbness_pain_color_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_pain_in_chest_neck_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>pain_in_chest_neck_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_regurgitation_food_liquid_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>regurgitation_food_liquid_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_slurred_speech_difficulty_speaking_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>slurred_speech_difficulty_speaking_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_sore_throat_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>sore_throat_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_thick_saliva_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>thick_saliva_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_tight_hardened_skin_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
   :factor_id=>tight_hardened_skin.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_unintended_weight_loss_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
@@ -2578,163 +2578,163 @@ SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id
   :factor_group_id=>accompanied_by_factor_group.id
 )
 
-## Difficulty Swallowing - ADULT
+## Dizzyness Swallowing - ADULT
 ## #############################
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_spinning_sensation_you_feel_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>a_spinning_sensation_factor.id,
   :factor_group_id=>you_feel_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_lightneadedned_or_faint_you_feel_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>lightneadedned_or_faint_factor.id,
   :factor_group_id=>you_feel_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_unsteady_you_feel_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>unsteady_factor.id,
   :factor_group_id=>you_feel_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_new_or_began_suddenly_symptoms_are_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>new_or_began_suddenly_factor.id,
   :factor_group_id=>symptoms_are_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_recurrent_or_ongoing_symptoms_are_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>recurrent_or_ongoing_factor.id,
   :factor_group_id=>symptoms_are_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_worsening_or_progressing_symptoms_are_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>worsening_or_progressing_factor.id,
   :factor_group_id=>symptoms_are_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_change_in_head_or_body_position_triggered_or_worsened_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>a_change_in_head_or_body_position_factor.id,
   :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_anxiety_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>anxiety_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_blurred_or_double_vision_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>blurred_or_double_vision_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_buzzing_or_ringing_in_ear_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>buzzing_or_ringing_in_ear_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_chest_pain_or_pressure_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>chest_pain_or_pressure_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_confusion_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>confusion_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_ear_pain_or_pressure_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>ear_pain_or_pressure_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_facial_numbness_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>facial_numbness_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_fever_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>fever_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_hearing_loss_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>hearing_loss_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_irregular_heartbeat_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>irregular_heartbeat_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_numbness_or_weakness_one_side_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>numbness_or_weakness_one_side.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_pain_in_chest_neck_shoulder_arm_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>pain_in_chest_neck_shoulder_arm_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_severe_headache_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>severe_headache_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_shortness_of_breath_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>shortness_of_breath_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_slurred_speech_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>slurred_speech_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+dizzyness_sweating_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
@@ -2744,203 +2744,196 @@ SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id
 
 ## Eye Discomfort - ADULT
 ## #############################
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_ache_described_as_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>ache_factor.id,
   :factor_group_id=>eye_discomfort_described_as_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_dry_itchy_described_as_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>dry_or_itchy_factor.id,
   :factor_group_id=>eye_discomfort_described_as_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_gritty_sensation_described_as_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>gritty_sensation_factor.id,
   :factor_group_id=>eye_discomfort_described_as_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_redness_without_discomfort_described_as_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>redness_without_discomfort_factor.id,
   :factor_group_id=>eye_discomfort_described_as_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_sensitivity_to_light_described_as_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>sensitivity_to_light.id,
   :factor_group_id=>eye_discomfort_described_as_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_severe_pain_described_as_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>severe_pain_factor.id,
   :factor_group_id=>eye_discomfort_described_as_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_stinging_or_burning_sensation_described_as_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>stinging_or_burning_sensation_factor.id,
   :factor_group_id=>eye_discomfort_described_as_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_bleeding_on_surface_eye_appearance_eye_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>bleeding_on_surface_eye_factor.id,
   :factor_group_id=>appearance_of_eye_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_crusted_eyelashes_after_sleeping_appearance_eye_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>crusted_eyelashes_after_sleeping.id,
   :factor_group_id=>appearance_of_eye_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_excessive_tearing_appearance_eye_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>excessive_tearing_factor.id,
   :factor_group_id=>appearance_of_eye_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_red_painful_lump_on_eyelid_appearance_eye_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>red_painful_lump_on_eyelid.id,
   :factor_group_id=>appearance_of_eye_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_redness_appearance_eye_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>redness_factor.id,
   :factor_group_id=>appearance_of_eye_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_stringy_mucus_in_around_eye_appearance_eye_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>stringy_mucus_in_around_eye_factor.id,
   :factor_group_id=>appearance_of_eye_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>eye_discomfort_symptom.id,
-  :factor_id=>stringy_mucus_in_around_eye_factor.id,
-  :factor_group_id=>appearance_of_eye_factor_group.id
-)
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_swelling_around_eye_appearance_eye_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>swelling_around_eye_factor.id,
   :factor_group_id=>appearance_of_eye_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_blurred_vision_problem_includes_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>blurred_vision_factor.id,
   :factor_group_id=>vision_problem_includes_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_dark_floating_spots_in_vision_problem_includes_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>dark_floating_spots_in_vision_factor.id,
   :factor_group_id=>vision_problem_includes_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_halos_around_lights_problem_includes_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>halos_around_lights_factor.id,
   :factor_group_id=>vision_problem_includes_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_loss_of_color_vision_problem_includes_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>loss_of_color_vision.id,
   :factor_group_id=>vision_problem_includes_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_shimmering_or_flash_of_light_problem_includes_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>shimmering_or_flash_of_light_factor.id,
   :factor_group_id=>vision_problem_includes_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_vision_loss_problem_includes_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>vision_loss_factor.id,
   :factor_group_id=>vision_problem_includes_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_allergens_or_irritants_triggered_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>allergens_or_irritants_factor.id,
   :factor_group_id=>triggered_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_injury_trauma_triggered_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>injury_trauma_factor.id,
   :factor_group_id=>triggered_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_dry_warm_air_worsened_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>dry_warm_air_factor.id,
   :factor_group_id=>worsened_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_eye_movement_worsened_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>eye_movement_factor.id,
   :factor_group_id=>worsened_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_dry_mouth_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>dry_mouth_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_dry_mouth_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>headache_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_nausea_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
   :factor_id=>nausea_or_vomiting_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_runny_or_stuff_nose_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
