@@ -615,6 +615,7 @@ watery_or_itchy_eyes_factor   = Factor.find_or_create_by_name(:name=>"Watery or 
 wheezing_factor               = Factor.find_or_create_by_name(:name=>"Wheezing")
 whole_foot_factor             = Factor.find_or_create_by_name(:name=>"Whole foot")
 worsening_or_progressing_factor = Factor.find_or_create_by_name(:name=>"Worsening or progressing")
+vaguely_uncomfortable_factor  = Factor.find_or_create_by_name(:name=>"Vaguely uncomfortable")
 vomiting_blood_factor         = Factor.find_or_create_by_name(:name=>"Vomiting blood")
 vision_loss_factor            = Factor.find_or_create_by_name(:name=>"Vision loss")
 vision_problems_factor        = Factor.find_or_create_by_name(:name=>"Vision problems")
@@ -1849,6 +1850,20 @@ chest_pain_achy_gnawing_pain_described_SF=SymptomsFactor.find_or_create_by_docto
   :er_worthy=>false,
   :symptom_id=>chest_pain_symptom.id,
   :factor_id=>achy_or_gnawing_factor.id,
+  :factor_group_id=>pain_best_described_as_factor_group.id
+)
+chest_pain_vaguely_uncomfortable_described_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>chest_pain_symptom.id,
+  :factor_id=>vaguely_uncomfortable_factor.id,
+  :factor_group_id=>pain_best_described_as_factor_group.id
+)
+chest_pain_achy_burning_described_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>chest_pain_symptom.id,
+  :factor_id=>burning_factor.id,
   :factor_group_id=>pain_best_described_as_factor_group.id
 )
 chest_pain_intermittent_pain_described_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
@@ -5107,7 +5122,168 @@ ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 )
 #ChestPain - DS00626
 ###############################################################################
-
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_achy_gnawing_pain_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00626').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_chest_wall_triggered_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00626').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_deep_breath_triggered_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00626').first.id
+)
+#ChestPain - DS00763
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_achy_gnawing_pain_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00763').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_achy_burning_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00763').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_squeezing_or_pressure_pain_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00763').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_tight_pain_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00763').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_eating_drinking_triggered_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00763').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_diff_swallow_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00763').first.id
+)
+#ChestPain - DS00967
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_achy_burning_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_achy_burning_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_tight_pain_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_eating_drinking_triggered_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_lying_down_triggered_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_antacids_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_belching_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_diff_swallow_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+#ChestPain - DS00094
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_severe_pain_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_squeezing_or_pressure_pain_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_anxiety_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_faint_dizzy_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_nausea_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_pain_neck_arms_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_rapid_heartbeat_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_shortness_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_sweating_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_unex_fatigue_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+#ChestPain - DS00061
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_intermittent_pain_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00061').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_vaguely_uncomfortable_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00061').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_exertion_triggered_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00061').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_rest_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00061').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_shortness_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00061').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_unex_fatigue_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00061').first.id
+)
+#ChestPain - DS00095
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_achy_burning_described_SF.id,
+:content_id=>Content.where(:document_id=>'DS00095').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_eating_drinking_triggered_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00095').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_lying_down_triggered_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00095').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_antacids_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00095').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>chest_pain_belching_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00095').first.id
+)
 
 
 
