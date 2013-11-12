@@ -3,10 +3,14 @@ class CardSerializer < ViewSerializer
 
   attributes :id, :user_id, :resource_id, :resource_type, :state, :created_at, :updated_at,
              :priority, :state_changed_at, :title, :content_type, :content_type_display,
-             :share_url, :actions
+             :share_url
+
+  def attributes
+    super.merge!(state_specific_date)
+  end
 
   delegate :title, :content_type, :content_type_display, :share_url,
-           :raw_body, :raw_preview, :actions, to: :resource
+           :raw_body, :raw_preview, :card_actions, :full_actions, to: :resource
 
   def body
     controller.render_to_string(template: 'api/v1/cards/show',
@@ -20,10 +24,6 @@ class CardSerializer < ViewSerializer
                                 layout: 'serializable',
                                 formats: :html,
                                 locals: {card: object, resource: resource})
-  end
-
-  def attributes
-    super.merge!(state_specific_date)
   end
 
   private

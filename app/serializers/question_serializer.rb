@@ -35,7 +35,7 @@ class QuestionSerializer < ViewSerializer
     nil
   end
 
-  def actions
+  def card_actions
     if object.view == :diet
       [
         {normal: {title: 'Save', action: :save}}
@@ -46,5 +46,9 @@ class QuestionSerializer < ViewSerializer
         {normal: {title: 'Answer Later', action: :save}}
       ]
     end
+  end
+
+  def full_actions
+    []
   end
 end
