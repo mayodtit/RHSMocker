@@ -50,12 +50,16 @@ class ConsultSerializer < ViewSerializer
     nil
   end
 
-  def actions
+  def card_actions
     [
       {normal: {title: 'Save', action: :save}},
       {normal: {title: 'Dismiss', action: :dismiss}},
       {normal: {title: 'Reply', action: :reply}}
     ]
+  end
+
+  def full_actions
+    []
   end
 
   private
