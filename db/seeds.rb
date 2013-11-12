@@ -678,7 +678,7 @@ SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advic
 blood_in_stool_symptom  = Symptom.upsert_attributes({:name=>"Blood in Stool", :patient_type=>"adult"}, 
 	{:description=>"Blood in the stool requires a prompt diagnosis. Identify possible common causes based on symptoms you’re experiencing."})
 ## NO SELFCARE
-blood_in_stool_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Seek emergency medical care if:",
+blood_in_stool_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Seek medical advice for any blood in stool. Seek emergency medical care if:",
                                                                                   :symptom_id=>blood_in_stool_symptom.id)
 SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Large amounts of blood",
                                                           :symptom_medical_advice_id=>blood_in_stool_medadvice.id)
