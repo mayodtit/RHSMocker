@@ -3689,7 +3689,7 @@ headache_vision_problems_accompanied_by_SF = SymptomsFactor.find_or_create_by_do
 heart_palpitations_anxious_stressed_often_occur_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>youre_anxious_or_stressed_factor.id,
   :factor_group_id=>palpitations_often_occur_when_factor_group.id
 )
@@ -3697,147 +3697,147 @@ heart_palpitations_anxious_stressed_often_occur_SF = SymptomsFactor.find_or_crea
 heart_palpitations_exerting_often_occur_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>youre_exerting_factor.id,
   :factor_group_id=>palpitations_often_occur_when_factor_group.id
 )
 heart_palpitations_resting_going_bed_often_occur_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>youre_resting_going_bed_factor.id,
   :factor_group_id=>palpitations_often_occur_when_factor_group.id
 )
 heart_palpitations_faster_than_normal_heart_rate_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>faster_than_normal_factor.id,
   :factor_group_id=>heart_rate_is_factor_group.id
 )
 heart_palpitations_irregular_not_steady_heart_rate_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>irregular_or_not_steady_factor.id,
   :factor_group_id=>heart_rate_is_factor_group.id
 )
 heart_palpitations_slower_than_normal_heart_rate_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>slower_than_normal_factor.id,
   :factor_group_id=>heart_rate_is_factor_group.id
 )
 heart_palpitations_caffeine_alcohol_preceded_by_use_of_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>caffeine_or_alcohol_factor.id,
   :factor_group_id=>preceded_by_factor_group.id
 )
 heart_palpitations_cigarettes_or_rec_drugs_preceded_by_use_of_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>cigarettes_or_recreational_drugs_factor.id,
   :factor_group_id=>preceded_by_factor_group.id
 )
 heart_palpitations_medications_herbal_supplements_preceded_by_use_of_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>medications_or_herbal_supplements_factor.id,
   :factor_group_id=>preceded_by_factor_group.id
 )
 heart_palpitations_chest_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>chest_pain_or_discomfort_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id,
 )
 heart_palpitations_dizziness_lightheadedness_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>dizziness_or_lightheadedness_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id,
 )
 heart_palpitations_fainting_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>fainting_factor.id, 
   :factor_group_id=>accompanied_by_factor_group.id,
 )
 heart_palpitations_headache_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>headache_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id,
 )
 heart_palpitations_nausea_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>nausea_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id,
 )
 heart_palpitations_nervousness_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>nervousness_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id,
 )
 heart_palpitations_persistent_cough_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>persistent_cough_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id,
 )
 heart_palpitations_shortness_breath_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>shortness_of_breath_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id,
 )
 heart_palpitations_sudden_weight_loss_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>sudden_weight_loss_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id,
 )
 heart_palpitations_sweating_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>sweating_factor.id, 
   :factor_group_id=>accompanied_by_factor_group.id,
 )
 heart_palpitations_tremors_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>tremors_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id,
 )
 heart_palpitations_trouble_sleeping_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>trouble_sleeping_factor.id, 
   :factor_group_id=>accompanied_by_factor_group.id,
 )
 heart_palpitations_unexplained_fatigue_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>headache_symptom.id,
+  :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>unexplained_fatigue_factor.id, 
   :factor_group_id=>accompanied_by_factor_group.id,
 )
