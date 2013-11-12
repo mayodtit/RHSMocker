@@ -12,7 +12,7 @@ class Api::V1::ContentsController < Api::V1::ABaseController
 
   def show
     show_resource @content.active_model_serializer_instance(body: true,
-                                                            full_actions: true,
+                                                            fullscreen_actions: true,
                                                             preview: params[:preview] || false,
                                                             raw_body: params[:raw_body] || false,
                                                             raw_preview: params[:raw_preview] || false)

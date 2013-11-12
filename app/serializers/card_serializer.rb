@@ -10,7 +10,7 @@ class CardSerializer < ViewSerializer
   end
 
   delegate :title, :content_type, :content_type_display, :share_url,
-           :raw_body, :raw_preview, :card_actions, :full_actions, to: :resource
+           :raw_body, :raw_preview, :card_actions, :fullscreen_actions, to: :resource
 
   def body
     controller.render_to_string(template: 'api/v1/cards/show',

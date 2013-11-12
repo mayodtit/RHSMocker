@@ -11,7 +11,7 @@ class Api::V1::CardsController < Api::V1::ABaseController
   end
 
   def show
-    show_resource @card.active_model_serializer_instance(body: true, full_actions: true)
+    show_resource @card.active_model_serializer_instance(body: true, fullscreen_actions: true)
   end
 
   def update

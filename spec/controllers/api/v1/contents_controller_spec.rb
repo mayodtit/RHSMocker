@@ -62,7 +62,7 @@ describe Api::V1::ContentsController do
       get :show
     end
 
-    let(:content_keys) { content.active_model_serializer_instance(full_actions: true).as_json.keys.map(&:to_sym) << :body }
+    let(:content_keys) { content.active_model_serializer_instance(body: true, fullscreen_actions: true).as_json.keys.map(&:to_sym) }
 
     before do
       Content.stub(:find => content)

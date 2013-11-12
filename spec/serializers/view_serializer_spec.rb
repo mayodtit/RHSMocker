@@ -6,7 +6,7 @@ describe ViewSerializer do
   end
 
   let(:card_actions) { view_serializer(card_actions: true) }
-  let(:full_actions) { view_serializer(full_actions: true) }
+  let(:fullscreen_actions) { view_serializer(fullscreen_actions: true) }
 
   describe 'options' do
     let(:without) { view_serializer }
@@ -38,23 +38,23 @@ describe ViewSerializer do
       card_actions.send(:card_actions?).should be_true
     end
 
-    it 'sets full_actions to true when set' do
-      full_actions.send(:full_actions?).should be_true
+    it 'sets fullscreen_actions to true when set' do
+      fullscreen_actions.send(:fullscreen_actions?).should be_true
     end
   end
 
   describe '#attributes' do
     before do
       card_actions.stub(card_actions: double('card_actions'))
-      full_actions.stub(full_actions: double('full_actions'))
+      fullscreen_actions.stub(fullscreen_actions: double('fullscreen_actions'))
     end
 
     it 'sets actions when card_actions is set' do
-      card_actions.as_json[:actions].should == card_actions.card_actions
+      card_actions.as_json[:card_actions].should == card_actions.card_actions
     end
 
-    it 'sets actions when full_actions is set' do
-      full_actions.as_json[:actions].should == full_actions.full_actions
+    it 'sets actions when fullscreen_actions is set' do
+      fullscreen_actions.as_json[:fullscreen_actions].should == fullscreen_actions.fullscreen_actions
     end
   end
 

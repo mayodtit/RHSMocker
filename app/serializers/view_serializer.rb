@@ -7,7 +7,7 @@ class ViewSerializer < ActiveModel::Serializer
     @render_preview = options[:preview]
     @render_body = options[:body]
     @card_actions = options[:card_actions]
-    @full_actions = options[:full_actions]
+    @fullscreen_actions = options[:fullscreen_actions]
     super(object, options)
   end
 
@@ -15,8 +15,8 @@ class ViewSerializer < ActiveModel::Serializer
     hash = super
     hash.merge!(:preview => preview) if render_preview?
     hash.merge!(:body => body) if render_body?
-    hash.merge!(:actions => full_actions) if full_actions?
-    hash.merge!(:actions => card_actions) if card_actions?
+    hash.merge!(:fullscreen_actions => fullscreen_actions) if fullscreen_actions?
+    hash.merge!(:card_actions => card_actions) if card_actions?
     hash
   end
 
@@ -42,7 +42,7 @@ class ViewSerializer < ActiveModel::Serializer
     @card_actions || false
   end
 
-  def full_actions?
-    @full_actions || false
+  def fullscreen_actions?
+    @fullscreen_actions || false
   end
 end

@@ -65,7 +65,7 @@ describe Api::V1::CardsController do
     end
 
     let(:cards) { double('cards', :find => card) }
-    let(:card_keys) { card.active_model_serializer_instance(body: true, full_actions: true).as_json.keys.map(&:to_sym) }
+    let(:card_keys) { card.active_model_serializer_instance(body: true, fullscreen_actions: true).as_json.keys.map(&:to_sym) }
 
     before(:each) do
       user.stub(:cards => cards)
