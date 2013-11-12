@@ -508,7 +508,7 @@ middle_part_of_foot_factor                = Factor.find_or_create_by_name(:name=
 mild_to_moderate_factor                   = Factor.find_or_create_by_name(:name=>"Mild to moderate")
 muscle_aches_factor                       = Factor.find_or_create_by_name(:name=>"Muscle aches")
 muscle_or_joint_aches_factor              = Factor.find_or_create_by_name(:name=>"Muscle or joint aches")
-muscle_cramps_or_twitching_factor         = Factor.find_or_create_by_name(:name=>"Muscle cramps or twitching")
+muscle_cramps_or_twitching_factor         = Factor.find_or_create_by_name(:name=>"Muscle cramps or twitching in arms, shoulders, or tongue")
 muscle_weakness_factor                    = Factor.find_or_create_by_name(:name=>"Muscle weakness")
 muscle_weakness_hands_legs_factor         = Factor.find_or_create_by_name(:name=>"Muscle weakness in hands, feet or legs")
 mucus_in_stools_factor                    = Factor.find_or_create_by_name(:name=>"Mucus in stools")
