@@ -4,6 +4,12 @@ describe Card do
   it_has_a 'valid factory'
   it_has_a 'valid factory', :saved
   it_has_a 'valid factory', :dismissed
+  it_has_a 'valid factory', :content_card
+  it_has_a 'valid factory', :question_card
+  it_has_a 'valid factory', :consult_card
+  it_has_a 'valid factory', :consult_card_with_messages
+  it_has_a 'valid factory', :custom
+  it_has_a 'valid factory', :custom_with_content
   it_validates 'presence of', :user
   it_validates 'presence of', :resource
   it_validates 'uniqueness of', :resource_id, :user_id, :resource_type

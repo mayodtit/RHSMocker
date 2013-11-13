@@ -28,5 +28,13 @@ FactoryGirl.define do
     trait :consult_card_with_messages do
       association :resource, factory: [:consult, :with_messages]
     end
+
+    trait :custom do
+      association :resource, factory: :custom_card
+    end
+
+    trait :custom_with_content do
+      association :resource, factory: [:custom_card, :with_content]
+    end
   end
 end

@@ -40,4 +40,14 @@ describe CardSerializer do
     let(:resource) { build_stubbed(:card, :consult_card_with_messages) }
     it_behaves_like 'renders successfully'
   end
+
+  context 'with a custom card' do
+    let(:resource) { build_stubbed(:card, :custom) }
+    it_behaves_like 'renders successfully'
+  end
+
+  context 'with a custom card with content' do
+    let(:resource) { build_stubbed(:card, :custom_with_content) }
+    it_behaves_like 'renders successfully'
+  end
 end
