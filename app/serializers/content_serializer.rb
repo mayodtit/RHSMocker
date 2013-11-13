@@ -22,6 +22,10 @@ class ContentSerializer < ViewSerializer
   alias_method :contentID, :id
   alias_method :contents_type, :content_type
 
+  def title
+    object.title.gsub("&mdash;", "-")
+  end
+
   def body
     controller.render_to_string(template: 'api/v1/contents/show',
                                 layout: 'serializable',
