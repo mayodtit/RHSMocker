@@ -21,7 +21,7 @@ class ViewSerializer < ActiveModel::Serializer
   end
 
   def partial_name
-    object.class.to_s.downcase
+    object.class.to_s.underscore
   end
 
   protected
