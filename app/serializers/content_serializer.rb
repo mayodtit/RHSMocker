@@ -65,6 +65,10 @@ class ContentSerializer < ViewSerializer
     ]
   end
 
+  def partial_name
+    'content'
+  end
+
   private
 
   def raw_body?

@@ -1,8 +1,6 @@
 class Content < ActiveRecord::Base
   include SolrExtensionModule
-
   CONTENT_TYPES = %w(Article Answer HealthTip FirstAid)
-  CSV_COLUMNS = %w(id document_id content_type title)
 
   has_many :user_readings
   has_many :users, :through => :user_readings
@@ -15,7 +13,7 @@ class Content < ActiveRecord::Base
 
   attr_accessible :title, :body, :content_type, :abstract, :question, :keywords,
                   :content_updated_at, :document_id, :show_call_option,
-                  :show_checker_option, :show_mayo_copyright
+                  :show_checker_option, :show_mayo_copyright, :type
 
   validates :title, :body, :content_type, :document_id, presence: true
   validates :show_call_option, :show_checker_option, :show_mayo_copyright, inclusion: {:in => [true, false]}
@@ -27,6 +25,7 @@ class Content < ActiveRecord::Base
     text :body
     text :title, :boost => 2.0
     text :keywords
+    string :type
   end
 
   def self.install_message
@@ -48,32 +47,19 @@ class Content < ActiveRecord::Base
     where(:content_type => CONTENT_TYPES).first(order: rand_str)
   end
 
-  def self.to_csv
-    CSV.generate do |csv|
-      csv << CSV_COLUMNS
-      all.each do |content|
-        csv << content.attributes.values_at(*CSV_COLUMNS)
-      end
-    end
-  end
-
   def content_type_display
-    if content_type == 'Disease'
-      'Condition'
-    else
-      content_type.underscore.humanize.titleize
-    end
-  end
-
-  def self.mayo_terms_of_service
-    @mayo_terms_of_service ||= find_by_document_id('AM00021')
+    content_type.underscore.humanize.titleize
   end
 
   def self.next_for(user)
     random
   end
 
-  private
+  def active_model_serializer
+    ContentSerializer
+  end
+
+  protected
 
   # RANDOM() is PSQL specific
   # TODO: remove this once we migrate over to MySQL
@@ -84,6 +70,6 @@ class Content < ActiveRecord::Base
   def set_defaults
     self.show_call_option = true if show_call_option.nil?
     self.show_checker_option = true if show_checker_option.nil?
-    self.show_mayo_copyright = true if show_mayo_copyright.nil?
+    self.show_mayo_copyright = false if show_mayo_copyright.nil?
   end
 end

@@ -155,6 +155,7 @@ class ContentImporter
   def create_content!
     @content = Content.upsert_attributes({:document_id => @document_id},
                                          {
+                                           :type => 'MayoContent',
                                            :content_type => @content_type,
                                            :title => @title,
                                            :abstract => abstract,

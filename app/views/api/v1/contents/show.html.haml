@@ -4,8 +4,8 @@
     .content_title_full= content.title.html_safe
     .content_abstract= content.abstract.html_safe if content.abstract.present?
   .content_text= content.raw_body.html_safe if content.raw_body.present?
-  - unless content == Content.mayo_terms_of_service
-    .mayo-copyright.content-link{:data => {:content_id => Content.mayo_terms_of_service.try(:id)}}
+  - unless content == MayoContent.terms_of_service
+    .mayo-copyright.content-link{:data => {:content_id => MayoContent.terms_of_service.try(:id)}}
       - if content.content_updated_at
         %div Updated #{content.content_updated_at.strftime('%m/%d/%Y')}
       %div &copy;2013&nbsp;Mayo Foundation for Medical Education and Research (MFMER).<br>All rights reserved.
