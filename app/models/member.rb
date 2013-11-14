@@ -39,6 +39,11 @@ class Member < User
   after_create :add_new_member_content
   after_create :send_welcome_message, :if => lambda{|m| m.email.present?}
 
+  def self.name_search(string)
+    wildcard = "%#{string}%"
+    where("first_name LIKE ? OR last_name LIKE ? OR email LIKE ?", wildcard, wildcard, wildcard)
+  end
+
   BASE_OPTIONS = User::BASE_OPTIONS.merge(:only => [:holds_phone_in, :install_id,
                                                     :phone, :units],
                                           :methods => [:pusher_id]) do |k, v1, v2|

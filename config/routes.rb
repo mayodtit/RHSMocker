@@ -27,6 +27,7 @@ RHSMocker::Application.routes.draw do
       end
       resources :ethnic_groups, :only => :index
       resources :locations, :only => :create
+      resources :members, only: :index
       resources :messages, :only => :show do
         post :mark_read, :on => :collection
         post :save, :on => :collection
