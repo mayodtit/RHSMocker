@@ -9,6 +9,14 @@ class CardSerializer < ViewSerializer
     super.merge!(state_specific_date)
   end
 
+  def resource_type
+    if object.resource_type == 'CustomCard'
+      'Content'
+    else
+      object.resource_type
+    end
+  end
+
   delegate :title, :content_type, :content_type_display, :share_url,
            :raw_body, :raw_preview, :card_actions, :fullscreen_actions, to: :resource
 
