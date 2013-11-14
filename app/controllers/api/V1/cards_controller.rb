@@ -14,6 +14,10 @@ class Api::V1::CardsController < Api::V1::ABaseController
     show_resource @card.serializer(body: true, fullscreen_actions: true)
   end
 
+  def create
+    create_resource @user.cards, card_params
+  end
+
   def update
     update_resource @card, card_params
   end

@@ -43,6 +43,21 @@ describe 'Cards' do
     end
   end
 
+  describe 'POST /api/v1/users/:user_id/cards' do
+    def do_request(params={})
+      post "/api/v1/users/#{user.id}/cards", {card: params}.merge!(auth_token: user.auth_token)
+    end
+
+    let(:content) { create(:content) }
+
+    it 'creates a new card for the user' do
+      expect{ do_request(resource_id: content.id, resource_type: content.class) }.to change(Card, :count).by(1)
+      response.should be_success
+      body = JSON.parse(response.body, symbolize_names: true)
+      Card.find(body[:card][:id]).user.should == user
+    end
+  end
+
   describe 'GET /api/v1/users/:user_id/cards/:id' do
     def do_request
       get "/api/v1/users/#{user.id}/cards/#{card.id}", auth_token: user.auth_token
