@@ -41,6 +41,6 @@ class CustomCardSerializer < ViewSerializer
   end
 
   def content
-    @content ||= object.content.try(:active_model_serializer_instance)
+    @content ||= object.content.try(:serializer)
   end
 end

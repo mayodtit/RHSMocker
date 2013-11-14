@@ -4,18 +4,18 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   after_filter :log_content_search, only: :index
 
   def index
-    render_success(contents: @contents.active_model_serializer_instance,
+    render_success(contents: @contents.serializer,
                    page: page,
                    per: per,
                    total_count: @total_count)
   end
 
   def show
-    show_resource @content.active_model_serializer_instance(body: true,
-                                                            fullscreen_actions: true,
-                                                            preview: params[:preview] || false,
-                                                            raw_body: params[:raw_body] || false,
-                                                            raw_preview: params[:raw_preview] || false)
+    show_resource @content.serializer(body: true,
+                                      fullscreen_actions: true,
+                                      preview: params[:preview] || false,
+                                      raw_body: params[:raw_body] || false,
+                                      raw_preview: params[:raw_preview] || false)
   end
 
   def status

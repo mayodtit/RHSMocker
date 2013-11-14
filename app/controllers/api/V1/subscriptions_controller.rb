@@ -3,11 +3,11 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   before_filter :load_subscription!, :only => [:show, :update, :destroy]
 
   def index
-    index_resource(@user.subscriptions.active_model_serializer_instance)
+    index_resource(@user.subscriptions.serializer)
   end
 
   def show
-    show_resource(@subscription.active_model_serializer_instance)
+    show_resource(@subscription.serializer)
   end
 
   def create

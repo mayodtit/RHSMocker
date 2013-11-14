@@ -37,7 +37,7 @@ class CardSerializer < ViewSerializer
   private
 
   def resource
-    @resource ||= object.resource.active_model_serializer_instance
+    @resource ||= object.resource.serializer
   end
 
   def state_specific_date
