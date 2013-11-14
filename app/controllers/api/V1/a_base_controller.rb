@@ -47,7 +47,7 @@ module Api
 
       def update_resource(resource, resource_params, resource_name=resource_singular_symbol)
         if resource.update_attributes(resource_params)
-          render_success(resource_name => resource)
+          render_success(resource_name => (resource.serializer || resource))
         else
           render_failure({reason: resource.errors.full_messages.to_sentence}, 422)
         end
