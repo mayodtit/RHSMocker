@@ -45,7 +45,7 @@ class Member < User
   end
 
   BASE_OPTIONS = User::BASE_OPTIONS.merge(:only => [:holds_phone_in, :install_id,
-                                                    :phone, :units],
+                                                    :phone, :units, :client_data],
                                           :methods => [:pusher_id]) do |k, v1, v2|
                    v1.is_a?(Array) ? v1 + v2 : [v1] + v2
                  end

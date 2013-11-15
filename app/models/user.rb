@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+  serialize :client_data, Hash
 
   rolify
 
@@ -20,7 +21,7 @@ class User < ActiveRecord::Base
 
   attr_accessible :first_name, :last_name, :avatar, :gender, :height, :birth_date, :email,
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
-                  :date_of_death, :expertise, :city, :state, :avatar_url_override
+                  :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data
 
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
