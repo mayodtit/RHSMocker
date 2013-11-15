@@ -47,14 +47,14 @@ describe Api::V1::CustomCardsController do
         it 'returns the custom_card' do
           do_request
           json = JSON.parse(response.body)
-          json['custom_card'].to_json.should == custom_card.serializer(preview: true).as_json.to_json
+          json['custom_card'].to_json.should == custom_card.serializer(preview: true, raw_preview: true).as_json.to_json
         end
       end
     end
 
     describe 'PUT update' do
       def do_request
-        put :update, auth_token: user.auth_token
+        put :update, auth_token: user.auth_token, custom_card: attributes_for(:custom_card)
       end
 
       before do
@@ -91,7 +91,7 @@ describe Api::V1::CustomCardsController do
 
   describe 'POST create' do
     def do_request
-      post :create
+      post :create, custom_card: attributes_for(:custom_card)
     end
 
     let(:custom_card) { build_stubbed(:custom_card) }
