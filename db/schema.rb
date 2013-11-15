@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131113193954) do
+ActiveRecord::Schema.define(:version => 20131115023610) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -178,9 +178,9 @@ ActiveRecord::Schema.define(:version => 20131113193954) do
   create_table "custom_cards", :force => true do |t|
     t.integer  "content_id"
     t.string   "title"
-    t.text     "body"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.text     "raw_preview"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "delayed_jobs", :force => true do |t|

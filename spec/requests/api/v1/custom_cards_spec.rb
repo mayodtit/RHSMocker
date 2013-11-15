@@ -28,7 +28,7 @@ describe 'CustomCards' do
         do_request
         response.should be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:custom_card].to_json.should == custom_card.serializer(preview: true).as_json.to_json
+        body[:custom_card].to_json.should == custom_card.serializer(preview: true, raw_preview: true).as_json.to_json
       end
     end
 
@@ -44,7 +44,7 @@ describe 'CustomCards' do
         response.should be_success
         body = JSON.parse(response.body, symbolize_names: true)
         custom_card.reload.title.should == new_title
-        body[:custom_card].to_json.should == custom_card.serializer.as_json.to_json
+        body[:custom_card].to_json.should == custom_card.serializer(preview: true, raw_preview: true).as_json.to_json
       end
     end
   end

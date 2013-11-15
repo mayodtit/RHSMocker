@@ -8,19 +8,19 @@ class Api::V1::UserTreatmentsController < Api::V1::ABaseController
   before_filter :load_user_treatment!, only: [:show, :update, :destroy]
 
   def index
-    index_resource(@user.user_treatments, :user_disease_treatments)
+    index_resource(@user.user_treatments, name: :user_disease_treatments)
   end
 
   def show
-    show_resource(@user_treatment, :user_disease_treatment)
+    show_resource(@user_treatment, name: :user_disease_treatment)
   end
 
   def create
-    create_resource(@user.user_treatments, sanitize_for_mass_assignment(user_treatment_params), :user_disease_treatment)
+    create_resource(@user.user_treatments, sanitize_for_mass_assignment(user_treatment_params), name: :user_disease_treatment)
   end
 
   def update
-    update_resource(@user_treatment, sanitize_for_mass_assignment(user_treatment_params), :user_disease_treatment)
+    update_resource(@user_treatment, sanitize_for_mass_assignment(user_treatment_params), name: :user_disease_treatment)
   end
 
   def destroy

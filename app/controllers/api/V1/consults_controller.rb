@@ -5,12 +5,12 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
   def index
     @consults = @user.consults.with_unread_messages_count_for(@user)
     @consults = @consults.where(:status => params[:status]) if params[:status]
-    index_resource(@consults.serializer(include_unread_messages_count: true), :encounters) and return if encounter_path?
+    index_resource(@consults.serializer(include_unread_messages_count: true), name: :encounters) and return if encounter_path?
     index_resource(@consults.serializer(include_unread_messages_count: true))
   end
 
   def show
-    show_resource(@consult.serializer, :encounter) and return if encounter_path?
+    show_resource(@consult.serializer, name: :encounter) and return if encounter_path?
     show_resource(@consult.serializer)
   end
 
@@ -22,7 +22,7 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
       p.delete(:consult_image)
     end
 
-    create_resource(Consult, p, :encounter) and return if encounter_path?
+    create_resource(Consult, p, name: :encounter) and return if encounter_path?
     create_resource(Consult, p)
   end
 

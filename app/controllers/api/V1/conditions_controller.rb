@@ -3,7 +3,7 @@ class Api::V1::ConditionsController < Api::V1::ABaseController
   before_filter :load_conditions!
 
   def index
-    index_resource(@conditions, :diseases) and return if diseases_path?
+    index_resource(@conditions, name: :diseases) and return if diseases_path?
     index_resource(@conditions)
   end
 
