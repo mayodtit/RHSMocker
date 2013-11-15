@@ -14,7 +14,7 @@ class Api::V1::CustomCardsController < Api::V1::ABaseController
   end
 
   def update
-    update_resource @custom_card, custom_card_params, :custom_card, {preview: true, raw_preview: true}
+    update_resource @custom_card, custom_card_params, serializer_options: {preview: true, raw_preview: true}
   end
 
   private
