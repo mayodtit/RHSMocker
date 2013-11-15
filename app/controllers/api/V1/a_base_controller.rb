@@ -36,18 +36,18 @@ module Api
         render_success(resource_name => resource)
       end
 
-      def create_resource(collection, resource_params, resource_name=resource_singular_symbol)
+      def create_resource(collection, resource_params, resource_name=resource_singular_symbol, serializer_options={})
         resource = collection.create(resource_params)
         if resource.errors.empty?
-          render_success(resource_name => (resource.serializer || resource))
+          render_success(resource_name => (resource.serializer(serializer_options) || resource))
         else
           render_failure({reason: resource.errors.full_messages.to_sentence}, 422)
         end
       end
 
-      def update_resource(resource, resource_params, resource_name=resource_singular_symbol)
+      def update_resource(resource, resource_params, resource_name=resource_singular_symbol, serializer_options={})
         if resource.update_attributes(resource_params)
-          render_success(resource_name => (resource.serializer || resource))
+          render_success(resource_name => (resource.serializer(serializer_options) || resource))
         else
           render_failure({reason: resource.errors.full_messages.to_sentence}, 422)
         end
