@@ -20,6 +20,7 @@ RHSMocker::Application.routes.draw do
         resources :phone_calls, only: [:index, :show, :create], controller: 'consult_phone_calls'
         resources :users, only: :index, controller: 'consult_users'
       end
+      resources :custom_cards, only: [:index, :show, :create, :update]
       resources :phone_calls, only: [:index, :show, :update]
       resources :diseases, :only => :index, :controller => :conditions
       resources :encounters, :only => [:index, :show, :create], :controller => 'consults' do
@@ -27,6 +28,7 @@ RHSMocker::Application.routes.draw do
       end
       resources :ethnic_groups, :only => :index
       resources :locations, :only => :create
+      resources :members, only: :index
       resources :messages, :only => :show do
         post :mark_read, :on => :collection
         post :save, :on => :collection
@@ -61,7 +63,7 @@ RHSMocker::Application.routes.draw do
           end
         end
         post 'invite', :on => :member
-        resources :cards, :only => [:show, :update] do
+        resources :cards, :only => [:create, :show, :update] do
           get :inbox, :on => :collection
           get :timeline, :on => :collection
         end

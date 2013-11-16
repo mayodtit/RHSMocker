@@ -227,6 +227,19 @@ img.mayoContentImage {
   padding-top: 3px; 
 }
 
+.author-image {
+  float: left;
+  margin-right: 10px;
+  width: 69px;
+  height: 84px;
+  overflow: hidden;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  border: 5px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
 .authorImageDiv {
   float:left;
   width: 69px;

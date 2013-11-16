@@ -28,26 +28,26 @@ module Api
 
       protected
 
-      def index_resource(collection, resource_name=resource_plural_symbol)
-        render_success(resource_name => collection)
+      def index_resource(collection, options={})
+        render_success((options[:name] || resource_plural_symbol) => collection)
       end
 
-      def show_resource(resource, resource_name=resource_singular_symbol)
-        render_success(resource_name => resource)
+      def show_resource(resource, options={})
+        render_success((options[:name] || resource_singular_symbol) => resource)
       end
 
-      def create_resource(collection, resource_params, resource_name=resource_singular_symbol)
+      def create_resource(collection, resource_params, options={})
         resource = collection.create(resource_params)
         if resource.errors.empty?
-          render_success(resource_name => (resource.active_model_serializer_instance || resource))
+          render_success((options[:name] || resource_singular_symbol) => (resource.serializer(options[:serializer_options] || {}) || resource))
         else
           render_failure({reason: resource.errors.full_messages.to_sentence}, 422)
         end
       end
 
-      def update_resource(resource, resource_params, resource_name=resource_singular_symbol)
+      def update_resource(resource, resource_params, options={})
         if resource.update_attributes(resource_params)
-          render_success(resource_name => resource)
+          render_success((options[:name] || resource_singular_symbol) => (resource.serializer(options[:serializer_options] || {}) || resource))
         else
           render_failure({reason: resource.errors.full_messages.to_sentence}, 422)
         end

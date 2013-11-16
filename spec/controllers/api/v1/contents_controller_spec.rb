@@ -4,7 +4,7 @@ describe Api::V1::ContentsController do
   let(:content) { build_stubbed(:content) }
   let(:user) { build_stubbed(:member) }
   let(:ability) { Object.new.extend(CanCan::Ability) }
-  let(:content_keys) { content.active_model_serializer_instance.as_json.keys.map(&:to_sym) }
+  let(:content_keys) { content.serializer.as_json.keys.map(&:to_sym) }
 
   before do
     controller.stub(:current_ability => ability)
@@ -62,7 +62,7 @@ describe Api::V1::ContentsController do
       get :show
     end
 
-    let(:content_keys) { content.active_model_serializer_instance(full_actions: true).as_json.keys.map(&:to_sym) << :body }
+    let(:content_keys) { content.serializer(body: true, fullscreen_actions: true).as_json.keys.map(&:to_sym) }
 
     before do
       Content.stub(:find => content)

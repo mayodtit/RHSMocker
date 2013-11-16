@@ -48,7 +48,7 @@ class QuestionSerializer < ViewSerializer
     end
   end
 
-  def full_actions
+  def fullscreen_actions
     []
   end
 end

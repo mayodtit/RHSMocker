@@ -24,7 +24,7 @@ describe Api::V1::PlansController do
       it 'returns an array of plans' do
         do_request
         json = JSON.parse(response.body)
-        json['plans'].to_json.should == [plan].active_model_serializer_instance.as_json.to_json
+        json['plans'].to_json.should == [plan].serializer.as_json.to_json
       end
     end
   end

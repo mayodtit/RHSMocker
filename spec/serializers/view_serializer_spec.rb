@@ -5,61 +5,50 @@ describe ViewSerializer do
     described_class.new(build_stubbed(:content), options)
   end
 
+  let(:with_preview) { view_serializer(preview: true) }
+  let(:with_body) { view_serializer(body: true) }
+  let(:raw_preview) { view_serializer(raw_preview: true) }
+  let(:raw_body) { view_serializer(raw_body: true) }
   let(:card_actions) { view_serializer(card_actions: true) }
-  let(:full_actions) { view_serializer(full_actions: true) }
-
-  describe 'options' do
-    let(:without) { view_serializer }
-    let(:with_preview) { view_serializer(preview: true) }
-    let(:with_body) { view_serializer(body: true) }
-    let(:with_both) { view_serializer(preview: true, body: true) }
-
-    it 'defaults to without' do
-      view_serializer.send(:render_preview?).should be_false
-      view_serializer.send(:render_body?).should be_false
-    end
-
-    it 'sets preview to true when set' do
-      with_preview.send(:render_preview?).should be_true
-      with_preview.send(:render_body?).should be_false
-    end
-
-    it 'sets body to true when set' do
-      with_body.send(:render_preview?).should be_false
-      with_body.send(:render_body?).should be_true
-    end
-
-    it 'sets both to true when set' do
-      with_both.send(:render_preview?).should be_true
-      with_both.send(:render_body?).should be_true
-    end
-
-    it 'sets card_actions to true when set' do
-      card_actions.send(:card_actions?).should be_true
-    end
-
-    it 'sets full_actions to true when set' do
-      full_actions.send(:full_actions?).should be_true
-    end
-  end
+  let(:fullscreen_actions) { view_serializer(fullscreen_actions: true) }
 
   describe '#attributes' do
     before do
+      with_preview.stub(preview: double('preview'))
+      with_body.stub(body: double('body'))
+      raw_preview.stub(raw_preview: double('raw_preview'))
+      raw_body.stub(raw_body: double('raw_body'))
       card_actions.stub(card_actions: double('card_actions'))
-      full_actions.stub(full_actions: double('full_actions'))
+      fullscreen_actions.stub(fullscreen_actions: double('fullscreen_actions'))
     end
 
-    it 'sets actions when card_actions is set' do
-      card_actions.as_json[:actions].should == card_actions.card_actions
+    it 'renders preview when set' do
+      with_preview.as_json[:preview].should_not be_nil
     end
 
-    it 'sets actions when full_actions is set' do
-      full_actions.as_json[:actions].should == full_actions.full_actions
+    it 'renders body when set' do
+      with_body.as_json[:body].should_not be_nil
+    end
+
+    it 'renders raw_preview when set' do
+      raw_preview.as_json[:raw_preview].should_not be_nil
+    end
+
+    it 'renders raw_body when set' do
+      raw_body.as_json[:raw_body].should_not be_nil
+    end
+
+    it 'renders card_actions when set' do
+      card_actions.as_json[:card_actions].should == card_actions.card_actions
+    end
+
+    it 'renders fullscreen_actions when set' do
+      fullscreen_actions.as_json[:fullscreen_actions].should == fullscreen_actions.fullscreen_actions
     end
   end
 
   describe '#partial_name' do
-    it 'returns the downcased class name of the resource' do
+    it 'returns the underscored class name of the resource' do
       view_serializer.partial_name.should == 'content'
     end
   end

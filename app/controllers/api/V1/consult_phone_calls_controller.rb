@@ -4,16 +4,16 @@ class Api::V1::ConsultPhoneCallsController < Api::V1::ABaseController
   before_filter :load_phone_call!, :only => [:show, :update, :destroy]
 
   def index
-    index_resource(@consult.phone_calls, 'phone_calls')
+    index_resource(@consult.phone_calls, name: 'phone_calls')
   end
 
   def show
-    show_resource(@phone_call, 'phone_call')
+    show_resource(@phone_call, name: 'phone_call')
   end
 
   def create
     strong_params = params.permit(:phone_call => [:origin_phone_number, :destination_phone_number])
-    create_resource(PhoneCall, phone_call_params(strong_params), 'phone_call')
+    create_resource(PhoneCall, phone_call_params(strong_params), name: 'phone_call')
   end
 
   private

@@ -3,15 +3,19 @@ class Api::V1::CardsController < Api::V1::ABaseController
   before_filter :load_card!, only: [:show, :update]
 
   def inbox
-    index_resource @user.cards.inbox.active_model_serializer_instance(preview: true, card_actions: true)
+    index_resource @user.cards.inbox.serializer(preview: true, card_actions: true)
   end
 
   def timeline
-    index_resource @user.cards.timeline.active_model_serializer_instance
+    index_resource @user.cards.timeline.serializer
   end
 
   def show
-    show_resource @card.active_model_serializer_instance(body: true, full_actions: true)
+    show_resource @card.serializer(body: true, fullscreen_actions: true)
+  end
+
+  def create
+    create_resource @user.cards, card_params
   end
 
   def update

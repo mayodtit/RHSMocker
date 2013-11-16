@@ -4,25 +4,25 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   after_filter :log_content_search, only: :index
 
   def index
-    render_success(contents: @contents.active_model_serializer_instance,
+    render_success(contents: @contents.serializer,
                    page: page,
                    per: per,
                    total_count: @total_count)
   end
 
   def show
-    show_resource @content.active_model_serializer_instance(body: true,
-                                                            full_actions: true,
-                                                            preview: params[:preview] || false,
-                                                            raw_body: params[:raw_body] || false,
-                                                            raw_preview: params[:raw_preview] || false)
+    show_resource @content.serializer(body: true,
+                                      fullscreen_actions: true,
+                                      preview: params[:preview] || false,
+                                      raw_body: params[:raw_body] || false,
+                                      raw_preview: params[:raw_preview] || false)
   end
 
   def status
     @user = current_user
     @content = Content.find(params[:id])
     @card = @user.cards.for_resource(@content) || @user.cards.build(:resource => @content)
-    update_resource @card, params[:card], :card
+    update_resource @card, params[:card], name: :card
   end
 
   def like
@@ -47,7 +47,9 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   end
 
   def load_from_sql!
-    @contents = Content.order('title ASC').page(page).per(per)
+    @contents = Content.order('title ASC')
+    @contents = @contents.where(:type => params[:type]) if params[:type]
+    @contents = @contents.page(page).per(per)
     @total_count = @contents.total_count
   end
 
@@ -56,6 +58,7 @@ class Api::V1::ContentsController < Api::V1::ABaseController
     solr_query = Content.search do
       fulltext query
       paginate page: page, per_page: per
+      with :type, params[:type] if params[:type]
     end
     @total_count = solr_query.total
     @contents = solr_query.results
