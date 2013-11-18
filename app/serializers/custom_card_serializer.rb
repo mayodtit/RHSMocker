@@ -1,7 +1,8 @@
 class CustomCardSerializer < ViewSerializer
   self.root = false
 
-  attributes :id, :title
+  attributes :id, :title, :content_id
+  has_one :content
 
   def preview
     controller.render_to_string(template: 'api/v1/cards/preview',
