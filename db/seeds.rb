@@ -1235,7 +1235,7 @@ headache_symptom_child  = Symptom.upsert_attributes({:name=>"Headache", :patient
    })
 
 
-joint_muscle_pain_symptom_child = Symptom.upsert_attributes({:name=>"Joint or Muscle Pain", :patient_type=>"child"},
+joint_muscle_pain_symptom_child = Symptom.upsert_attributes({:name=>"Joint Pain or Muscle Pain", :patient_type=>"child"},
   {:description=>"Joint pain and muscle pain is fairly common and often due to active lifestyles. Identify other possible causes based on your child's symptoms.",
    :selfcare=>"You may temporarily lessen pain with an over-the-counter children's pain reliever, such as ibuprofen (Advil, Motrin, others) or acetaminophen (Tylenol, others) — but not aspirin. Use only as directed on the label, and do not give your child combinations of pain relievers. If your child is experiencing pain from a sprain or fall, you may provide some relief with the following self-care strategies:"
    })
