@@ -1290,7 +1290,7 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Help your child avoid unpleasant food odors, dairy products, fatty or heavily seasoned foods, and caffeine", 
                                           :symptom_selfcare_id=>nausea_or_vomiting_symptom_child_selfcare.id)
 
-skin_rash_symptom_child = Symptom.upsert_attributes({:name=>"Skin Rash", :patient_type=>"child"},
+skin_rash_symptom_child = Symptom.upsert_attributes({:name=>"Skin Rashes", :patient_type=>"child"},
   {:description=>"Nausea or vomiting in children is a common problem. Identify possible causes based on the symptoms your child is experiencing."
   })
 skin_rash_symptom_child_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Call your child's doctor before treating a rash or skin irritation of unknown origin. If you know that a rash is caused by an insect bite or exposure to an irritating plant, such as poison ivy, use these self-care tips: ",
