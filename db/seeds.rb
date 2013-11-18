@@ -1015,7 +1015,7 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Try an oral decongestant", 
                                           :symptom_selfcare_id=>nasal_congestion_selfcare.id)
 
-nausea_or_vomiting_symptom  = Symptom.upsert_attributes({:name=>"Nausea of Vomiting", :patient_type=>"adult"},
+nausea_or_vomiting_symptom  = Symptom.upsert_attributes({:name=>"Nausea or Vomiting", :patient_type=>"adult"},
   {:description=>"Nausea or vomiting is most often caused by the stomach flu. Identify other possible common causes based on symptoms you're experiencing.",
    :selfcare=>"If you're experiencing nausea or vomiting:"
    })
