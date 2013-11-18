@@ -833,7 +833,7 @@ SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advic
 SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Stumbling or difficulty walking",
                                                           :symptom_medical_advice_id=>dizziness_medadvice.id)
 
-eye_discomfort_symptom    = Symptom.upsert_attributes({:name=>"Eye Discomfort", :patient_type=>"adult"},
+eye_discomfort_symptom    = Symptom.upsert_attributes({:name=>"Eye Discomfort and Redness", :patient_type=>"adult"},
   {:description=>"Eye discomfort and redness can be concerning and disrupt your ability to do everyday activities. Identify possible common causes based on symptoms you're experiencing."})
 ## No Selfcare
 eye_discomfort_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Get emergency care if you have eye discomfort and redness accompanied by:",
@@ -1052,7 +1052,7 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers", 
                                           :symptom_selfcare_id=>neck_pain_selfcare.id)
 
-numbness_in_hands_symptom   = Symptom.upsert_attributes({:name=>"Numbness in Hands", :patient_type=>"adult"},
+numbness_in_hands_symptom   = Symptom.upsert_attributes({:name=>"Numbness or Tingling in Hands", :patient_type=>"adult"},
   {:description=>"Numbness or tingling in hands is often triggered by injury or repetitive use. Identify possible common causes based on symptoms you're experiencing."})
 ## NO SELF CARE
 
