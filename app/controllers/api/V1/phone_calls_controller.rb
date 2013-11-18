@@ -16,7 +16,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
 
   def show
     authorize! :read, @phone_call
-    show_resource @phone_call.as_json(include: :user)
+    show_resource @phone_call.as_json(include: [:user, consult: {include: [:subject, :initiator]}])
   end
 
   def update
