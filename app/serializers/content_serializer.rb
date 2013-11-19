@@ -32,7 +32,7 @@ class ContentSerializer < ViewSerializer
   end
 
   def raw_preview
-    object.raw_body.split(' ').slice(0, 101).join(' ').gsub(/\ADefinition<p>/, "")
+    object.raw_preview.present? ? object.raw_preview : raw_body.split(' ').slice(0, 101).join(' ').gsub(/\ADefinition<p>/, "")
   end
 
   def share_url

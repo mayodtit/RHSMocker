@@ -13,7 +13,7 @@ class Content < ActiveRecord::Base
 
   attr_accessible :title, :raw_body, :content_type, :abstract, :question, :keywords,
                   :content_updated_at, :document_id, :show_call_option,
-                  :show_checker_option, :show_mayo_copyright, :type
+                  :show_checker_option, :show_mayo_copyright, :type, :raw_preview
 
   validates :title, :raw_body, :content_type, :document_id, presence: true
   validates :show_call_option, :show_checker_option, :show_mayo_copyright, inclusion: {:in => [true, false]}

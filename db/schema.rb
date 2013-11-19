@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131119061746) do
+ActiveRecord::Schema.define(:version => 20131119195820) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -143,6 +143,7 @@ ActiveRecord::Schema.define(:version => 20131119061746) do
     t.boolean  "show_checker_option", :default => true, :null => false
     t.boolean  "show_mayo_copyright", :default => true, :null => false
     t.string   "type"
+    t.text     "raw_preview"
   end
 
   add_index "contents", ["document_id"], :name => "index_contents_on_document_id"
