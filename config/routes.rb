@@ -6,6 +6,7 @@ RHSMocker::Application.routes.draw do
       resources :allergies, :only => :index
       resources :association_types, :only => :index
       resources :contents, :only => [:index, :show] do
+        resources :references, only: [:index, :create, :destroy], controller: 'content_references'
         post :status, :on => :member
         post :like
         post :dislike
