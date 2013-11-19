@@ -855,7 +855,7 @@ SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advic
 SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Sudden, severe headache",
                                                           :symptom_medical_advice_id=>eye_discomfort_medadvice.id)
 
-foot_ankle_pain_symptom   = Symptom.upsert_attributes({:name=>"Foot/Ankle Pain", :patient_type=>"adult"},
+foot_ankle_pain_symptom   = Symptom.upsert_attributes({:name=>"Foot Pain or Ankle Pain", :patient_type=>"adult"},
   {:description=>"Foot pain or ankle pain can be distressing and limit your ability to get around. Identify possible common causes based on symptoms you’re experiencing.",
    :selfcare=>"If you've injured your foot or ankle, follow these guidelines, often called the P.R.I.C.E. treatment:"
    })
