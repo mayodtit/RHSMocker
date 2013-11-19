@@ -18,4 +18,14 @@ FactoryGirl.define do
     show_checker_option true
     show_mayo_copyright true
   end
+
+  factory :custom_content, class: CustomContent do
+    sequence(:title) {|x| "CustomContent #{x}"}
+    body "HTML body"
+    content_type "Content"
+    sequence(:document_id) {|x| "CUSTOM-#{x}"}
+    show_call_option true
+    show_checker_option false
+    show_mayo_copyright false
+  end
 end
