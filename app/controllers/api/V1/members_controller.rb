@@ -11,6 +11,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
   private
 
   def load_members!
+    authorize! :index, Member
     @users = Member
     @users = @users.name_search(params[:q]) if params[:q]
     @users = @users.page(page).per(per)

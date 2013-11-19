@@ -1,5 +1,5 @@
 class Api::V1::ProgramsController < Api::V1::ABaseController
-  before_filter :load_user!
+  before_filter :authorize_user!
   before_filter :load_program!, only: [:show, :update]
 
   def index
@@ -20,9 +20,12 @@ class Api::V1::ProgramsController < Api::V1::ABaseController
 
   private
 
+  def authorize_user!
+    authorize! :manage, Program
+  end
+
   def load_program!
     @program = Program.find params[:id]
-    authorize! :manage, @program
   end
 
   def program_params

@@ -16,9 +16,9 @@ describe Api::V1::MembersController do
       get :index, {auth_token: user.auth_token}.merge!(params)
     end
 
-    it_behaves_like 'action requiring authentication'
+    it_behaves_like 'action requiring authentication and authorization'
 
-    context 'authenticated', user: :authenticate! do
+    context 'authenticated and authorized', user: :authenticate_and_authorize! do
       it_behaves_like 'success'
 
       it 'returns an array of members as users' do

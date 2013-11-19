@@ -1,4 +1,5 @@
 class Api::V1::CustomCardsController < Api::V1::ABaseController
+  before_filter :authorize_user!
   before_filter :load_custom_card!, only: [:show, :update]
 
   def index
@@ -19,11 +20,15 @@ class Api::V1::CustomCardsController < Api::V1::ABaseController
 
   private
 
+  def authorize_user!
+    authorize! :manage, CustomCard
+  end
+
   def load_custom_card!
     @custom_card = CustomCard.find params[:id]
   end
 
   def custom_card_params
-    params.require(:custom_card).permit(:title, :raw_preview)
+    params.require(:custom_card).permit(:title, :raw_preview, :content_id)
   end
 end

@@ -833,7 +833,7 @@ SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advic
 SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Stumbling or difficulty walking",
                                                           :symptom_medical_advice_id=>dizziness_medadvice.id)
 
-eye_discomfort_symptom    = Symptom.upsert_attributes({:name=>"Eye Discomfort", :patient_type=>"adult"},
+eye_discomfort_symptom    = Symptom.upsert_attributes({:name=>"Eye Discomfort and Redness", :patient_type=>"adult"},
   {:description=>"Eye discomfort and redness can be concerning and disrupt your ability to do everyday activities. Identify possible common causes based on symptoms you're experiencing."})
 ## No Selfcare
 eye_discomfort_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Get emergency care if you have eye discomfort and redness accompanied by:",
@@ -855,7 +855,7 @@ SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advic
 SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Sudden, severe headache",
                                                           :symptom_medical_advice_id=>eye_discomfort_medadvice.id)
 
-foot_ankle_pain_symptom   = Symptom.upsert_attributes({:name=>"Foot/Ankle Pain", :patient_type=>"adult"},
+foot_ankle_pain_symptom   = Symptom.upsert_attributes({:name=>"Foot Pain or Ankle Pain", :patient_type=>"adult"},
   {:description=>"Foot pain or ankle pain can be distressing and limit your ability to get around. Identify possible common causes based on symptoms you’re experiencing.",
    :selfcare=>"If you've injured your foot or ankle, follow these guidelines, often called the P.R.I.C.E. treatment:"
    })
@@ -896,7 +896,7 @@ SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advic
 SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You have ankle swelling, stiffness and pain that's worse in the morning or after you've been active",
                                                           :symptom_medical_advice_id=>foot_ankle_office_medadvice.id)
 
-foot_leg_swelling_symptom   = Symptom.upsert_attributes({:name=>"Foot/Leg Swelling", :patient_type=>"adult"},
+foot_leg_swelling_symptom   = Symptom.upsert_attributes({:name=>"Foot Swelling or Leg Swelling", :patient_type=>"adult"},
   {:description=>"Foot or leg swelling occurs because of inflammation or the accumulation of fluid in tissues. Identify possible common causes based on symptoms you're experiencing.",
    :selfcare=>"If you experience leg or foot swelling not related to an injury or joint pain, you may try the following self-care strategies to lessen symptoms:"
    })
@@ -913,7 +913,7 @@ SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advic
 SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You are pregnant and have new foot swelling",
                                                           :symptom_medical_advice_id=>foot_leg_swelling_medadvice.id)
 
-headache_symptom      = Symptom.upsert_attributes({:name=>"Headache", :patient_type=>"adult"},
+headache_symptom      = Symptom.upsert_attributes({:name=>"Headaches", :patient_type=>"adult"},
   {:description=>"Headaches are common and usually aren't the result of serious illness. Identify possible common causes based on symptoms you're experiencing.",
    :selfcare=>"For occasional tension headaches, the following self-care strategies may provide relief:"
    })
@@ -1015,7 +1015,7 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Try an oral decongestant", 
                                           :symptom_selfcare_id=>nasal_congestion_selfcare.id)
 
-nausea_or_vomiting_symptom  = Symptom.upsert_attributes({:name=>"Nausea of Vomiting", :patient_type=>"adult"},
+nausea_or_vomiting_symptom  = Symptom.upsert_attributes({:name=>"Nausea or Vomiting", :patient_type=>"adult"},
   {:description=>"Nausea or vomiting is most often caused by the stomach flu. Identify other possible common causes based on symptoms you're experiencing.",
    :selfcare=>"If you're experiencing nausea or vomiting:"
    })
@@ -1052,7 +1052,7 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers", 
                                           :symptom_selfcare_id=>neck_pain_selfcare.id)
 
-numbness_in_hands_symptom   = Symptom.upsert_attributes({:name=>"Numbness in Hands", :patient_type=>"adult"},
+numbness_in_hands_symptom   = Symptom.upsert_attributes({:name=>"Numbness or Tingling in Hands", :patient_type=>"adult"},
   {:description=>"Numbness or tingling in hands is often triggered by injury or repetitive use. Identify possible common causes based on symptoms you're experiencing."})
 ## NO SELF CARE
 
@@ -1229,13 +1229,13 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Give your child a lukewarm bath", 
                                           :symptom_selfcare_id=>fever_symptom_child_selfcare.id)
 
-headache_symptom_child  = Symptom.upsert_attributes({:name=>"Headache", :patient_type=>"child"},
+headache_symptom_child  = Symptom.upsert_attributes({:name=>"Headaches", :patient_type=>"child"},
   {:description=>"Headaches are common and usually aren't the result of serious illness. Identify possible common causes based on your child's symptoms.",
    :selfcare=>"For occasional tension headaches, the following self-care strategies may provide relief for your child:"
    })
 
 
-joint_muscle_pain_symptom_child = Symptom.upsert_attributes({:name=>"Joint or Muscle Pain", :patient_type=>"child"},
+joint_muscle_pain_symptom_child = Symptom.upsert_attributes({:name=>"Joint Pain or Muscle Pain", :patient_type=>"child"},
   {:description=>"Joint pain and muscle pain is fairly common and often due to active lifestyles. Identify other possible causes based on your child's symptoms.",
    :selfcare=>"You may temporarily lessen pain with an over-the-counter children's pain reliever, such as ibuprofen (Advil, Motrin, others) or acetaminophen (Tylenol, others) — but not aspirin. Use only as directed on the label, and do not give your child combinations of pain relievers. If your child is experiencing pain from a sprain or fall, you may provide some relief with the following self-care strategies:"
    })
@@ -1273,7 +1273,7 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a nasal saline spray", 
                                           :symptom_selfcare_id=>nasal_congestion_symptom_child_selfcare.id)
 
-nausea_or_vomiting_symptom_child = Symptom.upsert_attributes({:name=>"Nausea of Vomiting", :patient_type=>"child"},
+nausea_or_vomiting_symptom_child = Symptom.upsert_attributes({:name=>"Nausea or Vomiting", :patient_type=>"child"},
   {:description=>"Nausea or vomiting is most often caused by the stomach flu. Identify other possible common causes based on symptoms you're experiencing.",
    :selfcare=>"The following strategies can lessen discomfort and prevent dehydration if your child experiences nausea or vomiting:"
    })
@@ -1290,7 +1290,7 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Help your child avoid unpleasant food odors, dairy products, fatty or heavily seasoned foods, and caffeine", 
                                           :symptom_selfcare_id=>nausea_or_vomiting_symptom_child_selfcare.id)
 
-skin_rash_symptom_child = Symptom.upsert_attributes({:name=>"Skin Rash", :patient_type=>"child"},
+skin_rash_symptom_child = Symptom.upsert_attributes({:name=>"Skin Rashes", :patient_type=>"child"},
   {:description=>"Nausea or vomiting in children is a common problem. Identify possible causes based on the symptoms your child is experiencing."
   })
 skin_rash_symptom_child_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Call your child's doctor before treating a rash or skin irritation of unknown origin. If you know that a rash is caused by an insect bite or exposure to an irritating plant, such as poison ivy, use these self-care tips: ",
@@ -2313,7 +2313,7 @@ diarrhea_antibiotic_use_problem_is_SF = SymptomsFactor.find_or_create_by_doctor_
   :factor_id=>preceded_by_recent_antibiotic_use_factor.id,
   :factor_group_id=>problem_is_factor_group.id
 )
-diarrhea_antibiotic_use_problem_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_recent_day_week_problem_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
@@ -2334,7 +2334,7 @@ diarrhea_eating_certain_foods_triggered_by_SF = SymptomsFactor.find_or_create_by
   :factor_id=>eating_certain_foods_factor.id,
   :factor_group_id=>triggered_by_factor_group.id
 )
-diarrhea_avoiding_certain_foods_relieved_by__SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_avoiding_certain_foods_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
@@ -2348,7 +2348,7 @@ diarrhea_abdominal_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doc
   :factor_id=>abdominal_pain_or_cramping_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-diarrhea_abdominal_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+diarrhea_bloating_abdominal_swelling_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>diarrhea_symptom.id,
@@ -2390,6 +2390,13 @@ diarrhea_muscle_or_joint_aches_accompanied_by_SF = SymptomsFactor.find_or_create
   :factor_id=>muscle_or_joint_aches_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
+diarrhea_nausea_or_vomit_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>diarrhea_symptom.id,
+  :factor_id=>nausea_or_vomiting_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
 diarrhea_passing_gas_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
@@ -2414,7 +2421,7 @@ diarrhea_urgency_to_have_bowel_movement_accompanied_by_SF = SymptomsFactor.find_
 
 ## Diff Swallowing - ADULT
 ## #############################
-difficulty_swallowing_swallowing_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+difficulty_swallowing_swallowing_hurts_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>difficulty_swallowing_symptom.id,
@@ -2597,7 +2604,7 @@ difficulty_swallowing_unintended_weight_loss_accompanied_by_SF =SymptomsFactor.f
   :factor_group_id=>accompanied_by_factor_group.id
 )
 
-## Dizzyness Swallowing - ADULT
+## Dizzyness - ADULT
 ## #############################
 dizzyness_spinning_sensation_you_feel_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
@@ -2716,6 +2723,13 @@ dizzyness_irregular_heartbeat_accompanied_by_SF=SymptomsFactor.find_or_create_by
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
   :factor_id=>irregular_heartbeat_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+dizzyness_nausea_vomit_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>dizziness_symptom.id,
+  :factor_id=>nausea_or_vomiting_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
 dizzyness_numbness_or_weakness_one_side_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
@@ -2938,7 +2952,7 @@ eye_discomfort_dry_mouth_accompanied_by_SF =SymptomsFactor.find_or_create_by_doc
   :factor_id=>dry_mouth_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-eye_discomfort_dry_mouth_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+eye_discomfort_headache_accompanied_by_SF =SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>eye_discomfort_symptom.id,
@@ -6064,6 +6078,1324 @@ ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :content_id=>Content.where(:document_id=>'DS00135').first.id
 )
 
+#Diarrhea - DS00454
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_antibiotic_use_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00454').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_recent_day_week_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00454').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_abdominal_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00454').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_bloody_stools_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00454').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_fever_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00454').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_mucus_in_stool_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00454').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_nausea_or_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00454').first.id
+)
+#Diarrhea - DS00319
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_ongoing_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00319').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_eating_certain_foods_triggered_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00319').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_avoiding_certain_foods_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00319').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_abdominal_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00319').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_bloating_abdominal_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00319').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_muscle_or_joint_aches_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00319').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_unintended_weight_loss_factor_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00319').first.id
+)
+#Diarrhea - DS00104
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_ongoing_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00104').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_abdominal_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00104').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_bloody_stools_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00104').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_fever_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00104').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_muscle_or_joint_aches_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00104').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_nausea_or_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00104').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_unintended_weight_loss_factor_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00104').first.id
+)
+#Diarrhea - DS00981
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_eating_suspect_food_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00981').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_sudden_hours_days_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00981').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_abdominal_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00981').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_fever_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00981').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_nausea_or_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00981').first.id
+)
+#Diarrhea - DS00823
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_recent_day_week_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00823').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_sudden_hours_days_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00823').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_abdominal_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00823').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_bloating_abdominal_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00823').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_constipation_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00823').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_fever_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00823').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_nausea_or_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00823').first.id
+)
+#Diarrhea - DS00106
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_ongoing_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00106').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_eating_certain_foods_triggered_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00106').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_abdominal_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00106').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_constipation_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00106').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_mucus_in_stool_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00106').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_passing_gas_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00106').first.id
+)
+#Diarrhea - DS00794
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_recent_day_week_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00794').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_sudden_hours_days_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00794').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_abdominal_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00794').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_bloody_stools_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00794').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_fever_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00794').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_nausea_or_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00794').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_urgency_to_have_bowel_movement_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00794').first.id
+)
+#Diarrhea - DS00530
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_ongoing_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00530').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_eating_certain_foods_triggered_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00530').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_avoiding_certain_foods_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00530').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_abdominal_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00530').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_bloating_abdominal_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00530').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_nausea_or_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00530').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_passing_gas_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00530').first.id
+)
+#Diarrhea - DS00767
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_ongoing_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00767').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_antibiotic_use_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00767').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_abdominal_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00767').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_fever_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00767').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_mucus_in_stool_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00767').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_nausea_or_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00767').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_urgency_to_have_bowel_movement_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00767').first.id
+)
+#Diarrhea - DS00318
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_eating_suspect_food_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00318').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_recent_day_week_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00318').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_abdominal_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00318').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_bloating_abdominal_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00318').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_fever_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00318').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_nausea_or_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00318').first.id
+)
+#Diarrhea - DS00598
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_ongoing_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00598').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_abdominal_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00598').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_bloody_stools_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00598').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_fever_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00598').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_muscle_or_joint_aches_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00598').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_unintended_weight_loss_factor_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00598').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_urgency_to_have_bowel_movement_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00598').first.id
+)
+#Diarrhea - DS00085
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_recent_day_week_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00085').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_sudden_hours_days_problem_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00085').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_abdominal_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00085').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_fever_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00085').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_muscle_or_joint_aches_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00085').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>diarrhea_nausea_or_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00085').first.id
+)
+#Diff Swallow - DS00395
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_takes_effort_swallowing_SF.id,
+:content_id=>Content.where(:document_id=>'DS00359').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_muscle_cramps_or_twitching_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00359').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_muscle_weakness_hands_legs_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00359').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_slurred_speech_difficulty_speaking_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00359').first.id
+)
+#Diff Swallow - HA00034
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_takes_effort_swallowing_SF.id,
+:content_id=>Content.where(:document_id=>'HA00034').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_bad_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'HA00034').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_dry_mouth_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'HA00034').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_hoarse_voice_or_difficulty_speaking_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'HA00034').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_sore_throat_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'HA00034').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_thick_saliva_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'HA00034').first.id
+)
+#Diff Swallow - DS00500
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_swallowing_hurts_SF.id,
+:content_id=>Content.where(:document_id=>'DS00500').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_takes_effort_swallowing_SF.id,
+:content_id=>Content.where(:document_id=>'DS00500').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_cough_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00500').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_hoarse_voice_or_difficulty_speaking_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00500').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_pain_in_chest_neck_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00500').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_regurgitation_food_liquid_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00500').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_unintended_weight_loss_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00500').first.id
+)
+#Diff Swallow - DS00763
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_takes_effort_swallowing_SF.id,
+:content_id=>Content.where(:document_id=>'DS00763').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_feeling_somthing_stuck_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00763').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_heartburn_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00763').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_pain_in_chest_neck_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00763').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_regurgitation_food_liquid_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00763').first.id
+)
+#Diff Swallow - DS00967
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_takes_effort_swallowing_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_eating_certain_foods_triggered_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_cough_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_feeling_somthing_stuck_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_heartburn_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_hoarse_voice_or_difficulty_speaking_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_pain_in_chest_neck_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_regurgitation_food_liquid_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_sore_throat_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00967').first.id
+)
+#Diff Swallow - DS00580
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_takes_effort_swallowing_SF.id,
+:content_id=>Content.where(:document_id=>'DS00580').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_heartburn_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00580').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_numbness_pain_color_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00580').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_tight_hardened_skin_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00580').first.id
+)
+#Diff Swallow - DS01089
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_swallowing_hurts_SF.id,
+:content_id=>Content.where(:document_id=>'DS01089').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_takes_effort_swallowing_SF.id,
+:content_id=>Content.where(:document_id=>'DS01089').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_feeling_somthing_stuck_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS01089').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_jaw_pain_or_stiffness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS01089').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_loose_teeth_or_poorly_fitting_dentures_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS01089').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_mouth_sores_lumps_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS01089').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_sore_throat_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS01089').first.id
+)
+#Diff Swallow - DS00147
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_takes_effort_swallowing_SF.id,
+:content_id=>Content.where(:document_id=>'DS00147').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_cough_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00147').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_dry_eyes_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00147').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_dry_mouth_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00147').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_hoarse_voice_or_difficulty_speaking_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00147').first.id
+)
+#Diff Swallow - DS00349
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_takes_effort_swallowing_SF.id,
+:content_id=>Content.where(:document_id=>'DS00349').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_bad_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00349').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_cough_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00349').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_difficulty_breathing_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00349').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_earache_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00349').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_feeling_somthing_stuck_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00349').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_lump_in_front_of_neck_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00349').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_sore_throat_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00349').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>difficulty_swallowing_unintended_weight_loss_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00349').first.id
+)
+#Dizziness - DS00803
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_unsteady_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00803').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_recurrent_or_ongoing_symptoms_are_SF.id,
+:content_id=>Content.where(:document_id=>'DS00803').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_worsening_or_progressing_symptoms_are_SF.id,
+:content_id=>Content.where(:document_id=>'DS00803').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_buzzing_or_ringing_in_ear_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00803').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_facial_numbness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00803').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_hearing_loss_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00803').first.id
+)
+#Dizziness - DS00534
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_spinning_sensation_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00534').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_lightneadedned_or_faint_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00534').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_unsteady_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00534').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_recurrent_or_ongoing_symptoms_are_SF.id,
+:content_id=>Content.where(:document_id=>'DS00534').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_change_in_head_or_body_position_triggered_or_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00534').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_blurred_or_double_vision_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00534').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_nausea_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00534').first.id
+)
+#Dizziness - DS00648
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_lightneadedned_or_faint_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00648').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_new_or_began_suddenly_symptoms_are_SF.id,
+:content_id=>Content.where(:document_id=>'DS00648').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_chest_pain_or_pressure_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00648').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_confusion_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00648').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_nausea_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00648').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_severe_headache_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00648').first.id
+)
+#Dizziness - DS00303
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_spinning_sensation_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00303').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_new_or_began_suddenly_symptoms_are_SF.id,
+:content_id=>Content.where(:document_id=>'DS00303').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_ear_pain_or_pressure_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00303').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_fever_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00303').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_hearing_loss_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00303').first.id
+)
+#Dizziness - DS00290
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_lightneadedned_or_faint_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_new_or_began_suddenly_symptoms_are_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_recurrent_or_ongoing_symptoms_are_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_chest_pain_or_pressure_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_irregular_heartbeat_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_shortness_of_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+#Dizziness - DS00094
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_lightneadedned_or_faint_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_new_or_began_suddenly_symptoms_are_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_anxiety_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_chest_pain_or_pressure_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_irregular_heartbeat_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_nausea_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_pain_in_chest_neck_shoulder_arm_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_shortness_of_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_sweating_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00094').first.id
+)
+#Dizziness - DS00535
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_spinning_sensation_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00535').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_unsteady_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00535').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_recurrent_or_ongoing_symptoms_are_SF.id,
+:content_id=>Content.where(:document_id=>'DS00535').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_buzzing_or_ringing_in_ear_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00535').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_ear_pain_or_pressure_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00535').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_hearing_loss_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00535').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_nausea_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00535').first.id
+)
+#Dizziness - DS00120
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_spinning_sensation_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_recurrent_or_ongoing_symptoms_are_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_nausea_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_severe_headache_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+#Dizziness - DS00997
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_lightneadedned_or_faint_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00997').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_change_in_head_or_body_position_triggered_or_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00997').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_blurred_or_double_vision_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00997').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_nausea_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00997').first.id
+)
+#Dizziness - DS00338
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_lightneadedned_or_faint_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_recurrent_or_ongoing_symptoms_are_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_anxiety_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_chest_pain_or_pressure_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_irregular_heartbeat_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_nausea_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_severe_headache_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_shortness_of_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_sweating_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+#Dizziness - DS00150
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_spinning_sensation_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00150').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_lightneadedned_or_faint_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00150').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_unsteady_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00150').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_new_or_began_suddenly_symptoms_are_SF.id,
+:content_id=>Content.where(:document_id=>'DS00150').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_blurred_or_double_vision_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00150').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_confusion_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00150').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_numbness_or_weakness_one_side_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00150').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_severe_headache_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00150').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_slurred_speech_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00150').first.id
+)
+#Dizziness - DS00220
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_spinning_sensation_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00220').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_lightneadedned_or_faint_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00220').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_unsteady_you_feel_SF.id,
+:content_id=>Content.where(:document_id=>'DS00220').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_new_or_began_suddenly_symptoms_are_SF.id,
+:content_id=>Content.where(:document_id=>'DS00220').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_blurred_or_double_vision_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00220').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_confusion_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00220').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_numbness_or_weakness_one_side_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00220').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>dizzyness_slurred_speech_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00220').first.id
+)
+#EyeRedness - DS00633
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_gritty_sensation_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00633').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_sensitivity_to_light_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00633').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_stinging_or_burning_sensation_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00633').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_crusted_eyelashes_after_sleeping_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00633').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_excessive_tearing_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00633').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_stringy_mucus_in_around_eye_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00633').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_swelling_around_eye_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00633').first.id
+)
+#EyeRedness - DS00487
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_sensitivity_to_light_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_severe_pain_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_excessive_tearing_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_redness_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_swelling_around_eye_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_headache_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_nausea_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_runny_or_stuff_nose_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+#EyeRedness - DS00056
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_excessive_tearing_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00056').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_redness_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00056').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_headache_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00056').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_runny_or_stuff_nose_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00056').first.id
+)
+#EyeRedness - FA00037
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_gritty_sensation_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'FA00037').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_severe_pain_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'FA00037').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_stinging_or_burning_sensation_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'FA00037').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_excessive_tearing_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'FA00037').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_redness_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'FA00037').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_blurred_vision_problem_includes_SF.id,
+:content_id=>Content.where(:document_id=>'FA00037').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_injury_trauma_triggered_by_SF.id,
+:content_id=>Content.where(:document_id=>'FA00037').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_eye_movement_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'FA00037').first.id
+)
+#EyeRedness - DS00463
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_dry_itchy_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00463').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_gritty_sensation_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00463').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_sensitivity_to_light_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00463').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_stinging_or_burning_sensation_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00463').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_excessive_tearing_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00463').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_stringy_mucus_in_around_eye_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00463').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_blurred_vision_problem_includes_SF.id,
+:content_id=>Content.where(:document_id=>'DS00463').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_dry_warm_air_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00463').first.id
+)
+#EyeRedness - DS00283
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_severe_pain_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00283').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_blurred_vision_problem_includes_SF.id,
+:content_id=>Content.where(:document_id=>'DS00283').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_halos_around_lights_problem_includes_SF.id,
+:content_id=>Content.where(:document_id=>'DS00283').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_eye_movement_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00283').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_headache_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00283').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_nausea_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00283').first.id
+)
+#EyeRedness - DS00174
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_dry_itchy_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00174').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_excessive_tearing_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00174').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_swelling_around_eye_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00174').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_allergens_or_irritants_triggered_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00174').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_runny_or_stuff_nose_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00174').first.id
+)
+#EyeRedness - DS01128
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_ache_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS01128').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_sensitivity_to_light_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS01128').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_blurred_vision_problem_includes_SF.id,
+:content_id=>Content.where(:document_id=>'DS01128').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_dark_floating_spots_in_vision_problem_includes_SF.id,
+:content_id=>Content.where(:document_id=>'DS01128').first.id
+)
+#EyeRedness - DS01190
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_dry_itchy_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS01190').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_stinging_or_burning_sensation_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS01190').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_excessive_tearing_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS01190').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_redness_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS01190').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_swelling_around_eye_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS01190').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_blurred_vision_problem_includes_SF.id,
+:content_id=>Content.where(:document_id=>'DS01190').first.id
+)
+#EyeRedness - DS00908
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_sensitivity_to_light_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00908').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_shimmering_or_flash_of_light_problem_includes_SF.id,
+:content_id=>Content.where(:document_id=>'DS00908').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_vision_loss_problem_includes_SF.id,
+:content_id=>Content.where(:document_id=>'DS00908').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_headache_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00908').first.id
+)
+#EyeRedness - DS00882
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_ache_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00882').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_severe_pain_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00882').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_loss_of_color_vision_problem_includes_SF.id,
+:content_id=>Content.where(:document_id=>'DS00882').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_vision_loss_problem_includes_SF.id,
+:content_id=>Content.where(:document_id=>'DS00882').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_eye_movement_worsened_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00882').first.id
+)
+#EyeRedness - DS00258
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_ache_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00258').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_dry_itchy_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00258').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_gritty_sensation_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00258').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_crusted_eyelashes_after_sleeping_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00258').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_excessive_tearing_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00258').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_redness_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00258').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_stringy_mucus_in_around_eye_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00258').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_swelling_around_eye_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00258').first.id
+)
+#EyeRedness - DS00147
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_dry_itchy_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00147').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_gritty_sensation_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00147').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_stinging_or_burning_sensation_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00147').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_dry_mouth_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00147').first.id
+)
+#EyeRedness - DS00257
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_gritty_sensation_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00257').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_sensitivity_to_light_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00257').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_excessive_tearing_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00257').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_red_painful_lump_on_eyelid_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00257').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_swelling_around_eye_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00257').first.id
+)
+#EyeRedness - DS00867
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_redness_without_discomfort_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00867').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_bleeding_on_surface_eye_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00867').first.id
+)
+#EyeRedness - DS00677
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_ache_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00677').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_sensitivity_to_light_described_as_SF.id,
+:content_id=>Content.where(:document_id=>'DS00677').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_swelling_around_eye_appearance_eye_SF.id,
+:content_id=>Content.where(:document_id=>'DS00677').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_blurred_vision_problem_includes_SF.id,
+:content_id=>Content.where(:document_id=>'DS00677').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_dark_floating_spots_in_vision_problem_includes_SF.id,
+:content_id=>Content.where(:document_id=>'DS00677').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>eye_discomfort_vision_loss_problem_includes_SF.id,
+:content_id=>Content.where(:document_id=>'DS00677').first.id
+)
 ########################################################################
 #
 # DO NOT PUT ANY CONTENT AT BOTTOM OF THIS FILE. GO BEFORE SYMPTOMS CHECKER
