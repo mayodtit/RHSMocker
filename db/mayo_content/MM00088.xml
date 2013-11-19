@@ -1,0 +1,76 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00088
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ct-scan/MM00088
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-21
+		</UpdateDate>
+		<PublicationDate>
+			2000-11-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3848" Title="General body">
+						<Keyword MCVID="3077" Title="CT scan" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F72C0F82-09B5-4BA3-B20B45255D490B1A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		CT scan
+	</Title>
+	<Abstract>
+		Computerized tomography (CT) is a safe, painless way to obtain detailed images of the brain.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00088_computedtomography_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+Computerized tomography, or CT, is a safe, painless way to obtain detailed images of the brain. The images you see here are views of the head at different levels. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00088_computedtomagraphy.jpg" width="60" />
+</Video>

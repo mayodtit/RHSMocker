@@ -9,6 +9,7 @@ class Association < ActiveRecord::Base
 
   validates :user, :associate, :association_type, presence: true
   validate :user_is_not_associate
+  validates :associate_id, uniqueness: {scope: [:user_id, :association_type_id]}
 
   def self.hcp
     joins(:association_type).where(:association_types => {:relationship_type => 'hcp'})

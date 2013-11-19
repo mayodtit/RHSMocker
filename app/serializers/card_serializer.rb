@@ -1,44 +1,47 @@
-class CardSerializer < ActiveModel::Serializer
+class CardSerializer < ViewSerializer
   self.root = false
 
   attributes :id, :user_id, :resource_id, :resource_type, :state, :created_at, :updated_at,
              :priority, :state_changed_at, :title, :content_type, :content_type_display,
-             :share_url
+             :share_url, :actions
 
   def attributes
     super.merge!(state_specific_date)
   end
 
-  def resource
-    object.resource
+  def resource_type
+    if object.resource_type == 'CustomCard'
+      'Content'
+    else
+      object.resource_type
+    end
   end
 
-  def title
-    resource.title
-  end
+  delegate :title, :content_type, :content_type_display, :share_url,
+           :raw_body, :raw_preview, :card_actions, :fullscreen_actions, to: :resource
 
-  def content_type
-    resource.content_type
-  end
-
-  def content_type_display
-    resource.content_type_display
+  def body
+    controller.render_to_string(template: 'api/v1/cards/show',
+                                layout: 'serializable',
+                                formats: :html,
+                                locals: {card: object, resource: resource})
   end
 
   def preview
-    resource.preview
+    controller.render_to_string(template: 'api/v1/cards/preview',
+                                layout: 'serializable',
+                                formats: :html,
+                                locals: {card: object, resource: resource})
   end
 
-  def abstract
-    resource.abstract
+  def actions
+    card_actions
   end
 
-  def body
-    resource.body
-  end
+  private
 
-  def share_url
-    resource.try_method(:root_share_url)
+  def resource
+    @resource ||= object.resource.serializer
   end
 
   def state_specific_date

@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/weight-loss-drugs/WT00013
 		</OriginalURL>
 		<UpdateDate>
-			2012-07-27
+			2013-06-07
 		</UpdateDate>
 		<PublicationDate>
 			2006-02-13
@@ -127,17 +127,17 @@ If you have serious health problems because of your weight and dieting hasn&apos
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-Prescription weight-loss drugs are generally reserved for people who haven&apos;t been able to lose weight through diet and exercise, and who have health problems because of their weight. They&apos;re not for people who want to lose just a few pounds for cosmetic reasons.
+Prescription weight-loss drugs are generally reserved for people who haven&apos;t been able to lose weight through diet and exercise, and who have health problems because of their weight. They&apos;re not for people who want to lose just a few pounds for cosmetic reasons. 
 &lt;/p&gt;
 &lt;p&gt;
-Your doctor may consider weight-loss drugs for you if you have no contraindications and:
+Your doctor may consider weight-loss drugs for you if haven&apos;t been able to lose weight through diet and exercise and you meet one of the following:
 &lt;/p&gt;
 &lt;ul&gt;
 	&lt;li&gt;Your body mass index (BMI) is greater than 30&lt;/li&gt;
 	&lt;li&gt;Your BMI is greater than 27 and you have a serious medical problem related to obesity, such as diabetes or high blood pressure&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-Before selecting a medication for you, your doctor will consider your health history, possible side effects and potential interaction of weight-loss drugs with other medications you&apos;re taking.
+Before selecting a medication for you, your doctor will consider your health history, possible side effects and potential interaction of weight-loss drugs with other medications you&apos;re taking. 
 &lt;/p&gt;
 			</HTML>
 		</Section>
@@ -180,30 +180,40 @@ The chart shows the commonly used prescription weight-loss drugs, how they work 
 		&lt;tr&gt;
 			&lt;th width=&quot;20%&quot;&gt;Drug&lt;/th&gt;&lt;th width=&quot;40%&quot;&gt;Mechanism of action&lt;/th&gt;&lt;th width=&quot;40%&quot;&gt;Possible side effects&lt;/th&gt;
 		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Benzphetamine (Didrex)&lt;/td&gt;
+			&lt;td&gt;Decreases appetite, increases feeling of fullness&lt;/td&gt;
+			&lt;td&gt;Increased blood pressure and heart rate, nervousness, insomnia, dry mouth, constipation&lt;/td&gt;
+		&lt;/tr&gt;
 		&lt;tr class=&quot;bodyrowdg&quot;&gt;
 			&lt;td&gt;Diethylpropion (Tenuate)&lt;/td&gt;
 			&lt;td&gt;Decreases appetite, increases feeling of fullness &lt;/td&gt;
-			&lt;td&gt;Increased blood pressure and heart rate, insomnia, dizziness&lt;/td&gt;
+			&lt;td&gt;Increased blood pressure and heart rate, nervousness, insomnia, dry mouth, constipation&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&quot;bodyrow&quot;&gt;
 			&lt;td&gt;Lorcaserin (Belviq)&lt;/td&gt;
 			&lt;td&gt;Decreases appetite, increases feeling of fullness &lt;/td&gt;
-			&lt;td&gt;Headache, dizziness, fatigue, nausea, dry mouth, constipation &lt;/td&gt;
+			&lt;td&gt;Increased heart rate, headache, dizziness, nausea&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&quot;bodyrowdg&quot;&gt;
-			&lt;td&gt;Phentermine (Adipex)&lt;/td&gt;
-			&lt;td&gt;Decreases appetite, increases feeling of fullness &lt;/td&gt;
-			&lt;td&gt;Increased blood pressure and heart rate, insomnia, dizziness&lt;/td&gt;
+			&lt;td&gt;Phendimetrazine (Bontril)&lt;/td&gt;
+			&lt;td&gt;Decreases appetite, increases feeling of fullness&lt;/td&gt;
+			&lt;td&gt;Increased blood pressure and heart rate, nervousness, insomnia, dry mouth, constipation&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Phentermine (Adipex, Suprenza)&lt;/td&gt;
+			&lt;td&gt;Decreases appetite, increases feeling of fullness &lt;/td&gt;
+			&lt;td&gt;Increased blood pressure and heart rate, nervousness, insomnia,&amp;nbsp;dry mouth, constipation&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
 			&lt;td&gt;Orlistat (Xenical)&lt;/td&gt;
 			&lt;td&gt;Blocks absorption of fat&lt;/td&gt;
 			&lt;td&gt;Intestinal cramps, gas, diarrhea, oily spotting&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
 			&lt;td&gt;Phentermine and extended-release topiramate (Qsymia)&lt;/td&gt;
 			&lt;td&gt;Decreases appetite, increases feeling of fullness&lt;/td&gt;
-			&lt;td&gt;Increased heart rate, birth defects, tingling of hands and feet, insomnia, dizziness, constipation, dry mouth &lt;/td&gt;
+			&lt;td&gt;Increased heart rate, birth defects, tingling of hands and feet, dry mouth, constipation, anxiety&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
@@ -216,22 +226,19 @@ The chart shows the commonly used prescription weight-loss drugs, how they work 
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-Safety has been a concern with some weight-loss medications. For example, sibutramine (Meridia) was approved in 1997 for weight loss but was removed from the market in 2010 because follow-up studies showed an increase in the risk of serious heart events, including nonfatal heart attack and stroke.
+Diethylpropion (Tenuate), phentermine (Adipex), benzphetamine (Didrex) and phendimetrazine (Bontril) are approved for only short-term use &amp;mdash; generally less than 12 weeks. These drugs are classified as controlled substances because they have the potential to be abused. Because of possible side effects, these drugs aren&apos;t recommended if you have heart disease, high blood pressure or hyperthyroidism. 
 &lt;/p&gt;
 &lt;p&gt;
-In the same year, the FDA conducted a safety review of orlistat because of rare reports of serious liver injury in people taking it. No cause and effect relationship was established between orlistat and the risk of liver injury. However, Xenical and Alli labels now advise people taking orlistat to be alert to signs and symptoms that could indicate liver injury, such as itching, loss of appetite, yellow eyes or skin, light-colored stool, or brown urine.
+Orlistat (Xenical), lorcaserin (Belviq) and phentermine-topiramate (Qsymia) are approved for long-term use. Orlistat is also available in a reduced-strength form without a prescription (Alli). 
 &lt;/p&gt;
 &lt;p&gt;
-Belviq and Qsymia were originally rejected by the FDA, but the manufacturers subsequently provided additional data that lead to approval.
+After orlistat was approved, rare cases of serious liver injury were reported in some people taking it. No cause and effect relationship was established between. However, Xenical and Alli labels now advise people taking orlistat to be alert to signs and symptoms that could indicate liver injury, such as itching, loss of appetite, yellow eyes or skin, light-colored stool, or brown urine. 
 &lt;/p&gt;
 &lt;p&gt;
-Belviq raised concerns because it works somewhat like fenfluramine &amp;mdash; which was withdrawn from the market because it damaged heart valves. However, there is no evidence that Belviq damages heart valves. 
+Belviq initially raised concerns because it works somewhat like fenfluramine &amp;mdash; which was withdrawn from the market because it damaged heart valves. However, there is no evidence that Belviq damages heart valves. Belviq may increase heart rate, so people taking it may need their heart rate checked. 
 &lt;/p&gt;
 &lt;p&gt;
-Qsymia increases the risk of birth defects. Thus, the FDA required the manufacturer to have a risk evaluation and mitigation strategy (REMS). The REMS is intended to alert women to the risks and explain the need to avoid becoming pregnant while taking Qsymia.
-&lt;/p&gt;
-&lt;p&gt;
-With any new drug, it&apos;s important to keep in mind that concerns or side effects not seen in the initial trials may come to light as more people use the drugs.
+Qsymia increases the risk of birth defects. Thus, the FDA required the manufacturer to have a risk evaluation and mitigation strategy (REMS). The REMS is intended to alert women to the risks and explain the need to avoid becoming pregnant while taking Qsymia. In addition, Qsymia is considered a controlled substance because one of its ingredients &amp;mdash; phentermine &amp;mdash; has the potential for abuse. 
 &lt;/p&gt;
 			</HTML>
 		</Section>
@@ -263,7 +270,14 @@ Weight-loss drugs aren&apos;t the easy answer to weight loss, but they can be a 
 	</BenefitSummary>
 	<RelatedLinksBox>
 		<LinkItem ContentType="Answer" DocID="AN01715" LinkType="Internal" ObjectID="FA6BEB6E-E7FF-0DBD-146013DA12A2C9C6" Title="Phentermine for weight loss: Can it help?" Url="http://www.mayoclinic.com/health/phentermine/AN01715" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02407" LinkType="Internal" ObjectID="889A2100-DF75-EA81-53656366F1F0E710" Title="Tummy tuck" Url="http://www.mayoclinic.com/health/tummy-tuck/MY02407" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02438" LinkType="Internal" ObjectID="42A3925F-9ACF-36B1-4FC5E79D597B63EF" Title="Buttock lift" Url="http://www.mayoclinic.com/health/buttock-lift/MY02438" />
+		<LinkItem ContentType="Video" DocID="MM00813" LinkType="Internal" ObjectID="2A7BA107-E322-4E23-2CA1454D67C5FCD3" Title="Video: Laparoscopic adjustable gastric banding" Url="http://www.mayoclinic.com/health/lap-band/MM00813" />
+		<LinkItem ContentType="Video" DocID="MM00812" LinkType="Internal" ObjectID="2A776692-9CBF-1B27-4464E6A6CD91D5C8" Title="Video: Sleeve gastrectomy" Url="http://www.mayoclinic.com/health/sleeve-gastrectomy/MM00812" />
+		<LinkItem ContentType="Video" DocID="MM00811" LinkType="Internal" ObjectID="2982318B-959F-E21D-596A56CBD00FC44F" Title="Video: Biliopancreatic diversion with duodenal switch" Url="http://www.mayoclinic.com/health/biliopancreatic-diversion/MM00811" />
+		<LinkItem ContentType="Video" DocID="MM00810" LinkType="Internal" ObjectID="2964CE68-9074-10FF-049989195EE59C89" Title="Video: Roux-en-Y gastric bypass" Url="http://www.mayoclinic.com/health/gastric-bypass/MM00810" />
 		<LinkItem ContentType="TestProcedure" DocID="MY00825" LinkType="Internal" ObjectID="063B6ABC-F842-575D-3C0FD980BF2360EA" Title="Gastric bypass surgery" Url="http://www.mayoclinic.com/health/gastric-bypass/MY00825" />
+		<LinkItem ContentType="Article" DocID="MY02154" LinkType="Internal" ObjectID="4DB4A846-BDFB-3913-CDD857B2611CE09D" Title="Guide to types of weight-loss surgery" Url="http://www.mayoclinic.com/health/weight-loss-surgery/MY02154" />
 		<LinkItem ContentType="Answer" DocID="AN02050" LinkType="Internal" ObjectID="FE1A537B-DF50-0568-DB22D046B27F22C0" Title="Do weight-loss products such as Sensa work?" Url="http://www.mayoclinic.com/health/sensa/AN02050" />
 		<LinkItem ContentType="Answer" DocID="AN01715" LinkType="Internal" ObjectID="FA6BEB6E-E7FF-0DBD-146013DA12A2C9C6" Title="Phentermine for weight loss: Can it help?" Url="http://www.mayoclinic.com/health/phentermine/AN01715" />
 		<LinkItem ContentType="Answer" DocID="AN01332" LinkType="Internal" ObjectID="D6F49324-2A5D-9994-E6913AAF553C42AB" Title="Protein shakes: Good for weight loss?" Url="http://www.mayoclinic.com/health/protein-shakes/AN01332" />

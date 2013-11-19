@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/breast-biopsy/MY00301
 		</OriginalURL>
 		<UpdateDate>
-			2011-08-09
+			2013-08-22
 		</UpdateDate>
 		<PublicationDate>
 			2005-08-05
@@ -85,30 +85,30 @@
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-A breast biopsy is procedure to remove a small sample of breast tissue for laboratory testing. Breast biopsy is considered the best way to evaluate a suspicious area in your breast to determine if it is breast cancer. There are several types of breast biopsy procedures.
+A breast biopsy is a procedure to remove a small sample of breast tissue for laboratory testing. Breast biopsy is a way to evaluate a suspicious area in your breast to determine if it is breast cancer. There are several types of breast biopsy procedures. 
 &lt;/p&gt;
 &lt;p&gt;
-A breast biopsy provides a sample of tissue that doctors use to diagnose and identify abnormalities in the cells that make up breast lumps or other unusual breast changes. And, a breast biopsy can help determine whether or not you need additional surgery or other treatment.
+A breast biopsy provides a sample of tissue that doctors use to identify and diagnose abnormalities in the cells that make up breast lumps or other unusual breast changes. And the lab report from the breast biopsy can help determine whether you need additional surgery or other treatment. 
 &lt;/p&gt;
 			</HTML>
 			<PopupMedia>
-				<Thumbnail Alt="Image showing stereotactic breast biopsy 
-" Caption="During a stereotactic breast biopsy, your breast will be firmly compressed between two plates. X-rays (mammograms) are used to produce stereo images &amp;mdash; images of the same area from different angles &amp;mdash; to determine the exact location for the biopsy. A sample of breast tissue in the area of concern is then removed with a needle. 
+				<Thumbnail Alt="Illustration showing a woman having a stereotactic breast biopsy
+" Caption="During a stereotactic breast biopsy, your breast will be firmly compressed between two plates. X-rays (mammograms) are used to produce stereo images &amp;mdash; images of the same area from different angles &amp;mdash; to determine the exact location for the biopsy. A sample of breast tissue in the area of concern is then removed with a needle.
 " Height="60" Title="Stereotactic breast biopsy" URI="/images/image_popup/thumbs/mcdc7_stereotactic_breast_biopsythu.jpg" Width="60" />
-				<Image Alt="Image showing stereotactic breast biopsy 
-" Caption="During a stereotactic breast biopsy, your breast will be firmly compressed between two plates. X-rays (mammograms) are used to produce stereo images &amp;mdash; images of the same area from different angles &amp;mdash; to determine the exact location for the biopsy. A sample of breast tissue in the area of concern is then removed with a needle. 
+				<Image Alt="Illustration showing a woman having a stereotactic breast biopsy
+" Caption="During a stereotactic breast biopsy, your breast will be firmly compressed between two plates. X-rays (mammograms) are used to produce stereo images &amp;mdash; images of the same area from different angles &amp;mdash; to determine the exact location for the biopsy. A sample of breast tissue in the area of concern is then removed with a needle.
 " Height="364" Title="Stereotactic breast biopsy" URI="/images/image_popup/mcdc7_stereotactic_breast_biopsy.jpg" Width="400" />
 				<HTML>
 					During a stereotactic breast biopsy, your breast will be firmly compressed between two plates. X-rays (mammograms) are used to produce stereo images &amp;mdash; images of the same area from different ...
 				</HTML>
 			</PopupMedia>
 			<PopupMedia>
-				<Thumbnail Alt="Image showing core needle biopsy 
+				<Thumbnail Alt="Illustration showing ultrasound-guided breast biopsy
 " Caption="During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a procedure that uses sound waves to create images of the suspicious area on a monitor &amp;mdash; might be used to help guide the needle.
-" Height="60" Title="Core needle biopsy" URI="/images/image_popup/thumbs/mcdc7_core_needle_biopsythu.jpg" Width="60" />
-				<Image Alt="Image showing core needle biopsy 
+" Height="60" Title="Ultrasound-guided breast biopsy" URI="/images/image_popup/thumbs/mcdc7_core_needle_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration showing ultrasound-guided breast biopsy
 " Caption="During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a procedure that uses sound waves to create images of the suspicious area on a monitor &amp;mdash; might be used to help guide the needle.
-" Height="495" Title="Core needle biopsy" URI="/images/image_popup/mcdc7_core_needle_biopsy.jpg" Width="400" />
+" Height="495" Title="Ultrasound-guided breast biopsy" URI="/images/image_popup/mcdc7_core_needle_biopsy.jpg" Width="400" />
 				<HTML>
 					During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a ...
 				</HTML>
@@ -126,6 +126,7 @@ Your doctor may recommend a breast biopsy if:
 	&lt;li&gt;You or your doctor feels a lump or thickening in your breast, and your doctor suspects breast cancer&lt;/li&gt;
 	&lt;li&gt;Your mammogram shows a suspicious area in your breast&lt;/li&gt;
 	&lt;li&gt;An ultrasound scan reveals a suspicious finding&lt;/li&gt;
+	&lt;li&gt;Your breast MRI reveals a suspicious finding&lt;/li&gt;
 	&lt;li&gt;You have unusual nipple changes, including crusting, scaling, dimpling skin or bloody discharge&lt;/li&gt;
 &lt;/ul&gt;
 			</HTML>
@@ -146,9 +147,6 @@ Risks associated with a breast biopsy include:
 &lt;/ul&gt;
 &lt;p&gt;
 Contact your doctor if you develop a fever, if the biopsy site becomes red or warm, or if you have unusual drainage from the biopsy site. These can be signs of an infection that may require prompt treatment. 
-&lt;/p&gt;
-&lt;p&gt;
-A breast biopsy doesn&apos;t cause cancer cells to spread beyond the breast. 
 &lt;/p&gt;
 			</HTML>
 		</Section>
@@ -180,65 +178,109 @@ Wear a bra to your appointment. Your health care team may place a cold pack agai
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-There are several breast biopsy procedures used to obtain a tissue sample from the breast. Your doctor may recommend a particular procedure based on the size, location and other characteristics of the breast abnormality. If it&apos;s not clear why you&apos;re having one type of biopsy instead of another, ask your doctor to explain the reasons in more detail. 
+Several breast biopsy procedures are used to obtain a tissue sample from the breast. Your doctor may recommend a particular procedure based on the size, location and other characteristics of the breast abnormality. If it&apos;s not clear why you&apos;re having one type of biopsy instead of another, ask your doctor to explain. 
 &lt;/p&gt;
 &lt;p&gt;
-Types of breast biopsy include: 
+For many biopsies, you&apos;ll get an injection to numb the area of the breast to be biopsied. Types of breast biopsy include: 
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;strong&gt;Fine-needle aspiration biopsy.&lt;/strong&gt; This is the simplest type of breast biopsy and may be used to evaluate a lump that can be felt during a clinical breast exam. For the procedure, you lie on a table. While steadying the lump with one hand, your doctor uses the other hand to direct a very fine needle &amp;mdash; one more slender than that used to obtain a blood sample &amp;mdash; into the lump. The needle is attached to a syringe that can collect a sample of cells or fluid from the lump. Fine-needle aspiration is a quick method to distinguish between a fluid-filled cyst and a solid mass and, possibly, to avoid a more invasive biopsy procedure. If, however, no fluid can be withdrawn and the mass doesn&apos;t resolve on its own, you may need further evaluation with a diagnostic mammogram or ultrasound or surgery to remove it. &lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Core needle biopsy.&lt;/strong&gt; This type of breast biopsy may be used to assess a breast lump that&apos;s visible on a mammogram or ultrasound or that your doctor feels (palpates) during a clinical breast exam. A radiologist or surgeon uses a thin, hollow needle &amp;mdash; but not quite as thin as the needle used in fine-needle aspiration &amp;mdash; to remove tissue samples from the breast mass. Several samples, each about the size of a grain of rice, are collected and analyzed to identify features indicating the presence of disease. Imaging techniques, such as mammography, ultrasound or MRI, are often used to guide the positioning of the needle used in a core needle biopsy. &lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Stereotactic biopsy.&lt;/strong&gt; This type of biopsy uses mammograms to pinpoint the location of suspicious areas within the breast. For this procedure, you generally lie facedown on a padded biopsy table with one of your breasts positioned in a hole in the table. You may need to remain in this position for 30 minutes to one hour. The table is raised several feet. The equipment used by the radiologist is positioned beneath the table. Your breast is firmly compressed between two plates while mammograms are taken to show the radiologist the exact location of the area for biopsy. A small incision &amp;mdash; about 1/4-inch long (about 6 millimeters) &amp;mdash; is made into your breast. The radiologist inserts either a needle or a vacuum-powered probe and removes several samples of tissue. The samples are sent to a laboratory for analysis. &lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Ultrasound-guided core needle biopsy.&lt;/strong&gt; This type of core needle biopsy involves ultrasound &amp;mdash; an imaging method that uses high-frequency sound waves to produce precise images of structures within your body. During this procedure, you lie on your back on an ultrasound table. Using ultrasound, the radiologist locates the mass within your breast, makes a small incision to insert the needle and takes several core samples of tissue to be sent to a laboratory for analysis.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;MRI-guided core needle biopsy.&lt;/strong&gt; This type of core needle biopsy is done under guidance of MRI &amp;mdash; an imaging technique that captures multiple cross-sectional images of your breast and combines them, using a computer, to generate detailed, 3-D pictures. During this procedure you lie facedown on a padded scanning table. Your breasts fit into a hollow depression in the table. The MRI machine provides images that help determine the exact location for the biopsy. A small incision of about 1/4-inch long (about 6 millimeters) is made to allow the core needle to be inserted. Several samples of tissue are taken and sent to a laboratory for analysis. &lt;/li&gt;
 	&lt;li&gt;
 	&lt;p&gt;
-	&lt;strong&gt;Surgical biopsy.&lt;/strong&gt; During a surgical biopsy, a portion of the breast mass is removed for examination (incisional biopsy), or the entire breast mass may be removed (excisional biopsy, wide local excision or lumpectomy). A surgical biopsy is usually done in an operating room, with sedation and a local anesthetic. If the breast mass can&apos;t be felt, your radiologist may use a technique called wire localization to map the route to the mass for the surgeon. During wire localization, the tip of a thin wire is positioned within the breast mass or just through it. This is usually done right before surgery.
+	&lt;strong&gt;Fine-needle aspiration biopsy.&lt;/strong&gt; This is the simplest type of breast biopsy and may be used to evaluate a lump that can be felt during a clinical breast exam. For the procedure, you lie on a table. While steadying the lump with one hand, your doctor uses the other hand to direct a fine needle - more slender than that used to obtain a blood sample or tissue sample - into the lump. 
 	&lt;/p&gt;
 	&lt;p&gt;
-	During surgery, the surgeon will attempt to remove the entire breast mass, along with the wire. To help ensure that the entire mass has been removed, the tissue is sent to the hospital laboratory to check the edges (margins) of the mass. If it&apos;s determined in the laboratory that cancer cells are present in the margins (positive margins), some cancer may still be in the breast and more tissue must be removed. If the margins are clear (negative margins), it&apos;s more likely that all the cancer has been removed. 
+	The needle is attached to a syringe that can collect a sample of cells or fluid from the lump. Fine-needle aspiration is a quick way to distinguish between a fluid-filled cyst and a solid mass and, possibly, to avoid a more invasive biopsy procedure. If, however, the mass is solid, it will need further evaluation. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Core needle biopsy.&lt;/strong&gt; This type of breast biopsy may be used to assess a breast lump that&apos;s visible on a mammogram or ultrasound or that your doctor feels (palpates) during a clinical breast exam. A radiologist or surgeon uses a thin, hollow needle to remove tissue samples from the breast mass, most often using ultrasound guidance. 
 	&lt;/p&gt;
 	&lt;p&gt;
-	At the time of the breast biopsy, a tiny stainless steel marker or clip may be placed in your breast at the biopsy site. This is done so that your doctor or surgeon can easily find the area biopsied, for future monitoring or in the event that a follow-up procedure is needed to remove more tissue. 
+	Several samples, each about the size of a grain of rice, are collected and analyzed to identify features indicating the presence of disease. Depending on the location of the mass, other imaging techniques, such as mammography or MRI, may be used to guide the positioning of the needle in a core needle biopsy depending on the location of the mass. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Stereotactic biopsy.&lt;/strong&gt; This type of biopsy uses mammograms to pinpoint the location of suspicious areas within the breast. For this procedure, you generally lie facedown on a padded biopsy table with one of your breasts positioned in a hole in the table. You may need to remain in this position for 30 minutes to one hour. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	The table is raised several feet, and the equipment used by the radiologist is positioned beneath the table. Your breast is firmly compressed between two plates while mammograms are taken to show the radiologist the exact location of the area for biopsy. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	The radiologist makes a small incision - about 1/4-inch long (about 6 millimeters) - into your breast. He or she then inserts either a needle or a vacuum-powered probe and removes several samples of tissue. The samples are sent to a lab for analysis. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Ultrasound-guided core needle biopsy.&lt;/strong&gt; This type of core needle biopsy involves ultrasound - an imaging method that uses high-frequency sound waves to produce precise images of structures within your body. During this procedure, you lie on your back or side on an ultrasound table.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Holding the ultrasound device (transducer) against your breast, the radiologist locates the mass within your breast, makes a small incision to insert the needle and takes several core samples of tissue to be sent to a lab for analysis. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;MRI-guided core needle biopsy.&lt;/strong&gt; This type of core needle biopsy is done under guidance of MRI - an imaging technique that captures multiple cross-sectional images of your breast and combines them, using a computer, to generate detailed 3-D pictures. During this procedure, you lie facedown on a padded scanning table. Your breasts fit into a hollow depression in the table. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	The MRI machine provides images that help determine the exact location for the biopsy. A small incision of about 1/4-inch long (about 6 millimeters) is made to allow the core needle to be inserted. Several samples of tissue are taken and sent to a lab for analysis. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Surgical biopsy.&lt;/strong&gt; During a surgical biopsy, a portion of the breast mass is removed for examination (incisional biopsy) or the entire breast mass may be removed (excisional biopsy, wide local excision or lumpectomy). A surgical biopsy is usually done in an operating room using sedation given through a vein in your hand or arm (intravenously) and a local anesthetic to numb your breast. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	If the breast mass can&apos;t be felt, your radiologist may use a technique called wire localization to map the route to the mass for the surgeon. During wire localization, the tip of a thin wire is positioned within the breast mass or just through it. This is usually done right before surgery. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	During surgery, the surgeon will attempt to remove the entire breast mass along with the wire. To help ensure that the entire mass has been removed, the tissue is sent to the hospital lab to check the edges (margins) of the mass. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	If cancer cells are present in the margins (positive margins), some cancer may still be in the breast, and more tissue must be removed. If the margins are clear (negative margins), then the cancer has been removed adequately. 
 	&lt;/p&gt;
 	&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;
+At the time of the breast biopsy, a tiny stainless steel marker or clip may be placed in your breast at the biopsy site. This is done so that if your biopsy is positive, your doctor or surgeon can locate the biopsy area to remove more breast tissue surgically. 
+&lt;/p&gt;
 &lt;p&gt;
 &lt;strong&gt;After a breast biopsy&lt;/strong&gt; &lt;br /&gt;
 With all types of breast biopsy except a surgical biopsy, you&apos;ll go home with only bandages and an ice pack over the biopsy site. Although you should take it easy for the rest of the day, you&apos;ll be able to resume your normal activities within a day. Bruising is common after core needle biopsy procedures. To ease pain and discomfort after a breast biopsy, you may take a nonaspirin pain reliever containing acetaminophen (Tylenol, others) and apply a cold pack as needed to reduce swelling. 
 &lt;/p&gt;
 &lt;p&gt;
-If you have a surgical biopsy, you&apos;ll likely have stitches (sutures) to care for. Your health care team will tell you on how to protect your stitches. 
+If you have a surgical biopsy, you&apos;ll likely have stitches (sutures) to care for. Your health care team will tell you how to protect your stitches. 
 &lt;/p&gt;
 			</HTML>
 			<PopupMedia>
-				<Thumbnail Alt="Image showing stereotactic breast biopsy 
-" Caption="During a stereotactic breast biopsy, your breast will be firmly compressed between two plates. X-rays (mammograms) are used to produce stereo images &amp;mdash; images of the same area from different angles &amp;mdash; to determine the exact location for the biopsy. A sample of breast tissue in the area of concern is then removed with a needle. 
+				<Thumbnail Alt="Illustration showing a woman having a stereotactic breast biopsy
+" Caption="During a stereotactic breast biopsy, your breast will be firmly compressed between two plates. X-rays (mammograms) are used to produce stereo images &amp;mdash; images of the same area from different angles &amp;mdash; to determine the exact location for the biopsy. A sample of breast tissue in the area of concern is then removed with a needle.
 " Height="60" Title="Stereotactic breast biopsy" URI="/images/image_popup/thumbs/mcdc7_stereotactic_breast_biopsythu.jpg" Width="60" />
-				<Image Alt="Image showing stereotactic breast biopsy 
-" Caption="During a stereotactic breast biopsy, your breast will be firmly compressed between two plates. X-rays (mammograms) are used to produce stereo images &amp;mdash; images of the same area from different angles &amp;mdash; to determine the exact location for the biopsy. A sample of breast tissue in the area of concern is then removed with a needle. 
+				<Image Alt="Illustration showing a woman having a stereotactic breast biopsy
+" Caption="During a stereotactic breast biopsy, your breast will be firmly compressed between two plates. X-rays (mammograms) are used to produce stereo images &amp;mdash; images of the same area from different angles &amp;mdash; to determine the exact location for the biopsy. A sample of breast tissue in the area of concern is then removed with a needle.
 " Height="364" Title="Stereotactic breast biopsy" URI="/images/image_popup/mcdc7_stereotactic_breast_biopsy.jpg" Width="400" />
 				<HTML>
 					During a stereotactic breast biopsy, your breast will be firmly compressed between two plates. X-rays (mammograms) are used to produce stereo images &amp;mdash; images of the same area from different ...
 				</HTML>
 			</PopupMedia>
 			<PopupMedia>
-				<Thumbnail Alt="Image showing core needle biopsy 
+				<Thumbnail Alt="Illustration showing ultrasound-guided breast biopsy
 " Caption="During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a procedure that uses sound waves to create images of the suspicious area on a monitor &amp;mdash; might be used to help guide the needle.
-" Height="60" Title="Core needle biopsy" URI="/images/image_popup/thumbs/mcdc7_core_needle_biopsythu.jpg" Width="60" />
-				<Image Alt="Image showing core needle biopsy 
+" Height="60" Title="Ultrasound-guided breast biopsy" URI="/images/image_popup/thumbs/mcdc7_core_needle_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration showing ultrasound-guided breast biopsy
 " Caption="During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a procedure that uses sound waves to create images of the suspicious area on a monitor &amp;mdash; might be used to help guide the needle.
-" Height="495" Title="Core needle biopsy" URI="/images/image_popup/mcdc7_core_needle_biopsy.jpg" Width="400" />
+" Height="495" Title="Ultrasound-guided breast biopsy" URI="/images/image_popup/mcdc7_core_needle_biopsy.jpg" Width="400" />
 				<HTML>
 					During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a ...
 				</HTML>
 			</PopupMedia>
 			<PopupMedia>
-				<Thumbnail Alt="Image showing breast MRI 
-" Caption="During a breast MRI, you lie on your stomach on a padded scanning table. Your breasts fit into a hollow depression in the table, which contains coils that detect magnetic signals. The table slides into the large opening of the MRI machine. 
+				<Thumbnail Alt="Illustration showing a woman undergoing breast MRI
+" Caption="During a breast MRI, you lie on your stomach on a padded scanning table. Your breasts fit into a hollow depression in the table, which contains coils that detect magnetic signals. The table slides into the large opening of the MRI machine.
 " Height="60" Title="Breast MRI" URI="/images/image_popup/thumbs/mcdc7_breast_mrithu.jpg" Width="60" />
-				<Image Alt="Image showing breast MRI 
-" Caption="During a breast MRI, you lie on your stomach on a padded scanning table. Your breasts fit into a hollow depression in the table, which contains coils that detect magnetic signals. The table slides into the large opening of the MRI machine. 
+				<Image Alt="Illustration showing a woman undergoing breast MRI
+" Caption="During a breast MRI, you lie on your stomach on a padded scanning table. Your breasts fit into a hollow depression in the table, which contains coils that detect magnetic signals. The table slides into the large opening of the MRI machine.
 " Height="328" Title="Breast MRI" URI="/images/image_popup/mcdc7_breast_mri.jpg" Width="400" />
 				<HTML>
 					During a breast MRI, you lie on your stomach on a padded scanning table. Your breasts fit into a hollow depression in the table, which contains coils that detect magnetic signals. The table slides ...
@@ -251,10 +293,13 @@ If you have a surgical biopsy, you&apos;ll likely have stitches (sutures) to car
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-It may take a few days before the results of a core needle biopsy are available. After the biopsy procedure, your breast tissue is sent to a laboratory, where a doctor who specializes in analyzing blood and body tissue (pathologist) examines the sample using a microscope and special procedures. The pathologist creates a pathology report that is sent to your doctor, and your doctor will share the results with you. The pathology report includes details about the size, color and consistency of the tissue samples, the location of the biopsy site, and whether cancer cells were present. 
+It may be a few days before the results of a core needle biopsy are available. After the biopsy procedure, your breast tissue is sent to a lab, where a doctor who specializes in analyzing blood and body tissue (pathologist) examines the sample using a microscope and special procedures. 
 &lt;/p&gt;
 &lt;p&gt;
-If your breast biopsy reveals normal results or benign breast changes, ask your doctor whether both your radiologist and pathologist agree on the findings. Sometimes the opinions of these two experts don&apos;t match &amp;mdash; for instance, your radiologist may find that your mammogram results suggest breast cancer but your pathology report reveals normal breast tissue. In this case, you may need more testing and, possibly, surgery to further evaluate the area. 
+The pathologist prepares a pathology report that is sent to your doctor, who will share the results with you. The pathology report includes details about the size, color and consistency of the tissue samples, the location of the biopsy site, and whether cancer or precancer cells were present. 
+&lt;/p&gt;
+&lt;p&gt;
+If your breast biopsy reveals normal results or benign breast change, your doctor will need to see if the radiologist and pathologist agree on the findings. Sometimes the opinions of these two experts differ. For instance, your radiologist may find that your mammogram results suggest breast cancer or precancer, but your pathology report reveals normal breast tissue. In this case, you may need more surgery to obtain more tissue to further evaluate the area. 
 &lt;/p&gt;
 &lt;p&gt;
 If your pathology report says that breast cancer is present, it will include information about the cancer itself, such as what type of breast cancer you have and additional information, such as whether the cancer is hormone receptor positive or negative. You and your doctor can then develop a treatment plan that best suits your needs. 

@@ -1,8 +1,1 @@
-- if resource.is_a?(Question)
-  = render :template => 'api/v1/questions/show', :locals => {:question => resource}
-- elsif resource.is_a?(Content) && resource.content_type == 'Question'
-  = render :partial => 'api/v1/cards/question_preview', :locals => {:question => resource.decorate}
-- elsif resource.is_a?(Content)
-  = render :partial => 'api/v1/cards/content_preview', :locals => {:card => card, :content => resource.decorate}
-- elsif resource.is_a?(Consult)
-  = render :partial => 'api/v1/cards/consult_preview', :locals => {:consult => resource, :message => resource.most_recent_message}
+= render :partial => "api/v1/cards/#{resource.partial_name}", locals: {card: card, resource: resource}

@@ -1,0 +1,88 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00738
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/chest-press/MM00738
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-23
+		</UpdateDate>
+		<PublicationDate>
+			2008-02-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1090" Title="Fitness">
+					<Keyword MCVID="1198" Title="Strength training">
+						<Keyword MCVID="1201" Title="Free weights" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3FD2184B-E7FF-0DBD-17FCCFA7D9987E8A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		Chest press with dumbbell
+	</Title>
+	<Abstract>
+		The chest press exercise targets the chest muscles. See how it&apos;s done.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00738_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+&lt;strong&gt;Edward R. Laskowski, M.D.:&lt;/strong&gt; The chest press is an exercise you can do with dumbbells to work the chest muscles. The chest press strengthens the muscles on the front of your chest, which can help you improve your performance in a variety of sports. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nicole L. Campbell:&lt;/strong&gt; To do the chest press with dumbbells, lie on your back with a dumbbell in each hand. Hold your upper arms perpendicular to your body and your forearms perpendicular to the floor. Slowly press the weights upward until your elbows are almost straight. You&apos;ll feel tension across your upper chest. 
+&lt;/p&gt;
+&lt;p&gt;
+When you&apos;re doing the chest press, be careful not to lock your elbows or push with your feet. Hold your head in a neutral, relaxed position. To protect your shoulders, don&apos;t let your elbows drop below the horizontal line of your body during the exercise. The chest press is usually done lying on a weight bench, but you can also try it lying on the floor. 
+&lt;/p&gt;
+&lt;p&gt;
+For most people, one set of 12 to 15 repetitions is adequate. 
+&lt;/p&gt;
+&lt;p&gt;
+Remember, you can hurt your shoulders if you let your elbows drop too low during this exercise. While you&apos;re lying on your back, don&apos;t let your elbows drop below the horizontal line of your body. Keep your movements smooth and controlled. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00738.jpg" width="60" />
+</Video>

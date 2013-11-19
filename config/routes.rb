@@ -20,6 +20,7 @@ RHSMocker::Application.routes.draw do
         resources :phone_calls, only: [:index, :show, :create], controller: 'consult_phone_calls'
         resources :users, only: :index, controller: 'consult_users'
       end
+      resources :custom_cards, only: [:index, :show, :create, :update]
       resources :phone_calls, only: [:index, :show, :update]
       resources :diseases, :only => :index, :controller => :conditions
       resources :encounters, :only => [:index, :show, :create], :controller => 'consults' do
@@ -27,6 +28,7 @@ RHSMocker::Application.routes.draw do
       end
       resources :ethnic_groups, :only => :index
       resources :locations, :only => :create
+      resources :members, only: :index
       resources :messages, :only => :show do
         post :mark_read, :on => :collection
         post :save, :on => :collection
@@ -61,11 +63,14 @@ RHSMocker::Application.routes.draw do
           end
         end
         post 'invite', :on => :member
-        resources :cards, :only => [:show, :update] do
+        resources :cards, :only => [:create, :show, :update] do
           get :inbox, :on => :collection
           get :timeline, :on => :collection
         end
+        get 'reset_password/:token', :to => 'users#check_reset_password', :on => :collection, :as => 'check_reset_password'
+        put 'reset_password/:token', :to => 'users#update_password_from_reset', :on => :collection, :as => 'update_password_from_reset'
         post :reset_password, :on => :collection
+        # TODO: Add reset password paths here
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
           resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do

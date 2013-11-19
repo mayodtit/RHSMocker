@@ -32,15 +32,20 @@ class Member < User
   validates :install_id, :uniqueness => true, :allow_nil => true
   validates :phone, :length => {:in => 7..17, :message => 'must be between 7 and 17 digits'}, :allow_blank => true
   validates :units, :inclusion => {:in => %w(US Metric)}
-  validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :on => :create, :if => lambda{|m| m.email.present?}
+  validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :if => lambda{|m| m.signed_up? || m.password}
 
   after_create :login # generate inital auth_token
   after_create :add_install_message
   after_create :add_new_member_content
   after_create :send_welcome_message, :if => lambda{|m| m.email.present?}
 
+  def self.name_search(string)
+    wildcard = "%#{string}%"
+    where("first_name LIKE ? OR last_name LIKE ? OR email LIKE ?", wildcard, wildcard, wildcard)
+  end
+
   BASE_OPTIONS = User::BASE_OPTIONS.merge(:only => [:holds_phone_in, :install_id,
-                                                    :phone, :units],
+                                                    :phone, :units, :client_data],
                                           :methods => [:pusher_id]) do |k, v1, v2|
                    v1.is_a?(Array) ? v1 + v2 : [v1] + v2
                  end

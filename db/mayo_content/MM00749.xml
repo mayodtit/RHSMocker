@@ -1,0 +1,88 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00749
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/seated-row/MM00749
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-23
+		</UpdateDate>
+		<PublicationDate>
+			2008-02-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1090" Title="Fitness">
+					<Keyword MCVID="1198" Title="Strength training">
+						<Keyword MCVID="3306" Title="Weight machine exercises" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3FD7D258-E7FF-0DBD-12DE015ACECA702F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		Seated row with weight machine
+	</Title>
+	<Abstract>
+		The seated row targets the muscles in the upper back. See how it&apos;s done.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00749_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+&lt;strong&gt;Dr. Laskowski:&lt;/strong&gt; The seated row is an exercise you can do with a weight machine to work the muscles in your upper back. Specifically, the seated row targets the muscles in your upper back and also the latissimus dorsi &amp;mdash; a muscle on the outer side of the chest wall. This exercise will help improve your posture and help protect your shoulders. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nicole Krupa:&lt;/strong&gt; To do the seated row with a weight machine, start by sitting on the weight bench with your knees bent and by grasping the cable attachment. Your arms should be extended and your shoulders stretched slightly forward. Slowly pull the cable to your waist, until your elbows are bent and your shoulders are back. Then slowly return to the starting position. You&apos;ll feel tension in your back and arms. 
+&lt;/p&gt;
+&lt;p&gt;
+When you&apos;re doing the seated row, make sure you feel only a mild stretch in the starting position. 
+&lt;/p&gt;
+&lt;p&gt;
+For most people, one set of 12 to 15 repetitions is adequate. 
+&lt;/p&gt;
+&lt;p&gt;
+Remember, for best results, do not lean too far forward in the starting position. Also, keep your movements smooth and controlled. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00749.jpg" width="60" />
+</Video>

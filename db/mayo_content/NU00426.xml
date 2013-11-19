@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00426
 		</OriginalURL>
 		<UpdateDate>
-			2008-09-01
+			2013-06-01
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -43,28 +43,36 @@
 	<Title>
 		Recipe: Grapes and walnuts with lemon sour cream sauce
 	</Title>
-	<Abstract />
+	<Abstract>
+		Grapes and walnuts with lemon sour cream sauce &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
 	<ServingInfo Label="Serves">
 		6
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
-		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; The colorful outermost layer of the lemon, called the zest, is full of essential oils that contribute lively flavor and aroma to this sour cream sauce. Remove the zest by grating it with the fine rasps of a hand-held grater to form fine particles.&lt;/p&gt;
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; The colorful outermost layer of the lemon, called the zest, is full of essential oils that contribute lively flavor and aroma to this sour cream sauce. Remove the zest by grating it with the fine rasps of a hand-held grater to form fine particles. 
+&lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
-		&lt;p&gt;In a small bowl, combine sour cream, powdered sugar, lemon zest, lemon juice and vanilla. Whisk to mix evenly. Cover and chill for several hours.&lt;/p&gt;
-
-&lt;p&gt;Divide grapes equally among 6 stemmed dessert glasses or bowls. Add 2 tablespoons of the lemon topping to each dish. Sprinkle each serving with 1/2 tablespoon of chopped walnuts. Serve immediately.&lt;/p&gt;
+		&lt;p&gt;
+In a small bowl, combine sour cream, powdered sugar, lemon zest, lemon juice and vanilla. Whisk to mix evenly. Cover and chill for several hours. 
+&lt;/p&gt;
+&lt;p&gt;
+Divide grapes equally among 6 stemmed dessert glasses or bowls. Add 2 tablespoons of the lemon topping to each dish. Sprinkle each serving with 1/2 tablespoon of chopped walnuts. Serve immediately. 
+&lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
-		&lt;p&gt;1/2 cup fat-free sour cream&lt;br /&gt;
-2 tablespoons powdered sugar&lt;br /&gt;
-1/2 teaspoon lemon zest&lt;br /&gt;
-1/2 teaspoon lemon juice&lt;br /&gt;
-1/8 teaspoon vanilla extract&lt;br /&gt;
-1 1/2 cups red seedless grapes&lt;br /&gt;
-1 1/2 cups green seedless grapes&lt;br /&gt;
-3 tablespoons chopped walnuts&lt;br /&gt;
-&lt;/p&gt;
+		&lt;ul&gt;
+	&lt;li&gt;1/2 cup fat-free sour cream&lt;/li&gt;
+	&lt;li&gt;2 tablespoons powdered sugar&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon lemon zest&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon lemon juice&lt;/li&gt;
+	&lt;li&gt;1/8 teaspoon vanilla extract&lt;/li&gt;
+	&lt;li&gt;1 1/2 cups red seedless grapes&lt;/li&gt;
+	&lt;li&gt;1 1/2 cups green seedless grapes&lt;/li&gt;
+	&lt;li&gt;3 tablespoons chopped walnuts&lt;/li&gt;
+&lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
@@ -76,62 +84,72 @@
 			<Grains Label="Grains and grain products" />
 			<Meat Label="Meats, poultry and fish" />
 			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
-			<Sweets Label="Sweets" />
+			<Sweets Label="Sweets">
+				1/2
+			</Sweets>
 			<Vegetables Label="Vegetables" />
 		</Dash>
 		<Diabetes Label="Diabetes Meal Plan Exchanges">
 			<Fats Label="Fats" />
 			<Freefoods Label="Free foods" />
 			<Fruits Label="Fruits">
-				1 1/2
+				1
 			</Fruits>
 			<Meat Label="Meat and meat substitutes" />
 			<Milk Label="Milk and milk products" />
 			<NonStarchyVegetables Label="Nonstarchy vegetables" />
 			<Starches Label="Starches" />
-			<Sweets Label="Sweets, desserts and other carbohydrates" />
+			<Sweets Label="Sweets, desserts and other carbohydrates">
+				1/2
+			</Sweets>
 		</Diabetes>
 		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
 			<Carbs Label="Carbohydrates" />
 			<Fats Label="Fats" />
 			<Fruits Label="Fruits">
-				1 1/2
+				1
 			</Fruits>
 			<Protein_Dairy Label="Protein and dairy" />
-			<Sweets Label="Sweets" />
+			<Sweets Label="Sweets">
+				1/2
+			</Sweets>
 			<Vegetables Label="Vegetables" />
 		</HWP>
 		<NutrientAnalysis Label="Nutritional Analysis per serving">
 			<Calories Label="Calories">
-				110
+				98
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
-				21 g
+				18 g
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
-				2 mg
+				0 mg
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
 				1 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
-				1 g
+				1/2 g
 			</Monounsaturatedfat>
 			<Protein Label="Protein">
 				2 g
 			</Protein>
 			<Saturatedfat Label="Saturated fat">
-				&lt; 1 g
+				trace
 			</Saturatedfat>
 			<Servingsize Label="Serving size" />
 			<Sodium Label="Sodium">
-				29 mg
+				38 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				2 g
+			</Sugars>
 			<TotalFat Label="Total fat">
 				2 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>

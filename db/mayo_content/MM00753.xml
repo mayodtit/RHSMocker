@@ -1,0 +1,85 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00753
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/fitness-ball/MM00753
+		</OriginalURL>
+		<UpdateDate>
+			2013-08-23
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1090" Title="Fitness">
+					<Keyword MCVID="1198" Title="Strength training">
+						<Keyword MCVID="1204" Title="Core exercises" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EB6E4F09-E7FF-0DBD-1A45008146CBAA38
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		How to choose a fitness ball
+	</Title>
+	<Abstract>
+		A fitness ball is versatile, but it&apos;s not one-size-fits-all. See your options.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00753_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+&lt;strong&gt;Nicole L. Campbell:&lt;/strong&gt; A fitness ball looks like a large beach ball. You can do exercises for your abdomen and other core muscles on a fitness ball. You can also use a fitness ball to improve your flexibility and balance. You can even use a fitness ball as a chair.
+&lt;/p&gt;
+&lt;p&gt;
+Fitness balls come in various sizes, depending on the ball&apos;s diameter when it&apos;s inflated. For most exercises, you&apos;ll want a ball that allows your knees to be at a right angle when you sit on the ball with your feet on the floor.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re between 5&apos;1&quot; (155 centimeters) and 5&apos;7&quot; (170 centimeters), a 55-centimeter ball is a good choice. If you&apos;re between 5&apos;8&quot; (173 centimeters) and 6&apos;1&quot; (185 centimeters), try a 65-centimeter ball. If you&apos;re 6&apos;2&quot; (188 centimeters) or taller, try a 75-centimeter ball.
+&lt;/p&gt;
+&lt;p&gt;
+Air pressure counts, too. The firmer the fitness ball, the more difficult the exercise will be. If you&apos;re just starting out, you might want to slightly deflate the ball. You can inflate the ball as you gain strength and confidence.
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00753.jpg" width="60" />
+</Video>

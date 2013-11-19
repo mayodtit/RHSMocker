@@ -1,0 +1,91 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00736
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/biceps-curl/MM00736
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-09
+		</UpdateDate>
+		<PublicationDate>
+			2008-02-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1090" Title="Fitness">
+					<Keyword MCVID="1198" Title="Strength training">
+						<Keyword MCVID="1201" Title="Free weights" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3FD13B60-E7FF-0DBD-1DE873280E4EFC37
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		Biceps curl with dumbbell
+	</Title>
+	<Abstract>
+		The biceps curl builds strength in the upper arm. See how it&apos;s done.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00736_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+&lt;strong&gt;Edward R. Laskowski, M.D:&lt;/strong&gt; The biceps curl is an exercise you can do with dumbbells to build strength in your upper arm. Specifically, the biceps curl works the muscles in the front of the upper arm. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nicole L. Campbell:&lt;/strong&gt; To do a biceps curl with a dumbbell, hold a dumbbell with your palm facing upward. Slowly curl the weight up by bending your elbow, keeping your elbow close to your body. Then slowly lower the weight to the starting position. You&apos;ll feel tension in the muscles in the front of your upper arm. 
+&lt;/p&gt;
+&lt;p&gt;
+When you&apos;re doing biceps curls, don&apos;t swing your arm or elbow. Be careful to keep your wrist straight and rigid. If you flex your wrist as you bend your elbow, you won&apos;t target the biceps muscle effectively and you may hurt your elbow. 
+&lt;/p&gt;
+&lt;p&gt;
+You can do biceps curls while you&apos;re standing or sitting. You can also work both biceps by alternating arms during the exercise. This also provides a core and stability challenge. 
+&lt;/p&gt;
+&lt;p&gt;
+For most people, one set of 12 to 15 repetitions is adequate. 
+&lt;/p&gt;
+&lt;p&gt;
+Remember, for best results, keep your wrist straight and rigid during the exercise. It&apos;s also important to keep your movements smooth and controlled. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00736.jpg" width="60" />
+</Video>

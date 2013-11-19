@@ -4,7 +4,7 @@ class Api::V1::UserConditionUserTreatmentsController < Api::V1::ABaseController
   before_filter :load_user_condition_user_treatment!, only: :destroy
 
   def create
-    create_resource(UserConditionUserTreatment, attributes_for_create, :user_disease_user_treatment) and return if disease_path?
+    create_resource(UserConditionUserTreatment, attributes_for_create, name: :user_disease_user_treatment) and return if disease_path?
     create_resource(UserConditionUserTreatment, attributes_for_create)
   end
 

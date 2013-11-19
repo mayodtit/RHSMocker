@@ -1,2 +1,6 @@
-- if card.resource.is_a?(Content)
-  = render :partial => 'api/v1/contents/body', :locals => {:content => card.resource.decorate}
+- if resource.is_a? ContentSerializer
+  = render :template => 'api/v1/contents/show', locals: {content: resource}
+- elsif resource.is_a? QuestionSerializer
+  = render :template => 'api/v1/questions/show', locals: {card: card, question: resource}
+- elsif resource.is_a?(CustomCardSerializer) && resource.try_method(:content)
+  = render :template => 'api/v1/contents/show', locals: {content: resource.content}

@@ -18,6 +18,7 @@ class ContentImporter
     extract_html_from_xml!
     return :failed unless has_body_content?
     add_absolute_url_to_images!
+    format_inline_images!
     insert_images_into_html!
     create_intro_paragraph!
     create_content!
@@ -126,13 +127,17 @@ class ContentImporter
   end
 
   def add_absolute_url_to_images!
-    @html.search('div.inlineimage.right').each do |image|
-      image_tag = image.at_css('img')
-      image_url = image_tag['src']
-      image_tag.remove
-      image.set_attribute('class', 'authorImageDiv')
-      image.content = ''
-      image.set_attribute('style', "background-image:url(\"http://www.mayoclinic.com#{image_url}\")")
+    @html.search('img').each do |image|
+      image['src'] = "http://www.mayoclinic.com#{image['src']}"
+    end
+  end
+
+  def format_inline_images!
+    @html.search('.inlineimage').each do |inlineimage|
+      inlineimage.attributes['style'].try(:remove)
+      if inlineimage.at_css('img')['width'] == '138'
+        inlineimage['class'] = 'author-image'
+      end
     end
   end
 
@@ -155,6 +160,7 @@ class ContentImporter
   def create_content!
     @content = Content.upsert_attributes({:document_id => @document_id},
                                          {
+                                           :type => 'MayoContent',
                                            :content_type => @content_type,
                                            :title => @title,
                                            :abstract => abstract,

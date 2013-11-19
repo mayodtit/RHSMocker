@@ -9,16 +9,16 @@ class ContentsController < ApplicationController
     respond_to do |format|
       format.html
       format.json { render json: @contents }
-      format.csv { send_data Content.to_csv }
+      format.csv { send_data MayoContent.to_csv }
     end
   end
 
   def show
     @content = Content.find_by_document_id(params[:id]) || Content.find(params[:id])
     if params[:type] == 'card'
-      render :template => 'api/v1/cards/preview', :locals => {:card => nil, :resource => @content.decorate}
+      render :template => 'api/v1/cards/preview', :locals => {:card => nil, :resource => @content.serializer}
     else
-      render :template => 'api/v1/contents/show'
+      render :template => 'api/v1/contents/show', :locals => {content: @content.serializer}
     end
   end
 end

@@ -4,7 +4,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
 
   def index
     authorize! :read, PhoneCall
-    index_resource PhoneCall.where(params.permit(:state)).order('created_at DESC').as_json(
+    index_resource PhoneCall.where(params.permit(:state)).order('created_at ASC').as_json(
       include: {
         user: {
           only: [:first_name, :last_name, :email],
@@ -16,7 +16,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
 
   def show
     authorize! :read, @phone_call
-    show_resource @phone_call.as_json(include: :user)
+    show_resource @phone_call.as_json(include: [:user, consult: {include: [:subject, :initiator]}])
   end
 
   def update

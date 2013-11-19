@@ -89,14 +89,26 @@ Pyloric stenosis can be fixed with surgery.
 &lt;/p&gt;
 			</HTML>
 			<PopupMedia>
-				<Thumbnail Alt="Illustration showing enlarged pyloric muscles 
-" Caption="In babies who have pyloric stenosis, the muscles of the pylorus become abnormally large. This prevents food from entering the small intestine. 
-" Height="60" Title="Enlarged pyloric muscles" URI="/images/image_popup/thumbs/r7_pyloric_stenosisthu.jpg" Width="60" />
-				<Image Alt="Illustration showing enlarged pyloric muscles 
-" Caption="In babies who have pyloric stenosis, the muscles of the pylorus become abnormally large. This prevents food from entering the small intestine. 
-" Height="308" Title="Enlarged pyloric muscles" URI="/images/image_popup/r7_pyloric_stenosis.jpg" Width="400" />
+				<Thumbnail Alt="Illustration of the pylorus, stomach and small intestine in a young boy
+" Caption="The pylorus is a muscular valve that holds food in the stomach until it is ready for the next stage in the digestive process.
+" Height="60" Title="Pylorus" URI="/images/image_popup/thumbs/r7_pyloric_stenosisthu.jpg" Width="60" />
+				<Image Alt="Illustration of the pylorus, stomach and small intestine in a young boy
+" Caption="The pylorus is a muscular valve that holds food in the stomach until it is ready for the next stage in the digestive process.
+" Height="429" Title="Pylorus" URI="/images/image_popup/r7_pyloric_stenosis.jpg" Width="400" />
 				<HTML>
-					In babies who have pyloric stenosis, the muscles of the pylorus become abnormally large. This prevents food from entering the small intestine. 
+					The pylorus is a muscular valve that holds food in the stomach until it is ready for the next stage in the digestive process.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of thickened pylorus 
+" Caption="In pyloric stenosis, the pylorus muscles thicken, blocking food from entering the baby&apos;s small intestine. 
+" Height="60" Title="Pyloric stenosis" URI="/images/image_popup/thumbs/mcdc7_pyloric_stenosisthu.jpg" Width="60" />
+				<Image Alt="Illustration of thickened pylorus 
+" Caption="In pyloric stenosis, the pylorus muscles thicken, blocking food from entering the baby&apos;s small intestine. 
+" Height="440" Title="Pyloric stenosis" URI="/images/image_popup/mcdc7_pyloric_stenosis.jpg" Width="400" />
+				<HTML>
+					In pyloric stenosis, the pylorus muscles thicken, blocking food from entering the baby&apos;s small intestine. 
 ...
 				</HTML>
 			</PopupMedia>
@@ -262,6 +274,17 @@ Potential complications of surgery include bleeding and infection, but the rate 
 Most infants return home within 48 hours. Recovery from surgery takes about a week. Your baby may want to feed more often following surgery &amp;mdash; this is normal. 
 &lt;/p&gt;
 			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of pyloromyotomy procedure
+" Caption="In surgery to treat pyloric stenosis (pyloromyotomy), the surgeon makes an incision in the wall of the pylorus. The lining of the pylorus bulges through the incision, opening a channel from the stomach to the small intestine. 
+" Height="60" Title="Pyloromyotomy" URI="/images/image_popup/thumbs/mcdc7_pyloromyotomythu.jpg" Width="60" />
+				<Image Alt="Illustration of pyloromyotomy procedure
+" Caption="In surgery to treat pyloric stenosis (pyloromyotomy), the surgeon makes an incision in the wall of the pylorus. The lining of the pylorus bulges through the incision, opening a channel from the stomach to the small intestine. 
+" Height="550" Title="Pyloromyotomy" URI="/images/image_popup/mcdc7_pyloromyotomy.jpg" Width="400" />
+				<HTML>
+					In surgery to treat pyloric stenosis (pyloromyotomy), the surgeon makes an incision in the wall of the pylorus. The lining of the pylorus bulges through the incision, opening a channel from the ...
+				</HTML>
+			</PopupMedia>
 		</Section>
 	</Body>
 	<Title>

@@ -1,0 +1,78 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00717
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ankle-sprain/MM00717
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-20
+		</UpdateDate>
+		<PublicationDate>
+			2007-09-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="1990" Title="Sprains and strains">
+							<Keyword MCVID="3841" Title="Sprained ankle" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4CA061F9-E7FF-0DBD-19189A4ACCA06D58
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		Ankle sprain
+	</Title>
+	<Abstract>
+		How do you get an ankle sprain? Watch this video and find out.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00717_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+An ankle sprain &amp;mdash; an extremely common joint injury &amp;mdash; weakens your ankle. There are three ligaments on the outside of your ankle. These ligaments are somewhat more fragile than the ligaments on the inside of your ankle. Usually people roll their ankle inwards and in doing so tear the fibers of some of those ankle ligaments. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00717.jpg" width="60" />
+</Video>

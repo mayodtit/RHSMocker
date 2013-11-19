@@ -2,4 +2,4 @@
   .content_header_card
     .content_title_card= question.title.html_safe
     .content_text
-      = render :partial => "api/v1/questions/#{question.view}", :locals => {:question => question}
+      = render partial: "api/v1/questions/#{question.view}", locals: {card: card, question: question}

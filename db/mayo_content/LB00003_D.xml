@@ -1,0 +1,155 @@
+<SlideShow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SlideShow.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			SlideShow
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			LB00003_D
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sleeping-positions/LB00003_D
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-04
+		</UpdateDate>
+		<PublicationDate>
+			2003-02-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1398" Title="Spine">
+						<Keyword MCVID="1729" Title="Back pain or injury" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			626CB6D8-2DA8-47FF-A3176754517DC387
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sleep
+			</MetaKeyword>
+			<MetaKeyword>
+				back pain
+			</MetaKeyword>
+			<MetaKeyword>
+				low back pain
+			</MetaKeyword>
+			<MetaKeyword>
+				backache
+			</MetaKeyword>
+			<MetaKeyword>
+				back ache
+			</MetaKeyword>
+			<MetaKeyword>
+				sore back
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Slide show: Sleeping positions that reduce back pain
+	</Title>
+	<Abstract>
+		Avoid aggravating back pain while you sleep. Get comfortable using good sleeping positions.
+	</Abstract>
+	<Slides>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Your usual sleep position &amp;mdash; along with other factors, including your weight and your sex &amp;mdash; can strain your back and contribute to development of back pain. Sleeping positions also affect existing back pain, either by letting you sleep comfortably or by making you wake up sore. Similarly, back pain is more likely to keep you awake when your sleeping position provides no relief. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common sleeping position is on your side, with your legs and hips aligned and flexed. Because this position leaves your upper leg unsupported, the top knee and thigh tend to slide forward and rest on the mattress, rotating the lower spine. This slight rotation may contribute to back or hip pain. To prevent that problem, place a pillow between your knees and thighs. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Sleeping on your side
+			</Title>
+			<ImageAltText>
+				Photo of woman sleeping on her side
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/p22_propersleeping1.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+If you sleep on your back, place a pillow under your knees to help maintain the normal curve of your lower back. You might try a small, rolled towel under the small of your back for additional support. Support your neck with a pillow. 
+&lt;/p&gt;
+&lt;p&gt;
+This position may be helpful if you have low back pain. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Sleeping on your back
+			</Title>
+			<ImageAltText>
+				Photo of woman sleeping on her back
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/p22_propersleeping2.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Sleeping on your abdomen can be hard on your back. If you can&apos;t sleep any other way, reduce the strain on your back by placing a pillow under your pelvis and lower abdomen. Use a pillow under your head if it doesn&apos;t place too much strain on your back. If it does cause strain, try sleeping without a pillow under your head. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Sleeping on your abdomen
+			</Title>
+			<ImageAltText>
+				Photo of woman sleeping on her abdomen
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/p22_propersleeping3.jpg
+			</URI>
+		</Slide>
+	</Slides>
+</SlideShow>

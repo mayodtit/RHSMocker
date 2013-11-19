@@ -335,5 +335,6 @@ In the long run, accurate information about the disease, good medical care and s
 		<LinkItem ContentType="Disease" DocID="DS00017" LinkType="Internal" ObjectID="FE3FE459-7D1E-405F-95E9339CD2E974B8" Title="Thoracic aortic aneurysm" Url="http://www.mayoclinic.com/health/aortic-aneurysm/DS00017" />
 		<LinkItem ContentType="Disease" DocID="DS01194" LinkType="Internal" ObjectID="A79FE318-0945-8020-C0195BB597B9EC18" Title="Abdominal aortic aneurysm" Url="http://www.mayoclinic.com/health/abdominal-aortic-aneurysm/DS01194" />
 		<LinkItem ContentType="Disease" DocID="DS01170" LinkType="Internal" ObjectID="2DF19BFD-C87C-1865-6D71F3FCC6E90051" Title="Atelectasis" Url="http://www.mayoclinic.com/health/atelectasis/DS01170" />
+		<LinkItem ContentType="Disease" DocID="DS01209" LinkType="Internal" ObjectID="00181BF2-A05D-C7CA-9AC2C61BC10CCFFA" Title="Spontaneous coronary artery dissection" Url="http://www.mayoclinic.com/health/spontaneous-coronary-artery-dissection/DS01209" />
 	</RelatedLinksBox>
 </Disease>

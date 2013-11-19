@@ -1,0 +1,274 @@
+<SlideShow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SlideShow.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			SlideShow
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			BN00033
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/brain/BN00033
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-03
+		</UpdateDate>
+		<PublicationDate>
+			2005-03-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1755" Title="Brain" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DF9568B1-2929-495A-B78178FD38A8B131
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				brain
+			</MetaKeyword>
+			<MetaKeyword>
+				nerves
+			</MetaKeyword>
+			<MetaKeyword>
+				nervous system
+			</MetaKeyword>
+			<MetaKeyword>
+				function
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Slide show: How your brain works
+	</Title>
+	<Abstract>
+		Which part of your brain does what? Take a tour with this slide show.
+	</Abstract>
+	<Slides>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Your brain contains billions of nerve cells arranged in patterns that coordinate thought, emotion, behavior, movement and sensation. A complicated highway system of nerves connects your brain to the rest of your body, so communication can occur in split seconds. Think about how fast you pull your hand back from a hot stove. While all the parts of your brain work together, each part is responsible for a specific function &amp;mdash; controlling everything from your heart rate to your mood. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Brain and nervous system
+			</Title>
+			<ImageAltText>
+				Illustration of brain and nervous system
+			</ImageAltText>
+			<Height>
+				320
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/bn22_brainbasics.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+The cerebrum is the largest part of your brain. It&apos;s what you probably visualize when you think of brains in general. The outermost layer of the cerebrum is the cerebral cortex, the &quot;gray matter&quot; of the brain. Deep folds and wrinkles in the brain increase the surface area of the gray matter, so more information can be processed. 
+&lt;/p&gt;
+&lt;p&gt;
+The cerebrum is divided into two halves (hemispheres) by a deep fissure. The hemispheres communicate with each other through a thick tract of nerves, called the corpus callosum, at the base of the fissure. In fact, messages to and from one side of the body are usually handled by the opposite side of the brain. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Cerebrum
+			</Title>
+			<ImageAltText>
+				Illustration of cerebrum
+			</ImageAltText>
+			<Height>
+				320
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/bn22_ceresplit.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Your brain&apos;s hemispheres are divided into four lobes. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;The frontal lobes&lt;/strong&gt; control thinking, planning, organizing, problem solving, short-term memory and movement.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The parietal lobes&lt;/strong&gt; interpret sensory information, such as taste, temperature and touch. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The occipital lobes&lt;/strong&gt; process images from your eyes and link that information with images stored in memory. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The temporal lobes&lt;/strong&gt; process information from your senses of smell, taste and sound. They also play a role in memory storage.&lt;/li&gt;
+&lt;/ul&gt;
+			</Caption>
+			<Title>
+				Lobes of the brain
+			</Title>
+			<ImageAltText>
+				Illustration of brain lobes
+			</ImageAltText>
+			<Height>
+				320
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/bn22_lobes.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+The cerebellum is a wrinkled ball of tissue below and behind the rest of your brain. It works to combine sensory information from the eyes, ears and muscles to help coordinate movement. 
+&lt;/p&gt;
+&lt;p&gt;
+The brainstem links the brain to the spinal cord. It controls many functions vital to life, such as heart rate, blood pressure and breathing. This area is also important for sleep. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Cerebellum and brainstem
+			</Title>
+			<ImageAltText>
+				Illustration of cerebellum and brainstem
+			</ImageAltText>
+			<Height>
+				320
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/bn22_cerestem.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Structures deep within the brain control emotions and memories. Known as the limbic system, these structures come in pairs. Each part of this system is duplicated in the opposite half of the brain. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;The thalamus&lt;/strong&gt; acts as a gatekeeper for messages passed between the spinal cord and the cerebral hemispheres.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The hypothalamus&lt;/strong&gt; controls emotions. It also regulates your body&apos;s temperature and controls crucial urges &amp;mdash; such as eating or sleeping.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The hippocampus&lt;/strong&gt; sends memories to be stored in appropriate sections of the cerebrum and then recalls them when necessary.&lt;/li&gt;
+&lt;/ul&gt;
+			</Caption>
+			<Title>
+				The inner brain
+			</Title>
+			<ImageAltText>
+				Illustration of thalamus, hypothalamus and hippocampus
+			</ImageAltText>
+			<Height>
+				320
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/bn22_innerbrain.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+The peripheral nervous system is all the nerves in your body, aside from the ones in your brain and spinal cord. It acts as a communication relay between your brain and your extremities. For example, if you touch a hot stove, the pain signals travel from your finger to your brain in a split second. In just as short a time, your brain tells the muscles in your arm and hand to snatch your finger off the hot stove. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Peripheral nervous system
+			</Title>
+			<ImageAltText>
+				Illustration of how nerves run through the body
+			</ImageAltText>
+			<Height>
+				320
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/bn22_perinerves.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Nerve cells (neurons) have two main types of branches coming off their cell bodies. Dendrites receive incoming messages from other nerve cells. Axons carry outgoing signals from the cell body to other cells &amp;mdash; such as a nearby neuron or muscle cell.
+&lt;/p&gt;
+&lt;p&gt;
+Interconnected with each other, neurons are able to provide efficient, lightning-fast communication.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Nerve cells
+			</Title>
+			<ImageAltText>
+				Illustration of how nerve cells connect
+			</ImageAltText>
+			<Height>
+				320
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/bn22_nervecells.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+A nerve cell (neuron) communicates with other cells through electrical impulses when the nerve cell is stimulated. Within a neuron, the impulse moves to the tip of an axon and causes the release of neurotransmitters, chemicals that act as messengers.
+&lt;/p&gt;
+&lt;p&gt;
+Neurotransmitters pass through the synapse, the gap between two nerve cells, and attach to receptors on the receiving cell. This process repeats from neuron to neuron, as the impulse travels to its destination &amp;mdash; a web of communication that allows you to move, think, feel and communicate. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Neurotransmitters
+			</Title>
+			<ImageAltText>
+				Illustration of how nerves communicate
+			</ImageAltText>
+			<Height>
+				320
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/bn22_transmitters.jpg
+			</URI>
+		</Slide>
+	</Slides>
+</SlideShow>

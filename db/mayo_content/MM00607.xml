@@ -1,0 +1,84 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00607
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lasik-eye-surgery/MM00607
+		</OriginalURL>
+		<UpdateDate>
+			2013-05-29
+		</UpdateDate>
+		<PublicationDate>
+			2005-03-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3860" Title="Eyes">
+						<Keyword MCVID="4360" Title="Surgery">
+							<Keyword MCVID="3864" Title="LASIK eye surgery" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3F706153-C6A9-4A52-B0F4B679D8D3DD99
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		LASIK eye surgery
+	</Title>
+	<Abstract>
+		Watch this video to see how LASIK eye surgery is done.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00607_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+LASIK surgery is performed with a laser programmed to remove a defined amount of tissue from a part of your eye called the cornea. 
+&lt;/p&gt;
+&lt;p&gt;
+To begin, your doctor uses a special blade &amp;mdash; or laser &amp;mdash; to cut a flap on the top layer of your cornea, about the size of a contact lens. The flap allows access to the deeper layers of your cornea. 
+&lt;/p&gt;
+&lt;p&gt;
+The laser is used again to flatten certain tissue or to make the tissue steeper, depending on your needs for corrected vision. Finally, the flap is folded back into place and will heal on its own. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00607_lasik.jpg" width="60" />
+</Video>

@@ -29,7 +29,7 @@ resource "PhoneCalls" do
         explanation 'Get all phone calls (along with the caller\'s information), most recent first. Accessible only by HCPs'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        response[:phone_calls].to_json.should == [other_phone_call, phone_call].as_json(
+        response[:phone_calls].to_json.should == [phone_call, other_phone_call].as_json(
           include: {
             user: {
               only: [:first_name, :last_name, :email],
@@ -55,7 +55,7 @@ resource "PhoneCalls" do
         explanation 'Get a phone call (along with the caller\'s information). Accessible only by HCPs'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        response[:phone_call].to_json.should == phone_call.as_json(include: :user).to_json
+        response[:phone_call].to_json.should == phone_call.as_json(include: [:user, consult: {include: [:subject, :initiator]}]).to_json
       end
     end
   end

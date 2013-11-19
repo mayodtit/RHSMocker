@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00373
 		</OriginalURL>
 		<UpdateDate>
-			2007-08-01
+			2013-08-17
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -43,35 +43,43 @@
 	<Title>
 		Recipe: Fettuccine with Swiss chard and mushrooms
 	</Title>
-	<Abstract />
+	<Abstract>
+		Swiss chard is a leafy, cruciferous vegetable that is a good source of vitamins A and C and iron.
+	</Abstract>
 	<ServingInfo Label="Serves">
 		4
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
-		&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Swiss chard is a leafy, cruciferous vegetable that is a good source of vitamins A and C and iron. Prepare the leaves like you&apos;d prepare spinach leaves and the stems like asparagus.&lt;/p&gt;
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Swiss chard is a leafy, cruciferous vegetable that is a good source of vitamins A and C and iron. Prepare the leaves like you&apos;d prepare spinach leaves and the stems like asparagus. 
+&lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
-		&lt;p&gt;In a large skillet, heat the olive oil over medium heat. Add the shallots, garlic and mushrooms. Saute the vegetables until tender, about 5 minutes. Add the Swiss chard, reduce heat and cover for about 3 minutes. Using tongs, turn the chard over so that uncooked leaves are on the bottom and wilted leaves are on top. Cover and cook until completely wilted, about another 3 minutes.&lt;/p&gt;
-
-&lt;p&gt;Fill a large pot 3/4 full with water and bring to boil. Add the pasta and cook until al dente (tender), 10 to 12 minutes, or according to the package directions. Drain thoroughly, reserving 1/4 cup of the pasta water. Return the drained pasta to the pot. Add the Swiss chard mixture and the reserved pasta water. Toss to mix evenly.&lt;/p&gt;
-
-&lt;p&gt;Divide the pasta onto warmed plates. Top each serving with 1 tablespoon Parmesan cheese and cracked black pepper. Serve immediately.&lt;/p&gt;
+		&lt;p&gt;
+In a large skillet, heat the olive oil over medium heat. Add the shallots, garlic and mushrooms. Saute the vegetables until tender, about 5 minutes. Add the Swiss chard, reduce heat and cover for about 3 minutes. Using tongs, turn the chard over so that uncooked leaves are on the bottom and wilted leaves are on top. Cover and cook until completely wilted, about another 3 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+Fill a large pot 3/4 full with water and bring to boil. Add the pasta and cook until al dente (tender), 10 to 12 minutes, or according to the package directions. Drain thoroughly, reserving 1/4 cup of the pasta water. Return the drained pasta to the pot. Add the Swiss chard mixture and the reserved pasta water. Toss to mix evenly. 
+&lt;/p&gt;
+&lt;p&gt;
+Divide the pasta onto warmed plates. Top each serving with 1 tablespoon Parmesan cheese and cracked black pepper. Serve immediately.
+&lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
-		&lt;p&gt;2 tablespoons olive oil&lt;br /&gt;
-1/2 cup chopped shallots or green onions&lt;br /&gt;
-2 garlic cloves, sliced&lt;br /&gt;
-8 to 10 small mushrooms, sliced&lt;br /&gt;
-1 pound Swiss chard, trimmed of stems, washed thoroughly and chopped into 1-inch pieces&lt;br /&gt;
-6 ounces uncooked fettuccine&lt;br /&gt;
-1/4 cup grated Parmesan cheese&lt;br /&gt;
-1/4 teaspoon cracked black pepper&lt;/p&gt;
+		&lt;ul&gt;
+	&lt;li&gt;2 tablespoons olive oil&lt;/li&gt;
+	&lt;li&gt;1/2 cup chopped shallots or green onions&lt;/li&gt;
+	&lt;li&gt;2 garlic cloves, sliced&lt;/li&gt;
+	&lt;li&gt;8 to 10 small mushrooms, sliced&lt;/li&gt;
+	&lt;li&gt;1 pound Swiss chard, trimmed of stems, washed thoroughly and chopped into 1-inch pieces&lt;/li&gt;
+	&lt;li&gt;6 ounces uncooked fettuccine&lt;/li&gt;
+	&lt;li&gt;1/4 cup grated Parmesan cheese&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon cracked black pepper &lt;/li&gt;
+&lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
-			<Dairy Label="Dairy foods (low-fat or fat-free)">
-				1/2
-			</Dairy>
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
 			<Fats Label="Fats and oils">
 				2
 			</Fats>
@@ -92,9 +100,7 @@
 			</Fats>
 			<Freefoods Label="Free foods" />
 			<Fruits Label="Fruits" />
-			<Meat Label="Meat and meat substitutes">
-				1/2
-			</Meat>
+			<Meat Label="Meat and meat substitutes" />
 			<Milk Label="Milk and milk products" />
 			<NonStarchyVegetables Label="Nonstarchy vegetables">
 				2
@@ -112,9 +118,7 @@
 				2
 			</Fats>
 			<Fruits Label="Fruits" />
-			<Protein_Dairy Label="Protein and dairy">
-				1/2
-			</Protein_Dairy>
+			<Protein_Dairy Label="Protein and dairy" />
 			<Sweets Label="Sweets" />
 			<Vegetables Label="Vegetables">
 				2
@@ -131,7 +135,7 @@
 				4 mg
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
-				3 g
+				4 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
 				6 g
@@ -142,15 +146,21 @@
 			<Saturatedfat Label="Saturated fat">
 				2 g
 			</Saturatedfat>
-			<Servingsize Label="Serving size" />
+			<Servingsize Label="Serving size">
+				About 1 1/2 cups
+			</Servingsize>
 			<Sodium Label="Sodium">
 				325 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
 			<TotalFat Label="Total fat">
 				10 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>
@@ -165,9 +175,6 @@
 		</Category>
 		<Category CategoryLabel="Main ingredient">
 			Pasta
-		</Category>
-		<Category CategoryLabel="Special diets">
-			DASH diet
 		</Category>
 		<Category CategoryLabel="Course">
 			Main dishes
@@ -186,9 +193,6 @@
 		</Category>
 		<Category CategoryLabel="Meal">
 			Lunch
-		</Category>
-		<Category CategoryLabel="Special diets">
-			Heart-healthy
 		</Category>
 	</Categorization>
 </Recipe>

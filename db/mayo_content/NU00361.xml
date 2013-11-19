@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00361
 		</OriginalURL>
 		<UpdateDate>
-			2007-05-01
+			2013-05-01
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -33,6 +33,12 @@
 			<MetaKeyword>
 				mayocliniccookbook
 			</MetaKeyword>
+			<MetaKeyword>
+				apples
+			</MetaKeyword>
+			<MetaKeyword>
+				apple recipes
+			</MetaKeyword>
 		</MetaKeywords>
 		<HasFlash>
 			0
@@ -43,27 +49,37 @@
 	<Title>
 		Recipe: Apples with dip
 	</Title>
-	<Abstract />
+	<Abstract>
+		Apples with dip &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
 	<ServingInfo Label="Serves">
 		4
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
-		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; By using fat-free cream cheese instead of full-fat cream cheese, you save 143 calories and 19 grams of fat &amp;mdash; most of which is saturated fat &amp;mdash; in each serving.&lt;/p&gt;
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; By using fat-free cream cheese instead of full-fat cream cheese, you save about 70 calories and 10 grams of fat &amp;mdash; most of which is saturated fat &amp;mdash; in each serving.
+&lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
-		&lt;p&gt;Place the cream cheese on the counter to allow it to soften, about 5 minutes.&lt;/p&gt;
-
-&lt;p&gt;To make the dip, combine the brown sugar, vanilla and cream cheese in a small bowl. Mix until smooth. Stir in the chopped peanuts.&lt;/p&gt;
-
-&lt;p&gt;Place the apples in another bowl. Drizzle orange juice over the apples to prevent browning. Serve the sliced apples with the dip.&lt;/p&gt;
+		&lt;p&gt;
+Place the cream cheese on the counter to allow it to soften, about 5 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+To make the dip, combine brown sugar, vanilla and cream cheese in a small bowl. Mix until smooth. Stir in chopped peanuts. 
+&lt;/p&gt;
+&lt;p&gt;
+Place sliced apples in another bowl. Drizzle orange juice over the apples to prevent browning. Serve the sliced apples with the dip. 
+&lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
-		&lt;p&gt;8 ounces fat-free cream cheese&lt;br /&gt;
-2 tablespoons brown sugar&lt;br /&gt;
-1 1/2 teaspoons vanilla&lt;br /&gt;
-2 tablespoons chopped peanuts&lt;br /&gt;
-1/2 cup orange juice&lt;br /&gt;
-4 apples, cored and sliced&lt;/p&gt;
+		&lt;ul&gt;
+	&lt;li&gt;8 ounces fat-free cream cheese&lt;/li&gt;
+	&lt;li&gt;2 tablespoons brown sugar&lt;/li&gt;
+	&lt;li&gt;1 1/2 teaspoons vanilla&lt;/li&gt;
+	&lt;li&gt;2 tablespoons chopped peanuts&lt;/li&gt;
+	&lt;li&gt;4 medium or 8 small apples, cored and sliced &lt;/li&gt;
+	&lt;li&gt;1/2 cup orange juice&lt;/li&gt;
+&lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
@@ -114,49 +130,58 @@
 		</HWP>
 		<NutrientAnalysis Label="Nutritional Analysis per serving">
 			<Calories Label="Calories">
-				177
+				110
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
-				28 g
+				18 g
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
-				4 mg
+				3 mg
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
-				4 g
+				2.5 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
-				1 g
+				0.5 g
 			</Monounsaturatedfat>
 			<Protein Label="Protein">
-				10 g
+				5 g
 			</Protein>
 			<Saturatedfat Label="Saturated fat">
-				1 g
+				0.5 g
 			</Saturatedfat>
-			<Servingsize Label="Serving size" />
+			<Servingsize Label="Serving size">
+				1/2 medium apple and 2 tablespoons of dip
+			</Servingsize>
 			<Sodium Label="Sodium">
-				326 mg
+				208 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				2 g
+			</Sugars>
 			<TotalFat Label="Total fat">
-				3 g
+				2 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>
 		<Category CategoryLabel="Special diets">
 			Meatless
 		</Category>
-		<Category CategoryLabel="Number of servings">
-			Serves 4
-		</Category>
 		<Category CategoryLabel="Preparation method">
 			No cook
 		</Category>
 		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
 			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
 		</Category>
 		<Category CategoryLabel="Course">
 			Appetizers
@@ -170,11 +195,11 @@
 		<Category CategoryLabel="Special diets">
 			Weight management
 		</Category>
-		<Category CategoryLabel="Course">
-			Desserts
+		<Category CategoryLabel="Number of servings">
+			Serves 8
 		</Category>
-		<Category CategoryLabel="Meal">
-			Dinner
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
 		</Category>
 		<Category CategoryLabel="Special diets">
 			Low-fat

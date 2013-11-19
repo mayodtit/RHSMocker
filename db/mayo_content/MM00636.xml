@@ -1,0 +1,117 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00636
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/circulatory-system/MM00636
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-05
+		</UpdateDate>
+		<PublicationDate>
+			2005-10-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1475" Title="Coronary heart disease" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DC99F092-6EAA-4CDC-88A1F80D923861AE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		Heart and circulatory system &amp;mdash; How they work
+	</Title>
+	<Abstract>
+		Watch this video to see how a healthy heart works.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00636_heart_function_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+Your heart is a pump. It&apos;s a muscular organ about the size of your fist and located slightly left of center in your chest. 
+&lt;/p&gt;
+&lt;p&gt;
+Your heart is divided into the right and the left side. The division protects oxygen-rich blood from mixing with oxygen-poor blood. 
+&lt;/p&gt;
+&lt;p&gt;
+Together, your heart and blood vessels comprise your cardiovascular system, which circulates blood and oxygen around your body. In fact: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your heart pumps about 5 quarts of blood every minute.&lt;/li&gt;
+	&lt;li&gt;It beats about 100,000 times in one day &amp;mdash; that&apos;s about 35 million times in a year.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Oxygen-poor blood, &quot;blue blood,&quot; returns to the heart after circulating through your body. 
+&lt;/p&gt;
+&lt;p&gt;
+The right side of the heart, composed of the right atrium and ventricle, collects and pumps blood to the lungs through the pulmonary arteries. The lungs refresh the blood with a new supply of oxygen, making it turn red. 
+&lt;/p&gt;
+&lt;p&gt;
+Oxygen-rich blood, &quot;red blood,&quot; then enters the left side of the heart, composed of the left atrium and ventricle, and is pumped through the aorta to the body to supply tissues with oxygen. 
+&lt;/p&gt;
+&lt;p&gt;
+Four valves within your heart keep your blood moving the right way. 
+&lt;/p&gt;
+&lt;p&gt;
+The tricuspid, mitral, pulmonary and aortic valves work like gates on a fence. They open only one way and only when pushed on. Each valve opens and closes once per heartbeat &amp;mdash; or about once every second. 
+&lt;/p&gt;
+&lt;p&gt;
+A beating heart contracts and relaxes. Contraction is called systole, and relaxing is called diastole. 
+&lt;/p&gt;
+&lt;p&gt;
+During systole, your ventricles contract, forcing blood into the vessels going to your lungs and body &amp;mdash; much like ketchup being forced out of a squeeze bottle. The right ventricle contracts a little bit before the left ventricle does. 
+&lt;/p&gt;
+&lt;p&gt;
+Your ventricles then relax during diastole and are filled with blood coming from the upper chambers, the left and right atria. Then the cycle starts over again. 
+&lt;/p&gt;
+&lt;p&gt;
+Your heart is nourished by blood, too. Blood vessels called coronary arteries extend over the surface of your heart and branch into smaller capillaries. Here you can see just the network of blood vessels that feed your heart with oxygen-rich blood. 
+&lt;/p&gt;
+&lt;p&gt;
+Your heart also has electrical wiring, which keeps it beating. Electrical impulses begin high in the right atrium and travel through specialized pathways to the ventricles, delivering the signal to pump. 
+&lt;/p&gt;
+&lt;p&gt;
+The conduction system keeps your heart beating in a coordinated and normal rhythm, which in turn keeps blood circulating. The continuous exchange of oxygen-rich blood with oxygen-poor blood is what keeps you alive. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00636_heart_function.jpg" width="60" />
+</Video>

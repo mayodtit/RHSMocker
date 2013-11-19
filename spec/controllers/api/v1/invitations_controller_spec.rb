@@ -72,6 +72,11 @@ describe Api::V1::InvitationsController do
 
           it_behaves_like 'success'
 
+          it 'downcases email' do
+            post :create, auth_token: user.auth_token, user: {email: email.upcase}
+            response.should be_success
+          end
+
           it 'assigns hcp role to the user' do
             @invited_member.should_receive(:add_role).with :hcp
             do_request
@@ -94,6 +99,11 @@ describe Api::V1::InvitationsController do
           end
 
           it_behaves_like 'success'
+
+          it 'downcases email' do
+            post :create, auth_token: user.auth_token, user: {email: email.upcase}
+            response.should be_success
+          end
 
           it 'assigns hcp role to the user' do
             @invited_member.should_receive(:add_role).with :hcp
@@ -147,7 +157,6 @@ describe Api::V1::InvitationsController do
   end
 
   describe 'PUT update' do
-
     def do_request
       put :update, id: 'ABCD'
     end
@@ -155,9 +164,19 @@ describe Api::V1::InvitationsController do
     it_behaves_like 'invitation 404'
 
     context 'invitation exists' do
+      let(:ids) { [1] }
+
       before do
         @invitation = build_stubbed :invitation
         Invitation.stub(find_by_token!: @invitation)
+
+        Agreement.stub(:active) do
+          o = Object.new
+          o.stub(:pluck).with(:id) do
+            ids
+          end
+          o
+        end
       end
 
       let(:user_params) {
@@ -170,11 +189,24 @@ describe Api::V1::InvitationsController do
 
       it 'updates the invited member with email, first name, last name, and password' do
         filtered_params = user_params.select { |key, value| key.match(/^(email)|(first_name)|(last_name)|(password)|(password_confirmation)/) }
+        filtered_params['agreement_params'] = {'ids' => ids, 'ip_address' => 'SERVER', 'user_agent' => 'SERVER'}
 
         @invitation.invited_member.should_receive(:update_attributes).with(filtered_params)
         @invitation.stub(:claim!)
 
         put :update, id: 'ABCD', user: user_params
+      end
+
+      it 'downcases email' do
+        user_params_w_upcase_email = user_params.clone
+        user_params_w_upcase_email['email'] = user_params['email'].upcase
+        filtered_params = user_params.select { |key, value| key.match(/^(email)|(first_name)|(last_name)|(password)|(password_confirmation)/) }
+        filtered_params['agreement_params'] = {'ids' => ids, 'ip_address' => 'SERVER', 'user_agent' => 'SERVER'}
+
+        @invitation.invited_member.should_receive(:update_attributes).with(filtered_params)
+        @invitation.stub(:claim!)
+
+        put :update, id: 'ABCD', user: user_params_w_upcase_email
       end
 
       context 'user attributes are valid' do

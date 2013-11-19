@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131101002612) do
+ActiveRecord::Schema.define(:version => 20131115220632) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -142,6 +142,7 @@ ActiveRecord::Schema.define(:version => 20131101002612) do
     t.boolean  "show_call_option",    :default => true, :null => false
     t.boolean  "show_checker_option", :default => true, :null => false
     t.boolean  "show_mayo_copyright", :default => true, :null => false
+    t.string   "type"
   end
 
   add_index "contents", ["document_id"], :name => "index_contents_on_document_id"
@@ -172,6 +173,14 @@ ActiveRecord::Schema.define(:version => 20131101002612) do
     t.datetime "created_at",                     :null => false
     t.datetime "updated_at",                     :null => false
     t.boolean  "unlimited",   :default => false, :null => false
+  end
+
+  create_table "custom_cards", :force => true do |t|
+    t.integer  "content_id"
+    t.string   "title"
+    t.text     "raw_preview"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "delayed_jobs", :force => true do |t|
@@ -407,6 +416,24 @@ ActiveRecord::Schema.define(:version => 20131101002612) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "symptom_medical_advice_items", :force => true do |t|
+    t.text     "description"
+    t.integer  "symptom_medical_advice_id"
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
+  end
+
+  add_index "symptom_medical_advice_items", ["symptom_medical_advice_id"], :name => "index_symptom_medical_advice_items_on_symptom_medical_advice_id"
+
+  create_table "symptom_medical_advices", :force => true do |t|
+    t.text     "description"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.integer  "symptom_id"
+  end
+
+  add_index "symptom_medical_advices", ["symptom_id"], :name => "index_symptom_medical_advices_on_symptom_id"
+
   create_table "symptom_selfcare_items", :force => true do |t|
     t.text     "description"
     t.integer  "symptom_selfcare_id"
@@ -587,6 +614,7 @@ ActiveRecord::Schema.define(:version => 20131101002612) do
     t.string   "stripe_customer_id"
     t.string   "google_analytics_uuid",           :limit => 36
     t.string   "avatar_url_override"
+    t.text     "client_data"
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"

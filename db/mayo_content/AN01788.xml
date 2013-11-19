@@ -103,6 +103,8 @@ Although research has shown that ovarian cancer vaccines may hold promise, these
 	</QuestionState>
 	<BenefitSummary />
 	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00590" LinkType="Internal" ObjectID="C8FFB9B3-00AC-2863-299CEB1E08E1A0A5" Title="CA 125 test" Url="http://www.mayoclinic.com/health/ca-125-test/MY00590" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00099" LinkType="Internal" ObjectID="BB71967E-E7FF-0DBD-18F947AE9007E769" Title="Vaginal hysterectomy" Url="http://www.mayoclinic.com/health/vaginal-hysterectomy/MY00099" />
 		<LinkItem ContentType="TestProcedure" DocID="MY00657" LinkType="Internal" ObjectID="A121BD6A-0332-6EC7-9EC5870D8B4B5EF3" Title="Pelvic exam" Url="http://www.mayoclinic.com/health/pelvic-exam/MY00657" />
 		<LinkItem ContentType="TestProcedure" DocID="MY02174" LinkType="Internal" ObjectID="9A4289A3-CF79-8006-75C83F9051AC42F8" Title="Egg freezing" Url="http://www.mayoclinic.com/health/egg-freezing/MY02174" />
 		<LinkItem ContentType="TestProcedure" DocID="MY00554" LinkType="Internal" ObjectID="3DBBC50B-9EAA-08E9-438DD8EDF1A92A3F" Title="Oophorectomy (ovary removal surgery)" Url="http://www.mayoclinic.com/health/oophorectomy/MY00554" />
@@ -117,7 +119,5 @@ Although research has shown that ovarian cancer vaccines may hold promise, these
 		<LinkItem ContentType="Answer" DocID="HQ00366" LinkType="Internal" ObjectID="A8C71D2D-D06B-4948-A68238AD2D1FC622" Title="CA 125 test: A screening test for ovarian cancer?" Url="http://www.mayoclinic.com/health/ca-125/HQ00366" />
 		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
 		<LinkItem ContentType="Disease" DocID="DS00293" LinkType="Internal" ObjectID="EF55BD38-2667-4900-ACA0A74BD6F570D1" Title="Ovarian cancer" Url="http://www.mayoclinic.com/health/ovarian-cancer/DS00293" />
-		<LinkItem ContentType="TestProcedure" DocID="MY00590" LinkType="Internal" ObjectID="C8FFB9B3-00AC-2863-299CEB1E08E1A0A5" Title="CA 125 test" Url="http://www.mayoclinic.com/health/ca-125-test/MY00590" />
-		<LinkItem ContentType="TestProcedure" DocID="MY00099" LinkType="Internal" ObjectID="BB71967E-E7FF-0DBD-18F947AE9007E769" Title="Vaginal hysterectomy" Url="http://www.mayoclinic.com/health/vaginal-hysterectomy/MY00099" />
 	</RelatedLinksBox>
 </Answer>

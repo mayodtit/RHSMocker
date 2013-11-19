@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00577
 		</OriginalURL>
 		<UpdateDate>
-			2011-10-01
+			2013-07-27
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -67,7 +67,7 @@ To serve, place about 1/2 cup bean mixture on 1 tortilla. Top with 2 tablespoons
 	</Directions>
 	<Ingredients Label="Ingredients">
 		&lt;ul&gt;
-	&lt;li&gt;1/2 cups canned black beans, rinsed and drained&lt;/li&gt;
+	&lt;li&gt;1 1/2 cups canned black beans, rinsed and drained&lt;/li&gt;
 	&lt;li&gt;1 1/2 cups frozen corn kernels, thawed to room temperature&lt;/li&gt;
 	&lt;li&gt;3 tablespoons chopped fresh cilantro&lt;/li&gt;
 	&lt;li&gt;2 tablespoons chopped green chili peppers&lt;/li&gt;
@@ -82,7 +82,7 @@ To serve, place about 1/2 cup bean mixture on 1 tortilla. Top with 2 tablespoons
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
 			<Dairy Label="Dairy foods (low-fat or fat-free)">
-				1
+				1/2
 			</Dairy>
 			<Fats Label="Fats and oils" />
 			<Fruits Label="Fruits" />
@@ -91,7 +91,7 @@ To serve, place about 1/2 cup bean mixture on 1 tortilla. Top with 2 tablespoons
 			</Grains>
 			<Meat Label="Meats, poultry and fish" />
 			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans">
-				1
+				1/2
 			</Nuts_Seeds_Drybeans>
 			<Sweets Label="Sweets" />
 			<Vegetables Label="Vegetables">
@@ -103,9 +103,11 @@ To serve, place about 1/2 cup bean mixture on 1 tortilla. Top with 2 tablespoons
 			<Freefoods Label="Free foods" />
 			<Fruits Label="Fruits" />
 			<Meat Label="Meat and meat substitutes">
-				1
+				1/2
 			</Meat>
-			<Milk Label="Milk and milk products" />
+			<Milk Label="Milk and milk products">
+				1/2
+			</Milk>
 			<NonStarchyVegetables Label="Nonstarchy vegetables">
 				1
 			</NonStarchyVegetables>
@@ -130,37 +132,41 @@ To serve, place about 1/2 cup bean mixture on 1 tortilla. Top with 2 tablespoons
 		</HWP>
 		<NutrientAnalysis Label="Nutritional Analysis per serving">
 			<Calories Label="Calories">
-				368
+				395
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
-				67 g
+				58 g
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
-				10 mg
+				15 mg
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
-				7 g
+				12 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
-				1 g
+				2 g
 			</Monounsaturatedfat>
 			<Protein Label="Protein">
 				16 g
 			</Protein>
 			<Saturatedfat Label="Saturated fat">
-				2 g
+				6 g
 			</Saturatedfat>
 			<Servingsize Label="Serving size">
 				1 wrap
 			</Servingsize>
 			<Sodium Label="Sodium">
-				800 mg
+				752 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
 			<TotalFat Label="Total fat">
-				4 g
+				11 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>

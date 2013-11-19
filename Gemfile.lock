@@ -105,10 +105,6 @@ GEM
       activerecord (>= 2.1.0, < 4)
       delayed_job (~> 3.0)
     diff-lcs (1.2.4)
-    draper (1.2.1)
-      actionpack (>= 3.0)
-      activesupport (>= 3.0)
-      request_store (~> 1.0.3)
     erubis (2.7.0)
     excon (0.25.3)
     execjs (1.4.0)
@@ -262,7 +258,6 @@ GEM
     rdoc (3.12.2)
       json (~> 1.4)
     ref (1.0.5)
-    request_store (1.0.5)
     rest-client (1.6.7)
       mime-types (>= 1.16)
     ri_cal (0.8.8)
@@ -373,7 +368,6 @@ DEPENDENCIES
   curb
   debugger
   delayed_job_active_record
-  draper
   factory_girl_rails
   factual-api
   figaro

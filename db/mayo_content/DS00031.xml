@@ -225,10 +225,10 @@ In some cases, your doctor may suggest:
 &lt;/ul&gt;
 			</HTML>
 			<PopupMedia>
-				<Thumbnail Alt="Image showing person using a spirometer 
+				<Thumbnail Alt="Photograph showing person using a spirometer 
 " Caption="A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
 " Height="60" Title="Spirometer" URI="/images/image_popup/thumbs/as7_spiromthu.jpg" Width="60" />
-				<Image Alt="Image showing person using a spirometer 
+				<Image Alt="Photograph showing person using a spirometer 
 " Caption="A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
 " Height="307" Title="Spirometer" URI="/images/image_popup/as7_spirom.jpg" Width="400" />
 				<HTML>
@@ -304,6 +304,7 @@ To reduce your risk of bronchitis, follow these tips:
 	<RelatedLinksBox>
 		<LinkItem ContentType="TestProcedure" DocID="MY00413" LinkType="Internal" ObjectID="B14D4995-E7FF-0DBD-1E98F85183EE3B1D" Title="Spirometry" Url="http://www.mayoclinic.com/health/spirometry/MY00413" />
 		<LinkItem ContentType="Answer" DocID="AN02143" LinkType="Internal" ObjectID="399DF620-BDAA-8F5C-475E946ECCF36A6F" Title="Trouble breathing: Could it be asthma?" Url="http://www.mayoclinic.com/health/trouble-breathing/AN02143" />
+		<LinkItem ContentType="Article" DocID="MY02523" LinkType="Internal" ObjectID="3BA1D951-96EA-1423-7EA1E4AB155CF29C" Title="How much sleep do you really need?" Url="http://www.mayoclinic.com/health/sleep-custom-site/MY02523" />
 		<LinkItem ContentType="Article" DocID="CC00023" LinkType="Internal" ObjectID="055661AE-8008-40C8-A8526ED085B5CCC1" Title="Secondhand smoke: Avoid dangers in the air" Url="http://www.mayoclinic.com/health/secondhand-smoke/CC00023" />
 		<LinkItem ContentType="Answer" DocID="AN01441" LinkType="Internal" ObjectID="D60227C6-E7FF-0DBD-1C647AA0FC6347E0" Title="Acute bronchitis: Is it contagious?" Url="http://www.mayoclinic.com/health/acute-bronchitis/AN01441" />
 		<LinkItem ContentType="Disease" DocID="DS00081" LinkType="Internal" ObjectID="5CB89570-8B46-4961-8BFE66D06D5BDD1B" Title="Influenza (flu)" Url="http://www.mayoclinic.com/health/influenza/DS00081" />

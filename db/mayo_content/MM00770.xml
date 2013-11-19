@@ -1,0 +1,78 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00770
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cornea-transplant/MM00770
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-05
+		</UpdateDate>
+		<PublicationDate>
+			2009-02-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3860" Title="Eyes">
+						<Keyword MCVID="4360" Title="Surgery">
+							<Keyword MCVID="3862" Title="Cornea transplant" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8E447825-94B3-4A8C-0D8D60898FE4D790
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		Cornea transplant
+	</Title>
+	<Abstract>
+		Video shows how full-thickness and partial-thickness cornea transplants are performed.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00770_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+Full-thickness corneal transplants involve removing the diseased cornea and stitching in a new one from a donor. But now, for diseases that affect only the inner lining of the cornea, doctors can do a partial-thickness transplant. This involves removing only the damaged layer and transplanting it with donor tissue.
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00770.jpg" width="60" />
+</Video>

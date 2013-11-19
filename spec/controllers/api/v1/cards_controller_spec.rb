@@ -4,7 +4,6 @@ describe Api::V1::CardsController do
   let(:user) { build_stubbed(:member) }
   let(:ability) { Object.new.extend(CanCan::Ability) }
   let(:card) { build_stubbed(:card, :user => user) }
-  let(:card_keys) { card.active_model_serializer_instance.as_json.keys.map(&:to_sym) << :preview }
 
   before(:each) do
     controller.stub(:current_ability => ability)
@@ -14,6 +13,8 @@ describe Api::V1::CardsController do
     def do_request
       get :inbox
     end
+
+    let(:card_keys) { card.serializer(preview: true, card_actions: true).as_json.keys.map(&:to_sym) }
 
     it_behaves_like 'action requiring authentication and authorization'
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
@@ -37,6 +38,8 @@ describe Api::V1::CardsController do
     def do_request
       get :timeline
     end
+
+    let(:card_keys) { card.serializer.as_json.keys.map(&:to_sym) }
 
     it_behaves_like 'action requiring authentication and authorization'
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
@@ -62,7 +65,7 @@ describe Api::V1::CardsController do
     end
 
     let(:cards) { double('cards', :find => card) }
-    let(:card_keys) { card.active_model_serializer_instance.as_json.keys.map(&:to_sym) << :body }
+    let(:card_keys) { card.serializer(body: true, fullscreen_actions: true).as_json.keys.map(&:to_sym) }
 
     before(:each) do
       user.stub(:cards => cards)
@@ -77,6 +80,45 @@ describe Api::V1::CardsController do
         do_request
         json = JSON.parse(response.body, :symbolize_names => true)
         json[:card].keys.should =~ card_keys
+      end
+    end
+  end
+
+  describe 'POST create' do
+    def do_request
+      post :create, card: card.as_json
+    end
+
+    let(:cards) { double('cards', create: card) }
+
+    before do
+      user.stub(cards: cards)
+    end
+
+    it_behaves_like 'action requiring authentication and authorization'
+
+    context 'authenticated and authorized', user: :authenticate_and_authorize! do
+      it 'attempts to create the record' do
+        cards.should_receive(:create).once
+        do_request
+      end
+
+      context 'save succeeds' do
+        it_behaves_like 'success'
+
+        it 'returns the card' do
+          do_request
+          json = JSON.parse(response.body)
+          json['card'].to_json.should == card.serializer.as_json.to_json
+        end
+      end
+
+      context 'save fails' do
+        before do
+          card.errors.add(:base, :invalid)
+        end
+
+        it_behaves_like 'failure'
       end
     end
   end
