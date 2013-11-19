@@ -896,7 +896,7 @@ SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advic
 SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You have ankle swelling, stiffness and pain that's worse in the morning or after you've been active",
                                                           :symptom_medical_advice_id=>foot_ankle_office_medadvice.id)
 
-foot_leg_swelling_symptom   = Symptom.upsert_attributes({:name=>"Foot/Leg Swelling", :patient_type=>"adult"},
+foot_leg_swelling_symptom   = Symptom.upsert_attributes({:name=>"Foot Swelling or Leg Swelling", :patient_type=>"adult"},
   {:description=>"Foot or leg swelling occurs because of inflammation or the accumulation of fluid in tissues. Identify possible common causes based on symptoms you're experiencing.",
    :selfcare=>"If you experience leg or foot swelling not related to an injury or joint pain, you may try the following self-care strategies to lessen symptoms:"
    })
