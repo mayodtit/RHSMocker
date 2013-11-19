@@ -29,6 +29,6 @@ class Api::V1::CustomContentsController < Api::V1::ABaseController
   end
 
   def custom_content_params
-    params.require(:custom_content).permit(:title, :body, :content_type, :abstract)
+    params.require(:custom_content).permit(:title, :raw_body, :content_type, :abstract)
   end
 end
