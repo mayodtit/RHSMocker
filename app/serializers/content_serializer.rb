@@ -21,7 +21,7 @@ class ContentSerializer < ViewSerializer
   end
 
   def raw_body
-    object.body
+    object.raw_body
   end
 
   def preview
@@ -32,7 +32,7 @@ class ContentSerializer < ViewSerializer
   end
 
   def raw_preview
-    object.body.split(' ').slice(0, 101).join(' ').gsub(/\ADefinition<p>/, "")
+    object.raw_body.split(' ').slice(0, 101).join(' ').gsub(/\ADefinition<p>/, "")
   end
 
   def share_url

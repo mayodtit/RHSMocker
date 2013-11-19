@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :content do
     sequence(:title) {|x| "Content #{x}"}
-    body "HTML body"
+    raw_body "HTML body"
     content_type "Content"
     sequence(:document_id) {|x| "#{x}"}
     show_call_option true
@@ -11,7 +11,7 @@ FactoryGirl.define do
 
   factory :mayo_content, class: MayoContent do
     sequence(:title) {|x| "MayoContent #{x}"}
-    body "HTML body"
+    raw_body "HTML body"
     content_type "Content"
     sequence(:document_id) {|x| "MAYO-#{x}"}
     show_call_option true
@@ -21,7 +21,7 @@ FactoryGirl.define do
 
   factory :custom_content, class: CustomContent do
     sequence(:title) {|x| "CustomContent #{x}"}
-    body "HTML body"
+    raw_body "HTML body"
     content_type "Content"
     sequence(:document_id) {|x| "CUSTOM-#{x}"}
     show_call_option true
