@@ -22,6 +22,7 @@ class Ability
       pcs.message.consult.users.include?(user)
     end
 
+    cannot :manage, Program
     cannot :manage, CustomCard
     cannot :index, Member
 
