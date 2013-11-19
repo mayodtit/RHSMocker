@@ -22,6 +22,8 @@ class Ability
       pcs.message.consult.users.include?(user)
     end
 
+    cannot :index, Member
+
     if user.try_method(:hcp?) || user.try_method(:admin?)
       can :manage, :all
     end

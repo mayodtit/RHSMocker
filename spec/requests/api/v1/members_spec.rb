@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe 'Members' do
-  let!(:member) { create(:member) }
+  let!(:member) { create(:admin) }
 
   describe 'GET /api/v1/members' do
     def do_request(params={})
