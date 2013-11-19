@@ -913,7 +913,7 @@ SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advic
 SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You are pregnant and have new foot swelling",
                                                           :symptom_medical_advice_id=>foot_leg_swelling_medadvice.id)
 
-headache_symptom      = Symptom.upsert_attributes({:name=>"Headache", :patient_type=>"adult"},
+headache_symptom      = Symptom.upsert_attributes({:name=>"Headaches", :patient_type=>"adult"},
   {:description=>"Headaches are common and usually aren't the result of serious illness. Identify possible common causes based on symptoms you're experiencing.",
    :selfcare=>"For occasional tension headaches, the following self-care strategies may provide relief:"
    })
@@ -1229,7 +1229,7 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Give your child a lukewarm bath", 
                                           :symptom_selfcare_id=>fever_symptom_child_selfcare.id)
 
-headache_symptom_child  = Symptom.upsert_attributes({:name=>"Headache", :patient_type=>"child"},
+headache_symptom_child  = Symptom.upsert_attributes({:name=>"Headaches", :patient_type=>"child"},
   {:description=>"Headaches are common and usually aren't the result of serious illness. Identify possible common causes based on your child's symptoms.",
    :selfcare=>"For occasional tension headaches, the following self-care strategies may provide relief for your child:"
    })
