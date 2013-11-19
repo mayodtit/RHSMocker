@@ -1273,7 +1273,7 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a nasal saline spray", 
                                           :symptom_selfcare_id=>nasal_congestion_symptom_child_selfcare.id)
 
-nausea_or_vomiting_symptom_child = Symptom.upsert_attributes({:name=>"Nausea of Vomiting", :patient_type=>"child"},
+nausea_or_vomiting_symptom_child = Symptom.upsert_attributes({:name=>"Nausea or Vomiting", :patient_type=>"child"},
   {:description=>"Nausea or vomiting is most often caused by the stomach flu. Identify other possible common causes based on symptoms you're experiencing.",
    :selfcare=>"The following strategies can lessen discomfort and prevent dehydration if your child experiences nausea or vomiting:"
    })
