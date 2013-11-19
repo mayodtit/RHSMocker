@@ -7,7 +7,7 @@ class Api::V1::CustomContentsController < Api::V1::ABaseController
   end
 
   def show
-    show_resource @custom_content
+    show_resource @custom_content.serializer(serializer_options)
   end
 
   def create
@@ -15,7 +15,7 @@ class Api::V1::CustomContentsController < Api::V1::ABaseController
   end
 
   def update
-    update_resource @custom_content, custom_content_params
+    update_resource @custom_content, custom_content_params, serializer_options: serializer_options
   end
 
   private
@@ -30,5 +30,14 @@ class Api::V1::CustomContentsController < Api::V1::ABaseController
 
   def custom_content_params
     params.require(:custom_content).permit(:title, :raw_body, :content_type, :abstract)
+  end
+
+  def serializer_options
+    {
+      preview: true,
+      raw_preview: true,
+      body: true,
+      raw_body: true
+    }
   end
 end
