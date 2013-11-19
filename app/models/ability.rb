@@ -22,6 +22,7 @@ class Ability
       pcs.message.consult.users.include?(user)
     end
 
+    cannot :manage, CustomCard
     cannot :index, Member
 
     if user.try_method(:hcp?) || user.try_method(:admin?)

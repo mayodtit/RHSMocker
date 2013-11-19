@@ -21,9 +21,9 @@ describe Api::V1::CustomCardsController do
         get :index, auth_token: user.auth_token
       end
 
-      it_behaves_like 'action requiring authentication'
+      it_behaves_like 'action requiring authentication and authorization'
 
-      context 'authenticated', user: :authenticate! do
+      context 'authenticated and authorized', user: :authenticate_and_authorize! do
         it_behaves_like 'success'
 
         it 'returns an array of custom_cards' do
@@ -39,9 +39,9 @@ describe Api::V1::CustomCardsController do
         get :show, auth_token: user.auth_token
       end
 
-      it_behaves_like 'action requiring authentication'
+      it_behaves_like 'action requiring authentication and authorization'
 
-      context 'authenticated', user: :authenticate! do
+      context 'authenticated and authorized', user: :authenticate_and_authorize! do
         it_behaves_like 'success'
 
         it 'returns the custom_card' do
@@ -61,9 +61,9 @@ describe Api::V1::CustomCardsController do
         custom_card.stub(:update_attributes)
       end
 
-      it_behaves_like 'action requiring authentication'
+      it_behaves_like 'action requiring authentication and authorization'
 
-      context 'authenticated', user: :authenticate! do
+      context 'authenticated and authorized', user: :authenticate_and_authorize! do
         it 'attempts to update the record' do
           custom_card.should_receive(:update_attributes).once
           do_request
@@ -100,9 +100,9 @@ describe Api::V1::CustomCardsController do
       CustomCard.stub(:create => custom_card)
     end
 
-    it_behaves_like 'action requiring authentication'
+    it_behaves_like 'action requiring authentication and authorization'
 
-    context 'authenticated', user: :authenticate! do
+    context 'authenticated and authorized', user: :authenticate_and_authorize! do
       it 'attempts to create the record' do
         CustomCard.should_receive(:create).once
         do_request

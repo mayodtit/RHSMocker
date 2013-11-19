@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe 'CustomCards' do
-  let(:user) { create(:member) }
+  let(:user) { create(:admin) }
 
   context 'existing record' do
     let!(:custom_card) { create(:custom_card) }
