@@ -10,6 +10,8 @@ class Content < ActiveRecord::Base
   has_many :contents_symptoms_factors
   has_many :symptoms_factors, :through => :contents_symptoms_factors
   has_and_belongs_to_many :symptoms
+  has_many :content_references, foreign_key: :referrer_id
+  has_many :referees, through: :content_references
 
   attr_accessible :title, :raw_body, :content_type, :abstract, :question, :keywords,
                   :content_updated_at, :document_id, :show_call_option,

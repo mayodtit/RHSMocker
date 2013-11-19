@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131119195820) do
+ActiveRecord::Schema.define(:version => 20131119220405) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -126,6 +126,13 @@ ActiveRecord::Schema.define(:version => 20131119195820) do
     t.integer  "mayo_vocabulary_id"
     t.datetime "created_at",         :null => false
     t.datetime "updated_at",         :null => false
+  end
+
+  create_table "content_references", :force => true do |t|
+    t.integer  "referrer_id"
+    t.integer  "referee_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "contents", :force => true do |t|
