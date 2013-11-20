@@ -29,20 +29,48 @@ task :devhosted do
   role :web,      'goldenbear.getbetter.com'
   role :app,      'goldenbear.getbetter.com', :primary => true
   role :db,       'goldenbear.getbetter.com', :primary => true
+  role :delayed,  'goldenbear.getbetter.com'
 end
 
-desc "Deploy target bench2 @ FireHost"
-task :bench2 do
+desc "Deploy target sandbox @ EC2"
+task :sandbox do
+  set :port, 9722
+  set :branch, "devops"
+  set :rails_env, 'sandbox'
+  role :web,      'sandbox.getbetter.com'
+  role :app,      'sandbox.getbetter.com', :primary => true
+  role :db,       'sandbox.getbetter.com', :primary => true
+  role :delayed,  'sandbox.getbetter.com'
+end
+
+desc "Deploy target benchmark @ FireHost (longhorn, wolverine)"
+task :benchmark do
   set :port, 22
   set :branch, "devops"
   set :rails_env,       "benchmark"
-  role :web,            "fh1.getbetter.com"
-  role :app,            "fh1.getbetter.com", :primary => true
-  role :web,            "fh2.getbetter.com"
-#  role :app,            "fh2.getbetter.com", :primary => true
-  role :db,             'fh1.getbetter.com', :primary => true
+  role :web,            "longhorn.getbetter.com"
+  role :app,            "longhorn.getbetter.com", :primary => true
+  role :web,            "wolverine.getbetter.com"
+#  role :app,            "wolverine.getbetter.com", :primary => true
+  role :db,             'longhorn.getbetter.com', :primary => true
+  role :delayed,  	'longhorn.getbetter.com'
 end
 
+desc "Deploy target benchmark2 @ FireHost (buckeye)"
+task :benchmark2 do
+  set :port, 22
+  set :branch, "devops"
+  set :rails_env, ''
+  role :web,      'buckeye.getbetter.com'
+  role :app,      'buckeye.getbetter.com', :primary => true
+  role :db,       'buckeye.getbetter.com', :primary => true
+  role :delayed,  'buckeye.getbetter.com'
+end
+
+desc "Restart delayed_job"
+task :restart_delayed_job, :roles => :delayed do
+   run "sudo monit -g delayed_job restart all"
+end
 
 # If you are using Passenger mod_rails uncomment this:
 namespace :deploy do
@@ -104,6 +132,7 @@ after("deploy:finalize_update", "deploy:fix_symlinks")
 before "deploy:create_symlink", "deploy:web:disable"
 after 'deploy', 'deploy:migrate'
 after 'deploy:migrate', 'deploy:web:enable'
+after 'deploy:web:enable', 'restart_delayed_job'
 after 'deploy:web:enable', 'complete'
 
 require './config/boot'
