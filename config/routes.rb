@@ -24,6 +24,7 @@ RHSMocker::Application.routes.draw do
       resources :custom_cards, only: [:index, :show, :create, :update]
       resources :custom_contents, only: [:index, :show, :create, :update]
       resources :phone_calls, only: [:index, :show, :update]
+      resources :dashboard, only: :index
       resources :diseases, :only => :index, :controller => :conditions
       resources :encounters, :only => [:index, :show, :create], :controller => 'consults' do
         resources :messages, :only => [:index, :show, :create]
