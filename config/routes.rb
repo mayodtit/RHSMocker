@@ -6,6 +6,7 @@ RHSMocker::Application.routes.draw do
       resources :allergies, :only => :index
       resources :association_types, :only => :index
       resources :contents, :only => [:index, :show] do
+        resources :references, only: [:index, :create, :destroy], controller: 'content_references'
         post :status, :on => :member
         post :like
         post :dislike
@@ -21,7 +22,9 @@ RHSMocker::Application.routes.draw do
         resources :users, only: :index, controller: 'consult_users'
       end
       resources :custom_cards, only: [:index, :show, :create, :update]
+      resources :custom_contents, only: [:index, :show, :create, :update]
       resources :phone_calls, only: [:index, :show, :update]
+      resources :dashboard, only: :index
       resources :diseases, :only => :index, :controller => :conditions
       resources :encounters, :only => [:index, :show, :create], :controller => 'consults' do
         resources :messages, :only => [:index, :show, :create]

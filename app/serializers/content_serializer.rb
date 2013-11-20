@@ -5,7 +5,7 @@ class ContentSerializer < ViewSerializer
              :created_at, :updated_at, :content_type_display, :abstract,
              :contentID, :contents_type
 
-  delegate :show_call_option?, to: :object
+  delegate :show_mayo_copyright?, :show_call_option?, to: :object
   alias_method :contentID, :id
   alias_method :contents_type, :content_type
 
@@ -21,7 +21,7 @@ class ContentSerializer < ViewSerializer
   end
 
   def raw_body
-    object.body
+    object.raw_body
   end
 
   def preview
@@ -32,7 +32,7 @@ class ContentSerializer < ViewSerializer
   end
 
   def raw_preview
-    object.body.split(' ').slice(0, 101).join(' ').gsub(/\ADefinition<p>/, "")
+    object.raw_preview.present? ? object.raw_preview : raw_body.split(' ').slice(0, 101).join(' ').gsub(/\ADefinition<p>/, "")
   end
 
   def share_url
