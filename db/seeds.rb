@@ -1,8 +1,9 @@
 #encoding: utf-8
 
 Content.upsert_attributes({title: 'Welcome to Better!'},
-                          {content_type: 'Content',
-                           body: 'Thank you for installing Better!',
+                          {type: 'CustomContent',
+                           content_type: 'Content',
+                           raw_body: 'Thank you for installing Better!',
                            document_id: 'RHS0000',
                            show_call_option: false,
                            show_checker_option: false,
