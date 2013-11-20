@@ -82,6 +82,7 @@ gem 'awesome_print'
 gem 'titleize'
 gem 'haml'
 gem 'state_machine'
+gem 'daemons'	# To run backgound jobs
 gem 'delayed_job_active_record' # background jobs
 gem 'figaro'
 gem 'carrierwave'               # image storage
