@@ -1,11 +1,9 @@
-# Read about factories at https://github.com/thoughtbot/factory_girl
-
 FactoryGirl.define do
   factory :symptoms_factor do
+    symptom
+    factor
+    factor_group
     doctor_call_worthy false
     er_worthy false
-    symptom nil
-    factor nil
-    factor_group nil
   end
 end
