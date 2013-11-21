@@ -33,7 +33,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
     end
 
     if @phone_call.valid?
-      show_resource @phone_call.as_json(include: :user)
+      show_resource @phone_call.as_json(include: [:user, consult: {include: [:subject, :initiator]}])
     else
       render_failure({reason: @phone_call.errors.full_messages.to_sentence}, 422)
     end
