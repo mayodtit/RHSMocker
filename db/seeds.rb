@@ -398,6 +398,7 @@ coughing_or_jarring_movements_factor    = Factor.find_or_create_by_name(:name=>"
 cough_with_blood_phlegm_factor          = Factor.find_or_create_by_name(:name=>"Cough with blood or phlegm")
 dark_floating_spots_in_vision_factor    = Factor.find_or_create_by_name(:name=>"Dark, floating spots in vision")
 diarrhea_factor                         = Factor.find_or_create_by_name(:name=>"Diarrhea")
+decreased_range_motion_factor           = Factor.find_or_create_by_name(:name=>"Decreased range of motion")
 difficult_or_painful_swallowing_factor  = Factor.find_or_create_by_name(:name=>"Difficult or painful swallowing")
 difficulty_breathing_factor             = Factor.find_or_create_by_name(:name=>"Difficulty breathing")
 difficulty_pushing_off_with_toes_factor = Factor.find_or_create_by_name(:name=>"Difficulty pushing off with toes")
@@ -414,6 +415,7 @@ dry_mouth_factor                        = Factor.find_or_create_by_name(:name=>"
 dry_or_itchy_factor                     = Factor.find_or_create_by_name(:name=>"Dry or itchy")
 dry_warm_air_factor                     = Factor.find_or_create_by_name(:name=>"Dry, warm air")
 dull_factor                             = Factor.find_or_create_by_name(:name=>"Dull")
+dull_achy_factor                        = Factor.find_or_create_by_name(:name=>"Dull or achy")
 earache_factor                          = Factor.find_or_create_by_name(:name=>"Earache")
 ear_pain_or_pressure_factor             = Factor.find_or_create_by_name(:name=>"Ear pain or pressure")
 easy_bruising_or_bleeding_factor        = Factor.find_or_create_by_name(:name=>"Easy bruising or bleeding")
@@ -423,7 +425,7 @@ eating_certain_foods_factor             = Factor.find_or_create_by_name(:name=>"
 enlarged_or_purplish_vein_factor        = Factor.find_or_create_by_name(:name=>"Enlarged or purplish vein in affected leg")
 entire_leg_or_calf_being_pale_and_cool_factor = Factor.find_or_create_by_name(:name=>"Entire leg or calf being pale and cool")
 eye_movement_factor                     = Factor.find_or_create_by_name(:name=>"Eye Movement")
-everday_activities_factor               = Factor.find_or_create_by_name(:name=>"Everyday activities")
+everday_act_factor                      = Factor.find_or_create_by_name(:name=>"Everyday activities")
 excessive_tearing_factor                = Factor.find_or_create_by_name(:name=>"Excessive tearing")
 exertion_factor                         = Factor.find_or_create_by_name(:name=>"Exertion")
 extreme_factor                          = Factor.find_or_create_by_name(:name=>"Extreme")
@@ -436,12 +438,15 @@ fatigue_or_weakness_factor              = Factor.find_or_create_by_name(:name=>"
 feeling_somthing_stuck_throat_factor    = Factor.find_or_create_by_name(:name=>"Feeling of something stuck in your throat")
 feeling_of_instability_factor           = Factor.find_or_create_by_name(:name=>"Feeling of instability")
 fever_factor                            = Factor.find_or_create_by_name(:name=>"Fever")
+fever_chills_factor                     = Factor.find_or_create_by_name(:name=>"Fever or chills")
 flattened_arch_factor                   = Factor.find_or_create_by_name(:name=>"Flattened arch")
 frequent_urge_to_have_bowel_movement_factor  = Factor.find_or_create_by_name(:name=>"Frequent urge to have bowel movement")
 gas_factor                                = Factor.find_or_create_by_name(:name=>"Gas")
 gnawing_factor                            = Factor.find_or_create_by_name(:name=>"Gnawing")
 gritty_sensation_factor                   = Factor.find_or_create_by_name(:name=>"Gritty sensation")
 gradually_becomes_frequent_factor         = Factor.find_or_create_by_name(:name=>"Gradually becomes more frequent")
+gradually_worsening_factor                = Factor.find_or_create_by_name(:name=>"Gradually worsening")
+grating_sensation_factor                  = Factor.find_or_create_by_name(:name=>"Grating sensation")
 halos_around_lights_factor                = Factor.find_or_create_by_name(:name=>"Halos around lights")
 hardening_of_skin_in_affected_area_factor = Factor.find_or_create_by_name(:name=>"Hardening of skin in affected area")
 have_something_stuck_in_your_throat_factor= Factor.find_or_create_by_name(:name=>"Have something stuck in your throat")
@@ -464,6 +469,7 @@ hormonal_changes_factor                   = Factor.find_or_create_by_name(:name=
 hurts_factor                              = Factor.find_or_create_by_name(:name=>"Hurts")
 ill_fitting_shoes_factor                  = Factor.find_or_create_by_name(:name=>"Ill-fitting shoes")
 in_both_limbs_factor                      = Factor.find_or_create_by_name(:name=>"In both limbs")
+in_knee_joint_factor                      = Factor.find_or_create_by_name(:name=>"In the knee joint")
 in_one_limb_factor                        = Factor.find_or_create_by_name(:name=>"In one limb")
 in_or_on_stool_factor                     = Factor.find_or_create_by_name(:name=>"In or on the stool")
 in_or_on_toilet_bowl_factor               = Factor.find_or_create_by_name(:name=>"In toilet bowl or on toilet tissue")
@@ -493,6 +499,7 @@ large_amounts_blood_factor                = Factor.find_or_create_by_name(:name=
 less_than_few_minutes_factor              = Factor.find_or_create_by_name(:name=>"Less than a few minutes")
 lightheadedness_factor                    = Factor.find_or_create_by_name(:name=>"Lightheadedness")
 lightneadedned_or_faint_factor            = Factor.find_or_create_by_name(:name=>"Lightheaded or faint")
+locking_or_catching_factor                = Factor.find_or_create_by_name(:name=>"Locking or catching")
 lower_abdomen_factor                      = Factor.find_or_create_by_name(:name=>"Lower abdomen")
 long_periods_of_rest_factor               = Factor.find_or_create_by_name(:name=>"Long periods of rest")
 loss_of_appetite_factor                   = Factor.find_or_create_by_name(:name=>"Loss of appetite")
@@ -504,6 +511,7 @@ lying_down_dark_factor                    = Factor.find_or_create_by_name(:name=
 medications_or_herbal_supplements_factor  = Factor.find_or_create_by_name(:name=>"Medications or herbal supplements")
 mouth_sores_lumps_or_pain_factor          = Factor.find_or_create_by_name(:name=>"Mouth sores, lumps or pain")
 moderate_to_severe_factor                 = Factor.find_or_create_by_name(:name=>"Moderate to severe")
+movement_factor                           = Factor.find_or_create_by_name(:name=>"Movement")
 middle_abdomen_factor                     = Factor.find_or_create_by_name(:name=>"Middle abdomen")
 middle_part_of_foot_factor                = Factor.find_or_create_by_name(:name=>"Middle part of foot")
 mild_to_moderate_factor                   = Factor.find_or_create_by_name(:name=>"Mild to moderate")
@@ -529,6 +537,7 @@ on_one_side_of_head_factor                = Factor.find_or_create_by_name(:name=
 ongoing_or_recurrent_factor               = Factor.find_or_create_by_name(:name=>"Ongoing or recurrent")
 one_or_both_sides_factor                  = Factor.find_or_create_by_name(:name=>"One or both sides")
 over_the_counter_meds_factor              = Factor.find_or_create_by_name(:name=>"Over-the-counter pain medication")
+overuse_factor                            = Factor.find_or_create_by_name(:name=>"Overuse")
 radiates_from_abdomen_factor              = Factor.find_or_create_by_name(:name=>"Radiates from abdomen")
 rapid_heart_rate_factor                   = Factor.find_or_create_by_name(:name=>"Rapid heart rate")
 rash_factor                               = Factor.find_or_create_by_name(:name=>"Rash")
@@ -543,6 +552,7 @@ redness_without_discomfort_factor           = Factor.find_or_create_by_name(:nam
 red_painful_lump_on_eyelid                  = Factor.find_or_create_by_name(:name=>"Red, painful lump on the eyelid")
 regurgitation_food_liquid_factor            = Factor.find_or_create_by_name(:name=>"Regurgitation of food or sour liquid")
 rest_factor                                 = Factor.find_or_create_by_name(:name=>"Rest")
+rest_or_inactivity_factor                   = Factor.find_or_create_by_name(:name=>"Rest or inactivity")
 restlessness_or_agitation_factor            = Factor.find_or_create_by_name(:name=>"Restlessness or agitation")
 rapid_or_irregular_heartbeat_factor         = Factor.find_or_create_by_name(:name=>"Rapid or irregular heartbeat")
 runny_or_stuffy_nose_factor                 = Factor.find_or_create_by_name(:name=>"Runny or stuffy nose")
@@ -551,9 +561,12 @@ pain_in_neck_jaw_arms_shoulders_back_factor = Factor.find_or_create_by_name(:nam
 preceded_by_eating_suspect_food_factor      = Factor.find_or_create_by_name(:name=>"Preceded by eating suspect food")
 preceded_by_recent_antibiotic_use_factor    = Factor.find_or_create_by_name(:name=>"Preceded by recent antibiotic use")
 pressing_on_chest_wall_factor               = Factor.find_or_create_by_name(:name=>"Pressing on chest wall")
+prolonged_sitting_standing_factor = Factor.find_or_create_by_name(:name=>"Prolonged sitting or standing")
 passing_gas_factor                          = Factor.find_or_create_by_name(:name=>"Passing gas")
 pain_tenderness_aching_factor               = Factor.find_or_create_by_name(:name=>"Pain, tenderness or aching in affected area")
 pain_from_accident_or_injury_factor         = Factor.find_or_create_by_name(:name=>"Pain from accident or injury")
+pain_in_other_joints_factor                 = Factor.find_or_create_by_name(:name=>"Pain in other joints")
+pain_stiffness_in_other_joints_factor       = Factor.find_or_create_by_name(:name=>"Pain or stiffness in other joints")
 pain_in_chest_neck_factor                   = Factor.find_or_create_by_name(:name=>"Pain in chest or back")
 pain_in_chest_neck_shoulder_factor          = Factor.find_or_create_by_name(:name=>"Pain in chest, neck, shoulder")
 pain_in_chest_neck_shoulder_arm_factor      = Factor.find_or_create_by_name(:name=>"Pain in chest, neck, arm shoulder")
@@ -563,11 +576,13 @@ persistent_nausea_or_vomiting_factor        = Factor.find_or_create_by_name(:nam
 persistent_weakness_or_numbness_factor      = Factor.find_or_create_by_name(:name=>"Persistent weakness or numbness")
 pulsing_near_navel_factor                   = Factor.find_or_create_by_name(:name=>"Pulsing near navel")
 poor_posture_factor                         = Factor.find_or_create_by_name(:name=>"Poor posture")
+popping_snapping_factor  = Factor.find_or_create_by_name(:name=>"Popping or snapping")
 pressure_or_squeezing_factor                = Factor.find_or_create_by_name(:name=>"Pressure or squeezing sensation")
 producing_phlegm_or_sputum_factor           = Factor.find_or_create_by_name(:name=>"Producing phlegm or sputum")
 progressive_or_worsening_factor             = Factor.find_or_create_by_name(:name=>"Progressive or worsening")
 sitting_or_standing_still_factor            = Factor.find_or_create_by_name(:name=>"Sitting or standing still for long periods")
 sharp_factor                                = Factor.find_or_create_by_name(:name=>"Sharp")
+sharp_severe_factor                         = Factor.find_or_create_by_name(:name=>"Sharp or severe")
 short_of_breath_or_dizzy_factor             = Factor.find_or_create_by_name(:name=>"Short of breath or dizzy")
 shortness_of_breath_factor    = Factor.find_or_create_by_name(:name=>"Shortness of breath")
 shimmering_or_flash_of_light_factor = Factor.find_or_create_by_name(:name=>"Shimmering or flash of light")
@@ -580,12 +595,14 @@ severe_factor                 = Factor.find_or_create_by_name(:name=>"Severe")
 severe_headache_factor        = Factor.find_or_create_by_name(:name=>"Severe headache")
 severe_pain_factor            = Factor.find_or_create_by_name(:name=>"Severe pain")
 sore_throat_factor            = Factor.find_or_create_by_name(:name=>"Sore throat")
+skin_redness_factor = Factor.find_or_create_by_name(:name=>"Skin redness")
 squeezing_or_pressure_factor  = Factor.find_or_create_by_name(:name=>"Squeezing or pressure")
 sneezing_factor               = Factor.find_or_create_by_name(:name=>"Sneezing")
 slurred_speech_factor         = Factor.find_or_create_by_name(:name=>"Slurred speech")
 slurred_speech_difficulty_speaking_factor = Factor.find_or_create_by_name(:name=>"Slurred speech or difficulty speaking")
 slower_than_normal_factor     = Factor.find_or_create_by_name(:name=>"Slower than normal")
 sudden_factor                 = Factor.find_or_create_by_name(:name=>"Sudden")
+sudden_intense_factor         = Factor.find_or_create_by_name(:name=>"Sudden and intense")
 sudden_hours_days_factor      = Factor.find_or_create_by_name(:name=>"Sudden (hours to days)")
 sudden_weight_loss_factor     = Factor.find_or_create_by_name(:name=>"Sudden weight loss")
 stabbing_or_burning_factor    = Factor.find_or_create_by_name(:name=>"Stabbing or burning")
@@ -624,6 +641,7 @@ unexplained_fatigue_factor = Factor.find_or_create_by_name(:name=>"Unexplained f
 unsteady_factor               = Factor.find_or_create_by_name(:name=>"Unsteady")
 urgency_to_have_bowel_movement= Factor.find_or_create_by_name(:name=>"Urgency to have a bowel movement")
 walking_factor                = Factor.find_or_create_by_name(:name=>"Walking")
+warmth_to_touch_factor        = Factor.find_or_create_by_name(:name=>"Warmth to touch")
 weakness_factor               = Factor.find_or_create_by_name(:name=>"Weakness")
 watery_or_itchy_eyes_factor   = Factor.find_or_create_by_name(:name=>"Watery or itchy eyes")
 wheezing_factor               = Factor.find_or_create_by_name(:name=>"Wheezing")
@@ -631,6 +649,7 @@ whole_foot_factor             = Factor.find_or_create_by_name(:name=>"Whole foot
 worsening_or_progressing_factor = Factor.find_or_create_by_name(:name=>"Worsening or progressing")
 vaguely_uncomfortable_factor  = Factor.find_or_create_by_name(:name=>"Vaguely uncomfortable")
 vomiting_blood_factor         = Factor.find_or_create_by_name(:name=>"Vomiting blood")
+visible_deformity_factor      = Factor.find_or_create_by_name(:name=>"Visible deformity")
 vision_loss_factor            = Factor.find_or_create_by_name(:name=>"Vision loss")
 vision_problems_factor        = Factor.find_or_create_by_name(:name=>"Vision problems")
 youre_anxious_or_stressed_factor = Factor.find_or_create_by_name(:name=>"You're anxious or stressed")
@@ -704,7 +723,7 @@ SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advic
 SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"The pain radiates beyond your chest to one or both of your arms or your neck",
                                                           :symptom_medical_advice_id=>chest_pain_medadvice.id)
 
-cough_symptom           = Symptom.upsert_attributes({:name=>"Cough", :patient_type=>"adult"},
+cough_symptom  = Symptom.upsert_attributes({:name=>"Cough", :patient_type=>"adult"},
   {:description=>"Cough can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing.",
    :selfcare=>"To soothe your cough:"
   })
@@ -901,8 +920,6 @@ foot_leg_swelling_symptom   = Symptom.upsert_attributes({:name=>"Foot Swelling o
   {:description=>"Foot or leg swelling occurs because of inflammation or the accumulation of fluid in tissues. Identify possible common causes based on symptoms you're experiencing.",
    :selfcare=>"If you experience leg or foot swelling not related to an injury or joint pain, you may try the following self-care strategies to lessen symptoms:"
    })
-
-
 foot_leg_swelling_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Get medical care as soon as possible if:",
                                                                                   :symptom_id=>foot_leg_swelling_symptom.id)
 SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You have unexplained, painful swelling of your feet or legs",
@@ -960,6 +977,20 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
                                           :symptom_selfcare_id=>hip_pain_selfcare.id)
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the package label, and do not take combinations of pain relievers", 
                                           :symptom_selfcare_id=>hip_pain_selfcare.id)
+hippain_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Seek medical care immediately if:",
+                                                                                  :symptom_id=>hip_pain_symptom.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You're unable to bear weight",
+                                                          :symptom_medical_advice_id=>hippain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Your hip made a popping sound",
+                                                          :symptom_medical_advice_id=>hippain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Your hip became visibly deformed after a fall",
+                                                          :symptom_medical_advice_id=>hippain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Your hip is more painful the day after a fall",
+                                                          :symptom_medical_advice_id=>hippain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You're experiencing intense pain or sudden swelling",
+                                                          :symptom_medical_advice_id=>hippain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You have osteoporosis and have injured your hip",
+                                                          :symptom_medical_advice_id=>hippain_medadvice.id)
 
 knee_pain_symptom       = Symptom.upsert_attributes({:name=>"Knee Pain", :patient_type=>"adult"},
   {:description=>"Knee pain can seriously impair walking and exercise. Identify possible common causes based on symptoms you're experiencing.",
@@ -979,6 +1010,22 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
                                           :symptom_selfcare_id=>knee_pain_selfcare.id)
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"You may temporarily lessen pain with an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers", 
                                           :symptom_selfcare_id=>knee_pain_selfcare.id)
+knee_pain_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Get emergency care if knee pain is accompanied by any of the following factors:",
+                                                                                  :symptom_id=>knee_pain_symptom.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You experience bleeding or severe pain after an injury",
+                                                          :symptom_medical_advice_id=>knee_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Bone or tendons are exposed",
+                                                          :symptom_medical_advice_id=>knee_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"The knee is visibly out of place",
+                                                          :symptom_medical_advice_id=>knee_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"There's sudden swelling or redness",
+                                                          :symptom_medical_advice_id=>knee_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You can't bend your knee or put weight on it",
+                                                          :symptom_medical_advice_id=>knee_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You heard a popping sound or snapping sensation",
+                                                          :symptom_medical_advice_id=>knee_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"The pain is associated with fever and chills",
+                                                          :symptom_medical_advice_id=>knee_pain_medadvice.id)
 
 low_back_pain_symptom     = Symptom.upsert_attributes({:name=>"Low Back Pain", :patient_type=>"adult"},
   {:description=>"Low back pain can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing.",
@@ -2204,7 +2251,7 @@ cough_difficulty_swallowing_accompanied_by_SF = SymptomsFactor.find_or_create_by
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>cough_symptom.id,
-  :factor_id=>difficulty_swallowing_symptom.id,
+  :factor_id=>difficulty_swallowing_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
 cough_fatigue_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
@@ -3555,7 +3602,7 @@ headache_everyday_activities_triggered_or_worsened_SF = SymptomsFactor.find_or_c
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>headache_symptom.id,
-  :factor_id=>everday_activities_factor.id,
+  :factor_id=>everday_act_factor.id,
   :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
 headache_hormonal_changes_triggered_or_worsened_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
@@ -3875,12 +3922,311 @@ heart_palpitations_unexplained_fatigue_accompanied_by_SF = SymptomsFactor.find_o
   :factor_id=>unexplained_fatigue_factor.id, 
   :factor_group_id=>accompanied_by_factor_group.id,
 )
-## Heart Palpitations - ADULT
+## Hip Pain - ADULT
 ## ######################################
-
-
-
-
+hip_pain_dull_achy_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>dull_achy_factor.id, 
+  :factor_group_id=>pain_is_factor_group.id
+)
+hip_pain_sudden_intense_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>sudden_intense_factor.id, 
+  :factor_group_id=>pain_is_factor_group.id
+)
+hip_pain_everyday_act_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>everday_act_factor .id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+hip_pain_injury_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>injury_factor.id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+hip_pain_overuse_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>overuse_factor.id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+hip_pain_bruising_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>bruising_or_discoloring_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+hip_pain_decreased_range_motion_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>decreased_range_motion_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+hip_pain_bear_weight_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>inability_to_bear_weight_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+hip_pain_locking_catching_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>locking_or_catching_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+hip_pain_pain_other_joints_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>pain_in_other_joints_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+hip_pain_stiffness_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>stiffness_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+hip_pain_swelling_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>swelling_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+hip_pain_visibile_deformity_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>visible_deformity_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+hip_pain_applying_pressure_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>applying_pressure_or_trying_to_bear_weight_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+hip_pain_movement_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>movement_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+hip_pain_rest_inactivity_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>rest_or_inactivity_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+## Knee Pain - Adult 
+#########################################
+knee_pain_begin_suddenly_pain_best_described_as_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>beginning_suddenly_factor.id, 
+  :factor_group_id=>pain_best_described_as_factor_group.id
+)
+knee_pain_dull_achy_pain_best_described_as_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>dull_achy_factor.id, 
+  :factor_group_id=>pain_best_described_as_factor_group.id
+)
+knee_pain_gradually_worse_pain_best_described_as_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>gradually_worsening_factor.id, 
+  :factor_group_id=>pain_best_described_as_factor_group.id
+)
+knee_pain_sharp_severe_pain_best_described_as_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>sharp_severe_factor.id, 
+  :factor_group_id=>pain_best_described_as_factor_group.id
+)
+knee_pain_one_both_sides_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>along_one_or_both_sides_of_the_knee_factor.id, 
+  :factor_group_id=>located_factor_group.id
+)
+knee_pain_around_kneecap_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>around_the_kneecap_factor.id, 
+  :factor_group_id=>located_factor_group.id
+)
+knee_pain_behind_knee_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>behind_the_knee_factor.id, 
+  :factor_group_id=>located_factor_group.id
+)
+knee_pain_in_knee_joint_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>in_knee_joint_factor.id, 
+  :factor_group_id=>located_factor_group.id
+)
+knee_pain_everyday_act_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>everday_act_factor.id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+knee_pain_injury_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>injury_factor.id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+knee_pain_overuse_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>overuse_factor.id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+knee_pain_movement_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>movement_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+knee_pain_prolonged_sitting_standing_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>prolonged_sitting_standing_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+knee_pain_rest_inactivity_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>rest_or_inactivity_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+knee_pain_bruising_discoloring_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>bruising_or_discoloring_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_decreased_range_motion_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>decreased_range_motion_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_instability_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>feeling_of_instability_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_fever_chills_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>fever_chills_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_grating_sensation_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>grating_sensation_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_inability_bear_weight_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>inability_to_bear_weight_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_locking_catching_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>locking_or_catching_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_pain_stiffness_other_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>pain_stiffness_in_other_joints_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_popping_snapping_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>popping_snapping_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_skin_redness_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>skin_redness_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_stiffness_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>stiffness_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_swelling_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>swelling_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_warmth_touch_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>warmth_to_touch_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
 #########################################
 ##
 ##
@@ -8832,6 +9178,264 @@ ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>headache_touching_face_triggered_or_worsened_SF.id,
 :content_id=>Content.where(:document_id=>'DS00446').first.id
+)
+#Heart palpitations - DS00291
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_anxious_stressed_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_exerting_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_irregular_not_steady_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_caffeine_alcohol_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_cigarettes_or_rec_drugs_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_medications_herbal_supplements_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_chest_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_dizziness_lightheadedness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_fainting_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_shortness_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+#Heart palpitations - DS00947
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_slower_than_normal_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00947').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_chest_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00947').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_dizziness_lightheadedness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00947').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_fainting_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00947').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_shortness_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00947').first.id
+)
+#Heart palpitations - DS00290
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_anxious_stressed_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_exerting_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_faster_than_normal_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_irregular_not_steady_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_slower_than_normal_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_caffeine_alcohol_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_cigarettes_or_rec_drugs_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_medications_herbal_supplements_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_chest_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_dizziness_lightheadedness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_fainting_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_shortness_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+#Heart palpitations - DS00344
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_faster_than_normal_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00344').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_irregular_not_steady_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00344').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_nervousness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00344').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_sudden_weight_loss_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00344').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_sweating_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00344').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_tremors_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00344').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_trouble_sleeping_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00344').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_unexplained_fatigue_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00344').first.id
+)
+#Heart palpitations - DS00338
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_anxious_stressed_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_faster_than_normal_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_chest_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_dizziness_lightheadedness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_headache_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_nausea_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_nervousness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_shortness_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_sweating_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_tremors_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+#Heart palpitations - DS00949
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_anxious_stressed_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00949').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_resting_going_bed_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00949').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_irregular_not_steady_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00949').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_caffeine_alcohol_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00949').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_cigarettes_or_rec_drugs_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00949').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_medications_herbal_supplements_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00949').first.id
+)
+#Heart palpitations - DS00929
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_anxious_stressed_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_exerting_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_faster_than_normal_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_caffeine_alcohol_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_cigarettes_or_rec_drugs_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_medications_herbal_supplements_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_chest_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_dizziness_lightheadedness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_fainting_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_shortness_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
 )
 ########################################################################
 #
