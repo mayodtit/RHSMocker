@@ -723,7 +723,7 @@ SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advic
 SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"The pain radiates beyond your chest to one or both of your arms or your neck",
                                                           :symptom_medical_advice_id=>chest_pain_medadvice.id)
 
-cough_symptom           = Symptom.upsert_attributes({:name=>"Cough", :patient_type=>"adult"},
+cough_symptom  = Symptom.upsert_attributes({:name=>"Cough", :patient_type=>"adult"},
   {:description=>"Cough can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing.",
    :selfcare=>"To soothe your cough:"
   })
@@ -2251,7 +2251,7 @@ cough_difficulty_swallowing_accompanied_by_SF = SymptomsFactor.find_or_create_by
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>cough_symptom.id,
-  :factor_id=>difficulty_swallowing_symptom.id,
+  :factor_id=>difficulty_swallowing_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
 cough_fatigue_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
