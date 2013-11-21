@@ -1,7 +1,6 @@
 FactoryGirl.define do
-
   factory :contents_symptoms_factor do
-    content         nil
-    symptoms_factor nil
+    content
+    symptoms_factor
   end
 end
