@@ -56,7 +56,7 @@ class Content < ActiveRecord::Base
   end
 
   def self.random
-    where(:content_type => CONTENT_TYPES).first(order: rand_str)
+    published.where(:content_type => CONTENT_TYPES).first(order: rand_str)
   end
 
   def content_type_display

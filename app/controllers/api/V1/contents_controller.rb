@@ -47,7 +47,7 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   end
 
   def load_from_sql!
-    @contents = Content.order('title ASC')
+    @contents = Content.published.order('title ASC')
     @contents = @contents.where(:type => params[:type]) if params[:type]
     @contents = @contents.page(page).per(per)
     @total_count = @contents.total_count
@@ -59,13 +59,14 @@ class Api::V1::ContentsController < Api::V1::ABaseController
       fulltext query
       paginate page: page, per_page: per
       with :type, params[:type] if params[:type]
+      with :state, :published
     end
     @total_count = solr_query.total
     @contents = solr_query.results
   end
 
   def load_content!
-    @content = Content.find params[:id]
+    @content = Content.published.find params[:id]
   end
 
   def log_content_search
