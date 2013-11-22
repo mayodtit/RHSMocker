@@ -7,7 +7,8 @@ Content.upsert_attributes({title: 'Welcome to Better!'},
                            document_id: 'RHS0000',
                            show_call_option: false,
                            show_checker_option: false,
-                           show_mayo_copyright: false})
+                           show_mayo_copyright: false,
+                           state: :published})
 
 Question.upsert_attributes({:view => :gender}, {:title => 'Your Gender'})
 Question.upsert_attributes({:view => :allergies}, {:title => 'Your Allergies'})
