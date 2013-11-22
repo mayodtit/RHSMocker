@@ -1,4 +1,5 @@
 class Api::V1::ContentsController < Api::V1::ABaseController
+  before_filter :unlock_contents!
   before_filter :load_contents!, only: :index
   before_filter :load_content!, only: :show
   after_filter :log_content_search, only: :index
@@ -42,12 +43,20 @@ class Api::V1::ContentsController < Api::V1::ABaseController
 
   private
 
+  def unlock_contents!
+    if params[:state] == 'all'
+      raise CanCan::AccessDenied unless current_user.admin?
+      @unlocked = true
+    end
+  end
+
   def load_contents!
     params[:q].blank? ? load_from_sql! : load_from_solr!
   end
 
   def load_from_sql!
     @contents = Content.order('title ASC')
+    @contents = @contents.published unless @unlocked
     @contents = @contents.where(:type => params[:type]) if params[:type]
     @contents = @contents.page(page).per(per)
     @total_count = @contents.total_count
@@ -55,17 +64,23 @@ class Api::V1::ContentsController < Api::V1::ABaseController
 
   def load_from_solr!
     query = Content.sanitize_solr_query params[:q]
+    unlocked = @unlocked
     solr_query = Content.search do
       fulltext query
       paginate page: page, per_page: per
       with :type, params[:type] if params[:type]
+      with :state, :published unless unlocked
     end
     @total_count = solr_query.total
     @contents = solr_query.results
   end
 
   def load_content!
-    @content = Content.find params[:id]
+    @content = if @unlocked
+                 Content.find params[:id]
+               else
+                 Content.published.find params[:id]
+               end
   end
 
   def log_content_search
