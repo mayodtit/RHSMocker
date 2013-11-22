@@ -1659,6 +1659,63 @@ abdominal_pain_unintended_weight_loss_accompanied_by_SF = SymptomsFactor.find_or
 
 ## Blood in Stool - ADULT
 ## ##################################################################################################################################
+
+blood_stool_in_or_on_stool_blood_appears_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>blood_in_stool_symptom.id,
+  :factor_id=>in_or_on_stool_factor.id,
+  :factor_group_id=>blood_appears_factor_group.id
+)
+blood_stool_in_or_on_toilet_bowl_blood_appears_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>blood_in_stool_symptom.id,
+  :factor_id=>in_or_on_toilet_bowl_factor.id,
+  :factor_group_id=>blood_appears_factor_group.id
+)
+blood_stool_drinking_alcohol_or_caffeine_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>blood_in_stool_symptom.id,
+  :factor_id=>drinking_alcohol_or_caffeine_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+blood_stool_eating_certain_foods_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>blood_in_stool_symptom.id,
+  :factor_id=>eating_certain_foods_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+blood_stool_straining_during_bowel_movements_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>blood_in_stool_symptom.id,
+  :factor_id=>straining_during_bowel_movements_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+blood_stool_drinking_more_water_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>blood_in_stool_symptom.id,
+  :factor_id=>drinking_more_water_factor.id,
+  :factor_group_id=>relieved_by_factor_group.id
+)
+blood_stool_eating_certain_foods_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>blood_in_stool_symptom.id,
+  :factor_id=>eating_certain_foods_factor.id,
+  :factor_group_id=>relieved_by_factor_group.id
+)
+blood_stool_eating_more_fibre_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>blood_in_stool_symptom.id,
+  :factor_id=>eating_more_fibre_factor.id,
+  :factor_group_id=>relieved_by_factor_group.id
+)
 blood_stool_abdominal_pain_or_cramping_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
@@ -1749,62 +1806,6 @@ blood_stool_unintended_weight_loss_accompanied_by_SF = SymptomsFactor.find_or_cr
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>unintended_weight_loss_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
-)
-blood_stool_in_or_on_stool_blood_appears_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>in_or_on_stool_factor.id,
-  :factor_group_id=>blood_appears_factor_group.id
-)
-blood_stool_in_or_on_toilet_bowl_blood_appears_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>in_or_on_toilet_bowl_factor.id,
-  :factor_group_id=>blood_appears_factor_group.id
-)
-blood_stool_drinking_more_water_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>drinking_more_water_factor.id,
-  :factor_group_id=>relieved_by_factor_group.id
-)
-blood_stool_eating_certain_foods_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>eating_certain_foods_factor.id,
-  :factor_group_id=>relieved_by_factor_group.id
-)
-blood_stool_eating_more_fibre_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>eating_more_fibre_factor.id,
-  :factor_group_id=>relieved_by_factor_group.id
-)
-blood_stool_drinking_alcohol_or_caffeine_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>drinking_alcohol_or_caffeine_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
-)
-blood_stool_eating_certain_foods_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>eating_certain_foods_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
-)
-blood_stool_straining_during_bowel_movements_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>straining_during_bowel_movements_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
 ## Chest Pain - ADULT
 ## #############################
