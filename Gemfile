@@ -12,7 +12,9 @@ gem 'less-rails' #Sprockets (what Rails 3.1 uses for its asset pipeline) support
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 #databse
-gem 'mysql2'
+group :devhosted do
+  gem 'mysql2'
+end
 
 # Site monitoring
 gem 'fitter-happier'
