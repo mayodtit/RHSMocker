@@ -380,6 +380,7 @@ caffeine_or_alcohol_factor              = Factor.find_or_create_by_name(:name=>"
 clenching_grinding_teeth_factor         = Factor.find_or_create_by_name(:name=>"Clenching or grinding teeth")
 cigarettes_or_recreational_drugs_factor = Factor.find_or_create_by_name(:name=>"Cigarettes or recreational drugs")
 change_in_bowel_habits_factor           = Factor.find_or_create_by_name(:name=>"Change in your bowel habits")
+change_bowel_bladder_function_factor    = Factor.find_or_create_by_name(:name=>"Change in bowel or bladder function")
 changing_position_factor                = Factor.find_or_create_by_name(:name=>"Changing position")
 change_sleep_patterns_factor            = Factor.find_or_create_by_name(:name=>"Change in sleep patterns")
 change_personality_factor               = Factor.find_or_create_by_name(:name=>"Change in personality, behaviors or mental status")
@@ -400,6 +401,7 @@ cough_with_blood_phlegm_factor          = Factor.find_or_create_by_name(:name=>"
 dark_floating_spots_in_vision_factor    = Factor.find_or_create_by_name(:name=>"Dark, floating spots in vision")
 diarrhea_factor                         = Factor.find_or_create_by_name(:name=>"Diarrhea")
 decreased_range_motion_factor           = Factor.find_or_create_by_name(:name=>"Decreased range of motion")
+decreased_sensitivity_to_pain_heat_cold_factor  = Factor.find_or_create_by_name(:name=>"Decreased sensitivity to pain, heat and cold") 
 difficult_or_painful_swallowing_factor  = Factor.find_or_create_by_name(:name=>"Difficult or painful swallowing")
 difficulty_breathing_factor             = Factor.find_or_create_by_name(:name=>"Difficulty breathing")
 difficulty_pushing_off_with_toes_factor = Factor.find_or_create_by_name(:name=>"Difficulty pushing off with toes")
@@ -426,6 +428,7 @@ eating_certain_foods_factor             = Factor.find_or_create_by_name(:name=>"
 enlarged_or_purplish_vein_factor        = Factor.find_or_create_by_name(:name=>"Enlarged or purplish vein in affected leg")
 entire_leg_or_calf_being_pale_and_cool_factor = Factor.find_or_create_by_name(:name=>"Entire leg or calf being pale and cool")
 eye_movement_factor                     = Factor.find_or_create_by_name(:name=>"Eye Movement")
+eye_pain_blurred_vision_light_factor  = Factor.find_or_create_by_name(:name=>"Eye pain, blurred vision or light sensitivity") 
 everday_act_factor                      = Factor.find_or_create_by_name(:name=>"Everyday activities")
 excessive_tearing_factor                = Factor.find_or_create_by_name(:name=>"Excessive tearing")
 exertion_factor                         = Factor.find_or_create_by_name(:name=>"Exertion")
@@ -488,6 +491,7 @@ irregular_heartbeat_factor                = Factor.find_or_create_by_name(:name=
 irregular_or_not_steady_factor            = Factor.find_or_create_by_name(:name=>"Irregular or not steady")
 is_daily_factor                           = Factor.find_or_create_by_name(:name=>"Is daily")
 is_gradual_factor                         = Factor.find_or_create_by_name(:name=>"Is gradual")
+is_intermittent_factor                    = Factor.find_or_create_by_name(:name=>"Is intermittent") 
 is_often_at_same_time_factor              = Factor.find_or_create_by_name(:name=>"Is often the same time every day")
 is_preceded_by_meds_factor  = Factor.find_or_create_by_name(:name=>"Is preceded by frequent use of pain medication")
 is_preceded_by_visual_factor = Factor.find_or_create_by_name(:name=>"Is preceded by visual or other sensory disturbances") 
@@ -495,9 +499,11 @@ is_sudden_factor                          = Factor.find_or_create_by_name(:name=
 jaw_pain_factor                           = Factor.find_or_create_by_name(:name=>"Jaw pain")
 jaw_pain_or_stiffness_factor              = Factor.find_or_create_by_name(:name=>"Jaw pain or stiffness")
 joint_deformity_factor                    = Factor.find_or_create_by_name(:name=>"Joint deformity")
+knot_tight_spot_factor              = Factor.find_or_create_by_name(:name=>"Knot or tight spot in back muscle")
 lack_appetite_factor                      = Factor.find_or_create_by_name(:name=>"Lack of appetite")
 large_amounts_blood_factor                = Factor.find_or_create_by_name(:name=>"Large amounts of blood")
 less_than_few_minutes_factor              = Factor.find_or_create_by_name(:name=>"Less than a few minutes")
+leg_or_foot_pain_factor = Factor.find_or_create_by_name(:name=>"Leg or foot pain")
 lightheadedness_factor                    = Factor.find_or_create_by_name(:name=>"Lightheadedness")
 lightneadedned_or_faint_factor            = Factor.find_or_create_by_name(:name=>"Lightheaded or faint")
 locking_or_catching_factor                = Factor.find_or_create_by_name(:name=>"Locking or catching")
@@ -562,6 +568,7 @@ pain_in_neck_jaw_arms_shoulders_back_factor = Factor.find_or_create_by_name(:nam
 preceded_by_eating_suspect_food_factor      = Factor.find_or_create_by_name(:name=>"Preceded by eating suspect food")
 preceded_by_recent_antibiotic_use_factor    = Factor.find_or_create_by_name(:name=>"Preceded by recent antibiotic use")
 pressing_on_chest_wall_factor               = Factor.find_or_create_by_name(:name=>"Pressing on chest wall")
+prolonged_rest_inactivities_factor = Factor.find_or_create_by_name(:name=>"Prolonged rest or inactivity")
 prolonged_sitting_standing_factor = Factor.find_or_create_by_name(:name=>"Prolonged sitting or standing")
 passing_gas_factor                          = Factor.find_or_create_by_name(:name=>"Passing gas")
 pain_tenderness_aching_factor               = Factor.find_or_create_by_name(:name=>"Pain, tenderness or aching in affected area")
@@ -572,6 +579,7 @@ pain_in_chest_neck_factor                   = Factor.find_or_create_by_name(:nam
 pain_in_chest_neck_shoulder_factor          = Factor.find_or_create_by_name(:name=>"Pain in chest, neck, shoulder")
 pain_in_chest_neck_shoulder_arm_factor      = Factor.find_or_create_by_name(:name=>"Pain in chest, neck, arm shoulder")
 painful_bowel_movements_factor              = Factor.find_or_create_by_name(:name=>"Painful bowel movements")
+paralysis_different_parts_body_factor  = Factor.find_or_create_by_name(:name=>"Paralysis in different parts of body")
 persistent_cough_factor                     = Factor.find_or_create_by_name(:name=>"Persistent cough")
 persistent_nausea_or_vomiting_factor        = Factor.find_or_create_by_name(:name=>"Persistent nausea or vomiting")
 persistent_weakness_or_numbness_factor      = Factor.find_or_create_by_name(:name=>"Persistent weakness or numbness")
@@ -613,7 +621,9 @@ straining_during_bowel_movements_factor     = Factor.find_or_create_by_name(:nam
 stress_factor                               = Factor.find_or_create_by_name(:name=>"Stress")
 stiff_neck_factor                           = Factor.find_or_create_by_name(:name=>"Stiff neck")
 stomach_growling_or_rumbling_factor         = Factor.find_or_create_by_name(:name=>"Stomach growling or rumbling")
+stooped_posture_factor = Factor.find_or_create_by_name(:name=>"Stooped posture")
 stiffness_factor              = Factor.find_or_create_by_name(:name=>"Stiffness")
+stiffness_in_lower_back_factor = Factor.find_or_create_by_name(:name=>"Stiffness in lower back")
 stiffness_or_limited_movement_factor = Factor.find_or_create_by_name(:name=>"Stiffness or limited movement")
 stinging_or_burning_sensation_factor = Factor.find_or_create_by_name(:name=>"Stinging or burning sensation")
 stringy_mucus_in_around_eye_factor = Factor.find_or_create_by_name(:name=>"Stringy mucus in or around the eye")
@@ -645,6 +655,7 @@ urgency_to_have_bowel_movement= Factor.find_or_create_by_name(:name=>"Urgency to
 walking_factor                = Factor.find_or_create_by_name(:name=>"Walking")
 warmth_to_touch_factor        = Factor.find_or_create_by_name(:name=>"Warmth to touch")
 weakness_factor               = Factor.find_or_create_by_name(:name=>"Weakness")
+weakness_numbess_leg_foot_factor = Factor.find_or_create_by_name(:name=>"Weakness, numbness or tingling in leg or foot ")
 watery_or_itchy_eyes_factor   = Factor.find_or_create_by_name(:name=>"Watery or itchy eyes")
 wheezing_factor               = Factor.find_or_create_by_name(:name=>"Wheezing")
 whole_foot_factor             = Factor.find_or_create_by_name(:name=>"Whole foot")
@@ -1047,6 +1058,28 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
                                           :symptom_selfcare_id=>back_pain_selfcare.id)
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers", 
                                           :symptom_selfcare_id=>back_pain_selfcare.id)
+back_pain_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Get medical care immediately if you have severe low back pain that:",
+                                                                                  :symptom_id=>low_back_pain_symptom.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Follows a fall, blow to your back or other injury",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Is constant or intense",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Worsens during rest or at night",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Spreads down one or both legs",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Causes weakness, numbness or tingling in one or both legs",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Is associated with new bowel or bladder problems",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Is accompanied by fever",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Is associated with pain or throbbing in the abdomen",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Is accompanied by unexplained weight loss",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+back_pain_also_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Also, see your doctor if you start having back pain for the first time after age 50, or if you have a history of cancer, osteoporosis, steroid use, or drug or alcohol abuse.",
+                                                                                  :symptom_id=>low_back_pain_symptom.id)
 
 nasal_congestion_symptom  = Symptom.upsert_attributes({:name=>"Nasal Congestion", :patient_type=>"adult"},
   {:description=>"Nasal congestion is a common problem in adults. Identify possible common causes based on symptoms you're experiencing.",
@@ -4229,6 +4262,163 @@ knee_pain_warmth_touch_accompanied_by_SF = SymptomsFactor.find_or_create_by_doct
   :er_worthy=>false,
   :symptom_id=>knee_pain_symptom.id,
   :factor_id=>warmth_to_touch_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+
+## Low Back Pain - Adult 
+#########################################
+low_back_pain_suddenly_pain_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>began_suddenly_factor.id, 
+  :factor_group_id=>pain_factor_group.id
+)
+low_back_pain_gradually_pain_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>gradually_worsening_factor.id, 
+  :factor_group_id=>pain_factor_group.id
+)
+low_back_pain_itermittent_pain_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>is_intermittent_factor.id, 
+  :factor_group_id=>pain_factor_group.id
+)
+low_back_pain_everyday_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>everday_act_factor.id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+low_back_pain_injury_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>injury_factor.id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+low_back_pain_overuse_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>overuse_factor.id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+low_back_pain_movement_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>movement_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+low_back_pain__triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>prolonged_rest_inactivities_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+low_back_pain_prolonged_rest_inactive_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>prolonged_sitting_standing_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+low_back_pain_bending_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>bending_forward_leaning_factor.id, 
+  :factor_group_id=>relieved_by_factor_group.id
+)
+low_back_pain_change_bowel_bladder_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>change_bowel_bladder_function_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_decreased_sensitivity_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>decreased_sensitivity_to_pain_heat_cold_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_eye_pain_blurred_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>eye_pain_blurred_vision_light_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_fatique_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>fatigue_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_knot_tight_spot_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>knot_tight_spot_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_leg_foot_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>leg_or_foot_pain_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_paralysis_other_body_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>paralysis_different_parts_body_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group
+)
+low_back_pain_stiffness_lower_back_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>stiffness_in_lower_back_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_stooped_posture_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>stooped_posture_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_swelling_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>swelling_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_unintended_weight_loss_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>unintended_weight_loss_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_weakness_numbness_leg_foot_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>weakness_numbess_leg_foot_factor.id, 
   :factor_group_id=>accompanied_by_factor_group.id
 )
 #########################################
