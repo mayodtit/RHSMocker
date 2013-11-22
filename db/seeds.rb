@@ -3497,7 +3497,6 @@ foot_swelling_abdommen_other_parts_accompanied_by_SF = SymptomsFactor.find_or_cr
   :factor_id=>swelling_in_abdomen_other_parts_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-
 ## Headache - ADULT
 ## ######################################
 headache_extreme_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
@@ -3610,21 +3609,21 @@ headache_less_few_min_duration_is_SF = SymptomsFactor.find_or_create_by_doctor_c
   :er_worthy=>false,
   :symptom_id=>headache_symptom.id,
   :factor_id=>less_than_few_minutes_factor.id,
-  :factor_group_id=>duration_is_factor_group.id
+  :factor_group_id=>duration_of_headache_is_factor_group.id
 )
 headache_several_hours_days_duration_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>headache_symptom.id,
   :factor_id=>several_hours_to_days_factor.id,
-  :factor_group_id=>duration_is_factor_group.id
+  :factor_group_id=>duration_of_headache_is_factor_group.id
 )
 headache_several_minutes_to_hours_duration_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>headache_symptom.id,
   :factor_id=>several_minutes_to_few_hours_factor.id,
-  :factor_group_id=>duration_is_factor_group.id
+  :factor_group_id=>duration_of_headache_is_factor_group.id
 )
 headache_gradually_becomes_frequent_recurrence_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
@@ -3647,7 +3646,6 @@ headache_is_often_at_same_time_every_date_recurrence_SF = SymptomsFactor.find_or
   :factor_id=>is_often_at_same_time_factor.id,
   :factor_group_id=>recurrence_of_headache_factor_group.id
 )
-
 headache_change_sleep_patterns_triggered_or_worsened_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
@@ -3837,7 +3835,6 @@ headache_vision_problems_accompanied_by_SF = SymptomsFactor.find_or_create_by_do
   :factor_id=>vision_problems_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-
 heart_palpitations_anxious_stressed_often_occur_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
@@ -3886,21 +3883,21 @@ heart_palpitations_caffeine_alcohol_preceded_by_use_of_SF = SymptomsFactor.find_
   :er_worthy=>false,
   :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>caffeine_or_alcohol_factor.id,
-  :factor_group_id=>preceded_by_factor_group.id
+  :factor_group_id=>preceded_by_use_of_factor_group.id
 )
 heart_palpitations_cigarettes_or_rec_drugs_preceded_by_use_of_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>cigarettes_or_recreational_drugs_factor.id,
-  :factor_group_id=>preceded_by_factor_group.id
+  :factor_group_id=>preceded_by_use_of_factor_group.id
 )
 heart_palpitations_medications_herbal_supplements_preceded_by_use_of_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>medications_or_herbal_supplements_factor.id,
-  :factor_group_id=>preceded_by_factor_group.id
+  :factor_group_id=>preceded_by_use_of_factor_group.id
 )
 heart_palpitations_chest_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
