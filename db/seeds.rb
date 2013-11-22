@@ -2794,7 +2794,7 @@ dizzyness_pain_in_chest_neck_shoulder_arm_accompanied_by_SF=SymptomsFactor.find_
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
-  :factor_id=>pain_in_chest_neck_shoulder_arm_factor.id,
+  :factor_id=>pain_in_neck_jaw_arms_shoulders_back_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
 dizzyness_severe_headache_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
