@@ -26,7 +26,7 @@ class Api::V1::FactorsController < Api::V1::ABaseController
     Content.joins(:contents_symptoms_factors => :symptoms_factor).where(:contents_symptoms_factors => { :symptoms_factor_id => params[:symptoms_factors]}).includes(:symptoms_factors).uniq.each do |content|
         symptoms_factors = []
         content.symptoms_factors.where(:symptom_id=>params[:symptom_id]).each do |sf|
-          symptoms_factors << {:id=>sf.id, :name=>sf.factor_group.name+" "+sf.factor.name}
+          symptoms_factors << {:id=>sf.id, :name=>sf.factor_group.name.capitalize+" "+sf.factor.name.downcase} #Sting manipulation is to get the display names correct
         end
         # symptoms_factors = content.symptoms_factors.where(:id=>params[:symptoms_factors])
 
@@ -37,7 +37,9 @@ class Api::V1::FactorsController < Api::V1::ABaseController
         }
     end
 
-    result.sort! { |a,b| b[:factors].count <=> a[:factors].count }
+    #result.sort! { |a,b| b[:factors].count <=> a[:factors].count }
+    result.sort! { |a,b| (b[:factors].map{|f| f[:id]} & params[:symptoms_factors]).count <=>  (a[:factors].map{|f| f[:id]} & params[:symptoms_factors]).count }
+
     render_success({contents:result})
   end
 
