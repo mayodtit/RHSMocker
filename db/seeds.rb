@@ -579,7 +579,7 @@ poor_posture_factor                         = Factor.find_or_create_by_name(:nam
 popping_snapping_factor  = Factor.find_or_create_by_name(:name=>"Popping or snapping")
 pressure_or_squeezing_factor                = Factor.find_or_create_by_name(:name=>"Pressure or squeezing sensation")
 producing_phlegm_or_sputum_factor           = Factor.find_or_create_by_name(:name=>"Producing phlegm or sputum")
-progressive_or_worsening_factor             = Factor.find_or_create_by_name(:name=>"Progressive or worsening")
+progressive_or_worsening_factor             = Factor.find_or_create_by_name(:name=>"Progressive, or worsens over time")
 sitting_or_standing_still_factor            = Factor.find_or_create_by_name(:name=>"Sitting or standing still for long periods")
 sharp_factor                                = Factor.find_or_create_by_name(:name=>"Sharp")
 sharp_severe_factor                         = Factor.find_or_create_by_name(:name=>"Sharp or severe")
