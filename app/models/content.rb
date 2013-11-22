@@ -29,6 +29,7 @@ class Content < ActiveRecord::Base
     text :title, :boost => 2.0
     text :keywords
     string :type
+    string :state
   end
 
   def self.unpublished
@@ -74,8 +75,14 @@ class Content < ActiveRecord::Base
     event :publish do
       transition all - :published => :published
     end
+
     event :unpublish do
       transition all - :unpublished => :unpublished
+    end
+
+    after_transition any => any do |content, transition|
+      Sunspot.index content
+      Sunspot.commit
     end
   end
 
