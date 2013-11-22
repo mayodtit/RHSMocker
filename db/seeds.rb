@@ -479,7 +479,7 @@ intense_factor                            = Factor.find_or_create_by_name(:name=
 intermittent_factor                       = Factor.find_or_create_by_name(:name=>"Intermittent")
 intermittent_episodic_factor              = Factor.find_or_create_by_name(:name=>"Intermittent, episodic")
 inability_to_bear_weight_factor           = Factor.find_or_create_by_name(:name=>"Inability to bear weight")
-inability_to_move_bowels_factor           = Factor.find_or_create_by_name(:name=>"Inability to move bowels")
+inability_to_move_bowels_factor           = Factor.find_or_create_by_name(:name=>"Inability to move bowels in spite of urge")
 inability_to_point_forefoot_and_toes_down_factor = Factor.find_or_create_by_name(:name=>"Inability to point forefoot and toes down")
 injury_factor                             = Factor.find_or_create_by_name(:name=>"Injury")
 injury_trauma_factor                      = Factor.find_or_create_by_name(:name=>"Injury or trauma")
@@ -574,7 +574,7 @@ painful_bowel_movements_factor              = Factor.find_or_create_by_name(:nam
 persistent_cough_factor                     = Factor.find_or_create_by_name(:name=>"Persistent cough")
 persistent_nausea_or_vomiting_factor        = Factor.find_or_create_by_name(:name=>"Persistent nausea or vomiting")
 persistent_weakness_or_numbness_factor      = Factor.find_or_create_by_name(:name=>"Persistent weakness or numbness")
-pulsing_near_navel_factor                   = Factor.find_or_create_by_name(:name=>"Pulsing near navel")
+pulsing_near_navel_factor                   = Factor.find_or_create_by_name(:name=>"Pulsing sensation near the navel")
 poor_posture_factor                         = Factor.find_or_create_by_name(:name=>"Poor posture")
 popping_snapping_factor  = Factor.find_or_create_by_name(:name=>"Popping or snapping")
 pressure_or_squeezing_factor                = Factor.find_or_create_by_name(:name=>"Pressure or squeezing sensation")
@@ -1383,90 +1383,6 @@ SymptomsFactor.delete_all
 
 ## ABDOMINAL PAIN - ADULT
 ## #################################################################################################################################################
-abdominal_pain_abdominal_swelling_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>abdominal_swelling_factor.id,
-  :factor_group_id=>accompanied_by_factor_group.id
-)
-abdominal_pain_black_or_bloody_stool_factor_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>black_or_bloody_stool_factor.id,
-  :factor_group_id=>accompanied_by_factor_group.id
-)
-abdominal_pain_constipation_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>constipation_factor.id,
-  :factor_group_id=>accompanied_by_factor_group.id
-)
-abdominal_pain_diarrhea_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>diarrhea_factor.id,
-  :factor_group_id=>accompanied_by_factor_group.id
-)
-abdominal_pain_fever_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>fever_factor.id,
-  :factor_group_id=>accompanied_by_factor_group.id
-)
-abdominal_pain_inability_to_move_bowels_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>inability_to_move_bowels_factor.id,
-  :factor_group_id=>accompanied_by_factor_group.id
-)
-abdominal_pain_nausea_or_vomiting_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>nausea_or_vomiting_factor.id,
-  :factor_group_id=>accompanied_by_factor_group.id
-)
-abdominal_pain_passing_gas_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>passing_gas_factor.id,
-  :factor_group_id=>accompanied_by_factor_group.id
-)
-abdominal_pain_pulsing_near_navel_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>pulsing_near_navel_factor.id,
-  :factor_group_id=>accompanied_by_factor_group.id
-)
-abdominal_pain_rash_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>rash_factor.id,
-  :factor_group_id=>accompanied_by_factor_group.id
-)
-abdominal_pain_stomach_growling_or_rumbling_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>stomach_growling_or_rumbling_factor.id,
-  :factor_group_id=>accompanied_by_factor_group.id
-)
-abdominal_pain_unintended_weight_loss_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>unintended_weight_loss_factor.id,
-  :factor_group_id=>accompanied_by_factor_group.id
-)
 abdominal_pain_acute_began_suddenly_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
@@ -1579,6 +1495,41 @@ abdominal_pain_upper_abdomen_pain_located_SF = SymptomsFactor.find_or_create_by_
   :factor_id=>upper_abdomen_factor.id,
   :factor_group_id=>pain_located_in_factor_group.id
 )
+abdominal_pain_coughing_or_jarring_movements_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>coughing_or_jarring_movements_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+abdominal_pain_drinking_alcohol_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>drinking_alcohol_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+abdominal_pain_eating_certain_foods_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>eating_certain_foods_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+abdominal_pain_menstrual_cycle_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>menstrual_cycle_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+abdominal_pain_stress_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>stress_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
 abdominal_pain_antacids_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
@@ -1621,41 +1572,91 @@ abdominal_pain_eating_more_fibre_relieved_by_SF = SymptomsFactor.find_or_create_
   :factor_id=>eating_more_fibre_factor.id,
   :factor_group_id=>relieved_by_factor_group.id
 )
-abdominal_pain_coughing_or_jarring_movements_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+abdominal_pain_abdominal_swelling_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>coughing_or_jarring_movements_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+  :factor_id=>abdominal_swelling_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
 )
-abdominal_pain_drinking_alcohol_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+abdominal_pain_black_or_bloody_stool_factor_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>drinking_alcohol_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+  :factor_id=>black_or_bloody_stool_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
 )
-abdominal_pain_eating_certain_foods_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+abdominal_pain_constipation_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>eating_certain_foods_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+  :factor_id=>constipation_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
 )
-abdominal_pain_menstrual_cycle_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+abdominal_pain_diarrhea_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>menstrual_cycle_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+  :factor_id=>diarrhea_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
 )
-abdominal_pain_stress_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+abdominal_pain_fever_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>stress_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+  :factor_id=>fever_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
 )
+abdominal_pain_inability_to_move_bowels_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>inability_to_move_bowels_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+abdominal_pain_nausea_or_vomiting_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>nausea_or_vomiting_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+abdominal_pain_passing_gas_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>passing_gas_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+abdominal_pain_pulsing_near_navel_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>pulsing_near_navel_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+abdominal_pain_rash_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>rash_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+abdominal_pain_stomach_growling_or_rumbling_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>stomach_growling_or_rumbling_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+abdominal_pain_unintended_weight_loss_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>unintended_weight_loss_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+
 ## Blood in Stool - ADULT
 ## ##################################################################################################################################
 blood_stool_abdominal_pain_or_cramping_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
