@@ -378,6 +378,7 @@ burning_pain_factor                     = Factor.find_or_create_by_name(:name=>"
 buzzing_or_ringing_in_ear_factor        = Factor.find_or_create_by_name(:name=>"Buzzing or ringing in ear")
 caffeine_or_alcohol_factor              = Factor.find_or_create_by_name(:name=>"Caffeine or alcohol")
 clenching_grinding_teeth_factor         = Factor.find_or_create_by_name(:name=>"Clenching or grinding teeth")
+clear_or_watery_factor = Factor.find_or_create_by_name(:name=>"Clear or watery")
 cigarettes_or_recreational_drugs_factor = Factor.find_or_create_by_name(:name=>"Cigarettes or recreational drugs")
 change_in_bowel_habits_factor           = Factor.find_or_create_by_name(:name=>"Change in your bowel habits")
 change_bowel_bladder_function_factor    = Factor.find_or_create_by_name(:name=>"Change in bowel or bladder function")
@@ -421,6 +422,7 @@ dull_factor                             = Factor.find_or_create_by_name(:name=>"
 dull_achy_factor                        = Factor.find_or_create_by_name(:name=>"Dull or achy")
 earache_factor                          = Factor.find_or_create_by_name(:name=>"Earache")
 ear_pain_or_pressure_factor             = Factor.find_or_create_by_name(:name=>"Ear pain or pressure")
+ear_pain_factor                         = Factor.find_or_create_by_name(:name=>"Ear pain")
 easy_bruising_or_bleeding_factor        = Factor.find_or_create_by_name(:name=>"Easy bruising or bleeding")
 eating_or_drinking_factor               = Factor.find_or_create_by_name(:name=>"Eating or drinking")
 eating_more_fibre_factor                = Factor.find_or_create_by_name(:name=>"Eating more fiber")
@@ -496,6 +498,7 @@ is_often_at_same_time_factor              = Factor.find_or_create_by_name(:name=
 is_preceded_by_meds_factor  = Factor.find_or_create_by_name(:name=>"Is preceded by frequent use of pain medication")
 is_preceded_by_visual_factor = Factor.find_or_create_by_name(:name=>"Is preceded by visual or other sensory disturbances") 
 is_sudden_factor                          = Factor.find_or_create_by_name(:name=>"Is sudden")
+itchy_eyes_nose_mouth_throat_factor = Factor.find_or_create_by_name(:name=>"Itchy eyes, nose, mouth or throat")
 jaw_pain_factor                           = Factor.find_or_create_by_name(:name=>"Jaw pain")
 jaw_pain_or_stiffness_factor              = Factor.find_or_create_by_name(:name=>"Jaw pain or stiffness")
 joint_deformity_factor                    = Factor.find_or_create_by_name(:name=>"Joint deformity")
@@ -516,6 +519,7 @@ lump_in_front_of_neck_factor              = Factor.find_or_create_by_name(:name=
 lying_down_for_a_long_period_factor       = Factor.find_or_create_by_name(:name=>"Lying down for a long period")
 lying_down_dark_factor                    = Factor.find_or_create_by_name(:name=>"Lying down in the dark")
 medications_or_herbal_supplements_factor  = Factor.find_or_create_by_name(:name=>"Medications or herbal supplements")
+mild_body_aches_factor   = Factor.find_or_create_by_name(:name=>"Mild body aches")
 mouth_sores_lumps_or_pain_factor          = Factor.find_or_create_by_name(:name=>"Mouth sores, lumps or pain")
 moderate_to_severe_factor                 = Factor.find_or_create_by_name(:name=>"Moderate to severe")
 movement_factor                           = Factor.find_or_create_by_name(:name=>"Movement")
@@ -533,15 +537,18 @@ narrow_stools_factor                      = Factor.find_or_create_by_name(:name=
 nausea_factor                             = Factor.find_or_create_by_name(:name=>"Nausea")
 nausea_or_vomiting_factor                 = Factor.find_or_create_by_name(:name=>"Nausea or vomiting")
 nervousness_factor                        = Factor.find_or_create_by_name(:name=>"Nervousness")
+new_or_recent_factor  = Factor.find_or_create_by_name(:name=>"New or recent")
 new_or_began_recently_factor              = Factor.find_or_create_by_name(:name=>"New or began recently")
 new_or_began_suddenly_factor              = Factor.find_or_create_by_name(:name=>"New or began suddenly")
 numbness_or_tingling_factor               = Factor.find_or_create_by_name(:name=>"Numbness or tingling")
 numbness_pain_color_factor                = Factor.find_or_create_by_name(:name=>"Numbness, pain and color changes in fingers")
 numbness_or_weakness_one_side             = Factor.find_or_create_by_name(:name=>"Numbness or weakness on one side of body")
+nosebleeds_factor = Factor.find_or_create_by_name(:name=>"Nosebleeds")
 orgasm_factor                             = Factor.find_or_create_by_name(:name=>"Orgasm")
 on_both_sides_of_head_factor              = Factor.find_or_create_by_name(:name=>"On both sides of your head")
 on_one_side_of_head_factor                = Factor.find_or_create_by_name(:name=>"On one side of your head")
 ongoing_or_recurrent_factor               = Factor.find_or_create_by_name(:name=>"Ongoing or recurrent")
+ongoing_or_persistant_factor = Factor.find_or_create_by_name(:name=>"Ongoing or persistent")
 one_or_both_sides_factor                  = Factor.find_or_create_by_name(:name=>"One or both sides")
 over_the_counter_meds_factor              = Factor.find_or_create_by_name(:name=>"Over-the-counter pain medication")
 overuse_factor                            = Factor.find_or_create_by_name(:name=>"Overuse")
@@ -553,6 +560,7 @@ recent_day_week_factor                    = Factor.find_or_create_by_name(:name=
 recently_factor                           = Factor.find_or_create_by_name(:name=>"Recently")
 recurrent_or_ongoing_factor               = Factor.find_or_create_by_name(:name=>"Recurrent or ongoing")
 rectal_pain_factor                        = Factor.find_or_create_by_name(:name=>"Rectal pain")
+reduced_sense_of_smell_factor  = Factor.find_or_create_by_name(:name=>"Reduced sense of smell or taste")
 redness_factor                            = Factor.find_or_create_by_name(:name=>"Redness")
 redness_or_warmth_factor                  = Factor.find_or_create_by_name(:name=>"Redness or warmth in affected area")
 redness_without_discomfort_factor           = Factor.find_or_create_by_name(:name=>"Redness without actual discomfort")
@@ -563,6 +571,7 @@ rest_or_inactivity_factor                   = Factor.find_or_create_by_name(:nam
 restlessness_or_agitation_factor            = Factor.find_or_create_by_name(:name=>"Restlessness or agitation")
 rapid_or_irregular_heartbeat_factor         = Factor.find_or_create_by_name(:name=>"Rapid or irregular heartbeat")
 runny_or_stuffy_nose_factor                 = Factor.find_or_create_by_name(:name=>"Runny or stuffy nose")
+runny_nose_factor = Factor.find_or_create_by_name(:name=>"Runny nose")
 pale_dry_skin_factor                        = Factor.find_or_create_by_name(:name=>"Pale, dry skin")
 pain_in_neck_jaw_arms_shoulders_back_factor = Factor.find_or_create_by_name(:name=>"Pain in neck, jaw, arms, shoulders or back")
 preceded_by_eating_suspect_food_factor      = Factor.find_or_create_by_name(:name=>"Preceded by eating suspect food")
@@ -608,6 +617,7 @@ sore_throat_factor            = Factor.find_or_create_by_name(:name=>"Sore throa
 skin_redness_factor = Factor.find_or_create_by_name(:name=>"Skin redness")
 squeezing_or_pressure_factor  = Factor.find_or_create_by_name(:name=>"Squeezing or pressure")
 sneezing_factor               = Factor.find_or_create_by_name(:name=>"Sneezing")
+snoring_factor   = Factor.find_or_create_by_name(:name=>"Snoring")
 slurred_speech_factor         = Factor.find_or_create_by_name(:name=>"Slurred speech")
 slurred_speech_difficulty_speaking_factor = Factor.find_or_create_by_name(:name=>"Slurred speech or difficulty speaking")
 slower_than_normal_factor     = Factor.find_or_create_by_name(:name=>"Slower than normal")
@@ -647,6 +657,7 @@ toe_or_front_part_of_foot_factor = Factor.find_or_create_by_name(:name=>"Toe or 
 tremors_factor                = Factor.find_or_create_by_name(:name=>"Tremors")
 trouble_sleeping_factor       = Factor.find_or_create_by_name(:name=>"Trouble sleeping")
 upper_abdomen_factor          = Factor.find_or_create_by_name(:name=>"Upper abdomen")
+upper_jaw_tooth_pain_factor = Factor.find_or_create_by_name(:name=>"Upper jaw or tooth pain")
 unintended_weight_loss_factor = Factor.find_or_create_by_name(:name=>"Unintended weight loss")
 unintended_weight_gain_factor = Factor.find_or_create_by_name(:name=>"Unintended weight gain")
 unexplained_fatigue_factor = Factor.find_or_create_by_name(:name=>"Unexplained fatigue") 
@@ -657,6 +668,7 @@ warmth_to_touch_factor        = Factor.find_or_create_by_name(:name=>"Warmth to 
 weakness_factor               = Factor.find_or_create_by_name(:name=>"Weakness")
 weakness_numbess_leg_foot_factor = Factor.find_or_create_by_name(:name=>"Weakness, numbness or tingling in leg or foot ")
 watery_or_itchy_eyes_factor   = Factor.find_or_create_by_name(:name=>"Watery or itchy eyes")
+watery_eyes_factor   = Factor.find_or_create_by_name(:name=>"Watery eyes")
 wheezing_factor               = Factor.find_or_create_by_name(:name=>"Wheezing")
 whole_foot_factor             = Factor.find_or_create_by_name(:name=>"Whole foot")
 worsening_or_progressing_factor = Factor.find_or_create_by_name(:name=>"Worsening or progressing")
@@ -665,6 +677,7 @@ vomiting_blood_factor         = Factor.find_or_create_by_name(:name=>"Vomiting b
 visible_deformity_factor      = Factor.find_or_create_by_name(:name=>"Visible deformity")
 vision_loss_factor            = Factor.find_or_create_by_name(:name=>"Vision loss")
 vision_problems_factor        = Factor.find_or_create_by_name(:name=>"Vision problems")
+yellow_or_greenish_factor = Factor.find_or_create_by_name(:name=>"Yellow or greenish")
 youre_anxious_or_stressed_factor = Factor.find_or_create_by_name(:name=>"You're anxious or stressed")
 youre_exerting_factor           = Factor.find_or_create_by_name(:name=>"You're exerting yourself")
 youre_resting_going_bed_factor  = Factor.find_or_create_by_name(:name=>"You're resting or going to bed")
@@ -1097,6 +1110,27 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
                                           :symptom_selfcare_id=>nasal_congestion_selfcare.id)
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Try an oral decongestant", 
                                           :symptom_selfcare_id=>nasal_congestion_selfcare.id)
+
+nasal_congestion_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Get prompt medical care if you have nasal congestion accompanied by:",
+                                                                                  :symptom_id=>low_back_pain_symptom.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"A fever of 101 F (38.3 C) or higher",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"A fever that lasts more than 72 hours",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Greenish or bloody nasal discharge",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Chills or sweating",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Breathing difficulty",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Nausea or vomiting",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Unusual sleepiness",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"A severe headache",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Ear pain",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
 
 nausea_or_vomiting_symptom  = Symptom.upsert_attributes({:name=>"Nausea or Vomiting", :patient_type=>"adult"},
   {:description=>"Nausea or vomiting is most often caused by the stomach flu. Identify other possible common causes based on symptoms you're experiencing.",
@@ -4420,6 +4454,150 @@ low_back_pain_weakness_numbness_leg_foot_accompanied_by_SF = SymptomsFactor.find
   :symptom_id=>low_back_pain_symptom.id,
   :factor_id=>weakness_numbess_leg_foot_factor.id, 
   :factor_group_id=>accompanied_by_factor_group.id
+)
+## Nasal Congestion Adult
+#########################################
+##
+nasal_congestion_new_or_recent_nasal_congestion_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>new_or_recent_factor.id, 
+  :factor_group_id=>nasal_congestion_is_factor_group.id
+)
+nasal_congestion_ongoing_persistent_nasal_congestion_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>ongoing_or_persistant_factor.id, 
+  :factor_group_id=>nasal_congestion_is_factor_group.id
+)
+
+nasal_congestion_clear_watery_nasal_discharge_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>clear_or_watery_factor.id, 
+  :factor_group_id=>nasal_discharge_is_factor_group.id
+)
+nasal_congestion_yellow_or_greenish_nasal_discharge_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>yellow_or_greenish_factor.id,
+  :factor_group_id=>nasal_discharge_is_factor_group.id
+)
+nasal_congestion_bad_breath_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>bad_breath_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_cough_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>cough_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_ear_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>ear_pain_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_fatique_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>fatigue_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_fever_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>fever_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_headache_facial_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>headache_or_facial_pain_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_itchy_eyes_nose_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>itchy_eyes_nose_mouth_throat_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_mild_body_aches_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>mild_body_aches_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_nosebleeds_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>nosebleeds_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_reduced_sense_of_smell_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>reduced_sense_of_smell_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_runny_nose_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>runny_nose_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_sneezing_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>sneezing_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_snoring_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>snoring_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_sore_throat_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>sore_throat_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_upper_jaw_tooth_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>upper_jaw_tooth_pain_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_watery_eyes_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>watery_eyes_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
 )
 #########################################
 ##
