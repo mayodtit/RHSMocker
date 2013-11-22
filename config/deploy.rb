@@ -100,8 +100,9 @@ namespace :deploy do
   end
 
   task :fix_symlinks do
-    run "rm -f #{release_path}/config/database.yml && ln -s #{shared_path}/config/database.yml #{release_path}/config/database.yml"
-    run "rm -f #{release_path}/config/sunspot.yml && ln -s #{shared_path}/config/sunspot.yml #{release_path}/config/sunspot.yml"
+    %w(database.yml sunspot.yml application.yml).each do |f|
+      run "rm -f #{release_path}/config/#{f} && ln -s #{shared_path}/config/#{f} #{release_path}/config/#{f}"
+    end
     run "git ls-remote git@github.com:RemoteHealthServices/RHSMocker.git #{branch} >> #{release_path}/public/VERSION.txt"
   end
 
