@@ -172,7 +172,6 @@ GEM
       less (~> 2.2.0)
     libv8 (3.16.14.3)
     listen (0.7.3)
-    lorem-ipsum-me (0.1.0)
     lumberjack (1.0.3)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -377,7 +376,6 @@ DEPENDENCIES
   jquery-ui-rails
   kaminari
   less-rails
-  lorem-ipsum-me
   minitar
   newrelic_rpm
   nokogiri

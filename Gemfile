@@ -56,9 +56,6 @@ gem 'sunspot_rails'
 gem 'sunspot_solr'
 gem 'progress_bar' #for indexing
 
-#Remove before MVP
-gem 'lorem-ipsum-me'
-
 gem "rails_config"
 gem 'sorcery'
 gem 'cancan'
