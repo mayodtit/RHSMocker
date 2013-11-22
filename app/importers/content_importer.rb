@@ -171,7 +171,7 @@ class ContentImporter
                                            :show_call_option => !NO_CALL_LIST.include?(@document_id),
                                            :show_checker_option => !NO_SYMPTOMS_LIST.include?(@document_id),
                                            :show_mayo_copyright => (@document_id != TERMS_OF_SERVICE),
-                                           :state => :published
+                                           :state_event => :publish
                                          })
   end
 
