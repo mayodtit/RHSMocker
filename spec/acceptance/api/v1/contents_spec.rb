@@ -6,7 +6,7 @@ resource "Contents" do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:user_with_email).tap{|u| u.login} }
-  let!(:content) { create(:content) }
+  let!(:content) { create(:content, :published) }
 
   get '/api/v1/contents' do
     parameter :auth_token, "User's auth_token"
