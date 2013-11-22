@@ -579,7 +579,8 @@ poor_posture_factor                         = Factor.find_or_create_by_name(:nam
 popping_snapping_factor  = Factor.find_or_create_by_name(:name=>"Popping or snapping")
 pressure_or_squeezing_factor                = Factor.find_or_create_by_name(:name=>"Pressure or squeezing sensation")
 producing_phlegm_or_sputum_factor           = Factor.find_or_create_by_name(:name=>"Producing phlegm or sputum")
-progressive_or_worsening_factor             = Factor.find_or_create_by_name(:name=>"Progressive, or worsens over time")
+progressive_or_worsening_over_time_factor   = Factor.find_or_create_by_name(:name=>"Progressive, or worsens over time")
+progressive_or_worsening_factor             = Factor.find_or_create_by_name(:name=>"Progressive or worsening")
 sitting_or_standing_still_factor            = Factor.find_or_create_by_name(:name=>"Sitting or standing still for long periods")
 sharp_factor                                = Factor.find_or_create_by_name(:name=>"Sharp")
 sharp_severe_factor                         = Factor.find_or_create_by_name(:name=>"Sharp or severe")
@@ -1443,7 +1444,7 @@ abdominal_pain_progressive_or_worsening_pain_is_SF = SymptomsFactor.find_or_crea
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>progressive_or_worsening_factor.id,
+  :factor_id=>progressive_or_worsening_over_time_factor.id,
   :factor_group_id=>pain_is_factor_group.id
 )
 abdominal_pain_sharp_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
