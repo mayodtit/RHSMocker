@@ -29,7 +29,7 @@ class Api::V1::CustomContentsController < Api::V1::ABaseController
   end
 
   def custom_content_params
-    params.require(:custom_content).permit(:title, :raw_body, :raw_preview, :content_type, :abstract)
+    params.require(:custom_content).permit(:title, :raw_body, :raw_preview, :content_type, :abstract, :state_event)
   end
 
   def serializer_options
