@@ -7,6 +7,10 @@ FactoryGirl.define do
     show_call_option true
     show_checker_option true
     show_mayo_copyright true
+
+    trait :published do
+      state 'published'
+    end
   end
 
   factory :mayo_content, class: MayoContent do

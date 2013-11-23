@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Api::V1::ContentsController do
-  let(:content) { build_stubbed(:content) }
+  let(:content) { build_stubbed(:content, :published) }
   let(:user) { build_stubbed(:member) }
   let(:ability) { Object.new.extend(CanCan::Ability) }
   let(:content_keys) { content.serializer.as_json.keys.map(&:to_sym) }
@@ -22,7 +22,7 @@ describe Api::V1::ContentsController do
         let(:results) { [content] }
 
         before(:each) do
-          Content.stub_chain(:order, :page, :per).and_return(results)
+          Content.stub_chain(:order, :published, :page, :per).and_return(results)
           results.stub(total_count: 1)
         end
 
@@ -65,7 +65,7 @@ describe Api::V1::ContentsController do
     let(:content_keys) { content.serializer(body: true, fullscreen_actions: true).as_json.keys.map(&:to_sym) }
 
     before do
-      Content.stub(:find => content)
+      Content.stub_chain(:published, :find).and_return(content)
     end
 
     it_behaves_like 'action requiring authentication'

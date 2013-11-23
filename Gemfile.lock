@@ -99,7 +99,7 @@ GEM
       debugger-linecache (~> 1.2.0)
       debugger-ruby_core_source (~> 1.2.3)
     debugger-linecache (1.2.0)
-    debugger-ruby_core_source (1.2.3)
+    debugger-ruby_core_source (1.2.4)
     delayed_job (3.0.5)
       activesupport (~> 3.0)
     delayed_job_active_record (0.4.4)
@@ -175,7 +175,6 @@ GEM
       less (~> 2.2.0)
     libv8 (3.16.14.3)
     listen (0.7.3)
-    lorem-ipsum-me (0.1.0)
     lumberjack (1.0.3)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -383,7 +382,6 @@ DEPENDENCIES
   jquery-ui-rails
   kaminari
   less-rails
-  lorem-ipsum-me
   minitar
   mysql2
   newrelic_rpm
