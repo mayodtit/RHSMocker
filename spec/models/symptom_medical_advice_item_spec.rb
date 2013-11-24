@@ -1,5 +1,7 @@
 require 'spec_helper'
 
 describe SymptomMedicalAdviceItem do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it_has_a 'valid factory'
+  it_validates 'presence of', :symptom_medical_advice
+  it_validates 'presence of', :description
 end

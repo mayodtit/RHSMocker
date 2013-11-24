@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131115220632) do
+ActiveRecord::Schema.define(:version => 20131122185327) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -128,9 +128,16 @@ ActiveRecord::Schema.define(:version => 20131115220632) do
     t.datetime "updated_at",         :null => false
   end
 
+  create_table "content_references", :force => true do |t|
+    t.integer  "referrer_id"
+    t.integer  "referee_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
   create_table "contents", :force => true do |t|
     t.string   "title",               :default => "",   :null => false
-    t.text     "body"
+    t.text     "raw_body"
     t.datetime "created_at",                            :null => false
     t.datetime "updated_at",                            :null => false
     t.string   "content_type",        :default => "",   :null => false
@@ -143,6 +150,8 @@ ActiveRecord::Schema.define(:version => 20131115220632) do
     t.boolean  "show_checker_option", :default => true, :null => false
     t.boolean  "show_mayo_copyright", :default => true, :null => false
     t.string   "type"
+    t.text     "raw_preview"
+    t.string   "state"
   end
 
   add_index "contents", ["document_id"], :name => "index_contents_on_document_id"

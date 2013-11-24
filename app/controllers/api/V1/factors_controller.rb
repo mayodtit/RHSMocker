@@ -6,7 +6,7 @@ class Api::V1::FactorsController < Api::V1::ABaseController
     return render_failure({reason:"Symptom with id #{params[:id]} could not be found"}, 404) unless symptom
     factor_groups = []
     factor_groups_json = []
-    symptoms_factors = symptom.symptoms_factors.sort { |x, y| x.factor.name <=> y.factor.name }
+    symptoms_factors = symptom.symptoms_factors.sort_by { |x| [x.id,x.factor.name] }
 
     symptoms_factors.each do |sf|
       if !factor_groups[sf.factor_group.id]
@@ -17,21 +17,16 @@ class Api::V1::FactorsController < Api::V1::ABaseController
       factor_groups[sf.factor_group.id][:factors] << sf
     end
     render_success({:factor_groups=>factor_groups_json})
-
-    # factor_groups = Set.new(symptom.symptoms_factors).classify { |sf| sf.factor_group.name }
-    # render_success({:factor_groups=>factor_groups})
   end
 
 
   def check
     result = []
     #SymptomsFactor.includes(:contents).where(:id=>params[:symptoms_factors])
-    Content.joins(:contents_symptoms_factors => :symptoms_factor).
-      where(:contents_symptoms_factors => { :symptoms_factor_id => params[:symptoms_factors]}).
-      includes(:symptoms_factors).uniq.each do |content|
+    Content.joins(:contents_symptoms_factors => :symptoms_factor).where(:contents_symptoms_factors => { :symptoms_factor_id => params[:symptoms_factors]}).includes(:symptoms_factors).uniq.each do |content|
         symptoms_factors = []
         content.symptoms_factors.where(:symptom_id=>params[:symptom_id]).each do |sf|
-          symptoms_factors << {:id=>sf.id, :name=>sf.factor_group.name+" "+sf.factor.name}
+          symptoms_factors << {:id=>sf.id, :name=>sf.factor_group.name.capitalize+" "+sf.factor.name.downcase} #Sting manipulation is to get the display names correct
         end
         # symptoms_factors = content.symptoms_factors.where(:id=>params[:symptoms_factors])
 
@@ -42,7 +37,9 @@ class Api::V1::FactorsController < Api::V1::ABaseController
         }
     end
 
-    result.sort! { |a,b| b[:factors].count <=> a[:factors].count }
+    #result.sort! { |a,b| b[:factors].count <=> a[:factors].count }
+    result.sort! { |a,b| (b[:factors].map{|f| f[:id]} & params[:symptoms_factors]).count <=>  (a[:factors].map{|f| f[:id]} & params[:symptoms_factors]).count }
+
     render_success({contents:result})
   end
 

@@ -1,5 +1,7 @@
 class FactorGroup < ActiveRecord::Base
-  attr_accessible :name, :order
   has_many :symptoms_factors
 
+  attr_accessible :name
+
+  validates :name, presence: true
 end

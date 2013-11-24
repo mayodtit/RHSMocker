@@ -1,7 +1,7 @@
 class ContentsController < ApplicationController
   def index
     if params[:search]
-      @contents = Content.where('title LIKE ? OR body LIKE ?', "%#{params[:search]}%", "%#{params[:search]}%")
+      @contents = Content.where('title LIKE ? OR raw_body LIKE ?', "%#{params[:search]}%", "%#{params[:search]}%")
     else
       @contents = Content
     end

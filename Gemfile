@@ -35,6 +35,7 @@ group :development, :test do
   gem "zeus-parallel_tests"
   gem 'factory_girl_rails'
   gem 'guard-rspec'
+  gem 'debugger', require: false
   # gem 'ruby-debug-base19x', '>= 0.11.30.pre15'
   # gem 'ruby-debug-ide', '>= 0.4.21.pre1'
 end
@@ -55,9 +56,6 @@ gem 'sunspot_rails'
 gem 'sunspot_solr'
 gem 'progress_bar' #for indexing
 
-#Remove before MVP
-gem 'lorem-ipsum-me'
-
 gem "rails_config"
 gem 'sorcery'
 gem 'cancan'
@@ -74,7 +72,6 @@ gem "active_model_serializers"
 # gem 'capistrano'
 
 gem 'httparty'
-gem 'debugger', require: false
 gem 'awesome_print'
 gem 'titleize'
 gem 'haml'

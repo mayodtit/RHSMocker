@@ -165,12 +165,13 @@ class ContentImporter
                                            :title => @title,
                                            :abstract => abstract,
                                            :question => question,
-                                           :body => body,
+                                           :raw_body => body,
                                            :keywords => keywords,
                                            :content_updated_at => content_updated_at,
                                            :show_call_option => !NO_CALL_LIST.include?(@document_id),
                                            :show_checker_option => !NO_SYMPTOMS_LIST.include?(@document_id),
-                                           :show_mayo_copyright => (@document_id != TERMS_OF_SERVICE)
+                                           :show_mayo_copyright => (@document_id != TERMS_OF_SERVICE),
+                                           :state_event => :publish
                                          })
   end
 

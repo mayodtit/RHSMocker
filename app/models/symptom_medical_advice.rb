@@ -1,4 +1,8 @@
 class SymptomMedicalAdvice < ActiveRecord::Base
-  attr_accessible :description, :symptom_id
-  has_many :symptom_medical_advice_item 
+  belongs_to :symptom
+  has_many :symptom_medical_advice_item
+
+  attr_accessible :symptom, :symptom_id, :description
+
+  validates :symptom, :description, presence: true
 end

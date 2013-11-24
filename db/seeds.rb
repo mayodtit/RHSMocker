@@ -1,12 +1,14 @@
 #encoding: utf-8
 
 Content.upsert_attributes({title: 'Welcome to Better!'},
-                          {content_type: 'Content',
-                           body: 'Thank you for installing Better!',
+                          {type: 'CustomContent',
+                           content_type: 'Content',
+                           raw_body: 'Thank you for installing Better!',
                            document_id: 'RHS0000',
                            show_call_option: false,
                            show_checker_option: false,
-                           show_mayo_copyright: false})
+                           show_mayo_copyright: false,
+                           state_event: :publish})
 
 Question.upsert_attributes({:view => :gender}, {:title => 'Your Gender'})
 Question.upsert_attributes({:view => :allergies}, {:title => 'Your Allergies'})
@@ -376,8 +378,10 @@ burning_pain_factor                     = Factor.find_or_create_by_name(:name=>"
 buzzing_or_ringing_in_ear_factor        = Factor.find_or_create_by_name(:name=>"Buzzing or ringing in ear")
 caffeine_or_alcohol_factor              = Factor.find_or_create_by_name(:name=>"Caffeine or alcohol")
 clenching_grinding_teeth_factor         = Factor.find_or_create_by_name(:name=>"Clenching or grinding teeth")
+clear_or_watery_factor = Factor.find_or_create_by_name(:name=>"Clear or watery")
 cigarettes_or_recreational_drugs_factor = Factor.find_or_create_by_name(:name=>"Cigarettes or recreational drugs")
 change_in_bowel_habits_factor           = Factor.find_or_create_by_name(:name=>"Change in your bowel habits")
+change_bowel_bladder_function_factor    = Factor.find_or_create_by_name(:name=>"Change in bowel or bladder function")
 changing_position_factor                = Factor.find_or_create_by_name(:name=>"Changing position")
 change_sleep_patterns_factor            = Factor.find_or_create_by_name(:name=>"Change in sleep patterns")
 change_personality_factor               = Factor.find_or_create_by_name(:name=>"Change in personality, behaviors or mental status")
@@ -397,6 +401,8 @@ coughing_or_jarring_movements_factor    = Factor.find_or_create_by_name(:name=>"
 cough_with_blood_phlegm_factor          = Factor.find_or_create_by_name(:name=>"Cough with blood or phlegm")
 dark_floating_spots_in_vision_factor    = Factor.find_or_create_by_name(:name=>"Dark, floating spots in vision")
 diarrhea_factor                         = Factor.find_or_create_by_name(:name=>"Diarrhea")
+decreased_range_motion_factor           = Factor.find_or_create_by_name(:name=>"Decreased range of motion")
+decreased_sensitivity_to_pain_heat_cold_factor  = Factor.find_or_create_by_name(:name=>"Decreased sensitivity to pain, heat and cold") 
 difficult_or_painful_swallowing_factor  = Factor.find_or_create_by_name(:name=>"Difficult or painful swallowing")
 difficulty_breathing_factor             = Factor.find_or_create_by_name(:name=>"Difficulty breathing")
 difficulty_pushing_off_with_toes_factor = Factor.find_or_create_by_name(:name=>"Difficulty pushing off with toes")
@@ -413,8 +419,10 @@ dry_mouth_factor                        = Factor.find_or_create_by_name(:name=>"
 dry_or_itchy_factor                     = Factor.find_or_create_by_name(:name=>"Dry or itchy")
 dry_warm_air_factor                     = Factor.find_or_create_by_name(:name=>"Dry, warm air")
 dull_factor                             = Factor.find_or_create_by_name(:name=>"Dull")
+dull_achy_factor                        = Factor.find_or_create_by_name(:name=>"Dull or achy")
 earache_factor                          = Factor.find_or_create_by_name(:name=>"Earache")
 ear_pain_or_pressure_factor             = Factor.find_or_create_by_name(:name=>"Ear pain or pressure")
+ear_pain_factor                         = Factor.find_or_create_by_name(:name=>"Ear pain")
 easy_bruising_or_bleeding_factor        = Factor.find_or_create_by_name(:name=>"Easy bruising or bleeding")
 eating_or_drinking_factor               = Factor.find_or_create_by_name(:name=>"Eating or drinking")
 eating_more_fibre_factor                = Factor.find_or_create_by_name(:name=>"Eating more fiber")
@@ -422,7 +430,8 @@ eating_certain_foods_factor             = Factor.find_or_create_by_name(:name=>"
 enlarged_or_purplish_vein_factor        = Factor.find_or_create_by_name(:name=>"Enlarged or purplish vein in affected leg")
 entire_leg_or_calf_being_pale_and_cool_factor = Factor.find_or_create_by_name(:name=>"Entire leg or calf being pale and cool")
 eye_movement_factor                     = Factor.find_or_create_by_name(:name=>"Eye Movement")
-everday_activities_factor               = Factor.find_or_create_by_name(:name=>"Everyday activities")
+eye_pain_blurred_vision_light_factor  = Factor.find_or_create_by_name(:name=>"Eye pain, blurred vision or light sensitivity") 
+everday_act_factor                      = Factor.find_or_create_by_name(:name=>"Everyday activities")
 excessive_tearing_factor                = Factor.find_or_create_by_name(:name=>"Excessive tearing")
 exertion_factor                         = Factor.find_or_create_by_name(:name=>"Exertion")
 extreme_factor                          = Factor.find_or_create_by_name(:name=>"Extreme")
@@ -435,12 +444,15 @@ fatigue_or_weakness_factor              = Factor.find_or_create_by_name(:name=>"
 feeling_somthing_stuck_throat_factor    = Factor.find_or_create_by_name(:name=>"Feeling of something stuck in your throat")
 feeling_of_instability_factor           = Factor.find_or_create_by_name(:name=>"Feeling of instability")
 fever_factor                            = Factor.find_or_create_by_name(:name=>"Fever")
+fever_chills_factor                     = Factor.find_or_create_by_name(:name=>"Fever or chills")
 flattened_arch_factor                   = Factor.find_or_create_by_name(:name=>"Flattened arch")
 frequent_urge_to_have_bowel_movement_factor  = Factor.find_or_create_by_name(:name=>"Frequent urge to have bowel movement")
 gas_factor                                = Factor.find_or_create_by_name(:name=>"Gas")
 gnawing_factor                            = Factor.find_or_create_by_name(:name=>"Gnawing")
 gritty_sensation_factor                   = Factor.find_or_create_by_name(:name=>"Gritty sensation")
 gradually_becomes_frequent_factor         = Factor.find_or_create_by_name(:name=>"Gradually becomes more frequent")
+gradually_worsening_factor                = Factor.find_or_create_by_name(:name=>"Gradually worsening")
+grating_sensation_factor                  = Factor.find_or_create_by_name(:name=>"Grating sensation")
 halos_around_lights_factor                = Factor.find_or_create_by_name(:name=>"Halos around lights")
 hardening_of_skin_in_affected_area_factor = Factor.find_or_create_by_name(:name=>"Hardening of skin in affected area")
 have_something_stuck_in_your_throat_factor= Factor.find_or_create_by_name(:name=>"Have something stuck in your throat")
@@ -463,6 +475,7 @@ hormonal_changes_factor                   = Factor.find_or_create_by_name(:name=
 hurts_factor                              = Factor.find_or_create_by_name(:name=>"Hurts")
 ill_fitting_shoes_factor                  = Factor.find_or_create_by_name(:name=>"Ill-fitting shoes")
 in_both_limbs_factor                      = Factor.find_or_create_by_name(:name=>"In both limbs")
+in_knee_joint_factor                      = Factor.find_or_create_by_name(:name=>"In the knee joint")
 in_one_limb_factor                        = Factor.find_or_create_by_name(:name=>"In one limb")
 in_or_on_stool_factor                     = Factor.find_or_create_by_name(:name=>"In or on the stool")
 in_or_on_toilet_bowl_factor               = Factor.find_or_create_by_name(:name=>"In toilet bowl or on toilet tissue")
@@ -472,7 +485,7 @@ intense_factor                            = Factor.find_or_create_by_name(:name=
 intermittent_factor                       = Factor.find_or_create_by_name(:name=>"Intermittent")
 intermittent_episodic_factor              = Factor.find_or_create_by_name(:name=>"Intermittent, episodic")
 inability_to_bear_weight_factor           = Factor.find_or_create_by_name(:name=>"Inability to bear weight")
-inability_to_move_bowels_factor           = Factor.find_or_create_by_name(:name=>"Inability to move bowels")
+inability_to_move_bowels_factor           = Factor.find_or_create_by_name(:name=>"Inability to move bowels in spite of urge")
 inability_to_point_forefoot_and_toes_down_factor = Factor.find_or_create_by_name(:name=>"Inability to point forefoot and toes down")
 injury_factor                             = Factor.find_or_create_by_name(:name=>"Injury")
 injury_trauma_factor                      = Factor.find_or_create_by_name(:name=>"Injury or trauma")
@@ -480,18 +493,23 @@ irregular_heartbeat_factor                = Factor.find_or_create_by_name(:name=
 irregular_or_not_steady_factor            = Factor.find_or_create_by_name(:name=>"Irregular or not steady")
 is_daily_factor                           = Factor.find_or_create_by_name(:name=>"Is daily")
 is_gradual_factor                         = Factor.find_or_create_by_name(:name=>"Is gradual")
+is_intermittent_factor                    = Factor.find_or_create_by_name(:name=>"Is intermittent") 
 is_often_at_same_time_factor              = Factor.find_or_create_by_name(:name=>"Is often the same time every day")
 is_preceded_by_meds_factor  = Factor.find_or_create_by_name(:name=>"Is preceded by frequent use of pain medication")
 is_preceded_by_visual_factor = Factor.find_or_create_by_name(:name=>"Is preceded by visual or other sensory disturbances") 
 is_sudden_factor                          = Factor.find_or_create_by_name(:name=>"Is sudden")
+itchy_eyes_nose_mouth_throat_factor = Factor.find_or_create_by_name(:name=>"Itchy eyes, nose, mouth or throat")
 jaw_pain_factor                           = Factor.find_or_create_by_name(:name=>"Jaw pain")
 jaw_pain_or_stiffness_factor              = Factor.find_or_create_by_name(:name=>"Jaw pain or stiffness")
 joint_deformity_factor                    = Factor.find_or_create_by_name(:name=>"Joint deformity")
+knot_tight_spot_factor              = Factor.find_or_create_by_name(:name=>"Knot or tight spot in back muscle")
 lack_appetite_factor                      = Factor.find_or_create_by_name(:name=>"Lack of appetite")
 large_amounts_blood_factor                = Factor.find_or_create_by_name(:name=>"Large amounts of blood")
 less_than_few_minutes_factor              = Factor.find_or_create_by_name(:name=>"Less than a few minutes")
+leg_or_foot_pain_factor = Factor.find_or_create_by_name(:name=>"Leg or foot pain")
 lightheadedness_factor                    = Factor.find_or_create_by_name(:name=>"Lightheadedness")
 lightneadedned_or_faint_factor            = Factor.find_or_create_by_name(:name=>"Lightheaded or faint")
+locking_or_catching_factor                = Factor.find_or_create_by_name(:name=>"Locking or catching")
 lower_abdomen_factor                      = Factor.find_or_create_by_name(:name=>"Lower abdomen")
 long_periods_of_rest_factor               = Factor.find_or_create_by_name(:name=>"Long periods of rest")
 loss_of_appetite_factor                   = Factor.find_or_create_by_name(:name=>"Loss of appetite")
@@ -501,8 +519,10 @@ lump_in_front_of_neck_factor              = Factor.find_or_create_by_name(:name=
 lying_down_for_a_long_period_factor       = Factor.find_or_create_by_name(:name=>"Lying down for a long period")
 lying_down_dark_factor                    = Factor.find_or_create_by_name(:name=>"Lying down in the dark")
 medications_or_herbal_supplements_factor  = Factor.find_or_create_by_name(:name=>"Medications or herbal supplements")
+mild_body_aches_factor   = Factor.find_or_create_by_name(:name=>"Mild body aches")
 mouth_sores_lumps_or_pain_factor          = Factor.find_or_create_by_name(:name=>"Mouth sores, lumps or pain")
 moderate_to_severe_factor                 = Factor.find_or_create_by_name(:name=>"Moderate to severe")
+movement_factor                           = Factor.find_or_create_by_name(:name=>"Movement")
 middle_abdomen_factor                     = Factor.find_or_create_by_name(:name=>"Middle abdomen")
 middle_part_of_foot_factor                = Factor.find_or_create_by_name(:name=>"Middle part of foot")
 mild_to_moderate_factor                   = Factor.find_or_create_by_name(:name=>"Mild to moderate")
@@ -517,17 +537,21 @@ narrow_stools_factor                      = Factor.find_or_create_by_name(:name=
 nausea_factor                             = Factor.find_or_create_by_name(:name=>"Nausea")
 nausea_or_vomiting_factor                 = Factor.find_or_create_by_name(:name=>"Nausea or vomiting")
 nervousness_factor                        = Factor.find_or_create_by_name(:name=>"Nervousness")
+new_or_recent_factor  = Factor.find_or_create_by_name(:name=>"New or recent")
 new_or_began_recently_factor              = Factor.find_or_create_by_name(:name=>"New or began recently")
 new_or_began_suddenly_factor              = Factor.find_or_create_by_name(:name=>"New or began suddenly")
 numbness_or_tingling_factor               = Factor.find_or_create_by_name(:name=>"Numbness or tingling")
 numbness_pain_color_factor                = Factor.find_or_create_by_name(:name=>"Numbness, pain and color changes in fingers")
 numbness_or_weakness_one_side             = Factor.find_or_create_by_name(:name=>"Numbness or weakness on one side of body")
+nosebleeds_factor = Factor.find_or_create_by_name(:name=>"Nosebleeds")
 orgasm_factor                             = Factor.find_or_create_by_name(:name=>"Orgasm")
 on_both_sides_of_head_factor              = Factor.find_or_create_by_name(:name=>"On both sides of your head")
 on_one_side_of_head_factor                = Factor.find_or_create_by_name(:name=>"On one side of your head")
 ongoing_or_recurrent_factor               = Factor.find_or_create_by_name(:name=>"Ongoing or recurrent")
+ongoing_or_persistant_factor = Factor.find_or_create_by_name(:name=>"Ongoing or persistent")
 one_or_both_sides_factor                  = Factor.find_or_create_by_name(:name=>"One or both sides")
 over_the_counter_meds_factor              = Factor.find_or_create_by_name(:name=>"Over-the-counter pain medication")
+overuse_factor                            = Factor.find_or_create_by_name(:name=>"Overuse")
 radiates_from_abdomen_factor              = Factor.find_or_create_by_name(:name=>"Radiates from abdomen")
 rapid_heart_rate_factor                   = Factor.find_or_create_by_name(:name=>"Rapid heart rate")
 rash_factor                               = Factor.find_or_create_by_name(:name=>"Rash")
@@ -536,37 +560,48 @@ recent_day_week_factor                    = Factor.find_or_create_by_name(:name=
 recently_factor                           = Factor.find_or_create_by_name(:name=>"Recently")
 recurrent_or_ongoing_factor               = Factor.find_or_create_by_name(:name=>"Recurrent or ongoing")
 rectal_pain_factor                        = Factor.find_or_create_by_name(:name=>"Rectal pain")
+reduced_sense_of_smell_factor  = Factor.find_or_create_by_name(:name=>"Reduced sense of smell or taste")
 redness_factor                            = Factor.find_or_create_by_name(:name=>"Redness")
 redness_or_warmth_factor                  = Factor.find_or_create_by_name(:name=>"Redness or warmth in affected area")
 redness_without_discomfort_factor           = Factor.find_or_create_by_name(:name=>"Redness without actual discomfort")
 red_painful_lump_on_eyelid                  = Factor.find_or_create_by_name(:name=>"Red, painful lump on the eyelid")
 regurgitation_food_liquid_factor            = Factor.find_or_create_by_name(:name=>"Regurgitation of food or sour liquid")
 rest_factor                                 = Factor.find_or_create_by_name(:name=>"Rest")
+rest_or_inactivity_factor                   = Factor.find_or_create_by_name(:name=>"Rest or inactivity")
 restlessness_or_agitation_factor            = Factor.find_or_create_by_name(:name=>"Restlessness or agitation")
 rapid_or_irregular_heartbeat_factor         = Factor.find_or_create_by_name(:name=>"Rapid or irregular heartbeat")
 runny_or_stuffy_nose_factor                 = Factor.find_or_create_by_name(:name=>"Runny or stuffy nose")
+runny_nose_factor = Factor.find_or_create_by_name(:name=>"Runny nose")
 pale_dry_skin_factor                        = Factor.find_or_create_by_name(:name=>"Pale, dry skin")
 pain_in_neck_jaw_arms_shoulders_back_factor = Factor.find_or_create_by_name(:name=>"Pain in neck, jaw, arms, shoulders or back")
 preceded_by_eating_suspect_food_factor      = Factor.find_or_create_by_name(:name=>"Preceded by eating suspect food")
 preceded_by_recent_antibiotic_use_factor    = Factor.find_or_create_by_name(:name=>"Preceded by recent antibiotic use")
 pressing_on_chest_wall_factor               = Factor.find_or_create_by_name(:name=>"Pressing on chest wall")
+prolonged_rest_inactivities_factor = Factor.find_or_create_by_name(:name=>"Prolonged rest or inactivity")
+prolonged_sitting_standing_factor = Factor.find_or_create_by_name(:name=>"Prolonged sitting or standing")
 passing_gas_factor                          = Factor.find_or_create_by_name(:name=>"Passing gas")
 pain_tenderness_aching_factor               = Factor.find_or_create_by_name(:name=>"Pain, tenderness or aching in affected area")
 pain_from_accident_or_injury_factor         = Factor.find_or_create_by_name(:name=>"Pain from accident or injury")
+pain_in_other_joints_factor                 = Factor.find_or_create_by_name(:name=>"Pain in other joints")
+pain_stiffness_in_other_joints_factor       = Factor.find_or_create_by_name(:name=>"Pain or stiffness in other joints")
 pain_in_chest_neck_factor                   = Factor.find_or_create_by_name(:name=>"Pain in chest or back")
 pain_in_chest_neck_shoulder_factor          = Factor.find_or_create_by_name(:name=>"Pain in chest, neck, shoulder")
 pain_in_chest_neck_shoulder_arm_factor      = Factor.find_or_create_by_name(:name=>"Pain in chest, neck, arm shoulder")
 painful_bowel_movements_factor              = Factor.find_or_create_by_name(:name=>"Painful bowel movements")
+paralysis_different_parts_body_factor  = Factor.find_or_create_by_name(:name=>"Paralysis in different parts of body")
 persistent_cough_factor                     = Factor.find_or_create_by_name(:name=>"Persistent cough")
 persistent_nausea_or_vomiting_factor        = Factor.find_or_create_by_name(:name=>"Persistent nausea or vomiting")
 persistent_weakness_or_numbness_factor      = Factor.find_or_create_by_name(:name=>"Persistent weakness or numbness")
-pulsing_near_navel_factor                   = Factor.find_or_create_by_name(:name=>"Pulsing near navel")
+pulsing_near_navel_factor                   = Factor.find_or_create_by_name(:name=>"Pulsing sensation near the navel")
 poor_posture_factor                         = Factor.find_or_create_by_name(:name=>"Poor posture")
+popping_snapping_factor  = Factor.find_or_create_by_name(:name=>"Popping or snapping")
 pressure_or_squeezing_factor                = Factor.find_or_create_by_name(:name=>"Pressure or squeezing sensation")
 producing_phlegm_or_sputum_factor           = Factor.find_or_create_by_name(:name=>"Producing phlegm or sputum")
+progressive_or_worsening_over_time_factor   = Factor.find_or_create_by_name(:name=>"Progressive, or worsens over time")
 progressive_or_worsening_factor             = Factor.find_or_create_by_name(:name=>"Progressive or worsening")
 sitting_or_standing_still_factor            = Factor.find_or_create_by_name(:name=>"Sitting or standing still for long periods")
 sharp_factor                                = Factor.find_or_create_by_name(:name=>"Sharp")
+sharp_severe_factor                         = Factor.find_or_create_by_name(:name=>"Sharp or severe")
 short_of_breath_or_dizzy_factor             = Factor.find_or_create_by_name(:name=>"Short of breath or dizzy")
 shortness_of_breath_factor    = Factor.find_or_create_by_name(:name=>"Shortness of breath")
 shimmering_or_flash_of_light_factor = Factor.find_or_create_by_name(:name=>"Shimmering or flash of light")
@@ -579,12 +614,15 @@ severe_factor                 = Factor.find_or_create_by_name(:name=>"Severe")
 severe_headache_factor        = Factor.find_or_create_by_name(:name=>"Severe headache")
 severe_pain_factor            = Factor.find_or_create_by_name(:name=>"Severe pain")
 sore_throat_factor            = Factor.find_or_create_by_name(:name=>"Sore throat")
+skin_redness_factor = Factor.find_or_create_by_name(:name=>"Skin redness")
 squeezing_or_pressure_factor  = Factor.find_or_create_by_name(:name=>"Squeezing or pressure")
 sneezing_factor               = Factor.find_or_create_by_name(:name=>"Sneezing")
+snoring_factor   = Factor.find_or_create_by_name(:name=>"Snoring")
 slurred_speech_factor         = Factor.find_or_create_by_name(:name=>"Slurred speech")
 slurred_speech_difficulty_speaking_factor = Factor.find_or_create_by_name(:name=>"Slurred speech or difficulty speaking")
 slower_than_normal_factor     = Factor.find_or_create_by_name(:name=>"Slower than normal")
 sudden_factor                 = Factor.find_or_create_by_name(:name=>"Sudden")
+sudden_intense_factor         = Factor.find_or_create_by_name(:name=>"Sudden and intense")
 sudden_hours_days_factor      = Factor.find_or_create_by_name(:name=>"Sudden (hours to days)")
 sudden_weight_loss_factor     = Factor.find_or_create_by_name(:name=>"Sudden weight loss")
 stabbing_or_burning_factor    = Factor.find_or_create_by_name(:name=>"Stabbing or burning")
@@ -593,7 +631,9 @@ straining_during_bowel_movements_factor     = Factor.find_or_create_by_name(:nam
 stress_factor                               = Factor.find_or_create_by_name(:name=>"Stress")
 stiff_neck_factor                           = Factor.find_or_create_by_name(:name=>"Stiff neck")
 stomach_growling_or_rumbling_factor         = Factor.find_or_create_by_name(:name=>"Stomach growling or rumbling")
+stooped_posture_factor = Factor.find_or_create_by_name(:name=>"Stooped posture")
 stiffness_factor              = Factor.find_or_create_by_name(:name=>"Stiffness")
+stiffness_in_lower_back_factor = Factor.find_or_create_by_name(:name=>"Stiffness in lower back")
 stiffness_or_limited_movement_factor = Factor.find_or_create_by_name(:name=>"Stiffness or limited movement")
 stinging_or_burning_sensation_factor = Factor.find_or_create_by_name(:name=>"Stinging or burning sensation")
 stringy_mucus_in_around_eye_factor = Factor.find_or_create_by_name(:name=>"Stringy mucus in or around the eye")
@@ -617,21 +657,27 @@ toe_or_front_part_of_foot_factor = Factor.find_or_create_by_name(:name=>"Toe or 
 tremors_factor                = Factor.find_or_create_by_name(:name=>"Tremors")
 trouble_sleeping_factor       = Factor.find_or_create_by_name(:name=>"Trouble sleeping")
 upper_abdomen_factor          = Factor.find_or_create_by_name(:name=>"Upper abdomen")
+upper_jaw_tooth_pain_factor = Factor.find_or_create_by_name(:name=>"Upper jaw or tooth pain")
 unintended_weight_loss_factor = Factor.find_or_create_by_name(:name=>"Unintended weight loss")
 unintended_weight_gain_factor = Factor.find_or_create_by_name(:name=>"Unintended weight gain")
 unexplained_fatigue_factor = Factor.find_or_create_by_name(:name=>"Unexplained fatigue") 
 unsteady_factor               = Factor.find_or_create_by_name(:name=>"Unsteady")
 urgency_to_have_bowel_movement= Factor.find_or_create_by_name(:name=>"Urgency to have a bowel movement")
 walking_factor                = Factor.find_or_create_by_name(:name=>"Walking")
+warmth_to_touch_factor        = Factor.find_or_create_by_name(:name=>"Warmth to touch")
 weakness_factor               = Factor.find_or_create_by_name(:name=>"Weakness")
+weakness_numbess_leg_foot_factor = Factor.find_or_create_by_name(:name=>"Weakness, numbness or tingling in leg or foot ")
 watery_or_itchy_eyes_factor   = Factor.find_or_create_by_name(:name=>"Watery or itchy eyes")
+watery_eyes_factor   = Factor.find_or_create_by_name(:name=>"Watery eyes")
 wheezing_factor               = Factor.find_or_create_by_name(:name=>"Wheezing")
 whole_foot_factor             = Factor.find_or_create_by_name(:name=>"Whole foot")
 worsening_or_progressing_factor = Factor.find_or_create_by_name(:name=>"Worsening or progressing")
 vaguely_uncomfortable_factor  = Factor.find_or_create_by_name(:name=>"Vaguely uncomfortable")
 vomiting_blood_factor         = Factor.find_or_create_by_name(:name=>"Vomiting blood")
+visible_deformity_factor      = Factor.find_or_create_by_name(:name=>"Visible deformity")
 vision_loss_factor            = Factor.find_or_create_by_name(:name=>"Vision loss")
 vision_problems_factor        = Factor.find_or_create_by_name(:name=>"Vision problems")
+yellow_or_greenish_factor = Factor.find_or_create_by_name(:name=>"Yellow or greenish")
 youre_anxious_or_stressed_factor = Factor.find_or_create_by_name(:name=>"You're anxious or stressed")
 youre_exerting_factor           = Factor.find_or_create_by_name(:name=>"You're exerting yourself")
 youre_resting_going_bed_factor  = Factor.find_or_create_by_name(:name=>"You're resting or going to bed")
@@ -703,7 +749,7 @@ SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advic
 SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"The pain radiates beyond your chest to one or both of your arms or your neck",
                                                           :symptom_medical_advice_id=>chest_pain_medadvice.id)
 
-cough_symptom           = Symptom.upsert_attributes({:name=>"Cough", :patient_type=>"adult"},
+cough_symptom  = Symptom.upsert_attributes({:name=>"Cough", :patient_type=>"adult"},
   {:description=>"Cough can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing.",
    :selfcare=>"To soothe your cough:"
   })
@@ -900,8 +946,6 @@ foot_leg_swelling_symptom   = Symptom.upsert_attributes({:name=>"Foot Swelling o
   {:description=>"Foot or leg swelling occurs because of inflammation or the accumulation of fluid in tissues. Identify possible common causes based on symptoms you're experiencing.",
    :selfcare=>"If you experience leg or foot swelling not related to an injury or joint pain, you may try the following self-care strategies to lessen symptoms:"
    })
-
-
 foot_leg_swelling_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Get medical care as soon as possible if:",
                                                                                   :symptom_id=>foot_leg_swelling_symptom.id)
 SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You have unexplained, painful swelling of your feet or legs",
@@ -959,6 +1003,20 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
                                           :symptom_selfcare_id=>hip_pain_selfcare.id)
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the package label, and do not take combinations of pain relievers", 
                                           :symptom_selfcare_id=>hip_pain_selfcare.id)
+hippain_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Seek medical care immediately if:",
+                                                                                  :symptom_id=>hip_pain_symptom.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You're unable to bear weight",
+                                                          :symptom_medical_advice_id=>hippain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Your hip made a popping sound",
+                                                          :symptom_medical_advice_id=>hippain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Your hip became visibly deformed after a fall",
+                                                          :symptom_medical_advice_id=>hippain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Your hip is more painful the day after a fall",
+                                                          :symptom_medical_advice_id=>hippain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You're experiencing intense pain or sudden swelling",
+                                                          :symptom_medical_advice_id=>hippain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You have osteoporosis and have injured your hip",
+                                                          :symptom_medical_advice_id=>hippain_medadvice.id)
 
 knee_pain_symptom       = Symptom.upsert_attributes({:name=>"Knee Pain", :patient_type=>"adult"},
   {:description=>"Knee pain can seriously impair walking and exercise. Identify possible common causes based on symptoms you're experiencing.",
@@ -978,6 +1036,22 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
                                           :symptom_selfcare_id=>knee_pain_selfcare.id)
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"You may temporarily lessen pain with an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers", 
                                           :symptom_selfcare_id=>knee_pain_selfcare.id)
+knee_pain_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Get emergency care if knee pain is accompanied by any of the following factors:",
+                                                                                  :symptom_id=>knee_pain_symptom.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You experience bleeding or severe pain after an injury",
+                                                          :symptom_medical_advice_id=>knee_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Bone or tendons are exposed",
+                                                          :symptom_medical_advice_id=>knee_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"The knee is visibly out of place",
+                                                          :symptom_medical_advice_id=>knee_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"There's sudden swelling or redness",
+                                                          :symptom_medical_advice_id=>knee_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You can't bend your knee or put weight on it",
+                                                          :symptom_medical_advice_id=>knee_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"You heard a popping sound or snapping sensation",
+                                                          :symptom_medical_advice_id=>knee_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"The pain is associated with fever and chills",
+                                                          :symptom_medical_advice_id=>knee_pain_medadvice.id)
 
 low_back_pain_symptom     = Symptom.upsert_attributes({:name=>"Low Back Pain", :patient_type=>"adult"},
   {:description=>"Low back pain can signal a number of conditions. Identify possible common causes based on symptoms you’re experiencing.",
@@ -997,6 +1071,28 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
                                           :symptom_selfcare_id=>back_pain_selfcare.id)
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others). Use only as directed on the label, and do not take combinations of pain relievers", 
                                           :symptom_selfcare_id=>back_pain_selfcare.id)
+back_pain_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Get medical care immediately if you have severe low back pain that:",
+                                                                                  :symptom_id=>low_back_pain_symptom.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Follows a fall, blow to your back or other injury",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Is constant or intense",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Worsens during rest or at night",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Spreads down one or both legs",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Causes weakness, numbness or tingling in one or both legs",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Is associated with new bowel or bladder problems",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Is accompanied by fever",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Is associated with pain or throbbing in the abdomen",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Is accompanied by unexplained weight loss",
+                                                          :symptom_medical_advice_id=>back_pain_medadvice.id)
+back_pain_also_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Also, see your doctor if you start having back pain for the first time after age 50, or if you have a history of cancer, osteoporosis, steroid use, or drug or alcohol abuse.",
+                                                                                  :symptom_id=>low_back_pain_symptom.id)
 
 nasal_congestion_symptom  = Symptom.upsert_attributes({:name=>"Nasal Congestion", :patient_type=>"adult"},
   {:description=>"Nasal congestion is a common problem in adults. Identify possible common causes based on symptoms you're experiencing.",
@@ -1014,6 +1110,27 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
                                           :symptom_selfcare_id=>nasal_congestion_selfcare.id)
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Try an oral decongestant", 
                                           :symptom_selfcare_id=>nasal_congestion_selfcare.id)
+
+nasal_congestion_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Get prompt medical care if you have nasal congestion accompanied by:",
+                                                                                  :symptom_id=>low_back_pain_symptom.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"A fever of 101 F (38.3 C) or higher",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"A fever that lasts more than 72 hours",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Greenish or bloody nasal discharge",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Chills or sweating",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Breathing difficulty",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Nausea or vomiting",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Unusual sleepiness",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"A severe headache",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
+SymptomMedicalAdviceItem.find_or_create_by_description_and_symptom_medical_advice_id(:description=>"Ear pain",
+                                                          :symptom_medical_advice_id=>nasal_congestion_medadvice.id)
 
 nausea_or_vomiting_symptom  = Symptom.upsert_attributes({:name=>"Nausea or Vomiting", :patient_type=>"adult"},
   {:description=>"Nausea or vomiting is most often caused by the stomach flu. Identify other possible common causes based on symptoms you're experiencing.",
@@ -1335,6 +1452,195 @@ SymptomsFactor.delete_all
 
 ## ABDOMINAL PAIN - ADULT
 ## #################################################################################################################################################
+abdominal_pain_acute_began_suddenly_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>acute_began_suddenly_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+abdominal_pain_burning_factor_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>burning_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+abdominal_pain_chronic_ongoing_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>chronic_ongoing_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+abdominal_pain_crampy_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>crampy_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+abdominal_pain_dull_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>dull_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+abdominal_pain_gnawing_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>gnawing_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+abdominal_pain_intense_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>intense_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+abdominal_pain_intermittent_episodic_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>intermittent_episodic_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+abdominal_pain_progressive_or_worsening_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>progressive_or_worsening_over_time_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+abdominal_pain_sharp_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>sharp_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+abdominal_pain_steady_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>steady_factor.id,
+  :factor_group_id=>pain_is_factor_group.id
+)
+abdominal_pain_abdomen_but_radiates_pain_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>abdomen_but_radiates_factor.id,
+  :factor_group_id=>pain_located_in_factor_group.id
+)
+abdominal_pain_lower_abdomen_pain_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>lower_abdomen_factor.id,
+  :factor_group_id=>pain_located_in_factor_group.id
+)
+abdominal_pain_middle_abdomen_pain_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>middle_abdomen_factor.id,
+  :factor_group_id=>pain_located_in_factor_group.id
+)
+abdominal_pain_one_or_both_sides_pain_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>one_or_both_sides_factor.id,
+  :factor_group_id=>pain_located_in_factor_group.id
+)
+abdominal_pain_upper_abdomen_pain_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>upper_abdomen_factor.id,
+  :factor_group_id=>pain_located_in_factor_group.id
+)
+abdominal_pain_coughing_or_jarring_movements_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>coughing_or_jarring_movements_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+abdominal_pain_drinking_alcohol_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>drinking_alcohol_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+abdominal_pain_eating_certain_foods_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>eating_certain_foods_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+abdominal_pain_menstrual_cycle_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>menstrual_cycle_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+abdominal_pain_stress_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>stress_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
+)
+abdominal_pain_antacids_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>antacids_factor.id,
+  :factor_group_id=>relieved_by_factor_group.id
+)
+abdominal_pain_avoiding_certain_foods_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>avoiding_certain_foods_factor.id,
+  :factor_group_id=>relieved_by_factor_group.id
+)
+abdominal_pain_changing_position_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>changing_position_factor.id,
+  :factor_group_id=>relieved_by_factor_group.id
+)
+abdominal_pain_drinking_more_water_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>drinking_more_water_factor.id,
+  :factor_group_id=>relieved_by_factor_group.id
+)
+abdominal_pain_eating_certain_foods_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>eating_certain_foods_factor.id,
+  :factor_group_id=>relieved_by_factor_group.id
+)
+abdominal_pain_eating_more_fibre_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>abdominal_pain_symptom.id,
+  :factor_id=>eating_more_fibre_factor.id,
+  :factor_group_id=>relieved_by_factor_group.id
+)
 abdominal_pain_abdominal_swelling_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
@@ -1419,197 +1725,66 @@ abdominal_pain_unintended_weight_loss_accompanied_by_SF = SymptomsFactor.find_or
   :factor_id=>unintended_weight_loss_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-abdominal_pain_acute_began_suddenly_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+
+## Blood in Stool - ADULT
+## ##################################################################################################################################
+
+blood_stool_in_or_on_stool_blood_appears_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>acute_began_suddenly_factor.id,
-  :factor_group_id=>pain_is_factor_group.id
+  :symptom_id=>blood_in_stool_symptom.id,
+  :factor_id=>in_or_on_stool_factor.id,
+  :factor_group_id=>blood_appears_factor_group.id
 )
-abdominal_pain_burning_factor_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_in_or_on_toilet_bowl_blood_appears_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>burning_factor.id,
-  :factor_group_id=>pain_is_factor_group.id
+  :symptom_id=>blood_in_stool_symptom.id,
+  :factor_id=>in_or_on_toilet_bowl_factor.id,
+  :factor_group_id=>blood_appears_factor_group.id
 )
-abdominal_pain_chronic_ongoing_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_drinking_alcohol_or_caffeine_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>chronic_ongoing_factor.id,
-  :factor_group_id=>pain_is_factor_group.id
+  :symptom_id=>blood_in_stool_symptom.id,
+  :factor_id=>drinking_alcohol_or_caffeine_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
-abdominal_pain_crampy_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_eating_certain_foods_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>crampy_factor.id,
-  :factor_group_id=>pain_is_factor_group.id
+  :symptom_id=>blood_in_stool_symptom.id,
+  :factor_id=>eating_certain_foods_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
-abdominal_pain_dull_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_straining_during_bowel_movements_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>dull_factor.id,
-  :factor_group_id=>pain_is_factor_group.id
+  :symptom_id=>blood_in_stool_symptom.id,
+  :factor_id=>straining_during_bowel_movements_factor.id,
+  :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
-abdominal_pain_gnawing_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_drinking_more_water_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>gnawing_factor.id,
-  :factor_group_id=>pain_is_factor_group.id
-)
-abdominal_pain_intense_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>intense_factor.id,
-  :factor_group_id=>pain_is_factor_group.id
-)
-abdominal_pain_intermittent_episodic_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>intermittent_episodic_factor.id,
-  :factor_group_id=>pain_is_factor_group.id
-)
-abdominal_pain_progressive_or_worsening_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>progressive_or_worsening_factor.id,
-  :factor_group_id=>pain_is_factor_group.id
-)
-abdominal_pain_sharp_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>sharp_factor.id,
-  :factor_group_id=>pain_is_factor_group.id
-)
-abdominal_pain_steady_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>steady_factor.id,
-  :factor_group_id=>pain_is_factor_group.id
-)
-abdominal_pain_abdomen_but_radiates_pain_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>abdomen_but_radiates_factor.id,
-  :factor_group_id=>pain_located_in_factor_group.id
-)
-abdominal_pain_lower_abdomen_pain_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>lower_abdomen_factor.id,
-  :factor_group_id=>pain_located_in_factor_group.id
-)
-abdominal_pain_middle_abdomen_pain_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>middle_abdomen_factor.id,
-  :factor_group_id=>pain_located_in_factor_group.id
-)
-abdominal_pain_one_or_both_sides_pain_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>one_or_both_sides_factor.id,
-  :factor_group_id=>pain_located_in_factor_group.id
-)
-abdominal_pain_upper_abdomen_pain_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>upper_abdomen_factor.id,
-  :factor_group_id=>pain_located_in_factor_group.id
-)
-abdominal_pain_antacids_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>antacids_factor.id,
-  :factor_group_id=>relieved_by_factor_group.id
-)
-abdominal_pain_avoiding_certain_foods_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>avoiding_certain_foods_factor.id,
-  :factor_group_id=>relieved_by_factor_group.id
-)
-abdominal_pain_changing_position_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>changing_position_factor.id,
-  :factor_group_id=>relieved_by_factor_group.id
-)
-abdominal_pain_drinking_more_water_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
+  :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>drinking_more_water_factor.id,
   :factor_group_id=>relieved_by_factor_group.id
 )
-abdominal_pain_eating_certain_foods_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_eating_certain_foods_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
+  :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>eating_certain_foods_factor.id,
   :factor_group_id=>relieved_by_factor_group.id
 )
-abdominal_pain_eating_more_fibre_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+blood_stool_eating_more_fibre_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
+  :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>eating_more_fibre_factor.id,
   :factor_group_id=>relieved_by_factor_group.id
 )
-abdominal_pain_coughing_or_jarring_movements_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>coughing_or_jarring_movements_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
-)
-abdominal_pain_drinking_alcohol_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>drinking_alcohol_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
-)
-abdominal_pain_eating_certain_foods_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>eating_certain_foods_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
-)
-abdominal_pain_menstrual_cycle_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>menstrual_cycle_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
-)
-abdominal_pain_stress_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>abdominal_pain_symptom.id,
-  :factor_id=>stress_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
-)
-## Blood in Stool - ADULT
-## ##################################################################################################################################
 blood_stool_abdominal_pain_or_cramping_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
@@ -1700,62 +1875,6 @@ blood_stool_unintended_weight_loss_accompanied_by_SF = SymptomsFactor.find_or_cr
   :symptom_id=>blood_in_stool_symptom.id,
   :factor_id=>unintended_weight_loss_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
-)
-blood_stool_in_or_on_stool_blood_appears_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>in_or_on_stool_factor.id,
-  :factor_group_id=>blood_appears_factor_group.id
-)
-blood_stool_in_or_on_toilet_bowl_blood_appears_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>in_or_on_toilet_bowl_factor.id,
-  :factor_group_id=>blood_appears_factor_group.id
-)
-blood_stool_drinking_more_water_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>drinking_more_water_factor.id,
-  :factor_group_id=>relieved_by_factor_group.id
-)
-blood_stool_eating_certain_foods_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>eating_certain_foods_factor.id,
-  :factor_group_id=>relieved_by_factor_group.id
-)
-blood_stool_eating_more_fibre_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>eating_more_fibre_factor.id,
-  :factor_group_id=>relieved_by_factor_group.id
-)
-blood_stool_drinking_alcohol_or_caffeine_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>drinking_alcohol_or_caffeine_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
-)
-blood_stool_eating_certain_foods_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>eating_certain_foods_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
-)
-blood_stool_straining_during_bowel_movements_triggered_or_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
-  :doctor_call_worthy=>false,
-  :er_worthy=>false,
-  :symptom_id=>blood_in_stool_symptom.id,
-  :factor_id=>straining_during_bowel_movements_factor.id,
-  :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
 ## Chest Pain - ADULT
 ## #############################
@@ -2203,7 +2322,7 @@ cough_difficulty_swallowing_accompanied_by_SF = SymptomsFactor.find_or_create_by
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>cough_symptom.id,
-  :factor_id=>difficulty_swallowing_symptom.id,
+  :factor_id=>difficulty_swallowing_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
 cough_fatigue_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
@@ -2743,7 +2862,7 @@ dizzyness_pain_in_chest_neck_shoulder_arm_accompanied_by_SF=SymptomsFactor.find_
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>dizziness_symptom.id,
-  :factor_id=>pain_in_chest_neck_shoulder_arm_factor.id,
+  :factor_id=>pain_in_neck_jaw_arms_shoulders_back_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
 dizzyness_severe_headache_accompanied_by_SF=SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
@@ -3144,7 +3263,7 @@ foot_ankle_thickened_skin_accompanied_by_SF = SymptomsFactor.find_or_create_by_d
   :factor_id=>thickened_or_rough_skin_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-foot_ankle_thickened_skin_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+foot_ankle_weakness_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>foot_ankle_pain_symptom.id,
@@ -3154,7 +3273,7 @@ foot_ankle_thickened_skin_accompanied_by_SF = SymptomsFactor.find_or_create_by_d
 
 ## Foot swelling or Leg Swelling - ADULT
 ## ######################################
-foot_swelling_swelling_occurs_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+foot_swelling_whole_limb_swelling_occurs_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>foot_leg_swelling_symptom.id,
@@ -3224,7 +3343,7 @@ foot_swelling_walking_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_c
   :factor_id=>walking_factor.id,
   :factor_group_id=>relieved_by_factor_group.id
 )
-foot_swelling_brown_urine_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+foot_swelling_brownish_urine_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>foot_leg_swelling_symptom.id,
@@ -3252,7 +3371,7 @@ foot_swelling_entire_leg_cool_accompanied_by_SF = SymptomsFactor.find_or_create_
   :factor_id=>entire_leg_or_calf_being_pale_and_cool_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-foot_swelling_entire_fatigue_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+foot_swelling_fatigue_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>foot_leg_swelling_symptom.id,
@@ -3378,7 +3497,6 @@ foot_swelling_abdommen_other_parts_accompanied_by_SF = SymptomsFactor.find_or_cr
   :factor_id=>swelling_in_abdomen_other_parts_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-
 ## Headache - ADULT
 ## ######################################
 headache_extreme_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
@@ -3491,21 +3609,21 @@ headache_less_few_min_duration_is_SF = SymptomsFactor.find_or_create_by_doctor_c
   :er_worthy=>false,
   :symptom_id=>headache_symptom.id,
   :factor_id=>less_than_few_minutes_factor.id,
-  :factor_group_id=>duration_is_factor_group.id
+  :factor_group_id=>duration_of_headache_is_factor_group.id
 )
 headache_several_hours_days_duration_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>headache_symptom.id,
   :factor_id=>several_hours_to_days_factor.id,
-  :factor_group_id=>duration_is_factor_group.id
+  :factor_group_id=>duration_of_headache_is_factor_group.id
 )
 headache_several_minutes_to_hours_duration_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>headache_symptom.id,
   :factor_id=>several_minutes_to_few_hours_factor.id,
-  :factor_group_id=>duration_is_factor_group.id
+  :factor_group_id=>duration_of_headache_is_factor_group.id
 )
 headache_gradually_becomes_frequent_recurrence_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
@@ -3528,7 +3646,6 @@ headache_is_often_at_same_time_every_date_recurrence_SF = SymptomsFactor.find_or
   :factor_id=>is_often_at_same_time_factor.id,
   :factor_group_id=>recurrence_of_headache_factor_group.id
 )
-
 headache_change_sleep_patterns_triggered_or_worsened_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
@@ -3554,7 +3671,7 @@ headache_everyday_activities_triggered_or_worsened_SF = SymptomsFactor.find_or_c
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>headache_symptom.id,
-  :factor_id=>everday_activities_factor.id,
+  :factor_id=>everday_act_factor.id,
   :factor_group_id=>triggered_or_worsened_by_factor_group.id
 )
 headache_hormonal_changes_triggered_or_worsened_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
@@ -3718,7 +3835,6 @@ headache_vision_problems_accompanied_by_SF = SymptomsFactor.find_or_create_by_do
   :factor_id=>vision_problems_factor.id,
   :factor_group_id=>accompanied_by_factor_group.id
 )
-
 heart_palpitations_anxious_stressed_often_occur_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
@@ -3767,21 +3883,21 @@ heart_palpitations_caffeine_alcohol_preceded_by_use_of_SF = SymptomsFactor.find_
   :er_worthy=>false,
   :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>caffeine_or_alcohol_factor.id,
-  :factor_group_id=>preceded_by_factor_group.id
+  :factor_group_id=>preceded_by_use_of_factor_group.id
 )
 heart_palpitations_cigarettes_or_rec_drugs_preceded_by_use_of_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>cigarettes_or_recreational_drugs_factor.id,
-  :factor_group_id=>preceded_by_factor_group.id
+  :factor_group_id=>preceded_by_use_of_factor_group.id
 )
 heart_palpitations_medications_herbal_supplements_preceded_by_use_of_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
   :er_worthy=>false,
   :symptom_id=>heart_palpitations_symptom.id,
   :factor_id=>medications_or_herbal_supplements_factor.id,
-  :factor_group_id=>preceded_by_factor_group.id
+  :factor_group_id=>preceded_by_use_of_factor_group.id
 )
 heart_palpitations_chest_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
   :doctor_call_worthy=>false,
@@ -3874,12 +3990,612 @@ heart_palpitations_unexplained_fatigue_accompanied_by_SF = SymptomsFactor.find_o
   :factor_id=>unexplained_fatigue_factor.id, 
   :factor_group_id=>accompanied_by_factor_group.id,
 )
-## Heart Palpitations - ADULT
+## Hip Pain - ADULT
 ## ######################################
+hip_pain_dull_achy_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>dull_achy_factor.id, 
+  :factor_group_id=>pain_is_factor_group.id
+)
+hip_pain_sudden_intense_pain_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>sudden_intense_factor.id, 
+  :factor_group_id=>pain_is_factor_group.id
+)
+hip_pain_everyday_act_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>everday_act_factor .id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+hip_pain_injury_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>injury_factor.id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+hip_pain_overuse_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>overuse_factor.id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+hip_pain_bruising_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>bruising_or_discoloring_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+hip_pain_decreased_range_motion_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>decreased_range_motion_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+hip_pain_bear_weight_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>inability_to_bear_weight_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+hip_pain_locking_catching_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>locking_or_catching_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+hip_pain_pain_other_joints_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>pain_in_other_joints_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+hip_pain_stiffness_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>stiffness_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+hip_pain_swelling_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>swelling_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+hip_pain_visibile_deformity_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>visible_deformity_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+hip_pain_applying_pressure_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>applying_pressure_or_trying_to_bear_weight_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+hip_pain_movement_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>movement_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+hip_pain_rest_inactivity_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>hip_pain_symptom.id,
+  :factor_id=>rest_or_inactivity_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+## Knee Pain - Adult 
+#########################################
+knee_pain_begin_suddenly_pain_best_described_as_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>beginning_suddenly_factor.id, 
+  :factor_group_id=>pain_best_described_as_factor_group.id
+)
+knee_pain_dull_achy_pain_best_described_as_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>dull_achy_factor.id, 
+  :factor_group_id=>pain_best_described_as_factor_group.id
+)
+knee_pain_gradually_worse_pain_best_described_as_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>gradually_worsening_factor.id, 
+  :factor_group_id=>pain_best_described_as_factor_group.id
+)
+knee_pain_sharp_severe_pain_best_described_as_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>sharp_severe_factor.id, 
+  :factor_group_id=>pain_best_described_as_factor_group.id
+)
+knee_pain_one_both_sides_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>along_one_or_both_sides_of_the_knee_factor.id, 
+  :factor_group_id=>located_factor_group.id
+)
+knee_pain_around_kneecap_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>around_the_kneecap_factor.id, 
+  :factor_group_id=>located_factor_group.id
+)
+knee_pain_behind_knee_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>behind_the_knee_factor.id, 
+  :factor_group_id=>located_factor_group.id
+)
+knee_pain_in_knee_joint_located_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>in_knee_joint_factor.id, 
+  :factor_group_id=>located_factor_group.id
+)
+knee_pain_everyday_act_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>everday_act_factor.id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+knee_pain_injury_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>injury_factor.id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+knee_pain_overuse_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>overuse_factor.id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+knee_pain_movement_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>movement_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+knee_pain_prolonged_sitting_standing_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>prolonged_sitting_standing_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+knee_pain_rest_inactivity_worsened_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>rest_or_inactivity_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+knee_pain_bruising_discoloring_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>bruising_or_discoloring_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_decreased_range_motion_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>decreased_range_motion_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_instability_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>feeling_of_instability_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_fever_chills_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>fever_chills_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_grating_sensation_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>grating_sensation_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_inability_bear_weight_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>inability_to_bear_weight_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_locking_catching_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>locking_or_catching_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_pain_stiffness_other_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>pain_stiffness_in_other_joints_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_popping_snapping_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>popping_snapping_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_skin_redness_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>skin_redness_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_stiffness_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>stiffness_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_swelling_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>swelling_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+knee_pain_warmth_touch_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>knee_pain_symptom.id,
+  :factor_id=>warmth_to_touch_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
 
+## Low Back Pain - Adult 
+#########################################
+low_back_pain_suddenly_pain_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>began_suddenly_factor.id, 
+  :factor_group_id=>pain_factor_group.id
+)
+low_back_pain_gradually_pain_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>gradually_worsening_factor.id, 
+  :factor_group_id=>pain_factor_group.id
+)
+low_back_pain_itermittent_pain_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>is_intermittent_factor.id, 
+  :factor_group_id=>pain_factor_group.id
+)
+low_back_pain_everyday_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>everday_act_factor.id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+low_back_pain_injury_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>injury_factor.id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+low_back_pain_overuse_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>overuse_factor.id, 
+  :factor_group_id=>triggered_by_factor_group.id
+)
+low_back_pain_movement_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>movement_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+low_back_pain__triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>prolonged_rest_inactivities_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+low_back_pain_prolonged_rest_inactive_triggered_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>prolonged_sitting_standing_factor.id, 
+  :factor_group_id=>worsened_by_factor_group.id
+)
+low_back_pain_bending_relieved_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>bending_forward_leaning_factor.id, 
+  :factor_group_id=>relieved_by_factor_group.id
+)
+low_back_pain_change_bowel_bladder_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>change_bowel_bladder_function_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_decreased_sensitivity_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>decreased_sensitivity_to_pain_heat_cold_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_eye_pain_blurred_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>eye_pain_blurred_vision_light_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_fatique_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>fatigue_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_knot_tight_spot_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>knot_tight_spot_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_leg_foot_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>leg_or_foot_pain_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_paralysis_other_body_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>paralysis_different_parts_body_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group
+)
+low_back_pain_stiffness_lower_back_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>stiffness_in_lower_back_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_stooped_posture_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>stooped_posture_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_swelling_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>swelling_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_unintended_weight_loss_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>unintended_weight_loss_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+low_back_pain_weakness_numbness_leg_foot_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>low_back_pain_symptom.id,
+  :factor_id=>weakness_numbess_leg_foot_factor.id, 
+  :factor_group_id=>accompanied_by_factor_group.id
+)
+## Nasal Congestion Adult
+#########################################
+##
+nasal_congestion_new_or_recent_nasal_congestion_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>new_or_recent_factor.id, 
+  :factor_group_id=>nasal_congestion_is_factor_group.id
+)
+nasal_congestion_ongoing_persistent_nasal_congestion_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>ongoing_or_persistant_factor.id, 
+  :factor_group_id=>nasal_congestion_is_factor_group.id
+)
 
-
-
+nasal_congestion_clear_watery_nasal_discharge_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>clear_or_watery_factor.id, 
+  :factor_group_id=>nasal_discharge_is_factor_group.id
+)
+nasal_congestion_yellow_or_greenish_nasal_discharge_is_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>yellow_or_greenish_factor.id,
+  :factor_group_id=>nasal_discharge_is_factor_group.id
+)
+nasal_congestion_bad_breath_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>bad_breath_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_cough_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>cough_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_ear_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>ear_pain_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_fatique_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>fatigue_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_fever_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>fever_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_headache_facial_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>headache_or_facial_pain_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_itchy_eyes_nose_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>itchy_eyes_nose_mouth_throat_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_mild_body_aches_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>mild_body_aches_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_nosebleeds_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>nosebleeds_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_reduced_sense_of_smell_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>reduced_sense_of_smell_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_runny_nose_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>runny_nose_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_sneezing_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>sneezing_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_snoring_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>snoring_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_sore_throat_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>sore_throat_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_upper_jaw_tooth_pain_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>upper_jaw_tooth_pain_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
+nasal_congestion_watery_eyes_accompanied_by_SF = SymptomsFactor.find_or_create_by_doctor_call_worthy_and_er_worthy_and_symptom_id_and_factor_id_and_factor_group_id(
+  :doctor_call_worthy=>false,
+  :er_worthy=>false,
+  :symptom_id=>nasal_congestion_symptom.id,
+  :factor_id=>watery_eyes_factor.id,
+  :factor_group_id=>accompanied_by_factor_group.id,
+)
 #########################################
 ##
 ##
@@ -7395,6 +8111,1700 @@ ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
 :symptoms_factor_id=>eye_discomfort_vision_loss_problem_includes_SF.id,
 :content_id=>Content.where(:document_id=>'DS00677').first.id
+)
+#FootAnkle - DS00737
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_back_ankle_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00737').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_back_heel_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00737').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_activity_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00737').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_injury_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00737').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_long_periods_rest_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00737').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_difficulty_pushing_off_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00737').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_stiffness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00737').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00737').first.id
+)
+#FootAnkle - DS00737
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_back_ankle_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00160').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_back_heel_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00160').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_activity_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00160').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_injury_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00160').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_difficulty_pushing_off_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00160').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_inability_bear_weight_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00160').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_stiffness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00160').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00160').first.id
+)
+#FootAnkle - DS00951
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_ankle_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_whole_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_injury_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_feeling_of_instability_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_inability_bear_weight_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_joint_deformity_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_numbness_tingling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_redness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+#FootAnkle - DS00309
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_toe_front_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00309').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_activity_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00309').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_ill_fitting_shoes_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00309').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_joint_deformity_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00309').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_redness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00309').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00309').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_thickened_skin_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00309').first.id
+)
+#FootAnkle - DS00032
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_heel_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00032').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_toe_front_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00032').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_activity_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00032').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_redness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00032').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_stiffness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00032').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00032').first.id
+)
+#FootAnkle - DS00033
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_heel_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00033').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_toe_front_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00033').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_activity_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00033').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_ill_fitting_shoes_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00033').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_thickened_skin_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00033').first.id
+)
+#FootAnkle - DS00449
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_middle_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00449').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_flattened_arch_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00449').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00449').first.id
+)
+#FootAnkle - DS00090
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_ankle_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00090').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_toe_front_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00090').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_whole_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00090').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_long_periods_rest_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00090').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_redness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00090').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00090').first.id
+)
+#FootAnkle - DS00480
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_toe_front_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00480').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_ill_fitting_shoes_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00480').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_joint_deformity_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00480').first.id
+)
+#FootAnkle - DS00111
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_toenail_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00111').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_ill_fitting_shoes_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00111').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_redness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00111').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00111').first.id
+)
+#FootAnkle - DS00496
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_toe_front_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00496').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_activity_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00496').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_ill_fitting_shoes_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00496').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_burning_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00496').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_numbness_tingling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00496').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00496').first.id
+)
+#FootAnkle - DS00468
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_toe_front_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00468').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_burning_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00468').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_numbness_tingling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00468').first.id
+)
+#FootAnkle - DS00019
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_ankle_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00019').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_whole_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00019').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_activity_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00019').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_long_periods_rest_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00019').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_stiffness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00019').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00019').first.id
+)
+#FootAnkle - DS00131
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_ankle_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00131').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_bottom_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00131').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_whole_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00131').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_burning_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00131').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_numbness_tingling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00131').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_weakness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00131').first.id
+)
+#FootAnkle - DS00508
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_heel_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00508').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_activity_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00508').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_long_periods_rest_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00508').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00508').first.id
+)
+#FootAnkle - DS00509
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_heel_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00509').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_toe_front_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00509').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_activity_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00509').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_thickened_skin_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00509').first.id
+)
+#FootAnkle - DS00020
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_ankle_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00020').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_whole_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00020').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_long_periods_rest_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00020').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_joint_deformity_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00020').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_stiffness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00020').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00020').first.id
+)
+#FootAnkle - DS00343
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_ankle_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00343').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_whole_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00343').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_injury_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00343').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_feeling_of_instability_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00343').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_inability_bear_weight_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00343').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_redness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00343').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00343').first.id
+)
+#FootAnkle - DS00556
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_ankle_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00556').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_whole_foot_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00556').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_activity_triggered_SF.id,
+:content_id=>Content.where(:document_id=>'DS00556').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_ankle_swelling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00556').first.id
+)
+#FootSwelling - DS00737
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_ankle_foot_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00737').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_one_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00737').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_activity_overuse_triggered_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00737').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_injury_triggered_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00737').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_inactivity_rest_preceded_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00737').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_pain_tenderness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00737').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_stiffness_limited_movement_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00737').first.id
+)
+#FootSwelling - DS00160
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_ankle_foot_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00160').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_one_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00160').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_activity_overuse_triggered_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00160').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_injury_triggered_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00160').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_inability_bear_weight_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00160').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_inability_point_forefoot_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00160').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_pain_tenderness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00160').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_stiffness_limited_movement_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00160').first.id
+)
+#FootSwelling - DS00951
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_ankle_foot_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_one_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_injury_triggered_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_inability_bear_weight_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_joint_deformity_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_numbess_tingling_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_pain_tenderness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_redness_warmth_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00951').first.id
+)
+#FootSwelling - DS00450
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_whole_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00450').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_ankle_foot_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00450').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_one_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00450').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_pain_tenderness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00450').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_redness_warmth_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00450').first.id
+)
+#FootSwelling - DS00373
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_whole_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00373').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_ankle_foot_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00373').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_both_limbs_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00373').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_easy_bleeding_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00373').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_lack_appetite_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00373').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_nausea_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00373').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_abdommen_other_parts_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00373').first.id
+)
+#FootSwelling - DS01005
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_whole_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS01005').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_one_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS01005').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_sitting_or_standing_preceded_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS01005').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_entire_leg_cool_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS01005').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_pain_tenderness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS01005').first.id
+)
+#FootSwelling - DS00503
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_whole_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00503').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_ankle_foot_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00503').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_both_limbs_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00503').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_brownish_urine_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00503').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_fatigue_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00503').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_abdommen_other_parts_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00503').first.id
+)
+#FootSwelling - DS00090
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_ankle_foot_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00090').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_around_knee_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00090').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_one_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00090').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_pain_tenderness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00090').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_stiffness_limited_movement_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00090').first.id
+)
+#FootSwelling - DS00061
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_whole_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00061').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_ankle_foot_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00061').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_both_limbs_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00061').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_fatigue_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00061').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_lack_appetite_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00061').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_nausea_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00061').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_persistant_cough_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00061').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_rapid_irregular_heartbeat_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00061').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_shortness_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00061').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_abdommen_other_parts_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00061').first.id
+)
+#FootSwelling - DS00954
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_around_knee_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00954').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_one_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00954').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_activity_overuse_triggered_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00954').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_pain_tenderness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00954').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_redness_warmth_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00954').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_stiffness_limited_movement_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00954').first.id
+)
+#FootSwelling - DS00609
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_whole_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00609').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_ankle_foot_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00609').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_both_limbs_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00609').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_one_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00609').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_hardening_skin_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00609').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_heaviness_limb_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00609').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_pain_tenderness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00609').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_stiffness_limited_movement_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00609').first.id
+)
+#FootSwelling - DS01047
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_whole_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS01047').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_ankle_foot_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS01047').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_both_limbs_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS01047').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_brownish_urine_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS01047').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_lack_appetite_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS01047').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_nausea_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS01047').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_swelling_around_eyes_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS01047').first.id
+)
+#FootSwelling - DS00019
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_ankle_foot_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00019').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_around_knee_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00019').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_both_limbs_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00019').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_one_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00019').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_activity_overuse_triggered_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00019').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_inactivity_rest_preceded_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00019').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_pain_tenderness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00019').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_stiffness_limited_movement_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00019').first.id
+)
+#FootSwelling - DS00717
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_ankle_foot_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00717').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_around_knee_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00717').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_one_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00717').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_pain_tenderness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00717').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_redness_warmth_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00717').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_stiffness_limited_movement_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00717').first.id
+)
+#FootSwelling - DS00020
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_ankle_foot_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00020').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_around_knee_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00020').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_both_limbs_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00020').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_one_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00020').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_inactivity_rest_preceded_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00020').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_joint_deformity_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00020').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_pain_tenderness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00020').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_stiffness_limited_movement_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00020').first.id
+)
+#FootSwelling - DS00343
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_ankle_foot_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00343').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_around_knee_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00343').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_one_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00343').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_injury_triggered_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00343').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_pain_tenderness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00343').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_stiffness_limited_movement_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00343').first.id
+)
+#FootSwelling - DS00223
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_whole_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00223').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_one_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00223').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_sitting_or_standing_preceded_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00223').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_enlarged_vein_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00223').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_entire_leg_cool_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00223').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_pain_tenderness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00223').first.id
+)
+#FootSwelling - DS00256
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_whole_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00256').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_both_limbs_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00256').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_one_limb_swelling_occurs_SF.id,
+:content_id=>Content.where(:document_id=>'DS00256').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_sitting_or_standing_preceded_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00256').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_walking_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00256').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_enlarged_vein_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00256').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_heaviness_limb_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00256').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>foot_swelling_pain_tenderness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00256').first.id
+)
+#Headache - DS00281
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_moderate_to_severe_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00281').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_gradual_onset_SF.id,
+:content_id=>Content.where(:document_id=>'DS00281').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_gradually_becomes_frequent_recurrence_SF.id,
+:content_id=>Content.where(:document_id=>'DS00281').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_orgasm_triggered_or_worsened_SF.id,
+:content_id=>Content.where(:document_id=>'DS00281').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_change_personality_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00281').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_confusion_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00281').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_difficulty_speaking_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00281').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_nausea_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00281').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_persistant_weakness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00281').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_vision_problems_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00281').first.id
+)
+#Headache - DS00487
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_extreme_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_stabbing_or_burning_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_one_eye_radiates_pain_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_sudden_onset_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_several_minutes_to_hours_duration_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_is_daily_recurrence_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_is_often_at_same_time_every_date_recurrence_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_nausea_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_restless_agitation_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_runny_stuffy_nose_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_sensitivty_light_noise_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00487').first.id
+)
+#Headache - DS00226
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_moderate_to_severe_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00226').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_gradual_onset_SF.id,
+:content_id=>Content.where(:document_id=>'DS00226').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_over_counter_meds_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00226').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_rest_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00226').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_achy_joints_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00226').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_change_personality_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00226').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_confusion_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00226').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_fever_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00226').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_nausea_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00226').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_persistant_weakness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00226').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_seizures_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00226').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_vision_problems_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00226').first.id
+)
+#Headache - DS00440
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_mild_to_moderate_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00440').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_moderate_to_severe_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00440').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_throbbing_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00440').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_around_temples_pain_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00440').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_both_sides_head_pain_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00440').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_one_side_head_pain_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00440').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_gradual_onset_SF.id,
+:content_id=>Content.where(:document_id=>'DS00440').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_chewing_triggered_or_worsened_SF.id,
+:content_id=>Content.where(:document_id=>'DS00440').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_over_counter_meds_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00440').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_achy_joints_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00440').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_fever_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00440').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_jaw_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00440').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_tender_scalp_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00440').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_vision_problems_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00440').first.id
+)
+#Headache - DS00118
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_moderate_to_severe_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00118').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_gradual_onset_SF.id,
+:content_id=>Content.where(:document_id=>'DS00118').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_over_counter_meds_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00118').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_rest_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00118').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_change_personality_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00118').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_confusion_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00118').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_fever_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00118').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_nausea_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00118').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_seizures_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00118').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_sensitivty_light_noise_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00118').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_stiff_neck_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00118').first.id
+)
+#Headache - DS00120
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_extreme_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_moderate_to_severe_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_throbbing_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_both_sides_head_pain_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_one_side_head_pain_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_gradual_onset_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_preceded_by_visual_onset_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_sudden_onset_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_several_hours_days_duration_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_change_sleep_patterns_triggered_or_worsened_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_everyday_activities_triggered_or_worsened_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_hormonal_changes_triggered_or_worsened_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_stress_triggered_or_worsened_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_lying_down_dark_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_over_counter_meds_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_rest_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_nausea_vomit_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_sensitivty_light_noise_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00120').first.id
+)
+#Headache - DS00613
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_moderate_to_severe_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00613').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_preceded_meds_onset_SF.id,
+:content_id=>Content.where(:document_id=>'DS00613').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_is_daily_recurrence_SF.id,
+:content_id=>Content.where(:document_id=>'DS00613').first.id
+)
+#Headache - DS00647
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_moderate_to_severe_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00647').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_pressure_or_squeezing_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00647').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_throbbing_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00647').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_around_face_forehead_pain_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00647').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_over_counter_meds_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00647').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_rest_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00647').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_fever_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00647').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_runny_stuffy_nose_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00647').first.id
+)
+#Headache - DS00355
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_moderate_to_severe_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00335').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_both_sides_head_pain_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00335').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_one_side_head_pain_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00335').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_clenching_grinding_teeth_triggered_or_worsened_SF.id,
+:content_id=>Content.where(:document_id=>'DS00335').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_over_counter_meds_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00335').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_jaw_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00335').first.id
+)
+#Headache - DS00304
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_mild_to_moderate_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00304').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_moderate_to_severe_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00304').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_pressure_or_squeezing_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00304').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_both_sides_head_pain_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00304').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_poor_posture_triggered_or_worsened_SF.id,
+:content_id=>Content.where(:document_id=>'DS00304').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_stress_triggered_or_worsened_SF.id,
+:content_id=>Content.where(:document_id=>'DS00304').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_over_counter_meds_relieved_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00304').first.id
+)
+#Headache - DS00446
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_extreme_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00446').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_stabbing_or_burning_pain_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00446').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_around_face_forehead_pain_located_SF.id,
+:content_id=>Content.where(:document_id=>'DS00446').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_less_few_min_duration_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00446').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_gradually_becomes_frequent_recurrence_SF.id,
+:content_id=>Content.where(:document_id=>'DS00446').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>headache_touching_face_triggered_or_worsened_SF.id,
+:content_id=>Content.where(:document_id=>'DS00446').first.id
+)
+#Heart palpitations - DS00291
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_anxious_stressed_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_exerting_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_irregular_not_steady_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_caffeine_alcohol_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_cigarettes_or_rec_drugs_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_medications_herbal_supplements_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_chest_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_dizziness_lightheadedness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_fainting_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_shortness_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00291').first.id
+)
+#Heart palpitations - DS00947
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_slower_than_normal_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00947').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_chest_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00947').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_dizziness_lightheadedness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00947').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_fainting_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00947').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_shortness_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00947').first.id
+)
+#Heart palpitations - DS00290
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_anxious_stressed_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_exerting_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_faster_than_normal_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_irregular_not_steady_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_slower_than_normal_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_caffeine_alcohol_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_cigarettes_or_rec_drugs_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_medications_herbal_supplements_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_chest_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_dizziness_lightheadedness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_fainting_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_shortness_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00290').first.id
+)
+#Heart palpitations - DS00344
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_faster_than_normal_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00344').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_irregular_not_steady_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00344').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_nervousness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00344').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_sudden_weight_loss_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00344').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_sweating_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00344').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_tremors_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00344').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_trouble_sleeping_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00344').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_unexplained_fatigue_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00344').first.id
+)
+#Heart palpitations - DS00338
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_anxious_stressed_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_faster_than_normal_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_chest_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_dizziness_lightheadedness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_headache_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_nausea_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_nervousness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_shortness_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_sweating_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_tremors_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00338').first.id
+)
+#Heart palpitations - DS00949
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_anxious_stressed_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00949').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_resting_going_bed_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00949').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_irregular_not_steady_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00949').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_caffeine_alcohol_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00949').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_cigarettes_or_rec_drugs_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00949').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_medications_herbal_supplements_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00949').first.id
+)
+#Heart palpitations - DS00929
+###############################################################################
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_anxious_stressed_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_exerting_often_occur_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_faster_than_normal_heart_rate_is_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_caffeine_alcohol_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_cigarettes_or_rec_drugs_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_medications_herbal_supplements_preceded_by_use_of_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_chest_pain_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_dizziness_lightheadedness_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_fainting_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
+)
+ContentsSymptomsFactor.find_or_create_by_symptoms_factor_id_and_content_id(
+:symptoms_factor_id=>heart_palpitations_shortness_breath_accompanied_by_SF.id,
+:content_id=>Content.where(:document_id=>'DS00929').first.id
 )
 ########################################################################
 #
