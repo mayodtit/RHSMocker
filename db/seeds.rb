@@ -690,16 +690,17 @@ abdominal_pain_symptom  = Symptom.upsert_attributes({:name=>"Abdominal Pain", :p
   {:description=>"Abdominal pain can indicate a wide variety of medical conditions. Identify possible common causes based on symptoms you're experiencing.",
    :selfcare=>"The following self-care tips may be beneficial for mild abdominal pain, but you should still see your doctor for a prompt diagnosis and appropriate treatment."  
   })
-abdominal_pain_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"The following self-care tips may be beneficial for mild abdominal pain, but you should still see your doctor for a prompt diagnosis and appropriate treatment:",
-                                                                                  :symptom_id=>abdominal_pain_symptom.id)
-SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid foods that you suspect may cause or worsen symptoms, including alcohol", 
-                                          :symptom_selfcare_id=>abdominal_pain_selfcare.id)
-SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter antacid as directed on the label", 
-                                          :symptom_selfcare_id=>abdominal_pain_selfcare.id)
-SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter anti-diarrhea medication as directed on the label if your abdominal pain is accompanied by diarrhea", 
-                                          :symptom_selfcare_id=>abdominal_pain_selfcare.id)
-SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Drink plenty of water if your abdominal pain is accompanied by diarrhea or constipation", 
-                                          :symptom_selfcare_id=>abdominal_pain_selfcare.id)
+
+#abdominal_pain_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"The following self-care tips may be beneficial for mild abdominal pain, but you should still see your doctor for a prompt diagnosis and appropriate treatment:",
+#                                                                                  :symptom_id=>abdominal_pain_symptom.id)
+#SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid foods that you suspect may cause or worsen symptoms, including alcohol", 
+#                                          :symptom_selfcare_id=>abdominal_pain_selfcare.id)
+#SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter antacid as directed on the label", 
+#                                          :symptom_selfcare_id=>abdominal_pain_selfcare.id)
+#SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take an over-the-counter anti-diarrhea medication as directed on the label if your abdominal pain is accompanied by diarrhea", 
+#                                          :symptom_selfcare_id=>abdominal_pain_selfcare.id)
+#SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Drink plenty of water if your abdominal pain is accompanied by diarrhea or constipation", 
+#                                          :symptom_selfcare_id=>abdominal_pain_selfcare.id)
 
 abdominal_pain_medadvice = SymptomMedicalAdvice.find_or_create_by_description_and_symptom_id(:description=>"Seek emergency care if:",
                                                                                   :symptom_id=>abdominal_pain_symptom.id)
@@ -1153,7 +1154,6 @@ SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:descr
 SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid caffeine and alcohol", 
                                           :symptom_selfcare_id=>nausea_or_vomiting_selfcare.id)
 
-
 neck_pain_symptom       = Symptom.upsert_attributes({:name=>"Neck Pain", :patient_type=>"adult"},
   {:description=>"Neck pain may be a short-term problem or a chronic disability. Identify possible common causes based on symptoms you're experiencing.",
   :selfcare=>"The following tips may help relieve mild to moderate neck pain:"
@@ -1233,20 +1233,20 @@ vision_problems_symptom   = Symptom.upsert_attributes({:name=>"Vision Problems",
 wheezing_symptom      = Symptom.upsert_attributes({:name=>"Wheezing", :patient_type=>"adult"}, 
   {:description=>"Wheezing is a high-pitched, whistling noise that occurs with breathing. Identify possible common causes based on symptoms you're experiencing.",
    :selfcare=>"Wheezing requires medical attention. But taking good care of yourself can help:"})
-wheezing_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Wheezing requires medical attention. But taking good care of yourself can help:",
-                                                                                      :symptom_id=>wheezing_symptom.id)
-SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"If you smoke, quit", 
-                                          :symptom_selfcare_id=>wheezing_selfcare.id)
-SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid exposure to irritants, such as tobacco smoke", 
-                                          :symptom_selfcare_id=>wheezing_selfcare.id)
-SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take a break when you begin to wheeze", 
-                                          :symptom_selfcare_id=>wheezing_selfcare.id)
-SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Practice deep-breathing exercises", 
-                                          :symptom_selfcare_id=>wheezing_selfcare.id)
-SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a humidifier or take hot, steamy showers to alleviate symptoms", 
-                                          :symptom_selfcare_id=>wheezing_selfcare.id)
-SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use an inhaler or other asthma medications as prescribed", 
-                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+#wheezing_selfcare = SymptomSelfcare.find_or_create_by_description_and_symptom_id(:description=>"Wheezing requires medical attention. But taking good care of yourself can help:",
+#                                                                                      :symptom_id=>wheezing_symptom.id)
+#SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"If you smoke, quit", 
+#                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+#SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Avoid exposure to irritants, such as tobacco smoke", 
+#                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+#SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Take a break when you begin to wheeze", 
+#                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+#SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Practice deep-breathing exercises", 
+#                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+#SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use a humidifier or take hot, steamy showers to alleviate symptoms", 
+#                                          :symptom_selfcare_id=>wheezing_selfcare.id)
+#SymptomSelfcareItem.find_or_create_by_description_and_symptom_selfcare_id(:description=>"Use an inhaler or other asthma medications as prescribed", 
+#                                          :symptom_selfcare_id=>wheezing_selfcare.id)
 #######################################################################################################################################################################
 #Symptoms - CHILD
 #######################################################################################################################################################################
