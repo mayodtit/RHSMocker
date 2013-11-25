@@ -24,7 +24,7 @@ set :use_sudo,  false
 desc "Deploy target devhosted (goldenbear @ EC2)"
 task :devhosted do
   set :port, 9722
-  set :branch, "devops"
+  set :branch, "develop"
   set :rails_env, 'devhosted'
   role :web,      'goldenbear.getbetter.com'
   role :app,      'goldenbear.getbetter.com', :primary => true
@@ -35,7 +35,7 @@ end
 desc "Deploy target sandbox @ EC2"
 task :sandbox do
   set :port, 9722
-  set :branch, "devops"
+  set :branch, "develop"
   set :rails_env, 'sandbox'
   role :web,      'sandbox.getbetter.com'
   role :app,      'sandbox.getbetter.com', :primary => true
@@ -46,7 +46,7 @@ end
 desc "Deploy target benchmark @ FireHost (longhorn, wolverine)"
 task :benchmark do
   set :port, 22
-  set :branch, "devops"
+  set :branch, "develop"
   set :rails_env,       "benchmark"
   role :web,            "longhorn.getbetter.com"
   role :app,            "longhorn.getbetter.com", :primary => true
@@ -59,7 +59,7 @@ end
 desc "Deploy target benchmark2 @ FireHost (buckeye)"
 task :benchmark2 do
   set :port, 22
-  set :branch, "devops"
+  set :branch, "develop"
   set :rails_env, ''
   role :web,      'buckeye.getbetter.com'
   role :app,      'buckeye.getbetter.com', :primary => true
