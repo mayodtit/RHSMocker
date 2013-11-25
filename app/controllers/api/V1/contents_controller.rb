@@ -23,7 +23,7 @@ class Api::V1::ContentsController < Api::V1::ABaseController
     @user = current_user
     @content = Content.find(params[:id])
     @card = @user.cards.for_resource(@content) || @user.cards.build(:resource => @content)
-    update_resource @card, params[:card], name: :card
+    update_resource @card, params[:card], name: :card, serializer_options: {fullscreen_actions: true}
   end
 
   def like
