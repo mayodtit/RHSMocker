@@ -24,7 +24,7 @@ set :use_sudo,  false
 desc "Deploy target devhosted (goldenbear @ EC2)"
 task :devhosted do
   set :port, 9722
-  set :branch, "develop"
+  set :branch,    'develop'
   set :rails_env, 'devhosted'
   role :web,      'goldenbear.getbetter.com'
   role :app,      'goldenbear.getbetter.com', :primary => true
@@ -35,7 +35,7 @@ end
 desc "Deploy target sandbox @ EC2"
 task :sandbox do
   set :port, 9722
-  set :branch, "develop"
+  set :branch,    'develop'
   set :rails_env, 'sandbox'
   role :web,      'sandbox.getbetter.com'
   role :app,      'sandbox.getbetter.com', :primary => true
@@ -43,24 +43,24 @@ task :sandbox do
   role :delayed,  'sandbox.getbetter.com'
 end
 
-desc "Deploy target benchmark @ FireHost (longhorn, wolverine)"
-task :benchmark do
+desc "Deploy target production @ FireHost (longhorn, wolverine)"
+task :production do
   set :port, 22
-  set :branch, "develop"
-  set :rails_env,       "benchmark"
-  role :web,            "longhorn.getbetter.com"
-  role :app,            "longhorn.getbetter.com", :primary => true
-  role :web,            "wolverine.getbetter.com"
-#  role :app,            "wolverine.getbetter.com", :primary => true
-  role :db,             'longhorn.getbetter.com', :primary => true
-  role :delayed,  	'longhorn.getbetter.com'
+  set :branch,    'master'
+  set :rails_env, 'production'
+  role :web,      'longhorn.getbetter.com'
+  role :app,      'longhorn.getbetter.com', :primary => true
+  role :web,      'wolverine.getbetter.com'
+  #role :app,      "wolverine.getbetter.com", :primary => true
+  role :db,       'longhorn.getbetter.com', :primary => true
+  role :delayed,  'longhorn.getbetter.com'
 end
 
-desc "Deploy target benchmark2 @ FireHost (buckeye)"
-task :benchmark2 do
+desc "Deploy target qa @ FireHost (buckeye)"
+task :qa do
   set :port, 22
-  set :branch, "develop"
-  set :rails_env, ''
+  set :branch,    'qa'
+  set :rails_env, 'qa'
   role :web,      'buckeye.getbetter.com'
   role :app,      'buckeye.getbetter.com', :primary => true
   role :db,       'buckeye.getbetter.com', :primary => true
