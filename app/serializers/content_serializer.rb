@@ -50,7 +50,6 @@ class ContentSerializer < ViewSerializer
   def fullscreen_actions
     [
       {normal: {title: 'Save', action: :save}, selected: {title: 'Dismiss', action: :dismiss}},
-      {normal: {title: 'Like', action: :like}, selected: {title: 'Unlike', action: :unlike}},
       {normal: {title: 'Share', action: :share}},
       {normal: {title: 'Add User', action: :adduser}}
     ]

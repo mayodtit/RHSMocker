@@ -93,6 +93,7 @@ GEM
     crack (0.4.1)
       safe_yaml (~> 0.9.0)
     curb (0.8.4)
+    daemons (1.1.9)
     debugger (1.6.2)
       columnize (>= 0.3.1)
       debugger-linecache (~> 1.2.0)
@@ -123,6 +124,8 @@ GEM
     figaro (0.7.0)
       bundler (~> 1.0)
       rails (>= 3, < 5)
+    fitter-happier (0.0.5)
+      actionpack
     fog (1.15.0)
       builder
       excon (~> 0.25.0)
@@ -184,6 +187,7 @@ GEM
     multi_xml (0.5.4)
     multipart-post (1.2.0)
     mustache (0.99.4)
+    mysql2 (0.3.13)
     net-scp (1.1.2)
       net-ssh (>= 2.6.5)
     net-sftp (2.1.2)
@@ -362,11 +366,13 @@ DEPENDENCIES
   codeclimate-test-reporter
   coffee-rails (~> 3.2.1)
   curb
+  daemons
   debugger
   delayed_job_active_record
   factory_girl_rails
   factual-api
   figaro
+  fitter-happier
   fog
   guard-rspec
   haml
@@ -377,6 +383,7 @@ DEPENDENCIES
   kaminari
   less-rails
   minitar
+  mysql2
   newrelic_rpm
   nokogiri
   parallel_tests

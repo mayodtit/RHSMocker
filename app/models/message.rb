@@ -53,7 +53,7 @@ class Message < ActiveRecord::Base
   end
   alias_method :preview, :previewText
 
-  BASE_OPTIONS = {:only => [:id, :text, :created_at],
+  BASE_OPTIONS = {:only => [:id, :text, :created_at, :consult_id],
                   :methods => [:title, :image_url, :type],
                   :include => {:location => {},
                                :mayo_vocabularies => {},

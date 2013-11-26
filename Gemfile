@@ -11,6 +11,14 @@ gem 'therubyracer'
 gem 'less-rails' #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
+#databse
+group :devhosted do
+  gem 'mysql2'
+end
+
+# Site monitoring
+gem 'fitter-happier'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -76,6 +84,7 @@ gem 'awesome_print'
 gem 'titleize'
 gem 'haml'
 gem 'state_machine'
+gem 'daemons'	# To run backgound jobs
 gem 'delayed_job_active_record' # background jobs
 gem 'figaro'
 gem 'carrierwave'               # image storage

@@ -253,3 +253,11 @@ staging:
   <<: *default_settings
   monitor_mode: true
   app_name: <%= ENV["NEW_RELIC_APP_NAME"] %> (Staging)
+
+devhosted:
+  <<: *default_settings
+  # It almost never makes sense to turn on the agent when running
+  # unit, functional or integration tests or the like.
+  monitor_mode: true
+  app_name: rhsmocker
+  license_key: 'a1b873add92e7d42a9d838711b8b17c815786912'
