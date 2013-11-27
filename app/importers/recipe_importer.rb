@@ -1,6 +1,4 @@
 class RecipeImporter < ContentImporter
-  include ImportContentModule
-
   def import
     extract_required_params_from_xml!
     build_html!
