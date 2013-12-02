@@ -57,4 +57,11 @@ class ViewSerializer < ActiveModel::Serializer
   def fullscreen_actions?
     @fullscreen_actions || false
   end
+
+  def default_card_actions
+    [
+      {normal: {title: 'Save', action: :save}},
+      {normal: {title: 'Dismiss', action: :dismiss}},
+    ]
+  end
 end
