@@ -25,7 +25,7 @@ describe Api::V1::ProgramResourcesController do
       it 'returns an array of program_resources' do
         do_request
         json = JSON.parse(response.body, symbolize_names: true)
-        json[:program_resources].to_json.should == [program_resource].as_json.to_json
+        json[:program_resources].to_json.should == [program_resource].serializer.as_json.to_json
       end
     end
   end
@@ -55,7 +55,7 @@ describe Api::V1::ProgramResourcesController do
         it 'returns the program_resource' do
           do_request
           json = JSON.parse(response.body, symbolize_names: true)
-          json[:program_resource].to_json.should == program_resource.as_json.to_json
+          json[:program_resource].to_json.should == program_resource.serializer.as_json.to_json
         end
       end
 
