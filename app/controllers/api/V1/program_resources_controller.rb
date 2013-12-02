@@ -3,7 +3,7 @@ class Api::V1::ProgramResourcesController < Api::V1::ABaseController
   before_filter :load_program_resource!, only: :destroy
 
   def index
-    index_resource @program.program_resources
+    index_resource @program.program_resources.serializer
   end
 
   def create
