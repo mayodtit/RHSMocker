@@ -1,7 +1,7 @@
 class ProgramResourceSerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes :id, :resource_id, :resource_type, :title
+  attributes :id, :resource_id, :resource_type, :ordinal, :title
 
   private
 
