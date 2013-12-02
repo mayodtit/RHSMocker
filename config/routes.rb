@@ -42,7 +42,9 @@ RHSMocker::Application.routes.draw do
       resources :phone_call_summaries, :only => :show
       resources :ping, :only => :index
       resources :plans, :only => [:index, :show]
-      resources :programs, only: [:index, :show, :create, :update]
+      resources :programs, only: [:index, :show, :create, :update] do
+        resources :resources, only: [:index, :create, :destroy], controller: 'program_resources'
+      end
       resources :remote_events, :only => :create
       resources :side_effects, :only => :index
       resources :symptoms, :only => :index
