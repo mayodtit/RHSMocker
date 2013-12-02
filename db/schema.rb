@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131202191718) do
+ActiveRecord::Schema.define(:version => 20131202220531) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -377,6 +377,7 @@ ActiveRecord::Schema.define(:version => 20131202191718) do
     t.string   "resource_type"
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
+    t.integer  "ordinal"
   end
 
   create_table "programs", :force => true do |t|
