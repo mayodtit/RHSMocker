@@ -6,7 +6,8 @@ class Api::V1::DashboardController < Api::V1::ABaseController
                              members: Member.count,
                              contents: Content.count,
                              custom_cards: CustomCard.count,
-                             custom_contents: CustomContent.count
+                             custom_contents: CustomContent.count,
+                             programs: Program.count
                            })
   end
 
