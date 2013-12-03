@@ -74,10 +74,10 @@ describe Api::V1::ProgramResourcesController do
       delete :destroy
     end
 
-    let(:program_resources) { double('program_resources', find: program_resource) }
+    let(:program_resources) { double('program_resources', find: program_resource, serializer: nil) }
 
     before do
-      program.stub(program_resources: program_resources)
+      program.stub(reload: self, program_resources: program_resources)
       program_resource.stub(:destroy)
     end
 
