@@ -119,6 +119,7 @@ namespace :seeds do
     BOOL_SET = [true, true, false]
     LAST_NAMES = ['Smith', 'Henry', 'Johnson', 'Patel', 'Chen', 'Nightingale', 'Richards', 'Shah', 'Singh', 'Rivera', 'Lin']
     GENDERS = ['male', 'female']
+    PHONE_NUMBERS = ['408-555-1212', '415-555-0100', '510-555-7236']
 
     def time_rand from = Time.parse('1/1/1930'), to = Time.parse('1/1/1995')
       Time.at(from + rand * (to.to_f - from.to_f))
@@ -166,6 +167,11 @@ namespace :seeds do
 
       m.update_attributes! attrs
 
+      origin_phone_number = nil
+      if BOOL_SET.sample
+        origin_phone_number = PHONE_NUMBERS.sample
+      end
+
       # Create a call
       c = Consult.create!(
         title: 'Hip hurting',
@@ -177,7 +183,8 @@ namespace :seeds do
         add_user: m,
         phone_call: {
           message: nil,
-          destination_phone_number: '855-234-5678'
+          destination_phone_number: '855-234-5678',
+          origin_phone_number: origin_phone_number
         }
       )
     end
@@ -256,6 +263,11 @@ namespace :seeds do
 
       f.update_attributes! attrs
 
+      origin_phone_number = nil
+      if BOOL_SET.sample
+        origin_phone_number = PHONE_NUMBERS.sample
+      end
+
       fc = Consult.create!(
         title: 'Blood in stool',
         status: 'open',
@@ -266,7 +278,8 @@ namespace :seeds do
         add_user: m,
         phone_call: {
           message: nil,
-          destination_phone_number: '855-234-5678'
+          destination_phone_number: '855-234-5678',
+          origin_phone_number: origin_phone_number
         }
       )
     end
