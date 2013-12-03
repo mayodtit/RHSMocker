@@ -116,7 +116,7 @@ namespace :seeds do
   end
 
   task :care => :environment do
-    BOOL_SET = [true, false]
+    BOOL_SET = [true, true, false]
     LAST_NAMES = ['Smith', 'Henry', 'Johnson', 'Patel', 'Chen', 'Nightingale', 'Richards', 'Shah', 'Singh', 'Rivera', 'Lin']
     GENDERS = ['male', 'female']
 
@@ -166,6 +166,7 @@ namespace :seeds do
 
       m.update_attributes! attrs
 
+      # Create a call
       c = Consult.create!(
         title: 'Hip hurting',
         status: 'open',
@@ -173,6 +174,95 @@ namespace :seeds do
         description: 'My hip hurts really badly.',
         initiator_id: m.id,
         subject_id: m.id,
+        add_user: m,
+        phone_call: {
+          message: nil,
+          destination_phone_number: '855-234-5678'
+        }
+      )
+    end
+
+    puts 'Creating members, a family member, and a call about that family member...'
+    %w(parent@example.com child@example.com sibling@example.com caretaker@example.com).each do |email|
+      m = Member.find_or_create_by_email!(
+        email: email,
+        agreement_params: {
+          ids: Agreement.active.pluck(:id),
+          ip_address: '255.255.255.255',
+          user_agent: 'seeds'
+        }
+      )
+
+      attrs = {
+        password: 'careportal',
+        password_confirmation: 'careportal'
+      }
+
+      if BOOL_SET.sample
+        attrs[:first_name] = email[/[^@]+/].capitalize
+      else
+        attrs[:first_name] = nil
+      end
+
+      if BOOL_SET.sample
+        attrs[:last_name] = LAST_NAMES.sample
+      else
+        attrs[:last_name] = nil
+      end
+
+      if BOOL_SET.sample
+        attrs[:birth_date] = time_rand
+      else
+        attrs[:birth_date] = nil
+      end
+
+      if BOOL_SET.sample
+        attrs[:gender] = GENDERS.sample
+      else
+        attrs[:gender] = nil
+      end
+
+      m.update_attributes! attrs
+
+      # Create a family member and a consult for the family member
+      family_email = "relative_of_#{email}"
+      f = Member.find_or_create_by_email!(email: family_email)
+
+      # TODO: Actually create the relationship
+
+      attrs = {}
+
+      if BOOL_SET.sample
+        attrs[:first_name] = email[/[^@]+/].capitalize
+      else
+        attrs[:first_name] = nil
+      end
+
+      if BOOL_SET.sample
+        attrs[:last_name] = LAST_NAMES.sample
+      else
+        attrs[:last_name] = nil
+      end
+
+      if BOOL_SET.sample
+        attrs[:birth_date] = time_rand
+      else
+        attrs[:birth_date] = nil
+      end
+
+      if BOOL_SET.sample
+        attrs[:gender] = GENDERS.sample
+      end
+
+      f.update_attributes! attrs
+
+      fc = Consult.create!(
+        title: 'Blood in stool',
+        status: 'open',
+        priority: 'high',
+        description: "My relative has blood in their stool.",
+        initiator_id: m.id,
+        subject_id: f.id,
         add_user: m,
         phone_call: {
           message: nil,
@@ -199,7 +289,7 @@ namespace :seeds do
         last_name: LAST_NAMES.sample,
       )
 
-      m.add_role :hcp
+      m.add_role :nurse
     end
 
     puts 'Creating admins with each inviting a ghost member...'
@@ -247,7 +337,7 @@ namespace :seeds do
         last_name: LAST_NAMES.sample,
       )
 
-      m.add_role :hcp
+      m.add_role :nurse
     end
   end
 end

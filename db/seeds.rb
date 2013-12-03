@@ -20,7 +20,7 @@ Question.upsert_attributes({:view => :diet}, {:title => 'Which of these do you e
 #limburg = Member.create!(first_name: "Paul",   last_name: "Limburg", gender:"M", install_id: "144444")
 #shelly  = Member.create!(first_name: "Shelly",last_name: "Norman",   gender:"F", install_id: "555555")
 
-hcp = Role.find_or_create_by_name(:name => 'hcp')
+nurse = Role.find_or_create_by_name(:name => 'nurse')
 Role.find_or_create_by_name(:name => 'admin')
 
 [
@@ -87,7 +87,6 @@ wife.update_attribute :gender, "female"
 
 husband = AssociationType.find_or_create_by_name(:name=>"Husband", :gender=>"male", :relationship_type=>"family")
 husband.update_attribute :gender, "male"
-
 
 AssociationType.find_or_create_by_name(:name=>"Primary Physician", :relationship_type=>"hcp")
 AssociationType.find_or_create_by_name(:name=>"Nurse", :relationship_type=>"hcp")

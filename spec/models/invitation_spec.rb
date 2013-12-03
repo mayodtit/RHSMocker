@@ -22,11 +22,11 @@ describe Invitation do
   end
 
   it 'generates a token before validation only on creation' do
-    invitation = Invitation.new member: create(:hcp), invited_member: create(:member)
+    invitation = Invitation.new member: create(:nurse), invited_member: create(:member)
     invitation.stub :invite_member!
     invitation.should_receive(:generate_token).and_call_original
     invitation.save!
-    invitation.member = create :hcp
+    invitation.member = create :nurse
     invitation.should_not_receive :generate_token
     invitation.save!
   end

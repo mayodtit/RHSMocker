@@ -51,11 +51,7 @@ class ConsultSerializer < ViewSerializer
   end
 
   def card_actions
-    [
-      {normal: {title: 'Save', action: :save}},
-      {normal: {title: 'Dismiss', action: :dismiss}},
-      {normal: {title: 'Reply', action: :reply}}
-    ]
+    default_card_actions << {normal: {title: 'Reply', action: :reply}}
   end
 
   def fullscreen_actions

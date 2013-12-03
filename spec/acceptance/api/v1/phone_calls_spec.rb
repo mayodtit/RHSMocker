@@ -5,7 +5,7 @@ resource "PhoneCalls" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  let!(:user) { create(:hcp) }
+  let!(:user) { create(:nurse) }
   let(:auth_token) { user.auth_token }
   let!(:phone_call) { create(:phone_call) }
   let!(:other_phone_call) { create(:phone_call) }

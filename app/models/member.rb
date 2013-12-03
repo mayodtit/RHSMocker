@@ -68,8 +68,8 @@ class Member < User
     has_role? :admin
   end
 
-  def hcp?
-    has_role?(:hcp) || has_role?(:admin)
+  def nurse?
+    has_role?(:nurse) || has_role?(:admin)
   end
 
   def login

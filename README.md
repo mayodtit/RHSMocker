@@ -39,7 +39,7 @@ in console
 ```
 u = User.where(:email=>"geoff.clapp@gmail.com")
 u = u[0]
-u.add_role :hcp
+u.add_role :nurse
 ```
 
 ####Alpha

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131122185327) do
+ActiveRecord::Schema.define(:version => 20131203002116) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -369,6 +369,15 @@ ActiveRecord::Schema.define(:version => 20131122185327) do
     t.boolean  "monthly"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "program_resources", :force => true do |t|
+    t.integer  "program_id"
+    t.integer  "resource_id"
+    t.string   "resource_type"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+    t.integer  "ordinal"
   end
 
   create_table "programs", :force => true do |t|
