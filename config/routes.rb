@@ -43,7 +43,7 @@ RHSMocker::Application.routes.draw do
       resources :ping, :only => :index
       resources :plans, :only => [:index, :show]
       resources :programs, only: [:index, :show, :create, :update] do
-        resources :resources, only: [:index, :create, :destroy], controller: 'program_resources'
+        resources :resources, only: [:index, :create, :update, :destroy], controller: 'program_resources'
       end
       resources :remote_events, :only => :create
       resources :side_effects, :only => :index
