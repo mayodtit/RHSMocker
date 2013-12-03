@@ -199,7 +199,7 @@ namespace :seeds do
         last_name: LAST_NAMES.sample,
       )
 
-      m.add_role :hcp
+      m.add_role :nurse
     end
 
     puts 'Creating admins with each inviting a ghost member...'
@@ -247,7 +247,7 @@ namespace :seeds do
         last_name: LAST_NAMES.sample,
       )
 
-      m.add_role :hcp
+      m.add_role :nurse
     end
   end
 end

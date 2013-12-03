@@ -11,12 +11,12 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
       authorize! :assign_roles, user
 
       if user.signed_up?
-        user.add_role :hcp
+        user.add_role :nurse
         UserMailer.assigned_role_email(user, current_user).deliver
         render_success
       else
         if user.valid?
-          user.add_role :hcp
+          user.add_role :nurse
 
           current_user.invitations.create invited_member: user
           render_success

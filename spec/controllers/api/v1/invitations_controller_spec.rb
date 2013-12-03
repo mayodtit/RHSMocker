@@ -77,8 +77,8 @@ describe Api::V1::InvitationsController do
             response.should be_success
           end
 
-          it 'assigns hcp role to the user' do
-            @invited_member.should_receive(:add_role).with :hcp
+          it 'assigns nurse role to the user' do
+            @invited_member.should_receive(:add_role).with :nurse
             do_request
           end
 
@@ -105,8 +105,8 @@ describe Api::V1::InvitationsController do
             response.should be_success
           end
 
-          it 'assigns hcp role to the user' do
-            @invited_member.should_receive(:add_role).with :hcp
+          it 'assigns nurse role to the user' do
+            @invited_member.should_receive(:add_role).with :nurse
             do_request
           end
 

@@ -56,8 +56,8 @@ describe PhoneCall do
       @phone_call.destination_phone_number = '311'
       @phone_call.message =  create :message
 
-      @nurse = create :hcp
-      @other_nurse = create :hcp
+      @nurse = create :nurse
+      @other_nurse = create :nurse
     end
 
     describe ':unclaimed' do

@@ -26,7 +26,7 @@ class Ability
     cannot :manage, CustomCard
     cannot :index, Member
 
-    if user.try_method(:hcp?) || user.try_method(:admin?)
+    if user.try_method(:nurse?) || user.try_method(:admin?)
       can :manage, :all
     end
 
@@ -34,7 +34,7 @@ class Ability
       can :assign_roles, User
     end
 
-    if user.hcp?
+    if user.nurse?
       can :ru, PhoneCall
     end
   end
