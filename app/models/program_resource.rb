@@ -16,9 +16,9 @@ class ProgramResource < ActiveRecord::Base
     if has_duplicate_ordinals?
       change_ordinal_with_duplicates(ordinal_before + 1)
     elsif ordinal_before < ordinal
-      decrease_ordinal(ordinal_before + 1)
+      change_ordinal(ordinal_before + 1)
     elsif ordinal_before > ordinal
-      increase_ordinal(ordinal_before)
+      change_ordinal(ordinal_before)
     end
   end
 
@@ -47,17 +47,18 @@ class ProgramResource < ActiveRecord::Base
     end
   end
 
-  def decrease_ordinal(target_ordinal)
+  def change_ordinal(target_ordinal)
     self.class.transaction do
-      self.class.where(program_id: program_id).where('ordinal >= ? AND ordinal < ?', target_ordinal, ordinal).update_all('ordinal = ordinal + 1')
+      if target_ordinal < ordinal
+        range_for(target_ordinal, ordinal).update_all('ordinal = ordinal + 1')
+      elsif target_ordinal > ordinal
+        range_for(ordinal + 1, target_ordinal + 1).update_all('ordinal = ordinal - 1')
+      end
       update_attributes!(ordinal: target_ordinal)
     end
   end
 
-  def increase_ordinal(target_ordinal)
-    self.class.transaction do
-      self.class.where(program_id: program_id).where('ordinal <= ? AND ordinal > ?', target_ordinal, ordinal).update_all('ordinal = ordinal - 1')
-      update_attributes!(ordinal: target_ordinal)
-    end
+  def range_for(low, high)
+    self.class.where(program_id: program_id).where('ordinal >= ? AND ordinal < ?', low, high)
   end
 end
