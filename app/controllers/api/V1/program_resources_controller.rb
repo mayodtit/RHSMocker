@@ -19,7 +19,11 @@ class Api::V1::ProgramResourcesController < Api::V1::ABaseController
   end
 
   def destroy
-    destroy_resource @program_resource
+    if @program_resource.destroy
+      render_success(program_resources: @program.reload.program_resources.serializer)
+    else
+      render_failure({reason: resource.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   private
