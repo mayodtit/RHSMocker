@@ -10,6 +10,7 @@ class ProgramResource < ActiveRecord::Base
   validates :resource_id, uniqueness: {scope: [:program_id, :resource_type]}
 
   before_validation :set_ordinal, on: :create
+  before_destroy :downshift_greater_ordinals!, unless: :has_duplicate_ordinals?
 
   def move_ordinal_after=(item_before_id)
     ordinal_before = program_ordinal_for_program_resource_id(item_before_id)
@@ -30,6 +31,10 @@ class ProgramResource < ActiveRecord::Base
 
   def max_ordinal
     self.class.where(:program_id => program.id).order('ordinal DESC').pluck(:ordinal).first || 0
+  end
+
+  def downshift_greater_ordinals!
+    self.class.where(program_id: program_id).where('ordinal >= ?', ordinal).update_all('ordinal = ordinal - 1')
   end
 
   def has_duplicate_ordinals?
