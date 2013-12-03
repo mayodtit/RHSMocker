@@ -4,7 +4,7 @@ class ProgramResource < ActiveRecord::Base
   belongs_to :program
   belongs_to :resource, polymorphic: true
 
-  attr_accessible :program, :resource, :ordinal, :move_ordinal_after
+  attr_accessible :program, :resource, :resource_id, :resource_type, :ordinal, :move_ordinal_after
 
   validates :program, :resource, :ordinal, presence: true
   validates :resource_id, uniqueness: {scope: [:program_id, :resource_type]}

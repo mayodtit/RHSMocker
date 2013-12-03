@@ -38,6 +38,6 @@ class Api::V1::ProgramResourcesController < Api::V1::ABaseController
   end
 
   def program_resource_params
-    params.require(:program_resource).permit(:move_ordinal_after)
+    params.require(:program_resource).permit(:resource_id, :resource_type, :move_ordinal_after)
   end
 end
