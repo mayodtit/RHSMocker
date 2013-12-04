@@ -2,6 +2,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   skip_before_filter :authentication_check, only: :create
   before_filter :load_users!, only: :index
   before_filter :load_user!, only: [:show, :update]
+  before_filter :convert_legacy_parameters!, only: :secure_update
   before_filter :load_user_from_login!, only: :secure_update
   before_filter :convert_parameters!, only: [:create, :update]
 
@@ -56,6 +57,25 @@ class Api::V1::UsersController < Api::V1::ABaseController
   def load_user!
     @user = params[:id] ? User.find(params[:id]) : current_user
     authorize! :manage, @user
+  end
+
+  def convert_legacy_parameters!
+    params[:user] ||= {}
+    if update_email_path?
+      params[:user][:current_password] ||= params[:password]
+      params[:user][:email] ||= params[:email]
+    elsif update_password_path?
+      params[:user][:current_password] ||= params[:current_password]
+      params[:user][:password] ||= params[:password]
+    end
+  end
+
+  def update_email_path?
+    request.env['PATH_INFO'].include?('update_email')
+  end
+
+  def update_password_path?
+    request.env['PATH_INFO'].include?('update_password')
   end
 
   def load_user_from_login!
