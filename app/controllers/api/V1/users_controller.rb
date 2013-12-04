@@ -5,9 +5,8 @@ class Api::V1::UsersController < Api::V1::ABaseController
                   :holds_phone_in, :diet_id, :ethnic_group_id, :deceased, :date_of_death, :npi_number,
                   :expertise, :city, :state, :units, :agreement_params, :install_id, :client_data
 
-  skip_before_filter :authentication_check, :only => [:create, :reset_password, :check_reset_password, :update_password_from_reset]
-  before_filter :load_user!, :only => :update
-  before_filter :load_reset_token_then_user!, :only => [:check_reset_password, :update_password_from_reset]
+  skip_before_filter :authentication_check, only: :create
+  before_filter :load_user!, only: :update
 
   def index
     begin
@@ -56,43 +55,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
     render_success
   end
 
-  def reset_password
-    render_failure({reason: 'Email address required'}, 422) and return unless params[:email].present?
-    @user = Member.find_by_email!(params[:email])
-    @user.deliver_reset_password_instructions!
-    render_success
-  end
-
-  def check_reset_password
-    render_success
-  end
-
-  def update_password_from_reset
-    @user.password_confirmation = params[:member][:password_confirmation]
-
-    if @user.change_password!(params[:member][:password])
-      render_success
-    else
-      render_failure(reason: 'Invalid password')
-    end
-  end
-
   private
-
-  def load_reset_token_then_user!
-    unless params[:token].present?
-      render_failure({reason: 'Reset password token required'}, 400)
-      return
-    end
-
-    @token = params[:token]
-    @user = Member.find_by_reset_password_token @token
-
-    unless @user
-      render_failure({reason: 'Reset password token expired'}, 410)
-      return
-    end
-  end
 
   def load_user!
     @user = params[:id] ? User.find(params[:id]) : current_user
