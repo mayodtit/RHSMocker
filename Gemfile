@@ -3,18 +3,13 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.14' # Caltrain
 gem 'nokogiri'        # content parsing
-gem 'pg'              # This needs to come after Nokogiri https://github.com/sparklemotion/nokogiri/issues/742
 gem 'newrelic_rpm'    # Monitoring
+gem 'mysql2'
 
 #installing therubyracer, less-rails, and twitter-bootstrap-rails
 gem 'therubyracer'
 gem 'less-rails' #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
-
-#databse
-group :devhosted do
-  gem 'mysql2'
-end
 
 # Site monitoring
 gem 'fitter-happier'
