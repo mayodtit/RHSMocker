@@ -48,10 +48,10 @@ task :production do
   set :port, 22
   set :branch,    'master'
   set :rails_env, 'production'
-  set :deploy_to, '/home/rhs/production'
-  role :web,      'wolverine.getbetter.com'
   role :web,      'longhorn.getbetter.com'
   role :app,      'longhorn.getbetter.com', :primary => true
+  role :web,      'wolverine.getbetter.com'
+  #role :app,      "wolverine.getbetter.com", :primary => true
   role :db,       'longhorn.getbetter.com', :primary => true
   role :delayed,  'longhorn.getbetter.com'
 end
