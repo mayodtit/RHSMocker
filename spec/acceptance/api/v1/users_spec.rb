@@ -83,7 +83,7 @@ resource 'Users' do
     end
   end
 
-  describe 'update email address' do
+  describe 'DEPRECATED update email address' do
     parameter :auth_token, "User's auth token"
     parameter :password, "User's password; for verification"
     parameter :email, "New email address"
@@ -105,7 +105,7 @@ resource 'Users' do
     end
   end
 
-  describe 'update password' do
+  describe 'DEPRECATED update password' do
     parameter :auth_token, "User's auth token"
     parameter :current_password, "User's current password"
     parameter :password, "New account password"
