@@ -52,6 +52,13 @@ class ContentSerializer < ViewSerializer
     ]
   end
 
+  def timeline_action
+    {
+      action: 'openContent',
+      arguments: {id: object.id}
+    }
+  end
+
   def partial_name
     'content'
   end

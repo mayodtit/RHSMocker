@@ -58,6 +58,13 @@ class ConsultSerializer < ViewSerializer
     []
   end
 
+  def timeline_action
+    {
+      action: 'openConsult',
+      arguments: {id: object.id}
+    }
+  end
+
   private
 
   def include_unread_messages_count?
