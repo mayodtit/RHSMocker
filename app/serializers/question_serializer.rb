@@ -51,4 +51,8 @@ class QuestionSerializer < ViewSerializer
   def fullscreen_actions
     []
   end
+
+  def timeline_action
+    {}
+  end
 end

@@ -43,6 +43,10 @@ class CustomCardSerializer < ViewSerializer
     content.try(:fullscreen_actions) || []
   end
 
+  def timeline_action
+    content.try(:timeline_action) || {}
+  end
+
   def content
     @content ||= object.content.try(:serializer)
   end

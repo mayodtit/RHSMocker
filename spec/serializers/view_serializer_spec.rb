@@ -9,8 +9,6 @@ describe ViewSerializer do
   let(:with_body) { view_serializer(body: true) }
   let(:raw_preview) { view_serializer(raw_preview: true) }
   let(:raw_body) { view_serializer(raw_body: true) }
-  let(:card_actions) { view_serializer(card_actions: true) }
-  let(:fullscreen_actions) { view_serializer(fullscreen_actions: true) }
 
   describe '#attributes' do
     before do
@@ -18,8 +16,6 @@ describe ViewSerializer do
       with_body.stub(body: double('body'))
       raw_preview.stub(raw_preview: double('raw_preview'))
       raw_body.stub(raw_body: double('raw_body'))
-      card_actions.stub(card_actions: double('card_actions'))
-      fullscreen_actions.stub(fullscreen_actions: double('fullscreen_actions'))
     end
 
     it 'renders preview when set' do
@@ -36,14 +32,6 @@ describe ViewSerializer do
 
     it 'renders raw_body when set' do
       raw_body.as_json[:raw_body].should_not be_nil
-    end
-
-    it 'renders card_actions when set' do
-      card_actions.as_json[:card_actions].should == card_actions.card_actions
-    end
-
-    it 'renders fullscreen_actions when set' do
-      fullscreen_actions.as_json[:fullscreen_actions].should == fullscreen_actions.fullscreen_actions
     end
   end
 

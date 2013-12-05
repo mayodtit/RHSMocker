@@ -83,7 +83,7 @@ resource 'Users' do
     end
   end
 
-  describe 'update email address' do
+  describe 'DEPRECATED update email address' do
     parameter :auth_token, "User's auth token"
     parameter :password, "User's password; for verification"
     parameter :email, "New email address"
@@ -105,7 +105,7 @@ resource 'Users' do
     end
   end
 
-  describe 'update password' do
+  describe 'DEPRECATED update password' do
     parameter :auth_token, "User's auth token"
     parameter :current_password, "User's current password"
     parameter :password, "New account password"
@@ -221,22 +221,6 @@ resource 'Users' do
     end
   end
 
-  describe 'reset password' do
-    parameter :email, "User's email address"
-    required_parameters :email
-
-    let(:email) { user.email }
-    let(:raw_post) { params.to_json }
-
-    post '/api/v1/users/reset_password' do
-      example_request "[POST] Reset password (forgot password)" do
-        explanation "Emails password reset instructions to the user"
-        status.should == 200
-        JSON.parse(response_body).should_not be_empty
-      end
-    end
-  end
-
   describe 'get current user' do
     parameter :auth_token, 'User\'s auth token'
     required_parameters :auth_token
@@ -249,53 +233,6 @@ resource 'Users' do
         status.should == 200
         response = JSON.parse(response_body, :symbolize_names => true)
         response[:user].to_json.should == user.as_json(only: [:first_name, :last_name, :email], methods: [:full_name, :admin?, :nurse?]).to_json
-      end
-    end
-  end
-
-  describe 'check reset password' do
-    parameter :token, "User's reset password token"
-    required_parameters :token
-
-    let(:token) { reset_password_token }
-
-    before do
-      user.reset_password_token = reset_password_token
-      user.save!
-    end
-
-    get '/api/v1/users/reset_password/:token' do
-      example_request "[GET] Check reset password exists" do
-        explanation "Checks that a reset password token exists"
-        status.should == 200
-        JSON.parse(response_body).should_not be_empty
-      end
-    end
-  end
-
-  describe 'update password from reset' do
-    parameter :token, "User's reset password token"
-    parameter :password, "User's new password"
-    parameter :password_confirmation, "User's confirmation of new password"
-    scope_parameters :member, [:password, :password_confirmation]
-    required_parameters :token, :password, :password_confirmation
-
-    let(:token) { reset_password_token }
-    let(:password) { new_password }
-    let(:password_confirmation) { new_password }
-    let(:raw_post) { params.to_json }
-
-    before do
-      user.reset_password_token = reset_password_token
-      user.save!
-    end
-
-    put '/api/v1/users/reset_password/:token' do
-      example_request "[PUT] Updates password using reset password token" do
-        explanation "Updates a user's password using their reset password token"
-        status.should == 200
-        JSON.parse(response_body).should_not be_empty
-        Member.authenticate(user.email, new_password).should be_true
       end
     end
   end

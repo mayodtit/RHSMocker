@@ -14,7 +14,7 @@ describe Api::V1::CardsController do
       get :inbox
     end
 
-    let(:card_keys) { card.serializer(preview: true, card_actions: true).as_json.keys.map(&:to_sym) }
+    let(:card_keys) { card.serializer(preview: true).as_json.keys.map(&:to_sym) }
 
     it_behaves_like 'action requiring authentication and authorization'
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
@@ -65,7 +65,7 @@ describe Api::V1::CardsController do
     end
 
     let(:cards) { double('cards', :find => card) }
-    let(:card_keys) { card.serializer(body: true, fullscreen_actions: true).as_json.keys.map(&:to_sym) }
+    let(:card_keys) { card.serializer(body: true).as_json.keys.map(&:to_sym) }
 
     before(:each) do
       user.stub(:cards => cards)

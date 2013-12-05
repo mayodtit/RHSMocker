@@ -38,7 +38,7 @@ RHSMocker::Application.routes.draw do
         post :dismiss, :on => :collection
       end
       resources :offerings, :only => :index
-      post :password_resets, :controller => :users, :action => :reset_password # TODO - deprecated!
+      post :password_resets, to: 'reset_password#create' # TODO - deprecated!
       resources :phone_call_summaries, :only => :show
       resources :ping, :only => :index
       resources :plans, :only => [:index, :show]
@@ -50,7 +50,7 @@ RHSMocker::Application.routes.draw do
       resources :side_effects, :only => :index
       resources :symptoms, :only => :index
       resources :treatments, :only => :index
-      resources :users, :only => [:index, :update] do
+      resources :users, only: [:index, :show, :create, :update] do
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
         resources :associations, :except => [:new, :edit]
         resources :blood_pressures, only: [:index, :create, :destroy]
@@ -73,9 +73,7 @@ RHSMocker::Application.routes.draw do
           get :inbox, :on => :collection
           get :timeline, :on => :collection
         end
-        get 'reset_password/:token', :to => 'users#check_reset_password', :on => :collection, :as => 'check_reset_password' #deprecated!
-        put 'reset_password/:token', :to => 'users#update_password_from_reset', :on => :collection, :as => 'update_password_from_reset' #deprecated!
-        post :reset_password, :on => :collection #deprecated!
+        put :secure_update, on: :member
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
           resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do
@@ -89,14 +87,14 @@ RHSMocker::Application.routes.draw do
       end
       resources :invitations, :only => [:create, :show, :update]
 
-      #account management
+      #account management - DEPRECATED
       post "signup" => "users#create", :as=>"signup"
       post "login" => "sessions#create", :as=>"login"
       delete "logout" => "sessions#destroy", :as=>"logout"
       put "user" => "users#update"
       put "user/:id" => "users#update"
-      post "user/update_password" => "users#update_password", :as=>"update_password"
-      post "user/update_email" => "users#update_email", :as=>"update_email"
+      post "user/update_password" => "users#secure_update", :as=>"update_password"
+      post "user/update_email" => "users#secure_update", :as=>"update_email"
       get 'user/' => 'users#show'
 
       get "factors/:id" => "factors#index"

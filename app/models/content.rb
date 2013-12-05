@@ -60,7 +60,11 @@ class Content < ActiveRecord::Base
   end
 
   def content_type_display
-    content_type.underscore.humanize.titleize
+    if content_type == 'TestProcedure'
+      'Test/Procedure'
+    else
+      content_type.underscore.humanize.titleize
+    end
   end
 
   def self.next_for(user)
