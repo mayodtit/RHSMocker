@@ -18,7 +18,14 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
         if user.valid?
           user.add_role :nurse
 
-          current_user.invitations.create invited_member: user
+          # Resend invitations if one exists for that user.
+          invitation = Invitation.find_by_invited_member_id user.id
+          if invitation
+            invitation.invite_member!
+          else
+            current_user.invitations.create invited_member: user
+          end
+
           render_success
         else
           render_failure({:reason => user.errors.full_messages.to_sentence}, 422)
