@@ -10,7 +10,7 @@ class Api::V1::FactorsController < Api::V1::ABaseController
   #  3. sort SymptomsFactors by Factor name so results have Factors sorted by name
   #  4. put Factors into buckets by FactorGroup
   #  5. map hash to array specification [{name: FactorGroup.name, factors: [Factor(s)]}]
-  #  6. sort array by FactorGroup.name
+  #  6. sort array by FactorGroup.id
   def index
     @factor_groups = @symptom.symptoms_factors
                              .includes(:factor, :factor_group)
@@ -18,7 +18,7 @@ class Api::V1::FactorsController < Api::V1::ABaseController
                              .inject(Hash.new{[]}) do |result, symptoms_factor|
       result[symptoms_factor.factor_group] <<= symptoms_factor
       result
-    end.map{|k,v| {name: k, factors: v}}.sort_by{|fg| fg[:name]}
+    end.map{|k,v| {name: k.name, factors: v}}.sort_by{|fg| fg[:id]}
     render_success factor_groups: @factor_groups
   end
 

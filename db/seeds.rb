@@ -29,7 +29,7 @@ Role.find_or_create_by_name(:name => 'admin')
   {:install_id => 'test-3', :first_name => 'Hannibal', :last_name => 'Lecter', :gender => 'M'}
 ].each do |u|
   user = Member.find_or_create_by_install_id(u)
-  user.roles << hcp unless user.hcp?
+  user.roles << nurse unless user.nurse?
 end
 
 EthnicGroup.find_or_create_by_name(:name=>"American Indian", :ethnicity_code=>"1", :ordinal=>1)

@@ -118,6 +118,20 @@ describe Api::V1::InvitationsController do
             end
             do_request
           end
+
+          context 'and has been invited' do
+            before do
+              @invitation = build_stubbed :invitation
+              Invitation.stub(:find_by_invited_member_id).with(@invited_member.id) { @invitation }
+            end
+
+            it_behaves_like 'success'
+
+            it 'invites the member again' do
+              @invitation.should_receive :invite_member!
+              do_request
+            end
+          end
         end
       end
     end
