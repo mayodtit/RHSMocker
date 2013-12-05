@@ -98,19 +98,22 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def user_params
-    if @user
-      params.require(:user).permit(:first_name, :last_name, :avatar, :gender, :height,
-                                   :birth_date, :phone, :blood_type, :holds_phone_in,
-                                   :diet_id, :ethnic_group_id, :deceased, :date_of_death,
-                                   :npi_number, :expertise, :city, :state, :units, :agreement_params,
-                                   :client_data)
-    else
-      params.require(:user).permit(:first_name, :last_name, :avatar, :gender, :height,
-                                   :birth_date, :phone, :blood_type, :holds_phone_in,
-                                   :diet_id, :ethnic_group_id, :deceased, :date_of_death,
-                                   :npi_number, :expertise, :city, :state, :units, :agreement_params,
-                                   :client_data, :email, :password)
-    end
+    permitted_params = common_params
+    permitted_params.merge!(params.require(:user).permit(:email, :password)) unless @user
+    permitted_params.merge!(client_data: client_data_params) if client_data_params
+    permitted_params
+  end
+
+  def common_params
+    params.require(:user).permit(:first_name, :last_name, :avatar, :gender, :height,
+                                 :birth_date, :phone, :blood_type, :holds_phone_in,
+                                 :diet_id, :ethnic_group_id, :deceased, :date_of_death,
+                                 :npi_number, :expertise, :city, :state, :units,
+                                 :agreement_params => [:user_agent, :ip_address, :ids => []])
+  end
+
+  def client_data_params
+    params.require(:user)[:client_data]
   end
 
   def secure_params
