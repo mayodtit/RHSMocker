@@ -124,6 +124,7 @@ describe Api::V1::UsersController do
 
     before do
       user.stub(:update_attributes)
+      controller.stub(:convert_legacy_parameters!)
     end
 
     it_behaves_like 'action requiring authentication'

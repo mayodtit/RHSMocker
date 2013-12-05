@@ -60,13 +60,10 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def convert_legacy_parameters!
-    params[:user] ||= {}
     if update_email_path?
-      params[:user][:current_password] ||= params[:password]
-      params[:user][:email] ||= params[:email]
+      params[:user] = {current_password: params[:password], email: params[:email]}
     elsif update_password_path?
-      params[:user][:current_password] ||= params[:current_password]
-      params[:user][:password] ||= params[:password]
+      params[:user] = {current_password: params[:current_password], password: params[:password]}
     end
   end
 
