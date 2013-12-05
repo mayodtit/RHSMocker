@@ -3,7 +3,8 @@ class ContentSerializer < ViewSerializer
 
   attributes :id, :title, :content_type, :content_updated_at, :document_id,
              :created_at, :updated_at, :content_type_display, :abstract,
-             :contentID, :contents_type, :state, :state_events
+             :contentID, :contents_type, :state, :state_events,
+             :card_actions, :fullscreen_actions
 
   delegate :show_mayo_copyright?, :show_call_option?, to: :object
   alias_method :contentID, :id
