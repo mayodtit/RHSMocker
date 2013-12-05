@@ -88,10 +88,6 @@ gem 'curb'                      # curl - used mainly for POSTing data to Google 
 gem 'minitar'
 gem 'fog'                       # cloud storage
 gem 's3_uploader'               # uploading things to, uh, s3
-
-# Used for rails_stdout_logging and rails_serve_static_assets
-gem 'rails_12factor', group: :production
-
 gem 'ri_cal'
 gem 'symbolize'
 gem 'kaminari' # pagination
