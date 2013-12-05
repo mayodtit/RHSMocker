@@ -10,4 +10,31 @@ describe Content do
   it_validates 'inclusion of', :show_checker_option
   it_validates 'inclusion of', :show_mayo_copyright
   it_validates 'uniqueness of', :document_id
+
+  describe '::random' do
+    it 'returns published content with matching content_type' do
+      content = create(:content, :published, content_type: Content::CONTENT_TYPES.first)
+      described_class.count.should == 1
+      described_class.random.should == content
+    end
+
+    it 'returns only published content' do
+      create(:content, state: :unpublished)
+      described_class.count.should == 1
+      described_class.random.should be_nil
+    end
+
+    it 'only returns content in Content::CONTENT_TYPES' do
+      content = create(:content, state: :published)
+      described_class.count.should == 1
+      Content::CONTENT_TYPES.should_not include(content.content_type)
+      described_class.random.should be_nil
+    end
+
+    it 'does not return MayoContent::TERMS_OF_SERVICE' do
+      create(:mayo_content, state: :published, document_id: MayoContent::TERMS_OF_SERVICE)
+      described_class.count.should == 1
+      described_class.random.should be_nil
+    end
+  end
 end

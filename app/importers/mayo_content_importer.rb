@@ -3,7 +3,7 @@ class MayoContentImporter < ContentImporter
     extract_required_params_from_xml!
     remove_flash_assets!
     remove_popup_media!
-    add_section_markup! unless @document_id == TERMS_OF_SERVICE
+    add_section_markup! unless @document_id == MayoContent::TERMS_OF_SERVICE
     return :failed unless has_html?
     extract_html_from_xml!
     return :failed unless has_body_content?

@@ -16,7 +16,6 @@ class ContentImporter
 
   protected
 
-  TERMS_OF_SERVICE = 'AM00021'
   NO_CALL_LIST     = %w(HT00648 AM00021 HT00022 NU00585 NU00584)
   NO_SYMPTOMS_LIST = %w(HT00648 AM00021 HT00022 NU00585 NU00584)
 
@@ -60,7 +59,7 @@ class ContentImporter
                                            :content_updated_at => content_updated_at,
                                            :show_call_option => !NO_CALL_LIST.include?(@document_id),
                                            :show_checker_option => !NO_SYMPTOMS_LIST.include?(@document_id),
-                                           :show_mayo_copyright => (@document_id != TERMS_OF_SERVICE),
+                                           :show_mayo_copyright => (@document_id != MayoContent::TERMS_OF_SERVICE),
                                            :state_event => :publish
                                          })
   end

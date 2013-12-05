@@ -56,7 +56,9 @@ class Content < ActiveRecord::Base
   end
 
   def self.random
-    published.where(:content_type => CONTENT_TYPES).first(order: rand_str)
+    published.where(:content_type => CONTENT_TYPES)
+             .where('document_id != ?', MayoContent::TERMS_OF_SERVICE)
+             .first(order: rand_str)
   end
 
   def content_type_display
