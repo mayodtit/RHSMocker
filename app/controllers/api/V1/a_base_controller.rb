@@ -1,6 +1,7 @@
 module Api
   module V1
     class ABaseController < ApplicationController
+      before_filter :force_development_error!
       before_filter :authentication_check
 
       def authentication_check
@@ -67,6 +68,23 @@ module Api
       end
 
       private
+
+      def force_development_error!
+        return unless %w(development devhosted).include? Rails.env
+        return unless params[:error]
+        case params[:error]
+        when '401'
+          render_failure({reason: 'Unauthorized'}, 401)
+        when '403'
+          render_failure({reason: 'Forbidden'}, 403)
+        when '404'
+          render_failure({reason: 'Not Found'}, 404)
+        when '422'
+          render_failure({reason: 'Unprocessable Entity'}, 422)
+        else
+          render_failure({reason: 'Internal Server Error'}, 500)
+        end
+      end
 
       def resource_plural_symbol
         controller_name.pluralize.to_sym
