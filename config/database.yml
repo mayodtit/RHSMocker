@@ -1,6 +1,6 @@
 default: &default
-  adapter: postgresql
-  encoding: unicode
+  adapter: mysql2
+  encoding: utf8
   pool: 5
 
 development:
@@ -17,17 +17,3 @@ test:
   password: password
   host: localhost
   min_messages: WARNING
-
-# production:
-#   adapter: pg
-#   database: db/production.sqlite3
-#   pool: 5
-#   timeout: 5000
-
-devhosted:
-  adapter: mysql2
-  encoding: utf8
-  database: rhs_development
-  username: rhs_development
-  password: password
-  host: localhost

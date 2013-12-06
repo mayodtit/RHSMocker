@@ -258,3 +258,8 @@ devhosted:
   <<: *default_settings
   monitor_mode: true
   app_name: RHSMocker (devhosted)
+
+qa:
+  <<: *default_settings
+  monitor_mode: true
+  app_name: RHSMocker (qa)

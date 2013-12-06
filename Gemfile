@@ -3,18 +3,16 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.14' # Caltrain
 gem 'nokogiri'        # content parsing
-gem 'pg'              # This needs to come after Nokogiri https://github.com/sparklemotion/nokogiri/issues/742
 gem 'newrelic_rpm'    # Monitoring
+
+# TODO : change this to just mysql after the production migration
+gem 'pg', group: :staging
+gem 'mysql2', group: [:development, :qa, :production, :test]
 
 #installing therubyracer, less-rails, and twitter-bootstrap-rails
 gem 'therubyracer'
 gem 'less-rails' #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
-
-#databse
-group :devhosted, :qa do
-  gem 'mysql2'
-end
 
 # Site monitoring
 gem 'fitter-happier'
@@ -93,10 +91,6 @@ gem 'curb'                      # curl - used mainly for POSTing data to Google 
 gem 'minitar'
 gem 'fog'                       # cloud storage
 gem 's3_uploader'               # uploading things to, uh, s3
-
-# Used for rails_stdout_logging and rails_serve_static_assets
-gem 'rails_12factor', group: :production
-
 gem 'ri_cal'
 gem 'symbolize'
 gem 'kaminari' # pagination
