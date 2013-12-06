@@ -28,7 +28,7 @@ RHSMocker::Application.routes.draw do
       resources :diseases, :only => :index, :controller => :conditions
       resources :ethnic_groups, :only => :index
       resources :locations, :only => :create
-      resources :members, only: :index
+      resources :members, only: [:index, :show, :update]
       resources :messages, :only => :show do
         post :mark_read, :on => :collection
         post :save, :on => :collection

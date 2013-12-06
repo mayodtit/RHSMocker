@@ -1,11 +1,22 @@
 class Api::V1::MembersController < Api::V1::ABaseController
-  before_filter :load_members!
+  before_filter :load_members!, only: :index
+  before_filter :load_member!, only: [:show, :update]
 
   def index
     render_success(users: @users,
                    page: page,
                    per: per,
                    total_count: @users.total_count)
+  end
+
+  def show
+    authorize! :show, @member
+    show_resource @member
+  end
+
+  def update
+    authorize! :update, @member
+    update_resource @member, params[:member]
   end
 
   private
@@ -23,5 +34,9 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def per
     params[:per] || 50
+  end
+
+  def load_member!
+    @member = Member.find(params[:id])
   end
 end
