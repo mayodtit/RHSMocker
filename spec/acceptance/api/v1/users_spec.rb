@@ -159,6 +159,10 @@ resource 'Users' do
       let(:raw_post) { params.to_json }
       let(:avatar) { base64_test_image }
 
+      before do
+        Member.any_instance.stub(:update_cards_for_questions!)
+      end
+
       example_request "[PUT] Update user" do
         explanation "Update attributes for currently logged in user (as identified by auth_token). Can pass additional user fields, such as first_name, gender, birth_date, etc.  Returns the updated user"
         status.should == 200
