@@ -531,7 +531,7 @@ muscle_cramps_or_twitching_factor         = Factor.find_or_create_by_name(:name=
 muscle_weakness_factor                    = Factor.find_or_create_by_name(:name=>"Muscle weakness")
 muscle_weakness_hands_legs_factor         = Factor.find_or_create_by_name(:name=>"Muscle weakness in hands, feet or legs")
 mucus_in_stools_factor                    = Factor.find_or_create_by_name(:name=>"Mucus in stools")
-menstrual_cycle_factor                    = Factor.find_or_create_by_name(:name=>"Menstrual cycle")
+menstrual_cycle_factor                    = Factor.upsert_attributes({:name=>"Menstrual cycle"}, {:gender => 'F'})
 narrow_stools_factor                      = Factor.find_or_create_by_name(:name=>"Narrow stools")
 nausea_factor                             = Factor.find_or_create_by_name(:name=>"Nausea")
 nausea_or_vomiting_factor                 = Factor.find_or_create_by_name(:name=>"Nausea or vomiting")

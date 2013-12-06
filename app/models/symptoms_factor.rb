@@ -15,6 +15,7 @@ class SymptomsFactor < ActiveRecord::Base
     {
       id: id,
       name: factor.name,
+      gender: factor.gender,
       doctor_call_worthy: doctor_call_worthy,
       er_worthy: er_worthy
     }
