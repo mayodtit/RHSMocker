@@ -9,6 +9,7 @@ describe Content do
   it_validates 'inclusion of', :show_call_option
   it_validates 'inclusion of', :show_checker_option
   it_validates 'inclusion of', :show_mayo_copyright
+  it_validates 'inclusion of', :sensitive
   it_validates 'uniqueness of', :document_id
 
   describe '::random' do
@@ -16,6 +17,12 @@ describe Content do
       content = create(:content, :published, content_type: Content::CONTENT_TYPES.first)
       described_class.count.should == 1
       described_class.random.should == content
+    end
+
+    it 'returns only non-sensitive content' do
+      content = create(:content, :published, content_type: Content::CONTENT_TYPES.first, sensitive: true)
+      described_class.count.should == 1
+      described_class.random.should be_nil
     end
 
     it 'returns only published content' do
