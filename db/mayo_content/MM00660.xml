@@ -1,0 +1,89 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00660
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/antidepressants/MM00660
+		</OriginalURL>
+		<UpdateDate>
+			2013-06-13
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="2438" Title="Depression" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FF2DC04A-2A5D-9994-E5556C1E4621EA9B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		Antidepressants &amp;mdash; How they help relieve depression
+	</Title>
+	<Abstract>
+		Watch this video to see how certain types of antidepressant medications work.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00660_ssrifunction_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+The human brain has about 10 billion brain cells. Each brain cell can have as many as 25,000 connections with other cells. Messages, which direct many functions throughout your body, travel through your brain from cell to cell, through these connections. 
+&lt;/p&gt;
+&lt;p&gt;
+For these signals to move from a sending cell to a receiving cell, they must cross a small gap called the synapse. Chemicals called neurotransmitters, located at the ends of the sending cells, help the signal cross this gap. Serotonin is one such neurotransmitter &amp;mdash; a very important one that helps regulate mood, emotions and other body functions. 
+&lt;/p&gt;
+&lt;p&gt;
+After the serotonin has done its job, it&apos;s reabsorbed by the sending cell and is soon back in position to help with the next nerve signal. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have depression, you may have a serotonin imbalance. Your overall level of serotonin may be low, and some of it may be reabsorbed too soon. As a result, communication between the brain cells is impaired. 
+&lt;/p&gt;
+&lt;p&gt;
+An SSRI, or selective serotonin reuptake inhibitor, is a medication designed to help increase the amount of serotonin in the synapse by blocking its reabsorption. 
+&lt;/p&gt;
+&lt;p&gt;
+As serotonin builds up, normal communication between cells can resume and your symptoms of depression may improve.
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00660_ssrifunction.jpg" width="60" />
+</Video>

@@ -11,4 +11,8 @@ class Allergy < ActiveRecord::Base
   searchable do
     text :name
   end
+
+  def self.none
+    find_by_snomed_code('160244002')
+  end
 end

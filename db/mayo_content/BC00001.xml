@@ -1,0 +1,221 @@
+<SlideShow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SlideShow.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			SlideShow
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			BC00001
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/breast-cancer-early-stage/BC00001
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-19
+		</UpdateDate>
+		<PublicationDate>
+			2003-11-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="3524" Title="Adult">
+					<Keyword MCVID="3625" Title="Women&apos;s health">
+						<Keyword MCVID="3898" Title="Breast health" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8C3143E3-6182-49D7-9F2137E9145A66CE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				breast
+			</MetaKeyword>
+			<MetaKeyword>
+				lobe
+			</MetaKeyword>
+			<MetaKeyword>
+				lobule
+			</MetaKeyword>
+			<MetaKeyword>
+				bulb
+			</MetaKeyword>
+			<MetaKeyword>
+				breast milk
+			</MetaKeyword>
+			<MetaKeyword>
+				duct
+			</MetaKeyword>
+			<MetaKeyword>
+				breast anatomy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Slide show: Female breast anatomy
+	</Title>
+	<Abstract>
+		Female breast anatomy &amp;mdash; Take this visual tour to understand the inner workings of the breast.
+	</Abstract>
+	<Slides>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+The structure of the female breast is complex &amp;mdash; including fat and connective tissue, as well as lobes, lobules, ducts and lymph nodes. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Female breast anatomy
+			</Title>
+			<ImageAltText>
+				Illustration showing breast anatomy
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/hdg22_lobe_lobule.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Each breast has a number of sections (lobules) that branch out from the nipple. Each lobule holds tiny, hollow sacs (alveoli). The lobules are linked by a network of thin tubes (ducts). If you&apos;re breast-feeding, ducts carry milk from the alveoli toward the dark area of skin in the center of the breast (areola). From the areola, the ducts join together into larger ducts ending at the nipple. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Lobules and ducts
+			</Title>
+			<ImageAltText>
+				Illustration showing lobules, ducts and other breast structures
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/hdg22_lobes_nipple.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Spaces around the lobules and ducts are filled with fat, ligaments and connective tissue. The amount of fat in your breasts largely determines their size. The actual milk-producing structures are nearly the same in all women. Female breast tissue is also sensitive to cyclic changes in hormone levels. Younger women might have denser and less fatty breast tissue than do older women who&apos;ve gone through menopause. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Fat, ligaments and connective tissue
+			</Title>
+			<ImageAltText>
+				Illustration showing fat, ligaments and connective tissue in the breast
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/hdg22_stroma.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+The breast has no muscle tissue. Muscles lie underneath the breasts, however, separating them from your ribs. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Muscles
+			</Title>
+			<ImageAltText>
+				Illustration showing muscle underneath the breast
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/hdg22_muscle.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Oxygen and nutrients travel to breast tissue through the blood in your arteries and capillaries &amp;mdash; thin, fragile blood vessels. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Arteries and capillaries
+			</Title>
+			<ImageAltText>
+				Illustration of arteries and capillaries in the breast
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/hdg22_arteries.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+The lymphatic system is a network of lymph nodes and lymph ducts that helps fight infection. Lymph nodes &amp;mdash; found under the armpit, above the collarbone, behind the breastbone and in other parts of the body &amp;mdash; trap harmful substances that may be in the lymphatic system and safely drain them from the body. 
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Lymph nodes and lymph ducts
+			</Title>
+			<ImageAltText>
+				Illustration of lymph nodes and lymph ducts in the breast
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/hdg22_lymph.jpg
+			</URI>
+		</Slide>
+	</Slides>
+</SlideShow>

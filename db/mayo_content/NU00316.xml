@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00316
 		</OriginalURL>
 		<UpdateDate>
-			2006-06-01
+			2013-08-17
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -38,40 +38,42 @@
 			0
 		</HasFlash>
 		<Source>
-			This recipe is one of 150 recipes collected in &lt;em&gt;The New Mayo Clinic Cookbook&lt;/em&gt;, published by Mayo Clinic Health Information and Oxmoor House, and winner of the 2005 James Beard award.
+			This recipe is one of 150 recipes collected in &quot;The New Mayo Clinic Cookbook,&quot; published by Mayo Clinic Health Information and Oxmoor House, and winner of the 2005 James Beard award.
 		</Source>
 		<TermsOfUse DocID="AM00021" />
 	</Meta>
 	<Title>
 		Recipe: Green beans with red pepper and garlic
 	</Title>
-	<Abstract />
+	<Abstract>
+		This colorful green bean side dish is a healthy addition to any meal. Each serving has only 54 calories and 2 grams of fat.
+	</Abstract>
 	<ServingInfo Label="Serves">
 		6
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
 		&lt;p&gt;
-&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Green beans, also known as string beans or snap beans, are good sources of fiber and vitamin C. To preserve their fresh flavor and texture, blanch (parboil) the beans, immerse them in ice water to set their color, then saute briefly.
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Green beans, also known as string beans or snap beans, are good sources of fiber and vitamin C. To preserve their fresh flavor and texture, blanch (parboil) the beans, immerse them in ice water to set their color, then saute briefly. 
 &lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
 		&lt;p&gt;
-Cut the beans into 2-inch pieces. Bring a large saucepan 3/4 full of water to a boil. Add the beans and cook until they turn bright green and are tender-crisp, 1 to 3 minutes. Drain the beans, then plunge them into a bowl of ice water to stop the cooking. Drain again and set aside.
+Cut the beans into 2-inch pieces. Bring a large saucepan 3/4 full of water to a boil. Add the beans and cook until they turn bright green and are tender-crisp, 1 to 3 minutes. Drain the beans, then plunge them into a bowl of ice water to stop the cooking. Drain again and set aside. 
 &lt;/p&gt;
 &lt;p&gt;
-In a large frying pan, heat the olive oil over medium heat. Add the bell pepper and toss and stir for about 1 minute. Add the beans and saute for 1 minute longer. Add the chili paste and garlic and stir for 1 minute. The beans will be tender and bright green. Drizzle with the sesame oil and season with the salt and pepper. Serve immediately.
+In a large frying pan, heat the olive oil over medium heat. Add the bell pepper and toss and stir for about 1 minute. Add the beans and saute for 1 minute longer. Add the chili paste and garlic and stir for 1 minute. The beans will be tender and bright green. Drizzle with the sesame oil and season with the salt and pepper. Serve immediately. 
 &lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
 		&lt;ul&gt;
 	&lt;li&gt;1 pound green beans, stems trimmed&lt;/li&gt;
 	&lt;li&gt;2 teaspoons olive oil&lt;/li&gt;
-	&lt;li&gt;1 red bell pepper (capsicum), seeded and julienne&lt;/li&gt;
+	&lt;li&gt;1 red bell pepper, seeded and cut into thin slices&lt;/li&gt;
 	&lt;li&gt;1/2 teaspoon chili paste or red pepper flakes&lt;/li&gt;
 	&lt;li&gt;1 clove garlic, finely chopped&lt;/li&gt;
 	&lt;li&gt;1 teaspoon sesame oil&lt;/li&gt;
 	&lt;li&gt;1/2 teaspoon salt&lt;/li&gt;
-	&lt;li&gt;1/4 teaspoon freshly ground black pepper&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon freshly ground black pepper &lt;/li&gt;
 &lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
@@ -111,7 +113,7 @@ In a large frying pan, heat the olive oil over medium heat. Add the bell pepper 
 		</HWP>
 		<NutrientAnalysis Label="Nutritional Analysis per serving">
 			<Calories Label="Calories">
-				50
+				54
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
 				7 g
@@ -120,7 +122,7 @@ In a large frying pan, heat the olive oil over medium heat. Add the bell pepper 
 				0 mg
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
-				3 g
+				2 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
 				1 g
@@ -131,15 +133,21 @@ In a large frying pan, heat the olive oil over medium heat. Add the bell pepper 
 			<Saturatedfat Label="Saturated fat">
 				&lt;1 g
 			</Saturatedfat>
-			<Servingsize Label="Serving size" />
+			<Servingsize Label="Serving size">
+				About 3/4 cup
+			</Servingsize>
 			<Sodium Label="Sodium">
-				201 mg
+				202 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
 			<TotalFat Label="Total fat">
 				2 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>
@@ -154,6 +162,9 @@ In a large frying pan, heat the olive oil over medium heat. Add the bell pepper 
 		</Category>
 		<Category CategoryLabel="Special diets">
 			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Beans and legumes
 		</Category>
 		<Category CategoryLabel="Course">
 			Side dishes
@@ -172,9 +183,6 @@ In a large frying pan, heat the olive oil over medium heat. Add the bell pepper 
 		</Category>
 		<Category CategoryLabel="Main ingredient">
 			Vegetables
-		</Category>
-		<Category CategoryLabel="Meal">
-			Lunch
 		</Category>
 		<Category CategoryLabel="Special diets">
 			Low-fat

@@ -3,17 +3,23 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.0.0'  # Caltrain
 gem 'nokogiri'        # content parsing
-gem 'pg'              # This needs to come after Nokogiri https://github.com/sparklemotion/nokogiri/issues/742
 gem 'newrelic_rpm'    # Monitoring
 
 # Temporarily using this as a bridge for migrating to Rails 4.
 # There's a Pivotal chore to migrate this to strong_params (the new convention in Rails 4)
 gem 'protected_attributes'
 
+# TODO : change this to just mysql after the production migration
+gem 'pg', group: :staging
+gem 'mysql2', group: [:development, :qa, :production, :test]
+
 #installing therubyracer, less-rails, and twitter-bootstrap-rails
 gem 'therubyracer'
 gem 'less-rails' #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
+# Site monitoring
+gem 'fitter-happier'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -39,6 +45,13 @@ group :development, :test do
   gem "zeus-parallel_tests"
   gem 'factory_girl_rails'
   gem 'guard-rspec'
+  gem 'debugger', require: false
+  # gem 'ruby-debug-base19x', '>= 0.11.30.pre15'
+  # gem 'ruby-debug-ide', '>= 0.4.21.pre1'
+end
+
+group :development do
+  gem 'capistrano', '~> 2.15'
 end
 
 gem 'codeclimate-test-reporter', group: :test, require: nil    # test coverage for Code Climate
@@ -52,9 +65,6 @@ gem 'factual-api'
 gem 'sunspot_rails'
 gem 'sunspot_solr'
 gem 'progress_bar' #for indexing
-
-#Remove before MVP
-gem 'lorem-ipsum-me'
 
 gem "rails_config"
 gem 'sorcery'
@@ -72,11 +82,11 @@ gem "active_model_serializers"
 # gem 'capistrano'
 
 gem 'httparty'
-gem 'debugger'
 gem 'awesome_print'
 gem 'titleize'
 gem 'haml'
 gem 'state_machine'
+gem 'daemons'	# To run backgound jobs
 gem 'delayed_job_active_record' # background jobs
 gem 'figaro'
 gem 'carrierwave'               # image storage
@@ -85,10 +95,8 @@ gem 'curb'                      # curl - used mainly for POSTing data to Google 
 gem 'minitar'
 gem 'fog'                       # cloud storage
 gem 's3_uploader'               # uploading things to, uh, s3
-
-# Used for rails_stdout_logging and rails_serve_static_assets
-gem 'rails_12factor', group: :production
-
 gem 'ri_cal'
 gem 'symbolize'
-gem 'draper' # decorator pattern for models
+gem 'kaminari' # pagination
+gem 'strong_parameters'
+gem 'timecop'

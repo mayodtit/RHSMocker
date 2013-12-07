@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00362
 		</OriginalURL>
 		<UpdateDate>
-			2007-05-01
+			2013-05-01
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -33,6 +33,18 @@
 			<MetaKeyword>
 				mayocliniccookbook
 			</MetaKeyword>
+			<MetaKeyword>
+				avocados
+			</MetaKeyword>
+			<MetaKeyword>
+				avocado dip
+			</MetaKeyword>
+			<MetaKeyword>
+				avocado recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				guacamole
+			</MetaKeyword>
 		</MetaKeywords>
 		<HasFlash>
 			0
@@ -43,21 +55,29 @@
 	<Title>
 		Recipe: Avocado dip
 	</Title>
-	<Abstract />
+	<Abstract>
+		Avocado dip &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
 	<ServingInfo Label="Serves">
-		6
+		4
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
-		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Avocado, also known as the alligator pear, is high in monounsaturated fat and a good source of lutein, an antioxidant that may protect vision. This mixture is a great dressing for mixed green salads and is a good topping for fish or chicken.&lt;/p&gt;
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Avocado, also known as the alligator pear, is high in monounsaturated fat and a good source of lutein, an antioxidant that may protect vision. This mixture is a great dressing for mixed green salads and is a good topping for fish or chicken. 
+&lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
-		&lt;p&gt;In a small bowl, combine the sour cream, onion, hot sauce and avocado. Mix to blend the ingredients evenly. Serve with baked tortilla chips or sliced vegetables.&lt;/p&gt;
+		&lt;p&gt;
+In a small bowl, combine sour cream, onion, hot sauce and avocado. Mix to blend the ingredients evenly. Serve with baked tortilla chips or sliced vegetables. 
+&lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
-		&lt;p&gt;1/2 cup fat-free sour cream&lt;br /&gt;
-2 teaspoons chopped onion&lt;br /&gt;
-1/8 teaspoon hot sauce&lt;br /&gt;
-1 ripe avocado, peeled, pitted and mashed&lt;/p&gt;
+		&lt;ul&gt;
+	&lt;li&gt;1/2 cup fat-free sour cream&lt;/li&gt;
+	&lt;li&gt;2 teaspoons chopped onion&lt;/li&gt;
+	&lt;li&gt;1/8 teaspoon hot sauce&lt;/li&gt;
+	&lt;li&gt;1 ripe avocado, peeled, pitted and mashed &lt;/li&gt;
+&lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
@@ -71,7 +91,7 @@
 			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
 			<Sweets Label="Sweets" />
 			<Vegetables Label="Vegetables">
-				1
+				2
 			</Vegetables>
 		</Dash>
 		<Diabetes Label="Diabetes Meal Plan Exchanges">
@@ -83,7 +103,7 @@
 			<Meat Label="Meat and meat substitutes" />
 			<Milk Label="Milk and milk products" />
 			<NonStarchyVegetables Label="Nonstarchy vegetables">
-				1
+				2
 			</NonStarchyVegetables>
 			<Starches Label="Starches" />
 			<Sweets Label="Sweets, desserts and other carbohydrates" />
@@ -97,18 +117,18 @@
 			<Protein_Dairy Label="Protein and dairy" />
 			<Sweets Label="Sweets" />
 			<Vegetables Label="Vegetables">
-				1
+				2
 			</Vegetables>
 		</HWP>
 		<NutrientAnalysis Label="Nutritional Analysis per serving">
 			<Calories Label="Calories">
-				65
+				85
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
-				4 g
+				8 g
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
-				0 mg
+				3 mg
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
 				2 g
@@ -126,21 +146,31 @@
 				1/4 cup
 			</Servingsize>
 			<Sodium Label="Sodium">
-				27 mg
+				51 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
 			<TotalFat Label="Total fat">
 				5 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>
 		<Category CategoryLabel="Special diets">
 			Meatless
 		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
 		<Category CategoryLabel="Preparation method">
 			No cook
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
 		</Category>
 		<Category CategoryLabel="Special diets">
 			Diabetes meal plan
@@ -160,14 +190,17 @@
 		<Category CategoryLabel="Special diets">
 			Weight management
 		</Category>
-		<Category CategoryLabel="Number of servings">
-			Serves 6
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
 		</Category>
 		<Category CategoryLabel="Course">
 			Sauces and dressings
 		</Category>
 		<Category CategoryLabel="Special diets">
 			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
 		</Category>
 	</Categorization>
 </Recipe>

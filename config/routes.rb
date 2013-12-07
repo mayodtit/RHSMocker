@@ -1,11 +1,16 @@
 RHSMocker::Application.routes.draw do
+  root to: 'home#index'
 
   namespace :api do
     namespace :v1 do
       resources :allergies, :only => :index
       resources :association_types, :only => :index
       resources :contents, :only => [:index, :show] do
+        resources :references, only: [:index, :create, :destroy], controller: 'content_references'
         post :status, :on => :member
+        post :like
+        post :dislike
+        post :remove_like
       end
       resources :diets, :only => :index
       resources :cards, :only => [:show, :update]
@@ -13,33 +18,45 @@ RHSMocker::Application.routes.draw do
       resources :consults, :only => [:index, :show, :create] do
         resources :messages, :only => [:index, :show, :create]
         resources :scheduled_phone_calls, :except => [:new, :edit]
-        resources :phone_calls, :only => [:index, :show, :create]
+        resources :phone_calls, only: [:index, :show, :create], controller: 'consult_phone_calls'
         resources :users, only: :index, controller: 'consult_users'
       end
+      resources :custom_cards, only: [:index, :show, :create, :update]
+      resources :custom_contents, only: [:index, :show, :create, :update]
+      resources :phone_calls, only: [:index, :show, :update]
+      resources :dashboard, only: :index
       resources :diseases, :only => :index, :controller => :conditions
       resources :encounters, :only => [:index, :show, :create], :controller => 'consults' do
         resources :messages, :only => [:index, :show, :create]
       end
       resources :ethnic_groups, :only => :index
       resources :locations, :only => :create
+      resources :members, only: :index
       resources :messages, :only => :show do
         post :mark_read, :on => :collection
         post :save, :on => :collection
         post :dismiss, :on => :collection
       end
-      post :password_resets, :controller => :users, :action => :reset_password # TODO - deprecated!
+      resources :offerings, :only => :index
+      post :password_resets, to: 'reset_password#create' # TODO - deprecated!
+      resources :phone_call_summaries, :only => :show
+      resources :ping, :only => :index
       resources :plans, :only => [:index, :show]
+      resources :programs, only: [:index, :show, :create, :update] do
+        resources :resources, only: [:index, :create, :update, :destroy], controller: 'program_resources'
+      end
       resources :remote_events, :only => :create
+      resources :reset_password, only: [:create, :show, :update]
       resources :side_effects, :only => :index
       resources :symptoms, :only => :index
       resources :treatments, :only => :index
-      resources :users, :only => [:index, :update] do
+      resources :users, only: [:index, :show, :create, :update] do
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
         resources :associations, :except => [:new, :edit]
         resources :blood_pressures, only: [:index, :create, :destroy]
         resources :credit_cards, :only => :create
-        resources :credits, :only => [:index, :show] do
-          get 'summary', :on => :collection
+        resources :credits, :only => [:index, :show, :create] do
+          get 'available', :on => :collection
         end
         resources :conditions, except: [:new, :edit], controller: 'user_conditions' do
           resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do
@@ -52,12 +69,11 @@ RHSMocker::Application.routes.draw do
           end
         end
         post 'invite', :on => :member
-        resources :cards, :only => [:index, :show, :update] do
+        resources :cards, :only => [:create, :show, :update] do
           get :inbox, :on => :collection
           get :timeline, :on => :collection
         end
-        get 'keywords', :on => :member
-        post :reset_password, :on => :collection
+        put :secure_update, on: :member
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
           resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do
@@ -69,29 +85,24 @@ RHSMocker::Application.routes.draw do
         end
         resources :weights, :only => [:index, :create, :destroy]
       end
+      resources :invitations, :only => [:create, :show, :update]
 
-      #account management
+      #account management - DEPRECATED
       post "signup" => "users#create", :as=>"signup"
       post "login" => "sessions#create", :as=>"login"
       delete "logout" => "sessions#destroy", :as=>"logout"
       put "user" => "users#update"
       put "user/:id" => "users#update"
-      post "user/update_password" => "users#update_password", :as=>"update_password"
-      post "user/update_email" => "users#update_email", :as=>"update_email"
-
-      #reading list
-      get "user_readings" => "user_readings#index", :as=>"user_readings_index"
-      get "inbox(/:page)(/:per_page)" => "user_readings#inbox", :as=>"inbox"
-      post "contents/mark_read" => "user_readings#mark_read", :as=>"contents_mark_read"
-      post "contents/dismiss" => "user_readings#dismiss", :as=>"contents_dismiss"
-      post "contents/save" => "user_readings#save", :as=>"contents_read_later"
-      post "contents/reset" => "user_readings#reset", :as=>"contents_reset"
+      post "user/update_password" => "users#secure_update", :as=>"update_password"
+      post "user/update_email" => "users#secure_update", :as=>"update_email"
+      get 'user/' => 'users#show'
 
       get "factors/:id" => "factors#index"
       post "symptoms/check" => "factors#check"
     end
   end
 
+  resources :cards, :only => :show # TODO: used for debugging - remove route and controller before app becomes public
   resources :contents, :only => [:index, :show] do
     get ":user_reading_id", :to => :show, :on => :member
   end
@@ -99,14 +110,15 @@ RHSMocker::Application.routes.draw do
     get :complete, :on => :collection
     get :signup, :on => :collection
   end
+  resources :mayo_vocabularies, only: :index
   resources :nurseline_records, :only => :create
+  resources :questions, :only => :show
   resources :users, :only => [] do
     get 'reset_password/:token', :to => 'users#reset_password', :on => :collection, :as => 'reset_password'
     put 'reset_password', :to => 'users#reset_password_update', :on => :collection, :as => 'reset_password_update'
   end
 
   get "/messages" => "messages#index", :as=>"messages_index"
-  root :to => "home#index"
   get "/logout" => "sessions#destroy", :as=>"logout"
   get '/login' => "sessions#new", :as=>"login"
   resources :sessions

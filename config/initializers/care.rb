@@ -1,0 +1,2 @@
+CARE_DOMAIN = ENV['CARE_DOMAIN'] || 'http://localhost:4567'
+CARE_URL_PREFIX = "#{CARE_DOMAIN}/#"

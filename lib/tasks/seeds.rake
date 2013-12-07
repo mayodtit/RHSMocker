@@ -22,25 +22,25 @@ namespace :seeds do
       u.user_readings.create(priority: 50, content: Content.find_by_title('Which of these do you eat?'))
       u.user_readings.create(priority: 49, content: Content.find_by_title('Enter your blood pressure'))
       u.user_readings.create(priority: 48, content: Content.find_by_title('Enter your weight'))
-      u.user_readings.create(priority: 47, content: Content.find_by_mayo_doc_id('AN00792'))
-      u.user_readings.create(priority: 46, content: Content.find_by_mayo_doc_id('AZ00009'))
-      u.user_readings.create(priority: 45, content: Content.find_by_mayo_doc_id('MM00785'))
-      u.user_readings.create(priority: 44, content: Content.find_by_mayo_doc_id('NU00284'))
-      u.user_readings.create(priority: 43, content: Content.find_by_mayo_doc_id('DS00319'))
-      u.user_readings.create(priority: 42, content: Content.find_by_mayo_doc_id('MM00785'))
-      u.user_readings.create(priority: 41, content: Content.find_by_mayo_doc_id('HB00087'))
-      u.user_readings.create(priority: 40, content: Content.find_by_mayo_doc_id('AA00045'))
-      u.user_readings.create(priority: 39, content: Content.find_by_mayo_doc_id('HI00092'))
-      u.user_readings.create(priority: 38, content: Content.find_by_mayo_doc_id('DS00430'))
-      u.user_readings.create(priority: 37, content: Content.find_by_mayo_doc_id('MY02383'), read_date: 3.days.ago, save_date: 3.days.ago, save_count: 1)
-      u.user_readings.create(priority: 36, content: Content.find_by_mayo_doc_id('HI00021'), read_date: 3.days.ago, save_date: 3.days.ago, save_count: 1)
-      u.user_readings.create(priority: 35, content: Content.find_by_mayo_doc_id('MM00767'), read_date: 2.days.ago, save_date: 2.days.ago, save_count: 1)
-      u.user_readings.create(priority: 34, content: Content.find_by_mayo_doc_id('MC00013'))
-      u.user_readings.create(priority: 33, content: Content.find_by_mayo_doc_id('HI00062'), read_date: 1.day.ago, save_date: 1.day.ago, save_count: 1)
-      u.user_readings.create(priority: 32, content: Content.find_by_mayo_doc_id('AN01109'))
-      u.user_readings.create(priority: 31, content: Content.find_by_mayo_doc_id('MY02060'), read_date: 1.day.ago, save_date: 1.day.ago, save_count: 1)
-      u.user_readings.create(priority: 30, content: Content.find_by_mayo_doc_id('AN01805'))
-      u.user_readings.create(priority: 29, content: Content.find_by_mayo_doc_id('MY02176'), read_date: 1.day.ago, save_date: 1.day.ago, save_count: 1)
+      u.user_readings.create(priority: 47, content: Content.find_by_document_id('AN00792'))
+      u.user_readings.create(priority: 46, content: Content.find_by_document_id('AZ00009'))
+      u.user_readings.create(priority: 45, content: Content.find_by_document_id('MM00785'))
+      u.user_readings.create(priority: 44, content: Content.find_by_document_id('NU00284'))
+      u.user_readings.create(priority: 43, content: Content.find_by_document_id('DS00319'))
+      u.user_readings.create(priority: 42, content: Content.find_by_document_id('MM00785'))
+      u.user_readings.create(priority: 41, content: Content.find_by_document_id('HB00087'))
+      u.user_readings.create(priority: 40, content: Content.find_by_document_id('AA00045'))
+      u.user_readings.create(priority: 39, content: Content.find_by_document_id('HI00092'))
+      u.user_readings.create(priority: 38, content: Content.find_by_document_id('DS00430'))
+      u.user_readings.create(priority: 37, content: Content.find_by_document_id('MY02383'), read_date: 3.days.ago, save_date: 3.days.ago, save_count: 1)
+      u.user_readings.create(priority: 36, content: Content.find_by_document_id('HI00021'), read_date: 3.days.ago, save_date: 3.days.ago, save_count: 1)
+      u.user_readings.create(priority: 35, content: Content.find_by_document_id('MM00767'), read_date: 2.days.ago, save_date: 2.days.ago, save_count: 1)
+      u.user_readings.create(priority: 34, content: Content.find_by_document_id('MC00013'))
+      u.user_readings.create(priority: 33, content: Content.find_by_document_id('HI00062'), read_date: 1.day.ago, save_date: 1.day.ago, save_count: 1)
+      u.user_readings.create(priority: 32, content: Content.find_by_document_id('AN01109'))
+      u.user_readings.create(priority: 31, content: Content.find_by_document_id('MY02060'), read_date: 1.day.ago, save_date: 1.day.ago, save_count: 1)
+      u.user_readings.create(priority: 30, content: Content.find_by_document_id('AN01805'))
+      u.user_readings.create(priority: 29, content: Content.find_by_document_id('MY02176'), read_date: 1.day.ago, save_date: 1.day.ago, save_count: 1)
 
       u.user_allergies.destroy_all
       u.user_allergies.create(:allergy_id => 60)
@@ -112,6 +112,245 @@ namespace :seeds do
                                        :doctor_id => d.id,
                                        :prescribed_by_doctor => true,
                                        :start_date => Date.parse('22/6/2013'))
+    end
+  end
+
+  task :care => :environment do
+    BOOL_SET = [true, true, false]
+    LAST_NAMES = ['Smith', 'Henry', 'Johnson', 'Patel', 'Chen', 'Nightingale', 'Richards', 'Shah', 'Singh', 'Rivera', 'Lin']
+    GENDERS = ['male', 'female']
+    PHONE_NUMBERS = ['408-555-1212', '415-555-0100', '510-555-7236']
+
+    def time_rand from = Time.parse('1/1/1930'), to = Time.parse('1/1/1995')
+      Time.at(from + rand * (to.to_f - from.to_f))
+    end
+
+    puts 'Creating members along with a phone call...'
+    %w(joey@example.com suzy@example.com geoff@example.com jackie@example.com peter@example.com tarsem@example.com ruchi@example.com).each do |email|
+      m = Member.find_or_create_by_email!(
+        email: email,
+        agreement_params: {
+          ids: Agreement.active.pluck(:id),
+          ip_address: '255.255.255.255',
+          user_agent: 'seeds'
+        }
+      )
+
+      attrs = {
+        password: 'careportal',
+        password_confirmation: 'careportal'
+      }
+
+      if BOOL_SET.sample
+        attrs[:first_name] = email[/[^@]+/].capitalize
+      else
+        attrs[:first_name] = nil
+      end
+
+      if BOOL_SET.sample
+        attrs[:last_name] = LAST_NAMES.sample
+      else
+        attrs[:last_name] = nil
+      end
+
+      if BOOL_SET.sample
+        attrs[:birth_date] = time_rand
+      else
+        attrs[:birth_date] = nil
+      end
+
+      if BOOL_SET.sample
+        attrs[:gender] = GENDERS.sample
+      else
+        attrs[:gender] = nil
+      end
+
+      m.update_attributes! attrs
+
+      origin_phone_number = nil
+      if BOOL_SET.sample
+        origin_phone_number = PHONE_NUMBERS.sample
+      end
+
+      # Create a call
+      c = Consult.create!(
+        title: 'Hip hurting',
+        status: 'open',
+        priority: 'low',
+        description: 'My hip hurts really badly.',
+        initiator_id: m.id,
+        subject_id: m.id,
+        add_user: m,
+        phone_call: {
+          message: nil,
+          destination_phone_number: '855-234-5678',
+          origin_phone_number: origin_phone_number
+        }
+      )
+    end
+
+    puts 'Creating members, a family member, and a call about that family member...'
+    %w(parent@example.com child@example.com sibling@example.com caretaker@example.com).each do |email|
+      m = Member.find_or_create_by_email!(
+        email: email,
+        agreement_params: {
+          ids: Agreement.active.pluck(:id),
+          ip_address: '255.255.255.255',
+          user_agent: 'seeds'
+        }
+      )
+
+      attrs = {
+        password: 'careportal',
+        password_confirmation: 'careportal'
+      }
+
+      if BOOL_SET.sample
+        attrs[:first_name] = email[/[^@]+/].capitalize
+      else
+        attrs[:first_name] = nil
+      end
+
+      if BOOL_SET.sample
+        attrs[:last_name] = LAST_NAMES.sample
+      else
+        attrs[:last_name] = nil
+      end
+
+      if BOOL_SET.sample
+        attrs[:birth_date] = time_rand
+      else
+        attrs[:birth_date] = nil
+      end
+
+      if BOOL_SET.sample
+        attrs[:gender] = GENDERS.sample
+      else
+        attrs[:gender] = nil
+      end
+
+      m.update_attributes! attrs
+
+      # Create a family member and a consult for the family member
+      family_email = "relative_of_#{email}"
+      f = Member.find_or_create_by_email!(email: family_email)
+
+      # TODO: Actually create the relationship
+
+      attrs = {}
+
+      if BOOL_SET.sample
+        attrs[:first_name] = email[/[^@]+/].capitalize
+      else
+        attrs[:first_name] = nil
+      end
+
+      if BOOL_SET.sample
+        attrs[:last_name] = LAST_NAMES.sample
+      else
+        attrs[:last_name] = nil
+      end
+
+      if BOOL_SET.sample
+        attrs[:birth_date] = time_rand
+      else
+        attrs[:birth_date] = nil
+      end
+
+      if BOOL_SET.sample
+        attrs[:gender] = GENDERS.sample
+      end
+
+      f.update_attributes! attrs
+
+      origin_phone_number = nil
+      if BOOL_SET.sample
+        origin_phone_number = PHONE_NUMBERS.sample
+      end
+
+      fc = Consult.create!(
+        title: 'Blood in stool',
+        status: 'open',
+        priority: 'high',
+        description: "My relative has blood in their stool.",
+        initiator_id: m.id,
+        subject_id: f.id,
+        add_user: m,
+        phone_call: {
+          message: nil,
+          destination_phone_number: '855-234-5678',
+          origin_phone_number: origin_phone_number
+        }
+      )
+    end
+
+    TO_INVITE = %w(clarissa@mayo.example.com matt@mayo.example.com)
+
+    puts 'Creating ghost members to invite as nurses...'
+    TO_INVITE.each do |email|
+      m = Member.find_or_create_by_email!(
+        email: email,
+        agreement_params: {
+          ids: Agreement.active.pluck(:id),
+          ip_address: '255.255.255.255',
+          user_agent: 'seeds'
+        }
+      )
+
+      m.update_attributes!(
+        first_name: email[/[^@]+/].capitalize,
+        last_name: LAST_NAMES.sample,
+      )
+
+      m.add_role :nurse
+    end
+
+    puts 'Creating admins with each inviting a ghost member...'
+    %w(paul@admin.getbetter.com abhik@admin.getbetter.com clare@admin.getbetter.com geoff@admin.getbetter.com mark@admin.getbetter.com).each do |email|
+      m = Member.find_or_create_by_email!(
+        email: email,
+        agreement_params: {
+          ids: Agreement.active.pluck(:id),
+          ip_address: '255.255.255.255',
+          user_agent: 'seeds'
+        }
+      )
+
+      m.update_attributes!(
+        password: 'careportal',
+        password_confirmation: 'careportal',
+        first_name: email[/[^@]+/].capitalize,
+        last_name: LAST_NAMES.sample,
+      )
+
+      m.add_role :admin
+
+      # Invite the nurses
+      TO_INVITE.each do |mail|
+        n = Member.find_by_email!(mail)
+        m.invitations.create invited_member: n
+      end
+    end
+
+    puts 'Creating nurses...'
+    %w(florence@mayo.example.com mary@mayo.example.com walt@mayo.example.com clarissa@mayo.example.com).each do |email|
+      m = Member.find_or_create_by_email!(
+        email: email,
+        agreement_params: {
+          ids: Agreement.active.pluck(:id),
+          ip_address: '255.255.255.255',
+          user_agent: 'seeds'
+        }
+      )
+
+      m.update_attributes!(
+        password: 'careportal',
+        password_confirmation: 'careportal',
+        first_name: email[/[^@]+/].capitalize,
+        last_name: LAST_NAMES.sample,
+      )
+
+      m.add_role :nurse
     end
   end
 end

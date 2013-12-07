@@ -1,0 +1,91 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00808
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hsg-test/MM00808
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-29
+		</UpdateDate>
+		<PublicationDate>
+			2012-09-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="4090" Title="Reproductive system">
+						<Keyword MCVID="4091" Title="Hysterosalpingography" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E7152624-FB9D-533A-89040CE10043F686
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		HSG test for female infertility
+	</Title>
+	<Abstract>
+		Video shows the HSG test &amp;mdash; an X-ray study to identify causes of female infertility.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00808_mbr.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+Blocked fallopian tubes or an abnormal uterine cavity may cause infertility.
+&lt;/p&gt;
+&lt;p&gt;
+Hysterosalpingography, or HSG, is an X-ray test to outline the internal shape of the uterus and show whether the fallopian tubes are blocked.
+&lt;/p&gt;
+&lt;p&gt;
+In HSG, a thin tube is threaded through the vagina and cervix. A substance known as contrast material is injected into the uterus.
+&lt;/p&gt;
+&lt;p&gt;
+A series of X-rays, or fluoroscopy, follows the dye, which appears white on X-ray, as it moves into the uterus and then into the tubes. If there is an abnormality in the shape of the uterus, it will be outlined. If the tube is blocked, the dye stops and flows back into the uterus.
+&lt;/p&gt;
+&lt;p&gt;
+If the tube is open, the dye gradually fills it. The dye spills into the pelvic cavity, where the body resorbs it.
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00808_licensingthumb.jpg" width="60" />
+</Video>

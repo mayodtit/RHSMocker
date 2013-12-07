@@ -1,0 +1,4 @@
+.question
+  .content_subtitle What's your gender?
+  = link_to image_tag('male.png', class: [:gender, :left], data: {gender: :male, card_id: card.try(:id)}), '#'
+  = link_to image_tag('female.png', class: [:gender, :right], data: {gender: :female, card_id: card.try(:id)}), '#'

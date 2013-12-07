@@ -1,6 +1,7 @@
 module Api
   module V1
     class ABaseController < ApplicationController
+      before_filter :force_development_error!
       before_filter :authentication_check
 
       def authentication_check
@@ -17,7 +18,7 @@ module Api
       end
 
       def render_failure resp=Hash.new, status=401
-        headers["WWW-Authenticate"] = %(Basic realm="Better") if status == 401
+        headers["WWW-Authenticate"] = %(BasicCustom realm="Better") if status == 401
         json = {status_code: status, status:"failure", user_message:""}.merge(resp).as_json
         render :json => json, :status => status
       end
@@ -28,26 +29,26 @@ module Api
 
       protected
 
-      def index_resource(collection, resource_name=resource_plural_symbol)
-        render_success(resource_name => collection)
+      def index_resource(collection, options={})
+        render_success((options[:name] || resource_plural_symbol) => collection)
       end
 
-      def show_resource(resource, resource_name=resource_singular_symbol)
-        render_success(resource_name => resource)
+      def show_resource(resource, options={})
+        render_success((options[:name] || resource_singular_symbol) => resource)
       end
 
-      def create_resource(collection, resource_params, resource_name=resource_singular_symbol)
+      def create_resource(collection, resource_params, options={})
         resource = collection.create(resource_params)
         if resource.errors.empty?
-          render_success(resource_name => resource)
+          render_success((options[:name] || resource_singular_symbol) => (resource.serializer(options[:serializer_options] || {}) || resource))
         else
           render_failure({reason: resource.errors.full_messages.to_sentence}, 422)
         end
       end
 
-      def update_resource(resource, resource_params, resource_name=resource_singular_symbol)
+      def update_resource(resource, resource_params, options={})
         if resource.update_attributes(resource_params)
-          render_success(resource_name => resource)
+          render_success((options[:name] || resource_singular_symbol) => (resource.serializer(options[:serializer_options] || {}) || resource))
         else
           render_failure({reason: resource.errors.full_messages.to_sentence}, 422)
         end
@@ -67,6 +68,23 @@ module Api
       end
 
       private
+
+      def force_development_error!
+        return unless %w(development devhosted).include? Rails.env
+        return unless params[:error]
+        case params[:error]
+        when '401'
+          render_failure({reason: 'Unauthorized'}, 401)
+        when '403'
+          render_failure({reason: 'Forbidden'}, 403)
+        when '404'
+          render_failure({reason: 'Not Found'}, 404)
+        when '422'
+          render_failure({reason: 'Unprocessable Entity'}, 422)
+        else
+          render_failure({reason: 'Internal Server Error'}, 500)
+        end
+      end
 
       def resource_plural_symbol
         controller_name.pluralize.to_sym

@@ -197,13 +197,13 @@ The inheritance pattern for schwannomatosis is less clear. Researchers currently
 			</HTML>
 			<PopupMedia>
 				<Thumbnail Alt="Illustration showing autosomal dominant inheritance pattern 
-" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Caption="In an autosomal dominant disorder, the mutated gene is a dominant gene located on one of the nonsex chromosomes (autosomes). You need only one mutated gene to be affected by this type of disorder. A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene (dominant gene) and a 50 percent chance of having an unaffected child with two normal genes (recessive genes).
 " Height="60" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomaldominantthu.gif" Width="60" />
 				<Image Alt="Illustration showing autosomal dominant inheritance pattern 
-" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Caption="In an autosomal dominant disorder, the mutated gene is a dominant gene located on one of the nonsex chromosomes (autosomes). You need only one mutated gene to be affected by this type of disorder. A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene (dominant gene) and a 50 percent chance of having an unaffected child with two normal genes (recessive genes).
 " Height="306" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/r7_autosomaldominant.gif" Width="320" />
 				<HTML>
-					A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an ...
+					In an autosomal dominant disorder, the mutated gene is a dominant gene located on one of the nonsex chromosomes (autosomes). You need only one mutated gene to be affected by this type of disorder. A ...
 				</HTML>
 			</PopupMedia>
 		</Section>
@@ -407,7 +407,7 @@ Extended family and friends can be your biggest and closest support network. Don
 		<LinkItem ContentType="SlideShow" DocID="SN00033" LinkType="Internal" ObjectID="9B529B4C-44F3-4718-8F408033465A28C0" Title="Slide show: Birthmarks" Url="http://www.mayoclinic.com/health/birthmarks/SN00033" />
 		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
 		<LinkItem ContentType="TestProcedure" DocID="MY00307" LinkType="Internal" ObjectID="9AE53C6F-E7FF-0DBD-17468FABB8482EEF" Title="X-ray" Url="http://www.mayoclinic.com/health/x-ray/MY00307" />
-		<LinkItem ContentType="TestProcedure" DocID="MY00206" LinkType="Internal" ObjectID="7A746F92-E7FF-0DBD-1BDD46A8BB17EDF3" Title="Gamma-knife radiosurgery" Url="http://www.mayoclinic.com/health/gamma-knife-radiosurgery/MY00206" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00206" LinkType="Internal" ObjectID="7A746F92-E7FF-0DBD-1BDD46A8BB17EDF3" Title="Gamma Knife radiosurgery" Url="http://www.mayoclinic.com/health/gamma-knife-radiosurgery/MY00206" />
 		<LinkItem ContentType="TestProcedure" DocID="MY00370" LinkType="Internal" ObjectID="53F2A74C-E7FF-0DBD-1EF0DCD38276A3C9" Title="Genetic testing" Url="http://www.mayoclinic.com/health/genetic-testing/MY00370" />
 		<LinkItem ContentType="TestProcedure" DocID="MY00245" LinkType="Internal" ObjectID="2DD15D8D-E7FF-0DBD-1DDC522D0B0420E3" Title="Eye exam" Url="http://www.mayoclinic.com/health/eye-exam/MY00245" />
 		<LinkItem ContentType="Disease" DocID="DS00601" LinkType="Internal" ObjectID="C21BA77B-ADE0-429B-BD6B4ED16D203069" Title="Soft tissue sarcoma" Url="http://www.mayoclinic.com/health/soft-tissue-sarcoma/DS00601" />

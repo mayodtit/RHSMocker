@@ -1,0 +1,221 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12393
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pickled-asparagus/RE12393
+		</OriginalURL>
+		<UpdateDate>
+			2013-04-02
+		</UpdateDate>
+		<PublicationDate>
+			2013-04-02
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			0026F6E9-B872-68F4-11AC667141C2B999
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				DAHLC
+			</MetaKeyword>
+			<MetaKeyword>
+				appetizers
+			</MetaKeyword>
+			<MetaKeyword>
+				vegetables
+			</MetaKeyword>
+			<MetaKeyword>
+				meatless
+			</MetaKeyword>
+			<MetaKeyword>
+				snacks
+			</MetaKeyword>
+			<MetaKeyword>
+				DASH recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				heart healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				low fat recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy carb recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			Created by the chefs at Mayo Clinic&apos;s Dan Abraham Healthy Living Center.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Pickled asparagus
+	</Title>
+	<Abstract>
+		Got a surplus of fresh asparagus? Don&apos;t panic. Pickle it. Pickled asparagus can be kept in the refrigerator for several weeks.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; To ensure food safety, be sure to sterilize the jars and lids by simmering them in water for 5 minutes and then letting them cool to room temperature. Then fill with asparagus mixture.
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Trim off the woody ends of the asparagus and cut spears into lengths that will fit into the jars. Place spears in colander, wash well and drain. Trim onions. Combine all ingredients in air tight containers. Refrigerate up to 4 weeks.
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 pound fresh asparagus, trimmed (about 3 cups)&lt;/li&gt;
+	&lt;li&gt;1/4 cup pearl onions&lt;/li&gt;
+	&lt;li&gt;1/4 cup white wine vinegar&lt;/li&gt;
+	&lt;li&gt;1/4 cup cider vinegar&lt;/li&gt;
+	&lt;li&gt;1 sprig fresh dill&lt;/li&gt;
+	&lt;li&gt;1 cup water&lt;/li&gt;
+	&lt;li&gt;2 whole cloves&lt;/li&gt;
+	&lt;li&gt;3 cloves garlic, whole&lt;/li&gt;
+	&lt;li&gt;8 whole black peppercorns &lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon red pepper flakes&lt;/li&gt;
+	&lt;li&gt;6 whole coriander seeds&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				24
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				4 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				2 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				trace
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				2 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				trace
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1/2 cup
+			</Servingsize>
+			<Sodium Label="Sodium">
+				5 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				0 mg
+			</Sugars>
+			<TotalFat Label="Total fat">
+				trace
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			No cook
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Course">
+			Appetizers
+		</Category>
+		<Category CategoryLabel="Meal">
+			Snacks
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 6
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

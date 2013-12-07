@@ -7,17 +7,17 @@ class Message < ActiveRecord::Base
   belongs_to :location
   has_many :message_mayo_vocabularies
   has_many :mayo_vocabularies, :through => :message_mayo_vocabularies
-  has_many :attachments
   belongs_to :scheduled_phone_call, :inverse_of => :message
   belongs_to :phone_call, :inverse_of => :message
+  belongs_to :phone_call_summary, :inverse_of => :message
 
   attr_accessible :user, :user_id, :consult, :consult_id, :content, :content_id, :text,
-                  :new_location, :new_keyword_ids, :new_attachments, :scheduled_phone_call,
+                  :new_location, :new_keyword_ids, :scheduled_phone_call,
                   :scheduled_phone_call_id, :phone_call, :phone_call_id,
                   :scheduled_phone_call_attributes, :phone_call_attributes,
-                  :created_at, :image
+                  :created_at, :image, :phone_call_summary, :phone_call_summary_id
 
-  validates :user, :consult, :text, presence: true
+  validates :user, :consult, presence: true
   validates :content, presence: true, if: lambda{|m| m.content_id.present?}
 
   before_create :add_user_to_consult
@@ -26,7 +26,6 @@ class Message < ActiveRecord::Base
 
   accepts_nested_attributes_for :location
   accepts_nested_attributes_for :message_mayo_vocabularies
-  accepts_nested_attributes_for :attachments
   accepts_nested_attributes_for :scheduled_phone_call
   accepts_nested_attributes_for :phone_call
 
@@ -40,10 +39,6 @@ class Message < ActiveRecord::Base
     self.message_mayo_vocabularies_attributes = ids.inject([]){|a, id| a << {:mayo_vocabulary_id => id, :message => self}; a}
   end
 
-  def new_attachments=(attributes)
-    self.attachments_attributes = attributes
-  end
-
   def title
     'Conversation with a Health Assistant'
   end
@@ -51,16 +46,16 @@ class Message < ActiveRecord::Base
   def content_type
     'Message'
   end
+  alias_method :content_type_display, :content_type
 
   def previewText
     text.split(' ').slice(0, 21).join(' ')+"&hellip;" if text.present?
   end
   alias_method :preview, :previewText
 
-  BASE_OPTIONS = {:only => [:id, :text, :created_at],
+  BASE_OPTIONS = {:only => [:id, :text, :created_at, :consult_id],
                   :methods => [:title, :image_url, :type],
                   :include => {:location => {},
-                               :attachments => {},
                                :mayo_vocabularies => {},
                                :content => {},
                                :user => {:only => :id, :methods => :full_name}}}
@@ -94,7 +89,7 @@ class Message < ActiveRecord::Base
   end
 
   def type
-    if phone_call || scheduled_phone_call
+    if phone_call || scheduled_phone_call || phone_call_summary
       :system
     else
       :user

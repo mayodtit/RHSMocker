@@ -101,12 +101,6 @@ If you&apos;re considering aromatherapy, consult your doctor and a trained aroma
 	</QuestionState>
 	<BenefitSummary />
 	<RelatedLinksBox>
-		<LinkItem ContentType="Answer" DocID="AN02154" LinkType="Internal" ObjectID="0DB75F75-EC64-9E6B-D5831E36A41606E6" Title="Do infrared saunas have any health benefits?" Url="http://www.mayoclinic.com/health/infrared-sauna/AN02154" />
-		<LinkItem ContentType="Article" DocID="MY01874" LinkType="Internal" ObjectID="8CFB62FE-E33C-7457-779E0B9DE4B51EC3" Title="Herbal supplements may not mix with heart medicines" Url="http://www.mayoclinic.com/health/herbal-supplements/MY01874" />
-		<LinkItem ContentType="Article" DocID="MY02124" LinkType="Internal" ObjectID="86149E82-C473-9D9E-F2B37C80473B160B" Title="Mindfulness exercises: How to get started" Url="http://www.mayoclinic.com/health/mindfulness-exercises/MY02124" />
-		<LinkItem ContentType="Article" DocID="MY02122" LinkType="Internal" ObjectID="85845781-9F46-6A0D-BE56D8C4A452879F" Title="Pet therapy: Man&apos;s best friend as healer" Url="http://www.mayoclinic.com/health/pet-therapy/MY02122" />
-		<LinkItem ContentType="Article" DocID="SA00078" LinkType="Internal" ObjectID="79681DCF-64B8-476D-AFF3543647E57C79" Title="Complementary and alternative medicine: Evaluate treatment claims" Url="http://www.mayoclinic.com/health/alternative-medicine/SA00078" />
-		<LinkItem ContentType="Article" DocID="PN00001" LinkType="Internal" ObjectID="49C26ECB-ED10-4E26-88B0C95077FF855B" Title="Complementary and alternative medicine" Url="http://www.mayoclinic.com/health/alternative-medicine/PN00001" />
 		<LinkItem ContentType="Answer" DocID="AN02050" LinkType="Internal" ObjectID="FE1A537B-DF50-0568-DB22D046B27F22C0" Title="Do weight-loss products such as Sensa work?" Url="http://www.mayoclinic.com/health/sensa/AN02050" />
 		<LinkItem ContentType="Answer" DocID="AN01982" LinkType="Internal" ObjectID="ECED1265-FF13-A459-4C2B047E9709A0C6" Title="Echinacea: Is it effective for the common cold?" Url="http://www.mayoclinic.com/health/echinacea/AN01982" />
 		<LinkItem ContentType="Answer" DocID="AN02022" LinkType="Internal" ObjectID="EC0E480F-AB0C-D730-A6EA666C823EBC1E" Title="Huperzine A: Can it treat Alzheimer&apos;s?" Url="http://www.mayoclinic.com/health/huperzine-a/AN02022" />
@@ -141,5 +135,11 @@ If you&apos;re considering aromatherapy, consult your doctor and a trained aroma
 		<LinkItem ContentType="Answer" DocID="AN01682" LinkType="Internal" ObjectID="3B6261AD-E7FF-0DBD-1DFD9C3D63C67226" Title="Colloidal silver: Is it safe or effective?" Url="http://www.mayoclinic.com/health/colloidal-silver/AN01682" />
 		<LinkItem ContentType="Answer" DocID="AN01679" LinkType="Internal" ObjectID="1E26541F-E7FF-0DBD-1CD540E561EE18C2" Title="Candida cleanse diet: What does it treat?" Url="http://www.mayoclinic.com/health/candida-cleanse/AN01679" />
 		<LinkItem ContentType="Answer" DocID="AN01849" LinkType="Internal" ObjectID="10DFD1A3-E7FF-0DBD-11730A79B553B0F4" Title="Detox foot pads: Do they really work?" Url="http://www.mayoclinic.com/health/detox-foot-pads/AN01849" />
+		<LinkItem ContentType="Answer" DocID="AN02154" LinkType="Internal" ObjectID="0DB75F75-EC64-9E6B-D5831E36A41606E6" Title="Do infrared saunas have any health benefits?" Url="http://www.mayoclinic.com/health/infrared-sauna/AN02154" />
+		<LinkItem ContentType="Article" DocID="MY01874" LinkType="Internal" ObjectID="8CFB62FE-E33C-7457-779E0B9DE4B51EC3" Title="Herbal supplements may not mix with heart medicines" Url="http://www.mayoclinic.com/health/herbal-supplements/MY01874" />
+		<LinkItem ContentType="Article" DocID="MY02124" LinkType="Internal" ObjectID="86149E82-C473-9D9E-F2B37C80473B160B" Title="Mindfulness exercises: How to get started" Url="http://www.mayoclinic.com/health/mindfulness-exercises/MY02124" />
+		<LinkItem ContentType="Article" DocID="MY02122" LinkType="Internal" ObjectID="85845781-9F46-6A0D-BE56D8C4A452879F" Title="Pet therapy: Man&apos;s best friend as healer" Url="http://www.mayoclinic.com/health/pet-therapy/MY02122" />
+		<LinkItem ContentType="Article" DocID="SA00078" LinkType="Internal" ObjectID="79681DCF-64B8-476D-AFF3543647E57C79" Title="Complementary and alternative medicine: Evaluate treatment claims" Url="http://www.mayoclinic.com/health/alternative-medicine/SA00078" />
+		<LinkItem ContentType="Article" DocID="PN00001" LinkType="Internal" ObjectID="49C26ECB-ED10-4E26-88B0C95077FF855B" Title="Complementary and alternative medicine" Url="http://www.mayoclinic.com/health/alternative-medicine/PN00001" />
 	</RelatedLinksBox>
 </Answer>

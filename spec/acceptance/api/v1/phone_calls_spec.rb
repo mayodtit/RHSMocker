@@ -5,60 +5,82 @@ resource "PhoneCalls" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  let!(:user) { create(:member) }
+  let!(:user) { create(:nurse) }
   let(:auth_token) { user.auth_token }
-  let!(:consult) { create(:consult, :initiator => user) }
-  let(:consult_id) { consult.id }
+  let!(:phone_call) { create(:phone_call) }
+  let!(:other_phone_call) { create(:phone_call) }
+  let!(:claimed_phone_call) { create(:phone_call, state: :claimed) }
 
   before(:each) do
     user.login
   end
 
-  parameter :auth_token, "Performing user's auth_token"
-  required_parameters :auth_token
+  describe 'phone calls' do
+    parameter :auth_token, 'Performing hcp\'s auth_token'
+    parameter :state, 'Filter by the state of phone call (\'claimed\',\'unclaimed\', \'ended\')'
 
-  context 'existing record' do
-    let!(:phone_call) { create(:phone_call) }
-    let!(:message) { create(:message, :user => user,
-                                      :consult => consult,
-                                      :phone_call => phone_call) }
-    let(:id) { phone_call.id }
+    required_parameters :auth_token
 
-    get '/api/v1/consults/:consult_id/phone_calls' do
-      example_request "[GET] Get all phone_calls for a given user" do
-        explanation "Returns an array of phone_calls"
+    let(:auth_token) { user.auth_token }
+    let(:state) { 'unclaimed' }
+
+    get '/api/v1/phone_calls/' do
+      example_request '[GET] Get all phone calls' do
+        explanation 'Get all phone calls (along with the caller\'s information), most recent first. Accessible only by HCPs'
         status.should == 200
-        body = JSON.parse(response_body, :symbolize_names => true)[:phone_calls]
-        body.should be_a Array
-        body.should_not be_empty
-      end
-    end
-
-    get '/api/v1/consults/:consult_id/phone_calls/:id' do
-      example_request "[GET] Get a phone_call for a given user" do
-        explanation "Returns the phone_call"
-        status.should == 200
-        body = JSON.parse(response_body, :symbolize_names => true)[:phone_call]
-        body.should be_a Hash
-        body[:id].should == phone_call.id
+        response = JSON.parse response_body, symbolize_names: true
+        response[:phone_calls].to_json.should == [phone_call, other_phone_call].as_json(
+          include: {
+            user: {
+              only: [:first_name, :last_name, :email],
+              methods: [:full_name]
+            }
+          }
+        ).to_json
       end
     end
   end
 
-  post '/api/v1/consults/:consult_id/phone_calls' do
-    parameter :origin_phone_number, 'Phone number making the call'
-    parameter :destination_phone_number, 'Phone number where the call is directed'
+  describe 'phone call' do
+    parameter :auth_token, 'Performing hcp\'s auth_token'
+    parameter :id, 'Phone call id'
 
-    let(:origin_phone_number) { '555-123-4567' }
-    let(:destination_phone_number) { '555-888-8888' }
+    required_parameters :auth_token, :id
+
+    let(:auth_token) { user.auth_token }
+    let(:id) { phone_call.id }
+
+    get '/api/v1/phone_calls/:id' do
+      example_request '[GET] Get a phone call' do
+        explanation 'Get a phone call (along with the caller\'s information). Accessible only by HCPs'
+        status.should == 200
+        response = JSON.parse response_body, symbolize_names: true
+        response[:phone_call].to_json.should == phone_call.as_json(include: [:user, consult: {include: [:subject, :initiator]}]).to_json
+      end
+    end
+  end
+
+  describe 'update phone call' do
+    parameter :auth_token, 'Performing hcp\'s auth_token'
+    parameter :id, 'Phone call id'
+    parameter :state_event, 'Event to perform on the phone call (\'claim\', \'end\', \'reclaim\', \'unclaim\')'
+
+    required_parameters :auth_token, :id
+    scope_parameters :phone_call, [:state_event]
+
+    let(:auth_token) { user.auth_token }
+    let(:id) { phone_call.id }
+    let(:state_event) { 'claim' }
+
     let(:raw_post) { params.to_json }
 
-    example_request "[POST] Create a phone_call" do
-      explanation "Creates a phone_call"
-      status.should == 200
-      body = JSON.parse(response_body, :symbolize_names => true)[:phone_call]
-      body.should be_a Hash
-      PhoneCall.find(body[:id]).should_not be_nil
+    put '/api/v1/phone_calls/:id' do
+      example_request '[PUT] Update a phone call' do
+        explanation 'Get a phone call (along with the caller\'s information). Accessible only by HCPs'
+        status.should == 200
+        response = JSON.parse response_body, symbolize_names: true
+        response[:phone_call].to_json.should == phone_call.reload.as_json(include: [:user, consult: {include: [:subject, :initiator]}]).to_json
+      end
     end
   end
 end

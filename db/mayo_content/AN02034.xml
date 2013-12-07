@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/swine-flu-symptoms/AN02034
 		</OriginalURL>
 		<UpdateDate>
-			2010-12-03
+			2013-08-22
 		</UpdateDate>
 		<PublicationDate>
 			2009-09-24
@@ -70,24 +70,13 @@
 			<SectionHead />
 			<HTML>
 				&lt;p&gt;
-Flu symptoms typically begin one or two days after your exposure to the virus, and may seem to hit you suddenly. Among healthy people, flu symptoms vary in severity. Flu symptoms include: 
+Flu symptoms typically begin one or two days after your exposure to the virus and may seem to hit you suddenly. Among healthy people, flu symptoms vary in severity. Signs and symptoms range from a sore throat and runny nose to fever, chills and muscle aches. 
 &lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;Fever, sometimes rising above 103 F (39.4 C)&lt;/li&gt;
-	&lt;li&gt;Chills&lt;/li&gt;
-	&lt;li&gt;Muscle aches&lt;/li&gt;
-	&lt;li&gt;Loss of appetite&lt;/li&gt;
-	&lt;li&gt;Extreme fatigue&lt;/li&gt;
-	&lt;li&gt;Eye redness and burning&lt;/li&gt;
-	&lt;li&gt;Stuffy or runny nose&lt;/li&gt;
-	&lt;li&gt;Dry cough&lt;/li&gt;
-	&lt;li&gt;Sore throat&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;
-Flu symptoms can make you feel awful, but if you&apos;re basically healthy and you&apos;re not pregnant, take care of yourself at home rather than going to your doctor. Try these remedies: 
+Flu symptoms can make you feel awful, but if you&apos;re otherwise healthy and you&apos;re not pregnant, take care of yourself at home rather than going to your doctor. Try these remedies: 
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;Take acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others) to reduce fever and muscle aches. Don&apos;t give products containing aspirin to children or young adults, as these drugs may cause Reye&apos;s syndrome.&lt;/li&gt;
+	&lt;li&gt;Take acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin IB, others) to reduce fever and muscle aches. Don&apos;t give products containing aspirin to children or young adults recovering from chickenpox or flu-like symptoms, as these drugs have been linked to Reye&apos;s syndrome, a rare but potentially life-threatening condition, in such children.&lt;/li&gt;
 	&lt;li&gt;Drink clear fluids, such as water, broth or sports drinks.&lt;/li&gt;
 	&lt;li&gt;Rest as long as you continue to feel tired, and sleep as much as you can.&lt;/li&gt;
 &lt;/ul&gt;
@@ -95,13 +84,13 @@ Flu symptoms can make you feel awful, but if you&apos;re basically healthy and y
 		</Section>
 	</Body>
 	<Title>
-		Flu symptoms: Self-care for the flu
+		Self-care for the flu
 	</Title>
 	<Abstract>
-		Flu symptoms and how to take care of yourself at home.
+		How to take care of yourself at home when you have the flu.
 	</Abstract>
 	<Question>
-		How do I know if I&apos;ve caught the flu? Should I go to the doctor?
+		What can I do at home to recover from the flu?
 	</Question>
 	<QuestionFirstName>
 		No name
@@ -111,17 +100,15 @@ Flu symptoms can make you feel awful, but if you&apos;re basically healthy and y
 	</QuestionState>
 	<BenefitSummary />
 	<RelatedLinksBox>
-		<LinkItem ContentType="SelfAssessment" DocID="FU00013" LinkType="Internal" ObjectID="491D1E3C-E7FF-0DBD-1F7CA70710272614" Title="Flu symptoms self-assessment: Do you have the flu?" Url="http://www.mayoclinic.com/health/flu-symptoms/FU00013" />
+		<LinkItem ContentType="Answer" DocID="AN02214" LinkType="Internal" ObjectID="5E1CF628-D4A2-84DB-0EA9E405753066C7" Title="Flu symptoms: Should I see my doctor?" Url="http://www.mayoclinic.com/health/flu-symptoms/AN02214" />
 		<LinkItem ContentType="Answer" DocID="AN01238" LinkType="Internal" ObjectID="35958F8C-2A5D-9994-E6DBF7EFD2A7FF7D" Title="Flu germs: How long can they live outside the body?" Url="http://www.mayoclinic.com/health/infectious-disease/AN01238" />
 		<LinkItem ContentType="Article" DocID="ID00017" LinkType="Internal" ObjectID="DF0C9B47-E104-40E7-99D4923ED6D7FD1E" Title="Flu shot: Your best bet for avoiding influenza" Url="http://www.mayoclinic.com/health/flu-shots/ID00017" />
 		<LinkItem ContentType="Answer" DocID="AN02177" LinkType="Internal" ObjectID="A0AD14E9-9C6D-449F-29F7CA3E69C8F2BC" Title="Flu and pregnancy: Is antiviral medication safe?" Url="http://www.mayoclinic.com/health/flu-and-pregnancy/AN02177" />
 		<LinkItem ContentType="Answer" DocID="AN02128" LinkType="Internal" ObjectID="7E32257A-A073-9C8B-5F7162F4290FBB80" Title="Immunization: Are you immune to a disease?" Url="http://www.mayoclinic.com/health/immunization/AN02128" />
 		<LinkItem ContentType="Disease" DocID="DS00081" LinkType="Internal" ObjectID="5CB89570-8B46-4961-8BFE66D06D5BDD1B" Title="Influenza (flu)" Url="http://www.mayoclinic.com/health/influenza/DS00081" />
-		<LinkItem ContentType="Article" DocID="MY00816" LinkType="Internal" ObjectID="E19704C8-97C2-8E63-1C5F56B0CFE4F5BB" Title="H1N1 flu (swine flu) vaccine Q &amp; A" Url="http://www.mayoclinic.com/health/swine-flu-vaccine/MY00816" />
 		<LinkItem ContentType="Answer" DocID="AN02035" LinkType="Internal" ObjectID="DE56047D-E433-C93E-10ADFA3ED4A40D05" Title="Flu mask: Should I wear one?" Url="http://www.mayoclinic.com/health/flu-mask/AN02035" />
 		<LinkItem ContentType="Answer" DocID="AN02033" LinkType="Internal" ObjectID="C9C8E8ED-C14F-ECCE-A9DCBC0BDECF2608" Title="Flu vaccine: Safe for people with egg allergy?" Url="http://www.mayoclinic.com/health/flu-vaccine-egg-allergy/AN02033" />
 		<LinkItem ContentType="Answer" DocID="AN02041" LinkType="Internal" ObjectID="B659EB88-09E2-708B-ED5C810B3C72C0DB" Title="What&apos;s the difference between H1N1 flu and influenza A?" Url="http://www.mayoclinic.com/health/influenza-a/AN02041" />
-		<LinkItem ContentType="Article" DocID="MY00675" LinkType="Internal" ObjectID="ED89FA7E-E747-57F6-4AC2FB8C523175DF" Title="H1N1 flu (swine flu): What&apos;s happening now" Url="http://www.mayoclinic.com/health/swine-flu/MY00675" />
 		<LinkItem ContentType="Disease" DocID="DS01144" LinkType="Internal" ObjectID="ED85EF12-D20D-C00F-95E27F2334B0258D" Title="Swine flu (H1N1 flu)" Url="http://www.mayoclinic.com/health/swine-flu/DS01144" />
 	</RelatedLinksBox>
 </Answer>

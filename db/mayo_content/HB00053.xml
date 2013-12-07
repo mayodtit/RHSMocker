@@ -252,7 +252,6 @@ AEDs offer a way to save someone&apos;s life, perhaps your own. But they may not
 		An AED may save your life during cardiac arrest. Weigh the pros and cons to see if you should get one.
 	</BenefitSummary>
 	<RelatedLinksBox>
-		<LinkItem ContentType="Disease" DocID="DS00291" LinkType="Internal" ObjectID="F553CA62-FA20-4C2B-97C29F6EAF1F81EC" Title="Atrial fibrillation" Url="http://www.mayoclinic.com/health/atrial-fibrillation/DS00291" />
 		<LinkItem ContentType="Disease" DocID="DS00923" LinkType="Internal" ObjectID="E3378F81-E7FF-0DBD-186727361BBFF2E3" Title="Wolff-Parkinson-White (WPW) syndrome" Url="http://www.mayoclinic.com/health/wolff-parkinson-white-syndrome/DS00923" />
 		<LinkItem ContentType="Disease" DocID="DS00949" LinkType="Internal" ObjectID="E0E5CBB7-E7FF-0DBD-188377A3E7F15819" Title="Premature ventricular contractions (PVCs)" Url="http://www.mayoclinic.com/health/premature-ventricular-contractions/DS00949" />
 		<LinkItem ContentType="Disease" DocID="DS00947" LinkType="Internal" ObjectID="97602949-E7FF-0DBD-1214ED24239B2AFD" Title="Bradycardia" Url="http://www.mayoclinic.com/health/bradycardia/DS00947" />
@@ -274,5 +273,6 @@ AEDs offer a way to save someone&apos;s life, perhaps your own. But they may not
 		<LinkItem ContentType="Disease" DocID="DS00806" LinkType="Internal" ObjectID="CA70DA97-E7FF-0DBD-13B4BC169AB87B67" Title="Vasovagal syncope" Url="http://www.mayoclinic.com/health/vasovagal-syncope/DS00806" />
 		<LinkItem ContentType="Disease" DocID="DS00434" LinkType="Internal" ObjectID="47C52B5C-DA54-4EF4-864C9B4F3F60A5CB" Title="Long QT syndrome" Url="http://www.mayoclinic.com/health/long-qt-syndrome/DS00434" />
 		<LinkItem ContentType="Disease" DocID="DS00290" LinkType="Internal" ObjectID="21BBE2B0-128D-4AA2-A5CE215065586678" Title="Heart arrhythmias" Url="http://www.mayoclinic.com/health/heart-arrhythmias/DS00290" />
+		<LinkItem ContentType="Disease" DocID="DS00291" LinkType="Internal" ObjectID="F553CA62-FA20-4C2B-97C29F6EAF1F81EC" Title="Atrial fibrillation" Url="http://www.mayoclinic.com/health/atrial-fibrillation/DS00291" />
 	</RelatedLinksBox>
 </Article>

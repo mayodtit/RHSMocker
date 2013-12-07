@@ -1,23 +1,36 @@
 FactoryGirl.define do
-
   factory :content do
-    sequence(:title){|n| "Content Title #{n}"}
-    body            {'This is the HTML formatted body of the content.'}
-    content_type    {'Answer'}
-    abstract        {'This is the abstract of the content.'}
-    question        {'What is the JSON format of content?'}
-    content_updated_at     { Time.now }
-    mayo_vocabularies {[FactoryGirl.create(:mayo_vocabulary)]}
-    mayo_doc_id "AA004345"
+    sequence(:title) {|x| "Content #{x}"}
+    raw_body "HTML body"
+    content_type "Content"
+    sequence(:document_id) {|x| "#{x}"}
+    show_call_option true
+    show_checker_option true
+    show_mayo_copyright true
+    sensitive false
 
-    factory :disease_content do
-      sequence(:title){|n| "Craniosynostosis #{n}" }
-      body            "Definition<p>Craniosynostosis is a birth defect in which one or more of the joints between the bones of your infant's skull close prematurely, before your infant's brain is fully formed. When your baby has craniosynostosis, his or her brain can't grow in its natural shape and the head is misshapen. </p>"
-      content_type    'Disease'
-      abstract        "Craniosynostosis &mdash; Comprehensive overview covers causes, treatment of this birth defect involving a baby's skull."
-      question        nil
-
+    trait :published do
+      state 'published'
     end
   end
 
+  factory :mayo_content, class: MayoContent do
+    sequence(:title) {|x| "MayoContent #{x}"}
+    raw_body "HTML body"
+    content_type "Content"
+    sequence(:document_id) {|x| "MAYO-#{x}"}
+    show_call_option true
+    show_checker_option true
+    show_mayo_copyright true
+  end
+
+  factory :custom_content, class: CustomContent do
+    sequence(:title) {|x| "CustomContent #{x}"}
+    raw_body "HTML body"
+    content_type "Content"
+    sequence(:document_id) {|x| "CUSTOM-#{x}"}
+    show_call_option true
+    show_checker_option false
+    show_mayo_copyright false
+  end
 end

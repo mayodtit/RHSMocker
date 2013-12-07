@@ -2,49 +2,35 @@ class Api::V1::CardsController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_card!, only: [:show, :update]
 
-  def index
-    index_resource(merge_previews(@user.cards.not_dismissed))
-  end
-
   def inbox
-    index_resource(merge_previews(@user.cards.inbox))
+    index_resource @user.cards.inbox.serializer(preview: true)
   end
 
   def timeline
-    index_resource(merge_previews(@user.cards.timeline))
+    index_resource @user.cards.timeline.serializer
   end
 
   def show
-    show_resource(merge_body(@card))
+    show_resource @card.serializer(body: true)
+  end
+
+  def create
+    create_resource @user.cards, card_params
   end
 
   def update
-    update_resource(@card, card_params)
+    update_resource @card, card_params
   end
 
   private
 
   def load_card!
-    @card = @user.cards.find(params[:id])
+    @card = @user.cards.find params[:id]
     authorize! :manage, @card
   end
 
   def card_params
-    if @card.saved? || @card.dismissed?
-      params[:card].delete(:state_changed_at) unless [:saved, :dismissed].include?(params[:card][:state_event])
-    end
+    params[:card][:state_event] ||= params[:card].delete(:state) # don't let the client set the state explicitly
     params[:card]
-  end
-
-  def merge_previews(cards)
-    cards.map{|c| c.as_json.merge!(:preview => render_to_string(:action => :preview,
-                                                                :formats => [:html],
-                                                                :locals => {:resource => c.resource}))}
-  end
-
-  def merge_body(card)
-    card.as_json.merge!(:body => render_to_string(:action => :show,
-                                                  :formats => [:html],
-                                                  :locals => {:card => card}))
   end
 end

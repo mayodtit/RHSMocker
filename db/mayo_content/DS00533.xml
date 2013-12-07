@@ -402,7 +402,7 @@ You might also find it helpful to share your feelings with others in similar sit
 	<BenefitSummary />
 	<RelatedLinksBox>
 		<LinkItem ContentType="Disease" DocID="DS00532" LinkType="Internal" ObjectID="161912BC-6FC9-446D-BAB3DAD24878A49F" Title="Prolactinoma" Url="http://www.mayoclinic.com/health/prolactinoma/DS00532" />
-		<LinkItem ContentType="TestProcedure" DocID="MY00206" LinkType="Internal" ObjectID="7A746F92-E7FF-0DBD-1BDD46A8BB17EDF3" Title="Gamma-knife radiosurgery" Url="http://www.mayoclinic.com/health/gamma-knife-radiosurgery/MY00206" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00206" LinkType="Internal" ObjectID="7A746F92-E7FF-0DBD-1BDD46A8BB17EDF3" Title="Gamma Knife radiosurgery" Url="http://www.mayoclinic.com/health/gamma-knife-radiosurgery/MY00206" />
 		<LinkItem ContentType="Disease" DocID="DS00581" LinkType="Internal" ObjectID="A1BEB836-698F-4C05-B88D158D673829AB" Title="Amenorrhea" Url="http://www.mayoclinic.com/health/amenorrhea/DS00581" />
 	</RelatedLinksBox>
 </Disease>

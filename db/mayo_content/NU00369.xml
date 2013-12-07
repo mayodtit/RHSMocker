@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00369
 		</OriginalURL>
 		<UpdateDate>
-			2007-07-01
+			2013-08-17
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -41,40 +41,54 @@
 		<TermsOfUse DocID="AM00021" />
 	</Meta>
 	<Title>
-		Recipe: Beef and vegetable kebabs
+		Recipe: Beef and vegetable kebabs with brown rice
 	</Title>
-	<Abstract />
+	<Abstract>
+		Marinating meat before grilling adds flavor and helps keep meat from burning and charring.
+	</Abstract>
 	<ServingInfo Label="Serves">
 		2
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
-		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Marinating meat before grilling not only adds flavor but also reduces the chance that cancer-causing substances will form on the meat during grilling. Marinating also helps keep meat from burning and charring.&lt;/p&gt;
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Marinating meat before grilling not only adds flavor but also reduces the chance that cancer-causing substances will form on the meat during grilling. Marinating also helps keep meat from burning and charring. 
+&lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
-		&lt;p&gt;In a saucepan over high heat, combine the rice and water. Bring to a boil. Reduce the heat to low, cover and simmer until the water is absorbed and the rice is tender, about 30 to 45 minutes. Add more water if necessary to keep the rice from drying out. Transfer to a small bowl to keep warm.&lt;/p&gt;
-
-&lt;p&gt;Cut the meat into 4 equal portions. Put the meat in a small bowl and pour Italian dressing over the top. Put in the refrigerator for at least 20 minutes to marinate, turning as needed.&lt;/p&gt;
-
-&lt;p&gt;Prepare a hot fire in a charcoal grill or heat a gas grill or a broiler. Away from the heat source, lightly coat the grill rack or broiler pan with cooking spray. Position the cooking rack 4 to 6 inches from the heat source.&lt;/p&gt;
-
-&lt;p&gt;Thread 2 cubes of meat, 2 green pepper slices, 2 cherry tomatoes and 2 onion wedges onto each skewer. Place the kebabs on the grill rack or broiler pan. Grill or broil the kebabs for about 5 to 10 minutes, turning as needed.&lt;/p&gt;
-
-&lt;p&gt;Divide the rice onto individual plates. Top with 1 kebab and serve immediately.&lt;/p&gt;
+		&lt;p&gt;
+In a saucepan over high heat, combine the rice and water. Bring to a boil. Reduce the heat to low, cover and simmer until the water is absorbed and the rice is tender, about 30 to 45 minutes. Add more water if necessary to keep the rice from drying out. Transfer to a small bowl to keep warm. 
+&lt;/p&gt;
+&lt;p&gt;
+Cut the meat into 4 equal portions. Put the meat in a small bowl and pour Italian dressing over the top. Put in the refrigerator for at least 20 minutes to marinate, turning as needed. 
+&lt;/p&gt;
+&lt;p&gt;
+Prepare a hot fire in a charcoal grill or heat a gas grill or a broiler. Away from the heat source, lightly coat the grill rack or broiler pan with cooking spray. Position the cooking rack 4 to 6 inches from the heat source. 
+&lt;/p&gt;
+&lt;p&gt;
+Thread 2 cubes of meat, 2 green pepper pieces, 2 cherry tomatoes and 2 onion wedges onto each skewer. Place the kebabs on the grill rack or broiler pan. Grill or broil the kebabs for about 5 to 10 minutes, turning as needed. 
+&lt;/p&gt;
+&lt;p&gt;
+Divide the rice onto individual plates. Top with 1 kebab and serve immediately. 
+&lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
-		&lt;p&gt;1/2 cup brown rice&lt;br /&gt;
-2 cups water&lt;br /&gt;
-4 ounces top sirloin (choice)&lt;br /&gt;
-3 tablespoons fat-free Italian dressing&lt;br /&gt;
-1 green pepper, seeded and cut into 4 pieces&lt;br /&gt;
-4 cherry tomatoes&lt;br /&gt;
-1 small onion, cut into 4 wedges&lt;br /&gt;
-2 wooden skewers, soaked in water for 30 minutes, or metal skewers&lt;/p&gt;
+		&lt;ul&gt;
+	&lt;li&gt;1/2 cup brown rice&lt;/li&gt;
+	&lt;li&gt;2 cups water&lt;/li&gt;
+	&lt;li&gt;4 ounces top sirloin (choice)&lt;/li&gt;
+	&lt;li&gt;4 tablespoons fat-free Italian dressing&lt;/li&gt;
+	&lt;li&gt;1 green pepper, seeded and cut into 4 pieces&lt;/li&gt;
+	&lt;li&gt;4 cherry tomatoes&lt;/li&gt;
+	&lt;li&gt;1 small onion, cut into 4 wedges&lt;/li&gt;
+	&lt;li&gt;2 wooden skewers, soaked in water for 30 minutes, or metal skewers &lt;/li&gt;
+&lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
 			<Dairy Label="Dairy foods (low-fat or fat-free)" />
-			<Fats Label="Fats and oils" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
 			<Fruits Label="Fruits" />
 			<Grains Label="Grains and grain products">
 				2
@@ -85,11 +99,13 @@
 			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
 			<Sweets Label="Sweets" />
 			<Vegetables Label="Vegetables">
-				3
+				2
 			</Vegetables>
 		</Dash>
 		<Diabetes Label="Diabetes Meal Plan Exchanges">
-			<Fats Label="Fats" />
+			<Fats Label="Fats">
+				1
+			</Fats>
 			<Freefoods Label="Free foods" />
 			<Fruits Label="Fruits" />
 			<Meat Label="Meat and meat substitutes">
@@ -97,7 +113,7 @@
 			</Meat>
 			<Milk Label="Milk and milk products" />
 			<NonStarchyVegetables Label="Nonstarchy vegetables">
-				3
+				2
 			</NonStarchyVegetables>
 			<Starches Label="Starches">
 				2
@@ -108,47 +124,55 @@
 			<Carbs Label="Carbohydrates">
 				2
 			</Carbs>
-			<Fats Label="Fats" />
+			<Fats Label="Fats">
+				1
+			</Fats>
 			<Fruits Label="Fruits" />
 			<Protein_Dairy Label="Protein and dairy">
 				1
 			</Protein_Dairy>
 			<Sweets Label="Sweets" />
 			<Vegetables Label="Vegetables">
-				3
+				2
 			</Vegetables>
 		</HWP>
 		<NutrientAnalysis Label="Nutritional Analysis per serving">
 			<Calories Label="Calories">
-				330
+				300
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
-				48 g
+				49 g
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
-				50 mg
+				39 mg
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
 				4 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
-				2 g
+				1 g
 			</Monounsaturatedfat>
 			<Protein Label="Protein">
-				22 g
+				18 g
 			</Protein>
 			<Saturatedfat Label="Saturated fat">
-				2 g
+				1 g
 			</Saturatedfat>
-			<Servingsize Label="Serving size" />
+			<Servingsize Label="Serving size">
+				1 kebab and 3/4 cup rice
+			</Servingsize>
 			<Sodium Label="Sodium">
-				370 mg
+				450 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
 			<TotalFat Label="Total fat">
-				5 g
+				3 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				trace
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>
@@ -157,9 +181,6 @@
 		</Category>
 		<Category CategoryLabel="Special diets">
 			Diabetes meal plan
-		</Category>
-		<Category CategoryLabel="Special diets">
-			DASH diet
 		</Category>
 		<Category CategoryLabel="Main ingredient">
 			Rice and grains
@@ -182,12 +203,8 @@
 		<Category CategoryLabel="Preparation method">
 			Grilling recipes galore
 		</Category>
-		<Category CategoryLabel="Main ingredient">
-			Poultry and meat
-		</Category>
 		<Category CategoryLabel="Special diets">
-			Heart-healthy
+			Low-fat
 		</Category>
 	</Categorization>
-	<BillboardGraphic alt="Beef and vegetable kebabs" height="100" uri="/images/billboardsmall/re1_grillkebabs.jpg" width="100" />
 </Recipe>

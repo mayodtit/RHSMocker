@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00342
 		</OriginalURL>
 		<UpdateDate>
-			2011-04-15
+			2013-08-20
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -37,35 +37,35 @@
 		<HasFlash>
 			0
 		</HasFlash>
-		<Source>
-			This recipe is one of 150 recipes collected in &lt;em&gt;The New Mayo Clinic Cookbook&lt;/em&gt;, published by Mayo Clinic Health Information and Oxmoor House, and winner of the 2005 James Beard award.
-		</Source>
+		<Source />
 		<TermsOfUse DocID="AM00021" />
 	</Meta>
 	<Title>
 		Recipe: Sesame-crusted tofu
 	</Title>
-	<Abstract />
+	<Abstract>
+		Serve these &quot;steaks&quot; with soy sauce and a green-onion garnish. Be sure to use firm tofu.
+	</Abstract>
 	<ServingInfo Label="Serves">
 		4
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
 		&lt;p&gt;
-&lt;strong&gt;Dietitian&apos;s notes:&lt;/strong&gt; Serve these &quot;steaks&quot; with soy sauce and a green-onion garnish. Be sure to use firm tofu. Brown it gently so that it loses some moisture before coating it with bread crumbs and sesame seeds, then browning again.
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Serve these &quot;steaks&quot; with soy sauce and a green-onion garnish. Be sure to use firm tofu. Brown it gently so that it loses some moisture before coating it with bread crumbs and sesame seeds, then browning again. 
 &lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
 		&lt;p&gt;
-Cut the tofu crosswise into 12 slices. Place the tofu slices in a large nonstick frying pan over medium heat and cook for 5 minutes on each side. The tofu will brown slightly and lose some of its liquid. Transfer to a plate and let cool.
+Cut the tofu crosswise into 12 slices. Place the tofu slices in a large nonstick frying pan over medium heat and cook for 5 minutes on each side. The tofu will brown slightly and lose some of its liquid. Transfer to a plate and let cool. 
 &lt;/p&gt;
 &lt;p&gt;
-In a bowl, whisk together the milk, egg whites, 1/4 teaspoon of the salt and the pepper until well blended. On a large plate, combine the bread crumbs, white and black sesame seeds, and remaining 1/4 teaspoon salt. Mix until well blended. Dip a tofu slice into the milk mixture, and then dredge in the sesame seed mixture. Repeat dipping and dredging with the remaining tofu slices.
+In a bowl, whisk together the milk, egg whites, 1/4 teaspoon of the salt and the pepper until well blended. On a large plate, combine the bread crumbs, white and black sesame seeds, and remaining 1/4 teaspoon salt. Mix until well blended. Dip a tofu slice into the milk mixture, and then dredge in the sesame seed mixture. Repeat dipping and dredging with the remaining tofu slices. 
 &lt;/p&gt;
 &lt;p&gt;
-In a large nonstick frying pan, heat the oil over medium heat. Arrange the tofu slices in the pan and cook, turning once, until lightly browned, about 3 minutes on each side. Transfer to a plate and keep warm. Add the green onions to the pan and saute until they begin to brown, about 3 to 4 minutes.
+In a large nonstick frying pan, heat the oil over medium heat. Arrange the tofu slices in the pan and cook, turning once, until lightly browned, about 3 minutes on each side. Transfer to a plate and keep warm. Add the green onions to the pan and saute until they begin to brown, about 3 to 4 minutes. 
 &lt;/p&gt;
 &lt;p&gt;
-Divide the green onions among individual plates. Top each serving with 3 tofu steaks and serve immediately.
+Divide the green onions among individual plates. Top each serving with 3 tofu steaks and serve immediately. 
 &lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
@@ -92,7 +92,7 @@ Divide the green onions among individual plates. Top each serving with 3 tofu st
 			<Grains Label="Grains and grain products" />
 			<Meat Label="Meats, poultry and fish" />
 			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans">
-				1
+				2
 			</Nuts_Seeds_Drybeans>
 			<Sweets Label="Sweets" />
 			<Vegetables Label="Vegetables">
@@ -106,7 +106,7 @@ Divide the green onions among individual plates. Top each serving with 3 tofu st
 			<Freefoods Label="Free foods" />
 			<Fruits Label="Fruits" />
 			<Meat Label="Meat and meat substitutes">
-				2
+				1
 			</Meat>
 			<Milk Label="Milk and milk products" />
 			<NonStarchyVegetables Label="Nonstarchy vegetables">
@@ -131,35 +131,41 @@ Divide the green onions among individual plates. Top each serving with 3 tofu st
 		</HWP>
 		<NutrientAnalysis Label="Nutritional Analysis per serving">
 			<Calories Label="Calories">
-				265
+				282
 			</Calories>
 			<Carbohydrate Label="Total carbohydrate">
-				17 g
+				14 g
 			</Carbohydrate>
 			<Cholesterol Label="Cholesterol">
-				0 mg
+				trace
 			</Cholesterol>
 			<Fiber Label="Dietary fiber">
-				6 g
+				5 g
 			</Fiber>
 			<Monounsaturatedfat Label="Monounsaturated fat">
 				4 g
 			</Monounsaturatedfat>
 			<Protein Label="Protein">
-				24 g
+				23 g
 			</Protein>
 			<Saturatedfat Label="Saturated fat">
 				2 g
 			</Saturatedfat>
-			<Servingsize Label="Serving size" />
+			<Servingsize Label="Serving size">
+				1 tofu &quot;steak&quot;
+			</Servingsize>
 			<Sodium Label="Sodium">
-				391 mg
+				242 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
 			<TotalFat Label="Total fat">
 				14 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>
@@ -173,13 +179,7 @@ Divide the green onions among individual plates. Top each serving with 3 tofu st
 			Serves 4
 		</Category>
 		<Category CategoryLabel="Special diets">
-			Healthy-carb
-		</Category>
-		<Category CategoryLabel="Special diets">
 			Diabetes meal plan
-		</Category>
-		<Category CategoryLabel="Special diets">
-			DASH diet
 		</Category>
 		<Category CategoryLabel="Main ingredient">
 			Beans and legumes
@@ -195,9 +195,6 @@ Divide the green onions among individual plates. Top each serving with 3 tofu st
 		</Category>
 		<Category CategoryLabel="Meal">
 			Dinner
-		</Category>
-		<Category CategoryLabel="Special diets">
-			Heart-healthy
 		</Category>
 	</Categorization>
 </Recipe>

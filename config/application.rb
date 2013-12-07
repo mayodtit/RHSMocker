@@ -1,5 +1,6 @@
 require File.expand_path('../boot', __FILE__)
 
+require 'csv'
 require 'rails/all'
 
 if defined?(Bundler)
@@ -66,7 +67,8 @@ module RHSMocker
     config.exceptions_app = self.routes
 
     # add exception status codes to configuration, don't forget to add the status code route too!
-    config.action_dispatch.rescue_responses.merge!('Error::PreconditionFailed' => :precondition_failed)
+    config.action_dispatch.rescue_responses.merge!('Error::PreconditionFailed' => :precondition_failed,
+                                                   'CanCan::AccessDenied' => :forbidden)
 
     config.middleware.use 'Raddocs::Middleware'
   end

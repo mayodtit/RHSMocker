@@ -16,20 +16,39 @@
 			http://www.mayoclinic.com/health/growth-plate-fractures/DS00816
 		</OriginalURL>
 		<UpdateDate>
-			2010-10-21
+			2013-06-29
 		</UpdateDate>
 		<PublicationDate>
 			2006-10-20
 		</PublicationDate>
 		<ControlWords>
 			<Category MCVID="1000" Title="Age">
-				<Keyword MCVID="1124" Title="Adult">
-					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
 				</Keyword>
 			</Category>
 			<Category MCVID="1000" Title="Age">
-				<Keyword MCVID="1124" Title="Adult">
-					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen">
+						<Keyword MCVID="3540" Title="14 years" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen">
+						<Keyword MCVID="3541" Title="16 years" />
+					</Keyword>
 				</Keyword>
 			</Category>
 			<Category MCVID="1001" Title="Diseases and conditions">
@@ -69,12 +88,24 @@
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-Growth plates are the softer parts of your child&apos;s bones, where growth occurs. Located at each end of a bone, growth plates are the weakest sections of the skeleton &amp;mdash; sometimes even weaker than surrounding ligaments and tendons. Because growth plates are so fragile, an injury that would result in a joint sprain for an adult can cause a growth plate fracture in your child.
+A growth plate fracture affects the layer of growing tissue near the ends of a child&apos;s long bones. Growth plates are the softest and weakest sections of the skeleton &amp;mdash; sometimes even weaker than surrounding ligaments and tendons. An injury that might cause a joint sprain for an adult can cause a growth plate fracture in a child. 
 &lt;/p&gt;
 &lt;p&gt;
-Growth plate fractures often need immediate treatment because they can affect how the bone will grow. An improperly treated growth plate fracture could result in a fractured bone ending up more crooked or shorter than its opposite limb. But the comforting news for your child is that with proper treatment, most growth plate fractures heal without complications.
+Growth plate fractures often need immediate treatment because they can affect how the bone will grow. An improperly treated growth plate fracture could result in a fractured bone ending up more crooked or shorter than its opposite limb. With proper treatment, most growth plate fractures heal without complications.
 &lt;/p&gt;
 			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a growth plate fracture 
+" Caption="Growth plates are located near the ends of your child&apos;s bones. If a fracture goes through a growth plate, it can result in a shorter or crooked limb. 
+" Height="60" Title="Growth plate fracture" URI="/images/image_popup/thumbs/ch7_growthplatethu.jpg" Width="60" />
+				<Image Alt="Illustration of a growth plate fracture 
+" Caption="Growth plates are located near the ends of your child&apos;s bones. If a fracture goes through a growth plate, it can result in a shorter or crooked limb. 
+" Height="430" Title="Growth plate fracture" URI="/images/image_popup/ch7_growthplate.jpg" Width="400" />
+				<HTML>
+					Growth plates are located near the ends of your child&apos;s bones. If a fracture goes through a growth plate, it can result in a shorter or crooked limb. 
+...
+				</HTML>
+			</PopupMedia>
 		</Section>
 		<Section>
 			<SectionHead>
@@ -82,38 +113,21 @@ Growth plate fractures often need immediate treatment because they can affect ho
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-Most growth plate fractures occur in bones of the: 
+Most growth plate fractures occur in bones of the fingers, forearm and lower leg. Signs and symptoms of a growth plate fracture may include: 
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;Fingers&lt;/li&gt;
-	&lt;li&gt;Forearms, at the wrist&lt;/li&gt;
-	&lt;li&gt;Lower leg&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-Signs and symptoms of a growth plate fracture may include: 
-&lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;Severe pain that doesn&apos;t go away&lt;/li&gt;
-	&lt;li&gt;An inability to move the affected area&lt;/li&gt;
-	&lt;li&gt;An inability to put weight or pressure on the area&lt;/li&gt;
+	&lt;li&gt;Pain and tenderness, particularly in response to pressure on the growth plate&lt;/li&gt;
+	&lt;li&gt;Inability to move the affected area or to put weight or pressure on the limb&lt;/li&gt;
+	&lt;li&gt;Warmth and swelling at the end of a bone, near a joint&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
 &lt;strong&gt;When to see a doctor&lt;br /&gt;
-&lt;/strong&gt;If you suspect a fracture &amp;mdash; particularly if pain interferes with moving or putting pressure on a limb &amp;mdash; take your child to be examined by a doctor. Additionally, have your child evaluated if you notice a visible malformation in your child&apos;s arms or legs, or if your child is having trouble playing sports because of persistent pain.
+&lt;/strong&gt;If you suspect a fracture, take your child to be examined by a doctor. Also have your child evaluated if you notice a visible deformity in your child&apos;s arms or legs, or if your child is having trouble playing sports because of persistent pain. 
+&lt;/p&gt;
+&lt;p&gt;
+Although a growth plate fracture can be confused with a sprain, a fracture usually will have more swelling and persistent pain over time.
 &lt;/p&gt;
 			</HTML>
-			<PopupMedia>
-				<Thumbnail Alt="Illustration of a growth-plate fracture 
-" Caption="Growth plates are located at the ends of your child&apos;s bones. If a fracture goes through a growth plate, it can result in a shorter or twisted limb. 
-" Height="60" Title="Growth-plate fracture" URI="/images/image_popup/thumbs/ch7_growthplatethu.jpg" Width="60" />
-				<Image Alt="Illustration of a growth-plate fracture 
-" Caption="Growth plates are located at the ends of your child&apos;s bones. If a fracture goes through a growth plate, it can result in a shorter or twisted limb. 
-" Height="430" Title="Growth-plate fracture " URI="/images/image_popup/ch7_growthplate.jpg" Width="400" />
-				<HTML>
-					Growth plates are located at the ends of your child&apos;s bones. If a fracture goes through a growth plate, it can result in a shorter or twisted limb. 
-...
-				</HTML>
-			</PopupMedia>
 		</Section>
 		<Section>
 			<SectionHead>
@@ -121,7 +135,7 @@ Signs and symptoms of a growth plate fracture may include:
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-About 15 percent of all childhood fractures involve a growth plate. Growth plate fractures often are caused by a fall or a blow to the limb, as might occur in:
+Growth plate fractures often are caused by a fall or a blow to the limb, as might occur in:
 &lt;/p&gt;
 &lt;ul&gt;
 	&lt;li&gt;A car accident&lt;/li&gt;
@@ -129,7 +143,7 @@ About 15 percent of all childhood fractures involve a growth plate. Growth plate
 	&lt;li&gt;Recreational activities, such as biking, sledding, skiing or skateboarding&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-Growth plate fractures can also be caused by overuse, which can occur during sports training. 
+Growth plate fractures can occasionally be caused by overuse, which can occur during sports training or repetitive throwing.
 &lt;/p&gt;
 			</HTML>
 		</Section>
@@ -139,10 +153,7 @@ Growth plate fractures can also be caused by overuse, which can occur during spo
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-Growth plate fractures occur twice as often in boys. They&apos;re most common between the ages of 9 and 15.
-&lt;/p&gt;
-&lt;p&gt;
-Girls age 12 and older experience these types of fractures less often because their growth plates have already matured and been replaced with solid bone.
+Growth plate fractures occur twice as often in boys as in girls, because girls finish growing earlier than do boys. By the age of 12, most girls&apos; growth plates have already matured and been replaced with solid bone. 
 &lt;/p&gt;
 			</HTML>
 		</Section>
@@ -152,12 +163,12 @@ Girls age 12 and older experience these types of fractures less often because th
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-Around 85 percent of growth plate fractures heal with no complications. The following factors can increase the risk of twisted or stunted bone growth.
+Most growth plate fractures heal with no complications. But the following factors can increase the risk of crooked or stunted bone growth.
 &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;strong&gt;Severity of the injury.&lt;/strong&gt; If the growth plate has been shifted, shattered or crushed, the risk of limb deformity is greater. Reduced blood supply to the tip of the bone also increases this risk.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Age of the child.&lt;/strong&gt; Younger children have more years of growth ahead of them, so they are at risk for a longer period of time.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Location of the injury.&lt;/strong&gt; Some growth plates grow more than others. Risk increases with injuries to the growth plates that grow the most &amp;mdash; for example, the ones around the knee.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severity of the injury.&lt;/strong&gt; If the growth plate has been shifted, shattered or crushed, the risk of limb deformity is greater.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age of the child.&lt;/strong&gt; Younger children have more years of growth ahead of them, so if the growth plate is permanently damaged, there is more chance of deformity developing. If a child is almost done growing, permanent damage to the growth plate may cause only minimal deformity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Location of the injury.&lt;/strong&gt; The growth plates around the knee are more sensitive to injury. A growth plate fracture at the knee can cause the leg to be short or crooked if the growth plate has permanent damage. Growth plate injuries around the wrist and shoulder usually heal without problems.&lt;/li&gt;
 &lt;/ul&gt;
 			</HTML>
 		</Section>
@@ -167,11 +178,11 @@ Around 85 percent of growth plate fractures heal with no complications. The foll
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-If your child is injured, you may go straight to an emergency room or urgent care clinic. Depending on the severity of the break, the doctor who first examines your child may recommend a consultation with a pediatric orthopedic surgeon.
+If your child is injured, you may go straight to an emergency room or urgent care clinic. Depending on the severity of the break, the doctor who first examines your child may recommend a consultation with a pediatric orthopedic surgeon. 
 &lt;/p&gt;
 &lt;p&gt;
 &lt;strong&gt;What you can do&lt;br /&gt;
-&lt;/strong&gt;To prepare for your conversation with the doctor, you may want to write a quick list that includes:
+&lt;/strong&gt;To prepare for your conversation with the doctor, you may want to write a quick list that includes: 
 &lt;/p&gt;
 &lt;ul&gt;
 	&lt;li&gt;Your child&apos;s symptoms&lt;/li&gt;
@@ -182,7 +193,7 @@ If your child is injured, you may go straight to an emergency room or urgent car
 &lt;/ul&gt;
 &lt;p&gt;
 &lt;strong&gt;What to expect from your doctor&lt;br /&gt;
-&lt;/strong&gt;Your doctor may ask:
+&lt;/strong&gt;Your doctor may ask: 
 &lt;/p&gt;
 &lt;ul&gt;
 	&lt;li&gt;How did the injury happen?&lt;/li&gt;
@@ -193,9 +204,6 @@ If your child is injured, you may go straight to an emergency room or urgent car
 	&lt;li&gt;What concerns do you have about your child&apos;s return to sports or play?&lt;/li&gt;
 	&lt;li&gt;Have there been previous fractures?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;
-During the physical exam, your doctor will inspect the affected area for tenderness, swelling, deformity or an open wound.
-&lt;/p&gt;
 			</HTML>
 		</Section>
 		<Section>
@@ -204,7 +212,10 @@ During the physical exam, your doctor will inspect the affected area for tendern
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-Because growth plates haven&apos;t hardened into solid bone, they are difficult to interpret on X-rays. Sometimes, doctors ask for X-rays of both the injured limb and the opposite limb so that they can be compared. In some cases, scans that can visualize soft tissue &amp;mdash; such as magnetic resonance imaging (MRI), computerized tomography (CT) or ultrasound &amp;mdash; may be ordered. 
+Because growth plates haven&apos;t hardened into solid bone, they are difficult to interpret on X-rays. Doctors may ask for X-rays of both the injured limb and the opposite limb so that they can be compared. Sometimes a growth plate fracture cannot be seen on X-ray. If the child is tender over the area of the growth plate, your doctor may recommend a cast or a splint to protect the limb. X-rays are taken again in three to four weeks and, if there was a fracture, new bone healing will typically be seen at that time.
+&lt;/p&gt;
+&lt;p&gt;
+For more-serious injuries, scans that can visualize soft tissue &amp;mdash; such as magnetic resonance imaging (MRI), computerized tomography (CT) or ultrasound &amp;mdash; may be ordered. 
 &lt;/p&gt;
 			</HTML>
 		</Section>
@@ -214,10 +225,10 @@ Because growth plates haven&apos;t hardened into solid bone, they are difficult 
 			</SectionHead>
 			<HTML>
 				&lt;p&gt;
-Treatment for growth plate fractures depends on the severity of the fracture. The least serious fractures usually require only a cast or a splint. Injuries in which a part of the bone end has separated from the bone shaft typically will need surgical repair.
+Treatment for growth plate fractures depends on the severity of the fracture. The least serious fractures usually require only a cast or a splint. If the fracture crosses the growth plate or goes into the joint and is not well aligned, surgery may be necessary. Growth plates that are surgically realigned may have a better chance of recovering and growing again compared with growth plates that are left in a poor position. 
 &lt;/p&gt;
 &lt;p&gt;
-If your child has had a growth plate fracture, your doctor may want to compare the growth of the injured limb with that of its opposite limb every three to six months for at least two years. Depending on the severity of the fracture, your child may need follow-up visits until his or her bones have finished growing.
+At the time of injury, it is difficult to tell if a growth plate has permanent damage. Your doctor may recommend checking X-rays for several years after the fracture to make sure the growth plate is growing appropriately. Depending on the location and severity of the fracture, your child may need follow-up visits until his or her bones have finished growing.
 &lt;/p&gt;
 			</HTML>
 		</Section>
@@ -229,4 +240,7 @@ If your child has had a growth plate fracture, your doctor may want to compare t
 		Growth plate fractures &amp;mdash; Comprehensive overview covers treatment, complications of this childhood bone injury.
 	</Abstract>
 	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="MY01974" LinkType="Internal" ObjectID="AFD2ED23-D467-4F73-D5858809F132AB20" Title="Cast care: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/cast-care/MY01974" />
+	</RelatedLinksBox>
 </Disease>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130930223307) do
+ActiveRecord::Schema.define(:version => 20131206231812) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -60,15 +60,6 @@ ActiveRecord::Schema.define(:version => 20130930223307) do
 
   add_index "associations", ["user_id"], :name => "index_associations_on_user_id"
 
-  create_table "attachments", :force => true do |t|
-    t.string   "url"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-    t.integer  "message_id"
-  end
-
-  add_index "attachments", ["message_id"], :name => "index_attachments_on_message_id"
-
   create_table "blood_pressures", :force => true do |t|
     t.integer  "systolic"
     t.integer  "diastolic"
@@ -115,7 +106,6 @@ ActiveRecord::Schema.define(:version => 20130930223307) do
     t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-    t.boolean  "read"
   end
 
   create_table "consults", :force => true do |t|
@@ -128,6 +118,7 @@ ActiveRecord::Schema.define(:version => 20130930223307) do
     t.integer  "initiator_id", :default => 0, :null => false
     t.string   "title"
     t.string   "description"
+    t.string   "image"
   end
 
   create_table "content_mayo_vocabularies", :force => true do |t|
@@ -137,20 +128,34 @@ ActiveRecord::Schema.define(:version => 20130930223307) do
     t.datetime "updated_at",         :null => false
   end
 
+  create_table "content_references", :force => true do |t|
+    t.integer  "referrer_id"
+    t.integer  "referee_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
   create_table "contents", :force => true do |t|
-    t.string   "title"
-    t.text     "body"
-    t.datetime "created_at",          :null => false
-    t.datetime "updated_at",          :null => false
-    t.string   "content_type"
+    t.string   "title",               :default => "",    :null => false
+    t.text     "raw_body"
+    t.datetime "created_at",                             :null => false
+    t.datetime "updated_at",                             :null => false
+    t.string   "content_type",        :default => "",    :null => false
     t.text     "abstract"
     t.text     "question"
     t.text     "keywords"
     t.datetime "content_updated_at"
-    t.string   "mayo_doc_id"
-    t.boolean  "show_call_option"
-    t.boolean  "show_checker_option"
+    t.string   "document_id",         :default => "",    :null => false
+    t.boolean  "show_call_option",    :default => true,  :null => false
+    t.boolean  "show_checker_option", :default => true,  :null => false
+    t.boolean  "show_mayo_copyright", :default => true,  :null => false
+    t.string   "type"
+    t.text     "raw_preview"
+    t.string   "state"
+    t.boolean  "sensitive",           :default => false, :null => false
   end
+
+  add_index "contents", ["document_id"], :name => "index_contents_on_document_id"
 
   create_table "contents_symptoms", :force => true do |t|
     t.integer  "content_id"
@@ -171,6 +176,22 @@ ActiveRecord::Schema.define(:version => 20130930223307) do
 
   add_index "contents_symptoms_factors", ["content_id"], :name => "index_contents_symptom_factors_on_content_id"
   add_index "contents_symptoms_factors", ["symptoms_factor_id"], :name => "index_contents_symptom_factors_on_symptom_factor_id"
+
+  create_table "credits", :force => true do |t|
+    t.integer  "offering_id"
+    t.integer  "user_id"
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+    t.boolean  "unlimited",   :default => false, :null => false
+  end
+
+  create_table "custom_cards", :force => true do |t|
+    t.integer  "content_id"
+    t.string   "title"
+    t.text     "raw_preview"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
 
   create_table "delayed_jobs", :force => true do |t|
     t.integer  "priority",   :default => 0
@@ -209,13 +230,20 @@ ActiveRecord::Schema.define(:version => 20130930223307) do
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-    t.integer  "order"
   end
 
   create_table "factors", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "gender"
+  end
+
+  create_table "feature_groups", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+    t.text     "metadata_override"
   end
 
   create_table "invitations", :force => true do |t|
@@ -223,7 +251,11 @@ ActiveRecord::Schema.define(:version => 20130930223307) do
     t.integer  "invited_member_id"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
+    t.string   "token"
+    t.string   "state"
   end
+
+  add_index "invitations", ["token"], :name => "index_invitations_on_token"
 
   create_table "locations", :force => true do |t|
     t.integer  "user_id"
@@ -269,9 +301,17 @@ ActiveRecord::Schema.define(:version => 20130930223307) do
     t.integer  "scheduled_phone_call_id"
     t.integer  "phone_call_id"
     t.string   "image"
+    t.integer  "phone_call_summary_id"
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
+
+  create_table "metadata", :force => true do |t|
+    t.string   "mkey",       :null => false
+    t.string   "mvalue",     :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "nurseline_records", :force => true do |t|
     t.text     "payload"
@@ -287,19 +327,32 @@ ActiveRecord::Schema.define(:version => 20130930223307) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "phone_call_summaries", :force => true do |t|
+    t.integer  "caller_id",  :null => false
+    t.integer  "callee_id",  :null => false
+    t.text     "body",       :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "phone_calls", :force => true do |t|
     t.integer  "user_id"
     t.datetime "created_at",               :null => false
     t.datetime "updated_at",               :null => false
     t.string   "origin_phone_number"
     t.string   "destination_phone_number"
+    t.string   "state"
+    t.datetime "claimed_at"
+    t.datetime "ended_at"
+    t.integer  "claimer_id"
+    t.integer  "ender_id"
+    t.string   "identifier_token"
   end
 
-  create_table "plan_groups", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
+  add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"
+  add_index "phone_calls", ["ender_id"], :name => "index_phone_calls_on_ender_id"
+  add_index "phone_calls", ["identifier_token"], :name => "index_phone_calls_on_identifier_token"
+  add_index "phone_calls", ["state"], :name => "index_phone_calls_on_state"
 
   create_table "plan_offerings", :force => true do |t|
     t.integer  "plan_id"
@@ -315,13 +368,32 @@ ActiveRecord::Schema.define(:version => 20130930223307) do
 
   create_table "plans", :force => true do |t|
     t.string   "name"
-    t.integer  "plan_group_id"
     t.boolean  "monthly"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
-  add_index "plans", ["plan_group_id"], :name => "index_plans_on_plan_group_id"
+  create_table "program_resources", :force => true do |t|
+    t.integer  "program_id"
+    t.integer  "resource_id"
+    t.string   "resource_type"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+    t.integer  "ordinal"
+  end
+
+  create_table "programs", :force => true do |t|
+    t.string   "title",      :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "questions", :force => true do |t|
+    t.string   "title"
+    t.string   "view"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "remote_events", :force => true do |t|
     t.datetime "created_at", :null => false
@@ -357,11 +429,55 @@ ActiveRecord::Schema.define(:version => 20130930223307) do
     t.datetime "updated_at",  :null => false
   end
 
+  create_table "subscriptions", :force => true do |t|
+    t.integer  "plan_id"
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "symptom_medical_advice_items", :force => true do |t|
+    t.text     "description"
+    t.integer  "symptom_medical_advice_id"
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
+  end
+
+  add_index "symptom_medical_advice_items", ["symptom_medical_advice_id"], :name => "index_symptom_medical_advice_items_on_symptom_medical_advice_id"
+
+  create_table "symptom_medical_advices", :force => true do |t|
+    t.text     "description"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.integer  "symptom_id"
+  end
+
+  add_index "symptom_medical_advices", ["symptom_id"], :name => "index_symptom_medical_advices_on_symptom_id"
+
+  create_table "symptom_selfcare_items", :force => true do |t|
+    t.text     "description"
+    t.integer  "symptom_selfcare_id"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
+
+  add_index "symptom_selfcare_items", ["symptom_selfcare_id"], :name => "index_symptom_selfcare_items_on_symptom_selfcare_id"
+
+  create_table "symptom_selfcares", :force => true do |t|
+    t.text     "description"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.integer  "symptom_id"
+  end
+
   create_table "symptoms", :force => true do |t|
     t.string   "name"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
     t.string   "patient_type"
+    t.string   "description"
+    t.text     "selfcare"
+    t.string   "gender"
   end
 
   create_table "symptoms_factors", :force => true do |t|
@@ -434,40 +550,30 @@ ActiveRecord::Schema.define(:version => 20130930223307) do
     t.datetime "diagnosed_date"
   end
 
-  create_table "user_offerings", :force => true do |t|
-    t.integer  "offering_id"
-    t.integer  "user_id"
-    t.datetime "created_at",                     :null => false
-    t.datetime "updated_at",                     :null => false
-    t.boolean  "unlimited",   :default => false, :null => false
-  end
-
-  add_index "user_offerings", ["offering_id"], :name => "index_user_offerings_on_offering_id"
-  add_index "user_offerings", ["user_id"], :name => "index_user_offerings_on_user_id"
-
-  create_table "user_plans", :force => true do |t|
-    t.integer  "plan_id"
-    t.integer  "user_id"
-    t.datetime "created_at",        :null => false
-    t.datetime "updated_at",        :null => false
-    t.date     "cancellation_date"
-  end
-
-  add_index "user_plans", ["plan_id"], :name => "index_user_plans_on_plan_id"
-  add_index "user_plans", ["user_id"], :name => "index_user_plans_on_user_id"
-
-  create_table "user_readings", :force => true do |t|
-    t.datetime "read_date"
+  create_table "user_content_likes", :force => true do |t|
     t.integer  "user_id"
     t.integer  "content_id"
-    t.datetime "created_at",                   :null => false
-    t.datetime "updated_at",                   :null => false
-    t.datetime "save_date"
-    t.integer  "save_count",    :default => 0
-    t.datetime "dismiss_date"
-    t.datetime "view_date"
-    t.integer  "share_counter"
-    t.integer  "priority",      :default => 0, :null => false
+    t.string   "action"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "user_feature_groups", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "feature_group_id"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
+
+  create_table "user_readings", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "content_id"
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+    t.integer  "viewed_count",    :default => 0, :null => false
+    t.integer  "saved_count",     :default => 0, :null => false
+    t.integer  "dismissed_count", :default => 0, :null => false
+    t.integer  "shared_count",    :default => 0, :null => false
   end
 
   create_table "user_treatment_side_effects", :force => true do |t|
@@ -506,14 +612,12 @@ ActiveRecord::Schema.define(:version => 20130930223307) do
     t.string   "email"
     t.decimal  "height",                                        :precision => 9, :scale => 5
     t.string   "phone"
-    t.string   "generic_call_time"
     t.string   "crypted_password"
     t.string   "auth_token"
     t.string   "salt"
     t.string   "reset_password_token"
     t.datetime "reset_password_token_expires_at"
     t.datetime "reset_password_email_sent_at"
-    t.string   "feature_bucket"
     t.integer  "ethnic_group_id"
     t.integer  "diet_id"
     t.string   "blood_type"
@@ -529,6 +633,8 @@ ActiveRecord::Schema.define(:version => 20130930223307) do
     t.string   "units",                                                                       :default => "US",  :null => false
     t.string   "stripe_customer_id"
     t.string   "google_analytics_uuid",           :limit => 36
+    t.string   "avatar_url_override"
+    t.text     "client_data"
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"

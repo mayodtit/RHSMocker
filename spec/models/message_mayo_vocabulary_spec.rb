@@ -5,5 +5,5 @@ describe MessageMayoVocabulary do
 
   it_validates 'presence of', :message
   it_validates 'presence of', :mayo_vocabulary
-  it_validates 'scoped uniqueness of', :mayo_vocabulary_id, :message_id
+  it_validates 'uniqueness of', :mayo_vocabulary_id, :message_id
 end

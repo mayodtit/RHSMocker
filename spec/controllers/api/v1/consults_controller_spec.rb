@@ -26,7 +26,7 @@ describe Api::V1::ConsultsController do
       it "returns an array of Consults" do
         do_request
         json = JSON.parse(response.body, :symbolize_names => true)
-        json[:consults].to_json.should == [consult.as_json.merge!(:unread_messages_count => 1)].to_json
+        json[:consults].first.to_json.should == consult.serializer(include_unread_messages_count: true).as_json.to_json
       end
     end
   end
@@ -50,7 +50,7 @@ describe Api::V1::ConsultsController do
       it 'returns the consult' do
         do_request
         json = JSON.parse(response.body)
-        json['consult'].to_json.should == consult.as_json.to_json
+        json['consult'].to_json.should == consult.serializer.as_json.to_json
       end
     end
   end
@@ -78,7 +78,7 @@ describe Api::V1::ConsultsController do
         it 'returns the consult' do
           do_request
           json = JSON.parse(response.body)
-          json['consult'].to_json.should == consult.as_json.to_json
+          json['consult'].to_json.should == consult.serializer.as_json.to_json
         end
       end
 

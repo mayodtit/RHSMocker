@@ -5,5 +5,5 @@ describe ContentMayoVocabulary do
 
   it_validates 'presence of', :content
   it_validates 'presence of', :mayo_vocabulary
-  it_validates 'scoped uniqueness of', :mayo_vocabulary_id, :content_id
+  it_validates 'uniqueness of', :mayo_vocabulary_id, :content_id
 end

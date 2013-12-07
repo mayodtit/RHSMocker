@@ -41,7 +41,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
            end
     hash[:association_type_id] = params[:association][:association_type_id]
 
-    if hash[:associate_attributes][:avatar].present?
+    if hash[:associate_attributes].try(:[], :avatar).present?
       v = decode_b64_image(hash[:associate_attributes][:avatar])
       hash[:associate_attributes][:avatar] = v
     end

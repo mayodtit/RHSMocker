@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :user_reading do
-    user
+    association :user, factory: :member
     content
   end
 end

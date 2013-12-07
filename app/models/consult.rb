@@ -9,7 +9,7 @@ class Consult < ActiveRecord::Base
   has_many :cards, :as => :resource, :dependent => :destroy
 
   attr_accessible :initiator, :initiator_id, :subject, :subject_id, :checked,
-                  :priority, :status, :add_user, :messages, :message,
+                  :priority, :status, :add_user, :messages, :message, :image,
                   :scheduled_phone_call, :phone_call, :title, :description
 
   validates :title, :initiator, :subject, :status, :priority, presence: true
@@ -19,6 +19,8 @@ class Consult < ActiveRecord::Base
   before_validation :set_defaults
 
   symbolize :status, :in => [:open, :closed]
+
+  mount_uploader :image, ConsultImageUploader
 
   def self.open
     where(:status => :open)
@@ -40,22 +42,12 @@ class Consult < ActiveRecord::Base
     self.users << user unless self.users.include?(user)
   end
 
-  BASE_OPTIONS = {:methods => :last_message_at}
-
-  def serializable_hash(options=nil)
-    super(options || BASE_OPTIONS)
+  def image_url
+    image.url
   end
 
   def members
     users.where(:type => 'Member')
-  end
-
-  def content_type
-    'Consult'
-  end
-
-  def preview
-    messages.last.try(:preview) || ''
   end
 
   def notify_members
@@ -63,10 +55,6 @@ class Consult < ActiveRecord::Base
       cards.upsert_attributes({:user_id => id},
                               {:state_event => :reset})
     end
-  end
-
-  def last_message_at
-    messages.order('created_at DESC').pluck(:created_at).first
   end
 
   def self.with_unread_messages_count_for(user)
@@ -81,10 +69,6 @@ class Consult < ActiveRecord::Base
 
   def unread_messages_count
     unread_messages_count_string.to_i
-  end
-
-  def most_recent_message
-    messages.order('created_at DESC').first
   end
 
   private

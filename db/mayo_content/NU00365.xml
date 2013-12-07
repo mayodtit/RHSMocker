@@ -16,7 +16,7 @@
 			http://www.mayoclinic.com/health/healthy-recipes/NU00365
 		</OriginalURL>
 		<UpdateDate>
-			2007-06-01
+			2013-06-01
 		</UpdateDate>
 		<PublicationDate>
 			2005-01-01
@@ -41,32 +41,44 @@
 		<TermsOfUse DocID="AM00021" />
 	</Meta>
 	<Title>
-		Recipe: Baked macaroni
+		Recipe: Baked macaroni with red sauce
 	</Title>
-	<Abstract />
+	<Abstract>
+		This easy dish uses whole-wheat pasta, which provides insoluble fiber, lean ground beef and tomato sauces.
+	</Abstract>
 	<ServingInfo Label="Serves">
 		6
 	</ServingInfo>
 	<DietitianTip Label="Dietitian&apos;s tip">
-		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; The type of fiber in whole-wheat pasta is insoluble &amp;mdash; meaning it doesn&apos;t dissolve during digestion. Instead, it maintains its bulk, holds on to water and, as a result, helps prevent constipation.&lt;/p&gt;
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; The type of fiber in whole-wheat pasta is insoluble &amp;mdash; during the digestive process it maintains its bulk, holds on to water and, as a result, helps prevent constipation. 
+&lt;/p&gt;
 	</DietitianTip>
 	<Directions Label="Directions">
-		&lt;p&gt;Preheat the oven to 350 F. Lightly coat a baking dish with cooking spray.&lt;/p&gt;
-
-&lt;p&gt;In a nonstick frying pan, cook ground beef and onion until the meat is browned and the onion is translucent. Drain well.&lt;/p&gt;
-
-&lt;p&gt;Fill a large pot 3/4 full with water and bring to a boil. Add the pasta and cook until al dente (tender), 10 to 12 minutes, or according to the package directions. Drain the pasta thoroughly.&lt;/p&gt;
-
-&lt;p&gt;Add the cooked pasta and spaghetti sauce to the meat and onions. Stir to mix evenly. Spoon the mixture into the prepared baking dish. Bake until bubbly, about 25 to 35 minutes.&lt;/p&gt;
-
-&lt;p&gt;Divide the spaghetti among individual plates. Sprinkle each with 1 tablespoon Parmesan cheese. Serve immediately.&lt;/p&gt;
+		&lt;p&gt;
+Preheat the oven to 350 F. Lightly coat a baking dish with cooking spray. 
+&lt;/p&gt;
+&lt;p&gt;
+In a nonstick frying pan, cook ground beef and onion until the meat is browned and the onion is translucent. Drain well. 
+&lt;/p&gt;
+&lt;p&gt;
+Fill a large pot 3/4 full with water and bring to a boil. Add the pasta and cook until al dente (tender), 10 to 12 minutes, or according to the package directions. Drain the pasta thoroughly. 
+&lt;/p&gt;
+&lt;p&gt;
+Add the cooked pasta and spaghetti sauce to the meat and onions. Stir to mix evenly. Spoon the mixture into the prepared baking dish. Bake until bubbly, about 25 to 35 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+Divide the macaroni among individual plates. Sprinkle each with 1 tablespoon Parmesan cheese. Serve immediately.
+&lt;/p&gt;
 	</Directions>
 	<Ingredients Label="Ingredients">
-		&lt;p&gt;1/2 pound extra-lean ground beef&lt;br /&gt;
-1 small onion, diced, about 1/2 cup&lt;br /&gt;
-1 box (7 ounces) whole-wheat elbow macaroni&lt;br /&gt;
-1 jar (15 ounces) reduced-sodium spaghetti sauce&lt;br /&gt;
-6 tablespoons Parmesan cheese&lt;/p&gt;
+		&lt;ul&gt;
+	&lt;li&gt;1/2 pound extra-lean ground beef&lt;/li&gt;
+	&lt;li&gt;1 small onion, diced, about 1/2 cup&lt;/li&gt;
+	&lt;li&gt;1 box (7 ounces) whole-wheat elbow macaroni&lt;/li&gt;
+	&lt;li&gt;1 jar (15 ounces) reduced-sodium spaghetti sauce&lt;/li&gt;
+	&lt;li&gt;6 tablespoons Parmesan cheese &lt;/li&gt;
+&lt;/ul&gt;
 	</Ingredients>
 	<ExchangeData>
 		<Dash Label="DASH Eating Plan Servings">
@@ -137,15 +149,21 @@
 			<Saturatedfat Label="Saturated fat">
 				4 g
 			</Saturatedfat>
-			<Servingsize Label="Serving size" />
+			<Servingsize Label="Serving size">
+				About 1 cup
+			</Servingsize>
 			<Sodium Label="Sodium">
 				94 mg
 			</Sodium>
-			<Sugars />
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
 			<TotalFat Label="Total fat">
 				11 g
 			</TotalFat>
-			<TransFat />
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
 		</NutrientAnalysis>
 	</ExchangeData>
 	<Categorization>
@@ -178,9 +196,6 @@
 		</Category>
 		<Category CategoryLabel="Meal">
 			Dinner
-		</Category>
-		<Category CategoryLabel="Main ingredient">
-			Vegetables
 		</Category>
 		<Category CategoryLabel="Meal">
 			Lunch

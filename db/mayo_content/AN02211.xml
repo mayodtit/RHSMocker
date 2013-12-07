@@ -1,0 +1,108 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02211
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ricin/AN02211
+		</OriginalURL>
+		<UpdateDate>
+			2013-04-23
+		</UpdateDate>
+		<PublicationDate>
+			2013-04-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1301" Title="Signs and symptoms ill defined">
+					<Keyword MCVID="5017" Title="Poisoning" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1E51330D-AEE4-E656-CF62F81A373FE018
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ricin
+			</MetaKeyword>
+			<MetaKeyword>
+				ricin poisoning
+			</MetaKeyword>
+			<MetaKeyword>
+				biological warfare
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Ricin is a poison that can be made from the waste left over from processing castor beans, according to the Centers for Disease Control and Prevention. Castor beans are used to make castor oil.
+&lt;/p&gt;
+&lt;p&gt;
+Ricin can potentially be used as a biological weapon. It can be turned into an aerosol and inhaled. It can also be ingested from poisoned food or a contaminated water supply or injected.
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of ricin poisoning depend on whether a person inhales or ingests ricin. Inhaled ricin causes fever, chest tightness, cough and severe respiratory problems, including fluid buildup in the lungs (pulmonary edema). Ingested ricin causes intestinal bleeding and organ damage. The poison can kill within three days of exposure. Even a small amount of ricin may be fatal.
+&lt;/p&gt;
+&lt;p&gt;
+No widely available, reliable test exists to confirm exposure to ricin. There&apos;s no vaccine or antidote for ricin poisoning. Treatment is primarily supportive care.
+&lt;/p&gt;
+&lt;p&gt;
+According to the Centers for Disease Control and Prevention, if exposed to ricin:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get fresh air immediately&lt;/strong&gt; by moving away from the area in which the ricin was released.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Remove any clothing that may have ricin on it,&lt;/strong&gt; taking care not to pull exposed clothing over your head, but rather cutting the clothing off.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rinse any skin exposed to ricin with large amounts of soap and water&lt;/strong&gt;, and if your eyes have been exposed, rinse with lots of water for 10 to 15 minutes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dispose of any exposed clothing&lt;/strong&gt; by sealing it in a plastic bag, then enclosing that bag in another sealed plastic bag. Take care to protect yourself from exposure by using rubber gloves, tongs or other such objects.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ricin poisoning
+	</Title>
+	<Abstract>
+		Ricin is a deadly poison derived from castor bean plants &amp;mdash; the same beans used to make castor oil.
+	</Abstract>
+	<Question>
+		What is ricin, and what should I do if I&apos;m exposed?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+</Answer>

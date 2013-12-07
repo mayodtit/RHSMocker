@@ -399,8 +399,8 @@ Because little is understood about what causes hoarding, there&apos;s no known w
 	<BenefitSummary />
 	<RelatedLinksBox>
 		<LinkItem ContentType="TestProcedure" DocID="MY00186" LinkType="Internal" ObjectID="470A84D0-E7FF-0DBD-14CBD2F07ED3D45E" Title="Psychotherapy" Url="http://www.mayoclinic.com/health/psychotherapy/MY00186" />
-		<LinkItem ContentType="InteractiveTable" DocID="NU00200" LinkType="Internal" ObjectID="03653D0C-535A-4173-B87C8C3E1C28133B" Title="Healthy diet: End the guesswork with these nutrition guidelines" Url="http://www.mayoclinic.com/health/healthy-diet/NU00200" />
 		<LinkItem ContentType="Disease" DocID="DS00189" LinkType="Internal" ObjectID="F27B9E71-0DF5-45AA-9C458EF5AD977003" Title="Obsessive-compulsive disorder (OCD)" Url="http://www.mayoclinic.com/health/obsessive-compulsive-disorder/DS00189" />
+		<LinkItem ContentType="Article" DocID="MY02264" LinkType="Internal" ObjectID="8EFE8D98-FB39-DDA6-A83907E2CAF55403" Title="Healthy diet: Do you follow dietary guidelines?" Url="http://www.mayoclinic.com/health/how-to-eat-healthy/MY02264" />
 		<LinkItem ContentType="Article" DocID="MH00036" LinkType="Internal" ObjectID="4DBCF89B-EE72-487B-AB396FAC59E1847F" Title="Grief: Coping with reminders after a loss" Url="http://www.mayoclinic.com/health/grief/MH00036" />
 	</RelatedLinksBox>
 </Disease>

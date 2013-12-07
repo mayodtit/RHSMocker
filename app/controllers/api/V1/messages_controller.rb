@@ -4,7 +4,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   before_filter :load_message!, :only => :show
 
   def index
-    render_success(:consult => @consult.as_json({}), :messages => messages_with_message_statuses)
+    render_success(:consult => @consult.serializer, :messages => messages_with_message_statuses, :users => @consult.users)
   end
 
   def show
@@ -20,8 +20,8 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   def create
     p = create_params
 
-    if params[:image].present?
-      p.merge!(image: decode_b64_image(params[:image]))
+    if params[:message][:image].present?
+      p.merge!(image: decode_b64_image(params[:message][:image]))
     end
 
     create_resource(@consult.messages, p)

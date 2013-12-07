@@ -1,5 +1,6 @@
 class Content < ActiveRecord::Base
   include SolrExtensionModule
+  CONTENT_TYPES = %w(Article Answer HealthTip FirstAid)
 
   has_many :user_readings
   has_many :users, :through => :user_readings
@@ -9,96 +10,105 @@ class Content < ActiveRecord::Base
   has_many :contents_symptoms_factors
   has_many :symptoms_factors, :through => :contents_symptoms_factors
   has_and_belongs_to_many :symptoms
+  has_many :content_references, foreign_key: :referrer_id
+  has_many :referees, through: :content_references
 
-  attr_accessible :title, :body, :content_type, :abstract, :question, :keywords,
-                  :content_updated_at, :mayo_doc_id, :show_call_option,
-                  :show_checker_option
+  attr_accessible :title, :raw_body, :content_type, :abstract, :question, :keywords,
+                  :content_updated_at, :document_id, :show_call_option,
+                  :show_checker_option, :show_mayo_copyright, :type, :raw_preview,
+                  :state_event, :sensitive
+
+  validates :title, :raw_body, :content_type, :document_id, presence: true
+  validates :show_call_option, :show_checker_option, :show_mayo_copyright,
+            :sensitive, inclusion: {:in => [true, false]}
+  validates :document_id, uniqueness: true
+
+  before_validation :set_defaults, on: :create
 
   searchable do
-    text :body
+    text :raw_body
     text :title, :boost => 2.0
     text :keywords
+    string :type
+    string :state
+  end
+
+  def self.unpublished
+    where(:state => :unpublished)
+  end
+
+  def self.published
+    where(:state => :published)
+  end
+
+  def self.non_sensitive
+    where(sensitive: false)
   end
 
   def self.install_message
     where(:title => 'Welcome to Better!').first
   end
 
-  def self.new_member_content
-    where(:title => ['Your Allergies',
-                     'Your Gender',
-                     'Which of these do you eat?'])
-  end
-
   # TODO - replace in future with root_share_url, move append to UserReading
-  def share_url user_reading_id=nil
-    result = "/contents/#{mayo_doc_id}"
+  def share_url(user_reading_id=nil)
+    result = "/contents/#{document_id}"
     result+= "/#{user_reading_id}" if user_reading_id
     result
   end
 
   def root_share_url
-    mayo_doc_id.present? ? "/contents/#{mayo_doc_id}" : nil
+    document_id.present? ? "/contents/#{document_id}" : nil
   end
 
-  #Content Methods to find types by MCVIDs semantically
-  def self.byGender(gender)
-    genderSpecificIDs = []
-    unless gender.blank?
-       gender = gender[0]
-       if gender <=> 'F'
-         genderSpecificIDs = ['1131','3899','3900']
-       elsif gender <=> 'M'
-         genderSpecificIDs = ['1130','3896','3897']
-       end
+  def self.random
+    published.non_sensitive
+             .where(:content_type => CONTENT_TYPES)
+             .where('document_id != ?', MayoContent::TERMS_OF_SERVICE)
+             .first(order: rand_str)
+  end
 
-       if !genderSpecificIDs.empty?
-          return MayoVocabulary.where(:mcvid => genderSpecificIDs).inject([]){|array, vocab| array << vocab.contents.map(&:id);array}.flatten
-       end
+  def content_type_display
+    if content_type == 'TestProcedure'
+      'Test/Procedure'
+    else
+      content_type.underscore.humanize.titleize
     end
-    []
   end
 
-  def self.mcvidsForAge(age)
-    #Add Age Specific MCVIDS
-    #Birth to 1 month = 1119
-    #2 months to 2 years = 1120
-    #3 to 5 years  = 1121
-    #6 to 12 years = 1122
-    #13 to 18 years = 1123
-    #19 to 44 = 1125
-    #45 to 64 = 1126
-    #65 to 80 = 1127
-    #80 and over = 1128
+  def self.next_for(user)
+    random
+  end
 
-    mcvid_array = []
+  def active_model_serializer
+    ContentSerializer
+  end
 
-    case age
-      when 0..2  then
-        mcvid_array << '1119'
-        mcvid_array << '1120'
-      when 3..5 then
-        mcvid_array << '1121'
-      when 6..12 then
-        mcvid_array << '1122'
-      when 13..18 then
-        mcvid_array << '1123'
-      when 19..44 then
-        mcvid_array << '1125'
-      when 45..64 then
-        mcvid_array << '1126'
-      when 65..80 then
-        mcvid_array << '1127'
-      when 80..200 then
-        mcvid_array << '1128'
+  state_machine :initial => :unpublished do
+    event :publish do
+      transition all => :published
     end
 
-    mcvid_array
+    event :unpublish do
+      transition all => :unpublished
+    end
+
+    after_transition any => any do |content, transition|
+      Sunspot.index content
+      Sunspot.commit
+    end
   end
 
-  # Utility Methods to be removed
-  def self.getRandomContent
-    types = ["Article", "Answer", "Health Tip", "First Aid"]
-    Content.where(:content_type => types).first(:order => "RANDOM()")
+  protected
+
+  # RANDOM() is PSQL specific
+  # TODO: remove this once we migrate over to MySQL
+  def self.rand_str
+    @rand_str ||= (Rails.configuration.database_configuration[Rails.env]['adapter'] == 'postgresql') ? 'RANDOM()' : 'RAND()'
+  end
+
+  def set_defaults
+    self.show_call_option = true if show_call_option.nil?
+    self.show_checker_option = true if show_checker_option.nil?
+    self.show_mayo_copyright = false if show_mayo_copyright.nil?
   end
 end

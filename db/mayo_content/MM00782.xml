@@ -1,0 +1,79 @@
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Video.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Video
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MM00782
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/endoscopic-mucosal-resection/MM00782
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-12
+		</UpdateDate>
+		<PublicationDate>
+			2009-12-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3791" Title="Digestive system">
+						<Keyword MCVID="4449" Title="Endoscopic mucosal resection" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2A2C6CCE-9CF2-FA36-CF2B4AF01D254DCE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword />
+		</MetaKeywords>
+		<HasFlash />
+		<Source />
+		<TermsOfUse DocID="" />
+	</Meta>
+	<Title>
+		Endoscopic mucosal resection
+	</Title>
+	<Abstract>
+		Endoscopic mucosal resection is used to remove suspicious tissue from your digestive tract.
+	</Abstract>
+	<Stream>
+		<VideoFile>
+			/video/streams/mm00782_700.wmv
+		</VideoFile>
+		<Format>
+			WMV
+		</Format>
+	</Stream>
+	<Transcript>
+		&lt;p&gt;
+Endoscopic mucosal resection, or EMR, uses a specially designed endoscope or colonoscope to remove suspect tissue or polyps from your esophagus or colon. The tissue or polyp is first injected with a solution that raises a blister, allowing your doctor to remove the tissue without damaging the rest of the esophagus or colon. The solution also helps decrease bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+Suction is then used to further lift the growth up and away from surrounding tissue. A thin wire loop is slipped over the tissue, and an electric current is passed through the wire. This cuts the growth and helps to seal the wound. Once the growth is free, it&apos;s scooped up in a small wire basket and removed from the digestive tract for analysis in the lab. 
+&lt;/p&gt;
+	</Transcript>
+	<Thumbnail alt="" height="60" uri="/images/video/thumbnail/mm00782_licensingthumb.jpg" width="60" />
+</Video>

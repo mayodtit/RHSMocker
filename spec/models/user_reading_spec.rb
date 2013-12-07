@@ -1,21 +1,48 @@
 require 'spec_helper'
 
 describe UserReading do
-  describe 'factory' do
-    it 'builds a valid object' do
-      build(:user_reading).should be_valid
+  it_has_a 'valid factory'
+  it_validates 'presence of', :user
+  it_validates 'presence of', :content
+  it_validates 'presence of', :viewed_count
+  it_validates 'presence of', :saved_count
+  it_validates 'presence of', :dismissed_count
+  it_validates 'presence of', :shared_count
+
+  describe 'incrementors' do
+    let(:user) { create(:member) }
+    let(:content) { create(:content) }
+
+    describe '::increment_viewed!' do
+      it 'increments viewed_count and saves the record' do
+        ur = described_class.increment_viewed!(user, content)
+        ur.viewed_count.should == 1
+        ur.should be_persisted
+      end
     end
-  end
 
-  describe "validations" do
-    it "should raise an error if either user or content is nil" do
-      u = FactoryGirl.create :user
-      c = FactoryGirl.create :content
+    describe '::increment_saved!' do
+      it 'increments saved_count and saves the record' do
+        ur = described_class.increment_saved!(user, content)
+        ur.saved_count.should == 1
+        ur.should be_persisted
+      end
+    end
 
-      expect{UserReading.create!(user: u)}.to raise_error(Exception)
-      expect{UserReading.create!(content: c)}.to raise_error(Exception)
+    describe '::increment_dismissed!' do
+      it 'increments dismissed_count and saves the record' do
+        ur = described_class.increment_dismissed!(user, content)
+        ur.dismissed_count.should == 1
+        ur.should be_persisted
+      end
+    end
 
-      expect{UserReading.create!(content: c, user: u)}.to_not raise_error(Exception)
+    describe '::increment_shared!' do
+      it 'increments shared_count and saves the record' do
+        ur = described_class.increment_shared!(user, content)
+        ur.shared_count.should == 1
+        ur.should be_persisted
+      end
     end
   end
 end

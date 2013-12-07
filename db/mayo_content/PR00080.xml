@@ -1,0 +1,270 @@
+<SlideShow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SlideShow.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			SlideShow
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			PR00080
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/fetal-positions/PR00080
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-06
+		</UpdateDate>
+		<PublicationDate>
+			2003-08-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5198" Title="Pregnancy week by week">
+							<Keyword MCVID="3427" Title="Week 36" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5201" Title="You and your baby">
+							<Keyword MCVID="3452" Title="Labor and delivery" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="1104" Title="Pregnancy">
+					<Keyword MCVID="1898" Title="Pregnancy week by week">
+						<Keyword MCVID="3746" Title="Third trimester" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			890446E5-32B3-4D9E-A49B78DF2B94E9AF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				childbirth
+			</MetaKeyword>
+			<MetaKeyword>
+				pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				labor
+			</MetaKeyword>
+			<MetaKeyword>
+				fetal position
+			</MetaKeyword>
+			<MetaKeyword>
+				breech
+			</MetaKeyword>
+			<MetaKeyword>
+				breech baby
+			</MetaKeyword>
+			<MetaKeyword>
+				breech birth
+			</MetaKeyword>
+			<MetaKeyword>
+				fetal positions
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Slide show: Fetal positions before birth
+	</Title>
+	<Abstract>
+		Take a peek at the various possible fetal positions before birth.
+	</Abstract>
+	<Slides>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+During pregnancy, babies often twist, stretch and tumble. Before labor begins, however, most babies settle into a position that allows them to be delivered headfirst through the birth canal. That doesn&apos;t always happen, though.
+&lt;/p&gt;
+&lt;p&gt;
+Check out some of the possible fetal positions at the end of pregnancy and find out how they can affect delivery.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Settling into position
+			</Title>
+			<ImageAltText>
+				Illustration of babies in various fetal positions
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/pr_22_fetalpositionintro.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+This baby is in the occiput anterior position, the most preferable &amp;mdash; and common &amp;mdash; fetal position. With the face down and turned slightly to the side, the smallest part of the baby&apos;s head leads the way through the birth canal.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Facing downward
+			</Title>
+			<ImageAltText>
+				Illustration of baby in the facedown position
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/pr22_normalposition.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+This baby is in the occiput posterior position, with the face up toward the mother&apos;s abdomen. In this fetal position, a baby can&apos;t extend his or her head out from under the pubic bone &amp;mdash; which can make delivery more difficult.
+&lt;/p&gt;
+&lt;p&gt;
+Most babies eventually turn on their own, if there&apos;s enough room. Your health care provider might try to rotate the baby manually by reaching through your vagina and using his or her hand as a wedge. Sometimes, forceps are used to rotate or deliver the baby. You might need an incision to extend the opening of the vagina (episiotomy) to ease delivery.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Facing upward
+			</Title>
+			<ImageAltText>
+				Illustration of baby in the faceup position
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/pr22_occiputposition.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+This baby is in the frank breech presentation &amp;mdash; head located near the top of the uterus and buttocks facing the birth canal with both legs pointing straight up in front of the body. The frank breech presentation is the most common type of breech presentation. Your health care provider might try to rotate the baby manually by placing his or her hands on your abdomen, then pushing or lifting (external version). A C-section is usually recommended if a baby remains in a breech position, however.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Buttocks first
+			</Title>
+			<ImageAltText>
+				Illustration of baby in the buttocks-first position
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/pr22_breechbutt.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+This baby is in a complete breech presentation &amp;mdash; head located near the top of the uterus, legs folded at the knees and crossed, and feet near the buttocks. Your health care provider might try to rotate the baby manually by placing his or her hands on your abdomen, then pushing or lifting (external version). A C-section is usually recommended if a baby remains in a breech position, however.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Feet first
+			</Title>
+			<ImageAltText>
+				Illustration of baby in the feet-first position
+			</ImageAltText>
+			<Height>
+				238
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/pr22_breechfeet.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+This baby is in a transverse lie &amp;mdash; positioned horizontally across the uterus, rather than vertically. In a transverse lie, the baby&apos;s back might be positioned down, with one shoulder pointing toward the birth canal, or up, with the hands and feet facing the birth canal. Although many babies lie sideways early in pregnancy, few babies begin labor in this position. Your health care provider might try to rotate the baby manually by placing his or her hands on your abdomen, then pushing or lifting (external version). If labor has already begun, a C-section is generally recommended.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Lying sideways
+			</Title>
+			<ImageAltText>
+				Illustration of baby lying sideways
+			</ImageAltText>
+			<Height>
+				240
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/pr22_breechhorizontal.jpg
+			</URI>
+		</Slide>
+		<Slide>
+			<Caption>
+				&lt;p&gt;
+Twins can usually be delivered vaginally if both babies are in the headfirst position. If only the lower twin is in the headfirst position, as shown here, the lower twin can often be delivered vaginally &amp;mdash; and the second twin can sometimes be turned or delivered feet or buttocks first. If this can&apos;t be done, the second twin might be delivered by C-section. If the lower twin isn&apos;t positioned headfirst or neither twin is headfirst, both twins are usually delivered by C-section.
+&lt;/p&gt;
+			</Caption>
+			<Title>
+				Twins
+			</Title>
+			<ImageAltText>
+				Illustration of twins
+			</ImageAltText>
+			<Height>
+				320
+			</Height>
+			<Width>
+				320
+			</Width>
+			<URI>
+				/images/slideshow/mcdc22_twins_position.jpg
+			</URI>
+		</Slide>
+	</Slides>
+</SlideShow>

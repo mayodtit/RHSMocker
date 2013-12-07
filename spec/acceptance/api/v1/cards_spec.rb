@@ -18,25 +18,15 @@ resource 'Cards' do
   required_parameters :auth_token, :user_id
 
   context 'with many cards' do
-    let!(:unread_card) { create(:card, :user => user) }
-    let!(:read_card) { create(:card, :read, :user => user) }
+    let!(:unsaved_card) { create(:card, :user => user) }
     let!(:saved_card) { create(:card, :saved, :user => user) }
-
-    get '/api/v1/users/:user_id/cards' do
-      example_request "[GET] Get all cards for a user" do
-        explanation "Retreive all non-dismissed cards"
-        status.should == 200
-        json = JSON.parse(response_body, :symbolize_names => true)
-        json[:cards].map{|c| c[:id]}.should include(unread_card.id, read_card.id, saved_card.id)
-      end
-    end
 
     get '/api/v1/users/:user_id/cards/inbox' do
       example_request "[GET] Get inbox cards for a user" do
         explanation "Retreive all inbox cards"
         status.should == 200
         json = JSON.parse(response_body, :symbolize_names => true)
-        json[:cards].map{|c| c[:id]}.should include(unread_card.id, read_card.id)
+        json[:cards].map{|c| c[:id]}.should include(unsaved_card.id)
       end
     end
 
@@ -66,7 +56,7 @@ resource 'Cards' do
     end
 
     put '/api/v1/users/:user_id/cards/:id' do
-      parameter :state_event, 'Card event, one of ["read", "saved", "dismissed"]'
+      parameter :state_event, 'Card event, one of ["saved", "dismissed"]'
       parameter :state_changed_at, 'Change timestamp, required when making a state transition'
 
       scope_parameters :card, [:state_event, :state_changed_at]

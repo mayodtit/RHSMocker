@@ -27,18 +27,4 @@ describe ImportContentModule do
       'Mambo No. 5: Go!'.remove_leading_numbered_list.should == 'Mambo No. 5: Go!'
     end
   end
-
-  describe '#show_call_for_doc_id?(doc_id)' do
-    it 'return true or false given a doc_id (sanity check)' do
-      show_call_for_doc_id?('HT00648').should be_false
-      show_call_for_doc_id?('foobar').should be_true
-    end
-  end
-
-  describe '#show_symptom_for_doc_id?(doc_id)' do
-    it 'return true or false given a doc_id (sanity check)' do
-      show_symptoms_for_doc_id?('HT00648').should be_false
-      show_symptoms_for_doc_id?('foobar').should be_true
-    end
-  end
 end

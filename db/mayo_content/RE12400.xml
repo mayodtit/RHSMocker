@@ -1,0 +1,210 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12400
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tuna-salad/RE12400
+		</OriginalURL>
+		<UpdateDate>
+			2013-07-27
+		</UpdateDate>
+		<PublicationDate>
+			2013-07-27
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			5BAAA2BD-BD3A-73FD-AD9601F5F126DB18
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tuna salad
+			</MetaKeyword>
+			<MetaKeyword>
+				tuna and bean salad
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Quick bean and tuna salad
+	</Title>
+	<Abstract>
+		This tasty variation on tuna salad uses white beans for more texture and fiber.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; To change up this recipe, you can try tuna seasoned with lemon pepper. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat broiler. Place the baguette pieces on a heavy cookie sheet and brush with 1 tablespoon of the oil. Place under broiler for about 1 to 2 minutes, until golden. Turn the bread pieces and broil for an additional 1 or 2 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+In a large bowl, combine the remaining oil, beans, pickles, onion, vinegar and pepper. Fold in the broiled baguette pieces. Divide the mixture among four bowls and top with the tuna and parsley. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1/2 whole-grain baguette, torn into 2-inch pieces&lt;/li&gt;
+	&lt;li&gt;3 tablespoons olive oil&lt;/li&gt;
+	&lt;li&gt;1 16-ounce can cannellini beans, drained and rinsed&lt;/li&gt;
+	&lt;li&gt;2 small dill pickles, cut into bite-size pieces&lt;/li&gt;
+	&lt;li&gt;1 small red onion, thinly sliced&lt;/li&gt;
+	&lt;li&gt;2 tablespoons red wine vinegar&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon pepper&lt;/li&gt;
+	&lt;li&gt;7-ounce pouch tuna, no salt added, drained and rinsed&lt;/li&gt;
+	&lt;li&gt;2 tablespoons finely chopped fresh parsley&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				2
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				2
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				1
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans">
+				1
+			</Nuts_Seeds_Drybeans>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				2
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				2
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				2
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				316
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				31 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				15 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				7 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				7 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				21 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1.5 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				About 1 1/3 cups
+			</Servingsize>
+			<Sodium Label="Sodium">
+				505 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				12 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			No cook
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Beans and legumes
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fish and shellfish
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Salads
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+	</Categorization>
+</Recipe>
