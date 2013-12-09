@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131209172301) do
+ActiveRecord::Schema.define(:version => 20131209173434) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -569,6 +569,7 @@ ActiveRecord::Schema.define(:version => 20131209172301) do
     t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.text     "notes"
   end
 
   create_table "user_readings", :force => true do |t|
