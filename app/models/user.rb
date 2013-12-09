@@ -18,6 +18,7 @@ class User < ActiveRecord::Base
   has_many :treatments, :through=> :user_treatments
   belongs_to :ethnic_group
   belongs_to :diet
+  has_one :user_information
 
   attr_accessible :first_name, :last_name, :avatar, :gender, :height, :birth_date, :email,
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
