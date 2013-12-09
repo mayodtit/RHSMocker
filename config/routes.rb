@@ -26,9 +26,6 @@ RHSMocker::Application.routes.draw do
       resources :phone_calls, only: [:index, :show, :update]
       resources :dashboard, only: :index
       resources :diseases, :only => :index, :controller => :conditions
-      resources :encounters, :only => [:index, :show, :create], :controller => 'consults' do
-        resources :messages, :only => [:index, :show, :create]
-      end
       resources :ethnic_groups, :only => :index
       resources :locations, :only => :create
       resources :members, only: :index

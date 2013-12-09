@@ -5,12 +5,10 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
   def index
     @consults = @user.consults.with_unread_messages_count_for(@user)
     @consults = @consults.where(:status => params[:status]) if params[:status]
-    index_resource(@consults.serializer(include_unread_messages_count: true), name: :encounters) and return if encounter_path?
     index_resource(@consults.serializer(include_unread_messages_count: true))
   end
 
   def show
-    show_resource(@consult.serializer, name: :encounter) and return if encounter_path?
     show_resource(@consult.serializer)
   end
 
@@ -22,7 +20,6 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
       p.delete(:consult_image)
     end
 
-    create_resource(Consult, p, name: :encounter) and return if encounter_path?
     create_resource(Consult, p)
   end
 
@@ -34,18 +31,10 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
   end
 
   def create_params
-    new_params = original_params.merge!(:add_user => @user)
+    new_params = (params[:consult] || {}).merge!(:add_user => @user)
     new_params[:initiator_id] ||= @user.id
     new_params[:subject_id] ||= @user.id
     new_params[:message].merge!(:user => @user) if new_params[:message]
     new_params
-  end
-
-  def encounter_path?
-    request.env['PATH_INFO'].include?('encounter')
-  end
-
-  def original_params
-    (encounter_path? ? params[:encounter] : params[:consult]) || {}
   end
 end
