@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131209173434) do
+ActiveRecord::Schema.define(:version => 20131209195938) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -244,6 +244,15 @@ ActiveRecord::Schema.define(:version => 20131209173434) do
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
     t.text     "metadata_override"
+  end
+
+  create_table "insurance_policies", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "company_name"
+    t.string   "plan_type"
+    t.string   "policy_member_id"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
   create_table "invitations", :force => true do |t|
