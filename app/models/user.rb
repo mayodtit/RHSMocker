@@ -20,6 +20,7 @@ class User < ActiveRecord::Base
   belongs_to :diet
   has_one :user_information
   has_one :insurance_policy
+  has_one :address
 
   attr_accessible :first_name, :last_name, :avatar, :gender, :height, :birth_date, :email,
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
