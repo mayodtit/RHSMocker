@@ -19,18 +19,20 @@ class User < ActiveRecord::Base
   belongs_to :ethnic_group
   belongs_to :diet
   has_one :user_information
-  has_one :insurance_policy
   has_one :address
+  has_one :insurance_policy
   has_one :provider
 
   accepts_nested_attributes_for :user_information
   accepts_nested_attributes_for :address
+  accepts_nested_attributes_for :insurance_policy
   accepts_nested_attributes_for :provider
 
   attr_accessible :first_name, :last_name, :avatar, :gender, :height, :birth_date, :email,
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
                   :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data,
-                  :user_information_attributes, :address_attributes, :provider_attributes
+                  :user_information_attributes, :address_attributes, :insurance_policy_attributes,
+                  :provider_attributes
 
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number

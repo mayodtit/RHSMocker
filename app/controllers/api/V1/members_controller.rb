@@ -12,7 +12,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
   def show
     authorize! :show, @member
     show_resource @member.as_json(include: [:user_information, :ethnic_group, :diet, :address,
-                                            :provider],
+                                            :insurance_policy, :provider],
                                   methods: [:blood_pressure, :avatar_url, :weight, :admin?,
                                             :nurse?])
   end
@@ -21,7 +21,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
     authorize! :update, @member
     if @member.update_attributes(member_attributes)
       render_success(member: @member.as_json(include: [:user_information, :ethnic_group, :diet, :address,
-                                                       :provider],
+                                                       :insurance_policy, :provider],
                                              methods: [:blood_pressure, :avatar_url, :weight, :admin?,
                                                        :nurse?]))
     else
@@ -53,11 +53,13 @@ class Api::V1::MembersController < Api::V1::ABaseController
   def member_attributes
     params[:member][:user_information_attributes] = params[:member][:user_information].dup
     params[:member][:address_attributes] = params[:member][:address].dup
+    params[:member][:insurance_policy_attributes] = params[:member][:insurance_policy].dup
     params[:member][:provider_attributes] = params[:member][:provider].dup
     params.require(:member).permit(:first_name, :last_name, :phone, :gender,
                                    :birth_date, :ethnic_group_id, :diet_id,
                                    user_information_attributes: [:id, :notes],
                                    address_attributes: [:id, :address, :city, :state, :postal_code],
+                                   insurance_policy_attributes: [:id, :company_name, :plan_type, :policy_member_id],
                                    provider_attributes: [:id, :address, :city, :state, :postal_code, :phone])
   end
 end
