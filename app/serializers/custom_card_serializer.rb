@@ -36,7 +36,13 @@ class CustomCardSerializer < ViewSerializer
   end
 
   def card_actions
-    content.try(:card_actions) || [{normal: {title: 'Dismiss', action: :dismiss}}]
+    if content
+      content.card_actions
+    elsif object.card_actions.any?
+      object.card_actions
+    else
+      [{normal: {title: 'Dismiss', action: :dismiss}}]
+    end
   end
 
   def fullscreen_actions
@@ -44,7 +50,13 @@ class CustomCardSerializer < ViewSerializer
   end
 
   def timeline_action
-    content.try(:timeline_action) || {}
+    if content
+      content.timeline_action
+    elsif object.timeline_action.any?
+      object.timeline_action
+    else
+      {}
+    end
   end
 
   def content
