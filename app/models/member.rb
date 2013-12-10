@@ -38,7 +38,7 @@ class Member < User
   after_create :add_install_message
   after_create :add_new_member_content
   after_create :send_welcome_message, :if => lambda{|m| m.email.present?}
-  after_save :update_cards_for_questions!
+  #after_save :update_cards_for_questions!
 
   def self.name_search(string)
     wildcard = "%#{string}%"
