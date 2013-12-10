@@ -16,10 +16,11 @@ class Content < ActiveRecord::Base
   attr_accessible :title, :raw_body, :content_type, :abstract, :question, :keywords,
                   :content_updated_at, :document_id, :show_call_option,
                   :show_checker_option, :show_mayo_copyright, :type, :raw_preview,
-                  :state_event
+                  :state_event, :sensitive
 
   validates :title, :raw_body, :content_type, :document_id, presence: true
-  validates :show_call_option, :show_checker_option, :show_mayo_copyright, inclusion: {:in => [true, false]}
+  validates :show_call_option, :show_checker_option, :show_mayo_copyright,
+            :sensitive, inclusion: {:in => [true, false]}
   validates :document_id, uniqueness: true
 
   before_validation :set_defaults, on: :create
@@ -40,6 +41,10 @@ class Content < ActiveRecord::Base
     where(:state => :published)
   end
 
+  def self.non_sensitive
+    where(sensitive: false)
+  end
+
   def self.install_message
     where(:title => 'Welcome to Better!').first
   end
@@ -56,11 +61,18 @@ class Content < ActiveRecord::Base
   end
 
   def self.random
-    published.where(:content_type => CONTENT_TYPES).first(order: rand_str)
+    published.non_sensitive
+             .where(:content_type => CONTENT_TYPES)
+             .where('document_id != ?', MayoContent::TERMS_OF_SERVICE)
+             .first(order: rand_str)
   end
 
   def content_type_display
-    content_type.underscore.humanize.titleize
+    if content_type == 'TestProcedure'
+      'Test/Procedure'
+    else
+      content_type.underscore.humanize.titleize
+    end
   end
 
   def self.next_for(user)
@@ -73,11 +85,11 @@ class Content < ActiveRecord::Base
 
   state_machine :initial => :unpublished do
     event :publish do
-      transition all - :published => :published
+      transition all => :published
     end
 
     event :unpublish do
-      transition all - :unpublished => :unpublished
+      transition all => :unpublished
     end
 
     after_transition any => any do |content, transition|

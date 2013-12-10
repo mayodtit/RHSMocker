@@ -3,8 +3,11 @@ class CustomCard < ActiveRecord::Base
 
   belongs_to :content
   has_many :cards, as: :resource
+  serialize :card_actions, Array
+  serialize :timeline_action, Hash
 
-  attr_accessible :content, :content_id, :title, :raw_preview
+  attr_accessible :content, :content_id, :title, :raw_preview, :card_actions,
+                  :timeline_actions
 
   validates :title, :raw_preview, presence: true
 

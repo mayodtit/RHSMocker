@@ -3,7 +3,7 @@ class CardSerializer < ViewSerializer
 
   attributes :id, :user_id, :resource_id, :resource_type, :state, :created_at, :updated_at,
              :priority, :state_changed_at, :title, :content_type, :content_type_display,
-             :share_url, :actions
+             :share_url, :actions, :card_actions, :fullscreen_actions, :timeline_action
 
   def attributes
     super.merge!(state_specific_date)
@@ -36,6 +36,17 @@ class CardSerializer < ViewSerializer
 
   def actions
     card_actions
+  end
+
+  def timeline_action
+    if %w(Consult CustomCard).include?(object.resource_type)
+      resource.timeline_action
+    else
+      {
+        action: 'openCard',
+        arguments: {id: object.id}
+      }
+    end
   end
 
   private

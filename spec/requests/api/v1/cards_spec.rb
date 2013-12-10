@@ -70,7 +70,7 @@ describe 'Cards' do
       response.should be_success
       body = JSON.parse(response.body, :symbolize_names => true)
       body[:card][:body].should_not be_nil
-      body[:card].to_json.should == card.serializer(body: true, fullscreen_actions: true).as_json.to_json
+      body[:card].to_json.should == card.serializer(body: true).as_json.to_json
     end
   end
 

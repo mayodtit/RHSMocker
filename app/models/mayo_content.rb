@@ -1,4 +1,5 @@
 class MayoContent < Content
+  TERMS_OF_SERVICE = 'AM00021'
   CSV_COLUMNS = %w(id document_id content_type title)
 
   def self.to_csv

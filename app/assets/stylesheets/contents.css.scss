@@ -39,7 +39,7 @@ body {
 // #########################################################
 
 .content_source{
-  height: 28px;
+  height: 32px;
   text-align: left;
 }
 
@@ -137,16 +137,11 @@ div.content_abstract{
     font-family: "Avenir Next Regular Condensed";
     font-size: 10px;
     color: #999999;
-    height: 56px;
+    height: 42px;
     padding: 10px 0px;
     margin: 0px 5px 78px 5px;
     line-height: normal;
     position: relative;
-    border-top: 1px solid #999999;
-    border-bottom: 1px solid #999999;
-    div {
-      width: 170px;
-    }
     img {
       position: absolute;
       top: 10px;
@@ -180,8 +175,8 @@ img.top_icon {
 }
 
 img.mayo_icon {
-    width:90px;
-    padding: 4px 0px 4px 10px;
+  width:90px;
+  padding: 4px 0px 4px 10px;
 }
 
 .section-head {

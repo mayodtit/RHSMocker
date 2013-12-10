@@ -34,10 +34,11 @@ class Member < User
   validates :units, :inclusion => {:in => %w(US Metric)}
   validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :if => lambda{|m| m.signed_up? || m.password}
 
-  after_create :login # generate inital auth_token
+  before_create :set_auth_token # generate inital auth_token
   after_create :add_install_message
   after_create :add_new_member_content
   after_create :send_welcome_message, :if => lambda{|m| m.email.present?}
+  #after_save :update_cards_for_questions!
 
   def self.name_search(string)
     wildcard = "%#{string}%"
@@ -142,5 +143,16 @@ class Member < User
 
   def terms_of_service_and_privacy_policy
     user_agreements.map(&:agreement_id).to_set.superset?(Agreement.active.pluck(:id).to_set)
+  end
+
+  private
+
+  def set_auth_token
+    self.auth_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
+  end
+
+  def update_cards_for_questions!
+    cards.for_resource(Question.find_by_view(:gender)).try(:saved!) if gender_changed?
+    true
   end
 end

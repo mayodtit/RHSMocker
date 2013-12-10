@@ -11,7 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131203002116) do
+ActiveRecord::Schema.define(:version => 20131210064535) do
+
+  create_table "addresses", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "address"
+    t.string   "city"
+    t.string   "state"
+    t.string   "postal_code"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -136,22 +146,23 @@ ActiveRecord::Schema.define(:version => 20131203002116) do
   end
 
   create_table "contents", :force => true do |t|
-    t.string   "title",               :default => "",   :null => false
+    t.string   "title",               :default => "",    :null => false
     t.text     "raw_body"
-    t.datetime "created_at",                            :null => false
-    t.datetime "updated_at",                            :null => false
-    t.string   "content_type",        :default => "",   :null => false
+    t.datetime "created_at",                             :null => false
+    t.datetime "updated_at",                             :null => false
+    t.string   "content_type",        :default => "",    :null => false
     t.text     "abstract"
     t.text     "question"
     t.text     "keywords"
     t.datetime "content_updated_at"
-    t.string   "document_id",         :default => "",   :null => false
-    t.boolean  "show_call_option",    :default => true, :null => false
-    t.boolean  "show_checker_option", :default => true, :null => false
-    t.boolean  "show_mayo_copyright", :default => true, :null => false
+    t.string   "document_id",         :default => "",    :null => false
+    t.boolean  "show_call_option",    :default => true,  :null => false
+    t.boolean  "show_checker_option", :default => true,  :null => false
+    t.boolean  "show_mayo_copyright", :default => true,  :null => false
     t.string   "type"
     t.text     "raw_preview"
     t.string   "state"
+    t.boolean  "sensitive",           :default => false, :null => false
   end
 
   add_index "contents", ["document_id"], :name => "index_contents_on_document_id"
@@ -188,8 +199,10 @@ ActiveRecord::Schema.define(:version => 20131203002116) do
     t.integer  "content_id"
     t.string   "title"
     t.text     "raw_preview"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+    t.text     "card_actions"
+    t.text     "timeline_action"
   end
 
   create_table "delayed_jobs", :force => true do |t|
@@ -235,6 +248,7 @@ ActiveRecord::Schema.define(:version => 20131203002116) do
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "gender"
   end
 
   create_table "feature_groups", :force => true do |t|
@@ -242,6 +256,15 @@ ActiveRecord::Schema.define(:version => 20131203002116) do
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
     t.text     "metadata_override"
+  end
+
+  create_table "insurance_policies", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "company_name"
+    t.string   "plan_type"
+    t.string   "policy_member_id"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
   create_table "invitations", :force => true do |t|
@@ -384,6 +407,17 @@ ActiveRecord::Schema.define(:version => 20131203002116) do
     t.string   "title",      :null => false
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "providers", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "address"
+    t.string   "city"
+    t.string   "state"
+    t.string   "postal_code"
+    t.string   "phone"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "questions", :force => true do |t|
@@ -561,6 +595,13 @@ ActiveRecord::Schema.define(:version => 20131203002116) do
     t.integer  "feature_group_id"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
+  end
+
+  create_table "user_informations", :force => true do |t|
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.text     "notes"
   end
 
   create_table "user_readings", :force => true do |t|
