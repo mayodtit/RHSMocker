@@ -11,12 +11,20 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def show
     authorize! :show, @member
-    show_resource @member
+    show_resource @member.as_json(include: [:user_information, :ethnic_group, :diet],
+                                  methods: [:blood_pressure, :avatar_url, :weight, :admin?,
+                                            :nurse?])
   end
 
   def update
     authorize! :update, @member
-    update_resource @member, params[:member]
+    if @member.update_attributes(member_attributes)
+      render_success(member: @member.as_json(include: [:user_information, :ethnic_group, :diet],
+                                             methods: [:blood_pressure, :avatar_url, :weight, :admin?,
+                                                       :nurse?]))
+    else
+      render_failure({reason: @member.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   private
@@ -38,5 +46,11 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def load_member!
     @member = Member.find(params[:id])
+  end
+
+  def member_attributes
+    params[:member][:user_information_attributes] = params[:member][:user_information].dup
+    params.require(:member).permit(:first_name, :last_name, :phone, :gender,
+                                   :birth_date, :ethnic_group_id, :diet_id, user_information_attributes: [:id, :notes])
   end
 end

@@ -22,9 +22,12 @@ class User < ActiveRecord::Base
   has_one :insurance_policy
   has_one :address
 
+  accepts_nested_attributes_for :user_information
+
   attr_accessible :first_name, :last_name, :avatar, :gender, :height, :birth_date, :email,
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
-                  :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data
+                  :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data,
+                  :user_information_attributes
 
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
