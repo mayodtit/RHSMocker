@@ -210,7 +210,6 @@ GEM
     parallel (0.8.0)
     parallel_tests (0.15.3)
       parallel
-    pg (0.13.2)
     polyglot (0.3.3)
     pr_geohash (1.0.0)
     progress_bar (0.4.0)
@@ -382,7 +381,6 @@ DEPENDENCIES
   newrelic_rpm
   nokogiri
   parallel_tests
-  pg
   progress_bar
   pusher
   raddocs!

@@ -4,10 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.16' # Caltrain
 gem 'nokogiri'        # content parsing
 gem 'newrelic_rpm'    # Monitoring
-
-# TODO : change this to just mysql after the production migration
-gem 'pg', group: :staging
-gem 'mysql2', group: [:development, :qa, :production, :test]
+gem 'mysql2'          # db
 
 #installing therubyracer, less-rails, and twitter-bootstrap-rails
 gem 'therubyracer'
