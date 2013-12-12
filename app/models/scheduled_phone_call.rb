@@ -8,7 +8,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
   attr_accessible :user, :user_id, :phone_call, :phone_call_id, :message, :scheduled_at,
                   :message_attributes
 
-  validates :user, :message, :scheduled_at, presence: true
+  validates :user, :scheduled_at, presence: true
 
   accepts_nested_attributes_for :message
 

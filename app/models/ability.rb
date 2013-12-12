@@ -18,8 +18,8 @@ class Ability
       o.users.include?(user)
     end
 
-    can :manage, PhoneCallSummary do |pcs|
-      pcs.message.consult.users.include?(user)
+    can :manage, [ScheduledPhoneCall, PhoneCallSummary] do |o|
+      can? :manage, o.message.consult
     end
 
     cannot :manage, Program

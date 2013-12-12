@@ -17,7 +17,6 @@ RHSMocker::Application.routes.draw do
       resources :conditions, :only => :index
       resources :consults, :only => [:index, :show, :create] do
         resources :messages, :only => [:index, :show, :create]
-        resources :scheduled_phone_calls, :except => [:new, :edit]
         resources :phone_calls, only: [:index, :show, :create], controller: 'consult_phone_calls'
         resources :users, only: :index, controller: 'consult_users'
       end
@@ -44,6 +43,7 @@ RHSMocker::Application.routes.draw do
       end
       resources :remote_events, :only => :create
       resources :reset_password, only: [:create, :show, :update]
+      resources :scheduled_phone_calls, :except => [:new, :edit]
       resources :side_effects, :only => :index
       resources :symptoms, :only => :index
       resources :treatments, :only => :index
