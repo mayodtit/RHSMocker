@@ -16,7 +16,7 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
         render_success
       else
         if user.valid?
-          user.add_role :nurse
+          user.add_role :nurse if params[:role].nil? || params[:role] == 'nurse' # accept nil for compatibility
 
           # Resend invitations if one exists for that user.
           invitation = Invitation.find_by_invited_member_id user.id
@@ -43,7 +43,8 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
           :methods => [:full_name]
         },
         :invited_member => {
-          :only => [:email, :first_name, :last_name]
+          :only => [:email, :first_name, :last_name],
+          :methods => :nurse?
         }
       }
     )
