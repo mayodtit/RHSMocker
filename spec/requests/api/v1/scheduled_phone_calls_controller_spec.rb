@@ -16,7 +16,7 @@ describe 'ScheduledPhoneCall' do
         do_request
         response.should be_success
         body = JSON.parse(response.body, :symbolize_names => true)
-        body[:scheduled_phone_calls].to_json.should == [scheduled_phone_call].as_json.to_json
+        body[:scheduled_phone_calls].to_json.should == [scheduled_phone_call].serializer.as_json.to_json
       end
     end
 
@@ -29,7 +29,7 @@ describe 'ScheduledPhoneCall' do
         do_request
         response.should be_success
         body = JSON.parse(response.body, :symbolize_names => true)
-        body[:scheduled_phone_call].to_json.should == scheduled_phone_call.as_json.to_json
+        body[:scheduled_phone_call].to_json.should == scheduled_phone_call.serializer.as_json.to_json
       end
     end
 
@@ -45,7 +45,7 @@ describe 'ScheduledPhoneCall' do
         do_request(:scheduled_at => time)
         response.should be_success
         body = JSON.parse(response.body, :symbolize_names => true)
-        body[:scheduled_phone_call].to_json.should == scheduled_phone_call.reload.as_json.to_json
+        body[:scheduled_phone_call].to_json.should == scheduled_phone_call.reload.serializer.as_json.to_json
         scheduled_phone_call.scheduled_at.to_json.should == time.as_json.to_json
       end
     end

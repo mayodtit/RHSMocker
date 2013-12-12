@@ -4,11 +4,11 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   before_filter :load_scheduled_phone_call!, only: [:show, :update, :destroy]
 
   def index
-    index_resource @scheduled_phone_calls
+    index_resource @scheduled_phone_calls.serializer
   end
 
   def show
-    show_resource @scheduled_phone_call
+    show_resource @scheduled_phone_call.serializer
   end
 
   def create

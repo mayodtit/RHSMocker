@@ -25,7 +25,7 @@ describe Api::V1::ScheduledPhoneCallsController do
       it 'returns an array of scheduled_phone_calls' do
         do_request
         json = JSON.parse(response.body)
-        json['scheduled_phone_calls'].to_json.should == [scheduled_phone_call.as_json].to_json
+        json['scheduled_phone_calls'].to_json.should == [scheduled_phone_call].serializer.as_json.to_json
       end
     end
   end
@@ -48,7 +48,7 @@ describe Api::V1::ScheduledPhoneCallsController do
       it 'returns the scheduled_phone_call' do
         do_request
         json = JSON.parse(response.body, symbolize_names: true)
-        json[:scheduled_phone_call].to_json.should == scheduled_phone_call.to_json
+        json[:scheduled_phone_call].to_json.should == scheduled_phone_call.serializer.to_json
       end
     end
   end
@@ -76,7 +76,7 @@ describe Api::V1::ScheduledPhoneCallsController do
         it 'returns the scheduled_phone_call' do
           do_request
           json = JSON.parse(response.body)
-          json['scheduled_phone_call'].to_json.should == scheduled_phone_call.as_json.to_json
+          json['scheduled_phone_call'].to_json.should == scheduled_phone_call.serializer.as_json.to_json
         end
       end
 

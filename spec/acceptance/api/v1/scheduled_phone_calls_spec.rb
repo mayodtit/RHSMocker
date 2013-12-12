@@ -20,7 +20,7 @@ resource "ScheduledPhoneCalls" do
         explanation "Returns an array of scheduled_phone_calls"
         status.should == 200
         body = JSON.parse(response_body, :symbolize_names => true)
-        body[:scheduled_phone_calls].to_json.should == [scheduled_phone_call].as_json.to_json
+        body[:scheduled_phone_calls].to_json.should == [scheduled_phone_call].serializer.to_json
       end
     end
 
@@ -29,7 +29,7 @@ resource "ScheduledPhoneCalls" do
         explanation "Returns the scheduled_phone_call"
         status.should == 200
         body = JSON.parse(response_body, :symbolize_names => true)
-        body[:scheduled_phone_call].to_json.should == scheduled_phone_call.as_json.to_json
+        body[:scheduled_phone_call].to_json.should == scheduled_phone_call.serializer.to_json
       end
     end
 
