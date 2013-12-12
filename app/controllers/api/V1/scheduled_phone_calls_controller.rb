@@ -4,7 +4,7 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   before_filter :load_scheduled_phone_call!, only: [:show, :update, :destroy]
 
   def index
-    index_resource @scheduled_phone_calls.serializer
+    index_resource @scheduled_phone_calls.not_ended.serializer
   end
 
   def show
@@ -38,6 +38,6 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   def scheduled_phone_call_attributes
     params.require(:scheduled_phone_call).tap do |attributes|
       attributes[:user_id] = @user.id unless (@scheduled_phone_call.try(:user_id) || attributes[:user_id])
-    end.permit(:scheduled_at, :user_id, :owner_id)
+    end.permit(:scheduled_at, :user_id, :owner_id, :state_event)
   end
 end

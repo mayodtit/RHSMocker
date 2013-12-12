@@ -7,7 +7,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
   has_one :message, :inverse_of => :scheduled_phone_call
 
   attr_accessible :user, :user_id, :owner, :owner_id, :phone_call, :phone_call_id,
-                  :message, :scheduled_at, :message_attributes
+                  :message, :scheduled_at, :message_attributes, :state_event
 
   validates :user, :scheduled_at, presence: true
 
@@ -16,6 +16,10 @@ class ScheduledPhoneCall < ActiveRecord::Base
   after_create :notify_user
 
   delegate :consult, :to => :message
+
+  def self.not_ended
+    where(state: [:unclaimed, :claimed])
+  end
 
   def calendar_event
     RiCal.Event do |event|
@@ -26,6 +30,20 @@ class ScheduledPhoneCall < ActiveRecord::Base
       event.location = user.phone || '555-555-5555'
       event.attendee = user.email
       event.organizer = 'noreply@getbetter.com'
+    end
+  end
+
+  state_machine initial: :unclaimed do
+    event :claim do
+      transition :unclaimed => :claimed
+    end
+
+    event :end do
+      transition any - :ended => :ended
+    end
+
+    event :reset do
+      transition any - :unclaimed => :unclaimed
     end
   end
 
