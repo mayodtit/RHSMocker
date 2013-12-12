@@ -15,7 +15,7 @@ describe Api::V1::ScheduledPhoneCallsController do
     end
 
     before do
-      ScheduledPhoneCall.stub(scoped: [scheduled_phone_call])
+      ScheduledPhoneCall.stub_chain(:scoped, :not_ended).and_return([scheduled_phone_call])
     end
 
     it_behaves_like 'action requiring authentication and authorization'
