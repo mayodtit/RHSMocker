@@ -4,6 +4,7 @@ class Api::V1::DashboardController < Api::V1::ABaseController
   def index
     render_success(counts: {
                              members: Member.count,
+                             scheduled_phone_calls: ScheduledPhoneCall.not_ended.count,
                              contents: Content.count,
                              custom_cards: CustomCard.count,
                              custom_contents: CustomContent.count,
