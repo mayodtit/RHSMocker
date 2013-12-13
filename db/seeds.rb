@@ -14,6 +14,8 @@ Question.upsert_attributes({:view => :gender}, {:title => 'Your Gender'})
 Question.upsert_attributes({:view => :allergies}, {:title => 'Your Allergies'})
 Question.upsert_attributes({:view => :diet}, {:title => 'Which of these do you eat?'})
 
+CustomCard.upsert_attributes({title: 'Welcome to Better Premium'}, {raw_preview: "<div class=\"new-consult\" data-message=\"I would like to schedule an onboarding call with a Personal Health Assistant\" data-consult-type=\"schedule\">\nClick here to schedule a phone call with your Personal Health Assistant\n</div>"})
+
 # Create some default Members
 #nancy  = Member.create!(first_name: "Nancy", last_name: "Smith",   gender:"F", birth_date:"06/18/1950", install_id: "123345")
 #bob  = Member.create!(first_name: "Bob",   last_name: "Jones",   gender:"M", birth_date:"01/10/1973", install_id: "122233")

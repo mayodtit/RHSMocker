@@ -11,7 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131206231812) do
+ActiveRecord::Schema.define(:version => 20131210064535) do
+
+  create_table "addresses", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "address"
+    t.string   "city"
+    t.string   "state"
+    t.string   "postal_code"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -189,8 +199,10 @@ ActiveRecord::Schema.define(:version => 20131206231812) do
     t.integer  "content_id"
     t.string   "title"
     t.text     "raw_preview"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+    t.text     "card_actions"
+    t.text     "timeline_action"
   end
 
   create_table "delayed_jobs", :force => true do |t|
@@ -244,6 +256,15 @@ ActiveRecord::Schema.define(:version => 20131206231812) do
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
     t.text     "metadata_override"
+  end
+
+  create_table "insurance_policies", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "company_name"
+    t.string   "plan_type"
+    t.string   "policy_member_id"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
   create_table "invitations", :force => true do |t|
@@ -386,6 +407,17 @@ ActiveRecord::Schema.define(:version => 20131206231812) do
     t.string   "title",      :null => false
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "providers", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "address"
+    t.string   "city"
+    t.string   "state"
+    t.string   "postal_code"
+    t.string   "phone"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "questions", :force => true do |t|
@@ -563,6 +595,13 @@ ActiveRecord::Schema.define(:version => 20131206231812) do
     t.integer  "feature_group_id"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
+  end
+
+  create_table "user_informations", :force => true do |t|
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.text     "notes"
   end
 
   create_table "user_readings", :force => true do |t|

@@ -15,7 +15,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def create
-    @user = Member.create(user_params)
+    @user = Member.create(create_params)
     if @user.errors.empty?
       render_success(user: @user, auth_token: @user.auth_token)
     else
@@ -94,9 +94,13 @@ class Api::V1::UsersController < Api::V1::ABaseController
     }
   end
 
+  def create_params
+    user_params.merge!(params.require(:user).permit(:email, :password))
+  end
+
   def user_params
     permitted_params = common_params
-    permitted_params.merge!(params.require(:user).permit(:email, :password)) unless @user
+    permitted_params.merge!(params.require(:user).permit(:email)) if current_user != @user
     permitted_params.merge!(client_data: client_data_params) if client_data_params
     permitted_params
   end

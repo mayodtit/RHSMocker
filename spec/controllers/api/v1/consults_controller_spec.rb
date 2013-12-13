@@ -57,7 +57,7 @@ describe Api::V1::ConsultsController do
 
   describe 'POST create' do
     def do_request
-      post :create, consult: consult.as_json
+      post :create, consult: attributes_for(:consult)
     end
 
     before(:each) do

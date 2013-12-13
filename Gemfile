@@ -9,9 +9,7 @@ gem 'newrelic_rpm'    # Monitoring
 # There's a Pivotal chore to migrate this to strong_params (the new convention in Rails 4)
 gem 'protected_attributes'
 
-# TODO : change this to just mysql after the production migration
-gem 'pg', group: :staging
-gem 'mysql2', group: [:development, :qa, :production, :test]
+gem 'mysql2'          # db
 
 #installing therubyracer, less-rails, and twitter-bootstrap-rails
 gem 'therubyracer'

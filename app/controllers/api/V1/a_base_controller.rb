@@ -95,7 +95,7 @@ module Api
       end
 
       def testing_environment?
-        %w(development staging test).include?(Rails.env)
+        %w(development test).include?(Rails.env)
       end
     end
   end

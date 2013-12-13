@@ -39,7 +39,7 @@ class CardSerializer < ViewSerializer
   end
 
   def timeline_action
-    if object.resource_type == 'Consult'
+    if %w(Consult CustomCard).include?(object.resource_type)
       resource.timeline_action
     else
       {

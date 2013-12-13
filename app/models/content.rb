@@ -64,7 +64,7 @@ class Content < ActiveRecord::Base
     published.non_sensitive
              .where(:content_type => CONTENT_TYPES)
              .where('document_id != ?', MayoContent::TERMS_OF_SERVICE)
-             .first(order: rand_str)
+             .first(order: 'RAND()')
   end
 
   def content_type_display
@@ -99,12 +99,6 @@ class Content < ActiveRecord::Base
   end
 
   protected
-
-  # RANDOM() is PSQL specific
-  # TODO: remove this once we migrate over to MySQL
-  def self.rand_str
-    @rand_str ||= (Rails.configuration.database_configuration[Rails.env]['adapter'] == 'postgresql') ? 'RANDOM()' : 'RAND()'
-  end
 
   def set_defaults
     self.show_call_option = true if show_call_option.nil?
