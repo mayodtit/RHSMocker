@@ -16,7 +16,11 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
         render_success
       else
         if user.valid?
-          user.add_role :nurse if params[:role].nil? || params[:role] == 'nurse' # accept nil for compatibility
+          if params[:role].nil? || params[:role] == 'nurse' # accept nil for compatibility
+            user.add_role :nurse
+          elsif params[:role] == 'premium'
+            user.cards.create!(resource: CustomCard.find_by_title('Welcome to Better Premium'))
+          end
 
           # Resend invitations if one exists for that user.
           invitation = Invitation.find_by_invited_member_id user.id
