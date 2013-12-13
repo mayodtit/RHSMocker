@@ -1,7 +1,7 @@
 class CustomCardSerializer < ViewSerializer
   self.root = false
 
-  attributes :id, :title, :content_id
+  attributes :id, :title, :content_id, :priority
   has_one :content
 
   def preview
