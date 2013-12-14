@@ -21,7 +21,7 @@ class UserMailer < ActionMailer::Base
     @user = user
     @invitor = invitor
     @url = invite_url(@user.invitation_token)
-    subject = user.nurse? ? "#{invitor.full_name} invited you to care for patients with Better!" : 'Complete your registration to Better'
+    subject = user.care_provider? ? "#{invitor.full_name} invited you to care for patients with Better!" : 'Complete your registration to Better'
     mail(to: user.email, subject: subject)
   end
 
