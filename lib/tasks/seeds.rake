@@ -190,7 +190,7 @@ namespace :seeds do
     end
 
     puts 'Creating members, a family member, and a call about that family member...'
-    %w(parent@example.com child@example.com sibling@example.com caretaker@example.com).each do |email|
+    %w(polly@example.com crissy@example.com samantha@example.com clementine@example.com).each do |email|
       m = Member.find_or_create_by_email!(
         email: email,
         agreement_params: {
