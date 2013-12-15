@@ -78,7 +78,7 @@ class Member < User
   end
 
   def care_provider?
-    has_role?(:nurse) || has_role?(:pha)
+    pha? || nurse?
   end
 
   def login

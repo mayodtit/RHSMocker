@@ -43,7 +43,7 @@ describe Api::V1::UsersController do
       it 'returns the user' do
         do_request
         json = JSON.parse(response.body, symbolize_names: true)
-        json[:user].to_json.should == user.as_json(only: [:first_name, :last_name, :email], methods: [:full_name, :admin?, :nurse?]).to_json
+        json[:user].to_json.should == user.as_json(only: [:first_name, :last_name, :email], methods: [:full_name, :admin?, :nurse?, :pha?, :care_provider?]).to_json
       end
     end
   end

@@ -35,11 +35,15 @@ class Ability
     end
 
     if user.nurse?
-      can :ru, PhoneCall
+      can :ru, PhoneCall do |o|
+        o.to_nurse?
+      end
     end
 
     if user.pha?
-      can :ru, PhoneCall
+      can :ru, PhoneCall do |o|
+        o.to_pha?
+      end
     end
   end
 end

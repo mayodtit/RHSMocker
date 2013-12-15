@@ -1,7 +1,16 @@
 require 'spec_helper'
 
 describe Api::V1::PhoneCallsController do
-  let(:user) { build_stubbed :member }
+  let(:user) do
+    member = build_stubbed :member
+    member.add_role :nurse
+    member
+  end
+
+  let(:nurse_role) do
+    Role.find_by_name! :nurse
+  end
+
   let(:ability) { Object.new.extend(CanCan::Ability) }
 
   before(:each) do
@@ -37,7 +46,7 @@ describe Api::V1::PhoneCallsController do
       end
 
       it 'doesn\'t permit other query parameters' do
-        PhoneCall.should_receive(:where).with('state' => 'unclaimed') {
+        PhoneCall.should_receive(:where).with(:to_role_id => nurse_role.id, 'state' => 'unclaimed') {
           o = Object.new
           o.stub(:order).with('created_at ASC') {
             o_o = Object.new

@@ -4,7 +4,8 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
 
   def index
     authorize! :read, PhoneCall
-    index_resource PhoneCall.where(params.permit(:state)).order('created_at ASC').as_json(
+
+    index_resource PhoneCall.where({to_role_id: current_user.roles.first.id}.merge(params.permit(:state))).order('created_at ASC').as_json(
       include: {
         user: {
           only: [:first_name, :last_name, :email],
