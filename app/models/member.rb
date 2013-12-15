@@ -73,6 +73,14 @@ class Member < User
     has_role?(:nurse) || has_role?(:admin)
   end
 
+  def pha?
+    has_role?(:pha) || has_role?(:admin)
+  end
+
+  def care_provider?
+    pha? || nurse?
+  end
+
   def login
     update_attribute :auth_token, Base64.urlsafe_encode64(SecureRandom.base64(36))
   end

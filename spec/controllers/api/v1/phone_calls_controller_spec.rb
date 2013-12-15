@@ -1,7 +1,16 @@
 require 'spec_helper'
 
 describe Api::V1::PhoneCallsController do
-  let(:user) { build_stubbed :member }
+  let(:user) do
+    member = build_stubbed :member
+    member.add_role :nurse
+    member
+  end
+
+  let(:nurse_role) do
+    Role.find_by_name! :nurse
+  end
+
   let(:ability) { Object.new.extend(CanCan::Ability) }
 
   before(:each) do
@@ -17,12 +26,12 @@ describe Api::V1::PhoneCallsController do
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       before do
-        @json = [{},{}]
+        @phone_calls = [build_stubbed(:phone_call), build_stubbed(:phone_call)]
         PhoneCall.stub(:where) {
           o = Object.new
           o.stub(:order).with('created_at ASC') {
             o_o = Object.new
-            o_o.stub(:as_json) { @json }
+            o_o.stub(:find_each).and_yield(@phone_calls[0]).and_yield(@phone_calls[1])
             o_o
           }
           o
@@ -32,7 +41,16 @@ describe Api::V1::PhoneCallsController do
       it_behaves_like 'success'
 
       it 'returns phone calls with the state parameter' do
-        controller.should_receive(:index_resource).with(@json).and_call_original
+        json = @phone_calls.as_json(
+          include: {
+            user: {
+              only: [:first_name, :last_name, :email],
+              methods: [:full_name]
+            }
+          }
+        )
+
+        controller.should_receive(:index_resource).with(json).and_call_original
         get :index, auth_token: user.auth_token, state: 'unclaimed'
       end
 
@@ -41,7 +59,7 @@ describe Api::V1::PhoneCallsController do
           o = Object.new
           o.stub(:order).with('created_at ASC') {
             o_o = Object.new
-            o_o.stub(:as_json) { @json }
+            o_o.stub(:find_each).and_yield(@phone_calls[0]).and_yield(@phone_calls[1])
             o_o
           }
           o

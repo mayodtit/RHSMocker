@@ -7,9 +7,9 @@ resource "PhoneCalls" do
 
   let!(:user) { create(:nurse) }
   let(:auth_token) { user.auth_token }
-  let!(:phone_call) { create(:phone_call) }
-  let!(:other_phone_call) { create(:phone_call) }
-  let!(:claimed_phone_call) { create(:phone_call, state: :claimed) }
+  let!(:phone_call) { create(:phone_call, to_role: user.roles.first) }
+  let!(:other_phone_call) { create(:phone_call, to_role: user.roles.first) }
+  let!(:claimed_phone_call) { create(:phone_call, state: :claimed, to_role: user.roles.first) }
 
   before(:each) do
     user.login
