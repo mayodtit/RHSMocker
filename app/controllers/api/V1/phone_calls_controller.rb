@@ -5,7 +5,12 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
   def index
     authorize! :read, PhoneCall
 
-    index_resource PhoneCall.where({to_role_id: current_user.roles.first.id}.merge(params.permit(:state))).order('created_at ASC').as_json(
+    phone_calls = []
+    PhoneCall.where(params.permit(:state)).order('created_at ASC').find_each do |p|
+      phone_calls.push(p) if can? :read, p
+    end
+
+    index_resource phone_calls.as_json(
       include: {
         user: {
           only: [:first_name, :last_name, :email],

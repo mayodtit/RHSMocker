@@ -26,12 +26,12 @@ describe Api::V1::PhoneCallsController do
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       before do
-        @json = [{},{}]
+        @phone_calls = [build_stubbed(:phone_call), build_stubbed(:phone_call)]
         PhoneCall.stub(:where) {
           o = Object.new
           o.stub(:order).with('created_at ASC') {
             o_o = Object.new
-            o_o.stub(:as_json) { @json }
+            o_o.stub(:find_each).and_yield(@phone_calls[0]).and_yield(@phone_calls[1])
             o_o
           }
           o
@@ -41,16 +41,25 @@ describe Api::V1::PhoneCallsController do
       it_behaves_like 'success'
 
       it 'returns phone calls with the state parameter' do
-        controller.should_receive(:index_resource).with(@json).and_call_original
+        json = @phone_calls.as_json(
+          include: {
+            user: {
+              only: [:first_name, :last_name, :email],
+              methods: [:full_name]
+            }
+          }
+        )
+
+        controller.should_receive(:index_resource).with(json).and_call_original
         get :index, auth_token: user.auth_token, state: 'unclaimed'
       end
 
       it 'doesn\'t permit other query parameters' do
-        PhoneCall.should_receive(:where).with(:to_role_id => nurse_role.id, 'state' => 'unclaimed') {
+        PhoneCall.should_receive(:where).with('state' => 'unclaimed') {
           o = Object.new
           o.stub(:order).with('created_at ASC') {
             o_o = Object.new
-            o_o.stub(:as_json) { @json }
+            o_o.stub(:find_each).and_yield(@phone_calls[0]).and_yield(@phone_calls[1])
             o_o
           }
           o
