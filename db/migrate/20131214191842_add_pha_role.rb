@@ -4,6 +4,6 @@ class AddPhaRole < ActiveRecord::Migration
   end
 
   def down
-    Role.find_by_name!('pha').delete
+    Role.find_by_name!('pha').destroy
   end
 end
