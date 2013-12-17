@@ -133,8 +133,7 @@ class SymptomCheckerImporter
   end
 
   def create_models_from_attributes!
-    @symptom = Symptom.upsert_attributes!({name: @attributes[:symptom][:name]},
-                               @attributes[:symptom])
+    @symptom = Symptom.where(@attributes[:symptom]).first_or_create!
     med_advice = SymptomMedicalAdvice.upsert_attributes({symptom_id: @symptom.id},
                                                         {description: @attributes[:medical_advice][:description]})
     @attributes[:medical_advice][:items].each do |item|
