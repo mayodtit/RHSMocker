@@ -17,7 +17,6 @@ class SymptomCheckerImporter
 
   def get_attributes_from_filename!
     @attributes[:symptom] = {
-                              name: @filename.split('.')[0].split('_')[2].titleize,
                               patient_type: @filename.split('.')[0].split('_')[1].downcase
                             }
   end
@@ -36,6 +35,8 @@ class SymptomCheckerImporter
   end
 
   def get_symptom_description!
+    advance_index_to_match!('Title')
+    @attributes[:symptom][:name] = @lines[advance_index_past_blank!].strip
     advance_index_to_match!('tease')
     @attributes[:symptom][:description] = @lines[advance_index_past_blank!].strip
   end
