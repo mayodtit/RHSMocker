@@ -1,9 +1,10 @@
 class SymptomCheckerImporter
-  def initialize(xml_data, filename)
+  def initialize(xml_data, filename, logger=nil)
     @data = xml_data
     @filename = Pathname.new(filename).basename.to_s
     @attributes = {}
     @index = 0
+    @logger = logger
   end
 
   def import
@@ -11,9 +12,18 @@ class SymptomCheckerImporter
     read_lines_from_xml!
     parse_lines!
     create_models_from_attributes!
+    log_output!
   end
 
   private
+
+  def log(message)
+    if @logger
+      @logger.info(message)
+    else
+      puts message
+    end
+  end
 
   def get_attributes_from_filename!
     @attributes[:symptom] = {
@@ -188,5 +198,32 @@ class SymptomCheckerImporter
       end
     end
     raise "Factor not found for '#{search}'"
+  end
+
+  def log_output!
+    log "Symptom: \"#{@attributes[:symptom][:name]}\""
+    log "  Patient Type: \"#{@attributes[:symptom][:patient_type]}\""
+    log "  Description: \"#{@attributes[:symptom][:description]}\""
+    log "  Medical Advice:"
+    log "    Description: \"#{@attributes[:medical_advice][:description]}\""
+    log "    Items:" if @attributes[:medical_advice][:items].any?
+    @attributes[:medical_advice][:items].each do |item|
+      log "      Description: \"#{item[:description]}\""
+    end
+    log "  Selfcare Advice:"
+    log "    Description: \"#{@attributes[:selfcare][:description]}\""
+    log "    Items:" if @attributes[:selfcare][:items].any?
+    @attributes[:selfcare][:items].each do |item|
+      log "      Description: \"#{item[:description]}\""
+    end
+    log "  Factor Groups:"
+    @attributes[:factor_groups].each do |factor_group|
+      log "    Name: \"#{factor_group[:name]}\""
+      log "    Factors:"
+      factor_group[:factors].each do |factor|
+        log "      Name: \"#{factor[:name]}\""
+      end
+    end
+    log ""
   end
 end

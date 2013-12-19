@@ -9,7 +9,7 @@ namespace :admin do
       log("Processing file #{filename}")
       zip = Zip::File.open(filename)
       xml = (Nokogiri::XML(zip.read("word/document.xml")){|x| x.noent}/"//w:p")
-      importer = SymptomCheckerImporter.new(xml, filename)
+      importer = SymptomCheckerImporter.new(xml, filename, logger)
       importer.import
     end
   end
