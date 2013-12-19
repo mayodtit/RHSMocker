@@ -42,7 +42,7 @@ class SymptomCheckerImporter
 
   def get_medical_advice!
     advance_index_to_match!('when to get medical help')
-    @attributes[:medical_advice] = {description: @lines[advance_index_past_blank!].strip,
+    @attributes[:medical_advice] = {description: @lines[advance_index_past_blank!].gsub(/\(.*\)/, '').strip,
                                     items: []}
     ((@index + 1)..(advance_index_to_match!('self-care strategies') - 1)).each do |i|
       next if @lines[i].blank?
