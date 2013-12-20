@@ -9,7 +9,8 @@ class Analytics
         l = LogAnalyticsJob.new(user.google_analytics_uuid,
                                 e['name'],
                                 { build_number: remote_event.build_number,
-                                  device_os_version: remote_event.device_os_version })
+                                  device_os_version: remote_event.device_os_version,
+                                  event_category: e['category'] })
         l.log_ga
       end
     end
