@@ -158,19 +158,37 @@ class SymptomCheckerImporter
   end
 
   def create_models_from_attributes!
+    create_symptom!
+    create_symptom_medical_advice!
+    create_symptom_selfcare!
+    create_factor_groups_and_factors!
+    create_contents_symptoms_factors!
+  end
+
+  def create_symptom!
     @symptom = Symptom.where(@attributes[:symptom]).first_or_create!
+
+  end
+
+  def create_symptom_medical_advice!
     med_advice = SymptomMedicalAdvice.upsert_attributes({symptom_id: @symptom.id},
                                                         {description: @attributes[:medical_advice][:description]})
     @attributes[:medical_advice][:items].each do |item|
       SymptomMedicalAdviceItem.where(symptom_medical_advice_id: med_advice.id,
                                      description: item[:description]).first_or_create!
     end
+  end
+
+  def create_symptom_selfcare!
     selfcare = SymptomSelfcare.upsert_attributes({symptom_id: @symptom.id},
                                                  {description: @attributes[:selfcare][:description]})
     @attributes[:selfcare][:items].each do |item|
       SymptomSelfcareItem.where(symptom_selfcare_id: selfcare.id,
                                 description: item[:description]).first_or_create!
     end
+  end
+
+  def create_factor_groups_and_factors!
     @attributes[:factor_groups].each do |factor_group_attributes|
       factor_group = FactorGroup.where(name: factor_group_attributes[:name].strip).first_or_create!
       factor_group_attributes[:factors].each do |factor_attributes|
@@ -182,6 +200,9 @@ class SymptomCheckerImporter
                              er_worthy: false).first_or_create!
       end
     end
+  end
+
+  def create_contents_symptoms_factors!
     @attributes[:conditions].each do |condition_attributes|
       content = Content.where(document_id: condition_attributes[:id]).first!
       condition_attributes[:matches].each do |match|
