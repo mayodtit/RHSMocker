@@ -8,7 +8,6 @@ class SymptomCheckerImporter
   end
 
   def import
-    get_attributes_from_filename!
     read_lines_from_xml!
     parse_lines!
     create_models_from_attributes!
@@ -25,12 +24,6 @@ class SymptomCheckerImporter
     end
   end
 
-  def get_attributes_from_filename!
-    @attributes[:symptom] = {
-                              patient_type: @filename.split('.')[0].split('_')[1].downcase
-                            }
-  end
-
   def read_lines_from_xml!
     @lines = @data.map{|field| (field/".//w:t").try(:inner_html)}
   end
@@ -45,10 +38,19 @@ class SymptomCheckerImporter
   end
 
   def get_symptom_description!
+    @attributes[:symptom] = {}
     advance_index_to_match!('Title')
     @attributes[:symptom][:name] = @lines[advance_index_past_blank!].strip
     advance_index_to_match!('tease')
     @attributes[:symptom][:description] = @lines[advance_index_past_blank!].strip
+    advance_index_to_match!('Gender')
+    if @lines[@index + 1] == 'Male'
+      @attributes[:symptom][:gender] = 'M'
+    elsif @lines[@index + 1] == 'Female'
+      @attributes[:symptom][:gender] = 'F'
+    end
+    advance_index_to_match!('Age')
+    @attributes[:symptom][:patient_type] = @lines[@index + 1].downcase
   end
 
   def get_medical_advice!
