@@ -93,3 +93,4 @@ gem 'symbolize'
 gem 'kaminari' # pagination
 gem 'strong_parameters'
 gem 'timecop'
+gem 'rubyzip'
