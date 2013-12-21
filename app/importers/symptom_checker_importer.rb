@@ -2,7 +2,7 @@ class SymptomCheckerImporter
   def initialize(xml_data, filename, logger=nil)
     @data = xml_data
     @filename = Pathname.new(filename).basename.to_s
-    @attributes = {}
+    @attributes = {symptom: {}}
     @index = 0
     @logger = logger
   end
@@ -29,7 +29,7 @@ class SymptomCheckerImporter
   end
 
   def parse_lines!
-    get_symptom_description!
+    get_symptom_attributes!
     get_medical_advice!
     get_selfcare_strategies!
     get_factors!
@@ -37,18 +37,33 @@ class SymptomCheckerImporter
     create_models_from_attributes!
   end
 
-  def get_symptom_description!
-    @attributes[:symptom] = {}
+  def get_symptom_attributes!
+    get_symptom_title!
+    get_symptom_description!
+    get_symptom_gender!
+    get_symptom_age!
+  end
+
+  def get_symptom_title!
     advance_index_to_match!('Title')
     @attributes[:symptom][:name] = @lines[advance_index_past_blank!].strip
+  end
+
+  def get_symptom_description!
     advance_index_to_match!('tease')
     @attributes[:symptom][:description] = @lines[advance_index_past_blank!].strip
+  end
+
+  def get_symptom_gender!
     advance_index_to_match!('Gender')
     if @lines[@index + 1] == 'Male'
       @attributes[:symptom][:gender] = 'M'
     elsif @lines[@index + 1] == 'Female'
       @attributes[:symptom][:gender] = 'F'
     end
+  end
+
+  def get_symptom_age!
     advance_index_to_match!('Age')
     @attributes[:symptom][:patient_type] = @lines[@index + 1].downcase
   end
