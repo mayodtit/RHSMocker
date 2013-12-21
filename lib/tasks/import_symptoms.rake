@@ -14,6 +14,18 @@ namespace :admin do
     end
   end
 
+  task nuke_symptoms: :environment do
+    Symptom.delete_all
+    SymptomsFactor.delete_all
+    Factor.delete_all
+    FactorGroup.delete_all
+    SymptomMedicalAdvice.delete_all
+    SymptomMedicalAdviceItem.delete_all
+    SymptomSelfcare.delete_all
+    SymptomSelfcareItem.delete_all
+    ContentsSymptomsFactor.delete_all
+  end
+
   private
 
   def log(message)
