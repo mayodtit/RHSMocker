@@ -45,34 +45,30 @@ class SymptomCheckerImporter
   end
 
   def get_symptom_title!
-    advance_index_to_match!('Title')
-    @attributes[:symptom][:name] = @lines[advance_index_past_blank!].strip
+    @attributes[:symptom][:name] = line_after_match_and_blanks('Title').strip
   end
 
   def get_symptom_description!
-    advance_index_to_match!('tease')
-    @attributes[:symptom][:description] = @lines[advance_index_past_blank!].strip
+    @attributes[:symptom][:description] = line_after_match_and_blanks('tease').strip
   end
 
   def get_symptom_gender!
-    advance_index_to_match!('Gender')
-    if @lines[@index + 1] == 'Male'
+    case line_after_match_and_blanks('Gender')
+    when 'Male'
       @attributes[:symptom][:gender] = 'M'
-    elsif @lines[@index + 1] == 'Female'
+    when 'Female'
       @attributes[:symptom][:gender] = 'F'
     end
   end
 
   def get_symptom_age!
-    advance_index_to_match!('Age')
-    @attributes[:symptom][:patient_type] = @lines[@index + 1].downcase
+    @attributes[:symptom][:patient_type] = line_after_match_and_blanks('Age').downcase
   end
 
   def get_medical_advice!
-    advance_index_to_match!('when to get medical help')
-    @attributes[:medical_advice] = {description: @lines[advance_index_past_blank!].gsub(/\(.*\)/, '').strip,
+    @attributes[:medical_advice] = {description: line_after_match_and_blanks('when to get medical help').gsub(/\(.*\)/, '').strip,
                                     items: []}
-    ((@index + 1)..(advance_index_to_match!('self-care strategies') - 1)).each do |i|
+    next_index_to_match_range('self-care strategies').each do |i|
       next if @lines[i].blank?
       @attributes[:medical_advice][:items] << {description: @lines[i].strip}
     end
@@ -80,9 +76,9 @@ class SymptomCheckerImporter
 
   def get_selfcare_strategies!
     advance_index_to_match!('self-care strategies')
-    @attributes[:selfcare] = {description: @lines[advance_index_past_blank!].strip,
+    @attributes[:selfcare] = {description: line_after_match_and_blanks('self-care strategies').strip,
                               items: []}
-    ((@index + 1)..(advance_index_to_match!('more information') - 1)).each do |i|
+    next_index_to_match_range('more information').each do |i|
       next if @lines[i].blank?
       @attributes[:selfcare][:items] << {description: @lines[i].strip}
     end
@@ -161,6 +157,15 @@ class SymptomCheckerImporter
         return @index = i
       end
     end
+  end
+
+  def line_after_match_and_blanks(search)
+    advance_index_to_match!(search)
+    @lines[advance_index_past_blank!]
+  end
+
+  def next_index_to_match_range(search)
+    (@index + 1)..(advance_index_to_match!(search) - 1)
   end
 
   def find_index_of_match!(search)
