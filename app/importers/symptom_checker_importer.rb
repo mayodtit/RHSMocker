@@ -84,10 +84,22 @@ class SymptomCheckerImporter
         @index += 1
         break if @index >= end_of_factors
       end
-      factor_group = {name: @lines[@index], factors: []}
+      factor_group = {name: @lines[@index].gsub(/\[.*\]/, '').strip, factors: []}
       @index += 1
       while (@lines[@index].present?)
-        factor_group[:factors] << {name: @lines[@index].strip}
+        if /\[/.match(@lines[@index])
+          if @lines[@index].gsub(/.*\[|\].*/, '') == 'female'
+            gender = 'F'
+          elsif @lines[@index].gsub(/.*\[|\].*/, '') == 'male'
+            gender = 'M'
+          else
+            raise 'Unknown factor gender'
+          end
+        else
+          gender = nil
+        end
+        factor_group[:factors] << {name: @lines[@index].gsub(/\[.*\]/, '').strip,
+                                   gender: gender}
         @index += 1
       end
       @attributes[:factor_groups] << factor_group
@@ -107,7 +119,7 @@ class SymptomCheckerImporter
       condition = {id: @lines[@index].split(' ')[0], matches: []}
       @index += 1
       while @lines[@index].present?
-        condition[:matches] << @lines[@index].strip
+        condition[:matches] << @lines[@index].gsub(/\[.*\]/, '').strip
         @index += 1
       end
       @attributes[:conditions] << condition
@@ -162,7 +174,7 @@ class SymptomCheckerImporter
     @attributes[:factor_groups].each do |factor_group_attributes|
       factor_group = FactorGroup.where(name: factor_group_attributes[:name].strip).first_or_create!
       factor_group_attributes[:factors].each do |factor_attributes|
-        factor = Factor.where(name: factor_attributes[:name].strip).first_or_create!
+        factor = Factor.where(name: factor_attributes[:name].gsub(/\[.*\]/, '').strip, gender: factor_attributes[:gender]).first_or_create!
         SymptomsFactor.where(symptom_id: @symptom.id,
                              factor_group_id: factor_group.id,
                              factor_id: factor.id,
