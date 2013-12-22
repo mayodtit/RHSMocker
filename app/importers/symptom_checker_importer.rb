@@ -34,7 +34,6 @@ class SymptomCheckerImporter
     get_selfcare_strategies!
     get_factors!
     get_conditions!
-    create_models_from_attributes!
   end
 
   def get_symptom_attributes!
