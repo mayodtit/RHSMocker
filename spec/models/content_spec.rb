@@ -11,6 +11,7 @@ describe Content do
   it_validates 'inclusion of', :show_mayo_copyright
   it_validates 'inclusion of', :sensitive
   it_validates 'uniqueness of', :document_id
+  it_validates 'allows nil inclusion of', :symptom_checker_gender
 
   describe '::random' do
     it 'returns published content with matching content_type' do

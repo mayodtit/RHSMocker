@@ -115,7 +115,20 @@ class SymptomCheckerImporter
       end
       return unless /DS/.match(@lines[@index].split(' ')[0])
 
-      condition = {id: @lines[@index].split(' ')[0], matches: []}
+      if @lines[@index].include?('[')
+        if @lines[@index].gsub(/.*\[|\].*/, '') == 'female'
+          gender = 'F'
+        elsif @lines[@index].gsub(/.*\[|\].*/, '') == 'male'
+          gender = 'M'
+        else
+          raise 'Unknown condition gender'
+        end
+      else
+        gender = nil
+      end
+      condition = {id: @lines[@index].split(' ')[0],
+                   gender: gender,
+                   matches: []}
       @index += 1
       while @lines[@index].present?
         condition[:matches] << @lines[@index].gsub(/\[.*\]/, '').strip
@@ -213,6 +226,7 @@ class SymptomCheckerImporter
   def create_contents_symptoms_factors!
     @attributes[:conditions].each do |condition_attributes|
       content = Content.where(document_id: condition_attributes[:id]).first!
+      content.update_attributes!(symptom_checker_gender: condition_attributes[:gender]) if condition_attributes[:gender]
       condition_attributes[:matches].each do |match|
         factor_group = factor_group_for_search(match)
         factor = factor_for_search(match[(factor_group.name.length + 1)..match.length])
