@@ -1,5 +1,6 @@
 class FactorGroup < ActiveRecord::Base
   belongs_to :symptom
+  has_many :factors
 
   attr_accessible :symptom, :symptom_id, :name
 

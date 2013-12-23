@@ -1,9 +1,9 @@
 class Factor < ActiveRecord::Base
-  has_many :symptoms_factors
-  has_many :symptoms, through: :symptoms_factors
+  belongs_to :factor_group
 
-  attr_accessible :name, :gender
+  attr_accessible :factor_group, :factor_group_id, :name, :gender
 
-  validates :name, presence: true
+  validates :factor_group, :name, presence: true
   validates :gender, inclusion: {in: %w(M F)}, allow_nil: true
+  validates :name, uniqueness: {scope: :factor_group_id}
 end
