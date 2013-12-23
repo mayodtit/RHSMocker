@@ -11,13 +11,12 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
       authorize! :assign_roles, user
 
       if user.signed_up?
-        user.add_role :nurse
+        add_role user, params[:role]
         UserMailer.assigned_role_email(user, current_user).deliver
         render_success
       else
         if user.valid?
-          user.add_role :nurse
-
+          add_role user, params[:role]
           # Resend invitations if one exists for that user.
           invitation = Invitation.find_by_invited_member_id user.id
           if invitation
@@ -43,7 +42,8 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
           :methods => [:full_name]
         },
         :invited_member => {
-          :only => [:email, :first_name, :last_name]
+          :only => [:email, :first_name, :last_name],
+          :methods => :nurse?
         }
       }
     )
@@ -70,6 +70,20 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
   end
 
   private
+
+  def add_role(user, role)
+    if role.nil?
+      user.add_role :nurse # accept nil for compatibility
+    elsif role
+      if role == 'nurse'
+        user.add_role :nurse
+      elsif role == 'pha'
+        user.add_role :pha
+      end
+    elsif role == 'premium'
+      user.cards.create!(resource: CustomCard.find_by_title('Welcome to Better Premium'))
+    end
+  end
 
   def load_invitation!
     @invitation = Invitation.where(state: :unclaimed).find_by_token!(params[:id])

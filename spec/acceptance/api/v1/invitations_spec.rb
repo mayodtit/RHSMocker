@@ -57,7 +57,8 @@ resource "Invitations" do
               :methods => [:full_name]
             },
             :invited_member => {
-              :only => [:email, :first_name, :last_name]
+              :only => [:email, :first_name, :last_name],
+              :methods => :nurse?
             }
           }
         ).to_json
@@ -76,7 +77,7 @@ resource "Invitations" do
     required_parameters :token, :email, :first_name, :last_name, :password, :password_confirmation
     scope_parameters :user, [:email, :first_name, :last_name, :password, :password_confirmation]
 
-    let (:token) { invitation.token }
+    let(:token) { invitation.token }
     let(:email) { 'nurse@example.com' }
     let(:first_name) { 'Florence' }
     let(:last_name) { 'Nightingale' }

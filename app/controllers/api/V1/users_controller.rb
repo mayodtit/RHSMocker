@@ -11,7 +11,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def show
-    show_resource @user.as_json(only: [:first_name, :last_name, :email], methods: [:full_name, :admin?, :nurse?])
+    show_resource @user.as_json(only: [:first_name, :last_name, :email], methods: [:full_name, :admin?, :nurse?, :pha?, :care_provider?])
   end
 
   def create

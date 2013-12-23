@@ -4,7 +4,7 @@ FactoryGirl.define do
     last_name             { ["Lee", "Patel", "Carol", "Dan"].sample }
 
     factory :member, class: Member, aliases: [:user_with_email] do
-      sequence(:install_id) { |n| n }
+      sequence(:install_id) { |n| "Install-ID-#{n}" }
       sequence(:email)    { |n| "user#{n}@test.com" }
       password              "password"
       password_confirmation "password"

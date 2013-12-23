@@ -210,7 +210,6 @@ GEM
     parallel (0.8.0)
     parallel_tests (0.15.3)
       parallel
-    pg (0.13.2)
     polyglot (0.3.3)
     pr_geohash (1.0.0)
     progress_bar (0.4.0)
@@ -281,6 +280,7 @@ GEM
       rspec (>= 2.6.0)
       webmock (>= 1.7.0)
     ruby-hmac (0.4.0)
+    rubyzip (1.1.0)
     s3_uploader (0.0.5)
       fog
     safe_yaml (0.9.5)
@@ -382,7 +382,6 @@ DEPENDENCIES
   newrelic_rpm
   nokogiri
   parallel_tests
-  pg
   progress_bar
   pusher
   raddocs!
@@ -392,6 +391,7 @@ DEPENDENCIES
   rolify!
   rspec-rails (~> 2.0)
   rspec_api_documentation
+  rubyzip
   s3_uploader
   sass-rails (~> 3.2.3)
   sorcery

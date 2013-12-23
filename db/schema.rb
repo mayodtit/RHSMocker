@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131210064535) do
+ActiveRecord::Schema.define(:version => 20131222035618) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -19,8 +19,8 @@ ActiveRecord::Schema.define(:version => 20131210064535) do
     t.string   "city"
     t.string   "state"
     t.string   "postal_code"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "agreements", :force => true do |t|
@@ -146,23 +146,24 @@ ActiveRecord::Schema.define(:version => 20131210064535) do
   end
 
   create_table "contents", :force => true do |t|
-    t.string   "title",               :default => "",    :null => false
+    t.string   "title",                  :default => "",    :null => false
     t.text     "raw_body"
-    t.datetime "created_at",                             :null => false
-    t.datetime "updated_at",                             :null => false
-    t.string   "content_type",        :default => "",    :null => false
+    t.datetime "created_at",                                :null => false
+    t.datetime "updated_at",                                :null => false
+    t.string   "content_type",           :default => "",    :null => false
     t.text     "abstract"
     t.text     "question"
     t.text     "keywords"
     t.datetime "content_updated_at"
-    t.string   "document_id",         :default => "",    :null => false
-    t.boolean  "show_call_option",    :default => true,  :null => false
-    t.boolean  "show_checker_option", :default => true,  :null => false
-    t.boolean  "show_mayo_copyright", :default => true,  :null => false
+    t.string   "document_id",            :default => "",    :null => false
+    t.boolean  "show_call_option",       :default => true,  :null => false
+    t.boolean  "show_checker_option",    :default => true,  :null => false
+    t.boolean  "show_mayo_copyright",    :default => true,  :null => false
     t.string   "type"
     t.text     "raw_preview"
     t.string   "state"
-    t.boolean  "sensitive",           :default => false, :null => false
+    t.boolean  "sensitive",              :default => false, :null => false
+    t.string   "symptom_checker_gender"
   end
 
   add_index "contents", ["document_id"], :name => "index_contents_on_document_id"
@@ -199,10 +200,11 @@ ActiveRecord::Schema.define(:version => 20131210064535) do
     t.integer  "content_id"
     t.string   "title"
     t.text     "raw_preview"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
     t.text     "card_actions"
     t.text     "timeline_action"
+    t.integer  "priority",        :default => 0, :null => false
   end
 
   create_table "delayed_jobs", :force => true do |t|
@@ -263,8 +265,8 @@ ActiveRecord::Schema.define(:version => 20131210064535) do
     t.string   "company_name"
     t.string   "plan_type"
     t.string   "policy_member_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "invitations", :force => true do |t|
@@ -358,8 +360,8 @@ ActiveRecord::Schema.define(:version => 20131210064535) do
 
   create_table "phone_calls", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at",               :null => false
-    t.datetime "updated_at",               :null => false
+    t.datetime "created_at",                              :null => false
+    t.datetime "updated_at",                              :null => false
     t.string   "origin_phone_number"
     t.string   "destination_phone_number"
     t.string   "state"
@@ -368,12 +370,14 @@ ActiveRecord::Schema.define(:version => 20131210064535) do
     t.integer  "claimer_id"
     t.integer  "ender_id"
     t.string   "identifier_token"
+    t.integer  "to_role_id",               :default => 1, :null => false
   end
 
   add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"
   add_index "phone_calls", ["ender_id"], :name => "index_phone_calls_on_ender_id"
   add_index "phone_calls", ["identifier_token"], :name => "index_phone_calls_on_identifier_token"
   add_index "phone_calls", ["state"], :name => "index_phone_calls_on_state"
+  add_index "phone_calls", ["to_role_id"], :name => "index_phone_calls_on_to_role_id"
 
   create_table "plan_offerings", :force => true do |t|
     t.integer  "plan_id"
@@ -416,8 +420,8 @@ ActiveRecord::Schema.define(:version => 20131210064535) do
     t.string   "state"
     t.string   "postal_code"
     t.string   "phone"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "questions", :force => true do |t|
@@ -449,9 +453,11 @@ ActiveRecord::Schema.define(:version => 20131210064535) do
     t.integer  "user_id"
     t.integer  "phone_call_id"
     t.datetime "scheduled_at"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.datetime "created_at",                             :null => false
+    t.datetime "updated_at",                             :null => false
     t.datetime "disabled_at"
+    t.integer  "owner_id"
+    t.string   "state",         :default => "unclaimed"
   end
 
   create_table "side_effects", :force => true do |t|
@@ -599,8 +605,8 @@ ActiveRecord::Schema.define(:version => 20131210064535) do
 
   create_table "user_informations", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.text     "notes"
   end
 

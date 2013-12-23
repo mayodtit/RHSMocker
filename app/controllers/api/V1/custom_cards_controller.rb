@@ -29,6 +29,6 @@ class Api::V1::CustomCardsController < Api::V1::ABaseController
   end
 
   def custom_card_params
-    params.require(:custom_card).permit(:title, :raw_preview, :content_id)
+    params.require(:custom_card).permit(:title, :raw_preview, :content_id, :priority)
   end
 end

@@ -18,15 +18,15 @@ class Ability
       o.users.include?(user)
     end
 
-    can :manage, PhoneCallSummary do |pcs|
-      pcs.message.consult.users.include?(user)
+    can :manage, [ScheduledPhoneCall, PhoneCallSummary] do |o|
+      can? :manage, o.message.consult
     end
 
     cannot :manage, Program
     cannot :manage, CustomCard
     cannot :index, Member
 
-    if user.try_method(:nurse?) || user.try_method(:admin?)
+    if user.try_method(:admin?)
       can :manage, :all
     end
 
@@ -35,7 +35,15 @@ class Ability
     end
 
     if user.nurse?
-      can :ru, PhoneCall
+      can :ru, PhoneCall do |o|
+        o.to_nurse?
+      end
+    end
+
+    if user.pha?
+      can :ru, PhoneCall do |o|
+        o.to_pha?
+      end
     end
   end
 end

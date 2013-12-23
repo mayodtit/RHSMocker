@@ -14,6 +14,30 @@ describe PhoneCall do
     it_validates 'uniqueness of', :identifier_token
   end
 
+  describe '#to_nurse?' do
+    it 'returns true if the phone_call is to a nurse' do
+      phone_call = build_stubbed(:phone_call, :to_role => Role.new(:name => :nurse))
+      phone_call.should be_to_nurse
+    end
+
+    it 'returns false if the phone_call is not to a nurse' do
+      phone_call = build_stubbed(:phone_call, :to_role => Role.new(:name => :pha))
+      phone_call.should_not be_to_nurse
+    end
+  end
+
+  describe '#to_pha?' do
+    it 'returns true if the phone_call is to a pha' do
+      phone_call = build_stubbed(:phone_call, :to_role => Role.new(:name => :pha))
+      phone_call.should be_to_pha
+    end
+
+    it 'returns false if the phone_call is not to a pha' do
+      phone_call = build_stubbed(:phone_call, :to_role => Role.new(:name => :nurse))
+      phone_call.should_not be_to_pha
+    end
+  end
+
   describe 'callbacks' do
     let(:phone_call) { build_stubbed(:phone_call, :identifier_token => nil) }
 

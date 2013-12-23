@@ -1,41 +1,43 @@
 class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   before_filter :load_user!
-  before_filter :load_consult!
-  before_filter :load_scheduled_phone_call!, :only => [:show, :update, :destroy]
+  before_filter :load_scheduled_phone_calls!
+  before_filter :load_scheduled_phone_call!, only: [:show, :update, :destroy]
 
   def index
-    index_resource(@consult.scheduled_phone_calls)
+    index_resource @scheduled_phone_calls.not_ended.serializer
   end
 
   def show
-    show_resource(@scheduled_phone_call)
+    show_resource @scheduled_phone_call.serializer
   end
 
   def create
-    create_resource(ScheduledPhoneCall, scheduled_phone_call_params)
+    create_resource @scheduled_phone_calls, scheduled_phone_call_attributes
   end
 
   def update
-    update_resource(@scheduled_phone_call, params[:scheduled_phone_call])
+    update_resource @scheduled_phone_call, scheduled_phone_call_attributes
   end
 
   def destroy
-    destroy_resource(@scheduled_phone_call)
+    destroy_resource @scheduled_phone_call
   end
 
   private
 
-  def load_consult!
-    @consult = Consult.find(params[:consult_id])
-    authorize! :manage, @consult
+  def load_scheduled_phone_calls!
+    @scheduled_phone_calls = ScheduledPhoneCall.scoped
+    authorize! :index, ScheduledPhoneCall
   end
 
   def load_scheduled_phone_call!
-    @scheduled_phone_call = @consult.scheduled_phone_calls.find(params[:id])
+    @scheduled_phone_call = @scheduled_phone_calls.find(params[:id])
+    authorize! :manage, @scheduled_phone_call
   end
 
-  def scheduled_phone_call_params
-    (params[:scheduled_phone_call] || {}).merge!(:user => @user,
-                                                 :message_attributes => Message.phone_params(:scheduled_phone_call, @user, @consult))
+  def scheduled_phone_call_attributes
+    params.require(:scheduled_phone_call).tap do |attributes|
+      attributes[:user_id] = @user.id unless (@scheduled_phone_call.try(:user_id) || attributes[:user_id])
+    end.permit(:scheduled_at, :user_id, :owner_id, :state_event)
   end
 end

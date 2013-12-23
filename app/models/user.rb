@@ -59,7 +59,7 @@ class User < ActiveRecord::Base
   BASE_OPTIONS = {:only => [:id, :first_name, :last_name, :birth_date, :blood_type,
                             :diet_id, :email, :ethnic_group_id, :gender, :height,
                             :deceased, :date_of_death, :npi_number, :expertise],
-                  :methods => [:blood_pressure, :avatar_url, :weight, :admin?, :nurse?, :ethnic_group, :diet]}
+                  :methods => [:blood_pressure, :avatar_url, :weight, :admin?, :nurse?, :pha?, :care_provider?, :ethnic_group, :diet]}
 
   def serializable_hash(options = nil)
     options = BASE_OPTIONS if options.blank?
