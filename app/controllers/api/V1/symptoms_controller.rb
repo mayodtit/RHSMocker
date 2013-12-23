@@ -1,10 +1,19 @@
 class Api::V1::SymptomsController < Api::V1::ABaseController
-  skip_before_filter :authentication_check, :only=>:index
+  skip_before_filter :authentication_check
+  before_filter :load_symptoms!
+  after_filter :log_analytics!
 
   def index
-    render_success symptoms:Symptom.order(:name).as_json(:include => {:symptom_selfcare => {:include=>:symptom_selfcare_items},
-    																  :symptom_medical_advice => {:include=>:symptom_medical_advice_item} } )
-    Analytics.log_started_symptoms_checker(current_user.google_analytics_uuid) if current_user
+    index_resource @symptoms.serializer
   end
 
+  private
+
+  def load_symptoms!
+    @symptoms = Symptom.order(:name)
+  end
+
+  def log_analytics!
+    Analytics.log_started_symptoms_checker(current_user.google_analytics_uuid) if current_user
+  end
 end
