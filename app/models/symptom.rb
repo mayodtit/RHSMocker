@@ -1,10 +1,7 @@
 class Symptom < ActiveRecord::Base
-  has_many :symptoms_factors
-  has_many :factors, through: :symptoms_factors
-  has_many :factor_groups, through: :symptoms_factors
-  has_many :symptom_medical_advice
-  has_one  :symptom_selfcare
-  has_and_belongs_to_many :contents
+  has_many :factor_groups
+  has_one :symptom_medical_advice
+  has_one :symptom_selfcare
 
   attr_accessible :name, :patient_type, :description, :selfcare, :gender
 
