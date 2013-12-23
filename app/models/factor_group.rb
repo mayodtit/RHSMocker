@@ -1,7 +1,8 @@
 class FactorGroup < ActiveRecord::Base
-  has_many :symptoms_factors
+  belongs_to :symptom
 
-  attr_accessible :name
+  attr_accessible :symptom, :symptom_id, :name
 
-  validates :name, presence: true
+  validates :symptom, :name, presence: true
+  validates :name, uniqueness: {scope: :symptom_id}
 end
