@@ -13,6 +13,7 @@ resource "Ping" do
       explanation "Ping the backend while unauthenticated"
       status.should == 200
       json = JSON.parse(response_body, :symbolize_names => true)
+      json.should have_key(:revision)
       json.should_not have_key(:metadata)
     end
 
@@ -28,6 +29,7 @@ resource "Ping" do
         json = JSON.parse(response_body, :symbolize_names => true)
         json[:metadata][phone_metadata.mkey.to_sym].should == phone_metadata.mvalue
         json[:metadata][version_metadata.mkey.to_sym].should == version_metadata.mvalue
+        json.should have_key(:revision)
       end
     end
   end
