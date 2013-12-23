@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131223194230) do
+ActiveRecord::Schema.define(:version => 20131223194921) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -167,16 +167,6 @@ ActiveRecord::Schema.define(:version => 20131223194230) do
   end
 
   add_index "contents", ["document_id"], :name => "index_contents_on_document_id"
-
-  create_table "contents_symptoms", :force => true do |t|
-    t.integer  "content_id"
-    t.integer  "symptom_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  add_index "contents_symptoms", ["content_id"], :name => "index_contents_symptoms_on_content_id"
-  add_index "contents_symptoms", ["symptom_id"], :name => "index_contents_symptoms_on_symptom_id"
 
   create_table "credits", :force => true do |t|
     t.integer  "offering_id"
