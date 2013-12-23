@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131223194921) do
+ActiveRecord::Schema.define(:version => 20131223201153) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -218,6 +218,13 @@ ActiveRecord::Schema.define(:version => 20131223194921) do
     t.integer  "ethnicity_code", :default => 0,  :null => false
     t.integer  "ordinal",        :default => 0,  :null => false
     t.datetime "disabled_at"
+  end
+
+  create_table "factor_contents", :force => true do |t|
+    t.integer  "factor_id"
+    t.integer  "content_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "factor_groups", :force => true do |t|
