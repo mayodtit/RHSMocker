@@ -1,1 +1,1 @@
-REVISION = `git show --pretty=%H`.strip
+REVISION = `git show --pretty=%H`.split.first
