@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131214230656) do
+ActiveRecord::Schema.define(:version => 20131222035618) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -146,23 +146,24 @@ ActiveRecord::Schema.define(:version => 20131214230656) do
   end
 
   create_table "contents", :force => true do |t|
-    t.string   "title",               :default => "",    :null => false
+    t.string   "title",                  :default => "",    :null => false
     t.text     "raw_body"
-    t.datetime "created_at",                             :null => false
-    t.datetime "updated_at",                             :null => false
-    t.string   "content_type",        :default => "",    :null => false
+    t.datetime "created_at",                                :null => false
+    t.datetime "updated_at",                                :null => false
+    t.string   "content_type",           :default => "",    :null => false
     t.text     "abstract"
     t.text     "question"
     t.text     "keywords"
     t.datetime "content_updated_at"
-    t.string   "document_id",         :default => "",    :null => false
-    t.boolean  "show_call_option",    :default => true,  :null => false
-    t.boolean  "show_checker_option", :default => true,  :null => false
-    t.boolean  "show_mayo_copyright", :default => true,  :null => false
+    t.string   "document_id",            :default => "",    :null => false
+    t.boolean  "show_call_option",       :default => true,  :null => false
+    t.boolean  "show_checker_option",    :default => true,  :null => false
+    t.boolean  "show_mayo_copyright",    :default => true,  :null => false
     t.string   "type"
     t.text     "raw_preview"
     t.string   "state"
-    t.boolean  "sensitive",           :default => false, :null => false
+    t.boolean  "sensitive",              :default => false, :null => false
+    t.string   "symptom_checker_gender"
   end
 
   add_index "contents", ["document_id"], :name => "index_contents_on_document_id"

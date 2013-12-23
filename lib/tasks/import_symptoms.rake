@@ -9,8 +9,7 @@ namespace :admin do
       log("Processing file #{filename}")
       zip = Zip::File.open(filename)
       xml = (Nokogiri::XML(zip.read("word/document.xml")){|x| x.noent}/"//w:p")
-      importer = SymptomCheckerImporter.new(xml, filename, logger)
-      importer.import
+      SymptomCheckerImporter.new(xml).import
     end
   end
 
@@ -24,6 +23,33 @@ namespace :admin do
     SymptomSelfcare.delete_all
     SymptomSelfcareItem.delete_all
     ContentsSymptomsFactor.delete_all
+  end
+
+  task audit_symptoms: :environment do
+    Symptom.order(:patient_type, :name).each do |symptom|
+      log "#{symptom.name} (#{symptom.patient_type})"
+      log "  Gender: #{symptom.gender}" if symptom.gender
+      factors = symptom.factors.where('gender IS NOT NULL')
+      if factors.any?
+        log "  Factors:"
+        factors.each do |factor|
+          log "    #{factor.name}, Gender: #{factor.gender}"
+        end
+      end
+      content_ids = ContentsSymptomsFactor.joins(:symptoms_factor => :symptom)
+                                          .where(:symptoms => {:id => symptom.id})
+                                          .joins(:content)
+                                          .where('contents.symptom_checker_gender IS NOT NULL')
+                                          .pluck(:content_id)
+                                          .uniq
+      if content_ids.any?
+        contents = Content.where(:id => content_ids)
+        log "  Contents:"
+        contents.each do |content|
+          log "    #{content.title}, Gender: #{content.symptom_checker_gender}"
+        end
+      end
+    end
   end
 
   private

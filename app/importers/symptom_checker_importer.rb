@@ -1,63 +1,62 @@
 class SymptomCheckerImporter
-  def initialize(xml_data, filename, logger=nil)
+  def initialize(xml_data)
     @data = xml_data
-    @filename = Pathname.new(filename).basename.to_s
-    @attributes = {}
+    @attributes = {symptom: {}}
     @index = 0
-    @logger = logger
   end
 
   def import
     read_lines_from_xml!
     parse_lines!
     create_models_from_attributes!
-    log_output!
   end
 
   private
-
-  def log(message)
-    if @logger
-      @logger.info(message)
-    else
-      puts message
-    end
-  end
 
   def read_lines_from_xml!
     @lines = @data.map{|field| (field/".//w:t").try(:inner_html)}
   end
 
   def parse_lines!
-    get_symptom_description!
+    get_symptom_attributes!
     get_medical_advice!
     get_selfcare_strategies!
     get_factors!
     get_conditions!
-    create_models_from_attributes!
+  end
+
+  def get_symptom_attributes!
+    get_symptom_title!
+    get_symptom_description!
+    get_symptom_gender!
+    get_symptom_age!
+  end
+
+  def get_symptom_title!
+    @attributes[:symptom][:name] = line_after_match_and_blanks('Title').strip
   end
 
   def get_symptom_description!
-    @attributes[:symptom] = {}
-    advance_index_to_match!('Title')
-    @attributes[:symptom][:name] = @lines[advance_index_past_blank!].strip
-    advance_index_to_match!('tease')
-    @attributes[:symptom][:description] = @lines[advance_index_past_blank!].strip
-    advance_index_to_match!('Gender')
-    if @lines[@index + 1] == 'Male'
+    @attributes[:symptom][:description] = line_after_match_and_blanks('tease').strip
+  end
+
+  def get_symptom_gender!
+    case line_after_match_and_blanks('Gender')
+    when 'Male'
       @attributes[:symptom][:gender] = 'M'
-    elsif @lines[@index + 1] == 'Female'
+    when 'Female'
       @attributes[:symptom][:gender] = 'F'
     end
-    advance_index_to_match!('Age')
-    @attributes[:symptom][:patient_type] = @lines[@index + 1].downcase
+  end
+
+  def get_symptom_age!
+    @attributes[:symptom][:patient_type] = line_after_match_and_blanks('Age').downcase
   end
 
   def get_medical_advice!
-    advance_index_to_match!('when to get medical help')
-    @attributes[:medical_advice] = {description: @lines[advance_index_past_blank!].gsub(/\(.*\)/, '').strip,
+    @attributes[:medical_advice] = {description: line_after_match_and_blanks('when to get medical help').gsub(/\(.*\)/, '').strip,
                                     items: []}
-    ((@index + 1)..(advance_index_to_match!('self-care strategies') - 1)).each do |i|
+    next_index_to_match_range('self-care strategies').each do |i|
       next if @lines[i].blank?
       @attributes[:medical_advice][:items] << {description: @lines[i].strip}
     end
@@ -65,9 +64,9 @@ class SymptomCheckerImporter
 
   def get_selfcare_strategies!
     advance_index_to_match!('self-care strategies')
-    @attributes[:selfcare] = {description: @lines[advance_index_past_blank!].strip,
+    @attributes[:selfcare] = {description: line_after_match_and_blanks('self-care strategies').strip,
                               items: []}
-    ((@index + 1)..(advance_index_to_match!('more information') - 1)).each do |i|
+    next_index_to_match_range('more information').each do |i|
       next if @lines[i].blank?
       @attributes[:selfcare][:items] << {description: @lines[i].strip}
     end
@@ -116,7 +115,20 @@ class SymptomCheckerImporter
       end
       return unless /DS/.match(@lines[@index].split(' ')[0])
 
-      condition = {id: @lines[@index].split(' ')[0], matches: []}
+      if @lines[@index].include?('[')
+        if @lines[@index].gsub(/.*\[|\].*/, '') == 'female'
+          gender = 'F'
+        elsif @lines[@index].gsub(/.*\[|\].*/, '') == 'male'
+          gender = 'M'
+        else
+          raise 'Unknown condition gender'
+        end
+      else
+        gender = nil
+      end
+      condition = {id: @lines[@index].split(' ')[0],
+                   gender: gender,
+                   matches: []}
       @index += 1
       while @lines[@index].present?
         condition[:matches] << @lines[@index].gsub(/\[.*\]/, '').strip
@@ -148,6 +160,15 @@ class SymptomCheckerImporter
     end
   end
 
+  def line_after_match_and_blanks(search)
+    advance_index_to_match!(search)
+    @lines[advance_index_past_blank!]
+  end
+
+  def next_index_to_match_range(search)
+    (@index + 1)..(advance_index_to_match!(search) - 1)
+  end
+
   def find_index_of_match!(search)
     (@index..(@lines.count - 1)).each do |i|
       if /#{search}/i.match(@lines[i])
@@ -158,19 +179,37 @@ class SymptomCheckerImporter
   end
 
   def create_models_from_attributes!
+    create_symptom!
+    create_symptom_medical_advice!
+    create_symptom_selfcare!
+    create_factor_groups_and_factors!
+    create_contents_symptoms_factors!
+  end
+
+  def create_symptom!
     @symptom = Symptom.where(@attributes[:symptom]).first_or_create!
+
+  end
+
+  def create_symptom_medical_advice!
     med_advice = SymptomMedicalAdvice.upsert_attributes({symptom_id: @symptom.id},
                                                         {description: @attributes[:medical_advice][:description]})
     @attributes[:medical_advice][:items].each do |item|
       SymptomMedicalAdviceItem.where(symptom_medical_advice_id: med_advice.id,
                                      description: item[:description]).first_or_create!
     end
+  end
+
+  def create_symptom_selfcare!
     selfcare = SymptomSelfcare.upsert_attributes({symptom_id: @symptom.id},
                                                  {description: @attributes[:selfcare][:description]})
     @attributes[:selfcare][:items].each do |item|
       SymptomSelfcareItem.where(symptom_selfcare_id: selfcare.id,
                                 description: item[:description]).first_or_create!
     end
+  end
+
+  def create_factor_groups_and_factors!
     @attributes[:factor_groups].each do |factor_group_attributes|
       factor_group = FactorGroup.where(name: factor_group_attributes[:name].strip).first_or_create!
       factor_group_attributes[:factors].each do |factor_attributes|
@@ -182,8 +221,12 @@ class SymptomCheckerImporter
                              er_worthy: false).first_or_create!
       end
     end
+  end
+
+  def create_contents_symptoms_factors!
     @attributes[:conditions].each do |condition_attributes|
       content = Content.where(document_id: condition_attributes[:id]).first!
+      content.update_attributes!(symptom_checker_gender: condition_attributes[:gender]) if condition_attributes[:gender]
       condition_attributes[:matches].each do |match|
         factor_group = factor_group_for_search(match)
         factor = factor_for_search(match[(factor_group.name.length + 1)..match.length])
@@ -212,32 +255,5 @@ class SymptomCheckerImporter
       end
     end
     raise "Factor not found for '#{search}'"
-  end
-
-  def log_output!
-    log "Symptom: \"#{@attributes[:symptom][:name]}\""
-    log "  Patient Type: \"#{@attributes[:symptom][:patient_type]}\""
-    log "  Description: \"#{@attributes[:symptom][:description]}\""
-    log "  Medical Advice:"
-    log "    Description: \"#{@attributes[:medical_advice][:description]}\""
-    log "    Items:" if @attributes[:medical_advice][:items].any?
-    @attributes[:medical_advice][:items].each do |item|
-      log "      Description: \"#{item[:description]}\""
-    end
-    log "  Selfcare Advice:"
-    log "    Description: \"#{@attributes[:selfcare][:description]}\""
-    log "    Items:" if @attributes[:selfcare][:items].any?
-    @attributes[:selfcare][:items].each do |item|
-      log "      Description: \"#{item[:description]}\""
-    end
-    log "  Factor Groups:"
-    @attributes[:factor_groups].each do |factor_group|
-      log "    Name: \"#{factor_group[:name]}\""
-      log "    Factors:"
-      factor_group[:factors].each do |factor|
-        log "      Name: \"#{factor[:name]}\""
-      end
-    end
-    log ""
   end
 end
