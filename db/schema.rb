@@ -19,8 +19,8 @@ ActiveRecord::Schema.define(:version => 20131222035618) do
     t.string   "city"
     t.string   "state"
     t.string   "postal_code"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "agreements", :force => true do |t|
@@ -265,8 +265,8 @@ ActiveRecord::Schema.define(:version => 20131222035618) do
     t.string   "company_name"
     t.string   "plan_type"
     t.string   "policy_member_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
   create_table "invitations", :force => true do |t|
@@ -420,8 +420,8 @@ ActiveRecord::Schema.define(:version => 20131222035618) do
     t.string   "state"
     t.string   "postal_code"
     t.string   "phone"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "questions", :force => true do |t|
@@ -605,8 +605,8 @@ ActiveRecord::Schema.define(:version => 20131222035618) do
 
   create_table "user_informations", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
     t.text     "notes"
   end
 
