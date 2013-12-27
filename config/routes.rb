@@ -26,6 +26,7 @@ RHSMocker::Application.routes.draw do
       resources :dashboard, only: :index
       resources :diseases, :only => :index, :controller => :conditions
       resources :ethnic_groups, :only => :index
+      get 'factors/:symptom_id', to: 'factor_groups#index' # TODO - deprecated!
       resources :locations, :only => :create
       resources :members, only: [:index, :show, :update]
       resources :messages, :only => :show do
@@ -96,7 +97,6 @@ RHSMocker::Application.routes.draw do
       post "user/update_email" => "users#secure_update", :as=>"update_email"
       get 'user/' => 'users#show'
 
-      get "factors/:id" => "factors#index"
       post "symptoms/check" => "factors#check"
     end
   end

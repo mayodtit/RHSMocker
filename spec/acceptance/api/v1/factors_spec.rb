@@ -1,40 +1,23 @@
 require 'spec_helper'
 require 'rspec_api_documentation/dsl'
 
-resource "Factors" do
+resource 'Factors' do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  let!(:symptom) { create(:symptom, :patient_type => 'adult') }
-  let!(:factor_group) { create(:factor_group, :name => 'pain is') }
-  let!(:factor) { create(:factor) }
-  let!(:symptoms_factor) { create(:symptoms_factor, :symptom => symptom, :factor_group => factor_group, :factor => factor) }
-  let!(:content) { create(:content) }
-  let!(:contents_symptoms_factor) { create(:contents_symptoms_factor, :content => content, :symptoms_factor => symptoms_factor) }
+  get 'api/v1/factors/:symptom_id' do
+    parameter :symptom_id, 'Symptom ID'
+    required_parameters :symptom_id
 
-  get 'api/v1/factors/:id' do
-    parameter :id,      "Symptom id"
-    required_parameters :id
+    let!(:factor_group) { create(:factor_group) }
+    let(:symptom) { factor_group.symptom }
+    let(:symptom_id) { symptom.id }
 
-    let(:id)   { symptom.id }
-
-    example_request "[GET] Get all the factors for a symptom" do
+    example_request "[DEPRECATED] [GET] Get all the factors for a symptom" do
       explanation "Returns an array of factors available for a symptom"
-      status.should == 200
-      JSON.parse(response_body)['factor_groups'].should be_a Array
-    end
-  end
-
-  get 'api/v1/factors/:id' do
-    parameter :id,      "Symptom id"
-    required_parameters :id
-
-    let(:id)   { 1234 }
-
-    example_request "[GET] Get all the factors for a symptom (404)" do
-      explanation "Returns an array of factors available for a symptom"
-      status.should == 404
-      JSON.parse(response_body)['reason'].should_not be_empty
+      expect(status).to eq(200)
+      json = JSON.parse(response_body, symbolize_names: true)
+      expect(json[:factor_groups].to_json).to eq([factor_group].serializer.to_json)
     end
   end
 
