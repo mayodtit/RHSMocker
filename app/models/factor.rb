@@ -1,5 +1,6 @@
 class Factor < ActiveRecord::Base
   belongs_to :factor_group
+  has_one :symptom, through: :factor_group
   has_many :factor_contents
   has_many :contents, through: :factor_contents
 

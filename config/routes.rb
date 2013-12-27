@@ -48,6 +48,7 @@ RHSMocker::Application.routes.draw do
       resources :side_effects, :only => :index
       resources :symptoms, only: :index do
         resources :factor_groups, only: :index
+        resources :contents, only: :index, controller: :symptom_contents
       end
       resources :treatments, :only => :index
       resources :users, only: [:index, :show, :create, :update] do
