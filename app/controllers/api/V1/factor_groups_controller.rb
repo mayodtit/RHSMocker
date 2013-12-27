@@ -14,6 +14,6 @@ class Api::V1::FactorGroupsController < Api::V1::ABaseController
   end
 
   def load_factor_groups!
-    @factor_groups = @symptom.factor_groups.order(:name)
+    @factor_groups = @symptom.factor_groups.order(:ordinal)
   end
 end
