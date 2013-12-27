@@ -18,6 +18,6 @@ class FactorGroup < ActiveRecord::Base
 
   def set_ordinal
     return true if ordinal.try(:>, 0)
-    self.ordinal = self.class.max_ordinal_for_symptom_id(symptom_id) + 1
+    self.ordinal = self.class.unscoped.max_ordinal_for_symptom_id(symptom_id) + 1
   end
 end

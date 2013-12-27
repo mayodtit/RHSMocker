@@ -211,36 +211,28 @@ class SymptomCheckerImporter
 
   def create_factor_groups_and_factors!
     @attributes[:factor_groups].each do |factor_group_attributes|
-      factor_group = FactorGroup.where(name: factor_group_attributes[:name].strip).first_or_create!
+      factor_group = @symptom.factor_groups.where(name: factor_group_attributes[:name].strip).first_or_create!
       factor_group_attributes[:factors].each do |factor_attributes|
-        factor = Factor.where(name: factor_attributes[:name].gsub(/\[.*\]/, '').strip, gender: factor_attributes[:gender]).first_or_create!
-        SymptomsFactor.where(symptom_id: @symptom.id,
-                             factor_group_id: factor_group.id,
-                             factor_id: factor.id,
-                             doctor_call_worthy: false,
-                             er_worthy: false).first_or_create!
+        factor_group.factors.where(name: factor_attributes[:name].gsub(/\[.*\]/, '').strip, gender: factor_attributes[:gender]).first_or_create!
       end
     end
   end
 
   def create_contents_symptoms_factors!
     @attributes[:conditions].each do |condition_attributes|
-      content = Content.where(document_id: condition_attributes[:id]).first!
+      content = Content.find_by_document_id!(condition_attributes[:id])
       content.update_attributes!(symptom_checker_gender: condition_attributes[:gender]) if condition_attributes[:gender]
       condition_attributes[:matches].each do |match|
-        factor_group = factor_group_for_search(match)
-        factor = factor_for_search(match[(factor_group.name.length + 1)..match.length])
-        symptoms_factor = SymptomsFactor.where(symptom_id: @symptom.id,
-                                               factor_group_id: factor_group.id,
-                                               factor_id: factor.id).first!
-        ContentsSymptomsFactor.where(content_id: content.id,
-                                     symptoms_factor_id: symptoms_factor.id).first_or_create!
+        factor_group = factor_group_for_search(@symptom, match)
+        factor = factor_for_search(factor_group, match[(factor_group.name.length + 1)..match.length])
+        FactorContent.where(content_id: content.id,
+                            factor_id: factor.id).first_or_create!
       end
     end
   end
 
-  def factor_group_for_search(search)
-    @symptom.reload.factor_groups.uniq.each do |factor_group|
+  def factor_group_for_search(symptom, search)
+    symptom.reload.factor_groups.uniq.each do |factor_group|
       if /^#{Regexp.escape(factor_group.name)}\b/i.match(search)
         return factor_group
       end
@@ -248,8 +240,8 @@ class SymptomCheckerImporter
     raise "FactorGroup not found for '#{search}'"
   end
 
-  def factor_for_search(search)
-    @symptom.reload.factors.uniq.each do |factor|
+  def factor_for_search(factor_group, search)
+    factor_group.reload.factors.uniq.each do |factor|
       if /^#{Regexp.escape(factor.name)}$/i.match(search)
         return factor
       end

@@ -1,5 +1,7 @@
 class Factor < ActiveRecord::Base
   belongs_to :factor_group
+  has_many :factor_contents
+  has_many :contents, through: :factor_contents
 
   attr_accessible :factor_group, :factor_group_id, :name, :gender
 
