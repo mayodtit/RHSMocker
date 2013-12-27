@@ -15,7 +15,8 @@ describe 'SymptomContents' do
       do_request
       expect(response).to be_success
       json = JSON.parse(response.body, symbolize_names: true)
-      json[:contents].to_json.should == [content].as_json.to_json
+      content_ids = json[:contents].map{|c| c[:id]}
+      expect(content_ids).to include(content.id)
     end
 
     context 'with factor filters' do

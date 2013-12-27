@@ -21,7 +21,8 @@ describe Api::V1::SymptomContentsController do
     it 'returns an array of contents for the symptom' do
       do_request
       json = JSON.parse(response.body, symbolize_names: true)
-      expect(json[:contents].to_json).to eq([content].as_json.to_json)
+      content_ids = json[:contents].map{|c| c[:id]}
+      expect(content_ids).to include(content.id)
     end
   end
 end

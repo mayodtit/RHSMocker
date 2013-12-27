@@ -21,7 +21,8 @@ resource 'SymptomContents' do
       explanation 'Returns an array of contents for a symptom with optional filtering'
       expect(status).to eq(200)
       json = JSON.parse(response_body, symbolize_names: true)
-      expect(json[:contents].to_json).to eq([content].as_json.to_json)
+      content_ids = json[:contents].map{|c| c[:id]}
+      expect(content_ids).to include(content.id)
     end
   end
 end
