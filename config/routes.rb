@@ -45,7 +45,9 @@ RHSMocker::Application.routes.draw do
       resources :reset_password, only: [:create, :show, :update]
       resources :scheduled_phone_calls, :except => [:new, :edit]
       resources :side_effects, :only => :index
-      resources :symptoms, :only => :index
+      resources :symptoms, only: :index do
+        resources :factor_groups, only: :index
+      end
       resources :treatments, :only => :index
       resources :users, only: [:index, :show, :create, :update] do
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
