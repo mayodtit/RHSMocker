@@ -10,10 +10,24 @@ describe User do
 
   it_has_a 'valid factory'
 
-  it 'validates email format' do
-    expect(user).to be_valid
-    user.email = 'junk'
-    expect(user).to_not be_valid
+  describe '#phone' do
+    it 'isn\'t valid if length is less than 10' do
+      user.phone = '311'
+      user.save
+      user.should_not be_valid
+    end
+
+    it 'isn\'t valid if length is greater than 10' do
+      user.phone = '012345678910'
+      user.save
+      user.should_not be_valid
+    end
+
+    it 'is valid if length is equal to 10' do
+      user.phone = '0123456789'
+      user.save
+      user.should be_valid
+    end
   end
 
   describe '#age' do
