@@ -41,4 +41,8 @@ RHSMocker::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  config.after_initialize do
+    Rails.application.routes.default_url_options[:host] = ENV['TWILIO_ENDPOINT_HOST'] || 'localhost:3000'
+  end
 end
