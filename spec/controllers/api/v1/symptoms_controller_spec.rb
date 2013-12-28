@@ -4,7 +4,7 @@ describe Api::V1::SymptomsController do
   let!(:symptom) { build_stubbed(:symptom) }
 
   before do
-    Symptom.stub(order: [symptom])
+    Symptom.stub_chain(:order, :includes).and_return([symptom])
   end
 
   describe 'GET index' do
