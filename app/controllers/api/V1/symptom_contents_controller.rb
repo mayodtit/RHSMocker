@@ -27,7 +27,7 @@ class Api::V1::SymptomContentsController < Api::V1::ABaseController
         name: content.title,
         factors: content_factors(content)
       }
-    end.sort_by!{|result| (result[:factors].map{|f| f[:id]} & factor_ids).count}.reverse!
+    end.sort_by!{|result| [-(result[:factors].map{|f| f[:id]} & factor_ids).count, result[:name]]}
   end
 
   def factor_ids
