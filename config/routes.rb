@@ -49,6 +49,7 @@ RHSMocker::Application.routes.draw do
       resources :symptoms, only: :index do
         resources :factor_groups, only: :index
         resources :contents, only: :index, controller: :symptom_contents
+        post :check, on: :collection, to: 'symptom_contents#index'
       end
       resources :treatments, :only => :index
       resources :users, only: [:index, :show, :create, :update] do
@@ -97,8 +98,6 @@ RHSMocker::Application.routes.draw do
       post "user/update_password" => "users#secure_update", :as=>"update_password"
       post "user/update_email" => "users#secure_update", :as=>"update_email"
       get 'user/' => 'users#show'
-
-      post "symptoms/check" => "factors#check"
     end
   end
 
