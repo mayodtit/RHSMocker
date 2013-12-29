@@ -15,6 +15,8 @@ class PhoneCall < ActiveRecord::Base
 
   validates :user, :message, :destination_phone_number, :identifier_token, presence: true
   validates :identifier_token, uniqueness: true
+  validates :origin_phone_number, format: /\A\d{10}\Z/, allow_nil: true
+  validates :destination_phone_number, format: /\A\d{10}\Z/, allow_nil: false
 
   before_validation :generate_identifier_token
 

@@ -23,6 +23,24 @@ describe User do
       user.should_not be_valid
     end
 
+    it 'isn\'t valid if its not all numbers' do
+      user.phone = '012345A789'
+      user.save
+      user.should_not be_valid
+    end
+
+    it 'isn\'t valid if blank' do
+      user.phone = ''
+      user.save
+      user.should_not be_valid
+    end
+
+    it 'is valid if nil' do
+      user.phone = nil
+      user.save
+      user.should be_valid
+    end
+
     it 'is valid if length is equal to 10' do
       user.phone = '0123456789'
       user.save

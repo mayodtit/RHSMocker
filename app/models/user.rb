@@ -36,7 +36,7 @@ class User < ActiveRecord::Base
 
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
-  validates :phone, :length => {:is => 10}, :if => :phone
+  validates :phone, format: /\A\d{10}\Z/, allow_nil: true
 
   mount_uploader :avatar, AvatarUploader
 

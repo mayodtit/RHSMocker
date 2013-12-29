@@ -14,6 +14,87 @@ describe PhoneCall do
     it_validates 'uniqueness of', :identifier_token
   end
 
+  describe 'phone numbers' do
+    let(:phone_call) { build(:phone_call) }
+
+    describe '#origin_phone_number' do
+      it 'isn\'t valid if length is less than 10' do
+        phone_call.origin_phone_number = '311'
+        phone_call.save
+        phone_call.should_not be_valid
+      end
+
+      it 'isn\'t valid if length is greater than 10' do
+        phone_call.origin_phone_number = '012345678910'
+        phone_call.save
+        phone_call.should_not be_valid
+      end
+
+      it 'isn\'t valid if not all numbers' do
+        phone_call.origin_phone_number = '01234567A9'
+        phone_call.save
+        phone_call.should_not be_valid
+      end
+
+      it 'isn\'t valid if blank' do
+        phone_call.origin_phone_number = ''
+        phone_call.save
+        phone_call.should_not be_valid
+      end
+
+      it 'is valid if nil' do
+        phone_call.origin_phone_number = nil
+        phone_call.save
+        phone_call.should be_valid
+      end
+
+      it 'is valid if length is equal to 10' do
+        phone_call.origin_phone_number = '0123456789'
+        phone_call.save
+        phone_call.should be_valid
+      end
+    end
+
+    describe '#destination_phone_number' do
+      it 'isn\'t valid if length is less than 10' do
+        phone_call.destination_phone_number = '311'
+        phone_call.save
+        phone_call.should_not be_valid
+      end
+
+      it 'isn\'t valid if length is greater than 10' do
+        phone_call.destination_phone_number = '012345678910'
+        phone_call.save
+        phone_call.should_not be_valid
+      end
+
+      it 'isn\'t valid if not all numbers' do
+        phone_call.destination_phone_number = '012345678A'
+        phone_call.save
+        phone_call.should_not be_valid
+      end
+
+      it 'isn\'t valid if blank' do
+        phone_call.destination_phone_number = ''
+        phone_call.save
+        phone_call.should_not be_valid
+      end
+
+      it 'isn\'t valid if nil' do
+        phone_call.destination_phone_number = nil
+        phone_call.save
+        phone_call.should_not be_valid
+      end
+
+      it 'is valid if length is equal to 10' do
+        phone_call.destination_phone_number = '0123456789'
+        phone_call.save
+        phone_call.should be_valid
+      end
+    end
+  end
+
+
   describe '#to_nurse?' do
     it 'returns true if the phone_call is to a nurse' do
       phone_call = build_stubbed(:phone_call, :to_role => Role.new(:name => :nurse))
@@ -77,7 +158,7 @@ describe PhoneCall do
     before :each do
       @phone_call = PhoneCall.new
       @phone_call.user = create :member
-      @phone_call.destination_phone_number = '311'
+      @phone_call.destination_phone_number = '3114115123'
       @phone_call.message =  create :message
 
       @nurse = create :nurse

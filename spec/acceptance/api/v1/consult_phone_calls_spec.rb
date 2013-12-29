@@ -52,8 +52,8 @@ resource "ConsultPhoneCalls" do
     scope_parameters :phone_call, [:origin_phone_number, :destination_phone_number, :to_role]
 
     let(:to_role) { user.roles.first.name }
-    let(:origin_phone_number) { '555-123-4567' }
-    let(:destination_phone_number) { '555-888-8888' }
+    let(:origin_phone_number) { '5551234567' }
+    let(:destination_phone_number) { '5558888888' }
     let(:raw_post) { params.to_json }
 
     example_request "[POST] Create a phone_call" do
