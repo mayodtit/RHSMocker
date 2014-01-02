@@ -1,5 +1,6 @@
 FactoryGirl.define do
   factory :factor do
-    name "intense"
+    factor_group
+    sequence(:name) {|n| "Factor #{n}"}
   end
 end

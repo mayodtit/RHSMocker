@@ -7,11 +7,10 @@ class Content < ActiveRecord::Base
   has_many :content_mayo_vocabularies
   has_many :mayo_vocabularies, :through => :content_mayo_vocabularies
   has_many :messages
-  has_many :contents_symptoms_factors
-  has_many :symptoms_factors, :through => :contents_symptoms_factors
-  has_and_belongs_to_many :symptoms
   has_many :content_references, foreign_key: :referrer_id
   has_many :referees, through: :content_references
+  has_many :factor_contents
+  has_many :factors, through: :factor_contents
 
   attr_accessible :title, :raw_body, :content_type, :abstract, :question, :keywords,
                   :content_updated_at, :document_id, :show_call_option,
