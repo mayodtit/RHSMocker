@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131227044211) do
+ActiveRecord::Schema.define(:version => 20140102235205) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -469,6 +469,7 @@ ActiveRecord::Schema.define(:version => 20131227044211) do
     t.integer  "symptom_medical_advice_id"
     t.datetime "created_at",                :null => false
     t.datetime "updated_at",                :null => false
+    t.string   "gender"
   end
 
   add_index "symptom_medical_advice_items", ["symptom_medical_advice_id"], :name => "index_symptom_medical_advice_items_on_symptom_medical_advice_id"

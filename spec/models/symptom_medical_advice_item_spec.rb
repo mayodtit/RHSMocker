@@ -4,4 +4,5 @@ describe SymptomMedicalAdviceItem do
   it_has_a 'valid factory'
   it_validates 'presence of', :symptom_medical_advice
   it_validates 'presence of', :description
+  it_validates 'allows nil inclusion of', :gender
 end

@@ -58,7 +58,17 @@ class SymptomCheckerImporter
                                     items: []}
     next_index_to_match_range('self-care strategies').each do |i|
       next if @lines[i].blank?
-      @attributes[:medical_advice][:items] << {description: @lines[i].strip}
+      if /\[/.match(@lines[i])
+        if @lines[i].gsub(/.*\[|\].*/, '') == 'female'
+          gender = 'F'
+        elsif @lines[i].gsub(/.*\[|\].*/, '') == 'male'
+          gender = 'M'
+        else
+          gender = nil
+        end
+      end
+      @attributes[:medical_advice][:items] << {description: @lines[i].gsub(/\[.*\]/, '').strip,
+                                               gender: gender}
     end
   end
 
@@ -196,7 +206,8 @@ class SymptomCheckerImporter
                                                         {description: @attributes[:medical_advice][:description]})
     @attributes[:medical_advice][:items].each do |item|
       SymptomMedicalAdviceItem.where(symptom_medical_advice_id: med_advice.id,
-                                     description: item[:description]).first_or_create!
+                                     description: item[:description],
+                                     gender: item[:gender]).first_or_create!
     end
   end
 
