@@ -54,21 +54,36 @@ class SymptomCheckerImporter
   end
 
   def get_medical_advice!
-    @attributes[:medical_advice] = {description: line_after_match_and_blanks('when to get medical help').gsub(/\(.*\)/, '').strip,
-                                    items: []}
-    next_index_to_match_range('self-care strategies').each do |i|
-      next if @lines[i].blank?
-      if /\[/.match(@lines[i])
-        if @lines[i].gsub(/.*\[|\].*/, '') == 'female'
-          gender = 'F'
-        elsif @lines[i].gsub(/.*\[|\].*/, '') == 'male'
-          gender = 'M'
+    advance_index_to_match!('when to get medical help')
+    advance_index_past_blank!
+    end_of_medical_advice = find_index_of_match!('self-care strategies') - 1
+    @attributes[:medical_advices] = []
+    while @index < end_of_medical_advice
+      if @lines[@index].blank?
+        @index += 1
+        break if @index >= end_of_medical_advice
+      end
+      medical_advice = {description: @lines[@index].gsub(/\(.*\)/, '').strip,
+                        items: []}
+      advance_index_past_blank!
+      while (@lines[@index].present?)
+        break if @index > end_of_medical_advice
+        if /\[/.match(@lines[@index])
+          if @lines[@index].gsub(/.*\[|\].*/, '') == 'female'
+            gender = 'F'
+          elsif @lines[@index].gsub(/.*\[|\].*/, '') == 'male'
+            gender = 'M'
+          else
+            gender = nil
+          end
         else
           gender = nil
         end
+        medical_advice[:items] << {description: @lines[@index].gsub(/\[.*\]/, '').strip,
+                                   gender: gender}
+        @index += 1
       end
-      @attributes[:medical_advice][:items] << {description: @lines[i].gsub(/\[.*\]/, '').strip,
-                                               gender: gender}
+      @attributes[:medical_advices] << medical_advice
     end
   end
 
@@ -202,12 +217,14 @@ class SymptomCheckerImporter
   end
 
   def create_symptom_medical_advice!
-    med_advice = SymptomMedicalAdvice.upsert_attributes({symptom_id: @symptom.id},
-                                                        {description: @attributes[:medical_advice][:description]})
-    @attributes[:medical_advice][:items].each do |item|
-      SymptomMedicalAdviceItem.where(symptom_medical_advice_id: med_advice.id,
-                                     description: item[:description],
-                                     gender: item[:gender]).first_or_create!
+    @attributes[:medical_advices].each do |advice|
+      med_advice = SymptomMedicalAdvice.where(symptom_id: @symptom.id,
+                                              description: advice[:description]).first_or_create!
+      advice[:items].each do |item|
+        SymptomMedicalAdviceItem.where(symptom_medical_advice_id: med_advice.id,
+                                       description: item[:description],
+                                       gender: item[:gender]).first_or_create!
+      end
     end
   end
 
