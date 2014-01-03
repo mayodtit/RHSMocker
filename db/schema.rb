@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140102235205) do
+ActiveRecord::Schema.define(:version => 20140103181617) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -129,6 +129,7 @@ ActiveRecord::Schema.define(:version => 20140102235205) do
     t.string   "title"
     t.string   "description"
     t.string   "image"
+    t.integer  "symptom_id"
   end
 
   create_table "content_mayo_vocabularies", :force => true do |t|

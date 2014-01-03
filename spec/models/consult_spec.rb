@@ -13,6 +13,7 @@ describe Consult do
     it_validates 'presence of', :subject
     it_validates 'presence of', :status
     it_validates 'presence of', :priority
+    it_validates 'foreign key of', :symptom
     it_validates 'inclusion of', :checked
     it_validates 'length of', :users
   end

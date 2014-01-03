@@ -16,6 +16,16 @@ shared_examples 'presence of' do |property|
   end
 end
 
+shared_examples 'foreign key of' do |property|
+  its "#{property}" do
+    model = build_stubbed(described_class.name.underscore.to_sym)
+    model.send(:"#{property}=", nil)
+    model.send(:"#{property}_id=", 42)
+    model.should_not be_valid
+    model.errors[property.to_sym].should include("can't be blank")
+  end
+end
+
 shared_examples 'inclusion of' do |property|
   its "#{property}" do
     model = build_stubbed(described_class.name.underscore.to_sym)
