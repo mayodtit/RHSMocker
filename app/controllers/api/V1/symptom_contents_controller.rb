@@ -40,7 +40,8 @@ class Api::V1::SymptomContentsController < Api::V1::ABaseController
                    .includes(:factor_group).map do |factor|
       {
         id: factor.id,
-        name: "#{factor.factor_group.name.capitalize} #{factor.name.downcase}"
+        name: "#{factor.factor_group.name.capitalize} #{factor.name.downcase}",
+        gender: factor.gender
       }
     end
   end
