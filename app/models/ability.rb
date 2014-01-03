@@ -30,6 +30,10 @@ class Ability
       can :manage, :all
     end
 
+    if user.pha?
+      can :manage, User
+    end
+
     if user.admin?
       can :assign_roles, User
     end

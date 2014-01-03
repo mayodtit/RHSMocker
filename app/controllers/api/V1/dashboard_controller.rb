@@ -15,6 +15,8 @@ class Api::V1::DashboardController < Api::V1::ABaseController
   private
 
   def authorize_user!
-    raise CanCan::AccessDenied unless current_user.admin?
+    unless current_user.admin? || current_user.pha?
+      raise CanCan::AccessDenied
+    end
   end
 end
