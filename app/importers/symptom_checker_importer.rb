@@ -93,6 +93,7 @@ class SymptomCheckerImporter
                               items: []}
     next_index_to_match_range('more information').each do |i|
       next if @lines[i].blank?
+      break if /IMAGE/i.match(@lines[i])
       @attributes[:selfcare][:items] << {description: @lines[i].strip}
     end
   end
@@ -213,7 +214,6 @@ class SymptomCheckerImporter
 
   def create_symptom!
     @symptom = Symptom.where(@attributes[:symptom]).first_or_create!
-
   end
 
   def create_symptom_medical_advice!
