@@ -17,22 +17,8 @@ Question.upsert_attributes({:view => :diet}, {:title => 'Which of these do you e
 CustomCard.upsert_attributes({title: 'Welcome to Better Premium'}, {priority: 20,
                                                                     raw_preview: "<div class=\"new-consult\" data-message=\"I would like to schedule an onboarding call with a Personal Health Assistant\" data-consult-type=\"schedule\">\nClick here to schedule a phone call with your Personal Health Assistant\n</div>"})
 
-# Create some default Members
-#nancy  = Member.create!(first_name: "Nancy", last_name: "Smith",   gender:"F", birth_date:"06/18/1950", install_id: "123345")
-#bob  = Member.create!(first_name: "Bob",   last_name: "Jones",   gender:"M", birth_date:"01/10/1973", install_id: "122233")
-#limburg = Member.create!(first_name: "Paul",   last_name: "Limburg", gender:"M", install_id: "144444")
-#shelly  = Member.create!(first_name: "Shelly",last_name: "Norman",   gender:"F", install_id: "555555")
-
-nurse = Role.find_or_create_by_name(:name => 'nurse')
-Role.find_or_create_by_name(:name => 'admin')
-
-[
-  {:install_id => 'test-1', :first_name => 'Jack', :last_name => 'Kevorkian', :gender => 'M'},
-  {:install_id => 'test-2', :first_name => 'Emmett', :last_name => 'Brown', :gender => 'M'},
-  {:install_id => 'test-3', :first_name => 'Hannibal', :last_name => 'Lecter', :gender => 'M'}
-].each do |u|
-  user = Member.find_or_create_by_install_id(u)
-  user.roles << nurse unless user.nurse?
+%w(nurse admin pha).each do |role|
+  Role.find_or_create_by_name!(name: role)
 end
 
 EthnicGroup.find_or_create_by_name(:name=>"American Indian", :ethnicity_code=>"1", :ordinal=>1)
@@ -42,7 +28,6 @@ EthnicGroup.find_or_create_by_name(:name=>"Black", :ethnicity_code=>"3", :ordina
 EthnicGroup.find_or_create_by_name(:name=>"Hispanic", :ethnicity_code=>"4", :ordinal=>5)
 EthnicGroup.find_or_create_by_name(:name=>"White", :ethnicity_code=>"5", :ordinal=>6)
 EthnicGroup.find_or_create_by_name(:name=>"Don't want to say", :ethnicity_code=>"6", :ordinal=>7)
-
 
 Diet.find_or_create_by_name(:name=>"No dietary restrictions", :ordinal=>1)
 Diet.find_or_create_by_name(:name=>"Gluten-free", :ordinal=>2)
@@ -72,7 +57,7 @@ grandfather.update_attribute :gender, "male"
 grandmother = AssociationType.find_or_create_by_name(:name=>"Grandmother", :gender=>"female", :relationship_type=>"family")
 grandmother.update_attribute :gender, "female"
 
-cousin = AssociationType.find_or_create_by_name(:name=>"Cousin", :gender=>nil, :relationship_type=>"family")
+AssociationType.find_or_create_by_name(:name=>"Cousin", :gender=>nil, :relationship_type=>"family")
 son = AssociationType.find_or_create_by_name(:name=>"Son", :gender=>"male", :relationship_type=>"family")
 son.update_attribute :gender, "male"
 
