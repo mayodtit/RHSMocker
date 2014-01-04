@@ -31,7 +31,7 @@ class Api::V1::SymptomContentsController < Api::V1::ABaseController
   end
 
   def factor_ids
-    params[:factor_ids] || params[:symptoms_factors] || []
+    @factor_ids ||= (params[:factor_ids] || params[:symptoms_factors] || []).map(&:to_i)
   end
 
   def content_factors(content)
