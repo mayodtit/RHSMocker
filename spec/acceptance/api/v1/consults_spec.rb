@@ -5,6 +5,7 @@ resource "Consults" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
+  let(:nurse) { create(:nurse) }
   let!(:user) { create(:member) }
   let(:auth_token) { user.auth_token }
 
@@ -71,7 +72,7 @@ resource "Consults" do
     end
 
     context 'with a phone_call' do
-      let(:phone_call) { attributes_for(:phone_call) }
+      let(:phone_call) { attributes_for(:phone_call, to_role: nurse.roles.first.name) }
 
       parameter :phone_call, 'Hash of phone_call parameters'
 
