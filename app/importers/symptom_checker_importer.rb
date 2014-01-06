@@ -241,7 +241,7 @@ class SymptomCheckerImporter
     @attributes[:factor_groups].each do |factor_group_attributes|
       factor_group = @symptom.factor_groups.where(name: factor_group_attributes[:name].strip).first_or_create!
       factor_group_attributes[:factors].each do |factor_attributes|
-        factor_group.factors.where(name: factor_attributes[:name].gsub(/\[.*\]/, '').strip, gender: factor_attributes[:gender]).first_or_create!
+        factor_group.factors.upsert_attributes({name: factor_attributes[:name].gsub(/\[.*\]/, '').strip}, {gender: factor_attributes[:gender]})
       end
     end
   end
