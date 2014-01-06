@@ -1,3 +1,5 @@
+require './lib/utils/phone_number_util'
+
 class PhoneCall < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
 
@@ -13,11 +15,12 @@ class PhoneCall < ActiveRecord::Base
                   :destination_phone_number, :claimer, :claimer_id, :claimed_at,
                   :ender, :ender_id, :ended_at, :identifier_token
 
-  validates :user, :message, :destination_phone_number, :identifier_token, presence: true
+  validates :user, :message, :identifier_token, presence: true
   validates :identifier_token, uniqueness: true
-  validates :origin_phone_number, format: /\A\d{10}\Z/, allow_nil: true
-  validates :destination_phone_number, format: /\A\d{10}\Z/, allow_nil: false
+  validates :origin_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
+  validates :destination_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: false
 
+  before_validation :prep_phone_numbers
   before_validation :generate_identifier_token
 
   # TODO - remove this fake job when nurseline is built
@@ -47,6 +50,11 @@ class PhoneCall < ActiveRecord::Base
 
   def schedule_phone_call_summary
     PhoneCallSummaryJob.new.queue_summary(user.id, consult.id)
+  end
+
+  def prep_phone_numbers
+    self.destination_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.destination_phone_number
+    self.origin_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.origin_phone_number
   end
 
   state_machine :initial => :unclaimed do

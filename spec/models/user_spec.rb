@@ -11,14 +11,14 @@ describe User do
   it_has_a 'valid factory'
 
   describe '#phone' do
-    it 'isn\'t valid if length is less than 10' do
+    it 'isn\'t valid if length is less than 11' do
       user.phone = '311'
       user.save
       user.should_not be_valid
     end
 
-    it 'isn\'t valid if length is greater than 10' do
-      user.phone = '012345678910'
+    it 'isn\'t valid if length is greater than 11' do
+      user.phone = '0123456789101'
       user.save
       user.should_not be_valid
     end
@@ -41,10 +41,17 @@ describe User do
       user.should be_valid
     end
 
-    it 'is valid if length is equal to 10' do
-      user.phone = '0123456789'
+    it 'is valid if length is equal to 11' do
+      user.phone = '01234567890'
       user.save
       user.should be_valid
+    end
+
+    it 'is changed before validation' do
+      user.phone = ' (408) 391 - 3578'
+      user.save
+      user.should be_valid
+      user.phone.should == '14083913578'
     end
   end
 

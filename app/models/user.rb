@@ -36,10 +36,11 @@ class User < ActiveRecord::Base
 
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
-  validates :phone, format: /\A\d{10}\Z/, allow_nil: true
+  validates :phone, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
 
   mount_uploader :avatar, AvatarUploader
 
+  before_validation :prep_phone
   before_validation :set_defaults
   before_create :create_google_analytics_uuid
 
@@ -143,6 +144,10 @@ class User < ActiveRecord::Base
   #############################################################################
 
   private
+
+  def prep_phone
+    self.phone = PhoneNumberUtil::prep_phone_number_for_db self.phone
+  end
 
   def set_defaults
     self.deceased = false if deceased.nil?

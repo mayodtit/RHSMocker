@@ -351,8 +351,8 @@ ActiveRecord::Schema.define(:version => 20140110002708) do
 
   create_table "phone_calls", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at",                              :null => false
-    t.datetime "updated_at",                              :null => false
+    t.datetime "created_at",                                            :null => false
+    t.datetime "updated_at",                                            :null => false
     t.string   "origin_phone_number"
     t.string   "destination_phone_number"
     t.string   "state"
@@ -361,7 +361,8 @@ ActiveRecord::Schema.define(:version => 20140110002708) do
     t.integer  "claimer_id"
     t.integer  "ender_id"
     t.string   "identifier_token"
-    t.integer  "to_role_id",               :default => 1, :null => false
+    t.integer  "to_role_id",                             :default => 1, :null => false
+    t.string   "twilio_sid",               :limit => 34
   end
 
   add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"

@@ -9,7 +9,6 @@ describe PhoneCall do
     end
 
     it_validates 'presence of', :user
-    it_validates 'presence of', :destination_phone_number
     it_validates 'presence of', :identifier_token
     it_validates 'uniqueness of', :identifier_token
   end
@@ -18,14 +17,14 @@ describe PhoneCall do
     let(:phone_call) { build(:phone_call) }
 
     describe '#origin_phone_number' do
-      it 'isn\'t valid if length is less than 10' do
+      it 'isn\'t valid if length is less than 11' do
         phone_call.origin_phone_number = '311'
         phone_call.save
         phone_call.should_not be_valid
       end
 
-      it 'isn\'t valid if length is greater than 10' do
-        phone_call.origin_phone_number = '012345678910'
+      it 'isn\'t valid if length is greater than 11' do
+        phone_call.origin_phone_number = '0123456789101'
         phone_call.save
         phone_call.should_not be_valid
       end
@@ -48,22 +47,29 @@ describe PhoneCall do
         phone_call.should be_valid
       end
 
-      it 'is valid if length is equal to 10' do
-        phone_call.origin_phone_number = '0123456789'
+      it 'is valid if length is equal to 11' do
+        phone_call.origin_phone_number = '01234567890'
         phone_call.save
         phone_call.should be_valid
+      end
+
+      it 'is changed before validation' do
+        phone_call.origin_phone_number = ' (408) 391 - 3578'
+        phone_call.save
+        phone_call.should be_valid
+        phone_call.origin_phone_number.should == '14083913578'
       end
     end
 
     describe '#destination_phone_number' do
-      it 'isn\'t valid if length is less than 10' do
+      it 'isn\'t valid if length is less than 11' do
         phone_call.destination_phone_number = '311'
         phone_call.save
         phone_call.should_not be_valid
       end
 
-      it 'isn\'t valid if length is greater than 10' do
-        phone_call.destination_phone_number = '012345678910'
+      it 'isn\'t valid if length is greater than 11' do
+        phone_call.destination_phone_number = '0123456789101'
         phone_call.save
         phone_call.should_not be_valid
       end
@@ -86,10 +92,17 @@ describe PhoneCall do
         phone_call.should_not be_valid
       end
 
-      it 'is valid if length is equal to 10' do
-        phone_call.destination_phone_number = '0123456789'
+      it 'is valid if length is equal to 11' do
+        phone_call.destination_phone_number = '01234567890'
         phone_call.save
         phone_call.should be_valid
+      end
+
+      it 'is changed before validation' do
+        phone_call.destination_phone_number = ' (855) 391 - 3578'
+        phone_call.save
+        phone_call.should be_valid
+        phone_call.destination_phone_number.should == '18553913578'
       end
     end
   end
