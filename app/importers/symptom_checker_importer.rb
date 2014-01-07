@@ -66,22 +66,24 @@ class SymptomCheckerImporter
       medical_advice = {description: @lines[@index].gsub(/\(.*\)/, '').strip,
                         items: []}
       advance_index_past_blank!
-      while (@lines[@index].present?)
-        break if @index > end_of_medical_advice
-        if /\[/.match(@lines[@index])
-          if @lines[@index].gsub(/.*\[|\].*/, '') == 'female'
-            gender = 'F'
-          elsif @lines[@index].gsub(/.*\[|\].*/, '') == 'male'
-            gender = 'M'
+      if /:$/.match(medical_advice[:description])
+        while (@lines[@index].present?)
+          break if @index > end_of_medical_advice
+          if /\[/.match(@lines[@index])
+            if @lines[@index].gsub(/.*\[|\].*/, '') == 'female'
+              gender = 'F'
+            elsif @lines[@index].gsub(/.*\[|\].*/, '') == 'male'
+              gender = 'M'
+            else
+              gender = nil
+            end
           else
             gender = nil
           end
-        else
-          gender = nil
+          medical_advice[:items] << {description: @lines[@index].gsub(/\[.*\]/, '').strip,
+                                     gender: gender}
+          @index += 1
         end
-        medical_advice[:items] << {description: @lines[@index].gsub(/\[.*\]/, '').strip,
-                                   gender: gender}
-        @index += 1
       end
       @attributes[:medical_advices] << medical_advice
     end
