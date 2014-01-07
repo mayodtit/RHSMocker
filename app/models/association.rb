@@ -4,16 +4,12 @@ class Association < ActiveRecord::Base
   belongs_to :association_type
   accepts_nested_attributes_for :associate
 
-  attr_accessible :user, :associate, :association_type, :associate_attributes
-  attr_accessible :user_id, :associate_id, :association_type_id
+  attr_accessible :user, :user_id, :associate, :associate_id, :association_type,
+                  :association_type_id, :associate_attributes
 
-  validates :user, :associate, :association_type, presence: true
+  validates :user, :associate, presence: true
   validate :user_is_not_associate
   validates :associate_id, uniqueness: {scope: [:user_id, :association_type_id]}
-
-  def self.hcp
-    joins(:association_type).where(:association_types => {:relationship_type => 'hcp'})
-  end
 
   def serializable_hash options=nil
     options ||= {}
