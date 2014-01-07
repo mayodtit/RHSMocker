@@ -56,7 +56,7 @@ class SymptomCheckerImporter
   def get_medical_advice!
     advance_index_to_match!('when to get medical help')
     advance_index_past_blank!
-    end_of_medical_advice = find_index_of_match!('self-care strategies') - 1
+    end_of_medical_advice = (find_index_of_match('self-care strategies') || find_index_of_match!('more information')) - 1
     @attributes[:medical_advices] = []
     while @index < end_of_medical_advice
       if @lines[@index].blank?
@@ -90,6 +90,9 @@ class SymptomCheckerImporter
   end
 
   def get_selfcare_strategies!
+    unless find_index_of_match('self-care strategies')
+      return
+    end
     advance_index_to_match!('self-care strategies')
     @attributes[:selfcare] = {description: line_after_match_and_blanks('self-care strategies').gsub(/\(.*\)/, '').strip,
                               items: []}
@@ -197,13 +200,17 @@ class SymptomCheckerImporter
     (@index + 1)..(advance_index_to_match!(search) - 1)
   end
 
-  def find_index_of_match!(search)
+  def find_index_of_match(search)
     (@index..(@lines.count - 1)).each do |i|
       if /#{search}/i.match(@lines[i])
         return i
       end
     end
-    raise 'Match not found!'
+    nil
+  end
+
+  def find_index_of_match!(search)
+    find_index_of_match(search) || raise('Match not found!')
   end
 
   def create_models_from_attributes!
@@ -231,6 +238,7 @@ class SymptomCheckerImporter
   end
 
   def create_symptom_selfcare!
+    return unless @attributes[:selfcare]
     selfcare = SymptomSelfcare.upsert_attributes({symptom_id: @symptom.id},
                                                  {description: @attributes[:selfcare][:description]})
     @attributes[:selfcare][:items].each do |item|
