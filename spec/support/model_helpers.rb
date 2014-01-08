@@ -69,13 +69,13 @@ shared_examples 'phone number format of' do |property, disallow_nil|
     @model.should be_valid
   end
 
-  it 'isn\'t valid if length is less than 11' do
+  it 'isn\'t valid if length is less than 10' do
     @model.send :"#{property}=",'311'
     @model.should_not be_valid
   end
 
-  it 'isn\'t valid if length is greater than 11' do
-    @model.send :"#{property}=",'0123456789101'
+  it 'isn\'t valid if length is greater than 10' do
+    @model.send :"#{property}=",'01234567890'
     @model.should_not be_valid
   end
 
@@ -96,8 +96,8 @@ shared_examples 'phone number format of' do |property, disallow_nil|
     end
   end
 
-  it 'is valid if length is equal to 11' do
-    @model.send :"#{property}=",'01234567890'
+  it 'is valid if length is equal to 10' do
+    @model.send :"#{property}=",'0123456789'
     @model.should be_valid
   end
 
@@ -106,6 +106,6 @@ shared_examples 'phone number format of' do |property, disallow_nil|
     @model.send :"#{property}=",' (408) 391 - 3578'
     @model.save
     @model.should be_valid
-    @model.send(:"#{property}").should == '14083913578'
+    @model.send(:"#{property}").should == '4083913578'
   end
 end

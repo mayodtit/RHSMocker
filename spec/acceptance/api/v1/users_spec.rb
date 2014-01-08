@@ -220,7 +220,7 @@ resource 'Users' do
         explanation 'Get the current user\'s info'
         status.should == 200
         response = JSON.parse(response_body, :symbolize_names => true)
-        response[:user].to_json.should == user.as_json(only: [:first_name, :last_name, :email], methods: [:full_name, :admin?, :nurse?, :pha?, :care_provider?]).to_json
+        response[:user].to_json.should == user.as_json(only: [:first_name, :last_name, :email, :work_phone_number], methods: [:full_name, :admin?, :nurse?, :pha?, :care_provider?]).to_json
       end
     end
   end
