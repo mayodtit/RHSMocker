@@ -45,6 +45,34 @@ namespace :admin do
     end
   end
 
+  task audit_symptom_genders: :environment do
+    Symptom.order(:patient_type, :name).each do |symptom|
+      log "#{symptom.name} (#{symptom.patient_type})"
+      log "  Gender: #{symptom.gender}" if symptom.gender
+      med_advice = SymptomMedicalAdviceItem.joins(:symptom_medical_advice).where(symptom_medical_advices: {symptom_id: symptom.id}).where('gender IS NOT NULL')
+      if med_advice.any?
+        log "  Medical Advice:"
+        med_advice.each do |advice|
+          log "    \"#{advice.symptom_medical_advice.description} #{advice.description}\", Gender: #{advice.gender}"
+        end
+      end
+      factors = Factor.joins(:factor_group).where(factor_groups: {symptom_id: symptom.id}).where('gender IS NOT NULL')
+      if factors.any?
+        log "  Factors:"
+        factors.each do |factor|
+          log "    #{factor.name}, Gender: #{factor.gender}"
+        end
+      end
+      contents = Content.joins(:factors => :factor_group).where(factor_groups: {symptom_id: symptom.id}).where('symptom_checker_gender IS NOT NULL').group('contents.id')
+      if contents.any?
+        log "  Contents:"
+        contents.each do |content|
+          log "    #{content.title}, Gender: #{content.symptom_checker_gender}"
+        end
+      end
+    end
+  end
+
   private
 
   def log(message)
