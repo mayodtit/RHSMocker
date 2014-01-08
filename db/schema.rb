@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140103181617) do
+ActiveRecord::Schema.define(:version => 20140108214316) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -667,6 +667,12 @@ ActiveRecord::Schema.define(:version => 20140103181617) do
   end
 
   add_index "users_roles", ["user_id", "role_id"], :name => "index_users_roles_on_user_id_and_role_id"
+
+  create_table "waitlist_entries", :force => true do |t|
+    t.string   "email"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "weights", :force => true do |t|
     t.integer  "user_id"
