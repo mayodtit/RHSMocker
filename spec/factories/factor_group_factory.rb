@@ -1,5 +1,6 @@
 FactoryGirl.define do
   factory :factor_group do
-    name "pain is"
+    symptom
+    sequence(:name) {|n| "FactorGroup #{n}"}
   end
 end

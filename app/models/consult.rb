@@ -7,12 +7,15 @@ class Consult < ActiveRecord::Base
   has_many :scheduled_phone_calls, :through => :messages
   has_many :phone_calls, :through => :messages
   has_many :cards, :as => :resource, :dependent => :destroy
+  belongs_to :symptom
 
   attr_accessible :initiator, :initiator_id, :subject, :subject_id, :checked,
                   :priority, :status, :add_user, :messages, :message, :image,
-                  :scheduled_phone_call, :phone_call, :title, :description
+                  :scheduled_phone_call, :phone_call, :title, :description,
+                  :symptom, :symptom_id
 
   validates :title, :initiator, :subject, :status, :priority, presence: true
+  validates :symptom, presence: true, if: lambda{|c| c.symptom_id.present? }
   validates :checked, :inclusion => {:in => [true, false]}
   validates :users, :length => {:minimum => 1}
 

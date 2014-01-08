@@ -46,6 +46,7 @@ describe 'Consults' do
     end
 
     let!(:user) { create(:user_with_email) }
+    let(:nurse) { create(:nurse) }
 
     before(:each) do
       user.login
@@ -99,7 +100,7 @@ describe 'Consults' do
     end
 
     context 'with a phone_call' do
-      let(:phone_call_param) { {:phone_call => attributes_for(:phone_call) } }
+      let(:phone_call_param) { {:phone_call => attributes_for(:phone_call, to_role: nurse.roles.first.name) } }
 
       it 'creates an consult for the current user' do
         lambda{ do_request(phone_call_param) }.should change(Consult, :count).by(1)
@@ -118,6 +119,7 @@ describe 'Consults' do
         consult.messages.count.should == 1
         user.messages.first.should == consult.messages.first
         consult.messages.first.phone_call.should_not be_nil
+        consult.phone_calls.first.to_role.name.should == 'nurse'
       end
     end
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131222035618) do
+ActiveRecord::Schema.define(:version => 20140103181617) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -19,8 +19,8 @@ ActiveRecord::Schema.define(:version => 20131222035618) do
     t.string   "city"
     t.string   "state"
     t.string   "postal_code"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "agreements", :force => true do |t|
@@ -129,6 +129,7 @@ ActiveRecord::Schema.define(:version => 20131222035618) do
     t.string   "title"
     t.string   "description"
     t.string   "image"
+    t.integer  "symptom_id"
   end
 
   create_table "content_mayo_vocabularies", :force => true do |t|
@@ -167,26 +168,6 @@ ActiveRecord::Schema.define(:version => 20131222035618) do
   end
 
   add_index "contents", ["document_id"], :name => "index_contents_on_document_id"
-
-  create_table "contents_symptoms", :force => true do |t|
-    t.integer  "content_id"
-    t.integer  "symptom_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  add_index "contents_symptoms", ["content_id"], :name => "index_contents_symptoms_on_content_id"
-  add_index "contents_symptoms", ["symptom_id"], :name => "index_contents_symptoms_on_symptom_id"
-
-  create_table "contents_symptoms_factors", :force => true do |t|
-    t.integer  "content_id"
-    t.integer  "symptoms_factor_id"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
-  end
-
-  add_index "contents_symptoms_factors", ["content_id"], :name => "index_contents_symptom_factors_on_content_id"
-  add_index "contents_symptoms_factors", ["symptoms_factor_id"], :name => "index_contents_symptom_factors_on_symptom_factor_id"
 
   create_table "credits", :force => true do |t|
     t.integer  "offering_id"
@@ -240,17 +221,27 @@ ActiveRecord::Schema.define(:version => 20131222035618) do
     t.datetime "disabled_at"
   end
 
-  create_table "factor_groups", :force => true do |t|
-    t.string   "name"
+  create_table "factor_contents", :force => true do |t|
+    t.integer  "factor_id"
+    t.integer  "content_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
 
-  create_table "factors", :force => true do |t|
+  create_table "factor_groups", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "symptom_id"
+    t.integer  "ordinal"
+  end
+
+  create_table "factors", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
     t.string   "gender"
+    t.integer  "factor_group_id"
   end
 
   create_table "feature_groups", :force => true do |t|
@@ -265,8 +256,8 @@ ActiveRecord::Schema.define(:version => 20131222035618) do
     t.string   "company_name"
     t.string   "plan_type"
     t.string   "policy_member_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
   create_table "invitations", :force => true do |t|
@@ -420,8 +411,8 @@ ActiveRecord::Schema.define(:version => 20131222035618) do
     t.string   "state"
     t.string   "postal_code"
     t.string   "phone"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "questions", :force => true do |t|
@@ -479,6 +470,7 @@ ActiveRecord::Schema.define(:version => 20131222035618) do
     t.integer  "symptom_medical_advice_id"
     t.datetime "created_at",                :null => false
     t.datetime "updated_at",                :null => false
+    t.string   "gender"
   end
 
   add_index "symptom_medical_advice_items", ["symptom_medical_advice_id"], :name => "index_symptom_medical_advice_items_on_symptom_medical_advice_id"
@@ -514,23 +506,8 @@ ActiveRecord::Schema.define(:version => 20131222035618) do
     t.datetime "updated_at",   :null => false
     t.string   "patient_type"
     t.string   "description"
-    t.text     "selfcare"
     t.string   "gender"
   end
-
-  create_table "symptoms_factors", :force => true do |t|
-    t.boolean  "doctor_call_worthy"
-    t.boolean  "er_worthy"
-    t.integer  "symptom_id"
-    t.integer  "factor_id"
-    t.integer  "factor_group_id"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
-  end
-
-  add_index "symptoms_factors", ["factor_group_id"], :name => "index_symptoms_factors_on_factor_group_id"
-  add_index "symptoms_factors", ["factor_id"], :name => "index_symptoms_factors_on_factor_id"
-  add_index "symptoms_factors", ["symptom_id"], :name => "index_symptoms_factors_on_symptom_id"
 
   create_table "treatment_side_effects", :force => true do |t|
     t.integer  "treatment_id"
@@ -605,8 +582,8 @@ ActiveRecord::Schema.define(:version => 20131222035618) do
 
   create_table "user_informations", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
     t.text     "notes"
   end
 

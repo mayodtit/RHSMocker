@@ -26,6 +26,7 @@ RHSMocker::Application.routes.draw do
       resources :dashboard, only: :index
       resources :diseases, :only => :index, :controller => :conditions
       resources :ethnic_groups, :only => :index
+      get 'factors/:symptom_id', to: 'factor_groups#index' # TODO - deprecated!
       resources :locations, :only => :create
       resources :members, only: [:index, :show, :update]
       resources :messages, :only => :show do
@@ -45,7 +46,11 @@ RHSMocker::Application.routes.draw do
       resources :reset_password, only: [:create, :show, :update]
       resources :scheduled_phone_calls, :except => [:new, :edit]
       resources :side_effects, :only => :index
-      resources :symptoms, :only => :index
+      resources :symptoms, only: :index do
+        resources :factor_groups, only: :index
+        resources :contents, only: :index, controller: :symptom_contents
+        post :check, on: :collection, to: 'symptom_contents#index'
+      end
       resources :treatments, :only => :index
       resources :users, only: [:index, :show, :create, :update] do
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
@@ -93,9 +98,6 @@ RHSMocker::Application.routes.draw do
       post "user/update_password" => "users#secure_update", :as=>"update_password"
       post "user/update_email" => "users#secure_update", :as=>"update_email"
       get 'user/' => 'users#show'
-
-      get "factors/:id" => "factors#index"
-      post "symptoms/check" => "factors#check"
     end
   end
 

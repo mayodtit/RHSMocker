@@ -39,6 +39,7 @@ class User < ActiveRecord::Base
 
   mount_uploader :avatar, AvatarUploader
 
+  before_validation :set_defaults
   before_create :create_google_analytics_uuid
 
   # TODO - I think this should be moved to Member, needs investigation
@@ -141,6 +142,11 @@ class User < ActiveRecord::Base
   #############################################################################
 
   private
+
+  def set_defaults
+    self.deceased = false if deceased.nil?
+    true
+  end
 
   def create_google_analytics_uuid
     self.google_analytics_uuid = SecureRandom.uuid

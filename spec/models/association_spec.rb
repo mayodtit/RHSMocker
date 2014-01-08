@@ -5,7 +5,6 @@ describe Association do
   describe 'validations' do
     it_validates 'presence of', :user
     it_validates 'presence of', :associate
-    it_validates 'presence of', :association_type
     it 'requires the user is not the associate' do
       user = build_stubbed(:user)
       build_stubbed(:association, user: user, associate: user).should_not be_valid
