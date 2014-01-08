@@ -62,3 +62,50 @@ shared_examples 'length of' do |property|
     model.should_not be_valid
   end
 end
+
+shared_examples 'phone number format of' do |property, disallow_nil|
+  before do
+    @model = build_stubbed described_class.name.underscore.to_sym
+    @model.should be_valid
+  end
+
+  it 'isn\'t valid if length is less than 11' do
+    @model.send :"#{property}=",'311'
+    @model.should_not be_valid
+  end
+
+  it 'isn\'t valid if length is greater than 11' do
+    @model.send :"#{property}=",'0123456789101'
+    @model.should_not be_valid
+  end
+
+  it 'isn\'t valid if its not all numbers' do
+    @model.send :"#{property}=",'012345A789'
+    @model.should_not be_valid
+  end
+
+  it 'isn\'t valid if blank' do
+    @model.send :"#{property}=",''
+    @model.should_not be_valid
+  end
+
+  unless disallow_nil
+    it 'is valid if nil' do
+      @model.send :"#{property}=",nil
+      @model.should be_valid
+    end
+  end
+
+  it 'is valid if length is equal to 11' do
+    @model.send :"#{property}=",'01234567890'
+    @model.should be_valid
+  end
+
+  it 'is changed before validation' do
+    @model = build described_class.name.underscore.to_sym
+    @model.send :"#{property}=",' (408) 391 - 3578'
+    @model.save
+    @model.should be_valid
+    @model.send(:"#{property}").should == '14083913578'
+  end
+end

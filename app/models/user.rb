@@ -1,3 +1,5 @@
+require './lib/utils/phone_number_util'
+
 class User < ActiveRecord::Base
   serialize :client_data, Hash
 
@@ -32,15 +34,16 @@ class User < ActiveRecord::Base
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
                   :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data,
                   :user_information_attributes, :address_attributes, :insurance_policy_attributes,
-                  :provider_attributes
+                  :provider_attributes, :work_phone_number
 
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
   validates :phone, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
+  validates :work_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
 
   mount_uploader :avatar, AvatarUploader
 
-  before_validation :prep_phone
+  before_validation :prep_phone_numbers
   before_validation :set_defaults
   before_create :create_google_analytics_uuid
 
@@ -145,8 +148,9 @@ class User < ActiveRecord::Base
 
   private
 
-  def prep_phone
+  def prep_phone_numbers
     self.phone = PhoneNumberUtil::prep_phone_number_for_db self.phone
+    self.work_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.work_phone_number
   end
 
   def set_defaults
