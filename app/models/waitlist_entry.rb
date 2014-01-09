@@ -6,6 +6,7 @@ class WaitlistEntry < ActiveRecord::Base
   attr_accessible :email, :token, :state, :invited_at, :claimed_at
 
   validates :email, presence: true, uniqueness: true
+  validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_nil: true
 
   def generate_token
     self.token = loop do

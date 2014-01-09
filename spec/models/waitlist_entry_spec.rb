@@ -6,6 +6,11 @@ describe WaitlistEntry do
   it_has_a 'valid factory'
   it_validates 'presence of', :email
   it_validates 'uniqueness of', :email
+  it 'validates email format' do
+    expect(waitlist_entry).to be_valid
+    waitlist_entry.email = 'junk'
+    expect(waitlist_entry).to_not be_valid
+  end
 
   describe '#generate_token' do
     it 'sets the waitlist_entry token' do
