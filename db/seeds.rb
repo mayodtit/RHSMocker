@@ -76,6 +76,9 @@ wife.update_attribute :gender, "female"
 husband = AssociationType.find_or_create_by_name(:name=>"Husband", :gender=>"male", :relationship_type=>"family")
 husband.update_attribute :gender, "male"
 
+AssociationType.find_or_create_by_name(:name=> 'Spouse', :gender=>nil, :relationship_type=> 'family')
+AssociationType.find_or_create_by_name(:name=> 'Other Family Member', :gender=>nil, :relationship_type=> 'family')
+
 AssociationType.find_or_create_by_name(:name=>"Primary Physician", :relationship_type=>"hcp")
 AssociationType.find_or_create_by_name(:name=>"Nurse", :relationship_type=>"hcp")
 AssociationType.find_or_create_by_name(:name=>"Executive Health Physician", :relationship_type=>"hcp")
