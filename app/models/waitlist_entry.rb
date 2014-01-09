@@ -3,7 +3,7 @@ class WaitlistEntry < ActiveRecord::Base
   TOKEN_CHARACTERS = ('a'..'z').to_a
   TOKEN_LENGTH = 5
 
-  attr_accessible :email, :token, :invited_at, :claimed_at
+  attr_accessible :email, :token, :state, :invited_at, :claimed_at
 
   validates :email, presence: true, uniqueness: true
 
@@ -21,20 +21,21 @@ class WaitlistEntry < ActiveRecord::Base
   end
 
   state_machine initial: :waiting do
-    event :invite do
-      transition :waiting => :invited
-    end
-
-    event :claim do
-      transition :invited => :claimed
-    end
-
     state :invited do
       validates :token, :invited_at, presence: true
     end
 
     state :claimed do
       validates :claimed_at, presence: true
+      validate :token_is_nil
+    end
+
+    event :invite do
+      transition :waiting => :invited
+    end
+
+    event :claim do
+      transition :invited => :claimed
     end
 
     before_transition any => :invited do |entry, transition|
