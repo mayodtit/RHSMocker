@@ -36,4 +36,9 @@ class UserMailer < ActionMailer::Base
     attachments['event.ics'] = {:mime_type => 'text/calendar', :content => @phone_call.calendar_event.export}
     mail(to: @phone_call.user.email, subject: 'Your phone call with Better')
   end
+
+  def waitlist_invite_email(waitlist_entry)
+    @waitlist_entry = waitlist_entry
+    mail(to: @waitlist_entry.email, subject: 'Claim your account!')
+  end
 end
