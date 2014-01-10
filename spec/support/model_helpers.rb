@@ -63,6 +63,16 @@ shared_examples 'length of' do |property|
   end
 end
 
+shared_examples 'cannot transition from' do |transition, state, states|
+  states.each do |state|
+    it "cannot transition from #{state}" do
+      model = build_stubbed described_class.name.underscore.to_sym
+      model.state = state
+      expect { model.send(transition) }.to raise_exception(StateMachine::InvalidTransition)
+    end
+  end
+end
+
 shared_examples 'phone number format of' do |property, disallow_nil|
   before do
     @model = build_stubbed described_class.name.underscore.to_sym

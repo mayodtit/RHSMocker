@@ -351,8 +351,8 @@ ActiveRecord::Schema.define(:version => 20140110002708) do
 
   create_table "phone_calls", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at",                                            :null => false
-    t.datetime "updated_at",                                            :null => false
+    t.datetime "created_at",                              :null => false
+    t.datetime "updated_at",                              :null => false
     t.string   "origin_phone_number"
     t.string   "destination_phone_number"
     t.string   "state"
@@ -361,8 +361,7 @@ ActiveRecord::Schema.define(:version => 20140110002708) do
     t.integer  "claimer_id"
     t.integer  "ender_id"
     t.string   "identifier_token"
-    t.integer  "to_role_id",                             :default => 1, :null => false
-    t.string   "twilio_sid",               :limit => 34
+    t.integer  "to_role_id",               :default => 1, :null => false
   end
 
   add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"
@@ -445,11 +444,22 @@ ActiveRecord::Schema.define(:version => 20140110002708) do
     t.integer  "user_id"
     t.integer  "phone_call_id"
     t.datetime "scheduled_at"
-    t.datetime "created_at",                             :null => false
-    t.datetime "updated_at",                             :null => false
+    t.datetime "created_at",                                     :null => false
+    t.datetime "updated_at",                                     :null => false
     t.datetime "disabled_at"
     t.integer  "owner_id"
-    t.string   "state",         :default => "unclaimed"
+    t.string   "state",                :default => "unassigned"
+    t.integer  "assignor_id"
+    t.datetime "assigned_at"
+    t.integer  "booker_id"
+    t.datetime "booked_at"
+    t.integer  "starter_id"
+    t.datetime "started_at"
+    t.integer  "canceler_id"
+    t.datetime "canceled_at"
+    t.integer  "ender_id"
+    t.datetime "ended_at"
+    t.integer  "scheduled_duration_s", :default => 1800,         :null => false
   end
 
   create_table "side_effects", :force => true do |t|
@@ -658,6 +668,7 @@ ActiveRecord::Schema.define(:version => 20140110002708) do
     t.string   "google_analytics_uuid",           :limit => 36
     t.string   "avatar_url_override"
     t.text     "client_data"
+    t.string   "work_phone_number"
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"

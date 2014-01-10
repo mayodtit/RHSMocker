@@ -16,6 +16,14 @@ FactoryGirl.define do
       factory :nurse do
         after(:create) {|user| user.add_role(:nurse)}
       end
+
+      factory :pha do
+        after(:create) {|user| user.add_role(:pha)}
+      end
+
+      factory :pha_lead do
+        after(:create) {|user| user.add_role(:pha_lead)}
+      end
     end
   end
 end

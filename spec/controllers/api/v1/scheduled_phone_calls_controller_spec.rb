@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe Api::V1::ScheduledPhoneCallsController do
   let(:scheduled_phone_call) { build_stubbed(:scheduled_phone_call) }
-  let(:user) { scheduled_phone_call.user }
+  let(:user) { build_stubbed(:user) }
   let(:ability) { Object.new.extend(CanCan::Ability) }
 
   before do
@@ -15,7 +15,7 @@ describe Api::V1::ScheduledPhoneCallsController do
     end
 
     before do
-      ScheduledPhoneCall.stub_chain(:scoped, :not_ended).and_return([scheduled_phone_call])
+      ScheduledPhoneCall.stub(:all) { [scheduled_phone_call] }
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -35,10 +35,8 @@ describe Api::V1::ScheduledPhoneCallsController do
       get :show, auth_token: user.auth_token
     end
 
-    let(:scheduled_phone_calls) { double('scheduled_phone_calls', find: scheduled_phone_call) }
-
     before do
-      ScheduledPhoneCall.stub(scoped: scheduled_phone_calls)
+      ScheduledPhoneCall.stub(:find) { scheduled_phone_call }
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -95,11 +93,8 @@ describe Api::V1::ScheduledPhoneCallsController do
       put :update, scheduled_phone_call: attributes_for(:scheduled_phone_call)
     end
 
-    let(:scheduled_phone_calls) { double('scheduled_phone_calls', find: scheduled_phone_call) }
-
     before do
-      ScheduledPhoneCall.stub(scoped: scheduled_phone_calls)
-      scheduled_phone_call.stub(:update_attributes)
+      ScheduledPhoneCall.stub(:find) { scheduled_phone_call }
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -134,11 +129,8 @@ describe Api::V1::ScheduledPhoneCallsController do
       delete :destroy
     end
 
-    let(:scheduled_phone_calls) { double('scheduled_phone_calls', find: scheduled_phone_call) }
-
     before do
-      ScheduledPhoneCall.stub(scoped: scheduled_phone_calls)
-      scheduled_phone_call.stub(:destroy)
+      ScheduledPhoneCall.stub(:find) { scheduled_phone_call }
     end
 
     it_behaves_like 'action requiring authentication and authorization'

@@ -75,7 +75,11 @@ class Member < User
   end
 
   def pha?
-    has_role?(:pha) || has_role?(:admin)
+    has_role?(:pha) || has_role?(:pha_lead) || has_role?(:admin)
+  end
+
+  def pha_lead?
+    has_role?(:pha_lead) || has_role?(:admin)
   end
 
   def care_provider?

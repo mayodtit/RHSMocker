@@ -4,7 +4,7 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   before_filter :load_scheduled_phone_call!, only: [:show, :update, :destroy]
 
   def index
-    index_resource @scheduled_phone_calls.not_ended.serializer
+    index_resource @scheduled_phone_calls.serializer
   end
 
   def show
@@ -12,7 +12,7 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   end
 
   def create
-    create_resource @scheduled_phone_calls, scheduled_phone_call_attributes
+    create_resource ScheduledPhoneCall, scheduled_phone_call_attributes
   end
 
   def update
@@ -26,12 +26,12 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   private
 
   def load_scheduled_phone_calls!
-    @scheduled_phone_calls = ScheduledPhoneCall.scoped
     authorize! :index, ScheduledPhoneCall
+    @scheduled_phone_calls = ScheduledPhoneCall.all
   end
 
   def load_scheduled_phone_call!
-    @scheduled_phone_call = @scheduled_phone_calls.find(params[:id])
+    @scheduled_phone_call = ScheduledPhoneCall.find(params[:id])
     authorize! :manage, @scheduled_phone_call
   end
 
