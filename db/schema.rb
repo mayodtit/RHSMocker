@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140109011732) do
+ActiveRecord::Schema.define(:version => 20140110002708) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -676,6 +676,7 @@ ActiveRecord::Schema.define(:version => 20140109011732) do
     t.string   "state"
     t.datetime "invited_at"
     t.datetime "claimed_at"
+    t.integer  "member_id"
   end
 
   create_table "weights", :force => true do |t|

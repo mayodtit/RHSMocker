@@ -5,6 +5,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   before_filter :convert_legacy_parameters!, only: :secure_update
   before_filter :load_user_from_login!, only: :secure_update
   before_filter :convert_parameters!, only: [:create, :update]
+  before_filter :load_waitlist_entry!, only: :create
 
   def index
     index_resource @users
@@ -67,6 +68,12 @@ class Api::V1::UsersController < Api::V1::ABaseController
     end
   end
 
+  def load_waitlist_entry!
+    return if params[:user][:token] == 'better120' # TODO - remove magic token
+    @waitlist_entry = WaitlistEntry.invited.find_by_token!(params[:user][:token])
+    @waitlist_entry.state_event = :claim
+  end
+
   def update_email_path?
     request.env['PATH_INFO'].include?('update_email')
   end
@@ -95,7 +102,9 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def create_params
-    user_params.merge!(params.require(:user).permit(:email, :password))
+    permitted_params = user_params.merge!(params.require(:user).permit(:email, :password))
+    permitted_params.merge!(waitlist_entry: @waitlist_entry) if @waitlist_entry
+    permitted_params
   end
 
   def user_params

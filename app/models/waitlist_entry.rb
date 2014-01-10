@@ -3,10 +3,16 @@ class WaitlistEntry < ActiveRecord::Base
   TOKEN_CHARACTERS = ('a'..'z').to_a
   TOKEN_LENGTH = 5
 
-  attr_accessible :email, :token, :state, :invited_at, :claimed_at
+  belongs_to :member
+
+  attr_accessible :member, :member_id, :email, :token, :state, :state_event, :invited_at, :claimed_at
 
   validates :email, presence: true, uniqueness: true
   validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_nil: true
+
+  def self.invited
+    where(state: :invited)
+  end
 
   def generate_token
     self.token = loop do

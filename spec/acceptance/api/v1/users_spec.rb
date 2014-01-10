@@ -39,37 +39,21 @@ resource 'Users' do
     end
   end
 
-  describe 'create user with install ID' do
-    parameter :install_id, "Unique install ID"
-    scope_parameters :user, [:install_id]
-    required_parameters :install_id
-
-    post '/api/v1/signup' do
-      let(:install_id) { "1234" }
-      let(:raw_post) { params.to_json }
-
-      example_request "[DEPRECATED] [POST] Sign up using install ID" do
-        explanation "Returns auth_token and the user"
-        status.should == 200
-        response = JSON.parse(response_body, :symbolize_names => true)
-        new_user = User.find(response[:user][:id])
-        response[:auth_token].should == new_user.auth_token
-        response[:user].to_json.should == new_user.as_json.to_json
-      end
-    end
-  end
-
   describe 'create user with email and password' do
+    let!(:waitlist_entry) { create(:waitlist_entry, :invited) }
+
     parameter :install_id, "Unique install ID"
     parameter :email, "Account email"
     parameter :password, "Account password"
-    scope_parameters :user, [:install_id, :email, :password]
-    required_parameters :install_id, :email, :password
+    parameter :token, "Invitation token"
+    scope_parameters :user, [:install_id, :email, :password, :token]
+    required_parameters :install_id, :email, :password, :token
 
     post '/api/v1/signup' do
       let(:install_id) { "1234" }
       let(:email) { "tst11@test.com" }
       let(:password) { "11111111" }
+      let(:token) { waitlist_entry.token }
       let(:raw_post) { params.to_json }
 
       example_request "[POST] Sign up using email and password (or add email and password to account)" do
