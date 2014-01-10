@@ -22,15 +22,7 @@ RHSMocker::Application.routes.draw do
       end
       resources :custom_cards, only: [:index, :show, :create, :update]
       resources :custom_contents, only: [:index, :show, :create, :update]
-      resources :phone_calls, only: [:index, :show, :update] do
-        post :make_call, :on => :collection
-        post :member, :on => :collection
-        get :member, :on => :collection
-        post :pha, :on => :collection
-        get :pha, :on => :collection
-        post :nurse, :on => :collection
-        get :nurse, :on => :collection
-      end
+      resources :phone_calls, only: [:index, :show, :update]
       resources :dashboard, only: :index
       resources :diseases, :only => :index, :controller => :conditions
       resources :ethnic_groups, :only => :index
