@@ -69,6 +69,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def load_waitlist_entry!
+    return unless Metadata.use_invite_flow?
     return if params[:user][:token] == 'better120' # TODO - remove magic token
     @waitlist_entry = WaitlistEntry.invited.find_by_token!(params[:user][:token])
     @waitlist_entry.state_event = :claim
