@@ -51,6 +51,7 @@ class Ability
 
     if user.pha_lead?
       can :manage, ScheduledPhoneCall
+      can :read, Role
     end
   end
 end
