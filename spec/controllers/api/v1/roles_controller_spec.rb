@@ -41,10 +41,7 @@ describe Api::V1::RolesController do
             o
           }
 
-          members.should_receive(:as_json).with(
-            only: [:id, :first_name, :last_name, :email],
-            methods: [:full_name]
-          )
+          members.should_receive(:as_json)
 
           do_request
 
