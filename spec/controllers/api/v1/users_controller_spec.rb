@@ -55,6 +55,7 @@ describe Api::V1::UsersController do
 
     before do
       Member.stub(:create => user)
+      controller.stub(:load_waitlist_entry!) # TODO - stub out invite token requirement
     end
 
     it 'attempts to create the record' do

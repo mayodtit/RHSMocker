@@ -21,11 +21,13 @@ class Member < User
 
   has_many :user_feature_groups, :foreign_key => :user_id
   has_many :feature_groups, :through => :user_feature_groups
+  has_one :waitlist_entry, autosave: true
 
   accepts_nested_attributes_for :user_agreements
 
   attr_accessible :install_id, :password, :password_confirmation,
-                  :holds_phone_in, :invitation_token, :units, :agreement_params
+                  :holds_phone_in, :invitation_token, :units, :agreement_params,
+                  :waitlist_entry
 
   validates :email, :uniqueness => {:message => 'account already exists', :case_sensitive => false}, :allow_nil => true
   validates :password, :length => {:minimum => 8, :message => "must be 8 or more characters long"}, :confirmation => true, :if => :password

@@ -144,7 +144,7 @@ class SymptomCheckerImporter
       while @lines[@index].blank?
         @index += 1
       end
-      return unless /DS/.match(@lines[@index].split(' ')[0])
+      return unless /DS|AN|HQ|HA|FA/.match(@lines[@index].split(' ')[0])
 
       if @lines[@index].include?('[')
         if @lines[@index].gsub(/.*\[|\].*/, '') == 'female'

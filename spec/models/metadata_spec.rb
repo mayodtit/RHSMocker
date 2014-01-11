@@ -48,4 +48,21 @@ describe Metadata do
       end
     end
   end
+
+  describe '#use_invite_flow?' do
+    context 'without use_invite_flow Metadata object' do
+      it 'should return false' do
+        expect(Metadata.use_invite_flow?).to be_false
+      end
+    end
+
+    context 'with use_invite_flow Metadata object' do
+      it 'should return the value of use_invite_flow' do
+        m = create(:metadata, mkey: 'use_invite_flow', mvalue: 'false')
+        expect(Metadata.use_invite_flow?).to be_false
+        m.update_attributes(mvalue: 'true')
+        expect(Metadata.use_invite_flow?).to be_true
+      end
+    end
+  end
 end

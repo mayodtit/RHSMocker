@@ -1,0 +1,62 @@
+class WaitlistEntry < ActiveRecord::Base
+  include ActiveModel::ForbiddenAttributesProtection
+  TOKEN_CHARACTERS = ('a'..'z').to_a
+  TOKEN_LENGTH = 5
+
+  belongs_to :member
+
+  attr_accessible :member, :member_id, :email, :token, :state, :state_event, :invited_at, :claimed_at
+
+  validates :email, presence: true, uniqueness: true
+  validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_nil: true
+
+  def self.invited
+    where(state: :invited)
+  end
+
+  def generate_token
+    self.token = loop do
+      new_token = (0...TOKEN_LENGTH).map{TOKEN_CHARACTERS.to_a[SecureRandom.random_number(TOKEN_CHARACTERS.length)]}.join
+      break new_token unless WaitlistEntry.exists?(token: new_token)
+    end
+  end
+
+  private
+
+  def token_is_nil
+    errors.add(:token, 'must be cleared') unless token.nil?
+  end
+
+  state_machine initial: :waiting do
+    state :invited do
+      validates :token, :invited_at, presence: true
+    end
+
+    state :claimed do
+      validates :claimed_at, presence: true
+      validate :token_is_nil
+    end
+
+    event :invite do
+      transition :waiting => :invited
+    end
+
+    event :claim do
+      transition :invited => :claimed
+    end
+
+    before_transition any => :invited do |entry, transition|
+      entry.invited_at = Time.now
+      entry.generate_token
+    end
+
+    after_transition any => :invited do |entry, transition|
+      UserMailer.waitlist_invite_email(entry).deliver
+    end
+
+    before_transition any => :claimed do |entry, transition|
+      entry.claimed_at = Time.now
+      entry.token = nil
+    end
+  end
+end

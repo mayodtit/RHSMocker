@@ -89,34 +89,17 @@ resource "Association" do
     let(:id) { association.id }
 
     parameter :id, "Association's ID"
-    parameter :first_name, "Associate's first name"
-    parameter :last_name, "Associate's last name"
-    parameter :birth_date, "Associate's birth date"
-    parameter :phone, "Associate's phone number"
-    parameter :avatar, 'Base64 encoded image'
-    parameter :gender, "Associate's gender (male, female)"
-    parameter :height, "Associate's height (cm)"
     parameter :association_type_id, "Association type"
-    scope_parameters :associate, [:first_name, :last_name, :birth_date, :phone,
-                                  :avatar, :gender, :height]
-    scope_parameters :association, [:associate]
     required_parameters :id
 
-    let(:first_name) { "Kyle" }
-    let(:last_name) { "Chilcutt" }
-    let(:birth_data) { Date.today }
-    let(:phone) { '123-456-7890' }
-    let(:gender) { 'male' }
-    let(:height) { 180 }
     let(:association_type_id) { association_type.id }
     let(:raw_post) { params.to_json }
-    let(:avatar) { base64_test_image }
 
     example_request "[PUT] Update an association for a user" do
       explanation 'Update an association for the user'
       status.should == 200
-      response = JSON.parse(response_body, :symbolize_names => true)[:association][:associate]
-      response[:avatar_url].should_not be_nil # check for nil avatar in 'update associations' spec
+      response = JSON.parse(response_body, symbolize_names: true)
+      response[:association][:association_type_id].should == association_type.id
     end
   end
 

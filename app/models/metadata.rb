@@ -13,4 +13,8 @@ class Metadata < ActiveRecord::Base
       hash.merge!(fg.metadata_override) if fg.metadata_override
     end
   end
+
+  def self.use_invite_flow?
+    Metadata.find_by_mkey('use_invite_flow').try(:mvalue) == 'true'
+  end
 end

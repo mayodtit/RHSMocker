@@ -87,6 +87,7 @@ RHSMocker::Application.routes.draw do
         end
         resources :weights, :only => [:index, :create, :destroy]
       end
+      resources :waitlist_entries, only: :create
       resources :invitations, :only => [:create, :show, :update]
 
       #account management - DEPRECATED

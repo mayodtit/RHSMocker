@@ -20,7 +20,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   end
 
   def update
-    update_resource(@association, association_params)
+    update_resource(@association, update_association_attributes)
   end
 
   def destroy
@@ -49,6 +49,10 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
     end
 
     hash
+  end
+
+  def update_association_attributes
+    params.require(:association).permit(:association_type_id)
   end
 
   def search_service

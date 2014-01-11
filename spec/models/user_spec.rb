@@ -10,6 +10,12 @@ describe User do
 
   it_has_a 'valid factory'
 
+  it 'validates email format' do
+    expect(user).to be_valid
+    user.email = 'junk'
+    expect(user).to_not be_valid
+  end
+
   describe '#age' do
     let!(:no_birthday_user) { build_stubbed(:user, :birth_date => nil) }
     let!(:baby_user) { build_stubbed(:user, :birth_date => 11.months.ago) }
