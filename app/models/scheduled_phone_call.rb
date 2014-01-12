@@ -3,6 +3,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
 
   DEFAULT_SCHEDULED_DURATION = 30.minutes
+  DEFAULT_CONSULT_TITLE = 'Welcome Call'
 
   belongs_to :user
   belongs_to :owner, class_name: 'Member'
@@ -16,7 +17,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
   delegate :consult, :to => :message
 
   attr_accessible :user, :user_id, :owner, :owner_id, :phone_call, :phone_call_id,
-                  :message, :scheduled_at, :message_attributes, :state_event,
+                  :message, :scheduled_at, :message_attributes,
                   :assignor_id, :assignor, :assigned_at,
                   :booker_id, :booker, :booked_at,
                   :starter_id, :starter, :started_at,
@@ -75,6 +76,22 @@ class ScheduledPhoneCall < ActiveRecord::Base
       scheduled_phone_call.booker = transition.args.first
       scheduled_phone_call.user = transition.args.second || transition.args.first
       scheduled_phone_call.booked_at = Time.now
+
+      # NOTE: Take consult as an argument once scheduled calls have multiple uses.
+      unless scheduled_phone_call.message
+        consult = Consult.create!(
+          title: DEFAULT_CONSULT_TITLE,
+          initiator: scheduled_phone_call.user,
+          subject: scheduled_phone_call.user,
+          add_user: scheduled_phone_call.user
+        )
+
+        message = Message.create!(
+          user: scheduled_phone_call.owner || Member.robot,
+          consult: consult,
+          scheduled_phone_call: scheduled_phone_call
+        )
+      end
     end
 
     before_transition any => :started do |scheduled_phone_call, transition|

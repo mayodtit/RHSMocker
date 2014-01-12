@@ -5,9 +5,9 @@ describe ScheduledPhoneCall do
   it_validates 'presence of', :scheduled_at
 
   describe 'states' do
-    let(:pha_lead) { build(:pha_lead) }
-    let(:pha) { build(:pha) }
-    let(:member) { build(:member) }
+    let(:pha_lead) { build_stubbed(:pha_lead) }
+    let(:pha) { build_stubbed(:pha) }
+    let(:member) { build_stubbed(:member) }
     let(:scheduled_phone_call) { build(:scheduled_phone_call) }
     let(:other_scheduled_phone_call) { build(:scheduled_phone_call) }
 
@@ -52,9 +52,13 @@ describe ScheduledPhoneCall do
     end
 
     describe '#book' do
+      let(:consult) { build :consult }
+      let(:message) { build :message }
+
       before do
         scheduled_phone_call.state = 'assigned'
         other_scheduled_phone_call.state = 'assigned'
+        scheduled_phone_call.message = message
         scheduled_phone_call.book! pha, member
       end
 
@@ -78,6 +82,25 @@ describe ScheduledPhoneCall do
         other_scheduled_phone_call.book! member
         other_scheduled_phone_call.booker.should == member
         other_scheduled_phone_call.user.should == member
+      end
+
+      it 'creates a welcome call consult if it doesn\'t exist' do
+        Consult.should_receive(:create!).with(
+          title: ScheduledPhoneCall::DEFAULT_CONSULT_TITLE,
+          initiator: member,
+          subject: member,
+          add_user: member
+        ) { consult }
+
+        Message.should_receive(:create!).with(
+          user: pha_lead,
+          consult: consult,
+          scheduled_phone_call: other_scheduled_phone_call
+        ) { message }
+
+        other_scheduled_phone_call.owner = pha_lead
+        other_scheduled_phone_call.state = 'assigned'
+        other_scheduled_phone_call.book! pha, member
       end
     end
 

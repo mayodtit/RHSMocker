@@ -18,8 +18,14 @@ class Ability
       o.users.include?(user)
     end
 
-    can :manage, [ScheduledPhoneCall, PhoneCallSummary] do |o|
+    can :manage, PhoneCallSummary do |o|
       can? :manage, o.message.consult
+    end
+
+    can :ru, ScheduledPhoneCall do |o|
+      (o.state == 'assigned' && o.scheduled_at > Time.now) ||
+      o.user.id == user.id ||
+      can?(:manage, o.message.consult)
     end
 
     cannot :manage, Program
