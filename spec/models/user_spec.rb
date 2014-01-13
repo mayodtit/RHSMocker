@@ -10,6 +10,12 @@ describe User do
 
   it_has_a 'valid factory'
 
+  it 'validates email format' do
+    expect(user).to be_valid
+    user.email = 'junk'
+    expect(user).to_not be_valid
+  end
+
   describe 'phone numbers' do
     it_validates 'phone number format of', :phone
     it_validates 'phone number format of', :work_phone_number

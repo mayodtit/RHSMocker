@@ -38,8 +38,7 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
     if @scheduled_phone_call.respond_to? state_event_f
       if params[:scheduled_phone_call]
         subject_id = params[:scheduled_phone_call][:owner_id] || params[:scheduled_phone_call][:user_id]
-        subject = nil
-        subject = Member.find(subject_id) if subject_id
+        subject = subject_id ? Member.find(subject_id) : nil
       end
 
       @scheduled_phone_call.send(state_event_f, current_user, subject)
