@@ -3,7 +3,7 @@ class Api::V1::RolesController < Api::V1::ABaseController
   before_filter :load_role!
 
   def members
-    authorize! :read, Role
+    authorize! :read, @role
 
     members_with_role = User.with_role(@role.name).find_all_by_type('Member')
 
