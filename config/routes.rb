@@ -3,6 +3,7 @@ RHSMocker::Application.routes.draw do
 
   namespace :api do
     namespace :v1 do
+      resources :agreements, only: :index
       resources :allergies, :only => :index
       resources :association_types, :only => :index
       resources :contents, :only => [:index, :show] do
