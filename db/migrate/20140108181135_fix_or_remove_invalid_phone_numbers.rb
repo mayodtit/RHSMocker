@@ -10,8 +10,7 @@ class FixOrRemoveInvalidPhoneNumbers < ActiveRecord::Migration
 
   def up
     Member.all.each do |member|
-      member.phone = fix_phone_number member.phone
-      member.save!
+      member.update_attribute(:phone, fix_phone_number(member.phone))
     end
 
     PhoneCall.all.each do |phone_call|
