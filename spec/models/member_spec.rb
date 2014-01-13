@@ -5,7 +5,7 @@ describe Member do
 
   context 'agreement exists' do
     before do
-      @agreement = Agreement.create text: 'TOS', type: :terms_of_service, active: true
+      @agreement = create(:agreement, :active)
     end
 
     describe '#terms_of_service_and_privacy_policy' do

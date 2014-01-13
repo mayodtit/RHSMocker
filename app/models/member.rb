@@ -155,7 +155,8 @@ class Member < User
   end
 
   def terms_of_service_and_privacy_policy
-    user_agreements.map(&:agreement_id).to_set.superset?(Agreement.active.pluck(:id).to_set)
+    return true unless Agreement.active
+    user_agreements.map(&:agreement_id).include? Agreement.active.id
   end
 
   private
