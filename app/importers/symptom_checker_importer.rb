@@ -90,16 +90,43 @@ class SymptomCheckerImporter
   end
 
   def get_selfcare_strategies!
+    @attributes[:selfcares] = []
     unless find_index_of_match('self-care strategies')
       return
     end
     advance_index_to_match!('self-care strategies')
-    @attributes[:selfcare] = {description: line_after_match_and_blanks('self-care strategies').gsub(/\(.*\)/, '').strip,
-                              items: []}
-    next_index_to_match_range('more information').each do |i|
-      next if @lines[i].blank?
-      break if /IMAGE/i.match(@lines[i])
-      @attributes[:selfcare][:items] << {description: @lines[i].strip}
+    advance_index_past_blank!
+    end_of_selfcare = find_index_of_match!('more information')
+    while @index < end_of_selfcare
+      if @lines[@index].blank?
+        @index += 1
+        break if @index >= end_of_selfcare
+      end
+      break if /IMAGE/i.match(@lines[@index])
+      break if /Because of the nature of this symptom/.match(@lines[@index])
+      selfcare = {description: @lines[@index].gsub(/\(.*\)/, '').strip,
+                  items: []}
+      advance_index_past_blank!
+      if /:$/.match(selfcare[:description])
+        while (@lines[@index].present?)
+          break if @index > end_of_selfcare
+          if /\[/.match(@lines[@index])
+            if @lines[@index].gsub(/.*\[|\].*/, '') == 'female'
+              gender = 'F'
+            elsif @lines[@index].gsub(/.*\[|\].*/, '') == 'male'
+              gender = 'M'
+            else
+              gender = nil
+            end
+          else
+            gender = nil
+          end
+          selfcare[:items] << {description: @lines[@index].gsub(/\[.*\]/, '').strip,
+                                     gender: gender}
+          @index += 1
+        end
+      end
+      @attributes[:selfcares] << selfcare
     end
   end
 
@@ -238,12 +265,13 @@ class SymptomCheckerImporter
   end
 
   def create_symptom_selfcare!
-    return unless @attributes[:selfcare]
-    selfcare = SymptomSelfcare.upsert_attributes({symptom_id: @symptom.id},
-                                                 {description: @attributes[:selfcare][:description]})
-    @attributes[:selfcare][:items].each do |item|
-      SymptomSelfcareItem.where(symptom_selfcare_id: selfcare.id,
-                                description: item[:description]).first_or_create!
+    @attributes[:selfcares].each do |attributes|
+      selfcare = SymptomSelfcare.where(symptom_id: @symptom.id,
+                                       description: attributes[:description]).first_or_create!
+      attributes[:items].each do |item|
+        SymptomSelfcareItem.where(symptom_selfcare_id: selfcare.id,
+                                  description: item[:description]).first_or_create!
+      end
     end
   end
 
