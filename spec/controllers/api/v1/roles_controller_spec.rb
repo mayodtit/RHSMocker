@@ -33,13 +33,12 @@ describe Api::V1::RolesController do
 
         it 'returns all members with role' do
           members = [ member ]
-          User.should_receive(:with_role).with(role.name) {
+
+          role.stub(:users) do
             o = Object.new
-            o.should_receive(:find_all_by_type).with('Member') {
-              members
-            }
+            o.stub(:members) { members }
             o
-          }
+          end
 
           members.should_receive(:as_json)
 

@@ -5,7 +5,7 @@ class Api::V1::RolesController < Api::V1::ABaseController
   def members
     authorize! :read, @role
 
-    members_with_role = User.with_role(@role.name).find_all_by_type('Member')
+    members_with_role = @role.users.members
 
     index_resource members_with_role, name: 'members'
   end

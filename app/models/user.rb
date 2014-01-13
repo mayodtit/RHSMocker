@@ -104,6 +104,10 @@ class User < ActiveRecord::Base
     avatar_url || gender_url
   end
 
+  def self.members
+    where(type: 'Member')
+  end
+
   #############################################################################
   # Rather than using ActiveRecord associations, these like/dislike actions
   # and fetchers are broken out into their own methods in case we decide to
