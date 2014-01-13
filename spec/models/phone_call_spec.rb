@@ -9,10 +9,17 @@ describe PhoneCall do
     end
 
     it_validates 'presence of', :user
-    it_validates 'presence of', :destination_phone_number
     it_validates 'presence of', :identifier_token
     it_validates 'uniqueness of', :identifier_token
   end
+
+  describe 'phone numbers' do
+    let(:phone_call) { build(:phone_call) }
+
+    it_validates 'phone number format of', :origin_phone_number
+    it_validates 'phone number format of', :destination_phone_number, true
+  end
+
 
   describe '#to_nurse?' do
     it 'returns true if the phone_call is to a nurse' do
@@ -77,7 +84,7 @@ describe PhoneCall do
     before :each do
       @phone_call = PhoneCall.new
       @phone_call.user = create :member
-      @phone_call.destination_phone_number = '311'
+      @phone_call.destination_phone_number = '3114115123'
       @phone_call.message =  create :message
 
       @nurse = create :nurse

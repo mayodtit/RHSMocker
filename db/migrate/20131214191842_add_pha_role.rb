@@ -1,6 +1,6 @@
 class AddPhaRole < ActiveRecord::Migration
   def up
-    Role.find_or_create_by_name 'pha'
+    Role.find_or_create_by_name! 'pha'
   end
 
   def down

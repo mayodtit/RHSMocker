@@ -18,23 +18,22 @@ class Ability
       o.users.include?(user)
     end
 
-    can :manage, [ScheduledPhoneCall, PhoneCallSummary] do |o|
+    can :manage, PhoneCallSummary do |o|
       can? :manage, o.message.consult
+    end
+
+    can :ru, ScheduledPhoneCall do |o|
+      (o.state == 'assigned' && o.scheduled_at > Time.now) ||
+      o.user.id == user.id ||
+      can?(:manage, o.message.consult)
     end
 
     cannot :manage, Program
     cannot :manage, CustomCard
     cannot :index, Member
 
-    if user.try_method(:admin?)
-      can :manage, :all
-    end
-
-    if user.pha?
-      can :manage, User
-    end
-
     if user.admin?
+      can :manage, :all
       can :assign_roles, User
     end
 
@@ -44,10 +43,21 @@ class Ability
       end
     end
 
-    if user.pha?
+    if user.pha? || user.pha_lead?
+      can :manage, User
+
       can :ru, PhoneCall do |o|
         o.to_pha?
       end
+
+      can :ru, ScheduledPhoneCall do |o|
+        o.owner.id == user.id
+      end
+    end
+
+    if user.pha_lead?
+      can :manage, ScheduledPhoneCall
+      can :read, Role
     end
   end
 end
