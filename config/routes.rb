@@ -14,6 +14,7 @@ RHSMocker::Application.routes.draw do
         post :like
         post :dislike
         post :remove_like
+        get :tos, on: :collection
       end
       resources :diets, :only => :index
       resources :cards, :only => [:show, :update]

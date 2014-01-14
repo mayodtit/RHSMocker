@@ -125,4 +125,28 @@ describe Api::V1::ContentsController do
       end
     end
   end
+
+  describe 'GET tos' do
+    def do_request
+      get :tos
+    end
+
+    let!(:content) { build_stubbed(:mayo_content, :tos) }
+
+    before do
+      MayoContent.stub(terms_of_service: content)
+    end
+
+    it_behaves_like 'action requiring authentication'
+
+    context 'authenticated', :user => :authenticate! do
+      it_behaves_like 'success'
+
+      it 'returns the content' do
+        do_request
+        json = JSON.parse(response.body, :symbolize_names => true)
+        expect(json[:content].to_json).to eq(content.serializer.as_json.to_json)
+      end
+    end
+  end
 end

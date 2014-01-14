@@ -22,6 +22,10 @@ FactoryGirl.define do
     show_call_option true
     show_checker_option true
     show_mayo_copyright true
+
+    trait :tos do
+      document_id MayoContent::TERMS_OF_SERVICE
+    end
   end
 
   factory :custom_content, class: CustomContent do
