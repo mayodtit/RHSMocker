@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140113213052) do
+ActiveRecord::Schema.define(:version => 20140114211857) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -668,6 +668,7 @@ ActiveRecord::Schema.define(:version => 20140113213052) do
     t.string   "avatar_url_override"
     t.text     "client_data"
     t.string   "work_phone_number"
+    t.string   "nickname"
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"
