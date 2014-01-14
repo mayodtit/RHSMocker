@@ -69,6 +69,14 @@ Prep:
       event.dtend = scheduled_at + scheduled_duration
       event.location = user.phone || 'TBD'
       event.organizer = 'noreply@getbetter.com'
+
+      # TODO: Don't think this works for Google Calendar, but it's in the right format.
+      the_user = user
+      event.alarm do |alarm|
+        alarm.action = 'DISPLAY'
+        alarm.trigger = '-PT10M'
+        alarm.description = "You have a Welcome Call w/#{the_user.full_name} in 10m."
+      end
     end
   end
 
@@ -80,11 +88,11 @@ Prep:
     UserMailer.scheduled_phone_call_cp_assigned_email(self).deliver
   end
 
-  def notify_user_of_confirmation
+  def notify_user_confirming_call
     UserMailer.scheduled_phone_call_member_confirmation_email(self).deliver
   end
 
-  def notify_owner_of_confirmation
+  def notify_owner_confirming_call
     UserMailer.scheduled_phone_call_cp_confirmation_email(self).deliver
   end
 
@@ -142,8 +150,8 @@ Prep:
     end
 
     after_transition :assigned => :booked do |scheduled_phone_call, transition|
-      scheduled_phone_call.notify_user_of_confirmation
-      scheduled_phone_call.notify_owner_of_confirmation
+      scheduled_phone_call.notify_user_confirming_call
+      scheduled_phone_call.notify_owner_confirming_call
     end
 
     before_transition any => :started do |scheduled_phone_call, transition|

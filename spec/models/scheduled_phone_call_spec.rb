@@ -17,25 +17,25 @@ describe ScheduledPhoneCall do
     end
   end
 
-  describe '#notify_user_of_confirmation' do
+  describe '#notify_user_confirming_call' do
     it 'notifies the user confirming their scheduled call time via email' do
       UserMailer.should_receive(:scheduled_phone_call_member_confirmation_email).with(scheduled_phone_call) {
         o = Object.new
         o.should_receive(:deliver)
         o
       }
-      scheduled_phone_call.notify_user_of_confirmation
+      scheduled_phone_call.notify_user_confirming_call
     end
   end
 
-  describe '#notify_owner_of_confirmation' do
+  describe '#notify_owner_confirming_call' do
     it 'notifies the owner confirming their scheduled call time via email' do
       UserMailer.should_receive(:scheduled_phone_call_cp_confirmation_email).with(scheduled_phone_call) {
         o = Object.new
         o.should_receive(:deliver)
         o
       }
-      scheduled_phone_call.notify_owner_of_confirmation
+      scheduled_phone_call.notify_owner_confirming_call
     end
   end
 
@@ -146,12 +146,12 @@ describe ScheduledPhoneCall do
       end
 
       it 'notifies the owner confirming that they booked the call' do
-        other_scheduled_phone_call.should_receive :notify_user_of_confirmation
+        other_scheduled_phone_call.should_receive :notify_user_confirming_call
         other_scheduled_phone_call.book! pha, member
       end
 
       it 'notifies the user confirming that their call was booked' do
-        other_scheduled_phone_call.should_receive :notify_owner_of_confirmation
+        other_scheduled_phone_call.should_receive :notify_owner_confirming_call
         other_scheduled_phone_call.book! pha, member
       end
     end
