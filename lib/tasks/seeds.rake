@@ -132,11 +132,7 @@ namespace :seeds do
     %w(joey@example.com suzy@example.com geoff@example.com jackie@example.com peter@example.com tarsem@example.com ruchi@example.com).each do |email|
       m = Member.find_or_create_by_email!(
         email: email,
-        agreement_params: {
-          ids: Agreement.active.pluck(:id),
-          ip_address: '255.255.255.255',
-          user_agent: 'seeds'
-        }
+        user_agreements_attributes: user_agreements_attributes
       )
 
       attrs = {
@@ -214,11 +210,7 @@ namespace :seeds do
     %w(polly@example.com crissy@example.com samantha@example.com clementine@example.com).each do |email|
       m = Member.find_or_create_by_email!(
         email: email,
-        agreement_params: {
-          ids: Agreement.active.pluck(:id),
-          ip_address: '255.255.255.255',
-          user_agent: 'seeds'
-        }
+        user_agreements_attributes: user_agreements_attributes
       )
 
       attrs = {
@@ -328,11 +320,7 @@ namespace :seeds do
     TO_INVITE.each do |email|
       m = Member.find_or_create_by_email!(
         email: email,
-        agreement_params: {
-          ids: Agreement.active.pluck(:id),
-          ip_address: '255.255.255.255',
-          user_agent: 'seeds'
-        }
+        user_agreements_attributes: user_agreements_attributes
       )
 
       m.update_attributes!(
@@ -347,11 +335,7 @@ namespace :seeds do
     %w(paul@admin.getbetter.com abhik@admin.getbetter.com clare@admin.getbetter.com geoff@admin.getbetter.com mark@admin.getbetter.com).each do |email|
       m = Member.find_or_create_by_email!(
         email: email,
-        agreement_params: {
-          ids: Agreement.active.pluck(:id),
-          ip_address: '255.255.255.255',
-          user_agent: 'seeds'
-        }
+        user_agreements_attributes: user_agreements_attributes
       )
 
       m.update_attributes!(
@@ -374,11 +358,7 @@ namespace :seeds do
     %w(florence@mayo.example.com mary@mayo.example.com walt@mayo.example.com clarissa@mayo.example.com).each do |email|
       m = Member.find_or_create_by_email!(
         email: email,
-        agreement_params: {
-          ids: Agreement.active.pluck(:id),
-          ip_address: '255.255.255.255',
-          user_agent: 'seeds'
-        }
+        user_agreements_attributes: user_agreements_attributes
       )
 
       m.update_attributes!(
@@ -395,11 +375,7 @@ namespace :seeds do
     %w(clare@pha.getbetter.com abhik@pha.getbetter.com geoff@pha.getbetter.com paul@pha.getbetter.com mark@pha.getbetter.com).each do |email|
       m = Member.find_or_create_by_email!(
         email: email,
-        agreement_params: {
-          ids: Agreement.active.pluck(:id),
-          ip_address: '255.255.255.255',
-          user_agent: 'seeds'
-        }
+        user_agreements_attributes: user_agreements_attributes
       )
 
       m.update_attributes!(
@@ -411,5 +387,16 @@ namespace :seeds do
 
       m.add_role :pha
     end
+  end
+
+  def user_agreements_attributes
+    return [] unless Agreement.active
+    [
+      {
+        agreement_id: Agreement.active.id,
+        user_agent: 'seeds',
+        ip_address: 'seeds'
+      }
+    ]
   end
 end

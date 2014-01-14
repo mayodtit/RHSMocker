@@ -219,4 +219,4 @@ PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_i
 p = Plan.find_or_create_by_name(name: 'Platinum', monthly: true)
 PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: nil, unlimited: true)
 
-Agreement.find_or_create_by_type(type: :terms_of_service, active: true, text: 'Seeded test agreement')
+Agreement.find_or_create_by_text!(active: true, text: 'Seeded test agreement')
