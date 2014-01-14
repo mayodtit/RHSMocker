@@ -11,8 +11,8 @@ class Api::V1::SymptomsController < Api::V1::ABaseController
 
   def load_symptoms!
     @symptoms = Symptom.order(:name)
-                       .includes(:symptom_medical_advices => :symptom_medical_advice_items,
-                                 :symptom_selfcare => :symptom_selfcare_items)
+                       .includes(symptom_medical_advices: :symptom_medical_advice_items,
+                                 symptom_selfcares: :symptom_selfcare_items)
   end
 
   def log_analytics!

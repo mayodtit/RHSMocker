@@ -5,7 +5,7 @@ describe Member do
 
   context 'agreement exists' do
     before do
-      @agreement = Agreement.create text: 'TOS', type: :terms_of_service, active: true
+      @agreement = create(:agreement, :active)
     end
 
     describe '#terms_of_service_and_privacy_policy' do
@@ -41,7 +41,7 @@ describe Member do
 
         it 'can sign up up with accepting TOS' do
           m = create_ghost
-          m.update_attributes  agreement_params: {ids: [@agreement.id], ip_address: 'local', user_agent: 'test'}, password: 'password', password_confirmation: 'password'
+          m.update_attributes user_agreements_attributes: [{agreement_id: @agreement.id, ip_address: 'local', user_agent: 'test'}], password: 'password', password_confirmation: 'password'
           m.should be_valid
         end
       end
@@ -53,7 +53,7 @@ describe Member do
         end
 
         it 'can sign up with accepted TOS' do
-          m = Member.create email: 'abhik@example.com', password: 'password', password_confirmation: 'password', agreement_params: {ids: [@agreement.id], ip_address: 'local', user_agent: 'test'}, password: 'password', password_confirmation: 'password'
+          m = Member.create email: 'abhik@example.com', password: 'password', password_confirmation: 'password', user_agreements_attributes: [{agreement_id: @agreement.id, ip_address: 'local', user_agent: 'test'}], password: 'password', password_confirmation: 'password'
           m.should be_valid
         end
       end

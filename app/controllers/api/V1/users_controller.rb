@@ -12,7 +12,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def show
-    show_resource @user.as_json(only: [:first_name, :last_name, :email], methods: [:full_name, :admin?, :nurse?, :pha?, :care_provider?])
+    show_resource @user.as_json(only: [:first_name, :last_name, :email, :work_phone_number], methods: [:full_name, :admin?, :nurse?, :pha?, :care_provider?])
   end
 
   def create
@@ -90,16 +90,19 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def convert_parameters!
-    params[:user][:agreement_params] = agreement_params if params[:user][:tos_checked]
+    params[:user][:user_agreements_attributes] = user_agreements_attributes if params[:user][:tos_checked]
     params[:user][:avatar] = decode_b64_image(params[:user][:avatar]) if params[:user][:avatar].present?
   end
 
-  def agreement_params
-    {
-      ids: Agreement.active.pluck(:id),
-      ip_address: request.remote_ip,
-      user_agent: request.env['HTTP_USER_AGENT']
-    }
+  def user_agreements_attributes
+    return [] unless Agreement.active
+    [
+      {
+        agreement_id: Agreement.active.id,
+        ip_address: request.remote_ip,
+        user_agent: request.env['HTTP_USER_AGENT']
+      }
+    ]
   end
 
   def create_params
@@ -119,8 +122,9 @@ class Api::V1::UsersController < Api::V1::ABaseController
     params.require(:user).permit(:first_name, :last_name, :avatar, :gender, :height,
                                  :birth_date, :phone, :blood_type, :holds_phone_in,
                                  :diet_id, :ethnic_group_id, :deceased, :date_of_death,
-                                 :npi_number, :expertise, :city, :state, :units,
-                                 :agreement_params => [:user_agent, :ip_address, :ids => []])
+                                 :npi_number, :expertise, :city, :state, :units).tap do |attributes|
+                                   attributes[:user_agreements_attributes] = params[:user][:user_agreements_attributes] if params[:user][:user_agreements_attributes]
+                                 end
   end
 
   def client_data_params

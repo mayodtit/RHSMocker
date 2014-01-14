@@ -16,6 +16,11 @@ describe User do
     expect(user).to_not be_valid
   end
 
+  describe 'phone numbers' do
+    it_validates 'phone number format of', :phone
+    it_validates 'phone number format of', :work_phone_number
+  end
+
   describe '#age' do
     let!(:no_birthday_user) { build_stubbed(:user, :birth_date => nil) }
     let!(:baby_user) { build_stubbed(:user, :birth_date => 11.months.ago) }

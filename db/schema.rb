@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140110002708) do
+ActiveRecord::Schema.define(:version => 20140113213052) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -25,7 +25,6 @@ ActiveRecord::Schema.define(:version => 20140110002708) do
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
-    t.string   "type"
     t.boolean  "active",     :default => false, :null => false
     t.datetime "created_at",                    :null => false
     t.datetime "updated_at",                    :null => false
@@ -444,11 +443,22 @@ ActiveRecord::Schema.define(:version => 20140110002708) do
     t.integer  "user_id"
     t.integer  "phone_call_id"
     t.datetime "scheduled_at"
-    t.datetime "created_at",                             :null => false
-    t.datetime "updated_at",                             :null => false
+    t.datetime "created_at",                                     :null => false
+    t.datetime "updated_at",                                     :null => false
     t.datetime "disabled_at"
     t.integer  "owner_id"
-    t.string   "state",         :default => "unclaimed"
+    t.string   "state",                :default => "unassigned"
+    t.integer  "assignor_id"
+    t.datetime "assigned_at"
+    t.integer  "booker_id"
+    t.datetime "booked_at"
+    t.integer  "starter_id"
+    t.datetime "started_at"
+    t.integer  "canceler_id"
+    t.datetime "canceled_at"
+    t.integer  "ender_id"
+    t.datetime "ended_at"
+    t.integer  "scheduled_duration_s", :default => 1800,         :null => false
   end
 
   create_table "side_effects", :force => true do |t|
@@ -657,6 +667,7 @@ ActiveRecord::Schema.define(:version => 20140110002708) do
     t.string   "google_analytics_uuid",           :limit => 36
     t.string   "avatar_url_override"
     t.text     "client_data"
+    t.string   "work_phone_number"
   end
 
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"

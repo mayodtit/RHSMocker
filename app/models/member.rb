@@ -1,8 +1,8 @@
 class Member < User
   authenticates_with_sorcery!
 
-  has_many :user_agreements, :foreign_key => :user_id
-  has_many :agreements, :through => :user_agreements
+  has_many :user_agreements, foreign_key: :user_id, inverse_of: :user
+  has_many :agreements, through: :user_agreements
   has_many :cards, :foreign_key => :user_id
   has_many :user_readings, :foreign_key => :user_id
   has_many :contents, :through => :user_readings
@@ -26,13 +26,12 @@ class Member < User
   accepts_nested_attributes_for :user_agreements
 
   attr_accessible :install_id, :password, :password_confirmation,
-                  :holds_phone_in, :invitation_token, :units, :agreement_params,
-                  :waitlist_entry
+                  :holds_phone_in, :invitation_token, :units,
+                  :waitlist_entry, :user_agreements_attributes
 
   validates :email, :uniqueness => {:message => 'account already exists', :case_sensitive => false}, :allow_nil => true
   validates :password, :length => {:minimum => 8, :message => "must be 8 or more characters long"}, :confirmation => true, :if => :password
   validates :install_id, :uniqueness => true, :allow_nil => true
-  validates :phone, :length => {:in => 7..17, :message => 'must be between 7 and 17 digits'}, :allow_blank => true
   validates :units, :inclusion => {:in => %w(US Metric)}
   validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :if => lambda{|m| m.signed_up? || m.password}
 
@@ -76,7 +75,11 @@ class Member < User
   end
 
   def pha?
-    has_role?(:pha) || has_role?(:admin)
+    has_role?(:pha) || has_role?(:pha_lead) || has_role?(:admin)
+  end
+
+  def pha_lead?
+    has_role?(:pha_lead) || has_role?(:admin)
   end
 
   def care_provider?
@@ -144,15 +147,9 @@ class Member < User
                             :avatar_url_override => "http://i.imgur.com/c3vNPCO.jpg")
   end
 
-  def agreement_params=(params)
-    self.user_agreements_attributes = params[:ids].map{|id| {:user => self,
-                                                             :agreement_id => id,
-                                                             :ip_address => params[:ip_address],
-                                                             :user_agent => params[:user_agent]}}
-  end
-
   def terms_of_service_and_privacy_policy
-    user_agreements.map(&:agreement_id).to_set.superset?(Agreement.active.pluck(:id).to_set)
+    return true unless Agreement.active
+    user_agreements.map(&:agreement_id).include? Agreement.active.id
   end
 
   private

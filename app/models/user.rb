@@ -1,3 +1,5 @@
+require './lib/utils/phone_number_util'
+
 class User < ActiveRecord::Base
   serialize :client_data, Hash
 
@@ -32,14 +34,17 @@ class User < ActiveRecord::Base
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
                   :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data,
                   :user_information_attributes, :address_attributes, :insurance_policy_attributes,
-                  :provider_attributes
+                  :provider_attributes, :work_phone_number
 
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
   validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_nil: true
+  validates :phone, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
+  validates :work_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
 
   mount_uploader :avatar, AvatarUploader
 
+  before_validation :prep_phone_numbers
   before_validation :set_defaults
   before_create :create_google_analytics_uuid
 
@@ -60,7 +65,8 @@ class User < ActiveRecord::Base
 
   BASE_OPTIONS = {:only => [:id, :first_name, :last_name, :birth_date, :blood_type,
                             :diet_id, :email, :ethnic_group_id, :gender, :height,
-                            :deceased, :date_of_death, :npi_number, :expertise],
+                            :deceased, :date_of_death, :npi_number, :expertise,
+                            :phone],
                   :methods => [:blood_pressure, :avatar_url, :weight, :admin?, :nurse?, :pha?, :care_provider?, :ethnic_group, :diet]}
 
   def serializable_hash(options = nil)
@@ -98,6 +104,10 @@ class User < ActiveRecord::Base
 
   def avatar_or_gender_url
     avatar_url || gender_url
+  end
+
+  def self.members
+    where(type: 'Member')
   end
 
   #############################################################################
@@ -143,6 +153,11 @@ class User < ActiveRecord::Base
   #############################################################################
 
   private
+
+  def prep_phone_numbers
+    self.phone = PhoneNumberUtil::prep_phone_number_for_db self.phone
+    self.work_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.work_phone_number
+  end
 
   def set_defaults
     self.deceased = false if deceased.nil?

@@ -38,10 +38,9 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
       if attributes[:message]
         # add current user as message sender
         attributes[:message].merge!(user: @user)
-      elsif attributes[:description] || attributes[:image]
-        # duplicate the consult description and image as the first message
-        attributes[:message] = {user: @user, text: attributes[:description]}
-        attributes[:message].merge!(image: decode_b64_image(attributes[:image])) if attributes[:image]
+      elsif attributes[:image]
+        # duplicate the consult image as the first message
+        attributes[:message] = {user: @user, image: decode_b64_image(attributes[:image])}
       end
 
       attributes[:image] = decode_b64_image(attributes[:image]) if attributes[:image]

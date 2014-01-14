@@ -55,7 +55,7 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
     user_params = params.require(:user).permit(:email, :first_name, :last_name, :password, :password_confirmation)
 
     # NOTE: We're doing this automatically and it's the agreement for consumer. MUST BE CHANGED
-    user_params[:agreement_params] = {:ids => Agreement.active.pluck(:id), :ip_address => 'SERVER', :user_agent => 'SERVER'}
+    user_params[:user_agreements_attributes] = [{agreement_id: Agreement.active.id, ip_address: 'SERVER', user_agent: 'SERVER'}] if Agreement.active
 
     user = @invitation.invited_member
     user.update_attributes user_params
