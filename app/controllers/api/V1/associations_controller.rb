@@ -2,7 +2,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   include ActiveModel::MassAssignmentSecurity
   attr_accessible :first_name, :last_name, :npi_number, :expertise, :city, :state, :avatar,
                   :birth_date, :phone, :blood_type, :holds_phone_in, :diet_id, :ethnic_group_id,
-                  :deceased, :date_of_death, :units, :gender, :height
+                  :deceased, :date_of_death, :units, :gender, :height, :email
 
   before_filter :load_user!
   before_filter :load_association!, only: [:show, :update, :destroy]
