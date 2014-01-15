@@ -86,6 +86,8 @@ AssociationType.find_or_create_by_name(:name=>"Pediatrician", :relationship_type
 AssociationType.find_or_create_by_name(:name=>"Pharmacist", :relationship_type=>"hcp")
 AssociationType.find_or_create_by_name(:name=>"Lifestyle Coach", :relationship_type=>"hcp")
 AssociationType.find_or_create_by_name(:name=>"Nutritionist", :relationship_type=>"hcp")
+AssociationType.find_or_create_by_name(:name=>"Specialist", :relationship_type=>"hcp")
+AssociationType.find_or_create_by_name(:name=>"Care Provider", :relationship_type=>"hcp")
 
 #Allergy.create!(:name=>"",:snomed_name=>"",:snomed_code=>"",:food_allergen=>"",:environment_allergen=>"",:medication_allergen=>"")
 Allergy.find_or_create_by_name(:name=>"Alcohol",:snomed_name=>"Alcohol products allergy",:snomed_code=>"294420000",:food_allergen=>"true",:environment_allergen=>"false",:medication_allergen=>"false")
@@ -219,4 +221,4 @@ PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_i
 p = Plan.find_or_create_by_name(name: 'Platinum', monthly: true)
 PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: nil, unlimited: true)
 
-Agreement.find_or_create_by_text!(active: true, text: 'Seeded test agreement')
+Agreement.find_or_create_by_active!(active: true, text: 'Seeded test agreement')

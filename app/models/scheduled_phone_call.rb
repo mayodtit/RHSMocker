@@ -29,20 +29,71 @@ class ScheduledPhoneCall < ActiveRecord::Base
 
   validates :scheduled_at, presence: true
 
-  def calendar_event
+  def user_confirmation_calendar_event
+    # TODO: Copy needs to be updated
     RiCal.Event do |event|
       event.summary = 'Scheduled phone call with Better'
       event.description = 'Your Personal Health Assistant will call you at this time'
       event.dtstart = scheduled_at
       event.dtend = scheduled_at + scheduled_duration
-      event.location = user.phone || '555-555-5555'
+      event.location = user.phone || 'TBD'
       event.attendee = user.email
       event.organizer = 'noreply@getbetter.com'
     end
   end
 
+  def owner_assigned_calendar_event
+    RiCal.Event do |event|
+      event.summary = 'PLACEHOLDER - Welcome Call'
+      event.description = <<-eos
+You've been assigned this time to do a Welcome Call with a new Better member. You will be notified by email when a member books this time.
+      eos
+      event.dtstart = scheduled_at
+      event.dtend = scheduled_at + scheduled_duration
+      event.location = 'TBD'
+      event.organizer = 'noreply@getbetter.com'
+    end
+  end
+
+  def owner_confirmation_calendar_event
+    RiCal.Event do |event|
+      event.summary = 'Welcome Call'
+      event.description = <<-eos
+Ready, set, welcome a new member
+
+Prep:
+1) Click or copy this link into your browser: #{CARE_URL_PREFIX}/scheduled_phone_call/#{id}
+2) Take three deep breaths...
+      eos
+      event.dtstart = scheduled_at
+      event.dtend = scheduled_at + scheduled_duration
+      event.location = user.phone || 'TBD'
+      event.organizer = 'noreply@getbetter.com'
+
+      # TODO: Don't think this works for Google Calendar, but it's in the right format.
+      the_user = user
+      event.alarm do |alarm|
+        alarm.action = 'DISPLAY'
+        alarm.trigger = '-PT10M'
+        alarm.description = "You have a Welcome Call w/#{the_user.full_name} in 10m."
+      end
+    end
+  end
+
   def scheduled_duration
     scheduled_duration_s.seconds
+  end
+
+  def notify_owner_of_assigned_call
+    UserMailer.scheduled_phone_call_cp_assigned_email(self).deliver
+  end
+
+  def notify_user_confirming_call
+    UserMailer.scheduled_phone_call_member_confirmation_email(self).deliver
+  end
+
+  def notify_owner_confirming_call
+    UserMailer.scheduled_phone_call_cp_confirmation_email(self).deliver
   end
 
   state_machine initial: :unassigned do
@@ -72,6 +123,10 @@ class ScheduledPhoneCall < ActiveRecord::Base
       scheduled_phone_call.assigned_at = Time.now
     end
 
+    after_transition :unassigned => :assigned do |scheduled_phone_call, transition|
+      scheduled_phone_call.notify_owner_of_assigned_call
+    end
+
     before_transition :assigned => :booked do |scheduled_phone_call, transition|
       scheduled_phone_call.booker = transition.args.first
       scheduled_phone_call.user = transition.args.second || transition.args.first
@@ -94,6 +149,11 @@ class ScheduledPhoneCall < ActiveRecord::Base
       end
     end
 
+    after_transition :assigned => :booked do |scheduled_phone_call, transition|
+      scheduled_phone_call.notify_user_confirming_call
+      scheduled_phone_call.notify_owner_confirming_call
+    end
+
     before_transition any => :started do |scheduled_phone_call, transition|
       scheduled_phone_call.starter = transition.args.first
       scheduled_phone_call.owner = transition.args.first
@@ -110,11 +170,5 @@ class ScheduledPhoneCall < ActiveRecord::Base
       scheduled_phone_call.ender = transition.args.first
       scheduled_phone_call.ended_at = Time.now
     end
-  end
-
-  private
-
-  def notify_user
-    UserMailer.scheduled_phone_call_email(self).deliver
   end
 end

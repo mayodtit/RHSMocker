@@ -2,6 +2,7 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   before_filter :unlock_contents!
   before_filter :load_contents!, only: :index
   before_filter :load_content!, only: :show
+  before_filter :load_mayo_terms_of_service!, only: :tos
   after_filter :log_content_search, only: :index
 
   def index
@@ -38,6 +39,10 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   def remove_like
     current_user.remove_content_like params[:content_id]
     render_success
+  end
+
+  def tos
+    show_resource @mayo_terms_of_service.serializer
   end
 
   private
@@ -80,6 +85,10 @@ class Api::V1::ContentsController < Api::V1::ABaseController
                else
                  Content.published.find params[:id]
                end
+  end
+
+  def load_mayo_terms_of_service!
+    @mayo_terms_of_service = MayoContent.terms_of_service || raise(ActiveRecord::RecordNotFound)
   end
 
   def log_content_search

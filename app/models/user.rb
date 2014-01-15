@@ -34,7 +34,7 @@ class User < ActiveRecord::Base
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
                   :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data,
                   :user_information_attributes, :address_attributes, :insurance_policy_attributes,
-                  :provider_attributes, :work_phone_number
+                  :provider_attributes, :work_phone_number, :nickname
 
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
@@ -66,7 +66,7 @@ class User < ActiveRecord::Base
   BASE_OPTIONS = {:only => [:id, :first_name, :last_name, :birth_date, :blood_type,
                             :diet_id, :email, :ethnic_group_id, :gender, :height,
                             :deceased, :date_of_death, :npi_number, :expertise,
-                            :phone],
+                            :phone, :nickname],
                   :methods => [:blood_pressure, :avatar_url, :weight, :admin?, :nurse?, :pha?, :care_provider?, :ethnic_group, :diet]}
 
   def serializable_hash(options = nil)

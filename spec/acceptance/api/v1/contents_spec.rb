@@ -132,4 +132,19 @@ resource "Contents" do
       status.should == 200
     end
   end
+
+  get '/api/v1/contents/tos' do
+    parameter :auth_token, 'User\'s auth_token'
+    required_parameters :auth_token
+
+    let!(:tos) { MayoContent.terms_of_service || create(:mayo_content, :tos) }
+    let(:auth_token) { user.auth_token}
+
+    example_request '[GET] Get Mayo Clinic terms of service content' do
+      explanation 'Returns the Mayo Clinic terms of service content'
+      expect(status).to eq(200)
+      body = JSON.parse(response_body, symbolize_names: true)
+      expect(body[:content].to_json).to eq(tos.serializer.as_json.to_json)
+    end
+  end
 end

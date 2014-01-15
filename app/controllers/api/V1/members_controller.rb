@@ -54,6 +54,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
   def member_attributes
     params.require(:member).permit(:first_name, :last_name, :phone, :gender,
                                    :birth_date, :ethnic_group_id, :diet_id,
+                                   :nickname,
                                    user_information_attributes: [:id, :notes],
                                    address_attributes: [:id, :address, :city, :state, :postal_code],
                                    insurance_policy_attributes: [:id, :company_name, :plan_type, :policy_member_id],

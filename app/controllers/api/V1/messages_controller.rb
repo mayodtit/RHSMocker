@@ -26,7 +26,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
     create_resource(@consult.messages, p)
     @consult.messages.create(:user => Member.robot,
-                             :text => "We've received your message! This is a testing scenario, but when this is live, a Healthcare Professional will be messaging you!",
+                             :text => "We have received your message and your PHA will get back to you shortly. Thank you.",
                              :created_at => Time.now + 1.second)
   end
 

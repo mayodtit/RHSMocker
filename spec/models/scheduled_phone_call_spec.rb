@@ -1,14 +1,48 @@
 require 'spec_helper'
 
 describe ScheduledPhoneCall do
+  let(:scheduled_phone_call) { build(:scheduled_phone_call) }
+
   it_has_a 'valid factory'
   it_validates 'presence of', :scheduled_at
+
+  describe '#notify_owner_of_assigned_call' do
+    it 'notifies the owner they were assigned a time to receive a scheduled call' do
+      UserMailer.should_receive(:scheduled_phone_call_cp_assigned_email).with(scheduled_phone_call) {
+        o = Object.new
+        o.should_receive(:deliver)
+        o
+      }
+      scheduled_phone_call.notify_owner_of_assigned_call
+    end
+  end
+
+  describe '#notify_user_confirming_call' do
+    it 'notifies the user confirming their scheduled call time via email' do
+      UserMailer.should_receive(:scheduled_phone_call_member_confirmation_email).with(scheduled_phone_call) {
+        o = Object.new
+        o.should_receive(:deliver)
+        o
+      }
+      scheduled_phone_call.notify_user_confirming_call
+    end
+  end
+
+  describe '#notify_owner_confirming_call' do
+    it 'notifies the owner confirming their scheduled call time via email' do
+      UserMailer.should_receive(:scheduled_phone_call_cp_confirmation_email).with(scheduled_phone_call) {
+        o = Object.new
+        o.should_receive(:deliver)
+        o
+      }
+      scheduled_phone_call.notify_owner_confirming_call
+    end
+  end
 
   describe 'states' do
     let(:pha_lead) { build_stubbed(:pha_lead) }
     let(:pha) { build_stubbed(:pha) }
     let(:member) { build_stubbed(:member) }
-    let(:scheduled_phone_call) { build(:scheduled_phone_call) }
     let(:other_scheduled_phone_call) { build(:scheduled_phone_call) }
 
     before do
@@ -49,6 +83,11 @@ describe ScheduledPhoneCall do
         other_scheduled_phone_call.assignor.should == pha_lead
         other_scheduled_phone_call.owner.should == pha_lead
       end
+
+      it 'notifies the owner that they were assigned' do
+        other_scheduled_phone_call.should_receive :notify_owner_of_assigned_call
+        other_scheduled_phone_call.assign! pha_lead, pha
+      end
     end
 
     describe '#book' do
@@ -58,7 +97,10 @@ describe ScheduledPhoneCall do
       before do
         scheduled_phone_call.state = 'assigned'
         other_scheduled_phone_call.state = 'assigned'
+        scheduled_phone_call.owner = pha
+        other_scheduled_phone_call.owner = pha
         scheduled_phone_call.message = message
+
         scheduled_phone_call.book! pha, member
       end
 
@@ -100,6 +142,16 @@ describe ScheduledPhoneCall do
 
         other_scheduled_phone_call.owner = pha_lead
         other_scheduled_phone_call.state = 'assigned'
+        other_scheduled_phone_call.book! pha, member
+      end
+
+      it 'notifies the owner confirming that they booked the call' do
+        other_scheduled_phone_call.should_receive :notify_user_confirming_call
+        other_scheduled_phone_call.book! pha, member
+      end
+
+      it 'notifies the user confirming that their call was booked' do
+        other_scheduled_phone_call.should_receive :notify_owner_confirming_call
         other_scheduled_phone_call.book! pha, member
       end
     end
