@@ -10,4 +10,13 @@ class AssociationType < ActiveRecord::Base
   def self.by_relationship_type
     Set.new(all).classify(&:relationship_type)
   end
+
+  def self.defaults
+    {
+      defaults: {
+                  hcp: find_by_name('Other Family Member').try(:id),
+                  family: find_by_name('Care Provider').try(:id)
+                }
+    }
+  end
 end
