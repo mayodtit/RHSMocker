@@ -94,3 +94,4 @@ gem 'kaminari' # pagination
 gem 'strong_parameters'
 gem 'timecop'
 gem 'rubyzip'
+gem 'twilio-ruby'
