@@ -14,8 +14,8 @@ class AssociationType < ActiveRecord::Base
   def self.defaults
     {
       defaults: {
-                  hcp: find_by_name('Other Family Member').try(:id),
-                  family: find_by_name('Care Provider').try(:id)
+                  family: find_by_name('Other Family Member').try(:id),
+                  hcp: find_by_name('Care Provider').try(:id)
                 }
     }
   end
