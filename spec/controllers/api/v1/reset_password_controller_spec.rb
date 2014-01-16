@@ -14,7 +14,7 @@ describe Api::V1::ResetPasswordController do
       let(:user) { build_stubbed(:member) }
 
       before do
-        Member.stub(find_by_email!: user)
+        Member.stub(find_by_email: user)
       end
 
       it_behaves_like 'success'
