@@ -38,7 +38,7 @@ class Member < User
   before_create :set_auth_token # generate inital auth_token
   after_create :add_install_message
   after_create :add_new_member_content
-  after_create :send_welcome_message, :if => lambda{|m| m.email.present?}
+  after_create :send_welcome_message, :if => lambda{|m| m.signed_up?}
   #after_save :update_cards_for_questions!
 
   def self.name_search(string)
