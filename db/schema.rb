@@ -371,7 +371,9 @@ ActiveRecord::Schema.define(:version => 20140115181502) do
     t.integer  "claimer_id"
     t.integer  "ender_id"
     t.string   "identifier_token"
-    t.integer  "to_role_id",               :default => 1, :null => false
+    t.integer  "to_role_id",               :default => 1
+    t.integer  "dialer_id"
+    t.datetime "dialed_at"
   end
 
   add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"
