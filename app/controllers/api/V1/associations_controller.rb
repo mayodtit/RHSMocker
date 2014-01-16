@@ -31,7 +31,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def load_association!
     @association = @user.associations.find(params[:id])
-    authorize! :manage, @association.associate
+    authorize! :manage, @association
   end
 
   def association_params
