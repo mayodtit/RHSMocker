@@ -26,7 +26,14 @@ RHSMocker::Application.routes.draw do
       end
       resources :custom_cards, only: [:index, :show, :create, :update]
       resources :custom_contents, only: [:index, :show, :create, :update]
-      resources :phone_calls, only: [:index, :show, :update]
+      resources :phone_calls, only: [:index, :show, :update] do
+        post 'connect/origin', on: :member, to: 'phone_calls#connect_origin'
+        post 'connect/destination', on: :member, to: 'phone_calls#connect_destination'
+        post 'connect', on: :member, to: 'phone_calls#connect', on: :collection
+        post 'status/origin', on: :member, to: 'phone_calls#status_origin'
+        post 'status/destination', on: :member, to: 'phone_calls#status_destination'
+        post 'status', on: :member, to: 'phone_calls#status', on: :collection
+      end
       resources :dashboard, only: :index
       resources :diseases, :only => :index, :controller => :conditions
       resources :ethnic_groups, :only => :index

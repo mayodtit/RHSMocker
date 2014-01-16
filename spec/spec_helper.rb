@@ -40,10 +40,31 @@ RSpec.configure do |config|
   # this increases spec run time by ~4%, but is probably more convenient
   # than remembering which exact specs require Analytics stubbing
   config.before(:each) { stub_out_analytics_methods }
+  config.before(:each) { stub_out_twilio }
 end
 
 def stub_out_analytics_methods
   (Analytics.methods - Object.methods).each do |m|
     Analytics.stub(m).and_return(nil)
   end
+end
+
+def stub_out_twilio
+  twilio = Object.new
+  account = Object.new
+  calls = Object.new
+
+  twilio.stub(:account) do
+    account
+  end
+
+  account.stub(:calls) do
+    calls
+  end
+
+  calls.stub(:create) do
+    # Do nothing
+  end
+
+  PhoneCall.stub(:twilio) { twilio }
 end

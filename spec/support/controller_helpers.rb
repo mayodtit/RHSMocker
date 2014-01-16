@@ -60,6 +60,14 @@ shared_examples '404' do
   end
 end
 
+shared_examples 'renders valid xml' do |action|
+  it 'renders xml' do
+    do_request
+    Nokogiri::XML(response.body).errors.should be_empty
+    response.should render_template("api/v1/#{action}")
+  end
+end
+
 shared_examples 'index action' do |object|
   before(:each) do
     user.stub(object_plural_symbol(object) => [object])

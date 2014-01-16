@@ -1,6 +1,10 @@
 class Api::V1::PhoneCallsController < Api::V1::ABaseController
-  before_filter :load_user!
-  before_filter :load_phone_call!, :only => [:update, :show]
+  before_filter :load_user!, :only => [:index, :show, :update]
+  before_filter :load_phone_call!, :except => [:index, :connect, :status]
+  skip_before_filter :authentication_check, :except => [:index, :show, :update]
+
+  layout false, except: [:index, :show, :update]
+  # http_basic_authenticate_with name: "twilio", password: "secret", except: :index
 
   def index
     authorize! :read, PhoneCall
@@ -43,6 +47,43 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
     else
       render_failure({reason: @phone_call.errors.full_messages.to_sentence}, 422)
     end
+  end
+
+  def connect_origin
+    @phone_call.dial_destination
+    render formats: [:xml], handler: [:builder]
+  end
+
+  def connect_destination
+    render formats: [:xml], handler: [:builder]
+  end
+
+  def connect
+    render formats: [:xml], handler: [:builder]
+  end
+
+  def status_origin
+    if params['CallStatus'] == 'completed'
+    elsif params['CallStatus'] == 'failed'
+    elsif params['CallStatus'] == 'busy'
+    elsif params['CallStatus'] == 'no-answer'
+    end
+
+    head :ok, :content_type => 'text/html'
+  end
+
+  def status_destination
+    if params['CallStatus'] == 'completed'
+    elsif params['CallStatus'] == 'failed'
+    elsif params['CallStatus'] == 'busy'
+    elsif params['CallStatus'] == 'no-answer'
+    end
+
+    head :ok, :content_type => 'text/html'
+  end
+
+  def status
+    head :ok, :content_type => 'text/html'
   end
 
   private

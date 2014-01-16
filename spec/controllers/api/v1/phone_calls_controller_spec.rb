@@ -172,4 +172,127 @@ describe Api::V1::PhoneCallsController do
       end
     end
   end
+
+  describe 'POST connect_origin' do
+    let(:phone_call) { build_stubbed :phone_call }
+
+    def do_request
+      post :connect_origin, id: '1'
+    end
+
+    context 'phone call doesn\'t exist' do
+      before do
+        PhoneCall.stub(:find).with('1') { raise ActiveRecord::RecordNotFound }
+      end
+
+      it_behaves_like 'phone call 404'
+    end
+
+    context 'phone call exists' do
+      let(:phone_call) { build_stubbed :phone_call }
+
+      before do
+        PhoneCall.stub(:find).with('1') { phone_call }
+      end
+
+      it_behaves_like 'success'
+      it_behaves_like 'renders valid xml', 'phone_calls/connect_origin'
+
+      it 'dials destination' do
+        phone_call.should_receive(:dial_destination)
+        do_request
+      end
+    end
+  end
+
+  describe 'POST connect_destination' do
+    def do_request
+      post :connect_destination, id: '1'
+    end
+
+    context 'phone call doesn\'t exist' do
+      before do
+        PhoneCall.stub(:find).with('1') { raise ActiveRecord::RecordNotFound }
+      end
+
+      it_behaves_like 'phone call 404'
+    end
+
+    context 'phone call exists' do
+      let(:phone_call) { build_stubbed :phone_call }
+
+      before do
+        PhoneCall.stub(:find).with('1') { phone_call }
+      end
+
+      it_behaves_like 'success'
+      it_behaves_like 'renders valid xml', 'phone_calls/connect_destination'
+    end
+  end
+
+  describe 'POST connect' do
+    def do_request
+      post :connect
+    end
+
+    it_behaves_like 'success'
+  end
+
+  describe 'POST status_origin' do
+    def do_request
+      post :status_origin, id: '1'
+    end
+
+    context 'phone call doesn\'t exist' do
+      before do
+        PhoneCall.stub(:find).with('1') { raise ActiveRecord::RecordNotFound }
+      end
+
+      it_behaves_like 'phone call 404'
+    end
+
+    context 'phone call exists' do
+      let(:phone_call) { build_stubbed :phone_call }
+
+      before do
+        PhoneCall.stub(:find).with('1') { phone_call }
+      end
+
+      it_behaves_like 'success'
+    end
+  end
+
+  describe 'POST status_destination' do
+    def do_request
+      post :status_destination, id: '1'
+    end
+
+    context 'phone call doesn\'t exist' do
+      before do
+        PhoneCall.stub(:find).with('1') { raise ActiveRecord::RecordNotFound }
+      end
+
+      it_behaves_like 'phone call 404'
+    end
+
+    context 'phone call exists' do
+      let(:phone_call) { build_stubbed :phone_call }
+
+      before do
+        PhoneCall.stub(:find).with('1') { phone_call }
+      end
+
+      it_behaves_like 'success'
+    end
+  end
+
+  describe 'POST status' do
+    let(:phone_call) { build_stubbed :phone_call }
+
+    def do_request
+      post :status
+    end
+
+    it_behaves_like 'success'
+  end
 end

@@ -6,10 +6,16 @@ resource "PhoneCalls" do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:nurse) }
+  let!(:pha) { create(:pha) }
   let(:auth_token) { user.auth_token }
   let!(:phone_call) { create(:phone_call, to_role: user.roles.first) }
   let!(:other_phone_call) { create(:phone_call, to_role: user.roles.first) }
-  let!(:claimed_phone_call) { create(:phone_call, state: :claimed, to_role: user.roles.first) }
+  let!(:outbound_phone_call) { create(:phone_call, dialer: pha, to_role: nil) }
+  let(:claimed_phone_call) do
+    phone_call = create(:phone_call, to_role: user.roles.first)
+    phone_call.claim! user
+    phone_call
+  end
 
   before(:each) do
     user.login
@@ -80,6 +86,86 @@ resource "PhoneCalls" do
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
         response[:phone_call].to_json.should == phone_call.reload.as_json(include: [:user, consult: {include: [:subject, :initiator]}]).to_json
+      end
+    end
+  end
+
+  describe 'twilio telling us phone call\'s origin connected' do
+    parameter :id, 'Phone call id'
+
+    let(:id) { outbound_phone_call.id }
+    let(:raw_post) { params.to_json }
+
+    post '/api/v1/phone_calls/:id/connect/origin' do
+      example_request '[POST] Indicates phone call\'s origin connected' do
+        explanation 'Dials the destination'
+        status.should == 200
+      end
+    end
+  end
+
+  describe 'twilio telling us phone call\'s destination connected' do
+    parameter :id, 'Phone call id'
+
+    let(:id) { outbound_phone_call.id }
+    let(:raw_post) { params.to_json }
+
+    post '/api/v1/phone_calls/:id/connect/destination' do
+      example_request '[POST] Indicates phone call\'s destination connected' do
+        explanation 'and that\s it.'
+        status.should == 200
+      end
+    end
+  end
+
+  describe 'twilio telling us a phone connected' do
+    let(:raw_post) { params.to_json }
+
+    post '/api/v1/phone_calls/status' do
+      example_request '[POST] Determine how to route the phone call.' do
+        explanation 'Twilio telling us that a phone connected and we need to route it properly.'
+        status.should == 200
+      end
+    end
+  end
+
+  describe 'twilio status update from a phone call\'s origin' do
+    parameter :id, 'Phone call id'
+
+    let(:id) { phone_call.id }
+
+    let(:raw_post) { params.to_json }
+
+    post '/api/v1/phone_calls/:id/status/origin' do
+      example_request '[POST] Update the status of a phone call best on the origin\'s call status' do
+        explanation 'Twilio telling us that the origin\'s call status has changed'
+        status.should == 200
+      end
+    end
+  end
+
+  describe 'twilio status update from a phone call\'s destination' do
+    parameter :id, 'Phone call id'
+
+    let(:id) { phone_call.id }
+
+    let(:raw_post) { params.to_json }
+
+    post '/api/v1/phone_calls/:id/status/destination' do
+      example_request '[POST] Update the status of a phone call best on the destination\'s call status' do
+        explanation 'Twilio telling us that the destination\'s call status has changed'
+        status.should == 200
+      end
+    end
+    end
+
+  describe 'twilio status update' do
+    let(:raw_post) { params.to_json }
+
+    post '/api/v1/phone_calls/status' do
+      example_request '[POST] Update the status of a phone call' do
+        explanation 'Twilio telling us that a phone call has changed in status'
+        status.should == 200
       end
     end
   end
