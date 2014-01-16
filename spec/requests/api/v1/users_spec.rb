@@ -1,6 +1,97 @@
 require 'spec_helper'
 
 describe 'Users' do
+  context 'with an existing record' do
+    let!(:user) { create(:member) }
+
+    describe 'GET /api/v1/users/:id' do
+      def do_request
+        get "/api/v1/users/#{user.id}", auth_token: user.auth_token
+      end
+
+      it 'shows the user' do
+        do_request
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:user].to_json).to eq(user.as_json.to_json)
+      end
+    end
+
+    describe 'GET /api/v1/users/current' do
+      def do_request
+        get "/api/v1/users/current", auth_token: user.auth_token
+      end
+
+      it 'shows the current_user' do
+        do_request
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:user].to_json).to eq(user.as_json.to_json)
+      end
+    end
+
+    describe 'DEPRECATED GET /api/v1/user' do
+      def do_request
+        get "/api/v1/user", auth_token: user.auth_token
+      end
+
+      it 'shows the current_user' do
+        do_request
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:user].to_json).to eq(user.as_json.to_json)
+      end
+    end
+
+    describe 'PUT /api/v1/users/:id' do
+      def do_request(params={})
+        put "/api/v1/users/#{user.id}", params.merge!(auth_token: user.auth_token)
+      end
+
+      let(:new_name) { 'Barrack' }
+
+      it 'updates the user' do
+        do_request(user: {first_name: new_name})
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:user].to_json).to eq(user.reload.as_json.to_json)
+        expect(body[:user][:first_name]).to eq(new_name)
+      end
+    end
+
+    describe 'DEPRECATED PUT /api/v1/user/:id' do
+      def do_request(params={})
+        put "/api/v1/user/#{user.id}", params.merge!(auth_token: user.auth_token)
+      end
+
+      let(:new_name) { 'Bill' }
+
+      it 'updates the user' do
+        do_request(user: {first_name: new_name})
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:user].to_json).to eq(user.reload.as_json.to_json)
+        expect(body[:user][:first_name]).to eq(new_name)
+      end
+    end
+
+    describe 'DEPRECATED PUT /api/v1/user' do
+      def do_request(params={})
+        put '/api/v1/user', params.merge!(auth_token: user.auth_token)
+      end
+
+      let(:new_name) { 'George' }
+
+      it 'updates the current_user' do
+        do_request(user: {first_name: new_name})
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:user].to_json).to eq(user.reload.as_json.to_json)
+        expect(body[:user][:first_name]).to eq(new_name)
+      end
+    end
+  end
+
   describe 'DEPRECATED POST /api/v1/user/update_email' do
     def do_request
       post '/api/v1/user/update_email', auth_token: user.auth_token,

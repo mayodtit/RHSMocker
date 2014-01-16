@@ -4,7 +4,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   before_filter :load_user!, only: [:show, :update]
   before_filter :convert_legacy_parameters!, only: :secure_update
   before_filter :load_user_from_login!, only: :secure_update
-  before_filter :convert_parameters!, only: [:create, :update]
+  before_filter :convert_parameters!, only: [:create, :update, :update_current]
   before_filter :load_waitlist_entry!, only: :create
 
   def index
@@ -12,7 +12,11 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def show
-    show_resource @user.as_json(only: [:first_name, :last_name, :email, :work_phone_number], methods: [:full_name, :admin?, :nurse?, :pha?, :care_provider?])
+    show_resource @user
+  end
+
+  def current
+    show_resource current_user
   end
 
   def create
@@ -31,6 +35,10 @@ class Api::V1::UsersController < Api::V1::ABaseController
 
   def secure_update
     update_resource @user, secure_params
+  end
+
+  def update_current
+    update_resource current_user, user_params
   end
 
   # Invites a ghost user
@@ -56,7 +64,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def load_user!
-    @user = params[:id] ? User.find(params[:id]) : current_user
+    @user = User.find(params[:id])
     authorize! :manage, @user
   end
 

@@ -65,6 +65,9 @@ RHSMocker::Application.routes.draw do
         post :check, on: :collection, to: 'symptom_contents#index'
       end
       resources :treatments, :only => :index
+      get :user, to: 'users#current' # TODO - this should be deprecated in favor of users#current
+      put :user, to: 'users#update_current' # TODO - this should be deprecated in general, client should know the ID
+      put 'user/:id', to: 'users#update' # TODO - deprecated, use users#update
       resources :users, only: [:index, :show, :create, :update] do
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
         resources :associations, :except => [:new, :edit]
@@ -78,6 +81,7 @@ RHSMocker::Application.routes.draw do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
+        get :current, on: :collection
         resources :diseases, except: [:new, :edit], controller: 'user_conditions' do
           resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
@@ -108,11 +112,8 @@ RHSMocker::Application.routes.draw do
       post "signup" => "users#create", :as=>"signup"
       post "login" => "sessions#create", :as=>"login"
       delete "logout" => "sessions#destroy", :as=>"logout"
-      put "user" => "users#update"
-      put "user/:id" => "users#update"
       post "user/update_password" => "users#secure_update", :as=>"update_password"
       post "user/update_email" => "users#secure_update", :as=>"update_email"
-      get 'user/' => 'users#show'
     end
   end
 
