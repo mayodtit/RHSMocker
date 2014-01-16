@@ -61,8 +61,8 @@ class Search::Service::Bloom
       :last_name => prettify(record['last_name']),
       :npi_number => record['npi'].to_s,
       :address => business_address,
-      :city => prettify(p['city']),   # this line left in for backwards compatibility
-      :state => prettify(p['state']), # this line left in for backwards compatibility
+      :city => prettify(p['city']), # this line left in for backwards compatibility
+      :state => p['state'],         # this line left in for backwards compatibility
       :expertise => record['credential'],
       :gender => record['gender'],
       :healthcare_taxonomy_code => hcp_code,
