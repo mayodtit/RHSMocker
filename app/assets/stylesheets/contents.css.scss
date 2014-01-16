@@ -287,10 +287,32 @@ table.content {
 }
 
 .consult-source {
-  padding: 8px 15px;
+  position: relative;
+  padding: 8px 0px;
   border-bottom: 1px solid #CCCCCC;
+  min-height: 150px;
+  font-size: 20px;
+  line-height:24px;
   strong {
     font-family:"Roboto";
+    font-weight: 400;
+  }
+  .left {
+    float: left;
+    width: 86px;
+  }
+  .right {
+    padding-top: 12px;
+    padding-right: 10px;
+    float: right;
+    width: 200px;
+  }
+  img {
+    height: 62px;
+    width: 62px;
+    margin: 12px 10px 12px 15px;
+    -moz-border-radius: 31px;
+    border-radius: 31px;
   }
 }
 

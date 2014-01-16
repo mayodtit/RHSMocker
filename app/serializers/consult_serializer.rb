@@ -22,14 +22,14 @@ class ConsultSerializer < ViewSerializer
     controller.render_to_string(template: 'api/v1/cards/preview',
                                 layout: 'serializable',
                                 formats: :html,
-                                locals: {card: nil, resource: self})
+                                locals: {card: nil, resource: self, current_user: scope})
   end
   alias_method :preview, :body
 
   def raw_body
     controller.render_to_string(template: 'api/v1/cards/preview',
                                 formats: :html,
-                                locals: {card: nil, resource: self})
+                                locals: {card: nil, resource: self, current_user: scope})
   end
   alias_method :raw_preview, :raw_body
 
@@ -38,12 +38,14 @@ class ConsultSerializer < ViewSerializer
   end
   alias_method :content_type_display, :content_type
 
-  def last_message
-    @last_message ||= object.messages.order('created_at DESC').first
+  def last_message(omit_user=nil)
+    messages = object.messages.order('created_at DESC')
+    messages = messages.where("user_id != #{omit_user.id}") if omit_user
+    @last_message ||= messages.first
   end
 
-  def last_message_at
-    last_message.try(:created_at)
+  def last_message_at(omit_user=nil)
+    last_message(omit_user).try(:created_at)
   end
 
   def share_url
