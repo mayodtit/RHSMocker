@@ -2,6 +2,7 @@ module Api
   module V1
     class ABaseController < ApplicationController
       before_filter :force_development_error!
+      before_filter :force_development_lag!
       before_filter :authentication_check
       before_filter :convert_to_role
 
@@ -108,6 +109,12 @@ module Api
         else
           render_failure({reason: 'Internal Server Error'}, 500)
         end
+      end
+
+      def force_development_lag!
+        return unless %w(development devhosted).include? Rails.env
+        return unless params[:lag]
+        sleep(10)
       end
 
       def resource_plural_symbol
