@@ -387,6 +387,23 @@ namespace :seeds do
 
       m.add_role :pha
     end
+
+    puts 'Creating PHAs leads...'
+    %w(clare@lead.getbetter.com abhik@lead.getbetter.com).each do |email|
+      m = Member.find_or_create_by_email!(
+        email: email,
+        user_agreements_attributes: user_agreements_attributes
+      )
+
+      m.update_attributes!(
+        password: 'careportal',
+        password_confirmation: 'careportal',
+        first_name: email[/[^@]+/].capitalize,
+        last_name: LAST_NAMES.sample,
+      )
+
+      m.add_role :pha_lead
+    end
   end
 
   def user_agreements_attributes
