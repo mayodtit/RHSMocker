@@ -71,9 +71,6 @@ gem "active_model_serializers"
 # Use unicorn as the app server
 # gem 'unicorn'
 
-# Deploy with Capistrano
-# gem 'capistrano'
-
 gem 'httparty'
 gem 'awesome_print'
 gem 'titleize'
@@ -94,3 +91,4 @@ gem 'kaminari' # pagination
 gem 'strong_parameters'
 gem 'timecop'
 gem 'rubyzip'
+gem 'twilio-ruby'

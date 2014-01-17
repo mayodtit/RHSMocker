@@ -24,14 +24,14 @@ class CardSerializer < ViewSerializer
     controller.render_to_string(template: 'api/v1/cards/show',
                                 layout: 'serializable',
                                 formats: :html,
-                                locals: {card: object, resource: resource})
+                                locals: {card: object, resource: resource, current_user: scope})
   end
 
   def preview
     controller.render_to_string(template: 'api/v1/cards/preview',
                                 layout: 'serializable',
                                 formats: :html,
-                                locals: {card: object, resource: resource})
+                                locals: {card: object, resource: resource, current_user: scope})
   end
 
   def actions
@@ -52,7 +52,7 @@ class CardSerializer < ViewSerializer
   private
 
   def resource
-    @resource ||= object.resource.serializer
+    @resource ||= object.resource.serializer(scope: scope)
   end
 
   def state_specific_date

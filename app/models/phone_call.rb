@@ -1,4 +1,5 @@
 require './lib/utils/phone_number_util'
+require 'twilio-ruby'
 
 class PhoneCall < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
@@ -8,15 +9,19 @@ class PhoneCall < ActiveRecord::Base
   belongs_to :ender, class_name: 'Member'
   belongs_to :to_role, class_name: 'Role'
 
+  # Outbound Calls
+  belongs_to :dialer, class_name: 'Member'
+
   has_one :message, :inverse_of => :phone_call
   has_one :scheduled_phone_call
 
   attr_accessible :user, :user_id, :to_role, :to_role_id, :message, :message_attributes, :origin_phone_number,
                   :destination_phone_number, :claimer, :claimer_id, :claimed_at,
-                  :ender, :ender_id, :ended_at, :identifier_token
+                  :ender, :ender_id, :ended_at, :identifier_token,
+                  :dialer_id, :dialer, :dialed_at
 
   validates :user, :message, :identifier_token, presence: true
-  validates :identifier_token, uniqueness: true
+  validates :identifier_token, uniqueness: true # Used for nurseline and creating unique conference calls
   validates :origin_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
   validates :destination_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: false
 
@@ -25,10 +30,16 @@ class PhoneCall < ActiveRecord::Base
 
   # TODO - remove this fake job when nurseline is built
   after_create :schedule_phone_call_summary
+  after_create :dial_if_outbound
 
   accepts_nested_attributes_for :message
 
   delegate :consult, :to => :message
+
+  # A call can be inbound or outbound.
+  def outbound?
+    to_role.nil? && to_role_id.nil?
+  end
 
   def to_nurse?
     to_role.name.to_sym == :nurse
@@ -36,6 +47,47 @@ class PhoneCall < ActiveRecord::Base
 
   def to_pha?
     to_role.name.to_sym == :pha
+  end
+
+  # Call mechanics
+
+  # Create a singleton for Twilio client
+  class << self
+    @@twilio = Twilio::REST::Client.new TWILIO_SID, TWILIO_TOKEN
+
+    def twilio
+      @@twilio
+    end
+  end
+
+  def twilio
+    self.class.twilio
+  end
+
+  def dial_if_outbound
+    dial_origin if outbound?
+  end
+
+  def dial_origin
+    call = twilio.account.calls.create(
+      from: PhoneNumberUtil::format_for_dialing(TWILIO_CALLER_ID),
+      to: PhoneNumberUtil::format_for_dialing(origin_phone_number),
+      url: URL_HELPERS.connect_origin_api_v1_phone_call_url(self),
+      method: 'POST',
+      status_callback: URL_HELPERS.status_origin_api_v1_phone_call_url(self),
+      status_callback_method: 'POST'
+    )
+  end
+
+  def dial_destination
+    call = twilio.account.calls.create(
+      from: PhoneNumberUtil::format_for_dialing(TWILIO_CALLER_ID),
+      to: PhoneNumberUtil::format_for_dialing(destination_phone_number),
+      url: URL_HELPERS.connect_destination_api_v1_phone_call_url(self),
+      method: 'POST',
+      status_callback: URL_HELPERS.status_destination_api_v1_phone_call_url(self),
+      status_callback_method: 'POST'
+    )
   end
 
   private
@@ -57,13 +109,21 @@ class PhoneCall < ActiveRecord::Base
     self.origin_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.origin_phone_number
   end
 
-  state_machine :initial => :unclaimed do
+  state_machine :initial => lambda { |object| object.outbound? ? :dialing : :unclaimed } do
     event :claim do
       transition :unclaimed => :claimed
     end
 
+    event :connect do
+      transition [:dialing, :claimed] => :connected
+    end
+
+    event :disconnect do
+      transition :connected => :disconnected
+    end
+
     event :end do
-      transition :claimed => :ended
+      transition [:connected, :claimed] => :ended
     end
 
     event :reclaim do

@@ -23,7 +23,8 @@ class Api::V1::ResetPasswordController < Api::V1::ABaseController
   private
 
   def load_user_from_email!
-    @user = Member.find_by_email!(params[:email])
+    @user = Member.find_by_email(params[:email])
+    raise ActiveRecord::RecordNotFound, 'No account found with that email address' if @user.nil?
   end
 
   def load_user_from_token!

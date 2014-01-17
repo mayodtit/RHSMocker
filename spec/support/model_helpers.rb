@@ -63,12 +63,24 @@ shared_examples 'length of' do |property|
   end
 end
 
+# Using build_stubbed with these caused problems with PhoneCall (user is real)
 shared_examples 'cannot transition from' do |transition, state, states|
   states.each do |state|
     it "cannot transition from #{state}" do
-      model = build_stubbed described_class.name.underscore.to_sym
+      model = build described_class.name.underscore.to_sym
       model.state = state
       expect { model.send(transition) }.to raise_exception(StateMachine::InvalidTransition)
+    end
+  end
+end
+
+# Using build_stubbed with these caused problems with PhoneCall (user is real)
+shared_examples 'can transition from' do |transition, state, states|
+  states.each do |state|
+    it "can transition from #{state}" do
+      model = build described_class.name.underscore.to_sym
+      model.state = state
+      model.send(transition) # No exception thrown
     end
   end
 end

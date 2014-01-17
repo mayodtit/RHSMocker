@@ -1,1 +1,1 @@
-REVISION = `git show --pretty=%H`.split.first
+REVISION = `git rev-parse HEAD`.chomp

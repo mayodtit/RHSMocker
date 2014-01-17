@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140114211857) do
+ActiveRecord::Schema.define(:version => 20140115181502) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -19,8 +19,8 @@ ActiveRecord::Schema.define(:version => 20140114211857) do
     t.string   "city"
     t.string   "state"
     t.string   "postal_code"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "agreements", :force => true do |t|
@@ -250,13 +250,24 @@ ActiveRecord::Schema.define(:version => 20140114211857) do
     t.text     "metadata_override"
   end
 
+  create_table "hcp_taxonomies", :force => true do |t|
+    t.string   "code"
+    t.string   "hcptype"
+    t.string   "classification"
+    t.string   "specialization"
+    t.text     "definition"
+    t.text     "notes"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+  end
+
   create_table "insurance_policies", :force => true do |t|
     t.integer  "user_id"
     t.string   "company_name"
     t.string   "plan_type"
     t.string   "policy_member_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
   create_table "invitations", :force => true do |t|
@@ -360,7 +371,9 @@ ActiveRecord::Schema.define(:version => 20140114211857) do
     t.integer  "claimer_id"
     t.integer  "ender_id"
     t.string   "identifier_token"
-    t.integer  "to_role_id",               :default => 1, :null => false
+    t.integer  "to_role_id",               :default => 1
+    t.integer  "dialer_id"
+    t.datetime "dialed_at"
   end
 
   add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"
@@ -410,8 +423,8 @@ ActiveRecord::Schema.define(:version => 20140114211857) do
     t.string   "state"
     t.string   "postal_code"
     t.string   "phone"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "questions", :force => true do |t|
@@ -592,8 +605,8 @@ ActiveRecord::Schema.define(:version => 20140114211857) do
 
   create_table "user_informations", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
     t.text     "notes"
   end
 

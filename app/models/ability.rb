@@ -10,6 +10,10 @@ class Ability
       user.id == u.id || user.associates.find_by_id(u.id)
     end
 
+    can :manage, Association do |a|
+      user.associations.include?(a)
+    end
+
     can :manage, [BloodPressure, UserTreatment, UserAllergy, UserCondition, Weight, Card, Subscription] do |o|
       (user.id == o.user_id) || (can?(:manage, o.user))
     end

@@ -29,7 +29,7 @@ class ContentSerializer < ViewSerializer
     controller.render_to_string(template: 'api/v1/cards/preview',
                                 layout: 'serializable',
                                 formats: :html,
-                                locals: {card: nil, resource: self})
+                                locals: {card: nil, resource: self, current_user: scope})
   end
 
   def raw_preview

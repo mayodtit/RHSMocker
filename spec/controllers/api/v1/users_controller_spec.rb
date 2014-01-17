@@ -35,6 +35,10 @@ describe Api::V1::UsersController do
       get :show
     end
 
+    before do
+      User.stub(find: user)
+    end
+
     it_behaves_like 'action requiring authentication and authorization'
 
     context 'authenticated and authorized', user: :authenticate_and_authorize! do
@@ -43,7 +47,25 @@ describe Api::V1::UsersController do
       it 'returns the user' do
         do_request
         json = JSON.parse(response.body, symbolize_names: true)
-        json[:user].to_json.should == user.as_json(only: [:first_name, :last_name, :email, :work_phone_number], methods: [:full_name, :admin?, :nurse?, :pha?, :care_provider?]).to_json
+        json[:user].to_json.should == user.as_json.to_json
+      end
+    end
+  end
+
+  describe 'GET current' do
+    def do_request
+      get :current
+    end
+
+    it_behaves_like 'action requiring authentication'
+
+    context 'authenticated', user: :authenticate! do
+      it_behaves_like 'success'
+
+      it 'returns the user' do
+        do_request
+        json = JSON.parse(response.body, symbolize_names: true)
+        json[:user].to_json.should == user.as_json.to_json
       end
     end
   end
@@ -88,6 +110,7 @@ describe Api::V1::UsersController do
     end
 
     before do
+      User.stub(find: user)
       user.stub(:update_attributes)
     end
 
@@ -167,6 +190,42 @@ describe Api::V1::UsersController do
             it_behaves_like 'failure'
           end
         end
+      end
+    end
+  end
+
+  describe 'PUT update_current' do
+    def do_request
+      put :update_current, user: attributes_for(:user)
+    end
+
+    before do
+      user.stub(:update_attributes)
+    end
+
+    it_behaves_like 'action requiring authentication'
+
+    context 'authenticated', user: :authenticate! do
+      it 'attempts to update the record' do
+        user.should_receive(:update_attributes).once
+        do_request
+      end
+
+      context 'update_attributes succeeds' do
+        before do
+          user.stub(update_attributes: true)
+        end
+
+        it_behaves_like 'success'
+      end
+
+      context 'update_attributes fails' do
+        before do
+          user.stub(update_attributes: false)
+          user.errors.add(:base, :invalid)
+        end
+
+        it_behaves_like 'failure'
       end
     end
   end

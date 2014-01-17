@@ -26,7 +26,14 @@ RHSMocker::Application.routes.draw do
       end
       resources :custom_cards, only: [:index, :show, :create, :update]
       resources :custom_contents, only: [:index, :show, :create, :update]
-      resources :phone_calls, only: [:index, :show, :update]
+      resources :phone_calls, only: [:index, :show, :update] do
+        post 'connect/origin', on: :member, to: 'phone_calls#connect_origin'
+        post 'connect/destination', on: :member, to: 'phone_calls#connect_destination'
+        post 'connect', on: :member, to: 'phone_calls#connect', on: :collection
+        post 'status/origin', on: :member, to: 'phone_calls#status_origin'
+        post 'status/destination', on: :member, to: 'phone_calls#status_destination'
+        post 'status', on: :member, to: 'phone_calls#status', on: :collection
+      end
       resources :dashboard, only: :index
       resources :diseases, :only => :index, :controller => :conditions
       resources :ethnic_groups, :only => :index
@@ -58,6 +65,9 @@ RHSMocker::Application.routes.draw do
         post :check, on: :collection, to: 'symptom_contents#index'
       end
       resources :treatments, :only => :index
+      get :user, to: 'users#current' # TODO - this should be deprecated in favor of users#current
+      put :user, to: 'users#update_current' # TODO - this should be deprecated in general, client should know the ID
+      put 'user/:id', to: 'users#update' # TODO - deprecated, use users#update
       resources :users, only: [:index, :show, :create, :update] do
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
         resources :associations, :except => [:new, :edit]
@@ -71,6 +81,7 @@ RHSMocker::Application.routes.draw do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
+        get :current, on: :collection
         resources :diseases, except: [:new, :edit], controller: 'user_conditions' do
           resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
@@ -101,11 +112,8 @@ RHSMocker::Application.routes.draw do
       post "signup" => "users#create", :as=>"signup"
       post "login" => "sessions#create", :as=>"login"
       delete "logout" => "sessions#destroy", :as=>"logout"
-      put "user" => "users#update"
-      put "user/:id" => "users#update"
       post "user/update_password" => "users#secure_update", :as=>"update_password"
       post "user/update_email" => "users#secure_update", :as=>"update_email"
-      get 'user/' => 'users#show'
     end
   end
 

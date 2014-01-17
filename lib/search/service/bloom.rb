@@ -55,15 +55,18 @@ class Search::Service::Bloom
       fax: p['fax']
     }
 
+    hcp_code = record['provider_details'].last['healthcare_taxonomy_code']
     {
       :first_name => prettify(record['first_name']),
       :last_name => prettify(record['last_name']),
       :npi_number => record['npi'].to_s,
       :address => business_address,
-      :city => prettify(p['city']),   # this line left in for backwards compatibility
-      :state => prettify(p['state']), # this line left in for backwards compatibility
+      :city => prettify(p['city']), # this line left in for backwards compatibility
+      :state => p['state'],         # this line left in for backwards compatibility
       :expertise => record['credential'],
-      :gender => record['gender']
+      :gender => record['gender'],
+      :healthcare_taxonomy_code => hcp_code,
+      :taxonomy_classification => HCPTaxonomy.find_by_code(hcp_code).try(:classification)
     }
   end
 
