@@ -1,4 +1,5 @@
 class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
+  before_filter :load_available_scheduled_phone_calls!, only: [:available, :available_times]
   before_filter :load_scheduled_phone_call!, only: [:show, :update, :state_event, :destroy]
 
   def index
@@ -9,6 +10,14 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
     end
 
     index_resource filter_authorized_scheduled_phone_calls(results).serializer
+  end
+
+  def available
+    index_resource @available_scheduled_phone_calls
+  end
+
+  def available_times
+    render_success times: @available_scheduled_phone_calls.pluck(:scheduled_at)
   end
 
   def show
@@ -60,6 +69,11 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   end
 
   private
+
+  def load_available_scheduled_phone_calls!
+    @available_scheduled_phone_calls = ScheduledPhoneCall.where(state: :assigned)
+                                                         .where('scheduled_at > ?', Time.now)
+  end
 
   # NOTE: This is super inefficient, but unfortunately our ability file is not
   # optimized for queries. See https://github.com/ryanb/cancan/wiki/Defining-Abilities

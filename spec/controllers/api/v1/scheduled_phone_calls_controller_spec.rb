@@ -66,6 +66,48 @@ describe Api::V1::ScheduledPhoneCallsController do
     end
   end
 
+  describe 'GET available' do
+    def do_request
+      get :available
+    end
+
+    before do
+      ScheduledPhoneCall.stub_chain(:where, :where).and_return([scheduled_phone_call])
+    end
+
+    it_behaves_like 'action requiring authentication'
+    context 'authenticated', user: :authenticate! do
+      it_behaves_like 'success'
+
+      it 'returns available scheduled_phone_calls' do
+        do_request
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:scheduled_phone_calls].to_json).to eq([scheduled_phone_call].as_json.to_json)
+      end
+    end
+  end
+
+  describe 'GET available_times' do
+    def do_request
+      get :available_times
+    end
+
+    before do
+      ScheduledPhoneCall.stub_chain(:where, :where, :pluck).and_return([scheduled_phone_call.scheduled_at])
+    end
+
+    it_behaves_like 'action requiring authentication'
+    context 'authenticated', user: :authenticate! do
+      it_behaves_like 'success'
+
+      it 'returns available scheduled_phone_calls' do
+        do_request
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:times].to_json).to eq([scheduled_phone_call.scheduled_at].as_json.to_json)
+      end
+    end
+  end
+
   describe 'GET show' do
     def do_request
       get :show, auth_token: user.auth_token

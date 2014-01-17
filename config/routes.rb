@@ -55,7 +55,9 @@ RHSMocker::Application.routes.draw do
       end
       resources :remote_events, :only => :create
       resources :reset_password, only: [:create, :show, :update]
-      resources :scheduled_phone_calls, :except => [:new, :edit] do
+      resources :scheduled_phone_calls, except: [:new, :edit] do
+        get :available, on: :collection
+        get :available_times, on: :collection
         put ':state_event', to: 'scheduled_phone_calls#state_event', on: :member
       end
       resources :side_effects, :only => :index
