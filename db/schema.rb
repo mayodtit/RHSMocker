@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140117212444) do
+ActiveRecord::Schema.define(:version => 20140118172750) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -292,13 +292,6 @@ ActiveRecord::Schema.define(:version => 20140117212444) do
     t.string   "title"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-  end
-
-  create_table "message_mayo_vocabularies", :force => true do |t|
-    t.integer  "mayo_vocabulary_id"
-    t.integer  "message_id"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
   end
 
   create_table "message_statuses", :force => true do |t|
