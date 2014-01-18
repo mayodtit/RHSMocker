@@ -7,8 +7,6 @@ class Member < User
   has_many :user_readings, :foreign_key => :user_id
   has_many :contents, :through => :user_readings
   has_many :messages, :foreign_key => :user_id
-  has_many :consult_users, :foreign_key => :user_id
-  has_many :consults, :through => :consult_users
   has_many :message_statuses, :foreign_key => :user_id
 
   has_many :subscriptions, :foreign_key => :user_id

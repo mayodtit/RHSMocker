@@ -2,8 +2,6 @@ class Consult < ActiveRecord::Base
   belongs_to :initiator, class_name: 'Member'
   belongs_to :subject, class_name: 'User'
   belongs_to :symptom
-  has_many :consult_users
-  has_many :users, through: :consult_users
   has_many :messages, inverse_of: :consult
   has_many :phone_calls, through: :messages
   has_many :scheduled_phone_calls, through: :messages
@@ -15,7 +13,6 @@ class Consult < ActiveRecord::Base
 
   validates :initiator, :subject, :state, :title, presence: true
   validates :symptom, presence: true, if: lambda{|c| c.symptom_id.present? }
-  validates :users, length: {:minimum => 1}
 
   accepts_nested_attributes_for :messages
   mount_uploader :image, ConsultImageUploader

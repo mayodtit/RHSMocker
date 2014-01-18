@@ -22,7 +22,6 @@ RHSMocker::Application.routes.draw do
       resources :consults, :only => [:index, :show, :create] do
         resources :messages, :only => [:index, :show, :create]
         resources :phone_calls, only: [:index, :show, :create], controller: 'consult_phone_calls'
-        resources :users, only: :index, controller: 'consult_users'
       end
       resources :custom_cards, only: [:index, :show, :create, :update]
       resources :custom_contents, only: [:index, :show, :create, :update]
