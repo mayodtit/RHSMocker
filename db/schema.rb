@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140118172750) do
+ActiveRecord::Schema.define(:version => 20140118173122) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -279,14 +279,6 @@ ActiveRecord::Schema.define(:version => 20140118172750) do
 
   add_index "invitations", ["token"], :name => "index_invitations_on_token"
 
-  create_table "locations", :force => true do |t|
-    t.integer  "user_id"
-    t.decimal  "latitude",   :precision => 10, :scale => 6
-    t.decimal  "longitude",  :precision => 10, :scale => 6
-    t.datetime "created_at",                                :null => false
-    t.datetime "updated_at",                                :null => false
-  end
-
   create_table "mayo_vocabularies", :force => true do |t|
     t.string   "mcvid"
     t.string   "title"
@@ -310,7 +302,6 @@ ActiveRecord::Schema.define(:version => 20140118172750) do
     t.integer  "user_id"
     t.datetime "created_at",              :null => false
     t.datetime "updated_at",              :null => false
-    t.integer  "location_id"
     t.integer  "consult_id"
     t.integer  "content_id"
     t.integer  "scheduled_phone_call_id"
