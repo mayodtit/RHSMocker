@@ -372,7 +372,8 @@ namespace :seeds do
     end
 
     puts 'Creating PHAs...'
-    %w(clare@pha.getbetter.com abhik@pha.getbetter.com geoff@pha.getbetter.com paul@pha.getbetter.com mark@pha.getbetter.com).each do |email|
+    PHAS = %w(clare@pha.getbetter.com abhik@pha.getbetter.com geoff@pha.getbetter.com paul@pha.getbetter.com mark@pha.getbetter.com)
+    PHAS.each do |email|
       m = Member.find_or_create_by_email!(
         email: email,
         user_agreements_attributes: user_agreements_attributes
@@ -389,7 +390,8 @@ namespace :seeds do
     end
 
     puts 'Creating PHAs leads...'
-    %w(clare@lead.getbetter.com abhik@lead.getbetter.com).each do |email|
+    PHA_LEADS = %w(clare@lead.getbetter.com abhik@lead.getbetter.com)
+    PHA_LEADS.each do |email|
       m = Member.find_or_create_by_email!(
         email: email,
         user_agreements_attributes: user_agreements_attributes
@@ -403,6 +405,26 @@ namespace :seeds do
       )
 
       m.add_role :pha_lead
+    end
+
+    puts 'Creating appointments...'
+    DAY_OFFSET = [-30.days, -20.days, -10.days, 0.days, 10.days, 20.days, 30.days]
+    HOUR_OFFSET = [-2.hours, -1.hours, 0.hours, 1.hours, 2.hours]
+    5.times do
+      s = ScheduledPhoneCall.create!(
+        scheduled_at: Time.now + DAY_OFFSET.sample + HOUR_OFFSET.sample,
+      )
+    end
+
+    15.times do
+      s = ScheduledPhoneCall.new(
+        scheduled_at: Time.now + DAY_OFFSET.sample + HOUR_OFFSET.sample,
+        owner: Member.find_by_email!(PHAS.sample),
+        assignor: Member.find_by_email!(PHA_LEADS.sample),
+        assigned_at: Time.now
+      )
+      s.state = 'assigned'
+      s.save!
     end
   end
 
