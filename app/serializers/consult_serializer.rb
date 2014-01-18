@@ -67,6 +67,10 @@ class ConsultSerializer < ViewSerializer
     }
   end
 
+  def image_url
+    image.url
+  end
+
   private
 
   def include_unread_messages_count?
