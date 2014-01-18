@@ -90,6 +90,19 @@ describe PhoneCall do
         phone_call.should_receive :prep_phone_numbers
         phone_call.valid?
       end
+
+      it 'doesn\'t preps phone numbers that haven\'t changed' do
+        phone_call = PhoneCall.new
+        PhoneNumberUtil.should_not_receive :prep_phone_number_for_db
+        phone_call.valid?
+      end
+
+      it 'doesn\'t preps phone numbers that haven\'t changed' do
+        phone_call = PhoneCall.new
+        phone_call.destination_phone_number = '(408)3913578'
+        PhoneNumberUtil.should_receive(:prep_phone_number_for_db).with('(408)3913578')
+        phone_call.valid?
+      end
     end
 
     describe '#dial_if_outbound' do

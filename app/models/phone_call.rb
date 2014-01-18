@@ -105,8 +105,13 @@ class PhoneCall < ActiveRecord::Base
   end
 
   def prep_phone_numbers
-    self.destination_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.destination_phone_number
-    self.origin_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.origin_phone_number
+    if self.destination_phone_number_changed?
+      self.destination_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.destination_phone_number
+    end
+
+    if self.origin_phone_number_changed?
+      self.origin_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.origin_phone_number
+    end
   end
 
   state_machine :initial => lambda { |object| object.outbound? ? :dialing : :unclaimed } do
