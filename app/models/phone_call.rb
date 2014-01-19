@@ -20,7 +20,7 @@ class PhoneCall < ActiveRecord::Base
                   :ender, :ender_id, :ended_at, :identifier_token,
                   :dialer_id, :dialer, :dialed_at, :state_event
 
-  validates :user, :message, :identifier_token, presence: true
+  validates :user, :identifier_token, presence: true
   validates :identifier_token, uniqueness: true # Used for nurseline and creating unique conference calls
   validates :origin_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
   validates :destination_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: false
