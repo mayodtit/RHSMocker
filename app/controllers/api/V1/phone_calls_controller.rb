@@ -32,17 +32,13 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
   def update
     authorize! :update, @phone_call
 
-    state_event = params.require(:phone_call).require(:state_event)
-    state_event_f = state_event.to_sym
+    update_params = params.require(:phone_call).permit(:state_event)
 
-    if @phone_call.respond_to? state_event_f
-      @phone_call.send(state_event_f, current_user)
-    else
-      render_failure({reason: 'Invalid state event'}, 422)
-      return
+    if %w(claim end).include? update_params[:state_event]
+      update_params[update_params[:state_event].event_actor.to_sym] = current_user
     end
 
-    if @phone_call.valid?
+    if @phone_call.update_attributes update_params
       show_resource @phone_call.as_json(include: [:user, consult: {include: [:subject, :initiator]}])
     else
       render_failure({reason: @phone_call.errors.full_messages.to_sentence}, 422)

@@ -119,34 +119,19 @@ describe Api::V1::PhoneCallsController do
         end
 
         context 'state event is present' do
-          context 'and invalid' do
-            def do_request
-              put :update, auth_token: user.auth_token, id: phone_call.id, phone_call: {state_event: 'explode'}
-            end
+          it 'sets the actor to the current user' do
+            phone_call.should_receive(:update_attributes).with(
+              'state_event' => 'claim',
+              'claimer' => user
+            )
 
-            it_behaves_like 'failure'
+            do_request
           end
 
           context 'and valid' do
-            before do
-              phone_call.stub(:claim)
-            end
-
-            it 'calls the state event' do
-              received = false
-              phone_call.stub(:respond_to?).with(:claim) { true }
-              phone_call.should_receive(:send).at_least(:once) do |f, arg0, arg1|
-                if f == :claim && arg0 == user && arg1 == nil
-                  received = true
-                end
-              end
-
-              do_request
-            end
-
             context 'update is valid' do
               before do
-                phone_call.stub(:valid?) { true }
+                phone_call.stub(:update_attributes) { true }
               end
 
               it_behaves_like 'success'
@@ -154,7 +139,7 @@ describe Api::V1::PhoneCallsController do
 
             context 'update is not valid' do
               before do
-                phone_call.stub(:valid?) { false }
+                phone_call.stub(:update_attributes) { false }
               end
 
               it_behaves_like 'failure'

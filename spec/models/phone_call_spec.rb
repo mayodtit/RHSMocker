@@ -205,15 +205,12 @@ describe PhoneCall do
 
     describe '#claim!' do
       before do
-        phone_call.claim! nurse
+        phone_call.claimer = nurse
+        phone_call.claim!
       end
 
       it 'changes the state to claimed' do
         phone_call.should be_claimed
-      end
-
-      it 'sets the claimer' do
-        phone_call.claimer.should == nurse
       end
 
       it 'sets the claimed time' do
@@ -228,17 +225,14 @@ describe PhoneCall do
     describe '#end!' do
       before do
         phone_call.state = 'claimed'
-        phone_call.end! other_nurse
+        phone_call.ender = nurse
+        phone_call.end!
       end
 
-      it_behaves_like 'can transition from', :end!, :ended, [:connected, :claimed]
+      it_behaves_like 'cannot transition from', :end!, :ended, [:unclaimed]
 
       it 'changes the state to ended' do
         phone_call.should be_ended
-      end
-
-      it 'sets the ender' do
-        phone_call.ender.should == other_nurse
       end
 
       it 'sets the ended time' do
@@ -252,7 +246,7 @@ describe PhoneCall do
         phone_call.state = 'ended'
         phone_call.ender = other_nurse
         phone_call.ended_at = Time.now
-
+        phone_call.claimer = nurse
         phone_call.reclaim!
       end
 
@@ -266,6 +260,10 @@ describe PhoneCall do
 
       it 'unsets the ended time' do
         phone_call.ended_at.should be_nil
+      end
+
+      it 'sets the claimed time' do
+        phone_call.claimed_at.should == Time.now
       end
     end
 
