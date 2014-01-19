@@ -6,7 +6,7 @@ class PhoneCallSummary < ActiveRecord::Base
   attr_accessible :caller, :caller_id, :callee, :callee_id, :body, :message,
                   :message_attributes
 
-  validates :caller, :callee, :message, :body, presence: true
+  validates :caller, :callee, :body, presence: true
 
   accepts_nested_attributes_for :message
 
