@@ -16,9 +16,8 @@ class PhoneCall < ActiveRecord::Base
   has_one :scheduled_phone_call
 
   attr_accessible :user, :user_id, :to_role, :to_role_id, :message, :message_attributes, :origin_phone_number,
-                  :destination_phone_number, :claimer, :claimer_id, :claimed_at,
-                  :ender, :ender_id, :ended_at, :identifier_token,
-                  :dialer_id, :dialer, :dialed_at, :state_event
+                  :destination_phone_number, :claimer, :claimer_id, :ender, :ender_id,
+                  :identifier_token, :dialer_id, :dialer, :state_event
 
   validates :user, :identifier_token, presence: true
   validates :identifier_token, uniqueness: true # Used for nurseline and creating unique conference calls
