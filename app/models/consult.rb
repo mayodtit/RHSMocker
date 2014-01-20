@@ -12,6 +12,14 @@ class Consult < ActiveRecord::Base
                   :symptom_id, :state, :title, :description, :image,
                   :messages_attributes
 
+  # Interestingly enough, Rails uses the attr_accessible list in order to build
+  # the params hash for the resource key when one is not specified.  As a result
+  # in order to make the following keys appear in the resource params, we need
+  # to put them in the attr_accessible list.  In the future, enforce that the
+  # client must specify the resource key (I think).
+  # TODO - remove this after sync up with client
+  attr_accessible :message, :phone_call, :scheduled_phone_call
+
   validates :initiator, :subject, :state, :title, presence: true
   validates :symptom, presence: true, if: lambda{|c| c.symptom_id.present? }
 
