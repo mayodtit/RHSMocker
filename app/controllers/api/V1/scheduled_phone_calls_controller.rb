@@ -1,5 +1,5 @@
 class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
-  before_filter :load_available_scheduled_phone_calls!, only: [:available, :available_times]
+  before_filter :load_available_scheduled_phone_calls!, only: [:available_times]
   before_filter :load_scheduled_phone_call!, only: [:show, :update, :destroy]
 
   def index
@@ -10,10 +10,6 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
     end
 
     index_resource filter_authorized_scheduled_phone_calls(results).serializer
-  end
-
-  def available
-    index_resource @available_scheduled_phone_calls
   end
 
   def available_times
