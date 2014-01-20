@@ -13,7 +13,7 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   end
 
   def available_times
-    render_success times: @available_scheduled_phone_calls.pluck(:scheduled_at)
+    render_success times: @available_scheduled_phone_calls.pluck(:scheduled_at).uniq
   end
 
   def show
