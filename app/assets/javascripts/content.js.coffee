@@ -3,7 +3,7 @@ $ ->
     NativeBridge.call('newConsult', {id: $(@).data("content-id"), message: $(@).data("message")})
 
   $(".new-consult").click ->
-    NativeBridge.call('newConsult', {message: $(@).data("message"), consult_type: $(@).data("consult-type")})
+    NativeBridge.call('newConsult', {message: $(@).data("message"), consult_type: [$(@).data("consult-type")]})
 
   $(".consult-link").click ->
     if not $(@).data("consult-id")
