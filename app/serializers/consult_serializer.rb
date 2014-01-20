@@ -1,22 +1,11 @@
 class ConsultSerializer < ViewSerializer
   self.root = false
 
-  def initialize(object, options={})
-    @include_unread_messages_count = options[:include_unread_messages_count]
-    super(object, options)
-  end
-
-  attributes :id, :title, :description, :initiator_id, :subject_id, :status,
-             :last_message_at, :image_url, :created_at, :updated_at,
-             :unread_messages_count
-
-  def attributes
-    hash = super
-    hash.merge!(unread_messages_count: object.unread_messages_count) if include_unread_messages_count?
-    hash
-  end
+  attributes :id, :title, :description, :initiator_id, :subject_id, :state,
+             :image_url, :created_at, :updated_at, :status
 
   delegate :subject, to: :object
+  alias_method :status, :state
 
   def body
     controller.render_to_string(template: 'api/v1/cards/preview',
@@ -67,9 +56,7 @@ class ConsultSerializer < ViewSerializer
     }
   end
 
-  private
-
-  def include_unread_messages_count?
-    @include_unread_messages_count || false
+  def image_url
+    object.image.url
   end
 end

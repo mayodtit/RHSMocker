@@ -1,55 +1,39 @@
 require 'spec_helper'
 
 describe 'Messages' do
-  let(:consult) { create(:consult, :with_messages) }
-  let(:user) { consult.users.first }
-  let(:message) { consult.messages.first }
+  let(:user) { create(:member) }
+  let(:consult) { create(:consult, initiator: user) }
 
-  before(:each) do
-    user.login
-  end
+  context 'existing record' do
+    let!(:message) { create(:message, consult: consult) }
 
-  describe 'GET /api/v1/consults/:consult_id/messages' do
-    def do_request
-      get "/api/v1/consults/#{consult.id}/messages", auth_token: user.auth_token
-    end
+    describe 'GET /api/v1/consults/:consult_id/messages' do
+      def do_request
+        get "/api/v1/consults/#{consult.id}/messages", auth_token: user.auth_token
+      end
 
-    it 'indexes messages for the consult' do
-      do_request
-      response.should be_success
-      body = JSON.parse(response.body, :symbolize_names => true)
-      ids = body[:messages].map{|m| m[:id]}
-      ids.should include(message.id)
-    end
-  end
-
-  describe 'GET /api/v1/consults/:consult_id/messages/:id' do
-    def do_request
-      get "/api/v1/consults/#{consult.id}/messages/#{message.id}", auth_token: user.auth_token
-    end
-
-    it 'shows the message' do
-      do_request
-      response.should be_success
-      body = JSON.parse(response.body, :symbolize_names => true)
-      body[:message][:id].should == message.id
+      it 'indexes messages for the consult' do
+        do_request
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:messages].to_json).to eq([message].serializer.as_json.to_json)
+      end
     end
   end
 
   describe 'POST /api/v1/consults/:consult_id/messages' do
     def do_request(params={})
-      post "/api/v1/consults/#{consult.id}/messages", {auth_token: user.auth_token}.merge!(:message => params)
+      post "/api/v1/consults/#{consult.id}/messages", params.merge!(auth_token: user.auth_token)
     end
 
-    let(:message_params) { {:text => 'test message'} }
+    let(:message_params) { {message: {text: 'test message'}} }
 
     it 'create a new message for the consult' do
-      lambda{ do_request(message_params) }.should change(Message, :count).by(2) #TODO - creates 2 messages including auto-response
-      response.should be_success
-      body = JSON.parse(response.body, :symbolize_names => true)
-      new_message = Message.find(body[:message][:id])
-      consult.reload.messages.should include(message, new_message)
-      user.reload.messages.should include(new_message)
+      expect{ do_request(message_params) }.to change(Message, :count).by(2) # TODO - creates 2 messages including auto-response
+      expect(response).to be_success
+      body = JSON.parse(response.body, symbolize_names: true)
+      message = Message.find(body[:message][:id])
+      expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
     end
   end
 end

@@ -5,104 +5,63 @@ resource "Consults" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  let(:nurse) { create(:nurse) }
   let!(:user) { create(:member) }
   let(:auth_token) { user.auth_token }
-
-  before(:each) do
-    user.login
-  end
 
   parameter :auth_token, "Performing user's auth_token"
   required_parameters :auth_token
 
-  describe 'index and show' do
-    let!(:consult) { create(:consult, :with_messages, :users => [user]) }
+  describe 'existing record' do
+    let!(:consult) { create(:consult, :with_messages, initiator: user) }
+    let(:id) { consult.id }
 
     get '/api/v1/consults' do
       example_request "[GET] Get all consults for a given user" do
         explanation "Returns an array of consults"
-        status.should == 200
-        body = JSON.parse(response_body, :symbolize_names => true)[:consults]
-        body.should be_a Array
-        body.should_not be_empty
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:consults].to_json).to eq([consult].serializer.as_json.to_json)
       end
     end
 
     get '/api/v1/consults/:id' do
-      let(:id) { consult.id }
-
       example_request "[GET] Get a consult for a given user" do
-        explanation "Returns a single consult"
-        status.should == 200
-        body = JSON.parse(response_body, :symbolize_names => true)[:consult]
-        body.should be_a Hash
-        body[:id].should == consult.id
+        explanation "Returns the given consult"
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:consult].to_json).to eq(consult.serializer.as_json.to_json)
       end
     end
   end
 
   post '/api/v1/consults' do
-    let!(:content) { create(:content) }
-    let!(:mayo_vocabulary) { create(:mayo_vocabulary) }
-    let(:consult) { attributes_for(:consult, :users => nil).keep_if{|k,v| v.present?} }
+    parameter :subject_id, 'ID of User that is the subject of consult'
+    parameter :title, 'Title of the consult'
+    parameter :description, 'Description of the consult'
+    parameter :image, 'Base64-encoded image for the consult'
+    parameter :message, 'Optional message to send with consult'
+    parameter :phone_call, 'Optional phone_call to send with consult'
+    parameter :scheduled_phone_call, 'Optional scheduled_phone_call to send with consult'
+    required_parameters :title
+    scope_parameters :consult, [:subject_id, :title, :description, :image,
+                                :message, :phone_call, :scheduled_phone_call]
 
-    parameter :consult, 'Hash of consult parameters'
+    let(:subject_id) { user.id }
+    let(:title) { 'title' }
+    let(:description) { 'description' }
+    let(:image) { base64_test_image }
+    let(:message) { {text: 'message text'}}
+    let(:phone_call) { {origin_phone_number: '5555555555',
+                        destination_phone_number: '1234567890' } }
+    let(:scheduled_phone_call) { {scheduled_at: Time.now + 1.day} }
+    let(:raw_post) { params.to_json }
 
-    context 'with a message' do
-      let(:message) { attributes_for(:message, :content_id => content.id,
-                                               :new_location => attributes_for(:location),
-                                               :new_keyword_ids => [mayo_vocabulary.id]) }
-      let(:image) { base64_test_image }
-
-      parameter :message, 'Hash of message parameters'
-      parameter :image, 'Base64 encoded image'
-
-      scope_parameters :consult, [:message, :image]
-
-      let(:raw_post) { params.to_json }
-
-      example_request "[POST] Create a Consult with a Message" do
-        explanation "Creates a new Consult for a given user"
-        status.should == 200
-        body = JSON.parse(response_body, :symbolize_names => true)[:consult]
-        body.should be_a Hash
-        body[:image_url].should_not be_nil
-      end
-    end
-
-    context 'with a phone_call' do
-      let(:phone_call) { attributes_for(:phone_call, to_role: nurse.roles.first.name) }
-
-      parameter :phone_call, 'Hash of phone_call parameters'
-
-      scope_parameters :consult, [:phone_call]
-
-      let(:raw_post) { params.to_json }
-
-      example_request "[POST] Create a Consult with a PhoneCall" do
-        explanation "Creates a new Consult for a given user"
-        status.should == 200
-        body = JSON.parse(response_body, :symbolize_names => true)[:consult]
-        body.should be_a Hash
-      end
-    end
-
-    context 'with a scheduled_phone_call' do
-      let(:scheduled_phone_call) { attributes_for(:scheduled_phone_call) }
-
-      parameter :phone_call, 'Hash of scheduled_phone_call parameters'
-
-      scope_parameters :consult, [:phone_call]
-
-      let(:raw_post) { params.to_json }
-
-      example_request "[POST] Create a Consult with a ScheduledPhoneCall" do
-        explanation "Creates a new Consult for a given user"
-        status.should == 200
-        body = JSON.parse(response_body, :symbolize_names => true)[:consult]
-        body.should be_a Hash
-      end
+    example_request '[POST] Create a Consult' do
+      explanation 'Creates a new Consult'
+      expect(status).to eq(200)
+      body = JSON.parse(response_body, symbolize_names: true)
+      consult = Consult.find(body[:consult][:id])
+      expect(body[:consult].to_json).to eq(consult.serializer.as_json.to_json)
     end
   end
 end

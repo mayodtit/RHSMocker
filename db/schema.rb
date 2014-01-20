@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140115181502) do
+ActiveRecord::Schema.define(:version => 20140118182412) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -109,18 +109,8 @@ ActiveRecord::Schema.define(:version => 20140115181502) do
     t.datetime "disabled_at"
   end
 
-  create_table "consult_users", :force => true do |t|
-    t.string   "role"
-    t.integer  "consult_id"
-    t.integer  "user_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
   create_table "consults", :force => true do |t|
-    t.string   "status"
-    t.string   "priority"
-    t.boolean  "checked"
+    t.string   "state"
     t.datetime "created_at",                  :null => false
     t.datetime "updated_at",                  :null => false
     t.integer  "subject_id",   :default => 0, :null => false
@@ -281,26 +271,11 @@ ActiveRecord::Schema.define(:version => 20140115181502) do
 
   add_index "invitations", ["token"], :name => "index_invitations_on_token"
 
-  create_table "locations", :force => true do |t|
-    t.integer  "user_id"
-    t.decimal  "latitude",   :precision => 10, :scale => 6
-    t.decimal  "longitude",  :precision => 10, :scale => 6
-    t.datetime "created_at",                                :null => false
-    t.datetime "updated_at",                                :null => false
-  end
-
   create_table "mayo_vocabularies", :force => true do |t|
     t.string   "mcvid"
     t.string   "title"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-  end
-
-  create_table "message_mayo_vocabularies", :force => true do |t|
-    t.integer  "mayo_vocabulary_id"
-    t.integer  "message_id"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
   end
 
   create_table "message_statuses", :force => true do |t|
@@ -319,7 +294,6 @@ ActiveRecord::Schema.define(:version => 20140115181502) do
     t.integer  "user_id"
     t.datetime "created_at",              :null => false
     t.datetime "updated_at",              :null => false
-    t.integer  "location_id"
     t.integer  "consult_id"
     t.integer  "content_id"
     t.integer  "scheduled_phone_call_id"

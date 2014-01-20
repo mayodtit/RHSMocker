@@ -3,8 +3,6 @@ class MayoVocabulary < ActiveRecord::Base
 
   has_many :content_mayo_vocabularies
   has_many :contents, :through => :content_mayo_vocabularies
-  has_many :message_mayo_vocabularies
-  has_many :messages, :through => :message_mayo_vocabularies
 
   attr_accessible :mcvid, :title
 

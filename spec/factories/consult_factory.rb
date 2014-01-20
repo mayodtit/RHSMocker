@@ -1,13 +1,8 @@
 FactoryGirl.define do
-  factory :consult, aliases: [:encounter] do
-    sequence(:title) {|n| "Consult #{n}"}
+  factory :consult do
     association :initiator, factory: :member
     association :subject, factory: :user
-    users {|e| [e.initiator]}
-    status { :open }
-    priority { ['high', 'medium', 'low'].sample }
-    checked false
-    description 'description'
+    sequence(:title) {|n| "Consult #{n}"}
 
     trait :with_messages do
       messages {|m| [m.association(:message)]}

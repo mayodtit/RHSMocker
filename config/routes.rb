@@ -20,9 +20,7 @@ RHSMocker::Application.routes.draw do
       resources :cards, :only => [:show, :update]
       resources :conditions, :only => :index
       resources :consults, :only => [:index, :show, :create] do
-        resources :messages, :only => [:index, :show, :create]
-        resources :phone_calls, only: [:index, :show, :create], controller: 'consult_phone_calls'
-        resources :users, only: :index, controller: 'consult_users'
+        resources :messages, only: [:index, :create]
       end
       resources :custom_cards, only: [:index, :show, :create, :update]
       resources :custom_contents, only: [:index, :show, :create, :update]
@@ -40,11 +38,6 @@ RHSMocker::Application.routes.draw do
       get 'factors/:symptom_id', to: 'factor_groups#index' # TODO - deprecated!
       resources :locations, :only => :create
       resources :members, only: [:index, :show, :update]
-      resources :messages, :only => :show do
-        post :mark_read, :on => :collection
-        post :save, :on => :collection
-        post :dismiss, :on => :collection
-      end
       resources :offerings, :only => :index
       post :password_resets, to: 'reset_password#create' # TODO - deprecated!
       resources :phone_call_summaries, :only => :show
@@ -133,7 +126,6 @@ RHSMocker::Application.routes.draw do
     put 'reset_password', :to => 'users#reset_password_update', :on => :collection, :as => 'reset_password_update'
   end
 
-  get "/messages" => "messages#index", :as=>"messages_index"
   get "/logout" => "sessions#destroy", :as=>"logout"
   get '/login' => "sessions#new", :as=>"login"
   resources :sessions
