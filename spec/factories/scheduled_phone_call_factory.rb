@@ -4,6 +4,13 @@ FactoryGirl.define do
 
     trait :assigned do
       state 'assigned'
+      association :assignor, factory: :pha_lead
+      association :owner, factory: :pha
+      assigned_at Time.now
+    end
+
+    trait :w_message do
+      association :message, factory: :message
     end
   end
 end
