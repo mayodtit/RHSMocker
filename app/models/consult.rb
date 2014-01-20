@@ -3,6 +3,7 @@ class Consult < ActiveRecord::Base
   belongs_to :subject, class_name: 'User'
   belongs_to :symptom
   has_many :messages, inverse_of: :consult
+  has_many :users, through: :messages
   has_many :phone_calls, through: :messages
   has_many :scheduled_phone_calls, through: :messages
   has_many :cards, as: :resource, dependent: :destroy

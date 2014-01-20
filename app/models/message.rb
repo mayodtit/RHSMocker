@@ -12,7 +12,8 @@ class Message < ActiveRecord::Base
                   :scheduled_phone_call, :scheduled_phone_call_id,
                   :phone_call_summary, :phone_call_summary_id, :text, :image,
                   :phone_call_attributes, :scheduled_phone_call_attributes,
-                  :phone_call_summary_attributes
+                  :phone_call_summary_attributes,
+                  :created_at # for robot auto-response message
 
   validates :user, :consult, presence: true
   validates :content, presence: true, if: lambda{|m| m.content_id}

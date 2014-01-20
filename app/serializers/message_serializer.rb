@@ -13,16 +13,16 @@ class MessageSerializer < ActiveModel::Serializer
   alias_method :content_type_display, :content_type
 
   def previewText
-    text.split(' ').slice(0, 21).join(' ')+"&hellip;" if text.present?
+    object.text.split(' ').slice(0, 21).join(' ')+"&hellip;" if text.present?
   end
   alias_method :preview, :previewText
 
   def image_url
-    image.url
+    object.image.url
   end
 
   def type
-    if phone_call || scheduled_phone_call || phone_call_summary
+    if object.phone_call || object.scheduled_phone_call || object.phone_call_summary
       :system
     else
       :user
