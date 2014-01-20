@@ -3,23 +3,6 @@ require 'spec_helper'
 describe 'ScheduledPhoneCall' do
   let(:user) { create(:member) }
 
-  describe 'GET /api/v1/scheduled_phone_calls/available' do
-    def do_request
-      get '/api/v1/scheduled_phone_calls/available', auth_token: user.auth_token
-    end
-
-    let!(:available) { create(:scheduled_phone_call, :assigned) }
-    let!(:unavailable_state) { create(:scheduled_phone_call) }
-    let!(:unavailable_time) { create(:scheduled_phone_call, :assigned, scheduled_at: Time.now - 1.minute) }
-
-    it 'indexes available scheduled_phone_calls' do
-      do_request
-      expect(response).to be_success
-      body = JSON.parse(response.body, symbolize_names: true)
-      expect(body[:scheduled_phone_calls].to_json).to eq([available].as_json.to_json)
-    end
-  end
-
   describe 'GET /api/v1/scheduled_phone_calls/available_times' do
     def do_request
       get '/api/v1/scheduled_phone_calls/available_times', auth_token: user.auth_token

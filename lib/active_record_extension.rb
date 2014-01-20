@@ -1,6 +1,22 @@
 module ActiveRecordExtension
   extend ActiveSupport::Concern
 
+  def validate_actor_and_timestamp_exist(event)
+    event_s = event.to_s
+    actor = event_s.event_actor
+    actor_id = event_s.event_actor_id
+    state = event_s.event_state
+    timestamp = event_s.event_timestamp
+
+    if self.respond_to?(actor_id) && self.send(actor_id).nil?
+      errors.add(actor_id, "must be present when #{self.class.name} is #{state}")
+    end
+
+    if self.respond_to?(timestamp) && self.send(timestamp).nil?
+      errors.add(:timestamp_id, "must be present when #{self.class.name} is #{state}")
+    end
+  end
+
   module ClassMethods
     def upsert_attributes(key_params, value_params={})
       where(key_params).first_or_initialize.tap{|o| o.update_attributes(value_params)}

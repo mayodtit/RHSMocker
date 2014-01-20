@@ -18,16 +18,14 @@ class ScheduledPhoneCall < ActiveRecord::Base
 
   attr_accessible :user, :user_id, :owner, :owner_id, :phone_call, :phone_call_id,
                   :message, :scheduled_at, :message_attributes,
-                  :assignor_id, :assignor, :assigned_at,
-                  :booker_id, :booker, :booked_at,
-                  :starter_id, :starter, :started_at,
-                  :canceler_id, :canceler, :canceled_at,
-                  :ender_id, :ender, :ended_at,
-                  :scheduled_duration_s
+                  :assignor_id, :assignor, :booker_id, :booker,
+                  :starter_id, :starter, :canceler_id, :canceler,
+                  :ender_id, :ender, :scheduled_duration_s, :state_event
 
   accepts_nested_attributes_for :message
 
   validates :scheduled_at, presence: true
+  validate :attrs_for_states
 
   def user_confirmation_calendar_event
     # TODO: Copy needs to be updated
@@ -96,9 +94,11 @@ Prep:
     UserMailer.scheduled_phone_call_cp_confirmation_email(self).deliver
   end
 
+  private
+
   state_machine initial: :unassigned do
     event :assign do
-      transition :unassigned => :assigned
+      transition [:unassigned, :assigned] => :assigned
     end
 
     event :book do
@@ -117,57 +117,71 @@ Prep:
       transition any - [:ended, :canceled] => :ended
     end
 
-    before_transition :unassigned => :assigned do |scheduled_phone_call, transition|
-      scheduled_phone_call.assignor = transition.args.first
-      scheduled_phone_call.owner = transition.args.second || transition.args.first
+    before_transition [:unassigned, :assigned] => :assigned do |scheduled_phone_call|
       scheduled_phone_call.assigned_at = Time.now
     end
 
-    after_transition :unassigned => :assigned do |scheduled_phone_call, transition|
+    after_transition [:unassigned, :assigned] => :assigned do |scheduled_phone_call|
+      # TODO: Email the old owner that they were reassigned
       scheduled_phone_call.notify_owner_of_assigned_call
     end
 
-    before_transition :assigned => :booked do |scheduled_phone_call, transition|
-      scheduled_phone_call.booker = transition.args.first
-      scheduled_phone_call.user = transition.args.second || transition.args.first
+    before_transition :assigned => :booked do |scheduled_phone_call|
       scheduled_phone_call.booked_at = Time.now
-
-      # NOTE: Take consult as an argument once scheduled calls have multiple uses.
-      unless scheduled_phone_call.message
-        consult = Consult.create!(
-          title: DEFAULT_CONSULT_TITLE,
-          initiator: scheduled_phone_call.user,
-          subject: scheduled_phone_call.user
-        )
-
-        message = Message.create!(
-          user: scheduled_phone_call.owner || Member.robot,
-          consult: consult,
-          scheduled_phone_call: scheduled_phone_call
-        )
-      end
     end
 
-    after_transition :assigned => :booked do |scheduled_phone_call, transition|
+    after_transition :assigned => :booked do |scheduled_phone_call|
       scheduled_phone_call.notify_user_confirming_call
       scheduled_phone_call.notify_owner_confirming_call
     end
 
-    before_transition any => :started do |scheduled_phone_call, transition|
-      scheduled_phone_call.starter = transition.args.first
-      scheduled_phone_call.owner = transition.args.first
+    before_transition any => :started do |scheduled_phone_call|
       scheduled_phone_call.started_at = Time.now
     end
 
-    before_transition any => :canceled do |scheduled_phone_call, transition|
-      scheduled_phone_call.canceler = transition.args.first
+    before_transition any => :canceled do |scheduled_phone_call|
       scheduled_phone_call.canceled_at = Time.now
       scheduled_phone_call.disabled_at = Time.now
     end
 
-    before_transition any => :ended do |scheduled_phone_call, transition|
-      scheduled_phone_call.ender = transition.args.first
+    before_transition any => :ended do |scheduled_phone_call|
       scheduled_phone_call.ended_at = Time.now
+    end
+  end
+
+  # TODO: Write more comprehensive tests
+  def attrs_for_states
+    state_sym = state.to_sym
+
+    case state_sym
+      when :assigned
+        validate_actor_and_timestamp_exist :assign
+      when :booked
+        validate_actor_and_timestamp_exist :book
+      when :started
+        validate_actor_and_timestamp_exist :start
+      when :canceled
+        validate_actor_and_timestamp_exist :cancel
+        if disabled_at.nil?
+          errors.add(:user_id, "must be present when #{self.class.name} is canceled")
+        end
+      when :ended
+        validate_actor_and_timestamp_exist :end
+    end
+
+    if state_sym != :unassigned
+      if owner_id.nil?
+        errors.add(:owner_id, "must be present when #{self.class.name} is #{state}")
+      end
+    end
+
+    unless %i(unassigned assigned).include? state_sym
+      if user_id.nil?
+        errors.add(:user_id, "must be present when #{self.class.name} is #{state}")
+      end
+      if message.nil?
+        errors.add(:message, "must be present when #{self.class.name} is #{state}")
+      end
     end
   end
 end

@@ -66,27 +66,6 @@ describe Api::V1::ScheduledPhoneCallsController do
     end
   end
 
-  describe 'GET available' do
-    def do_request
-      get :available
-    end
-
-    before do
-      ScheduledPhoneCall.stub_chain(:where, :where).and_return([scheduled_phone_call])
-    end
-
-    it_behaves_like 'action requiring authentication'
-    context 'authenticated', user: :authenticate! do
-      it_behaves_like 'success'
-
-      it 'returns available scheduled_phone_calls' do
-        do_request
-        body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:scheduled_phone_calls].to_json).to eq([scheduled_phone_call].as_json.to_json)
-      end
-    end
-  end
-
   describe 'GET available_times' do
     def do_request
       get :available_times
@@ -150,6 +129,7 @@ describe Api::V1::ScheduledPhoneCallsController do
         Timecop.freeze
         json = scheduled_phone_call.as_json
         json[:owner_id] = 1
+        json.delete('user_id')
 
         params = {}
         params['owner_id'] = '1'
@@ -200,6 +180,15 @@ describe Api::V1::ScheduledPhoneCallsController do
         do_request
       end
 
+      it 'sets the event actor as the current user' do
+        scheduled_phone_call.should_receive(:update_attributes).with(
+          'owner_id' => pha.id.to_s,
+          'state_event' => 'assign',
+          'assignor' => user
+        )
+        put :update, scheduled_phone_call: {state_event: 'assign', owner_id: pha.id}
+      end
+
       context 'update_attributes succeeds' do
         before do
           scheduled_phone_call.stub(update_attributes: true)
@@ -215,97 +204,6 @@ describe Api::V1::ScheduledPhoneCallsController do
         end
 
         it_behaves_like 'failure'
-      end
-    end
-  end
-
-  describe 'PUT state_event' do
-    def do_request(state_event = 'cancel')
-      put :state_event, id: scheduled_phone_call.id, state_event: state_event
-    end
-
-    before do
-      ScheduledPhoneCall.stub(:find) { scheduled_phone_call }
-    end
-
-    it_behaves_like 'action requiring authentication and authorization'
-
-    context 'authenticated and authorized', user: :authenticate_and_authorize! do
-      context 'scheduled phone call is not found' do
-        before do
-          ScheduledPhoneCall.stub(:find) { raise(ActiveRecord::RecordNotFound) }
-        end
-
-        it_behaves_like '404'
-      end
-
-      context 'scheduled phone call is found' do
-        context 'and doesn\'t support state event' do
-          def do_request
-            put :state_event, id: scheduled_phone_call.id, state_event: 'fake'
-          end
-
-          it_behaves_like 'failure'
-
-          it 'returns 422' do
-            do_request
-            response.status.should == 422
-          end
-        end
-
-        context 'supports state event' do
-          before do
-            scheduled_phone_call.stub(:cancel).with(user, nil)
-          end
-
-          it 'calls the state event with the current user' do
-            scheduled_phone_call.should_receive(:cancel).with(user, nil)
-            do_request
-          end
-
-          context 'state event requires a subject (owner or user)' do
-            def do_request
-              put :state_event, id: scheduled_phone_call.id, state_event: 'assign', scheduled_phone_call: { owner_id: 10 }
-            end
-
-            context 'subject is not found' do
-              before do
-                Member.stub(:find).with('10') { raise(ActiveRecord::RecordNotFound) }
-              end
-
-              it_behaves_like '404'
-            end
-
-            context 'subject is found' do
-              before do
-                Member.stub(:find).with('10') { pha }
-              end
-
-              it 'calls the state event with the current user and subject' do
-                scheduled_phone_call.should_receive(:assign).with(user, pha)
-                do_request
-              end
-            end
-          end
-
-          context 'and succeeds' do
-            it_behaves_like 'success'
-
-            it 'renders the scheduled phone call' do
-              do_request
-              json = JSON.parse(response.body)
-              json['scheduled_phone_call'].to_json.should == scheduled_phone_call.serializer.as_json.to_json
-            end
-          end
-
-          context 'and fails' do
-            before do
-              scheduled_phone_call.stub(:valid?) { false }
-            end
-
-            it_behaves_like 'failure'
-          end
-        end
       end
     end
   end
