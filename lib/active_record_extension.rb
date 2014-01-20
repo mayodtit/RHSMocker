@@ -9,11 +9,11 @@ module ActiveRecordExtension
     timestamp = event_s.event_timestamp
 
     if self.send(actor_id).nil?
-      errors.add(actor_id, "must be set when #{self.class.name} is #{state}")
+      errors.add(actor_id, "must be present when #{self.class.name} is #{state}")
     end
 
     if self.send(timestamp).nil?
-      errors.add(:timestamp_id, "must be set when #{self.class.name} is #{state}")
+      errors.add(:timestamp_id, "must be present when #{self.class.name} is #{state}")
     end
   end
 

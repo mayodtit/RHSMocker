@@ -1,6 +1,6 @@
 class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   before_filter :load_available_scheduled_phone_calls!, only: [:available, :available_times]
-  before_filter :load_scheduled_phone_call!, only: [:show, :update, :state_event, :destroy]
+  before_filter :load_scheduled_phone_call!, only: [:show, :update, :destroy]
 
   def index
     results = ScheduledPhoneCall.where params.permit(:state, :user_id, :owner_id)
@@ -37,32 +37,6 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
     update_resource @scheduled_phone_call, update_params
   end
 
-  # SECURITY NOTE: A member can schedule a phone call for another member through
-  # the API.
-  def state_event
-    authorize! :update, @scheduled_phone_call
-    state_event = params[:state_event]
-    state_event_f = state_event.to_sym
-
-    if @scheduled_phone_call.respond_to? state_event_f
-      if params[:scheduled_phone_call]
-        subject_id = params[:scheduled_phone_call][:owner_id] || params[:scheduled_phone_call][:user_id]
-        subject = subject_id ? Member.find(subject_id) : nil
-      end
-
-      @scheduled_phone_call.send(state_event_f, current_user, subject)
-    else
-      render_failure({reason: 'Invalid state event'}, 422)
-      return
-    end
-
-    if @scheduled_phone_call.valid?
-      show_resource @scheduled_phone_call.serializer
-    else
-      render_failure({reason: @scheduled_phone_call.errors.full_messages.to_sentence}, 422)
-    end
-  end
-
   def destroy
     authorize! :delete, @scheduled_phone_call
     destroy_resource @scheduled_phone_call
@@ -87,12 +61,17 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   end
 
   def create_or_update_params
-    permitted_params = params.require(:scheduled_phone_call).permit(:owner_id, :scheduled_at)
+    permitted_params = params.require(:scheduled_phone_call).permit(:owner_id, :user_id, :scheduled_at, :state_event)
 
-    if permitted_params[:owner_id]
-      permitted_params[:state] = 'assigned'
-      permitted_params[:assignor_id] = current_user.id
-      permitted_params[:assigned_at] = Time.now
+    if permitted_params[:state_event]
+      permitted_params[permitted_params[:state_event].event_actor] = current_user
+    else
+      # If we want to create and assign at the same time
+      if permitted_params[:owner_id]
+        permitted_params[:state] = 'assigned'
+        permitted_params[:assignor_id] = current_user.id
+        permitted_params[:assigned_at] = Time.now
+      end
     end
 
     permitted_params

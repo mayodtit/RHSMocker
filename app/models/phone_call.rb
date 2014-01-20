@@ -160,6 +160,7 @@ class PhoneCall < ActiveRecord::Base
     end
   end
 
+  # TODO: Write more comprehensive tests
   def attrs_for_states
     state_sym = state.to_sym
 

@@ -33,6 +33,7 @@ resource "ScheduledPhoneCalls" do
   end
 
   context 'as a PHA' do
+    let!(:member) { create(:member) }
     let!(:user) { create(:pha_lead) }
     let!(:pha) { create(:pha) }
     let(:auth_token) { user.auth_token }
@@ -73,7 +74,14 @@ resource "ScheduledPhoneCalls" do
       end
 
       put '/api/v1/scheduled_phone_calls/:id' do
+        let!(:scheduled_phone_call) { create(:scheduled_phone_call, :assigned, :w_message) }
+
         parameter :scheduled_at, 'Time for when the call is scheduled'
+        parameter :state_event, 'Event to transition phone call state through'
+        parameter :user_id, 'The member who booked this call'
+
+        let(:state_event) { 'book' }
+        let(:user_id) { member.id }
         let(:scheduled_at) { Time.now + 1.day }
         let(:raw_post) { params.to_json }
 
@@ -83,25 +91,6 @@ resource "ScheduledPhoneCalls" do
           body = JSON.parse(response_body, :symbolize_names => true)
           body[:scheduled_phone_call][:id].should == scheduled_phone_call.id
           body[:scheduled_phone_call][:scheduled_at].to_json.should == scheduled_at.utc.to_json
-        end
-      end
-
-      put '/api/v1/scheduled_phone_calls/:id/:state_event' do
-        parameter :state_event, 'Time for when the call is scheduled'
-        parameter :owner_id, 'If event is "assigned", specifies the HCP it\'s assigned to (required).'
-        parameter :user_id, 'If the event is "booked", specifies the Member it\'s booked for(required).'
-
-        let(:state_event) { 'assign' }
-        let(:owner_id) { pha.id }
-        let(:raw_post) { params.to_json }
-
-        example_request "[PUT] Runs a state event on a scheduled_phone_call" do
-          explanation "Transitions a scheduled_phone_call's state via a state event. Events \"assigned\" and \"booked\" require additional parameters."
-          status.should == 200
-          body = JSON.parse(response_body, :symbolize_names => true)
-          body[:scheduled_phone_call][:id].should == scheduled_phone_call.id
-          body[:scheduled_phone_call][:state].should == 'assigned'
-          body[:scheduled_phone_call][:owner][:id] == pha.id
         end
       end
 
