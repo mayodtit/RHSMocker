@@ -2,6 +2,7 @@ class MessageSerializer < ActiveModel::Serializer
   self.root = false
 
   attributes :id, :text, :created_at, :consult_id, :title, :image_url, :type
+  has_one :user
 
   def title
     'Conversation with a Health Assistant'

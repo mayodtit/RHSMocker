@@ -2,9 +2,10 @@ class ConsultSerializer < ViewSerializer
   self.root = false
 
   attributes :id, :title, :description, :initiator_id, :subject_id, :state,
-             :image_url, :created_at, :updated_at
+             :image_url, :created_at, :updated_at, :status
 
   delegate :subject, to: :object
+  alias_method :status, :state
 
   def body
     controller.render_to_string(template: 'api/v1/cards/preview',
@@ -57,11 +58,5 @@ class ConsultSerializer < ViewSerializer
 
   def image_url
     object.image.url
-  end
-
-  private
-
-  def include_unread_messages_count?
-    @include_unread_messages_count || false
   end
 end
