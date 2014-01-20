@@ -107,14 +107,17 @@ describe 'Consults' do
     end
 
     context 'with a scheduled_phone_call' do
-      let(:scheduled_phone_call_params) { {scheduled_at: Time.now + 1.day} }
+      let!(:scheduled_phone_call) { create(:scheduled_phone_call, :assigned) }
+      let(:scheduled_phone_call_params) { {scheduled_at: scheduled_phone_call.scheduled_at} }
       let(:params) { {consult: {title: title, scheduled_phone_call: scheduled_phone_call_params}} }
 
       it_behaves_like 'creates a consult'
       it_behaves_like 'creates a message'
 
-      it 'creates a scheduled_phone_call' do
-        expect{ do_request(params) }.to change(ScheduledPhoneCall, :count).by(1)
+      it 'books a scheduled_phone_call' do
+        expect(scheduled_phone_call.state?(:assigned)).to be_true
+        do_request(params)
+        expect(scheduled_phone_call.reload.state?(:booked)).to be_true
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
         consult = Consult.find(body[:consult][:id])

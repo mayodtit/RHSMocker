@@ -46,6 +46,7 @@ resource "Consults" do
     scope_parameters :consult, [:subject_id, :title, :description, :image,
                                 :message, :phone_call, :scheduled_phone_call]
 
+    let!(:scheduled) { create(:scheduled_phone_call, :assigned) }
     let(:subject_id) { user.id }
     let(:title) { 'title' }
     let(:description) { 'description' }
@@ -53,7 +54,7 @@ resource "Consults" do
     let(:message) { {text: 'message text'}}
     let(:phone_call) { {origin_phone_number: '5555555555',
                         destination_phone_number: '1234567890' } }
-    let(:scheduled_phone_call) { {scheduled_at: Time.now + 1.day} }
+    let(:scheduled_phone_call) { {scheduled_at: scheduled.scheduled_at} }
     let(:raw_post) { params.to_json }
 
     example_request '[POST] Create a Consult' do

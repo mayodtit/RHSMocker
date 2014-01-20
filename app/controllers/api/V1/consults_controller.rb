@@ -53,7 +53,20 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
 
   def scheduled_phone_call_attributes
     attributes = params.require(:consult).permit(scheduled_phone_call: :scheduled_at)
-    attributes.any? ? {scheduled_phone_call_attributes: attributes[:scheduled_phone_call].merge!(user: @user)} : nil
+    if attributes.any?
+      scheduled_phone_call = ScheduledPhoneCall.where(state: :assigned)
+                                               .where(scheduled_at: attributes[:scheduled_phone_call][:scheduled_at])
+                                               .first!
+      scheduled_phone_call.assign_attributes(state_event: :book,
+                                             user_id: @user.id,
+                                             booker_id: @user.id)
+      {
+        user: @user,
+        scheduled_phone_call: scheduled_phone_call
+      }
+    else
+      nil
+    end
   end
 
   def messages_attributes
