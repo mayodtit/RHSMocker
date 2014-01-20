@@ -130,8 +130,7 @@ describe ScheduledPhoneCall do
         Consult.should_receive(:create!).with(
           title: ScheduledPhoneCall::DEFAULT_CONSULT_TITLE,
           initiator: member,
-          subject: member,
-          add_user: member
+          subject: member
         ) { consult }
 
         Message.should_receive(:create!).with(

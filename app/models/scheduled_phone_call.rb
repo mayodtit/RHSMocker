@@ -137,8 +137,7 @@ Prep:
         consult = Consult.create!(
           title: DEFAULT_CONSULT_TITLE,
           initiator: scheduled_phone_call.user,
-          subject: scheduled_phone_call.user,
-          add_user: scheduled_phone_call.user
+          subject: scheduled_phone_call.user
         )
 
         message = Message.create!(
