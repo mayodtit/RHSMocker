@@ -1,20 +1,8 @@
 class ConsultSerializer < ViewSerializer
   self.root = false
 
-  def initialize(object, options={})
-    @include_unread_messages_count = options[:include_unread_messages_count]
-    super(object, options)
-  end
-
-  attributes :id, :title, :description, :initiator_id, :subject_id, :status,
-             :last_message_at, :image_url, :created_at, :updated_at,
-             :unread_messages_count
-
-  def attributes
-    hash = super
-    hash.merge!(unread_messages_count: object.unread_messages_count) if include_unread_messages_count?
-    hash
-  end
+  attributes :id, :title, :description, :initiator_id, :subject_id, :state,
+             :image_url, :created_at, :updated_at
 
   delegate :subject, to: :object
 
@@ -68,7 +56,7 @@ class ConsultSerializer < ViewSerializer
   end
 
   def image_url
-    image.url
+    object.image.url
   end
 
   private

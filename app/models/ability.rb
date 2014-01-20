@@ -19,7 +19,7 @@ class Ability
     end
 
     can :manage, Consult do |o|
-      o.users.include?(user)
+      o.initiator_id == user.id
     end
 
     can :manage, PhoneCallSummary do |o|

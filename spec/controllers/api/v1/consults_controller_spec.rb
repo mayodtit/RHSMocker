@@ -2,55 +2,53 @@ require 'spec_helper'
 
 describe Api::V1::ConsultsController do
   let(:consult) { build_stubbed(:consult) }
-  let(:user) { consult.users.first }
+  let(:user) { consult.initiator }
   let(:ability) { Object.new.extend(CanCan::Ability) }
 
-  before(:each) do
-    controller.stub(:current_ability => ability)
+  before do
+    controller.stub(current_ability: ability)
   end
 
   describe 'GET index' do
     def do_request
-      get :index, auth_token: user.auth_token
+      get :index
+    end
+
+    before do
+      user.stub_chain(:initiated_consults, :where).and_return([consult])
     end
 
     it_behaves_like 'action requiring authentication and authorization'
-    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
-      before(:each) do
-        user.stub_chain(:consults, :with_unread_messages_count_for).and_return([consult])
-        consult.stub(:unread_messages_count => 1)
-      end
 
+    context 'authenticated and authorized', user: :authenticate_and_authorize! do
       it_behaves_like 'success'
 
       it "returns an array of Consults" do
         do_request
-        json = JSON.parse(response.body, :symbolize_names => true)
-        json[:consults].first.to_json.should == consult.serializer(include_unread_messages_count: true).as_json.to_json
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:consults].to_json).to eq([consult].serializer.as_json.to_json)
       end
     end
   end
 
   describe 'GET show' do
     def do_request
-      get :show, auth_token: user.auth_token
+      get :show
     end
 
-    let(:consults) { double('consults', :find => consult) }
-
-    before(:each) do
-      user.stub(:consults => consults)
+    before do
+      Consult.stub(find: consult)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
 
-    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+    context 'authenticated and authorized', user: :authenticate_and_authorize! do
       it_behaves_like 'success'
 
       it 'returns the consult' do
         do_request
-        json = JSON.parse(response.body)
-        json['consult'].to_json.should == consult.serializer.as_json.to_json
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:consult].to_json).to eq(consult.serializer.as_json.to_json)
       end
     end
   end
@@ -60,13 +58,13 @@ describe Api::V1::ConsultsController do
       post :create, consult: attributes_for(:consult)
     end
 
-    before(:each) do
-      Consult.stub(:create => consult)
+    before do
+      Consult.stub(create: consult)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
 
-    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+    context 'authenticated and authorized', user: :authenticate_and_authorize! do
       it 'attempts to create the record' do
         Consult.should_receive(:create).once
         do_request
@@ -77,13 +75,13 @@ describe Api::V1::ConsultsController do
 
         it 'returns the consult' do
           do_request
-          json = JSON.parse(response.body)
-          json['consult'].to_json.should == consult.serializer.as_json.to_json
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:consult].to_json).to eq(consult.serializer.as_json.to_json)
         end
       end
 
       context 'save fails' do
-        before(:each) do
+        before do
           consult.errors.add(:base, :invalid)
         end
 
