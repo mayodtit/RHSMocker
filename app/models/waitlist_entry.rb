@@ -8,7 +8,8 @@ class WaitlistEntry < ActiveRecord::Base
   belongs_to :feature_group
 
   attr_accessible :creator, :creator_id, :claimer, :claimer_id, :email, :token,
-                  :state, :state_event, :invited_at, :claimed_at
+                  :state, :state_event, :invited_at, :claimed_at,
+                  :feature_group, :feature_group_id
 
   validates :email, presence: true, uniqueness: true
   validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_nil: true
