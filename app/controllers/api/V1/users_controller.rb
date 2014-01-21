@@ -132,7 +132,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
                                  :birth_date, :phone, :blood_type, :holds_phone_in,
                                  :diet_id, :ethnic_group_id, :deceased, :date_of_death,
                                  :npi_number, :expertise, :city, :state, :units,
-                                 :nickname).tap do |attributes|
+                                 :nickname, :work_phone_number).tap do |attributes|
                                    attributes[:user_agreements_attributes] = params[:user][:user_agreements_attributes] if params[:user][:user_agreements_attributes]
                                  end
   end
