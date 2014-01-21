@@ -92,12 +92,6 @@ describe WaitlistEntry do
           expect(waitlist_entry.invite).to be_true
           expect(waitlist_entry.token).to_not be_nil
         end
-
-        it 'emails the waitlist email' do
-          UserMailer.stub_chain(:waitlist_invite_email, :deliver)
-          UserMailer.should_receive(:waitlist_invite_email).with(waitlist_entry).once
-          waitlist_entry.invite
-        end
       end
 
       describe 'claim' do

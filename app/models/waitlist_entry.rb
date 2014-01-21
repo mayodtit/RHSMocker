@@ -57,10 +57,6 @@ class WaitlistEntry < ActiveRecord::Base
       entry.generate_token
     end
 
-    after_transition any => :invited do |entry, transition|
-      UserMailer.waitlist_invite_email(entry).deliver
-    end
-
     before_transition any => :claimed do |entry, transition|
       entry.claimed_at = Time.now
       entry.token = nil
