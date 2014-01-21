@@ -173,35 +173,37 @@ namespace :seeds do
       # Create a call for a PHA
       c = Consult.create!(
         title: 'I need an appointment',
-        status: 'open',
-        priority: 'low',
+        state: 'open',
         description: 'I need someone to make an appointment for me.',
         initiator_id: m.id,
         subject_id: m.id,
-        add_user: m,
-        phone_call: {
-          message: nil,
-          destination_phone_number: '855-234-5678',
-          origin_phone_number: origin_phone_number,
-          to_role: PHA_ROLE
-        }
+        messages_attributes: [{
+          user: m,
+          phone_call_attributes: {
+            user: m,
+            destination_phone_number: '855-234-5678',
+            origin_phone_number: origin_phone_number,
+            to_role: PHA_ROLE
+          }
+        }]
       )
 
       # Create a call for a Nurse
       c = Consult.create!(
         title: 'Hip hurting',
-        status: 'open',
-        priority: 'low',
+        state: 'open',
         description: 'My hip hurts really badly.',
         initiator_id: m.id,
         subject_id: m.id,
-        add_user: m,
-        phone_call: {
-          message: nil,
-          destination_phone_number: '855-234-5678',
-          origin_phone_number: origin_phone_number,
-          to_role: NURSE_ROLE
-        }
+        messages_attributes: [{
+          user: m,
+          phone_call_attributes: {
+            user: m,
+            destination_phone_number: '855-234-5678',
+            origin_phone_number: origin_phone_number,
+            to_role: NURSE_ROLE
+          }
+        }]
       )
     end
 
@@ -282,34 +284,36 @@ namespace :seeds do
 
       fc = Consult.create!(
         title: 'Help me prep for my son for his shots',
-        status: 'open',
-        priority: 'high',
+        state: 'open',
         description: "My son needs to get shots for school. Can you help me?",
         initiator_id: m.id,
         subject_id: f.id,
-        add_user: m,
-        phone_call: {
-          message: nil,
-          destination_phone_number: '855-234-5678',
-          origin_phone_number: origin_phone_number,
-          to_role: PHA_ROLE
-        }
+        messages_attributes: [{
+          user: m,
+          phone_call_attributes: {
+            user: m,
+            destination_phone_number: '855-234-5678',
+            origin_phone_number: origin_phone_number,
+            to_role: PHA_ROLE
+          }
+        }]
       )
 
       fc = Consult.create!(
         title: 'Blood in poop',
-        status: 'open',
-        priority: 'high',
+        state: 'open',
         description: "My relative has blood in their poop.",
         initiator_id: m.id,
         subject_id: f.id,
-        add_user: m,
-        phone_call: {
-          message: nil,
-          destination_phone_number: '855-234-5678',
-          origin_phone_number: origin_phone_number,
-          to_role: NURSE_ROLE
-        }
+        messages_attributes: [{
+          user: m,
+          phone_call_attributes: {
+            user: m,
+            destination_phone_number: '855-234-5678',
+            origin_phone_number: origin_phone_number,
+            to_role: NURSE_ROLE
+          }
+        }]
       )
     end
 
