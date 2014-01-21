@@ -14,6 +14,10 @@ class CustomCard < ActiveRecord::Base
 
   before_validation :set_defaults, on: :create
 
+  def self.onboarding
+    @onboarding ||= find_by_unique_id('RHS-ONBOARDING')
+  end
+
   private
 
   def set_defaults

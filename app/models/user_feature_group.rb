@@ -12,7 +12,8 @@ class UserFeatureGroup < ActiveRecord::Base
   private
 
   def set_premium
-    user.cards.create(resource: Content.premium) if Content.premium
+    user.cards.create(resource: Content.premium, priority: 50) if Content.premium
+    user.cards.create(resource: CustomCard.onboarding, priority: 45) if CustomCard.onboarding
     true
   end
 end
