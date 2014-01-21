@@ -33,8 +33,7 @@ $ ->
     NativeBridge.call('saveCard', {id: $(@).data("card-id")})
 
   $(".birthdate").click ->
-    NativeBridge.call('editProfile', {allowed_fields: ['birthdate']})
-    NativeBridge.call('saveCard', {id: $(@).data("card-id")})
+    NativeBridge.call('editProfile', {allowed_fields: ['birthdate'], card_id: $(@).data("card-id")})
 
   $(".diet-question .tile").click ->
     $('.' + $(@).data('type')).toggle()
