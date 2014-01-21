@@ -53,7 +53,7 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
     scheduled_phone_calls.find_each do |p|
       authorized_phone_calls.push(p) if can? :read, p
     end
-    authorized_phone_calls
+    authorized_phone_calls.sort! { |a, b | a.scheduled_at <=> b.scheduled_at }
   end
 
   def create_or_update_params
