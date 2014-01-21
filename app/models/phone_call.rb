@@ -28,8 +28,6 @@ class PhoneCall < ActiveRecord::Base
   before_validation :prep_phone_numbers
   before_validation :generate_identifier_token
 
-  # TODO - remove this fake job when nurseline is built
-  after_create :schedule_phone_call_summary
   after_create :dial_if_outbound
 
   accepts_nested_attributes_for :message
@@ -104,10 +102,6 @@ class PhoneCall < ActiveRecord::Base
       token = ('%015i' % SecureRandom.random_number(10**15))
       break token unless self.class.find_by_identifier_token(token)
     end
-  end
-
-  def schedule_phone_call_summary
-    PhoneCallSummaryJob.new.queue_summary(user.id, consult.id)
   end
 
   def prep_phone_numbers
