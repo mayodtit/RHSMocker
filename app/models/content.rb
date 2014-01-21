@@ -53,6 +53,10 @@ class Content < ActiveRecord::Base
     @premium ||= find_by_document_id('RHS-PREMIUM')
   end
 
+  def self.explainer
+    @explainer ||= find_by_document_id('RHS-EXPLAINER')
+  end
+
   # TODO - replace in future with root_share_url, move append to UserReading
   def share_url(user_reading_id=nil)
     result = "/contents/#{document_id}"
