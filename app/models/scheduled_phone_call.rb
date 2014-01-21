@@ -20,7 +20,8 @@ class ScheduledPhoneCall < ActiveRecord::Base
                   :message, :scheduled_at, :message_attributes,
                   :assignor_id, :assignor, :booker_id, :booker,
                   :starter_id, :starter, :canceler_id, :canceler,
-                  :ender_id, :ender, :scheduled_duration_s, :state_event
+                  :ender_id, :ender, :scheduled_duration_s, :state_event,
+                  :state, :assigned_at
 
   accepts_nested_attributes_for :message
 
