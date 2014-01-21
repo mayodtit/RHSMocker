@@ -32,7 +32,7 @@ $ ->
     NativeBridge.call('addAllergy', {id: $(@).data("allergy-id")})
     NativeBridge.call('saveCard', {id: $(@).data("card-id")})
 
-  $(".birthdate").click ->
+  $(".birthday").click ->
     NativeBridge.call('editProfile', {allowed_fields: ['birthdate'], card_id: $(@).data("card-id")})
 
   $(".diet-question .tile").click ->

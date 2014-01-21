@@ -359,6 +359,11 @@ table.content {
   }
 }
 
+.birthday {
+  background: url(/assets/birthday_background.png) no-repeat;
+  background-size: 100%;
+}
+
 .question {
   &.center {
     text-align: center;
@@ -366,9 +371,17 @@ table.content {
   height: 124px;
   img {
     width: 130px;
+    &.birthdate {
+      width: 124px;
+    }
   }
   .content_text_card {
     position: relative;
+    .birthdate {
+      position: absolute;
+      top: 72px;
+      left: 86px;
+    }
     .left {
       position: absolute;
       top: 20px;
