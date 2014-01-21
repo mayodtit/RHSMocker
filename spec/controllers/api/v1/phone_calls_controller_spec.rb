@@ -215,12 +215,79 @@ describe Api::V1::PhoneCallsController do
     end
   end
 
+  describe 'GET connect_nurse' do
+    def do_request
+      get :connect_nurse
+    end
+
+    it_behaves_like 'success'
+  end
+
   describe 'POST connect' do
     def do_request
       post :connect
     end
 
     it_behaves_like 'success'
+
+    it 'sets select url' do
+      URL_HELPERS.stub(:off_duty_select_api_v1_phone_calls_url) { '/test' }
+      do_request
+      assigns(:select_url).should == '/test'
+    end
+
+    it 'sets phas off duty' do
+      PhoneCall.stub(:pha_accepting_calls?) { true }
+      do_request
+      assigns(:phas_off_duty).should == false
+    end
+  end
+
+  describe 'GET off_duty_menu' do
+    def do_request
+      get :off_duty_menu
+    end
+
+    it_behaves_like 'success'
+
+    it 'sets select url' do
+      URL_HELPERS.stub(:off_duty_select_api_v1_phone_calls_url) { '/test' }
+      do_request
+      assigns(:select_url).should == '/test'
+    end
+  end
+
+  describe 'POST off_duty_select' do
+    def do_request(digits = '*')
+      post :off_duty_select, Digits: digits
+    end
+
+    context 'digits is *' do
+      it_behaves_like 'success'
+
+      it 'renders goodbye' do
+        do_request
+        response.should render_template(:goodbye)
+      end
+    end
+
+    context 'digits is 1' do
+      it_behaves_like 'success'
+
+      it 'redirects to connect nurse' do
+        do_request('1')
+        response.should redirect_to(action: :connect_nurse)
+      end
+    end
+
+    context 'digits is any other number' do
+      it_behaves_like 'success'
+
+      it 'redirects to connect nurse' do
+        do_request('3')
+        response.should redirect_to(action: :off_duty_menu)
+      end
+    end
   end
 
   describe 'POST status_origin' do

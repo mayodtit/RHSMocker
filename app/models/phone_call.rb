@@ -49,6 +49,12 @@ class PhoneCall < ActiveRecord::Base
     to_role.name.to_sym == :pha
   end
 
+  def self.pha_accepting_calls?
+    t = Time.now.in_time_zone('Pacific Time (US & Canada)')
+
+    return !(t.wday == 0 || t.wday == 6 || t.hour < 9 || t.hour > 18)
+  end
+
   # Call mechanics
 
   # Create a singleton for Twilio client

@@ -118,13 +118,47 @@ resource "PhoneCalls" do
     end
   end
 
-  describe 'twilio telling us a phone connected' do
-    let(:raw_post) { params.to_json }
+  describe 'connect the caller to the nurseline' do
+    get '/api/v1/phone_calls/connect/nurse' do
+      example_request '[GET] connect the caller to the nurseline' do
+        explanation 'For use with off hours calls to pha.'
+        status.should == 200
+        xml = Nokogiri::XML(response_body)
+        xml.xpath('//Response/Dial').text().should == "+1#{NURSE_LINE_NUMBER}"
+      end
+    end
+  end
 
+  describe 'twilio telling us a phone connected' do
     post '/api/v1/phone_calls/status' do
       example_request '[POST] Determine how to route the phone call.' do
         explanation 'Twilio telling us that a phone connected and we need to route it properly.'
         status.should == 200
+      end
+    end
+  end
+
+  describe 'off duty menu' do
+    get '/api/v1/phone_calls/off_duty/menu' do
+      example_request '[GET] the off duty menu.' do
+        explanation 'The off duty menu for the inbound caller.'
+        status.should == 200
+      end
+    end
+  end
+
+  describe 'off duty select' do
+    parameter :Digits, 'Phone call id'
+
+    let(:Digits) { '*' }
+    let(:raw_post) { params.to_json }
+
+    post '/api/v1/phone_calls/off_duty/select' do
+      example_request '[POST] Caller\'s selection from the off duty menu' do
+        explanation 'The caller selected an option from the off duty menu, process it.'
+        status.should == 200
+        xml = Nokogiri::XML(response_body)
+        xml.xpath('//Response/Say').text().should == "Good bye."
       end
     end
   end

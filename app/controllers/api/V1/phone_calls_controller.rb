@@ -1,6 +1,6 @@
 class Api::V1::PhoneCallsController < Api::V1::ABaseController
   before_filter :load_user!, :only => [:index, :show, :update]
-  before_filter :load_phone_call!, :except => [:index, :connect, :status]
+  before_filter :load_phone_call!, :except => [:index, :connect, :status, :connect_nurse, :off_duty_menu, :off_duty_select]
   skip_before_filter :authentication_check, :except => [:index, :show, :update]
 
   layout false, except: [:index, :show, :update]
@@ -54,8 +54,33 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
     render formats: [:xml], handler: [:builder]
   end
 
+  def connect_nurse
+    render formats: [:xml]
+  end
+
   def connect
-    render formats: [:xml], handler: [:builder]
+    @select_url = URL_HELPERS.off_duty_select_api_v1_phone_calls_url
+    @phas_off_duty = !PhoneCall::pha_accepting_calls?
+
+    render formats: [:xml]
+  end
+
+  def off_duty_menu
+    @select_url = URL_HELPERS.off_duty_select_api_v1_phone_calls_url
+    render formats: [:xml]
+  end
+
+  def off_duty_select
+    case params['Digits']
+      when '*'
+        render action: :goodbye, formats: [:xml]
+        return
+      when '1'
+        redirect_to action: :connect_nurse
+        return
+    end
+
+    redirect_to action: :off_duty_menu
   end
 
   def status_origin

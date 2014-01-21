@@ -27,10 +27,13 @@ RHSMocker::Application.routes.draw do
       resources :phone_calls, only: [:index, :show, :update] do
         post 'connect/origin', on: :member, to: 'phone_calls#connect_origin'
         post 'connect/destination', on: :member, to: 'phone_calls#connect_destination'
-        post 'connect', on: :member, to: 'phone_calls#connect', on: :collection
+        post 'connect', on: :collection, to: 'phone_calls#connect'
+        get 'connect/nurse', on: :collection, to: 'phone_calls#connect_nurse'
+        get 'off_duty/menu', on: :collection, to: 'phone_calls#off_duty_menu'
+        post 'off_duty/select', on: :collection, to: 'phone_calls#off_duty_select'
         post 'status/origin', on: :member, to: 'phone_calls#status_origin'
         post 'status/destination', on: :member, to: 'phone_calls#status_destination'
-        post 'status', on: :member, to: 'phone_calls#status', on: :collection
+        post 'status', on: :collection, to: 'phone_calls#status'
       end
       resources :dashboard, only: :index
       resources :diseases, :only => :index, :controller => :conditions
