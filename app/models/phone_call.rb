@@ -52,7 +52,7 @@ class PhoneCall < ActiveRecord::Base
   def self.pha_accepting_calls?
     t = Time.now.in_time_zone('Pacific Time (US & Canada)')
 
-    return !(t.wday == 0 || t.wday == 6 || t.hour < 9 || t.hour > 18)
+    return !(t.wday == 0 || t.wday == 6 || t.hour < 9 || t.hour > 17)
   end
 
   # Call mechanics
