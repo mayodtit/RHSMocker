@@ -49,6 +49,10 @@ class Content < ActiveRecord::Base
     where(:title => 'Welcome to Better!').first
   end
 
+  def self.premium
+    @premium ||= find_by_document_id('RHS-PREMIUM')
+  end
+
   # TODO - replace in future with root_share_url, move append to UserReading
   def share_url(user_reading_id=nil)
     result = "/contents/#{document_id}"
