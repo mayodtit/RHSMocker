@@ -57,6 +57,9 @@ div.content_header_card {
     height: 200;
     background-color: #ececec;
     border-top: 1px solid #CCCCCC;
+    &.clear {
+      background-color: transparent;
+    }
 }
 
 div.content_title_card {
@@ -68,6 +71,9 @@ div.content_title_card {
     padding-left:  10px;
     padding-top:   5px;
     padding-right: 10px;
+    &.clear {
+      background-color: transparent;
+    }
 }
 
 .content_subtitle {
@@ -344,20 +350,35 @@ table.content {
   }
 }
 
+.forest {
+  background: url(/assets/forest.png) no-repeat;
+  background-size: 100%;
+  margin: -20px 0px;
+  .content_title_card {
+    margin: 20px 0px 0px 0px;
+  }
+}
+
 .question {
   &.center {
     text-align: center;
   }
   height: 124px;
   img {
-    width: 110px;
-    padding: 0px 15px;
+    width: 130px;
   }
-  .left {
-    float: left;
-  }
-  .right {
-    float: right;
+  .content_text_card {
+    position: relative;
+    .left {
+      position: absolute;
+      top: 20px;
+      left: 16px;
+    }
+    .right {
+      position: absolute;
+      top: 20px;
+      right: 16px;
+    }
   }
 }
 

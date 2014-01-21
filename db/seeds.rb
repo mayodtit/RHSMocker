@@ -10,7 +10,7 @@ Content.upsert_attributes({title: 'Welcome to Better!'},
                            show_mayo_copyright: false,
                            state_event: :publish})
 
-Question.upsert_attributes({:view => :gender}, {:title => 'Your Gender'})
+Question.upsert_attributes({:view => :gender}, {:title => 'Choose your gender'})
 Question.upsert_attributes({:view => :allergies}, {:title => 'Your Allergies'})
 Question.upsert_attributes({:view => :diet}, {:title => 'Which of these do you eat?'})
 Question.upsert_attributes({:view => :birthdate}, {:title => 'When is your birthdate?'})
