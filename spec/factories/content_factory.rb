@@ -7,6 +7,7 @@ FactoryGirl.define do
     show_call_option true
     show_checker_option true
     show_mayo_copyright true
+    show_mayo_logo true
     sensitive false
 
     trait :published do
