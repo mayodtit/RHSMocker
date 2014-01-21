@@ -6,6 +6,6 @@ class Question < ActiveRecord::Base
   validates :title, :view, presence: true, uniqueness: true
 
   def self.new_member_questions
-    where(:view => [:gender])
+    where(:view => [:gender, :birthdate])
   end
 end
