@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140121174029) do
+ActiveRecord::Schema.define(:version => 20140121182103) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -154,6 +154,7 @@ ActiveRecord::Schema.define(:version => 20140121174029) do
     t.string   "state"
     t.boolean  "sensitive",              :default => false, :null => false
     t.string   "symptom_checker_gender"
+    t.boolean  "show_mayo_logo",         :default => true,  :null => false
   end
 
   add_index "contents", ["document_id"], :name => "index_contents_on_document_id"

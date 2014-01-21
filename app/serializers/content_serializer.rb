@@ -6,7 +6,7 @@ class ContentSerializer < ViewSerializer
              :contentID, :contents_type, :state, :state_events,
              :card_actions, :fullscreen_actions
 
-  delegate :show_mayo_copyright?, :show_call_option?, to: :object
+  delegate :show_mayo_copyright?, :show_call_option?, :show_mayo_logo?, to: :object
   alias_method :contentID, :id
   alias_method :contents_type, :content_type
 
