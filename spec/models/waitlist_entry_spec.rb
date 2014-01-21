@@ -15,6 +15,7 @@ describe WaitlistEntry do
   end
   it_validates 'foreign key of', :creator
   it_validates 'foreign key of', :claimer
+  it_validates 'foreign key of', :feature_group
 
   describe '#generate_token' do
     it 'sets the waitlist_entry token' do
@@ -117,6 +118,19 @@ describe WaitlistEntry do
           expect(waitlist_entry.token).to_not be_nil
           expect(waitlist_entry.claim).to be_true
           expect(waitlist_entry.token).to be_nil
+        end
+
+        context 'with feature_group' do
+          let(:claimer) { create(:member) }
+          let(:feature_group) { create(:feature_group) }
+          let(:waitlist_entry) { build(:waitlist_entry, :invited, claimer: claimer,
+                                                                  feature_group: feature_group) }
+
+          it 'adds the feature_group to the claimer' do
+            expect(claimer.feature_groups).to_not include(feature_group)
+            expect(waitlist_entry.claim).to be_true
+            expect(claimer.feature_groups).to include(feature_group)
+          end
         end
       end
     end

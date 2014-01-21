@@ -5,6 +5,7 @@ class WaitlistEntry < ActiveRecord::Base
 
   belongs_to :creator, class_name: Member
   belongs_to :claimer, class_name: Member, inverse_of: :waitlist_entry
+  belongs_to :feature_group
 
   attr_accessible :creator, :creator_id, :claimer, :claimer_id, :email, :token,
                   :state, :state_event, :invited_at, :claimed_at
@@ -13,6 +14,7 @@ class WaitlistEntry < ActiveRecord::Base
   validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_nil: true
   validates :creator, presence: true, if: lambda{|w| w.creator_id}
   validates :claimer, presence: true, if: lambda{|w| w.claimer_id}
+  validates :feature_group, presence: true, if: lambda{|w| w.feature_group_id}
 
   def self.invited
     where(state: :invited)
@@ -62,6 +64,10 @@ class WaitlistEntry < ActiveRecord::Base
     before_transition any => :claimed do |entry, transition|
       entry.claimed_at = Time.now
       entry.token = nil
+    end
+
+    after_transition any => :claimed do |entry, transition|
+      entry.claimer.feature_groups << entry.feature_group if entry.feature_group
     end
   end
 end
