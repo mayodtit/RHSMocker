@@ -13,6 +13,7 @@ Content.upsert_attributes({title: 'Welcome to Better!'},
 Question.upsert_attributes({:view => :gender}, {:title => 'Your Gender'})
 Question.upsert_attributes({:view => :allergies}, {:title => 'Your Allergies'})
 Question.upsert_attributes({:view => :diet}, {:title => 'Which of these do you eat?'})
+Question.upsert_attributes({:view => :birthdate}, {:title => 'When is your birthdate?'})
 
 CustomCard.upsert_attributes({title: 'Welcome to Better Premium'}, {priority: 20,
                                                                     raw_preview: "<div class=\"new-consult\" data-message=\"I would like to schedule an onboarding call with a Personal Health Assistant\" data-consult-type=\"schedule\">\nClick here to schedule a phone call with your Personal Health Assistant\n</div>"})

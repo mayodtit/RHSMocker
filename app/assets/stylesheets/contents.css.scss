@@ -343,6 +343,9 @@ table.content {
 }
 
 .question {
+  &.center {
+    text-align: center;
+  }
   height: 124px;
   img {
     width: 110px;
