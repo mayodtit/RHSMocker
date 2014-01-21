@@ -7,9 +7,10 @@ class CustomCard < ActiveRecord::Base
   serialize :timeline_action, Hash
 
   attr_accessible :content, :content_id, :title, :raw_preview, :card_actions,
-                  :timeline_actions, :priority
+                  :timeline_actions, :priority, :unique_id
 
   validates :title, :raw_preview, presence: true
+  validates :unique_id, uniqueness: true, allow_blank: true
 
   before_validation :set_defaults, on: :create
 

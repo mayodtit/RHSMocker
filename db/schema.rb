@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140121182103) do
+ActiveRecord::Schema.define(:version => 20140121220607) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -176,6 +176,7 @@ ActiveRecord::Schema.define(:version => 20140121182103) do
     t.text     "card_actions"
     t.text     "timeline_action"
     t.integer  "priority",        :default => 0, :null => false
+    t.string   "unique_id"
   end
 
   create_table "delayed_jobs", :force => true do |t|
