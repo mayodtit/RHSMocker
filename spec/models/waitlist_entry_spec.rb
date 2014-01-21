@@ -4,6 +4,8 @@ describe WaitlistEntry do
   let(:waitlist_entry) { build(:waitlist_entry) }
 
   it_has_a 'valid factory'
+  it_has_a 'valid factory', :invited
+  it_has_a 'valid factory', :claimed
   it_validates 'presence of', :email
   it_validates 'uniqueness of', :email
   it 'validates email format' do
@@ -11,6 +13,8 @@ describe WaitlistEntry do
     waitlist_entry.email = 'junk'
     expect(waitlist_entry).to_not be_valid
   end
+  it_validates 'foreign key of', :creator
+  it_validates 'foreign key of', :claimer
 
   describe '#generate_token' do
     it 'sets the waitlist_entry token' do
@@ -38,10 +42,28 @@ describe WaitlistEntry do
           waitlist_entry.token = nil
           expect(waitlist_entry).to_not be_valid
         end
+
+        it 'validates presence of invited_at' do
+          expect(waitlist_entry).to be_valid
+          waitlist_entry.invited_at = nil
+          expect(waitlist_entry).to_not be_valid
+        end
       end
 
       describe 'claimed' do
         let(:waitlist_entry) { build(:waitlist_entry, :claimed) }
+
+        it 'validates presence of claimer' do
+          expect(waitlist_entry).to be_valid
+          waitlist_entry.claimer = nil
+          expect(waitlist_entry).to_not be_valid
+        end
+
+        it 'validates presence of claimed_at' do
+          expect(waitlist_entry).to be_valid
+          waitlist_entry.claimed_at = nil
+          expect(waitlist_entry).to_not be_valid
+        end
 
         it 'validates token is nil' do
           expect(waitlist_entry).to be_valid
@@ -78,7 +100,7 @@ describe WaitlistEntry do
       end
 
       describe 'claim' do
-        let(:waitlist_entry) { build(:waitlist_entry, :invited) }
+        let(:waitlist_entry) { build(:waitlist_entry, :invited, claimer: create(:member)) }
 
         it 'sets invited to claimed' do
           expect(waitlist_entry.claim).to be_true

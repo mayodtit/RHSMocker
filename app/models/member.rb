@@ -19,7 +19,9 @@ class Member < User
 
   has_many :user_feature_groups, :foreign_key => :user_id
   has_many :feature_groups, :through => :user_feature_groups
-  has_one :waitlist_entry, autosave: true
+  has_one :waitlist_entry, foreign_key: :claimer_id,
+                           inverse_of: :claimer,
+                           autosave: true
 
   accepts_nested_attributes_for :user_agreements
 

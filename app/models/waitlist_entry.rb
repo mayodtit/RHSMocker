@@ -3,12 +3,16 @@ class WaitlistEntry < ActiveRecord::Base
   TOKEN_CHARACTERS = ('a'..'z').to_a
   TOKEN_LENGTH = 5
 
-  belongs_to :member
+  belongs_to :creator, class_name: Member
+  belongs_to :claimer, class_name: Member, inverse_of: :waitlist_entry
 
-  attr_accessible :member, :member_id, :email, :token, :state, :state_event, :invited_at, :claimed_at
+  attr_accessible :creator, :creator_id, :claimer, :claimer_id, :email, :token,
+                  :state, :state_event, :invited_at, :claimed_at
 
   validates :email, presence: true, uniqueness: true
   validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_nil: true
+  validates :creator, presence: true, if: lambda{|w| w.creator_id}
+  validates :claimer, presence: true, if: lambda{|w| w.claimer_id}
 
   def self.invited
     where(state: :invited)
@@ -33,6 +37,7 @@ class WaitlistEntry < ActiveRecord::Base
     end
 
     state :claimed do
+      validates :claimer, presence: true
       validates :claimed_at, presence: true
       validate :token_is_nil
     end
