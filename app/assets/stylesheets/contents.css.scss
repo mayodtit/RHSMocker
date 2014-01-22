@@ -462,24 +462,25 @@ table.content {
 
 .card-header {
   position: relative;
-  background-color: #ececec;
+  background-color: white;
   border-bottom: 1px solid #cccccc;
   overflow: auto;
   width: 100%;
   img {
     width: 25px;
     float: left;
-    margin: 10px 10px 10px 15px;
+    margin: 10px 10px 10px 10px;
   }
   h1 {
     font-family:"Roboto Light";
     font-weight: 400;
-    width: 230px;
+    width: 255px;
     float: right;
     font-size: 18px;
     line-height: 25px;
-    margin: 10px 15px 10px 0px;
-    text-align: center;
+    margin: 10px 0px;
+    text-align: left;
+    color: #ea7411;
   }
 }
 
@@ -491,6 +492,11 @@ table.content {
   height: 130px;
   padding: 10px;
   font-family:"Roboto Light";
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
+  color: #63615b;
+  .strong {
+    font-family:"Roboto";
+    font-weight: 400;
+  }
 }
