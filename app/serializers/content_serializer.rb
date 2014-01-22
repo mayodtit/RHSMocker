@@ -42,14 +42,12 @@ class ContentSerializer < ViewSerializer
   end
 
   def card_actions
-    default_card_actions << {normal: {title: 'Share', action: :share}}
+    default_card_actions
   end
 
   def fullscreen_actions
     [
       {normal: {title: 'Save', action: :save}, selected: {title: 'Dismiss', action: :dismiss}},
-      {normal: {title: 'Share', action: :share}},
-      {normal: {title: 'Add User', action: :adduser}}
     ]
   end
 
