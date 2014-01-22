@@ -98,7 +98,7 @@ shared_examples 'can transition from' do |transition, state, states|
   end
 end
 
-shared_examples 'phone number format of' do |property, disallow_nil|
+shared_examples 'phone number format of' do |property, disallow_nil, allow_blank|
   before do
     @model = build_stubbed described_class.name.underscore.to_sym
     @model.should be_valid
@@ -119,9 +119,11 @@ shared_examples 'phone number format of' do |property, disallow_nil|
     @model.should_not be_valid
   end
 
-  it 'isn\'t valid if blank' do
-    @model.send :"#{property}=",''
-    @model.should_not be_valid
+  unless allow_blank
+    it 'isn\'t valid if blank' do
+      @model.send :"#{property}=",''
+      @model.should_not be_valid
+    end
   end
 
   unless disallow_nil
