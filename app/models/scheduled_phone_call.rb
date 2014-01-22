@@ -63,7 +63,7 @@ You've been assigned this time to do a Welcome Call with a new Better member. Yo
 Ready, set, welcome a new member
 
 Prep:
-1) Click or copy this link into your browser: #{CARE_URL_PREFIX}/scheduled_phone_call/#{id}
+1) Click or copy this link into your browser: #{CARE_URL_PREFIX}/appointments/#{id}
 2) Take three deep breaths...
       eos
       event.dtstart = scheduled_at
