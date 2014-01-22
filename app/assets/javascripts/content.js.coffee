@@ -1,6 +1,6 @@
 $ ->
   $(".talk").click ->
-    NativeBridge.call('newConsult', {id: $(@).data("content-id"), message: $(@).data("message")})
+    NativeBridge.call('newConsult', {id: $(@).data("content-id"), title: $(@).data("title"), message: $(@).data("message")})
 
   $(".new-consult").click ->
     NativeBridge.call('newConsult', {card_id: $(".card").data("id"), message: $(@).data("message"), consult_type: [$(@).data("consult-type")]})
