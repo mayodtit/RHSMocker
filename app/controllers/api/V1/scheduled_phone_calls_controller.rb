@@ -3,13 +3,17 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   before_filter :load_scheduled_phone_call!, only: [:show, :update, :destroy]
 
   def index
+    authorize! :index, ScheduledPhoneCall
+
     results = ScheduledPhoneCall.where params.permit(:state, :user_id, :owner_id)
 
     if params[:scheduled_after]
       results = results.where 'scheduled_at > ?', params[:scheduled_after]
     end
 
-    index_resource filter_authorized_scheduled_phone_calls(results).serializer
+    results = results.order 'scheduled_at ASC'
+
+    index_resource results.serializer
   end
 
   def available_times

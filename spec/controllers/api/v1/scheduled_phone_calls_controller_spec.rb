@@ -27,26 +27,26 @@ describe Api::V1::ScheduledPhoneCallsController do
     end
 
     before do
-      controller.stub(:filter_authorized_scheduled_phone_calls).with(scheduled_phone_calls) { authorized_scheduled_phone_calls }
       ScheduledPhoneCall.stub(:where) { scheduled_phone_calls }
+      scheduled_phone_calls.stub(:order) { scheduled_phone_calls }
     end
 
-    it_behaves_like 'action requiring authentication'
+    it_behaves_like 'action requiring authentication and authorization'
 
-    context 'authenticated and authorized', user: :authenticate! do
+    context 'authenticated and authorized', user: :authenticate_and_authorize! do
       it_behaves_like 'success'
 
       it 'returns an array of scheduled_phone_calls' do
         do_request
         json = JSON.parse(response.body)
-        json['scheduled_phone_calls'].to_json.should == authorized_scheduled_phone_calls.serializer.to_json
+        json['scheduled_phone_calls'].to_json.should == scheduled_phone_calls.serializer.to_json
       end
 
       it 'filters by only state, user_id, and owner_id' do
         ScheduledPhoneCall.stub(:where).with('state' => 'booked', 'user_id' => '2', 'owner_id' => '3') { scheduled_phone_calls }
         get :index, auth_token: user.auth_token, state: 'booked', user_id: 2, owner_id: 3, blah: 5
         json = JSON.parse(response.body)
-        json['scheduled_phone_calls'].to_json.should == authorized_scheduled_phone_calls.serializer.to_json
+        json['scheduled_phone_calls'].to_json.should == scheduled_phone_calls.serializer.to_json
       end
 
       it 'filters by scheduled_after' do
@@ -60,7 +60,7 @@ describe Api::V1::ScheduledPhoneCallsController do
         end
         get :index, auth_token: user.auth_token, scheduled_after: 3.days.ago
         json = JSON.parse(response.body)
-        json['scheduled_phone_calls'].to_json.should == authorized_scheduled_phone_calls.serializer.to_json
+        json['scheduled_phone_calls'].to_json.should == scheduled_phone_calls.serializer.to_json
         Timecop.return
       end
     end

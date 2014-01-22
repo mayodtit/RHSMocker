@@ -57,6 +57,8 @@ class Ability
       can :ru, ScheduledPhoneCall do |o|
         o.owner.id == user.id
       end
+
+      can :index, ScheduledPhoneCall
     end
 
     if user.pha_lead?
