@@ -1,4 +1,7 @@
 .content_card.card-link{:data => {:card_id => resource.content ? card.try(:id) : nil}}
-  .content_header_card
-    .content_title_card= resource.title.html_safe
-    .content_text_card_fade= resource.raw_preview.html_safe
+  - if resource.has_custom_card?
+    = resource.raw_preview.html_safe
+  - else
+    .content_header_card
+      .content_title_card= resource.title.html_safe
+      .content_text_card_fade= resource.raw_preview.html_safe
