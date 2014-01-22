@@ -42,7 +42,11 @@ class ContentSerializer < ViewSerializer
   end
 
   def card_actions
-    default_card_actions
+    if has_custom_card?
+      object.card_actions
+    else
+      default_card_actions
+    end
   end
 
   def fullscreen_actions
