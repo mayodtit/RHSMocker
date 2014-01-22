@@ -1,6 +1,6 @@
 .content_full
-  .content_source
-    = image_tag('mayologo_card_@2x.png', :class => 'mayo_icon') if content.show_mayo_logo?
+  - if content.show_mayo_logo?
+    .content_source= image_tag('mayologo_card_@2x.png', :class => 'mayo_icon')
   .content_header
     .content_title_full= content.title.html_safe
     .content_abstract= content.abstract.html_safe if content.abstract.present?
