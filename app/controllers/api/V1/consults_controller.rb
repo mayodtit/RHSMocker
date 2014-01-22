@@ -96,8 +96,8 @@ Questions or cancellations? Send me a message right here, and I'll get back to y
     attributes = []
     attributes << {user: @user, image: image_attributes} if image_attributes
     attributes << message_attributes.merge!(user: @user) if message_attributes
-    attributes << phone_call_attributes.merge!(user: @user, text: phone_call_text) if phone_call_attributes
-    attributes << scheduled_phone_call_attributes.merge!(user: @user, text: scheduled_phone_call_text) if scheduled_phone_call_attributes
+    attributes << phone_call_attributes.merge!(user: @user) if phone_call_attributes
+    attributes << scheduled_phone_call_attributes.merge!(user: @user) if scheduled_phone_call_attributes
     attributes << pha_message_attributes if @scheduled_phone_call
     attributes.any? ? attributes : nil
   end
@@ -105,13 +105,5 @@ Questions or cancellations? Send me a message right here, and I'll get back to y
   def image_attributes
     attributes = params.require(:consult).permit(:image)
     attributes.any? ? decode_b64_image(attributes[:image]) : nil
-  end
-
-  def phone_call_text
-    "<placeholder phone_call text"
-  end
-
-  def scheduled_phone_call_text
-    "<placeholder scheduled_phone_call text"
   end
 end
