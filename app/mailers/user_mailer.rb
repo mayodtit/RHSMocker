@@ -40,7 +40,7 @@ class UserMailer < ActionMailer::Base
   def scheduled_phone_call_member_confirmation_email(scheduled_phone_call)
     @scheduled_phone_call = scheduled_phone_call
     attachments['event.ics'] = {:mime_type => 'text/calendar', :content => @scheduled_phone_call.user_confirmation_calendar_event.export}
-    mail(to: @scheduled_phone_call.user.email, subject: 'Better Welcome Call Confirmation')
+    mail(to: @scheduled_phone_call.user.email, subject: 'Better Welcome Call Confirmation', from: 'clare@getbetter.com')
   end
 
   def scheduled_phone_call_cp_confirmation_email(scheduled_phone_call)
