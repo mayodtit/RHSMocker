@@ -28,6 +28,8 @@ class ScheduledPhoneCall < ActiveRecord::Base
   validates :scheduled_at, presence: true
   validate :attrs_for_states
 
+  after_create :if_assigned_notify_owner
+
   def user_confirmation_calendar_event
     # TODO: Copy needs to be updated
     RiCal.Event do |event|
@@ -96,6 +98,10 @@ Prep:
   end
 
   private
+
+  def if_assigned_notify_owner
+    notify_owner_of_assigned_call if state == 'assigned'
+  end
 
   state_machine initial: :unassigned do
     event :assign do

@@ -39,6 +39,20 @@ describe ScheduledPhoneCall do
     end
   end
 
+  describe 'after create' do
+    it 'notifies the owner if is assigned' do
+      spc = ScheduledPhoneCall.new(scheduled_at: 3.days.from_now, state: 'assigned', assigned_at: Time.now, assignor: create(:pha_lead), owner: create(:pha))
+      spc.should_receive :notify_owner_of_assigned_call
+      spc.save!
+    end
+
+    it 'doesn\'t notify the owner if it is not assigned' do
+      spc = build(:scheduled_phone_call)
+      spc.should_not_receive :notify_owner_of_assigned_call
+      spc.save!
+    end
+  end
+
   describe 'states' do
     let(:pha_lead) { build_stubbed(:pha_lead) }
     let(:pha) { build_stubbed(:pha) }
@@ -76,6 +90,7 @@ describe ScheduledPhoneCall do
       end
 
       it 'notifies the owner that they were assigned' do
+        other_scheduled_phone_call.save!
         other_scheduled_phone_call.should_receive :notify_owner_of_assigned_call
         other_scheduled_phone_call.update_attributes state_event: 'assign', assignor: pha_lead, owner: pha
       end
