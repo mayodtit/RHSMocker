@@ -52,14 +52,15 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
   end
 
   def scheduled_phone_call_attributes
-    attributes = params.require(:consult).permit(scheduled_phone_call: :scheduled_at)
+    attributes = params.require(:consult).permit(scheduled_phone_call: [:scheduled_at, :callback_phone_number])
     if attributes.any?
       scheduled_phone_call = ScheduledPhoneCall.where(state: :assigned)
                                                .where(scheduled_at: attributes[:scheduled_phone_call][:scheduled_at])
                                                .first!
       scheduled_phone_call.assign_attributes(state_event: :book,
                                              user_id: @user.id,
-                                             booker_id: @user.id)
+                                             booker_id: @user.id,
+                                             callback_phone_number: attributes[:scheduled_phone_call][:callback_phone_number])
       {
         user: @user,
         scheduled_phone_call: scheduled_phone_call

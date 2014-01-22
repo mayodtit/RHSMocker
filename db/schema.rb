@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140122173217) do
+ActiveRecord::Schema.define(:version => 20140122201854) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -436,11 +436,11 @@ ActiveRecord::Schema.define(:version => 20140122173217) do
     t.integer  "user_id"
     t.integer  "phone_call_id"
     t.datetime "scheduled_at"
-    t.datetime "created_at",                                     :null => false
-    t.datetime "updated_at",                                     :null => false
+    t.datetime "created_at",                                      :null => false
+    t.datetime "updated_at",                                      :null => false
     t.datetime "disabled_at"
     t.integer  "owner_id"
-    t.string   "state",                :default => "unassigned"
+    t.string   "state",                 :default => "unassigned"
     t.integer  "assignor_id"
     t.datetime "assigned_at"
     t.integer  "booker_id"
@@ -451,7 +451,8 @@ ActiveRecord::Schema.define(:version => 20140122173217) do
     t.datetime "canceled_at"
     t.integer  "ender_id"
     t.datetime "ended_at"
-    t.integer  "scheduled_duration_s", :default => 1800,         :null => false
+    t.integer  "scheduled_duration_s",  :default => 1800,         :null => false
+    t.string   "callback_phone_number"
   end
 
   create_table "side_effects", :force => true do |t|

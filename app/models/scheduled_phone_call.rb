@@ -21,7 +21,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
                   :assignor_id, :assignor, :booker_id, :booker,
                   :starter_id, :starter, :canceler_id, :canceler,
                   :ender_id, :ender, :scheduled_duration_s, :state_event,
-                  :state, :assigned_at
+                  :state, :assigned_at, :callback_phone_number
 
   accepts_nested_attributes_for :message
 
