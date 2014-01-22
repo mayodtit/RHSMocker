@@ -11,7 +11,7 @@ class WaitlistEntry < ActiveRecord::Base
                   :state, :state_event, :invited_at, :claimed_at,
                   :feature_group, :feature_group_id
 
-  validates :email, presence: true, uniqueness: true
+  validates :email, presence: true, uniqueness: true, unless: lambda{|w| w.creator_id}
   validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_nil: true
   validates :creator, presence: true, if: lambda{|w| w.creator_id}
   validates :claimer, presence: true, if: lambda{|w| w.claimer_id}
