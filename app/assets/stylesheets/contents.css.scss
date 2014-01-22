@@ -469,7 +469,10 @@ table.content {
   img {
     width: 25px;
     float: left;
-    margin: 10px 10px 10px 10px;
+    margin: 10px;
+    &.double {
+      width: 50px;
+    }
   }
   h1 {
     font-family:"Roboto Light";
@@ -481,20 +484,26 @@ table.content {
     margin: 10px 0px;
     text-align: left;
     color: #ea7411;
+    &.double {
+      width: 230px;
+    }
   }
 }
 
 .card-body {
-  &.welcome {
-    background: url(/assets/welcome_bg.png) no-repeat;
-    background-size: 100% 100%;
-  }
-  height: 130px;
+  height: 128px;
   padding: 10px;
   font-family:"Roboto Light";
   font-weight: 300;
   font-size: 16px;
   color: #63615b;
+  &.welcome {
+    background: url(/assets/welcome_bg.png) no-repeat;
+    background-size: 100% 100%;
+  }
+  &.no-buttons {
+    height: 140px;
+  }
   strong {
     font-family:"Roboto";
     font-weight: 400;
