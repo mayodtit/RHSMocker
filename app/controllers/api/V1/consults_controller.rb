@@ -2,6 +2,7 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_consults!, only: :index
   before_filter :load_consult!, only: :show
+  after_filter :set_user_phone_number!, only: :create
 
   def index
     index_resource @consults.serializer
@@ -105,5 +106,11 @@ Questions or cancellations? Send me a message right here, and I'll get back to y
   def image_attributes
     attributes = params.require(:consult).permit(:image)
     attributes.any? ? decode_b64_image(attributes[:image]) : nil
+  end
+
+  def set_user_phone_number!
+    if @scheduled_phone_call
+      @user.update_attributes(phone: @scheduled_phone_call.callback_phone_number)
+    end
   end
 end

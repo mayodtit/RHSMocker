@@ -27,6 +27,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
 
   validates :scheduled_at, presence: true
   validate :attrs_for_states
+  validates :callback_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
 
   after_create :if_assigned_notify_owner
 
