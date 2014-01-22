@@ -53,6 +53,13 @@ class QuestionSerializer < ViewSerializer
   end
 
   def timeline_action
-    {}
+    case object.view
+    when :gender
+      {action: 'editProfile', arguments: {allowed_fields: ['gender'], card_id: object.id}}
+    when :birthdate
+      {action: 'editProfile', arguments: {allowed_fields: ['birthdate'], card_id: object.id}}
+    else
+      []
+    end
   end
 end
