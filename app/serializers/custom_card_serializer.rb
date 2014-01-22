@@ -38,10 +38,8 @@ class CustomCardSerializer < ViewSerializer
   def card_actions
     if content
       content.card_actions
-    elsif object.card_actions.any?
-      object.card_actions
     else
-      [{normal: {title: 'Dismiss', action: :dismiss}}]
+      object.card_actions
     end
   end
 
