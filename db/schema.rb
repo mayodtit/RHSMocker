@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140122201854) do
+ActiveRecord::Schema.define(:version => 20140123223336) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -454,6 +454,10 @@ ActiveRecord::Schema.define(:version => 20140122201854) do
     t.integer  "scheduled_duration_s",  :default => 1800,         :null => false
     t.string   "callback_phone_number"
   end
+
+  add_index "scheduled_phone_calls", ["scheduled_at"], :name => "index_scheduled_phone_calls_on_scheduled_at"
+  add_index "scheduled_phone_calls", ["state", "scheduled_at"], :name => "index_scheduled_phone_calls_on_state_and_scheduled_at"
+  add_index "scheduled_phone_calls", ["state"], :name => "index_scheduled_phone_calls_on_state"
 
   create_table "side_effects", :force => true do |t|
     t.string   "name",        :null => false
