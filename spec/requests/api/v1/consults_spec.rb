@@ -12,13 +12,13 @@ shared_examples 'creates a consult' do
   end
 end
 
-shared_examples 'creates a message' do
+shared_examples 'creates a message' do |num_messages|
   it 'creates a message' do
-    expect{ do_request(params) }.to change(Message, :count).by(1)
+    expect{ do_request(params) }.to change(Message, :count).by(num_messages || 1)
     expect(response).to be_success
     body = JSON.parse(response.body, symbolize_names: true)
     consult = Consult.find(body[:consult][:id])
-    expect(consult.messages.count).to eq(1)
+    expect(consult.messages.count).to eq(num_messages || 1)
   end
 end
 
@@ -112,7 +112,7 @@ describe 'Consults' do
       let(:params) { {consult: {title: title, scheduled_phone_call: scheduled_phone_call_params}} }
 
       it_behaves_like 'creates a consult'
-      it_behaves_like 'creates a message'
+      it_behaves_like 'creates a message', 2
 
       it 'books a scheduled_phone_call' do
         expect(scheduled_phone_call.state?(:assigned)).to be_true
