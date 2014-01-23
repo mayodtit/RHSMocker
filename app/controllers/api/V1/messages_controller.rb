@@ -1,77 +1,35 @@
 class Api::V1::MessagesController < Api::V1::ABaseController
   before_filter :load_user!
-  before_filter :load_consult!, :except => [:show, :mark_read, :dismiss, :save]
-  before_filter :load_message!, :only => :show
+  before_filter :load_consult!
 
   def index
-    render_success(:consult => @consult.serializer, :messages => messages_with_message_statuses, :users => @consult.users)
-  end
-
-  def show
-    # TODO - move cardview rendering to CardsController
-    if params[:q] == 'cardview'
-      html = render_to_string(:action => "cardview", :formats => :html, :locals => {:first_paragraph => @message.previewText})
-    else
-      html = render_to_string(:action => "full", :formats => :html)
-    end
-    show_resource(@message.as_json.merge(:body => html, :encounter_id => @message.consult_id))
+    render_success(consult: @consult.serializer,
+                   messages: @consult.messages.serializer,
+                   users: @consult.users)
   end
 
   def create
-    p = create_params
-
-    if params[:message][:image].present?
-      p.merge!(image: decode_b64_image(params[:message][:image]))
-    end
-
-    create_resource(@consult.messages, p)
-    @consult.messages.create(:user => Member.robot,
-                             :text => "We have received your message and your PHA will get back to you shortly. Thank you.",
-                             :created_at => Time.now + 1.second)
-  end
-
-  def mark_read
-    render_success
-  end
-
-  def dismiss
-    mark_message_statuses(:dismissed)
-    render_success
-  end
-
-  def save
-    mark_message_statuses(:read)
-    render_success
+    create_resource(@consult.messages, message_attributes)
+    send_robot_response!
   end
 
   private
 
   def load_consult!
-    @consult = Consult.find(params[:consult_id] || params[:encounter_id])
+    @consult = Consult.find(params[:consult_id])
     authorize! :manage, @consult
   end
 
-  def load_message!
-    @message = Message.find(params[:id])
-    authorize! :manage, @message.consult
-  end
-
-  def create_params
-    (params[:message] || {}).merge!(:user_id => @user.id)
-  end
-
-  def mark_message_statuses(status)
-    params[:message].each do |message_params|
-      message = Message.find(message_params[:id])
-      authorize! :manage, message.consult
-      MessageStatus.find_by_user_id_and_message_id(@user.id, message.id).update_attributes(:status => status)
+  def message_attributes
+    params.require(:message).permit(:text, :image).tap do |attributes|
+      attributes[:user] = current_user
+      attributes[:image] = decode_b64_image(attributes[:image]) if attributes[:image]
     end
   end
 
-  def messages_with_message_statuses
-    options = Message::BASE_OPTIONS.merge(:only => :status) do |k, v1, v2|
-      v1 << v2
-    end
-    @consult.messages.with_message_statuses_for(current_user).as_json(options)
+  def send_robot_response!
+    @consult.messages.create(user: Member.robot,
+                             text: "We have received your message and your PHA will get back to you shortly. Thank you.",
+                             created_at: Time.now + 1.second)
   end
 end

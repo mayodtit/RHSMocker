@@ -1,0 +1,5 @@
+.content_card.question.birthday{data: {card_id: card.try(:id)}}
+  .content_header_card.clear
+    .content_title_card.clear= question.title.html_safe
+    .content_text_card.center
+      = link_to image_tag('cake.png', class: [:birthdate]), '#'

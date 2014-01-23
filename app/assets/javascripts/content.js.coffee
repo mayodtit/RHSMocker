@@ -3,7 +3,7 @@ $ ->
     NativeBridge.call('newConsult', {id: $(@).data("content-id"), message: $(@).data("message")})
 
   $(".new-consult").click ->
-    NativeBridge.call('newConsult', {message: $(@).data("message"), consult_type: $(@).data("consult-type")})
+    NativeBridge.call('newConsult', {card_id: $(".card").data("id"), title: $(@).data("title"), message: $(@).data("message"), consult_type: [$(@).data("consult-type")]})
 
   $(".consult-link").click ->
     if not $(@).data("consult-id")
@@ -31,6 +31,9 @@ $ ->
   $(".no-allergies").click ->
     NativeBridge.call('addAllergy', {id: $(@).data("allergy-id")})
     NativeBridge.call('saveCard', {id: $(@).data("card-id")})
+
+  $(".birthday").click ->
+    NativeBridge.call('editProfile', {allowed_fields: ['birthdate'], card_id: $(@).data("card-id")})
 
   $(".diet-question .tile").click ->
     $('.' + $(@).data('type')).toggle()

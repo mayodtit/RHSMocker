@@ -1,0 +1,16 @@
+!!! XML
+%Response
+  - if @phas_off_duty
+    %Gather{action: @select_url, numDigits: 1}
+      %Say{voice: 'woman'}
+        Hi, thanks for calling Better. As always, If you are calling about a medical
+        emergency, please hang up and dial nine one one immediately. Our PHAs are
+        currently off duty, but you can either send us a message through the Better
+        app or connect with a May oh nurse.
+      = render partial: 'off_duty_instructions'
+  - else
+    %Say{voice: 'woman'}
+      Hi, thanks for calling Better.  If you are calling about a medical
+      emergency, please hang up and dial nine one one immediately. Otherwise, a
+      personal health assistant will be right with you.
+    %Dial{callerId: "+1#{TWILIO_CALLER_ID}"} +18472048947

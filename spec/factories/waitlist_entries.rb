@@ -10,6 +10,7 @@ FactoryGirl.define do
 
     trait :claimed do
       state 'claimed'
+      association :claimer, factory: :member
       claimed_at Time.now
     end
   end

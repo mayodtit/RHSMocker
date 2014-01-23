@@ -6,11 +6,9 @@ class Member < User
   has_many :cards, :foreign_key => :user_id
   has_many :user_readings, :foreign_key => :user_id
   has_many :contents, :through => :user_readings
+  has_many :initiated_consults, class_name: Consult, foreign_key: :initiator_id
   has_many :messages, :foreign_key => :user_id
-  has_many :consult_users, :foreign_key => :user_id
-  has_many :consults, :through => :consult_users
   has_many :message_statuses, :foreign_key => :user_id
-  has_many :locations, :foreign_key => :user_id
 
   has_many :subscriptions, :foreign_key => :user_id
   has_many :plans, :through => :subscriptions
@@ -21,7 +19,9 @@ class Member < User
 
   has_many :user_feature_groups, :foreign_key => :user_id
   has_many :feature_groups, :through => :user_feature_groups
-  has_one :waitlist_entry, autosave: true
+  has_one :waitlist_entry, foreign_key: :claimer_id,
+                           inverse_of: :claimer,
+                           autosave: true
 
   accepts_nested_attributes_for :user_agreements
 
@@ -38,7 +38,6 @@ class Member < User
   before_create :set_auth_token # generate inital auth_token
   after_create :add_install_message
   after_create :add_new_member_content
-  after_create :send_welcome_message, :if => lambda{|m| m.signed_up?}
   #after_save :update_cards_for_questions!
 
   def self.name_search(string)
@@ -104,14 +103,11 @@ class Member < User
   end
 
   def add_new_member_content
+    cards.create(resource: Content.explainer, priority: 30) if Content.explainer
     Question.new_member_questions.each do |q|
       cards.create!(resource: q)
     end
     true
-  end
-
-  def send_welcome_message
-    UserMailer.welcome_email(self).deliver
   end
 
   def max_inbox_content?

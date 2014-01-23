@@ -3,12 +3,19 @@ class WaitlistEntry < ActiveRecord::Base
   TOKEN_CHARACTERS = ('a'..'z').to_a
   TOKEN_LENGTH = 5
 
-  belongs_to :member
+  belongs_to :creator, class_name: Member
+  belongs_to :claimer, class_name: Member, inverse_of: :waitlist_entry
+  belongs_to :feature_group
 
-  attr_accessible :member, :member_id, :email, :token, :state, :state_event, :invited_at, :claimed_at
+  attr_accessible :creator, :creator_id, :claimer, :claimer_id, :email, :token,
+                  :state, :state_event, :invited_at, :claimed_at,
+                  :feature_group, :feature_group_id
 
-  validates :email, presence: true, uniqueness: true
+  validates :email, presence: true, uniqueness: true, unless: lambda{|w| w.creator_id}
   validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_nil: true
+  validates :creator, presence: true, if: lambda{|w| w.creator_id}
+  validates :claimer, presence: true, if: lambda{|w| w.claimer_id}
+  validates :feature_group, presence: true, if: lambda{|w| w.feature_group_id}
 
   def self.invited
     where(state: :invited)
@@ -33,6 +40,7 @@ class WaitlistEntry < ActiveRecord::Base
     end
 
     state :claimed do
+      validates :claimer, presence: true
       validates :claimed_at, presence: true
       validate :token_is_nil
     end
@@ -50,13 +58,13 @@ class WaitlistEntry < ActiveRecord::Base
       entry.generate_token
     end
 
-    after_transition any => :invited do |entry, transition|
-      UserMailer.waitlist_invite_email(entry).deliver
-    end
-
     before_transition any => :claimed do |entry, transition|
       entry.claimed_at = Time.now
       entry.token = nil
+    end
+
+    after_transition any => :claimed do |entry, transition|
+      entry.claimer.feature_groups << entry.feature_group if entry.feature_group
     end
   end
 end

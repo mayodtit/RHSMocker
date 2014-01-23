@@ -37,7 +37,19 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   def association_params
     hash = if params[:association][:associate][:npi_number]
              npi_user = User.find_by_npi_number(params[:association][:associate][:npi_number])
-             npi_user ? {associate: npi_user} : {associate_attributes: sanitize_for_mass_assignment(search_service.find(params[:association][:associate]))}
+             if npi_user
+               {associate: npi_user}
+             else
+               search_result = search_service.find(params[:association][:associate])
+
+               # TODO: (TS) Pay off this debt - manually adding work_phone_number here is a hack.
+               # This should belong in a model somewhere, or at the very least spec-ed, as this can be easily lost
+               # if the work_phone_number key is renamed or search_service signature changes
+               # Pivotal: https://www.pivotaltracker.com/story/show/64260740
+               associate_attribs = sanitize_for_mass_assignment(search_result).merge({phone: search_result[:address][:phone]})
+
+               {associate_attributes: associate_attribs}
+             end
            else
              {associate_attributes: sanitize_for_mass_assignment(params[:association][:associate])}
            end

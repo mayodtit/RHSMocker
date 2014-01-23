@@ -44,7 +44,7 @@ class Search::Service::Bloom
 
   def sanitize_record(record)
     p = record['practice_address']
-    business_address = {
+    practice_address = {
       address_lines: prettify(p['address_line']),
       address_details_line: prettify(p['address_details_line']),
       city: prettify(p['city']),
@@ -60,7 +60,7 @@ class Search::Service::Bloom
       :first_name => prettify(record['first_name']),
       :last_name => prettify(record['last_name']),
       :npi_number => record['npi'].to_s,
-      :address => business_address,
+      :address => practice_address,
       :city => prettify(p['city']), # this line left in for backwards compatibility
       :state => p['state'],         # this line left in for backwards compatibility
       :expertise => record['credential'],

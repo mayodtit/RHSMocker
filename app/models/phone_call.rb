@@ -16,20 +16,18 @@ class PhoneCall < ActiveRecord::Base
   has_one :scheduled_phone_call
 
   attr_accessible :user, :user_id, :to_role, :to_role_id, :message, :message_attributes, :origin_phone_number,
-                  :destination_phone_number, :claimer, :claimer_id, :claimed_at,
-                  :ender, :ender_id, :ended_at, :identifier_token,
-                  :dialer_id, :dialer, :dialed_at
+                  :destination_phone_number, :claimer, :claimer_id, :ender, :ender_id,
+                  :identifier_token, :dialer_id, :dialer, :state_event
 
-  validates :user, :message, :identifier_token, presence: true
+  validates :user, :identifier_token, presence: true
   validates :identifier_token, uniqueness: true # Used for nurseline and creating unique conference calls
   validates :origin_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
   validates :destination_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: false
+  validate :attrs_for_states
 
   before_validation :prep_phone_numbers
   before_validation :generate_identifier_token
 
-  # TODO - remove this fake job when nurseline is built
-  after_create :schedule_phone_call_summary
   after_create :dial_if_outbound
 
   accepts_nested_attributes_for :message
@@ -47,6 +45,12 @@ class PhoneCall < ActiveRecord::Base
 
   def to_pha?
     to_role.name.to_sym == :pha
+  end
+
+  def self.pha_accepting_calls?
+    t = Time.now.in_time_zone('Pacific Time (US & Canada)')
+
+    return !(t.wday == 0 || t.wday == 6 || t.hour < 9 || t.hour > 17)
   end
 
   # Call mechanics
@@ -100,13 +104,14 @@ class PhoneCall < ActiveRecord::Base
     end
   end
 
-  def schedule_phone_call_summary
-    PhoneCallSummaryJob.new.queue_summary(user.id, consult.id)
-  end
-
   def prep_phone_numbers
-    self.destination_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.destination_phone_number
-    self.origin_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.origin_phone_number
+    if self.destination_phone_number_changed?
+      self.destination_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.destination_phone_number
+    end
+
+    if self.origin_phone_number_changed?
+      self.origin_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.origin_phone_number
+    end
   end
 
   state_machine :initial => lambda { |object| object.outbound? ? :dialing : :unclaimed } do
@@ -134,24 +139,35 @@ class PhoneCall < ActiveRecord::Base
       transition :claimed => :unclaimed
     end
 
-    before_transition :unclaimed => :claimed do |phone_call, transition|
-      phone_call.claimer = transition.args.first
+    before_transition :unclaimed => :claimed do |phone_call|
       phone_call.claimed_at = Time.now
     end
 
-    before_transition :claimed => :ended do |phone_call, transition|
-      phone_call.ender = transition.args.first
+    before_transition :claimed => :ended do |phone_call|
       phone_call.ended_at = Time.now
     end
 
-    before_transition :ended => :claimed do |phone_call, transition|
+    before_transition :ended => :claimed do |phone_call|
       phone_call.ender = nil
       phone_call.ended_at = nil
+      phone_call.claimed_at = Time.now
     end
 
-    before_transition :claimed => :unclaimed do |phone_call, transition|
+    before_transition :claimed => :unclaimed do |phone_call|
       phone_call.claimer = nil
       phone_call.claimed_at = nil
+    end
+  end
+
+  # TODO: Write more comprehensive tests
+  def attrs_for_states
+    state_sym = state.to_sym
+
+    case state_sym
+      when :claimed
+        validate_actor_and_timestamp_exist :claim
+      when :ended
+        validate_actor_and_timestamp_exist :end
     end
   end
 end

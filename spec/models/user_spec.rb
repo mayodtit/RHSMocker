@@ -17,8 +17,8 @@ describe User do
   end
 
   describe 'phone numbers' do
-    it_validates 'phone number format of', :phone
-    it_validates 'phone number format of', :work_phone_number
+    it_validates 'phone number format of', :phone, false, true
+    it_validates 'phone number format of', :work_phone_number, false, true
   end
 
   describe '#age' do

@@ -20,19 +20,20 @@ RHSMocker::Application.routes.draw do
       resources :cards, :only => [:show, :update]
       resources :conditions, :only => :index
       resources :consults, :only => [:index, :show, :create] do
-        resources :messages, :only => [:index, :show, :create]
-        resources :phone_calls, only: [:index, :show, :create], controller: 'consult_phone_calls'
-        resources :users, only: :index, controller: 'consult_users'
+        resources :messages, only: [:index, :create]
       end
       resources :custom_cards, only: [:index, :show, :create, :update]
       resources :custom_contents, only: [:index, :show, :create, :update]
       resources :phone_calls, only: [:index, :show, :update] do
         post 'connect/origin', on: :member, to: 'phone_calls#connect_origin'
         post 'connect/destination', on: :member, to: 'phone_calls#connect_destination'
-        post 'connect', on: :member, to: 'phone_calls#connect', on: :collection
+        post 'connect', on: :collection, to: 'phone_calls#connect'
+        get 'connect/nurse', on: :collection, to: 'phone_calls#connect_nurse'
+        get 'off_duty/menu', on: :collection, to: 'phone_calls#off_duty_menu'
+        post 'off_duty/select', on: :collection, to: 'phone_calls#off_duty_select'
         post 'status/origin', on: :member, to: 'phone_calls#status_origin'
         post 'status/destination', on: :member, to: 'phone_calls#status_destination'
-        post 'status', on: :member, to: 'phone_calls#status', on: :collection
+        post 'status', on: :collection, to: 'phone_calls#status'
       end
       resources :dashboard, only: :index
       resources :diseases, :only => :index, :controller => :conditions
@@ -40,11 +41,6 @@ RHSMocker::Application.routes.draw do
       get 'factors/:symptom_id', to: 'factor_groups#index' # TODO - deprecated!
       resources :locations, :only => :create
       resources :members, only: [:index, :show, :update]
-      resources :messages, :only => :show do
-        post :mark_read, :on => :collection
-        post :save, :on => :collection
-        post :dismiss, :on => :collection
-      end
       resources :offerings, :only => :index
       post :password_resets, to: 'reset_password#create' # TODO - deprecated!
       resources :phone_call_summaries, :only => :show
@@ -55,8 +51,8 @@ RHSMocker::Application.routes.draw do
       end
       resources :remote_events, :only => :create
       resources :reset_password, only: [:create, :show, :update]
-      resources :scheduled_phone_calls, :except => [:new, :edit] do
-        put ':state_event', to: 'scheduled_phone_calls#state_event', on: :member
+      resources :scheduled_phone_calls, except: [:new, :edit] do
+        get :available_times, on: :collection
       end
       resources :side_effects, :only => :index
       resources :symptoms, only: :index do
@@ -133,7 +129,6 @@ RHSMocker::Application.routes.draw do
     put 'reset_password', :to => 'users#reset_password_update', :on => :collection, :as => 'reset_password_update'
   end
 
-  get "/messages" => "messages#index", :as=>"messages_index"
   get "/logout" => "sessions#destroy", :as=>"logout"
   get '/login' => "sessions#new", :as=>"login"
   resources :sessions

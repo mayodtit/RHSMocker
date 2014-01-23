@@ -119,34 +119,19 @@ describe Api::V1::PhoneCallsController do
         end
 
         context 'state event is present' do
-          context 'and invalid' do
-            def do_request
-              put :update, auth_token: user.auth_token, id: phone_call.id, phone_call: {state_event: 'explode'}
-            end
+          it 'sets the actor to the current user' do
+            phone_call.should_receive(:update_attributes).with(
+              'state_event' => 'claim',
+              'claimer' => user
+            )
 
-            it_behaves_like 'failure'
+            do_request
           end
 
           context 'and valid' do
-            before do
-              phone_call.stub(:claim)
-            end
-
-            it 'calls the state event' do
-              received = false
-              phone_call.stub(:respond_to?).with(:claim) { true }
-              phone_call.should_receive(:send).at_least(:once) do |f, arg0, arg1|
-                if f == :claim && arg0 == user && arg1 == nil
-                  received = true
-                end
-              end
-
-              do_request
-            end
-
             context 'update is valid' do
               before do
-                phone_call.stub(:valid?) { true }
+                phone_call.stub(:update_attributes) { true }
               end
 
               it_behaves_like 'success'
@@ -154,7 +139,7 @@ describe Api::V1::PhoneCallsController do
 
             context 'update is not valid' do
               before do
-                phone_call.stub(:valid?) { false }
+                phone_call.stub(:update_attributes) { false }
               end
 
               it_behaves_like 'failure'
@@ -230,12 +215,79 @@ describe Api::V1::PhoneCallsController do
     end
   end
 
+  describe 'GET connect_nurse' do
+    def do_request
+      get :connect_nurse
+    end
+
+    it_behaves_like 'success'
+  end
+
   describe 'POST connect' do
     def do_request
       post :connect
     end
 
     it_behaves_like 'success'
+
+    it 'sets select url' do
+      URL_HELPERS.stub(:off_duty_select_api_v1_phone_calls_url) { '/test' }
+      do_request
+      assigns(:select_url).should == '/test'
+    end
+
+    it 'sets phas off duty' do
+      PhoneCall.stub(:pha_accepting_calls?) { true }
+      do_request
+      assigns(:phas_off_duty).should == false
+    end
+  end
+
+  describe 'GET off_duty_menu' do
+    def do_request
+      get :off_duty_menu
+    end
+
+    it_behaves_like 'success'
+
+    it 'sets select url' do
+      URL_HELPERS.stub(:off_duty_select_api_v1_phone_calls_url) { '/test' }
+      do_request
+      assigns(:select_url).should == '/test'
+    end
+  end
+
+  describe 'POST off_duty_select' do
+    def do_request(digits = '*')
+      post :off_duty_select, Digits: digits
+    end
+
+    context 'digits is *' do
+      it_behaves_like 'success'
+
+      it 'renders goodbye' do
+        do_request
+        response.should render_template(:goodbye)
+      end
+    end
+
+    context 'digits is 1' do
+      it_behaves_like 'success'
+
+      it 'redirects to connect nurse' do
+        do_request('1')
+        response.should redirect_to(action: :connect_nurse)
+      end
+    end
+
+    context 'digits is any other number' do
+      it_behaves_like 'success'
+
+      it 'redirects to connect nurse' do
+        do_request('3')
+        response.should redirect_to(action: :off_duty_menu)
+      end
+    end
   end
 
   describe 'POST status_origin' do

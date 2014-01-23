@@ -39,11 +39,28 @@ describe ScheduledPhoneCall do
     end
   end
 
+  describe 'after create' do
+    it 'notifies the owner if is assigned' do
+      spc = ScheduledPhoneCall.new(scheduled_at: 3.days.from_now, state: 'assigned', assigned_at: Time.now, assignor: create(:pha_lead), owner: create(:pha))
+      spc.should_receive :notify_owner_of_assigned_call
+      spc.save!
+    end
+
+    it 'doesn\'t notify the owner if it is not assigned' do
+      spc = build(:scheduled_phone_call)
+      spc.should_not_receive :notify_owner_of_assigned_call
+      spc.save!
+    end
+  end
+
   describe 'states' do
     let(:pha_lead) { build_stubbed(:pha_lead) }
     let(:pha) { build_stubbed(:pha) }
+    let(:other_pha) { build_stubbed(:pha) }
     let(:member) { build_stubbed(:member) }
     let(:other_scheduled_phone_call) { build(:scheduled_phone_call) }
+    let(:consult) { build :consult }
+    let(:message) { build :message, consult: consult }
 
     before do
       Timecop.freeze()
@@ -59,8 +76,10 @@ describe ScheduledPhoneCall do
 
     describe '#assign' do
       before do
-        scheduled_phone_call.assign! pha_lead, pha
+        scheduled_phone_call.update_attributes state_event: 'assign', assignor: pha_lead, owner: pha
       end
+
+      it_behaves_like 'cannot transition from', :assign!, :assigned, [:ended, :canceled, :started]
 
       it 'changes the state to assigned' do
         scheduled_phone_call.should be_assigned
@@ -70,39 +89,30 @@ describe ScheduledPhoneCall do
         scheduled_phone_call.assigned_at.should == Time.now
       end
 
-      it 'sets the assignor as the first argument' do
-        scheduled_phone_call.assignor.should == pha_lead
-      end
-
-      it 'sets the owner as the second argument' do
-        scheduled_phone_call.owner.should == pha
-      end
-
-      it 'sets both assign and owner if there is only one argument' do
-        other_scheduled_phone_call.assign! pha_lead
-        other_scheduled_phone_call.assignor.should == pha_lead
-        other_scheduled_phone_call.owner.should == pha_lead
-      end
-
       it 'notifies the owner that they were assigned' do
+        other_scheduled_phone_call.save!
         other_scheduled_phone_call.should_receive :notify_owner_of_assigned_call
-        other_scheduled_phone_call.assign! pha_lead, pha
+        other_scheduled_phone_call.update_attributes state_event: 'assign', assignor: pha_lead, owner: pha
+      end
+
+      it 'can transition to assigned again' do
+        scheduled_phone_call.update_attributes state_event: 'assign', assignor: pha_lead, owner: other_pha
+        scheduled_phone_call.should be_assigned
       end
     end
 
     describe '#book' do
-      let(:consult) { build :consult }
-      let(:message) { build :message }
 
       before do
         scheduled_phone_call.state = 'assigned'
         other_scheduled_phone_call.state = 'assigned'
         scheduled_phone_call.owner = pha
         other_scheduled_phone_call.owner = pha
-        scheduled_phone_call.message = message
 
-        scheduled_phone_call.book! pha, member
+        scheduled_phone_call.update_attributes state_event: 'book', booker: pha, user: member, message: message
       end
+
+      it_behaves_like 'cannot transition from', :book!, :booked, [:ended, :canceled, :started, :unassigned]
 
       it 'changes the state to booked' do
         scheduled_phone_call.should be_booked
@@ -112,55 +122,25 @@ describe ScheduledPhoneCall do
         scheduled_phone_call.booked_at.should == Time.now
       end
 
-      it 'sets the booker as the first argument' do
-        scheduled_phone_call.booker.should == pha
-      end
-
-      it 'sets the member as the second argument' do
-        scheduled_phone_call.user.should == member
-      end
-
-      it 'sets both assign and owner if there is only one argument' do
-        other_scheduled_phone_call.book! member
-        other_scheduled_phone_call.booker.should == member
-        other_scheduled_phone_call.user.should == member
-      end
-
-      it 'creates a welcome call consult if it doesn\'t exist' do
-        Consult.should_receive(:create!).with(
-          title: ScheduledPhoneCall::DEFAULT_CONSULT_TITLE,
-          initiator: member,
-          subject: member,
-          add_user: member
-        ) { consult }
-
-        Message.should_receive(:create!).with(
-          user: pha_lead,
-          consult: consult,
-          scheduled_phone_call: other_scheduled_phone_call
-        ) { message }
-
-        other_scheduled_phone_call.owner = pha_lead
-        other_scheduled_phone_call.state = 'assigned'
-        other_scheduled_phone_call.book! pha, member
-      end
-
       it 'notifies the owner confirming that they booked the call' do
         other_scheduled_phone_call.should_receive :notify_user_confirming_call
-        other_scheduled_phone_call.book! pha, member
+        other_scheduled_phone_call.update_attributes state_event: 'book', booker: pha, user: member, message: message
       end
 
       it 'notifies the user confirming that their call was booked' do
         other_scheduled_phone_call.should_receive :notify_owner_confirming_call
-        other_scheduled_phone_call.book! pha, member
+        other_scheduled_phone_call.update_attributes state_event: 'book', booker: pha, user: member, message: message
       end
     end
 
     describe '#start' do
       before do
         scheduled_phone_call.state = 'booked'
-        other_scheduled_phone_call.state = 'booked'
-        scheduled_phone_call.start! pha
+        scheduled_phone_call.message = message
+        scheduled_phone_call.owner = pha
+        scheduled_phone_call.user = member
+
+        scheduled_phone_call.update_attributes state_event: 'start', starter: pha
       end
 
       it_behaves_like 'cannot transition from', :start!, :start, [:ended, :canceled, :started]
@@ -172,17 +152,15 @@ describe ScheduledPhoneCall do
       it 'sets the started time' do
         scheduled_phone_call.started_at.should == Time.now
       end
-
-      it 'sets the starter as the first argument' do
-        scheduled_phone_call.starter.should == pha
-      end
     end
 
     describe '#cancel' do
       before do
         scheduled_phone_call.state = 'started'
-        other_scheduled_phone_call.state = 'started'
-        scheduled_phone_call.cancel! pha
+        scheduled_phone_call.message = message
+        scheduled_phone_call.owner = pha
+        scheduled_phone_call.user = member
+        scheduled_phone_call.update_attributes state_event: 'cancel', canceler: member
       end
 
       it_behaves_like 'cannot transition from', :cancel!, :canceled, [:ended, :canceled]
@@ -198,17 +176,15 @@ describe ScheduledPhoneCall do
       it 'sets the disabled time' do
         scheduled_phone_call.disabled_at.should == Time.now
       end
-
-      it 'sets the canceler as the first argument' do
-        scheduled_phone_call.canceler.should == pha
-      end
     end
 
     describe '#ended' do
       before do
         scheduled_phone_call.state = 'started'
-        other_scheduled_phone_call.state = 'started'
-        scheduled_phone_call.end! pha
+        scheduled_phone_call.message = message
+        scheduled_phone_call.owner = pha
+        scheduled_phone_call.user = member
+        scheduled_phone_call.update_attributes state_event: 'end', ender: pha
       end
 
       it_behaves_like 'cannot transition from', :end!, :ended, [:ended, :canceled]
@@ -219,10 +195,6 @@ describe ScheduledPhoneCall do
 
       it 'sets the ended time' do
         scheduled_phone_call.ended_at.should == Time.now
-      end
-
-      it 'sets the ender as the first argument' do
-        scheduled_phone_call.ender.should == pha
       end
     end
   end

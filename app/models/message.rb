@@ -1,123 +1,28 @@
 class Message < ActiveRecord::Base
-  belongs_to :user # that sent this message
+  belongs_to :user
   belongs_to :consult
+  belongs_to :content
+  belongs_to :phone_call, inverse_of: :message
+  belongs_to :scheduled_phone_call, inverse_of: :message
+  belongs_to :phone_call_summary, inverse_of: :message
   has_many :message_statuses
 
-  belongs_to :content
-  belongs_to :location
-  has_many :message_mayo_vocabularies
-  has_many :mayo_vocabularies, :through => :message_mayo_vocabularies
-  belongs_to :scheduled_phone_call, :inverse_of => :message
-  belongs_to :phone_call, :inverse_of => :message
-  belongs_to :phone_call_summary, :inverse_of => :message
-
-  attr_accessible :user, :user_id, :consult, :consult_id, :content, :content_id, :text,
-                  :new_location, :new_keyword_ids, :scheduled_phone_call,
-                  :scheduled_phone_call_id, :phone_call, :phone_call_id,
-                  :scheduled_phone_call_attributes, :phone_call_attributes,
-                  :created_at, :image, :phone_call_summary, :phone_call_summary_id
+  attr_accessible :user, :user_id, :consult, :consult_id, :content,
+                  :content_id, :phone_call, :phone_call_id,
+                  :scheduled_phone_call, :scheduled_phone_call_id,
+                  :phone_call_summary, :phone_call_summary_id, :text, :image,
+                  :phone_call_attributes, :scheduled_phone_call_attributes,
+                  :phone_call_summary_attributes,
+                  :created_at # for robot auto-response message
 
   validates :user, :consult, presence: true
-  validates :content, presence: true, if: lambda{|m| m.content_id.present?}
+  validates :content, presence: true, if: lambda{|m| m.content_id}
+  validates :phone_call, presence: true, if: lambda{|m| m.phone_call_id}
+  validates :scheduled_phone_call, presence: true, if: lambda{|m| m.scheduled_phone_call_id}
+  validates :phone_call_summary, presence: true, if: lambda{|m| m.phone_call_summary_id}
 
-  before_create :add_user_to_consult
-  after_create :create_message_statuses_for_users
-  after_create :notify_members
-
-  accepts_nested_attributes_for :location
-  accepts_nested_attributes_for :message_mayo_vocabularies
-  accepts_nested_attributes_for :scheduled_phone_call
   accepts_nested_attributes_for :phone_call
-
+  accepts_nested_attributes_for :scheduled_phone_call
+  accepts_nested_attributes_for :phone_call_summary
   mount_uploader :image, MessageImageUploader
-
-  def new_location=(attributes)
-    self.location_attributes = attributes.merge!(:user => user)
-  end
-
-  def new_keyword_ids=(ids)
-    self.message_mayo_vocabularies_attributes = ids.inject([]){|a, id| a << {:mayo_vocabulary_id => id, :message => self}; a}
-  end
-
-  def title
-    'Conversation with a Health Assistant'
-  end
-
-  def content_type
-    'Message'
-  end
-  alias_method :content_type_display, :content_type
-
-  def previewText
-    text.split(' ').slice(0, 21).join(' ')+"&hellip;" if text.present?
-  end
-  alias_method :preview, :previewText
-
-  BASE_OPTIONS = {:only => [:id, :text, :created_at, :consult_id],
-                  :methods => [:title, :image_url, :type],
-                  :include => {:location => {},
-                               :mayo_vocabularies => {},
-                               :content => {},
-                               :user => {:only => :id, :methods => :full_name}}}
-
-  def serializable_hash(options=nil)
-    options = BASE_OPTIONS if options.blank?
-    super(options)
-  end
-
-  def image_url
-    image.url
-  end
-
-  def self.phone_params(type, user, consult, nested_params=nil)
-    params = {user: user, consult: consult, text: phone_text(type)}
-    params.merge!((type.to_s + "_attributes").to_sym => nested_params.merge!(:user => user)) if nested_params
-    params
-  end
-
-  def self.unread_user_ids
-    joins(:message_statuses)
-    .where(:message_statuses => {:status => :unread})
-    .pluck('distinct message_statuses.user_id')
-  end
-
-  def self.with_message_statuses_for(user)
-    joins("LEFT OUTER JOIN message_statuses
-           ON message_statuses.message_id = messages.id
-           AND message_statuses.user_id = #{user.id}")
-    .select('messages.*, message_statuses.status')
-  end
-
-  def type
-    if phone_call || scheduled_phone_call || phone_call_summary
-      :system
-    else
-      :user
-    end
-  end
-
-  private
-
-  def add_user_to_consult
-    consult.add_user = user
-  end
-
-  def create_message_statuses_for_users
-    consult.members.each do |user|
-      user.message_statuses.create!(message: self, status: :unread)
-    end
-  end
-
-  def self.phone_text(type)
-    case type
-    when :phone_call
-      'A new consult has been started'
-    when :scheduled_phone_call
-      'Scheduled phone call!'
-    end
-  end
-
-  def notify_members
-    consult.notify_members
-  end
 end

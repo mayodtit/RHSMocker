@@ -4,6 +4,8 @@ class CustomCardSerializer < ViewSerializer
   attributes :id, :title, :content_id, :priority
   has_one :content
 
+  delegate :has_custom_card?, to: :object
+
   def preview
     controller.render_to_string(template: 'api/v1/cards/preview',
                                 layout: 'serializable',
@@ -38,10 +40,8 @@ class CustomCardSerializer < ViewSerializer
   def card_actions
     if content
       content.card_actions
-    elsif object.card_actions.any?
-      object.card_actions
     else
-      [{normal: {title: 'Dismiss', action: :dismiss}}]
+      object.card_actions
     end
   end
 

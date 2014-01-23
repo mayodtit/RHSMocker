@@ -1,7 +1,6 @@
 %p
   #{@scheduled_phone_call.assignor.first_name} assigned you take a Welcome Call
-  at #{@scheduled_phone_call.scheduled_at.strftime('%m-%d-%Y %H:%M')} for
-  #{@scheduled_phone_call.scheduled_duration/60} minutes.
+  for #{@scheduled_phone_call.scheduled_duration/60} minutes.
 %ol
   %li Add the attached ICS to your Better calendar.
 %p You will be notified by email when a member books this time.

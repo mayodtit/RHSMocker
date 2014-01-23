@@ -57,6 +57,9 @@ div.content_header_card {
     height: 200;
     background-color: #ececec;
     border-top: 1px solid #CCCCCC;
+    &.clear {
+      background-color: transparent;
+    }
 }
 
 div.content_title_card {
@@ -68,6 +71,9 @@ div.content_title_card {
     padding-left:  10px;
     padding-top:   5px;
     padding-right: 10px;
+    &.clear {
+      background-color: transparent;
+    }
 }
 
 .content_subtitle {
@@ -129,6 +135,11 @@ div.content_abstract{
   line-height: 21px;
   h3 {
     font-size: 18px;
+  }
+  ol {
+    li {
+      margin-bottom: 10px;
+    }
   }
 }
 
@@ -226,6 +237,7 @@ img.mayoContentImage {
 }
 
 .author-image {
+  display: none;
   float: left;
   margin-right: 10px;
   width: 69px;
@@ -239,6 +251,7 @@ img.mayoContentImage {
 }
 
 .authorImageDiv {
+  display: none;
   float:left;
   width: 69px;
   height: 84px;
@@ -342,17 +355,48 @@ table.content {
   }
 }
 
+.forest {
+  background: url(/assets/forest.png) no-repeat;
+  background-size: 100%;
+  margin: -20px 0px;
+  .content_title_card {
+    margin: 20px 0px 0px 0px;
+  }
+}
+
+.birthday {
+  background: url(/assets/birthday_background.png) no-repeat;
+  background-size: 100%;
+}
+
 .question {
+  &.center {
+    text-align: center;
+  }
   height: 124px;
   img {
-    width: 110px;
-    padding: 0px 15px;
+    width: 130px;
+    &.birthdate {
+      width: 124px;
+    }
   }
-  .left {
-    float: left;
-  }
-  .right {
-    float: right;
+  .content_text_card {
+    position: relative;
+    .birthdate {
+      position: absolute;
+      top: 72px;
+      left: 86px;
+    }
+    .left {
+      position: absolute;
+      top: 20px;
+      left: 16px;
+    }
+    .right {
+      position: absolute;
+      top: 20px;
+      right: 16px;
+    }
   }
 }
 
@@ -393,5 +437,80 @@ table.content {
     padding: 5px 0px;
     width: 70px;
     height: 55px;
+  }
+}
+
+.image-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  li {
+    padding: 10px 0px;
+    border-top: 1px solid #cccccc;
+    overflow: auto;
+    width: 100%;
+    &.last {
+      border-bottom: 1px solid #cccccc;
+      margin-bottom: 10px;
+    }
+    img {
+      width: 40px;
+      float: left;
+      padding: 5px 8px;
+    }
+    span {
+      width: 240px;
+      float: right;
+    }
+  }
+}
+
+.card-header {
+  position: relative;
+  background-color: white;
+  border-bottom: 1px solid #cccccc;
+  overflow: auto;
+  width: 100%;
+  img {
+    width: 25px;
+    float: left;
+    margin: 10px;
+    &.double {
+      width: 50px;
+    }
+  }
+  h1 {
+    font-family:"Roboto Light";
+    font-weight: 400;
+    width: 255px;
+    float: right;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 10px 0px;
+    text-align: left;
+    color: #ea7411;
+    &.double {
+      width: 230px;
+    }
+  }
+}
+
+.card-body {
+  height: 128px;
+  padding: 10px;
+  font-family:"Roboto Light";
+  font-weight: 300;
+  font-size: 16px;
+  color: #63615b;
+  &.welcome {
+    background: url(/assets/welcome_bg.png) no-repeat;
+    background-size: 100% 100%;
+  }
+  &.no-buttons {
+    height: 140px;
+  }
+  strong {
+    font-family:"Roboto";
+    font-weight: 400;
   }
 }

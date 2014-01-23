@@ -7,11 +7,17 @@ class CustomCard < ActiveRecord::Base
   serialize :timeline_action, Hash
 
   attr_accessible :content, :content_id, :title, :raw_preview, :card_actions,
-                  :timeline_actions, :priority
+                  :timeline_actions, :priority, :unique_id, :has_custom_card
 
   validates :title, :raw_preview, presence: true
+  validates :has_custom_card, inclusion: {in: [true, false]}
+  validates :unique_id, uniqueness: true, allow_blank: true
 
   before_validation :set_defaults, on: :create
+
+  def self.onboarding
+    @onboarding ||= find_by_unique_id('RHS-ONBOARDING')
+  end
 
   private
 

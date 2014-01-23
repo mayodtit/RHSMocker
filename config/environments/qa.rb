@@ -94,6 +94,6 @@ RHSMocker::Application.configure do
 
   config.after_initialize do
     Rails.application.routes.default_url_options[:protocol] = 'https'
-    Rails.application.routes.default_url_options[:host] = 'api.getbetter.com'
+    Rails.application.routes.default_url_options[:host] = 'api-qa.getbetter.com'
   end
 end

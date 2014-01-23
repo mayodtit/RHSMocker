@@ -19,17 +19,17 @@ class Ability
     end
 
     can :manage, Consult do |o|
-      o.users.include?(user)
+      o.initiator_id == user.id
     end
 
     can :manage, PhoneCallSummary do |o|
-      can? :manage, o.message.consult
+      (o.message && o.message.consult && can?(:manage, o.message.consult))
     end
 
     can :ru, ScheduledPhoneCall do |o|
       (o.state == 'assigned' && o.scheduled_at > Time.now) ||
-      o.user.id == user.id ||
-      can?(:manage, o.message.consult)
+      o.user_id == user.id ||
+      (o.message && o.message.consult && can?(:manage, o.message.consult))
     end
 
     cannot :manage, Program
@@ -57,6 +57,8 @@ class Ability
       can :ru, ScheduledPhoneCall do |o|
         o.owner.id == user.id
       end
+
+      can :index, ScheduledPhoneCall
     end
 
     if user.pha_lead?

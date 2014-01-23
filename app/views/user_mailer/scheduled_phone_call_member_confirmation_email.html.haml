@@ -1,4 +1,22 @@
 %p
-  A phone call with your Personal Health Assistant has been scheduled
-  for #{@scheduled_phone_call.scheduled_at.strftime('%m-%d-%Y %H:%M')}.
-
+  Hi #{@scheduled_phone_call.user.first_name},
+%p
+  Thank you for scheduling a welcome call with me.
+  My goal with this call is to get to know your preferences,
+  gather some essential pieces of information,
+  and see if there is anything I can do for you right away.
+%p
+  I will give you a call on
+  #{@scheduled_phone_call.scheduled_at.strftime('%B %-d, %Y')}
+  at #{@scheduled_phone_call.user.phone}.
+%p
+  %b To prep for your call:
+  %ul
+    %li Have your insurance card ready
+    %li Answer the question cards in your Better inbox
+    %li Find a comfortable and quiet spot for our call
+%p
+  Questions or cancellations? We're at your service at <a href="mailto:premium@getbetter.com">premium@getbetter.com</a>.
+%p
+  In good health,<br />
+  Clare

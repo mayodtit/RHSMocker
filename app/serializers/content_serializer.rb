@@ -6,7 +6,8 @@ class ContentSerializer < ViewSerializer
              :contentID, :contents_type, :state, :state_events,
              :card_actions, :fullscreen_actions
 
-  delegate :show_mayo_copyright?, :show_call_option?, to: :object
+  delegate :show_mayo_copyright?, :show_call_option?, :show_mayo_logo?,
+           :has_custom_card?, to: :object
   alias_method :contentID, :id
   alias_method :contents_type, :content_type
 
@@ -41,14 +42,16 @@ class ContentSerializer < ViewSerializer
   end
 
   def card_actions
-    default_card_actions << {normal: {title: 'Share', action: :share}}
+    if has_custom_card?
+      object.card_actions
+    else
+      default_card_actions
+    end
   end
 
   def fullscreen_actions
     [
       {normal: {title: 'Save', action: :save}, selected: {title: 'Dismiss', action: :dismiss}},
-      {normal: {title: 'Share', action: :share}},
-      {normal: {title: 'Add User', action: :adduser}}
     ]
   end
 

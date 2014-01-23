@@ -2,19 +2,29 @@ require 'spec_helper'
 
 describe Consult do
   it_has_a 'valid factory'
+  it_validates 'presence of', :initiator
+  it_validates 'presence of', :subject
+  it_validates 'presence of', :state
+  it_validates 'presence of', :title
+  it_validates 'foreign key of', :symptom
 
-  describe 'validations' do
-    before do
-      Consult.any_instance.stub(:set_defaults)
+  describe 'state machine' do
+    describe 'states' do
+      it 'sets the initial state to :open' do
+        expect(described_class.new.state?(:open)).to be_true
+      end
     end
 
-    it_validates 'presence of', :title
-    it_validates 'presence of', :initiator
-    it_validates 'presence of', :subject
-    it_validates 'presence of', :status
-    it_validates 'presence of', :priority
-    it_validates 'foreign key of', :symptom
-    it_validates 'inclusion of', :checked
-    it_validates 'length of', :users
+    describe 'events' do
+      describe ':close' do
+        let(:consult) { build(:consult) }
+
+        it 'changes :open to :closed' do
+          expect(consult.state?(:open)).to be_true
+          expect(consult.close).to be_true
+          expect(consult.state?(:closed)).to be_true
+        end
+      end
+    end
   end
 end

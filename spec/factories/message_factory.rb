@@ -2,18 +2,21 @@ FactoryGirl.define do
   factory :message do
     association :user, factory: :member
     consult
-    text {"I don't feel well."}
 
     trait :with_content do
       content
     end
 
-    trait :with_location do
-      location
+    trait :with_phone_call do
+      phone_call
     end
 
-    trait :with_vocabularies do
-      message_mayo_vocabularies {|mvm| [mvm.association(:message_mayo_vocabulary)]}
+    trait :with_scheduled_phone_call do
+      scheduled_phone_call
+    end
+
+    trait :with_phone_call_summary do
+      phone_call_summary
     end
   end
 end

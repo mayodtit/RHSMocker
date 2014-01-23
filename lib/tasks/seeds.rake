@@ -13,7 +13,6 @@ namespace :seeds do
                            :blood_type => 'O-',
                            :ethnic_group_id => 6)
 
-      u.consult_users.destroy_all
       u.messages.destroy_all
       u.message_statuses.destroy_all
 
@@ -174,35 +173,37 @@ namespace :seeds do
       # Create a call for a PHA
       c = Consult.create!(
         title: 'I need an appointment',
-        status: 'open',
-        priority: 'low',
+        state: 'open',
         description: 'I need someone to make an appointment for me.',
         initiator_id: m.id,
         subject_id: m.id,
-        add_user: m,
-        phone_call: {
-          message: nil,
-          destination_phone_number: '855-234-5678',
-          origin_phone_number: origin_phone_number,
-          to_role: PHA_ROLE
-        }
+        messages_attributes: [{
+          user: m,
+          phone_call_attributes: {
+            user: m,
+            destination_phone_number: '855-234-5678',
+            origin_phone_number: origin_phone_number,
+            to_role: PHA_ROLE
+          }
+        }]
       )
 
       # Create a call for a Nurse
       c = Consult.create!(
         title: 'Hip hurting',
-        status: 'open',
-        priority: 'low',
+        state: 'open',
         description: 'My hip hurts really badly.',
         initiator_id: m.id,
         subject_id: m.id,
-        add_user: m,
-        phone_call: {
-          message: nil,
-          destination_phone_number: '855-234-5678',
-          origin_phone_number: origin_phone_number,
-          to_role: NURSE_ROLE
-        }
+        messages_attributes: [{
+          user: m,
+          phone_call_attributes: {
+            user: m,
+            destination_phone_number: '855-234-5678',
+            origin_phone_number: origin_phone_number,
+            to_role: NURSE_ROLE
+          }
+        }]
       )
     end
 
@@ -283,34 +284,36 @@ namespace :seeds do
 
       fc = Consult.create!(
         title: 'Help me prep for my son for his shots',
-        status: 'open',
-        priority: 'high',
+        state: 'open',
         description: "My son needs to get shots for school. Can you help me?",
         initiator_id: m.id,
         subject_id: f.id,
-        add_user: m,
-        phone_call: {
-          message: nil,
-          destination_phone_number: '855-234-5678',
-          origin_phone_number: origin_phone_number,
-          to_role: PHA_ROLE
-        }
+        messages_attributes: [{
+          user: m,
+          phone_call_attributes: {
+            user: m,
+            destination_phone_number: '855-234-5678',
+            origin_phone_number: origin_phone_number,
+            to_role: PHA_ROLE
+          }
+        }]
       )
 
       fc = Consult.create!(
         title: 'Blood in poop',
-        status: 'open',
-        priority: 'high',
+        state: 'open',
         description: "My relative has blood in their poop.",
         initiator_id: m.id,
         subject_id: f.id,
-        add_user: m,
-        phone_call: {
-          message: nil,
-          destination_phone_number: '855-234-5678',
-          origin_phone_number: origin_phone_number,
-          to_role: NURSE_ROLE
-        }
+        messages_attributes: [{
+          user: m,
+          phone_call_attributes: {
+            user: m,
+            destination_phone_number: '855-234-5678',
+            origin_phone_number: origin_phone_number,
+            to_role: NURSE_ROLE
+          }
+        }]
       )
     end
 
@@ -372,7 +375,8 @@ namespace :seeds do
     end
 
     puts 'Creating PHAs...'
-    %w(clare@pha.getbetter.com abhik@pha.getbetter.com geoff@pha.getbetter.com paul@pha.getbetter.com mark@pha.getbetter.com).each do |email|
+    PHAS = %w(clare@pha.getbetter.com abhik@pha.getbetter.com geoff@pha.getbetter.com paul@pha.getbetter.com mark@pha.getbetter.com)
+    PHAS.each do |email|
       m = Member.find_or_create_by_email!(
         email: email,
         user_agreements_attributes: user_agreements_attributes
@@ -386,6 +390,44 @@ namespace :seeds do
       )
 
       m.add_role :pha
+    end
+
+    puts 'Creating PHAs leads...'
+    PHA_LEADS = %w(clare@lead.getbetter.com abhik@lead.getbetter.com)
+    PHA_LEADS.each do |email|
+      m = Member.find_or_create_by_email!(
+        email: email,
+        user_agreements_attributes: user_agreements_attributes
+      )
+
+      m.update_attributes!(
+        password: 'careportal',
+        password_confirmation: 'careportal',
+        first_name: email[/[^@]+/].capitalize,
+        last_name: LAST_NAMES.sample,
+      )
+
+      m.add_role :pha_lead
+    end
+
+    puts 'Creating appointments...'
+    DAY_OFFSET = [-30.days, -20.days, -10.days, 0.days, 10.days, 20.days, 30.days]
+    HOUR_OFFSET = [-2.hours, -1.hours, 0.hours, 1.hours, 2.hours]
+    5.times do
+      s = ScheduledPhoneCall.create!(
+        scheduled_at: Time.now + DAY_OFFSET.sample + HOUR_OFFSET.sample,
+      )
+    end
+
+    15.times do
+      s = ScheduledPhoneCall.new(
+        scheduled_at: Time.now + DAY_OFFSET.sample + HOUR_OFFSET.sample,
+        owner: Member.find_by_email!(PHAS.sample),
+        assignor: Member.find_by_email!(PHA_LEADS.sample),
+        assigned_at: Time.now
+      )
+      s.state = 'assigned'
+      s.save!
     end
   end
 

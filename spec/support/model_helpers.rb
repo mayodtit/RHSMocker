@@ -54,6 +54,19 @@ shared_examples 'uniqueness of' do |property, *scopes|
   end
 end
 
+shared_examples 'allows blank uniqueness of' do |property, *scopes|
+  its "#{property}" do
+    create(described_class.name.underscore.to_sym, property => nil)
+    create(described_class.name.underscore.to_sym, property => nil).should be_valid
+
+    model = create(described_class.name.underscore.to_sym, property => 'test')
+    duplicate = build_stubbed(described_class.name.underscore.to_sym,
+                              scopes.inject({property => model.send(property)}){|h,v| h[v] = model.send(v); h})
+    duplicate.should_not be_valid
+    duplicate.errors[property.to_sym].should include("has already been taken")
+  end
+end
+
 shared_examples 'length of' do |property|
   its "#{property}" do
     model = build_stubbed(described_class.name.underscore.to_sym)
@@ -85,7 +98,7 @@ shared_examples 'can transition from' do |transition, state, states|
   end
 end
 
-shared_examples 'phone number format of' do |property, disallow_nil|
+shared_examples 'phone number format of' do |property, disallow_nil, allow_blank|
   before do
     @model = build_stubbed described_class.name.underscore.to_sym
     @model.should be_valid
@@ -106,9 +119,11 @@ shared_examples 'phone number format of' do |property, disallow_nil|
     @model.should_not be_valid
   end
 
-  it 'isn\'t valid if blank' do
-    @model.send :"#{property}=",''
-    @model.should_not be_valid
+  unless allow_blank
+    it 'isn\'t valid if blank' do
+      @model.send :"#{property}=",''
+      @model.should_not be_valid
+    end
   end
 
   unless disallow_nil

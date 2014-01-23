@@ -11,11 +11,13 @@ class Content < ActiveRecord::Base
   has_many :referees, through: :content_references
   has_many :factor_contents
   has_many :factors, through: :factor_contents
+  serialize :card_actions, Array
 
   attr_accessible :title, :raw_body, :content_type, :abstract, :question, :keywords,
                   :content_updated_at, :document_id, :show_call_option,
                   :show_checker_option, :show_mayo_copyright, :type, :raw_preview,
-                  :state_event, :sensitive, :symptom_checker_gender
+                  :state_event, :sensitive, :symptom_checker_gender,
+                  :show_mayo_logo, :has_custom_card, :card_actions
 
   validates :title, :raw_body, :content_type, :document_id, presence: true
   validates :show_call_option, :show_checker_option, :show_mayo_copyright,
@@ -47,6 +49,14 @@ class Content < ActiveRecord::Base
 
   def self.install_message
     where(:title => 'Welcome to Better!').first
+  end
+
+  def self.premium
+    @premium ||= find_by_document_id('RHS-PREMIUM')
+  end
+
+  def self.explainer
+    @explainer ||= find_by_document_id('RHS-EXPLAINER')
   end
 
   # TODO - replace in future with root_share_url, move append to UserReading

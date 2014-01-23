@@ -38,9 +38,9 @@ class User < ActiveRecord::Base
 
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
-  validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_nil: true
-  validates :phone, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
-  validates :work_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
+  validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_blank: true
+  validates :phone, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
+  validates :work_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
 
   mount_uploader :avatar, AvatarUploader
 
@@ -67,7 +67,7 @@ class User < ActiveRecord::Base
                             :diet_id, :email, :ethnic_group_id, :gender, :height,
                             :deceased, :date_of_death, :npi_number, :expertise,
                             :phone, :nickname, :city, :state, :work_phone_number],
-                  :methods => [:blood_pressure, :avatar_url, :weight, :admin?, :nurse?, :pha?, :care_provider?, :ethnic_group, :diet]}
+                  :methods => [:blood_pressure, :avatar_url, :weight, :admin?, :nurse?, :pha?, :pha_lead?, :care_provider?, :ethnic_group, :diet]}
 
   def serializable_hash(options = nil)
     options = BASE_OPTIONS if options.blank?

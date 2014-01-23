@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140115181502) do
+ActiveRecord::Schema.define(:version => 20140122201854) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -109,18 +109,8 @@ ActiveRecord::Schema.define(:version => 20140115181502) do
     t.datetime "disabled_at"
   end
 
-  create_table "consult_users", :force => true do |t|
-    t.string   "role"
-    t.integer  "consult_id"
-    t.integer  "user_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
   create_table "consults", :force => true do |t|
-    t.string   "status"
-    t.string   "priority"
-    t.boolean  "checked"
+    t.string   "state"
     t.datetime "created_at",                  :null => false
     t.datetime "updated_at",                  :null => false
     t.integer  "subject_id",   :default => 0, :null => false
@@ -164,6 +154,9 @@ ActiveRecord::Schema.define(:version => 20140115181502) do
     t.string   "state"
     t.boolean  "sensitive",              :default => false, :null => false
     t.string   "symptom_checker_gender"
+    t.boolean  "show_mayo_logo",         :default => true,  :null => false
+    t.boolean  "has_custom_card",        :default => false, :null => false
+    t.text     "card_actions"
   end
 
   add_index "contents", ["document_id"], :name => "index_contents_on_document_id"
@@ -180,11 +173,13 @@ ActiveRecord::Schema.define(:version => 20140115181502) do
     t.integer  "content_id"
     t.string   "title"
     t.text     "raw_preview"
-    t.datetime "created_at",                     :null => false
-    t.datetime "updated_at",                     :null => false
+    t.datetime "created_at",                         :null => false
+    t.datetime "updated_at",                         :null => false
     t.text     "card_actions"
     t.text     "timeline_action"
-    t.integer  "priority",        :default => 0, :null => false
+    t.integer  "priority",        :default => 0,     :null => false
+    t.string   "unique_id"
+    t.boolean  "has_custom_card", :default => false, :null => false
   end
 
   create_table "delayed_jobs", :force => true do |t|
@@ -245,9 +240,10 @@ ActiveRecord::Schema.define(:version => 20140115181502) do
 
   create_table "feature_groups", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at",        :null => false
-    t.datetime "updated_at",        :null => false
+    t.datetime "created_at",                           :null => false
+    t.datetime "updated_at",                           :null => false
     t.text     "metadata_override"
+    t.boolean  "premium",           :default => false, :null => false
   end
 
   create_table "hcp_taxonomies", :force => true do |t|
@@ -281,26 +277,11 @@ ActiveRecord::Schema.define(:version => 20140115181502) do
 
   add_index "invitations", ["token"], :name => "index_invitations_on_token"
 
-  create_table "locations", :force => true do |t|
-    t.integer  "user_id"
-    t.decimal  "latitude",   :precision => 10, :scale => 6
-    t.decimal  "longitude",  :precision => 10, :scale => 6
-    t.datetime "created_at",                                :null => false
-    t.datetime "updated_at",                                :null => false
-  end
-
   create_table "mayo_vocabularies", :force => true do |t|
     t.string   "mcvid"
     t.string   "title"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-  end
-
-  create_table "message_mayo_vocabularies", :force => true do |t|
-    t.integer  "mayo_vocabulary_id"
-    t.integer  "message_id"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
   end
 
   create_table "message_statuses", :force => true do |t|
@@ -319,7 +300,6 @@ ActiveRecord::Schema.define(:version => 20140115181502) do
     t.integer  "user_id"
     t.datetime "created_at",              :null => false
     t.datetime "updated_at",              :null => false
-    t.integer  "location_id"
     t.integer  "consult_id"
     t.integer  "content_id"
     t.integer  "scheduled_phone_call_id"
@@ -456,11 +436,11 @@ ActiveRecord::Schema.define(:version => 20140115181502) do
     t.integer  "user_id"
     t.integer  "phone_call_id"
     t.datetime "scheduled_at"
-    t.datetime "created_at",                                     :null => false
-    t.datetime "updated_at",                                     :null => false
+    t.datetime "created_at",                                      :null => false
+    t.datetime "updated_at",                                      :null => false
     t.datetime "disabled_at"
     t.integer  "owner_id"
-    t.string   "state",                :default => "unassigned"
+    t.string   "state",                 :default => "unassigned"
     t.integer  "assignor_id"
     t.datetime "assigned_at"
     t.integer  "booker_id"
@@ -471,7 +451,8 @@ ActiveRecord::Schema.define(:version => 20140115181502) do
     t.datetime "canceled_at"
     t.integer  "ender_id"
     t.datetime "ended_at"
-    t.integer  "scheduled_duration_s", :default => 1800,         :null => false
+    t.integer  "scheduled_duration_s",  :default => 1800,         :null => false
+    t.string   "callback_phone_number"
   end
 
   create_table "side_effects", :force => true do |t|
@@ -695,13 +676,15 @@ ActiveRecord::Schema.define(:version => 20140115181502) do
 
   create_table "waitlist_entries", :force => true do |t|
     t.string   "email"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
     t.string   "token"
     t.string   "state"
     t.datetime "invited_at"
     t.datetime "claimed_at"
-    t.integer  "member_id"
+    t.integer  "claimer_id"
+    t.integer  "creator_id"
+    t.integer  "feature_group_id"
   end
 
   create_table "weights", :force => true do |t|
