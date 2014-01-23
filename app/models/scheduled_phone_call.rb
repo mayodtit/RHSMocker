@@ -34,13 +34,13 @@ class ScheduledPhoneCall < ActiveRecord::Base
   def user_confirmation_calendar_event
     # TODO: Copy needs to be updated
     RiCal.Event do |event|
-      event.summary = 'Scheduled phone call with Better'
-      event.description = 'Your Personal Health Assistant will call you at this time'
+      event.summary = 'Welcome call with Better'
+      event.description = 'Your Personal Health Assistant will call you at this time.'
       event.dtstart = scheduled_at
       event.dtend = scheduled_at + scheduled_duration
-      event.location = user.phone || 'TBD'
+      event.location = callback_phone_number || user.phone || 'Call'
       event.attendee = user.email
-      event.organizer = 'noreply@getbetter.com'
+      event.organizer = '"Better" <noreply@getbetter.com>'
     end
   end
 
@@ -69,7 +69,7 @@ Prep:
       eos
       event.dtstart = scheduled_at
       event.dtend = scheduled_at + scheduled_duration
-      event.location = user.phone || 'TBD'
+      event.location = callback_phone_number || user.phone || 'TBD'
       event.organizer = 'noreply@getbetter.com'
 
       # TODO: Don't think this works for Google Calendar, but it's in the right format.
