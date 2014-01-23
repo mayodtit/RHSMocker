@@ -65,7 +65,7 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
       {
         user: @user,
         scheduled_phone_call: @scheduled_phone_call,
-        created_at: Time.now + 1.second
+        created_at: Time.now + 30.seconds
       }
     else
       nil
