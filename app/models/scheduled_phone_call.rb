@@ -40,7 +40,10 @@ class ScheduledPhoneCall < ActiveRecord::Base
       event.dtend = scheduled_at + scheduled_duration
       event.location = callback_phone_number || user.phone || 'Call'
       event.attendee = user.email
-      event.organizer = '"Better" <noreply@getbetter.com>'
+      event.organizer_property = RiCal::PropertyValue::CalAddress.new(nil,
+                                                                      value: 'mailto:noreply@getbetter.com',
+                                                                      params: {'CN' => 'Better'})
+
     end
   end
 
