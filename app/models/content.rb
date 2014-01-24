@@ -71,10 +71,16 @@ class Content < ActiveRecord::Base
   end
 
   def self.random
-    published.non_sensitive
-             .where(:content_type => CONTENT_TYPES)
-             .where('document_id != ?', MayoContent::TERMS_OF_SERVICE)
-             .first(order: 'RAND()')
+    if Program.general
+      published.non_sensitive
+               .where(id: Program.general.contents.pluck(:id))
+               .first(order: 'RAND()')
+    else
+      published.non_sensitive
+               .where(:content_type => CONTENT_TYPES)
+               .where('document_id != ?', MayoContent::TERMS_OF_SERVICE)
+               .first(order: 'RAND()')
+    end
   end
 
   def content_type_display
