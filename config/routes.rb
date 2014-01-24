@@ -54,6 +54,7 @@ RHSMocker::Application.routes.draw do
       resources :scheduled_phone_calls, except: [:new, :edit] do
         get :available_times, on: :collection
       end
+      resources :provider_call_logs, only: :create
       resources :side_effects, :only => :index
       resources :symptoms, only: :index do
         resources :factor_groups, only: :index
