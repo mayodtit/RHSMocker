@@ -24,6 +24,12 @@ $ ->
     NativeBridge.call('setGender', {gender: $(@).data("gender")})
     NativeBridge.call('saveCard', {id: $(@).data("card-id")})
 
+  $(".click-save").click ->
+    NativeBridge.call('saveCard', {id: $(".card").data("id")})
+
+  $(".click-dismiss").click ->
+    NativeBridge.call('dismissCard', {id: $(".card").data("id")})
+
   $(".allergies").click ->
     NativeBridge.call('openPage', {page: "allergies"})
     NativeBridge.call('saveCard', {id: $(@).data("card-id")})
