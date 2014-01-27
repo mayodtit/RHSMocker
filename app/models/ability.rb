@@ -7,11 +7,22 @@ class Ability
     alias_action :read, :update, :to => :ru
 
     can :manage, User do |u|
-      user.id == u.id || user.associates.find_by_id(u.id)
+      if user.id == u.id || user.associates.find_by_id(u.id)
+        true
+      else
+        can_manage = false
+        user.associates.each do |a|
+          if a.associates.find_by_id(u.id)
+            can_manage = true
+            break
+          end
+        end
+        can_manage
+      end
     end
 
     can :manage, Association do |a|
-      user.associations.include?(a)
+      user.associations.include?(a) || can?(:manage, a.user)
     end
 
     can :manage, [BloodPressure, UserTreatment, UserAllergy, UserCondition, Weight, Card, Subscription] do |o|
