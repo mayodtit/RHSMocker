@@ -74,8 +74,10 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
 
   def pha_message
     <<-eos
-Hi there!
+Hi #{@user.first_name.present? ? @user.first_name : 'there'}!
+
 I'm #{@scheduled_phone_call.owner.first_name} and I'll be your Personal Health Assistant.
+
 I'm looking forward to starting our conversation with an old fashioned telephone call.
 
 To get ready:
