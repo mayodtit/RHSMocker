@@ -101,7 +101,7 @@ RHSMocker::Application.routes.draw do
         end
         resources :weights, :only => [:index, :create, :destroy]
       end
-      resources :waitlist_entries, only: :create
+      resources :waitlist_entries, only: [:index, :create]
       resources :invitations, :only => [:create, :show, :update]
       get 'roles/:role_name/members' => 'roles#members', as: 'members_with_role'
 
