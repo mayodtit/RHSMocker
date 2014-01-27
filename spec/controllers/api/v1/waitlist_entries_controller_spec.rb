@@ -62,5 +62,38 @@ describe Api::V1::WaitlistEntriesController do
 
       it_behaves_like 'failure'
     end
+
+    context 'admin logged in', user: :authenticate! do
+      def do_request
+        post :create, auth_token: user.auth_token
+      end
+
+      it_behaves_like 'action requiring authorization'
+
+      context 'authorized', user: :authorize! do
+        it 'attempts to create the record' do
+          WaitlistEntry.should_receive(:create).once
+          do_request
+        end
+
+        context 'save succeeds' do
+          it_behaves_like 'success'
+
+          it 'returns the waitlist_entry' do
+            do_request
+            json = JSON.parse(response.body)
+            json['waitlist_entry'].to_json.should == waitlist_entry.as_json.to_json
+          end
+        end
+
+        context 'save fails' do
+          before do
+            waitlist_entry.errors.add(:base, :invalid)
+          end
+
+          it_behaves_like 'failure'
+        end
+      end
+    end
   end
 end
