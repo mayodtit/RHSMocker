@@ -74,5 +74,12 @@ module RHSMocker
                                                    'CanCan::AccessDenied' => :forbidden)
 
     config.middleware.use 'Raddocs::Middleware'
+
+    def load_console
+      super
+      if File.exists?(irbrc = File.join(Rails.root, '.irbrc'))
+        load(irbrc)
+      end
+    end
   end
 end
