@@ -143,13 +143,13 @@ class SymptomCheckerParser
   end
 
   def get_conditions!
-    advance_index_to_match!('DS')
+    advance_index_to_match!(/[A-Z]{2}[0-9]{5}/)
     @attributes[:conditions] = []
     while @index < (@lines.count - 1)
       while @lines[@index].blank?
         @index += 1
       end
-      return unless /DS|AN|HQ|HA|FA/.match(@lines[@index].split(' ')[0])
+      return unless /[A-Z]{2}[0-9]{5}/.match(@lines[@index].split(' ')[0])
       case @lines[@index].in_brackets
       when 'female'
         gender = 'F'
