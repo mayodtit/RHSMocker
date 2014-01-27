@@ -47,7 +47,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def convert_nested_attributes!
     %w(user_information address insurance_policy provider).each do |key|
-      params[:member]["#{key}_attributes".to_sym] = params[:member][key.to_sym]
+      params[:member]["#{key}_attributes".to_sym] = params[:member][key.to_sym] if params[:member][key.to_sym]
     end
   end
 
@@ -62,9 +62,12 @@ class Api::V1::MembersController < Api::V1::ABaseController
   end
 
   def member_json
-    @member.as_json(include: [:user_information, :ethnic_group, :diet, :address,
-                              :insurance_policy, :provider],
-                    methods: [:blood_pressure, :avatar_url, :weight, :admin?,
-                              :nurse?])
+    options = Member::BASE_OPTIONS.merge(include: [:user_information, :ethnic_group, :diet, :address,
+                                                   :insurance_policy, :provider],
+                                         methods: [:blood_pressure, :avatar_url, :weight, :admin?,
+                                                   :nurse?]) do |k, v1, v2|
+                                            v1.is_a?(Array) ? v1 + v2 : [v1] + v2
+                                         end
+    @member.as_json(options)
   end
 end
