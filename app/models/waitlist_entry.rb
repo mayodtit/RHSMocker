@@ -5,16 +5,19 @@ class WaitlistEntry < ActiveRecord::Base
 
   belongs_to :creator, class_name: Member
   belongs_to :claimer, class_name: Member, inverse_of: :waitlist_entry
+  belongs_to :revoker, class_name: Member
   belongs_to :feature_group
 
   attr_accessible :creator, :creator_id, :claimer, :claimer_id, :email, :token,
                   :state, :state_event, :invited_at, :claimed_at,
-                  :feature_group, :feature_group_id
+                  :feature_group, :feature_group_id, :revoker, :revoker_id,
+                  :revoked_at
 
   validates :email, presence: true, uniqueness: true, unless: lambda{|w| w.creator_id}
   validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_nil: true
   validates :creator, presence: true, if: lambda{|w| w.creator_id}
   validates :claimer, presence: true, if: lambda{|w| w.claimer_id}
+  validates :revoker, presence: true, if: lambda{|w| w.revoker_id}
   validates :feature_group, presence: true, if: lambda{|w| w.feature_group_id}
 
   def self.invited
@@ -28,11 +31,13 @@ class WaitlistEntry < ActiveRecord::Base
     end
   end
 
-  private
+  protected
 
   def token_is_nil
     errors.add(:token, 'must be cleared') unless token.nil?
   end
+
+  private
 
   state_machine initial: :waiting do
     state :invited do
@@ -40,9 +45,13 @@ class WaitlistEntry < ActiveRecord::Base
     end
 
     state :claimed do
-      validates :claimer, presence: true
-      validates :claimed_at, presence: true
-      validate :token_is_nil
+      validates :claimer, :claimed_at, presence: true
+      validate {|entry| entry.token_is_nil}
+    end
+
+    state :revoked do
+      validates :revoker, :revoked_at, presence: true
+      validate {|entry| entry.token_is_nil}
     end
 
     event :invite do
@@ -53,6 +62,10 @@ class WaitlistEntry < ActiveRecord::Base
       transition :invited => :claimed
     end
 
+    event :revoke do
+      transition any - :revoke => :revoked
+    end
+
     before_transition any => :invited do |entry, transition|
       entry.invited_at = Time.now
       entry.generate_token
@@ -60,6 +73,11 @@ class WaitlistEntry < ActiveRecord::Base
 
     before_transition any => :claimed do |entry, transition|
       entry.claimed_at = Time.now
+      entry.token = nil
+    end
+
+    before_transition any => :revoked do |entry, transition|
+      entry.revoked_at = Time.now
       entry.token = nil
     end
 

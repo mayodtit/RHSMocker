@@ -6,6 +6,7 @@ describe WaitlistEntry do
   it_has_a 'valid factory'
   it_has_a 'valid factory', :invited
   it_has_a 'valid factory', :claimed
+  it_has_a 'valid factory', :revoked
   it_validates 'presence of', :email
   it_validates 'uniqueness of', :email
   it 'validates email format' do
@@ -15,6 +16,7 @@ describe WaitlistEntry do
   end
   it_validates 'foreign key of', :creator
   it_validates 'foreign key of', :claimer
+  it_validates 'foreign key of', :revoker
   it_validates 'foreign key of', :feature_group
 
   describe '#generate_token' do
@@ -63,6 +65,28 @@ describe WaitlistEntry do
         it 'validates presence of claimed_at' do
           expect(waitlist_entry).to be_valid
           waitlist_entry.claimed_at = nil
+          expect(waitlist_entry).to_not be_valid
+        end
+
+        it 'validates token is nil' do
+          expect(waitlist_entry).to be_valid
+          waitlist_entry.token = 'abcde'
+          expect(waitlist_entry).to_not be_valid
+        end
+      end
+
+      describe 'revoked' do
+        let(:waitlist_entry) { build(:waitlist_entry, :revoked) }
+
+        it 'validates presence of revoker' do
+          expect(waitlist_entry).to be_valid
+          waitlist_entry.revoker = nil
+          expect(waitlist_entry).to_not be_valid
+        end
+
+        it 'validates presence of revoked_at' do
+          expect(waitlist_entry).to be_valid
+          waitlist_entry.revoked_at = nil
           expect(waitlist_entry).to_not be_valid
         end
 
@@ -125,6 +149,27 @@ describe WaitlistEntry do
             expect(waitlist_entry.claim).to be_true
             expect(claimer.feature_groups).to include(feature_group)
           end
+        end
+      end
+
+      describe 'revoke' do
+        let(:waitlist_entry) { build(:waitlist_entry, :invited, revoker: create(:member)) }
+
+        it 'sets state to revoked' do
+          expect(waitlist_entry.revoke).to be_true
+          expect(waitlist_entry.state?(:revoked)).to be_true
+        end
+
+        it 'sets revoked_at' do
+          expect(waitlist_entry.revoked_at).to be_nil
+          expect(waitlist_entry.revoke).to be_true
+          expect(waitlist_entry.revoked_at).to_not be_nil
+        end
+
+        it 'unsets the token' do
+          expect(waitlist_entry.token).to_not be_nil
+          expect(waitlist_entry.revoke).to be_true
+          expect(waitlist_entry.token).to be_nil
         end
       end
     end

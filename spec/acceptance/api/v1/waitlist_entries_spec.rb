@@ -22,6 +22,17 @@ resource "WaitlistEntries" do
         expect(body[:waitlist_entries].to_json).to eq([waitlist_entry].as_json.to_json)
       end
     end
+
+    delete '/api/v1/waitlist_entries/:id' do
+      let(:id) { waitlist_entry.id }
+      let(:raw_post) { params.to_json }
+
+      example_request '[DELETE] Revoke a waitlist_entry' do
+        explanation 'Revokes a waitlist_entry'
+        expect(status).to eq(200)
+        expect(waitlist_entry.reload.state?(:revoked)).to be_true
+      end
+    end
   end
 
   post '/api/v1/waitlist_entries' do

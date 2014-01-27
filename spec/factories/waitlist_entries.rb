@@ -13,5 +13,11 @@ FactoryGirl.define do
       association :claimer, factory: :member
       claimed_at Time.now
     end
+
+    trait :revoked do
+      state 'revoked'
+      association :revoker, factory: :member
+      revoked_at Time.now
+    end
   end
 end

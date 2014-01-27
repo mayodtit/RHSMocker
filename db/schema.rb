@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140123223336) do
+ActiveRecord::Schema.define(:version => 20140127195731) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -697,6 +697,8 @@ ActiveRecord::Schema.define(:version => 20140123223336) do
     t.integer  "claimer_id"
     t.integer  "creator_id"
     t.integer  "feature_group_id"
+    t.integer  "revoker_id"
+    t.datetime "revoked_at"
   end
 
   create_table "weights", :force => true do |t|

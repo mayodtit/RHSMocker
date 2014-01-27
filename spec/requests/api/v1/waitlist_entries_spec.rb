@@ -18,6 +18,18 @@ describe 'WaitlistEntry' do
         expect(body[:waitlist_entries].to_json).to eq([waitlist_entry].as_json.to_json)
       end
     end
+
+    describe 'DELETE /api/v1/waitlist_entries/:id' do
+      def do_request(params={})
+        delete "/api/v1/waitlist_entries/#{waitlist_entry.id}", auth_token: admin.auth_token
+      end
+
+      it 'revokes the waitlist_entry' do
+        do_request
+        expect(response).to be_success
+        expect(waitlist_entry.reload.state?(:revoked)).to be_true
+      end
+    end
   end
 
   describe 'POST /api/v1/waitlist_entries' do
