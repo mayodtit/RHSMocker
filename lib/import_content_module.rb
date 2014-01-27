@@ -15,5 +15,21 @@ module ImportContentModule
     def remove_leading_numbered_list
       self.gsub(/^No\. \d+: /, '')
     end
+
+    def remove_parens
+      self.gsub(/\(.*\)/, '')
+    end
+
+    def remove_last_parens
+      self.gsub(/\((?!.*\().*\)+$/, '')
+    end
+
+    def in_brackets
+      self.gsub(/.*\[|\].*/, '')
+    end
+
+    def remove_brackets
+      self.gsub(/\[.*\]/, '')
+    end
   end
 end
