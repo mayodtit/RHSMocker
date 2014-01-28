@@ -1,5 +1,5 @@
 class Api::V1::WaitlistEntriesController < Api::V1::ABaseController
-  before_filter :load_waitlist_entry!, only: :destroy
+  before_filter :load_waitlist_entry!, only: [:update, :destroy]
 
   def index
     authorize! :manage, WaitlistEntry
@@ -8,6 +8,10 @@ class Api::V1::WaitlistEntriesController < Api::V1::ABaseController
 
   def create
     create_resource WaitlistEntry, waitlist_entry_create_attributes
+  end
+
+  def update
+    update_resource @waitlist_entry, waitlist_entry_update_attributes
   end
 
   def destroy
@@ -39,6 +43,12 @@ class Api::V1::WaitlistEntriesController < Api::V1::ABaseController
       end
     else
       params.require(:waitlist_entry).permit(:email)
+    end
+  end
+
+  def waitlist_entry_update_attributes
+    params.require(:waitlist_entry).permit(:feature_group_id, :state_event).tap do |attributes|
+      attributes.merge!(revoker: current_user) if attributes[:state_event] == :revoke
     end
   end
 end

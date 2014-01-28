@@ -97,6 +97,42 @@ describe Api::V1::WaitlistEntriesController do
     end
   end
 
+  describe 'PUT update' do
+    def do_request
+      put :update, waitlist_entry: {state_event: :invite}
+    end
+
+    before do
+      WaitlistEntry.stub(find: waitlist_entry)
+    end
+
+    it_behaves_like 'action requiring authentication and authorization'
+
+    context 'authenticated and authorized', user: :authenticate_and_authorize! do
+      it 'attempts to update the record' do
+        waitlist_entry.should_receive(:update_attributes).once
+        do_request
+      end
+
+      context 'update succeeds' do
+        before do
+          waitlist_entry.stub(update_attributes: true)
+        end
+
+        it_behaves_like 'success'
+      end
+
+      context 'update fails' do
+        before do
+          waitlist_entry.stub(update_attributes: false)
+          waitlist_entry.errors.add(:base, :invalid)
+        end
+
+        it_behaves_like 'failure'
+      end
+    end
+  end
+
   describe 'DELETE destroy' do
     def do_request
       delete :destroy

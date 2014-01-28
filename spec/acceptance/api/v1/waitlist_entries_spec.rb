@@ -23,6 +23,23 @@ resource "WaitlistEntries" do
       end
     end
 
+    put '/api/v1/waitlist_entries/:id' do
+      let(:id) { waitlist_entry.id }
+      let(:state_event) { :invite }
+      let(:raw_post) { params.to_json }
+
+      parameter :state_event, 'State machine event'
+      parameter :feature_group_id, 'FeatureGroup for claimer'
+
+      example_request '[PUT] Update a waitlist_entry' do
+        explanation 'updates a waitlist_entry'
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:waitlist_entry].to_json).to eq(waitlist_entry.reload.as_json.to_json)
+        expect(waitlist_entry.reload.state?(:invited)).to be_true
+      end
+    end
+
     delete '/api/v1/waitlist_entries/:id' do
       let(:id) { waitlist_entry.id }
       let(:raw_post) { params.to_json }

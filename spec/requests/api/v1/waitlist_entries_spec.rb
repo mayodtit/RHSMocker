@@ -19,6 +19,20 @@ describe 'WaitlistEntry' do
       end
     end
 
+    describe 'PUT /api/v1/waitlist_entries/:id' do
+      def do_request(params={})
+        put "/api/v1/waitlist_entries/#{waitlist_entry.id}", params.merge!(auth_token: admin.auth_token)
+      end
+
+      it 'updates the waitlist_entry' do
+        do_request(waitlist_entry: {state_event: :invite})
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:waitlist_entry].to_json).to eq(waitlist_entry.reload.as_json.to_json)
+        expect(waitlist_entry.state?(:invited)).to be_true
+      end
+    end
+
     describe 'DELETE /api/v1/waitlist_entries/:id' do
       def do_request(params={})
         delete "/api/v1/waitlist_entries/#{waitlist_entry.id}", auth_token: admin.auth_token
