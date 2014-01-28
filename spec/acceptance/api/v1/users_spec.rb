@@ -5,11 +5,9 @@ resource 'Users' do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  let(:reset_password_token) { 'TOKEN' }
   let(:current_password) { 'current_password' }
-  let(:new_password) { 'new_password' }
-  let(:user) { create(:user_with_email, :password => current_password,
-                                        :password_confirmation => current_password).tap{|u| u.login} }
+  let(:user) { create(:member, password: current_password,
+                               password_confirmation: current_password) }
 
   get '/api/v1/users' do
     parameter :auth_token, "User's Auth token"
@@ -67,45 +65,26 @@ resource 'Users' do
     end
   end
 
-  describe 'DEPRECATED update email address' do
-    parameter :auth_token, "User's auth token"
-    parameter :password, "User's password; for verification"
-    parameter :email, "New email address"
-    required_parameters :auth_token, :password, :email
-
-    post '/api/v1/user/update_email' do
-      let(:auth_token) { user.auth_token }
-      let(:password) { current_password }
-      let(:email) { 'new_email@address.com' }
-      let(:raw_post) { params.to_json }
-
-      example_request "[POST] Change the email" do
-        explanation "Returns the user"
-        status.should == 200
-        response = JSON.parse(response_body, :symbolize_names => true)
-        user.reload.email.should == email
-        response[:user].to_json.should == user.as_json.to_json
-      end
-    end
-  end
-
-  describe 'DEPRECATED update password' do
+  put '/api/v1/users/:id/secure_update' do
     parameter :auth_token, "User's auth token"
     parameter :current_password, "User's current password"
-    parameter :password, "New account password"
-    required_parameters :auth_token, :current_password, :password
+    parameter :email, 'New email for the current user'
+    parameter :password, 'New password for the current user'
+    scope_parameters :user, [:current_password, :email, :password]
+    required_parameters :auth_token, :current_password
 
-    post '/api/v1/user/update_password' do
-      let(:auth_token) { user.auth_token }
-      let(:password) { "new_password" }
-      let(:raw_post) { params.to_json }
+    let(:id) { user.id }
+    let(:auth_token) { user.auth_token }
+    let(:email) { 'new_email@test.com' }
+    let(:password) { 'new_password' }
+    let(:raw_post) { params.to_json }
 
-      example_request "[POST] Change the password" do
-        explanation "Returns the user"
-        status.should == 200
-        response = JSON.parse(response_body, :symbolize_names => true)
-        response[:user].to_json.should == user.reload.as_json.to_json
-      end
+    example_request "[PUT] Update the current_user's secure attributes" do
+      explanation "Updates the current_user's email or password"
+      expect(status).to be(200)
+      body = JSON.parse(response_body, symbolize_names: true)
+      expect(body[:user].to_json).to eq(user.reload.as_json.to_json)
+      expect(user.email).to eq(email)
     end
   end
 
