@@ -1,5 +1,3 @@
-require './lib/utils/phone_number_util'
-
 class User < ActiveRecord::Base
   serialize :client_data, Hash
 

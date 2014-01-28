@@ -1,4 +1,3 @@
-require './lib/utils/phone_number_util'
 require 'twilio-ruby'
 
 class PhoneCall < ActiveRecord::Base

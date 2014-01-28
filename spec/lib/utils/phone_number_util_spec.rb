@@ -1,5 +1,3 @@
-require './lib/utils/phone_number_util'
-
 describe PhoneNumberUtil do
   describe '#prep_phone_number_for_db' do
     it 'returns nil if the input phone number is nil' do
