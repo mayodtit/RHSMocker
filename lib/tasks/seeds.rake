@@ -431,6 +431,29 @@ namespace :seeds do
     end
   end
 
+  desc "Seed with some unresolved calls to PHAs."
+  task :calls => :environment do
+    PHA_ROLE = Role.find_by_name! :pha
+    m = Member.first
+
+    c = Consult.create!(
+      title: 'I need an appointment',
+      state: 'open',
+      description: 'I need someone to make an appointment for me.',
+      initiator_id: m.id,
+      subject_id: m.id,
+      messages_attributes: [{
+        user: m,
+        phone_call_attributes: {
+          user: m,
+          destination_phone_number: '8552345678',
+          origin_phone_number: '4083913578',
+          to_role: PHA_ROLE
+        }
+      }]
+    )
+  end
+
   def user_agreements_attributes
     return [] unless Agreement.active
     [

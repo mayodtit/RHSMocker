@@ -62,6 +62,8 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
     @select_url = URL_HELPERS.off_duty_select_api_v1_phone_calls_url
     @phas_off_duty = !PhoneCall::pha_accepting_calls?
 
+    phone_call = PhoneCall.resolve params['From']
+
     render formats: [:xml]
   end
 

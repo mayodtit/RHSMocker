@@ -8,7 +8,17 @@ module PhoneNumberUtil
 
     phone_number = phone_number.to_s
     phone_number = phone_number.gsub /[^\d]/, ''
+
+    if phone_number.length == 11 && phone_number[0] == '1'
+      phone_number = phone_number[1..-1]
+    end
+
     phone_number
+  end
+
+  # Assumes phone number is 10-digits
+  def self.is_valid_caller_id(phone_number)
+    !%(7378742833 0000123456 2562533 8656696 266696687).include? phone_number
   end
 
   def self.format_for_dialing(phone_number)

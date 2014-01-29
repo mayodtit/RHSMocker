@@ -225,7 +225,11 @@ describe Api::V1::PhoneCallsController do
 
   describe 'POST connect' do
     def do_request
-      post :connect
+      post :connect, From: '+14083913578'
+    end
+
+    before do
+      PhoneCall.stub(:resolve)
     end
 
     it_behaves_like 'success'
@@ -240,6 +244,11 @@ describe Api::V1::PhoneCallsController do
       PhoneCall.stub(:pha_accepting_calls?) { true }
       do_request
       assigns(:phas_off_duty).should == false
+    end
+
+    it 'resolves the phone call' do
+      PhoneCall.should_receive(:resolve).with('+14083913578')
+      do_request
     end
   end
 

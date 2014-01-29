@@ -1,6 +1,7 @@
 class String
   def event_actor
     return 'assignor' if self == 'assign'
+    return "#{self}r" if self[-1] == 'e'
     "#{self}er"
   end
 
@@ -9,6 +10,7 @@ class String
   end
 
   def event_state
+    return "#{self}d" if self[-1] == 'e'
     "#{self}ed"
   end
 

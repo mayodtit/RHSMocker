@@ -19,8 +19,8 @@ ActiveRecord::Schema.define(:version => 20140130174616) do
     t.string   "city"
     t.string   "state"
     t.string   "postal_code"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "agreements", :force => true do |t|
@@ -355,6 +355,8 @@ ActiveRecord::Schema.define(:version => 20140130174616) do
     t.integer  "to_role_id",               :default => 1
     t.integer  "dialer_id"
     t.datetime "dialed_at"
+    t.integer  "resolver"
+    t.datetime "resolved_at"
   end
 
   add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"
@@ -398,9 +400,9 @@ ActiveRecord::Schema.define(:version => 20140130174616) do
   end
 
   create_table "provider_call_logs", :force => true do |t|
-    t.integer  "user_id"
     t.string   "npi"
     t.integer  "number"
+    t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -412,8 +414,8 @@ ActiveRecord::Schema.define(:version => 20140130174616) do
     t.string   "state"
     t.string   "postal_code"
     t.string   "phone"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "questions", :force => true do |t|
@@ -599,8 +601,8 @@ ActiveRecord::Schema.define(:version => 20140130174616) do
 
   create_table "user_informations", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
     t.text     "notes"
   end
 

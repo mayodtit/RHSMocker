@@ -8,7 +8,6 @@ describe PhoneCall do
       PhoneCall.any_instance.stub(:generate_identifier_token)
     end
 
-    it_validates 'presence of', :user
     it_validates 'presence of', :identifier_token
     it_validates 'uniqueness of', :identifier_token
   end
@@ -147,7 +146,7 @@ describe PhoneCall do
         URL_HELPERS.stub(:status_origin_api_v1_phone_call_url).with(phone_call) { status_url }
 
         PhoneCall.twilio.account.calls.should_receive(:create).with(
-          from: "1#{TWILIO_CALLER_ID}",
+          from: "1#{PHA_NUMBER}",
           to: "1#{phone_call.origin_phone_number}",
           url: connect_url,
           method: 'POST',
@@ -165,7 +164,7 @@ describe PhoneCall do
         URL_HELPERS.stub(:status_destination_api_v1_phone_call_url).with(phone_call) { status_url }
 
         PhoneCall.twilio.account.calls.should_receive(:create).with(
-          from: "1#{TWILIO_CALLER_ID}",
+          from: "1#{PHA_NUMBER}",
           to: "1#{phone_call.destination_phone_number}",
           url: connect_url,
           method: 'POST',
@@ -174,6 +173,111 @@ describe PhoneCall do
         )
 
         phone_call.dial_destination
+      end
+    end
+  end
+
+  describe '#resolve' do
+    let(:phone_call) { build(:phone_call, to_role: build(:role, name: 'nurse')) }
+    let(:role) { build(:role) }
+    let(:phone_number) { '+14083913578' }
+
+    before do
+      Role.stub(:find_by_name!).with(:pha) { role }
+    end
+
+    context 'phone number is not valid caller id' do
+      before do
+        PhoneNumberUtil.stub(:is_valid_caller_id) { false }
+      end
+
+      it 'creates a phone call with nil origin phone number' do
+        PhoneCall.should_receive(:create).with(
+          origin_phone_number: nil,
+          destination_phone_number: PHA_NUMBER,
+          to_role: role,
+          state_event: :resolve
+        )
+
+        PhoneCall.resolve(phone_number)
+      end
+    end
+
+    context 'phone number is valid caller id' do
+      let(:db_phone_number) { PhoneNumberUtil::prep_phone_number_for_db(phone_number) }
+
+      before do
+        PhoneNumberUtil.stub(:is_valid_caller_id) { true }
+      end
+
+      context 'unresolved phone call exists' do
+        before do
+          PhoneCall.stub(:where).with(state: :unresolved, origin_phone_number: db_phone_number) do
+            o = Object.new
+            o.stub(:first).with(order: 'id desc', limit: 1) do
+              phone_call
+            end
+            o
+          end
+        end
+
+        it 'resolves the phone call' do
+          phone_call.should_receive(:resolve)
+          PhoneCall.resolve(phone_number).should == phone_call
+        end
+
+        it 'does not create a phone call' do
+          PhoneCall.should_not_receive(:create)
+          PhoneCall.resolve(phone_number)
+        end
+      end
+
+      context 'unresolved phone call does not exist' do
+        before do
+          PhoneCall.stub(:where).with(state: :unresolved, origin_phone_number: db_phone_number) do
+            o = Object.new
+            o.stub(:first).with(order: 'id desc', limit: 1) do
+              nil
+            end
+            o
+          end
+        end
+
+        context 'member with phone exists' do
+          let(:member) { build(:member) }
+          before do
+            Member.stub(:find_by_phone).with(db_phone_number) { member }
+          end
+
+          it 'creates a PhoneCall' do
+            PhoneCall.should_receive(:create).with(
+              user: member,
+              origin_phone_number: db_phone_number,
+              destination_phone_number: PHA_NUMBER,
+              to_role: role,
+              state_event: :resolve
+            ) { phone_call }
+
+            PhoneCall.resolve(phone_number).should == phone_call
+          end
+        end
+
+        context 'member with phone does not exist' do
+          before do
+            Member.stub(:find_by_phone).with(db_phone_number) { nil }
+          end
+
+          it 'creates a PhoneCall without a member' do
+            PhoneCall.should_receive(:create).with(
+              origin_phone_number: db_phone_number,
+              destination_phone_number: PHA_NUMBER,
+              to_role: role,
+              state_event: :resolve
+            ) { phone_call }
+
+            PhoneCall.resolve(phone_number).should == phone_call
+          end
+        end
       end
     end
   end
@@ -191,15 +295,36 @@ describe PhoneCall do
       Timecop.return
     end
 
-    describe 'initial state' do
-      it 'is unclaimed when it\'s an inbound call' do
-        phone_call = create(:phone_call, to_role: build(:role))
+    describe '#initial state' do
+      it 'is unresolved when it\'s an inbound call to a pha' do
+        phone_call = create(:phone_call, to_role: build(:role, name: 'pha'))
+        phone_call.should be_unresolved
+      end
+
+      it 'is unclaimed when it\'s an inbound call to a nurse' do
+        phone_call = create(:phone_call, to_role: build(:role, name: 'nurse'))
         phone_call.should be_unclaimed
       end
 
       it 'is dialing when it\'s an outbound call' do
         phone_call = create(:phone_call, to_role: nil)
         phone_call.should be_dialing
+      end
+    end
+
+    describe '#resolve!' do
+      let(:phone_call) { build(:phone_call, to_role: build(:role, name: 'pha')) }
+
+      before do
+        phone_call.resolve!
+      end
+
+      it 'changes the state to unclaimed' do
+        phone_call.should be_unclaimed
+      end
+
+      it 'sets the claimed time' do
+        phone_call.resolved_at.should == Time.now
       end
     end
 
