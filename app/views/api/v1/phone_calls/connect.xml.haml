@@ -7,10 +7,16 @@
         emergency, please hang up and dial nine one one immediately. Our PHAs are
         currently off duty, but you can either send us a message through the Better
         app or connect with a May oh nurse.
-      = render partial: 'off_duty_instructions'
+      = render partial: 'triage_instructions'
   - else
     %Say{voice: 'woman'}
       Hi, thanks for calling Better.  If you are calling about a medical
       emergency, please hang up and dial nine one one immediately. Otherwise, a
       personal health assistant will be right with you.
-    %Dial{callerId: "+1#{PHA_NUMBER}"} +18472048947
+    - if false # @phone_call
+      %Dial
+        %Conference{beep: false, endConferenceOnExit: false, startConferenceOnEnter: true, waitUrl: TWILIO_WAIT_URL}
+          = @phone_call.twilio_conference_name
+    - else
+      -# Routes to Clare's # for now.
+      %Dial{callerId: "+1#{PHA_NUMBER}"} +18472048947

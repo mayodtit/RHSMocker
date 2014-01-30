@@ -1,6 +1,6 @@
 class Api::V1::PhoneCallsController < Api::V1::ABaseController
   before_filter :load_user!, :only => [:index, :show, :update]
-  before_filter :load_phone_call!, :except => [:index, :connect, :status, :connect_nurse, :off_duty_menu, :off_duty_select]
+  before_filter :load_phone_call!, :except => [:index, :connect, :status, :connect_nurse]
   skip_before_filter :authentication_check, :except => [:index, :show, :update]
 
   layout false, except: [:index, :show, :update]
@@ -47,42 +47,39 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
 
   def connect_origin
     @phone_call.dial_destination
-    render formats: [:xml], handler: [:builder]
+    render formats: [:xml]
   end
 
   def connect_destination
-    render formats: [:xml], handler: [:builder]
-  end
-
-  def connect_nurse
     render formats: [:xml]
   end
 
   def connect
-    @select_url = URL_HELPERS.off_duty_select_api_v1_phone_calls_url
-    @phas_off_duty = !PhoneCall::pha_accepting_calls?
-
-    phone_call = PhoneCall.resolve params['From']
+    @phas_off_duty = !PhoneCall::accepting_calls_to_pha?
+    @phone_call = PhoneCall.resolve params['From'], params['CallSid']
+    @select_url = URL_HELPERS.triage_select_api_v1_phone_call_url(@phone_call)
 
     render formats: [:xml]
   end
 
-  def off_duty_menu
-    @select_url = URL_HELPERS.off_duty_select_api_v1_phone_calls_url
+  def triage_menu
+    @select_url = URL_HELPERS.triage_select_api_v1_phone_call_url(@phone_call)
     render formats: [:xml]
   end
 
-  def off_duty_select
+  def triage_select
     case params['Digits']
       when '*'
+        @phone_call.miss!
         render action: :goodbye, formats: [:xml]
         return
       when '1'
-        redirect_to action: :connect_nurse
+        @nurseline_phone_call = @phone_call.transfer_to_nurseline Member.robot
+        render action: :connect_nurse, formats: [:xml]
         return
     end
 
-    redirect_to action: :off_duty_menu
+    redirect_to action: :triage_menu, id: @phone_call.id
   end
 
   def status_origin

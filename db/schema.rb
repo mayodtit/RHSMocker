@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140130174616) do
+ActiveRecord::Schema.define(:version => 20140130205019) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -342,8 +342,8 @@ ActiveRecord::Schema.define(:version => 20140130174616) do
 
   create_table "phone_calls", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at",                              :null => false
-    t.datetime "updated_at",                              :null => false
+    t.datetime "created_at",                                  :null => false
+    t.datetime "updated_at",                                  :null => false
     t.string   "origin_phone_number"
     t.string   "destination_phone_number"
     t.string   "state"
@@ -352,16 +352,27 @@ ActiveRecord::Schema.define(:version => 20140130174616) do
     t.integer  "claimer_id"
     t.integer  "ender_id"
     t.string   "identifier_token"
-    t.integer  "to_role_id",               :default => 1
+    t.integer  "to_role_id",                   :default => 1
     t.integer  "dialer_id"
     t.datetime "dialed_at"
     t.integer  "resolver"
     t.datetime "resolved_at"
+    t.string   "destination_twilio_sid"
+    t.string   "origin_twilio_sid"
+    t.integer  "transferred_to_phone_call_id"
+    t.datetime "missed_at"
+    t.integer  "transferrer_id"
+    t.datetime "transferred_at"
+    t.string   "twilio_conference_name"
   end
 
   add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"
+  add_index "phone_calls", ["destination_twilio_sid"], :name => "index_phone_calls_on_destination_twilio_sid"
   add_index "phone_calls", ["ender_id"], :name => "index_phone_calls_on_ender_id"
   add_index "phone_calls", ["identifier_token"], :name => "index_phone_calls_on_identifier_token"
+  add_index "phone_calls", ["origin_phone_number"], :name => "index_phone_calls_on_origin_phone_number"
+  add_index "phone_calls", ["origin_twilio_sid"], :name => "index_phone_calls_on_origin_twilio_sid"
+  add_index "phone_calls", ["state", "origin_phone_number"], :name => "index_phone_calls_on_state_and_origin_phone_number"
   add_index "phone_calls", ["state"], :name => "index_phone_calls_on_state"
   add_index "phone_calls", ["to_role_id"], :name => "index_phone_calls_on_to_role_id"
 
@@ -681,6 +692,7 @@ ActiveRecord::Schema.define(:version => 20140130174616) do
     t.integer  "default_hcp_association_id"
   end
 
+  add_index "users", ["phone"], :name => "index_users_on_phone"
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"
 
   create_table "users_roles", :id => false, :force => true do |t|

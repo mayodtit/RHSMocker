@@ -11,6 +11,7 @@ resource "PhoneCalls" do
   let!(:phone_call) { create(:phone_call, to_role: user.roles.first) }
   let!(:other_phone_call) { create(:phone_call, to_role: user.roles.first) }
   let!(:outbound_phone_call) { create(:phone_call, dialer: pha, to_role: nil) }
+  let!(:inbound_phone_call) { create(:phone_call, to_role: pha.roles.first, origin_phone_number: '4083913578') }
   let(:claimed_phone_call) do
     phone_call = create(:phone_call, to_role: user.roles.first)
     phone_call.claim! user
@@ -118,45 +119,55 @@ resource "PhoneCalls" do
     end
   end
 
-  describe 'connect the caller to the nurseline' do
-    get '/api/v1/phone_calls/connect/nurse' do
-      example_request '[GET] connect the caller to the nurseline' do
-        explanation 'For use with off hours calls to pha.'
-        status.should == 200
-        xml = Nokogiri::XML(response_body)
-        xml.xpath('//Response/Dial').text().should == "+1#{NURSE_LINE_NUMBER}"
-      end
-    end
-  end
-
   describe 'twilio telling us a phone connected' do
-    post '/api/v1/phone_calls/status' do
+    parameter :From, 'Phone # of inbound caller'
+    parameter :CallSid, 'Twilio call SID'
+
+    required_parameters :From, :CallSid
+
+    let(:From) { inbound_phone_call.origin_phone_number }
+    let(:CallSid) { 'CA8f68d3676b5424bde1594cb34235076b' }
+    let(:raw_post) { params.to_json }
+
+    post '/api/v1/phone_calls/connect' do
       example_request '[POST] Determine how to route the phone call.' do
         explanation 'Twilio telling us that a phone connected and we need to route it properly.'
         status.should == 200
+        inbound_phone_call.reload.should be_unclaimed
       end
     end
   end
 
-  describe 'off duty menu' do
-    get '/api/v1/phone_calls/off_duty/menu' do
-      example_request '[GET] the off duty menu.' do
-        explanation 'The off duty menu for the inbound caller.'
+  describe 'triage menu' do
+    parameter :id, 'Phone call id'
+
+    required_parameters :id
+
+    let(:id) { phone_call.id }
+
+    get '/api/v1/phone_calls/:id/triage/menu' do
+      example_request '[GET] triage menu.' do
+        explanation 'The triage menu for the inbound caller.'
         status.should == 200
       end
     end
   end
 
-  describe 'off duty select' do
+  describe 'triage select' do
     parameter :Digits, 'Phone call id'
+    parameter :id, 'Phone call id'
 
+    required_parameters :id, :Digits
+
+    let(:id) { phone_call.id }
     let(:Digits) { '*' }
     let(:raw_post) { params.to_json }
 
-    post '/api/v1/phone_calls/off_duty/select' do
-      example_request '[POST] Caller\'s selection from the off duty menu' do
-        explanation 'The caller selected an option from the off duty menu, process it.'
+    post '/api/v1/phone_calls/:id/triage/select' do
+      example_request '[POST] Caller\'s selection from the triage menu' do
+        explanation 'The caller selected an option from the triage menu, process it.'
         status.should == 200
+        phone_call.reload.should be_missed
         xml = Nokogiri::XML(response_body)
         xml.xpath('//Response/Say').text().should == "Good bye."
       end

@@ -13,6 +13,10 @@ describe String do
     it 'special cases assign' do
       'assign'.event_actor.should == 'assignor'
     end
+
+    it 'special cases transfer' do
+      'transfer'.event_actor.should == 'transferrer'
+    end
   end
 
   describe '#event_actor_id' do
@@ -30,6 +34,10 @@ describe String do
 
     it 'works for words ending with e' do
       'cleave'.event_state.should == 'cleaved'
+    end
+
+    it 'special cases transfer' do
+      'transfer'.event_state.should == 'transferred'
     end
   end
 
