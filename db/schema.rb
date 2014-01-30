@@ -262,8 +262,8 @@ ActiveRecord::Schema.define(:version => 20140130205019) do
     t.string   "company_name"
     t.string   "plan_type"
     t.string   "policy_member_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
     t.text     "notes"
   end
 
