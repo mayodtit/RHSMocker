@@ -53,7 +53,8 @@ resource "Consults" do
     let(:image) { base64_test_image }
     let(:message) { {text: 'message text'}}
     let(:phone_call) { {origin_phone_number: '5555555555',
-                        destination_phone_number: '1234567890' } }
+                        destination_phone_number: '1234567890',
+                        to_role: 'pha'} }
     let(:scheduled_phone_call) { {scheduled_at: scheduled.scheduled_at} }
     let(:raw_post) { params.to_json }
 
