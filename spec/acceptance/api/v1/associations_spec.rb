@@ -58,6 +58,7 @@ resource "Association" do
     parameter :gender, "Associate's gender (male, female)"
     parameter :height, "Associate's height (cm)"
     parameter :association_type_id, "Association type"
+    parameter :default_hcp, "Set associate to user's default HCP if value is true"
     scope_parameters :associate, [:first_name, :last_name, :birth_date, :phone,
                                   :avatar, :gender, :height]
     scope_parameters :association, [:associate]
@@ -70,6 +71,7 @@ resource "Association" do
     let(:gender) { 'male' }
     let(:height) { 180 }
     let(:association_type_id) { association_type.id }
+    let(:default_hcp) { true }
     let(:raw_post) { params.to_json }
     # purposely don't include avatar
 
@@ -77,9 +79,10 @@ resource "Association" do
       explanation 'Create an association for the user'
       status.should == 200
 
-      response = JSON.parse(response_body, :symbolize_names => true)[:association][:associate]
-      response.keys.should include(:avatar_url)
-      response[:avatar_url].should be_nil # check for non_nil avatar in 'update specific association' spec
+      response = JSON.parse(response_body, :symbolize_names => true)[:association]
+      response[:is_default_hcp].should be_true
+      response[:associate].keys.should include(:avatar_url)
+      response[:associate][:avatar_url].should be_nil # check for non_nil avatar in 'update specific association' spec
     end
   end
 
@@ -90,9 +93,11 @@ resource "Association" do
 
     parameter :id, "Association's ID"
     parameter :association_type_id, "Association type"
+    parameter :default_hcp, "Set associate to user's default HCP if value is true"
     required_parameters :id
 
     let(:association_type_id) { association_type.id }
+    let(:default_hcp) { true }
     let(:raw_post) { params.to_json }
 
     example_request "[PUT] Update an association for a user" do
@@ -100,6 +105,7 @@ resource "Association" do
       status.should == 200
       response = JSON.parse(response_body, symbolize_names: true)
       response[:association][:association_type_id].should == association_type.id
+      response[:association][:is_default_hcp].should be_true
     end
   end
 

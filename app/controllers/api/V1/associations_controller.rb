@@ -60,11 +60,14 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
       hash[:associate_attributes][:avatar] = v
     end
 
+    hash.merge!(default_hcp: params[:default_hcp]) if params[:default_hcp]
     hash
   end
 
   def update_association_attributes
-    params.require(:association).permit(:association_type_id)
+    p = params.require(:association).permit(:association_type_id)
+    p.merge!(default_hcp: params[:default_hcp]) if params[:default_hcp]
+    p
   end
 
   def search_service

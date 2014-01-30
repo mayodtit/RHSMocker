@@ -4,12 +4,16 @@ class Association < ActiveRecord::Base
   belongs_to :association_type
   accepts_nested_attributes_for :associate
 
+  attr_accessor :default_hcp
   attr_accessible :user, :user_id, :associate, :associate_id, :association_type,
-                  :association_type_id, :associate_attributes
+                  :association_type_id, :associate_attributes, :default_hcp
 
   validates :user, :associate, presence: true
   validate :user_is_not_associate
   validates :associate_id, uniqueness: {scope: [:user_id, :association_type_id]}
+
+  after_save :add_user_default_hcp
+  before_destroy :remove_user_default_hcp
 
   def serializable_hash options=nil
     options ||= {}
@@ -17,8 +21,9 @@ class Association < ActiveRecord::Base
       v1.is_a?(Array) ? v1 + v2 : [v1] + v2
     end
 
-    # add invitation status to the associate before return
-    super(options).merge({:associate => {:invited => invited?}}){|k,v1,v2| v1.merge!(v2)}
+    super(options)
+      .merge({:associate => {:invited => invited?}}){|k,v1,v2| v1.merge!(v2)}
+      .merge({is_default_hcp: user.default_hcp_association_id == self.id})
   end
 
   private
@@ -29,5 +34,14 @@ class Association < ActiveRecord::Base
 
   def invited?
     associate.member ? Invitation.exists_for_pair?(user_id, associate.member.id) : false
+  end
+
+  def add_user_default_hcp
+    user.update_attributes(default_hcp_association_id: self.id) if default_hcp
+  end
+
+  def remove_user_default_hcp
+    u = User.find_by_default_hcp_association_id(self.id)
+    u.update_attributes(default_hcp_association_id: nil) if u
   end
 end

@@ -25,6 +25,9 @@ class User < ActiveRecord::Base
   has_one :insurance_policy
   has_one :provider
 
+  belongs_to :default_hcp_association, class_name: 'Association', foreign_key: :default_hcp_association_id
+  has_one :default_hcp, through: :default_hcp_association, source: :associate
+
   accepts_nested_attributes_for :user_information
   accepts_nested_attributes_for :address
   accepts_nested_attributes_for :insurance_policy
@@ -34,7 +37,7 @@ class User < ActiveRecord::Base
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
                   :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data,
                   :user_information_attributes, :address_attributes, :insurance_policy_attributes,
-                  :provider_attributes, :work_phone_number, :nickname
+                  :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id
 
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
