@@ -57,7 +57,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
                                    :nickname,
                                    user_information_attributes: [:id, :notes],
                                    address_attributes: [:id, :address, :city, :state, :postal_code],
-                                   insurance_policy_attributes: [:id, :company_name, :plan_type, :policy_member_id],
+                                   insurance_policy_attributes: [:id, :company_name, :plan_type, :policy_member_id, :notes],
                                    provider_attributes: [:id, :address, :city, :state, :postal_code, :phone])
   end
 
