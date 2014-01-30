@@ -37,7 +37,7 @@ module Api
 
       def search_and_replace_to_role(params)
         if params.is_a? Hash
-          if params.key?(:to_role) && !params[:to_role].nil?
+          if params.key?(:to_role) && !params[:to_role].nil? && !params[:to_role].is_a?(Role)
             role_name = params[:to_role]
             role = Role.find_by_name role_name
 
