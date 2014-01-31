@@ -35,8 +35,6 @@ class PhoneCall < ActiveRecord::Base
 
   after_create :dial_if_outbound
 
-  accepts_nested_attributes_for :message
-
   delegate :consult, :to => :message
 
   # A call can be inbound or outbound.
@@ -107,31 +105,6 @@ class PhoneCall < ActiveRecord::Base
     )
 
     # TODO: Update destination twilio sid
-  end
-
-  def transfer_to_nurseline(transferrer)
-    nurseline_phone_call = nil
-
-    begin
-      PhoneCall.transaction do
-        nurseline_phone_call = PhoneCall.create!(
-          user: user,
-          origin_phone_number: origin_phone_number,
-          destination_phone_number: NURSELINE_NUMBER,
-          to_role: Role.find_by_name!(:nurse),
-          origin_twilio_sid: origin_twilio_sid,
-          twilio_conference_name: twilio_conference_name
-        )
-
-        update_attributes!(state_event: :transfer, transferrer: transferrer, transferred_to_phone_call: nurseline_phone_call)
-
-        nurseline_phone_call.dial_destination
-      end
-    rescue
-      nurseline_phone_call = nil
-    end
-
-    nurseline_phone_call
   end
 
   def self.resolve(phone_number, origin_twilio_sid)
@@ -238,7 +211,21 @@ class PhoneCall < ActiveRecord::Base
     end
 
     before_transition any => :transferred do |phone_call|
+      nurseline_phone_call = PhoneCall.create!(
+        user: phone_call.user,
+        origin_phone_number: phone_call.origin_phone_number,
+        destination_phone_number: NURSELINE_NUMBER,
+        to_role: Role.find_by_name!(:nurse),
+        origin_twilio_sid: phone_call.origin_twilio_sid,
+        twilio_conference_name: phone_call.twilio_conference_name
+      )
+
+      phone_call.transferred_to_phone_call = nurseline_phone_call
       phone_call.transferred_at = Time.now
+    end
+
+    after_transition any => :transferred do |phone_call|
+      phone_call.transferred_to_phone_call.dial_destination
     end
 
     before_transition any => :ended do |phone_call|

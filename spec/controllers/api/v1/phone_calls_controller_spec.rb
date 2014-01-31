@@ -308,12 +308,18 @@ describe Api::V1::PhoneCallsController do
 
         before do
           Member.stub(:robot) { robot }
-          phone_call.stub(:transfer_to_nurseline).with(robot) { nurseline_phone_call }
+          phone_call.stub(:update_attributes)
         end
 
         it_behaves_like 'success'
 
+        it 'transfers the phone call' do
+          phone_call.should_receive(:update_attributes).with(state_event: :transfer, transferrer: robot)
+          do_request('1')
+        end
+
         it 'sets nurseline_phone_call' do
+          phone_call.stub(:transferred_to_phone_call) { nurseline_phone_call }
           do_request('1')
           assigns(:nurseline_phone_call).should == nurseline_phone_call
         end

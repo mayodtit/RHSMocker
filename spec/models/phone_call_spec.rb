@@ -222,62 +222,6 @@ describe PhoneCall do
     end
   end
 
-  describe '#transfer_to_nurseline' do
-    context 'stubbed' do
-      let(:nurse_role) { build_stubbed(:role, name: 'nurse') }
-      let(:phone_call) { build(:phone_call, to_role: build_stubbed(:role, name: 'pha')) }
-      let(:nurseline_phone_call) { build_stubbed(:phone_call, to_role: nurse_role) }
-      let(:transferrer) { build_stubbed(:pha) }
-
-      before do
-        PhoneCall.stub(:create!) { nurseline_phone_call }
-        phone_call.stub(:update_attributes!)
-        nurseline_phone_call.stub(:dial_destination)
-        Role.stub(:find_by_name!) { nurse_role }
-      end
-
-      it 'creates a nurseline phone call' do
-        PhoneCall.should_receive(:create!).with(
-          user: phone_call.user,
-          origin_phone_number: phone_call.origin_phone_number,
-          destination_phone_number: NURSELINE_NUMBER,
-          to_role: nurse_role,
-          origin_twilio_sid: phone_call.origin_twilio_sid,
-          twilio_conference_name: phone_call.twilio_conference_name
-        )
-
-        phone_call.transfer_to_nurseline transferrer
-      end
-
-      it 'transfers the phone call to the nurseline phone call' do
-        phone_call.should_receive(:update_attributes!).with(
-          state_event: :transfer,
-          transferrer: transferrer,
-          transferred_to_phone_call: nurseline_phone_call
-        )
-
-        phone_call.transfer_to_nurseline transferrer
-      end
-
-      it 'dials the destination' do
-        nurseline_phone_call.should_receive :dial_destination
-        phone_call.transfer_to_nurseline transferrer
-      end
-    end
-
-    it 'wraps everything in a transaction' do
-      PhoneCall.any_instance.stub(:dial_destination) { raise ActiveRecord::RecordInvalid }
-      Role.find_or_create_by_name! 'nurse'
-      phone_call = create(:phone_call, to_role: Role.find_or_create_by_name!('pha'))
-      expect do
-        phone_call.transfer_to_nurseline Member.robot
-      end.to_not change(PhoneCall, :count).by(1)
-
-      phone_call.reload
-      phone_call.state.should_not == 'transferred'
-    end
-  end
-
   describe '#resolve' do
     let(:twilio_sid) { 'CAf7546453bca08b52f3e84ee102d82262' }
     let(:phone_call) { build(:phone_call, to_role: build(:role, name: 'nurse')) }
@@ -468,21 +412,49 @@ describe PhoneCall do
     end
 
     describe '#transfer!' do
-      before do
-        phone_call.state = 'connected'
-        phone_call.transferrer = nurse
-        phone_call.transferred_to_phone_call = other_phone_call
-        phone_call.transfer!
-      end
+      context 'stubbed' do
+        let(:nurse_role) { build_stubbed(:role, name: 'nurse') }
+        let!(:phone_call) { build(:phone_call, to_role: build_stubbed(:role, name: 'pha')) }
+        let(:nurseline_phone_call) { build_stubbed(:phone_call, to_role: nurse_role) }
+        let(:transferrer) { build_stubbed(:pha) }
 
-      it_behaves_like 'cannot transition from', :transfer!, [:disconnected, :unresolved]
+        before do
+          phone_call.state = 'unclaimed'
+          PhoneCall.stub(:create!) { nurseline_phone_call }
+          nurseline_phone_call.stub(:dial_destination)
+          Role.stub(:find_by_name!) { nurse_role }
+        end
 
-      it 'changes the state to transferred' do
-        phone_call.should be_transferred
-      end
+        it_behaves_like 'cannot transition from', :transfer!, [:disconnected, :unresolved]
 
-      it 'sets the transferred time' do
-        phone_call.transferred_at.should == Time.now
+        it 'changes the state to transferred' do
+          phone_call.update_attributes!(state_event: 'transfer', transferrer: transferrer)
+          phone_call.should be_transferred
+        end
+
+        it 'sets the transferred time' do
+          phone_call.update_attributes!(state_event: 'transfer', transferrer: transferrer)
+          phone_call.transferred_at.should == Time.now
+        end
+
+        it 'creates a nurseline phone call and sets it as the transferred to call' do
+          PhoneCall.should_receive(:create!).with(
+            user: phone_call.user,
+            origin_phone_number: phone_call.origin_phone_number,
+            destination_phone_number: NURSELINE_NUMBER,
+            to_role: nurse_role,
+            origin_twilio_sid: phone_call.origin_twilio_sid,
+            twilio_conference_name: phone_call.twilio_conference_name
+          )
+
+          phone_call.update_attributes!(state_event: 'transfer', transferrer: transferrer)
+          phone_call.transferred_to_phone_call.should == nurseline_phone_call
+        end
+
+        it 'dials the destination' do
+          nurseline_phone_call.should_receive :dial_destination
+          phone_call.update_attributes!(state_event: 'transfer', transferrer: transferrer)
+        end
       end
     end
 

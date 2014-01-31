@@ -55,7 +55,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
   end
 
   def connect
-    @phas_off_duty = !PhoneCall::accepting_calls_to_pha?
+    @phas_off_duty = PhoneCall::accepting_calls_to_pha?
     @phone_call = PhoneCall.resolve params['From'], params['CallSid']
     @select_url = URL_HELPERS.triage_select_api_v1_phone_call_url(@phone_call)
 
@@ -74,7 +74,8 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
         render action: :goodbye, formats: [:xml]
         return
       when '1'
-        @nurseline_phone_call = @phone_call.transfer_to_nurseline Member.robot
+        @phone_call.update_attributes state_event: :transfer, transferrer: Member.robot
+        @nurseline_phone_call = @phone_call.transferred_to_phone_call
         render action: :connect_nurse, formats: [:xml]
         return
     end
