@@ -14,14 +14,17 @@ FactoryGirl.define do
       end
 
       factory :nurse do
+        work_phone_number '4083913578'
         after(:create) {|user| user.add_role(:nurse)}
       end
 
       factory :pha do
+        work_phone_number '5552223333'
         after(:create) {|user| user.add_role(:pha)}
       end
 
       factory :pha_lead do
+        work_phone_number '4153333333'
         after(:create) {|user| user.add_role(:pha_lead)}
       end
     end

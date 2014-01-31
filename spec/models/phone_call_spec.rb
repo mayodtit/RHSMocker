@@ -178,18 +178,27 @@ describe PhoneCall do
     let(:phone_call) { build(:phone_call) }
     let(:connect_url) { '/connect' }
     let(:status_url) { '/status' }
+    let(:twilio_call) do
+      o = Object.new
+      o.stub(:sid) { '1' }
+      o
+    end
 
     before do
+      PhoneCall.twilio.account.calls.stub(:create) { twilio_call }
+
       PhoneNumberUtil.stub(:format_for_dialing) do |number|
         "1#{number}"
       end
+
+      URL_HELPERS.stub(:connect_origin_api_v1_phone_call_url).with(phone_call) { connect_url }
+      URL_HELPERS.stub(:connect_destination_api_v1_phone_call_url).with(phone_call) { connect_url }
+      URL_HELPERS.stub(:status_origin_api_v1_phone_call_url).with(phone_call) { status_url }
+      URL_HELPERS.stub(:status_destination_api_v1_phone_call_url).with(phone_call) { status_url }
     end
 
     describe '#dial_origin' do
       it 'dials the origin phone number via twilio' do
-        URL_HELPERS.stub(:connect_origin_api_v1_phone_call_url).with(phone_call) { connect_url }
-        URL_HELPERS.stub(:status_origin_api_v1_phone_call_url).with(phone_call) { status_url }
-
         PhoneCall.twilio.account.calls.should_receive(:create).with(
           from: "1#{PHA_NUMBER}",
           to: "1#{phone_call.origin_phone_number}",
@@ -201,13 +210,16 @@ describe PhoneCall do
 
         phone_call.dial_origin
       end
+
+      it 'saves the twilio sid' do
+        phone_call.should_receive(:origin_twilio_sid=).with('1')
+        phone_call.should_receive(:save!)
+        phone_call.dial_origin
+      end
     end
 
     describe '#dial_destination' do
       it 'dials the destination phone number via twilio' do
-        URL_HELPERS.stub(:connect_destination_api_v1_phone_call_url).with(phone_call) { connect_url }
-        URL_HELPERS.stub(:status_destination_api_v1_phone_call_url).with(phone_call) { status_url }
-
         PhoneCall.twilio.account.calls.should_receive(:create).with(
           from: "1#{PHA_NUMBER}",
           to: "1#{phone_call.destination_phone_number}",
@@ -217,6 +229,12 @@ describe PhoneCall do
           status_callback_method: 'POST'
         )
 
+        phone_call.dial_destination
+      end
+
+      it 'saves the twilio sid' do
+        phone_call.should_receive(:destination_twilio_sid=).with('1')
+        phone_call.should_receive(:save!)
         phone_call.dial_destination
       end
     end
@@ -357,6 +375,7 @@ describe PhoneCall do
       end
 
       it 'is dialing when it\'s an outbound call' do
+        PhoneCall.any_instance.stub(:dial_origin)
         phone_call = create(:phone_call, to_role: nil)
         phone_call.should be_dialing
       end
@@ -407,8 +426,40 @@ describe PhoneCall do
       end
     end
 
+    describe '#dial!' do
+      before do
+        phone_call.state = 'claimed'
+        phone_call.claimer = nurse
+        phone_call.stub(:dial_destination)
+      end
+
+      it_behaves_like 'cannot transition from', :dial!, [:unclaimed, :unresolved, :ended, :connected]
+
+      it 'sets the destination phone number to the dialers work phone number' do
+        phone_call.dialer = nurse
+        phone_call.dial!
+        phone_call.destination_phone_number.should == nurse.work_phone_number
+      end
+
+      it 'dials the destination' do
+        phone_call.dialer = nurse
+        phone_call.should_receive(:dial_destination)
+        phone_call.dial!
+      end
+
+      it 'raises an exception if the dialer is missing' do
+        expect { phone_call.dial! }.to raise_error Exception
+      end
+
+      it 'raises an exception if the dialer\'s work phone number is missing' do
+        nurse.work_phone_number = nil
+        phone_call.dialer
+        expect { phone_call.dial! }.to raise_error Exception
+      end
+    end
+
     describe '#connect!' do
-      it_behaves_like 'can transition from', :connect!, [:claimed, :dialing]
+      it_behaves_like 'can transition from', :connect!, [:dialing]
     end
 
     describe '#transfer!' do

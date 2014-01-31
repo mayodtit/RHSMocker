@@ -5,14 +5,12 @@ class PhoneCall < ActiveRecord::Base
 
   belongs_to :user, class_name: 'Member'
   belongs_to :claimer, class_name: 'Member'
+  belongs_to :dialer, class_name: 'Member'
   belongs_to :ender, class_name: 'Member'
   belongs_to :resolver, class_name: 'Member'
   belongs_to :transferrer, class_name: 'Member'
   belongs_to :to_role, class_name: 'Role'
   belongs_to :transferred_to_phone_call, class_name: 'PhoneCall'
-
-  # Outbound Calls
-  belongs_to :dialer, class_name: 'Member'
 
   has_one :message, :inverse_of => :phone_call
   has_one :scheduled_phone_call
@@ -91,7 +89,8 @@ class PhoneCall < ActiveRecord::Base
       status_callback_method: 'POST'
     )
 
-    # TODO: Update origin twilio sid
+    self.origin_twilio_sid = call.sid
+    save!
   end
 
   def dial_destination
@@ -104,7 +103,8 @@ class PhoneCall < ActiveRecord::Base
       status_callback_method: 'POST'
     )
 
-    # TODO: Update destination twilio sid
+    self.destination_twilio_sid = call.sid
+    save!
   end
 
   def self.resolve(phone_number, origin_twilio_sid)
@@ -174,8 +174,12 @@ class PhoneCall < ActiveRecord::Base
       transition :unclaimed => :missed
     end
 
+    event :dial do
+      transition [:dialing, :claimed, :disconnected] => :dialing
+    end
+
     event :connect do
-      transition [:dialing, :claimed] => :connected
+      transition :dialing => :connected
     end
 
     event :disconnect do
@@ -208,6 +212,16 @@ class PhoneCall < ActiveRecord::Base
 
     before_transition :unclaimed => :claimed do |phone_call|
       phone_call.claimed_at = Time.now
+    end
+
+    before_transition [:dialing, :claimed, :disconnected] => :dialing do |phone_call|
+      raise "Dialer is missing on PhoneCall #{phone_call.id}" if phone_call.dialer.nil?
+      raise "Dialer is missing work phone number on PhoneCall #{phone_call.id}" if !phone_call.dialer.work_phone_number
+      phone_call.destination_phone_number = phone_call.dialer.work_phone_number
+    end
+
+    after_transition [:dialing, :claimed, :disconnected] => :dialing do |phone_call|
+      phone_call.dial_destination
     end
 
     before_transition any => :transferred do |phone_call|

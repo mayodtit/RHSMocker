@@ -53,6 +53,7 @@ def stub_out_twilio
   twilio = Object.new
   account = Object.new
   calls = Object.new
+  call = Object.new
 
   twilio.stub(:account) do
     account
@@ -63,8 +64,10 @@ def stub_out_twilio
   end
 
   calls.stub(:create) do
-    # Do nothing
+    call
   end
+
+  call.stub(:sid) { 'FAKETWILIOSID' }
 
   PhoneCall.stub(:twilio) { twilio }
 end

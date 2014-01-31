@@ -165,6 +165,10 @@ describe Api::V1::PhoneCallsController do
       post :connect_origin, id: '1'
     end
 
+    before do
+      phone_call.stub(:save!)
+    end
+
     context 'phone call doesn\'t exist' do
       before do
         PhoneCall.stub(:find).with('1') { raise ActiveRecord::RecordNotFound }
