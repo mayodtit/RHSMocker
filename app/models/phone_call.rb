@@ -1,4 +1,3 @@
-require './lib/utils/phone_number_util'
 require 'twilio-ruby'
 
 class PhoneCall < ActiveRecord::Base
@@ -7,19 +6,25 @@ class PhoneCall < ActiveRecord::Base
   belongs_to :user, class_name: 'Member'
   belongs_to :claimer, class_name: 'Member'
   belongs_to :ender, class_name: 'Member'
+  belongs_to :resolver, class_name: 'Member'
+  belongs_to :transferrer, class_name: 'Member'
   belongs_to :to_role, class_name: 'Role'
+  belongs_to :transferred_to_phone_call, class_name: 'PhoneCall'
 
   # Outbound Calls
   belongs_to :dialer, class_name: 'Member'
 
   has_one :message, :inverse_of => :phone_call
   has_one :scheduled_phone_call
+  has_one :transferred_from_phone_call, class_name: 'PhoneCall', foreign_key: :transferred_to_phone_call_id
 
   attr_accessible :user, :user_id, :to_role, :to_role_id, :message, :message_attributes, :origin_phone_number,
                   :destination_phone_number, :claimer, :claimer_id, :ender, :ender_id,
-                  :identifier_token, :dialer_id, :dialer, :state_event
+                  :identifier_token, :dialer_id, :dialer, :state_event, :destination_twilio_sid,
+                  :origin_twilio_sid, :transferrer_id, :transferrer, :transferred_to_phone_call,
+                  :transferred_to_phone_call_id, :twilio_conference_name
 
-  validates :user, :identifier_token, presence: true
+  validates :twilio_conference_name, :identifier_token, presence: true
   validates :identifier_token, uniqueness: true # Used for nurseline and creating unique conference calls
   validates :origin_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
   validates :destination_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: false
@@ -47,10 +52,16 @@ class PhoneCall < ActiveRecord::Base
     to_role.name.to_sym == :pha
   end
 
-  def self.pha_accepting_calls?
+  def self.accepting_calls_to_pha?
     t = Time.now.in_time_zone('Pacific Time (US & Canada)')
 
     return !(t.wday == 0 || t.wday == 6 || t.hour < 9 || t.hour > 17)
+  end
+
+  def initial_state
+    return :dialing if outbound?
+    return :unresolved if to_role && to_role.name.to_sym != :nurse
+    :unclaimed
   end
 
   # Call mechanics
@@ -74,23 +85,84 @@ class PhoneCall < ActiveRecord::Base
 
   def dial_origin
     call = twilio.account.calls.create(
-      from: PhoneNumberUtil::format_for_dialing(TWILIO_CALLER_ID),
+      from: PhoneNumberUtil::format_for_dialing(PHA_NUMBER),
       to: PhoneNumberUtil::format_for_dialing(origin_phone_number),
       url: URL_HELPERS.connect_origin_api_v1_phone_call_url(self),
       method: 'POST',
       status_callback: URL_HELPERS.status_origin_api_v1_phone_call_url(self),
       status_callback_method: 'POST'
     )
+
+    # TODO: Update origin twilio sid
   end
 
   def dial_destination
     call = twilio.account.calls.create(
-      from: PhoneNumberUtil::format_for_dialing(TWILIO_CALLER_ID),
+      from: PhoneNumberUtil::format_for_dialing(PHA_NUMBER),
       to: PhoneNumberUtil::format_for_dialing(destination_phone_number),
       url: URL_HELPERS.connect_destination_api_v1_phone_call_url(self),
       method: 'POST',
       status_callback: URL_HELPERS.status_destination_api_v1_phone_call_url(self),
       status_callback_method: 'POST'
+    )
+
+    # TODO: Update destination twilio sid
+  end
+
+  def transfer_to_nurseline(transferrer)
+    nurseline_phone_call = nil
+
+    begin
+      PhoneCall.transaction do
+        nurseline_phone_call = PhoneCall.create!(
+          user: user,
+          origin_phone_number: origin_phone_number,
+          destination_phone_number: NURSELINE_NUMBER,
+          to_role: Role.find_by_name!(:nurse),
+          origin_twilio_sid: origin_twilio_sid,
+          twilio_conference_name: twilio_conference_name
+        )
+
+        update_attributes!(state_event: :transfer, transferrer: transferrer, transferred_to_phone_call: nurseline_phone_call)
+
+        nurseline_phone_call.dial_destination
+      end
+    rescue
+      nurseline_phone_call = nil
+    end
+
+    nurseline_phone_call
+  end
+
+  def self.resolve(phone_number, origin_twilio_sid)
+    phone_number = PhoneNumberUtil.prep_phone_number_for_db phone_number
+
+    if PhoneNumberUtil::is_valid_caller_id phone_number
+      if phone_call = PhoneCall.where(state: :unresolved, origin_phone_number: phone_number).first(order: 'id desc', limit: 1)
+        phone_call.update_attributes state_event: :resolve, origin_twilio_sid: origin_twilio_sid
+        return phone_call
+      end
+
+      if member = Member.find_by_phone(phone_number)
+        return PhoneCall.create(
+          user: member,
+          origin_phone_number: phone_number,
+          destination_phone_number: PHA_NUMBER,
+          to_role: Role.find_by_name!(:pha),
+          state_event: :resolve,
+          origin_twilio_sid: origin_twilio_sid
+        )
+      end
+    else
+      phone_number = nil
+    end
+
+    PhoneCall.create(
+      origin_phone_number: phone_number,
+      destination_phone_number: PHA_NUMBER,
+      to_role: Role.find_by_name!(:pha),
+      state_event: :resolve,
+      origin_twilio_sid: origin_twilio_sid
     )
   end
 
@@ -102,6 +174,8 @@ class PhoneCall < ActiveRecord::Base
       token = ('%015i' % SecureRandom.random_number(10**15))
       break token unless self.class.find_by_identifier_token(token)
     end
+
+    self.twilio_conference_name ||= identifier_token
   end
 
   def prep_phone_numbers
@@ -114,9 +188,17 @@ class PhoneCall < ActiveRecord::Base
     end
   end
 
-  state_machine :initial => lambda { |object| object.outbound? ? :dialing : :unclaimed } do
+  state_machine :initial => lambda { |object| object.initial_state } do
     event :claim do
       transition :unclaimed => :claimed
+    end
+
+    event :resolve do
+      transition :unresolved => :unclaimed
+    end
+
+    event :miss do
+      transition :unclaimed => :missed
     end
 
     event :connect do
@@ -127,8 +209,12 @@ class PhoneCall < ActiveRecord::Base
       transition :connected => :disconnected
     end
 
+    event :transfer do
+      transition [:unclaimed, :connected] => :transferred
+    end
+
     event :end do
-      transition [:connected, :claimed] => :ended
+      transition [:disconnected, :connected, :claimed] => :ended
     end
 
     event :reclaim do
@@ -139,11 +225,23 @@ class PhoneCall < ActiveRecord::Base
       transition :claimed => :unclaimed
     end
 
+    before_transition :unresolved => any do |phone_call|
+      phone_call.resolved_at = Time.now
+    end
+
+    before_transition :unclaimed => :missed do |phone_call|
+      phone_call.missed_at = Time.now
+    end
+
     before_transition :unclaimed => :claimed do |phone_call|
       phone_call.claimed_at = Time.now
     end
 
-    before_transition :claimed => :ended do |phone_call|
+    before_transition any => :transferred do |phone_call|
+      phone_call.transferred_at = Time.now
+    end
+
+    before_transition any => :ended do |phone_call|
       phone_call.ended_at = Time.now
     end
 
@@ -166,6 +264,13 @@ class PhoneCall < ActiveRecord::Base
     case state_sym
       when :claimed
         validate_actor_and_timestamp_exist :claim
+      when :missed
+        validate_timestamp_exists :miss
+      when :transferred
+        validate_actor_and_timestamp_exist :transfer
+        if transferred_to_phone_call_id.nil?
+          errors.add(:transferred_to_phone_call_id, "must be present when #{self.class.name} is #{state}")
+        end
       when :ended
         validate_actor_and_timestamp_exist :end
     end

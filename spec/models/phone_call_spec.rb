@@ -8,8 +8,8 @@ describe PhoneCall do
       PhoneCall.any_instance.stub(:generate_identifier_token)
     end
 
-    it_validates 'presence of', :user
     it_validates 'presence of', :identifier_token
+    it_validates 'presence of', :twilio_conference_name
     it_validates 'uniqueness of', :identifier_token
   end
 
@@ -55,6 +55,50 @@ describe PhoneCall do
     it 'returns false if the phone_call is not to a pha' do
       phone_call = build_stubbed(:phone_call, :to_role => Role.new(:name => :nurse))
       phone_call.should_not be_to_pha
+    end
+  end
+
+  describe '#accepting_calls_to_pha?' do
+    let(:time) { Object.new }
+
+    before do
+      Time.stub(:now) do
+        time.stub(:in_time_zone) do
+          time
+        end
+        time
+      end
+    end
+
+    it 'converts time to Pacific Time' do
+      converted_time = Object.new
+      time.should_receive('in_time_zone').with('Pacific Time (US & Canada)') { converted_time }
+      converted_time.should_receive(:wday).twice { 1 }
+      converted_time.should_receive(:hour).twice { 10 }
+
+      PhoneCall.should be_accepting_calls_to_pha
+    end
+
+    it 'doesn\'t accept calls on Saturday' do
+      time.stub(:wday) { 6 }
+      PhoneCall.should_not be_accepting_calls_to_pha
+    end
+
+    it 'doesn\'t accept calls on Sunday' do
+      time.stub(:wday) { 0 }
+      PhoneCall.should_not be_accepting_calls_to_pha
+    end
+
+    it 'doesn\'t accept calls before 9AM' do
+      time.stub(:wday) { 1 }
+      time.stub(:hour) { 7 }
+      PhoneCall.should_not be_accepting_calls_to_pha
+    end
+
+    it 'doesn\'t accept calls after 6PM' do
+      time.stub(:wday) { 1 }
+      time.stub(:hour) { 18 }
+      PhoneCall.should_not be_accepting_calls_to_pha
     end
   end
 
@@ -147,7 +191,7 @@ describe PhoneCall do
         URL_HELPERS.stub(:status_origin_api_v1_phone_call_url).with(phone_call) { status_url }
 
         PhoneCall.twilio.account.calls.should_receive(:create).with(
-          from: "1#{TWILIO_CALLER_ID}",
+          from: "1#{PHA_NUMBER}",
           to: "1#{phone_call.origin_phone_number}",
           url: connect_url,
           method: 'POST',
@@ -165,7 +209,7 @@ describe PhoneCall do
         URL_HELPERS.stub(:status_destination_api_v1_phone_call_url).with(phone_call) { status_url }
 
         PhoneCall.twilio.account.calls.should_receive(:create).with(
-          from: "1#{TWILIO_CALLER_ID}",
+          from: "1#{PHA_NUMBER}",
           to: "1#{phone_call.destination_phone_number}",
           url: connect_url,
           method: 'POST',
@@ -178,8 +222,174 @@ describe PhoneCall do
     end
   end
 
+  describe '#transfer_to_nurseline' do
+    context 'stubbed' do
+      let(:nurse_role) { build_stubbed(:role, name: 'nurse') }
+      let(:phone_call) { build(:phone_call, to_role: build_stubbed(:role, name: 'pha')) }
+      let(:nurseline_phone_call) { build_stubbed(:phone_call, to_role: nurse_role) }
+      let(:transferrer) { build_stubbed(:pha) }
+
+      before do
+        PhoneCall.stub(:create!) { nurseline_phone_call }
+        phone_call.stub(:update_attributes!)
+        nurseline_phone_call.stub(:dial_destination)
+        Role.stub(:find_by_name!) { nurse_role }
+      end
+
+      it 'creates a nurseline phone call' do
+        PhoneCall.should_receive(:create!).with(
+          user: phone_call.user,
+          origin_phone_number: phone_call.origin_phone_number,
+          destination_phone_number: NURSELINE_NUMBER,
+          to_role: nurse_role,
+          origin_twilio_sid: phone_call.origin_twilio_sid,
+          twilio_conference_name: phone_call.twilio_conference_name
+        )
+
+        phone_call.transfer_to_nurseline transferrer
+      end
+
+      it 'transfers the phone call to the nurseline phone call' do
+        phone_call.should_receive(:update_attributes!).with(
+          state_event: :transfer,
+          transferrer: transferrer,
+          transferred_to_phone_call: nurseline_phone_call
+        )
+
+        phone_call.transfer_to_nurseline transferrer
+      end
+
+      it 'dials the destination' do
+        nurseline_phone_call.should_receive :dial_destination
+        phone_call.transfer_to_nurseline transferrer
+      end
+    end
+
+    it 'wraps everything in a transaction' do
+      PhoneCall.any_instance.stub(:dial_destination) { raise ActiveRecord::RecordInvalid }
+      Role.find_or_create_by_name! 'nurse'
+      phone_call = create(:phone_call, to_role: Role.find_or_create_by_name!('pha'))
+      expect do
+        phone_call.transfer_to_nurseline Member.robot
+      end.to_not change(PhoneCall, :count).by(1)
+
+      phone_call.reload
+      phone_call.state.should_not == 'transferred'
+    end
+  end
+
+  describe '#resolve' do
+    let(:twilio_sid) { 'CAf7546453bca08b52f3e84ee102d82262' }
+    let(:phone_call) { build(:phone_call, to_role: build(:role, name: 'nurse')) }
+    let(:role) { build(:role) }
+    let(:phone_number) { '+14083913578' }
+
+    before do
+      Role.stub(:find_by_name!).with(:pha) { role }
+    end
+
+    context 'phone number is not valid caller id' do
+      before do
+        PhoneNumberUtil.stub(:is_valid_caller_id) { false }
+      end
+
+      it 'creates a phone call with nil origin phone number' do
+        PhoneCall.should_receive(:create).with(
+          origin_phone_number: nil,
+          destination_phone_number: PHA_NUMBER,
+          to_role: role,
+          state_event: :resolve,
+          origin_twilio_sid: twilio_sid
+        )
+
+        PhoneCall.resolve(phone_number, twilio_sid)
+      end
+    end
+
+    context 'phone number is valid caller id' do
+      let(:db_phone_number) { PhoneNumberUtil::prep_phone_number_for_db(phone_number) }
+
+      before do
+        PhoneNumberUtil.stub(:is_valid_caller_id) { true }
+      end
+
+      context 'unresolved phone call exists' do
+        before do
+          PhoneCall.stub(:where).with(state: :unresolved, origin_phone_number: db_phone_number) do
+            o = Object.new
+            o.stub(:first).with(order: 'id desc', limit: 1) do
+              phone_call
+            end
+            o
+          end
+        end
+
+        it 'resolves the phone call' do
+          phone_call.should_receive(:update_attributes).with(state_event: :resolve, origin_twilio_sid: twilio_sid)
+          PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
+        end
+
+        it 'does not create a phone call' do
+          PhoneCall.should_not_receive(:create)
+          PhoneCall.resolve(phone_number, twilio_sid)
+        end
+      end
+
+      context 'unresolved phone call does not exist' do
+        before do
+          PhoneCall.stub(:where).with(state: :unresolved, origin_phone_number: db_phone_number) do
+            o = Object.new
+            o.stub(:first).with(order: 'id desc', limit: 1) do
+              nil
+            end
+            o
+          end
+        end
+
+        context 'member with phone exists' do
+          let(:member) { build(:member) }
+          before do
+            Member.stub(:find_by_phone).with(db_phone_number) { member }
+          end
+
+          it 'creates a PhoneCall' do
+            PhoneCall.should_receive(:create).with(
+              user: member,
+              origin_phone_number: db_phone_number,
+              destination_phone_number: PHA_NUMBER,
+              to_role: role,
+              state_event: :resolve,
+              origin_twilio_sid: twilio_sid
+            ) { phone_call }
+
+            PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
+          end
+        end
+
+        context 'member with phone does not exist' do
+          before do
+            Member.stub(:find_by_phone).with(db_phone_number) { nil }
+          end
+
+          it 'creates a PhoneCall without a member' do
+            PhoneCall.should_receive(:create).with(
+              origin_phone_number: db_phone_number,
+              destination_phone_number: PHA_NUMBER,
+              to_role: role,
+              state_event: :resolve,
+              origin_twilio_sid: twilio_sid
+            ) { phone_call }
+
+            PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
+          end
+        end
+      end
+    end
+  end
+
   describe 'states' do
     let(:phone_call) { build(:phone_call) }
+    let(:other_phone_call) { build_stubbed(:phone_call) }
     let(:nurse) { build_stubbed(:nurse) }
     let(:other_nurse) { build_stubbed(:nurse) }
 
@@ -191,15 +401,50 @@ describe PhoneCall do
       Timecop.return
     end
 
-    describe 'initial state' do
-      it 'is unclaimed when it\'s an inbound call' do
-        phone_call = create(:phone_call, to_role: build(:role))
+    describe '#initial state' do
+      it 'is unresolved when it\'s an inbound call to a pha' do
+        phone_call = create(:phone_call, to_role: build(:role, name: 'pha'))
+        phone_call.should be_unresolved
+      end
+
+      it 'is unclaimed when it\'s an inbound call to a nurse' do
+        phone_call = create(:phone_call, to_role: build(:role, name: 'nurse'))
         phone_call.should be_unclaimed
       end
 
       it 'is dialing when it\'s an outbound call' do
         phone_call = create(:phone_call, to_role: nil)
         phone_call.should be_dialing
+      end
+    end
+
+    describe '#resolve!' do
+      let(:phone_call) { build(:phone_call, to_role: build(:role, name: 'pha')) }
+
+      before do
+        phone_call.resolve!
+      end
+
+      it 'changes the state to unclaimed' do
+        phone_call.should be_unclaimed
+      end
+
+      it 'sets the claimed time' do
+        phone_call.resolved_at.should == Time.now
+      end
+    end
+
+    describe '#miss!' do
+      before do
+        phone_call.miss!
+      end
+
+      it 'changes the state to claimed' do
+        phone_call.should be_missed
+      end
+
+      it 'sets the missed time' do
+        phone_call.missed_at.should == Time.now
       end
     end
 
@@ -219,7 +464,26 @@ describe PhoneCall do
     end
 
     describe '#connect!' do
-      it_behaves_like 'can transition from', :connect!, :connected, [:claimed, :dialing]
+      it_behaves_like 'can transition from', :connect!, [:claimed, :dialing]
+    end
+
+    describe '#transfer!' do
+      before do
+        phone_call.state = 'connected'
+        phone_call.transferrer = nurse
+        phone_call.transferred_to_phone_call = other_phone_call
+        phone_call.transfer!
+      end
+
+      it_behaves_like 'cannot transition from', :transfer!, [:disconnected, :unresolved]
+
+      it 'changes the state to transferred' do
+        phone_call.should be_transferred
+      end
+
+      it 'sets the transferred time' do
+        phone_call.transferred_at.should == Time.now
+      end
     end
 
     describe '#end!' do
@@ -229,7 +493,7 @@ describe PhoneCall do
         phone_call.end!
       end
 
-      it_behaves_like 'cannot transition from', :end!, :ended, [:unclaimed]
+      it_behaves_like 'cannot transition from', :end!, [:unclaimed, :unresolved]
 
       it 'changes the state to ended' do
         phone_call.should be_ended

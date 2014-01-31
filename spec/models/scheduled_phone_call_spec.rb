@@ -79,7 +79,7 @@ describe ScheduledPhoneCall do
         scheduled_phone_call.update_attributes state_event: 'assign', assignor: pha_lead, owner: pha
       end
 
-      it_behaves_like 'cannot transition from', :assign!, :assigned, [:ended, :canceled, :started]
+      it_behaves_like 'cannot transition from', :assign!, [:ended, :canceled, :started]
 
       it 'changes the state to assigned' do
         scheduled_phone_call.should be_assigned
@@ -112,7 +112,7 @@ describe ScheduledPhoneCall do
         scheduled_phone_call.update_attributes state_event: 'book', booker: pha, user: member, message: message
       end
 
-      it_behaves_like 'cannot transition from', :book!, :booked, [:ended, :canceled, :started, :unassigned]
+      it_behaves_like 'cannot transition from', :book!, [:ended, :canceled, :started, :unassigned]
 
       it 'changes the state to booked' do
         scheduled_phone_call.should be_booked
@@ -143,7 +143,7 @@ describe ScheduledPhoneCall do
         scheduled_phone_call.update_attributes state_event: 'start', starter: pha
       end
 
-      it_behaves_like 'cannot transition from', :start!, :start, [:ended, :canceled, :started]
+      it_behaves_like 'cannot transition from', :start!, [:ended, :canceled, :started]
 
       it 'changes the state to started' do
         scheduled_phone_call.should be_started
@@ -163,7 +163,7 @@ describe ScheduledPhoneCall do
         scheduled_phone_call.update_attributes state_event: 'cancel', canceler: member
       end
 
-      it_behaves_like 'cannot transition from', :cancel!, :canceled, [:ended, :canceled]
+      it_behaves_like 'cannot transition from', :cancel!, [:ended, :canceled]
 
       it 'changes the state to canceled' do
         scheduled_phone_call.should be_canceled
@@ -187,7 +187,7 @@ describe ScheduledPhoneCall do
         scheduled_phone_call.update_attributes state_event: 'end', ender: pha
       end
 
-      it_behaves_like 'cannot transition from', :end!, :ended, [:ended, :canceled]
+      it_behaves_like 'cannot transition from', :end!, [:ended, :canceled]
 
       it 'changes the state to ended' do
         scheduled_phone_call.should be_ended

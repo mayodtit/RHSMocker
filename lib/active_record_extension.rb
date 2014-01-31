@@ -1,20 +1,29 @@
 module ActiveRecordExtension
   extend ActiveSupport::Concern
 
-  def validate_actor_and_timestamp_exist(event)
+  def validate_actor_exists(event)
     event_s = event.to_s
-    actor = event_s.event_actor
     actor_id = event_s.event_actor_id
     state = event_s.event_state
-    timestamp = event_s.event_timestamp
 
     if self.respond_to?(actor_id) && self.send(actor_id).nil?
       errors.add(actor_id, "must be present when #{self.class.name} is #{state}")
     end
+  end
+
+  def validate_timestamp_exists(event)
+    event_s = event.to_s
+    state = event_s.event_state
+    timestamp = event_s.event_timestamp
 
     if self.respond_to?(timestamp) && self.send(timestamp).nil?
       errors.add(:timestamp_id, "must be present when #{self.class.name} is #{state}")
     end
+  end
+
+  def validate_actor_and_timestamp_exist(event)
+    validate_actor_exists(event)
+    validate_timestamp_exists(event)
   end
 
   module ClassMethods

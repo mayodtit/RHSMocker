@@ -1,3 +1,8 @@
 !!! XML
 %Response
-  %Dial= "+1#{NURSE_LINE_NUMBER}"
+  %Dial
+    - if @nurseline_phone_call
+      %Conference{beep: false, endConferenceOnExit: false, startConferenceOnEnter: true, waitUrl: TWILIO_WAIT_URL}
+        = @nurseline_phone_call.twilio_conference_name
+    - else # In case the DB barfs
+      = "+1#{NURSELINE_NUMBER}"

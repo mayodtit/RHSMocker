@@ -6,8 +6,16 @@ describe String do
       'claim'.event_actor.should == 'claimer'
     end
 
+    it 'works for words ending with e' do
+      'cleave'.event_actor.should == 'cleaver'
+    end
+
     it 'special cases assign' do
       'assign'.event_actor.should == 'assignor'
+    end
+
+    it 'special cases transfer' do
+      'transfer'.event_actor.should == 'transferrer'
     end
   end
 
@@ -22,6 +30,14 @@ describe String do
   describe '#event_state' do
     it 'adds ed to a string' do
       'claim'.event_state.should == 'claimed'
+    end
+
+    it 'works for words ending with e' do
+      'cleave'.event_state.should == 'cleaved'
+    end
+
+    it 'special cases transfer' do
+      'transfer'.event_state.should == 'transferred'
     end
   end
 
