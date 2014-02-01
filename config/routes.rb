@@ -113,6 +113,7 @@ RHSMocker::Application.routes.draw do
     end
   end
 
+  resources :call_metrics, only: :index # TODO: temporary for call metrics
   resources :cards, :only => :show # TODO: used for debugging - remove route and controller before app becomes public
   resources :contents, :only => [:index, :show] do
     get ":user_reading_id", :to => :show, :on => :member

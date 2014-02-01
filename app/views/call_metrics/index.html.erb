@@ -1,0 +1,23 @@
+<div style="text-align: center;">
+<table border="1">
+  <tr>
+    <th>Week starting</th>
+    <th>Completed calls</th>
+    <th>Median call length (minutes)</th>
+    <th>Calls / member</th>
+    <th>Calls / nurse</th>
+    <th>Disconnected calls</th>
+  </tr>
+
+  <% @results.each do |r| %>
+    <tr>
+      <td><%= r.first %></td>
+      <td><%= r.last.num_completed_calls %></td>
+      <td><%= r.last.median_call_length.round(2) %></td>
+      <td><%= r.last.calls_per_member.round(2) %></td>
+      <td><%= r.last.calls_per_nurse.round(2) %></td>
+      <td><%= r.last.num_dropped_calls %></td>
+    </tr>
+  <% end %>
+</table>
+</div>
