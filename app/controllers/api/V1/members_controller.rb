@@ -1,36 +1,43 @@
-class Api::V1::MembersController < Api::V1::ABaseController
+class Api::V1::MembersController < Api::V1::UsersController
+  skip_before_filter :load_user! # skip base class
+  skip_before_filter :convert_parameters! # skip base class
+  skip_before_filter :authentication_check, only: :create
   before_filter :load_members!, only: :index
   before_filter :load_member!, only: [:show, :update]
-  before_filter :convert_nested_attributes!, only: :update
+  before_filter :convert_parameters!, only: [:create, :update]
 
   def index
-    render_success(users: @users,
+    render_success(users: @members,
                    page: page,
                    per: per,
-                   total_count: @users.total_count)
+                   total_count: @members.total_count)
   end
 
   def show
-    authorize! :show, @member
-    show_resource member_json
+    show_resource @member, name: :user
+  end
+
+  def create
+    @member = Member.create(create_attributes)
+    if @member.errors.empty?
+      render_success(user: @member, auth_token: @member.auth_token)
+    else
+      render_failure({reason: @member.errors.full_messages.to_sentence,
+                      user_message: @member.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   def update
-    authorize! :update, @member
-    if @member.update_attributes(member_attributes)
-      render_success(member: member_json)
-    else
-      render_failure({reason: @member.errors.full_messages.to_sentence}, 422)
-    end
+    update_resource @member, update_attributes, name: :user
   end
 
   private
 
   def load_members!
     authorize! :index, Member
-    @users = Member
-    @users = @users.name_search(params[:q]) if params[:q]
-    @users = @users.page(page).per(per)
+    @members = Member.tap do |members|
+                 members.name_search(params[:q]) if params[:q]
+               end.page(page).per(per)
   end
 
   def page
@@ -43,31 +50,32 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def load_member!
     @member = Member.find(params[:id])
+    authorize! :manage, @member
   end
 
-  def convert_nested_attributes!
+  def convert_parameters!
+    super
     %w(user_information address insurance_policy provider).each do |key|
-      params[:member]["#{key}_attributes".to_sym] = params[:member][key.to_sym] if params[:member][key.to_sym]
+      params[:user]["#{key}_attributes".to_sym] = params[:user][key.to_sym] if params[:user][key.to_sym]
     end
   end
 
-  def member_attributes
-    params.require(:member).permit(:first_name, :last_name, :phone, :gender,
-                                   :birth_date, :ethnic_group_id, :diet_id,
-                                   :nickname,
-                                   user_information_attributes: [:id, :notes],
-                                   address_attributes: [:id, :address, :city, :state, :postal_code],
-                                   insurance_policy_attributes: [:id, :company_name, :plan_type, :policy_member_id, :notes],
-                                   provider_attributes: [:id, :address, :city, :state, :postal_code, :phone])
+  def create_attributes
+    user_attributes.tap do |attributes|
+      attributes.merge!(member_attributes)
+      attributes.merge!(params.require(:user).permit(:email, :password))
+      attributes.merge!(waitlist_entry: @waitlist_entry) if @waitlist_entry
+    end
   end
 
-  def member_json
-    options = Member::BASE_OPTIONS.merge(include: [:user_information, :ethnic_group, :diet, :address,
-                                                   :insurance_policy, :provider],
-                                         methods: [:blood_pressure, :avatar_url, :weight, :admin?,
-                                                   :nurse?]) do |k, v1, v2|
-                                            v1.is_a?(Array) ? v1 + v2 : [v1] + v2
-                                         end
-    @member.as_json(options)
+  def update_attributes
+    user_attributes.merge!(member_attributes)
+  end
+
+  def member_attributes
+    params.require(:user).permit(user_information_attributes: [:id, :notes],
+                                address_attributes: [:id, :address, :city, :state, :postal_code],
+                                insurance_policy_attributes: [:id, :company_name, :plan_type, :policy_member_id, :notes],
+                                provider_attributes: [:id, :address, :city, :state, :postal_code, :phone])
   end
 end
