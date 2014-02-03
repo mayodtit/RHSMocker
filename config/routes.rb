@@ -64,7 +64,7 @@ RHSMocker::Application.routes.draw do
       get :user, to: 'users#current' # TODO - this should be deprecated in favor of users#current
       put :user, to: 'users#update_current' # TODO - this should be deprecated in general, client should know the ID
       put 'user/:id', to: 'users#update' # TODO - deprecated, use users#update
-      resources :users, only: [:index, :show, :create, :update] do
+      resources :users, only: [:show, :update, :destroy] do
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
         resources :associations, :except => [:new, :edit]
         resources :blood_pressures, only: [:index, :create, :destroy]
