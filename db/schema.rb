@@ -19,8 +19,8 @@ ActiveRecord::Schema.define(:version => 20140205005942) do
     t.string   "city"
     t.string   "state"
     t.string   "postal_code"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "agreements", :force => true do |t|
@@ -262,8 +262,8 @@ ActiveRecord::Schema.define(:version => 20140205005942) do
     t.string   "company_name"
     t.string   "plan_type"
     t.string   "policy_member_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.text     "notes"
   end
 
@@ -352,7 +352,7 @@ ActiveRecord::Schema.define(:version => 20140205005942) do
     t.integer  "claimer_id"
     t.integer  "ender_id"
     t.string   "identifier_token"
-    t.integer  "to_role_id",                   :default => 4
+    t.integer  "to_role_id",                   :default => 3
     t.integer  "dialer_id"
     t.datetime "dialed_at"
     t.integer  "resolver"
@@ -413,9 +413,9 @@ ActiveRecord::Schema.define(:version => 20140205005942) do
   end
 
   create_table "provider_call_logs", :force => true do |t|
+    t.integer  "user_id"
     t.string   "npi"
     t.integer  "number"
-    t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -427,8 +427,8 @@ ActiveRecord::Schema.define(:version => 20140205005942) do
     t.string   "state"
     t.string   "postal_code"
     t.string   "phone"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "questions", :force => true do |t|
@@ -614,8 +614,8 @@ ActiveRecord::Schema.define(:version => 20140205005942) do
 
   create_table "user_informations", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.text     "notes"
   end
 
