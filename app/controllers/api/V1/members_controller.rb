@@ -1,6 +1,4 @@
-class Api::V1::MembersController < Api::V1::UsersController
-  skip_before_filter :load_user! # skip base class
-  skip_before_filter :convert_parameters! # skip base class
+class Api::V1::MembersController < Api::V1::ABaseController
   skip_before_filter :authentication_check, only: :create
   before_filter :load_members!, only: :index
   before_filter :load_member!, only: [:show, :update]
@@ -18,7 +16,7 @@ class Api::V1::MembersController < Api::V1::UsersController
   end
 
   def create
-    @member = Member.create(create_attributes)
+    @member = Member.create permitted_params.user
     if @member.errors.empty?
       render_success(user: @member, auth_token: @member.auth_token)
     else
@@ -28,7 +26,7 @@ class Api::V1::MembersController < Api::V1::UsersController
   end
 
   def update
-    update_resource @member, update_attributes, name: :user
+    update_resource @member, permitted_params(@member).user, name: :user
   end
 
   private
@@ -54,28 +52,9 @@ class Api::V1::MembersController < Api::V1::UsersController
   end
 
   def convert_parameters!
-    super
+    params[:user][:avatar] = decode_b64_image(params[:user][:avatar]) if params[:user][:avatar]
     %w(user_information address insurance_policy provider).each do |key|
       params[:user]["#{key}_attributes".to_sym] = params[:user][key.to_sym] if params[:user][key.to_sym]
     end
-  end
-
-  def create_attributes
-    user_attributes.tap do |attributes|
-      attributes.merge!(member_attributes)
-      attributes.merge!(params.require(:user).permit(:email, :password))
-      attributes.merge!(waitlist_entry: @waitlist_entry) if @waitlist_entry
-    end
-  end
-
-  def update_attributes
-    user_attributes.merge!(member_attributes)
-  end
-
-  def member_attributes
-    params.require(:user).permit(user_information_attributes: [:id, :notes],
-                                address_attributes: [:id, :address, :city, :state, :postal_code],
-                                insurance_policy_attributes: [:id, :company_name, :plan_type, :policy_member_id, :notes],
-                                provider_attributes: [:id, :address, :city, :state, :postal_code, :phone])
   end
 end

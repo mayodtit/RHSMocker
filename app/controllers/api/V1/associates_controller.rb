@@ -1,6 +1,4 @@
-class Api::V1::AssociatesController < Api::V1::UsersController
-  skip_before_filter :load_user! # skip base class
-  skip_before_filter :convert_parameters! # skip base class
+class Api::V1::AssociatesController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_associate!, only: [:show, :update, :destroy]
   before_filter :convert_parameters!, only: [:create, :update]
@@ -14,11 +12,15 @@ class Api::V1::AssociatesController < Api::V1::UsersController
   end
 
   def create
-    create_resource @user.associates, associate_attributes, name: :user
+    create_resource @user.associates,
+                    permitted_params(@associate).user,
+                    name: :user
   end
 
   def update
-    update_resource @associate, associate_attributes, name: :user
+    update_resource @associate,
+                    permitted_params(@associate).user,
+                    name: :user
   end
 
   def destroy
@@ -37,7 +39,7 @@ class Api::V1::AssociatesController < Api::V1::UsersController
     authorize! :manage, @associate
   end
 
-  def associate_attributes
-    base_attributes
+  def convert_parameters!
+    params[:user][:avatar] = decode_b64_image(params[:user][:avatar]) if params[:user][:avatar]
   end
 end
