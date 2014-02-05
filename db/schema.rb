@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140204191748) do
+ActiveRecord::Schema.define(:version => 20140205005942) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -352,7 +352,7 @@ ActiveRecord::Schema.define(:version => 20140204191748) do
     t.integer  "claimer_id"
     t.integer  "ender_id"
     t.string   "identifier_token"
-    t.integer  "to_role_id",                   :default => 1
+    t.integer  "to_role_id",                   :default => 4
     t.integer  "dialer_id"
     t.datetime "dialed_at"
     t.integer  "resolver"
