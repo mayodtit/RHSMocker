@@ -48,7 +48,13 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
 
   def phone_call_attributes
     attributes = params.require(:consult).permit(phone_call: [:origin_phone_number,
+                                                              :to_role,
                                                               :destination_phone_number])
+
+    if attributes[:phone_call] && attributes[:phone_call][:to_role]
+      attributes[:phone_call][:to_role] = Role.find_by_name! attributes[:phone_call][:to_role]
+    end
+
     attributes.any? ? {phone_call_attributes: attributes[:phone_call].merge!(user: @user)} : nil
   end
 
