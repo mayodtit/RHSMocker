@@ -2,6 +2,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
   skip_before_filter :authentication_check, only: :create
   before_filter :load_members!, only: :index
   before_filter :load_member!, only: [:show, :update]
+  before_filter :convert_legacy_parameters!, only: :secure_update # TODO - remove when deprecated routes are removed
   before_filter :load_member_from_login!, only: :secure_update
   before_filter :convert_parameters!, only: [:create, :update]
 
@@ -58,6 +59,22 @@ class Api::V1::MembersController < Api::V1::ABaseController
   def load_member!
     @member = Member.find(params[:id])
     authorize! :manage, @member
+  end
+
+  def convert_legacy_parameters!
+    if update_email_path?
+      params[:user] = {current_password: params[:password], email: params[:email]}
+    elsif update_password_path?
+      params[:user] = {current_password: params[:current_password], password: params[:password]}
+    end
+  end
+
+  def update_email_path?
+    request.env['PATH_INFO'].include?('update_email')
+  end
+
+  def update_password_path?
+    request.env['PATH_INFO'].include?('update_password')
   end
 
   def load_member_from_login!
