@@ -69,11 +69,11 @@ RHSMocker::Application.configure do
   config.action_mailer.default_url_options = { :host => 'api.getbetter.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    :address              => "smtp.sendgrid.net",
+    :address              => 'smtp.mandrillapp.com',
     :port                 => 587,
     :domain               => 'api.getbetter.com',
-    :user_name            => 'better_eng',
-    :password             => 'better120',
+    :user_name            => 'engineering@getbetter.com',
+    :password             => '3yyOASxVdGz4sAAyi11iKQ',
     :authentication       => :plain,
     :enable_starttls_auto => true
   }
