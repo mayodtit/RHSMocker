@@ -73,4 +73,48 @@ describe PermittedParams do
       end
     end
   end
+
+  describe '#secure_user' do
+    let(:params_hash) {
+                        {
+                          email: 'new_email@test.com',
+                          password: 'new_password',
+                          junk: 'junk'
+                        }
+                      }
+    let(:params) { ActionController::Parameters.new(user: params_hash) }
+
+    context 'without a user' do
+      let(:permitted_params) { described_class.new(params, false) }
+
+      it 'returns only the permitted attributes' do
+        expect(permitted_params.secure_user).to have_key(:email)
+        expect(permitted_params.secure_user).to have_key(:password)
+        expect(permitted_params.secure_user).to_not have_key(:junk)
+      end
+    end
+
+    context 'with a subject that is not the current_user' do
+      let(:permitted_params) { described_class.new(params,
+                                                   build_stubbed(:member),
+                                                   build_stubbed(:member)) }
+
+      it 'does not allow any parameters' do
+        expect(permitted_params.secure_user).to be_empty
+      end
+    end
+
+    context 'when the current_user is the subject' do
+      let(:current_user) { build_stubbed(:member) }
+      let(:permitted_params) { described_class.new(params,
+                                                   current_user,
+                                                   current_user) }
+
+      it 'returns only the permitted attributes' do
+        expect(permitted_params.secure_user).to have_key(:email)
+        expect(permitted_params.secure_user).to have_key(:password)
+        expect(permitted_params.secure_user).to_not have_key(:junk)
+      end
+    end
+  end
 end

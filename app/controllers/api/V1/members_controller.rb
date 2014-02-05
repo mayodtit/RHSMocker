@@ -2,6 +2,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
   skip_before_filter :authentication_check, only: :create
   before_filter :load_members!, only: :index
   before_filter :load_member!, only: [:show, :update]
+  before_filter :load_member_from_login!, only: :secure_update
   before_filter :convert_parameters!, only: [:create, :update]
 
   def index
@@ -33,6 +34,10 @@ class Api::V1::MembersController < Api::V1::ABaseController
     update_resource @member, permitted_params(@member).user, name: :user
   end
 
+  def secure_update
+    update_resource @member, permitted_params(@member).secure_user, name: :user
+  end
+
   private
 
   def load_members!
@@ -52,6 +57,12 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def load_member!
     @member = Member.find(params[:id])
+    authorize! :manage, @member
+  end
+
+  def load_member_from_login!
+    @member = login(current_user.email, params.require(:user).require(:current_password))
+    render_failure(reason: 'Invalid current password') and return unless @member
     authorize! :manage, @member
   end
 

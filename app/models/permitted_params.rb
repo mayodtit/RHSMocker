@@ -5,6 +5,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     end
   end
 
+  def secure_user
+    params.require(:user).permit(*secure_user_attributes)
+  end
+
   private
 
   def user_attributes
@@ -36,7 +40,11 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def secure_user_attributes
-    [:email, :password]
+    if !current_user || current_user == subject
+      [:email, :password]
+    else
+      nil
+    end
   end
 
   def user_information_attributes
