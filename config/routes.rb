@@ -39,7 +39,13 @@ RHSMocker::Application.routes.draw do
       resources :ethnic_groups, :only => :index
       get 'factors/:symptom_id', to: 'factor_groups#index' # TODO - deprecated!
       resources :locations, :only => :create
-      resources :members, only: [:index, :show, :update]
+      post :login, to: 'sessions#create', as: :login # TODO - deprecated!
+      delete :logout, to: 'sessions#destroy', as: :logout # TODO - deprecated!
+      resources :members, only: [:index, :show, :create, :update] do
+        get :current, on: :collection
+        put :secure_update, on: :member
+        put :update_current, on: :collection # TODO - this should be deprecated in general, client should know the ID
+      end
       resources :offerings, :only => :index
       post :password_resets, to: 'reset_password#create' # TODO - deprecated!
       resources :phone_call_summaries, :only => :show
@@ -55,15 +61,18 @@ RHSMocker::Application.routes.draw do
       end
       resources :provider_call_logs, only: :create
       resources :side_effects, :only => :index
+      post :signup, to: 'members#create', as: :signup # TODO - deprecated!
       resources :symptoms, only: :index do
         resources :factor_groups, only: :index
         resources :contents, only: :index, controller: :symptom_contents
         post :check, on: :collection, to: 'symptom_contents#index'
       end
       resources :treatments, :only => :index
-      get :user, to: 'users#current' # TODO - this should be deprecated in favor of users#current
-      put :user, to: 'users#update_current' # TODO - this should be deprecated in general, client should know the ID
+      get :user, to: 'members#current' # TODO - this should be deprecated in favor of members#current
+      put :user, to: 'members#update_current' # TODO - this should be deprecated in general, client should know the ID
       put 'user/:id', to: 'users#update' # TODO - deprecated, use users#update
+      post 'user/update_password', to: 'members#secure_update', as: :update_password # TODO - deprecated!
+      post 'user/update_email', to: 'members#secure_update', as: :update_email # TODO - deprecated!
       resources :users, only: [:show, :update, :destroy] do
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
         resources :associates, except: [:new, :edit]
@@ -78,7 +87,6 @@ RHSMocker::Application.routes.draw do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
-        get :current, on: :collection
         resources :diseases, except: [:new, :edit], controller: 'user_conditions' do
           resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
@@ -89,7 +97,6 @@ RHSMocker::Application.routes.draw do
           get :inbox, :on => :collection
           get :timeline, :on => :collection
         end
-        put :secure_update, on: :member
         resources :subscriptions, :except => [:new, :edit]
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
           resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do
@@ -104,13 +111,6 @@ RHSMocker::Application.routes.draw do
       resources :waitlist_entries, only: [:index, :create, :update, :destroy]
       resources :invitations, :only => [:create, :show, :update]
       get 'roles/:role_name/members' => 'roles#members', as: 'members_with_role'
-
-      #account management - DEPRECATED
-      post "signup" => "users#create", :as=>"signup"
-      post "login" => "sessions#create", :as=>"login"
-      delete "logout" => "sessions#destroy", :as=>"logout"
-      post "user/update_password" => "users#secure_update", :as=>"update_password"
-      post "user/update_email" => "users#secure_update", :as=>"update_email"
     end
   end
 
