@@ -73,7 +73,8 @@ RHSMocker::Application.configure do
     :port                 => 587,
     :domain               => 'api-dev.getbetter.com',
     :user_name            => 'engineering@getbetter.com',
-    :password             => 'aRKoZlErlMFoJoxG_gfXog',
+    #:password             => 'aRKoZlErlMFoJoxG_gfXog', # test key - emails will reach Mandrill but not be delivered
+    :password             => 'oEthdp6-9FB4oL39GgHFmQ', # live key - emails will reach recipient
     :authentication       => :plain,
     :enable_starttls_auto => true
   }
