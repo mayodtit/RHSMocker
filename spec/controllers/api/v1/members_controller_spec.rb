@@ -160,6 +160,10 @@ describe Api::V1::MembersController do
       put :secure_update, user: attributes_for(:user).merge!(current_password: 'password')
     end
 
+    before do
+      request.env['PATH_INFO'] = 'controller_path'
+    end
+
     it_behaves_like 'action requiring authentication'
 
     context 'authenticated', user: :authenticate! do
