@@ -15,6 +15,10 @@ class Api::V1::MembersController < Api::V1::ABaseController
     show_resource @member, name: :user
   end
 
+  def current
+    show_resource current_user, name: :user
+  end
+
   def create
     @member = Member.create permitted_params.user
     if @member.errors.empty?

@@ -60,6 +60,24 @@ describe Api::V1::MembersController do
     end
   end
 
+  describe 'GET current' do
+    def do_request
+      get :current
+    end
+
+    it_behaves_like 'action requiring authentication'
+
+    context 'authenticated', user: :authenticate! do
+      it_behaves_like 'success'
+
+      it 'returns the current_user' do
+        do_request
+        body = JSON.parse(response.body, symbolize_names: true)
+        body[:user].to_json.should == user.as_json.to_json
+      end
+    end
+  end
+
   describe 'POST create' do
     def do_request
       post :create, user: attributes_for(:member)
