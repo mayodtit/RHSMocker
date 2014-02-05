@@ -70,11 +70,11 @@ class Ability
       end
 
       can :index, ScheduledPhoneCall
+      can :read, Role
     end
 
     if user.pha_lead?
       can :manage, ScheduledPhoneCall
-      can :read, Role
     end
   end
 end
