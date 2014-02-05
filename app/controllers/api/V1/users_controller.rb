@@ -10,6 +10,13 @@ class Api::V1::UsersController < Api::V1::ABaseController
     update_resource @user, permitted_params(@user).user
   end
 
+  def invite
+    @user = User.find(params[:id])
+    @member = @user.member || Member.create_from_user!(@user)
+    current_user.invitations.create(invited_member: @member) # fail silently, always return success
+    render_success
+  end
+
   private
 
   def load_user!
