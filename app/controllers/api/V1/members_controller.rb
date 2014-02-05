@@ -4,6 +4,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
   before_filter :load_member!, only: [:show, :update]
   before_filter :convert_legacy_parameters!, only: :secure_update # TODO - remove when deprecated routes are removed
   before_filter :load_member_from_login!, only: :secure_update
+  before_filter :load_waitlist_entry!, only: :create
   before_filter :convert_parameters!, only: [:create, :update]
 
   def index
@@ -83,10 +84,19 @@ class Api::V1::MembersController < Api::V1::ABaseController
     authorize! :manage, @member
   end
 
+  def load_waitlist_entry!
+    return unless Metadata.use_invite_flow?
+    return if params[:user][:token] == 'better120' && !Rails.env.production?
+    @waitlist_entry = WaitlistEntry.invited.find_by_token(params[:user][:token])
+    render_failure({reason: 'Invalid invitation code', user_message: 'Invalid invitation code'}, 422) and return unless @waitlist_entry
+    @waitlist_entry.state_event = :claim
+  end
+
   def convert_parameters!
     params[:user][:avatar] = decode_b64_image(params[:user][:avatar]) if params[:user][:avatar]
     %w(user_information address insurance_policy provider).each do |key|
       params[:user]["#{key}_attributes".to_sym] = params[:user][key.to_sym] if params[:user][key.to_sym]
     end
+    params[:user][:waitlist_entry] = @waitlist_entry if @waitlist_entry
   end
 end
