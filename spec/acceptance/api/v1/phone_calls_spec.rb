@@ -12,9 +12,19 @@ resource "PhoneCalls" do
   let!(:other_phone_call) { create(:phone_call, to_role: user.roles.first) }
   let!(:outbound_phone_call) { create(:phone_call, dialer: pha, to_role: nil) }
   let!(:inbound_phone_call) { create(:phone_call, to_role: pha.roles.first, origin_phone_number: '4083913578') }
+  let!(:resolved_inbound_phone_call) do
+    phone_call = create(
+      :phone_call,
+      to_role: pha.roles.first,
+      origin_phone_number: '4083913578',
+      origin_twilio_sid: 'OTHERFAKETWILIOSID'
+    )
+    phone_call.resolve!
+    phone_call
+  end
   let(:claimed_phone_call) do
     phone_call = create(:phone_call, to_role: user.roles.first)
-    phone_call.claim! user
+    phone_call.update_attributes(state_event: :claim, claimer: user)
     phone_call
   end
 
@@ -101,6 +111,9 @@ resource "PhoneCalls" do
       example_request '[POST] Indicates phone call\'s origin connected' do
         explanation 'Dials the destination'
         status.should == 200
+        outbound_phone_call.reload
+        outbound_phone_call.destination_twilio_sid.should == 'FAKETWILIOSID'
+        outbound_phone_call.origin_status.should == PhoneCall::CONNECTED_STATUS
       end
     end
   end
@@ -115,6 +128,8 @@ resource "PhoneCalls" do
       example_request '[POST] Indicates phone call\'s destination connected' do
         explanation 'and that\s it.'
         status.should == 200
+        outbound_phone_call.reload
+        outbound_phone_call.destination_status.should == PhoneCall::CONNECTED_STATUS
       end
     end
   end
@@ -176,8 +191,10 @@ resource "PhoneCalls" do
 
   describe 'twilio status update from a phone call\'s origin' do
     parameter :id, 'Phone call id'
+    parameter :CallStatus, 'Status of the call'
 
     let(:id) { phone_call.id }
+    let(:CallStatus) { 'completed' }
 
     let(:raw_post) { params.to_json }
 
@@ -185,14 +202,19 @@ resource "PhoneCalls" do
       example_request '[POST] Update the status of a phone call best on the origin\'s call status' do
         explanation 'Twilio telling us that the origin\'s call status has changed'
         status.should == 200
+        phone_call.reload
+        phone_call.should be_missed
+        phone_call.origin_status.should == 'completed'
       end
     end
   end
 
   describe 'twilio status update from a phone call\'s destination' do
     parameter :id, 'Phone call id'
+    parameter :CallStatus, 'Status of the call'
 
     let(:id) { phone_call.id }
+    let(:CallStatus) { 'completed' }
 
     let(:raw_post) { params.to_json }
 
@@ -200,17 +222,28 @@ resource "PhoneCalls" do
       example_request '[POST] Update the status of a phone call best on the destination\'s call status' do
         explanation 'Twilio telling us that the destination\'s call status has changed'
         status.should == 200
+        phone_call.reload
+        phone_call.should be_missed
+        phone_call.destination_status.should == 'completed'
       end
     end
     end
 
   describe 'twilio status update' do
+    parameter :CallSid, 'Twilio SID of the call'
+    parameter :CallStatus, 'Status of the call'
+
+    let(:CallSid) { resolved_inbound_phone_call.origin_twilio_sid }
+    let(:CallStatus) { 'completed' }
     let(:raw_post) { params.to_json }
 
     post '/api/v1/phone_calls/status' do
       example_request '[POST] Update the status of a phone call' do
         explanation 'Twilio telling us that a phone call has changed in status'
         status.should == 200
+        resolved_inbound_phone_call.reload
+        resolved_inbound_phone_call.should be_missed
+        resolved_inbound_phone_call.origin_status.should == 'completed'
       end
     end
   end

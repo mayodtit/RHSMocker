@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140130205019) do
+ActiveRecord::Schema.define(:version => 20140204191748) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -364,6 +364,8 @@ ActiveRecord::Schema.define(:version => 20140130205019) do
     t.integer  "transferrer_id"
     t.datetime "transferred_at"
     t.string   "twilio_conference_name"
+    t.string   "origin_status"
+    t.string   "destination_status"
   end
 
   add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"

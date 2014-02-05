@@ -46,11 +46,13 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
   end
 
   def connect_origin
+    @phone_call.update_attributes!(origin_status: PhoneCall::CONNECTED_STATUS)
     @phone_call.dial_destination
     render formats: [:xml]
   end
 
   def connect_destination
+    @phone_call.update_attributes!(destination_status: PhoneCall::CONNECTED_STATUS)
     render formats: [:xml]
   end
 
@@ -84,30 +86,39 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
   end
 
   def status_origin
-    if params['CallStatus'] == 'completed'
-    elsif params['CallStatus'] == 'failed'
-    elsif params['CallStatus'] == 'busy'
-    elsif params['CallStatus'] == 'no-answer'
-    end
+    attrs = { origin_status: params['CallStatus'] }
+    attrs[:state_event] = 'disconnect' if disconnected_call_status?
+    @phone_call.update_attributes! attrs
 
     head :ok, :content_type => 'text/html'
   end
 
   def status_destination
-    if params['CallStatus'] == 'completed'
-    elsif params['CallStatus'] == 'failed'
-    elsif params['CallStatus'] == 'busy'
-    elsif params['CallStatus'] == 'no-answer'
-    end
+    attrs = { destination_status: params['CallStatus'] }
+    attrs[:state_event] = 'disconnect' if disconnected_call_status?
+    @phone_call.update_attributes! attrs
 
     head :ok, :content_type => 'text/html'
   end
 
   def status
+    if phone_call = PhoneCall.find_by_origin_twilio_sid(params['CallSid'])
+      attrs = { origin_status: params['CallStatus'] }
+      if disconnected_call_status?
+        attrs[:state_event] = 'disconnect'
+      end
+
+      phone_call.update_attributes! attrs
+    end
+
     head :ok, :content_type => 'text/html'
   end
 
   private
+
+  def disconnected_call_status?
+    params['CallStatus'] != 'ringing' && params['CallStatus'] != 'in-progress' && params['CallStatus'] != 'queued'
+  end
 
   def load_phone_call!
     @phone_call = PhoneCall.find params[:id]

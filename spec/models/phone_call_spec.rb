@@ -20,6 +20,34 @@ describe PhoneCall do
     it_validates 'phone number format of', :destination_phone_number, true
   end
 
+  describe '#origin_connected?' do
+    it 'returns true when origin_status is connected' do
+      phone_call = PhoneCall.new
+      phone_call.origin_status = PhoneCall::CONNECTED_STATUS
+      phone_call.should be_origin_connected
+    end
+
+    it 'returns false when origin_status is not connected' do
+      phone_call = PhoneCall.new
+      phone_call.origin_status = 'busy'
+      phone_call.should_not be_origin_connected
+    end
+  end
+
+  describe '#destination_connected?' do
+    it 'returns true when destination_status is connected' do
+      phone_call = PhoneCall.new
+      phone_call.destination_status = PhoneCall::CONNECTED_STATUS
+      phone_call.should be_destination_connected
+    end
+
+    it 'returns false when destination_status is not connected' do
+      phone_call = PhoneCall.new
+      phone_call.destination_status = 'busy'
+      phone_call.should_not be_destination_connected
+    end
+  end
+
   describe '#outbound?' do
     let(:phone_call) { build_stubbed(:phone_call) }
 
@@ -156,6 +184,96 @@ describe PhoneCall do
         phone_call.save!
       end
     end
+
+    describe '#transition_state' do
+      let(:phone_call) { build(:phone_call) }
+
+      it 'is called before validation' do
+        phone_call = PhoneCall.new
+        phone_call.should_receive :transition_state
+        phone_call.valid?
+      end
+
+      shared_examples 'disconnect transition state' do
+        context 'state is connected' do
+          before do
+            phone_call.state = 'connected'
+          end
+
+          it 'disconnects' do
+            phone_call.should_receive(:disconnect)
+            phone_call.valid?
+          end
+        end
+
+        context 'state is not connected' do
+          before do
+            phone_call.state = 'unclaimed'
+          end
+
+          it 'doesn\'t disconnect' do
+            phone_call.should_not_receive(:disconnect)
+            phone_call.valid?
+          end
+        end
+      end
+
+      context 'origin is disconnected' do
+        before do
+          phone_call.stub(:origin_connected?) { false }
+        end
+
+        it_behaves_like 'disconnect transition state'
+      end
+
+      context 'destination is disconnected' do
+        before do
+          phone_call.stub(:destination_connected?) { false }
+        end
+
+        it_behaves_like 'disconnect transition state'
+      end
+
+      context 'neither parties are disconnected' do
+        before do
+          phone_call.stub(:origin_connected?) { true }
+          phone_call.stub(:destination_connected?) { true }
+        end
+
+        context 'state is disconnected' do
+          before do
+            phone_call.state = 'disconnected'
+          end
+
+          it 'connects' do
+            phone_call.should_receive(:connect)
+            phone_call.valid?
+          end
+        end
+
+        context 'state is dialing' do
+          before do
+            phone_call.state = 'dialing'
+          end
+
+          it 'connects' do
+            phone_call.should_receive(:connect)
+            phone_call.valid?
+          end
+        end
+
+        context 'state is not dialing or disconnected' do
+          before do
+            phone_call.state = 'unclaimed'
+          end
+
+          it 'connects' do
+            phone_call.should_not_receive(:connect)
+            phone_call.valid?
+          end
+        end
+      end
+    end
   end
 
   describe '#dial_if_outbound' do
@@ -175,6 +293,7 @@ describe PhoneCall do
   end
 
   describe 'dialing' do
+    let(:dialer) { build(:pha) }
     let(:phone_call) { build(:phone_call) }
     let(:connect_url) { '/connect' }
     let(:status_url) { '/status' }
@@ -195,6 +314,8 @@ describe PhoneCall do
       URL_HELPERS.stub(:connect_destination_api_v1_phone_call_url).with(phone_call) { connect_url }
       URL_HELPERS.stub(:status_origin_api_v1_phone_call_url).with(phone_call) { status_url }
       URL_HELPERS.stub(:status_destination_api_v1_phone_call_url).with(phone_call) { status_url }
+
+      phone_call.state = 'dialing'
     end
 
     describe '#dial_origin' do
@@ -208,12 +329,17 @@ describe PhoneCall do
           status_callback_method: 'POST'
         )
 
-        phone_call.dial_origin
+        phone_call.dial_origin(dialer)
       end
 
-      it 'saves the twilio sid' do
-        phone_call.should_receive(:origin_twilio_sid=).with('1')
-        phone_call.should_receive(:save!)
+      it 'transitions to dialing' do
+        phone_call.should_receive(:update_attributes!).with(state_event: :dial, origin_twilio_sid: '1', dialer: dialer)
+        phone_call.dial_origin(dialer)
+      end
+
+      it 'sets the dialer to the one in phone call if not present' do
+        phone_call.dialer = dialer
+        phone_call.should_receive(:update_attributes!).with(state_event: :dial, origin_twilio_sid: '1', dialer: dialer)
         phone_call.dial_origin
       end
     end
@@ -229,13 +355,24 @@ describe PhoneCall do
           status_callback_method: 'POST'
         )
 
+        phone_call.dial_destination(dialer)
+      end
+
+      it 'transitions to dialing' do
+        phone_call.should_receive(:update_attributes!).with(state_event: :dial, destination_twilio_sid: '1', dialer: dialer)
+        phone_call.dial_destination(dialer)
+      end
+
+      it 'sets the dialer to the one in phone call if not present' do
+        phone_call.dialer = dialer
+        phone_call.should_receive(:update_attributes!).with(state_event: :dial, destination_twilio_sid: '1', dialer: dialer)
         phone_call.dial_destination
       end
 
-      it 'saves the twilio sid' do
-        phone_call.should_receive(:destination_twilio_sid=).with('1')
-        phone_call.should_receive(:save!)
-        phone_call.dial_destination
+      it 'doesn\'t transition to dialing if it\'s to nurseline' do
+        phone_call.stub(:to_role) { build(:role, name: 'nurse') }
+        phone_call.should_not_receive(:update_attributes!)
+        phone_call.dial_destination(dialer)
       end
     end
   end
@@ -261,7 +398,8 @@ describe PhoneCall do
           destination_phone_number: PHA_NUMBER,
           to_role: role,
           state_event: :resolve,
-          origin_twilio_sid: twilio_sid
+          origin_twilio_sid: twilio_sid,
+          origin_status: PhoneCall::CONNECTED_STATUS
         )
 
         PhoneCall.resolve(phone_number, twilio_sid)
@@ -287,7 +425,7 @@ describe PhoneCall do
         end
 
         it 'resolves the phone call' do
-          phone_call.should_receive(:update_attributes).with(state_event: :resolve, origin_twilio_sid: twilio_sid)
+          phone_call.should_receive(:update_attributes).with(state_event: :resolve, origin_twilio_sid: twilio_sid, origin_status: PhoneCall::CONNECTED_STATUS)
           PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
         end
 
@@ -321,7 +459,8 @@ describe PhoneCall do
               destination_phone_number: PHA_NUMBER,
               to_role: role,
               state_event: :resolve,
-              origin_twilio_sid: twilio_sid
+              origin_twilio_sid: twilio_sid,
+              origin_status: PhoneCall::CONNECTED_STATUS
             ) { phone_call }
 
             PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
@@ -339,7 +478,8 @@ describe PhoneCall do
               destination_phone_number: PHA_NUMBER,
               to_role: role,
               state_event: :resolve,
-              origin_twilio_sid: twilio_sid
+              origin_twilio_sid: twilio_sid,
+              origin_status: PhoneCall::CONNECTED_STATUS
             ) { phone_call }
 
             PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
@@ -462,6 +602,41 @@ describe PhoneCall do
       it_behaves_like 'can transition from', :connect!, [:dialing]
     end
 
+    describe '#disconnect!' do
+      it 'transitions missed to missed' do
+        phone_call.missed_at = Time.now
+        phone_call.state = 'missed'
+        phone_call.disconnect!
+        phone_call.should be_missed
+      end
+
+      it 'transitions unclaimed to missed' do
+        phone_call.state = 'unclaimed'
+        phone_call.disconnect!
+        phone_call.should be_missed
+      end
+
+      it 'transitions from dialing to disconnected' do
+        phone_call.state = 'dialing'
+        phone_call.disconnect!
+        phone_call.should be_disconnected
+      end
+
+      it 'transitions from connected to disconnected' do
+        phone_call.state = 'connected'
+        phone_call.disconnect!
+        phone_call.should be_disconnected
+      end
+
+      it 'transitions from ended to ended' do
+        phone_call.ender = nurse
+        phone_call.ended_at = Time.now
+        phone_call.state = 'ended'
+        phone_call.disconnect!
+        phone_call.should be_ended
+      end
+    end
+
     describe '#transfer!' do
       context 'stubbed' do
         let(:nurse_role) { build_stubbed(:role, name: 'nurse') }
@@ -489,13 +664,16 @@ describe PhoneCall do
         end
 
         it 'creates a nurseline phone call and sets it as the transferred to call' do
+          phone_call.origin_status = PhoneCall::CONNECTED_STATUS
+
           PhoneCall.should_receive(:create!).with(
             user: phone_call.user,
             origin_phone_number: phone_call.origin_phone_number,
             destination_phone_number: NURSELINE_NUMBER,
             to_role: nurse_role,
             origin_twilio_sid: phone_call.origin_twilio_sid,
-            twilio_conference_name: phone_call.twilio_conference_name
+            twilio_conference_name: phone_call.twilio_conference_name,
+            origin_status: PhoneCall::CONNECTED_STATUS
           )
 
           phone_call.update_attributes!(state_event: 'transfer', transferrer: transferrer)
