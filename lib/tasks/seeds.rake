@@ -429,6 +429,34 @@ namespace :seeds do
       s.state = 'assigned'
       s.save!
     end
+
+    5.times do
+      m = Member.all.sample
+      c = Consult.create!(
+        title: 'Welcome Call',
+        state: 'open',
+        description: "Better welcome call.",
+        initiator_id: m.id,
+        subject_id: m.id,
+        messages_attributes: [{
+          user: m,
+          scheduled_phone_call_attributes: {
+            scheduled_at: Time.now + DAY_OFFSET.sample + HOUR_OFFSET.sample,
+            owner: Member.find_by_email!(PHAS.sample),
+            assignor: Member.find_by_email!(PHA_LEADS.sample),
+            assigned_at: Time.now,
+            booker: m,
+            user: m
+          }
+        }]
+      )
+
+      s = c.messages.first.scheduled_phone_call
+      s.booked_at = Time.now
+      s.state = 'booked'
+
+      s.save!
+    end
   end
 
   desc "Seed with some unresolved calls to PHAs."

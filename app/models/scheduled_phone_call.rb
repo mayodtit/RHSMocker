@@ -113,7 +113,7 @@ Prep:
     end
 
     event :book do
-      transition :assigned => :booked
+      transition [:booked, :assigned] => :booked
     end
 
     event :start do
@@ -137,11 +137,11 @@ Prep:
       scheduled_phone_call.notify_owner_of_assigned_call
     end
 
-    before_transition :assigned => :booked do |scheduled_phone_call|
+    before_transition [:booked, :assigned] => :booked do |scheduled_phone_call|
       scheduled_phone_call.booked_at = Time.now
     end
 
-    after_transition :assigned => :booked do |scheduled_phone_call|
+    after_transition [:booked, :assigned] => :booked do |scheduled_phone_call|
       scheduled_phone_call.notify_user_confirming_call
       scheduled_phone_call.notify_owner_confirming_call
     end
