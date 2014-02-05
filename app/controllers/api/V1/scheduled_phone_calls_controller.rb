@@ -46,6 +46,7 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
       update_params[update_params[:state_event].event_actor] = current_user
     end
 
+    pp update_params
     update_resource @scheduled_phone_call, update_params
   end
 

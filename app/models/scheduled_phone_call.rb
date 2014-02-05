@@ -180,13 +180,13 @@ Prep:
         validate_actor_and_timestamp_exist :end
     end
 
-    if state_sym != :unassigned
+    if state_sym != :unassigned && state_sym != :canceled
       if owner_id.nil?
         errors.add(:owner_id, "must be present when #{self.class.name} is #{state}")
       end
     end
 
-    unless %i(unassigned assigned).include? state_sym
+    unless %i(unassigned assigned canceled).include? state_sym
       if user_id.nil?
         errors.add(:user_id, "must be present when #{self.class.name} is #{state}")
       end
