@@ -36,6 +36,10 @@ class Api::V1::MembersController < Api::V1::ABaseController
     update_resource @member, permitted_params(@member).user, name: :user
   end
 
+  def update_current
+    update_resource current_user, permitted_params(@member).user, name: :user
+  end
+
   def secure_update
     update_resource @member, permitted_params(@member).secure_user, name: :user
   end
