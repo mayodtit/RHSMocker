@@ -55,6 +55,10 @@ class User < ActiveRecord::Base
     "#{first_name} #{last_name}".strip
   end
 
+  def salutation
+    first_name ? first_name : 'there'
+  end
+
   def age
     if birth_date.nil?
       birth_date

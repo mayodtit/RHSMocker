@@ -16,6 +16,22 @@ describe User do
     expect(user).to_not be_valid
   end
 
+  describe '#salutation' do
+    context 'user has no first name' do
+      it "should return 'there'" do
+        u = build(:user, first_name: nil)
+        expect(u.salutation).to eq('there')
+      end
+    end
+
+    context 'user has first name' do
+      it "should return the user's first name" do
+        u = build(:user, first_name: 'foo', email: 'foo@bar.com')
+        expect(u.salutation).to eq('foo')
+      end
+    end
+  end
+
   describe 'phone numbers' do
     it_validates 'phone number format of', :phone, false, true
     it_validates 'phone number format of', :work_phone_number, false, true
