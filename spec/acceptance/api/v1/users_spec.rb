@@ -81,7 +81,7 @@ resource 'Users' do
 
     example_request "[PUT] Update the current_user's secure attributes" do
       explanation "Updates the current_user's email or password"
-      expect(status).to be(200)
+      expect(status).to eq(200)
       body = JSON.parse(response_body, symbolize_names: true)
       expect(body[:user].to_json).to eq(user.reload.as_json.to_json)
       expect(user.email).to eq(email)
