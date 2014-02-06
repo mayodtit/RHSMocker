@@ -1,5 +1,5 @@
 %p
-  Hi #{@scheduled_phone_call.user.first_name},
+  Hi #{@scheduled_phone_call.user.salutation},
 %p
   Thank you for scheduling a welcome call with me.
   My goal with this call is to get to know your preferences,
@@ -15,4 +15,4 @@
   Questions or cancellations? We're at your service at <a href="mailto:premium@getbetter.com">premium@getbetter.com</a>.
 %p
   In good health,<br />
-  Clare
+  #{@scheduled_phone_call.owner.first_name}

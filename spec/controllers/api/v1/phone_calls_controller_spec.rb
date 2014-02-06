@@ -182,10 +182,16 @@ describe Api::V1::PhoneCallsController do
 
       before do
         PhoneCall.stub(:find).with('1') { phone_call }
+        phone_call.stub(:update_attributes!)
       end
 
       it_behaves_like 'success'
       it_behaves_like 'renders valid xml', 'phone_calls/connect_origin'
+
+      it 'marks the origin as connected' do
+        phone_call.should_receive(:update_attributes!).with(origin_status: PhoneCall::CONNECTED_STATUS)
+        do_request
+      end
 
       it 'dials destination' do
         phone_call.should_receive(:dial_destination)
@@ -212,6 +218,12 @@ describe Api::V1::PhoneCallsController do
 
       before do
         PhoneCall.stub(:find).with('1') { phone_call }
+        phone_call.stub(:update_attributes!)
+      end
+
+      it 'marks the destination as connected' do
+        phone_call.should_receive(:update_attributes!).with(destination_status: PhoneCall::CONNECTED_STATUS)
+        do_request
       end
 
       it_behaves_like 'success'
@@ -347,7 +359,7 @@ describe Api::V1::PhoneCallsController do
 
   describe 'POST status_origin' do
     def do_request
-      post :status_origin, id: '1'
+      post :status_origin, id: '1', CallStatus: 'completed'
     end
 
     context 'phone call doesn\'t exist' do
@@ -363,15 +375,38 @@ describe Api::V1::PhoneCallsController do
 
       before do
         PhoneCall.stub(:find).with('1') { phone_call }
+        phone_call.stub(:update_attributes!)
       end
 
       it_behaves_like 'success'
+
+      context 'disconnected call status' do
+        before do
+          controller.stub(:disconnected_call_status?) { true }
+        end
+
+        it 'disconnects with origin status' do
+          phone_call.should_receive(:update_attributes!).with(state_event: 'disconnect', origin_status: 'completed')
+          do_request
+        end
+      end
+
+      context 'not disconnected call status' do
+        before do
+          controller.stub(:disconnected_call_status?) { false }
+        end
+
+        it 'sets origin status' do
+          phone_call.should_receive(:update_attributes!).with(origin_status: 'completed')
+          do_request
+        end
+      end
     end
   end
 
   describe 'POST status_destination' do
     def do_request
-      post :status_destination, id: '1'
+      post :status_destination, id: '1', CallStatus: 'completed'
     end
 
     context 'phone call doesn\'t exist' do
@@ -387,9 +422,32 @@ describe Api::V1::PhoneCallsController do
 
       before do
         PhoneCall.stub(:find).with('1') { phone_call }
+        phone_call.stub(:update_attributes!)
       end
 
       it_behaves_like 'success'
+
+      context 'disconnected call status' do
+        before do
+          controller.stub(:disconnected_call_status?) { true }
+        end
+
+        it 'disconnects with destination status' do
+          phone_call.should_receive(:update_attributes!).with(state_event: 'disconnect', destination_status: 'completed')
+          do_request
+        end
+      end
+
+      context 'not disconnected call status' do
+        before do
+          controller.stub(:disconnected_call_status?) { false }
+        end
+
+        it 'sets destination status' do
+          phone_call.should_receive(:update_attributes!).with(destination_status: 'completed')
+          do_request
+        end
+      end
     end
   end
 
@@ -397,9 +455,85 @@ describe Api::V1::PhoneCallsController do
     let(:phone_call) { build_stubbed :phone_call }
 
     def do_request
-      post :status
+      post :status, CallSid: '1', CallStatus: 'completed'
     end
 
     it_behaves_like 'success'
+
+    context 'phone call exists' do
+      before do
+        PhoneCall.stub(:find_by_origin_twilio_sid).with('1') { phone_call }
+      end
+
+      context 'disconnected call status' do
+        before do
+          controller.stub(:disconnected_call_status?) { true }
+        end
+
+        it 'disconnects with origin status' do
+          phone_call.should_receive(:update_attributes!).with(state_event: 'disconnect', origin_status: 'completed')
+          do_request
+        end
+      end
+
+      context 'not disconnected call status' do
+        before do
+          controller.stub(:disconnected_call_status?) { false }
+        end
+
+        it 'sets origin status' do
+          phone_call.should_receive(:update_attributes!).with(origin_status: 'completed')
+          do_request
+        end
+      end
+    end
+  end
+
+  describe '#disconnected_call_status?' do
+    let(:params) { {} }
+
+    before do
+      controller.stub(:params) { params }
+    end
+
+    it 'returns false for "ringing"' do
+      params['CallStatus'] = 'ringing'
+      controller.send(:disconnected_call_status?).should be_false
+    end
+
+    it 'returns false for "in-progress"' do
+      params['CallStatus'] = 'in-progress'
+      controller.send(:disconnected_call_status?).should be_false
+    end
+
+    it 'returns false for "queued"' do
+      params['CallStatus'] = 'queued'
+      controller.send(:disconnected_call_status?).should be_false
+    end
+
+    it 'return true for "completed"' do
+      params['CallStatus'] = 'completed'
+      controller.send(:disconnected_call_status?).should be_true
+    end
+
+    it 'return true for "busy"' do
+      params['CallStatus'] = 'busy'
+      controller.send(:disconnected_call_status?).should be_true
+    end
+
+    it 'return true for "failed"' do
+      params['CallStatus'] = 'failed'
+      controller.send(:disconnected_call_status?).should be_true
+    end
+
+    it 'return true for "no-answer"' do
+      params['CallStatus'] = 'no-answer'
+      controller.send(:disconnected_call_status?).should be_true
+    end
+
+    it 'return true for "canceled"' do
+      params['CallStatus'] = 'canceled'
+      controller.send(:disconnected_call_status?).should be_true
+    end
   end
 end

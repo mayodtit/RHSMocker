@@ -8,6 +8,7 @@ FactoryGirl.define do
       sequence(:email)    { |n| "user#{n}@test.com" }
       password              "password"
       password_confirmation "password"
+      member_flag true
 
       factory :admin do
         after(:create) {|user| user.add_role(:admin)}

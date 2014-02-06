@@ -3,6 +3,15 @@ require 'spec_helper'
 describe Member do
   let(:member) { build_stubbed :member }
 
+  it_has_a 'valid factory'
+
+  it 'validates member flag is true' do
+    member.stub(:set_member_flag)
+    expect(member).to be_valid
+    member.member_flag = nil
+    expect(member).to_not be_valid
+  end
+
   context 'agreement exists' do
     before do
       @agreement = create(:agreement, :active)
@@ -107,6 +116,14 @@ describe Member do
         email.should_receive :deliver
         member.invite! invitation
       end
+    end
+  end
+
+  describe 'database constraints' do
+    it 'validates uniquness of email' do
+      member1 = create(:member)
+      member2 = build(:member, email: member1.email)
+      expect{ member2.save!(validate: false) }.to raise_error(ActiveRecord::RecordNotUnique)
     end
   end
 end

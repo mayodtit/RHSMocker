@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140130205019) do
+ActiveRecord::Schema.define(:version => 20140206172815) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -342,8 +342,8 @@ ActiveRecord::Schema.define(:version => 20140130205019) do
 
   create_table "phone_calls", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at",                                  :null => false
-    t.datetime "updated_at",                                  :null => false
+    t.datetime "created_at",                                      :null => false
+    t.datetime "updated_at",                                      :null => false
     t.string   "origin_phone_number"
     t.string   "destination_phone_number"
     t.string   "state"
@@ -352,7 +352,7 @@ ActiveRecord::Schema.define(:version => 20140130205019) do
     t.integer  "claimer_id"
     t.integer  "ender_id"
     t.string   "identifier_token"
-    t.integer  "to_role_id",                   :default => 1
+    t.integer  "to_role_id"
     t.integer  "dialer_id"
     t.datetime "dialed_at"
     t.integer  "resolver"
@@ -364,6 +364,9 @@ ActiveRecord::Schema.define(:version => 20140130205019) do
     t.integer  "transferrer_id"
     t.datetime "transferred_at"
     t.string   "twilio_conference_name"
+    t.string   "origin_status"
+    t.string   "destination_status"
+    t.boolean  "outbound",                     :default => false, :null => false
   end
 
   add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"
@@ -690,8 +693,10 @@ ActiveRecord::Schema.define(:version => 20140130205019) do
     t.string   "work_phone_number"
     t.string   "nickname"
     t.integer  "default_hcp_association_id"
+    t.boolean  "member_flag"
   end
 
+  add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
   add_index "users", ["phone"], :name => "index_users_on_phone"
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"
 
@@ -704,8 +709,8 @@ ActiveRecord::Schema.define(:version => 20140130205019) do
 
   create_table "waitlist_entries", :force => true do |t|
     t.string   "email"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",                      :null => false
+    t.datetime "updated_at",                      :null => false
     t.string   "token"
     t.string   "state"
     t.datetime "invited_at"
@@ -715,6 +720,7 @@ ActiveRecord::Schema.define(:version => 20140130205019) do
     t.integer  "feature_group_id"
     t.integer  "revoker_id"
     t.datetime "revoked_at"
+    t.integer  "lock_version",     :default => 0, :null => false
   end
 
   create_table "weights", :force => true do |t|

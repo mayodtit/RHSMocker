@@ -27,13 +27,25 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
 
   def create
     authorize! :create, ScheduledPhoneCall
+
     create_params = create_or_update_params
+    if create_params[:owner_id]
+      create_params[:state] = 'assigned'
+      create_params[:assignor_id] = current_user.id
+      create_params[:assigned_at] = Time.now
+    end
+
     create_resource ScheduledPhoneCall, create_params
   end
 
   def update
     authorize! :update, @scheduled_phone_call
+
     update_params = create_or_update_params
+    if update_params[:state_event]
+      update_params[update_params[:state_event].event_actor] = current_user
+    end
+
     update_resource @scheduled_phone_call, update_params
   end
 
@@ -61,20 +73,7 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   end
 
   def create_or_update_params
-    permitted_params = params.require(:scheduled_phone_call).permit(:owner_id, :user_id, :scheduled_at, :state_event)
-
-    if permitted_params[:state_event]
-      permitted_params[permitted_params[:state_event].event_actor] = current_user
-    else
-      # If we want to create and assign at the same time
-      if permitted_params[:owner_id]
-        permitted_params[:state] = 'assigned'
-        permitted_params[:assignor_id] = current_user.id
-        permitted_params[:assigned_at] = Time.now
-      end
-    end
-
-    permitted_params
+    params.require(:scheduled_phone_call).permit(:owner_id, :user_id, :scheduled_at, :state_event)
   end
 
   def load_scheduled_phone_call!

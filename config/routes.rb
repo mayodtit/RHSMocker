@@ -140,7 +140,7 @@ RHSMocker::Application.routes.draw do
   resources :sessions
   get "faq" =>"home#faq"
 
-  %w(403 404 412 500).each do |status_code|
+  %w(403 404 412 422 500).each do |status_code|
     match status_code => 'errors#exception'
   end
 

@@ -3,6 +3,8 @@ require 'twilio-ruby'
 class PhoneCall < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
 
+  CONNECTED_STATUS = 'in-progress' # Twilio calls it in-progress
+
   belongs_to :user, class_name: 'Member'
   belongs_to :claimer, class_name: 'Member'
   belongs_to :dialer, class_name: 'Member'
@@ -20,24 +22,32 @@ class PhoneCall < ActiveRecord::Base
                   :destination_phone_number, :claimer, :claimer_id, :ender, :ender_id,
                   :identifier_token, :dialer_id, :dialer, :state_event, :destination_twilio_sid,
                   :origin_twilio_sid, :transferrer_id, :transferrer, :transferred_to_phone_call,
-                  :transferred_to_phone_call_id, :twilio_conference_name
+                  :transferred_to_phone_call_id, :twilio_conference_name, :origin_status,
+                  :destination_status, :outbound
 
   validates :twilio_conference_name, :identifier_token, presence: true
   validates :identifier_token, uniqueness: true # Used for nurseline and creating unique conference calls
   validates :origin_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
   validates :destination_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: false
+  validates :to_role_id, presence: true, if: lambda {|p| !p.outbound? }
+  validates :to_role, presence: true, if: lambda {|p| p.to_role_id }
   validate :attrs_for_states
 
+  before_validation :set_to_role, on: :create
   before_validation :prep_phone_numbers
   before_validation :generate_identifier_token
+  before_validation :transition_state
 
   after_create :dial_if_outbound
 
   delegate :consult, :to => :message
 
-  # A call can be inbound or outbound.
-  def outbound?
-    to_role.nil? && to_role_id.nil?
+  def origin_connected?
+    origin_status == CONNECTED_STATUS
+  end
+
+  def destination_connected?
+    destination_status == CONNECTED_STATUS
   end
 
   def to_nurse?
@@ -60,6 +70,10 @@ class PhoneCall < ActiveRecord::Base
     :unclaimed
   end
 
+  def set_to_role
+    self.to_role_id = Role.find_by_name!(:pha).id if to_role_id.nil? && !outbound?
+  end
+
   # Call mechanics
 
   # Create a singleton for Twilio client
@@ -79,7 +93,7 @@ class PhoneCall < ActiveRecord::Base
     dial_origin if outbound?
   end
 
-  def dial_origin
+  def dial_origin(dialer = nil)
     call = twilio.account.calls.create(
       from: PhoneNumberUtil::format_for_dialing(PHA_NUMBER),
       to: PhoneNumberUtil::format_for_dialing(origin_phone_number),
@@ -89,11 +103,10 @@ class PhoneCall < ActiveRecord::Base
       status_callback_method: 'POST'
     )
 
-    self.origin_twilio_sid = call.sid
-    save!
+    self.update_attributes!(state_event: :dial, origin_twilio_sid: call.sid, dialer: dialer || self.dialer)
   end
 
-  def dial_destination
+  def dial_destination(dialer = nil)
     call = twilio.account.calls.create(
       from: PhoneNumberUtil::format_for_dialing(PHA_NUMBER),
       to: PhoneNumberUtil::format_for_dialing(destination_phone_number),
@@ -103,8 +116,9 @@ class PhoneCall < ActiveRecord::Base
       status_callback_method: 'POST'
     )
 
-    self.destination_twilio_sid = call.sid
-    save!
+    unless to_role && to_role.name == 'nurse'
+      self.update_attributes!(state_event: :dial, destination_twilio_sid: call.sid, dialer: dialer || self.dialer)
+    end
   end
 
   def self.resolve(phone_number, origin_twilio_sid)
@@ -112,7 +126,7 @@ class PhoneCall < ActiveRecord::Base
 
     if PhoneNumberUtil::is_valid_caller_id phone_number
       if phone_call = PhoneCall.where(state: :unresolved, origin_phone_number: phone_number).first(order: 'id desc', limit: 1)
-        phone_call.update_attributes state_event: :resolve, origin_twilio_sid: origin_twilio_sid
+        phone_call.update_attributes state_event: :resolve, origin_twilio_sid: origin_twilio_sid, origin_status: CONNECTED_STATUS
         return phone_call
       end
 
@@ -123,7 +137,8 @@ class PhoneCall < ActiveRecord::Base
           destination_phone_number: PHA_NUMBER,
           to_role: Role.find_by_name!(:pha),
           state_event: :resolve,
-          origin_twilio_sid: origin_twilio_sid
+          origin_twilio_sid: origin_twilio_sid,
+          origin_status: CONNECTED_STATUS
         )
       end
     else
@@ -135,7 +150,8 @@ class PhoneCall < ActiveRecord::Base
       destination_phone_number: PHA_NUMBER,
       to_role: Role.find_by_name!(:pha),
       state_event: :resolve,
-      origin_twilio_sid: origin_twilio_sid
+      origin_twilio_sid: origin_twilio_sid,
+      origin_status: CONNECTED_STATUS
     )
   end
 
@@ -183,7 +199,7 @@ class PhoneCall < ActiveRecord::Base
     end
 
     event :disconnect do
-      transition :connected => :disconnected
+      transition [:missed, :unclaimed] => :missed, [:dialing, :connected] => :disconnected, :ended => :ended
     end
 
     event :transfer do
@@ -214,13 +230,13 @@ class PhoneCall < ActiveRecord::Base
       phone_call.claimed_at = Time.now
     end
 
-    before_transition [:dialing, :claimed, :disconnected] => :dialing do |phone_call|
+    before_transition :claimed => :dialing do |phone_call|
       raise "Dialer is missing on PhoneCall #{phone_call.id}" if phone_call.dialer.nil?
       raise "Dialer is missing work phone number on PhoneCall #{phone_call.id}" if !phone_call.dialer.work_phone_number
       phone_call.destination_phone_number = phone_call.dialer.work_phone_number
     end
 
-    after_transition [:dialing, :claimed, :disconnected] => :dialing do |phone_call|
+    after_transition :claimed => :dialing do |phone_call|
       phone_call.dial_destination
     end
 
@@ -231,7 +247,8 @@ class PhoneCall < ActiveRecord::Base
         destination_phone_number: NURSELINE_NUMBER,
         to_role: Role.find_by_name!(:nurse),
         origin_twilio_sid: phone_call.origin_twilio_sid,
-        twilio_conference_name: phone_call.twilio_conference_name
+        twilio_conference_name: phone_call.twilio_conference_name,
+        origin_status: phone_call.origin_status
       )
 
       phone_call.transferred_to_phone_call = nurseline_phone_call
@@ -258,6 +275,14 @@ class PhoneCall < ActiveRecord::Base
     end
   end
 
+  def transition_state
+    if state == 'connected' && !(origin_connected? && destination_connected?)
+      disconnect
+    elsif (state == 'disconnected' || state == 'dialing') && origin_connected? && destination_connected?
+      connect
+    end
+  end
+
   # TODO: Write more comprehensive tests
   def attrs_for_states
     state_sym = state.to_sym
@@ -271,6 +296,17 @@ class PhoneCall < ActiveRecord::Base
         validate_actor_and_timestamp_exist :transfer
         if transferred_to_phone_call_id.nil?
           errors.add(:transferred_to_phone_call_id, "must be present when #{self.class.name} is #{state}")
+        end
+      when :connected
+        unless origin_connected?
+          errors.add(:origin_status, "must be '#{CONNECTED_STATUS}' when #{self.class.name} is #{state}")
+        end
+        unless destination_connected?
+          errors.add(:destination_connected, "must be '#{CONNECTED_STATUS}' when #{self.class.name} is #{state}")
+        end
+      when :disconnected
+        if origin_connected? && destination_connected?
+          errors.add(:base, "Both origin and destination can't be '#{CONNECTED_STATUS}' when #{self.class.name} is #{state}")
         end
       when :ended
         validate_actor_and_timestamp_exist :end

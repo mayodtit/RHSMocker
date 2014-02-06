@@ -113,7 +113,7 @@ Prep:
     end
 
     event :book do
-      transition :assigned => :booked
+      transition [:booked, :assigned] => :booked
     end
 
     event :start do
@@ -137,11 +137,11 @@ Prep:
       scheduled_phone_call.notify_owner_of_assigned_call
     end
 
-    before_transition :assigned => :booked do |scheduled_phone_call|
+    before_transition [:booked, :assigned] => :booked do |scheduled_phone_call|
       scheduled_phone_call.booked_at = Time.now
     end
 
-    after_transition :assigned => :booked do |scheduled_phone_call|
+    after_transition [:booked, :assigned] => :booked do |scheduled_phone_call|
       scheduled_phone_call.notify_user_confirming_call
       scheduled_phone_call.notify_owner_confirming_call
     end
@@ -180,13 +180,13 @@ Prep:
         validate_actor_and_timestamp_exist :end
     end
 
-    if state_sym != :unassigned
+    if state_sym != :unassigned && state_sym != :canceled
       if owner_id.nil?
         errors.add(:owner_id, "must be present when #{self.class.name} is #{state}")
       end
     end
 
-    unless %i(unassigned assigned).include? state_sym
+    unless %i(unassigned assigned canceled).include? state_sym
       if user_id.nil?
         errors.add(:user_id, "must be present when #{self.class.name} is #{state}")
       end

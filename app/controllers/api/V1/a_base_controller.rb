@@ -4,11 +4,6 @@ module Api
       before_filter :force_development_error!
       before_filter :force_development_lag!
       before_filter :authentication_check
-      before_filter :convert_to_role
-
-      def convert_to_role
-        search_and_replace_to_role params
-      end
 
       def authentication_check
         auth_token = params[:auth_token]
@@ -34,25 +29,6 @@ module Api
       end
 
       protected
-
-      def search_and_replace_to_role(params)
-        if params.is_a? Hash
-          if params.key?(:to_role) && !params[:to_role].nil? && !params[:to_role].is_a?(Role)
-            role_name = params[:to_role]
-            role = Role.find_by_name role_name
-
-            if !role
-              render_failure({reason: "Could not find Role '#{role_name}' for to_role field"}, 400)
-            end
-
-            params[:to_role] = role
-          end
-
-          params.each do |key, value|
-            search_and_replace_to_role value
-          end
-        end
-      end
 
       def index_resource(collection, options={})
         render_success((options[:name] || resource_plural_symbol) => collection)
