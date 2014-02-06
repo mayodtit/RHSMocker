@@ -25,6 +25,10 @@ end
 describe 'Consults' do
   let(:user) { create(:member) }
 
+  before do
+    Role.find_or_create_by_name!(:pha)
+  end
+
   context 'existing record' do
     let!(:consult) { create(:consult, initiator: user) }
 

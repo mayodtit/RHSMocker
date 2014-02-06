@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140206145734) do
+ActiveRecord::Schema.define(:version => 20140206172815) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -19,8 +19,8 @@ ActiveRecord::Schema.define(:version => 20140206145734) do
     t.string   "city"
     t.string   "state"
     t.string   "postal_code"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "agreements", :force => true do |t|
@@ -262,8 +262,8 @@ ActiveRecord::Schema.define(:version => 20140206145734) do
     t.string   "company_name"
     t.string   "plan_type"
     t.string   "policy_member_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
     t.text     "notes"
   end
 
@@ -342,8 +342,8 @@ ActiveRecord::Schema.define(:version => 20140206145734) do
 
   create_table "phone_calls", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at",                                  :null => false
-    t.datetime "updated_at",                                  :null => false
+    t.datetime "created_at",                                      :null => false
+    t.datetime "updated_at",                                      :null => false
     t.string   "origin_phone_number"
     t.string   "destination_phone_number"
     t.string   "state"
@@ -352,7 +352,7 @@ ActiveRecord::Schema.define(:version => 20140206145734) do
     t.integer  "claimer_id"
     t.integer  "ender_id"
     t.string   "identifier_token"
-    t.integer  "to_role_id",                   :default => 3
+    t.integer  "to_role_id"
     t.integer  "dialer_id"
     t.datetime "dialed_at"
     t.integer  "resolver"
@@ -366,6 +366,7 @@ ActiveRecord::Schema.define(:version => 20140206145734) do
     t.string   "twilio_conference_name"
     t.string   "origin_status"
     t.string   "destination_status"
+    t.boolean  "outbound",                     :default => false, :null => false
   end
 
   add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"
@@ -413,9 +414,9 @@ ActiveRecord::Schema.define(:version => 20140206145734) do
   end
 
   create_table "provider_call_logs", :force => true do |t|
-    t.integer  "user_id"
     t.string   "npi"
     t.integer  "number"
+    t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -427,8 +428,8 @@ ActiveRecord::Schema.define(:version => 20140206145734) do
     t.string   "state"
     t.string   "postal_code"
     t.string   "phone"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "questions", :force => true do |t|
@@ -614,8 +615,8 @@ ActiveRecord::Schema.define(:version => 20140206145734) do
 
   create_table "user_informations", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
     t.text     "notes"
   end
 

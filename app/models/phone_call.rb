@@ -23,14 +23,17 @@ class PhoneCall < ActiveRecord::Base
                   :identifier_token, :dialer_id, :dialer, :state_event, :destination_twilio_sid,
                   :origin_twilio_sid, :transferrer_id, :transferrer, :transferred_to_phone_call,
                   :transferred_to_phone_call_id, :twilio_conference_name, :origin_status,
-                  :destination_status
+                  :destination_status, :outbound
 
   validates :twilio_conference_name, :identifier_token, presence: true
   validates :identifier_token, uniqueness: true # Used for nurseline and creating unique conference calls
   validates :origin_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
   validates :destination_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: false
+  validates :to_role_id, presence: true, if: lambda {|p| !p.outbound? }
+  validates :to_role, presence: true, if: lambda {|p| p.to_role_id }
   validate :attrs_for_states
 
+  before_validation :set_to_role, on: :create
   before_validation :prep_phone_numbers
   before_validation :generate_identifier_token
   before_validation :transition_state
@@ -45,11 +48,6 @@ class PhoneCall < ActiveRecord::Base
 
   def destination_connected?
     destination_status == CONNECTED_STATUS
-  end
-
-  # A call can be inbound or outbound.
-  def outbound?
-    to_role.nil? && to_role_id.nil?
   end
 
   def to_nurse?
@@ -70,6 +68,10 @@ class PhoneCall < ActiveRecord::Base
     return :dialing if outbound?
     return :unresolved if to_role && to_role.name.to_sym != :nurse
     :unclaimed
+  end
+
+  def set_to_role
+    self.to_role_id = Role.find_by_name!(:pha).id if to_role_id.nil? && !outbound?
   end
 
   # Call mechanics
