@@ -10,7 +10,7 @@ resource "PhoneCalls" do
   let(:auth_token) { user.auth_token }
   let!(:phone_call) { create(:phone_call, to_role: user.roles.first) }
   let!(:other_phone_call) { create(:phone_call, to_role: user.roles.first) }
-  let!(:outbound_phone_call) { create(:phone_call, dialer: pha, to_role: nil) }
+  let!(:outbound_phone_call) { create(:phone_call, dialer: pha, outbound: true) }
   let!(:inbound_phone_call) { create(:phone_call, to_role: pha.roles.first, origin_phone_number: '4083913578') }
   let!(:resolved_inbound_phone_call) do
     phone_call = create(

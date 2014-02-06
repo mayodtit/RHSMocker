@@ -3,6 +3,11 @@ require 'spec_helper'
 describe PhoneCall do
   it_has_a 'valid factory'
 
+  before do
+    @pha_id = Role.find_or_create_by_name!(:pha).id
+    @nurse_id = Role.find_or_create_by_name!(:nurse).id
+  end
+
   describe 'validations' do
     before do
       PhoneCall.any_instance.stub(:generate_identifier_token)
@@ -11,6 +16,23 @@ describe PhoneCall do
     it_validates 'presence of', :identifier_token
     it_validates 'presence of', :twilio_conference_name
     it_validates 'uniqueness of', :identifier_token
+    it_validates 'foreign key of', :to_role
+
+    it 'validates the presence of to_role_id' do
+      p = build_stubbed(:phone_call)
+      p.outbound = false
+      p.to_role_id = @pha_id
+      p.should be_valid
+      p.to_role_id = nil
+      p.should_not be_valid
+    end
+
+    it 'doesn\'t validate the presence of to_role_id if outbound' do
+      p = build_stubbed(:phone_call)
+      p.outbound = true
+      p.to_role_id = nil
+      p.should be_valid
+    end
   end
 
   describe 'phone numbers' do
@@ -45,20 +67,6 @@ describe PhoneCall do
       phone_call = PhoneCall.new
       phone_call.destination_status = 'busy'
       phone_call.should_not be_destination_connected
-    end
-  end
-
-  describe '#outbound?' do
-    let(:phone_call) { build_stubbed(:phone_call) }
-
-    it 'is false if the phone_call is to a role' do
-      phone_call.to_role = nil
-      phone_call.should be_outbound
-    end
-
-    it 'is true if the phone_call is not to any role' do
-      phone_call.to_role = build_stubbed(:role)
-      phone_call.should_not be_outbound
     end
   end
 
@@ -271,6 +279,34 @@ describe PhoneCall do
             phone_call.should_not_receive(:connect)
             phone_call.valid?
           end
+        end
+      end
+    end
+
+    describe '#set_to_role' do
+      context 'outbound call' do
+        let(:phone_call) { build(:phone_call, outbound: true) }
+
+        it 'does nothing if to_role_id is nil' do
+          phone_call.to_role_id = nil
+          phone_call.save!
+          phone_call.reload.to_role_id.should be_nil
+        end
+      end
+
+      context 'inbound call' do
+        let(:phone_call) { build(:phone_call) }
+
+        it 'does nothing if to_role_id is set on creation' do
+          phone_call.to_role_id = @nurse_id
+          phone_call.save!
+          phone_call.reload.to_role_id.should == @nurse_id
+        end
+
+        it 'does to_role_id to the pha id if unset' do
+          phone_call.to_role_id = nil
+          phone_call.save!
+          phone_call.reload.to_role_id.should == @pha_id
         end
       end
     end
@@ -490,8 +526,8 @@ describe PhoneCall do
   end
 
   describe 'states' do
-    let(:phone_call) { build(:phone_call) }
-    let(:other_phone_call) { build_stubbed(:phone_call) }
+    let(:phone_call) { build(:phone_call, to_role_id: @nurse_id) }
+    let(:other_phone_call) { build(:phone_call, to_role_id: @nurse_id) }
     let(:nurse) { build_stubbed(:nurse) }
     let(:other_nurse) { build_stubbed(:nurse) }
 
@@ -505,24 +541,24 @@ describe PhoneCall do
 
     describe '#initial state' do
       it 'is unresolved when it\'s an inbound call to a pha' do
-        phone_call = create(:phone_call, to_role: build(:role, name: 'pha'))
+        phone_call = create(:phone_call, to_role_id: @pha_id)
         phone_call.should be_unresolved
       end
 
       it 'is unclaimed when it\'s an inbound call to a nurse' do
-        phone_call = create(:phone_call, to_role: build(:role, name: 'nurse'))
+        phone_call = create(:phone_call, to_role_id: @nurse_id)
         phone_call.should be_unclaimed
       end
 
       it 'is dialing when it\'s an outbound call' do
         PhoneCall.any_instance.stub(:dial_origin)
-        phone_call = create(:phone_call, to_role: nil)
+        phone_call = create(:phone_call, outbound: true)
         phone_call.should be_dialing
       end
     end
 
     describe '#resolve!' do
-      let(:phone_call) { build(:phone_call, to_role: build(:role, name: 'pha')) }
+      let(:phone_call) { build(:phone_call, to_role_id: @pha_id) }
 
       before do
         phone_call.resolve!

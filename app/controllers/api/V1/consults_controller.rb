@@ -80,7 +80,7 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
 
   def pha_message
     <<-eos
-Hi #{@user.first_name.present? ? @user.first_name : 'there'}!
+Hi #{@user.salutation}!
 
 I'm #{@scheduled_phone_call.owner.first_name} and I'll be your Personal Health Assistant.
 
@@ -90,7 +90,7 @@ To get ready:
  - Have your insurance card ready
  - Fill out your Health Profile
 
-Questions or cancellations? Send me a message right here, and I'll get back to you.
+Questions or cancellations? Email me at premium@getbetter.com.
     eos
   end
 

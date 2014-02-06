@@ -29,12 +29,14 @@ class Member < User
                   :holds_phone_in, :invitation_token, :units,
                   :waitlist_entry, :user_agreements_attributes
 
+  validates :member_flag, inclusion: {in: [true]}
   validates :email, :uniqueness => {:message => 'account already exists', :case_sensitive => false}, :allow_nil => true
   validates :password, :length => {:minimum => 8, :message => "must be 8 or more characters long"}, :confirmation => true, :if => :password
   validates :install_id, :uniqueness => true, :allow_nil => true
   validates :units, :inclusion => {:in => %w(US Metric)}
   validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :if => lambda{|m| m.signed_up? || m.password}
 
+  before_validation :set_member_flag
   before_create :set_auth_token # generate inital auth_token
   after_create :add_install_message
   after_create :add_new_member_content
@@ -149,6 +151,10 @@ class Member < User
   end
 
   private
+
+  def set_member_flag
+    self.member_flag ||= true
+  end
 
   def set_auth_token
     self.auth_token = Base64.urlsafe_encode64(SecureRandom.base64(36))

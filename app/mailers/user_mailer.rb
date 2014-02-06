@@ -1,5 +1,10 @@
 class UserMailer < ActionMailer::Base
-  default from: lambda{ Rails.env.production? ? "noreply@getbetter.com" : "noreply@#{Rails.env}.getbetter.com" }
+  default from: lambda{
+    email = Rails.env.production? ? 'noreply@getbetter.com' : "noreply@#{Rails.env}.getbetter.com"
+    from_address = Mail::Address.new(email)
+    from_address.display_name = 'Better'
+    from_address.format
+  }
 
   def reset_password_email user
     @user = user

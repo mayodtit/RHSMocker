@@ -18,7 +18,7 @@ Question.upsert_attributes({:view => :birthdate}, {:title => 'What is your birth
 CustomCard.upsert_attributes({title: 'Welcome to Better Premium'}, {priority: 20,
                                                                     raw_preview: "<div class=\"new-consult\" data-message=\"I would like to schedule an onboarding call with a Personal Health Assistant\" data-consult-type=\"schedule\">\nClick here to schedule a phone call with your Personal Health Assistant\n</div>"})
 
-%w(nurse admin pha).each do |role|
+%w(nurse admin pha pha_lead).each do |role|
   Role.find_or_create_by_name!(name: role)
 end
 
