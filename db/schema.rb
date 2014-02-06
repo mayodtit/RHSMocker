@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140205005942) do
+ActiveRecord::Schema.define(:version => 20140206143447) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -706,8 +706,8 @@ ActiveRecord::Schema.define(:version => 20140205005942) do
 
   create_table "waitlist_entries", :force => true do |t|
     t.string   "email"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",                      :null => false
+    t.datetime "updated_at",                      :null => false
     t.string   "token"
     t.string   "state"
     t.datetime "invited_at"
@@ -717,6 +717,7 @@ ActiveRecord::Schema.define(:version => 20140205005942) do
     t.integer  "feature_group_id"
     t.integer  "revoker_id"
     t.datetime "revoked_at"
+    t.integer  "lock_version",     :default => 0, :null => false
   end
 
   create_table "weights", :force => true do |t|

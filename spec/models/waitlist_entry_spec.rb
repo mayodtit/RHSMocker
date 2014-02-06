@@ -174,4 +174,16 @@ describe WaitlistEntry do
       end
     end
   end
+
+  describe 'lock_version' do
+    let!(:waitlist_entry) { create(:waitlist_entry) }
+
+    it 'uses optimistic locking' do
+      we1 = described_class.find(waitlist_entry.id)
+      we2 = described_class.find(waitlist_entry.id)
+      we1.update_attributes!(state_event: :invite)
+      expect{ we2.update_attributes!(state_event: :invite) }.to raise_error(ActiveRecord::StaleObjectError)
+      expect(waitlist_entry.reload.state?(:invited)).to be_true
+    end
+  end
 end
