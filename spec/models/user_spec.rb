@@ -10,6 +10,13 @@ describe User do
 
   it_has_a 'valid factory'
 
+  it 'validates member flag is nil' do
+    user.stub(:unset_member_flag)
+    expect(user).to be_valid
+    user.member_flag = true
+    expect(user).to_not be_valid
+  end
+
   it 'validates email format' do
     expect(user).to be_valid
     user.email = 'junk'
@@ -123,6 +130,15 @@ describe User do
 
       # attemtping to remove content that isn't liked should not raise errors
       expect { u1.remove_content_like(c2.id) }.to_not raise_error
+    end
+  end
+
+  describe 'database constraints' do
+    it 'does not prevent duplicate emails' do
+      u1 = create(:user)
+      u2 = build(:user, email: u1.email)
+      expect{ u2.save!(validate: false) }.to_not raise_error
+      expect(u2).to be_persisted
     end
   end
 end

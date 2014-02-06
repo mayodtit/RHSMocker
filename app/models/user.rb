@@ -37,6 +37,7 @@ class User < ActiveRecord::Base
                   :user_information_attributes, :address_attributes, :insurance_policy_attributes,
                   :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id
 
+  validate :member_flag_is_nil
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
   validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_blank: true
@@ -45,6 +46,7 @@ class User < ActiveRecord::Base
 
   mount_uploader :avatar, AvatarUploader
 
+  before_validation :unset_member_flag
   before_validation :prep_phone_numbers
   before_validation :set_defaults
   before_create :create_google_analytics_uuid
@@ -158,6 +160,20 @@ class User < ActiveRecord::Base
   #############################################################################
 
   private
+
+  def member_flag_is_nil
+    if instance_of?(User)
+      errors.add(:member_flag, 'Member flag must be unset') unless member_flag.nil?
+    else
+      true
+    end
+  end
+
+  def unset_member_flag
+    if instance_of?(User)
+      self.member_flag = nil
+    end
+  end
 
   def prep_phone_numbers
     self.phone = PhoneNumberUtil::prep_phone_number_for_db self.phone
