@@ -38,7 +38,7 @@ group :development, :test do
   gem "zeus-parallel_tests"
   gem 'factory_girl_rails'
   gem 'guard-rspec'
-  #gem 'debugger', require: false
+  gem 'debugger', require: false
   # gem 'ruby-debug-base19x', '>= 0.11.30.pre15'
   # gem 'ruby-debug-ide', '>= 0.4.21.pre1'
 end
