@@ -59,6 +59,7 @@ RHSMocker::Application.routes.draw do
       resources :scheduled_phone_calls, except: [:new, :edit] do
         get :available_times, on: :collection
       end
+      resources :providers, only: :index
       resources :provider_call_logs, only: :create
       resources :side_effects, :only => :index
       post :signup, to: 'members#create', as: :signup # TODO - deprecated!
@@ -93,6 +94,7 @@ RHSMocker::Application.routes.draw do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
+        get :index, on: :collection, to: 'providers#index'
         post 'invite', :on => :member
         resources :cards, :only => [:create, :show, :update] do
           get :inbox, :on => :collection
