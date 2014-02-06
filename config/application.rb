@@ -72,8 +72,8 @@ module RHSMocker
     # add exception status codes to configuration, don't forget to add the status code route too!
     config.action_dispatch.rescue_responses.merge!('CanCan::AccessDenied' => :forbidden,
                                                    'Error::PreconditionFailed' => :precondition_failed,
-                                                   'ActiveRecord::RecordNotUnique' => :precondition_failed,
-                                                   'ActiveRecord::StaleObjectError' => :precondition_failed)
+                                                   'ActiveRecord::RecordNotUnique' => :unprocessable_entity,
+                                                   'ActiveRecord::StaleObjectError' => :unprocessable_entity)
 
     config.middleware.use 'Raddocs::Middleware'
 
