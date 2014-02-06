@@ -5,7 +5,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
   before_filter :convert_legacy_parameters!, only: :secure_update # TODO - remove when deprecated routes are removed
   before_filter :load_member_from_login!, only: :secure_update
   before_filter :load_waitlist_entry!, only: :create
-  before_filter :convert_parameters!, only: [:create, :update]
+  before_filter :convert_parameters!, only: [:create, :update, :update_current]
 
   def index
     render_success(users: @members,
@@ -37,7 +37,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
   end
 
   def update_current
-    update_resource current_user, permitted_params(@member).user, name: :user
+    update_resource current_user, permitted_params(current_user).user, name: :user
   end
 
   def secure_update
