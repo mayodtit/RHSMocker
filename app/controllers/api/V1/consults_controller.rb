@@ -90,7 +90,7 @@ To get ready:
  - Have your insurance card ready
  - Fill out your Health Profile
 
-Questions or cancellations? Send me a message right here, and I'll get back to you.
+Questions or cancellations? Email me at premium@getbetter.com.
     eos
   end
 
