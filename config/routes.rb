@@ -111,6 +111,10 @@ RHSMocker::Application.routes.draw do
           end
         end
         resources :weights, :only => [:index, :create, :destroy]
+
+        resources :consults, :only => [:index, :show, :create] do
+          resources :messages, only: [:index, :create]
+        end
       end
       resources :waitlist_entries, only: [:index, :create, :update, :destroy]
       resources :invitations, :only => [:create, :show, :update]

@@ -76,5 +76,9 @@ class Ability
     if user.pha_lead?
       can :manage, ScheduledPhoneCall
     end
+
+    if user.care_provider?
+      can :manage, Consult
+    end
   end
 end
