@@ -60,7 +60,7 @@ resource 'Users' do
         response = JSON.parse(response_body, :symbolize_names => true)
         new_user = User.find(response[:user][:id])
         response[:auth_token].should == new_user.auth_token
-        response[:user].to_json.should == new_user.as_json.to_json
+        response[:user].to_json.should == new_user.serializer.as_json.to_json
       end
     end
   end
@@ -83,7 +83,7 @@ resource 'Users' do
       explanation "Updates the current_user's email or password"
       expect(status).to eq(200)
       body = JSON.parse(response_body, symbolize_names: true)
-      expect(body[:user].to_json).to eq(user.reload.as_json.to_json)
+      expect(body[:user].to_json).to eq(user.reload.serializer.as_json.to_json)
       expect(user.email).to eq(email)
     end
   end
@@ -130,7 +130,7 @@ resource 'Users' do
         explanation "Update attributes for currently logged in user (as identified by auth_token). Can pass additional user fields, such as first_name, gender, birth_date, etc.  Returns the updated user"
         status.should == 200
         response = JSON.parse(response_body, :symbolize_names => true)[:user]
-        response.to_json.should == user.reload.as_json.to_json
+        response.to_json.should == user.reload.serializer.as_json.to_json
         response[:avatar_url].should_not be_nil # check for nil avatar in 'update specific user' spec
       end
     end
@@ -181,7 +181,7 @@ resource 'Users' do
         explanation "Update attributes for the specified user, if the currently logged in user has permission to do so"
         status.should == 200
         response = JSON.parse(response_body, :symbolize_names => true)[:user]
-        response.to_json.should == associate.reload.as_json.to_json
+        response.to_json.should == associate.reload.serializer.as_json.to_json
         response.keys.should include(:avatar_url)
         response[:avatar_url].should be_nil # check for non_nil avatar in 'update user' spec
       end
@@ -199,7 +199,7 @@ resource 'Users' do
         explanation 'Get the current user\'s info'
         status.should == 200
         response = JSON.parse(response_body, :symbolize_names => true)
-        response[:user].to_json.should == user.as_json.to_json
+        response[:user].to_json.should == user.serializer.as_json.to_json
       end
     end
   end

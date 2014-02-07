@@ -28,7 +28,7 @@ describe Api::V1::MembersController do
       it 'returns an array of members as users' do
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:users].to_json.should == [user].as_json.to_json
+        body[:users].to_json.should == [user].serializer.as_json.to_json
       end
 
       context 'with a query param' do
@@ -36,7 +36,7 @@ describe Api::V1::MembersController do
           Member.should_receive(:name_search).once.and_return(Member)
           do_request(q: user.first_name)
           body = JSON.parse(response.body, symbolize_names: true)
-          body[:users].to_json.should == [user].as_json.to_json
+          body[:users].to_json.should == [user].serializer.as_json.to_json
         end
       end
     end
@@ -55,7 +55,7 @@ describe Api::V1::MembersController do
       it 'returns the member' do
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:user].to_json.should == user.as_json.to_json
+        body[:user].to_json.should == user.serializer.as_json.to_json
       end
     end
   end
@@ -73,7 +73,7 @@ describe Api::V1::MembersController do
       it 'returns the current_user' do
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:user].to_json.should == user.as_json.to_json
+        body[:user].to_json.should == user.serializer.as_json.to_json
       end
     end
   end
@@ -98,7 +98,7 @@ describe Api::V1::MembersController do
       it 'returns the member' do
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:user].to_json.should == user.as_json.to_json
+        body[:user].to_json.should == user.serializer.as_json.to_json
       end
 
       it "returns the member's auth_token" do
@@ -140,7 +140,7 @@ describe Api::V1::MembersController do
         it 'returns the member' do
           do_request
           body = JSON.parse(response.body, symbolize_names: true)
-          body[:user].to_json.should == user.as_json.to_json
+          body[:user].to_json.should == user.serializer.as_json.to_json
         end
       end
 

@@ -25,7 +25,7 @@ describe Api::V1::AssociatesController do
       it 'returns the associates' do
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:users].to_json.should == [associate].as_json.to_json
+        body[:users].to_json.should == [associate].serializer.as_json.to_json
       end
     end
   end
@@ -43,7 +43,7 @@ describe Api::V1::AssociatesController do
       it 'returns the associate' do
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:user].to_json.should == associate.as_json.to_json
+        body[:user].to_json.should == associate.serializer.as_json.to_json
       end
     end
   end
@@ -73,7 +73,7 @@ describe Api::V1::AssociatesController do
         it 'returns the associate' do
           do_request
           body = JSON.parse(response.body, symbolize_names: true)
-          body[:user].to_json.should == associate.as_json.to_json
+          body[:user].to_json.should == associate.serializer.as_json.to_json
         end
       end
 
@@ -114,7 +114,7 @@ describe Api::V1::AssociatesController do
         it 'returns the associate' do
           do_request
           body = JSON.parse(response.body, symbolize_names: true)
-          body[:user].to_json.should == associate.as_json.to_json
+          body[:user].to_json.should == associate.serializer.as_json.to_json
         end
       end
 

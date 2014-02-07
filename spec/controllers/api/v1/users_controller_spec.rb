@@ -21,7 +21,7 @@ describe Api::V1::UsersController do
       it 'returns the user' do
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:user].to_json.should == user.as_json.to_json
+        body[:user].to_json.should == user.serializer.as_json.to_json
       end
     end
   end
@@ -54,7 +54,7 @@ describe Api::V1::UsersController do
         it 'returns the user' do
           do_request
           body = JSON.parse(response.body, symbolize_names: true)
-          body[:user].to_json.should == user.as_json.to_json
+          body[:user].to_json.should == user.serializer.as_json.to_json
         end
       end
 

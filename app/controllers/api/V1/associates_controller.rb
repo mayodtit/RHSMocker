@@ -4,11 +4,11 @@ class Api::V1::AssociatesController < Api::V1::ABaseController
   before_filter :convert_parameters!, only: [:create, :update]
 
   def index
-    index_resource @user.associates, name: :users
+    index_resource @user.associates.serializer, name: :users
   end
 
   def show
-    show_resource @associate, name: :user
+    show_resource @associate.serializer, name: :user
   end
 
   def create

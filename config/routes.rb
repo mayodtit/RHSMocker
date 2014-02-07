@@ -83,7 +83,7 @@ RHSMocker::Application.routes.draw do
         resources :credits, :only => [:index, :show, :create] do
           get 'available', :on => :collection
         end
-        get :current, on: :member, to: 'members#current'
+        get :current, on: :collection, to: 'members#current'
         resources :conditions, except: [:new, :edit], controller: 'user_conditions' do
           resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
