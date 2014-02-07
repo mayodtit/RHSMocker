@@ -5,7 +5,8 @@ class UserSerializer < ActiveModel::Serializer
              :diet_id, :email, :ethnic_group_id, :gender, :height,
              :deceased, :date_of_death, :npi_number, :expertise,
              :phone, :nickname, :city, :state, :work_phone_number,
-             :blood_pressure, :avatar_url, :weight, :ethnic_group, :diet
+             :blood_pressure, :avatar_url, :weight, :ethnic_group, :diet,
+             :full_name
 
   def attributes
     super.tap do |attributes|
@@ -16,5 +17,9 @@ class UserSerializer < ActiveModel::Serializer
                           provider: object.provider)
       end
     end
+  end
+
+  def full_name
+    object.full_name
   end
 end

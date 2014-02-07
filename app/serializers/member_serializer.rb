@@ -7,7 +7,8 @@ class MemberSerializer < ActiveModel::Serializer
              :phone, :nickname, :city, :state, :work_phone_number,
              :blood_pressure, :avatar_url, :weight, :ethnic_group, :diet,
              :holds_phone_in, :install_id, :phone, :units, :client_data,
-             :pusher_id
+             :pusher_id, :full_name
+
   attribute :admin?, key: :admin?
   attribute :nurse?, key: :nurse?
   attribute :pha?, key: :pha?
@@ -23,5 +24,9 @@ class MemberSerializer < ActiveModel::Serializer
                           provider: object.provider)
       end
     end
+  end
+
+  def full_name
+    object.full_name
   end
 end

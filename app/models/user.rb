@@ -74,7 +74,7 @@ class User < ActiveRecord::Base
                             :diet_id, :email, :ethnic_group_id, :gender, :height,
                             :deceased, :date_of_death, :npi_number, :expertise,
                             :phone, :nickname, :city, :state, :work_phone_number],
-                  :methods => [:blood_pressure, :avatar_url, :weight, :admin?, :nurse?, :pha?, :pha_lead?, :care_provider?, :ethnic_group, :diet]}
+                  :methods => [:blood_pressure, :avatar_url, :weight, :admin?, :nurse?, :pha?, :pha_lead?, :care_provider?, :ethnic_group, :diet, :full_name]}
 
   def serializable_hash(options = nil)
     options = BASE_OPTIONS if options.blank?
