@@ -15,17 +15,21 @@ class Api::V1::MembersController < Api::V1::ABaseController
   end
 
   def show
-    show_resource @member, name: :user
+    render_success user: @member,
+                   member: @member
   end
 
   def current
-    show_resource current_user, name: :user
+    render_success user: current_user,
+                   member: current_user
   end
 
   def create
     @member = Member.create permitted_params.user
     if @member.errors.empty?
-      render_success(user: @member, auth_token: @member.auth_token)
+      render_success user: @member,
+                     member: @member,
+                     auth_token: @member.auth_token
     else
       render_failure({reason: @member.errors.full_messages.to_sentence,
                       user_message: @member.errors.full_messages.to_sentence}, 422)
@@ -33,15 +37,30 @@ class Api::V1::MembersController < Api::V1::ABaseController
   end
 
   def update
-    update_resource @member, permitted_params(@member).user, name: :user
+    if @member.update_attributes(permitted_params(@member).user)
+      render_success user: @member,
+                     member: @member
+    else
+      render_failure({reason: @member.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   def update_current
-    update_resource current_user, permitted_params(current_user).user, name: :user
+    if current_user.update_attributes(permitted_params(current_user).user)
+      render_success user: current_user,
+                     member: current_user
+    else
+      render_failure({reason: current_user.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   def secure_update
-    update_resource @member, permitted_params(@member).secure_user, name: :user
+    if @member.update_attributes(permitted_params(@member).secure_user)
+      render_success user: @member,
+                     member: @member
+    else
+      render_failure({reason: @member.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   private
@@ -90,17 +109,21 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def load_waitlist_entry!
     return unless Metadata.use_invite_flow?
-    return if params[:user][:token] == 'better120' && !Rails.env.production?
-    @waitlist_entry = WaitlistEntry.invited.find_by_token(params[:user][:token])
+    return if user_params[:token] == 'better120' && !Rails.env.production?
+    @waitlist_entry = WaitlistEntry.invited.find_by_token(user_params[:token])
     render_failure({reason: 'Invalid invitation code', user_message: 'Invalid invitation code'}, 422) and return unless @waitlist_entry
     @waitlist_entry.state_event = :claim
   end
 
   def convert_parameters!
-    params[:user][:avatar] = decode_b64_image(params[:user][:avatar]) if params[:user][:avatar]
+    user_params[:avatar] = decode_b64_image(user_params[:avatar]) if user_params[:avatar]
     %w(user_information address insurance_policy provider).each do |key|
-      params[:user]["#{key}_attributes".to_sym] = params[:user][key.to_sym] if params[:user][key.to_sym]
+      user_params["#{key}_attributes".to_sym] = user_params[key.to_sym] if user_params[key.to_sym]
     end
-    params[:user][:waitlist_entry] = @waitlist_entry if @waitlist_entry
+    user_params[:waitlist_entry] = @waitlist_entry if @waitlist_entry
+  end
+
+  def user_params
+    params.fetch(:user){params.require(:member)}
   end
 end
