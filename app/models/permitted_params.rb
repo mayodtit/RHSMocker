@@ -26,7 +26,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
         attributes << :email
       end
 
-      if current_user && current_user.admin?
+      if current_user && current_user.pha?
         attributes << {user_information_attributes: user_information_attributes}
         attributes << {address_attributes: address_attributes}
         attributes << {insurance_policy_attributes: insurance_policy_attributes}

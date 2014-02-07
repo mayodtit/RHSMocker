@@ -17,7 +17,7 @@ class MemberSerializer < ActiveModel::Serializer
 
   def attributes
     super.tap do |attributes|
-      if scope.try(:admin?)
+      if scope.try(:care_provider?)
         attributes.merge!(user_information: object.user_information,
                           address: object.address,
                           insurance_policy: object.insurance_policy,
