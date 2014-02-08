@@ -58,8 +58,9 @@ class Ability
       end
     end
 
-    if user.pha? || user.pha_lead?
+    if user.pha?
       can :manage, User
+      can :manage, Member
 
       can :ru, PhoneCall do |o|
         o.to_pha?
@@ -79,6 +80,7 @@ class Ability
 
     if user.care_provider?
       can :manage, Consult
+      can :ru, Member
     end
   end
 end
