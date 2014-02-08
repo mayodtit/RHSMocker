@@ -7,7 +7,7 @@ class MemberSerializer < ActiveModel::Serializer
              :phone, :nickname, :city, :state, :work_phone_number,
              :blood_pressure, :avatar_url, :weight, :ethnic_group, :diet,
              :holds_phone_in, :install_id, :phone, :units, :client_data,
-             :pusher_id, :full_name
+             :pusher_id, :full_name, :created_at
 
   attribute :admin?, key: :admin?
   attribute :nurse?, key: :nurse?
