@@ -179,6 +179,13 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    mandrill-api (1.0.50)
+      excon (>= 0.16.0, < 1.0)
+      json (>= 1.7.7, < 2.0)
+    mandrill_mailer (0.4.3)
+      actionpack
+      activesupport
+      mandrill-api (~> 1.0.9)
     method_source (0.8.1)
     mime-types (1.25.1)
     mini_portile (0.5.1)
@@ -381,6 +388,7 @@ DEPENDENCIES
   jquery-ui-rails
   kaminari
   less-rails
+  mandrill_mailer
   minitar
   mysql2
   newrelic_rpm
