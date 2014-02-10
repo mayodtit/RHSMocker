@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140206172815) do
+ActiveRecord::Schema.define(:version => 20140210175352) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -19,8 +19,8 @@ ActiveRecord::Schema.define(:version => 20140206172815) do
     t.string   "city"
     t.string   "state"
     t.string   "postal_code"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "agreements", :force => true do |t|
@@ -262,8 +262,8 @@ ActiveRecord::Schema.define(:version => 20140206172815) do
     t.string   "company_name"
     t.string   "plan_type"
     t.string   "policy_member_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.text     "notes"
   end
 
@@ -414,9 +414,9 @@ ActiveRecord::Schema.define(:version => 20140206172815) do
   end
 
   create_table "provider_call_logs", :force => true do |t|
+    t.integer  "user_id"
     t.string   "npi"
     t.integer  "number"
-    t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -428,8 +428,8 @@ ActiveRecord::Schema.define(:version => 20140206172815) do
     t.string   "state"
     t.string   "postal_code"
     t.string   "phone"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "questions", :force => true do |t|
@@ -615,8 +615,8 @@ ActiveRecord::Schema.define(:version => 20140206172815) do
 
   create_table "user_informations", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.text     "notes"
   end
 
@@ -694,6 +694,7 @@ ActiveRecord::Schema.define(:version => 20140206172815) do
     t.string   "nickname"
     t.integer  "default_hcp_association_id"
     t.boolean  "member_flag"
+    t.string   "provider_taxonomy_code"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
