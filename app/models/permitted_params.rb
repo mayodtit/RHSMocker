@@ -22,6 +22,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     base_user_attributes.tap do |attributes|
       if !current_user
         attributes.concat(secure_user_attributes)
+        attributes << {user_agreements_attributes: [:agreement_id, :ip_address, :user_agent]}
       elsif current_user != subject
         attributes << :email
       end
