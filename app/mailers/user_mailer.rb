@@ -15,13 +15,6 @@ class UserMailer < ActionMailer::Base
       :subject => 'Reset Password Instructions for Better')
   end
 
-  def welcome_email user
-    @user = user
-    mail(
-      :to => user.email,
-      :subject => 'Better already')
-  end
-
   def invitation_email user, invitor
     @user = user
     @invitor = invitor
@@ -54,10 +47,5 @@ class UserMailer < ActionMailer::Base
     @scheduled_phone_call = scheduled_phone_call
     attachments['event.ics'] = {:mime_type => 'text/calendar', :content => @scheduled_phone_call.owner_confirmation_calendar_event.export}
     mail(to: @scheduled_phone_call.owner.email, subject: 'BOOKED - Welcome Call')
-  end
-
-  def waitlist_invite_email(waitlist_entry)
-    @waitlist_entry = waitlist_entry
-    mail(to: @waitlist_entry.email, subject: 'Claim your account!')
   end
 end
