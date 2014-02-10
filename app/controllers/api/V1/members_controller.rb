@@ -121,6 +121,18 @@ class Api::V1::MembersController < Api::V1::ABaseController
       user_params["#{key}_attributes".to_sym] = user_params[key.to_sym] if user_params[key.to_sym]
     end
     user_params[:waitlist_entry] = @waitlist_entry if @waitlist_entry
+    user_params[:user_agreements_attributes] = user_agreements_attributes if user_params[:tos_checked]
+  end
+
+  def user_agreements_attributes
+    return [] unless Agreement.active
+    [
+      {
+        agreement_id: Agreement.active.id,
+        ip_address: request.remote_ip,
+        user_agent: request.env['HTTP_USER_AGENT']
+      }
+    ]
   end
 
   def user_params
