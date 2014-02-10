@@ -35,7 +35,8 @@ class User < ActiveRecord::Base
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
                   :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data,
                   :user_information_attributes, :address_attributes, :insurance_policy_attributes,
-                  :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id
+                  :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id,
+                  :provider_taxonomy_code
 
   validate :member_flag_is_nil
   validates :deceased, :inclusion => {:in => [true, false]}
@@ -73,8 +74,9 @@ class User < ActiveRecord::Base
   BASE_OPTIONS = {:only => [:id, :first_name, :last_name, :birth_date, :blood_type,
                             :diet_id, :email, :ethnic_group_id, :gender, :height,
                             :deceased, :date_of_death, :npi_number, :expertise,
-                            :phone, :nickname, :city, :state, :work_phone_number],
-                  :methods => [:blood_pressure, :avatar_url, :weight, :admin?, :nurse?, :pha?, :pha_lead?, :care_provider?, :ethnic_group, :diet]}
+                            :phone, :nickname, :city, :state, :work_phone_number, :provider_taxonomy_code],
+                  :methods => [:blood_pressure, :avatar_url, :weight, :admin?, :nurse?, :pha?, :pha_lead?,
+                               :care_provider?, :ethnic_group, :diet, :full_name, :taxonomy_classification]}
 
   def serializable_hash(options = nil)
     options = BASE_OPTIONS if options.blank?
@@ -92,6 +94,10 @@ class User < ActiveRecord::Base
 
   def weight
     weights.most_recent
+  end
+
+  def taxonomy_classification
+    provider_taxonomy_code.nil? ? nil : HCPTaxonomy.get_classification_by_hcp_code(provider_taxonomy_code)
   end
 
   def avatar_url

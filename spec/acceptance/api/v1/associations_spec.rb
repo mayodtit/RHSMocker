@@ -11,6 +11,7 @@ resource "Association" do
 
   before(:each) do
     user.login
+    User.any_instance.stub(:taxonomy_classification).and_return("trust me i'm a doctor")
   end
 
   parameter :auth_token, "Performing user's auth_token"
@@ -57,10 +58,11 @@ resource "Association" do
     parameter :avatar, 'Base64 encoded image'
     parameter :gender, "Associate's gender (male, female)"
     parameter :height, "Associate's height (cm)"
+    parameter :provider_taxonomy_code, "Associate's healthcare provider taxonomy code"
     parameter :association_type_id, "Association type"
     parameter :default_hcp, "Set associate to user's default HCP if value is true"
     scope_parameters :associate, [:first_name, :last_name, :birth_date, :phone,
-                                  :avatar, :gender, :height]
+                                  :avatar, :gender, :height, :provider_taxonomy_code]
     scope_parameters :association, [:associate]
     required_parameters :association_type_id
 
@@ -70,6 +72,7 @@ resource "Association" do
     let(:phone) { '123-456-7890' }
     let(:gender) { 'male' }
     let(:height) { 180 }
+    let(:provider_taxonomy_code) { 'abcde' }
     let(:association_type_id) { association_type.id }
     let(:default_hcp) { true }
     let(:raw_post) { params.to_json }
@@ -81,6 +84,8 @@ resource "Association" do
 
       response = JSON.parse(response_body, :symbolize_names => true)[:association]
       response[:is_default_hcp].should be_true
+      response[:associate][:provider_taxonomy_code].should eq('abcde')
+      response[:associate][:taxonomy_classification].should eq("trust me i'm a doctor")
       response[:associate].keys.should include(:avatar_url)
       response[:associate][:avatar_url].should be_nil # check for non_nil avatar in 'update specific association' spec
     end
