@@ -19,6 +19,7 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
   private
 
   def load_consults!
+    authorize! :read, @user
     @consults = @user.initiated_consults.where(state: params[:state] || :open)
   end
 

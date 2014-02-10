@@ -1,24 +1,63 @@
 class Api::V1::MembersController < Api::V1::ABaseController
+  skip_before_filter :authentication_check, only: :create
   before_filter :load_members!, only: :index
   before_filter :load_member!, only: [:show, :update]
-  before_filter :convert_nested_attributes!, only: :update
+  before_filter :convert_legacy_parameters!, only: :secure_update # TODO - remove when deprecated routes are removed
+  before_filter :load_member_from_login!, only: :secure_update
+  before_filter :load_waitlist_entry!, only: :create
+  before_filter :convert_parameters!, only: [:create, :update, :update_current]
 
   def index
-    render_success(users: @users,
+    render_success(users: @members.serializer(scope: current_user),
                    page: page,
                    per: per,
-                   total_count: @users.total_count)
+                   total_count: @members.total_count)
   end
 
   def show
-    authorize! :show, @member
-    show_resource member_json
+    render_success user: @member.serializer(scope: current_user),
+                   member: @member.serializer(scope: current_user)
+  end
+
+  def current
+    render_success user: current_user.serializer(scope: current_user),
+                   member: current_user.serializer(scope: current_user)
+  end
+
+  def create
+    @member = Member.create permitted_params.user
+    if @member.errors.empty?
+      render_success user: @member.serializer(scope: current_user),
+                     member: @member.serializer(scope: current_user),
+                     auth_token: @member.auth_token
+    else
+      render_failure({reason: @member.errors.full_messages.to_sentence,
+                      user_message: @member.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   def update
-    authorize! :update, @member
-    if @member.update_attributes(member_attributes)
-      render_success(member: member_json)
+    if @member.update_attributes(permitted_params(@member).user)
+      render_success user: @member.serializer(scope: current_user),
+                     member: @member.serializer(scope: current_user)
+    else
+      render_failure({reason: @member.errors.full_messages.to_sentence}, 422)
+    end
+  end
+
+  def update_current
+    if current_user.update_attributes(permitted_params(current_user).user)
+      render_success user: current_user.serializer(scope: current_user),
+                     member: current_user.serializer(scope: current_user)
+    else
+      render_failure({reason: current_user.errors.full_messages.to_sentence}, 422)
+    end
+  end
+
+  def secure_update
+    if @member.update_attributes(permitted_params(@member).secure_user)
+      render_success user: @member.serializer(scope: current_user),
+                     member: @member.serializer(scope: current_user)
     else
       render_failure({reason: @member.errors.full_messages.to_sentence}, 422)
     end
@@ -28,9 +67,9 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def load_members!
     authorize! :index, Member
-    @users = Member
-    @users = @users.name_search(params[:q]) if params[:q]
-    @users = @users.page(page).per(per)
+    @members = Member
+    @members = @members.name_search(params[:q]) if params[:q]
+    @members = @members.page(page).per(per)
   end
 
   def page
@@ -43,31 +82,60 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def load_member!
     @member = Member.find(params[:id])
+    authorize! :manage, @member
   end
 
-  def convert_nested_attributes!
-    %w(user_information address insurance_policy provider).each do |key|
-      params[:member]["#{key}_attributes".to_sym] = params[:member][key.to_sym] if params[:member][key.to_sym]
+  def convert_legacy_parameters!
+    if update_email_path?
+      params[:user] = {current_password: params[:password], email: params[:email]}
+    elsif update_password_path?
+      params[:user] = {current_password: params[:current_password], password: params[:password]}
     end
   end
 
-  def member_attributes
-    params.require(:member).permit(:first_name, :last_name, :phone, :gender,
-                                   :birth_date, :ethnic_group_id, :diet_id,
-                                   :nickname,
-                                   user_information_attributes: [:id, :notes],
-                                   address_attributes: [:id, :address, :city, :state, :postal_code],
-                                   insurance_policy_attributes: [:id, :company_name, :plan_type, :policy_member_id, :notes],
-                                   provider_attributes: [:id, :address, :city, :state, :postal_code, :phone])
+  def update_email_path?
+    request.env['PATH_INFO'].include?('update_email')
   end
 
-  def member_json
-    options = Member::BASE_OPTIONS.merge(include: [:user_information, :ethnic_group, :diet, :address,
-                                                   :insurance_policy, :provider],
-                                         methods: [:blood_pressure, :avatar_url, :weight, :admin?,
-                                                   :nurse?]) do |k, v1, v2|
-                                            v1.is_a?(Array) ? v1 + v2 : [v1] + v2
-                                         end
-    @member.as_json(options)
+  def update_password_path?
+    request.env['PATH_INFO'].include?('update_password')
+  end
+
+  def load_member_from_login!
+    @member = login(current_user.email, params.require(:user).require(:current_password))
+    render_failure(reason: 'Invalid current password') and return unless @member
+    authorize! :manage, @member
+  end
+
+  def load_waitlist_entry!
+    return unless Metadata.use_invite_flow?
+    return if user_params[:token] == 'better120' && !Rails.env.production?
+    @waitlist_entry = WaitlistEntry.invited.find_by_token(user_params[:token])
+    render_failure({reason: 'Invalid invitation code', user_message: 'Invalid invitation code'}, 422) and return unless @waitlist_entry
+    @waitlist_entry.state_event = :claim
+  end
+
+  def convert_parameters!
+    user_params[:avatar] = decode_b64_image(user_params[:avatar]) if user_params[:avatar]
+    %w(user_information address insurance_policy provider).each do |key|
+      user_params["#{key}_attributes".to_sym] = user_params[key.to_sym] if user_params[key.to_sym]
+    end
+    user_params[:waitlist_entry] = @waitlist_entry if @waitlist_entry
+    user_params[:user_agreements_attributes] = user_agreements_attributes if user_params[:tos_checked]
+  end
+
+  def user_agreements_attributes
+    return [] unless Agreement.active
+    [
+      {
+        agreement_id: Agreement.active.id,
+        ip_address: request.remote_ip,
+        user_agent: request.env['HTTP_USER_AGENT']
+      }
+    ]
+  end
+
+  def user_params
+    params.fetch(:user){params.require(:member)}
   end
 end

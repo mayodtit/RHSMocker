@@ -2,7 +2,7 @@ class ConsultSerializer < ViewSerializer
   self.root = false
 
   attributes :id, :title, :description, :initiator_id, :subject_id, :state,
-             :image_url, :created_at, :updated_at, :status
+             :image_url, :created_at, :updated_at, :status, :subject_full_name
 
   delegate :subject, to: :object
   alias_method :status, :state
@@ -58,5 +58,9 @@ class ConsultSerializer < ViewSerializer
 
   def image_url
     object.image.url
+  end
+
+  def subject_full_name
+    object.subject.full_name
   end
 end
