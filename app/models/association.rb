@@ -2,18 +2,26 @@ class Association < ActiveRecord::Base
   belongs_to :user
   belongs_to :associate, :class_name => 'User'
   belongs_to :association_type
-  accepts_nested_attributes_for :associate
+  belongs_to :replacement, class_name: 'Association',
+                           inverse_of: :original
+  has_one :original, class_name: 'Association',
+                     foreign_key: :replacement_id,
+                     inverse_of: :replacement
 
   attr_accessor :default_hcp
   attr_accessible :user, :user_id, :associate, :associate_id, :association_type,
-                  :association_type_id, :associate_attributes, :default_hcp
+                  :association_type_id, :associate_attributes, :default_hcp,
+                  :replacement, :replacement_id, :original
 
   validates :user, :associate, presence: true
-  validate :user_is_not_associate
   validates :associate_id, uniqueness: {scope: [:user_id, :association_type_id]}
+  validates :replacement, presence: true, if: lambda{|a| a.replacement_id}
+  validate :user_is_not_associate
 
   after_save :add_user_default_hcp
   before_destroy :remove_user_default_hcp
+
+  accepts_nested_attributes_for :associate
 
   private
 
