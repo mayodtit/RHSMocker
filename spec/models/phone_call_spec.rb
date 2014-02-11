@@ -545,6 +545,11 @@ describe PhoneCall do
         phone_call.should be_unresolved
       end
 
+      it 'is unresolved when it\'s an inbound call without a role' do
+        phone_call = create(:phone_call, to_role_id: nil)
+        phone_call.should be_unresolved
+      end
+
       it 'is unclaimed when it\'s an inbound call to a nurse' do
         phone_call = create(:phone_call, to_role_id: @nurse_id)
         phone_call.should be_unclaimed

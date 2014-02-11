@@ -66,8 +66,8 @@ class PhoneCall < ActiveRecord::Base
 
   def initial_state
     return :dialing if outbound?
-    return :unresolved if to_role && to_role.name.to_sym != :nurse
-    :unclaimed
+    return :unclaimed if to_role && to_role.name.to_sym == :nurse
+    :unresolved
   end
 
   def set_to_role
