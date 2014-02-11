@@ -6,7 +6,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
                   :provider_taxonomy_code
 
   before_filter :load_user!
-  before_filter :load_association!, only: [:show, :update, :destroy]
+  before_filter :load_association!, only: [:show, :update, :destroy, :invite]
 
   def index
     index_resource(@user.associations.serializer)
@@ -26,6 +26,11 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def destroy
     destroy_resource(@association)
+  end
+
+  def invite
+    @association.invite!
+    render_success
   end
 
   private
