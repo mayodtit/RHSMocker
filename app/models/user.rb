@@ -52,10 +52,24 @@ class User < ActiveRecord::Base
   before_validation :set_defaults
   before_create :create_google_analytics_uuid
 
-  # TODO - I think this should be moved to Member, needs investigation
   def full_name
-    return email if first_name.blank? || last_name.blank?
-    "#{first_name} #{last_name}".strip
+    if last_name.present?
+      if first_name.present?
+        return "#{first_name} #{last_name}"
+      end
+
+      if gender == 'M'
+        return "Mr. #{last_name}"
+      elsif gender == 'F'
+        return "Ms. #{last_name}"
+      end
+
+      return "Mr./Ms. #{last_name}"
+    elsif first_name.present?
+      return first_name
+    end
+
+    email
   end
 
   def salutation
