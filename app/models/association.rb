@@ -15,17 +15,6 @@ class Association < ActiveRecord::Base
   after_save :add_user_default_hcp
   before_destroy :remove_user_default_hcp
 
-  def serializable_hash options=nil
-    options ||= {}
-    options.merge!(:include => [:associate, :association_type]) do |k, v1, v2|
-      v1.is_a?(Array) ? v1 + v2 : [v1] + v2
-    end
-
-    super(options)
-      .merge({:associate => {:invited => invited?}}){|k,v1,v2| v1.merge!(v2)}
-      .merge({is_default_hcp: user.default_hcp_association_id == self.id})
-  end
-
   private
 
   def user_is_not_associate

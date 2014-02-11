@@ -9,11 +9,11 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   before_filter :load_association!, only: [:show, :update, :destroy]
 
   def index
-    index_resource(@user.associations)
+    index_resource(@user.associations.serializer)
   end
 
   def show
-    show_resource(@association)
+    show_resource(@association.serializer)
   end
 
   def create
