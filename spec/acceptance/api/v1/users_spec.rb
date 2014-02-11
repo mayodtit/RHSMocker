@@ -157,7 +157,11 @@ resource 'Users' do
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
     parameter :deceased, "Boolean, is the user deceased"
     parameter :date_of_death, "If the user is deceased, when did they die"
-    scope_parameters :user, [:email, :first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
+    parameter :provider_taxonomy_code, "Associate's healthcare provider taxonomy code"
+    scope_parameters :user, [:email, :first_name, :last_name, :avatar, :gender,
+                             :height, :birth_date, :phone, :ethnic_group_id,
+                             :diet_id, :blood_type, :holds_phone_in, :deceased,
+                             :date_of_death, :provider_taxonomy_code]
     required_parameters :auth_token, :id
 
     put '/api/v1/user/:id' do
@@ -174,6 +178,7 @@ resource 'Users' do
       let(:diet_id) { 1 }
       let(:blood_type) { "B-positive" }
       let(:deceased) { false }
+      let(:provider_taxonomy_code) { 'abcde' }
       let(:raw_post) { params.to_json }
       # purposely don't include avatar
 
