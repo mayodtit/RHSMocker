@@ -11,6 +11,30 @@ describe Association do
     build_stubbed(:association, user: user, associate: user).should_not be_valid
   end
 
+  describe '#invite!' do
+    context 'without a Member' do
+      let!(:association) { create(:association) }
+
+      it 'raises ActiveRecord::RecordNotFound' do
+        expect{ association.invite! }.to raise_error(ActiveRecord::RecordNotFound)
+      end
+    end
+
+    context 'with a Member' do
+      let!(:member) { create(:member) }
+      let!(:associate) { create(:user, email: member.email) }
+      let!(:association) { create(:association, associate: associate) }
+
+      it 'creates a pending MemberAssociation' do
+        expect(association.replacement).to be_nil
+        expect{ association.invite! }.to change(Association, :count).by(1)
+        expect(association.reload.replacement).to be_persisted
+        expect(association.replacement).to be_a(MemberAssociation)
+        expect(association.replacement.state?(:pending)).to be_true
+      end
+    end
+  end
+
   describe 'state_machine' do
     describe 'states' do
       it 'sets the initial state to enabled' do

@@ -2,7 +2,7 @@ class Association < ActiveRecord::Base
   belongs_to :user
   belongs_to :associate, :class_name => 'User'
   belongs_to :association_type
-  belongs_to :replacement, class_name: 'Association',
+  belongs_to :replacement, class_name: 'MemberAssociation',
                            inverse_of: :original
   has_one :original, class_name: 'Association',
                      foreign_key: :replacement_id,
@@ -22,6 +22,13 @@ class Association < ActiveRecord::Base
   before_destroy :remove_user_default_hcp
 
   accepts_nested_attributes_for :associate
+
+  def invite!
+    raise ActiveRecord::RecordNotFound unless associate.member # TODO -invite member if they do not exist
+    update_attributes!(replacement: build_replacement(user_id: user_id,
+                                                      associate_id: associate.member.id,
+                                                      association_type: association_type))
+  end
 
   private
 
