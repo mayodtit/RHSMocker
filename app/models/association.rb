@@ -33,4 +33,14 @@ class Association < ActiveRecord::Base
     u = User.find_by_default_hcp_association_id(self.id)
     u.update_attributes(default_hcp_association_id: nil) if u
   end
+
+  state_machine initial: :enabled do
+    event :enable do
+      transition any => :enabled
+    end
+
+    event :disable do
+      transition any => :disabled
+    end
+  end
 end

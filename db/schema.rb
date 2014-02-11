@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140210175352) do
+ActiveRecord::Schema.define(:version => 20140211020954) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -65,6 +65,7 @@ ActiveRecord::Schema.define(:version => 20140210175352) do
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
     t.integer  "association_type_id"
+    t.string   "state"
   end
 
   add_index "associations", ["user_id"], :name => "index_associations_on_user_id"
