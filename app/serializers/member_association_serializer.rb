@@ -1,0 +1,2 @@
+class MemberAssociationSerializer < AssociationSerializer
+end
