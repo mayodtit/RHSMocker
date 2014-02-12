@@ -23,6 +23,10 @@ class Association < ActiveRecord::Base
 
   accepts_nested_attributes_for :associate
 
+  def self.enabled
+    where(state: :enabled)
+  end
+
   def invite!
     raise ActiveRecord::RecordNotFound unless associate.member # TODO -invite member if they do not exist
     update_attributes!(replacement: build_replacement(user_id: user_id,

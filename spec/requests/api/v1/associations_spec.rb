@@ -8,6 +8,24 @@ describe 'Associations' do
     let!(:associate) { create(:associate, email: email) }
     let!(:association) { create(:association, user: user, associate: associate) }
 
+    describe 'GET /api/v1/associations' do
+      def do_request
+        get "/api/v1/users/#{user.id}/associations", auth_token: user.auth_token
+      end
+
+      let!(:disabled_association) { create(:association, :disabled) }
+
+      it 'indexes enabled user associations' do
+        do_request
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:associations].to_json).to eq([association].serializer.as_json.to_json)
+        ids = body[:associations].map{|a| a[:id]}
+        expect(ids).to include(association.id)
+        expect(ids).to_not include(disabled_association.id)
+      end
+    end
+
     describe 'POST /api/v1/associations/:id/invite' do
       def do_request
         post "/api/v1/users/#{user.id}/associations/#{association.id}/invite", auth_token: user.auth_token

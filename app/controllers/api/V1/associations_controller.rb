@@ -6,10 +6,11 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
                   :provider_taxonomy_code
 
   before_filter :load_user!
+  before_filter :load_associations!, only: :index
   before_filter :load_association!, only: [:show, :update, :destroy, :invite]
 
   def index
-    index_resource(@user.associations.serializer)
+    index_resource @associations.serializer
   end
 
   def show
@@ -34,6 +35,10 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   end
 
   private
+
+  def load_associations!
+    @associations = @user.associations.enabled
+  end
 
   def load_association!
     @association = @user.associations.find(params[:id])
