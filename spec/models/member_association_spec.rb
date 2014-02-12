@@ -10,11 +10,29 @@ describe MemberAssociation do
     expect(build_stubbed(:member_association,
                          associate: build_stubbed(:member))).to be_valid
   end
+  it_validates 'foreign key of', :pair
 
   describe 'state machine' do
     describe 'states' do
       it 'sets the initial state to pending' do
         expect(described_class.new.state?(:pending)).to be_true
+      end
+    end
+
+    describe 'events' do
+      describe 'enable' do
+        let(:association) { create(:member_association) }
+
+        it 'creates an enabled pair association' do
+          expect(association.enable).to be_true
+          expect(association.state?(:enabled)).to be_true
+          pair = association.pair
+          expect(pair).to be_persisted
+          expect(pair.user).to eq(association.associate)
+          expect(pair.associate).to eq(association.user)
+          expect(pair.state?(:enabled)).to be_true
+          expect(pair.pair).to eq(association)
+        end
       end
     end
   end
