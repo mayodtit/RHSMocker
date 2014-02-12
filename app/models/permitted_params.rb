@@ -12,6 +12,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     user_params.permit(*secure_user_attributes)
   end
 
+  def association
+    params.require(:association).permit(*association_attributes)
+  end
+
   private
 
   def user_params
@@ -65,5 +69,16 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
 
   def provider_attributes
     [:id, :address, :city, :state, :postal_code, :phone]
+  end
+
+  def association_attributes
+    if params.require(:association)[:id]
+      [:association_type, :association_type_id, :default_hcp, :state_event]
+    else
+      [:id, :user, :user_id, :associate, :associate_id, :association_type,
+       :association_type_id, :default_hcp, :state_event].tap do |attributes|
+        attributes << {associate_attributes: user_attributes}
+      end
+    end
   end
 end
