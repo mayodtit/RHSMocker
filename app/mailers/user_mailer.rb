@@ -25,12 +25,6 @@ class UserMailer < ActionMailer::Base
     mail(to: user.email, subject: subject)
   end
 
-  def assigned_role_email user, assignor
-    @assignor = assignor
-    @user = user
-    mail(to: user.email, subject: "#{assignor.full_name} invited you to care for patients with Better!")
-  end
-
   def scheduled_phone_call_cp_assigned_email(scheduled_phone_call)
     @scheduled_phone_call = scheduled_phone_call
     attachments['event.ics'] = {:mime_type => 'text/calendar', :content => @scheduled_phone_call.owner_assigned_calendar_event.export}

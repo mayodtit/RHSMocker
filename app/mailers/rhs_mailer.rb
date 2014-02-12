@@ -13,4 +13,17 @@ class RHSMailer < MandrillMailer::TemplateMailer
       }
     )
   end
+
+  def assigned_role_email(email, greeting, url, signature)
+    mandrill_mail(
+      subject: "#{signature} invited you to care for patients with Better!",
+      to: { email: email },
+      template: 'Assigned Role',
+      vars: {
+        GREETING: greeting,
+        URL: url,
+        SIGNATURE: signature
+      }
+    )
+  end
 end

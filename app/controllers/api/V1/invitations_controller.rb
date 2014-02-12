@@ -12,7 +12,10 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
 
       if user.signed_up?
         add_role user, params[:role]
-        UserMailer.assigned_role_email(user, current_user).deliver
+
+        url = "#{CARE_URL_PREFIX}/login?next=#{CGI.escape '/settings/profile'}"
+        RHSMailer.assigned_role_email(user.email, user.salutation, url, current_user.full_name).deliver
+
         render_success
       else
         if user.valid?
