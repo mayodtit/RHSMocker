@@ -3,14 +3,14 @@ FactoryGirl.define do
     association :user, factory: :member
     association :associate, factory: :user
     association_type
-    state :enabled
+    state 'enabled'
 
     trait :pending do
-      state :pending
+      state 'pending'
     end
 
     trait :disabled do
-      state :disabled
+      state 'disabled'
     end
 
     trait :member_associate do
