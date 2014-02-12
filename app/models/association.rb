@@ -28,10 +28,17 @@ class Association < ActiveRecord::Base
   end
 
   def invite!
-    raise ActiveRecord::RecordNotFound unless associate.member # TODO -invite member if they do not exist
-    update_attributes!(replacement: build_replacement(user_id: user_id,
-                                                      associate_id: associate.member.id,
-                                                      association_type: association_type))
+    transaction do
+      if associate.member
+        member = associate.member
+      else
+        member = Member.create_from_user!(associate)
+        user.invitations.create(invited_member: member)
+      end
+      update_attributes!(replacement: build_replacement(user_id: user_id,
+                                                        associate_id: member.id,
+                                                        association_type: association_type))
+    end
   end
 
   private
