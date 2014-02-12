@@ -97,6 +97,7 @@ RHSMocker::Application.routes.draw do
           end
         end
         get :index, on: :collection, to: 'providers#index'
+        resources :inverse_associations, only: [:index, :update, :destroy]
         post 'invite', :on => :member
         resources :cards, :only => [:create, :show, :update] do
           get :inbox, :on => :collection

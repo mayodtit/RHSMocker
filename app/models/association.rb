@@ -11,7 +11,7 @@ class Association < ActiveRecord::Base
   attr_accessor :default_hcp
   attr_accessible :user, :user_id, :associate, :associate_id, :association_type,
                   :association_type_id, :associate_attributes, :default_hcp,
-                  :replacement, :replacement_id, :original
+                  :replacement, :replacement_id, :original, :state_event
 
   validates :user, :associate, presence: true
   validates :associate_id, uniqueness: {scope: [:user_id, :association_type_id]}
