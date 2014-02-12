@@ -42,6 +42,11 @@ class PhoneCall < ActiveRecord::Base
 
   delegate :consult, :to => :message
 
+  # for metrics
+  scope :to_nurse_line, -> { where(to_role_id: Role.find_by_name('nurse').id) }
+  scope :valid_call, -> { where('ended_at - claimed_at > ?', 60) } # filter out calls shorter than 1 minute
+  scope :valid_nurse_call, -> { to_nurse_line.valid_call }
+
   def origin_connected?
     origin_status == CONNECTED_STATUS
   end
