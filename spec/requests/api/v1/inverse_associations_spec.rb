@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'InverseAssociations' do
   let!(:user) { create(:member) }
-  let!(:association) { create(:member_association, associate: user) }
+  let!(:association) { create(:association, associate: user) }
 
   describe 'GET /api/v1/users/:user_id/inverse_associations' do
     def do_request

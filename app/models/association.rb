@@ -2,20 +2,25 @@ class Association < ActiveRecord::Base
   belongs_to :user
   belongs_to :associate, :class_name => 'User'
   belongs_to :association_type
-  belongs_to :replacement, class_name: 'MemberAssociation',
+  belongs_to :replacement, class_name: 'Association',
                            inverse_of: :original
   has_one :original, class_name: 'Association',
                      foreign_key: :replacement_id,
                      inverse_of: :replacement
+  belongs_to :pair, class_name: 'Association',
+                    dependent: :destroy
 
   attr_accessor :default_hcp
-  attr_accessible :user, :user_id, :associate, :associate_id, :association_type,
-                  :association_type_id, :associate_attributes, :default_hcp,
-                  :replacement, :replacement_id, :original, :state_event
+  attr_accessible :user, :user_id, :associate, :associate_id,
+                  :association_type, :association_type_id,
+                  :associate_attributes, :default_hcp, :replacement,
+                  :replacement_id, :original, :state_event, :state, :pair,
+                  :pair_id
 
   validates :user, :associate, presence: true
   validates :associate_id, uniqueness: {scope: [:user_id, :association_type_id]}
   validates :replacement, presence: true, if: lambda{|a| a.replacement_id}
+  validates :pair, presence: true, if: lambda{|a| a.pair_id}
   validate :user_is_not_associate
 
   after_save :add_user_default_hcp
@@ -37,7 +42,8 @@ class Association < ActiveRecord::Base
       end
       update_attributes!(replacement: build_replacement(user_id: user_id,
                                                         associate_id: member.id,
-                                                        association_type: association_type))
+                                                        association_type: association_type,
+                                                        state: :pending))
     end
   end
 
@@ -61,6 +67,16 @@ class Association < ActiveRecord::Base
   end
 
   state_machine initial: :enabled do
+    before_transition :pending => :enabled do |association, transition|
+      if association.original
+        association.original.update_attributes!(state_event: :disable)
+      end
+      association.pair = association.class.new(user_id: association.associate_id,
+                                               associate_id: association.user_id,
+                                               pair_id: association.id,
+                                               state: :enabled)
+    end
+
     event :enable do
       transition any => :enabled
     end

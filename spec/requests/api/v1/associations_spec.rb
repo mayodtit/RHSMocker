@@ -32,10 +32,17 @@ describe 'Associations' do
       end
 
       context 'without a Member associate' do
-        it 'returns 404' do
-          do_request
-          expect(response).to_not be_success
-          expect(response.code).to eq('404')
+        it 'creates and invites the Member' do
+          expect{ do_request }.to change(Member, :count).by(1)
+          expect(response).to be_success
+          new_member = associate.member
+          expect(new_member).to_not be_nil
+          new_association = user.reload.associations.find_by_associate_id!(new_member.id)
+          expect(new_association.state?(:pending)).to be_true
+          expect(new_association.user).to eq(user)
+          expect(new_association.associate).to eq(new_member)
+          expect(new_association.association_type).to eq(association.association_type)
+          expect(new_association.original).to eq(association)
         end
       end
 
