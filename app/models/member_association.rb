@@ -21,6 +21,9 @@ class MemberAssociation < Association
 
   state_machine initial: :pending do
     before_transition :pending => :enabled do |association, transition|
+      if association.original
+        association.original.update_attributes!(state_event: :disable)
+      end
       association.pair = association.class.new(user_id: association.associate_id,
                                                associate_id: association.user_id,
                                                pair_id: association.id,

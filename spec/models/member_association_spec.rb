@@ -33,6 +33,16 @@ describe MemberAssociation do
           expect(pair.state?(:enabled)).to be_true
           expect(pair.pair).to eq(association)
         end
+
+        context 'with an original association' do
+          let(:association) { create(:member_association, original: create(:association)) }
+
+          it 'disables the original association' do
+            expect(association.enable).to be_true
+            expect(association.state?(:enabled)).to be_true
+            expect(association.original.state?(:disabled)).to be_true
+          end
+        end
       end
     end
   end
