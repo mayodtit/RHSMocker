@@ -45,6 +45,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
       params[:association][:associate] = provider_user
     elsif params.require(:association)[:associate]
       params[:association].change_key!(:associate, :associate_attributes)
+      params[:association][:associate_attributes][:owner_id] ||= current_user.id
     end
   end
 

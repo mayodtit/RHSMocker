@@ -2,6 +2,7 @@ FactoryGirl.define do
   factory :user, aliases: [:associate] do
     first_name            { ["Harold", "Kumar", "Alice", "Bob"].sample }
     last_name             { ["Lee", "Patel", "Carol", "Dan"].sample }
+    association :owner, factory: :member
 
     factory :member, class: Member, aliases: [:user_with_email] do
       sequence(:install_id) { |n| "Install-ID-#{n}" }
@@ -9,6 +10,7 @@ FactoryGirl.define do
       password              "password"
       password_confirmation "password"
       member_flag true
+      owner nil
 
       factory :admin do
         after(:create) {|user| user.add_role(:admin)}

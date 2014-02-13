@@ -41,10 +41,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def base_user_attributes
-    [:first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone,
-     :blood_type, :holds_phone_in, :diet_id, :ethnic_group_id, :deceased,
-     :date_of_death, :npi_number, :expertise, :city, :state, :units, :nickname,
-     :work_phone_number]
+    [:id, :first_name, :last_name, :avatar, :gender, :height, :birth_date,
+     :phone, :blood_type, :holds_phone_in, :diet_id, :ethnic_group_id,
+     :deceased, :date_of_death, :npi_number, :expertise, :city, :state, :units,
+     :nickname, :work_phone_number, :provider_taxonomy_code]
   end
 
   def secure_user_attributes
@@ -77,7 +77,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     else
       [:id, :user, :user_id, :associate, :associate_id, :association_type,
        :association_type_id, :default_hcp, :state_event].tap do |attributes|
-        attributes << {associate_attributes: user_attributes}
+        attributes << {associate_attributes: user_attributes.concat([:owner, :owner_id])}
       end
     end
   end

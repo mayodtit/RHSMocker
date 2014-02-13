@@ -26,6 +26,9 @@ class User < ActiveRecord::Base
   belongs_to :default_hcp_association, class_name: 'Association', foreign_key: :default_hcp_association_id
   has_one :default_hcp, through: :default_hcp_association, source: :associate
 
+  belongs_to :owner, class_name: 'Member',
+                     inverse_of: :owned_users
+
   accepts_nested_attributes_for :user_information
   accepts_nested_attributes_for :address
   accepts_nested_attributes_for :insurance_policy
@@ -36,7 +39,7 @@ class User < ActiveRecord::Base
                   :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data,
                   :user_information_attributes, :address_attributes, :insurance_policy_attributes,
                   :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id,
-                  :provider_taxonomy_code
+                  :provider_taxonomy_code, :owner, :owner_id
 
   validate :member_flag_is_nil
   validates :deceased, :inclusion => {:in => [true, false]}
@@ -44,6 +47,7 @@ class User < ActiveRecord::Base
   validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_blank: true
   validates :phone, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
   validates :work_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
+  validates :owner, presence: true
 
   mount_uploader :avatar, AvatarUploader
 

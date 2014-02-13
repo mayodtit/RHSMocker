@@ -23,6 +23,10 @@ class Member < User
                            inverse_of: :claimer,
                            autosave: true
 
+  has_many :owned_users, class_name: 'User',
+                         foreign_key: :owner_id,
+                         inverse_of: :owner
+
   accepts_nested_attributes_for :user_agreements
 
   attr_accessible :install_id, :password, :password_confirmation,
@@ -35,7 +39,9 @@ class Member < User
   validates :install_id, :uniqueness => true, :allow_nil => true
   validates :units, :inclusion => {:in => %w(US Metric)}
   validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :if => lambda{|m| m.signed_up? || m.password}
+  validate :owner_is_self
 
+  before_validation :set_owner
   before_validation :set_member_flag
   before_create :set_auth_token # generate inital auth_token
   after_create :add_install_message
@@ -151,6 +157,14 @@ class Member < User
   end
 
   private
+
+  def owner_is_self
+    owner == self
+  end
+
+  def set_owner
+    self.owner ||= self
+  end
 
   def set_member_flag
     self.member_flag ||= true
