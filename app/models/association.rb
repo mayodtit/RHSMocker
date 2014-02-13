@@ -1,6 +1,7 @@
 class Association < ActiveRecord::Base
   belongs_to :user
-  belongs_to :associate, :class_name => 'User'
+  belongs_to :associate, class_name: 'User'
+  belongs_to :creator, class_name: 'User'
   belongs_to :association_type
   belongs_to :replacement, class_name: 'Association',
                            inverse_of: :original
@@ -12,17 +13,20 @@ class Association < ActiveRecord::Base
 
   attr_accessor :default_hcp
   attr_accessible :user, :user_id, :associate, :associate_id,
+                  :creator, :creator_id,
                   :association_type, :association_type_id,
                   :associate_attributes, :default_hcp, :replacement,
                   :replacement_id, :original, :state_event, :state, :pair,
                   :pair_id
 
-  validates :user, :associate, presence: true
+  validates :user, :associate, :creator, presence: true
   validates :associate_id, uniqueness: {scope: [:user_id, :association_type_id]}
   validates :replacement, presence: true, if: lambda{|a| a.replacement_id}
   validates :pair, presence: true, if: lambda{|a| a.pair_id}
   validate :user_is_not_associate
+  validate :creator_id_not_changed
 
+  before_validation :set_initial_state, on: :create
   after_save :add_user_default_hcp
   before_destroy :remove_user_default_hcp
 
@@ -42,15 +46,26 @@ class Association < ActiveRecord::Base
       end
       update_attributes!(replacement: build_replacement(user_id: user_id,
                                                         associate_id: member.id,
+                                                        creator_id: user_id,
                                                         association_type: association_type,
-                                                        state: :pending))
+                                                        state: 'pending'))
     end
   end
 
   private
 
+  def set_initial_state
+    self.state ||= 'pending' if user_id != creator_id
+  end
+
   def user_is_not_associate
     errors.add(:user, "cannot be associated to itself") if user == associate
+  end
+
+  def creator_id_not_changed
+    if creator_id_changed? && persisted?
+      errors.add(:creator_id, 'cannot be changed')
+    end
   end
 
   def invited?
@@ -73,6 +88,7 @@ class Association < ActiveRecord::Base
       end
       association.pair = association.class.new(user_id: association.associate_id,
                                                associate_id: association.user_id,
+                                               creator_id: association.associate_id,
                                                pair_id: association.id,
                                                state: :enabled)
     end

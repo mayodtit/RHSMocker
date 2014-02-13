@@ -2,6 +2,7 @@ FactoryGirl.define do
   factory :association do
     association :user, factory: :member
     association :associate, factory: :user
+    creator { user }
     association_type
     state 'enabled'
 

@@ -7,12 +7,19 @@ describe Association do
   it_has_a 'valid factory', :member_associate
   it_validates 'presence of', :user
   it_validates 'presence of', :associate
+  it_validates 'presence of', :creator
   it_validates 'uniqueness of', :associate_id, :user_id, :association_type_id
   it_validates 'foreign key of', :replacement
   it_validates 'foreign key of', :pair
   it 'validates the user is not the associate' do
     user = build_stubbed(:user)
     build_stubbed(:association, user: user, associate: user).should_not be_valid
+  end
+  it 'validates creator does not change' do
+    association = create(:association)
+    expect(association.update_attributes(creator: create(:member))).to be_false
+    expect(association).to_not be_valid
+    expect(association.errors[:creator_id]).to include('cannot be changed')
   end
 
   describe '#invite!' do

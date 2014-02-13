@@ -41,6 +41,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   end
 
   def convert_parameters!
+    params.require(:association)[:creator_id] = current_user.id
     if params.require(:association).try(:[], :associate).try(:[], :npi_number)
       params[:association][:associate] = provider_user
     elsif params.require(:association)[:associate]

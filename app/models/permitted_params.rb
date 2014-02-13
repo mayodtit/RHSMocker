@@ -75,8 +75,9 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     if params.require(:association)[:id]
       [:association_type, :association_type_id, :default_hcp, :state_event]
     else
-      [:id, :user, :user_id, :associate, :associate_id, :association_type,
-       :association_type_id, :default_hcp, :state_event].tap do |attributes|
+      [:id, :user, :user_id, :associate, :associate_id, :creator, :creator_id,
+       :association_type, :association_type_id, :default_hcp,
+       :state_event].tap do |attributes|
         attributes << {associate_attributes: user_attributes.concat([:owner, :owner_id])}
       end
     end
