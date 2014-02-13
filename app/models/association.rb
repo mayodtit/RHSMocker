@@ -26,7 +26,6 @@ class Association < ActiveRecord::Base
   validate :user_is_not_associate
   validate :creator_id_not_changed
 
-  before_validation :set_initial_state, on: :create
   after_save :add_user_default_hcp
   before_destroy :remove_user_default_hcp
 
@@ -52,11 +51,11 @@ class Association < ActiveRecord::Base
     end
   end
 
-  private
-
-  def set_initial_state
-    self.state ||= 'pending' if user_id != creator_id
+  def initial_state
+    (creator_id == user_id) ? :enabled : :pending
   end
+
+  private
 
   def user_is_not_associate
     errors.add(:user, "cannot be associated to itself") if user == associate
@@ -81,7 +80,7 @@ class Association < ActiveRecord::Base
     u.update_attributes(default_hcp_association_id: nil) if u
   end
 
-  state_machine initial: :enabled do
+  state_machine initial: lambda{|a| a.initial_state} do
     before_transition :pending => :enabled do |association, transition|
       if association.original
         association.original.update_attributes!(state_event: :disable)

@@ -57,8 +57,22 @@ describe Association do
 
   describe 'state_machine' do
     describe 'states' do
-      it 'sets the initial state to enabled' do
-        expect(described_class.new.state?(:enabled)).to be_true
+      describe 'initial state' do
+        context 'creator is originating user' do
+          let(:association) { described_class.new }
+
+          it 'is enabled' do
+            expect(association.state?(:enabled)).to be_true
+          end
+        end
+
+        context 'creator is not originating user' do
+          let(:association) { described_class.new(creator: build_stubbed(:member)) }
+
+          it 'is pending' do
+            expect(association.state?(:pending)).to be_true
+          end
+        end
       end
     end
 
