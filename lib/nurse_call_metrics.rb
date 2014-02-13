@@ -1,6 +1,9 @@
-  class NurseCallMetrics
+class NurseCallMetrics
+  attr_reader :num_calls_claimed_but_not_ended
+
   def initialize(start_time, end_time)
     @completed_calls = PhoneCall.valid_nurse_call.where(claimed_at: start_time..end_time) # calls claimed within this time frame
+    @num_calls_claimed_but_not_ended = PhoneCall.where(claimed_at: start_time..end_time).to_nurse_line.where('claimed_at IS NOT NULL').where('ended_at IS NULL').count
   end
 
   def num_completed_calls
