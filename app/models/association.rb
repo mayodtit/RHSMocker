@@ -26,6 +26,7 @@ class Association < ActiveRecord::Base
   validate :user_is_not_associate
   validate :creator_id_not_changed
 
+  before_validation :build_related_associations, on: :create
   after_save :add_user_default_hcp
   before_destroy :remove_user_default_hcp
 
@@ -37,7 +38,7 @@ class Association < ActiveRecord::Base
 
   def invite!
     transaction do
-      return if replacement
+      return if replacement || (associate == associate.member)
       update_attributes!(replacement: build_replacement(user_id: user_id,
                                                         associate_id: associate.member_or_invite!(user).id,
                                                         creator_id: user_id,
@@ -59,6 +60,18 @@ class Association < ActiveRecord::Base
   def creator_id_not_changed
     if creator_id_changed? && persisted?
       errors.add(:creator_id, 'cannot be changed')
+    end
+  end
+
+  def build_related_associations
+    return if creator_id == user_id
+    transaction do
+      self.class.where(user_id: creator_id, associate_id: user_id).first.invite!
+      return if replacement || (user == user.member)
+      update_attributes!(replacement: build_replacement(user_id: user.member_or_invite!(creator).id,
+                                                        associate_id: associate_id,
+                                                        creator_id: creator_id,
+                                                        state: 'pending'))
     end
   end
 
