@@ -8,6 +8,9 @@ class Api::V1::ProvidersController < Api::V1::ABaseController
   private
 
   def load_providers!
+    # remove whitespace from params
+    [:first_name, :last_name].each { |k| params[k].strip! unless params[k].nil? }
+
     begin
       @providers = search_service.query(params)
     rescue => e

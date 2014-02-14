@@ -1,23 +1,42 @@
-<div style="text-align: center;">
-<table border="1">
-  <tr>
-    <th>Week starting</th>
-    <th>Completed calls</th>
-    <th>Median call length (minutes)</th>
-    <th>Calls / member</th>
-    <th>Calls / nurse</th>
-    <th>Disconnected calls</th>
-  </tr>
+<div style="padding: 10px">
+  Only calls meeting these requirements are factored into these stats:<br>
+  <ul>
+    <li>Made to these nurse line numbers: <%= PhoneCall.nurseline_numbers.join(', ') %></li>
+    <li>Longer than a minute</li>
+    <li>Call ended by the nurse (except for the "Calls not ended" column)</li>
+  </ul>
+  Nurse call numbers are a running total, week-by-week
 
-  <% @results.each do |r| %>
-    <tr>
-      <td><%= r.first %></td>
-      <td><%= r.last.num_completed_calls %></td>
-      <td><%= r.last.median_call_length.round(2) %></td>
-      <td><%= r.last.calls_per_member.round(2) %></td>
-      <td><%= r.last.calls_per_nurse.round(2) %></td>
-      <td><%= r.last.num_dropped_calls %></td>
-    </tr>
-  <% end %>
-</table>
+  <div style="text-align: center">
+    <table border="1">
+      <tr>
+        <th>Week starting</th>
+        <th>Completed calls</th>
+        <th>Median call length (minutes)</th>
+        <th>Calls / member</th>
+        <th>Calls / nurse</th>
+        <th>Calls claimed but not ended</th>
+        <% @nurses.each do |n| %>
+          <th><%= n.full_name %></th>
+        <% end %>
+      </tr>
+
+      <% @results.each do |r| %>
+        <tr>
+          <td><%= r.first %></td>
+          <td><%= r.last.num_completed_calls %></td>
+          <td><%= r.last.median_call_length.round(2) %></td>
+          <td><%= r.last.avg_calls_per_member.round(2) %></td>
+          <td><%= r.last.avg_calls_per_nurse.round(2) %></td>
+          <td><%= r.last.num_calls_claimed_but_not_ended %></td>
+          <% @nurses.each do |n| %>
+            <% id = n.id %>
+            <% calls_this_week = r.last.calls_per_nurse[id] %>
+            <% @nurse_totals[id] += calls_this_week if calls_this_week %>
+            <td><%= @nurse_totals[id] %></td>
+          <% end %>
+        </tr>
+      <% end %>
+    </table>
+  </div>
 </div>

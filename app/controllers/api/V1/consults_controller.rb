@@ -39,7 +39,7 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
 
   def permitted_attributes
     params.require(:consult).permit(:title, :initiator_id, :subject_id,
-                                    :state_event)
+                                    :state_event, :description)
   end
 
   def message_attributes
