@@ -37,14 +37,9 @@ class Association < ActiveRecord::Base
 
   def invite!
     transaction do
-      if associate.member
-        member = associate.member
-      else
-        member = Member.create_from_user!(associate)
-        user.invitations.create(invited_member: member)
-      end
+      return if replacement
       update_attributes!(replacement: build_replacement(user_id: user_id,
-                                                        associate_id: member.id,
+                                                        associate_id: associate.member_or_invite!(user).id,
                                                         creator_id: user_id,
                                                         association_type: association_type,
                                                         state: 'pending'))

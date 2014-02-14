@@ -92,6 +92,13 @@ class User < ActiveRecord::Base
     Member.find_by_email(email)
   end
 
+  def member_or_invite!(inviter)
+    return member if member
+    Member.create_from_user!(self).tap do |new_member|
+      inviter.invitations.create!(invited_member: new_member)
+    end
+  end
+
   def blood_pressure
     blood_pressures.most_recent
   end

@@ -27,17 +27,13 @@ describe Association do
       let(:associate) { create(:user, email: 'kyle@test.getbetter.com') }
       let!(:association) { create(:association, associate: associate) }
 
-      before do
-        association.user.stub_chain(:invitations, :create)
-      end
-
+      # TODO - these specs probably reach too far out of this model
       it 'creates a Member' do
         expect{ association.invite! }.to change(Member, :count).by(1)
       end
 
       it 'invites the Member' do
-        association.user.invitations.should_receive(:create).once
-        association.invite!
+        expect{ association.invite! }.to change(Invitation, :count).by(1)
       end
     end
 
