@@ -48,27 +48,56 @@ describe Api::V1::MessagesController do
     it_behaves_like 'action requiring authentication and authorization'
 
     context 'authenticated and authorized', user: :authenticate_and_authorize! do
-      it 'attempts to create the record' do
-        messages.should_receive(:create).twice #TODO - creates 2 messages including auto-response
-        do_request
-      end
-
-      context 'save succeeds' do
-        it_behaves_like 'success'
-
-        it 'returns the message' do
-          do_request
-          body = JSON.parse(response.body, symbolize_names: true)
-          expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
-        end
-      end
-
       context 'save fails' do
         before do
           message.errors.add(:base, :invalid)
         end
 
         it_behaves_like 'failure'
+      end
+
+      context 'send robot response is true' do
+        before do
+          controller.stub(:send_robot_response?) { true }
+        end
+
+        it 'attempts to create the record' do
+          controller.should_receive(:send_robot_response!).and_call_original
+          messages.should_receive(:create).twice
+          do_request
+        end
+
+        context 'save succeeds' do
+          it_behaves_like 'success'
+
+          it 'returns the message' do
+            do_request
+            body = JSON.parse(response.body, symbolize_names: true)
+            expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
+          end
+        end
+      end
+
+      context 'send robot response is false' do
+        before do
+          controller.stub(:send_robot_response?) { false }
+        end
+
+        it 'attempts to create the record' do
+          messages.should_not_receive(:send_robot_response!)
+          messages.should_receive(:create).once
+          do_request
+        end
+
+        context 'save succeeds' do
+          it_behaves_like 'success'
+
+          it 'returns the message' do
+            do_request
+            body = JSON.parse(response.body, symbolize_names: true)
+            expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
+          end
+        end
       end
     end
   end
