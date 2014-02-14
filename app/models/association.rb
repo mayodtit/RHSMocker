@@ -37,8 +37,8 @@ class Association < ActiveRecord::Base
   end
 
   def invite!
+    return if replacement || (associate == associate.member)
     transaction do
-      return if replacement || (associate == associate.member)
       update_attributes!(replacement: build_replacement(user_id: user_id,
                                                         associate_id: associate.member_or_invite!(user).id,
                                                         creator_id: user_id,
