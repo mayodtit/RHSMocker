@@ -81,6 +81,7 @@ class Ability
     if user.care_provider?
       can :manage, Consult
       can :ru, Member
+      can :index, Message
     end
   end
 end

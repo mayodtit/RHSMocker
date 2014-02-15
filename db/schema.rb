@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140210175352) do
+ActiveRecord::Schema.define(:version => 20140214231532) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -19,8 +19,8 @@ ActiveRecord::Schema.define(:version => 20140210175352) do
     t.string   "city"
     t.string   "state"
     t.string   "postal_code"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "agreements", :force => true do |t|
@@ -262,8 +262,8 @@ ActiveRecord::Schema.define(:version => 20140210175352) do
     t.string   "company_name"
     t.string   "plan_type"
     t.string   "policy_member_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
     t.text     "notes"
   end
 
@@ -307,9 +307,11 @@ ActiveRecord::Schema.define(:version => 20140210175352) do
     t.integer  "phone_call_id"
     t.string   "image"
     t.integer  "phone_call_summary_id"
+    t.boolean  "unread_by_cp"
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
+  add_index "messages", ["unread_by_cp"], :name => "index_messages_on_unread_by_cp"
 
   create_table "metadata", :force => true do |t|
     t.string   "mkey",       :null => false
@@ -414,9 +416,9 @@ ActiveRecord::Schema.define(:version => 20140210175352) do
   end
 
   create_table "provider_call_logs", :force => true do |t|
-    t.integer  "user_id"
     t.string   "npi"
     t.integer  "number"
+    t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -428,8 +430,8 @@ ActiveRecord::Schema.define(:version => 20140210175352) do
     t.string   "state"
     t.string   "postal_code"
     t.string   "phone"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "questions", :force => true do |t|
@@ -615,8 +617,8 @@ ActiveRecord::Schema.define(:version => 20140210175352) do
 
   create_table "user_informations", :force => true do |t|
     t.integer  "user_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
     t.text     "notes"
   end
 
