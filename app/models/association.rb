@@ -89,6 +89,14 @@ class Association < ActiveRecord::Base
   end
 
   state_machine initial: lambda{|a| a.initial_state} do
+    event :enable do
+      transition any => :enabled
+    end
+
+    event :disable do
+      transition any => :disabled
+    end
+
     before_transition :pending => :enabled do |association, transition|
       if association.original
         association.original.update_attributes!(state_event: :disable)
@@ -100,12 +108,10 @@ class Association < ActiveRecord::Base
                                                state: :enabled)
     end
 
-    event :enable do
-      transition any => :enabled
-    end
-
-    event :disable do
-      transition any => :disabled
+    before_transition any => :disabled do |association, transition|
+      if association.original
+        association.original.update_attributes!(state_event: :enable)
+      end
     end
   end
 end

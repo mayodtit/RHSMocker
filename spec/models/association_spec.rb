@@ -101,7 +101,7 @@ describe Association do
             it 'disables the original association' do
               expect(association.enable).to be_true
               expect(association.state?(:enabled)).to be_true
-              expect(association.original.state?(:disabled)).to be_true
+              expect(association.original.reload.state?(:disabled)).to be_true
             end
           end
         end
@@ -113,6 +113,16 @@ describe Association do
         it 'sets enabled to disabled' do
           expect(association.disable).to be_true
           expect(association.state?(:disabled)).to be_true
+        end
+
+        context 'with an original association' do
+          let(:association) { create(:association, original: create(:association, :disabled)) }
+
+          it 'enables the original association' do
+            expect(association.disable).to be_true
+            expect(association.state?(:disabled)).to be_true
+            expect(association.original.reload.state?(:enabled)).to be_true
+          end
         end
       end
     end
