@@ -19,7 +19,7 @@ describe ScheduledPhoneCall do
 
   describe '#notify_user_confirming_call' do
     it 'notifies the user confirming their scheduled call time via email' do
-      UserMailer.should_receive(:scheduled_phone_call_member_confirmation_email).with(scheduled_phone_call) {
+      RHSMailer.should_receive(:scheduled_phone_call_member_confirmation_email).with(scheduled_phone_call.id) {
         o = Object.new
         o.should_receive(:deliver)
         o
@@ -63,6 +63,7 @@ describe ScheduledPhoneCall do
     let(:message) { build :message, consult: consult }
 
     before do
+      ScheduledPhoneCall.any_instance.stub(:notify_user_confirming_call).and_return(true)
       Timecop.freeze()
     end
 
