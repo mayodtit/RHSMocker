@@ -5,7 +5,7 @@ describe 'Associations' do
 
   context 'existing record' do
     let!(:email) { 'kyle@test.getbetter.com' }
-    let!(:associate) { create(:associate, email: email) }
+    let!(:associate) { create(:associate, email: email, owner: user) }
     let!(:association) { create(:association, user: user, associate: associate) }
 
     describe 'GET /api/v1/associations' do

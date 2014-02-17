@@ -51,6 +51,16 @@ class Association < ActiveRecord::Base
     (creator_id == user_id) ? :enabled : :pending
   end
 
+  protected
+
+  def enabled_association_with_owner
+    return unless associate
+    return if user_id == associate.owner_id || associate_id == associate.owner_id
+    unless self.class.where(user_id: user_id, associate_id: associate.owner_id).first.try(:state?, :enabled)
+      errors.add(:base, 'must have association with owner to be enabled')
+    end
+  end
+
   private
 
   def user_is_not_associate
@@ -89,6 +99,10 @@ class Association < ActiveRecord::Base
   end
 
   state_machine initial: lambda{|a| a.initial_state} do
+    state :enabled do
+      validate {|association| association.enabled_association_with_owner}
+    end
+
     event :enable do
       transition any => :enabled
     end

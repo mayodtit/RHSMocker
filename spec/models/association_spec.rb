@@ -24,8 +24,9 @@ describe Association do
 
   describe '#invite!' do
     context 'without a Member' do
-      let(:associate) { create(:user, email: 'kyle@test.getbetter.com') }
-      let!(:association) { create(:association, associate: associate) }
+      let(:owner) { create(:member) }
+      let(:associate) { create(:user, email: 'kyle@test.getbetter.com', owner: owner) }
+      let!(:association) { create(:association, user: owner, associate: associate) }
 
       # TODO - these specs probably reach too far out of this model
       it 'creates a Member' do
@@ -38,9 +39,10 @@ describe Association do
     end
 
     context 'with a Member' do
+      let(:owner) { create(:member) }
       let!(:member) { create(:member) }
-      let!(:associate) { create(:user, email: member.email) }
-      let!(:association) { create(:association, associate: associate) }
+      let!(:associate) { create(:user, email: member.email, owner: owner) }
+      let!(:association) { create(:association, user: owner, associate: associate) }
 
       it 'creates a pending Association' do
         expect(association.replacement).to be_nil

@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :association do
     association :user, factory: :member
-    association :associate, factory: :user
+    associate { association(:user, owner: user) }
     creator { user }
     association_type
     state 'enabled'
