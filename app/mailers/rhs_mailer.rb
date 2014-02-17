@@ -31,8 +31,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
     spc = ScheduledPhoneCall.find(spc_id)
     from_email = spc.owner.email
 
-    template_clare  = 'Post Welcome Call (Clare) - TEMPLATE'
-    template_lauren = 'Post Welcome Call (Lauren) - TEMPLATE'
+    template_clare  = 'Welcome Call Confirmation (Clare) - TEMPLATE v140217'
+    template_lauren = 'Welcome Call Confirmation (Lauren) - TEMPLATE v140217'
     t = (from_email == 'lauren@getbetter.com' ? template_lauren : template_clare)
 
     mandrill_mail(
