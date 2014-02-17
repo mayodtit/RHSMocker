@@ -94,7 +94,7 @@ Prep:
   end
 
   def notify_user_confirming_call
-    RHSMailer.scheduled_phone_call_member_confirmation_email(id).deliver
+    UserMailer.scheduled_phone_call_member_confirmation_email(self).deliver
   end
 
   def notify_owner_confirming_call

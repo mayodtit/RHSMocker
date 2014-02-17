@@ -31,6 +31,14 @@ class UserMailer < ActionMailer::Base
     mail(to: @scheduled_phone_call.owner .email, subject: 'ASSIGNED - Welcome Call')
   end
 
+  def scheduled_phone_call_member_confirmation_email(scheduled_phone_call)
+    @scheduled_phone_call = scheduled_phone_call
+    from_address = Mail::Address.new(@scheduled_phone_call.owner.email)
+    from_address.display_name = @scheduled_phone_call.owner.full_name
+    attachments['event.ics'] = {:mime_type => 'text/calendar', :content => @scheduled_phone_call.user_confirmation_calendar_event.export}
+    mail(to: @scheduled_phone_call.user.email, subject: 'Better Welcome Call Confirmation', from: from_address.format)
+  end
+
   def scheduled_phone_call_cp_confirmation_email(scheduled_phone_call)
     @scheduled_phone_call = scheduled_phone_call
     attachments['event.ics'] = {:mime_type => 'text/calendar', :content => @scheduled_phone_call.owner_confirmation_calendar_event.export}

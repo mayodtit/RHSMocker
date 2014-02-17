@@ -26,29 +26,4 @@ class RHSMailer < MandrillMailer::TemplateMailer
       }
     )
   end
-
-  def scheduled_phone_call_member_confirmation_email(spc_id)
-    spc = ScheduledPhoneCall.find(spc_id)
-    from_email = spc.owner.email
-
-    template_clare  = 'Post Welcome Call (Clare) - TEMPLATE'
-    template_lauren = 'Post Welcome Call (Lauren) - TEMPLATE'
-    t = (from_email == 'lauren@getbetter.com' ? template_lauren : template_clare)
-
-    mandrill_mail(
-      subject: 'Better Welcome Call Confirmation',
-      from: from_email,
-      from_name: spc.owner.full_name,
-      to: { email: spc.user.email },
-      template: t,
-      vars: {
-        PHONENUM: spc.callback_phone_number
-      },
-      attachments: [
-        { file: spc.user_confirmation_calendar_event.export,
-          filename: 'event.ics',
-          mime_type: 'text/calendar' }
-      ]
-    )
-  end
 end
