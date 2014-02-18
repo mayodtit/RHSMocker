@@ -12,6 +12,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     user_params.permit(*secure_user_attributes)
   end
 
+  def association
+    params.require(:association).permit(*association_attributes)
+  end
+
   private
 
   def user_params
@@ -37,10 +41,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def base_user_attributes
-    [:first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone,
-     :blood_type, :holds_phone_in, :diet_id, :ethnic_group_id, :deceased,
-     :date_of_death, :npi_number, :expertise, :city, :state, :units, :nickname,
-     :work_phone_number, :provider_taxonomy_code]
+    [:id, :first_name, :last_name, :avatar, :gender, :height, :birth_date,
+     :phone, :blood_type, :holds_phone_in, :diet_id, :ethnic_group_id,
+     :deceased, :date_of_death, :npi_number, :expertise, :city, :state, :units,
+     :nickname, :work_phone_number, :provider_taxonomy_code]
   end
 
   def secure_user_attributes
@@ -65,5 +69,17 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
 
   def provider_attributes
     [:id, :address, :city, :state, :postal_code, :phone]
+  end
+
+  def association_attributes
+    if params.require(:association)[:id]
+      [:association_type, :association_type_id, :default_hcp, :state_event]
+    else
+      [:id, :user, :user_id, :associate, :associate_id, :creator, :creator_id,
+       :association_type, :association_type_id, :default_hcp,
+       :state_event].tap do |attributes|
+        attributes << {associate_attributes: user_attributes.concat([:owner, :owner_id])}
+      end
+    end
   end
 end

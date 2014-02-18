@@ -3,7 +3,7 @@ class User < ActiveRecord::Base
 
   rolify
 
-  has_many :associations, :dependent => :destroy
+  has_many :associations, dependent: :destroy, inverse_of: :user
   has_many :associates, :through=>:associations
   has_many :inverse_associations, :class_name => 'Association', :foreign_key => 'associate_id'
   has_many :inverse_associates, :through => :inverse_associations, :source => :user
@@ -26,6 +26,12 @@ class User < ActiveRecord::Base
   belongs_to :default_hcp_association, class_name: 'Association', foreign_key: :default_hcp_association_id
   has_one :default_hcp, through: :default_hcp_association, source: :associate
 
+  belongs_to :owner, class_name: 'User',
+                     inverse_of: :owned_users
+  has_many :owned_users, class_name: 'User',
+                         foreign_key: :owner_id,
+                         inverse_of: :owner
+
   accepts_nested_attributes_for :user_information
   accepts_nested_attributes_for :address
   accepts_nested_attributes_for :insurance_policy
@@ -36,7 +42,7 @@ class User < ActiveRecord::Base
                   :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data,
                   :user_information_attributes, :address_attributes, :insurance_policy_attributes,
                   :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id,
-                  :provider_taxonomy_code
+                  :provider_taxonomy_code, :owner, :owner_id
 
   validate :member_flag_is_nil
   validates :deceased, :inclusion => {:in => [true, false]}
@@ -44,9 +50,11 @@ class User < ActiveRecord::Base
   validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_blank: true
   validates :phone, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
   validates :work_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
+  validates :owner, presence: true
 
   mount_uploader :avatar, AvatarUploader
 
+  before_validation :set_owner, on: :create
   before_validation :unset_member_flag
   before_validation :prep_phone_numbers
   before_validation :set_defaults
@@ -100,6 +108,13 @@ class User < ActiveRecord::Base
   def member
     return nil unless email
     Member.find_by_email(email)
+  end
+
+  def member_or_invite!(inviter)
+    return member if member
+    Member.create_from_user!(self).tap do |new_member|
+      inviter.invitations.create!(invited_member: new_member)
+    end
   end
 
   def blood_pressure
@@ -180,6 +195,10 @@ class User < ActiveRecord::Base
   #############################################################################
 
   private
+
+  def set_owner
+    self.owner ||= self if npi_number.present?
+  end
 
   def member_flag_is_nil
     if instance_of?(User)

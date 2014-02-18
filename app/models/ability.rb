@@ -22,7 +22,9 @@ class Ability
     end
 
     can :manage, Association do |a|
-      user.associations.include?(a) || can?(:manage, a.user)
+      user.associations.include?(a) ||
+      user.inverse_associations.include?(a) ||
+      can?(:manage, a.user)
     end
 
     can :manage, [BloodPressure, UserTreatment, UserAllergy, UserCondition, Weight, Card, Subscription] do |o|

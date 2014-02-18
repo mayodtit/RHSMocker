@@ -216,6 +216,56 @@ describe User do
     end
   end
 
+  describe '#member' do
+    it 'returns nil if the user has no email' do
+      expect(build_stubbed(:user, email: nil).member).to be_nil
+    end
+
+    context 'with an email' do
+      let(:member) { create(:member) }
+      let(:user) { build_stubbed(:user, email: member.email) }
+
+      it 'finds a member with the matching email' do
+        expect(user.member).to eq(member)
+      end
+    end
+  end
+
+  describe '#member_or_invite!' do
+    it 'returns nil if the user has no email' do
+      expect(build_stubbed(:user, email: nil).member).to be_nil
+    end
+
+    context 'with an email' do
+      context 'with a member' do
+        let(:member) { create(:member) }
+        let(:user) { build_stubbed(:user, email: member.email) }
+
+        it 'finds a member with the matching email' do
+          expect(user.member).to eq(member)
+        end
+      end
+
+      context 'without a member' do
+        let!(:inviter) { create(:member) }
+        let(:email) { 'kyle@test.getbetter.com' }
+        let(:user) { build_stubbed(:user, email: email) }
+
+        it 'creates a member' do
+          expect{ user.member_or_invite!(inviter) }.to change(Member, :count).by(1)
+        end
+
+        it 'returns the new member' do
+          expect(user.member_or_invite!(inviter)).to eq(Member.find_by_email!(email))
+        end
+
+        it 'creates an invite for the new member' do
+          expect{ user.member_or_invite!(inviter) }.to change(Invitation, :count).by(1)
+        end
+      end
+    end
+  end
+
   describe 'database constraints' do
     it 'does not prevent duplicate emails' do
       u1 = create(:user)

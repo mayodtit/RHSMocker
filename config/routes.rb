@@ -77,7 +77,9 @@ RHSMocker::Application.routes.draw do
       resources :users, only: [:show, :update, :destroy] do
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
         resources :associates, except: [:new, :edit]
-        resources :associations, :except => [:new, :edit]
+        resources :associations, except: [:new, :edit] do
+          post :invite, on: :member
+        end
         resources :blood_pressures, only: [:index, :create, :destroy]
         resources :credit_cards, :only => :create
         resources :credits, :only => [:index, :show, :create] do
@@ -95,6 +97,7 @@ RHSMocker::Application.routes.draw do
           end
         end
         get :index, on: :collection, to: 'providers#index'
+        resources :inverse_associations, only: [:index, :update, :destroy]
         post 'invite', :on => :member
         resources :cards, :only => [:create, :show, :update] do
           get :inbox, :on => :collection
