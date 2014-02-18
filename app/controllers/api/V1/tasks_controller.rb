@@ -9,6 +9,6 @@ class Api::V1::TasksController < Api::V1::ABaseController
   private
 
   def unread_messages
-    Message.where phone_call_id: nil, scheduled_phone_call_id: nil, unread_by_cp: true
+    Message.where(phone_call_id: nil, scheduled_phone_call_id: nil, unread_by_cp: true).group('consult_id')
   end
 end

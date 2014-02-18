@@ -10,6 +10,7 @@ resource "Tasks" do
   let!(:scheduled_phone_call_message) { create(:message, :with_scheduled_phone_call) }
   let!(:unread_message) { create(:message, text: 'test message', image: 'http://test.com/meme.jpg') }
   let!(:another_unread_message) { create(:message, text: 'test message 2', image: 'http://test.com/meme2.jpg') }
+  let!(:unread_message_same_consult) { create(:message, text: 'test message 2', image: 'http://test.com/meme2.jpg', consult: unread_message.consult) }
   let!(:read_message) { create(:message, text: 'another test message', unread_by_cp: false) }
 
   let(:auth_token) { user.auth_token }

@@ -34,7 +34,12 @@ describe Api::V1::TasksController do
 
   describe '#unread_messages' do
     it 'returns unread messages that are not system messages' do
-      Message.should_receive(:where).with(phone_call_id: nil, scheduled_phone_call_id: nil, unread_by_cp: true)
+      Message.should_receive(:where).with(phone_call_id: nil, scheduled_phone_call_id: nil, unread_by_cp: true) do
+        o = Object.new
+        o.should_receive(:group).with('consult_id')
+        o
+      end
+
       controller.send(:unread_messages)
     end
   end
