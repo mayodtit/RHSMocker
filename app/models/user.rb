@@ -26,8 +26,11 @@ class User < ActiveRecord::Base
   belongs_to :default_hcp_association, class_name: 'Association', foreign_key: :default_hcp_association_id
   has_one :default_hcp, through: :default_hcp_association, source: :associate
 
-  belongs_to :owner, class_name: 'Member',
+  belongs_to :owner, class_name: 'User',
                      inverse_of: :owned_users
+  has_many :owned_users, class_name: 'User',
+                         foreign_key: :owner_id,
+                         inverse_of: :owner
 
   accepts_nested_attributes_for :user_information
   accepts_nested_attributes_for :address
@@ -51,6 +54,7 @@ class User < ActiveRecord::Base
 
   mount_uploader :avatar, AvatarUploader
 
+  before_validation :set_owner, on: :create
   before_validation :unset_member_flag
   before_validation :prep_phone_numbers
   before_validation :set_defaults
@@ -191,6 +195,10 @@ class User < ActiveRecord::Base
   #############################################################################
 
   private
+
+  def set_owner
+    self.owner ||= self if npi_number.present?
+  end
 
   def member_flag_is_nil
     if instance_of?(User)

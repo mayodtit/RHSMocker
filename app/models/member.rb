@@ -23,10 +23,6 @@ class Member < User
                            inverse_of: :claimer,
                            autosave: true
 
-  has_many :owned_users, class_name: 'User',
-                         foreign_key: :owner_id,
-                         inverse_of: :owner
-
   accepts_nested_attributes_for :user_agreements
 
   attr_accessible :install_id, :password, :password_confirmation,
