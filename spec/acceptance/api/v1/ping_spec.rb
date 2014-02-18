@@ -8,6 +8,9 @@ resource "Ping" do
   get '/api/v1/ping' do
     let!(:phone_metadata) { create(:metadata, :mkey => 'phone_number', :mvalue => '5555555555') }
     let!(:version_metadata) { create(:metadata, :mkey => 'current_version', :mvalue => '5000') }
+    let(:version) { '1.0.2' }
+
+    parameter :version, 'client version'
 
     example_request "[GET] Ping the backend" do
       explanation "Ping the backend while unauthenticated"
