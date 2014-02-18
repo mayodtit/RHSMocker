@@ -256,6 +256,18 @@ describe Api::V1::PhoneCallsController do
       assigns(:phas_off_duty).should == false
     end
 
+    it 'sets whether the pha queue is enabled' do
+      controller.stub(:queue_enabled?) { false }
+      do_request
+      assigns(:send_to_queue).should == false
+    end
+
+    it 'sets whether the pha queue is enabled' do
+      controller.stub(:queue_enabled?) { true }
+      do_request
+      assigns(:send_to_queue).should == true
+    end
+
     it 'resolves the phone call and assigns it' do
       PhoneCall.should_receive(:resolve).with('+14083913578', 'CA8f68d3676b5424bde1594cb34235076b')
       do_request

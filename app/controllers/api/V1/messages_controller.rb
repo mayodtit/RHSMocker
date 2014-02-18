@@ -10,7 +10,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
   def create
     create_resource(@consult.messages, message_attributes)
-    send_robot_response!
+    send_robot_response! if send_robot_response?
   end
 
   private
@@ -31,5 +31,9 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     @consult.messages.create(user: Member.robot,
                              text: "We have received your message and your PHA will get back to you shortly. Thank you.",
                              created_at: Time.now + 1.second)
+  end
+
+  def send_robot_response?
+    !(Metadata.find_by_mkey('remove_robot_response').try(:mvalue) == 'true')
   end
 end

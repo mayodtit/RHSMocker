@@ -51,6 +51,11 @@ class PhoneCall < ActiveRecord::Base
     [8553270607, 8553270608]
   end
 
+  def serializable_hash(options = nil)
+    options = {methods: [:to_role_name]} if options.blank?
+    super(options)
+  end
+
   def origin_connected?
     origin_status == CONNECTED_STATUS
   end
@@ -67,6 +72,13 @@ class PhoneCall < ActiveRecord::Base
     to_role.name.to_sym == :pha
   end
 
+  def to_role_name
+    return nil unless to_role
+
+    return to_role.name.upcase if to_role.name == 'pha'
+    return 'Nurseline' if to_role.name == 'nurse'
+  end
+
   def self.accepting_calls_to_pha?
     t = Time.now.in_time_zone('Pacific Time (US & Canada)')
 
@@ -75,8 +87,8 @@ class PhoneCall < ActiveRecord::Base
 
   def initial_state
     return :dialing if outbound?
-    return :unresolved if to_role && to_role.name.to_sym != :nurse
-    :unclaimed
+    return :unclaimed if to_role && to_role.name.to_sym == :nurse
+    :unresolved
   end
 
   def set_to_role

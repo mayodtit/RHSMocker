@@ -83,7 +83,8 @@ describe Api::V1::InvitationsController do
           end
 
           it 'sends an email that the role has been assigned' do
-            UserMailer.should_receive(:assigned_role_email).with(@invited_member, user) do
+            url = 'http://localhost:4567/#/login?next=%2Fsettings%2Fprofile'
+            RHSMailer.should_receive(:assigned_role_email).with(@invited_member.email, @invited_member.salutation, url, user.full_name) do
               o = Object.new
               o.should_receive(:deliver)
               o

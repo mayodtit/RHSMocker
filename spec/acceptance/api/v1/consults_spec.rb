@@ -64,6 +64,7 @@ resource "Consults" do
       body = JSON.parse(response_body, symbolize_names: true)
       consult = Consult.find(body[:consult][:id])
       expect(body[:consult].to_json).to eq(consult.serializer.as_json.to_json)
+      consult.description.should == description
     end
   end
 end

@@ -9,7 +9,8 @@ describe 'PasswordResets' do
     end
 
     it 'sends the user an e-mail with a reset password link and token' do
-      lambda{ do_request }.should change(ActionMailer::Base.deliveries, :size).by(1)
+      UserMailer.should_receive(:reset_password_email).with(user)
+      do_request
     end
   end
 

@@ -6,13 +6,15 @@ class UserMailer < ActionMailer::Base
     from_address.format
   }
 
-  def reset_password_email user
-    @user = user
-    @token = @user.reset_password_token
-    @url = reset_password_users_url(@user.reset_password_token)
-    mail(
-      :to => user.email,
-      :subject => 'Reset Password Instructions for Better')
+  # this method needs to remain since socery doesn't seem to work
+  # when using the RHSMailer class for user.reset_password_mailer
+  def reset_password_email(user)
+    if user.care_provider? then
+      url = "#{CARE_URL_PREFIX}/reset_password/#{user.reset_password_token}"
+    else
+      url = reset_password_users_url(user.reset_password_token)
+    end
+    RHSMailer.reset_password_email(user.email, url).deliver
   end
 
   def invitation_email user, invitor
@@ -21,12 +23,6 @@ class UserMailer < ActionMailer::Base
     @url = invite_url(@user.invitation_token)
     subject = user.care_provider? ? "#{invitor.full_name} invited you to care for patients with Better!" : 'Complete your registration to Better'
     mail(to: user.email, subject: subject)
-  end
-
-  def assigned_role_email user, assignor
-    @assignor = assignor
-    @user = user
-    mail(to: user.email, subject: "#{assignor.full_name} invited you to care for patients with Better!")
   end
 
   def scheduled_phone_call_cp_assigned_email(scheduled_phone_call)
