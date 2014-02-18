@@ -13,10 +13,50 @@ describe Api::V1::PingController do
   describe 'GET index' do
     def do_request
       get :index
-      JSON.parse(response.body).should have_key('use_invite_flow')
     end
 
     it_behaves_like 'success'
+
+    it 'responds with use_invite_flow' do
+      do_request
+      expect(response).to be_success
+      body = JSON.parse(response.body, symbolize_names: true)
+      expect(body).to have_key(:use_invite_flow)
+    end
+
+    describe 'version validity' do
+      it 'defaults to valid' do
+        do_request
+        JSON.parse(response.body).should have_key('use_invite_flow')
+      end
+
+      context 'with valid version' do
+        def do_request
+          get :index, version: '1.0.1'
+        end
+
+        it 'indicates valid to the client' do
+          do_request
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:valid]).to eq(true)
+        end
+      end
+
+      context 'with invalid version' do
+        def do_request
+          get :index, version: '0.0.99'
+        end
+
+        it 'indicates invalid and app_store_url to the client' do
+          do_request
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:valid]).to eq(false)
+          expect(body).to have_key(:app_store_url)
+        end
+      end
+    end
 
     context 'with an auth_token' do
       def do_request
