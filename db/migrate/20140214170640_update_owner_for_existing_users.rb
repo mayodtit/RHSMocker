@@ -5,15 +5,18 @@ class UpdateOwnerForExistingUsers < ActiveRecord::Migration
       member.update_attribute(:owner, member)
     end
 
-    # all users with a single inverse_association are owned by the
-    # association's originating user
-    associate_ids = User.joins(:inverse_associations)
-                        .where("users.type != 'Member'")
-                        .group(:associate_id)
-                        .count.reject{|k,v| v != 1}.keys
-    Association.where(associate_id: associate_ids)
-               .includes(:associate).each do |association|
-      association.associate.update_attribute(:owner_id, association.user_id)
+    # all hcp associations own themselves
+    User.joins(:inverse_associations => :association_type)
+        .readonly(false)
+        .where(:association_types => {relationship_type: :hcp}).each do |user|
+      user.update_attribute(:owner, user)
+    end
+
+    # all family member associates are owned by the origin user
+    Association.joins(:association_type)
+               .readonly(false)
+               .where(association_types: {relationship_type: :family}).each do |association|
+      association.associate.update_attribute(:owner, association.user)
     end
 
     # all remaining users own themselves
@@ -23,5 +26,6 @@ class UpdateOwnerForExistingUsers < ActiveRecord::Migration
   end
 
   def down
+    User.update_all(:owner_id => nil)
   end
 end
