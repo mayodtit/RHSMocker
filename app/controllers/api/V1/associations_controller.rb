@@ -43,7 +43,13 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   def convert_parameters!
     params.require(:association)[:creator_id] = current_user.id unless @association
     if params.require(:association).try(:[], :associate).try(:[], :npi_number)
-      params[:association][:associate] = provider_user
+      if provider = User.find_by_npi_number(params[:association][:associate][:npi_number])
+        params[:association].except!(:associate)
+        params[:association][:associate_id] = provider.id
+      else
+        params[:association][:associate] = provider_from_search
+        params[:association].change_key!(:associate, :associate_attributes)
+      end
     elsif params.require(:association)[:associate]
       params[:association].change_key!(:associate, :associate_attributes)
       params[:association][:associate_attributes][:owner_id] ||= current_user.id
@@ -51,12 +57,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
     end
   end
 
-  def provider_user
-    User.find_by_npi_number(params[:association][:associate][:npi_number]) ||
-    build_provider_from_search
-  end
-
-  def build_provider_from_search
+  def provider_from_search
     result = search_service.find(params[:association][:associate]).tap do |attributes|
       # TODO: (TS) Pay off this debt - manually adding work_phone_number here is a hack.
       # This should belong in a model somewhere, or at the very least spec-ed, as this can be easily lost
@@ -64,7 +65,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
       # Pivotal: https://www.pivotaltracker.com/story/show/64260740
       attributes.merge!(phone: attributes[:address][:phone])
     end
-    User.new(result)
+    PermittedParams.new(ActionController::Parameters.new(user: result), current_user).user
   end
 
   def search_service

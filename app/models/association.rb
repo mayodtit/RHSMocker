@@ -1,5 +1,5 @@
 class Association < ActiveRecord::Base
-  belongs_to :user
+  belongs_to :user, inverse_of: :associations
   belongs_to :associate, class_name: 'User'
   belongs_to :creator, class_name: 'User'
   belongs_to :association_type
@@ -48,7 +48,11 @@ class Association < ActiveRecord::Base
   end
 
   def initial_state
-    (creator_id == user_id) ? :enabled : :pending
+    if !associate.persisted? || (creator_id == user_id) || associate.npi_number.present?
+      :enabled
+    else
+      :pending
+    end
   end
 
   protected
@@ -74,7 +78,7 @@ class Association < ActiveRecord::Base
   end
 
   def build_related_associations
-    return if creator_id == user_id
+    return if !associate.persisted? || (creator_id == user_id) || associate.npi_number.present?
     transaction do
       self.class.where(user_id: creator_id, associate_id: user_id).first.invite!
       return if replacement || (user == user.member)
