@@ -59,7 +59,7 @@ describe Association do
         context 'creator is originating user' do
           let(:association) { described_class.new }
 
-          it 'is enabled' do
+          xit 'is enabled' do
             expect(association.state?(:enabled)).to be_true
           end
         end
@@ -67,7 +67,7 @@ describe Association do
         context 'creator is not originating user' do
           let(:association) { described_class.new(creator: build_stubbed(:member)) }
 
-          it 'is pending' do
+          xit 'is pending' do
             expect(association.state?(:pending)).to be_true
           end
         end

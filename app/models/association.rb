@@ -48,7 +48,7 @@ class Association < ActiveRecord::Base
   end
 
   def initial_state
-    if !associate.persisted? || (creator_id == user_id) || associate.npi_number.present?
+    if !associate || !associate.persisted? || (creator_id == user_id) || associate.npi_number.present?
       :enabled
     else
       :pending
