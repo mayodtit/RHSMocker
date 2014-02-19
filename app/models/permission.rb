@@ -11,11 +11,17 @@ class Permission < ActiveRecord::Base
   validates :name, uniqueness: {scope: :subject_id}
   validate :basic_info_is_view_or_edit
 
+  before_validation :set_user, on: :create
+
   private
 
   def basic_info_is_view_or_edit
     if (name == :basic_info) && (level == :none)
       errors.add(:level, 'must be at least view for basic_info')
     end
+  end
+
+  def set_user
+    self.user ||= subject.associate
   end
 end
