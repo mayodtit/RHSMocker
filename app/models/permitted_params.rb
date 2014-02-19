@@ -16,6 +16,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:association).permit(*association_attributes)
   end
 
+  def permission
+    params.require(:permission).permit(*permission_attributes)
+  end
+
   private
 
   def user_params
@@ -81,5 +85,9 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
         attributes << {associate_attributes: user_attributes.concat([:owner, :owner_id])}
       end
     end
+  end
+
+  def permission_attributes
+    [:name, :level]
   end
 end

@@ -27,6 +27,10 @@ class Ability
       can?(:manage, a.user)
     end
 
+    can :manage, Permission do |p|
+      user.id == p.user_id
+    end
+
     can :manage, [BloodPressure, UserTreatment, UserAllergy, UserCondition, Weight, Card, Subscription] do |o|
       (user.id == o.user_id) || (can?(:manage, o.user))
     end

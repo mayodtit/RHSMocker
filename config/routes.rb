@@ -7,6 +7,9 @@ RHSMocker::Application.routes.draw do
         get :current, on: :collection
       end
       resources :allergies, :only => :index
+      resources :associations, only: [] do
+        resources :permissions, only: %i(index create update destroy)
+      end
       resources :association_types, :only => :index
       resources :contents, :only => [:index, :show] do
         resources :references, only: [:index, :create, :destroy], controller: 'content_references'
