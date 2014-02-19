@@ -13,7 +13,8 @@ class Message < ActiveRecord::Base
                   :phone_call_summary, :phone_call_summary_id, :text, :image,
                   :phone_call_attributes, :scheduled_phone_call_attributes,
                   :phone_call_summary_attributes,
-                  :created_at # for robot auto-response message
+                  :created_at, # for robot auto-response message
+                  :unread_by_cp
 
   validates :user, :consult, presence: true
   validates :content, presence: true, if: lambda{|m| m.content_id}
@@ -21,8 +22,21 @@ class Message < ActiveRecord::Base
   validates :scheduled_phone_call, presence: true, if: lambda{|m| m.scheduled_phone_call_id}
   validates :phone_call_summary, presence: true, if: lambda{|m| m.phone_call_summary_id}
 
+  before_validation :set_unread_by_cp, on: :create
+
   accepts_nested_attributes_for :phone_call
   accepts_nested_attributes_for :scheduled_phone_call
   accepts_nested_attributes_for :phone_call_summary
   mount_uploader :image, MessageImageUploader
+
+  def set_unread_by_cp
+    return unless unread_by_cp.nil?
+
+    if phone_call_id || scheduled_phone_call_id
+      self.unread_by_cp = false
+      return
+    end
+
+    self.unread_by_cp = true
+  end
 end

@@ -22,7 +22,13 @@ class Ability
     end
 
     can :manage, Association do |a|
-      user.associations.include?(a) || can?(:manage, a.user)
+      user.associations.include?(a) ||
+      user.inverse_associations.include?(a) ||
+      can?(:manage, a.user)
+    end
+
+    can :manage, Permission do |p|
+      user.id == p.user_id
     end
 
     can :manage, [BloodPressure, UserTreatment, UserAllergy, UserCondition, Weight, Card, Subscription] do |o|
@@ -58,8 +64,9 @@ class Ability
       end
     end
 
-    if user.pha? || user.pha_lead?
+    if user.pha?
       can :manage, User
+      can :manage, Member
 
       can :ru, PhoneCall do |o|
         o.to_pha?
@@ -75,6 +82,12 @@ class Ability
 
     if user.pha_lead?
       can :manage, ScheduledPhoneCall
+    end
+
+    if user.care_provider?
+      can :manage, Consult
+      can :ru, Member
+      can :index, Message
     end
   end
 end

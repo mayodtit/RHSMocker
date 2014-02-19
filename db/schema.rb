@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140206172815) do
+ActiveRecord::Schema.define(:version => 20140218225724) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -65,6 +65,10 @@ ActiveRecord::Schema.define(:version => 20140206172815) do
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
     t.integer  "association_type_id"
+    t.string   "state"
+    t.integer  "replacement_id"
+    t.integer  "pair_id"
+    t.integer  "creator_id"
   end
 
   add_index "associations", ["user_id"], :name => "index_associations_on_user_id"
@@ -307,9 +311,11 @@ ActiveRecord::Schema.define(:version => 20140206172815) do
     t.integer  "phone_call_id"
     t.string   "image"
     t.integer  "phone_call_summary_id"
+    t.boolean  "unread_by_cp"
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
+  add_index "messages", ["unread_by_cp"], :name => "index_messages_on_unread_by_cp"
 
   create_table "metadata", :force => true do |t|
     t.string   "mkey",       :null => false
@@ -328,6 +334,15 @@ ActiveRecord::Schema.define(:version => 20140206172815) do
 
   create_table "offerings", :force => true do |t|
     t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "permissions", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "subject_id"
+    t.string   "name"
+    t.string   "level"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -694,6 +709,8 @@ ActiveRecord::Schema.define(:version => 20140206172815) do
     t.string   "nickname"
     t.integer  "default_hcp_association_id"
     t.boolean  "member_flag"
+    t.string   "provider_taxonomy_code"
+    t.integer  "owner_id"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true

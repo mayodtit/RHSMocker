@@ -23,6 +23,8 @@ class Consult < ActiveRecord::Base
   validates :initiator, :subject, :state, :title, presence: true
   validates :symptom, presence: true, if: lambda{|c| c.symptom_id.present? }
 
+  before_validation :strip_attributes
+
   accepts_nested_attributes_for :messages
   mount_uploader :image, ConsultImageUploader
 

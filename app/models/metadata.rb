@@ -17,4 +17,8 @@ class Metadata < ActiveRecord::Base
   def self.use_invite_flow?
     Metadata.find_by_mkey('use_invite_flow').try(:mvalue) == 'true'
   end
+
+  def self.value_for_key(key)
+    find_by_mkey(key).try(:value)
+  end
 end

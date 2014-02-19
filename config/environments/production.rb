@@ -64,8 +64,8 @@ RHSMocker::Application.configure do
   # config.action_mailer.raise_delivery_errors = false
 
   # Set Mailer Host
+  key = '3yyOASxVdGz4sAAyi11iKQ'
   config.action_mailer.perform_deliveries = true
-
   config.action_mailer.default_url_options = { :host => 'api.getbetter.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
@@ -73,10 +73,11 @@ RHSMocker::Application.configure do
     :port                 => 587,
     :domain               => 'api.getbetter.com',
     :user_name            => 'engineering@getbetter.com',
-    :password             => '3yyOASxVdGz4sAAyi11iKQ',
+    :password             => key,
     :authentication       => :plain,
     :enable_starttls_auto => true
   }
+  MandrillMailer.configure { |config| config.api_key = key }
 
   # Enable threaded mode
   # config.threadsafe!

@@ -3,7 +3,7 @@ class User < ActiveRecord::Base
 
   rolify
 
-  has_many :associations, :dependent => :destroy
+  has_many :associations, dependent: :destroy, inverse_of: :user
   has_many :associates, :through=>:associations
   has_many :inverse_associations, :class_name => 'Association', :foreign_key => 'associate_id'
   has_many :inverse_associates, :through => :inverse_associations, :source => :user
@@ -26,6 +26,12 @@ class User < ActiveRecord::Base
   belongs_to :default_hcp_association, class_name: 'Association', foreign_key: :default_hcp_association_id
   has_one :default_hcp, through: :default_hcp_association, source: :associate
 
+  belongs_to :owner, class_name: 'User',
+                     inverse_of: :owned_users
+  has_many :owned_users, class_name: 'User',
+                         foreign_key: :owner_id,
+                         inverse_of: :owner
+
   accepts_nested_attributes_for :user_information
   accepts_nested_attributes_for :address
   accepts_nested_attributes_for :insurance_policy
@@ -35,7 +41,8 @@ class User < ActiveRecord::Base
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
                   :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data,
                   :user_information_attributes, :address_attributes, :insurance_policy_attributes,
-                  :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id
+                  :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id,
+                  :provider_taxonomy_code, :owner, :owner_id
 
   validate :member_flag_is_nil
   validates :deceased, :inclusion => {:in => [true, false]}
@@ -43,18 +50,34 @@ class User < ActiveRecord::Base
   validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_blank: true
   validates :phone, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
   validates :work_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
+  validates :owner, presence: true
 
   mount_uploader :avatar, AvatarUploader
 
+  before_validation :set_owner, on: :create
   before_validation :unset_member_flag
   before_validation :prep_phone_numbers
   before_validation :set_defaults
   before_create :create_google_analytics_uuid
 
-  # TODO - I think this should be moved to Member, needs investigation
   def full_name
-    return email if first_name.blank? || last_name.blank?
-    "#{first_name} #{last_name}".strip
+    if last_name.present?
+      if first_name.present?
+        return "#{first_name} #{last_name}"
+      end
+
+      if gender == 'M'
+        return "Mr. #{last_name}"
+      elsif gender == 'F'
+        return "Ms. #{last_name}"
+      end
+
+      return "Mr./Ms. #{last_name}"
+    elsif first_name.present?
+      return first_name
+    end
+
+    email
   end
 
   def salutation
@@ -73,8 +96,9 @@ class User < ActiveRecord::Base
   BASE_OPTIONS = {:only => [:id, :first_name, :last_name, :birth_date, :blood_type,
                             :diet_id, :email, :ethnic_group_id, :gender, :height,
                             :deceased, :date_of_death, :npi_number, :expertise,
-                            :phone, :nickname, :city, :state, :work_phone_number],
-                  :methods => [:blood_pressure, :avatar_url, :weight, :admin?, :nurse?, :pha?, :pha_lead?, :care_provider?, :ethnic_group, :diet]}
+                            :phone, :nickname, :city, :state, :work_phone_number, :provider_taxonomy_code],
+                  :methods => [:blood_pressure, :avatar_url, :weight, :admin?, :nurse?, :pha?, :pha_lead?,
+                               :care_provider?, :ethnic_group, :diet, :full_name, :taxonomy_classification]}
 
   def serializable_hash(options = nil)
     options = BASE_OPTIONS if options.blank?
@@ -86,12 +110,23 @@ class User < ActiveRecord::Base
     Member.find_by_email(email)
   end
 
+  def member_or_invite!(inviter)
+    return member if member
+    Member.create_from_user!(self).tap do |new_member|
+      inviter.invitations.create!(invited_member: new_member)
+    end
+  end
+
   def blood_pressure
     blood_pressures.most_recent
   end
 
   def weight
     weights.most_recent
+  end
+
+  def taxonomy_classification
+    provider_taxonomy_code.nil? ? nil : HCPTaxonomy.get_classification_by_hcp_code(provider_taxonomy_code)
   end
 
   def avatar_url
@@ -160,6 +195,10 @@ class User < ActiveRecord::Base
   #############################################################################
 
   private
+
+  def set_owner
+    self.owner ||= self if npi_number.present?
+  end
 
   def member_flag_is_nil
     if instance_of?(User)

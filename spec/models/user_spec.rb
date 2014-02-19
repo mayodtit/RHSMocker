@@ -23,6 +23,89 @@ describe User do
     expect(user).to_not be_valid
   end
 
+  describe '#full_name' do
+    let(:user) { build(:user) }
+
+
+    context 'last_name is present' do
+      before do
+        user.stub(:last_name) { 'Smith' }
+      end
+
+      context 'first_name is present' do
+        before do
+          user.stub(:first_name) { 'John' }
+        end
+
+        it 'returns first + last name' do
+          user.full_name.should == 'John Smith'
+        end
+      end
+
+      context 'first_name is not present' do
+        before do
+          user.stub(:first_name) { '' }
+        end
+
+        context 'gender is male' do
+          before do
+            user.stub(:gender) { 'M' }
+          end
+
+          it 'returns Mr.' do
+            user.full_name.should == 'Mr. Smith'
+          end
+        end
+
+        context 'gender is female' do
+          before do
+            user.stub(:gender) { 'F' }
+          end
+
+          it 'returns Mr.' do
+            user.full_name.should == 'Ms. Smith'
+          end
+        end
+
+        context 'gender is not known' do
+          before do
+            user.stub(:gender) { nil }
+          end
+
+          it 'returns Mr./Ms.' do
+            user.full_name.should == 'Mr./Ms. Smith'
+          end
+        end
+      end
+    end
+
+    context 'last_name is not present' do
+      before do
+        user.stub(:last_name) { '' }
+      end
+
+      context 'first_name is present' do
+        before do
+          user.stub(:first_name) { 'John' }
+        end
+
+        it 'returns first_name' do
+          user.full_name.should == user.first_name
+        end
+      end
+
+      context 'first_name is not present' do
+        before do
+          user.stub(:first_name) { '' }
+        end
+
+        it 'returns email' do
+          user.full_name.should == user.email
+        end
+      end
+    end
+  end
+
   describe '#salutation' do
     context 'user has no first name' do
       it "should return 'there'" do
@@ -130,6 +213,56 @@ describe User do
 
       # attemtping to remove content that isn't liked should not raise errors
       expect { u1.remove_content_like(c2.id) }.to_not raise_error
+    end
+  end
+
+  describe '#member' do
+    it 'returns nil if the user has no email' do
+      expect(build_stubbed(:user, email: nil).member).to be_nil
+    end
+
+    context 'with an email' do
+      let(:member) { create(:member) }
+      let(:user) { build_stubbed(:user, email: member.email) }
+
+      it 'finds a member with the matching email' do
+        expect(user.member).to eq(member)
+      end
+    end
+  end
+
+  describe '#member_or_invite!' do
+    it 'returns nil if the user has no email' do
+      expect(build_stubbed(:user, email: nil).member).to be_nil
+    end
+
+    context 'with an email' do
+      context 'with a member' do
+        let(:member) { create(:member) }
+        let(:user) { build_stubbed(:user, email: member.email) }
+
+        it 'finds a member with the matching email' do
+          expect(user.member).to eq(member)
+        end
+      end
+
+      context 'without a member' do
+        let!(:inviter) { create(:member) }
+        let(:email) { 'kyle@test.getbetter.com' }
+        let(:user) { build_stubbed(:user, email: email) }
+
+        it 'creates a member' do
+          expect{ user.member_or_invite!(inviter) }.to change(Member, :count).by(1)
+        end
+
+        it 'returns the new member' do
+          expect(user.member_or_invite!(inviter)).to eq(Member.find_by_email!(email))
+        end
+
+        it 'creates an invite for the new member' do
+          expect{ user.member_or_invite!(inviter) }.to change(Invitation, :count).by(1)
+        end
+      end
     end
   end
 

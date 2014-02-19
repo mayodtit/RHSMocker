@@ -26,6 +26,14 @@ module ActiveRecordExtension
     validate_timestamp_exists(event)
   end
 
+  def strip_attributes
+    attribute_names.each do |name|
+      if send(name).respond_to?(:strip)
+        send("#{name}=", send(name).strip)
+      end
+    end
+  end
+
   module ClassMethods
     def upsert_attributes(key_params, value_params={})
       where(key_params).first_or_initialize.tap{|o| o.update_attributes(value_params)}

@@ -65,8 +65,9 @@ class Search::Service::Bloom
       :state => p['state'],         # this line left in for backwards compatibility
       :expertise => record['credential'],
       :gender => record['gender'],
-      :healthcare_taxonomy_code => hcp_code,
-      :taxonomy_classification => HCPTaxonomy.find_by_code(hcp_code).try(:classification)
+      :healthcare_taxonomy_code => hcp_code, # this line left in for backwards compabitility
+      :provider_taxonomy_code => hcp_code,
+      :taxonomy_classification => HCPTaxonomy.get_classification_by_hcp_code(hcp_code)
     }
   end
 

@@ -60,7 +60,7 @@ resource 'Users' do
         response = JSON.parse(response_body, :symbolize_names => true)
         new_user = User.find(response[:user][:id])
         response[:auth_token].should == new_user.auth_token
-        response[:user].to_json.should == new_user.as_json.to_json
+        response[:user].to_json.should == new_user.serializer.as_json.to_json
       end
     end
   end
@@ -81,9 +81,9 @@ resource 'Users' do
 
     example_request "[PUT] Update the current_user's secure attributes" do
       explanation "Updates the current_user's email or password"
-      expect(status).to be(200)
+      expect(status).to eq(200)
       body = JSON.parse(response_body, symbolize_names: true)
-      expect(body[:user].to_json).to eq(user.reload.as_json.to_json)
+      expect(body[:user].to_json).to eq(user.reload.serializer.as_json.to_json)
       expect(user.email).to eq(email)
     end
   end
@@ -130,7 +130,7 @@ resource 'Users' do
         explanation "Update attributes for currently logged in user (as identified by auth_token). Can pass additional user fields, such as first_name, gender, birth_date, etc.  Returns the updated user"
         status.should == 200
         response = JSON.parse(response_body, :symbolize_names => true)[:user]
-        response.to_json.should == user.reload.as_json.to_json
+        response.to_json.should == user.reload.serializer.as_json.to_json
         response[:avatar_url].should_not be_nil # check for nil avatar in 'update specific user' spec
       end
     end
@@ -157,7 +157,11 @@ resource 'Users' do
     parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
     parameter :deceased, "Boolean, is the user deceased"
     parameter :date_of_death, "If the user is deceased, when did they die"
-    scope_parameters :user, [:email, :first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
+    parameter :provider_taxonomy_code, "Associate's healthcare provider taxonomy code"
+    scope_parameters :user, [:email, :first_name, :last_name, :avatar, :gender,
+                             :height, :birth_date, :phone, :ethnic_group_id,
+                             :diet_id, :blood_type, :holds_phone_in, :deceased,
+                             :date_of_death, :provider_taxonomy_code]
     required_parameters :auth_token, :id
 
     put '/api/v1/user/:id' do
@@ -174,6 +178,7 @@ resource 'Users' do
       let(:diet_id) { 1 }
       let(:blood_type) { "B-positive" }
       let(:deceased) { false }
+      let(:provider_taxonomy_code) { 'abcde' }
       let(:raw_post) { params.to_json }
       # purposely don't include avatar
 
@@ -181,7 +186,7 @@ resource 'Users' do
         explanation "Update attributes for the specified user, if the currently logged in user has permission to do so"
         status.should == 200
         response = JSON.parse(response_body, :symbolize_names => true)[:user]
-        response.to_json.should == associate.reload.as_json.to_json
+        response.to_json.should == associate.reload.serializer.as_json.to_json
         response.keys.should include(:avatar_url)
         response[:avatar_url].should be_nil # check for non_nil avatar in 'update user' spec
       end
@@ -199,7 +204,7 @@ resource 'Users' do
         explanation 'Get the current user\'s info'
         status.should == 200
         response = JSON.parse(response_body, :symbolize_names => true)
-        response[:user].to_json.should == user.as_json.to_json
+        response[:user].to_json.should == user.serializer.as_json.to_json
       end
     end
   end

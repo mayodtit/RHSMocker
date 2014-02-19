@@ -64,8 +64,9 @@ RHSMocker::Application.configure do
   # config.action_mailer.raise_delivery_errors = false
 
   # Set Mailer Host
+  #key = 'aRKoZlErlMFoJoxG_gfXog' # test key - emails will reach Mandrill but not be delivered
+  key = 'oEthdp6-9FB4oL39GgHFmQ' # live key - emails will reach recipient
   config.action_mailer.perform_deliveries = true
-
   config.action_mailer.default_url_options = { :host => 'api-dev.getbetter.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
@@ -73,11 +74,11 @@ RHSMocker::Application.configure do
     :port                 => 587,
     :domain               => 'api-dev.getbetter.com',
     :user_name            => 'engineering@getbetter.com',
-    #:password             => 'aRKoZlErlMFoJoxG_gfXog', # test key - emails will reach Mandrill but not be delivered
-    :password             => 'oEthdp6-9FB4oL39GgHFmQ', # live key - emails will reach recipient
+    :password             => key,
     :authentication       => :plain,
     :enable_starttls_auto => true
   }
+  MandrillMailer.configure { |config| config.api_key = key }
 
   # Enable threaded mode
   # config.threadsafe!
