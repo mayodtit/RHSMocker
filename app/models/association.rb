@@ -10,6 +10,8 @@ class Association < ActiveRecord::Base
                      inverse_of: :replacement
   belongs_to :pair, class_name: 'Association',
                     dependent: :destroy
+  has_many :permissions, foreign_key: :subject_id,
+                         dependent: :destroy
 
   attr_accessor :default_hcp
   attr_accessible :user, :user_id, :associate, :associate_id,

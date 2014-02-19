@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'rspec_api_documentation/dsl'
 
-resource "WaitlistEntries" do
+resource "InverseAssociations" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
