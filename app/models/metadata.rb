@@ -19,6 +19,6 @@ class Metadata < ActiveRecord::Base
   end
 
   def self.value_for_key(key)
-    find_by_mkey(key).try(:value)
+    find_by_mkey(key).try(:mvalue)
   end
 end
