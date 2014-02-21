@@ -41,6 +41,9 @@ class RHSMailer < MandrillMailer::TemplateMailer
       from_name: spc.owner.full_name,
       to: { email: spc.user.email },
       template: t,
+      headers: {
+        'Reply-To' => 'premium@getbetter.com'
+      },
       vars: {
         PHONENUM: spc.callback_phone_number
       },
