@@ -72,4 +72,13 @@ resource "Permissions" do
       expect(body[:permission].to_json).to eq(permission.as_json.to_json)
     end
   end
+
+  get '/api/v1/permissions/available' do
+    example_request '[GET] Get available permissions settings' do
+      explanation 'Retrieve information about available permissions'
+      expect(status).to eq(200)
+      body = JSON.parse(response_body, symbolize_names: true)
+      expect(body).to_not be_empty
+    end
+  end
 end

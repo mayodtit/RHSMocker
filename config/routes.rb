@@ -51,6 +51,9 @@ RHSMocker::Application.routes.draw do
       end
       resources :offerings, :only => :index
       post :password_resets, to: 'reset_password#create' # TODO - deprecated!
+      resources :permissions, only: [] do
+        get :available, on: :collection
+      end
       resources :phone_call_summaries, :only => :show
       resources :ping, :only => :index
       resources :plans, :only => [:index, :show]
