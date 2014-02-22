@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140221193859) do
+ActiveRecord::Schema.define(:version => 20140221215225) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -435,6 +435,13 @@ ActiveRecord::Schema.define(:version => 20140221193859) do
     t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "provider_profiles", :force => true do |t|
+    t.integer  "npi_number"
+    t.string   "taxonomy_code", :limit => 10
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
   end
 
   create_table "providers", :force => true do |t|
