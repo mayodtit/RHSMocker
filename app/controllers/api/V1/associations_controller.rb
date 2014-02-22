@@ -32,7 +32,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   private
 
   def load_associations!
-    @associations = @user.associations.enabled
+    @associations = Association.for_user_id_or_associate_id(@user.id).enabled
   end
 
   def load_association!

@@ -22,6 +22,17 @@ describe Association do
     expect(association.errors[:creator_id]).to include('cannot be changed')
   end
 
+  describe '::for_user_id_or_associate_id' do
+    let!(:user) { create(:member) }
+    let!(:association) { create(:association, user: user) }
+    let!(:inverse_association) { create(:association, associate: user) }
+
+    it 'returns records for both user_id and associate_id' do
+      results = described_class.for_user_id_or_associate_id(user.id)
+      expect(results).to include(association, inverse_association)
+    end
+  end
+
   describe '#invite!' do
     context 'without a Member' do
       let(:owner) { create(:member) }

@@ -34,6 +34,10 @@ class Association < ActiveRecord::Base
 
   accepts_nested_attributes_for :associate
 
+  def self.for_user_id_or_associate_id(user_id)
+    where('user_id = ? OR associate_id = ?', user_id, user_id)
+  end
+
   def self.enabled
     where(state: :enabled)
   end
