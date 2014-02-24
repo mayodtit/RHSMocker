@@ -1,7 +1,8 @@
 FactoryGirl.define do
   factory :permission do
     association :subject, factory: :association
-    name :basic_info
-    level :edit
+    basic_info :edit
+    medical_info :edit
+    care_team :edit
   end
 end
