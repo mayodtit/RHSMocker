@@ -99,9 +99,9 @@ class Association < ActiveRecord::Base
   end
 
   def create_default_permission
-    self.permission = create_permission(basic_info: :edit,
-                                        medical_info: :edit,
-                                        care_team: :edit)
+    self.permission ||= create_permission(basic_info: :edit,
+                                          medical_info: :edit,
+                                          care_team: :edit)
   end
 
   def invited?
