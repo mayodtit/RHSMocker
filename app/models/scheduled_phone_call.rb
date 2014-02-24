@@ -26,6 +26,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
   accepts_nested_attributes_for :message
 
   validates :scheduled_at, presence: true
+  validates :user, presence: true, if: lambda{|spc| spc.user_id}
   validate :attrs_for_states
   validates :callback_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
 
