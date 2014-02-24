@@ -3,9 +3,12 @@ class Permission < ActiveRecord::Base
 
   attr_accessible :subject, :subject_id, :basic_info, :medical_info, :care_team
 
-  symbolize :basic_info, in: %i(view edit)
-  symbolize :medical_info, in: %i(none view edit)
-  symbolize :care_team, in: %i(none view edit)
+  BASIC_INFO_LEVELS = %i(view edit)
+  symbolize :basic_info, in: BASIC_INFO_LEVELS
+  MEDICAL_INFO_LEVELS = %i(none view edit)
+  symbolize :medical_info, in: MEDICAL_INFO_LEVELS
+  CARE_TEAM_LEVELS = %i(none view edit)
+  symbolize :care_team, in: CARE_TEAM_LEVELS
 
   validates :subject, presence: true
   validates :subject_id, uniqueness: true
