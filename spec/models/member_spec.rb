@@ -4,6 +4,7 @@ describe Member do
   let(:member) { build_stubbed :member }
 
   it_has_a 'valid factory'
+  it_validates 'foreign key of', :pha
 
   it 'validates member flag is true' do
     member.stub(:set_member_flag)
