@@ -28,7 +28,7 @@ class UserMailer < ActionMailer::Base
   def scheduled_phone_call_cp_assigned_email(scheduled_phone_call)
     @scheduled_phone_call = scheduled_phone_call
     attachments['event.ics'] = {:mime_type => 'text/calendar', :content => @scheduled_phone_call.owner_assigned_calendar_event.export}
-    mail(to: @scheduled_phone_call.owner .email, subject: 'ASSIGNED - Welcome Call')
+    mail(to: @scheduled_phone_call.owner.email, subject: 'ASSIGNED - Welcome Call')
   end
 
   def scheduled_phone_call_cp_confirmation_email(scheduled_phone_call)
