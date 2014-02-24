@@ -8,6 +8,7 @@ describe Association do
   it_validates 'presence of', :user
   it_validates 'presence of', :associate
   it_validates 'presence of', :creator
+  it_validates 'presence of', :permission
   it_validates 'uniqueness of', :associate_id, :user_id, :association_type_id
   it_validates 'foreign key of', :replacement
   it_validates 'foreign key of', :pair
@@ -20,6 +21,22 @@ describe Association do
     expect(association.update_attributes(creator: create(:member))).to be_false
     expect(association).to_not be_valid
     expect(association.errors[:creator_id]).to include('cannot be changed')
+  end
+
+  describe 'callbacks' do
+    describe '#create_default_permission' do
+      it 'creates defaults on create' do
+        expect{ create(:association) }.to change(Permission, :count).by(1)
+      end
+
+      it 'creates the permission for the association' do
+        association = create(:association)
+        permission = association.permission
+        expect(permission).to be_persisted
+        expect(permission.reload.subject).to eq(association)
+        expect(association.reload.permission).to eq(permission)
+      end
+    end
   end
 
   describe '::for_user_id_or_associate_id' do

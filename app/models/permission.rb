@@ -1,5 +1,5 @@
 class Permission < ActiveRecord::Base
-  belongs_to :subject, class_name: 'Association'
+  belongs_to :subject, class_name: 'Association', inverse_of: :permission
 
   attr_accessible :subject, :subject_id, :basic_info, :medical_info, :care_team
 

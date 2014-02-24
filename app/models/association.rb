@@ -11,7 +11,8 @@ class Association < ActiveRecord::Base
   belongs_to :pair, class_name: 'Association',
                     dependent: :destroy
   has_one :permission, foreign_key: :subject_id,
-                       dependent: :destroy
+                       dependent: :destroy,
+                       inverse_of: :subject
 
   attr_accessor :default_hcp
   attr_accessible :user, :user_id, :associate, :associate_id,
@@ -21,14 +22,16 @@ class Association < ActiveRecord::Base
                   :replacement_id, :original, :state_event, :state, :pair,
                   :pair_id
 
-  validates :user, :associate, :creator, presence: true
+  validates :user, :associate, :creator, :permission, presence: true
   validates :associate_id, uniqueness: {scope: [:user_id, :association_type_id]}
   validates :replacement, presence: true, if: lambda{|a| a.replacement_id}
   validates :pair, presence: true, if: lambda{|a| a.pair_id}
   validate :user_is_not_associate
   validate :creator_id_not_changed
+  validates_associated :permission
 
   before_validation :build_related_associations, on: :create
+  before_validation :create_default_permission, on: :create
   after_save :add_user_default_hcp
   before_destroy :remove_user_default_hcp
 
@@ -93,6 +96,12 @@ class Association < ActiveRecord::Base
                                                         creator_id: creator_id,
                                                         state: 'pending'))
     end
+  end
+
+  def create_default_permission
+    self.permission = create_permission(basic_info: :edit,
+                                        medical_info: :edit,
+                                        care_team: :edit)
   end
 
   def invited?
