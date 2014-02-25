@@ -5,11 +5,11 @@ class PermissionSerializer < ActiveModel::Serializer
              :levels, :display_names, :created_at, :updated_at
 
   def levels
-    [
+    {
       basic_info: Permission::BASIC_INFO_LEVELS,
       medical_info: Permission::MEDICAL_INFO_LEVELS,
       care_team: Permission::CARE_TEAM_LEVELS
-    ]
+    }
   end
 
   def display_names
