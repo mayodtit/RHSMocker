@@ -8,7 +8,7 @@ resource "Permissions" do
   let(:user) { create(:member) }
   let(:auth_token) { user.auth_token }
   let!(:association) { create(:association, associate: user) }
-  let!(:permission) { create(:permission, subject: association) }
+  let!(:permission) { association.permission }
   let(:id) { association.id }
 
   parameter :auth_token, "User's auth_token"

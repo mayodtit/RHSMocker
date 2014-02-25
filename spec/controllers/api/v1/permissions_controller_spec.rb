@@ -2,8 +2,8 @@ require 'spec_helper'
 
 describe Api::V1::PermissionsController do
   let(:user) { build_stubbed(:admin) }
-  let(:permission) { build_stubbed(:permission) }
-  let(:association) { permission.subject }
+  let(:association) { build_stubbed(:association) }
+  let(:permission) { build_stubbed(:permission, subject: association) }
   let(:ability) { Object.new.extend(CanCan::Ability) }
 
   before do

@@ -4,7 +4,7 @@ describe 'Permissions' do
   context 'inverse association' do
     let!(:user) { create(:member) }
     let!(:association) { create(:association, associate: user) }
-    let!(:permission) { create(:permission, subject: association) }
+    let!(:permission) { association.permission }
 
     describe 'GET /api/v1/associations/:association_id/permission' do
       def do_request
@@ -38,7 +38,7 @@ describe 'Permissions' do
     let!(:user) { create(:member) }
     let!(:associate) { create(:user, owner: user) }
     let!(:association) { create(:association, associate: user) }
-    let!(:permission) { create(:permission, subject: association) }
+    let!(:permission) { association.permission }
 
     describe 'GET /api/v1/associations/:association_id/permission' do
       def do_request
