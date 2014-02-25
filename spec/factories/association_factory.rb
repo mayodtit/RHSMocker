@@ -17,5 +17,9 @@ FactoryGirl.define do
     trait :member_associate do
       association :associate, factory: :member
     end
+
+    after(:build) do |a|
+      a.permission ||= build(:permission, subject: a)
+    end
   end
 end
