@@ -17,9 +17,4 @@ class UserCondition < ActiveRecord::Base
   alias_method :user_disease_treatment_ids=, :user_treatment_ids=
 
   simple_has_many_accessor_for :user_treatments, :user_condition_user_treatments
-
-  def serializable_hash options=nil
-    options ||= {:include => [:condition, :disease], :methods => [:user_treatment_ids, :disease_id]}
-    super(options)
-  end
 end

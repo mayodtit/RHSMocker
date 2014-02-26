@@ -3,13 +3,13 @@ class Api::V1::UserConditionsController < Api::V1::ABaseController
   before_filter :load_user_condition!, only: [:show, :update, :destroy]
 
   def index
-    index_resource(@user.user_conditions, name: :user_diseases) and return if disease_path?
-    index_resource(@user.user_conditions)
+    index_resource(@user.user_conditions.serializer, name: :user_diseases) and return if disease_path?
+    index_resource(@user.user_conditions.serializer)
   end
 
   def show
-    show_resource(@user_condition, name: :user_disease) and return if disease_path?
-    show_resource(@user_condition)
+    show_resource(@user_condition.serializer, name: :user_disease) and return if disease_path?
+    show_resource(@user_condition.serializer)
   end
 
   def create
