@@ -33,7 +33,7 @@ class Member < User
 
   validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
-  validates :email, :uniqueness => {:message => 'account already exists', :case_sensitive => false}, :allow_nil => true
+  validates :email, :uniqueness => {:message => 'account already exists.', :case_sensitive => false}, :allow_nil => true
   validates :password, :length => {:minimum => 8, :message => "must be 8 or more characters long"}, :confirmation => true, :if => :password
   validates :install_id, :uniqueness => true, :allow_nil => true
   validates :units, :inclusion => {:in => %w(US Metric)}
