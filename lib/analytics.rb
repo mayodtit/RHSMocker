@@ -6,12 +6,16 @@ class Analytics
       remote_event = RemoteEvent.find(remote_event_id)
       user = remote_event.user || User.find_by_auth_token(remote_event.data_json['auth_token'])
       remote_event.events.each do |e|
-        l = LogAnalyticsJob.new(user.google_analytics_uuid,
-                                e['name'],
-                                { build_number: remote_event.build_number,
-                                  device_os_version: remote_event.device_os_version,
-                                  event_category: e['category'] })
-        l.log_ga
+        hash = {build_number: remote_event.build_number,
+                device_os_version: remote_event.device_os_version,
+                event_category: e['category']}
+
+        # one off rule for logging card taps
+        if e['name'] == 'card_tapped'
+          hash.merge!({event_label: e['card_id']})
+        end
+
+        LogAnalyticsJob.new(user.google_analytics_uuid, e['name'], hash).log_ga
       end
     end
     handle_asynchronously :log_remote_event
