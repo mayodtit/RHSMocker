@@ -17,7 +17,7 @@ resource 'Conditions' do
 
     context 'with a query string' do
       before(:each) do
-        Condition.stub(:search => [condition])
+        Condition.stub_chain(:search, :results).and_return([condition])
       end
 
       parameter :q, "Query string"
