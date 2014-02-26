@@ -77,7 +77,7 @@ class Member < User
   end
 
   def nurse?
-    has_role?(:nurse) || has_role?(:admin)
+    has_role?(:nurse)
   end
 
   def pha?
