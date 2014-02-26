@@ -18,7 +18,7 @@ describe 'Diseases' do
 
     context 'with a query param' do
       before(:each) do
-        Condition.stub(:search => [disease])
+        Condition.stub_chain(:search, :results).and_return([disease])
       end
 
       it 'filters Diseases with SOLR' do

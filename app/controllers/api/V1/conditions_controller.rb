@@ -3,14 +3,14 @@ class Api::V1::ConditionsController < Api::V1::ABaseController
   before_filter :load_conditions!
 
   def index
-    index_resource(@conditions, name: :diseases) and return if diseases_path?
-    index_resource(@conditions)
+    index_resource(@conditions.serializer, name: :diseases) and return if diseases_path?
+    index_resource(@conditions.serializer)
   end
 
   private
 
   def load_conditions!
-    @conditions = params[:q].blank? ? Condition.order('name ASC') : solr_results
+    @conditions = params[:q].blank? ? Condition.order('name ASC') : solr_results.results
   end
 
   def solr_results

@@ -17,7 +17,7 @@ resource 'Diseases' do
 
     context 'with a query string' do
       before(:each) do
-        Condition.stub(:search => [disease])
+        Condition.stub_chain(:search, :results).and_return([disease])
       end
 
       parameter :q, "Query string"
