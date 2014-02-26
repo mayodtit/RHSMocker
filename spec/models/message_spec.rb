@@ -22,15 +22,21 @@ describe Message do
     end
 
     context 'user message' do
-      it 'publishes a notification' do
-        PubSub.should_receive(:new) do
-          o = Object.new
-          o.should_receive(:publish).with(
-            "/users/#{message.consult.initiator_id}/consults/#{message.consult_id}/messages/new",
-            {id: message.id}
-          )
-          o
-        end
+      let(:pub_sub) { Object.new }
+
+      before do
+        PubSub.stub(:new) { pub_sub }
+      end
+
+      it 'publishes that a message was created' do
+        pub_sub.should_receive(:publish).with(
+          "/users/#{message.consult.initiator_id}/consults/#{message.consult_id}/messages/new",
+          {id: message.id}
+        )
+        pub_sub.should_receive(:publish).with(
+          "/messages/new",
+          {id: message.id}
+        )
         message.publish
       end
     end
