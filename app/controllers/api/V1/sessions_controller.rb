@@ -7,7 +7,7 @@ class Api::V1::SessionsController < Api::V1::ABaseController
       render_success(auth_token: @user.auth_token, user: @user)
       Analytics.log_user_login(@user.google_analytics_uuid)
     else
-      render_failure({reason:"Incorrect credentials", user_message: 'Invalid email and/or password'}, 401)
+      render_failure({reason:"Incorrect credentials", user_message: 'Invalid email address or password.'}, 401)
     end
   end
 
