@@ -15,7 +15,7 @@ describe Consult do
       PubSub.should_receive(:new) do
         o = Object.new
         o.should_receive(:publish).with(
-          "/users/#{consult.initiator_id}/consults/empty/new",
+          "/consults/empty/new",
           {id: consult.id}
         )
         o

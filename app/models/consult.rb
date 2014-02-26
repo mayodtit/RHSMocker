@@ -31,7 +31,7 @@ class Consult < ActiveRecord::Base
 
   def publish
     if messages.empty?
-      PubSub.new.publish "/users/#{initiator_id}/consults/empty/new", {id: id}
+      PubSub.new.publish "/consults/empty/new", {id: id}
     end
   end
 
