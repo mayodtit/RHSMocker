@@ -4,7 +4,7 @@ class ContentSerializer < ViewSerializer
   attributes :id, :title, :content_type, :content_updated_at, :document_id,
              :created_at, :updated_at, :content_type_display, :abstract,
              :contentID, :contents_type, :state, :state_events,
-             :card_actions, :fullscreen_actions
+             :card_actions, :fullscreen_actions, :condition_id
 
   delegate :show_mayo_copyright?, :show_call_option?, :show_mayo_logo?,
            :has_custom_card?, to: :object

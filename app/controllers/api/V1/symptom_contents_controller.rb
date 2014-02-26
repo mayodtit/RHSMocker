@@ -26,6 +26,7 @@ class Api::V1::SymptomContentsController < Api::V1::ABaseController
         id: content.id,
         name: content.title,
         gender: content.symptom_checker_gender,
+        condition_id: content.condition_id,
         factors: content_factors(content)
       }
     end.sort_by!{|result| [-(result[:factors].map{|f| f[:id]} & factor_ids).count, result[:name]]}
