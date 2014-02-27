@@ -71,8 +71,8 @@ describe 'Sharing' do
           get "/api/v1/users/#{sister.id}/associations", auth_token: sister.auth_token
           expect(response).to be_success
           ids = JSON.parse(response.body, symbolize_names: true)[:associations].map{|a| a[:id]}
-          expect(ids).to include(replacement.reload.pair.id, replacement.id)
-          expect(ids).to_not include(association.id)
+          expect(ids).to include(replacement.reload.pair.id)
+          expect(ids).to_not include(replacement.id, association.id)
         end
       end
 
