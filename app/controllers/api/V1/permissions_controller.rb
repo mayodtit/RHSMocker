@@ -3,10 +3,12 @@ class Api::V1::PermissionsController < Api::V1::ABaseController
   before_filter :load_permission!
 
   def show
+    authorize! :read, @permission
     show_resource @permission.serializer
   end
 
   def update
+    authorize! :manage, @permission
     update_resource @permission, permitted_params.permission
   end
 
@@ -19,6 +21,5 @@ class Api::V1::PermissionsController < Api::V1::ABaseController
 
   def load_permission!
     @permission = @association.permission
-    authorize! :manage, @permission
   end
 end

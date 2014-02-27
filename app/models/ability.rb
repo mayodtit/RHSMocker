@@ -27,6 +27,10 @@ class Ability
       can?(:manage, a.user)
     end
 
+    can :read, Permission do |p|
+      user.id == p.subject.user_id
+    end
+
     can :manage, Permission do |p|
       user.id == p.subject.associate_id
     end
