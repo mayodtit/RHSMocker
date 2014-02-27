@@ -4,6 +4,7 @@ class Condition < ActiveRecord::Base
 
   has_many :user_conditions
   has_many :users, :through => :user_conditions
+  has_one :content
 
   attr_accessible :name, :snomed_name, :snomed_code
 

@@ -23,14 +23,17 @@ class Member < User
                            inverse_of: :claimer,
                            autosave: true
 
+  belongs_to :pha, class_name: 'Member'
+
   accepts_nested_attributes_for :user_agreements
 
   attr_accessible :install_id, :password, :password_confirmation,
                   :holds_phone_in, :invitation_token, :units,
-                  :waitlist_entry, :user_agreements_attributes
+                  :waitlist_entry, :user_agreements_attributes, :pha, :pha_id
 
+  validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
-  validates :email, :uniqueness => {:message => 'account already exists', :case_sensitive => false}, :allow_nil => true
+  validates :email, :uniqueness => {:message => 'account already exists.', :case_sensitive => false}, :allow_nil => true
   validates :password, :length => {:minimum => 8, :message => "must be 8 or more characters long"}, :confirmation => true, :if => :password
   validates :install_id, :uniqueness => true, :allow_nil => true
   validates :units, :inclusion => {:in => %w(US Metric)}
@@ -74,7 +77,7 @@ class Member < User
   end
 
   def nurse?
-    has_role?(:nurse) || has_role?(:admin)
+    has_role?(:nurse)
   end
 
   def pha?

@@ -21,7 +21,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def message_attributes
-    params.require(:message).permit(:text, :image).tap do |attributes|
+    params.require(:message).permit(:text, :image, :unread_by_cp).tap do |attributes|
       attributes[:user] = current_user
       attributes[:image] = decode_b64_image(attributes[:image]) if attributes[:image]
     end
@@ -30,7 +30,8 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   def send_robot_response!
     @consult.messages.create(user: Member.robot,
                              text: "We have received your message and your PHA will get back to you shortly. Thank you.",
-                             created_at: Time.now + 1.second)
+                             created_at: Time.now + 1.second,
+                             unread_by_cp: false)
   end
 
   def send_robot_response?

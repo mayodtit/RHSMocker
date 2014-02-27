@@ -88,6 +88,6 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def permission_attributes
-    [:name, :level]
+    [:basic_info, :medical_info, :care_team]
   end
 end

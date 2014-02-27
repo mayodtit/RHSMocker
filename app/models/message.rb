@@ -23,6 +23,7 @@ class Message < ActiveRecord::Base
   validates :phone_call_summary, presence: true, if: lambda{|m| m.phone_call_summary_id}
 
   before_validation :set_unread_by_cp, on: :create
+  after_create :publish
 
   accepts_nested_attributes_for :phone_call
   accepts_nested_attributes_for :scheduled_phone_call
@@ -38,5 +39,12 @@ class Message < ActiveRecord::Base
     end
 
     self.unread_by_cp = true
+  end
+
+  def publish
+    if scheduled_phone_call_id.nil? && phone_call_id.nil?
+      PubSub.new.publish "/users/#{consult.initiator_id}/consults/#{consult_id}/messages/new", {id: id}
+      PubSub.new.publish "/messages/new", {id: id}
+    end
   end
 end

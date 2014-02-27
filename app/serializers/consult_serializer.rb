@@ -4,6 +4,7 @@ class ConsultSerializer < ViewSerializer
   attributes :id, :title, :description, :initiator_id, :subject_id, :state,
              :image_url, :created_at, :updated_at, :status, :subject_full_name
 
+  has_one :initiator
   delegate :subject, to: :object
   alias_method :status, :state
 

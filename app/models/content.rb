@@ -11,19 +11,22 @@ class Content < ActiveRecord::Base
   has_many :referees, through: :content_references
   has_many :factor_contents
   has_many :factors, through: :factor_contents
+  belongs_to :condition
   serialize :card_actions, Array
 
   attr_accessible :title, :raw_body, :content_type, :abstract, :question, :keywords,
                   :content_updated_at, :document_id, :show_call_option,
                   :show_checker_option, :show_mayo_copyright, :type, :raw_preview,
                   :state_event, :sensitive, :symptom_checker_gender,
-                  :show_mayo_logo, :has_custom_card, :card_actions
+                  :show_mayo_logo, :has_custom_card, :card_actions, :condition,
+                  :condition_id
 
   validates :title, :raw_body, :content_type, :document_id, presence: true
   validates :show_call_option, :show_checker_option, :show_mayo_copyright,
             :sensitive, inclusion: {:in => [true, false]}
   validates :document_id, uniqueness: true
   validates :symptom_checker_gender, inclusion: {in: %w(M F)}, allow_nil: true
+  validates :condition, presence: true, if: lambda{|c| c.condition_id}
 
   before_validation :set_defaults, on: :create
 

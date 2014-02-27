@@ -13,6 +13,51 @@ describe Message do
   it_validates 'foreign key of', :scheduled_phone_call
   it_validates 'foreign key of', :phone_call_summary
 
+  describe 'publish' do
+    let(:message) { build_stubbed(:message) }
+
+    before do
+      message.stub(:scheduled_phone_call_id) { nil }
+      message.stub(:phone_call_id) { nil }
+    end
+
+    context 'user message' do
+      let(:pub_sub) { Object.new }
+
+      before do
+        PubSub.stub(:new) { pub_sub }
+      end
+
+      it 'publishes that a message was created' do
+        pub_sub.should_receive(:publish).with(
+          "/users/#{message.consult.initiator_id}/consults/#{message.consult_id}/messages/new",
+          {id: message.id}
+        )
+        pub_sub.should_receive(:publish).with(
+          "/messages/new",
+          {id: message.id}
+        )
+        message.publish
+      end
+    end
+
+    context 'is a phone call message' do
+      it 'doesn\'t publish' do
+        message.stub(:phone_call_id) { 1 }
+        PubSub.should_not_receive(:new)
+        message.publish
+      end
+    end
+
+    context 'is a scheduled phone call message' do
+      it 'doesn\'t publish' do
+        message.stub(:scheduled_phone_call_id) { 1 }
+        PubSub.should_not_receive(:new)
+        message.publish
+      end
+    end
+  end
+
   describe 'initialization of unread_by_cp' do
     let(:message) { build(:message) }
 

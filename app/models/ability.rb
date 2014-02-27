@@ -28,7 +28,7 @@ class Ability
     end
 
     can :manage, Permission do |p|
-      user.id == p.user_id
+      user.id == p.subject.associate_id
     end
 
     can :manage, [BloodPressure, UserTreatment, UserAllergy, UserCondition, Weight, Card, Subscription] do |o|

@@ -9,6 +9,15 @@ FactoryGirl.define do
       assigned_at Time.now
     end
 
+    trait :booked do
+      state 'booked'
+      association :user, factory: :member
+      association :owner, factory: :pha
+      booker { user }
+      booked_at Time.now
+      association :message, factory: :message
+    end
+
     trait :w_message do
       association :message, factory: :message
     end
