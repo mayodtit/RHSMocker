@@ -62,6 +62,6 @@ class ConsultSerializer < ViewSerializer
   end
 
   def subject_full_name
-    object.subject.full_name
+    object.subject && object.subject.full_name
   end
 end
