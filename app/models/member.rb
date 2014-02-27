@@ -52,17 +52,6 @@ class Member < User
     where("first_name LIKE ? OR last_name LIKE ? OR email LIKE ?", wildcard, wildcard, wildcard)
   end
 
-  BASE_OPTIONS = User::BASE_OPTIONS.merge(:only => [:holds_phone_in, :install_id,
-                                                    :phone, :units, :client_data],
-                                          :methods => [:pusher_id]) do |k, v1, v2|
-                   v1.is_a?(Array) ? v1 + v2 : [v1] + v2
-                 end
-
-  def serializable_hash options=nil
-    options ||= BASE_OPTIONS
-    super(options)
-  end
-
   # rolify only adds class methods to the base class, cast first to call
   def has_role?(role)
     becomes(User).has_role?(role)
