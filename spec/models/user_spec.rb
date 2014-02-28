@@ -23,6 +23,20 @@ describe User do
     expect(user).to_not be_valid
   end
 
+  describe '#set_default_hcp' do
+    it 'sets default health care provider association' do
+      u = create(:user)
+      expect{u.set_default_hcp(14)}.to change{u.default_hcp_association_id}.from(nil).to(14)
+    end
+  end
+
+  describe '#remove_default_hcp' do
+    it 'removes default health care provier association' do
+      u = create(:user, default_hcp_association_id: 14)
+      expect{u.remove_default_hcp}.to change{u.default_hcp_association_id}.from(14).to(nil)
+    end
+  end
+
   describe '#full_name' do
     let(:user) { build(:user) }
 

@@ -140,6 +140,14 @@ class User < ActiveRecord::Base
     where(type: 'Member')
   end
 
+  def set_default_hcp(association_id)
+    self.update_attribute(:default_hcp_association_id, association_id)
+  end
+
+  def remove_default_hcp
+    self.update_attribute(:default_hcp_association_id, nil)
+  end
+
   #############################################################################
   # Rather than using ActiveRecord associations, these like/dislike actions
   # and fetchers are broken out into their own methods in case we decide to

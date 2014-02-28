@@ -32,8 +32,10 @@ class Association < ActiveRecord::Base
 
   before_validation :build_related_associations, on: :create
   before_validation :create_default_permission, on: :create
-  after_save :add_user_default_hcp
-  before_destroy :remove_user_default_hcp
+
+  # adding and removing the user's default HCP
+  after_save :process_default_hcp
+  before_destroy :remove_user_default_hcp_if_necessary
 
   accepts_nested_attributes_for :associate
 
@@ -104,13 +106,18 @@ class Association < ActiveRecord::Base
     associate.member ? Invitation.exists_for_pair?(user_id, associate.member.id) : false
   end
 
-  def add_user_default_hcp
-    user.update_attributes(default_hcp_association_id: self.id) if is_default_hcp.to_s == 'true'
+  def process_default_hcp
+    if is_default_hcp.to_s == 'true'
+      user.set_default_hcp(id)
+    elsif is_default_hcp.to_s == 'false'
+      remove_user_default_hcp_if_necessary
+    end
   end
 
-  def remove_user_default_hcp
-    u = User.find_by_default_hcp_association_id(self.id)
-    u.update_attributes(default_hcp_association_id: nil) if u
+  def remove_user_default_hcp_if_necessary
+    if user.default_hcp_association_id == id
+      user.remove_default_hcp
+    end
   end
 
   state_machine initial: lambda{|a| a.initial_state} do
