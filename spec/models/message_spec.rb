@@ -21,33 +21,69 @@ describe Message do
       message.stub(:phone_call_id) { nil }
     end
 
-    context 'user message' do
-      it 'publishes that a message was created' do
-        PubSub.should_receive(:publish).with(
-          "/users/#{message.consult.initiator_id}/consults/#{message.consult_id}/messages/new",
-          {id: message.id}
-        )
-        PubSub.should_receive(:publish).with(
-          "/messages/new",
-          {id: message.id}
-        )
-        message.publish
+    context 'on create' do
+      before do
+        message.stub(:id_changed?) { true }
+      end
+
+      context 'user message' do
+        it 'publishes that a message was created' do
+          PubSub.should_receive(:publish).with(
+            "/users/#{message.consult.initiator_id}/consults/#{message.consult_id}/messages/new",
+            {id: message.id}
+          )
+          PubSub.should_receive(:publish).with(
+            "/messages/new",
+            {id: message.id}
+          )
+          message.publish
+        end
+      end
+
+      context 'is a phone call message' do
+        it 'doesn\'t publish' do
+          message.stub(:phone_call_id) { 1 }
+          PubSub.should_not_receive(:publish)
+          message.publish
+        end
+      end
+
+      context 'is a scheduled phone call message' do
+        it 'doesn\'t publish' do
+          message.stub(:scheduled_phone_call_id) { 1 }
+          PubSub.should_not_receive(:publish)
+          message.publish
+        end
       end
     end
 
-    context 'is a phone call message' do
-      it 'doesn\'t publish' do
-        message.stub(:phone_call_id) { 1 }
-        PubSub.should_not_receive(:publish)
-        message.publish
+    context 'on save' do
+      before do
+        message.stub(:id_changed?) { false }
       end
-    end
 
-    context 'is a scheduled phone call message' do
-      it 'doesn\'t publish' do
-        message.stub(:scheduled_phone_call_id) { 1 }
-        PubSub.should_not_receive(:publish)
-        message.publish
+      context 'read status changed' do
+        before do
+          message.stub(:unread_by_cp_changed?) { true }
+        end
+
+        it 'publishes' do
+          PubSub.should_receive(:publish).with(
+            "/messages/update/read",
+            {id: message.id}
+          )
+          message.publish
+        end
+      end
+
+      context 'read status didn\'t change' do
+        before do
+          message.stub(:unread_by_cp_changed?) { false }
+        end
+
+        it 'doesn\'t publish' do
+          PubSub.should_not_receive(:publish)
+        end
       end
     end
   end
