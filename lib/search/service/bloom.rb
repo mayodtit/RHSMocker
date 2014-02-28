@@ -48,11 +48,11 @@ class Search::Service::Bloom
   def sanitize_record(record)
     p = record['practice_address']
     practice_address = {
-      address_lines: prettify(p['address_line']),
-      address_details_line: prettify(p['address_details_line']),
+      address: prettify(p['address_line']),
+      address2: prettify(p['address_details_line']),
       city: prettify(p['city']),
       state: p['state'],
-      zip: p['zip'],
+      postal_code: p['zip'],
       country_code: p['county_code'],
       phone: p['phone'],
       fax: p['fax']
