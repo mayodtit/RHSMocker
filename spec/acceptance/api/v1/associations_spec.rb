@@ -60,7 +60,7 @@ resource "Association" do
     parameter :height, "Associate's height (cm)"
     parameter :provider_taxonomy_code, "Associate's healthcare provider taxonomy code"
     parameter :association_type_id, "Association type"
-    parameter :default_hcp, "Set associate to user's default HCP if value is true"
+    parameter :is_default_hcp, "Set associate to user's default HCP if value is true"
     scope_parameters :associate, [:first_name, :last_name, :birth_date, :phone,
                                   :avatar, :gender, :height, :provider_taxonomy_code]
     scope_parameters :association, [:associate]
@@ -74,7 +74,7 @@ resource "Association" do
     let(:height) { 180 }
     let(:provider_taxonomy_code) { 'abcde' }
     let(:association_type_id) { association_type.id }
-    let(:default_hcp) { true }
+    let(:is_default_hcp) { true }
     let(:raw_post) { params.to_json }
     # purposely don't include avatar
 
@@ -98,11 +98,11 @@ resource "Association" do
 
     parameter :id, "Association's ID"
     parameter :association_type_id, "Association type"
-    parameter :default_hcp, "Set associate to user's default HCP if value is true"
+    parameter :is_default_hcp, "Set associate to user's default HCP if value is true"
     required_parameters :id
 
     let(:association_type_id) { association_type.id }
-    let(:default_hcp) { true }
+    let(:is_default_hcp) { true }
     let(:raw_post) { params.to_json }
 
     example_request "[PUT] Update an association for a user" do

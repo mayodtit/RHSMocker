@@ -14,11 +14,11 @@ class Association < ActiveRecord::Base
                        dependent: :destroy,
                        inverse_of: :subject
 
-  attr_accessor :default_hcp
+  attr_accessor :is_default_hcp
   attr_accessible :user, :user_id, :associate, :associate_id,
                   :creator, :creator_id,
                   :association_type, :association_type_id,
-                  :associate_attributes, :default_hcp, :replacement,
+                  :associate_attributes, :is_default_hcp, :replacement,
                   :replacement_id, :original, :state_event, :state, :pair,
                   :pair_id
 
@@ -105,7 +105,7 @@ class Association < ActiveRecord::Base
   end
 
   def add_user_default_hcp
-    user.update_attributes(default_hcp_association_id: self.id) if default_hcp
+    user.update_attributes(default_hcp_association_id: self.id) if is_default_hcp
   end
 
   def remove_user_default_hcp
