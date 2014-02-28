@@ -74,7 +74,7 @@ resource "Association" do
     let(:height) { 180 }
     let(:provider_taxonomy_code) { 'abcde' }
     let(:association_type_id) { association_type.id }
-    let(:is_default_hcp) { true }
+    let(:is_default_hcp) { "false" }
     let(:raw_post) { params.to_json }
     # purposely don't include avatar
 
@@ -83,7 +83,7 @@ resource "Association" do
       status.should == 200
 
       response = JSON.parse(response_body, :symbolize_names => true)[:association]
-      response[:is_default_hcp].should be_true
+      response[:is_default_hcp].should be_false
       response[:associate][:provider_taxonomy_code].should eq('abcde')
       response[:associate][:taxonomy_classification].should eq("trust me i'm a doctor")
       response[:associate].keys.should include(:avatar_url)

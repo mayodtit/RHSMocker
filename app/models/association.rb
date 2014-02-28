@@ -105,7 +105,7 @@ class Association < ActiveRecord::Base
   end
 
   def add_user_default_hcp
-    user.update_attributes(default_hcp_association_id: self.id) if is_default_hcp
+    user.update_attributes(default_hcp_association_id: self.id) if is_default_hcp.to_s == 'true'
   end
 
   def remove_user_default_hcp
