@@ -26,7 +26,7 @@ describe 'Users' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:user].to_json).to eq(user.serializer.as_json.to_json)
+        expect(body[:user].to_json).to eq(user.serializer(include_roles: true).as_json.to_json)
       end
     end
 
@@ -39,7 +39,7 @@ describe 'Users' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:user].to_json).to eq(user.serializer.as_json.to_json)
+        expect(body[:user].to_json).to eq(user.serializer(include_roles: true).as_json.to_json)
       end
     end
 

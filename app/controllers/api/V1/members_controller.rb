@@ -8,27 +8,27 @@ class Api::V1::MembersController < Api::V1::ABaseController
   before_filter :convert_parameters!, only: [:create, :update, :update_current]
 
   def index
-    render_success(users: @members.serializer(scope: current_user),
+    render_success(users: @members.serializer,
                    page: page,
                    per: per,
                    total_count: @members.total_count)
   end
 
   def show
-    render_success user: @member.serializer(scope: current_user),
-                   member: @member.serializer(scope: current_user)
+    render_success user: @member.serializer(serializer_options),
+                   member: @member.serializer(serializer_options)
   end
 
   def current
-    render_success user: current_user.serializer(scope: current_user),
-                   member: current_user.serializer(scope: current_user)
+    render_success user: current_user.serializer(include_roles: true),
+                   member: current_user.serializer(include_roles: true)
   end
 
   def create
     @member = Member.create permitted_params.user
     if @member.errors.empty?
-      render_success user: @member.serializer(scope: current_user),
-                     member: @member.serializer(scope: current_user),
+      render_success user: @member.serializer,
+                     member: @member.serializer,
                      auth_token: @member.auth_token
     else
       render_failure({reason: @member.errors.full_messages.to_sentence,
@@ -38,8 +38,8 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def update
     if @member.update_attributes(permitted_params(@member).user)
-      render_success user: @member.serializer(scope: current_user),
-                     member: @member.serializer(scope: current_user)
+      render_success user: @member.serializer(serializer_options),
+                     member: @member.serializer(serializer_options)
     else
       render_failure({reason: @member.errors.full_messages.to_sentence}, 422)
     end
@@ -47,8 +47,8 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def update_current
     if current_user.update_attributes(permitted_params(current_user).user)
-      render_success user: current_user.serializer(scope: current_user),
-                     member: current_user.serializer(scope: current_user)
+      render_success user: current_user.serializer,
+                     member: current_user.serializer
     else
       render_failure({reason: current_user.errors.full_messages.to_sentence}, 422)
     end
@@ -56,8 +56,8 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def secure_update
     if @member.update_attributes(permitted_params(@member).secure_user)
-      render_success user: @member.serializer(scope: current_user),
-                     member: @member.serializer(scope: current_user)
+      render_success user: @member.serializer,
+                     member: @member.serializer
     else
       render_failure({reason: @member.errors.full_messages.to_sentence}, 422)
     end
@@ -137,5 +137,11 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def user_params
     params.fetch(:user){params.require(:member)}
+  end
+
+  def serializer_options
+    {}.tap do |options|
+      options.merge!(include_nested_information: true) if current_user.care_provider?
+    end
   end
 end
