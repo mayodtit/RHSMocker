@@ -12,14 +12,10 @@ describe Consult do
     let(:consult) { build_stubbed(:consult) }
 
     it 'publishes a notification' do
-      PubSub.should_receive(:new) do
-        o = Object.new
-        o.should_receive(:publish).with(
+      PubSub.should_receive(:publish).with(
           "/consults/empty/new",
           {id: consult.id}
         )
-        o
-      end
       consult.publish
     end
   end

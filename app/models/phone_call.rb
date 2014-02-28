@@ -179,10 +179,10 @@ class PhoneCall < ActiveRecord::Base
 
   def publish
     if id_changed? # new record
-      PubSub.new.publish "/phone_calls/new", { id: id }
+      PubSub.publish "/phone_calls/new", { id: id }
     else
-      PubSub.new.publish "/phone_calls/update", { id: id }
-      PubSub.new.publish "/phone_calls/#{id}/update", { id: id }
+      PubSub.publish "/phone_calls/update", { id: id }
+      PubSub.publish "/phone_calls/#{id}/update", { id: id }
     end
   end
 

@@ -22,18 +22,12 @@ describe Message do
     end
 
     context 'user message' do
-      let(:pub_sub) { Object.new }
-
-      before do
-        PubSub.stub(:new) { pub_sub }
-      end
-
       it 'publishes that a message was created' do
-        pub_sub.should_receive(:publish).with(
+        PubSub.should_receive(:publish).with(
           "/users/#{message.consult.initiator_id}/consults/#{message.consult_id}/messages/new",
           {id: message.id}
         )
-        pub_sub.should_receive(:publish).with(
+        PubSub.should_receive(:publish).with(
           "/messages/new",
           {id: message.id}
         )
@@ -44,7 +38,7 @@ describe Message do
     context 'is a phone call message' do
       it 'doesn\'t publish' do
         message.stub(:phone_call_id) { 1 }
-        PubSub.should_not_receive(:new)
+        PubSub.should_not_receive(:publish)
         message.publish
       end
     end
@@ -52,7 +46,7 @@ describe Message do
     context 'is a scheduled phone call message' do
       it 'doesn\'t publish' do
         message.stub(:scheduled_phone_call_id) { 1 }
-        PubSub.should_not_receive(:new)
+        PubSub.should_not_receive(:publish)
         message.publish
       end
     end

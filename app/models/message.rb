@@ -43,8 +43,8 @@ class Message < ActiveRecord::Base
 
   def publish
     if scheduled_phone_call_id.nil? && phone_call_id.nil?
-      PubSub.new.publish "/users/#{consult.initiator_id}/consults/#{consult_id}/messages/new", {id: id}
-      PubSub.new.publish "/messages/new", {id: id}
+      PubSub.publish "/users/#{consult.initiator_id}/consults/#{consult_id}/messages/new", {id: id}
+      PubSub.publish "/messages/new", {id: id}
     end
   end
 end

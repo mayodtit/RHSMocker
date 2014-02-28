@@ -548,33 +548,27 @@ describe PhoneCall do
       end
 
       it 'publishes that a new phone call was created' do
-        PubSub.should_receive(:new) do
-          o = Object.new
-          o.should_receive(:publish).with(
+        PubSub.should_receive(:publish).with(
             "/phone_calls/new",
             {id: phone_call.id}
           )
-          o
-        end
         phone_call.publish
       end
     end
 
     context 'old record' do
       let(:phone_call) { build_stubbed(:phone_call) }
-      let(:pub_sub) { Object.new }
 
       before do
         phone_call.stub(:id_changed?) { false }
-        PubSub.stub(:new) { pub_sub }
       end
 
       it 'publishes that a phone call was updated' do
-        pub_sub.should_receive(:publish).with(
+        PubSub.should_receive(:publish).with(
           "/phone_calls/update",
           { id: phone_call.id }
         )
-        pub_sub.should_receive(:publish).with(
+        PubSub.should_receive(:publish).with(
           "/phone_calls/#{phone_call.id}/update",
           {id: phone_call.id}
         )
