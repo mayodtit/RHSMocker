@@ -24,7 +24,7 @@ resource "Sessions" do
         status.should == 200
         response = JSON.parse(response_body, :symbolize_names => true)
         response[:auth_token].should == user.reload.auth_token
-        response[:user].to_json.should == user.as_json.to_json
+        response[:user].to_json.should == user.serializer(include_roles: true).as_json.to_json
       end
     end
   end
