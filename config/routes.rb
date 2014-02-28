@@ -24,7 +24,9 @@ RHSMocker::Application.routes.draw do
       resources :cards, :only => [:show, :update]
       resources :conditions, :only => :index
       resources :consults, :only => [:index, :show, :create] do
-        resources :messages, only: [:index, :create]
+        resources :messages, only: [:index, :create] do
+          put :read, on: :collection
+        end
       end
       resources :custom_cards, only: [:index, :show, :create, :update]
       resources :custom_contents, only: [:index, :show, :create, :update]
@@ -120,7 +122,9 @@ RHSMocker::Application.routes.draw do
         resources :weights, :only => [:index, :create, :destroy]
 
         resources :consults, :only => [:index, :show, :create] do
-          resources :messages, only: [:index, :create]
+          resources :messages, only: [:index, :create] do
+            put :read, :on => :collection
+          end
         end
       end
       resources :waitlist_entries, only: [:index, :create, :update, :destroy]

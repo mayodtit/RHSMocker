@@ -13,6 +13,12 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     send_robot_response! if send_robot_response?
   end
 
+  def read
+    messages = @consult.messages
+    messages.update_all(unread_by_cp: false)
+    index_resource(messages.serializer)
+  end
+
   private
 
   def load_consult!
