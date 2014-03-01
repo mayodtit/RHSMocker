@@ -47,7 +47,7 @@ describe Message do
           it 'should send an email' do
             UserMailer.should_receive(:delay) do
               o = Object.new
-              o.should_receive(:notify_phas_of_message)
+              o.should_receive(:notify_phas_of_message_email)
               o
             end
             message.publish
