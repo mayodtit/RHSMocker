@@ -46,6 +46,7 @@ class Message < ActiveRecord::Base
       if scheduled_phone_call_id.nil? && phone_call_id.nil?
         PubSub.publish "/users/#{consult.initiator_id}/consults/#{consult_id}/messages/new", {id: id}
         PubSub.publish "/messages/new", {id: id}
+        UserMailer.delay.notify_phas_of_message
       end
     else
       if unread_by_cp_changed?

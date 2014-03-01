@@ -18,6 +18,15 @@ describe Consult do
         )
       consult.publish
     end
+
+    it 'sends an email' do
+      UserMailer.should_receive(:delay) do
+        o = Object.new
+        o.should_receive(:notify_phas_of_message)
+        o
+      end
+      consult.publish
+    end
   end
 
   describe 'state machine' do

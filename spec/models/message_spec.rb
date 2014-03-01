@@ -36,6 +36,11 @@ describe Message do
             "/messages/new",
             {id: message.id}
           )
+          UserMailer.should_receive(:delay) do
+            o = Object.new
+            o.should_receive(:notify_phas_of_message)
+            o
+          end
           message.publish
         end
       end
@@ -44,6 +49,7 @@ describe Message do
         it 'doesn\'t publish' do
           message.stub(:phone_call_id) { 1 }
           PubSub.should_not_receive(:publish)
+          UserMailer.should_not_receive(:delay)
           message.publish
         end
       end
@@ -52,6 +58,7 @@ describe Message do
         it 'doesn\'t publish' do
           message.stub(:scheduled_phone_call_id) { 1 }
           PubSub.should_not_receive(:publish)
+          UserMailer.should_not_receive(:delay)
           message.publish
         end
       end

@@ -32,6 +32,7 @@ class Consult < ActiveRecord::Base
   def publish
     if messages.empty?
       PubSub.publish "/consults/empty/new", {id: id}
+      UserMailer.delay.notify_phas_of_message
     end
   end
 
