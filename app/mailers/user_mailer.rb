@@ -37,7 +37,7 @@ class UserMailer < ActionMailer::Base
     mail(to: @scheduled_phone_call.owner.email, subject: 'BOOKED - Welcome Call')
   end
 
-  def notify_phas_of_message
+  def notify_phas_of_message_email
     to = 'abhik@getbetter.com'
     to = 'pha@getbetter.com' if Rails.env.qa?
     to = 'premium@getbetter.com' if Rails.env.production?
