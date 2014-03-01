@@ -36,12 +36,33 @@ describe Message do
             "/messages/new",
             {id: message.id}
           )
-          UserMailer.should_receive(:delay) do
-            o = Object.new
-            o.should_receive(:notify_phas_of_message)
-            o
-          end
           message.publish
+        end
+
+        context 'unread by cp' do
+          before do
+            message.stub(:unread_by_cp?) { true }
+          end
+
+          it 'should send an email' do
+            UserMailer.should_receive(:delay) do
+              o = Object.new
+              o.should_receive(:notify_phas_of_message)
+              o
+            end
+            message.publish
+          end
+        end
+
+        context 'read by cp' do
+          before do
+            message.stub(:unread_by_cp?) { false }
+          end
+
+          it 'should send an email' do
+            UserMailer.should_not_receive(:delay)
+            message.publish
+          end
         end
       end
 

@@ -38,7 +38,8 @@ class UserMailer < ActionMailer::Base
   end
 
   def notify_phas_of_message
-    to = 'phas@getbetter.com'
+    to = 'abhik@getbetter.com'
+    to = 'pha@getbetter.com' if Rails.env.qa?
     to = 'premium@getbetter.com' if Rails.env.production?
 
     mail(to: to, subject: "NEW MESSAGE - Care Portal #{Rails.env}")
