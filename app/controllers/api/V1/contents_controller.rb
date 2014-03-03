@@ -92,7 +92,9 @@ class Api::V1::ContentsController < Api::V1::ABaseController
   end
 
   def log_content_search
-    Analytics.log_content_search(current_user.google_analytics_uuid, params[:q].downcase) if current_user
+    if current_user && params[:q]
+      Analytics.log_content_search(current_user.google_analytics_uuid, params[:q].downcase)
+    end
   end
 
   def page
