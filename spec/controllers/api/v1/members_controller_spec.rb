@@ -73,7 +73,7 @@ describe Api::V1::MembersController do
       it 'returns the current_user' do
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:user].to_json.should == user.serializer.as_json.to_json
+        body[:user].to_json.should == user.serializer(include_roles: true).as_json.to_json
       end
     end
   end

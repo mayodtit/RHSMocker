@@ -12,6 +12,7 @@ describe Content do
   it_validates 'inclusion of', :sensitive
   it_validates 'uniqueness of', :document_id
   it_validates 'allows nil inclusion of', :symptom_checker_gender
+  it_validates 'foreign key of', :condition
 
   describe '::random' do
     it 'returns published content with matching content_type' do
@@ -21,7 +22,7 @@ describe Content do
     end
 
     it 'returns only non-sensitive content' do
-      content = create(:content, :published, content_type: Content::CONTENT_TYPES.first, sensitive: true)
+      create(:content, :published, content_type: Content::CONTENT_TYPES.first, sensitive: true)
       described_class.count.should == 1
       described_class.random.should be_nil
     end

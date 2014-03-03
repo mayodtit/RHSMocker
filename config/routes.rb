@@ -7,10 +7,11 @@ RHSMocker::Application.routes.draw do
         get :current, on: :collection
       end
       resources :allergies, :only => :index
-      resources :associations, only: [] do
-        resources :permissions, only: %i(index create update destroy)
-      end
       resources :association_types, :only => :index
+      resources :associations, only: [] do
+        get :permission, on: :member, to: 'permissions#show'
+        put :permission, on: :member, to: 'permissions#update'
+      end
       resources :contents, :only => [:index, :show] do
         resources :references, only: [:index, :create, :destroy], controller: 'content_references'
         post :status, :on => :member
@@ -23,7 +24,9 @@ RHSMocker::Application.routes.draw do
       resources :cards, :only => [:show, :update]
       resources :conditions, :only => :index
       resources :consults, :only => [:index, :show, :create] do
-        resources :messages, only: [:index, :create]
+        resources :messages, only: [:index, :create] do
+          put :read, on: :collection
+        end
       end
       resources :custom_cards, only: [:index, :show, :create, :update]
       resources :custom_contents, only: [:index, :show, :create, :update]
@@ -51,9 +54,6 @@ RHSMocker::Application.routes.draw do
       end
       resources :offerings, :only => :index
       post :password_resets, to: 'reset_password#create' # TODO - deprecated!
-      resources :permissions, only: [] do
-        get :available, on: :collection
-      end
       resources :phone_call_summaries, :only => :show
       resources :ping, :only => :index
       resources :plans, :only => [:index, :show]
@@ -122,7 +122,9 @@ RHSMocker::Application.routes.draw do
         resources :weights, :only => [:index, :create, :destroy]
 
         resources :consults, :only => [:index, :show, :create] do
-          resources :messages, only: [:index, :create]
+          resources :messages, only: [:index, :create] do
+            put :read, :on => :collection
+          end
         end
       end
       resources :waitlist_entries, only: [:index, :create, :update, :destroy]

@@ -23,14 +23,17 @@ class Member < User
                            inverse_of: :claimer,
                            autosave: true
 
+  belongs_to :pha, class_name: 'Member'
+
   accepts_nested_attributes_for :user_agreements
 
   attr_accessible :install_id, :password, :password_confirmation,
                   :holds_phone_in, :invitation_token, :units,
-                  :waitlist_entry, :user_agreements_attributes
+                  :waitlist_entry, :user_agreements_attributes, :pha, :pha_id
 
+  validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
-  validates :email, :uniqueness => {:message => 'account already exists', :case_sensitive => false}, :allow_nil => true
+  validates :email, :uniqueness => {:message => 'account already exists.', :case_sensitive => false}, :allow_nil => true
   validates :password, :length => {:minimum => 8, :message => "must be 8 or more characters long"}, :confirmation => true, :if => :password
   validates :install_id, :uniqueness => true, :allow_nil => true
   validates :units, :inclusion => {:in => %w(US Metric)}
@@ -49,17 +52,6 @@ class Member < User
     where("first_name LIKE ? OR last_name LIKE ? OR email LIKE ?", wildcard, wildcard, wildcard)
   end
 
-  BASE_OPTIONS = User::BASE_OPTIONS.merge(:only => [:holds_phone_in, :install_id,
-                                                    :phone, :units, :client_data],
-                                          :methods => [:pusher_id]) do |k, v1, v2|
-                   v1.is_a?(Array) ? v1 + v2 : [v1] + v2
-                 end
-
-  def serializable_hash options=nil
-    options ||= BASE_OPTIONS
-    super(options)
-  end
-
   # rolify only adds class methods to the base class, cast first to call
   def has_role?(role)
     becomes(User).has_role?(role)
@@ -74,7 +66,7 @@ class Member < User
   end
 
   def nurse?
-    has_role?(:nurse) || has_role?(:admin)
+    has_role?(:nurse)
   end
 
   def pha?

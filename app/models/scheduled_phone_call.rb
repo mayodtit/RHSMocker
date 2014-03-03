@@ -26,6 +26,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
   accepts_nested_attributes_for :message
 
   validates :scheduled_at, presence: true
+  validates :user, presence: true, if: lambda{|spc| spc.user_id}
   validate :attrs_for_states
   validates :callback_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
 
@@ -101,6 +102,12 @@ Prep:
     UserMailer.scheduled_phone_call_cp_confirmation_email(self).deliver
   end
 
+  def assign_pha_to_user!
+    unless user.pha
+      user.update_attributes!(pha: owner)
+    end
+  end
+
   private
 
   def if_assigned_notify_owner
@@ -144,6 +151,7 @@ Prep:
     after_transition [:booked, :assigned] => :booked do |scheduled_phone_call|
       scheduled_phone_call.notify_user_confirming_call
       scheduled_phone_call.notify_owner_confirming_call
+      scheduled_phone_call.assign_pha_to_user!
     end
 
     before_transition any => :started do |scheduled_phone_call|

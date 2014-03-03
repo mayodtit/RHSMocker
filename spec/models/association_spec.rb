@@ -8,6 +8,7 @@ describe Association do
   it_validates 'presence of', :user
   it_validates 'presence of', :associate
   it_validates 'presence of', :creator
+  it_validates 'presence of', :permission
   it_validates 'uniqueness of', :associate_id, :user_id, :association_type_id
   it_validates 'foreign key of', :replacement
   it_validates 'foreign key of', :pair
@@ -22,14 +23,187 @@ describe Association do
     expect(association.errors[:creator_id]).to include('cannot be changed')
   end
 
-  describe '::for_user_id_or_associate_id' do
-    let!(:user) { create(:member) }
-    let!(:association) { create(:association, user: user) }
-    let!(:inverse_association) { create(:association, associate: user) }
+  describe 'callbacks' do
+    describe '#create_default_permission' do
+      it 'creates defaults on create' do
+        expect{ create(:association) }.to change(Permission, :count).by(1)
+      end
 
-    it 'returns records for both user_id and associate_id' do
-      results = described_class.for_user_id_or_associate_id(user.id)
-      expect(results).to include(association, inverse_association)
+      it 'creates the permission for the association' do
+        association = create(:association)
+        permission = association.permission
+        expect(permission).to be_persisted
+        expect(permission.reload.subject).to eq(association)
+        expect(association.reload.permission).to eq(permission)
+      end
+    end
+
+    describe '#remove_user_default_hcp_if_necessary' do
+      context 'user does not have a default HCP' do
+        it "should not change the user's default HCP" do
+          u = create(:user, default_hcp_association_id: nil)
+          u.should_not_receive(:remove_default_hcp)
+          a = create(:association, user: u)
+          a.destroy
+        end
+      end
+
+      context 'user has a default HCP' do
+        context "association being destroyed matches user's default HCP" do
+          it "should remove user's default HCP" do
+            u1 = create(:user)
+            a1 = create(:association, user: u1)
+            u1.set_default_hcp(a1.id)
+            u1.should_receive(:remove_default_hcp)
+            a1.destroy
+          end
+        end
+
+        context "association being destroyed isn't user's default HCP" do
+          it "should not alter user's default HCP" do
+            u2 = create(:user)
+            a2 = create(:association, user: u2)
+            a3 = create(:association, user: u2)
+            u2.set_default_hcp(a2.id)
+            u2.should_not_receive(:remove_default_hcp)
+            a3.destroy
+          end
+        end
+      end
+    end
+
+    describe '#process_default_hcp' do
+      context 'user does not have a default HCP' do
+        let(:u) {create(:user, default_hcp_association_id: nil)}
+
+        context 'creating an association' do
+          context 'with is_default_hcp set to true' do
+            it "should set the user's default HCP" do
+              u.should_receive(:set_default_hcp).with(9999)
+              create(:association, user: u, is_default_hcp: true, id: 9999)
+            end
+          end
+
+          context 'with is_default_hcp set to false' do
+            it "should not set the user's default HCP" do
+              u.should_not_receive(:set_default_hcp)
+              create(:association, user: u, is_default_hcp: false)
+            end
+          end
+
+          context 'without setting is_default_hcp' do
+            it "should not set the user's default HCP" do
+              u.should_not_receive(:set_default_hcp)
+              create(:association, user: u)
+            end
+          end
+        end
+
+        context 'updating an association' do
+          before { @association = create(:association, user: u) }
+
+          context 'with is_default_hcp set to true' do
+            it "should set the user's default HCP" do
+              u.should_receive(:set_default_hcp).with(@association.id)
+              @association.update_attribute(:is_default_hcp, true)
+            end
+          end
+
+          context 'with is_default_hcp set to false' do
+            it "should not set the user's default HCP" do
+              u.should_not_receive(:set_default_hcp)
+              @association.update_attribute(:is_default_hcp, false)
+            end
+          end
+
+          context 'without setting is_default_hcp' do
+            it "should not set the user's dfeault HCP" do
+              u.should_not_receive(:set_default_hcp)
+              @association.update_attribute(:state, 'foobar')
+            end
+          end
+        end
+      end
+
+      context 'user has a default HCP' do
+        let(:u) {create(:user, default_hcp_association_id: nil)}
+        before { @association = create(:association, user: u, is_default_hcp: true) }
+
+        context 'creating an association' do
+          context 'with is_default_hcp set to true' do
+            it "should set the user's default HCP" do
+              u.should_receive(:set_default_hcp).with(9999)
+              create(:association, user: u, is_default_hcp: true, id: 9999)
+            end
+          end
+
+          context 'with is_default_hcp set to false' do
+            it "should not set the user's default HCP" do
+              u.should_not_receive(:set_default_hcp)
+              create(:association, user: u, is_default_hcp: false)
+            end
+          end
+
+          context 'without setting is_default_hcp' do
+            it "should not change the user's default HCP" do
+              u.should_not_receive(:set_default_hcp)
+              create(:association, user: u)
+            end
+          end
+        end
+
+        context 'updating an association' do
+          before { @association2 = create(:association, user: u) }
+
+          context 'with is_default_hcp set to true' do
+            context 'for default association' do
+              it "should update the user's default HCP" do
+                u.should_receive(:set_default_hcp).with(@association.id)
+                @association.update_attribute(:is_default_hcp, true)
+              end
+            end
+
+            context 'for other association' do
+              it "should update the user's default HCP" do
+                u.should_receive(:set_default_hcp).with(@association2.id)
+                @association2.update_attribute(:is_default_hcp, true)
+              end
+            end
+          end
+
+          context 'with is_default_hcp set to false' do
+            context 'for default association' do
+              it "should remove the user's default HCP" do
+                u.should_receive(:remove_default_hcp)
+                @association.update_attribute(:is_default_hcp, false)
+              end
+            end
+
+            context 'for other association' do
+              it "should not change the user's default HCP" do
+                u.should_not_receive(:remove_default_hcp)
+                @association2.update_attribute(:is_default_hcp, false)
+              end
+            end
+          end
+
+          context 'without setting is_default_hcp' do
+            context 'for default association' do
+              it "should not change the user's default HCP" do
+                u.should_not_receive(:remove_default_hcp)
+                @association.update_attribute(:state, 'foobar')
+              end
+            end
+
+            context 'for other association' do
+              it "should not change the user's default HCP" do
+                u.should_not_receive(:remove_default_hcp)
+                @association2.update_attribute(:state, 'foobar')
+              end
+            end
+          end
+        end
+      end
     end
   end
 

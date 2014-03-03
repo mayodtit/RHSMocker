@@ -3,11 +3,11 @@ class Api::V1::UsersController < Api::V1::ABaseController
   before_filter :convert_parameters!, only: [:update]
 
   def show
-    show_resource @user.serializer(scope: current_user)
+    show_resource @user.serializer(serializer_options)
   end
 
   def update
-    update_resource @user, permitted_params(@user).user, serializer_options: {scope: current_user}
+    update_resource @user, permitted_params(@user).user, serializer_options: serializer_options
   end
 
   def invite
@@ -26,5 +26,11 @@ class Api::V1::UsersController < Api::V1::ABaseController
 
   def convert_parameters!
     params[:user][:avatar] = decode_b64_image(params[:user][:avatar]) if params[:user][:avatar]
+  end
+
+  def serializer_options
+    {}.tap do |options|
+      options.merge!(include_nested_information: true) if current_user.care_provider?
+    end
   end
 end

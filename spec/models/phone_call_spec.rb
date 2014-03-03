@@ -525,6 +525,58 @@ describe PhoneCall do
     end
   end
 
+  describe '#publish' do
+    let(:phone_call) { build(:phone_call) }
+
+    context 'is called after' do
+      it 'create' do
+        phone_call.should_receive(:publish)
+        phone_call.save!
+      end
+
+      it 'update' do
+        phone_call.save!
+        phone_call.twilio_conference_name = 'poo'
+        phone_call.should_receive(:publish)
+        phone_call.save!
+      end
+    end
+
+    context 'new record' do
+      before do
+        phone_call.stub(:id_changed?) { true }
+      end
+
+      it 'publishes that a new phone call was created' do
+        PubSub.should_receive(:publish).with(
+            "/phone_calls/new",
+            {id: phone_call.id}
+          )
+        phone_call.publish
+      end
+    end
+
+    context 'old record' do
+      let(:phone_call) { build_stubbed(:phone_call) }
+
+      before do
+        phone_call.stub(:id_changed?) { false }
+      end
+
+      it 'publishes that a phone call was updated' do
+        PubSub.should_receive(:publish).with(
+          "/phone_calls/update",
+          { id: phone_call.id }
+        )
+        PubSub.should_receive(:publish).with(
+          "/phone_calls/#{phone_call.id}/update",
+          {id: phone_call.id}
+        )
+        phone_call.publish
+      end
+    end
+  end
+
   describe 'states' do
     let(:phone_call) { build(:phone_call, to_role_id: @nurse_id) }
     let(:other_phone_call) { build(:phone_call, to_role_id: @nurse_id) }

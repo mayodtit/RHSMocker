@@ -4,7 +4,10 @@ describe ScheduledPhoneCall do
   let(:scheduled_phone_call) { build(:scheduled_phone_call) }
 
   it_has_a 'valid factory'
+  it_has_a 'valid factory', :assigned
+  it_has_a 'valid factory', :booked
   it_validates 'presence of', :scheduled_at
+  it_validates 'foreign key of', :user
 
   describe '#notify_owner_of_assigned_call' do
     it 'notifies the owner they were assigned a time to receive a scheduled call' do
@@ -36,6 +39,23 @@ describe ScheduledPhoneCall do
         o
       }
       scheduled_phone_call.notify_owner_confirming_call
+    end
+  end
+
+  describe '#assign_pha_to_user!' do
+    let(:scheduled_phone_call) { create(:scheduled_phone_call, :booked) }
+
+    it "assigns the owner as the user's PHA" do
+      expect(scheduled_phone_call.user.pha).to be_nil
+      scheduled_phone_call.assign_pha_to_user!
+      expect(scheduled_phone_call.reload.user.pha).to eq(scheduled_phone_call.owner)
+    end
+
+    it 'does not change the PHA if one is already assigned' do
+      pha = create(:pha)
+      expect(scheduled_phone_call.user.update_attributes(pha: pha)).to be_true
+      scheduled_phone_call.assign_pha_to_user!
+      expect(scheduled_phone_call.reload.user.pha).to eq(pha)
     end
   end
 
@@ -103,34 +123,43 @@ describe ScheduledPhoneCall do
     end
 
     describe '#book' do
+      let(:member) { create(:member) }
+      let(:pha) { create(:pha) }
+      let(:scheduled_phone_call) { build(:scheduled_phone_call, :assigned, owner: pha) }
 
-      before do
-        scheduled_phone_call.state = 'assigned'
-        other_scheduled_phone_call.state = 'assigned'
-        scheduled_phone_call.owner = pha
-        other_scheduled_phone_call.owner = pha
-
-        scheduled_phone_call.update_attributes state_event: 'book', booker: pha, user: member, message: message
+      def book
+        scheduled_phone_call.update_attributes(state_event: 'book',
+                                               booker: pha,
+                                               user: member,
+                                               message: message)
       end
 
       it_behaves_like 'cannot transition from', :book!, [:ended, :canceled, :started, :unassigned]
 
       it 'changes the state to booked' do
-        scheduled_phone_call.should be_booked
+        expect(book).to be_true
+        expect(scheduled_phone_call).to be_booked
       end
 
       it 'sets the booked time' do
-        scheduled_phone_call.booked_at.should == Time.now
+        expect(book).to be_true
+        expect(scheduled_phone_call.booked_at).to eq(Time.now)
       end
 
       it 'notifies the owner confirming that they booked the call' do
-        other_scheduled_phone_call.should_receive :notify_user_confirming_call
-        other_scheduled_phone_call.update_attributes state_event: 'book', booker: pha, user: member, message: message
+        scheduled_phone_call.should_receive :notify_user_confirming_call
+        expect(book).to be_true
       end
 
       it 'notifies the user confirming that their call was booked' do
-        other_scheduled_phone_call.should_receive :notify_owner_confirming_call
-        other_scheduled_phone_call.update_attributes state_event: 'book', booker: pha, user: member, message: message
+        scheduled_phone_call.should_receive :notify_owner_confirming_call
+        expect(book).to be_true
+      end
+
+      it "assigns the owner as the user's PHA" do
+        expect(member.pha).to be_nil
+        expect(book).to be_true
+        expect(member.reload.pha).to eq(pha)
       end
     end
 

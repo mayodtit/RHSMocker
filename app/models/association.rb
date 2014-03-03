@@ -10,33 +10,34 @@ class Association < ActiveRecord::Base
                      inverse_of: :replacement
   belongs_to :pair, class_name: 'Association',
                     dependent: :destroy
-  has_many :permissions, foreign_key: :subject_id,
-                         dependent: :destroy
+  has_one :permission, foreign_key: :subject_id,
+                       dependent: :destroy,
+                       inverse_of: :subject
 
-  attr_accessor :default_hcp
+  attr_accessor :is_default_hcp
   attr_accessible :user, :user_id, :associate, :associate_id,
                   :creator, :creator_id,
                   :association_type, :association_type_id,
-                  :associate_attributes, :default_hcp, :replacement,
+                  :associate_attributes, :is_default_hcp, :replacement,
                   :replacement_id, :original, :state_event, :state, :pair,
                   :pair_id
 
-  validates :user, :associate, :creator, presence: true
+  validates :user, :associate, :creator, :permission, presence: true
   validates :associate_id, uniqueness: {scope: [:user_id, :association_type_id]}
   validates :replacement, presence: true, if: lambda{|a| a.replacement_id}
   validates :pair, presence: true, if: lambda{|a| a.pair_id}
   validate :user_is_not_associate
   validate :creator_id_not_changed
+  validates_associated :permission
 
   before_validation :build_related_associations, on: :create
-  after_save :add_user_default_hcp
-  before_destroy :remove_user_default_hcp
+  before_validation :create_default_permission, on: :create
+
+  # adding and removing the user's default HCP
+  after_save :process_default_hcp
+  before_destroy :remove_user_default_hcp_if_necessary
 
   accepts_nested_attributes_for :associate
-
-  def self.for_user_id_or_associate_id(user_id)
-    where('user_id = ? OR associate_id = ?', user_id, user_id)
-  end
 
   def self.enabled
     where(state: :enabled)
@@ -95,17 +96,28 @@ class Association < ActiveRecord::Base
     end
   end
 
+  def create_default_permission
+    self.permission ||= create_permission(basic_info: :edit,
+                                          medical_info: :edit,
+                                          care_team: :edit)
+  end
+
   def invited?
     associate.member ? Invitation.exists_for_pair?(user_id, associate.member.id) : false
   end
 
-  def add_user_default_hcp
-    user.update_attributes(default_hcp_association_id: self.id) if default_hcp
+  def process_default_hcp
+    if is_default_hcp.to_s == 'true'
+      user.set_default_hcp(id)
+    elsif is_default_hcp.to_s == 'false'
+      remove_user_default_hcp_if_necessary
+    end
   end
 
-  def remove_user_default_hcp
-    u = User.find_by_default_hcp_association_id(self.id)
-    u.update_attributes(default_hcp_association_id: nil) if u
+  def remove_user_default_hcp_if_necessary
+    if user.default_hcp_association_id == id
+      user.remove_default_hcp
+    end
   end
 
   state_machine initial: lambda{|a| a.initial_state} do

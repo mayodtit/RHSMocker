@@ -26,7 +26,7 @@ describe Api::V1::UserConditionsController do
       it 'returns an array of user conditions' do
         do_request
         json = JSON.parse(response.body)
-        json['user_conditions'].to_json.should == [user_condition.as_json].to_json
+        json['user_conditions'].to_json.should == [user_condition].serializer.as_json.to_json
       end
     end
   end
@@ -50,7 +50,7 @@ describe Api::V1::UserConditionsController do
       it 'returns the user conditions' do
         do_request
         json = JSON.parse(response.body)
-        json['user_condition'].to_json.should == user_condition.as_json.to_json
+        json['user_condition'].to_json.should == user_condition.serializer.as_json.to_json
       end
     end
   end
@@ -80,7 +80,7 @@ describe Api::V1::UserConditionsController do
         it 'returns the user condition' do
           do_request
           json = JSON.parse(response.body)
-          json['user_condition'].to_json.should == user_condition.as_json.to_json
+          json['user_condition'].to_json.should == user_condition.serializer.as_json.to_json
         end
       end
 

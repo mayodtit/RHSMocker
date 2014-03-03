@@ -1,16 +1,16 @@
 require 'spec_helper'
 
 describe PubSub do
-  describe '#publish' do
+  describe '#publish_without_delay' do
     it 'does nothing unless metadata says so' do
       Metadata.stub(:find_by_mkey).with('use_pub_sub') do
-        o = Object.new
+        o = Object
         o.stub(:try).with(:mvalue) { nil }
         o
       end
 
       Net::HTTP.should_not_receive(:post_form)
-      PubSub.new.publish('/messages', {id: 1})
+      PubSub.publish_without_delay('/messages', {id: 1})
     end
 
     context 'metadata activates' do
@@ -18,7 +18,7 @@ describe PubSub do
 
       before do
         Metadata.stub(:find_by_mkey).with('use_pub_sub') do
-          o = Object.new
+          o = Object
           o.stub(:try).with(:mvalue) { 'true' }
           o
         end
@@ -30,7 +30,7 @@ describe PubSub do
         Net::HTTP.should_receive(:post_form) do |uri, body|
           uri.should == 'http://www.example.com'
         end
-        PubSub.new.publish('/bodys', {id: 1})
+        PubSub.publish_without_delay('/bodys', {id: 1})
       end
 
       it 'sets the secret' do
@@ -38,7 +38,7 @@ describe PubSub do
           message = JSON.parse(body[:message])
           message['ext']['secret'].should == PUB_SUB_SECRET
         end
-        PubSub.new.publish('/bodys', {id: 1})
+        PubSub.publish_without_delay('/bodys', {id: 1})
       end
 
       it 'sets the channel according to the env' do
@@ -47,7 +47,7 @@ describe PubSub do
           message = JSON.parse(body[:message])
           message['channel'].should == '/production/messages'
         end
-        PubSub.new.publish('/messages', {id: 1})
+        PubSub.publish_without_delay('/messages', {id: 1})
       end
 
       it 'sets data' do
@@ -56,7 +56,7 @@ describe PubSub do
           message = JSON.parse(body[:message])
           message['data']['id'].should == 1
         end
-        PubSub.new.publish('/messages', {id: 1})
+        PubSub.publish_without_delay('/messages', {id: 1})
       end
     end
   end

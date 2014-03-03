@@ -36,4 +36,12 @@ class UserMailer < ActionMailer::Base
     attachments['event.ics'] = {:mime_type => 'text/calendar', :content => @scheduled_phone_call.owner_confirmation_calendar_event.export}
     mail(to: @scheduled_phone_call.owner.email, subject: 'BOOKED - Welcome Call')
   end
+
+  def notify_phas_of_message_email
+    to = 'abhik@getbetter.com'
+    to = 'pha@getbetter.com' if Rails.env.qa?
+    to = 'premium@getbetter.com' if Rails.env.production?
+
+    mail(to: to, subject: "NEW MESSAGE - Care Portal #{Rails.env}")
+  end
 end

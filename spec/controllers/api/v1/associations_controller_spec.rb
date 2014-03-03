@@ -7,7 +7,7 @@ describe Api::V1::AssociationsController do
 
   before do
     controller.stub(current_ability: ability)
-    Association.stub_chain(:for_user_id_or_associate_id, :enabled).and_return([association])
+    user.stub_chain(:associations, :enabled).and_return([association])
     user.stub_chain(:associations, :find).and_return(association)
     association.stub(:invite!)
   end

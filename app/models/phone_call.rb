@@ -39,6 +39,7 @@ class PhoneCall < ActiveRecord::Base
   before_validation :transition_state
 
   after_create :dial_if_outbound
+  after_save :publish
 
   delegate :consult, :to => :message
 
@@ -174,6 +175,15 @@ class PhoneCall < ActiveRecord::Base
       origin_twilio_sid: origin_twilio_sid,
       origin_status: CONNECTED_STATUS
     )
+  end
+
+  def publish
+    if id_changed? # new record
+      PubSub.publish "/phone_calls/new", { id: id }
+    else
+      PubSub.publish "/phone_calls/update", { id: id }
+      PubSub.publish "/phone_calls/#{id}/update", { id: id }
+    end
   end
 
   private

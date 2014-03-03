@@ -21,33 +21,97 @@ describe Message do
       message.stub(:phone_call_id) { nil }
     end
 
-    context 'user message' do
-      it 'publishes a notification' do
-        PubSub.should_receive(:new) do
-          o = Object.new
-          o.should_receive(:publish).with(
+    context 'on create' do
+      before do
+        message.stub(:id_changed?) { true }
+      end
+
+      context 'user message' do
+        it 'publishes that a message was created' do
+          PubSub.should_receive(:publish).with(
             "/users/#{message.consult.initiator_id}/consults/#{message.consult_id}/messages/new",
             {id: message.id}
           )
-          o
+          PubSub.should_receive(:publish).with(
+            "/messages/new",
+            {id: message.id}
+          )
+          message.publish
         end
-        message.publish
+
+        context 'unread by cp' do
+          before do
+            message.stub(:unread_by_cp?) { true }
+          end
+
+          it 'should send an email' do
+            UserMailer.should_receive(:delay) do
+              o = Object.new
+              o.should_receive(:notify_phas_of_message_email)
+              o
+            end
+            message.publish
+          end
+        end
+
+        context 'read by cp' do
+          before do
+            message.stub(:unread_by_cp?) { false }
+          end
+
+          it 'should send an email' do
+            UserMailer.should_not_receive(:delay)
+            message.publish
+          end
+        end
+      end
+
+      context 'is a phone call message' do
+        it 'doesn\'t publish' do
+          message.stub(:phone_call_id) { 1 }
+          PubSub.should_not_receive(:publish)
+          UserMailer.should_not_receive(:delay)
+          message.publish
+        end
+      end
+
+      context 'is a scheduled phone call message' do
+        it 'doesn\'t publish' do
+          message.stub(:scheduled_phone_call_id) { 1 }
+          PubSub.should_not_receive(:publish)
+          UserMailer.should_not_receive(:delay)
+          message.publish
+        end
       end
     end
 
-    context 'is a phone call message' do
-      it 'doesn\'t publish' do
-        message.stub(:phone_call_id) { 1 }
-        PubSub.should_not_receive(:new)
-        message.publish
+    context 'on save' do
+      before do
+        message.stub(:id_changed?) { false }
       end
-    end
 
-    context 'is a scheduled phone call message' do
-      it 'doesn\'t publish' do
-        message.stub(:scheduled_phone_call_id) { 1 }
-        PubSub.should_not_receive(:new)
-        message.publish
+      context 'read status changed' do
+        before do
+          message.stub(:unread_by_cp_changed?) { true }
+        end
+
+        it 'publishes' do
+          PubSub.should_receive(:publish).with(
+            "/messages/update/read",
+            {id: message.id}
+          )
+          message.publish
+        end
+      end
+
+      context 'read status didn\'t change' do
+        before do
+          message.stub(:unread_by_cp_changed?) { false }
+        end
+
+        it 'doesn\'t publish' do
+          PubSub.should_not_receive(:publish)
+        end
       end
     end
   end

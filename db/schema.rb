@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140221193859) do
+ActiveRecord::Schema.define(:version => 20140226000053) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -162,6 +162,7 @@ ActiveRecord::Schema.define(:version => 20140221193859) do
     t.boolean  "show_mayo_logo",         :default => true,  :null => false
     t.boolean  "has_custom_card",        :default => false, :null => false
     t.text     "card_actions"
+    t.integer  "condition_id"
   end
 
   add_index "contents", ["document_id"], :name => "index_contents_on_document_id"
@@ -340,12 +341,12 @@ ActiveRecord::Schema.define(:version => 20140221193859) do
   end
 
   create_table "permissions", :force => true do |t|
-    t.integer  "user_id"
     t.integer  "subject_id"
-    t.string   "name"
-    t.string   "level"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.string   "basic_info"
+    t.string   "medical_info"
+    t.string   "care_team"
   end
 
   create_table "phone_call_summaries", :force => true do |t|
@@ -712,6 +713,7 @@ ActiveRecord::Schema.define(:version => 20140221193859) do
     t.boolean  "member_flag"
     t.string   "provider_taxonomy_code"
     t.integer  "owner_id"
+    t.integer  "pha_id"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true

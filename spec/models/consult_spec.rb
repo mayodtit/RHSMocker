@@ -8,6 +8,27 @@ describe Consult do
   it_validates 'presence of', :title
   it_validates 'foreign key of', :symptom
 
+  describe '#publish' do
+    let(:consult) { build_stubbed(:consult) }
+
+    it 'publishes a notification' do
+      PubSub.should_receive(:publish).with(
+          "/consults/empty/new",
+          {id: consult.id}
+        )
+      consult.publish
+    end
+
+    it 'sends an email' do
+      UserMailer.should_receive(:delay) do
+        o = Object.new
+        o.should_receive(:notify_phas_of_message_email)
+        o
+      end
+      consult.publish
+    end
+  end
+
   describe 'state machine' do
     describe 'states' do
       it 'sets the initial state to :open' do

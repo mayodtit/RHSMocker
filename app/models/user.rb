@@ -93,18 +93,6 @@ class User < ActiveRecord::Base
     end
   end
 
-  BASE_OPTIONS = {:only => [:id, :first_name, :last_name, :birth_date, :blood_type,
-                            :diet_id, :email, :ethnic_group_id, :gender, :height,
-                            :deceased, :date_of_death, :npi_number, :expertise,
-                            :phone, :nickname, :city, :state, :work_phone_number, :provider_taxonomy_code],
-                  :methods => [:blood_pressure, :avatar_url, :weight, :admin?, :nurse?, :pha?, :pha_lead?,
-                               :care_provider?, :ethnic_group, :diet, :full_name, :taxonomy_classification]}
-
-  def serializable_hash(options = nil)
-    options = BASE_OPTIONS if options.blank?
-    super(options)
-  end
-
   def member
     return nil unless email
     Member.find_by_email(email)
@@ -150,6 +138,14 @@ class User < ActiveRecord::Base
 
   def self.members
     where(type: 'Member')
+  end
+
+  def set_default_hcp(association_id)
+    self.update_attribute(:default_hcp_association_id, association_id)
+  end
+
+  def remove_default_hcp
+    self.update_attribute(:default_hcp_association_id, nil)
   end
 
   #############################################################################
