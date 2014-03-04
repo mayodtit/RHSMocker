@@ -143,17 +143,16 @@ class Association < ActiveRecord::Base
     end
 
     before_transition :pending => :enabled do |association, transition|
+      association.create_pair_association!
+    end
+
+    after_transition :pending => :enabled do |association, transition|
       if association.original
         association.original.update_attributes!(state_event: :disable)
       end
-      association.pair = association.class.new(user_id: association.associate_id,
-                                               associate_id: association.user_id,
-                                               creator_id: association.associate_id,
-                                               pair_id: association.id,
-                                               state: :enabled)
     end
 
-    before_transition any => :disabled do |association, transition|
+    after_transition any - :disabled => :disabled do |association, transition|
       if association.original
         association.original.update_attributes!(state_event: :enable)
       end
