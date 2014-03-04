@@ -51,7 +51,16 @@ class Association < ActiveRecord::Base
                                                         creator_id: user_id,
                                                         association_type: association_type,
                                                         state: 'pending'))
+      create_pair_association!
     end
+  end
+
+  def create_pair_association!
+    update_attributes!(pair: build_pair(user_id: associate_id,
+                                        associate_id: user_id,
+                                        creator_id: associate_id,
+                                        pair_id: id,
+                                        state: 'enabled'))
   end
 
   def initial_state
