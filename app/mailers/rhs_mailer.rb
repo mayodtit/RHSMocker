@@ -33,7 +33,13 @@ class RHSMailer < MandrillMailer::TemplateMailer
 
     template_clare  = 'Welcome Call Confirmation (Clare) - TEMPLATE v140217'
     template_lauren = 'Welcome Call Confirmation (Lauren) - TEMPLATE v140217'
-    t = (from_email == 'lauren@getbetter.com' ? template_lauren : template_clare)
+    template_meg    = 'Welcome Call Confirmation (Meg) - TEMPLATE v140303'
+
+    t = case from_email
+          when 'lauren@getbetter.com' then template_lauren
+          when 'meg@getbetter.com' then template_meg
+          else template_clare
+        end
 
     mandrill_mail(
       subject: 'Better Welcome Call Confirmation',
