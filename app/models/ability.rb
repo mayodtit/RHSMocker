@@ -32,7 +32,7 @@ class Ability
     end
 
     can :manage, Permission do |p|
-      user.id == p.subject.associate_id
+      user.id == p.subject.associate_id || user.id == p.subject.associate.owner_id
     end
 
     can :manage, [BloodPressure, UserTreatment, UserAllergy, UserCondition, Weight, Card, Subscription] do |o|
