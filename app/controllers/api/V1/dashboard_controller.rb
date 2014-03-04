@@ -1,5 +1,6 @@
 class Api::V1::DashboardController < Api::V1::ABaseController
   before_filter :authorize_user!
+  before_filter :authorize_admin!, only: [:onboarding_members, :onboarding_calls]
 
   def index
     render_success(counts: {
@@ -12,11 +13,49 @@ class Api::V1::DashboardController < Api::V1::ABaseController
                            })
   end
 
+  ONBOARDING_MEMBERS_COLUMNS = %w(email created_at)
+  def onboarding_members
+    @data = CSV.generate do |csv|
+      csv << ONBOARDING_MEMBERS_COLUMNS
+      Member.joins(:waitlist_entry).find_each do |member|
+        csv << member.attributes.values_at(*ONBOARDING_MEMBERS_COLUMNS)
+      end
+    end
+
+    respond_to do |format|
+      format.csv { send_data @data }
+    end
+  end
+
+  def onboarding_calls
+    @data = CSV.generate do |csv|
+      csv << %w(email pha created_at scheduled_at)
+      ScheduledPhoneCall.where(state: :booked).includes(:user, :owner).find_each do |spc|
+        csv << [spc.user.email,
+                spc.owner.email,
+                format_time_for_csv(spc.created_at),
+                format_time_for_csv(spc.scheduled_at)]
+      end
+    end
+
+    respond_to do |format|
+      format.csv { send_data @data }
+    end
+  end
+
   private
 
   def authorize_user!
     unless current_user.admin? || current_user.pha?
       raise CanCan::AccessDenied
     end
+  end
+
+  def authorize_admin!
+    raise CanCan::AccessDenied unless current_user.admin?
+  end
+
+  def format_time_for_csv(time)
+    time.to_time.getlocal('-08:00').strftime('%m/%d/%Y %I:%M %p')
   end
 end
