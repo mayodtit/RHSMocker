@@ -14,6 +14,10 @@ FactoryGirl.define do
       state 'disabled'
     end
 
+    trait :associate_with_email do
+      associate { association(:user, owner: user, email: 'test@test.getbetter.com') }
+    end
+
     trait :member_associate do
       association :associate, factory: :member
     end
