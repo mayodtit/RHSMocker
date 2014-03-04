@@ -56,16 +56,12 @@ class Association < ActiveRecord::Base
   end
 
   def create_pair_association!
-    transaction do
-      update_attributes!(pair: build_pair(user_id: associate_id,
-                                          associate_id: user_id,
-                                          creator_id: associate_id,
-                                          pair_id: id,
-                                          state: 'enabled'))
-      if original.try(:pair)
-        original.pair.update_attributes!(replacement: pair)
-      end
-    end
+    update_attributes!(pair: build_pair(user_id: associate_id,
+                                        associate_id: user_id,
+                                        creator_id: associate_id,
+                                        pair_id: id,
+                                        original: original.try(:pair),
+                                        state: 'enabled'))
   end
 
   def initial_state
@@ -111,9 +107,11 @@ class Association < ActiveRecord::Base
   end
 
   def create_default_permission
-    self.permission ||= create_permission(basic_info: :edit,
-                                          medical_info: :edit,
-                                          care_team: :edit)
+    self.permission ||= if original.try(:permission)
+                          create_permission(original.permission.current_levels)
+                        else
+                          create_permission(Permission.default_levels)
+                        end
   end
 
   def invited?

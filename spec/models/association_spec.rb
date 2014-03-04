@@ -36,6 +36,16 @@ describe Association do
         expect(permission.reload.subject).to eq(association)
         expect(association.reload.permission).to eq(permission)
       end
+
+      context 'with an original with permissions' do
+        let!(:original) { create(:association) }
+
+        it 'creates permission from the original permissions' do
+          original.permission.update_attributes!(basic_info: :view)
+          association = create(:association, :skip_permission, original: original)
+          expect(association.permission.basic_info).to eq(:view)
+        end
+      end
     end
 
     describe '#remove_user_default_hcp_if_necessary' do
