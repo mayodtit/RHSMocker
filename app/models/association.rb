@@ -157,6 +157,9 @@ class Association < ActiveRecord::Base
       if association.original
         association.original.update_attributes!(state_event: :enable)
       end
+      if association.pair
+        association.pair.update_attributes!(state_event: :disable)
+      end
     end
   end
 end
