@@ -56,11 +56,16 @@ class Association < ActiveRecord::Base
   end
 
   def create_pair_association!
-    update_attributes!(pair: build_pair(user_id: associate_id,
-                                        associate_id: user_id,
-                                        creator_id: associate_id,
-                                        pair_id: id,
-                                        state: 'enabled'))
+    transaction do
+      update_attributes!(pair: build_pair(user_id: associate_id,
+                                          associate_id: user_id,
+                                          creator_id: associate_id,
+                                          pair_id: id,
+                                          state: 'enabled'))
+      if original.try(:pair)
+        original.pair.update_attributes!(replacement: pair)
+      end
+    end
   end
 
   def initial_state
