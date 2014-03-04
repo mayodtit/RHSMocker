@@ -51,7 +51,17 @@ class Association < ActiveRecord::Base
                                                         creator_id: user_id,
                                                         association_type: association_type,
                                                         state: 'pending'))
+      create_pair_association!
     end
+  end
+
+  def create_pair_association!
+    update_attributes!(pair: build_pair(user_id: associate_id,
+                                        associate_id: user_id,
+                                        creator_id: associate_id,
+                                        pair_id: id,
+                                        original: original.try(:pair),
+                                        state: 'enabled'))
   end
 
   def initial_state
@@ -97,9 +107,11 @@ class Association < ActiveRecord::Base
   end
 
   def create_default_permission
-    self.permission ||= create_permission(basic_info: :edit,
-                                          medical_info: :edit,
-                                          care_team: :edit)
+    self.permission ||= if original.try(:permission)
+                          create_permission(original.permission.current_levels)
+                        else
+                          create_permission(Permission.default_levels)
+                        end
   end
 
   def invited?
@@ -134,19 +146,21 @@ class Association < ActiveRecord::Base
     end
 
     before_transition :pending => :enabled do |association, transition|
+      association.create_pair_association!
+    end
+
+    after_transition :pending => :enabled do |association, transition|
       if association.original
         association.original.update_attributes!(state_event: :disable)
       end
-      association.pair = association.class.new(user_id: association.associate_id,
-                                               associate_id: association.user_id,
-                                               creator_id: association.associate_id,
-                                               pair_id: association.id,
-                                               state: :enabled)
     end
 
-    before_transition any => :disabled do |association, transition|
+    after_transition any - :disabled => :disabled do |association, transition|
       if association.original
         association.original.update_attributes!(state_event: :enable)
+      end
+      if association.pair
+        association.pair.update_attributes!(state_event: :disable)
       end
     end
   end

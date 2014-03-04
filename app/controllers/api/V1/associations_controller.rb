@@ -26,7 +26,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def invite
     @association.invite!
-    render_success
+    show_resource @association.pair.serializer
   end
 
   private
