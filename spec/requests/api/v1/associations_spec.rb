@@ -90,8 +90,8 @@ describe 'Associations' do
       context 'with a Member associate' do
         let!(:associate_member) { create(:member, email: associate.email) }
 
-        it 'creates a pending MemberAssociation to the associate Member' do
-          expect{ do_request }.to change(Association, :count).by(1)
+        it 'creates a pending association to the associate Member' do
+          expect{ do_request }.to change(Association, :count).by(2)
           expect(response).to be_success
           new_association = user.reload.associations.find_by_associate_id!(associate_member.id)
           expect(new_association.state?(:pending)).to be_true
