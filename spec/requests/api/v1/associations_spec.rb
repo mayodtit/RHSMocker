@@ -73,7 +73,7 @@ describe 'Associations' do
       end
 
       context 'without a Member associate' do
-        it 'creates and invites the Member' do
+        it 'creates and invites the Member and returns the pair association' do
           expect{ do_request }.to change(Member, :count).by(1)
           expect(response).to be_success
           new_member = associate.member
@@ -84,13 +84,15 @@ describe 'Associations' do
           expect(new_association.associate).to eq(new_member)
           expect(new_association.association_type).to eq(association.association_type)
           expect(new_association.original).to eq(association)
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:association].to_json).to eq(association.reload.pair.serializer.as_json.to_json)
         end
       end
 
       context 'with a Member associate' do
         let!(:associate_member) { create(:member, email: associate.email) }
 
-        it 'creates a pending association to the associate Member' do
+        it 'creates a pending association to the associate Member and returns the pair association' do
           expect{ do_request }.to change(Association, :count).by(2)
           expect(response).to be_success
           new_association = user.reload.associations.find_by_associate_id!(associate_member.id)
@@ -99,6 +101,8 @@ describe 'Associations' do
           expect(new_association.associate).to eq(associate_member)
           expect(new_association.association_type).to eq(association.association_type)
           expect(new_association.original).to eq(association)
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:association].to_json).to eq(association.reload.pair.serializer.as_json.to_json)
         end
       end
     end

@@ -9,7 +9,6 @@ describe Api::V1::AssociationsController do
     controller.stub(current_ability: ability)
     user.stub_chain(:associations, :enabled).and_return([association])
     user.stub_chain(:associations, :find).and_return(association)
-    association.stub(:invite!)
   end
 
   describe 'GET index' do
@@ -168,6 +167,11 @@ describe Api::V1::AssociationsController do
   describe 'POST invite' do
     def do_request
       post :invite
+    end
+
+    before do
+      association.stub(:invite!)
+      association.stub(pair: build_stubbed(:association))
     end
 
     it_behaves_like 'action requiring authentication and authorization'
