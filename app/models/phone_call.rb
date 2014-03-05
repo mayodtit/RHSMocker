@@ -15,6 +15,7 @@ class PhoneCall < ActiveRecord::Base
   belongs_to :transferred_to_phone_call, class_name: 'PhoneCall'
 
   has_one :message, :inverse_of => :phone_call
+  has_one :consult, through: :message
   has_one :scheduled_phone_call
   has_one :transferred_from_phone_call, class_name: 'PhoneCall', foreign_key: :transferred_to_phone_call_id
 
@@ -40,8 +41,6 @@ class PhoneCall < ActiveRecord::Base
 
   after_create :dial_if_outbound
   after_save :publish
-
-  delegate :consult, :to => :message
 
   # for metrics
   scope :to_nurse_line, -> { where(destination_phone_number: PhoneCall.nurseline_numbers) }

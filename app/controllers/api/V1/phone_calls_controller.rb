@@ -10,7 +10,10 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
     authorize! :read, PhoneCall
 
     phone_calls = []
-    PhoneCall.where(params.permit(:state)).order('created_at ASC').find_each do |p|
+    PhoneCall.where(params.permit(:state))
+             .includes(:to_role, :user, consult: [:initiator, :subject])
+             .order('created_at ASC')
+             .each do |p|
       phone_calls.push(p) if can? :read, p
     end
 

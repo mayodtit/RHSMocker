@@ -20,7 +20,7 @@ describe Api::V1::PhoneCallsController do
       let(:phone_calls) { [build_stubbed(:phone_call), build_stubbed(:phone_call)] }
 
       before do
-        PhoneCall.stub_chain(:where, :order, :find_each).and_yield(phone_calls[0]).and_yield(phone_calls[1])
+        PhoneCall.stub_chain(:where, :includes, :order).and_return(phone_calls)
       end
 
       it_behaves_like 'success'
