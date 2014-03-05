@@ -24,10 +24,22 @@ describe 'Permissions' do
         put "/api/v1/associations/#{association.id}/permission", params.merge!(auth_token: user.auth_token)
       end
 
-      it 'returns forbidden' do
+      it 'is successful' do
         do_request(permission: {basic_info: :view})
-        expect(response).to_not be_success
-        expect(response.status).to eq(403)
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:permission].to_json).to eq(permission.reload.serializer.as_json.to_json)
+      end
+
+      context 'user does not own associate' do
+        let!(:associate) { create(:member) }
+        let!(:association) { create(:association, user: user, associate: associate) }
+
+        it 'returns forbidden' do
+          do_request(permission: {basic_info: :view})
+          expect(response).to_not be_success
+          expect(response.status).to eq(403)
+        end
       end
     end
   end
