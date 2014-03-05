@@ -38,6 +38,7 @@ group :development, :test do
   gem "zeus-parallel_tests"
   gem 'factory_girl_rails'
   gem 'guard-rspec'
+  gem 'byebug'
 end
 
 group :development do

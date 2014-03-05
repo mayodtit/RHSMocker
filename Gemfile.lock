@@ -67,6 +67,9 @@ GEM
     awesome_print (1.1.0)
     bcrypt-ruby (3.0.1)
     builder (3.0.4)
+    byebug (2.7.0)
+      columnize (~> 0.3)
+      debugger-linecache (~> 1.2)
     cancan (1.6.9)
     capistrano (2.15.5)
       highline
@@ -88,11 +91,13 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.4.0)
+    columnize (0.3.6)
     commonjs (0.2.6)
     crack (0.4.1)
       safe_yaml (~> 0.9.0)
     curb (0.8.4)
     daemons (1.1.9)
+    debugger-linecache (1.2.0)
     delayed_job (3.0.5)
       activesupport (~> 3.0)
     delayed_job_active_record (0.4.4)
@@ -359,6 +364,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers
   awesome_print
+  byebug
   cancan
   capistrano (~> 2.15)
   carrierwave
