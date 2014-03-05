@@ -22,6 +22,7 @@ class User < ActiveRecord::Base
   has_one :address
   has_one :insurance_policy
   has_one :provider
+  has_one :emergency_contact
 
   belongs_to :default_hcp_association, class_name: 'Association', foreign_key: :default_hcp_association_id
   has_one :default_hcp, through: :default_hcp_association, source: :associate
