@@ -40,6 +40,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
         attributes << {address_attributes: address_attributes}
         attributes << {insurance_policy_attributes: insurance_policy_attributes}
         attributes << {provider_attributes: provider_attributes}
+        attributes << {emergency_contact_attributes: emergency_contact_attributes}
       end
     end
   end
@@ -73,6 +74,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
 
   def provider_attributes
     [:id, :address, :city, :state, :postal_code, :phone]
+  end
+
+  def emergency_contact_attributes
+    [:id, :name, :phone_number, :designee_id]
   end
 
   def association_attributes
