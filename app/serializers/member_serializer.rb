@@ -29,7 +29,8 @@ class MemberSerializer < ActiveModel::Serializer
         attributes.merge!(user_information: object.user_information,
                           address: object.address,
                           insurance_policy: object.insurance_policy,
-                          provider: object.provider)
+                          provider: object.provider,
+                          emergency_contact: object.emergency_contact.serializer.as_json)
       end
     end
   end

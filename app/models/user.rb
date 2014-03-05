@@ -37,6 +37,7 @@ class User < ActiveRecord::Base
   accepts_nested_attributes_for :address
   accepts_nested_attributes_for :insurance_policy
   accepts_nested_attributes_for :provider
+  accepts_nested_attributes_for :emergency_contact
 
   attr_accessor :self_owner
 
@@ -45,7 +46,7 @@ class User < ActiveRecord::Base
                   :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data,
                   :user_information_attributes, :address_attributes, :insurance_policy_attributes,
                   :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id,
-                  :provider_taxonomy_code, :owner, :owner_id, :self_owner
+                  :provider_taxonomy_code, :owner, :owner_id, :self_owner, :emergency_contact_attributes
 
   validate :member_flag_is_nil
   validates :deceased, :inclusion => {:in => [true, false]}
