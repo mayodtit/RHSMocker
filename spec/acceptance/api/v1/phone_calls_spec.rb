@@ -28,10 +28,6 @@ resource "PhoneCalls" do
     phone_call
   end
 
-  before(:each) do
-    user.login
-  end
-
   describe 'phone calls' do
     parameter :auth_token, 'Performing hcp\'s auth_token'
     parameter :state, 'Filter by the state of phone call (\'claimed\',\'unclaimed\', \'ended\')'
@@ -44,16 +40,9 @@ resource "PhoneCalls" do
     get '/api/v1/phone_calls/' do
       example_request '[GET] Get all phone calls' do
         explanation 'Get all phone calls (along with the caller\'s information), most recent first. Accessible only by HCPs'
-        status.should == 200
-        response = JSON.parse response_body, symbolize_names: true
-        response[:phone_calls].to_json.should == [phone_call, other_phone_call].as_json(
-          include: {
-            user: {
-              only: [:first_name, :last_name, :email],
-              methods: [:full_name]
-            }
-          }
-        ).to_json
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:phone_calls].to_json).to eq([phone_call, other_phone_call].serializer.as_json.to_json)
       end
     end
   end
@@ -70,9 +59,9 @@ resource "PhoneCalls" do
     get '/api/v1/phone_calls/:id' do
       example_request '[GET] Get a phone call' do
         explanation 'Get a phone call (along with the caller\'s information). Accessible only by HCPs'
-        status.should == 200
-        response = JSON.parse response_body, symbolize_names: true
-        response[:phone_call].to_json.should == phone_call.as_json(include: [:user, consult: {include: [:subject, :initiator]}]).to_json
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:phone_call].to_json).to eq(phone_call.serializer.as_json.to_json)
       end
     end
   end
@@ -94,9 +83,9 @@ resource "PhoneCalls" do
     put '/api/v1/phone_calls/:id' do
       example_request '[PUT] Update a phone call' do
         explanation 'Get a phone call (along with the caller\'s information). Accessible only by HCPs'
-        status.should == 200
-        response = JSON.parse response_body, symbolize_names: true
-        response[:phone_call].to_json.should == phone_call.reload.as_json(include: [:user, consult: {include: [:subject, :initiator]}]).to_json
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:phone_call].to_json).to eq(phone_call.reload.serializer.as_json.to_json)
       end
     end
   end

@@ -14,19 +14,12 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
       phone_calls.push(p) if can? :read, p
     end
 
-    index_resource phone_calls.as_json(
-      include: {
-        user: {
-          only: [:first_name, :last_name, :email],
-          methods: [:full_name]
-        }
-      }
-    )
+    index_resource phone_calls.serializer
   end
 
   def show
     authorize! :read, @phone_call
-    show_resource @phone_call.as_json(include: [:user, consult: {include: [:subject, :initiator]}])
+    show_resource @phone_call.serializer
   end
 
   def update
@@ -38,11 +31,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
       update_params[update_params[:state_event].event_actor.to_sym] = current_user
     end
 
-    if @phone_call.update_attributes update_params
-      show_resource @phone_call.as_json(include: [:user, consult: {include: [:subject, :initiator]}])
-    else
-      render_failure({reason: @phone_call.errors.full_messages.to_sentence}, 422)
-    end
+    update_resource @phone_call, update_params
   end
 
   def connect_origin
