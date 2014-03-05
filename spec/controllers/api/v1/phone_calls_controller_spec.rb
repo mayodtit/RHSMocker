@@ -1,70 +1,39 @@
 require 'spec_helper'
 
 describe Api::V1::PhoneCallsController do
-  let(:user) do
-    member = build_stubbed :member
-    member.add_role :nurse
-    member
-  end
-
-  let(:nurse_role) do
-    Role.find_by_name! :nurse
-  end
-
+  let(:user) { build_stubbed(:member).tap{|u| u.add_role(:nurse)} }
+  let(:nurse_role) { Role.find_by_name!(:nurse) }
   let(:ability) { Object.new.extend(CanCan::Ability) }
 
-  before(:each) do
+  before do
     controller.stub(:current_ability => ability)
   end
 
   describe 'GET index' do
-    def do_request
-      get :index, auth_token: user.auth_token
+    def do_request(params={})
+      get :index, params.merge!(auth_token: user.auth_token)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+      let(:phone_calls) { [build_stubbed(:phone_call), build_stubbed(:phone_call)] }
+
       before do
-        @phone_calls = [build_stubbed(:phone_call), build_stubbed(:phone_call)]
-        PhoneCall.stub(:where) {
-          o = Object.new
-          o.stub(:order).with('created_at ASC') {
-            o_o = Object.new
-            o_o.stub(:find_each).and_yield(@phone_calls[0]).and_yield(@phone_calls[1])
-            o_o
-          }
-          o
-        }
+        PhoneCall.stub_chain(:where, :includes, :order).and_return(phone_calls)
       end
 
       it_behaves_like 'success'
 
       it 'returns phone calls with the state parameter' do
-        json = @phone_calls.as_json(
-          include: {
-            user: {
-              only: [:first_name, :last_name, :email],
-              methods: [:full_name]
-            }
-          }
-        )
-
-        controller.should_receive(:index_resource).with(json).and_call_original
-        get :index, auth_token: user.auth_token, state: 'unclaimed'
+        do_request(state: 'unclaimed')
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:phone_calls].to_json).to eq(phone_calls.serializer.as_json.to_json)
       end
 
-      it 'doesn\'t permit other query parameters' do
-        PhoneCall.should_receive(:where).with('state' => 'unclaimed') {
-          o = Object.new
-          o.stub(:order).with('created_at ASC') {
-            o_o = Object.new
-            o_o.stub(:find_each).and_yield(@phone_calls[0]).and_yield(@phone_calls[1])
-            o_o
-          }
-          o
-        }
-        get :index, auth_token: user.auth_token, state: 'unclaimed', member_id: '1'
+      it "doesn't permit other query parameters" do
+        PhoneCall.should_receive(:where).with('state' => 'unclaimed')
+        do_request(state: 'unclaimed', member_id: 1)
       end
     end
   end
