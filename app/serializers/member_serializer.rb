@@ -30,7 +30,7 @@ class MemberSerializer < ActiveModel::Serializer
                           address: object.address,
                           insurance_policy: object.insurance_policy,
                           provider: object.provider,
-                          emergency_contact: object.emergency_contact.serializer.as_json)
+                          emergency_contact: object.emergency_contact.try(:serializer).try(:as_json))
       end
     end
   end
