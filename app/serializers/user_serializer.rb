@@ -5,7 +5,7 @@ class UserSerializer < ActiveModel::Serializer
              :diet_id, :email, :ethnic_group_id, :gender, :height,
              :deceased, :date_of_death, :npi_number, :expertise,
              :phone, :nickname, :city, :state, :work_phone_number,
-             :avatar_url, :ethnic_group, :diet,
+             :avatar_url, :ethnic_group, :diet, :address,
              :full_name, :provider_taxonomy_code, :taxonomy_classification
 
   def attributes
@@ -17,7 +17,6 @@ class UserSerializer < ActiveModel::Serializer
 
       if options[:include_nested_information]
         attributes.merge!(user_information: object.user_information,
-                          address: object.address,
                           insurance_policy: object.insurance_policy,
                           provider: object.provider)
       end
