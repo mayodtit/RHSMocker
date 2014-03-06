@@ -59,8 +59,10 @@ class Member < User
     role_names.include?(role.to_s)
   end
 
-  def add_role(role)
-    roles << Role.where(name: role).first_or_create!
+  def add_role(role_name)
+    role = Role.where(name: role_name).first_or_create!
+    roles << role
+    @role_names << role.name.to_s if @role_names
   end
 
   def admin?
