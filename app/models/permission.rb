@@ -12,4 +12,20 @@ class Permission < ActiveRecord::Base
 
   validates :subject, presence: true
   validates :subject_id, uniqueness: true
+
+  def self.default_levels
+    {
+      basic_info: :edit,
+      medical_info: :edit,
+      care_team: :edit
+    }
+  end
+
+  def current_levels
+    {
+      basic_info: basic_info,
+      medical_info: medical_info,
+      care_team: care_team
+    }
+  end
 end

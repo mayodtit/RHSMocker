@@ -22,6 +22,7 @@ class User < ActiveRecord::Base
   has_one :address
   has_one :insurance_policy
   has_one :provider
+  has_one :emergency_contact
 
   belongs_to :default_hcp_association, class_name: 'Association', foreign_key: :default_hcp_association_id
   has_one :default_hcp, through: :default_hcp_association, source: :associate
@@ -36,13 +37,16 @@ class User < ActiveRecord::Base
   accepts_nested_attributes_for :address
   accepts_nested_attributes_for :insurance_policy
   accepts_nested_attributes_for :provider
+  accepts_nested_attributes_for :emergency_contact
+
+  attr_accessor :self_owner
 
   attr_accessible :first_name, :last_name, :avatar, :gender, :height, :birth_date, :email,
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
                   :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data,
                   :user_information_attributes, :address_attributes, :insurance_policy_attributes,
                   :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id,
-                  :provider_taxonomy_code, :owner, :owner_id
+                  :provider_taxonomy_code, :owner, :owner_id, :self_owner, :emergency_contact_attributes
 
   validate :member_flag_is_nil
   validates :deceased, :inclusion => {:in => [true, false]}
@@ -192,8 +196,14 @@ class User < ActiveRecord::Base
 
   private
 
+  def self_owner
+    @self_owner || false
+  end
+
   def set_owner
-    self.owner ||= self if npi_number.present?
+    if self_owner || npi_number.present?
+      self.owner ||= self
+    end
   end
 
   def member_flag_is_nil

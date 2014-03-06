@@ -40,7 +40,10 @@ RHSMocker::Application.routes.draw do
         post 'status/destination', on: :member, to: 'phone_calls#status_destination'
         post 'status', on: :collection, to: 'phone_calls#status'
       end
-      resources :dashboard, only: :index
+      resources :dashboard, only: :index do
+        get :onboarding_members, on: :collection
+        get :onboarding_calls, on: :collection
+      end
       resources :diseases, :only => :index, :controller => :conditions
       resources :ethnic_groups, :only => :index
       get 'factors/:symptom_id', to: 'factor_groups#index' # TODO - deprecated!

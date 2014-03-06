@@ -15,6 +15,7 @@ class PhoneCall < ActiveRecord::Base
   belongs_to :transferred_to_phone_call, class_name: 'PhoneCall'
 
   has_one :message, :inverse_of => :phone_call
+  has_one :consult, through: :message
   has_one :scheduled_phone_call
   has_one :transferred_from_phone_call, class_name: 'PhoneCall', foreign_key: :transferred_to_phone_call_id
 
@@ -41,8 +42,6 @@ class PhoneCall < ActiveRecord::Base
   after_create :dial_if_outbound
   after_save :publish
 
-  delegate :consult, :to => :message
-
   # for metrics
   scope :to_nurse_line, -> { where(destination_phone_number: PhoneCall.nurseline_numbers) }
   scope :valid_call, -> { where('ended_at - claimed_at > ?', 60) } # filter out calls shorter than 1 minute
@@ -50,11 +49,6 @@ class PhoneCall < ActiveRecord::Base
 
   def self.nurseline_numbers
     [8553270607, 8553270608]
-  end
-
-  def serializable_hash(options = nil)
-    options = {methods: [:to_role_name]} if options.blank?
-    super(options)
   end
 
   def origin_connected?
@@ -71,13 +65,6 @@ class PhoneCall < ActiveRecord::Base
 
   def to_pha?
     to_role.name.to_sym == :pha
-  end
-
-  def to_role_name
-    return nil unless to_role
-
-    return to_role.name.upcase if to_role.name == 'pha'
-    return 'Nurseline' if to_role.name == 'nurse'
   end
 
   def self.accepting_calls_to_pha?

@@ -124,4 +124,18 @@ resource "Association" do
       status.should == 200
     end
   end
+
+  post '/api/v1/users/:user_id/associations/:id/invite' do
+    let!(:associate) { create(:user, owner: user, email: 'kyle@test.getbetter.com') }
+    let!(:association) { create(:association, user: user, associate: associate) }
+    let(:id) { association.id }
+    let(:raw_post) { params.to_json }
+
+    example_request '[POST] Invite a family member to connect' do
+      explanation 'Invite a member to connect through a family member association'
+      expect(status).to eq(200)
+      body = JSON.parse(response_body, symbolize_names: true)
+      expect(body[:association].to_json).to eq(association.reload.pair.serializer.as_json.to_json)
+    end
+  end
 end

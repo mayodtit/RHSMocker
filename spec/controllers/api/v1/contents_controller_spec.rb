@@ -34,9 +34,18 @@ describe Api::V1::ContentsController do
           json[:contents].first.keys.should =~ content_keys
         end
 
-        it 'logs the content search to analytics' do
-          Analytics.should_receive(:log_content_search).once
-          do_request
+        context 'with search term' do
+          it 'logs the content search to analytics' do
+            Analytics.should_not_receive(:log_content_search)
+            do_request
+          end
+        end
+
+        context 'with nil search term' do
+          it 'logs the content search to analytics' do
+            Analytics.should_receive(:log_content_search).once
+            do_request(q: 'diabetes')
+          end
         end
       end
 

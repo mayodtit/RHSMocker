@@ -40,6 +40,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
         attributes << {address_attributes: address_attributes}
         attributes << {insurance_policy_attributes: insurance_policy_attributes}
         attributes << {provider_attributes: provider_attributes}
+        attributes << {emergency_contact_attributes: emergency_contact_attributes}
       end
     end
   end
@@ -75,6 +76,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     [:id, :address, :city, :state, :postal_code, :phone]
   end
 
+  def emergency_contact_attributes
+    [:id, :name, :phone_number, :designee_id]
+  end
+
   def association_attributes
     if params.require(:association)[:id]
       [:association_type, :association_type_id, :is_default_hcp, :state_event]
@@ -82,7 +87,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
       [:id, :user, :user_id, :associate, :associate_id, :creator, :creator_id,
        :association_type, :association_type_id, :is_default_hcp,
        :state_event].tap do |attributes|
-        attributes << {associate_attributes: user_attributes.concat([:owner, :owner_id])}
+        attributes << {associate_attributes: user_attributes.concat([:owner, :owner_id, :self_owner])}
       end
     end
   end

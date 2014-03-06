@@ -36,6 +36,16 @@ describe Association do
         expect(permission.reload.subject).to eq(association)
         expect(association.reload.permission).to eq(permission)
       end
+
+      context 'with an original with permissions' do
+        let!(:original) { create(:association) }
+
+        it 'creates permission from the original permissions' do
+          original.permission.update_attributes!(basic_info: :view)
+          association = create(:association, :skip_permission, original: original)
+          expect(association.permission.basic_info).to eq(:view)
+        end
+      end
     end
 
     describe '#remove_user_default_hcp_if_necessary' do
@@ -229,36 +239,41 @@ describe Association do
       let!(:associate) { create(:user, email: member.email, owner: owner) }
       let!(:association) { create(:association, user: owner, associate: associate) }
 
-      it 'creates a pending Association' do
+      it 'creates pending and pair Associations' do
         expect(association.replacement).to be_nil
-        expect{ association.invite! }.to change(Association, :count).by(1)
+        expect{ association.invite! }.to change(Association, :count).by(2)
         expect(association.reload.replacement).to be_persisted
         expect(association.replacement.state?(:pending)).to be_true
+        expect(association.pair).to be_persisted
+        expect(association.pair.state?(:enabled)).to be_true
+      end
+    end
+  end
+
+  describe '#create_pair_association!' do
+    let(:association) { create(:association) }
+
+    it 'creates a pair' do
+      expect(association.pair).to be_nil
+      expect{ association.create_pair_association! }.to change(Association, :count).by(1)
+      expect(association.reload.pair).to be_persisted
+      expect(association.pair.state?(:enabled)).to be_true
+    end
+
+    context 'with an original pair' do
+      let!(:original) { create(:association, replacement: association, pair: create(:association)) }
+
+      it "assigns the new association as the original's pair" do
+        expect(association.pair).to be_nil
+        expect{ association.create_pair_association! }.to change(Association, :count).by(1)
+        expect(association.reload.pair).to be_persisted
+        expect(association.pair.state?(:enabled)).to be_true
+        expect(original.pair.replacement).to eq(association.pair)
       end
     end
   end
 
   describe 'state_machine' do
-    describe 'states' do
-      describe 'initial state' do
-        context 'creator is originating user' do
-          let(:association) { described_class.new }
-
-          xit 'is enabled' do
-            expect(association.state?(:enabled)).to be_true
-          end
-        end
-
-        context 'creator is not originating user' do
-          let(:association) { described_class.new(creator: build_stubbed(:member)) }
-
-          xit 'is pending' do
-            expect(association.state?(:pending)).to be_true
-          end
-        end
-      end
-    end
-
     describe 'events' do
       describe 'enable' do
         let(:association) { build(:association, :disabled) }
@@ -309,6 +324,16 @@ describe Association do
             expect(association.disable).to be_true
             expect(association.state?(:disabled)).to be_true
             expect(association.original.reload.state?(:enabled)).to be_true
+          end
+        end
+
+        context 'with an pair association' do
+          let(:association) { create(:association, pair: create(:association)) }
+
+          it 'disables the pair association' do
+            expect(association.disable).to be_true
+            expect(association.state?(:disabled)).to be_true
+            expect(association.pair.reload.state?(:disabled)).to be_true
           end
         end
       end

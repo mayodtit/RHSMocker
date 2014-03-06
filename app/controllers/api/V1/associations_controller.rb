@@ -26,7 +26,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def invite
     @association.invite!
-    render_success
+    show_resource @association.pair.serializer
   end
 
   private
@@ -52,7 +52,11 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
       end
     elsif params.require(:association)[:associate]
       params[:association].change_key!(:associate, :associate_attributes)
-      params[:association][:associate_attributes][:owner_id] ||= current_user.id
+      if AssociationType.find_by_id(params[:association][:association_type_id]).try(:relationship_type) == 'hcp'
+        params[:association][:associate_attributes][:self_owner] ||= true
+      else
+        params[:association][:associate_attributes][:owner_id] ||= current_user.id
+      end
       params[:association][:associate_attributes][:id] = nil if params[:association][:associate_attributes][:id] == 0 # TODO - disable sending fake id from client
     end
   end

@@ -5,6 +5,7 @@ class ConsultSerializer < ViewSerializer
              :image_url, :created_at, :updated_at, :status, :subject_full_name
 
   has_one :initiator
+  has_one :subject
   delegate :subject, to: :object
   alias_method :status, :state
 
