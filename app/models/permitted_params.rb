@@ -65,7 +65,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def address_attributes
-    [:id, :address, :city, :state, :postal_code]
+    [:id, :address, :address2, :city, :state, :postal_code]
   end
 
   def insurance_policy_attributes
