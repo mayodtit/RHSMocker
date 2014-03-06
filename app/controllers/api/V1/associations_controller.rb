@@ -41,6 +41,8 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   end
 
   def convert_parameters!
+    address = params[:association].try(:[], :associate).try(:[], :address)
+
     params.require(:association)[:creator_id] = current_user.id unless @association
     if params.require(:association).try(:[], :associate).try(:[], :npi_number)
       if provider = User.find_by_npi_number(params[:association][:associate][:npi_number])
@@ -59,6 +61,10 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
       end
       params[:association][:associate_attributes][:id] = nil if params[:association][:associate_attributes][:id] == 0 # TODO - disable sending fake id from client
     end
+
+    # Add in address attributes for both NPI and non-NPI providers.
+    # In the future we may auto-populate the address for NPI providers based on Bloom search results.
+    params[:association][:associate_attributes][:address_attributes] = address if address
   end
 
   def provider_from_search

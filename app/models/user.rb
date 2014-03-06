@@ -19,7 +19,7 @@ class User < ActiveRecord::Base
   belongs_to :ethnic_group
   belongs_to :diet
   has_one :user_information
-  has_one :address
+  has_one :address, inverse_of: :user
   has_one :insurance_policy
   has_one :provider
   has_one :emergency_contact
