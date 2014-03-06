@@ -1,10 +1,4 @@
 GIT
-  remote: git://github.com/EppO/rolify.git
-  revision: 1a7c1af51962291b43db22f33f707e80b51343ee
-  specs:
-    rolify (3.3.0.rc4)
-
-GIT
   remote: git://github.com/chilcutt/raddocs.git
   revision: 35083f7f16c04bee9d9ce82758f98aca307d2315
   specs:
@@ -398,7 +392,6 @@ DEPENDENCIES
   rails (= 3.2.17)
   rails_config
   ri_cal
-  rolify!
   rspec-rails (~> 2.0)
   rspec_api_documentation
   rubyzip

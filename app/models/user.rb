@@ -1,8 +1,6 @@
 class User < ActiveRecord::Base
   serialize :client_data, Hash
 
-  rolify
-
   has_many :associations, dependent: :destroy, inverse_of: :user
   has_many :associates, :through=>:associations
   has_many :inverse_associations, :class_name => 'Association', :foreign_key => 'associate_id'

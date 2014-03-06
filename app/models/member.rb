@@ -1,6 +1,9 @@
 class Member < User
   authenticates_with_sorcery!
 
+  has_many :user_roles, foreign_key: :user_id, inverse_of: :user
+  has_many :roles, through: :user_roles
+
   has_many :user_agreements, foreign_key: :user_id, inverse_of: :user
   has_many :agreements, through: :user_agreements
   has_many :cards, :foreign_key => :user_id
@@ -52,17 +55,18 @@ class Member < User
     where("first_name LIKE ? OR last_name LIKE ? OR email LIKE ?", wildcard, wildcard, wildcard)
   end
 
-  # rolify only adds class methods to the base class, cast first to call
   def has_role?(role)
-    becomes(User).has_role?(role)
+    role_names.include?(role.to_s)
   end
 
-  def add_role(role)
-    becomes(User).add_role(role)
+  def add_role(role_name)
+    role = Role.where(name: role_name).first_or_create!
+    roles << role
+    @role_names << role.name.to_s if @role_names
   end
 
   def admin?
-    has_role? :admin
+    has_role?(:admin)
   end
 
   def nurse?
@@ -165,5 +169,9 @@ class Member < User
   def update_cards_for_questions!
     cards.for_resource(Question.find_by_view(:gender)).try(:saved!) if gender_changed?
     true
+  end
+
+  def role_names
+    @role_names ||= roles.pluck(:name)
   end
 end

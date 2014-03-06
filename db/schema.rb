@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140305042754) do
+ActiveRecord::Schema.define(:version => 20140306062949) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -657,6 +657,13 @@ ActiveRecord::Schema.define(:version => 20140305042754) do
     t.integer  "shared_count",    :default => 0, :null => false
   end
 
+  create_table "user_roles", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "role_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "user_treatment_side_effects", :force => true do |t|
     t.integer  "user_treatment_id"
     t.integer  "side_effect_id"
@@ -728,13 +735,6 @@ ActiveRecord::Schema.define(:version => 20140305042754) do
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
   add_index "users", ["phone"], :name => "index_users_on_phone"
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"
-
-  create_table "users_roles", :id => false, :force => true do |t|
-    t.integer "user_id"
-    t.integer "role_id"
-  end
-
-  add_index "users_roles", ["user_id", "role_id"], :name => "index_users_roles_on_user_id_and_role_id"
 
   create_table "waitlist_entries", :force => true do |t|
     t.string   "email"
