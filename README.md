@@ -9,8 +9,6 @@ This project includes:
 ##Environments
 ####Development
 * Database: Sqlite
-* Rails 3.2.11
-* ruby-1.9.3
 
 To generate API docs run
 ```
