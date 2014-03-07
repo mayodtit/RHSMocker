@@ -54,7 +54,7 @@ class Search::Service::Bloom
       state: p['state'],
       postal_code: p['zip'],
       country_code: p['county_code'],
-      phone: p['phone'],
+      phone: p['phone'], # this line left in for backwards compatibility
       fax: p['fax']
     }
 
@@ -66,6 +66,7 @@ class Search::Service::Bloom
       :address => practice_address,
       :city => prettify(p['city']), # this line left in for backwards compatibility
       :state => p['state'],         # this line left in for backwards compatibility
+      :phone => p['phone'],
       :expertise => record['credential'],
       :gender => record['gender'],
       :healthcare_taxonomy_code => hcp_code, # this line left in for backwards compabitility
