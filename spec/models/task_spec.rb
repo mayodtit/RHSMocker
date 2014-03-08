@@ -277,12 +277,59 @@ describe Task do
         end
       end
 
-      it 'creates a task' do
+      it 'creates a task with consult and message' do
         message = build(:message, consult: consult)
-        Task.should_receive(:create!).with(title: consult.title, consult: consult, message: message, creator: Member.robot)
+        Task.should_receive(:create!).with(title: consult.title, consult: consult, message: message, creator: Member.robot, due_at: message.created_at)
         Task.create_unique_open_message_for_consult!(consult, message)
       end
+
+      it 'creates a task with just a consult' do
+        message = build(:message, consult: consult)
+        Task.should_receive(:create!).with(title: consult.title, consult: consult, message: nil, creator: Member.robot, due_at: consult.created_at)
+        Task.create_unique_open_message_for_consult!(consult)
+      end
     end
+  end
+
+  describe '#set_role' do
+    let(:task) { build :task, :w_phone_call }
+
+    context 'role_id is nil' do
+      context 'task is for a call' do
+        before do
+          task.stub(:kind) { 'call' }
+          task.phone_call.stub(:to_role_id) { 5 }
+        end
+
+        it 'sets it to pha' do
+          task.set_role
+          task.role_id.should == 5
+        end
+      end
+
+      context 'task is not for a call' do
+        before do
+          task.stub(:kind) { 'message' }
+        end
+
+        it 'sets it to pha' do
+          task.set_role
+          task.role_id.should == @pha_id
+        end
+      end
+    end
+
+    context' role_id is present' do
+      before do
+        task.stub(:role_id) { 2 }
+      end
+
+      it 'does nothing' do
+        task.should_not_receive(:role_id=)
+        task.set_role
+      end
+    end
+
   end
 
   describe '#publish' do

@@ -39,8 +39,9 @@ class Task < ActiveRecord::Base
   validate :one_claimed_per_owner
   validate :one_message_per_consult
 
-  before_validation :set_role, on: :create
+  # NOTE: Order is important here
   before_validation :set_kind, on: :create
+  before_validation :set_role, on: :create
 
   after_save :publish
 
@@ -66,12 +67,9 @@ class Task < ActiveRecord::Base
 
   def self.create_unique_open_message_for_consult!(consult, message = nil)
     if Task.open.messages_for_consult(consult.id).count == 0
-      self.create!(title: consult.title, consult: consult, message: message, creator: Member.robot)
+      due_at = message ? message.created_at : consult.created_at
+      self.create!(title: consult.title, consult: consult, message: message, creator: Member.robot, due_at: due_at)
     end
-  end
-
-  def set_role
-    self.role_id = Role.find_by_name!(:pha).id if role_id.nil?
   end
 
   def set_kind
@@ -92,6 +90,16 @@ class Task < ActiveRecord::Base
         self.kind = 'member'
       else
         self.kind = 'misc'
+      end
+    end
+  end
+
+  def set_role
+    if role_id.nil?
+      if kind == 'call' && phone_call && phone_call.to_role_id.present?
+        self.role_id = phone_call.to_role_id
+      else
+        self.role_id = Role.find_by_name!(:pha).id
       end
     end
   end

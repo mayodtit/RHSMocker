@@ -658,7 +658,7 @@ describe PhoneCall do
               consult: phone_call.consult,
               phone_call: phone_call,
               creator: Member.robot,
-              due_at: Time.now
+              due_at: phone_call.created_at
             )
             phone_call.create_task
           end
@@ -715,7 +715,7 @@ describe PhoneCall do
                 consult: phone_call.consult,
                 phone_call: phone_call,
                 creator: Member.robot,
-                due_at: Time.now
+                due_at: phone_call.updated_at
               )
               phone_call.create_task
             end

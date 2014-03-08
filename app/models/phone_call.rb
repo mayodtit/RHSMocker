@@ -186,7 +186,7 @@ class PhoneCall < ActiveRecord::Base
           consult: consult,
           phone_call: self,
           creator: Member.robot,
-          due_at: Time.now
+          due_at: created_at
         )
       end
     elsif state_changed? && missed?
@@ -200,7 +200,7 @@ class PhoneCall < ActiveRecord::Base
         consult: consult,
         phone_call: self,
         creator: Member.robot,
-        due_at: Time.now
+        due_at: updated_at
       )
     end
   end
