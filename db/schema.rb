@@ -322,11 +322,9 @@ ActiveRecord::Schema.define(:version => 20140306062949) do
     t.integer  "phone_call_id"
     t.string   "image"
     t.integer  "phone_call_summary_id"
-    t.boolean  "unread_by_cp"
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
-  add_index "messages", ["unread_by_cp"], :name => "index_messages_on_unread_by_cp"
 
   create_table "metadata", :force => true do |t|
     t.string   "mkey",       :null => false
