@@ -8,24 +8,37 @@ describe Consult do
   it_validates 'presence of', :title
   it_validates 'foreign key of', :symptom
 
-  describe '#publish' do
+  describe '#create_task' do
     let(:consult) { build_stubbed(:consult) }
 
-    it 'publishes a notification' do
-      PubSub.should_receive(:publish).with(
-          "/consults/empty/new",
-          {id: consult.id}
-        )
-      consult.publish
+    context 'messages is empty' do
+      before do
+        consult.stub(:messages) do
+          o = Object.new
+          o.stub(:empty?) { true }
+          o
+        end
+      end
+
+      it 'creates a message task' do
+        Task.should_receive(:create_unique_open_message_for_consult!).with(consult)
+        consult.create_task
+      end
     end
 
-    it 'sends an email' do
-      UserMailer.should_receive(:delay) do
-        o = Object.new
-        o.should_receive(:notify_phas_of_message_email)
-        o
+    context 'messages is not empty' do
+      before do
+        consult.stub(:messages) do
+          o = Object.new
+          o.stub(:empty?) { false }
+          o
+        end
       end
-      consult.publish
+
+      it 'creates a message task' do
+        Task.should_not_receive(:create_unique_open_message_for_consult!)
+        consult.create_task
+      end
     end
   end
 

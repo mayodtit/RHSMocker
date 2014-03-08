@@ -36,8 +36,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   def send_robot_response!
     @consult.messages.create(user: Member.robot,
                              text: "We have received your message and your PHA will get back to you shortly. Thank you.",
-                             created_at: Time.now + 1.second,
-                             unread_by_cp: false)
+                             created_at: Time.now + 1.second)
   end
 
   def send_robot_response?

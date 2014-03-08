@@ -568,6 +568,34 @@ ActiveRecord::Schema.define(:version => 20140306062949) do
     t.string   "gender"
   end
 
+  create_table "tasks", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.integer  "role_id"
+    t.integer  "owner_id"
+    t.integer  "member_id"
+    t.integer  "subject_id"
+    t.integer  "assignor_id"
+    t.integer  "consult_id"
+    t.integer  "phone_call_id"
+    t.integer  "scheduled_phone_call_id"
+    t.integer  "message_id"
+    t.integer  "phone_call_summary_id"
+    t.datetime "due_at"
+    t.datetime "assigned_at"
+    t.datetime "started_at"
+    t.datetime "claimed_at"
+    t.datetime "completed_at"
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
+    t.integer  "creator_id"
+    t.string   "kind"
+    t.string   "state"
+    t.integer  "abandoner_id"
+    t.datetime "abandoned_at"
+    t.string   "reason_abandoned"
+  end
+
   create_table "treatment_side_effects", :force => true do |t|
     t.integer  "treatment_id"
     t.integer  "side_effect_id"

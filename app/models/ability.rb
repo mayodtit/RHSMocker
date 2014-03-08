@@ -4,7 +4,8 @@ class Ability
   def initialize(user)
     user ||= User.new # support for not logged-in user
 
-    alias_action :read, :update, :to => :ru
+    alias_action :read, :update, to: :ru
+    alias_action :create, :read, :update, to: :cru
 
     can :manage, User do |u|
       if user.id == u.id || user.associates.find_by_id(u.id)
@@ -63,6 +64,10 @@ class Ability
     end
 
     if user.nurse?
+      can :ru, Task do |o|
+        o.for_nurse?
+      end
+
       can :ru, PhoneCall do |o|
         o.to_nurse?
       end
@@ -71,6 +76,10 @@ class Ability
     if user.pha?
       can :manage, User
       can :manage, Member
+
+      can :cru, Task do |o|
+        o.for_pha?
+      end
 
       can :ru, PhoneCall do |o|
         o.to_pha?

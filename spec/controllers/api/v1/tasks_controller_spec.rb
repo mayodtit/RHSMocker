@@ -7,6 +7,10 @@ describe Api::V1::TasksController do
     member
   end
 
+  let(:nurse_role) do
+    Role.find_by_name! :nurse
+  end
+
   let(:ability) { Object.new.extend(CanCan::Ability) }
 
   before(:each) do
@@ -21,39 +25,167 @@ describe Api::V1::TasksController do
     it_behaves_like 'action requiring authentication and authorization'
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
-      it 'indexes unread messages and empty consults' do
-        messages = [build(:message)]
-        consults = [build(:consult)]
-        controller.should_receive(:unread_messages) { messages }
-        controller.should_receive(:empty_consults) { consults }
+      let(:tasks) { [build_stubbed(:task), build_stubbed(:task)] }
 
-        do_request
+      it_behaves_like 'success'
+
+      it 'returns tasks with the state parameter' do
+        Task.stub(:where).with('state' => 'unassigned') do
+          o = Object.new
+          o.stub(:order).with('due_at, created_at ASC') do
+            o_o = Object.new
+            o_o.stub(:find_each).and_yield(tasks[0]).and_yield(tasks[1])
+            o_o
+          end
+          o
+        end
+
+        get :index, auth_token: user.auth_token, state: 'unassigned'
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:tasks].to_json).to eq((messages + consults).serializer.as_json.to_json)
+        body[:tasks].to_json.should == tasks.serializer.as_json.to_json
+      end
+
+      it 'doesn\'t permit other query parameters' do
+        Task.should_receive(:where).with('state' => 'unassigned') do
+          o = Object.new
+          o.stub(:order).with('due_at, created_at ASC') do
+            o_o = Object.new
+            o_o.stub(:find_each).and_yield(tasks[0]).and_yield(tasks[1])
+            o_o
+          end
+          o
+        end
+        get :index, auth_token: user.auth_token, state: 'unassigned'
       end
     end
   end
 
-  describe '#unread_messages' do
-    it 'returns unread messages that are not system messages' do
-      Message.should_receive(:where).with(phone_call_id: nil, scheduled_phone_call_id: nil, unread_by_cp: true) do
-        o = Object.new
-        o.should_receive(:group).with('consult_id')
-        o
+  shared_examples 'task 404' do
+    context 'task doesn\'t exist' do
+      before do
+        Task.stub(:find) { raise(ActiveRecord::RecordNotFound) }
       end
 
-      controller.send(:unread_messages)
+      it_behaves_like '404'
     end
   end
 
-  describe '#empty_consults' do
-    it 'returns consults without any messages' do
-      empty_consult = create(:consult)
-      other_empty_consult = create(:consult)
-      consult_w_messages = create(:consult)
-      create(:message, consult: consult_w_messages)
+  describe 'GET show' do
+    let(:task) { build_stubbed :task }
 
-      controller.send(:empty_consults).should == [empty_consult, other_empty_consult]
+    def do_request
+      get :show, auth_token: user.auth_token, id: task.id
+    end
+
+    it_behaves_like 'action requiring authentication and authorization'
+
+    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+      it_behaves_like 'task 404'
+
+      context 'task exists' do
+        before do
+          Task.stub(:find) { task }
+        end
+
+        it_behaves_like 'success'
+
+        it 'returns the task' do
+          do_request
+          body = JSON.parse(response.body, symbolize_names: true)
+          body[:task].to_json.should == task.serializer.as_json.to_json
+        end
+      end
+    end
+  end
+
+  describe 'GET current' do
+    let(:task) { build_stubbed :task }
+
+    def do_request
+      get :current, auth_token: user.auth_token
+    end
+
+    it_behaves_like 'action requiring authentication and authorization'
+
+    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+      context 'task doesn\'t exist' do
+        before do
+          Task.stub(:find_by_owner_id_and_state).with(user.id, 'claimed') { nil }
+        end
+
+        it_behaves_like 'success'
+      end
+
+      context 'task exists' do
+        before do
+          Task.stub(:find_by_owner_id_and_state).with(user.id, 'claimed') { task }
+        end
+
+        it_behaves_like 'success'
+
+        it 'returns the task' do
+          do_request
+          body = JSON.parse(response.body, symbolize_names: true)
+          body[:task].to_json.should == task.serializer.as_json.to_json
+        end
+      end
+    end
+  end
+
+  describe 'PUT update' do
+    let(:task) { build_stubbed :task }
+
+    def do_request
+      put :update, auth_token: user.auth_token, id: task.id, task: {state_event: 'abandon'}
+    end
+
+    it_behaves_like 'action requiring authentication and authorization'
+
+    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+      it_behaves_like 'task 404'
+
+      context 'task exists' do
+        before do
+          Task.stub(:find) { task }
+        end
+
+        context 'state event is present' do
+          it 'sets the actor to the current user' do
+            task.should_receive(:update_attributes).with(
+              'state_event' => 'abandon',
+              'abandoner' => user
+            )
+
+            do_request
+          end
+
+          context 'and valid' do
+            context 'update is valid' do
+              before do
+                task.stub(:update_attributes) { true }
+              end
+
+              it_behaves_like 'success'
+            end
+
+            context 'update is not valid' do
+              before do
+                task.stub(:update_attributes) { false }
+              end
+
+              it_behaves_like 'failure'
+            end
+          end
+        end
+
+        context 'state event is not present' do
+          def do_request
+            put :update, auth_token: user.auth_token, id: task.id
+          end
+
+          it_behaves_like 'failure'
+        end
+      end
     end
   end
 end
