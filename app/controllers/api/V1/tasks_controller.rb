@@ -6,7 +6,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
     authorize! :read, Task
 
     tasks = []
-    Task.where(params.permit(:state)).order('due_at, created_at ASC').find_each do |task|
+    Task.where(params.permit(:state)).order('due_at, created_at ASC').each do |task|
       tasks.push(task) if can? :read, task
     end
 

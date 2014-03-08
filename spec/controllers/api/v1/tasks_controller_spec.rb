@@ -34,7 +34,7 @@ describe Api::V1::TasksController do
           o = Object.new
           o.stub(:order).with('due_at, created_at ASC') do
             o_o = Object.new
-            o_o.stub(:find_each).and_yield(tasks[0]).and_yield(tasks[1])
+            o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
             o_o
           end
           o
@@ -50,7 +50,7 @@ describe Api::V1::TasksController do
           o = Object.new
           o.stub(:order).with('due_at, created_at ASC') do
             o_o = Object.new
-            o_o.stub(:find_each).and_yield(tasks[0]).and_yield(tasks[1])
+            o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
             o_o
           end
           o

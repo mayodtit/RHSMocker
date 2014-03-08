@@ -594,6 +594,12 @@ ActiveRecord::Schema.define(:version => 20140306062949) do
     t.string   "reason_abandoned"
   end
 
+  add_index "tasks", ["consult_id", "state"], :name => "index_tasks_on_consult_id_and_state"
+  add_index "tasks", ["consult_id"], :name => "index_tasks_on_consult_id"
+  add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"
+  add_index "tasks", ["state", "due_at", "created_at"], :name => "index_tasks_on_state_and_due_at_and_created_at"
+  add_index "tasks", ["state"], :name => "index_tasks_on_state"
+
   create_table "treatment_side_effects", :force => true do |t|
     t.integer  "treatment_id"
     t.integer  "side_effect_id"
