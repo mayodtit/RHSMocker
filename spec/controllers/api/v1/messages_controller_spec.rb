@@ -101,29 +101,4 @@ describe Api::V1::MessagesController do
       end
     end
   end
-
-  describe 'PUT read' do
-    def do_request
-      put :read
-    end
-
-
-    it_behaves_like 'action requiring authentication and authorization'
-
-    context 'authenticated and authorized', user: :authenticate_and_authorize! do
-      it 'updates all messages as read' do
-        consult.stub(:messages) do
-          o = Object.new
-          o.should_receive(:update_all).with(unread_by_cp: false)
-          o.should_receive(:serializer) do
-            [{id: 1}]
-          end
-          o
-        end
-
-        controller.should_receive(:index_resource).with([{id: 1}]).and_call_original
-        do_request
-      end
-    end
-  end
 end

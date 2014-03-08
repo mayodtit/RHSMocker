@@ -653,6 +653,8 @@ describe PhoneCall do
           end
 
           it 'creates a task' do
+            consult = build :consult
+            phone_call.stub(:consult) { consult }
             Task.should_receive(:create!).with(
               title: phone_call.consult.title,
               consult: phone_call.consult,
@@ -709,6 +711,8 @@ describe PhoneCall do
             end
 
             it 'creates a new task to follow up' do
+              consult = build :consult
+              phone_call.stub(:consult) { consult }
               Task.should_receive(:create!).with(
                 title: phone_call.consult.title,
                 kind: 'follow_up',
