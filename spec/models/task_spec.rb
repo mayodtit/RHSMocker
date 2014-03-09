@@ -8,23 +8,15 @@ describe Task do
   end
 
   describe 'validations' do
-    it_validates 'presence of', :title, allow_blank: false
-    it_validates 'presence of', :state, allow_blank: false
-    it_validates 'presence of', :kind, allow_blank: false
+    it_validates 'presence of', :title
+    it_validates 'presence of', :state
     it_validates 'presence of', :role_id
     it_validates 'presence of', :creator_id
     it_validates 'foreign key of', :owner
-    it_validates 'foreign key of', :member
-    it_validates 'foreign key of', :subject
     it_validates 'foreign key of', :role
-    it_validates 'foreign key of', :consult
-    it_validates 'foreign key of', :phone_call
-    it_validates 'foreign key of', :scheduled_phone_call
-    it_validates 'foreign key of', :message
-    it_validates 'foreign key of', :phone_call_summary
 
     describe '#one_claimed_per_owner' do
-      let(:claimed_task) { build_stubbed :task, :w_phone_call, :claimed }
+      let(:claimed_task) { build_stubbed :task, :claimed }
 
       context 'task is claimed' do
         let(:task) { build :task, :claimed }
@@ -47,7 +39,7 @@ describe Task do
       end
 
       context 'task is not claimed' do
-        let(:task) { build :task, :w_message, :started }
+        let(:task) { build :task, :started }
 
         it 'passes if another claimed tasks exists for the owner' do
           Task.stub(:find_by_owner_id_and_state).with(task.owner_id, 'claimed') { claimed_task }
@@ -56,83 +48,6 @@ describe Task do
       end
     end
 
-    describe '#one_message_per_consult' do
-      let(:consult) { build_stubbed :consult }
-      let(:task) { build :task }
-
-      context 'task kind is message' do
-        before do
-          task.kind = 'message'
-          task.consult_id = consult.id
-          task.consult = consult
-        end
-
-        context 'and open' do
-          context 'and message task for consult exists' do
-            it 'should not be valid if task is different' do
-              other_task = build_stubbed :task
-              Task.stub(:open) do
-                o = Object.new
-                o.stub(:messages_for_consult).with(consult.id) do
-                  o = Object.new
-                  o.stub(:first) { other_task }
-                  o
-                end
-                o
-              end
-              task.should_not be_valid
-            end
-
-            it 'should be valid if task is the same' do
-              task = build_stubbed :task, :claimed, kind: 'message', consult: consult, role_id: @pha_id
-              Task.stub(:open) do
-                o = Object.new
-                o.stub(:messages_for_consult).with(consult.id) do
-                  o = Object.new
-                  o.stub(:first) { task }
-                  o
-                end
-                o
-              end
-              task.should be_valid
-            end
-          end
-
-          context 'and message task for consult DNE' do
-            it 'should be valid' do
-              Task.stub(:open) do
-                o = Object.new
-                o.stub(:messages_for_consult).with(consult.id) do
-                  o = Object.new
-                  o.stub(:first) { nil }
-                  o
-                end
-                o
-              end
-              task.should be_valid
-            end
-          end
-        end
-
-        context 'and not open' do
-          before do
-            task.stub(:open?) { false }
-          end
-
-          it 'should be valid' do
-            task.kind = 'call'
-            task.should be_valid
-          end
-        end
-      end
-
-      context 'task kind is not message' do
-        it 'should be valid' do
-          task.kind = 'call'
-          task.should be_valid
-        end
-      end
-    end
   end
 
   describe '#open?' do
@@ -217,96 +132,10 @@ describe Task do
     end
   end
 
-  describe '#messages_for_consult' do
-    it 'returns message tasks from a specific consult' do
-      Consult.any_instance.stub(:create_task)
-      Message.any_instance.stub(:create_task)
-      consult = create(:consult)
-      message = create(:message, consult: consult)
-
-      message_task_1 = create(:task, kind: 'message', message: message, consult: consult)
-      message_task_2 = create(:task, :completed, kind: 'message', consult: consult)
-      message_task_3 = create(:task, :abandoned, kind: 'message', consult: consult)
-      consult_task = create(:task, kind: 'consult', consult: consult)
-      unrelated_message_task = create(:task, :w_message)
-      phone_call_task = create(:task, :w_phone_call)
-
-      message_tasks = Task.messages_for_consult(consult.id)
-
-      message_tasks.should be_include(message_task_1)
-      message_tasks.should be_include(message_task_2)
-      message_tasks.should be_include(message_task_3)
-      message_tasks.should_not be_include(consult_task)
-      message_tasks.should_not be_include(unrelated_message_task)
-      message_tasks.should_not be_include(phone_call_task)
-    end
-  end
-
-  describe '#create_unique_open_message_for_consult!' do
-    let(:consult) { build_stubbed(:consult) }
-
-    context 'other open message task exists for consult' do
-      before do
-        Task.stub(:open) do
-          o = Object.new
-          o.stub(:messages_for_consult).with(consult.id) do
-            o = Object.new
-            o.stub(:count) { 1 }
-            o
-          end
-          o
-        end
-      end
-
-      it 'does nothing' do
-        Task.should_not_receive(:create!)
-        Task.create_unique_open_message_for_consult!(consult)
-      end
-    end
-
-    context 'other open message task doesn\'t exist for consult' do
-      before do
-        Task.stub(:open) do
-          o = Object.new
-          o.stub(:messages_for_consult).with(consult.id) do
-            o = Object.new
-            o.stub(:count) { 0 }
-            o
-          end
-          o
-        end
-      end
-
-      it 'creates a task with consult and message' do
-        message = build(:message, consult: consult)
-        Task.should_receive(:create!).with(title: consult.title, consult: consult, message: message, creator: Member.robot, due_at: message.created_at)
-        Task.create_unique_open_message_for_consult!(consult, message)
-      end
-
-      it 'creates a task with just a consult' do
-        message = build(:message, consult: consult)
-        Task.should_receive(:create!).with(title: consult.title, consult: consult, message: nil, creator: Member.robot, due_at: consult.created_at)
-        Task.create_unique_open_message_for_consult!(consult)
-      end
-    end
-  end
-
   describe '#set_role' do
-    let(:task) { build :task, :w_phone_call }
+    let(:task) { build :task }
 
     context 'role_id is nil' do
-      context 'task is for a call' do
-        before do
-          task.stub(:kind) { 'call' }
-          task.phone_call.stub(:to_role_id) { 5 }
-        end
-
-        it 'sets it to pha' do
-          task.set_role
-          task.role_id.should == 5
-        end
-      end
-
       context 'task is not for a call' do
         before do
           task.stub(:kind) { 'message' }
@@ -329,7 +158,6 @@ describe Task do
         task.set_role
       end
     end
-
   end
 
   describe '#publish' do
@@ -422,12 +250,6 @@ describe Task do
         task.unassign!
         task.owner.should_not be_present
       end
-
-      it 'unclaims a call' do
-        task = build :task, :w_phone_call, :claimed
-        task.phone_call.should_receive(:update_attributes!).with(state_event: :unclaim)
-        task.unassign!
-      end
     end
 
     describe '#assign' do
@@ -480,15 +302,6 @@ describe Task do
         task.claim!
         task.claimed_at.should == Time.now
       end
-
-      it 'claims the phone call' do
-        task = build :task, :w_phone_call
-        task.owner = pha
-        task.phone_call.stub(:claimed?) { false }
-
-        task.phone_call.should_receive(:update_attributes!).with(state_event: :claim, claimer: pha)
-        task.claim!
-      end
     end
 
     describe '#complete' do
@@ -505,15 +318,6 @@ describe Task do
         task.completed_at.should be_nil
         task.complete!
         task.completed_at.should == Time.now
-      end
-
-      it 'claims the phone call' do
-        task = build :task, :w_phone_call
-        task.phone_call.stub(:in_progress?) { true }
-        task.owner = pha
-
-        task.phone_call.should_receive(:update_attributes!).with(state_event: :end, ender: pha)
-        task.complete!
       end
     end
 
@@ -534,16 +338,6 @@ describe Task do
         task.reason_abandoned = 'pooed'
         task.abandon!
         task.abandoned_at.should == Time.now
-      end
-
-      it 'claims the phone call' do
-        task = build :task, :w_phone_call
-        task.phone_call.stub(:in_progress?) { true }
-        task.abandoner = pha
-        task.reason_abandoned = 'pooed'
-
-        task.phone_call.should_receive(:update_attributes!).with(state_event: :end, ender: pha)
-        task.abandon!
       end
     end
   end

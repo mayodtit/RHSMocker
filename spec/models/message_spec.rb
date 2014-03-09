@@ -35,7 +35,7 @@ describe Message do
 
     context 'user message' do
       it 'creates a message task' do
-        Task.should_receive(:create_unique_open_message_for_consult!).with(message.consult, message)
+        MessageTask.should_receive(:create_if_only_opened_for_consult!).with(message.consult, message)
         message.create_task
       end
     end
@@ -43,7 +43,7 @@ describe Message do
     context 'is a phone call message' do
       it 'doesn\'t publish' do
         message.stub(:phone_call_id) { 1 }
-        Task.should_not_receive(:create_unique_open_message_for_consult!)
+        MessageTask.should_not_receive(:create_if_only_opened_for_consult!)
         message.create_task
       end
     end
@@ -51,7 +51,7 @@ describe Message do
     context 'is a scheduled phone call message' do
       it 'doesn\'t publish' do
         message.stub(:scheduled_phone_call_id) { 1 }
-        Task.should_not_receive(:create_unique_open_message_for_consult!)
+        MessageTask.should_not_receive(:create_if_only_opened_for_consult!)
         message.create_task
       end
     end

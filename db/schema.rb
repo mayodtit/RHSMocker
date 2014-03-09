@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140308220934) do
+ActiveRecord::Schema.define(:version => 20140309031148) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -592,6 +592,7 @@ ActiveRecord::Schema.define(:version => 20140308220934) do
     t.integer  "abandoner_id"
     t.datetime "abandoned_at"
     t.string   "reason_abandoned"
+    t.string   "type"
   end
 
   add_index "tasks", ["consult_id", "state"], :name => "index_tasks_on_consult_id_and_state"

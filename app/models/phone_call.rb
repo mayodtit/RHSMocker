@@ -18,7 +18,7 @@ class PhoneCall < ActiveRecord::Base
   has_one :consult, through: :message
   has_one :scheduled_phone_call
   has_one :transferred_from_phone_call, class_name: 'PhoneCall', foreign_key: :transferred_to_phone_call_id
-  has_many :tasks
+  has_many :phone_call_tasks
 
   attr_accessible :user, :user_id, :to_role, :to_role_id, :message, :message_attributes, :origin_phone_number,
                   :destination_phone_number, :claimer, :claimer_id, :ender, :ender_id,
@@ -179,29 +179,31 @@ class PhoneCall < ActiveRecord::Base
   def create_task
     return if outbound?
 
-    if id_changed? # NOTE: Do not combine with nested if.
+    if id_changed? # New record
       if unclaimed?
-        Task.create!(
+        PhoneCallTask.create!(
           title: consult ? consult.title : 'Unknown',
-          consult: consult,
           phone_call: self,
           creator: Member.robot,
           due_at: created_at
         )
       end
-    elsif state_changed? && missed?
-      tasks.where(kind: 'call', phone_call_id: self.id).each do |task|
-        task.update_attributes!(state_event: :abandon, reason_abandoned: 'missed', abandoner: Member.robot)
-      end
+    else # Updated record
+      if state_changed? && missed?
+        phone_call_tasks.where(phone_call_id: self.id).each do |task|
+          task.update_attributes!(state_event: :abandon, reason_abandoned: 'missed', abandoner: Member.robot)
+        end
 
-      Task.create!(
-        title: consult ? consult.title : 'Follow up missed call',
-        kind: 'follow_up',
-        consult: consult,
-        phone_call: self,
-        creator: Member.robot,
-        due_at: updated_at
-      )
+        # TODO: Add once we have a FollowUpTask
+        #Task.create!(
+        #  title: consult ? consult.title : 'Follow up missed call',
+        #  kind: 'follow_up',
+        #  consult: consult,
+        #  phone_call: self,
+        #  creator: Member.robot,
+        #  due_at: updated_at
+        #)
+      end
     end
   end
 

@@ -21,7 +21,7 @@ describe Consult do
       end
 
       it 'creates a message task' do
-        Task.should_receive(:create_unique_open_message_for_consult!).with(consult)
+        MessageTask.should_receive(:create_if_only_opened_for_consult!).with(consult)
         consult.create_task
       end
     end
@@ -36,7 +36,7 @@ describe Consult do
       end
 
       it 'creates a message task' do
-        Task.should_not_receive(:create_unique_open_message_for_consult!)
+        MessageTask.should_not_receive(:create_if_only_opened_for_consult!)
         consult.create_task
       end
     end

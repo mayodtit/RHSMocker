@@ -35,6 +35,6 @@ class Message < ActiveRecord::Base
 
   def create_task
     return if scheduled_phone_call_id.present? || phone_call_id.present?
-    Task.create_unique_open_message_for_consult! consult, self
+    MessageTask.create_if_only_opened_for_consult! consult, self
   end
 end

@@ -4,9 +4,11 @@ describe PhoneCall do
   it_has_a 'valid factory'
 
   before do
-    @pha_id = Role.find_or_create_by_name!(:pha).id
-    @nurse_id = Role.find_or_create_by_name!(:nurse).id
-    Task.stub(:create_unique_open_message_for_consult!)
+    @pha = Role.find_or_create_by_name!(:pha)
+    @pha_id = @pha.id
+    @nurse = Role.find_or_create_by_name!(:nurse)
+    @nurse_id = @nurse.id
+    PhoneCallTask.stub(:create_if_only_opened_for_consult!)
   end
 
   describe 'validations' do
@@ -460,13 +462,8 @@ describe PhoneCall do
 
   describe '#resolve' do
     let(:twilio_sid) { 'CAf7546453bca08b52f3e84ee102d82262' }
-    let(:phone_call) { build(:phone_call, to_role: build(:role, name: 'nurse')) }
-    let(:role) { build(:role) }
+    let(:phone_call) { build(:phone_call, to_role: build_stubbed(:role, name: 'nurse')) }
     let(:phone_number) { '+14083913578' }
-
-    before do
-      Role.stub(:find_by_name!).with(:pha) { role }
-    end
 
     context 'phone number is not valid caller id' do
       before do
@@ -477,7 +474,7 @@ describe PhoneCall do
         PhoneCall.should_receive(:create).with(
           origin_phone_number: nil,
           destination_phone_number: PHA_NUMBER,
-          to_role: role,
+          to_role: @pha,
           state_event: :resolve,
           origin_twilio_sid: twilio_sid,
           origin_status: PhoneCall::CONNECTED_STATUS
@@ -538,7 +535,7 @@ describe PhoneCall do
               user: member,
               origin_phone_number: db_phone_number,
               destination_phone_number: PHA_NUMBER,
-              to_role: role,
+              to_role: @pha,
               state_event: :resolve,
               origin_twilio_sid: twilio_sid,
               origin_status: PhoneCall::CONNECTED_STATUS
@@ -557,7 +554,7 @@ describe PhoneCall do
             PhoneCall.should_receive(:create).with(
               origin_phone_number: db_phone_number,
               destination_phone_number: PHA_NUMBER,
-              to_role: role,
+              to_role: @pha,
               state_event: :resolve,
               origin_twilio_sid: twilio_sid,
               origin_status: PhoneCall::CONNECTED_STATUS
@@ -632,8 +629,8 @@ describe PhoneCall do
       end
 
       it 'does nothing' do
-        Task.should_not_receive(:create!)
-        Task.any_instance.should_not_receive(:update_attributes!)
+        PhoneCallTask.should_not_receive(:create!)
+        PhoneCallTask.any_instance.should_not_receive(:update_attributes!)
       end
     end
 
@@ -655,9 +652,8 @@ describe PhoneCall do
           it 'creates a task' do
             consult = build :consult
             phone_call.stub(:consult) { consult }
-            Task.should_receive(:create!).with(
+            PhoneCallTask.should_receive(:create!).with(
               title: phone_call.consult.title,
-              consult: phone_call.consult,
               phone_call: phone_call,
               creator: Member.robot,
               due_at: phone_call.created_at
@@ -672,7 +668,7 @@ describe PhoneCall do
           end
 
           it 'does nothing' do
-            Task.should_not_receive(:create!)
+            PhoneCallTask.should_not_receive(:create!)
             phone_call.create_task
           end
         end
@@ -690,19 +686,18 @@ describe PhoneCall do
           end
 
           context 'call was missed' do
-            let(:phone_call_task) { build_stubbed(:task, :w_phone_call) }
+            let(:phone_call_task) { build_stubbed :phone_call_task }
 
             before do
               phone_call.stub(:missed?) { true }
             end
 
             it 'abandons any existing tasks around the phone call' do
-              Task.stub(:create!)
               phone_call_task.should_receive(:update_attributes!).with(state_event: :abandon, reason_abandoned: 'missed', abandoner: Member.robot)
 
-              phone_call.stub(:tasks) do
+              phone_call.stub(:phone_call_tasks) do
                 o = Object.new
-                o.stub(:where).with(kind: 'call', phone_call_id: phone_call.id) do
+                o.stub(:where).with(phone_call_id: phone_call.id) do
                   [phone_call_task]
                 end
                 o
@@ -710,19 +705,20 @@ describe PhoneCall do
               phone_call.create_task
             end
 
-            it 'creates a new task to follow up' do
-              consult = build :consult
-              phone_call.stub(:consult) { consult }
-              Task.should_receive(:create!).with(
-                title: phone_call.consult.title,
-                kind: 'follow_up',
-                consult: phone_call.consult,
-                phone_call: phone_call,
-                creator: Member.robot,
-                due_at: phone_call.updated_at
-              )
-              phone_call.create_task
-            end
+            # TODO: Add once we have a FollowUpPhoneCallTask
+            #it 'creates a new task to follow up' do
+            #  consult = build :consult
+            #  phone_call.stub(:consult) { consult }
+            #  PhoneCallTask.should_receive(:create!).with(
+            #    title: phone_call.consult.title,
+            #    kind: 'follow_up',
+            #    consult: phone_call.consult,
+            #    phone_call: phone_call,
+            #    creator: Member.robot,
+            #    due_at: phone_call.updated_at
+            #  )
+            #  phone_call.create_task
+            #end
           end
 
           context 'call was not missed' do
@@ -731,8 +727,8 @@ describe PhoneCall do
             end
 
             it 'does nothing' do
-              Task.any_instance.should_not_receive(:update_attributes!)
-              Task.should_not_receive(:create!)
+              PhoneCallTask.any_instance.should_not_receive(:update_attributes!)
+              PhoneCallTask.should_not_receive(:create!)
               phone_call.create_task
             end
           end
@@ -744,8 +740,8 @@ describe PhoneCall do
           end
 
           it 'does nothing' do
-            Task.any_instance.should_not_receive(:update_attributes!)
-            Task.should_not_receive(:create!)
+            PhoneCallTask.any_instance.should_not_receive(:update_attributes!)
+            PhoneCallTask.should_not_receive(:create!)
             phone_call.create_task
           end
         end
@@ -909,16 +905,14 @@ describe PhoneCall do
 
     describe '#transfer!' do
       context 'stubbed' do
-        let(:nurse_role) { build_stubbed(:role, name: 'nurse') }
-        let!(:phone_call) { build(:phone_call, to_role: build_stubbed(:role, name: 'pha')) }
-        let(:nurseline_phone_call) { build_stubbed(:phone_call, to_role: nurse_role) }
-        let(:transferrer) { build_stubbed(:pha) }
+        let!(:phone_call) { build :phone_call, to_role: @pha }
+        let(:nurseline_phone_call) { build_stubbed :phone_call, to_role: @nurse }
+        let(:transferrer) { build_stubbed :pha }
 
         before do
           phone_call.state = 'unclaimed'
           PhoneCall.stub(:create!) { nurseline_phone_call }
           nurseline_phone_call.stub(:dial_destination)
-          Role.stub(:find_by_name!) { nurse_role }
         end
 
         it_behaves_like 'cannot transition from', :transfer!, [:disconnected, :unresolved]
@@ -940,7 +934,7 @@ describe PhoneCall do
             user: phone_call.user,
             origin_phone_number: phone_call.origin_phone_number,
             destination_phone_number: NURSELINE_NUMBER,
-            to_role: nurse_role,
+            to_role: @nurse,
             origin_twilio_sid: phone_call.origin_twilio_sid,
             twilio_conference_name: phone_call.twilio_conference_name,
             origin_status: PhoneCall::CONNECTED_STATUS

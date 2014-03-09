@@ -14,15 +14,6 @@ shared_examples 'presence of' do |property, options = {}|
     model.should_not be_valid
     model.errors[property.to_sym].should include("can't be blank")
   end
-
-  if options[:allow_blank] == false
-    its "#{property}" do
-      model = build_stubbed(described_class.name.underscore.to_sym)
-      model.send(:"#{property}=", '')
-      model.should_not be_valid
-      model.errors[property.to_sym].should include("can't be blank")
-    end
-  end
 end
 
 shared_examples 'foreign key of' do |property|

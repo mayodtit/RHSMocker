@@ -3,26 +3,6 @@ FactoryGirl.define do
     title { |n| "Plan to do something for the #{n}th time." }
     association :creator, factory: :member
 
-    trait :w_consult do
-      association :consult, factory: :consult
-    end
-
-    trait :w_phone_call do
-      association :phone_call, factory: :phone_call
-    end
-
-    trait :w_message do
-      association :message, factory: :message
-    end
-
-    trait :w_scheduled_phone_call do
-      association :scheduled_phone_call, factory: :scheduled_phone_call
-    end
-
-    trait :w_phone_call_summary do
-      association :phone_call_summary, factory: :phone_call_summary
-    end
-
     trait :assigned do
       state 'assigned'
       association :owner, factory: :member
@@ -54,10 +34,6 @@ FactoryGirl.define do
       association :abandoner, factory: :member
       reason_abandoned 'missed'
       abandoned_at Time.now
-    end
-
-    after(:build) do |task|
-      task.set_kind
     end
   end
 end
