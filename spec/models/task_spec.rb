@@ -283,6 +283,8 @@ describe Task do
     describe '#claim' do
       let(:task) { build :task }
 
+      it_behaves_like 'cannot transition from', :unassign!, [:claimed]
+
       it 'changes state to claimed' do
         task.should_not be_claimed
         task.owner = pha

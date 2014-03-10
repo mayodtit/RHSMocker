@@ -67,7 +67,7 @@ class Task < ActiveRecord::Base
     end
 
     event :claim do
-      transition any => :claimed
+      transition any - [:claimed] => :claimed
     end
 
     event :abandon do
