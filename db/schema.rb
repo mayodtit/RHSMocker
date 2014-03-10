@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140309031148) do
+ActiveRecord::Schema.define(:version => 20140310182730) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -587,7 +587,6 @@ ActiveRecord::Schema.define(:version => 20140309031148) do
     t.datetime "created_at",              :null => false
     t.datetime "updated_at",              :null => false
     t.integer  "creator_id"
-    t.string   "kind"
     t.string   "state"
     t.integer  "abandoner_id"
     t.datetime "abandoned_at"
@@ -595,11 +594,10 @@ ActiveRecord::Schema.define(:version => 20140309031148) do
     t.string   "type"
   end
 
-  add_index "tasks", ["consult_id", "state"], :name => "index_tasks_on_consult_id_and_state"
-  add_index "tasks", ["consult_id"], :name => "index_tasks_on_consult_id"
   add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"
   add_index "tasks", ["state", "due_at", "created_at"], :name => "index_tasks_on_state_and_due_at_and_created_at"
   add_index "tasks", ["state"], :name => "index_tasks_on_state"
+  add_index "tasks", ["type", "consult_id", "state"], :name => "index_tasks_on_type_and_consult_id_and_state"
 
   create_table "treatment_side_effects", :force => true do |t|
     t.integer  "treatment_id"
