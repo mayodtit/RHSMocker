@@ -2,6 +2,17 @@ class RHSMailer < MandrillMailer::TemplateMailer
   default from: (Rails.env.production? ? 'noreply@getbetter.com' : "noreply@#{Rails.env}.getbetter.com")
   default from_name: 'Better'
 
+  def welcome_to_premium_email(email, salutation)
+    mandrill_mail(
+      subject: 'Welcome to Better Premium',
+      to: { email: email },
+      template: 'Welcome to Better Premium v140310',
+      vars: {
+        FNAME: salutation
+      }
+    )
+  end
+
   def reset_password_email(email, salutation, url)
     mandrill_mail(
       subject: 'Reset Password Instructions for Better',
