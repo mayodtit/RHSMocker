@@ -26,7 +26,7 @@ class CreateTasksFromNonUnclaimedPhoneCalls < ActiveRecord::Migration
             owner: phone_call.claimer
           )
           t.state = 'started'
-          t.started_at = phone_call.started_at
+          t.started_at = phone_call.claimed_at
           t.save!
         end
       end
