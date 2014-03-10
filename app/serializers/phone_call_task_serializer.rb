@@ -1,6 +1,6 @@
 class PhoneCallTaskSerializer < TaskSerializer
 
-  attributes :consult, :type
+  attributes :type, :phone_call_id
 
   has_one :member
 
