@@ -4,28 +4,30 @@ class CreateTasksFromNonUnclaimedPhoneCalls < ActiveRecord::Migration
     phone_calls.find_each do |phone_call|
       if phone_call.phone_call_tasks.empty?
         if phone_call.state == 'ended'
-          PhoneCallTask.create!(
+          t = PhoneCallTask.new(
             title: phone_call.consult ? phone_call.consult.title : 'Unknown',
             phone_call: phone_call,
             creator: Member.robot,
             due_at: phone_call.created_at,
-            state: 'completed',
-            owner: phone_call.claimer,
-            completed_at: phone_call.ended_at,
-            claimed_at: phone_call.claimed_at
+            owner: phone_call.claimer
           )
+          t.state = 'completed'
+          t.completed_at = phone_call.ended_at
+          t.claimed_at = phone_call.claimed_at
+          t.save!
         elsif phone_call.state == 'claimed'
           # Mark the task as started because the old system let you claim multiple
           # phone calls at once.
-          PhoneCallTask.create!(
+          t = PhoneCallTask.new(
             title: phone_call.consult ? phone_call.consult.title : 'Unknown',
             phone_call: phone_call,
             creator: Member.robot,
             due_at: phone_call.created_at,
-            state: 'started',
-            owner: phone_call.claimer,
-            started_at: phone_call.claimed_at
+            owner: phone_call.claimer
           )
+          t.state = 'started'
+          t.started_at = phone_call.started_at
+          t.save!
         end
       end
     end
