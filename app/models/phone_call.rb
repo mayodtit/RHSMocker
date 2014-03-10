@@ -188,22 +188,6 @@ class PhoneCall < ActiveRecord::Base
           due_at: created_at
         )
       end
-    else # Updated record
-      if state_changed? && missed?
-        phone_call_tasks.where(phone_call_id: self.id).each do |task|
-          task.update_attributes!(state_event: :abandon, reason_abandoned: 'missed', abandoner: Member.robot)
-        end
-
-        # TODO: Add once we have a FollowUpTask
-        #Task.create!(
-        #  title: consult ? consult.title : 'Follow up missed call',
-        #  kind: 'follow_up',
-        #  consult: consult,
-        #  phone_call: self,
-        #  creator: Member.robot,
-        #  due_at: updated_at
-        #)
-      end
     end
   end
 
@@ -275,6 +259,15 @@ class PhoneCall < ActiveRecord::Base
       phone_call.resolved_at = Time.now
     end
 
+    after_transition :unresolved => :unclaimed do |phone_call|
+      PhoneCallTask.create!(
+        title: phone_call.consult ? phone_call.consult.title : 'Unknown',
+        phone_call: phone_call,
+        creator: Member.robot,
+        due_at: phone_call.created_at
+      )
+    end
+
     before_transition :unclaimed => :missed do |phone_call|
       phone_call.missed_at = Time.now
     end
@@ -325,6 +318,14 @@ class PhoneCall < ActiveRecord::Base
     before_transition :claimed => :unclaimed do |phone_call|
       phone_call.claimer = nil
       phone_call.claimed_at = nil
+    end
+
+    after_transition any => :missed do |phone_call|
+      phone_call.phone_call_tasks.where(phone_call_id: phone_call.id).each do |task|
+        task.update_attributes!(state_event: :abandon, reason_abandoned: 'missed', abandoner: Member.robot)
+      end
+
+      # TODO: Add follow up task
     end
   end
 

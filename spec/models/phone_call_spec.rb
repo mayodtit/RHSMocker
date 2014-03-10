@@ -673,79 +673,6 @@ describe PhoneCall do
           end
         end
       end
-
-      context 'update' do
-        before do
-          phone_call.stub(:id) { 1 }
-          phone_call.stub(:id_changed?) { false }
-        end
-
-        context 'state changed' do
-          before do
-            phone_call.stub(:state_changed?) { true }
-          end
-
-          context 'call was missed' do
-            let(:phone_call_task) { build_stubbed :phone_call_task }
-
-            before do
-              phone_call.stub(:missed?) { true }
-            end
-
-            it 'abandons any existing tasks around the phone call' do
-              phone_call_task.should_receive(:update_attributes!).with(state_event: :abandon, reason_abandoned: 'missed', abandoner: Member.robot)
-
-              phone_call.stub(:phone_call_tasks) do
-                o = Object.new
-                o.stub(:where).with(phone_call_id: phone_call.id) do
-                  [phone_call_task]
-                end
-                o
-              end
-              phone_call.create_task
-            end
-
-            # TODO: Add once we have a FollowUpPhoneCallTask
-            #it 'creates a new task to follow up' do
-            #  consult = build :consult
-            #  phone_call.stub(:consult) { consult }
-            #  PhoneCallTask.should_receive(:create!).with(
-            #    title: phone_call.consult.title,
-            #    kind: 'follow_up',
-            #    consult: phone_call.consult,
-            #    phone_call: phone_call,
-            #    creator: Member.robot,
-            #    due_at: phone_call.updated_at
-            #  )
-            #  phone_call.create_task
-            #end
-          end
-
-          context 'call was not missed' do
-            before do
-              phone_call.stub(:missed?) { false }
-            end
-
-            it 'does nothing' do
-              PhoneCallTask.any_instance.should_not_receive(:update_attributes!)
-              PhoneCallTask.should_not_receive(:create!)
-              phone_call.create_task
-            end
-          end
-        end
-
-        context 'state did not change' do
-          before do
-            phone_call.stub(:state_changed?) { true }
-          end
-
-          it 'does nothing' do
-            PhoneCallTask.any_instance.should_not_receive(:update_attributes!)
-            PhoneCallTask.should_not_receive(:create!)
-            phone_call.create_task
-          end
-        end
-      end
     end
 
   end
@@ -801,6 +728,17 @@ describe PhoneCall do
       it 'sets the claimed time' do
         phone_call.resolved_at.should == Time.now
       end
+
+      it 'creates a phone call task' do
+        phone_call = create :phone_call, to_role_id: @pha_id
+        PhoneCallTask.should_receive(:create!).with(
+          title: phone_call.consult.title,
+          phone_call: phone_call,
+          creator: Member.robot,
+          due_at: phone_call.created_at
+        )
+        phone_call.resolve!
+      end
     end
 
     describe '#miss!' do
@@ -814,6 +752,23 @@ describe PhoneCall do
 
       it 'sets the missed time' do
         phone_call.missed_at.should == Time.now
+      end
+
+      it 'abandons all phone call tasks' do
+        phone_call = build :phone_call, to_role_id: @pha_id
+        phone_call.state = 'unclaimed'
+        phone_call_task = build :phone_call_task, phone_call: phone_call
+        phone_call_task.should_receive(:update_attributes!).with(state_event: :abandon, reason_abandoned: 'missed', abandoner: Member.robot)
+
+        phone_call.stub(:phone_call_tasks) do
+          o = Object.new
+          o.stub(:where).with(phone_call_id: phone_call.id) do
+            [phone_call_task]
+          end
+          o
+        end
+
+        phone_call.miss!
       end
     end
 
