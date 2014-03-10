@@ -43,6 +43,10 @@ class Association < ActiveRecord::Base
     where(state: :enabled)
   end
 
+  def self.pending
+    where(state: :pending)
+  end
+
   def invite!
     return if replacement || (associate == associate.member)
     transaction do

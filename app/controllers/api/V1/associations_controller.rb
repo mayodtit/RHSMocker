@@ -32,7 +32,11 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   private
 
   def load_associations!
-    @associations = @user.associations.enabled
+    @associations = if params[:state] == 'pending'
+                      @user.associations.pending
+                    else
+                      @user.associations.enabled
+                    end
   end
 
   def load_association!
