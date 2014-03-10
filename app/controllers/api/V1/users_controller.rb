@@ -25,6 +25,8 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def convert_parameters!
+    address = params[:address]
+    params[:user][:address_attributes] = address if address
     params[:user][:avatar] = decode_b64_image(params[:user][:avatar]) if params[:user][:avatar]
   end
 
