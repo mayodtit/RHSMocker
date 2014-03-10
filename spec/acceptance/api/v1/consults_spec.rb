@@ -11,6 +11,10 @@ resource "Consults" do
   parameter :auth_token, "Performing user's auth_token"
   required_parameters :auth_token
 
+  before do
+    @nurse = Role.find_or_create_by_name 'nurse'
+  end
+
   describe 'existing record' do
     let!(:consult) { create(:consult, :with_messages, initiator: user) }
     let(:id) { consult.id }
@@ -54,7 +58,7 @@ resource "Consults" do
     let(:message) { {text: 'message text'}}
     let(:phone_call) { {origin_phone_number: '5555555555',
                         destination_phone_number: '1234567890',
-                        to_role: 'pha'} }
+                        to_role: 'nurse'} }
     let(:scheduled_phone_call) { {scheduled_at: scheduled.scheduled_at} }
     let(:raw_post) { params.to_json }
 
@@ -65,6 +69,7 @@ resource "Consults" do
       consult = Consult.find(body[:consult][:id])
       expect(body[:consult].to_json).to eq(consult.serializer.as_json.to_json)
       consult.description.should == description
+      PhoneCall.last.to_role.should == @nurse
     end
   end
 end
