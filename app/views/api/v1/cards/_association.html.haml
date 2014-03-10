@@ -1,0 +1,6 @@
+.content_card
+  .card-header
+    = image_tag(resource.associate.avatar_or_gender_url, class: :double)
+    %h1.double #{resource.creator.first_name} has shared #{resource.associate.first_name}'s profile with you
+  .card-body
+    You've been invited to help take care of #{resource.associate.first_name}. It will be super fun.
