@@ -31,7 +31,7 @@ describe MessageTask do
           end
 
           it 'should be valid if task is the same' do
-            task = build_stubbed :message_task, :claimed, kind: 'message', consult: consult, role_id: @pha_id
+            task = build_stubbed :message_task, :claimed, consult: consult, role_id: @pha_id
             MessageTask.stub(:open) do
               o = Object.new
               o.stub(:where).with(consult_id: consult.id) do

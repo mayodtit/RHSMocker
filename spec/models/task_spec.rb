@@ -32,7 +32,7 @@ describe Task do
         end
 
         it 'passes if the other claimed task is this task' do
-          task = build_stubbed :task, :claimed, kind: 'message', role_id: @pha_id
+          task = build_stubbed :task, :claimed, role_id: @pha_id
           Task.stub(:find_by_owner_id_and_state).with(task.owner_id, 'claimed') { task }
           task.should be_valid
         end
@@ -136,15 +136,9 @@ describe Task do
     let(:task) { build :task }
 
     context 'role_id is nil' do
-      context 'task is not for a call' do
-        before do
-          task.stub(:kind) { 'message' }
-        end
-
-        it 'sets it to pha' do
-          task.set_role
-          task.role_id.should == @pha_id
-        end
+      it 'sets it to pha' do
+        task.set_role
+        task.role_id.should == @pha_id
       end
     end
 

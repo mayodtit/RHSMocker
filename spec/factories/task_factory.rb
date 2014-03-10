@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :task do
-    title { |n| "Plan to do something for the #{n}th time." }
+    sequence(:title) { |n| "Plan to do something for the #{n}th time." }
     association :creator, factory: :member
 
     trait :assigned do
