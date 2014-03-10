@@ -57,7 +57,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
       if AssociationType.find_by_id(params[:association][:association_type_id]).try(:relationship_type) == 'hcp'
         params[:association][:associate_attributes][:self_owner] ||= true
       else
-        params[:association][:associate_attributes][:owner_id] ||= current_user.id
+        params[:association][:associate_attributes][:owner_id] ||= @user.id
       end
       params[:association][:associate_attributes][:id] = nil if params[:association][:associate_attributes][:id] == 0 # TODO - disable sending fake id from client
     end
