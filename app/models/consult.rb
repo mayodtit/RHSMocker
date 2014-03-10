@@ -24,16 +24,19 @@ class Consult < ActiveRecord::Base
   validates :symptom, presence: true, if: lambda{|c| c.symptom_id.present? }
 
   before_validation :strip_attributes
-  after_create :publish
+  after_create :create_task
+  after_save :update_tasks
 
   accepts_nested_attributes_for :messages
   mount_uploader :image, ConsultImageUploader
 
-  def publish
-    if messages.empty?
-      PubSub.publish "/consults/empty/new", {id: id}
-      UserMailer.delay.notify_phas_of_message_email
-    end
+  def create_task
+    return unless messages.empty?
+    MessageTask.create_if_only_opened_for_consult! self
+  end
+
+  def update_tasks
+    return if id_changed?
   end
 
   private

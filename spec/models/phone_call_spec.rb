@@ -4,8 +4,11 @@ describe PhoneCall do
   it_has_a 'valid factory'
 
   before do
-    @pha_id = Role.find_or_create_by_name!(:pha).id
-    @nurse_id = Role.find_or_create_by_name!(:nurse).id
+    @pha = Role.find_or_create_by_name!(:pha)
+    @pha_id = @pha.id
+    @nurse = Role.find_or_create_by_name!(:nurse)
+    @nurse_id = @nurse.id
+    PhoneCallTask.stub(:create_if_only_opened_for_consult!)
   end
 
   describe 'validations' do
@@ -91,6 +94,50 @@ describe PhoneCall do
     it 'returns false if the phone_call is not to a pha' do
       phone_call = build_stubbed(:phone_call, :to_role => Role.new(:name => :nurse))
       phone_call.should_not be_to_pha
+    end
+  end
+
+  describe '#in_progress?' do
+    let(:phone_call) { build :phone_call }
+
+    it 'true for unresolved' do
+      phone_call.state = :unresolved
+      phone_call.should be_in_progress
+    end
+
+    it 'true for unclaimed' do
+      phone_call.state = :unclaimed
+      phone_call.should be_in_progress
+    end
+
+    it 'true for dialing' do
+      phone_call.state = :dialing
+      phone_call.should be_in_progress
+    end
+
+    it 'true for connected' do
+      phone_call.state = :connected
+      phone_call.should be_in_progress
+    end
+
+    it 'true for disconnected' do
+      phone_call.state = :disconnected
+      phone_call.should be_in_progress
+    end
+
+    it 'false for missed' do
+      phone_call.state = :missed
+      phone_call.should_not be_in_progress
+    end
+
+    it 'false for transferred' do
+      phone_call.state = :transferred
+      phone_call.should_not be_in_progress
+    end
+
+    it 'false for ended' do
+      phone_call.state = :ended
+      phone_call.should_not be_in_progress
     end
   end
 
@@ -415,13 +462,8 @@ describe PhoneCall do
 
   describe '#resolve' do
     let(:twilio_sid) { 'CAf7546453bca08b52f3e84ee102d82262' }
-    let(:phone_call) { build(:phone_call, to_role: build(:role, name: 'nurse')) }
-    let(:role) { build(:role) }
+    let(:phone_call) { build(:phone_call, to_role: build_stubbed(:role, name: 'nurse')) }
     let(:phone_number) { '+14083913578' }
-
-    before do
-      Role.stub(:find_by_name!).with(:pha) { role }
-    end
 
     context 'phone number is not valid caller id' do
       before do
@@ -432,7 +474,7 @@ describe PhoneCall do
         PhoneCall.should_receive(:create).with(
           origin_phone_number: nil,
           destination_phone_number: PHA_NUMBER,
-          to_role: role,
+          to_role: @pha,
           state_event: :resolve,
           origin_twilio_sid: twilio_sid,
           origin_status: PhoneCall::CONNECTED_STATUS
@@ -493,7 +535,7 @@ describe PhoneCall do
               user: member,
               origin_phone_number: db_phone_number,
               destination_phone_number: PHA_NUMBER,
-              to_role: role,
+              to_role: @pha,
               state_event: :resolve,
               origin_twilio_sid: twilio_sid,
               origin_status: PhoneCall::CONNECTED_STATUS
@@ -512,7 +554,7 @@ describe PhoneCall do
             PhoneCall.should_receive(:create).with(
               origin_phone_number: db_phone_number,
               destination_phone_number: PHA_NUMBER,
-              to_role: role,
+              to_role: @pha,
               state_event: :resolve,
               origin_twilio_sid: twilio_sid,
               origin_status: PhoneCall::CONNECTED_STATUS
@@ -547,11 +589,8 @@ describe PhoneCall do
         phone_call.stub(:id_changed?) { true }
       end
 
-      it 'publishes that a new phone call was created' do
-        PubSub.should_receive(:publish).with(
-            "/phone_calls/new",
-            {id: phone_call.id}
-          )
+      it 'does nothing' do
+        PubSub.should_not_receive(:publish)
         phone_call.publish
       end
     end
@@ -565,16 +604,150 @@ describe PhoneCall do
 
       it 'publishes that a phone call was updated' do
         PubSub.should_receive(:publish).with(
-          "/phone_calls/update",
-          { id: phone_call.id }
-        )
-        PubSub.should_receive(:publish).with(
           "/phone_calls/#{phone_call.id}/update",
           {id: phone_call.id}
         )
         phone_call.publish
       end
     end
+  end
+
+  describe '#create_task' do
+    let(:phone_call) { build :phone_call }
+
+    before do
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
+    context 'outbound' do
+      before do
+        phone_call.stub(:outbound?) { true }
+      end
+
+      it 'does nothing' do
+        PhoneCallTask.should_not_receive(:create!)
+        PhoneCallTask.any_instance.should_not_receive(:update_attributes!)
+      end
+    end
+
+    context 'inbound' do
+      before do
+        phone_call.stub(:outbound?) { false }
+      end
+
+      context 'new record' do
+        before do
+          phone_call.stub(:id_changed?) { true }
+        end
+
+        context 'unclaimed' do
+          before do
+            phone_call.stub(:unclaimed?) { true }
+          end
+
+          it 'creates a task' do
+            consult = build :consult
+            phone_call.stub(:consult) { consult }
+            PhoneCallTask.should_receive(:create!).with(
+              title: phone_call.consult.title,
+              phone_call: phone_call,
+              creator: Member.robot,
+              due_at: phone_call.created_at
+            )
+            phone_call.create_task
+          end
+        end
+
+        context 'not unclaimed' do
+          before do
+            phone_call.stub(:unclaimed?) { false }
+          end
+
+          it 'does nothing' do
+            PhoneCallTask.should_not_receive(:create!)
+            phone_call.create_task
+          end
+        end
+      end
+
+      context 'update' do
+        before do
+          phone_call.stub(:id) { 1 }
+          phone_call.stub(:id_changed?) { false }
+        end
+
+        context 'state changed' do
+          before do
+            phone_call.stub(:state_changed?) { true }
+          end
+
+          context 'call was missed' do
+            let(:phone_call_task) { build_stubbed :phone_call_task }
+
+            before do
+              phone_call.stub(:missed?) { true }
+            end
+
+            it 'abandons any existing tasks around the phone call' do
+              phone_call_task.should_receive(:update_attributes!).with(state_event: :abandon, reason_abandoned: 'missed', abandoner: Member.robot)
+
+              phone_call.stub(:phone_call_tasks) do
+                o = Object.new
+                o.stub(:where).with(phone_call_id: phone_call.id) do
+                  [phone_call_task]
+                end
+                o
+              end
+              phone_call.create_task
+            end
+
+            # TODO: Add once we have a FollowUpPhoneCallTask
+            #it 'creates a new task to follow up' do
+            #  consult = build :consult
+            #  phone_call.stub(:consult) { consult }
+            #  PhoneCallTask.should_receive(:create!).with(
+            #    title: phone_call.consult.title,
+            #    kind: 'follow_up',
+            #    consult: phone_call.consult,
+            #    phone_call: phone_call,
+            #    creator: Member.robot,
+            #    due_at: phone_call.updated_at
+            #  )
+            #  phone_call.create_task
+            #end
+          end
+
+          context 'call was not missed' do
+            before do
+              phone_call.stub(:missed?) { false }
+            end
+
+            it 'does nothing' do
+              PhoneCallTask.any_instance.should_not_receive(:update_attributes!)
+              PhoneCallTask.should_not_receive(:create!)
+              phone_call.create_task
+            end
+          end
+        end
+
+        context 'state did not change' do
+          before do
+            phone_call.stub(:state_changed?) { true }
+          end
+
+          it 'does nothing' do
+            PhoneCallTask.any_instance.should_not_receive(:update_attributes!)
+            PhoneCallTask.should_not_receive(:create!)
+            phone_call.create_task
+          end
+        end
+      end
+    end
+
   end
 
   describe 'states' do
@@ -732,16 +905,14 @@ describe PhoneCall do
 
     describe '#transfer!' do
       context 'stubbed' do
-        let(:nurse_role) { build_stubbed(:role, name: 'nurse') }
-        let!(:phone_call) { build(:phone_call, to_role: build_stubbed(:role, name: 'pha')) }
-        let(:nurseline_phone_call) { build_stubbed(:phone_call, to_role: nurse_role) }
-        let(:transferrer) { build_stubbed(:pha) }
+        let!(:phone_call) { build :phone_call, to_role: @pha }
+        let(:nurseline_phone_call) { build_stubbed :phone_call, to_role: @nurse }
+        let(:transferrer) { build_stubbed :pha }
 
         before do
           phone_call.state = 'unclaimed'
           PhoneCall.stub(:create!) { nurseline_phone_call }
           nurseline_phone_call.stub(:dial_destination)
-          Role.stub(:find_by_name!) { nurse_role }
         end
 
         it_behaves_like 'cannot transition from', :transfer!, [:disconnected, :unresolved]
@@ -763,7 +934,7 @@ describe PhoneCall do
             user: phone_call.user,
             origin_phone_number: phone_call.origin_phone_number,
             destination_phone_number: NURSELINE_NUMBER,
-            to_role: nurse_role,
+            to_role: @nurse,
             origin_twilio_sid: phone_call.origin_twilio_sid,
             twilio_conference_name: phone_call.twilio_conference_name,
             origin_status: PhoneCall::CONNECTED_STATUS

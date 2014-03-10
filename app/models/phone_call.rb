@@ -18,6 +18,7 @@ class PhoneCall < ActiveRecord::Base
   has_one :consult, through: :message
   has_one :scheduled_phone_call
   has_one :transferred_from_phone_call, class_name: 'PhoneCall', foreign_key: :transferred_to_phone_call_id
+  has_many :phone_call_tasks
 
   attr_accessible :user, :user_id, :to_role, :to_role_id, :message, :message_attributes, :origin_phone_number,
                   :destination_phone_number, :claimer, :claimer_id, :ender, :ender_id,
@@ -41,6 +42,7 @@ class PhoneCall < ActiveRecord::Base
 
   after_create :dial_if_outbound
   after_save :publish
+  after_save :create_task
 
   # for metrics
   scope :to_nurse_line, -> { where(destination_phone_number: PhoneCall.nurseline_numbers) }
@@ -65,6 +67,10 @@ class PhoneCall < ActiveRecord::Base
 
   def to_pha?
     to_role.name.to_sym == :pha
+  end
+
+  def in_progress?
+    %i(unresolved unclaimed claimed dialing connected disconnected).include? state
   end
 
   def self.accepting_calls_to_pha?
@@ -165,11 +171,39 @@ class PhoneCall < ActiveRecord::Base
   end
 
   def publish
-    if id_changed? # new record
-      PubSub.publish "/phone_calls/new", { id: id }
-    else
-      PubSub.publish "/phone_calls/update", { id: id }
+    unless id_changed?
       PubSub.publish "/phone_calls/#{id}/update", { id: id }
+    end
+  end
+
+  def create_task
+    return if outbound?
+
+    if id_changed? # New record
+      if unclaimed?
+        PhoneCallTask.create!(
+          title: consult ? consult.title : 'Unknown',
+          phone_call: self,
+          creator: Member.robot,
+          due_at: created_at
+        )
+      end
+    else # Updated record
+      if state_changed? && missed?
+        phone_call_tasks.where(phone_call_id: self.id).each do |task|
+          task.update_attributes!(state_event: :abandon, reason_abandoned: 'missed', abandoner: Member.robot)
+        end
+
+        # TODO: Add once we have a FollowUpTask
+        #Task.create!(
+        #  title: consult ? consult.title : 'Follow up missed call',
+        #  kind: 'follow_up',
+        #  consult: consult,
+        #  phone_call: self,
+        #  creator: Member.robot,
+        #  due_at: updated_at
+        #)
+      end
     end
   end
 
@@ -197,7 +231,7 @@ class PhoneCall < ActiveRecord::Base
 
   state_machine :initial => lambda { |object| object.initial_state } do
     event :claim do
-      transition :unclaimed => :claimed
+      transition [:ended, :unclaimed] => :claimed
     end
 
     event :resolve do
@@ -228,6 +262,7 @@ class PhoneCall < ActiveRecord::Base
       transition [:disconnected, :connected, :claimed] => :ended
     end
 
+    # NOTE: Backwards compatibility with old design of CP
     event :reclaim do
       transition :ended => :claimed
     end

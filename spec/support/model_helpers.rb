@@ -7,7 +7,7 @@ shared_examples 'valid factory' do |*traits|
   end
 end
 
-shared_examples 'presence of' do |property|
+shared_examples 'presence of' do |property, options = {}|
   its "#{property}" do
     model = build_stubbed(described_class.name.underscore.to_sym)
     model.send(:"#{property}=", nil)

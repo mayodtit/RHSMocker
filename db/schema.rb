@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140306062949) do
+ActiveRecord::Schema.define(:version => 20140310182730) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -322,11 +322,9 @@ ActiveRecord::Schema.define(:version => 20140306062949) do
     t.integer  "phone_call_id"
     t.string   "image"
     t.integer  "phone_call_summary_id"
-    t.boolean  "unread_by_cp"
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
-  add_index "messages", ["unread_by_cp"], :name => "index_messages_on_unread_by_cp"
 
   create_table "metadata", :force => true do |t|
     t.string   "mkey",       :null => false
@@ -567,6 +565,39 @@ ActiveRecord::Schema.define(:version => 20140306062949) do
     t.string   "description"
     t.string   "gender"
   end
+
+  create_table "tasks", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.integer  "role_id"
+    t.integer  "owner_id"
+    t.integer  "member_id"
+    t.integer  "subject_id"
+    t.integer  "assignor_id"
+    t.integer  "consult_id"
+    t.integer  "phone_call_id"
+    t.integer  "scheduled_phone_call_id"
+    t.integer  "message_id"
+    t.integer  "phone_call_summary_id"
+    t.datetime "due_at"
+    t.datetime "assigned_at"
+    t.datetime "started_at"
+    t.datetime "claimed_at"
+    t.datetime "completed_at"
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
+    t.integer  "creator_id"
+    t.string   "state"
+    t.integer  "abandoner_id"
+    t.datetime "abandoned_at"
+    t.string   "reason_abandoned"
+    t.string   "type"
+  end
+
+  add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"
+  add_index "tasks", ["state", "due_at", "created_at"], :name => "index_tasks_on_state_and_due_at_and_created_at"
+  add_index "tasks", ["state"], :name => "index_tasks_on_state"
+  add_index "tasks", ["type", "consult_id", "state"], :name => "index_tasks_on_type_and_consult_id_and_state"
 
   create_table "treatment_side_effects", :force => true do |t|
     t.integer  "treatment_id"

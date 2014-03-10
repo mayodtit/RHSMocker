@@ -41,6 +41,7 @@ RSpec.configure do |config|
   # than remembering which exact specs require Analytics stubbing
   config.before(:each) { stub_out_analytics_methods }
   config.before(:each) { stub_out_twilio }
+  config.before(:each) { Role.find_or_create_by_name!(:pha).id }
 end
 
 def stub_out_analytics_methods

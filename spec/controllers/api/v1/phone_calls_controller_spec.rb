@@ -300,7 +300,7 @@ describe Api::V1::PhoneCallsController do
       end
 
       context 'digits is 1' do
-        let(:robot) { build(:member) }
+        let(:robot) { build_stubbed(:member) }
         let(:nurseline_phone_call) { build(:phone_call) }
 
         before do
