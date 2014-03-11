@@ -5,7 +5,7 @@
   .card-body.with-buttons
     %span You've been invited to help take care of #{resource.associate.first_name}. It will be super fun.
   .card-buttons
-    .card-button.reject.disable-association{data: {association_id: resource.id}}
+    .card-button.reject.update-association{data: {association_id: resource.id, state_event: :disable}}
       %span Decline
-    .card-button.accept.enable-association{data: {association_id: resource.id}}
+    .card-button.accept.update-association{data: {association_id: resource.id, state_event: :enable}}
       %span Accept
