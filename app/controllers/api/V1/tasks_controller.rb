@@ -20,7 +20,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
 
   def current
     task = Task.find_by_owner_id_and_state(@user.id, 'claimed')
-    authorize! :read, task
+    authorize!(:read, task) if task
     show_resource task && task.serializer
   end
 
