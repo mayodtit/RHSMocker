@@ -198,7 +198,24 @@ describe Task do
         )
         PubSub.should_receive(:publish).with(
           "/tasks/#{task.id}/update",
-          {id: task.id}
+          { id: task.id }
+        )
+        task.publish
+      end
+    end
+
+    context 'owner id is present' do
+      let(:task) { build_stubbed(:task) }
+
+      before do
+        task.stub(:owner_id) { 3 }
+      end
+
+      it 'published to the owners channel' do
+        PubSub.should_receive(:publish).with('/tasks/new', { id: task.id })
+        PubSub.should_receive(:publish).with(
+          "/users/3/tasks/owned/update",
+          { id: task.id }
         )
         task.publish
       end

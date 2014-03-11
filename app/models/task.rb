@@ -51,6 +51,10 @@ class Task < ActiveRecord::Base
       PubSub.publish "/tasks/update", { id: id }
       PubSub.publish "/tasks/#{id}/update", { id: id }
     end
+
+    if owner_id.present?
+      PubSub.publish "/users/#{owner_id}/tasks/owned/update", { id: id }
+    end
   end
 
   state_machine :initial => :unassigned do
