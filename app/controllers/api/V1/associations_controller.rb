@@ -47,7 +47,9 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def verify_associate!
     if params[:association][:associate_id]
-      raise CanCan::AccessDenied unless User.find(params[:association][:associate_id]).owner_id == current_user.id
+      @associate = User.find(params[:association][:associate_id])
+      raise CanCan::AccessDenied unless @associate.owner_id == current_user.id
+      raise CanCan::AccessDenied if Association.where(user_id: @associate.owner_id, associate_id: @associate.id).first.try(:replacement)
     end
   end
 
