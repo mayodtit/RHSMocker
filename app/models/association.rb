@@ -63,6 +63,7 @@ class Association < ActiveRecord::Base
   def create_pair_association!
     update_attributes!(pair: build_pair(user_id: associate_id,
                                         associate_id: user_id,
+                                        association_type: AssociationType.family_default,
                                         creator_id: associate_id,
                                         pair_id: id,
                                         original: original.try(:pair),
@@ -106,6 +107,7 @@ class Association < ActiveRecord::Base
       return if replacement || (user == user.member)
       update_attributes!(replacement: build_replacement(user_id: user.member_or_invite!(creator).id,
                                                         associate_id: associate_id,
+                                                        association_type: AssociationType.family_default,
                                                         creator_id: creator_id,
                                                         state: 'pending'))
     end
