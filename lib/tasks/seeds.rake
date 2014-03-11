@@ -331,7 +331,7 @@ namespace :seeds do
         last_name: LAST_NAMES.sample,
       )
 
-      m.add_role :nurse
+      m.add_role :nurse unless m.nurse?
     end
 
     puts 'Creating admins with each inviting a ghost member...'
@@ -348,7 +348,7 @@ namespace :seeds do
         last_name: LAST_NAMES.sample,
       )
 
-      m.add_role :admin
+      m.add_role :admin unless m.admin?
 
       # Invite the nurses
       TO_INVITE.each do |mail|
@@ -371,7 +371,7 @@ namespace :seeds do
         last_name: LAST_NAMES.sample,
       )
 
-      m.add_role :nurse
+      m.add_role :nurse unless m.nurse?
     end
 
     puts 'Creating PHAs...'
@@ -389,7 +389,7 @@ namespace :seeds do
         last_name: LAST_NAMES.sample,
       )
 
-      m.add_role :pha
+      m.add_role :pha unless m.pha?
     end
 
     puts 'Creating PHAs leads...'
@@ -407,7 +407,7 @@ namespace :seeds do
         last_name: LAST_NAMES.sample,
       )
 
-      m.add_role :pha_lead
+      m.add_role :pha_lead unless m.pha_lead?
     end
 
     puts 'Creating appointments...'
