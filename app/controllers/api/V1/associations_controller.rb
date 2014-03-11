@@ -2,6 +2,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_associations!, only: :index
   before_filter :load_association!, only: [:show, :update, :destroy, :invite]
+  before_filter :verify_associate!, only: :create
   before_filter :convert_parameters!, only: [:create, :update]
 
   def index
@@ -42,6 +43,12 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   def load_association!
     @association = @user.associations.find(params[:id])
     authorize! :manage, @association
+  end
+
+  def verify_associate!
+    if params[:association][:associate_id]
+      raise CanCan::AccessDenied unless User.find(params[:association][:associate_id]).owner_id == current_user.id
+    end
   end
 
   def convert_parameters!

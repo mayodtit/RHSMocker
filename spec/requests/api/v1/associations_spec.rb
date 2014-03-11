@@ -114,7 +114,7 @@ describe 'Associations' do
     end
 
     context 'with an existing user' do
-      let(:associate) { create(:user) }
+      let(:associate) { create(:user, owner: user) }
 
       it 'creates an association' do
         expect{ do_request(association: {associate_id: associate.id}) }.to change(Association, :count).by(1)
@@ -124,6 +124,17 @@ describe 'Associations' do
         expect(body[:association].to_json).to eq(association.serializer.as_json.to_json)
         expect(association.user).to eq(user)
         expect(association.associate).to eq(associate)
+      end
+
+      context 'not owned by the user' do
+        let(:other_member) { create(:member) }
+        let(:associate) { create(:user, owner: other_member) }
+
+        it 'raises 403' do
+          expect{ do_request(association: {associate_id: associate.id}) }.to_not change(Association, :count)
+          expect(response).to_not be_success
+          expect(response.status).to eq(403)
+        end
       end
     end
 
