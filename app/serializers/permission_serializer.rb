@@ -14,7 +14,7 @@ class PermissionSerializer < ActiveModel::Serializer
 
   def display_names
     {
-      basic_info: 'Basic Information',
+      basic_info: 'Personal Information',
       medical_info: 'Medical Information',
       care_team: 'Care Team'
     }
