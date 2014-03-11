@@ -521,8 +521,41 @@ table.content {
   &.no-buttons {
     height: 140px;
   }
+  &.with-buttons {
+    height: 65px;
+  }
   strong {
     font-family:"Roboto";
     font-weight: 400;
+  }
+}
+
+.card-buttons {
+  .card-button {
+    float: left;
+    min-height: 40px;
+    height: 20px;
+    width: 128px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 2px;
+    position: relative;
+    span {
+      position: absolute;
+      top: 10px;
+      left: 0px;
+      width: 100%;
+      text-align: center;
+    }
+    &.accept {
+      border: 1px solid $dark-blue;
+      background-color: $dark-blue;
+      color: white;
+    }
+    &.reject {
+      border: 1px solid $medium-grey;
+      background-color: white;
+      color: $dark-blue;
+    }
   }
 }

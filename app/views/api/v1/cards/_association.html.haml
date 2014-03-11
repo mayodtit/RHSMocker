@@ -2,5 +2,10 @@
   .card-header
     = image_tag(resource.associate.avatar_or_gender_url, class: :double)
     %h1.double #{resource.creator.first_name} has shared #{resource.associate.first_name}'s profile with you
-  .card-body
-    You've been invited to help take care of #{resource.associate.first_name}. It will be super fun.
+  .card-body.with-buttons
+    %span You've been invited to help take care of #{resource.associate.first_name}. It will be super fun.
+  .card-buttons
+    .card-button.reject.disable-association{data: {association_id: resource.id}}
+      %span Decline
+    .card-button.accept.enable-association{data: {association_id: resource.id}}
+      %span Accept
