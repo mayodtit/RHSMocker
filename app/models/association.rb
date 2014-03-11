@@ -122,10 +122,12 @@ class Association < ActiveRecord::Base
   end
 
   def send_card!
-    if (creator != user) && (user.is_a?(Member))
-      user.cards.create(resource: self)
-    elsif (creator != associate) && (associate.is_a?(Member))
-      associate.cards.create(resource: self)
+    if pending?
+      if (creator != user) && (user.is_a?(Member))
+        user.cards.create(resource: self)
+      elsif (creator != associate) && (associate.is_a?(Member))
+        associate.cards.create(resource: self)
+      end
     end
   end
 
