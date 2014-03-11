@@ -32,6 +32,7 @@ class Association < ActiveRecord::Base
 
   before_validation :build_related_associations, on: :create
   before_validation :create_default_permission, on: :create
+  after_create :send_card!
 
   # adding and removing the user's default HCP
   after_save :process_default_hcp
@@ -116,6 +117,14 @@ class Association < ActiveRecord::Base
                         else
                           create_permission(Permission.default_levels)
                         end
+  end
+
+  def send_card!
+    if (creator != user) && (user.is_a?(Member))
+      user.cards.create(resource: self)
+    elsif (creator != associate) && (associate.is_a?(Member))
+      associate.cards.create(resource: self)
+    end
   end
 
   def invited?

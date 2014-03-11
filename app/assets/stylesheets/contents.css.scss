@@ -2,6 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$orange: #E97310;
+$dark-grey: #878A8C;
+$medium-grey: #C2C4C5;
+$light-grey: #E0E1E1;
+$dark-green: #537F89;
+$dark-blue: #68B7C8;
+$light-blue: #B3DBE5;
+$tan: #D9D1BD;
+$green: #6AA06B;
+$red: #FF392F;
+$black: #3B392F;
+
 //Mappings for iOS fonts
 @font-face {font-family:"Avenir Next Medium Condensed"; src: local("AvenirNextCondensed-Medium");}
 @font-face {font-family:"Avenir Next Regular Condensed"; src: local("AvenirNextCondensed-Regular");}
@@ -509,8 +521,41 @@ table.content {
   &.no-buttons {
     height: 140px;
   }
+  &.with-buttons {
+    height: 65px;
+  }
   strong {
     font-family:"Roboto";
     font-weight: 400;
+  }
+}
+
+.card-buttons {
+  .card-button {
+    float: left;
+    min-height: 40px;
+    height: 20px;
+    width: 128px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 2px;
+    position: relative;
+    span {
+      position: absolute;
+      top: 10px;
+      left: 0px;
+      width: 100%;
+      text-align: center;
+    }
+    &.accept {
+      border: 1px solid $dark-blue;
+      background-color: $dark-blue;
+      color: white;
+    }
+    &.reject {
+      border: 1px solid $medium-grey;
+      background-color: white;
+      color: $dark-blue;
+    }
   }
 }
