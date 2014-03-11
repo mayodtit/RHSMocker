@@ -65,7 +65,7 @@ class Ability
 
     if user.nurse?
       can :ru, Task do |o|
-        o.for_nurse?
+        o.for_nurse? || o.owner_id == o.id
       end
 
       can :ru, PhoneCall do |o|
@@ -78,7 +78,7 @@ class Ability
       can :manage, Member
 
       can :cru, Task do |o|
-        o.for_pha?
+        o.for_pha? || o.owner_id == o.id
       end
 
       can :ru, PhoneCall do |o|
