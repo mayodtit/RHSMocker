@@ -36,7 +36,7 @@ class MessageTask < Task
     return unless open?
     task = MessageTask.open.where(consult_id: consult_id).first
     if task && task.id != id
-      errors.add(:consult_id, "Cannot be 'message' for consult #{consult_id} when another uncompleted 'message' task exists")
+      errors.add(:consult_id, "open MessageTask already exists for Consult #{consult_id}")
     end
   end
 end
