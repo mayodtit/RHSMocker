@@ -31,13 +31,15 @@ class RHSMailer < MandrillMailer::TemplateMailer
     spc = ScheduledPhoneCall.find(spc_id)
     from_email = spc.owner.email
 
-    template_clare  = 'Welcome Call Confirmation (Clare) - TEMPLATE v140217'
-    template_lauren = 'Welcome Call Confirmation (Lauren) - TEMPLATE v140217'
-    template_meg    = 'Welcome Call Confirmation (Meg) - TEMPLATE v140303'
+    template_clare   = 'Welcome Call Confirmation - Clare v140312'
+    template_lauren  = 'Welcome Call Confirmation - Lauren v140312'
+    template_meg     = 'Welcome Call Confirmation - Meg v140312'
+    template_ninette = 'Welcome Call Confirmation - Ninette v140312'
 
     t = case from_email
           when 'lauren@getbetter.com' then template_lauren
           when 'meg@getbetter.com' then template_meg
+          when 'ninette@getbetter.com' then template_ninette
           else template_clare
         end
 
@@ -51,6 +53,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
         'Reply-To' => 'premium@getbetter.com'
       },
       vars: {
+        FNAME: spc.user.salutation,
         PHONENUM: spc.callback_phone_number
       },
       attachments: [
