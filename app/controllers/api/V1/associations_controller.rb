@@ -71,6 +71,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
       else
         params[:association][:associate] = provider_from_search
         params[:association].change_key!(:associate, :associate_attributes)
+        add_address_attributes(address)
       end
     elsif params.require(:association)[:associate]
       params[:association].change_key!(:associate, :associate_attributes)
@@ -80,11 +81,8 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
         params[:association][:associate_attributes][:owner_id] ||= @user.id
       end
       params[:association][:associate_attributes][:id] = nil if params[:association][:associate_attributes][:id] == 0 # TODO - disable sending fake id from client
+      add_address_attributes(address)
     end
-
-    # Add in address attributes for both NPI and non-NPI providers.
-    # In the future we may auto-populate the address for NPI providers based on Bloom search results.
-    params[:association][:associate_attributes][:address_attributes] = address if address
   end
 
   def provider_from_search
@@ -100,5 +98,11 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def search_service
     @search_service ||= Search::Service.new
+  end
+
+  # Add in address attributes for both NPI and non-NPI providers.
+  # In the future we may auto-populate the address for NPI providers based on Bloom search results.
+  def add_address_attributes(address)
+    params[:association][:associate_attributes][:address_attributes] = address if address
   end
 end
