@@ -7,7 +7,8 @@ class MemberSerializer < ActiveModel::Serializer
              :phone, :nickname, :city, :state, :work_phone_number,
              :avatar_url, :ethnic_group, :diet, :address,
              :holds_phone_in, :install_id, :phone, :units, :client_data,
-             :pusher_id, :full_name, :created_at, :email_read_only
+             :pusher_id, :full_name, :created_at, :email_read_only,
+             :sharing_prohibited
 
   def attributes
     super.tap do |attributes|
@@ -39,6 +40,10 @@ class MemberSerializer < ActiveModel::Serializer
   end
 
   def email_read_only
+    true
+  end
+
+  def sharing_prohibited
     true
   end
 end
