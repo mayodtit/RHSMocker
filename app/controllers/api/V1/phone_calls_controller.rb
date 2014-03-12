@@ -30,7 +30,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
 
     update_params = params.require(:phone_call).permit(:state_event)
 
-    if %w(claim end).include? update_params[:state_event]
+    if %w(dial claim end).include? update_params[:state_event]
       update_params[update_params[:state_event].event_actor.to_sym] = current_user
     end
 
@@ -39,12 +39,13 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
 
   def connect_origin
     @phone_call.update_attributes!(origin_status: PhoneCall::CONNECTED_STATUS)
-    @phone_call.dial_destination
+    @phone_call.dial_destination if @phone_call.dialing?
     render formats: [:xml]
   end
 
   def connect_destination
     @phone_call.update_attributes!(destination_status: PhoneCall::CONNECTED_STATUS)
+    @phone_call.dial_origin if @phone_call.dialing?
     render formats: [:xml]
   end
 

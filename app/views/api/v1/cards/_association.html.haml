@@ -1,11 +1,23 @@
 .content_card
-  .card-header
-    = image_tag(resource.associate.avatar_or_gender_url, class: :double)
-    %h1.double #{resource.creator.first_name} has shared #{resource.associate.first_name}'s profile with you
-  .card-body.with-buttons
-    %span You've been invited to help take care of #{resource.associate.first_name}. It will be super fun.
-  .card-buttons
-    .card-button.reject.update-association{data: {association_id: resource.id, state_event: :disable}}
-      %span Decline
-    .card-button.accept.update-association{data: {association_id: resource.id, state_event: :enable}}
-      %span Accept
+  - if resource.creator == resource.user
+    .card-header
+      = image_tag(resource.user.avatar_or_gender_url, class: :double)
+      %h1.double #{resource.user.first_name} has invited you to connect
+    .card-body.with-buttons
+      %span Share all the things with me. It will be super fun.
+    .card-buttons
+      .card-button.reject.update-inverse-association{data: {association_id: resource.id, state_event: :disable}}
+        %span Decline
+      .card-button.accept.update-inverse-association{data: {association_id: resource.id, state_event: :enable}}
+        %span Accept
+  - else
+    .card-header
+      = image_tag(resource.associate.avatar_or_gender_url, class: :double)
+      %h1.double #{resource.creator.first_name} has shared #{resource.associate.first_name}'s profile with you
+    .card-body.with-buttons
+      %span You've been invited to help take care of #{resource.associate.first_name}. It will be super fun.
+    .card-buttons
+      .card-button.reject.update-association{data: {association_id: resource.id, state_event: :disable}}
+        %span Decline
+      .card-button.accept.update-association{data: {association_id: resource.id, state_event: :enable}}
+        %span Accept

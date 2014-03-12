@@ -1,6 +1,6 @@
 class MessageTaskSerializer < TaskSerializer
 
-  attributes :consult_id, :message_id, :type
+  attributes :consult_id, :message_id
 
   has_one :member
 

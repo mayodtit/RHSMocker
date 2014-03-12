@@ -727,8 +727,7 @@ describe PhoneCall do
       end
 
       it 'does nothing' do
-        PhoneCallTask.should_not_receive(:create!)
-        PhoneCallTask.any_instance.should_not_receive(:update_attributes!)
+        PhoneCallTask.should_not_receive(:create_if_only_opened_for_phone_call!)
       end
     end
 
@@ -750,12 +749,7 @@ describe PhoneCall do
           it 'creates a task' do
             consult = build :consult
             phone_call.stub(:consult) { consult }
-            PhoneCallTask.should_receive(:create!).with(
-              title: phone_call.consult.title,
-              phone_call: phone_call,
-              creator: Member.robot,
-              due_at: phone_call.created_at
-            )
+            PhoneCallTask.should_receive(:create_if_only_opened_for_phone_call!).with(phone_call)
             phone_call.create_task
           end
         end
@@ -766,7 +760,7 @@ describe PhoneCall do
           end
 
           it 'does nothing' do
-            PhoneCallTask.should_not_receive(:create!)
+            PhoneCallTask.should_not_receive(:create_if_only_opened_for_phone_call!)
             phone_call.create_task
           end
         end
@@ -829,12 +823,7 @@ describe PhoneCall do
 
       it 'creates a phone call task' do
         phone_call = create :phone_call, to_role_id: @pha_id
-        PhoneCallTask.should_receive(:create!).with(
-          title: phone_call.consult.title,
-          phone_call: phone_call,
-          creator: Member.robot,
-          due_at: phone_call.created_at
-        )
+        PhoneCallTask.should_receive(:create_if_only_opened_for_phone_call!).with(phone_call)
         phone_call.resolve!
       end
     end

@@ -175,7 +175,6 @@ class PhoneCall < ActiveRecord::Base
       call = PhoneCall.twilio.account.calls.get origin_twilio_sid
       call.update status: 'completed'
     end
-
     if destination_twilio_sid.present? && (!outbound? || !transferred?)
       call = PhoneCall.twilio.account.calls.get destination_twilio_sid
       call.update status: 'completed'
@@ -193,12 +192,7 @@ class PhoneCall < ActiveRecord::Base
 
     if id_changed? # New record
       if unclaimed?
-        PhoneCallTask.create!(
-          title: consult ? consult.title : 'Unknown',
-          phone_call: self,
-          creator: Member.robot,
-          due_at: created_at
-        )
+        PhoneCallTask.create_if_only_opened_for_phone_call! self
       end
     end
   end
@@ -272,12 +266,7 @@ class PhoneCall < ActiveRecord::Base
     end
 
     after_transition :unresolved => :unclaimed do |phone_call|
-      PhoneCallTask.create!(
-        title: phone_call.consult ? phone_call.consult.title : 'Unknown',
-        phone_call: phone_call,
-        creator: Member.robot,
-        due_at: phone_call.created_at
-      )
+      PhoneCallTask.create_if_only_opened_for_phone_call! phone_call
     end
 
     before_transition :unclaimed => :missed do |phone_call|
@@ -294,7 +283,7 @@ class PhoneCall < ActiveRecord::Base
       phone_call.destination_phone_number = phone_call.dialer.work_phone_number
     end
 
-    after_transition :claimed => :dialing do |phone_call|
+    after_transition [:claimed, :disconnected] => :dialing do |phone_call|
       phone_call.dial_destination
     end
 

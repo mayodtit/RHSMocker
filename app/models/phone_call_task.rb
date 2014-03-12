@@ -10,6 +10,7 @@ class PhoneCallTask < Task
 
   validates :phone_call_id, presence: true
   validates :phone_call, presence: true, if: lambda { |t| t.phone_call_id }
+  validate :one_open_per_phone_call
 
   before_validation :set_role, on: :create
 
@@ -18,7 +19,18 @@ class PhoneCallTask < Task
   end
 
   def member
-    consult && consult.initiator
+    phone_call.user || (consult && consult.initiator)
+  end
+
+  def self.create_if_only_opened_for_phone_call!(phone_call)
+    if open.where(phone_call_id: phone_call.id).count == 0
+      create!(
+        title: phone_call.consult ? phone_call.consult.title : 'Unknown',
+        phone_call: phone_call,
+        creator: Member.robot,
+        due_at: phone_call.created_at
+      )
+    end
   end
 
   state_machine :initial => :unassigned do
@@ -42,6 +54,14 @@ class PhoneCallTask < Task
       if task.phone_call.in_progress?
         task.phone_call.update_attributes!(state_event: :end, ender: task.abandoner)
       end
+    end
+  end
+
+  def one_open_per_phone_call
+    return unless open?
+    task = self.class.open.where(phone_call_id: phone_call_id).first
+    if task && task.id != id
+      errors.add(:phone_call_id, "open PhoneCallTask already exists for #{phone_call_id}")
     end
   end
 end
