@@ -18,6 +18,7 @@
 .DS_Store
 public/docs
 public/assets
+/public/uploads
 *.pid
 solr/data
 solr/pids
