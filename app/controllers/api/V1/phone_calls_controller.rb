@@ -1,7 +1,7 @@
 class Api::V1::PhoneCallsController < Api::V1::ABaseController
-  before_filter :load_user!, :only => [:index, :show, :update]
+  before_filter :load_user!, :only => [:index, :show, :update, :hang_up]
   before_filter :load_phone_call!, :except => [:index, :connect, :status, :connect_nurse]
-  skip_before_filter :authentication_check, :except => [:index, :show, :update]
+  skip_before_filter :authentication_check, :except => [:index, :show, :update, :hang_up]
 
   layout false, except: [:index, :show, :update]
   # http_basic_authenticate_with name: "twilio", password: "secret", except: :index
@@ -104,6 +104,12 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
     end
 
     head :ok, :content_type => 'text/html'
+  end
+
+  def hang_up
+    authorize! :hang_up, @phone_call
+    @phone_call.hang_up
+    show_resource @phone_call.serializer
   end
 
   private

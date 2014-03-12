@@ -68,7 +68,12 @@ def stub_out_twilio
     call
   end
 
+  calls.stub(:get) do
+    call
+  end
+
   call.stub(:sid) { 'FAKETWILIOSID' }
+  call.stub(:update)
 
   PhoneCall.stub(:twilio) { twilio }
 end

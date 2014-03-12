@@ -470,6 +470,33 @@ describe Api::V1::PhoneCallsController do
     end
   end
 
+  describe 'PUT hang_up' do
+    let(:phone_call) { build_stubbed :phone_call }
+
+    def do_request
+      put :hang_up, auth_token: user.auth_token, id: phone_call.id
+    end
+
+    it_behaves_like 'action requiring authentication and authorization'
+
+    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+      it_behaves_like 'phone call 404'
+
+      context 'phone call exists' do
+        before do
+          PhoneCall.stub(:find) { phone_call }
+        end
+
+        it_behaves_like 'success'
+
+        it 'hangs up the phone call' do
+          phone_call.should_receive :hang_up
+          do_request
+        end
+      end
+    end
+  end
+
   describe '#disconnected_call_status?' do
     let(:params) { {} }
 

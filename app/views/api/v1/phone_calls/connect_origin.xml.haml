@@ -1,7 +1,10 @@
 !!! XML
 %Response
   %Say{voice: 'woman'}
-    Hi #{@phone_call.dialer.first_name}, I'm connecting you with #{@phone_call.user.first_name}.
+    - if @phone_call.dialer
+      Hi #{@phone_call.dialer.first_name},
+    - if @phone_call.user
+      I'm connecting you with #{@phone_call.user.first_name}.
   %Dial
     %Conference{beep: false, endConferenceOnExit: false, startConferenceOnEnter: true, waitUrl: TWILIO_WAIT_URL}
       = @phone_call.twilio_conference_name

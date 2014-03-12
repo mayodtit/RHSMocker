@@ -567,6 +567,104 @@ describe PhoneCall do
     end
   end
 
+  describe '#hang_up' do
+    let(:phone_call) { build :phone_call }
+
+    shared_examples 'completes call' do
+      it 'completes the call' do
+        PhoneCall.twilio.account.calls.should_receive(:get).with('FAKE_SID') do
+          o = Object.new
+          o.should_receive(:update).with(status: 'completed')
+          o
+        end
+        phone_call.hang_up
+      end
+    end
+
+    shared_examples 'does nothing' do
+      it 'does nothing' do
+        PhoneCall.twilio.account.calls.should_not_receive(:get)
+        phone_call.hang_up
+      end
+    end
+
+    context 'origin has twilio sid' do
+      before do
+        phone_call.stub(:origin_twilio_sid) { 'FAKE_SID' }
+      end
+
+      context 'origin is hcp' do
+        before do
+          phone_call.stub(:outbound?) { true }
+        end
+
+        it_behaves_like 'completes call'
+      end
+
+      context 'origin is member' do
+        before do
+          phone_call.stub(:outbound?) { false }
+        end
+
+        context 'call is transferred' do
+          before do
+            phone_call.stub(:transferred?) { true }
+          end
+
+          it_behaves_like 'does nothing'
+        end
+
+        context 'call is not transferred' do
+          before do
+            phone_call.stub(:transferred?) { false }
+          end
+
+          it_behaves_like 'completes call'
+        end
+      end
+    end
+
+    context 'destination has twilio sid' do
+      before do
+        phone_call.stub(:destination_twilio_sid) { 'FAKE_SID' }
+      end
+
+      context 'destination is hcp' do
+        before do
+          phone_call.stub(:outbound?) { false }
+        end
+
+        it_behaves_like 'completes call'
+      end
+
+      context 'destination is member' do
+        before do
+          phone_call.stub(:outbound?) { true }
+        end
+
+        context 'call is transferred' do
+          before do
+            phone_call.stub(:transferred?) { true }
+          end
+
+          it_behaves_like 'does nothing'
+        end
+
+        context 'call is not transferred' do
+          before do
+            phone_call.stub(:transferred?) { false }
+          end
+
+          it_behaves_like 'completes call'
+        end
+      end
+    end
+
+    context 'no sids' do
+      it_behaves_like 'does nothing'
+    end
+  end
+
   describe '#publish' do
     let(:phone_call) { build(:phone_call) }
 

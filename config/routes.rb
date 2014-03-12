@@ -33,12 +33,13 @@ RHSMocker::Application.routes.draw do
       resources :phone_calls, only: [:index, :show, :update] do
         post 'connect/origin', on: :member, to: 'phone_calls#connect_origin'
         post 'connect/destination', on: :member, to: 'phone_calls#connect_destination'
-        post 'connect', on: :collection, to: 'phone_calls#connect'
+        post 'connect', on: :collection
         get 'triage/menu', on: :member, to: 'phone_calls#triage_menu'
         post 'triage/select', on: :member, to: 'phone_calls#triage_select'
         post 'status/origin', on: :member, to: 'phone_calls#status_origin'
         post 'status/destination', on: :member, to: 'phone_calls#status_destination'
-        post 'status', on: :collection, to: 'phone_calls#status'
+        post 'status', on: :collection
+        put 'hang_up', on: :member
       end
       resources :dashboard, only: :index do
         get :onboarding_members, on: :collection
