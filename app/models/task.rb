@@ -137,7 +137,7 @@ class Task < ActiveRecord::Base
     if state == 'claimed'
       task = Task.find_by_owner_id_and_state(owner_id, 'claimed')
       if task && task.id != id
-        errors.add(:state, "cannot be 'claimed' for more than one task")
+        errors.add(:state, "cannot claim more than one task.")
       end
     end
   end
