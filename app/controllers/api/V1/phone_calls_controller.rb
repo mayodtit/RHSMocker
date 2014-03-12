@@ -30,7 +30,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
 
     update_params = params.require(:phone_call).permit(:state_event)
 
-    if %w(claim end).include? update_params[:state_event]
+    if %w(dial claim end).include? update_params[:state_event]
       update_params[update_params[:state_event].event_actor.to_sym] = current_user
     end
 
