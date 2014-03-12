@@ -28,6 +28,10 @@ $ ->
     NativeBridge.call('updateAssociation', {id: $(@).data("association-id"), state_event: $(@).data("state-event")})
     NativeBridge.call('dismissCard', {id: $(".card").data("id")})
 
+  $(".update-inverse-association").click ->
+    NativeBridge.call('updateInverseAssociation', {id: $(@).data("association-id"), state_event: $(@).data("state-event")})
+    NativeBridge.call('dismissCard', {id: $(".card").data("id")})
+
   $(".click-save").click ->
     NativeBridge.call('saveCard', {id: $(".card").data("id")})
 
