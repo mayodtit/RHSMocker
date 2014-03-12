@@ -35,6 +35,7 @@ class Association < ActiveRecord::Base
   before_validation :create_default_permission, on: :create
   after_save :invite!, if: ->(a){a.invite == true}
   after_create :send_card!
+  after_destroy :destroy_related_associations
 
   # adding and removing the user's default HCP
   after_save :process_default_hcp
@@ -132,6 +133,10 @@ class Association < ActiveRecord::Base
         associate.cards.create(resource: self, priority: 20)
       end
     end
+  end
+
+  def destroy_related_associations
+    replacement.destroy if replacement.try(:pending?)
   end
 
   def invited?
