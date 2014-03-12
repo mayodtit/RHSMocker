@@ -19,4 +19,6 @@ class Api::V1::PingController < Api::V1::ABaseController
 
     render_success(hash)
   end
+
+  alias_method :create, :index
 end
