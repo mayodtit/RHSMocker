@@ -11,6 +11,8 @@ class PhoneCallSerializer < ActiveModel::Serializer
              :destination_status, :outbound, :to_role_name
   has_one :user
   has_one :consult
+  has_one :transferred_to_phone_call
+  has_one :transferred_from_phone_call
 
   def to_role_name
     case object.to_role

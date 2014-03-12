@@ -110,36 +110,77 @@ describe 'Associations' do
 
   describe 'POST /api/v1/associations' do
     def do_request(params={})
-      post "/api/v1/users/#{user.id}/associations", params.merge!(auth_token: user.auth_token)
+      post "/api/v1/users/#{user.id}/associations", params.reverse_merge!(auth_token: user.auth_token)
     end
 
-    context 'with an existing user' do
-      let(:associate) { create(:user) }
+    context 'for the current user' do
+      context 'with an existing user' do
+        let(:associate) { create(:user, owner: user) }
 
-      it 'creates an association' do
-        expect{ do_request(association: {associate_id: associate.id}) }.to change(Association, :count).by(1)
+        it 'creates an association' do
+          expect{ do_request(association: {associate_id: associate.id}) }.to change(Association, :count).by(1)
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          association = Association.find(body[:association][:id])
+          expect(body[:association].to_json).to eq(association.serializer.as_json.to_json)
+          expect(association.user).to eq(user)
+          expect(association.associate).to eq(associate)
+        end
+
+        context 'not owned by the user' do
+          let(:other_member) { create(:member) }
+          let(:associate) { create(:user, owner: other_member) }
+
+          it 'raises 403' do
+            expect{ do_request(association: {associate_id: associate.id}) }.to_not change(Association, :count)
+            expect(response).to_not be_success
+            expect(response.status).to eq(403)
+          end
+        end
+      end
+
+      context 'without an existing user' do
+        it 'creates an association' do
+          expect{ do_request(association: {associate: attributes_for(:user)}) }.to change(Association, :count).by(1)
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          association = Association.find(body[:association][:id])
+          expect(body[:association].to_json).to eq(association.serializer.as_json.to_json)
+          expect(association.user).to eq(user)
+        end
+
+        it 'creates a new user' do
+          expect{ do_request(association: {associate: attributes_for(:user)}) }.to change(User, :count).by(1)
+          expect(response).to be_success
+        end
+      end
+    end
+
+    context 'for a third party' do
+      let!(:member) { create(:member) }
+      let!(:user) { create(:user, owner: member, email: 'kyle+1@test.getbetter.com') }
+      let!(:first_association) { create(:association, user: member, associate: user) }
+      let!(:associate) { create(:user, owner: member, email: 'kyle+2@test.getbetter.com') }
+      let!(:second_association) { create(:association, user: member, associate: associate) }
+
+      it 'creates the association' do
+        do_request(association: {associate_id: associate.id}, auth_token: member.auth_token)
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
         association = Association.find(body[:association][:id])
         expect(body[:association].to_json).to eq(association.serializer.as_json.to_json)
+        expect(association.creator).to eq(member)
         expect(association.user).to eq(user)
         expect(association.associate).to eq(associate)
       end
-    end
 
-    context 'without an existing user' do
-      it 'creates an association' do
-        expect{ do_request(association: {associate: attributes_for(:user)}) }.to change(Association, :count).by(1)
-        expect(response).to be_success
-        body = JSON.parse(response.body, symbolize_names: true)
-        association = Association.find(body[:association][:id])
-        expect(body[:association].to_json).to eq(association.serializer.as_json.to_json)
-        expect(association.user).to eq(user)
-      end
-
-      it 'creates a new user' do
-        expect{ do_request(association: {associate: attributes_for(:user)}) }.to change(User, :count).by(1)
-        expect(response).to be_success
+      context 'associate is shared' do
+        it 'raises 403' do
+          second_association.invite!
+          expect{ do_request(association: {associate_id: associate.id}, auth_token: member.auth_token) }.to_not change(Association, :count)
+          expect(response).to_not be_success
+          expect(response.status).to eq(403)
+        end
       end
     end
   end
