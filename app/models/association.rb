@@ -137,6 +137,7 @@ class Association < ActiveRecord::Base
 
   def destroy_related_associations
     replacement.destroy if replacement.try(:pending?)
+    associate.destroy if associate.owner_id == user_id
   end
 
   def invited?
