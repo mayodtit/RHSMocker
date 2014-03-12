@@ -6,7 +6,8 @@ class UserSerializer < ActiveModel::Serializer
              :deceased, :date_of_death, :npi_number, :expertise,
              :phone, :nickname, :city, :state, :work_phone_number,
              :avatar_url, :ethnic_group, :diet, :address,
-             :full_name, :provider_taxonomy_code, :taxonomy_classification
+             :full_name, :provider_taxonomy_code, :taxonomy_classification,
+             :email_read_only, :sharing_prohibited
 
   def attributes
     super.tap do |attributes|
@@ -25,5 +26,13 @@ class UserSerializer < ActiveModel::Serializer
 
   def full_name
     object.full_name
+  end
+
+  def email_read_only
+    object.inverse_associations.joins(:replacement).any?
+  end
+
+  def sharing_prohibited
+    object.inverse_associations.joins(:replacement).where('associations.associate_id != replacements_associations.associate_id').any?
   end
 end

@@ -59,7 +59,7 @@ RHSMocker::Application.routes.draw do
       resources :offerings, :only => :index
       post :password_resets, to: 'reset_password#create' # TODO - deprecated!
       resources :phone_call_summaries, :only => :show
-      resources :ping, :only => :index
+      resources :ping, only: [:index, :create]
       resources :plans, :only => [:index, :show]
       resources :programs, only: [:index, :show, :create, :update] do
         resources :resources, only: [:index, :create, :update, :destroy], controller: 'program_resources'

@@ -15,9 +15,9 @@ class Permission < ActiveRecord::Base
 
   def self.default_levels
     {
-      basic_info: :edit,
-      medical_info: :edit,
-      care_team: :edit
+      basic_info: :view,
+      medical_info: :none,
+      care_team: :none
     }
   end
 
