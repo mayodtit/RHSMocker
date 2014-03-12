@@ -15,12 +15,13 @@ class Association < ActiveRecord::Base
                        inverse_of: :subject
 
   attr_accessor :is_default_hcp
+  attr_accessor :invite
   attr_accessible :user, :user_id, :associate, :associate_id,
                   :creator, :creator_id,
                   :association_type, :association_type_id,
                   :associate_attributes, :is_default_hcp, :replacement,
                   :replacement_id, :original, :state_event, :state, :pair,
-                  :pair_id
+                  :pair_id, :invite
 
   validates :user, :associate, :creator, :permission, presence: true
   validates :associate_id, uniqueness: {scope: [:user_id, :association_type_id]}
@@ -32,6 +33,7 @@ class Association < ActiveRecord::Base
 
   before_validation :build_related_associations, on: :create
   before_validation :create_default_permission, on: :create
+  after_save :invite!, if: ->(a){a.invite == true}
   after_create :send_card!
 
   # adding and removing the user's default HCP
@@ -50,6 +52,7 @@ class Association < ActiveRecord::Base
 
   def invite!
     return if replacement || (associate == associate.member)
+    self.invite = false
     transaction do
       update_attributes!(replacement: build_replacement(user_id: user_id,
                                                         associate_id: associate.member_or_invite!(user).id,
@@ -95,7 +98,7 @@ class Association < ActiveRecord::Base
   end
 
   def creator_id_not_changed
-    if creator_id_changed? && persisted?
+    if creator_id_changed? && persisted? && !id_changed?
       errors.add(:creator_id, 'cannot be changed')
     end
   end
