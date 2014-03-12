@@ -24,6 +24,24 @@ describe Association do
   end
 
   describe 'callbacks' do
+    describe '#invite!' do
+      let(:association) { build(:association, :associate_with_email) }
+
+      context 'invite attribute not set' do
+        it 'does not call #invite!' do
+          association.should_not_receive(:invite!)
+          association.save!
+        end
+      end
+
+      context 'invite attribute is set' do
+        it 'calls #invite!' do
+          association.should_receive(:invite!).and_call_original
+          expect(association.update_attributes(invite: true)).to be_true
+        end
+      end
+    end
+
     describe '#create_default_permission' do
       it 'creates defaults on create' do
         expect{ create(:association) }.to change(Permission, :count).by(1)
