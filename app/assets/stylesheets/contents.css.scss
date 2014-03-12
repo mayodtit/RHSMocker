@@ -43,7 +43,7 @@ $black: #3B392F;
 body {
   margin: 0px;
   padding: 0px;
-  background-color: transparent;
+  background-color: white;
 }
 
 // #########################################################
@@ -494,15 +494,16 @@ table.content {
   h1 {
     font-family:"Roboto Light";
     font-weight: 400;
-    width: 255px;
+    width: 245px;
     float: right;
     font-size: 18px;
     line-height: 25px;
     margin: 10px 0px;
+    padding-right: 10px;
     text-align: left;
     color: #ea7411;
     &.double {
-      width: 230px;
+      width: 220px;
     }
   }
 }
