@@ -1,10 +1,85 @@
 require 'spec_helper'
 
 describe PhoneCallTask do
+  before do
+    @pha_id = Role.find_or_create_by_name!(:pha).id
+  end
+
+  describe '#validations' do
+    it_validates 'presence of', :phone_call_id
+    it_validates 'foreign key of', :phone_call
+
+    describe '#one_message_per_consult' do
+      let(:phone_call) { build_stubbed :phone_call }
+      let(:task) { build :phone_call_task, phone_call: phone_call }
+
+      context 'and open' do
+        context 'and phone call task for phone_call exists' do
+          it 'should not be valid if task is different' do
+            other_task = build_stubbed :phone_call_task
+            PhoneCallTask.stub(:open) do
+              o = Object.new
+              o.stub(:where).with(phone_call_id: phone_call.id) do
+                o = Object.new
+                o.stub(:first) { other_task }
+                o
+              end
+              o
+            end
+            task.should_not be_valid
+          end
+
+          it 'should be valid if task is the same' do
+            task = build_stubbed :phone_call_task, :claimed, phone_call: phone_call, role: phone_call.to_role
+            PhoneCallTask.stub(:open) do
+              o = Object.new
+              o.stub(:where).with(phone_call_id: phone_call.id) do
+                o = Object.new
+                o.stub(:first) { task }
+                o
+              end
+              o
+            end
+            task.should be_valid
+          end
+        end
+
+        context 'and phone call task for phone_call DNE' do
+          it 'should be valid' do
+            PhoneCallTask.stub(:open) do
+              o = Object.new
+              o.stub(:where).with(phone_call_id: phone_call.id) do
+                o = Object.new
+                o.stub(:first) { nil }
+                o
+              end
+              o
+            end
+            task.should be_valid
+          end
+        end
+      end
+
+      context 'and not open' do
+        before do
+          task.stub(:open?) { false }
+        end
+
+        it 'should be valid' do
+          task.should be_valid
+        end
+      end
+    end
+  end
+
   describe '#set_role' do
     let(:task) { build :phone_call_task }
 
     context 'role_id is nil' do
+      before do
+        task.role_id = nil
+      end
+
       context 'phone_call exists' do
         before do
           task.phone_call.stub(:to_role_id) { 5 }
@@ -63,6 +138,48 @@ describe PhoneCallTask do
 
       it 'returns nil' do
         task.member.should be_nil
+      end
+    end
+  end
+
+  describe '#create_if_only_opened_for_phone_call!' do
+    let(:phone_call) { build_stubbed(:phone_call) }
+
+    context 'other open phone call task exists for phone_call' do
+      before do
+        PhoneCallTask.stub(:open) do
+          o = Object.new
+          o.stub(:where).with(phone_call_id: phone_call.id) do
+            o = Object.new
+            o.stub(:count) { 1 }
+            o
+          end
+          o
+        end
+      end
+
+      it 'does nothing' do
+        PhoneCallTask.should_not_receive(:create!)
+        PhoneCallTask.create_if_only_opened_for_phone_call!(phone_call)
+      end
+    end
+
+    context 'other open phone call task doesn\'t exist for phone_call' do
+      before do
+        PhoneCallTask.stub(:open) do
+          o = Object.new
+          o.stub(:where).with(phone_call_id: phone_call.id) do
+            o = Object.new
+            o.stub(:count) { 0 }
+            o
+          end
+          o
+        end
+      end
+
+      it 'creates a task with the phone_call' do
+        PhoneCallTask.should_receive(:create!).with(title: 'Unknown', phone_call: phone_call, creator: Member.robot, due_at: phone_call.created_at)
+        PhoneCallTask.create_if_only_opened_for_phone_call!(phone_call)
       end
     end
   end
