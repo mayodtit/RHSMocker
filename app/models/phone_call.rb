@@ -170,6 +170,18 @@ class PhoneCall < ActiveRecord::Base
     )
   end
 
+  def hang_up
+    if origin_twilio_sid.present? && (outbound? || !transferred?)
+      call = PhoneCall.twilio.account.calls.get origin_twilio_sid
+      call.update status: 'completed'
+    end
+
+    if destination_twilio_sid.present? && (!outbound? || !transferred?)
+      call = PhoneCall.twilio.account.calls.get destination_twilio_sid
+      call.update status: 'completed'
+    end
+  end
+
   def publish
     unless id_changed?
       PubSub.publish "/phone_calls/#{id}/update", { id: id }
@@ -235,7 +247,7 @@ class PhoneCall < ActiveRecord::Base
     end
 
     event :disconnect do
-      transition [:missed, :unclaimed] => :missed, [:dialing, :connected] => :disconnected, :ended => :ended
+      transition [:missed, :unclaimed] => :missed, [:dialing, :connected, :disconnected] => :disconnected, :ended => :ended
     end
 
     event :transfer do

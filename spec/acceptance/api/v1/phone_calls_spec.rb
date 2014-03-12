@@ -10,6 +10,7 @@ resource "PhoneCalls" do
   let(:auth_token) { user.auth_token }
   let!(:phone_call) { create(:phone_call, to_role: user.roles.first) }
   let!(:other_phone_call) { create(:phone_call, to_role: user.roles.first) }
+  let!(:pha_phone_call) { create(:phone_call, to_role: pha.roles.first) }
   let!(:outbound_phone_call) { create(:phone_call, dialer: pha, outbound: true) }
   let!(:inbound_phone_call) { create(:phone_call, to_role: pha.roles.first, origin_phone_number: '4083913578') }
   let!(:resolved_inbound_phone_call) do
@@ -233,6 +234,27 @@ resource "PhoneCalls" do
         resolved_inbound_phone_call.reload
         resolved_inbound_phone_call.should be_missed
         resolved_inbound_phone_call.origin_status.should == 'completed'
+      end
+    end
+  end
+
+  describe 'hang up phone call' do
+    parameter :auth_token, 'Performing hcp\'s auth_token'
+    parameter :id, 'Phone call id'
+
+    required_parameters :auth_token, :id
+
+    let(:auth_token) { pha.auth_token }
+    let(:id) { pha_phone_call.id }
+    let(:raw_post) { params.to_json }
+
+    put '/api/v1/phone_calls/:id/hang_up' do
+      example_request '[PUT] Hang up a phone call' do
+        explanation 'Hang up a phone call'
+        status.should == 200
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:phone_call].to_json).to eq(pha_phone_call.serializer.as_json.to_json)
       end
     end
   end
