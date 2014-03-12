@@ -18,7 +18,7 @@ class PhoneCallTask < Task
   end
 
   def member
-    consult && consult.initiator
+    phone_call.user || (consult && consult.initiator)
   end
 
   state_machine :initial => :unassigned do
