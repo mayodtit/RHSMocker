@@ -162,9 +162,26 @@ describe Api::V1::PhoneCallsController do
         do_request
       end
 
-      it 'dials destination' do
-        phone_call.should_receive(:dial_destination)
-        do_request
+      context 'phone call is still dialing' do
+        before do
+          phone_call.stub(:dialing?) { true }
+        end
+
+        it 'dials destination' do
+          phone_call.should_receive(:dial_destination)
+          do_request
+        end
+      end
+
+      context 'phone call is not dialing' do
+        before do
+          phone_call.stub(:dialing?) { false }
+        end
+
+        it 'dials destination' do
+          phone_call.should_not_receive(:dial_destination)
+          do_request
+        end
       end
     end
   end
@@ -190,13 +207,35 @@ describe Api::V1::PhoneCallsController do
         phone_call.stub(:update_attributes!)
       end
 
+      it_behaves_like 'success'
+      it_behaves_like 'renders valid xml', 'phone_calls/connect_destination'
+
       it 'marks the destination as connected' do
         phone_call.should_receive(:update_attributes!).with(destination_status: PhoneCall::CONNECTED_STATUS)
         do_request
       end
 
-      it_behaves_like 'success'
-      it_behaves_like 'renders valid xml', 'phone_calls/connect_destination'
+      context 'phone call is still dialing' do
+        before do
+          phone_call.stub(:dialing?) { true }
+        end
+
+        it 'dials origin' do
+          phone_call.should_receive(:dial_origin)
+          do_request
+        end
+      end
+
+      context 'phone call is not dialing' do
+        before do
+          phone_call.stub(:dialing?) { false }
+        end
+
+        it 'dials origin' do
+          phone_call.should_not_receive(:dial_origin)
+          do_request
+        end
+      end
     end
   end
 

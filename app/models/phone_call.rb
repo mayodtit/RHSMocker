@@ -283,7 +283,7 @@ class PhoneCall < ActiveRecord::Base
       phone_call.destination_phone_number = phone_call.dialer.work_phone_number
     end
 
-    after_transition :claimed => :dialing do |phone_call|
+    after_transition [:claimed, :disconnected] => :dialing do |phone_call|
       phone_call.dial_destination
     end
 
