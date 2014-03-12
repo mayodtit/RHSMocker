@@ -26,7 +26,7 @@ class MessageTask < Task
   end
 
   def self.create_if_only_opened_for_consult!(consult, message = nil)
-    if MessageTask.open.where(consult_id: consult.id).count == 0
+    if open.where(consult_id: consult.id).count == 0
       due_at = message ? message.created_at : consult.created_at
       self.create!(title: consult.title, consult: consult, message: message, creator: Member.robot, due_at: due_at)
     end
@@ -34,7 +34,7 @@ class MessageTask < Task
 
   def one_open_per_consult
     return unless open?
-    task = MessageTask.open.where(consult_id: consult_id).first
+    task = self.class.open.where(consult_id: consult_id).first
     if task && task.id != id
       errors.add(:consult_id, "open MessageTask already exists for Consult #{consult_id}")
     end
