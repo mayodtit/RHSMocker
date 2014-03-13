@@ -18,7 +18,7 @@ class Api::V1::InverseAssociationsController < Api::V1::ABaseController
   private
 
   def load_associations!
-    @associations = @user.inverse_associations
+    @associations = @user.inverse_associations.enabled_or_pending
   end
 
   def load_association!

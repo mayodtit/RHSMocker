@@ -3,13 +3,14 @@ require 'spec_helper'
 describe Api::V1::InverseAssociationsController do
   let(:user) { build_stubbed(:member) }
   let(:association) { build_stubbed(:association, associate: user) }
+  let(:associations) { [association] }
   let(:ability) { Object.new.extend(CanCan::Ability) }
 
   before do
     controller.stub(current_ability: ability)
     User.stub(find: user)
-    user.stub(inverse_associations: [association])
-    user.stub_chain(:inverse_associations, :find).and_return(association)
+    user.stub_chain(:inverse_associations, :enabled_or_pending).and_return(associations)
+    associations.stub(find: association)
   end
 
   describe 'GET index' do

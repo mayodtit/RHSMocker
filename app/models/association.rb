@@ -35,6 +35,7 @@ class Association < ActiveRecord::Base
   before_validation :create_default_permission, on: :create
   after_save :invite!, if: ->(a){a.invite == true}
   after_create :send_card!
+  after_create :dismiss_related_card!
   after_destroy :destroy_related_associations
 
   # adding and removing the user's default HCP
@@ -49,6 +50,10 @@ class Association < ActiveRecord::Base
 
   def self.pending
     where(state: :pending)
+  end
+
+  def self.enabled_or_pending
+    where(state: %i(enabled pending))
   end
 
   def invite!
@@ -79,6 +84,13 @@ class Association < ActiveRecord::Base
       :enabled
     else
       :pending
+    end
+  end
+
+  def enable_association_with_owner!
+    owner_association = self.class.where(user_id: associate.owner_id, associate_id: user_id).first
+    if owner_association.try(:state?, :pending)
+      owner_association.update_attributes(state_event: :enable)
     end
   end
 
@@ -126,12 +138,27 @@ class Association < ActiveRecord::Base
   end
 
   def send_card!
+    return if associate.associations
+                       .joins(associate: :owner)
+                       .where(state: :pending)
+                       .where(owners_users: {id: user_id}).any?
     if pending?
       if (creator != user) && (user.is_a?(Member))
         user.cards.create(resource: self, priority: 20)
       elsif (creator != associate) && (associate.is_a?(Member))
         associate.cards.create(resource: self, priority: 20)
       end
+    end
+  end
+
+  def dismiss_related_card!
+    ids = associate.associations
+                   .joins(associate: :owner)
+                   .where(state: :pending)
+                   .where(owners_users: {id: user_id})
+                   .map(&:id)
+    Card.where(resource_id: ids, resource_type: 'Association').each do |c|
+      c.update_attributes!(state_event: :dismissed)
     end
   end
 
@@ -172,6 +199,7 @@ class Association < ActiveRecord::Base
     end
 
     before_transition :pending => :enabled do |association, transition|
+      association.enable_association_with_owner!
       association.create_pair_association!
     end
 

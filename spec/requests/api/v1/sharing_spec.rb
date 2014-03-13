@@ -193,7 +193,9 @@ describe 'Sharing' do
             expect(father_family_member.email).to eq(father.email)
 
             # mother creates a pending association between father family member and child
-            post "/api/v1/users/#{father_family_member.id}/associations", auth_token: mother.auth_token, association: {associate_id: child.id}
+            expect {
+              post "/api/v1/users/#{father_family_member.id}/associations", auth_token: mother.auth_token, association: {associate_id: child.id}
+            }.to change(Card, :count).by(2)
             expect(response).to be_success
             association = Association.find(JSON.parse(response.body, symbolize_names: true)[:association][:id])
             expect(association.user).to eq(father_family_member)
@@ -215,17 +217,14 @@ describe 'Sharing' do
             expect(invite.creator).to eq(mother)
             expect(invite.state?(:pending)).to be_true
 
-            # the father accepts the association to the mother
-            put "/api/v1/users/#{father.id}/inverse_associations/#{invite.id}", auth_token: father.auth_token,
-                                                                                association: {state_event: :enable}
-            expect(response).to be_success
-            expect(invite.reload.state?(:enabled)).to be_true
-
             # the father accepts the association to the child
             put "/api/v1/users/#{father.id}/associations/#{replacement.id}", auth_token: father.auth_token,
                                                                              association: {state_event: :enable}
             expect(response).to be_success
             expect(replacement.reload.state?(:enabled)).to be_true
+
+            # the invite from the mother is automatically accepted
+            expect(invite.reload.state?(:enabled)).to be_true
 
             # the association between the father family member and child is disabled
             expect(association.reload.state?(:disabled)).to be_true
