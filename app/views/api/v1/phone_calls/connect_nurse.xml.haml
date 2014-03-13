@@ -5,4 +5,4 @@
       %Conference{beep: false, endConferenceOnExit: false, startConferenceOnEnter: true, waitUrl: TWILIO_WAIT_URL}
         = @nurseline_phone_call.twilio_conference_name
     - else # In case the DB barfs
-      = "+1#{NURSELINE_NUMBER}"
+      = "+1#{Metadata.nurse_phone_number}"

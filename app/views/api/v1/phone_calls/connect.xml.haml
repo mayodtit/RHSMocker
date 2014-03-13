@@ -8,6 +8,8 @@
         currently off duty, but you can either send us a message through the Better
         app or connect with a May oh nurse.
       = render partial: 'triage_instructions'
+    %Redirect
+      = @menu_url
   - else
     %Say{voice: 'woman'}
       Hi, thanks for calling Better.  If you are calling about a medical
@@ -19,4 +21,4 @@
           = @phone_call.twilio_conference_name
     - else
       -# Routes to Clare's # for now.
-      %Dial{callerId: "+1#{PHA_NUMBER}"} +14152952684
+      %Dial{callerId: "+1#{Metadata.pha_phone_number}"} +14152952684

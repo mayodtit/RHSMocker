@@ -249,6 +249,7 @@ describe Api::V1::PhoneCallsController do
     before do
       PhoneCall.stub(:resolve) { phone_call }
       URL_HELPERS.stub(:triage_select_api_v1_phone_call_url).with(phone_call) { '/test' }
+      URL_HELPERS.stub(:triage_menu_api_v1_phone_call_url).with(phone_call) { '/menu' }
     end
 
     it_behaves_like 'success'
@@ -256,6 +257,11 @@ describe Api::V1::PhoneCallsController do
     it 'sets select url' do
       do_request
       assigns(:select_url).should == '/test'
+    end
+
+    it 'sets menu url' do
+      do_request
+      assigns(:menu_url).should == '/menu'
     end
 
     it 'sets phas off duty' do
@@ -297,12 +303,18 @@ describe Api::V1::PhoneCallsController do
     context 'phone call exists' do
       before do
         PhoneCall.stub(:find) { phone_call }
+        URL_HELPERS.stub(:triage_select_api_v1_phone_call_url).with(phone_call) { '/test' }
+        URL_HELPERS.stub(:triage_menu_api_v1_phone_call_url).with(phone_call) { '/menu' }
       end
 
       it_behaves_like 'success'
 
+      it 'sets menu url' do
+        do_request
+        assigns(:menu_url).should == '/menu'
+      end
+
       it 'sets select url' do
-        URL_HELPERS.stub(:triage_select_api_v1_phone_call_url).with(phone_call) { '/test' }
         do_request
         assigns(:select_url).should == '/test'
       end

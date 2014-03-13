@@ -404,7 +404,7 @@ describe PhoneCall do
     describe '#dial_origin' do
       it 'dials the origin phone number via twilio' do
         PhoneCall.twilio.account.calls.should_receive(:create).with(
-          from: "1#{PHA_NUMBER}",
+          from: "1#{Metadata.pha_phone_number}",
           to: "1#{phone_call.origin_phone_number}",
           url: connect_url,
           method: 'POST',
@@ -430,7 +430,7 @@ describe PhoneCall do
     describe '#dial_destination' do
       it 'dials the destination phone number via twilio' do
         PhoneCall.twilio.account.calls.should_receive(:create).with(
-          from: "1#{PHA_NUMBER}",
+          from: "1#{Metadata.pha_phone_number}",
           to: "1#{phone_call.destination_phone_number}",
           url: connect_url,
           method: 'POST',
@@ -473,7 +473,7 @@ describe PhoneCall do
       it 'creates a phone call with nil origin phone number' do
         PhoneCall.should_receive(:create).with(
           origin_phone_number: nil,
-          destination_phone_number: PHA_NUMBER,
+          destination_phone_number: Metadata.pha_phone_number,
           to_role: @pha,
           state_event: :resolve,
           origin_twilio_sid: twilio_sid,
@@ -534,7 +534,7 @@ describe PhoneCall do
             PhoneCall.should_receive(:create).with(
               user: member,
               origin_phone_number: db_phone_number,
-              destination_phone_number: PHA_NUMBER,
+              destination_phone_number: Metadata.pha_phone_number,
               to_role: @pha,
               state_event: :resolve,
               origin_twilio_sid: twilio_sid,
@@ -553,7 +553,7 @@ describe PhoneCall do
           it 'creates a PhoneCall without a member' do
             PhoneCall.should_receive(:create).with(
               origin_phone_number: db_phone_number,
-              destination_phone_number: PHA_NUMBER,
+              destination_phone_number: Metadata.pha_phone_number,
               to_role: @pha,
               state_event: :resolve,
               origin_twilio_sid: twilio_sid,
@@ -975,7 +975,7 @@ describe PhoneCall do
           PhoneCall.should_receive(:create!).with(
             user: phone_call.user,
             origin_phone_number: phone_call.origin_phone_number,
-            destination_phone_number: NURSELINE_NUMBER,
+            destination_phone_number: Metadata.nurse_phone_number,
             to_role: @nurse,
             origin_twilio_sid: phone_call.origin_twilio_sid,
             twilio_conference_name: phone_call.twilio_conference_name,

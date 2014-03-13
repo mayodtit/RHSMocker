@@ -1,43 +1,47 @@
-#Better Rails Server  
-![](better_icn.png)
+# Better API Server  
 
-This project includes:
+![The Better API](http://a2.mzstatic.com/us/r30/Purple4/v4/85/c4/6a/85c46af1-646e-be03-d023-2b62dd46956b/mzl.xchqgper.175x175-75.jpg)
 
-1. Better App API + docs
-2. Nurse Portal
+## API 
 
-##Environments
-####Development
-* Database: Sqlite
+Using the API? Read on.
 
-To generate API docs run
-```
-rake docs:generate
-```
+### Documentation
 
-** Solr needs extra changes on config to make partial word searches possible. **
-> change schema.xml to contain this chunk. <fieldType name="text" class="solr.TextField" omitNorms="false"> is already there, but the stuff under that directive need to merged.
+The most recent API docs are at [http://api-dev.getbetter.com/docs](http://api-dev.getbetter.com/docs).
+
+Please ask another engineer for the *User Name* and *Password*.
+
+#### Local
+
+To generate API docs locally at [http://localhost:3000/docs](http://localhost:3000/docs), run:
 
 ```
- <fieldType name="text" class="solr.TextField" omitNorms="false">
-      <analyzer>
-        <tokenizer class="solr.StandardTokenizerFactory"/>
-        <filter class="solr.StandardFilterFactory"/>
-        <filter class="solr.LowerCaseFilterFactory"/>
-        <filter class="solr.EdgeNGramFilterFactory" minGramSize="1" maxGramSize="15"/>
-      </analyzer>
-      <analyzer type="query">
-        <tokenizer class="solr.StandardTokenizerFactory"/>
-        <filter class="solr.StandardFilterFactory"/>
-        <filter class="solr.LowerCaseFilterFactory"/>
-      </analyzer>
-    </fieldType>
+% rake docs:generate
 ```
 
-####Email
-Using [Sendgrid](http://sendgrid.com/) for sending out emails.
+### Metadata
 
-> TODOs
-* make sending emails asychronous. Use one of the [delayed_job](https://github.com/collectiveidea/delayed_job), [resque](https://github.com/resque/resque), [sidekiq](http://sidekiq.org/) type of utilities
-* get a [litmus](http://litmus.com/) account. It will literally save lives.
+Metadata dynamically controls variables and features in the API without needing to deploy or reboot the servers. All values are stored as strings. A list is below:
+
+| Key                       | Possible Values        | Controls                                       |
+|:--------------------------|:-----------------------|:-----------------------------------------------|
+| *use_invite_flow*         | true/false             | When "true", new members must be invited.                         |
+| *remove_robot_response*   | true/false             | When "true", automated response to messages is removed. |
+| *enable_phone_queue*      | true/false             | When "true", incoming calls to PHAs are queued up (rather than sent directly to a Google Voice # shared by PHAs) |
+| *version*                 | #.#.#                  | Lowest version API supports, used for killswitch |
+| *app_store_url*           | URL                    | URL that leads users to download the app |
+| *nurse_phone_number*      | ##########             | Phone number client and API uses to dial nurseline |
+| *pha_phone_number*        | ##########             | Phone number client and API uses to dial PHAs |
+| *use_pub_sub*             | true/false             | When "true", turns on publishing messages to rhs_pub_sub server |
+
+
+## Development
+
+Developing for the API? Read on.
+
+### Setup
+
+Getting your environment up and running is detailed [here](https://sites.google.com/a/getbetter.com/engineering/development-environment/rails).
+
 

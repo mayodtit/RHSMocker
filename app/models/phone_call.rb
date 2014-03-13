@@ -110,7 +110,7 @@ class PhoneCall < ActiveRecord::Base
 
   def dial_origin(dialer = nil)
     call = twilio.account.calls.create(
-      from: PhoneNumberUtil::format_for_dialing(PHA_NUMBER),
+      from: PhoneNumberUtil::format_for_dialing(Metadata.pha_phone_number),
       to: PhoneNumberUtil::format_for_dialing(origin_phone_number),
       url: URL_HELPERS.connect_origin_api_v1_phone_call_url(self),
       method: 'POST',
@@ -123,7 +123,7 @@ class PhoneCall < ActiveRecord::Base
 
   def dial_destination(dialer = nil)
     call = twilio.account.calls.create(
-      from: PhoneNumberUtil::format_for_dialing(PHA_NUMBER),
+      from: PhoneNumberUtil::format_for_dialing(Metadata.pha_phone_number),
       to: PhoneNumberUtil::format_for_dialing(destination_phone_number),
       url: URL_HELPERS.connect_destination_api_v1_phone_call_url(self),
       method: 'POST',
@@ -149,7 +149,7 @@ class PhoneCall < ActiveRecord::Base
         return PhoneCall.create(
           user: member,
           origin_phone_number: phone_number,
-          destination_phone_number: PHA_NUMBER,
+          destination_phone_number: Metadata.pha_phone_number,
           to_role: Role.find_by_name!(:pha),
           state_event: :resolve,
           origin_twilio_sid: origin_twilio_sid,
@@ -162,7 +162,7 @@ class PhoneCall < ActiveRecord::Base
 
     PhoneCall.create(
       origin_phone_number: phone_number,
-      destination_phone_number: PHA_NUMBER,
+      destination_phone_number: Metadata.pha_phone_number,
       to_role: Role.find_by_name!(:pha),
       state_event: :resolve,
       origin_twilio_sid: origin_twilio_sid,
@@ -291,7 +291,7 @@ class PhoneCall < ActiveRecord::Base
       nurseline_phone_call = PhoneCall.create!(
         user: phone_call.user,
         origin_phone_number: phone_call.origin_phone_number,
-        destination_phone_number: NURSELINE_NUMBER,
+        destination_phone_number: Metadata.nurse_phone_number,
         to_role: Role.find_by_name!(:nurse),
         origin_twilio_sid: phone_call.origin_twilio_sid,
         twilio_conference_name: phone_call.twilio_conference_name,
