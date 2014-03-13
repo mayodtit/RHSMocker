@@ -990,6 +990,44 @@ describe PhoneCall do
           nurseline_phone_call.should_receive :dial_destination
           phone_call.update_attributes!(state_event: 'transfer', transferrer: transferrer)
         end
+
+        context 'abandoning tasks' do
+          let(:phone_call) { build :phone_call, to_role_id: @pha_id }
+          let(:phone_call_task) { build :phone_call_task, phone_call: phone_call }
+
+          before do
+            phone_call.transferrer = nurse
+            phone_call.stub(:phone_call_tasks) do
+              o = Object.new
+              o.stub(:where).with(phone_call_id: phone_call.id) do
+                [phone_call_task]
+              end
+              o
+            end
+          end
+
+          context 'call is unclaimed' do
+            before do
+              phone_call.state = 'unclaimed'
+            end
+
+            it 'does' do
+              phone_call_task.should_receive(:update_attributes!).with(state_event: :abandon, reason_abandoned: 'care_provider_unavailable', abandoner: Member.robot)
+              phone_call.transfer!
+            end
+          end
+
+          context 'call is claimed' do
+            before do
+              phone_call.state = 'connected'
+            end
+
+            it 'doesn\'t' do
+              phone_call_task.should_not_receive(:update_attributes!)
+              phone_call.transfer!
+            end
+          end
+        end
       end
     end
 

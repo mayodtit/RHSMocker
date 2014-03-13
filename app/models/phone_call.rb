@@ -306,6 +306,12 @@ class PhoneCall < ActiveRecord::Base
       phone_call.transferred_to_phone_call.dial_destination
     end
 
+    after_transition :unclaimed => :transferred do |phone_call|
+      phone_call.phone_call_tasks.where(phone_call_id: phone_call.id).each do |task|
+        task.update_attributes! state_event: :abandon, reason_abandoned: 'care_provider_unavailable', abandoner: Member.robot
+      end
+    end
+
     before_transition any => :ended do |phone_call|
       phone_call.ended_at = Time.now
     end
@@ -323,7 +329,7 @@ class PhoneCall < ActiveRecord::Base
 
     after_transition any => :missed do |phone_call|
       phone_call.phone_call_tasks.where(phone_call_id: phone_call.id).each do |task|
-        task.update_attributes!(state_event: :abandon, reason_abandoned: 'missed', abandoner: Member.robot)
+        task.update_attributes! state_event: :abandon, reason_abandoned: 'missed', abandoner: Member.robot
       end
 
       # TODO: Add follow up task
