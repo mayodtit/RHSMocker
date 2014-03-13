@@ -53,11 +53,13 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
     @phas_off_duty = !PhoneCall::accepting_calls_to_pha?
     @phone_call = PhoneCall.resolve params['From'], params['CallSid']
     @select_url = URL_HELPERS.triage_select_api_v1_phone_call_url(@phone_call)
+    @menu_url = URL_HELPERS.triage_menu_api_v1_phone_call_url(@phone_call)
     @send_to_queue = queue_enabled?
     render formats: [:xml]
   end
 
   def triage_menu
+    @menu_url = URL_HELPERS.triage_menu_api_v1_phone_call_url(@phone_call)
     @select_url = URL_HELPERS.triage_select_api_v1_phone_call_url(@phone_call)
     render formats: [:xml]
   end

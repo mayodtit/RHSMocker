@@ -2,3 +2,5 @@
 %Response
   %Gather{action: @select_url, numDigits: 1}
     = render partial: 'triage_instructions'
+  %Redirect
+    = @menu_url

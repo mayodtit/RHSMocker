@@ -18,6 +18,14 @@ class Metadata < ActiveRecord::Base
     Metadata.find_by_mkey('use_invite_flow').try(:mvalue) == 'true'
   end
 
+  def self.nurse_phone_number
+    Metadata.find_by_mkey('nurse_phone_number').try(:mvalue) || NURSE_PHONE_NUMBER
+  end
+
+  def self.pha_phone_number
+    Metadata.find_by_mkey('pha_phone_number').try(:mvalue) || PHA_PHONE_NUMBER
+  end
+
   def self.value_for_key(key)
     find_by_mkey(key).try(:mvalue)
   end

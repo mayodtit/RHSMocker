@@ -65,4 +65,27 @@ describe Metadata do
       end
     end
   end
+
+  shared_examples 'has a default value' do |attr|
+    context 'mkey not found' do
+      it 'returns the default constant value' do
+        Metadata.send(attr).should == Object.const_get(attr.upcase)
+      end
+    end
+
+    context 'mkey found' do
+      it 'returns the DB value' do
+        m = create(:metadata, mkey: attr, mvalue: '23423423523')
+        Metadata.send(attr).should == '23423423523'
+      end
+    end
+  end
+
+  describe '#nurse_phone_number' do
+    it_behaves_like 'has a default value', :nurse_phone_number
+  end
+
+  describe '#pha_phone_number' do
+    it_behaves_like 'has a default value', :pha_phone_number
+  end
 end
