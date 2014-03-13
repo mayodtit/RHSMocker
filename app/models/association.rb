@@ -152,11 +152,8 @@ class Association < ActiveRecord::Base
   end
 
   def dismiss_related_card!
-    ids = associate.associations
-                   .joins(associate: :owner)
-                   .where(state: :pending)
-                   .where(owners_users: {id: user_id})
-                   .map(&:id)
+    return if associate_id == associate.owner_id
+    ids = user.inverse_associations.where(user_id: associate.owner_id).map(&:id)
     Card.where(resource_id: ids, resource_type: 'Association').each do |c|
       c.update_attributes!(state_event: :dismissed)
     end
