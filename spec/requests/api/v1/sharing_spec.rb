@@ -193,7 +193,9 @@ describe 'Sharing' do
             expect(father_family_member.email).to eq(father.email)
 
             # mother creates a pending association between father family member and child
-            post "/api/v1/users/#{father_family_member.id}/associations", auth_token: mother.auth_token, association: {associate_id: child.id}
+            expect {
+              post "/api/v1/users/#{father_family_member.id}/associations", auth_token: mother.auth_token, association: {associate_id: child.id}
+            }.to change(Card, :count).by(2)
             expect(response).to be_success
             association = Association.find(JSON.parse(response.body, symbolize_names: true)[:association][:id])
             expect(association.user).to eq(father_family_member)
