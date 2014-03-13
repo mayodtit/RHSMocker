@@ -51,6 +51,10 @@ class Association < ActiveRecord::Base
     where(state: :pending)
   end
 
+  def self.enabled_or_pending
+    where(state: %i(enabled pending))
+  end
+
   def invite!
     return if replacement || (associate == associate.member)
     self.invite = false
