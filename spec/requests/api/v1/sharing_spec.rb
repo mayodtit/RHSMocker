@@ -215,17 +215,14 @@ describe 'Sharing' do
             expect(invite.creator).to eq(mother)
             expect(invite.state?(:pending)).to be_true
 
-            # the father accepts the association to the mother
-            put "/api/v1/users/#{father.id}/inverse_associations/#{invite.id}", auth_token: father.auth_token,
-                                                                                association: {state_event: :enable}
-            expect(response).to be_success
-            expect(invite.reload.state?(:enabled)).to be_true
-
             # the father accepts the association to the child
             put "/api/v1/users/#{father.id}/associations/#{replacement.id}", auth_token: father.auth_token,
                                                                              association: {state_event: :enable}
             expect(response).to be_success
             expect(replacement.reload.state?(:enabled)).to be_true
+
+            # the invite from the mother is automatically accepted
+            expect(invite.reload.state?(:enabled)).to be_true
 
             # the association between the father family member and child is disabled
             expect(association.reload.state?(:disabled)).to be_true

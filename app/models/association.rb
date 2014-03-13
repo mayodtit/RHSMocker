@@ -82,6 +82,13 @@ class Association < ActiveRecord::Base
     end
   end
 
+  def enable_association_with_owner!
+    owner_association = self.class.where(user_id: associate.owner_id, associate_id: user_id).first
+    if owner_association.try(:state?, :pending)
+      owner_association.update_attributes(state_event: :enable)
+    end
+  end
+
   protected
 
   def enabled_association_with_owner
@@ -172,6 +179,7 @@ class Association < ActiveRecord::Base
     end
 
     before_transition :pending => :enabled do |association, transition|
+      association.enable_association_with_owner!
       association.create_pair_association!
     end
 
