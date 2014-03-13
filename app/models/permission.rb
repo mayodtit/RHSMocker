@@ -21,6 +21,14 @@ class Permission < ActiveRecord::Base
     }
   end
 
+  def self.max_levels
+    {
+      basic_info: :edit,
+      medical_info: :edit,
+      care_team: :edit
+    }
+  end
+
   def current_levels
     {
       basic_info: basic_info,

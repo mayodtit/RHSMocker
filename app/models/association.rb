@@ -132,6 +132,8 @@ class Association < ActiveRecord::Base
   def create_default_permission
     self.permission ||= if original.try(:permission)
                           create_permission(original.permission.current_levels)
+                        elsif user_id == associate.owner_id
+                          create_permission(Permission.max_levels)
                         else
                           create_permission(Permission.default_levels)
                         end
