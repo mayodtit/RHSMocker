@@ -217,6 +217,10 @@ describe 'Sharing' do
             expect(invite.creator).to eq(mother)
             expect(invite.state?(:pending)).to be_true
 
+            # the father should only have one request card
+            expect(father.reload.cards.where(state: :unsaved, resource_type: 'Association').count).to eq(1)
+            expect(father.reload.cards.where(state: :unsaved, resource_type: 'Association').first.resource).to eq(association.replacement)
+
             # the father accepts the association to the child
             put "/api/v1/users/#{father.id}/associations/#{replacement.id}", auth_token: father.auth_token,
                                                                              association: {state_event: :enable}
