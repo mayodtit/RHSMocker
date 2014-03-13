@@ -44,7 +44,7 @@ class PhoneCall < ActiveRecord::Base
 
   # for metrics
   scope :to_nurse_line, -> { where(destination_phone_number: PhoneCall.nurseline_numbers) }
-  scope :valid_call, -> { where('ended_at - claimed_at > ?', 60) } # filter out calls shorter than 1 minute
+  scope :valid_call, -> { where('TIMESTAMPDIFF(SECOND, claimed_at, ended_at) > 60') } # filter out calls shorter than 1 minute
   scope :valid_nurse_call, -> { to_nurse_line.valid_call }
 
   def self.nurseline_numbers
