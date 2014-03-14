@@ -17,7 +17,7 @@
       personal health assistant will be right with you.
     - if @send_to_queue
       %Dial
-        %Conference{beep: false, endConferenceOnExit: false, startConferenceOnEnter: true, waitUrl: TWILIO_WAIT_URL}
+        %Conference{beep: 'false', endConferenceOnExit: 'false', startConferenceOnEnter: 'true', waitUrl: TWILIO_WAIT_URL}
           = @phone_call.twilio_conference_name
     - else
       -# Routes to Clare's # for now.

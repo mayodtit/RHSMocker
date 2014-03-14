@@ -2,7 +2,7 @@
 %Response
   %Dial
     - if @nurseline_phone_call
-      %Conference{beep: false, endConferenceOnExit: false, startConferenceOnEnter: true, waitUrl: TWILIO_WAIT_URL}
+      %Conference{beep: 'false', endConferenceOnExit: 'false', startConferenceOnEnter: 'true', waitUrl: TWILIO_WAIT_URL}
         = @nurseline_phone_call.twilio_conference_name
     - else # In case the DB barfs
       = "+1#{Metadata.nurse_phone_number}"
