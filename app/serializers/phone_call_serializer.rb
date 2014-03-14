@@ -14,7 +14,7 @@ class PhoneCallSerializer < ActiveModel::Serializer
   has_one :transferred_to_phone_call
 
   def consult_id
-    object.consult.id
+    object.consult && object.consult.id
   end
 
   def to_role_name
