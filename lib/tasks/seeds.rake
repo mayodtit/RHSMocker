@@ -317,7 +317,7 @@ namespace :seeds do
       )
     end
 
-    TO_INVITE = %w(clarissa@mayo.example.com matt@mayo.example.com)
+    TO_INVITE = %w(lauren+nurse@getbetter.com meg+nurse@getbetter.com ninette+nurse@getbetter.com)
 
     puts 'Creating ghost members to invite as nurses...'
     TO_INVITE.each do |email|
@@ -335,7 +335,7 @@ namespace :seeds do
     end
 
     puts 'Creating admins with each inviting a ghost member...'
-    %w(paul@admin.getbetter.com abhik@admin.getbetter.com clare@admin.getbetter.com geoff@admin.getbetter.com mark@admin.getbetter.com).each do |email|
+    %w(paul+admin@getbetter.com abhik+admin@getbetter.com clare+admin@getbetter.com geoff+admin@getbetter.com mark+admin@getbetter.com).each do |email|
       m = Member.find_or_create_by_email!(
         email: email,
         user_agreements_attributes: user_agreements_attributes
@@ -358,7 +358,7 @@ namespace :seeds do
     end
 
     puts 'Creating nurses...'
-    %w(florence@mayo.example.com mary@mayo.example.com walt@mayo.example.com clarissa@mayo.example.com).each do |email|
+    %w(abhik+nurse@getbetter.com paul+nurse@getbetter.com clare+nurse@getbetter.com mark+nurse@getbetter.com geoff+nurse@getbetter.com).each do |email|
       m = Member.find_or_create_by_email!(
         email: email,
         user_agreements_attributes: user_agreements_attributes
@@ -375,7 +375,7 @@ namespace :seeds do
     end
 
     puts 'Creating PHAs...'
-    PHAS = %w(clare@pha.getbetter.com abhik@pha.getbetter.com geoff@pha.getbetter.com paul@pha.getbetter.com mark@pha.getbetter.com)
+    PHAS = %w(clare+pha@getbetter.com abhik+pha@getbetter.com geoff+pha@getbetter.com paul+pha@getbetter.com mark+pha@getbetter.com)
     PHAS.each do |email|
       m = Member.find_or_create_by_email!(
         email: email,
@@ -393,7 +393,7 @@ namespace :seeds do
     end
 
     puts 'Creating PHAs leads...'
-    PHA_LEADS = %w(clare@lead.getbetter.com abhik@lead.getbetter.com)
+    PHA_LEADS = %w(clare+lead@getbetter.com abhik+lead@getbetter.com)
     PHA_LEADS.each do |email|
       m = Member.find_or_create_by_email!(
         email: email,
