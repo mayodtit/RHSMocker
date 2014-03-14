@@ -8,11 +8,14 @@ class PhoneCallSerializer < ActiveModel::Serializer
              :destination_twilio_sid, :origin_twilio_sid,
              :transferred_to_phone_call_id, :missed_at, :transferrer_id,
              :transferred_at, :twilio_conference_name, :origin_status,
-             :destination_status, :outbound, :to_role_name
+             :destination_status, :outbound, :to_role_name, :consult_id
+
   has_one :user
-  has_one :consult
   has_one :transferred_to_phone_call
-  has_one :transferred_from_phone_call
+
+  def consult_id
+    object.consult.id
+  end
 
   def to_role_name
     case object.to_role
