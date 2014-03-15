@@ -61,6 +61,14 @@ class PhoneCall < ActiveRecord::Base
     destination_status == CONNECTED_STATUS
   end
 
+  def cp_connected?
+    (outbound? && origin_connected?) || (!outbound? && destination_connected?)
+  end
+
+  def member_connected?
+    (outbound? && destination_connected?) || (!outbound? && origin_connected?)
+  end
+
   def to_nurse?
     to_role.name.to_sym == :nurse
   end

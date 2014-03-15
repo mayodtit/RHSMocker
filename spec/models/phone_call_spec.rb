@@ -73,6 +73,118 @@ describe PhoneCall do
     end
   end
 
+  describe '#cp_connected?' do
+    let(:phone_call) { build :phone_call }
+
+    context 'call is outbound' do
+      before do
+        phone_call.stub(:outbound?) { true }
+      end
+
+      context 'origin is connected' do
+        before do
+          phone_call.stub(:origin_connected?) { true }
+        end
+
+        it 'returns true' do
+          phone_call.should be_cp_connected
+        end
+      end
+
+      context 'origin is not connected' do
+        before do
+          phone_call.stub(:origin_connected?) { false }
+        end
+
+        it 'returns false' do
+          phone_call.should_not be_cp_connected
+        end
+      end
+    end
+
+    context 'call is not outbound' do
+      before do
+        phone_call.stub(:outbound?) { false }
+      end
+
+      context 'origin is connected' do
+        before do
+          phone_call.stub(:destination_connected?) { true }
+        end
+
+        it 'returns true' do
+          phone_call.should be_cp_connected
+        end
+      end
+
+      context 'origin is not connected' do
+        before do
+          phone_call.stub(:destination_connected?) { false }
+        end
+
+        it 'returns false' do
+          phone_call.should_not be_cp_connected
+        end
+      end
+    end
+  end
+
+  describe '#member_connected?' do
+    let(:phone_call) { build :phone_call }
+
+    context 'call is outbound' do
+      before do
+        phone_call.stub(:outbound?) { true }
+      end
+
+      context 'origin is connected' do
+        before do
+          phone_call.stub(:destination_connected?) { true }
+        end
+
+        it 'returns true' do
+          phone_call.should be_member_connected
+        end
+      end
+
+      context 'origin is not connected' do
+        before do
+          phone_call.stub(:destination_connected?) { false }
+        end
+
+        it 'returns false' do
+          phone_call.should_not be_member_connected
+        end
+      end
+    end
+
+    context 'call is not outbound' do
+      before do
+        phone_call.stub(:outbound?) { false }
+      end
+
+      context 'origin is connected' do
+        before do
+          phone_call.stub(:origin_connected?) { true }
+        end
+
+        it 'returns true' do
+          phone_call.should be_member_connected
+        end
+      end
+
+      context 'origin is not connected' do
+        before do
+          phone_call.stub(:origin_connected?) { false }
+        end
+
+        it 'returns false' do
+          phone_call.should_not be_member_connected
+        end
+      end
+    end
+  end
+
   describe '#to_nurse?' do
     it 'returns true if the phone_call is to a nurse' do
       phone_call = build_stubbed(:phone_call, :to_role => Role.new(:name => :nurse))
