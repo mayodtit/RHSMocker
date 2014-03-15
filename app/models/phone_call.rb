@@ -249,7 +249,11 @@ class PhoneCall < ActiveRecord::Base
     end
 
     event :disconnect do
-      transition [:missed, :unclaimed] => :missed, [:dialing, :connected, :disconnected] => :disconnected, :ended => :ended
+      transition(
+        [:missed, :unclaimed] => :missed,
+        [:claimed, :dialing, :connected, :disconnected] => :disconnected,
+        :ended => :ended
+      )
     end
 
     event :transfer do
