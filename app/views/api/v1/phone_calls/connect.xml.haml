@@ -8,7 +8,7 @@
         currently off duty, but you can either send us a message through the Better
         app or connect with a May oh nurse.
       = render partial: 'triage_instructions'
-    %Redirect
+    %Redirect{method: 'GET'}
       = @menu_url
   - else
     %Say{voice: 'woman'}
