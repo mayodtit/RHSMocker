@@ -5,6 +5,7 @@ describe Member do
 
   it_has_a 'valid factory'
   it_validates 'foreign key of', :pha
+  it_validates 'allows blank uniqueness of', :apns_token
 
   it 'validates member flag is true' do
     member.stub(:set_member_flag)
@@ -125,6 +126,26 @@ describe Member do
       member1 = create(:member)
       member2 = build(:member, email: member1.email)
       expect{ member2.save!(validate: false) }.to raise_error(ActiveRecord::RecordNotUnique)
+    end
+  end
+
+  describe '#store_apns_token!' do
+    let(:member) { create(:member) }
+    let(:token) { 'test_token' }
+
+    it 'saves the token' do
+      member.store_apns_token!(token)
+      expect(member.reload.apns_token).to eq(token)
+    end
+
+    context 'another member has the token' do
+      let!(:other_member) { create(:member, apns_token: token) }
+
+      it "expires the other member's token" do
+        member.store_apns_token!(token)
+        expect(member.reload.apns_token).to eq(token)
+        expect(other_member.reload.apns_token).to be_nil
+      end
     end
   end
 end
