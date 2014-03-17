@@ -6,7 +6,7 @@ class CallMetricsController < ApplicationController
     beginning_of_this_week = Time.now.beginning_of_week(:sunday)
 
     processing_week = phone_call_epoch.beginning_of_week(:sunday)
-    @results = {}
+    @results = []
 
     while processing_week <= beginning_of_this_week do
       cm = NurseCallMetrics.new(processing_week, processing_week.end_of_week(:sunday)).to_json
@@ -16,7 +16,7 @@ class CallMetricsController < ApplicationController
       cm[:ended_calls_per_nurse][:all_time] = cm[:ended_calls_per_nurse][:new].clone
       unless @results.empty?
         cm[:ended_calls_per_nurse][:all_time].default = 0
-        prev_totals = @results.values.last
+        prev_totals = @results.last[:data]
         calls_all_time = prev_totals[:num_calls][:all_time]
         calls_all_time.each do |k,v|
           cm[:num_calls][:all_time][k] += v
@@ -30,10 +30,13 @@ class CallMetricsController < ApplicationController
         end
       end
 
-      @results.merge!({"#{processing_week.strftime('%Y-%m-%d')}".to_sym => cm})
+      @results << {date: "#{processing_week.strftime('%Y-%m-%d')}".to_sym, data: cm}
       processing_week += 1.week
     end
 
-    render json: @results, root: false
+    respond_to do |format|
+      format.html {render layout: false}
+      format.json {render json: @results, root: false}
+    end
   end
 end
