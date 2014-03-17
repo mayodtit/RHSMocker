@@ -5,7 +5,7 @@ class PhoneCallSerializer < ActiveModel::Serializer
              :destination_phone_number, :state, :claimer_id, :ender_id,
              :identifier_token, :destination_twilio_sid, :origin_twilio_sid,
              :transferred_to_phone_call_id, :missed_at,
-             :consult_id, :cp_connected?, :member_connected?
+             :consult_id, :cp_connected?, :member_connected?, :transferred?
 
   has_one :user
   has_one :transferred_to_phone_call
