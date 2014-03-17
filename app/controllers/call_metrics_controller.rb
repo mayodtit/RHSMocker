@@ -15,7 +15,6 @@ class CallMetricsController < ApplicationController
       cm[:num_calls][:all_time] = cm[:num_calls][:new].clone
       cm[:ended_calls_per_nurse][:all_time] = cm[:ended_calls_per_nurse][:new].clone
       unless @results.empty?
-        cm[:ended_calls_per_nurse][:all_time].default = 0
         prev_totals = @results.last[:data]
         calls_all_time = prev_totals[:num_calls][:all_time]
         calls_all_time.each do |k,v|

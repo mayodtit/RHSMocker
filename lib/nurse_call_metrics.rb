@@ -3,7 +3,7 @@ class NurseCallMetrics
     @end_time = end_time
     @all_calls = PhoneCall.where(created_at: start_time..end_time)
     @completed_calls = PhoneCall.valid_nurse_call.where(claimed_at: start_time..end_time) # calls claimed within this time frame
-    @calls_claimed_but_not_ended = PhoneCall.where(claimed_at: start_time..end_time).to_nurse_line.where('claimed_at IS NOT NULL').where('ended_at IS NULL')
+    @calls_claimed_but_not_ended = PhoneCall.to_nurse_line.where(claimed_at: start_time..end_time).where('claimed_at IS NOT NULL').where('ended_at IS NULL')
   end
 
   def average_call_length
@@ -45,7 +45,15 @@ class NurseCallMetrics
   end
 
   def ended_calls_per_nurse
-    @ecpn ||= @completed_calls.group(:claimer_id).count
+    @ecpn ||= Hash.new(0).merge(@completed_calls.group(:claimer_id).count)
+  end
+
+  def ended_calls_per_nurse_pct
+    a = Hash.new(0)
+    ended_calls_per_nurse.each do |k,v|
+      a[k] = 100 * v / @completed_calls.length.to_f
+    end
+    a
   end
 
   def to_json
@@ -66,6 +74,7 @@ class NurseCallMetrics
       calls_per_nurse: calls_per_nurse,
       ended_calls_per_nurse: {
         new: ended_calls_per_nurse,
+        new_pct: ended_calls_per_nurse_pct,
         all_time: {}
       }
     }
