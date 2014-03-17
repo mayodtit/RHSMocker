@@ -173,6 +173,9 @@ resource "PhoneCalls" do
         explanation 'The caller selected an option from the triage menu, process it.'
         status.should == 200
         phone_call.reload.should be_missed
+        phone_call_task = phone_call.phone_call_tasks.first
+        phone_call_task.should be_abandoned
+        phone_call_task.reason_abandoned.should == 'after_hours'
         xml = Nokogiri::XML(response_body)
         xml.xpath('//Response/Say').text().should == "Good bye."
       end
@@ -255,6 +258,30 @@ resource "PhoneCalls" do
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
         expect(body[:phone_call].to_json).to eq(pha_phone_call.serializer.as_json.to_json)
+      end
+    end
+  end
+
+  describe 'transfer phone call' do
+    parameter :auth_token, 'Performing hcp\'s auth_token'
+    parameter :id, 'Phone call id'
+
+    required_parameters :auth_token, :id
+
+    let(:auth_token) { pha.auth_token }
+    let(:id) { pha_phone_call.id }
+    let(:raw_post) { params.to_json }
+
+    put '/api/v1/phone_calls/:id/transfer' do
+      example_request '[PUT] Transfers the phone call to nurseline' do
+        explanation 'Transfer a phone call to nurseline'
+        status.should == 200
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        pha_phone_call.reload
+        expect(body[:phone_call].to_json).to eq(pha_phone_call.serializer.as_json.to_json)
+        pha_phone_call.transferred_to_phone_call.should be_present
+        pha_phone_call.transferred_to_phone_call.to_role.name.should == 'nurse'
       end
     end
   end

@@ -31,6 +31,7 @@ RHSMocker::Application.routes.draw do
       resources :custom_cards, only: [:index, :show, :create, :update]
       resources :custom_contents, only: [:index, :show, :create, :update]
       resources :phone_calls, only: [:index, :show, :update] do
+        put 'transfer', on: :member
         post 'connect/origin', on: :member, to: 'phone_calls#connect_origin'
         post 'connect/destination', on: :member, to: 'phone_calls#connect_destination'
         post 'connect', on: :collection

@@ -10,7 +10,6 @@ class PhoneCall < ActiveRecord::Base
   belongs_to :dialer, class_name: 'Member'
   belongs_to :ender, class_name: 'Member'
   belongs_to :resolver, class_name: 'Member'
-  belongs_to :transferrer, class_name: 'Member'
   belongs_to :to_role, class_name: 'Role'
   belongs_to :transferred_to_phone_call, class_name: 'PhoneCall'
 
@@ -23,9 +22,8 @@ class PhoneCall < ActiveRecord::Base
   attr_accessible :user, :user_id, :to_role, :to_role_id, :message, :message_attributes, :origin_phone_number,
                   :destination_phone_number, :claimer, :claimer_id, :ender, :ender_id,
                   :identifier_token, :dialer_id, :dialer, :state_event, :destination_twilio_sid,
-                  :origin_twilio_sid, :transferrer_id, :transferrer, :transferred_to_phone_call,
-                  :transferred_to_phone_call_id, :twilio_conference_name, :origin_status,
-                  :destination_status, :outbound
+                  :origin_twilio_sid, :twilio_conference_name, :origin_status, :destination_status,
+                  :outbound
 
   validates :twilio_conference_name, :identifier_token, presence: true
   validates :identifier_token, uniqueness: true # Used for nurseline and creating unique conference calls
@@ -59,6 +57,14 @@ class PhoneCall < ActiveRecord::Base
 
   def destination_connected?
     destination_status == CONNECTED_STATUS
+  end
+
+  def cp_connected?
+    (outbound? && origin_connected?) || (!outbound? && destination_connected?)
+  end
+
+  def member_connected?
+    (outbound? && destination_connected?) || (!outbound? && origin_connected?)
   end
 
   def to_nurse?
@@ -181,6 +187,26 @@ class PhoneCall < ActiveRecord::Base
     end
   end
 
+  def transferred?
+    transferred_to_phone_call_id.present?
+  end
+
+  def transfer!
+    nurseline_phone_call = PhoneCall.create!(
+      user: user,
+      origin_phone_number: origin_phone_number,
+      destination_phone_number: Metadata.nurse_phone_number,
+      to_role: Role.find_by_name!(:nurse),
+      origin_twilio_sid: origin_twilio_sid,
+      twilio_conference_name: twilio_conference_name,
+      origin_status: origin_status
+    )
+
+    self.transferred_to_phone_call = nurseline_phone_call
+    save!
+    transferred_to_phone_call.dial_destination
+  end
+
   def publish
     unless id_changed?
       PubSub.publish "/phone_calls/#{id}/update", { id: id }
@@ -241,15 +267,17 @@ class PhoneCall < ActiveRecord::Base
     end
 
     event :disconnect do
-      transition [:missed, :unclaimed] => :missed, [:dialing, :connected, :disconnected] => :disconnected, :ended => :ended
-    end
-
-    event :transfer do
-      transition [:unclaimed, :connected] => :transferred
+      transition(
+        [:missed, :unclaimed] => :missed,
+        [:claimed, :dialing, :connected, :disconnected] => :disconnected,
+        :ended => :ended
+      )
     end
 
     event :end do
-      transition [:disconnected, :connected, :claimed] => :ended
+      transition(
+        [:disconnected, :connected, :claimed] => :ended,
+      )
     end
 
     # NOTE: Backwards compatibility with old design of CP
@@ -287,31 +315,6 @@ class PhoneCall < ActiveRecord::Base
       phone_call.dial_destination
     end
 
-    before_transition any => :transferred do |phone_call|
-      nurseline_phone_call = PhoneCall.create!(
-        user: phone_call.user,
-        origin_phone_number: phone_call.origin_phone_number,
-        destination_phone_number: Metadata.nurse_phone_number,
-        to_role: Role.find_by_name!(:nurse),
-        origin_twilio_sid: phone_call.origin_twilio_sid,
-        twilio_conference_name: phone_call.twilio_conference_name,
-        origin_status: phone_call.origin_status
-      )
-
-      phone_call.transferred_to_phone_call = nurseline_phone_call
-      phone_call.transferred_at = Time.now
-    end
-
-    after_transition any => :transferred do |phone_call|
-      phone_call.transferred_to_phone_call.dial_destination
-    end
-
-    after_transition :unclaimed => :transferred do |phone_call|
-      phone_call.phone_call_tasks.where(phone_call_id: phone_call.id).each do |task|
-        task.update_attributes! state_event: :abandon, reason_abandoned: 'care_provider_unavailable', abandoner: Member.robot
-      end
-    end
-
     before_transition any => :ended do |phone_call|
       phone_call.ended_at = Time.now
     end
@@ -327,9 +330,9 @@ class PhoneCall < ActiveRecord::Base
       phone_call.claimed_at = nil
     end
 
-    after_transition any => :missed do |phone_call|
+    after_transition any - :missed => :missed do |phone_call, transition|
       phone_call.phone_call_tasks.where(phone_call_id: phone_call.id).each do |task|
-        task.update_attributes! state_event: :abandon, reason_abandoned: 'missed', abandoner: Member.robot
+        task.update_attributes! state_event: :abandon, reason_abandoned: transition.args.first || 'missed', abandoner: Member.robot
       end
 
       # TODO: Add follow up task
@@ -353,11 +356,6 @@ class PhoneCall < ActiveRecord::Base
         validate_actor_and_timestamp_exist :claim
       when :missed
         validate_timestamp_exists :miss
-      when :transferred
-        validate_actor_and_timestamp_exist :transfer
-        if transferred_to_phone_call_id.nil?
-          errors.add(:transferred_to_phone_call_id, "must be present when #{self.class.name} is #{state}")
-        end
       when :connected
         unless origin_connected?
           errors.add(:origin_status, "must be '#{CONNECTED_STATUS}' when #{self.class.name} is #{state}")

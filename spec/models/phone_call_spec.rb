@@ -4,9 +4,9 @@ describe PhoneCall do
   it_has_a 'valid factory'
 
   before do
-    @pha = Role.find_or_create_by_name!(:pha)
+    @pha = Role.find_or_create_by_name!('pha')
     @pha_id = @pha.id
-    @nurse = Role.find_or_create_by_name!(:nurse)
+    @nurse = Role.find_or_create_by_name!('nurse')
     @nurse_id = @nurse.id
     PhoneCallTask.stub(:create_if_only_opened_for_consult!)
   end
@@ -73,6 +73,118 @@ describe PhoneCall do
     end
   end
 
+  describe '#cp_connected?' do
+    let(:phone_call) { build :phone_call }
+
+    context 'call is outbound' do
+      before do
+        phone_call.stub(:outbound?) { true }
+      end
+
+      context 'origin is connected' do
+        before do
+          phone_call.stub(:origin_connected?) { true }
+        end
+
+        it 'returns true' do
+          phone_call.should be_cp_connected
+        end
+      end
+
+      context 'origin is not connected' do
+        before do
+          phone_call.stub(:origin_connected?) { false }
+        end
+
+        it 'returns false' do
+          phone_call.should_not be_cp_connected
+        end
+      end
+    end
+
+    context 'call is not outbound' do
+      before do
+        phone_call.stub(:outbound?) { false }
+      end
+
+      context 'origin is connected' do
+        before do
+          phone_call.stub(:destination_connected?) { true }
+        end
+
+        it 'returns true' do
+          phone_call.should be_cp_connected
+        end
+      end
+
+      context 'origin is not connected' do
+        before do
+          phone_call.stub(:destination_connected?) { false }
+        end
+
+        it 'returns false' do
+          phone_call.should_not be_cp_connected
+        end
+      end
+    end
+  end
+
+  describe '#member_connected?' do
+    let(:phone_call) { build :phone_call }
+
+    context 'call is outbound' do
+      before do
+        phone_call.stub(:outbound?) { true }
+      end
+
+      context 'origin is connected' do
+        before do
+          phone_call.stub(:destination_connected?) { true }
+        end
+
+        it 'returns true' do
+          phone_call.should be_member_connected
+        end
+      end
+
+      context 'origin is not connected' do
+        before do
+          phone_call.stub(:destination_connected?) { false }
+        end
+
+        it 'returns false' do
+          phone_call.should_not be_member_connected
+        end
+      end
+    end
+
+    context 'call is not outbound' do
+      before do
+        phone_call.stub(:outbound?) { false }
+      end
+
+      context 'origin is connected' do
+        before do
+          phone_call.stub(:origin_connected?) { true }
+        end
+
+        it 'returns true' do
+          phone_call.should be_member_connected
+        end
+      end
+
+      context 'origin is not connected' do
+        before do
+          phone_call.stub(:origin_connected?) { false }
+        end
+
+        it 'returns false' do
+          phone_call.should_not be_member_connected
+        end
+      end
+    end
+  end
+
   describe '#to_nurse?' do
     it 'returns true if the phone_call is to a nurse' do
       phone_call = build_stubbed(:phone_call, :to_role => Role.new(:name => :nurse))
@@ -127,11 +239,6 @@ describe PhoneCall do
 
     it 'false for missed' do
       phone_call.state = :missed
-      phone_call.should_not be_in_progress
-    end
-
-    it 'false for transferred' do
-      phone_call.state = :transferred
       phone_call.should_not be_in_progress
     end
 
@@ -665,6 +772,51 @@ describe PhoneCall do
     end
   end
 
+  describe '#transferred?' do
+    let(:phone_call) { build :phone_call }
+
+    it 'is true when transferred_to_phone_call_id is present' do
+      phone_call.stub(:transferred_to_phone_call_id) { 1 }
+      phone_call.should be_transferred
+    end
+
+    it 'is false when transferred_to_phone_call_id is not present' do
+      phone_call.stub(:transferred_to_phone_call_id) { nil }
+      phone_call.should_not be_transferred
+    end
+  end
+
+  describe '#transfer!' do
+    let(:phone_call) { build :phone_call }
+    let(:nurseline_phone_call) { build :phone_call, to_role: @nurse }
+
+    before do
+      PhoneCall.stub(:create!) { nurseline_phone_call }
+    end
+
+    it 'creates a nurseline phone call and sets it as the transferred to call' do
+      phone_call.origin_status = PhoneCall::CONNECTED_STATUS
+
+      PhoneCall.should_receive(:create!).with(
+        user: phone_call.user,
+        origin_phone_number: phone_call.origin_phone_number,
+        destination_phone_number: Metadata.nurse_phone_number,
+        to_role: @nurse,
+        origin_twilio_sid: phone_call.origin_twilio_sid,
+        twilio_conference_name: phone_call.twilio_conference_name,
+        origin_status: PhoneCall::CONNECTED_STATUS
+      )
+
+      phone_call.transfer!
+      phone_call.transferred_to_phone_call.should == nurseline_phone_call
+    end
+
+    it 'dials the destination' do
+      nurseline_phone_call.should_receive :dial_destination
+      phone_call.transfer!
+    end
+  end
+
   describe '#publish' do
     let(:phone_call) { build(:phone_call) }
 
@@ -841,11 +993,11 @@ describe PhoneCall do
         phone_call.missed_at.should == Time.now
       end
 
-      it 'abandons all phone call tasks' do
+      it 'abandons all phone call tasks with passed in reason' do
         phone_call = build :phone_call, to_role_id: @pha_id
         phone_call.state = 'unclaimed'
         phone_call_task = build :phone_call_task, phone_call: phone_call
-        phone_call_task.should_receive(:update_attributes!).with(state_event: :abandon, reason_abandoned: 'missed', abandoner: Member.robot)
+        phone_call_task.should_receive(:update_attributes!).with(state_event: :abandon, reason_abandoned: 'test', abandoner: Member.robot)
 
         phone_call.stub(:phone_call_tasks) do
           o = Object.new
@@ -855,7 +1007,7 @@ describe PhoneCall do
           o
         end
 
-        phone_call.miss!
+        phone_call.miss! 'test'
       end
     end
 
@@ -943,91 +1095,13 @@ describe PhoneCall do
         phone_call.disconnect!
         phone_call.should be_ended
       end
-    end
 
-    describe '#transfer!' do
-      context 'stubbed' do
-        let!(:phone_call) { build :phone_call, to_role: @pha }
-        let(:nurseline_phone_call) { build_stubbed :phone_call, to_role: @nurse }
-        let(:transferrer) { build_stubbed :pha }
-
-        before do
-          phone_call.state = 'unclaimed'
-          PhoneCall.stub(:create!) { nurseline_phone_call }
-          nurseline_phone_call.stub(:dial_destination)
-        end
-
-        it_behaves_like 'cannot transition from', :transfer!, [:disconnected, :unresolved]
-
-        it 'changes the state to transferred' do
-          phone_call.update_attributes!(state_event: 'transfer', transferrer: transferrer)
-          phone_call.should be_transferred
-        end
-
-        it 'sets the transferred time' do
-          phone_call.update_attributes!(state_event: 'transfer', transferrer: transferrer)
-          phone_call.transferred_at.should == Time.now
-        end
-
-        it 'creates a nurseline phone call and sets it as the transferred to call' do
-          phone_call.origin_status = PhoneCall::CONNECTED_STATUS
-
-          PhoneCall.should_receive(:create!).with(
-            user: phone_call.user,
-            origin_phone_number: phone_call.origin_phone_number,
-            destination_phone_number: Metadata.nurse_phone_number,
-            to_role: @nurse,
-            origin_twilio_sid: phone_call.origin_twilio_sid,
-            twilio_conference_name: phone_call.twilio_conference_name,
-            origin_status: PhoneCall::CONNECTED_STATUS
-          )
-
-          phone_call.update_attributes!(state_event: 'transfer', transferrer: transferrer)
-          phone_call.transferred_to_phone_call.should == nurseline_phone_call
-        end
-
-        it 'dials the destination' do
-          nurseline_phone_call.should_receive :dial_destination
-          phone_call.update_attributes!(state_event: 'transfer', transferrer: transferrer)
-        end
-
-        context 'abandoning tasks' do
-          let(:phone_call) { build :phone_call, to_role_id: @pha_id }
-          let(:phone_call_task) { build :phone_call_task, phone_call: phone_call }
-
-          before do
-            phone_call.transferrer = nurse
-            phone_call.stub(:phone_call_tasks) do
-              o = Object.new
-              o.stub(:where).with(phone_call_id: phone_call.id) do
-                [phone_call_task]
-              end
-              o
-            end
-          end
-
-          context 'call is unclaimed' do
-            before do
-              phone_call.state = 'unclaimed'
-            end
-
-            it 'does' do
-              phone_call_task.should_receive(:update_attributes!).with(state_event: :abandon, reason_abandoned: 'care_provider_unavailable', abandoner: Member.robot)
-              phone_call.transfer!
-            end
-          end
-
-          context 'call is claimed' do
-            before do
-              phone_call.state = 'connected'
-            end
-
-            it 'doesn\'t' do
-              phone_call_task.should_not_receive(:update_attributes!)
-              phone_call.transfer!
-            end
-          end
-        end
+      it 'doesn\'t abandoned phone call tasks if the phone call is already missed' do
+        phone_call.missed_at = Time.now
+        phone_call.state = 'missed'
+        phone_call.should_not_receive(:phone_call_tasks)
+        PhoneCallTask.any_instance.should_not_receive(:update_attributes!)
+        phone_call.disconnect!
       end
     end
 
