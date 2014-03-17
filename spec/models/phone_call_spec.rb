@@ -1095,6 +1095,14 @@ describe PhoneCall do
         phone_call.disconnect!
         phone_call.should be_ended
       end
+
+      it 'doesn\'t abandoned phone call tasks if the phone call is already missed' do
+        phone_call.missed_at = Time.now
+        phone_call.state = 'missed'
+        phone_call.should_not_receive(:phone_call_tasks)
+        PhoneCallTask.any_instance.should_not_receive(:update_attributes!)
+        phone_call.disconnect!
+      end
     end
 
     describe '#end!' do

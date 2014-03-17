@@ -50,7 +50,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
   end
 
   def connect
-    @phas_off_duty = !PhoneCall::accepting_calls_to_pha?
+    @phas_off_duty = PhoneCall::accepting_calls_to_pha?
     @phone_call = PhoneCall.resolve params['From'], params['CallSid']
     @select_url = URL_HELPERS.triage_select_api_v1_phone_call_url(@phone_call)
     @menu_url = URL_HELPERS.triage_menu_api_v1_phone_call_url(@phone_call)
@@ -101,9 +101,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
   def status
     if phone_call = PhoneCall.find_by_origin_twilio_sid(params['CallSid'])
       attrs = { origin_status: params['CallStatus'] }
-      if disconnected_call_status?
-        attrs[:state_event] = 'disconnect'
-      end
+      attrs[:state_event] = 'disconnect' if disconnected_call_status?
 
       phone_call.update_attributes! attrs
     end
