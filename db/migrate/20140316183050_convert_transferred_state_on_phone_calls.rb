@@ -1,9 +1,11 @@
 class ConvertTransferredStateOnPhoneCalls < ActiveRecord::Migration
   def up
-    PhoneCall.where('state = ?', :transferred).find_each do |phone_call|
-      phone_call.state = :ended
-      phone_call.ender = phone_call.transferrer || Member.robot
-      phone_call.ended_at = phone_call.transferred_at || Time.now
+    PhoneCall.where(state: :transferred).update_all(["state = 'ended', ender_id = transferrer_id, ended_at = transferred_at"])
+
+    # Clean up any invalid records
+    PhoneCall.where(state: :ended).find_each do |phone_call|
+      phone_call.ender = Member.robot
+      phone_call.ended_at = Time.now
       phone_call.save!
     end
   end
