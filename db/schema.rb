@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140310182730) do
+ActiveRecord::Schema.define(:version => 20140316183646) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -385,8 +385,6 @@ ActiveRecord::Schema.define(:version => 20140310182730) do
     t.string   "origin_twilio_sid"
     t.integer  "transferred_to_phone_call_id"
     t.datetime "missed_at"
-    t.integer  "transferrer_id"
-    t.datetime "transferred_at"
     t.string   "twilio_conference_name"
     t.string   "origin_status"
     t.string   "destination_status"

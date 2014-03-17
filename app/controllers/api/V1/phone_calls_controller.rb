@@ -1,7 +1,7 @@
 class Api::V1::PhoneCallsController < Api::V1::ABaseController
-  before_filter :load_user!, :only => [:index, :show, :update, :hang_up]
+  before_filter :load_user!, :only => [:index, :show, :update, :hang_up, :transfer]
   before_filter :load_phone_call!, :except => [:index, :connect, :status, :connect_nurse]
-  skip_before_filter :authentication_check, :except => [:index, :show, :update, :hang_up]
+  skip_before_filter :authentication_check, :except => [:index, :show, :update, :hang_up, :transfer]
 
   layout false, except: [:index, :show, :update]
   # http_basic_authenticate_with name: "twilio", password: "secret", except: :index
@@ -30,7 +30,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
 
     update_params = params.require(:phone_call).permit(:state_event)
 
-    if %w(dial claim transfer end).include? update_params[:state_event]
+    if %w(dial claim end).include? update_params[:state_event]
       update_params[update_params[:state_event].event_actor.to_sym] = current_user
     end
 
@@ -64,14 +64,16 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
     render formats: [:xml]
   end
 
+  # TODO: Pass in why call was missed
   def triage_select
     case params['Digits']
       when '*'
-        @phone_call.miss!
+        @phone_call.miss! 'after_hours'
         render action: :goodbye, formats: [:xml]
         return
       when '1'
-        @phone_call.update_attributes state_event: :transfer, transferrer: Member.robot
+        @phone_call.transfer!
+        @phone_call.miss! 'after_hours'
         @nurseline_phone_call = @phone_call.transferred_to_phone_call
         render action: :connect_nurse, formats: [:xml]
         return
@@ -112,6 +114,12 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
   def hang_up
     authorize! :hang_up, @phone_call
     @phone_call.hang_up
+    show_resource @phone_call.serializer
+  end
+
+  def transfer
+    authorize! :transfer, @phone_call
+    @phone_call.transfer!
     show_resource @phone_call.serializer
   end
 

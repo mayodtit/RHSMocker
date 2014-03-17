@@ -324,6 +324,14 @@ describe Api::V1::PhoneCallsController do
   describe 'POST triage_select' do
     let(:phone_call) { build_stubbed :phone_call }
 
+    before do
+      Role.stub(:find_by_name!).with(:nurse) { build_stubbed :role, name: 'nurse' }
+      Role.stub(:find_by_name!).with(:pha) { build_stubbed :role, name: 'pha' }
+      PhoneCall.any_instance.stub(:save!)
+      PhoneCall.any_instance.stub(:dial_destination)
+      MessageTask.stub(:create!)
+    end
+
     def do_request(digits = '*')
       post :triage_select, Digits: digits, id: '1'
     end
@@ -340,7 +348,7 @@ describe Api::V1::PhoneCallsController do
         it_behaves_like 'success'
 
         it 'marks the call as missed' do
-          phone_call.should_receive(:miss!)
+          phone_call.should_receive(:miss!).with('after_hours')
           do_request
         end
 
@@ -362,7 +370,7 @@ describe Api::V1::PhoneCallsController do
         it_behaves_like 'success'
 
         it 'transfers the phone call' do
-          phone_call.should_receive(:update_attributes).with(state_event: :transfer, transferrer: robot)
+          phone_call.should_receive(:transfer!)
           do_request('1')
         end
 
@@ -370,6 +378,11 @@ describe Api::V1::PhoneCallsController do
           phone_call.stub(:transferred_to_phone_call) { nurseline_phone_call }
           do_request('1')
           assigns(:nurseline_phone_call).should == nurseline_phone_call
+        end
+
+        it 'marks the call as missed' do
+          phone_call.should_receive(:miss!).with('after_hours')
+          do_request('1')
         end
 
         it 'redirects to connect nurse' do
@@ -542,6 +555,34 @@ describe Api::V1::PhoneCallsController do
 
         it 'hangs up the phone call' do
           phone_call.should_receive :hang_up
+          do_request
+        end
+      end
+    end
+  end
+
+  describe 'PUT transfer' do
+    let(:phone_call) { build_stubbed :phone_call }
+
+    def do_request
+      put :transfer, auth_token: user.auth_token, id: phone_call.id
+    end
+
+    it_behaves_like 'action requiring authentication and authorization'
+
+    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+      it_behaves_like 'phone call 404'
+
+      context 'phone call exists' do
+        before do
+          PhoneCall.stub(:find) { phone_call }
+          phone_call.stub(:transfer!)
+        end
+
+        it_behaves_like 'success'
+
+        it 'transfers the phone call' do
+          phone_call.should_receive :transfer!
           do_request
         end
       end
