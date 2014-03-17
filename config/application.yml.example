@@ -15,6 +15,10 @@ development:
   PUB_SUB_SECRET: THIS_IS_A_SECRET_SHHH
   PUB_SUB_HOST: http://localhost:3001
   TWILIO_ENDPOINT_HOST: rhsapi.ngrok.com
+  APNS_HOST: gateway.sandbox.push.apple.com
+  APNS_PORT: 2195
+  APNS_PEM_PATH: config/static/apns.pem
+  APNS_PEM_PASSPHRASE: password
 test:
   NOD_API_KEY: ukWpqVwGyS7Aq3USxYEK
   STRIPE_API_KEY: sk_test_sozodqhf3PL25boLKYlBWWzX
