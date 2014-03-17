@@ -35,7 +35,7 @@ class NurseCallMetrics
   def calls_per_member
     cm_hash = @completed_calls.group(:user_id).count
     only_callers = (cm_hash.length == 0 ? 0.0 : cm_hash.values.sum / cm_hash.length.to_f)
-    all = @completed_calls.length / total_member_count
+    all = @completed_calls.length / total_member_count.to_f
     {all_members: all, only_callers: only_callers}
   end
 
