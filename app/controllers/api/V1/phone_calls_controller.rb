@@ -101,9 +101,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
   def status
     if phone_call = PhoneCall.find_by_origin_twilio_sid(params['CallSid'])
       attrs = { origin_status: params['CallStatus'] }
-      if disconnected_call_status?
-        attrs[:state_event] = 'disconnect'
-      end
+      attrs[:state_event] = 'disconnect' if disconnected_call_status?
 
       phone_call.update_attributes! attrs
     end

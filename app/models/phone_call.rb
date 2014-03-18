@@ -330,7 +330,7 @@ class PhoneCall < ActiveRecord::Base
       phone_call.claimed_at = nil
     end
 
-    after_transition any => :missed do |phone_call, transition|
+    after_transition any - :missed => :missed do |phone_call, transition|
       phone_call.phone_call_tasks.where(phone_call_id: phone_call.id).each do |task|
         task.update_attributes! state_event: :abandon, reason_abandoned: transition.args.first || 'missed', abandoner: Member.robot
       end
