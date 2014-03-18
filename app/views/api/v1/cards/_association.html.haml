@@ -13,9 +13,9 @@
   - else
     .card-header
       = image_tag(resource.associate.avatar_or_gender_url, class: :double)
-      %h1.double #{resource.creator.first_name} has shared #{resource.associate.first_name}'s profile with you
+      %h1.double #{resource.creator.full_name} has shared #{resource.associate.full_name}'s profile with you
     .card-body.with-buttons
-      %span You've been invited to help take care of #{resource.associate.first_name}. It will be super fun.
+      %span #{resource.creator.full_name} has invited you to share #{resource.associate.full_name}'s profile. Tap accept to view #{resource.associate.full_name}'s profile.
     .card-buttons
       .card-button.reject.update-association{data: {association_id: resource.id, state_event: :disable}}
         %span Decline
