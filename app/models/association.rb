@@ -63,7 +63,7 @@ class Association < ActiveRecord::Base
       update_attributes!(replacement: build_replacement(user_id: user_id,
                                                         associate_id: associate.member_or_invite!(user).id,
                                                         creator_id: user_id,
-                                                        association_type: association_type,
+                                                        association_type_id: association_type.try(:id) || AssociationType.family_default_id,
                                                         state: 'pending'))
       create_pair_association!
     end
