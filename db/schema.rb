@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140316183646) do
+ActiveRecord::Schema.define(:version => 20140317224601) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -759,6 +759,7 @@ ActiveRecord::Schema.define(:version => 20140316183646) do
     t.string   "provider_taxonomy_code"
     t.integer  "owner_id"
     t.integer  "pha_id"
+    t.string   "apns_token"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true

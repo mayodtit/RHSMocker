@@ -22,6 +22,7 @@ class Message < ActiveRecord::Base
   validates :phone_call_summary, presence: true, if: lambda{|m| m.phone_call_summary_id}
 
   after_create :publish
+  after_create :notify_initiator
   after_create :create_task
 
   accepts_nested_attributes_for :phone_call
@@ -31,6 +32,11 @@ class Message < ActiveRecord::Base
 
   def publish
     PubSub.publish "/users/#{consult.initiator_id}/consults/#{consult_id}/messages/new", {id: id}
+  end
+
+  def notify_initiator
+    return if consult.initiator_id == user_id
+    ApnsConsultMessageJob.create(consult.initiator_id, consult_id)
   end
 
   def create_task

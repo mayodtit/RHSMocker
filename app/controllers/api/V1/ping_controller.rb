@@ -1,5 +1,6 @@
 class Api::V1::PingController < Api::V1::ABaseController
   skip_before_filter :authentication_check, :unless => lambda{ params[:auth_token] }
+  after_filter :store_apns_token!, if: -> { params[:auth_token] }
 
   def index
     hash = { revision: REVISION, use_invite_flow: Metadata.use_invite_flow? }
@@ -21,4 +22,10 @@ class Api::V1::PingController < Api::V1::ABaseController
   end
 
   alias_method :create, :index
+
+  private
+
+  def store_apns_token!
+    current_user.store_apns_token!(params[:device_token]) if params[:device_token]
+  end
 end

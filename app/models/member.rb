@@ -32,7 +32,8 @@ class Member < User
 
   attr_accessible :install_id, :password, :password_confirmation,
                   :holds_phone_in, :invitation_token, :units,
-                  :waitlist_entry, :user_agreements_attributes, :pha, :pha_id
+                  :waitlist_entry, :user_agreements_attributes, :pha, :pha_id,
+                  :apns_token
 
   validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
@@ -42,6 +43,7 @@ class Member < User
   validates :units, :inclusion => {:in => %w(US Metric)}
   validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :if => lambda{|m| m.signed_up? || m.password}
   validate :owner_is_self
+  validates :apns_token, uniqueness: true, allow_nil: true
 
   before_validation :set_owner
   before_validation :set_member_flag
@@ -146,6 +148,15 @@ class Member < User
   def terms_of_service_and_privacy_policy
     return true unless Agreement.active
     user_agreements.map(&:agreement_id).include? Agreement.active.id
+  end
+
+  def store_apns_token!(token)
+    if apns_token != token
+      transaction do
+        Member.where(apns_token: token).update_all(apns_token: nil)
+        update_attributes!(apns_token: token)
+      end
+    end
   end
 
   private
