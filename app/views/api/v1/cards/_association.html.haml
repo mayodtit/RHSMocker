@@ -8,7 +8,7 @@
     .card-buttons
       .card-button.reject.update-inverse-association{data: {association_id: resource.id, state_event: :disable}}
         %span Decline
-      .card-button.accept.update-inverse-association{data: {association_id: resource.id, state_event: :enable}}
+      .card-button.accept.update-inverse-association{data: {association_id: resource.id, state_event: :enable, user_id: resource.user_id}}
         %span Accept
   - else
     .card-header
@@ -19,5 +19,5 @@
     .card-buttons
       .card-button.reject.update-association{data: {association_id: resource.id, state_event: :disable}}
         %span Decline
-      .card-button.accept.update-association{data: {association_id: resource.id, state_event: :enable}}
+      .card-button.accept.update-association{data: {association_id: resource.id, state_event: :enable, user_id: resource.associate_id}}
         %span Accept

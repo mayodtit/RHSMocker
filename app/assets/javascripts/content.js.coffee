@@ -25,12 +25,16 @@ $ ->
     NativeBridge.call('saveCard', {id: $(@).data("card-id")})
 
   $(".update-association").click ->
-    NativeBridge.call('updateAssociation', {id: $(@).data("association-id"), state_event: $(@).data("state-event")})
-    NativeBridge.call('dismissCard', {id: $(".card").data("id")})
+    NativeBridge.call("updateAssociation", {id: $(@).data("association-id"), state_event: $(@).data("state-event")})
+    if ($(@).data("state-event") == "enable") && $(@).data("user-id")
+      NativeBridge.call("showProfile", {id: $(@).data("user-id")})
+    NativeBridge.call("dismissCard", {id: $(".card").data("id")})
 
   $(".update-inverse-association").click ->
-    NativeBridge.call('updateInverseAssociation', {id: $(@).data("association-id"), state_event: $(@).data("state-event")})
-    NativeBridge.call('dismissCard', {id: $(".card").data("id")})
+    NativeBridge.call("updateInverseAssociation", {id: $(@).data("association-id"), state_event: $(@).data("state-event")})
+    if ($(@).data("state-event") == "enable") && $(@).data("user-id")
+      NativeBridge.call("showProfile", {id: $(@).data("user-id")})
+    NativeBridge.call("dismissCard", {id: $(".card").data("id")})
 
   $(".click-save").click ->
     NativeBridge.call('saveCard', {id: $(".card").data("id")})
