@@ -82,6 +82,16 @@ class User < ActiveRecord::Base
     email
   end
 
+  def gender_possessive
+    if gender == 'M'
+      'his'
+    elsif gender == 'F'
+      'her'
+    else
+      'his/her'
+    end
+  end
+
   def salutation
     first_name ? first_name : 'there'
   end

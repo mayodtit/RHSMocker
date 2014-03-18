@@ -2,9 +2,9 @@
   - if resource.creator == resource.user
     .card-header
       = image_tag(resource.user.avatar_or_gender_url, class: :double)
-      %h1.double #{resource.user.first_name} has invited you to connect
+      %h1.double You are invited to share with #{resource.user.full_name}
     .card-body.with-buttons
-      %span Share all the things with me. It will be super fun.
+      %span #{resource.user.full_name} has invited you to share #{resource.user.gender_possessive} profile. Tap accept to view #{resource.user.full_name}'s profile.
     .card-buttons
       .card-button.reject.update-inverse-association{data: {association_id: resource.id, state_event: :disable}}
         %span Decline
