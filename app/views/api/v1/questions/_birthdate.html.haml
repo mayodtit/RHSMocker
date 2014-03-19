@@ -1,4 +1,4 @@
-.content_card.question.birthday{data: {card_id: card.try(:id)}}
+.content_card.question.birthday{data: {card_id: card.try(:id), user_id: card.try(:user_id)}}
   .content_header_card.clear
     .content_title_card.clear= question.title.html_safe
     .content_text_card.center
