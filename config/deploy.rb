@@ -105,6 +105,7 @@ namespace :deploy do
     %w(database.yml sunspot.yml application.yml).each do |f|
       run "rm -f #{release_path}/config/#{f} && ln -s #{shared_path}/config/#{f} #{release_path}/config/#{f}"
     end
+    run "mkdir -p #{release_path}/public/static/ && rm -f #{release_path}/public/static/better.pem && ln -s #{shared_path}/config/better.pem #{release_path}/public/static/better.pem"
     run "git ls-remote git@github.com:RemoteHealthServices/RHSMocker.git #{branch} >> #{release_path}/public/VERSION.txt"
   end
 
