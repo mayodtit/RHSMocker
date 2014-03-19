@@ -60,6 +60,7 @@ class User < ActiveRecord::Base
   before_validation :unset_member_flag
   before_validation :prep_phone_numbers
   before_validation :set_defaults
+  before_validation :strip_attributes
   before_create :create_google_analytics_uuid
 
   def full_name
@@ -236,6 +237,13 @@ class User < ActiveRecord::Base
   def set_defaults
     self.deceased = false if deceased.nil?
     true
+  end
+
+  def strip_attributes
+    self.first_name = first_name.try(:strip)
+    self.last_name = last_name.try(:strip)
+    self.nickname = nickname.try(:strip)
+    self.email = email.try(:strip)
   end
 
   def create_google_analytics_uuid

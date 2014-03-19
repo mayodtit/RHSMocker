@@ -43,7 +43,9 @@ class CardSerializer < ViewSerializer
       resource.timeline_action
     elsif %w(Question).include?(object.resource_type)
       resource.timeline_action.tap do |action|
-        action[:arguments].merge!(card_id: object.id, id: object.user_id)
+        if action[:action] == 'editProfile'
+          action[:arguments].merge!(card_id: object.id, id: object.user_id)
+        end
       end
     else
       {

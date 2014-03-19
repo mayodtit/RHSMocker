@@ -59,7 +59,7 @@ class QuestionSerializer < ViewSerializer
     when :birthdate
       {action: 'editProfile', arguments: {allowed_fields: ['birthdate']}}
     else
-      []
+      {}
     end
   end
 end
