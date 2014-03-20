@@ -56,11 +56,21 @@ describe Association do
       end
 
       context 'with an original with permissions' do
-        let!(:original) { create(:association) }
+        # TODO - wut. remove test complexity.
+        let!(:user) { create(:member) }
+        let!(:parent) { create(:member) }
+        let!(:parent_association) { create(:association, user: parent, associate: user) }
+        let!(:parent_family_member) { create(:user, owner: user) }
+        let!(:parent_family_member_association) { create(:association, user: parent_family_member, associate: user) }
+        let!(:child) { create(:user, owner: user) }
+        let!(:child_association) { create(:association, user: user, associate: child) }
+        let!(:original) { create(:association, user: parent_family_member, associate: child) }
 
         it 'creates permission from the original permissions' do
           original.permission.update_attributes!(basic_info: :view)
-          association = create(:association, :skip_permission, original: original)
+          association = create(:association, :skip_permission, user: parent,
+                                                               associate: child,
+                                                               original: original)
           expect(association.permission.basic_info).to eq(:view)
         end
       end
