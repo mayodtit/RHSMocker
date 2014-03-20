@@ -25,16 +25,26 @@ $ ->
     NativeBridge.call('saveCard', {id: $(@).data("card-id")})
 
   $(".update-association").click ->
-    NativeBridge.call("updateAssociation", {id: $(@).data("association-id"), state_event: $(@).data("state-event")})
-    if ($(@).data("state-event") == "enable") && $(@).data("user-id")
-      NativeBridge.call("showProfile", {id: $(@).data("user-id")})
-    NativeBridge.call("dismissCard", {id: $(".card").data("id")})
+    userId = $(@).data("user-id")
+    cardId = $(".card").data("id")
+    callback = () ->
+      NativeBridgeCallback.showProfileAndDismiss(userId, cardId)
+    if ($(@).data("state-event") == "enable") && userId
+      NativeBridge.call("updateAssociation", {id: $(@).data("association-id"), state_event: $(@).data("state-event")}, callback)
+    else
+      NativeBridge.call("updateAssociation", {id: $(@).data("association-id"), state_event: $(@).data("state-event")})
+      NativeBridge.call('dismissCard', {id: $(".card").data("id")})
 
   $(".update-inverse-association").click ->
-    NativeBridge.call("updateInverseAssociation", {id: $(@).data("association-id"), state_event: $(@).data("state-event")})
+    userId = $(@).data("user-id")
+    cardId = $(".card").data("id")
+    callback = () ->
+      NativeBridgeCallback.showProfileAndDismiss(userId, cardId)
     if ($(@).data("state-event") == "enable") && $(@).data("user-id")
-      NativeBridge.call("showProfile", {id: $(@).data("user-id")})
-    NativeBridge.call("dismissCard", {id: $(".card").data("id")})
+      NativeBridge.call("updateInverseAssociation", {id: $(@).data("association-id"), state_event: $(@).data("state-event")}, callback)
+    else
+      NativeBridge.call("updateInverseAssociation", {id: $(@).data("association-id"), state_event: $(@).data("state-event")})
+      NativeBridge.call('dismissCard', {id: $(".card").data("id")})
 
   $(".click-save").click ->
     NativeBridge.call('saveCard', {id: $(".card").data("id")})
@@ -73,3 +83,6 @@ $ ->
 class NativeBridgeCallback
   @callback: () ->
     alert 'callback'
+  @showProfileAndDismiss: (userId, cardId) ->
+    NativeBridge.call("showProfile", {id: userId})
+    NativeBridge.call("dismissCard", {id: cardId})

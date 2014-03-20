@@ -19,7 +19,15 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   end
 
   def update
-    update_resource @association, permitted_params.association
+    if @association.update_attributes(permitted_params.association)
+      render_success({association: @association.serializer,
+                      users: [@association.user.serializer, @association.associate.serializer]}.tap do |hash|
+                       hash.merge!(inverse_association: @association.pair.serializer) if @association.pair
+                       hash.merge!(parent_association: @association.parent.serializer) if @association.parent
+                     end)
+    else
+      render_failure({reason: @association.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   def destroy

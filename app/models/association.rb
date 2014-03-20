@@ -56,6 +56,11 @@ class Association < ActiveRecord::Base
     where(state: %i(enabled pending))
   end
 
+  # TODO - make this an association so we can dependent destroy
+  def parent
+    @parent ||= self.class.where(user_id: user_id, associate_id: associate.owner_id).first
+  end
+
   def invite!
     return if replacement || (associate == associate.member)
     self.invite = false
@@ -130,7 +135,7 @@ class Association < ActiveRecord::Base
   end
 
   def create_default_permission
-    self.permission ||= if original.try(:permission)
+    self.permission ||= if original.try(:permission) && (associate_id == original.associate_id)
                           create_permission(original.permission.current_levels)
                         elsif user_id == associate.owner_id
                           create_permission(Permission.max_levels)

@@ -32,16 +32,16 @@ task :devhosted do
   role :delayed,  'goldenbear.getbetter.com'
 end
 
-desc "Deploy target sandbox @ EC2"
-task :sandbox do
-  set :port, 9722
-  set :branch,    'develop'
-  set :rails_env, 'sandbox'
-  role :web,      'sandbox.getbetter.com'
-  role :app,      'sandbox.getbetter.com', :primary => true
-  role :db,       'sandbox.getbetter.com', :primary => true
-  role :delayed,  'sandbox.getbetter.com'
-end
+#desc "Deploy target sandbox @ EC2"
+#task :sandbox do
+#  set :port, 9722
+#  set :branch,    'develop'
+#  set :rails_env, 'sandbox'
+#  role :web,      'sandbox.getbetter.com'
+#  role :app,      'sandbox.getbetter.com', :primary => true
+#  role :db,       'sandbox.getbetter.com', :primary => true
+#  role :delayed,  'sandbox.getbetter.com'
+#end
 
 desc "Deploy target production @ FireHost (longhorn, wolverine)"
 task :production do
@@ -58,15 +58,14 @@ end
 
 desc "Deploy target qa @ FireHost (buckeye)"
 task :qa do
-  set :port, 22
+  set :port, 9722
   set :branch,    'qa'
   set :rails_env, 'qa'
   set :deploy_to, '/home/rhs/qa'
-  role :web,      'wolverine.getbetter.com'
-  role :web,      'buckeye.getbetter.com'
-  role :app,      'buckeye.getbetter.com', :primary => true
-  role :db,       'buckeye.getbetter.com', :primary => true
-  role :delayed,  'buckeye.getbetter.com'
+  role :web,      'goldenbear.getbetter.com'
+  role :app,      'goldenbear.getbetter.com', :primary => true
+  role :db,       'goldenbear.getbetter.com', :primary => true
+  role :delayed,  'goldenbear.getbetter.com'
 end
 
 desc "Restart delayed_job"
