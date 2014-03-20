@@ -13,6 +13,12 @@ class Association < ActiveRecord::Base
   has_one :permission, foreign_key: :subject_id,
                        dependent: :destroy,
                        inverse_of: :subject
+  belongs_to :parent, class_name: 'Association',
+                      inverse_of: :children
+  has_many :children, class_name: 'Association',
+                      foreign_key: :parent_id,
+                      inverse_of: :parent,
+                      dependent: :destroy
 
   attr_accessor :is_default_hcp
   attr_accessor :invite
@@ -21,12 +27,13 @@ class Association < ActiveRecord::Base
                   :association_type, :association_type_id,
                   :associate_attributes, :is_default_hcp, :replacement,
                   :replacement_id, :original, :state_event, :state, :pair,
-                  :pair_id, :invite
+                  :pair_id, :invite, :parent, :parent_id
 
   validates :user, :associate, :creator, :permission, presence: true
   validates :associate_id, uniqueness: {scope: [:user_id, :association_type_id]}
   validates :replacement, presence: true, if: lambda{|a| a.replacement_id}
   validates :pair, presence: true, if: lambda{|a| a.pair_id}
+  validates :parent, presence: true, if: lambda{|a| a.parent_id}
   validate :user_is_not_associate
   validate :creator_id_not_changed
   validates_associated :permission
@@ -54,11 +61,6 @@ class Association < ActiveRecord::Base
 
   def self.enabled_or_pending
     where(state: %i(enabled pending))
-  end
-
-  # TODO - make this an association so we can dependent destroy
-  def parent
-    @parent ||= self.class.where(user_id: user_id, associate_id: associate.owner_id).first
   end
 
   def invite!
@@ -121,15 +123,20 @@ class Association < ActiveRecord::Base
     end
   end
 
+  def find_and_invite_parent!
+    self.class.where(user_id: creator_id, associate_id: user_id).first.tap{|a| a.invite!}
+  end
+
   def build_related_associations
     return if !associate.persisted? || (creator_id == user_id) || associate.npi_number.present?
     transaction do
-      self.class.where(user_id: creator_id, associate_id: user_id).first.invite!
+      parent = find_and_invite_parent!
       return if replacement || (user == user.member)
       update_attributes!(replacement: build_replacement(user_id: user.member_or_invite!(creator).id,
                                                         associate_id: associate_id,
                                                         association_type_id: AssociationType.family_default_id,
                                                         creator_id: creator_id,
+                                                        parent: parent,
                                                         state: 'pending'))
     end
   end
@@ -169,9 +176,6 @@ class Association < ActiveRecord::Base
   def destroy_related_associations
     replacement.destroy if replacement.try(:pending?)
     associate.destroy if associate.owner_id == user_id
-    if associate.owner_id == associate_id
-      associate.associations.joins(associate: :owner).where(owners_users: {id: user_id}).destroy_all
-    end
     if associate_id == original.try(:associate_id)
       original.destroy
     end
