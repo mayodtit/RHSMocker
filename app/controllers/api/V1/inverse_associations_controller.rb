@@ -8,7 +8,15 @@ class Api::V1::InverseAssociationsController < Api::V1::ABaseController
   end
 
   def update
-    update_resource @association, association_attributes, name: :association
+    if @association.update_attributes(association_attributes)
+      # TODO - keys are inverted for reverse compatibility
+      render_success({association: @association.serializer,
+                      users: [@association.user.serializer, @association.associate.serializer]}.tap do |hash|
+                       hash.merge!(inverse_association: @association.pair.serializer) if @association.pair
+                     end)
+    else
+      render_failure({reason: @association.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   def destroy

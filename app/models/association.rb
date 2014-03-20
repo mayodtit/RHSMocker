@@ -56,6 +56,11 @@ class Association < ActiveRecord::Base
     where(state: %i(enabled pending))
   end
 
+  # TODO - make this an association so we can dependent destroy
+  def parent
+    @parent ||= self.class.where(user_id: user_id, associate_id: associate.owner_id).first
+  end
+
   def invite!
     return if replacement || (associate == associate.member)
     self.invite = false
