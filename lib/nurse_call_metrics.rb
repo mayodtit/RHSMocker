@@ -60,7 +60,6 @@ class NurseCallMetrics
     {
       num_calls: {
         new: {
-          total: @all_calls.count,
           claimed_but_not_ended: @calls_claimed_but_not_ended.count,
           completed: @completed_calls.count
         },

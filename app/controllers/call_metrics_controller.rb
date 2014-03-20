@@ -34,8 +34,44 @@ class CallMetricsController < ApplicationController
     end
 
     respond_to do |format|
-      format.html {render layout: false}
+      format.html {prep_views; render layout: false}
       format.json {render json: @results, root: false}
     end
+  end
+
+  private
+
+  def prep_views
+    @columns = []
+    @columns << prep_row_labels
+
+    # placeholder for organizing results for both html and csv use
+    # move hash logic from index.html to prep_results method
+    #@columns << prep_results(6)
+  end
+
+  def prep_row_labels
+    row_labels = [
+      'Week of',
+      'New calls, completed',
+      'New calls, claimed but not ended',
+      'Total calls, completed',
+      'Total calls, claimed but not ended',
+      'Call length (min) - average',
+      'Call length (min) - median',
+      'Total Better members',
+      'Calls per members that called',
+      'Calls per all members',
+      'Calls per nurse (# completed calls / # nurses that took calls)'
+    ]
+
+    @all_nurses = @results.last[:data][:ended_calls_per_nurse][:all_time].keys.sort
+    @all_nurses.each do |nurse|
+      name = User.find(nurse).full_name
+      row_labels << "#{name} - calls taken, new"
+      row_labels << "#{name} - calls taken, % of all new calls"
+      row_labels << "#{name} - calls taken, call time"
+    end
+    row_labels
   end
 end

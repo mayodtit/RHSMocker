@@ -18,37 +18,20 @@
     <li>Call ended by the nurse (except for the "Calls not ended" column)</li>
   </ul>
 
-  <div class="column">
-    <div class="header">Week of</div>
-    <div>New calls, all</div>
-    <div>New calls, completed</div>
-    <div>New calls, claimed but not ended</div>
-    <div>Total calls, all</div>
-    <div>Total calls, completed</div>
-    <div>Total calls, claimed but not ended</div>
-    <div>Call length (min) - average</div>
-    <div>Call length (min) - median</div>
-    <div>Total Better members</div>
-    <div>Calls per members that called</div>
-    <div>Calls per all members</div>
-    <div>Calls per nurse</div>
-    <% all_nurses = @results.last[:data][:ended_calls_per_nurse][:all_time].keys %>
-    <% all_nurses.each do |nurse| %>
-      <% name = User.find(nurse).full_name %>
-      <div><%= name %> - calls taken, new</div>
-      <div><%= name %> - calls taken, % of all new calls</div>
-      <div><%= name %> - calls taken, all time</div>
-    <% end %>
-  </div>
+  <% @columns.each do |column| %>
+    <div class="column">
+      <% column.each do |row| %>
+        <div><%= row %></div>
+      <% end %>
+    </div>
+  <% end %>
 
   <% @results.last(6).each do |r| %>
     <% data = r[:data] %>
     <div class="column">
       <div class="header"><%= r[:date] %></div>
-      <div><%= data[:num_calls][:new][:total] %></div>
       <div><%= data[:num_calls][:new][:completed] %></div>
       <div><%= data[:num_calls][:new][:claimed_but_not_ended] %></div>
-      <div><%= data[:num_calls][:all_time][:total] %></div>
       <div><%= data[:num_calls][:all_time][:completed] %></div>
       <div><%= data[:num_calls][:all_time][:claimed_but_not_ended] %></div>
       <div><%= data[:call_length][:average].round(2) %></div>
@@ -57,7 +40,7 @@
       <div><%= data[:calls_per_member][:only_callers].round(2) %></div>
       <div><%= data[:calls_per_member][:all_members].round(3) %></div>
       <div><%= data[:calls_per_nurse].round(2) %></div>
-      <% all_nurses.each do |id| %>
+      <% @all_nurses.each do |id| %>
         <div><%= data[:ended_calls_per_nurse][:new][id] %></div>
         <div><%= data[:ended_calls_per_nurse][:new_pct][id].round(1) %>%</div>
         <div><%= data[:ended_calls_per_nurse][:all_time][id] %></div>
