@@ -17,7 +17,8 @@ class Association < ActiveRecord::Base
                       inverse_of: :children
   has_many :children, class_name: 'Association',
                       foreign_key: :parent_id,
-                      inverse_of: :parent
+                      inverse_of: :parent,
+                      dependent: :destroy
 
   attr_accessor :is_default_hcp
   attr_accessor :invite
@@ -175,9 +176,6 @@ class Association < ActiveRecord::Base
   def destroy_related_associations
     replacement.destroy if replacement.try(:pending?)
     associate.destroy if associate.owner_id == user_id
-    if associate.owner_id == associate_id
-      associate.associations.joins(associate: :owner).where(owners_users: {id: user_id}).destroy_all
-    end
     if associate_id == original.try(:associate_id)
       original.destroy
     end
