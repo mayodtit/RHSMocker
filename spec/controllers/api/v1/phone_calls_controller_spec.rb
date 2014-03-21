@@ -33,7 +33,38 @@ describe Api::V1::PhoneCallsController do
 
       it "doesn't permit other query parameters" do
         PhoneCall.should_receive(:where).with('state' => 'unclaimed')
-        do_request(state: 'unclaimed', member_id: 1)
+        do_request(state: 'unclaimed', claimer_id: 1)
+      end
+
+      context 'user is specified' do
+        let(:member) { build_stubbed :member }
+
+        before do
+          User.stub(:find).with('1') { member }
+        end
+
+        it 'calls load_member! and sets @member' do
+          controller.should_receive(:load_member!).and_call_original
+          do_request(member_id: 1)
+          assigns(:member).should == member
+        end
+
+        it 'uses the members phone calls' do
+          member.should_receive(:phone_calls) do
+            o = Object.new
+            o.should_receive(:where).with('state' => 'unclaimed') do
+              o = Object.new
+              o.stub_chain(:includes, :order).and_return phone_calls
+              o
+            end
+            o
+          end
+          do_request(member_id: 1, state: 'unclaimed')
+        end
+
+        it '' do
+
+        end
       end
     end
   end

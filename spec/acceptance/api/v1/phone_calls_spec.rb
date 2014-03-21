@@ -5,14 +5,17 @@ resource "PhoneCalls" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  let!(:user) { create(:nurse) }
+  let!(:nurse) { create(:nurse) }
   let!(:pha) { create(:pha) }
+  let!(:user) { nurse }
   let(:auth_token) { user.auth_token }
   let!(:phone_call) { create(:phone_call, to_role: user.roles.first) }
   let!(:other_phone_call) { create(:phone_call, to_role: user.roles.first) }
   let!(:pha_phone_call) { create(:phone_call, to_role: pha.roles.first) }
   let!(:outbound_phone_call) { create(:phone_call, dialer: pha, outbound: true) }
   let!(:inbound_phone_call) { create(:phone_call, to_role: pha.roles.first, origin_phone_number: '4083913578') }
+  let!(:pha_role) { Role.find_or_create_by_name! :pha }
+
   let!(:resolved_inbound_phone_call) do
     phone_call = create(
       :phone_call,
@@ -44,6 +47,32 @@ resource "PhoneCalls" do
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
         expect(body[:phone_calls].to_json).to eq([phone_call, other_phone_call].serializer.as_json.to_json)
+      end
+    end
+  end
+
+  describe 'phone calls for member' do
+    let!(:user) { pha }
+    let!(:member) { create :member }
+    let!(:member_phone_call) { create :phone_call, user: member, to_role: pha_role, state: :unresolved }
+    let!(:unclaimed_member_phone_call) { create :phone_call, user: member, to_role: nurse.roles.first, state: :unclaimed }
+
+    parameter :auth_token, 'Performing hcp\'s auth_token'
+    parameter :state, 'Filter by the state of phone call (\'claimed\',\'unclaimed\', \'ended\')'
+    parameter :member_id, 'Id of member'
+
+    required_parameters :auth_token
+
+    let(:auth_token) { user.auth_token }
+    let(:state) { 'unresolved' }
+    let(:member_id) { member.id }
+
+    get '/api/v1/members/:member_id/phone_calls/' do
+      example_request '[GET] Get all phone calls created by a member' do
+        explanation 'Get all phone calls created by a member'
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:phone_calls].to_json).to eq([member_phone_call].serializer.as_json.to_json)
       end
     end
   end

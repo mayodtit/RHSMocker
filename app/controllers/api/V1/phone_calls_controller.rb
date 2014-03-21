@@ -1,5 +1,6 @@
 class Api::V1::PhoneCallsController < Api::V1::ABaseController
   before_filter :load_user!, :only => [:index, :show, :update, :hang_up, :transfer]
+  before_filter :load_member!, :only => [:index]
   before_filter :load_phone_call!, :except => [:index, :connect, :status, :connect_nurse]
   skip_before_filter :authentication_check, :except => [:index, :show, :update, :hang_up, :transfer]
 
@@ -9,15 +10,15 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
   def index
     authorize! :read, PhoneCall
 
-    phone_calls = []
-    PhoneCall.where(params.permit(:state))
-             .includes(:to_role, :user, consult: [:initiator, :subject])
-             .order('created_at ASC')
-             .each do |p|
-      phone_calls.push(p) if can? :read, p
+    authorized_phone_calls = []
+    phone_calls.where(params.permit(:state))
+               .includes(:to_role, :user, consult: [:initiator, :subject])
+               .order('created_at ASC')
+               .each do |p|
+      authorized_phone_calls.push(p) if can? :read, p
     end
 
-    index_resource phone_calls.serializer
+    index_resource authorized_phone_calls.serializer
   end
 
   def show
@@ -122,6 +123,17 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
   end
 
   private
+
+  def phone_calls
+    @member ? @member.phone_calls : PhoneCall
+  end
+
+  def load_member!
+    if params[:member_id]
+      @member = User.find(params[:member_id])
+      authorize! :manage, @member
+    end
+  end
 
   def disconnected_call_status?
     params['CallStatus'] != 'ringing' && params['CallStatus'] != 'in-progress' && params['CallStatus'] != 'queued'
