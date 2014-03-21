@@ -14,10 +14,10 @@ describe ApnsConsultMessageJob  do
   end
 
   describe '#create' do
-    it 'enqueues the job 5 minutes from now' do
+    it 'enqueues the job for now' do
       expect{ described_class.create(user.id, consult.id) }.to change(Delayed::Job, :count).by(1)
       job = Delayed::Job.last
-      expect(job.run_at).to eq(5.minutes.from_now)
+      expect(job.run_at).to eq(Time.now)
       expect(job.queue).to eq("ApnsConsultMessageJob-UserId-#{user.id}-ConsultId-#{consult.id}")
     end
 
