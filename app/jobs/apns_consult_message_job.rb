@@ -1,8 +1,7 @@
 class ApnsConsultMessageJob < Struct.new(:user_id, :consult_id)
   def self.create(user_id, consult_id)
     job = new(user_id, consult_id)
-    Delayed::Job.enqueue(job, run_at: 5.minutes.from_now,
-                              queue: job.queue_name)
+    Delayed::Job.enqueue(job, queue: job.queue_name)
   end
 
   def enqueue(job)
