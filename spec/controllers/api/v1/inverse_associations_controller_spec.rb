@@ -9,7 +9,7 @@ describe Api::V1::InverseAssociationsController do
   before do
     controller.stub(current_ability: ability)
     User.stub(find: user)
-    user.stub_chain(:inverse_associations, :enabled_or_pending).and_return(associations)
+    user.stub_chain(:inverse_associations, :enabled_or_pending, :includes).and_return(associations)
     associations.stub(find: association)
   end
 

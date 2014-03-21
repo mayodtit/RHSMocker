@@ -4,15 +4,18 @@ class Api::V1::InverseAssociationsController < Api::V1::ABaseController
   before_filter :load_association!, only: [:update, :destroy]
 
   def index
-    index_resource @associations.serializer, name: :associations
+    render_success(associations: @associations.serializer,
+                   permissions: @associations.map(&:permission).serializer)
   end
 
   def update
     if @association.update_attributes(association_attributes)
       # TODO - keys are inverted for reverse compatibility
       render_success({association: @association.serializer,
+                      permissions: [@association.permission].serializer.as_json,
                       users: [@association.user.serializer, @association.associate.serializer]}.tap do |hash|
                        hash.merge!(inverse_association: @association.pair.serializer) if @association.pair
+                       hash[:permissions] << @association.pair.permission.serializer if @association.pair
                      end)
     else
       render_failure({reason: @association.errors.full_messages.to_sentence}, 422)
@@ -26,7 +29,7 @@ class Api::V1::InverseAssociationsController < Api::V1::ABaseController
   private
 
   def load_associations!
-    @associations = @user.inverse_associations.enabled_or_pending
+    @associations = @user.inverse_associations.enabled_or_pending.includes(:permission)
   end
 
   def load_association!

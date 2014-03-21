@@ -7,23 +7,34 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   before_filter :convert_parameters!, only: [:create, :update]
 
   def index
-    index_resource @associations.serializer
+    render_success(associations: @associations.serializer,
+                   permissions: @associations.map(&:permission).serializer)
   end
 
   def show
-    show_resource @association.serializer
+    render_success(association: @association.serializer,
+                   permissions: [@association.permission].serializer)
   end
 
   def create
-    create_resource @user.associations, permitted_params.association
+    @association = @user.associations.create(permitted_params.association)
+    if @association.errors.empty?
+      render_success(association: @association.serializer,
+                     permissions: [@association.permission].serializer)
+    else
+      render_failure({reason: @association.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   def update
     if @association.update_attributes(permitted_params.association)
       render_success({association: @association.serializer,
+                      permissions: [@association.permission].serializer.as_json,
                       users: [@association.user.serializer, @association.associate.serializer]}.tap do |hash|
                        hash.merge!(inverse_association: @association.pair.serializer) if @association.pair
+                       hash[:permissions] << @association.pair.permission.serializer if @association.pair
                        hash.merge!(parent_association: @association.parent.serializer) if @association.parent
+                       hash[:permissions] << @association.parent.permission.serializer if @association.parent
                      end)
     else
       render_failure({reason: @association.errors.full_messages.to_sentence}, 422)
@@ -36,16 +47,17 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def invite
     @association.invite!
-    show_resource @association.pair.serializer
+    render_success(association: @association.pair.serializer,
+                   permissions: [@association.pair.permission].serializer)
   end
 
   private
 
   def load_associations!
     @associations = if params[:state] == 'pending'
-                      @user.associations.pending
+                      @user.associations.pending.includes(:permission)
                     else
-                      @user.associations.enabled
+                      @user.associations.enabled.includes(:permission)
                     end
   end
 
