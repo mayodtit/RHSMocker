@@ -10,6 +10,7 @@ namespace :db do
     'admin:import_content',
     'admin:import_symptoms',
     'admin:import_hcp_taxonomy',
+    'sunspot:reindex',
     'db:test:prepare'
   ] do
 
