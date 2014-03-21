@@ -3,7 +3,10 @@ class User < ActiveRecord::Base
 
   has_many :associations, dependent: :destroy, inverse_of: :user
   has_many :associates, through: :associations
-  has_many :inverse_associations, dependent: :destroy, class_name: 'Association', foreign_key: 'associate_id'
+  has_many :inverse_associations, class_name: 'Association',
+                                  foreign_key: 'associate_id',
+                                  inverse_of: :associate,
+                                  dependent: :destroy
   has_many :inverse_associates, through: :inverse_associations, source: :user
 
   has_many :weights
@@ -84,9 +87,10 @@ class User < ActiveRecord::Base
   end
 
   def gender_possessive
-    if gender == 'M'
+    case gender.try(:downcase)
+    when 'm', 'male'
       'his'
-    elsif gender == 'F'
+    when 'f', 'female'
       'her'
     else
       'his/her'
