@@ -58,6 +58,19 @@ end
 
 desc "Deploy target qa @ FireHost (buckeye)"
 task :qa do
+  set :port, 22
+  set :branch,    'qa'
+  set :rails_env, 'qa'
+  set :deploy_to, '/home/rhs/qa'
+  role :web,      'wolverine.getbetter.com'
+  role :web,      'buckeye.getbetter.com'
+  role :app,      'buckeye.getbetter.com', :primary => true
+  role :db,       'buckeye.getbetter.com', :primary => true
+  role :delayed,  'buckeye.getbetter.com'
+end
+
+desc "Deploy target qa2"
+task :qa2 do
   set :port, 9722
   set :branch,    'qa'
   set :rails_env, 'qa'
