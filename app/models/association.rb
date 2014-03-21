@@ -19,6 +19,7 @@ class Association < ActiveRecord::Base
                       foreign_key: :parent_id,
                       inverse_of: :parent,
                       dependent: :destroy
+  has_many :cards, as: :resource, dependent: :destroy
 
   attr_accessor :is_default_hcp
   attr_accessor :invite
