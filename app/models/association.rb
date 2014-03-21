@@ -1,6 +1,7 @@
 class Association < ActiveRecord::Base
   belongs_to :user, inverse_of: :associations
-  belongs_to :associate, class_name: 'User'
+  belongs_to :associate, class_name: 'User',
+                         inverse_of: :inverse_associations
   belongs_to :creator, class_name: 'User'
   belongs_to :association_type
   belongs_to :replacement, class_name: 'Association',
@@ -175,9 +176,13 @@ class Association < ActiveRecord::Base
   end
 
   def destroy_related_associations
-    replacement.destroy if replacement.try(:pending?)
+    if replacement.try(:pending?) && !replacement.marked_for_destruction?
+      replacement.mark_for_destruction
+      replacement.destroy
+    end
     associate.destroy if associate.owner_id == user_id
-    if associate_id == original.try(:associate_id)
+    if associate_id == original.try(:associate_id) && !original.marked_for_destruction?
+      original.mark_for_destruction
       original.destroy
     end
   end
