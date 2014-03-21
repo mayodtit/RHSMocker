@@ -84,7 +84,7 @@ class User < ActiveRecord::Base
   end
 
   def gender_possessive
-    case gender.downcase
+    case gender.try(:downcase)
     when 'm', 'male'
       'his'
     when 'f', 'female'
