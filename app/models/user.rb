@@ -84,9 +84,10 @@ class User < ActiveRecord::Base
   end
 
   def gender_possessive
-    if gender == 'M'
+    case gender.downcase
+    when 'm', 'male'
       'his'
-    elsif gender == 'F'
+    when 'f', 'female'
       'her'
     else
       'his/her'
