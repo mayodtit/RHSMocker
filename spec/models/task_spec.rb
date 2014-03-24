@@ -154,6 +154,53 @@ describe Task do
     end
   end
 
+  describe '#notify' do
+    let(:task) { build(:task) }
+
+    context 'task is unassigned' do
+      before do
+        task.stub(:unassigned?) { true }
+      end
+
+      context 'task is for pha' do
+        before do
+          task.stub(:for_pha?) { true }
+        end
+
+        it 'sends an email' do
+          UserMailer.should_receive(:notify_phas_of_new_task) do
+            o = Object.new
+            o.should_receive(:deliver)
+            o
+          end
+          task.notify
+        end
+      end
+
+      context 'task is not for pha' do
+        before do
+          task.stub(:for_pha?) { false }
+        end
+
+        it 'does nothing' do
+          UserMailer.should_not_receive(:notify_phas_of_new_task)
+          task.notify
+        end
+      end
+    end
+
+    context 'task is not unassigned' do
+      before do
+        task.stub(:unassigned?) { false }
+      end
+
+      it 'does nothing' do
+        UserMailer.should_not_receive(:notify_phas_of_new_task)
+        task.notify
+      end
+    end
+  end
+
   describe '#publish' do
     let(:task) { build(:task) }
 

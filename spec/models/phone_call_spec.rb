@@ -917,6 +917,7 @@ describe PhoneCall do
 
       it 'does nothing' do
         PubSub.should_not_receive(:publish)
+        PhoneCallTask.any_instance.should_not_receive(:publish)
         phone_call.publish
       end
     end
@@ -934,6 +935,36 @@ describe PhoneCall do
           {id: phone_call.id}
         )
         phone_call.publish
+      end
+
+      context 'user changed' do
+        let(:phone_call_task) { build :phone_call_task }
+
+        before do
+          phone_call.stub(:user_id_changed?) { true }
+        end
+
+        context 'doesn\'t have phone call task' do
+          before do
+            phone_call.stub(:phone_call_task) { nil }
+          end
+
+          it 'does nothing' do
+            PhoneCallTask.any_instance.should_not_receive(:publish)
+            phone_call.publish
+          end
+        end
+
+        context 'has phone call task' do
+          before do
+            phone_call.stub(:phone_call_task) { phone_call_task }
+          end
+
+          it 'calls publish on the task' do
+            phone_call_task.should_receive(:publish)
+            phone_call.publish
+          end
+        end
       end
     end
   end
@@ -1193,14 +1224,7 @@ describe PhoneCall do
         phone_call_task = build :phone_call_task, phone_call: phone_call
         phone_call_task.should_receive(:update_attributes!).with(state_event: :abandon, reason_abandoned: 'test', abandoner: Member.robot)
 
-        phone_call.stub(:phone_call_tasks) do
-          o = Object.new
-          o.stub(:where).with(phone_call_id: phone_call.id) do
-            [phone_call_task]
-          end
-          o
-        end
-
+        phone_call.stub(:phone_call_task) { phone_call_task }
         phone_call.miss! 'test'
       end
     end

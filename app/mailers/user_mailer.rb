@@ -37,11 +37,10 @@ class UserMailer < ActionMailer::Base
     mail(to: @scheduled_phone_call.owner.email, subject: 'BOOKED - Welcome Call')
   end
 
-  def notify_phas_of_message_email
-    to = 'abhik@getbetter.com'
-    to = 'pha@getbetter.com' if Rails.env.qa?
-    to = 'premium@getbetter.com' if Rails.env.production?
+  def notify_phas_of_new_task
+    to = 'testphone@getbetter.com'
+    to = 'pha@getbetter.com' if Rails.env.production?
 
-    mail(to: to, subject: "NEW MESSAGE - Care Portal #{Rails.env}")
+    mail(to: to, subject: "NEW TASK in Queue - Care Portal#{" #{Rails.env}" unless Rails.env.production?}")
   end
 end
