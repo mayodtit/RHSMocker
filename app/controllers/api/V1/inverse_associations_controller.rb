@@ -12,8 +12,8 @@ class Api::V1::InverseAssociationsController < Api::V1::ABaseController
     if @association.update_attributes(association_attributes)
       # TODO - keys are inverted for reverse compatibility
       render_success({association: @association.serializer,
-                      permissions: [@association.permission].serializer.as_json,
-                      users: [@association.user.serializer, @association.associate.serializer]}.tap do |hash|
+                      permissions: [@association.permission].serializer.as_json}.tap do |hash|
+                       hash.merge!(users: [@association.user.serializer, @association.associate.serializer]) unless @association.association_type.try(:hcp?)
                        hash.merge!(inverse_association: @association.pair.serializer) if @association.pair
                        hash[:permissions] << @association.pair.permission.serializer if @association.pair
                      end)

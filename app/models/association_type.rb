@@ -27,4 +27,12 @@ class AssociationType < ActiveRecord::Base
   def self.hcp_default_id
     find_by_name('Care Provider').try(:id)
   end
+
+  def family?
+    relationship_type == 'family'
+  end
+
+  def hcp?
+    relationship_type == 'hcp'
+  end
 end
