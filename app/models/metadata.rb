@@ -29,4 +29,8 @@ class Metadata < ActiveRecord::Base
   def self.value_for_key(key)
     find_by_mkey(key).try(:mvalue)
   end
+
+  def self.allow_tos_checked?
+    Metadata.find_by_mkey('allow_tos_checked').try(:mvalue) == 'true'
+  end
 end
