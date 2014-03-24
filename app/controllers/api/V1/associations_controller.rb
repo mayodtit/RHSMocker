@@ -29,8 +29,8 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   def update
     if @association.update_attributes(permitted_params.association)
       render_success({association: @association.serializer,
-                      permissions: [@association.permission].serializer.as_json,
-                      users: [@association.user.serializer, @association.associate.serializer]}.tap do |hash|
+                      permissions: [@association.permission].serializer.as_json}.tap do |hash|
+                       hash.merge!(users: [@association.user.serializer, @association.associate.serializer]) unless @association.association_type.try(:hcp?)
                        hash.merge!(inverse_association: @association.pair.serializer) if @association.pair
                        hash[:permissions] << @association.pair.permission.serializer if @association.pair
                        hash.merge!(parent_association: @association.parent.serializer) if @association.parent

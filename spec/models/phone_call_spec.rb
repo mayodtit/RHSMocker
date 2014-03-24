@@ -20,6 +20,7 @@ describe PhoneCall do
     it_validates 'presence of', :twilio_conference_name
     it_validates 'uniqueness of', :identifier_token
     it_validates 'foreign key of', :to_role
+    it_validates 'foreign key of', :merged_into_phone_call
 
     it 'validates the presence of to_role_id' do
       p = build_stubbed(:phone_call)
@@ -817,6 +818,81 @@ describe PhoneCall do
     end
   end
 
+  describe '#merge_attributes!' do
+    let(:phone_call) { build :phone_call }
+    let(:other_phone_call) { build :phone_call }
+
+    before do
+      phone_call.stub :save!
+    end
+
+    it 'filters out specific attrs' do
+      other_phone_call.stub(:attributes) do
+        {
+          user_id: 2,
+          id: 2,
+          destination_phone_number: '',
+          merged_into_phone_call_id: 3,
+          state: 'unresolved',
+          resolved_at: Time.now,
+          identifier_token: '123'
+        }
+      end
+
+      phone_call.should_receive(:assign_attributes).with(
+        {
+          user_id: 2
+        },
+        anything
+      )
+      phone_call.merge_attributes! other_phone_call
+    end
+
+    it 'selects attrs that have a value' do
+      other_phone_call.stub(:attributes) { {user_id: 2, claimer_id: nil, destination_phone_number: ''} }
+      phone_call.should_receive(:assign_attributes).with(
+        {
+          user_id: 2
+        },
+        anything
+      )
+      phone_call.merge_attributes! other_phone_call
+    end
+
+    it 'selects attrs that are column names' do
+      other_phone_call.stub(:attributes) { {user_id: 2, fake: 'test'} }
+      phone_call.should_receive(:assign_attributes).with(
+        {
+          user_id: 2
+        },
+        anything
+      )
+      phone_call.merge_attributes! other_phone_call
+    end
+
+    it 'assigns attributes without protection' do
+      phone_call.should_receive(:assign_attributes).with(
+        anything,
+        without_protection: true
+      )
+      phone_call.merge_attributes! other_phone_call
+    end
+
+    it 'saves' do
+      phone_call.should_receive :save!
+      phone_call.merge_attributes! other_phone_call
+    end
+
+    it 'works' do
+      phone_call = create :phone_call
+      other_phone_call = create :phone_call
+
+      phone_call.user_id.should_not == other_phone_call.user_id
+      phone_call.merge_attributes! other_phone_call
+      phone_call.reload.user_id.should == other_phone_call.user_id
+    end
+  end
+
   describe '#publish' do
     let(:phone_call) { build(:phone_call) }
 
@@ -841,6 +917,7 @@ describe PhoneCall do
 
       it 'does nothing' do
         PubSub.should_not_receive(:publish)
+        PhoneCallTask.any_instance.should_not_receive(:publish)
         phone_call.publish
       end
     end
@@ -858,6 +935,36 @@ describe PhoneCall do
           {id: phone_call.id}
         )
         phone_call.publish
+      end
+
+      context 'user changed' do
+        let(:phone_call_task) { build :phone_call_task }
+
+        before do
+          phone_call.stub(:user_id_changed?) { true }
+        end
+
+        context 'doesn\'t have phone call task' do
+          before do
+            phone_call.stub(:phone_call_task) { nil }
+          end
+
+          it 'does nothing' do
+            PhoneCallTask.any_instance.should_not_receive(:publish)
+            phone_call.publish
+          end
+        end
+
+        context 'has phone call task' do
+          before do
+            phone_call.stub(:phone_call_task) { phone_call_task }
+          end
+
+          it 'calls publish on the task' do
+            phone_call_task.should_receive(:publish)
+            phone_call.publish
+          end
+        end
       end
     end
   end
@@ -918,7 +1025,84 @@ describe PhoneCall do
         end
       end
     end
+  end
 
+  describe '#set_member_phone_number' do
+    let(:phone_call) { build :phone_call }
+
+    context 'outbound' do
+      before do
+        phone_call.stub(:outbound?) { true }
+      end
+
+      it 'does nothing' do
+        phone_call.should_not_receive(:origin_phone_number=)
+        phone_call.set_member_phone_number
+      end
+    end
+
+    context 'inbound' do
+      before do
+        phone_call.stub(:outbound?) { false }
+      end
+
+      context 'origin_phone_number is not present' do
+        before do
+          phone_call.origin_phone_number = nil
+        end
+
+        context 'user is not present' do
+          before do
+            phone_call.user = nil
+          end
+
+          it 'does nothing' do
+            phone_call.should_not_receive(:origin_phone_number=)
+            phone_call.set_member_phone_number
+          end
+        end
+
+        context 'user is present' do
+          before do
+            phone_call.user.should be_present
+          end
+
+          context 'user\'s phone number is not present' do
+            before do
+              phone_call.user.stub(:phone) { nil }
+            end
+
+            it 'does nothing' do
+              phone_call.should_not_receive(:origin_phone_number=)
+              phone_call.set_member_phone_number
+            end
+          end
+
+          context 'user\'s phone number is present' do
+            before do
+              phone_call.user.stub(:phone) { '3112825682' }
+            end
+
+            it 'sets the origin number to the user\'s phone' do
+              phone_call.set_member_phone_number
+              phone_call.origin_phone_number.should == phone_call.user.phone
+            end
+          end
+
+        end
+      end
+
+      context 'origin_phone_number is present' do
+        before do
+          phone_call.origin_phone_number = '4083913578'
+        end
+
+        it 'does nothing' do
+          phone_call.should_not_receive(:origin_phone_number=)
+          phone_call.set_member_phone_number
+        end
+      end
+    end
   end
 
   describe 'states' do
@@ -980,6 +1164,47 @@ describe PhoneCall do
       end
     end
 
+    describe '#merge!' do
+      let(:phone_call) { build :phone_call, to_role_id: @pha_id }
+      let(:other_phone_call) { build_stubbed :phone_call, to_role_id: @pha_id, state: :claimed, claimer: nurse, claimed_at: Time.now }
+
+      before do
+        other_phone_call.stub(:save!)
+        phone_call.message.stub(:update_attributes!)
+      end
+
+      it 'changes the state to merged' do
+        phone_call.merged_into_phone_call = other_phone_call
+        phone_call.merge!
+        phone_call.should be_merged
+      end
+
+      it 'merges attributes' do
+        phone_call.merged_into_phone_call = other_phone_call
+        other_phone_call.should_receive(:merge_attributes!).with(phone_call)
+        phone_call.merge!
+      end
+
+      it 'switches the messages phone call' do
+        phone_call.merged_into_phone_call = other_phone_call
+        phone_call.message.should_receive(:update_attributes!).with(phone_call_id: other_phone_call.id)
+        phone_call.merge!
+      end
+
+      it 'works' do
+        phone_call = create :phone_call
+        other_phone_call = create :phone_call, state: :claimed, claimer: nurse, claimed_at: Time.now, message: nil
+        message = phone_call.message
+
+        phone_call.merged_into_phone_call = other_phone_call
+        phone_call.merge!
+
+        phone_call.should be_merged
+        message.reload.phone_call.should == other_phone_call
+        other_phone_call.reload.user.should == phone_call.user
+      end
+    end
+
     describe '#miss!' do
       before do
         phone_call.miss!
@@ -999,14 +1224,7 @@ describe PhoneCall do
         phone_call_task = build :phone_call_task, phone_call: phone_call
         phone_call_task.should_receive(:update_attributes!).with(state_event: :abandon, reason_abandoned: 'test', abandoner: Member.robot)
 
-        phone_call.stub(:phone_call_tasks) do
-          o = Object.new
-          o.stub(:where).with(phone_call_id: phone_call.id) do
-            [phone_call_task]
-          end
-          o
-        end
-
+        phone_call.stub(:phone_call_task) { phone_call_task }
         phone_call.miss! 'test'
       end
     end
@@ -1016,6 +1234,8 @@ describe PhoneCall do
         phone_call.claimer = nurse
         phone_call.claim!
       end
+
+      it_behaves_like 'cannot transition from', :claim!, [:merged, :dialing, :disconnected, :connected, :missed]
 
       it 'changes the state to claimed' do
         phone_call.should be_claimed

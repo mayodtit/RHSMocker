@@ -202,7 +202,7 @@ resource "PhoneCalls" do
         explanation 'The caller selected an option from the triage menu, process it.'
         status.should == 200
         phone_call.reload.should be_missed
-        phone_call_task = phone_call.phone_call_tasks.first
+        phone_call_task = phone_call.phone_call_task
         phone_call_task.should be_abandoned
         phone_call_task.reason_abandoned.should == 'after_hours'
         xml = Nokogiri::XML(response_body)

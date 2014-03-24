@@ -12,18 +12,19 @@ class PhoneCall < ActiveRecord::Base
   belongs_to :resolver, class_name: 'Member'
   belongs_to :to_role, class_name: 'Role'
   belongs_to :transferred_to_phone_call, class_name: 'PhoneCall'
+  belongs_to :merged_into_phone_call, class_name: 'PhoneCall'
 
   has_one :message, :inverse_of => :phone_call
   has_one :consult, through: :message
   has_one :scheduled_phone_call
   has_one :transferred_from_phone_call, class_name: 'PhoneCall', foreign_key: :transferred_to_phone_call_id
-  has_many :phone_call_tasks
+  has_one :phone_call_task, inverse_of: :phone_call
 
   attr_accessible :user, :user_id, :to_role, :to_role_id, :message, :message_attributes, :origin_phone_number,
                   :destination_phone_number, :claimer, :claimer_id, :ender, :ender_id,
                   :identifier_token, :dialer_id, :dialer, :state_event, :destination_twilio_sid,
                   :origin_twilio_sid, :twilio_conference_name, :origin_status, :destination_status,
-                  :outbound
+                  :outbound, :merged_into_phone_call, :merged_into_phone_call_id
 
   validates :twilio_conference_name, :identifier_token, presence: true
   validates :identifier_token, uniqueness: true # Used for nurseline and creating unique conference calls
@@ -31,12 +32,14 @@ class PhoneCall < ActiveRecord::Base
   validates :destination_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: false
   validates :to_role_id, presence: true, if: lambda {|p| !p.outbound? }
   validates :to_role, presence: true, if: lambda {|p| p.to_role_id }
+  validates :merged_into_phone_call, presence: true, if: lambda {|p| p.merged_into_phone_call_id.present? }
   validate :attrs_for_states
 
   before_validation :set_to_role, on: :create
   before_validation :prep_phone_numbers
   before_validation :generate_identifier_token
   before_validation :transition_state
+  before_validation :set_member_phone_number
 
   after_create :dial_if_outbound
   after_save :publish
@@ -207,9 +210,22 @@ class PhoneCall < ActiveRecord::Base
     transferred_to_phone_call.dial_destination
   end
 
+  def merge_attributes!(phone_call)
+    attrs = phone_call.attributes.select do |attr, value|
+      !%w(id merged_into_phone_call_id state resolved_at identifier_token).include?(attr.to_s) && value.present? && PhoneCall.column_names.include?(attr.to_s)
+    end
+
+    assign_attributes attrs, without_protection: true
+    save!
+  end
+
   def publish
     unless id_changed?
       PubSub.publish "/phone_calls/#{id}/update", { id: id }
+
+      if user_id_changed? && phone_call_task
+        phone_call_task.publish
+      end
     end
   end
 
@@ -220,6 +236,14 @@ class PhoneCall < ActiveRecord::Base
       if unclaimed?
         PhoneCallTask.create_if_only_opened_for_phone_call! self
       end
+    end
+  end
+
+  def set_member_phone_number
+    return if outbound?
+
+    if origin_phone_number.nil? && user && user.phone.present?
+      self.origin_phone_number = user.phone
     end
   end
 
@@ -246,12 +270,16 @@ class PhoneCall < ActiveRecord::Base
   end
 
   state_machine :initial => lambda { |object| object.initial_state } do
-    event :claim do
-      transition [:ended, :unclaimed] => :claimed
-    end
-
     event :resolve do
       transition :unresolved => :unclaimed
+    end
+
+    event :merge do
+      transition :unresolved => :merged
+    end
+
+    event :claim do
+      transition [:ended, :unclaimed] => :claimed
     end
 
     event :miss do
@@ -293,6 +321,14 @@ class PhoneCall < ActiveRecord::Base
       phone_call.resolved_at = Time.now
     end
 
+    before_transition :unresolved => :merged do |phone_call|
+      phone_call.merged_into_phone_call.merge_attributes! phone_call
+    end
+
+    after_transition :unresolved => :merged do |phone_call|
+      phone_call.message.update_attributes! phone_call_id: phone_call.merged_into_phone_call_id
+    end
+
     after_transition :unresolved => :unclaimed do |phone_call|
       PhoneCallTask.create_if_only_opened_for_phone_call! phone_call
     end
@@ -331,7 +367,7 @@ class PhoneCall < ActiveRecord::Base
     end
 
     after_transition any - :missed => :missed do |phone_call, transition|
-      phone_call.phone_call_tasks.where(phone_call_id: phone_call.id).each do |task|
+      if task = phone_call.phone_call_task
         task.update_attributes! state_event: :abandon, reason_abandoned: transition.args.first || 'missed', abandoner: Member.robot
       end
 
@@ -369,6 +405,10 @@ class PhoneCall < ActiveRecord::Base
         end
       when :ended
         validate_actor_and_timestamp_exist :end
+      when :merged
+        if merged_into_phone_call_id.nil?
+          errors.add(:merged_into_phone_call_id, "must specify a phone call when #{self.class.name} is #{state}")
+        end
     end
   end
 end

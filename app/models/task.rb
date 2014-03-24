@@ -23,6 +23,7 @@ class Task < ActiveRecord::Base
   before_validation :set_role, on: :create
 
   after_save :publish
+  after_save :notify
 
   def open?
     !(%w(completed abandoned).include? state)
@@ -42,6 +43,12 @@ class Task < ActiveRecord::Base
 
   def set_role
     self.role_id = Role.find_by_name!(:pha).id if role_id.nil?
+  end
+
+  def notify
+    if unassigned?
+      UserMailer.notify_phas_of_new_task.deliver if for_pha?
+    end
   end
 
   def publish

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140320182059) do
+ActiveRecord::Schema.define(:version => 20140323210637) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -390,6 +390,7 @@ ActiveRecord::Schema.define(:version => 20140320182059) do
     t.string   "origin_status"
     t.string   "destination_status"
     t.boolean  "outbound",                     :default => false, :null => false
+    t.integer  "merged_into_phone_call_id"
   end
 
   add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"
