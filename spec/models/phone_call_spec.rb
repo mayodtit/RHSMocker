@@ -20,6 +20,7 @@ describe PhoneCall do
     it_validates 'presence of', :twilio_conference_name
     it_validates 'uniqueness of', :identifier_token
     it_validates 'foreign key of', :to_role
+    it_validates 'foreign key of', :merged_into_phone_call
 
     it 'validates the presence of to_role_id' do
       p = build_stubbed(:phone_call)
@@ -817,6 +818,81 @@ describe PhoneCall do
     end
   end
 
+  describe '#merge_attributes!' do
+    let(:phone_call) { build :phone_call }
+    let(:other_phone_call) { build :phone_call }
+
+    before do
+      phone_call.stub :save!
+    end
+
+    it 'filters out specific attrs' do
+      other_phone_call.stub(:attributes) do
+        {
+          user_id: 2,
+          id: 2,
+          destination_phone_number: '',
+          merged_into_phone_call_id: 3,
+          state: 'unresolved',
+          resolved_at: Time.now,
+          identifier_token: '123'
+        }
+      end
+
+      phone_call.should_receive(:assign_attributes).with(
+        {
+          user_id: 2
+        },
+        anything
+      )
+      phone_call.merge_attributes! other_phone_call
+    end
+
+    it 'selects attrs that have a value' do
+      other_phone_call.stub(:attributes) { {user_id: 2, claimer_id: nil, destination_phone_number: ''} }
+      phone_call.should_receive(:assign_attributes).with(
+        {
+          user_id: 2
+        },
+        anything
+      )
+      phone_call.merge_attributes! other_phone_call
+    end
+
+    it 'selects attrs that are column names' do
+      other_phone_call.stub(:attributes) { {user_id: 2, fake: 'test'} }
+      phone_call.should_receive(:assign_attributes).with(
+        {
+          user_id: 2
+        },
+        anything
+      )
+      phone_call.merge_attributes! other_phone_call
+    end
+
+    it 'assigns attributes without protection' do
+      phone_call.should_receive(:assign_attributes).with(
+        anything,
+        without_protection: true
+      )
+      phone_call.merge_attributes! other_phone_call
+    end
+
+    it 'saves' do
+      phone_call.should_receive :save!
+      phone_call.merge_attributes! other_phone_call
+    end
+
+    it 'works' do
+      phone_call = create :phone_call
+      other_phone_call = create :phone_call
+
+      phone_call.user_id.should_not == other_phone_call.user_id
+      phone_call.merge_attributes! other_phone_call
+      phone_call.reload.user_id.should == other_phone_call.user_id
+    end
+  end
+
   describe '#publish' do
     let(:phone_call) { build(:phone_call) }
 
@@ -980,6 +1056,47 @@ describe PhoneCall do
       end
     end
 
+    describe '#merge!' do
+      let(:phone_call) { build :phone_call, to_role_id: @pha_id }
+      let(:other_phone_call) { build_stubbed :phone_call, to_role_id: @pha_id, state: :claimed, claimer: nurse, claimed_at: Time.now }
+
+      before do
+        other_phone_call.stub(:save!)
+        phone_call.message.stub(:update_attributes!)
+      end
+
+      it 'changes the state to merged' do
+        phone_call.merged_into_phone_call = other_phone_call
+        phone_call.merge!
+        phone_call.should be_merged
+      end
+
+      it 'merges attributes' do
+        phone_call.merged_into_phone_call = other_phone_call
+        other_phone_call.should_receive(:merge_attributes!).with(phone_call)
+        phone_call.merge!
+      end
+
+      it 'switches the messages phone call' do
+        phone_call.merged_into_phone_call = other_phone_call
+        phone_call.message.should_receive(:update_attributes!).with(phone_call_id: other_phone_call.id)
+        phone_call.merge!
+      end
+
+      it 'works' do
+        phone_call = create :phone_call
+        other_phone_call = create :phone_call, state: :claimed, claimer: nurse, claimed_at: Time.now, message: nil
+        message = phone_call.message
+
+        phone_call.merged_into_phone_call = other_phone_call
+        phone_call.merge!
+
+        phone_call.should be_merged
+        message.reload.phone_call.should == other_phone_call
+        other_phone_call.reload.user.should == phone_call.user
+      end
+    end
+
     describe '#miss!' do
       before do
         phone_call.miss!
@@ -1016,6 +1133,8 @@ describe PhoneCall do
         phone_call.claimer = nurse
         phone_call.claim!
       end
+
+      it_behaves_like 'cannot transition from', :claim!, [:merged, :dialing, :disconnected, :connected, :missed]
 
       it 'changes the state to claimed' do
         phone_call.should be_claimed

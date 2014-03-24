@@ -29,7 +29,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
   def update
     authorize! :update, @phone_call
 
-    update_params = params.require(:phone_call).permit(:state_event)
+    update_params = params.require(:phone_call).permit(:state_event, :merged_into_phone_call_id, :user_id)
 
     if %w(dial claim end).include? update_params[:state_event]
       update_params[update_params[:state_event].event_actor.to_sym] = current_user
