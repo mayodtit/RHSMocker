@@ -18,7 +18,7 @@ class PhoneCall < ActiveRecord::Base
   has_one :consult, through: :message
   has_one :scheduled_phone_call
   has_one :transferred_from_phone_call, class_name: 'PhoneCall', foreign_key: :transferred_to_phone_call_id
-  has_many :phone_call_tasks
+  has_one :phone_call_task, inverse_of: :phone_call
 
   attr_accessible :user, :user_id, :to_role, :to_role_id, :message, :message_attributes, :origin_phone_number,
                   :destination_phone_number, :claimer, :claimer_id, :ender, :ender_id,
@@ -222,6 +222,10 @@ class PhoneCall < ActiveRecord::Base
   def publish
     unless id_changed?
       PubSub.publish "/phone_calls/#{id}/update", { id: id }
+
+      if user_id_changed? && phone_call_task
+        phone_call_task.publish
+      end
     end
   end
 
@@ -322,7 +326,7 @@ class PhoneCall < ActiveRecord::Base
     end
 
     after_transition :unresolved => :merged do |phone_call|
-      phone_call.message.update_attributes! phone_call_id: phone_call.merged_into_phone_call.id
+      phone_call.message.update_attributes! phone_call_id: phone_call.merged_into_phone_call_id
     end
 
     after_transition :unresolved => :unclaimed do |phone_call|
@@ -363,7 +367,7 @@ class PhoneCall < ActiveRecord::Base
     end
 
     after_transition any - :missed => :missed do |phone_call, transition|
-      phone_call.phone_call_tasks.where(phone_call_id: phone_call.id).each do |task|
+      if task = phone_call.phone_call_task
         task.update_attributes! state_event: :abandon, reason_abandoned: transition.args.first || 'missed', abandoner: Member.robot
       end
 
