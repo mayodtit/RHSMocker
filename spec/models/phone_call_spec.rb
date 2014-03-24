@@ -994,7 +994,84 @@ describe PhoneCall do
         end
       end
     end
+  end
 
+  describe '#set_member_phone_number' do
+    let(:phone_call) { build :phone_call }
+
+    context 'outbound' do
+      before do
+        phone_call.stub(:outbound?) { true }
+      end
+
+      it 'does nothing' do
+        phone_call.should_not_receive(:origin_phone_number=)
+        phone_call.set_member_phone_number
+      end
+    end
+
+    context 'inbound' do
+      before do
+        phone_call.stub(:outbound?) { false }
+      end
+
+      context 'origin_phone_number is not present' do
+        before do
+          phone_call.origin_phone_number = nil
+        end
+
+        context 'user is not present' do
+          before do
+            phone_call.user = nil
+          end
+
+          it 'does nothing' do
+            phone_call.should_not_receive(:origin_phone_number=)
+            phone_call.set_member_phone_number
+          end
+        end
+
+        context 'user is present' do
+          before do
+            phone_call.user.should be_present
+          end
+
+          context 'user\'s phone number is not present' do
+            before do
+              phone_call.user.stub(:phone) { nil }
+            end
+
+            it 'does nothing' do
+              phone_call.should_not_receive(:origin_phone_number=)
+              phone_call.set_member_phone_number
+            end
+          end
+
+          context 'user\'s phone number is present' do
+            before do
+              phone_call.user.stub(:phone) { '3112825682' }
+            end
+
+            it 'sets the origin number to the user\'s phone' do
+              phone_call.set_member_phone_number
+              phone_call.origin_phone_number.should == phone_call.user.phone
+            end
+          end
+
+        end
+      end
+
+      context 'origin_phone_number is present' do
+        before do
+          phone_call.origin_phone_number = '4083913578'
+        end
+
+        it 'does nothing' do
+          phone_call.should_not_receive(:origin_phone_number=)
+          phone_call.set_member_phone_number
+        end
+      end
+    end
   end
 
   describe 'states' do

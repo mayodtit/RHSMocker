@@ -39,6 +39,7 @@ class PhoneCall < ActiveRecord::Base
   before_validation :prep_phone_numbers
   before_validation :generate_identifier_token
   before_validation :transition_state
+  before_validation :set_member_phone_number
 
   after_create :dial_if_outbound
   after_save :publish
@@ -231,6 +232,14 @@ class PhoneCall < ActiveRecord::Base
       if unclaimed?
         PhoneCallTask.create_if_only_opened_for_phone_call! self
       end
+    end
+  end
+
+  def set_member_phone_number
+    return if outbound?
+
+    if origin_phone_number.nil? && user && user.phone.present?
+      self.origin_phone_number = user.phone
     end
   end
 
