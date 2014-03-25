@@ -36,4 +36,8 @@ class Metadata < ActiveRecord::Base
   def self.allow_tos_checked?
     Metadata.find_by_mkey('allow_tos_checked').try(:mvalue) == 'true'
   end
+
+  def self.new_card_design?
+    Metadata.find_by_mkey('new_card_design').try(:mvalue) == 'true'
+  end
 end
