@@ -76,47 +76,108 @@ describe MessageTask do
   describe '#create_if_only_opened_for_consult!' do
     let(:consult) { build_stubbed(:consult) }
 
-    context 'other open message task exists for consult' do
-      before do
-        MessageTask.stub(:open) do
-          o = Object.new
-          o.stub(:where).with(consult_id: consult.id) do
+    context 'no message' do
+      context 'other open message task exists for consult' do
+        before do
+          MessageTask.stub(:open) do
             o = Object.new
-            o.stub(:count) { 1 }
+            o.stub(:where).with(consult_id: consult.id) do
+              o = Object.new
+              o.stub(:count) { 1 }
+              o
+            end
             o
           end
-          o
+        end
+
+        it 'does nothing' do
+          MessageTask.should_not_receive(:create!)
+          MessageTask.create_if_only_opened_for_consult!(consult)
         end
       end
 
-      it 'does nothing' do
-        MessageTask.should_not_receive(:create!)
-        MessageTask.create_if_only_opened_for_consult!(consult)
+      context 'other open message task doesn\'t exist for consult' do
+        before do
+          MessageTask.stub(:open) do
+            o = Object.new
+            o.stub(:where).with(consult_id: consult.id) do
+              o = Object.new
+              o.stub(:count) { 0 }
+              o
+            end
+            o
+          end
+        end
+
+        it 'creates a task' do
+          MessageTask.should_receive(:create!).with(title: consult.title, consult: consult, message: nil, creator: Member.robot, due_at: consult.created_at)
+          MessageTask.create_if_only_opened_for_consult!(consult)
+        end
       end
     end
 
-    context 'other open message task doesn\'t exist for consult' do
-      before do
-        MessageTask.stub(:open) do
-          o = Object.new
-          o.stub(:where).with(consult_id: consult.id) do
-            o = Object.new
-            o.stub(:count) { 0 }
-            o
+    context 'message' do
+      context 'sender matches consult initiator' do
+        let(:message) { build :message, consult: consult, user: consult.initiator }
+
+        context 'other open message task exists for consult' do
+          before do
+            MessageTask.stub(:open) do
+              o = Object.new
+              o.stub(:where).with(consult_id: consult.id) do
+                o = Object.new
+                o.stub(:count) { 1 }
+                o
+              end
+              o
+            end
           end
-          o
+
+          it 'does nothing' do
+            MessageTask.should_not_receive(:create!)
+            MessageTask.create_if_only_opened_for_consult!(consult, message)
+          end
+        end
+
+        context 'other open message task doesn\'t exist for consult' do
+          before do
+            MessageTask.stub(:open) do
+              o = Object.new
+              o.stub(:where).with(consult_id: consult.id) do
+                o = Object.new
+                o.stub(:count) { 0 }
+                o
+              end
+              o
+            end
+          end
+
+          it 'creates a task with consult and message' do
+            MessageTask.should_receive(:create!).with(title: consult.title, consult: consult, message: message, creator: Member.robot, due_at: message.created_at)
+            MessageTask.create_if_only_opened_for_consult!(consult, message)
+          end
         end
       end
 
-      it 'creates a task with consult and message' do
-        message = build(:message, consult: consult)
-        MessageTask.should_receive(:create!).with(title: consult.title, consult: consult, message: message, creator: Member.robot, due_at: message.created_at)
-        MessageTask.create_if_only_opened_for_consult!(consult, message)
-      end
+      context 'sender is not consult initiator' do
+        let(:message) { build :message, consult: consult, user: build(:pha) }
 
-      it 'creates a task with just a consult' do
-        MessageTask.should_receive(:create!).with(title: consult.title, consult: consult, message: nil, creator: Member.robot, due_at: consult.created_at)
-        MessageTask.create_if_only_opened_for_consult!(consult)
+        before do
+          MessageTask.stub(:open) do
+            o = Object.new
+            o.stub(:where).with(consult_id: consult.id) do
+              o = Object.new
+              o.stub(:count) { 0 }
+              o
+            end
+            o
+          end
+        end
+
+        it 'does nothing' do
+          MessageTask.should_not_receive(:create!)
+          MessageTask.create_if_only_opened_for_consult!(consult, message)
+        end
       end
     end
   end
