@@ -9,8 +9,11 @@ class Metadata < ActiveRecord::Base
   end
 
   def self.to_hash_for(user)
-    user.feature_groups.inject(to_hash) do |hash, fg|
-      hash.merge!(fg.metadata_override) if fg.metadata_override
+    to_hash.tap do |hash|
+      user.feature_groups.each do |fg|
+        hash.merge!(fg.metadata_override) if fg.metadata_override
+      end
+      hash[:needs_agreement] = true if user.needs_agreement?
     end
   end
 
