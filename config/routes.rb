@@ -87,6 +87,7 @@ RHSMocker::Application.routes.draw do
       post 'user/update_password', to: 'members#secure_update', as: :update_password # TODO - deprecated!
       post 'user/update_email', to: 'members#secure_update', as: :update_email # TODO - deprecated!
       resources :users, only: [:show, :update, :destroy] do
+        resources :agreements, only: :create, controller: 'user_agreements'
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
         resources :associates, except: [:new, :edit]
         resources :associations, except: [:new, :edit] do
