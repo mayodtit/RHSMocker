@@ -7,6 +7,14 @@
       .title.small= resource.title.html_safe
       .body= resource.raw_body.html_safe
       .about
+  - if resource.card_template == :abstract
+    .content-card.card-link{:data => {:card_id => card.try(:id)}}
+      .header
+        .type= resource.content_type_display.html_safe
+        = image_tag('mayologo_card_@2x.png', class: %w(logo mayo-logo)) if resource.show_mayo_logo?
+      .title= resource.title.html_safe
+      .abstract= resource.card_abstract.html_safe
+      .about
   - else
     .content-card.card-link{:data => {:card_id => card.try(:id)}}
       .header
