@@ -10,21 +10,15 @@ font-family:"Roboto Light";
   .header {
     overflow: hidden;
     margin: 20px 20px 0px;
-    .type {
-      float: left;
-      font-family:"Roboto";
-      font-size: 12pt;
-      color: $manatee;
-    }
     .logo {
-      float: right;
+      float: left;
       &.mayo-logo {
         width: 90px;
       }
     }
   }
   .title {
-    margin: 20px 20px 0px;
+    margin: 10px 20px 0px;
     font-family:"Roboto Light";
     font-size: 18pt;
     color: $mayo-blue;
@@ -38,8 +32,8 @@ font-family:"Roboto Light";
   .abstract {
     margin: 10px 20px 0px;
   }
-  .about {
-    padding: 30px 0px 0px 0px;
+  .footer {
+    padding: 25px 0px 0px;
   }
 }
 }
