@@ -19,7 +19,7 @@ class Content < ActiveRecord::Base
                   :show_checker_option, :show_mayo_copyright, :type, :raw_preview,
                   :state_event, :sensitive, :symptom_checker_gender,
                   :show_mayo_logo, :has_custom_card, :card_actions, :condition,
-                  :condition_id
+                  :condition_id, :card_template
 
   validates :title, :raw_body, :content_type, :document_id, presence: true
   validates :show_call_option, :show_checker_option, :show_mayo_copyright,
