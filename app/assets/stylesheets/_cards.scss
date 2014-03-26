@@ -1,0 +1,33 @@
+@import "colors";
+
+// wrap in "new" to protect old styles
+.new {
+font-family:"Roboto Light";
+
+.content-card {
+  width: 297px;
+  overflow: hidden;
+  .header {
+    overflow: hidden;
+    margin: 20px 20px 0px;
+    .type {
+      float: left;
+      font-family:"Roboto";
+      font-size: 12pt;
+      color: $faded-grey;
+    }
+    .logo {
+      float: right;
+      &.mayo-logo {
+        width: 90px;
+      }
+    }
+  }
+  .title {
+    margin: 20px 20px 30px;
+    font-family:"Roboto Light";
+    font-size: 18pt;
+    color: $deep-blue;
+  }
+}
+}

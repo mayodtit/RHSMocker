@@ -59,7 +59,7 @@ class CardSerializer < ViewSerializer
   def size
     {
       width: 297,
-      height: 220
+      height: 191
     }
   end
 
