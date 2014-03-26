@@ -24,10 +24,19 @@ font-family:"Roboto Light";
     }
   }
   .title {
-    margin: 20px 20px 30px;
+    margin: 20px 20px 0px;
     font-family:"Roboto Light";
     font-size: 18pt;
     color: $mayo-blue;
+    &.small {
+      font-size: 14pt;
+    }
+  }
+  .body {
+    margin: 0px 20px 30px;
+  }
+  .about {
+    padding: 30px 0px 0px 0px;
   }
 }
 }

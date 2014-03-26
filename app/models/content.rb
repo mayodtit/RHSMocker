@@ -13,6 +13,7 @@ class Content < ActiveRecord::Base
   has_many :factors, through: :factor_contents
   belongs_to :condition
   serialize :card_actions, Array
+  symbolize :card_template, in: %w(full_body), allow_nil: true
 
   attr_accessible :title, :raw_body, :content_type, :abstract, :question, :keywords,
                   :content_updated_at, :document_id, :show_call_option,
