@@ -4,24 +4,47 @@
 .new {
 font-family:"Roboto Light";
 
-.content-card {
+.card {
   position: relative;
   width: 297px;
   overflow: hidden;
+
+  &.question {
+    background-color: $pacific-blue;
+    color: white;
+  }
+
   .header {
     overflow: hidden;
     margin: 20px 20px 0px;
     .logo {
-      float: left;
+      float: right;
       &.mayo-logo {
         width: 90px;
       }
+      &.better-logo {
+        width: 13px;
+      }
     }
   }
+
   .body {
+    overflow: hidden;
     margin: 10px 20px 0px;
     padding-right: 15px;
+    .gender {
+      width: 95px;
+      &.left {
+        padding-left: 20px;
+        float: left;
+      }
+      &.right {
+        padding-right: 5px;
+        float: right;
+      }
+    }
   }
+
   .title {
     font-family:"Roboto Light";
     font-size: 18pt;
@@ -30,12 +53,15 @@ font-family:"Roboto Light";
       font-size: 14pt;
     }
   }
+
   .abstract {
     margin: 10px 0px 0px;
   }
+
   .footer {
     padding: 25px 0px 0px;
   }
+
   .open-arrow {
     margin: auto;
     position: absolute;

@@ -1,5 +1,5 @@
 - if Metadata.new_card_design?
-  .content-card.card-link{:data => {:card_id => card.try(:id)}}
+  .card.card-link{data: {card_id: card.try(:id)}}
     .header
       = image_tag('mayologo_card_@2x.png', class: %w(logo mayo-logo)) if resource.show_mayo_logo?
     .body
