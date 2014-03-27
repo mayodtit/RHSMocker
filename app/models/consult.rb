@@ -7,10 +7,11 @@ class Consult < ActiveRecord::Base
   has_many :phone_calls, through: :messages
   has_many :scheduled_phone_calls, through: :messages
   has_many :cards, as: :resource, dependent: :destroy
+  attr_accessor :skip_tasks
 
   attr_accessible :initiator, :initiator_id, :subject, :subject_id, :symptom,
                   :symptom_id, :state, :title, :description, :image,
-                  :messages_attributes, :master
+                  :messages_attributes, :master, :skip_tasks
 
   # Interestingly enough, Rails uses the attr_accessible list in order to build
   # the params hash for the resource key when one is not specified.  As a result
@@ -26,8 +27,8 @@ class Consult < ActiveRecord::Base
   validates :master, uniqueness: {scope: :initiator_id}, if: :master?
 
   before_validation :strip_attributes
-  after_create :create_task
-  after_save :update_tasks
+  after_create :create_task, unless: :skip_tasks?
+  after_save :update_tasks, unless: :skip_tasks?
 
   accepts_nested_attributes_for :messages
   mount_uploader :image, ConsultImageUploader
@@ -47,5 +48,9 @@ class Consult < ActiveRecord::Base
     event :close do
       transition :open => :closed
     end
+  end
+
+  def skip_tasks?
+    @skip_tasks || false
   end
 end
