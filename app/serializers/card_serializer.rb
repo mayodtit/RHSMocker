@@ -65,7 +65,7 @@ class CardSerializer < ViewSerializer
     elsif resource.is_a?(QuestionSerializer)
       {
         width: 297,
-        height: 220
+        height: 174
       }
     else
       {

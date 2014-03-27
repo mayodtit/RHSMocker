@@ -4,6 +4,18 @@
 .new {
 font-family:"Roboto Light";
 
+.mayo-logo {
+  width: 90px;
+}
+
+.better-logo {
+  width: 13px;
+}
+
+.open-arrow {
+  width: 8px;
+}
+
 .card {
   position: relative;
   width: 297px;
@@ -12,10 +24,12 @@ font-family:"Roboto Light";
   &.question {
     background-color: $pacific-blue;
     color: white;
+    .body {
+      min-height: 98px;
+    }
   }
 
   &.birthday {
-    min-height: 174px;
     background-size: 297px;
     background-image: image-url('Cakes.png');
     background-position: bottom;
@@ -26,20 +40,20 @@ font-family:"Roboto Light";
     overflow: hidden;
     margin: 20px 20px 0px;
     .logo {
-      float: right;
-      &.mayo-logo {
-        width: 90px;
-      }
-      &.better-logo {
-        width: 13px;
-      }
+      float: left;
     }
   }
 
   .body {
+    position: relative;
     overflow: hidden;
     margin: 10px 20px 0px;
     padding-right: 15px;
+    .logo {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
     .gender {
       width: 95px;
       &.left {
@@ -64,6 +78,7 @@ font-family:"Roboto Light";
 
   .abstract {
     margin: 10px 0px 0px;
+    color: $manatee;
   }
 
   .footer {
