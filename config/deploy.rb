@@ -117,9 +117,9 @@ namespace :deploy do
     %w(database.yml sunspot.yml application.yml).each do |f|
       run "rm -f #{release_path}/config/#{f} && ln -s #{shared_path}/config/#{f} #{release_path}/config/#{f}"
     end
-    if %w[production qa].include?(rails_env)
+#    if %w[production qa].include?(rails_env)
       run "mkdir -p #{release_path}/config/static/ && rm -f #{release_path}/config/static/better.pem && ln -s #{shared_path}/config/better.pem #{release_path}/config/static/better.pem"
-    end
+#    end
     run "git ls-remote git@github.com:RemoteHealthServices/RHSMocker.git #{branch} >> #{release_path}/public/VERSION.txt"
   end
 

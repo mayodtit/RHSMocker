@@ -28,7 +28,7 @@ Metadata dynamically controls variables and features in the API without needing 
 |:--------------------------|:-----------------------|:-----------------------------------------------|
 | *use_invite_flow*         | true/false             | When "true", new members must be invited.                         |
 | *remove_robot_response*   | true/false             | When "true", automated response to messages is removed. |
-| *enable_phone_queue*      | true/false             | When "true", incoming calls to PHAs are queued up (rather than sent directly to a Google Voice # shared by PHAs) |
+| *enable_pha_phone_queue*      | true/false             | When "true", incoming calls to PHAs are queued up (rather than sent directly to a Google Voice # shared by PHAs) |
 | *version*                 | #.#.#                  | Lowest version API supports, used for killswitch |
 | *app_store_url*           | URL                    | URL that leads users to download the app |
 | *nurse_phone_number*      | ##########             | Phone number client and API uses to dial nurseline |

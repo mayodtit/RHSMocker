@@ -1,0 +1,96 @@
+@import "colors";
+
+// wrap in "new" to protect old styles
+.new {
+font-family:"Roboto Light";
+
+.mayo-logo {
+  width: 90px;
+}
+
+.better-logo {
+  width: 13px;
+}
+
+.open-arrow {
+  width: 8px;
+}
+
+.card {
+  position: relative;
+  width: 297px;
+  overflow: hidden;
+
+  &.question {
+    background-color: $pacific-blue;
+    color: white;
+    .body {
+      min-height: 98px;
+    }
+  }
+
+  &.birthday {
+    background-size: 297px;
+    background-image: image-url('Cakes.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+
+  .header {
+    overflow: hidden;
+    margin: 20px 20px 0px;
+    .logo {
+      float: left;
+    }
+  }
+
+  .body {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 20px 0px;
+    padding-right: 15px;
+    .logo {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+    .gender {
+      width: 95px;
+      &.left {
+        padding-left: 20px;
+        float: left;
+      }
+      &.right {
+        padding-right: 5px;
+        float: right;
+      }
+    }
+  }
+
+  .title {
+    font-family:"Roboto Light";
+    font-size: 18pt;
+    color: $mayo-blue;
+    &.small {
+      font-size: 14pt;
+    }
+  }
+
+  .abstract {
+    margin: 10px 0px 0px;
+    color: $manatee;
+  }
+
+  .footer {
+    padding: 25px 0px 0px;
+  }
+
+  .open-arrow {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+  }
+}
+}

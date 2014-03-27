@@ -58,6 +58,10 @@ class Member < User
     where("first_name LIKE ? OR last_name LIKE ? OR email LIKE ?", wildcard, wildcard, wildcard)
   end
 
+  def needs_agreement?
+    !terms_of_service_and_privacy_policy
+  end
+
   def has_role?(role)
     role_names.include?(role.to_s)
   end

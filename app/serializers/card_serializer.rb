@@ -57,10 +57,22 @@ class CardSerializer < ViewSerializer
   end
 
   def size
-    {
-      width: 297,
-      height: 220
-    }
+    if resource.is_a?(ContentSerializer) && resource.card_template == :abstract
+      {
+        width: 297,
+        height: 164
+      }
+    elsif resource.is_a?(QuestionSerializer)
+      {
+        width: 297,
+        height: 174
+      }
+    else
+      {
+        width: 297,
+        height: 191
+      }
+    end
   end
 
   private

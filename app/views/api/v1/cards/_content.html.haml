@@ -1,9 +1,21 @@
-.content_card.card-link{:data => {:card_id => card.try(:id)}}
-  - if resource.has_custom_card?
-    = resource.raw_preview.html_safe
-  - else
-    .content_source
-      = image_tag('mayologo_card_@2x.png', :class => 'mayo_icon') if resource.show_mayo_logo?
-    .content_header_card
-      .content_title_card= resource.title.html_safe
-      .content_text_card_fade= resource.raw_preview.html_safe
+- if Metadata.new_card_design?
+  .card.card-link{data: {card_id: card.try(:id)}}
+    .header
+      = image_tag('mayologo_card_@2x.png', class: %w(logo mayo-logo)) if resource.show_mayo_logo?
+    .body
+      .title= resource.title.html_safe
+      - if resource.card_template == :abstract
+        .abstract= resource.card_abstract.html_safe
+    .footer
+    = image_tag('ArrowDark.png', class: 'open-arrow')
+- else
+  .old
+    .content_card
+      - if resource.has_custom_card?
+        = resource.raw_preview.html_safe
+      - else
+        .content_source
+          = image_tag('mayologo_card_@2x.png', :class => 'mayo_icon') if resource.show_mayo_logo?
+        .content_header_card
+          .content_title_card= resource.title.html_safe
+          .content_text_card_fade= resource.raw_preview.html_safe

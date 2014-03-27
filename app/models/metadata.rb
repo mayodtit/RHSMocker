@@ -9,8 +9,11 @@ class Metadata < ActiveRecord::Base
   end
 
   def self.to_hash_for(user)
-    user.feature_groups.inject(to_hash) do |hash, fg|
-      hash.merge!(fg.metadata_override) if fg.metadata_override
+    to_hash.tap do |hash|
+      user.feature_groups.each do |fg|
+        hash.merge!(fg.metadata_override) if fg.metadata_override
+      end
+      hash[:needs_agreement] = true if user.needs_agreement?
     end
   end
 
@@ -32,5 +35,9 @@ class Metadata < ActiveRecord::Base
 
   def self.allow_tos_checked?
     Metadata.find_by_mkey('allow_tos_checked').try(:mvalue) == 'true'
+  end
+
+  def self.new_card_design?
+    Metadata.find_by_mkey('new_card_design').try(:mvalue) == 'true'
   end
 end

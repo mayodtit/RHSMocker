@@ -55,14 +55,12 @@ describe Card do
     let!(:unsaved) { create(:card, :user => user) }
     let!(:saved) { create(:card, :saved, :user => user) }
     let!(:dismissed) { create(:card, :dismissed, :user => user) }
-    let!(:disease1) { create(:card, resource: (create :content, content_type: 'disease')) }
-    let!(:disease2) { create(:card, resource: (create :content, content_type: 'Disease')) }
 
     describe '::inbox' do
       it 'returns unsaved cards' do
         results = described_class.inbox
         results.should =~ [unsaved]
-        results.should_not include(saved, dismissed, disease1, disease2)
+        results.should_not include(saved, dismissed)
       end
     end
 

@@ -1,2 +1,8 @@
-.card{data: {id: card.try(:id)}}
-  = render :partial => "api/v1/cards/#{resource.partial_name}", locals: {card: card, resource: resource, current_user: current_user}
+- if Metadata.new_card_design?
+  .new
+    .card{data: {id: card.try(:id)}}
+      = render :partial => "api/v1/cards/#{resource.partial_name}", locals: {card: card, resource: resource, current_user: current_user}
+- else
+  .old
+    .card{data: {id: card.try(:id)}}
+      = render :partial => "api/v1/cards/#{resource.partial_name}", locals: {card: card, resource: resource, current_user: current_user}

@@ -15,7 +15,7 @@ class Card < ActiveRecord::Base
   after_create :create_user_reading, :if => :content_card?
 
   def self.inbox
-    where(:state => :unsaved).by_priority.reject {|c| c.resource.content_type.downcase == 'disease' if c.content_card? }
+    where(:state => :unsaved).by_priority
   end
 
   def self.timeline
