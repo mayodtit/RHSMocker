@@ -1,4 +1,5 @@
-.question
-  .content_subtitle Are you allergic to anything?
-  = link_to image_tag('allergy_icon.png', class: [:allergies, :left], data: {card_id: card.try(:id)}), '#'
-  = link_to image_tag('allergy_none_icon.png', class: 'no-allergies left', data: {allergy_id: Allergy.none.try(:id), card_id: card.try(:id)}), '#'
+.old
+  .question
+    .content_subtitle Are you allergic to anything?
+    = link_to image_tag('allergy_icon.png', class: [:allergies, :left], data: {card_id: card.try(:id)}), '#'
+    = link_to image_tag('allergy_none_icon.png', class: 'no-allergies left', data: {allergy_id: Allergy.none.try(:id), card_id: card.try(:id)}), '#'
