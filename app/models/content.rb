@@ -11,6 +11,8 @@ class Content < ActiveRecord::Base
   has_many :referees, through: :content_references
   has_many :factor_contents
   has_many :factors, through: :factor_contents
+  has_many :program_resources, as: :resource
+  has_many :programs, through: :program_resources
   belongs_to :condition
   serialize :card_actions, Array
   symbolize :card_template, in: %i(full_body abstract), allow_nil: true
