@@ -10,7 +10,7 @@ class Consult < ActiveRecord::Base
 
   attr_accessible :initiator, :initiator_id, :subject, :subject_id, :symptom,
                   :symptom_id, :state, :title, :description, :image,
-                  :messages_attributes
+                  :messages_attributes, :master
 
   # Interestingly enough, Rails uses the attr_accessible list in order to build
   # the params hash for the resource key when one is not specified.  As a result
@@ -22,6 +22,8 @@ class Consult < ActiveRecord::Base
 
   validates :initiator, :subject, :state, :title, presence: true
   validates :symptom, presence: true, if: lambda{|c| c.symptom_id.present? }
+  validates :master, inclusion: {in: [true, false]}
+  validates :master, uniqueness: {scope: :initiator_id}, if: :master?
 
   before_validation :strip_attributes
   after_create :create_task
