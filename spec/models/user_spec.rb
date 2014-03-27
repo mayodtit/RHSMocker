@@ -44,6 +44,34 @@ describe User do
     end
   end
 
+  describe '#credit_cards' do
+    context 'user does not have a stripe account' do
+      it 'should return an empty array' do
+        build(:user).credit_cards.should eq([])
+      end
+    end
+
+    context 'user has a stripe account' do
+      context 'and has no credit cards on file' do
+        xit 'should return an empty array' do
+
+        end
+      end
+
+      context 'and has one credit card on file' do
+        xit 'should return the credit card on file' do
+
+        end
+      end
+
+      context 'and has more than one credit card on file' do
+        xit 'should return the default credit card' do
+
+        end
+      end
+    end
+  end
+
   describe '#full_name' do
     let(:user) { build(:user) }
 

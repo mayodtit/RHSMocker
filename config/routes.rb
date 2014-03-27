@@ -95,7 +95,7 @@ RHSMocker::Application.routes.draw do
           post :invite, on: :member
         end
         resources :blood_pressures, only: [:index, :create, :destroy]
-        resources :credit_cards, :only => :create
+        resources :credit_cards, only: [:index, :create]
         resources :credits, :only => [:index, :show, :create] do
           get 'available', :on => :collection
         end

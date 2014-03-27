@@ -13,6 +13,13 @@ resource 'CreditCards' do
   let(:auth_token) { user.auth_token }
   let(:stripe_customer) { double('stripe_customer', :id => 'stripe_id') }
 
+  get '/api/v1/users/:user_id/credit_cards' do
+    example_request "[GET] List a user's credit cards" do
+      explanation "Returns the last four digits of each of the user's credit cards.  Right now the array will always contain one card.  If the user has more than one card on file with Stripe, return the default one"
+      status.should == 200
+    end
+  end
+
   post '/api/v1/users/:user_id/credit_cards' do
     before(:each) do
       Stripe::Customer.stub(:create => stripe_customer, :retrieve => stripe_customer)

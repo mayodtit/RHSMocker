@@ -170,6 +170,25 @@ class User < ActiveRecord::Base
   end
 
   #############################################################################
+  # Billing
+  #############################################################################
+  def credit_cards
+    return [] if stripe_customer_id.nil?
+
+    customer = Stripe::Customer.retrieve(stripe_customer_id)
+    cards = customer.cards.data
+    if cards.empty?
+      []
+    else
+      if cards.length == 1
+        [cards.first.last4.to_i]
+      else
+        [customer.cards.retrieve(customer.default_card).last4.to_i]
+      end
+    end
+  end
+
+  #############################################################################
   # Rather than using ActiveRecord associations, these like/dislike actions
   # and fetchers are broken out into their own methods in case we decide to
   # move to a different relationship store (such as a graph DB)
