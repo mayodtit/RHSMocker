@@ -56,8 +56,8 @@ task :production do
   role :delayed,  'longhorn.getbetter.com'
 end
 
-desc "Deploy target qa @ FireHost (buckeye)"
-task :qa do
+desc "Deploy target qaold @ FireHost (buckeye)"
+task :qaold do
   set :port, 22
   set :branch,    'qa'
   set :rails_env, 'qa'
@@ -69,8 +69,8 @@ task :qa do
   role :delayed,  'buckeye.getbetter.com'
 end
 
-desc "Deploy target qa2"
-task :qa2 do
+desc "Deploy target qa (goldenbear @ EC2)"
+task :qa do
   set :port, 9722
   set :branch,    'qa'
   set :rails_env, 'qa'
