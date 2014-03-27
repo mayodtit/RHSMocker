@@ -1,6 +1,16 @@
-.old
-  .content_card.question.birthday{data: {card_id: card.try(:id), user_id: card.try(:user_id)}}
-    .content_header_card.clear
-      .content_title_card.clear= question.title.html_safe
-      .content_text_card.center
-        = link_to image_tag('cake.png', class: [:birthdate]), '#'
+- if Metadata.new_card_design?
+  .new
+    .card.question.birthday{data: {card_id: card.try(:id), user_id: card.try(:user_id)}}
+      .header
+        What is your birthdate?
+        = image_tag('b_Small.png', class: %w(logo better-logo))
+      .body
+      .footer
+      = image_tag('ArrowLight.png', class: 'open-arrow')
+-else
+  .old
+    .content_card.question.birthday{data: {card_id: card.try(:id), user_id: card.try(:user_id)}}
+      .content_header_card.clear
+        .content_title_card.clear= question.title.html_safe
+        .content_text_card.center
+          = link_to image_tag('cake.png', class: [:birthdate]), '#'
