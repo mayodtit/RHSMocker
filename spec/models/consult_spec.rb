@@ -7,6 +7,14 @@ describe Consult do
   it_validates 'presence of', :state
   it_validates 'presence of', :title
   it_validates 'foreign key of', :symptom
+  it_validates 'inclusion of', :master
+  it 'validates uniqueness of active per initiator' do
+    current_consult = create(:consult, master: true)
+    new_consult = build_stubbed(:consult, initiator: current_consult.initiator,
+                                          master: true)
+    expect(new_consult).to_not be_valid
+    expect(new_consult.errors[:master]).to include("has already been taken")
+  end
 
   describe '#create_task' do
     let(:consult) { build_stubbed(:consult) }

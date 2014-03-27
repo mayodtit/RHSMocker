@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140327183933) do
+ActiveRecord::Schema.define(:version => 20140327213338) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -117,14 +117,15 @@ ActiveRecord::Schema.define(:version => 20140327183933) do
 
   create_table "consults", :force => true do |t|
     t.string   "state"
-    t.datetime "created_at",                  :null => false
-    t.datetime "updated_at",                  :null => false
-    t.integer  "subject_id",   :default => 0, :null => false
-    t.integer  "initiator_id", :default => 0, :null => false
+    t.datetime "created_at",                      :null => false
+    t.datetime "updated_at",                      :null => false
+    t.integer  "subject_id",   :default => 0,     :null => false
+    t.integer  "initiator_id", :default => 0,     :null => false
     t.string   "title"
     t.string   "description"
     t.string   "image"
     t.integer  "symptom_id"
+    t.boolean  "master",       :default => false, :null => false
   end
 
   create_table "content_mayo_vocabularies", :force => true do |t|

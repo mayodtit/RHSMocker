@@ -31,6 +31,28 @@ describe Api::V1::ConsultsController do
     end
   end
 
+  describe 'GET master' do
+    def do_request
+      get :master
+    end
+
+    before do
+      user.stub(master_consult: consult)
+    end
+
+    it_behaves_like 'action requiring authentication and authorization'
+
+    context 'authenticated and authorized', user: :authenticate_and_authorize! do
+      it_behaves_like 'success'
+
+      it 'returns the consult' do
+        do_request
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:consult].to_json).to eq(consult.serializer.as_json.to_json)
+      end
+    end
+  end
+
   describe 'GET show' do
     def do_request
       get :show
