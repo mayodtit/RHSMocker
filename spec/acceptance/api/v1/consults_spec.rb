@@ -6,6 +6,7 @@ resource "Consults" do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:member) }
+  let(:user_id) { user.id }
   let(:auth_token) { user.auth_token }
 
   parameter :auth_token, "Performing user's auth_token"
@@ -16,11 +17,11 @@ resource "Consults" do
   end
 
   describe 'existing record' do
-    let!(:consult) { create(:consult, :with_messages, initiator: user) }
+    let!(:consult) { create(:consult, :master, :with_messages, initiator: user) }
     let(:id) { consult.id }
 
     get '/api/v1/consults' do
-      example_request "[GET] Get all consults for a given user" do
+      example_request "[DEPRECATED] [GET] Get all consults for a given user" do
         explanation "Returns an array of consults"
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
@@ -28,8 +29,17 @@ resource "Consults" do
       end
     end
 
+    get '/api/v1/users/:user_id/consult' do
+      example_request "[GET] Get master consult for a given user" do
+        explanation 'Returns the master consult'
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:consult].to_json).to eq(consult.serializer.as_json.to_json)
+      end
+    end
+
     get '/api/v1/consults/:id' do
-      example_request "[GET] Get a consult for a given user" do
+      example_request "[DEPRECATED] [GET] Get a consult for a given user" do
         explanation "Returns the given consult"
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)

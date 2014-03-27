@@ -10,6 +10,7 @@ class Member < User
   has_many :user_readings, :foreign_key => :user_id
   has_many :contents, :through => :user_readings
   has_many :initiated_consults, class_name: Consult, foreign_key: :initiator_id
+  has_one :master_consult, class_name: 'Consult', foreign_key: :initiator_id, conditions: {master: true}
   has_many :messages, :foreign_key => :user_id
   has_many :message_statuses, :foreign_key => :user_id
   has_many :phone_calls, :foreign_key => :user_id

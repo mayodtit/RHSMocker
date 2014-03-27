@@ -128,6 +128,7 @@ RHSMocker::Application.routes.draw do
         end
         resources :weights, :only => [:index, :create, :destroy]
 
+        get :consult, on: :member, to: 'consults#master'
         resources :consults, :only => [:index, :show, :create] do
           resources :messages, only: [:index, :create] do
             put :read, :on => :collection
