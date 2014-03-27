@@ -4,5 +4,10 @@
     %title Better.
     = stylesheet_link_tag :application, media: :all
     = javascript_include_tag :application
-  %body
+    :javascript
+      var isLoaded = false;
+      function hasLoaded() {
+        isLoaded = true;
+      }
+  %body{onload: 'hasLoaded()'}
     = yield
