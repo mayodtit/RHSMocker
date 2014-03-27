@@ -314,4 +314,35 @@ resource "PhoneCalls" do
       end
     end
   end
+
+  describe 'merge phone call with member' do
+    let!(:user) { pha }
+    let!(:member) { create :member }
+    let!(:phone_call) { create(:phone_call, state: :claimed, to_role: pha_role, user: nil, message: nil) }
+    let!(:unresolved_phone_call) { create(:phone_call, state: :unresolved, to_role: pha_role, user: member) }
+
+    parameter :auth_token, 'Performing hcp\'s auth_token'
+    parameter :id, 'Phone call id'
+    parameter :caller_id, 'Account to merge phone call into'
+
+    required_parameters :auth_token, :id, :caller_id
+
+    let(:auth_token) { user.auth_token }
+    let(:id) { phone_call.id }
+    let(:caller_id) { member.id }
+
+    let(:raw_post) { params.to_json }
+
+    put '/api/v1/phone_calls/:id/merge' do
+      example_request '[PUT] Merge a phone call with a member' do
+        explanation 'Merges a phone number with a member by merging an unresolved phone call or adding the member to the phone call'
+        expect(status).to eq(200)
+        unresolved_phone_call.reload
+        unresolved_phone_call.should be_merged
+        unresolved_phone_call.merged_into_phone_call_id.should == phone_call.id
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:phone_call].to_json).to eq(phone_call.reload.serializer.as_json.to_json)
+      end
+    end
+  end
 end

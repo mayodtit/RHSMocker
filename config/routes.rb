@@ -41,6 +41,7 @@ RHSMocker::Application.routes.draw do
         post 'status/destination', on: :member, to: 'phone_calls#status_destination'
         post 'status', on: :collection
         put 'hang_up', on: :member
+        put 'merge', on: :member
       end
       resources :dashboard, only: :index do
         get :onboarding_members, on: :collection
