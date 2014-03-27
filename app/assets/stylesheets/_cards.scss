@@ -5,6 +5,7 @@
 font-family:"Roboto Light";
 
 .content-card {
+  position: relative;
   width: 297px;
   overflow: hidden;
   .header {
@@ -17,8 +18,11 @@ font-family:"Roboto Light";
       }
     }
   }
-  .title {
+  .body {
     margin: 10px 20px 0px;
+    padding-right: 15px;
+  }
+  .title {
     font-family:"Roboto Light";
     font-size: 18pt;
     color: $mayo-blue;
@@ -26,14 +30,18 @@ font-family:"Roboto Light";
       font-size: 14pt;
     }
   }
-  .body {
-    margin: 0px 20px 30px;
-  }
   .abstract {
-    margin: 10px 20px 0px;
+    margin: 10px 0px 0px;
   }
   .footer {
     padding: 25px 0px 0px;
+  }
+  .open-arrow {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10px;
   }
 }
 }
