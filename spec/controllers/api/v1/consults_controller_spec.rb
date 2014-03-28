@@ -31,9 +31,9 @@ describe Api::V1::ConsultsController do
     end
   end
 
-  describe 'GET master' do
+  describe 'GET current' do
     def do_request
-      get :master
+      get :current
     end
 
     before do

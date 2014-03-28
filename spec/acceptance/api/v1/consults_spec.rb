@@ -29,8 +29,8 @@ resource "Consults" do
       end
     end
 
-    get '/api/v1/users/:user_id/consult' do
-      example_request "[GET] Get master consult for a given user" do
+    get '/api/v1/consults/current' do
+      example_request "[GET] Get master consult for the current user" do
         explanation 'Returns the master consult'
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)

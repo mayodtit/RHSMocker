@@ -45,9 +45,9 @@ describe 'Consults' do
       end
     end
 
-    describe 'GET /api/v1/users/:user_id/consult' do
+    describe 'GET /api/v1/consults/current' do
       def do_request
-        get "/api/v1/users/#{user.id}/consult", auth_token: user.auth_token
+        get "/api/v1/consults/current", auth_token: user.auth_token
       end
 
       let!(:master) { create(:consult, :master, initiator: user) }

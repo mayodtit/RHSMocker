@@ -16,7 +16,11 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   private
 
   def load_consult!
-    @consult = Consult.find(params[:consult_id])
+    @consult = if params[:consult_id] == 'current'
+                 @user.master_consult
+               else
+                 Consult.find(params[:consult_id])
+               end
     authorize! :manage, @consult
   end
 

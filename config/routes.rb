@@ -23,8 +23,9 @@ RHSMocker::Application.routes.draw do
       resources :diets, :only => :index
       resources :cards, :only => [:show, :update]
       resources :conditions, :only => :index
-      resources :consults, :only => [:index, :show, :create] do
-        resources :messages, only: [:index, :create] do
+      resources :consults, only: %i(index show create) do
+        get :current, on: :collection
+        resources :messages, only: %i(index create) do
           put :read, on: :collection
         end
       end
@@ -129,10 +130,10 @@ RHSMocker::Application.routes.draw do
         end
         resources :weights, :only => [:index, :create, :destroy]
 
-        get :consult, on: :member, to: 'consults#master'
-        resources :consults, :only => [:index, :show, :create] do
-          resources :messages, only: [:index, :create] do
-            put :read, :on => :collection
+        resources :consults, only: %i(index show create) do
+          get :current, on: :collection
+          resources :messages, only: %i(index create) do
+            put :read, on: :collection
           end
         end
       end
