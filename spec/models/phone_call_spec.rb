@@ -835,7 +835,8 @@ describe PhoneCall do
           merged_into_phone_call_id: 3,
           state: 'unresolved',
           resolved_at: Time.now,
-          identifier_token: '123'
+          identifier_token: '123',
+          twilio_conference_name: '12047'
         }
       end
 
