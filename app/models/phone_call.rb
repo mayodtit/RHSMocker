@@ -348,7 +348,11 @@ class PhoneCall < ActiveRecord::Base
     end
 
     after_transition [:claimed, :disconnected] => :dialing do |phone_call|
-      phone_call.dial_destination
+      if phone_call.destination_connected?
+        phone_call.dial_origin
+      else
+        phone_call.dial_destination
+      end
     end
 
     before_transition any => :ended do |phone_call|
