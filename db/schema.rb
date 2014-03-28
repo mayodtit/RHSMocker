@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140327213338) do
+ActiveRecord::Schema.define(:version => 20140328180444) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -170,14 +170,6 @@ ActiveRecord::Schema.define(:version => 20140327213338) do
   end
 
   add_index "contents", ["document_id"], :name => "index_contents_on_document_id"
-
-  create_table "credits", :force => true do |t|
-    t.integer  "offering_id"
-    t.integer  "user_id"
-    t.datetime "created_at",                     :null => false
-    t.datetime "updated_at",                     :null => false
-    t.boolean  "unlimited",   :default => false, :null => false
-  end
 
   create_table "custom_cards", :force => true do |t|
     t.integer  "content_id"
