@@ -1,7 +1,7 @@
 class Api::V1::ConsultsController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_consults!, only: :index
-  before_filter :load_master!, only: :master
+  before_filter :load_current!, only: :current
   before_filter :load_consult!, only: :show
   after_filter :set_user_phone_number!, only: :create
 
@@ -9,7 +9,7 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
     index_resource @consults.serializer
   end
 
-  def master
+  def current
     show_resource @consult.serializer
   end
 
@@ -28,7 +28,7 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
     @consults = @user.initiated_consults.where(state: params[:state] || :open)
   end
 
-  def load_master!
+  def load_current!
     @consult = @user.master_consult
     authorize! :manage, @consult
   end
