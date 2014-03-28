@@ -216,12 +216,4 @@ Treatment::Surgery.find_or_create_by_name(:name=>"Cholecystectomy", :snomed_name
 Treatment::Surgery.find_or_create_by_name(:name=>"Appendectomy",:snomed_name=>"Appendectomy",:snomed_code=>"80146002")
 Treatment::Medicine.find_or_create_by_name(:name => "Captopril", :snomed_name => "Captopril", :snomed_code => 'DEADBEEF')
 
-o = Offering.find_or_create_by_name(name: 'Consult')
-p = Plan.find_or_create_by_name(name: 'Silver', monthly: true)
-PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: 2, unlimited: false)
-p = Plan.find_or_create_by_name(name: 'Gold', monthly: true)
-PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: 3, unlimited: false)
-p = Plan.find_or_create_by_name(name: 'Platinum', monthly: true)
-PlanOffering.find_or_create_by_plan_id_and_offering_id(plan_id: p.id, offering_id: o.id, amount: nil, unlimited: true)
-
 Agreement.find_or_create_by_active!(active: true, text: 'Seeded test agreement')

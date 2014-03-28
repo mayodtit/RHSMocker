@@ -1,6 +1,4 @@
 class Plan < ActiveRecord::Base
-  has_many :plan_offerings
-  has_many :offerings, :through => :plan_offerings
   has_many :subscriptions
   has_many :users, :through => :subscriptions
 

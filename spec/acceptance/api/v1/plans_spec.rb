@@ -6,7 +6,7 @@ resource 'Plans' do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:member) }
-  let!(:plan) { create(:plan, :with_offering) }
+  let!(:plan) { create(:plan) }
   let(:auth_token) { user.auth_token }
 
   parameter :auth_token, "Performing user's auth_token"
