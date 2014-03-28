@@ -17,8 +17,6 @@ class Member < User
 
   has_many :subscriptions, :foreign_key => :user_id
   has_many :plans, :through => :subscriptions
-  has_many :credits, :foreign_key => :user_id
-  has_many :offerings, :through => :credits
 
   has_many :invitations
 

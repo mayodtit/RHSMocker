@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140327213338) do
+ActiveRecord::Schema.define(:version => 20140328184519) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -170,14 +170,6 @@ ActiveRecord::Schema.define(:version => 20140327213338) do
   end
 
   add_index "contents", ["document_id"], :name => "index_contents_on_document_id"
-
-  create_table "credits", :force => true do |t|
-    t.integer  "offering_id"
-    t.integer  "user_id"
-    t.datetime "created_at",                     :null => false
-    t.datetime "updated_at",                     :null => false
-    t.boolean  "unlimited",   :default => false, :null => false
-  end
 
   create_table "custom_cards", :force => true do |t|
     t.integer  "content_id"
@@ -345,12 +337,6 @@ ActiveRecord::Schema.define(:version => 20140327213338) do
     t.datetime "disabled_at"
   end
 
-  create_table "offerings", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
   create_table "permissions", :force => true do |t|
     t.integer  "subject_id"
     t.datetime "created_at",   :null => false
@@ -406,23 +392,12 @@ ActiveRecord::Schema.define(:version => 20140327213338) do
   add_index "phone_calls", ["state"], :name => "index_phone_calls_on_state"
   add_index "phone_calls", ["to_role_id"], :name => "index_phone_calls_on_to_role_id"
 
-  create_table "plan_offerings", :force => true do |t|
-    t.integer  "plan_id"
-    t.integer  "offering_id"
-    t.integer  "amount"
-    t.boolean  "unlimited"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
-  end
-
-  add_index "plan_offerings", ["offering_id"], :name => "index_plan_offerings_on_offering_id"
-  add_index "plan_offerings", ["plan_id"], :name => "index_plan_offerings_on_plan_id"
-
   create_table "plans", :force => true do |t|
     t.string   "name"
-    t.boolean  "monthly"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.string   "description"
+    t.string   "price"
   end
 
   create_table "program_resources", :force => true do |t|
