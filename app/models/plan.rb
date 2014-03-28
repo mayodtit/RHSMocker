@@ -2,7 +2,7 @@ class Plan < ActiveRecord::Base
   has_many :subscriptions
   has_many :users, through: :subscriptions
 
-  attr_accessible :name
+  attr_accessible :name, :description, :price
 
-  validates :name, presence: true
+  validates :name, :description, :price, presence: true
 end

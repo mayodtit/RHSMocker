@@ -1,3 +1,3 @@
 class PlanSerializer < ActiveModel::Serializer
-  attributes :id, :name, :created_at, :updated_at
+  attributes :id, :name, :description, :price, :created_at, :updated_at
 end
