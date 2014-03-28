@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140328180938) do
+ActiveRecord::Schema.define(:version => 20140328181205) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -391,18 +391,6 @@ ActiveRecord::Schema.define(:version => 20140328180938) do
   add_index "phone_calls", ["state", "origin_phone_number"], :name => "index_phone_calls_on_state_and_origin_phone_number"
   add_index "phone_calls", ["state"], :name => "index_phone_calls_on_state"
   add_index "phone_calls", ["to_role_id"], :name => "index_phone_calls_on_to_role_id"
-
-  create_table "plan_offerings", :force => true do |t|
-    t.integer  "plan_id"
-    t.integer  "offering_id"
-    t.integer  "amount"
-    t.boolean  "unlimited"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
-  end
-
-  add_index "plan_offerings", ["offering_id"], :name => "index_plan_offerings_on_offering_id"
-  add_index "plan_offerings", ["plan_id"], :name => "index_plan_offerings_on_plan_id"
 
   create_table "plans", :force => true do |t|
     t.string   "name"
