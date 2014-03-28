@@ -157,12 +157,35 @@ class User < ActiveRecord::Base
     where(type: 'Member')
   end
 
+  def set_premium_flag
+    self.update_attribute(:is_premium, true)
+  end
+
   def set_default_hcp(association_id)
     self.update_attribute(:default_hcp_association_id, association_id)
   end
 
   def remove_default_hcp
     self.update_attribute(:default_hcp_association_id, nil)
+  end
+
+  #############################################################################
+  # Billing
+  #############################################################################
+  def credit_cards
+    return [] if stripe_customer_id.nil?
+
+    customer = Stripe::Customer.retrieve(stripe_customer_id)
+    cards = customer.cards.data
+    if cards.empty?
+      []
+    else
+      if cards.length == 1
+        [cards.first.last4.to_i]
+      else
+        [customer.cards.retrieve(customer.default_card).last4.to_i]
+      end
+    end
   end
 
   #############################################################################

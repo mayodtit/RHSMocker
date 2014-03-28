@@ -1,5 +1,4 @@
 class Api::V1::PlansController < Api::V1::ABaseController
-  skip_before_filter :authentication_check
   before_filter :load_plans!
 
   def index

@@ -620,6 +620,113 @@ describe Api::V1::PhoneCallsController do
     end
   end
 
+  describe 'PUT merge' do
+    let(:phone_call) { build_stubbed :phone_call }
+    let(:member) { build_stubbed :user }
+
+    def do_request(caller_id = member.id)
+      put :merge, auth_token: user.auth_token, id: phone_call.id, caller_id: caller_id
+    end
+
+    it_behaves_like 'action requiring authentication and authorization'
+
+    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+      it_behaves_like 'phone call 404'
+
+      context 'phone call exists' do
+        before do
+          PhoneCall.stub(:find) { phone_call }
+        end
+
+        context 'user id is present' do
+          context 'unresolved call does not exist' do
+            before do
+              PhoneCall.stub(:where).with(state: :unresolved, user_id: member.id.to_s) do
+                o = Object.new
+                o.stub(:last) { nil }
+                o
+              end
+            end
+
+            it 'updates resource with the current user' do
+              phone_call.should_receive(:update_attributes).with(user_id: member.id.to_s) { true }
+              do_request
+              body = JSON.parse(response.body, symbolize_names: true)
+              body[:phone_call].to_json.should == phone_call.serializer.as_json.to_json
+            end
+          end
+
+          context 'unresolved call exists' do
+            let(:unresolved_phone_call) { build_stubbed :phone_call }
+
+            before do
+              PhoneCall.stub(:where).with(state: :unresolved, user_id: member.id.to_s) do
+                o = Object.new
+                o.stub(:last) { unresolved_phone_call }
+                o
+              end
+            end
+
+            context 'unresolved call is not within 10m of current call' do
+              before do
+                unresolved_phone_call.stub(:created_at) { phone_call.created_at - 11.minutes }
+              end
+
+              it 'updates resource with the current user' do
+                phone_call.should_receive(:update_attributes).with(user_id: member.id.to_s) { true }
+                do_request
+                body = JSON.parse(response.body, symbolize_names: true)
+                body[:phone_call].to_json.should == phone_call.serializer.as_json.to_json
+              end
+            end
+
+            context 'unresolved call is within 10m of current call' do
+              before do
+                unresolved_phone_call.stub(:update_attributes)
+                unresolved_phone_call.stub(:created_at) { phone_call.created_at - 10.minutes }
+                phone_call.stub(:reload) { phone_call }
+              end
+
+              it 'updates the unresolved call' do
+                unresolved_phone_call.should_receive(:update_attributes).with state_event: :merge, merged_into_phone_call: phone_call
+                do_request
+              end
+
+              context 'unresolved call update is valid' do
+                before do
+                  unresolved_phone_call.stub(:valid?) { true }
+                end
+
+                it 'returns the phone call' do
+                  do_request
+                  body = JSON.parse(response.body, symbolize_names: true)
+                  body[:phone_call].to_json.should == phone_call.serializer.as_json.to_json
+                end
+              end
+
+              context 'unresolved call update is not valid' do
+                before do
+                  unresolved_phone_call.stub(:valid?) { false }
+                  unresolved_phone_call.stub_chain(:full_messages, :to_sentence) { 'test' }
+                end
+
+                it_behaves_like 'failure'
+              end
+            end
+          end
+        end
+
+        context 'user id is not present' do
+          def do_request
+            put :merge, auth_token: user.auth_token
+          end
+
+          it_behaves_like 'failure'
+        end
+      end
+    end
+  end
+
   describe '#disconnected_call_status?' do
     let(:params) { {} }
 

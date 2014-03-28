@@ -45,6 +45,21 @@ describe 'Consults' do
       end
     end
 
+    describe 'GET /api/v1/consults/current' do
+      def do_request
+        get "/api/v1/consults/current", auth_token: user.auth_token
+      end
+
+      let!(:master) { create(:consult, :master, initiator: user) }
+
+      it 'shows the master consult' do
+        do_request
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:consult].to_json).to eq(master.serializer.as_json.to_json)
+      end
+    end
+
     describe 'GET /api/v1/consults/:id' do
       def do_request
         get "/api/v1/consults/#{consult.id}", auth_token: user.auth_token

@@ -835,7 +835,8 @@ describe PhoneCall do
           merged_into_phone_call_id: 3,
           state: 'unresolved',
           resolved_at: Time.now,
-          identifier_token: '123'
+          identifier_token: '123',
+          twilio_conference_name: '12047'
         }
       end
 
@@ -1264,6 +1265,7 @@ describe PhoneCall do
       it 'dials the destination' do
         phone_call.dialer = nurse
         phone_call.should_receive(:dial_destination)
+        phone_call.should_not_receive(:dial_origin)
         phone_call.dial!
       end
 
@@ -1275,6 +1277,19 @@ describe PhoneCall do
         nurse.work_phone_number = nil
         phone_call.dialer
         expect { phone_call.dial! }.to raise_error Exception
+      end
+
+      context 'destination is connected' do
+        before do
+          phone_call.stub(:destination_connected?) { true }
+        end
+
+        it 'dials the origin and not the destination' do
+          phone_call.dialer = nurse
+          phone_call.should_not_receive(:dial_destination)
+          phone_call.should_receive(:dial_origin)
+          phone_call.dial!
+        end
       end
     end
 

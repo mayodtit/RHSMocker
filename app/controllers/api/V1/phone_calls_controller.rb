@@ -1,8 +1,8 @@
 class Api::V1::PhoneCallsController < Api::V1::ABaseController
-  before_filter :load_user!, :only => [:index, :show, :update, :hang_up, :transfer]
+  before_filter :load_user!, :only => [:index, :show, :update, :hang_up, :transfer, :merge]
   before_filter :load_member!, :only => [:index]
   before_filter :load_phone_call!, :except => [:index, :connect, :status, :connect_nurse]
-  skip_before_filter :authentication_check, :except => [:index, :show, :update, :hang_up, :transfer]
+  skip_before_filter :authentication_check, :except => [:index, :show, :update, :hang_up, :transfer, :merge]
 
   layout false, except: [:index, :show, :update]
   # http_basic_authenticate_with name: "twilio", password: "secret", except: :index
@@ -120,6 +120,24 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
     authorize! :transfer, @phone_call
     @phone_call.transfer!
     show_resource @phone_call.serializer
+  end
+
+  def merge
+    authorize! :merge, @phone_call
+    user_id = params.require(:caller_id)
+    unresolved_phone_call = PhoneCall.where(state: :unresolved, user_id: user_id).last
+    if unresolved_phone_call && ((unresolved_phone_call.created_at - @phone_call.created_at) / 1.minute).to_i.abs <= 10
+      unresolved_phone_call.update_attributes state_event: :merge, merged_into_phone_call: @phone_call
+
+      unless unresolved_phone_call.valid?
+        render_failure({:reason => unresolved_phone_call.full_messages.to_sentence}, 422)
+        return
+      end
+
+      show_resource @phone_call.reload.serializer
+    else
+      update_resource @phone_call, user_id: user_id
+    end
   end
 
   private

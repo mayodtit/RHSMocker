@@ -1,6 +1,10 @@
 class Api::V1::CreditCardsController < Api::V1::ABaseController
   before_filter :load_user!
 
+  def index
+    render json: @user.credit_cards
+  end
+
   def create
     if @user.stripe_customer_id.nil?
       @customer = Stripe::Customer.create(:card => params[:stripeToken],

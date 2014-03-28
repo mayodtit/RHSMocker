@@ -23,8 +23,9 @@ RHSMocker::Application.routes.draw do
       resources :diets, :only => :index
       resources :cards, :only => [:show, :update]
       resources :conditions, :only => :index
-      resources :consults, :only => [:index, :show, :create] do
-        resources :messages, only: [:index, :create] do
+      resources :consults, only: %i(index show create) do
+        get :current, on: :collection
+        resources :messages, only: %i(index create) do
           put :read, on: :collection
         end
       end
@@ -41,6 +42,7 @@ RHSMocker::Application.routes.draw do
         post 'status/destination', on: :member, to: 'phone_calls#status_destination'
         post 'status', on: :collection
         put 'hang_up', on: :member
+        put 'merge', on: :member
       end
       resources :dashboard, only: :index do
         get :onboarding_members, on: :collection
@@ -94,7 +96,7 @@ RHSMocker::Application.routes.draw do
           post :invite, on: :member
         end
         resources :blood_pressures, only: [:index, :create, :destroy]
-        resources :credit_cards, :only => :create
+        resources :credit_cards, only: [:index, :create]
         resources :credits, :only => [:index, :show, :create] do
           get 'available', :on => :collection
         end
@@ -128,9 +130,10 @@ RHSMocker::Application.routes.draw do
         end
         resources :weights, :only => [:index, :create, :destroy]
 
-        resources :consults, :only => [:index, :show, :create] do
-          resources :messages, only: [:index, :create] do
-            put :read, :on => :collection
+        resources :consults, only: %i(index show create) do
+          get :current, on: :collection
+          resources :messages, only: %i(index create) do
+            put :read, on: :collection
           end
         end
       end

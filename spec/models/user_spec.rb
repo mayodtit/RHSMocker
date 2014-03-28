@@ -23,6 +23,13 @@ describe User do
     expect(user).to_not be_valid
   end
 
+  describe '#set_premium_flag' do
+    it 'sets the is_premium boolean to true' do
+      u = create(:user)
+      expect{u.set_premium_flag}.to change{u.is_premium}.from(false).to(true)
+    end
+  end
+
   describe '#set_default_hcp' do
     it 'sets default health care provider association' do
       u = create(:user)
@@ -34,6 +41,34 @@ describe User do
     it 'removes default health care provier association' do
       u = create(:user, default_hcp_association_id: 14)
       expect{u.remove_default_hcp}.to change{u.default_hcp_association_id}.from(14).to(nil)
+    end
+  end
+
+  describe '#credit_cards' do
+    context 'user does not have a stripe account' do
+      it 'should return an empty array' do
+        build(:user).credit_cards.should eq([])
+      end
+    end
+
+    context 'user has a stripe account' do
+      context 'and has no credit cards on file' do
+        xit 'should return an empty array' do
+
+        end
+      end
+
+      context 'and has one credit card on file' do
+        xit 'should return the credit card on file' do
+
+        end
+      end
+
+      context 'and has more than one credit card on file' do
+        xit 'should return the default credit card' do
+
+        end
+      end
     end
   end
 

@@ -10,14 +10,13 @@ class Member < User
   has_many :user_readings, :foreign_key => :user_id
   has_many :contents, :through => :user_readings
   has_many :initiated_consults, class_name: Consult, foreign_key: :initiator_id
+  has_one :master_consult, class_name: 'Consult', foreign_key: :initiator_id, conditions: {master: true}
   has_many :messages, :foreign_key => :user_id
   has_many :message_statuses, :foreign_key => :user_id
   has_many :phone_calls, :foreign_key => :user_id
 
   has_many :subscriptions, :foreign_key => :user_id
   has_many :plans, :through => :subscriptions
-  has_many :credits, :foreign_key => :user_id
-  has_many :offerings, :through => :credits
 
   has_many :invitations
 
@@ -34,7 +33,7 @@ class Member < User
   attr_accessible :install_id, :password, :password_confirmation,
                   :holds_phone_in, :invitation_token, :units,
                   :waitlist_entry, :user_agreements_attributes, :pha, :pha_id,
-                  :apns_token
+                  :apns_token, :is_premium
 
   validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}

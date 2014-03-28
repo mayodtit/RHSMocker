@@ -12,24 +12,45 @@ describe Api::V1::MessagesController do
   end
 
   describe 'GET index' do
-    def do_request
-      get :index
-    end
-
     before do
-      consult.stub(messages: [message],
-                   users: [message.user])
+      consult.stub(messages: [message], users: [message.user])
     end
 
+    context 'current consult for user' do
+      def do_request
+        get :index, consult_id: 'current'
+      end
 
-    it_behaves_like 'action requiring authentication and authorization'
-    context 'authenticated and authorized', user: :authenticate_and_authorize! do
-      it_behaves_like 'success'
+      before do
+        user.stub(master_consult: consult)
+      end
 
-      it 'returns an array of messages' do
-        do_request
-        body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:messages].to_json).to eq([message].serializer.as_json.to_json)
+      it_behaves_like 'action requiring authentication and authorization'
+      context 'authenticated and authorized', user: :authenticate_and_authorize! do
+        it_behaves_like 'success'
+
+        it 'returns an array of messages' do
+          do_request
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:messages].to_json).to eq([message].serializer.as_json.to_json)
+        end
+      end
+    end
+
+    context 'with consult_id' do
+      def do_request
+        get :index
+      end
+
+      it_behaves_like 'action requiring authentication and authorization'
+      context 'authenticated and authorized', user: :authenticate_and_authorize! do
+        it_behaves_like 'success'
+
+        it 'returns an array of messages' do
+          do_request
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:messages].to_json).to eq([message].serializer.as_json.to_json)
+        end
       end
     end
   end

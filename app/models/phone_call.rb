@@ -212,7 +212,7 @@ class PhoneCall < ActiveRecord::Base
 
   def merge_attributes!(phone_call)
     attrs = phone_call.attributes.select do |attr, value|
-      !%w(id merged_into_phone_call_id state resolved_at identifier_token).include?(attr.to_s) && value.present? && PhoneCall.column_names.include?(attr.to_s)
+      !%w(id merged_into_phone_call_id state resolved_at identifier_token twilio_conference_name).include?(attr.to_s) && value.present? && PhoneCall.column_names.include?(attr.to_s)
     end
 
     assign_attributes attrs, without_protection: true
@@ -348,7 +348,11 @@ class PhoneCall < ActiveRecord::Base
     end
 
     after_transition [:claimed, :disconnected] => :dialing do |phone_call|
-      phone_call.dial_destination
+      if phone_call.destination_connected?
+        phone_call.dial_origin
+      else
+        phone_call.dial_destination
+      end
     end
 
     before_transition any => :ended do |phone_call|

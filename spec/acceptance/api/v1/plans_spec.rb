@@ -6,7 +6,7 @@ resource 'Plans' do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:member) }
-  let!(:plan) { create(:plan, :with_offering) }
+  let!(:plan) { create(:plan) }
   let(:auth_token) { user.auth_token }
 
   parameter :auth_token, "Performing user's auth_token"
@@ -15,9 +15,9 @@ resource 'Plans' do
   get '/api/v1/plans' do
     example_request '[GET] Retreive all available plans' do
       explanation 'Returns an array of addable plans'
-      status.should == 200
-      parsed_json = JSON.parse(response_body)
-      parsed_json.should_not be_empty
+      expect(status).to eq(200)
+      body = JSON.parse(response_body, symbolize_names: true)
+      expect(body[:plans].to_json).to eq([plan].serializer.as_json.to_json)
     end
   end
 end

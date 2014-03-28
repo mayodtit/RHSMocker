@@ -7,7 +7,8 @@ class UserSerializer < ActiveModel::Serializer
              :phone, :nickname, :city, :state, :work_phone_number,
              :avatar_url, :ethnic_group, :diet, :address,
              :full_name, :provider_taxonomy_code, :taxonomy_classification,
-             :email_read_only, :sharing_prohibited, :owner_id
+             :email_read_only, :sharing_prohibited, :owner_id,
+             :is_premium, :subscription_end_date
 
   def attributes
     super.tap do |attributes|

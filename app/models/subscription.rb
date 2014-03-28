@@ -6,15 +6,4 @@ class Subscription < ActiveRecord::Base
 
   validates :user, :plan, presence: true
   validates :plan_id, :uniqueness => {:scope => :user_id}
-
-  after_create :add_credits_to_user!
-
-  private
-
-  def add_credits_to_user!
-    plan.plan_offerings.each do |po|
-      po.add_credits!(user)
-    end
-    true
-  end
 end
