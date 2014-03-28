@@ -62,4 +62,6 @@ RHSMocker::Application.configure do
   config.after_initialize do
     Rails.application.routes.default_url_options[:host] = ENV['TWILIO_ENDPOINT_HOST'] || 'localhost:3000'
   end
+
+  config.colorize_logging = false
 end

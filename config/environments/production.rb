@@ -97,4 +97,6 @@ RHSMocker::Application.configure do
     Rails.application.routes.default_url_options[:protocol] = 'https'
     Rails.application.routes.default_url_options[:host] = 'api.getbetter.com'
   end
+
+  config.colorize_logging = false
 end
