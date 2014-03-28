@@ -7,13 +7,13 @@ class Api::V1::CreditCardsController < Api::V1::ABaseController
 
   def create
     if @user.stripe_customer_id.nil?
-      @customer = Stripe::Customer.create(:card => params[:stripeToken],
-                                          :email => @user.email,
-                                          :description => @user.email)
+      @customer = Stripe::Customer.create(card: params[:stripe_token],
+                                          email: @user.email,
+                                          description: @user.email)
       @user.update_attribute(:stripe_customer_id, @customer.id)
     else
       @customer = Stripe::Customer.retrieve(@user.stripe_customer_id)
-      @card = @customer.cards.create(:card => params[:stripeToken])
+      @card = @customer.cards.create(card: params[:stripe_token])
       @customer.default_card = @card.id
       @customer.save
     end
