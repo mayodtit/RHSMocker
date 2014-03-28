@@ -6,12 +6,16 @@ class PhoneCallSerializer < ActiveModel::Serializer
              :destination_twilio_sid, :origin_twilio_sid,
              :transferred_to_phone_call_id,  :consult_id, :cp_connected?,
              :member_connected?, :transferred?, :outbound?, :transferred_to_phone_call,
-             :transferred_from_phone_call
+             :transferred_from_phone_call, :claimer
 
   has_one :user
 
   def consult_id
     object.consult && object.consult.id
+  end
+
+  def claimer
+    MemberSerializer.new(object.claimer)
   end
 
   def transferred_to_phone_call
