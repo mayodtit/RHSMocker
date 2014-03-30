@@ -28,6 +28,7 @@ RHSMocker::Application.routes.draw do
         resources :messages, only: %i(index create) do
           put :read, on: :collection
         end
+        resources :phone_calls, only: :create
       end
       resources :custom_cards, only: [:index, :show, :create, :update]
       resources :custom_contents, only: [:index, :show, :create, :update]

@@ -21,6 +21,7 @@ class Message < ActiveRecord::Base
   validates :scheduled_phone_call, presence: true, if: lambda{|m| m.scheduled_phone_call_id}
   validates :phone_call_summary, presence: true, if: lambda{|m| m.phone_call_summary_id}
 
+  before_validation :set_user_from_association, on: :create
   after_create :publish
   after_create :notify_initiator
   after_create :create_task
@@ -42,5 +43,11 @@ class Message < ActiveRecord::Base
   def create_task
     return if scheduled_phone_call_id.present? || phone_call_id.present?
     MessageTask.create_if_only_opened_for_consult! consult, self
+  end
+
+  private
+
+  def set_user_from_association
+    self.user_id ||= phone_call.try(:user_id)
   end
 end
