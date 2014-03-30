@@ -8,7 +8,8 @@ class MemberSerializer < ActiveModel::Serializer
              :avatar_url, :ethnic_group, :diet, :address,
              :holds_phone_in, :install_id, :phone, :units, :client_data,
              :pusher_id, :full_name, :created_at, :email_read_only,
-             :sharing_prohibited, :owner_id, :is_premium, :subscription_end_date
+             :sharing_prohibited, :owner_id, :is_premium, :subscription_end_date,
+             :pha_id
 
   def attributes
     super.tap do |attributes|
