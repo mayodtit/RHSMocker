@@ -96,6 +96,34 @@ resource "PhoneCalls" do
     end
   end
 
+  describe 'create phone call' do
+    parameter :auth_token, "Member's auth_token"
+    parameter :origin_phone_number, "Caller's phone number"
+    parameter :destination_phone_number, "Callee's phone number"
+    parameter :to_role, "Destination role, one of ['nurse', 'pha']"
+    required_parameters :auth_token, :destination_phone_number
+
+    let!(:user) { create(:member) }
+    let!(:consult) { create(:consult, :master, initiator: user) }
+    let(:auth_token) { user.auth_token }
+    let(:consult_id) { consult.id }
+    let(:origin_phone_number) { '5551112222' }
+    let(:destination_phone_number) { '5553334444' }
+    let(:to_role) { 'pha' }
+    let(:raw_post) { params.to_json }
+    scope_parameters :phone_call, %i(origin_phone_number destination_phone_number to_role)
+
+    post '/api/v1/consults/:consult_id/phone_calls' do
+      example_request '[POST] Create a phone call' do
+        explanation 'Create a new phone call'
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        phone_call = PhoneCall.find(body[:phone_call][:id])
+        expect(body[:phone_call].to_json).to eq(phone_call.serializer.as_json.to_json)
+      end
+    end
+  end
+
   describe 'update phone call' do
     parameter :auth_token, 'Performing hcp\'s auth_token'
     parameter :id, 'Phone call id'

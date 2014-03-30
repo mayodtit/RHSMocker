@@ -1,10 +1,12 @@
 class Api::V1::PhoneCallsController < Api::V1::ABaseController
-  before_filter :load_user!, :only => [:index, :show, :update, :hang_up, :transfer, :merge]
+  before_filter :load_user!, :only => [:index, :show, :create, :update, :hang_up, :transfer, :merge]
   before_filter :load_member!, :only => [:index]
-  before_filter :load_phone_call!, :except => [:index, :connect, :status, :connect_nurse]
-  skip_before_filter :authentication_check, :except => [:index, :show, :update, :hang_up, :transfer, :merge]
+  before_filter :load_consult!, only: :create
+  before_filter :load_phone_call!, :except => [:index, :create, :connect, :status, :connect_nurse]
+  before_filter :convert_parameters!, only: :create
+  skip_before_filter :authentication_check, :except => [:index, :show, :create, :update, :hang_up, :transfer, :merge]
 
-  layout false, except: [:index, :show, :update]
+  layout false, except: [:index, :show, :create, :update]
   # http_basic_authenticate_with name: "twilio", password: "secret", except: :index
 
   def index
@@ -24,6 +26,10 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
   def show
     authorize! :read, @phone_call
     show_resource @phone_call.serializer
+  end
+
+  def create
+    create_resource @consult.phone_calls, permitted_params.phone_call
   end
 
   def update
@@ -163,5 +169,21 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
 
   def queue_enabled?
     Metadata.find_by_mkey('enable_pha_phone_queue').try(:mvalue) == 'true'
+  end
+
+  def load_consult!
+    @consult = if params[:consult_id] == 'current'
+                 @user.master_consult
+               else
+                 Consult.find(params[:consult_id])
+               end
+    authorize! :manage, @consult
+  end
+
+  def convert_parameters!
+    params.require(:phone_call).tap do |attributes|
+      attributes[:user_id] ||= @user.id
+      attributes[:to_role_id] ||= Role.find_by_name!(attributes[:to_role]).id if attributes[:to_role]
+    end
   end
 end
