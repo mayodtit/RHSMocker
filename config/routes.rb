@@ -160,6 +160,7 @@ RHSMocker::Application.routes.draw do
   end
   resources :mayo_vocabularies, only: :index
   resources :nurseline_records, :only => :create
+  resources :pha_profiles, only: :show
   resources :questions, :only => :show
   resources :users, :only => [] do
     get 'reset_password/:token', :to => 'users#reset_password', :on => :collection, :as => 'reset_password'
