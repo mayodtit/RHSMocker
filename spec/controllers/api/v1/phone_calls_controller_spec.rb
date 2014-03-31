@@ -101,6 +101,49 @@ describe Api::V1::PhoneCallsController do
     end
   end
 
+  describe 'POST create' do
+    def do_request
+      post :create, auth_token: user.auth_token, phone_call: {destination_phone_number: '5555555555'}
+    end
+
+    let!(:consult) { build_stubbed(:consult, initiator: user) }
+    let!(:message) { build_stubbed(:message, user: user, consult: consult) }
+    let!(:phone_call) { build_stubbed(:phone_call, message: message) }
+    let(:phone_calls) { double('phone_calls', create: phone_call) }
+
+    before do
+      Consult.stub(find: consult)
+      consult.stub(phone_calls: phone_calls)
+    end
+
+    it_behaves_like 'action requiring authentication and authorization'
+
+    context 'authenticated and authorized', user: :authenticate_and_authorize! do
+      it 'attempts to create the record' do
+        phone_calls.should_receive(:create).once
+        do_request
+      end
+
+      context 'save succeeds' do
+        it_behaves_like 'success'
+
+        it 'returns the phone_call' do
+          do_request
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:phone_call].to_json).to eq(phone_call.serializer.as_json.to_json)
+        end
+      end
+
+      context 'save fails' do
+        before do
+          phone_call.errors.add(:base, :invalid)
+        end
+
+        it_behaves_like 'failure'
+      end
+    end
+  end
+
   describe 'PUT update' do
     let(:phone_call) { build_stubbed :phone_call }
 

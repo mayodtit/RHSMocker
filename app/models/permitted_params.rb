@@ -20,6 +20,13 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:permission).permit(*permission_attributes)
   end
 
+  def phone_call
+    params.require(:phone_call).permit(:user_id,
+                                       :origin_phone_number,
+                                       :destination_phone_number,
+                                       :to_role_id)
+  end
+
   private
 
   def user_params

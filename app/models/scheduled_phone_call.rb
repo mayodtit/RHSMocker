@@ -146,12 +146,12 @@ Prep:
 
     before_transition [:booked, :assigned] => :booked do |scheduled_phone_call|
       scheduled_phone_call.booked_at = Time.now
+      scheduled_phone_call.assign_pha_to_user!
     end
 
     after_transition [:booked, :assigned] => :booked do |scheduled_phone_call|
       scheduled_phone_call.notify_user_confirming_call
       scheduled_phone_call.notify_owner_confirming_call
-      scheduled_phone_call.assign_pha_to_user!
     end
 
     before_transition any => :started do |scheduled_phone_call|
