@@ -25,6 +25,7 @@ class Member < User
   has_one :waitlist_entry, foreign_key: :claimer_id,
                            inverse_of: :claimer,
                            autosave: true
+  has_one :pha_profile, foreign_key: :user_id, inverse_of: :user
 
   belongs_to :pha, class_name: 'Member'
 
