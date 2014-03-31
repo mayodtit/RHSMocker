@@ -42,6 +42,6 @@ class Metadata < ActiveRecord::Base
   end
 
   def self.force_phas_off_call?
-    !Rails.env.production? && Metadata.find_by_mkey('force_phas_off_duty').try(:mvalue) == 'true'
+    !Rails.env.production? && Metadata.find_by_mkey('force_phas_off_call').try(:mvalue) == 'true'
   end
 end

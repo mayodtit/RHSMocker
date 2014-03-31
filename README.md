@@ -34,7 +34,7 @@ Metadata dynamically controls variables and features in the API without needing 
 | *nurse_phone_number*      | ##########             | Phone number client and API uses to dial nurseline |
 | *pha_phone_number*        | ##########             | Phone number client and API uses to dial PHAs |
 | *use_pub_sub*             | true/false             | When "true", turns on publishing messages to rhs_pub_sub server |
-
+| *force_phas_off_call*     | true/false             | When "true", phas are set off call regardless of time. Only works in non-production environments |
 
 ## Development
 
