@@ -40,4 +40,8 @@ class Metadata < ActiveRecord::Base
   def self.new_card_design?
     Metadata.find_by_mkey('new_card_design').try(:mvalue) == 'true'
   end
+
+  def self.force_phas_off_call?
+    !Rails.env.production? && Metadata.find_by_mkey('force_phas_off_duty').try(:mvalue) == 'true'
+  end
 end

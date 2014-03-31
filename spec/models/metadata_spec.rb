@@ -88,4 +88,33 @@ describe Metadata do
   describe '#pha_phone_number' do
     it_behaves_like 'has a default value', :pha_phone_number
   end
+
+  describe '#force_phas_off_duty' do
+    context 'mkey not found' do
+      it 'returns false' do
+        Metadata.should_not be_force_phas_off_call
+      end
+    end
+
+    context 'mkey found' do
+      it 'is false' do
+        m = create(:metadata, mkey: 'force_phas_off_duty', mvalue: 'false')
+        Metadata.should_not be_force_phas_off_call
+      end
+
+      context 'value is true' do
+        it 'is false in production' do
+          m = create(:metadata, mkey: 'force_phas_off_duty', mvalue: 'true')
+          Rails.env.stub(:production?) { true }
+          Metadata.should_not be_force_phas_off_call
+        end
+
+        it 'is true otherwise' do
+          m = create(:metadata, mkey: 'force_phas_off_duty', mvalue: 'true')
+          Rails.env.stub(:production?) { false }
+          Metadata.should be_force_phas_off_call
+        end
+      end
+    end
+  end
 end

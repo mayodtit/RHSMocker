@@ -10,9 +10,39 @@ describe Api::V1::RolesController do
     controller.stub(:current_ability => ability)
   end
 
+  describe 'GET show' do
+    def do_request
+      get :show, auth_token: user.auth_token, id: 'pha'
+    end
+
+    it_behaves_like 'action requiring authentication and authorization'
+
+    context 'authenticated and authorized', user: :authenticate_and_authorize! do
+      context 'role doesn\'t exist' do
+        before do
+          Role.stub(:find_by_name!).with('pha') { raise(ActiveRecord::RecordNotFound) }
+        end
+
+        it_behaves_like '404'
+      end
+
+      context 'role exists' do
+        before do
+          Role.stub(:find_by_name!).with('pha') { role }
+        end
+
+        it 'returns serialized role' do
+          do_request
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:role].to_json).to eq(role.serializer.as_json.to_json)
+        end
+      end
+    end
+  end
+
   describe 'GET members' do
     def do_request
-      get :members, auth_token: user.auth_token, role_name: 'pha'
+      get :members, auth_token: user.auth_token, id: 'pha'
     end
 
     it_behaves_like 'action requiring authentication and authorization'

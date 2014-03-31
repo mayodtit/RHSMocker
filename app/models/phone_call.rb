@@ -82,12 +82,6 @@ class PhoneCall < ActiveRecord::Base
     %i(unresolved unclaimed claimed dialing connected disconnected).include? state
   end
 
-  def self.accepting_calls_to_pha?
-    t = Time.now.in_time_zone('Pacific Time (US & Canada)')
-
-    return !(t.wday == 0 || t.wday == 6 || t.hour < 9 || t.hour > 17)
-  end
-
   def initial_state
     return :dialing if outbound?
     return :unclaimed if to_role && to_role.name.to_sym == :nurse

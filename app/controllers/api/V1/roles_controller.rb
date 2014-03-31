@@ -2,6 +2,12 @@ class Api::V1::RolesController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_role!
 
+  def show
+    authorize! :read, @role
+
+    show_resource @role.serializer
+  end
+
   def members
     authorize! :read, @role
 
@@ -13,6 +19,6 @@ class Api::V1::RolesController < Api::V1::ABaseController
   private
 
   def load_role!
-    @role = Role.find_by_name! params[:role_name]
+    @role = Role.find_by_name! params[:id]
   end
 end

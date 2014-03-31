@@ -249,50 +249,6 @@ describe PhoneCall do
     end
   end
 
-  describe '#accepting_calls_to_pha?' do
-    let(:time) { Object.new }
-
-    before do
-      Time.stub(:now) do
-        time.stub(:in_time_zone) do
-          time
-        end
-        time
-      end
-    end
-
-    it 'converts time to Pacific Time' do
-      converted_time = Object.new
-      time.should_receive('in_time_zone').with('Pacific Time (US & Canada)') { converted_time }
-      converted_time.should_receive(:wday).twice { 1 }
-      converted_time.should_receive(:hour).twice { 10 }
-
-      PhoneCall.should be_accepting_calls_to_pha
-    end
-
-    it 'doesn\'t accept calls on Saturday' do
-      time.stub(:wday) { 6 }
-      PhoneCall.should_not be_accepting_calls_to_pha
-    end
-
-    it 'doesn\'t accept calls on Sunday' do
-      time.stub(:wday) { 0 }
-      PhoneCall.should_not be_accepting_calls_to_pha
-    end
-
-    it 'doesn\'t accept calls before 9AM' do
-      time.stub(:wday) { 1 }
-      time.stub(:hour) { 7 }
-      PhoneCall.should_not be_accepting_calls_to_pha
-    end
-
-    it 'doesn\'t accept calls after 6PM' do
-      time.stub(:wday) { 1 }
-      time.stub(:hour) { 18 }
-      PhoneCall.should_not be_accepting_calls_to_pha
-    end
-  end
-
   describe 'callbacks' do
     let(:phone_call) { build_stubbed(:phone_call, :identifier_token => nil) }
 
