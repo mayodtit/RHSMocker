@@ -25,10 +25,10 @@ resource 'CreditCards' do
       Stripe::Customer.stub(:create => stripe_customer, :retrieve => stripe_customer)
     end
 
-    parameter :stripeToken, 'Stripe CreditCard token'
-    required_parameters :stripeToken
+    parameter :stripe_token, 'Stripe CreditCard token'
+    required_parameters :stripe_token
 
-    let(:stripeToken) { 'tok_DEADBEEFBAADBEEF' }
+    let(:stripe_token) { 'tok_DEADBEEFBAADBEEF' }
     let(:raw_post) { params.to_json }
 
     example_request '[POST] Add a CreditCard to a member' do
