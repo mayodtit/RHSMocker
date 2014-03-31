@@ -66,6 +66,14 @@ class User < ActiveRecord::Base
   before_validation :strip_attributes
   before_create :create_google_analytics_uuid
 
+  def avatar=(encoded_avatar)
+    if avatar_url && encoded_avatar.nil?
+      self.remove_avatar = true
+    else
+      super
+    end
+  end
+
   def full_name
     if last_name.present?
       if first_name.present?
