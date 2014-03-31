@@ -181,10 +181,18 @@ class User < ActiveRecord::Base
       []
     else
       if cards.length == 1
-        [cards.first.last4.to_i]
+        card = cards.first
       else
-        [customer.cards.retrieve(customer.default_card).last4.to_i]
+        card = customer.cards.retrieve(customer.default_card)
       end
+
+      hash = {
+        last4:     card.last4.to_i,
+        exp_month: card.exp_month.to_i,
+        exp_year:  card.exp_year.to_i
+      }
+
+      [hash]
     end
   end
 
