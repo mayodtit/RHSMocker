@@ -9,7 +9,7 @@ class MemberSerializer < ActiveModel::Serializer
              :holds_phone_in, :install_id, :phone, :units, :client_data,
              :pusher_id, :full_name, :created_at, :email_read_only,
              :sharing_prohibited, :owner_id, :is_premium, :subscription_end_date,
-             :pha_id
+             :pha_id, :pha_profile_bio_image_url
 
   def attributes
     super.tap do |attributes|
@@ -46,5 +46,9 @@ class MemberSerializer < ActiveModel::Serializer
 
   def sharing_prohibited
     true
+  end
+
+  def pha_profile_bio_image_url
+    object.pha_profile.try(:bio_image_url)
   end
 end
