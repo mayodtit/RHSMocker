@@ -9,7 +9,8 @@ class MemberSerializer < ActiveModel::Serializer
              :holds_phone_in, :install_id, :phone, :units, :client_data,
              :pusher_id, :full_name, :created_at, :email_read_only,
              :sharing_prohibited, :owner_id, :is_premium, :subscription_end_date,
-             :pha_id, :pha_profile_bio_image_url, :pha_profile_url
+             :pha_id, :pha_profile_bio_image_url, :pha_profile_url,
+             :show_welcome_call
 
   def attributes
     super.tap do |attributes|
@@ -56,5 +57,9 @@ class MemberSerializer < ActiveModel::Serializer
     if object.pha_profile
       Rails.application.routes.url_helpers.pha_profile_url(object.pha_profile.id)
     end
+  end
+
+  def show_welcome_call
+    object.master_consult.try(:scheduled_phone_calls).try(:any?) || false
   end
 end
