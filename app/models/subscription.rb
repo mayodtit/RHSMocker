@@ -9,6 +9,7 @@ class Subscription < ActiveRecord::Base
   validate :stripe_ids_present
 
   after_create :subscribe_with_stripe!
+  after_create :set_user_to_premium!
 
   private
 
@@ -22,5 +23,9 @@ class Subscription < ActiveRecord::Base
     customer = Stripe::Customer.retrieve(user.stripe_customer_id)
     subscription = customer.subscriptions.create(plan: plan.stripe_id)
     update_attributes!(stripe_id: subscription.id)
+  end
+
+  def set_user_to_premium!
+    user.update_attributes!(is_premium: true)
   end
 end
