@@ -5,4 +5,5 @@ describe Plan do
   it_validates 'presence of', :name
   it_validates 'presence of', :description
   it_validates 'presence of', :price
+  it_validates 'presence of', :stripe_id
 end
