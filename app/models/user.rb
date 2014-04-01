@@ -205,6 +205,13 @@ class User < ActiveRecord::Base
     end
   end
 
+  def remove_all_credit_cards
+    return if stripe_customer_id.nil?
+
+    customer = Stripe::Customer.retrieve(stripe_customer_id)
+    customer.cards.each {|card| card.delete}
+  end
+
   #############################################################################
   # Rather than using ActiveRecord associations, these like/dislike actions
   # and fetchers are broken out into their own methods in case we decide to

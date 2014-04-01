@@ -72,6 +72,29 @@ describe User do
     end
   end
 
+  describe '#remove_all_credit_cards' do
+    context 'user does not have a stripe id' do
+      it 'should not call stripe' do
+        Stripe::Customer.should_not_receive(:retrieve)
+        build(:user).remove_all_credit_cards
+      end
+    end
+
+    context 'user has a stripe id' do
+      context 'user has no credit cards on file' do
+        xit 'should not error out' do
+
+        end
+      end
+
+      context 'user has one or more credit cards' do
+        xit 'should remove all cards on file' do
+
+        end
+      end
+    end
+  end
+
   describe '#full_name' do
     let(:user) { build(:user) }
 
