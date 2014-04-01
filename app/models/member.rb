@@ -164,6 +164,18 @@ class Member < User
     end
   end
 
+  def is_premium=(value)
+    if value == true
+      cards.build(resource: Content.premium, priority: 50) if Content.premium # fail silently
+      cards.build(resource: CustomCard.onboarding, priority: 45) if CustomCard.onboarding # fail silently
+      master_consult || build_master_consult(subject: self,
+                                             title: 'Direct messaging with your Better PHA',
+                                             skip_tasks: true)
+      RHSMailer.welcome_to_premium_email(email, salutation).deliver
+    end
+    super
+  end
+
   private
 
   def owner_is_self
