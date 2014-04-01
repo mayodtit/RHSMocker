@@ -6,17 +6,29 @@ class Api::V1::CreditCardsController < Api::V1::ABaseController
   end
 
   def create
-    if @user.stripe_customer_id.nil?
-      @customer = Stripe::Customer.create(card: params[:stripe_token],
-                                          email: @user.email,
-                                          description: @user.email)
-      @user.update_attribute(:stripe_customer_id, @customer.id)
+    if @user.credit_cards.count == 0
+      begin
+        if @user.stripe_customer_id.nil?
+
+          # will raise Stripe::InvalidRequestError: (Status 400) if this fails,
+          @customer = Stripe::Customer.create(card: params[:stripe_token],
+                                              email: @user.email,
+                                              description: @user.email)
+          @user.update_attribute(:stripe_customer_id, @customer.id)
+        else
+          @customer = Stripe::Customer.retrieve(@user.stripe_customer_id)
+
+          # will raise Stripe::InvalidRequestError: (Status 400) if this fails
+          @card = @customer.cards.create(card: params[:stripe_token])
+          @customer.save
+        end
+        render_success
+      rescue => e
+        Rails.logger.error "Error in CreditCardsController#create for user #{@user.id}: #{e}"
+        render_failure({reason: 'Error adding credit card'}, 422)
+      end
     else
-      @customer = Stripe::Customer.retrieve(@user.stripe_customer_id)
-      @card = @customer.cards.create(card: params[:stripe_token])
-      @customer.default_card = @card.id
-      @customer.save
+      render_failure({reason: 'User can only have one credit card on file'}, 422)
     end
-    render_success
   end
 end
