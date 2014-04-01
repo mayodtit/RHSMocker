@@ -1,5 +1,6 @@
 class Api::V1::CreditCardsController < Api::V1::ABaseController
   before_filter :load_user!
+  before_filter :render_failure_if_not_self
 
   def index
     render json: @user.credit_cards
@@ -34,5 +35,11 @@ class Api::V1::CreditCardsController < Api::V1::ABaseController
       Rails.logger.error "Error in CreditCardsController#create for user #{@user.id}: #{e}"
       render_failure({reason: 'Error adding credit card'}, 422)
     end
+  end
+
+  private
+
+  def render_failure_if_not_self
+    render_failure if (current_user.id != params[:user_id].to_i)
   end
 end
