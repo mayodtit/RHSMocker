@@ -1,0 +1,4 @@
+%h1 PHA Profile for #{@pha_profile.user.full_name}.
+
+- if @pha_profile.bio_image_url
+  = image_tag(@pha_profile.bio_image_url)

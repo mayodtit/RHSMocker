@@ -57,7 +57,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
   end
 
   def connect
-    @phas_off_duty = !PhoneCall::accepting_calls_to_pha?
+    @phas_off_duty = !Role.find_by_name!(:pha).on_call?
     @phone_call = PhoneCall.resolve params['From'], params['CallSid']
     @select_url = URL_HELPERS.triage_select_api_v1_phone_call_url(@phone_call)
     @menu_url = URL_HELPERS.triage_menu_api_v1_phone_call_url(@phone_call)

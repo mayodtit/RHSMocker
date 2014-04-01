@@ -102,7 +102,6 @@ class Ability
       end
 
       can :index, ScheduledPhoneCall
-      can :read, Role
     end
 
     if user.pha_lead?
@@ -113,6 +112,7 @@ class Ability
       can :manage, Consult
       can :ru, Member
       can :index, Message
+      can :read, Role
     end
   end
 end

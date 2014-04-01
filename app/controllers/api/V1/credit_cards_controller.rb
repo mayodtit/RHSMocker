@@ -5,18 +5,34 @@ class Api::V1::CreditCardsController < Api::V1::ABaseController
     render json: @user.credit_cards
   end
 
+  # since a user is limited to one credit card, this method is used for both
+  # adding and updating a credit card
   def create
-    if @user.stripe_customer_id.nil?
-      @customer = Stripe::Customer.create(card: params[:stripe_token],
-                                          email: @user.email,
-                                          description: @user.email)
-      @user.update_attribute(:stripe_customer_id, @customer.id)
-    else
-      @customer = Stripe::Customer.retrieve(@user.stripe_customer_id)
-      @card = @customer.cards.create(card: params[:stripe_token])
-      @customer.default_card = @card.id
-      @customer.save
+    @user.remove_all_credit_cards
+
+    begin
+      if @user.stripe_customer_id.nil?
+
+        # will raise Stripe::InvalidRequestError: (Status 400) if this fails,
+        @customer = Stripe::Customer.create(card: params[:stripe_token],
+                                            email: @user.email,
+                                            description: @user.email)
+        @card = @customer.cards.retrieve(@customer.default_card)
+        @user.update_attribute(:stripe_customer_id, @customer.id)
+      else
+        @customer = Stripe::Customer.retrieve(@user.stripe_customer_id)
+
+        # will raise Stripe::InvalidRequestError: (Status 400) if this fails
+        @card = @customer.cards.create(card: params[:stripe_token])
+        @customer.save
+      end
+      render_success(credit_card: {type: @card.type,
+                                   last4: @card.last4.to_i,
+                                   exp_month: @card.exp_month.to_i,
+                                   exp_year: @card.exp_year.to_i})
+    rescue => e
+      Rails.logger.error "Error in CreditCardsController#create for user #{@user.id}: #{e}"
+      render_failure({reason: 'Error adding credit card'}, 422)
     end
-    render_success
   end
 end

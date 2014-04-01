@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140328184519) do
+ActiveRecord::Schema.define(:version => 20140401021820) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -346,6 +346,13 @@ ActiveRecord::Schema.define(:version => 20140328184519) do
     t.string   "care_team"
   end
 
+  create_table "pha_profiles", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "bio_image"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "phone_call_summaries", :force => true do |t|
     t.integer  "caller_id",  :null => false
     t.integer  "callee_id",  :null => false
@@ -398,6 +405,7 @@ ActiveRecord::Schema.define(:version => 20140328184519) do
     t.datetime "updated_at",  :null => false
     t.string   "description"
     t.string   "price"
+    t.string   "stripe_id"
   end
 
   create_table "program_resources", :force => true do |t|
@@ -498,6 +506,7 @@ ActiveRecord::Schema.define(:version => 20140328184519) do
     t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "stripe_id"
   end
 
   create_table "symptom_medical_advice_items", :force => true do |t|

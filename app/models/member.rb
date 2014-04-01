@@ -25,6 +25,7 @@ class Member < User
   has_one :waitlist_entry, foreign_key: :claimer_id,
                            inverse_of: :claimer,
                            autosave: true
+  has_one :pha_profile, foreign_key: :user_id, inverse_of: :user
 
   belongs_to :pha, class_name: 'Member'
 
@@ -161,6 +162,18 @@ class Member < User
         update_attributes!(apns_token: token)
       end
     end
+  end
+
+  def is_premium=(value)
+    if value == true
+      cards.build(resource: Content.premium, priority: 50) if Content.premium # fail silently
+      cards.build(resource: CustomCard.onboarding, priority: 45) if CustomCard.onboarding # fail silently
+      master_consult || build_master_consult(subject: self,
+                                             title: 'Direct messaging with your Better PHA',
+                                             skip_tasks: true)
+      RHSMailer.welcome_to_premium_email(email, salutation).deliver
+    end
+    super
   end
 
   private

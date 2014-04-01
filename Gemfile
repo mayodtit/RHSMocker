@@ -43,6 +43,7 @@ end
 
 group :development do
   gem 'capistrano', '~> 2.15'
+  gem 'rest_client', require: false
 end
 
 gem 'codeclimate-test-reporter', group: :test, require: nil    # test coverage for Code Climate

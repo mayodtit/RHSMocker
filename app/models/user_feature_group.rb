@@ -12,13 +12,6 @@ class UserFeatureGroup < ActiveRecord::Base
   private
 
   def set_premium
-    user.cards.create(resource: Content.premium, priority: 50) if Content.premium
-    user.cards.create(resource: CustomCard.onboarding, priority: 45) if CustomCard.onboarding
-    user.master_consult || user.create_master_consult!(subject: user,
-                                                       title: 'Direct messaging with your Better PHA',
-                                                       skip_tasks: true)
-    user.set_premium_flag
-    RHSMailer.welcome_to_premium_email(user.email, user.salutation).deliver
-    true
+    user.update_attributes(is_premium: true)
   end
 end

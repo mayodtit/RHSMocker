@@ -339,7 +339,11 @@ describe Api::V1::PhoneCallsController do
     end
 
     it 'sets phas off duty' do
-      PhoneCall.stub(:accepting_calls_to_pha?) { true }
+      Role.stub(:find_by_name!).with(:pha) do
+        o = Object.new
+        o.stub(:on_call?) { true }
+        o
+      end
       do_request
       assigns(:phas_off_duty).should == false
     end

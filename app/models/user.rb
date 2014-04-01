@@ -66,6 +66,14 @@ class User < ActiveRecord::Base
   before_validation :strip_attributes
   before_create :create_google_analytics_uuid
 
+  def avatar=(encoded_avatar)
+    if avatar_url && encoded_avatar.nil?
+      self.remove_avatar = true
+    else
+      super
+    end
+  end
+
   def full_name
     if last_name.present?
       if first_name.present?
@@ -181,11 +189,27 @@ class User < ActiveRecord::Base
       []
     else
       if cards.length == 1
-        [cards.first.last4.to_i]
+        card = cards.first
       else
-        [customer.cards.retrieve(customer.default_card).last4.to_i]
+        card = customer.cards.retrieve(customer.default_card)
       end
+
+      hash = {
+        type:      card.type,
+        last4:     card.last4.to_i,
+        exp_month: card.exp_month.to_i,
+        exp_year:  card.exp_year.to_i
+      }
+
+      [hash]
     end
+  end
+
+  def remove_all_credit_cards
+    return if stripe_customer_id.nil?
+
+    customer = Stripe::Customer.retrieve(stripe_customer_id)
+    customer.cards.each {|card| card.delete}
   end
 
   #############################################################################
