@@ -110,7 +110,7 @@ class Ability
 
     if user.care_provider?
       can :manage, Consult
-      can :ru, Member
+      can :manage, Member # Should be :ru, but needed so nurses can view associations
       can :index, Message
       can :read, Role
     end
