@@ -195,6 +195,7 @@ class User < ActiveRecord::Base
       end
 
       hash = {
+        type:      card.type,
         last4:     card.last4.to_i,
         exp_month: card.exp_month.to_i,
         exp_year:  card.exp_year.to_i
