@@ -147,10 +147,10 @@ class Member < User
   end
 
   def self.robot
-    find_or_create_by_email(:email => 'robot@getbetter.com',
+    find_or_create_by_email(:email => 'testphone+robot@getbetter.com',
                             :first_name => 'Clare',
                             :last_name => 'W',
-                            :avatar_url_override => "http://i.imgur.com/eU3p9Hj.jpg")
+                            :avatar_url_override => 'http://i.imgur.com/eU3p9Hj.jpg')
   end
 
   def terms_of_service_and_privacy_policy
