@@ -81,10 +81,12 @@ resource "ScheduledPhoneCalls" do
         parameter :scheduled_at, 'Time for when the call is scheduled'
         parameter :state_event, 'Event to transition phone call state through'
         parameter :user_id, 'The member who booked this call'
+        parameter :callback_phone_number, "The member's preferred callback number"
 
         let(:state_event) { 'book' }
         let(:user_id) { member.id }
         let(:scheduled_at) { Time.now + 1.day }
+        let(:callback_phone_number) { '5551234567' }
         let(:raw_post) { params.to_json }
 
         example_request "[PUT] Update a scheduled_phone_call" do
