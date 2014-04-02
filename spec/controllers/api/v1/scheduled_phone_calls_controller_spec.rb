@@ -75,8 +75,8 @@ describe Api::V1::ScheduledPhoneCallsController do
       ScheduledPhoneCall.stub_chain(:where, :where).and_return([scheduled_phone_call])
     end
 
-    it_behaves_like 'action requiring authentication'
-    context 'authenticated', user: :authenticate! do
+    it_behaves_like 'action requiring authentication and authorization'
+    context 'authenticated and authorized', user: :authenticate_and_authorize! do
       it_behaves_like 'success'
 
       it 'returns available scheduled_phone_calls' do
@@ -96,8 +96,8 @@ describe Api::V1::ScheduledPhoneCallsController do
       ScheduledPhoneCall.stub_chain(:where, :where, :pluck).and_return([scheduled_phone_call.scheduled_at])
     end
 
-    it_behaves_like 'action requiring authentication'
-    context 'authenticated', user: :authenticate! do
+    it_behaves_like 'action requiring authentication and authorization'
+    context 'authenticated and authorized', user: :authenticate_and_authorize! do
       it_behaves_like 'success'
 
       it 'returns available scheduled_phone_calls' do
