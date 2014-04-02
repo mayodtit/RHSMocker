@@ -308,7 +308,7 @@ class PhoneCall < ActiveRecord::Base
     end
 
     event :unclaim do
-      transition :claimed => :unclaimed
+      transition :claimed => :unclaimed, :disconnected => :missed
     end
 
     before_transition :unresolved => any do |phone_call|
@@ -327,7 +327,7 @@ class PhoneCall < ActiveRecord::Base
       PhoneCallTask.create_if_only_opened_for_phone_call! phone_call
     end
 
-    before_transition :unclaimed => :missed do |phone_call|
+    before_transition [:disconnected, :unclaimed] => :missed do |phone_call|
       phone_call.missed_at = Time.now
     end
 
