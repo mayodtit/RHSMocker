@@ -13,6 +13,15 @@ resource "ScheduledPhoneCalls" do
     parameter :auth_token, "Performing user's auth_token"
     required_parameters :auth_token
 
+    get '/api/v1/scheduled_phone_calls/available' do
+      example_request '[GET] Get available ScheduledPhoneCalls' do
+        explanation 'Returns an array of ScheduledPhoneCalls'
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:scheduled_phone_calls].to_json).to eq([scheduled_phone_call].as_json.to_json)
+      end
+    end
+
     get '/api/v1/scheduled_phone_calls/available_times' do
       example_request '[GET] Get available ScheduledPhoneCall times' do
         explanation 'Returns an array of ScheduledPhoneCall times'
@@ -72,10 +81,12 @@ resource "ScheduledPhoneCalls" do
         parameter :scheduled_at, 'Time for when the call is scheduled'
         parameter :state_event, 'Event to transition phone call state through'
         parameter :user_id, 'The member who booked this call'
+        parameter :callback_phone_number, "The member's preferred callback number"
 
         let(:state_event) { 'book' }
         let(:user_id) { member.id }
         let(:scheduled_at) { Time.now + 1.day }
+        let(:callback_phone_number) { '5551234567' }
         let(:raw_post) { params.to_json }
 
         example_request "[PUT] Update a scheduled_phone_call" do
