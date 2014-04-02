@@ -1,5 +1,6 @@
 class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
-  before_filter :load_available_scheduled_phone_calls!, only: [:available_times]
+  before_filter :load_user!, only: %i(available available_times)
+  before_filter :load_available_scheduled_phone_calls!, only: %i(available available_times)
   before_filter :load_scheduled_phone_call!, only: [:show, :update, :destroy]
 
   def index
@@ -14,6 +15,10 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
     results = results.order 'scheduled_at ASC'
 
     index_resource results.serializer
+  end
+
+  def available
+    index_resource @available_scheduled_phone_calls
   end
 
   def available_times
@@ -59,6 +64,7 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   def load_available_scheduled_phone_calls!
     @available_scheduled_phone_calls = ScheduledPhoneCall.where(state: :assigned)
                                                          .where('scheduled_at > ?', Time.now)
+    @available_scheduled_phone_calls = @available_scheduled_phone_calls.where(owner_id: @user.pha_id) if @user.pha_id
   end
 
   # NOTE: This is super inefficient, but unfortunately our ability file is not

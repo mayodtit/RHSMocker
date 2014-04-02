@@ -27,7 +27,10 @@ class Member < User
                            autosave: true
   has_one :pha_profile, foreign_key: :user_id, inverse_of: :user
 
-  belongs_to :pha, class_name: 'Member'
+  belongs_to :pha, class_name: 'Member', inverse_of: :owned_members
+  has_many :owned_members, class_name: 'Member',
+                           foreign_key: :pha_id,
+                           inverse_of: :pha
 
   accepts_nested_attributes_for :user_agreements
 
@@ -171,9 +174,37 @@ class Member < User
       master_consult || build_master_consult(subject: self,
                                              title: 'Direct messaging with your Better PHA',
                                              skip_tasks: true)
+      assign_pha!
       RHSMailer.welcome_to_premium_email(email, salutation).deliver
     end
     super
+  end
+
+  def self.phas
+    # less efficient than Role.find.users, but safer because ensures Member
+    joins(:roles).where(roles: {name: :pha})
+  end
+
+  def self.pha_counts
+    group(:pha_id).having("pha_id IS NOT NULL").count.tap do |hash|
+      hash.default = 0
+    end
+  end
+
+  def self.next_pha
+    current_counts = pha_counts
+    min_count = current_counts.values.min || 0
+    phas.inject(nil) do |selected, current|
+      if current_counts[current.id] <= min_count
+        selected = current
+        min_count = current_counts[current.id]
+      end
+      selected
+    end
+  end
+
+  def assign_pha!
+    update_attributes!(pha: self.class.next_pha)
   end
 
   private
