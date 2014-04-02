@@ -267,6 +267,44 @@ describe Task do
         task.publish
       end
     end
+
+    context 'owner id changed' do
+      let(:task) { build_stubbed(:task) }
+
+      before do
+        task.stub(:owner_id_changed?) { true }
+      end
+
+      context 'there was a previous owner' do
+        before do
+          task.stub(:owner_id_was) { '2' }
+        end
+
+        it 'publishes to the old owners channel' do
+          PubSub.should_receive(:publish).with('/tasks/new', { id: task.id })
+          PubSub.should_receive(:publish).with(
+            "/users/2/tasks/owned/update",
+            { id: task.id }
+          )
+          task.publish
+        end
+      end
+
+      context 'there is not previous owner' do
+        before do
+          task.stub(:owner_id_was) { nil }
+        end
+
+        it 'publishes to the old owners channel' do
+          PubSub.should_receive(:publish).with('/tasks/new', { id: task.id })
+          PubSub.should_not_receive(:publish).with(
+            "/users//tasks/owned/update",
+            { id: task.id }
+          )
+          task.publish
+        end
+      end
+    end
   end
 
   describe 'states' do
