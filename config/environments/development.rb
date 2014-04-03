@@ -23,6 +23,10 @@ RHSMocker::Application.configure do
   config.action_mailer.delivery_method = :file
   config.action_mailer.file_settings = { :location => 'tmp/mails' }
 
+  # Mandrill devlocal test key.  Emails will be passed to Mandrill but will
+  # not be delivered.  Uncomment out the below section to deliver emails.
+  MandrillMailer.configure { |config| config.api_key = 'ggndKBJ29Mu5W9sEXd3ixQ' }
+
   # *** HEY BOSS. BE CAREFUL HERE *********************************************
   # uncomment to send live emails
   #key = 'pyRbUi-5ZA55IVKSbWYpfw'
