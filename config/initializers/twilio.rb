@@ -5,3 +5,11 @@ TWILIO_WAIT_URL = 'http://twimlets.com/holdmusic?Bucket=com.twilio.music.soft-ro
 PHA_PHONE_NUMBER = '4154232887'
 NURSE_PHONE_NUMBER = '4158002865'
 URL_HELPERS = Rails.application.routes.url_helpers
+
+folder = ''
+if Rails.env.qa?
+  folder = '-qa'
+elsif Rails.env.devhosted? || Rails.env.development?
+  folder = '-dev'
+end
+TWILIO_SOUNDS_URL_PREFIX = "https://s3-us-west-2.amazonaws.com/btr-static#{folder}/phone"
