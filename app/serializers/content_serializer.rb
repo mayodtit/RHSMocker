@@ -50,9 +50,7 @@ class ContentSerializer < ViewSerializer
   end
 
   def fullscreen_actions
-    [
-      {normal: {title: 'Save', action: :save}, selected: {title: 'Dismiss', action: :dismiss}},
-    ]
+    []
   end
 
   def timeline_action
