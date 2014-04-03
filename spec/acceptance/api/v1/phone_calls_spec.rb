@@ -234,7 +234,7 @@ resource "PhoneCalls" do
         phone_call_task.should be_abandoned
         phone_call_task.reason_abandoned.should == 'after_hours'
         xml = Nokogiri::XML(response_body)
-        xml.xpath('//Response/Say').text().should == "Good bye."
+        xml.xpath('//Response/Play').text().should =~ /goodbye.aiff/
       end
     end
   end

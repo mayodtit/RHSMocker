@@ -1361,6 +1361,20 @@ describe PhoneCall do
       it 'unsets the ended time' do
         phone_call.claimed_at.should be_nil
       end
+
+      context 'disconnected' do
+        before do
+          phone_call.state = 'disconnected'
+          phone_call.claimer = nurse
+          phone_call.claimed_at = Time.now
+
+          phone_call.unclaim!
+        end
+
+        it 'changes the state to missed' do
+          phone_call.should be_missed
+        end
+      end
     end
   end
 end

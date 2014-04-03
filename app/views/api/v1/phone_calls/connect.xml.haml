@@ -2,19 +2,15 @@
 %Response
   - if @phas_off_duty
     %Gather{action: @select_url, numDigits: 1}
-      %Say{voice: 'woman'}
-        Hi, thanks for calling Better. As always, If you are calling about a medical
-        emergency, please hang up and dial nine one one immediately. Our PHAs are
-        currently off duty, but you can either send us a message through the Better
-        app or connect with a May oh nurse.
+      %Play
+        #{TWILIO_SOUNDS_URL_PREFIX}/triage_intro.aiff
+      %Pause{length: '1'}
       = render partial: 'triage_instructions'
     %Redirect{method: 'GET'}
       = @menu_url
   - else
-    %Say{voice: 'woman'}
-      Hi, thanks for calling Better.  If you are calling about a medical
-      emergency, please hang up and dial nine one one immediately. Otherwise, a
-      personal health assistant will be right with you.
+    %Play
+      #{TWILIO_SOUNDS_URL_PREFIX}/intro.aiff
     - if @send_to_queue
       %Dial
         %Conference{beep: 'false', endConferenceOnExit: 'false', startConferenceOnEnter: 'true', waitUrl: TWILIO_WAIT_URL}
