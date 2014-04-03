@@ -1,34 +1,23 @@
 class Api::V1::SubscriptionsController < Api::V1::ABaseController
   before_filter :load_user!
-  before_filter :load_subscription!, only: %i(show update destroy)
+  before_filter :render_failure_if_not_self
   before_filter :create_credit_card!, only: :create
 
-  def index
-    index_resource(@user.subscriptions.serializer)
-  end
-
-  def show
-    show_resource(@subscription.serializer)
-  end
-
+  # assumptions
+  # - user may or may not already have a stripe customer id
+  # - user DOES NOT have a credit card on file
   def create
-    create_resource(@user.subscriptions, params[:subscription])
-  end
+    customer = Stripe::Customer.retrieve(@user.stripe_customer_id)
 
-  def update
-    update_resource(@subscription, params[:subscription])
-  end
+    hash = {plan: params[:subscription]}
+    hash.merge!({trial_end: @user.subscription_end_date.to_i}) unless @user.subscription_end_date.nil?
+    customer.subscriptions.create(hash)
+    @user.update_attribute(:subscription_end_date, nil)
 
-  def destroy
-    destroy_resource(@subscription)
+    render_success
   end
 
   private
-
-  def load_subscription!
-    @subscription = @user.subscriptions.find(params[:id])
-    authorize! :manage, @subscription
-  end
 
   def create_credit_card!
     return unless params[:stripe_token]
@@ -43,5 +32,9 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
       @customer.default_card = @card.id
       @customer.save
     end
+  end
+
+  def render_failure_if_not_self
+    render_failure if (current_user.id != params[:user_id].to_i)
   end
 end

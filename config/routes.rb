@@ -65,7 +65,7 @@ RHSMocker::Application.routes.draw do
       post :password_resets, to: 'reset_password#create' # TODO - deprecated!
       resources :phone_call_summaries, :only => :show
       resources :ping, only: [:index, :create]
-      resources :plans, :only => [:index, :show]
+      resources :plans, only: :index
       resources :programs, only: [:index, :show, :create, :update] do
         resources :resources, only: [:index, :create, :update, :destroy], controller: 'program_resources'
       end
@@ -121,7 +121,7 @@ RHSMocker::Application.routes.draw do
           get :timeline, :on => :collection
         end
         put :secure_update, on: :member, to: 'members#secure_update'
-        resources :subscriptions, :except => [:new, :edit]
+        resources :subscriptions, only: :create
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
           resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
