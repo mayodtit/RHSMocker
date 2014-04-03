@@ -13,7 +13,8 @@ describe Api::V1::MessagesController do
 
   describe 'GET index' do
     before do
-      consult.stub(messages: [message], users: [message.user])
+      consult.stub(messages: [message])
+      consult.stub_chain(:users, :to_a, :uniq).and_return([message.user])
     end
 
     context 'current consult for user' do
