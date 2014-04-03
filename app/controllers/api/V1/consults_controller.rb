@@ -30,6 +30,7 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
 
   def load_current!
     @consult = @user.master_consult
+    raise ActiveRecord::RecordNotFound unless @consult
     authorize! :manage, @consult
   end
 
