@@ -21,6 +21,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
                else
                  Consult.find(params[:consult_id])
                end
+    raise ActiveRecord::RecordNotFound unless @consult
     authorize! :manage, @consult
   end
 
