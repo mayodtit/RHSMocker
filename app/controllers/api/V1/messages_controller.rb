@@ -1,11 +1,12 @@
 class Api::V1::MessagesController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_consult!
+  before_filter :load_users!, only: :index
 
   def index
     render_success(consult: @consult.serializer,
                    messages: @consult.messages.serializer,
-                   users: @consult.users.uniq.serializer)
+                   users: @users.serializer)
   end
 
   def create
@@ -21,7 +22,14 @@ class Api::V1::MessagesController < Api::V1::ABaseController
                else
                  Consult.find(params[:consult_id])
                end
+    raise ActiveRecord::RecordNotFound unless @consult
     authorize! :manage, @consult
+  end
+
+  def load_users!
+    @users = @consult.users.to_a
+    @users = @users << @user.pha if @user.pha
+    @users = @users.uniq
   end
 
   def message_attributes
