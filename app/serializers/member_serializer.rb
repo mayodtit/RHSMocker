@@ -64,6 +64,6 @@ class MemberSerializer < ActiveModel::Serializer
   end
 
   def show_welcome_call
-    object.master_consult.try(:scheduled_phone_calls).try(:any?) || false
+    object.master_consult.try(:scheduled_phone_calls).try(:empty?) || false
   end
 end
