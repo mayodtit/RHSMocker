@@ -6,16 +6,9 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
 
   def index
     @subscriptions = @customer.subscriptions.inject([]) do |array, subscription|
-      plan_hash = {
-        id: subscription.plan.id,
-        name: subscription.plan.metadata[:display_name],
-        price: subscription.plan.metadata[:display_price],
-        description: nil
-      }
-
       array << {
         id: subscription.id,
-        plan: plan_hash
+        plan: StripeExtension.plan_serializer(subscription.plan)
       }
       array
     end
