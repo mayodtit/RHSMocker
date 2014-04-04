@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140404171221) do
+ActiveRecord::Schema.define(:version => 20140404212015) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -318,6 +318,7 @@ ActiveRecord::Schema.define(:version => 20140404171221) do
     t.integer  "phone_call_id"
     t.string   "image"
     t.integer  "phone_call_summary_id"
+    t.integer  "symptom_id"
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
