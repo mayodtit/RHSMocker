@@ -1,23 +1,19 @@
 class Api::V1::SubscriptionsController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :render_failure_if_not_self
-  before_filter :create_credit_card!, only: :create
+  before_filter :create_credit_card!
+  before_filter :load_customer!
 
-  # assumptions
-  # - user may or may not already have a stripe customer id
-  # - user DOES NOT have a credit card on file
   def create
-    customer = Stripe::Customer.retrieve(@user.stripe_customer_id)
-
-    hash = {plan: params[:subscription]}
-    hash.merge!({trial_end: @user.subscription_end_date.to_i}) unless @user.subscription_end_date.nil?
-    customer.subscriptions.create(hash)
-    @user.update_attribute(:subscription_end_date, nil)
-
-    render_success
+    @customer.subscriptions.create(subscription_attributes)
+    update_resource @user, user_attributes, name: :user
   end
 
   private
+
+  def render_failure_if_not_self
+    render_failure if (current_user.id != params[:user_id].to_i)
+  end
 
   def create_credit_card!
     return unless params[:stripe_token]
@@ -34,7 +30,21 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
     end
   end
 
-  def render_failure_if_not_self
-    render_failure if (current_user.id != params[:user_id].to_i)
+  def load_customer!
+    @customer ||= Stripe::Customer.retrieve(@user.stripe_customer_id)
+    render_failure unless @customer
+  end
+
+  def subscription_attributes
+    {plan: params.require(:subscription).require(:plan_id)}.tap do |attributes|
+      attributes.merge!(trial_end: @user.subscription_end_date.to_i) if @user.subscription_end_date
+    end
+  end
+
+  def user_attributes
+    {
+      is_premium: true,
+      subscription_end_date: nil
+    }
   end
 end

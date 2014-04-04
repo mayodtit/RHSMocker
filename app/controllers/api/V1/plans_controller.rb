@@ -8,15 +8,16 @@ class Api::V1::PlansController < Api::V1::ABaseController
   private
 
   def load_plans!
-    @plans = []
-    Stripe::Plan.all.each do |plan|
+    @plans = Stripe::Plan.all.inject([]) do |array, plan|
       if plan.metadata[:active] == 'true'
-        @plans << { id: plan.id,
-                    name: plan.name,
-                    description: nil,
-                    price: (plan.amount / 100.0).to_s
-        }
+        array << {
+                   id: plan.id,
+                   name: plan.metadata[:display_name],
+                   price: plan.metadata[:display_price],
+                   description: nil
+                 }
       end
+      array
     end
   end
 end
