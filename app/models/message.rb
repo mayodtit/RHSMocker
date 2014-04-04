@@ -3,6 +3,7 @@ class Message < ActiveRecord::Base
   belongs_to :consult
   belongs_to :content
   belongs_to :symptom
+  belongs_to :condition
   belongs_to :phone_call, inverse_of: :message
   belongs_to :scheduled_phone_call, inverse_of: :message
   belongs_to :phone_call_summary, inverse_of: :message
@@ -15,11 +16,12 @@ class Message < ActiveRecord::Base
                   :phone_call_attributes, :scheduled_phone_call_attributes,
                   :phone_call_summary_attributes,
                   :created_at, # for robot auto-response message
-                  :symptom, :symptom_id
+                  :symptom, :symptom_id, :condition, :condition_id
 
   validates :user, :consult, presence: true
   validates :content, presence: true, if: lambda{|m| m.content_id}
   validates :symptom, presence: true, if: lambda{|m| m.symptom_id}
+  validates :condition, presence: true, if: lambda{|m| m.condition_id}
   validates :phone_call, presence: true, if: lambda{|m| m.phone_call_id}
   validates :scheduled_phone_call, presence: true, if: lambda{|m| m.scheduled_phone_call_id}
   validates :phone_call_summary, presence: true, if: lambda{|m| m.phone_call_summary_id}

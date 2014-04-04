@@ -33,7 +33,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def message_attributes
-    params.require(:message).permit(:text, :image, :content_id, :symptom_id).tap do |attributes|
+    params.require(:message).permit(:text, :image, :content_id, :symptom_id, :condition_id).tap do |attributes|
       attributes[:user] = current_user
       attributes[:image] = decode_b64_image(attributes[:image]) if attributes[:image]
     end

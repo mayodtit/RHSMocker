@@ -10,6 +10,7 @@ describe Message do
   it_validates 'presence of', :consult
   it_validates 'foreign key of', :content
   it_validates 'foreign key of', :symptom
+  it_validates 'foreign key of', :condition
   it_validates 'foreign key of', :phone_call
   it_validates 'foreign key of', :scheduled_phone_call
   it_validates 'foreign key of', :phone_call_summary
