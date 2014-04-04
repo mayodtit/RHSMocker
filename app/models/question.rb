@@ -1,7 +1,7 @@
 class Question < ActiveRecord::Base
   attr_accessible :title, :view
 
-  symbolize :view, in: [:gender, :diet, :allergies]
+  symbolize :view, in: [:gender, :diet, :allergies, :birthdate]
 
   validates :title, :view, presence: true, uniqueness: true
 
