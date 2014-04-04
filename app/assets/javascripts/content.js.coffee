@@ -86,3 +86,6 @@ class NativeBridgeCallback
   @showProfileAndDismiss: (userId, cardId) ->
     NativeBridge.call("showProfile", {id: userId})
     NativeBridge.call("dismissCard", {id: cardId})
+
+$(window).load ->
+  NativeBridge.call('windowLoaded', {id: $(".card").data("id")})
