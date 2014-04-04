@@ -1,7 +1,8 @@
 class MessageSerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes :id, :text, :created_at, :consult_id, :title, :image_url, :type, :consult_title
+  attributes :id, :text, :created_at, :consult_id, :title, :image_url, :type,
+             :consult_title, :content_id, :symptom_id, :condition_id
   has_one :user
   has_one :phone_call
   has_one :phone_call_summary
@@ -26,7 +27,9 @@ class MessageSerializer < ActiveModel::Serializer
   end
 
   def type
-    if object.phone_call || object.scheduled_phone_call || object.phone_call_summary
+    if object.phone_call_id || object.scheduled_phone_call_id ||
+       object.phone_call_summary_id || object.content_id ||
+       object.symptom_id || object.condition_id
       :system
     else
       :user
@@ -35,5 +38,17 @@ class MessageSerializer < ActiveModel::Serializer
 
   def consult_title
     object.consult.title
+  end
+
+  def text
+    if object.content_id
+      "You requested to discuss \"#{object.content.title}\" with a PHA"
+    elsif object.symptom_id
+      "You requested to discuss \"#{object.symptom.name}\" with a PHA"
+    elsif object.condition_id
+      "You requested to discuss \"#{object.condition.name}\" with a PHA"
+    else
+      object.text
+    end
   end
 end
