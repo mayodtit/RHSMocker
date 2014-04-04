@@ -37,7 +37,7 @@ class Member < User
   attr_accessible :install_id, :password, :password_confirmation,
                   :holds_phone_in, :invitation_token, :units,
                   :waitlist_entry, :user_agreements_attributes, :pha, :pha_id,
-                  :apns_token, :is_premium
+                  :apns_token, :is_premium, :subscription_end_date
 
   validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}

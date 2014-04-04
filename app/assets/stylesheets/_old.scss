@@ -119,6 +119,9 @@ div.content_abstract{
     margin: 0px 5px 78px 5px;
     line-height: normal;
     position: relative;
+    &.no-margin {
+      margin: 0px 5px;
+    }
     img {
       position: absolute;
       top: 10px;

@@ -1,33 +1,18 @@
 class Api::V1::SubscriptionsController < Api::V1::ABaseController
   before_filter :load_user!
-  before_filter :load_subscription!, only: %i(show update destroy)
-  before_filter :create_credit_card!, only: :create
-
-  def index
-    index_resource(@user.subscriptions.serializer)
-  end
-
-  def show
-    show_resource(@subscription.serializer)
-  end
+  before_filter :render_failure_if_not_self
+  before_filter :create_credit_card!
+  before_filter :load_customer!
 
   def create
-    create_resource(@user.subscriptions, params[:subscription])
-  end
-
-  def update
-    update_resource(@subscription, params[:subscription])
-  end
-
-  def destroy
-    destroy_resource(@subscription)
+    @customer.subscriptions.create(subscription_attributes)
+    update_resource @user, user_attributes, name: :user
   end
 
   private
 
-  def load_subscription!
-    @subscription = @user.subscriptions.find(params[:id])
-    authorize! :manage, @subscription
+  def render_failure_if_not_self
+    render_failure if (current_user.id != params[:user_id].to_i)
   end
 
   def create_credit_card!
@@ -43,5 +28,23 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
       @customer.default_card = @card.id
       @customer.save
     end
+  end
+
+  def load_customer!
+    @customer ||= Stripe::Customer.retrieve(@user.stripe_customer_id)
+    render_failure unless @customer
+  end
+
+  def subscription_attributes
+    {plan: params.require(:subscription).require(:plan_id)}.tap do |attributes|
+      attributes.merge!(trial_end: @user.subscription_end_date.to_i) if @user.subscription_end_date
+    end
+  end
+
+  def user_attributes
+    {
+      is_premium: true,
+      subscription_end_date: nil
+    }
   end
 end
