@@ -32,7 +32,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
     if @user.stripe_customer_id.nil?
       @customer = Stripe::Customer.create(card: params[:stripe_token],
                                           email: @user.email,
-                                          description: @user.email)
+                                          description: StripeExtension.customer_description(@user.id))
       @user.update_attribute(:stripe_customer_id, @customer.id)
     else
       @customer = Stripe::Customer.retrieve(@user.stripe_customer_id)

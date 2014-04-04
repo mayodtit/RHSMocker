@@ -17,7 +17,7 @@ class Api::V1::CreditCardsController < Api::V1::ABaseController
         # will raise Stripe::InvalidRequestError: (Status 400) if this fails,
         @customer = Stripe::Customer.create(card: params[:stripe_token],
                                             email: @user.email,
-                                            description: @user.email)
+                                            description: StripeExtension.customer_description(@user.id))
         @card = @customer.cards.retrieve(@customer.default_card)
         @user.update_attribute(:stripe_customer_id, @customer.id)
       else

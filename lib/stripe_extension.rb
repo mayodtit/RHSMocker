@@ -9,4 +9,10 @@ class StripeExtension
       description: nil
     }
   end
+
+  def self.customer_description(user_id)
+    str = "User #{user_id}"
+    str += " on #{Rails.env} (#{`hostname`.chomp})" unless Rails.env.production?
+    str
+  end
 end
