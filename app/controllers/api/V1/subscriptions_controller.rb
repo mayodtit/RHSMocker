@@ -1,8 +1,27 @@
 class Api::V1::SubscriptionsController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :render_failure_if_not_self
-  before_filter :create_credit_card!
+  before_filter :create_credit_card!, only: :create
   before_filter :load_customer!
+
+  def index
+    @subscriptions = @customer.subscriptions.inject([]) do |array, subscription|
+      plan_hash = {
+        id: subscription.plan.id,
+        name: subscription.plan.metadata[:display_name],
+        price: subscription.plan.metadata[:display_price],
+        description: nil
+      }
+
+      array << {
+        id: subscription.id,
+        plan: plan_hash
+      }
+      array
+    end
+
+    index_resource(@subscriptions)
+  end
 
   def create
     @customer.subscriptions.create(subscription_attributes)
