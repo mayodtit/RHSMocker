@@ -14,12 +14,7 @@ class Member < User
   has_many :messages, :foreign_key => :user_id
   has_many :message_statuses, :foreign_key => :user_id
   has_many :phone_calls, :foreign_key => :user_id
-
-  has_many :subscriptions, :foreign_key => :user_id
-  has_many :plans, :through => :subscriptions
-
   has_many :invitations
-
   has_many :user_feature_groups, :foreign_key => :user_id
   has_many :feature_groups, :through => :user_feature_groups
   has_one :waitlist_entry, foreign_key: :claimer_id,

@@ -1,11 +1,9 @@
 describe Api::V1::PlansController do
   let(:user) { build_stubbed(:user) }
   let(:ability) { Object.new.extend(CanCan::Ability) }
-  let(:plan) { build_stubbed(:plan) }
 
   before do
     controller.stub(current_ability: ability)
-    Plan.stub(all: [plan])
   end
 
   describe 'GET index' do

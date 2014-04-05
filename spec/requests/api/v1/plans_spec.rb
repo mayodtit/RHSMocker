@@ -2,7 +2,6 @@ require 'spec_helper'
 
 describe 'Plans' do
   let!(:user) { create(:member) }
-  let!(:plan) { create(:plan) }
 
   describe 'GET /api/v1/plans' do
     def do_request

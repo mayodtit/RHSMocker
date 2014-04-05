@@ -103,7 +103,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def load_member_from_login!
     @member = login(current_user.email, params.require(:user).require(:current_password))
-    render_failure(reason: 'Invalid current password') and return unless @member
+    render_failure({reason: 'Current password is invalid'}, 422) and return unless @member
     authorize! :manage, @member
   end
 

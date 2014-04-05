@@ -1,8 +1,20 @@
 class Api::V1::SubscriptionsController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :render_failure_if_not_self
-  before_filter :create_credit_card!
+  before_filter :create_credit_card!, only: :create
   before_filter :load_customer!
+
+  def index
+    @subscriptions = @customer.subscriptions.inject([]) do |array, subscription|
+      array << {
+        id: subscription.id,
+        plan: StripeExtension.plan_serializer(subscription.plan)
+      }
+      array
+    end
+
+    index_resource(@subscriptions)
+  end
 
   def create
     @customer.subscriptions.create(subscription_attributes)
@@ -20,7 +32,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
     if @user.stripe_customer_id.nil?
       @customer = Stripe::Customer.create(card: params[:stripe_token],
                                           email: @user.email,
-                                          description: @user.email)
+                                          description: StripeExtension.customer_description(@user.id))
       @user.update_attribute(:stripe_customer_id, @customer.id)
     else
       @customer = Stripe::Customer.retrieve(@user.stripe_customer_id)

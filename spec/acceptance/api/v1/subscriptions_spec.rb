@@ -10,12 +10,6 @@ resource 'Subscriptions' do
   let(:user_id) { user.id }
   let(:auth_token) { user.auth_token }
 
-  before do
-    Subscription.any_instance.stub(:stripe_ids_present)
-    Subscription.any_instance.stub(:subscribe_with_stripe!)
-    Subscription.any_instance.stub(:set_user_to_premium!)
-  end
-
   parameter :auth_token, "Performing user's auth_token"
   parameter :user_id, "Target user's id"
   required_parameters :auth_token, :user_id

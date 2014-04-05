@@ -36,7 +36,7 @@ class Ability
       user.id == p.subject.associate_id || user.id == p.subject.associate.owner_id
     end
 
-    can :manage, [BloodPressure, UserTreatment, UserAllergy, UserCondition, Weight, Card, Subscription] do |o|
+    can :manage, [BloodPressure, UserTreatment, UserAllergy, UserCondition, Weight, Card] do |o|
       (user.id == o.user_id) || (can?(:manage, o.user))
     end
 

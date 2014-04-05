@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140402181239) do
+ActiveRecord::Schema.define(:version => 20140404212509) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -318,6 +318,8 @@ ActiveRecord::Schema.define(:version => 20140402181239) do
     t.integer  "phone_call_id"
     t.string   "image"
     t.integer  "phone_call_summary_id"
+    t.integer  "symptom_id"
+    t.integer  "condition_id"
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
@@ -398,15 +400,6 @@ ActiveRecord::Schema.define(:version => 20140402181239) do
   add_index "phone_calls", ["state", "origin_phone_number"], :name => "index_phone_calls_on_state_and_origin_phone_number"
   add_index "phone_calls", ["state"], :name => "index_phone_calls_on_state"
   add_index "phone_calls", ["to_role_id"], :name => "index_phone_calls_on_to_role_id"
-
-  create_table "plans", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
-    t.string   "description"
-    t.string   "price"
-    t.string   "stripe_id"
-  end
 
   create_table "program_resources", :force => true do |t|
     t.integer  "program_id"
@@ -499,14 +492,6 @@ ActiveRecord::Schema.define(:version => 20140402181239) do
     t.string   "description"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
-  end
-
-  create_table "subscriptions", :force => true do |t|
-    t.integer  "plan_id"
-    t.integer  "user_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-    t.string   "stripe_id"
   end
 
   create_table "symptom_medical_advice_items", :force => true do |t|
