@@ -40,6 +40,25 @@ describe 'Members' do
           ids.should_not include(other_member.id)
         end
       end
+
+      context 'with pha id' do
+        let!(:pha) { create(:pha) }
+        let!(:other_member) { create(:member, pha_id: member.id ) }
+        let!(:another_member) { create(:member, pha_id: member.id ) }
+        let!(:yet_another_member) { create(:member, pha_id: pha.id ) }
+
+        it 'filters Members with param' do
+          do_request(q: 'test.com', pha_id: member.id)
+          response.should be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          ids = body[:users].map{|c| c[:id]}
+          ids.should include(other_member.id)
+          ids.should include(another_member.id)
+          ids.should_not include(member.id)
+          ids.should_not include(yet_another_member.id)
+          ids.should_not include(pha.id)
+        end
+      end
     end
   end
 
