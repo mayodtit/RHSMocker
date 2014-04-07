@@ -3,7 +3,7 @@ class Api::V1::CreditCardsController < Api::V1::ABaseController
   before_filter :render_failure_if_not_self
 
   def index
-    render json: @user.credit_cards
+    index_resource(@user.credit_cards)
   end
 
   # since a user is limited to one credit card, this method is used for both
