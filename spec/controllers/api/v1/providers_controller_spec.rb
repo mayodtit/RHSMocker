@@ -36,4 +36,22 @@ describe Api::V1::ProvidersController do
       end
     end
   end
+
+  describe 'GET search' do
+    def do_request
+      get :search
+    end
+
+    it_behaves_like 'action requiring authentication'
+
+    context 'authenticated', user: :authenticate! do
+      it_behaves_like 'success'
+
+      it 'returns providers from the search service' do
+        do_request
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:providers].to_json).to eq([provider].as_json.to_json)
+      end
+    end
+  end
 end

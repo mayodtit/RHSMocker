@@ -75,7 +75,8 @@ RHSMocker::Application.routes.draw do
         get :available, on: :collection
         get :available_times, on: :collection
       end
-      resources :providers, only: :index
+      get 'providers/search', to: 'providers#search'
+      resources :providers, only: :index # TODO - this is deprecated; left in for users#index
       resources :provider_call_logs, only: :create
       resources :side_effects, :only => :index
       post :signup, to: 'members#create', as: :signup # TODO - deprecated!
@@ -91,6 +92,7 @@ RHSMocker::Application.routes.draw do
       post 'user/update_password', to: 'members#secure_update', as: :update_password # TODO - deprecated!
       post 'user/update_email', to: 'members#secure_update', as: :update_email # TODO - deprecated!
       resources :users, only: [:show, :update, :destroy] do
+        get :index, on: :collection, to: 'providers#index' # TODO - this is deprecated; new endpoint: providers/search
         resources :agreements, only: :create, controller: 'user_agreements'
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
         resources :associates, except: [:new, :edit]
@@ -113,7 +115,6 @@ RHSMocker::Application.routes.draw do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
-        get :index, on: :collection, to: 'providers#index'
         resources :inverse_associations, only: [:index, :update, :destroy]
         post 'invite', :on => :member
         resources :cards, :only => [:create, :show, :update] do
