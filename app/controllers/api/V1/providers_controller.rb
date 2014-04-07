@@ -1,8 +1,13 @@
 class Api::V1::ProvidersController < Api::V1::ABaseController
   before_filter :load_providers!
 
+  # deprecated - use #search instead
   def index
     index_resource @providers, name: :users
+  end
+
+  def search
+    index_resource @providers, name: :providers
   end
 
   private

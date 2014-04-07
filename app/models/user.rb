@@ -65,6 +65,7 @@ class User < ActiveRecord::Base
   before_validation :set_defaults
   before_validation :strip_attributes
   before_create :create_google_analytics_uuid
+  after_save :publish
 
   def avatar=(encoded_avatar)
     if avatar_url && encoded_avatar.nil?
@@ -253,6 +254,12 @@ class User < ActiveRecord::Base
     Content.where(id: ucl)
   end
   #############################################################################
+
+  def publish
+    unless id_changed?
+      PubSub.publish "/users/#{id}/update", { id: id }
+    end
+  end
 
   private
 

@@ -15,18 +15,18 @@ describe ApnsConsultMessageJob  do
 
   describe '#create' do
     it 'enqueues the job for now' do
-      expect{ described_class.create(user.id, consult.id) }.to change(Delayed::Job, :count).by(1)
+      expect{ described_class.create(user.id, consult.id) }.to change(Delayed::Job, :count).by(3)
       job = Delayed::Job.last
       expect(job.run_at).to eq(Time.now)
       expect(job.queue).to eq("ApnsConsultMessageJob-UserId-#{user.id}-ConsultId-#{consult.id}")
     end
 
     it 'deletes existing jobs for the same user and consult' do
-      expect{ described_class.create(user.id, consult.id) }.to change(Delayed::Job, :count).by(1)
+      expect{ described_class.create(user.id, consult.id) }.to change(Delayed::Job, :count).by(3)
       first_job = Delayed::Job.last
       described_class.create(user.id, consult.id)
       expect(Delayed::Job.find_by_id(first_job.id)).to be_nil
-      expect(Delayed::Job.count).to eq(1)
+      expect(Delayed::Job.count).to eq(3)
     end
   end
 
