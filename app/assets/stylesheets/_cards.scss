@@ -18,7 +18,7 @@ font-family:"Roboto Light";
 
 .card {
   position: relative;
-  width: 297px;
+  width: 300px;
   overflow: hidden;
 
   &.question {
@@ -30,7 +30,7 @@ font-family:"Roboto Light";
   }
 
   &.birthday {
-    background-size: 297px;
+    background-size: 300px;
     background-image: image-url('Cakes.png');
     background-position: bottom;
     background-repeat: no-repeat;
