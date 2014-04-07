@@ -346,4 +346,48 @@ describe User do
       expect(u2).to be_persisted
     end
   end
+
+  describe '#publish' do
+    let(:user) { build(:user) }
+
+    context 'is called after' do
+      it 'create' do
+        user.should_receive(:publish)
+        user.save!
+      end
+
+      it 'update' do
+        user.save!
+        user.should_receive(:publish)
+        user.save!
+      end
+    end
+
+    context 'new record' do
+      before do
+        user.stub(:id_changed?) { true }
+      end
+
+      it 'does nothing' do
+        PubSub.should_not_receive(:publish)
+      end
+    end
+
+    context 'old record' do
+      let(:user) { build_stubbed(:user) }
+
+      before do
+        user.stub(:id_changed?) { false }
+        user.stub(:id) { 1 }
+      end
+
+      it 'publishes that a user was updated' do
+        PubSub.should_receive(:publish).with(
+          "/users/#{user.id}/update",
+          {id: user.id}
+        )
+        user.publish
+      end
+    end
+  end
 end

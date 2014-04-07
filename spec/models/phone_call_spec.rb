@@ -884,6 +884,7 @@ describe PhoneCall do
 
       before do
         phone_call.stub(:id_changed?) { false }
+        phone_call.stub(:id) { 2 }
       end
 
       it 'publishes that a phone call was updated' do
