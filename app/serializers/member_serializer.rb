@@ -10,7 +10,7 @@ class MemberSerializer < ActiveModel::Serializer
              :pusher_id, :full_name, :created_at, :email_read_only,
              :sharing_prohibited, :owner_id, :is_premium, :subscription_end_date,
              :pha_id, :pha_profile_bio_image_url, :pha_profile_url,
-             :show_welcome_call, :pha_full_name
+             :show_welcome_call, :pha_full_name, :signed_up?
 
   def attributes
     super.tap do |attributes|
