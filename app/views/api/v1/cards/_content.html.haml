@@ -1,13 +1,16 @@
 - if Metadata.new_card_design?
   .card.card-link{data: {card_id: card.try(:id)}}
-    .header
-      = image_tag('mayologo_card_@2x.png', class: %w(logo mayo-logo)) if resource.show_mayo_logo?
-    .body
-      .title= resource.title.html_safe
-      - if resource.card_abstract.present? || resource.abstract.present?
-        .abstract= (resource.card_abstract || resource.abstract).html_safe
-    .footer
-    = image_tag('ArrowDark.png', class: 'open-arrow')
+    - if resource.has_custom_card?
+      = resource.raw_preview.html_safe
+    - else
+      .header
+        = image_tag('mayologo_card_@2x.png', class: %w(logo mayo-logo)) if resource.show_mayo_logo?
+      .body
+        .title= resource.title.html_safe
+        - if resource.card_abstract.present? || resource.abstract.present?
+          .abstract= (resource.card_abstract || resource.abstract).html_safe
+      .footer
+      = image_tag('ArrowDark.png', class: 'open-arrow')
 - else
   .old
     .content_card
