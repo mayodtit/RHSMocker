@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140409155106) do
+ActiveRecord::Schema.define(:version => 20140409200131) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -98,6 +98,7 @@ ActiveRecord::Schema.define(:version => 20140409155106) do
     t.datetime "updated_at",       :null => false
     t.integer  "priority",         :null => false
     t.datetime "state_changed_at"
+    t.integer  "user_program_id"
   end
 
   create_table "collection_types", :force => true do |t|
