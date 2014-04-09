@@ -1,6 +1,7 @@
 FactoryGirl.define do
   factory :user_program do
-    user
+    association :user, factory: :member
     program
+    subject { user }
   end
 end
