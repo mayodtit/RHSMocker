@@ -34,6 +34,9 @@ class User < ActiveRecord::Base
                          foreign_key: :owner_id,
                          inverse_of: :owner
 
+  has_many :user_programs, dependent: :destroy
+  has_many :programs, through: :user_programs
+
   accepts_nested_attributes_for :user_information
   accepts_nested_attributes_for :address
   accepts_nested_attributes_for :insurance_policy
