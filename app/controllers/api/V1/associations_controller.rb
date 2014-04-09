@@ -7,19 +7,19 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   before_filter :convert_parameters!, only: [:create, :update]
 
   def index
-    render_success(associations: @associations.serializer,
+    render_success(associations: @associations.serializer(serializer_options),
                    permissions: @associations.map(&:permission).serializer)
   end
 
   def show
-    render_success(association: @association.serializer,
+    render_success(association: @association.serializer(serializer_options),
                    permissions: [@association.permission].serializer)
   end
 
   def create
     @association = @user.associations.create(permitted_params.association)
     if @association.errors.empty?
-      render_success(association: @association.serializer,
+      render_success(association: @association.serializer(serializer_options),
                      permissions: [@association.permission].serializer)
     else
       render_failure({reason: @association.errors.full_messages.to_sentence}, 422)
@@ -28,7 +28,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def update
     if @association.update_attributes(permitted_params.association)
-      render_success({association: @association.serializer,
+      render_success({association: @association.serializer(serializer_options),
                       permissions: [@association.permission].serializer.as_json}.tap do |hash|
                        hash.merge!(users: [@association.user.serializer, @association.associate.serializer]) unless @association.association_type.try(:hcp?)
                        hash.merge!(inverse_association: @association.pair.serializer) if @association.pair
@@ -124,5 +124,11 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   # In the future we may auto-populate the address for NPI providers based on Bloom search results.
   def add_address_attributes(address)
     params[:association][:associate_attributes][:address_attributes] = address if address
+  end
+
+  def serializer_options
+    {}.tap do |options|
+      options.merge!(include_nested_information: true) if current_user.care_provider?
+    end
   end
 end

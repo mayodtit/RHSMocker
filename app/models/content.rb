@@ -2,6 +2,8 @@ class Content < ActiveRecord::Base
   include SolrExtensionModule
   CONTENT_TYPES = %w(Article Answer HealthTip FirstAid)
 
+  attr_accessor :user_program
+
   has_many :user_readings
   has_many :users, :through => :user_readings
   has_many :content_mayo_vocabularies
@@ -97,7 +99,20 @@ class Content < ActiveRecord::Base
     end
   end
 
+  # TODO - programs are more than just Content, this should be moved to Card
   def self.next_for(user)
+    user_program = user.user_programs[Random.new.rand(0..user.user_programs.count)] # index one larger than bounds
+    return random if user_program.nil? # when the index is out of bounds
+
+    # TODO - this isn't really the best algorithm, but the data set is typically small
+    user_program.program.contents.each do |content|
+      if user.cards.where(resource_id: content.id, resource_type: 'Content').empty?
+        content.user_program = user_program
+        return content
+      end
+    end
+
+    # if the user_program was empty, hit up random
     random
   end
 

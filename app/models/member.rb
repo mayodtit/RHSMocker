@@ -27,6 +27,9 @@ class Member < User
                            foreign_key: :pha_id,
                            inverse_of: :pha
 
+  has_many :user_programs, foreign_key: :user_id, dependent: :destroy
+  has_many :programs, through: :user_programs
+
   accepts_nested_attributes_for :user_agreements
 
   attr_accessible :install_id, :password, :password_confirmation,

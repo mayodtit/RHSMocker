@@ -24,10 +24,15 @@ class Api::V1::UsersController < Api::V1::ABaseController
     authorize! :manage, @user
   end
 
+  def user_params
+    params.fetch(:user){params.require(:member)}
+  end
+
   def convert_parameters!
-    address = params[:user][:address]
-    params[:user][:address_attributes] = address if address
-    params[:user][:avatar] = decode_b64_image(params[:user][:avatar]) if params[:user][:avatar]
+    %i(user_information address insurance_policy provider emergency_contact).each do |key|
+      user_params["#{key}_attributes".to_sym] = user_params[key] if user_params[key]
+    end
+    user_params[:avatar] = decode_b64_image(user_params[:avatar]) if user_params[:avatar]
   end
 
   def serializer_options
