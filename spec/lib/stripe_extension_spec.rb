@@ -1,6 +1,6 @@
 require './lib/stripe_extension.rb'
 
-class Rails; end # to avoid loading the rails env
+module Rails; end # to avoid loading the rails env
 
 describe StripeExtension do
   describe '#plan_serializer' do
