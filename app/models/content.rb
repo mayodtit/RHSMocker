@@ -99,11 +99,11 @@ class Content < ActiveRecord::Base
 
   # TODO - programs are more than just Content, this should be moved to Card
   def self.next_for(user)
-    user_program = user_programs[Random.new(0..user_programs.count)] # index one larger than bounds
+    user_program = user.user_programs[Random.new.rand(0..user.user_programs.count)] # index one larger than bounds
     return random if user_program.nil? # when the index is out of bounds
 
     # TODO - this isn't really the best algorithm, but the data set is typically small
-    user_program.contents.each do |content|
+    user_program.program.contents.each do |content|
       if user.cards.where(resource_id: content.id, resource_type: 'Content').empty?
         return content
       end
