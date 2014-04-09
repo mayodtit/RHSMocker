@@ -2,6 +2,8 @@ class Content < ActiveRecord::Base
   include SolrExtensionModule
   CONTENT_TYPES = %w(Article Answer HealthTip FirstAid)
 
+  attr_accessor :user_program
+
   has_many :user_readings
   has_many :users, :through => :user_readings
   has_many :content_mayo_vocabularies
@@ -105,6 +107,7 @@ class Content < ActiveRecord::Base
     # TODO - this isn't really the best algorithm, but the data set is typically small
     user_program.program.contents.each do |content|
       if user.cards.where(resource_id: content.id, resource_type: 'Content').empty?
+        content.user_program = user_program
         return content
       end
     end
