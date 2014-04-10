@@ -71,7 +71,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def user_information_attributes
-    [:id, :notes]
+    [:id, :notes, :highlights]
   end
 
   def address_attributes
