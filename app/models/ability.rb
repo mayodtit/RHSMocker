@@ -97,10 +97,7 @@ class Ability
         o.to_pha?
       end
 
-      can :ru, ScheduledPhoneCall do |o|
-        o.owner.id == user.id
-      end
-
+      can :ru, ScheduledPhoneCall
       can :index, ScheduledPhoneCall
     end
 
