@@ -16,9 +16,14 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
     index_resource(@subscriptions)
   end
 
+  # TODO: this transaction should be all-or-nothing.
+  # Right now it's posible for the user to become premium without paying,
+  # but it's better than them paying without becoming a premium member.
   def create
-    @customer.subscriptions.create(subscription_attributes)
-    update_resource @user, user_attributes, name: :user
+    sa = subscription_attributes
+    r = update_resource @user, user_attributes, name: :user
+    @customer.subscriptions.create(sa)
+    r
   end
 
   private
