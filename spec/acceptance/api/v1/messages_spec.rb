@@ -42,6 +42,8 @@ resource "Messages" do
       expect(status).to eq(200)
       body = JSON.parse(response_body, symbolize_names: true)
       message = Message.find(body[:message][:id])
+      # Because message is loaded on the after_save that updates last_contact_at
+      message.user.last_contact_at = nil
       expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
       expect(body[:message][:image_url]).to_not be_nil
     end
