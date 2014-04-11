@@ -58,4 +58,13 @@ describe Message do
       end
     end
   end
+
+  describe 'update_initiator_last_contact_at' do
+    let(:message) { build :message }
+
+    it 'sets the consults initiator to last contact at' do
+      message.consult.initiator.should_receive(:update_attributes!).with(last_contact_at: message.created_at)
+      message.update_initiator_last_contact_at
+    end
+  end
 end
