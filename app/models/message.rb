@@ -30,6 +30,7 @@ class Message < ActiveRecord::Base
   after_create :publish
   after_create :notify_initiator
   after_create :create_task
+  after_create :update_initiator_last_contact_at
 
   accepts_nested_attributes_for :phone_call
   accepts_nested_attributes_for :scheduled_phone_call
@@ -48,6 +49,10 @@ class Message < ActiveRecord::Base
   def create_task
     return if scheduled_phone_call_id.present? || phone_call_id.present?
     MessageTask.create_if_only_opened_for_consult! consult, self
+  end
+
+  def update_initiator_last_contact_at
+    consult.initiator.update_attributes! last_contact_at: self.created_at
   end
 
   private

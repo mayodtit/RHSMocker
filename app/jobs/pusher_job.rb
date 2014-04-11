@@ -7,7 +7,7 @@ class PusherJob
     return if user.max_inbox_content?
     content = Content.next_for(user)
     return unless content
-    user.cards.create(resource: content)
+    user.cards.create(resource: content, user_program: content.user_program)
     PusherModule.broadcast(user.pusher_id, 'newcontent', content.id, content.content_type)
   end
   handle_asynchronously :push_content

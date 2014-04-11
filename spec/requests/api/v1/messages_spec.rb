@@ -49,6 +49,8 @@ describe 'Messages' do
       expect(response).to be_success
       body = JSON.parse(response.body, symbolize_names: true)
       message = Message.find(body[:message][:id])
+      # Because message is loaded on the after_save that updates last_contact_at
+      message.user.last_contact_at = nil
       expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
     end
   end
@@ -66,6 +68,8 @@ describe 'Messages' do
       expect(response).to be_success
       body = JSON.parse(response.body, symbolize_names: true)
       message = Message.find(body[:message][:id])
+      # Because message is loaded on the after_save that updates last_contact_at
+      message.user.last_contact_at = nil
       expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
     end
   end
