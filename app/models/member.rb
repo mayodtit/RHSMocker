@@ -167,13 +167,14 @@ class Member < User
 
   def is_premium=(value)
     if value == true
-      cards.build(resource: Content.premium, priority: 50) if Content.premium # fail silently
-      cards.build(resource: CustomCard.onboarding, priority: 45) if CustomCard.onboarding # fail silently
+      add_premium_cards
       master_consult || build_master_consult(subject: self,
                                              title: 'Direct messaging with your Better PHA',
                                              skip_tasks: true)
-      assign_pha!
+      assign_pha! if pha_id.nil?
       RHSMailer.welcome_to_premium_email(email, salutation).deliver
+    elsif value == false
+      remove_premium_cards
     end
     super
   end
@@ -203,6 +204,16 @@ class Member < User
 
   def assign_pha!
     update_attributes!(pha: self.class.next_pha)
+  end
+
+  def add_premium_cards
+    cards.build(resource: Content.premium, priority: 50) if Content.premium # fail silently
+    cards.build(resource: CustomCard.onboarding, priority: 45) if CustomCard.onboarding # fail silently
+  end
+
+  def remove_premium_cards
+    cards.where(resource_type: CustomCard, resource_id: CustomCard.onboarding.id).destroy_all
+    cards.where(resource_type: Content, resource_id: Content.premium.id).destroy_all
   end
 
   private
