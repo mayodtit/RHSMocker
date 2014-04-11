@@ -2,18 +2,10 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :render_failure_if_not_self
   before_filter :create_credit_card!, only: :create
-  before_filter :load_customer!
+  before_filter :load_customer!, only: :create
 
   def index
-    @subscriptions = @customer.subscriptions.inject([]) do |array, subscription|
-      array << {
-        id: subscription.id,
-        plan: StripeExtension.plan_serializer(subscription.plan)
-      }
-      array
-    end
-
-    index_resource(@subscriptions)
+    index_resource(@user.subscriptions)
   end
 
   # TODO: this transaction should be all-or-nothing.
