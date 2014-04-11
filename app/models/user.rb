@@ -223,7 +223,7 @@ class User < ActiveRecord::Base
 
   def subscription_end_date
     if is_premium? and subscriptions.empty?
-      DateTime.parse('Dec 31 9999')
+      DateTime.parse('Dec 31 2099')
     else
       self[:subscription_end_date]
     end
