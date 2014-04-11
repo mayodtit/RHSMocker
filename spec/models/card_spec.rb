@@ -12,6 +12,7 @@ describe Card do
   it_has_a 'valid factory', :custom_with_content
   it_validates 'presence of', :user
   it_validates 'presence of', :resource
+  it_validates 'foreign key of', :user_program
   it_validates 'uniqueness of', :resource_id, :user_id, :resource_type
 
   describe 'state machine' do

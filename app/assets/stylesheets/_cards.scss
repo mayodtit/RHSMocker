@@ -82,7 +82,22 @@ font-family:"Roboto Light";
   }
 
   .footer {
-    padding: 25px 0px 0px;
+    color: $timberwolf;
+    margin: 0px 20px;
+    padding: 15px 0px 0px;
+    img {
+      padding: 6px;
+      float: left;
+      width: 30px;
+    }
+    .card-info-copy {
+      font-family:"Roboto Light";
+      font-size: 10pt;
+      overflow: hidden;
+      strong {
+        font-family: "Roboto";
+      }
+    }
   }
 
   .open-arrow {

@@ -98,6 +98,7 @@ ActiveRecord::Schema.define(:version => 20140410235618) do
     t.datetime "updated_at",       :null => false
     t.integer  "priority",         :null => false
     t.datetime "state_changed_at"
+    t.integer  "user_program_id"
   end
 
   create_table "collection_types", :force => true do |t|

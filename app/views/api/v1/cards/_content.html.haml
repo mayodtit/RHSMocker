@@ -10,6 +10,13 @@
         - if resource.card_abstract.present? || resource.abstract.present?
           .abstract= (resource.card_abstract || resource.abstract).html_safe
       .footer
+        - if card.user_program
+          .card-info
+            = image_tag(card.user_program.subject.avatar_or_gender_url)
+            .card-info-copy
+              Because #{card.user_program.subject.first_name} is in the
+              %strong= card.user_program.program.title
+              program
       = image_tag('ArrowDark.png', class: 'open-arrow')
 - else
   .old
