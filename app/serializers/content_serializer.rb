@@ -7,7 +7,8 @@ class ContentSerializer < ViewSerializer
              :card_actions, :fullscreen_actions, :condition_id
 
   delegate :show_mayo_copyright?, :show_call_option?, :show_mayo_logo?,
-           :has_custom_card?, :card_template, :card_abstract, to: :object
+           :has_custom_card?, :card_template, :card_abstract, :user_program,
+           to: :object
   alias_method :contentID, :id
   alias_method :contents_type, :content_type
 
