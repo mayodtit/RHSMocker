@@ -5,15 +5,16 @@ module Rails; end # to avoid loading the rails env
 describe StripeExtension do
   describe '#plan_serializer' do
     before do
-      @stripe_plan = double()
-      @stripe_plan.stub(:id).and_return(1)
-      @stripe_plan.stub(:name).and_return('plan')
-      @stripe_plan.stub(:price).and_return('1337')
+      @stripe_plan = {
+        id: 1,
+        name: 'plan',
+        price: '1337'
+      }
     end
 
     context 'without metadata' do
       it 'returns Stripe plan hash' do
-        @stripe_plan.stub(:metadata).and_return({})
+        @stripe_plan[:metadata] = {}
         expected_hash = {
           id: 1,
           name: 'plan',
@@ -28,10 +29,10 @@ describe StripeExtension do
 
     context 'with metadata' do
       it 'returns Stripe plan hash' do
-        @stripe_plan.stub(:metadata).and_return({
+        @stripe_plan[:metadata] = {
           display_name: 'p',
           display_price: '$313.37 USD/month'
-        })
+        }
 
         expected_hash = {
           id: 1,

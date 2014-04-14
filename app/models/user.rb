@@ -210,6 +210,25 @@ class User < ActiveRecord::Base
     end
   end
 
+  def subscriptions
+    return [] if stripe_customer_id.nil?
+
+    customer = Stripe::Customer.retrieve(stripe_customer_id)
+    array = []
+    customer.subscriptions.each do |subscription|
+      array << StripeExtension.subscription_serializer(subscription)
+    end
+    array
+  end
+
+  def subscription_end_date
+    if is_premium? and self[:subscription_end_date].nil? and subscriptions.empty?
+      DateTime.parse('Dec 31 2099').in_time_zone
+    else
+      self[:subscription_end_date]
+    end
+  end
+
   def remove_all_credit_cards
     return if stripe_customer_id.nil?
 
