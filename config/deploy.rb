@@ -51,25 +51,11 @@ task :production do
   role :web,      'longhorn.getbetter.com'
   role :app,      'longhorn.getbetter.com', :primary => true
   role :web,      'wolverine.getbetter.com'
-  #role :app,      "wolverine.getbetter.com", :primary => true
   role :web,      'buckeye.getbetter.com'
   role :app,      'buckeye.getbetter.com'
   role :db,       'longhorn.getbetter.com', :primary => true
   role :delayed,  'longhorn.getbetter.com'
 end
-
-#desc "Deploy target qaold @ FireHost (buckeye)"
-#task :qaold do
-#  set :port, 22
-#  set :branch,    'qa'
-#  set :rails_env, 'qa'
-#  set :deploy_to, '/home/rhs/qa'
-#  role :web,      'wolverine.getbetter.com'
-#  role :web,      'buckeye.getbetter.com'
-#  role :app,      'buckeye.getbetter.com', :primary => true
-#  role :db,       'buckeye.getbetter.com', :primary => true
-#  role :delayed,  'buckeye.getbetter.com'
-#end
 
 desc "Deploy target qa (goldenbear @ EC2)"
 task :qa do
