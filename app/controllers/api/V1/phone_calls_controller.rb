@@ -1,6 +1,5 @@
 class Api::V1::PhoneCallsController < Api::V1::ABaseController
   before_filter :load_user!, :only => [:index, :show, :create, :update, :hang_up, :transfer, :merge]
-  before_filter :load_member!, :only => [:index]
   before_filter :load_consult!, only: :create
   before_filter :load_phone_call!, :except => [:index, :create, :connect, :status, :connect_nurse]
   before_filter :convert_parameters!, only: :create
@@ -149,14 +148,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
   private
 
   def phone_calls
-    @member ? @member.phone_calls : PhoneCall
-  end
-
-  def load_member!
-    if params[:member_id]
-      @member = User.find(params[:member_id])
-      authorize! :manage, @member
-    end
+    PhoneCall
   end
 
   def disconnected_call_status?

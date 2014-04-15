@@ -13,26 +13,30 @@ class MemberSerializer < ActiveModel::Serializer
              :show_welcome_call, :pha_full_name, :last_contact_at
 
   def attributes
-    super.tap do |attributes|
-      if options[:include_roles]
-        attributes.merge!(admin?: object.admin?,
-                          nurse?: object.nurse?,
-                          pha?: object.pha?,
-                          pha_lead?: object.pha_lead?,
-                          care_provider?: object.care_provider?)
-        attributes.merge!(roles: object.roles.map(&:name))
-      end
+    if options[:shallow]
+      [:id, :avatar_url, :first_name, :last_name, :email, :full_name]
+    else
+      super.tap do |attributes|
+        if options[:include_roles]
+          attributes.merge!(admin?: object.admin?,
+                            nurse?: object.nurse?,
+                            pha?: object.pha?,
+                            pha_lead?: object.pha_lead?,
+                            care_provider?: object.care_provider?)
+          attributes.merge!(roles: object.roles.map(&:name))
+        end
 
-      if options[:include_health_information]
-        attributes.merge!(blood_pressure: object.blood_pressure,
-                          weight: object.weight)
-      end
+        if options[:include_health_information]
+          attributes.merge!(blood_pressure: object.blood_pressure,
+                            weight: object.weight)
+        end
 
-      if options[:include_nested_information]
-        attributes.merge!(user_information: object.user_information,
-                          insurance_policy: object.insurance_policy,
-                          provider: object.provider,
-                          emergency_contact: object.emergency_contact.try(:serializer).try(:as_json))
+        if options[:include_nested_information]
+          attributes.merge!(user_information: object.user_information,
+                            insurance_policy: object.insurance_policy,
+                            provider: object.provider,
+                            emergency_contact: object.emergency_contact.try(:serializer).try(:as_json))
+        end
       end
     end
   end

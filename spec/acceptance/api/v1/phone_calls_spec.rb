@@ -51,32 +51,6 @@ resource "PhoneCalls" do
     end
   end
 
-  describe 'phone calls for member' do
-    let!(:user) { pha }
-    let!(:member) { create :member }
-    let!(:member_phone_call) { create :phone_call, user: member, to_role: pha_role, state: :unresolved }
-    let!(:unclaimed_member_phone_call) { create :phone_call, user: member, to_role: nurse.roles.first, state: :unclaimed }
-
-    parameter :auth_token, 'Performing hcp\'s auth_token'
-    parameter :state, 'Filter by the state of phone call (\'claimed\',\'unclaimed\', \'ended\')'
-    parameter :member_id, 'Id of member'
-
-    required_parameters :auth_token
-
-    let(:auth_token) { user.auth_token }
-    let(:state) { 'unresolved' }
-    let(:member_id) { member.id }
-
-    get '/api/v1/members/:member_id/phone_calls/' do
-      example_request '[GET] Get all phone calls created by a member' do
-        explanation 'Get all phone calls created by a member'
-        expect(status).to eq(200)
-        body = JSON.parse(response_body, symbolize_names: true)
-        expect(body[:phone_calls].to_json).to eq([member_phone_call].serializer.as_json.to_json)
-      end
-    end
-  end
-
   describe 'phone call' do
     parameter :auth_token, 'Performing hcp\'s auth_token'
     parameter :id, 'Phone call id'
