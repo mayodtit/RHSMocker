@@ -14,7 +14,14 @@ class MemberSerializer < ActiveModel::Serializer
 
   def attributes
     if options[:shallow]
-      [:id, :avatar_url, :first_name, :last_name, :email, :full_name]
+      {
+        id: object.id,
+        avatar_url: object.avatar_url,
+        first_name: object.first_name,
+        last_name: object.last_name,
+        email: object.email,
+        full_name: object.full_name
+      }
     else
       super.tap do |attributes|
         if options[:include_roles]
