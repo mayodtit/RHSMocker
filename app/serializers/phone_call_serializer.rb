@@ -13,7 +13,8 @@ class PhoneCallSerializer < ActiveModel::Serializer
       {
         id: object.id,
         created_at: object.created_at,
-        user_id: object.user_id
+        user_id: object.user_id,
+        state: object.state
       }
     else
       super
