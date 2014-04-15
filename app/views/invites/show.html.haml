@@ -1,14 +1,28 @@
-%h1 Complete registration for #{@member.email}
+.invites
+  .container
+    %h2 Complete registration for:
+    %h5= @member.email
 
-- if @member.errors.any?
-  %ul
-    - @member.errors.full_messages.each do |error|
-      %li= error
+    - if @member.errors.any?
+      %ul
+        - @member.errors.full_messages.each do |error|
+          %li= error
 
-= form_tag @member.invitation_token, :method => :put do
-  = label_tag 'user[password]', 'Password'
-  = password_field_tag 'user[password]'
-  = label_tag 'user[password_confirmation]', 'Confirm password'
-  = password_field_tag 'user[password_confirmation]'
-  %br
-  = submit_tag 'Sign up!'
+    = form_tag @member.invitation_token, method: :put do
+      .field
+        = label_tag 'user[first_name]', 'First Name'
+        = text_field_tag 'user[first_name]'
+      .field
+        = label_tag 'user[last_name]', 'Last Name'
+        = text_field_tag 'user[last_name]'
+      .field
+        = label_tag 'user[password]', 'Password'
+        = password_field_tag 'user[password]'
+      .field
+        = label_tag 'user[agreement_id]', 'Birthdate (18 or older)'
+        = date_select('user', 'birthdate', order: %i(month day year), default: 18.years.ago)
+      .field
+        = check_box_tag 'user[agreement_id]', Agreement.active.id
+        = label_tag 'user[agreement_id]', 'I have read and agree to the Terms of Service'
+      %br
+      = submit_tag 'Sign up'
