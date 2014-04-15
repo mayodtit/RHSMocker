@@ -16,7 +16,7 @@ describe 'Messages' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:messages].to_json).to eq([message].serializer.as_json.to_json)
+        expect(body[:messages].to_json).to eq([message].serializer(shallow: true).as_json.to_json)
       end
     end
 
@@ -32,7 +32,7 @@ describe 'Messages' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:messages].to_json).to eq([master_message].serializer.as_json.to_json)
+        expect(body[:messages].to_json).to eq([master_message].serializer(shallow: true).as_json.to_json)
       end
     end
   end

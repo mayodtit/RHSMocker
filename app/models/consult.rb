@@ -2,7 +2,7 @@ class Consult < ActiveRecord::Base
   belongs_to :initiator, class_name: 'Member'
   belongs_to :subject, class_name: 'User'
   belongs_to :symptom
-  has_many :messages, inverse_of: :consult
+  has_many :messages, inverse_of: :consult, order: 'created_at ASC'
   has_many :users, through: :messages
   has_many :phone_calls, through: :messages
   has_many :scheduled_phone_calls, through: :messages

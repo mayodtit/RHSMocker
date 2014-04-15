@@ -59,7 +59,6 @@ RHSMocker::Application.routes.draw do
         get :current, on: :collection
         put :secure_update, on: :member
         put :update_current, on: :collection # TODO - this should be deprecated in general, client should know the ID
-        resources :phone_calls, :only => [:index]
       end
       post :password_resets, to: 'reset_password#create' # TODO - deprecated!
       resources :phone_call_summaries, :only => :show

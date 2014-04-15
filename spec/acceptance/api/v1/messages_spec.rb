@@ -21,7 +21,7 @@ resource "Messages" do
         explanation "Returns an array of Messages"
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
-        expect(body[:messages].to_json).to eq([message].serializer.as_json.to_json)
+        expect(body[:messages].to_json).to eq([message].serializer(shallow: true).as_json.to_json)
       end
     end
   end

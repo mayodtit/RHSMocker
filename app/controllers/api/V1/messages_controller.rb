@@ -5,7 +5,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
   def index
     render_success(consult: @consult.serializer,
-                   messages: @consult.messages.serializer,
+                   messages: @consult.messages.serializer(shallow: true),
                    users: @users.serializer)
   end
 
