@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140412005902) do
+ActiveRecord::Schema.define(:version => 20140414181026) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -321,6 +321,7 @@ ActiveRecord::Schema.define(:version => 20140412005902) do
     t.integer  "phone_call_summary_id"
     t.integer  "symptom_id"
     t.integer  "condition_id"
+    t.boolean  "cloned"
   end
 
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
