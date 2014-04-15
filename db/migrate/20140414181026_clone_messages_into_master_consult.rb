@@ -36,8 +36,8 @@ class CloneMessagesIntoMasterConsult < ActiveRecord::Migration
   end
 
   def down
-    Messages.where('cloned = ?', true).destroy_all
+    Message.where('cloned = ?', true).destroy_all
 
-    remove_column :message, :cloned, :boolean
+    remove_column :messages, :cloned
   end
 end
