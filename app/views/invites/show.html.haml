@@ -10,7 +10,7 @@
       = form_tag @member.invitation_token, method: :put do
         .field
           = image_tag 'email_off@2x.png'
-          = @member.email
+          .email= @member.email
         .field.no-bottom-border
           = image_tag 'name_on@2x.png'
           = text_field_tag 'user[first_name]', '', placeholder: 'First Name'
