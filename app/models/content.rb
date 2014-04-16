@@ -81,9 +81,16 @@ class Content < ActiveRecord::Base
 
   def self.random
     if Program.general
-      published.non_sensitive
-               .where(id: Program.general.contents.pluck(:id))
-               .first(order: 'RAND()')
+      if Random.new.rand(0..2) == 0
+        published.non_sensitive
+                 .where(id: Program.general.contents.pluck(:id))
+                 .where('preview_image_url IS NOT NULL')
+                 .first(order: 'RAND()')
+      else
+        published.non_sensitive
+                 .where(id: Program.general.contents.pluck(:id))
+                 .first(order: 'RAND()')
+      end
     else
       published.non_sensitive
                .where(:content_type => CONTENT_TYPES)

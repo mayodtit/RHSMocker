@@ -10,5 +10,5 @@ class PusherJob
     user.cards.create(resource: content, user_program: content.user_program)
     PusherModule.broadcast(user.pusher_id, 'newcontent', content.id, content.content_type)
   end
-  handle_asynchronously :push_content
+  handle_asynchronously :push_content, run_at: Proc.new{ 12.hours.from_now }
 end
