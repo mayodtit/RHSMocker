@@ -16,7 +16,7 @@ set :user, "rhs"                   # The server's user for deploys
 set :scm_verbose, true
 set :deploy_via, :remote_cache
 set :deploy_to, '/home/rhs/rails'
-set :keep_releases, 5
+set :keep_releases, 12
 #set :git_shallow_clone, 1
 set :rails_env, "development"
 set :use_sudo,  false
