@@ -130,7 +130,7 @@ class Member < User
   def invite! invitation
     return if signed_up?
     update_attributes!(:invitation_token => invitation.token)
-    UserMailer.invitation_email(self, invitation.member).deliver
+    # UserMailer.invitation_email(self, invitation.member).deliver
   end
 
   def signed_up?
