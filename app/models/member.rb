@@ -117,7 +117,8 @@ class Member < User
       cards.create!(resource: q)
     end
     4.times do
-      cards.create(resource: Content.next_for(self))
+      content = Content.next_for(self)
+      cards.create(resource: content) if content
     end
     true
   end
