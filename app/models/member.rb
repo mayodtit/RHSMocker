@@ -116,6 +116,9 @@ class Member < User
     Question.new_member_questions.each do |q|
       cards.create!(resource: q)
     end
+    4.times do
+      cards.create(resource: Content.next_for(self))
+    end
     true
   end
 
