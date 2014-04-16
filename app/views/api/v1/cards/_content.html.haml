@@ -10,7 +10,7 @@
         - if resource.card_abstract.present? || resource.abstract.present?
           .abstract= (resource.card_abstract || resource.abstract).html_safe
       .footer
-        - if card.user_program
+        - if card.try(:user_program)
           .card-info
             = image_tag(card.user_program.subject.avatar_or_gender_url)
             .card-info-copy
