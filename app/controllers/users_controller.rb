@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  layout 'public_page_layout'
+
   before_filter :load_token!
   before_filter :load_user!
 

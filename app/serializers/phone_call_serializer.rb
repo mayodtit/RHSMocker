@@ -8,16 +8,29 @@ class PhoneCallSerializer < ActiveModel::Serializer
              :member_connected?, :transferred?, :outbound?, :transferred_to_phone_call,
              :transferred_from_phone_call, :claimer, :user
 
+  def attributes
+    if options[:shallow]
+      {
+        id: object.id,
+        created_at: object.created_at,
+        user_id: object.user_id,
+        state: object.state
+      }
+    else
+      super
+    end
+  end
+
   def consult_id
     object.consult && object.consult.id
   end
 
   def user
-    MemberSerializer.new(object.user)
+    MemberSerializer.new(object.user, options)
   end
 
   def claimer
-    MemberSerializer.new(object.claimer)
+    MemberSerializer.new(object.claimer, options)
   end
 
   def transferred_to_phone_call
