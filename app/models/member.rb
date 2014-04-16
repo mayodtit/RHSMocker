@@ -52,6 +52,7 @@ class Member < User
   before_create :set_auth_token # generate inital auth_token
   after_create :add_install_message
   after_create :add_new_member_content
+  after_create :send_welcome_email
   #after_save :update_cards_for_questions!
 
   def self.name_search(string)
@@ -118,6 +119,10 @@ class Member < User
     true
   end
 
+  def send_welcome_email
+    RHSMailer.welcome_to_better_email(email, salutation).deliver
+  end
+
   def max_inbox_content?
     cards.inbox.select{|c| c.content_card?}.count > Card::MAX_CONTENT_PER_USER
   end
@@ -125,7 +130,7 @@ class Member < User
   def invite! invitation
     return if signed_up?
     update_attributes!(:invitation_token => invitation.token)
-    UserMailer.invitation_email(self, invitation.member).deliver
+    # UserMailer.invitation_email(self, invitation.member).deliver
   end
 
   def signed_up?

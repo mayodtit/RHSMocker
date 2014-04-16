@@ -13,10 +13,10 @@
           .email= @member.email
         .field.no-bottom-border
           = image_tag 'name_on@2x.png', class: 'field-icon'
-          = text_field_tag 'user[first_name]', '', placeholder: 'First Name'
+          = text_field_tag 'user[first_name]', (@member.first_name || ''), placeholder: 'First Name'
           .bottom-border
         .field.no-image.top-border.no-bottom-border
-          = text_field_tag 'user[last_name]', '', placeholder: 'Last Name'
+          = text_field_tag 'user[last_name]', (@member.last_name || ''), placeholder: 'Last Name'
         .field.top-border
           = image_tag 'password_on@2x.png', class: 'field-icon'
           = password_field_tag 'user[password]', '', placeholder: 'Password (8+ characters)'

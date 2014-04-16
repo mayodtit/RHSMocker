@@ -113,7 +113,7 @@ describe Member do
         member.invite! invitation
       end
 
-      it 'sends and delivers an invitation' do
+      xit 'sends and delivers an invitation' do
         UserMailer.should_receive(:invitation_email).with member, invitation.member
         email.should_receive :deliver
         member.invite! invitation
