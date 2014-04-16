@@ -1,4 +1,5 @@
 class InvitesController < ApplicationController
+  layout 'public_page_layout'
   before_filter :load_member!, :only => [:show, :update]
   before_filter :convert_parameters!, only: %i(update)
 

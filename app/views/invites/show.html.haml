@@ -9,19 +9,19 @@
             %li= error
       = form_tag @member.invitation_token, method: :put do
         .field
-          = image_tag 'email_off@2x.png'
-          = @member.email
+          = image_tag 'email_off@2x.png', class: 'field-icon'
+          .email= @member.email
         .field.no-bottom-border
-          = image_tag 'name_on@2x.png'
+          = image_tag 'name_on@2x.png', class: 'field-icon'
           = text_field_tag 'user[first_name]', '', placeholder: 'First Name'
           .bottom-border
         .field.no-image.top-border.no-bottom-border
           = text_field_tag 'user[last_name]', '', placeholder: 'Last Name'
         .field.top-border
-          = image_tag 'password_on@2x.png'
+          = image_tag 'password_on@2x.png', class: 'field-icon'
           = password_field_tag 'user[password]', '', placeholder: 'Password (8+ characters)'
         .field
-          = image_tag 'birthdate_on@2x.png'
+          = image_tag 'birthdate_on@2x.png', class: 'field-icon'
           = label_tag 'user[birthdate]', "Birthdate (18 or older)"
           .date-selector
             = date_select('user', 'birthdate', order: %i(month day year), default: 18.years.ago)
