@@ -12,7 +12,7 @@ class Api::V1::PingController < Api::V1::ABaseController
       hash.merge!({metadata: metadata_hash})
     end
 
-    if Gem::Version.new(params[:version] || '1.0.0') >= Gem::Version.new(Metadata.value_for_key('version') || '1.0.0')
+    if Gem::Version.new(params[:app_version] || params[:version] || '1.0.0') >= Gem::Version.new(Metadata.value_for_key('version') || '1.0.0')
       hash.merge!(valid: true)
     else
       hash.merge!(valid: false, app_store_url: Metadata.value_for_key('app_store_url'))
