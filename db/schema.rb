@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140416024257) do
+ActiveRecord::Schema.define(:version => 20140416085517) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -168,6 +168,7 @@ ActiveRecord::Schema.define(:version => 20140416024257) do
     t.integer  "condition_id"
     t.string   "card_template"
     t.string   "card_abstract"
+    t.string   "preview_image_url"
   end
 
   add_index "contents", ["document_id"], :name => "index_contents_on_document_id"

@@ -8,6 +8,7 @@ class ContentSerializer < ViewSerializer
 
   delegate :show_mayo_copyright?, :show_call_option?, :show_mayo_logo?,
            :has_custom_card?, :card_template, :card_abstract, :user_program,
+           :preview_image_url,
            to: :object
   alias_method :contentID, :id
   alias_method :contents_type, :content_type

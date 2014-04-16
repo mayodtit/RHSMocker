@@ -21,6 +21,10 @@ font-family:"Roboto Light";
   width: 300px;
   overflow: hidden;
 
+  .card-image {
+    width: 300px;
+  }
+
   &.question {
     background-color: $pacific-blue;
     color: white;

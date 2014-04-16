@@ -2,6 +2,8 @@
   .card.card-link{data: {card_id: card.try(:id)}}
     - if resource.has_custom_card?
       = resource.raw_preview.html_safe
+    - elsif resource.preview_image_url.present?
+      = image_tag(resource.preview_image_url, class: 'card-image')
     - else
       .header
         = image_tag('mayologo_card_@2x.png', class: %w(logo mayo-logo)) if resource.show_mayo_logo?
