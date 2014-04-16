@@ -1,4 +1,8 @@
-%h1 PHA Profile for #{@pha_profile.user.full_name}.
+.pha_profile
+  .content
+    - if @pha_profile.bio_image_url
+      .img
+        = image_tag(@pha_profile.bio_image_url)
 
-- if @pha_profile.bio_image_url
-  = image_tag(@pha_profile.bio_image_url)
+    - if @pha_profile.bio
+      %p= @pha_profile.bio
