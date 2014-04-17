@@ -214,7 +214,8 @@ describe Api::V1::ScheduledPhoneCallsController do
         scheduled_phone_call.stub(:assigned?) { true }
         scheduled_phone_call.should_receive(:update_attributes).with(
           'state_event' => :book,
-          'user_id' => pha.id.to_s
+          'user_id' => pha.id.to_s,
+          'booker' => pha
         )
         put :update, scheduled_phone_call: {user_id: pha.id}
       end
