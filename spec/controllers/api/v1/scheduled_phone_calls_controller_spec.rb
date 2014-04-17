@@ -158,6 +158,7 @@ describe Api::V1::ScheduledPhoneCallsController do
         params['state'] = 'assigned'
         params['assignor_id'] = user.id
         params['assigned_at'] = Time.now
+        params['callback_phone_number'] = '9113114111'
 
         ScheduledPhoneCall.should_receive(:create).with(params).once
         post :create, scheduled_phone_call: json

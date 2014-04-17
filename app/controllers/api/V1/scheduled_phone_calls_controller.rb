@@ -83,7 +83,7 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   end
 
   def create_or_update_params
-    params.require(:scheduled_phone_call).permit(:owner_id, :user_id, :scheduled_at, :state_event)
+    params.require(:scheduled_phone_call).permit(:owner_id, :user_id, :scheduled_at, :state_event, :callback_phone_number)
   end
 
   def load_scheduled_phone_call!
