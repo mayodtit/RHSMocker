@@ -210,6 +210,15 @@ describe Api::V1::ScheduledPhoneCallsController do
         put :update, scheduled_phone_call: {state_event: 'assign', owner_id: pha.id}
       end
 
+      it 'sets the the state_event to book if a user is passed in and the scheduled call is assigned' do
+        scheduled_phone_call.stub(:assigned?) { true }
+        scheduled_phone_call.should_receive(:update_attributes).with(
+          'state_event' => :book,
+          'user_id' => pha.id.to_s
+        )
+        put :update, scheduled_phone_call: {user_id: pha.id}
+      end
+
       context 'update_attributes succeeds' do
         before do
           scheduled_phone_call.stub(update_attributes: true)
