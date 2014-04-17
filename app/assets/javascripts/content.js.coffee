@@ -5,6 +5,9 @@ $ ->
   $(".new-consult").click ->
     NativeBridge.call('newConsult', {card_id: $(".card").data("id"), title: $(@).data("title"), message: $(@).data("message"), consult_type: [$(@).data("consult-type")]})
 
+  $(".open-consult").click ->
+    NativeBridge.call('openConsult')
+
   $(".consult-link").click ->
     if not $(@).data("consult-id")
       return
