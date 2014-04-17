@@ -8,6 +8,9 @@ shared_examples 'creates a consult' do
     consult = Consult.find(body[:consult][:id])
     # Because subject == initiator, but initiator object is only updated in memory
     consult.subject.last_contact_at = nil
+    # Because phone number of consult initiator is set in after save from callback_phone_number
+    consult.initiator.phone = nil
+    consult.subject.phone = nil
     expect(body[:consult].to_json).to eq(consult.serializer.as_json.to_json)
     expect(consult.initiator).to eq(user)
     expect(consult.subject).to eq(user)
@@ -129,7 +132,7 @@ describe 'Consults' do
 
     context 'with a scheduled_phone_call' do
       let!(:scheduled_phone_call) { create(:scheduled_phone_call, :assigned) }
-      let(:scheduled_phone_call_params) { {scheduled_at: scheduled_phone_call.scheduled_at} }
+      let(:scheduled_phone_call_params) { {callback_phone_number: '4083913578', scheduled_at: scheduled_phone_call.scheduled_at} }
       let(:params) { {consult: {title: title, scheduled_phone_call: scheduled_phone_call_params}} }
 
       it_behaves_like 'creates a consult'

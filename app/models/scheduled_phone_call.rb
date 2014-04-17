@@ -28,9 +28,10 @@ class ScheduledPhoneCall < ActiveRecord::Base
   validates :scheduled_at, presence: true
   validates :user, presence: true, if: lambda{|spc| spc.user_id}
   validate :attrs_for_states
-  validates :callback_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
+  validates :callback_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: false, if: lambda { |spc| spc.user_id }
 
   after_create :if_assigned_notify_owner
+  after_save :set_user_phone_if_missing
 
   def user_confirmation_calendar_event
     # TODO: Copy needs to be updated
@@ -105,6 +106,13 @@ Prep:
   def assign_pha_to_user!
     unless user.pha
       user.update_attributes!(pha: owner)
+    end
+  end
+
+  def set_user_phone_if_missing
+    if user && !user.phone
+      user.phone = callback_phone_number
+      user.save!
     end
   end
 

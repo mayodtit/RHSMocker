@@ -69,7 +69,7 @@ resource "Consults" do
     let(:phone_call) { {origin_phone_number: '5555555555',
                         destination_phone_number: '1234567890',
                         to_role: 'nurse'} }
-    let(:scheduled_phone_call) { {scheduled_at: scheduled.scheduled_at} }
+    let(:scheduled_phone_call) { {callback_phone_number: '4083913578', scheduled_at: scheduled.scheduled_at} }
     let(:raw_post) { params.to_json }
 
     example_request '[POST] Create a Consult' do
@@ -79,6 +79,9 @@ resource "Consults" do
       consult = Consult.find(body[:consult][:id])
       # Because subject == initiator, but initiator object is only updated in memory
       consult.subject.last_contact_at = nil
+      # Because phone number of consult initiator is set in after save from callback_phone_number
+      consult.subject.phone = nil
+      consult.initiator.phone = nil
       expect(body[:consult].to_json).to eq(consult.serializer.as_json.to_json)
       consult.description.should == description
       PhoneCall.last.to_role.should == @nurse

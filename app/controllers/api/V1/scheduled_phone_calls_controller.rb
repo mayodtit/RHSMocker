@@ -49,6 +49,9 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
     update_params = create_or_update_params
     if update_params[:state_event]
       update_params[update_params[:state_event].event_actor] = current_user
+    # NOTE 4/17/2014: Fixes bug where iOS does not send state_event after move to one consult to rule them all
+    elsif update_params[:user_id] && @scheduled_phone_call.assigned?
+      update_params[:state_event] = :book
     end
 
     update_resource @scheduled_phone_call, update_params
