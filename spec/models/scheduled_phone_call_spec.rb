@@ -73,6 +73,45 @@ describe ScheduledPhoneCall do
     end
   end
 
+  describe 'set_user_phone_if_missing' do
+    let(:scheduled_phone_call) { create(:scheduled_phone_call, :booked) }
+
+    context 'no user' do
+      before do
+        scheduled_phone_call.user = nil
+      end
+
+      it 'does nothing' do
+        scheduled_phone_call.set_user_phone_if_missing
+      end
+    end
+
+    context 'user exists' do
+      context 'user has a phone number already' do
+        before do
+          scheduled_phone_call.user.stub(:phone) { '4083913578' }
+        end
+
+        it 'does not set the user phone' do
+          scheduled_phone_call.set_user_phone_if_missing
+          scheduled_phone_call.user.phone.should_not == scheduled_phone_call.callback_phone_number
+        end
+      end
+
+      context 'user does not have a phone number' do
+        before do
+          scheduled_phone_call.user.phone = nil
+        end
+
+        it 'does not set the user phone' do
+          scheduled_phone_call.user.should_receive(:save!)
+          scheduled_phone_call.set_user_phone_if_missing
+          scheduled_phone_call.user.phone.should == scheduled_phone_call.callback_phone_number
+        end
+      end
+    end
+  end
+
   describe 'states' do
     let(:pha_lead) { build_stubbed(:pha_lead) }
     let(:pha) { build_stubbed(:pha) }
