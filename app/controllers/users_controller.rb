@@ -8,8 +8,7 @@ class UsersController < ApplicationController
   end
 
   def reset_password_update
-    @user.password_confirmation = params[:member][:password_confirmation]
-    if @user.change_password!(params[:member][:password])
+    if @user.update_attributes(password: params[:member][:password], skip_agreement_validation: true)
       render :reset_password_success
     else
       render :reset_password
