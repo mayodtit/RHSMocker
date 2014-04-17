@@ -5,9 +5,9 @@ class FixFutureBookedScheduledPhoneCalls < ActiveRecord::Migration
 
       if s.callback_phone_number.nil?
         puts "INVALID SCHEDULED_PHONE_CALL: #{s.id} - NO CALLBACK PHONE NUMBER"
+      else
+        s.update_attributes! state_event: :book
       end
-
-      s.update_attributes! state_event: :book
     end
   end
 
