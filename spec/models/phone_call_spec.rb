@@ -1373,7 +1373,7 @@ describe PhoneCall do
         end
 
         it 'changes the state to missed' do
-          phone_call.should be_missed
+          phone_call.should be_unclaimed
         end
       end
     end
