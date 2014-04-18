@@ -4,9 +4,10 @@
   .main
     .container
       - if @member.errors.any?
-        %ul
-          - @member.errors.full_messages.each do |error|
-            %li= error
+        #error_explanation
+          %ul
+            - @member.errors.full_messages.each do |error|
+              %li= error
       = form_tag @member.invitation_token, method: :put do
         .field
           = image_tag 'email_off@2x.png', class: 'field-icon'
@@ -24,7 +25,7 @@
           = image_tag 'birthdate_on@2x.png', class: 'field-icon'
           = label_tag 'user[birthdate]', "Birthdate (18 or older)"
           .date-selector
-            = date_select('user', 'birthdate', order: %i(month day year), default: 18.years.ago)
+            = date_select('user', 'birthdate', order: %i(month day year), default: @member.birth_date || 18.years.ago)
         .field.no-bottom-border
           = check_box_tag 'user[agreement_id]', Agreement.active.id
           = label_tag 'user[agreement_id]', 'I have read and agree to the Terms of Service'
