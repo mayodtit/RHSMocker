@@ -5,4 +5,18 @@ class ScheduledPhoneCallSerializer < ActiveModel::Serializer
   has_one :user
   has_one :owner
   has_one :phone_call
+
+  def attributes
+    if options[:shallow]
+      {
+        id: object.id,
+        owner: object.owner,
+        state: object.state,
+        scheduled_at: object.scheduled_at,
+        created_at: object.created_at
+      }
+    else
+      super
+    end
+  end
 end
