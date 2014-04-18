@@ -11,7 +11,11 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
   def create
     create_resource(@consult.messages, message_attributes)
-    send_robot_response! if send_robot_response?
+    if send_robot_response?
+      send_robot_response!
+    elsif needs_off_hours_response?
+      send_after_hours_response!
+    end
   end
 
   private
@@ -47,5 +51,49 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
   def send_robot_response?
     !(Metadata.find_by_mkey('remove_robot_response').try(:mvalue) == 'true')
+  end
+
+  def send_after_hours_response!
+    @consult.messages.create(user: Member.robot,
+                             text: 'Your PHA is currently unavailable. Please leave a brief message and our team will get back to you shortly. If you are experiencing a medical emergency, please call 911.',
+                             created_at: Time.now + 2.seconds,
+                             off_hours: true)
+  end
+
+  def needs_off_hours_response?
+    return false unless off_hours?
+    return false if @user != @consult.initiator
+    if now.hour > 17 # same day off hours
+      return false if @consult.messages
+                              .where(off_hours: true)
+                              .where('created_at > ?', off_hours_start_today)
+                              .any?
+    elsif now.hour < 9 # yesterday off hours
+      return false if @consult.messages
+                              .where(off_hours: true)
+                              .where('created_at > ?', off_hours_start_yesterday)
+                              .any?
+    end
+    true
+  end
+
+  def off_hours?
+    now.saturday? || now.sunday? || now.hour < 9 || now.hour > 17
+  end
+
+  def now
+    @now ||= Time.now.in_time_zone('Pacific Time (US & Canada)')
+  end
+
+  def yesterday
+    @yesterday ||= now - 1.day
+  end
+
+  def off_hours_start_today
+    Time.new(now.year, now.month, now.day, 17, 0, 0, now.utc_offset)
+  end
+
+  def off_hours_start_yesterday
+    Time.new(yesterday.year, yesterday.month, yesterday.day, 17, 0, 0, yesterday.utc_offset)
   end
 end

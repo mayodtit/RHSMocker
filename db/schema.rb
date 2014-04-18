@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140417202633) do
+ActiveRecord::Schema.define(:version => 20140418032833) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -312,8 +312,8 @@ ActiveRecord::Schema.define(:version => 20140417202633) do
   create_table "messages", :force => true do |t|
     t.text     "text"
     t.integer  "user_id"
-    t.datetime "created_at",              :null => false
-    t.datetime "updated_at",              :null => false
+    t.datetime "created_at",                                 :null => false
+    t.datetime "updated_at",                                 :null => false
     t.integer  "consult_id"
     t.integer  "content_id"
     t.integer  "scheduled_phone_call_id"
@@ -323,6 +323,7 @@ ActiveRecord::Schema.define(:version => 20140417202633) do
     t.integer  "symptom_id"
     t.integer  "condition_id"
     t.boolean  "cloned"
+    t.boolean  "off_hours",               :default => false, :null => false
   end
 
   add_index "messages", ["consult_id", "created_at"], :name => "index_messages_on_consult_id_and_created_at"
