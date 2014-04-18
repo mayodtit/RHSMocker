@@ -29,7 +29,7 @@ class MessageSerializer < ActiveModel::Serializer
 
   def type
     if object.phone_call_id || object.scheduled_phone_call_id ||
-       object.phone_call_summary_id
+       object.phone_call_summary_id || object.off_hours
       :system
     else
       :user
