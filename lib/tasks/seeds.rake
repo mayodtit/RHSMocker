@@ -446,7 +446,8 @@ namespace :seeds do
             assignor: Member.find_by_email!(PHA_LEADS.sample),
             assigned_at: Time.now,
             booker: m,
-            user: m
+            user: m,
+            callback_phone_number: '4113116969'
           }
         }]
       )
