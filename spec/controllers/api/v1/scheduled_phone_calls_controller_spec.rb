@@ -158,6 +158,7 @@ describe Api::V1::ScheduledPhoneCallsController do
         params['state'] = 'assigned'
         params['assignor_id'] = user.id
         params['assigned_at'] = Time.now
+        params['callback_phone_number'] = '9113114111'
 
         ScheduledPhoneCall.should_receive(:create).with(params).once
         post :create, scheduled_phone_call: json
@@ -214,7 +215,8 @@ describe Api::V1::ScheduledPhoneCallsController do
         scheduled_phone_call.stub(:assigned?) { true }
         scheduled_phone_call.should_receive(:update_attributes).with(
           'state_event' => :book,
-          'user_id' => pha.id.to_s
+          'user_id' => pha.id.to_s,
+          'booker' => user
         )
         put :update, scheduled_phone_call: {user_id: pha.id}
       end

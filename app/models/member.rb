@@ -32,10 +32,13 @@ class Member < User
 
   accepts_nested_attributes_for :user_agreements
 
+  attr_accessor :skip_agreement_validation
+
   attr_accessible :install_id, :password, :password_confirmation,
                   :holds_phone_in, :invitation_token, :units,
                   :waitlist_entry, :user_agreements_attributes, :pha, :pha_id,
-                  :apns_token, :is_premium, :subscription_end_date, :last_contact_at
+                  :apns_token, :is_premium, :subscription_end_date, :last_contact_at,
+                  :skip_agreement_validation
 
   validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
@@ -43,7 +46,7 @@ class Member < User
   validates :password, :length => {:minimum => 8, :message => "must be 8 or more characters long"}, :confirmation => true, :if => :password
   validates :install_id, :uniqueness => true, :allow_nil => true
   validates :units, :inclusion => {:in => %w(US Metric)}
-  validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :if => lambda{|m| m.signed_up? || m.password}
+  validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :if => lambda{|m| !skip_agreement_validation && (m.signed_up? || m.password) }
   validate :owner_is_self
   validates :apns_token, uniqueness: true, allow_nil: true
 
@@ -250,5 +253,9 @@ class Member < User
 
   def role_names
     @role_names ||= roles.pluck(:name)
+  end
+
+  def skip_agreement_validation
+    @skip_agreement_validation || false
   end
 end

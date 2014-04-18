@@ -206,9 +206,10 @@ Prep:
       if user_id.nil?
         errors.add(:user_id, "must be present when #{self.class.name} is #{state}")
       end
-      if message.nil?
-        errors.add(:message, "must be present when #{self.class.name} is #{state}")
-      end
+      # TODO: Put this back in when we properly do appointments
+      # if message.nil?
+      #   errors.add(:message, "must be present when #{self.class.name} is #{state}")
+      # end
     end
   end
 end
