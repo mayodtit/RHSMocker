@@ -61,7 +61,7 @@ resource "ScheduledPhoneCalls" do
             explanation "Returns an array of scheduled_phone_calls. Can be filtered by state, user_id, owner_id and/or scheduled_after (DateTime)"
             status.should == 200
             body = JSON.parse(response_body, :symbolize_names => true)
-            body[:scheduled_phone_calls].to_json.should == [scheduled_phone_call, another_scheduled_phone_call].serializer.to_json
+            body[:scheduled_phone_calls].to_json.should == [scheduled_phone_call, another_scheduled_phone_call].serializer(shallow: true).to_json
           end
         end
       end
