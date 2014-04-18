@@ -52,7 +52,7 @@ describe 'ScheduledPhoneCall' do
         do_request
         response.should be_success
         body = JSON.parse(response.body, :symbolize_names => true)
-        body[:scheduled_phone_calls].to_json.should == [scheduled_phone_call].serializer.as_json.to_json
+        body[:scheduled_phone_calls].to_json.should == [scheduled_phone_call].serializer(shallow: true).as_json.to_json
       end
     end
 
