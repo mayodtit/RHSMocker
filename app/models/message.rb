@@ -16,9 +16,11 @@ class Message < ActiveRecord::Base
                   :phone_call_attributes, :scheduled_phone_call_attributes,
                   :phone_call_summary_attributes,
                   :created_at, # for robot auto-response message
-                  :symptom, :symptom_id, :condition, :condition_id
+                  :symptom, :symptom_id, :condition, :condition_id,
+                  :off_hours
 
   validates :user, :consult, presence: true
+  validates :off_hours, inclusion: {in: [true, false]}
   validates :content, presence: true, if: lambda{|m| m.content_id}
   validates :symptom, presence: true, if: lambda{|m| m.symptom_id}
   validates :condition, presence: true, if: lambda{|m| m.condition_id}

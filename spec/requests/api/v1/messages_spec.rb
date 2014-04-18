@@ -4,6 +4,14 @@ describe 'Messages' do
   let(:user) { create(:member) }
   let(:consult) { create(:consult, initiator: user) }
 
+  before do
+    Timecop.freeze(Time.new(2014, 4, 17, 12, 0, 0, '-07:00'))
+  end
+
+  after do
+    Timecop.return
+  end
+
   context 'existing record' do
     let!(:message) { create(:message, consult: consult) }
 

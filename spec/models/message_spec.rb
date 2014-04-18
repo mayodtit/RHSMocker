@@ -8,6 +8,7 @@ describe Message do
   it_has_a 'valid factory', :with_phone_call_summary
   it_validates 'presence of', :user
   it_validates 'presence of', :consult
+  it_validates 'inclusion of', :off_hours
   it_validates 'foreign key of', :content
   it_validates 'foreign key of', :symptom
   it_validates 'foreign key of', :condition
