@@ -41,6 +41,9 @@ class Message < ActiveRecord::Base
 
   def publish
     PubSub.publish "/users/#{consult.initiator_id}/consults/#{consult_id}/messages/new", {id: id}
+    if consult.master?
+      PubSub.publish "/users/#{consult.initiator_id}/consults/current/messages/new", {id: id}
+    end
   end
 
   def notify_initiator
