@@ -57,6 +57,7 @@ class Member < User
   after_create :add_new_member_content
   after_create :send_welcome_email
   #after_save :update_cards_for_questions!
+  after_save :notify_pha_of_new_member
 
   def self.name_search(string)
     wildcard = "%#{string}%"
@@ -226,6 +227,12 @@ class Member < User
   def remove_premium_cards
     cards.where(resource_type: CustomCard, resource_id: CustomCard.onboarding.id).destroy_all
     cards.where(resource_type: Content, resource_id: Content.premium.id).destroy_all
+  end
+
+  def notify_pha_of_new_member
+    if pha_id_changed? && pha_id.present?
+      UserMailer.notify_pha_of_new_member(self).deliver
+    end
   end
 
   private
