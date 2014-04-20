@@ -47,7 +47,7 @@ class Task < ActiveRecord::Base
 
   def notify
     if unassigned?
-      UserMailer.notify_phas_of_new_task.deliver if for_pha?
+      UserMailer.delay.notify_phas_of_new_task if for_pha?
     end
   end
 
