@@ -14,7 +14,7 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
         add_role user, params[:role]
 
         url = "#{CARE_URL_PREFIX}/login?next=#{CGI.escape '/settings/profile'}"
-        RHSMailer.assigned_role_email(user.email, user.salutation, url, current_user.full_name).deliver
+        RHSMailer.delay.assigned_role_email(user.email, user.salutation, url, current_user.full_name)
 
         render_success
       else
