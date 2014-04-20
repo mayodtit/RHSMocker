@@ -92,15 +92,15 @@ Prep:
   end
 
   def notify_owner_of_assigned_call
-    UserMailer.scheduled_phone_call_cp_assigned_email(self).deliver
+    UserMailer.delay.scheduled_phone_call_cp_assigned_email(self)
   end
 
   def notify_user_confirming_call
-    RHSMailer.scheduled_phone_call_member_confirmation_email(id).deliver
+    RHSMailer.delay.scheduled_phone_call_member_confirmation_email(id)
   end
 
   def notify_owner_confirming_call
-    UserMailer.scheduled_phone_call_cp_confirmation_email(self).deliver
+    UserMailer.delay.scheduled_phone_call_cp_confirmation_email(self)
   end
 
   def assign_pha_to_user!

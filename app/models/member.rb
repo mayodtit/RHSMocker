@@ -128,7 +128,7 @@ class Member < User
   end
 
   def send_welcome_email
-    RHSMailer.welcome_to_better_email(email, salutation).deliver
+    RHSMailer.delay.welcome_to_better_email(email, salutation)
   end
 
   def max_inbox_content?
@@ -138,7 +138,7 @@ class Member < User
   def invite! invitation
     return if signed_up?
     update_attributes!(:invitation_token => invitation.token)
-    # UserMailer.invitation_email(self, invitation.member).deliver
+    # UserMailer.delay.invitation_email(self, invitation.member)
   end
 
   def signed_up?
@@ -185,7 +185,7 @@ class Member < User
                                              title: 'Direct messaging with your Better PHA',
                                              skip_tasks: true)
       assign_pha! if pha_id.nil?
-      RHSMailer.welcome_to_premium_email(email, salutation).deliver
+      RHSMailer.delay.welcome_to_premium_email(email, salutation)
     elsif value == false
       remove_premium_cards
     end
