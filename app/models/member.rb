@@ -145,7 +145,7 @@ class Member < User
   end
 
   def signed_up?
-    crypted_password.present?
+    signed_up_at.present?
   end
 
   def member
