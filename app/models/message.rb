@@ -57,7 +57,9 @@ class Message < ActiveRecord::Base
   end
 
   def update_initiator_last_contact_at
-    consult.initiator.update_attributes! last_contact_at: self.created_at
+    unless phone_call_summary || (phone_call && phone_call.to_nurse?)
+      consult.initiator.update_attributes! last_contact_at: self.created_at
+    end
   end
 
   private
