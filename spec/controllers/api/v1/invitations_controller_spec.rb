@@ -61,13 +61,12 @@ describe Api::V1::InvitationsController do
         end
 
         context 'and is signed up' do
+          let(:delayed_rhs_mailer) { double('delayed RHS mailer') }
+
           before do
             @invited_member.stub(:signed_up?) { true }
-            UserMailer.stub(:assigned_role_email) do
-              o = Object.new
-              o.stub(:deliver)
-              o
-            end
+            RHSMailer.stub(delay: delayed_rhs_mailer)
+            delayed_rhs_mailer.stub(:assigned_role_email)
           end
 
           it_behaves_like 'success'
@@ -84,11 +83,11 @@ describe Api::V1::InvitationsController do
 
           it 'sends an email that the role has been assigned' do
             url = 'http://localhost:4567/#/login?next=%2Fsettings%2Fprofile'
-            RHSMailer.should_receive(:assigned_role_email).with(@invited_member.email, @invited_member.salutation, url, user.full_name) do
-              o = Object.new
-              o.should_receive(:deliver)
-              o
-            end
+            delayed_rhs_mailer.should_receive(:assigned_role_email)
+                              .with(@invited_member.email,
+                                    @invited_member.salutation,
+                                    url,
+                                    user.full_name)
             do_request
           end
         end
