@@ -163,16 +163,15 @@ describe Task do
       end
 
       context 'task is for pha' do
+        let(:delayed_user_mailer) { double('delay') }
+
         before do
+          UserMailer.stub(delay: delayed_user_mailer)
           task.stub(:for_pha?) { true }
         end
 
-        it 'sends an email' do
-          UserMailer.should_receive(:delay) do
-            o = Object.new
-            o.should_receive(:notify_phas_of_new_task)
-            o
-          end
+        it 'queues an email' do
+          delayed_user_mailer.should_receive(:notify_phas_of_new_task)
           task.notify
         end
       end
