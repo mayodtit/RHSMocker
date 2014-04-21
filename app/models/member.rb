@@ -240,7 +240,7 @@ class Member < User
 
   def notify_pha_of_new_member
     if pha_id_changed? && pha_id.present?
-      UserMailer.notify_pha_of_new_member(self).deliver
+      UserMailer.delay.notify_pha_of_new_member(self)
     end
   end
 
