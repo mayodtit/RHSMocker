@@ -56,8 +56,7 @@ class Member < User
   before_create :set_auth_token # generate inital auth_token
   after_create :add_install_message
   after_create :add_new_member_content
-  after_create :send_welcome_email
-  #after_save :update_cards_for_questions!
+  after_save :send_welcome_email
   after_save :notify_pha_of_new_member
 
   def self.name_search(string)
@@ -129,7 +128,10 @@ class Member < User
   end
 
   def send_welcome_email
-    RHSMailer.delay.welcome_to_better_email(email, salutation)
+    if signed_up_at && signed_up_at_changed?
+      RHSMailer.delay.welcome_to_better_email(email, salutation)
+    end
+    true
   end
 
   def max_inbox_content?
