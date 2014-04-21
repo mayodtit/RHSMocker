@@ -38,7 +38,7 @@ class Member < User
                   :holds_phone_in, :invitation_token, :units,
                   :waitlist_entry, :user_agreements_attributes, :pha, :pha_id,
                   :apns_token, :is_premium, :subscription_end_date, :last_contact_at,
-                  :skip_agreement_validation
+                  :skip_agreement_validation, :signed_up_at
 
   validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
@@ -52,11 +52,12 @@ class Member < User
 
   before_validation :set_owner
   before_validation :set_member_flag
+  before_validation :set_signed_up_at
   before_create :set_auth_token # generate inital auth_token
   after_create :add_install_message
   after_create :add_new_member_content
-  after_create :send_welcome_email
-  #after_save :update_cards_for_questions!
+  after_save :send_welcome_email
+  after_save :send_premium_email
   after_save :notify_pha_of_new_member
 
   def self.name_search(string)
@@ -128,7 +129,16 @@ class Member < User
   end
 
   def send_welcome_email
-    RHSMailer.delay.welcome_to_better_email(email, salutation)
+    if newly_signed_up?
+      RHSMailer.delay.welcome_to_better_email(email, salutation)
+    end
+    true
+  end
+
+  def send_premium_email
+    if (signed_up? && newly_premium?) || (is_premium? && newly_signed_up?)
+      RHSMailer.delay.welcome_to_premium_email(email, salutation)
+    end
   end
 
   def max_inbox_content?
@@ -142,7 +152,7 @@ class Member < User
   end
 
   def signed_up?
-    crypted_password.present?
+    signed_up_at.present?
   end
 
   def member
@@ -185,7 +195,6 @@ class Member < User
                                              title: 'Direct messaging with your Better PHA',
                                              skip_tasks: true)
       assign_pha! if pha_id.nil?
-      RHSMailer.delay.welcome_to_premium_email(email, salutation)
     elsif value == false
       remove_premium_cards
     end
@@ -249,6 +258,10 @@ class Member < User
     self.member_flag ||= true
   end
 
+  def set_signed_up_at
+    self.signed_up_at ||= Time.now if crypted_password.nil? && password.present?
+  end
+
   def set_auth_token
     self.auth_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
   end
@@ -264,5 +277,13 @@ class Member < User
 
   def skip_agreement_validation
     @skip_agreement_validation || false
+  end
+
+  def newly_signed_up?
+    signed_up? && signed_up_at_changed?
+  end
+
+  def newly_premium?
+    is_premium? && is_premium_changed?
   end
 end
