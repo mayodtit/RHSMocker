@@ -177,4 +177,51 @@ describe Member do
       expect(described_class.next_pha).to eq(unassigned_pha)
     end
   end
+
+  describe '#notify_pha_of_new_member' do
+    let(:member) { build(:member) }
+
+    context 'pha_id changed' do
+      before do
+        member.stub(:pha_id_changed?) { true }
+      end
+
+      context 'pha_id is present' do
+        before do
+          member.stub(:pha_id) { 1 }
+        end
+
+        it 'sends the pha an email' do
+          UserMailer.should_receive(:notify_pha_of_new_member) do
+            o = Object.new
+            o.should_receive :deliver
+            o
+          end
+          member.notify_pha_of_new_member
+        end
+      end
+
+      context 'pha_id is not present' do
+        before do
+          member.stub(:pha_id) { nil }
+        end
+
+        it 'does nothing' do
+          UserMailer.should_not_receive :notify_pha_of_new_member
+          member.notify_pha_of_new_member
+        end
+      end
+    end
+
+    context 'pha_id didn\'t change' do
+      before do
+        member.stub(:pha_id_changed?) { false }
+      end
+
+      it 'should do nothing' do
+        UserMailer.should_not_receive :notify_pha_of_new_member
+        member.notify_pha_of_new_member
+      end
+    end
+  end
 end

@@ -26,6 +26,24 @@ describe Message do
       )
       message.publish
     end
+
+    context 'consult is master consult' do
+      before do
+        message.consult.stub(:master?) { true }
+      end
+
+      it 'publishes that a message was created to two channels' do
+        PubSub.should_receive(:publish).with(
+          "/users/#{message.consult.initiator_id}/consults/#{message.consult_id}/messages/new",
+          {id: message.id}
+        )
+        PubSub.should_receive(:publish).with(
+          "/users/#{message.consult.initiator_id}/consults/current/messages/new",
+          {id: message.id}
+        )
+        message.publish
+      end
+    end
   end
 
   describe 'create_task' do

@@ -57,6 +57,7 @@ class Member < User
   after_create :add_new_member_content
   after_create :send_welcome_email
   #after_save :update_cards_for_questions!
+  after_save :notify_pha_of_new_member
 
   def self.name_search(string)
     wildcard = "%#{string}%"
@@ -127,7 +128,7 @@ class Member < User
   end
 
   def send_welcome_email
-    RHSMailer.welcome_to_better_email(email, salutation).deliver
+    RHSMailer.delay.welcome_to_better_email(email, salutation)
   end
 
   def max_inbox_content?
@@ -137,7 +138,7 @@ class Member < User
   def invite! invitation
     return if signed_up?
     update_attributes!(:invitation_token => invitation.token)
-    # UserMailer.invitation_email(self, invitation.member).deliver
+    # UserMailer.delay.invitation_email(self, invitation.member)
   end
 
   def signed_up?
@@ -184,7 +185,7 @@ class Member < User
                                              title: 'Direct messaging with your Better PHA',
                                              skip_tasks: true)
       assign_pha! if pha_id.nil?
-      RHSMailer.welcome_to_premium_email(email, salutation).deliver
+      RHSMailer.delay.welcome_to_premium_email(email, salutation)
     elsif value == false
       remove_premium_cards
     end
@@ -226,6 +227,12 @@ class Member < User
   def remove_premium_cards
     cards.where(resource_type: CustomCard, resource_id: CustomCard.onboarding.id).destroy_all
     cards.where(resource_type: Content, resource_id: Content.premium.id).destroy_all
+  end
+
+  def notify_pha_of_new_member
+    if pha_id_changed? && pha_id.present?
+      UserMailer.notify_pha_of_new_member(self).deliver
+    end
   end
 
   private

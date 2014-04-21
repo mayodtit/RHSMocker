@@ -10,7 +10,7 @@ class MemberSerializer < ActiveModel::Serializer
              :pusher_id, :full_name, :created_at, :email_read_only,
              :sharing_prohibited, :owner_id, :is_premium, :subscription_end_date,
              :pha_id, :pha_profile_bio_image_url, :pha_profile_url,
-             :show_welcome_call, :pha_full_name, :last_contact_at
+             :show_welcome_call, :pha_full_name, :last_contact_at, :has_master_consult
 
   def attributes
     if options[:shallow]
@@ -46,6 +46,10 @@ class MemberSerializer < ActiveModel::Serializer
         end
       end
     end
+  end
+
+  def has_master_consult
+    object.master_consult.present?
   end
 
   def full_name
