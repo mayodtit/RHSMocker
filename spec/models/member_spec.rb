@@ -72,14 +72,14 @@ describe Member do
   end
 
   describe '#signed_up?' do
-    it 'returns true when crypted password is present' do
-      member.crypted_password = true
-      member.should be_signed_up
+    it 'returns true when signed_up_at is present' do
+      member.signed_up_at = Time.now
+      expect(member).to be_signed_up
     end
 
-    it 'returns false when crypted password is present' do
-      member.crypted_password = false
-      member.should_not be_signed_up
+    it 'returns false if signed_up_at is not' do
+      member.crypted_password = nil
+      expect(member).to_not be_signed_up
     end
   end
 
