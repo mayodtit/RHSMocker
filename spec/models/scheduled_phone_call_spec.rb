@@ -2,6 +2,16 @@ require 'spec_helper'
 
 describe ScheduledPhoneCall do
   let(:scheduled_phone_call) { build(:scheduled_phone_call) }
+  let(:delayed_user_mailer) { double('delayed user mailer', scheduled_phone_call_cp_assigned_email: true,
+                                                            scheduled_phone_call_cp_confirmation_email: true,
+                                                            notify_phas_of_new_task: true) }
+  let(:delayed_rhs_mailer) { double('delayed rhs mailer', scheduled_phone_call_member_confirmation_email: true,
+                                                          welcome_to_better_email: true) }
+
+  before do
+    UserMailer.stub(delay: delayed_user_mailer)
+    RHSMailer.stub(delay: delayed_rhs_mailer)
+  end
 
   it_has_a 'valid factory'
   it_has_a 'valid factory', :assigned
@@ -11,33 +21,24 @@ describe ScheduledPhoneCall do
 
   describe '#notify_owner_of_assigned_call' do
     it 'notifies the owner they were assigned a time to receive a scheduled call' do
-      UserMailer.should_receive(:scheduled_phone_call_cp_assigned_email).with(scheduled_phone_call) {
-        o = Object.new
-        o.should_receive(:deliver)
-        o
-      }
+      delayed_user_mailer.should_receive(:scheduled_phone_call_cp_assigned_email)
+                         .with(scheduled_phone_call)
       scheduled_phone_call.notify_owner_of_assigned_call
     end
   end
 
   describe '#notify_user_confirming_call' do
     it 'notifies the user confirming their scheduled call time via email' do
-      RHSMailer.should_receive(:scheduled_phone_call_member_confirmation_email).with(scheduled_phone_call.id) {
-        o = Object.new
-        o.should_receive(:deliver)
-        o
-      }
+      delayed_rhs_mailer.should_receive(:scheduled_phone_call_member_confirmation_email)
+                        .with(scheduled_phone_call.id)
       scheduled_phone_call.notify_user_confirming_call
     end
   end
 
   describe '#notify_owner_confirming_call' do
     it 'notifies the owner confirming their scheduled call time via email' do
-      UserMailer.should_receive(:scheduled_phone_call_cp_confirmation_email).with(scheduled_phone_call) {
-        o = Object.new
-        o.should_receive(:deliver)
-        o
-      }
+      delayed_user_mailer.should_receive(:scheduled_phone_call_cp_confirmation_email)
+                         .with(scheduled_phone_call)
       scheduled_phone_call.notify_owner_confirming_call
     end
   end
