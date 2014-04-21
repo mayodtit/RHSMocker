@@ -168,9 +168,9 @@ describe Task do
         end
 
         it 'sends an email' do
-          UserMailer.should_receive(:notify_phas_of_new_task) do
+          UserMailer.should_receive(:delay) do
             o = Object.new
-            o.should_receive(:deliver)
+            o.should_receive(:notify_phas_of_new_task)
             o
           end
           task.notify
@@ -183,7 +183,7 @@ describe Task do
         end
 
         it 'does nothing' do
-          UserMailer.should_not_receive(:notify_phas_of_new_task)
+          UserMailer.should_not_receive(:delay)
           task.notify
         end
       end
@@ -195,7 +195,7 @@ describe Task do
       end
 
       it 'does nothing' do
-        UserMailer.should_not_receive(:notify_phas_of_new_task)
+        UserMailer.should_not_receive(:delay)
         task.notify
       end
     end
