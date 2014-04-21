@@ -57,6 +57,7 @@ class Member < User
   after_create :add_install_message
   after_create :add_new_member_content
   after_save :send_welcome_email
+  after_save :send_premium_email
   after_save :notify_pha_of_new_member
 
   def self.name_search(string)
@@ -128,10 +129,16 @@ class Member < User
   end
 
   def send_welcome_email
-    if signed_up_at && signed_up_at_changed?
+    if newly_signed_up?
       RHSMailer.delay.welcome_to_better_email(email, salutation)
     end
     true
+  end
+
+  def send_premium_email
+    if (signed_up? && newly_premium?) || (is_premium? && newly_signed_up?)
+      RHSMailer.delay.welcome_to_premium_email(email, salutation)
+    end
   end
 
   def max_inbox_content?
@@ -188,7 +195,6 @@ class Member < User
                                              title: 'Direct messaging with your Better PHA',
                                              skip_tasks: true)
       assign_pha! if pha_id.nil?
-      RHSMailer.delay.welcome_to_premium_email(email, salutation)
     elsif value == false
       remove_premium_cards
     end
@@ -271,5 +277,13 @@ class Member < User
 
   def skip_agreement_validation
     @skip_agreement_validation || false
+  end
+
+  def newly_signed_up?
+    signed_up? && signed_up_at_changed?
+  end
+
+  def newly_premium?
+    is_premium? && is_premium_changed?
   end
 end
