@@ -182,7 +182,7 @@ describe Task do
         end
 
         it 'does nothing' do
-          UserMailer.should_not_receive(:notify_phas_of_new_task)
+          UserMailer.should_not_receive(:delay)
           task.notify
         end
       end
@@ -194,7 +194,7 @@ describe Task do
       end
 
       it 'does nothing' do
-        UserMailer.should_not_receive(:notify_phas_of_new_task)
+        UserMailer.should_not_receive(:delay)
         task.notify
       end
     end
