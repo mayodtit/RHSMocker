@@ -240,7 +240,7 @@ class Member < User
 
   def notify_pha_of_new_member
     if pha_id_changed? && pha_id.present?
-      UserMailer.delay.notify_pha_of_new_member(self)
+      NewMemberTask.delay.create! member: self, title: 'New Premium Member', creator: Member.robot, due_at: Time.now
     end
   end
 
