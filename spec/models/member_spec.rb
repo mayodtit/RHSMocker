@@ -72,14 +72,14 @@ describe Member do
   end
 
   describe '#signed_up?' do
-    it 'returns true when crypted password is present' do
-      member.crypted_password = true
-      member.should be_signed_up
+    it 'returns true when signed_up_at is present' do
+      member.signed_up_at = Time.now
+      expect(member).to be_signed_up
     end
 
-    it 'returns false when crypted password is present' do
-      member.crypted_password = false
-      member.should_not be_signed_up
+    it 'returns false if signed_up_at is not' do
+      member.crypted_password = nil
+      expect(member).to_not be_signed_up
     end
   end
 
@@ -192,9 +192,9 @@ describe Member do
         end
 
         it 'sends the pha an email' do
-          UserMailer.should_receive(:notify_pha_of_new_member) do
+          UserMailer.should_receive(:delay) do
             o = Object.new
-            o.should_receive :deliver
+            o.should_receive(:notify_pha_of_new_member).with(member)
             o
           end
           member.notify_pha_of_new_member
@@ -207,7 +207,7 @@ describe Member do
         end
 
         it 'does nothing' do
-          UserMailer.should_not_receive :notify_pha_of_new_member
+          UserMailer.should_not_receive :delay
           member.notify_pha_of_new_member
         end
       end
@@ -219,7 +219,7 @@ describe Member do
       end
 
       it 'should do nothing' do
-        UserMailer.should_not_receive :notify_pha_of_new_member
+        UserMailer.should_not_receive :delay
         member.notify_pha_of_new_member
       end
     end
