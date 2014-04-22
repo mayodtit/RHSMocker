@@ -555,39 +555,7 @@ describe PhoneCall do
         PhoneNumberUtil.stub(:is_valid_caller_id) { true }
       end
 
-      context 'unresolved phone call exists' do
-        before do
-          PhoneCall.stub(:where).with(state: :unresolved, origin_phone_number: db_phone_number) do
-            o = Object.new
-            o.stub(:first).with(order: 'id desc', limit: 1) do
-              phone_call
-            end
-            o
-          end
-        end
-
-        it 'resolves the phone call' do
-          phone_call.should_receive(:update_attributes).with(state_event: :resolve, origin_twilio_sid: twilio_sid, origin_status: PhoneCall::CONNECTED_STATUS)
-          PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
-        end
-
-        it 'does not create a phone call' do
-          PhoneCall.should_not_receive(:create)
-          PhoneCall.resolve(phone_number, twilio_sid)
-        end
-      end
-
-      context 'unresolved phone call does not exist' do
-        before do
-          PhoneCall.stub(:where).with(state: :unresolved, origin_phone_number: db_phone_number) do
-            o = Object.new
-            o.stub(:first).with(order: 'id desc', limit: 1) do
-              nil
-            end
-            o
-          end
-        end
-
+      shared_examples_for 'unable to resolve call' do
         context 'member with phone exists' do
           let(:member) { build(:member) }
           before do
@@ -627,6 +595,62 @@ describe PhoneCall do
             PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
           end
         end
+      end
+
+      context 'unresolved phone call exists' do
+        before do
+          PhoneCall.stub(:where).with(state: :unresolved, origin_phone_number: db_phone_number) do
+            o = Object.new
+            o.stub(:first).with(order: 'id desc', limit: 1) do
+              phone_call
+            end
+            o
+          end
+
+          Timecop.freeze
+        end
+
+        after do
+          Timecop.return
+        end
+
+        context 'phone call is over 5 minutes old' do
+          before do
+            phone_call.stub(:created_at) { Time.now - 6.minutes }
+          end
+
+          it_behaves_like 'unable to resolve call'
+        end
+
+        context 'phone call is under 5 minutes old' do
+          before do
+            phone_call.stub(:created_at) { Time.now - 5.minutes }
+          end
+
+          it 'resolves the phone call' do
+            phone_call.should_receive(:update_attributes).with(state_event: :resolve, origin_twilio_sid: twilio_sid, origin_status: PhoneCall::CONNECTED_STATUS)
+            PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
+          end
+
+          it 'does not create a phone call' do
+            PhoneCall.should_not_receive(:create)
+            PhoneCall.resolve(phone_number, twilio_sid)
+          end
+        end
+      end
+
+      context 'unresolved phone call does not exist' do
+        before do
+          PhoneCall.stub(:where).with(state: :unresolved, origin_phone_number: db_phone_number) do
+            o = Object.new
+            o.stub(:first).with(order: 'id desc', limit: 1) do
+              nil
+            end
+            o
+          end
+        end
+
+        it_behaves_like 'unable to resolve call'
       end
     end
   end

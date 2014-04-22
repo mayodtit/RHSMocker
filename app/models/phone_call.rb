@@ -144,7 +144,8 @@ class PhoneCall < ActiveRecord::Base
     phone_number = PhoneNumberUtil.prep_phone_number_for_db phone_number
 
     if PhoneNumberUtil::is_valid_caller_id phone_number
-      if phone_call = PhoneCall.where(state: :unresolved, origin_phone_number: phone_number).first(order: 'id desc', limit: 1)
+      phone_call = PhoneCall.where(state: :unresolved, origin_phone_number: phone_number).first(order: 'id desc', limit: 1)
+      if phone_call && (Time.now - phone_call.created_at) <= 5.minutes
         phone_call.update_attributes state_event: :resolve, origin_twilio_sid: origin_twilio_sid, origin_status: CONNECTED_STATUS
         return phone_call
       end

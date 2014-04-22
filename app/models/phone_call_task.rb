@@ -23,7 +23,7 @@ class PhoneCallTask < Task
   end
 
   def self.create_if_only_opened_for_phone_call!(phone_call)
-    if open.where(phone_call_id: phone_call.id).count == 0
+    if phone_call.to_role.on_call? && open.where(phone_call_id: phone_call.id).count == 0
       create!(
         title: phone_call.consult ? phone_call.consult.title : 'Unknown',
         phone_call: phone_call,
