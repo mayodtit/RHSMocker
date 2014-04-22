@@ -181,6 +181,14 @@ describe Member do
   describe '#notify_pha_of_new_member' do
     let(:member) { build(:member) }
 
+    before do
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
     context 'pha_id changed' do
       before do
         member.stub(:pha_id_changed?) { true }
@@ -192,9 +200,9 @@ describe Member do
         end
 
         it 'sends the pha an email' do
-          UserMailer.should_receive(:delay) do
+          NewMemberTask.should_receive(:delay) do
             o = Object.new
-            o.should_receive(:notify_pha_of_new_member).with(member)
+            o.should_receive(:create!).with member: member, title: 'New Premium Member', creator: Member.robot, due_at: Time.now
             o
           end
           member.notify_pha_of_new_member
@@ -207,7 +215,7 @@ describe Member do
         end
 
         it 'does nothing' do
-          UserMailer.should_not_receive :delay
+          NewMemberTask.should_not_receive :delay
           member.notify_pha_of_new_member
         end
       end
@@ -219,7 +227,7 @@ describe Member do
       end
 
       it 'should do nothing' do
-        UserMailer.should_not_receive :delay
+        NewMemberTask.should_not_receive :delay
         member.notify_pha_of_new_member
       end
     end
