@@ -42,6 +42,7 @@ class PhoneCall < ActiveRecord::Base
   before_validation :set_member_phone_number
 
   after_create :dial_if_outbound
+  after_create :create_follow_up_task
   after_save :publish
   after_save :create_task
 
@@ -71,11 +72,11 @@ class PhoneCall < ActiveRecord::Base
   end
 
   def to_nurse?
-    to_role.name.to_sym == :nurse
+    to_role && to_role.name.to_sym == :nurse
   end
 
   def to_pha?
-    to_role.name.to_sym == :pha
+    to_role && to_role.name.to_sym == :pha
   end
 
   def in_progress?
@@ -238,6 +239,12 @@ class PhoneCall < ActiveRecord::Base
 
     if origin_phone_number.nil? && user && user.phone.present?
       self.origin_phone_number = user.phone
+    end
+  end
+
+  def create_follow_up_task
+    if to_nurse? && !transferred_from_phone_call
+      FollowUpTask.delay.create! phone_call: self, title: 'Nurseline Follow Up', creator: Member.robot, due_at: created_at
     end
   end
 
