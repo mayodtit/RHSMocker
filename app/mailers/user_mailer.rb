@@ -7,7 +7,7 @@ class UserMailer < ActionMailer::Base
   }
 
   def env
-    "#{Rails.env}: " unless Rails.env.production?
+    Rails.env.production? ? '' : "#{Rails.env}: "
   end
 
   # this method needs to remain since socery doesn't seem to work

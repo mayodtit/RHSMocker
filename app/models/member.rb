@@ -139,6 +139,7 @@ class Member < User
     if (signed_up? && newly_premium?) || (is_premium? && newly_signed_up?)
       RHSMailer.delay.welcome_to_premium_email(email, salutation)
     end
+    true
   end
 
   def max_inbox_content?
@@ -242,6 +243,7 @@ class Member < User
     if pha_id_changed? && pha_id.present?
       NewMemberTask.delay.create! member: self, title: 'New Premium Member', creator: Member.robot, due_at: Time.now
     end
+    true
   end
 
   private
