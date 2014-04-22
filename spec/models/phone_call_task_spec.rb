@@ -145,17 +145,9 @@ describe PhoneCallTask do
   describe '#create_if_only_opened_for_phone_call!' do
     let(:phone_call) { build_stubbed(:phone_call) }
 
-    context 'other open phone call task exists for phone_call' do
+    context 'role not on call' do
       before do
-        PhoneCallTask.stub(:open) do
-          o = Object.new
-          o.stub(:where).with(phone_call_id: phone_call.id) do
-            o = Object.new
-            o.stub(:count) { 1 }
-            o
-          end
-          o
-        end
+        phone_call.to_role.stub(:on_call?) { false }
       end
 
       it 'does nothing' do
@@ -164,23 +156,49 @@ describe PhoneCallTask do
       end
     end
 
-    context 'other open phone call task doesn\'t exist for phone_call' do
+    context 'role on call' do
       before do
-        PhoneCallTask.stub(:open) do
-          o = Object.new
-          o.stub(:where).with(phone_call_id: phone_call.id) do
+        phone_call.to_role.stub(:on_call?) { true }
+      end
+
+      context 'other open phone call task exists for phone_call' do
+        before do
+          PhoneCallTask.stub(:open) do
             o = Object.new
-            o.stub(:count) { 0 }
+            o.stub(:where).with(phone_call_id: phone_call.id) do
+              o = Object.new
+              o.stub(:count) { 1 }
+              o
+            end
             o
           end
-          o
+        end
+
+        it 'does nothing' do
+          PhoneCallTask.should_not_receive(:create!)
+          PhoneCallTask.create_if_only_opened_for_phone_call!(phone_call)
         end
       end
 
-      it 'creates a task with the phone_call' do
-        PhoneCallTask.should_receive(:create!).with(title: 'Unknown', phone_call: phone_call, creator: Member.robot, due_at: phone_call.created_at)
-        PhoneCallTask.create_if_only_opened_for_phone_call!(phone_call)
+      context 'other open phone call task doesn\'t exist for phone_call' do
+        before do
+          PhoneCallTask.stub(:open) do
+            o = Object.new
+            o.stub(:where).with(phone_call_id: phone_call.id) do
+              o = Object.new
+              o.stub(:count) { 0 }
+              o
+            end
+            o
+          end
+        end
+
+        it 'creates a task with the phone_call' do
+          PhoneCallTask.should_receive(:create!).with(title: 'Unknown', phone_call: phone_call, creator: Member.robot, due_at: phone_call.created_at)
+          PhoneCallTask.create_if_only_opened_for_phone_call!(phone_call)
+        end
       end
+
     end
   end
 

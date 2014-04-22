@@ -26,6 +26,24 @@ describe Message do
       )
       message.publish
     end
+
+    context 'consult is master consult' do
+      before do
+        message.consult.stub(:master?) { true }
+      end
+
+      it 'publishes that a message was created to two channels' do
+        PubSub.should_receive(:publish).with(
+          "/users/#{message.consult.initiator_id}/consults/#{message.consult_id}/messages/new",
+          {id: message.id}
+        )
+        PubSub.should_receive(:publish).with(
+          "/users/#{message.consult.initiator_id}/consults/current/messages/new",
+          {id: message.id}
+        )
+        message.publish
+      end
+    end
   end
 
   describe 'create_task' do
@@ -63,9 +81,54 @@ describe Message do
   describe 'update_initiator_last_contact_at' do
     let(:message) { build :message }
 
-    it 'sets the consults initiator to last contact at' do
-      message.consult.initiator.should_receive(:update_attributes!).with(last_contact_at: message.created_at)
-      message.update_initiator_last_contact_at
+    context 'message is for a phone call summary' do
+      let(:phone_call_summary) { build :phone_call_summary }
+
+      before do
+        message.stub(:phone_call_summary) { phone_call_summary }
+      end
+
+      it 'doesn\'t set the last contact at' do
+        message.consult.initiator.should_not_receive(:update_attributes!)
+        message.update_initiator_last_contact_at
+      end
+    end
+
+    context 'phone call message' do
+      let(:phone_call) { build :phone_call }
+
+      before do
+        message.stub(:phone_call) { phone_call }
+      end
+
+      context 'phone call is not for a nurse' do
+        before do
+          phone_call.stub(:to_nurse?) { false }
+        end
+
+        it 'sets the consults initiator to last contact at' do
+          message.consult.initiator.should_receive(:update_attributes!).with(last_contact_at: message.created_at)
+          message.update_initiator_last_contact_at
+        end
+      end
+
+      context 'phone call is for a nurse' do
+        before do
+          phone_call.stub(:to_nurse?) { true }
+        end
+
+        it 'doesn\'t set the last contact at' do
+          message.consult.initiator.should_not_receive(:update_attributes!)
+          message.update_initiator_last_contact_at
+        end
+      end
+    end
+
+    context 'message is from or to a PHA' do
+      it 'sets the consults initiator to last contact at' do
+        message.consult.initiator.should_receive(:update_attributes!).with(last_contact_at: message.created_at)
+        message.update_initiator_last_contact_at
+      end
     end
   end
 end

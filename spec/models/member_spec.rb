@@ -72,14 +72,14 @@ describe Member do
   end
 
   describe '#signed_up?' do
-    it 'returns true when crypted password is present' do
-      member.crypted_password = true
-      member.should be_signed_up
+    it 'returns true when signed_up_at is present' do
+      member.signed_up_at = Time.now
+      expect(member).to be_signed_up
     end
 
-    it 'returns false when crypted password is present' do
-      member.crypted_password = false
-      member.should_not be_signed_up
+    it 'returns false if signed_up_at is not' do
+      member.crypted_password = nil
+      expect(member).to_not be_signed_up
     end
   end
 
@@ -175,6 +175,61 @@ describe Member do
 
     it 'returns the PHA with the most availablity' do
       expect(described_class.next_pha).to eq(unassigned_pha)
+    end
+  end
+
+  describe '#notify_pha_of_new_member' do
+    let(:member) { build(:member) }
+
+    before do
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
+    context 'pha_id changed' do
+      before do
+        member.stub(:pha_id_changed?) { true }
+      end
+
+      context 'pha_id is present' do
+        before do
+          member.stub(:pha_id) { 1 }
+        end
+
+        it 'sends the pha an email' do
+          NewMemberTask.should_receive(:delay) do
+            o = Object.new
+            o.should_receive(:create!).with member: member, title: 'New Premium Member', creator: Member.robot, due_at: Time.now
+            o
+          end
+          member.notify_pha_of_new_member
+        end
+      end
+
+      context 'pha_id is not present' do
+        before do
+          member.stub(:pha_id) { nil }
+        end
+
+        it 'does nothing' do
+          NewMemberTask.should_not_receive :delay
+          member.notify_pha_of_new_member
+        end
+      end
+    end
+
+    context 'pha_id didn\'t change' do
+      before do
+        member.stub(:pha_id_changed?) { false }
+      end
+
+      it 'should do nothing' do
+        NewMemberTask.should_not_receive :delay
+        member.notify_pha_of_new_member
+      end
     end
   end
 end

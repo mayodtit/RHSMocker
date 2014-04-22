@@ -41,6 +41,9 @@ class Message < ActiveRecord::Base
 
   def publish
     PubSub.publish "/users/#{consult.initiator_id}/consults/#{consult_id}/messages/new", {id: id}
+    if consult.master?
+      PubSub.publish "/users/#{consult.initiator_id}/consults/current/messages/new", {id: id}
+    end
   end
 
   def notify_initiator
@@ -54,7 +57,9 @@ class Message < ActiveRecord::Base
   end
 
   def update_initiator_last_contact_at
-    consult.initiator.update_attributes! last_contact_at: self.created_at
+    unless phone_call_summary || (phone_call && phone_call.to_nurse?)
+      consult.initiator.update_attributes! last_contact_at: self.created_at
+    end
   end
 
   private

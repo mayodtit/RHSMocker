@@ -10,13 +10,10 @@ class ApnsConsultMessageJob < Struct.new(:user_id, :consult_id)
 
   def perform
     user = User.find(user_id)
-    consult = Consult.find(consult_id)
     if user.apns_token
       APNS.send_notification(user.apns_token, alert: 'You have a new message from a Personal Health Assistant.',
                                               badge: 1,
-                                              sound: :default,
-                                              other: {nb: {cmd: 'openConsult',
-                                                           args: {id: consult.id}}})
+                                              sound: :default)
     end
   end
 

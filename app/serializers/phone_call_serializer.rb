@@ -4,9 +4,9 @@ class PhoneCallSerializer < ActiveModel::Serializer
   attributes :id, :user_id, :created_at, :origin_phone_number,
              :destination_phone_number, :state, :identifier_token,
              :destination_twilio_sid, :origin_twilio_sid,
-             :transferred_to_phone_call_id, :consult_id, :cp_connected?,
+             :transferred_to_phone_call_id, :cp_connected?,
              :member_connected?, :transferred?, :outbound?, :transferred_to_phone_call,
-             :transferred_from_phone_call, :claimer, :user
+             :transferred_from_phone_call, :claimer, :user, :message_id
 
   def attributes
     if options[:shallow]
@@ -21,8 +21,8 @@ class PhoneCallSerializer < ActiveModel::Serializer
     end
   end
 
-  def consult_id
-    object.consult && object.consult.id
+  def message_id
+    object.message && object.message.id
   end
 
   def user
