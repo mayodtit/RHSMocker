@@ -1028,30 +1028,13 @@ describe PhoneCall do
         phone_call.stub(:to_nurse?) { true }
       end
 
-      context 'phone call is not a transfer' do
-        before do
-          phone_call.stub(:transferred_from_phone_call) { nil }
+      it 'creates a follow up task' do
+        FollowUpTask.should_receive(:delay) do
+          o = Object.new
+          o.should_receive(:create!).with phone_call: phone_call, title: 'Nurseline Follow Up', creator: Member.robot, due_at: phone_call.created_at
+          o
         end
-
-        it 'creates a follow up task' do
-          FollowUpTask.should_receive(:delay) do
-            o = Object.new
-            o.should_receive(:create!).with phone_call: phone_call, title: 'Nurseline Follow Up', creator: Member.robot, due_at: phone_call.created_at
-            o
-          end
-          phone_call.create_follow_up_task
-        end
-      end
-
-      context 'phone call is a transfer' do
-        before do
-          phone_call.stub(:transferred_from_phone_call) { build :phone_call }
-        end
-
-        it 'does nothing' do
-          FollowUpTask.should_not_receive(:delay)
-          phone_call.create_follow_up_task
-        end
+        phone_call.create_follow_up_task
       end
     end
   end

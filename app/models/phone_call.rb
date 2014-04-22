@@ -45,6 +45,7 @@ class PhoneCall < ActiveRecord::Base
   after_create :create_follow_up_task
   after_save :publish
   after_save :create_task
+  after_save :create_message_if_user_updated
 
   # for metrics
   scope :to_nurse_line, -> { where(destination_phone_number: PhoneCall.nurseline_numbers) }
@@ -244,7 +245,7 @@ class PhoneCall < ActiveRecord::Base
   end
 
   def create_follow_up_task
-    if to_nurse? && !transferred_from_phone_call
+    if to_nurse?
       FollowUpTask.delay.create! phone_call: self, title: 'Nurseline Follow Up', creator: Member.robot, due_at: created_at
     end
   end
