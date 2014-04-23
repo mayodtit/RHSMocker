@@ -572,8 +572,37 @@ describe PhoneCall do
               origin_twilio_sid: twilio_sid,
               origin_status: PhoneCall::CONNECTED_STATUS
             ) { phone_call }
-
+            Message.stub(:create)
             PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
+          end
+
+          context 'user has master consult' do
+            let(:consult) { build_stubbed :consult }
+            before do
+              member.stub(:master_consult) { consult }
+            end
+
+            it 'creates a Message with the phone call' do
+              PhoneCall.stub(:create) { phone_call }
+              Message.should_receive(:create).with(
+                user: member,
+                consult: consult,
+                phone_call_id: phone_call.id
+              )
+              PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
+            end
+          end
+
+          context 'user doesn\'t have master consult' do
+            before do
+              member.stub(:master_consult) { nil }
+            end
+
+            it 'creates a Message with the phone call' do
+              PhoneCall.stub(:create) { phone_call }
+              Message.should_not_receive(:create)
+              PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
+            end
           end
         end
 
@@ -773,6 +802,7 @@ describe PhoneCall do
 
     before do
       PhoneCall.stub(:create!) { nurseline_phone_call }
+      Message.stub(:create!)
     end
 
     it 'creates a nurseline phone call and sets it as the transferred to call' do
@@ -795,6 +825,53 @@ describe PhoneCall do
     it 'dials the destination' do
       nurseline_phone_call.should_receive :dial_destination
       phone_call.transfer!
+    end
+
+    context 'user does not exist' do
+      before do
+        phone_call.stub(:user) { nil }
+      end
+
+      it 'does nothing' do
+        Message.should_not_receive(:create!)
+      end
+    end
+
+    context 'user exists' do
+      before do
+        phone_call.user.should be_present
+      end
+
+      context 'user has master consult' do
+        let(:consult) { build_stubbed :consult }
+
+        before do
+          phone_call.user.stub(:master_consult) { consult }
+        end
+
+        it 'creates a message' do
+          Message.should_receive(:create!).with(
+            user: phone_call.user,
+            consult: consult,
+            phone_call_id: nurseline_phone_call.id,
+            content_id: phone_call.message.content_id,
+            symptom_id: phone_call.message.symptom_id,
+            condition_id: phone_call.message.condition_id,
+          )
+
+          phone_call.transfer!
+        end
+      end
+
+      context 'user does not have master consult' do
+        before do
+          phone_call.user.stub(:master_consult) { nil }
+        end
+
+        it 'does nothing' do
+          Message.should_not_receive(:create!)
+        end
+      end
     end
   end
 
@@ -1112,6 +1189,108 @@ describe PhoneCall do
         it 'does nothing' do
           phone_call.should_not_receive(:origin_phone_number=)
           phone_call.set_member_phone_number
+        end
+      end
+    end
+  end
+
+  describe '#create_message_if_user_updated' do
+    let(:phone_call)  { build :phone_call }
+
+    context 'message exists' do
+      before do
+        phone_call.message.should be_present
+      end
+
+      it 'does nothing' do
+        Message.should_not_receive(:create!)
+        phone_call.create_message_if_user_updated
+      end
+    end
+
+    context 'message doesn\'t exist' do
+      before do
+        phone_call.stub(:message) { nil }
+      end
+
+      context 'phone call was just created' do
+        before do
+          phone_call.stub(:id_changed?) { true }
+        end
+
+        it 'does nothing' do
+          Message.should_not_receive(:create!)
+          phone_call.create_message_if_user_updated
+        end
+      end
+
+      context 'phone call was updated' do
+        before do
+          phone_call.stub(:id_changed?) { false }
+        end
+
+        context 'user was not changed' do
+          before do
+            phone_call.stub(:user_id_changed?) { false }
+          end
+
+          it 'does nothing' do
+            Message.should_not_receive(:create!)
+            phone_call.create_message_if_user_updated
+          end
+        end
+
+        context 'user was changed' do
+          before do
+            phone_call.stub(:user_id_changed?) { true }
+          end
+
+          context 'user doesn\'t exist' do
+            before do
+              phone_call.stub(:user) { nil }
+            end
+
+            it 'does nothing' do
+              Message.should_not_receive(:create!)
+              phone_call.create_message_if_user_updated
+            end
+          end
+
+          context 'user exists' do
+            before do
+              phone_call.user.should be_present
+            end
+
+            context 'user has a master consult' do
+              let(:consult) { build_stubbed :consult }
+
+              before do
+                phone_call.user.stub(:master_consult) { consult }
+              end
+
+              it 'creates a message' do
+                Message.should_receive(:create!).with(
+                  user: phone_call.user,
+                  consult: consult,
+                  phone_call_id: phone_call.id
+                )
+
+                phone_call.create_message_if_user_updated
+              end
+            end
+
+            context 'user does not have a master consult' do
+
+              before do
+                phone_call.user.stub(:master_consult) { nil }
+              end
+
+              it 'creates a message' do
+                Message.should_not_receive(:create!)
+                phone_call.create_message_if_user_updated
+              end
+            end
+          end
         end
       end
     end

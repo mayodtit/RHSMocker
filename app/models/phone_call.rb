@@ -152,7 +152,7 @@ class PhoneCall < ActiveRecord::Base
       end
 
       if member = Member.find_by_phone(phone_number)
-        return PhoneCall.create(
+        phone_call = PhoneCall.create(
           user: member,
           origin_phone_number: phone_number,
           destination_phone_number: Metadata.pha_phone_number,
@@ -161,6 +161,16 @@ class PhoneCall < ActiveRecord::Base
           origin_twilio_sid: origin_twilio_sid,
           origin_status: CONNECTED_STATUS
         )
+
+        if member.master_consult
+          Message.create(
+            user: member,
+            consult: member.master_consult,
+            phone_call_id: phone_call.id
+          )
+        end
+
+        return phone_call
       end
     else
       phone_number = nil
@@ -201,6 +211,18 @@ class PhoneCall < ActiveRecord::Base
       twilio_conference_name: twilio_conference_name,
       origin_status: origin_status
     )
+
+    # Create a message so it shows up in the user's timeline
+    if user && user.master_consult
+      Message.create!(
+        user: user,
+        consult: user.master_consult,
+        phone_call_id: nurseline_phone_call.id,
+        content_id: message && message.content_id,
+        symptom_id: message && message.symptom_id,
+        condition_id: message && message.condition_id
+      )
+    end
 
     self.transferred_to_phone_call = nurseline_phone_call
     save!
@@ -247,6 +269,17 @@ class PhoneCall < ActiveRecord::Base
   def create_follow_up_task
     if to_nurse?
       FollowUpTask.delay.create! phone_call: self, title: 'Nurseline Follow Up', creator: Member.robot, due_at: created_at
+    end
+  end
+
+  # Handles case where unknown caller is identified by PHA
+  def create_message_if_user_updated
+    if !message && !id_changed? && user_id_changed? && user && user.master_consult
+      Message.create!(
+        user: user,
+        consult: user.master_consult,
+        phone_call_id: id
+      )
     end
   end
 
