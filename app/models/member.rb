@@ -60,6 +60,8 @@ class Member < User
   after_save :send_premium_email
   after_save :notify_pha_of_new_member
 
+  scope :signed_up, -> { where('signed_up_at IS NOT NULL') }
+
   def self.name_search(string)
     wildcard = "%#{string}%"
     where("first_name LIKE ? OR last_name LIKE ? OR email LIKE ?", wildcard, wildcard, wildcard)

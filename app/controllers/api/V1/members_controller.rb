@@ -67,7 +67,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def load_members!
     authorize! :index, Member
-    @members = Member.where params.permit(:pha_id)
+    @members = Member.signed_up.where params.permit(:pha_id)
     @members = @members.name_search(params[:q]) if params[:q]
     @members = @members.page(page).per(per)
   end
