@@ -46,6 +46,7 @@ class PhoneCall < ActiveRecord::Base
   after_save :publish
   after_save :create_task
   after_save :create_message_if_user_updated
+  after_save :set_user_phone
 
   # for metrics
   scope :to_nurse_line, -> { where(destination_phone_number: PhoneCall.nurseline_numbers) }
@@ -280,6 +281,16 @@ class PhoneCall < ActiveRecord::Base
         consult: user.master_consult,
         phone_call_id: id
       )
+    end
+  end
+
+  def set_user_phone
+    if user && user.phone.nil?
+      if outbound? && destination_phone_number
+        user.update_attributes! phone: destination_phone_number
+      elsif !outbound? && origin_phone_number
+        user.update_attributes! phone: origin_phone_number
+      end
     end
   end
 

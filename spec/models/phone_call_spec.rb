@@ -1296,6 +1296,100 @@ describe PhoneCall do
     end
   end
 
+  describe '#set_user_phone' do
+    let(:phone_call) { build :phone_call }
+
+    shared_examples_for 'does nothing to user' do
+      it 'does nothing' do
+        phone_call.user.should_not_receive :update_attributes!
+        phone_call.set_user_phone
+      end
+    end
+
+    context 'user does not exist' do
+      before do
+        phone_call.stub(:user) { nil }
+      end
+
+      it 'does nothing' do
+        Member.any_instance.should_not_receive :update_attributes!
+        User.any_instance.should_not_receive :update_attributes!
+        phone_call.set_user_phone
+      end
+    end
+
+    context 'user does exist' do
+      before do
+        phone_call.user.should be_present
+      end
+
+      context 'user phone is missing' do
+        before do
+          phone_call.user.phone = nil
+        end
+
+        context 'outbound' do
+          before do
+            phone_call.stub(:outbound?) { true }
+          end
+
+          context 'destination phone number exists' do
+            before do
+              phone_call.stub(:destination_phone_number) { '4083913578' }
+            end
+
+            it 'sets the users phone to the destination phone number' do
+              phone_call.user.should_receive(:update_attributes!).with(phone: '4083913578')
+              phone_call.set_user_phone
+            end
+          end
+
+          context 'destination phone number is missing' do
+            before do
+              phone_call.stub(:destination_phone_number) { nil }
+            end
+
+            it_behaves_like 'does nothing to user'
+          end
+        end
+
+        context 'inbound' do
+          before do
+            phone_call.stub(:outbound?) { false }
+          end
+
+          context 'origin phone number exists' do
+            before do
+              phone_call.stub(:origin_phone_number) { '4083913578'}
+            end
+
+            it 'sets the users phone to the origin phone number' do
+              phone_call.user.should_receive(:update_attributes!).with(phone: '4083913578')
+              phone_call.set_user_phone
+            end
+
+          end
+
+          context 'origin phone number is missing' do
+            before do
+              phone_call.stub(:origin_phone_number) { nil }
+            end
+
+            it_behaves_like 'does nothing to user'
+          end
+        end
+      end
+
+      context 'user phone is not missing' do
+        before do
+          phone_call.user.phone = '4083913578'
+        end
+
+        it_behaves_like 'does nothing to user'
+      end
+    end
+  end
+
   describe 'states' do
     let(:phone_call) { build(:phone_call, to_role_id: @nurse_id) }
     let(:other_phone_call) { build(:phone_call, to_role_id: @nurse_id) }
