@@ -242,10 +242,9 @@ class Member < User
   end
 
   def notify_pha_of_new_member
-    if pha_id_changed? && pha_id.present?
+    if (newly_assigned_pha? && signed_up?) || (newly_signed_up? && pha_id.present?)
       NewMemberTask.delay.create! member: self, title: 'New Premium Member', creator: Member.robot, due_at: Time.now
     end
-    true
   end
 
   private
@@ -281,6 +280,10 @@ class Member < User
 
   def skip_agreement_validation
     @skip_agreement_validation || false
+  end
+
+  def newly_assigned_pha?
+    pha_id_changed? && pha_id.present?
   end
 
   def newly_signed_up?
