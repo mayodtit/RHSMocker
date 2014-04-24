@@ -1,7 +1,8 @@
 require 'spec_helper'
 
 describe Mails::ResetPasswordJob do
-  let!(:member) { create(:member, reset_password_token: 'BAADBEEFDEADBEEF') }
+  let!(:member) { create(:member) }
+  let(:url) { 'http://www.getbetter.com/whatever' }
 
   before do
     Timecop.freeze(Date.today.to_time)
@@ -13,7 +14,7 @@ describe Mails::ResetPasswordJob do
 
   describe '::create' do
     it 'enqueues the job to run now' do
-      expect{ described_class.create(member.id) }.to change(Delayed::Job, :count).by(1)
+      expect{ described_class.create(member.id, url) }.to change(Delayed::Job, :count).by(1)
       job = Delayed::Job.last
       expect(job.run_at).to eq(Time.now)
     end
@@ -21,7 +22,7 @@ describe Mails::ResetPasswordJob do
 
   describe '#perform' do
     it 'works' do
-      described_class.new(member.id).perform
+      described_class.new(member.id, url).perform
     end
   end
 end
