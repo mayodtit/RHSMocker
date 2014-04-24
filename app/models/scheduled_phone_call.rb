@@ -96,7 +96,7 @@ Prep:
   end
 
   def notify_user_confirming_call
-    RHSMailer.delay.scheduled_phone_call_member_confirmation_email(id)
+    Mails::ScheduledPhoneCallMemberConfirmationJob.create(id)
   end
 
   def notify_owner_confirming_call

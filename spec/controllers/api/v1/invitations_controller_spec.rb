@@ -83,11 +83,10 @@ describe Api::V1::InvitationsController do
 
           it 'sends an email that the role has been assigned' do
             url = 'http://localhost:4567/#/login?next=%2Fsettings%2Fprofile'
-            delayed_rhs_mailer.should_receive(:assigned_role_email)
-                              .with(@invited_member.email,
-                                    @invited_member.salutation,
-                                    url,
-                                    user.full_name)
+            Mails::AssignedRoleJob.should_receive(:create)
+                                  .with(@invited_member.id,
+                                        url,
+                                        user.full_name)
             do_request
           end
         end
