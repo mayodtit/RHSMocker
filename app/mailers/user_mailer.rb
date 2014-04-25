@@ -18,7 +18,7 @@ class UserMailer < ActionMailer::Base
     else
       url = reset_password_users_url(user.reset_password_token)
     end
-    RHSMailer.delay.reset_password_email(user.email, user.salutation, url)
+    Mails::ResetPasswordJob.create(user.id, url)
   end
 
   def invitation_email user, invitor

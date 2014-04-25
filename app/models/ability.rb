@@ -61,6 +61,7 @@ class Ability
     if user.admin?
       can :manage, :all
       can :assign_roles, User
+      can :read, :metrics
     end
 
     if user.nurse?

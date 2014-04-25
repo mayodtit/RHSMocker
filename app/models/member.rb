@@ -132,14 +132,14 @@ class Member < User
 
   def send_welcome_email
     if newly_signed_up?
-      RHSMailer.delay.welcome_to_better_email(email, salutation)
+      Mails::WelcomeToBetterJob.create(id)
     end
     true
   end
 
   def send_premium_email
     if (signed_up? && newly_premium?) || (is_premium? && newly_signed_up?)
-      RHSMailer.delay.welcome_to_premium_email(email, salutation)
+      Mails::WelcomeToPremiumJob.create(id)
     end
     true
   end

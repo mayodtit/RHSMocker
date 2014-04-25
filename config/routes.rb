@@ -146,6 +146,10 @@ RHSMocker::Application.routes.draw do
       resources :tasks, only: [:index, :show, :update] do
         get 'current', :on => :collection
       end
+      resources :metrics, only: [] do
+        get :inbound, on: :collection
+        get :inbound_by_week, on: :collection
+      end
     end
   end
 
