@@ -60,6 +60,8 @@ class Member < User
   after_save :send_premium_email
   after_save :notify_pha_of_new_member
 
+  scope :signed_up, -> { where('signed_up_at IS NOT NULL') }
+
   def self.name_search(string)
     wildcard = "%#{string}%"
     where("first_name LIKE ? OR last_name LIKE ? OR email LIKE ?", wildcard, wildcard, wildcard)
@@ -130,14 +132,14 @@ class Member < User
 
   def send_welcome_email
     if newly_signed_up?
-      RHSMailer.delay.welcome_to_better_email(email, salutation)
+      Mails::WelcomeToBetterJob.create(id)
     end
     true
   end
 
   def send_premium_email
     if (signed_up? && newly_premium?) || (is_premium? && newly_signed_up?)
-      RHSMailer.delay.welcome_to_premium_email(email, salutation)
+      Mails::WelcomeToPremiumJob.create(id)
     end
     true
   end
@@ -240,10 +242,9 @@ class Member < User
   end
 
   def notify_pha_of_new_member
-    if pha_id_changed? && pha_id.present?
+    if (newly_assigned_pha? && signed_up?) || (newly_signed_up? && pha_id.present?)
       NewMemberTask.delay.create! member: self, title: 'New Premium Member', creator: Member.robot, due_at: Time.now
     end
-    true
   end
 
   private
@@ -279,6 +280,10 @@ class Member < User
 
   def skip_agreement_validation
     @skip_agreement_validation || false
+  end
+
+  def newly_assigned_pha?
+    pha_id_changed? && pha_id.present?
   end
 
   def newly_signed_up?

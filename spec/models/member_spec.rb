@@ -189,17 +189,17 @@ describe Member do
       Timecop.return
     end
 
-    context 'pha_id changed' do
+    context 'just assigned a new pha' do
       before do
-        member.stub(:pha_id_changed?) { true }
+        member.stub(:newly_assigned_pha?) { true }
       end
 
-      context 'pha_id is present' do
+      context 'member is signed up' do
         before do
-          member.stub(:pha_id) { 1 }
+          member.stub(:signed_up?) { true }
         end
 
-        it 'sends the pha an email' do
+        it 'creates a new member task' do
           NewMemberTask.should_receive(:delay) do
             o = Object.new
             o.should_receive(:create!).with member: member, title: 'New Premium Member', creator: Member.robot, due_at: Time.now
@@ -209,9 +209,9 @@ describe Member do
         end
       end
 
-      context 'pha_id is not present' do
+      context 'member is not signed up' do
         before do
-          member.stub(:pha_id) { nil }
+          member.stub(:signed_up?) { false }
         end
 
         it 'does nothing' do
@@ -221,14 +221,52 @@ describe Member do
       end
     end
 
-    context 'pha_id didn\'t change' do
+    context 'not just assigned a pha' do
       before do
-        member.stub(:pha_id_changed?) { false }
+        member.stub(:newly_assigned_pha?) { false }
       end
 
-      it 'should do nothing' do
-        NewMemberTask.should_not_receive :delay
-        member.notify_pha_of_new_member
+      context 'just signed up' do
+        before do
+          member.stub(:newly_signed_up?) { true }
+        end
+
+        context 'pha is assigned' do
+          before do
+            member.stub(:pha_id) { 1 }
+          end
+
+          it 'creates a new member task' do
+            NewMemberTask.should_receive(:delay) do
+              o = Object.new
+              o.should_receive(:create!).with member: member, title: 'New Premium Member', creator: Member.robot, due_at: Time.now
+              o
+            end
+            member.notify_pha_of_new_member
+          end
+        end
+
+        context 'pha is not assigned' do
+          before do
+            member.stub(:pha_id) { nil }
+          end
+
+          it 'does nothing' do
+            NewMemberTask.should_not_receive :delay
+            member.notify_pha_of_new_member
+          end
+        end
+      end
+
+      context 'has already signed up' do
+        before do
+          member.stub(:newly_signed_up?) { false }
+        end
+
+        it 'does nothing' do
+          NewMemberTask.should_not_receive :delay
+          member.notify_pha_of_new_member
+        end
       end
     end
   end

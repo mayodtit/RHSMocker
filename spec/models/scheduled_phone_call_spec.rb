@@ -30,8 +30,8 @@ describe ScheduledPhoneCall do
 
   describe '#notify_user_confirming_call' do
     it 'notifies the user confirming their scheduled call time via email' do
-      delayed_rhs_mailer.should_receive(:scheduled_phone_call_member_confirmation_email)
-                        .with(scheduled_phone_call.id)
+      Mails::ScheduledPhoneCallMemberConfirmationJob.should_receive(:create)
+                                                    .with(scheduled_phone_call.id)
       scheduled_phone_call.notify_user_confirming_call
     end
   end

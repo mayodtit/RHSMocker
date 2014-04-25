@@ -25,6 +25,9 @@ class Task < ActiveRecord::Base
   after_save :publish
   after_save :notify
 
+  scope :nurse, -> { where(['role_id = ?', Role.find_by_name!('nurse').id]) }
+  scope :pha, -> { where(['role_id = ?', Role.find_by_name!('pha').id]) }
+
   def open?
     !(%w(completed abandoned).include? state)
   end

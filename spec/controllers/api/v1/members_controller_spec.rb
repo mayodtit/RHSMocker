@@ -43,6 +43,7 @@ describe Api::V1::MembersController do
       context 'with a pha_id param' do
         it 'searches by pha_id' do
           Member.stub(:name_search).and_return(Member)
+          Member.stub(:signed_up).and_return(Member)
           Member.should_receive(:where).with('pha_id' => '1').once.and_return(Member)
           do_request(q: user.first_name, pha_id: 1)
           body = JSON.parse(response.body, symbolize_names: true)

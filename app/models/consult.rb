@@ -27,16 +27,10 @@ class Consult < ActiveRecord::Base
   validates :master, uniqueness: {scope: :initiator_id}, if: :master?
 
   before_validation :strip_attributes
-  after_create :create_task, unless: :skip_tasks?
   after_save :update_tasks, unless: :skip_tasks?
 
   accepts_nested_attributes_for :messages
   mount_uploader :image, ConsultImageUploader
-
-  def create_task
-    return unless messages.empty?
-    MessageTask.create_if_only_opened_for_consult! self
-  end
 
   def update_tasks
     return if id_changed?
