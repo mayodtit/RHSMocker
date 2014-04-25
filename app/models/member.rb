@@ -194,10 +194,10 @@ class Member < User
   def is_premium=(value)
     if value == true
       add_premium_cards
+      assign_pha! if pha_id.nil?
       master_consult || build_master_consult(subject: self,
                                              title: 'Direct messaging with your Better PHA',
                                              skip_tasks: true)
-      assign_pha! if pha_id.nil?
     elsif value == false
       remove_premium_cards
     end

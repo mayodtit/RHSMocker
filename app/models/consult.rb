@@ -27,6 +27,7 @@ class Consult < ActiveRecord::Base
   validates :master, uniqueness: {scope: :initiator_id}, if: :master?
 
   before_validation :strip_attributes
+  after_create :send_initial_message
   after_save :update_tasks, unless: :skip_tasks?
 
   accepts_nested_attributes_for :messages
@@ -42,6 +43,18 @@ class Consult < ActiveRecord::Base
     event :close do
       transition :open => :closed
     end
+  end
+
+  def send_initial_message
+    return if messages.any?
+    return unless initiator.pha
+    messages.create(user: initiator.pha, text:
+<<-eos
+Welcome to Better. As your PHA, the first thing I’d like to help you do is get
+in touch with me. Tap on my photo to read my bio, tap on the phone above to
+call or just start typing to send a message. Try it now; just say hello.'
+eos
+    )
   end
 
   def skip_tasks?
