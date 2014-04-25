@@ -62,7 +62,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
   def needs_off_hours_response?
     return false unless off_hours?
-    return false if @user != @consult.initiator
+    return false if current_user != @consult.initiator
     if now.hour > 17 # same day off hours
       return false if @consult.messages
                               .where(off_hours: true)
