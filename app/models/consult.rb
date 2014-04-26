@@ -45,16 +45,15 @@ class Consult < ActiveRecord::Base
     end
   end
 
+  WELCOME_MESSAGE_TEXT = "Welcome to Better. As your PHA, the first thing "\
+    "I’d like to help you do is get in touch with me. Tap on my photo to "\
+    "read my bio, tap on the phone above to call or just start typing to "\
+    "send a message. Try it now; just say hello."
+
   def send_initial_message
     return if messages.any?
     return unless initiator.pha
-    messages.create(user: initiator.pha, text:
-<<-eos
-Welcome to Better. As your PHA, the first thing I’d like to help you do is get
-in touch with me. Tap on my photo to read my bio, tap on the phone above to
-call or just start typing to send a message. Try it now; just say hello.'
-eos
-    )
+    messages.create(user: initiator.pha, text: WELCOME_MESSAGE_TEXT)
   end
 
   def skip_tasks?
