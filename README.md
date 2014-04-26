@@ -20,6 +20,12 @@ To generate API docs locally at [http://localhost:3000/docs](http://localhost:30
 % rake docs:generate
 ```
 
+### Health Care Provider (HCP) Taxonomy data
+
+The HCPTaxonomy model translates taxonomy codes into a human-readable description.
+
+To load HCP data in the database, run this: rake admin:import_hcp_taxonomy
+
 ### Metadata
 
 Metadata dynamically controls variables and features in the API without needing to deploy or reboot the servers. All values are stored as strings. A list is below:
