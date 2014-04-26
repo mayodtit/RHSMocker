@@ -84,6 +84,6 @@ class MemberSerializer < ActiveModel::Serializer
     f = FeatureGroup.find_by_name('Launch day A/B test - without onboarding calls')
     return false if object.feature_groups.include?(f)
 
-    object.master_consult.try(:scheduled_phone_calls).try(:empty?) || false
+    object.scheduled_phone_calls.empty? || false
   end
 end
