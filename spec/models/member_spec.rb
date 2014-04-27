@@ -173,6 +173,11 @@ describe Member do
     let!(:member) { create(:member, pha: assigned_pha) }
     let!(:unassigned_pha) { create(:pha) }
 
+    before do
+      assigned_pha.create_pha_profile(accepting_new_members: true)
+      unassigned_pha.create_pha_profile(accepting_new_members: true)
+    end
+
     it 'returns the PHA with the most availablity' do
       expect(described_class.next_pha).to eq(unassigned_pha)
     end
