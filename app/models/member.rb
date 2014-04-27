@@ -14,6 +14,7 @@ class Member < User
   has_many :messages, :foreign_key => :user_id
   has_many :message_statuses, :foreign_key => :user_id
   has_many :phone_calls, :foreign_key => :user_id
+  has_many :scheduled_phone_calls, foreign_key: :user_id
   has_many :invitations
   has_many :user_feature_groups, :foreign_key => :user_id
   has_many :feature_groups, :through => :user_feature_groups
@@ -194,10 +195,10 @@ class Member < User
   def is_premium=(value)
     if value == true
       add_premium_cards
+      assign_pha! if pha_id.nil?
       master_consult || build_master_consult(subject: self,
                                              title: 'Direct messaging with your Better PHA',
                                              skip_tasks: true)
-      assign_pha! if pha_id.nil?
     elsif value == false
       remove_premium_cards
     end
@@ -209,6 +210,10 @@ class Member < User
     joins(:roles).where(roles: {name: :pha})
   end
 
+  def self.accepting_new_members
+    joins(:pha_profile).where(pha_profiles: {accepting_new_members: true})
+  end
+
   def self.pha_counts
     group(:pha_id).having("pha_id IS NOT NULL").count.tap do |hash|
       hash.default = 0
@@ -218,7 +223,7 @@ class Member < User
   def self.next_pha
     current_counts = pha_counts
     min_count = current_counts.values.min || 0
-    phas.inject(nil) do |selected, current|
+    phas.accepting_new_members.inject(nil) do |selected, current|
       if current_counts[current.id] <= min_count
         selected = current
         min_count = current_counts[current.id]

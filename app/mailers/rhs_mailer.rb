@@ -13,14 +13,30 @@ class RHSMailer < MandrillMailer::TemplateMailer
     )
   end
 
+  PREMIUM_WELCOME_TEMPLATE_CLARE = 'Welcome to Premium (Clare)'
+  PREMIUM_WELCOME_TEMPLATE_LAUREN = 'Welcome to Premium (Lauren)'
+  PREMIUM_WELCOME_TEMPLATE_MEG = 'Welcome to Premium (Meg)'
+  PREMIUM_WELCOME_TEMPLATE_NINETTE = 'Welcome to Premium (Ninette)'
+
   def welcome_to_premium_email(email, salutation)
+    user = Member.find_by_email!(email)
+    template = case user.pha.try(:email)
+               when 'clare@getbetter.com'
+                 PREMIUM_WELCOME_TEMPLATE_CLARE
+               when 'lauren@getbetter.com'
+                 PREMIUM_WELCOME_TEMPLATE_LAUREN
+               when 'meg@getbetter.com'
+                 PREMIUM_WELCOME_TEMPLATE_MEG
+               when 'ninette@getbetter.com'
+                 PREMIUM_WELCOME_TEMPLATE_NINETTE
+               else
+                 raise 'Must have PHA to send Welcome to Premium'
+               end
+
     mandrill_mail(
       subject: 'Welcome to Better Premium',
       to: { email: email },
-      template: 'Welcome to Better Premium v140310',
-      vars: {
-        FNAME: salutation
-      }
+      template: template
     )
   end
 

@@ -1,7 +1,8 @@
 require 'spec_helper'
 
 describe Mails::WelcomeToPremiumJob  do
-  let!(:member) { create(:member) }
+  let!(:pha) { create(:pha, email: 'clare@getbetter.com') }
+  let!(:member) { create(:member, pha: pha) }
 
   before do
     Timecop.freeze(Date.today.to_time)
