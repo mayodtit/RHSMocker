@@ -210,6 +210,10 @@ class Member < User
     joins(:roles).where(roles: {name: :pha})
   end
 
+  def self.accepting_new_members
+    joins(:pha_profile).where(pha_profiles: {accepting_new_members: true})
+  end
+
   def self.pha_counts
     group(:pha_id).having("pha_id IS NOT NULL").count.tap do |hash|
       hash.default = 0
@@ -219,7 +223,7 @@ class Member < User
   def self.next_pha
     current_counts = pha_counts
     min_count = current_counts.values.min || 0
-    phas.inject(nil) do |selected, current|
+    phas.accepting_new_members.inject(nil) do |selected, current|
       if current_counts[current.id] <= min_count
         selected = current
         min_count = current_counts[current.id]

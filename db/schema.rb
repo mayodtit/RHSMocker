@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140423213513) do
+ActiveRecord::Schema.define(:version => 20140427034605) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -356,9 +356,10 @@ ActiveRecord::Schema.define(:version => 20140423213513) do
   create_table "pha_profiles", :force => true do |t|
     t.integer  "user_id"
     t.string   "bio_image"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",            :null => false
+    t.datetime "updated_at",            :null => false
     t.text     "bio"
+    t.boolean  "accepting_new_members"
   end
 
   create_table "phone_call_summaries", :force => true do |t|
