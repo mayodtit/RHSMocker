@@ -37,14 +37,6 @@ class Consult < ActiveRecord::Base
     return if id_changed?
   end
 
-  private
-
-  state_machine initial: :open do
-    event :close do
-      transition :open => :closed
-    end
-  end
-
   WELCOME_MESSAGE_TEXT = "Welcome to Better. As your PHA, the first thing "\
     "I’d like to help you do is get in touch with me. Tap on my photo to "\
     "read my bio, tap on the phone above to call or just start typing to "\
@@ -52,8 +44,17 @@ class Consult < ActiveRecord::Base
 
   def send_initial_message
     return if messages.any?
+    return unless initiator.signed_up?
     return unless initiator.pha
     messages.create(user: initiator.pha, text: WELCOME_MESSAGE_TEXT)
+  end
+
+  private
+
+  state_machine initial: :open do
+    event :close do
+      transition :open => :closed
+    end
   end
 
   def skip_tasks?
