@@ -60,6 +60,7 @@ class Member < User
   after_save :send_welcome_email
   after_save :send_premium_email
   after_save :notify_pha_of_new_member
+  after_save :create_initial_master_consult_message
 
   scope :signed_up, -> { where('signed_up_at IS NOT NULL') }
 
@@ -297,5 +298,12 @@ class Member < User
 
   def newly_premium?
     is_premium? && is_premium_changed?
+  end
+
+  def create_initial_master_consult_message
+    return unless is_premium?
+    return unless newly_signed_up?
+    master_consult.try(:send_initial_message)
+    true
   end
 end
