@@ -40,6 +40,18 @@ class RHSMailer < MandrillMailer::TemplateMailer
     )
   end
 
+  def invitation_email(user, url)
+    mandrill_mail(
+      subject: "You've been invited to Better",
+      to: {email: user.email},
+      template: 'Invited to Better (generic)',
+      vars: {
+        FNAME: user.first_name || 'there',
+        LINK: url
+      }
+    )
+  end
+
   def reset_password_email(email, salutation, url)
     mandrill_mail(
       subject: 'Reset Password Instructions for Better',

@@ -4,7 +4,11 @@ class Api::V1::ResetPasswordController < Api::V1::ABaseController
   before_filter :load_user_from_token!, only: [:show, :update]
 
   def create
-    @user.deliver_reset_password_instructions!
+    if @user.signed_up?
+      @user.deliver_reset_password_instructions!
+    else
+      @user.hacky_simple_invite!
+    end
     render_success
   end
 
