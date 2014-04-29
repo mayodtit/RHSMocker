@@ -121,6 +121,7 @@ class Member < User
   end
 
   def add_new_member_content
+    cards.create(resource: CustomCard.swipe_explainer, priority: 100) if CustomCard.swipe_explainer
     cards.create(resource: Content.explainer, priority: 30) if Content.explainer
     Question.new_member_questions.each do |q|
       cards.create!(resource: q)
