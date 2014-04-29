@@ -19,6 +19,10 @@ class CustomCard < ActiveRecord::Base
     @onboarding ||= find_by_unique_id('RHS-ONBOARDING')
   end
 
+  def self.swipe_explainer
+    @swipe_explainer ||= find_by_unique_id('RHS-SWIPE_EXPLAINER')
+  end
+
   private
 
   def set_defaults
