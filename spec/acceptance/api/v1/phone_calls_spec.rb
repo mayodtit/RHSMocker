@@ -14,6 +14,7 @@ resource "PhoneCalls" do
   let!(:pha_phone_call) { create(:phone_call, to_role: pha.roles.first) }
   let!(:outbound_phone_call) { create(:phone_call, dialer: pha, outbound: true) }
   let!(:inbound_phone_call) { create(:phone_call, to_role: pha.roles.first, origin_phone_number: '4083913578') }
+  let!(:inbound_nurse_phone_call) { create(:phone_call, to_role: nurse.roles.first, origin_phone_number: '4083913578') }
   let!(:pha_role) { Role.find_or_create_by_name! :pha }
 
   let!(:resolved_inbound_phone_call) do
@@ -46,7 +47,7 @@ resource "PhoneCalls" do
         explanation 'Get all phone calls (along with the caller\'s information), most recent first. Accessible only by HCPs'
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
-        expect(body[:phone_calls].to_json).to eq([phone_call, other_phone_call].serializer.as_json.to_json)
+        expect(body[:phone_calls].to_json).to eq([phone_call, other_phone_call, inbound_nurse_phone_call].serializer.as_json.to_json)
       end
     end
   end
@@ -170,6 +171,25 @@ resource "PhoneCalls" do
         explanation 'Twilio telling us that a phone connected and we need to route it properly.'
         status.should == 200
         inbound_phone_call.reload.should be_unclaimed
+      end
+    end
+  end
+
+  describe 'twilio telling us a phone connected to nurseline' do
+    parameter :From, 'Phone # of inbound caller'
+    parameter :CallSid, 'Twilio call SID'
+
+    required_parameters :From, :CallSid
+
+    let(:From) { inbound_nurse_phone_call.origin_phone_number }
+    let(:CallSid) { 'CA8f68d3676b5424bde1594cb34235076b' }
+    let(:raw_post) { params.to_json }
+
+    post '/api/v1/phone_calls/connect/nurse' do
+      example_request '[POST] Determine how to route the nurseline phone call.' do
+        explanation 'Twilio telling us that a nurseline phone connected and we need to route it properly.'
+        status.should == 200
+        inbound_nurse_phone_call.reload.should be_unclaimed
       end
     end
   end

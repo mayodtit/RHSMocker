@@ -64,6 +64,11 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
     render formats: [:xml]
   end
 
+  def connect_nurse
+    @phone_call = PhoneCall.resolve params['From'], params['CallSid'], Role.nurse
+    render formats: [:xml]
+  end
+
   def triage_menu
     @menu_url = URL_HELPERS.triage_menu_api_v1_phone_call_url(@phone_call)
     @select_url = URL_HELPERS.triage_select_api_v1_phone_call_url(@phone_call)
@@ -81,7 +86,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
         @phone_call.transfer!
         @phone_call.miss! 'after_hours'
         @nurseline_phone_call = @phone_call.transferred_to_phone_call
-        render action: :connect_nurse, formats: [:xml]
+        render action: :transfer_nurse, formats: [:xml]
         return
     end
 

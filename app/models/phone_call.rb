@@ -82,7 +82,7 @@ class PhoneCall < ActiveRecord::Base
   end
 
   def in_progress?
-    %i(unresolved unclaimed claimed dialing connected disconnected).include? state
+    %w(unresolved unclaimed claimed dialing connected disconnected).include? state.to_s
   end
 
   def initial_state
@@ -142,13 +142,19 @@ class PhoneCall < ActiveRecord::Base
     end
   end
 
-  def self.resolve(phone_number, origin_twilio_sid)
+  def self.resolve(phone_number, origin_twilio_sid, role = Role.pha)
     phone_number = PhoneNumberUtil.prep_phone_number_for_db phone_number
+    state_event = role.name == 'pha' ? :resolve : nil
 
     if PhoneNumberUtil::is_valid_caller_id phone_number
-      phone_call = PhoneCall.where(state: :unresolved, origin_phone_number: phone_number).first(order: 'id desc', limit: 1)
+      phone_call = PhoneCall.where(
+        state: role.name == 'pha' ? :unresolved : :unclaimed,
+        origin_phone_number: phone_number,
+        to_role_id: role.id
+      ).first(order: 'id desc', limit: 1)
+
       if phone_call && (Time.now - phone_call.created_at) <= 5.minutes
-        phone_call.update_attributes state_event: :resolve, origin_twilio_sid: origin_twilio_sid, origin_status: CONNECTED_STATUS
+        phone_call.update_attributes state_event: state_event, origin_twilio_sid: origin_twilio_sid, origin_status: CONNECTED_STATUS
         return phone_call
       end
 
@@ -156,11 +162,11 @@ class PhoneCall < ActiveRecord::Base
         phone_call = PhoneCall.create(
           user: member,
           origin_phone_number: phone_number,
-          destination_phone_number: Metadata.pha_phone_number,
-          to_role: Role.find_by_name!(:pha),
-          state_event: :resolve,
+          destination_phone_number: role.name == 'pha' ? Metadata.pha_phone_number : Metadata.nurse_phone_number,
+          state_event: state_event,
           origin_twilio_sid: origin_twilio_sid,
-          origin_status: CONNECTED_STATUS
+          origin_status: CONNECTED_STATUS,
+          to_role: role
         )
 
         if member.master_consult
@@ -177,14 +183,16 @@ class PhoneCall < ActiveRecord::Base
       phone_number = nil
     end
 
-    PhoneCall.create(
-      origin_phone_number: phone_number,
-      destination_phone_number: Metadata.pha_phone_number,
-      to_role: Role.find_by_name!(:pha),
-      state_event: :resolve,
-      origin_twilio_sid: origin_twilio_sid,
-      origin_status: CONNECTED_STATUS
-    )
+    if role.name == 'pha'
+      PhoneCall.create(
+        origin_phone_number: phone_number,
+        destination_phone_number: Metadata.pha_phone_number,
+        to_role: Role.find_by_name!(:pha),
+        state_event: state_event,
+        origin_twilio_sid: origin_twilio_sid,
+        origin_status: CONNECTED_STATUS
+      )
+    end
   end
 
   def hang_up
