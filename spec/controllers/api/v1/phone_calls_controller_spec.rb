@@ -6,6 +6,7 @@ describe Api::V1::PhoneCallsController do
   let(:ability) { Object.new.extend(CanCan::Ability) }
 
   before do
+    Role.find_or_create_by_name('nurse')
     controller.stub(:current_ability => ability)
   end
 
@@ -338,6 +339,28 @@ describe Api::V1::PhoneCallsController do
     it_behaves_like 'renders valid xml', 'phone_calls/connect'
   end
 
+  describe 'POST connect_nurse' do
+    let(:phone_call) { build(:phone_call) }
+
+    def do_request
+      post :connect_nurse, From: '+14083913578', CallSid: 'CA8f68d3676b5424bde1594cb34235076b'
+    end
+
+    before do
+      PhoneCall.stub(:resolve) { phone_call }
+    end
+
+    it_behaves_like 'success'
+
+    it 'resolves the phone call and assigns it' do
+      PhoneCall.should_receive(:resolve).with('+14083913578', 'CA8f68d3676b5424bde1594cb34235076b', Role.nurse)
+      do_request
+      assigns(:phone_call).should == phone_call
+    end
+
+    it_behaves_like 'renders valid xml', 'phone_calls/connect_nurse'
+  end
+
   describe 'GET triage_menu' do
     let(:phone_call) { build_stubbed :phone_call }
 
@@ -434,7 +457,7 @@ describe Api::V1::PhoneCallsController do
 
         it 'redirects to connect nurse' do
           do_request('1')
-          response.should render_template(:connect_nurse)
+          response.should render_template(:transfer_nurse)
         end
       end
 

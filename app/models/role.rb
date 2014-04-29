@@ -21,4 +21,12 @@ class Role < ActiveRecord::Base
 
     on_call
   end
+
+  def self.pha
+    find_by_name! 'pha'
+  end
+
+  def self.nurse
+    find_by_name! 'nurse'
+  end
 end
