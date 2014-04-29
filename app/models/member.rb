@@ -156,6 +156,12 @@ class Member < User
     # UserMailer.delay.invitation_email(self, invitation.member)
   end
 
+  def hacky_simple_invite!
+    return if signed_up?
+    update_attributes!(invitation_token: Invitation.new.send(:generate_token))
+    Mails::InvitationJob.create(id, Rails.application.routes.url_helpers.invite_url(invitation_token))
+  end
+
   def signed_up?
     signed_up_at.present?
   end
