@@ -213,39 +213,78 @@ describe PhoneCall do
   describe '#in_progress?' do
     let(:phone_call) { build :phone_call }
 
-    it 'true for unresolved' do
-      phone_call.state = :unresolved
-      phone_call.should be_in_progress
+    context 'symbol' do
+      it 'true for unresolved' do
+        phone_call.state = :unresolved
+        phone_call.should be_in_progress
+      end
+
+      it 'true for unclaimed' do
+        phone_call.state = :unclaimed
+        phone_call.should be_in_progress
+      end
+
+      it 'true for dialing' do
+        phone_call.state = :dialing
+        phone_call.should be_in_progress
+      end
+
+      it 'true for connected' do
+        phone_call.state = :connected
+        phone_call.should be_in_progress
+      end
+
+      it 'true for disconnected' do
+        phone_call.state = :disconnected
+        phone_call.should be_in_progress
+      end
+
+      it 'false for missed' do
+        phone_call.state = :missed
+        phone_call.should_not be_in_progress
+      end
+
+      it 'false for ended' do
+        phone_call.state = :ended
+        phone_call.should_not be_in_progress
+      end
     end
 
-    it 'true for unclaimed' do
-      phone_call.state = :unclaimed
-      phone_call.should be_in_progress
-    end
+    context 'string' do
+      it 'true for unresolved' do
+        phone_call.state = 'unresolved'
+        phone_call.should be_in_progress
+      end
 
-    it 'true for dialing' do
-      phone_call.state = :dialing
-      phone_call.should be_in_progress
-    end
+      it 'true for unclaimed' do
+        phone_call.state = 'unclaimed'
+        phone_call.should be_in_progress
+      end
 
-    it 'true for connected' do
-      phone_call.state = :connected
-      phone_call.should be_in_progress
-    end
+      it 'true for dialing' do
+        phone_call.state = 'dialing'
+        phone_call.should be_in_progress
+      end
 
-    it 'true for disconnected' do
-      phone_call.state = :disconnected
-      phone_call.should be_in_progress
-    end
+      it 'true for connected' do
+        phone_call.state = 'connected'
+        phone_call.should be_in_progress
+      end
 
-    it 'false for missed' do
-      phone_call.state = :missed
-      phone_call.should_not be_in_progress
-    end
+      it 'true for disconnected' do
+        phone_call.state = 'disconnected'
+        phone_call.should be_in_progress
+      end
 
-    it 'false for ended' do
-      phone_call.state = :ended
-      phone_call.should_not be_in_progress
+      it 'false for missed' do
+        phone_call.state = 'missed'
+        phone_call.should_not be_in_progress
+      end
+
+      it 'false for ended' do
+        phone_call.state = 'ended'
+        phone_call.should_not be_in_progress
+      end
     end
   end
 
@@ -529,157 +568,305 @@ describe PhoneCall do
     let(:phone_call) { build(:phone_call, to_role: build_stubbed(:role, name: 'nurse')) }
     let(:phone_number) { '+14083913578' }
 
-    context 'phone number is not valid caller id' do
-      before do
-        PhoneNumberUtil.stub(:is_valid_caller_id) { false }
-      end
-
-      it 'creates a phone call with nil origin phone number' do
-        PhoneCall.should_receive(:create).with(
-          origin_phone_number: nil,
-          destination_phone_number: Metadata.pha_phone_number,
-          to_role: @pha,
-          state_event: :resolve,
-          origin_twilio_sid: twilio_sid,
-          origin_status: PhoneCall::CONNECTED_STATUS
-        )
-
-        PhoneCall.resolve(phone_number, twilio_sid)
-      end
+    def resolve(role = @pha)
+      PhoneCall.resolve(phone_number, twilio_sid, role)
     end
 
-    context 'phone number is valid caller id' do
-      let(:db_phone_number) { PhoneNumberUtil::prep_phone_number_for_db(phone_number) }
-
-      before do
-        PhoneNumberUtil.stub(:is_valid_caller_id) { true }
-      end
-
-      shared_examples_for 'unable to resolve call' do
-        context 'member with phone exists' do
-          let(:member) { build(:member) }
-          before do
-            Member.stub(:find_by_phone).with(db_phone_number) { member }
-          end
-
-          it 'creates a PhoneCall' do
-            PhoneCall.should_receive(:create).with(
-              user: member,
-              origin_phone_number: db_phone_number,
-              destination_phone_number: Metadata.pha_phone_number,
-              to_role: @pha,
-              state_event: :resolve,
-              origin_twilio_sid: twilio_sid,
-              origin_status: PhoneCall::CONNECTED_STATUS
-            ) { phone_call }
-            Message.stub(:create)
-            PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
-          end
-
-          context 'user has master consult' do
-            let(:consult) { build_stubbed :consult }
-            before do
-              member.stub(:master_consult) { consult }
-            end
-
-            it 'creates a Message with the phone call' do
-              PhoneCall.stub(:create) { phone_call }
-              Message.should_receive(:create).with(
-                user: member,
-                consult: consult,
-                phone_call_id: phone_call.id
-              )
-              PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
-            end
-          end
-
-          context 'user doesn\'t have master consult' do
-            before do
-              member.stub(:master_consult) { nil }
-            end
-
-            it 'creates a Message with the phone call' do
-              PhoneCall.stub(:create) { phone_call }
-              Message.should_not_receive(:create)
-              PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
-            end
-          end
-        end
-
-        context 'member with phone does not exist' do
-          before do
-            Member.stub(:find_by_phone).with(db_phone_number) { nil }
-          end
-
-          it 'creates a PhoneCall without a member' do
-            PhoneCall.should_receive(:create).with(
-              origin_phone_number: db_phone_number,
-              destination_phone_number: Metadata.pha_phone_number,
-              to_role: @pha,
-              state_event: :resolve,
-              origin_twilio_sid: twilio_sid,
-              origin_status: PhoneCall::CONNECTED_STATUS
-            ) { phone_call }
-
-            PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
-          end
-        end
-      end
-
-      context 'unresolved phone call exists' do
+    context 'pha' do
+      context 'phone number is not valid caller id' do
         before do
-          PhoneCall.stub(:where).with(state: :unresolved, origin_phone_number: db_phone_number) do
-            o = Object.new
-            o.stub(:first).with(order: 'id desc', limit: 1) do
-              phone_call
+          PhoneNumberUtil.stub(:is_valid_caller_id) { false }
+        end
+
+        it 'creates a phone call with nil origin phone number' do
+          PhoneCall.should_receive(:create).with(
+            origin_phone_number: nil,
+            destination_phone_number: Metadata.pha_phone_number,
+            to_role: @pha,
+            state_event: :resolve,
+            origin_twilio_sid: twilio_sid,
+            origin_status: PhoneCall::CONNECTED_STATUS
+          )
+
+          resolve
+        end
+      end
+
+      context 'phone number is valid caller id' do
+        let(:db_phone_number) { PhoneNumberUtil::prep_phone_number_for_db(phone_number) }
+
+        before do
+          PhoneNumberUtil.stub(:is_valid_caller_id) { true }
+        end
+
+        shared_examples_for 'unable to resolve call' do
+          context 'member with phone exists' do
+            let(:member) { build(:member) }
+            before do
+              Member.stub(:find_by_phone).with(db_phone_number) { member }
             end
-            o
+
+            it 'creates a PhoneCall' do
+              PhoneCall.should_receive(:create).with(
+                user: member,
+                origin_phone_number: db_phone_number,
+                destination_phone_number: Metadata.pha_phone_number,
+                to_role: @pha,
+                state_event: :resolve,
+                origin_twilio_sid: twilio_sid,
+                origin_status: PhoneCall::CONNECTED_STATUS
+              ) { phone_call }
+              Message.stub(:create)
+              resolve.should == phone_call
+            end
+
+            context 'user has master consult' do
+              let(:consult) { build_stubbed :consult }
+              before do
+                member.stub(:master_consult) { consult }
+              end
+
+              it 'creates a Message with the phone call' do
+                PhoneCall.stub(:create) { phone_call }
+                Message.should_receive(:create).with(
+                  user: member,
+                  consult: consult,
+                  phone_call_id: phone_call.id
+                )
+                resolve.should == phone_call
+              end
+            end
+
+            context 'user doesn\'t have master consult' do
+              before do
+                member.stub(:master_consult) { nil }
+              end
+
+              it 'creates a Message with the phone call' do
+                PhoneCall.stub(:create) { phone_call }
+                Message.should_not_receive(:create)
+                resolve.should == phone_call
+              end
+            end
           end
 
-          Timecop.freeze
+          context 'member with phone does not exist' do
+            before do
+              Member.stub(:find_by_phone).with(db_phone_number) { nil }
+            end
+
+            it 'creates a PhoneCall without a member' do
+              PhoneCall.should_receive(:create).with(
+                origin_phone_number: db_phone_number,
+                destination_phone_number: Metadata.pha_phone_number,
+                to_role: @pha,
+                state_event: :resolve,
+                origin_twilio_sid: twilio_sid,
+                origin_status: PhoneCall::CONNECTED_STATUS
+              ) { phone_call }
+
+              resolve.should == phone_call
+            end
+          end
         end
 
-        after do
-          Timecop.return
-        end
-
-        context 'phone call is over 5 minutes old' do
+        context 'unresolved phone call exists' do
           before do
-            phone_call.stub(:created_at) { Time.now - 6.minutes }
+            PhoneCall.stub(:where).with(state: :unresolved, origin_phone_number: db_phone_number, to_role_id: @pha_id) do
+              o = Object.new
+              o.stub(:first).with(order: 'id desc', limit: 1) do
+                phone_call
+              end
+              o
+            end
+
+            Timecop.freeze
+          end
+
+          after do
+            Timecop.return
+          end
+
+          context 'phone call is over 5 minutes old' do
+            before do
+              phone_call.stub(:created_at) { Time.now - 6.minutes }
+            end
+
+            it_behaves_like 'unable to resolve call'
+          end
+
+          context 'phone call is under 5 minutes old' do
+            before do
+              phone_call.stub(:created_at) { Time.now - 5.minutes }
+            end
+
+            it 'resolves the phone call' do
+              phone_call.should_receive(:update_attributes).with(state_event: :resolve, origin_twilio_sid: twilio_sid, origin_status: PhoneCall::CONNECTED_STATUS)
+              resolve.should == phone_call
+            end
+
+            it 'does not create a phone call' do
+              PhoneCall.should_not_receive(:create)
+              phone_call.stub(:update_attributes)
+              resolve
+            end
+          end
+        end
+
+        context 'unresolved phone call does not exist' do
+          before do
+            PhoneCall.stub(:where).with(state: :unresolved, origin_phone_number: db_phone_number, to_role_id: @pha_id) do
+              o = Object.new
+              o.stub(:first).with(order: 'id desc', limit: 1) do
+                nil
+              end
+              o
+            end
           end
 
           it_behaves_like 'unable to resolve call'
         end
+      end
+    end
 
-        context 'phone call is under 5 minutes old' do
-          before do
-            phone_call.stub(:created_at) { Time.now - 5.minutes }
-          end
+    context 'nurse' do
+      context 'phone number is not valid caller id' do
+        before do
+          PhoneNumberUtil.stub(:is_valid_caller_id) { false }
+        end
 
-          it 'resolves the phone call' do
-            phone_call.should_receive(:update_attributes).with(state_event: :resolve, origin_twilio_sid: twilio_sid, origin_status: PhoneCall::CONNECTED_STATUS)
-            PhoneCall.resolve(phone_number, twilio_sid).should == phone_call
-          end
-
-          it 'does not create a phone call' do
-            PhoneCall.should_not_receive(:create)
-            PhoneCall.resolve(phone_number, twilio_sid)
-          end
+        it 'does nothing' do
+          PhoneCall.should_not_receive(:create)
+          resolve @nurse
         end
       end
 
-      context 'unresolved phone call does not exist' do
+      context 'phone number is valid caller id' do
+        let(:db_phone_number) { PhoneNumberUtil::prep_phone_number_for_db(phone_number) }
+
         before do
-          PhoneCall.stub(:where).with(state: :unresolved, origin_phone_number: db_phone_number) do
-            o = Object.new
-            o.stub(:first).with(order: 'id desc', limit: 1) do
-              nil
+          PhoneNumberUtil.stub(:is_valid_caller_id) { true }
+        end
+
+        shared_examples_for 'unable to resolve call' do
+          context 'member with phone exists' do
+            let(:member) { build(:member) }
+            before do
+              Member.stub(:find_by_phone).with(db_phone_number) { member }
             end
-            o
+
+            it 'creates a PhoneCall' do
+              PhoneCall.should_receive(:create).with(
+                user: member,
+                origin_phone_number: db_phone_number,
+                destination_phone_number: Metadata.nurse_phone_number,
+                to_role: @nurse,
+                state_event: nil,
+                origin_twilio_sid: twilio_sid,
+                origin_status: PhoneCall::CONNECTED_STATUS
+              ) { phone_call }
+              Message.stub(:create)
+              resolve(@nurse).should == phone_call
+            end
+
+            context 'user has master consult' do
+              let(:consult) { build_stubbed :consult }
+              before do
+                member.stub(:master_consult) { consult }
+              end
+
+              it 'creates a Message with the phone call' do
+                PhoneCall.stub(:create) { phone_call }
+                Message.should_receive(:create).with(
+                  user: member,
+                  consult: consult,
+                  phone_call_id: phone_call.id
+                )
+                resolve(@nurse).should == phone_call
+              end
+            end
+
+            context 'user doesn\'t have master consult' do
+              before do
+                member.stub(:master_consult) { nil }
+              end
+
+              it 'creates a Message with the phone call' do
+                PhoneCall.stub(:create) { phone_call }
+                Message.should_not_receive(:create)
+                resolve(@nurse).should == phone_call
+              end
+            end
+          end
+
+          context 'member with phone does not exist' do
+            before do
+              Member.stub(:find_by_phone).with(db_phone_number) { nil }
+            end
+
+            it 'does nothing' do
+              PhoneCall.should_not_receive(:create)
+              resolve @nurse
+            end
           end
         end
 
-        it_behaves_like 'unable to resolve call'
+        context 'unclaimed phone call exists' do
+          before do
+            PhoneCall.stub(:where).with(state: :unclaimed, origin_phone_number: db_phone_number, to_role_id: @nurse_id) do
+              o = Object.new
+              o.stub(:first).with(order: 'id desc', limit: 1) do
+                phone_call
+              end
+              o
+            end
+
+            Timecop.freeze
+          end
+
+          after do
+            Timecop.return
+          end
+
+          context 'phone call is over 5 minutes old' do
+            before do
+              phone_call.stub(:created_at) { Time.now - 6.minutes }
+            end
+
+            it_behaves_like 'unable to resolve call'
+          end
+
+          context 'phone call is under 5 minutes old' do
+            before do
+              phone_call.stub(:created_at) { Time.now - 5.minutes }
+            end
+
+            it 'resolves the phone call' do
+              phone_call.should_receive(:update_attributes).with(state_event: nil, origin_twilio_sid: twilio_sid, origin_status: PhoneCall::CONNECTED_STATUS)
+              resolve(@nurse).should == phone_call
+            end
+
+            it 'does not create a phone call' do
+              PhoneCall.should_not_receive(:create)
+              phone_call.stub(:update_attributes)
+              resolve(@nurse)
+            end
+          end
+        end
+
+        context 'unclaimed phone call does not exist' do
+          before do
+            PhoneCall.stub(:where).with(state: :unclaimed, origin_phone_number: db_phone_number, to_role_id: @nurse_id) do
+              o = Object.new
+              o.stub(:first).with(order: 'id desc', limit: 1) do
+                nil
+              end
+              o
+            end
+          end
+
+          it_behaves_like 'unable to resolve call'
+        end
       end
     end
   end

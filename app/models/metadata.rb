@@ -25,6 +25,10 @@ class Metadata < ActiveRecord::Base
     Metadata.find_by_mkey('nurse_phone_number').try(:mvalue) || NURSE_PHONE_NUMBER
   end
 
+  def self.direct_nurse_phone_number
+    Metadata.find_by_mkey('direct_nurse_phone_number').try(:mvalue) || DIRECT_NURSE_PHONE_NUMBER
+  end
+
   def self.pha_phone_number
     Metadata.find_by_mkey('pha_phone_number').try(:mvalue) || PHA_PHONE_NUMBER
   end

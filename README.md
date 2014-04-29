@@ -30,17 +30,18 @@ To load HCP data in the database, run this: rake admin:import_hcp_taxonomy
 
 Metadata dynamically controls variables and features in the API without needing to deploy or reboot the servers. All values are stored as strings. A list is below:
 
-| Key                       | Possible Values        | Controls                                       |
-|:--------------------------|:-----------------------|:-----------------------------------------------|
-| *use_invite_flow*         | true/false             | When "true", new members must be invited.                         |
-| *remove_robot_response*   | true/false             | When "true", automated response to messages is removed. |
-| *enable_pha_phone_queue*      | true/false             | When "true", incoming calls to PHAs are queued up (rather than sent directly to a Google Voice # shared by PHAs) |
-| *version*                 | #.#.#                  | Lowest version API supports, used for killswitch |
-| *app_store_url*           | URL                    | URL that leads users to download the app |
-| *nurse_phone_number*      | ##########             | Phone number client and API uses to dial nurseline |
-| *pha_phone_number*        | ##########             | Phone number client and API uses to dial PHAs |
-| *use_pub_sub*             | true/false             | When "true", turns on publishing messages to rhs_pub_sub server |
-| *force_phas_off_call*     | true/false             | When "true", phas are set off call regardless of time. Only works in non-production environments |
+| Key                         | Possible Values        | Controls                                       |
+|:----------------------------|:-----------------------|:-----------------------------------------------|
+| *use_invite_flow*           | true/false             | When "true", new members must be invited.                         |
+| *remove_robot_response*     | true/false             | When "true", automated response to messages is removed. |
+| *enable_pha_phone_queue*    | true/false             | When "true", incoming calls to PHAs are queued up (rather than sent directly to a Google Voice # shared by PHAs) |
+| *version*                   | #.#.#                  | Lowest version API supports, used for killswitch |
+| *app_store_url*             | URL                    | URL that leads users to download the app |
+| *nurse_phone_number*        | ##########             | Phone number client and API uses to dial nurseline (routes through Twilio) |
+| *direct_nurse_phone_number* | ##########             | Direct number to nurseline (does not route through Twilio) |
+| *pha_phone_number*          | ##########             | Phone number client and API uses to dial PHAs |
+| *use_pub_sub*               | true/false             | When "true", turns on publishing messages to rhs_pub_sub server |
+| *force_phas_off_call*       | true/false             | When "true", phas are set off call regardless of time. Only works in non-production environments |
 
 ## Development
 
