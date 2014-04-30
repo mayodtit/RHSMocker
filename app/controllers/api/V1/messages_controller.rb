@@ -67,7 +67,7 @@ Hi #{member.first_name}. #{member.pha ? member.pha.first_name : 'Your PHA'} will
   end
 
   def needs_off_hours_response?
-    return false unless Role.pha.on_call?
+    return false if Role.pha.on_call?
     return false if current_user != @consult.initiator
     if now.hour > 17 # same day off hours
       return false if @consult.messages
