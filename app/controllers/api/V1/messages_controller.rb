@@ -54,14 +54,20 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def send_after_hours_response!
+    member = @consult.initiator
+
+    text = <<-eos
+Hi #{member.first_name}. #{member.pha ? member.pha.first_name : 'Your PHA'} will get right back to you. If you're experiencing new symptoms or have specific medical questions, you can talk to a Mayo Clinic nurse by tapping the following number: #{Metadata.nurse_phone_number}
+    eos
+
     @consult.messages.create(user: Member.robot,
-                             text: 'Your PHA is currently unavailable. Please leave a brief message and our team will get back to you shortly. If you are experiencing a medical emergency, please call 911.',
+                             text: text,
                              created_at: Time.now + 2.seconds,
                              off_hours: true)
   end
 
   def needs_off_hours_response?
-    return false unless off_hours?
+    return false if Role.pha.on_call?
     return false if current_user != @consult.initiator
     if now.hour > 17 # same day off hours
       return false if @consult.messages
@@ -75,10 +81,6 @@ class Api::V1::MessagesController < Api::V1::ABaseController
                               .any?
     end
     true
-  end
-
-  def off_hours?
-    now.saturday? || now.sunday? || now.hour < 9 || now.hour > 17
   end
 
   def now
