@@ -35,4 +35,8 @@ class AssociationType < ActiveRecord::Base
   def hcp?
     relationship_type == 'hcp'
   end
+
+  def display_name
+    name.downcase
+  end
 end
