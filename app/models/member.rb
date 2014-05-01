@@ -31,6 +31,8 @@ class Member < User
   has_many :user_programs, foreign_key: :user_id, dependent: :destroy
   has_many :programs, through: :user_programs
 
+  has_one :owned_subscription, class_name: 'Subscription', foreign_key: :owner_id
+
   accepts_nested_attributes_for :user_agreements
 
   attr_accessor :skip_agreement_validation
