@@ -103,6 +103,10 @@ class Association < ActiveRecord::Base
     end
   end
 
+  def possessive_association_type_display_name
+    "#{creator.gender_possessive} #{association_type.display_name}"
+  end
+
   protected
 
   def enabled_association_with_owner

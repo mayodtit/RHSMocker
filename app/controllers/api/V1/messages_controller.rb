@@ -55,9 +55,11 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
   def send_after_hours_response!
     member = @consult.initiator
+    name = (member.nickname.present? && member.nickname) || member.first_name
+    pha_name = member.pha && member.pha.first_name.present? ? member.pha.first_name : 'Your PHA'
 
     text = <<-eos
-Hi #{member.first_name}. #{member.pha ? member.pha.first_name : 'Your PHA'} will get right back to you. If you're experiencing new symptoms or have specific medical questions, you can talk to a Mayo Clinic nurse by tapping the following number: #{Metadata.nurse_phone_number}
+Hi#{name.present? ? " #{name}" : ''}. #{pha_name} will follow up with you about your message. If you're experiencing new symptoms or have specific medical questions, you can talk to a Mayo Clinic nurse by tapping the following number: #{Metadata.nurse_phone_number}
     eos
 
     @consult.messages.create(user: Member.robot,

@@ -31,6 +31,10 @@ class Member < User
   has_many :user_programs, foreign_key: :user_id, dependent: :destroy
   has_many :programs, through: :user_programs
 
+  has_one :owned_subscription, class_name: 'Subscription', foreign_key: :owner_id
+  has_one :subscription_user, foreign_key: :user_id
+  has_one :shared_subscription, through: :subscription_user, class_name: 'Subscription', source: :subscription
+
   accepts_nested_attributes_for :user_agreements
 
   attr_accessor :skip_agreement_validation
@@ -250,8 +254,8 @@ class Member < User
   end
 
   def remove_premium_cards
-    cards.where(resource_type: CustomCard, resource_id: CustomCard.onboarding.id).destroy_all
-    cards.where(resource_type: Content, resource_id: Content.premium.id).destroy_all
+    cards.where(resource_type: CustomCard, resource_id: CustomCard.onboarding.id).destroy_all if CustomCard.onboarding
+    cards.where(resource_type: Content, resource_id: Content.premium.id).destroy_all if Content.premium
   end
 
   def notify_pha_of_new_member
