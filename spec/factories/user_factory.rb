@@ -34,6 +34,10 @@ FactoryGirl.define do
         work_phone_number '4153333333'
         after(:create) {|user| user.add_role(:pha_lead)}
       end
+
+      trait :premium do
+        is_premium true
+      end
     end
   end
 end
