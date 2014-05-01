@@ -32,6 +32,8 @@ class Member < User
   has_many :programs, through: :user_programs
 
   has_one :owned_subscription, class_name: 'Subscription', foreign_key: :owner_id
+  has_one :subscription_user, foreign_key: :user_id
+  has_one :shared_subscription, through: :subscription_user, class_name: 'Subscription', source: :subscription
 
   accepts_nested_attributes_for :user_agreements
 
