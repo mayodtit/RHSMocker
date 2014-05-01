@@ -12,6 +12,10 @@ FactoryGirl.define do
       member_flag true
       owner nil
 
+      trait :premium do
+        is_premium true
+      end
+
       trait :with_stripe_customer_id do
         sequence(:stripe_customer_id) {|n| "cus_#{n}"}
       end
