@@ -250,8 +250,8 @@ class Member < User
   end
 
   def remove_premium_cards
-    cards.where(resource_type: CustomCard, resource_id: CustomCard.onboarding.id).destroy_all
-    cards.where(resource_type: Content, resource_id: Content.premium.id).destroy_all
+    cards.where(resource_type: CustomCard, resource_id: CustomCard.onboarding.id).destroy_all if CustomCard.onboarding
+    cards.where(resource_type: Content, resource_id: Content.premium.id).destroy_all if Content.premium
   end
 
   def notify_pha_of_new_member
