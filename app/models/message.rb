@@ -48,7 +48,7 @@ class Message < ActiveRecord::Base
 
   def notify_initiator
     return if consult.initiator_id == user_id
-    ApnsConsultMessageJob.create(consult.initiator_id, consult_id)
+    Notifications::NewMessageJob.create(consult.initiator_id, consult_id)
   end
 
   def create_task
