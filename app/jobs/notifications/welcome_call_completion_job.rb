@@ -15,8 +15,7 @@ class Notifications::WelcomeCallCompletionJob < Struct.new(:user_id)
   private
 
   def alert_text
-    "We enjoyed getting to know you on the Welcome call! If you'd like to " +
-    "continue your Premium membership once your trial is over, simply enter " +
-    "your card number under \"Payment.\""
+    'We enjoyed getting to know you on your Welcome call! To extend your ' +
+    'Premium membership, swipe here.'
   end
 end
