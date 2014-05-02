@@ -3,6 +3,7 @@ FactoryGirl.define do
     sequence(:title) {|n| "CustomCard #{n}"}
     raw_preview "CustomCard raw_preview"
     has_custom_card false
+    payment_card false
 
     trait :with_content do
       content

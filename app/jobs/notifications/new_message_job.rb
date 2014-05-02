@@ -1,4 +1,4 @@
-class ApnsConsultMessageJob < Struct.new(:user_id, :consult_id)
+class Notifications::NewMessageJob < Struct.new(:user_id, :consult_id)
   def self.create(user_id, consult_id)
     job = new(user_id, consult_id)
     Delayed::Job.enqueue(job, queue: job.queue_name)
@@ -18,6 +18,6 @@ class ApnsConsultMessageJob < Struct.new(:user_id, :consult_id)
   end
 
   def queue_name
-    "ApnsConsultMessageJob-UserId-#{user_id}-ConsultId-#{consult_id}"
+    "NewMessageJob-UserId-#{user_id}-ConsultId-#{consult_id}"
   end
 end

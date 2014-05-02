@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe ApnsConsultMessageJob  do
+describe Notifications::NewMessageJob do
   let(:user) { create(:member) }
   let(:consult) { create(:consult, initiator: user) }
 
@@ -18,7 +18,7 @@ describe ApnsConsultMessageJob  do
       expect{ described_class.create(user.id, consult.id) }.to change(Delayed::Job, :count).by(5)
       job = Delayed::Job.last
       expect(job.run_at).to eq(Time.now)
-      expect(job.queue).to eq("ApnsConsultMessageJob-UserId-#{user.id}-ConsultId-#{consult.id}")
+      expect(job.queue).to eq("NewMessageJob-UserId-#{user.id}-ConsultId-#{consult.id}")
     end
 
     it 'deletes existing jobs for the same user and consult' do

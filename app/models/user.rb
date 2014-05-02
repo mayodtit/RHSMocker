@@ -170,10 +170,6 @@ class User < ActiveRecord::Base
     where(type: 'Member')
   end
 
-  def set_premium_flag
-    self.update_attribute(:is_premium, true)
-  end
-
   def set_default_hcp(association_id)
     self.update_attribute(:default_hcp_association_id, association_id)
   end
