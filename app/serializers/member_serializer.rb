@@ -86,4 +86,9 @@ class MemberSerializer < ActiveModel::Serializer
 
     object.scheduled_phone_calls.empty? || false
   end
+
+  # TODO - workaround for client issue, remove after client supports nil value
+  def subscription_end_date
+    object.subscription_end_date || Time.parse('2099-12-31').in_time_zone
+  end
 end

@@ -1,6 +1,14 @@
 require 'spec_helper'
 
 describe ScheduledJobs do
+  before do
+    Timecop.freeze
+  end
+
+  after do
+    Timecop.return
+  end
+
   describe '#unset_premium_for_expired_subscriptions' do
     it 'should unset premium flag for users with expired subscriptions' do
       u1 = create(:user, is_premium: true, subscription_end_date: 1.day.ago)
@@ -13,7 +21,7 @@ describe ScheduledJobs do
       u2.reload.is_premium.should be_true
       u2.reload.subscription_end_date.should_not be_nil
       u3.reload.is_premium.should be_true
-      u3.reload.subscription_end_date.should eq(DateTime.parse('Dec 31 2099'))
+      u3.reload.subscription_end_date.should be_nil
     end
   end
 end
