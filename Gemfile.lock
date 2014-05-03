@@ -284,6 +284,8 @@ GEM
       webmock (>= 1.7.0)
     ruby-hmac (0.4.0)
     rubyzip (1.1.0)
+    rufus-scheduler (3.0.7)
+      tzinfo
     s3_uploader (0.0.5)
       fog
     safe_yaml (0.9.5)
@@ -401,6 +403,7 @@ DEPENDENCIES
   rspec-rails (~> 2.0)
   rspec_api_documentation
   rubyzip
+  rufus-scheduler
   s3_uploader
   sass-rails (~> 3.2.3)
   sorcery
