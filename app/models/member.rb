@@ -284,7 +284,7 @@ class Member < User
   end
 
   def set_subscription_end_date
-    if newly_signed_up?
+    if is_premium? && newly_signed_up?
       self.subscription_end_date ||= signed_up_at.in_time_zone('Pacific Time (US & Canada)').end_of_day + free_trial_days.days if free_trial_days > 0
     end
   end
