@@ -43,7 +43,7 @@ class Member < User
                   :holds_phone_in, :invitation_token, :units,
                   :waitlist_entry, :user_agreements_attributes, :pha, :pha_id,
                   :apns_token, :is_premium, :free_trial_ends_at, :last_contact_at,
-                  :skip_agreement_validation, :signed_up_at
+                  :skip_agreement_validation, :signed_up_at, :subscription_ends_at
 
   validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}

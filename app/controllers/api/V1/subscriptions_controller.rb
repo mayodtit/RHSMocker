@@ -53,7 +53,8 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   def user_attributes
     {
       is_premium: true,
-      free_trial_ends_at: nil
+      free_trial_ends_at: nil,
+      subscription_ends_at: nil
     }
   end
 end

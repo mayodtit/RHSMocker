@@ -11,9 +11,9 @@ describe ScheduledJobs do
 
   describe '#unset_premium_for_expired_subscriptions' do
     it 'should unset premium flag for users with expired subscriptions' do
-      u1 = create(:user, is_premium: true, free_trial_ends_at: 1.day.ago)
-      u2 = create(:user, is_premium: true, free_trial_ends_at: 1.hour.from_now)
-      u3 = create(:user, is_premium: true, free_trial_ends_at: nil)
+      u1 = create(:member, is_premium: true, free_trial_ends_at: 1.day.ago)
+      u2 = create(:member, is_premium: true, free_trial_ends_at: 1.hour.from_now)
+      u3 = create(:member, is_premium: true, free_trial_ends_at: nil)
 
       ScheduledJobs.unset_premium_for_expired_subscriptions
       u1.reload.is_premium.should be_false

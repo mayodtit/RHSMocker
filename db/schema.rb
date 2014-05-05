@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140505190202) do
+ActiveRecord::Schema.define(:version => 20140505192653) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -769,6 +769,7 @@ ActiveRecord::Schema.define(:version => 20140505190202) do
     t.datetime "free_trial_ends_at"
     t.datetime "last_contact_at"
     t.datetime "signed_up_at"
+    t.datetime "subscription_ends_at"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
