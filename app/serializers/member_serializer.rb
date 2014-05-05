@@ -10,7 +10,8 @@ class MemberSerializer < ActiveModel::Serializer
              :pusher_id, :full_name, :created_at, :email_read_only,
              :sharing_prohibited, :owner_id, :is_premium, :free_trial_ends_at,
              :pha_id, :pha_profile_bio_image_url, :pha_profile_url,
-             :show_welcome_call, :pha_full_name, :last_contact_at, :has_master_consult
+             :show_welcome_call, :pha_full_name, :last_contact_at,
+             :has_master_consult, :subscription_end_date
 
   def attributes
     if options[:shallow]
@@ -90,5 +91,9 @@ class MemberSerializer < ActiveModel::Serializer
   # TODO - workaround for client issue, remove after client supports nil value
   def free_trial_ends_at
     object.free_trial_ends_at || Time.parse('2099-12-31').in_time_zone
+  end
+
+  def subscription_end_date
+    free_trial_ends_at
   end
 end
