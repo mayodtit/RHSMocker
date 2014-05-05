@@ -23,13 +23,6 @@ describe User do
     expect(user).to_not be_valid
   end
 
-  describe '#set_premium_flag' do
-    it 'sets the is_premium boolean to true' do
-      u = create(:user)
-      expect{u.set_premium_flag}.to change{u.is_premium}.from(false).to(true)
-    end
-  end
-
   describe '#set_default_hcp' do
     it 'sets default health care provider association' do
       u = create(:user)

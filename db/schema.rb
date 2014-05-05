@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140501224022) do
+ActiveRecord::Schema.define(:version => 20140503004320) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -184,6 +184,7 @@ ActiveRecord::Schema.define(:version => 20140501224022) do
     t.integer  "priority",        :default => 0,     :null => false
     t.string   "unique_id"
     t.boolean  "has_custom_card", :default => false, :null => false
+    t.boolean  "payment_card"
   end
 
   create_table "delayed_jobs", :force => true do |t|
@@ -257,6 +258,7 @@ ActiveRecord::Schema.define(:version => 20140501224022) do
     t.datetime "updated_at",                           :null => false
     t.text     "metadata_override"
     t.boolean  "premium",           :default => false, :null => false
+    t.integer  "free_trial_days"
   end
 
   create_table "hcp_taxonomies", :force => true do |t|

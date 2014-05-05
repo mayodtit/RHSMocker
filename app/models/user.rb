@@ -170,10 +170,6 @@ class User < ActiveRecord::Base
     where(type: 'Member')
   end
 
-  def set_premium_flag
-    self.update_attribute(:is_premium, true)
-  end
-
   def set_default_hcp(association_id)
     self.update_attribute(:default_hcp_association_id, association_id)
   end
@@ -219,14 +215,6 @@ class User < ActiveRecord::Base
       array << StripeExtension.subscription_serializer(subscription)
     end
     array
-  end
-
-  def subscription_end_date
-    if is_premium? and self[:subscription_end_date].nil? and subscriptions.empty?
-      DateTime.parse('Dec 31 2099').in_time_zone
-    else
-      self[:subscription_end_date]
-    end
   end
 
   def remove_all_credit_cards

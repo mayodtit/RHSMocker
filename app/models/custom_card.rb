@@ -7,10 +7,11 @@ class CustomCard < ActiveRecord::Base
   serialize :timeline_action, Hash
 
   attr_accessible :content, :content_id, :title, :raw_preview, :card_actions,
-                  :timeline_actions, :priority, :unique_id, :has_custom_card
+                  :timeline_actions, :priority, :unique_id, :has_custom_card,
+                  :payment_card
 
   validates :title, :raw_preview, presence: true
-  validates :has_custom_card, inclusion: {in: [true, false]}
+  validates :has_custom_card, :payment_card, inclusion: {in: [true, false]}
   validates :unique_id, uniqueness: true, allow_blank: true
 
   before_validation :set_defaults, on: :create
@@ -27,5 +28,8 @@ class CustomCard < ActiveRecord::Base
 
   def set_defaults
     self.raw_preview = 'New card text for CustomCard' if raw_preview.blank?
+    self.has_custom_card ||= false
+    self.payment_card ||= false
+    true
   end
 end

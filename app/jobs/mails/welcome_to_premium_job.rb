@@ -5,6 +5,6 @@ class Mails::WelcomeToPremiumJob < Struct.new(:user_id)
 
   def perform
     user = Member.find(user_id)
-    RHSMailer.welcome_to_premium_email(user.email, user.salutation).deliver
+    RHSMailer.welcome_to_premium_email(user.email).deliver
   end
 end
