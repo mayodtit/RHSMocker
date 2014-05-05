@@ -202,7 +202,12 @@ Condition.find_or_create_by_name(:name=>"Coronary arteriosclerosis",:snomed_name
 Condition.find_or_create_by_name(:name=>"Hypercholesterolemia",:snomed_name=>"Hypercholesterolemia",:snomed_code=>"13644009")
 Condition.find_or_create_by_name(:name=>"Urinary tract infectious disease",:snomed_name=>"Urinary tract infectious disease",:snomed_code=>"68566005")
 Condition.find_or_create_by_name(:name=>"Anemia",:snomed_name=>"Anemia",:snomed_code=>"271737000")
-
+Condition.find_or_create_by_name(:name=>"Alzheimer's disease",:snomed_name=>"Alzheimer's disease",:snomed_code=>"26929004")
+Condition.find_or_create_by_name(:name=>"Vascular dementia",:snomed_name=>"Vascular dementia",:snomed_code=>"429998004")
+Condition.find_or_create_by_name(:name=>"Lewy body dementia",:snomed_name=>"Senile dementia of the Lewy body type",:snomed_code=>"312991009")
+Condition.find_or_create_by_name(:name=>"Frontotemporal dementia",:snomed_name=>"Frontotemporal dementia",:snomed_code=>"230270009")
+Condition.find_or_create_by_name(:name=>"Crohn's disease",:snomed_name=>"Crohn's disease",:snomed_code=>"34000006")
+Condition.find_or_create_by_name(:name=>"Ulcerative colitis",:snomed_name=>"Ulcerative colitis",:snomed_code=>"64766004")
 
 #Treatment.create!(:name=>"",:snomed_name=>"",:snomed_code=>"")
 Treatment::Tests.find_or_create_by_name(:name=>"Adult health examination", :snomed_name=>"Adult health examination",:snomed_code=>"268565007")
