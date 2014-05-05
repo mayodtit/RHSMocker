@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140503004320) do
+ActiveRecord::Schema.define(:version => 20140505190202) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -766,7 +766,7 @@ ActiveRecord::Schema.define(:version => 20140503004320) do
     t.integer  "pha_id"
     t.string   "apns_token"
     t.boolean  "is_premium",                                                                  :default => false
-    t.datetime "subscription_end_date"
+    t.datetime "free_trial_ends_at"
     t.datetime "last_contact_at"
     t.datetime "signed_up_at"
   end

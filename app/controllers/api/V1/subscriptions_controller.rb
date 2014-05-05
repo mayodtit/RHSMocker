@@ -46,14 +46,14 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
 
   def subscription_attributes
     {plan: params.require(:subscription).require(:plan_id)}.tap do |attributes|
-      attributes.merge!(trial_end: @user.subscription_end_date.to_i) if @user.subscription_end_date
+      attributes.merge!(trial_end: @user.free_trial_ends_at.to_i) if @user.free_trial_ends_at
     end
   end
 
   def user_attributes
     {
       is_premium: true,
-      subscription_end_date: nil
+      free_trial_ends_at: nil
     }
   end
 end
