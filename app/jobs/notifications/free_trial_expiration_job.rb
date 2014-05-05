@@ -24,10 +24,9 @@ class Notifications::FreeTrialExpirationJob < Struct.new(:user_id, :days_left)
 
   def alert_text
     case days_left
-    when 7
-      'You have one week left of your free trial of Better Premium! Let ' +
-      'your personal Health Assistant help you live better --start a ' +
-      'conversation.'
+    when 5
+      'You have 5 days left of your free trial of Better Premium. Let your ' +
+      'Personal Health Assistant know how to help you.'
     when 2
       'You have two days left of Better Premium. Make the most of your ' +
       'Personal Health Assistant.'
