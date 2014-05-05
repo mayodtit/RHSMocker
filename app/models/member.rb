@@ -42,8 +42,8 @@ class Member < User
   attr_accessible :install_id, :password, :password_confirmation,
                   :holds_phone_in, :invitation_token, :units,
                   :waitlist_entry, :user_agreements_attributes, :pha, :pha_id,
-                  :apns_token, :is_premium, :subscription_end_date, :last_contact_at,
-                  :skip_agreement_validation, :signed_up_at
+                  :apns_token, :is_premium, :free_trial_ends_at, :last_contact_at,
+                  :skip_agreement_validation, :signed_up_at, :subscription_ends_at
 
   validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
@@ -58,7 +58,7 @@ class Member < User
   before_validation :set_owner
   before_validation :set_member_flag
   before_validation :set_signed_up_at
-  before_validation :set_subscription_end_date
+  before_validation :set_free_trial_ends_at
   before_create :set_auth_token # generate inital auth_token
   after_create :add_install_message
   after_create :add_new_member_content
@@ -283,9 +283,9 @@ class Member < User
     self.signed_up_at ||= Time.now if crypted_password.nil? && password.present?
   end
 
-  def set_subscription_end_date
+  def set_free_trial_ends_at
     if is_premium? && newly_signed_up?
-      self.subscription_end_date ||= signed_up_at.in_time_zone('Pacific Time (US & Canada)').end_of_day + free_trial_days.days if free_trial_days > 0
+      self.free_trial_ends_at ||= signed_up_at.in_time_zone('Pacific Time (US & Canada)').end_of_day + free_trial_days.days if free_trial_days > 0
     end
   end
 

@@ -23,22 +23,22 @@ describe Member do
   end
 
   describe 'callbacks' do
-    describe '#set_subscription_end_date' do
+    describe '#set_free_trial_ends_at' do
       let(:feature_group) { create(:feature_group, free_trial_days: 3) }
       let(:user) { create(:member, :premium, password: nil) }
 
-      it 'sets the subscription_end_date from feature groups on signed up' do
+      it 'sets the free_trial_ends_at from feature groups on signed up' do
         user.feature_groups << feature_group
-        expect(user.subscription_end_date).to be_nil
+        expect(user.free_trial_ends_at).to be_nil
         user.update_attributes(password: 'password')
-        expect(user.subscription_end_date).to eq(Time.now.in_time_zone('Pacific Time (US & Canada)').end_of_day + 3.days)
+        expect(user.free_trial_ends_at).to eq(Time.now.in_time_zone('Pacific Time (US & Canada)').end_of_day + 3.days)
       end
 
       context 'feature group not set' do
-        it 'does not set subscription_end_date' do
-          expect(user.subscription_end_date).to be_nil
+        it 'does not set free_trial_ends_at' do
+          expect(user.free_trial_ends_at).to be_nil
           user.update_attributes(password: 'password')
-          expect(user.subscription_end_date).to be_nil
+          expect(user.free_trial_ends_at).to be_nil
         end
       end
 
@@ -47,11 +47,11 @@ describe Member do
           user.update_attributes(is_premium: false)
         end
 
-        it 'does not set subscription_end_date' do
+        it 'does not set free_trial_ends_at' do
           user.feature_groups << feature_group
-          expect(user.subscription_end_date).to be_nil
+          expect(user.free_trial_ends_at).to be_nil
           user.update_attributes(password: 'password')
-          expect(user.subscription_end_date).to be_nil
+          expect(user.free_trial_ends_at).to be_nil
         end
       end
 
@@ -60,11 +60,11 @@ describe Member do
           feature_group.update_attributes(free_trial_days: 0)
         end
 
-        it 'does not set subscription_end_date' do
+        it 'does not set free_trial_ends_at' do
           user.feature_groups << feature_group
-          expect(user.subscription_end_date).to be_nil
+          expect(user.free_trial_ends_at).to be_nil
           user.update_attributes(password: 'password')
-          expect(user.subscription_end_date).to be_nil
+          expect(user.free_trial_ends_at).to be_nil
         end
       end
     end
