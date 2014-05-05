@@ -3,6 +3,14 @@ require 'spec_helper'
 describe Member do
   let(:member) { build_stubbed :member }
 
+  before do
+    Timecop.freeze
+  end
+
+  after do
+    Timecop.return
+  end
+
   it_has_a 'valid factory'
   it_validates 'foreign key of', :pha
   it_validates 'allows blank uniqueness of', :apns_token
@@ -12,6 +20,54 @@ describe Member do
     expect(member).to be_valid
     member.member_flag = nil
     expect(member).to_not be_valid
+  end
+
+  describe 'callbacks' do
+    describe '#set_subscription_end_date' do
+      let(:feature_group) { create(:feature_group, free_trial_days: 3) }
+      let(:user) { create(:member, :premium, password: nil) }
+
+      it 'sets the subscription_end_date from feature groups on signed up' do
+        user.feature_groups << feature_group
+        expect(user.subscription_end_date).to be_nil
+        user.update_attributes(password: 'password')
+        expect(user.subscription_end_date).to eq(Time.now.in_time_zone('Pacific Time (US & Canada)').end_of_day + 3.days)
+      end
+
+      context 'feature group not set' do
+        it 'does not set subscription_end_date' do
+          expect(user.subscription_end_date).to be_nil
+          user.update_attributes(password: 'password')
+          expect(user.subscription_end_date).to be_nil
+        end
+      end
+
+      context 'not premium' do
+        before do
+          user.update_attributes(is_premium: false)
+        end
+
+        it 'does not set subscription_end_date' do
+          user.feature_groups << feature_group
+          expect(user.subscription_end_date).to be_nil
+          user.update_attributes(password: 'password')
+          expect(user.subscription_end_date).to be_nil
+        end
+      end
+
+      context 'feature group free_trial_days = 0' do
+        before do
+          feature_group.update_attributes(free_trial_days: 0)
+        end
+
+        it 'does not set subscription_end_date' do
+          user.feature_groups << feature_group
+          expect(user.subscription_end_date).to be_nil
+          user.update_attributes(password: 'password')
+          expect(user.subscription_end_date).to be_nil
+        end
+      end
+    end
   end
 
   context 'agreement exists' do

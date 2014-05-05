@@ -58,6 +58,7 @@ class Member < User
   before_validation :set_owner
   before_validation :set_member_flag
   before_validation :set_signed_up_at
+  before_validation :set_subscription_end_date
   before_create :set_auth_token # generate inital auth_token
   after_create :add_install_message
   after_create :add_new_member_content
@@ -282,6 +283,12 @@ class Member < User
     self.signed_up_at ||= Time.now if crypted_password.nil? && password.present?
   end
 
+  def set_subscription_end_date
+    if is_premium? && newly_signed_up?
+      self.subscription_end_date ||= signed_up_at.in_time_zone('Pacific Time (US & Canada)').end_of_day + free_trial_days.days if free_trial_days > 0
+    end
+  end
+
   def set_auth_token
     self.auth_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
   end
@@ -316,5 +323,9 @@ class Member < User
     return unless newly_signed_up?
     master_consult.try(:send_initial_message)
     true
+  end
+
+  def free_trial_days
+    @free_trial_days ||= feature_groups.inject(0){|sum, fg| sum += fg.free_trial_days; sum}
   end
 end
