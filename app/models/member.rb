@@ -291,7 +291,7 @@ class Member < User
   def convert_premium
     if newly_premium?
       add_premium_cards
-      pha ||= self.class.next_pha
+      self.pha ||= self.class.next_pha
       master_consult || build_master_consult(subject: self,
                                              title: 'Direct messaging with your Better PHA',
                                              skip_tasks: true)
