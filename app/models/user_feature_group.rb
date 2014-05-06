@@ -5,13 +5,5 @@ class UserFeatureGroup < ActiveRecord::Base
   attr_accessible :user, :feature_group
 
   validates :user, :feature_group, presence: true
-  validates :feature_group_id, :uniqueness => {:scope => :user_id}
-
-  after_create :set_premium, if: lambda{|ufg| ufg.feature_group.premium?}
-
-  private
-
-  def set_premium
-    user.update_attributes(is_premium: true)
-  end
+  validates :feature_group_id, uniqueness: {scope: :user_id}
 end
