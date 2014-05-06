@@ -68,6 +68,11 @@ class Api::V1::ScheduledPhoneCallsController < Api::V1::ABaseController
   def load_available_scheduled_phone_calls!
     @available_scheduled_phone_calls = ScheduledPhoneCall.where(state: :assigned)
                                                          .where('scheduled_at > ?', Time.now)
+    if @user.free_trial_ends_at
+      @available_scheduled_phone_calls = @available_scheduled_phone_calls.where('scheduled_at < ?', @user.free_trial_ends_at)
+    elsif @user.subscription_ends_at
+      @available_scheduled_phone_calls = @available_scheduled_phone_calls.where('scheduled_at < ?', @user.subscription_ends_at)
+    end
     @available_scheduled_phone_calls = @available_scheduled_phone_calls.where(owner_id: @user.pha_id) if @user.pha_id
   end
 

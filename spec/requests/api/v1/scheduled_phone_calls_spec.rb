@@ -3,12 +3,20 @@ require 'spec_helper'
 describe 'ScheduledPhoneCall' do
   let(:user) { create(:member) }
 
+  before do
+    Timecop.freeze
+  end
+
+  after do
+    Timecop.return
+  end
+
   describe 'GET /api/v1/scheduled_phone_calls/available' do
     def do_request
       get '/api/v1/scheduled_phone_calls/available', auth_token: user.auth_token
     end
 
-    let!(:available) { create(:scheduled_phone_call, :assigned) }
+    let!(:available) { create(:scheduled_phone_call, :assigned, scheduled_at: Time.now + 10.minutes) }
     let!(:unavailable_state) { create(:scheduled_phone_call) }
     let!(:unavailable_time) { create(:scheduled_phone_call, :assigned, scheduled_at: Time.now - 1.minute) }
 
@@ -17,6 +25,36 @@ describe 'ScheduledPhoneCall' do
       expect(response).to be_success
       body = JSON.parse(response.body, symbolize_names: true)
       expect(body[:scheduled_phone_calls].to_json).to eq([available].as_json.to_json)
+    end
+
+    context 'with free_trial_ends_at' do
+      let!(:future_time) { create(:scheduled_phone_call, :assigned, scheduled_at: Time.now + 30.minutes) }
+
+      before do
+        user.update_attributes!(free_trial_ends_at: Time.now + 15.minutes)
+      end
+
+      it 'indexes available scheduled_phone_calls' do
+        do_request
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:scheduled_phone_calls].to_json).to eq([available].as_json.to_json)
+      end
+    end
+
+    context 'with subscription_ends_at' do
+      let!(:future_time) { create(:scheduled_phone_call, :assigned, scheduled_at: Time.now + 30.minutes) }
+
+      before do
+        user.update_attributes!(subscription_ends_at: Time.now + 15.minutes)
+      end
+
+      it 'indexes available scheduled_phone_calls' do
+        do_request
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:scheduled_phone_calls].to_json).to eq([available].as_json.to_json)
+      end
     end
   end
 

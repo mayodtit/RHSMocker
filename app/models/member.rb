@@ -16,8 +16,8 @@ class Member < User
   has_many :phone_calls, :foreign_key => :user_id
   has_many :scheduled_phone_calls, foreign_key: :user_id
   has_many :invitations
-  has_many :user_feature_groups, :foreign_key => :user_id
-  has_many :feature_groups, :through => :user_feature_groups
+  has_many :user_feature_groups, foreign_key: :user_id, dependent: :destroy
+  has_many :feature_groups, through: :user_feature_groups
   has_one :waitlist_entry, foreign_key: :claimer_id,
                            inverse_of: :claimer,
                            autosave: true
@@ -58,7 +58,9 @@ class Member < User
   before_validation :set_owner
   before_validation :set_member_flag
   before_validation :set_signed_up_at
+  before_validation :set_premium
   before_validation :set_free_trial_ends_at
+  before_validation :convert_premium
   before_create :set_auth_token # generate inital auth_token
   after_create :add_install_message
   after_create :add_new_member_content
@@ -205,19 +207,6 @@ class Member < User
     end
   end
 
-  def is_premium=(value)
-    if value == true
-      add_premium_cards
-      assign_pha! if pha_id.nil?
-      master_consult || build_master_consult(subject: self,
-                                             title: 'Direct messaging with your Better PHA',
-                                             skip_tasks: true)
-    elsif value == false
-      remove_premium_cards
-    end
-    super
-  end
-
   def self.phas
     # less efficient than Role.find.users, but safer because ensures Member
     joins(:roles).where(roles: {name: :pha})
@@ -228,7 +217,9 @@ class Member < User
   end
 
   def self.pha_counts
-    group(:pha_id).having("pha_id IS NOT NULL").count.tap do |hash|
+    group(:pha_id).where(pha_id: phas.accepting_new_members.pluck(:id))
+                  .count
+                  .tap do |hash|
       hash.default = 0
     end
   end
@@ -280,12 +271,32 @@ class Member < User
   end
 
   def set_signed_up_at
-    self.signed_up_at ||= Time.now if crypted_password.nil? && password.present?
+    if crypted_password.nil? && password.present?
+      self.signed_up_at ||= Time.now
+    end
+  end
+
+  def set_premium
+    if newly_signed_up? && premium_feature_group?
+      self.is_premium ||= true
+    end
   end
 
   def set_free_trial_ends_at
-    if is_premium? && newly_signed_up?
-      self.free_trial_ends_at ||= signed_up_at.in_time_zone('Pacific Time (US & Canada)').end_of_day + free_trial_days.days if free_trial_days > 0
+    if newly_signed_up? && is_premium?
+      self.free_trial_ends_at ||= calculate_free_trial_ends_at
+    end
+  end
+
+  def convert_premium
+    if newly_premium?
+      add_premium_cards
+      self.pha ||= self.class.next_pha
+      master_consult || build_master_consult(subject: self,
+                                             title: 'Direct messaging with your Better PHA',
+                                             skip_tasks: true)
+    elsif !is_premium? && is_premium_changed?
+      remove_premium_cards
     end
   end
 
@@ -325,7 +336,20 @@ class Member < User
     true
   end
 
+  def premium_feature_group?
+    @premium_feature_group ||= feature_groups.where(premium: true).any?
+  end
+
+  def calculate_free_trial_ends_at
+    if signed_up? && free_trial_days > 0
+      signed_up_at.pacific.end_of_day + free_trial_days.days
+    end
+  end
+
   def free_trial_days
-    @free_trial_days ||= feature_groups.inject(0){|sum, fg| sum += fg.free_trial_days; sum}
+    @free_trial_days ||= feature_groups.inject(0) do |sum, fg|
+      sum += fg.free_trial_days
+      sum
+    end
   end
 end
