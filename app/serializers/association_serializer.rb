@@ -6,7 +6,8 @@ class AssociationSerializer < ViewSerializer
   has_one :associate
   has_one :association_type
 
-  delegate :user, :associate, :creator, to: :object
+  delegate :user, :associate, :creator,
+           :possessive_association_type_display_name, to: :object
 
   def is_default_hcp
     user.default_hcp_association_id == object.id
