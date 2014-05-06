@@ -24,4 +24,9 @@ class StripeExtension
     str += " on #{Rails.env} (#{Socket.gethostname})" unless Rails.env.production?
     str
   end
+
+  def self.subscriber_emails(limit = 100)
+    puts "Note: this only lists the first 100 customers.  Pagination magic required if/when we have more than that"
+    Stripe::Customer.all(limit: limit).map{|c| c.email if c.subscriptions.count != 0}.compact
+  end
 end

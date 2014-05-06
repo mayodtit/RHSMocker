@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Notifications::FreeTrialExpirationJob do
+describe Notifications::WelcomeCallCompletionJob do
   let!(:user) { create(:member) }
 
   before do
@@ -13,7 +13,7 @@ describe Notifications::FreeTrialExpirationJob do
 
   describe '#create' do
     it 'enqueues the job for now' do
-      expect{ described_class.create(user.id, 7) }.to change(Delayed::Job, :count).by(1)
+      expect{ described_class.create(user.id) }.to change(Delayed::Job, :count).by(1)
       job = Delayed::Job.last
       expect(job.run_at).to eq(Time.now)
     end
@@ -23,7 +23,7 @@ describe Notifications::FreeTrialExpirationJob do
     context 'user without apns_token' do
       it 'does not call APNS' do
         APNS.should_not_receive(:send_notification)
-        described_class.new(user.id, 7).perform
+        described_class.new(user.id).perform
       end
     end
 
@@ -32,7 +32,7 @@ describe Notifications::FreeTrialExpirationJob do
 
       it 'calls APNS' do
         APNS.should_receive(:send_notification)
-        described_class.new(user.id, 7).perform
+        described_class.new(user.id).perform
       end
     end
   end
