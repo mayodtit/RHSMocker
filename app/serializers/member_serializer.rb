@@ -89,8 +89,13 @@ class MemberSerializer < ActiveModel::Serializer
   end
 
   # TODO - workaround for client issue, remove after client supports nil value
+  # for free premium users (that don't have any Stripe subscriptions)
   def free_trial_ends_at
-    object.free_trial_ends_at || Time.parse('2099-12-31').in_time_zone
+    if object.is_premium? and object.free_trial_ends_at.nil? and object.subscriptions.empty?
+      Time.parse('2099-12-31').in_time_zone
+    else
+      object.free_trial_ends_at
+    end
   end
 
   def subscription_end_date
