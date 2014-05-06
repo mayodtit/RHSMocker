@@ -30,7 +30,7 @@ class Notifications::FreeTrialExpirationJob < Struct.new(:user_id, :days_left)
     case days_left
     when 4
       'You have 4 days left of your free trial of Better Premium. Message ' +
-      'your Personal Health Assistant now.'
+      'your Personal Health Assistant today.'
     when 2
       'You have two days left of Better Premium. Make the most of your ' +
       'Personal Health Assistant.'
