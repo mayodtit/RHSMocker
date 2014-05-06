@@ -60,6 +60,7 @@ class Member < User
   before_validation :set_signed_up_at
   before_validation :set_premium
   before_validation :set_free_trial_ends_at
+  before_validation :convert_premium
   before_create :set_auth_token # generate inital auth_token
   after_create :add_install_message
   after_create :add_new_member_content
@@ -206,19 +207,6 @@ class Member < User
     end
   end
 
-  def is_premium=(value)
-    if value == true
-      add_premium_cards
-      assign_pha! if pha_id.nil?
-      master_consult || build_master_consult(subject: self,
-                                             title: 'Direct messaging with your Better PHA',
-                                             skip_tasks: true)
-    elsif value == false
-      remove_premium_cards
-    end
-    super
-  end
-
   def self.phas
     # less efficient than Role.find.users, but safer because ensures Member
     joins(:roles).where(roles: {name: :pha})
@@ -295,6 +283,18 @@ class Member < User
   def set_free_trial_ends_at
     if newly_signed_up? && is_premium?
       self.free_trial_ends_at ||= calculate_free_trial_ends_at
+    end
+  end
+
+  def convert_premium
+    if newly_premium?
+      add_premium_cards
+      pha ||= self.class.next_pha
+      master_consult || build_master_consult(subject: self,
+                                             title: 'Direct messaging with your Better PHA',
+                                             skip_tasks: true)
+    elsif !is_premium? && is_premium_changed?
+      remove_premium_cards
     end
   end
 
