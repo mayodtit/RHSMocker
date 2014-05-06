@@ -58,6 +58,7 @@ class Member < User
   before_validation :set_owner
   before_validation :set_member_flag
   before_validation :set_signed_up_at
+  before_validation :set_premium
   before_validation :set_free_trial_ends_at
   before_create :set_auth_token # generate inital auth_token
   after_create :add_install_message
@@ -280,12 +281,20 @@ class Member < User
   end
 
   def set_signed_up_at
-    self.signed_up_at ||= Time.now if crypted_password.nil? && password.present?
+    if crypted_password.nil? && password.present?
+      self.signed_up_at ||= Time.now
+    end
+  end
+
+  def set_premium
+    if newly_signed_up? && premium_feature_group?
+      self.is_premium ||= true
+    end
   end
 
   def set_free_trial_ends_at
-    if is_premium? && newly_signed_up?
-      self.free_trial_ends_at ||= signed_up_at.in_time_zone('Pacific Time (US & Canada)').end_of_day + free_trial_days.days if free_trial_days > 0
+    if newly_signed_up? && is_premium?
+      self.free_trial_ends_at ||= calculate_free_trial_ends_at
     end
   end
 
@@ -325,7 +334,20 @@ class Member < User
     true
   end
 
+  def premium_feature_group?
+    @premium_feature_group ||= feature_groups.where(premium: true).any?
+  end
+
+  def calculate_free_trial_ends_at
+    if signed_up? && free_trial_days > 0
+      signed_up_at.pacific.end_of_day + free_trial_days.days
+    end
+  end
+
   def free_trial_days
-    @free_trial_days ||= feature_groups.inject(0){|sum, fg| sum += fg.free_trial_days; sum}
+    @free_trial_days ||= feature_groups.inject(0) do |sum, fg|
+      sum += fg.free_trial_days
+      sum
+    end
   end
 end
