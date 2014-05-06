@@ -26,7 +26,8 @@
           = label_tag 'user[birthdate]', "Birthdate (18 or older)"
           .date-selector
             = date_select('user', 'birthdate', order: %i(month day year), default: @member.birth_date || 18.years.ago, start_year: 1900)
-        .field.no-bottom-border
-          = check_box_tag 'user[agreement_id]', Agreement.active.id
-          = label_tag 'user[agreement_id]', 'I have read and agree to the Terms of Service'
+        - if Agreement.active
+          .field.no-bottom-border
+            = check_box_tag 'user[agreement_id]', Agreement.active.id
+            = label_tag 'user[agreement_id]', 'I have read and agree to the Terms of Service'
         = submit_tag 'Sign up', class: :submit, data: {disable_with: 'Please wait...'}
