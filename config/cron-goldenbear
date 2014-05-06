@@ -1,5 +1,5 @@
 # devhosted
-20 12 * * * cd /home/rhs/rails/current ; bundle exec rake RAILS_ENV=devhosted about > log/cron.log 2>&1
+20 12 * * * cd /home/rhs/rails/current ; RAILS_ENV=devhosted bundle exec rake about > log/cron.log 2>&1
 
 # qa
-11 12 * * * cd /home/rhs/qa/current ; bundle exec rake RAILS_ENV=qa about > log/cron.log 2>&1
+11 12 * * * cd /home/rhs/qa/current ; RAILS_ENV=qa bundle exec rake about > log/cron.log 2>&1
