@@ -26,10 +26,12 @@ task :devhosted do
   set :port, 9722
   set :branch,    'develop'
   set :rails_env, 'devhosted'
+  set :cron_file, 'cron-goldenbear'
   role :web,      'goldenbear.getbetter.com'
   role :app,      'goldenbear.getbetter.com', :primary => true
   role :db,       'goldenbear.getbetter.com', :primary => true
   role :delayed,  'goldenbear.getbetter.com'
+  role :cron,     'goldenbear.getbetter.com'
 end
 
 #desc "Deploy target sandbox @ EC2"
@@ -48,6 +50,7 @@ task :production do
   set :port, 22
   set :branch,    'master'
   set :rails_env, 'production'
+  set :cron_file, 'cron-buckeye'
   role :web,      'longhorn.getbetter.com'
   role :app,      'longhorn.getbetter.com', :primary => true
   role :web,      'wolverine.getbetter.com'
@@ -55,6 +58,7 @@ task :production do
   role :app,      'buckeye.getbetter.com'
   role :db,       'longhorn.getbetter.com', :primary => true
   role :delayed,  'longhorn.getbetter.com'
+  role :cron,     'buckeye.getbetter.com'
 end
 
 desc "Deploy target qa (goldenbear @ EC2)"
@@ -63,20 +67,21 @@ task :qa do
   set :branch,    'qa'
   set :rails_env, 'qa'
   set :deploy_to, '/home/rhs/qa'
+  set :cron_file, 'cron-goldenbear'
   role :web,      'goldenbear.getbetter.com'
   role :app,      'goldenbear.getbetter.com', :primary => true
   role :db,       'goldenbear.getbetter.com', :primary => true
   role :delayed,  'goldenbear.getbetter.com'
+  role :cron,     'goldenbear.getbetter.com'
 end
 
 desc "Restart delayed_job"
 task :restart_delayed_job, :roles => :delayed do
-   run "sudo monit -g delayed_job restart all"
+  run "sudo monit -g delayed_job restart all"
 end
 
 # If you are using Passenger mod_rails uncomment this:
 namespace :deploy do
-
   task :set_deploy_vars do
     if respond_to? :branch
       puts "---> DEPLOYING RELEASE: #{branch}"
@@ -105,18 +110,19 @@ namespace :deploy do
     %w(database.yml sunspot.yml application.yml).each do |f|
       run "rm -f #{release_path}/config/#{f} && ln -s #{shared_path}/config/#{f} #{release_path}/config/#{f}"
     end
-#    if %w[production qa].include?(rails_env)
-      run "mkdir -p #{release_path}/config/static/ && rm -f #{release_path}/config/static/better.pem && ln -s #{shared_path}/config/better.pem #{release_path}/config/static/better.pem"
-#    end
+    run "mkdir -p #{release_path}/config/static/ && rm -f #{release_path}/config/static/better.pem && ln -s #{shared_path}/config/better.pem #{release_path}/config/static/better.pem"
     run "git ls-remote git@github.com:RemoteHealthServices/RHSMocker.git #{branch} >> #{release_path}/public/VERSION.txt"
   end
 
-   task :start do ; end
-   task :stop do ; end
-   task :restart, :roles => :app, :except => { :no_release => true } do
-     run "touch #{File.join(current_path,'tmp','restart.txt')}"
-   end
+  task :write_crontab, roles: :cron do
+    run "crontab < #{release_path}/config/#{cron_file}"
+  end
 
+  task :start do ; end
+  task :stop do ; end
+  task :restart, :roles => :app, :except => { :no_release => true } do
+    run "touch #{File.join(current_path,'tmp','restart.txt')}"
+  end
 end
 
 
@@ -138,6 +144,7 @@ after("deploy:finalize_update", "deploy:fix_symlinks")
 before "deploy:create_symlink", "deploy:web:disable"
 after 'deploy', 'deploy:migrate'
 after 'deploy:migrate', 'deploy:web:enable'
+after 'deploy:migrate', 'deploy:write_crontab'
 after 'deploy:web:enable', 'restart_delayed_job'
 after 'deploy:web:enable', 'complete'
 
