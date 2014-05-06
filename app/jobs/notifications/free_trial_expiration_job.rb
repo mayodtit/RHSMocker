@@ -11,8 +11,12 @@ class Notifications::FreeTrialExpirationJob < Struct.new(:user_id, :days_left)
   def perform
     user = User.find(user_id)
     if user.apns_token
-      APNS.send_notification(user.apns_token, alert: alert_text,
-                                              sound: :default)
+      args = {alert: alert_text, sound: :default}
+      if user.master_consult
+        args[:other] = {nb: {cmd: 'openConsult',
+                             args: {id: user.master_consult.id}}}
+      end
+      APNS.send_notification(user.apns_token, args)
     end
   end
 
