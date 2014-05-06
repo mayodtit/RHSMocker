@@ -16,8 +16,8 @@ class Member < User
   has_many :phone_calls, :foreign_key => :user_id
   has_many :scheduled_phone_calls, foreign_key: :user_id
   has_many :invitations
-  has_many :user_feature_groups, :foreign_key => :user_id
-  has_many :feature_groups, :through => :user_feature_groups
+  has_many :user_feature_groups, foreign_key: :user_id, dependent: :destroy
+  has_many :feature_groups, through: :user_feature_groups
   has_one :waitlist_entry, foreign_key: :claimer_id,
                            inverse_of: :claimer,
                            autosave: true
