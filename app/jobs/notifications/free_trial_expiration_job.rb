@@ -11,8 +11,12 @@ class Notifications::FreeTrialExpirationJob < Struct.new(:user_id, :days_left)
   def perform
     user = User.find(user_id)
     if user.apns_token
-      APNS.send_notification(user.apns_token, alert: alert_text,
-                                              sound: :default)
+      args = {alert: alert_text, sound: :default}
+      if user.master_consult
+        args[:other] = {nb: {cmd: 'openConsult',
+                             args: {id: user.master_consult.id}}}
+      end
+      APNS.send_notification(user.apns_token, args)
     end
   end
 
@@ -24,9 +28,9 @@ class Notifications::FreeTrialExpirationJob < Struct.new(:user_id, :days_left)
 
   def alert_text
     case days_left
-    when 5
-      'You have 5 days left of your free trial of Better Premium. Let your ' +
-      'Personal Health Assistant know how to help you.'
+    when 4
+      'You have 4 days left of your free trial of Better Premium. Message ' +
+      'your Personal Health Assistant now.'
     when 2
       'You have two days left of Better Premium. Make the most of your ' +
       'Personal Health Assistant.'
