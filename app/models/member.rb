@@ -217,7 +217,9 @@ class Member < User
   end
 
   def self.pha_counts
-    group(:pha_id).having("pha_id IS NOT NULL").count.tap do |hash|
+    group(:pha_id).where(pha_id: phas.accepting_new_members.pluck(:id))
+                  .count
+                  .tap do |hash|
       hash.default = 0
     end
   end
