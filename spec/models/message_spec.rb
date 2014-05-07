@@ -76,6 +76,14 @@ describe Message do
         message.create_task
       end
     end
+
+    context 'is a note' do
+      it 'doesn\'t publish' do
+        message.stub(:note?) { true }
+        MessageTask.should_not_receive(:create_if_only_opened_for_consult!)
+        message.create_task
+      end
+    end
   end
 
   describe 'update_initiator_last_contact_at' do
@@ -86,6 +94,17 @@ describe Message do
 
       before do
         message.stub(:phone_call_summary) { phone_call_summary }
+      end
+
+      it 'doesn\'t set the last contact at' do
+        message.consult.initiator.should_not_receive(:update_attributes!)
+        message.update_initiator_last_contact_at
+      end
+    end
+
+    context 'message is for a phone call summary' do
+      before do
+        message.stub(:note?) { true }
       end
 
       it 'doesn\'t set the last contact at' do
