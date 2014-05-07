@@ -2,7 +2,7 @@
 
 ![The Better API](http://a2.mzstatic.com/us/r30/Purple4/v4/85/c4/6a/85c46af1-646e-be03-d023-2b62dd46956b/mzl.xchqgper.175x175-75.jpg)
 
-## API 
+## API
 
 Using the API? Read on.
 
@@ -19,6 +19,24 @@ To generate API docs locally at [http://localhost:3000/docs](http://localhost:30
 ```
 % rake docs:generate
 ```
+
+### Scheduled jobs
+
+**_Muy importante!!!  The times in the cron files are in UTC!!!_**
+
+We run scheduled jobs in all of our environments.  Here's how it's set up:
+
+* Scheduled jobs are executed via the system cron
+* The crontab is written during every deploy
+* Cron files are located in config; there's one per server
+  * Since devhosted and QA reside on same server they share the same cron file
+* In environments with multiple app servers only one app server is designated as the cron runner
+
+To add a new scheduled job:
+
+1. Add a new method in ScheduledJobs + corresponding specs
+2. Add a thin wrapper rake task in scheduled_jobs.rake
+3. Add the rake task to the appropriate cron files
 
 ### Health Care Provider (HCP) Taxonomy data
 
@@ -50,5 +68,3 @@ Developing for the API? Read on.
 ### Setup
 
 Getting your environment up and running is detailed [here](https://sites.google.com/a/getbetter.com/engineering/development-environment/rails).
-
-

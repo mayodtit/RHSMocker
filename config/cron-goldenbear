@@ -1,0 +1,9 @@
+#################################################
+# *** Muy importante!!! Times are in UTC!!! *** #
+#################################################
+
+# devhosted
+20 12 * * * cd /home/rhs/rails/current ; RAILS_ENV=devhosted bundle exec rake about > log/cron.log 2>&1
+
+# qa
+11 12 * * * cd /home/rhs/qa/current ; RAILS_ENV=qa bundle exec rake about > log/cron.log 2>&1
