@@ -2,7 +2,7 @@ class MessageSerializer < ActiveModel::Serializer
   self.root = false
 
   attributes :id, :text, :created_at, :consult_id, :title, :image_url, :type,
-             :content_id, :symptom_id, :condition_id
+             :content_id, :symptom_id, :condition_id, :note
 
   has_one :user
   has_one :phone_call

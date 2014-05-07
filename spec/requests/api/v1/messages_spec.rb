@@ -43,6 +43,40 @@ describe 'Messages' do
         expect(body[:messages].to_json).to eq([master_message].serializer(shallow: true).as_json.to_json)
       end
     end
+
+    context 'consult has notes' do
+      let!(:note) { create :message, consult: consult, note: true }
+
+      context 'user is a pha' do
+        let(:pha) { create(:pha) }
+
+        def do_request
+          get "/api/v1/consults/#{consult.id}/messages", auth_token: pha.auth_token
+        end
+
+        it 'indexes all messages for the consult' do
+          do_request
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:messages].to_json).to eq([message, note].serializer(shallow: true).as_json.to_json)
+        end
+      end
+
+      context 'user is not a pha' do
+        def do_request
+          get "/api/v1/consults/#{consult.id}/messages", auth_token: user.auth_token
+        end
+
+        it 'indexes messages for the consult' do
+          do_request
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:messages].to_json).to eq([message].serializer(shallow: true).as_json.to_json)
+        end
+      end
+    end
+
+
   end
 
   describe 'POST /api/v1/consults/:consult_id/messages' do

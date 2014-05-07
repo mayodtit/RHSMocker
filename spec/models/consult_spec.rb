@@ -65,4 +65,35 @@ describe Consult do
       end
     end
   end
+
+  describe 'message associations' do
+    let!(:consult) { create(:consult) }
+    let!(:old_message) { create(:message, consult: consult, created_at: 2.days.ago) }
+    let!(:new_message) { create(:message, consult: consult) }
+    let!(:note) { create(:message, consult: consult, created_at: 1.day.ago, note: true) }
+
+    describe '#messages' do
+      it 'only returns messages that have note set to false' do
+        consult.reload.messages.include?(old_message).should be_true
+        consult.messages.include?(new_message).should be_true
+        consult.messages.include?(note).should be_false
+      end
+
+      it 'returns messages ordered by created at' do
+        consult.reload.messages.should == [old_message, new_message]
+      end
+    end
+
+    describe '#messages_and_notes' do
+      it 'returns all messages' do
+        consult.messages_and_notes.include?(old_message).should be_true
+        consult.messages_and_notes.include?(new_message).should be_true
+        consult.messages_and_notes.include?(note).should be_true
+      end
+
+      it 'returns messages ordered by created at' do
+        consult.messages_and_notes.should == [old_message, note, new_message]
+      end
+    end
+  end
 end

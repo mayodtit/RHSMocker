@@ -5,7 +5,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
   def index
     render_success(consult: @consult.serializer,
-                   messages: @consult.messages.serializer(shallow: true),
+                   messages: messages.serializer(shallow: true),
                    users: @users.serializer)
   end
 
@@ -19,6 +19,14 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   private
+
+  def messages
+    if current_user.care_provider? && @consult.initiator != current_user
+      @consult.messages_and_notes
+    else
+      @consult.messages
+    end
+  end
 
   def load_consult!
     @consult = if params[:consult_id] == 'current'
@@ -37,7 +45,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def message_attributes
-    params.require(:message).permit(:text, :image, :content_id, :symptom_id, :condition_id).tap do |attributes|
+    params.require(:message).permit(:text, :image, :content_id, :symptom_id, :condition_id, :note).tap do |attributes|
       attributes[:user] = current_user
       attributes[:image] = decode_b64_image(attributes[:image]) if attributes[:image]
     end
