@@ -22,6 +22,8 @@ To generate API docs locally at [http://localhost:3000/docs](http://localhost:30
 
 ### Scheduled jobs
 
+**_Muy importante!!!  The times in the cron files are in UTC!!!_**
+
 We run scheduled jobs in all of our environments.  Here's how it's set up:
 
 * Scheduled jobs are executed via the system cron
