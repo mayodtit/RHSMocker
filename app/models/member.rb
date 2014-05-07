@@ -43,10 +43,12 @@ class Member < User
                   :holds_phone_in, :invitation_token, :units,
                   :waitlist_entry, :user_agreements_attributes, :pha, :pha_id,
                   :apns_token, :is_premium, :free_trial_ends_at, :last_contact_at,
-                  :skip_agreement_validation, :signed_up_at, :subscription_ends_at
+                  :skip_agreement_validation, :signed_up_at, :subscription_ends_at,
+                  :test_user
 
   validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
+  validates :test_user, inclusion: {in: [true, false]}
   validates :email, :uniqueness => {:message => 'account already exists', :case_sensitive => false}, :allow_nil => true
   validates :password, :length => {:minimum => 8, :message => "must be 8 or more characters long"}, :confirmation => true, :if => :password
   validates :install_id, :uniqueness => true, :allow_nil => true
@@ -57,6 +59,7 @@ class Member < User
 
   before_validation :set_owner
   before_validation :set_member_flag
+  before_validation :set_test_user
   before_validation :set_signed_up_at
   before_validation :set_premium
   before_validation :set_free_trial_ends_at
@@ -268,6 +271,11 @@ class Member < User
 
   def set_member_flag
     self.member_flag ||= true
+  end
+
+  def set_test_user
+    self.test_user = false if test_user.nil?
+    true
   end
 
   def set_signed_up_at
