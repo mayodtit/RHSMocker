@@ -10,6 +10,8 @@ FactoryGirl.define do
       password              "password"
       password_confirmation "password"
       member_flag true
+      test_user false
+      marked_for_deletion false
       owner nil
 
       trait :premium do

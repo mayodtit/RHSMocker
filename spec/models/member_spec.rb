@@ -12,14 +12,24 @@ describe Member do
   end
 
   it_has_a 'valid factory'
-  it_validates 'foreign key of', :pha
-  it_validates 'allows blank uniqueness of', :apns_token
 
-  it 'validates member flag is true' do
-    member.stub(:set_member_flag)
-    expect(member).to be_valid
-    member.member_flag = nil
-    expect(member).to_not be_valid
+  describe 'validations' do
+    before do
+      described_class.any_instance.stub(:set_test_user)
+      described_class.any_instance.stub(:set_marked_for_deletion)
+    end
+
+    it_validates 'foreign key of', :pha
+    it_validates 'inclusion of', :test_user
+    it_validates 'inclusion of', :marked_for_deletion
+    it_validates 'allows blank uniqueness of', :apns_token
+
+    it 'validates member flag is true' do
+      member.stub(:set_member_flag)
+      expect(member).to be_valid
+      member.member_flag = nil
+      expect(member).to_not be_valid
+    end
   end
 
   describe 'callbacks' do
