@@ -17,7 +17,7 @@ class Message < ActiveRecord::Base
                   :phone_call_summary_attributes,
                   :created_at, # for robot auto-response message
                   :symptom, :symptom_id, :condition, :condition_id,
-                  :off_hours
+                  :off_hours, :note
 
   validates :user, :consult, presence: true
   validates :off_hours, inclusion: {in: [true, false]}
@@ -47,17 +47,17 @@ class Message < ActiveRecord::Base
   end
 
   def notify_initiator
-    return if consult.initiator_id == user_id
+    return if consult.initiator_id == user_id || note?
     Notifications::NewMessageJob.create(consult.initiator_id, consult_id)
   end
 
   def create_task
-    return if scheduled_phone_call_id.present? || phone_call_id.present?
+    return if scheduled_phone_call_id.present? || phone_call_id.present? || note?
     MessageTask.create_if_only_opened_for_consult! consult, self
   end
 
   def update_initiator_last_contact_at
-    unless phone_call_summary || (phone_call && phone_call.to_nurse?)
+    unless phone_call_summary || (phone_call && phone_call.to_nurse?) || note?
       consult.initiator.update_attributes! last_contact_at: self.created_at
     end
   end
