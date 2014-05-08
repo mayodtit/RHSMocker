@@ -44,6 +44,12 @@ font-family:"Roboto Light";
     background-repeat: no-repeat;
   }
 
+  &.better-background {
+    background-image: image-url('payment_background.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+
   .header {
     overflow: hidden;
     margin: 20px 20px 0px;
@@ -82,11 +88,19 @@ font-family:"Roboto Light";
     &.small {
       font-size: 14pt;
     }
+
+    &.white {
+      color: white;
+    }
   }
 
   .abstract {
     margin: 10px 0px 0px;
     color: $manatee;
+
+    &.white {
+      color: white;
+    }
   }
 
   .footer {
@@ -97,6 +111,11 @@ font-family:"Roboto Light";
       padding: 6px 6px 6px 0px;
       float: left;
       width: 30px;
+
+      &.better-b {
+        width: 18px;
+        padding-bottom: 16px;
+      }
     }
     .card-info {
       padding-bottom: 25px;
