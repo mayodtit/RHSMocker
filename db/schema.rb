@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140508172001) do
+ActiveRecord::Schema.define(:version => 20140508214307) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -347,6 +347,15 @@ ActiveRecord::Schema.define(:version => 20140508172001) do
     t.datetime "updated_at",  :null => false
     t.integer  "api_user_id"
     t.datetime "disabled_at"
+  end
+
+  create_table "onboarding_groups", :force => true do |t|
+    t.string   "name"
+    t.boolean  "premium",            :default => false, :null => false
+    t.integer  "free_trial_days"
+    t.datetime "free_trial_ends_at"
+    t.datetime "created_at",                            :null => false
+    t.datetime "updated_at",                            :null => false
   end
 
   create_table "permissions", :force => true do |t|
