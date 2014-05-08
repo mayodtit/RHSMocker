@@ -12,6 +12,7 @@
             just tap here.
         .footer
           = image_tag('small_b.png', class: 'better-b')
+        = image_tag('ArrowLight.png', class: 'open-arrow')
     - else
       .card.card-link{:data => {:card_id => resource.content ? card.try(:id) : nil}}
         - if resource.has_custom_card?
