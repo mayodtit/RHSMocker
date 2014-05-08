@@ -1,21 +1,26 @@
 - if Metadata.new_card_design?
   .new
-    .card.card-link{:data => {:card_id => resource.content ? card.try(:id) : nil}}
-      - if resource.has_custom_card?
-        = resource.raw_preview.html_safe
-      - elsif resource.payment_card?
+    - if resource.payment_card?
+      .card.better-background.open-consult-with-message.card-link{:data => {:card_id => resource.content ? card.try(:id) : nil, :message => "I'd like to upgrade to Better Premium."}}
         .body
-          .title= "Your premium trial ends on #{(card.try(:user).try(:free_trial_ends_at) || Time.now).strftime('%B %-d')}"
-          .abstract
+          .title.white= "Your premium trial ends on #{(card.try(:user).try(:free_trial_ends_at) || Time.now).strftime('%B %-d')}"
+          .abstract.white
             We hope Better Premium has helped simplify your healthcare experience. To continue to enjoy the service of your Personal Health Assistant after
             %strong
               your free trial ends on
               #{(card.try(:user).try(:free_trial_ends_at) || Time.now).strftime('%B %-d')},
-            just tap here
-      - else
-        .content_header_card
-          .content_title_card= resource.title.html_safe
-          .content_text_card_fade= resource.raw_preview.html_safe
+            just tap here.
+        .footer
+          = image_tag('small_b.png', class: 'better-b')
+        = image_tag('ArrowLight.png', class: 'open-arrow')
+    - else
+      .card.card-link{:data => {:card_id => resource.content ? card.try(:id) : nil}}
+        - if resource.has_custom_card?
+          = resource.raw_preview.html_safe
+        - else
+          .content_header_card
+            .content_title_card= resource.title.html_safe
+            .content_text_card_fade= resource.raw_preview.html_safe
 - else
   .old
     .content_card.card-link{:data => {:card_id => resource.content ? card.try(:id) : nil}}

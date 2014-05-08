@@ -8,6 +8,9 @@ $ ->
   $(".open-consult").click ->
     NativeBridge.call('openConsult')
 
+  $(".open-consult-with-message").click ->
+    NativeBridge.call('openConsult', {message: $(@).data("message")})
+
   $(".consult-link").click ->
     if not $(@).data("consult-id")
       return
