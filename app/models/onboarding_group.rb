@@ -8,4 +8,5 @@ class OnboardingGroup < ActiveRecord::Base
 
   validates :name, presence: true
   validates :premium, inclusion: {in: [true, false]}
+  validates :free_trial_days, numericality: {only_integer: true}
 end
