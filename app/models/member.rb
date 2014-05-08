@@ -35,6 +35,8 @@ class Member < User
   has_one :subscription_user, foreign_key: :user_id
   has_one :shared_subscription, through: :subscription_user, class_name: 'Subscription', source: :subscription
 
+  belongs_to :onboarding_group, foreign_key: :user_id, inverse_of: :users
+
   accepts_nested_attributes_for :user_agreements
 
   attr_accessor :skip_agreement_validation
@@ -56,6 +58,7 @@ class Member < User
   validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :if => lambda{|m| !skip_agreement_validation && (m.signed_up? || m.password) }
   validate :owner_is_self
   validates :apns_token, uniqueness: true, allow_nil: true
+  validates :onboarding_group, presence: true, if: ->(m){m.onboarding_group_id}
 
   before_validation :set_owner
   before_validation :set_member_flag

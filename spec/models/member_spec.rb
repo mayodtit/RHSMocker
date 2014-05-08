@@ -20,6 +20,7 @@ describe Member do
     end
 
     it_validates 'foreign key of', :pha
+    it_validates 'foreign key of', :onboarding_group
     it_validates 'inclusion of', :test_user
     it_validates 'inclusion of', :marked_for_deletion
     it_validates 'allows blank uniqueness of', :apns_token
