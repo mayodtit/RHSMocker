@@ -1,7 +1,7 @@
 - if Metadata.new_card_design?
   .new
     - if resource.payment_card?
-      .card.better-background.card-link{:data => {:card_id => resource.content ? card.try(:id) : nil}}
+      .card.better-background.open-consult-with-message.card-link{:data => {:card_id => resource.content ? card.try(:id) : nil, :message => "I'd like to upgrade to Better Premium."}}
         .body
           .title.white= "Your premium trial ends on #{(card.try(:user).try(:free_trial_ends_at) || Time.now).strftime('%B %-d')}"
           .abstract.white
@@ -9,7 +9,7 @@
             %strong
               your free trial ends on
               #{(card.try(:user).try(:free_trial_ends_at) || Time.now).strftime('%B %-d')},
-            just tap here
+            just tap here.
         .footer
           = image_tag('small_b.png', class: 'better-b')
     - else
