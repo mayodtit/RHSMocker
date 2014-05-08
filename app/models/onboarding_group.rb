@@ -3,7 +3,8 @@ class OnboardingGroup < ActiveRecord::Base
                    inverse_of: :onboarding_group,
                    dependent: :nullify
 
-  attr_accessible :name, :premium, :free_trial_days, :free_trial_ends_at
+  attr_accessible :name, :premium, :free_trial_days,
+                  :absolute_free_trial_ends_at
 
   validates :name, presence: true
   validates :premium, inclusion: {in: [true, false]}
