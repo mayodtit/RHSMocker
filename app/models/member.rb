@@ -355,8 +355,13 @@ class Member < User
   end
 
   def calculate_free_trial_ends_at
-    if signed_up? && free_trial_days > 0
+    feature_groups_with_free_trial_ends_at = feature_groups.where('free_trial_ends_at IS NOT NULL')
+    if feature_groups_with_free_trial_ends_at.any?
+      feature_groups_with_free_trial_ends_at.first.free_trial_ends_at
+    elsif signed_up? && free_trial_days > 0
       signed_up_at.pacific.end_of_day + free_trial_days.days
+    else
+      nil
     end
   end
 
