@@ -29,19 +29,19 @@ RHSMocker::Application.configure do
 
   # *** HEY BOSS. BE CAREFUL HERE *********************************************
   # uncomment to send live emails
-  #key = 'pyRbUi-5ZA55IVKSbWYpfw'
-  #config.action_mailer.smtp_settings = {
-  #  :address              => 'smtp.mandrillapp.com',
-  #  :port                 => 587,
-  #  :domain               => 'api-dev.getbetter.com',
-  #  :user_name            => 'engineering@getbetter.com',
-  #  :password             => key,
-  #  :authentication       => :plain,
-  #  :enable_starttls_auto => true
-  #}
-  #config.action_mailer.delivery_method = :smtp
-  #
-  #MandrillMailer.configure { |config| config.api_key = key }
+  key = 'pyRbUi-5ZA55IVKSbWYpfw'
+  config.action_mailer.smtp_settings = {
+  :address              => 'smtp.mandrillapp.com',
+  :port                 => 587,
+  :domain               => 'api-dev.getbetter.com',
+  :user_name            => 'engineering@getbetter.com',
+  :password             => key,
+  :authentication       => :plain,
+  :enable_starttls_auto => true
+  }
+  config.action_mailer.delivery_method = :smtp
+
+  MandrillMailer.configure { |config| config.api_key = key }
   # ***************************************************************************
 
   # Print deprecation notices to the Rails logger

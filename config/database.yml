@@ -13,7 +13,6 @@ development:
 test:
   <<: *default
   database: rhs_test<%= ENV['TEST_ENV_NUMBER'] %>
-  username: rhs_test
-  password: password
+  username: root
   host: localhost
   min_messages: WARNING

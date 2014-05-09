@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140508172001) do
+ActiveRecord::Schema.define(:version => 20140509012613) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -347,6 +347,15 @@ ActiveRecord::Schema.define(:version => 20140508172001) do
     t.datetime "updated_at",  :null => false
     t.integer  "api_user_id"
     t.datetime "disabled_at"
+  end
+
+  create_table "onboarding_groups", :force => true do |t|
+    t.string   "name"
+    t.boolean  "premium",                     :default => false, :null => false
+    t.integer  "free_trial_days",             :default => 0,     :null => false
+    t.datetime "absolute_free_trial_ends_at"
+    t.datetime "created_at",                                     :null => false
+    t.datetime "updated_at",                                     :null => false
   end
 
   create_table "permissions", :force => true do |t|
@@ -775,12 +784,15 @@ ActiveRecord::Schema.define(:version => 20140508172001) do
     t.datetime "subscription_ends_at"
     t.boolean  "test_user",                                                                   :default => false, :null => false
     t.boolean  "marked_for_deletion",                                                         :default => false, :null => false
+    t.integer  "onboarding_group_id"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
   add_index "users", ["pha_id"], :name => "index_users_on_pha_id"
   add_index "users", ["phone"], :name => "index_users_on_phone"
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"
+  add_index "users", ["type", "last_contact_at"], :name => "index_users_on_type_and_last_contact_at"
+  add_index "users", ["type", "pha_id", "last_contact_at"], :name => "index_users_on_type_and_pha_id_and_last_contact_at"
   add_index "users", ["type", "signed_up_at"], :name => "index_users_on_type_and_signed_up_at"
 
   create_table "waitlist_entries", :force => true do |t|
