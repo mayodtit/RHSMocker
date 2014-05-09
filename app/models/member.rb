@@ -299,14 +299,14 @@ class Member < User
   end
 
   def set_premium
-    if newly_signed_up? && premium_feature_group?
+    if newly_signed_up? && onboarding_group.try(:premium?)
       self.is_premium ||= true
     end
   end
 
   def set_free_trial_ends_at
     if newly_signed_up? && is_premium?
-      self.free_trial_ends_at ||= calculate_free_trial_ends_at
+      self.free_trial_ends_at ||= onboarding_group.try(:free_trial_ends_at, signed_up_at)
     end
   end
 
@@ -356,27 +356,5 @@ class Member < User
     return unless newly_signed_up?
     master_consult.try(:send_initial_message)
     true
-  end
-
-  def premium_feature_group?
-    @premium_feature_group ||= feature_groups.where(premium: true).any?
-  end
-
-  def calculate_free_trial_ends_at
-    feature_groups_with_free_trial_ends_at = feature_groups.where('free_trial_ends_at IS NOT NULL')
-    if feature_groups_with_free_trial_ends_at.any?
-      feature_groups_with_free_trial_ends_at.first.free_trial_ends_at
-    elsif signed_up? && free_trial_days > 0
-      signed_up_at.pacific.end_of_day + free_trial_days.days
-    else
-      nil
-    end
-  end
-
-  def free_trial_days
-    @free_trial_days ||= feature_groups.inject(0) do |sum, fg|
-      sum += fg.free_trial_days
-      sum
-    end
   end
 end

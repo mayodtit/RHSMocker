@@ -16,7 +16,7 @@ class OnboardingGroup < ActiveRecord::Base
     elsif absolute_free_trial_ends_at
       absolute_free_trial_ends_at
     elsif free_trial_days > 0
-      (time || Time.now).pacific.end_of_days + free_trial_days.days
+      (time || Time.now).pacific.end_of_day + free_trial_days.days
     else
       nil
     end
