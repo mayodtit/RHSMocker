@@ -8,15 +8,15 @@ class OnboardingGroup < ActiveRecord::Base
 
   validates :name, presence: true
   validates :premium, inclusion: {in: [true, false]}
-  validates :absolute_free_trial_days, numericality: {only_integer: true}
+  validates :free_trial_days, numericality: {only_integer: true}
 
   def free_trial_ends_at(time=nil)
     if !premium?
       nil
     elsif absolute_free_trial_ends_at
       absolute_free_trial_ends_at
-    elsif absolute_free_trial_days > 0
-      (time || Time.now).pacific.end_of_days + absolute_free_trial_days.days
+    elsif free_trial_days > 0
+      (time || Time.now).pacific.end_of_days + free_trial_days.days
     else
       nil
     end
