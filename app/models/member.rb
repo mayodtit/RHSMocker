@@ -35,7 +35,7 @@ class Member < User
   has_one :subscription_user, foreign_key: :user_id
   has_one :shared_subscription, through: :subscription_user, class_name: 'Subscription', source: :subscription
 
-  belongs_to :onboarding_group, foreign_key: :user_id, inverse_of: :users
+  belongs_to :onboarding_group, inverse_of: :users
 
   accepts_nested_attributes_for :user_agreements
 
@@ -46,7 +46,7 @@ class Member < User
                   :waitlist_entry, :user_agreements_attributes, :pha, :pha_id,
                   :apns_token, :is_premium, :free_trial_ends_at, :last_contact_at,
                   :skip_agreement_validation, :signed_up_at, :subscription_ends_at,
-                  :test_user, :marked_for_deletion
+                  :test_user, :marked_for_deletion, :onboarding_group, :onboarding_group_id
 
   validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
