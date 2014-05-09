@@ -37,6 +37,9 @@ class Notifications::FreeTrialExpirationJob < Struct.new(:user_id, :days_left)
     when 1
       "Your trial ends tomorrow, but let's continue to work together: " +
       'upgrade to Better Premium.'
+    when 0
+      "Your trial ends today, but let's continue to work together: " +
+      'upgrade to Better Premium.'
     else
       raise 'invalid value for days_left'
     end
