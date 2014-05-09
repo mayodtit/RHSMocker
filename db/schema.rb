@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140509185205) do
+ActiveRecord::Schema.define(:version => 20140509202038) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -254,12 +254,9 @@ ActiveRecord::Schema.define(:version => 20140509185205) do
 
   create_table "feature_groups", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at",                            :null => false
-    t.datetime "updated_at",                            :null => false
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
     t.text     "metadata_override"
-    t.boolean  "premium",            :default => false, :null => false
-    t.integer  "free_trial_days"
-    t.datetime "free_trial_ends_at"
   end
 
   create_table "hcp_taxonomies", :force => true do |t|
