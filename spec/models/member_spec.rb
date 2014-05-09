@@ -35,11 +35,11 @@ describe Member do
 
   describe 'callbacks' do
     describe '#set_free_trial_ends_at' do
-      let(:feature_group) { create(:feature_group, free_trial_days: 3) }
-      let(:user) { create(:member, :premium, password: nil) }
+      let(:user) { create(:member, password: nil) }
+      let(:onboarding_group) { create(:onboarding_group, :premium, free_trial_days: 3) }
 
-      it 'sets the free_trial_ends_at from feature groups on signed up' do
-        user.feature_groups << feature_group
+      it 'sets the free_trial_ends_at from onboarding_group on signed up' do
+        user.update_attributes(onboarding_group: onboarding_group)
         expect(user.free_trial_ends_at).to be_nil
         user.update_attributes(password: 'password')
         expect(user.free_trial_ends_at).to eq(Time.now.in_time_zone('Pacific Time (US & Canada)').end_of_day + 3.days)
@@ -56,10 +56,11 @@ describe Member do
       context 'not premium' do
         before do
           user.update_attributes(is_premium: false)
+          onboarding_group.update_attributes(premium: false)
         end
 
         it 'does not set free_trial_ends_at' do
-          user.feature_groups << feature_group
+          user.update_attributes(onboarding_group: onboarding_group)
           expect(user.free_trial_ends_at).to be_nil
           user.update_attributes(password: 'password')
           expect(user.free_trial_ends_at).to be_nil
@@ -68,11 +69,11 @@ describe Member do
 
       context 'feature group free_trial_days = 0' do
         before do
-          feature_group.update_attributes(free_trial_days: 0)
+          onboarding_group.update_attributes(free_trial_days: 0)
         end
 
         it 'does not set free_trial_ends_at' do
-          user.feature_groups << feature_group
+          user.update_attributes(onboarding_group: onboarding_group)
           expect(user.free_trial_ends_at).to be_nil
           user.update_attributes(password: 'password')
           expect(user.free_trial_ends_at).to be_nil
