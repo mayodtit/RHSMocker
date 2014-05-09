@@ -180,10 +180,30 @@ describe Member do
         member.invite! invitation
       end
 
-      xit 'sends and delivers an invitation' do
-        UserMailer.should_receive(:invitation_email).with member, invitation.member
-        email.should_receive :deliver
-        member.invite! invitation
+      context 'member is a care provider' do
+        before do
+          member.stub(:care_provider?) { true }
+        end
+
+        it 'sends and delivers an invitation' do
+          UserMailer.should_receive(:delay) do
+            o = Object.new
+            o.should_receive(:invitation_email).with member, invitation.member
+            o
+          end
+          member.invite! invitation
+        end
+      end
+
+      context 'member is not a care provider' do
+        before do
+          member.stub(:care_provider?) { false }
+        end
+
+        it 'sends and delivers an invitation' do
+          UserMailer.should_not_receive(:delay)
+          member.invite! invitation
+        end
       end
     end
   end
@@ -340,6 +360,47 @@ describe Member do
           member.notify_pha_of_new_member
         end
       end
+    end
+  end
+
+  describe '#add_role' do
+    let(:member) { create :member }
+    let(:role) { create :role, name: 'role' }
+
+    context 'user has role' do
+      before do
+        member.stub(:has_role?).with('role') { true }
+      end
+
+      it 'does nothing' do
+        Role.should_not_receive(:where)
+        member.add_role 'role'
+      end
+    end
+
+    context 'user doesn\'t have role' do
+      before do
+        member.should_not be_has_role('role')
+      end
+
+      it 'adds the role' do
+        member.add_role 'role'
+        member.should be_has_role('role')
+      end
+    end
+  end
+
+  describe '#has_role?' do
+    it 'returns true if user has the role' do
+      member = build :member
+      member.stub(:role_names) { ['role'] }
+      member.should be_has_role('role')
+    end
+
+    it 'returns false if user has the role' do
+      member = build :member
+      member.stub(:role_names) { ['other_role'] }
+      member.should_not be_has_role('role')
     end
   end
 end

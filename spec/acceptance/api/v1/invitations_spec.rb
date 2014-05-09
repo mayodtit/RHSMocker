@@ -93,7 +93,7 @@ resource "Invitations" do
         response = JSON.parse response_body, symbolize_names: true
         new_user = Member.last
         response[:auth_token].should == new_user.auth_token
-        response[:user].to_json.should == new_user.as_json.to_json
+        response[:user].to_json.should == new_user.serializer.as_json.to_json
       end
     end
   end

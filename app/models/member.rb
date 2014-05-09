@@ -92,6 +92,8 @@ class Member < User
   end
 
   def add_role(role_name)
+    return if has_role? role_name
+
     role = Role.where(name: role_name).first_or_create!
     roles << role
     @role_names << role.name.to_s if @role_names
@@ -168,7 +170,10 @@ class Member < User
   def invite! invitation
     return if signed_up?
     update_attributes!(:invitation_token => invitation.token)
-    # UserMailer.delay.invitation_email(self, invitation.member)
+
+    # NOTE 5/8/2014: We only send emails to care providers because we are inviting influencers and
+    # want invitations to Premium to be sent by a person.
+    UserMailer.delay.invitation_email(self, invitation.member) if care_provider?
   end
 
   def hacky_simple_invite!
