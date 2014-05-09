@@ -1,7 +1,10 @@
 class SyncLastContactAtForMembers < ActiveRecord::Migration
   def up
     Member.find_each do |m|
+      next if m.needs_agreement?
+
       c = m.master_consult
+
       next unless c.present?
 
       last_message = c.messages.order('created_at ASC').last
