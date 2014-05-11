@@ -1,9 +1,8 @@
-.new
-  .card.question
-    .header
-      What is your gender?
-    .body
-      = link_to image_tag('IconMale.png', class: [:gender, :left], data: {gender: :male, card_id: card.try(:id)}), '#'
-      = link_to image_tag('IconFemale.png', class: [:gender, :right], data: {gender: :female, card_id: card.try(:id)}), '#'
-      = image_tag('b_Small.png', class: %w(logo better-logo))
-    .footer
+.card.question
+  .header
+    What is your gender?
+  .body
+    = link_to image_tag('IconMale.png', class: [:gender, :left], data: {gender: :male, card_id: card.try(:id)}), '#'
+    = link_to image_tag('IconFemale.png', class: [:gender, :right], data: {gender: :female, card_id: card.try(:id)}), '#'
+    = image_tag('b_Small.png', class: %w(logo better-logo))
+  .footer
