@@ -53,8 +53,25 @@ font-family:"Roboto Light";
   .header {
     overflow: hidden;
     margin: 20px 20px 0px;
+
+    &.bottom-border {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #cccccc;
+    }
+
     .logo {
       float: left;
+    }
+
+    .avatar {
+      width: 50px;
+      float: left;
+    }
+
+    .avatar-text {
+      color: $smashed-pumpkin;
+      width: 200px;
+      float: right;
     }
   }
 
@@ -63,11 +80,13 @@ font-family:"Roboto Light";
     overflow: hidden;
     margin: 10px 20px 0px;
     padding-right: 15px;
+
     .logo {
       position: absolute;
       left: 0;
       bottom: 0;
     }
+
     .gender {
       width: 95px;
       &.left {
@@ -77,6 +96,45 @@ font-family:"Roboto Light";
       &.right {
         padding-right: 5px;
         float: right;
+      }
+    }
+
+    .card-buttons {
+      height: 65px;
+
+      .card-button {
+        float: left;
+        min-height: 40px;
+        height: 20px;
+        width: 115px;
+        text-align: center;
+        margin: 10px 10px 10px 0px;
+        border-radius: 2px;
+        position: relative;
+
+        &.last {
+          margin-right: 0px;
+        }
+
+        span {
+          position: absolute;
+          top: 10px;
+          left: 0px;
+          width: 100%;
+          text-align: center;
+        }
+
+        &.accept {
+          border: 1px solid $dark-blue;
+          background-color: $dark-blue;
+          color: white;
+        }
+
+        &.reject {
+          border: 1px solid $medium-grey;
+          background-color: white;
+          color: $dark-blue;
+        }
       }
     }
   }
