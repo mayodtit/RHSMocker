@@ -36,4 +36,10 @@ class Permission < ActiveRecord::Base
       care_team: care_team
     }
   end
+
+  def copy_levels!(permission)
+    update_attributes!(basic_info: permission.basic_info,
+                       medical_info: permission.medical_info,
+                       care_team: permission.care_team)
+  end
 end
