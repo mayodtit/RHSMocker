@@ -1,7 +1,10 @@
 - if resource.creator == resource.user
-  .header.bottom-border
-    = image_tag(resource.user.avatar_or_gender_url, class: :avatar)
-    %span.avatar-text You are invited to share with #{resource.user.full_name}
+  .header.orange
+    - if resource.user.avatar_url
+      = image_tag(resource.user.avatar_or_gender_url, class: :avatar)
+      %span.avatar-text You are invited to share with #{resource.user.full_name}
+    - else
+      %span You are invited to share with #{resource.user.full_name}
   .body
     %span #{resource.user.full_name} has invited you to share #{resource.user.gender_possessive} profile. Tap accept to view #{resource.user.full_name}'s profile.
     .card-buttons
