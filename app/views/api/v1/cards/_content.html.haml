@@ -5,6 +5,12 @@
     - elsif resource.preview_image_url.present?
       .image-container
         = image_tag(resource.preview_image_url, class: 'card-image')
+      - if card.try(:sender)
+        .card-info
+          = image_tag(card.sender.avatar_or_gender_url)
+          .card-info-copy
+            From #{card.sender.first_name}
+            .time{data: {time: card.created_at.to_i}}
     - else
       .header
         = image_tag('mayologo_card_@2x.png', class: %w(logo mayo-logo)) if resource.show_mayo_logo?
@@ -20,6 +26,12 @@
               Because #{card.user_program.subject.first_name} is in the
               %strong= card.user_program.program.title
               program
+        - elsif card.try(:sender)
+          .card-info
+            = image_tag(card.sender.avatar_or_gender_url)
+            .card-info-copy
+              From #{card.sender.first_name}
+              .time{data: {time: card.created_at.to_i}}
       = image_tag('ArrowDark.png', class: 'open-arrow')
 - else
   .old

@@ -77,6 +77,11 @@ $ ->
     d.setUTCSeconds $(@).data("time")
     $(@).text((d.getMonth() + 1) + "/" + d.getDate() + "/" + d.getFullYear())
 
+  $(".time").each ->
+    d = new Date(0)
+    d.setUTCSeconds $(@).data("time")
+    $(@).text(d.toLocaleString("en-us", {month: "short"}) + " " + d.getDate() + ", " + d.toLocaleTimeString().replace(/:\d+ /, ' '))
+
   $(".section-head").click ->
     $(@).toggleClass("closed")
     $("#section-" + $(@).data("section-id")).toggleClass("disabled")
