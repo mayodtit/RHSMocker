@@ -9,8 +9,7 @@ class Association < ActiveRecord::Base
   has_one :original, class_name: 'Association',
                      foreign_key: :replacement_id,
                      inverse_of: :replacement
-  belongs_to :pair, class_name: 'Association',
-                    dependent: :destroy
+  belongs_to :pair, class_name: 'Association'
   has_one :permission, foreign_key: :subject_id,
                        dependent: :destroy,
                        inverse_of: :subject
@@ -40,11 +39,13 @@ class Association < ActiveRecord::Base
   validate :creator_id_not_changed
   validates_associated :permission
 
+  before_validation :nullify_pair_id
   before_validation :build_related_associations, on: :create
   before_validation :create_default_permission, on: :create
   after_save :invite!, if: ->(a){a.invite == true}
   after_create :send_card!
   after_create :dismiss_related_card!
+  after_destroy :enable_original_association
   after_destroy :destroy_related_associations
 
   # adding and removing the user's default HCP
@@ -133,6 +134,10 @@ class Association < ActiveRecord::Base
     self.class.where(user_id: creator_id, associate_id: user_id).first.tap{|a| a.invite!}
   end
 
+  def nullify_pair_id
+    self.pair_id = nil unless pair
+  end
+
   def build_related_associations
     return if !associate.persisted? || (creator_id == user_id) || associate.npi_number.present?
     transaction do
@@ -142,7 +147,7 @@ class Association < ActiveRecord::Base
                                                         associate_id: associate_id,
                                                         association_type_id: AssociationType.family_default_id,
                                                         creator_id: creator_id,
-                                                        parent: parent,
+                                                        parent: parent.replacement,
                                                         state: 'pending'))
     end
   end
@@ -179,6 +184,12 @@ class Association < ActiveRecord::Base
     end
   end
 
+  def enable_original_association
+    if enabled? && original && (associate_id != original.associate_id)
+      original.enable!
+    end
+  end
+
   def destroy_related_associations
     if replacement.try(:pending?) && !replacement.marked_for_destruction?
       replacement.mark_for_destruction
@@ -188,6 +199,13 @@ class Association < ActiveRecord::Base
     if associate_id == original.try(:associate_id) && !original.marked_for_destruction?
       original.mark_for_destruction
       original.destroy
+    end
+    if pair && !pair.marked_for_destruction? && (pair.user_id != pair.associate.owner_id)
+      pair.mark_for_destruction
+      pair.destroy
+    elsif pair && !pair.marked_for_destruction? && (pair.user_id == pair.associate.owner_id) && pair.replacement.try(:pending?) && !pair.replacement.marked_for_destruction?
+      pair.replacement.mark_for_destruction
+      pair.replacement.destroy
     end
   end
 
@@ -230,6 +248,9 @@ class Association < ActiveRecord::Base
     after_transition :pending => :enabled do |association, transition|
       if association.original
         association.original.update_attributes!(state_event: :disable)
+        if association.associate_id == association.original.associate_id
+          association.permission.copy_levels!(association.original.permission)
+        end
       end
     end
 

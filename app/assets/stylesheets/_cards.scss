@@ -21,6 +21,12 @@ font-family:"Roboto Light";
   width: 300px;
   overflow: hidden;
 
+  .card-link {
+    .body {
+      padding-right: 15px;
+    }
+  }
+
   .image-container {
     line-height: 0px;
   }
@@ -53,8 +59,23 @@ font-family:"Roboto Light";
   .header {
     overflow: hidden;
     margin: 20px 20px 0px;
+
+    &.orange {
+      color: $smashed-pumpkin;
+    }
+
     .logo {
       float: left;
+    }
+
+    .avatar {
+      width: 50px;
+      float: left;
+    }
+
+    .avatar-text {
+      width: 200px;
+      float: right;
     }
   }
 
@@ -62,12 +83,13 @@ font-family:"Roboto Light";
     position: relative;
     overflow: hidden;
     margin: 10px 20px 0px;
-    padding-right: 15px;
+
     .logo {
       position: absolute;
       left: 0;
       bottom: 0;
     }
+
     .gender {
       width: 95px;
       &.left {
@@ -77,6 +99,46 @@ font-family:"Roboto Light";
       &.right {
         padding-right: 5px;
         float: right;
+      }
+    }
+
+    .card-buttons {
+      height: 65px;
+      margin-top: 10px;
+
+      .card-button {
+        float: left;
+        min-height: 40px;
+        height: 20px;
+        width: 123px;
+        text-align: center;
+        margin: 10px 10px 10px 0px;
+        border-radius: 2px;
+        position: relative;
+
+        &.last {
+          margin-right: 0px;
+        }
+
+        span {
+          position: absolute;
+          top: 10px;
+          left: 0px;
+          width: 100%;
+          text-align: center;
+        }
+
+        &.accept {
+          border: 1px solid $dark-blue;
+          background-color: $dark-blue;
+          color: white;
+        }
+
+        &.reject {
+          border: 1px solid $medium-grey;
+          background-color: white;
+          color: $dark-blue;
+        }
       }
     }
   }
