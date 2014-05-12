@@ -21,6 +21,12 @@ font-family:"Roboto Light";
   width: 300px;
   overflow: hidden;
 
+  .card-link {
+    .body {
+      padding-right: 15px;
+    }
+  }
+
   .image-container {
     line-height: 0px;
   }
@@ -79,7 +85,6 @@ font-family:"Roboto Light";
     position: relative;
     overflow: hidden;
     margin: 10px 20px 0px;
-    padding-right: 15px;
 
     .logo {
       position: absolute;
@@ -106,7 +111,7 @@ font-family:"Roboto Light";
         float: left;
         min-height: 40px;
         height: 20px;
-        width: 115px;
+        width: 123px;
         text-align: center;
         margin: 10px 10px 10px 0px;
         border-radius: 2px;
