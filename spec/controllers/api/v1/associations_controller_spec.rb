@@ -24,7 +24,7 @@ describe Api::V1::AssociationsController do
       it 'returns the associations' do
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:associations].to_json.should == [association].serializer.as_json.to_json
+        body[:associations].to_json.should == [association].serializer(scope: user).as_json.to_json
       end
     end
   end
@@ -42,7 +42,7 @@ describe Api::V1::AssociationsController do
       it 'returns the association' do
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:association].to_json.should == association.serializer.as_json.to_json
+        body[:association].to_json.should == association.serializer(scope: user).as_json.to_json
       end
     end
   end
@@ -72,7 +72,7 @@ describe Api::V1::AssociationsController do
         it 'returns the association' do
           do_request
           body = JSON.parse(response.body, symbolize_names: true)
-          body[:association].to_json.should == association.serializer.as_json.to_json
+          body[:association].to_json.should == association.serializer(scope: user).as_json.to_json
         end
       end
 
@@ -113,7 +113,7 @@ describe Api::V1::AssociationsController do
         it 'returns the associate' do
           do_request
           body = JSON.parse(response.body, symbolize_names: true)
-          body[:association].to_json.should == association.serializer.as_json.to_json
+          body[:association].to_json.should == association.serializer(scope: user).as_json.to_json
         end
       end
 

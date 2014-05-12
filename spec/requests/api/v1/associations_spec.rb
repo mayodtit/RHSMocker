@@ -19,7 +19,7 @@ describe 'Associations' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:associations].to_json).to eq([association].serializer.as_json.to_json)
+        expect(body[:associations].to_json).to eq([association].serializer(scope: user).as_json.to_json)
         ids = body[:associations].map{|a| a[:id]}
         expect(ids).to include(association.id)
         expect(ids).to_not include(disabled_association.id)
@@ -35,7 +35,7 @@ describe 'Associations' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:association].to_json).to eq(association.serializer.as_json.to_json)
+        expect(body[:association].to_json).to eq(association.serializer(scope: user).as_json.to_json)
       end
     end
 
@@ -50,7 +50,7 @@ describe 'Associations' do
         do_request(association: {association_type_id: association_type.id})
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:association].to_json).to eq(association.reload.serializer.as_json.to_json)
+        expect(body[:association].to_json).to eq(association.reload.serializer(scope: user).as_json.to_json)
         expect(body[:association][:association_type_id]).to eq(association_type.id)
       end
     end
@@ -85,7 +85,7 @@ describe 'Associations' do
           expect(new_association.association_type).to eq(association.association_type)
           expect(new_association.original).to eq(association)
           body = JSON.parse(response.body, symbolize_names: true)
-          expect(body[:association].to_json).to eq(association.reload.pair.serializer.as_json.to_json)
+          expect(body[:association].to_json).to eq(association.reload.pair.serializer(scope: user).as_json.to_json)
         end
       end
 
@@ -102,7 +102,7 @@ describe 'Associations' do
           expect(new_association.association_type).to eq(association.association_type)
           expect(new_association.original).to eq(association)
           body = JSON.parse(response.body, symbolize_names: true)
-          expect(body[:association].to_json).to eq(association.reload.pair.serializer.as_json.to_json)
+          expect(body[:association].to_json).to eq(association.reload.pair.serializer(scope: user).as_json.to_json)
         end
       end
     end
@@ -122,7 +122,7 @@ describe 'Associations' do
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
           association = Association.find(body[:association][:id])
-          expect(body[:association].to_json).to eq(association.serializer.as_json.to_json)
+          expect(body[:association].to_json).to eq(association.serializer(scope: user).as_json.to_json)
           expect(association.user).to eq(user)
           expect(association.associate).to eq(associate)
         end
@@ -145,7 +145,7 @@ describe 'Associations' do
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
           association = Association.find(body[:association][:id])
-          expect(body[:association].to_json).to eq(association.serializer.as_json.to_json)
+          expect(body[:association].to_json).to eq(association.serializer(scope: user).as_json.to_json)
           expect(association.user).to eq(user)
         end
 
@@ -168,7 +168,7 @@ describe 'Associations' do
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
         association = Association.find(body[:association][:id])
-        expect(body[:association].to_json).to eq(association.serializer.as_json.to_json)
+        expect(body[:association].to_json).to eq(association.serializer(scope: member).as_json.to_json)
         expect(association.creator).to eq(member)
         expect(association.user).to eq(user)
         expect(association.associate).to eq(associate)
