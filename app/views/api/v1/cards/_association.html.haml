@@ -1,24 +1,22 @@
-.old
-  .content_card
-    - if resource.creator == resource.user
-      .card-header
-        = image_tag(resource.user.avatar_or_gender_url, class: :double)
-        %h1.double You are invited to share with #{resource.user.full_name}
-      .card-body.with-buttons
-        %span #{resource.user.full_name} has invited you to share #{resource.user.gender_possessive} profile. Tap accept to view #{resource.user.full_name}'s profile.
-      .card-buttons
-        .card-button.reject.update-inverse-association{data: {association_id: resource.id, state_event: :disable}}
-          %span Decline
-        .card-button.accept.update-inverse-association{data: {association_id: resource.id, state_event: :enable, user_id: resource.user_id}}
-          %span Accept
-    - else
-      .card-header
-        = image_tag(resource.associate.avatar_or_gender_url, class: :double)
-        %h1.double #{resource.creator.full_name} has shared #{resource.associate.full_name || resource.possessive_association_type_display_name}'s profile with you
-      .card-body.with-buttons
-        %span #{resource.creator.full_name} has invited you to share #{resource.associate.full_name || resource.possessive_association_type_display_name}'s profile. Tap accept to view #{resource.possessive_association_type_display_name}'s profile.
-      .card-buttons
-        .card-button.reject.update-association{data: {association_id: resource.id, state_event: :disable}}
-          %span Decline
-        .card-button.accept.update-association{data: {association_id: resource.id, state_event: :enable, user_id: resource.associate_id}}
-          %span Accept
+- if resource.creator == resource.user
+  .header.bottom-border
+    = image_tag(resource.user.avatar_or_gender_url, class: :avatar)
+    %span.avatar-text You are invited to share with #{resource.user.full_name}
+  .body
+    %span #{resource.user.full_name} has invited you to share #{resource.user.gender_possessive} profile. Tap accept to view #{resource.user.full_name}'s profile.
+    .card-buttons
+      .card-button.reject.update-inverse-association{data: {association_id: resource.id, state_event: :disable}}
+        %span Decline
+      .card-button.last.accept.update-inverse-association{data: {association_id: resource.id, state_event: :enable, user_id: resource.user_id}}
+        %span Accept
+- else
+  .header
+    = image_tag(resource.associate.avatar_or_gender_url, class: :double)
+    %h1.double #{resource.creator.full_name} has shared #{resource.associate.full_name || resource.possessive_association_type_display_name}'s profile with you
+  .body
+    %span #{resource.creator.full_name} has invited you to share #{resource.associate.full_name || resource.possessive_association_type_display_name}'s profile. Tap accept to view #{resource.possessive_association_type_display_name}'s profile.
+    .card-buttons
+      .card-button.reject.update-inverse-association{data: {association_id: resource.id, state_event: :disable}}
+        %span Decline
+      .card-button.accept.update-inverse-association{data: {association_id: resource.id, state_event: :enable, user_id: resource.user_id}}
+        %span Accept
