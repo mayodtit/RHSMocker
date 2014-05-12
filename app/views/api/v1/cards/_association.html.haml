@@ -22,7 +22,7 @@
   .body
     %span #{resource.creator.full_name} has invited you to share #{resource.associate.full_name || resource.possessive_association_type_display_name}'s profile. Tap accept to view #{resource.possessive_association_type_display_name}'s profile.
     .card-buttons
-      .card-button.reject.update-inverse-association{data: {association_id: resource.id, state_event: :disable}}
+      .card-button.reject.update-association{data: {association_id: resource.id, state_event: :disable}}
         %span Decline
-      .card-button.last.accept.update-inverse-association{data: {association_id: resource.id, state_event: :enable, user_id: resource.user_id}}
+      .card-button.last.accept.update-association{data: {association_id: resource.id, state_event: :enable, user_id: resource.user_id}}
         %span Accept
