@@ -248,6 +248,9 @@ class Association < ActiveRecord::Base
     after_transition :pending => :enabled do |association, transition|
       if association.original
         association.original.update_attributes!(state_event: :disable)
+        if association.associate_id == association.original.associate_id
+          association.permission.copy_levels!(association.original.permission)
+        end
       end
     end
 
