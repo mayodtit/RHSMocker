@@ -39,6 +39,7 @@ class Association < ActiveRecord::Base
   validate :creator_id_not_changed
   validates_associated :permission
 
+  before_validation :nullify_pair_id
   before_validation :build_related_associations, on: :create
   before_validation :create_default_permission, on: :create
   after_save :invite!, if: ->(a){a.invite == true}
@@ -133,6 +134,10 @@ class Association < ActiveRecord::Base
     self.class.where(user_id: creator_id, associate_id: user_id).first.tap{|a| a.invite!}
   end
 
+  def nullify_pair_id
+    self.pair_id = nil unless pair
+  end
+
   def build_related_associations
     return if !associate.persisted? || (creator_id == user_id) || associate.npi_number.present?
     transaction do
@@ -198,6 +203,9 @@ class Association < ActiveRecord::Base
     if pair && !pair.marked_for_destruction? && (pair.user_id != pair.associate.owner_id)
       pair.mark_for_destruction
       pair.destroy
+    elsif pair && !pair.marked_for_destruction? && (pair.user_id == pair.associate.owner_id) && pair.replacement.try(:pending?) && !pair.replacement.marked_for_destruction?
+      pair.replacement.mark_for_destruction
+      pair.replacement.destroy
     end
   end
 
