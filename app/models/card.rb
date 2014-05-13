@@ -4,13 +4,15 @@ class Card < ActiveRecord::Base
   belongs_to :user
   belongs_to :resource, polymorphic: true
   belongs_to :user_program
+  belongs_to :sender, class_name: 'Member'
 
   attr_accessible :user, :user_id, :resource, :resource_id, :resource_type,
                   :state, :state_event, :state_changed_at, :priority,
-                  :user_program, :user_program_id
+                  :user_program, :user_program_id, :sender, :sender_id
 
   validates :user, :resource, presence: true
   validates :user_program, presence: true, if: ->(c){c.user_program_id}
+  validates :sender, presence: true, if: ->(c){c.sender_id}
   validates :state_changed_at, presence: true, unless: :unsaved?
   validates :resource_id, :uniqueness => {:scope => [:user_id, :resource_type]}
 

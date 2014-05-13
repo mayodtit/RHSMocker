@@ -4,7 +4,7 @@ class CardSerializer < ViewSerializer
   attributes :id, :user_id, :resource_id, :resource_type, :state, :created_at, :updated_at,
              :priority, :state_changed_at, :title, :content_type, :content_type_display,
              :share_url, :actions, :card_actions, :fullscreen_actions, :timeline_action,
-             :size
+             :size, :sender_id
 
   def attributes
     super.merge!(state_specific_date)
