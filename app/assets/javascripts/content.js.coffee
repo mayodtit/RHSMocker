@@ -77,10 +77,11 @@ $ ->
     d.setUTCSeconds $(@).data("time")
     $(@).text((d.getMonth() + 1) + "/" + d.getDate() + "/" + d.getFullYear())
 
+  months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
   $(".time").each ->
     d = new Date(0)
     d.setUTCSeconds $(@).data("time")
-    $(@).text(d.toLocaleString("en-us", {month: "short"}) + " " + d.getDate() + ", " + d.toLocaleTimeString().replace(/:\d+ /, ' '))
+    $(@).text(months[d.getMonth()] + " " + d.getDate() + ", " + d.toLocaleTimeString().replace(/:\d+ /, ' '))
 
   $(".section-head").click ->
     $(@).toggleClass("closed")
