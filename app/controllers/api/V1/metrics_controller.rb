@@ -1,6 +1,28 @@
 class Api::V1::MetricsController < Api::V1::ABaseController
   before_filter :authorize_check!
 
+  def index
+    items = [
+      {
+        description: 'Member Data csv (previously on Care Portal admin page)',
+        url: onboarding_members_api_v1_dashboard_index_url
+      },
+      {
+        description: 'Onboarding Call Data csv (previously on Care Portal admin page)',
+        url: onboarding_calls_api_v1_dashboard_index_url
+      },
+      {
+        description: 'Inbound calls csv',
+        url: inbound_api_v1_metrics_url
+      },
+      {
+        description: 'Inbound calls by week csv',
+        url: inbound_by_week_api_v1_metrics_url
+      }
+    ]
+    render json: items, root: false
+  end
+
   def inbound
     pha = Role.find_by_name!('pha')
     task_count = PhoneCallTask.pha.count
