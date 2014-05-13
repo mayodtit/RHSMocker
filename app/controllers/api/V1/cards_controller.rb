@@ -15,11 +15,12 @@ class Api::V1::CardsController < Api::V1::ABaseController
   end
 
   def create
-    create_resource @user.cards, card_params
+    authorize! :create, Card
+    create_resource @user.cards, create_params
   end
 
   def update
-    update_resource @card, card_params
+    update_resource @card, update_params
   end
 
   private
@@ -29,7 +30,16 @@ class Api::V1::CardsController < Api::V1::ABaseController
     authorize! :manage, @card
   end
 
-  def card_params
+  def create_params
+    params.require(:card).permit(:resource_id,
+                                 :resource_type,
+                                 :priority,
+                                 :sender_id).tap do |attributes|
+      attributes[:sender_id] ||= current_user.id
+    end
+  end
+
+  def update_params
     params[:card][:state_event] ||= params[:card].delete(:state) # don't let the client set the state explicitly
     params[:card]
   end
