@@ -10,4 +10,8 @@ class ParsedNurselineRecord < ActiveRecord::Base
 
   validates :user, :consult, :phone_call, :nurseline_record, :text, presence: true
   validates :nurseline_record_id, uniqueness: true
+
+  def self.create_from_nurseline_record(nurseline_record)
+    create(NurselineRecordParser.new(nurseline_record).parse!)
+  end
 end
