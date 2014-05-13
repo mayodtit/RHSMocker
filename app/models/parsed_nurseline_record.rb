@@ -9,4 +9,5 @@ class ParsedNurselineRecord < ActiveRecord::Base
                   :text
 
   validates :user, :consult, :phone_call, :nurseline_record, :text, presence: true
+  validates :nurseline_record_id, uniqueness: true
 end

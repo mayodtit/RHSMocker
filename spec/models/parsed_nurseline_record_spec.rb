@@ -7,4 +7,5 @@ describe ParsedNurselineRecord do
   it_validates 'presence of', :phone_call
   it_validates 'presence of', :nurseline_record
   it_validates 'presence of', :text
+  it_validates 'uniqueness of', :nurseline_record_id
 end
