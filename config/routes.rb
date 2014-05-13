@@ -61,6 +61,7 @@ RHSMocker::Application.routes.draw do
         put :secure_update, on: :member
         put :update_current, on: :collection # TODO - this should be deprecated in general, client should know the ID
       end
+      resources :parsed_nurseline_records, only: :show
       post :password_resets, to: 'reset_password#create' # TODO - deprecated!
       resources :phone_call_summaries, :only => :show
       resources :ping, only: [:index, :create]
