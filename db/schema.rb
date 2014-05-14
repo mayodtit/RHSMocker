@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140512205250) do
+ActiveRecord::Schema.define(:version => 20140514001827) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -356,6 +356,16 @@ ActiveRecord::Schema.define(:version => 20140512205250) do
     t.datetime "updated_at",                                     :null => false
   end
 
+  create_table "parsed_nurseline_records", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "consult_id"
+    t.integer  "phone_call_id"
+    t.integer  "nurseline_record_id"
+    t.text     "text"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
+
   create_table "permissions", :force => true do |t|
     t.integer  "subject_id"
     t.datetime "created_at",   :null => false
@@ -588,14 +598,15 @@ ActiveRecord::Schema.define(:version => 20140512205250) do
     t.datetime "started_at"
     t.datetime "claimed_at"
     t.datetime "completed_at"
-    t.datetime "created_at",              :null => false
-    t.datetime "updated_at",              :null => false
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
     t.integer  "creator_id"
     t.string   "state"
     t.integer  "abandoner_id"
     t.datetime "abandoned_at"
     t.string   "reason_abandoned"
     t.string   "type"
+    t.integer  "parsed_nurseline_record_id"
   end
 
   add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"
