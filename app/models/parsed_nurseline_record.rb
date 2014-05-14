@@ -11,7 +11,19 @@ class ParsedNurselineRecord < ActiveRecord::Base
   validates :user, :consult, :phone_call, :nurseline_record, :text, presence: true
   validates :nurseline_record_id, uniqueness: true
 
+  after_create :create_task
+
   def self.create_from_nurseline_record(nurseline_record)
     create(NurselineRecordParser.new(nurseline_record).parse!)
+  end
+
+  private
+
+  def create_task
+    ParsedNurselineRecordTask.create(parsed_nurseline_record: self,
+                                     title: 'New Nurseline Record',
+                                     creator: Member.robot,
+                                     member: user,
+                                     due_at: Time.now)
   end
 end
