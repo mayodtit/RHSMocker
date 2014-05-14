@@ -67,7 +67,12 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def load_members!
     authorize! :index, Member
-    @members = Member.signed_up.where(params.permit(:pha_id, :is_premium)).order('last_contact_at DESC')
+    search_params = params.permit(:pha_id, :is_premium)
+    if search_params.has_key? :is_premium
+      search_params[:is_premium] = search_params[:is_premium] == 'true'
+    end
+
+    @members = Member.signed_up.where(search_params).order('last_contact_at DESC')
     @members = @members.name_search(params[:q]) if params[:q]
     @members = @members.page(page).per(per)
   end
