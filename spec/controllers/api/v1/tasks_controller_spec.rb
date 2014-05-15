@@ -55,7 +55,7 @@ describe Api::V1::TasksController do
           end
           o
         end
-        get :index, auth_token: user.auth_token, state: 'unassigned'
+        get :index, auth_token: user.auth_token, state: 'unassigned', due_at: 3.days.ago
       end
     end
   end
