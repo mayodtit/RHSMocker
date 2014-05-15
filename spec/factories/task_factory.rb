@@ -2,6 +2,7 @@ FactoryGirl.define do
   factory :task do
     sequence(:title) { |n| "Plan to do something for the #{n}th time." }
     association :creator, factory: :member
+    due_at Time.now
 
     trait :assigned do
       state 'assigned'

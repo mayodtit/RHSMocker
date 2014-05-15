@@ -1,12 +1,23 @@
 class Api::V1::TasksController < Api::V1::ABaseController
   before_filter :load_user!
-  before_filter :load_task!, except: [:index, :current]
+  before_filter :load_task!, except: [:index, :queue, :current]
 
   def index
     authorize! :read, Task
 
     tasks = []
-    Task.where(params.permit(:state)).order('due_at, created_at ASC').each do |task|
+    Task.where(params.permit(:state, :owner_id)).order('due_at, created_at ASC').each do |task|
+      tasks.push(task) if can? :read, task
+    end
+
+    index_resource tasks.serializer
+  end
+
+  def queue
+    authorize! :read, Task
+
+    tasks = []
+    Task.unassigned_and_owned(current_user).order('due_at, created_at ASC').each do |task|
       tasks.push(task) if can? :read, task
     end
 
