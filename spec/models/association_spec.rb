@@ -16,6 +16,7 @@ describe Association do
     it_validates 'presence of', :creator
     it_validates 'presence of', :permission
     it_validates 'uniqueness of', :associate_id, :user_id, :association_type_id
+    it_validates 'foreign key of', :association_type
     it_validates 'foreign key of', :replacement
     it_validates 'foreign key of', :pair
     it_validates 'foreign key of', :parent
