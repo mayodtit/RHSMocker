@@ -24,6 +24,40 @@ ActiveRecord::Schema.define(:version => 20140516160749) do
     t.string   "address2"
   end
 
+  create_table "after_hours_calls", :id => false, :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "claimed_at"
+  end
+
+  create_table "after_hours_from_calls", :id => false, :force => true do |t|
+    t.integer  "id",                           :default => 0,     :null => false
+    t.integer  "user_id"
+    t.datetime "created_at",                                      :null => false
+    t.datetime "updated_at",                                      :null => false
+    t.string   "origin_phone_number"
+    t.string   "destination_phone_number"
+    t.string   "state"
+    t.datetime "claimed_at"
+    t.datetime "ended_at"
+    t.integer  "claimer_id"
+    t.integer  "ender_id"
+    t.string   "identifier_token"
+    t.integer  "to_role_id"
+    t.integer  "dialer_id"
+    t.datetime "dialed_at"
+    t.integer  "resolver"
+    t.datetime "resolved_at"
+    t.string   "destination_twilio_sid"
+    t.string   "origin_twilio_sid"
+    t.integer  "transferred_to_phone_call_id"
+    t.datetime "missed_at"
+    t.string   "twilio_conference_name"
+    t.string   "origin_status"
+    t.string   "destination_status"
+    t.boolean  "outbound",                     :default => false, :null => false
+    t.integer  "merged_into_phone_call_id"
+  end
+
   create_table "agreements", :force => true do |t|
     t.text     "text"
     t.boolean  "active",     :default => false, :null => false
@@ -88,6 +122,10 @@ ActiveRecord::Schema.define(:version => 20140516160749) do
 
   add_index "blood_pressures", ["collection_type_id"], :name => "index_blood_pressures_on_collection_type_id"
   add_index "blood_pressures", ["user_id"], :name => "index_blood_pressures_on_user_id"
+
+  create_table "call_times", :id => false, :force => true do |t|
+    t.integer "call_time", :limit => 8
+  end
 
   create_table "cards", :force => true do |t|
     t.integer  "user_id"
@@ -210,6 +248,12 @@ ActiveRecord::Schema.define(:version => 20140516160749) do
     t.datetime "updated_at",                  :null => false
     t.integer  "ordinal",     :default => 0,  :null => false
     t.datetime "disabled_at"
+  end
+
+  create_table "direct_calls", :id => false, :force => true do |t|
+    t.datetime "created_at",                   :null => false
+    t.datetime "claimed_at"
+    t.integer  "transferred_to_phone_call_id"
   end
 
   create_table "emergency_contacts", :force => true do |t|
@@ -337,6 +381,39 @@ ActiveRecord::Schema.define(:version => 20140516160749) do
     t.string   "mvalue",     :null => false
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "nurse_call_times", :id => false, :force => true do |t|
+    t.integer "call_time", :limit => 8
+  end
+
+  create_table "nurse_calls", :id => false, :force => true do |t|
+    t.integer  "id",                      :default => 0, :null => false
+    t.string   "title"
+    t.text     "description"
+    t.integer  "role_id"
+    t.integer  "owner_id"
+    t.integer  "member_id"
+    t.integer  "subject_id"
+    t.integer  "assignor_id"
+    t.integer  "consult_id"
+    t.integer  "phone_call_id"
+    t.integer  "scheduled_phone_call_id"
+    t.integer  "message_id"
+    t.integer  "phone_call_summary_id"
+    t.datetime "due_at"
+    t.datetime "assigned_at"
+    t.datetime "started_at"
+    t.datetime "claimed_at"
+    t.datetime "completed_at"
+    t.datetime "created_at",                             :null => false
+    t.datetime "updated_at",                             :null => false
+    t.integer  "creator_id"
+    t.string   "state"
+    t.integer  "abandoner_id"
+    t.datetime "abandoned_at"
+    t.string   "reason_abandoned"
+    t.string   "type"
   end
 
   create_table "nurseline_records", :force => true do |t|
@@ -613,6 +690,40 @@ ActiveRecord::Schema.define(:version => 20140516160749) do
   add_index "tasks", ["state", "due_at", "created_at"], :name => "index_tasks_on_state_and_due_at_and_created_at"
   add_index "tasks", ["state"], :name => "index_tasks_on_state"
   add_index "tasks", ["type", "consult_id", "state"], :name => "index_tasks_on_type_and_consult_id_and_state"
+
+  create_table "transferred_calls", :id => false, :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "claimed_at"
+  end
+
+  create_table "transferred_from_calls", :id => false, :force => true do |t|
+    t.integer  "id",                           :default => 0,     :null => false
+    t.integer  "user_id"
+    t.datetime "created_at",                                      :null => false
+    t.datetime "updated_at",                                      :null => false
+    t.string   "origin_phone_number"
+    t.string   "destination_phone_number"
+    t.string   "state"
+    t.datetime "claimed_at"
+    t.datetime "ended_at"
+    t.integer  "claimer_id"
+    t.integer  "ender_id"
+    t.string   "identifier_token"
+    t.integer  "to_role_id"
+    t.integer  "dialer_id"
+    t.datetime "dialed_at"
+    t.integer  "resolver"
+    t.datetime "resolved_at"
+    t.string   "destination_twilio_sid"
+    t.string   "origin_twilio_sid"
+    t.integer  "transferred_to_phone_call_id"
+    t.datetime "missed_at"
+    t.string   "twilio_conference_name"
+    t.string   "origin_status"
+    t.string   "destination_status"
+    t.boolean  "outbound",                     :default => false, :null => false
+    t.integer  "merged_into_phone_call_id"
+  end
 
   create_table "treatment_side_effects", :force => true do |t|
     t.integer  "treatment_id"
