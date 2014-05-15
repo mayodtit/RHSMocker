@@ -3,4 +3,4 @@
     .logo= image_tag 'logo@2x.png'
   .main
     .container
-      .field.content.no-bottom-border= @agreement.text
+      .field.no-bottom-border= @agreement.text.gsub("\n",'<br>').html_safe
