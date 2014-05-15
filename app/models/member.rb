@@ -34,6 +34,7 @@ class Member < User
   has_one :owned_subscription, class_name: 'Subscription', foreign_key: :owner_id
   has_one :subscription_user, foreign_key: :user_id
   has_one :shared_subscription, through: :subscription_user, class_name: 'Subscription', source: :subscription
+  has_many :tasks, class_name: 'MemberTask'
 
   belongs_to :onboarding_group, inverse_of: :users
 
