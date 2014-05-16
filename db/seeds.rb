@@ -216,16 +216,10 @@ Condition.find_or_create_by_name(:name=>"Frontotemporal dementia",:snomed_name=>
 Condition.find_or_create_by_name(:name=>"Ulcerative colitis",:snomed_name=>"Ulcerative colitis",:snomed_code=>"64766004")
 Condition.find_or_create_by_name(:name=>"Kidney Stone",:snomed_name=>"Kidney Stone (disorder)",:snomed_code=>"839752010")
 Condition.find_or_create_by_name(:name=>"Glaucoma",:snomed_name=>"Glaucoma (disorder)",:snomed_code=>"753570014")
-
 Condition.find_or_create_by_name(:name=>"Graves' disease",:snomed_name=>"Graves' disease (disorder)",:snomed_code=>"726751012")
 Condition.find_or_create_by_name(:name=>"Graves disease",:snomed_name=>"Graves' disease (disorder)",:snomed_code=>"726751012")
 Condition.find_or_create_by_name(:name=>"Juvenile Graves' disease",:snomed_name=>"Juvenile Graves' disease (disorder)",:snomed_code=>"626606018")
 Condition.find_or_create_by_name(:name=>"Juvenile Graves disease",:snomed_name=>"Juvenile Graves' disease (disorder)",:snomed_code=>"626606018")
-
-Condition.find_or_create_by_name(:name=>"Glaucoma",:snomed_name=>"Glaucoma (disorder)",:snomed_code=>"753570014")
-Condition.find_or_create_by_name(:name=>"Glaucoma",:snomed_name=>"Glaucoma (disorder)",:snomed_code=>"753570014")
-
-
 Condition.find_or_create_by_name(:name=>"Pregnant",:snomed_name=>"Patient currently pregnant (finding)",:snomed_code=>"818210015")
 Condition.find_or_create_by_name(:name=>"Rheumatoid arthritis",:snomed_name=>"Rheumatoid arthritis (disorder)",:snomed_code=>"809891012")
 Condition.find_or_create_by_name(:name=>"Rheumatoid arthritis of shoulder",:snomed_name=>"Rheumatoid arthritis of shoulder (disorder)",:snomed_code=>"586674011")
@@ -238,8 +232,6 @@ Condition.find_or_create_by_name(:name=>"SjÃ¶gren's syndrome",:snomed_name=>"SjÃ
 Condition.find_or_create_by_name(:name=>"Upper respiratory infection",:snomed_name=>"Upper respiratory infection",:snomed_code=>"54150009")
 Condition.find_or_create_by_name(:name=>"Urinary tract infectious disease",:snomed_name=>"Urinary tract infectious disease",:snomed_code=>"68566005")
 Condition.find_or_create_by_name(:name=>"Vascular dementia",:snomed_name=>"Vascular dementia",:snomed_code=>"429998004")
-
-
 
 #Treatment.create!(:name=>"",:snomed_name=>"",:snomed_code=>"")
 Treatment::Tests.find_or_create_by_name(:name=>"Adult health examination", :snomed_name=>"Adult health examination",:snomed_code=>"268565007")
