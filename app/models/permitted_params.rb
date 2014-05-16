@@ -57,6 +57,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
         attributes << {emergency_contact_attributes: emergency_contact_attributes}
       end
 
+      if current_user && current_user.admin?
+        attributes.concat(%i(is_premium, free_trial_ends_at))
+      end
+
       if current_user
         attributes << {address_attributes: address_attributes}
       end
