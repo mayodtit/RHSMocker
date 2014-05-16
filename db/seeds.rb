@@ -78,7 +78,7 @@ husband = AssociationType.find_or_create_by_name(:name=>"Husband", :gender=>"mal
 husband.update_attribute :gender, "male"
 
 AssociationType.find_or_create_by_name(:name=> 'Spouse', :gender=>nil, :relationship_type=> 'family')
-AssociationType.find_or_create_by_name(:name=> 'Other Family Member', :gender=>nil, :relationship_type=> 'family')
+AssociationType.find_or_create_by_name(:name=> 'Family Member', :gender=>nil, :relationship_type=> 'family')
 
 AssociationType.find_or_create_by_name(:name=>"Primary Physician", :relationship_type=>"hcp")
 AssociationType.find_or_create_by_name(:name=>"Nurse", :relationship_type=>"hcp")
@@ -89,8 +89,8 @@ AssociationType.find_or_create_by_name(:name=>"Lifestyle Coach", :relationship_t
 AssociationType.find_or_create_by_name(:name=>"Nutritionist", :relationship_type=>"hcp")
 AssociationType.find_or_create_by_name(:name=>"Specialist", :relationship_type=>"hcp")
 AssociationType.find_or_create_by_name(:name=>"Care Provider", :relationship_type=>"hcp")
-AssociationType.find_or_create_by_name(:name=>"Personal Health Assistant", :relationship_type=>"hcp")
 AssociationType.find_or_create_by_name(:name=>"Physical Therapist", :relationship_type=>"hcp")
+AssociationType.find_or_create_by_name(:name=>"Dentist", :relationship_type=>"hcp")
 
 #Allergy.create!(:name=>"",:snomed_name=>"",:snomed_code=>"",:food_allergen=>"",:environment_allergen=>"",:medication_allergen=>"")
 Allergy.find_or_create_by_name(:name=>"Alcohol",:snomed_name=>"Alcohol products allergy",:snomed_code=>"294420000",:food_allergen=>"true",:environment_allergen=>"false",:medication_allergen=>"false")

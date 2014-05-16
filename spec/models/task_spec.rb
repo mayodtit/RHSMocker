@@ -306,6 +306,25 @@ describe Task do
     end
   end
 
+  describe 'unassigned_and_owned' do
+    let!(:pha) { create :pha }
+    let!(:other_pha) { create :pha }
+    let!(:task_1) { create :member_task, :assigned, owner: pha }
+    let!(:task_2) { create :member_task }
+    let!(:task_3) { create :member_task }
+    let!(:task_4) { create :member_task, :started, owner: pha }
+    let!(:task_5) { create :member_task, :assigned, owner: other_pha }
+
+    it 'returns unassigned and owned tasks' do
+      tasks = Task.unassigned_and_owned(pha)
+      tasks.should be_include(task_1)
+      tasks.should be_include(task_2)
+      tasks.should be_include(task_3)
+      tasks.should be_include(task_4)
+      tasks.should_not be_include(task_5)
+    end
+  end
+
   describe 'states' do
     let(:task) { build :task }
     let(:pha) { build_stubbed :pha }

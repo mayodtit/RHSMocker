@@ -148,7 +148,8 @@ RHSMocker::Application.routes.draw do
         get 'members', :on => :member
       end
       resources :tasks, only: [:index, :show, :update] do
-        get 'current', :on => :collection
+        get 'queue', on: :collection
+        get 'current', on: :collection
       end
       resources :metrics, only: [:index] do
         get :inbound, on: :collection

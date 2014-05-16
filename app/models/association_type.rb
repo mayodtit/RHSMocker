@@ -21,7 +21,7 @@ class AssociationType < ActiveRecord::Base
   end
 
   def self.family_default_id
-    find_by_name('Other Family Member').try(:id)
+    find_by_name('Family Member').try(:id)
   end
 
   def self.hcp_default_id
