@@ -217,6 +217,8 @@ Condition.find_or_create_by_name(:name=>"Lewy body dementia",:snomed_name=>"Seni
 Condition.find_or_create_by_name(:name=>"Frontotemporal dementia",:snomed_name=>"Frontotemporal dementia",:snomed_code=>"230270009")
 Condition.find_or_create_by_name(:name=>"Crohn's disease",:snomed_name=>"Crohn's disease",:snomed_code=>"34000006")
 Condition.find_or_create_by_name(:name=>"Ulcerative colitis",:snomed_name=>"Ulcerative colitis",:snomed_code=>"64766004")
+Condition.find_or_create_by_name(:name=>"Kidney Stone",:snomed_name=>"Kidney Stone (disorder)",:snomed_code=>"839752010")
+Condition.find_or_create_by_name(:name=>"Glaucoma",:snomed_name=>"Glaucoma (disorder)",:snomed_code=>"753570014")
 
 #Treatment.create!(:name=>"",:snomed_name=>"",:snomed_code=>"")
 Treatment::Tests.find_or_create_by_name(:name=>"Adult health examination", :snomed_name=>"Adult health examination",:snomed_code=>"268565007")
