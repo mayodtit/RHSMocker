@@ -46,7 +46,7 @@ resource "Member Tasks" do
         explanation 'Get all tasks for a member (optionally filter by subject and state)'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        response[:tasks].to_json.should == [unassigned_task, assigned_task, abandoned_task].serializer.to_json
+        expect(response[:tasks].map{|t| t[:id]}).to include(unassigned_task.id, assigned_task.id, abandoned_task.id)
       end
     end
   end
