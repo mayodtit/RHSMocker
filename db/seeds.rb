@@ -89,7 +89,6 @@ AssociationType.find_or_create_by_name(:name=>"Lifestyle Coach", :relationship_t
 AssociationType.find_or_create_by_name(:name=>"Nutritionist", :relationship_type=>"hcp")
 AssociationType.find_or_create_by_name(:name=>"Specialist", :relationship_type=>"hcp")
 AssociationType.find_or_create_by_name(:name=>"Care Provider", :relationship_type=>"hcp")
-AssociationType.find_or_create_by_name(:name=>"Personal Health Assistant", :relationship_type=>"hcp")
 AssociationType.find_or_create_by_name(:name=>"Physical Therapist", :relationship_type=>"hcp")
 AssociationType.find_or_create_by_name(:name=>"Dentist", :relationship_type=>"hcp")
 
