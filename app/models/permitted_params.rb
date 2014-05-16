@@ -27,6 +27,13 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
                                        :to_role_id)
   end
 
+  def onboarding_group
+    params.require(:onboarding_group).permit(:name,
+                                             :premium,
+                                             :free_trial_days,
+                                             :absolute_free_trial_ends_at)
+  end
+
   private
 
   def user_params

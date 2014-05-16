@@ -63,6 +63,7 @@ RHSMocker::Application.routes.draw do
         put :update_current, on: :collection # TODO - this should be deprecated in general, client should know the ID
         resources :tasks, only: [:index, :create], controller: 'member_tasks'
       end
+      resources :onboarding_groups, only: %i(index show create update)
       resources :parsed_nurseline_records, only: :show
       post :password_resets, to: 'reset_password#create' # TODO - deprecated!
       resources :phone_call_summaries, :only => :show
