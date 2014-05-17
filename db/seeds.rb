@@ -211,6 +211,9 @@ Condition.find_or_create_by_name(:name=>"Crohn's disease",:snomed_name=>"Crohn's
 Condition.find_or_create_by_name(:name=>"Crohns disease",:snomed_name=>"Crohn's disease",:snomed_code=>"34000006")
 Condition.find_or_create_by_name(:name=>"Colitis (Ulcerative)",:snomed_name=>"Ulcerative colitis",:snomed_code=>"64766004")
 Condition.find_or_create_by_name(:name=>"Coronary arteriosclerosis",:snomed_name=>"Coronary arteriosclerosis",:snomed_code=>"53741008")
+Condition.find_or_create_by_name(:name=>"Cystic fibrosis",:snomed_name=>"Cystic fibrosis (disorder)",:snomed_code=>"574544017")
+Condition.find_or_create_by_name(:name=>"Cystic fibrosis of pancreas",:snomed_name=>"Cystic fibrosis of pancreas (disorder)",:snomed_code=>"624511014")
+Condition.find_or_create_by_name(:name=>"Cystic fibrosis of the lung",:snomed_name=>"Cystic fibrosis of the lung (disorder)",:snomed_code=>"828843013")
 Condition.find_or_create_by_name(:name=>"Depressive Disorder",:snomed_name=>"Depressive disorder",:snomed_code=>"35489007")
 Condition.find_or_create_by_name(:name=>"Diabetes",:snomed_name=>"Diabetes mellitus",:snomed_code=>"73211009")
 Condition.find_or_create_by_name(:name=>"Hypothyroidism",:snomed_name=>"Hypothyroidism",:snomed_code=>"40930008")
@@ -244,6 +247,26 @@ Condition.find_or_create_by_name(:name=>"Sjogren's syndrome",:snomed_name=>"Sjö
 Condition.find_or_create_by_name(:name=>"Upper respiratory infection",:snomed_name=>"Upper respiratory infection",:snomed_code=>"54150009")
 Condition.find_or_create_by_name(:name=>"Urinary tract infectious disease",:snomed_name=>"Urinary tract infectious disease",:snomed_code=>"68566005")
 Condition.find_or_create_by_name(:name=>"Vascular dementia",:snomed_name=>"Vascular dementia",:snomed_code=>"429998004")
+
+#Cancer Conditions
+Condition.find_or_create_by_name(:name=>"Colon Cancer",:snomed_name=>"Malignant tumor of colon (disorder)",:snomed_code=>"755227010")
+Condition.find_or_create_by_name(:name=>"Rectal Cancer",:snomed_name=>"Malignant tumor of rectum (disorder)",:snomed_code=>"755166011")
+Condition.find_or_create_by_name(:name=>"Breast Cancer",:snomed_name=>"Malignant tumor of breast (disorder)",:snomed_code=>"645787019")
+Condition.find_or_create_by_name(:name=>"Thyroid Cancer",:snomed_name=>"Malignant tumor of thyroid gland (disorder)",:snomed_code=>"755307011")
+Condition.find_or_create_by_name(:name=>"Prostate Cancer",:snomed_name=>"Malignant tumor of prostate (disorder)",:snomed_code=>"1766988013")
+Condition.find_or_create_by_name(:name=>"Pancreatic cancer",:snomed_name=>"Malignant tumor of pancreas (disorder)",:snomed_code=>"755240017")
+Condition.find_or_create_by_name(:name=>"Lung cancer",:snomed_name=>"Malignant tumor of lung (disorder)",:snomed_code=>"755174012")
+Condition.find_or_create_by_name(:name=>"Melanoma",:snomed_name=>"Malignant melanoma (disorder)",:snomed_code=>"1197537014")
+Condition.find_or_create_by_name(:name=>"Skin cancer",:snomed_name=>"Malignant melanoma (disorder)",:snomed_code=>"1197537014")
+Condition.find_or_create_by_name(:name=>"Kidney Cancer",:snomed_name=>"Malignant tumor of kidney (disorder)",:snomed_code=>"755351019")
+Condition.find_or_create_by_name(:name=>"Bladder Cancer",:snomed_name=>"Malignant tumor of urinary bladder (disorder)",:snomed_code=>"1767246018")
+Condition.find_or_create_by_name(:name=>"Leukemia",:snomed_name=>"Leukemia, disease (disorder)",:snomed_code=>"836815016")
+
+
+
+
+
+
 
 #Treatment.create!(:name=>"",:snomed_name=>"",:snomed_code=>"")
 Treatment::Tests.find_or_create_by_name(:name=>"Adult health examination", :snomed_name=>"Adult health examination",:snomed_code=>"268565007")
