@@ -240,6 +240,7 @@ Condition.find_or_create_by_name(:name=>"Rheumatoid arthritis of hip",:snomed_na
 Condition.find_or_create_by_name(:name=>"Rheumatoid arthritis of knee",:snomed_name=>"Rheumatoid arthritis of knee (disorder)",:snomed_code=>"586686014")
 Condition.find_or_create_by_name(:name=>"Rheumatoid arthritis of ankle",:snomed_name=>"Rheumatoid arthritis of ankle (disorder)",:snomed_code=>"586688010")
 Condition.find_or_create_by_name(:name=>"Sjögren's syndrome",:snomed_name=>"Sjögren's syndrome (disorder)",:snomed_code=>"825633012")
+Condition.find_or_create_by_name(:name=>"Sjogren's syndrome",:snomed_name=>"Sjögren's syndrome (disorder)",:snomed_code=>"825633012")
 Condition.find_or_create_by_name(:name=>"Upper respiratory infection",:snomed_name=>"Upper respiratory infection",:snomed_code=>"54150009")
 Condition.find_or_create_by_name(:name=>"Urinary tract infectious disease",:snomed_name=>"Urinary tract infectious disease",:snomed_code=>"68566005")
 Condition.find_or_create_by_name(:name=>"Vascular dementia",:snomed_name=>"Vascular dementia",:snomed_code=>"429998004")
