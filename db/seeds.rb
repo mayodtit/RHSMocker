@@ -192,6 +192,13 @@ Allergy.find_or_create_by_name(:name=>"Wheat",:snomed_name=>"Wheat allergy",:sno
 Allergy.find_or_create_by_name(:name=>"Wool",:snomed_name=>"Wool allergy",:snomed_code=>"425605001",:food_allergen=>"false",:environment_allergen=>"true",:medication_allergen=>"false")
 Allergy.find_or_create_by_name(:name=>"Zinc",:snomed_name=>"Zinc allergy",:snomed_code=>"294950002",:food_allergen=>"false",:environment_allergen=>"true",:medication_allergen=>"false")
 
+#Meds
+Allergy.find_or_create_by_name(:name=>"Penicillin",:snomed_name=>"Allergy to penicillin (disorder)",:snomed_code=>"835354015",:food_allergen=>"false",:environment_allergen=>"false",:medication_allergen=>"true")
+Allergy.find_or_create_by_name(:name=>"Insulin",:snomed_name=>"Insulin allergy (disorder)",:snomed_code=>"689744011",:food_allergen=>"false",:environment_allergen=>"false",:medication_allergen=>"true")
+Allergy.find_or_create_by_name(:name=>"Sulfonamides",:snomed_name=>"Allergy to sulfonamides (disorder)",:snomed_code=>"689744011",:food_allergen=>"false",:environment_allergen=>"false",:medication_allergen=>"true")
+Allergy.find_or_create_by_name(:name=>"Sulfa drugs",:snomed_name=>"Allergy to sulfa drugs",:snomed_code=>"152311016",:food_allergen=>"false",:environment_allergen=>"false",:medication_allergen=>"true")
+Allergy.find_or_create_by_name(:name=>"Sulpha drugs",:snomed_name=>"Allergy to sulpha drugs",:snomed_code=>"509774017",:food_allergen=>"false",:environment_allergen=>"false",:medication_allergen=>"true")
+
 
 
 #Condition.create!(:name=>"",:snomed_name=>"",:snomed_code=>"")
