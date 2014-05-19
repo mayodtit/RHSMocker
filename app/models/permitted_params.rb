@@ -27,6 +27,13 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
                                        :to_role_id)
   end
 
+  def onboarding_group
+    params.require(:onboarding_group).permit(:name,
+                                             :premium,
+                                             :free_trial_days,
+                                             :absolute_free_trial_ends_at)
+  end
+
   private
 
   def user_params
@@ -48,6 +55,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
         attributes << {insurance_policy_attributes: insurance_policy_attributes}
         attributes << {provider_attributes: provider_attributes}
         attributes << {emergency_contact_attributes: emergency_contact_attributes}
+      end
+
+      if current_user && current_user.admin?
+        attributes.concat(%i(is_premium, free_trial_ends_at))
       end
 
       if current_user

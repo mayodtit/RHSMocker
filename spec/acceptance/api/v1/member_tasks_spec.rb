@@ -14,12 +14,12 @@ resource "Member Tasks" do
   let!(:another_task) { create :task }
   let!(:one_more_task) { create :task }
 
-  let!(:unassigned_task) { create(:member_task, member: member, subject: relative) }
-  let!(:assigned_task) { create(:member_task, :assigned, member: member, subject: relative) }
+  let!(:unassigned_task) { create(:member_task, member: member, subject: relative, due_at: 3.days.ago) }
+  let!(:assigned_task) { create(:member_task, :assigned, member: member, subject: relative, due_at: 2.days.ago) }
   let!(:started_task) { create(:member_task, :started, member: member) }
   let!(:claimed_task) { create(:member_task, :claimed, owner: pha, member: member) }
   let!(:completed_task) { create(:member_task, :completed, member: member) }
-  let!(:abandoned_task) { create(:member_task, :abandoned, member: member, subject: relative) }
+  let!(:abandoned_task) { create(:member_task, :abandoned, member: member, subject: relative, due_at: 1.days.ago) }
 
   let!(:other_assigned_task) { create(:member_task, :assigned, member: other_member) }
   let!(:other_unassigned_task) { create(:member_task, member: other_member) }

@@ -25,7 +25,13 @@ describe Api::V1::MemberTasksController do
       it 'returns tasks for member filtered by subject_id and state parameter' do
         member.should_receive(:tasks) do
           o = Object.new
-          o.should_receive(:where).with('subject_id' => '1', 'state' => 'unassigned') { tasks }
+          o.should_receive(:where).with('subject_id' => '1', 'state' => 'unassigned') do
+            o_o = Object.new
+            o_o.should_receive(:order).with('due_at, created_at ASC') do
+              tasks
+            end
+            o_o
+          end
           o
         end
 
@@ -37,7 +43,13 @@ describe Api::V1::MemberTasksController do
       it 'doesn\'t allow other query parameters' do
         member.should_receive(:tasks) do
           o = Object.new
-          o.should_receive(:where).with('subject_id' => '1', 'state' => 'unassigned') { tasks }
+          o.should_receive(:where).with('subject_id' => '1', 'state' => 'unassigned') do
+            o_o = Object.new
+            o_o.should_receive(:order).with('due_at, created_at ASC') do
+              tasks
+            end
+            o_o
+          end
           o
         end
 

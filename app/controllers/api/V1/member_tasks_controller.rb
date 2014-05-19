@@ -4,7 +4,8 @@ class Api::V1::MemberTasksController < Api::V1::ABaseController
 
   def index
     authorize! :read, Task
-    index_resource @member.tasks.where(params.permit(:subject_id, :state)).serializer, name: :tasks
+    tasks = @member.tasks.where(params.permit(:subject_id, :state)).order('due_at, created_at ASC')
+    index_resource tasks.serializer, name: :tasks
   end
 
   def create
