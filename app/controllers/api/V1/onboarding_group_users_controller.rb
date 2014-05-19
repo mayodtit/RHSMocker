@@ -4,7 +4,7 @@ class Api::V1::OnboardingGroupUsersController < Api::V1::ABaseController
   before_filter :load_user!, only: :destroy
 
   def index
-    index_resource @users, name: :users
+    index_resource @users.serializer, name: :users
   end
 
   def create
