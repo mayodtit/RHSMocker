@@ -12,8 +12,7 @@ class MemberSerializer < ActiveModel::Serializer
              :pha_id, :pha_profile_bio_image_url, :pha_profile_url,
              :show_welcome_call, :pha_full_name, :last_contact_at,
              :has_master_consult, :subscription_end_date, :subscription_ends_at,
-             :invitation_url, :onboarding_group_name
-  has_many :feature_groups
+             :invitation_url
 
   def attributes
     if options[:shallow]
@@ -46,6 +45,11 @@ class MemberSerializer < ActiveModel::Serializer
                             insurance_policy: object.insurance_policy,
                             provider: object.provider,
                             emergency_contact: object.emergency_contact.try(:serializer).try(:as_json))
+        end
+
+        if options[:include_admin_information]
+          attributes.merge!(feature_groups: object.feature_groups,
+                            onboarding_group_name: onboarding_group_name)
         end
       end
     end
