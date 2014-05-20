@@ -58,7 +58,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
       end
 
       if current_user && current_user.admin?
-        attributes.concat(%i(is_premium, free_trial_ends_at))
+        attributes.concat(%i(is_premium free_trial_ends_at))
       end
 
       if current_user
