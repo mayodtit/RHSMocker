@@ -63,17 +63,6 @@ describe PermittedParams do
         expect(permitted_params.user).to_not have_key(:waitlist_entry)
       end
     end
-
-    context 'as an admin' do
-      let(:permitted_params) { described_class.new(params, create(:admin)) }
-
-      it 'includes restricted attributes' do
-        expect(permitted_params.user).to have_key(:user_information_attributes)
-        expect(permitted_params.user).to have_key(:address_attributes)
-        expect(permitted_params.user).to have_key(:insurance_policy_attributes)
-        expect(permitted_params.user).to have_key(:provider_attributes)
-      end
-    end
   end
 
   describe '#secure_user' do

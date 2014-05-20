@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140516160749) do
+ActiveRecord::Schema.define(:version => 20140519235840) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -516,6 +516,14 @@ ActiveRecord::Schema.define(:version => 20140516160749) do
   add_index "scheduled_phone_calls", ["state", "scheduled_at"], :name => "index_scheduled_phone_calls_on_state_and_scheduled_at"
   add_index "scheduled_phone_calls", ["state"], :name => "index_scheduled_phone_calls_on_state"
 
+  create_table "service_types", :force => true do |t|
+    t.string   "name",       :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "service_types", ["name"], :name => "index_service_types_on_name", :unique => true
+
   create_table "side_effects", :force => true do |t|
     t.string   "name",        :null => false
     t.string   "description"
@@ -607,6 +615,7 @@ ActiveRecord::Schema.define(:version => 20140516160749) do
     t.string   "reason_abandoned"
     t.string   "type"
     t.integer  "parsed_nurseline_record_id"
+    t.integer  "service_type_id"
   end
 
   add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"

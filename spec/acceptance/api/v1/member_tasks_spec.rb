@@ -5,6 +5,8 @@ resource "Member Tasks" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
+  let!(:service_type) { create :service_type }
+
   let!(:member) { create :member }
   let!(:relative) { create :user }
   let!(:other_member) { create :member }
@@ -62,9 +64,10 @@ resource "Member Tasks" do
     parameter :due_at, 'When this task is due'
     parameter :state_event, 'Event to perform on the task (only \'assign\')'
     parameter :owner_id, 'The id of the owner of this task'
+    parameter :service_type_id, 'The service type of the task'
 
     required_parameters :auth_token, :member_id, :subject_id, :title, :description, :due_at
-    scope_parameters :task, [:subject_id, :title, :description, :due_at, :state_event, :owner_id]
+    scope_parameters :task, [:subject_id, :title, :description, :due_at, :state_event, :owner_id, :service_type_id]
 
     let(:auth_token) { pha.auth_token }
     let(:member_id) { other_member.id }
@@ -74,6 +77,7 @@ resource "Member Tasks" do
     let(:due_at) { task_due_at }
     let(:state_event) { 'assign' }
     let(:owner_id) { other_pha.id }
+    let(:service_type_id) { service_type.id }
 
     let(:raw_post) { params.to_json }
 
@@ -91,6 +95,7 @@ resource "Member Tasks" do
         task.due_at.to_s.should == task_due_at.to_s
         task.state.should == 'assigned'
         task.owner.should == other_pha
+        task.service_type.should == service_type
       end
     end
   end
