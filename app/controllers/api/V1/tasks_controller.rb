@@ -54,6 +54,6 @@ class Api::V1::TasksController < Api::V1::ABaseController
   end
 
   def task_attributes
-    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason_abandoned, :member_id, :subject_id)
+    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason_abandoned, :member_id, :subject_id, :service_type_id)
   end
 end

@@ -14,6 +14,7 @@ describe Task do
     it_validates 'presence of', :creator_id
     it_validates 'foreign key of', :owner
     it_validates 'foreign key of', :role
+    it_validates 'foreign key of', :service_type
 
     describe '#one_claimed_per_owner' do
       let(:claimed_task) { build_stubbed :task, :claimed }
