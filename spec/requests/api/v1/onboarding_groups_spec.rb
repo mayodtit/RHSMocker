@@ -15,7 +15,7 @@ describe 'OnboardingGroups' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:onboarding_groups].to_json).to eq([onboarding_group].as_json.to_json)
+        expect(body[:onboarding_groups].to_json).to eq([onboarding_group].serializer.as_json.to_json)
       end
     end
 
@@ -28,7 +28,7 @@ describe 'OnboardingGroups' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:onboarding_group].to_json).to eq(onboarding_group.as_json.to_json)
+        expect(body[:onboarding_group].to_json).to eq(onboarding_group.serializer.as_json.to_json)
       end
     end
 
@@ -44,7 +44,7 @@ describe 'OnboardingGroups' do
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
         expect(onboarding_group.reload.name).to eq(new_name)
-        expect(body[:onboarding_group].to_json).to eq(onboarding_group.as_json.to_json)
+        expect(body[:onboarding_group].to_json).to eq(onboarding_group.serializer.as_json.to_json)
       end
     end
   end

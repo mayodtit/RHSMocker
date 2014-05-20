@@ -3,11 +3,11 @@ class Api::V1::OnboardingGroupsController < Api::V1::ABaseController
   before_filter :load_onboarding_group!, only: %i(show update)
 
   def index
-    index_resource @onboarding_groups
+    index_resource @onboarding_groups.serializer
   end
 
   def show
-    show_resource @onboarding_group
+    show_resource @onboarding_group.serializer
   end
 
   def create
