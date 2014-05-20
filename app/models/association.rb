@@ -32,6 +32,7 @@ class Association < ActiveRecord::Base
 
   validates :user, :associate, :creator, :permission, presence: true
   validates :associate_id, uniqueness: {scope: [:user_id, :association_type_id]}
+  validates :association_type, presence: true, if: ->(a){a.association_type_id}
   validates :replacement, presence: true, if: lambda{|a| a.replacement_id}
   validates :pair, presence: true, if: lambda{|a| a.pair_id}
   validates :parent, presence: true, if: lambda{|a| a.parent_id}

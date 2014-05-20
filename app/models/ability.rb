@@ -112,6 +112,7 @@ class Ability
       can :manage, Member # Should be :ru, but needed so nurses can view associations
       can :index, Message
       can :read, Role
+      can :read, ServiceType
     end
   end
 end

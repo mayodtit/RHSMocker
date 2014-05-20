@@ -1,0 +1,6 @@
+.invites
+  .header
+    .logo= image_tag 'logo@2x.png'
+  .main
+    .container
+      .field.no-bottom-border= @agreement.text.gsub("\n",'<br>').html_safe

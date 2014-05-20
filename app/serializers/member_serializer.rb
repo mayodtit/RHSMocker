@@ -11,7 +11,8 @@ class MemberSerializer < ActiveModel::Serializer
              :sharing_prohibited, :owner_id, :is_premium, :free_trial_ends_at,
              :pha_id, :pha_profile_bio_image_url, :pha_profile_url,
              :show_welcome_call, :pha_full_name, :last_contact_at,
-             :has_master_consult, :subscription_end_date, :subscription_ends_at
+             :has_master_consult, :subscription_end_date, :subscription_ends_at,
+             :invitation_url
 
   def attributes
     if options[:shallow]
@@ -44,6 +45,11 @@ class MemberSerializer < ActiveModel::Serializer
                             insurance_policy: object.insurance_policy,
                             provider: object.provider,
                             emergency_contact: object.emergency_contact.try(:serializer).try(:as_json))
+        end
+
+        if options[:include_admin_information]
+          attributes.merge!(feature_groups: object.feature_groups,
+                            onboarding_group_name: onboarding_group_name)
         end
       end
     end
@@ -100,5 +106,13 @@ class MemberSerializer < ActiveModel::Serializer
 
   def subscription_end_date
     free_trial_ends_at
+  end
+
+  def invitation_url
+    invite_url(object.invitation_token) if object.invitation_token
+  end
+
+  def onboarding_group_name
+    object.onboarding_group.try(:name)
   end
 end

@@ -34,6 +34,7 @@ class Member < User
   has_one :owned_subscription, class_name: 'Subscription', foreign_key: :owner_id
   has_one :subscription_user, foreign_key: :user_id
   has_one :shared_subscription, through: :subscription_user, class_name: 'Subscription', source: :subscription
+  has_many :tasks, class_name: 'MemberTask'
 
   belongs_to :onboarding_group, inverse_of: :users
 
@@ -108,11 +109,11 @@ class Member < User
   end
 
   def pha?
-    has_role?(:pha) || has_role?(:pha_lead) || has_role?(:admin)
+    has_role?(:pha) || has_role?(:pha_lead)
   end
 
   def pha_lead?
-    has_role?(:pha_lead) || has_role?(:admin)
+    has_role?(:pha_lead)
   end
 
   def care_provider?

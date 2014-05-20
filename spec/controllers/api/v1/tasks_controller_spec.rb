@@ -55,7 +55,37 @@ describe Api::V1::TasksController do
           end
           o
         end
-        get :index, auth_token: user.auth_token, state: 'unassigned'
+        get :index, auth_token: user.auth_token, state: 'unassigned', due_at: 3.days.ago
+      end
+    end
+  end
+
+  describe 'GET queue' do
+    def do_request
+      get :queue, auth_token: user.auth_token
+    end
+
+    it_behaves_like 'action requiring authentication and authorization'
+
+    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
+      let(:tasks) { [build_stubbed(:task), build_stubbed(:task)] }
+
+      it_behaves_like 'success'
+
+      it 'returns tasks for the current hcp' do
+        Task.should_receive(:unassigned_and_owned).with(user) do
+          o = Object.new
+          o.should_receive(:order).with('due_at, created_at ASC') do
+            o_o = Object.new
+            o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
+            o_o
+          end
+          o
+        end
+
+        do_request
+        body = JSON.parse(response.body, symbolize_names: true)
+        body[:tasks].to_json.should == tasks.serializer.as_json.to_json
       end
     end
   end

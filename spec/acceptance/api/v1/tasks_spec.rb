@@ -42,6 +42,26 @@ resource "Tasks" do
     end
   end
 
+  describe 'queue' do
+    let!(:assigned_task) { create(:task, :assigned, owner: pha, due_at: 3.days.ago) }
+    let!(:started_task) { create(:task, :started, owner: pha, due_at: 2.days.ago) }
+
+    parameter :auth_token, 'Performing hcp\'s auth_token'
+
+    required_parameters :auth_token
+
+    let(:auth_token) { pha.auth_token }
+
+    get '/api/v1/tasks/queue' do
+      example_request '[GET] Get the tasks queue for the current user' do
+        explanation 'Get the task queue for the current user. Accessible only by HCPs'
+        status.should == 200
+        response = JSON.parse response_body, symbolize_names: true
+        response[:tasks].to_json.should == [assigned_task, started_task, task, another_task, one_more_task].serializer.to_json
+      end
+    end
+  end
+
   describe 'task' do
     parameter :auth_token, 'Performing hcp\'s auth_token'
     parameter :id, 'Task id'

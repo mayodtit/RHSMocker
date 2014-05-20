@@ -1,4 +1,5 @@
 RHSMocker::Application.routes.draw do
+
   root to: 'home#index'
 
   namespace :api do
@@ -60,6 +61,10 @@ RHSMocker::Application.routes.draw do
         get :current, on: :collection
         put :secure_update, on: :member
         put :update_current, on: :collection # TODO - this should be deprecated in general, client should know the ID
+        resources :tasks, only: [:index, :create], controller: 'member_tasks'
+      end
+      resources :onboarding_groups, only: %i(index show create update) do
+        resources :users, only: %i(index create destroy), controller: 'onboarding_group_users'
       end
       resources :parsed_nurseline_records, only: :show
       post :password_resets, to: 'reset_password#create' # TODO - deprecated!
@@ -146,15 +151,20 @@ RHSMocker::Application.routes.draw do
         get 'members', :on => :member
       end
       resources :tasks, only: [:index, :show, :update] do
-        get 'current', :on => :collection
+        get 'queue', on: :collection
+        get 'current', on: :collection
       end
       resources :metrics, only: [:index] do
         get :inbound, on: :collection
         get :inbound_by_week, on: :collection
       end
+      resources :service_types, only: [:index]
     end
   end
 
+  resources :agreements, only: [] do
+    get :current, on: :collection
+  end
   resources :call_metrics, only: :index # TODO: temporary for call metrics
   resources :cards, :only => :show # TODO: used for debugging - remove route and controller before app becomes public
   resources :contents, :only => [:index, :show] do
