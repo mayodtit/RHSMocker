@@ -46,7 +46,7 @@ resource "Roles" do
         explanation 'Given all members by role (which is specified by name). Accessible only by PHA leads.'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        response[:members].to_json.should == [user, pha_lead].as_json.to_json
+        response[:members].to_json.should == [user, pha_lead].serializer.as_json.to_json
       end
     end
   end

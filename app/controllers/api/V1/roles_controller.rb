@@ -13,7 +13,7 @@ class Api::V1::RolesController < Api::V1::ABaseController
 
     members_with_role = @role.users.members
 
-    index_resource members_with_role, name: 'members'
+    index_resource members_with_role.serializer, name: 'members'
   end
 
   private
