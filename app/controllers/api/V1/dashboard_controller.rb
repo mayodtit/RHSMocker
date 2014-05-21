@@ -22,9 +22,7 @@ class Api::V1::DashboardController < Api::V1::ABaseController
       end
     end
 
-    respond_to do |format|
-      format.csv { send_data @data }
-    end
+    respond_to { |format| format.csv { send_data @data } }
   end
 
   def onboarding_calls
@@ -38,9 +36,7 @@ class Api::V1::DashboardController < Api::V1::ABaseController
       end
     end
 
-    respond_to do |format|
-      format.csv { send_data @data }
-    end
+    respond_to { |format| format.csv { send_data @data } }
   end
 
   private
