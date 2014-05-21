@@ -4,27 +4,28 @@ class Api::V1::MetricsController < Api::V1::ABaseController
   def index
     items = [
       {
-        description: 'Member Data csv (previously on Care Portal admin page)',
-        url: onboarding_members_api_v1_dashboard_index_url
+        description: 'Member Data',
+        path: onboarding_members_api_v1_dashboard_index_path(format: :csv)
       },
       {
-        description: 'Onboarding Call Data csv (previously on Care Portal admin page)',
-        url: onboarding_calls_api_v1_dashboard_index_url
+        description: 'Onboarding Call Data',
+        path: onboarding_calls_api_v1_dashboard_index_path(format: :csv)
       },
       {
-        description: 'Inbound calls csv',
-        url: inbound_api_v1_metrics_url
+        description: 'Inbound calls',
+        path: inbound_api_v1_metrics_path(format: :csv)
       },
       {
-        description: 'Inbound calls by week csv',
-        url: inbound_by_week_api_v1_metrics_url
+        description: 'Inbound calls by week',
+        path: inbound_by_week_api_v1_metrics_path(format: :csv)
       },
       {
         description: 'List of emails of paying members',
-        url: paying_members_emails_api_v1_metrics_url
+        path: paying_members_emails_api_v1_metrics_path(format: :csv)
       }
     ]
-    render json: items, root: false
+
+    render_success(metrics: items)
   end
 
   def paying_members_emails
@@ -35,7 +36,7 @@ class Api::V1::MetricsController < Api::V1::ABaseController
       end
     end
 
-    send_data csv, type: 'text/csv', filename: 'paying_members_emails.csv'
+    respond_to { |format| format.csv { send_data csv } }
   end
 
   def inbound
@@ -48,7 +49,7 @@ class Api::V1::MetricsController < Api::V1::ABaseController
       c << ["Message", message_count]
     end
 
-    send_data csv, type: 'text/csv', filename: 'inbound.csv'
+    respond_to { |format| format.csv { send_data csv } }
   end
 
   def inbound_by_week
@@ -71,7 +72,7 @@ class Api::V1::MetricsController < Api::V1::ABaseController
       end
     end
 
-    send_data csv, type: 'text/csv', filename: 'inbound_by_week.csv'
+    respond_to { |format| format.csv { send_data csv } }
   end
 
   private
