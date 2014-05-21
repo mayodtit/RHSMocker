@@ -38,6 +38,8 @@ class User < ActiveRecord::Base
                                    foreign_key: :subject_id,
                                    dependent: :destroy
 
+  has_many :appointments
+
   accepts_nested_attributes_for :user_information
   accepts_nested_attributes_for :address
   accepts_nested_attributes_for :insurance_policy
