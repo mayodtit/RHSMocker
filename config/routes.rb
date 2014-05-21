@@ -157,6 +157,7 @@ RHSMocker::Application.routes.draw do
       resources :metrics, only: [:index] do
         get :inbound, on: :collection
         get :inbound_by_week, on: :collection
+        get :paying_members_emails, on: :collection
       end
       resources :service_types, only: [:index]
     end
