@@ -4,6 +4,7 @@ class TaskSerializer < ActiveModel::Serializer
   attributes :id, :title, :state, :description, :due_at, :type
 
   has_one :role
+  has_one :owner
 
   def type
     'task'
