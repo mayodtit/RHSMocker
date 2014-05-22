@@ -1,5 +1,6 @@
 class UserRequestTypeField < ActiveRecord::Base
   self.inheritance_column = nil
+  default_scope order(:ordinal)
 
   belongs_to :user_request_type
 
