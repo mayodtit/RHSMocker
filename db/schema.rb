@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140522062821) do
+ActiveRecord::Schema.define(:version => 20140522063127) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -727,6 +727,15 @@ ActiveRecord::Schema.define(:version => 20140522062821) do
     t.integer  "saved_count",     :default => 0, :null => false
     t.integer  "dismissed_count", :default => 0, :null => false
     t.integer  "shared_count",    :default => 0, :null => false
+  end
+
+  create_table "user_request_type_fields", :force => true do |t|
+    t.integer  "user_request_type_id"
+    t.string   "name"
+    t.string   "type"
+    t.integer  "ordinal"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
   end
 
   create_table "user_request_types", :force => true do |t|
