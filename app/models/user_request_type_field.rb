@@ -2,7 +2,7 @@ class UserRequestTypeField < ActiveRecord::Base
   self.inheritance_column = nil
   default_scope order(:ordinal)
 
-  belongs_to :user_request_type
+  belongs_to :user_request_type, inverse_of: :user_request_type_fields
 
   attr_accessible :user_request_type, :user_request_type_id, :name, :type,
                   :ordinal
