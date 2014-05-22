@@ -3,6 +3,7 @@ class Api::V1::UserRequestsController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_user_requests!
   before_filter :load_user_request!, only: %i(show update)
+  before_filter :convert_parameters!, only: :create
 
   def index
     render_success(@user_requests.serializer(root: :user_requests).as_json)
@@ -44,5 +45,11 @@ class Api::V1::UserRequestsController < Api::V1::ABaseController
                                          :subject_id,
                                          :name,
                                          :user_request_type_id)
+  end
+
+  def convert_parameters!
+    if request.env['PATH_INFO'].include?('appointment_request')
+      params.require(:user_request)[:user_request_type_id] = UserRequestType.appointment.try(:id)
+    end
   end
 end

@@ -5,4 +5,8 @@ class UserRequestType < ActiveRecord::Base
   attr_accessible :name
 
   validates :name, presence: true
+
+  def self.appointment
+    find_by_name(:appointment)
+  end
 end
