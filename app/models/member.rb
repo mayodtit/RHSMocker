@@ -38,6 +38,8 @@ class Member < User
 
   belongs_to :onboarding_group, inverse_of: :users
 
+  has_many :user_requests, foreign_key: :user_id
+
   accepts_nested_attributes_for :user_agreements
 
   attr_accessor :skip_agreement_validation
