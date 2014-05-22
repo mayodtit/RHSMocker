@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140519235840) do
+ActiveRecord::Schema.define(:version => 20140522063127) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -49,6 +49,14 @@ ActiveRecord::Schema.define(:version => 20140519235840) do
     t.datetime "disabled_at"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+  end
+
+  create_table "appointments", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "provider_id"
+    t.datetime "scheduled_at"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
   create_table "association_types", :force => true do |t|
@@ -719,6 +727,30 @@ ActiveRecord::Schema.define(:version => 20140519235840) do
     t.integer  "saved_count",     :default => 0, :null => false
     t.integer  "dismissed_count", :default => 0, :null => false
     t.integer  "shared_count",    :default => 0, :null => false
+  end
+
+  create_table "user_request_type_fields", :force => true do |t|
+    t.integer  "user_request_type_id"
+    t.string   "name"
+    t.string   "type"
+    t.integer  "ordinal"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+  end
+
+  create_table "user_request_types", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "user_requests", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "subject_id"
+    t.string   "name"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+    t.integer  "user_request_type_id"
   end
 
   create_table "user_roles", :force => true do |t|

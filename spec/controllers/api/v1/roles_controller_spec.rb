@@ -70,11 +70,9 @@ describe Api::V1::RolesController do
             o
           end
 
-          members.should_receive(:as_json)
-
           do_request
-
-          response.should be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          body[:members].to_json.should == members.serializer.as_json.to_json
         end
       end
     end
