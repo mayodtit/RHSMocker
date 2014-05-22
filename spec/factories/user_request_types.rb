@@ -7,5 +7,9 @@ FactoryGirl.define do
         urt.user_request_type_fields << build(:user_request_type_field, user_request_type: urt)
       end
     end
+
+    factory :appointment_user_request_type, class: UserRequestType do
+      name 'appointment'
+    end
   end
 end
