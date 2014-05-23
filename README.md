@@ -36,7 +36,7 @@ To add a new scheduled job:
 
 1. Add a new method in ScheduledJobs + corresponding specs
 2. Add a thin wrapper rake task in scheduled_jobs.rake
-3. Add the rake task to the appropriate cron files
+3. Add the rake task to the appropriate cron files (under the config directory)
 
 ### Health Care Provider (HCP) Taxonomy data
 
