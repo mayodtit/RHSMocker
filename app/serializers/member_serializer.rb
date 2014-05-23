@@ -12,7 +12,7 @@ class MemberSerializer < ActiveModel::Serializer
              :pha_id, :pha_profile_bio_image_url, :pha_profile_url,
              :show_welcome_call, :pha_full_name, :last_contact_at,
              :has_master_consult, :subscription_end_date, :subscription_ends_at,
-             :invitation_url, :signed_up_at
+             :invitation_url, :signed_up_at, :has_welcome_call
 
   def attributes
     if options[:shallow]
@@ -86,12 +86,15 @@ class MemberSerializer < ActiveModel::Serializer
   end
 
   def show_welcome_call
+    (has_welcome_call && object.scheduled_phone_calls.empty?) || false
+  end
 
-    # HACK - for A/B testing.  Remove later
-    f = FeatureGroup.find_by_name('Launch day A/B test - without onboarding calls')
-    return false if object.feature_groups.include?(f)
-
-    object.scheduled_phone_calls.empty? || false
+  def has_welcome_call
+    if object.feature_groups.find_by_name('Launch day A/B test - without onboarding calls')
+      false
+    else
+      true
+    end
   end
 
   # TODO - workaround for client issue, remove after client supports nil value
