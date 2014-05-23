@@ -21,9 +21,12 @@ class NurselineRecordParser
   end
 
   def find_attributes!
-    @phone_call = PhoneCall.find_by_identifier_token!(phone_call_identifier_token)
-    @user = @phone_call.user
-    @consult = @phone_call.consult
+    token = phone_call_identifier_token
+    if token && !token.to_i.zero?
+      @phone_call = PhoneCall.find_by_identifier_token!(token)
+      @user = @phone_call.user
+      @consult = @phone_call.consult
+    end
   end
 
   def phone_call_identifier_token
@@ -33,7 +36,7 @@ class NurselineRecordParser
         return delimited_text[i+1].strip
       end
     end
-    raise 'Unable to find phone_call_identifier_token'
+    nil
   end
 
   def create_parsed_nurseline_record!
