@@ -8,6 +8,7 @@ class MemberTask < Task
 
   validates :member, presence: true
   validates :subject, presence: true
+  validates :service_type, presence: true
 
   def publish
     super
