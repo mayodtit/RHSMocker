@@ -1,5 +1,5 @@
 class ServiceType < ActiveRecord::Base
-  BUCKETS = ['insurance', 'care coordination', 'engagement', 'wellness', 'other']
+  BUCKETS = ['care coordination', 'engagement', 'insurance', 'wellness', 'other']
   attr_accessible :name, :bucket
 
   validates :name, presence: true
