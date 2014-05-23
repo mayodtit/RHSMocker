@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140522063127) do
+ActiveRecord::Schema.define(:version => 20140522234646) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -528,8 +528,10 @@ ActiveRecord::Schema.define(:version => 20140522063127) do
     t.string   "name",       :null => false
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "bucket"
   end
 
+  add_index "service_types", ["bucket"], :name => "index_service_types_on_bucket"
   add_index "service_types", ["name"], :name => "index_service_types_on_name", :unique => true
 
   create_table "side_effects", :force => true do |t|

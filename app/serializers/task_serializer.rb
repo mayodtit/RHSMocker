@@ -5,6 +5,7 @@ class TaskSerializer < ActiveModel::Serializer
 
   has_one :role
   has_one :owner
+  has_one :service_type
 
   def type
     'task'

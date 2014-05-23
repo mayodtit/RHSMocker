@@ -6,6 +6,7 @@ describe MemberTask do
   describe 'validations' do
     it_validates 'foreign key of', :member
     it_validates 'foreign key of', :subject
+    it_validates 'foreign key of', :service_type
   end
 
   describe '#publish' do
