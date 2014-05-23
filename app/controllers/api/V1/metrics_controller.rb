@@ -22,10 +22,32 @@ class Api::V1::MetricsController < Api::V1::ABaseController
       {
         description: 'List of emails of paying members',
         path: paying_members_emails_api_v1_metrics_path(format: :csv)
+      },
+      {
+        description: 'List of all onboarding groups and their users',
+        path: all_onboarding_groups_and_members_api_v1_metrics_path(format: :csv)
       }
     ]
 
     render_success(metrics: items)
+  end
+
+  def all_onboarding_groups_and_members
+    csv = CSV.generate do |c|
+      c << ['Onboarding Group ID', 'Onboarding Group Name',
+            'User ID', 'User First Name', 'User Last Name',
+            'User Email', 'User Invitation URL', 'User Sign Up Time']
+      OnboardingGroup.all.each do |og|
+        og.users.each do |user|
+          c << [og.id, og.name, user.id, user.first_name,
+                user.last_name, user.email,
+                user.invitation_token.nil? ? nil : "http://api.getbetter.com/invites/#{user.invitation_token}",
+                user.signed_up_at]
+        end
+      end
+    end
+
+    respond_to { |format| format.csv { send_data csv } }
   end
 
   def paying_members_emails
