@@ -3,3 +3,4 @@
 #################################################
 
 20 12 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake about > log/cron.log 2>&1
+1 */4 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:unforce_phas_off_call > log/cron.log 2>&1

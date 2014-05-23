@@ -103,15 +103,8 @@ describe Metadata do
       end
 
       context 'value is true' do
-        it 'is false in production' do
+        it 'is true' do
           m = create(:metadata, mkey: 'force_phas_off_call', mvalue: 'true')
-          Rails.env.stub(:production?) { true }
-          Metadata.should_not be_force_phas_off_call
-        end
-
-        it 'is true otherwise' do
-          m = create(:metadata, mkey: 'force_phas_off_call', mvalue: 'true')
-          Rails.env.stub(:production?) { false }
           Metadata.should be_force_phas_off_call
         end
       end

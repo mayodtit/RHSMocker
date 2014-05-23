@@ -24,4 +24,49 @@ describe ScheduledJobs do
       u3.reload.free_trial_ends_at.should be_nil
     end
   end
+
+  describe '#unforce_phas_off_call' do
+    context 'metadata does not exist' do
+      it 'does nothing if phas are not forced off call' do
+        Metadata.any_instance.should_not_receive(:save!)
+        ScheduledJobs.unforce_phas_off_call()
+      end
+    end
+
+    context 'metadata exists' do
+      context 'its false' do
+        let!(:m) { Metadata.create mkey: :force_phas_off_call, mvalue: 'false' }
+
+        it 'does nothing if phas are not forced off call' do
+          Metadata.any_instance.should_not_receive(:save!)
+          ScheduledJobs.unforce_phas_off_call()
+        end
+      end
+
+      context 'its true' do
+        let!(:m) { Metadata.create mkey: :force_phas_off_call, mvalue: 'true' }
+
+        it 'does nothing' do
+          Metadata.any_instance.should_not_receive(:save!)
+          ScheduledJobs.unforce_phas_off_call()
+          m = Metadata.find_by_mkey(:force_phas_off_call)
+          m.should be_present
+          m.mvalue.should == 'true'
+        end
+
+        context 'was set to true yesterday' do
+          before do
+            Timecop.freeze(1.day.ago)
+          end
+
+          it 'sets it to false' do
+            ScheduledJobs.unforce_phas_off_call()
+            m = Metadata.find_by_mkey(:force_phas_off_call)
+            m.should be_present
+            m.mvalue.should == 'false'
+          end
+        end
+      end
+    end
+  end
 end

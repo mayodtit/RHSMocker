@@ -46,7 +46,7 @@ class Metadata < ActiveRecord::Base
   end
 
   def self.force_phas_off_call?
-    !Rails.env.production? && Metadata.find_by_mkey('force_phas_off_call').try(:mvalue) == 'true'
+    Metadata.find_by_mkey('force_phas_off_call').try(:mvalue) == 'true'
   end
 
   def self.enable_sharing?

@@ -16,4 +16,19 @@ class ScheduledJobs
       user.save!
     end
   end
+
+  # NOTE: Should run every hour to account for Daylight Savings.
+  def self.unforce_phas_off_call
+    m = Metadata.find_by_mkey('force_phas_off_call')
+
+    if m && m.mvalue == 'true'
+      now = Time.now.in_time_zone 'America/Los_Angeles'
+      set_at = m.updated_at.in_time_zone 'America/Los_Angeles'
+
+      if now.day() != set_at.day()
+        m.mvalue = 'false'
+        m.save!
+      end
+    end
+  end
 end
