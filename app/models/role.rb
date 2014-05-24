@@ -22,11 +22,27 @@ class Role < ActiveRecord::Base
     on_call
   end
 
+  def self.pha_lead
+    find_by_name! 'pha_lead'
+  end
+
   def self.pha
     find_by_name! 'pha'
   end
 
   def self.nurse
     find_by_name! 'nurse'
+  end
+
+  def self.pha_stakeholders
+    leads = Role.pha_lead.users.members
+
+    geoff = Member.find_by_email 'geoff@getbetter.com'
+    leads.push geoff if geoff
+
+    abhik = Member.find_by_email 'abhik@getbetter.com'
+    leads.push abhik if abhik
+
+    leads
   end
 end

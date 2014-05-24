@@ -69,4 +69,37 @@ describe Role do
       end
     end
   end
+
+  context '#pha_stakeholders' do
+    before do
+      @pha_lead = Role.find_or_create_by_name :pha_lead
+      Member.stub(:find_by_email)
+    end
+
+    it 'returns all leads' do
+      leads = [build_stubbed(:pha_lead), build_stubbed(:pha_lead)]
+      Role.should_receive(:pha_lead) do
+        o = Object.new
+        o.should_receive(:users) do
+          o_o = Object.new
+          o_o.should_receive(:members) { leads }
+          o_o
+        end
+        o
+      end
+      Role.pha_stakeholders.should == leads
+    end
+
+    it 'returns geoff if he has an account' do
+      geoff = build_stubbed :member
+      Member.stub(:find_by_email).with('geoff@getbetter.com') { geoff }
+      Role.pha_stakeholders.should == [geoff]
+    end
+
+    it 'returns abhik if he has an account' do
+      abhik = build_stubbed :member
+      Member.stub(:find_by_email).with('abhik@getbetter.com') { abhik }
+      Role.pha_stakeholders.should == [abhik]
+    end
+  end
 end
