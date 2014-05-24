@@ -1,6 +1,10 @@
 require 'spec_helper'
 
 describe Metadata do
+  before do
+    @pha_lead = Role.find_or_create_by_name :pha_lead
+  end
+
   it_has_a 'valid factory'
   it_validates 'presence of', :mkey
   it_validates 'presence of', :mvalue
@@ -103,16 +107,61 @@ describe Metadata do
       end
 
       context 'value is true' do
-        it 'is false in production' do
+        it 'is true' do
           m = create(:metadata, mkey: 'force_phas_off_call', mvalue: 'true')
-          Rails.env.stub(:production?) { true }
-          Metadata.should_not be_force_phas_off_call
+          Metadata.should be_force_phas_off_call
+        end
+      end
+    end
+  end
+
+  describe '#alert_stakeholders_when_phas_forced_off_call' do
+    let(:meta_data) { Metadata.new(mkey: 'force_phas_off_call', mvalue: 'true') }
+
+    context 'is called after' do
+      it 'create' do
+        meta_data.should_receive(:alert_stakeholders_when_phas_forced_off_call)
+        meta_data.save!
+      end
+
+      it 'update' do
+        meta_data.save!
+        meta_data.should_receive(:alert_stakeholders_when_phas_forced_off_call)
+        meta_data.save!
+      end
+    end
+
+    context 'mkey is not force_phas_off_call' do
+      before do
+        meta_data.stub(:mkey) { 'other' }
+      end
+
+      it 'does nothing' do
+        ScheduledJobs.should_not_receive(:alert_stakeholders_when_phas_forced_off_call)
+        meta_data.alert_stakeholders_when_phas_forced_off_call
+      end
+    end
+
+    context 'mkey is force_phas_off_call' do
+      context 'mvalue changed' do
+        before do
+          meta_data.stub(:mvalue_changed?) { true }
         end
 
-        it 'is true otherwise' do
-          m = create(:metadata, mkey: 'force_phas_off_call', mvalue: 'true')
-          Rails.env.stub(:production?) { false }
-          Metadata.should be_force_phas_off_call
+        it 'calls scheduled jobs' do
+          ScheduledJobs.should_receive(:alert_stakeholders_when_phas_forced_off_call)
+          meta_data.alert_stakeholders_when_phas_forced_off_call
+        end
+      end
+
+      context 'mvalue did not change' do
+        before do
+          meta_data.stub(:mvalue_changed?) { false }
+        end
+
+        it 'does nothing' do
+          ScheduledJobs.should_not_receive(:alert_stakeholders_when_phas_forced_off_call)
+          meta_data.alert_stakeholders_when_phas_forced_off_call
         end
       end
     end

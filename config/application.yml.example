@@ -19,6 +19,8 @@ development:
   APNS_PORT: 2195
   APNS_PEM_PATH: config/static/apns.pem
   APNS_PEM_PASSPHRASE: password
+  TWILIO_SID: AC6d4428ae25debbd4019f1ebe19c27f77
+  TWILIO_TOKEN: d198bff8b6329cd6110c6dc2fb58cd2b
 test:
   NOD_API_KEY: ukWpqVwGyS7Aq3USxYEK
   STRIPE_API_KEY: sk_test_sozodqhf3PL25boLKYlBWWzX
