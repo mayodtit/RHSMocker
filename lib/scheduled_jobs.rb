@@ -32,7 +32,7 @@ class ScheduledJobs
     end
   end
 
-  def self.alert_leads_when_phas_forced_off_call
+  def self.alert_stakeholders_when_phas_forced_off_call
     if Metadata.force_phas_off_call?
       body = "PHAs are currently forced after hours. This can be changed via the Care Portal."
       body = "#{Rails.env} - #{body}" unless Rails.env.production?

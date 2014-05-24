@@ -115,18 +115,18 @@ describe Metadata do
     end
   end
 
-  describe '#alert_leads_when_phas_forced_off_call' do
+  describe '#alert_stakeholders_when_phas_forced_off_call' do
     let(:meta_data) { Metadata.new(mkey: 'force_phas_off_call', mvalue: 'true') }
 
     context 'is called after' do
       it 'create' do
-        meta_data.should_receive(:alert_leads_when_phas_forced_off_call)
+        meta_data.should_receive(:alert_stakeholders_when_phas_forced_off_call)
         meta_data.save!
       end
 
       it 'update' do
         meta_data.save!
-        meta_data.should_receive(:alert_leads_when_phas_forced_off_call)
+        meta_data.should_receive(:alert_stakeholders_when_phas_forced_off_call)
         meta_data.save!
       end
     end
@@ -137,8 +137,8 @@ describe Metadata do
       end
 
       it 'does nothing' do
-        ScheduledJobs.should_not_receive(:alert_leads_when_phas_forced_off_call)
-        meta_data.alert_leads_when_phas_forced_off_call
+        ScheduledJobs.should_not_receive(:alert_stakeholders_when_phas_forced_off_call)
+        meta_data.alert_stakeholders_when_phas_forced_off_call
       end
     end
 
@@ -149,8 +149,8 @@ describe Metadata do
         end
 
         it 'calls scheduled jobs' do
-          ScheduledJobs.should_receive(:alert_leads_when_phas_forced_off_call)
-          meta_data.alert_leads_when_phas_forced_off_call
+          ScheduledJobs.should_receive(:alert_stakeholders_when_phas_forced_off_call)
+          meta_data.alert_stakeholders_when_phas_forced_off_call
         end
       end
 
@@ -160,8 +160,8 @@ describe Metadata do
         end
 
         it 'does nothing' do
-          ScheduledJobs.should_not_receive(:alert_leads_when_phas_forced_off_call)
-          meta_data.alert_leads_when_phas_forced_off_call
+          ScheduledJobs.should_not_receive(:alert_stakeholders_when_phas_forced_off_call)
+          meta_data.alert_stakeholders_when_phas_forced_off_call
         end
       end
     end

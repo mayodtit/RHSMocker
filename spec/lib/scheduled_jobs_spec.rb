@@ -70,7 +70,7 @@ describe ScheduledJobs do
     end
   end
 
-  describe '#alert_leads_when_phas_forced_off_call' do
+  describe '#alert_stakeholders_when_phas_forced_off_call' do
     let(:messages) { Object.new }
 
     before do
@@ -95,7 +95,7 @@ describe ScheduledJobs do
           to: PhoneNumberUtil::format_for_dialing('4083913578'),
           body: "test - PHAs are currently forced after hours. This can be changed via the Care Portal."
         )
-        ScheduledJobs.alert_leads_when_phas_forced_off_call
+        ScheduledJobs.alert_stakeholders_when_phas_forced_off_call
       end
     end
 
@@ -106,7 +106,7 @@ describe ScheduledJobs do
 
       it 'does nothing' do
         messages.should_not_receive :create
-        ScheduledJobs.alert_leads_when_phas_forced_off_call
+        ScheduledJobs.alert_stakeholders_when_phas_forced_off_call
       end
     end
   end

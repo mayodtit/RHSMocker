@@ -9,4 +9,9 @@ namespace :scheduled do
   task :unforce_phas_off_call => :environment do
     ScheduledJobs.unforce_phas_off_call
   end
+
+  desc 'Alert stakeholders when phas are forced off call'
+  task :alert_stakeholders_when_phas_forced_off_call => :environment do
+    ScheduledJobs.alert_stakeholders_when_phas_forced_off_call
+  end
 end
