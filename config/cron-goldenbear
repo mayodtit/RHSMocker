@@ -7,3 +7,5 @@
 
 # qa
 11 12 * * * cd /home/rhs/qa/current ; RAILS_ENV=qa bundle exec rake about > log/cron.log 2>&1
+0 * * * * cd /home/rhs/qa/current ; RAILS_ENV=qa bundle exec rake scheduled:unforce_phas_off_call > log/cron.log 2>&1
+0 */3 * * * cd /home/rhs/qa/current ; RAILS_ENV=qa bundle exec rake scheduled:alert_leads_when_phas_forced_off_call > log/cron.log 2>&1
