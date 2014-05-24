@@ -4,6 +4,8 @@ class Metadata < ActiveRecord::Base
   validates :mkey, :mvalue, presence: true
   validates :mkey, uniqueness: true
 
+  after_save :alert_leads_when_phas_forced_off_call
+
   def self.to_hash
     all.inject({}){|hash, metadata| hash[metadata.mkey] = metadata.mvalue; hash}
   end
@@ -51,5 +53,11 @@ class Metadata < ActiveRecord::Base
 
   def self.enable_sharing?
     Metadata.find_by_mkey('enable_sharing').try(:mvalue) == 'true'
+  end
+
+  def alert_leads_when_phas_forced_off_call
+    if mkey == 'force_phas_off_call' && mvalue_changed?
+      ScheduledJobs.alert_leads_when_phas_forced_off_call
+    end
   end
 end
