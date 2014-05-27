@@ -8,7 +8,7 @@ class ParsedNurselineRecord < ActiveRecord::Base
                   :phone_call_id, :nurseline_record, :nurseline_record_id,
                   :text
 
-  validates :user, :consult, :phone_call, :nurseline_record, :text, presence: true
+  validates :nurseline_record, :text, presence: true
   validates :nurseline_record_id, uniqueness: true
 
   after_create :create_task

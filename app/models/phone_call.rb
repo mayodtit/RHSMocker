@@ -97,6 +97,7 @@ class PhoneCall < ActiveRecord::Base
 
   # Call mechanics
 
+  # TODO: Now that we have text messaging we should probably take this out
   # Create a singleton for Twilio client
   class << self
     @@twilio = Twilio::REST::Client.new TWILIO_SID, TWILIO_TOKEN
