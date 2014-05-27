@@ -318,7 +318,9 @@ ServiceType.find_or_create_by_name(name: 'preventive care reminders', bucket: 'e
 ServiceType.find_or_create_by_name(name: 're-engagement', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'relevant content', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'themed months questions and content', bucket: 'engagement')
-ServiceType.find_or_create_by_name(name: 'other care engagement', bucket: 'engagement')
+s = ServiceType.find_by_name('other care engagement')
+s.destroy if s
+ServiceType.find_or_create_by_name(name: 'other engagement', bucket: 'engagement')
 
 # Wellness --
 ServiceType.find_or_create_by_name(name: 'exercise assessment and plan', bucket: 'wellness')
