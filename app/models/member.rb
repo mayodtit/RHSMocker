@@ -228,16 +228,12 @@ class Member < User
     joins(:roles).where(roles: {name: :pha})
   end
 
-  def self.accepting_new_members
-    joins(:pha_profile).where(pha_profiles: {accepting_new_members: true})
-  end
-
-  def self.phas_accepting_new_members_with_capacity
-    phas.accepting_new_members.reject{|m| m.pha_profile.try(:max_capacity?)}
+  def self.phas_with_capacity
+    phas.reject{|m| m.pha_profile.try(:max_capacity?)}
   end
 
   def self.pha_counts
-    group(:pha_id).where(pha_id: phas.accepting_new_members.pluck(:id))
+    group(:pha_id).where(pha_id: phas_with_capacity.map(&:id))
                   .count
                   .tap do |hash|
       hash.default = 0
@@ -247,7 +243,7 @@ class Member < User
   def self.next_pha
     current_counts = pha_counts
     min_count = current_counts.values.min || 0
-    phas_accepting_new_members_with_capacity.inject(nil) do |selected, current|
+    phas_with_capacity.inject(nil) do |selected, current|
       if current_counts[current.id] <= min_count
         selected = current
         min_count = current_counts[current.id]
