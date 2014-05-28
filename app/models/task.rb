@@ -122,6 +122,10 @@ class Task < ActiveRecord::Base
     before_transition any => :abandoned do |task|
       task.abandoned_at = Time.now
     end
+
+    before_transition :abandoned => any do |task|
+      task.reason_abandoned = nil
+    end
   end
 
   # TODO: Write more comprehensive tests
