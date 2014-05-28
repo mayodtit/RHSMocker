@@ -229,7 +229,7 @@ class Member < User
   end
 
   def self.phas_with_capacity
-    phas.reject{|m| m.pha_profile.try(:max_capacity?)}
+    phas.reject{|m| !m.pha_profile || m.pha_profile.max_capacity?}
   end
 
   def self.pha_counts
