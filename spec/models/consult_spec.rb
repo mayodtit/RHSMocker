@@ -19,7 +19,7 @@ describe Consult do
 
   describe 'callbacks' do
     describe '#send_initial_message' do
-      let!(:pha) { create(:pha).tap{|p| p.create_pha_profile(accepting_new_members: true)} }
+      let!(:pha) { create(:pha).tap{|p| p.create_pha_profile} }
       let!(:member) { create(:member, is_premium: true, pha: pha, signed_up_at: Time.now) }
       let(:consult) { create(:consult, initiator: member) }
 

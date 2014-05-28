@@ -262,8 +262,8 @@ describe Member do
     let!(:unassigned_pha) { create(:pha) }
 
     before do
-      assigned_pha.create_pha_profile(accepting_new_members: true)
-      unassigned_pha.create_pha_profile(accepting_new_members: true)
+      assigned_pha.create_pha_profile
+      unassigned_pha.create_pha_profile
     end
 
     it 'returns the PHA with the most availablity' do
