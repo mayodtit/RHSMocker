@@ -17,6 +17,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
   PREMIUM_WELCOME_TEMPLATE_LAUREN = 'Welcome to Premium (Lauren)'
   PREMIUM_WELCOME_TEMPLATE_MEG = 'Welcome to Premium (Meg)'
   PREMIUM_WELCOME_TEMPLATE_NINETTE = 'Welcome to Premium (Ninette)'
+  PREMIUM_WELCOME_TEMPLATE_JENN = 'Welcome to Premium (Jenn)'
 
   def welcome_to_premium_email(email)
     user = Member.find_by_email!(email)
@@ -29,6 +30,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
                  PREMIUM_WELCOME_TEMPLATE_MEG
                when 'ninette@getbetter.com'
                  PREMIUM_WELCOME_TEMPLATE_NINETTE
+               when 'jenn@getbetter.com'
+                 PREMIUM_WELCOME_TEMPLATE_JENN
                else
                  raise 'Must have PHA to send Welcome to Premium'
                end
@@ -81,15 +84,17 @@ class RHSMailer < MandrillMailer::TemplateMailer
     spc = ScheduledPhoneCall.find(spc_id)
     from_email = spc.owner.email
 
-    template_clare   = 'Welcome Call Confirmation - Clare v140312'
-    template_lauren  = 'Welcome Call Confirmation - Lauren v140312'
-    template_meg     = 'Welcome Call Confirmation - Meg v140312'
-    template_ninette = 'Welcome Call Confirmation - Ninette v140312'
+    template_clare   = 'Call Confirmation New - (Clare)'
+    template_lauren  = 'Call Confirmation New - (Lauren)'
+    template_meg     = 'Call Confirmation New - (Meg)'
+    template_ninette = 'Call Confirmation New - (Ninette)'
+    template_jenn    = 'Call Confirmation New - (Jenn)'
 
     t = case from_email
           when 'lauren@getbetter.com' then template_lauren
           when 'meg@getbetter.com' then template_meg
           when 'ninette@getbetter.com' then template_ninette
+          when 'jenn@getbetter.com' then template_jenn
           else template_clare
         end
 
