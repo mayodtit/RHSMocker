@@ -24,6 +24,7 @@ class Member < User
   has_one :pha_profile, foreign_key: :user_id, inverse_of: :user
 
   belongs_to :pha, class_name: 'Member', inverse_of: :owned_members
+  #TODO - careful, there is a User::owned_users that does something different
   has_many :owned_members, class_name: 'Member',
                            foreign_key: :pha_id,
                            inverse_of: :pha
