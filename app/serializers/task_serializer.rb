@@ -1,7 +1,7 @@
 class TaskSerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes :id, :title, :state, :description, :due_at, :type
+  attributes :id, :title, :state, :description, :due_at, :type, :created_at, :owner_id
 
   has_one :role
   has_one :owner

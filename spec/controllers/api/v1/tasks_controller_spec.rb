@@ -180,10 +180,11 @@ describe Api::V1::TasksController do
         end
 
         context 'state event is present' do
-          it 'sets the actor to the current user' do
+          it 'sets the actor and owner to the current user' do
             task.should_receive(:update_attributes).with(
               'state_event' => 'abandon',
-              'abandoner' => user
+              'abandoner' => user,
+              'owner_id' => user.id
             )
 
             do_request
