@@ -1,0 +1,36 @@
+.invites
+  .header
+    .logo= image_tag 'logo@2x.png'
+  .main
+    .container
+      - if @member.try(:errors).try(:any?)
+        #error_explanation
+          %ul
+            - @member.errors.full_messages.each do |error|
+              %li= error
+      = form_tag '#', method: :post do
+        .field.no-bottom-border
+          = image_tag 'name_on@2x.png', class: 'field-icon'
+          = text_field_tag 'user[first_name]', '', placeholder: 'First Name'
+          .bottom-border
+        .field.no-image.top-border.no-bottom-border
+          = text_field_tag 'user[last_name]', '', placeholder: 'Last Name'
+        .field.top-border
+          = image_tag 'email_on@2x.png', class: 'field-icon'
+          = text_field_tag 'user[email]', '', placeholder: 'Email'
+        .field
+          = image_tag 'password_on@2x.png', class: 'field-icon'
+          = password_field_tag 'user[password]', '', placeholder: 'Password (8+ characters)'
+        .field
+          = image_tag 'birthdate_on@2x.png', class: 'field-icon'
+          = label_tag 'user[birthdate]', "Birthdate (18 or older)"
+          .date-selector
+            = date_select('user', 'birthdate', order: %i(month day year), default: 18.years.ago, start_year: 1900)
+        .field
+          = label_tag 'user[code]', "Referral Code (Optional)", class: :small
+          = text_field_tag 'user[code]', @code || '', placeholder: 'Enter code'
+        - if Agreement.active
+          .field.no-bottom-border
+            = check_box_tag 'user[agreement_id]', Agreement.active.id
+            = label_tag 'user[agreement_id]', 'I have read and agree to the Terms of Service'
+        = submit_tag 'Sign up', class: :submit, data: {disable_with: 'Please wait...'}
