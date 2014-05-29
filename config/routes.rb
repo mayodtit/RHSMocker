@@ -182,12 +182,13 @@ RHSMocker::Application.routes.draw do
   end
   resources :invites, :only => [:update, :show] do
     get :complete, :on => :collection
-    get :signup, :on => :collection
   end
   resources :mayo_vocabularies, only: :index
   resources :nurseline_records, :only => :create
   resources :pha_profiles, only: :show
   resources :questions, :only => :show
+  get :sign_up, to: 'users#signup'
+  post :sign_up, to: 'users#signup_create'
   resources :users, :only => [] do
     get 'reset_password/:token', :to => 'users#reset_password', :on => :collection, :as => 'reset_password'
     put 'reset_password', :to => 'users#reset_password_update', :on => :collection, :as => 'reset_password_update'
