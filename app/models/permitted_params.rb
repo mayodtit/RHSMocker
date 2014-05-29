@@ -34,6 +34,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
                                              :absolute_free_trial_ends_at)
   end
 
+  def referral_code
+    params.require(:referral_code).permit(:name, :code, :onboarding_group_id)
+  end
+
   private
 
   def user_params

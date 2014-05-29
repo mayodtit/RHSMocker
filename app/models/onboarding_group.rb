@@ -2,6 +2,7 @@ class OnboardingGroup < ActiveRecord::Base
   has_many :users, class_name: 'Member',
                    inverse_of: :onboarding_group,
                    dependent: :nullify
+  has_many :referral_codes, dependent: :nullify
 
   attr_accessible :name, :premium, :free_trial_days,
                   :absolute_free_trial_ends_at
