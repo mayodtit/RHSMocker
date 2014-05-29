@@ -346,8 +346,6 @@ describe Task do
     describe '#unassign' do
       let(:task) { build :task, :assigned }
 
-      it_behaves_like 'cannot transition from', :unassign!, [:started, :claimed, :abandoned, :completed]
-
       it 'changes state to unassigned' do
         task.should_not be_unassigned
         task.unassign!
@@ -369,8 +367,6 @@ describe Task do
 
     describe '#assign' do
       let(:task) { build :task }
-
-      it_behaves_like 'cannot transition from', :unassign!, [:started, :claimed, :abandoned, :completed]
 
       it 'changes state to assigned' do
         task.should_not be_assigned
