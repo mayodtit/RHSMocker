@@ -74,6 +74,8 @@ RHSMocker::Application.routes.draw do
       resources :programs, only: [:index, :show, :create, :update] do
         resources :resources, only: [:index, :create, :update, :destroy], controller: 'program_resources'
       end
+      resources :referral_codes, only: %i(index show create update)
+      resources :referrals, only: :create
       resources :remote_events, :only => :create
       resources :reset_password, only: [:create, :show, :update]
       resources :scheduled_phone_calls, except: [:new, :edit] do

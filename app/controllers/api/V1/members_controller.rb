@@ -5,6 +5,8 @@ class Api::V1::MembersController < Api::V1::ABaseController
   before_filter :convert_legacy_parameters!, only: :secure_update # TODO - remove when deprecated routes are removed
   before_filter :load_member_from_login!, only: :secure_update
   before_filter :load_waitlist_entry!, only: :create
+  before_filter :load_referral_code!, only: :create
+  before_filter :load_onboarding_group!, only: :create
   before_filter :convert_parameters!, only: [:create, :update, :update_current]
 
   def index
@@ -25,7 +27,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
   end
 
   def create
-    @member = Member.create permitted_params.user
+    @member = Member.create create_attributes
     if @member.errors.empty?
       render_success user: @member.serializer,
                      member: @member.serializer,
@@ -120,6 +122,14 @@ class Api::V1::MembersController < Api::V1::ABaseController
     @waitlist_entry.state_event = :claim
   end
 
+  def load_referral_code!
+    @referral_code = ReferralCode.find_by_code(user_params[:code]) if user_params[:code]
+  end
+
+  def load_onboarding_group!
+    @onboarding_group = @referral_code.try(:onboarding_group)
+  end
+
   def convert_parameters!
     user_params[:avatar] = decode_b64_image(user_params[:avatar]) if user_params[:avatar]
     %w(user_information address insurance_policy provider emergency_contact).each do |key|
@@ -158,6 +168,12 @@ class Api::V1::MembersController < Api::V1::ABaseController
     {}.tap do |options|
       options.merge!(include_nested_information: true, include_roles: true) if current_user.care_provider?
       options.merge!(include_admin_information: true) if current_user.admin?
+    end
+  end
+
+  def create_attributes
+    permitted_params.user.tap do |attributes|
+      attributes[:onboarding_group] = @onboarding_group if @onboarding_group
     end
   end
 end
