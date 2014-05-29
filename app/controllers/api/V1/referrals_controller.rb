@@ -7,6 +7,7 @@ class Api::V1::ReferralsController < Api::V1::ABaseController
   def create
     @user = @users.create(create_attributes)
     if @user.errors.empty?
+      Mails::InvitationJob.create(@user.id, invite_url(@user.invitation_token))
       render_success
     else
       render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
