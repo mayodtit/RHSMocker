@@ -11,6 +11,7 @@ class UsersController < ApplicationController
   end
 
   def signup_create
+    @code = params.require(:user)[:code] || params[:code]
     @member = Member.create(create_attributes)
     if @member.errors.empty?
       redirect_to complete_invites_url
@@ -54,7 +55,22 @@ class UsersController < ApplicationController
 
   def create_attributes
     permitted_params.user.tap do |attributes|
+      attributes[:referral_code] = @referral_code if @referral_code
       attributes[:onboarding_group] = @onboarding_group if @onboarding_group
+      attributes[:user_agreements_attributes] = user_agreements_attributes if params.require(:user)[:agreement_id]
+    end
+  end
+
+  def user_agreements_attributes
+    return [] unless Agreement.active
+    if params.require(:user)[:agreement_id]
+      [
+        {
+          agreement_id: params.require(:user)[:agreement_id],
+          ip_address: request.remote_ip,
+          user_agent: request.env['HTTP_USER_AGENT']
+        }
+      ]
     end
   end
 end
