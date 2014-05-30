@@ -75,11 +75,11 @@ class Task < ActiveRecord::Base
 
   state_machine :initial => :unassigned do
     event :unassign do
-      transition [:assigned, :started, :claimed] => :unassigned
+      transition any => :unassigned
     end
 
     event :assign do
-      transition [:assigned, :unassigned] => :assigned
+      transition any => :assigned
     end
 
     event :start do
