@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :card do
-    user
+    association :user, factory: :member
     association :resource, factory: :content
 
     trait :saved do
