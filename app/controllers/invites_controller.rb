@@ -4,7 +4,7 @@ class InvitesController < ApplicationController
   before_filter :convert_parameters!, only: %i(update)
 
   def show
-    redirect_to signup_url and return unless @member
+    redirect_to BETTER_PUBLIC_WEBSITE and return unless @member
     redirect_to :complete and return if @member.password
     render :show
   end
