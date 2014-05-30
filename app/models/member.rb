@@ -38,6 +38,7 @@ class Member < User
   has_many :tasks, class_name: 'MemberTask'
 
   belongs_to :onboarding_group, inverse_of: :users
+  belongs_to :referral_code, inverse_of: :users
 
   has_many :user_requests, foreign_key: :user_id
 
@@ -50,7 +51,8 @@ class Member < User
                   :waitlist_entry, :user_agreements_attributes, :pha, :pha_id,
                   :apns_token, :is_premium, :free_trial_ends_at, :last_contact_at,
                   :skip_agreement_validation, :signed_up_at, :subscription_ends_at,
-                  :test_user, :marked_for_deletion, :onboarding_group, :onboarding_group_id
+                  :test_user, :marked_for_deletion, :onboarding_group, :onboarding_group_id,
+                  :referral_code, :referral_code_id
 
   validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
@@ -63,6 +65,7 @@ class Member < User
   validate :owner_is_self
   validates :apns_token, uniqueness: true, allow_nil: true
   validates :onboarding_group, presence: true, if: ->(m){m.onboarding_group_id}
+  validates :referral_code, presence: true, if: ->(m){m.referral_code_id}
 
   before_validation :set_owner
   before_validation :set_member_flag

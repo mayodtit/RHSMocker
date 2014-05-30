@@ -55,6 +55,7 @@ class UsersController < ApplicationController
 
   def create_attributes
     permitted_params.user.tap do |attributes|
+      attributes[:referral_code] = @referral_code if @referral_code
       attributes[:onboarding_group] = @onboarding_group if @onboarding_group
       attributes[:user_agreements_attributes] = user_agreements_attributes if params.require(:user)[:agreement_id]
     end

@@ -28,6 +28,7 @@ class Api::V1::ReferralsController < Api::V1::ABaseController
 
   def create_attributes
     params.permit(:email).tap do |attributes|
+      attributes[:referral_code] = @referral_code if @referral_code
       attributes[:invitation_token] = invitation_token
     end
   end

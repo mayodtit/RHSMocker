@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140528232144) do
+ActiveRecord::Schema.define(:version => 20140530183716) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -846,6 +846,7 @@ ActiveRecord::Schema.define(:version => 20140528232144) do
     t.boolean  "test_user",                                                                   :default => false, :null => false
     t.boolean  "marked_for_deletion",                                                         :default => false, :null => false
     t.integer  "onboarding_group_id"
+    t.integer  "referral_code_id"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true

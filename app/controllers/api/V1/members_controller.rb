@@ -173,6 +173,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def create_attributes
     permitted_params.user.tap do |attributes|
+      attributes[:referral_code] = @referral_code if @referral_code
       attributes[:onboarding_group] = @onboarding_group if @onboarding_group
     end
   end
