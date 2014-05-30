@@ -1,7 +1,8 @@
 class Card < ActiveRecord::Base
   MAX_CONTENT_PER_USER = 7
 
-  belongs_to :user
+  belongs_to :user, class_name: 'Member',
+                    inverse_of: :cards
   belongs_to :resource, polymorphic: true
   belongs_to :user_program
   belongs_to :sender, class_name: 'Member'
