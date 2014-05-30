@@ -6,7 +6,9 @@ class Member < User
 
   has_many :user_agreements, foreign_key: :user_id, inverse_of: :user
   has_many :agreements, through: :user_agreements
-  has_many :cards, :foreign_key => :user_id
+  has_many :cards, foreign_key: :user_id,
+                   inverse_of: :user,
+                   dependent: :destroy
   has_many :user_readings, :foreign_key => :user_id
   has_many :contents, :through => :user_readings
   has_many :initiated_consults, class_name: Consult, foreign_key: :initiator_id
