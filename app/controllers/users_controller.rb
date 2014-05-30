@@ -11,6 +11,7 @@ class UsersController < ApplicationController
   end
 
   def signup_create
+    @code = params.require(:user)[:code] || params[:code]
     @member = Member.create(create_attributes)
     if @member.errors.empty?
       redirect_to complete_invites_url
