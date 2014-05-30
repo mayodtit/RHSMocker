@@ -1,5 +1,5 @@
 class RHSMailer < MandrillMailer::TemplateMailer
-  default from: (Rails.env.production? ? 'noreply@getbetter.com' : "noreply@#{Rails.env}.getbetter.com")
+  default from: (Rails.env.production? ? 'support@getbetter.com' : "support@#{Rails.env}.getbetter.com")
   default from_name: 'Better'
 
   def welcome_to_better_email(email, salutation)
