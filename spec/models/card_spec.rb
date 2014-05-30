@@ -24,7 +24,7 @@ describe Card do
     end
 
     describe 'events' do
-      let!(:user) { create(:user) }
+      let!(:user) { create(:member) }
 
       describe 'saved' do
         it 'changes all to saved' do
@@ -53,7 +53,7 @@ describe Card do
   end
 
   describe 'scopes' do
-    let!(:user) { create(:user) }
+    let!(:user) { create(:member) }
     let!(:unsaved) { create(:card, :user => user) }
     let!(:saved) { create(:card, :saved, :user => user) }
     let!(:dismissed) { create(:card, :dismissed, :user => user) }
