@@ -41,7 +41,7 @@ class Api::V1::MetricsController < Api::V1::ABaseController
         og.users.each do |user|
           c << [og.id, og.name, user.id, user.first_name,
                 user.last_name, user.email,
-                user.invitation_token.nil? ? nil : "http://api.getbetter.com/invites/#{user.invitation_token}",
+                user.invitation_token.nil? ? nil : "http://www.getbetter.com/invites/#{user.invitation_token}",
                 user.signed_up_at]
         end
       end
