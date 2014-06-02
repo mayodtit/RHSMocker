@@ -128,6 +128,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def load_onboarding_group!
     @onboarding_group = @referral_code.try(:onboarding_group)
+    @onboarding_group ||= OnboardingGroup.find_by_name('Generic 14-day trial onboarding group') if Metadata.signup_free_trial?
   end
 
   def convert_parameters!
