@@ -13,6 +13,28 @@ class RHSMailer < MandrillMailer::TemplateMailer
     )
   end
 
+  def welcome_to_better_free_trial_email(email, salutation)
+    mandrill_mail(
+      subject: 'Welcome to Better',
+      to: { email: email },
+      template: 'All User Welcome Email v140415',
+      vars: {
+        FNAME: salutation
+      }
+    )
+  end
+
+  def upgrade_to_better_free_trial_email(email, salutation)
+    mandrill_mail(
+      subject: 'Welcome to Better',
+      to: { email: email },
+      template: 'All User Welcome Email v140415',
+      vars: {
+        FNAME: salutation
+      }
+    )
+  end
+
   PREMIUM_WELCOME_TEMPLATE_CLARE = 'Welcome to Premium (Clare)'
   PREMIUM_WELCOME_TEMPLATE_LAUREN = 'Welcome to Premium (Lauren)'
   PREMIUM_WELCOME_TEMPLATE_MEG = 'Welcome to Premium (Meg)'
