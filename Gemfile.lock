@@ -301,6 +301,8 @@ GEM
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
+    skylight (0.3.13)
+      activesupport (>= 3.0.0)
     slop (3.4.4)
     sorcery (0.8.1)
       bcrypt-ruby (~> 3.0.0)
@@ -403,6 +405,7 @@ DEPENDENCIES
   rubyzip
   s3_uploader
   sass-rails (~> 3.2.3)
+  skylight
   sorcery
   state_machine
   stripe

@@ -92,3 +92,5 @@ gem 'rubyzip'
 gem 'twilio-ruby'
 gem 'mandrill_mailer'           # for integration with MailChimp templates
 gem 'apns'
+
+gem 'skylight'
