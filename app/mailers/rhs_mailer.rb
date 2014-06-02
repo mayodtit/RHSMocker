@@ -35,13 +35,24 @@ class RHSMailer < MandrillMailer::TemplateMailer
     )
   end
 
+  def welcome_to_premium_email(email, salutation)
+    mandrill_mail(
+      subject: 'Welcome to Better',
+      to: { email: email },
+      template: 'All User Welcome Email v140415',
+      vars: {
+        FNAME: salutation
+      }
+    )
+  end
+
   PREMIUM_WELCOME_TEMPLATE_CLARE = 'Welcome to Premium (Clare)'
   PREMIUM_WELCOME_TEMPLATE_LAUREN = 'Welcome to Premium (Lauren)'
   PREMIUM_WELCOME_TEMPLATE_MEG = 'Welcome to Premium (Meg)'
   PREMIUM_WELCOME_TEMPLATE_NINETTE = 'Welcome to Premium (Ninette)'
   PREMIUM_WELCOME_TEMPLATE_JENN = 'Welcome to Premium (Jenn)'
 
-  def welcome_to_premium_email(email)
+  def meet_your_pha_email(email)
     user = Member.find_by_email!(email)
     template = case user.pha.try(:email)
                when 'clare@getbetter.com'

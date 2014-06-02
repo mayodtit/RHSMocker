@@ -84,6 +84,7 @@ class Member < User
   after_save :send_free_trial_email
   after_save :send_free_trial_upgrade_email
   after_save :send_premium_email
+  after_save :send_meet_your_pha_email
   after_save :notify_pha_of_new_member
   after_save :create_initial_master_consult_message
 
@@ -184,6 +185,12 @@ class Member < User
         (signed_up? && newly_premium?) ||
         (is_premium? && newly_signed_up?))
       Mails::WelcomeToPremiumJob.create(id)
+    end
+  end
+
+  def send_meet_your_pha_email
+    if is_premium? && newly_assigned_pha?
+      Mails::MeetYourPhaJob.create(id)
     end
   end
 
