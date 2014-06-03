@@ -6,7 +6,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     mandrill_mail(
       subject: 'Welcome to Better',
       to: { email: email },
-      template: 'All User Welcome Email v140415',
+      template: 'All User Welcome Email',
       vars: {
         FNAME: salutation
       }
@@ -15,9 +15,9 @@ class RHSMailer < MandrillMailer::TemplateMailer
 
   def welcome_to_better_free_trial_email(email, salutation)
     mandrill_mail(
-      subject: 'Welcome to Better',
+      subject: 'Welcome to Better Premium',
       to: { email: email },
-      template: 'All User Welcome Email v140415',
+      template: 'Free Trial Welcome Email',
       vars: {
         FNAME: salutation
       }
@@ -26,9 +26,9 @@ class RHSMailer < MandrillMailer::TemplateMailer
 
   def upgrade_to_better_free_trial_email(email, salutation)
     mandrill_mail(
-      subject: 'Welcome to Better',
+      subject: "You've been handpicked to try Better Premium",
       to: { email: email },
-      template: 'All User Welcome Email v140415',
+      template: 'Upgrade to Trial',
       vars: {
         FNAME: salutation
       }
@@ -37,20 +37,20 @@ class RHSMailer < MandrillMailer::TemplateMailer
 
   def welcome_to_premium_email(email, salutation)
     mandrill_mail(
-      subject: 'Welcome to Better',
+      subject: 'Welcome to Better Premium',
       to: { email: email },
-      template: 'All User Welcome Email v140415',
+      template: 'PAID Premium User Welcome',
       vars: {
         FNAME: salutation
       }
     )
   end
 
-  PREMIUM_WELCOME_TEMPLATE_CLARE = 'Meet Clare, your PHA'
-  PREMIUM_WELCOME_TEMPLATE_LAUREN = 'Meet Lauren, your PHA'
-  PREMIUM_WELCOME_TEMPLATE_MEG = 'Meet Meg, your PHA'
-  PREMIUM_WELCOME_TEMPLATE_NINETTE = 'Meet Ninette, your PHA'
-  PREMIUM_WELCOME_TEMPLATE_JENN = 'Meet Jenn, your PHA'
+  PREMIUM_WELCOME_TEMPLATE_CLARE = 'Meet Clare, Your PHA'
+  PREMIUM_WELCOME_TEMPLATE_LAUREN = 'Meet Lauren, Your PHA'
+  PREMIUM_WELCOME_TEMPLATE_MEG = 'Meet Meg, Your PHA'
+  PREMIUM_WELCOME_TEMPLATE_NINETTE = 'Meet Ninette, Your PHA'
+  PREMIUM_WELCOME_TEMPLATE_JENN = 'Meet Jenn, Your PHA'
 
   def meet_your_pha_email(email)
     user = Member.find_by_email!(email)
