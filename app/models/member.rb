@@ -81,7 +81,10 @@ class Member < User
   after_create :add_install_message
   after_create :add_new_member_content
   after_save :send_welcome_email
+  after_save :send_free_trial_email
+  after_save :send_free_trial_upgrade_email
   after_save :send_premium_email
+  after_save :send_meet_your_pha_email
   after_save :notify_pha_of_new_member
   after_save :create_initial_master_consult_message
 
@@ -159,17 +162,36 @@ class Member < User
   end
 
   def send_welcome_email
-    if newly_signed_up?
+    if newly_signed_up? && !free_trial? && !is_premium?
       Mails::WelcomeToBetterJob.create(id)
     end
-    true
+  end
+
+  def send_free_trial_email
+    if newly_signed_up? && free_trial?
+      Mails::WelcomeToBetterFreeTrialJob.create(id)
+    end
+  end
+
+  def send_free_trial_upgrade_email
+    if signed_up? && newly_free_trial?
+      Mails::UpgradeToBetterFreeTrialJob.create(id)
+    end
   end
 
   def send_premium_email
-    if (signed_up? && newly_premium?) || (is_premium? && newly_signed_up?)
+    if (!free_trial? && is_premium?) &&
+       (free_trial_ends_at_changed? ||
+        (signed_up? && newly_premium?) ||
+        (is_premium? && newly_signed_up?))
       Mails::WelcomeToPremiumJob.create(id)
     end
-    true
+  end
+
+  def send_meet_your_pha_email
+    if is_premium? && newly_assigned_pha?
+      Mails::MeetYourPhaJob.create(id)
+    end
   end
 
   def max_inbox_content?
@@ -358,6 +380,14 @@ class Member < User
 
   def newly_premium?
     is_premium? && is_premium_changed?
+  end
+
+  def free_trial?
+    free_trial_ends_at.try(:>, Time.now) || false
+  end
+
+  def newly_free_trial?
+    free_trial? && free_trial_ends_at_changed?
   end
 
   def create_initial_master_consult_message
