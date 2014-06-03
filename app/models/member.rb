@@ -174,7 +174,7 @@ class Member < User
   end
 
   def send_free_trial_upgrade_email
-    if signed_up? && newly_free_trial?
+    if signed_up? && !newly_signed_up? && newly_free_trial?
       Mails::UpgradeToBetterFreeTrialJob.create(id)
     end
   end
