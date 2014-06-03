@@ -46,31 +46,36 @@ class RHSMailer < MandrillMailer::TemplateMailer
     )
   end
 
-  PREMIUM_WELCOME_TEMPLATE_CLARE = 'Welcome to Premium (Clare)'
-  PREMIUM_WELCOME_TEMPLATE_LAUREN = 'Welcome to Premium (Lauren)'
-  PREMIUM_WELCOME_TEMPLATE_MEG = 'Welcome to Premium (Meg)'
-  PREMIUM_WELCOME_TEMPLATE_NINETTE = 'Welcome to Premium (Ninette)'
-  PREMIUM_WELCOME_TEMPLATE_JENN = 'Welcome to Premium (Jenn)'
+  PREMIUM_WELCOME_TEMPLATE_CLARE = 'Meet Clare, your PHA'
+  PREMIUM_WELCOME_TEMPLATE_LAUREN = 'Meet Lauren, your PHA'
+  PREMIUM_WELCOME_TEMPLATE_MEG = 'Meet Meg, your PHA'
+  PREMIUM_WELCOME_TEMPLATE_NINETTE = 'Meet Ninette, your PHA'
+  PREMIUM_WELCOME_TEMPLATE_JENN = 'Meet Jenn, your PHA'
 
   def meet_your_pha_email(email)
     user = Member.find_by_email!(email)
-    template = case user.pha.try(:email)
-               when 'clare@getbetter.com'
-                 PREMIUM_WELCOME_TEMPLATE_CLARE
-               when 'lauren@getbetter.com'
-                 PREMIUM_WELCOME_TEMPLATE_LAUREN
-               when 'meg@getbetter.com'
-                 PREMIUM_WELCOME_TEMPLATE_MEG
-               when 'ninette@getbetter.com'
-                 PREMIUM_WELCOME_TEMPLATE_NINETTE
-               when 'jenn@getbetter.com'
-                 PREMIUM_WELCOME_TEMPLATE_JENN
-               else
-                 raise 'Must have PHA to send Welcome to Premium'
-               end
+    case user.pha.try(:email)
+    when 'clare@getbetter.com'
+      template = PREMIUM_WELCOME_TEMPLATE_CLARE
+      subject = 'Meet Clare, your Personal Health Assistant'
+    when 'lauren@getbetter.com'
+      template = PREMIUM_WELCOME_TEMPLATE_LAUREN
+      subject = 'Meet Lauren, your Personal Health Assistant'
+    when 'meg@getbetter.com'
+      template = PREMIUM_WELCOME_TEMPLATE_MEG
+      subject = 'Meet Meg, your Personal Health Assistant'
+    when 'ninette@getbetter.com'
+      template = PREMIUM_WELCOME_TEMPLATE_NINETTE
+      subject = 'Meet Ninette, your Personal Health Assistant'
+    when 'jenn@getbetter.com'
+      template = PREMIUM_WELCOME_TEMPLATE_JENN
+      subject = 'Meet Jenn, your Personal Health Assistant'
+    else
+      raise 'Must have PHA to send Meet your PHA'
+    end
 
     mandrill_mail(
-      subject: 'Welcome to Better Premium',
+      subject: subject,
       to: { email: email },
       template: template
     )
