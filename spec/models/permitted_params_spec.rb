@@ -10,7 +10,7 @@ describe PermittedParams do
                           password: 'password',
                           waitlist_entry: 'test',
                           user_information_attributes: {id: 1},
-                          address_attributes: {id: 2},
+                          addresses_attributes: {id: 2},
                           insurance_policy_attributes: {id: 3},
                           provider_attributes: {id: 4}
                         }
@@ -20,7 +20,7 @@ describe PermittedParams do
 
     it 'returns only the permitted parameters' do
       expect(permitted_params.user).to have_key(:first_name)
-      expect(permitted_params.user).to have_key(:address_attributes)
+      expect(permitted_params.user).to have_key(:addresses_attributes)
       expect(permitted_params.user).to_not have_key(:junk)
       expect(permitted_params.user).to_not have_key(:user_information_attributes)
       expect(permitted_params.user).to_not have_key(:insurance_policy_attributes)
@@ -38,7 +38,7 @@ describe PermittedParams do
         expect(permitted_params.user).to have_key(:email)
         expect(permitted_params.user).to have_key(:password)
         expect(permitted_params.user).to have_key(:waitlist_entry)
-        expect(permitted_params.user).to_not have_key(:address_attributes)
+        expect(permitted_params.user).to_not have_key(:addresses_attributes)
       end
     end
 
@@ -47,7 +47,7 @@ describe PermittedParams do
 
       it 'does not include restricted attributes' do
         expect(permitted_params.user).to have_key(:email)
-        expect(permitted_params.user).to have_key(:address_attributes)
+        expect(permitted_params.user).to have_key(:addresses_attributes)
         expect(permitted_params.user).to_not have_key(:password)
         expect(permitted_params.user).to_not have_key(:waitlist_entry)
       end

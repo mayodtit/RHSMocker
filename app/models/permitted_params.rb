@@ -38,6 +38,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:referral_code).permit(:name, :code, :onboarding_group_id)
   end
 
+  def address
+    params.require(:address).permit(*address_attributes)
+  end
+
   private
 
   def user_params
@@ -67,7 +71,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
       end
 
       if current_user
-        attributes << {address_attributes: address_attributes}
+        attributes << {addresses_attributes: address_attributes}
       end
     end
   end
@@ -92,7 +96,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def address_attributes
-    [:id, :address, :address2, :city, :state, :postal_code]
+    [:id, :address, :address2, :line1, :line2, :city, :state, :postal_code]
   end
 
   def insurance_policy_attributes

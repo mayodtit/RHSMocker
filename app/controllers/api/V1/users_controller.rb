@@ -33,9 +33,11 @@ class Api::V1::UsersController < Api::V1::ABaseController
       user_params["#{key}_attributes".to_sym] = user_params[key] if user_params[key]
     end
 
+    user_params[:addresses_attributes] = [user_params[:address_attributes]]
+
     # HACK - iOS and Care Portal are updating address in different places.  CONSOLIDATE ASAP
     address = params[:address]
-    user_params[:address_attributes] = address if address
+    user_params[:addresses_attributes] = [address] if address
 
     user_params[:avatar] = decode_b64_image(user_params[:avatar]) if user_params[:avatar]
   end

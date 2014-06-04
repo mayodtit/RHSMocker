@@ -136,6 +136,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
     %w(user_information address insurance_policy provider emergency_contact).each do |key|
       user_params["#{key}_attributes".to_sym] = user_params[key.to_sym] if user_params[key.to_sym]
     end
+    user_params[:addresses_attributes] = [user_params[:address_attributes]] if user_params[:address_attributes]
     user_params[:waitlist_entry] = @waitlist_entry if @waitlist_entry
     user_params[:user_agreements_attributes] = user_agreements_attributes if user_params[:tos_checked] || user_params[:agreement_id]
   end
