@@ -101,6 +101,7 @@ RHSMocker::Application.routes.draw do
       resources :user_request_types, only: %i(index show create update)
       resources :users, only: [:show, :update, :destroy] do
         get :index, on: :collection, to: 'providers#index' # TODO - this is deprecated; new endpoint: providers/search
+        resources :addresses, except: %i(new edit)
         resources :agreements, only: :create, controller: 'user_agreements'
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'
         resources :appointment_requests, only: %i(create), controller: 'user_requests' #TODO - helper route for iOS client 1.0.8
