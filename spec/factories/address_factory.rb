@@ -6,5 +6,13 @@ FactoryGirl.define do
     city 'City'
     state 'CA'
     postal_code '94301'
+
+    trait :home do
+      type :home
+    end
+
+    trait :work do
+      type :work
+    end
   end
 end

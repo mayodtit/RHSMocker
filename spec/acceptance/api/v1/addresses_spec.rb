@@ -36,6 +36,7 @@ resource 'Address' do
     end
 
     put '/api/v1/users/:user_id/addresses/:id' do
+      parameter :type, 'One of ["home", "work", nil]'
       parameter :line1, 'Address line 1'
       parameter :line2, 'Address line 2'
       parameter :city, 'Address city'
@@ -67,6 +68,7 @@ resource 'Address' do
   end
 
   post '/api/v1/users/:user_id/addresses' do
+    parameter :type, 'One of ["home", "work", nil]'
     parameter :line1, 'Address line 1'
     parameter :line2, 'Address line 2'
     parameter :city, 'Address city'
