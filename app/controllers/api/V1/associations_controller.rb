@@ -123,7 +123,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   # Add in address attributes for both NPI and non-NPI providers.
   # In the future we may auto-populate the address for NPI providers based on Bloom search results.
   def add_address_attributes(address)
-    params[:association][:associate_attributes][:address_attributes] = address if address
+    params[:association][:associate_attributes][:addresses_attributes] = [address] if address
   end
 
   def serializer_options

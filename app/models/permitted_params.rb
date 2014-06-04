@@ -67,7 +67,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
       end
 
       if current_user
-        attributes << {address_attributes: address_attributes}
+        attributes << {addresses_attributes: address_attributes}
       end
     end
   end

@@ -118,4 +118,8 @@ class MemberSerializer < ActiveModel::Serializer
   def onboarding_group_name
     object.onboarding_group.try(:name)
   end
+
+  def address
+    object.addresses.first
+  end
 end
