@@ -169,7 +169,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
   def serializer_options
     {}.tap do |options|
       options.merge!(include_nested_information: true, include_roles: true) if current_user.care_provider?
-      options.merge!(include_admin_information: true) if current_user.admin?
+      options.merge!(include_onboarding_information: true) if current_user.admin? || current_user.pha? || current_user.pha_lead?
     end
   end
 
