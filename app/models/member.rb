@@ -260,7 +260,9 @@ class Member < User
   end
 
   def self.pha_counts
-    group(:pha_id).where(pha_id: phas_with_capacity.map(&:id))
+    group(:pha_id).where(is_premium: true)
+                  .where('signed_up_at IS NOT NULL')
+                  .where(pha_id: phas_with_capacity.map(&:id))
                   .count
                   .tap do |hash|
       hash.default = 0
