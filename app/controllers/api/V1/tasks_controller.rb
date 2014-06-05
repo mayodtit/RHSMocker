@@ -10,7 +10,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
       tasks.push(task) if can? :read, task
     end
 
-    index_resource tasks.serializer
+    index_resource tasks.serializer(shallow: true)
   end
 
   def queue
@@ -21,7 +21,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
       tasks.push(task) if can? :read, task
     end
 
-    index_resource tasks.serializer
+    index_resource tasks.serializer(shallow: true)
   end
 
   def show

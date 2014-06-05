@@ -30,6 +30,11 @@ class Task < ActiveRecord::Base
   scope :pha, -> { where(['role_id = ?', Role.find_by_name!('pha').id]) }
   scope :unassigned_and_owned, -> (hcp) { where(['state = ? OR (state IN (?, ?) AND owner_id = ?)', :unassigned, :assigned, :started, hcp.id]) }
 
+  # NOTE: Child classes should implement this.
+  def member
+    nil
+  end
+
   def open?
     !(%w(completed abandoned).include? state)
   end
@@ -107,23 +112,23 @@ class Task < ActiveRecord::Base
       task.assigned_at = Time.now
     end
 
-    before_transition any => :started do |task|
+    before_transition any - [:started] => :started do |task|
       task.started_at = Time.now
     end
 
-    before_transition any => :claimed do |task|
+    before_transition any - [:claimed] => :claimed do |task|
       task.claimed_at = Time.now
     end
 
-    before_transition any => :completed do |task|
+    before_transition any - [:completed] => :completed do |task|
       task.completed_at = Time.now
     end
 
-    before_transition any => :abandoned do |task|
+    before_transition any - [:abandoned] => :abandoned do |task|
       task.abandoned_at = Time.now
     end
 
-    before_transition :abandoned => any do |task|
+    before_transition :abandoned => any - [:abandoned] do |task|
       task.reason_abandoned = nil
     end
   end

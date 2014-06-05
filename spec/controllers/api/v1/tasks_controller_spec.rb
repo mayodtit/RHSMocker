@@ -42,7 +42,7 @@ describe Api::V1::TasksController do
 
         get :index, auth_token: user.auth_token, state: 'unassigned'
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:tasks].to_json.should == tasks.serializer.as_json.to_json
+        body[:tasks].to_json.should == tasks.serializer(shallow: true).as_json.to_json
       end
 
       it 'doesn\'t permit other query parameters' do
@@ -85,7 +85,7 @@ describe Api::V1::TasksController do
 
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:tasks].to_json.should == tasks.serializer.as_json.to_json
+        body[:tasks].to_json.should == tasks.serializer(shallow: true).as_json.to_json
       end
     end
   end
