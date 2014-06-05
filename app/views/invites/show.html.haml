@@ -29,5 +29,5 @@
         - if Agreement.active
           .field.no-bottom-border
             = check_box_tag 'user[agreement_id]', Agreement.active.id
-            = label_tag 'user[agreement_id]', 'I have read and agree to the Terms of Service'
+            = label_tag 'user[agreement_id]', "I have read and agree to the #{link_to 'Terms of Service', "#{BETTER_PUBLIC_WEBSITE}/tos"}".html_safe
         = submit_tag 'Sign up', class: :submit, data: {disable_with: 'Please wait...'}
