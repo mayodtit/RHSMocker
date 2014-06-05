@@ -23,9 +23,9 @@ class NurselineRecordParser
   def find_attributes!
     token = phone_call_identifier_token
     if token && !token.to_i.zero?
-      @phone_call = PhoneCall.find_by_identifier_token!(token)
-      @user = @phone_call.user
-      @consult = @phone_call.consult
+      @phone_call = PhoneCall.find_by_identifier_token(token)
+      @user = @phone_call.try(:user)
+      @consult = @phone_call.try(:consult)
     end
   end
 
