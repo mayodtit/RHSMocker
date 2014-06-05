@@ -3,6 +3,7 @@ class PhoneCallTask < Task
 
   belongs_to :phone_call
 
+  has_one :member, through: :phone_call, source: :user
   delegate :consult, to: :phone_call
   delegate :subject, to: :consult
 
@@ -16,10 +17,6 @@ class PhoneCallTask < Task
 
   def set_role
     self.role_id = phone_call.to_role_id if role_id.nil?
-  end
-
-  def member
-    phone_call.user || (consult && consult.initiator)
   end
 
   def self.create_if_only_opened_for_phone_call!(phone_call)

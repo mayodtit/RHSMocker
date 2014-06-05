@@ -4,10 +4,6 @@ class TaskSerializer < ActiveModel::Serializer
   attributes :id, :title, :state, :description, :due_at, :type, :created_at,
              :owner_id, :service_type_id
 
-  has_one :member
-  has_one :owner
-  has_one :service_type
-
   def attributes
     if options[:shallow]
       {
@@ -16,10 +12,17 @@ class TaskSerializer < ActiveModel::Serializer
         state: object.state,
         due_at: object.due_at,
         created_at: object.created_at,
-        type: type
+        type: type,
+        member: object.member.try(:serializer, options)
       }
     else
-      super
+      super.tap do |attributes|
+        attributes.merge!(
+          member: object.member.try(:serializer, options),
+          owner: object.owner.try(:serializer, options),
+          service_type: object.service_type.try(:serializer, options)
+        )
+      end
     end
   end
 

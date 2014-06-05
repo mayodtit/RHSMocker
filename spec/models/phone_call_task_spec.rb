@@ -105,43 +105,6 @@ describe PhoneCallTask do
     end
   end
 
-  describe '#member' do
-    let(:task) { build :phone_call_task }
-    let(:member) { build :member }
-
-    context 'phone call has user' do
-      before do
-        task.phone_call.stub(:user) { member }
-      end
-
-      it 'returns the phone calls member' do
-        task.member.should == member
-      end
-    end
-
-    context 'consult' do
-      before do
-        task.phone_call.stub(:user) { nil }
-        task.consult.stub(:initiator) { member }
-      end
-
-      it 'returns the phone calls member' do
-        task.member.should == member
-      end
-    end
-
-    context 'neither user nor consult' do
-      before do
-        task.phone_call.stub(:user) { nil }
-        task.stub(:consult) { nil }
-      end
-
-      it 'returns nil' do
-        task.member.should be_nil
-      end
-    end
-  end
-
   describe '#create_if_only_opened_for_phone_call!' do
     let(:phone_call) { build_stubbed(:phone_call) }
 
