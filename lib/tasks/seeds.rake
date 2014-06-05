@@ -458,6 +458,22 @@ namespace :seeds do
 
       s.save!
     end
+
+  end
+
+  desc "Seed with some member_tasks for PHAs."
+  task :member_tasks => :environment do
+    40.times do
+      m = Member.all.sample
+      m.tasks.create!(
+        title: 'A member task',
+        description: 'Do something for this member',
+        service_type: ServiceType.all.sample,
+        due_at: Time.now,
+        subject: m,
+        creator: Member.robot
+      )
+    end
   end
 
   desc "Seed with some unresolved calls to PHAs."
