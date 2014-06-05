@@ -123,4 +123,8 @@ class MemberSerializer < ActiveModel::Serializer
   def referral_code_name
     object.referral_code.try(:name)
   end
+
+  def address
+    object.addresses.first
+  end
 end

@@ -47,4 +47,8 @@ class UserSerializer < ActiveModel::Serializer
   def sharing_prohibited
     object.inverse_associations.joins(:replacement).where('associations.associate_id != replacements_associations.associate_id').any? || (scope && scope.id != object.owner_id)
   end
+
+  def address
+    object.addresses.first
+  end
 end
