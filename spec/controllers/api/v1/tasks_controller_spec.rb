@@ -32,9 +32,13 @@ describe Api::V1::TasksController do
       it 'returns tasks with the state parameter' do
         Task.stub(:where).with('state' => 'unassigned') do
           o = Object.new
-          o.stub(:order).with('due_at, created_at ASC') do
+          o.stub(:includes).with(:member) do
             o_o = Object.new
-            o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
+            o_o.stub(:order).with('due_at, created_at ASC') do
+              o_o_o = Object.new
+              o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
+              o_o_o
+            end
             o_o
           end
           o
@@ -46,11 +50,15 @@ describe Api::V1::TasksController do
       end
 
       it 'doesn\'t permit other query parameters' do
-        Task.should_receive(:where).with('state' => 'unassigned') do
+        Task.stub(:where).with('state' => 'unassigned') do
           o = Object.new
-          o.stub(:order).with('due_at, created_at ASC') do
+          o.stub(:includes).with(:member) do
             o_o = Object.new
-            o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
+            o_o.stub(:order).with('due_at, created_at ASC') do
+              o_o_o = Object.new
+              o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
+              o_o_o
+            end
             o_o
           end
           o
@@ -75,9 +83,13 @@ describe Api::V1::TasksController do
       it 'returns tasks for the current hcp' do
         Task.should_receive(:unassigned_and_owned).with(user) do
           o = Object.new
-          o.should_receive(:order).with('due_at, created_at ASC') do
+          o.stub(:includes).with(:member) do
             o_o = Object.new
-            o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
+            o_o.stub(:order).with('due_at, created_at ASC') do
+              o_o_o = Object.new
+              o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
+              o_o_o
+            end
             o_o
           end
           o

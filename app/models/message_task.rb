@@ -3,7 +3,7 @@ class MessageTask < Task
 
   belongs_to :consult
   belongs_to :message
-
+  has_one :member, through: :consult, source: :initiator
   delegate :subject, to: :consult
 
   attr_accessible :consult, :consult_id, :message, :message_id
@@ -14,10 +14,6 @@ class MessageTask < Task
   validate :one_open_per_consult
 
   before_validation :set_consult, on: :create
-
-  def member
-    consult && consult.initiator
-  end
 
   def set_consult
     if consult.nil? && message.present?

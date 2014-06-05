@@ -1,6 +1,7 @@
 class Task < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
 
+  belongs_to :member
   belongs_to :role, class_name: 'Role'
   belongs_to :owner, class_name: 'Member'
   belongs_to :creator, class_name: 'Member'
@@ -29,11 +30,6 @@ class Task < ActiveRecord::Base
   scope :nurse, -> { where(['role_id = ?', Role.find_by_name!('nurse').id]) }
   scope :pha, -> { where(['role_id = ?', Role.find_by_name!('pha').id]) }
   scope :unassigned_and_owned, -> (hcp) { where(['state = ? OR (state IN (?, ?) AND owner_id = ?)', :unassigned, :assigned, :started, hcp.id]) }
-
-  # NOTE: Child classes should implement this.
-  def member
-    nil
-  end
 
   def open?
     !(%w(completed abandoned).include? state)
