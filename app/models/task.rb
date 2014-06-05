@@ -107,23 +107,23 @@ class Task < ActiveRecord::Base
       task.assigned_at = Time.now
     end
 
-    before_transition any => :started do |task|
+    before_transition any - [:started] => :started do |task|
       task.started_at = Time.now
     end
 
-    before_transition any => :claimed do |task|
+    before_transition any - [:claimed] => :claimed do |task|
       task.claimed_at = Time.now
     end
 
-    before_transition any => :completed do |task|
+    before_transition any - [:completed] => :completed do |task|
       task.completed_at = Time.now
     end
 
-    before_transition any => :abandoned do |task|
+    before_transition any - [:abandoned] => :abandoned do |task|
       task.abandoned_at = Time.now
     end
 
-    before_transition :abandoned => any do |task|
+    before_transition :abandoned => any - [:abandoned] do |task|
       task.reason_abandoned = nil
     end
   end
