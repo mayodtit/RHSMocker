@@ -47,9 +47,10 @@ class MemberSerializer < ActiveModel::Serializer
                             emergency_contact: object.emergency_contact.try(:serializer).try(:as_json))
         end
 
-        if options[:include_admin_information]
+        if options[:include_onboarding_information]
           attributes.merge!(feature_groups: object.feature_groups,
-                            onboarding_group_name: onboarding_group_name)
+                            onboarding_group_name: onboarding_group_name,
+                            referral_code_name: referral_code_name)
         end
       end
     end
@@ -117,5 +118,9 @@ class MemberSerializer < ActiveModel::Serializer
 
   def onboarding_group_name
     object.onboarding_group.try(:name)
+  end
+
+  def referral_code_name
+    object.referral_code.try(:name)
   end
 end
