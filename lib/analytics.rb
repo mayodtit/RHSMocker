@@ -5,6 +5,10 @@ class Analytics
     def log_remote_event(remote_event_id)
       remote_event = RemoteEvent.find(remote_event_id)
       user = remote_event.user || User.find_by_auth_token(remote_event.data_json['auth_token'])
+
+      # GA logging requires user
+      return if user.nil?
+
       remote_event.events.each do |e|
         hash = {build_number: remote_event.build_number,
                 device_os_version: remote_event.device_os_version,
