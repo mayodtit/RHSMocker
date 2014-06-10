@@ -62,7 +62,7 @@ resource 'UserRequest' do
     parameter :name, 'User facing name for the request'
     parameter :request_data, 'Hash of request attributes'
     required_parameters :subject_id, :user_request_type_id, :name
-    scope_parameters :user_request, %i(subject_id name request_data)
+    scope_parameters :user_request, %i(subject_id user_request_type_id name request_data)
 
     let(:subject_id) { user.id }
     let(:user_request_type_id) { create(:user_request_type).id }
