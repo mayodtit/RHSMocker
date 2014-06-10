@@ -173,18 +173,19 @@ describe PhoneCallTask do
 
       it 'claims the phone call' do
         task.owner = pha
+        task.assignor = pha
         task.phone_call.stub(:claimed?) { false }
         task.phone_call.should_receive(:update_attributes!).with(state_event: :claim, claimer: pha)
         task.claim!
       end
     end
 
-    describe '#unassign' do
-      let(:task) { build :phone_call_task, :assigned }
+    describe '#unstart' do
+      let(:task) { build :phone_call_task, :started }
 
       it 'unclaims a call' do
         task.phone_call.should_receive(:update_attributes!).with(state_event: :unclaim)
-        task.unassign!
+        task.unstart!
       end
     end
 

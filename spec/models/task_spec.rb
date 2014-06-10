@@ -54,13 +54,8 @@ describe Task do
   describe '#open?' do
     let(:task) { build :task }
 
-    it 'returns true when unassigned' do
-      task.state = 'unassigned'
-      task.should be_open
-    end
-
-    it 'returns true when assigned' do
-      task.state = 'assigned'
+    it 'returns true when unstarted' do
+      task.state = 'unstarted'
       task.should be_open
     end
 
@@ -115,7 +110,7 @@ describe Task do
 
   describe '#open' do
     it 'returns tasks that are still open' do
-      unassigned_task = create(:task)
+      unstarted_task = create(:task)
       assigned_task = create(:task, :assigned)
       started_task = create(:task, :started)
       claimed_task = create(:task, :claimed)
@@ -124,7 +119,7 @@ describe Task do
 
       open_tasks = Task.open
 
-      open_tasks.should be_include(unassigned_task)
+      open_tasks.should be_include(unstarted_task)
       open_tasks.should be_include(assigned_task)
       open_tasks.should be_include(started_task)
       open_tasks.should be_include(claimed_task)
@@ -151,6 +146,40 @@ describe Task do
       it 'does nothing' do
         task.should_not_receive(:role_id=)
         task.set_role
+      end
+    end
+  end
+
+  describe '#set_assigned_at' do
+    let(:task) { build :task }
+
+    before do
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
+    context 'owner id changed' do
+      before do
+        task.stub(:owner_id_changed?) { true }
+      end
+
+      it 'sets assigned at' do
+        task.set_assigned_at
+        task.assigned_at.should == Time.now
+      end
+    end
+
+    context 'owner id not changed' do
+      before do
+        task.stub(:owner_id_changed?) { false }
+      end
+
+      it 'sets assigned at to' do
+        task.set_assigned_at
+        task.assigned_at.should be_nil
       end
     end
   end
@@ -315,6 +344,7 @@ describe Task do
     let!(:task_3) { create :member_task }
     let!(:task_4) { create :member_task, :started, owner: pha }
     let!(:task_5) { create :member_task, :assigned, owner: other_pha }
+    let!(:task_6) { create :member_task, :abandoned }
 
     it 'returns unassigned and owned tasks' do
       tasks = Task.unassigned_and_owned(pha)
@@ -323,6 +353,7 @@ describe Task do
       tasks.should be_include(task_3)
       tasks.should be_include(task_4)
       tasks.should_not be_include(task_5)
+      tasks.should_not be_include(task_6)
     end
   end
 
@@ -339,45 +370,17 @@ describe Task do
       Timecop.return
     end
 
-    it 'has an initial state of unassigned' do
-      task.should be_unassigned
+    it 'has an initial state of unstarted' do
+      task.should be_unstarted
     end
 
-    describe '#unassign' do
-      let(:task) { build :task, :assigned }
+    describe '#unstart' do
+      let(:task) { build :task, :started }
 
-      it 'changes state to unassigned' do
-        task.should_not be_unassigned
-        task.unassign!
-        task.should be_unassigned
-      end
-
-      it 'removes assignor' do
-        task.assignor.should be_present
-        task.unassign!
-        task.assignor.should_not be_present
-      end
-
-      it 'removes owner' do
-        task.owner.should be_present
-        task.unassign!
-        task.owner.should_not be_present
-      end
-    end
-
-    describe '#assign' do
-      let(:task) { build :task }
-
-      it 'changes state to assigned' do
-        task.should_not be_assigned
-        task.update_attributes! state_event: :assign, owner: pha, assignor: pha_lead
-        task.should be_assigned
-      end
-
-      it 'sets assigned at' do
-        task.assigned_at.should be_nil
-        task.update_attributes! state_event: :assign, owner: pha, assignor: pha_lead
-        task.assigned_at.should == Time.now
+      it 'changes state to unstarted' do
+        task.should_not be_unstarted
+        task.unstart!
+        task.should be_unstarted
       end
     end
 
@@ -398,9 +401,9 @@ describe Task do
     end
 
     describe '#claim' do
-      let(:task) { build :task }
+      let(:task) { build :task, assignor: pha }
 
-      it_behaves_like 'cannot transition from', :unassign!, [:claimed]
+      it_behaves_like 'cannot transition from', :claim!, [:claimed]
 
       it 'changes state to claimed' do
         task.should_not be_claimed

@@ -23,13 +23,14 @@ class Task < ActiveRecord::Base
   validate :one_claimed_per_owner
 
   before_validation :set_role, on: :create
+  before_validation :set_assigned_at
 
   after_save :publish
   after_save :notify
 
   scope :nurse, -> { where(['role_id = ?', Role.find_by_name!('nurse').id]) }
   scope :pha, -> { where(['role_id = ?', Role.find_by_name!('pha').id]) }
-  scope :unassigned_and_owned, -> (hcp) { where(['state = ? OR (state IN (?, ?) AND owner_id = ?)', :unassigned, :assigned, :started, hcp.id]) }
+  scope :unassigned_and_owned, -> (hcp) { where(['(owner_id IS NULL AND state NOT IN (?)) OR (state IN (?, ?) AND owner_id = ?)', :abandoned, :unstarted, :started, hcp.id]) }
 
   def open?
     !(%w(completed abandoned).include? state)
@@ -51,10 +52,20 @@ class Task < ActiveRecord::Base
     self.role_id = Role.find_by_name!(:pha).id if role_id.nil?
   end
 
+  def set_assigned_at
+    if owner_id_changed?
+      self.assigned_at = Time.now
+    end
+  end
+
   def notify
     if unassigned?
       UserMailer.delay.notify_phas_of_new_task if for_pha?
     end
+  end
+
+  def unassigned?
+    owner_id.nil?
   end
 
   def publish
@@ -74,13 +85,9 @@ class Task < ActiveRecord::Base
     end
   end
 
-  state_machine :initial => :unassigned do
-    event :unassign do
-      transition any => :unassigned
-    end
-
-    event :assign do
-      transition any => :assigned
+  state_machine :initial => :unstarted do
+    event :unstart do
+      transition any => :unstarted
     end
 
     event :start do
@@ -97,15 +104,6 @@ class Task < ActiveRecord::Base
 
     event :complete do
       transition any => :completed
-    end
-
-    before_transition any => :unassigned do |task|
-      task.assignor = nil
-      task.owner = nil
-    end
-
-    before_transition any => :assigned do |task|
-      task.assigned_at = Time.now
     end
 
     before_transition any - [:started] => :started do |task|
@@ -131,9 +129,12 @@ class Task < ActiveRecord::Base
 
   # TODO: Write more comprehensive tests
   def attrs_for_states
+    if owner_id.present?
+      errors.add(:assignor_id, "must be present when #{self.class.name} is assigned") if assignor_id.nil?
+      errors.add(:assigned_at, "must be present when #{self.class.name} is assigned") if assigned_at.nil?
+    end
+
     case state
-      when 'assigned'
-        validate_actor_and_timestamp_exist :assign
       when 'started'
         validate_timestamp_exists :start
       when 'claimed'
@@ -147,7 +148,7 @@ class Task < ActiveRecord::Base
         end
     end
 
-    if %w(assigned started claimed completed).include? state
+    if %w(started claimed completed).include? state
       if owner_id.nil?
         errors.add(:owner_id, "must be present when #{self.class.name} is #{state}")
       end

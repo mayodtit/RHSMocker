@@ -13,9 +13,7 @@ class Api::V1::MemberTasksController < Api::V1::ABaseController
     attributes = task_attributes
 
     attributes[:creator] = current_user
-    if attributes[:state_event] == 'assign'
-      attributes[attributes[:state_event].event_actor.to_sym] = current_user
-    end
+    attributes[:assignor_id] = current_user.id if attributes[:owner_id].present?
 
     create_resource @member.tasks, attributes, name: :task
   end
@@ -27,6 +25,6 @@ class Api::V1::MemberTasksController < Api::V1::ABaseController
   end
 
   def task_attributes
-    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :subject_id, :service_type_id)
+    params.require(:task).permit(:title, :description, :due_at, :owner_id, :subject_id, :service_type_id)
   end
 end
