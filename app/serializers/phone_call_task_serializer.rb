@@ -13,7 +13,7 @@ class PhoneCallTaskSerializer < TaskSerializer
   end
 
   def transferrer
-    object.phone_call.transferred_from_phone_call && object.phone_call.transferred_from_phone_call.claimer.serializer(options)
+    object.phone_call.transferred_from_phone_call && object.phone_call.transferred_from_phone_call.claimer.try(:serializer, options)
   end
 
   def type
