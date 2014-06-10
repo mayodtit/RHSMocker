@@ -335,7 +335,7 @@ class PhoneCall < ActiveRecord::Base
     end
 
     event :claim do
-      transition [:ended, :unclaimed] => :claimed
+      transition [:ended, :unclaimed, :disconnected] => :claimed
     end
 
     event :miss do
