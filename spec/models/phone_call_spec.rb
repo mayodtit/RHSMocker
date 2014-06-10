@@ -1707,7 +1707,7 @@ describe PhoneCall do
         phone_call.claim!
       end
 
-      it_behaves_like 'cannot transition from', :claim!, [:merged, :dialing, :disconnected, :connected, :missed]
+      it_behaves_like 'cannot transition from', :claim!, [:merged, :dialing, :connected, :missed]
 
       it 'changes the state to claimed' do
         phone_call.should be_claimed
