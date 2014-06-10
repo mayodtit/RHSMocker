@@ -15,6 +15,6 @@ class MemberTaskSerializer < TaskSerializer
   end
 
   def type
-    'task'
+    'member'
   end
 end
