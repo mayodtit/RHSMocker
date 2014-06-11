@@ -16,7 +16,7 @@ resource "Member Tasks" do
   let!(:another_task) { create :task }
   let!(:one_more_task) { create :task }
 
-  let!(:unassigned_task) { create(:member_task, member: member, subject: relative, due_at: 3.days.ago) }
+  let!(:unstarted_task) { create(:member_task, member: member, subject: relative, due_at: 3.days.ago) }
   let!(:assigned_task) { create(:member_task, :assigned, member: member, subject: relative, due_at: 2.days.ago) }
   let!(:started_task) { create(:member_task, :started, member: member) }
   let!(:claimed_task) { create(:member_task, :claimed, owner: pha, member: member) }
@@ -24,7 +24,7 @@ resource "Member Tasks" do
   let!(:abandoned_task) { create(:member_task, :abandoned, member: member, subject: relative, due_at: 1.days.ago) }
 
   let!(:other_assigned_task) { create(:member_task, :assigned, member: other_member) }
-  let!(:other_unassigned_task) { create(:member_task, member: other_member) }
+  let!(:other_unstarted_task) { create(:member_task, member: other_member) }
 
   let(:auth_token) { pha.auth_token }
 
@@ -48,7 +48,7 @@ resource "Member Tasks" do
         explanation 'Get all tasks for a member (optionally filter by subject and state)'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        expect(response[:tasks].map{|t| t[:id]}).to include(unassigned_task.id, assigned_task.id, abandoned_task.id)
+        expect(response[:tasks].map{|t| t[:id]}).to include(unstarted_task.id, assigned_task.id, abandoned_task.id)
       end
     end
   end
@@ -93,7 +93,7 @@ resource "Member Tasks" do
         task.title.should == 'Title'
         task.description.should == 'Description'
         task.due_at.to_s.should == task_due_at.to_s
-        task.state.should == 'assigned'
+        task.state.should == 'unstarted'
         task.owner.should == other_pha
         task.service_type.should == service_type
       end

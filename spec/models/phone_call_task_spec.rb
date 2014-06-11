@@ -157,7 +157,7 @@ describe PhoneCallTask do
         end
 
         it 'creates a task with the phone_call' do
-          PhoneCallTask.should_receive(:create!).with(title: 'Unknown', phone_call: phone_call, creator: Member.robot, due_at: phone_call.created_at)
+          PhoneCallTask.should_receive(:create!).with(title: 'Inbound Phone Call', phone_call: phone_call, creator: Member.robot, due_at: phone_call.created_at)
           PhoneCallTask.create_if_only_opened_for_phone_call!(phone_call)
         end
       end
@@ -173,18 +173,19 @@ describe PhoneCallTask do
 
       it 'claims the phone call' do
         task.owner = pha
+        task.assignor = pha
         task.phone_call.stub(:claimed?) { false }
         task.phone_call.should_receive(:update_attributes!).with(state_event: :claim, claimer: pha)
         task.claim!
       end
     end
 
-    describe '#unassign' do
-      let(:task) { build :phone_call_task, :assigned }
+    describe '#unstart' do
+      let(:task) { build :phone_call_task, :started }
 
       it 'unclaims a call' do
         task.phone_call.should_receive(:update_attributes!).with(state_event: :unclaim)
-        task.unassign!
+        task.unstart!
       end
     end
 

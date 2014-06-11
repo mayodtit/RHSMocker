@@ -405,4 +405,44 @@ describe Member do
       member.should_not be_has_role('role')
     end
   end
+
+  describe '#on_call?' do
+    let(:member) { build :member, on_call: false }
+
+    context 'nurse' do
+      before do
+        member.stub(:nurse?) { true }
+      end
+
+      it 'is true even if on call attribute is false' do
+        member.should be_on_call
+      end
+    end
+
+    context 'not nurse' do
+      before do
+        member.stub(:nurse?) { false }
+      end
+
+      context 'on call attr is false' do
+        before do
+          member.on_call = true
+        end
+
+        it 'is true' do
+          member.should be_on_call
+        end
+      end
+
+      context 'on call attr is true' do
+        before do
+          member.on_call = false
+        end
+
+        it 'is true' do
+          member.should_not be_on_call
+        end
+      end
+    end
+  end
 end

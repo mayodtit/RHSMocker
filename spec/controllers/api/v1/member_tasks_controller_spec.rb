@@ -71,13 +71,8 @@ describe Api::V1::MemberTasksController do
       end
     end
 
-    def do_request(state_event = nil)
+    def do_request
       task_attributes = {title: 'Title'}
-
-      if state_event
-        task_attributes[:state_event] = state_event
-      end
-
       post :create, auth_token: user.auth_token, member_id: member.id, task: task_attributes
     end
 
@@ -102,36 +97,25 @@ describe Api::V1::MemberTasksController do
         body[:task].to_json.should == task.serializer.as_json.to_json
       end
 
-      context 'state event is present' do
-        context 'state event is assign' do
-          it 'assigns the actor to the current user' do
-            member.should_receive(:tasks) do
-              o = Object.new
-              o.should_receive(:create).with(
-                'creator' => user,
-                'title' => 'Title',
-                'state_event' => 'assign',
-                'assignor' => user) { task }
-              o
-            end
-
-            do_request 'assign'
+      context 'owner id is present' do
+        it 'sets assignor_id to current user' do
+          member.should_receive(:tasks) do
+            o = Object.new
+            o.should_receive(:create).with(hash_including('assignor_id' => user.id)) { task }
+            o
           end
+          post :create, auth_token: user.auth_token, member_id: member.id, task: {owner_id: 2}
         end
+      end
 
-        context 'state event is not assign' do
-          it 'assigns the actor to the current user' do
-            member.should_receive(:tasks) do
-              o = Object.new
-              o.should_receive(:create).with(
-                'creator' => user,
-                'title' => 'Title',
-                'state_event' => 'complete') { task }
-              o
-            end
-
-            do_request 'complete'
+      context 'owner id is not present' do
+        it 'sets assignor_id to current user' do
+          member.should_receive(:tasks) do
+            o = Object.new
+            o.should_receive(:create).with(hash_excluding('assignor_id')) { task }
+            o
           end
+          post :create, auth_token: user.auth_token, member_id: member.id, task: {title: 'Title'}
         end
       end
     end

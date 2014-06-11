@@ -22,7 +22,7 @@ class PhoneCallTask < Task
   def self.create_if_only_opened_for_phone_call!(phone_call)
     if phone_call.to_role.on_call? && open.where(phone_call_id: phone_call.id).count == 0
       create!(
-        title: phone_call.consult ? phone_call.consult.title : 'Unknown',
+        title: 'Inbound Phone Call',
         phone_call: phone_call,
         creator: Member.robot,
         due_at: phone_call.created_at
@@ -30,8 +30,8 @@ class PhoneCallTask < Task
     end
   end
 
-  state_machine :initial => :unassigned do
-    before_transition any => :unassigned do |task|
+  state_machine :initial => :unstarted do
+    before_transition any => :unstarted do |task|
       task.phone_call.update_attributes!(state_event: :unclaim)
     end
 

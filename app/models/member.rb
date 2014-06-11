@@ -54,7 +54,7 @@ class Member < User
                   :apns_token, :is_premium, :free_trial_ends_at, :last_contact_at,
                   :skip_agreement_validation, :signed_up_at, :subscription_ends_at,
                   :test_user, :marked_for_deletion, :onboarding_group, :onboarding_group_id,
-                  :referral_code, :referral_code_id
+                  :referral_code, :referral_code_id, :on_call
 
   validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
@@ -129,6 +129,10 @@ class Member < User
 
   def care_provider?
     pha? || nurse?
+  end
+
+  def on_call?
+    nurse? || read_attribute(:on_call)
   end
 
   def login

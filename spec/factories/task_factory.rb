@@ -5,7 +5,6 @@ FactoryGirl.define do
     due_at Time.now
 
     trait :assigned do
-      state 'assigned'
       association :owner, factory: :member
       association :assignor, factory: :member
       assigned_at Time.now
@@ -14,24 +13,26 @@ FactoryGirl.define do
     trait :started do
       state 'started'
       association :owner, factory: :member
+      association :assignor, factory: :member
       started_at Time.now
     end
 
     trait :claimed do
       state 'claimed'
       association :owner, factory: :member
+      association :assignor, factory: :member
       claimed_at Time.now
     end
 
     trait :completed do
       state 'completed'
       association :owner, factory: :member
+      association :assignor, factory: :member
       completed_at Time.now
     end
 
     trait :abandoned do
       state 'abandoned'
-      association :owner, factory: :member
       association :abandoner, factory: :member
       reason_abandoned 'missed'
       abandoned_at Time.now

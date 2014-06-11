@@ -1818,8 +1818,6 @@ describe PhoneCall do
         phone_call.end!
       end
 
-      it_behaves_like 'cannot transition from', :end!, [:unclaimed, :unresolved]
-
       it 'changes the state to ended' do
         phone_call.should be_ended
       end
