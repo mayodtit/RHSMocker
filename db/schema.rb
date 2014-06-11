@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140604221343) do
+ActiveRecord::Schema.define(:version => 20140611011818) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -763,6 +763,7 @@ ActiveRecord::Schema.define(:version => 20140604221343) do
     t.datetime "created_at",           :null => false
     t.datetime "updated_at",           :null => false
     t.integer  "user_request_type_id"
+    t.text     "request_data"
   end
 
   create_table "user_roles", :force => true do |t|
@@ -848,6 +849,7 @@ ActiveRecord::Schema.define(:version => 20140604221343) do
     t.boolean  "marked_for_deletion",                                                         :default => false, :null => false
     t.integer  "onboarding_group_id"
     t.integer  "referral_code_id"
+    t.boolean  "on_call",                                                                     :default => false
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true

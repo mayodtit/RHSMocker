@@ -16,10 +16,13 @@ resource 'AppointmentRequests' do
   post '/api/v1/users/:user_id/appointment_requests' do
     parameter :subject_id, 'Subject for the request'
     parameter :name, 'User facing name for the request'
+    parameter :request_data, 'Hash of request attributes'
     required_parameters :subject_id, :name
+    scope_parameters :user_request, %i(subject_id name request_data)
 
     let(:subject_id) { user.id }
     let(:name) { 'New request' }
+    let(:request_data) { {client: :data} }
     let(:id) { user_request.id }
     let(:raw_post) { params.to_json }
 

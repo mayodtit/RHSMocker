@@ -3,6 +3,7 @@ FactoryGirl.define do
     first_name            { ["Harold", "Kumar", "Alice", "Bob"].sample }
     last_name             { ["Lee", "Patel", "Carol", "Dan"].sample }
     association :owner, factory: :member
+    on_call false
 
     factory :member, class: Member, aliases: [:user_with_email] do
       sequence(:install_id) { |n| "Install-ID-#{n}" }

@@ -17,7 +17,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
     authorize! :read, Task
 
     tasks = []
-    Task.unassigned_and_owned(current_user).includes(:member).order('due_at, created_at ASC').each do |task|
+    (current_user.on_call? ? Task.needs_triage(current_user) : Task.owned(current_user)).includes(:member).order('due_at, created_at ASC').each do |task|
       tasks.push(task) if can? :read, task
     end
 
@@ -40,12 +40,16 @@ class Api::V1::TasksController < Api::V1::ABaseController
 
     update_params = task_attributes
 
-    if %w(assign abandon).include? update_params[:state_event]
+    if update_params[:state_event] == 'abandon'
       update_params[update_params[:state_event].event_actor.to_sym] = current_user
     end
 
     if %w(assign start claim abandon complete).include?(update_params[:state_event]) && !@task.owner_id && !update_params[:owner_id]
       update_params[:owner_id] = current_user.id
+    end
+
+    if update_params[:owner_id].present? && update_params[:owner_id].to_i != @task.owner_id
+      update_params[:assignor_id] = current_user.id
     end
 
     update_resource @task, update_params

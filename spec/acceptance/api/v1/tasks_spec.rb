@@ -25,19 +25,19 @@ resource "Tasks" do
 
   describe 'tasks' do
     parameter :auth_token, 'Performing hcp\'s auth_token'
-    parameter :state, 'Filter by the state of task (e.g. \'unassigned\',\'started\', \'completed\')'
+    parameter :state, 'Filter by the state of task (e.g. \'unstarted\',\'started\', \'completed\')'
 
     required_parameters :auth_token
 
     let(:auth_token) { pha.auth_token }
-    let(:state) { 'unassigned' }
+    let(:state) { 'unstarted' }
 
     get '/api/v1/tasks/' do
       example_request '[GET] Get all tasks' do
         explanation 'Get all tasks (along with the member\'s information), most recent first. Accessible only by HCPs'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        response[:tasks].to_json.should == [task, another_task, one_more_task].serializer(shallow: true).to_json
+        response[:tasks].to_json.should == [task, another_task, one_more_task, assigned_task].serializer(shallow: true).to_json
       end
     end
   end
@@ -57,7 +57,7 @@ resource "Tasks" do
         explanation 'Get the task queue for the current user. Accessible only by HCPs'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        response[:tasks].to_json.should == [assigned_task, started_task, task, another_task, one_more_task].serializer(shallow: true).to_json
+        response[:tasks].to_json.should == [assigned_task, started_task].serializer(shallow: true).to_json
       end
     end
   end

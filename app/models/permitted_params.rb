@@ -42,7 +42,18 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:address).permit(*address_attributes)
   end
 
+  def user_request
+    params.require(:user_request)
+          .permit(*user_request_attributes).tap do |attributes|
+      attributes[:request_data] = params[:user_request][:request_data] if params[:user_request][:request_data]
+    end
+  end
+
   private
+
+  def user_request_attributes
+    %w(user_id subject_id name user_request_type_id)
+  end
 
   def user_params
     params.fetch(:user){params.require(:member)}
@@ -55,6 +66,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
         attributes << {user_agreements_attributes: [:agreement_id, :ip_address, :user_agent]}
       elsif current_user != subject
         attributes << :email
+      end
+
+      if current_user && current_user.care_provider?
+        attributes << :on_call
       end
 
       if current_user && current_user.pha?

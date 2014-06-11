@@ -335,7 +335,7 @@ class PhoneCall < ActiveRecord::Base
     end
 
     event :claim do
-      transition [:ended, :unclaimed] => :claimed
+      transition [:ended, :unclaimed, :disconnected] => :claimed
     end
 
     event :miss do
@@ -359,9 +359,7 @@ class PhoneCall < ActiveRecord::Base
     end
 
     event :end do
-      transition(
-        [:disconnected, :connected, :claimed] => :ended
-      )
+      transition any => :ended
     end
 
     # NOTE: Backwards compatibility with old design of CP

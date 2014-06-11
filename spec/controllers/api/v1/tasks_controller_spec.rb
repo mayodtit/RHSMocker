@@ -80,24 +80,56 @@ describe Api::V1::TasksController do
 
       it_behaves_like 'success'
 
-      it 'returns tasks for the current hcp' do
-        Task.should_receive(:unassigned_and_owned).with(user) do
-          o = Object.new
-          o.stub(:includes).with(:member) do
-            o_o = Object.new
-            o_o.stub(:order).with('due_at, created_at ASC') do
-              o_o_o = Object.new
-              o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
-              o_o_o
-            end
-            o_o
-          end
-          o
+      context 'not on call' do
+        before do
+          user.stub(:on_call?) { false }
         end
 
-        do_request
-        body = JSON.parse(response.body, symbolize_names: true)
-        body[:tasks].to_json.should == tasks.serializer(shallow: true).as_json.to_json
+        it 'returns tasks for the current hcp' do
+          Task.should_receive(:owned).with(user) do
+            o = Object.new
+            o.stub(:includes).with(:member) do
+              o_o = Object.new
+              o_o.stub(:order).with('due_at, created_at ASC') do
+                o_o_o = Object.new
+                o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
+                o_o_o
+              end
+              o_o
+            end
+            o
+          end
+
+          do_request
+          body = JSON.parse(response.body, symbolize_names: true)
+          body[:tasks].to_json.should == tasks.serializer(shallow: true).as_json.to_json
+        end
+      end
+
+      context 'on call' do
+        before do
+          user.stub(:on_call?) { true }
+        end
+
+        it 'returns tasks for the current hcp' do
+          Task.should_receive(:needs_triage).with(user) do
+            o = Object.new
+            o.stub(:includes).with(:member) do
+              o_o = Object.new
+              o_o.stub(:order).with('due_at, created_at ASC') do
+                o_o_o = Object.new
+                o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
+                o_o_o
+              end
+              o_o
+            end
+            o
+          end
+
+          do_request
+          body = JSON.parse(response.body, symbolize_names: true)
+          body[:tasks].to_json.should == tasks.serializer(shallow: true).as_json.to_json
+        end
       end
     end
   end
@@ -192,38 +224,130 @@ describe Api::V1::TasksController do
         end
 
         context 'state event is present' do
-          it 'sets the actor and owner to the current user' do
-            task.should_receive(:update_attributes).with(
-              'state_event' => 'abandon',
-              'abandoner' => user,
-              'owner_id' => user.id
-            )
+          context 'state event is abandon' do
+            it 'sets the actor to the current user' do
+              task.should_receive(:update_attributes).with(
+                'state_event' => 'abandon',
+                'abandoner' => user
+              )
 
-            do_request
+              task.stub(:owner_id) { user.id }
+              task.stub(:assignor_id) { user.id }
+              put :update, auth_token: user.auth_token, id: task.id, task: {state_event: 'abandon'}
+            end
           end
 
-          context 'and valid' do
-            context 'update is valid' do
-              before do
-                task.stub(:update_attributes) { true }
-              end
-
-              it_behaves_like 'success'
+          context 'task does not have an owner' do
+            before do
+              task.stub(:owner_id) { nil }
             end
 
-            context 'update is not valid' do
-              before do
-                task.stub(:update_attributes) { false }
+            context 'owner id is not present' do
+              def do_request
+                put :update, auth_token: user.auth_token, id: task.id, task: {state_event: 'start'}
               end
 
-              it_behaves_like 'failure'
+              it 'sets owner id to current user' do
+                task.should_receive(:update_attributes).with hash_including('owner_id' => user.id)
+                do_request
+              end
+            end
+
+            context 'owner id is present' do
+              def do_request
+                put :update, auth_token: user.auth_token, id: task.id, task: {state_event: 'start', owner_id: 2}
+              end
+
+              it 'does nothing' do
+                task.should_receive(:update_attributes).with hash_including('owner_id' => '2')
+                do_request
+              end
+            end
+          end
+
+          context 'task has an owner' do
+            before do
+              task.stub(:owner_id) { 4 }
+            end
+
+            context 'owner id is not present' do
+              def do_request
+                put :update, auth_token: user.auth_token, id: task.id, task: {state_event: 'start'}
+              end
+
+              it 'does nothing' do
+                task.should_receive(:update_attributes).with hash_excluding('owner_id')
+                do_request
+              end
+            end
+
+            context 'owner id is present' do
+              def do_request
+                put :update, auth_token: user.auth_token, id: task.id, task: {state_event: 'start', owner_id: 2}
+              end
+
+              it 'does nothing' do
+                task.should_receive(:update_attributes).with hash_including('owner_id' => '2')
+                do_request
+              end
             end
           end
         end
 
-        context 'state event is not present' do
+        context 'owner id is present' do
           def do_request
-            put :update, auth_token: user.auth_token, id: task.id
+            put :update, auth_token: user.auth_token, id: task.id, task: {owner_id: 2}
+          end
+
+          context 'owner id does not match task' do
+            before do
+              task.stub(:owner_id) { 3 }
+            end
+
+            it 'sets assignor_id to current user' do
+              task.should_receive(:update_attributes).with hash_including('assignor_id' => user.id)
+              do_request
+            end
+          end
+
+          context 'owner id matches task' do
+            before do
+              task.stub(:owner_id) { 2 }
+            end
+
+            def do_request
+              put :update, auth_token: user.auth_token, id: task.id, task: {owner_id: 2}
+            end
+
+            it 'does nothing' do
+              task.should_receive(:update_attributes).with hash_excluding('assignor_id')
+              do_request
+            end
+          end
+
+          context 'task has no owner' do
+            before do
+              task.stub(:owner_id) { nil }
+            end
+
+            it 'sets assignor_id to current user' do
+              task.should_receive(:update_attributes).with hash_including('assignor_id' => user.id)
+              do_request
+            end
+          end
+        end
+
+        context 'update is valid' do
+          before do
+            task.stub(:update_attributes) { true }
+          end
+
+          it_behaves_like 'success'
+        end
+
+        context 'update is not valid' do
+          before do
+            task.stub(:update_attributes) { false }
           end
 
           it_behaves_like 'failure'

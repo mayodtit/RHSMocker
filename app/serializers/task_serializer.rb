@@ -20,7 +20,7 @@ class TaskSerializer < ActiveModel::Serializer
         attributes.merge!(
           member: object.member.try(:serializer, options),
           owner: object.owner.try(:serializer, options),
-          service_type: object.service_type.try(:serializer, options)
+          service_type: object.service_type
         )
       end
     end
