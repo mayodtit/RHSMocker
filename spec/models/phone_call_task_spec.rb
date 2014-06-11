@@ -157,7 +157,7 @@ describe PhoneCallTask do
         end
 
         it 'creates a task with the phone_call' do
-          PhoneCallTask.should_receive(:create!).with(title: 'Unknown', phone_call: phone_call, creator: Member.robot, due_at: phone_call.created_at)
+          PhoneCallTask.should_receive(:create!).with(title: 'Inbound Phone Call', phone_call: phone_call, creator: Member.robot, due_at: phone_call.created_at)
           PhoneCallTask.create_if_only_opened_for_phone_call!(phone_call)
         end
       end
