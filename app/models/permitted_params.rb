@@ -68,6 +68,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
         attributes << :email
       end
 
+      if current_user && current_user.care_provider?
+        attributes << :on_call
+      end
+
       if current_user && current_user.pha?
         attributes << :pha_id
         attributes << {user_information_attributes: user_information_attributes}

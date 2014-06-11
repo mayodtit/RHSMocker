@@ -57,7 +57,7 @@ resource "Tasks" do
         explanation 'Get the task queue for the current user. Accessible only by HCPs'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        response[:tasks].to_json.should == [assigned_task, started_task, task, another_task, one_more_task].serializer(shallow: true).to_json
+        response[:tasks].to_json.should == [assigned_task, started_task].serializer(shallow: true).to_json
       end
     end
   end

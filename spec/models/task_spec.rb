@@ -336,7 +336,7 @@ describe Task do
     end
   end
 
-  describe 'unassigned_and_owned' do
+  describe 'scopes' do
     let!(:pha) { create :pha }
     let!(:other_pha) { create :pha }
     let!(:task_1) { create :member_task, :assigned, owner: pha }
@@ -345,15 +345,41 @@ describe Task do
     let!(:task_4) { create :member_task, :started, owner: pha }
     let!(:task_5) { create :member_task, :assigned, owner: other_pha }
     let!(:task_6) { create :member_task, :abandoned }
+    let!(:task_7) { create :message_task, :assigned, owner: pha }
+    let!(:task_8) { create :phone_call_task, :assigned, owner: pha }
+    let!(:task_9) { create :message_task }
+    let!(:task_10) { create :phone_call_task }
 
-    it 'returns unassigned and owned tasks' do
-      tasks = Task.unassigned_and_owned(pha)
-      tasks.should be_include(task_1)
-      tasks.should be_include(task_2)
-      tasks.should be_include(task_3)
-      tasks.should be_include(task_4)
-      tasks.should_not be_include(task_5)
-      tasks.should_not be_include(task_6)
+    describe '#owned' do
+      it 'returns owned tasks' do
+        tasks = Task.owned(pha)
+        tasks.should be_include(task_1)
+        tasks.should_not be_include(task_2)
+        tasks.should_not be_include(task_3)
+        tasks.should be_include(task_4)
+        tasks.should_not be_include(task_5)
+        tasks.should_not be_include(task_6)
+        tasks.should be_include(task_7)
+        tasks.should be_include(task_8)
+        tasks.should_not be_include(task_9)
+        tasks.should_not be_include(task_10)
+      end
+    end
+
+    describe '#needs_triage' do
+      it 'returns tasks that are unassigned or assigned inbound tasks' do
+        tasks = Task.needs_triage(pha)
+        tasks.should_not be_include(task_1)
+        tasks.should be_include(task_2)
+        tasks.should be_include(task_3)
+        tasks.should_not be_include(task_4)
+        tasks.should_not be_include(task_5)
+        tasks.should_not be_include(task_6)
+        tasks.should be_include(task_7)
+        tasks.should be_include(task_8)
+        tasks.should be_include(task_9)
+        tasks.should be_include(task_10)
+      end
     end
   end
 

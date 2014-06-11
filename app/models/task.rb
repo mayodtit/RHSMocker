@@ -30,7 +30,8 @@ class Task < ActiveRecord::Base
 
   scope :nurse, -> { where(['role_id = ?', Role.find_by_name!('nurse').id]) }
   scope :pha, -> { where(['role_id = ?', Role.find_by_name!('pha').id]) }
-  scope :unassigned_and_owned, -> (hcp) { where(['(owner_id IS NULL AND state NOT IN (?)) OR (state IN (?, ?) AND owner_id = ?)', :abandoned, :unstarted, :started, hcp.id]) }
+  scope :owned, -> (hcp) { where(['state IN (?, ?) AND owner_id = ?', :unstarted, :started, hcp.id]) }
+  scope :needs_triage, -> (hcp) { where(['(owner_id IS NULL AND state NOT IN (?)) OR (state IN (?, ?) AND owner_id = ? AND type IN (?, ?))', :abandoned, :unstarted, :started, hcp.id, PhoneCallTask.name, MessageTask.name]) }
 
   def open?
     !(%w(completed abandoned).include? state)

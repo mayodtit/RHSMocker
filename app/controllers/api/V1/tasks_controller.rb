@@ -17,7 +17,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
     authorize! :read, Task
 
     tasks = []
-    Task.unassigned_and_owned(current_user).includes(:member).order('due_at, created_at ASC').each do |task|
+    (current_user.on_call? ? Task.needs_triage(current_user) : Task.owned(current_user)).includes(:member).order('due_at, created_at ASC').each do |task|
       tasks.push(task) if can? :read, task
     end
 
