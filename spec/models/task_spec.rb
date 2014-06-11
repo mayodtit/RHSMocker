@@ -483,4 +483,72 @@ describe Task do
       end
     end
   end
+
+  describe '#set_owner' do
+    let(:task) { build :task }
+
+    before do
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
+    context 'member doesn\'t exist' do
+      before do
+        task.stub(:member) { nil }
+      end
+
+      it 'does nothing' do
+        task.set_owner
+        task.owner.should be_nil
+        task.assignor.should be_nil
+        task.assigned_at.should be_nil
+      end
+    end
+
+    context 'member exists' do
+      let(:member) { build :member }
+
+      before do
+        task.stub(:member) { member }
+      end
+
+      context 'member doesn\'t have a pha' do
+        before do
+          member.stub(:pha) { nil }
+        end
+
+        it 'does nothing' do
+          task.set_owner
+          task.owner.should be_nil
+          task.assignor.should be_nil
+          task.assigned_at.should be_nil
+        end
+      end
+
+      context 'member has a pha' do
+        let(:pha) { build :pha }
+        before do
+          member.stub(:pha) { pha }
+        end
+
+        it 'sets owner to pha' do
+          task.set_owner
+          task.owner.should == pha
+        end
+
+        it 'sets the assignor to the robot' do
+          task.set_owner
+          task.assignor.should == Member.robot
+        end
+
+        it 'sets the assigned at' do
+          task.set_owner
+          task.assigned_at.should == Time.now
+        end
+      end
+    end
+  end
 end

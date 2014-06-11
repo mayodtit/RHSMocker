@@ -7,4 +7,6 @@ class ParsedNurselineRecordTask < Task
                   :parsed_nurseline_record_id
 
   validates :member, :parsed_nurseline_record, presence: true
+
+  before_validation :set_owner, on: :create
 end

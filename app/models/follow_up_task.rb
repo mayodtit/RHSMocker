@@ -10,6 +10,8 @@ class FollowUpTask < Task
   validates :phone_call_id, presence: true
   validates :phone_call, presence: true, if: lambda { |t| t.phone_call_id }
 
+  before_validation :set_owner, on: :create
+
   def member
     phone_call.user || (consult && consult.initiator)
   end

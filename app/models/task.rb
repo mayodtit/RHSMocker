@@ -59,6 +59,15 @@ class Task < ActiveRecord::Base
     end
   end
 
+  # Descendants can use this in a before validation on create.
+  def set_owner
+    self.owner = member && member.pha
+    if self.owner
+      self.assignor = Member.robot
+      self.assigned_at = Time.now
+    end
+  end
+
   def notify
     if unassigned?
       UserMailer.delay.notify_phas_of_new_task if for_pha?
