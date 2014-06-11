@@ -359,9 +359,7 @@ class PhoneCall < ActiveRecord::Base
     end
 
     event :end do
-      transition(
-        [:disconnected, :connected, :claimed] => :ended
-      )
+      transition any => :ended
     end
 
     # NOTE: Backwards compatibility with old design of CP
