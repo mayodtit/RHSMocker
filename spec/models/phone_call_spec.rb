@@ -490,7 +490,7 @@ describe PhoneCall do
     end
 
     before do
-      PhoneCall.twilio.account.calls.stub(:create) { twilio_call }
+      TwilioModule.client.account.calls.stub(:create) { twilio_call }
 
       PhoneNumberUtil.stub(:format_for_dialing) do |number|
         "1#{number}"
@@ -506,7 +506,7 @@ describe PhoneCall do
 
     describe '#dial_origin' do
       it 'dials the origin phone number via twilio' do
-        PhoneCall.twilio.account.calls.should_receive(:create).with(
+        TwilioModule.client.account.calls.should_receive(:create).with(
           from: "1#{Metadata.pha_phone_number}",
           to: "1#{phone_call.origin_phone_number}",
           url: connect_url,
@@ -532,7 +532,7 @@ describe PhoneCall do
 
     describe '#dial_destination' do
       it 'dials the destination phone number via twilio' do
-        PhoneCall.twilio.account.calls.should_receive(:create).with(
+        TwilioModule.client.account.calls.should_receive(:create).with(
           from: "1#{Metadata.pha_phone_number}",
           to: "1#{phone_call.destination_phone_number}",
           url: connect_url,
@@ -876,7 +876,7 @@ describe PhoneCall do
 
     shared_examples 'completes call' do
       it 'completes the call' do
-        PhoneCall.twilio.account.calls.should_receive(:get).with('FAKE_SID') do
+        TwilioModule.client.account.calls.should_receive(:get).with('FAKE_SID') do
           o = Object.new
           o.should_receive(:update).with(status: 'completed')
           o
@@ -887,7 +887,7 @@ describe PhoneCall do
 
     shared_examples 'does nothing' do
       it 'does nothing' do
-        PhoneCall.twilio.account.calls.should_not_receive(:get)
+        TwilioModule.client.account.calls.should_not_receive(:get)
         phone_call.hang_up
       end
     end
