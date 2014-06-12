@@ -39,7 +39,7 @@ class ScheduledJobs
 
       Role.pha_stakeholders.each do |s|
         if s.work_phone_number
-          PhoneCall.twilio.account.messages.create(
+          TwilioModule.client.account.messages.create(
             from: PhoneNumberUtil::format_for_dialing(SERVICE_ALERT_PHONE_NUMBER),
             to: PhoneNumberUtil::format_for_dialing(s.work_phone_number),
             body: body
