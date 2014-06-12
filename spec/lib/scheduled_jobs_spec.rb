@@ -74,7 +74,7 @@ describe ScheduledJobs do
     let(:messages) { Object.new }
 
     before do
-      PhoneCall.stub_chain(:twilio, :account, :messages) { messages }
+      TwilioModule.stub_chain(:client, :account, :messages) { messages }
     end
 
     context 'phas forced off call' do

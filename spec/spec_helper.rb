@@ -64,6 +64,10 @@ def stub_out_twilio
     calls
   end
 
+  account.stub(:messages) do
+    calls
+  end
+
   calls.stub(:create) do
     call
   end
@@ -75,5 +79,5 @@ def stub_out_twilio
   call.stub(:sid) { 'FAKETWILIOSID' }
   call.stub(:update)
 
-  PhoneCall.stub(:twilio) { twilio }
+  TwilioModule.stub(:client) { twilio }
 end
