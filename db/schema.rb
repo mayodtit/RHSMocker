@@ -714,6 +714,13 @@ ActiveRecord::Schema.define(:version => 20140612003240) do
     t.datetime "updated_at",       :null => false
   end
 
+  create_table "user_images", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "image"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "user_informations", :force => true do |t|
     t.integer  "user_id"
     t.datetime "created_at", :null => false

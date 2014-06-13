@@ -142,6 +142,7 @@ RHSMocker::Application.routes.draw do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
+        resources :user_images, except: %i(new edit)
         resources :user_requests, only: %i(index show create update)
         resources :weights, :only => [:index, :create, :destroy]
 
