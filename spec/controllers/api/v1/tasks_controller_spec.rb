@@ -111,24 +111,56 @@ describe Api::V1::TasksController do
           user.stub(:on_call?) { true }
         end
 
-        it 'returns tasks for the current hcp' do
-          Task.should_receive(:needs_triage).with(user) do
-            o = Object.new
-            o.stub(:includes).with(:member) do
-              o_o = Object.new
-              o_o.stub(:order).with('due_at, created_at ASC') do
-                o_o_o = Object.new
-                o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
-                o_o_o
-              end
-              o_o
-            end
-            o
+        context 'metadata says only inbound and unassigned' do
+          before do
+            Metadata.stub(:on_call_queue_only_inbound_and_unassigned?) { true }
           end
 
-          do_request
-          body = JSON.parse(response.body, symbolize_names: true)
-          body[:tasks].to_json.should == tasks.serializer(shallow: true).as_json.to_json
+          it 'returns tasks for the current hcp' do
+            Task.should_receive(:needs_triage).with(user) do
+              o = Object.new
+              o.stub(:includes).with(:member) do
+                o_o = Object.new
+                o_o.stub(:order).with('due_at, created_at ASC') do
+                  o_o_o = Object.new
+                  o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
+                  o_o_o
+                end
+                o_o
+              end
+              o
+            end
+
+            do_request
+            body = JSON.parse(response.body, symbolize_names: true)
+            body[:tasks].to_json.should == tasks.serializer(shallow: true).as_json.to_json
+          end
+        end
+
+        context 'metadata says everything' do
+          before do
+            Metadata.stub(:on_call_queue_only_inbound_and_unassigned?) { false }
+          end
+
+          it 'returns tasks for the current hcp' do
+            Task.should_receive(:needs_triage_or_owned).with(user) do
+              o = Object.new
+              o.stub(:includes).with(:member) do
+                o_o = Object.new
+                o_o.stub(:order).with('due_at, created_at ASC') do
+                  o_o_o = Object.new
+                  o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
+                  o_o_o
+                end
+                o_o
+              end
+              o
+            end
+
+            do_request
+            body = JSON.parse(response.body, symbolize_names: true)
+            body[:tasks].to_json.should == tasks.serializer(shallow: true).as_json.to_json
+          end
         end
       end
     end

@@ -381,6 +381,22 @@ describe Task do
         tasks.should be_include(task_10)
       end
     end
+
+    describe '#needs_triage_or_owned' do
+      it 'returns tasks that are unassigned or assigned inbound tasks' do
+        tasks = Task.needs_triage_or_owned(pha)
+        tasks.should be_include(task_1)
+        tasks.should be_include(task_2)
+        tasks.should be_include(task_3)
+        tasks.should be_include(task_4)
+        tasks.should_not be_include(task_5)
+        tasks.should_not be_include(task_6)
+        tasks.should be_include(task_7)
+        tasks.should be_include(task_8)
+        tasks.should be_include(task_9)
+        tasks.should be_include(task_10)
+      end
+    end
   end
 
   describe 'states' do
