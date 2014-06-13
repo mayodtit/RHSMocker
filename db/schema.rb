@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140613190214) do
+ActiveRecord::Schema.define(:version => 20140613195353) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -626,8 +626,8 @@ ActiveRecord::Schema.define(:version => 20140613190214) do
     t.datetime "started_at"
     t.datetime "claimed_at"
     t.datetime "completed_at"
-    t.datetime "created_at",                 :null => false
-    t.datetime "updated_at",                 :null => false
+    t.datetime "created_at",                                :null => false
+    t.datetime "updated_at",                                :null => false
     t.integer  "creator_id"
     t.string   "state"
     t.integer  "abandoner_id"
@@ -636,8 +636,10 @@ ActiveRecord::Schema.define(:version => 20140613190214) do
     t.string   "type"
     t.integer  "parsed_nurseline_record_id"
     t.integer  "service_type_id"
+    t.integer  "priority",                   :default => 0, :null => false
   end
 
+  add_index "tasks", ["owner_id", "state", "due_at", "created_at"], :name => "index_tasks_for_queue"
   add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"
   add_index "tasks", ["state", "due_at", "created_at"], :name => "index_tasks_on_state_and_due_at_and_created_at"
   add_index "tasks", ["state"], :name => "index_tasks_on_state"

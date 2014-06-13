@@ -212,4 +212,13 @@ describe PhoneCallTask do
       end
     end
   end
+
+  describe '#set_priority' do
+    let(:task) { build :phone_call_task }
+
+    it 'sets it to zero' do
+      task.set_priority
+      task.priority.should == PhoneCallTask::PRIORITY
+    end
+  end
 end

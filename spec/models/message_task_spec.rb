@@ -181,4 +181,13 @@ describe MessageTask do
       end
     end
   end
+
+  describe '#set_priority' do
+    let(:task) { build :message_task }
+
+    it 'sets it to zero' do
+      task.set_priority
+      task.priority.should == MessageTask::PRIORITY
+    end
+  end
 end
