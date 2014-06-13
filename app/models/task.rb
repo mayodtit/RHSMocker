@@ -15,7 +15,7 @@ class Task < ActiveRecord::Base
                   :abandoner, :abandoner_id, :role, :role_id,
                   :state_event, :service_type_id, :service_type
 
-  validates :title, :state, :creator_id, :role_id, presence: true
+  validates :title, :state, :creator_id, :role_id, :due_at, presence: true
   validates :owner, presence: true, if: lambda { |t| t.owner_id }
   validates :role, presence: true, if: lambda { |t| t.role_id }
   validates :service_type, presence: true, if: lambda { |t| t.service_type_id }

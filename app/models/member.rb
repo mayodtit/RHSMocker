@@ -305,7 +305,7 @@ class Member < User
 
   def notify_pha_of_new_member
     if (newly_assigned_pha? && signed_up?) || (newly_signed_up? && pha_id.present?)
-      NewMemberTask.delay.create! member: self, title: 'New Premium Member', creator: Member.robot, due_at: Time.now
+      NewMemberTask.delay.create! member: self, title: 'New Premium Member', creator: Member.robot
     end
   end
 
