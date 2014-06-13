@@ -34,7 +34,7 @@ describe Api::V1::TasksController do
           o = Object.new
           o.stub(:includes).with(:member) do
             o_o = Object.new
-            o_o.stub(:order).with('due_at, created_at ASC') do
+            o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') do
               o_o_o = Object.new
               o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
               o_o_o
@@ -54,7 +54,7 @@ describe Api::V1::TasksController do
           o = Object.new
           o.stub(:includes).with(:member) do
             o_o = Object.new
-            o_o.stub(:order).with('due_at, created_at ASC') do
+            o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') do
               o_o_o = Object.new
               o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
               o_o_o
@@ -90,7 +90,7 @@ describe Api::V1::TasksController do
             o = Object.new
             o.stub(:includes).with(:member) do
               o_o = Object.new
-              o_o.stub(:order).with('due_at, created_at ASC') do
+              o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') do
                 o_o_o = Object.new
                 o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
                 o_o_o
@@ -121,7 +121,7 @@ describe Api::V1::TasksController do
               o = Object.new
               o.stub(:includes).with(:member) do
                 o_o = Object.new
-                o_o.stub(:order).with('due_at, created_at ASC') do
+                o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') do
                   o_o_o = Object.new
                   o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
                   o_o_o
@@ -147,7 +147,7 @@ describe Api::V1::TasksController do
               o = Object.new
               o.stub(:includes).with(:member) do
                 o_o = Object.new
-                o_o.stub(:order).with('due_at, created_at ASC') do
+                o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') do
                   o_o_o = Object.new
                   o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
                   o_o_o
