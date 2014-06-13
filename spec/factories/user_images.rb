@@ -1,5 +1,5 @@
 FactoryGirl.define do
   factory :user_image do
-    user
+    association :user, factory: :member
   end
 end
