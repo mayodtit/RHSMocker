@@ -34,17 +34,20 @@ class ScheduledJobs
 
   def self.alert_stakeholders_when_phas_forced_off_call
     if Metadata.force_phas_off_call?
-      body = "PHAs are currently forced after hours. This can be changed via the Care Portal."
-      body = "#{Rails.env} - #{body}" unless Rails.env.production?
+      body = "ALERT: PHAs are currently forced after hours. This can be changed via the Care Portal."
 
       Role.pha_stakeholders.each do |s|
-        if s.work_phone_number
-          TwilioModule.client.account.messages.create(
-            from: PhoneNumberUtil::format_for_dialing(SERVICE_ALERT_PHONE_NUMBER),
-            to: PhoneNumberUtil::format_for_dialing(s.work_phone_number),
-            body: body
-          )
-        end
+        TwilioModule.message s.work_phone_number, body
+      end
+    end
+  end
+
+  def self.alert_stakeholders_when_no_pha_on_call
+    if Role.pha.on_call? && Role.pha.users.where(on_call: true).count == 0
+      body = "ALERT: No PHAs triaging!"
+
+      Role.pha_stakeholders.each do |s|
+        TwilioModule.message s.work_phone_number, body
       end
     end
   end
