@@ -87,6 +87,7 @@ class Member < User
   after_save :send_meet_your_pha_email
   after_save :notify_pha_of_new_member
   after_save :create_initial_master_consult_message
+  after_save :alert_stakeholders_on_call_status
 
   scope :signed_up, -> { where('signed_up_at IS NOT NULL') }
 
@@ -302,6 +303,25 @@ class Member < User
   def notify_pha_of_new_member
     if (newly_assigned_pha? && signed_up?) || (newly_signed_up? && pha_id.present?)
       NewMemberTask.delay.create! member: self, title: 'New Premium Member', creator: Member.robot, due_at: Time.now
+    end
+  end
+
+  def alert_stakeholders_on_call_status
+    if pha? && on_call_changed? && Role.pha.on_call?
+      num_phas_on_call = Role.pha.users.where(on_call: true).count
+      body = nil
+
+      if num_phas_on_call == 1 && on_call? # Only alert when first PHA starts triaging
+        body = "OK: PHAs are triaging."
+      elsif num_phas_on_call == 0
+        body = "ALERT: No PHAs triaging!"
+      end
+
+      if body
+        Role.pha_stakeholders.each do |s|
+          TwilioModule.message s.work_phone_number, body
+        end
+      end
     end
   end
 

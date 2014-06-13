@@ -445,4 +445,163 @@ describe Member do
       end
     end
   end
+
+  describe '#alert_stakeholders_on_call_status' do
+    let(:member) { build :member }
+
+    context 'pha' do
+      before do
+        member.stub(:pha?) { true }
+      end
+
+      context 'on_call changed' do
+        before do
+          member.stub(:on_call_changed?) { true }
+        end
+
+        context 'phas are on call' do
+          let(:stakeholders) { [build_stubbed(:member), build_stubbed(:pha_lead, work_phone_number: '1111111111'), build_stubbed(:pha_lead, work_phone_number: '4083913578')] }
+
+          before do
+            Role.stub_chain(:pha, :on_call?) { true }
+          end
+
+          context 'first pha came on call' do
+            before do
+              Role.stub_chain(:pha, :users) do
+                o = Object.new
+                o.stub(:where).with(on_call: true) do
+                  o_o = Object.new
+                  o_o.stub(:count) { 1 }
+                  o_o
+                end
+                o
+              end
+              member.stub(:on_call?) { true }
+            end
+
+            it 'sends a message to each stakeholder' do
+              Role.stub(:pha_stakeholders) { stakeholders }
+              TwilioModule.should_receive(:message).with(
+                nil,
+                "OK: PHAs are triaging."
+              )
+              TwilioModule.should_receive(:message).with(
+                '1111111111',
+                "OK: PHAs are triaging."
+              )
+              TwilioModule.should_receive(:message).with(
+                '4083913578',
+                "OK: PHAs are triaging."
+              )
+              member.alert_stakeholders_on_call_status
+            end
+          end
+
+          context 'second pha went off call' do
+            before do
+              Role.stub_chain(:pha, :users) do
+                o = Object.new
+                o.stub(:where).with(on_call: true) do
+                  o_o = Object.new
+                  o_o.stub(:count) { 1 }
+                  o_o
+                end
+                o
+              end
+              member.stub(:on_call?) { false }
+            end
+
+            it 'does nothing' do
+              TwilioModule.should_not_receive :message
+              member.alert_stakeholders_on_call_status
+            end
+          end
+
+          context 'another pha came on call' do
+            before do
+              Role.stub_chain(:pha, :users) do
+                o = Object.new
+                o.stub(:where).with(on_call: true) do
+                  o_o = Object.new
+                  o_o.stub(:count) { 3 }
+                  o_o
+                end
+                o
+              end
+            end
+
+            it 'does nothing' do
+              TwilioModule.should_not_receive :message
+              member.alert_stakeholders_on_call_status
+            end
+          end
+
+          context 'last pha went off call' do
+            before do
+              Role.stub_chain(:pha, :users) do
+                o = Object.new
+                o.stub(:where).with(on_call: true) do
+                  o_o = Object.new
+                  o_o.stub(:count) { 0 }
+                  o_o
+                end
+                o
+              end
+            end
+
+            it 'sends a message to each stakeholder' do
+              Role.stub(:pha_stakeholders) { stakeholders }
+              TwilioModule.should_receive(:message).with(
+                nil,
+                "ALERT: No PHAs triaging!"
+              )
+              TwilioModule.should_receive(:message).with(
+                '1111111111',
+                "ALERT: No PHAs triaging!"
+              )
+              TwilioModule.should_receive(:message).with(
+                '4083913578',
+                "ALERT: No PHAs triaging!"
+              )
+              member.alert_stakeholders_on_call_status
+            end
+          end
+        end
+
+        context 'phas are not on call' do
+          before do
+            Role.stub_chain(:pha, :on_call?) { false }
+          end
+
+          it 'does nothing' do
+            TwilioModule.should_not_receive :message
+            member.alert_stakeholders_on_call_status
+          end
+        end
+      end
+
+      context 'on_call did not change' do
+        before do
+          member.stub(:on_call_changed?) { false }
+        end
+
+        it 'does nothing' do
+          TwilioModule.should_not_receive :message
+          member.alert_stakeholders_on_call_status
+        end
+      end
+    end
+
+    context 'not a pha' do
+      before do
+        member.stub(:pha?) { false }
+      end
+
+      it 'does nothing' do
+        TwilioModule.should_not_receive :message
+        member.alert_stakeholders_on_call_status
+      end
+    end
+  end
 end
