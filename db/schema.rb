@@ -639,7 +639,6 @@ ActiveRecord::Schema.define(:version => 20140613195353) do
     t.integer  "priority",                   :default => 0, :null => false
   end
 
-  add_index "tasks", ["owner_id", "state", "due_at", "created_at"], :name => "index_tasks_for_queue"
   add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"
   add_index "tasks", ["state", "due_at", "created_at"], :name => "index_tasks_on_state_and_due_at_and_created_at"
   add_index "tasks", ["state"], :name => "index_tasks_on_state"
