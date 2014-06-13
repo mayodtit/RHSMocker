@@ -38,6 +38,9 @@ class Member < User
   has_one :subscription_user, foreign_key: :user_id
   has_one :shared_subscription, through: :subscription_user, class_name: 'Subscription', source: :subscription
   has_many :tasks, class_name: 'MemberTask'
+  has_many :user_images, foreign_key: :user_id,
+                         inverse_of: :user,
+                         dependent: :destroy
 
   belongs_to :onboarding_group, inverse_of: :users
   belongs_to :referral_code, inverse_of: :users
