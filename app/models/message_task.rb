@@ -1,6 +1,6 @@
 class MessageTask < Task
   include ActiveModel::ForbiddenAttributesProtection
-
+  PRIORITY = 5
   belongs_to :consult
   belongs_to :message
   has_one :member, through: :consult, source: :initiator
@@ -34,5 +34,9 @@ class MessageTask < Task
     if task && task.id != id
       errors.add(:consult_id, "open MessageTask already exists for Consult #{consult_id}")
     end
+  end
+
+  def set_priority
+    self.priority = PRIORITY
   end
 end

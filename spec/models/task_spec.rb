@@ -12,6 +12,8 @@ describe Task do
     it_validates 'presence of', :state
     it_validates 'presence of', :role_id
     it_validates 'presence of', :creator_id
+    it_validates 'presence of', :due_at
+    it_validates 'presence of', :priority
     it_validates 'foreign key of', :owner
     it_validates 'foreign key of', :role
     it_validates 'foreign key of', :service_type
@@ -147,6 +149,15 @@ describe Task do
         task.should_not_receive(:role_id=)
         task.set_role
       end
+    end
+  end
+
+  describe '#set_priority' do
+    let(:task) { build :task }
+
+    it 'sets it to zero' do
+      task.set_priority
+      task.priority.should == 0
     end
   end
 

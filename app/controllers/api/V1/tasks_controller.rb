@@ -6,7 +6,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
     authorize! :read, Task
 
     tasks = []
-    Task.where(params.permit(:state, :owner_id)).includes(:member).order('due_at, created_at ASC').each do |task|
+    Task.where(params.permit(:state, :owner_id)).includes(:member).order('priority DESC, due_at ASC, created_at ASC').each do |task|
       tasks.push(task) if can? :read, task
     end
 
@@ -26,7 +26,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
       end
     end
 
-    query.includes(:member).order('due_at, created_at ASC').each do |task|
+    query.includes(:member).order('priority DESC, due_at ASC, created_at ASC').each do |task|
       tasks.push(task) if can? :read, task
     end
 

@@ -9,4 +9,22 @@ class NewMemberTask < Task
   validates :member, presence: true, if: lambda { |t| t.member_id }
 
   before_validation :set_owner, on: :create
+  before_validation :set_due_at, on: :create
+
+  def set_due_at
+    return if due_at.present?
+
+    now = Time.now.in_time_zone('Pacific Time (US & Canada)')
+    if Role.pha.during_on_call? now
+      self.due_at = now.change hour: 18
+    else
+      if now.wday == 0 || now.wday == 6
+        self.due_at = now.change(hour: 9).next_wday 1
+      elsif now.hour > 17
+        self.due_at = (now + 1.day).change hour: 12
+      else
+        self.due_at = now.change hour: 18
+      end
+    end
+  end
 end

@@ -1,5 +1,6 @@
 class Task < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
+  PRIORITY = 0
 
   belongs_to :member
   belongs_to :role, class_name: 'Role'
@@ -15,7 +16,7 @@ class Task < ActiveRecord::Base
                   :abandoner, :abandoner_id, :role, :role_id,
                   :state_event, :service_type_id, :service_type
 
-  validates :title, :state, :creator_id, :role_id, presence: true
+  validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :owner, presence: true, if: lambda { |t| t.owner_id }
   validates :role, presence: true, if: lambda { |t| t.role_id }
   validates :service_type, presence: true, if: lambda { |t| t.service_type_id }
@@ -23,6 +24,7 @@ class Task < ActiveRecord::Base
   validate :one_claimed_per_owner
 
   before_validation :set_role, on: :create
+  before_validation :set_priority, on: :create
   before_validation :set_assigned_at
 
   after_save :publish
@@ -52,6 +54,10 @@ class Task < ActiveRecord::Base
 
   def set_role
     self.role_id = Role.find_by_name!(:pha).id if role_id.nil?
+  end
+
+  def set_priority
+    self.priority = PRIORITY
   end
 
   def set_assigned_at

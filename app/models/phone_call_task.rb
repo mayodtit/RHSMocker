@@ -1,6 +1,6 @@
 class PhoneCallTask < Task
   include ActiveModel::ForbiddenAttributesProtection
-
+  PRIORITY = 10
   belongs_to :phone_call
 
   has_one :member, through: :phone_call, source: :user
@@ -60,5 +60,9 @@ class PhoneCallTask < Task
     if task && task.id != id
       errors.add(:phone_call_id, "open PhoneCallTask already exists for #{phone_call_id}")
     end
+  end
+
+  def set_priority
+    self.priority = PRIORITY
   end
 end
