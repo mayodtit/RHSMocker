@@ -49,6 +49,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     end
   end
 
+  def user_image
+    params.require(:user_image).permit(:image)
+  end
+
   private
 
   def user_request_attributes
