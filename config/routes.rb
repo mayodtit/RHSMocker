@@ -82,6 +82,7 @@ RHSMocker::Application.routes.draw do
         get :available, on: :collection
         get :available_times, on: :collection
       end
+      resources :pha_profiles, only: %i(index show create update)
       get 'providers/search', to: 'providers#search'
       resources :providers, only: :index # TODO - this is deprecated; left in for users#index
       resources :provider_call_logs, only: :create
@@ -126,6 +127,7 @@ RHSMocker::Application.routes.draw do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
+        resources :heights, except: %i(new edit)
         resources :inverse_associations, only: [:index, :update, :destroy]
         post 'invite', :on => :member
         resources :cards, :only => [:create, :show, :update] do
@@ -144,8 +146,7 @@ RHSMocker::Application.routes.draw do
         end
         resources :user_images, except: %i(new edit)
         resources :user_requests, only: %i(index show create update)
-        resources :weights, :only => [:index, :create, :destroy]
-
+        resources :weights, except: %i(new edit)
         resources :consults, only: %i(index show create) do
           get :current, on: :collection
           resources :messages, only: %i(index create) do

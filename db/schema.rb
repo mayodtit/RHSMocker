@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140613195353) do
+ActiveRecord::Schema.define(:version => 20140616213844) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(:version => 20140613195353) do
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
     t.string   "address2"
-    t.string   "type"
+    t.string   "name"
   end
 
   create_table "agreements", :force => true do |t|
@@ -278,6 +278,14 @@ ActiveRecord::Schema.define(:version => 20140613195353) do
     t.text     "notes"
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
+  end
+
+  create_table "heights", :force => true do |t|
+    t.integer  "user_id"
+    t.decimal  "amount",     :precision => 9, :scale => 5
+    t.datetime "taken_at"
+    t.datetime "created_at",                               :null => false
+    t.datetime "updated_at",                               :null => false
   end
 
   create_table "insurance_policies", :force => true do |t|
@@ -639,7 +647,6 @@ ActiveRecord::Schema.define(:version => 20140613195353) do
     t.integer  "priority",                   :default => 0, :null => false
   end
 
-  add_index "tasks", ["owner_id", "state", "due_at", "created_at"], :name => "index_tasks_for_queue"
   add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"
   add_index "tasks", ["state", "due_at", "created_at"], :name => "index_tasks_on_state_and_due_at_and_created_at"
   add_index "tasks", ["state"], :name => "index_tasks_on_state"
@@ -811,12 +818,11 @@ ActiveRecord::Schema.define(:version => 20140613195353) do
     t.string   "last_name"
     t.string   "gender"
     t.date     "birth_date"
-    t.datetime "created_at",                                                                                     :null => false
-    t.datetime "updated_at",                                                                                     :null => false
+    t.datetime "created_at",                                                       :null => false
+    t.datetime "updated_at",                                                       :null => false
     t.string   "avatar"
     t.string   "install_id",                      :limit => 36
     t.string   "email"
-    t.decimal  "height",                                        :precision => 9, :scale => 5
     t.string   "phone"
     t.string   "crypted_password"
     t.string   "auth_token"
@@ -831,12 +837,12 @@ ActiveRecord::Schema.define(:version => 20140613195353) do
     t.string   "npi_number",                      :limit => 10
     t.date     "date_of_death"
     t.string   "expertise"
-    t.boolean  "deceased",                                                                    :default => false, :null => false
+    t.boolean  "deceased",                                      :default => false, :null => false
     t.string   "city"
     t.string   "state"
-    t.string   "type",                                                                        :default => "",    :null => false
+    t.string   "type",                                          :default => "",    :null => false
     t.string   "invitation_token"
-    t.string   "units",                                                                       :default => "US",  :null => false
+    t.string   "units",                                         :default => "US",  :null => false
     t.string   "stripe_customer_id"
     t.string   "google_analytics_uuid",           :limit => 36
     t.string   "avatar_url_override"
@@ -849,16 +855,16 @@ ActiveRecord::Schema.define(:version => 20140613195353) do
     t.integer  "owner_id"
     t.integer  "pha_id"
     t.string   "apns_token"
-    t.boolean  "is_premium",                                                                  :default => false
+    t.boolean  "is_premium",                                    :default => false
     t.datetime "free_trial_ends_at"
     t.datetime "last_contact_at"
     t.datetime "signed_up_at"
     t.datetime "subscription_ends_at"
-    t.boolean  "test_user",                                                                   :default => false, :null => false
-    t.boolean  "marked_for_deletion",                                                         :default => false, :null => false
+    t.boolean  "test_user",                                     :default => false, :null => false
+    t.boolean  "marked_for_deletion",                           :default => false, :null => false
     t.integer  "onboarding_group_id"
     t.integer  "referral_code_id"
-    t.boolean  "on_call",                                                                     :default => false
+    t.boolean  "on_call",                                       :default => false
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true

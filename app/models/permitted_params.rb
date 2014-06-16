@@ -53,6 +53,18 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:user_image).permit(:image)
   end
 
+  def height
+    params.require(:height).permit(:amount, :taken_at)
+  end
+
+  def weight
+    params.require(:weight).permit(:amount, :bmi, :taken_at)
+  end
+
+  def pha_profile
+    params.require(:pha_profile).permit(:user_id, :bio_image, :bio, :weekly_capacity)
+  end
+
   private
 
   def user_request_attributes
@@ -115,7 +127,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def address_attributes
-    %i(id address address2 line1 line2 city state postal_code type)
+    %i(id address address2 line1 line2 city state postal_code name type)
   end
 
   def insurance_policy_attributes
