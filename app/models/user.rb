@@ -142,6 +142,15 @@ class User < ActiveRecord::Base
     blood_pressures.most_recent
   end
 
+  def height=(amount)
+    heights.create(amount: amount,
+                   taken_at: Time.now)
+  end
+
+  def height
+    heights.most_recent.try(:amount)
+  end
+
   def weight
     weights.most_recent
   end
