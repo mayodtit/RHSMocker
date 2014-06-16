@@ -127,7 +127,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def address_attributes
-    %i(id address address2 line1 line2 city state postal_code type)
+    %i(id address address2 line1 line2 city state postal_code name type)
   end
 
   def insurance_policy_attributes

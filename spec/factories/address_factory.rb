@@ -8,11 +8,11 @@ FactoryGirl.define do
     postal_code '94301'
 
     trait :home do
-      type :home
+      name :home
     end
 
     trait :work do
-      type :work
+      name :work
     end
   end
 end
