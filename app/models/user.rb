@@ -9,6 +9,7 @@ class User < ActiveRecord::Base
                                   dependent: :destroy
   has_many :inverse_associates, through: :inverse_associations, source: :user
 
+  has_many :heights
   has_many :weights
   has_many :blood_pressures
   has_many :user_allergies
