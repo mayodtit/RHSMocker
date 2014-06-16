@@ -146,8 +146,7 @@ RHSMocker::Application.routes.draw do
         end
         resources :user_images, except: %i(new edit)
         resources :user_requests, only: %i(index show create update)
-        resources :weights, :only => [:index, :create, :destroy]
-
+        resources :weights, except: %i(new edit)
         resources :consults, only: %i(index show create) do
           get :current, on: :collection
           resources :messages, only: %i(index create) do
