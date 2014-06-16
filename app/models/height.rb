@@ -4,4 +4,8 @@ class Height < ActiveRecord::Base
   attr_accessible :user, :user_id, :amount, :taken_at
 
   validates :user, :amount, :taken_at, presence: true
+
+  def self.most_recent
+    order('taken_at DESC').first
+  end
 end
