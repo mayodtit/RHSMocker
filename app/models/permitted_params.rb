@@ -57,6 +57,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:height).permit(:amount, :taken_at)
   end
 
+  def pha_profile
+    params.require(:pha_profile).permit(:user_id, :bio_image, :bio, :weekly_capacity)
+  end
+
   private
 
   def user_request_attributes

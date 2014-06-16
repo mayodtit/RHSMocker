@@ -82,6 +82,7 @@ RHSMocker::Application.routes.draw do
         get :available, on: :collection
         get :available_times, on: :collection
       end
+      resources :pha_profiles, only: %i(index show create update)
       get 'providers/search', to: 'providers#search'
       resources :providers, only: :index # TODO - this is deprecated; left in for users#index
       resources :provider_call_logs, only: :create
