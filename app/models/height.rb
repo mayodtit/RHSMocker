@@ -1,5 +1,5 @@
 class Height < ActiveRecord::Base
-  belongs_to :user
+  belongs_to :user, inverse_of: :heights
 
   attr_accessible :user, :user_id, :amount, :taken_at
 

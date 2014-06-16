@@ -11,9 +11,9 @@ describe Weight do
     let(:weight) { build_stubbed(:weight) }
     let(:height) { 180 }
 
-    before(:each) do
+    before do
       weight.bmi = nil
-      weight.user.height = height
+      weight.user.safe_stub(:height).and_return(height)
     end
 
     it 'sets bmi before validation' do

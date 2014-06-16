@@ -9,7 +9,7 @@ class User < ActiveRecord::Base
                                   dependent: :destroy
   has_many :inverse_associates, through: :inverse_associations, source: :user
 
-  has_many :heights
+  has_many :heights, inverse_of: :user
   has_many :weights
   has_many :blood_pressures
   has_many :user_allergies
@@ -143,8 +143,8 @@ class User < ActiveRecord::Base
   end
 
   def height=(amount)
-    heights.create(amount: amount,
-                   taken_at: Time.now)
+    heights.build(amount: amount,
+                  taken_at: Time.now)
   end
 
   def height

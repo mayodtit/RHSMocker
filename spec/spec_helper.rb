@@ -81,3 +81,22 @@ def stub_out_twilio
 
   TwilioModule.stub(:client) { twilio }
 end
+
+module RSpec
+  module Mocks
+    module Methods
+      # The safe_stub method provides a dependence on the model being stubbed
+      # by asserting that the model already responds to the message being sent.
+      # If the model's interface changes and no longer provides the method
+      # being stubbed, a NoMethodError exception will be raised allowing for
+      # early detection of issues.
+      def safe_stub(message_or_hash, opts={}, &block)
+        if self.respond_to?(message_or_hash)
+          self.stub(message_or_hash, opts, &block)
+        else
+          raise NoMethodError, "#{self.class.name} does not support method #{message_or_hash.to_s}"
+        end
+      end
+    end
+  end
+end
