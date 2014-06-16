@@ -126,6 +126,7 @@ RHSMocker::Application.routes.draw do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
+        resources :heights, except: %i(new edit)
         resources :inverse_associations, only: [:index, :update, :destroy]
         post 'invite', :on => :member
         resources :cards, :only => [:create, :show, :update] do
