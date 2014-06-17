@@ -30,7 +30,8 @@ resource "Messages" do
     parameter :text, 'Message text'
     parameter :content_id, 'ID of Content to link to Message'
     parameter :image, 'Base64-encoded image'
-    scope_parameters :message, [:text, :content_id, :image]
+    parameter :user_image_client_guid, 'Client-generated unique identifier for associated UserImage'
+    scope_parameters :message, [:text, :content_id, :image, :user_image_client_guid]
 
     let(:text) { 'text' }
     let(:content_id) { create(:content).id }

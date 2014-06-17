@@ -42,6 +42,7 @@ RSpec.configure do |config|
   config.before(:each) { stub_out_analytics_methods }
   config.before(:each) { stub_out_twilio }
   config.before(:each) { Role.find_or_create_by_name!(:pha).id }
+  config.before(:each) { Role.find_or_create_by_name!(:pha_lead).id }
 end
 
 def stub_out_analytics_methods

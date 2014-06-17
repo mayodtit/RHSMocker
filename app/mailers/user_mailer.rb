@@ -41,17 +41,39 @@ class UserMailer < ActionMailer::Base
     mail(to: @scheduled_phone_call.owner.email, subject: "#{env}Member Booked Welcome Call")
   end
 
-  def notify_phas_of_new_task
-    to = 'testphone@getbetter.com'
-    to = 'pha@getbetter.com' if Rails.env.production?
+  def notify_of_unassigned_task(task, care_provider)
+    subject = "#{env}Task needs triage"
 
-    mail(to: to, subject: "#{env}New Task in Queue - Care Portal#{" #{Rails.env}" unless Rails.env.production?}")
+    if task.is_a? MessageTask
+      subject = "#{env}Inbound message needs triage"
+    elsif task.is_a? PhoneCallTask
+      subject = "#{env}Inbound phone call needs triage"
+    end
+
+    @task = task
+    @care_provider = care_provider
+    mail(to: @care_provider.email, subject: subject)
   end
 
-  def notify_pha_of_new_member(member)
-    @member = member
-    @pha = member.pha
-    return unless @pha
-    mail(to: @pha.email, subject: "#{env} Assigned New Member")
+  def notify_of_assigned_task(task, care_provider)
+    subject = "#{env}Task assigned to you"
+
+    if task.is_a? MessageTask
+      subject = "#{env}Inbound message assigned to you"
+    elsif task.is_a? PhoneCallTask
+      subject = "#{env}Inbound phone call assigned to you"
+    end
+
+    @task = task
+    @care_provider = care_provider
+    mail(to: @care_provider.email, subject: subject)
+  end
+
+  def notify_of_abandoned_task(task, care_provider)
+    subject = "#{env}Task has been abandoned"
+
+    @task = task
+    @care_provider = care_provider
+    mail(to: @care_provider.email, subject: subject)
   end
 end

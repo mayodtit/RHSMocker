@@ -62,7 +62,8 @@ resource 'UserImage' do
 
   post '/api/v1/users/:user_id/user_images' do
     parameter :image, 'Base64 encoded image'
-    scope_parameters :user_image, %i(image)
+    parameter :client_guid, 'Client-generated unique identifier'
+    scope_parameters :user_image, %i(image client_guid)
 
     let(:image) { base64_test_image }
     let(:raw_post) { params.to_json }
