@@ -60,6 +60,7 @@ GEM
     apns (1.0.0)
     arel (3.0.3)
     awesome_print (1.1.0)
+    base32-crockford (0.1.0)
     bcrypt-ruby (3.0.1)
     builder (3.0.4)
     byebug (2.7.0)
@@ -363,6 +364,7 @@ DEPENDENCIES
   active_model_serializers
   apns
   awesome_print
+  base32-crockford
   byebug
   cancan
   capistrano (~> 2.15)
