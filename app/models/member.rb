@@ -24,6 +24,7 @@ class Member < User
                            inverse_of: :claimer,
                            autosave: true
   has_one :pha_profile, foreign_key: :user_id, inverse_of: :user
+  has_one :referral_code
 
   belongs_to :pha, class_name: 'Member', inverse_of: :owned_members
   #TODO - careful, there is a User::owned_users that does something different
