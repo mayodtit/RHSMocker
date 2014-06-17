@@ -1,26 +1,36 @@
 class Api::V1::WeightsController < Api::V1::ABaseController
-  include ActiveModel::MassAssignmentSecurity
-  attr_accessible :amount, :bmi, :taken_at
-
   before_filter :load_user!
-  before_filter :load_weight!, only: :destroy
+  before_filter :load_weights!
+  before_filter :load_weight!, only: %i(show update destroy)
 
   def index
-    index_resource(@user.weights)
+    index_resource @weights.serializer
+  end
+
+  def show
+    show_resource @weight.serializer
   end
 
   def create
-    create_resource(@user.weights, sanitize_for_mass_assignment(params[:weight]))
+    create_resource @weights, permitted_params.weight
+  end
+
+  def update
+    update_resource @weight, permitted_params.weight
   end
 
   def destroy
-    destroy_resource(@weight)
+    destroy_resource @weight
   end
 
   private
 
+  def load_weights!
+    @weights = @user.weights
+  end
+
   def load_weight!
-    @weight = @user.weights.find(params[:id])
+    @weight = @weights.find(params[:id])
     authorize! :manage, @weight
   end
 end

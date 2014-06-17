@@ -9,6 +9,7 @@ class User < ActiveRecord::Base
                                   dependent: :destroy
   has_many :inverse_associates, through: :inverse_associations, source: :user
 
+  has_many :heights, inverse_of: :user
   has_many :weights
   has_many :blood_pressures
   has_many :user_allergies
@@ -139,6 +140,16 @@ class User < ActiveRecord::Base
 
   def blood_pressure
     blood_pressures.most_recent
+  end
+
+  def height=(amount)
+    return if amount.nil?
+    heights.build(amount: amount,
+                  taken_at: Time.now)
+  end
+
+  def height
+    heights.most_recent.try(:amount)
   end
 
   def weight

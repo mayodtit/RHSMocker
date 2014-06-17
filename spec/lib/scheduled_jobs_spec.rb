@@ -71,29 +71,25 @@ describe ScheduledJobs do
   end
 
   describe '#alert_stakeholders_when_phas_forced_off_call' do
-    let(:messages) { Object.new }
-
-    before do
-      PhoneCall.stub_chain(:twilio, :account, :messages) { messages }
-    end
-
     context 'phas forced off call' do
       let(:stakeholders) { [build_stubbed(:member), build_stubbed(:pha_lead, work_phone_number: '1111111111'), build_stubbed(:pha_lead, work_phone_number: '4083913578')] }
       before do
         Metadata.stub(:force_phas_off_call?) { true }
       end
 
-      it 'sends a message to each stakeholder with a work phone' do
+      it 'sends a message to each stakeholder' do
         Role.stub(:pha_stakeholders) { stakeholders }
-        messages.should_receive(:create).with(
-          from: PhoneNumberUtil::format_for_dialing(SERVICE_ALERT_PHONE_NUMBER),
-          to: PhoneNumberUtil::format_for_dialing('1111111111'),
-          body: "test - PHAs are currently forced after hours. This can be changed via the Care Portal."
+        TwilioModule.should_receive(:message).with(
+          nil,
+          "ALERT: PHAs are currently forced after hours. This can be changed via the Care Portal."
         )
-        messages.should_receive(:create).with(
-          from: PhoneNumberUtil::format_for_dialing(SERVICE_ALERT_PHONE_NUMBER),
-          to: PhoneNumberUtil::format_for_dialing('4083913578'),
-          body: "test - PHAs are currently forced after hours. This can be changed via the Care Portal."
+        TwilioModule.should_receive(:message).with(
+          '1111111111',
+          "ALERT: PHAs are currently forced after hours. This can be changed via the Care Portal."
+        )
+        TwilioModule.should_receive(:message).with(
+          '4083913578',
+          "ALERT: PHAs are currently forced after hours. This can be changed via the Care Portal."
         )
         ScheduledJobs.alert_stakeholders_when_phas_forced_off_call
       end
@@ -105,8 +101,79 @@ describe ScheduledJobs do
       end
 
       it 'does nothing' do
-        messages.should_not_receive :create
+        TwilioModule.should_not_receive :message
         ScheduledJobs.alert_stakeholders_when_phas_forced_off_call
+      end
+    end
+  end
+
+  describe '#alert_stakeholders_when_no_pha_on_call' do
+    context 'phas on call' do
+      before do
+        Role.stub_chain(:pha, :on_call?) { true }
+      end
+
+      context 'some phas on call' do
+        before do
+          Role.stub_chain(:pha, :users) do
+            o = Object.new
+            o.stub(:where).with(on_call: true) do
+              o_o = Object.new
+              o_o.stub(:count) { 1 }
+              o_o
+            end
+            o
+          end
+        end
+
+        it 'does nothing' do
+          TwilioModule.should_not_receive :message
+          ScheduledJobs.alert_stakeholders_when_no_pha_on_call
+        end
+      end
+
+      context 'no phas on call' do
+        let(:stakeholders) { [build_stubbed(:member), build_stubbed(:pha_lead, work_phone_number: '1111111111'), build_stubbed(:pha_lead, work_phone_number: '4083913578')] }
+
+        before do
+          Role.stub_chain(:pha, :users) do
+            o = Object.new
+            o.stub(:where).with(on_call: true) do
+              o_o = Object.new
+              o_o.stub(:count) { 0 }
+              o_o
+            end
+            o
+          end
+        end
+
+        it 'sends a message to each stakeholder' do
+          Role.stub(:pha_stakeholders) { stakeholders }
+          TwilioModule.should_receive(:message).with(
+            nil,
+            "ALERT: No PHAs triaging!"
+          )
+          TwilioModule.should_receive(:message).with(
+            '1111111111',
+            "ALERT: No PHAs triaging!"
+          )
+          TwilioModule.should_receive(:message).with(
+            '4083913578',
+            "ALERT: No PHAs triaging!"
+          )
+          ScheduledJobs.alert_stakeholders_when_no_pha_on_call
+        end
+      end
+    end
+
+    context 'phas not on call' do
+      before do
+        Role.stub_chain(:pha, :on_call?) { false }
+      end
+
+      it 'does nothing' do
+        TwilioModule.client.account.messages.should_not_receive :create
+        ScheduledJobs.alert_stakeholders_when_no_pha_on_call
       end
     end
   end

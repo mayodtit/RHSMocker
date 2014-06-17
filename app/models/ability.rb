@@ -48,6 +48,10 @@ class Ability
       (o.message && o.message.consult && can?(:manage, o.message.consult))
     end
 
+    can :manage, UserImage do |o|
+      user.id == o.user_id
+    end
+
     can :ru, ScheduledPhoneCall do |o|
       (o.state == 'assigned' && o.scheduled_at > Time.now) ||
       o.user_id == user.id ||
@@ -105,6 +109,7 @@ class Ability
 
     if user.pha_lead?
       can :manage, ScheduledPhoneCall
+      can :manage, PhaProfile
     end
 
     if user.care_provider?

@@ -14,7 +14,7 @@ class Api::V1::UserRequestsController < Api::V1::ABaseController
   end
 
   def create
-    @user_request = @user_requests.create(user_request_attributes)
+    @user_request = @user_requests.create(permitted_params.user_request)
     if @user_request.errors.empty?
       render_success(@user_request.serializer.as_json)
     else
@@ -23,7 +23,7 @@ class Api::V1::UserRequestsController < Api::V1::ABaseController
   end
 
   def update
-    if @user_request.update_attributes(user_request_attributes)
+    if @user_request.update_attributes(permitted_params.user_request)
       render_success(@user_request.serializer.as_json)
     else
       render_failure({reason: @user_request.errors.full_messages.to_sentence}, 422)
@@ -38,13 +38,6 @@ class Api::V1::UserRequestsController < Api::V1::ABaseController
 
   def load_user_request!
     @user_request = @user_requests.find(params[:id])
-  end
-
-  def user_request_attributes
-    params.require(:user_request).permit(:user_id,
-                                         :subject_id,
-                                         :name,
-                                         :user_request_type_id)
   end
 
   def convert_parameters!

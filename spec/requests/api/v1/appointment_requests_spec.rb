@@ -9,7 +9,7 @@ describe 'UserRequests' do
     end
 
     let!(:user_request_type) { create(:appointment_user_request_type) }
-    let(:user_request_attributes) { {name: 'new user request', subject_id: user.id} }
+    let(:user_request_attributes) { {name: 'new user request', subject_id: user.id, request_data: {}} }
 
     it 'creates a user_request' do
       expect{ do_request(user_request: user_request_attributes) }.to change(UserRequest, :count).by(1)

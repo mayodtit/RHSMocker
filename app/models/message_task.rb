@@ -1,6 +1,6 @@
 class MessageTask < Task
   include ActiveModel::ForbiddenAttributesProtection
-
+  PRIORITY = 5
   belongs_to :consult
   belongs_to :message
   has_one :member, through: :consult, source: :initiator
@@ -24,7 +24,7 @@ class MessageTask < Task
   def self.create_if_only_opened_for_consult!(consult, message = nil)
     if (!message || message.user == consult.initiator) && open.where(consult_id: consult.id).count == 0
       due_at = message ? message.created_at : consult.created_at
-      create!(title: consult.title, consult: consult, message: message, creator: Member.robot, due_at: due_at)
+      create!(title: 'Inbound Message', consult: consult, message: message, creator: Member.robot, due_at: due_at)
     end
   end
 
@@ -34,5 +34,9 @@ class MessageTask < Task
     if task && task.id != id
       errors.add(:consult_id, "open MessageTask already exists for Consult #{consult_id}")
     end
+  end
+
+  def set_priority
+    self.priority = PRIORITY
   end
 end

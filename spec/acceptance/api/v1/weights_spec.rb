@@ -1,69 +1,86 @@
 require 'spec_helper'
 require 'rspec_api_documentation/dsl'
 
-resource "Weights" do
+resource 'Weight' do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:member) }
+  let(:user_id) { user.id }
   let(:auth_token) { user.auth_token }
 
-  before(:each) do
-    user.login
-  end
-
-  parameter :auth_token, "User's auth_token"
+  parameter :auth_token, 'User auth_token'
   required_parameters :auth_token
 
-  get '/api/v1/users/:user_id/weights' do
-    let!(:weight) { create(:weight, :user => user) }
+  context 'existing record' do
+    let!(:weight) { create(:weight, user: user) }
 
-    parameter :user_id, "User ID for which to get weights"
-    required_parameters :user_id
-    let(:user_id) { user.id }
+    get '/api/v1/users/:user_id/weights' do
+      example_request '[GET] Get all Weights' do
+        explanation 'Returns an array of Weights'
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:weights].to_json).to eq([weight].serializer.as_json.to_json)
+      end
+    end
 
-    example_request "[GET] Get all weights for a user" do
-      explanation "Returns an array of weights recorded by the user"
-      status.should == 200
-      JSON.parse(response_body)['weights'].should be_a Array
+    get '/api/v1/users/:user_id/weights/:id' do
+      let(:id) { weight.id }
+
+      example_request '[GET] Get Weight' do
+        explanation 'Returns the Weight'
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:weight].to_json).to eq(weight.serializer.as_json.to_json)
+      end
+    end
+
+    put '/api/v1/users/:user_id/weights/:id' do
+      parameter :amount, 'Amount in kilograms'
+      parameter :bmi, 'BMI for entry'
+      parameter :taken_at, 'Timestamp of when the weight reading was taken'
+      scope_parameters :weight, %i(amount bmi taken_at)
+      required_parameters :amount, :taken_at
+
+      let(:amount) { 182.88 }
+      let(:id) { weight.id }
+      let(:raw_post) { params.to_json }
+
+      example_request '[PUT] Update Weight' do
+        explanation 'Update the Weight'
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:weight][:amount]).to eq(amount.to_s)
+      end
+    end
+
+    delete '/api/v1/users/:user_id/weights/:id' do
+      let(:id) { weight.id }
+      let(:raw_post) { params.to_json }
+
+      example_request '[DELETE] Destroy Weight' do
+        explanation 'Destroy an Weight'
+        expect(status).to eq(200)
+      end
     end
   end
 
   post '/api/v1/users/:user_id/weights' do
-    let!(:weight) { build(:weight, :user => user) }
+    parameter :amount, 'Amount in centimeters'
+    parameter :bmi, 'BMI for entry'
+    parameter :taken_at, 'Timestamp of when the weight reading was taken'
+    scope_parameters :weight, %i(amount bmi taken_at)
+    required_parameters :amount, :taken_at
 
-    parameter :user_id, "User ID for which to get weights"
-    parameter :amount, "User's weight (kg)"
-    parameter :taken_at, "DateTime of when the reading was taken"
-    required_parameters :user_id, :amount, :taken_at
-
-    let(:user_id) { user.id }
-    let(:amount) { 90 }
-    let(:taken_at) { DateTime.now-20.minutes }
+    let(:amount) { 182.88 }
+    let(:taken_at) { Time.now }
     let(:raw_post) { params.to_json }
 
-    example_request "[POST] Set user's weight" do
-      explanation "Set the user's weight"
-      status.should == 200
-      JSON.parse(response_body).should_not be_empty
-    end
-  end
-
-  delete '/api/v1/users/:user_id/weights/:id' do
-    let!(:weight) { create(:weight, :user => user) }
-
-    parameter :user_id, "User ID for which to get weights"
-    parameter :id, "Weight ID to delete"
-    required_parameters :user_id, :id
-
-    let(:user_id) { user.id }
-    let(:id) { weight.id }
-    let(:raw_post) { params.to_json }
-
-    example_request "[DELETE] Remove user's user weight reading" do
-      explanation "Remove user's user weight reading"
-      status.should == 200
-      JSON.parse(response_body).should_not be_empty
+    example_request '[POST] Create Weight' do
+      explanation 'Create the Weight'
+      expect(status).to eq(200)
+      body = JSON.parse(response_body, symbolize_names: true)
+      expect(body[:weight][:amount]).to eq(amount.to_s)
     end
   end
 end

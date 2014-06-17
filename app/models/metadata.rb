@@ -64,4 +64,8 @@ class Metadata < ActiveRecord::Base
       ScheduledJobs.alert_stakeholders_when_phas_forced_off_call
     end
   end
+
+  def self.on_call_queue_only_inbound_and_unassigned?
+    Metadata.find_by_mkey('on_call_queue_only_inbound_and_unassigned').try(:mvalue) == 'true'
+  end
 end

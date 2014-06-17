@@ -15,6 +15,7 @@ describe Message do
   it_validates 'foreign key of', :phone_call
   it_validates 'foreign key of', :scheduled_phone_call
   it_validates 'foreign key of', :phone_call_summary
+  it_validates 'foreign key of', :user_image
 
   describe 'publish' do
     let(:message) { build_stubbed(:message) }
@@ -148,6 +149,18 @@ describe Message do
         message.consult.initiator.should_receive(:update_attributes!).with(last_contact_at: message.created_at)
         message.update_initiator_last_contact_at
       end
+    end
+  end
+
+  describe '#attach_user_image' do
+    let!(:user_image) { create(:user_image, client_guid: 'GUID') }
+
+    it 'sets user_image before validations and saves successfully' do
+      message = build(:message, user_id: user_image.user_id,
+                                user_image_client_guid: user_image.client_guid)
+      expect(message.user_image).to be_nil
+      message.save!
+      expect(message.reload.user_image).to eq(user_image)
     end
   end
 end

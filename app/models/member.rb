@@ -38,6 +38,9 @@ class Member < User
   has_one :subscription_user, foreign_key: :user_id
   has_one :shared_subscription, through: :subscription_user, class_name: 'Subscription', source: :subscription
   has_many :tasks, class_name: 'MemberTask'
+  has_many :user_images, foreign_key: :user_id,
+                         inverse_of: :user,
+                         dependent: :destroy
 
   belongs_to :onboarding_group, inverse_of: :users
   belongs_to :referral_code, inverse_of: :users
@@ -54,7 +57,7 @@ class Member < User
                   :apns_token, :is_premium, :free_trial_ends_at, :last_contact_at,
                   :skip_agreement_validation, :signed_up_at, :subscription_ends_at,
                   :test_user, :marked_for_deletion, :onboarding_group, :onboarding_group_id,
-                  :referral_code, :referral_code_id
+                  :referral_code, :referral_code_id, :on_call
 
   validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
@@ -87,6 +90,7 @@ class Member < User
   after_save :send_meet_your_pha_email
   after_save :notify_pha_of_new_member
   after_save :create_initial_master_consult_message
+  after_save :alert_stakeholders_on_call_status
 
   scope :signed_up, -> { where('signed_up_at IS NOT NULL') }
 
@@ -129,6 +133,10 @@ class Member < User
 
   def care_provider?
     pha? || nurse?
+  end
+
+  def on_call?
+    nurse? || read_attribute(:on_call)
   end
 
   def login
@@ -297,7 +305,26 @@ class Member < User
 
   def notify_pha_of_new_member
     if (newly_assigned_pha? && signed_up?) || (newly_signed_up? && pha_id.present?)
-      NewMemberTask.delay.create! member: self, title: 'New Premium Member', creator: Member.robot, due_at: Time.now
+      NewMemberTask.delay.create! member: self, title: 'New Premium Member', creator: Member.robot
+    end
+  end
+
+  def alert_stakeholders_on_call_status
+    if pha? && on_call_changed? && Role.pha.on_call?
+      num_phas_on_call = Role.pha.users.where(on_call: true).count
+      body = nil
+
+      if num_phas_on_call == 1 && on_call? # Only alert when first PHA starts triaging
+        body = "OK: PHAs are triaging."
+      elsif num_phas_on_call == 0
+        body = "ALERT: No PHAs triaging!"
+      end
+
+      if body
+        Role.pha_stakeholders.each do |s|
+          TwilioModule.message s.work_phone_number, body
+        end
+      end
     end
   end
 

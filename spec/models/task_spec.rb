@@ -12,6 +12,8 @@ describe Task do
     it_validates 'presence of', :state
     it_validates 'presence of', :role_id
     it_validates 'presence of', :creator_id
+    it_validates 'presence of', :due_at
+    it_validates 'presence of', :priority
     it_validates 'foreign key of', :owner
     it_validates 'foreign key of', :role
     it_validates 'foreign key of', :service_type
@@ -48,19 +50,13 @@ describe Task do
         end
       end
     end
-
   end
 
   describe '#open?' do
     let(:task) { build :task }
 
-    it 'returns true when unassigned' do
-      task.state = 'unassigned'
-      task.should be_open
-    end
-
-    it 'returns true when assigned' do
-      task.state = 'assigned'
+    it 'returns true when unstarted' do
+      task.state = 'unstarted'
       task.should be_open
     end
 
@@ -115,7 +111,7 @@ describe Task do
 
   describe '#open' do
     it 'returns tasks that are still open' do
-      unassigned_task = create(:task)
+      unstarted_task = create(:task)
       assigned_task = create(:task, :assigned)
       started_task = create(:task, :started)
       claimed_task = create(:task, :claimed)
@@ -124,7 +120,7 @@ describe Task do
 
       open_tasks = Task.open
 
-      open_tasks.should be_include(unassigned_task)
+      open_tasks.should be_include(unstarted_task)
       open_tasks.should be_include(assigned_task)
       open_tasks.should be_include(started_task)
       open_tasks.should be_include(claimed_task)
@@ -155,48 +151,195 @@ describe Task do
     end
   end
 
-  describe '#notify' do
-    let(:task) { build(:task) }
+  describe '#set_priority' do
+    let(:task) { build :task }
 
-    context 'task is unassigned' do
+    it 'sets it to zero' do
+      task.set_priority
+      task.priority.should == 0
+    end
+  end
+
+  describe '#set_assigned_at' do
+    let(:task) { build :task }
+
+    before do
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
+    context 'owner id changed' do
       before do
-        task.stub(:unassigned?) { true }
+        task.stub(:owner_id_changed?) { true }
       end
 
-      context 'task is for pha' do
-        let(:delayed_user_mailer) { double('delay') }
-
-        before do
-          UserMailer.stub(delay: delayed_user_mailer)
-          task.stub(:for_pha?) { true }
-        end
-
-        it 'queues an email' do
-          delayed_user_mailer.should_receive(:notify_phas_of_new_task)
-          task.notify
-        end
-      end
-
-      context 'task is not for pha' do
-        before do
-          task.stub(:for_pha?) { false }
-        end
-
-        it 'does nothing' do
-          UserMailer.should_not_receive(:delay)
-          task.notify
-        end
+      it 'sets assigned at' do
+        task.set_assigned_at
+        task.assigned_at.should == Time.now
       end
     end
 
-    context 'task is not unassigned' do
+    context 'owner id not changed' do
       before do
-        task.stub(:unassigned?) { false }
+        task.stub(:owner_id_changed?) { false }
+      end
+
+      it 'sets assigned at to' do
+        task.set_assigned_at
+        task.assigned_at.should be_nil
+      end
+    end
+  end
+
+  describe '#notify' do
+    let(:task) { build :task }
+    let(:pha) { build :pha }
+    let(:delayed_user_mailer) { double('delay') }
+
+    before do
+      UserMailer.stub(:delay) { delayed_user_mailer }
+    end
+
+    context 'task is not for pha' do
+      before do
+        task.stub(:for_pha?) { false }
+        task.stub(:owner_id_changed?) { true }
+        task.stub(:state_changed?) { true }
+        task.stub(:abandoned?) { true }
+        task.owner_id { Member.robot.id + 1 }
       end
 
       it 'does nothing' do
-        UserMailer.should_not_receive(:delay)
+        UserMailer.should_not_receive :delay
         task.notify
+      end
+    end
+
+    context 'task is for pha' do
+      before do
+        task.stub(:for_pha?) { true }
+      end
+
+      context 'owner_id changed' do
+        before do
+          task.stub(:owner_id_changed?) { true }
+        end
+
+        context 'unassigned' do
+          let(:phas) { [build_stubbed(:pha), build_stubbed(:pha), build_stubbed(:pha)] }
+
+          before do
+            task.stub(:unassigned?) { true }
+            Role.stub_chain(:pha, :users) do
+              o = Object.new
+              o.stub(:where).with(on_call: true) { phas }
+              o
+            end
+          end
+
+          it 'sends an email to all on call phas' do
+            delayed_user_mailer.should_receive(:notify_of_unassigned_task).with task, phas[0]
+            delayed_user_mailer.should_receive(:notify_of_unassigned_task).with task, phas[1]
+            delayed_user_mailer.should_receive(:notify_of_unassigned_task).with task, phas[2]
+
+            task.notify
+          end
+        end
+
+        context 'has owner' do
+          before do
+            task.stub(:unassigned?) { false }
+            task.stub(:owner) { pha }
+          end
+
+          it 'sends an email to the owner of the task' do
+            delayed_user_mailer.should_receive(:notify_of_assigned_task).with task, pha
+            task.notify
+          end
+        end
+      end
+
+      context 'owner id did not change' do
+        before do
+          task.stub(:owner_id_changed?) { false }
+        end
+
+        it 'does nothing' do
+          UserMailer.should_not_receive :delay
+          task.notify
+        end
+      end
+
+      context 'state changed?' do
+        before do
+          task.stub(:state_changed?) { true }
+        end
+
+        context 'abandoned' do
+          before do
+            task.stub(:abandoned?) { true }
+          end
+
+          context 'abandoner is not robot' do
+            let(:pha_leads) { [build(:pha_lead), build(:pha_lead)] }
+
+            before do
+              task.stub(:abandoner_id) { Member.robot.id + 1 }
+              task.stub(:abandoner) { pha }
+            end
+
+            it 'notifies the owner' do
+              task.stub(:owner) { pha }
+              delayed_user_mailer.should_receive(:notify_of_abandoned_task).with task, pha
+              task.notify
+            end
+
+            it 'notifies the leads' do
+              Role.stub_chain(:pha_lead, :users) { pha_leads }
+
+              delayed_user_mailer.should_receive(:notify_of_abandoned_task).with task, pha_leads[0]
+              delayed_user_mailer.should_receive(:notify_of_abandoned_task).with task, pha_leads[1]
+              task.notify
+            end
+          end
+
+          context 'abandoner is robot' do
+            before do
+              task.stub(:abandoner_id) { Member.robot.id }
+              task.stub(:abandoner) { Member.robot }
+            end
+
+            it 'does nothing' do
+              UserMailer.should_not_receive :delay
+              task.notify
+            end
+          end
+        end
+
+        context 'not abandoned' do
+          before do
+            task.stub(:abandoned?) { false }
+          end
+
+          it 'does nothing' do
+            UserMailer.should_not_receive :delay
+            task.notify
+          end
+        end
+      end
+
+      context 'state did not change' do
+        before do
+          task.stub(:state_changed?) { false }
+        end
+
+        it 'does nothing' do
+          UserMailer.should_not_receive :delay
+          task.notify
+        end
       end
     end
   end
@@ -307,7 +450,7 @@ describe Task do
     end
   end
 
-  describe 'unassigned_and_owned' do
+  describe 'scopes' do
     let!(:pha) { create :pha }
     let!(:other_pha) { create :pha }
     let!(:task_1) { create :member_task, :assigned, owner: pha }
@@ -315,14 +458,58 @@ describe Task do
     let!(:task_3) { create :member_task }
     let!(:task_4) { create :member_task, :started, owner: pha }
     let!(:task_5) { create :member_task, :assigned, owner: other_pha }
+    let!(:task_6) { create :member_task, :abandoned }
+    let!(:task_7) { create :message_task, :assigned, owner: pha }
+    let!(:task_8) { create :phone_call_task, :assigned, owner: pha }
+    let!(:task_9) { create :message_task }
+    let!(:task_10) { create :phone_call_task }
 
-    it 'returns unassigned and owned tasks' do
-      tasks = Task.unassigned_and_owned(pha)
-      tasks.should be_include(task_1)
-      tasks.should be_include(task_2)
-      tasks.should be_include(task_3)
-      tasks.should be_include(task_4)
-      tasks.should_not be_include(task_5)
+    describe '#owned' do
+      it 'returns owned tasks' do
+        tasks = Task.owned(pha)
+        tasks.should be_include(task_1)
+        tasks.should_not be_include(task_2)
+        tasks.should_not be_include(task_3)
+        tasks.should be_include(task_4)
+        tasks.should_not be_include(task_5)
+        tasks.should_not be_include(task_6)
+        tasks.should be_include(task_7)
+        tasks.should be_include(task_8)
+        tasks.should_not be_include(task_9)
+        tasks.should_not be_include(task_10)
+      end
+    end
+
+    describe '#needs_triage' do
+      it 'returns tasks that are unassigned or assigned inbound tasks' do
+        tasks = Task.needs_triage(pha)
+        tasks.should_not be_include(task_1)
+        tasks.should be_include(task_2)
+        tasks.should be_include(task_3)
+        tasks.should_not be_include(task_4)
+        tasks.should_not be_include(task_5)
+        tasks.should_not be_include(task_6)
+        tasks.should be_include(task_7)
+        tasks.should be_include(task_8)
+        tasks.should be_include(task_9)
+        tasks.should be_include(task_10)
+      end
+    end
+
+    describe '#needs_triage_or_owned' do
+      it 'returns tasks that are unassigned or assigned inbound tasks' do
+        tasks = Task.needs_triage_or_owned(pha)
+        tasks.should be_include(task_1)
+        tasks.should be_include(task_2)
+        tasks.should be_include(task_3)
+        tasks.should be_include(task_4)
+        tasks.should_not be_include(task_5)
+        tasks.should_not be_include(task_6)
+        tasks.should be_include(task_7)
+        tasks.should be_include(task_8)
+        tasks.should be_include(task_9)
+        tasks.should be_include(task_10)
+      end
     end
   end
 
@@ -339,45 +526,17 @@ describe Task do
       Timecop.return
     end
 
-    it 'has an initial state of unassigned' do
-      task.should be_unassigned
+    it 'has an initial state of unstarted' do
+      task.should be_unstarted
     end
 
-    describe '#unassign' do
-      let(:task) { build :task, :assigned }
+    describe '#unstart' do
+      let(:task) { build :task, :started }
 
-      it 'changes state to unassigned' do
-        task.should_not be_unassigned
-        task.unassign!
-        task.should be_unassigned
-      end
-
-      it 'removes assignor' do
-        task.assignor.should be_present
-        task.unassign!
-        task.assignor.should_not be_present
-      end
-
-      it 'removes owner' do
-        task.owner.should be_present
-        task.unassign!
-        task.owner.should_not be_present
-      end
-    end
-
-    describe '#assign' do
-      let(:task) { build :task }
-
-      it 'changes state to assigned' do
-        task.should_not be_assigned
-        task.update_attributes! state_event: :assign, owner: pha, assignor: pha_lead
-        task.should be_assigned
-      end
-
-      it 'sets assigned at' do
-        task.assigned_at.should be_nil
-        task.update_attributes! state_event: :assign, owner: pha, assignor: pha_lead
-        task.assigned_at.should == Time.now
+      it 'changes state to unstarted' do
+        task.should_not be_unstarted
+        task.unstart!
+        task.should be_unstarted
       end
     end
 
@@ -398,9 +557,9 @@ describe Task do
     end
 
     describe '#claim' do
-      let(:task) { build :task }
+      let(:task) { build :task, assignor: pha }
 
-      it_behaves_like 'cannot transition from', :unassign!, [:claimed]
+      it_behaves_like 'cannot transition from', :claim!, [:claimed]
 
       it 'changes state to claimed' do
         task.should_not be_claimed
@@ -451,6 +610,74 @@ describe Task do
         task.reason_abandoned = 'pooed'
         task.abandon!
         task.abandoned_at.should == Time.now
+      end
+    end
+  end
+
+  describe '#set_owner' do
+    let(:task) { build :task }
+
+    before do
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
+    context 'member doesn\'t exist' do
+      before do
+        task.stub(:member) { nil }
+      end
+
+      it 'does nothing' do
+        task.set_owner
+        task.owner.should be_nil
+        task.assignor.should be_nil
+        task.assigned_at.should be_nil
+      end
+    end
+
+    context 'member exists' do
+      let(:member) { build :member }
+
+      before do
+        task.stub(:member) { member }
+      end
+
+      context 'member doesn\'t have a pha' do
+        before do
+          member.stub(:pha) { nil }
+        end
+
+        it 'does nothing' do
+          task.set_owner
+          task.owner.should be_nil
+          task.assignor.should be_nil
+          task.assigned_at.should be_nil
+        end
+      end
+
+      context 'member has a pha' do
+        let(:pha) { build :pha }
+        before do
+          member.stub(:pha) { pha }
+        end
+
+        it 'sets owner to pha' do
+          task.set_owner
+          task.owner.should == pha
+        end
+
+        it 'sets the assignor to the robot' do
+          task.set_owner
+          task.assignor.should == Member.robot
+        end
+
+        it 'sets the assigned at' do
+          task.set_owner
+          task.assigned_at.should == Time.now
+        end
       end
     end
   end

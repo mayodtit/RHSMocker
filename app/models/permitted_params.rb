@@ -42,7 +42,34 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:address).permit(*address_attributes)
   end
 
+  def user_request
+    params.require(:user_request)
+          .permit(*user_request_attributes).tap do |attributes|
+      attributes[:request_data] = params[:user_request][:request_data] if params[:user_request][:request_data]
+    end
+  end
+
+  def user_image
+    params.require(:user_image).permit(:image)
+  end
+
+  def height
+    params.require(:height).permit(:amount, :taken_at)
+  end
+
+  def weight
+    params.require(:weight).permit(:amount, :bmi, :taken_at)
+  end
+
+  def pha_profile
+    params.require(:pha_profile).permit(:user_id, :bio_image, :bio, :weekly_capacity)
+  end
+
   private
+
+  def user_request_attributes
+    %w(user_id subject_id name user_request_type_id)
+  end
 
   def user_params
     params.fetch(:user){params.require(:member)}
@@ -55,6 +82,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
         attributes << {user_agreements_attributes: [:agreement_id, :ip_address, :user_agent]}
       elsif current_user != subject
         attributes << :email
+      end
+
+      if current_user && current_user.care_provider?
+        attributes << :on_call
       end
 
       if current_user && current_user.pha?
@@ -96,7 +127,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def address_attributes
-    [:id, :address, :address2, :line1, :line2, :city, :state, :postal_code]
+    %i(id address address2 line1 line2 city state postal_code name type)
   end
 
   def insurance_policy_attributes
