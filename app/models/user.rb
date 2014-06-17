@@ -143,6 +143,7 @@ class User < ActiveRecord::Base
   end
 
   def height=(amount)
+    return if amount.nil?
     heights.build(amount: amount,
                   taken_at: Time.now)
   end
