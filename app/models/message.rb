@@ -7,6 +7,7 @@ class Message < ActiveRecord::Base
   belongs_to :phone_call, inverse_of: :message
   belongs_to :scheduled_phone_call, inverse_of: :message
   belongs_to :phone_call_summary, inverse_of: :message
+  belongs_to :user_image, inverse_of: :messages
   has_many :message_statuses
 
   attr_accessible :user, :user_id, :consult, :consult_id, :content,
@@ -17,7 +18,8 @@ class Message < ActiveRecord::Base
                   :phone_call_summary_attributes,
                   :created_at, # for robot auto-response message
                   :symptom, :symptom_id, :condition, :condition_id,
-                  :off_hours, :note
+                  :off_hours, :note, :user_image, :user_image_id,
+                  :user_image_client_guid
 
   validates :user, :consult, presence: true
   validates :off_hours, inclusion: {in: [true, false]}
@@ -27,8 +29,10 @@ class Message < ActiveRecord::Base
   validates :phone_call, presence: true, if: lambda{|m| m.phone_call_id}
   validates :scheduled_phone_call, presence: true, if: lambda{|m| m.scheduled_phone_call_id}
   validates :phone_call_summary, presence: true, if: lambda{|m| m.phone_call_summary_id}
+  validates :user_image, presence: true, if: ->(m){m.user_image_id}
 
   before_validation :set_user_from_association, on: :create
+  before_validation :attach_user_image, if: ->(m){m.user_image_client_guid}
   after_create :publish
   after_create :notify_initiator
   after_create :create_task
@@ -66,5 +70,9 @@ class Message < ActiveRecord::Base
 
   def set_user_from_association
     self.user_id ||= phone_call.try(:user_id)
+  end
+
+  def attach_user_image
+    self.user_image ||= UserImage.find_by_client_guid(user_image_client_guid)
   end
 end
