@@ -32,6 +32,7 @@ class Message < ActiveRecord::Base
   validates :user_iamge, presence: true, if: ->(m){m.user_image_id}
 
   before_validation :set_user_from_association, on: :create
+  before_validation :attach_user_image, if: ->(m){m.user_image_client_guid}
   after_create :publish
   after_create :notify_initiator
   after_create :create_task
@@ -69,5 +70,9 @@ class Message < ActiveRecord::Base
 
   def set_user_from_association
     self.user_id ||= phone_call.try(:user_id)
+  end
+
+  def attach_user_image
+    self.user_image ||= UserImage.find_by_client_guid(user_image_client_guid)
   end
 end

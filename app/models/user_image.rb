@@ -8,7 +8,17 @@ class UserImage < ActiveRecord::Base
   validates :user, presence: true
   validates :client_guid, uniqueness: true, if: ->(u){u.client_guid.present?}
 
+  after_save :set_foreign_references, if: ->(u){u.client_guid.present?}
+
   def url
     image.url
+  end
+
+  private
+
+  def set_foreign_references
+    Message.where(user_image_client_guid: client_guid).each do |m|
+      m.update_attributes!(user_image: self)
+    end
   end
 end
