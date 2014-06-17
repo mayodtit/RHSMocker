@@ -29,7 +29,7 @@ class Message < ActiveRecord::Base
   validates :phone_call, presence: true, if: lambda{|m| m.phone_call_id}
   validates :scheduled_phone_call, presence: true, if: lambda{|m| m.scheduled_phone_call_id}
   validates :phone_call_summary, presence: true, if: lambda{|m| m.phone_call_summary_id}
-  validates :user_iamge, presence: true, if: ->(m){m.user_image_id}
+  validates :user_image, presence: true, if: ->(m){m.user_image_id}
 
   before_validation :set_user_from_association, on: :create
   before_validation :attach_user_image, if: ->(m){m.user_image_client_guid}
