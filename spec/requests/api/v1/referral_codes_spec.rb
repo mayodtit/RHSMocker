@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe 'ReferralCodes' do
-  let(:user) { create(:admin) }
+  let!(:user) { create(:admin) }
 
   context 'existing record' do
     let!(:referral_code) { create(:referral_code) }
@@ -15,7 +15,8 @@ describe 'ReferralCodes' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:referral_codes].to_json).to eq([referral_code].serializer.as_json.to_json)
+        ids = body[:referral_codes].map{|r| r[:id]}
+        expect(ids).to include(referral_code.id)
       end
     end
 
