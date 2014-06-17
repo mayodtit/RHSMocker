@@ -18,7 +18,8 @@ class Message < ActiveRecord::Base
                   :phone_call_summary_attributes,
                   :created_at, # for robot auto-response message
                   :symptom, :symptom_id, :condition, :condition_id,
-                  :off_hours, :note, :user_image, :user_image_id
+                  :off_hours, :note, :user_image, :user_image_id,
+                  :user_image_client_guid
 
   validates :user, :consult, presence: true
   validates :off_hours, inclusion: {in: [true, false]}
