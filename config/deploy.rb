@@ -58,6 +58,7 @@ task :production do
   role :app,      'buckeye.getbetter.com'
   role :db,       'longhorn.getbetter.com', :primary => true
   role :delayed,  'longhorn.getbetter.com'
+  role :delayed,  'buckeye.getbetter.com'
   role :cron,     'buckeye.getbetter.com'
 end
 
