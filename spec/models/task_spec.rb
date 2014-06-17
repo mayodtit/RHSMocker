@@ -50,7 +50,6 @@ describe Task do
         end
       end
     end
-
   end
 
   describe '#open?' do
@@ -196,47 +195,151 @@ describe Task do
   end
 
   describe '#notify' do
-    let(:task) { build(:task) }
+    let(:task) { build :task }
+    let(:pha) { build :pha }
+    let(:delayed_user_mailer) { double('delay') }
 
-    context 'task is unassigned' do
-      before do
-        task.stub(:unassigned?) { true }
-      end
-
-      context 'task is for pha' do
-        let(:delayed_user_mailer) { double('delay') }
-
-        before do
-          UserMailer.stub(delay: delayed_user_mailer)
-          task.stub(:for_pha?) { true }
-        end
-
-        it 'queues an email' do
-          delayed_user_mailer.should_receive(:notify_phas_of_new_task)
-          task.notify
-        end
-      end
-
-      context 'task is not for pha' do
-        before do
-          task.stub(:for_pha?) { false }
-        end
-
-        it 'does nothing' do
-          UserMailer.should_not_receive(:delay)
-          task.notify
-        end
-      end
+    before do
+      UserMailer.stub(:delay) { delayed_user_mailer }
     end
 
-    context 'task is not unassigned' do
+    context 'task is not for pha' do
       before do
-        task.stub(:unassigned?) { false }
+        task.stub(:for_pha?) { false }
+        task.stub(:owner_id_changed?) { true }
+        task.stub(:state_changed?) { true }
+        task.stub(:abandoned?) { true }
+        task.owner_id { Member.robot.id + 1 }
       end
 
       it 'does nothing' do
-        UserMailer.should_not_receive(:delay)
+        UserMailer.should_not_receive :delay
         task.notify
+      end
+    end
+
+    context 'task is for pha' do
+      before do
+        task.stub(:for_pha?) { true }
+      end
+
+      context 'owner_id changed' do
+        before do
+          task.stub(:owner_id_changed?) { true }
+        end
+
+        context 'unassigned' do
+          let(:phas) { [build_stubbed(:pha), build_stubbed(:pha), build_stubbed(:pha)] }
+
+          before do
+            task.stub(:unassigned?) { true }
+            Role.stub_chain(:pha, :users) do
+              o = Object.new
+              o.stub(:where).with(on_call: true) { phas }
+              o
+            end
+          end
+
+          it 'sends an email to all on call phas' do
+            delayed_user_mailer.should_receive(:notify_of_unassigned_task).with task, phas[0]
+            delayed_user_mailer.should_receive(:notify_of_unassigned_task).with task, phas[1]
+            delayed_user_mailer.should_receive(:notify_of_unassigned_task).with task, phas[2]
+
+            task.notify
+          end
+        end
+
+        context 'has owner' do
+          before do
+            task.stub(:unassigned?) { false }
+            task.stub(:owner) { pha }
+          end
+
+          it 'sends an email to the owner of the task' do
+            delayed_user_mailer.should_receive(:notify_of_assigned_task).with task, pha
+            task.notify
+          end
+        end
+      end
+
+      context 'owner id did not change' do
+        before do
+          task.stub(:owner_id_changed?) { false }
+        end
+
+        it 'does nothing' do
+          UserMailer.should_not_receive :delay
+          task.notify
+        end
+      end
+
+      context 'state changed?' do
+        before do
+          task.stub(:state_changed?) { true }
+        end
+
+        context 'abandoned' do
+          before do
+            task.stub(:abandoned?) { true }
+          end
+
+          context 'abandoner is not robot' do
+            let(:pha_leads) { [build(:pha_lead), build(:pha_lead)] }
+
+            before do
+              task.stub(:abandoner_id) { Member.robot.id + 1 }
+              task.stub(:abandoner) { pha }
+            end
+
+            it 'notifies the owner' do
+              task.stub(:owner) { pha }
+              delayed_user_mailer.should_receive(:notify_of_abandoned_task).with task, pha
+              task.notify
+            end
+
+            it 'notifies the leads' do
+              Role.stub_chain(:pha_lead, :users) { pha_leads }
+
+              delayed_user_mailer.should_receive(:notify_of_abandoned_task).with task, pha_leads[0]
+              delayed_user_mailer.should_receive(:notify_of_abandoned_task).with task, pha_leads[1]
+              task.notify
+            end
+          end
+
+          context 'abandoner is robot' do
+            before do
+              task.stub(:abandoner_id) { Member.robot.id }
+              task.stub(:abandoner) { Member.robot }
+            end
+
+            it 'does nothing' do
+              UserMailer.should_not_receive :delay
+              task.notify
+            end
+          end
+        end
+
+        context 'not abandoned' do
+          before do
+            task.stub(:abandoned?) { false }
+          end
+
+          it 'does nothing' do
+            UserMailer.should_not_receive :delay
+            task.notify
+          end
+        end
+      end
+
+      context 'state did not change' do
+        before do
+          task.stub(:state_changed?) { false }
+        end
+
+        it 'does nothing' do
+          UserMailer.should_not_receive :delay
+          task.notify
+        end
       end
     end
   end

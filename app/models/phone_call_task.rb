@@ -65,4 +65,20 @@ class PhoneCallTask < Task
   def set_priority
     self.priority = PRIORITY
   end
+
+  def notify
+    return unless for_pha?
+
+    super
+
+    if id_changed? || owner_id_changed?
+      if unassigned?
+        Role.pha.users.where(on_call: true).each do |m|
+          TwilioModule.message m.work_phone_number, 'ALERT: Inbound phone call needs triage'
+        end
+      elsif assignor_id != owner_id
+        TwilioModule.message owner.work_phone_number, 'ALERT: Inbound phone call assigned to you'
+      end
+    end
+  end
 end

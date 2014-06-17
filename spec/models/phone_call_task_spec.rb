@@ -221,4 +221,94 @@ describe PhoneCallTask do
       task.priority.should == PhoneCallTask::PRIORITY
     end
   end
+
+  describe '#notify' do
+    let(:task) { build :phone_call_task }
+    let(:pha) { build :pha, work_phone_number: '000' }
+
+    context 'task is not for pha' do
+      before do
+        task.stub(:for_pha?) { false }
+        task.stub(:owner_id_changed?) { true }
+      end
+
+      it 'does nothing' do
+        UserMailer.should_not_receive :delay
+        task.notify
+      end
+    end
+
+    context 'task is not for pha' do
+      before do
+        task.stub(:for_pha?) { true }
+      end
+      context 'owner_id changed' do
+        before do
+          task.stub(:owner_id_changed?) { true }
+        end
+
+        context 'unassigned' do
+          let(:phas) { [build_stubbed(:pha, work_phone_number: '111'), build_stubbed(:pha, work_phone_number: '222'), build_stubbed(:pha, work_phone_number: '333')] }
+
+          before do
+            task.stub(:unassigned?) { true }
+            Role.stub_chain(:pha, :users) do
+              o = Object.new
+              o.stub(:where).with(on_call: true) { phas }
+              o
+            end
+          end
+
+          it 'texts the phas on duty' do
+            TwilioModule.should_receive(:message).with '111', 'ALERT: Inbound phone call needs triage'
+            TwilioModule.should_receive(:message).with '222', 'ALERT: Inbound phone call needs triage'
+            TwilioModule.should_receive(:message).with '333', 'ALERT: Inbound phone call needs triage'
+            task.notify
+          end
+        end
+
+        context 'assigned to owner' do
+          before do
+            task.stub(:unassigned?) { false }
+            task.stub(:owner) { pha }
+          end
+
+          context 'assignor is owner' do
+            before do
+              task.stub(:assignor_id) { 1 }
+              task.stub(:owner_id) { 1 }
+            end
+
+            it 'does nothing' do
+              TwilioModule.should_not_receive :message
+              task.notify
+            end
+          end
+
+          context 'assignor is not owner' do
+            before do
+              task.stub(:assignor_id) { 1 }
+              task.stub(:owner_id) { 2 }
+            end
+
+            it 'texts the owner' do
+              TwilioModule.should_receive(:message).with '000', 'ALERT: Inbound phone call assigned to you'
+              task.notify
+            end
+          end
+        end
+      end
+
+      context 'owner_id has not changed' do
+        before do
+          task.stub(:owner_id_changed?) { false }
+        end
+
+        it 'does nothing' do
+          TwilioModule.should_not_receive :message
+          task.notify
+        end
+      end
+    end
+  end
 end
