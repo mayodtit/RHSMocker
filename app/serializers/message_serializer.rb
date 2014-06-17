@@ -2,7 +2,7 @@ class MessageSerializer < ActiveModel::Serializer
   self.root = false
 
   attributes :id, :text, :created_at, :consult_id, :title, :image_url, :type,
-             :content_id, :symptom_id, :condition_id, :note
+             :content_id, :symptom_id, :condition_id, :note, :user_image_id
 
   has_one :user
   has_one :phone_call
@@ -24,7 +24,7 @@ class MessageSerializer < ActiveModel::Serializer
   alias_method :preview, :previewText
 
   def image_url
-    object.image.url
+    object.user_image.try(:url) || object.image.url
   end
 
   def type

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140617145923) do
+ActiveRecord::Schema.define(:version => 20140617150628) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -343,6 +343,7 @@ ActiveRecord::Schema.define(:version => 20140617145923) do
     t.boolean  "cloned"
     t.boolean  "off_hours",               :default => false, :null => false
     t.boolean  "note",                    :default => false, :null => false
+    t.integer  "user_image_id"
   end
 
   add_index "messages", ["consult_id", "created_at", "note"], :name => "index_messages_on_consult_id_and_created_at_and_note"
