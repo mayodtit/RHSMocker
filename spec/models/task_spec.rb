@@ -255,9 +255,28 @@ describe Task do
             task.stub(:owner) { pha }
           end
 
-          it 'sends an email to the owner of the task' do
-            delayed_user_mailer.should_receive(:notify_of_assigned_task).with task, pha
-            task.notify
+          context 'owner is assignor' do
+            before do
+              task.stub(:assignor_id) { 1 }
+              task.stub(:owner_id) { 1 }
+            end
+
+            it 'does nothing' do
+              UserMailer.should_not_receive :delay
+              task.notify
+            end
+          end
+
+          context 'owner is not assignor' do
+            before do
+              task.stub(:assignor_id) { 1 }
+              task.stub(:owner_id) { 2 }
+            end
+
+            it 'sends an email to the owner of the task' do
+              delayed_user_mailer.should_receive(:notify_of_assigned_task).with task, pha
+              task.notify
+            end
           end
         end
       end
@@ -291,10 +310,30 @@ describe Task do
               task.stub(:abandoner) { pha }
             end
 
-            it 'notifies the owner' do
-              task.stub(:owner) { pha }
-              delayed_user_mailer.should_receive(:notify_of_abandoned_task).with task, pha
-              task.notify
+            context 'owner is the abandoner' do
+              before do
+                task.stub(:abandoner_id) { 2 }
+                task.stub(:owner_id) { 2 }
+              end
+
+              it 'does\'t notify the owner' do
+                task.stub(:owner) { pha }
+                delayed_user_mailer.should_not_receive(:notify_of_abandoned_task).with task, pha
+                task.notify
+              end
+            end
+
+            context 'owner is not the abandoner' do
+              before do
+                task.stub(:abandoner_id) { 1 }
+                task.stub(:owner_id) { 2 }
+              end
+
+              it 'notifies the owner' do
+                task.stub(:owner) { pha }
+                delayed_user_mailer.should_receive(:notify_of_abandoned_task).with task, pha
+                task.notify
+              end
             end
 
             it 'notifies the leads' do

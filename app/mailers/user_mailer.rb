@@ -56,12 +56,15 @@ class UserMailer < ActionMailer::Base
   end
 
   def notify_of_assigned_task(task, care_provider)
-    subject = "#{env}Task assigned to you"
+    @assignor_name = task.assignor && task.assignor.first_name
+    @assignor_name = 'Care Portal' if task.assignor_id == Member.robot.id
+
+    subject = "#{env}#{@assignor_name} assigned task to you"
 
     if task.is_a? MessageTask
-      subject = "#{env}Inbound message assigned to you"
+      subject = "#{env}#{@assignor_name} assigned inbound message to you"
     elsif task.is_a? PhoneCallTask
-      subject = "#{env}Inbound phone call assigned to you"
+      subject = "#{env}#{@assignor_name} assigned inbound phone call to you"
     end
 
     @task = task
@@ -70,7 +73,10 @@ class UserMailer < ActionMailer::Base
   end
 
   def notify_of_abandoned_task(task, care_provider)
-    subject = "#{env}Task has been abandoned"
+    @abandoner_name = task.abandoner && task.abandoner.first_name
+    @abandoner_name = 'Care Portal' if task.abandoner_id == Member.robot.id
+
+    subject = "#{env}#{@abandoner_name} abandoned task"
 
     @task = task
     @care_provider = care_provider
