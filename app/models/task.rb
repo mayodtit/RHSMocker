@@ -83,7 +83,7 @@ class Task < ActiveRecord::Base
         Role.pha.users.where(on_call: true).each do |m|
           UserMailer.delay.notify_of_unassigned_task self, m
         end
-      else
+      elsif assignor_id != owner_id
         UserMailer.delay.notify_of_assigned_task self, owner
       end
     end
