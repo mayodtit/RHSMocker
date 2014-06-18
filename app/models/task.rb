@@ -83,13 +83,13 @@ class Task < ActiveRecord::Base
         Role.pha.users.where(on_call: true).each do |m|
           UserMailer.delay.notify_of_unassigned_task self, m
         end
-      else
+      elsif assignor_id != owner_id
         UserMailer.delay.notify_of_assigned_task self, owner
       end
     end
 
     if state_changed? && abandoned? && abandoner_id != Member.robot.id
-      UserMailer.delay.notify_of_abandoned_task(self, owner) if owner
+      UserMailer.delay.notify_of_abandoned_task(self, owner) if abandoner_id != owner_id && owner
       Role.pha_lead.users.each do |m|
         UserMailer.delay.notify_of_abandoned_task self, m
       end

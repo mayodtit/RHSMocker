@@ -1,0 +1,18 @@
+- queue = link_to 'queue', "#{CARE_URL_PREFIX}/queue"
+%p Hi #{@care_provider.salutation},
+- if @task.is_a? MessageTask
+  %p #{@assignor_name} assigned an inbound message to you.
+- elsif @task.is_a? PhoneCallTask
+  %p #{@assignor_name} assigned an inbound phone call to you.
+- else
+  %p #{@assignor_name} assigned a member task to you.
+%p
+  - if @task.due_at > Time.now
+    It is due in #{time_ago_in_words @task.due_at}.
+  - else
+    It was due #{time_ago_in_words @task.due_at} ago.
+  Please check the #{queue} for priority.
+%p
+  Sincerely,
+  %br
+  Care Portal

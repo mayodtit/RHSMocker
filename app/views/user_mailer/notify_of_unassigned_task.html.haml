@@ -1,0 +1,14 @@
+- queue = link_to 'queue', "#{CARE_URL_PREFIX}/queue"
+%p Hi #{@care_provider.salutation},
+- if @task.is_a? MessageTask
+  %p An inbound message from a member needs triage in the #{queue}.
+- elsif @task.is_a? PhoneCallTask
+  %p An inbound phone call from a member needs triage in the #{queue}.
+- else
+  %p A member task needs triage in the #{queue}.
+%p
+  Sincerely,
+  %br
+  Care Portal
+%small
+  This email was sent because your status is set to triaging in the Care Portal.
