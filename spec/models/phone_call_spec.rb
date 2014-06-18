@@ -293,7 +293,7 @@ describe PhoneCall do
 
     describe '#generate_identifier_token' do
       before do
-        SecureRandom.stub(:random_number).and_return(5, 5, 5, 10)
+        described_class.any_instance.stub(:random_number).and_return(5, 5, 5, 10)
       end
 
       it 'generates an identifier token on validate' do
