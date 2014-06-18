@@ -24,7 +24,9 @@ class Member < User
                            inverse_of: :claimer,
                            autosave: true
   has_one :pha_profile, foreign_key: :user_id, inverse_of: :user
-  has_one :referral_code, foreign_key: :user_id, inverse_of: :user
+  has_one :owned_referral_code, class_name: 'ReferralCode',
+                                foreign_key: :user_id,
+                                inverse_of: :user
 
   belongs_to :pha, class_name: 'Member', inverse_of: :owned_members
   #TODO - careful, there is a User::owned_users that does something different
@@ -58,7 +60,7 @@ class Member < User
                   :apns_token, :is_premium, :free_trial_ends_at, :last_contact_at,
                   :skip_agreement_validation, :signed_up_at, :subscription_ends_at,
                   :test_user, :marked_for_deletion, :onboarding_group, :onboarding_group_id,
-                  :referral_code, :referral_code_id, :on_call
+                  :referral_code, :referral_code_id, :on_call, :owned_referral_code
 
   validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
@@ -84,7 +86,7 @@ class Member < User
   before_create :set_auth_token # generate inital auth_token
   after_create :add_install_message
   after_create :add_new_member_content
-  after_create :add_referral_code
+  after_create :add_owned_referral_code
   after_save :send_welcome_email
   after_save :send_free_trial_email
   after_save :send_free_trial_upgrade_email
@@ -171,9 +173,9 @@ class Member < User
     true
   end
 
-  def add_referral_code
-    return if referral_code
-    create_referral_code!(name: email, user: self)
+  def add_owned_referral_code
+    return if owned_referral_code
+    create_owned_referral_code!(name: email)
   end
 
   def send_welcome_email
