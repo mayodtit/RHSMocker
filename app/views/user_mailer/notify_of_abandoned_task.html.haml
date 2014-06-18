@@ -1,0 +1,9 @@
+- is_owner = @task.owner.id == @care_provider.id
+%p Hi #{@care_provider.salutation},
+%p #{@abandoner_name} abandoned #{is_owner ? 'your' : ''} task #{@task.id} because "#{@task.reason_abandoned}".
+%p
+  Sincerely,
+  %br
+  Care Portal
+%small
+  This email was sent because you are #{is_owner ? 'the task owner' : 'a PHA lead'}.
