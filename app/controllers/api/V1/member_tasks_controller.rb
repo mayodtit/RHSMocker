@@ -20,10 +20,6 @@ class Api::V1::MemberTasksController < Api::V1::ABaseController
 
   private
 
-  def load_member!
-    @member = Member.find(params[:member_id])
-  end
-
   def task_attributes
     params.require(:task).permit(:title, :description, :due_at, :owner_id, :subject_id, :service_type_id)
   end
