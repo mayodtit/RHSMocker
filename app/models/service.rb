@@ -8,7 +8,6 @@ class Service < ActiveRecord::Base
   belongs_to :creator, class_name: 'Member'
   belongs_to :owner, class_name: 'Member'
   belongs_to :assignor, class_name: 'Member'
-  belongs_to :abandoner, class_name: 'Member'
 
   has_many :service_state_transitions
   has_many :tasks, order: 'service_ordinal ASC, priority DESC, due_at ASC, created_at ASC'
