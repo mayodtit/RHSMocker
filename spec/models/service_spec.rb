@@ -123,4 +123,26 @@ describe Service do
       end
     end
   end
+
+  describe '#tasks' do
+    let!(:service) { create :service }
+    let!(:first_task) { create :task, service: service, service_ordinal: 0 }
+    let!(:second_task) { create :task, service: service, service_ordinal: 1 }
+    let!(:third_task) { create :task, service: service, service_ordinal: 2 }
+    let!(:fourth_task) { create :task, service: service, service_ordinal: 3, priority: 2, due_at: 5.days.from_now }
+    let!(:fifth_task) { create :task, service: service, service_ordinal: 3, due_at: 4.days.from_now }
+
+    it 'returns all tasks for the service' do
+      tasks = service.tasks
+      tasks.should be_include(first_task)
+      tasks.should be_include(second_task)
+      tasks.should be_include(third_task)
+      tasks.should be_include(fourth_task)
+      tasks.should be_include(fifth_task)
+    end
+
+    it 'returns all tasks sorted by service ordinal' do
+      service.tasks.should == [first_task, second_task, third_task, fourth_task, fifth_task]
+    end
+  end
 end

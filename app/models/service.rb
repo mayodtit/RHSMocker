@@ -11,6 +11,7 @@ class Service < ActiveRecord::Base
   belongs_to :abandoner, class_name: 'Member'
 
   has_many :service_state_transitions
+  has_many :tasks, order: 'service_ordinal ASC, priority DESC, due_at ASC, created_at ASC'
 
   attr_accessor :actor_id
   attr_accessible :description, :title, :service_type_id, :service_type,

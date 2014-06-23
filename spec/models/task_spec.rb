@@ -18,6 +18,62 @@ describe Task do
     it_validates 'foreign key of', :role
     it_validates 'foreign key of', :service_type
 
+    describe '#service' do
+      let(:task) { build_stubbed :task }
+
+      context 'service id exists' do
+        before do
+          task.stub(:service_id) { 1 }
+        end
+
+        it 'validates presence' do
+          task.stub(:service) { nil }
+          task.should_not be_valid
+          task.errors[:service].should include("can't be blank")
+        end
+      end
+
+      context 'service id does not exist' do
+        before do
+          task.stub(:service_id) { nil }
+          task.role = build_stubbed :role
+        end
+
+        it 'doesn\'t validate presence' do
+          task.stub(:service) { nil }
+          task.should be_valid
+        end
+      end
+    end
+
+    describe '#service_ordinal' do
+      let(:task) { build_stubbed :task }
+
+      context 'service id exists' do
+        before do
+          task.stub(:service_id) { 1 }
+        end
+
+        it 'validates presence' do
+          task.service_ordinal = nil
+          task.should_not be_valid
+          task.errors[:service_ordinal].should include("can't be blank")
+        end
+      end
+
+      context 'service id does not exist' do
+        before do
+          task.stub(:service_id) { nil }
+          task.role = build_stubbed :role
+        end
+
+        it 'doesn\'t validate presence' do
+          task.service_ordinal = 1
+          task.should be_valid
+        end
+      end
+    end
+
     describe '#one_claimed_per_owner' do
       let(:claimed_task) { build_stubbed :task, :claimed }
 

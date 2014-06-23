@@ -8,6 +8,7 @@ class Task < ActiveRecord::Base
   belongs_to :creator, class_name: 'Member'
   belongs_to :assignor, class_name: 'Member'
   belongs_to :abandoner, class_name: 'Member'
+  belongs_to :service, class_name: 'Service'
   belongs_to :service_type
 
   attr_accessible :title, :description, :due_at, :reason_abandoned,
@@ -20,6 +21,8 @@ class Task < ActiveRecord::Base
   validates :owner, presence: true, if: lambda { |t| t.owner_id }
   validates :role, presence: true, if: lambda { |t| t.role_id }
   validates :service_type, presence: true, if: lambda { |t| t.service_type_id }
+  validates :service, presence: true, if: lambda { |t| t.service_id }
+  validates :service_ordinal, presence: true, if: lambda { |t| t.service_id }
   validate :attrs_for_states
   validate :one_claimed_per_owner
 
@@ -57,7 +60,7 @@ class Task < ActiveRecord::Base
   end
 
   def set_priority
-    self.priority = PRIORITY
+    self.priority = PRIORITY if priority.nil?
   end
 
   def set_assigned_at
