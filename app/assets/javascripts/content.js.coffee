@@ -69,6 +69,9 @@ $ ->
   $(".birthday").click ->
     NativeBridge.call('editProfile', {allowed_fields: ['birthdate'], card_id: $(@).data("card-id"), id: $(@).data("user-id")})
 
+  $(".tell-a-friend").click ->
+    NativeBridge.call('tellAFriend')
+
   $(".diet-question .tile").click ->
     $('.' + $(@).data('type')).toggle()
 
