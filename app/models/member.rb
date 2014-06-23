@@ -166,6 +166,7 @@ class Member < User
     Question.new_member_questions.each do |q|
       cards.create!(resource: q)
     end
+    cards.create(resource: CustomCard.referral) if CustomCard.referral
     4.times do
       content = Content.next_for(self)
       cards.create(resource: content) if content

@@ -24,6 +24,10 @@ class CustomCard < ActiveRecord::Base
     @swipe_explainer ||= find_by_unique_id('RHS-SWIPE_EXPLAINER')
   end
 
+  def self.referral
+    @referral ||= find_by_unique_id('RHS-REFERRAL')
+  end
+
   private
 
   def set_defaults
