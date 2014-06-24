@@ -23,20 +23,20 @@ class Metadata < ActiveRecord::Base
           description: "Share your promo code #{user.owned_referral_code.code} with your friends, and they’ll get two weeks of free Better Premium. Once they’ve become a paid Premium Member, you’ll both get a month of Premium for free.",
           services: {
             facebook: {
-              text: "Simplify your health with Better. Use my code #{user.owned_referral_code.code} to sign up, and you’ll receive two weeks of free Premium membership with your very own Personal Health Assistant. They’ll use Mayo Clinic expertise to do everything from manage your family’s health insurance to crafting custom diet and fitness plans. If you extend your membership, we’ll both get an additional free month! getbetter.com/app"
+              text: 'Simplify your health with Better. Sign up and you’ll get up to 6 weeks of free Premium membership. Your Personal Health Assistant will use Mayo Clinic expertise to do everything from manage your family’s health insurance to crafting custom diet and fitness plans.'
             },
             twitter: {
-              text: "Change your health with @Betterpha & @mayoclinic. Use my promo code #{user.owned_referral_code.code} and get up to 6 weeks free of Premium. getbetter.com/app"
+              text: 'Change your health with @Betterpha & @mayoclinic. Sign up here to get up to 6 weeks free.'
             },
             email: {
               subject: "Get Better with me",
-              text: "Hey there, I joined Better's Premium service and thought you'd enjoy it too. Better provides free tools and Premium access to a team of Personal Health Assistants so you can spend more time improving your health, not managing the logistics.\n\nI'm gifting you 2 weeks of free membership, which means you'll get your very own Personal Health Assistant who can help with everything from evaluating insurance to finding new doctors.  If you decide to continue your membership, we’ll both get a free month!\n\nUse this unique invite code: #{user.owned_referral_code.code} and click here to redeem: getbetter.com/app"
+              text: "Hey there,\n\nI joined Better's Premium service and thought you'd enjoy it too. Sign up here and get up to 6 weeks free: http://www.getbetter.com/getstarted?code=#{user.owned_referral_code.code}\n\nI'm gifting you 2 weeks of free membership, which means you'll get your very own Personal Health Assistant who can help with everything from evaluating insurance to finding new doctors.  If you decide to continue your membership, we’ll both get a free month!"
             },
             sms: {
-              text: "Simplify your health with Better. Use my code #{user.owned_referral_code.code} to sign up, and you’ll receive up to six weeks of free Premium membership with your very own Personal Health Assistant. They’ll use Mayo Clinic expertise to do everything from manage your family’s health insurance to crafting custom diet and fitness plans. getbetter.com/app"
+              text: "Get Better with me. Sign up here, and you’ll receive up to 6 weeks of free Premium membership with your very own Personal Health Assistant."
             },
             default: {
-              text: "Simplify your health with Better. Use my code #{user.owned_referral_code.code} to sign up, and you’ll receive up to six weeks of free Premium membership with your very own Personal Health Assistant. They’ll use Mayo Clinic expertise to do everything from manage your family’s health insurance to crafting custom diet and fitness plans. getbetter.com/app"
+              text: "Get Better with me. Sign up here, and you’ll receive up to 6 weeks of free Premium membership with your very own Personal Health Assistant."
             }
           }
         }
