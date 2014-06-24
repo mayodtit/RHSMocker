@@ -87,6 +87,7 @@ class Member < User
   after_create :add_install_message
   after_create :add_new_member_content
   after_create :add_owned_referral_code
+  after_create :add_referral_card_job
   after_save :send_welcome_email
   after_save :send_free_trial_email
   after_save :send_free_trial_upgrade_email
@@ -166,7 +167,6 @@ class Member < User
     Question.new_member_questions.each do |q|
       cards.create!(resource: q)
     end
-    cards.create(resource: CustomCard.referral) if CustomCard.referral
     4.times do
       content = Content.next_for(self)
       cards.create(resource: content) if content
@@ -177,6 +177,10 @@ class Member < User
   def add_owned_referral_code
     return if owned_referral_code
     create_owned_referral_code!(name: email)
+  end
+
+  def add_referral_card_job
+    ReferralCardJob.create(id)
   end
 
   def send_welcome_email
