@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140623231946) do
+ActiveRecord::Schema.define(:version => 20140624175447) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -658,6 +658,17 @@ ActiveRecord::Schema.define(:version => 20140623231946) do
     t.string   "gender"
   end
 
+  create_table "task_templates", :force => true do |t|
+    t.string   "name",                :null => false
+    t.string   "title",               :null => false
+    t.string   "description"
+    t.integer  "time_estimate"
+    t.integer  "service_ordinal"
+    t.integer  "service_template_id"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
+
   create_table "tasks", :force => true do |t|
     t.string   "title"
     t.text     "description"
@@ -689,6 +700,7 @@ ActiveRecord::Schema.define(:version => 20140623231946) do
     t.integer  "priority",                   :default => 0, :null => false
     t.integer  "service_id"
     t.integer  "service_ordinal"
+    t.integer  "task_template_id"
   end
 
   add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"
