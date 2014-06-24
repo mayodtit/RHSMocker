@@ -2,6 +2,8 @@ class Service < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
 
   belongs_to :service_type
+  belongs_to :service_template
+
   belongs_to :member
   belongs_to :subject, class_name: 'User'
 
@@ -16,10 +18,11 @@ class Service < ActiveRecord::Base
   attr_accessible :description, :title, :service_type_id, :service_type,
                   :member_id, :member, :subject_id, :subject, :reason_abandoned,
                   :creator_id, :creator, :owner_id, :owner, :assignor_id, :assignor,
-                  :actor_id, :due_at, :state_event
+                  :actor_id, :due_at, :state_event, :service_template, :service_template_id
 
   validates :title, :service_type, :state, :member, :creator, :owner, :assignor, :assigned_at, presence: true
   validates :reason_abandoned, presence: true, if: lambda { |s| s.abandoned? }
+  validates :service_template, presence: true, if: lambda { |s| s.service_template_id.present? }
 
   before_validation :set_assigned_at
 

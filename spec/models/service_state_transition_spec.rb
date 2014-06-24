@@ -5,7 +5,6 @@ describe ServiceStateTransition do
 
   describe 'validations' do
     it_validates 'presence of', :service
-    it_validates 'presence of', :created_at
     it_validates 'presence of', :actor
   end
 end

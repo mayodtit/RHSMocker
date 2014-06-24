@@ -11,6 +11,7 @@ describe Service do
     it_validates 'presence of', :creator
     it_validates 'presence of', :owner
     it_validates 'presence of', :assignor
+    it_validates 'foreign key of', :service_template
 
     its 'validates presence of assigned_at' do
       service = build_stubbed :service

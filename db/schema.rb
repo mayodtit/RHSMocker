@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140623181021) do
+ActiveRecord::Schema.define(:version => 20140623231946) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -556,6 +556,16 @@ ActiveRecord::Schema.define(:version => 20140623181021) do
 
   add_index "service_state_transitions", ["service_id"], :name => "index_service_state_transitions_on_service_id"
 
+  create_table "service_templates", :force => true do |t|
+    t.string   "name",            :null => false
+    t.string   "title",           :null => false
+    t.string   "description"
+    t.integer  "service_type_id", :null => false
+    t.integer  "time_estimate"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
   create_table "service_types", :force => true do |t|
     t.string   "name",       :null => false
     t.datetime "created_at", :null => false
@@ -567,20 +577,21 @@ ActiveRecord::Schema.define(:version => 20140623181021) do
   add_index "service_types", ["name"], :name => "index_service_types_on_name", :unique => true
 
   create_table "services", :force => true do |t|
-    t.string   "title",            :null => false
+    t.string   "title",               :null => false
     t.string   "description"
-    t.integer  "service_type_id",  :null => false
-    t.string   "state",            :null => false
-    t.integer  "member_id",        :null => false
+    t.integer  "service_type_id",     :null => false
+    t.string   "state",               :null => false
+    t.integer  "member_id",           :null => false
     t.integer  "subject_id"
     t.string   "reason_abandoned"
-    t.integer  "creator_id",       :null => false
-    t.integer  "owner_id",         :null => false
-    t.integer  "assignor_id",      :null => false
+    t.integer  "creator_id",          :null => false
+    t.integer  "owner_id",            :null => false
+    t.integer  "assignor_id",         :null => false
     t.datetime "due_at"
     t.datetime "assigned_at"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+    t.integer  "service_template_id"
   end
 
   create_table "side_effects", :force => true do |t|
