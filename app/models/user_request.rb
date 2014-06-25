@@ -3,6 +3,7 @@ class UserRequest < ActiveRecord::Base
   belongs_to :subject, class_name: 'User'
   belongs_to :user_request_type
   serialize :request_data, Hash
+  has_one :user_request_task
 
   attr_accessible :user, :user_id, :subject, :subject_id, :name,
                   :user_request_type, :user_request_type_id, :request_data
@@ -10,6 +11,7 @@ class UserRequest < ActiveRecord::Base
   validates :user, :subject, :user_request_type, :name, presence: true
 
   after_create :send_confirmation_message
+  after_create :create_task
 
   private
 
@@ -23,5 +25,12 @@ class UserRequest < ActiveRecord::Base
     user.master_consult.messages.create(user: Member.robot,
                                         text: text,
                                         off_hours: true)
+  end
+
+  def create_task
+    create_user_request_task(title: 'New User Request',
+                             creator: Member.robot,
+                             member: user,
+                             due_at: Time.now)
   end
 end
