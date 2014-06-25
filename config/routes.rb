@@ -100,6 +100,7 @@ RHSMocker::Application.routes.draw do
       post 'user/update_password', to: 'members#secure_update', as: :update_password # TODO - deprecated!
       post 'user/update_email', to: 'members#secure_update', as: :update_email # TODO - deprecated!
       resources :user_request_types, only: %i(index show create update)
+      resources :user_requests, only: %i(index show create update)
       resources :users, only: [:show, :update, :destroy] do
         get :index, on: :collection, to: 'providers#index' # TODO - this is deprecated; new endpoint: providers/search
         resources :addresses, except: %i(new edit)

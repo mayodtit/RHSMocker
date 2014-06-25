@@ -32,8 +32,18 @@ class Api::V1::UserRequestsController < Api::V1::ABaseController
 
   private
 
+  def load_user!
+    @user = User.find(params[:user_id]) if params[:user_id]
+    authorize! :manage, @user if @user
+  end
+
   def load_user_requests!
-    @user_requests = @user.user_requests
+    if @user
+      @user_requests = @user.user_requests
+    else
+      raise CanCan::AccessDenied unless current_user.pha?
+      @user_requests = UserRequest.scoped
+    end
   end
 
   def load_user_request!
