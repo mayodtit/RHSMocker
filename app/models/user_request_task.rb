@@ -1,7 +1,7 @@
 class UserRequestTask < Task
   include ActiveModel::ForbiddenAttributesProtection
 
-  belongs_to :user_request
+  belongs_to :user_request, inverse_of: :user_request_task
 
   attr_accessible :member, :member_id, :user_request, :user_request_id
 
