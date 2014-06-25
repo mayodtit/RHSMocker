@@ -20,6 +20,7 @@ class Metadata < ActiveRecord::Base
         hash[:referral_info] = {
           code: user.owned_referral_code.code,
           url: "http://www.getbetter.com/getstarted?code=#{user.owned_referral_code.code}",
+          title: "Tell a Friend about Better",
           description: "Share your promo code #{user.owned_referral_code.code} with your friends, and they’ll get two weeks of free Better Premium. Once they’ve become a paid Premium Member, you’ll both get a month of Premium for free.",
           services: {
             facebook: {
