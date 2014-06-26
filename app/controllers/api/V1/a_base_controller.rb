@@ -68,6 +68,10 @@ module Api
         authorize! :manage, @user
       end
 
+      def load_member!
+        @member = Member.find(params[:member_id])
+      end
+
       private
 
       def force_development_error!

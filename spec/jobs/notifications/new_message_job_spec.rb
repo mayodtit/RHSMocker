@@ -1,8 +1,8 @@
 require 'spec_helper'
 
 describe Notifications::NewMessageJob do
-  let(:user) { create(:member) }
-  let(:consult) { create(:consult, initiator: user) }
+  let!(:user) { create(:member) }
+  let!(:consult) { create(:consult, initiator: user) }
 
   before do
     Consult.skip_callback(:create, :after, :create_task) # don't create extra jobs
@@ -15,18 +15,17 @@ describe Notifications::NewMessageJob do
 
   describe '#create' do
     it 'enqueues the job for now' do
-      expect{ described_class.create(user.id, consult.id) }.to change(Delayed::Job, :count).by(5)
+      expect{ described_class.create(user.id, consult.id) }.to change(Delayed::Job, :count).by(1)
       job = Delayed::Job.last
       expect(job.run_at).to eq(Time.now)
       expect(job.queue).to eq("NewMessageJob-UserId-#{user.id}-ConsultId-#{consult.id}")
     end
 
     it 'deletes existing jobs for the same user and consult' do
-      expect{ described_class.create(user.id, consult.id) }.to change(Delayed::Job, :count).by(5)
+      expect{ described_class.create(user.id, consult.id) }.to change(Delayed::Job, :count).by(1)
       first_job = Delayed::Job.last
       described_class.create(user.id, consult.id)
       expect(Delayed::Job.find_by_id(first_job.id)).to be_nil
-      expect(Delayed::Job.count).to eq(5)
     end
   end
 

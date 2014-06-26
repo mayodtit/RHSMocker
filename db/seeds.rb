@@ -378,3 +378,5 @@ ServiceType.find_or_create_by_name(name: 'sleep assessment and plan', bucket: 'w
 ServiceType.find_or_create_by_name(name: 'stress assessment and plan', bucket: 'wellness')
 ServiceType.find_or_create_by_name(name: 'wellness research', bucket: 'wellness')
 ServiceType.find_or_create_by_name(name: 'other wellness', bucket: 'wellness')
+
+UserRequestType.find_or_create_by_name(name: :appointment)

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140617151247) do
+ActiveRecord::Schema.define(:version => 20140626134341) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -195,6 +195,7 @@ ActiveRecord::Schema.define(:version => 20140617151247) do
     t.string   "unique_id"
     t.boolean  "has_custom_card", :default => false, :null => false
     t.boolean  "payment_card"
+    t.boolean  "pha_card"
   end
 
   create_table "delayed_jobs", :force => true do |t|
@@ -497,6 +498,7 @@ ActiveRecord::Schema.define(:version => 20140617151247) do
     t.integer  "onboarding_group_id"
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
+    t.integer  "user_id"
   end
 
   create_table "remote_events", :force => true do |t|
@@ -544,6 +546,27 @@ ActiveRecord::Schema.define(:version => 20140617151247) do
   add_index "scheduled_phone_calls", ["state", "scheduled_at"], :name => "index_scheduled_phone_calls_on_state_and_scheduled_at"
   add_index "scheduled_phone_calls", ["state"], :name => "index_scheduled_phone_calls_on_state"
 
+  create_table "service_state_transitions", :force => true do |t|
+    t.integer  "service_id", :null => false
+    t.string   "event"
+    t.string   "from"
+    t.string   "to"
+    t.integer  "actor_id",   :null => false
+    t.datetime "created_at", :null => false
+  end
+
+  add_index "service_state_transitions", ["service_id"], :name => "index_service_state_transitions_on_service_id"
+
+  create_table "service_templates", :force => true do |t|
+    t.string   "name",            :null => false
+    t.string   "title",           :null => false
+    t.string   "description"
+    t.integer  "service_type_id", :null => false
+    t.integer  "time_estimate"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
   create_table "service_types", :force => true do |t|
     t.string   "name",       :null => false
     t.datetime "created_at", :null => false
@@ -553,6 +576,24 @@ ActiveRecord::Schema.define(:version => 20140617151247) do
 
   add_index "service_types", ["bucket"], :name => "index_service_types_on_bucket"
   add_index "service_types", ["name"], :name => "index_service_types_on_name", :unique => true
+
+  create_table "services", :force => true do |t|
+    t.string   "title",               :null => false
+    t.string   "description"
+    t.integer  "service_type_id",     :null => false
+    t.string   "state",               :null => false
+    t.integer  "member_id",           :null => false
+    t.integer  "subject_id"
+    t.string   "reason_abandoned"
+    t.integer  "creator_id",          :null => false
+    t.integer  "owner_id",            :null => false
+    t.integer  "assignor_id",         :null => false
+    t.datetime "due_at"
+    t.datetime "assigned_at"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+    t.integer  "service_template_id"
+  end
 
   create_table "side_effects", :force => true do |t|
     t.string   "name",        :null => false
@@ -618,6 +659,17 @@ ActiveRecord::Schema.define(:version => 20140617151247) do
     t.string   "gender"
   end
 
+  create_table "task_templates", :force => true do |t|
+    t.string   "name",                :null => false
+    t.string   "title",               :null => false
+    t.string   "description"
+    t.integer  "time_estimate"
+    t.integer  "service_ordinal"
+    t.integer  "service_template_id"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
+
   create_table "tasks", :force => true do |t|
     t.string   "title"
     t.text     "description"
@@ -647,6 +699,10 @@ ActiveRecord::Schema.define(:version => 20140617151247) do
     t.integer  "parsed_nurseline_record_id"
     t.integer  "service_type_id"
     t.integer  "priority",                   :default => 0, :null => false
+    t.integer  "user_request_id"
+    t.integer  "service_id"
+    t.integer  "service_ordinal"
+    t.integer  "task_template_id"
   end
 
   add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"

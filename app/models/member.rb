@@ -24,6 +24,9 @@ class Member < User
                            inverse_of: :claimer,
                            autosave: true
   has_one :pha_profile, foreign_key: :user_id, inverse_of: :user
+  has_one :owned_referral_code, class_name: 'ReferralCode',
+                                foreign_key: :user_id,
+                                inverse_of: :user
 
   belongs_to :pha, class_name: 'Member', inverse_of: :owned_members
   #TODO - careful, there is a User::owned_users that does something different
@@ -38,6 +41,7 @@ class Member < User
   has_one :subscription_user, foreign_key: :user_id
   has_one :shared_subscription, through: :subscription_user, class_name: 'Subscription', source: :subscription
   has_many :tasks, class_name: 'MemberTask'
+  has_many :services
   has_many :user_images, foreign_key: :user_id,
                          inverse_of: :user,
                          dependent: :destroy
@@ -57,7 +61,7 @@ class Member < User
                   :apns_token, :is_premium, :free_trial_ends_at, :last_contact_at,
                   :skip_agreement_validation, :signed_up_at, :subscription_ends_at,
                   :test_user, :marked_for_deletion, :onboarding_group, :onboarding_group_id,
-                  :referral_code, :referral_code_id, :on_call
+                  :referral_code, :referral_code_id, :on_call, :owned_referral_code
 
   validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
@@ -81,8 +85,9 @@ class Member < User
   before_validation :set_free_trial_ends_at
   before_validation :convert_premium
   before_create :set_auth_token # generate inital auth_token
-  after_create :add_install_message
   after_create :add_new_member_content
+  after_create :add_owned_referral_code
+  after_create :add_referral_card_job
   after_save :send_welcome_email
   after_save :send_free_trial_email
   after_save :send_free_trial_upgrade_email
@@ -147,26 +152,28 @@ class Member < User
     update_attribute(:auth_token, nil)
   end
 
-  def add_install_message
-    if Content.install_message
-      cards.create!(resource: Content.install_message,
-                    state: :saved,
-                    state_changed_at: Time.zone.now.iso8601)
-    end
-    true
-  end
-
   def add_new_member_content
-    cards.create(resource: CustomCard.swipe_explainer, priority: 100) if CustomCard.swipe_explainer
-    cards.create(resource: Content.explainer, priority: 30) if Content.explainer
+    cards.create(resource: Content.free_trial, priority: 30) if Content.free_trial
+    cards.create(resource: CustomCard.meet_your_pha, priority: 25) if CustomCard.meet_your_pha && pha.present?
     Question.new_member_questions.each do |q|
       cards.create!(resource: q)
     end
-    4.times do
-      content = Content.next_for(self)
-      cards.create(resource: content) if content
+    if @sunscreen_content = Content.find_by_document_id('MY01350')
+      cards.create(resource: @sunscreen_content)
     end
-    true
+    if @happiness_content = Content.find_by_document_id('MY01357')
+      cards.create(resource: @happiness_content)
+    end
+    cards.create(resource: CustomCard.swipe_explainer) if CustomCard.swipe_explainer
+  end
+
+  def add_owned_referral_code
+    return if owned_referral_code
+    create_owned_referral_code!(name: email)
+  end
+
+  def add_referral_card_job
+    ReferralCardJob.create(id)
   end
 
   def send_welcome_email
@@ -293,16 +300,6 @@ class Member < User
     update_attributes!(pha: self.class.next_pha)
   end
 
-  def add_premium_cards
-    cards.build(resource: Content.premium, priority: 50) if Content.premium # fail silently
-    cards.build(resource: CustomCard.onboarding, priority: 45) if CustomCard.onboarding # fail silently
-  end
-
-  def remove_premium_cards
-    cards.where(resource_type: CustomCard, resource_id: CustomCard.onboarding.id).destroy_all if CustomCard.onboarding
-    cards.where(resource_type: Content, resource_id: Content.premium.id).destroy_all if Content.premium
-  end
-
   def notify_pha_of_new_member
     if (newly_assigned_pha? && signed_up?) || (newly_signed_up? && pha_id.present?)
       NewMemberTask.delay.create! member: self, title: 'New Premium Member', creator: Member.robot
@@ -372,13 +369,10 @@ class Member < User
 
   def convert_premium
     if newly_premium?
-      add_premium_cards
       self.pha ||= self.class.next_pha
       master_consult || build_master_consult(subject: self,
                                              title: 'Direct messaging with your Better PHA',
                                              skip_tasks: true)
-    elsif !is_premium? && is_premium_changed?
-      remove_premium_cards
     end
   end
 

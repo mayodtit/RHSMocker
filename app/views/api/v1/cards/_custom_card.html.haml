@@ -13,6 +13,20 @@
         .footer
           = image_tag('small_b.png', class: 'better-b')
         = image_tag('ArrowLight.png', class: 'open-arrow')
+    - elsif resource.pha_card?
+      .card.open-consult
+        .image-container
+          - if card.try(:user).try(:pha).try(:email) == 'clare@getbetter.com'
+            = image_tag('meet-your-pha_clare.png', class: 'card-image')
+          - elsif card.try(:user).try(:pha).try(:email) == 'lauren@getbetter.com'
+            = image_tag('meet-your-pha_lauren.png', class: 'card-image')
+          - elsif card.try(:user).try(:pha).try(:email) == 'meg@getbetter.com'
+            = image_tag('meet-your-pha_meg.png', class: 'card-image')
+          - elsif card.try(:user).try(:pha).try(:email) == 'ninette@getbetter.com'
+            = image_tag('meet-your-pha_ninette.png', class: 'card-image')
+          - elsif card.try(:user).try(:pha).try(:email) == 'jenn@getbetter.com'
+            = image_tag('meet-your-pha_jenn.png', class: 'card-image')
+        = image_tag('ArrowLight.png', class: 'open-arrow')
     - else
       .card.card-link{:data => {:card_id => resource.content ? card.try(:id) : nil}}
         - if resource.has_custom_card?

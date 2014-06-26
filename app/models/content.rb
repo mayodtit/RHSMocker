@@ -68,6 +68,10 @@ class Content < ActiveRecord::Base
     @explainer ||= find_by_document_id('RHS-EXPLAINER')
   end
 
+  def self.free_trial
+    @free_trial ||= find_by_document_id('RHS-FREETRIAL')
+  end
+
   # TODO - replace in future with root_share_url, move append to UserReading
   def share_url(user_reading_id=nil)
     result = "/contents/#{document_id}"

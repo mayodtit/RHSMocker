@@ -62,6 +62,7 @@ RHSMocker::Application.routes.draw do
         put :secure_update, on: :member
         put :update_current, on: :collection # TODO - this should be deprecated in general, client should know the ID
         resources :tasks, only: [:index, :create], controller: 'member_tasks'
+        resources :services, only: [:index, :create], controller: 'member_services'
       end
       resources :onboarding_groups, only: %i(index show create update) do
         resources :users, only: %i(index create destroy), controller: 'onboarding_group_users'
@@ -100,6 +101,7 @@ RHSMocker::Application.routes.draw do
       post 'user/update_password', to: 'members#secure_update', as: :update_password # TODO - deprecated!
       post 'user/update_email', to: 'members#secure_update', as: :update_email # TODO - deprecated!
       resources :user_request_types, only: %i(index show create update)
+      resources :user_requests, only: %i(index show create update)
       resources :users, only: [:show, :update, :destroy] do
         get :index, on: :collection, to: 'providers#index' # TODO - this is deprecated; new endpoint: providers/search
         resources :addresses, except: %i(new edit)
@@ -163,6 +165,7 @@ RHSMocker::Application.routes.draw do
         get 'queue', on: :collection
         get 'current', on: :collection
       end
+      resources :services, only: [:show, :update]
       resources :metrics, only: [:index] do
         get :inbound, on: :collection
         get :inbound_by_week, on: :collection

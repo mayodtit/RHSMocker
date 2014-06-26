@@ -293,11 +293,15 @@ class PhoneCall < ActiveRecord::Base
   # 15-digit 0-padded unique random number
   def generate_identifier_token
     self.identifier_token ||= loop do
-      token = ('%015i' % SecureRandom.random_number(10**15))
+      token = ('%015i' % random_number)
       break token unless self.class.find_by_identifier_token(token)
     end
 
     self.twilio_conference_name ||= identifier_token
+  end
+
+  def random_number
+    SecureRandom.random_number(10**15)
   end
 
   def prep_phone_numbers

@@ -16,6 +16,32 @@ class Metadata < ActiveRecord::Base
         hash.merge!(fg.metadata_override) if fg.metadata_override
       end
       hash[:needs_agreement] = true if user.needs_agreement?
+      if user.owned_referral_code
+        hash[:referral_info] = {
+          code: user.owned_referral_code.code,
+          url: "http://www.getbetter.com/getstarted?code=#{user.owned_referral_code.code}",
+          title: "Tell a Friend about Better",
+          description: "Share your promo code #{user.owned_referral_code.code} with your friends, and they’ll get two weeks of free Better Premium. Once they’ve become a paid Premium member, you’ll both get a month of Premium for free.",
+          services: {
+            facebook: {
+              text: 'Simplify your health with Better. Sign up and you’ll get up to 6 weeks of free Premium membership. Your Personal Health Assistant will use Mayo Clinic expertise to do everything from manage your family’s health insurance to crafting custom diet and fitness plans.'
+            },
+            twitter: {
+              text: 'Change your health with @Betterpha & @mayoclinic. Sign up here to get up to 6 weeks free.'
+            },
+            email: {
+              subject: "Get Better with me",
+              text: "Hey there,\n\nI joined Better's Premium service and thought you'd enjoy it too. Sign up here and get up to 6 weeks free: http://www.getbetter.com/getstarted?code=#{user.owned_referral_code.code}\n\nI'm gifting you 2 weeks of free membership, which means you'll get your very own Personal Health Assistant who can help with everything from evaluating insurance to finding new doctors.  If you decide to continue your membership, we’ll both get a free month!"
+            },
+            sms: {
+              text: "Get Better with me. Sign up here, and you’ll receive up to 6 weeks of free Premium membership with your very own Personal Health Assistant."
+            },
+            default: {
+              text: "Get Better with me. Sign up here, and you’ll receive up to 6 weeks of free Premium membership with your very own Personal Health Assistant."
+            }
+          }
+        }
+      end
     end
   end
 

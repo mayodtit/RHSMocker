@@ -101,7 +101,7 @@ resource "Tasks" do
   describe 'update task' do
     parameter :auth_token, 'Performing hcp\'s auth_token'
     parameter :id, 'Task id'
-    parameter :state_event, 'Event to perform on the task (\'unassign\', \'assign\', \'start\', \'claim\', \'abandon\', \'claim\')'
+    parameter :state_event, 'Event to perform on the task (\'unstart\', \'start\', \'claim\', \'abandon\', \'complete\')'
     parameter :owner_id, 'The id of the owner of this task'
     parameter :reason_abandoned, 'The reason for abandoning a task'
 
