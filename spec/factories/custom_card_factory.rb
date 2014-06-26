@@ -4,6 +4,7 @@ FactoryGirl.define do
     raw_preview "CustomCard raw_preview"
     has_custom_card false
     payment_card false
+    pha_card false
 
     trait :with_content do
       content

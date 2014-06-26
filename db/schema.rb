@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140624234910) do
+ActiveRecord::Schema.define(:version => 20140626134341) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -195,6 +195,7 @@ ActiveRecord::Schema.define(:version => 20140624234910) do
     t.string   "unique_id"
     t.boolean  "has_custom_card", :default => false, :null => false
     t.boolean  "payment_card"
+    t.boolean  "pha_card"
   end
 
   create_table "delayed_jobs", :force => true do |t|

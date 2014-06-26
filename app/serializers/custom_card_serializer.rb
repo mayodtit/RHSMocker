@@ -4,7 +4,7 @@ class CustomCardSerializer < ViewSerializer
   attributes :id, :title, :content_id, :priority
   has_one :content
 
-  delegate :has_custom_card?, :payment_card?, to: :object
+  delegate :has_custom_card?, :payment_card?, :pha_card?, to: :object
 
   def preview
     controller.render_to_string(template: 'api/v1/cards/preview',
