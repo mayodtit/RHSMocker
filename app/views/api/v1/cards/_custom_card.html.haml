@@ -14,7 +14,7 @@
           = image_tag('small_b.png', class: 'better-b')
         = image_tag('ArrowLight.png', class: 'open-arrow')
     - elsif resource.pha_card?
-      .card
+      .card.open-consult
         .image-container
           - if card.try(:user).try(:pha).try(:email) == 'clare@getbetter.com'
             = image_tag('meet-your-pha_clare.png', class: 'card-image')
