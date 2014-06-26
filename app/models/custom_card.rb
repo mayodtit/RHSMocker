@@ -28,6 +28,10 @@ class CustomCard < ActiveRecord::Base
     @referral ||= find_by_unique_id('RHS-REFERRAL')
   end
 
+  def self.meet_your_pha
+    @meet_your_pha ||= find_by_unique_id('RHS-MEETYOURPHA')
+  end
+
   private
 
   def set_defaults
