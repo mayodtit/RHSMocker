@@ -8,18 +8,24 @@ class Task < ActiveRecord::Base
   belongs_to :creator, class_name: 'Member'
   belongs_to :assignor, class_name: 'Member'
   belongs_to :abandoner, class_name: 'Member'
+  belongs_to :service
   belongs_to :service_type
+  belongs_to :task_template
 
   attr_accessible :title, :description, :due_at, :reason_abandoned,
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
                   :abandoner, :abandoner_id, :role, :role_id,
-                  :state_event, :service_type_id, :service_type
+                  :state_event, :service_type_id, :service_type,
+                  :task_template, :task_template_id, :service, :service_id, :service_ordinal
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :owner, presence: true, if: lambda { |t| t.owner_id }
   validates :role, presence: true, if: lambda { |t| t.role_id }
   validates :service_type, presence: true, if: lambda { |t| t.service_type_id }
+  validates :service, presence: true, if: lambda { |t| t.service_id }
+  validates :service_ordinal, presence: true, if: lambda { |t| t.service_id }
+  validates :task_template, presence: true, if: lambda { |t| t.task_template_id }
   validate :attrs_for_states
   validate :one_claimed_per_owner
 
@@ -57,7 +63,7 @@ class Task < ActiveRecord::Base
   end
 
   def set_priority
-    self.priority = PRIORITY
+    self.priority = PRIORITY if priority.nil?
   end
 
   def set_assigned_at

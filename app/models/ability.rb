@@ -82,6 +82,8 @@ class Ability
       can :manage, User
       can :manage, Member
 
+      can :cru, Service
+
       can :cru, Task do |o|
         o.for_pha? || o.owner_id == o.id
       end
