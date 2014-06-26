@@ -158,6 +158,12 @@ class Member < User
     Question.new_member_questions.each do |q|
       cards.create!(resource: q)
     end
+    if @sunscreen_content = Content.find_by_document_id('MY01350')
+      cards.create(resource: @sunscreen_content)
+    end
+    if @happiness_content = Content.find_by_document_id('MY01357')
+      cards.create(resource: @happiness_content)
+    end
     cards.create(resource: CustomCard.swipe_explainer) if CustomCard.swipe_explainer
   end
 
