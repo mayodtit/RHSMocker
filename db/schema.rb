@@ -550,7 +550,7 @@ ActiveRecord::Schema.define(:version => 20140624234910) do
     t.string   "event"
     t.string   "from"
     t.string   "to"
-    t.integer  "actor_id"
+    t.integer  "actor_id",   :null => false
     t.datetime "created_at", :null => false
   end
 
@@ -698,10 +698,10 @@ ActiveRecord::Schema.define(:version => 20140624234910) do
     t.integer  "parsed_nurseline_record_id"
     t.integer  "service_type_id"
     t.integer  "priority",                   :default => 0, :null => false
+    t.integer  "user_request_id"
     t.integer  "service_id"
     t.integer  "service_ordinal"
     t.integer  "task_template_id"
-    t.integer  "user_request_id"
   end
 
   add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"
