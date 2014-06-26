@@ -23,9 +23,14 @@
           .card-info
             = image_tag(card.user_program.subject.avatar_or_gender_url)
             .card-info-copy
-              Because #{card.user_program.subject.first_name} is in the
-              %strong= card.user_program.program.title
-              program
+              - if card.user_program.subject == current_user
+                Because you are in the
+                %strong= card.user_program.program.title
+                program
+              - else
+                Because #{card.user_program.subject.first_name} is in the
+                %strong= card.user_program.program.title
+                program
         - elsif card.try(:sender)
           .card-info
             = image_tag(card.sender.avatar_or_gender_url)
