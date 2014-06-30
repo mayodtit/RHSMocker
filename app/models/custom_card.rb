@@ -32,6 +32,10 @@ class CustomCard < ActiveRecord::Base
     @meet_your_pha ||= find_by_unique_id('RHS-MEETYOURPHA')
   end
 
+  def self.gender
+    @gender ||= find_by_unique_id('RHS-GENDER')
+  end
+
   private
 
   def set_defaults
