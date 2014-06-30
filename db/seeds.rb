@@ -12,6 +12,9 @@ Content.upsert_attributes({title: 'Welcome to Better!'},
 
 CustomCard.upsert_attributes({title: 'Welcome to Better Premium'}, {priority: 20,
                                                                     raw_preview: "<div class=\"new-consult\" data-message=\"I would like to schedule an onboarding call with a Personal Health Assistant\" data-consult-type=\"schedule\">\nClick here to schedule a phone call with your Personal Health Assistant\n</div>"})
+CustomCard.upsert_attributes({unique_id: 'RHS-GENDER'}, {title: 'What is your gender?',
+                                                         has_custom_card: true,
+                                                         raw_preview: "<div class=\"card question\">\n  <div class=\"header\">\n    What is your gender?\n  </div>\n  <div class=\"body\">\n    <img class=\"gender left\" data-gender=\"male\" src=\"/assets/IconMale.png\" alt=\"IconMale\">\n    <img class=\"gender right\" data-gender=\"female\" src=\"/assets/IconFemale.png\" alt=\"IconFemale\">\n    <img class=\"logo better-logo\" src=\"/assets/b_Small.png\" alt=\"b_Small\">\n  </div>\n  <div class=\"footer\">\n  </div>\n</div>\n"})
 
 %w(nurse admin pha pha_lead).each do |role|
   Role.find_or_create_by_name!(name: role)
