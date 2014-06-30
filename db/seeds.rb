@@ -13,6 +13,11 @@ CustomCard.upsert_attributes({unique_id: 'RHS-GENDER'}, {title: 'What is your ge
                                                          priority: 20,
                                                          raw_preview: "<div class=\"card question\">\n  <div class=\"header\">\n    What is your gender?\n  </div>\n  <div class=\"body\">\n    <img class=\"gender left\" data-gender=\"male\" src=\"/assets/IconMale.png\" alt=\"IconMale\">\n    <img class=\"gender right\" data-gender=\"female\" src=\"/assets/IconFemale.png\" alt=\"IconFemale\">\n    <img class=\"logo better-logo\" src=\"/assets/b_Small.png\" alt=\"b_Small\">\n  </div>\n  <div class=\"footer\">\n  </div>\n</div>\n"})
 
+CustomCard.upsert_attributes({unique_id: 'RHS-SWIPE_EXPLAINER'}, {title: 'Swipe Explainer',
+                                                                  raw_preview: "<div class=\"image-container\">\n<img alt=\"Swipecard\" class=\"card-image\" src=\"/assets/swipecard.png\">\n</div>",
+                                                                  has_custom_card: true,
+                                                                  priority: 0})
+
 %w(nurse admin pha pha_lead).each do |role|
   Role.find_or_create_by_name!(name: role)
 end
