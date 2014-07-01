@@ -107,6 +107,7 @@ class Ability
       can :ru, ScheduledPhoneCall
       can :index, ScheduledPhoneCall
       can :create, Card
+      can :manage, ScheduledMessage
     end
 
     if user.pha_lead?

@@ -30,6 +30,7 @@ RHSMocker::Application.routes.draw do
           put :read, on: :collection
         end
         resources :phone_calls, only: :create
+        resources :scheduled_messages, except: %i(new edit)
       end
       resources :custom_cards, only: [:index, :show, :create, :update]
       resources :custom_contents, only: [:index, :show, :create, :update]
