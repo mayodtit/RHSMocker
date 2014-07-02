@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140701184056) do
+ActiveRecord::Schema.define(:version => 20140702145630) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -327,6 +327,13 @@ ActiveRecord::Schema.define(:version => 20140701184056) do
 
   add_index "message_statuses", ["message_id"], :name => "index_message_statuses_on_message_id"
   add_index "message_statuses", ["user_id"], :name => "index_message_statuses_on_user_id"
+
+  create_table "message_templates", :force => true do |t|
+    t.string   "name"
+    t.text     "text"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "messages", :force => true do |t|
     t.text     "text"
