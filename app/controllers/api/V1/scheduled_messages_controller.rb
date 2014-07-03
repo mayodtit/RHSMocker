@@ -27,7 +27,11 @@ class Api::V1::ScheduledMessagesController < Api::V1::ABaseController
   private
 
   def load_consult!
-    @consult = Consult.find(params[:consult_id])
+    if params[:user_id]
+      @consult = Member.find(params[:user_id]).master_consult
+    else
+      @consult = Consult.find(params[:consult_id])
+    end
     authorize! :manage, @consult
   end
 

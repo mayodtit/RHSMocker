@@ -138,6 +138,7 @@ RHSMocker::Application.routes.draw do
           get :inbox, :on => :collection
           get :timeline, :on => :collection
         end
+        resources :scheduled_messages, except: %i(new edit)
         put :secure_update, on: :member, to: 'members#secure_update'
         resources :subscriptions, only: [:index, :create]
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
