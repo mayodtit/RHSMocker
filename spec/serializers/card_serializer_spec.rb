@@ -26,11 +26,6 @@ describe CardSerializer do
     it_behaves_like 'renders successfully'
   end
 
-  context 'with a question card' do
-    let(:resource) { build_stubbed(:card, :question_card) }
-    it_behaves_like 'renders successfully'
-  end
-
   context 'with a consult card' do
     let(:resource) { build_stubbed(:card, :consult_card) }
     it_behaves_like 'renders successfully'

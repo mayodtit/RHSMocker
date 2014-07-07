@@ -17,10 +17,6 @@ FactoryGirl.define do
       association :resource, factory: :content
     end
 
-    trait :question_card do
-      association :resource, factory: :question
-    end
-
     trait :consult_card do
       association :resource, factory: :consult
     end

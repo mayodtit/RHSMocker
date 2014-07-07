@@ -30,6 +30,7 @@ RHSMocker::Application.routes.draw do
           put :read, on: :collection
         end
         resources :phone_calls, only: :create
+        resources :scheduled_messages, except: %i(new edit)
       end
       resources :custom_cards, only: [:index, :show, :create, :update]
       resources :custom_contents, only: [:index, :show, :create, :update]
@@ -64,6 +65,7 @@ RHSMocker::Application.routes.draw do
         resources :tasks, only: [:index, :create], controller: 'member_tasks'
         resources :services, only: [:index, :create], controller: 'member_services'
       end
+      resources :message_templates, except: %i(new edit)
       resources :onboarding_groups, only: %i(index show create update) do
         resources :users, only: %i(index create destroy), controller: 'onboarding_group_users'
       end
@@ -136,6 +138,7 @@ RHSMocker::Application.routes.draw do
           get :inbox, :on => :collection
           get :timeline, :on => :collection
         end
+        resources :scheduled_messages, except: %i(new edit)
         put :secure_update, on: :member, to: 'members#secure_update'
         resources :subscriptions, only: [:index, :create]
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do

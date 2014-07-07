@@ -42,12 +42,6 @@ class CardSerializer < ViewSerializer
   def timeline_action
     if %w(Consult CustomCard).include?(object.resource_type)
       resource.timeline_action
-    elsif %w(Question).include?(object.resource_type)
-      resource.timeline_action.tap do |action|
-        if action[:action] == 'editProfile'
-          action[:arguments].merge!(card_id: object.id, id: object.user_id)
-        end
-      end
     else
       {
         action: 'openCard',

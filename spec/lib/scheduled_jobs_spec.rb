@@ -177,4 +177,26 @@ describe ScheduledJobs do
       end
     end
   end
+
+  describe '#transition_scheduled_messages' do
+    context 'with scheduled message' do
+      let!(:scheduled_message) { create(:scheduled_message, publish_at: Time.now - 1.minute) }
+
+      it 'sends scheduled messages in the past' do
+        expect(scheduled_message.state?(:scheduled)).to be_true
+        described_class.transition_scheduled_messages
+        expect(scheduled_message.reload.state?(:sent)).to be_true
+      end
+    end
+
+    context 'with held message' do
+      let!(:scheduled_message) { create(:scheduled_message, :held, publish_at: Time.now - 1.minute) }
+
+      it 'expires held messages in the past' do
+        expect(scheduled_message.state?(:held)).to be_true
+        described_class.transition_scheduled_messages
+        expect(scheduled_message.reload.state?(:expired)).to be_true
+      end
+    end
+  end
 end

@@ -65,6 +65,14 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:pha_profile).permit(:user_id, :bio_image, :bio, :weekly_capacity)
   end
 
+  def scheduled_message
+    params.require(:scheduled_message).permit(:sender_id, :consult_id, :text, :state_event, :publish_at)
+  end
+
+  def message_template
+    params.require(:message_template).permit(:name, :text)
+  end
+
   private
 
   def user_request_attributes

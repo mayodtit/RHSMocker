@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140626134341) do
+ActiveRecord::Schema.define(:version => 20140702145630) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -328,6 +328,13 @@ ActiveRecord::Schema.define(:version => 20140626134341) do
   add_index "message_statuses", ["message_id"], :name => "index_message_statuses_on_message_id"
   add_index "message_statuses", ["user_id"], :name => "index_message_statuses_on_user_id"
 
+  create_table "message_templates", :force => true do |t|
+    t.string   "name"
+    t.text     "text"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "messages", :force => true do |t|
     t.text     "text"
     t.integer  "user_id"
@@ -484,13 +491,6 @@ ActiveRecord::Schema.define(:version => 20140626134341) do
     t.datetime "updated_at",  :null => false
   end
 
-  create_table "questions", :force => true do |t|
-    t.string   "title"
-    t.string   "view"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
   create_table "referral_codes", :force => true do |t|
     t.string   "name"
     t.string   "code"
@@ -518,6 +518,18 @@ ActiveRecord::Schema.define(:version => 20140626134341) do
 
   add_index "roles", ["name", "resource_type", "resource_id"], :name => "index_roles_on_name_and_resource_type_and_resource_id"
   add_index "roles", ["name"], :name => "index_roles_on_name"
+
+  create_table "scheduled_messages", :force => true do |t|
+    t.integer  "sender_id"
+    t.integer  "consult_id"
+    t.integer  "message_id"
+    t.text     "text"
+    t.string   "state"
+    t.datetime "publish_at"
+    t.datetime "sent_at"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "scheduled_phone_calls", :force => true do |t|
     t.integer  "user_id"
