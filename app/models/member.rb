@@ -155,9 +155,7 @@ class Member < User
   def add_new_member_content
     cards.create(resource: Content.free_trial, priority: 30) if Content.free_trial
     cards.create(resource: CustomCard.meet_your_pha, priority: 25) if CustomCard.meet_your_pha && pha.present?
-    Question.new_member_questions.each do |q|
-      cards.create!(resource: q)
-    end
+    cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
     if @sunscreen_content = Content.find_by_document_id('MY01350')
       cards.create(resource: @sunscreen_content)
     end
@@ -378,11 +376,6 @@ class Member < User
 
   def set_auth_token
     self.auth_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
-  end
-
-  def update_cards_for_questions!
-    cards.for_resource(Question.find_by_view(:gender)).try(:saved!) if gender_changed?
-    true
   end
 
   def role_names
