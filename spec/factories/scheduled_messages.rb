@@ -11,9 +11,17 @@ FactoryGirl.define do
       publish_at Time.now + 1.day
     end
 
+    trait :held do
+      state 'held'
+    end
+
     trait :sent do
       state 'sent'
       sent_at Time.now
+    end
+
+    trait :expired do
+      state 'expired'
     end
   end
 end

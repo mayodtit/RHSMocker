@@ -12,6 +12,10 @@ class ScheduledMessage < ActiveRecord::Base
     where(state: :scheduled)
   end
 
+  def self.held
+    where(state: :held)
+  end
+
   def self.publish_at_past_time(time=Time.now)
     where('publish_at < ?', time)
   end
@@ -44,6 +48,10 @@ class ScheduledMessage < ActiveRecord::Base
 
     event :resume do
       transition :held => :scheduled
+    end
+
+    event :expire do
+      transition :held => :expired
     end
 
     before_transition any => :sent do |message, transition|
