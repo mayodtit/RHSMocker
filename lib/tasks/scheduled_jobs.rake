@@ -20,8 +20,8 @@ namespace :scheduled do
     ScheduledJobs.alert_stakeholders_when_no_pha_on_call
   end
 
-  desc 'Send scheduled messages to recipients'
-  task :send_scheduled_messages => :environment do
-    ScheduledJobs.send_scheduled_messages
+  desc 'Transitions scheduled messages'
+  task :transition_scheduled_messages => :environment do
+    ScheduledJobs.transition_scheduled_messages
   end
 end

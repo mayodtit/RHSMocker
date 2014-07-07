@@ -32,6 +32,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
 
   after_create :if_assigned_notify_owner
   after_save :set_user_phone_if_missing
+  after_save :hold_scheduled_messages
 
   def user_confirmation_calendar_event
     # TODO: Copy needs to be updated
@@ -113,6 +114,14 @@ Prep:
     if user && !user.phone
       user.phone = callback_phone_number
       user.save!
+    end
+  end
+
+  def hold_scheduled_messages
+    if user.try(:master_consult)
+      user.master_consult.scheduled_messages.scheduled.each do |m|
+        m.hold!
+      end
     end
   end
 

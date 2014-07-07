@@ -52,7 +52,10 @@ class ScheduledJobs
     end
   end
 
-  def self.send_scheduled_messages
+  def self.transition_scheduled_messages
+    ScheduledMessage.held.publish_at_past_time.each do |m|
+      m.expire!
+    end
     ScheduledMessage.scheduled.publish_at_past_time.each do |m|
       m.send_message!
     end
