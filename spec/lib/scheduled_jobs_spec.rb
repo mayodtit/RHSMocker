@@ -177,4 +177,14 @@ describe ScheduledJobs do
       end
     end
   end
+
+  describe '#send_scheduled_messages' do
+    let!(:scheduled_message) { create(:scheduled_message, publish_at: Time.now - 1.minute) }
+
+    it 'sends scheduled messages in the future' do
+      expect(scheduled_message.state?(:scheduled)).to be_true
+      described_class.send_scheduled_messages
+      expect(scheduled_message.reload.state?(:sent)).to be_true
+    end
+  end
 end

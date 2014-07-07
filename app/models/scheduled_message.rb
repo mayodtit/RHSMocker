@@ -8,6 +8,14 @@ class ScheduledMessage < ActiveRecord::Base
 
   validates :sender, :consult, :text, presence: true
 
+  def self.scheduled
+    where(state: :scheduled)
+  end
+
+  def self.publish_at_past_time(time=Time.now)
+    where('publish_at < ?', time)
+  end
+
   protected
 
   def sent_at_is_nil

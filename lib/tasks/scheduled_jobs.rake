@@ -19,4 +19,9 @@ namespace :scheduled do
   task :alert_stakeholders_when_no_pha_on_call => :environment do
     ScheduledJobs.alert_stakeholders_when_no_pha_on_call
   end
+
+  desc 'Send scheduled messages to recipients'
+  task :send_scheduled_messages => :environment do
+    ScheduledJobs.send_scheduled_messages
+  end
 end
