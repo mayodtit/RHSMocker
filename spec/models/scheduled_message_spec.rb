@@ -13,7 +13,7 @@ describe ScheduledMessage do
   it_has_a 'valid factory', :scheduled
   it_has_a 'valid factory', :held
   it_has_a 'valid factory', :sent
-  it_has_a 'valid factory', :expired
+  it_has_a 'valid factory', :canceled
   it_validates 'presence of', :sender
   it_validates 'presence of', :consult
   it_validates 'presence of', :text

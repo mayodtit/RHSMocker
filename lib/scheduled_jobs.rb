@@ -54,7 +54,7 @@ class ScheduledJobs
 
   def self.transition_scheduled_messages
     ScheduledMessage.held.publish_at_past_time.each do |m|
-      m.expire!
+      m.cancel!
     end
     ScheduledMessage.scheduled.publish_at_past_time.each do |m|
       m.send_message!

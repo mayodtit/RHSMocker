@@ -20,8 +20,8 @@ FactoryGirl.define do
       sent_at Time.now
     end
 
-    trait :expired do
-      state 'expired'
+    trait :canceled do
+      state 'canceled'
     end
   end
 end
