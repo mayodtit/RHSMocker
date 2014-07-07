@@ -50,8 +50,8 @@ class ScheduledMessage < ActiveRecord::Base
       transition :held => :scheduled
     end
 
-    event :expire do
-      transition :held => :expired
+    event :cancel do
+      transition %i(scheduled held) => :canceled
     end
 
     before_transition any => :sent do |message, transition|
