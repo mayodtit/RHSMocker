@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140708065528) do
+ActiveRecord::Schema.define(:version => 20140708155337) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -942,8 +942,6 @@ ActiveRecord::Schema.define(:version => 20140708065528) do
     t.datetime "last_contact_at"
     t.datetime "signed_up_at"
     t.datetime "subscription_ends_at"
-    t.boolean  "test_user",                                     :default => false, :null => false
-    t.boolean  "marked_for_deletion",                           :default => false, :null => false
     t.integer  "onboarding_group_id"
     t.integer  "referral_code_id"
     t.boolean  "on_call",                                       :default => false
