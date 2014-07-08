@@ -61,7 +61,8 @@ class Member < User
                   :apns_token, :is_premium, :free_trial_ends_at, :last_contact_at,
                   :skip_agreement_validation, :signed_up_at, :subscription_ends_at,
                   :test_user, :marked_for_deletion, :onboarding_group, :onboarding_group_id,
-                  :referral_code, :referral_code_id, :on_call, :owned_referral_code
+                  :referral_code, :referral_code_id, :on_call, :owned_referral_code,
+                  :status, :status_event
 
   validates :pha, presence: true, if: lambda{|m| m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
@@ -326,6 +327,8 @@ class Member < User
   private
 
   state_machine :status, initial: :free do
+    store_audit_trail to: 'MemberStateTransition'
+
     event :upgrade do
       transition %i(free trial) => :premium
     end

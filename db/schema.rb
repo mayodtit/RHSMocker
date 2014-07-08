@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140708010149) do
+ActiveRecord::Schema.define(:version => 20140708015937) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -316,6 +316,17 @@ ActiveRecord::Schema.define(:version => 20140708010149) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "member_state_transitions", :force => true do |t|
+    t.integer  "member_id"
+    t.string   "event"
+    t.string   "from"
+    t.string   "to"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "member_state_transitions", ["member_id"], :name => "index_member_state_transitions_on_member_id"
 
   create_table "message_statuses", :force => true do |t|
     t.integer  "message_id"
