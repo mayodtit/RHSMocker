@@ -329,6 +329,10 @@ class Member < User
   state_machine :status, initial: :free do
     store_audit_trail to: 'MemberStateTransition'
 
+    state :trial do
+      validates :free_trial_ends_at, presence: true
+    end
+
     event :upgrade do
       transition %i(free trial) => :premium
     end

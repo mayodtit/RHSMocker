@@ -12,6 +12,7 @@ describe Member do
   end
 
   it_has_a 'valid factory'
+  it_has_a 'valid factory', :trial
 
   describe 'validations' do
     before do
@@ -31,6 +32,17 @@ describe Member do
       expect(member).to be_valid
       member.member_flag = nil
       expect(member).to_not be_valid
+    end
+
+    context 'trial user' do
+      let(:member) { build_stubbed(:member, :trial) }
+
+      it 'validates presence of free_trial_ends_at' do
+        expect(member).to be_valid
+        member.free_trial_ends_at = nil
+        expect(member).to_not be_valid
+        expect(member.errors[:free_trial_ends_at]).to include("can't be blank")
+      end
     end
   end
 

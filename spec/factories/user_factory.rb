@@ -19,6 +19,11 @@ FactoryGirl.define do
         is_premium true
       end
 
+      trait :trial do
+        status 'trial'
+        free_trial_ends_at Time.now + 2.weeks
+      end
+
       trait :with_stripe_customer_id do
         sequence(:stripe_customer_id) {|n| "cus_#{n}"}
       end
