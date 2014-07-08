@@ -325,6 +325,24 @@ class Member < User
 
   private
 
+  state_machine :status, initial: :free do
+    event :upgrade do
+      transition %i(free trial) => :premium
+    end
+
+    event :downgrade do
+      transition any => :free
+    end
+
+    event :grant_free_trial do
+      transition :free => :trial
+    end
+
+    event :chamathify do
+      transition any => :chamath
+    end
+  end
+
   def owner_is_self
     owner == self
   end
