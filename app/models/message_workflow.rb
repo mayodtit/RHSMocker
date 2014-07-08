@@ -6,6 +6,10 @@ class MessageWorkflow < ActiveRecord::Base
 
   validates :name, presence: true, uniqueness: true
 
+  def self.automated_onboarding
+    @automated_onboarding ||= find_by_name('Automated Onboarding')
+  end
+
   def add_to_member(member)
     initial_time = nine_oclock_on_date(Time.now.pacific)
     message_workflow_templates.each do |mwt|
