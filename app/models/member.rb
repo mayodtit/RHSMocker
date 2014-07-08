@@ -88,6 +88,7 @@ class Member < User
   after_create :add_new_member_content
   after_create :add_owned_referral_code
   after_create :add_referral_card_job
+  after_create :add_automated_onboarding_message_workflow
   after_save :send_welcome_email
   after_save :send_free_trial_email
   after_save :send_free_trial_upgrade_email
@@ -172,6 +173,12 @@ class Member < User
 
   def add_referral_card_job
     ReferralCardJob.create(id)
+  end
+
+  def add_automated_onboarding_message_workflow
+    if newly_signed_up? && free_trial?
+      MessageWorkflow.automated_onboarding.try(:add_to_member, self)
+    end
   end
 
   def send_welcome_email

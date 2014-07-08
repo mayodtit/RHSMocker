@@ -1,4 +1,7 @@
 class MessageTemplate < ActiveRecord::Base
+  has_many :message_workflow_templates, inverse_of: :message_template
+  has_many :message_workflows, through: :message_workflow_templates
+
   attr_accessible :name, :text
 
   validates :name, :text, presence: true

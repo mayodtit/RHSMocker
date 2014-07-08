@@ -20,6 +20,18 @@ class ScheduledMessage < ActiveRecord::Base
     where('publish_at < ?', time)
   end
 
+  def formatted_text
+    unless consult.initiator.salutation.present? && sender.first_name.present?
+      raise 'All merge tags not defined, aborting...'
+    end
+    text.gsub(/\*\|.*?\|\*/, '*|member_first_name|*' => consult.initiator.salutation,
+                            '*|sender_first_name|*' => sender.first_name).tap do |ftext|
+      if ftext.match(/\*\|/) || ftext.match(/\|\*/)
+        raise 'All merge tags not replaced, abort abort.'
+      end
+    end
+  end
+
   protected
 
   def sent_at_is_nil
@@ -58,7 +70,7 @@ class ScheduledMessage < ActiveRecord::Base
       message.sent_at = Time.now
       message.build_message(user: message.sender,
                             consult: message.consult,
-                            text: message.text)
+                            text: message.formatted_text)
     end
   end
 end
