@@ -1,21 +1,22 @@
 class Member < User
   authenticates_with_sorcery!
-
   has_many :user_roles, foreign_key: :user_id, inverse_of: :user
   has_many :roles, through: :user_roles
-
   has_many :user_agreements, foreign_key: :user_id, inverse_of: :user
   has_many :agreements, through: :user_agreements
   has_many :cards, foreign_key: :user_id,
                    inverse_of: :user,
                    dependent: :destroy
-  has_many :user_readings, :foreign_key => :user_id
-  has_many :contents, :through => :user_readings
-  has_many :initiated_consults, class_name: Consult, foreign_key: :initiator_id
-  has_one :master_consult, class_name: 'Consult', foreign_key: :initiator_id, conditions: {master: true}
-  has_many :messages, :foreign_key => :user_id
-  has_many :message_statuses, :foreign_key => :user_id
-  has_many :phone_calls, :foreign_key => :user_id
+  has_many :user_readings, foreign_key: :user_id
+  has_many :contents, through: :user_readings
+  has_many :initiated_consults, class_name: 'Consult',
+                                foreign_key: :initiator_id
+  has_one :master_consult, class_name: 'Consult',
+                           foreign_key: :initiator_id,
+                           conditions: {master: true}
+  has_many :messages, foreign_key: :user_id
+  has_many :message_statuses, foreign_key: :user_id
+  has_many :phone_calls, foreign_key: :user_id
   has_many :scheduled_phone_calls, foreign_key: :user_id
   has_many :invitations
   has_many :user_feature_groups, foreign_key: :user_id, dependent: :destroy
@@ -24,50 +25,54 @@ class Member < User
   has_one :owned_referral_code, class_name: 'ReferralCode',
                                 foreign_key: :user_id,
                                 inverse_of: :user
-
   belongs_to :pha, class_name: 'Member', inverse_of: :owned_members
   #TODO - careful, there is a User::owned_users that does something different
   has_many :owned_members, class_name: 'Member',
                            foreign_key: :pha_id,
                            inverse_of: :pha
-
   has_many :user_programs, foreign_key: :user_id, dependent: :destroy
   has_many :programs, through: :user_programs
-
-  has_one :owned_subscription, class_name: 'Subscription', foreign_key: :owner_id
+  has_one :owned_subscription, class_name: 'Subscription',
+                               foreign_key: :owner_id
   has_one :subscription_user, foreign_key: :user_id
-  has_one :shared_subscription, through: :subscription_user, class_name: 'Subscription', source: :subscription
+  has_one :shared_subscription, through: :subscription_user,
+                                class_name: 'Subscription',
+                                source: :subscription
   has_many :tasks, class_name: 'MemberTask'
   has_many :services
   has_many :user_images, foreign_key: :user_id,
                          inverse_of: :user,
                          dependent: :destroy
-
   belongs_to :onboarding_group, inverse_of: :users
   belongs_to :referral_code, inverse_of: :users
-
   has_many :user_requests, foreign_key: :user_id
-
   accepts_nested_attributes_for :user_agreements
-
   attr_accessor :skip_agreement_validation
 
   attr_accessible :install_id, :password, :password_confirmation,
                   :holds_phone_in, :invitation_token, :units,
                   :user_agreements_attributes, :pha, :pha_id,
-                  :apns_token, :is_premium, :free_trial_ends_at, :last_contact_at,
-                  :skip_agreement_validation, :signed_up_at, :subscription_ends_at,
+                  :apns_token, :is_premium, :free_trial_ends_at,
+                  :last_contact_at,
+                  :skip_agreement_validation, :signed_up_at,
+                  :subscription_ends_at,
                   :onboarding_group, :onboarding_group_id,
-                  :referral_code, :referral_code_id, :on_call, :owned_referral_code,
+                  :referral_code, :referral_code_id, :on_call,
+                  :owned_referral_code,
                   :status, :status_event
 
-  validates :pha, presence: true, if: lambda{|m| m.pha_id}
+  validates :pha, presence: true, if: ->(m){m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
-  validates :email, :uniqueness => {:message => 'account already exists', :case_sensitive => false}, :allow_nil => true
-  validates :password, :length => {:minimum => 8, :message => "must be 8 or more characters long"}, :confirmation => true, :if => :password
-  validates :install_id, :uniqueness => true, :allow_nil => true
-  validates :units, :inclusion => {:in => %w(US Metric)}
-  validates :terms_of_service_and_privacy_policy, :acceptance => {:accept => true}, :if => lambda{|m| !skip_agreement_validation && (m.signed_up? || m.password) }
+  validates :email, uniqueness: {message: 'account already exists',
+                                 case_sensitive: false},
+                    allow_nil: true
+  validates :password, length: {minimum: 8,
+                                message: "must be 8 or more characters long"},
+                       if: :password
+  validates :install_id, uniqueness: true, allow_nil: true
+  validates :units, inclusion: {in: %w(US Metric)}
+  validates :terms_of_service_and_privacy_policy, acceptance: {accept: true},
+                                                  if: ->(m){!skip_agreement_validation && (m.signed_up? || m.password)}
   validate :owner_is_self
   validates :apns_token, uniqueness: true, allow_nil: true
   validates :onboarding_group, presence: true, if: ->(m){m.onboarding_group_id}
@@ -81,7 +86,9 @@ class Member < User
   after_create :add_owned_referral_code
   after_save :alert_stakeholders_on_call_status
 
-  scope :signed_up, -> { where('signed_up_at IS NOT NULL') }
+  def self.signed_up
+    where('signed_up_at IS NOT NULL')
+  end
 
   def self.name_search(string)
     wildcard = "%#{string}%"
@@ -138,7 +145,7 @@ class Member < User
 
   def invite! invitation
     return if signed_up?
-    update_attributes!(:invitation_token => invitation.token)
+    update_attributes!(invitation_token: invitation.token)
 
     # NOTE 5/8/2014: We only send emails to care providers because we are inviting influencers and
     # want invitations to Premium to be sent by a person.
@@ -164,10 +171,10 @@ class Member < User
   end
 
   def self.robot
-    find_or_create_by_email(:email => 'testphone+robot@getbetter.com',
-                            :first_name => 'Clare',
-                            :last_name => 'W',
-                            :avatar_url_override => 'http://i.imgur.com/eU3p9Hj.jpg')
+    find_or_create_by_email(email: 'testphone+robot@getbetter.com',
+                            first_name: 'Clare',
+                            last_name: 'W',
+                            avatar_url_override: 'http://i.imgur.com/eU3p9Hj.jpg')
   end
 
   def terms_of_service_and_privacy_policy
