@@ -136,6 +136,22 @@ class Member < User
     nurse? || read_attribute(:on_call)
   end
 
+  def is_premium?
+    status?(:trial) || status?(:premium) || status?(:chamath)
+  end
+  alias_method :is_premium, :is_premium?
+
+  def is_premium=(new_value)
+    return if is_premium? == new_value
+    if new_value && free_trial_ends_at.present?
+      self.status_event = :grant_free_trial
+    elsif new_value
+      self.status_event = :upgrade
+    else
+      self.status_event = :downgrade
+    end
+  end
+
   def login
     update_attribute :auth_token, Base64.urlsafe_encode64(SecureRandom.base64(36))
   end
@@ -202,7 +218,7 @@ class Member < User
   end
 
   def self.pha_counts
-    group(:pha_id).where(is_premium: true)
+    group(:pha_id).where(status: %i(trial premium chamath))
                   .where('signed_up_at IS NOT NULL')
                   .where(pha_id: phas_with_capacity.map(&:id))
                   .count
