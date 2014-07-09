@@ -38,8 +38,6 @@ resource 'Users' do
   end
 
   describe 'create user with email and password' do
-    let!(:waitlist_entry) { create(:waitlist_entry, :invited) }
-
     parameter :install_id, "Unique install ID"
     parameter :email, "Account email"
     parameter :password, "Account password"
@@ -51,7 +49,6 @@ resource 'Users' do
       let(:install_id) { "1234" }
       let(:email) { "tst11@test.com" }
       let(:password) { "11111111" }
-      let(:token) { waitlist_entry.token }
       let(:raw_post) { params.to_json }
 
       example_request "[POST] Sign up using email and password (or add email and password to account)" do

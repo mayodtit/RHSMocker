@@ -20,9 +20,6 @@ class Member < User
   has_many :invitations
   has_many :user_feature_groups, foreign_key: :user_id, dependent: :destroy
   has_many :feature_groups, through: :user_feature_groups
-  has_one :waitlist_entry, foreign_key: :claimer_id,
-                           inverse_of: :claimer,
-                           autosave: true
   has_one :pha_profile, foreign_key: :user_id, inverse_of: :user
   has_one :owned_referral_code, class_name: 'ReferralCode',
                                 foreign_key: :user_id,
@@ -57,7 +54,7 @@ class Member < User
 
   attr_accessible :install_id, :password, :password_confirmation,
                   :holds_phone_in, :invitation_token, :units,
-                  :waitlist_entry, :user_agreements_attributes, :pha, :pha_id,
+                  :user_agreements_attributes, :pha, :pha_id,
                   :apns_token, :is_premium, :free_trial_ends_at, :last_contact_at,
                   :skip_agreement_validation, :signed_up_at, :subscription_ends_at,
                   :onboarding_group, :onboarding_group_id,

@@ -4,7 +4,6 @@ class Api::V1::MembersController < Api::V1::ABaseController
   before_filter :load_member!, only: [:show, :update]
   before_filter :convert_legacy_parameters!, only: :secure_update # TODO - remove when deprecated routes are removed
   before_filter :load_member_from_login!, only: :secure_update
-  before_filter :load_waitlist_entry!, only: :create
   before_filter :load_referral_code!, only: :create
   before_filter :load_onboarding_group!, only: :create
   before_filter :convert_parameters!, only: [:create, :update, :update_current]
@@ -114,14 +113,6 @@ class Api::V1::MembersController < Api::V1::ABaseController
     authorize! :manage, @member
   end
 
-  def load_waitlist_entry!
-    return unless Metadata.use_invite_flow?
-    return if user_params[:token] == 'better120' && !Rails.env.production?
-    @waitlist_entry = WaitlistEntry.invited.find_by_token(user_params[:token])
-    render_failure({reason: 'Invalid invitation code', user_message: 'Invalid invitation code'}, 422) and return unless @waitlist_entry
-    @waitlist_entry.state_event = :claim
-  end
-
   def load_referral_code!
     @referral_code = ReferralCode.find_by_code(user_params[:code]) if user_params[:code]
   end
@@ -137,7 +128,6 @@ class Api::V1::MembersController < Api::V1::ABaseController
       user_params["#{key}_attributes".to_sym] = user_params[key.to_sym] if user_params[key.to_sym]
     end
     user_params[:addresses_attributes] = [user_params[:address_attributes]] if user_params[:address_attributes]
-    user_params[:waitlist_entry] = @waitlist_entry if @waitlist_entry
     user_params[:user_agreements_attributes] = user_agreements_attributes if user_params[:tos_checked] || user_params[:agreement_id]
   end
 

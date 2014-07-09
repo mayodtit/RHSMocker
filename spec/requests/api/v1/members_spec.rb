@@ -70,26 +70,5 @@ describe 'Members' do
     let(:member_params) { {user: attributes_for(:member)} }
 
     it_behaves_like 'creates a member'
-
-    context 'with invite flow enabled' do
-      before do
-        Metadata.stub(use_invite_flow?: true)
-      end
-
-      context 'with an invite token' do
-        let!(:waitlist_entry) { create(:waitlist_entry, :invited) }
-        let(:member_params) { {user: (attributes_for(:member).merge!(token: waitlist_entry.token))} }
-
-        it_behaves_like 'creates a member'
-
-        it 'claims the invite token' do
-          do_request(member_params)
-          body = JSON.parse(response.body, symbolize_names: true)
-          member = Member.find(body[:user][:id])
-          expect(waitlist_entry.reload.state?(:claimed)).to be_true
-          expect(waitlist_entry.claimer).to eq(member)
-        end
-      end
-    end
   end
 end

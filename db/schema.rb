@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140708155337) do
+ActiveRecord::Schema.define(:version => 20140709002046) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -955,22 +955,6 @@ ActiveRecord::Schema.define(:version => 20140708155337) do
   add_index "users", ["type", "last_contact_at"], :name => "index_users_on_type_and_last_contact_at"
   add_index "users", ["type", "pha_id", "last_contact_at"], :name => "index_users_on_type_and_pha_id_and_last_contact_at"
   add_index "users", ["type", "signed_up_at"], :name => "index_users_on_type_and_signed_up_at"
-
-  create_table "waitlist_entries", :force => true do |t|
-    t.string   "email"
-    t.datetime "created_at",                      :null => false
-    t.datetime "updated_at",                      :null => false
-    t.string   "token"
-    t.string   "state"
-    t.datetime "invited_at"
-    t.datetime "claimed_at"
-    t.integer  "claimer_id"
-    t.integer  "creator_id"
-    t.integer  "feature_group_id"
-    t.integer  "revoker_id"
-    t.datetime "revoked_at"
-    t.integer  "lock_version",     :default => 0, :null => false
-  end
 
   create_table "weights", :force => true do |t|
     t.integer  "user_id"

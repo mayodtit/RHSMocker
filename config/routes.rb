@@ -49,7 +49,6 @@ RHSMocker::Application.routes.draw do
         put 'merge', on: :member
       end
       resources :dashboard, only: :index do
-        get :onboarding_members, on: :collection
         get :onboarding_calls, on: :collection
       end
       resources :diseases, :only => :index, :controller => :conditions
@@ -159,7 +158,6 @@ RHSMocker::Application.routes.draw do
           end
         end
       end
-      resources :waitlist_entries, only: [:index, :create, :update, :destroy]
       resources :invitations, :only => [:create, :show, :update]
       resources :roles, only: [:show] do
         get 'members', :on => :member
