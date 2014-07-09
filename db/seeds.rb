@@ -443,3 +443,10 @@ unless mw.message_templates.find_by_name(mt.name)
   mw.message_workflow_templates.create(message_template: mt,
                                        days_delayed: 14)
 end
+
+mt = MessageTemplate.find_or_initialize_by_name 'Offboard Engaged Member'
+mt.text = <<eof
+I wanted to let you know that your free trial ends tomorrow. If you’d like to keep working together, you can become a Premium member by going to your "Health Profile," tapping on "Settings" and then on "Subscription Plan." Your membership covers service for you and your entire family. If you have any questions, send a note to support@getbetter.com.
+It's been great getting to know you, and I hope I can continue helping you with your health needs.
+eof
+mt.save!

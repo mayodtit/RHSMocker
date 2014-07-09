@@ -121,6 +121,11 @@ class Member < User
     @role_names << role.name.to_s if @role_names
   end
 
+  def engaged?
+    tasks.joins(:service_type).where(service_types: {bucket: ['wellness', 'care coordination', 'insurance', 'other']}).count > 0 ||
+    messages.count > 0
+  end
+
   def admin?
     has_role?(:admin)
   end
