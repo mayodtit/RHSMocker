@@ -68,6 +68,7 @@ class Member < User
                     allow_nil: true
   validates :password, length: {minimum: 8,
                                 message: "must be 8 or more characters long"},
+                       confirmation: true,
                        if: :password
   validates :install_id, uniqueness: true, allow_nil: true
   validates :units, inclusion: {in: %w(US Metric)}
@@ -251,6 +252,12 @@ class Member < User
                                            skip_tasks: true)
   end
 
+  def notify_pha_of_new_member
+    if (newly_assigned_pha? && signed_up?) || (newly_signed_up? && pha_id.present?)
+      NewMemberTask.delay.create! member: self, title: 'New Premium Member', creator: Member.robot
+    end
+  end
+
   private
 
   state_machine :status, initial: :free do
@@ -337,5 +344,13 @@ class Member < User
 
   def skip_agreement_validation
     @skip_agreement_validation || false
+  end
+
+  def newly_assigned_pha?
+    pha_id_changed? && pha_id.present?
+  end
+
+  def newly_signed_up?
+    signed_up? && signed_up_at_changed?
   end
 end

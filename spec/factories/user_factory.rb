@@ -9,17 +9,24 @@ FactoryGirl.define do
       sequence(:install_id) { |n| "Install-ID-#{n}" }
       sequence(:email)    { |n| "user#{n}@test.com" }
       password              "password"
-      password_confirmation "password"
       member_flag true
       owner nil
 
-      trait :premium do
-        is_premium true
+      trait :free do
+        status 'free'
       end
 
       trait :trial do
         status 'trial'
         free_trial_ends_at Time.now + 2.weeks
+      end
+
+      trait :premium do
+        status 'premium'
+      end
+
+      trait :chamath do
+        status 'chamath'
       end
 
       trait :with_stripe_customer_id do

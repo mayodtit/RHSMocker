@@ -12,7 +12,10 @@ describe Member do
   end
 
   it_has_a 'valid factory'
+  it_has_a 'valid factory', :free
   it_has_a 'valid factory', :trial
+  it_has_a 'valid factory', :premium
+  it_has_a 'valid factory', :chamath
 
   describe 'validations' do
     it_validates 'foreign key of', :pha
