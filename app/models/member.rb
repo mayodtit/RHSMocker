@@ -135,24 +135,6 @@ class Member < User
     update_attribute(:auth_token, nil)
   end
 
-  def add_new_member_content
-    cards.create(resource: Content.free_trial, priority: 30) if Content.free_trial
-    cards.create(resource: CustomCard.meet_your_pha, priority: 25) if CustomCard.meet_your_pha && pha.present?
-    cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
-    if @sunscreen_content = Content.find_by_document_id('MY01350')
-      cards.create(resource: @sunscreen_content)
-    end
-    if @happiness_content = Content.find_by_document_id('MY01357')
-      cards.create(resource: @happiness_content)
-    end
-    cards.create(resource: CustomCard.swipe_explainer) if CustomCard.swipe_explainer
-  end
-
-  def add_owned_referral_code
-    return if owned_referral_code
-    create_owned_referral_code!(name: email)
-  end
-
   def invite! invitation
     return if signed_up?
     update_attributes!(:invitation_token => invitation.token)
@@ -291,6 +273,24 @@ class Member < User
 
   def set_auth_token
     self.auth_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
+  end
+
+  def add_new_member_content
+    cards.create(resource: Content.free_trial, priority: 30) if Content.free_trial
+    cards.create(resource: CustomCard.meet_your_pha, priority: 25) if CustomCard.meet_your_pha && pha.present?
+    cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
+    if @sunscreen_content = Content.find_by_document_id('MY01350')
+      cards.create(resource: @sunscreen_content)
+    end
+    if @happiness_content = Content.find_by_document_id('MY01357')
+      cards.create(resource: @happiness_content)
+    end
+    cards.create(resource: CustomCard.swipe_explainer) if CustomCard.swipe_explainer
+  end
+
+  def add_owned_referral_code
+    return if owned_referral_code
+    create_owned_referral_code!(name: email)
   end
 
   def role_names
