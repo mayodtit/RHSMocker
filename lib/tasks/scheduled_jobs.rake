@@ -29,4 +29,9 @@ namespace :scheduled do
   task :send_referral_card => :environment do
     ScheduledJobs.send_referral_card
   end
+
+  desc 'Push content to all members'
+  task :push_content => :environment do
+    ScheduledJobs.push_content
+  end
 end

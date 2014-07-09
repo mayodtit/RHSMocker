@@ -68,4 +68,16 @@ class ScheduledJobs
       m.cards.create(resource: CustomCard.referral)
     end
   end
+
+  def self.push_content
+    Member.find_each do |m|
+      count = m.cards.inbox.count
+      next if count >= 5
+      (5 - count).times do
+        content = Content.next_for(m)
+        break unless content
+        m.cards.create(resource: content, user_program: content.user_program)
+      end
+    end
+  end
 end

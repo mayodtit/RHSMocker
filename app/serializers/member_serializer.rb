@@ -7,7 +7,7 @@ class MemberSerializer < ActiveModel::Serializer
              :phone, :nickname, :city, :state, :work_phone_number,
              :avatar_url, :ethnic_group, :diet, :address,
              :holds_phone_in, :install_id, :phone, :units, :client_data,
-             :pusher_id, :full_name, :created_at, :email_read_only,
+             :full_name, :created_at, :email_read_only,
              :sharing_prohibited, :owner_id, :is_premium, :free_trial_ends_at,
              :pha_id, :pha_profile_bio_image_url, :pha_profile_url,
              :show_welcome_call, :pha_full_name, :last_contact_at,

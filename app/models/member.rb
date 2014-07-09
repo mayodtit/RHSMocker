@@ -197,10 +197,6 @@ class Member < User
     end
   end
 
-  def max_inbox_content?
-    cards.inbox.select{|c| c.content_card?}.count > Card::MAX_CONTENT_PER_USER
-  end
-
   def invite! invitation
     return if signed_up?
     update_attributes!(:invitation_token => invitation.token)
@@ -226,10 +222,6 @@ class Member < User
 
   def self.create_from_user!(user)
     create!(email: user.email)
-  end
-
-  def pusher_id
-    "RHS_#{Rails.env}_#{id}"
   end
 
   def self.robot

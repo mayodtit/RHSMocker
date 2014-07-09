@@ -75,7 +75,6 @@ class Card < ActiveRecord::Base
 
     after_transition any => [:saved, :dismissed] do |card, transition|
       UserReading.increment_event!(card.user, card.resource, transition.to_name) if card.content_card?
-      PusherJob.new.push_content(card.user_id)
     end
   end
 end
