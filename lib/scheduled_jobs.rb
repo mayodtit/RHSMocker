@@ -60,4 +60,12 @@ class ScheduledJobs
       m.send_message!
     end
   end
+
+  def self.send_referral_card
+    return unless CustomCard.referral
+    Member.where('signed_up_at < ?', Time.now - 5.days).find_each do |m|
+      next if m.cards.where(resource_id: CustomCard.referral.id, resource_type: 'CustomCard').any?
+      m.cards.create(resource: CustomCard.referral)
+    end
+  end
 end
