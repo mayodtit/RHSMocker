@@ -75,6 +75,7 @@ class Member < User
 
   before_validation :set_owner
   before_validation :set_member_flag
+  before_validation :set_signed_up_at
   before_create :set_auth_token # generate inital auth_token
   after_create :add_new_member_content
   after_create :add_owned_referral_code
@@ -233,6 +234,16 @@ class Member < User
     end
   end
 
+  def assign_pha
+    self.pha ||= self.class.next_pha
+  end
+
+  def build_pha_consult
+    master_consult || build_master_consult(subject: self,
+                                           title: 'Direct messaging with your Better PHA',
+                                           skip_tasks: true)
+  end
+
   private
 
   state_machine :status, initial: :free do
@@ -257,6 +268,20 @@ class Member < User
     event :chamathify do
       transition any => :chamath
     end
+
+    before_transition any => %i(trial premium chamath) do |member, transition|
+      member.assign_pha
+      member.build_pha_consult
+    end
+
+    after_transition any => :trial do |member, transition|
+      Mails::WelcomeToBetterFreeTrialJob.create(member.id)
+    end
+
+    after_transition any => :premium do |member, transition|
+      Mails::WelcomeToPremiumJob.create(member.id)
+      Mails::MeetYourPhaJob.create(member.id)
+    end
   end
 
   def owner_is_self
@@ -269,6 +294,12 @@ class Member < User
 
   def set_member_flag
     self.member_flag ||= true
+  end
+
+  def set_signed_up_at
+    if crypted_password.nil? && password.present?
+      self.signed_up_at ||= Time.now
+    end
   end
 
   def set_auth_token
