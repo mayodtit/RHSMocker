@@ -458,3 +458,9 @@ Hi *|member_first_name|*, welcome to Better. I'm *|sender_first_name|*, your Per
 How can I help you? Let’s get started with a quick 10-minute call, which you can schedule [here](better://nb?cmd=scheduleCall).
 eof
 mt.save!
+
+mt = MessageTemplate.find_or_initialize_by_name 'Confirm Welcome Call'
+mt.text = <<eof
+Thanks for scheduling your call. I look forward to getting to know you. If you have any questions or immediate needs, send me a message, and I’ll get started right away.
+eof
+mt.save!

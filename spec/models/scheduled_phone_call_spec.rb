@@ -168,6 +168,10 @@ describe ScheduledPhoneCall do
       let(:pha) { create(:pha) }
       let(:scheduled_phone_call) { build(:scheduled_phone_call, :assigned, owner: pha) }
 
+      before do
+        member.stub(:pha) { pha }
+      end
+
       def book
         scheduled_phone_call.update_attributes(state_event: 'book',
                                                booker: pha,
@@ -192,8 +196,17 @@ describe ScheduledPhoneCall do
         expect(book).to be_true
       end
 
-      it 'notifies the user confirming that their call was booked' do
+      it 'notifies the user confirming that their call was booked via email' do
         scheduled_phone_call.should_receive :notify_owner_confirming_call
+        expect(book).to be_true
+      end
+
+      it 'notifies the user confirming that their call was booked via message' do
+        Metadata.stub(:new_onboarding_flow?) { true }
+        member.stub(:master_consult) { consult }
+        mt = build :message_template
+        MessageTemplate.stub(:find_by_name).with('Confirm Welcome Call') { mt }
+        mt.should_receive(:create_message).with(pha, consult)
         expect(book).to be_true
       end
 

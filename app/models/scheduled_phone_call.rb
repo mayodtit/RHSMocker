@@ -169,6 +169,10 @@ Prep:
     after_transition [:booked, :assigned] => :booked do |scheduled_phone_call|
       scheduled_phone_call.notify_user_confirming_call
       scheduled_phone_call.notify_owner_confirming_call
+      if Metadata.new_onboarding_flow?
+        mt = MessageTemplate.find_by_name 'Confirm Welcome Call'
+        mt.create_message scheduled_phone_call.user.pha, scheduled_phone_call.user.master_consult if mt
+      end
     end
 
     before_transition any => :started do |scheduled_phone_call|
