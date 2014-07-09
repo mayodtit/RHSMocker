@@ -75,20 +75,9 @@ class Member < User
 
   before_validation :set_owner
   before_validation :set_member_flag
-  before_validation :set_signed_up_at
-  before_validation :set_premium
-  before_validation :set_free_trial_ends_at
-  before_validation :convert_premium
   before_create :set_auth_token # generate inital auth_token
   after_create :add_new_member_content
   after_create :add_owned_referral_code
-  after_save :send_welcome_email
-  after_save :send_free_trial_email
-  after_save :send_free_trial_upgrade_email
-  after_save :send_premium_email
-  after_save :send_meet_your_pha_email
-  after_save :notify_pha_of_new_member
-  after_save :create_initial_master_consult_message
   after_save :alert_stakeholders_on_call_status
 
   scope :signed_up, -> { where('signed_up_at IS NOT NULL') }
@@ -162,39 +151,6 @@ class Member < User
   def add_owned_referral_code
     return if owned_referral_code
     create_owned_referral_code!(name: email)
-  end
-
-  def send_welcome_email
-    if newly_signed_up? && !free_trial? && !is_premium?
-      Mails::WelcomeToBetterJob.create(id)
-    end
-  end
-
-  def send_free_trial_email
-    if newly_signed_up? && free_trial?
-      Mails::WelcomeToBetterFreeTrialJob.create(id)
-    end
-  end
-
-  def send_free_trial_upgrade_email
-    if signed_up? && !newly_signed_up? && newly_free_trial?
-      Mails::UpgradeToBetterFreeTrialJob.create(id)
-    end
-  end
-
-  def send_premium_email
-    if (!free_trial? && is_premium?) &&
-       (free_trial_ends_at_changed? ||
-        (signed_up? && newly_premium?) ||
-        (is_premium? && newly_signed_up?))
-      Mails::WelcomeToPremiumJob.create(id)
-    end
-  end
-
-  def send_meet_your_pha_email
-    if is_premium? && newly_assigned_pha?
-      Mails::MeetYourPhaJob.create(id)
-    end
   end
 
   def invite! invitation
@@ -276,16 +232,6 @@ class Member < User
     end
   end
 
-  def assign_pha!
-    update_attributes!(pha: self.class.next_pha)
-  end
-
-  def notify_pha_of_new_member
-    if (newly_assigned_pha? && signed_up?) || (newly_signed_up? && pha_id.present?)
-      NewMemberTask.delay.create! member: self, title: 'New Premium Member', creator: Member.robot
-    end
-  end
-
   def alert_stakeholders_on_call_status
     if pha? && on_call_changed? && Role.pha.on_call?
       num_phas_on_call = Role.pha.users.where(on_call: true).count
@@ -343,33 +289,6 @@ class Member < User
     self.member_flag ||= true
   end
 
-  def set_signed_up_at
-    if crypted_password.nil? && password.present?
-      self.signed_up_at ||= Time.now
-    end
-  end
-
-  def set_premium
-    if newly_signed_up? && onboarding_group.try(:premium?)
-      self.is_premium ||= true
-    end
-  end
-
-  def set_free_trial_ends_at
-    if newly_signed_up? && is_premium?
-      self.free_trial_ends_at ||= onboarding_group.try(:free_trial_ends_at, signed_up_at)
-    end
-  end
-
-  def convert_premium
-    if newly_premium?
-      self.pha ||= self.class.next_pha
-      master_consult || build_master_consult(subject: self,
-                                             title: 'Direct messaging with your Better PHA',
-                                             skip_tasks: true)
-    end
-  end
-
   def set_auth_token
     self.auth_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
   end
@@ -380,32 +299,5 @@ class Member < User
 
   def skip_agreement_validation
     @skip_agreement_validation || false
-  end
-
-  def newly_assigned_pha?
-    pha_id_changed? && pha_id.present?
-  end
-
-  def newly_signed_up?
-    signed_up? && signed_up_at_changed?
-  end
-
-  def newly_premium?
-    is_premium? && is_premium_changed?
-  end
-
-  def free_trial?
-    free_trial_ends_at.try(:>, Time.now) || false
-  end
-
-  def newly_free_trial?
-    free_trial? && free_trial_ends_at_changed?
-  end
-
-  def create_initial_master_consult_message
-    return unless is_premium?
-    return unless newly_signed_up?
-    master_consult.try(:send_initial_message)
-    true
   end
 end
