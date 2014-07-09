@@ -305,12 +305,10 @@ class Member < User
     end
 
     after_transition any => :trial do |member, transition|
-      Mails::WelcomeToBetterFreeTrialJob.create(member.id)
-    end
-
-    after_transition any => :premium do |member, transition|
-      Mails::WelcomeToPremiumJob.create(member.id)
-      Mails::MeetYourPhaJob.create(member.id)
+      if !MemberStateTransition.multiple_exist_for?(member, :trial)
+        Mails::WelcomeToBetterFreeTrialJob.create(member.id)
+        Mails::MeetYourPhaJob.create(member.id)
+      end
     end
   end
 
