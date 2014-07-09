@@ -60,4 +60,19 @@ class ScheduledJobs
       m.send_message!
     end
   end
+
+  def self.offboard_free_trial_members
+    if Metadata.offboard_free_trial_members?
+      Member.where('free_trial_ends_at < ?', Time.now - OffboardMemberTask::OFFBOARDING_WINDOW).each do |member|
+        if member.engaged?
+          t = OffboardMemberTask.create_if_only_within_offboarding_window member
+          if !t || t.valid?
+            Rails.logger.info "Offboarded Member #{member.id}"
+          else
+            Rails.logger.error "Could not create OffboardMemberTask for Member #{member.id}"
+          end
+        end
+      end
+    end
+  end
 end

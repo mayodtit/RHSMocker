@@ -85,6 +85,14 @@ class Metadata < ActiveRecord::Base
     Metadata.find_by_mkey('signup_free_trial').try(:mvalue) == 'true'
   end
 
+  def self.offboard_free_trial_members?
+    Metadata.find_by_mkey('offboard_free_trial_members').try(:mvalue) == 'true'
+  end
+
+  def self.new_onboarding_flow?
+    Metadata.find_by_mkey('new_onboarding_flow').try(:mvalue) == 'true'
+  end
+
   def alert_stakeholders_when_phas_forced_off_call
     if mkey == 'force_phas_off_call' && mvalue_changed?
       ScheduledJobs.alert_stakeholders_when_phas_forced_off_call
