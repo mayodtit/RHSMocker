@@ -43,6 +43,23 @@ describe Consult do
         member.update_attributes(pha_id: nil)
         expect(consult.messages.count).to eq(0)
       end
+
+      context 'we\'re using the new onboarding flow' do
+        let!(:message_template) { create :message_template }
+
+        before do
+          Metadata.stub(:new_onboarding_flow?) { true }
+        end
+
+        it 'creates a message from a template' do
+          MessageTemplate.stub(:find_by_name).with('New Premium Member') { message_template }
+          message_template.should_receive(:create_message).and_call_original
+          consult = create :consult, initiator: member
+          consult.reload
+          consult.messages.count.should == 1
+          consult.messages.first.text.should_not == Consult::WELCOME_MESSAGE_TEXT
+        end
+      end
     end
   end
 

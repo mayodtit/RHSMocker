@@ -21,15 +21,7 @@ class ScheduledMessage < ActiveRecord::Base
   end
 
   def formatted_text
-    unless consult.initiator.salutation.present? && sender.first_name.present?
-      raise 'All merge tags not defined, aborting...'
-    end
-    text.gsub(/\*\|.*?\|\*/, '*|member_first_name|*' => consult.initiator.salutation,
-                            '*|sender_first_name|*' => sender.first_name).tap do |ftext|
-      if ftext.match(/\*\|/) || ftext.match(/\|\*/)
-        raise 'All merge tags not replaced, abort abort.'
-      end
-    end
+    MessageTemplate.formatted_text(sender, consult, text)
   end
 
   protected

@@ -450,3 +450,10 @@ I wanted to let you know that your free trial ends tomorrow. If you’d like to 
 It's been great getting to know you, and I hope I can continue helping you with your health needs.
 eof
 mt.save!
+
+mt = MessageTemplate.find_or_initialize_by_name 'New Premium Member'
+mt.text = <<eof
+Hi *|member_first_name|*, welcome to Better. I'm *|sender_first_name|*, your Personal Health Assistant. I’m here to handle any of your health needs, from finding a doctor to navigating your insurance plan.
+How can I help you? Let’s get started with a quick 10-minute call, which you can schedule [here](better://nb?cmd=scheduleCall).
+eof
+mt.save!
