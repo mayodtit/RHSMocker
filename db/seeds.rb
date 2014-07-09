@@ -363,6 +363,7 @@ ServiceType.find_or_create_by_name(name: 'other care coordination', bucket: 'car
 
 # Engagement --
 ServiceType.find_or_create_by_name(name: 'member onboarding', bucket: 'engagement')
+ServiceType.find_or_create_by_name(name: 'member offboarding', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'preventive care reminders', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 're-engagement', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'relevant content', bucket: 'engagement')
