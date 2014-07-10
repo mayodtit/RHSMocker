@@ -83,6 +83,7 @@ class Member < User
   before_validation :set_owner
   before_validation :set_member_flag
   before_validation :set_signed_up_at, if: ->(m){m.signed_up?}
+  before_validation :set_free_trial_ends_at, if: ->(m){m.status?(:trial)}
   before_validation :set_invitation_token, if: ->(m){m.status?(:invited)}
   before_create :set_auth_token # generate inital auth_token
   after_create :add_new_member_content
@@ -327,10 +328,6 @@ class Member < User
       member.invitation_token = nil
     end
 
-    before_transition :invited => :trial do |member, transition|
-      member.free_trial_ends_at ||= member.onboarding_group.try(:free_trial_ends_at, member.signed_up_at)
-    end
-
     before_transition any => %i(trial premium chamath) do |member, transition|
       member.assign_pha
       member.build_pha_consult
@@ -354,6 +351,10 @@ class Member < User
 
   def set_signed_up_at
     self.signed_up_at ||= Time.now
+  end
+
+  def set_free_trial_ends_at
+    self.free_trial_ends_at ||= onboarding_group.try(:free_trial_ends_at, signed_up_at)
   end
 
   def set_member_flag
