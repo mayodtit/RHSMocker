@@ -146,8 +146,6 @@ class RHSMailer < MandrillMailer::TemplateMailer
           else template_clare
         end
 
-    pp ">>>>>>>>>>>>>>>>>>>>>>>>>>> #{t}"
-
     mandrill_mail(
       subject: 'Better Welcome Call Confirmation',
       from: from_email,
