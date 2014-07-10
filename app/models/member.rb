@@ -96,8 +96,14 @@ class Member < User
   after_save :notify_pha_of_new_member, if: ->(m){m.pha_id && m.pha_id_changed?}
   after_save :alert_stakeholders_on_call_status
 
+  SIGNED_UP_STATES = %i(free trial premium chamath)
   def self.signed_up
-    where(status: %i(free trial premium chamath))
+    where(status: SIGNED_UP_STATES)
+  end
+
+  PREMIUM_STATES = %i(trial premium chamath)
+  def self.premium_states
+    where(status: PREMIUM_STATES)
   end
 
   def self.name_search(string)
@@ -126,7 +132,7 @@ class Member < User
   end
 
   def self.pha_counts
-    group(:pha_id).where(status: %i(trial premium chamath))
+    group(:pha_id).where(status: PREMIUM_STATES)
                   .where(pha_id: phas_with_capacity.map(&:id))
                   .count
                   .tap do |hash|

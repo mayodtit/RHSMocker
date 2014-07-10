@@ -70,7 +70,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
     authorize! :index, Member
     search_params = params.permit(:pha_id, :is_premium)
     if search_params.has_key?(:is_premium) && (search_params[:is_premium] == 'true')
-      search_params[:status] = %i(trial premium chamath)
+      search_params[:status] = Member::PREMIUM_STATES
       search_params.except!(:is_premium)
     end
 
