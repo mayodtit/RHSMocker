@@ -31,6 +31,19 @@ describe Member do
       expect(member).to_not be_valid
     end
 
+    context 'signed_up user' do
+      before do
+        member.stub(:set_signed_up_at)
+        member.safe_stub(:signed_up?).and_return(true)
+      end
+
+      it 'validates presence of signed_up_at' do
+        member.signed_up_at = nil
+        expect(member).to_not be_valid
+        expect(member.errors[:signed_up_at]).to include("can't be blank")
+      end
+    end
+
     context 'trial user' do
       let(:member) { build_stubbed(:member, :trial) }
 

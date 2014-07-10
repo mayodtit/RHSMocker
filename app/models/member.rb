@@ -61,6 +61,7 @@ class Member < User
                   :owned_referral_code,
                   :status, :status_event
 
+  validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
   validates :email, uniqueness: {message: 'account already exists',
@@ -81,6 +82,7 @@ class Member < User
 
   before_validation :set_owner
   before_validation :set_member_flag
+  before_validation :set_signed_up_at, if: ->(m){m.signed_up?}
   before_validation :set_invitation_token, if: ->(m){m.status?(:invited)}
   before_create :set_auth_token # generate inital auth_token
   after_create :add_new_member_content
@@ -323,7 +325,6 @@ class Member < User
 
     before_transition :invited => any do |member, transition|
       member.invitation_token = nil
-      member.signed_up_at ||= Time.now
     end
 
     before_transition :invited => :trial do |member, transition|
@@ -349,6 +350,10 @@ class Member < User
 
   def set_owner
     self.owner ||= self
+  end
+
+  def set_signed_up_at
+    self.signed_up_at ||= Time.now
   end
 
   def set_member_flag
