@@ -149,7 +149,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
         end
 
     mandrill_mail(
-      subject: 'Don\'t forget your call tomorrow',
+      subject: 'Your Better Call Confirmation',
       from: from_email,
       from_name: spc.owner.full_name,
       to: { email: spc.user.email },
