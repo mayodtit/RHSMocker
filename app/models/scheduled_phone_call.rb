@@ -35,10 +35,9 @@ class ScheduledPhoneCall < ActiveRecord::Base
   after_save :hold_scheduled_messages
 
   def user_confirmation_calendar_event
-    # TODO: Copy needs to be updated
     RiCal.Event do |event|
-      event.summary = 'Welcome call with Better'
-      event.description = 'Your Personal Health Assistant will call you at this time.'
+      event.summary = "Your call with #{user.pha.full_name}"
+      event.description = "#{user.pha.full_name} will call you at #{callback_phone_number}."
       event.dtstart = scheduled_at
       event.dtend = scheduled_at + scheduled_duration
       event.location = callback_phone_number || user.phone || 'Call'
