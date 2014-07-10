@@ -85,6 +85,7 @@ class Member < User
   before_validation :set_signed_up_at, if: ->(m){m.signed_up?}
   before_validation :set_free_trial_ends_at, if: ->(m){m.status?(:trial)}
   before_validation :set_invitation_token, if: ->(m){m.status?(:invited)}
+  before_validation :unset_invitation_token, if: ->(m){m.is_premium?}
   before_create :set_auth_token # generate inital auth_token
   after_create :add_new_member_content
   after_create :add_owned_referral_code
@@ -324,10 +325,6 @@ class Member < User
       transition any => :chamath
     end
 
-    before_transition :invited => any do |member, transition|
-      member.invitation_token = nil
-    end
-
     before_transition any => %i(trial premium chamath) do |member, transition|
       member.assign_pha
       member.build_pha_consult
@@ -366,6 +363,10 @@ class Member < User
       new_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
       break new_token unless self.class.exists?(invitation_token: new_token)
     end
+  end
+
+  def unset_invitation_token
+    self.invitation_token = nil if invitation_token
   end
 
   def set_auth_token
