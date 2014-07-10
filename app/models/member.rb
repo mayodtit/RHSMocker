@@ -276,6 +276,17 @@ class Member < User
     end
   end
 
+  def next_state
+    if onboarding_group.try(:premium?) &&
+       onboarding_group.try(:free_trial_ends_at)
+      :trial
+    elsif onboarding_group.try(:premium?)
+      :premium
+    else
+      :free
+    end
+  end
+
   private
 
   state_machine :status, initial: ->(m){m.initial_state} do
@@ -289,6 +300,8 @@ class Member < User
     end
 
     event :sign_up do
+      transition :invited => :premium, if: ->(m){m.next_state == :premium}
+      transition :invited => :trial, if: ->(m){m.next_state == :trial}
       transition :invited => :free
     end
 
@@ -311,6 +324,10 @@ class Member < User
     before_transition :invited => any do |member, transition|
       member.invitation_token = nil
       member.signed_up_at ||= Time.now
+    end
+
+    before_transition :invited => :trial do |member, transition|
+      member.free_trial_ends_at ||= member.onboarding_group.try(:free_trial_ends_at, member.signed_up_at)
     end
 
     before_transition any => %i(trial premium chamath) do |member, transition|
