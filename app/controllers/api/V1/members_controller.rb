@@ -69,8 +69,9 @@ class Api::V1::MembersController < Api::V1::ABaseController
   def load_members!
     authorize! :index, Member
     search_params = params.permit(:pha_id, :is_premium)
-    if search_params.has_key? :is_premium
-      search_params[:is_premium] = search_params[:is_premium] == 'true'
+    if search_params.has_key? :is_premium && search_params[:is_premium] == 'true'
+      search_params[:status] = %i(trial premium chamath)
+      search_params.except!(:is_premium)
     end
 
     @members = Member.signed_up.where(search_params).order('last_contact_at DESC')
