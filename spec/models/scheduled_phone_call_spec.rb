@@ -169,7 +169,7 @@ describe ScheduledPhoneCall do
       let(:scheduled_phone_call) { build(:scheduled_phone_call, :assigned, owner: pha) }
 
       before do
-        member.stub(:pha) { pha }
+        member.pha = pha
       end
 
       def book
@@ -210,7 +210,8 @@ describe ScheduledPhoneCall do
         expect(book).to be_true
       end
 
-      it "assigns the owner as the user's PHA" do
+      it 'assigns the owner as the user\'s PHA' do
+        member.pha = nil
         expect(member.pha).to be_nil
         expect(book).to be_true
         expect(member.reload.pha).to eq(pha)
