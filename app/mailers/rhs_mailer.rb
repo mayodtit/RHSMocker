@@ -74,6 +74,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
       raise 'Must have PHA to send Meet your PHA'
     end
 
+    template += ' 7/9/14' if Metadata.new_onboarding_flow?
+
     mandrill_mail(
       subject: subject,
       to: { email: email },
