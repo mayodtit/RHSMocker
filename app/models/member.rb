@@ -91,6 +91,7 @@ class Member < User
   before_create :set_auth_token # generate inital auth_token
   after_create :add_new_member_content
   after_create :add_owned_referral_code
+  after_save :send_state_emails
   after_save :notify_pha_of_new_member, if: ->(m){m.pha_id && m.pha_id_changed?}
   after_save :alert_stakeholders_on_call_status
 
@@ -316,13 +317,6 @@ class Member < User
     event :chamathify do
       transition any => :chamath
     end
-
-    after_transition any => :trial do |member, transition|
-      if !MemberStateTransition.multiple_exist_for?(member, :trial)
-        Mails::WelcomeToBetterFreeTrialJob.create(member.id)
-        Mails::MeetYourPhaJob.create(member.id)
-      end
-    end
   end
 
   def owner_is_self
@@ -389,6 +383,14 @@ class Member < User
   def add_owned_referral_code
     return if owned_referral_code
     create_owned_referral_code!(name: email)
+  end
+
+  def send_state_emails
+    if status?(:trial) &&
+       !MemberStateTransition.multiple_exist_for?(member, :trial)
+      Mails::WelcomeToBetterFreeTrialJob.create(member.id)
+      Mails::MeetYourPhaJob.create(member.id)
+    end
   end
 
   def notify_pha_of_new_member
