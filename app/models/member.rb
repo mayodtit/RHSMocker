@@ -86,6 +86,8 @@ class Member < User
   before_validation :set_free_trial_ends_at, if: ->(m){m.status?(:trial)}
   before_validation :set_invitation_token, if: ->(m){m.status?(:invited)}
   before_validation :unset_invitation_token, if: ->(m){m.is_premium?}
+  before_validation :set_pha, if: ->(m){m.is_premium?}
+  before_validation :set_master_consult, if: ->(m){m.is_premium?}
   before_create :set_auth_token # generate inital auth_token
   after_create :add_new_member_content
   after_create :add_owned_referral_code
@@ -262,16 +264,6 @@ class Member < User
     end
   end
 
-  def assign_pha
-    self.pha ||= self.class.next_pha
-  end
-
-  def build_pha_consult
-    master_consult || build_master_consult(subject: self,
-                                           title: 'Direct messaging with your Better PHA',
-                                           skip_tasks: true)
-  end
-
   def initial_state
     if password.present? || crypted_password.present?
       next_state
@@ -325,11 +317,6 @@ class Member < User
       transition any => :chamath
     end
 
-    before_transition any => %i(trial premium chamath) do |member, transition|
-      member.assign_pha
-      member.build_pha_consult
-    end
-
     after_transition any => :trial do |member, transition|
       if !MemberStateTransition.multiple_exist_for?(member, :trial)
         Mails::WelcomeToBetterFreeTrialJob.create(member.id)
@@ -367,6 +354,16 @@ class Member < User
 
   def unset_invitation_token
     self.invitation_token = nil if invitation_token
+  end
+
+  def set_pha
+    self.pha ||= self.class.next_pha
+  end
+
+  def set_master_consult
+    master_consult || build_master_consult(subject: self,
+                                           title: 'Direct messaging with your Better PHA',
+                                           skip_tasks: true)
   end
 
   def set_auth_token
