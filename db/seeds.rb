@@ -460,6 +460,6 @@ mt.save!
 
 mt = MessageTemplate.find_or_initialize_by_name 'Confirm Welcome Call'
 mt.text = <<eof
-Thanks for scheduling your call. I look forward to getting to know you. If you have any questions or immediate needs, send me a message, and I’ll get started right away.
+Thanks for scheduling your call. I've sent you a confirmation email with a calendar invite. I look forward to learning how I can help you.
 eof
 mt.save!
