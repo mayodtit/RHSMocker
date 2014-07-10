@@ -12,6 +12,11 @@ FactoryGirl.define do
       member_flag true
       owner nil
 
+      trait :invited do
+        status 'invited'
+        sequence(:invitation_token) {|n| "INVITATION-TOKEN-#{n}"}
+      end
+
       trait :free do
         status 'free'
       end

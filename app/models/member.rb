@@ -81,14 +81,16 @@ class Member < User
 
   before_validation :set_owner
   before_validation :set_member_flag
-  before_validation :set_signed_up_at
+  before_validation :set_signed_up_event
+  before_validation :set_invitation_token, if: ->(m){m.status?(:invited)}
   before_create :set_auth_token # generate inital auth_token
   after_create :add_new_member_content
   after_create :add_owned_referral_code
+  after_save :notify_pha_of_new_member, if: ->(m){m.pha_id && m.pha_id_changed?}
   after_save :alert_stakeholders_on_call_status
 
   def self.signed_up
-    where('signed_up_at IS NOT NULL')
+    where(status: %i(free trial premium chamath))
   end
 
   def self.name_search(string)
@@ -152,6 +154,10 @@ class Member < User
     end
   end
 
+  def signed_up?
+    is_premium? || status?(:free)
+  end
+
   def login
     update_attribute :auth_token, Base64.urlsafe_encode64(SecureRandom.base64(36))
   end
@@ -173,10 +179,6 @@ class Member < User
     return if signed_up?
     update_attributes!(invitation_token: Invitation.new.send(:generate_token))
     Mails::InvitationJob.create(id, Rails.application.routes.url_helpers.invite_url(invitation_token))
-  end
-
-  def signed_up?
-    signed_up_at.present?
   end
 
   def member
@@ -219,7 +221,6 @@ class Member < User
 
   def self.pha_counts
     group(:pha_id).where(status: %i(trial premium chamath))
-                  .where('signed_up_at IS NOT NULL')
                   .where(pha_id: phas_with_capacity.map(&:id))
                   .count
                   .tap do |hash|
@@ -268,19 +269,28 @@ class Member < User
                                            skip_tasks: true)
   end
 
-  def notify_pha_of_new_member
-    if (newly_assigned_pha? && signed_up?) || (newly_signed_up? && pha_id.present?)
-      NewMemberTask.delay.create! member: self, title: 'New Premium Member', creator: Member.robot
+  def initial_state
+    if password.present? || crypted_password.present?
+      :free
+    else
+      :invited
     end
   end
 
   private
 
-  state_machine :status, initial: :free do
+  state_machine :status, initial: ->(m){m.initial_state} do
     store_audit_trail to: 'MemberStateTransition'
+    state :invited do
+      validates :invitation_token, presence: true
+    end
 
     state :trial do
       validates :free_trial_ends_at, presence: true
+    end
+
+    event :sign_up do
+      transition :invited => :free
     end
 
     event :upgrade do
@@ -297,6 +307,11 @@ class Member < User
 
     event :chamathify do
       transition any => :chamath
+    end
+
+    before_transition :invited => any do |member, transition|
+      member.invitation_token = nil
+      member.signed_up_at ||= Time.now
     end
 
     before_transition any => %i(trial premium chamath) do |member, transition|
@@ -324,14 +339,24 @@ class Member < User
     self.member_flag ||= true
   end
 
-  def set_signed_up_at
-    if crypted_password.nil? && password.present?
-      self.signed_up_at ||= Time.now
+  def set_signed_up_event
+    if status?(:invited) && crypted_password.nil? && password.present?
+      self.status_event = :sign_up
+    end
+  end
+
+  def set_invitation_token
+    self.invitation_token ||= loop do
+      new_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
+      break new_token unless self.class.exists?(invitation_token: new_token)
     end
   end
 
   def set_auth_token
-    self.auth_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
+    self.auth_token ||= loop do
+      new_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
+      break new_token unless self.class.exists?(auth_token: new_token)
+    end
   end
 
   def add_new_member_content
@@ -352,19 +377,19 @@ class Member < User
     create_owned_referral_code!(name: email)
   end
 
+  def notify_pha_of_new_member
+    if pha_id
+      NewMemberTask.delay.create!(member: self,
+                                  title: 'New Premium Member',
+                                  creator: Member.robot)
+    end
+  end
+
   def role_names
     @role_names ||= roles.pluck(:name)
   end
 
   def skip_agreement_validation
     @skip_agreement_validation || false
-  end
-
-  def newly_assigned_pha?
-    pha_id_changed? && pha_id.present?
-  end
-
-  def newly_signed_up?
-    signed_up? && signed_up_at_changed?
   end
 end
