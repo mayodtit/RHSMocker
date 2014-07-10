@@ -54,22 +54,19 @@ class RHSMailer < MandrillMailer::TemplateMailer
 
   def meet_your_pha_email(email)
     user = Member.find_by_email!(email)
+    subject = 'Welcome to Better'
+
     case user.pha.try(:email)
     when 'clare@getbetter.com'
       template = PREMIUM_WELCOME_TEMPLATE_CLARE
-      subject = 'Meet Clare, your Personal Health Assistant'
     when 'lauren@getbetter.com'
       template = PREMIUM_WELCOME_TEMPLATE_LAUREN
-      subject = 'Meet Lauren, your Personal Health Assistant'
     when 'meg@getbetter.com'
       template = PREMIUM_WELCOME_TEMPLATE_MEG
-      subject = 'Meet Meg, your Personal Health Assistant'
     when 'ninette@getbetter.com'
       template = PREMIUM_WELCOME_TEMPLATE_NINETTE
-      subject = 'Meet Ninette, your Personal Health Assistant'
     when 'jenn@getbetter.com'
       template = PREMIUM_WELCOME_TEMPLATE_JENN
-      subject = 'Meet Jenn, your Personal Health Assistant'
     else
       raise 'Must have PHA to send Meet your PHA'
     end
@@ -78,8 +75,13 @@ class RHSMailer < MandrillMailer::TemplateMailer
 
     mandrill_mail(
       subject: subject,
+      from: user.pha.email,
+      from_name: user.pha.full_name,
       to: { email: email },
-      template: template
+      template: template,
+      headers: {
+        'Reply-To' => 'premium@getbetter.com'
+      }
     )
   end
 
@@ -147,7 +149,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
         end
 
     mandrill_mail(
-      subject: 'Better Welcome Call Confirmation',
+      subject: 'Don\'t forget your call tomorrow',
       from: from_email,
       from_name: spc.owner.full_name,
       to: { email: spc.user.email },
