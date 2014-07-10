@@ -272,7 +272,7 @@ class Member < User
 
   def initial_state
     if password.present? || crypted_password.present?
-      :free
+      next_state
     else
       :invited
     end
