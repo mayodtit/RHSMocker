@@ -3,7 +3,6 @@ require 'spec_helper'
 describe OffboardMemberTask do
   before do
     @service_type = ServiceType.find_or_create_by_name! name: 'member offboarding', bucket: 'engagement'
-    @message_template = MessageTemplate.find_or_create_by_name! name: 'Offboard Engaged Member', text: 'test'
   end
 
   it_has_a 'valid factory'
@@ -34,30 +33,6 @@ describe OffboardMemberTask do
     it 'sets the creator to the robot' do
       task.set_required_attrs
       task.creator.should == Member.robot
-    end
-  end
-
-  describe '#create_scheduled_message' do
-    let(:task) { build :offboard_member_task }
-    let(:pha) { build :pha }
-    let(:consult) { build :consult }
-
-    before do
-      Timecop.freeze
-    end
-
-    after do
-      Timecop.return
-    end
-
-    it 'creates a scheduled message from a message template' do
-      task.member.stub(:master_consult) { consult }
-      task.member.stub(:free_trial_ends_at) { 3.days.ago }
-      task.member.stub(:pha) { pha }
-
-      MessageTemplate.should_receive(:find_by_name!).with('Offboard Engaged Member') { @message_template }
-      @message_template.should_receive(:create_scheduled_message).with(pha, consult, task.member.free_trial_ends_at)
-      task.create_scheduled_message
     end
   end
 
