@@ -99,6 +99,47 @@ class Member < User
     where("first_name LIKE ? OR last_name LIKE ? OR email LIKE ?", wildcard, wildcard, wildcard)
   end
 
+  def self.create_from_user!(user)
+    create!(email: user.email)
+  end
+
+  def self.robot
+    find_or_create_by_email(email: 'testphone+robot@getbetter.com',
+                            first_name: 'Clare',
+                            last_name: 'W',
+                            avatar_url_override: 'http://i.imgur.com/eU3p9Hj.jpg')
+  end
+
+  def self.phas
+    # less efficient than Role.find.users, but safer because ensures Member
+    joins(:roles).where(roles: {name: :pha})
+  end
+
+  def self.phas_with_capacity
+    phas.reject{|m| !m.pha_profile || m.pha_profile.max_capacity?}
+  end
+
+  def self.pha_counts
+    group(:pha_id).where(status: %i(trial premium chamath))
+                  .where(pha_id: phas_with_capacity.map(&:id))
+                  .count
+                  .tap do |hash|
+      hash.default = 0
+    end
+  end
+
+  def self.next_pha
+    current_counts = pha_counts
+    min_count = current_counts.values.min || 0
+    phas_with_capacity.inject(nil) do |selected, current|
+      if current_counts[current.id] <= min_count
+        selected = current
+        min_count = current_counts[current.id]
+      end
+      selected
+    end
+  end
+
   def needs_agreement?
     !terms_of_service_and_privacy_policy
   end
@@ -186,17 +227,6 @@ class Member < User
     self
   end
 
-  def self.create_from_user!(user)
-    create!(email: user.email)
-  end
-
-  def self.robot
-    find_or_create_by_email(email: 'testphone+robot@getbetter.com',
-                            first_name: 'Clare',
-                            last_name: 'W',
-                            avatar_url_override: 'http://i.imgur.com/eU3p9Hj.jpg')
-  end
-
   def terms_of_service_and_privacy_policy
     return true unless Agreement.active
     user_agreements.map(&:agreement_id).include? Agreement.active.id
@@ -208,36 +238,6 @@ class Member < User
         Member.where(apns_token: token).update_all(apns_token: nil)
         update_attributes!(apns_token: token)
       end
-    end
-  end
-
-  def self.phas
-    # less efficient than Role.find.users, but safer because ensures Member
-    joins(:roles).where(roles: {name: :pha})
-  end
-
-  def self.phas_with_capacity
-    phas.reject{|m| !m.pha_profile || m.pha_profile.max_capacity?}
-  end
-
-  def self.pha_counts
-    group(:pha_id).where(status: %i(trial premium chamath))
-                  .where(pha_id: phas_with_capacity.map(&:id))
-                  .count
-                  .tap do |hash|
-      hash.default = 0
-    end
-  end
-
-  def self.next_pha
-    current_counts = pha_counts
-    min_count = current_counts.values.min || 0
-    phas_with_capacity.inject(nil) do |selected, current|
-      if current_counts[current.id] <= min_count
-        selected = current
-        min_count = current_counts[current.id]
-      end
-      selected
     end
   end
 
