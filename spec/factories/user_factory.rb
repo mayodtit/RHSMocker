@@ -11,27 +11,33 @@ FactoryGirl.define do
       password              "password"
       member_flag true
       owner nil
+      status 'free'
 
       trait :invited do
         status 'invited'
         sequence(:invitation_token) {|n| "INVITATION-TOKEN-#{n}"}
+        password nil
       end
 
       trait :free do
         status 'free'
+        signed_up_at Time.now
       end
 
       trait :trial do
         status 'trial'
+        signed_up_at Time.now
         free_trial_ends_at Time.now + 2.weeks
       end
 
       trait :premium do
         status 'premium'
+        signed_up_at Time.now
       end
 
       trait :chamath do
         status 'chamath'
+        signed_up_at Time.now
       end
 
       trait :with_stripe_customer_id do
