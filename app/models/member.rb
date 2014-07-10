@@ -81,7 +81,6 @@ class Member < User
 
   before_validation :set_owner
   before_validation :set_member_flag
-  before_validation :set_signed_up_event
   before_validation :set_invitation_token, if: ->(m){m.status?(:invited)}
   before_create :set_auth_token # generate inital auth_token
   after_create :add_new_member_content
@@ -337,12 +336,6 @@ class Member < User
 
   def set_member_flag
     self.member_flag ||= true
-  end
-
-  def set_signed_up_event
-    if status?(:invited) && crypted_password.nil? && password.present?
-      self.status_event = :sign_up
-    end
   end
 
   def set_invitation_token
