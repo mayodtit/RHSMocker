@@ -91,6 +91,7 @@ class Member < User
   before_create :set_auth_token # generate inital auth_token
   after_create :add_new_member_content
   after_create :add_owned_referral_code
+  after_save :add_automated_onboarding_message_workflow, if: ->(m){m.status?(:trial)}
   after_save :send_state_emails
   after_save :notify_pha_of_new_member, if: ->(m){m.pha_id && m.pha_id_changed?}
   after_save :alert_stakeholders_on_call_status
@@ -159,6 +160,11 @@ class Member < User
     role = Role.where(name: role_name).first_or_create!
     roles << role
     @role_names << role.name.to_s if @role_names
+  end
+
+  def engaged?
+    tasks.joins(:service_type).where(service_types: {bucket: ['wellness', 'care coordination', 'insurance', 'other']}).count > 0 ||
+    messages.count > 0
   end
 
   def admin?
@@ -383,6 +389,12 @@ class Member < User
   def add_owned_referral_code
     return if owned_referral_code
     create_owned_referral_code!(name: email)
+  end
+
+  def add_automated_onboarding_message_workflow
+    if master_consult.try(:scheduled_messages).try(:empty?)
+      MessageWorkflow.automated_onboarding.try(:add_to_member, self)
+    end
   end
 
   def send_state_emails

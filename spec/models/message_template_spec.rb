@@ -28,6 +28,12 @@ describe MessageTemplate do
         expect(message.consult).to eq(consult)
         expect(message.text).to eq(message_template.text)
       end
+
+      it 'replaces text' do
+        MessageTemplate.should_receive(:formatted_text).with(sender, consult, message_template.text) { 'Test' }
+        message = message_template.create_message(sender, consult)
+        message.text.should == 'Test'
+      end
     end
 
     describe '#create_scheduled_message' do
@@ -41,6 +47,49 @@ describe MessageTemplate do
         expect(scheduled_message.publish_at).to eq(publish_at)
         expect(scheduled_message.text).to eq(message_template.text)
       end
+    end
+  end
+
+  describe '#formatted_text' do
+    let(:consult) { build :consult }
+    let(:sender) { build :pha }
+
+    before do
+      sender.stub(:first_name) { 'Kevin' }
+    end
+
+    it 'replaces member_first_name' do
+      MessageTemplate.formatted_text(sender, consult, 'Hello *|member_first_name|*').should == "Hello #{consult.initiator.salutation}"
+    end
+
+    it 'replaces sender_first_name' do
+      MessageTemplate.formatted_text(sender, consult, 'I am *|sender_first_name|*.').should == 'I am Kevin.'
+    end
+
+    context 'merge tags not defined' do
+      context 'initiator is missing' do
+        before do
+          consult.initiator.stub(:salutation) { '' }
+        end
+
+        it 'raises an error' do
+          expect { MessageTemplate.formatted_text(sender, consult, 'Hello') }.to raise_error(RuntimeError)
+        end
+      end
+
+      context 'sender first name is missing' do
+        before do
+          sender.stub(:first_name) { '' }
+        end
+
+        it 'raises an error' do
+          expect { MessageTemplate.formatted_text(sender, consult, 'Hello') }.to raise_error(RuntimeError)
+        end
+      end
+    end
+
+    it 'raises an error when merge tags are not replaced' do
+      expect { MessageTemplate.formatted_text(sender, consult, 'Hello *|member_first_name|*, I am *|sender_first_name|*. You *|test|*') }.to raise_error(RuntimeError)
     end
   end
 end

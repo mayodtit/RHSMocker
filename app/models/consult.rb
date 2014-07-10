@@ -48,7 +48,13 @@ class Consult < ActiveRecord::Base
     return if messages.any?
     return unless initiator.signed_up?
     return unless initiator.pha
-    messages.create(user: initiator.pha, text: WELCOME_MESSAGE_TEXT)
+    if Metadata.new_onboarding_flow?
+      mt = MessageTemplate.find_by_name 'New Premium Member'
+      mt.create_message initiator.pha, self if mt
+      self.reload
+    else
+      messages.create(user: initiator.pha, text: WELCOME_MESSAGE_TEXT)
+    end
   end
 
   private

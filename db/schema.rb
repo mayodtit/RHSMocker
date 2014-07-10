@@ -346,6 +346,20 @@ ActiveRecord::Schema.define(:version => 20140709193032) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "message_workflow_templates", :force => true do |t|
+    t.integer  "message_workflow_id"
+    t.integer  "message_template_id"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+    t.integer  "days_delayed"
+  end
+
+  create_table "message_workflows", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "messages", :force => true do |t|
     t.text     "text"
     t.integer  "user_id"

@@ -578,4 +578,98 @@ describe Member do
       end
     end
   end
+
+  describe '#engaged?' do
+    let!(:member) { create :member }
+    let!(:pha) { create :pha }
+    let!(:consult) { create :consult, initiator: member, subject: member }
+
+    context 'member has tasks' do
+      context 'member has only wellness tasks' do
+        before do
+          member.tasks.create! subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'wellness')
+        end
+
+        it 'returns true' do
+          member.should be_engaged
+        end
+      end
+
+      context 'member has only care coordination tasks' do
+        before do
+          member.tasks.create! subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'care coordination')
+        end
+
+        it 'returns true' do
+          member.should be_engaged
+        end
+      end
+
+      context 'member has only insurance tasks' do
+        before do
+          member.tasks.create! subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'insurance')
+        end
+
+        it 'returns true' do
+          member.should be_engaged
+        end
+      end
+
+      context 'member has only other tasks' do
+        before do
+          member.tasks.create! subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'other')
+        end
+
+        it 'returns true' do
+          member.should be_engaged
+        end
+      end
+
+      context 'member has only engagement tasks' do
+        before do
+          member.tasks.create! subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'engagement')
+        end
+
+        it 'returns false' do
+          member.should_not be_engaged
+        end
+      end
+    end
+
+    context 'member has no tasks' do
+      before do
+        member.tasks.count.should == 0
+      end
+
+      context 'member has sent a message' do
+        before do
+          Message.create! user: member, consult: consult, text: 'test.'
+        end
+
+        it 'returns true' do
+          member.should be_engaged
+        end
+      end
+
+      context 'member has not sent a message' do
+        before do
+          member.messages.count.should == 0
+        end
+
+        it 'returns false' do
+          member.should_not be_engaged
+        end
+
+        context 'pha has sent a message' do
+          before do
+            Message.create! user: pha, consult: consult, text: 'test.'
+          end
+
+          it 'returns false' do
+            member.should_not be_engaged
+          end
+        end
+      end
+    end
+  end
 end

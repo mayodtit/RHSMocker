@@ -20,6 +20,10 @@ class ScheduledMessage < ActiveRecord::Base
     where('publish_at < ?', time)
   end
 
+  def formatted_text
+    MessageTemplate.formatted_text(sender, consult, text)
+  end
+
   protected
 
   def sent_at_is_nil
@@ -58,7 +62,7 @@ class ScheduledMessage < ActiveRecord::Base
       message.sent_at = Time.now
       message.build_message(user: message.sender,
                             consult: message.consult,
-                            text: message.text)
+                            text: message.formatted_text)
     end
   end
 end

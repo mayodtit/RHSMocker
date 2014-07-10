@@ -34,4 +34,9 @@ namespace :scheduled do
   task :push_content => :environment do
     ScheduledJobs.push_content
   end
+
+  desc 'Offboard free trial members'
+  task :offboard_free_trial_members => :environment do
+    ScheduledJobs.offboard_free_trial_members
+  end
 end
