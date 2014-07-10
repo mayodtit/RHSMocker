@@ -124,11 +124,19 @@ class RHSMailer < MandrillMailer::TemplateMailer
     spc = ScheduledPhoneCall.find(spc_id)
     from_email = spc.owner.email
 
-    template_clare   = 'Call Confirmation New - (Clare)'
-    template_lauren  = 'Call Confirmation New - (Lauren)'
-    template_meg     = 'Call Confirmation New - (Meg)'
-    template_ninette = 'Call Confirmation New - (Ninette)'
-    template_jenn    = 'Call Confirmation New - (Jenn)'
+    template_clare   = 'Call Confirmation Clare'
+    template_lauren  = 'Call Confirmation Lauren'
+    template_meg     = 'Call Confirmation Meg'
+    template_ninette = 'Call Confirmation Ninette'
+    template_jenn    = 'Call Confirmation Jenn'
+
+    if Metadata.new_onboarding_flow?
+      template_clare += ' 7/9/14'
+      template_lauren += ' 7/9/14'
+      template_meg += ' 7/9/14'
+      template_ninette += ' 7/9/14'
+      template_jenn += ' 7/9/14'
+    end
 
     t = case from_email
           when 'lauren@getbetter.com' then template_lauren
