@@ -405,6 +405,7 @@ class Member < User
 
   def send_state_emails
     if status?(:trial) &&
+       status_changed? &&
        !MemberStateTransition.multiple_exist_for?(member, :trial) &&
        !@emails_sent
       Mails::MeetYourPhaJob.create(member.id)
