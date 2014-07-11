@@ -130,6 +130,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
     end
     user_params[:addresses_attributes] = [user_params[:address_attributes]] if user_params[:address_attributes]
     user_params[:user_agreements_attributes] = user_agreements_attributes if user_params[:tos_checked] || user_params[:agreement_id]
+    user_params[:actor_id] = current_user.id if current_user
   end
 
   def user_agreements_attributes

@@ -319,11 +319,13 @@ ActiveRecord::Schema.define(:version => 20140709193032) do
 
   create_table "member_state_transitions", :force => true do |t|
     t.integer  "member_id"
+    t.integer  "actor_id"
     t.string   "event"
     t.string   "from"
     t.string   "to"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.datetime "free_trial_ends_at"
   end
 
   add_index "member_state_transitions", ["member_id"], :name => "index_member_state_transitions_on_member_id"

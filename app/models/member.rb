@@ -111,8 +111,8 @@ class Member < User
     where("first_name LIKE ? OR last_name LIKE ? OR email LIKE ?", wildcard, wildcard, wildcard)
   end
 
-  def self.create_from_user!(user)
-    create!(email: user.email)
+  def self.create_from_user!(user, actor)
+    create!(email: user.email, actor_id: actor.id)
   end
 
   def self.robot
@@ -299,7 +299,7 @@ class Member < User
   private
 
   state_machine :status, initial: ->(m){m.initial_state} do
-    store_audit_trail to: 'MemberStateTransition'
+    store_audit_trail to: 'MemberStateTransition', context_to_log: %i(actor_id free_trial_ends_at)
     state :invited do
       validates :invitation_token, presence: true
     end
