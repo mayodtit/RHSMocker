@@ -454,13 +454,12 @@ mt.save!
 
 mt = MessageTemplate.find_or_initialize_by_name 'New Premium Member'
 mt.text = <<eof
-Hi *|member_first_name|*, welcome to Better. I'm *|sender_first_name|*, your Personal Health Assistant. I’m here to handle any of your health needs, from finding a doctor to navigating your insurance plan.
-How can I help you? Let’s get started with a quick 10-minute call, which you can schedule [here](better://nb?cmd=scheduleCall).
+Hi *|member_first_name|*, welcome to Better. I’m *|sender_first_name|*, your Personal Health Assistant. I’m here to handle any of your health needs, so you can focus on being well. Let’s get started with a 10-minute call, which you can schedule [here](better://nb?cmd=scheduleCall). If you have any questions or immediate needs, just send me a message.
 eof
 mt.save!
 
 mt = MessageTemplate.find_or_initialize_by_name 'Confirm Welcome Call'
 mt.text = <<eof
-Thanks for scheduling your call. I look forward to getting to know you. If you have any questions or immediate needs, send me a message, and I’ll get started right away.
+Thanks for scheduling your call. I've sent you a confirmation email with a calendar invite. I look forward to learning how I can help you.
 eof
 mt.save!
