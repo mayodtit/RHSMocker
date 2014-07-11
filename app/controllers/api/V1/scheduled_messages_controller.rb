@@ -32,6 +32,7 @@ class Api::V1::ScheduledMessagesController < Api::V1::ABaseController
     else
       @consult = Consult.find(params[:consult_id])
     end
+    raise ActiveRecord::RecordNotFound, "Couldn't find Consult for User" unless @consult
     authorize! :manage, @consult
   end
 

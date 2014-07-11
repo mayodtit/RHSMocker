@@ -12,7 +12,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
 
   def invite
     @user = User.find(params[:id])
-    @member = @user.member || Member.create_from_user!(@user)
+    @member = @user.member || Member.create_from_user!(@user, current_user)
     current_user.invitations.create(invited_member: @member) # fail silently, always return success
     render_success
   end
@@ -40,6 +40,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
     user_params[:addresses_attributes] = [address] if address
 
     user_params[:avatar] = decode_b64_image(user_params[:avatar]) if user_params[:avatar]
+    user_params[:actor_id] = current_user.id
   end
 
   def serializer_options

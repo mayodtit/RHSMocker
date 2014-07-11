@@ -12,18 +12,16 @@ describe Member do
   end
 
   it_has_a 'valid factory'
+  it_has_a 'valid factory', :invited
+  it_has_a 'valid factory', :free
+  it_has_a 'valid factory', :trial
+  it_has_a 'valid factory', :premium
+  it_has_a 'valid factory', :chamath
 
   describe 'validations' do
-    before do
-      described_class.any_instance.stub(:set_test_user)
-      described_class.any_instance.stub(:set_marked_for_deletion)
-    end
-
     it_validates 'foreign key of', :pha
     it_validates 'foreign key of', :onboarding_group
     it_validates 'foreign key of', :referral_code
-    it_validates 'inclusion of', :test_user
-    it_validates 'inclusion of', :marked_for_deletion
     it_validates 'allows blank uniqueness of', :apns_token
 
     it 'validates member flag is true' do
@@ -32,18 +30,86 @@ describe Member do
       member.member_flag = nil
       expect(member).to_not be_valid
     end
+
+    context 'signed_up user' do
+      before do
+        member.stub(:set_signed_up_at)
+        member.safe_stub(:signed_up?).and_return(true)
+      end
+
+      it 'validates presence of signed_up_at' do
+        member.signed_up_at = nil
+        expect(member).to_not be_valid
+        expect(member.errors[:signed_up_at]).to include("can't be blank")
+      end
+    end
+
+    context 'trial user' do
+      let(:member) { build_stubbed(:member, :trial) }
+
+      it 'validates presence of free_trial_ends_at' do
+        expect(member).to be_valid
+        member.free_trial_ends_at = nil
+        expect(member).to_not be_valid
+        expect(member.errors[:free_trial_ends_at]).to include("can't be blank")
+      end
+    end
   end
 
   describe 'callbacks' do
+    describe '#notify_pha_of_new_member' do
+      let(:member) { build(:member) }
+      let(:pha) { build(:pha) }
+      let(:delayed_new_member_task) { double('delayed new member task') }
+
+      it 'creates a delayed NewMemberTask' do
+        NewMemberTask.stub(delay: delayed_new_member_task)
+        delayed_new_member_task.should_receive(:create!).once
+        member.pha = pha
+        expect(member.save).to be_true
+      end
+
+      context 'without a PHA' do
+        it 'fires when PHA is added' do
+          member.should_receive(:notify_pha_of_new_member).once
+          member.pha = pha
+          expect(member.save).to be_true
+        end
+      end
+
+      context 'with a PHA' do
+        let!(:pha) { create(:pha) }
+        let!(:member) { create(:member, pha: pha) }
+        let(:other_pha) { create(:pha) }
+
+        it 'fires when the PHA is changed' do
+          member.should_receive(:notify_pha_of_new_member).once
+          member.pha = other_pha
+          expect(member.save).to be_true
+        end
+
+        it 'does not fire when the PHA is not changed' do
+          member.should_not_receive(:notify_pha_of_new_member)
+          expect(member.save).to be_true
+        end
+
+        it 'does not fire when the PHA is removed' do
+          member.should_not_receive(:notify_pha_of_new_member)
+          member.pha = nil
+          expect(member.save).to be_true
+        end
+      end
+    end
+
     describe '#set_free_trial_ends_at' do
-      let(:user) { create(:member, password: nil) }
+      let(:user) { create(:member, :invited) }
       let(:onboarding_group) { create(:onboarding_group, :premium, free_trial_days: 3) }
 
       it 'sets the free_trial_ends_at from onboarding_group on signed up' do
         user.update_attributes(onboarding_group: onboarding_group)
         expect(user.free_trial_ends_at).to be_nil
-        user.update_attributes(password: 'password')
-        expect(user.free_trial_ends_at).to eq(Time.now.in_time_zone('Pacific Time (US & Canada)').end_of_day + 3.days)
+        user.update_attributes(password: 'password', status_event: :sign_up)
+        expect(user.reload.free_trial_ends_at.to_i).to eq((Time.now.in_time_zone('Pacific Time (US & Canada)').end_of_day + 3.days).to_i)
       end
 
       context 'feature group not set' do
@@ -141,14 +207,15 @@ describe Member do
   end
 
   describe '#signed_up?' do
-    it 'returns true when signed_up_at is present' do
-      member.signed_up_at = Time.now
-      expect(member).to be_signed_up
+    it 'returns true when member is in a signed up state' do
+      expect(build_stubbed(:member, :free).signed_up?).to be_true
+      expect(build_stubbed(:member, :trial).signed_up?).to be_true
+      expect(build_stubbed(:member, :premium).signed_up?).to be_true
+      expect(build_stubbed(:member, :chamath).signed_up?).to be_true
     end
 
-    it 'returns false if signed_up_at is not' do
-      member.crypted_password = nil
-      expect(member).to_not be_signed_up
+    it 'returns false when member is not in a signed up state' do
+      expect(build_stubbed(:member, :invited).signed_up?).to be_false
     end
   end
 
@@ -269,91 +336,6 @@ describe Member do
 
     it 'returns the PHA with the most availablity' do
       expect(described_class.next_pha).to eq(unassigned_pha)
-    end
-  end
-
-  describe '#notify_pha_of_new_member' do
-    let(:member) { build(:member) }
-
-    context 'just assigned a new pha' do
-      before do
-        member.stub(:newly_assigned_pha?) { true }
-      end
-
-      context 'member is signed up' do
-        before do
-          member.stub(:signed_up?) { true }
-        end
-
-        it 'creates a new member task' do
-          NewMemberTask.should_receive(:delay) do
-            o = Object.new
-            o.should_receive(:create!).with member: member, title: 'New Premium Member', creator: Member.robot
-            o
-          end
-          member.notify_pha_of_new_member
-        end
-      end
-
-      context 'member is not signed up' do
-        before do
-          member.stub(:signed_up?) { false }
-        end
-
-        it 'does nothing' do
-          NewMemberTask.should_not_receive :delay
-          member.notify_pha_of_new_member
-        end
-      end
-    end
-
-    context 'not just assigned a pha' do
-      before do
-        member.stub(:newly_assigned_pha?) { false }
-      end
-
-      context 'just signed up' do
-        before do
-          member.stub(:newly_signed_up?) { true }
-        end
-
-        context 'pha is assigned' do
-          before do
-            member.stub(:pha_id) { 1 }
-          end
-
-          it 'creates a new member task' do
-            NewMemberTask.should_receive(:delay) do
-              o = Object.new
-              o.should_receive(:create!).with member: member, title: 'New Premium Member', creator: Member.robot
-              o
-            end
-            member.notify_pha_of_new_member
-          end
-        end
-
-        context 'pha is not assigned' do
-          before do
-            member.stub(:pha_id) { nil }
-          end
-
-          it 'does nothing' do
-            NewMemberTask.should_not_receive :delay
-            member.notify_pha_of_new_member
-          end
-        end
-      end
-
-      context 'has already signed up' do
-        before do
-          member.stub(:newly_signed_up?) { false }
-        end
-
-        it 'does nothing' do
-          NewMemberTask.should_not_receive :delay
-          member.notify_pha_of_new_member
-        end
-      end
     end
   end
 

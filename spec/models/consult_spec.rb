@@ -19,45 +19,51 @@ describe Consult do
 
   describe 'callbacks' do
     describe '#send_initial_message' do
-      let!(:pha) { create(:pha).tap{|p| p.create_pha_profile} }
-      let!(:member) { create(:member, is_premium: true, pha: pha, signed_up_at: Time.now) }
-      let(:consult) { create(:consult, initiator: member) }
+      context 'with a PHA' do
+        let!(:pha) { create(:pha).tap{|p| p.create_pha_profile} }
+        let!(:member) { create(:member, :premium, pha: pha, signed_up_at: Time.now) }
+        let(:consult) { create(:consult, initiator: member) }
 
-      it 'creates an initial message' do
-        expect(consult.messages.count).to eq(1)
-        expect(consult.messages.first.text).to eq(Consult::WELCOME_MESSAGE_TEXT)
-      end
-
-      it 'does not attach a message if there is already a message' do
-        c = create(:consult, initiator: member, messages_attributes: [{user: member, text: 'hello world'}])
-        expect(c.messages.count).to eq(1)
-        expect(c.messages.first.text).to eq('hello world')
-      end
-
-      it 'does not attach a message if consult initiator is not signed up' do
-        member.stub(signed_up?: false)
-        expect(consult.messages.count).to eq(0)
-      end
-
-      it 'does not attach a message if the member is not assigned a pha' do
-        member.update_attributes(pha_id: nil)
-        expect(consult.messages.count).to eq(0)
-      end
-
-      context 'we\'re using the new onboarding flow' do
-        let!(:message_template) { create :message_template }
-
-        before do
-          Metadata.stub(:new_onboarding_flow?) { true }
+        it 'creates an initial message' do
+          expect(consult.messages.count).to eq(1)
+          expect(consult.messages.first.text).to eq(Consult::WELCOME_MESSAGE_TEXT)
         end
 
-        it 'creates a message from a template' do
-          MessageTemplate.stub(:find_by_name).with('New Premium Member') { message_template }
-          message_template.should_receive(:create_message).and_call_original
-          consult = create :consult, initiator: member
-          consult.reload
-          consult.messages.count.should == 1
-          consult.messages.first.text.should_not == Consult::WELCOME_MESSAGE_TEXT
+        it 'does not attach a message if there is already a message' do
+          c = create(:consult, initiator: member, messages_attributes: [{user: member, text: 'hello world'}])
+          expect(c.messages.count).to eq(1)
+          expect(c.messages.first.text).to eq('hello world')
+        end
+
+        it 'does not attach a message if consult initiator is not signed up' do
+          member.stub(signed_up?: false)
+          expect(consult.messages.count).to eq(0)
+        end
+
+        context 'we\'re using the new onboarding flow' do
+          let!(:message_template) { create :message_template }
+
+          before do
+            Metadata.stub(:new_onboarding_flow?) { true }
+          end
+
+          it 'creates a message from a template' do
+            MessageTemplate.stub(:find_by_name).with('New Premium Member') { message_template }
+            message_template.should_receive(:create_message).and_call_original
+            consult = create :consult, initiator: member
+            consult.reload
+            consult.messages.count.should == 1
+            consult.messages.first.text.should_not == Consult::WELCOME_MESSAGE_TEXT
+          end
+        end
+      end
+
+      context 'without a PHA' do
+        let!(:member) { create(:member, :premium, signed_up_at: Time.now) }
+        let(:consult) { create(:consult, initiator: member) }
+
+        it 'does not attach a message if the member is not assigned a pha' do
+          expect(consult.messages.count).to eq(0)
         end
       end
     end

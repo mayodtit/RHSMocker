@@ -22,6 +22,7 @@ class PhaProfile < ActiveRecord::Base
 
   def recent_owned_members_count
     user.owned_members
+        .signed_up
         .where('signed_up_at > ?', Time.now.pacific.beginning_of_week)
         .count
   end

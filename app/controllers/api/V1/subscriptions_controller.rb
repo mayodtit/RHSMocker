@@ -52,9 +52,10 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
 
   def user_attributes
     {
-      is_premium: true,
+      status_event: :upgrade,
       free_trial_ends_at: nil,
-      subscription_ends_at: nil
+      subscription_ends_at: nil,
+      actor_id: current_user.id
     }
   end
 end

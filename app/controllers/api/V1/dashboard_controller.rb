@@ -13,18 +13,6 @@ class Api::V1::DashboardController < Api::V1::ABaseController
                            })
   end
 
-  ONBOARDING_MEMBERS_COLUMNS = %w(email created_at)
-  def onboarding_members
-    @data = CSV.generate do |csv|
-      csv << ONBOARDING_MEMBERS_COLUMNS
-      Member.joins(:waitlist_entry).find_each do |member|
-        csv << member.attributes.values_at(*ONBOARDING_MEMBERS_COLUMNS)
-      end
-    end
-
-    respond_to { |format| format.csv { send_data @data } }
-  end
-
   def onboarding_calls
     @data = CSV.generate do |csv|
       csv << %w(email pha created_at scheduled_at)

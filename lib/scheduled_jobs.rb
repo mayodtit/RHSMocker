@@ -61,6 +61,26 @@ class ScheduledJobs
     end
   end
 
+  def self.send_referral_card
+    return unless CustomCard.referral
+    Member.where('signed_up_at < ?', Time.now - 5.days).find_each do |m|
+      next if m.cards.where(resource_id: CustomCard.referral.id, resource_type: 'CustomCard').any?
+      m.cards.create(resource: CustomCard.referral)
+    end
+  end
+
+  def self.push_content
+    Member.find_each do |m|
+      count = m.cards.inbox.count
+      next if count >= 5
+      (5 - count).times do
+        content = Content.next_for(m)
+        break unless content
+        m.cards.create(resource: content, user_program: content.user_program)
+      end
+    end
+  end
+
   def self.offboard_free_trial_members
     if Metadata.offboard_free_trial_members?
       Member.where('free_trial_ends_at < ?', Time.now - OffboardMemberTask::OFFBOARDING_WINDOW).each do |member|

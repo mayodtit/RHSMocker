@@ -48,13 +48,15 @@ class User < ActiveRecord::Base
   accepts_nested_attributes_for :emergency_contact
 
   attr_accessor :self_owner
+  attr_accessor :actor_id
 
   attr_accessible :first_name, :last_name, :avatar, :gender, :height, :birth_date, :email,
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
                   :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data,
                   :user_information_attributes, :addresses_attributes, :insurance_policy_attributes,
                   :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id,
-                  :provider_taxonomy_code, :owner, :owner_id, :self_owner, :emergency_contact_attributes
+                  :provider_taxonomy_code, :owner, :owner_id, :self_owner, :emergency_contact_attributes,
+                  :actor_id
 
   validate :member_flag_is_nil
   validates :deceased, :inclusion => {:in => [true, false]}
@@ -73,6 +75,10 @@ class User < ActiveRecord::Base
   before_validation :strip_attributes
   before_create :create_google_analytics_uuid
   after_save :publish
+
+  def actor_id
+    @actor_id || id
+  end
 
   def avatar=(encoded_avatar)
     if avatar_url && encoded_avatar.nil?
@@ -133,7 +139,7 @@ class User < ActiveRecord::Base
 
   def member_or_invite!(inviter)
     return member if member
-    Member.create_from_user!(self).tap do |new_member|
+    Member.create_from_user!(self, inviter).tap do |new_member|
       inviter.invitations.create!(invited_member: new_member)
     end
   end
