@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Api::V1::InvitationsController do
-  let(:user) { build_stubbed :member }
+  let(:user) { build_stubbed :member, :premium }
   let(:ability) { Object.new.extend(CanCan::Ability) }
   let(:email) { 'nurse@example.com' }
 
@@ -20,7 +20,7 @@ describe Api::V1::InvitationsController do
       it_behaves_like 'success'
 
       before do
-        @invited_member = build_stubbed :member
+        @invited_member = build_stubbed :member, :invited
       end
 
       context 'invited user does not exist' do
@@ -93,7 +93,7 @@ describe Api::V1::InvitationsController do
 
         context 'and is not signed up' do
           before do
-            @invited_member = build_stubbed :member
+            @invited_member = build_stubbed :member, :invited
             Member.stub(:find_by_email).with(email) { @invited_member }
           end
 

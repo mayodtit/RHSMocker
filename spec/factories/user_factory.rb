@@ -9,14 +9,35 @@ FactoryGirl.define do
       sequence(:install_id) { |n| "Install-ID-#{n}" }
       sequence(:email)    { |n| "user#{n}@test.com" }
       password              "password"
-      password_confirmation "password"
       member_flag true
-      test_user false
-      marked_for_deletion false
       owner nil
+      status 'free'
+
+      trait :invited do
+        status 'invited'
+        sequence(:invitation_token) {|n| "INVITATION-TOKEN-#{n}"}
+        password nil
+      end
+
+      trait :free do
+        status 'free'
+        signed_up_at Time.now
+      end
+
+      trait :trial do
+        status 'trial'
+        signed_up_at Time.now
+        free_trial_ends_at Time.now + 2.weeks
+      end
 
       trait :premium do
-        is_premium true
+        status 'premium'
+        signed_up_at Time.now
+      end
+
+      trait :chamath do
+        status 'chamath'
+        signed_up_at Time.now
       end
 
       trait :with_stripe_customer_id do

@@ -136,7 +136,7 @@ describe 'Users' do
     let!(:current_user) { create(:member) }
 
     context 'for a member' do
-      let!(:user) { create(:member, password: nil, password_confirmation: nil) }
+      let!(:user) { create(:member, :invited) }
       let!(:user_id) { user.id }
 
       it 'sets the members invite token' do

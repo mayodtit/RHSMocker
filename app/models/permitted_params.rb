@@ -2,9 +2,6 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   def user
     user_params.permit(*user_attributes).tap do |attributes|
       attributes.merge!(client_data: user_params[:client_data])
-      if !current_user && user_params[:waitlist_entry]
-        attributes.merge!(waitlist_entry: user_params[:waitlist_entry])
-      end
     end
   end
 
@@ -119,7 +116,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     [:id, :first_name, :last_name, :avatar, :gender, :height, :birth_date,
      :phone, :blood_type, :holds_phone_in, :diet_id, :ethnic_group_id,
      :deceased, :date_of_death, :npi_number, :expertise, :city, :state, :units,
-     :nickname, :work_phone_number, :provider_taxonomy_code]
+     :nickname, :work_phone_number, :provider_taxonomy_code, :actor_id]
   end
 
   def secure_user_attributes
