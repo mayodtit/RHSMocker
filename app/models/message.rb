@@ -9,6 +9,7 @@ class Message < ActiveRecord::Base
   belongs_to :phone_call_summary, inverse_of: :message
   belongs_to :user_image, inverse_of: :messages
   has_many :message_statuses
+  attr_accessor :no_notification
 
   attr_accessible :user, :user_id, :consult, :consult_id, :content,
                   :content_id, :phone_call, :phone_call_id,
@@ -19,7 +20,7 @@ class Message < ActiveRecord::Base
                   :created_at, # for robot auto-response message
                   :symptom, :symptom_id, :condition, :condition_id,
                   :off_hours, :note, :user_image, :user_image_id,
-                  :user_image_client_guid
+                  :user_image_client_guid, :no_notification
 
   validates :user, :consult, presence: true
   validates :off_hours, inclusion: {in: [true, false]}
@@ -52,7 +53,7 @@ class Message < ActiveRecord::Base
   end
 
   def notify_initiator
-    return if consult.initiator_id == user_id || note?
+    return if consult.initiator_id == user_id || note? || no_notification
     Notifications::NewMessageJob.create(consult.initiator_id, consult_id)
   end
 
