@@ -405,9 +405,10 @@ class Member < User
 
   def send_state_emails
     if status?(:trial) &&
-       !MemberStateTransition.multiple_exist_for?(member, :trial)
-      Mails::WelcomeToBetterFreeTrialJob.create(member.id)
+       !MemberStateTransition.multiple_exist_for?(member, :trial) &&
+       !@emails_sent
       Mails::MeetYourPhaJob.create(member.id)
+      @emails_sent = true
     end
   end
 

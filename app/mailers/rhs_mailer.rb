@@ -80,7 +80,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
       to: { email: email },
       template: template,
       headers: {
-        'Reply-To' => 'premium@getbetter.com'
+        'Reply-To' => "#{user.pha.full_name} <premium@getbetter.com>"
       }
     )
   end
@@ -155,7 +155,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
       to: { email: spc.user.email },
       template: t,
       headers: {
-        'Reply-To' => 'premium@getbetter.com'
+        'Reply-To' => "#{spc.owner.full_name} <premium@getbetter.com>"
       },
       vars: {
         FNAME: spc.user.salutation,
