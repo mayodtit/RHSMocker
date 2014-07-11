@@ -7,8 +7,11 @@ class MessageTemplate < ActiveRecord::Base
   validates :name, :text, presence: true
   validates :name, uniqueness: true
 
-  def create_message(sender, consult)
-    Message.create user: sender, consult: consult, text: self.class.formatted_text(sender, consult, text)
+  def create_message(sender, consult, no_notification=false)
+    Message.create user: sender,
+                   consult: consult,
+                   text: self.class.formatted_text(sender, consult, text),
+                   no_notification: no_notification
   end
 
   def create_scheduled_message(sender, consult, publish_at)
