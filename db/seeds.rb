@@ -23,3 +23,7 @@ end
 if ENV['seed_symptoms']
   Rake::Task["admin:import_symptoms"].execute
 end
+
+if ENV['seed_metadata']
+  load File.join(Rails.root, 'db', 'seeds', 'metadata.rb')
+end
