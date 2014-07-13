@@ -27,3 +27,7 @@ end
 if ENV['seed_metadata'] || ENV['seed_all']
   load File.join(Rails.root, 'db', 'seeds', 'metadata.rb')
 end
+
+if ENV['seed_onboarding'] || ENV['seed_all']
+  load File.join(Rails.root, 'db', 'seeds', 'onboarding.rb')
+end
