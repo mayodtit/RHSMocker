@@ -44,23 +44,34 @@ FactoryGirl.define do
         sequence(:stripe_customer_id) {|n| "cus_#{n}"}
       end
 
-      factory :admin do
+      trait :admin_role do
         after(:create) {|user| user.add_role(:admin)}
       end
+      factory :admin, traits: %i(admin_role)
 
-      factory :nurse do
+      trait :nurse_role do
         work_phone_number '4083913578'
         after(:create) {|user| user.add_role(:nurse)}
       end
+      factory :nurse, traits: %i(nurse_role)
 
-      factory :pha do
+      trait :pha_role do
         work_phone_number '5552223333'
         after(:create) {|user| user.add_role(:pha)}
       end
+      factory :pha, traits: %i(pha_role)
 
-      factory :pha_lead do
+      trait :pha_lead_role do
         work_phone_number '4153333333'
         after(:create) {|user| user.add_role(:pha_lead)}
+      end
+      factory :pha_lead, traits: %i(pha_lead_role)
+
+      factory :kyle, traits: %i(chamath) do
+        first_name 'Kyle'
+        last_name 'Chilcutt'
+        email 'kyle@getbetter.com'
+        password 'password'
       end
     end
   end
