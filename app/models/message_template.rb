@@ -8,10 +8,10 @@ class MessageTemplate < ActiveRecord::Base
   validates :name, uniqueness: true
 
   def create_message(sender, consult, no_notification=false)
-    Message.create user: sender,
+    Message.create(user: sender,
                    consult: consult,
                    text: self.class.formatted_text(sender, consult, text),
-                   no_notification: no_notification
+                   no_notification: no_notification)
   end
 
   def create_scheduled_message(sender, consult, publish_at)
@@ -21,6 +21,23 @@ class MessageTemplate < ActiveRecord::Base
                             text: text)
   end
 
+  def self.can_format_text?(sender, consult, text)
+    unless consult.initiator.salutation.present? && sender.first_name.present?
+      return false
+    end
+    text.gsub(/\*\|.*?\|\*/) do |ftext|
+      case ftext
+      when '*|member_first_name|*'
+        consult.initiator.salutation
+      when '*|sender_first_name|*'
+        sender.first_name
+      else
+        return false
+      end
+    end
+    true
+  end
+
   def self.formatted_text(sender, consult, text)
     unless consult.initiator.salutation.present? && sender.first_name.present?
       raise 'All merge tags not defined, aborting...'
@@ -28,12 +45,12 @@ class MessageTemplate < ActiveRecord::Base
 
     text.gsub(/\*\|.*?\|\*/) do |ftext|
       case ftext
-        when '*|member_first_name|*'
-          consult.initiator.salutation
-        when '*|sender_first_name|*'
-          sender.first_name
-        else
-          raise 'All merge tags not replaced, abort abort.'
+      when '*|member_first_name|*'
+        consult.initiator.salutation
+      when '*|sender_first_name|*'
+        sender.first_name
+      else
+        raise 'All merge tags not replaced, abort abort.'
       end
     end
   end
