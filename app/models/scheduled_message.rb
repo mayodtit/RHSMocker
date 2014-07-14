@@ -24,6 +24,10 @@ class ScheduledMessage < ActiveRecord::Base
     MessageTemplate.formatted_text(sender, consult, text)
   end
 
+  def can_send_message?
+    MessageTemplate.can_format_text?(sender, consult, text)
+  end
+
   protected
 
   def sent_at_is_nil
@@ -43,19 +47,20 @@ class ScheduledMessage < ActiveRecord::Base
     end
 
     event :send_message do
-      transition %i(scheduled held) => :sent
+      transition %i(scheduled held) => :sent, if: ->(m){m.can_send_message?}
+      transition %i(scheduled held) => :failed
     end
 
     event :hold do
-      transition :scheduled => :held
+      transition %i(scheduled failed) => :held
     end
 
     event :resume do
-      transition :held => :scheduled
+      transition %i(held failed) => :scheduled
     end
 
     event :cancel do
-      transition %i(scheduled held) => :canceled
+      transition %i(scheduled held failed) => :canceled
     end
 
     before_transition any => :sent do |message, transition|
