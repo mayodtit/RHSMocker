@@ -46,7 +46,7 @@ class Card < ActiveRecord::Base
     if resource_type == 'Consult'
       self.priority ||= 10
     elsif resource_type == 'CustomCard'
-      self.priority = resource.priority
+      self.priority ||= resource.priority
     else
       self.priority ||= 0
     end
