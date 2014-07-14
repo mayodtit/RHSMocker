@@ -206,7 +206,7 @@ describe ScheduledPhoneCall do
         member.stub(:master_consult) { consult }
         mt = build :message_template
         MessageTemplate.stub(:find_by_name).with('Confirm Welcome Call') { mt }
-        mt.should_receive(:create_message).with(pha, consult)
+        mt.should_receive(:create_message).with(pha, consult, true)
         expect(book).to be_true
       end
 
