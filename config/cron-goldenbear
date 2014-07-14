@@ -4,7 +4,7 @@
 
 # devhosted
 20 12 * * * cd /home/rhs/rails/current ; RAILS_ENV=devhosted bundle exec rake about > log/cron.log 2>&1
-*/5 * * * * cd /home/rhs/rails/current ; RAILS_ENV=devhosted bundle exec rake scheduled:transition_scheduled_messages > log/cron.log 2>&1
+* * * * * cd /home/rhs/rails/current ; RAILS_ENV=devhosted bundle exec rake scheduled:transition_scheduled_messages > log/cron.log 2>&1
 0 10 * * * cd /home/rhs/rails/current ; RAILS_ENV=devhosted bundle exec rake scheduled:send_referral_card > log/cron.log 2>&1
 0 10 * * * cd /home/rhs/rails/current ; RAILS_ENV=devhosted bundle exec rake scheduled:push_content > log/cron.log 2>&1
 0 * * * * cd /home/rhs/rails/current ; RAILS_ENV=devhosted bundle exec rake scheduled:offboard_free_trial_members > log/cron.log 2>&1
@@ -12,7 +12,7 @@
 # qa
 0 * * * * cd /home/rhs/qa/current ; RAILS_ENV=qa bundle exec rake scheduled:unforce_phas_off_call > log/cron.log 2>&1
 0 */3 * * * cd /home/rhs/qa/current ; RAILS_ENV=qa bundle exec rake scheduled:alert_stakeholders_when_phas_forced_off_call > log/cron.log 2>&1
-*/5 * * * * cd /home/rhs/qa/current ; RAILS_ENV=qa bundle exec rake scheduled:transition_scheduled_messages > log/cron.log 2>&1
+* * * * * cd /home/rhs/qa/current ; RAILS_ENV=qa bundle exec rake scheduled:transition_scheduled_messages > log/cron.log 2>&1
 0 10 * * * cd /home/rhs/qa/current ; RAILS_ENV=qa bundle exec rake scheduled:send_referral_card > log/cron.log 2>&1
 0 10 * * * cd /home/rhs/qa/current ; RAILS_ENV=qa bundle exec rake scheduled:push_content > log/cron.log 2>&1
 0 * * * * cd /home/rhs/qa/current ; RAILS_ENV=qa bundle exec rake scheduled:offboard_free_trial_members > log/cron.log 2>&1
