@@ -14,7 +14,8 @@ class Notifications::NewMessageJob < Struct.new(:user_id, :consult_id)
       APNS.send_notification(user.apns_token, alert: 'You have a new message from a Personal Health Assistant.',
                                               badge: 1,
                                               sound: :default,
-                                              other: {badges: {your_pha: 1}})
+                                              other: {aps: {badge: 1,
+                                                            badges: {your_pha: 1}}})
     end
   end
 
