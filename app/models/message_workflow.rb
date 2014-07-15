@@ -16,7 +16,7 @@ class MessageWorkflow < ActiveRecord::Base
       ScheduledMessage.create!(sender: member.pha,
                                consult: member.master_consult,
                                text: mwt.message_template.text,
-                               publish_at: initial_time + mwt.days_delayed.days)
+                               publish_at: initial_time + mwt.days_delayed.days.to_i)
     end
   end
 
