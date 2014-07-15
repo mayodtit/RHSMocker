@@ -51,45 +51,46 @@ describe MessageTemplate do
   end
 
   describe '#formatted_text' do
-    let(:consult) { build :consult }
-    let(:sender) { build :pha }
+    let!(:sender) { build :pha, first_name: 'Kevin' }
+    let!(:member) { build :member, :premium, pha: sender }
+    let!(:consult) { build :consult, initiator: member, subject: member }
 
-    before do
-      sender.stub(:first_name) { 'Kevin' }
-    end
-
-    it 'replaces member_first_name' do
-      MessageTemplate.formatted_text(sender, consult, 'Hello *|member_first_name|*').should == "Hello #{consult.initiator.salutation}"
-    end
-
-    it 'replaces sender_first_name' do
-      MessageTemplate.formatted_text(sender, consult, 'I am *|sender_first_name|*.').should == 'I am Kevin.'
-    end
-
-    context 'merge tags not defined' do
-      context 'initiator is missing' do
-        before do
-          consult.initiator.stub(:salutation) { '' }
-        end
-
-        it 'raises an error' do
-          expect { MessageTemplate.formatted_text(sender, consult, 'Hello') }.to raise_error(RuntimeError)
-        end
+    describe '*|member_first_name|*' do
+      it 'replaces member_first_name' do
+        expect(described_class.formatted_text(sender, consult, 'Hello *|member_first_name|*')).to eq("Hello #{consult.initiator.salutation}")
       end
 
-      context 'sender first name is missing' do
-        before do
-          sender.stub(:first_name) { '' }
-        end
+      it 'raises an error if the salutation is not present' do
+        consult.initiator.stub(salutation: nil)
+        expect{ described_class.formatted_text(sender, consult, 'Hello *|member_first_name|*') }.to raise_error(RuntimeError)
+      end
+    end
 
-        it 'raises an error' do
-          expect { MessageTemplate.formatted_text(sender, consult, 'Hello') }.to raise_error(RuntimeError)
-        end
+    describe '*|sender_first_name|*' do
+      it 'replaces sender_first_name' do
+        expect(described_class.formatted_text(sender, consult, 'I am *|sender_first_name|*.')).to eq('I am Kevin.')
+      end
+
+      it 'raises an error if the sender first name is not present' do
+        sender.update_attributes(first_name: '')
+        expect{ described_class.formatted_text(sender, consult, 'Hello *|sender_first_name|*') }.to raise_error(RuntimeError)
+      end
+    end
+
+    describe '*|pha_first_name|*' do
+
+      it 'replaces pha_first_name' do
+        expect(described_class.formatted_text(sender, consult, 'Hello *|pha_first_name|*')).to eq("Hello #{sender.first_name}")
+      end
+
+      it 'raises an error if the salutation is not present' do
+        sender.update_attributes(first_name: '')
+        expect{ described_class.formatted_text(sender, consult, 'Hello *|pha_first_name|*') }.to raise_error(RuntimeError)
       end
     end
 
     it 'raises an error when merge tags are not replaced' do
-      expect { MessageTemplate.formatted_text(sender, consult, 'Hello *|member_first_name|*, I am *|sender_first_name|*. You *|test|*') }.to raise_error(RuntimeError)
+      expect{ MessageTemplate.formatted_text(sender, consult, 'Hello *|member_first_name|*, I am *|sender_first_name|*. You *|test|*') }.to raise_error(RuntimeError)
     end
   end
 end

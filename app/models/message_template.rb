@@ -7,11 +7,12 @@ class MessageTemplate < ActiveRecord::Base
   validates :name, :text, presence: true
   validates :name, uniqueness: true
 
-  def create_message(sender, consult, no_notification=false)
+  def create_message(sender, consult, no_notification=false, system_message=false)
     Message.create(user: sender,
                    consult: consult,
                    text: self.class.formatted_text(sender, consult, text),
-                   no_notification: no_notification)
+                   no_notification: no_notification,
+                   off_hours: system_message)
   end
 
   def create_scheduled_message(sender, consult, publish_at)
@@ -22,15 +23,13 @@ class MessageTemplate < ActiveRecord::Base
   end
 
   def self.can_format_text?(sender, consult, text)
-    unless consult.initiator.salutation.present? && sender.first_name.present?
-      return false
-    end
     text.gsub(/\*\|.*?\|\*/) do |ftext|
-      case ftext
-      when '*|member_first_name|*'
+      if ftext == '*|member_first_name|*' && consult.initiator.salutation.present?
         consult.initiator.salutation
-      when '*|sender_first_name|*'
+      elsif ftext == '*|sender_first_name|*' && sender.first_name.present?
         sender.first_name
+      elsif ftext == '*|pha_first_name|*' && consult.initiator.try(:pha).try(:first_name).try(:present?)
+        consult.initiator.pha.first_name
       else
         return false
       end
@@ -39,16 +38,13 @@ class MessageTemplate < ActiveRecord::Base
   end
 
   def self.formatted_text(sender, consult, text)
-    unless consult.initiator.salutation.present? && sender.first_name.present?
-      raise 'All merge tags not defined, aborting...'
-    end
-
     text.gsub(/\*\|.*?\|\*/) do |ftext|
-      case ftext
-      when '*|member_first_name|*'
+      if ftext == '*|member_first_name|*' && consult.initiator.salutation.present?
         consult.initiator.salutation
-      when '*|sender_first_name|*'
+      elsif ftext == '*|sender_first_name|*' && sender.first_name.present?
         sender.first_name
+      elsif ftext == '*|pha_first_name|*' && consult.initiator.try(:pha).try(:first_name).try(:present?)
+        consult.initiator.pha.first_name
       else
         raise 'All merge tags not replaced, abort abort.'
       end
