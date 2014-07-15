@@ -2,3 +2,7 @@ GA_TRACKING_ID = ENV['GA_TRACKING_ID']
 
 DEFAULT_EVENT_CATEGORY = 'Better Default Event Category'
 SEARCH_CATEGORY = 'Searches'
+
+# Mixpanel credentials for rhs-test project
+MIXPANEL_TOKEN = '47430962d8f1082d639f8b77cd1f178d'
+MIXPANEL_API_KEY = '6ece0331782ccc06927144a7b139e6e1'
