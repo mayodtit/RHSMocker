@@ -70,7 +70,7 @@ mt.save!
 
 mt = MessageTemplate.find_or_initialize_by_name 'New Premium Member'
 mt.text = <<eof
-Hi *|member_first_name|*, welcome to Better. I’m *|sender_first_name|*, your Personal Health Assistant. I’m here to handle any of your health needs, so you can focus on being well. Let’s get started with a 10-minute call, which you can schedule [here](better://nb?cmd=scheduleCall). If you have any questions or immediate needs, just send me a message.
+Hi *|member_first_name|*, welcome to Better. I’m *|sender_first_name|*, your Personal Health Assistant. I’m here to handle any of your health needs, so you can focus on being well. Let’s get started with a 10-minute call: [schedule here](better://nb?cmd=scheduleCall). If you have any questions or immediate needs, just send me a message.
 eof
 mt.save!
 
