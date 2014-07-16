@@ -63,6 +63,9 @@ GEM
     base32-crockford (0.1.0)
     bcrypt-ruby (3.0.1)
     builder (3.0.4)
+    business_time (0.7.3)
+      activesupport (>= 3.1.0)
+      tzinfo
     byebug (2.7.0)
       columnize (~> 0.3)
       debugger-linecache (~> 1.2)
@@ -363,6 +366,7 @@ DEPENDENCIES
   apns
   awesome_print
   base32-crockford
+  business_time
   byebug
   cancan
   capistrano (~> 2.15)
