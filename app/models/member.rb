@@ -384,12 +384,12 @@ class Member < User
     cards.create(resource: CustomCard.meet_your_pha, priority: 25) if CustomCard.meet_your_pha && pha.present?
     cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
     if @sunscreen_content = Content.find_by_document_id('MY01350')
-      cards.create(resource: @sunscreen_content)
+      cards.create(resource: @sunscreen_content, priority: 1)
     end
     if @happiness_content = Content.find_by_document_id('MY01357')
-      cards.create(resource: @happiness_content)
+      cards.create(resource: @happiness_content, priority: 1)
     end
-    cards.create(resource: CustomCard.swipe_explainer) if CustomCard.swipe_explainer
+    cards.create(resource: CustomCard.swipe_explainer, priority: 0) if CustomCard.swipe_explainer
   end
 
   def add_owned_referral_code
