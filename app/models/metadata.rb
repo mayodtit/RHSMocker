@@ -102,4 +102,8 @@ class Metadata < ActiveRecord::Base
   def self.on_call_queue_only_inbound_and_unassigned?
     Metadata.find_by_mkey('on_call_queue_only_inbound_and_unassigned').try(:mvalue) == 'true'
   end
+
+  def self.automated_onboarding?
+    Metadata.find_by_mkey('automated_onboarding').try(:mvalue) == 'true'
+  end
 end
