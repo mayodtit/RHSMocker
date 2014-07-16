@@ -46,11 +46,11 @@ class RHSMailer < MandrillMailer::TemplateMailer
     )
   end
 
-  PREMIUM_WELCOME_TEMPLATE_CLARE = 'Meet Clare, Your PHA'
-  PREMIUM_WELCOME_TEMPLATE_LAUREN = 'Meet Lauren, Your PHA'
-  PREMIUM_WELCOME_TEMPLATE_MEG = 'Meet Meg, Your PHA'
-  PREMIUM_WELCOME_TEMPLATE_NINETTE = 'Meet Ninette, Your PHA'
-  PREMIUM_WELCOME_TEMPLATE_JENN = 'Meet Jenn, Your PHA'
+  PREMIUM_WELCOME_TEMPLATE_CLARE = 'Meet Clare, Your PHA 7/9/14'
+  PREMIUM_WELCOME_TEMPLATE_LAUREN = 'Meet Lauren, Your PHA 7/9/14'
+  PREMIUM_WELCOME_TEMPLATE_MEG = 'Meet Meg, Your PHA 7/9/14'
+  PREMIUM_WELCOME_TEMPLATE_NINETTE = 'Meet Ninette, Your PHA 7/9/14'
+  PREMIUM_WELCOME_TEMPLATE_JENN = 'Meet Jenn, Your PHA 7/9/14'
 
   def meet_your_pha_email(email)
     user = Member.find_by_email!(email)
@@ -70,8 +70,6 @@ class RHSMailer < MandrillMailer::TemplateMailer
     else
       raise 'Must have PHA to send Meet your PHA'
     end
-
-    template += ' 7/9/14' if Metadata.new_onboarding_flow?
 
     mandrill_mail(
       subject: subject,
@@ -122,30 +120,29 @@ class RHSMailer < MandrillMailer::TemplateMailer
     )
   end
 
+  WELCOME_CALL_CONFIRMATION_CLARE = 'Call Confirmation Clare 7/9/14'
+  WELCOME_CALL_CONFIRMATION_LAUREN = 'Call Confirmation Lauren 7/9/14'
+  WELCOME_CALL_CONFIRMATION_MEG = 'Call Confirmation Meg 7/9/14'
+  WELCOME_CALL_CONFIRMATION_NINETTE = 'Call Confirmation Ninette 7/9/14'
+  WELCOME_CALL_CONFIRMATION_JENN = 'Call Confirmation Jenn 7/9/14'
+
   def scheduled_phone_call_member_confirmation_email(spc_id)
     spc = ScheduledPhoneCall.find(spc_id)
     from_email = spc.owner.email
 
-    template_clare   = 'Call Confirmation Clare'
-    template_lauren  = 'Call Confirmation Lauren'
-    template_meg     = 'Call Confirmation Meg'
-    template_ninette = 'Call Confirmation Ninette'
-    template_jenn    = 'Call Confirmation Jenn'
-
-    if Metadata.new_onboarding_flow?
-      template_clare += ' 7/9/14'
-      template_lauren += ' 7/9/14'
-      template_meg += ' 7/9/14'
-      template_ninette += ' 7/9/14'
-      template_jenn += ' 7/9/14'
-    end
-
     t = case from_email
-          when 'lauren@getbetter.com' then template_lauren
-          when 'meg@getbetter.com' then template_meg
-          when 'ninette@getbetter.com' then template_ninette
-          when 'jenn@getbetter.com' then template_jenn
-          else template_clare
+        when 'clare@getbetter.com'
+          WELCOME_CALL_CONFIRMATION_CLARE
+        when 'lauren@getbetter.com'
+          WELCOME_CALL_CONFIRMATION_LAUREN
+        when 'meg@getbetter.com'
+          WELCOME_CALL_CONFIRMATION_MEG
+        when 'ninette@getbetter.com'
+          WELCOME_CALL_CONFIRMATION_NINETTE
+        when 'jenn@getbetter.com'
+          WELCOME_CALL_CONFIRMATION_JENN
+        else
+          raise 'Must have PHA to send Welcome Call Confirmation'
         end
 
     mandrill_mail(
