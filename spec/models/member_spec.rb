@@ -23,6 +23,7 @@ describe Member do
     it_validates 'foreign key of', :onboarding_group
     it_validates 'foreign key of', :referral_code
     it_validates 'allows blank uniqueness of', :apns_token
+    it_validates 'allows blank uniqueness of', :gcm_id
 
     it 'validates member flag is true' do
       member.stub(:set_member_flag)
@@ -305,6 +306,25 @@ describe Member do
     end
   end
 
+  describe '#store_gcm_id!' do
+    let(:member) { create(:member) }
+    let(:gcm_id) { 'test_gcm_id' }
+
+    it 'saves the token' do
+      member.store_gcm_id!(gcm_id)
+      expect(member.reload.gcm_id).to eq(gcm_id)
+    end
+
+    context 'another member has the token' do
+      let!(:other_member) { create(:member, gcm_id: gcm_id) }
+
+      it "expires the other member's token" do
+        member.store_gcm_id!(gcm_id)
+        expect(member.reload.gcm_id).to eq(gcm_id)
+        expect(other_member.reload.gcm_id).to be_nil
+      end
+    end
+  end
   describe '::phas' do
     let!(:pha) { create(:pha) }
 
