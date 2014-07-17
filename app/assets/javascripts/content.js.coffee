@@ -28,7 +28,7 @@ $ ->
 
   $(".gender").click ->
     NativeBridge.call('setGender', {gender: $(@).data("gender")})
-    NativeBridge.call('saveCard', {id: $(@).data("card-id")})
+    NativeBridge.call('saveCard', {id: $(".card").data("id")})
 
   $(".update-association").click ->
     userId = $(@).data("user-id")

@@ -4,6 +4,7 @@ class Consult < ActiveRecord::Base
   belongs_to :symptom
   has_many :messages, inverse_of: :consult, conditions: { note: false }, order: 'created_at ASC'
   has_many :messages_and_notes, class_name: 'Message', inverse_of: :consult, order: 'created_at ASC'
+  has_many :scheduled_messages
   has_many :users, through: :messages
   has_many :phone_calls, through: :messages
   has_many :scheduled_phone_calls, through: :messages
@@ -47,7 +48,13 @@ class Consult < ActiveRecord::Base
     return if messages.any?
     return unless initiator.signed_up?
     return unless initiator.pha
-    messages.create(user: initiator.pha, text: WELCOME_MESSAGE_TEXT)
+    if Metadata.new_onboarding_flow?
+      mt = MessageTemplate.find_by_name 'New Premium Member'
+      mt.create_message initiator.pha, self, true if mt
+      self.reload
+    else
+      messages.create(user: initiator.pha, text: WELCOME_MESSAGE_TEXT, no_notification: true)
+    end
   end
 
   private

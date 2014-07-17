@@ -26,7 +26,9 @@ describe PhaProfile do
 
     context 'with weekly_capacity' do
       let!(:pha_profile) { create(:pha_profile) }
-      let!(:member) { create(:member, pha: pha_profile.user) }
+      let!(:member) { create(:member, :premium,
+                             pha: pha_profile.user,
+                             signed_up_at: Time.now.pacific.beginning_of_week + 1.minute) }
 
       context 'under capacity' do
         before do

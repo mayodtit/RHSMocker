@@ -51,4 +51,48 @@ class ScheduledJobs
       end
     end
   end
+
+  def self.transition_scheduled_messages
+    ScheduledMessage.held.publish_at_past_time.each do |m|
+      m.cancel!
+    end
+    ScheduledMessage.scheduled.publish_at_past_time.each do |m|
+      m.send_message!
+    end
+  end
+
+  def self.send_referral_card
+    return unless CustomCard.referral
+    Member.where('signed_up_at < ?', Time.now - 5.days).find_each do |m|
+      next if m.cards.where(resource_id: CustomCard.referral.id, resource_type: 'CustomCard').any?
+      m.cards.create(resource: CustomCard.referral)
+    end
+  end
+
+  def self.push_content
+    Member.find_each do |m|
+      count = m.cards.inbox.count
+      next if count >= 5
+      (5 - count).times do
+        content = Content.next_for(m)
+        break unless content
+        m.cards.create(resource: content, user_program: content.user_program)
+      end
+    end
+  end
+
+  def self.offboard_free_trial_members
+    if Metadata.offboard_free_trial_members?
+      Member.where('free_trial_ends_at < ?', Time.now - OffboardMemberTask::OFFBOARDING_WINDOW).each do |member|
+        if member.engaged?
+          t = OffboardMemberTask.create_if_only_within_offboarding_window member
+          if !t || t.valid?
+            Rails.logger.info "Offboarded Member #{member.id}"
+          else
+            Rails.logger.error "Could not create OffboardMemberTask for Member #{member.id}"
+          end
+        end
+      end
+    end
+  end
 end

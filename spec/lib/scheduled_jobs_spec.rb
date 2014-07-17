@@ -11,9 +11,9 @@ describe ScheduledJobs do
 
   describe '#unset_premium_for_expired_subscriptions' do
     it 'should unset premium flag for users with expired subscriptions' do
-      u1 = create(:member, is_premium: true, free_trial_ends_at: 1.day.ago)
-      u2 = create(:member, is_premium: true, free_trial_ends_at: 1.hour.from_now)
-      u3 = create(:member, is_premium: true, free_trial_ends_at: nil)
+      u1 = create(:member, :trial, free_trial_ends_at: 1.day.ago)
+      u2 = create(:member, :trial, free_trial_ends_at: 1.hour.from_now)
+      u3 = create(:member, :premium)
 
       ScheduledJobs.unset_premium_for_expired_subscriptions
       u1.reload.is_premium.should be_false
@@ -174,6 +174,92 @@ describe ScheduledJobs do
       it 'does nothing' do
         TwilioModule.client.account.messages.should_not_receive :create
         ScheduledJobs.alert_stakeholders_when_no_pha_on_call
+      end
+    end
+  end
+
+  describe '#transition_scheduled_messages' do
+    context 'with scheduled message' do
+      let!(:scheduled_message) { create(:scheduled_message, publish_at: Time.now - 1.minute) }
+
+      it 'sends scheduled messages in the past' do
+        expect(scheduled_message.state?(:scheduled)).to be_true
+        described_class.transition_scheduled_messages
+        expect(scheduled_message.reload.state?(:sent)).to be_true
+      end
+    end
+
+    context 'with held message' do
+      let!(:scheduled_message) { create(:scheduled_message, :held, publish_at: Time.now - 1.minute) }
+
+      it 'cancels held messages in the past' do
+        expect(scheduled_message.state?(:held)).to be_true
+        described_class.transition_scheduled_messages
+        expect(scheduled_message.reload.state?(:canceled)).to be_true
+      end
+    end
+  end
+
+  describe '#offboard_free_trial_members' do
+    let(:engaged_member) { build_stubbed :member }
+    let(:unengaged_member) { build_stubbed :member }
+    let(:unengaged_member) { build_stubbed :member }
+    let(:task) { build_stubbed :offboard_member_task }
+
+    before do
+      Metadata.stub(:offboard_free_trial_members?) { true }
+
+      engaged_member.stub(:engaged?) { true }
+      unengaged_member.stub(:engaged?) { false }
+
+      Member.stub(:where).with('free_trial_ends_at < ?', Time.now - 24.hours) { [engaged_member, unengaged_member] }
+
+      OffboardMemberTask.stub(:create) { task }
+      task.stub(:valid?) { true }
+
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
+    it 'iterates through all engaged members who\'s free trial ends in 24 hours or less' do
+      Member.should_receive(:where).with('free_trial_ends_at < ?', Time.now - OffboardMemberTask::OFFBOARDING_WINDOW) do
+        o = Object.new
+        o.should_receive(:each)
+        o
+      end
+      ScheduledJobs.offboard_free_trial_members
+    end
+
+    context 'member is engaged' do
+      it 'creates on offboarding task' do
+        OffboardMemberTask.stub(:create_if_only_within_offboarding_window).with(engaged_member) { task }
+        ScheduledJobs.offboard_free_trial_members
+      end
+
+      context 'offboarding task errors out' do
+        before do
+          OffboardMemberTask.stub(:create_if_only_within_offboarding_window).with(engaged_member) { task }
+          task.stub(:valid?) { false }
+        end
+
+        it 'logs an error' do
+          Rails.stub(:logger) do
+            o = Object.new
+            o.should_receive(:error)
+            o
+          end
+          ScheduledJobs.offboard_free_trial_members
+        end
+      end
+    end
+
+    context 'member is not engaged' do
+      it 'does nothing' do
+        OffboardMemberTask.should_not_receive(:create_if_only_within_offboarding_window).with(unengaged_member)
+        ScheduledJobs.offboard_free_trial_members
       end
     end
   end

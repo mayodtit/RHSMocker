@@ -59,7 +59,11 @@ Metadata dynamically controls variables and features in the API without needing 
 | *direct_nurse_phone_number* | ##########             | Direct number to nurseline (does not route through Twilio) |
 | *pha_phone_number*          | ##########             | Phone number client and API uses to dial PHAs |
 | *use_pub_sub*               | true/false             | When "true", turns on publishing messages to rhs_pub_sub server |
+| *force_phas_off_call*       | true/false             | When "true", phas are set off call regardless of time. Resets to "false" the following day and continually texts PHA stakeholders while "true" |
 | *force_phas_off_call*       | true/false             | When "true", phas are set off call regardless of time. Only works in non-production environments |
+| *offboard_free_trial_members* | true/false           | When "true", starts the offboarding flow for free trial members (as of now only "engaged") |
+| *new_onboarding_flow*       | true/false             | Activates the new onboarding flow which can be viewed here [here](https://www.lucidchart.com/documents/view/368a98b2-8585-41d3-8574-fa4559cfba9b/0) |
+
 
 ## Development
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140626134341) do
+ActiveRecord::Schema.define(:version => 20140709193032) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -317,6 +317,19 @@ ActiveRecord::Schema.define(:version => 20140626134341) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "member_state_transitions", :force => true do |t|
+    t.integer  "member_id"
+    t.integer  "actor_id"
+    t.string   "event"
+    t.string   "from"
+    t.string   "to"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.datetime "free_trial_ends_at"
+  end
+
+  add_index "member_state_transitions", ["member_id"], :name => "index_member_state_transitions_on_member_id"
+
   create_table "message_statuses", :force => true do |t|
     t.integer  "message_id"
     t.integer  "user_id"
@@ -327,6 +340,27 @@ ActiveRecord::Schema.define(:version => 20140626134341) do
 
   add_index "message_statuses", ["message_id"], :name => "index_message_statuses_on_message_id"
   add_index "message_statuses", ["user_id"], :name => "index_message_statuses_on_user_id"
+
+  create_table "message_templates", :force => true do |t|
+    t.string   "name"
+    t.text     "text"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "message_workflow_templates", :force => true do |t|
+    t.integer  "message_workflow_id"
+    t.integer  "message_template_id"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+    t.integer  "days_delayed"
+  end
+
+  create_table "message_workflows", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "messages", :force => true do |t|
     t.text     "text"
@@ -484,13 +518,6 @@ ActiveRecord::Schema.define(:version => 20140626134341) do
     t.datetime "updated_at",  :null => false
   end
 
-  create_table "questions", :force => true do |t|
-    t.string   "title"
-    t.string   "view"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
   create_table "referral_codes", :force => true do |t|
     t.string   "name"
     t.string   "code"
@@ -518,6 +545,18 @@ ActiveRecord::Schema.define(:version => 20140626134341) do
 
   add_index "roles", ["name", "resource_type", "resource_id"], :name => "index_roles_on_name_and_resource_type_and_resource_id"
   add_index "roles", ["name"], :name => "index_roles_on_name"
+
+  create_table "scheduled_messages", :force => true do |t|
+    t.integer  "sender_id"
+    t.integer  "consult_id"
+    t.integer  "message_id"
+    t.text     "text"
+    t.string   "state"
+    t.datetime "publish_at"
+    t.datetime "sent_at"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "scheduled_phone_calls", :force => true do |t|
     t.integer  "user_id"
@@ -914,16 +953,14 @@ ActiveRecord::Schema.define(:version => 20140626134341) do
     t.integer  "owner_id"
     t.integer  "pha_id"
     t.string   "apns_token"
-    t.boolean  "is_premium",                                    :default => false
     t.datetime "free_trial_ends_at"
     t.datetime "last_contact_at"
     t.datetime "signed_up_at"
     t.datetime "subscription_ends_at"
-    t.boolean  "test_user",                                     :default => false, :null => false
-    t.boolean  "marked_for_deletion",                           :default => false, :null => false
     t.integer  "onboarding_group_id"
     t.integer  "referral_code_id"
     t.boolean  "on_call",                                       :default => false
+    t.string   "status"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
@@ -933,22 +970,6 @@ ActiveRecord::Schema.define(:version => 20140626134341) do
   add_index "users", ["type", "last_contact_at"], :name => "index_users_on_type_and_last_contact_at"
   add_index "users", ["type", "pha_id", "last_contact_at"], :name => "index_users_on_type_and_pha_id_and_last_contact_at"
   add_index "users", ["type", "signed_up_at"], :name => "index_users_on_type_and_signed_up_at"
-
-  create_table "waitlist_entries", :force => true do |t|
-    t.string   "email"
-    t.datetime "created_at",                      :null => false
-    t.datetime "updated_at",                      :null => false
-    t.string   "token"
-    t.string   "state"
-    t.datetime "invited_at"
-    t.datetime "claimed_at"
-    t.integer  "claimer_id"
-    t.integer  "creator_id"
-    t.integer  "feature_group_id"
-    t.integer  "revoker_id"
-    t.datetime "revoked_at"
-    t.integer  "lock_version",     :default => 0, :null => false
-  end
 
   create_table "weights", :force => true do |t|
     t.integer  "user_id"

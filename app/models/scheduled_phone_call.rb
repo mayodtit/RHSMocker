@@ -32,12 +32,12 @@ class ScheduledPhoneCall < ActiveRecord::Base
 
   after_create :if_assigned_notify_owner
   after_save :set_user_phone_if_missing
+  after_save :hold_scheduled_messages
 
   def user_confirmation_calendar_event
-    # TODO: Copy needs to be updated
     RiCal.Event do |event|
-      event.summary = 'Welcome call with Better'
-      event.description = 'Your Personal Health Assistant will call you at this time.'
+      event.summary = "Your call with #{user.pha.full_name}"
+      event.description = "#{user.pha.full_name} will call you at #{callback_phone_number}."
       event.dtstart = scheduled_at
       event.dtend = scheduled_at + scheduled_duration
       event.location = callback_phone_number || user.phone || 'Call'
@@ -116,6 +116,14 @@ Prep:
     end
   end
 
+  def hold_scheduled_messages
+    if user.try(:master_consult)
+      user.master_consult.scheduled_messages.scheduled.each do |m|
+        m.hold!
+      end
+    end
+  end
+
   private
 
   def if_assigned_notify_owner
@@ -160,6 +168,10 @@ Prep:
     after_transition [:booked, :assigned] => :booked do |scheduled_phone_call|
       scheduled_phone_call.notify_user_confirming_call
       scheduled_phone_call.notify_owner_confirming_call
+      if Metadata.new_onboarding_flow?
+        mt = MessageTemplate.find_by_name 'Confirm Welcome Call'
+        mt.create_message(scheduled_phone_call.user.pha, scheduled_phone_call.user.master_consult, true, true) if mt
+      end
     end
 
     before_transition any => :started do |scheduled_phone_call|

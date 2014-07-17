@@ -9,37 +9,69 @@ FactoryGirl.define do
       sequence(:install_id) { |n| "Install-ID-#{n}" }
       sequence(:email)    { |n| "user#{n}@test.com" }
       password              "password"
-      password_confirmation "password"
       member_flag true
-      test_user false
-      marked_for_deletion false
       owner nil
+      status 'free'
+
+      trait :invited do
+        status 'invited'
+        sequence(:invitation_token) {|n| "INVITATION-TOKEN-#{n}"}
+        password nil
+      end
+
+      trait :free do
+        status 'free'
+        signed_up_at Time.now
+      end
+
+      trait :trial do
+        status 'trial'
+        signed_up_at Time.now
+        free_trial_ends_at Time.now + 2.weeks
+      end
 
       trait :premium do
-        is_premium true
+        status 'premium'
+        signed_up_at Time.now
+      end
+
+      trait :chamath do
+        status 'chamath'
+        signed_up_at Time.now
       end
 
       trait :with_stripe_customer_id do
         sequence(:stripe_customer_id) {|n| "cus_#{n}"}
       end
 
-      factory :admin do
+      trait :admin_role do
         after(:create) {|user| user.add_role(:admin)}
       end
+      factory :admin, traits: %i(admin_role)
 
-      factory :nurse do
+      trait :nurse_role do
         work_phone_number '4083913578'
         after(:create) {|user| user.add_role(:nurse)}
       end
+      factory :nurse, traits: %i(nurse_role)
 
-      factory :pha do
+      trait :pha_role do
         work_phone_number '5552223333'
         after(:create) {|user| user.add_role(:pha)}
       end
+      factory :pha, traits: %i(pha_role)
 
-      factory :pha_lead do
+      trait :pha_lead_role do
         work_phone_number '4153333333'
         after(:create) {|user| user.add_role(:pha_lead)}
+      end
+      factory :pha_lead, traits: %i(pha_lead_role)
+
+      factory :kyle, traits: %i(chamath) do
+        first_name 'Kyle'
+        last_name 'Chilcutt'
+        email 'kyle@getbetter.com'
+        password 'password'
       end
     end
   end

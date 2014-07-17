@@ -50,7 +50,6 @@ gem 'codeclimate-test-reporter', group: :test, require: nil    # test coverage f
 gem 'raddocs', :git => 'git://github.com/chilcutt/raddocs.git' # gem for parsing API documentation JSON
 
 gem 'jquery-rails'
-gem 'pusher'
 gem 'factual-api'
 
 #SOLR Support
@@ -94,3 +93,4 @@ gem 'mandrill_mailer'           # for integration with MailChimp templates
 gem 'apns'
 gem 'base32-crockford'
 gem 'state_machine-audit_trail'
+gem 'business_time'

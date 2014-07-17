@@ -5,7 +5,6 @@ describe Card do
   it_has_a 'valid factory', :saved
   it_has_a 'valid factory', :dismissed
   it_has_a 'valid factory', :content_card
-  it_has_a 'valid factory', :question_card
   it_has_a 'valid factory', :consult_card
   it_has_a 'valid factory', :consult_card_with_messages
   it_has_a 'valid factory', :custom
