@@ -2,7 +2,8 @@ class MessageSerializer < ActiveModel::Serializer
   self.root = false
 
   attributes :id, :text, :created_at, :consult_id, :title, :image_url, :type,
-             :content_id, :symptom_id, :condition_id, :note, :user_image_id
+             :content_id, :symptom_id, :condition_id, :note, :user_image_id,
+             :contents
 
   has_one :user
   has_one :phone_call
@@ -34,5 +35,39 @@ class MessageSerializer < ActiveModel::Serializer
     else
       :user
     end
+  end
+
+  def contents
+    if object.content
+      [
+        {
+          id: object.content.id,
+          title: object.content.title,
+          image_url: root_url + mayo_logo_asset_path
+        }
+      ]
+    else
+      []
+    end
+  end
+
+  def root_url
+    if protocol.present? && host.present?
+      protocol + '://' + host
+    else
+      ''
+    end
+  end
+
+  def protocol
+    Rails.application.routes.default_url_options[:protocol]
+  end
+
+  def host
+    Rails.application.routes.default_url_options[:host]
+  end
+
+  def mayo_logo_asset_path
+    ActionController::Base.helpers.asset_path('content_from_mayo_logo.png')
   end
 end
