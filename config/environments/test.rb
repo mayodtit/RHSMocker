@@ -40,6 +40,7 @@ RHSMocker::Application.configure do
   config.active_support.deprecation = :stderr
 
   config.after_initialize do
+    Rails.application.routes.default_url_options[:protocol] = 'http'
     Rails.application.routes.default_url_options[:host] = 'localhost'
   end
 end

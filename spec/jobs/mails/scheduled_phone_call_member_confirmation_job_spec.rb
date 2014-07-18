@@ -1,9 +1,9 @@
 require 'spec_helper'
 
 describe Mails::ScheduledPhoneCallMemberConfirmationJob do
-  let!(:pha) { create :pha }
+  let!(:pha) { create :pha, email: 'clare@getbetter.com' }
   let!(:user) { create :member, pha: pha }
-  let!(:scheduled_phone_call) { create(:scheduled_phone_call, :booked, user: user ) }
+  let!(:scheduled_phone_call) { create(:scheduled_phone_call, :booked, user: user, owner: pha ) }
 
   before do
     Timecop.freeze(Date.today.to_time)

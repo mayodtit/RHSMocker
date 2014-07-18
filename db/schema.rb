@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140709193032) do
+ActiveRecord::Schema.define(:version => 20140716231836) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -738,10 +738,10 @@ ActiveRecord::Schema.define(:version => 20140709193032) do
     t.integer  "parsed_nurseline_record_id"
     t.integer  "service_type_id"
     t.integer  "priority",                   :default => 0, :null => false
-    t.integer  "user_request_id"
     t.integer  "service_id"
     t.integer  "service_ordinal"
     t.integer  "task_template_id"
+    t.integer  "user_request_id"
   end
 
   add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"
@@ -961,6 +961,7 @@ ActiveRecord::Schema.define(:version => 20140709193032) do
     t.integer  "referral_code_id"
     t.boolean  "on_call",                                       :default => false
     t.string   "status"
+    t.string   "gcm_id"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true

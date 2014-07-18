@@ -16,6 +16,10 @@ class Notifications::NewMessageJob < Struct.new(:user_id, :consult_id)
                                               sound: :default,
                                               other: {badges: {your_pha: 1}})
     end
+
+    if user.gcm_id
+      GCM.alert_new_message(user.gcm_id)
+    end
   end
 
   def queue_name

@@ -1,6 +1,7 @@
 class Api::V1::PingController < Api::V1::ABaseController
   skip_before_filter :authentication_check, :unless => lambda{ params[:auth_token] }
   after_filter :store_apns_token!, if: -> { params[:auth_token] }
+  after_filter :store_gcm_id!, if: -> { params[:auth_token] }
 
   def index
     hash = { revision: REVISION, use_invite_flow: Metadata.use_invite_flow?, enable_sharing: Metadata.enable_sharing? }
@@ -27,5 +28,9 @@ class Api::V1::PingController < Api::V1::ABaseController
 
   def store_apns_token!
     current_user.store_apns_token!(params[:device_token]) if params[:device_token]
+  end
+
+  def store_gcm_id!
+    current_user.store_gcm_id!(params[:android_gcm_id]) if params[:android_gcm_id]
   end
 end

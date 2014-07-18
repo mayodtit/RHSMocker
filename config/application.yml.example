@@ -1,4 +1,5 @@
 development:
+  GCM_KEY: AIzaSyAkGLtzj-ecM3Nkhw6t6LlyQkSZwo_H2EI
   NOD_API_KEY: ukWpqVwGyS7Aq3USxYEK
   STRIPE_API_KEY: sk_test_sozodqhf3PL25boLKYlBWWzX
   STRIPE_PUBLIC_KEY: pk_test_KFkJ0eRff3PMczxCVA4ErzYc
@@ -22,6 +23,7 @@ development:
   TWILIO_SID: AC6d4428ae25debbd4019f1ebe19c27f77
   TWILIO_TOKEN: d198bff8b6329cd6110c6dc2fb58cd2b
 test:
+  GCM_KEY: AIzaSyAkGLtzj-ecM3Nkhw6t6LlyQkSZwo_H2EI
   NOD_API_KEY: ukWpqVwGyS7Aq3USxYEK
   STRIPE_API_KEY: sk_test_sozodqhf3PL25boLKYlBWWzX
   STRIPE_PUBLIC_KEY: pk_test_KFkJ0eRff3PMczxCVA4ErzYc
