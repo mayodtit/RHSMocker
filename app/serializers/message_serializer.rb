@@ -68,6 +68,6 @@ class MessageSerializer < ActiveModel::Serializer
   end
 
   def mayo_logo_asset_path
-    ActionController::Base.helpers.asset_path('content_from_mayo_logo.png')
+    ActionController::Base.helpers.asset_path('mayologo_card_@2x.png')
   end
 end
