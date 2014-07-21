@@ -23,10 +23,14 @@ describe Consult do
         let!(:pha) { create(:pha).tap{|p| p.create_pha_profile} }
         let!(:member) { create(:member, :premium, pha: pha, signed_up_at: Time.now) }
         let(:consult) { create(:consult, initiator: member) }
+        let(:message_template) { create :message_template }
 
-        it 'creates an initial message' do
-          expect(consult.messages.count).to eq(1)
-          expect(consult.messages.first.text).to eq(Consult::WELCOME_MESSAGE_TEXT)
+        it 'creates a message from a template' do
+          MessageTemplate.stub(:find_by_name).with('New Premium Member OLD') { message_template }
+          message_template.should_receive(:create_message).and_call_original
+          consult = create :consult, initiator: member
+          consult.reload
+          consult.messages.count.should == 1
         end
 
         it 'does not attach a message if there is already a message' do
@@ -53,7 +57,6 @@ describe Consult do
             consult = create :consult, initiator: member
             consult.reload
             consult.messages.count.should == 1
-            consult.messages.first.text.should_not == Consult::WELCOME_MESSAGE_TEXT
           end
         end
       end
