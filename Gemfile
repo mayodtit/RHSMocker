@@ -14,6 +14,9 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 # Site monitoring
 gem 'fitter-happier'
 
+# Mixpanel tracking
+gem 'mixpanel-ruby'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

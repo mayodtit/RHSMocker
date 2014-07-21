@@ -408,8 +408,10 @@ class Member < User
   end
 
   def add_automated_onboarding_message_workflow
-    if Metadata.automated_onboarding? && master_consult.try(:scheduled_messages).try(:empty?)
+    if Metadata.automated_onboarding? && Metadata.new_onboarding_flow? && master_consult.try(:scheduled_messages).try(:empty?)
       MessageWorkflow.automated_onboarding.try(:add_to_member, self)
+    elsif Metadata.automated_onboarding? && master_consult.try(:scheduled_messages).try(:empty?)
+      MessageWorkflow.automated_onboarding_old.try(:add_to_member, self)
     end
   end
 

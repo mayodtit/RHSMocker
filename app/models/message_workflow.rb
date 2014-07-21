@@ -10,6 +10,10 @@ class MessageWorkflow < ActiveRecord::Base
     @automated_onboarding ||= find_by_name('Automated Onboarding')
   end
 
+  def self.automated_onboarding_old
+    @automated_onboarding_old ||= find_by_name('Automated Onboarding OLD')
+  end
+
   def add_to_member(member)
     initial_time = relative_time
     message_workflow_templates.each do |mwt|

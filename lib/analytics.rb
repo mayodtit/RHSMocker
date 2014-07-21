@@ -24,6 +24,22 @@ class Analytics
     end
     handle_asynchronously :log_remote_event
 
+    def log_mixpanel(remote_event_id)
+      remote_event = RemoteEvent.find(remote_event_id)
+      user = remote_event.user || User.find_by_auth_token(remote_event.data_json['auth_token'])
+
+      # skip if no user found
+      return if user.nil?
+
+      tracker = Mixpanel::Tracker.new(MIXPANEL_TOKEN)
+
+      remote_event.events.each do |e|
+        hash = { time: e['created_at'] }
+        tracker.import(MIXPANEL_API_KEY, user.google_analytics_uuid, e['name'], hash)
+      end
+    end
+    handle_asynchronously :log_mixpanel
+
     def log_started_symptoms_checker(user_ga_uuid)
       LogAnalyticsJob.new(user_ga_uuid, 'started_symptom_checker', get_latest_build_and_os(user_ga_uuid)).log_ga
     end

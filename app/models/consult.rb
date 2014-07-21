@@ -39,11 +39,6 @@ class Consult < ActiveRecord::Base
     return if id_changed?
   end
 
-  WELCOME_MESSAGE_TEXT = "Welcome to Better. As your PHA, the first thing "\
-    "I’d like to help you do is get in touch with me. Tap on my photo to "\
-    "read my bio, tap on the phone above to call or just start typing to "\
-    "send a message. Try it now; just say hello."
-
   def send_initial_message
     return if messages.any?
     return unless initiator.signed_up?
@@ -53,7 +48,9 @@ class Consult < ActiveRecord::Base
       mt.create_message initiator.pha, self, true if mt
       self.reload
     else
-      messages.create(user: initiator.pha, text: WELCOME_MESSAGE_TEXT, no_notification: true)
+      mt = MessageTemplate.find_by_name 'New Premium Member OLD'
+      mt.create_message initiator.pha, self, true if mt
+      self.reload
     end
   end
 

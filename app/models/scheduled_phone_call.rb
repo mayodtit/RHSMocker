@@ -171,6 +171,9 @@ Prep:
       if Metadata.new_onboarding_flow?
         mt = MessageTemplate.find_by_name 'Confirm Welcome Call'
         mt.create_message(scheduled_phone_call.user.pha, scheduled_phone_call.user.master_consult, true, true) if mt
+      else
+        mt = MessageTemplate.find_by_name 'Confirm Welcome Call OLD'
+        mt.create_message(scheduled_phone_call.user.pha, scheduled_phone_call.user.master_consult, true, true) if mt
       end
     end
 
