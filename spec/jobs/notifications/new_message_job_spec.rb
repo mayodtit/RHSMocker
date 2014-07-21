@@ -45,5 +45,21 @@ describe Notifications::NewMessageJob do
         described_class.new(user.id, consult.id).perform
       end
     end
+
+    context 'user without gcm_id' do
+      it 'does not call GCM' do
+        GCM.should_not_receive(:alert_new_message)
+        described_class.new(user.id, consult.id).perform
+      end
+    end
+
+    context 'user with gcm_id' do
+      let(:user) { create(:member, gcm_id: 'test_gcm_id') }
+
+      it 'calls GCM' do
+        GCM.should_receive(:alert_new_message)
+        described_class.new(user.id, consult.id).perform
+      end
+    end
   end
 end

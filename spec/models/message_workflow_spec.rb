@@ -1,14 +1,6 @@
 require 'spec_helper'
 
 describe MessageWorkflow do
-  before do
-    Timecop.freeze(Date.today.to_time)
-  end
-
-  after do
-    Timecop.return
-  end
-
   it_has_a 'valid factory'
   it_validates 'presence of', :name
   it_validates 'uniqueness of', :name
@@ -25,7 +17,54 @@ describe MessageWorkflow do
       expect(s.sender).to eq(pha)
       expect(s.consult).to eq(member.master_consult)
       expect(s.text).to eq(message_workflow_template.message_template.text)
-      expect(s.publish_at.pacific.to_date).to eq(Time.now.pacific.to_date + message_workflow_template.days_delayed)
+    end
+
+    context 'on a weekday' do
+      before do
+        Timecop.freeze(Time.new(2014, 7, 17, 0, 0, 0, '-07:00'))
+      end
+
+      after do
+        Timecop.return
+      end
+
+      it 'creates a scheduled message the next business day at 9AM pacific' do
+        expect{ message_workflow.add_to_member(member) }.to change(ScheduledMessage, :count).by(1)
+        s = ScheduledMessage.last
+        expect(s.publish_at).to eq(Time.new(2014, 7, 18, 9, 0, 0, '-07:00'))
+      end
+    end
+
+    context 'on a Friday' do
+      before do
+        Timecop.freeze(Time.new(2014, 7, 18, 0, 0, 0, '-07:00'))
+      end
+
+      after do
+        Timecop.return
+      end
+
+      it 'creates a scheduled message on Monday at 9AM pacific' do
+        expect{ message_workflow.add_to_member(member) }.to change(ScheduledMessage, :count).by(1)
+        s = ScheduledMessage.last
+        expect(s.publish_at).to eq(Time.new(2014, 7, 21, 9, 0, 0, '-07:00'))
+      end
+    end
+
+    context 'on a Sunday' do
+      before do
+        Timecop.freeze(Time.new(2014, 7, 20, 0, 0, 0, '-07:00'))
+      end
+
+      after do
+        Timecop.return
+      end
+
+      it 'creates a scheduled message on Monday at 9AM pacific' do
+        expect{ message_workflow.add_to_member(member) }.to change(ScheduledMessage, :count).by(1)
+        s = ScheduledMessage.last
+        expect(s.publish_at).to eq(Time.new(2014, 7, 21, 9, 0, 0, '-07:00'))
+      end
     end
   end
 end

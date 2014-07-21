@@ -11,7 +11,7 @@ class MessageWorkflow < ActiveRecord::Base
   end
 
   def add_to_member(member)
-    initial_time = nine_oclock_on_date(Time.now.pacific)
+    initial_time = relative_time
     message_workflow_templates.each do |mwt|
       ScheduledMessage.create!(sender: member.pha,
                                consult: member.master_consult,
@@ -21,6 +21,15 @@ class MessageWorkflow < ActiveRecord::Base
   end
 
   private
+
+  def relative_time
+    time = nine_oclock_on_date(Time.now.pacific)
+    if !time.to_date.weekday?
+      1.business_day.after(1.business_day.before(time)) # previous_business_day
+    else
+      time
+    end
+  end
 
   def nine_oclock_on_date(time)
     Time.new(time.year, time.month, time.day, 9, 0, 0, time.strftime('%:z'))

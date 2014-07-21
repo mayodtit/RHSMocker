@@ -64,6 +64,7 @@ RHSMocker::Application.configure do
   config.assets.debug = true
 
   config.after_initialize do
+    Rails.application.routes.default_url_options[:protocol] = 'http'
     Rails.application.routes.default_url_options[:host] = ENV['TWILIO_ENDPOINT_HOST'] || 'localhost:3000'
   end
 

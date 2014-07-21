@@ -59,7 +59,7 @@ class Member < User
                   :onboarding_group, :onboarding_group_id,
                   :referral_code, :referral_code_id, :on_call,
                   :owned_referral_code,
-                  :status, :status_event
+                  :status, :status_event, :gcm_id
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
@@ -77,6 +77,7 @@ class Member < User
                                                   if: ->(m){!skip_agreement_validation && (m.signed_up? || m.password)}
   validate :owner_is_self
   validates :apns_token, uniqueness: true, allow_nil: true
+  validates :gcm_id, uniqueness: true, allow_nil: true
   validates :onboarding_group, presence: true, if: ->(m){m.onboarding_group_id}
   validates :referral_code, presence: true, if: ->(m){m.referral_code_id}
 
@@ -254,6 +255,15 @@ class Member < User
       transaction do
         Member.where(apns_token: token).update_all(apns_token: nil)
         update_attributes!(apns_token: token)
+      end
+    end
+  end
+
+  def store_gcm_id!(new_gcm_id)
+    if gcm_id != new_gcm_id
+      transaction do
+        Member.where(gcm_id: new_gcm_id).update_all(gcm_id: nil)
+        update_attributes!(gcm_id: new_gcm_id)
       end
     end
   end

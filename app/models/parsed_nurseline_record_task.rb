@@ -6,7 +6,8 @@ class ParsedNurselineRecordTask < Task
   attr_accessible :member, :member_id, :parsed_nurseline_record,
                   :parsed_nurseline_record_id
 
-  validates :member, :parsed_nurseline_record, presence: true
+  validates :parsed_nurseline_record, presence: true
+  validates :member, presence: true, if: ->(p){p.member_id}
 
   before_validation :set_owner, on: :create
 end
