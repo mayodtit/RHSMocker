@@ -6,7 +6,7 @@ class OnboardingGroup < ActiveRecord::Base
   belongs_to :provider, class_name: 'User'
 
   attr_accessible :name, :premium, :free_trial_days,
-                  :absolute_free_trial_ends_at
+                  :absolute_free_trial_ends_at, :provider, :provider_id
 
   validates :name, presence: true
   validates :provider, presence: true, if: ->(o){o.provider_id}
