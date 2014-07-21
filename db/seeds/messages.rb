@@ -15,10 +15,10 @@ NEW_PREMIUM_MEMBER_OLD = "Hi *|member_first_name|*, welcome to Better. I'm " +
 MessageTemplate.upsert_attributes({name: 'New Premium Member OLD'},
                                   {text: NEW_PREMIUM_MEMBER_OLD})
 
-CONFIRM_WELCOME_CALL = "Thanks for scheduling your call. We've sent you a " +
-  "confirmation email with a calendar invite. Be sure to start filling out " +
-  "your [Health Profile](better://nb?cmd=showProfile). *|pha_first_name|* " +
-  "will speak with you soon."
+CONFIRM_WELCOME_CALL = "Thanks for scheduling your call. We've sent you " +
+  "a confirmation email with a calendar invite. Be sure to start filling " +
+  "out your Health Profile; it's in the navigation menu at the top left " +
+  "of your screen. *|pha_first_name|* will speak with you soon."
 MessageTemplate.upsert_attributes({name: 'Confirm Welcome Call'},
                                   {text: CONFIRM_WELCOME_CALL})
 
