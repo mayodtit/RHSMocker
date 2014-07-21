@@ -119,11 +119,9 @@ MessageWorkflowTemplate.upsert_attributes({message_workflow_id: mw.id,
                                            message_template_id: m.id},
                                           {days_delayed: 6})
 
-AUTOMATED_ONBOARDING_MESSAGE_4_OLD = "How are you feeling today *|member_first_name|*? If " +
-  "you need information about health conditions or new symptoms, let me " +
-  "connect you to our Mayo Clinic nurses. They'll expertly handle any of " +
-  "your medical questions. Tap the phone button at the top right to give me " +
-  "a call or send me a message below."
+AUTOMATED_ONBOARDING_MESSAGE_4_OLD = "What are your health goals, " +
+  "*|member_first_name|*? Would you like me to help you work on better " +
+  "sleep, fitness, or nutrition? Start messaging me now."
 m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 4 OLD'},
                                        {text: AUTOMATED_ONBOARDING_MESSAGE_4_OLD})
 MessageWorkflowTemplate.upsert_attributes({message_workflow_id: mw.id,
