@@ -38,6 +38,7 @@ class Analytics
         tracker.import(MIXPANEL_API_KEY, user.google_analytics_uuid, e['name'], hash)
       end
     end
+    handle_asynchronously :log_mixpanel
 
     def log_started_symptoms_checker(user_ga_uuid)
       LogAnalyticsJob.new(user_ga_uuid, 'started_symptom_checker', get_latest_build_and_os(user_ga_uuid)).log_ga
