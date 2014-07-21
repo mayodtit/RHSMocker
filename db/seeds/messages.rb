@@ -10,7 +10,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member'},
 NEW_PREMIUM_MEMBER_OLD = "Hi *|member_first_name|*, welcome to Better. I'm " +
   "*|sender_first_name|*, your Personal Health Assistant. I'm here to " +
   "handle any of your health needs, so you can focus on being well. Let me " +
-  "know when you're available to get started with a 10-minute call. " +
+  "know when you're available to get started with a 15-minute call. " +
   "If you have any questions or immediate needs, just send me a message here."
 MessageTemplate.upsert_attributes({name: 'New Premium Member OLD'},
                                   {text: NEW_PREMIUM_MEMBER_OLD})
@@ -32,7 +32,7 @@ MessageTemplate.upsert_attributes({name: 'Confirm Welcome Call OLD'},
 mw = MessageWorkflow.find_or_create_by_name(name: 'Automated Onboarding')
 
 AUTOMATED_ONBOARDING_MESSAGE_1 = "Is there anything I can do for you " +
-  "today *|member_first_name|*? if you need help with your health " +
+  "today, *|member_first_name|*? If you need help with your health " +
   "insurance, I can answer any questions, get your bills organized, " +
   "and evaluate your plan. [Schedule](better://nb?cmd=scheduleCall) a " +
   "quick call, and let me know what I can get started on for you."
@@ -52,7 +52,7 @@ MessageWorkflowTemplate.upsert_attributes({message_workflow_id: mw.id,
                                            message_template_id: m.id},
                                           {days_delayed: 4})
 
-AUTOMATED_ONBOARDING_MESSAGE_3 = "How are you feeling today " +
+AUTOMATED_ONBOARDING_MESSAGE_3 = "How are you feeling today, " +
   "*|member_first_name|*? If you need information about health conditions " +
   "or new symptoms, let me connect you to our Mayo Clinic nurses. " +
   "They'll expertly handle any of your medical questions. Tap the phone " +
@@ -87,7 +87,7 @@ MessageTemplate.upsert_attributes({name: 'Offboard Engaged Member'},
 mw = MessageWorkflow.find_or_create_by_name(name: 'Automated Onboarding OLD')
 
 AUTOMATED_ONBOARDING_MESSAGE_1_OLD = "Is there anything I can do for you " +
-  "today *|member_first_name|*? if you need help with your health " +
+  "today, *|member_first_name|*? If you need help with your health " +
   "insurance, I can answer any questions, get your bills organized, and " +
   "evaluate your plan. Let me know when you have time for a quick call " +
   "so I know what to get started on for you."
@@ -108,7 +108,7 @@ MessageWorkflowTemplate.upsert_attributes({message_workflow_id: mw.id,
                                            message_template_id: m.id},
                                           {days_delayed: 4})
 
-AUTOMATED_ONBOARDING_MESSAGE_3_OLD = "How are you feeling today " +
+AUTOMATED_ONBOARDING_MESSAGE_3_OLD = "How are you feeling today, " +
   "*|member_first_name|*? If you need information about health conditions " +
   "or new symptoms, let me connect you to our Mayo Clinic nurses. " +
   "They'll expertly handle any of your medical questions. Tap the phone " +
