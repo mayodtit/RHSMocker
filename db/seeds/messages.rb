@@ -40,7 +40,7 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 1'},
                                        {text: AUTOMATED_ONBOARDING_MESSAGE_1})
 MessageWorkflowTemplate.upsert_attributes({message_workflow_id: mw.id,
                                            message_template_id: m.id},
-                                          {days_delayed: 3})
+                                          {days_delayed: 2})
 
 AUTOMATED_ONBOARDING_MESSAGE_2 = "Hi *|member_first_name|*, do you or any " +
   "of your family members need a new doctor or specialist? I can find one " +
@@ -50,7 +50,7 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 2'},
                                        {text: AUTOMATED_ONBOARDING_MESSAGE_2})
 MessageWorkflowTemplate.upsert_attributes({message_workflow_id: mw.id,
                                            message_template_id: m.id},
-                                          {days_delayed: 5})
+                                          {days_delayed: 4})
 
 AUTOMATED_ONBOARDING_MESSAGE_3 = "How are you feeling today " +
   "*|member_first_name|*? If you need information about health conditions " +
@@ -71,7 +71,7 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 4'},
                                        {text: AUTOMATED_ONBOARDING_MESSAGE_4})
 MessageWorkflowTemplate.upsert_attributes({message_workflow_id: mw.id,
                                            message_template_id: m.id},
-                                          {days_delayed: 7})
+                                          {days_delayed: 8})
 
 OFFBOARD_ENGAGED_MEMBER = "I wanted to let you know that your free trial " +
   "ends tomorrow. If you'd like to keep working together, you can become " +
@@ -95,7 +95,7 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 1 OLD
                                        {text: AUTOMATED_ONBOARDING_MESSAGE_1_OLD})
 MessageWorkflowTemplate.upsert_attributes({message_workflow_id: mw.id,
                                            message_template_id: m.id},
-                                          {days_delayed: 3})
+                                          {days_delayed: 2})
 
 AUTOMATED_ONBOARDING_MESSAGE_2_OLD = "Hi *|member_first_name|*, do you or " +
   "any of your family members need a new doctor or specialist? I can find " +
@@ -106,7 +106,7 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 2 OLD
                                        {text: AUTOMATED_ONBOARDING_MESSAGE_2_OLD})
 MessageWorkflowTemplate.upsert_attributes({message_workflow_id: mw.id,
                                            message_template_id: m.id},
-                                          {days_delayed: 5})
+                                          {days_delayed: 4})
 
 AUTOMATED_ONBOARDING_MESSAGE_3_OLD = "How are you feeling today " +
   "*|member_first_name|*? If you need information about health conditions " +
@@ -126,4 +126,4 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 4 OLD
                                        {text: AUTOMATED_ONBOARDING_MESSAGE_4_OLD})
 MessageWorkflowTemplate.upsert_attributes({message_workflow_id: mw.id,
                                            message_template_id: m.id},
-                                          {days_delayed: 7})
+                                          {days_delayed: 8})
