@@ -82,4 +82,9 @@ class UserMailer < ActionMailer::Base
     @care_provider = care_provider
     mail(to: @care_provider.email, subject: subject)
   end
+
+  def notify_of_low_welcome_call_availability(pairs)
+    @pairs = pairs
+    mail(to: Role.pha_stakeholders.map(&:email), subject: 'WARNING - Low welcome call availability')
+  end
 end

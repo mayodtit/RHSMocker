@@ -18,6 +18,8 @@ class Member < User
   has_many :message_statuses, foreign_key: :user_id
   has_many :phone_calls, foreign_key: :user_id
   has_many :scheduled_phone_calls, foreign_key: :user_id
+  has_many :owned_scheduled_phone_calls, class_name: 'ScheduledPhoneCall',
+                                         foreign_key: :owner_id
   has_many :invitations
   has_many :user_feature_groups, foreign_key: :user_id, dependent: :destroy
   has_many :feature_groups, through: :user_feature_groups
@@ -128,6 +130,10 @@ class Member < User
   def self.phas
     # less efficient than Role.find.users, but safer because ensures Member
     joins(:roles).where(roles: {name: :pha})
+  end
+
+  def self.phas_with_profile
+    phas.joins(:pha_profile)
   end
 
   def self.phas_with_capacity

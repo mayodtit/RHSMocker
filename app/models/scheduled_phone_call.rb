@@ -34,6 +34,14 @@ class ScheduledPhoneCall < ActiveRecord::Base
   after_save :set_user_phone_if_missing
   after_save :hold_scheduled_messages
 
+  def self.assigned
+    where(state: :assigned)
+  end
+
+  def self.in_period(start_time, end_time)
+    where('scheduled_at > ?', start_time).where('scheduled_at < ?', end_time)
+  end
+
   def user_confirmation_calendar_event
     RiCal.Event do |event|
       event.summary = "Your call with #{user.pha.full_name}"
