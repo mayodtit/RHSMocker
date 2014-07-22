@@ -11,6 +11,7 @@ describe OnboardingGroup do
 
   it_has_a 'valid factory'
   it_validates 'presence of', :name
+  it_validates 'foreign key of', :provider
   it_validates 'inclusion of', :premium
 
   describe '#free_trial_ends_at' do

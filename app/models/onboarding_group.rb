@@ -3,11 +3,13 @@ class OnboardingGroup < ActiveRecord::Base
                    inverse_of: :onboarding_group,
                    dependent: :nullify
   has_many :referral_codes, dependent: :nullify
+  belongs_to :provider, class_name: 'User'
 
   attr_accessible :name, :premium, :free_trial_days,
-                  :absolute_free_trial_ends_at
+                  :absolute_free_trial_ends_at, :provider, :provider_id
 
   validates :name, presence: true
+  validates :provider, presence: true, if: ->(o){o.provider_id}
   validates :premium, inclusion: {in: [true, false]}
   validates :free_trial_days, numericality: {only_integer: true}
 

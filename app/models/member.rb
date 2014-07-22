@@ -92,6 +92,7 @@ class Member < User
   before_create :set_auth_token # generate inital auth_token
   after_create :add_new_member_content
   after_create :add_owned_referral_code
+  after_create :add_onboarding_group_provider
   after_save :add_automated_onboarding_message_workflow, if: ->(m){m.status?(:trial)}
   after_save :send_state_emails
   after_save :notify_pha_of_new_member, if: ->(m){m.pha_id && m.pha_id_changed?}
@@ -405,6 +406,14 @@ class Member < User
   def add_owned_referral_code
     return if owned_referral_code
     create_owned_referral_code!(name: email)
+  end
+
+  def add_onboarding_group_provider
+    if onboarding_group.try(:provider)
+      associations.create(associate: onboarding_group.provider,
+                          association_type_id: AssociationType.hcp_default_id,
+                          creator: self)
+    end
   end
 
   def add_automated_onboarding_message_workflow
