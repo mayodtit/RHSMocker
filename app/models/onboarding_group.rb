@@ -4,6 +4,7 @@ class OnboardingGroup < ActiveRecord::Base
                    dependent: :nullify
   has_many :referral_codes, dependent: :nullify
   belongs_to :provider, class_name: 'User'
+  has_many :onboarding_group_cards
 
   attr_accessible :name, :premium, :free_trial_days,
                   :absolute_free_trial_ends_at, :provider, :provider_id
