@@ -83,16 +83,16 @@ class Member < User
 
   before_validation :set_owner
   before_validation :set_member_flag
-  before_validation :set_signed_up_at, if: ->(m){m.signed_up?}
-  before_validation :set_free_trial_ends_at, if: ->(m){m.status?(:trial)}
-  before_validation :set_invitation_token, if: ->(m){m.status?(:invited)}
-  before_validation :unset_invitation_token, if: ->(m){m.is_premium?}
-  before_validation :set_pha, if: ->(m){m.is_premium?}
-  before_validation :set_master_consult, if: ->(m){m.is_premium?}
+  before_validation :set_signed_up_at, if: ->(m){m.signed_up? && m.status_changed?}
+  before_validation :set_free_trial_ends_at, if: ->(m){m.status?(:trial) && m.status_changed?}
+  before_validation :set_invitation_token, if: ->(m){m.status?(:invited) && m.status_changed?}
+  before_validation :unset_invitation_token, if: ->(m){m.is_premium? && m.status_changed?}
+  before_validation :set_pha, if: ->(m){m.is_premium? && m.status_changed?}
+  before_validation :set_master_consult, if: ->(m){m.is_premium? && m.status_changed?}
   before_create :set_auth_token # generate inital auth_token
   after_create :add_new_member_content
   after_create :add_owned_referral_code
-  after_save :add_automated_onboarding_message_workflow, if: ->(m){m.status?(:trial)}
+  after_save :add_automated_onboarding_message_workflow, if: ->(m){m.status?(:trial) && m.status_changed?}
   after_save :send_state_emails
   after_save :notify_pha_of_new_member, if: ->(m){m.pha_id && m.pha_id_changed?}
   after_save :alert_stakeholders_on_call_status
