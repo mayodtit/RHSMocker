@@ -15,11 +15,12 @@ class MessageTemplate < ActiveRecord::Base
                    off_hours: system_message)
   end
 
-  def create_scheduled_message(sender, consult, publish_at)
+  def create_scheduled_message(sender, consult, publish_at, variables={})
     ScheduledMessage.create(sender: sender,
                             consult: consult,
                             publish_at: publish_at,
-                            text: text)
+                            text: text,
+                            variables: variables)
   end
 
   def self.can_format_text?(sender, consult, text, variables={})

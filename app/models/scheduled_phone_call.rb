@@ -128,11 +128,41 @@ Prep:
   end
 
   def hold_scheduled_messages
-    if user.try(:master_consult)
+    if user.try(:master_consult) && (state_changed? || scheduled_at_changed?)
       user.master_consult.scheduled_messages.scheduled.each do |m|
         m.hold!
       end
     end
+  end
+
+  def create_reminder
+    return unless template = MessageTemplate.find_by_name('Welcome Call Reminder')
+    if ((Time.now.pacific.to_date == scheduled_at.pacific.to_date) ||
+        (Time.now.pacific.to_date >= 1.business_day.before(scheduled_at.pacific).to_date)) &&
+       (Time.now < (scheduled_at - 2.hours))
+      # scheduled today or tomorrow, send reminder in the morning on the day
+      publish_at = scheduled_at.pacific.nine_oclock
+      day = 'today'
+    elsif (Time.now < (scheduled_at - 2.hours))
+      # scheduled in the future, not today or tomorrow, send reminder the day before
+      publish_at = 1.business_day.before(scheduled_at.pacific).pacific.nine_oclock
+      day = scheduled_at.pacific.strftime('%A')
+    else
+      return
+    end
+    update_attributes!(reminder_scheduled_message: template.create_scheduled_message(owner,
+                                                                                     user.master_consult,
+                                                                                     publish_at,
+                                                                                     'day' => day))
+  end
+
+  def reschedule_reminder
+    if reminder_scheduled_message &&
+       !(reminder_scheduled_message.state?(:sent) ||
+         reminder_scheduled_message.state?(:canceled))
+      reminder_scheduled_message.cancel
+    end
+    create_reminder
   end
 
   private
@@ -186,6 +216,14 @@ Prep:
         mt = MessageTemplate.find_by_name 'Confirm Welcome Call OLD'
         mt.create_message(scheduled_phone_call.user.pha, scheduled_phone_call.user.master_consult, true, true) if mt
       end
+    end
+
+    after_transition :assigned => :booked do |scheduled_phone_call|
+      scheduled_phone_call.create_reminder
+    end
+
+    after_transition :booked => :booked do |scheduled_phone_call|
+      scheduled_phone_call.reschedule_reminder
     end
 
     before_transition any => :started do |scheduled_phone_call|

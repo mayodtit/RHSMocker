@@ -127,3 +127,8 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 4 OLD
 MessageWorkflowTemplate.upsert_attributes({message_workflow_id: mw.id,
                                            message_template_id: m.id},
                                           {days_delayed: 8})
+
+WELCOME_CALL_REMINDER = "I'm looking forward to our call *|day|*. Let me " +
+  "know if you have any questions or need to reschedule."
+m = MessageTemplate.upsert_attributes({name: 'Welcome Call Reminder'},
+                                       {text: WELCOME_CALL_REMINDER})
