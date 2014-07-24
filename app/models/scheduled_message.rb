@@ -2,9 +2,11 @@ class ScheduledMessage < ActiveRecord::Base
   belongs_to :sender, class_name: 'Member'
   belongs_to :consult
   belongs_to :message
+  serialize :variables, Hash
 
   attr_accessible :sender, :sender_id, :consult, :consult_id, :message,
-                  :message_id, :text, :state_event, :publish_at, :sent_at
+                  :message_id, :text, :state_event, :publish_at, :sent_at,
+                  :variables
 
   validates :sender, :consult, :text, presence: true
 
@@ -21,11 +23,11 @@ class ScheduledMessage < ActiveRecord::Base
   end
 
   def formatted_text
-    MessageTemplate.formatted_text(sender, consult, text)
+    MessageTemplate.formatted_text(sender, consult, text, variables)
   end
 
   def can_send_message?
-    MessageTemplate.can_format_text?(sender, consult, text)
+    MessageTemplate.can_format_text?(sender, consult, text, variables)
   end
 
   protected

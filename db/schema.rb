@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140722004311) do
+ActiveRecord::Schema.define(:version => 20140724080146) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -566,17 +566,18 @@ ActiveRecord::Schema.define(:version => 20140722004311) do
     t.datetime "sent_at"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.text     "variables"
   end
 
   create_table "scheduled_phone_calls", :force => true do |t|
     t.integer  "user_id"
     t.integer  "phone_call_id"
     t.datetime "scheduled_at"
-    t.datetime "created_at",                                      :null => false
-    t.datetime "updated_at",                                      :null => false
+    t.datetime "created_at",                                              :null => false
+    t.datetime "updated_at",                                              :null => false
     t.datetime "disabled_at"
     t.integer  "owner_id"
-    t.string   "state",                 :default => "unassigned"
+    t.string   "state",                         :default => "unassigned"
     t.integer  "assignor_id"
     t.datetime "assigned_at"
     t.integer  "booker_id"
@@ -587,8 +588,9 @@ ActiveRecord::Schema.define(:version => 20140722004311) do
     t.datetime "canceled_at"
     t.integer  "ender_id"
     t.datetime "ended_at"
-    t.integer  "scheduled_duration_s",  :default => 1800,         :null => false
+    t.integer  "scheduled_duration_s",          :default => 1800,         :null => false
     t.string   "callback_phone_number"
+    t.integer  "reminder_scheduled_message_id"
   end
 
   add_index "scheduled_phone_calls", ["scheduled_at"], :name => "index_scheduled_phone_calls_on_scheduled_at"
