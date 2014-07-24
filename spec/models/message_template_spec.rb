@@ -78,7 +78,6 @@ describe MessageTemplate do
     end
 
     describe '*|pha_first_name|*' do
-
       it 'replaces pha_first_name' do
         expect(described_class.formatted_text(sender, consult, 'Hello *|pha_first_name|*')).to eq("Hello #{sender.first_name}")
       end
@@ -86,6 +85,12 @@ describe MessageTemplate do
       it 'raises an error if the salutation is not present' do
         sender.update_attributes(first_name: '')
         expect{ described_class.formatted_text(sender, consult, 'Hello *|pha_first_name|*') }.to raise_error(RuntimeError)
+      end
+    end
+
+    describe 'discrete variables' do
+      it 'replaces any text with a variable key' do
+        expect(described_class.formatted_text(sender, consult, 'foo *|bar|*', {'bar' => 'baz'})).to eq('foo baz')
       end
     end
 

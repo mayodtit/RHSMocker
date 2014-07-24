@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140724064049) do
+ActiveRecord::Schema.define(:version => 20140724080146) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -566,6 +566,7 @@ ActiveRecord::Schema.define(:version => 20140724064049) do
     t.datetime "sent_at"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.text     "variables"
   end
 
   create_table "scheduled_phone_calls", :force => true do |t|

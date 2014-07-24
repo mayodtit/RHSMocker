@@ -22,7 +22,7 @@ class MessageTemplate < ActiveRecord::Base
                             text: text)
   end
 
-  def self.can_format_text?(sender, consult, text)
+  def self.can_format_text?(sender, consult, text, variables={})
     text.gsub(/\*\|.*?\|\*/) do |ftext|
       if ftext == '*|member_first_name|*' && consult.initiator.salutation.present?
         consult.initiator.salutation
@@ -30,6 +30,8 @@ class MessageTemplate < ActiveRecord::Base
         sender.first_name
       elsif ftext == '*|pha_first_name|*' && consult.initiator.try(:pha).try(:first_name).try(:present?)
         consult.initiator.pha.first_name
+      elsif variables.has_key?(ftext.gsub(/\*\||\|\*/, ''))
+        variables[ftext.gsub(/\*\||\|\*/, '')]
       else
         return false
       end
@@ -37,7 +39,7 @@ class MessageTemplate < ActiveRecord::Base
     true
   end
 
-  def self.formatted_text(sender, consult, text)
+  def self.formatted_text(sender, consult, text, variables={})
     text.gsub(/\*\|.*?\|\*/) do |ftext|
       if ftext == '*|member_first_name|*' && consult.initiator.salutation.present?
         consult.initiator.salutation
@@ -45,6 +47,8 @@ class MessageTemplate < ActiveRecord::Base
         sender.first_name
       elsif ftext == '*|pha_first_name|*' && consult.initiator.try(:pha).try(:first_name).try(:present?)
         consult.initiator.pha.first_name
+      elsif variables.has_key?(ftext.gsub(/\*\||\|\*/, ''))
+        variables[ftext.gsub(/\*\||\|\*/, '')]
       else
         raise 'All merge tags not replaced, abort abort.'
       end
