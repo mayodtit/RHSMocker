@@ -1,10 +1,13 @@
 FactoryGirl.define do
-  factory :scheduled_message do
+  factory :scheduled_communication do
     association :sender, factory: :pha
-    association :consult, factory: [:consult, :master]
-    text 'This is a scheduled message'
     state 'scheduled'
     publish_at Time.now + 1.day
+
+    factory :scheduled_message, class: ScheduledMessage do
+      association :consult, factory: [:consult, :master]
+      text 'This is a scheduled message'
+    end
 
     trait :scheduled do
       state 'scheduled'
@@ -15,9 +18,9 @@ FactoryGirl.define do
       state 'held'
     end
 
-    trait :sent do
-      state 'sent'
-      sent_at Time.now
+    trait :delivered do
+      state 'delivered'
+      delivered_at Time.now
     end
 
     trait :canceled do
