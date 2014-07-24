@@ -148,4 +148,23 @@ class RHSMailer < MandrillMailer::TemplateMailer
       ]
     )
   end
+
+  AUTOMATED_ONBOARDING_SURVEY = '"Survey" email on Day 3 of Trial (7/22/14)'
+
+  def automated_onboarding_survey_email(user, pha)
+    mandrill_mail(
+      subject: 'What can I help you with?',
+      from: pha.email,
+      from_name: pha.full_name,
+      to: {email: user.email},
+      template: AUTOMATED_ONBOARDING_SURVEY,
+      headers: {
+        'Reply-To' => "#{pha.full_name} <#{pha.email}>"
+      },
+      vars: {
+        FNAME: user.salutation,
+        PHA: pha.first_name
+      },
+    )
+  end
 end

@@ -9,6 +9,11 @@ FactoryGirl.define do
       text 'This is a scheduled message'
     end
 
+    factory :scheduled_template_email, class: ScheduledTemplateEmail do
+      association :recipient, factory: :member
+      template 'automated_onboarding_survey_email'
+    end
+
     trait :scheduled do
       state 'scheduled'
       publish_at Time.now + 1.day
