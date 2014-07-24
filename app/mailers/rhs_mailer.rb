@@ -120,48 +120,31 @@ class RHSMailer < MandrillMailer::TemplateMailer
     )
   end
 
-  WELCOME_CALL_CONFIRMATION_CLARE = 'Call Confirmation Clare 7/9/14'
-  WELCOME_CALL_CONFIRMATION_LAUREN = 'Call Confirmation Lauren 7/9/14'
-  WELCOME_CALL_CONFIRMATION_MEG = 'Call Confirmation Meg 7/9/14'
-  WELCOME_CALL_CONFIRMATION_NINETTE = 'Call Confirmation Ninette 7/9/14'
-  WELCOME_CALL_CONFIRMATION_JENN = 'Call Confirmation Jenn 7/9/14'
+  WELCOME_CALL_CONFIRMATION = 'Call Confirmation 7/22/14 from Better.'
 
   def scheduled_phone_call_member_confirmation_email(spc_id)
     spc = ScheduledPhoneCall.find(spc_id)
-    from_email = spc.owner.email
-
-    t = case from_email
-        when 'clare@getbetter.com'
-          WELCOME_CALL_CONFIRMATION_CLARE
-        when 'lauren@getbetter.com'
-          WELCOME_CALL_CONFIRMATION_LAUREN
-        when 'meg@getbetter.com'
-          WELCOME_CALL_CONFIRMATION_MEG
-        when 'ninette@getbetter.com'
-          WELCOME_CALL_CONFIRMATION_NINETTE
-        when 'jenn@getbetter.com'
-          WELCOME_CALL_CONFIRMATION_JENN
-        else
-          raise 'Must have PHA to send Welcome Call Confirmation'
-        end
 
     mandrill_mail(
       subject: 'Your Better Call Confirmation',
-      from: from_email,
-      from_name: spc.owner.full_name,
-      to: { email: spc.user.email },
-      template: t,
+      from: 'premium@getbetter.com',
+      from_name: 'Better',
+      to: {email: spc.user.email},
+      template: WELCOME_CALL_CONFIRMATION,
       headers: {
-        'Reply-To' => "#{spc.owner.full_name} <premium@getbetter.com>"
+        'Reply-To' => "Better <premium@getbetter.com>"
       },
       vars: {
         FNAME: spc.user.salutation,
-        PHONENUM: spc.callback_phone_number
+        PHONENUM: spc.callback_phone_number,
+        PHA: spc.owner.first_name
       },
       attachments: [
-        { file: spc.user_confirmation_calendar_event.export,
+        {
+          file: spc.user_confirmation_calendar_event.export,
           filename: 'event.ics',
-          mime_type: 'text/calendar' }
+          mime_type: 'text/calendar'
+        }
       ]
     )
   end
