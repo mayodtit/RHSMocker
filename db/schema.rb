@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140724211947) do
+ActiveRecord::Schema.define(:version => 20140724231153) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -112,6 +112,21 @@ ActiveRecord::Schema.define(:version => 20140724211947) do
   end
 
   create_table "collection_types", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "communication_workflow_templates", :force => true do |t|
+    t.integer  "communication_workflow_id"
+    t.integer  "message_template_id"
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
+    t.integer  "days_delayed"
+    t.string   "type"
+  end
+
+  create_table "communication_workflows", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
@@ -344,20 +359,6 @@ ActiveRecord::Schema.define(:version => 20140724211947) do
   create_table "message_templates", :force => true do |t|
     t.string   "name"
     t.text     "text"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  create_table "message_workflow_templates", :force => true do |t|
-    t.integer  "message_workflow_id"
-    t.integer  "message_template_id"
-    t.datetime "created_at",          :null => false
-    t.datetime "updated_at",          :null => false
-    t.integer  "days_delayed"
-  end
-
-  create_table "message_workflows", :force => true do |t|
-    t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

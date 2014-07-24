@@ -1,9 +1,14 @@
-class MessageWorkflowTemplate < ActiveRecord::Base
-  belongs_to :message_workflow, inverse_of: :message_workflow_templates
+class MessageWorkflowTemplate < CommunicationWorkflowTemplate
   belongs_to :message_template, inverse_of: :message_workflow_templates
 
-  attr_accessible :message_workflow, :message_workflow_id, :message_template,
-                  :message_template_id, :days_delayed
+  attr_accessible :message_template, :message_template_id
 
-  validates :message_workflow, :message_template, :days_delayed, presence: true
+  validates :message_template, presence: true
+
+  def add_to_member(member, relative_time)
+    ScheduledMessage.create!(sender: member.pha,
+                             consult: member.master_consult,
+                             text: message_template.text,
+                             publish_at: days_delayed.business_days.after(relative_time))
+  end
 end
