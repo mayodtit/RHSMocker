@@ -5,6 +5,10 @@ module TimeExtension
     in_time_zone('Pacific Time (US & Canada)')
   end
 
+  def nine_oclock
+    Time.new(year, month, day, 9, 0, 0, strftime('%:z'))
+  end
+
   def next_wday(wday)
     if wday > self.wday
       self + (wday - self.wday).days

@@ -27,15 +27,11 @@ class MessageWorkflow < ActiveRecord::Base
   private
 
   def relative_time
-    time = nine_oclock_on_date(Time.now.pacific)
+    time = Time.now.pacific.nine_oclock
     if !time.to_date.weekday?
       1.business_day.after(1.business_day.before(time)) # previous_business_day
     else
       time
     end
-  end
-
-  def nine_oclock_on_date(time)
-    Time.new(time.year, time.month, time.day, 9, 0, 0, time.strftime('%:z'))
   end
 end
