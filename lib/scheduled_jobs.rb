@@ -69,12 +69,12 @@ class ScheduledJobs
     end
   end
 
-  def self.transition_scheduled_messages
-    ScheduledMessage.held.publish_at_past_time.each do |m|
+  def self.transition_scheduled_communications
+    ScheduledCommunication.held.publish_at_past_time.each do |m|
       m.cancel!
     end
-    ScheduledMessage.scheduled.publish_at_past_time.each do |m|
-      m.send_message!
+    ScheduledCommunication.scheduled.publish_at_past_time.each do |m|
+      m.deliver!
     end
   end
 

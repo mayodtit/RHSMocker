@@ -178,14 +178,14 @@ describe ScheduledJobs do
     end
   end
 
-  describe '#transition_scheduled_messages' do
+  describe '#transition_scheduled_communications' do
     context 'with scheduled message' do
       let!(:scheduled_message) { create(:scheduled_message, publish_at: Time.now - 1.minute) }
 
       it 'sends scheduled messages in the past' do
         expect(scheduled_message.state?(:scheduled)).to be_true
-        described_class.transition_scheduled_messages
-        expect(scheduled_message.reload.state?(:sent)).to be_true
+        described_class.transition_scheduled_communications
+        expect(scheduled_message.reload.state?(:delivered)).to be_true
       end
     end
 
@@ -194,7 +194,7 @@ describe ScheduledJobs do
 
       it 'cancels held messages in the past' do
         expect(scheduled_message.state?(:held)).to be_true
-        described_class.transition_scheduled_messages
+        described_class.transition_scheduled_communications
         expect(scheduled_message.reload.state?(:canceled)).to be_true
       end
     end

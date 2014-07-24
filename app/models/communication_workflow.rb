@@ -1,6 +1,5 @@
-class MessageWorkflow < ActiveRecord::Base
-  has_many :message_workflow_templates, inverse_of: :message_workflow
-  has_many :message_templates, through: :message_workflow_templates
+class CommunicationWorkflow < ActiveRecord::Base
+  has_many :communication_workflow_templates, inverse_of: :communication_workflow
 
   attr_accessible :name
 
@@ -16,11 +15,8 @@ class MessageWorkflow < ActiveRecord::Base
 
   def add_to_member(member)
     initial_time = relative_time
-    message_workflow_templates.each do |mwt|
-      ScheduledMessage.create!(sender: member.pha,
-                               consult: member.master_consult,
-                               text: mwt.message_template.text,
-                               publish_at: mwt.days_delayed.business_days.after(initial_time))
+    communication_workflow_templates.each do |cwt|
+      cwt.add_to_member(member, initial_time)
     end
   end
 

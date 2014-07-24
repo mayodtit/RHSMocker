@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe MessageWorkflow do
+describe CommunicationWorkflow do
   it_has_a 'valid factory'
   it_validates 'presence of', :name
   it_validates 'uniqueness of', :name
@@ -8,11 +8,11 @@ describe MessageWorkflow do
   describe '#add_to_member' do
     let!(:pha) { create(:pha) }
     let!(:member) { create(:member, :premium, pha: pha) }
-    let!(:message_workflow) { create(:message_workflow) }
-    let!(:message_workflow_template) { create(:message_workflow_template, message_workflow: message_workflow) }
+    let!(:communication_workflow) { create(:communication_workflow) }
+    let!(:message_workflow_template) { create(:message_workflow_template, communication_workflow: communication_workflow) }
 
     it 'creates a scheduled message from the workflow' do
-      expect{ message_workflow.add_to_member(member) }.to change(ScheduledMessage, :count).by(1)
+      expect{ communication_workflow.add_to_member(member) }.to change(ScheduledMessage, :count).by(1)
       s = ScheduledMessage.last
       expect(s.sender).to eq(pha)
       expect(s.consult).to eq(member.master_consult)
@@ -29,7 +29,7 @@ describe MessageWorkflow do
       end
 
       it 'creates a scheduled message the next business day at 9AM pacific' do
-        expect{ message_workflow.add_to_member(member) }.to change(ScheduledMessage, :count).by(1)
+        expect{ communication_workflow.add_to_member(member) }.to change(ScheduledMessage, :count).by(1)
         s = ScheduledMessage.last
         expect(s.publish_at).to eq(Time.new(2014, 7, 18, 9, 0, 0, '-07:00'))
       end
@@ -45,7 +45,7 @@ describe MessageWorkflow do
       end
 
       it 'creates a scheduled message on Monday at 9AM pacific' do
-        expect{ message_workflow.add_to_member(member) }.to change(ScheduledMessage, :count).by(1)
+        expect{ communication_workflow.add_to_member(member) }.to change(ScheduledMessage, :count).by(1)
         s = ScheduledMessage.last
         expect(s.publish_at).to eq(Time.new(2014, 7, 21, 9, 0, 0, '-07:00'))
       end
@@ -61,7 +61,7 @@ describe MessageWorkflow do
       end
 
       it 'creates a scheduled message on Monday at 9AM pacific' do
-        expect{ message_workflow.add_to_member(member) }.to change(ScheduledMessage, :count).by(1)
+        expect{ communication_workflow.add_to_member(member) }.to change(ScheduledMessage, :count).by(1)
         s = ScheduledMessage.last
         expect(s.publish_at).to eq(Time.new(2014, 7, 21, 9, 0, 0, '-07:00'))
       end
