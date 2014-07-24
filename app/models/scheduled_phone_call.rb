@@ -13,6 +13,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
   belongs_to :canceler, class_name: 'Member'
   belongs_to :ender, class_name: 'Member'
   belongs_to :phone_call
+  belongs_to :reminder_scheduled_message, class_name: 'ScheduledMessage'
   has_one :message, :inverse_of => :scheduled_phone_call
   delegate :consult, :to => :message
 
@@ -21,12 +22,14 @@ class ScheduledPhoneCall < ActiveRecord::Base
                   :assignor_id, :assignor, :booker_id, :booker,
                   :starter_id, :starter, :canceler_id, :canceler,
                   :ender_id, :ender, :scheduled_duration_s, :state_event,
-                  :state, :assigned_at, :callback_phone_number
+                  :state, :assigned_at, :callback_phone_number,
+                  :reminder_scheduled_message, :reminder_scheduled_message_id
 
   accepts_nested_attributes_for :message
 
   validates :scheduled_at, presence: true
   validates :user, presence: true, if: lambda{|spc| spc.user_id}
+  validates :reminder_scheduled_message, presence: true, if: ->(s){s.reminder_scheduled_message_id}
   validate :attrs_for_states
   validates :callback_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: false, if: lambda { |spc| spc.user_id }
 

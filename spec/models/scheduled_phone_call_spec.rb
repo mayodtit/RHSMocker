@@ -19,6 +19,7 @@ describe ScheduledPhoneCall do
   it_has_a 'valid factory', :booked
   it_validates 'presence of', :scheduled_at
   it_validates 'foreign key of', :user
+  it_validates 'foreign key of', :reminder_scheduled_message
 
   describe '#notify_owner_of_assigned_call' do
     it 'notifies the owner they were assigned a time to receive a scheduled call' do
