@@ -7,6 +7,8 @@ class ScheduledTemplateEmail < ScheduledCommunication
     case template.to_sym
     when :automated_onboarding_survey_email
       true
+    when :automated_onboarding_testimonials_email
+      true
     else
       false
     end
@@ -16,6 +18,8 @@ class ScheduledTemplateEmail < ScheduledCommunication
     case template.to_sym
     when :automated_onboarding_survey_email
       Mails::AutomatedOnboardingSurveyJob.create(recipient_id, sender_id)
+    when :automated_onboarding_testimonials_email
+      Mails::AutomatedOnboardingTestimonialsJob.create(recipient_id, sender_id)
     else
       raise 'Unknown email template'
     end

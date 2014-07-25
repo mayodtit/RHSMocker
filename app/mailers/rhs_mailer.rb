@@ -167,4 +167,42 @@ class RHSMailer < MandrillMailer::TemplateMailer
       },
     )
   end
+
+  AUTOMATED_ONBOARDING_TESTIMONIALS_CLARE = 'Reminder to Schedule Welcome Call Clare 7/09'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_LAUREN = 'Reminder to Schedule Welcome Call Lauren 7/09'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_MEG = 'Reminder to Schedule Welcome Call Meg 7/09'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_NINETTE = 'Reminder to Schedule Welcome Call Ninette 7/09'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_JENN = 'Reminder to Schedule Welcome Call Jenn 7/09'
+
+  def automated_onboarding_testimonials_email(user, pha)
+    template = case pha.email
+               when 'clare@getbetter.com'
+                 AUTOMATED_ONBOARDING_TESTIMONIALS_CLARE
+               when 'lauren@getbetter.com'
+                 AUTOMATED_ONBOARDING_TESTIMONIALS_LAUREN
+               when 'meg@getbetter.com'
+                 AUTOMATED_ONBOARDING_TESTIMONIALS_MEG
+               when 'ninette@getbetter.com'
+                 AUTOMATED_ONBOARDING_TESTIMONIALS_NINETTE
+               when 'jenn@getbetter.com'
+                 AUTOMATED_ONBOARDING_TESTIMONIALS_JENN
+               else
+                 raise 'Unknown PHA, not sending!'
+               end
+
+    mandrill_mail(
+      subject: 'Your free trial ends soon!',
+      from: pha.email,
+      from_name: pha.full_name,
+      to: {email: user.email},
+      template: template,
+      headers: {
+        'Reply-To' => "#{pha.full_name} <#{pha.email}>"
+      },
+      vars: {
+        FNAME: user.salutation,
+        PHA: pha.first_name
+      },
+    )
+  end
 end

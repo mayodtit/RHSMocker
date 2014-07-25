@@ -68,6 +68,11 @@ MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
                                           {days_delayed: 6})
 
+AUTOMATED_ONBOARDING_EMAIL_3 = 'automated_onboarding_testimonials_email'
+TemplateEmailWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                                 template: AUTOMATED_ONBOARDING_EMAIL_3},
+                                                {days_delayed: 7})
+
 AUTOMATED_ONBOARDING_MESSAGE_4 = "What are your health goals, *|member_first_name|*? " +
   "Would you like me to help you work on better sleep, fitness, or " +
   "nutrition? Schedule a [call](better://nb?cmd=scheduleCall) or start " +
