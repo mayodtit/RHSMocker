@@ -149,7 +149,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     )
   end
 
-  AUTOMATED_ONBOARDING_SURVEY = '"Survey" email on Day 3 of Trial (7/22/14)'
+  AUTOMATED_ONBOARDING_SURVEY = '"Survey" email on Day 3 of Trial (7/25/14)'
 
   def automated_onboarding_survey_email(user, pha)
     mandrill_mail(
@@ -163,16 +163,17 @@ class RHSMailer < MandrillMailer::TemplateMailer
       },
       vars: {
         FNAME: user.salutation,
-        PHA: pha.first_name
+        PHA: pha.first_name,
+        PHA_EMAIL: "#{pha.full_name} <#{pha.email}>"
       },
     )
   end
 
-  AUTOMATED_ONBOARDING_TESTIMONIALS_CLARE = 'Reminder to Schedule Welcome Call Clare 7/09'
-  AUTOMATED_ONBOARDING_TESTIMONIALS_LAUREN = 'Reminder to Schedule Welcome Call Lauren 7/09'
-  AUTOMATED_ONBOARDING_TESTIMONIALS_MEG = 'Reminder to Schedule Welcome Call Meg 7/09'
-  AUTOMATED_ONBOARDING_TESTIMONIALS_NINETTE = 'Reminder to Schedule Welcome Call Ninette 7/09'
-  AUTOMATED_ONBOARDING_TESTIMONIALS_JENN = 'Reminder to Schedule Welcome Call Jenn 7/09'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_CLARE = 'Reminder to Schedule Welcome Call Clare 7/25'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_LAUREN = 'Reminder to Schedule Welcome Call Lauren 7/25'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_MEG = 'Reminder to Schedule Welcome Call Meg 7/25'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_NINETTE = 'Reminder to Schedule Welcome Call Ninette 7/25'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_JENN = 'Reminder to Schedule Welcome Call Jenn 7/25'
 
   def automated_onboarding_testimonials_email(user, pha)
     template = case pha.email
@@ -191,7 +192,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
                end
 
     mandrill_mail(
-      subject: 'Your free trial ends soon!',
+      subject: "Let's chat",
       from: pha.email,
       from_name: pha.full_name,
       to: {email: user.email},

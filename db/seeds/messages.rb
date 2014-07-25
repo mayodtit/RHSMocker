@@ -66,7 +66,7 @@ AUTOMATED_ONBOARDING_EMAIL_2 = "Hi *|member_first_name|*,\n\n" +
   "here with a time that works for you.\n\n" +
   "Take care,\n\n" +
   "*|pha_first_name|*"
-AUTOMATED_ONBOARDING_EMAIL_2_SUBJECT = 'Hello from Better.'
+AUTOMATED_ONBOARDING_EMAIL_2_SUBJECT = 'Checking in'
 m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Email 2'},
                                       {subject: AUTOMATED_ONBOARDING_EMAIL_2_SUBJECT,
                                        text: AUTOMATED_ONBOARDING_EMAIL_2})
@@ -98,7 +98,7 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 4'},
                                        {text: AUTOMATED_ONBOARDING_MESSAGE_4})
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
-                                          {days_delayed: 8})
+                                          {days_delayed: 7})
 
 OFFBOARD_ENGAGED_MEMBER = "I wanted to let you know that your free trial " +
   "ends tomorrow. If you'd like to keep working together, you can become " +
