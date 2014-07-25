@@ -69,8 +69,8 @@ class Message < ActiveRecord::Base
   end
 
   def hold_scheduled_messages
-    if user.master_consult
-      user.master_consult.scheduled_messages.scheduled.each do |m|
+    if user
+      user.inbound_scheduled_communications.scheduled.each do |m|
         m.hold!
       end
     end

@@ -128,8 +128,8 @@ Prep:
   end
 
   def hold_scheduled_messages
-    if user.try(:master_consult) && (state_changed? || scheduled_at_changed?)
-      user.master_consult.scheduled_messages.scheduled.each do |m|
+    if user && (state_changed? || scheduled_at_changed?)
+      user.inbound_scheduled_communications.scheduled.each do |m|
         m.hold!
       end
     end

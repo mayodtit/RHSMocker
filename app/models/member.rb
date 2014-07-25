@@ -48,6 +48,15 @@ class Member < User
   belongs_to :onboarding_group, inverse_of: :users
   belongs_to :referral_code, inverse_of: :users
   has_many :user_requests, foreign_key: :user_id
+  has_many :outbound_scheduled_communications, class_name: 'ScheduledCommunication',
+                                               foreign_key: :sender_id,
+                                               inverse_of: :sender
+  has_many :inbound_scheduled_communications, class_name: 'ScheduledCommunication',
+                                              foreign_key: :recipient_id,
+                                              inverse_of: :recipient
+  has_many :inbound_scheduled_messages, class_name: 'ScheduledMessage',
+                                        foreign_key: :recipient_id,
+                                        inverse_of: :recipient
   accepts_nested_attributes_for :user_agreements
   attr_accessor :skip_agreement_validation
 
@@ -430,9 +439,9 @@ class Member < User
   end
 
   def add_automated_onboarding_communication_workflow
-    if Metadata.automated_onboarding? && Metadata.new_onboarding_flow? && master_consult.try(:scheduled_messages).try(:empty?)
+    if Metadata.automated_onboarding? && Metadata.new_onboarding_flow? && inbound_scheduled_communications.empty?
       CommunicationWorkflow.automated_onboarding.try(:add_to_member, self)
-    elsif Metadata.automated_onboarding? && master_consult.try(:scheduled_messages).try(:empty?)
+    elsif Metadata.automated_onboarding? && inbound_scheduled_communications.empty?
       CommunicationWorkflow.automated_onboarding_old.try(:add_to_member, self)
     end
   end

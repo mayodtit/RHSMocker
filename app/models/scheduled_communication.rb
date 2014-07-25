@@ -1,11 +1,14 @@
 class ScheduledCommunication < ActiveRecord::Base
-  belongs_to :sender, class_name: 'Member'
+  belongs_to :sender, class_name: 'Member',
+                      inverse_of: :outbound_scheduled_communications
+  belongs_to :recipient, class_name: 'Member',
+                         inverse_of: :inbound_scheduled_communications
   serialize :variables, Hash
 
-  attr_accessible :sender, :sender_id, :state_event, :publish_at,
-                  :delivered_at, :variables
+  attr_accessible :sender, :sender_id, :recipient, :recipient_id,
+                  :state_event, :publish_at, :delivered_at, :variables
 
-  validates :sender, presence: true
+  validates :sender, :recipient, presence: true
 
   def self.scheduled
     where(state: :scheduled)

@@ -43,7 +43,7 @@ describe MessageTemplate do
                                                                       publish_at)
         expect(scheduled_message).to be_persisted
         expect(scheduled_message.sender).to eq(sender)
-        expect(scheduled_message.consult).to eq(consult)
+        expect(scheduled_message.recipient).to eq(consult.initiator)
         expect(scheduled_message.publish_at).to eq(publish_at)
         expect(scheduled_message.text).to eq(message_template.text)
       end
