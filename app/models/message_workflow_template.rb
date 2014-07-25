@@ -7,7 +7,7 @@ class MessageWorkflowTemplate < CommunicationWorkflowTemplate
 
   def add_to_member(member, relative_time)
     ScheduledMessage.create!(sender: member.pha,
-                             consult: member.master_consult,
+                             recipient: member,
                              text: message_template.text,
                              publish_at: days_delayed.business_days.after(relative_time))
   end

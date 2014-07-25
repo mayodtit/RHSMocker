@@ -43,7 +43,7 @@ class PhoneCall < ActiveRecord::Base
 
   after_create :dial_if_outbound
   after_create :create_follow_up_task
-  after_create :hold_scheduled_messages
+  after_create :hold_scheduled_communications
   after_save :publish
   after_save :create_task
   after_save :create_message_if_user_updated
@@ -268,9 +268,9 @@ class PhoneCall < ActiveRecord::Base
     end
   end
 
-  def hold_scheduled_messages
-    if user.try(:master_consult)
-      user.master_consult.scheduled_messages.scheduled.each do |m|
+  def hold_scheduled_communications
+    if user
+      user.inbound_scheduled_communications.scheduled.each do |m|
         m.hold!
       end
     end

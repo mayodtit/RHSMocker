@@ -14,8 +14,6 @@ describe ScheduledMessage do
   it_has_a 'valid factory', :held
   it_has_a 'valid factory', :delivered
   it_has_a 'valid factory', :canceled
-  it_validates 'presence of', :sender
-  it_validates 'presence of', :consult
   it_validates 'presence of', :text
   it_validates 'foreign key of', :message
 

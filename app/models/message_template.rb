@@ -17,7 +17,7 @@ class MessageTemplate < ActiveRecord::Base
 
   def create_scheduled_message(sender, consult, publish_at, variables={})
     ScheduledMessage.create(sender: sender,
-                            consult: consult,
+                            recipient: consult.initiator,
                             publish_at: publish_at,
                             text: text,
                             variables: variables)

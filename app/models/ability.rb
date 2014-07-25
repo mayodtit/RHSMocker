@@ -108,6 +108,7 @@ class Ability
       can :index, ScheduledPhoneCall
       can :create, Card
       can :manage, ScheduledMessage
+      can :manage, ScheduledCommunication
       can :manage, MessageTemplate
     end
 

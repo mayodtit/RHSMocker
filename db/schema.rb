@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140724231153) do
+ActiveRecord::Schema.define(:version => 20140725004408) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -124,6 +124,7 @@ ActiveRecord::Schema.define(:version => 20140724231153) do
     t.datetime "updated_at",                :null => false
     t.integer  "days_delayed"
     t.string   "type"
+    t.string   "template"
   end
 
   create_table "communication_workflows", :force => true do |t|
@@ -559,7 +560,6 @@ ActiveRecord::Schema.define(:version => 20140724231153) do
 
   create_table "scheduled_communications", :force => true do |t|
     t.integer  "sender_id"
-    t.integer  "consult_id"
     t.integer  "message_id"
     t.text     "text"
     t.string   "state"

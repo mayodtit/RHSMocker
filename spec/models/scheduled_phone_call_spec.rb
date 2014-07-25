@@ -134,10 +134,10 @@ describe ScheduledPhoneCall do
         it 'schedules the message for the scheduled day at 9AM pacific' do
           Timecop.freeze(Time.new(2014, 7, 25, 8, 0, 0, '-07:00'))
           expect{ scheduled_phone_call.reload.book! }.to change(ScheduledMessage, :count).by(1)
-          expect(user.master_consult.scheduled_messages.count).to eq(1)
+          expect(user.inbound_scheduled_communications.count).to eq(1)
           scheduled_message = scheduled_phone_call.reload.reminder_scheduled_message
           expect(scheduled_message.state?(:scheduled)).to be_true
-          expect(scheduled_message.consult).to eq(user.master_consult)
+          expect(scheduled_message.recipient).to eq(user)
           expect(scheduled_message.text).to eq(message_template.text)
           expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 25, 9, 0, 0, '-07:00'))
           expect(scheduled_message.variables['day']).to eq('today')
@@ -149,10 +149,10 @@ describe ScheduledPhoneCall do
         it 'schedules the message for the scheduled day at 9AM pacific' do
           Timecop.freeze(Time.new(2014, 7, 24, 0, 0, 0, '-07:00'))
           expect{ scheduled_phone_call.reload.book! }.to change(ScheduledMessage, :count).by(1)
-          expect(user.master_consult.scheduled_messages.count).to eq(1)
+          expect(user.inbound_scheduled_communications.count).to eq(1)
           scheduled_message = scheduled_phone_call.reload.reminder_scheduled_message
           expect(scheduled_message.state?(:scheduled)).to be_true
-          expect(scheduled_message.consult).to eq(user.master_consult)
+          expect(scheduled_message.recipient).to eq(user)
           expect(scheduled_message.text).to eq(message_template.text)
           expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 25, 9, 0, 0, '-07:00'))
           expect(scheduled_message.variables['day']).to eq('today')
@@ -164,10 +164,10 @@ describe ScheduledPhoneCall do
         it 'schedules the message for the day before at 9AM pacific' do
           Timecop.freeze(Time.new(2014, 7, 23, 23, 59, 59, '-07:00'))
           expect{ scheduled_phone_call.reload.book! }.to change(ScheduledMessage, :count).by(1)
-          expect(user.master_consult.scheduled_messages.count).to eq(1)
+          expect(user.inbound_scheduled_communications.count).to eq(1)
           scheduled_message = scheduled_phone_call.reload.reminder_scheduled_message
           expect(scheduled_message.state?(:scheduled)).to be_true
-          expect(scheduled_message.consult).to eq(user.master_consult)
+          expect(scheduled_message.recipient).to eq(user)
           expect(scheduled_message.text).to eq(message_template.text)
           expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 24, 9, 0, 0, '-07:00'))
           expect(scheduled_message.variables['day']).to eq('Friday')
@@ -179,7 +179,7 @@ describe ScheduledPhoneCall do
         it 'does not schedule a message' do
           Timecop.freeze(Time.new(2014, 7, 25, 10, 0, 1, '-07:00'))
           expect{ scheduled_phone_call.reload.book! }.to change(ScheduledMessage, :count).by(0)
-          expect(user.master_consult.scheduled_messages.count).to eq(0)
+          expect(user.inbound_scheduled_communications.count).to eq(0)
           Timecop.return
         end
       end
@@ -197,10 +197,10 @@ describe ScheduledPhoneCall do
         it 'schedules the message for the scheduled day at 9AM pacific' do
           Timecop.freeze(Time.new(2014, 7, 28, 8, 0, 0, '-07:00'))
           expect{ scheduled_phone_call.reload.book! }.to change(ScheduledMessage, :count).by(1)
-          expect(user.master_consult.scheduled_messages.count).to eq(1)
+          expect(user.inbound_scheduled_communications.count).to eq(1)
           scheduled_message = scheduled_phone_call.reload.reminder_scheduled_message
           expect(scheduled_message.state?(:scheduled)).to be_true
-          expect(scheduled_message.consult).to eq(user.master_consult)
+          expect(scheduled_message.recipient).to eq(user)
           expect(scheduled_message.text).to eq(message_template.text)
           expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 28, 9, 0, 0, '-07:00'))
           expect(scheduled_message.variables['day']).to eq('today')
@@ -212,10 +212,10 @@ describe ScheduledPhoneCall do
         it 'schedules the message for the scheduled day at 9AM pacific' do
           Timecop.freeze(Time.new(2014, 7, 26, 8, 0, 0, '-07:00'))
           expect{ scheduled_phone_call.reload.book! }.to change(ScheduledMessage, :count).by(1)
-          expect(user.master_consult.scheduled_messages.count).to eq(1)
+          expect(user.inbound_scheduled_communications.count).to eq(1)
           scheduled_message = scheduled_phone_call.reload.reminder_scheduled_message
           expect(scheduled_message.state?(:scheduled)).to be_true
-          expect(scheduled_message.consult).to eq(user.master_consult)
+          expect(scheduled_message.recipient).to eq(user)
           expect(scheduled_message.text).to eq(message_template.text)
           expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 28, 9, 0, 0, '-07:00'))
           expect(scheduled_message.variables['day']).to eq('today')
@@ -227,10 +227,10 @@ describe ScheduledPhoneCall do
         it 'schedules the message for the scheduled day at 9AM pacific' do
           Timecop.freeze(Time.new(2014, 7, 25, 8, 0, 0, '-07:00'))
           expect{ scheduled_phone_call.reload.book! }.to change(ScheduledMessage, :count).by(1)
-          expect(user.master_consult.scheduled_messages.count).to eq(1)
+          expect(user.inbound_scheduled_communications.count).to eq(1)
           scheduled_message = scheduled_phone_call.reload.reminder_scheduled_message
           expect(scheduled_message.state?(:scheduled)).to be_true
-          expect(scheduled_message.consult).to eq(user.master_consult)
+          expect(scheduled_message.recipient).to eq(user)
           expect(scheduled_message.text).to eq(message_template.text)
           expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 28, 9, 0, 0, '-07:00'))
           expect(scheduled_message.variables['day']).to eq('today')
@@ -242,10 +242,10 @@ describe ScheduledPhoneCall do
         it 'schedules the message for the day before the weekend at 9AM pacific' do
           Timecop.freeze(Time.new(2014, 7, 24, 8, 0, 0, '-07:00'))
           expect{ scheduled_phone_call.reload.book! }.to change(ScheduledMessage, :count).by(1)
-          expect(user.master_consult.scheduled_messages.count).to eq(1)
+          expect(user.inbound_scheduled_communications.count).to eq(1)
           scheduled_message = scheduled_phone_call.reload.reminder_scheduled_message
           expect(scheduled_message.state?(:scheduled)).to be_true
-          expect(scheduled_message.consult).to eq(user.master_consult)
+          expect(scheduled_message.recipient).to eq(user)
           expect(scheduled_message.text).to eq(message_template.text)
           expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 25, 9, 0, 0, '-07:00'))
           expect(scheduled_message.variables['day']).to eq('Monday')
@@ -257,7 +257,7 @@ describe ScheduledPhoneCall do
         it 'does not schedule a message' do
           Timecop.freeze(Time.new(2014, 7, 28, 10, 0, 1, '-07:00'))
           expect{ scheduled_phone_call.reload.book! }.to change(ScheduledMessage, :count).by(0)
-          expect(user.master_consult.scheduled_messages.count).to eq(0)
+          expect(user.inbound_scheduled_communications.count).to eq(0)
           Timecop.return
         end
       end

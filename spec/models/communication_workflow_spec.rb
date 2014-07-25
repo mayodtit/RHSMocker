@@ -15,7 +15,7 @@ describe CommunicationWorkflow do
       expect{ communication_workflow.add_to_member(member) }.to change(ScheduledMessage, :count).by(1)
       s = ScheduledMessage.last
       expect(s.sender).to eq(pha)
-      expect(s.consult).to eq(member.master_consult)
+      expect(s.recipient).to eq(member)
       expect(s.text).to eq(message_workflow_template.message_template.text)
     end
 
