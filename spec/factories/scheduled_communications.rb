@@ -13,6 +13,11 @@ FactoryGirl.define do
       template 'automated_onboarding_survey_email'
     end
 
+    factory :scheduled_plain_text_email, class: ScheduledPlainTextEmail do
+      subject 'subject of the email'
+      text 'body of the email'
+    end
+
     trait :scheduled do
       state 'scheduled'
       publish_at Time.now + 1.day

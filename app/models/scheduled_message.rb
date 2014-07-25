@@ -7,11 +7,11 @@ class ScheduledMessage < ScheduledCommunication
   validates :message, presence: true, if: ->(s){s.message_id}
 
   def formatted_text
-    MessageTemplate.formatted_text(sender, recipient.master_consult, text, variables)
+    MessageTemplate.formatted_text(sender, recipient, text, variables)
   end
 
   def can_deliver?
-    MessageTemplate.can_format_text?(sender, recipient.master_consult, text, variables)
+    MessageTemplate.can_format_text?(sender, recipient, text, variables)
   end
 
   def deliver_message

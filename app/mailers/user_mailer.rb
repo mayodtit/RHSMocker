@@ -87,4 +87,13 @@ class UserMailer < ActionMailer::Base
     @pairs = pairs
     mail(to: Role.pha_stakeholders.map(&:email), subject: 'WARNING - Low welcome call availability')
   end
+
+  def plain_text_email(recipient, sender, subject, text)
+    mail(to: "#{recipient.full_name} <#{recipient.email}>",
+         from: "#{sender.full_name} <#{sender.email}>",
+         reply_to: "#{sender.full_name} <#{sender.email}>",
+         subject: subject) do |format|
+           format.text{ render text: text }
+         end
+  end
 end

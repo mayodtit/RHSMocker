@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140725004408) do
+ActiveRecord::Schema.define(:version => 20140725034227) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -571,6 +571,7 @@ ActiveRecord::Schema.define(:version => 20140725004408) do
     t.string   "type"
     t.integer  "recipient_id"
     t.string   "template"
+    t.string   "subject"
   end
 
   create_table "scheduled_phone_calls", :force => true do |t|

@@ -30,7 +30,7 @@ describe MessageTemplate do
       end
 
       it 'replaces text' do
-        MessageTemplate.should_receive(:formatted_text).with(sender, consult, message_template.text) { 'Test' }
+        MessageTemplate.should_receive(:formatted_text).with(sender, consult.initiator, message_template.text) { 'Test' }
         message = message_template.create_message(sender, consult)
         message.text.should == 'Test'
       end
@@ -57,45 +57,45 @@ describe MessageTemplate do
 
     describe '*|member_first_name|*' do
       it 'replaces member_first_name' do
-        expect(described_class.formatted_text(sender, consult, 'Hello *|member_first_name|*')).to eq("Hello #{consult.initiator.salutation}")
+        expect(described_class.formatted_text(sender, consult.initiator, 'Hello *|member_first_name|*')).to eq("Hello #{consult.initiator.salutation}")
       end
 
       it 'raises an error if the salutation is not present' do
         consult.initiator.stub(salutation: nil)
-        expect{ described_class.formatted_text(sender, consult, 'Hello *|member_first_name|*') }.to raise_error(RuntimeError)
+        expect{ described_class.formatted_text(sender, consult.initiator, 'Hello *|member_first_name|*') }.to raise_error(RuntimeError)
       end
     end
 
     describe '*|sender_first_name|*' do
       it 'replaces sender_first_name' do
-        expect(described_class.formatted_text(sender, consult, 'I am *|sender_first_name|*.')).to eq('I am Kevin.')
+        expect(described_class.formatted_text(sender, consult.initiator, 'I am *|sender_first_name|*.')).to eq('I am Kevin.')
       end
 
       it 'raises an error if the sender first name is not present' do
         sender.update_attributes(first_name: '')
-        expect{ described_class.formatted_text(sender, consult, 'Hello *|sender_first_name|*') }.to raise_error(RuntimeError)
+        expect{ described_class.formatted_text(sender, consult.initiator, 'Hello *|sender_first_name|*') }.to raise_error(RuntimeError)
       end
     end
 
     describe '*|pha_first_name|*' do
       it 'replaces pha_first_name' do
-        expect(described_class.formatted_text(sender, consult, 'Hello *|pha_first_name|*')).to eq("Hello #{sender.first_name}")
+        expect(described_class.formatted_text(sender, consult.initiator, 'Hello *|pha_first_name|*')).to eq("Hello #{sender.first_name}")
       end
 
       it 'raises an error if the salutation is not present' do
         sender.update_attributes(first_name: '')
-        expect{ described_class.formatted_text(sender, consult, 'Hello *|pha_first_name|*') }.to raise_error(RuntimeError)
+        expect{ described_class.formatted_text(sender, consult.initiator, 'Hello *|pha_first_name|*') }.to raise_error(RuntimeError)
       end
     end
 
     describe 'discrete variables' do
       it 'replaces any text with a variable key' do
-        expect(described_class.formatted_text(sender, consult, 'foo *|bar|*', {'bar' => 'baz'})).to eq('foo baz')
+        expect(described_class.formatted_text(sender, consult.initiator, 'foo *|bar|*', {'bar' => 'baz'})).to eq('foo baz')
       end
     end
 
     it 'raises an error when merge tags are not replaced' do
-      expect{ MessageTemplate.formatted_text(sender, consult, 'Hello *|member_first_name|*, I am *|sender_first_name|*. You *|test|*') }.to raise_error(RuntimeError)
+      expect{ MessageTemplate.formatted_text(sender, consult.initiator, 'Hello *|member_first_name|*, I am *|sender_first_name|*. You *|test|*') }.to raise_error(RuntimeError)
     end
   end
 end
