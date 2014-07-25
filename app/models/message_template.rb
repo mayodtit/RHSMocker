@@ -23,6 +23,15 @@ class MessageTemplate < ActiveRecord::Base
                             variables: variables)
   end
 
+  def create_scheduled_plain_text_email(sender, recipient, publish_at, variables={})
+    ScheduledPlainTextEmail.create(sender: sender,
+                                   recipient: recipient,
+                                   publish_at: publish_at,
+                                   subject: subject,
+                                   text: text,
+                                   variables: variables)
+  end
+
   def self.can_format_text?(sender, recipient, text, variables={})
     text.gsub(/\*\|.*?\|\*/) do |ftext|
       if ftext == '*|member_first_name|*' && recipient.salutation.present?

@@ -48,6 +48,19 @@ describe MessageTemplate do
         expect(scheduled_message.text).to eq(message_template.text)
       end
     end
+
+    describe '#create_scheduled_plain_text_email' do
+      it 'schedules a message' do
+        scheduled_email = message_template.create_scheduled_plain_text_email(sender,
+                                                                             consult.initiator,
+                                                                             publish_at)
+        expect(scheduled_email).to be_persisted
+        expect(scheduled_email.sender).to eq(sender)
+        expect(scheduled_email.recipient).to eq(consult.initiator)
+        expect(scheduled_email.publish_at).to eq(publish_at)
+        expect(scheduled_email.text).to eq(message_template.text)
+      end
+    end
   end
 
   describe '#formatted_text' do

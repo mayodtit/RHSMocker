@@ -57,6 +57,21 @@ MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
                                           {days_delayed: 4})
 
+AUTOMATED_ONBOARDING_EMAIL_2 = "Hi *|member_first_name|*,\n\n" +
+  "I'm just checking in to make sure you received my messages in the app. " +
+  "Be sure to turn on Push Notifications in the Settings on your phone. If " +
+  "you need help with messaging, reply to this email.\n\n" +
+  "I'm looking forward to helping you simplify your health needs. To get " +
+  "started, you can book a call through the app, or just send me a note " +
+  "here with a time that works for you.\n\n" +
+  "Take care,\n\n" +
+  "*|pha_first_name|*"
+m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Email 2'},
+                                      {text: AUTOMATED_ONBOARDING_EMAIL_2})
+PlainTextEmailWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                                  message_template_id: m.id},
+                                                 {days_delayed: 4})
+
 AUTOMATED_ONBOARDING_MESSAGE_3 = "How are you feeling today, " +
   "*|member_first_name|*? If you need information about health conditions " +
   "or new symptoms, let me connect you to our Mayo Clinic nurses. " +
