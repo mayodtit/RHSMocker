@@ -42,6 +42,11 @@ MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
                                           {days_delayed: 2})
 
+AUTOMATED_ONBOARDING_EMAIL_1 = 'automated_onboarding_survey_email'
+TemplateEmailWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                                 template: AUTOMATED_ONBOARDING_EMAIL_1},
+                                                {days_delayed: 2})
+
 AUTOMATED_ONBOARDING_MESSAGE_2 = "Hi *|member_first_name|*, do you or any " +
   "of your family members need a new doctor or specialist? I can find one " +
   "for you, book appointments, and help you prepare.  Let's get started " +
