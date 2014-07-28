@@ -439,8 +439,8 @@ class Member < User
   end
 
   def add_onboarding_group_programs
-    (onboarding_group.try(:onboarding_group_programs) || []).each do |program|
-      user_programs.create(program: program)
+    (onboarding_group.try(:programs) || []).each do |program|
+      user_programs.create(program: program, subject: self)
     end
   end
 
