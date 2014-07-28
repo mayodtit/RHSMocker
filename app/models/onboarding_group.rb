@@ -5,6 +5,8 @@ class OnboardingGroup < ActiveRecord::Base
   has_many :referral_codes, dependent: :nullify
   belongs_to :provider, class_name: 'User'
   has_many :onboarding_group_cards
+  has_many :onboaridng_group_programs
+  has_many :programs, through: :onboarding_group_programs
 
   attr_accessible :name, :premium, :free_trial_days,
                   :absolute_free_trial_ends_at, :provider, :provider_id

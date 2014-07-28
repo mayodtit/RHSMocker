@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140725042721) do
+ActiveRecord::Schema.define(:version => 20140728163822) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -409,6 +409,13 @@ ActiveRecord::Schema.define(:version => 20140725042721) do
     t.integer  "resource_id"
     t.string   "resource_type"
     t.integer  "priority"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
+
+  create_table "onboarding_group_programs", :force => true do |t|
+    t.integer  "onboarding_group_id"
+    t.integer  "program_id"
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
   end
