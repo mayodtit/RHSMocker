@@ -76,6 +76,26 @@ shared_examples 'length of' do |property|
   end
 end
 
+shared_examples 'numericality of' do |property|
+  its "#{property}" do
+    model = build_stubbed(described_class.name.underscore.to_sym)
+    model.should be_valid
+    model.send(:"#{property}=", nil)
+    model.should_not be_valid
+    model.errors[property.to_sym].should include('is not a number')
+  end
+end
+
+shared_examples 'integer numericality of' do |property|
+  its "#{property}" do
+    model = build_stubbed(described_class.name.underscore.to_sym)
+    model.should be_valid
+    model.send(:"#{property}=", 1.1)
+    model.should_not be_valid
+    model.errors[property.to_sym].should include('must be an integer')
+  end
+end
+
 # Using build_stubbed with these caused problems with PhoneCall (user is real)
 shared_examples 'cannot transition from' do |transition, states|
   states.each do |state|

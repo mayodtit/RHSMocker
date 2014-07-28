@@ -63,7 +63,11 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def scheduled_message
-    params.require(:scheduled_message).permit(:sender_id, :consult_id, :text, :state_event, :publish_at)
+    params.require(:scheduled_message).permit(:sender_id, :recipient_id, :text, :state_event, :publish_at)
+  end
+
+  def scheduled_communication
+    params.require(:scheduled_communication).permit(:sender_id, :recipient_id, :state_event, :publish_at)
   end
 
   def message_template

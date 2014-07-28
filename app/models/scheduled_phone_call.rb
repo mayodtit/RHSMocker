@@ -13,6 +13,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
   belongs_to :canceler, class_name: 'Member'
   belongs_to :ender, class_name: 'Member'
   belongs_to :phone_call
+  belongs_to :reminder_scheduled_message, class_name: 'ScheduledMessage'
   has_one :message, :inverse_of => :scheduled_phone_call
   delegate :consult, :to => :message
 
@@ -21,18 +22,28 @@ class ScheduledPhoneCall < ActiveRecord::Base
                   :assignor_id, :assignor, :booker_id, :booker,
                   :starter_id, :starter, :canceler_id, :canceler,
                   :ender_id, :ender, :scheduled_duration_s, :state_event,
-                  :state, :assigned_at, :callback_phone_number
+                  :state, :assigned_at, :callback_phone_number,
+                  :reminder_scheduled_message, :reminder_scheduled_message_id
 
   accepts_nested_attributes_for :message
 
   validates :scheduled_at, presence: true
   validates :user, presence: true, if: lambda{|spc| spc.user_id}
+  validates :reminder_scheduled_message, presence: true, if: ->(s){s.reminder_scheduled_message_id}
   validate :attrs_for_states
   validates :callback_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: false, if: lambda { |spc| spc.user_id }
 
   after_create :if_assigned_notify_owner
   after_save :set_user_phone_if_missing
-  after_save :hold_scheduled_messages
+  after_save :hold_scheduled_communications
+
+  def self.assigned
+    where(state: :assigned)
+  end
+
+  def self.in_period(start_time, end_time)
+    where('scheduled_at > ?', start_time).where('scheduled_at < ?', end_time)
+  end
 
   def user_confirmation_calendar_event
     RiCal.Event do |event|
@@ -116,12 +127,42 @@ Prep:
     end
   end
 
-  def hold_scheduled_messages
-    if user.try(:master_consult)
-      user.master_consult.scheduled_messages.scheduled.each do |m|
+  def hold_scheduled_communications
+    if user && (state_changed? || scheduled_at_changed?)
+      user.inbound_scheduled_communications.scheduled.each do |m|
         m.hold!
       end
     end
+  end
+
+  def create_reminder
+    return unless template = MessageTemplate.find_by_name('Welcome Call Reminder')
+    if ((Time.now.pacific.to_date == scheduled_at.pacific.to_date) ||
+        (Time.now.pacific.to_date >= 1.business_day.before(scheduled_at.pacific).to_date)) &&
+       (Time.now < (scheduled_at - 2.hours))
+      # scheduled today or tomorrow, send reminder in the morning on the day
+      publish_at = scheduled_at.pacific.nine_oclock
+      day = 'today'
+    elsif (Time.now < (scheduled_at - 2.hours))
+      # scheduled in the future, not today or tomorrow, send reminder the day before
+      publish_at = 1.business_day.before(scheduled_at.pacific).pacific.nine_oclock
+      day = scheduled_at.pacific.strftime('%A')
+    else
+      return
+    end
+    update_attributes!(reminder_scheduled_message: template.create_scheduled_message(owner,
+                                                                                     user.master_consult,
+                                                                                     publish_at,
+                                                                                     'day' => day))
+  end
+
+  def reschedule_reminder
+    if reminder_scheduled_message &&
+       !(reminder_scheduled_message.state?(:sent) ||
+         reminder_scheduled_message.state?(:canceled))
+      reminder_scheduled_message.cancel
+    end
+    create_reminder
   end
 
   private
@@ -175,6 +216,14 @@ Prep:
         mt = MessageTemplate.find_by_name 'Confirm Welcome Call OLD'
         mt.create_message(scheduled_phone_call.user.pha, scheduled_phone_call.user.master_consult, true, true) if mt
       end
+    end
+
+    after_transition :assigned => :booked do |scheduled_phone_call|
+      scheduled_phone_call.create_reminder
+    end
+
+    after_transition :booked => :booked do |scheduled_phone_call|
+      scheduled_phone_call.reschedule_reminder
     end
 
     before_transition any => :started do |scheduled_phone_call|

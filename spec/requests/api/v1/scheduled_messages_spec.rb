@@ -13,7 +13,7 @@ describe 'ScheduledMessages' do
   let(:pha) { create(:pha) }
 
   context 'existing record' do
-    let!(:scheduled_message) { create(:scheduled_message, sender: pha, consult: consult) }
+    let!(:scheduled_message) { create(:scheduled_message, sender: pha, recipient: consult.initiator) }
 
     describe 'GET /api/v1/consults/:consult_id/scheduled_messages' do
       def do_request

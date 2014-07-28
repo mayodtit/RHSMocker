@@ -1,5 +1,5 @@
 class Api::V1::ScheduledMessagesController < Api::V1::ABaseController
-  before_filter :load_consult!
+  before_filter :load_user!
   before_filter :load_scheduled_messages!
   before_filter :load_scheduled_message!, only: %i(show update destroy)
   before_filter :convert_parameters, only: :create
@@ -26,19 +26,18 @@ class Api::V1::ScheduledMessagesController < Api::V1::ABaseController
 
   private
 
-  def load_consult!
-    if params[:user_id]
-      @consult = Member.find(params[:user_id]).master_consult
+  def load_user!
+    if params[:consult_id]
+      @user = Consult.find(params[:consult_id]).initiator
     else
-      @consult = Consult.find(params[:consult_id])
+      @user = Member.find(params[:user_id])
     end
-    raise ActiveRecord::RecordNotFound, "Couldn't find Consult for User" unless @consult
-    authorize! :manage, @consult
+    authorize! :manage, @user
   end
 
   def load_scheduled_messages!
     authorize! :manage, ScheduledMessage
-    @scheduled_messages = @consult.scheduled_messages
+    @scheduled_messages = @user.inbound_scheduled_messages
   end
 
   def load_scheduled_message!

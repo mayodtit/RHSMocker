@@ -52,12 +52,29 @@ class ScheduledJobs
     end
   end
 
-  def self.transition_scheduled_messages
-    ScheduledMessage.held.publish_at_past_time.each do |m|
+  def self.alert_stakeholders_when_low_welcome_call_availability
+    start_time = Time.now
+    end_time = start_time + 1.week
+
+    available_call_counts = Member.phas_with_profile.inject({}) do |hash, pha|
+      available_count = pha.owned_scheduled_phone_calls.assigned.in_period(start_time, end_time).count
+      if available_count < 5
+        hash[pha] = available_count
+      end
+      hash
+    end
+
+    if available_call_counts.any?
+      UserMailer.notify_of_low_welcome_call_availability(available_call_counts).deliver
+    end
+  end
+
+  def self.transition_scheduled_communications
+    ScheduledCommunication.held.publish_at_past_time.each do |m|
       m.cancel!
     end
-    ScheduledMessage.scheduled.publish_at_past_time.each do |m|
-      m.send_message!
+    ScheduledCommunication.scheduled.publish_at_past_time.each do |m|
+      m.deliver!
     end
   end
 

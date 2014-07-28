@@ -20,9 +20,14 @@ namespace :scheduled do
     ScheduledJobs.alert_stakeholders_when_no_pha_on_call
   end
 
-  desc 'Transitions scheduled messages'
-  task :transition_scheduled_messages => :environment do
-    ScheduledJobs.transition_scheduled_messages
+  desc 'Alert stakeholders when there is low welcome call availability'
+  task :alert_stakeholders_when_low_welcome_call_availability => :environment do
+    ScheduledJobs.alert_stakeholders_when_low_welcome_call_availability
+  end
+
+  desc 'Transitions scheduled communications'
+  task transition_scheduled_communications: :environment do
+    ScheduledJobs.transition_scheduled_communications
   end
 
   desc 'Send referral card'

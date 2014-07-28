@@ -18,6 +18,8 @@ class Member < User
   has_many :message_statuses, foreign_key: :user_id
   has_many :phone_calls, foreign_key: :user_id
   has_many :scheduled_phone_calls, foreign_key: :user_id
+  has_many :owned_scheduled_phone_calls, class_name: 'ScheduledPhoneCall',
+                                         foreign_key: :owner_id
   has_many :invitations
   has_many :user_feature_groups, foreign_key: :user_id, dependent: :destroy
   has_many :feature_groups, through: :user_feature_groups
@@ -46,6 +48,15 @@ class Member < User
   belongs_to :onboarding_group, inverse_of: :users
   belongs_to :referral_code, inverse_of: :users
   has_many :user_requests, foreign_key: :user_id
+  has_many :outbound_scheduled_communications, class_name: 'ScheduledCommunication',
+                                               foreign_key: :sender_id,
+                                               inverse_of: :sender
+  has_many :inbound_scheduled_communications, class_name: 'ScheduledCommunication',
+                                              foreign_key: :recipient_id,
+                                              inverse_of: :recipient
+  has_many :inbound_scheduled_messages, class_name: 'ScheduledMessage',
+                                        foreign_key: :recipient_id,
+                                        inverse_of: :recipient
   accepts_nested_attributes_for :user_agreements
   attr_accessor :skip_agreement_validation
 
@@ -92,7 +103,9 @@ class Member < User
   before_create :set_auth_token # generate inital auth_token
   after_create :add_new_member_content
   after_create :add_owned_referral_code
-  after_save :add_automated_onboarding_message_workflow, if: ->(m){m.status?(:trial) && m.status_changed?}
+  after_create :add_onboarding_group_provider
+  after_create :add_onboarding_group_cards
+  after_save :add_automated_onboarding_communication_workflow, if: ->(m){m.status?(:trial) && m.status_changed?}
   after_save :send_state_emails
   after_save :notify_pha_of_new_member, if: ->(m){m.pha_id && m.pha_id_changed?}
   after_save :alert_stakeholders_on_call_status
@@ -126,6 +139,10 @@ class Member < User
   def self.phas
     # less efficient than Role.find.users, but safer because ensures Member
     joins(:roles).where(roles: {name: :pha})
+  end
+
+  def self.phas_with_profile
+    phas.joins(:pha_profile)
   end
 
   def self.phas_with_capacity
@@ -391,7 +408,6 @@ class Member < User
 
   def add_new_member_content
     cards.create(resource: Content.free_trial, priority: 30) if Content.free_trial
-    cards.create(resource: CustomCard.meet_your_pha, priority: 25) if CustomCard.meet_your_pha && pha.present?
     cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
     if @sunscreen_content = Content.find_by_document_id('MY01350')
       cards.create(resource: @sunscreen_content, priority: 1)
@@ -407,11 +423,25 @@ class Member < User
     create_owned_referral_code!(name: email)
   end
 
-  def add_automated_onboarding_message_workflow
-    if Metadata.automated_onboarding? && Metadata.new_onboarding_flow? && master_consult.try(:scheduled_messages).try(:empty?)
-      MessageWorkflow.automated_onboarding.try(:add_to_member, self)
-    elsif Metadata.automated_onboarding? && master_consult.try(:scheduled_messages).try(:empty?)
-      MessageWorkflow.automated_onboarding_old.try(:add_to_member, self)
+  def add_onboarding_group_provider
+    if onboarding_group.try(:provider)
+      associations.create(associate: onboarding_group.provider,
+                          association_type_id: AssociationType.hcp_default_id,
+                          creator: self)
+    end
+  end
+
+  def add_onboarding_group_cards
+    (onboarding_group.try(:onboarding_group_cards) || []).each do |card|
+      cards.create(resource: card.resource, priority: card.priority)
+    end
+  end
+
+  def add_automated_onboarding_communication_workflow
+    if Metadata.automated_onboarding? && Metadata.new_onboarding_flow? && inbound_scheduled_communications.empty?
+      CommunicationWorkflow.automated_onboarding.try(:add_to_member, self)
+    elsif Metadata.automated_onboarding? && inbound_scheduled_communications.empty?
+      CommunicationWorkflow.automated_onboarding_old.try(:add_to_member, self)
     end
   end
 

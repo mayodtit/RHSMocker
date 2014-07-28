@@ -38,7 +38,7 @@ class Message < ActiveRecord::Base
   after_create :notify_initiator
   after_create :create_task
   after_create :update_initiator_last_contact_at
-  after_create :hold_scheduled_messages
+  after_create :hold_scheduled_communications
 
   accepts_nested_attributes_for :phone_call
   accepts_nested_attributes_for :scheduled_phone_call
@@ -68,9 +68,9 @@ class Message < ActiveRecord::Base
     end
   end
 
-  def hold_scheduled_messages
-    if user.master_consult
-      user.master_consult.scheduled_messages.scheduled.each do |m|
+  def hold_scheduled_communications
+    if user
+      user.inbound_scheduled_communications.scheduled.each do |m|
         m.hold!
       end
     end

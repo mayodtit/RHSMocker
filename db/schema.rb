@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140716231836) do
+ActiveRecord::Schema.define(:version => 20140725042721) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -112,6 +112,22 @@ ActiveRecord::Schema.define(:version => 20140716231836) do
   end
 
   create_table "collection_types", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "communication_workflow_templates", :force => true do |t|
+    t.integer  "communication_workflow_id"
+    t.integer  "message_template_id"
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
+    t.integer  "days_delayed"
+    t.string   "type"
+    t.string   "template"
+  end
+
+  create_table "communication_workflows", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
@@ -346,20 +362,7 @@ ActiveRecord::Schema.define(:version => 20140716231836) do
     t.text     "text"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-  end
-
-  create_table "message_workflow_templates", :force => true do |t|
-    t.integer  "message_workflow_id"
-    t.integer  "message_template_id"
-    t.datetime "created_at",          :null => false
-    t.datetime "updated_at",          :null => false
-    t.integer  "days_delayed"
-  end
-
-  create_table "message_workflows", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.string   "subject"
   end
 
   create_table "messages", :force => true do |t|
@@ -401,6 +404,15 @@ ActiveRecord::Schema.define(:version => 20140716231836) do
     t.datetime "disabled_at"
   end
 
+  create_table "onboarding_group_cards", :force => true do |t|
+    t.integer  "onboarding_group_id"
+    t.integer  "resource_id"
+    t.string   "resource_type"
+    t.integer  "priority"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
+
   create_table "onboarding_groups", :force => true do |t|
     t.string   "name"
     t.boolean  "premium",                     :default => false, :null => false
@@ -408,6 +420,7 @@ ActiveRecord::Schema.define(:version => 20140716231836) do
     t.datetime "absolute_free_trial_ends_at"
     t.datetime "created_at",                                     :null => false
     t.datetime "updated_at",                                     :null => false
+    t.integer  "provider_id"
   end
 
   create_table "parsed_nurseline_records", :force => true do |t|
@@ -546,27 +559,31 @@ ActiveRecord::Schema.define(:version => 20140716231836) do
   add_index "roles", ["name", "resource_type", "resource_id"], :name => "index_roles_on_name_and_resource_type_and_resource_id"
   add_index "roles", ["name"], :name => "index_roles_on_name"
 
-  create_table "scheduled_messages", :force => true do |t|
+  create_table "scheduled_communications", :force => true do |t|
     t.integer  "sender_id"
-    t.integer  "consult_id"
     t.integer  "message_id"
     t.text     "text"
     t.string   "state"
     t.datetime "publish_at"
-    t.datetime "sent_at"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "delivered_at"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.text     "variables"
+    t.string   "type"
+    t.integer  "recipient_id"
+    t.string   "template"
+    t.string   "subject"
   end
 
   create_table "scheduled_phone_calls", :force => true do |t|
     t.integer  "user_id"
     t.integer  "phone_call_id"
     t.datetime "scheduled_at"
-    t.datetime "created_at",                                      :null => false
-    t.datetime "updated_at",                                      :null => false
+    t.datetime "created_at",                                              :null => false
+    t.datetime "updated_at",                                              :null => false
     t.datetime "disabled_at"
     t.integer  "owner_id"
-    t.string   "state",                 :default => "unassigned"
+    t.string   "state",                         :default => "unassigned"
     t.integer  "assignor_id"
     t.datetime "assigned_at"
     t.integer  "booker_id"
@@ -577,8 +594,9 @@ ActiveRecord::Schema.define(:version => 20140716231836) do
     t.datetime "canceled_at"
     t.integer  "ender_id"
     t.datetime "ended_at"
-    t.integer  "scheduled_duration_s",  :default => 1800,         :null => false
+    t.integer  "scheduled_duration_s",          :default => 1800,         :null => false
     t.string   "callback_phone_number"
+    t.integer  "reminder_scheduled_message_id"
   end
 
   add_index "scheduled_phone_calls", ["scheduled_at"], :name => "index_scheduled_phone_calls_on_scheduled_at"

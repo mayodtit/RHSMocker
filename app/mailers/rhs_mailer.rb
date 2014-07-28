@@ -120,49 +120,90 @@ class RHSMailer < MandrillMailer::TemplateMailer
     )
   end
 
-  WELCOME_CALL_CONFIRMATION_CLARE = 'Call Confirmation Clare 7/9/14'
-  WELCOME_CALL_CONFIRMATION_LAUREN = 'Call Confirmation Lauren 7/9/14'
-  WELCOME_CALL_CONFIRMATION_MEG = 'Call Confirmation Meg 7/9/14'
-  WELCOME_CALL_CONFIRMATION_NINETTE = 'Call Confirmation Ninette 7/9/14'
-  WELCOME_CALL_CONFIRMATION_JENN = 'Call Confirmation Jenn 7/9/14'
+  WELCOME_CALL_CONFIRMATION = 'Call Confirmation 7/22/14 from Better.'
 
   def scheduled_phone_call_member_confirmation_email(spc_id)
     spc = ScheduledPhoneCall.find(spc_id)
-    from_email = spc.owner.email
-
-    t = case from_email
-        when 'clare@getbetter.com'
-          WELCOME_CALL_CONFIRMATION_CLARE
-        when 'lauren@getbetter.com'
-          WELCOME_CALL_CONFIRMATION_LAUREN
-        when 'meg@getbetter.com'
-          WELCOME_CALL_CONFIRMATION_MEG
-        when 'ninette@getbetter.com'
-          WELCOME_CALL_CONFIRMATION_NINETTE
-        when 'jenn@getbetter.com'
-          WELCOME_CALL_CONFIRMATION_JENN
-        else
-          raise 'Must have PHA to send Welcome Call Confirmation'
-        end
 
     mandrill_mail(
       subject: 'Your Better Call Confirmation',
-      from: from_email,
-      from_name: spc.owner.full_name,
-      to: { email: spc.user.email },
-      template: t,
+      from: 'premium@getbetter.com',
+      from_name: 'Better',
+      to: {email: spc.user.email},
+      template: WELCOME_CALL_CONFIRMATION,
       headers: {
-        'Reply-To' => "#{spc.owner.full_name} <premium@getbetter.com>"
+        'Reply-To' => "Better <premium@getbetter.com>"
       },
       vars: {
         FNAME: spc.user.salutation,
-        PHONENUM: spc.callback_phone_number
+        PHONENUM: spc.callback_phone_number,
+        PHA: spc.owner.first_name
       },
       attachments: [
-        { file: spc.user_confirmation_calendar_event.export,
+        {
+          file: spc.user_confirmation_calendar_event.export,
           filename: 'event.ics',
-          mime_type: 'text/calendar' }
+          mime_type: 'text/calendar'
+        }
       ]
+    )
+  end
+
+  AUTOMATED_ONBOARDING_SURVEY = '"Survey" email on Day 3 of Trial (7/25/14)'
+
+  def automated_onboarding_survey_email(user, pha)
+    mandrill_mail(
+      subject: 'What can I help you with?',
+      from: pha.email,
+      from_name: pha.full_name,
+      to: {email: user.email},
+      template: AUTOMATED_ONBOARDING_SURVEY,
+      headers: {
+        'Reply-To' => "#{pha.full_name} <#{pha.email}>"
+      },
+      vars: {
+        FNAME: user.salutation,
+        PHA: pha.first_name,
+        PHA_EMAIL: "#{pha.full_name} <#{pha.email}>"
+      },
+    )
+  end
+
+  AUTOMATED_ONBOARDING_TESTIMONIALS_CLARE = 'Reminder to Schedule Welcome Call Clare 7/25'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_LAUREN = 'Reminder to Schedule Welcome Call Lauren 7/25'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_MEG = 'Reminder to Schedule Welcome Call Meg 7/25'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_NINETTE = 'Reminder to Schedule Welcome Call Ninette 7/25'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_JENN = 'Reminder to Schedule Welcome Call Jenn 7/25'
+
+  def automated_onboarding_testimonials_email(user, pha)
+    template = case pha.email
+               when 'clare@getbetter.com'
+                 AUTOMATED_ONBOARDING_TESTIMONIALS_CLARE
+               when 'lauren@getbetter.com'
+                 AUTOMATED_ONBOARDING_TESTIMONIALS_LAUREN
+               when 'meg@getbetter.com'
+                 AUTOMATED_ONBOARDING_TESTIMONIALS_MEG
+               when 'ninette@getbetter.com'
+                 AUTOMATED_ONBOARDING_TESTIMONIALS_NINETTE
+               when 'jenn@getbetter.com'
+                 AUTOMATED_ONBOARDING_TESTIMONIALS_JENN
+               else
+                 raise 'Unknown PHA, not sending!'
+               end
+
+    mandrill_mail(
+      subject: "Let's chat",
+      from: pha.email,
+      from_name: pha.full_name,
+      to: {email: user.email},
+      template: template,
+      headers: {
+        'Reply-To' => "#{pha.full_name} <#{pha.email}>"
+      },
+      vars: {
+        FNAME: user.salutation,
+        PHA: pha.first_name
+      },
     )
   end
 end
