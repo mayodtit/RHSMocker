@@ -70,7 +70,9 @@ class Member < User
                   :onboarding_group, :onboarding_group_id,
                   :referral_code, :referral_code_id, :on_call,
                   :owned_referral_code,
-                  :status, :status_event, :gcm_id
+                  :status, :status_event, :gcm_id, :device_app_version,
+                  :device_app_build, :device_timezone,
+                  :device_notifications_enabled, :device_os
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}

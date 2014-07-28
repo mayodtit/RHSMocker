@@ -2,6 +2,7 @@ class Api::V1::PingController < Api::V1::ABaseController
   skip_before_filter :authentication_check, :unless => lambda{ params[:auth_token] }
   after_filter :store_apns_token!, if: -> { params[:auth_token] }
   after_filter :store_gcm_id!, if: -> { params[:auth_token] }
+  after_filter :store_device_information!, if: -> { params[:auth_token] }
 
   def index
     hash = { revision: REVISION, use_invite_flow: Metadata.use_invite_flow?, enable_sharing: Metadata.enable_sharing? }
@@ -32,5 +33,33 @@ class Api::V1::PingController < Api::V1::ABaseController
 
   def store_gcm_id!
     current_user.store_gcm_id!(params[:android_gcm_id]) if params[:android_gcm_id]
+  end
+
+  def store_device_information!
+    changed_attributes = {}
+
+    if params[:device_os] && (current_user.device_os != params[:device_os])
+      changed_attributes[:device_os] = params[:device_os]
+    end
+
+    if params[:app_version] && (current_user.device_app_version != params[:app_version])
+      changed_attributes[:device_app_version] = params[:app_version]
+    end
+
+    if params[:app_build] && (current_user.device_app_build != params[:app_build])
+      changed_attributes[:device_app_build] = params[:app_build]
+    end
+
+    if params[:device_timezone] && (current_user.device_timezone != params[:device_timezone])
+      changed_attributes[:device_timezone] = params[:device_timezone]
+    end
+
+    if !params[:notifications_enabled].nil? && (current_user.device_notifications_enabled != params[:notifications_enabled])
+      changed_attributes[:device_notifications_enabled] = params[:notifications_enabled]
+    end
+
+    unless changed_attributes.empty?
+      current_user.update_attributes!(changed_attributes)
+    end
   end
 end
