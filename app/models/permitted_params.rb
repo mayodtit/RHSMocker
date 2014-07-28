@@ -86,6 +86,8 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
 
   def user_attributes
     base_user_attributes.tap do |attributes|
+      attributes << :install_id
+
       if !current_user
         attributes.concat(secure_user_attributes)
         attributes << {user_agreements_attributes: [:agreement_id, :ip_address, :user_agent]}
