@@ -70,7 +70,9 @@ class Member < User
                   :onboarding_group, :onboarding_group_id,
                   :referral_code, :referral_code_id, :on_call,
                   :owned_referral_code,
-                  :status, :status_event, :gcm_id
+                  :status, :status_event, :gcm_id, :device_app_version,
+                  :device_app_build, :device_timezone,
+                  :device_notifications_enabled, :device_os
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
@@ -105,6 +107,7 @@ class Member < User
   after_create :add_owned_referral_code
   after_create :add_onboarding_group_provider
   after_create :add_onboarding_group_cards
+  after_create :add_onboarding_group_programs
   after_save :add_automated_onboarding_communication_workflow, if: ->(m){m.status?(:trial) && m.status_changed?}
   after_save :send_state_emails
   after_save :notify_pha_of_new_member, if: ->(m){m.pha_id && m.pha_id_changed?}
@@ -434,6 +437,12 @@ class Member < User
   def add_onboarding_group_cards
     (onboarding_group.try(:onboarding_group_cards) || []).each do |card|
       cards.create(resource: card.resource, priority: card.priority)
+    end
+  end
+
+  def add_onboarding_group_programs
+    (onboarding_group.try(:programs) || []).each do |program|
+      user_programs.create(program: program, subject: self)
     end
   end
 

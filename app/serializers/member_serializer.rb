@@ -12,7 +12,9 @@ class MemberSerializer < ActiveModel::Serializer
              :pha_id, :pha_profile_bio_image_url, :pha_profile_url,
              :show_welcome_call, :pha_full_name, :last_contact_at,
              :has_master_consult, :subscription_end_date, :subscription_ends_at,
-             :invitation_url, :signed_up_at, :has_welcome_call
+             :invitation_url, :signed_up_at, :has_welcome_call, :device_app_version,
+             :device_app_build, :device_timezone, :device_notifications_enabled,
+             :device_os
 
   def attributes
     if options[:shallow]

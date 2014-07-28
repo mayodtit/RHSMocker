@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140725042721) do
+ActiveRecord::Schema.define(:version => 20140728184658) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -409,6 +409,13 @@ ActiveRecord::Schema.define(:version => 20140725042721) do
     t.integer  "resource_id"
     t.string   "resource_type"
     t.integer  "priority"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
+
+  create_table "onboarding_group_programs", :force => true do |t|
+    t.integer  "onboarding_group_id"
+    t.integer  "program_id"
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
   end
@@ -980,6 +987,11 @@ ActiveRecord::Schema.define(:version => 20140725042721) do
     t.boolean  "on_call",                                       :default => false
     t.string   "status"
     t.string   "gcm_id"
+    t.string   "device_os"
+    t.string   "device_app_version"
+    t.string   "device_app_build"
+    t.string   "device_timezone"
+    t.boolean  "device_notifications_enabled"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
