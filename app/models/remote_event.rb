@@ -26,6 +26,6 @@ class RemoteEvent < ActiveRecord::Base
 
   def log
     Analytics.log_remote_event(id)
-    Analytics.log_mixpanel(id) if Rails.env.production?
+    Analytics.log_mixpanel(id)
   end
 end
