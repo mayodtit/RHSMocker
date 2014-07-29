@@ -57,6 +57,8 @@ class Member < User
   has_many :inbound_scheduled_messages, class_name: 'ScheduledMessage',
                                         foreign_key: :recipient_id,
                                         inverse_of: :recipient
+  has_many :referring_scheduled_communications, class_name: 'ScheduledCommunication',
+                                                as: :reference
   accepts_nested_attributes_for :user_agreements
   attr_accessor :skip_agreement_validation
 
@@ -112,6 +114,7 @@ class Member < User
   after_save :send_state_emails
   after_save :notify_pha_of_new_member, if: ->(m){m.pha_id && m.pha_id_changed?}
   after_save :alert_stakeholders_on_call_status
+  after_save :update_referring_scheduled_communications, if: ->(m){m.free_trial_ends_at_changed?}
 
   SIGNED_UP_STATES = %i(free trial premium chamath)
   def self.signed_up
@@ -478,5 +481,15 @@ class Member < User
 
   def skip_agreement_validation
     @skip_agreement_validation || false
+  end
+
+  def update_referring_scheduled_communications
+    if free_trial_ends_at.nil?
+      referring_scheduled_communications.destroy_all
+    else
+      referring_scheduled_communications.each do |rsc|
+        rsc.update_publish_at_from_calculation!
+      end
+    end
   end
 end

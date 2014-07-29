@@ -35,5 +35,15 @@ FactoryGirl.define do
     trait :canceled do
       state 'canceled'
     end
+
+    trait :failed do
+      state 'failed'
+    end
+
+    trait :with_reference do
+      reference { recipient }
+      reference_event :free_trial_ends_at
+      relative_days 0
+    end
   end
 end
