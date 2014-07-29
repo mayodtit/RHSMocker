@@ -1,7 +1,7 @@
 class RemoteEvent < ActiveRecord::Base
   belongs_to :user
 
-  attr_accessible :user, :user_id, :data
+  attr_accessible :user, :user_id, :data, :device_id
   validates :data, presence: true
 
   after_create :log
@@ -20,6 +20,10 @@ class RemoteEvent < ActiveRecord::Base
 
   def data_json
     @dj ||= JSON.parse(data)
+  end
+
+  def uid
+    (user && user.id) || device_id
   end
 
   private

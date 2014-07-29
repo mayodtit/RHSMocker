@@ -10,8 +10,9 @@ class Api::V1::RemoteEventsController < Api::V1::ABaseController
   def remote_event_params
     user = params[:auth_token].present? ? Member.find_by_auth_token(params[:auth_token]) : current_user
     {
-      :user => user,
-      :data => params.to_json
+      user: user,
+      device_id: params[:properties][:device_id],
+      data: params.to_json
     }
   end
 end
