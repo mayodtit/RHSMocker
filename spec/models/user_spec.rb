@@ -383,4 +383,23 @@ describe User do
       end
     end
   end
+
+  describe '#test?' do
+    it 'returns false if email is nil' do
+      build_stubbed(:user, email: nil).should_not be_test
+    end
+
+    it 'returns true if email is @getbetter.com' do
+      build_stubbed(:user, email: 'abhik@getbetter.com').should be_test
+    end
+
+    it 'returns true if email is @example.com' do
+      build_stubbed(:user, email: 'abhik@example.com').should be_test
+    end
+
+    it 'returns false if email ends with something else' do
+      build_stubbed(:user, email: 'abhik@mayo.example.com').should_not be_test
+      build_stubbed(:user, email: 'abhik@gmail.com').should_not be_test
+    end
+  end
 end

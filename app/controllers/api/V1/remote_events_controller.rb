@@ -2,16 +2,24 @@ class Api::V1::RemoteEventsController < Api::V1::ABaseController
   skip_before_filter :authentication_check
 
   def create
-    create_resource(RemoteEvent, remote_event_params)
+    user = user()
+    if Rails.env.production? && user && user.test?
+      render_success
+    else
+      create_resource RemoteEvent, remote_event_params(user)
+    end
   end
 
   private
 
-  def remote_event_params
-    user = params[:auth_token].present? ? Member.find_by_auth_token(params[:auth_token]) : current_user
+  def user
+    params[:auth_token].present? ? Member.find_by_auth_token(params[:auth_token]) : current_user
+  end
+
+  def remote_event_params(user)
     {
       user: user,
-      device_id: params[:properties][:device_id],
+      device_id: params[:properties] && params[:properties][:device_id],
       data: params.to_json
     }
   end
