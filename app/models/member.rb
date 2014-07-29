@@ -84,7 +84,6 @@ class Member < User
                                 message: "must be 8 or more characters long"},
                        confirmation: true,
                        if: :password
-  validates :install_id, uniqueness: true, allow_nil: true
   validates :units, inclusion: {in: %w(US Metric)}
   validates :terms_of_service_and_privacy_policy, acceptance: {accept: true},
                                                   if: ->(m){!skip_agreement_validation && (m.signed_up? || m.password)}
