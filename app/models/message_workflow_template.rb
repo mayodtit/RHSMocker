@@ -6,9 +6,12 @@ class MessageWorkflowTemplate < CommunicationWorkflowTemplate
   validates :message_template, presence: true
 
   def add_to_member(member, relative_time)
-    ScheduledMessage.create!(sender: member.pha,
-                             recipient: member,
-                             text: message_template.text,
-                             publish_at: days_delayed.business_days.after(relative_time))
+    create_attributes = reference_attributes(member).merge!({
+      sender: member.pha,
+      recipient: member,
+      text: message_template.text,
+      publish_at: calculated_publish_at(relative_time)
+    })
+    ScheduledMessage.create!(create_attributes)
   end
 end

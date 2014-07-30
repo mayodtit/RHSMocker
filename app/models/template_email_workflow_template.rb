@@ -4,9 +4,12 @@ class TemplateEmailWorkflowTemplate < CommunicationWorkflowTemplate
   validates :template, presence: true
 
   def add_to_member(member, relative_time)
-    ScheduledTemplateEmail.create!(sender: member.pha,
-                                   recipient: member,
-                                   template: template,
-                                   publish_at: days_delayed.business_days.after(relative_time))
+    create_attributes = reference_attributes(member).merge!({
+      sender: member.pha,
+      recipient: member,
+      template: template,
+      publish_at: calculated_publish_at(relative_time)
+    })
+    ScheduledTemplateEmail.create!(create_attributes)
   end
 end

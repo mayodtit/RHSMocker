@@ -40,12 +40,12 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 1'},
                                        {text: AUTOMATED_ONBOARDING_MESSAGE_1})
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
-                                          {days_delayed: 2})
+                                          {relative_days: 2})
 
 AUTOMATED_ONBOARDING_EMAIL_1 = 'automated_onboarding_survey_email'
 TemplateEmailWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                                  template: AUTOMATED_ONBOARDING_EMAIL_1},
-                                                {days_delayed: 2})
+                                                {relative_days: 2})
 
 AUTOMATED_ONBOARDING_MESSAGE_2 = "Hi *|member_first_name|*, do you or any " +
   "of your family members need a new doctor or specialist? I can find one " +
@@ -55,7 +55,7 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 2'},
                                        {text: AUTOMATED_ONBOARDING_MESSAGE_2})
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
-                                          {days_delayed: 4})
+                                          {relative_days: 4})
 
 AUTOMATED_ONBOARDING_EMAIL_2 = "Hi *|member_first_name|*,\n\n" +
   "I'm just checking in to make sure you received my messages in the app. " +
@@ -72,7 +72,7 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Email 2'},
                                        text: AUTOMATED_ONBOARDING_EMAIL_2})
 PlainTextEmailWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                                   message_template_id: m.id},
-                                                 {days_delayed: 4})
+                                                 {relative_days: 4})
 
 AUTOMATED_ONBOARDING_MESSAGE_3 = "How are you feeling today, " +
   "*|member_first_name|*? If you need information about health conditions " +
@@ -83,12 +83,12 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 3'},
                                        {text: AUTOMATED_ONBOARDING_MESSAGE_3})
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
-                                          {days_delayed: 6})
+                                          {relative_days: 6})
 
 AUTOMATED_ONBOARDING_EMAIL_3 = 'automated_onboarding_testimonials_email'
 TemplateEmailWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                                  template: AUTOMATED_ONBOARDING_EMAIL_3},
-                                                {days_delayed: 7})
+                                                {relative_days: 7})
 
 AUTOMATED_ONBOARDING_MESSAGE_4 = "What are your health goals, *|member_first_name|*? " +
   "Would you like me to help you work on better sleep, fitness, or " +
@@ -98,7 +98,7 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 4'},
                                        {text: AUTOMATED_ONBOARDING_MESSAGE_4})
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
-                                          {days_delayed: 7})
+                                          {relative_days: 7})
 
 OFFBOARD_ENGAGED_MEMBER = "I wanted to let you know that your free trial " +
   "ends tomorrow. If you'd like to keep working together, you can become " +
@@ -122,7 +122,7 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 1 OLD
                                        {text: AUTOMATED_ONBOARDING_MESSAGE_1_OLD})
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
-                                          {days_delayed: 2})
+                                          {relative_days: 2})
 
 AUTOMATED_ONBOARDING_MESSAGE_2_OLD = "Hi *|member_first_name|*, do you or " +
   "any of your family members need a new doctor or specialist? I can find " +
@@ -133,7 +133,7 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 2 OLD
                                        {text: AUTOMATED_ONBOARDING_MESSAGE_2_OLD})
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
-                                          {days_delayed: 4})
+                                          {relative_days: 4})
 
 AUTOMATED_ONBOARDING_MESSAGE_3_OLD = "How are you feeling today, " +
   "*|member_first_name|*? If you need information about health conditions " +
@@ -144,7 +144,7 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 3 OLD
                                        {text: AUTOMATED_ONBOARDING_MESSAGE_3_OLD})
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
-                                          {days_delayed: 6})
+                                          {relative_days: 6})
 
 AUTOMATED_ONBOARDING_MESSAGE_4_OLD = "What are your health goals, " +
   "*|member_first_name|*? Would you like me to help you work on better " +
@@ -153,7 +153,7 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 4 OLD
                                        {text: AUTOMATED_ONBOARDING_MESSAGE_4_OLD})
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
-                                          {days_delayed: 8})
+                                          {relative_days: 8})
 
 WELCOME_CALL_REMINDER = "I'm looking forward to our call *|day|*. Let me " +
   "know if you have any questions or need to reschedule."
