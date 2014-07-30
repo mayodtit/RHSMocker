@@ -110,7 +110,7 @@ class Member < User
   after_create :add_onboarding_group_provider
   after_create :add_onboarding_group_cards
   after_create :add_onboarding_group_programs
-  after_save :add_automated_onboarding_communication_workflow, if: ->(m){m.status?(:trial) && m.status_changed?}
+  after_save :add_automated_communication_workflows, if: ->(m){m.status?(:trial) && m.status_changed?}
   after_save :send_state_emails
   after_save :notify_pha_of_new_member, if: ->(m){m.pha_id && m.pha_id_changed?}
   after_save :alert_stakeholders_on_call_status
@@ -449,11 +449,17 @@ class Member < User
     end
   end
 
-  def add_automated_onboarding_communication_workflow
-    if Metadata.automated_onboarding? && Metadata.new_onboarding_flow? && inbound_scheduled_communications.empty?
+  def add_automated_communication_workflows
+    return unless inbound_scheduled_communications.empty?
+
+    if Metadata.automated_onboarding? && Metadata.new_onboarding_flow?
       CommunicationWorkflow.automated_onboarding.try(:add_to_member, self)
     elsif Metadata.automated_onboarding? && inbound_scheduled_communications.empty?
       CommunicationWorkflow.automated_onboarding_old.try(:add_to_member, self)
+    end
+
+    if Metadata.automated_offboarding?
+      CommunicationWorkflow.automated_offboarding.try(:add_to_member, self)
     end
   end
 

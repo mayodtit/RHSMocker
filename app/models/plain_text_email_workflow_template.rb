@@ -6,7 +6,7 @@ class PlainTextEmailWorkflowTemplate < CommunicationWorkflowTemplate
   validates :message_template, presence: true
 
   def add_to_member(member, relative_time)
-    create_attributes = relative_attributes(member).merge!({
+    create_attributes = reference_attributes(member).merge!({
       sender: member.pha,
       recipient: member,
       subject: message_template.subject,
