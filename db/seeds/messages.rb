@@ -1,6 +1,6 @@
-NEW_PREMIUM_MEMBER = "Hi *|member_first_name|*, welcome to Better. I'm " +
+NEW_PREMIUM_MEMBER = "Hi *|member_first_name|*, I'm " +
   "*|sender_first_name|*, your Personal Health Assistant. I'm here to " +
-  "handle any of your health needs, so you can focus on being well. Let's " +
+  "handle any of your health needs. Let's " +
   "get started with a 10-minute call: " +
   "[schedule here](better://nb?cmd=scheduleCall). If you have any questions " +
   "or immediate needs, just send me a message."
