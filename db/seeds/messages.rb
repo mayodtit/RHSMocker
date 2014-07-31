@@ -169,7 +169,8 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Offboarding Message 1'},
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
                                           {relative_days: -1,
-                                           reference_event: :recipient_free_trial_ends_at})
+                                           reference_event: :recipient_free_trial_ends_at,
+                                           system_message: true})
 
 AUTOMATED_OFFBOARDING_MESSAGE_2 = "Hi *|member_first_name|*, Thank you for " +
   "your interest in Better. I wanted to let you know that your free trial " +
@@ -193,7 +194,7 @@ AUTOMATED_OFFBOARDING_EMAIL_1 = "Hi *|member_first_name|*,\n\n" +
   "support@getbetter.com.\n\n" +
   "Take care,\n" +
   "*|pha_first_name|*"
-AUTOMATED_OFFBOARDING_EMAIL_1_SUBJECT = "Whatever."
+AUTOMATED_OFFBOARDING_EMAIL_1_SUBJECT = "Your trial ends today"
 m = MessageTemplate.upsert_attributes({name: 'Automated Offboarding Email 1'},
                                       {subject: AUTOMATED_OFFBOARDING_EMAIL_1_SUBJECT,
                                        text: AUTOMATED_OFFBOARDING_EMAIL_1})
@@ -212,4 +213,5 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Offboarding Message 3'},
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
                                           {relative_days: 1,
-                                           reference_event: :recipient_free_trial_ends_at})
+                                           reference_event: :recipient_free_trial_ends_at,
+                                           system_message: true})

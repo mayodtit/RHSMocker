@@ -15,15 +15,23 @@ describe ScheduledCommunication do
   it_has_a 'valid factory', :delivered
   it_has_a 'valid factory', :canceled
   it_has_a 'valid factory', :with_reference
-  it_validates 'presence of', :sender
-  it_validates 'presence of', :recipient
-  it_validates 'foreign key of', :reference
-  it_validates 'numericality of', :relative_days
-  it_validates 'integer numericality of', :relative_days
-  it 'validates presence of reference when reference_event is present' do
-    sc = build_stubbed(:scheduled_communication, reference_event: :free_trial_ends_at)
-    expect(sc).to_not be_valid
-    expect(sc.errors[:reference]).to include("can't be blank")
+
+  describe 'validations' do
+    before do
+      described_class.any_instance.stub(:set_defaults)
+    end
+
+    it_validates 'presence of', :sender
+    it_validates 'presence of', :recipient
+    it_validates 'foreign key of', :reference
+    it_validates 'numericality of', :relative_days
+    it_validates 'integer numericality of', :relative_days
+    it 'validates presence of reference when reference_event is present' do
+      sc = build_stubbed(:scheduled_communication, reference_event: :free_trial_ends_at)
+      expect(sc).to_not be_valid
+      expect(sc.errors[:reference]).to include("can't be blank")
+    end
+    it_validates 'inclusion of', :system_message
   end
 
   context 'with a reference' do
