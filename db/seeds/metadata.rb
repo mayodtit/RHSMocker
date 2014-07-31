@@ -14,7 +14,8 @@
   {key: 'signup_free_trial', value: 'true'},
   {key: 'new_onboarding_flow', value: 'true'},
   {key: 'offboard_free_trial_members', value: 'true'},
-  {key: 'automated_onboarding', value: 'true'}
+  {key: 'automated_onboarding', value: 'true'},
+  {key: 'automated_offboarding', value: 'true'}
 ].each do |hash|
   Metadata.upsert_attributes({mkey: hash[:key]}, {mvalue: hash[:value]})
 end

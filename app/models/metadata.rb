@@ -106,4 +106,8 @@ class Metadata < ActiveRecord::Base
   def self.automated_onboarding?
     Metadata.find_by_mkey('automated_onboarding').try(:mvalue) == 'true'
   end
+
+  def self.automated_offboarding?
+    Metadata.find_by_mkey('automated_offboarding').try(:mvalue) == 'true'
+  end
 end

@@ -170,6 +170,34 @@ describe Member do
         expect(member.programs.where(programs: {id: program.id}).count).to eq(1)
       end
     end
+
+    describe '#update_referring_scheduled_communications' do
+      let!(:member) { create(:member, :trial) }
+
+      it 'is only called when free_trial_ends_at is changed' do
+        member.should_not_receive(:update_referring_scheduled_communications)
+        member.save!
+      end
+
+      context 'when free_trial_ends_at changes' do
+        let!(:scheduled_communication) { create(:scheduled_communication, :with_reference, reference: member) }
+
+        context 'free_trial_ends_at is nil' do
+          it 'destroys all referring scheduled communications' do
+            expect(member.reload.update_attributes(status_event: :upgrade, free_trial_ends_at: nil)).to be_true
+            expect(ScheduledCommunication.find_by_id(scheduled_communication.id)).to be_nil
+          end
+        end
+
+        context 'free_trial_ends_at is present' do
+          it 'calls update_publish_at_from_calculation! on all referring scheduled communications' do
+            publish_at = scheduled_communication.publish_at
+            expect(member.update_attributes(free_trial_ends_at: Time.now + 5.days)).to be_true
+            expect(scheduled_communication.reload.publish_at).to_not eq(publish_at)
+          end
+        end
+      end
+    end
   end
 
   context 'agreement exists' do
