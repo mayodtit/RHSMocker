@@ -13,7 +13,8 @@ class MessageWorkflowTemplate < CommunicationWorkflowTemplate
       sender: member.pha,
       recipient: member,
       text: message_template.text,
-      publish_at: calculated_publish_at(relative_time)
+      publish_at: calculated_publish_at(relative_time),
+      system_message: system_message
     })
     ScheduledMessage.create!(create_attributes)
   end
