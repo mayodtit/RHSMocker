@@ -3,7 +3,7 @@ class Api::V1::RemoteEventsController < Api::V1::ABaseController
 
   def create
     user = user()
-    if Rails.env.production? && user && user.test?
+    if Metadata.ignore_events_from_test_users? && user && user.test?
       render_success
     else
       create_resource RemoteEvent, remote_event_params(user)
