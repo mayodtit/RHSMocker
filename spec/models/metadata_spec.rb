@@ -166,4 +166,38 @@ describe Metadata do
       end
     end
   end
+
+  describe '#offboard_free_trial_start_date' do
+    before do
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
+    context 'metadata exists' do
+      context 'an exception happens during parsing' do
+        let!(:meta_data) { Metadata.create! mkey: 'offboard_free_trial_start_date', mvalue: '01/30' }
+
+        it 'returns 1 year from now' do
+          Metadata.offboard_free_trial_start_date.should == 1.year.from_now
+        end
+      end
+
+      context 'metadata is correctly formatted' do
+        let!(:meta_data) { Metadata.create! mkey: 'offboard_free_trial_start_date', mvalue: '01/30/1985' }
+
+        it 'returns 1/30/1985' do
+          Metadata.offboard_free_trial_start_date.should == Time.parse('30/01/1985')
+        end
+      end
+    end
+
+    context 'metadata is missing' do
+      it 'returns 1 year from now' do
+        Metadata.offboard_free_trial_start_date.should == 1.year.from_now
+      end
+    end
+  end
 end

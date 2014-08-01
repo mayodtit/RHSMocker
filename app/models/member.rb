@@ -193,7 +193,7 @@ class Member < User
 
   def engaged?
     tasks.joins(:service_type).where(service_types: {bucket: ['wellness', 'care coordination', 'insurance', 'other']}).count > 0 ||
-    messages.count > 0
+    messages.count > 1
   end
 
   def admin?
