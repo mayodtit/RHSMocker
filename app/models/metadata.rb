@@ -122,4 +122,8 @@ class Metadata < ActiveRecord::Base
   def self.automated_offboarding?
     Metadata.find_by_mkey('automated_offboarding').try(:mvalue) == 'true'
   end
+
+  def self.ignore_events_from_test_users?
+    Metadata.find_by_mkey('ignore_events_from_test_users').try(:mvalue) == 'true'
+  end
 end
