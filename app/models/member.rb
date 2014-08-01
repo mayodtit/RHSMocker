@@ -111,7 +111,6 @@ class Member < User
   after_create :add_onboarding_group_programs
   after_save :add_automated_communication_workflows, if: ->(m){m.status?(:trial) && m.status_changed?}
   after_save :send_state_emails
-  after_save :notify_pha_of_new_member, if: ->(m){m.pha_id && m.pha_id_changed?}
   after_save :alert_stakeholders_on_call_status
   after_save :update_referring_scheduled_communications, if: ->(m){m.free_trial_ends_at_changed?}
 
@@ -469,14 +468,6 @@ class Member < User
        !@emails_sent
       Mails::MeetYourPhaJob.create(member.id)
       @emails_sent = true
-    end
-  end
-
-  def notify_pha_of_new_member
-    if pha_id
-      NewMemberTask.delay.create!(member: self,
-                                  title: 'New Premium Member',
-                                  creator: Member.robot)
     end
   end
 

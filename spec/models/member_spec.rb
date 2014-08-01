@@ -58,50 +58,6 @@ describe Member do
   end
 
   describe 'callbacks' do
-    describe '#notify_pha_of_new_member' do
-      let(:member) { build(:member) }
-      let(:pha) { build(:pha) }
-      let(:delayed_new_member_task) { double('delayed new member task') }
-
-      it 'creates a delayed NewMemberTask' do
-        NewMemberTask.stub(delay: delayed_new_member_task)
-        delayed_new_member_task.should_receive(:create!).once
-        member.pha = pha
-        expect(member.save).to be_true
-      end
-
-      context 'without a PHA' do
-        it 'fires when PHA is added' do
-          member.should_receive(:notify_pha_of_new_member).once
-          member.pha = pha
-          expect(member.save).to be_true
-        end
-      end
-
-      context 'with a PHA' do
-        let!(:pha) { create(:pha) }
-        let!(:member) { create(:member, pha: pha) }
-        let(:other_pha) { create(:pha) }
-
-        it 'fires when the PHA is changed' do
-          member.should_receive(:notify_pha_of_new_member).once
-          member.pha = other_pha
-          expect(member.save).to be_true
-        end
-
-        it 'does not fire when the PHA is not changed' do
-          member.should_not_receive(:notify_pha_of_new_member)
-          expect(member.save).to be_true
-        end
-
-        it 'does not fire when the PHA is removed' do
-          member.should_not_receive(:notify_pha_of_new_member)
-          member.pha = nil
-          expect(member.save).to be_true
-        end
-      end
-    end
-
     describe '#set_free_trial_ends_at' do
       let(:user) { create(:member, :invited) }
       let(:onboarding_group) { create(:onboarding_group, :premium, free_trial_days: 3) }
