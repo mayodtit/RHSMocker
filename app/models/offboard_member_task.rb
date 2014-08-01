@@ -1,6 +1,6 @@
 class OffboardMemberTask < Task
   PRIORITY = 1
-  OFFBOARDING_WINDOW = 24.hours
+  OFFBOARDING_WINDOW = 2.business_day
 
   include ActiveModel::ForbiddenAttributesProtection
 
@@ -17,13 +17,14 @@ class OffboardMemberTask < Task
 
   def set_required_attrs
     self.title = "Offboard engaged free trial member"
-    self.due_at = member.free_trial_ends_at - 1.hour
+    self.due_at = 1.business_day.before(member.free_trial_ends_at.pacific)
+    self.member_free_trial_ends_at = member.free_trial_ends_at
     self.service_type = ServiceType.find_by_name! 'member offboarding'
     self.creator = Member.robot
   end
 
-  def self.create_if_only_within_offboarding_window(member)
-    if member.free_trial_ends_at && where('member_id = ? AND (state NOT IN (?) OR (created_at >= ? AND created_at <= ?))', member.id, ['completed', 'abandoned'], member.free_trial_ends_at - OFFBOARDING_WINDOW, member.free_trial_ends_at).count == 0
+  def self.create_if_only_for_current_free_trial(member)
+    if member.free_trial_ends_at && where(member_id: member.id, member_free_trial_ends_at: member.free_trial_ends_at).count == 0
       create member: member
     end
   end

@@ -711,8 +711,9 @@ describe Member do
         member.tasks.count.should == 0
       end
 
-      context 'member has sent a message' do
+      context 'member has sent more than one message' do
         before do
+          Message.create! user: member, consult: consult, text: 'test.'
           Message.create! user: member, consult: consult, text: 'test.'
         end
 
@@ -720,6 +721,16 @@ describe Member do
           member.should be_engaged
         end
       end
+
+     context 'member has sent one message' do
+       before do
+         Message.create! user: member, consult: consult, text: 'test.'
+       end
+
+       it 'returns true' do
+         member.should_not be_engaged
+       end
+     end
 
       context 'member has not sent a message' do
         before do
@@ -730,8 +741,9 @@ describe Member do
           member.should_not be_engaged
         end
 
-        context 'pha has sent a message' do
+        context 'pha has sent messages' do
           before do
+            Message.create! user: pha, consult: consult, text: 'test.'
             Message.create! user: pha, consult: consult, text: 'test.'
           end
 

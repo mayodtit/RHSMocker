@@ -89,8 +89,20 @@ class Metadata < ActiveRecord::Base
     Metadata.find_by_mkey('offboard_free_trial_members').try(:mvalue) == 'true'
   end
 
+  def self.offboard_expired_members?
+    Metadata.find_by_mkey('offboard_expired_members').try(:mvalue) == 'true'
+  end
+
   def self.new_onboarding_flow?
     Metadata.find_by_mkey('new_onboarding_flow').try(:mvalue) == 'true'
+  end
+
+  def self.offboard_free_trial_start_date
+    begin
+      Time.strptime Metadata.find_by_mkey('offboard_free_trial_start_date').try(:mvalue), '%m/%d/%Y'
+    rescue
+      1.year.from_now # e.g. don't do offboarding
+    end
   end
 
   def alert_stakeholders_when_phas_forced_off_call

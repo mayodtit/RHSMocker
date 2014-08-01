@@ -9,19 +9,77 @@ describe ScheduledJobs do
     Timecop.return
   end
 
-  describe '#unset_premium_for_expired_subscriptions' do
-    it 'should unset premium flag for users with expired subscriptions' do
-      u1 = create(:member, :trial, free_trial_ends_at: 1.day.ago)
-      u2 = create(:member, :trial, free_trial_ends_at: 1.hour.from_now)
-      u3 = create(:member, :premium)
+  describe '#downgrade_members' do
+    let!(:expired_free_trial_member) { create :member, :trial, free_trial_ends_at: 1.day.ago }
+    let!(:expiring_free_trial_member) { create :member, :trial, free_trial_ends_at: 1.hour.from_now }
+    let!(:premium) { create :member, :premium }
+    let!(:expired_premium) { create :member, :premium, subscription_ends_at: 2.days.ago }
+    let!(:expiring_premium) { create :member, :premium, subscription_ends_at: 1.hour.from_now }
 
-      ScheduledJobs.unset_premium_for_expired_subscriptions
-      u1.reload.is_premium.should be_false
-      u1.reload.free_trial_ends_at.should be_nil
-      u2.reload.is_premium.should be_true
-      u2.reload.free_trial_ends_at.should_not be_nil
-      u3.reload.is_premium.should be_true
-      u3.reload.free_trial_ends_at.should be_nil
+    context 'free trial members' do
+      context 'offboarding free trial members' do
+        before do
+          Metadata.stub(:offboard_free_trial_members?) { true }
+          Metadata.stub(:offboard_free_trial_start_date) { 1.day.ago }
+        end
+
+        it 'downgrades members with expired free trials' do
+          ScheduledJobs.downgrade_members
+          expired_free_trial_member.reload.status.should == 'free'
+          expiring_free_trial_member.reload.status.should == 'trial'
+          premium.reload.status.should == 'premium'
+        end
+
+        it 'ignores members who signed up before the offboard start date' do
+          another_expired_free_trial_member = create :member, :trial, free_trial_ends_at: 3.days.ago, signed_up_at: 2.days.ago
+          ScheduledJobs.downgrade_members
+          expired_free_trial_member.reload.status.should == 'free'
+          expiring_free_trial_member.reload.status.should == 'trial'
+          another_expired_free_trial_member.reload.status.should == 'trial'
+          premium.reload.status.should == 'premium'
+        end
+      end
+
+      context 'not offboarding free trial members' do
+        before do
+          Metadata.stub(:offboard_free_trial_members?) { false }
+        end
+
+        it 'does nothing with expired free trials' do
+          ScheduledJobs.downgrade_members
+          expired_free_trial_member.reload.status.should == 'trial'
+          expiring_free_trial_member.reload.status.should == 'trial'
+          premium.reload.status.should == 'premium'
+        end
+      end
+    end
+
+    context 'expired members' do
+      context 'offboarding expired members' do
+        before do
+          Metadata.stub(:offboard_expired_members?) { true }
+        end
+
+        it 'downgrades members with expired free trials' do
+          ScheduledJobs.downgrade_members
+          premium.reload.status.should == 'premium'
+          expired_premium.reload.status.should == 'free'
+          expiring_premium.reload.status.should == 'premium'
+        end
+      end
+
+      context 'not offboarding expired members' do
+        before do
+          Metadata.stub(:offboard_expired_members?) { false }
+        end
+
+        it 'downgrades members with expired free trials' do
+          ScheduledJobs.downgrade_members
+          premium.reload.status.should == 'premium'
+          expired_premium.reload.status.should == 'premium'
+          expiring_premium.reload.status.should == 'premium'
+        end
+      end
     end
   end
 
@@ -201,65 +259,77 @@ describe ScheduledJobs do
   end
 
   describe '#offboard_free_trial_members' do
-    let(:engaged_member) { build_stubbed :member }
-    let(:unengaged_member) { build_stubbed :member }
-    let(:unengaged_member) { build_stubbed :member }
-    let(:task) { build_stubbed :offboard_member_task }
+    let!(:too_old_engaged_expired_member) { create :member, :trial, signed_up_at: Time.parse('2014-07-01 16:00:00 -07:00'), free_trial_ends_at: Time.parse('2014-07-28 12:00:00 -0700'), first_name: 'A' }
+    let!(:old_engaged_expired_member) { create :member, :trial, signed_up_at: Time.parse('2014-07-31 16:00:00 -07:00'), free_trial_ends_at: Time.parse('2014-07-31 12:00:00 -0700'), first_name: 'B' }
+    let!(:engaged_expired_member) { create :member, :trial, free_trial_ends_at: Time.parse('2014-08-04 12:00:00 -0700'), first_name: 'C' }
+    let!(:unengaged_expired_member) { create :member, :trial, free_trial_ends_at: Time.parse('2014-08-04 12:00:00 -0700'), first_name: 'D' }
+    let!(:expiring_member) { create :member, :trial, free_trial_ends_at: Time.parse('2014-08-05 12:00:00 -0700'), first_name: 'E' }
+    let!(:another_expiring_member) { create :member, :trial, free_trial_ends_at: Time.parse('2014-09-05 12:00:00 -0700'), first_name: 'F' }
+    let!(:premium_member) { create :member, :premium, first_name: 'G' }
+
+    let!(:consult) { create :consult, initiator: too_old_engaged_expired_member, subject: too_old_engaged_expired_member }
+    let!(:consult) { create :consult, initiator: old_engaged_expired_member, subject: old_engaged_expired_member }
+    let!(:consult) { create :consult, initiator: engaged_expired_member, subject: engaged_expired_member }
 
     before do
-      Metadata.stub(:offboard_free_trial_members?) { true }
+      Timecop.freeze Time.parse('2014-08-01 16:00:00 -0700')
+      Metadata.stub(:offboard_free_trial_start_date) { 2.days.ago }
+      Metadata.stub(:offboard_free_trial_members) { 2.days.ago }
 
-      engaged_member.stub(:engaged?) { true }
-      unengaged_member.stub(:engaged?) { false }
+      ServiceType.create! name: 'member offboarding', bucket: 'engagement'
 
-      Member.stub(:where).with('free_trial_ends_at < ?', Time.now - 24.hours) { [engaged_member, unengaged_member] }
+      # Make engaged members engaged
+      Message.create! user: engaged_expired_member, consult: consult, text: 'test.'
+      Message.create! user: engaged_expired_member, consult: consult, text: 'test.'
+      engaged_expired_member.should be_engaged
 
-      OffboardMemberTask.stub(:create) { task }
-      task.stub(:valid?) { true }
+      Message.create! user: too_old_engaged_expired_member, consult: consult, text: 'test.'
+      Message.create! user: too_old_engaged_expired_member, consult: consult, text: 'test.'
+      too_old_engaged_expired_member.should be_engaged
 
-      Timecop.freeze
+      Message.create! user: old_engaged_expired_member, consult: consult, text: 'test.'
+      Message.create! user: old_engaged_expired_member, consult: consult, text: 'test.'
+      old_engaged_expired_member.should be_engaged
     end
 
     after do
       Timecop.return
     end
 
-    it 'iterates through all engaged members who\'s free trial ends in 24 hours or less' do
-      Member.should_receive(:where).with('free_trial_ends_at < ?', Time.now - OffboardMemberTask::OFFBOARDING_WINDOW) do
-        o = Object.new
-        o.should_receive(:each)
-        o
+    context 'offboarding free trial members' do
+      before do
+        Metadata.stub(:offboard_free_trial_members?) { true }
       end
-      ScheduledJobs.offboard_free_trial_members
-    end
 
-    context 'member is engaged' do
-      it 'creates on offboarding task' do
-        OffboardMemberTask.stub(:create_if_only_within_offboarding_window).with(engaged_member) { task }
+      it 'offboards free trial members' do
         ScheduledJobs.offboard_free_trial_members
-      end
 
-      context 'offboarding task errors out' do
-        before do
-          OffboardMemberTask.stub(:create_if_only_within_offboarding_window).with(engaged_member) { task }
-          task.stub(:valid?) { false }
-        end
-
-        it 'logs an error' do
-          Rails.stub(:logger) do
-            o = Object.new
-            o.should_receive(:error)
-            o
-          end
-          ScheduledJobs.offboard_free_trial_members
-        end
+        OffboardMemberTask.where(member_id: too_old_engaged_expired_member).count.should == 0
+        OffboardMemberTask.where(member_id: old_engaged_expired_member).count.should == 1
+        OffboardMemberTask.where(member_id: engaged_expired_member).count.should == 1
+        OffboardMemberTask.where(member_id: unengaged_expired_member).count.should == 0
+        OffboardMemberTask.where(member_id: expiring_member).count.should == 0
+        OffboardMemberTask.where(member_id: another_expiring_member).count.should == 0
+        OffboardMemberTask.where(member_id: premium_member).count.should == 0
       end
     end
 
-    context 'member is not engaged' do
+    context 'not offboarding free trial members' do
+      before do
+        Metadata.stub(:offboard_free_trial_members?) { false }
+      end
+
       it 'does nothing' do
-        OffboardMemberTask.should_not_receive(:create_if_only_within_offboarding_window).with(unengaged_member)
+        Member.should_not_receive(:where)
         ScheduledJobs.offboard_free_trial_members
+
+        OffboardMemberTask.where(member_id: too_old_engaged_expired_member).count.should == 0
+        OffboardMemberTask.where(member_id: old_engaged_expired_member).count.should == 0
+        OffboardMemberTask.where(member_id: engaged_expired_member).count.should == 0
+        OffboardMemberTask.where(member_id: unengaged_expired_member).count.should == 0
+        OffboardMemberTask.where(member_id: expiring_member).count.should == 0
+        OffboardMemberTask.where(member_id: another_expiring_member).count.should == 0
+        OffboardMemberTask.where(member_id: premium_member).count.should == 0
       end
     end
   end
