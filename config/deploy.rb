@@ -69,7 +69,6 @@ task :qa do
   set :port, 9722
   set :branch,    'qa'
   set :rails_env, 'qa'
-  set :deploy_to, '/home/rhs/qa'
   set :cron_file, 'cron-goldenbear'
   set :deploy_to, '/home/rhs/api-qa'
   role :web,      'goldenbear.getbetter.com'
