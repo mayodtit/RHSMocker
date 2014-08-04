@@ -27,6 +27,7 @@ task :devhosted do
   set :branch,    'develop'
   set :rails_env, 'devhosted'
   set :cron_file, 'cron-goldenbear'
+  set :deploy_to, '/home/rhs/api-dev'
   role :web,      'goldenbear.getbetter.com'
   role :app,      'goldenbear.getbetter.com', :primary => true
   role :db,       'goldenbear.getbetter.com', :primary => true
@@ -51,6 +52,7 @@ task :production do
   set :branch,    'master'
   set :rails_env, 'production'
   set :cron_file, 'cron-buckeye'
+  set :deploy_to, '/home/rhs/rails'
   role :web,      'longhorn.getbetter.com'
   role :app,      'longhorn.getbetter.com', :primary => true
   role :web,      'wolverine.getbetter.com'
@@ -67,7 +69,21 @@ task :qa do
   set :port, 9722
   set :branch,    'qa'
   set :rails_env, 'qa'
-  set :deploy_to, '/home/rhs/qa'
+  set :cron_file, 'cron-goldenbear'
+  set :deploy_to, '/home/rhs/api-qa'
+  role :web,      'goldenbear.getbetter.com'
+  role :app,      'goldenbear.getbetter.com', :primary => true
+  role :db,       'goldenbear.getbetter.com', :primary => true
+  role :delayed,  'goldenbear.getbetter.com'
+  role :cron,     'goldenbear.getbetter.com'
+end
+
+desc "Deploy target demo (goldenbear @ EC2)"
+task :demo do
+  set :port, 9722
+  set :branch,    'demo'
+  set :rails_env, 'demo'
+  set :deploy_to, '/home/rhs/api-demo'
   set :cron_file, 'cron-goldenbear'
   role :web,      'goldenbear.getbetter.com'
   role :app,      'goldenbear.getbetter.com', :primary => true
