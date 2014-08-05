@@ -1,8 +1,8 @@
 namespace :scheduled do
 
-  desc 'Unset premium flag for users with expired subscriptions'
-  task :unset_premium => :environment do
-    ScheduledJobs.unset_premium_for_expired_subscriptions
+  desc 'Downgrade users with expired subscriptions or free trials'
+  task :downgrade_members => :environment do
+    ScheduledJobs.downgrade_members
   end
 
   desc 'Unforce phas of call if it\'s the next day'

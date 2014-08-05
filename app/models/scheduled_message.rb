@@ -17,7 +17,8 @@ class ScheduledMessage < ScheduledCommunication
   def deliver_message
     self.message = build_message(user: sender,
                                  consult: recipient.master_consult,
-                                 text: formatted_text)
+                                 text: formatted_text,
+                                 off_hours: system_message)
   end
 
   private

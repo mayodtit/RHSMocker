@@ -1,6 +1,6 @@
 class MessageTask < Task
   include ActiveModel::ForbiddenAttributesProtection
-  PRIORITY = 5
+  PRIORITY = 9
   belongs_to :consult
   belongs_to :message
   has_one :member, through: :consult, source: :initiator

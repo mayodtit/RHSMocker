@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140728184658) do
+ActiveRecord::Schema.define(:version => 20140731224100) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -122,9 +122,11 @@ ActiveRecord::Schema.define(:version => 20140728184658) do
     t.integer  "message_template_id"
     t.datetime "created_at",                :null => false
     t.datetime "updated_at",                :null => false
-    t.integer  "days_delayed"
+    t.integer  "relative_days"
     t.string   "type"
     t.string   "template"
+    t.string   "reference_event"
+    t.boolean  "system_message"
   end
 
   create_table "communication_workflows", :force => true do |t|
@@ -553,6 +555,7 @@ ActiveRecord::Schema.define(:version => 20140728184658) do
     t.datetime "updated_at", :null => false
     t.text     "data"
     t.integer  "user_id"
+    t.string   "device_id"
   end
 
   create_table "roles", :force => true do |t|
@@ -573,13 +576,18 @@ ActiveRecord::Schema.define(:version => 20140728184658) do
     t.string   "state"
     t.datetime "publish_at"
     t.datetime "delivered_at"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
     t.text     "variables"
     t.string   "type"
     t.integer  "recipient_id"
     t.string   "template"
     t.string   "subject"
+    t.integer  "reference_id"
+    t.string   "reference_type"
+    t.string   "reference_event"
+    t.integer  "relative_days"
+    t.boolean  "system_message"
   end
 
   create_table "scheduled_phone_calls", :force => true do |t|
@@ -767,6 +775,7 @@ ActiveRecord::Schema.define(:version => 20140728184658) do
     t.integer  "service_ordinal"
     t.integer  "task_template_id"
     t.integer  "user_request_id"
+    t.datetime "member_free_trial_ends_at"
   end
 
   add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"

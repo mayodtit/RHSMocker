@@ -32,11 +32,11 @@ describe Api::V1::TasksController do
       it 'returns tasks with the state parameter' do
         Task.stub(:where).with('state' => 'unassigned') do
           o = Object.new
-          o.stub(:includes).with(:member) do
+          o.stub(:where).with(role_id: nurse_role.id) do
             o_o = Object.new
-            o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') do
+            o_o.stub(:includes).with(:member) do
               o_o_o = Object.new
-              o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
+              o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
               o_o_o
             end
             o_o
@@ -52,11 +52,11 @@ describe Api::V1::TasksController do
       it 'doesn\'t permit other query parameters' do
         Task.stub(:where).with('state' => 'unassigned') do
           o = Object.new
-          o.stub(:includes).with(:member) do
+          o.stub(:where).with(role_id: nurse_role.id) do
             o_o = Object.new
-            o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') do
+            o_o.stub(:includes).with(:member) do
               o_o_o = Object.new
-              o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
+              o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
               o_o_o
             end
             o_o
@@ -88,11 +88,11 @@ describe Api::V1::TasksController do
         it 'returns tasks for the current hcp' do
           Task.should_receive(:owned).with(user) do
             o = Object.new
-            o.stub(:includes).with(:member) do
+            o.stub(:where).with(role_id: nurse_role.id) do
               o_o = Object.new
-              o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') do
+              o_o.stub(:includes).with(:member) do
                 o_o_o = Object.new
-                o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
+                o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
                 o_o_o
               end
               o_o
@@ -119,11 +119,11 @@ describe Api::V1::TasksController do
           it 'returns tasks for the current hcp' do
             Task.should_receive(:needs_triage).with(user) do
               o = Object.new
-              o.stub(:includes).with(:member) do
+              o.stub(:where).with(role_id: nurse_role.id) do
                 o_o = Object.new
-                o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') do
+                o_o.stub(:includes).with(:member) do
                   o_o_o = Object.new
-                  o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
+                  o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
                   o_o_o
                 end
                 o_o
@@ -145,11 +145,11 @@ describe Api::V1::TasksController do
           it 'returns tasks for the current hcp' do
             Task.should_receive(:needs_triage_or_owned).with(user) do
               o = Object.new
-              o.stub(:includes).with(:member) do
+              o.stub(:where).with(role_id: nurse_role.id) do
                 o_o = Object.new
-                o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') do
+                o_o.stub(:includes).with(:member) do
                   o_o_o = Object.new
-                  o_o_o.stub(:each).and_yield(tasks[0]).and_yield(tasks[1])
+                  o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
                   o_o_o
                 end
                 o_o

@@ -80,7 +80,7 @@ shared_examples 'numericality of' do |property|
   its "#{property}" do
     model = build_stubbed(described_class.name.underscore.to_sym)
     model.should be_valid
-    model.send(:"#{property}=", nil)
+    model.send(:"#{property}=", 'BAADBEEF')
     model.should_not be_valid
     model.errors[property.to_sym].should include('is not a number')
   end

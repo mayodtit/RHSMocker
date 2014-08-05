@@ -58,50 +58,6 @@ describe Member do
   end
 
   describe 'callbacks' do
-    describe '#notify_pha_of_new_member' do
-      let(:member) { build(:member) }
-      let(:pha) { build(:pha) }
-      let(:delayed_new_member_task) { double('delayed new member task') }
-
-      it 'creates a delayed NewMemberTask' do
-        NewMemberTask.stub(delay: delayed_new_member_task)
-        delayed_new_member_task.should_receive(:create!).once
-        member.pha = pha
-        expect(member.save).to be_true
-      end
-
-      context 'without a PHA' do
-        it 'fires when PHA is added' do
-          member.should_receive(:notify_pha_of_new_member).once
-          member.pha = pha
-          expect(member.save).to be_true
-        end
-      end
-
-      context 'with a PHA' do
-        let!(:pha) { create(:pha) }
-        let!(:member) { create(:member, pha: pha) }
-        let(:other_pha) { create(:pha) }
-
-        it 'fires when the PHA is changed' do
-          member.should_receive(:notify_pha_of_new_member).once
-          member.pha = other_pha
-          expect(member.save).to be_true
-        end
-
-        it 'does not fire when the PHA is not changed' do
-          member.should_not_receive(:notify_pha_of_new_member)
-          expect(member.save).to be_true
-        end
-
-        it 'does not fire when the PHA is removed' do
-          member.should_not_receive(:notify_pha_of_new_member)
-          member.pha = nil
-          expect(member.save).to be_true
-        end
-      end
-    end
-
     describe '#set_free_trial_ends_at' do
       let(:user) { create(:member, :invited) }
       let(:onboarding_group) { create(:onboarding_group, :premium, free_trial_days: 3) }
@@ -168,6 +124,34 @@ describe Member do
 
       it 'adds programs to the new member' do
         expect(member.programs.where(programs: {id: program.id}).count).to eq(1)
+      end
+    end
+
+    describe '#update_referring_scheduled_communications' do
+      let!(:member) { create(:member, :trial) }
+
+      it 'is only called when free_trial_ends_at is changed' do
+        member.should_not_receive(:update_referring_scheduled_communications)
+        member.save!
+      end
+
+      context 'when free_trial_ends_at changes' do
+        let!(:scheduled_communication) { create(:scheduled_communication, :with_reference, reference: member) }
+
+        context 'free_trial_ends_at is nil' do
+          it 'destroys all referring scheduled communications' do
+            expect(member.reload.update_attributes(status_event: :upgrade, free_trial_ends_at: nil)).to be_true
+            expect(ScheduledCommunication.find_by_id(scheduled_communication.id)).to be_nil
+          end
+        end
+
+        context 'free_trial_ends_at is present' do
+          it 'calls update_publish_at_from_calculation! on all referring scheduled communications' do
+            publish_at = scheduled_communication.publish_at
+            expect(member.update_attributes(free_trial_ends_at: Time.now + 5.days)).to be_true
+            expect(scheduled_communication.reload.publish_at).to_not eq(publish_at)
+          end
+        end
       end
     end
   end
@@ -683,8 +667,9 @@ describe Member do
         member.tasks.count.should == 0
       end
 
-      context 'member has sent a message' do
+      context 'member has sent more than one message' do
         before do
+          Message.create! user: member, consult: consult, text: 'test.'
           Message.create! user: member, consult: consult, text: 'test.'
         end
 
@@ -692,6 +677,16 @@ describe Member do
           member.should be_engaged
         end
       end
+
+     context 'member has sent one message' do
+       before do
+         Message.create! user: member, consult: consult, text: 'test.'
+       end
+
+       it 'returns true' do
+         member.should_not be_engaged
+       end
+     end
 
       context 'member has not sent a message' do
         before do
@@ -702,8 +697,9 @@ describe Member do
           member.should_not be_engaged
         end
 
-        context 'pha has sent a message' do
+        context 'pha has sent messages' do
           before do
+            Message.create! user: pha, consult: consult, text: 'test.'
             Message.create! user: pha, consult: consult, text: 'test.'
           end
 

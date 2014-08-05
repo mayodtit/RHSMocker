@@ -1,19 +1,15 @@
 class ScheduledJobs
-  def self.unset_premium_for_expired_subscriptions
-    Member.where('free_trial_ends_at < ?', DateTime.now).each do |user|
-      Rails.logger.info "Unsetting premium flag for user #{user.id} - free trial expired #{user.free_trial_ends_at}"
-      user.is_premium = false
-      user.free_trial_ends_at = nil
-      user.subscription_ends_at = nil
-      user.save!
+  def self.downgrade_members
+    if Metadata.offboard_free_trial_members?
+      Member.where('status = ? AND free_trial_ends_at < ? AND signed_up_at >= ?', :trial, Time.now, Metadata.offboard_free_trial_start_date).each do |member|
+        member.downgrade!
+      end
     end
 
-    Member.where('subscription_ends_at < ?', DateTime.now).each do |user|
-      Rails.logger.info "Unsetting premium flag for user #{user.id} - subscription expired #{user.subscription_ends_at}"
-      user.is_premium = false
-      user.free_trial_ends_at = nil
-      user.subscription_ends_at = nil
-      user.save!
+    if Metadata.offboard_expired_members?
+      Member.where('status = ? AND subscription_ends_at < ?', :premium, Time.now).each do |member|
+        member.downgrade!
+      end
     end
   end
 
@@ -108,9 +104,9 @@ class ScheduledJobs
 
   def self.offboard_free_trial_members
     if Metadata.offboard_free_trial_members?
-      Member.where('free_trial_ends_at < ?', Time.now - OffboardMemberTask::OFFBOARDING_WINDOW).each do |member|
-        if member.engaged?
-          t = OffboardMemberTask.create_if_only_within_offboarding_window member
+      Member.where('status = ? AND DATEDIFF(?,free_trial_ends_at) <= 6 AND signed_up_at >= ?', :trial, Time.now, Metadata.offboard_free_trial_start_date).each do |member|
+        if OffboardMemberTask::OFFBOARDING_WINDOW.after(Time.now.pacific).pacific.to_date >= member.free_trial_ends_at.pacific.to_date && member.engaged?
+          t = OffboardMemberTask.create_if_only_for_current_free_trial member
           if !t || t.valid?
             Rails.logger.info "Offboarded Member #{member.id}"
           else

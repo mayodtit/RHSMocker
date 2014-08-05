@@ -76,6 +76,10 @@ class User < ActiveRecord::Base
   before_create :create_google_analytics_uuid
   after_save :publish
 
+  def test?
+    /\@(getbetter|example).com$/i =~ email
+  end
+
   def actor_id
     @actor_id || id
   end

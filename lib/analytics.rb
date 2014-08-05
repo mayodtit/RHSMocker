@@ -26,16 +26,16 @@ class Analytics
 
     def log_mixpanel(remote_event_id)
       remote_event = RemoteEvent.find(remote_event_id)
-      user = remote_event.user || User.find_by_auth_token(remote_event.data_json['auth_token'])
+      tracker = Mixpanel::Tracker.new MIXPANEL_TOKEN
 
-      # skip if no user found
-      return if user.nil?
-
-      tracker = Mixpanel::Tracker.new(MIXPANEL_TOKEN)
+      # If this is the first event with a device id and a user, merge their events in Mixpanel
+      if remote_event.user && remote_event.device_id && RemoteEvent.where(user_id: remote_event.user.id, device_id: remote_event.device_id).count == 1
+        tracker.alias remote_event.user.id, remote_event.device_id
+      end
 
       remote_event.events.each do |e|
         hash = { time: e['created_at'] }
-        tracker.import(MIXPANEL_API_KEY, user.google_analytics_uuid, e['name'], hash)
+        tracker.import MIXPANEL_API_KEY, remote_event.uid, e['name'], hash
       end
     end
     handle_asynchronously :log_mixpanel

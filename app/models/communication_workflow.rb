@@ -13,6 +13,10 @@ class CommunicationWorkflow < ActiveRecord::Base
     @automated_onboarding_old ||= find_by_name('Automated Onboarding OLD')
   end
 
+  def self.automated_offboarding
+    @automated_offboarding ||= find_by_name('Automated Offboarding')
+  end
+
   def add_to_member(member)
     initial_time = relative_time
     communication_workflow_templates.each do |cwt|

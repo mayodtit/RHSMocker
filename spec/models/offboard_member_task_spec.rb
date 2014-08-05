@@ -22,7 +22,7 @@ describe OffboardMemberTask do
 
     it 'sets due_at to one hour before a person\'s free trial ends' do
       task.set_required_attrs
-      task.due_at = task.member.free_trial_ends_at - 1.hour
+      task.due_at = 1.business_day.before(task.member.free_trial_ends_at.pacific)
     end
 
     it 'sets service type' do
@@ -36,107 +36,71 @@ describe OffboardMemberTask do
     end
   end
 
-  describe '#create_if_only_within_offboarding_window' do
+  describe '#create_if_only_for_current_free_trial' do
     let!(:pha) { create :pha }
-    let!(:member) { create :member, free_trial_ends_at: Time.now, pha: pha }
+    let!(:member) { create :member, :trial, free_trial_ends_at: Time.now, pha: pha }
 
-    context 'an offboard task exists within the offboarding window' do
-      context 'its for another member' do
-        let!(:other_member) { create :member }
-        let!(:offboard_task) { create :offboard_member_task, member: other_member }
+    before do
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
+    context 'member does not have free trial ends at' do
+      let!(:member) { create :member, :premium, pha: pha }
+
+      it 'does not create an offboard task' do
+        o = OffboardMemberTask.create_if_only_for_current_free_trial(member)
+        o.should be_nil
+      end
+    end
+
+    context 'member has free trial ends at' do
+      context 'member has offboarding member task' do
+        let!(:offboard_task) { create :offboard_member_task, member: member, member_free_trial_ends_at: Time.now }
+
+        context 'for the current free trial end date' do
+          it 'does not create an offboard task' do
+            o = OffboardMemberTask.create_if_only_for_current_free_trial(member)
+            o.should be_nil
+          end
+        end
+
+        context 'for a previous free trial end date' do
+          before do
+            offboard_task.member_free_trial_ends_at = member.free_trial_ends_at - 2.hours
+            offboard_task.save!
+          end
+
+          it 'creates an offboard task' do
+            o = OffboardMemberTask.create_if_only_for_current_free_trial(member)
+            o.should be_present
+            o.should be_valid
+          end
+        end
+      end
+
+      context 'member does not have offboarding member task' do
+        before do
+          OffboardMemberTask.where(member_id: member.id).count.should == 0
+        end
 
         it 'creates an offboard task' do
-          o = OffboardMemberTask.create_if_only_within_offboarding_window(member)
+          o = OffboardMemberTask.create_if_only_for_current_free_trial(member)
           o.should be_present
           o.should be_valid
         end
       end
-
-      context 'its for the current member' do
-        let!(:offboard_task) { create :offboard_member_task, member: member }
-
-        shared_examples 'offboarding window' do
-          context 'it was created outside the current offboarding window' do
-            before do
-              offboard_task.created_at = member.free_trial_ends_at - OffboardMemberTask::OFFBOARDING_WINDOW - 1.minute
-              offboard_task.save!
-            end
-
-            it 'creates an offboard task' do
-              o = OffboardMemberTask.create_if_only_within_offboarding_window(member)
-              o.should be_present
-              o.should be_valid
-            end
-          end
-
-          context 'it was created during the current offboarding window' do
-            it 'does not create an offboard task' do
-              o = OffboardMemberTask.create_if_only_within_offboarding_window(member)
-              o.should be_nil
-            end
-          end
-        end
-
-        context 'task is abandoned' do
-          before do
-            offboard_task.update_attributes! state_event: :abandon, abandoner: pha, reason_abandoned: 'test'
-          end
-
-          it_behaves_like 'offboarding window'
-        end
-
-        context 'task is completed' do
-          before do
-            offboard_task.complete!
-          end
-
-          it_behaves_like 'offboarding window'
-        end
-
-
-        context 'task is unstarted' do
-          before do
-            offboard_task.state.should == 'unstarted'
-          end
-
-          it 'does not create an offboard task' do
-            o = OffboardMemberTask.create_if_only_within_offboarding_window(member)
-            o.should be_nil
-          end
-        end
-
-        context 'task is started' do
-          before do
-            offboard_task.start!
-          end
-
-          it 'does not create an offboard task' do
-            o = OffboardMemberTask.create_if_only_within_offboarding_window(member)
-            o.should be_nil
-          end
-        end
-
-        context 'task is claimed' do
-          before do
-            offboard_task.claim!
-          end
-
-          it 'does not create an offboard task' do
-            o = OffboardMemberTask.create_if_only_within_offboarding_window(member)
-            o.should be_nil
-          end
-        end
-      end
     end
 
-    context 'an offboard task does not exist within the offboarding window' do
-      before do
-        OffboardMemberTask.destroy_all
-        OffboardMemberTask.all.count.should == 0
-      end
+    context 'an offboard task exists for another member' do
+      let!(:other_member) { create :member, free_trial_ends_at: Time.now }
+      let!(:offboard_task) { create :offboard_member_task, member: other_member, member_free_trial_ends_at: Time.now }
 
       it 'creates an offboard task' do
-        o = OffboardMemberTask.create_if_only_within_offboarding_window(member)
+        o = OffboardMemberTask.create_if_only_for_current_free_trial(member)
         o.should be_present
         o.should be_valid
       end
