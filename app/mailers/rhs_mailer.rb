@@ -206,4 +206,21 @@ class RHSMailer < MandrillMailer::TemplateMailer
       },
     )
   end
+
+  def referral_advertisement_email(user)
+    mandrill_mail(
+      subject: 'Give Better, Get Better',
+      from: 'support@getbetter.com',
+      from_name: 'Better',
+      to: {email: user.email},
+      template: 'Referral Program',
+      headers: {
+        'Reply-To' => 'Better <support@getbetter.com>'
+      },
+      vars: {
+        FNAME: user.salutation,
+        PROMO: user.owned_referral_code.code
+      },
+    )
+  end
 end
