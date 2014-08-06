@@ -105,6 +105,23 @@ describe Member do
       end
     end
 
+    describe '#unset_free_trial_ends_at' do
+      let(:trial_member) { create(:member, :trial) }
+      let(:premium_member) { build_stubbed(:member, :premium) }
+
+      it 'unsets free_trial_ends_at for non-trial members' do
+        premium_member.free_trial_ends_at = Time.now + 1.day
+        premium_member.valid?
+        expect(premium_member.free_trial_ends_at).to be_nil
+      end
+
+      it 'unsets free_trial_ends_at when a trial member is upgraded' do
+        expect(trial_member.free_trial_ends_at).to_not be_nil
+        trial_member.upgrade!
+        expect(trial_member.free_trial_ends_at).to be_nil
+      end
+    end
+
     describe '#add_onboarding_group_cards' do
       let!(:onboarding_group_card) { create(:onboarding_group_card) }
       let(:onboarding_group) { onboarding_group_card.onboarding_group }
@@ -152,6 +169,67 @@ describe Member do
             expect(scheduled_communication.reload.publish_at).to_not eq(publish_at)
           end
         end
+      end
+    end
+  end
+
+  describe 'states' do
+    describe 'invited' do
+      let(:member) { build_stubbed(:member, :invited) }
+
+      it 'validates presence of invitation_token' do
+        member.stub(:set_invitation_token)
+        expect(member).to be_valid
+        member.invitation_token = nil
+        expect(member).to_not be_valid
+        expect(member.errors[:invitation_token]).to include("can't be blank")
+      end
+    end
+
+    describe 'free' do
+      let(:member) { build_stubbed(:member, :free) }
+
+      it 'validates free_trial_ends_at_is_nil' do
+        member.stub(:unset_free_trial_ends_at)
+        expect(member).to be_valid
+        member.free_trial_ends_at = Time.now + 1.day
+        expect(member).to_not be_valid
+        expect(member.errors[:free_trial_ends_at]).to include("must be nil")
+      end
+    end
+
+    describe 'trial' do
+      let(:member) { build_stubbed(:member, :trial) }
+
+      it 'validates presence of free_trial_ends_at' do
+        expect(member).to be_valid
+        member.free_trial_ends_at = nil
+        expect(member).to_not be_valid
+        expect(member.errors[:free_trial_ends_at]).to include("can't be blank")
+      end
+    end
+
+    describe 'premium' do
+      let(:member) { build_stubbed(:member, :premium) }
+
+      it 'validates free_trial_ends_at_is_nil' do
+        member.stub(:unset_free_trial_ends_at)
+        expect(member).to be_valid
+        member.free_trial_ends_at = Time.now + 1.day
+        expect(member).to_not be_valid
+        expect(member.errors[:free_trial_ends_at]).to include("must be nil")
+      end
+    end
+
+    describe 'chamath' do
+      let(:member) { build_stubbed(:member, :chamath) }
+
+      it 'validates free_trial_ends_at_is_nil' do
+        member.stub(:unset_free_trial_ends_at)
+        expect(member).to be_valid
+        member.free_trial_ends_at = Time.now + 1.day
+        expect(member).to_not be_valid
+        expect(member.errors[:free_trial_ends_at]).to include("must be nil")
       end
     end
   end

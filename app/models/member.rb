@@ -99,8 +99,9 @@ class Member < User
   before_validation :set_member_flag
   before_validation :set_signed_up_at, if: ->(m){m.signed_up? && m.status_changed?}
   before_validation :set_free_trial_ends_at, if: ->(m){m.status?(:trial) && m.status_changed?}
+  before_validation :unset_free_trial_ends_at
   before_validation :set_invitation_token, if: ->(m){m.status?(:invited) && m.status_changed?}
-  before_validation :unset_invitation_token, if: ->(m){m.is_premium? && m.status_changed?}
+  before_validation :unset_invitation_token
   before_validation :set_pha, if: ->(m){m.is_premium? && m.status_changed?}
   before_validation :set_master_consult, if: ->(m){m.is_premium? && m.status_changed?}
   before_create :set_auth_token # generate inital auth_token
@@ -327,6 +328,12 @@ class Member < User
     end
   end
 
+  protected
+
+  def free_trial_ends_at_is_nil
+    errors.add(:free_trial_ends_at, 'must be nil') unless free_trial_ends_at.nil?
+  end
+
   private
 
   state_machine :status, initial: ->(m){m.initial_state} do
@@ -337,6 +344,10 @@ class Member < User
 
     state :trial do
       validates :free_trial_ends_at, presence: true
+    end
+
+    state all - %i(invited trial) do
+      validate {|member| member.free_trial_ends_at_is_nil}
     end
 
     event :sign_up do
@@ -378,6 +389,11 @@ class Member < User
     self.free_trial_ends_at ||= onboarding_group.try(:free_trial_ends_at, signed_up_at)
   end
 
+  def unset_free_trial_ends_at
+    return if invited? || trial?
+    self.free_trial_ends_at = nil if free_trial_ends_at
+  end
+
   def set_member_flag
     self.member_flag ||= true
   end
@@ -390,6 +406,7 @@ class Member < User
   end
 
   def unset_invitation_token
+    return if invited?
     self.invitation_token = nil if invitation_token
   end
 
