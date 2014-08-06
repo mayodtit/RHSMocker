@@ -42,7 +42,6 @@ class PhoneCall < ActiveRecord::Base
   before_validation :set_member_phone_number
 
   after_create :dial_if_outbound
-  after_create :create_follow_up_task
   after_create :hold_scheduled_communications
   after_save :publish
   after_save :create_task
@@ -259,12 +258,6 @@ class PhoneCall < ActiveRecord::Base
 
     if origin_phone_number.nil? && user && user.phone.present?
       self.origin_phone_number = user.phone
-    end
-  end
-
-  def create_follow_up_task
-    if to_nurse?
-      FollowUpTask.delay.create! phone_call: self, title: 'Nurseline Follow Up', creator: Member.robot, due_at: created_at
     end
   end
 

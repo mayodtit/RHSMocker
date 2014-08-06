@@ -1,51 +1,39 @@
-- if Metadata.new_card_design?
-  .card.card-link{data: {card_id: card.try(:id)}}
-    - if resource.has_custom_card?
-      = resource.raw_preview.html_safe
-    - elsif resource.preview_image_url.present?
-      .image-container
-        = image_tag(resource.preview_image_url, class: 'card-image')
-      - if card.try(:sender)
+.card.card-link{data: {card_id: card.try(:id)}}
+  - if resource.has_custom_card?
+    = resource.raw_preview.html_safe
+  - elsif resource.preview_image_url.present?
+    .image-container
+      = image_tag(resource.preview_image_url, class: 'card-image')
+    - if card.try(:sender)
+      .card-info
+        = image_tag(card.sender.avatar_or_gender_url)
+        .card-info-copy
+          From #{card.sender.first_name}
+          .time{data: {time: card.created_at.to_i}}
+  - else
+    .header
+      = image_tag('mayologo_card_@2x.png', class: %w(logo mayo-logo)) if resource.show_mayo_logo?
+    .body
+      .title= resource.title.html_safe
+      - if resource.card_abstract.present? || resource.abstract.present?
+        .abstract= (resource.card_abstract || resource.abstract).html_safe
+    .footer
+      - if card.try(:user_program)
+        .card-info
+          = image_tag(card.user_program.subject.avatar_or_gender_url)
+          .card-info-copy
+            - if card.user_program.subject == current_user
+              Because you are in the
+              %strong= card.user_program.program.title
+              program
+            - else
+              Because #{card.user_program.subject.first_name} is in the
+              %strong= card.user_program.program.title
+              program
+      - elsif card.try(:sender)
         .card-info
           = image_tag(card.sender.avatar_or_gender_url)
           .card-info-copy
             From #{card.sender.first_name}
             .time{data: {time: card.created_at.to_i}}
-    - else
-      .header
-        = image_tag('mayologo_card_@2x.png', class: %w(logo mayo-logo)) if resource.show_mayo_logo?
-      .body
-        .title= resource.title.html_safe
-        - if resource.card_abstract.present? || resource.abstract.present?
-          .abstract= (resource.card_abstract || resource.abstract).html_safe
-      .footer
-        - if card.try(:user_program)
-          .card-info
-            = image_tag(card.user_program.subject.avatar_or_gender_url)
-            .card-info-copy
-              - if card.user_program.subject == current_user
-                Because you are in the
-                %strong= card.user_program.program.title
-                program
-              - else
-                Because #{card.user_program.subject.first_name} is in the
-                %strong= card.user_program.program.title
-                program
-        - elsif card.try(:sender)
-          .card-info
-            = image_tag(card.sender.avatar_or_gender_url)
-            .card-info-copy
-              From #{card.sender.first_name}
-              .time{data: {time: card.created_at.to_i}}
-      = image_tag('ArrowDark.png', class: 'open-arrow')
-- else
-  .old
-    .content_card
-      - if resource.has_custom_card?
-        = resource.raw_preview.html_safe
-      - else
-        .content_source
-          = image_tag('mayologo_card_@2x.png', :class => 'mayo_icon') if resource.show_mayo_logo?
-        .content_header_card
-          .content_title_card= resource.title.html_safe
-          .content_text_card_fade= resource.raw_preview.html_safe
+    = image_tag('ArrowDark.png', class: 'open-arrow')
