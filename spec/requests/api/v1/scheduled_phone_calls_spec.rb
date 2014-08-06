@@ -28,11 +28,8 @@ describe 'ScheduledPhoneCall' do
     end
 
     context 'with free_trial_ends_at' do
+      let!(:user) { create(:member, :trial, free_trial_ends_at: Time.now + 15.minutes) }
       let!(:future_time) { create(:scheduled_phone_call, :assigned, scheduled_at: Time.now + 30.minutes) }
-
-      before do
-        user.update_attributes!(free_trial_ends_at: Time.now + 15.minutes)
-      end
 
       it 'indexes available scheduled_phone_calls' do
         do_request
