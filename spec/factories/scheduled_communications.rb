@@ -3,7 +3,6 @@ FactoryGirl.define do
     association :recipient, factory: %i(member premium)
     state 'scheduled'
     publish_at Time.now + 1.day
-    system_message false
 
     factory :scheduled_message, class: ScheduledMessage do
       association :sender, factory: :pha

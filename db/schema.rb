@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140807220715) do
+ActiveRecord::Schema.define(:version => 20140807221943) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -587,7 +587,6 @@ ActiveRecord::Schema.define(:version => 20140807220715) do
     t.string   "reference_type"
     t.string   "reference_event"
     t.integer  "relative_days"
-    t.boolean  "system_message"
   end
 
   create_table "scheduled_phone_calls", :force => true do |t|
