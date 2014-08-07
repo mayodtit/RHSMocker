@@ -166,11 +166,10 @@ AUTOMATED_OFFBOARDING_MESSAGE_1 = "Your trial is ending " +
   "*|day_of_reference_event|*. Get in touch with your PHA today."
 m = MessageTemplate.upsert_attributes({name: 'Automated Offboarding Message 1'},
                                       {text: AUTOMATED_OFFBOARDING_MESSAGE_1})
-MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
-                                           message_template_id: m.id},
-                                          {relative_days: -1,
-                                           reference_event: :recipient_free_trial_ends_at,
-                                           system_message: true})
+SystemMessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                                 message_template_id: m.id},
+                                                {relative_days: -1,
+                                                 reference_event: :recipient_free_trial_ends_at})
 
 AUTOMATED_OFFBOARDING_MESSAGE_2 = "Hi *|member_first_name|*, Thank you for " +
   "your interest in Better. I wanted to let you know that your free trial " +
@@ -210,8 +209,7 @@ AUTOMATED_OFFBOARDING_MESSAGE_3 = "We're sorry to see you go. If you decide " +
   "[Share your thoughts](http://svy.mk/1toueOq)."
 m = MessageTemplate.upsert_attributes({name: 'Automated Offboarding Message 3'},
                                       {text: AUTOMATED_OFFBOARDING_MESSAGE_3})
-MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
-                                           message_template_id: m.id},
-                                          {relative_days: 1,
-                                           reference_event: :recipient_free_trial_ends_at,
-                                           system_message: true})
+SystemMessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                                 message_template_id: m.id},
+                                                {relative_days: 1,
+                                                 reference_event: :recipient_free_trial_ends_at})

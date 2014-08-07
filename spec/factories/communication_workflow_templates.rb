@@ -7,6 +7,10 @@ FactoryGirl.define do
       message_template
     end
 
+    factory :system_message_workflow_template, class: SystemMessageWorkflowTemplate do
+      message_template
+    end
+
     factory :plain_text_email_workflow_template, class: PlainTextEmailWorkflowTemplate do
       message_template
     end
