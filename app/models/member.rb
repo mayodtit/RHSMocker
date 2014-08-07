@@ -40,7 +40,7 @@ class Member < User
   has_one :shared_subscription, through: :subscription_user,
                                 class_name: 'Subscription',
                                 source: :subscription
-  has_many :tasks, class_name: 'MemberTask'
+  has_many :tasks, class_name: 'Task', conditions: {type: ['MemberTask', 'UserRequestTask', 'ParsedNurselineRecordTask']}
   has_many :services
   has_many :user_images, foreign_key: :user_id,
                          inverse_of: :user,
