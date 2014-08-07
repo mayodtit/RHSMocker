@@ -10,6 +10,10 @@ FactoryGirl.define do
       text 'This is a scheduled message'
     end
 
+    factory :scheduled_system_message, class: ScheduledSystemMessage do
+      text 'This is a scheduled system message'
+    end
+
     factory :scheduled_template_email, class: ScheduledTemplateEmail do
       association :sender, factory: :pha
       template 'automated_onboarding_survey_email'
