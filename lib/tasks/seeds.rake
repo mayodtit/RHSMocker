@@ -275,7 +275,8 @@ namespace :seeds do
         attrs[:gender] = GENDERS.sample
       end
 
-      f.update_attributes! attrs
+      f.update_attributes attrs
+      f.update_attributes! attrs.merge({invitation_token: Time.now.to_i.to_s}) unless f.valid?
 
       origin_phone_number = nil
       if BOOL_SET.sample
@@ -508,5 +509,46 @@ namespace :seeds do
         ip_address: 'seeds'
       }
     ]
+  end
+
+  desc "Adds a specified number of messages to Member's account."
+  task :add_messages, [:user_id, :num_messages_to_add] => :environment do |t, args|
+    num_messages_to_add = args[:num_messages_to_add].to_i
+    puts "Finding member #{args[:user_id]}"
+    m = Member.find(args[:user_id])
+    if m.master_consult
+      puts "Adding #{num_messages_to_add} messages to #{m.full_name}'s master consult"
+      num_messages_to_add.times { m.master_consult.messages.create! user: [m,m.pha].sample, text: ['hi', 'what\'s up bro?', 'bro', 'thanks!', 'What\'s the best broatmeal recipe?', 'I could use a Pabst blue ribbon right now', 'I can\'t help you with that'].sample }
+    else
+      puts "ERROR: #{m.full_name} does not have a master consult"
+    end
+  end
+
+  desc "Adds nurseline summaries for a random member of every PHA in the system."
+  task :add_nurseline_summaries => :environment do |t, args|
+    api_user = ApiUser.first || ApiUser.create!(name: 'Test API User')
+
+    NurselineRecord.skip_callback :create, :after, :create_processing_job
+
+    Role.pha.users.each do |pha|
+      member = Member.joins(:master_consult).where('NOT status = ?', :free).where(pha_id: pha.id).sample
+      next unless member
+
+      puts "PHA #{pha.id} (#{pha.full_name}): Adding summary, records, and tasks to Member #{member.id} (#{member.full_name})"
+
+      n = NurselineRecord.create!(
+        payload: "<div>Member #{member.id} was coughing up rabbits.</div>",
+        api_user: api_user
+      )
+
+      ParsedNurselineRecord.create!(
+        user_id: member.id,
+        consult_id: member.master_consult.id,
+        nurseline_record_id: n.id,
+        text: "Member #{member.id} was coughing up rabbits."
+      )
+    end
+
+    NurselineRecord.set_callback :create, :after, :create_processing_job
   end
 end

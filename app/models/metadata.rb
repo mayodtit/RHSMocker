@@ -69,10 +69,6 @@ class Metadata < ActiveRecord::Base
     Metadata.find_by_mkey('allow_tos_checked').try(:mvalue) == 'true'
   end
 
-  def self.new_card_design?
-    Metadata.find_by_mkey('new_card_design').try(:mvalue) == 'true'
-  end
-
   def self.force_phas_off_call?
     Metadata.find_by_mkey('force_phas_off_call').try(:mvalue) == 'true'
   end
