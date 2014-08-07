@@ -12,7 +12,8 @@ class ScheduledCommunication < ActiveRecord::Base
                   :state_event, :publish_at, :delivered_at, :variables,
                   :relative_days, :system_message
 
-  validates :sender, :recipient, presence: true
+  validates :recipient, presence: true
+  validates :sender, presence: true, if: ->(s){s.sender_id}
   validates :reference, presence: true, if: ->(s){s.reference_id || s.reference_type}
   validates :reference, presence: true, if: ->(s){s.reference_event}
   validates :reference_event, presence: true, if: ->(s){s.reference}

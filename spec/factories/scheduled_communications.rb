@@ -1,20 +1,22 @@
 FactoryGirl.define do
   factory :scheduled_communication do
-    association :sender, factory: :pha
     association :recipient, factory: %i(member premium)
     state 'scheduled'
     publish_at Time.now + 1.day
     system_message false
 
     factory :scheduled_message, class: ScheduledMessage do
+      association :sender, factory: :pha
       text 'This is a scheduled message'
     end
 
     factory :scheduled_template_email, class: ScheduledTemplateEmail do
+      association :sender, factory: :pha
       template 'automated_onboarding_survey_email'
     end
 
     factory :scheduled_plain_text_email, class: ScheduledPlainTextEmail do
+      association :sender, factory: :pha
       subject 'subject of the email'
       text 'body of the email'
     end

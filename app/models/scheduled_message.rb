@@ -3,7 +3,7 @@ class ScheduledMessage < ScheduledCommunication
 
   attr_accessible :message, :message_id, :text
 
-  validates :text, presence: true
+  validates :sender, :text, presence: true
   validates :message, presence: true, if: ->(s){s.message_id}
 
   def formatted_text

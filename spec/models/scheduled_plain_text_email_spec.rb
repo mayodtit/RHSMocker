@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe ScheduledMessage do
+describe ScheduledPlainTextEmail do
   before do
     Timecop.freeze(Date.today.to_time)
   end
@@ -15,22 +15,21 @@ describe ScheduledMessage do
   it_has_a 'valid factory', :delivered
   it_has_a 'valid factory', :canceled
   it_validates 'presence of', :sender
+  it_validates 'presence of', :subject
   it_validates 'presence of', :text
-  it_validates 'foreign key of', :message
 
   describe 'events' do
     describe '#deliver' do
-      let(:message) { create(:scheduled_message, :scheduled) }
+      let!(:email) { create(:scheduled_plain_text_email, :scheduled) }
 
       it 'transitions from :scheduled to :delivered' do
-        message.update_attributes!(state_event: :deliver)
-        expect(message.state?(:delivered)).to be_true
+        email.update_attributes!(state_event: :deliver)
+        expect(email.state?(:delivered)).to be_true
       end
 
-      it 'sends a message to the consult' do
-        expect{ message.update_attributes!(state_event: :deliver) }.to change(Message, :count).by(1)
-        expect(message.reload.message).to_not be_blank
-        expect(message.delivered_at).to eq(Time.now)
+      it 'delays an email to be sent' do
+        expect{ email.update_attributes!(state_event: :deliver) }.to change(Delayed::Job, :count).by(1)
+        expect(email.delivered_at).to eq(Time.now)
       end
     end
   end

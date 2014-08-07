@@ -21,8 +21,8 @@ describe ScheduledCommunication do
       described_class.any_instance.stub(:set_defaults)
     end
 
-    it_validates 'presence of', :sender
     it_validates 'presence of', :recipient
+    it_validates 'foreign key of', :sender
     it_validates 'foreign key of', :reference
     it_validates 'numericality of', :relative_days
     it_validates 'integer numericality of', :relative_days
