@@ -41,6 +41,16 @@ class ScheduledCommunication < ActiveRecord::Base
     where('publish_at < ?', time)
   end
 
+  def self.non_system
+    where('type != ?', ScheduledSystemMessage.name)
+  end
+
+  def self.hold_scheduled!
+    scheduled.non_system.each do |c|
+      c.hold!
+    end
+  end
+
   def update_publish_at_from_calculation!
     return unless scheduled? || held?
     return unless reference

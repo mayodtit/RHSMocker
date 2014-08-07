@@ -129,9 +129,7 @@ Prep:
 
   def hold_scheduled_communications
     if user && (state_changed? || scheduled_at_changed?)
-      user.inbound_scheduled_communications.scheduled.each do |m|
-        m.hold!
-      end
+      user.inbound_scheduled_communications.hold_scheduled!
     end
   end
 

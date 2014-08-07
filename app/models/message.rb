@@ -69,11 +69,7 @@ class Message < ActiveRecord::Base
   end
 
   def hold_scheduled_communications
-    if user
-      user.inbound_scheduled_communications.scheduled.each do |m|
-        m.hold!
-      end
-    end
+    user.inbound_scheduled_communications.hold_scheduled! if user
   end
 
   private
