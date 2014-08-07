@@ -22,6 +22,7 @@ resource "Member Tasks" do
   let!(:claimed_task) { create(:member_task, :claimed, owner: pha, member: member) }
   let!(:completed_task) { create(:member_task, :completed, member: member) }
   let!(:abandoned_task) { create(:member_task, :abandoned, member: member, subject: relative, due_at: 1.days.ago) }
+  let!(:freshly_completed_task) { create(:member_task, :abandoned, member: member, subject: relative, due_at: 1.hour.ago) }
 
   let!(:other_assigned_task) { create(:member_task, :assigned, member: other_member) }
   let!(:other_unstarted_task) { create(:member_task, member: other_member) }
@@ -48,7 +49,7 @@ resource "Member Tasks" do
         explanation 'Get all tasks for a member (optionally filter by subject and state)'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        expect(response[:tasks].map{|t| t[:id]}).to include(unstarted_task.id, assigned_task.id, abandoned_task.id)
+        response[:tasks].map{|t| t[:id]}.should == [assigned_task.id, unstarted_task.id, freshly_completed_task.id, abandoned_task.id]
       end
     end
   end
