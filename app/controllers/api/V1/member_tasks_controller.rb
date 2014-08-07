@@ -13,7 +13,8 @@ class Api::V1::MemberTasksController < Api::V1::ABaseController
       search_params.delete :subject_id
     end
 
-    tasks = tasks.where(search_params).order('due_at, created_at ASC')
+    # NOTE: order is MySQL specific
+    tasks = tasks.where(search_params).order("field(state, 'unstarted', 'started', 'claimed', 'completed', 'abandoned'), due_at DESC, created_at DESC")
     index_resource tasks.serializer, name: :tasks
   end
 
