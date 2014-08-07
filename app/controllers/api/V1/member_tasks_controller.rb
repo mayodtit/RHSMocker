@@ -4,7 +4,16 @@ class Api::V1::MemberTasksController < Api::V1::ABaseController
 
   def index
     authorize! :read, Task
-    tasks = @member.tasks.where(params.permit(:subject_id, :state)).order('due_at, created_at ASC')
+    search_params = params.permit(:subject_id, :state)
+
+    tasks = @member.tasks
+
+    if search_params[:subject_id].to_i == @member.id
+      tasks = tasks.where("type = 'ParsedNurselineRecordTask' OR subject_id = ?", params[:subject_id])
+      search_params.delete :subject_id
+    end
+
+    tasks = tasks.where(search_params).order('due_at, created_at ASC')
     index_resource tasks.serializer, name: :tasks
   end
 
@@ -15,7 +24,7 @@ class Api::V1::MemberTasksController < Api::V1::ABaseController
     attributes[:creator] = current_user
     attributes[:assignor_id] = current_user.id if attributes[:owner_id].present?
 
-    create_resource @member.tasks, attributes, name: :task
+    create_resource MemberTask, attributes.merge(member_id: @member.id), name: :task
   end
 
   private

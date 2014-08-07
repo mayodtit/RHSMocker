@@ -57,6 +57,30 @@ describe Api::V1::MemberTasksController do
         body = JSON.parse(response.body, symbolize_names: true)
         body[:tasks].to_json.should == tasks.serializer.as_json.to_json
       end
+
+      context 'when the member is the subject' do
+        it 'return ParsedNurselineRecordTasks' do
+          member.should_receive(:tasks) do
+            o = Object.new
+            o.should_receive(:where).with("type = 'ParsedNurselineRecordTask' OR subject_id = ?", member.id.to_s) do
+              o_o = Object.new
+              o_o.should_receive(:where).with('state' => 'unassigned') do
+                o_o_o = Object.new
+                o_o_o.should_receive(:order).with('due_at, created_at ASC') do
+                  tasks
+                end
+                o_o_o
+              end
+              o_o
+            end
+            o
+          end
+
+          get :index, member_id: member.id, auth_token: user.auth_token, subject_id: member.id, state: 'unassigned', due_at: 3.days.ago
+          body = JSON.parse(response.body, symbolize_names: true)
+          body[:tasks].to_json.should == tasks.serializer.as_json.to_json
+        end
+      end
     end
   end
 
@@ -64,11 +88,7 @@ describe Api::V1::MemberTasksController do
     let(:task) { build_stubbed :task }
 
     before do
-      member.stub(:tasks) do
-        o = Object.new
-        o.stub(:create) { task }
-        o
-      end
+      MemberTask.stub(:create) { task }
     end
 
     def do_request
@@ -82,11 +102,7 @@ describe Api::V1::MemberTasksController do
       it_behaves_like 'success'
 
       it 'sets the creator to the current user' do
-        member.should_receive(:tasks) do
-          o = Object.new
-          o.should_receive(:create).with('creator' => user, 'title' => 'Title') { task }
-          o
-        end
+        MemberTask.should_receive(:create).with('creator' => user, 'title' => 'Title', 'member_id' => member.id) { task }
 
         do_request
       end
@@ -99,22 +115,15 @@ describe Api::V1::MemberTasksController do
 
       context 'owner id is present' do
         it 'sets assignor_id to current user' do
-          member.should_receive(:tasks) do
-            o = Object.new
-            o.should_receive(:create).with(hash_including('assignor_id' => user.id)) { task }
-            o
-          end
+          MemberTask.should_receive(:create).with(hash_including('assignor_id' => user.id)) { task }
+
           post :create, auth_token: user.auth_token, member_id: member.id, task: {owner_id: 2}
         end
       end
 
       context 'owner id is not present' do
         it 'sets assignor_id to current user' do
-          member.should_receive(:tasks) do
-            o = Object.new
-            o.should_receive(:create).with(hash_excluding('assignor_id')) { task }
-            o
-          end
+          MemberTask.should_receive(:create).with(hash_excluding('assignor_id')) { task }
           post :create, auth_token: user.auth_token, member_id: member.id, task: {title: 'Title'}
         end
       end

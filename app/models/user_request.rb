@@ -30,6 +30,7 @@ class UserRequest < ActiveRecord::Base
     create_user_request_task(title: 'New User Request',
                              creator: Member.robot,
                              member: user,
+                             subject: subject,
                              due_at: Time.now)
   end
 end
