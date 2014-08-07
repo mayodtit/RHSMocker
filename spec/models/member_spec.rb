@@ -122,6 +122,44 @@ describe Member do
       end
     end
 
+    describe 'set_invitation_token' do
+      let(:member) { create(:member, :invited) }
+
+      it 'sets the invitation token before validation for an invited member' do
+        member.invitation_token = nil
+        member.valid?
+        expect(member.invitation_token).to_not be_nil
+      end
+
+      it 'does not set the same invitation token multiple times' do
+        Base64.stub(:urlsafe_encode64).and_return('baadbeef', 'baadbeef', 'baadbeef', 'deadbeef')
+        member.invitation_token = nil
+        member.save!
+        expect(member.invitation_token).to eq('baadbeef')
+        member2 = create(:member, :invited)
+        member2.invitation_token = nil
+        member2.save!
+        expect(member2.invitation_token).to eq('deadbeef')
+      end
+    end
+
+    describe 'unset_invitation_token' do
+      let(:invited_member) { create(:member, :invited) }
+      let(:trial_member) { build_stubbed(:member, :trial) }
+
+      it 'unsets invitation_token for non-invited members' do
+        trial_member.invitation_token = 'hello'
+        trial_member.valid?
+        expect(trial_member.invitation_token).to be_nil
+      end
+
+      it 'unsets invitation_token for when a member claims their invitation' do
+        expect(invited_member.invitation_token).to_not be_nil
+        invited_member.sign_up!
+        expect(invited_member.invitation_token).to be_nil
+      end
+    end
+
     describe '#add_onboarding_group_cards' do
       let!(:onboarding_group_card) { create(:onboarding_group_card) }
       let(:onboarding_group) { onboarding_group_card.onboarding_group }
