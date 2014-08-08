@@ -35,7 +35,6 @@ class ScheduledPhoneCall < ActiveRecord::Base
 
   after_create :if_assigned_notify_owner
   after_save :set_user_phone_if_missing
-  after_save :hold_scheduled_communications
 
   def self.assigned
     where(state: :assigned)
@@ -124,14 +123,6 @@ Prep:
     if user && !user.phone
       user.phone = callback_phone_number
       user.save!
-    end
-  end
-
-  def hold_scheduled_communications
-    if user && (state_changed? || scheduled_at_changed?)
-      user.inbound_scheduled_communications.scheduled.each do |m|
-        m.hold!
-      end
     end
   end
 
