@@ -15,6 +15,9 @@ class OnboardingGroup < ActiveRecord::Base
   validates :provider, presence: true, if: ->(o){o.provider_id}
   validates :premium, inclusion: {in: [true, false]}
   validates :free_trial_days, numericality: {only_integer: true}
+  validates :mayo_pilot, inclusion: {in: [true, false]}
+
+  before_validation :set_defaults
 
   def free_trial_ends_at(time=nil)
     if !premium?
@@ -26,5 +29,12 @@ class OnboardingGroup < ActiveRecord::Base
     else
       nil
     end
+  end
+
+  private
+
+  def set_defaults
+    self.mayo_pilot ||= false
+    true
   end
 end

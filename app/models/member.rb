@@ -486,6 +486,14 @@ class Member < User
        !@emails_sent
       Mails::MeetYourPhaJob.create(member.id)
       @emails_sent = true
+    elsif status?(:invited) &&
+          status_changed? &&
+          !MemberStateTransition.multiple_exist_for?(member, :invited) &&
+          !@emails_sent &&
+          onboarding_group.try(:mayo_pilot?) &&
+          onboarding_group.try(:provider)
+      Mails::MayoPilotInviteJob.create(member.id, onboarding_group.provider.id)
+      @emails_sent = true
     end
   end
 

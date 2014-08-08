@@ -239,7 +239,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
       vars: {
         FNAME: user.salutation,
         DRNAME: provider.full_name,
-        INVITE_URL: Rails.application.routes.url_helpers.invites_url(user.invitation_token)
+        INVITE_URL: Rails.application.routes.url_helpers.invite_url(user.invitation_token)
       }
     )
   end
