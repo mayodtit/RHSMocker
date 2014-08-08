@@ -2,7 +2,8 @@ class OnboardingGroupSerializer < ActiveModel::Serializer
   self.root = false
 
   attributes :id, :name, :premium, :free_trial_days,
-             :absolute_free_trial_ends_at, :users_count
+             :absolute_free_trial_ends_at, :users_count,
+             :mayo_pilot
 
   def users_count
     object.users.count

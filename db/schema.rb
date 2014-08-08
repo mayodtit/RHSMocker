@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140807224615) do
+ActiveRecord::Schema.define(:version => 20140808194337) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -429,6 +429,7 @@ ActiveRecord::Schema.define(:version => 20140807224615) do
     t.datetime "created_at",                                     :null => false
     t.datetime "updated_at",                                     :null => false
     t.integer  "provider_id"
+    t.boolean  "mayo_pilot"
   end
 
   create_table "parsed_nurseline_records", :force => true do |t|

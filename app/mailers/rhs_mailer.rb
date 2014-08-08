@@ -223,4 +223,24 @@ class RHSMailer < MandrillMailer::TemplateMailer
       },
     )
   end
+
+  MAYO_PILOT_INVITE_TEMPLATE = 'Mayo Pilot Invite Emails'
+
+  def mayo_pilot_invite_email(user, provider)
+    mandrill_mail(
+      subject: 'Your Invitation to the Better and Mayo Clinic Pilot',
+      from: 'support@getbetter.com',
+      from_name: 'Better',
+      to: {email: user.email},
+      template: MAYO_PILOT_INVITE_TEMPLATE,
+      headers: {
+        'Reply-To' => 'Better <support@getbetter.com>'
+      },
+      vars: {
+        FNAME: user.salutation,
+        DRNAME: provider.full_name,
+        INVITE_URL: Rails.application.routes.url_helpers.invite_url(user.invitation_token)
+      }
+    )
+  end
 end
