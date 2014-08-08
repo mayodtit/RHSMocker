@@ -1,5 +1,5 @@
-class MessageWorkflowTemplate < CommunicationWorkflowTemplate
-  belongs_to :message_template, inverse_of: :message_workflow_templates
+class SystemMessageWorkflowTemplate < CommunicationWorkflowTemplate
+  belongs_to :message_template, inverse_of: :system_message_workflow_templates
 
   attr_accessible :message_template, :message_template_id
 
@@ -7,11 +7,10 @@ class MessageWorkflowTemplate < CommunicationWorkflowTemplate
 
   def add_to_member(member, relative_time)
     create_attributes = reference_attributes(member).merge!({
-      sender: member.pha,
       recipient: member,
       text: message_template.text,
       publish_at: calculated_publish_at(relative_time)
     })
-    ScheduledMessage.create!(create_attributes)
+    ScheduledSystemMessage.create!(create_attributes)
   end
 end

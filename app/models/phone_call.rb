@@ -42,7 +42,6 @@ class PhoneCall < ActiveRecord::Base
   before_validation :set_member_phone_number
 
   after_create :dial_if_outbound
-  after_create :hold_scheduled_communications
   after_save :publish
   after_save :create_task
   after_save :create_message_if_user_updated
@@ -258,14 +257,6 @@ class PhoneCall < ActiveRecord::Base
 
     if origin_phone_number.nil? && user && user.phone.present?
       self.origin_phone_number = user.phone
-    end
-  end
-
-  def hold_scheduled_communications
-    if user
-      user.inbound_scheduled_communications.scheduled.each do |m|
-        m.hold!
-      end
     end
   end
 

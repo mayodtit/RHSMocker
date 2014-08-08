@@ -1,7 +1,7 @@
 class ScheduledTemplateEmail < ScheduledCommunication
   attr_accessible :template
 
-  validates :template, presence: true
+  validates :sender, :template, presence: true
 
   def can_deliver?
     case template.to_sym

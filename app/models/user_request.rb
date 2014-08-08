@@ -12,7 +12,6 @@ class UserRequest < ActiveRecord::Base
 
   after_create :send_confirmation_message
   after_create :create_task
-
   private
 
   def send_confirmation_message
