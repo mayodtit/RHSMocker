@@ -12,8 +12,6 @@ class UserRequest < ActiveRecord::Base
 
   after_create :send_confirmation_message
   after_create :create_task
-  after_create :hold_scheduled_communications
-
   private
 
   def send_confirmation_message
@@ -33,9 +31,5 @@ class UserRequest < ActiveRecord::Base
                              member: user,
                              subject: subject,
                              due_at: Time.now)
-  end
-
-  def hold_scheduled_communications
-    user.inbound_scheduled_communications.hold_scheduled! if user
   end
 end
