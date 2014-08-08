@@ -28,7 +28,8 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:onboarding_group).permit(:name,
                                              :premium,
                                              :free_trial_days,
-                                             :absolute_free_trial_ends_at)
+                                             :absolute_free_trial_ends_at,
+                                             :mayo_pilot)
   end
 
   def referral_code
