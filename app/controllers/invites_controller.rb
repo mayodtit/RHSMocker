@@ -10,7 +10,7 @@ class InvitesController < ApplicationController
   end
 
   def update
-    if @member.update_attributes(permitted_params.user)
+    if @member.update_attributes(update_params)
       @member.update_attribute(:invitation_token, nil)
       redirect_to complete_invites_url
     else
