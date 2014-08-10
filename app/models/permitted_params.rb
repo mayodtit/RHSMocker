@@ -29,7 +29,8 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
                                              :premium,
                                              :free_trial_days,
                                              :absolute_free_trial_ends_at,
-                                             :mayo_pilot)
+                                             :mayo_pilot,
+                                             :npi_number)
   end
 
   def referral_code
