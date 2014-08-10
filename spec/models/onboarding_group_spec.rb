@@ -12,10 +12,17 @@ describe OnboardingGroup do
   it_has_a 'valid factory'
   it_has_a 'valid factory', :premium
   it_has_a 'valid factory', :mayo_pilot
-  it_validates 'presence of', :name
-  it_validates 'foreign key of', :provider
-  it_validates 'inclusion of', :premium
-  it_validates 'inclusion of', :mayo_pilot
+
+  describe 'validations' do
+    before do
+      described_class.any_instance.stub(:set_defaults)
+    end
+
+    it_validates 'presence of', :name
+    it_validates 'foreign key of', :provider
+    it_validates 'inclusion of', :premium
+    it_validates 'inclusion of', :mayo_pilot
+  end
 
   describe '#free_trial_ends_at' do
     let(:onboarding_group) { build_stubbed(:onboarding_group) }

@@ -8,9 +8,11 @@ class OnboardingGroup < ActiveRecord::Base
   has_many :onboarding_group_programs
   has_many :programs, through: :onboarding_group_programs
 
+  accepts_nested_attributes_for :provider
+
   attr_accessible :name, :premium, :free_trial_days,
                   :absolute_free_trial_ends_at, :provider, :provider_id,
-                  :mayo_pilot
+                  :mayo_pilot, :npi_number, :provider_attributes
 
   validates :name, presence: true
   validates :provider, presence: true, if: ->(o){o.provider_id}
@@ -32,10 +34,22 @@ class OnboardingGroup < ActiveRecord::Base
     end
   end
 
+  def npi_number=(npi_number)
+    if provider = User.find_by_npi_number(npi_number)
+      self.provider = provider
+    else
+      self.provider_attributes = PermittedParams.new(ActionController::Parameters.new(user: provider_attributes(npi_number))).user
+    end
+  end
+
   private
 
   def set_defaults
     self.mayo_pilot ||= false
     true
+  end
+
+  def provider_attributes(npi_number)
+    Search::Service.new.find(npi_number: npi_number)
   end
 end
