@@ -83,6 +83,44 @@ class RHSMailer < MandrillMailer::TemplateMailer
     )
   end
 
+  MAYO_WELCOME_TEMPLATE_CLARE = 'Mayo Pilot Meet Clare, Your PHA 8/10/14'
+  MAYO_WELCOME_TEMPLATE_LAUREN = 'Mayo Pilot Meet Lauren, Your PHA 8/10/14'
+  MAYO_WELCOME_TEMPLATE_MEG = 'Mayo Pilot Meet Meg, Your PHA 8/10/14'
+  MAYO_WELCOME_TEMPLATE_NINETTE = 'Mayo Pilot Meet Ninette, Your PHA 8/10/14'
+  MAYO_WELCOME_TEMPLATE_JENN = 'Mayo Pilot Meet Jenn, Your PHA 8/10/14'
+
+  def mayo_pilot_meet_your_pha_email(user, provider)
+    case user.pha.try(:email)
+    when 'clare@getbetter.com'
+      template = MAYO_WELCOME_TEMPLATE_CLARE
+    when 'lauren@getbetter.com'
+      template = MAYO_WELCOME_TEMPLATE_LAUREN
+    when 'meg@getbetter.com'
+      template = MAYO_WELCOME_TEMPLATE_MEG
+    when 'ninette@getbetter.com'
+      template = MAYO_WELCOME_TEMPLATE_NINETTE
+    when 'jenn@getbetter.com'
+      template = MAYO_WELCOME_TEMPLATE_JENN
+    else
+      raise 'Must have PHA to send Meet your PHA'
+    end
+
+    mandrill_mail(
+      subject: 'Meet your Better Personal Health Assistant',
+      from: user.pha.email,
+      from_name: user.pha.full_name,
+      to: { email: user.email },
+      template: template,
+      headers: {
+        'Reply-To' => "#{user.pha.full_name} <premium@getbetter.com>"
+      },
+      vars: {
+        FNAME: user.salutation,
+        DRNAME: provider.full_name
+      }
+    )
+  end
+
   def invitation_email(user, url)
     mandrill_mail(
       subject: "You've been invited to Better",
