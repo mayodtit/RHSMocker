@@ -58,7 +58,7 @@ class InvitesController < ApplicationController
   end
 
   def update_params
-    permitted_param.user.tap do |attributes|
+    permitted_params.user.tap do |attributes|
       attributes[:status_event] = :sign_up
     end
   end
