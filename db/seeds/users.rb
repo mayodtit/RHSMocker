@@ -16,7 +16,7 @@ PHA_ATTRIBUTES = [
     first_name: 'Lauren',
     last_name: 'M',
     bio: "Lauren has worked as an EMT, a disease prevention counselor, and " +
-         "a clinical researcher. She’s passionate about preventive care " +
+         "a clinical researcher. She's passionate about preventive care " +
          "and patient empowerment. In her free time, Lauren is an avid " +
          "cyclist who loves to hike and spend time outdoors.",
     arrow_image: 'lauren-arrow.png',
@@ -28,7 +28,7 @@ PHA_ATTRIBUTES = [
     first_name: 'Meg',
     last_name: 'M',
     bio: "Meg has a clinical background in hospice and palliative care " +
-         "nursing and previously worked in research at UCSF’s Integrative " +
+         "nursing and previously worked in research at UCSF's Integrative " +
          "Health Center. In her free time she loves to be outside, " +
          "especially running on trails.",
     arrow_image: 'meg-arrow.png',
@@ -58,6 +58,31 @@ PHA_ATTRIBUTES = [
     arrow_image: 'jenn-arrow.png',
     avatar_image: 'jenn-avatar.jpg',
     bio_image: 'jenn-bio_image.png'
+  },
+  {
+    email: 'ann@getbetter.com',
+    first_name: 'Ann',
+    last_name: 'B',
+    bio: "Ann is a lifestyle health coach specialized in building healthy " +
+         "habits and managing chronic conditions. Previously, she developed " +
+         "a bilingual, culturally-competent diabetes prevention program. " +
+         "She loves a good laugh, exploring hiking trails, and watching " +
+         "quirky documentaries.",
+    arrow_image: 'ann-arrow.png',
+    avatar_image: 'ann-avatar.jpg',
+    bio_image: 'ann-bio_image.png'
+  },
+  {
+    email: 'jacqui@getbetter.com',
+    first_name: 'Jacqui',
+    last_name: 'B',
+    bio: "Jacqui has a Master's in Public Health with a focus in Health " +
+         "Education. Previously, she worked as an academic mental health " +
+         "researcher and disease prevention counselor. In her free time, " +
+         "she can be found concocting new recipes in her kitchen.",
+    arrow_image: 'jacqui-arrow.png',
+    avatar_image: 'jacqui-avatar.jpg',
+    bio_image: 'jacqui-bio_image.png'
   }
 ]
 
