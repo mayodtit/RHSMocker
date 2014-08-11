@@ -455,32 +455,6 @@ describe Member do
     end
   end
 
-  describe '::pha_counts' do
-    let!(:pha) { create(:pha) }
-
-    it 'returns a hash of PHA assignment counts with nil defaults' do
-      result = described_class.pha_counts
-      expect(result).to be_a(Hash)
-      expect(result).to be_empty
-      expect(result[pha.id]).to be_zero
-    end
-  end
-
-  describe '::next_pha' do
-    let!(:assigned_pha) { create(:pha) }
-    let!(:member) { create(:member, pha: assigned_pha) }
-    let!(:unassigned_pha) { create(:pha) }
-
-    before do
-      assigned_pha.create_pha_profile
-      unassigned_pha.create_pha_profile
-    end
-
-    it 'returns the PHA with the most availablity' do
-      expect(described_class.next_pha).to eq(unassigned_pha)
-    end
-  end
-
   describe '#add_role' do
     let(:member) { create :member }
     let(:role) { create :role, name: 'role' }
