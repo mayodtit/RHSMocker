@@ -150,31 +150,6 @@ class Member < User
     phas.joins(:pha_profile)
   end
 
-  def self.phas_with_capacity
-    phas.reject{|m| !m.pha_profile || m.pha_profile.max_capacity?}
-  end
-
-  def self.pha_counts
-    group(:pha_id).where(status: PREMIUM_STATES)
-                  .where(pha_id: phas_with_capacity.map(&:id))
-                  .count
-                  .tap do |hash|
-      hash.default = 0
-    end
-  end
-
-  def self.next_pha
-    current_counts = pha_counts
-    min_count = current_counts.values.min || 0
-    phas_with_capacity.inject(nil) do |selected, current|
-      if current_counts[current.id] <= min_count
-        selected = current
-        min_count = current_counts[current.id]
-      end
-      selected
-    end
-  end
-
   def needs_agreement?
     !terms_of_service_and_privacy_policy
   end
@@ -412,7 +387,7 @@ class Member < User
   end
 
   def set_pha
-    self.pha ||= self.class.next_pha
+    self.pha ||= PhaProfile.next_pha_profile.try(:user)
   end
 
   def set_master_consult
