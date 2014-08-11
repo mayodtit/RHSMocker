@@ -41,10 +41,6 @@ describe PhaProfile do
     let!(:pha_profile) { create(:pha_profile) }
     let!(:other_pha_profile) { create(:pha_profile) }
 
-    before do
-      described_class.stub(with_capacity: [pha_profile, other_pha_profile])
-    end
-
     it 'returns the first profile if we "randomly" select them' do
       Random.stub(rand: 0)
       expect(described_class.next_pha_profile).to eq(pha_profile)
@@ -58,6 +54,14 @@ describe PhaProfile do
     it 'returns nil if there are no pha profiles' do
       described_class.stub(with_capacity: [])
       expect(described_class.next_pha_profile).to eq(nil)
+    end
+
+    context 'mayo_pilot' do
+      let!(:mayo_pha_profile) { create(:pha_profile, mayo_pilot: true) }
+
+      it 'returns a pha_profile of a pha with mayo_pilot set' do
+        expect(described_class.next_pha_profile(true)).to eq(mayo_pha_profile)
+      end
     end
   end
 

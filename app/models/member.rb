@@ -387,7 +387,11 @@ class Member < User
   end
 
   def set_pha
-    self.pha ||= PhaProfile.next_pha_profile.try(:user)
+    self.pha ||= if onboarding_group.try(:mayo_pilot?)
+                   PhaProfile.next_pha_profile(true).try(:user)
+                 else
+                   PhaProfile.next_pha_profile.try(:user)
+                 end
   end
 
   def set_master_consult

@@ -13,13 +13,18 @@ class PhaProfile < ActiveRecord::Base
 
   before_validation :set_defaults
 
+  def self.mayo_pilot
+    where(mayo_pilot: true)
+  end
+
   def self.with_capacity
     all.each.reject{|p| p.max_capacity?}
   end
 
-  def self.next_pha_profile
+  def self.next_pha_profile(pilot=false)
     capacity_hash = {}
-    capacity_total = with_capacity.inject(0) do |sum, profile|
+    search_scope = pilot ? mayo_pilot.with_capacity : with_capacity
+    capacity_total = search_scope.inject(0) do |sum, profile|
       sum += profile.capacity_weight
       capacity_hash[sum] = profile
       sum
