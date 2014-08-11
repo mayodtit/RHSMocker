@@ -17,6 +17,7 @@ describe PhaProfile do
     it_validates 'presence of', :user
     it_validates 'numericality of', :capacity_weight
     it_validates 'integer numericality of', :capacity_weight
+    it_validates 'inclusion of', :mayo_pilot
   end
 
   describe '::with_capcity' do

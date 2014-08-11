@@ -3,12 +3,13 @@ class PhaProfile < ActiveRecord::Base
   mount_uploader :bio_image, PhaProfileBioImageUploader
 
   attr_accessible :user, :user_id, :bio_image, :bio, :weekly_capacity,
-                  :capacity_weight
+                  :capacity_weight, :mayo_pilot
 
   validates :user, presence: true
   validates :capacity_weight, numericality: {only_integer: true,
                                              greater_than_or_equal_to: 0,
                                              less_than_or_equal_to: 100}
+  validates :mayo_pilot, inclusion: {in: [true, false]}
 
   before_validation :set_defaults
 
@@ -51,6 +52,8 @@ class PhaProfile < ActiveRecord::Base
 
   def set_defaults
     self.capacity_weight ||= 0
+    self.mayo_pilot = false if mayo_pilot.nil?
+    true
   end
 
   def recent_owned_members_count
