@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140811204748) do
+ActiveRecord::Schema.define(:version => 20140811215817) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -459,6 +459,7 @@ ActiveRecord::Schema.define(:version => 20140811204748) do
     t.text     "bio"
     t.integer  "weekly_capacity"
     t.integer  "capacity_weight"
+    t.boolean  "mayo_pilot"
   end
 
   create_table "phone_call_summaries", :force => true do |t|

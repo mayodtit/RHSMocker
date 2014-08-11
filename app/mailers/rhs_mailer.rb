@@ -51,6 +51,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
   PREMIUM_WELCOME_TEMPLATE_MEG = 'Meet Meg, Your PHA 7/9/14'
   PREMIUM_WELCOME_TEMPLATE_NINETTE = 'Meet Ninette, Your PHA 7/9/14'
   PREMIUM_WELCOME_TEMPLATE_JENN = 'Meet Jenn, Your PHA 7/9/14'
+  PREMIUM_WELCOME_TEMPLATE_ANN = 'Meet Ann, Your PHA 8/7/14'
+  PREMIUM_WELCOME_TEMPLATE_JACQUI = 'Meet Jacqui, Your PHA 8/7/14'
 
   def meet_your_pha_email(email)
     user = Member.find_by_email!(email)
@@ -67,6 +69,10 @@ class RHSMailer < MandrillMailer::TemplateMailer
       template = PREMIUM_WELCOME_TEMPLATE_NINETTE
     when 'jenn@getbetter.com'
       template = PREMIUM_WELCOME_TEMPLATE_JENN
+    when 'ann@getbetter.com'
+      template = PREMIUM_WELCOME_TEMPLATE_ANN
+    when 'jacqui@getbetter.com'
+      template = PREMIUM_WELCOME_TEMPLATE_JACQUI
     else
       raise 'Must have PHA to send Meet your PHA'
     end
@@ -212,6 +218,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
   AUTOMATED_ONBOARDING_TESTIMONIALS_MEG = 'Reminder to Schedule Welcome Call Meg 7/25'
   AUTOMATED_ONBOARDING_TESTIMONIALS_NINETTE = 'Reminder to Schedule Welcome Call Ninette 7/25'
   AUTOMATED_ONBOARDING_TESTIMONIALS_JENN = 'Reminder to Schedule Welcome Call Jenn 7/25'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_ANN = 'Reminder to Schedule Welcome Call Ann 8/8/14'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_JACQUI = 'Reminder to Schedule Welcome Call Jacqui 8/8/14'
 
   def automated_onboarding_testimonials_email(user, pha)
     template = case pha.email
@@ -225,6 +233,10 @@ class RHSMailer < MandrillMailer::TemplateMailer
                  AUTOMATED_ONBOARDING_TESTIMONIALS_NINETTE
                when 'jenn@getbetter.com'
                  AUTOMATED_ONBOARDING_TESTIMONIALS_JENN
+               when 'ann@getbetter.com'
+                 AUTOMATED_ONBOARDING_TESTIMONIALS_ANN
+               when 'jacqui@getbetter.com'
+                 AUTOMATED_ONBOARDING_TESTIMONIALS_JACQUI
                else
                  raise 'Unknown PHA, not sending!'
                end
