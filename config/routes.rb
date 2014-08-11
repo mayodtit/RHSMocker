@@ -68,7 +68,7 @@ RHSMocker::Application.routes.draw do
       resources :onboarding_groups, only: %i(index show create update) do
         resources :users, only: %i(index create destroy), controller: 'onboarding_group_users'
       end
-      resources :parsed_nurseline_records, only: :show
+      resources :parsed_nurseline_records, only: %i(index show)
       post :password_resets, to: 'reset_password#create' # TODO - deprecated!
       resources :phone_call_summaries, :only => :show
       resources :ping, only: [:index, :create]
