@@ -12,10 +12,14 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   # Right now it's posible for the user to become premium without paying,
   # but it's better than them paying without becoming a premium member.
   def create
-    sa = subscription_attributes
-    r = update_resource @user, user_attributes, name: :user
-    @customer.subscriptions.create(sa)
-    r
+    sa = subscription_attributes # this needs to be assigned prior to the user's update_attributes
+
+    if @user.update_attributes(user_attributes)
+      @customer.subscriptions.create(sa)
+      render_success(user: @user.serializer)
+    else
+      render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   private
