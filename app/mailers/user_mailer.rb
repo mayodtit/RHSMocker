@@ -38,7 +38,13 @@ class UserMailer < ActionMailer::Base
   def scheduled_phone_call_cp_confirmation_email(scheduled_phone_call)
     @scheduled_phone_call = scheduled_phone_call
     attachments['event.ics'] = {:mime_type => 'text/calendar', :content => @scheduled_phone_call.owner_confirmation_calendar_event.export}
-    mail(to: @scheduled_phone_call.owner.email, subject: "#{env}Member Booked Welcome Call")
+    subject = if scheduled_phone_call.user.try(:onboarding_group).try(:mayo_pilot?)
+                "#{env}Mayo Patient Booked Welcome Call"
+              else
+                "#{env}Member Booked Welcome Call"
+              end
+
+    mail(to: @scheduled_phone_call.owner.email, subject: subject)
   end
 
   def notify_of_unassigned_task(task, care_provider)
