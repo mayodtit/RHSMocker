@@ -25,8 +25,10 @@ class PhaProfile < ActiveRecord::Base
     capacity_hash = {}
     search_scope = pilot ? mayo_pilot.with_capacity : with_capacity
     capacity_total = search_scope.inject(0) do |sum, profile|
-      sum += profile.capacity_weight
-      capacity_hash[sum] = profile
+      if profile.capacity_weight > 0
+        sum += profile.capacity_weight
+        capacity_hash[sum] = profile
+      end
       sum
     end
 
