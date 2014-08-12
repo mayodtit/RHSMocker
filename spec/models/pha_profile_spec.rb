@@ -15,6 +15,54 @@ describe PhaProfile do
     end
 
     it_validates 'presence of', :user
+    it_validates 'numericality of', :capacity_weight
+    it_validates 'integer numericality of', :capacity_weight
+    it_validates 'inclusion of', :mayo_pilot
+  end
+
+  describe '::with_capcity' do
+    let!(:pha_profile_with_capacity) { create(:pha_profile) }
+    let!(:pha_profile_without_capacity) { create(:pha_profile) }
+
+    before do
+      described_class.stub(all: [pha_profile_with_capacity, pha_profile_without_capacity])
+      pha_profile_with_capacity.stub(max_capacity?: false)
+      pha_profile_without_capacity.stub(max_capacity?: true)
+    end
+
+    it 'returns only PHAs with weekly capacity' do
+      with_capacity = described_class.with_capacity
+      expect(with_capacity).to include(pha_profile_with_capacity)
+      expect(with_capacity).to_not include(pha_profile_without_capacity)
+    end
+  end
+
+  describe '::next_pha_profile' do
+    let!(:pha_profile) { create(:pha_profile) }
+    let!(:other_pha_profile) { create(:pha_profile) }
+
+    it 'returns the first profile if we "randomly" select them' do
+      Random.stub(rand: 0)
+      expect(described_class.next_pha_profile).to eq(pha_profile)
+    end
+
+    it 'returns the second profile if we "randomly" select that one' do
+      Random.stub(rand: 100)
+      expect(described_class.next_pha_profile).to eq(other_pha_profile)
+    end
+
+    it 'returns nil if there are no pha profiles' do
+      described_class.stub(with_capacity: [])
+      expect(described_class.next_pha_profile).to eq(nil)
+    end
+
+    context 'mayo_pilot' do
+      let!(:mayo_pha_profile) { create(:pha_profile, mayo_pilot: true) }
+
+      it 'returns a pha_profile of a pha with mayo_pilot set' do
+        expect(described_class.next_pha_profile(true)).to eq(mayo_pha_profile)
+      end
+    end
   end
 
   describe '#max_capacity?' do

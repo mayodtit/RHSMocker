@@ -51,6 +51,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
   PREMIUM_WELCOME_TEMPLATE_MEG = 'Meet Meg, Your PHA 7/9/14'
   PREMIUM_WELCOME_TEMPLATE_NINETTE = 'Meet Ninette, Your PHA 7/9/14'
   PREMIUM_WELCOME_TEMPLATE_JENN = 'Meet Jenn, Your PHA 7/9/14'
+  PREMIUM_WELCOME_TEMPLATE_ANN = 'Meet Ann, Your PHA 8/7/14'
+  PREMIUM_WELCOME_TEMPLATE_JACQUI = 'Meet Jacqui, Your PHA 8/7/14'
 
   def meet_your_pha_email(email)
     user = Member.find_by_email!(email)
@@ -67,6 +69,10 @@ class RHSMailer < MandrillMailer::TemplateMailer
       template = PREMIUM_WELCOME_TEMPLATE_NINETTE
     when 'jenn@getbetter.com'
       template = PREMIUM_WELCOME_TEMPLATE_JENN
+    when 'ann@getbetter.com'
+      template = PREMIUM_WELCOME_TEMPLATE_ANN
+    when 'jacqui@getbetter.com'
+      template = PREMIUM_WELCOME_TEMPLATE_JACQUI
     else
       raise 'Must have PHA to send Meet your PHA'
     end
@@ -79,6 +85,44 @@ class RHSMailer < MandrillMailer::TemplateMailer
       template: template,
       headers: {
         'Reply-To' => "#{user.pha.full_name} <premium@getbetter.com>"
+      }
+    )
+  end
+
+  MAYO_WELCOME_TEMPLATE_CLARE = 'Mayo Pilot Meet Clare, Your PHA 8/10/14'
+  MAYO_WELCOME_TEMPLATE_LAUREN = 'Mayo Pilot Meet Lauren, Your PHA 8/10/14'
+  MAYO_WELCOME_TEMPLATE_MEG = 'Mayo Pilot Meet Meg, Your PHA 8/10/14'
+  MAYO_WELCOME_TEMPLATE_NINETTE = 'Mayo Pilot Meet Ninette, Your PHA 8/10/14'
+  MAYO_WELCOME_TEMPLATE_JENN = 'Mayo Pilot Meet Jenn, Your PHA 8/10/14'
+
+  def mayo_pilot_meet_your_pha_email(user, provider)
+    case user.pha.try(:email)
+    when 'clare@getbetter.com'
+      template = MAYO_WELCOME_TEMPLATE_CLARE
+    when 'lauren@getbetter.com'
+      template = MAYO_WELCOME_TEMPLATE_LAUREN
+    when 'meg@getbetter.com'
+      template = MAYO_WELCOME_TEMPLATE_MEG
+    when 'ninette@getbetter.com'
+      template = MAYO_WELCOME_TEMPLATE_NINETTE
+    when 'jenn@getbetter.com'
+      template = MAYO_WELCOME_TEMPLATE_JENN
+    else
+      raise 'Must have PHA to send Meet your PHA'
+    end
+
+    mandrill_mail(
+      subject: 'Meet your Better Personal Health Assistant',
+      from: user.pha.email,
+      from_name: user.pha.full_name,
+      to: { email: user.email },
+      template: template,
+      headers: {
+        'Reply-To' => "#{user.pha.full_name} <premium@getbetter.com>"
+      },
+      vars: {
+        FNAME: user.salutation,
+        DRNAME: provider.full_name
       }
     )
   end
@@ -174,6 +218,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
   AUTOMATED_ONBOARDING_TESTIMONIALS_MEG = 'Reminder to Schedule Welcome Call Meg 7/25'
   AUTOMATED_ONBOARDING_TESTIMONIALS_NINETTE = 'Reminder to Schedule Welcome Call Ninette 7/25'
   AUTOMATED_ONBOARDING_TESTIMONIALS_JENN = 'Reminder to Schedule Welcome Call Jenn 7/25'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_ANN = 'Reminder to Schedule Welcome Call Ann 8/8/14'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_JACQUI = 'Reminder to Schedule Welcome Call Jacqui 8/8/14'
 
   def automated_onboarding_testimonials_email(user, pha)
     template = case pha.email
@@ -187,6 +233,10 @@ class RHSMailer < MandrillMailer::TemplateMailer
                  AUTOMATED_ONBOARDING_TESTIMONIALS_NINETTE
                when 'jenn@getbetter.com'
                  AUTOMATED_ONBOARDING_TESTIMONIALS_JENN
+               when 'ann@getbetter.com'
+                 AUTOMATED_ONBOARDING_TESTIMONIALS_ANN
+               when 'jacqui@getbetter.com'
+                 AUTOMATED_ONBOARDING_TESTIMONIALS_JACQUI
                else
                  raise 'Unknown PHA, not sending!'
                end
@@ -221,6 +271,27 @@ class RHSMailer < MandrillMailer::TemplateMailer
         FNAME: user.salutation,
         PROMO: user.owned_referral_code.code
       },
+    )
+  end
+
+  MAYO_PILOT_INVITE_TEMPLATE = 'Mayo Pilot Invite Emails'
+
+  def mayo_pilot_invite_email(user, provider)
+    mandrill_mail(
+      subject: 'Your Invitation to the Better and Mayo Clinic Pilot',
+      from: 'support@getbetter.com',
+      from_name: 'Better',
+      to: {email: user.email},
+      template: MAYO_PILOT_INVITE_TEMPLATE,
+      headers: {
+        'Reply-To' => 'Better <support@getbetter.com>'
+      },
+      vars: {
+        FNAME: user.salutation,
+        DRNAME: provider.full_name,
+        IOS_INVITE_URL: Rails.application.routes.url_helpers.invite_url(user.invitation_token),
+        ANDROID_INVITE_URL: Rails.application.routes.url_helpers.android_invite_url(user.invitation_token)
+      }
     )
   end
 end

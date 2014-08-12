@@ -12,7 +12,6 @@ class UserRequest < ActiveRecord::Base
 
   after_create :send_confirmation_message
   after_create :create_task
-
   private
 
   def send_confirmation_message
@@ -30,6 +29,7 @@ class UserRequest < ActiveRecord::Base
     create_user_request_task(title: 'New User Request',
                              creator: Member.robot,
                              member: user,
+                             subject: subject,
                              due_at: Time.now)
   end
 end

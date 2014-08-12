@@ -3,7 +3,7 @@ class ScheduledMessage < ScheduledCommunication
 
   attr_accessible :message, :message_id, :text
 
-  validates :text, presence: true
+  validates :sender, :text, presence: true
   validates :message, presence: true, if: ->(s){s.message_id}
 
   def formatted_text
@@ -17,8 +17,7 @@ class ScheduledMessage < ScheduledCommunication
   def deliver_message
     self.message = build_message(user: sender,
                                  consult: recipient.master_consult,
-                                 text: formatted_text,
-                                 off_hours: system_message)
+                                 text: formatted_text)
   end
 
   private

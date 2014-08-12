@@ -35,7 +35,7 @@ class Api::V1::OnboardingGroupUsersController < Api::V1::ABaseController
   end
 
   def user_attributes
-    params.require(:user).permit(:email).tap do |attributes|
+    params.require(:user).permit(:first_name, :last_name, :email).tap do |attributes|
       attributes[:invitation_token] = invitation_token
     end
   end

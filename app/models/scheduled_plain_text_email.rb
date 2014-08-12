@@ -1,7 +1,7 @@
 class ScheduledPlainTextEmail < ScheduledCommunication
   attr_accessible :subject, :text
 
-  validates :subject, :text, presence: true
+  validates :sender, :subject, :text, presence: true
 
   def formatted_text
     MessageTemplate.formatted_text(sender, recipient, text, variables)

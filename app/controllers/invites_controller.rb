@@ -1,6 +1,6 @@
 class InvitesController < ApplicationController
   layout 'public_page_layout'
-  before_filter :load_member!, :only => [:show, :update]
+  before_filter :load_member!, only: %i(show update android android_create)
   before_filter :convert_parameters!, only: %i(update)
 
   def show
@@ -10,7 +10,7 @@ class InvitesController < ApplicationController
   end
 
   def update
-    if @member.update_attributes(permitted_params.user)
+    if @member.update_attributes(update_params)
       @member.update_attribute(:invitation_token, nil)
       redirect_to complete_invites_url
     else
@@ -19,7 +19,23 @@ class InvitesController < ApplicationController
   end
 
   def complete
-    render :complete
+  end
+
+  def android
+    redirect_to BETTER_PUBLIC_WEBSITE and return unless @member
+    render :android
+  end
+
+  def android_create
+    if @member.update_attributes(status_event: :hold)
+      @member.update_attribute(:invitation_token, nil)
+      redirect_to android_complete_invites_url
+    else
+      render action: :android
+    end
+  end
+
+  def android_complete
   end
 
   private
@@ -55,5 +71,11 @@ class InvitesController < ApplicationController
 
   def user_params
     params.require(:user)
+  end
+
+  def update_params
+    permitted_params.user.tap do |attributes|
+      attributes[:status_event] = :sign_up
+    end
   end
 end

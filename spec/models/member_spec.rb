@@ -455,32 +455,6 @@ describe Member do
     end
   end
 
-  describe '::pha_counts' do
-    let!(:pha) { create(:pha) }
-
-    it 'returns a hash of PHA assignment counts with nil defaults' do
-      result = described_class.pha_counts
-      expect(result).to be_a(Hash)
-      expect(result).to be_empty
-      expect(result[pha.id]).to be_zero
-    end
-  end
-
-  describe '::next_pha' do
-    let!(:assigned_pha) { create(:pha) }
-    let!(:member) { create(:member, pha: assigned_pha) }
-    let!(:unassigned_pha) { create(:pha) }
-
-    before do
-      assigned_pha.create_pha_profile
-      unassigned_pha.create_pha_profile
-    end
-
-    it 'returns the PHA with the most availablity' do
-      expect(described_class.next_pha).to eq(unassigned_pha)
-    end
-  end
-
   describe '#add_role' do
     let(:member) { create :member }
     let(:role) { create :role, name: 'role' }
@@ -729,7 +703,7 @@ describe Member do
     context 'member has tasks' do
       context 'member has only wellness tasks' do
         before do
-          member.tasks.create! subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'wellness')
+          MemberTask.create! member: member, subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'wellness')
         end
 
         it 'returns true' do
@@ -739,7 +713,7 @@ describe Member do
 
       context 'member has only care coordination tasks' do
         before do
-          member.tasks.create! subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'care coordination')
+          MemberTask.create! member: member, subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'care coordination')
         end
 
         it 'returns true' do
@@ -749,7 +723,7 @@ describe Member do
 
       context 'member has only insurance tasks' do
         before do
-          member.tasks.create! subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'insurance')
+          MemberTask.create! member: member, subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'insurance')
         end
 
         it 'returns true' do
@@ -759,7 +733,7 @@ describe Member do
 
       context 'member has only other tasks' do
         before do
-          member.tasks.create! subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'other')
+          MemberTask.create! member: member, subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'other')
         end
 
         it 'returns true' do
@@ -769,7 +743,7 @@ describe Member do
 
       context 'member has only engagement tasks' do
         before do
-          member.tasks.create! subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'engagement')
+          MemberTask.create! member: member, subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'engagement')
         end
 
         it 'returns false' do
@@ -780,7 +754,7 @@ describe Member do
 
     context 'member has no tasks' do
       before do
-        member.tasks.count.should == 0
+        MemberTask.count.should == 0
       end
 
       context 'member has sent more than one message' do

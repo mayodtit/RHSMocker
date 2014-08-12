@@ -10,18 +10,16 @@ class ScheduledCommunication < ActiveRecord::Base
   attr_accessible :sender, :sender_id, :recipient, :recipient_id,
                   :reference, :reference_id, :reference_type, :reference_event,
                   :state_event, :publish_at, :delivered_at, :variables,
-                  :relative_days, :system_message
+                  :relative_days
 
-  validates :sender, :recipient, presence: true
+  validates :recipient, presence: true
+  validates :sender, presence: true, if: ->(s){s.sender_id}
   validates :reference, presence: true, if: ->(s){s.reference_id || s.reference_type}
   validates :reference, presence: true, if: ->(s){s.reference_event}
   validates :reference_event, presence: true, if: ->(s){s.reference}
   validates :reference_event, inclusion: {in: %i(free_trial_ends_at)}, if: ->(s){s.reference}
   validates :relative_days, presence: true, if: ->(s){s.reference}
   validates :relative_days, numericality: {only_integer: true}, allow_nil: true
-  validates :system_message, inclusion: {in: [true, false]}
-
-  before_validation :set_defaults
 
   def self.scheduled
     where(state: :scheduled)
@@ -41,6 +39,16 @@ class ScheduledCommunication < ActiveRecord::Base
 
   def self.publish_at_past_time(time=Time.now)
     where('publish_at < ?', time)
+  end
+
+  def self.non_system
+    where('type != ?', ScheduledSystemMessage.name)
+  end
+
+  def self.hold_scheduled!
+    scheduled.non_system.each do |c|
+      c.hold!
+    end
   end
 
   def update_publish_at_from_calculation!
@@ -93,11 +101,6 @@ class ScheduledCommunication < ActiveRecord::Base
   end
 
   private
-
-  def set_defaults
-    self.system_message = false if system_message.nil?
-    true
-  end
 
   def calculated_publish_at
     if relative_days > 0

@@ -35,7 +35,6 @@ class ScheduledPhoneCall < ActiveRecord::Base
 
   after_create :if_assigned_notify_owner
   after_save :set_user_phone_if_missing
-  after_save :hold_scheduled_communications
 
   def self.assigned
     where(state: :assigned)
@@ -127,14 +126,6 @@ Prep:
     end
   end
 
-  def hold_scheduled_communications
-    if user && (state_changed? || scheduled_at_changed?)
-      user.inbound_scheduled_communications.scheduled.each do |m|
-        m.hold!
-      end
-    end
-  end
-
   def create_reminder
     return unless template = MessageTemplate.find_by_name('Welcome Call Reminder')
     if ((Time.now.pacific.to_date == scheduled_at.pacific.to_date) ||
@@ -163,6 +154,15 @@ Prep:
       reminder_scheduled_message.cancel
     end
     create_reminder
+  end
+
+  WELCOME_CALL_SURVEY_URL = 'https://docs.google.com/a/getbetter.com/forms/d/1kf2J2IzcZedMRzucOSOxHaliBAt4nnH1vTWOmeRXDWQ/viewform'
+
+  def append_welcome_call_survey_to_member_notes
+    if user.try(:onboarding_group).try(:mayo_pilot?)
+      user.build_user_information unless user.user_information
+      user.user_information.update_attributes(notes: WELCOME_CALL_SURVEY_URL + "\n\n" + (user.user_information.notes || ''))
+    end
   end
 
   private
@@ -220,6 +220,7 @@ Prep:
 
     after_transition :assigned => :booked do |scheduled_phone_call|
       scheduled_phone_call.create_reminder
+      scheduled_phone_call.append_welcome_call_survey_to_member_notes
     end
 
     after_transition :booked => :booked do |scheduled_phone_call|

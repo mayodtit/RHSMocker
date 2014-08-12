@@ -40,7 +40,7 @@ class Member < User
   has_one :shared_subscription, through: :subscription_user,
                                 class_name: 'Subscription',
                                 source: :subscription
-  has_many :tasks, class_name: 'MemberTask'
+  has_many :tasks, class_name: 'Task', conditions: {type: ['MemberTask', 'UserRequestTask', 'ParsedNurselineRecordTask']}
   has_many :services
   has_many :user_images, foreign_key: :user_id,
                          inverse_of: :user,
@@ -148,31 +148,6 @@ class Member < User
 
   def self.phas_with_profile
     phas.joins(:pha_profile)
-  end
-
-  def self.phas_with_capacity
-    phas.reject{|m| !m.pha_profile || m.pha_profile.max_capacity?}
-  end
-
-  def self.pha_counts
-    group(:pha_id).where(status: PREMIUM_STATES)
-                  .where(pha_id: phas_with_capacity.map(&:id))
-                  .count
-                  .tap do |hash|
-      hash.default = 0
-    end
-  end
-
-  def self.next_pha
-    current_counts = pha_counts
-    min_count = current_counts.values.min || 0
-    phas_with_capacity.inject(nil) do |selected, current|
-      if current_counts[current.id] <= min_count
-        selected = current
-        min_count = current_counts[current.id]
-      end
-      selected
-    end
   end
 
   def needs_agreement?
@@ -371,6 +346,10 @@ class Member < User
     event :chamathify do
       transition any => :chamath
     end
+
+    event :hold do
+      transition :invited => :held
+    end
   end
 
   def owner_is_self
@@ -412,7 +391,11 @@ class Member < User
   end
 
   def set_pha
-    self.pha ||= self.class.next_pha
+    self.pha ||= if onboarding_group.try(:mayo_pilot?)
+                   PhaProfile.next_pha_profile(true).try(:user)
+                 else
+                   PhaProfile.next_pha_profile.try(:user)
+                 end
   end
 
   def set_master_consult
@@ -429,7 +412,11 @@ class Member < User
   end
 
   def add_new_member_content
-    cards.create(resource: Content.free_trial, priority: 30) if Content.free_trial
+    if onboarding_group.try(:mayo_pilot?)
+      cards.create(resource: Content.mayo_pilot, priority: 30) if Content.mayo_pilot
+    else
+      cards.create(resource: Content.free_trial, priority: 30) if Content.free_trial
+    end
     cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
     if @sunscreen_content = Content.find_by_document_id('MY01350')
       cards.create(resource: @sunscreen_content, priority: 1)
@@ -484,7 +471,19 @@ class Member < User
        status_changed? &&
        !MemberStateTransition.multiple_exist_for?(member, :trial) &&
        !@emails_sent
-      Mails::MeetYourPhaJob.create(member.id)
+      if onboarding_group.try(:mayo_pilot?) && onboarding_group.try(:provider)
+        Mails::MayoPilotMeetYourPhaJob.create(member.id, onboarding_group.provider.id)
+      else
+        Mails::MeetYourPhaJob.create(member.id)
+      end
+      @emails_sent = true
+    elsif status?(:invited) &&
+          status_changed? &&
+          !MemberStateTransition.multiple_exist_for?(member, :invited) &&
+          !@emails_sent &&
+          onboarding_group.try(:mayo_pilot?) &&
+          onboarding_group.try(:provider)
+      Mails::MayoPilotInviteJob.create(member.id, onboarding_group.provider.id)
       @emails_sent = true
     end
   end
