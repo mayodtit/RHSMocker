@@ -71,7 +71,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
       template = PREMIUM_WELCOME_TEMPLATE_JENN
     when 'ann@getbetter.com'
       template = PREMIUM_WELCOME_TEMPLATE_ANN
-    when 'jacqui@getbetter.com'
+    when 'jacqueline@getbetter.com'
       template = PREMIUM_WELCOME_TEMPLATE_JACQUI
     else
       raise 'Must have PHA to send Meet your PHA'
@@ -235,7 +235,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
                  AUTOMATED_ONBOARDING_TESTIMONIALS_JENN
                when 'ann@getbetter.com'
                  AUTOMATED_ONBOARDING_TESTIMONIALS_ANN
-               when 'jacqui@getbetter.com'
+               when 'jacqueline@getbetter.com'
                  AUTOMATED_ONBOARDING_TESTIMONIALS_JACQUI
                else
                  raise 'Unknown PHA, not sending!'
