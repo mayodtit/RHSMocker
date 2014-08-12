@@ -73,7 +73,7 @@ PHA_ATTRIBUTES = [
     bio_image: 'ann-bio_image.png'
   },
   {
-    email: 'jacqui@getbetter.com',
+    email: 'jacqueline@getbetter.com',
     first_name: 'Jacqui',
     last_name: 'B',
     bio: "Jacqui has a Master's in Public Health with a focus in Health " +
