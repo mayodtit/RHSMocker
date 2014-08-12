@@ -1,0 +1,24 @@
+.invites
+  .header
+    .logo= image_tag 'logo@2x.png'
+  .main
+    .container
+      - if @member.errors.any?
+        #error_explanation
+          %ul
+            - @member.errors.full_messages.each do |error|
+              %li= error
+      = form_tag android_invite_path(@member.invitation_token) do
+        .field
+          %span Confirm your information below gain early access to the Better Android app.
+        .field
+          = image_tag 'email_off@2x.png', class: 'field-icon'
+          .email= @member.email
+        .field.no-bottom-border
+          = image_tag 'name_on@2x.png', class: 'field-icon'
+          = text_field_tag 'user[first_name]', (@member.first_name || ''), placeholder: 'First Name'
+          .bottom-border
+        .field.no-image.top-border.no-bottom-border
+          = text_field_tag 'user[last_name]', (@member.last_name || ''), placeholder: 'Last Name'
+        .field.top-border.no-bottom-border
+        = submit_tag 'Sign up', class: :submit, data: {disable_with: 'Please wait...'}

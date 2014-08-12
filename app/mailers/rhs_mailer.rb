@@ -289,7 +289,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
       vars: {
         FNAME: user.salutation,
         DRNAME: provider.full_name,
-        INVITE_URL: Rails.application.routes.url_helpers.invite_url(user.invitation_token)
+        IOS_INVITE_URL: Rails.application.routes.url_helpers.invite_url(user.invitation_token),
+        ANDROID_INVITE_URL: Rails.application.routes.url_helpers.android_invite_url(user.invitation_token)
       }
     )
   end
