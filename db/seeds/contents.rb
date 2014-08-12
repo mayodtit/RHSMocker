@@ -18,3 +18,8 @@ CustomCard.upsert_attributes({unique_id: 'RHS-SWIPE_EXPLAINER'}, {title: 'Swipe 
                                                                   raw_preview: "<div class=\"image-container\">\n<img alt=\"Swipecard\" class=\"card-image\" src=\"/assets/swipecard.png\">\n</div>",
                                                                   has_custom_card: true,
                                                                   priority: 0})
+CustomCard.upsert_attributes({unique_id: 'RHS-MAYOPILOT'}, {title: 'Mayo Pilot',
+                                                            raw_preview: "<div class=\"card better-background\">\n  <div class=\"body\">\n    <div class=\"title white\">\n      Welcome to the Better and Mayo Clinic Pilot\n    </div>\n    <div class=\"abstract white\">\n      Tap here to learn more.\n    </div>\n  </div>\n  <div class=\"footer\">\n    <img src=\"/assets/small_b.png\" class=\"better-b\" alt=\"\">\n  </div>\n  <img src=\"/assets/ArrowLight.png\" class=\"open-arrow\" alt=\"\">\n</div>",
+                                                            has_custom_card: true,
+                                                            priority: 30,
+                                                            content: Content.free_trial})
