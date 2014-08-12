@@ -36,10 +36,6 @@ class CustomCard < ActiveRecord::Base
     @gender ||= find_by_unique_id('RHS-GENDER')
   end
 
-  def self.mayo_pilot
-    @mayo_pilot ||= find_by_unique_id('RHS-MAYOPILOT')
-  end
-
   private
 
   def set_defaults

@@ -72,6 +72,10 @@ class Content < ActiveRecord::Base
     @free_trial ||= find_by_document_id('RHS-FREETRIAL')
   end
 
+  def self.mayo_pilot
+    @mayo_pilot ||= find_by_document_id('RHS-MAYOPILOT')
+  end
+
   # TODO - replace in future with root_share_url, move append to UserReading
   def share_url(user_reading_id=nil)
     result = "/contents/#{document_id}"
