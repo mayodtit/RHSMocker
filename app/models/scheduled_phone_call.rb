@@ -156,6 +156,15 @@ Prep:
     create_reminder
   end
 
+  WELCOME_CALL_SURVEY_URL = 'https://docs.google.com/a/getbetter.com/forms/d/1kf2J2IzcZedMRzucOSOxHaliBAt4nnH1vTWOmeRXDWQ/viewform'
+
+  def append_welcome_call_survey_to_member_notes
+    if user.try(:onboarding_group).try(:mayo_pilot?)
+      user.build_user_information unless user.user_information
+      user.user_information.update_attributes(notes: WELCOME_CALL_SURVEY_URL + "\n\n" + (user.user_information.notes || ''))
+    end
+  end
+
   private
 
   def if_assigned_notify_owner
@@ -211,6 +220,7 @@ Prep:
 
     after_transition :assigned => :booked do |scheduled_phone_call|
       scheduled_phone_call.create_reminder
+      scheduled_phone_call.append_welcome_call_survey_to_member_notes
     end
 
     after_transition :booked => :booked do |scheduled_phone_call|
