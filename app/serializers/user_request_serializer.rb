@@ -16,6 +16,6 @@ class UserRequestSerializer < ActiveModel::Serializer
   private
 
   def provider_body(id)
-    User.find(id).as_json(only: %i(first_name last_name email npi_number))
+    User.find(id).as_json(only: %i(first_name last_name email npi_number phone))
   end
 end
