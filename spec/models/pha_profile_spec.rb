@@ -56,6 +56,15 @@ describe PhaProfile do
       expect(described_class.next_pha_profile).to eq(nil)
     end
 
+    describe 'PHA with capacity 0' do
+      let!(:final_pha_profile) { create(:pha_profile, capacity_weight: 0) }
+
+      it 'returns the second profile not the third' do
+        Random.stub(rand: 100)
+        expect(described_class.next_pha_profile).to eq(other_pha_profile)
+      end
+    end
+
     context 'mayo_pilot' do
       let!(:mayo_pha_profile) { create(:pha_profile, mayo_pilot: true) }
 
