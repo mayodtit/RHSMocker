@@ -346,6 +346,10 @@ class Member < User
     event :chamathify do
       transition any => :chamath
     end
+
+    event :hold do
+      transition :invited => :held
+    end
   end
 
   def owner_is_self
