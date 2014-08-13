@@ -50,7 +50,7 @@ class User < ActiveRecord::Base
   attr_accessor :self_owner
   attr_accessor :actor_id
 
-  attr_accessible :first_name, :last_name, :avatar, :gender, :height, :birth_date, :email,
+  attr_accessible :first_name, :last_name, :avatar, :gender, :birth_date, :email,
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
                   :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data,
                   :user_information_attributes, :addresses_attributes, :insurance_policy_attributes,
@@ -150,12 +150,6 @@ class User < ActiveRecord::Base
 
   def blood_pressure
     blood_pressures.most_recent
-  end
-
-  def height=(amount)
-    return if amount.nil?
-    heights.build(amount: amount,
-                  taken_at: Time.now)
   end
 
   def height
