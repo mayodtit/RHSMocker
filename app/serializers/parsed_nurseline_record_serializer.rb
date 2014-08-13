@@ -2,7 +2,7 @@ class ParsedNurselineRecordSerializer < ActiveModel::Serializer
   self.root = false
 
   attributes :id, :user_id, :consult_id, :phone_call_id, :nurseline_record_id,
-             :created_at, :updated_at, :user_full_name
+             :created_at, :updated_at, :user_full_name, :user_email
 
   def attributes
     super.tap do |a|
@@ -12,5 +12,9 @@ class ParsedNurselineRecordSerializer < ActiveModel::Serializer
 
   def user_full_name
     object.user.try(:full_name)
+  end
+
+  def user_email
+    object.user.try(:email)
   end
 end
