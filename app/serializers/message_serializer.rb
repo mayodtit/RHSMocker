@@ -38,12 +38,20 @@ class MessageSerializer < ActiveModel::Serializer
   end
 
   def contents
-    if object.content
+    if object.content.try(:show_mayo_logo?)
       [
         {
           id: object.content.id,
           title: object.content.title,
           image_url: root_url + mayo_logo_asset_path
+        }
+      ]
+    elsif object.content
+      [
+        {
+          id: object.content.id,
+          title: object.content.title,
+          image_url: root_url + better_logo_asset_path
         }
       ]
     else
@@ -69,5 +77,9 @@ class MessageSerializer < ActiveModel::Serializer
 
   def mayo_logo_asset_path
     ActionController::Base.helpers.asset_path('mayologo_card_@2x.png')
+  end
+
+  def better_logo_asset_path
+    ActionController::Base.helpers.asset_path('logohalf@2x.png')
   end
 end
