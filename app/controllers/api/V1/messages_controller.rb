@@ -73,7 +73,8 @@ Hi#{name.present? ? " #{name}" : ''}. #{pha_name} will follow up with you about 
     @consult.messages.create(user: Member.robot,
                              text: text,
                              created_at: Time.now + 2.seconds,
-                             off_hours: true)
+                             off_hours: true,
+                             system: true)
   end
 
   def needs_off_hours_response?
