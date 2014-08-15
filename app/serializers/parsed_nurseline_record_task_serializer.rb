@@ -8,7 +8,7 @@ class ParsedNurselineRecordTaskSerializer < TaskSerializer
       super.tap do |attributes|
         attributes.merge!(
           subject: object.member.try(:serializer, options),
-          subject_id: object.member.id
+          subject_id: object.member.try(:id)
         )
       end
     end
