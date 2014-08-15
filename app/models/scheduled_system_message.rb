@@ -18,7 +18,7 @@ class ScheduledSystemMessage < ScheduledCommunication
     self.message = build_message(user: Member.robot,
                                  consult: recipient.master_consult,
                                  text: formatted_text,
-                                 off_hours: true)
+                                 system: true)
   end
 
   private

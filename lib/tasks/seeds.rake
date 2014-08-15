@@ -524,6 +524,17 @@ namespace :seeds do
     end
   end
 
+  desc "Adds a system message to a Member's account."
+  task :add_system_message, [:user_id] => :environment do |t, args|
+    puts "Finding member #{args[:user_id]}"
+    m = Member.find(args[:user_id])
+    if m.master_consult
+      m.master_consult.messages.create! user: m.pha, text: 'This is a system message. It should not affect whether an off hours message is sent.', system: true
+    else
+      puts "ERROR: #{m.full_name} does not have a master consult"
+    end
+  end
+
   desc "Adds nurseline summaries for a random member of every PHA in the system."
   task :add_nurseline_summaries => :environment do |t, args|
     api_user = ApiUser.first || ApiUser.create!(name: 'Test API User')

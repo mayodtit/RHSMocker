@@ -22,7 +22,7 @@ class UserRequest < ActiveRecord::Base
 
     user.master_consult.messages.create(user: Member.robot,
                                         text: text,
-                                        off_hours: true)
+                                        system: true)
   end
 
   def create_task

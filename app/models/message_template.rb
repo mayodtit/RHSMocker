@@ -13,7 +13,7 @@ class MessageTemplate < ActiveRecord::Base
                    consult: consult,
                    text: self.class.formatted_text(sender, consult.initiator, text),
                    no_notification: no_notification,
-                   off_hours: system_message)
+                   system: system_message)
   end
 
   def create_scheduled_message(sender, consult, publish_at, variables={})
