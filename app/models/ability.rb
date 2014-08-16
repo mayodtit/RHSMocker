@@ -88,6 +88,8 @@ class Ability
         o.for_pha? || o.owner_id == o.id
       end
 
+      can :create, PhoneCall
+
       can :ru, PhoneCall do |o|
         o.to_pha?
       end
