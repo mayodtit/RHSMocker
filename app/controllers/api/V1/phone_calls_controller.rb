@@ -1,9 +1,9 @@
 class Api::V1::PhoneCallsController < Api::V1::ABaseController
-  before_filter :load_user!, :only => [:index, :show, :create, :update, :hang_up, :transfer, :merge]
+  before_filter :load_user!, :only => [:index, :show, :create, :update, :hang_up, :transfer, :merge, :outbound]
   before_filter :load_consult!, only: :create
-  before_filter :load_phone_call!, :except => [:index, :create, :connect, :status, :connect_nurse]
+  before_filter :load_phone_call!, :except => [:index, :create, :connect, :status, :connect_nurse, :outbound]
   before_filter :convert_parameters!, only: :create
-  skip_before_filter :authentication_check, :except => [:index, :show, :create, :update, :hang_up, :transfer, :merge]
+  skip_before_filter :authentication_check, :except => [:index, :show, :create, :update, :hang_up, :transfer, :merge, :outbound]
 
   layout false, except: [:index, :show, :create, :update]
   # http_basic_authenticate_with name: "twilio", password: "secret", except: :index
@@ -29,6 +29,18 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
 
   def create
     create_resource @consult.phone_calls, permitted_params.phone_call
+  end
+
+  def outbound
+    authorize! :create, PhoneCall
+
+    phone_call_params = params.require(:phone_call).permit(:user_id,
+                                                           :destination_phone_number)
+    phone_call_params[:outbound] = true
+    phone_call_params[:creator_id] = current_user
+    phone_call_params[:origin_phone_number] = current_user.work_phone_number
+
+    create_resource PhoneCall, phone_call_params
   end
 
   def update
@@ -83,7 +95,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
         render action: :goodbye, formats: [:xml]
         return
       when '1'
-        @phone_call.transfer!
+        @phone_call.transfer! Member.robot
         @phone_call.miss! 'after_hours'
         @nurseline_phone_call = @phone_call.transferred_to_phone_call
         render action: :transfer_nurse, formats: [:xml]
@@ -128,7 +140,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
 
   def transfer
     authorize! :transfer, @phone_call
-    @phone_call.transfer!
+    @phone_call.transfer! current_user
     show_resource @phone_call.serializer
   end
 

@@ -6,6 +6,7 @@ class PhoneCall < ActiveRecord::Base
   CONNECTED_STATUS = 'in-progress' # Twilio calls it in-progress
 
   belongs_to :user, class_name: 'Member'
+  belongs_to :creator, class_name: 'Member'
   belongs_to :claimer, class_name: 'Member'
   belongs_to :dialer, class_name: 'Member'
   belongs_to :ender, class_name: 'Member'
@@ -24,9 +25,9 @@ class PhoneCall < ActiveRecord::Base
                   :destination_phone_number, :claimer, :claimer_id, :ender, :ender_id,
                   :identifier_token, :dialer_id, :dialer, :state_event, :destination_twilio_sid,
                   :origin_twilio_sid, :twilio_conference_name, :origin_status, :destination_status,
-                  :outbound, :merged_into_phone_call, :merged_into_phone_call_id
+                  :outbound, :merged_into_phone_call, :merged_into_phone_call_id, :creator, :creator_id
 
-  validates :twilio_conference_name, :identifier_token, presence: true
+  validates :twilio_conference_name, :identifier_token, :creator, presence: true
   validates :identifier_token, uniqueness: true # Used for nurseline and creating unique conference calls
   validates :origin_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
   validates :destination_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: false
@@ -40,6 +41,7 @@ class PhoneCall < ActiveRecord::Base
   before_validation :generate_identifier_token
   before_validation :transition_state
   before_validation :set_member_phone_number
+  before_validation :set_creator, on: :create
 
   after_create :dial_if_outbound
   after_save :publish
@@ -151,7 +153,8 @@ class PhoneCall < ActiveRecord::Base
           state_event: state_event,
           origin_twilio_sid: origin_twilio_sid,
           origin_status: CONNECTED_STATUS,
-          to_role: role
+          to_role: role,
+          creator: member
         )
 
         if member.master_consult
@@ -175,7 +178,8 @@ class PhoneCall < ActiveRecord::Base
         to_role: Role.find_by_name!(:pha),
         state_event: state_event,
         origin_twilio_sid: origin_twilio_sid,
-        origin_status: CONNECTED_STATUS
+        origin_status: CONNECTED_STATUS,
+        creator: Member.robot
       )
     end
   end
@@ -195,7 +199,7 @@ class PhoneCall < ActiveRecord::Base
     transferred_to_phone_call_id.present?
   end
 
-  def transfer!
+  def transfer! transferrer
     nurseline_phone_call = PhoneCall.create!(
       user: user,
       origin_phone_number: origin_phone_number,
@@ -203,7 +207,8 @@ class PhoneCall < ActiveRecord::Base
       to_role: Role.find_by_name!(:nurse),
       origin_twilio_sid: origin_twilio_sid,
       twilio_conference_name: twilio_conference_name,
-      origin_status: origin_status
+      origin_status: origin_status,
+      creator: transferrer
     )
 
     # Create a message so it shows up in the user's timeline
@@ -262,7 +267,7 @@ class PhoneCall < ActiveRecord::Base
 
   # Handles case where unknown caller is identified by PHA
   def create_message_if_user_updated
-    if !message && !id_changed? && user_id_changed? && user && user.master_consult
+    if !message && !id_changed? && user_id_changed? && user && user.master_consult && (!outbound? || user.phone == destination_phone_number)
       Message.create!(
         user: user,
         consult: user.master_consult,
@@ -450,5 +455,9 @@ class PhoneCall < ActiveRecord::Base
           errors.add(:merged_into_phone_call_id, "must specify a phone call when #{self.class.name} is #{state}")
         end
     end
+  end
+
+  def set_creator
+    self.creator = user unless creator_id.present?
   end
 end
