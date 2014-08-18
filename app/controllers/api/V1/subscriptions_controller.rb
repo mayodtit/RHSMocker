@@ -50,7 +50,9 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
 
   def subscription_attributes
     {plan: params.require(:subscription).require(:plan_id)}.tap do |attributes|
-      attributes.merge!(trial_end: @user.free_trial_ends_at.to_i) if @user.free_trial_ends_at
+      if @user.free_trial_ends_at && (@user.free_trial_ends_at.end_of_day > Time.zone.now.end_of_day)
+        attributes.merge!(trial_end: @user.free_trial_ends_at.to_i) if @user.free_trial_ends_at
+      end
     end
   end
 
