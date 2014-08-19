@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140814202135) do
+ActiveRecord::Schema.define(:version => 20140819161859) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -406,6 +406,15 @@ ActiveRecord::Schema.define(:version => 20140814202135) do
     t.datetime "disabled_at"
   end
 
+  create_table "nux_answers", :force => true do |t|
+    t.text     "name"
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
+    t.text     "text"
+    t.boolean  "active",     :default => true, :null => false
+    t.integer  "ordinal"
+  end
+
   create_table "onboarding_group_cards", :force => true do |t|
     t.integer  "onboarding_group_id"
     t.integer  "resource_id"
@@ -497,6 +506,7 @@ ActiveRecord::Schema.define(:version => 20140814202135) do
     t.string   "destination_status"
     t.boolean  "outbound",                     :default => false, :null => false
     t.integer  "merged_into_phone_call_id"
+    t.integer  "creator_id"
   end
 
   add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"

@@ -5,7 +5,8 @@ class Api::V1::PingController < Api::V1::ABaseController
   after_filter :store_device_information!, if: -> { params[:auth_token] }
 
   def index
-    hash = { revision: REVISION, use_invite_flow: Metadata.use_invite_flow?, enable_sharing: Metadata.enable_sharing? }
+    hash = { revision: REVISION, use_invite_flow: Metadata.use_invite_flow?, enable_sharing: Metadata.enable_sharing?, nux_answers: NuxAnswer.active.serializer }
+
     if current_user
       metadata_hash = Metadata.to_hash_for(current_user)
       metadata_hash.delete('use_invite_flow')
