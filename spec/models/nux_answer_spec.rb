@@ -7,6 +7,7 @@ describe NuxAnswer do
     it_validates 'presence of', :name
     it_validates 'presence of', :text
     it_validates 'presence of', :ordinal
+    it_validates 'presence of', :phrase
   end
 
   describe 'active' do

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140819161859) do
+ActiveRecord::Schema.define(:version => 20140819182527) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -413,6 +413,7 @@ ActiveRecord::Schema.define(:version => 20140819161859) do
     t.text     "text"
     t.boolean  "active",     :default => true, :null => false
     t.integer  "ordinal"
+    t.text     "phrase"
   end
 
   create_table "onboarding_group_cards", :force => true do |t|

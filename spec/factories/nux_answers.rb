@@ -4,6 +4,7 @@ FactoryGirl.define do
   factory :nux_answer do
     name "answer"
     text "An answer"
+    phrase "an answer"
     active true
     ordinal 1
   end
