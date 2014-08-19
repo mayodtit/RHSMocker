@@ -30,6 +30,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
     if @member.errors.empty?
       render_success user: @member.serializer,
                      member: @member.serializer,
+                     pha_profile: @member.pha.try(:pha_profile).serializer,
                      auth_token: @member.auth_token
     else
       render_failure({reason: @member.errors.full_messages.to_sentence,
