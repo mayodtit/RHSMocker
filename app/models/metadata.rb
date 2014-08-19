@@ -122,4 +122,8 @@ class Metadata < ActiveRecord::Base
   def self.ignore_events_from_test_users?
     Metadata.find_by_mkey('ignore_events_from_test_users').try(:mvalue) == 'true'
   end
+
+  def self.nux_question_text
+    Metadata.find_by_mkey('nux_question_text').try(:mvalue)
+  end
 end
