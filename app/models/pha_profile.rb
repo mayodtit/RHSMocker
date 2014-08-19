@@ -1,8 +1,9 @@
 class PhaProfile < ActiveRecord::Base
   belongs_to :user, class_name: 'Member', inverse_of: :pha_profile
   mount_uploader :bio_image, PhaProfileBioImageUploader
+  mount_uploader :full_page_bio_image, PhaProfileFullPageBioImageUploader
 
-  attr_accessible :user, :user_id, :bio_image, :bio, :weekly_capacity,
+  attr_accessible :user, :user_id, :bio_image, :full_page_bio_image, :bio, :weekly_capacity,
                   :capacity_weight, :mayo_pilot
 
   validates :user, presence: true
@@ -45,6 +46,10 @@ class PhaProfile < ActiveRecord::Base
 
   def bio_image_url
     bio_image.url
+  end
+
+  def full_page_bio_image_url
+    full_page_bio_image.url
   end
 
   def max_capacity?
