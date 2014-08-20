@@ -16,6 +16,8 @@ class MemberSerializer < ActiveModel::Serializer
              :device_app_build, :device_timezone, :device_notifications_enabled,
              :device_os, :status
 
+  has_one :nux_answer
+
   def attributes
     if options[:shallow]
       {

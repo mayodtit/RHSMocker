@@ -124,7 +124,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     [:id, :first_name, :last_name, :avatar, :gender, :birth_date,
      :phone, :blood_type, :holds_phone_in, :diet_id, :ethnic_group_id,
      :deceased, :date_of_death, :npi_number, :expertise, :city, :state, :units,
-     :nickname, :work_phone_number, :provider_taxonomy_code, :actor_id]
+     :nickname, :work_phone_number, :provider_taxonomy_code, :actor_id, :nux_answer_id]
   end
 
   def secure_user_attributes

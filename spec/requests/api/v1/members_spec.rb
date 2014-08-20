@@ -7,6 +7,7 @@ shared_examples 'creates a member' do
     body = JSON.parse(response.body, symbolize_names: true)
     member = Member.find(body[:user][:id])
     expect(body[:user].to_json).to eq(member.serializer.as_json.to_json)
+    body[:text_referencing_nux_answer].should == "She'll help you with ."
     expect(body[:auth_token]).to eq(member.auth_token)
   end
 end
