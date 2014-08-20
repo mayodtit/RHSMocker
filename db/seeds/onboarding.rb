@@ -14,4 +14,4 @@ NuxAnswer.upsert_attributes({name: 'eldercare'}, text: 'Caring for an aging pare
 NuxAnswer.upsert_attributes({name: 'medical question'}, text: 'Answering a medical question', phrase: 'answering a medical question', active: true, ordinal: 3)
 NuxAnswer.upsert_attributes({name: 'medical question'}, text: 'Answering a medical question', phrase: 'answering a medical question', active: true, ordinal: 2)
 NuxAnswer.upsert_attributes({name: 'weightloss'}, text: 'Losing some weight', phrase: 'losing some weight', active: true, ordinal: 1)
-NuxAnswer.upsert_attributes({name: 'something else'}, text: 'Something else', phrase: 'working with you', active: true, ordinal: 0)
+NuxAnswer.upsert_attributes({name: 'something else'}, text: 'Something else', phrase: 'your health needs', active: true, ordinal: 0)
