@@ -4,6 +4,6 @@ class NuxAnswerSerializer < ActiveModel::Serializer
   attributes :id, :text, :sign_up_text
 
   def sign_up_text
-    "Just one last step, before you get to meet your Personal Health Assistant and they can start #{object.phrase}."
+    "Create an account to meet your Personal Health Assistant (PHA)."
   end
 end
