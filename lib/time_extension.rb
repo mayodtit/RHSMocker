@@ -16,6 +16,42 @@ module TimeExtension
       self + (7 - self.wday + wday).days
     end
   end
+
+  def next_business_day_in_words(time_zone = nil)
+    # Use our timezone if none is specified
+    time_zone ||= ActiveSupport::TimeZone.new('America/Los_Angeles')
+
+    prev_global_time_zone = Time.zone
+
+    # Perform all calculations in Pacific timezone
+    Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+
+    self_in_time_zone = self.in_time_zone Time.zone
+    next_business_day = Time.roll_forward(self_in_time_zone).in_time_zone Time.zone
+
+    hours_between = (next_business_day - self_in_time_zone) / 1.hour
+
+    # Restore global time zone
+    Time.zone = prev_global_time_zone
+
+    if next_business_day == self_in_time_zone
+      'now'
+    else
+      # Convert to specified time zone, so text is in that time zone
+      self_in_time_zone = self_in_time_zone.in_time_zone time_zone
+      next_business_day = next_business_day.in_time_zone time_zone
+
+      if next_business_day.day() != self_in_time_zone.day()
+        if hours_between > 24
+          Date::DAYNAMES[next_business_day.wday()].downcase
+        else
+          'tomorrow'
+        end
+      else
+        "today at #{next_business_day.strftime('%l%p').strip()}"
+      end
+    end
+  end
 end
 
 Time.send(:include, TimeExtension)

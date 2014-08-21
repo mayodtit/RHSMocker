@@ -306,6 +306,10 @@ class Member < User
     end
   end
 
+  def time_zone
+    member.device_timezone ? ActiveSupport::TimeZone.new(member.device_timezone) : nil
+  end
+
   protected
 
   def free_trial_ends_at_is_nil

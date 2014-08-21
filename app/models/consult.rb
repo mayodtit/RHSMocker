@@ -43,8 +43,18 @@ class Consult < ActiveRecord::Base
     return unless initiator.signed_up?
     return unless initiator.pha
     if Metadata.new_onboarding_flow?
-      mt = MessageTemplate.find_by_name 'New Premium Member'
-      mt.create_message initiator.pha, self, true if mt
+      nux_answer_name = initiator.nux_answer.try(:name) || 'something else'
+
+      if Role.pha.on_call?
+        mt = MessageTemplate.find_by_name "New Premium Member Part 1: #{nux_answer_name}"
+        mt.create_message initiator.pha, self, true if mt
+        mt = MessageTemplate.find_by_name "New Premium Member Part 2: #{nux_answer_name}"
+        mt.delay(run_at: 20.seconds.from_now).create_message(initiator.pha, self) if mt
+      else
+        mt = MessageTemplate.find_by_name "New Premium Member Off Hours: #{nux_answer_name}"
+        mt.create_message initiator.pha, self, true, true if mt
+      end
+
       self.reload
     else
       mt = MessageTemplate.find_by_name 'New Premium Member OLD'

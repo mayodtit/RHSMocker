@@ -67,7 +67,7 @@ describe MessageTemplate do
     let!(:sender) { build :pha, first_name: 'Kevin' }
     let!(:member) { build :member, :premium, pha: sender }
     let!(:consult) { build :consult, initiator: member, subject: member }
-
+    let!(:nux_answer) { create :nux_answer }
     describe '*|member_first_name|*' do
       it 'replaces member_first_name' do
         expect(described_class.formatted_text(sender, consult.initiator, 'Hello *|member_first_name|*')).to eq("Hello #{consult.initiator.salutation}")
@@ -98,6 +98,39 @@ describe MessageTemplate do
       it 'raises an error if the salutation is not present' do
         sender.update_attributes(first_name: '')
         expect{ described_class.formatted_text(sender, consult.initiator, 'Hello *|pha_first_name|*') }.to raise_error(RuntimeError)
+      end
+    end
+
+    describe '*|nux_answer|*' do
+      it 'replaces nux answer' do
+        member.update_attributes nux_answer: nux_answer
+        described_class.formatted_text(sender, consult.initiator, 'You need help with *|nux_answer|*').should == "You need help with #{nux_answer.phrase}"
+      end
+
+      it 'uses the default nux answer if it\'s not present' do
+        NuxAnswer.stub(:find_by_name).with('something else') { nux_answer }
+        member.update_attributes nux_answer: nil
+        described_class.formatted_text(sender, consult.initiator, 'You need help with *|nux_answer|*').should == "You need help with #{nux_answer.phrase}"
+      end
+
+      it 'raises an error if the nux answer is not present' do
+        member.update_attributes nux_answer: nil
+        expect{ described_class.formatted_text(sender, consult.initiator, 'Hello *|nux_answer|*') }.to raise_error(RuntimeError)
+      end
+    end
+
+    describe '*|pha_next_available|*' do
+      before do
+        Timecop.freeze(Time.parse("December 23, 2010 22:00 PST -08:00"))
+      end
+
+      after do
+        Timecop.return()
+      end
+
+      it 'replaces pha_next_available' do
+        member.update_attributes!(device_timezone: 'America/New_York')
+        described_class.formatted_text(sender, consult.initiator, 'Your pha is available *|pha_next_available|*').should == "Your pha is available today at 12PM"
       end
     end
 
