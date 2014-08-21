@@ -30,7 +30,6 @@ class Api::V1::MembersController < Api::V1::ABaseController
     if @member.errors.empty?
       render_success user: @member.serializer,
                      member: @member.serializer,
-                     text_referencing_nux_answer: "#{@member.pha.try(:gender) == 'M' ? 'He' : 'She'}'ll help you with #{@member.try(:nux_answer).try(:phrase)}.",
                      pha_profile: @member.pha.try(:pha_profile).try(:serializer),
                      auth_token: @member.auth_token
     else
