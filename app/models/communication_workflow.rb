@@ -6,7 +6,7 @@ class CommunicationWorkflow < ActiveRecord::Base
   validates :name, presence: true, uniqueness: true
 
   def self.automated_onboarding
-    @automated_onboarding ||= find_by_name('Automated Onboarding')
+    @automated_onboarding ||= find_by_name('Automated Onboarding 8/22/14')
   end
 
   def self.automated_onboarding_old

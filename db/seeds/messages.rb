@@ -1,3 +1,134 @@
+# Current Messages --
+
+CONFIRM_WELCOME_CALL = "Thanks for scheduling your call. We've sent you " +
+  "a confirmation email with a calendar invite. Be sure to start filling " +
+  "out your Health Profile; it's in the navigation menu at the top left " +
+  "of your screen. *|pha_first_name|* will speak with you soon."
+MessageTemplate.upsert_attributes({name: 'Confirm Welcome Call'},
+                                  {text: CONFIRM_WELCOME_CALL})
+
+WELCOME_CALL_REMINDER = "I'm looking forward to our call *|day|*. Let me " +
+  "know if you have any questions or need to reschedule."
+m = MessageTemplate.upsert_attributes({name: 'Welcome Call Reminder'},
+                                      {text: WELCOME_CALL_REMINDER})
+
+# Onboarding
+cw = CommunicationWorkflow.find_or_create_by_name(name: 'Automated Onboarding 8/22/14')
+
+AUTOMATED_ONBOARDING_MESSAGE_1 = <<eof
+  *|member_first_name|*, thanks for signing up. I’m here to help you with *|nux_answer|*. Let’s have a quick conversation so I can learn more. Message me here or [schedule a time to talk](better://nb?cmd=scheduleCall).
+eof
+m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message Day 2 8/22/14'},
+                                      {text: AUTOMATED_ONBOARDING_MESSAGE_1.strip()})
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 2})
+
+AUTOMATED_ONBOARDING_MESSAGE_2 = <<eof
+  I know you’re busy, but I’m here to help. Take a couple of minutes to fill me in on the details. Send a message or call now.
+eof
+m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message Day 3 8/22/14'},
+                                      {text: AUTOMATED_ONBOARDING_MESSAGE_2.strip()})
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 3})
+
+AUTOMATED_ONBOARDING_EMAIL_2 = <<eof
+Hi *|member_first_name|*,
+
+Just as a reminder, I'm *|pha_first_name|*, your Personal Health Assistant from Better. I'd like to get started helping you with *|nux_answer|*, but first, I need a bit more information. Take a quick minute and send me a message in the app. To see my messages as they come in, turn on Push Notifications within Settings on your phone.
+
+Take care,
+*|pha_first_name|*
+eof
+AUTOMATED_ONBOARDING_EMAIL_2_SUBJECT = 'Checking in'
+m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Email Day 5 8/22/14'},
+                                      {subject: AUTOMATED_ONBOARDING_EMAIL_2_SUBJECT,
+                                       text: AUTOMATED_ONBOARDING_EMAIL_2.strip()})
+PlainTextEmailWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                                  message_template_id: m.id},
+                                                 {relative_days: 5})
+
+AUTOMATED_ONBOARDING_MESSAGE_3 = <<eof
+  Just checking in -- do you have time to connect?
+eof
+m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message Day 5 8/22/14'},
+                                      {text: AUTOMATED_ONBOARDING_MESSAGE_3.strip()})
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 5})
+
+AUTOMATED_ONBOARDING_MESSAGE_4 = <<eof
+  How are you feeling today, *|member_first_name|*? Our Mayo Clinic nurses can expertly handle any of your medical questions or symptoms.
+eof
+m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message Day 7 8/22/14'},
+                                      {text: AUTOMATED_ONBOARDING_MESSAGE_4.strip()})
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 7})
+
+AUTOMATED_ONBOARDING_EMAIL_3 = 'automated_onboarding_testimonials_email'
+TemplateEmailWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                                 template: AUTOMATED_ONBOARDING_EMAIL_3},
+                                                {relative_days: 8})
+
+# Offboarding
+cw = CommunicationWorkflow.find_or_create_by_name(name: 'Automated Offboarding')
+
+AUTOMATED_OFFBOARDING_MESSAGE_1 = "Your trial is ending " +
+  "*|day_of_reference_event|*. Get in touch with your PHA today."
+m = MessageTemplate.upsert_attributes({name: 'Automated Offboarding Message 1'},
+                                      {text: AUTOMATED_OFFBOARDING_MESSAGE_1})
+SystemMessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                                 message_template_id: m.id},
+                                                {relative_days: -1,
+                                                 reference_event: :recipient_free_trial_ends_at})
+
+AUTOMATED_OFFBOARDING_MESSAGE_2 = "Hi *|member_first_name|*, Thank you for " +
+  "your interest in Better. I wanted to let you know that your free trial " +
+  "ends today. If you'd like to become a Premium member, tap " +
+  "[here](better://nb?cmd=showSubscription). If you have any questions " +
+  "about your trial, please let me know."
+m = MessageTemplate.upsert_attributes({name: 'Automated Offboarding Message 2'},
+                                      {text: AUTOMATED_OFFBOARDING_MESSAGE_2})
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 0,
+                                           reference_event: :recipient_free_trial_ends_at})
+
+AUTOMATED_OFFBOARDING_EMAIL_1 = "Hi *|member_first_name|*,\n\n" +
+  "Thank you for your interest in Better. I wanted to let you know your " +
+  "free trial ends today, and although we didn't get a chance to work " +
+  "together, I hope I can serve you in the future. If you have a moment, " +
+  "let us know how we could improve this experience for you, share " +
+  "your thoughts here: http://svy.mk/1mJEv44.\n\n" +
+  "If you have any questions about your trial, send a note to " +
+  "support@getbetter.com.\n\n" +
+  "Take care,\n" +
+  "*|pha_first_name|*"
+AUTOMATED_OFFBOARDING_EMAIL_1_SUBJECT = "Your trial ends today"
+m = MessageTemplate.upsert_attributes({name: 'Automated Offboarding Email 1'},
+                                      {subject: AUTOMATED_OFFBOARDING_EMAIL_1_SUBJECT,
+                                       text: AUTOMATED_OFFBOARDING_EMAIL_1})
+PlainTextEmailWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                                  message_template_id: m.id},
+                                                 {relative_days: 0,
+                                                  reference_event: :recipient_free_trial_ends_at})
+
+AUTOMATED_OFFBOARDING_MESSAGE_3 = "We're sorry to see you go. If you decide " +
+  "you'd like to upgrade later tap [here](better://nb?cmd=showSubscription) " +
+  "and you can pick back up where you left off. If you have a moment, let " +
+  "us know how we could improve our service for you. " +
+  "[Share your thoughts](http://svy.mk/1toueOq)."
+m = MessageTemplate.upsert_attributes({name: 'Automated Offboarding Message 3'},
+                                      {text: AUTOMATED_OFFBOARDING_MESSAGE_3})
+SystemMessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                                 message_template_id: m.id},
+                                                {relative_days: 1,
+                                                 reference_event: :recipient_free_trial_ends_at})
+
+# Old Messages --
+
 NEW_PREMIUM_MEMBER = "Hi *|member_first_name|*, I'm " +
   "*|sender_first_name|*, your Personal Health Assistant. I'm here to " +
   "handle any of your health needs. Let's " +
@@ -14,13 +145,6 @@ NEW_PREMIUM_MEMBER_OLD = "Hi *|member_first_name|*, welcome to Better. I'm " +
   "If you have any questions or immediate needs, just send me a message here."
 MessageTemplate.upsert_attributes({name: 'New Premium Member OLD'},
                                   {text: NEW_PREMIUM_MEMBER_OLD})
-
-CONFIRM_WELCOME_CALL = "Thanks for scheduling your call. We've sent you " +
-  "a confirmation email with a calendar invite. Be sure to start filling " +
-  "out your Health Profile; it's in the navigation menu at the top left " +
-  "of your screen. *|pha_first_name|* will speak with you soon."
-MessageTemplate.upsert_attributes({name: 'Confirm Welcome Call'},
-                                  {text: CONFIRM_WELCOME_CALL})
 
 CONFIRM_WELCOME_CALL_OLD = "Thanks for scheduling your call. We've sent you " +
   "a confirmation email with a calendar invite. Be sure to start filling " +
@@ -57,18 +181,19 @@ MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
                                           {relative_days: 4})
 
-AUTOMATED_ONBOARDING_EMAIL_2 = <<eof
-Hi *|member_first_name|*,
-
-Just as a reminder, I'm *|pha_first_name|*, your Personal Health Assistant from Better. I'd like to get started helping you with *|nux_answer|*, but first, I need a bit more information. Take a quick minute and send me a message in the app. To see my messages as they come in, turn on Push Notifications within Settings on your phone.
-
-Take care,
-*|pha_first_name|*
-eof
+AUTOMATED_ONBOARDING_EMAIL_2 = "Hi *|member_first_name|*,\n\n" +
+  "I'm just checking in to make sure you received my messages in the app. " +
+  "Be sure to turn on Push Notifications in the Settings on your phone. If " +
+  "you need help with messaging, reply to this email.\n\n" +
+  "I'm looking forward to helping you simplify your health needs. To get " +
+  "started, you can book a call through the app, or just send me a note " +
+  "here with a time that works for you.\n\n" +
+  "Take care,\n\n" +
+  "*|pha_first_name|*"
 AUTOMATED_ONBOARDING_EMAIL_2_SUBJECT = 'Checking in'
 m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Email 2'},
                                       {subject: AUTOMATED_ONBOARDING_EMAIL_2_SUBJECT,
-                                       text: AUTOMATED_ONBOARDING_EMAIL_2.strip()})
+                                       text: AUTOMATED_ONBOARDING_EMAIL_2})
 PlainTextEmailWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                                   message_template_id: m.id},
                                                  {relative_days: 4})
@@ -153,62 +278,3 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 4 OLD
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
                                           {relative_days: 8})
-
-WELCOME_CALL_REMINDER = "I'm looking forward to our call *|day|*. Let me " +
-  "know if you have any questions or need to reschedule."
-m = MessageTemplate.upsert_attributes({name: 'Welcome Call Reminder'},
-                                       {text: WELCOME_CALL_REMINDER})
-
-cw = CommunicationWorkflow.find_or_create_by_name(name: 'Automated Offboarding')
-
-AUTOMATED_OFFBOARDING_MESSAGE_1 = "Your trial is ending " +
-  "*|day_of_reference_event|*. Get in touch with your PHA today."
-m = MessageTemplate.upsert_attributes({name: 'Automated Offboarding Message 1'},
-                                      {text: AUTOMATED_OFFBOARDING_MESSAGE_1})
-SystemMessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
-                                                 message_template_id: m.id},
-                                                {relative_days: -1,
-                                                 reference_event: :recipient_free_trial_ends_at})
-
-AUTOMATED_OFFBOARDING_MESSAGE_2 = "Hi *|member_first_name|*, Thank you for " +
-  "your interest in Better. I wanted to let you know that your free trial " +
-  "ends today. If you'd like to become a Premium member, tap " +
-  "[here](better://nb?cmd=showSubscription). If you have any questions " +
-  "about your trial, please let me know."
-m = MessageTemplate.upsert_attributes({name: 'Automated Offboarding Message 2'},
-                                      {text: AUTOMATED_OFFBOARDING_MESSAGE_2})
-MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
-                                           message_template_id: m.id},
-                                          {relative_days: 0,
-                                           reference_event: :recipient_free_trial_ends_at})
-
-AUTOMATED_OFFBOARDING_EMAIL_1 = "Hi *|member_first_name|*,\n\n" +
-  "Thank you for your interest in Better. I wanted to let you know your " +
-  "free trial ends today, and although we didn't get a chance to work " +
-  "together, I hope I can serve you in the future. If you have a moment, " +
-  "let us know how we could improve this experience for you, share " +
-  "your thoughts here: http://svy.mk/1mJEv44.\n\n" +
-  "If you have any questions about your trial, send a note to " +
-  "support@getbetter.com.\n\n" +
-  "Take care,\n" +
-  "*|pha_first_name|*"
-AUTOMATED_OFFBOARDING_EMAIL_1_SUBJECT = "Your trial ends today"
-m = MessageTemplate.upsert_attributes({name: 'Automated Offboarding Email 1'},
-                                      {subject: AUTOMATED_OFFBOARDING_EMAIL_1_SUBJECT,
-                                       text: AUTOMATED_OFFBOARDING_EMAIL_1})
-PlainTextEmailWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
-                                                  message_template_id: m.id},
-                                                 {relative_days: 0,
-                                                  reference_event: :recipient_free_trial_ends_at})
-
-AUTOMATED_OFFBOARDING_MESSAGE_3 = "We're sorry to see you go. If you decide " +
-  "you'd like to upgrade later tap [here](better://nb?cmd=showSubscription) " +
-  "and you can pick back up where you left off. If you have a moment, let " +
-  "us know how we could improve our service for you. " +
-  "[Share your thoughts](http://svy.mk/1toueOq)."
-m = MessageTemplate.upsert_attributes({name: 'Automated Offboarding Message 3'},
-                                      {text: AUTOMATED_OFFBOARDING_MESSAGE_3})
-SystemMessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
-                                                 message_template_id: m.id},
-                                                {relative_days: 1,
-                                                 reference_event: :recipient_free_trial_ends_at})
