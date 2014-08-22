@@ -460,12 +460,9 @@ class Member < User
   end
 
   def add_automated_communication_workflows
-    pp '>>>>>>>>>>>>>>>> HERE'
     return unless inbound_scheduled_communications.empty?
 
-    pp '>>>>>>>>>>>>>>>>>> HERE2'
     if Metadata.automated_onboarding? && Metadata.new_onboarding_flow?
-      pp '>>>>>>>>>>>>>>>>>> HERE3'
       CommunicationWorkflow.automated_onboarding.try(:add_to_member, self)
     elsif Metadata.automated_onboarding? && inbound_scheduled_communications.empty?
       CommunicationWorkflow.automated_onboarding_old.try(:add_to_member, self)
