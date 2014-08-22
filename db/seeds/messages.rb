@@ -57,19 +57,18 @@ MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
                                           {relative_days: 4})
 
-AUTOMATED_ONBOARDING_EMAIL_2 = "Hi *|member_first_name|*,\n\n" +
-  "I'm just checking in to make sure you received my messages in the app. " +
-  "Be sure to turn on Push Notifications in the Settings on your phone. If " +
-  "you need help with messaging, reply to this email.\n\n" +
-  "I'm looking forward to helping you simplify your health needs. To get " +
-  "started, you can book a call through the app, or just send me a note " +
-  "here with a time that works for you.\n\n" +
-  "Take care,\n\n" +
-  "*|pha_first_name|*"
+AUTOMATED_ONBOARDING_EMAIL_2 = <<eof
+Hi *|member_first_name|*,
+
+Just as a reminder, I'm *|pha_first_name|*, your Personal Health Assistant from Better. I'd like to get started helping you with *|nux_answer|*, but first, I need a bit more information. Take a quick minute and send me a message in the app. To see my messages as they come in, turn on Push Notifications within Settings on your phone.
+
+Take care,
+*|pha_first_name|*
+eof
 AUTOMATED_ONBOARDING_EMAIL_2_SUBJECT = 'Checking in'
 m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Email 2'},
                                       {subject: AUTOMATED_ONBOARDING_EMAIL_2_SUBJECT,
-                                       text: AUTOMATED_ONBOARDING_EMAIL_2})
+                                       text: AUTOMATED_ONBOARDING_EMAIL_2.strip()})
 PlainTextEmailWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                                   message_template_id: m.id},
                                                  {relative_days: 4})
