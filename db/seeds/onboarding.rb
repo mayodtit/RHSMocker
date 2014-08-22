@@ -2,7 +2,7 @@ OnboardingGroup.find_or_create_by_name(name: 'Generic 14-day trial onboarding gr
                                        premium: true,
                                        free_trial_days: 14)
 
-Metadata.find_or_create_by_mkey(mkey: 'nux_question_text', mvalue: 'You’re invited to experience the service of a Personal Health Assistant. Choose an immediate need or focus for your free trial:')
+Metadata.find_or_create_by_mkey(mkey: 'nux_question_text', mvalue: 'You’re just two steps away from the experience of a Personal Health Assistant. What would you like to focus on during your free trial:')
 
 # Provider search --
 
