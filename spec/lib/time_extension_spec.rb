@@ -42,7 +42,7 @@ describe TimeExtension do
         let(:time) { Time.parse("December 24, 2010 21:00 PST -08:00") }
 
         it 'returns now' do
-          time.next_business_day_in_words.should == 'monday'
+          time.next_business_day_in_words.should == 'Monday'
         end
       end
 
@@ -76,7 +76,7 @@ describe TimeExtension do
         let(:time) { Time.parse("December 24, 2010 21:00 PST -08:00") }
 
         it 'returns now' do
-          time.next_business_day_in_words(ActiveSupport::TimeZone.new('America/New_York')).should == 'monday'
+          time.next_business_day_in_words(ActiveSupport::TimeZone.new('America/New_York')).should == 'Monday'
         end
       end
 

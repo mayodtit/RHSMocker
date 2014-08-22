@@ -43,7 +43,7 @@ module TimeExtension
 
       if next_business_day.day() != self_in_time_zone.day()
         if hours_between > 24
-          Date::DAYNAMES[next_business_day.wday()].downcase
+          Date::DAYNAMES[next_business_day.wday()].titleize
         else
           'tomorrow'
         end
