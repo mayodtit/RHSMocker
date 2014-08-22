@@ -126,4 +126,9 @@ class Metadata < ActiveRecord::Base
   def self.nux_question_text
     Metadata.find_by_mkey('nux_question_text').try(:mvalue)
   end
+
+  def self.new_signup_second_message_delay
+    delay = Metadata.find_by_mkey('new_signup_second_message_delay').try(:mvalue).to_i
+    delay ? delay : 5
+  end
 end

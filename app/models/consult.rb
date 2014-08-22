@@ -49,7 +49,7 @@ class Consult < ActiveRecord::Base
         mt = MessageTemplate.find_by_name "New Premium Member Part 1: #{nux_answer_name}"
         mt.create_message initiator.pha, self, true if mt
         mt = MessageTemplate.find_by_name "New Premium Member Part 2: #{nux_answer_name}"
-        mt.delay(run_at: 10.seconds.from_now).create_message(initiator.pha, self) if mt
+        mt.delay(run_at: Metadata.new_signup_second_message_delay.seconds.from_now).create_message(initiator.pha, self) if mt
       else
         mt = MessageTemplate.find_by_name "New Premium Member Off Hours: #{nux_answer_name}"
         mt.create_message initiator.pha, self, true, true if mt
