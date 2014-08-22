@@ -66,6 +66,7 @@ Metadata dynamically controls variables and features in the API without needing 
 | *offboard_expired_members*  | true/false             | When "true", starts the offboarding flow for members who's subscription has expired |
 | *ignore_events_from_test_users*  | true/false        | When "true", does not create RemoteEvents for test users (email ending with getbetter.com or example.com) |
 | *automated_onboarding* | true/false | When "true", uses automated onboarding communication workflow for new members |
+| *automated_offboarding* | true/false | When "true", uses automated offboarding communication workflow for expiring members |
 
 ## Development
 
