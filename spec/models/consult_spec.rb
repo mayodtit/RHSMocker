@@ -83,8 +83,9 @@ describe Consult do
               end
 
               it 'creates a delayed job to create a second message' do
+                Metadata.stub(:new_signup_second_message_delay) { 10 }
                 MessageTemplate.stub(:find_by_name).with("New Premium Member Part 2: #{nux_answer.name}") { message_template }
-                message_template.should_receive(:delay).with(run_at: 20.seconds.from_now) do
+                message_template.should_receive(:delay).with(run_at: 10.seconds.from_now) do
                   o = Object.new
                   o.should_receive(:create_message).with(pha, instance_of(Consult))
                   o
@@ -136,6 +137,7 @@ describe Consult do
               end
 
               it 'creates a delayed job to create a second message' do
+                Metadata.stub(:new_signup_second_message_delay) { 10 }
                 MessageTemplate.stub(:find_by_name).with("New Premium Member Part 2: something else") { message_template }
                 message_template.should_receive(:delay).with(run_at: 10.seconds.from_now) do
                   o = Object.new
