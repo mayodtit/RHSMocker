@@ -46,13 +46,13 @@ class RHSMailer < MandrillMailer::TemplateMailer
     )
   end
 
-  PREMIUM_WELCOME_TEMPLATE_CLARE = 'Meet Clare, Your PHA 7/9/14'
-  PREMIUM_WELCOME_TEMPLATE_LAUREN = 'Meet Lauren, Your PHA 7/9/14'
-  PREMIUM_WELCOME_TEMPLATE_MEG = 'Meet Meg, Your PHA 7/9/14'
-  PREMIUM_WELCOME_TEMPLATE_NINETTE = 'Meet Ninette, Your PHA 7/9/14'
-  PREMIUM_WELCOME_TEMPLATE_JENN = 'Meet Jenn, Your PHA 7/9/14'
-  PREMIUM_WELCOME_TEMPLATE_ANN = 'Meet Ann, Your PHA 8/7/14'
-  PREMIUM_WELCOME_TEMPLATE_JACQUI = 'Meet Jacqui, Your PHA 8/7/14'
+  PREMIUM_WELCOME_TEMPLATE_CLARE = 'Meet Clare, Your PHA 8/20/14'
+  PREMIUM_WELCOME_TEMPLATE_LAUREN = 'Meet Lauren, Your PHA 8/20/14'
+  PREMIUM_WELCOME_TEMPLATE_MEG = 'Meet Meg, Your PHA 8/20/14'
+  PREMIUM_WELCOME_TEMPLATE_NINETTE = 'Meet Ninette, Your PHA 8/20/14'
+  PREMIUM_WELCOME_TEMPLATE_JENN = 'Meet Jenn, Your PHA 8/20/14'
+  PREMIUM_WELCOME_TEMPLATE_ANN = 'Meet Ann, Your PHA 8/20/14'
+  PREMIUM_WELCOME_TEMPLATE_JACQUI = 'Meet Jacqui, Your PHA 8/20/14'
 
   def meet_your_pha_email(email)
     user = Member.find_by_email!(email)
@@ -74,7 +74,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     when 'jacqueline@getbetter.com'
       template = PREMIUM_WELCOME_TEMPLATE_JACQUI
     else
-      raise 'Must have PHA to send Meet your PHA'
+      template = PREMIUM_WELCOME_TEMPLATE_CLARE
     end
 
     mandrill_mail(
@@ -85,6 +85,10 @@ class RHSMailer < MandrillMailer::TemplateMailer
       template: template,
       headers: {
         'Reply-To' => "#{user.pha.full_name} <premium@getbetter.com>"
+      },
+      vars: {
+        FNAME: user.salutation,
+        MEMBERNEED: user.nux_answer.try(:phrase) || 'your health needs'
       }
     )
   end

@@ -34,6 +34,7 @@ class MessageTemplate < ActiveRecord::Base
   end
 
   def self.can_format_text?(sender, recipient, text, variables={})
+    nux_answer = recipient.nux_answer || NuxAnswer.find_by_name('something else')
     text.gsub(/\*\|.*?\|\*/) do |ftext|
       if ftext == '*|member_first_name|*' && recipient.salutation.present?
         recipient.salutation
@@ -41,6 +42,8 @@ class MessageTemplate < ActiveRecord::Base
         sender.first_name
       elsif ftext == '*|pha_first_name|*' && recipient.try(:pha).try(:first_name).try(:present?)
         recipient.pha.first_name
+      elsif ftext == '*|pha_next_available|*'
+        Time.now.next_business_day_in_words recipient.time_zone
       elsif ftext == '*|day_of_reference_event|*' && recipient.try(:free_trial_ends_at)
         # TODO - generalize this for all events
         if Time.now.pacific.to_date == recipient.free_trial_ends_at.pacific.to_date
@@ -48,6 +51,8 @@ class MessageTemplate < ActiveRecord::Base
         else
           recipient.free_trial_ends_at.pacific.strftime('%A')
         end
+      elsif ftext == '*|nux_answer|*' && nux_answer.present?
+        nux_answer.phrase
       elsif variables.has_key?(ftext.gsub(/\*\||\|\*/, ''))
         variables[ftext.gsub(/\*\||\|\*/, '')]
       else
@@ -58,6 +63,7 @@ class MessageTemplate < ActiveRecord::Base
   end
 
   def self.formatted_text(sender, recipient, text, variables={})
+    nux_answer = recipient.nux_answer || NuxAnswer.find_by_name('something else')
     text.gsub(/\*\|.*?\|\*/) do |ftext|
       if ftext == '*|member_first_name|*' && recipient.salutation.present?
         recipient.salutation
@@ -65,6 +71,8 @@ class MessageTemplate < ActiveRecord::Base
         sender.first_name
       elsif ftext == '*|pha_first_name|*' && recipient.try(:pha).try(:first_name).try(:present?)
         recipient.pha.first_name
+      elsif ftext == '*|pha_next_available|*'
+        Time.now.next_business_day_in_words recipient.time_zone
       elsif ftext == '*|day_of_reference_event|*' && recipient.try(:free_trial_ends_at)
         # TODO - generalize this for all events
         if Time.now.pacific.to_date == recipient.free_trial_ends_at.pacific.to_date
@@ -72,6 +80,8 @@ class MessageTemplate < ActiveRecord::Base
         else
           recipient.free_trial_ends_at.pacific.strftime('%A')
         end
+      elsif ftext == '*|nux_answer|*' && nux_answer.present?
+        nux_answer.phrase
       elsif variables.has_key?(ftext.gsub(/\*\||\|\*/, ''))
         variables[ftext.gsub(/\*\||\|\*/, '')]
       else
