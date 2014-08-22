@@ -217,13 +217,13 @@ class RHSMailer < MandrillMailer::TemplateMailer
     )
   end
 
-  AUTOMATED_ONBOARDING_TESTIMONIALS_CLARE = 'Reminder to Schedule Welcome Call Clare 7/25'
-  AUTOMATED_ONBOARDING_TESTIMONIALS_LAUREN = 'Reminder to Schedule Welcome Call Lauren 7/25'
-  AUTOMATED_ONBOARDING_TESTIMONIALS_MEG = 'Reminder to Schedule Welcome Call Meg 7/25'
-  AUTOMATED_ONBOARDING_TESTIMONIALS_NINETTE = 'Reminder to Schedule Welcome Call Ninette 7/25'
-  AUTOMATED_ONBOARDING_TESTIMONIALS_JENN = 'Reminder to Schedule Welcome Call Jenn 7/25'
-  AUTOMATED_ONBOARDING_TESTIMONIALS_ANN = 'Reminder to Schedule Welcome Call Ann 8/8/14'
-  AUTOMATED_ONBOARDING_TESTIMONIALS_JACQUI = 'Reminder to Schedule Welcome Call Jacqui 8/8/14'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_CLARE = 'Day 8 Email 8/15 Clare'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_LAUREN = 'Day 8 Email 8/15 Lauren'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_MEG = 'Day 8 Email 8/15 Meg'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_NINETTE = 'Day 8 Email 8/15 Ninette'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_JENN = 'Day 8 Email 8/15 Jenn'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_ANN = 'Day 8 Email 8/15 Ann'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_JACQUI = 'Day 8 Email 8/15 Jacqui'
 
   def automated_onboarding_testimonials_email(user, pha)
     template = case pha.email
@@ -242,7 +242,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
                when 'jacqueline@getbetter.com'
                  AUTOMATED_ONBOARDING_TESTIMONIALS_JACQUI
                else
-                 raise 'Unknown PHA, not sending!'
+                 AUTOMATED_ONBOARDING_TESTIMONIALS_CLARE
                end
 
     mandrill_mail(
@@ -256,7 +256,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
       },
       vars: {
         FNAME: user.salutation,
-        PHA: pha.first_name
+        PHA: pha.first_name,
+        MEMBERNEED: user.nux_answer.try(:phrase) || 'your health needs'
       },
     )
   end
