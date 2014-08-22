@@ -92,7 +92,7 @@ describe TimeExtension do
         let(:time) { Time.parse("December 23, 2010 23:00 HAST -10:00") }
 
         it 'returns now' do
-          time.next_business_day_in_words(ActiveSupport::TimeZone.new('America/Hawaii')).should == 'tomorrow'
+          time.next_business_day_in_words(ActiveSupport::TimeZone.new('Pacific/Hawaii')).should == 'tomorrow'
         end
       end
 
