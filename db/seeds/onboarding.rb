@@ -106,7 +106,7 @@ Here are a few simple things I need to get started:
 
 1) Add your child’s information [here](better://nb?cmd=showProfile)
 2) Fill me on any upcoming procedures or appointments.
-3) Message me any questions or concerns, or [schedule a time to talk](better://nb?cmd=scheduleCall).
+3) Message me any questions or concerns, or [schedule a time to talk](better://nb?cmd=scheduleCall)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: childcare'}, text: MESSAGE.strip())
 
@@ -120,7 +120,7 @@ Here are a few simple things I need to get started:
 
 1) Add your child’s information [here](better://nb?cmd=showProfile)
 2) Fill me in about your family or any upcoming procedures or appointments.
-3) Message me any questions or concerns, or [schedule a time to talk](better://nb?cmd=scheduleCall).
+3) Message me any questions or concerns, or [schedule a time to talk](better://nb?cmd=scheduleCall)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: childcare'}, text: MESSAGE.strip())
 
@@ -135,7 +135,7 @@ Here are a few simple things I need to get started:
 
 1) Add your medical conditions to your [health profile](better://nb?cmd=showMedicalInformation)
 2) [Add your doctors](better://nb?cmd=showCareTeam) to your Care Team
-3) Message me a little bit about your situation or [schedule a time to talk](better://nb?cmd=scheduleCall).
+3) Message me a little bit about your situation or [schedule a time to talk](better://nb?cmd=scheduleCall)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: choosing insurance'}, text: MESSAGE.strip())
 
@@ -149,7 +149,7 @@ Here are a few simple things I need to get started:
 
 1) [Add your medical conditions to your health profile](better://nb?cmd=showMedicalInformation)
 2) [Add your doctors](better://nb?cmd=showCareTeam) to your Care Team
-3) Message me a little bit about your situation or [schedule a time to talk](better://nb?cmd=scheduleCall).
+3) Message me a little bit about your situation or [schedule a time to talk](better://nb?cmd=scheduleCall)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: choosing insurance'}, text: MESSAGE.strip())
 
@@ -165,7 +165,7 @@ Here are a few simple things I need to get started:
 1) Add your medical conditions to your [health profile](better://nb?cmd=showMedicalInformation)
 2) Send a photo of your health insurance card (front and back) by tapping the camera button
 3) [Add your doctors](better://nb?cmd=showCareTeam) to your Care Team
-4) Message me more details about your pregnancy like your due date or complications you are experiencing, or [schedule a time to talk](better://nb?cmd=scheduleCall).
+4) Message me more details about your pregnancy like your due date or complications you are experiencing, or [schedule a time to talk](better://nb?cmd=scheduleCall)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: pregnancy'}, text: MESSAGE.strip())
 
@@ -180,7 +180,7 @@ Here are a few simple things I need to get started:
 1) [Add your medical conditions to your health profile](better://nb?cmd=showMedicalInformation)
 2) Send a photo of your health insurance card (front and back) by tapping the camera button
 3) [Add your doctors](better://nb?cmd=showCareTeam) to your Care Team
-4) Message me on details about your pregnancy like your due date or complications you are experiencing, or [schedule a time to talk](better://nb?cmd=scheduleCall).
+4) Message me on details about your pregnancy like your due date or complications you are experiencing, or [schedule a time to talk](better://nb?cmd=scheduleCall)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: pregnancy'}, text: MESSAGE.strip())
 
@@ -194,7 +194,7 @@ Welcome to Better, *|member_first_name|*! I’ll be available *|pha_next_availab
 Here are a few simple things I need to get started:
 
 1) Add your parent’s information [here](better://nb?cmd=showProfile)
-2) Message me about your parent’s conditions or [schedule a time to talk](better://nb?cmd=scheduleCall).
+2) Message me about your parent’s conditions or [schedule a time to talk](better://nb?cmd=scheduleCall)
 3) Fill me in on what role you currently play in your parent’s care
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: eldercare'}, text: MESSAGE.strip())
@@ -208,7 +208,7 @@ MESSAGE = <<eof
 Here are a few simple things I need to get started:
 
 1) [Add your parent’s information](better://nb?cmd=showProfile)
-2) Message me about your parent’s conditions or [schedule a time to talk](better://nb?cmd=scheduleCall).
+2) Message me about your parent’s conditions or [schedule a time to talk](better://nb?cmd=scheduleCall)
 3) Fill me in on the role you play in your parent’s care?
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: eldercare'}, text: MESSAGE.strip())
@@ -223,7 +223,7 @@ Welcome to Better, *|member_first_name|*! I’ll be available *|pha_next_availab
 Here are a few simple things I need to get started:
 
 1) Add your medical conditions to your [health profile](better://nb?cmd=showMedicalInformation)
-2) Message me details about your medical question, or [schedule a time to talk](better://nb?cmd=scheduleCall).
+2) Message me details about your medical question, or [schedule a time to talk](better://nb?cmd=scheduleCall)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: medical question'}, text: MESSAGE.strip())
 
@@ -236,7 +236,7 @@ MESSAGE = <<eof
 Here are a few simple things I need to get started:
 
 1) [Add your medical conditions to your health profile](better://nb?cmd=showMedicalInformation)
-2) Message me details about your medical question, or [schedule a time to talk](better://nb?cmd=scheduleCall).
+2) Message me details about your medical question, or [schedule a time to talk](better://nb?cmd=scheduleCall)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: medical question'}, text: MESSAGE.strip())
 
