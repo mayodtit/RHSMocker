@@ -8,12 +8,13 @@ class MessageTemplate < ActiveRecord::Base
   validates :name, :text, presence: true
   validates :name, uniqueness: true
 
-  def create_message(sender, consult, no_notification=false, system_message=false)
+  def create_message(sender, consult, no_notification=false, system_message=false, off_hours=false)
     Message.create(user: sender,
                    consult: consult,
                    text: self.class.formatted_text(sender, consult.initiator, text),
                    no_notification: no_notification,
-                   system: system_message)
+                   system: system_message,
+                   off_hours: off_hours)
   end
 
   def create_scheduled_message(sender, consult, publish_at, variables={})
