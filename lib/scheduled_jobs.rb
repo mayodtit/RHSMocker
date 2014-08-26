@@ -76,7 +76,7 @@ class ScheduledJobs
     end
     ScheduledCommunication.scheduled.publish_at_past_time.each do |m|
       begin
-        # m = m.reload
+        m = m.reload
         m.deliver! unless m.delivered?
       rescue
         next
