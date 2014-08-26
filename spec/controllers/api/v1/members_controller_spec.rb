@@ -95,6 +95,7 @@ describe Api::V1::MembersController do
     end
 
     before do
+      user.stub(:reload) { user }
       Member.stub(create: user)
     end
 
