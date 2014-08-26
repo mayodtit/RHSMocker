@@ -9,12 +9,12 @@ Metadata.upsert_attributes({mkey: 'nux_question_text'}, mvalue: 'You’re just t
 NuxAnswer.upsert_attributes({name: 'provider search'}, text: 'Finding a new doctor or specialist', phrase: 'finding a new doctor or specialist', active: true, ordinal: 10)
 
 MESSAGE = <<eof
-Welcome to Better, *|member_first_name|*. I’ll be available *|pha_next_available|* to help you find a new doctor or specialist.
+Welcome to Better. *|member_first_name|*. I’ll be available *|pha_next_available|* to help you find a new doctor or specialist.
 
 Here are a few simple things to get started:
 
 1) Send a photo of your health insurance card (front and back) by tapping the camera button
-2) So I can find one near you, [enter your address](better://nb?cmd=openPage&page=profile)
+2) So I can find one near you, [enter your address](better://nb?cmd=editProfile)
 3) Message me the type of doctor or the reason for the visit (for example, annual checkup), or [schedule a time to talk](better://nb?cmd=scheduleCall)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: provider search'}, text: MESSAGE.strip())
@@ -28,7 +28,7 @@ MESSAGE = <<eof
 Here are a few simple things I need to get started:
 
 1) Send a photo of your health insurance card (front and back) by tapping the camera button
-2) So I can find one near you, [enter your address](better://nb?cmd=openPage&page=profile)
+2) So I can find one near you, [enter your address](better://nb?cmd=editProfile)
 3) Message me the type of doctor or the reason for the visit (for example, annual checkup), or [schedule a time to talk](better://nb?cmd=scheduleCall)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: provider search'}, text: MESSAGE.strip())
@@ -43,9 +43,8 @@ Welcome to Better, *|member_first_name|*. I’ll be available *|pha_next_availab
 Here are a few simple things to get started:
 
 1) Send a photo of your health insurance card (front and back) by tapping the camera button
-2) Send a photo of each page of the medical bill
-3) [Add the doctor](better://nb?cmd=showCareTeam) who sent you the bill
-4) Message details about the bill, or [schedule a time to talk](better://nb?cmd=scheduleCall)
+2) Send a photo of the medical bill
+3) Message details about the bill, or [schedule a time to talk](better://nb?cmd=scheduleCall)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: billing'}, text: MESSAGE.strip())
 
@@ -91,7 +90,7 @@ Here are a few simple things I need to get started:
 1) Add your medical conditions to your [health profile](better://nb?cmd=showMedicalInformation)
 2) Send a photo of your health insurance card (front and back) by tapping the camera button
 3) [Add your doctors](better://nb?cmd=showCareTeam) to your Care Team
-4) Message me any questions or concerns, or [schedule a time to talk](better://nb?cmd=scheduleCall)
+4) Message me about the medical conditions you need help managing, or [schedule a time to talk](better://nb?cmd=scheduleCall)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: medical condition'}, text: MESSAGE.strip())
 
@@ -104,8 +103,8 @@ Welcome to Better, *|member_first_name|*! I’ll be available *|pha_next_availab
 
 Here are a few simple things I need to get started:
 
-1) Add your child’s information [here](better://nb?cmd=showProfile)
-2) Fill me on any upcoming procedures or appointments.
+1) Add your child’s information [here](better://nb?cmd=newProfile)
+2) Fill me in on any upcoming procedures or appointments
 3) Message me any questions or concerns, or [schedule a time to talk](better://nb?cmd=scheduleCall)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: childcare'}, text: MESSAGE.strip())
@@ -118,9 +117,9 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: childcare'}
 MESSAGE = <<eof
 Here are a few simple things I need to get started:
 
-1) Add your child’s information [here](better://nb?cmd=showProfile)
-2) Fill me in about your family or any upcoming procedures or appointments.
-3) Message me any questions or concerns, or [schedule a time to talk](better://nb?cmd=scheduleCall)
+1) Add your child’s information [here](better://nb?cmd=newProfile)
+2) Fill me in about your family or any upcoming appointments
+3) Message me about how I can support you and your family, or [schedule a time to talk](better://nb?cmd=scheduleCall)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: childcare'}, text: MESSAGE.strip())
 
@@ -149,7 +148,7 @@ Here are a few simple things I need to get started:
 
 1) [Add your medical conditions to your health profile](better://nb?cmd=showMedicalInformation)
 2) [Add your doctors](better://nb?cmd=showCareTeam) to your Care Team
-3) Message me a little bit about your situation or [schedule a time to talk](better://nb?cmd=scheduleCall)
+3) Message me about how I can help you choose new health insurance, or [schedule a time to talk](better://nb?cmd=scheduleCall)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: choosing insurance'}, text: MESSAGE.strip())
 
@@ -170,7 +169,7 @@ eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: pregnancy'}, text: MESSAGE.strip())
 
 MESSAGE = <<eof
-Welcome to Better, *|member_first_name|*! I’m here to help you and your new family.
+Welcome to Better, *|member_first_name|*! I’m here to help.
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: pregnancy'}, text: MESSAGE.strip())
 
@@ -193,23 +192,23 @@ Welcome to Better, *|member_first_name|*! I’ll be available *|pha_next_availab
 
 Here are a few simple things I need to get started:
 
-1) Add your parent’s information [here](better://nb?cmd=showProfile)
+1) Add your parent’s information [here](better://nb?cmd=newProfile)
 2) Message me about your parent’s conditions or [schedule a time to talk](better://nb?cmd=scheduleCall)
 3) Fill me in on what role you currently play in your parent’s care
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: eldercare'}, text: MESSAGE.strip())
 
 MESSAGE = <<eof
-Welcome to Better, *|member_first_name|*! I’m here to help you and your family.
+Welcome to Better, *|member_first_name|*! I’m here to help.
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: eldercare'}, text: MESSAGE.strip())
 
 MESSAGE = <<eof
 Here are a few simple things I need to get started:
 
-1) [Add your parent’s information](better://nb?cmd=showProfile)
+1) [Add your parent’s information](better://nb?cmd=newProfile)
 2) Message me about your parent’s conditions or [schedule a time to talk](better://nb?cmd=scheduleCall)
-3) Fill me in on the role you play in your parent’s care?
+3) Tell me more about how I can help support you and your family
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: eldercare'}, text: MESSAGE.strip())
 
@@ -218,7 +217,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: eldercare'}
 NuxAnswer.upsert_attributes({name: 'medical question'}, text: 'Answering a medical question', phrase: 'answering a medical question', active: true, ordinal: 3)
 
 MESSAGE = <<eof
-Welcome to Better, *|member_first_name|*! I’ll be available *|pha_next_available|* to help answer your medical question. If you are experiencing any symptoms and would like to speak to an expert Mayo Clinic Nurse, tap the phone button above.
+Welcome to Better, *|member_first_name|*! I’ll be available *|pha_next_available|* to help answer your medical question.
 
 Here are a few simple things I need to get started:
 
@@ -235,8 +234,8 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: medical que
 MESSAGE = <<eof
 Here are a few simple things I need to get started:
 
-1) [Add your medical conditions to your health profile](better://nb?cmd=showMedicalInformation)
-2) Message me details about your medical question, or [schedule a time to talk](better://nb?cmd=scheduleCall)
+1) Message me details about your medical question, or [schedule a time to talk](better://nb?cmd=scheduleCall)
+2) [Add your medical conditions to your health profile](better://nb?cmd=showMedicalInformation)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: medical question'}, text: MESSAGE.strip())
 
