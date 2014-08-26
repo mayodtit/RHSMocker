@@ -94,6 +94,9 @@ Condition.find_or_create_by_name(name: "Diabetes mellitus mellitus type 2",
 Condition.find_or_create_by_name(name: "Dysthymia",
                                  snomed_name: "Dysthymia (disorder)",
                                  snomed_code: "819632011")
+Condition.find_or_create_by_name(name: "Ehlers-Danlos syndrome, type 3",
+                                 snomed_name: "Ehlers-Danlos syndrome, type 3 (disorder)",
+                                 snomed_code: "761685016")
 Condition.find_or_create_by_name(name: "Fatigue",
                                  snomed_name: "Chronic fatigue syndrome (disorder)",
                                  snomed_code: "790741013")
@@ -103,6 +106,9 @@ Condition.find_or_create_by_name(name: "Flu",
 Condition.find_or_create_by_name(name: "Fibromyositis",
                                  snomed_name: "Fibromyositis (disorder)",
                                  snomed_code: "754358015")
+Condition.find_or_create_by_name(name: "Gastroparesis",
+                                 snomed_name: "Gastroparesis (disorder)",
+                                 snomed_code: "624163010")
 Condition.find_or_create_by_name(name: "Gonorrhea",
                                  snomed_name: "Gonorrhea (disorder)",
                                  snomed_code: "742488016")
@@ -157,9 +163,6 @@ Condition.find_or_create_by_name(name: "Gastritis",
 Condition.find_or_create_by_name(name: "Gout",
                                  snomed_name: "Gout (disorder)",
                                  snomed_code: "833690019")
-Condition.find_or_create_by_name(name: "Type 2 Diabetes",
-                                 snomed_name: "Diabetes mellitus type 2",
-                                 snomed_code: "44054006")
 Condition.find_or_create_by_name(name: "Obesity",
                                  snomed_name: "Obesity",
                                  snomed_code: "414916001")
@@ -265,9 +268,15 @@ Condition.find_or_create_by_name(name: "Thyroid gland hematoma",
 Condition.find_or_create_by_name(name: "Thyroid gland blood clot",
                                  snomed_name: "Thyroid gland hematoma (disorder)",
                                  snomed_code: "654809011")
+Condition.find_or_create_by_name(name: "Traumatic brain injury",
+                                 snomed_name: "Traumatic brain injury (disorder)",
+                                 snomed_code: "731368015")
 Condition.find_or_create_by_name(name: "Type 1 diabetes mellitus with hypoglycemic coma",
                                  snomed_name: "Type 1 diabetes mellitus with hypoglycemic coma (disorder)",
                                  snomed_code: "711608018")
+Condition.find_or_create_by_name(name: "Type 2 Diabetes",
+                                 snomed_name: "Diabetes mellitus type 2",
+                                 snomed_code: "44054006")
 Condition.find_or_create_by_name(name: "Underactive Thyroid",
                                  snomed_name: "Hypothyroidism",
                                  snomed_code: "40930008")
