@@ -63,9 +63,7 @@ describe Api::V1::PingController do
         get :index, :auth_token => 'BAADBEEFDEADBEEF'
       end
 
-      context 'unauthenticated' do
-        it_behaves_like 'success'
-      end
+      it_behaves_like 'action requiring authentication'
 
       context 'authenticated', :user => :authenticate! do
         it_behaves_like 'success'

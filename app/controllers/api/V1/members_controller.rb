@@ -29,7 +29,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
     @member = Member.create create_attributes
     if @member.errors.empty?
       render_success user: @member.serializer,
-                     member: @member.serializer,
+                     member: @member.reload.serializer,
                      pha_profile: @member.pha.try(:pha_profile).try(:serializer),
                      auth_token: @member.auth_token
     else

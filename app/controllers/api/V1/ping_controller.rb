@@ -4,12 +4,6 @@ class Api::V1::PingController < Api::V1::ABaseController
   after_filter :store_gcm_id!, if: -> { params[:auth_token] }
   after_filter :store_device_information!, if: -> { params[:auth_token] }
 
-  def authentication_check
-    auth_token = params[:auth_token]
-    user = Member.find_by_auth_token(auth_token) if auth_token
-    auto_login(user) if user
-  end
-
   def index
     hash = {
       revision: REVISION,
