@@ -124,9 +124,10 @@ class User < ActiveRecord::Base
   end
 
   def gender_pronoun
-    if gender == 'M'
+    case gender.try(:downcase)
+    when 'm', 'male'
       'he'
-    elsif gender == 'F'
+    when 'f', 'female'
       'she'
     else
       'they'
