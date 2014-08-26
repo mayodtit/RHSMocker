@@ -2,7 +2,7 @@ OnboardingGroup.find_or_create_by_name(name: 'Generic 14-day trial onboarding gr
                                        premium: true,
                                        free_trial_days: 14)
 
-Metadata.find_or_create_by_mkey(mkey: 'nux_question_text', mvalue: 'You’re just two steps away from the experience of a Personal Health Assistant. What would you like to focus on during your free trial:')
+Metadata.upsert_attributes({mkey: 'nux_question_text'}, mvalue: 'You’re just two steps away from the experience of a Personal Health Assistant. What would you like to focus on during your free trial:')
 
 # Provider search --
 
@@ -242,7 +242,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: medical que
 
 # Losing some weight --
 
-NuxAnswer.upsert_attributes({name: 'weightloss'}, text: 'Losing some weight', phrase: 'losing some weight', active: false, ordinal: 2)
+NuxAnswer.upsert_attributes({name: 'weightloss'}, text: 'Losing some weight', phrase: 'losing some weight', active: true, ordinal: 2)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*. I’m available *|pha_next_available|* to create a plan for your weight loss goals.
