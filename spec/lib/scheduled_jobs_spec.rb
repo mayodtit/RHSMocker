@@ -239,21 +239,49 @@ describe ScheduledJobs do
   describe '#transition_scheduled_communications' do
     context 'with scheduled message' do
       let!(:scheduled_message) { create(:scheduled_message, publish_at: Time.now - 1.minute) }
+      let!(:future_scheduled_message) { create(:scheduled_message, publish_at: Time.now + 10.minute) }
 
       it 'sends scheduled messages in the past' do
         expect(scheduled_message.state?(:scheduled)).to be_true
         described_class.transition_scheduled_communications
         expect(scheduled_message.reload.state?(:delivered)).to be_true
+        future_scheduled_message.reload.should be_scheduled
+      end
+
+      it 'skips messages that have been delivered' do
+        ScheduledCommunication.any_instance.stub(:reload) {
+          scheduled_message.stub(:delivered?) { true }
+          scheduled_message
+        }
+
+        scheduled_message.should_not_receive(:deliver!)
+        described_class.transition_scheduled_communications
       end
     end
 
     context 'with held message' do
       let!(:scheduled_message) { create(:scheduled_message, :held, publish_at: Time.now - 1.minute) }
+      let!(:future_held_message) { create(:scheduled_message, publish_at: Time.now + 10.minute) }
+
+      before do
+        future_held_message.hold!
+      end
 
       it 'cancels held messages in the past' do
         expect(scheduled_message.state?(:held)).to be_true
         described_class.transition_scheduled_communications
         expect(scheduled_message.reload.state?(:canceled)).to be_true
+        future_held_message.reload.should be_held
+      end
+
+      it 'skips messages that have been held' do
+        ScheduledCommunication.any_instance.stub(:reload) {
+          scheduled_message.stub(:canceled?) { true }
+          scheduled_message
+        }
+
+        scheduled_message.should_not_receive(:cancel!)
+        described_class.transition_scheduled_communications
       end
     end
   end
