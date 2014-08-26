@@ -100,6 +100,9 @@ Condition.find_or_create_by_name(name: "Fatigue",
 Condition.find_or_create_by_name(name: "Flu",
                                  snomed_name: "Influenza (disorder)",
                                  snomed_code: "800481016")
+Condition.find_or_create_by_name(name: "Fibromyositis",
+                                 snomed_name: "Fibromyositis (disorder)",
+                                 snomed_code: "754358015")
 Condition.find_or_create_by_name(name: "Gonorrhea",
                                  snomed_name: "Gonorrhea (disorder)",
                                  snomed_code: "742488016")
@@ -208,6 +211,12 @@ Condition.find_or_create_by_name(name: "Prediabetes",
 Condition.find_or_create_by_name(name: "Postpartum depression",
                                  snomed_name: "Postpartum depression (disorder)",
                                  snomed_code: "797465010")
+Condition.find_or_create_by_name(name: "Postural orthostatic tachycardia syndrome",
+                                 snomed_name: "Postural orthostatic tachycardia syndrome (disorder)",
+                                 snomed_code: "1196369012")
+Condition.find_or_create_by_name(name: "POTS",
+                                 snomed_name: "Postural orthostatic tachycardia syndrome (disorder)",
+                                 snomed_code: "1196369012")
 Condition.find_or_create_by_name(name: "Rheumatoid arthritis",
                                  snomed_name: "Rheumatoid arthritis (disorder)",
                                  snomed_code: "809891012")
