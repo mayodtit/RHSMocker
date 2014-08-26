@@ -82,9 +82,15 @@ Condition.find_or_create_by_name(name: "Depressive Disorder",
 Condition.find_or_create_by_name(name: "Depression",
                                  snomed_name: "Depressive disorder",
                                  snomed_code: "35489007")
-Condition.find_or_create_by_name(name: "Diabetes",
-                                 snomed_name: "Diabetes mellitus",
-                                 snomed_code: "73211009")
+Condition.find_or_create_by_name(name: "Diabetes insipidus",
+                                 snomed_name: "Diabetes insipidus",
+                                 snomed_code: "742658019")
+Condition.find_or_create_by_name(name: "Diabetes mellitus mellitus type 1",
+                                 snomed_name: "Diabetes mellitus type 1 (disorder)",
+                                 snomed_code: "784006012")
+Condition.find_or_create_by_name(name: "Diabetes mellitus mellitus type 2",
+                                 snomed_name: "Diabetes mellitus type 2 (disorder)",
+                                 snomed_code: "781138016")
 Condition.find_or_create_by_name(name: "Dysthymia",
                                  snomed_name: "Dysthymia (disorder)",
                                  snomed_code: "819632011")
@@ -196,6 +202,9 @@ Condition.find_or_create_by_name(name: "Panic Attacks",
 Condition.find_or_create_by_name(name: "Pregnant",
                                  snomed_name: "Patient currently pregnant (finding)",
                                  snomed_code: "818210015")
+Condition.find_or_create_by_name(name: "Prediabetes",
+                                 snomed_name: "Impaired glucose tolerance (disorder)",
+                                 snomed_code: "838022018")
 Condition.find_or_create_by_name(name: "Postpartum depression",
                                  snomed_name: "Postpartum depression (disorder)",
                                  snomed_code: "797465010")
@@ -247,6 +256,9 @@ Condition.find_or_create_by_name(name: "Thyroid gland hematoma",
 Condition.find_or_create_by_name(name: "Thyroid gland blood clot",
                                  snomed_name: "Thyroid gland hematoma (disorder)",
                                  snomed_code: "654809011")
+Condition.find_or_create_by_name(name: "Type 1 diabetes mellitus with hypoglycemic coma",
+                                 snomed_name: "Type 1 diabetes mellitus with hypoglycemic coma (disorder)",
+                                 snomed_code: "711608018")
 Condition.find_or_create_by_name(name: "Underactive Thyroid",
                                  snomed_name: "Hypothyroidism",
                                  snomed_code: "40930008")
