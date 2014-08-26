@@ -128,7 +128,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: childcare'}
 NuxAnswer.upsert_attributes({name: 'choosing insurance'}, text: 'Choosing new insurance', phrase: 'choosing new insurance', active: true, ordinal: 6)
 
 MESSAGE = <<eof
-Welcome to Better, *|member_first_name|*! I’ll be available *|pha_next_available|* to help you choose new health insurance
+Welcome to Better, *|member_first_name|*! I’ll be available *|pha_next_available|* to help you choose new health insurance.
 
 Here are a few simple things I need to get started:
 
