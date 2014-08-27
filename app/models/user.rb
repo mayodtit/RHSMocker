@@ -123,6 +123,17 @@ class User < ActiveRecord::Base
     end
   end
 
+  def gender_pronoun
+    case gender.try(:downcase)
+    when 'm', 'male'
+      'he'
+    when 'f', 'female'
+      'she'
+    else
+      'they'
+    end
+  end
+
   def salutation
     first_name ? first_name : 'there'
   end

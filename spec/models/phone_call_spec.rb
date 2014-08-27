@@ -585,7 +585,8 @@ describe PhoneCall do
             to_role: @pha,
             state_event: :resolve,
             origin_twilio_sid: twilio_sid,
-            origin_status: PhoneCall::CONNECTED_STATUS
+            origin_status: PhoneCall::CONNECTED_STATUS,
+            creator: Member.robot
           )
 
           resolve
@@ -614,7 +615,8 @@ describe PhoneCall do
                 to_role: @pha,
                 state_event: :resolve,
                 origin_twilio_sid: twilio_sid,
-                origin_status: PhoneCall::CONNECTED_STATUS
+                origin_status: PhoneCall::CONNECTED_STATUS,
+                creator: member
               ) { phone_call }
               Message.stub(:create)
               resolve.should == phone_call
@@ -662,7 +664,8 @@ describe PhoneCall do
                 to_role: @pha,
                 state_event: :resolve,
                 origin_twilio_sid: twilio_sid,
-                origin_status: PhoneCall::CONNECTED_STATUS
+                origin_status: PhoneCall::CONNECTED_STATUS,
+                creator: Member.robot
               ) { phone_call }
 
               resolve.should == phone_call
@@ -763,7 +766,8 @@ describe PhoneCall do
                 to_role: @nurse,
                 state_event: nil,
                 origin_twilio_sid: twilio_sid,
-                origin_status: PhoneCall::CONNECTED_STATUS
+                origin_status: PhoneCall::CONNECTED_STATUS,
+                creator: member
               ) { phone_call }
               Message.stub(:create)
               resolve(@nurse).should == phone_call
@@ -986,6 +990,7 @@ describe PhoneCall do
   describe '#transfer!' do
     let(:phone_call) { build :phone_call }
     let(:nurseline_phone_call) { build :phone_call, to_role: @nurse }
+    let(:nurse) { build_stubbed :nurse }
 
     before do
       PhoneCall.stub(:create!) { nurseline_phone_call }
@@ -1002,16 +1007,17 @@ describe PhoneCall do
         to_role: @nurse,
         origin_twilio_sid: phone_call.origin_twilio_sid,
         twilio_conference_name: phone_call.twilio_conference_name,
-        origin_status: PhoneCall::CONNECTED_STATUS
+        origin_status: PhoneCall::CONNECTED_STATUS,
+        creator: nurse
       )
 
-      phone_call.transfer!
+      phone_call.transfer! nurse
       phone_call.transferred_to_phone_call.should == nurseline_phone_call
     end
 
     it 'dials the destination' do
       nurseline_phone_call.should_receive :dial_destination
-      phone_call.transfer!
+      phone_call.transfer! nurse
     end
 
     context 'user does not exist' do
@@ -1046,7 +1052,7 @@ describe PhoneCall do
             condition_id: phone_call.message.condition_id,
           )
 
-          phone_call.transfer!
+          phone_call.transfer! nurse
         end
       end
 
@@ -1390,11 +1396,6 @@ describe PhoneCall do
           before do
             phone_call.stub(:user_id_changed?) { false }
           end
-
-          it 'does nothing' do
-            Message.should_not_receive(:create!)
-            phone_call.create_message_if_user_updated
-          end
         end
 
         context 'user was changed' do
@@ -1425,24 +1426,64 @@ describe PhoneCall do
                 phone_call.user.stub(:master_consult) { consult }
               end
 
-              it 'creates a message' do
-                Message.should_receive(:create!).with(
-                  user: phone_call.user,
-                  consult: consult,
-                  phone_call_id: phone_call.id
-                )
+              context 'phone call is outbound' do
+                before do
+                  phone_call.stub(:outbound?) { true }
+                end
 
-                phone_call.create_message_if_user_updated
+                context 'user phone is destination phone number' do
+                  before do
+                    phone_call.user.stub(:phone) { '911' }
+                    phone_call.stub(:destination_phone_number) { '911' }
+                  end
+
+                  it 'creates a message' do
+                    Message.should_receive(:create!).with(
+                      user: phone_call.user,
+                      consult: consult,
+                      phone_call_id: phone_call.id
+                    )
+
+                    phone_call.create_message_if_user_updated
+                  end
+                end
+
+                context 'user phone is not destination phone number' do
+                  before do
+                    phone_call.user.stub(:phone) { '911' }
+                    phone_call.stub(:destination_phone_number) { '311' }
+                  end
+
+                  it 'does nothing' do
+                    Message.should_not_receive(:create!)
+                    phone_call.create_message_if_user_updated
+                  end
+                end
+              end
+
+              context 'phone call is not outbound' do
+                before do
+                  phone_call.stub(:outbound?) { false }
+                end
+
+                it 'creates a message' do
+                  Message.should_receive(:create!).with(
+                    user: phone_call.user,
+                    consult: consult,
+                    phone_call_id: phone_call.id
+                  )
+
+                  phone_call.create_message_if_user_updated
+                end
               end
             end
 
             context 'user does not have a master consult' do
-
               before do
                 phone_call.user.stub(:master_consult) { nil }
               end
 
-              it 'creates a message' do
+              it 'does nothing' do
                 Message.should_not_receive(:create!)
                 phone_call.create_message_if_user_updated
               end

@@ -22,6 +22,7 @@ describe Member do
     it_validates 'foreign key of', :pha
     it_validates 'foreign key of', :onboarding_group
     it_validates 'foreign key of', :referral_code
+    it_validates 'foreign key of', :nux_answer
     it_validates 'allows blank uniqueness of', :apns_token
     it_validates 'allows blank uniqueness of', :gcm_id
 

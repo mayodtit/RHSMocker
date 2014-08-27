@@ -49,14 +49,122 @@ describe Consult do
 
           before do
             Metadata.stub(:new_onboarding_flow?) { true }
+            MessageTemplate.stub(:find_by_name) { nil }
           end
 
-          it 'creates a message from a template' do
-            MessageTemplate.stub(:find_by_name).with('New Premium Member') { message_template }
-            message_template.should_receive(:create_message).and_call_original
-            consult = create :consult, initiator: member
-            consult.reload
-            consult.messages.count.should == 1
+          context 'member answered a nux question' do
+            let!(:nux_answer) { create :nux_answer }
+
+            before do
+              member.nux_answer = nux_answer
+              member.save!
+            end
+
+            context 'phas on call' do
+              before do
+                Role.stub(:pha) do
+                  o = Object.new
+                  o.stub(:on_call?) { true }
+                  o
+                end
+                Timecop.freeze()
+              end
+
+              after do
+                Timecop.return()
+              end
+
+              it 'creates a message from a template' do
+                MessageTemplate.stub(:find_by_name).with("New Premium Member Part 1: #{nux_answer.name}") { message_template }
+                message_template.should_receive(:create_message).with(pha, instance_of(Consult), true).and_call_original
+                consult = create :consult, initiator: member
+                consult.reload
+                consult.messages.count.should == 1
+              end
+
+              it 'creates a delayed job to create a second message' do
+                Metadata.stub(:new_signup_second_message_delay) { 10 }
+                MessageTemplate.stub(:find_by_name).with("New Premium Member Part 2: #{nux_answer.name}") { message_template }
+                message_template.should_receive(:delay).with(run_at: 10.seconds.from_now) do
+                  o = Object.new
+                  o.should_receive(:create_message).with(pha, instance_of(Consult))
+                  o
+                end
+                consult = create :consult, initiator: member
+              end
+            end
+
+            context 'phas not on call' do
+              before do
+                Role.stub(:pha) do
+                  o = Object.new
+                  o.stub(:on_call?) { false }
+                  o
+                end
+              end
+
+              it 'creates a message from a template' do
+                MessageTemplate.stub(:find_by_name).with("New Premium Member Off Hours: #{nux_answer.name}") { message_template }
+                message_template.should_receive(:create_message).with(pha, instance_of(Consult), true, false, true).and_call_original
+                consult = create :consult, initiator: member
+                consult.reload
+                consult.messages.count.should == 1
+              end
+            end
+          end
+
+          context 'member didn\'t answer a nux question' do
+            context 'phas on call' do
+              before do
+                Role.stub(:pha) do
+                  o = Object.new
+                  o.stub(:on_call?) { true }
+                  o
+                end
+                Timecop.freeze()
+              end
+
+              after do
+                Timecop.return()
+              end
+
+              it 'creates a message from a template' do
+                MessageTemplate.stub(:find_by_name).with("New Premium Member Part 1: something else") { message_template }
+                message_template.should_receive(:create_message).with(pha, instance_of(Consult), true).and_call_original
+                consult = create :consult, initiator: member
+                consult.reload
+                consult.messages.count.should == 1
+              end
+
+              it 'creates a delayed job to create a second message' do
+                Metadata.stub(:new_signup_second_message_delay) { 10 }
+                MessageTemplate.stub(:find_by_name).with("New Premium Member Part 2: something else") { message_template }
+                message_template.should_receive(:delay).with(run_at: 10.seconds.from_now) do
+                  o = Object.new
+                  o.should_receive(:create_message).with(pha, instance_of(Consult))
+                  o
+                end
+                consult = create :consult, initiator: member
+              end
+            end
+
+            context 'phas not on call' do
+              before do
+                Role.stub(:pha) do
+                  o = Object.new
+                  o.stub(:on_call?) { false }
+                  o
+                end
+              end
+
+              it 'creates a message from a template' do
+                MessageTemplate.stub(:find_by_name).with("New Premium Member Off Hours: something else") { message_template }
+                message_template.should_receive(:create_message).with(pha, instance_of(Consult), true, false, true).and_call_original
+                consult = create :consult, initiator: member
+                consult.reload
+                consult.messages.count.should == 1
+              end
+            end
           end
         end
       end

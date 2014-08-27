@@ -1,6 +1,7 @@
 FactoryGirl.define do
   factory :phone_call do
     association :user, factory: :member
+    association :creator, factory: :member
     association :to_role, factory: :role
     message { association(:message, :user => user) }
     origin_phone_number "5558888888"

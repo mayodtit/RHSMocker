@@ -65,6 +65,9 @@ Metadata dynamically controls variables and features in the API without needing 
 | *offboard_free_trial_start_date*       | MM/DD/YYYY             | Only free trial members that signed up after this date are offboarded. When unset, offboarding is halted. |
 | *offboard_expired_members*  | true/false             | When "true", starts the offboarding flow for members who's subscription has expired |
 | *ignore_events_from_test_users*  | true/false        | When "true", does not create RemoteEvents for test users (email ending with getbetter.com or example.com) |
+| *automated_onboarding* | true/false | When "true", uses automated onboarding communication workflow for new members |
+| *automated_offboarding* | true/false | When "true", uses automated offboarding communication workflow for expiring members |
+| *new_signup_second_message_delay* | integer | Number of seconds to delay the 2nd message after sign up |
 
 ## Development
 

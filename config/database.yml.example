@@ -6,8 +6,7 @@ default: &default
 development:
   <<: *default
   database: rhs_development
-  username: rhs_development
-  password: password
+  username: root
   host: localhost
 
 test:

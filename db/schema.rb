@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140814202135) do
+ActiveRecord::Schema.define(:version => 20140824182511) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -406,6 +406,16 @@ ActiveRecord::Schema.define(:version => 20140814202135) do
     t.datetime "disabled_at"
   end
 
+  create_table "nux_answers", :force => true do |t|
+    t.text     "name"
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
+    t.text     "text"
+    t.boolean  "active",     :default => true, :null => false
+    t.integer  "ordinal"
+    t.text     "phrase"
+  end
+
   create_table "onboarding_group_cards", :force => true do |t|
     t.integer  "onboarding_group_id"
     t.integer  "resource_id"
@@ -455,12 +465,13 @@ ActiveRecord::Schema.define(:version => 20140814202135) do
   create_table "pha_profiles", :force => true do |t|
     t.integer  "user_id"
     t.string   "bio_image"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
     t.text     "bio"
     t.integer  "weekly_capacity"
     t.integer  "capacity_weight"
     t.boolean  "mayo_pilot"
+    t.string   "full_page_bio_image"
   end
 
   create_table "phone_call_summaries", :force => true do |t|
@@ -497,6 +508,7 @@ ActiveRecord::Schema.define(:version => 20140814202135) do
     t.string   "destination_status"
     t.boolean  "outbound",                     :default => false, :null => false
     t.integer  "merged_into_phone_call_id"
+    t.integer  "creator_id"
   end
 
   add_index "phone_calls", ["claimer_id"], :name => "index_phone_calls_on_claimer_id"
@@ -1003,6 +1015,7 @@ ActiveRecord::Schema.define(:version => 20140814202135) do
     t.string   "device_app_build"
     t.string   "device_timezone"
     t.boolean  "device_notifications_enabled"
+    t.integer  "nux_answer_id"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true

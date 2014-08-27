@@ -94,6 +94,34 @@ resource "PhoneCalls" do
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
         phone_call = PhoneCall.find(body[:phone_call][:id])
+        phone_call.user.last_contact_at = nil
+        expect(body[:phone_call].to_json).to eq(phone_call.serializer.as_json.to_json)
+      end
+    end
+  end
+
+  describe 'create outbound phone call' do
+    parameter :auth_token, "HCP's auth_token"
+    parameter :user_id, "HCP's phone number"
+    parameter :destination_phone_number, "Destination's phone number"
+    required_parameters :auth_token, :user_id, :destination_phone_number
+
+    let!(:user) { create(:member) }
+    let(:auth_token) { pha.auth_token }
+    let(:user_id) { user.id }
+    let(:destination_phone_number) { '5553334444' }
+    let(:raw_post) { params.to_json }
+    scope_parameters :phone_call, %i(user_id destination_phone_number)
+
+    post '/api/v1/phone_calls/outbound' do
+      example_request '[POST] Create a phone call' do
+        explanation 'Create a new phone call'
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        phone_call = PhoneCall.find(body[:phone_call][:id])
+        phone_call.should be_outbound
+        phone_call.user.should == user
+        phone_call.destination_phone_number.should == '5553334444'
         expect(body[:phone_call].to_json).to eq(phone_call.serializer.as_json.to_json)
       end
     end

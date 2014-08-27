@@ -14,7 +14,9 @@ class MemberSerializer < ActiveModel::Serializer
              :has_master_consult, :subscription_end_date, :subscription_ends_at,
              :invitation_url, :signed_up_at, :has_welcome_call, :device_app_version,
              :device_app_build, :device_timezone, :device_notifications_enabled,
-             :device_os, :status
+             :device_os, :status, :meet_your_pha_text
+
+  has_one :nux_answer
 
   def attributes
     if options[:shallow]
@@ -129,5 +131,9 @@ class MemberSerializer < ActiveModel::Serializer
 
   def address
     object.addresses.first
+  end
+
+  def meet_your_pha_text
+    "#{object.pha.try(:first_name)} will be your Personal Health Assistant. #{object.pha.try(:gender_pronoun).try(:titleize)}’ll start by helping you with #{object.nux_answer.try(:phrase) || 'your health needs'}."
   end
 end

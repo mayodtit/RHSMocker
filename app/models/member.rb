@@ -61,6 +61,7 @@ class Member < User
                                                 as: :reference
   accepts_nested_attributes_for :user_agreements
   attr_accessor :skip_agreement_validation
+  belongs_to :nux_answer
 
   attr_accessible :install_id, :password, :password_confirmation,
                   :holds_phone_in, :invitation_token, :units,
@@ -74,7 +75,8 @@ class Member < User
                   :owned_referral_code,
                   :status, :status_event, :gcm_id, :device_app_version,
                   :device_app_build, :device_timezone,
-                  :device_notifications_enabled, :device_os
+                  :device_notifications_enabled, :device_os,
+                  :nux_answer_id, :nux_answer
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
@@ -94,6 +96,7 @@ class Member < User
   validates :gcm_id, uniqueness: true, allow_nil: true
   validates :onboarding_group, presence: true, if: ->(m){m.onboarding_group_id}
   validates :referral_code, presence: true, if: ->(m){m.referral_code_id}
+  validates :nux_answer, presence: true, if: -> (m) { m.nux_answer_id }
 
   before_validation :set_owner
   before_validation :set_member_flag
@@ -301,6 +304,10 @@ class Member < User
     else
       :free
     end
+  end
+
+  def time_zone
+    member.device_timezone ? ActiveSupport::TimeZone.new(member.device_timezone) : nil
   end
 
   protected
