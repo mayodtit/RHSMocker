@@ -17,7 +17,6 @@ describe PhaProfile do
     it_validates 'presence of', :user
     it_validates 'numericality of', :capacity_weight
     it_validates 'integer numericality of', :capacity_weight
-    it_validates 'inclusion of', :mayo_pilot
   end
 
   describe '::with_capcity' do
@@ -66,7 +65,7 @@ describe PhaProfile do
     end
 
     context 'mayo_pilot' do
-      let!(:mayo_pha_profile) { create(:pha_profile, mayo_pilot: true) }
+      let!(:mayo_pha_profile) { create(:pha_profile, mayo_pilot_capacity_weight: 100) }
 
       it 'returns a pha_profile of a pha with mayo_pilot set' do
         expect(described_class.next_pha_profile(true)).to eq(mayo_pha_profile)
