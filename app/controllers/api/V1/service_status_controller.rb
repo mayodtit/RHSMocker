@@ -12,7 +12,9 @@ class Api::V1::ServiceStatusController < Api::V1::ABaseController
   def online_hash
     {
       status: :online,
-      status_message: 'ONLINE'
+      status_message: 'ONLINE',
+      background_top_color: 'e1e2e2',
+      background_bottom_color: 'e1e2e2'
     }
   end
 
@@ -20,7 +22,13 @@ class Api::V1::ServiceStatusController < Api::V1::ABaseController
     {
       status: :offline,
       status_message: 'OFFLINE',
-      message: 'The PHA service is currently unavailable'
+      message: "Our PHA team is currently offline and will get back to you " +
+               "shortly.\n\n" +
+               "If this is an emergency, call 911.\n\n" +
+               "Tap the phone button above to connect to the Mayo Clinic " +
+               "Nurse Line.",
+      background_top_color: '223351',
+      background_bottom_color: '7da5a0'
     }
   end
 end
