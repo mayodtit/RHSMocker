@@ -61,7 +61,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def pha_profile
-    params.require(:pha_profile).permit(:user_id, :bio_image, :bio, :weekly_capacity, :capacity_weight, :mayo_pilot)
+    params.require(:pha_profile).permit(:user_id, :bio_image, :bio, :weekly_capacity, :capacity_weight, :mayo_pilot_capacity_weight)
   end
 
   def scheduled_message
