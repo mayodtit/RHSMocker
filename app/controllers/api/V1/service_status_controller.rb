@@ -1,6 +1,10 @@
 class Api::V1::ServiceStatusController < Api::V1::ABaseController
   def index
-    if Role.pha.on_call?
+    if !Rails.env.production? && (params[:force_status] == :online)
+      render_success(service_status: online_hash)
+    elsif !Rails.env.production? && (params[:force_status] == :offline)
+      render_success(service_status: offline_hash)
+    elsif Role.pha.on_call?
       render_success(service_status: online_hash)
     else
       render_success(service_status: offline_hash)

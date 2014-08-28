@@ -20,10 +20,12 @@ resource "ServiceStatus" do
     let!(:time) { Time.now }
     let!(:timezone) { time.zone }
     let!(:timezone_offset) { time.utc_offset }
+    let!(:force_status) { nil }
 
     parameter :time, 'optional client time'
     parameter :timezone, 'optional client timezone'
     parameter :timezone_offset, 'optional client timezone offset'
+    parameter :force_status, "optional force status, one of ['online', 'offline'], only available in non-production"
 
     context 'online' do
       before do
