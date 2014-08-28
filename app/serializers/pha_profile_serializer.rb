@@ -3,5 +3,5 @@ class PhaProfileSerializer < ActiveModel::Serializer
 
   has_one :user
   attributes :id, :user_id, :bio_image_url, :bio, :weekly_capacity,
-             :capacity_weight, :mayo_pilot, :full_page_bio_image_url
+             :capacity_weight, :full_page_bio_image_url
 end

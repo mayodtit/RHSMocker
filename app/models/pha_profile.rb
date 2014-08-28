@@ -4,19 +4,14 @@ class PhaProfile < ActiveRecord::Base
   mount_uploader :full_page_bio_image, PhaProfileFullPageBioImageUploader
 
   attr_accessible :user, :user_id, :bio_image, :full_page_bio_image, :bio, :weekly_capacity,
-                  :capacity_weight, :mayo_pilot
+                  :capacity_weight
 
   validates :user, presence: true
   validates :capacity_weight, numericality: {only_integer: true,
                                              greater_than_or_equal_to: 0,
                                              less_than_or_equal_to: 100}
-  validates :mayo_pilot, inclusion: {in: [true, false]}
 
   before_validation :set_defaults
-
-  def self.mayo_pilot
-    where(mayo_pilot: true)
-  end
 
   def self.with_capacity
     all.each.reject{|p| p.max_capacity?}
@@ -24,8 +19,7 @@ class PhaProfile < ActiveRecord::Base
 
   def self.next_pha_profile(pilot=false)
     capacity_hash = {}
-    search_scope = pilot ? mayo_pilot.with_capacity : with_capacity
-    capacity_total = search_scope.inject(0) do |sum, profile|
+    capacity_total = with_capacity.inject(0) do |sum, profile|
       if profile.capacity_weight > 0
         sum += profile.capacity_weight
         capacity_hash[sum] = profile
@@ -64,7 +58,6 @@ class PhaProfile < ActiveRecord::Base
 
   def set_defaults
     self.capacity_weight ||= 0
-    self.mayo_pilot = false if mayo_pilot.nil?
     true
   end
 
