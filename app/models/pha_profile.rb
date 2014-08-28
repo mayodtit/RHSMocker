@@ -4,12 +4,12 @@ class PhaProfile < ActiveRecord::Base
   mount_uploader :full_page_bio_image, PhaProfileFullPageBioImageUploader
 
   attr_accessible :user, :user_id, :bio_image, :full_page_bio_image, :bio, :weekly_capacity,
-                  :capacity_weight
+                  :capacity_weight, :mayo_pilot_capacity_weight
 
   validates :user, presence: true
-  validates :capacity_weight, numericality: {only_integer: true,
-                                             greater_than_or_equal_to: 0,
-                                             less_than_or_equal_to: 100}
+  validates :capacity_weight, :mayo_pilot_capacity_weight, numericality: {only_integer: true,
+                                                                          greater_than_or_equal_to: 0,
+                                                                          less_than_or_equal_to: 100}
 
   before_validation :set_defaults
 
@@ -20,8 +20,9 @@ class PhaProfile < ActiveRecord::Base
   def self.next_pha_profile(pilot=false)
     capacity_hash = {}
     capacity_total = with_capacity.inject(0) do |sum, profile|
-      if profile.capacity_weight > 0
-        sum += profile.capacity_weight
+      current_weight = pilot ? profile.mayo_pilot_capacity_weight : profile.capacity_weight
+      if current_weight > 0
+        sum += current_weight
         capacity_hash[sum] = profile
       end
       sum
@@ -58,6 +59,7 @@ class PhaProfile < ActiveRecord::Base
 
   def set_defaults
     self.capacity_weight ||= 0
+    self.mayo_pilot_capacity_weight ||= 0
     true
   end
 

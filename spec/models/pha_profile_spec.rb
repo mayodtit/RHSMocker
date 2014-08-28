@@ -63,6 +63,14 @@ describe PhaProfile do
         expect(described_class.next_pha_profile).to eq(other_pha_profile)
       end
     end
+
+    context 'mayo_pilot' do
+      let!(:mayo_pha_profile) { create(:pha_profile, mayo_pilot_capacity_weight: 100) }
+
+      it 'returns a pha_profile of a pha with mayo_pilot set' do
+        expect(described_class.next_pha_profile(true)).to eq(mayo_pha_profile)
+      end
+    end
   end
 
   describe '#max_capacity?' do
