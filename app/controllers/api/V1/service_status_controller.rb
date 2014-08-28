@@ -11,13 +11,15 @@ class Api::V1::ServiceStatusController < Api::V1::ABaseController
 
   def online_hash
     {
-      status: :online
+      status: :online,
+      status_message: 'ONLINE'
     }
   end
 
   def offline_hash
     {
       status: :offline,
+      status_message: 'OFFLINE',
       message: 'The PHA service is currently unavailable'
     }
   end
