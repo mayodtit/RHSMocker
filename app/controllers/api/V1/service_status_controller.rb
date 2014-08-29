@@ -26,8 +26,8 @@ class Api::V1::ServiceStatusController < Api::V1::ABaseController
     {
       status: :offline,
       status_message: 'OFFLINE',
-      message: "Our PHA team is currently offline and will get back to you " +
-               "shortly.\n\n" +
+      message: "Our PHA team is currently offline, but send them a message " +
+               "and they will get back to you shortly.\n\n" +
                "If this is an emergency, call 911.\n\n" +
                "Tap the phone button above to connect to the Mayo Clinic " +
                "Nurse Line.",
