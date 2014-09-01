@@ -1,8 +1,8 @@
 .pha_profile
   .content
-    - if @pha_profile.bio_image_url
+    - if @pha_profile.full_page_bio_image_url
       .img
-        = image_tag(@pha_profile.bio_image_url)
+        = image_tag(@pha_profile.full_page_bio_image_url)
 
     - if @pha_profile.bio
       %p= @pha_profile.bio

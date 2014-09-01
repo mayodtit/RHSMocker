@@ -112,4 +112,8 @@ PHA_ATTRIBUTES.each do |attributes|
     image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:arrow_image]))
     m.pha_profile.update_attributes(bio_image: image)
   end
+  unless m.pha_profile.full_page_bio_image_url
+    image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:bio_image]))
+    m.pha_profile.update_attributes(full_page_bio_image: image)
+  end
 end

@@ -91,6 +91,7 @@ RHSMocker::Application.routes.draw do
       resources :provider_call_logs, only: :create
       resources :side_effects, :only => :index
       post :signup, to: 'members#create', as: :signup # TODO - deprecated!
+      resources :service_status, only: :index
       resources :symptoms, only: :index do
         resources :factor_groups, only: :index
         resources :contents, only: :index, controller: :symptom_contents

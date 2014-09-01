@@ -210,6 +210,14 @@ describe Member do
         end
       end
     end
+
+    describe '#notify_pha_of_upgrade' do
+      let!(:member) { create(:member, :trial) }
+
+      it 'creates an UpgradeTask for PHAs' do
+        expect{ member.upgrade! }.to change(UpgradeTask, :count).by(1)
+      end
+    end
   end
 
   describe 'states' do
