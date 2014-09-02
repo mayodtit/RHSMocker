@@ -106,7 +106,7 @@ class Ability
         o.to_pha?
       end
 
-      can :ru, ScheduledPhoneCall
+      can :manage, ScheduledPhoneCall
       can :index, ScheduledPhoneCall
       can :create, Card
       can :manage, ScheduledMessage
@@ -115,7 +115,6 @@ class Ability
     end
 
     if user.pha_lead?
-      can :manage, ScheduledPhoneCall
       can :manage, PhaProfile
     end
 
