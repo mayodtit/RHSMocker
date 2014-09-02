@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140828225638) do
+ActiveRecord::Schema.define(:version => 20140902085255) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -679,6 +679,21 @@ ActiveRecord::Schema.define(:version => 20140828225638) do
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
     t.integer  "service_template_id"
+  end
+
+  create_table "sessions", :force => true do |t|
+    t.integer  "member_id"
+    t.string   "auth_token"
+    t.string   "device_id"
+    t.string   "apns_token"
+    t.string   "gcm_id"
+    t.string   "device_os"
+    t.string   "device_app_version"
+    t.string   "device_app_build"
+    t.string   "device_timezone"
+    t.boolean  "device_notifications_enabled"
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
   end
 
   create_table "side_effects", :force => true do |t|
