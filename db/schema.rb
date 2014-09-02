@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140902170140) do
+ActiveRecord::Schema.define(:version => 20140902180303) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -982,11 +982,9 @@ ActiveRecord::Schema.define(:version => 20140902170140) do
     t.datetime "created_at",                                                       :null => false
     t.datetime "updated_at",                                                       :null => false
     t.string   "avatar"
-    t.string   "install_id",                      :limit => 36
     t.string   "email"
     t.string   "phone"
     t.string   "crypted_password"
-    t.string   "auth_token"
     t.string   "salt"
     t.string   "reset_password_token"
     t.datetime "reset_password_token_expires_at"
@@ -994,7 +992,6 @@ ActiveRecord::Schema.define(:version => 20140902170140) do
     t.integer  "ethnic_group_id"
     t.integer  "diet_id"
     t.string   "blood_type"
-    t.string   "holds_phone_in"
     t.string   "npi_number",                      :limit => 10
     t.date     "date_of_death"
     t.string   "expertise"
@@ -1015,7 +1012,6 @@ ActiveRecord::Schema.define(:version => 20140902170140) do
     t.string   "provider_taxonomy_code"
     t.integer  "owner_id"
     t.integer  "pha_id"
-    t.string   "apns_token"
     t.datetime "free_trial_ends_at"
     t.datetime "last_contact_at"
     t.datetime "signed_up_at"
@@ -1024,12 +1020,6 @@ ActiveRecord::Schema.define(:version => 20140902170140) do
     t.integer  "referral_code_id"
     t.boolean  "on_call",                                       :default => false
     t.string   "status"
-    t.string   "gcm_id"
-    t.string   "device_os"
-    t.string   "device_app_version"
-    t.string   "device_app_build"
-    t.string   "device_timezone"
-    t.boolean  "device_notifications_enabled"
     t.integer  "nux_answer_id"
     t.string   "time_zone"
   end

@@ -64,19 +64,17 @@ class Member < User
   attr_accessor :skip_agreement_validation
   belongs_to :nux_answer
 
-  attr_accessible :install_id, :password, :password_confirmation,
-                  :holds_phone_in, :invitation_token, :units,
+  attr_accessible :password, :password_confirmation,
+                  :invitation_token, :units,
                   :user_agreements_attributes, :pha, :pha_id,
-                  :apns_token, :is_premium, :free_trial_ends_at,
+                  :is_premium, :free_trial_ends_at,
                   :last_contact_at,
                   :skip_agreement_validation, :signed_up_at,
                   :subscription_ends_at,
                   :onboarding_group, :onboarding_group_id,
                   :referral_code, :referral_code_id, :on_call,
                   :owned_referral_code,
-                  :status, :status_event, :gcm_id, :device_app_version,
-                  :device_app_build, :device_timezone,
-                  :device_notifications_enabled, :device_os,
+                  :status, :status_event,
                   :nux_answer_id, :nux_answer, :time_zone
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
@@ -93,8 +91,6 @@ class Member < User
   validates :terms_of_service_and_privacy_policy, acceptance: {accept: true},
                                                   if: ->(m){!skip_agreement_validation && (m.signed_up? || m.password)}
   validate :owner_is_self
-  validates :apns_token, uniqueness: true, allow_nil: true
-  validates :gcm_id, uniqueness: true, allow_nil: true
   validates :onboarding_group, presence: true, if: ->(m){m.onboarding_group_id}
   validates :referral_code, presence: true, if: ->(m){m.referral_code_id}
   validates :nux_answer, presence: true, if: -> (m) { m.nux_answer_id }
@@ -108,7 +104,6 @@ class Member < User
   before_validation :unset_invitation_token
   before_validation :set_pha, if: ->(m){m.is_premium? && m.status_changed?}
   before_validation :set_master_consult, if: ->(m){m.is_premium? && m.status_changed?}
-  before_create :set_auth_token # generate inital auth_token
   after_create :add_new_member_content
   after_create :add_owned_referral_code
   after_create :add_onboarding_group_provider
@@ -220,14 +215,6 @@ class Member < User
     is_premium? || status?(:free)
   end
 
-  def login
-    update_attribute :auth_token, Base64.urlsafe_encode64(SecureRandom.base64(36))
-  end
-
-  def logout
-    update_attribute(:auth_token, nil)
-  end
-
   def invite! invitation
     return if signed_up?
     update_attributes!(invitation_token: invitation.token)
@@ -250,24 +237,6 @@ class Member < User
   def terms_of_service_and_privacy_policy
     return true unless Agreement.active
     user_agreements.map(&:agreement_id).include? Agreement.active.id
-  end
-
-  def store_apns_token!(token)
-    if apns_token != token
-      transaction do
-        Member.where(apns_token: token).update_all(apns_token: nil)
-        update_attributes!(apns_token: token)
-      end
-    end
-  end
-
-  def store_gcm_id!(new_gcm_id)
-    if gcm_id != new_gcm_id
-      transaction do
-        Member.where(gcm_id: new_gcm_id).update_all(gcm_id: nil)
-        update_attributes!(gcm_id: new_gcm_id)
-      end
-    end
   end
 
   def alert_stakeholders_on_call_status
@@ -411,13 +380,6 @@ class Member < User
     master_consult || build_master_consult(subject: self,
                                            title: 'Direct messaging with your Better PHA',
                                            skip_tasks: true)
-  end
-
-  def set_auth_token
-    self.auth_token ||= loop do
-      new_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
-      break new_token unless self.class.exists?(auth_token: new_token)
-    end
   end
 
   def add_new_member_content
