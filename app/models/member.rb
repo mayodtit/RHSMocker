@@ -77,7 +77,7 @@ class Member < User
                   :status, :status_event, :gcm_id, :device_app_version,
                   :device_app_build, :device_timezone,
                   :device_notifications_enabled, :device_os,
-                  :nux_answer_id, :nux_answer
+                  :nux_answer_id, :nux_answer, :time_zone
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
@@ -309,7 +309,7 @@ class Member < User
   end
 
   def time_zone
-    member.device_timezone ? ActiveSupport::TimeZone.new(member.device_timezone) : nil
+    read_attribute(:time_zone) ? ActiveSupport::TimeZone.new(read_attribute(:time_zone)) : nil
   end
 
   protected
