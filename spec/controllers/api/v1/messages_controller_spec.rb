@@ -1,126 +1,52 @@
 require 'spec_helper'
 
 describe Api::V1::MessagesController do
-  let(:user) { build_stubbed(:member) }
-  let(:ability) { Object.new.extend(CanCan::Ability) }
-  let(:message) { build_stubbed(:message) }
-  let(:consult) { message.consult }
-
-  before do
-    controller.stub(current_ability: ability)
-    Consult.stub(find: consult)
-  end
-
-  describe 'GET index' do
-    before do
-      consult.stub(messages: [message])
-      consult.stub_chain(:users, :to_a, :uniq).and_return([message.user])
-    end
-
-    context 'current consult for user' do
-      def do_request
-        get :index, consult_id: 'current'
-      end
-
-      before do
-        user.stub(master_consult: consult)
-      end
-
-      it_behaves_like 'action requiring authentication and authorization'
-      context 'authenticated and authorized', user: :authenticate_and_authorize! do
-        it_behaves_like 'success'
-
-        it 'returns an array of messages' do
-          do_request
-          body = JSON.parse(response.body, symbolize_names: true)
-          expect(body[:messages].to_json).to eq([message].serializer(shallow: true).as_json.to_json)
-        end
-      end
-    end
-
-    context 'with consult_id' do
-      def do_request
-        get :index
-      end
-
-      it_behaves_like 'action requiring authentication and authorization'
-      context 'authenticated and authorized', user: :authenticate_and_authorize! do
-        it_behaves_like 'success'
-
-        it 'returns an array of messages' do
-          do_request
-          body = JSON.parse(response.body, symbolize_names: true)
-          expect(body[:messages].to_json).to eq([message].serializer(shallow: true).as_json.to_json)
-        end
-      end
-    end
-  end
-
-  describe 'POST create' do
-    def do_request(params={text: 'text'})
-      post :create, message: params
-    end
-
-    let(:messages) { double('messages', create: message) }
+  describe '#needs_off_hours_response' do
+    let!(:member) { create(:member, :premium) }
+    let(:consult) { member.master_consult }
 
     before do
-      consult.stub(messages: messages)
+      controller.stub(current_user: member,
+                      consult: consult)
+      controller.instance_variable_set('@consult', consult)
+      Role.stub_chain(:pha, :on_call?).and_return(false)
+      Timecop.freeze(Time.new(2014, 8, 29, 12, 0, 0, '-07:00'))
     end
 
-    it_behaves_like 'action requiring authentication and authorization'
+    after do
+      Timecop.return
+    end
 
-    context 'authenticated and authorized', user: :authenticate_and_authorize! do
-      context 'save fails' do
-        before do
-          message.errors.add(:base, :invalid)
-        end
+    def send_method
+      controller.send(:needs_off_hours_response?)
+    end
 
-        it_behaves_like 'failure'
-      end
+    it 'returns true under default conditions' do
+      expect(send_method).to be_true
+    end
 
-      context 'send robot response is true' do
-        before do
-          controller.stub(:send_robot_response?) { true }
-        end
+    it 'returns false if PHAs are on call' do
+      Role.stub_chain(:pha, :on_call?).and_return(true)
+      expect(send_method).to be_false
+    end
 
-        it 'attempts to create the record' do
-          controller.should_receive(:send_robot_response!).and_call_original
-          messages.should_receive(:create).twice
-          do_request
-        end
+    it 'returns false if the current_user is not the consult initiator' do
+      controller.stub(current_user: member.pha)
+      expect(send_method).to be_false
+    end
 
-        context 'save succeeds' do
-          it_behaves_like 'success'
+    it 'returns false if the current_user device version is >= 1.3.0' do
+      member.stub(device_app_version: '1.3.0')
+      expect(send_method).to be_false
+    end
 
-          it 'returns the message' do
-            do_request
-            body = JSON.parse(response.body, symbolize_names: true)
-            expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
-          end
-        end
-      end
-
-      context 'send robot response is false' do
-        before do
-          controller.stub(:send_robot_response?) { false }
-        end
-
-        it 'attempts to create the record' do
-          messages.should_not_receive(:send_robot_response!)
-          messages.should_receive(:create).once
-          do_request
-        end
-
-        context 'save succeeds' do
-          it_behaves_like 'success'
-
-          it 'returns the message' do
-            do_request
-            body = JSON.parse(response.body, symbolize_names: true)
-            expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
-          end
-        end
-      end
+    it 'returns false if the consult already has an out of office message since off_hours_start' do
+      consult.messages.create(user: Member.robot,
+                              text: 'off hours message',
+                              off_hours: true,
+                              system: true)
+      controller.stub(off_hours_start: Time.now - 1.second)
+      expect(send_method).to be_false
     end
   end
 end
