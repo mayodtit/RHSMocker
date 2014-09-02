@@ -6,15 +6,15 @@ class MemberSerializer < ActiveModel::Serializer
              :deceased, :date_of_death, :npi_number, :expertise,
              :phone, :nickname, :city, :state, :work_phone_number,
              :avatar_url, :ethnic_group, :diet, :address,
-             :holds_phone_in, :install_id, :phone, :units, :client_data,
+             :phone, :units, :client_data,
              :full_name, :created_at, :email_read_only,
              :sharing_prohibited, :owner_id, :is_premium, :free_trial_ends_at,
              :pha_id, :pha_profile_bio_image_url, :pha_profile_url,
              :show_welcome_call, :pha_full_name, :last_contact_at,
-             :has_master_consult, :subscription_end_date, :subscription_ends_at,
-             :invitation_url, :signed_up_at, :has_welcome_call, :device_app_version,
-             :device_app_build, :device_timezone, :device_notifications_enabled,
-             :device_os, :status, :meet_your_pha_text
+             :has_master_consult, :subscription_end_date,
+             :subscription_ends_at,
+             :invitation_url, :signed_up_at, :has_welcome_call,
+             :status, :meet_your_pha_text
 
   has_one :nux_answer
 
