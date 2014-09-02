@@ -6,11 +6,12 @@ module Api
       before_filter :authentication_check
 
       def authentication_check
-        auth_token = params[:auth_token]
-        return render_failure({reason:"Invalid auth_token"}) if auth_token.blank?
-        user = Member.find_by_auth_token(auth_token)
-        return render_failure({reason:"Invalid auth_token"}) unless user
-        auto_login(user)
+        return render_failure({reason:"Invalid auth_token"}) if params[:auth_token].blank?
+        @session = Session.find_by_auth_token(params[:auth_token])
+        return render_failure({reason:"Invalid auth_token"}) unless @session
+        member = @session.member
+        return render_failure({reason:"Invalid auth_token"}) unless member
+        auto_login(member)
       end
 
       def render_success resp=Hash.new
@@ -70,6 +71,10 @@ module Api
 
       def load_member!
         @member = Member.find(params[:member_id])
+      end
+
+      def current_session
+        @session
       end
 
       private
