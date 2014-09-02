@@ -81,18 +81,25 @@ Hi#{name.present? ? " #{name}" : ''}. #{pha_name} will follow up with you about 
     return false if Role.pha.on_call?
     return false if current_user != @consult.initiator
     return false if current_user.device_app_version && (Gem::Version.new(current_user.device_app_version) >= Gem::Version.new('1.3.0'))
-    if now.hour > 17 # same day off hours
-      return false if @consult.messages
-                              .where(off_hours: true)
-                              .where('created_at > ?', off_hours_start_today)
-                              .any?
-    elsif now.hour < 9 # yesterday off hours
-      return false if @consult.messages
-                              .where(off_hours: true)
-                              .where('created_at > ?', off_hours_start_yesterday)
-                              .any?
-    end
+    return false if @consult.messages
+                            .where(off_hours: true)
+                            .where('created_at > ?', off_hours_start)
+                            .any?
     true
+  end
+
+  def off_hours_start
+    if now.saturday?
+      off_hours_start_yesterday
+    elsif now.sunday?
+      off_hours_start_day_before_yesterday
+    elsif now.hour > 17 # same day off hours
+      off_hours_start_today
+    elsif now.hour < 9 # yesterday off hours
+      off_hours_start_yesterday
+    else # maybe holiday? we shouldn't normally be here
+      off_hours_start_yesterday
+    end
   end
 
   def now
@@ -103,11 +110,19 @@ Hi#{name.present? ? " #{name}" : ''}. #{pha_name} will follow up with you about 
     @yesterday ||= now - 1.day
   end
 
+  def day_before_yesterday
+    @day_before_yesterday ||= now - 2.days
+  end
+
   def off_hours_start_today
     Time.new(now.year, now.month, now.day, 17, 0, 0, now.utc_offset)
   end
 
   def off_hours_start_yesterday
     Time.new(yesterday.year, yesterday.month, yesterday.day, 17, 0, 0, yesterday.utc_offset)
+  end
+
+  def off_hours_start_day_before_yesterday
+    Time.new(day_before_yesterday.year, day_before_yesterday.month, day_before_yesterday.day, 17, 0, 0, day_before_yesterday.utc_offset)
   end
 end
