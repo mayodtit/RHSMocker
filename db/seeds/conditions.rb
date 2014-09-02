@@ -46,6 +46,30 @@ Condition.find_or_create_by_name(name: "Celiac disease",
 Condition.find_or_create_by_name(name: "Chlamydia",
                                  snomed_name: "Chlamydia trachomatis infection (disorder)",
                                  snomed_code: "629754016")
+Condition.find_or_create_by_name(name: "Constipation",
+                                 snomed_name: "Constipation (disorder)",
+                                 snomed_code: "741083018")
+Condition.find_or_create_by_name(name: "Chronic constipation",
+                                 snomed_name: "Chronic constipation (disorder)",
+                                 snomed_code: "2147881013")
+Condition.find_or_create_by_name(name: "Chronic back pain",
+                                 snomed_name: "Chronic back pain (finding)",
+                                 snomed_code: "2461407018")
+Condition.find_or_create_by_name(name: "Chronic low back pain",
+                                 snomed_name: "Chronic low back pain (finding)",
+                                 snomed_code: "2461407018")
+Condition.find_or_create_by_name(name: "CLBP",
+                                 snomed_name: "Chronic low back pain (finding)",
+                                 snomed_code: "2461407018")
+Condition.find_or_create_by_name(name: "Chronic thoracic back pain",
+                                 snomed_name: "Chronic thoracic back pain (finding)",
+                                 snomed_code: "2967513011")
+Condition.find_or_create_by_name(name: "Chronic pain",
+                                 snomed_name: "Chronic pain (finding)",
+                                 snomed_code: "823843010")
+Condition.find_or_create_by_name(name: "Chronic abdominal pain",
+                                 snomed_name: "Chronic abdominal pain (finding)",
+                                 snomed_code: "635598019")
 Condition.find_or_create_by_name(name: "Chronic fatigue syndrome",
                                  snomed_name: "Chronic fatigue syndrome (disorder)",
                                  snomed_code: "790741013")
@@ -67,6 +91,12 @@ Condition.find_or_create_by_name(name: "Colitis (Ulcerative)",
 Condition.find_or_create_by_name(name: "Coronary arteriosclerosis",
                                  snomed_name: "Coronary arteriosclerosis",
                                  snomed_code: "53741008")
+Condition.find_or_create_by_name(name: "Cyst of ovary",
+                                 snomed_name: "Cyst of ovary (disorder)",
+                                 snomed_code: "820982012")
+Condition.find_or_create_by_name(name: "Ovarian cyst",
+                                 snomed_name: "Cyst of ovary (disorder)",
+                                 snomed_code: "820982012")
 Condition.find_or_create_by_name(name: "Cystic fibrosis",
                                  snomed_name: "Cystic fibrosis (disorder)",
                                  snomed_code: "574544017")
@@ -106,9 +136,24 @@ Condition.find_or_create_by_name(name: "Flu",
 Condition.find_or_create_by_name(name: "Fibromyositis",
                                  snomed_name: "Fibromyositis (disorder)",
                                  snomed_code: "754358015")
+Condition.find_or_create_by_name(name: "Fibromyalgia",
+                                 snomed_name: "Fibromyositis (disorder)",
+                                 snomed_code: "754358015")
+Condition.find_or_create_by_name(name: "Fibrositis",
+                                 snomed_name: "Fibromyositis (disorder)",
+                                 snomed_code: "754358015")
 Condition.find_or_create_by_name(name: "Gastroparesis",
                                  snomed_name: "Gastroparesis (disorder)",
                                  snomed_code: "624163010")
+Condition.find_or_create_by_name(name: "GERD",
+                                 snomed_name: "Gastroesophageal reflux disease (disorder)",
+                                 snomed_code: "624072017")
+Condition.find_or_create_by_name(name: "GORD",
+                                 snomed_name: "Gastroesophageal reflux disease (disorder)",
+                                 snomed_code: "624072017")
+Condition.find_or_create_by_name(name: "Gastroesophageal reflux disease",
+                                 snomed_name: "Gastroesophageal reflux disease (disorder)",
+                                 snomed_code: "624072017")
 Condition.find_or_create_by_name(name: "Gonorrhea",
                                  snomed_name: "Gonorrhea (disorder)",
                                  snomed_code: "742488016")
@@ -127,15 +172,30 @@ Condition.find_or_create_by_name(name: "Headache",
 Condition.find_or_create_by_name(name: "High Cholesterol",
                                  snomed_name: "Hypercholesterolemia",
                                  snomed_code: "13644009")
+Condition.find_or_create_by_name(name: "History of tonsillectomy",
+                                 snomed_name: "History of tonsillectomy (situation)",
+                                 snomed_code: "2787029015")
 Condition.find_or_create_by_name(name: "Hypertensive disorder",
                                  snomed_name: "Hypertensive disorder, systemic arterial",
                                  snomed_code: "1202949014")
 Condition.find_or_create_by_name(name: "Hypertension",
                                  snomed_name: "Hypertensive disorder, systemic arterial",
                                  snomed_code: "1202949014")
+Condition.find_or_create_by_name(name: "Hypertrophic cardiomyopathy",
+                                 snomed_name: "Hypertrophic cardiomyopathy (disorder)",
+                                 snomed_code: "622117015")
+Condition.find_or_create_by_name(name: "HCM",
+                                 snomed_name: "Hypertrophic cardiomyopathy (disorder)",
+                                 snomed_code: "622117015")
 Condition.find_or_create_by_name(name: "High Blood Pressure",
                                  snomed_name: "Hypertensive disorder, systemic arterial",
                                  snomed_code: "1202949014")
+Condition.find_or_create_by_name(name: "IBS",
+                                 snomed_name: "Irritable bowel syndrome (disorder)",
+                                 snomed_code: "2912822011")
+Condition.find_or_create_by_name(name: "Irritable bowel syndrome",
+                                 snomed_name: "Irritable bowel syndrome (disorder)",
+                                 snomed_code: "2912822011")
 Condition.find_or_create_by_name(name: "Ischemic stroke",
                                  snomed_name: "Ischemic stroke (disorder)",
                                  snomed_code: "2640187017")
@@ -205,6 +265,18 @@ Condition.find_or_create_by_name(name: "Manic-depressive illness",
 Condition.find_or_create_by_name(name: "Panic Attacks",
                                  snomed_name: "Panic disorder (disorder)",
                                  snomed_code: "1196930010")
+Condition.find_or_create_by_name(name: "Polycystic ovaries",
+                                 snomed_name: "Polycystic ovaries (disorder)",
+                                 snomed_code: "809871017")
+Condition.find_or_create_by_name(name: "PCO",
+                                 snomed_name: "Polycystic ovaries (disorder)",
+                                 snomed_code: "809871017")
+Condition.find_or_create_by_name(name: "PCOS - Polycystic ovarian syndrome",
+                                 snomed_name: "Polycystic ovaries (disorder)",
+                                 snomed_code: "809871017")
+Condition.find_or_create_by_name(name: "Stein-Leventhal syndrome",
+                                 snomed_name: "Polycystic ovaries (disorder)",
+                                 snomed_code: "809871017")
 Condition.find_or_create_by_name(name: "Pregnant",
                                  snomed_name: "Patient currently pregnant (finding)",
                                  snomed_code: "818210015")
