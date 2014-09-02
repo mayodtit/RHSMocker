@@ -49,4 +49,54 @@ describe Api::V1::MessagesController do
       expect(send_method).to be_false
     end
   end
+
+  describe '#off_hours_start' do
+    def send_method
+      controller.send(:off_hours_start)
+    end
+
+    after do
+      Timecop.return
+    end
+
+    context 'on a Saturday' do
+      before do
+        Timecop.freeze(Time.new(2014, 8, 30, 12, 0, 0, '-07:00'))
+      end
+
+      it 'returns 17:00 Pacific on Friday' do
+        expect(send_method).to eq(Time.new(2014, 8, 29, 17, 0, 0, '-07:00'))
+      end
+    end
+
+    context 'on a Sunday' do
+      before do
+        Timecop.freeze(Time.new(2014, 8, 31, 12, 0, 0, '-07:00'))
+      end
+
+      it 'returns 17:00 Pacific on Friday' do
+        expect(send_method).to eq(Time.new(2014, 8, 29, 17, 0, 0, '-07:00'))
+      end
+    end
+
+    context 'on a weekday after 17:00 Pacific' do
+      before do
+        Timecop.freeze(Time.new(2014, 8, 27, 19, 0, 0, '-07:00'))
+      end
+
+      it 'returns 17:00 Pacific on the same day' do
+        expect(send_method).to eq(Time.new(2014, 8, 27, 17, 0, 0, '-07:00'))
+      end
+    end
+
+    context 'on a weekday before 9:00 Pacific' do
+      before do
+        Timecop.freeze(Time.new(2014, 8, 27, 7, 0, 0, '-07:00'))
+      end
+
+      it 'returns 17:00 Pacific on the day before' do
+        expect(send_method).to eq(Time.new(2014, 8, 26, 17, 0, 0, '-07:00'))
+      end
+    end
+  end
 end
