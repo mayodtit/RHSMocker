@@ -9,7 +9,6 @@ class ScheduledPhoneCall < ActiveRecord::Base
   belongs_to :owner, class_name: 'Member'
   belongs_to :assignor, class_name: 'Member'
   belongs_to :booker, class_name: 'Member'
-  belongs_to :starter, class_name: 'Member'
   belongs_to :canceler, class_name: 'Member'
   belongs_to :ender, class_name: 'Member'
   belongs_to :phone_call
@@ -20,7 +19,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
   attr_accessible :user, :user_id, :owner, :owner_id, :phone_call, :phone_call_id,
                   :message, :scheduled_at, :message_attributes,
                   :assignor_id, :assignor, :booker_id, :booker,
-                  :starter_id, :starter, :canceler_id, :canceler,
+                  :canceler_id, :canceler,
                   :ender_id, :ender, :scheduled_duration_s, :state_event,
                   :state, :assigned_at, :callback_phone_number,
                   :reminder_scheduled_message, :reminder_scheduled_message_id
@@ -180,10 +179,6 @@ Prep:
       transition [:booked, :assigned] => :booked
     end
 
-    event :start do
-      transition any - [:ended, :canceled, :started] => :started
-    end
-
     event :cancel do
       transition any - [:ended, :canceled] => :canceled
     end
@@ -227,10 +222,6 @@ Prep:
       scheduled_phone_call.reschedule_reminder
     end
 
-    before_transition any => :started do |scheduled_phone_call|
-      scheduled_phone_call.started_at = Time.now
-    end
-
     before_transition any => :canceled do |scheduled_phone_call|
       scheduled_phone_call.canceled_at = Time.now
       scheduled_phone_call.disabled_at = Time.now
@@ -250,8 +241,6 @@ Prep:
         validate_actor_and_timestamp_exist :assign
       when :booked
         validate_actor_and_timestamp_exist :book
-      when :started
-        validate_actor_and_timestamp_exist :start
       when :canceled
         validate_actor_and_timestamp_exist :cancel
         if disabled_at.nil?
@@ -259,6 +248,10 @@ Prep:
         end
       when :ended
         validate_actor_and_timestamp_exist :end
+    end
+
+    if state_sym != :unassigned && self.class.where(self.class.arel_table[:id].not_eq(id)).where(scheduled_at: scheduled_at, owner_id: owner_id).count != 0
+      errors.add(:scheduled_at, "is already booked for #{owner.full_name}.")
     end
 
     if state_sym != :unassigned && state_sym != :canceled
@@ -271,10 +264,6 @@ Prep:
       if user_id.nil?
         errors.add(:user_id, "must be present when #{self.class.name} is #{state}")
       end
-      # TODO: Put this back in when we properly do appointments
-      # if message.nil?
-      #   errors.add(:message, "must be present when #{self.class.name} is #{state}")
-      # end
     end
   end
 end

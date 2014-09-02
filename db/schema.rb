@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140828225638) do
+ActiveRecord::Schema.define(:version => 20140902182804) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -617,8 +617,6 @@ ActiveRecord::Schema.define(:version => 20140828225638) do
     t.datetime "assigned_at"
     t.integer  "booker_id"
     t.datetime "booked_at"
-    t.integer  "starter_id"
-    t.datetime "started_at"
     t.integer  "canceler_id"
     t.datetime "canceled_at"
     t.integer  "ender_id"
