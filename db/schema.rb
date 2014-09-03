@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140902182804) do
+ActiveRecord::Schema.define(:version => 20140903043508) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -109,6 +109,18 @@ ActiveRecord::Schema.define(:version => 20140902182804) do
     t.datetime "state_changed_at"
     t.integer  "user_program_id"
     t.integer  "sender_id"
+  end
+
+  create_table "cohorts", :force => true do |t|
+    t.datetime "started_at"
+    t.datetime "ended_at"
+    t.integer  "total_users"
+    t.integer  "users_with_message"
+    t.integer  "users_with_service"
+    t.integer  "converted_users"
+    t.text     "raw_data"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
   end
 
   create_table "collection_types", :force => true do |t|
