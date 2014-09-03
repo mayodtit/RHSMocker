@@ -11,7 +11,7 @@ describe Api::V1::UserAllergiesController do
 
   describe 'GET index' do
     def do_request
-      get :index, auth_token: user.auth_token
+      get :index
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -22,7 +22,7 @@ describe Api::V1::UserAllergiesController do
 
   describe 'GET show' do
     def do_request
-      get :show, auth_token: user.auth_token
+      get :show
     end
 
     let(:user_allergies) { double('user_allergies', :find => user_allergy) }

@@ -12,7 +12,7 @@ describe Api::V1::PhoneCallsController do
 
   describe 'GET index' do
     def do_request(params={})
-      get :index, params.merge!(auth_token: user.auth_token)
+      get :index, params
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -53,7 +53,7 @@ describe Api::V1::PhoneCallsController do
     let(:phone_call) { build_stubbed :phone_call }
 
     def do_request
-      get :show, auth_token: user.auth_token, id: phone_call.id
+      get :show, id: phone_call.id
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -73,7 +73,7 @@ describe Api::V1::PhoneCallsController do
 
   describe 'POST create' do
     def do_request
-      post :create, auth_token: user.auth_token, phone_call: {destination_phone_number: '5555555555'}
+      post :create, phone_call: {destination_phone_number: '5555555555'}
     end
 
     let!(:consult) { build_stubbed(:consult, initiator: user) }
@@ -118,7 +118,7 @@ describe Api::V1::PhoneCallsController do
     let(:phone_call) { build_stubbed :phone_call }
 
     def do_request
-      put :update, auth_token: user.auth_token, id: phone_call.id, phone_call: {state_event: 'claim'}
+      put :update, id: phone_call.id, phone_call: {state_event: 'claim'}
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -162,7 +162,7 @@ describe Api::V1::PhoneCallsController do
 
         context 'state event is not present' do
           def do_request
-            put :update, auth_token: user.auth_token, id: phone_call.id
+            put :update, id: phone_call.id
           end
 
           it_behaves_like 'failure'
@@ -608,7 +608,7 @@ describe Api::V1::PhoneCallsController do
     let(:phone_call) { build_stubbed :phone_call }
 
     def do_request
-      put :hang_up, auth_token: user.auth_token, id: phone_call.id
+      put :hang_up, id: phone_call.id
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -635,7 +635,7 @@ describe Api::V1::PhoneCallsController do
     let(:phone_call) { build_stubbed :phone_call }
 
     def do_request
-      put :transfer, auth_token: user.auth_token, id: phone_call.id
+      put :transfer, id: phone_call.id
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -664,7 +664,7 @@ describe Api::V1::PhoneCallsController do
     let(:member) { build_stubbed :user }
 
     def do_request(caller_id = member.id)
-      put :merge, auth_token: user.auth_token, id: phone_call.id, caller_id: caller_id
+      put :merge, id: phone_call.id, caller_id: caller_id
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -757,7 +757,7 @@ describe Api::V1::PhoneCallsController do
 
         context 'user id is not present' do
           def do_request
-            put :merge, auth_token: user.auth_token
+            put :merge
           end
 
           it_behaves_like 'failure'

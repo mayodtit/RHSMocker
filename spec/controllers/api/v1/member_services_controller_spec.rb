@@ -12,7 +12,7 @@ describe Api::V1::MemberServicesController do
 
   describe 'GET index' do
     def do_request
-      get :index, member_id: member.id, auth_token: user.auth_token
+      get :index, member_id: member.id
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -35,7 +35,7 @@ describe Api::V1::MemberServicesController do
           o
         end
 
-        get :index, member_id: member.id, auth_token: user.auth_token, subject_id: 1, state: 'unassigned'
+        get :index, member_id: member.id, subject_id: 1, state: 'unassigned'
         body = JSON.parse(response.body, symbolize_names: true)
         body[:services].to_json.should == services.serializer.as_json.to_json
       end
@@ -53,7 +53,7 @@ describe Api::V1::MemberServicesController do
           o
         end
 
-        get :index, member_id: member.id, auth_token: user.auth_token, subject_id: 1, state: 'unassigned', due_at: 3.days.ago
+        get :index, member_id: member.id, subject_id: 1, state: 'unassigned', due_at: 3.days.ago
         body = JSON.parse(response.body, symbolize_names: true)
         body[:services].to_json.should == services.serializer.as_json.to_json
       end

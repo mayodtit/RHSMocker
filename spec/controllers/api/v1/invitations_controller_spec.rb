@@ -11,7 +11,7 @@ describe Api::V1::InvitationsController do
 
   describe 'POST create' do
     def do_request
-      post :create, auth_token: user.auth_token, user: {email: email}
+      post :create, user: {email: email}
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -31,7 +31,7 @@ describe Api::V1::InvitationsController do
 
             Member.should_receive(:create).with(filtered_params) { @invited_member }
 
-            post :create, auth_token: user.auth_token, user: user_params
+            post :create, user: user_params
           end
 
           it 'creates an invitation to the user' do
@@ -72,7 +72,7 @@ describe Api::V1::InvitationsController do
           it_behaves_like 'success'
 
           it 'downcases email' do
-            post :create, auth_token: user.auth_token, user: {email: email.upcase}
+            post :create, user: {email: email.upcase}
             response.should be_success
           end
 
@@ -100,7 +100,7 @@ describe Api::V1::InvitationsController do
           it_behaves_like 'success'
 
           it 'downcases email' do
-            post :create, auth_token: user.auth_token, user: {email: email.upcase}
+            post :create, user: {email: email.upcase}
             response.should be_success
           end
 
