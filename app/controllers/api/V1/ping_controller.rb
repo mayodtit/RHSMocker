@@ -35,42 +35,42 @@ class Api::V1::PingController < Api::V1::ABaseController
   private
 
   def store_apns_token!
-    current_user.store_apns_token!(params[:device_token]) if params[:device_token]
+    current_session.store_apns_token!(params[:device_token]) if params[:device_token]
   end
 
   def store_gcm_id!
-    current_user.store_gcm_id!(params[:android_gcm_id]) if params[:android_gcm_id]
+    current_session.store_gcm_id!(params[:android_gcm_id]) if params[:android_gcm_id]
   end
 
   def store_device_information!
     changed_attributes = {}
 
-    if params[:device_os] && (current_user.device_os != params[:device_os])
+    if params[:device_os] && (current_session.device_os != params[:device_os])
       changed_attributes[:device_os] = params[:device_os]
     end
 
-    if params[:app_version] && (current_user.device_app_version != params[:app_version])
+    if params[:app_version] && (current_session.device_app_version != params[:app_version])
       changed_attributes[:device_app_version] = params[:app_version]
     end
 
-    if params[:app_build] && (current_user.device_app_build != params[:app_build])
+    if params[:app_build] && (current_session.device_app_build != params[:app_build])
       changed_attributes[:device_app_build] = params[:app_build]
     end
 
-    if params[:device_timezone] && (current_user.device_timezone != params[:device_timezone])
+    if params[:device_timezone] && (current_session.device_timezone != params[:device_timezone])
       changed_attributes[:device_timezone] = params[:device_timezone]
     end
 
-    if !params[:notifications_enabled].nil? && (current_user.device_notifications_enabled != params[:notifications_enabled])
+    if !params[:notifications_enabled].nil? && (current_session.device_notifications_enabled != params[:notifications_enabled])
       changed_attributes[:device_notifications_enabled] = params[:notifications_enabled]
     end
 
-    if params[:device_id] && (current_user.install_id != params[:device_id])
+    if params[:device_id] && (current_session.install_id != params[:device_id])
       changed_attributes[:install_id] = params[:device_id]
     end
 
     unless changed_attributes.empty?
-      current_user.update_attributes!(changed_attributes)
+      current_session.update_attributes!(changed_attributes)
     end
   end
 end
