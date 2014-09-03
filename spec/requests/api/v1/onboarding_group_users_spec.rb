@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe 'OnboardingGroupUsers' do
   let!(:user) { create(:admin) }
+  let(:session) { user.sessions.create }
   let!(:onboarding_group) { create(:onboarding_group) }
 
   context 'existing record' do
@@ -9,7 +10,7 @@ describe 'OnboardingGroupUsers' do
 
     describe 'GET /api/v1/onboarding_groups/:onboarding_group_id/users' do
       def do_request
-        get "/api/v1/onboarding_groups/#{onboarding_group.id}/users", auth_token: user.auth_token
+        get "/api/v1/onboarding_groups/#{onboarding_group.id}/users", auth_token: session.auth_token
       end
 
       it 'indexes onboarding_group users' do
@@ -22,7 +23,7 @@ describe 'OnboardingGroupUsers' do
 
     describe 'DELETE /api/v1/onboarding_groups/:onboarding_group_id/users' do
       def do_request
-        delete "/api/v1/onboarding_groups/#{onboarding_group.id}/users/#{member.id}", auth_token: user.auth_token
+        delete "/api/v1/onboarding_groups/#{onboarding_group.id}/users/#{member.id}", auth_token: session.auth_token
       end
 
       it 'unassigns the user onboarding_group' do
@@ -35,7 +36,7 @@ describe 'OnboardingGroupUsers' do
 
   describe 'POST /api/v1/onboarding_groups/:onboarding_group_id/users' do
     def do_request(params={})
-      post "/api/v1/onboarding_groups/#{onboarding_group.id}/users", params.merge!(auth_token: user.auth_token)
+      post "/api/v1/onboarding_groups/#{onboarding_group.id}/users", params.merge!(auth_token: session.auth_token)
     end
 
     let(:user_attributes) { {email: 'new_test@test.getbetter.com'} }

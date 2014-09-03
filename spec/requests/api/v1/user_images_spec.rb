@@ -2,13 +2,14 @@ require 'spec_helper'
 
 describe 'UserImages' do
   let!(:user) { create(:member) }
+  let(:session) { user.sessions.create }
 
   context 'existing record' do
     let!(:user_image) { create(:user_image, user: user) }
 
     describe 'GET /api/v1/users/:user_id/user_images' do
       def do_request
-        get "/api/v1/users/#{user.id}/user_images", auth_token: user.auth_token
+        get "/api/v1/users/#{user.id}/user_images", auth_token: session.auth_token
       end
 
       it 'indexes user_images' do
@@ -21,7 +22,7 @@ describe 'UserImages' do
 
     describe 'GET /api/v1/users/:user_id/user_images/:id' do
       def do_request
-        get "/api/v1/users/#{user.id}/user_images/#{user_image.id}", auth_token: user.auth_token
+        get "/api/v1/users/#{user.id}/user_images/#{user_image.id}", auth_token: session.auth_token
       end
 
       it 'shows the user_image' do
@@ -34,7 +35,7 @@ describe 'UserImages' do
 
     describe 'PUT /api/v1/users/:user_id/user_images/:id' do
       def do_request(params={})
-        put "/api/v1/users/#{user.id}/user_images/#{user_image.id}", params.merge!(auth_token: user.auth_token)
+        put "/api/v1/users/#{user.id}/user_images/#{user_image.id}", params.merge!(auth_token: session.auth_token)
       end
 
       let(:new_image) { base64_test_image }
@@ -49,7 +50,7 @@ describe 'UserImages' do
 
     describe 'DELETE /api/v1/users/:user_id/user_images/:id' do
       def do_request
-        delete "/api/v1/users/#{user.id}/user_images/#{user_image.id}", auth_token: user.auth_token
+        delete "/api/v1/users/#{user.id}/user_images/#{user_image.id}", auth_token: session.auth_token
       end
 
       it 'destroys the user_image' do
@@ -62,7 +63,7 @@ describe 'UserImages' do
 
   describe 'POST /api/v1/users/:user_id/user_images' do
     def do_request(params={})
-      post "/api/v1/users/#{user.id}/user_images", params.merge!(auth_token: user.auth_token)
+      post "/api/v1/users/#{user.id}/user_images", params.merge!(auth_token: session.auth_token)
     end
 
     let(:image) { base64_test_image }

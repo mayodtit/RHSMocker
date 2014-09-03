@@ -7,17 +7,18 @@ shared_examples 'creates a member' do
     body = JSON.parse(response.body, symbolize_names: true)
     member = Member.find(body[:user][:id])
     expect(body[:user].to_json).to eq(member.serializer.as_json.to_json)
-    expect(body[:auth_token]).to eq(member.auth_token)
+    expect(body[:auth_token]).to eq(member.sessions.first.auth_token)
   end
 end
 
 describe 'Members' do
   context 'with existing record' do
     let!(:member) { create(:admin) }
+    let(:session) { member.sessions.create }
 
     describe 'GET /api/v1/members' do
       def do_request(params={})
-        get '/api/v1/members', {auth_token: member.auth_token}.merge!(params)
+        get '/api/v1/members', {auth_token: session.auth_token}.merge!(params)
       end
 
       it 'indexes all Members' do

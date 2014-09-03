@@ -2,13 +2,14 @@ require 'spec_helper'
 
 describe 'Heights' do
   let!(:user) { create(:member) }
+  let(:session) { user.sessions.create }
 
   context 'existing record' do
     let!(:height) { create(:height, user: user) }
 
     describe 'GET /api/v1/users/:user_id/heights' do
       def do_request
-        get "/api/v1/users/#{user.id}/heights", auth_token: user.auth_token
+        get "/api/v1/users/#{user.id}/heights", auth_token: session.auth_token
       end
 
       it 'indexes heights' do
@@ -21,7 +22,7 @@ describe 'Heights' do
 
     describe 'GET /api/v1/users/:user_id/heights/:id' do
       def do_request
-        get "/api/v1/users/#{user.id}/heights/#{height.id}", auth_token: user.auth_token
+        get "/api/v1/users/#{user.id}/heights/#{height.id}", auth_token: session.auth_token
       end
 
       it 'shows the height' do
@@ -34,7 +35,7 @@ describe 'Heights' do
 
     describe 'PUT /api/v1/users/:user_id/heights/:id' do
       def do_request(params={})
-        put "/api/v1/users/#{user.id}/heights/#{height.id}", params.merge!(auth_token: user.auth_token)
+        put "/api/v1/users/#{user.id}/heights/#{height.id}", params.merge!(auth_token: session.auth_token)
       end
 
       let(:new_amount) { 145 }
@@ -50,7 +51,7 @@ describe 'Heights' do
 
     describe 'DELETE /api/v1/users/:user_id/heights/:id' do
       def do_request
-        delete "/api/v1/users/#{user.id}/heights/#{height.id}", auth_token: user.auth_token
+        delete "/api/v1/users/#{user.id}/heights/#{height.id}", auth_token: session.auth_token
       end
 
       it 'destroys the height' do
@@ -63,7 +64,7 @@ describe 'Heights' do
 
   describe 'POST /api/v1/users/:user_id/heights' do
     def do_request(params={})
-      post "/api/v1/users/#{user.id}/heights", params.merge!(auth_token: user.auth_token)
+      post "/api/v1/users/#{user.id}/heights", params.merge!(auth_token: session.auth_token)
     end
 
     let(:height_attributes) { attributes_for(:height) }

@@ -2,13 +2,14 @@ require 'spec_helper'
 
 describe 'UserRequestTypes' do
   let!(:user) { create(:admin) }
+  let(:session) { user.sessions.create }
 
   context 'existing record' do
     let!(:user_request_type) { create(:user_request_type) }
 
     describe 'GET /api/v1/user_request_types' do
       def do_request
-        get "/api/v1/user_request_types", auth_token: user.auth_token
+        get "/api/v1/user_request_types", auth_token: session.auth_token
       end
 
       it 'indexes user_request_types' do
@@ -21,7 +22,7 @@ describe 'UserRequestTypes' do
 
     describe 'GET /api/v1/user_request_types/:id' do
       def do_request
-        get "/api/v1/user_request_types/#{user_request_type.id}", auth_token: user.auth_token
+        get "/api/v1/user_request_types/#{user_request_type.id}", auth_token: session.auth_token
       end
 
       it 'shows the user_request_type' do
@@ -34,7 +35,7 @@ describe 'UserRequestTypes' do
 
     describe 'PUT /api/v1/user_request_types/:id' do
       def do_request(params={})
-        put "/api/v1/user_request_types/#{user_request_type.id}", params.merge!(auth_token: user.auth_token)
+        put "/api/v1/user_request_types/#{user_request_type.id}", params.merge!(auth_token: session.auth_token)
       end
 
       let(:new_name) { 'New name' }
@@ -51,7 +52,7 @@ describe 'UserRequestTypes' do
 
   describe 'POST /api/v1/user_request_types' do
     def do_request(params={})
-      post "/api/v1/user_request_types", params.merge!(auth_token: user.auth_token)
+      post "/api/v1/user_request_types", params.merge!(auth_token: session.auth_token)
     end
 
     let!(:provider) { create(:member) }

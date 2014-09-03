@@ -3,12 +3,13 @@ require 'spec_helper'
 describe 'Permissions' do
   context 'association' do
     let!(:user) { create(:member) }
+    let(:session) { user.sessions.create }
     let!(:association) { create(:association, user: user) }
     let!(:permission) { association.permission }
 
     describe 'GET /api/v1/associations/:association_id/permission' do
       def do_request
-        get "/api/v1/associations/#{association.id}/permission", auth_token: user.auth_token
+        get "/api/v1/associations/#{association.id}/permission", auth_token: session.auth_token
       end
 
       it 'shows the permission for the association' do
@@ -21,7 +22,7 @@ describe 'Permissions' do
 
     describe 'PUT /api/v1/associations/:association_id/permission' do
       def do_request(params={})
-        put "/api/v1/associations/#{association.id}/permission", params.merge!(auth_token: user.auth_token)
+        put "/api/v1/associations/#{association.id}/permission", params.merge!(auth_token: session.auth_token)
       end
 
       it 'is successful' do
@@ -46,12 +47,13 @@ describe 'Permissions' do
 
   context 'inverse association' do
     let!(:user) { create(:member) }
+    let(:session) { user.sessions.create }
     let!(:association) { create(:association, associate: user) }
     let!(:permission) { association.permission }
 
     describe 'GET /api/v1/associations/:association_id/permission' do
       def do_request
-        get "/api/v1/associations/#{association.id}/permission", auth_token: user.auth_token
+        get "/api/v1/associations/#{association.id}/permission", auth_token: session.auth_token
       end
 
       it 'shows the permission for the association' do
@@ -64,7 +66,7 @@ describe 'Permissions' do
 
     describe 'PUT /api/v1/associations/:association_id/permission' do
       def do_request(params={})
-        put "/api/v1/associations/#{association.id}/permission", params.merge!(auth_token: user.auth_token)
+        put "/api/v1/associations/#{association.id}/permission", params.merge!(auth_token: session.auth_token)
       end
 
       it 'updates the permission' do
@@ -79,13 +81,14 @@ describe 'Permissions' do
 
   context 'shared association' do
     let!(:user) { create(:member) }
+    let(:session) { user.sessions.create }
     let!(:associate) { create(:user, owner: user) }
     let!(:association) { create(:association, associate: user) }
     let!(:permission) { association.permission }
 
     describe 'GET /api/v1/associations/:association_id/permission' do
       def do_request
-        get "/api/v1/associations/#{association.id}/permission", auth_token: user.auth_token
+        get "/api/v1/associations/#{association.id}/permission", auth_token: session.auth_token
       end
 
       it 'shows the permission for the association' do
@@ -98,7 +101,7 @@ describe 'Permissions' do
 
     describe 'PUT /api/v1/associations/:association_id/permission' do
       def do_request(params={})
-        put "/api/v1/associations/#{association.id}/permission", params.merge!(auth_token: user.auth_token)
+        put "/api/v1/associations/#{association.id}/permission", params.merge!(auth_token: session.auth_token)
       end
 
       it 'updates the permission' do

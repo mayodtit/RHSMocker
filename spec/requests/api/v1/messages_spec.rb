@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe 'Messages' do
   let(:user) { create(:member) }
+  let(:session) { user.sessions.create }
   let(:consult) { create(:consult, initiator: user) }
 
   before do
@@ -17,7 +18,7 @@ describe 'Messages' do
 
     describe 'GET /api/v1/consults/:consult_id/messages' do
       def do_request
-        get "/api/v1/consults/#{consult.id}/messages", auth_token: user.auth_token
+        get "/api/v1/consults/#{consult.id}/messages", auth_token: session.auth_token
       end
 
       it 'indexes messages for the consult' do
@@ -30,7 +31,7 @@ describe 'Messages' do
 
     describe 'GET /api/v1/consults/current/messages' do
       def do_request
-        get '/api/v1/consults/current/messages', auth_token: user.auth_token
+        get '/api/v1/consults/current/messages', auth_token: session.auth_token
       end
 
       let!(:master) { create(:consult, :master, initiator: user) }
@@ -49,9 +50,10 @@ describe 'Messages' do
 
       context 'user is a pha' do
         let(:pha) { create(:pha) }
+        let(:session) { pha.sessions.create }
 
         def do_request
-          get "/api/v1/consults/#{consult.id}/messages", auth_token: pha.auth_token
+          get "/api/v1/consults/#{consult.id}/messages", auth_token: session.auth_token
         end
 
         it 'indexes all messages for the consult' do
@@ -64,7 +66,7 @@ describe 'Messages' do
 
       context 'user is not a pha' do
         def do_request
-          get "/api/v1/consults/#{consult.id}/messages", auth_token: user.auth_token
+          get "/api/v1/consults/#{consult.id}/messages", auth_token: session.auth_token
         end
 
         it 'indexes messages for the consult' do
@@ -75,13 +77,11 @@ describe 'Messages' do
         end
       end
     end
-
-
   end
 
   describe 'POST /api/v1/consults/:consult_id/messages' do
     def do_request(params={})
-      post "/api/v1/consults/#{consult.id}/messages", params.merge!(auth_token: user.auth_token)
+      post "/api/v1/consults/#{consult.id}/messages", params.merge!(auth_token: session.auth_token)
     end
 
     let(:message_params) { {message: {text: 'test message'}} }
@@ -99,7 +99,7 @@ describe 'Messages' do
 
   describe 'POST /api/v1/consults/current/messages' do
     def do_request(params={})
-      post '/api/v1/consults/current/messages', params.merge!(auth_token: user.auth_token)
+      post '/api/v1/consults/current/messages', params.merge!(auth_token: session.auth_token)
     end
 
     let!(:consult) { create(:consult, :master, initiator: user) }
