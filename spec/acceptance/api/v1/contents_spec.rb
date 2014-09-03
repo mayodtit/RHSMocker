@@ -5,14 +5,15 @@ resource "Contents" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  let!(:user) { create(:user_with_email).tap{|u| u.login} }
+  let!(:user) { create(:member) }
+  let(:session) { user.sessions.create }
   let!(:content) { create(:content, :published) }
 
   get '/api/v1/contents' do
     parameter :auth_token, "User's auth_token"
     required_parameters :auth_token
 
-    let(:auth_token)  { user.auth_token}
+    let(:auth_token)  { session.auth_token}
 
     example_request "[GET] Get all contents (should not be used in the iOS app)" do
       explanation "Returns all the contents in the database ordered by their title"
@@ -29,7 +30,7 @@ resource "Contents" do
     parameter :q, "Query string"
     required_parameters :auth_token, :q
 
-    let(:auth_token)  { user.auth_token}
+    let(:auth_token)  { session.auth_token}
     let(:q)   { 'craniosynostosis' }
 
     example_request "[GET] Search contents with query string" do
@@ -44,7 +45,7 @@ resource "Contents" do
     parameter :id,  "Content ID"
     required_parameters :auth_token, :id
 
-    let(:auth_token)  { user.auth_token}
+    let(:auth_token)  { session.auth_token}
     let(:id)       { content.id }
 
     example_request "[GET] Get specific content" do
@@ -61,7 +62,7 @@ resource "Contents" do
     parameter :q, "Query string"
     required_parameters :auth_token, :id, :q
 
-    let(:auth_token)  { user.auth_token }
+    let(:auth_token)  { session.auth_token }
     let(:id)       { content.id }
     let(:q)   { 'cardview' }
 
@@ -78,7 +79,7 @@ resource "Contents" do
     parameter :id,  "Content ID"
     required_parameters :auth_token, :id
 
-    let(:auth_token)  { user.auth_token}
+    let(:auth_token)  { session.auth_token}
     let(:id)       { 1234 }
 
     example_request "[GET] Get specific content (404)" do
@@ -93,7 +94,7 @@ resource "Contents" do
     parameter :id,         'Content ID'
     required_parameters :auth_token, :id
 
-    let(:auth_token) { user.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:id)         { content.id }
     let(:raw_post)   { params.to_json }
 
@@ -108,7 +109,7 @@ resource "Contents" do
     parameter :id,         'Content ID'
     required_parameters :auth_token, :id
 
-    let(:auth_token) { user.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:id)         { content.id }
     let(:raw_post)   { params.to_json }
 
@@ -123,7 +124,7 @@ resource "Contents" do
     parameter :id,         'Content ID'
     required_parameters :auth_token, :id
 
-    let(:auth_token) { user.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:id)         { content.id }
     let(:raw_post)   { params.to_json }
 
@@ -138,7 +139,7 @@ resource "Contents" do
     required_parameters :auth_token
 
     let!(:tos) { MayoContent.terms_of_service || create(:mayo_content, :tos) }
-    let(:auth_token) { user.auth_token}
+    let(:auth_token) { session.auth_token}
 
     example_request '[GET] Get Mayo Clinic terms of service content' do
       explanation 'Returns the Mayo Clinic terms of service content'

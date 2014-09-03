@@ -6,7 +6,8 @@ resource "Programs" do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:admin) }
-  let(:auth_token) { user.auth_token }
+  let(:session) { user.sessions.create }
+  let(:auth_token) { session.auth_token }
 
   parameter :auth_token, "Performing user's auth_token"
   required_parameters :auth_token

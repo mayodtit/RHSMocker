@@ -6,7 +6,8 @@ resource 'Providers' do
   header 'Content-Type', 'application/json'
 
   let(:user) { create(:member) }
-  let(:auth_token) { user.auth_token }
+  let(:session) { user.sessions.create }
+  let(:auth_token) { session.auth_token }
   let(:provider) {
                    {
                      first_name: 'Kyle',

@@ -6,6 +6,7 @@ resource 'ProviderCallLogs' do
   header 'Content-Type', 'application/json'
 
   let(:user) { create(:member) }
+  let(:session) { user.sessions.create }
 
   describe 'create provider phone call log entry' do
     parameter :auth_token, "User's auth token"
@@ -15,7 +16,7 @@ resource 'ProviderCallLogs' do
     required_parameters :npi, :number, :user_id
 
     post '/api/v1/provider_call_logs' do
-      let(:auth_token) { user.auth_token }
+      let(:auth_token) { session.auth_token }
       let(:user_id)    { user.id }
       let(:npi)        { '0987654321' }
       let(:number)     { '1234567890' }

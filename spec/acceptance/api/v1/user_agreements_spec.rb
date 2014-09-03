@@ -7,8 +7,9 @@ resource 'UserAgreements' do
   header 'User-Agent', 'test'
 
   let!(:user) { create(:member) }
+  let(:session) { user.sessions.create }
   let!(:agreement) { create(:agreement) }
-  let(:auth_token) { user.auth_token }
+  let(:auth_token) { session.auth_token }
   let(:user_id) { user.id }
 
   parameter :auth_token, "Performing user's auth_token"

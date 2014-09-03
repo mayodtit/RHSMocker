@@ -6,8 +6,9 @@ resource 'Address' do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:member) }
+  let(:session) { user.sessions.create }
   let(:user_id) { user.id }
-  let(:auth_token) { user.auth_token }
+  let(:auth_token) { session.auth_token }
 
   parameter :auth_token, 'User auth_token'
   required_parameters :auth_token

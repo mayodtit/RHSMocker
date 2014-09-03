@@ -6,8 +6,8 @@ resource 'Users' do
   header 'Content-Type', 'application/json'
 
   let(:current_password) { 'current_password' }
-  let(:user) { create(:member, password: current_password,
-                               password_confirmation: current_password) }
+  let(:user) { create(:member, password: current_password) }
+  let(:session) { user.sessions.create }
 
   get '/api/v1/users' do
     parameter :auth_token, "User's Auth token"
@@ -18,7 +18,7 @@ resource 'Users' do
     parameter :zip, "Optional filter for external search"
     required_parameters :auth_token
 
-    let(:auth_token) { user.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:last_name) { 'chilcutt' }
 
     before(:each) do
@@ -56,7 +56,7 @@ resource 'Users' do
         status.should == 200
         response = JSON.parse(response_body, :symbolize_names => true)
         new_user = User.find(response[:user][:id])
-        response[:auth_token].should == new_user.auth_token
+        response[:auth_token].should == new_user.sessions.first.auth_token
         response[:user].to_json.should == new_user.serializer.as_json.to_json
       end
     end
@@ -71,7 +71,7 @@ resource 'Users' do
     required_parameters :auth_token, :current_password
 
     let(:id) { user.id }
-    let(:auth_token) { user.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:email) { 'new_email@test.com' }
     let(:password) { 'new_password' }
     let(:raw_post) { params.to_json }
@@ -110,7 +110,7 @@ resource 'Users' do
       let(:height) { 190 }
       let(:birth_date) { "1980-10-15" }
       let(:phone) { "4163442356" }
-      let(:auth_token) { user.auth_token }
+      let(:auth_token) { session.auth_token }
       let(:ethnic_group_id) { 1 }
       let(:diet_id) { 1 }
       let(:blood_type) { "B-positive" }
@@ -166,7 +166,7 @@ resource 'Users' do
       let(:height) { 190 }
       let(:birth_date) { "1980-10-15" }
       let(:phone) { "4163442356" }
-      let(:auth_token) { user.auth_token }
+      let(:auth_token) { session.auth_token }
       let(:ethnic_group_id) { 1 }
       let(:diet_id) { 1 }
       let(:blood_type) { "B-positive" }
@@ -190,7 +190,7 @@ resource 'Users' do
     parameter :auth_token, 'User\'s auth token'
     required_parameters :auth_token
 
-    let(:auth_token) { user.auth_token }
+    let(:auth_token) { session.auth_token }
 
     get '/api/v1/user' do
       example_request '[GET] Get the current user' do
