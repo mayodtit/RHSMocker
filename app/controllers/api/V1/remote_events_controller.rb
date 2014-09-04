@@ -13,7 +13,11 @@ class Api::V1::RemoteEventsController < Api::V1::ABaseController
   private
 
   def user
-    params[:auth_token].present? ? Member.find_by_auth_token(params[:auth_token]) : current_user
+    if params[:auth_token].present?
+      Session.find_by_auth_token(params[:auth_token]).try(:member)
+    else
+      current_user
+    end
   end
 
   def remote_event_params(user)

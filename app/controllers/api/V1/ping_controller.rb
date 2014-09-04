@@ -65,8 +65,8 @@ class Api::V1::PingController < Api::V1::ABaseController
       changed_attributes[:device_notifications_enabled] = params[:notifications_enabled]
     end
 
-    if params[:device_id] && (current_session.install_id != params[:device_id])
-      changed_attributes[:install_id] = params[:device_id]
+    if params[:device_id] && (current_session.device_id != params[:device_id])
+      changed_attributes[:device_id] = params[:device_id]
     end
 
     unless changed_attributes.empty?

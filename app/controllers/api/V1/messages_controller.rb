@@ -80,7 +80,7 @@ Hi#{name.present? ? " #{name}" : ''}. #{pha_name} will follow up with you about 
   def needs_off_hours_response?
     return false if Role.pha.on_call?
     return false if current_user != @consult.initiator
-    return false if current_user.device_app_version && (Gem::Version.new(current_user.device_app_version) >= Gem::Version.new('1.3.0'))
+    return false if current_session.device_app_version && (Gem::Version.new(current_session.device_app_version) >= Gem::Version.new('1.3.0'))
     if now.hour > 17 # same day off hours
       return false if @consult.messages
                               .where(off_hours: true)
