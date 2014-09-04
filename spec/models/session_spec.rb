@@ -15,6 +15,26 @@ describe Session do
     it_validates 'allows blank uniqueness of', :gcm_id
   end
 
+  describe 'database constraints' do
+    it 'validates uniqueness of auth_token' do
+      session1 = create(:session, auth_token: 'test_token')
+      session2 = build(:session, auth_token: session1.auth_token)
+      expect{ session2.save!(validate: false) }.to raise_error(ActiveRecord::RecordNotUnique)
+    end
+
+    it 'validates uniqueness of apns_token' do
+      session1 = create(:session, apns_token: 'test_token')
+      session2 = build(:session, apns_token: session1.apns_token)
+      expect{ session2.save!(validate: false) }.to raise_error(ActiveRecord::RecordNotUnique)
+    end
+
+    it 'validates uniqueness of auth_token' do
+      session1 = create(:session, auth_token: 'test_token')
+      session2 = build(:session, auth_token: session1.auth_token)
+      expect{ session2.save!(validate: false) }.to raise_error(ActiveRecord::RecordNotUnique)
+    end
+  end
+
   describe '#set_auth_token' do
     let(:session) { build_stubbed(:session) }
 
