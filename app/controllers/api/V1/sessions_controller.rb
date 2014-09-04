@@ -3,7 +3,8 @@ class Api::V1::SessionsController < Api::V1::ABaseController
 
   def create
     @user = login(email, password)
-    if @session = @user.sessions.create
+    if @user
+      @session = @user.sessions.create
       render_success(user: @user.serializer(include_roles: true),
                      auth_token: @session.auth_token)
       Analytics.log_user_login(@user.google_analytics_uuid)
