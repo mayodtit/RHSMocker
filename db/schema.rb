@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140903043508) do
+ActiveRecord::Schema.define(:version => 20140904174632) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1026,6 +1026,7 @@ ActiveRecord::Schema.define(:version => 20140903043508) do
     t.string   "device_timezone"
     t.boolean  "device_notifications_enabled"
     t.integer  "nux_answer_id"
+    t.string   "text_phone_number"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true

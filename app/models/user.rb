@@ -56,7 +56,7 @@ class User < ActiveRecord::Base
                   :user_information_attributes, :addresses_attributes, :insurance_policy_attributes,
                   :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id,
                   :provider_taxonomy_code, :owner, :owner_id, :self_owner, :emergency_contact_attributes,
-                  :actor_id
+                  :actor_id, :text_phone_number
 
   validate :member_flag_is_nil
   validates :deceased, :inclusion => {:in => [true, false]}
@@ -64,6 +64,7 @@ class User < ActiveRecord::Base
   validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_blank: true
   validates :phone, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
   validates :work_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
+  validates :text_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
   validates :owner, presence: true
 
   mount_uploader :avatar, AvatarUploader
@@ -329,6 +330,7 @@ class User < ActiveRecord::Base
   def prep_phone_numbers
     self.phone = PhoneNumberUtil::prep_phone_number_for_db self.phone
     self.work_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.work_phone_number
+    self.text_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.text_phone_number
   end
 
   def set_defaults

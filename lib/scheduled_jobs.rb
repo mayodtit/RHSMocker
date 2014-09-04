@@ -33,7 +33,7 @@ class ScheduledJobs
       body = "ALERT: PHAs are currently forced after hours. This can be changed via the Care Portal."
 
       Role.pha_stakeholders.each do |s|
-        TwilioModule.message s.work_phone_number, body
+        TwilioModule.message s.text_phone_number, body
       end
     end
   end
@@ -43,7 +43,7 @@ class ScheduledJobs
       body = "ALERT: No PHAs triaging!"
 
       Role.pha_stakeholders.each do |s|
-        TwilioModule.message s.work_phone_number, body
+        TwilioModule.message s.text_phone_number, body
       end
     end
   end
