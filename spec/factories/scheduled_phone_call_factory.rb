@@ -16,7 +16,26 @@ FactoryGirl.define do
       association :owner, factory: :pha
       booker { user }
       booked_at Time.now
-      association :message, factory: :message
+    end
+
+    trait :ended do
+      state 'ended'
+      association :user, factory: :member
+      association :owner, factory: :pha
+      booker { user }
+      booked_at Time.now
+      ender { user }
+      ended_at Time.now
+    end
+
+    trait :canceled do
+      state 'canceled'
+      association :user, factory: :member
+      association :owner, factory: :pha
+      booker { user }
+      booked_at Time.now
+      canceler { user }
+      canceled_at Time.now
     end
 
     trait :w_message do

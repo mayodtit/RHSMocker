@@ -130,6 +130,10 @@ describe ScheduledPhoneCall do
                                                scheduled_at: scheduled_at)
       end
 
+      before do
+        ScheduledPhoneCall.destroy_all
+      end
+
       context 'the same day' do
         it 'schedules the message for the scheduled day at 9AM pacific' do
           Timecop.freeze(Time.new(2014, 7, 25, 8, 0, 0, '-07:00'))
@@ -269,7 +273,7 @@ describe ScheduledPhoneCall do
     let(:pha) { build_stubbed(:pha) }
     let(:other_pha) { build_stubbed(:pha) }
     let(:member) { build_stubbed(:member) }
-    let(:other_scheduled_phone_call) { build(:scheduled_phone_call) }
+    let(:other_scheduled_phone_call) { build(:scheduled_phone_call, scheduled_at: 4.days.from_now) }
     let(:consult) { build :consult }
     let(:message) { build :message, consult: consult }
 
@@ -286,12 +290,36 @@ describe ScheduledPhoneCall do
       scheduled_phone_call.should be_unassigned
     end
 
+    shared_examples 'won\'t double book pha' do |state|
+      context 'new lets' do
+        let!(:pha) { create :pha }
+        let!(:member) { create :member, pha: pha }
+        let(:scheduled_phone_call) { build :scheduled_phone_call, state, owner: pha, user: member, scheduled_at: 5.days.from_now }
+
+        before do
+          # This clears the context above this
+          ScheduledPhoneCall.destroy_all
+          scheduled_phone_call.message = nil
+        end
+
+        it 'fails validations if scheduled phone calls are not assigned' do
+          create :scheduled_phone_call, :assigned, scheduled_at: scheduled_phone_call.scheduled_at, owner: pha
+          scheduled_phone_call.should_not be_valid
+        end
+
+        it 'ignores scheduled phone calls that are not assigned' do
+          create :scheduled_phone_call, scheduled_at: scheduled_phone_call.scheduled_at
+          scheduled_phone_call.should be_valid
+        end
+      end
+    end
+
     describe '#assign' do
       before do
         scheduled_phone_call.update_attributes state_event: 'assign', assignor: pha_lead, owner: pha
       end
 
-      it_behaves_like 'cannot transition from', :assign!, [:ended, :canceled, :started]
+      it_behaves_like 'cannot transition from', :assign!, [:ended, :canceled]
 
       it 'changes the state to assigned' do
         scheduled_phone_call.should be_assigned
@@ -311,6 +339,8 @@ describe ScheduledPhoneCall do
         scheduled_phone_call.update_attributes state_event: 'assign', assignor: pha_lead, owner: other_pha
         scheduled_phone_call.should be_assigned
       end
+
+      it_behaves_like 'won\'t double book pha', :assigned
     end
 
     describe '#book' do
@@ -332,7 +362,7 @@ describe ScheduledPhoneCall do
                                                user: member)
       end
 
-      it_behaves_like 'cannot transition from', :book!, [:ended, :canceled, :started, :unassigned]
+      it_behaves_like 'cannot transition from', :book!, [:ended, :canceled, :unassigned]
 
       it 'changes the state to booked' do
         expect(book).to be_true
@@ -365,33 +395,13 @@ describe ScheduledPhoneCall do
         expect(book).to be_true
         expect(member.reload.pha).to eq(pha)
       end
-    end
 
-    describe '#start' do
-      before do
-        scheduled_phone_call.state = 'booked'
-        scheduled_phone_call.message = message
-        scheduled_phone_call.owner = pha
-        scheduled_phone_call.user = member
-
-        scheduled_phone_call.update_attributes state_event: 'start', starter: pha
-      end
-
-      it_behaves_like 'cannot transition from', :start!, [:ended, :canceled, :started]
-
-      it 'changes the state to started' do
-        scheduled_phone_call.should be_started
-      end
-
-      it 'sets the started time' do
-        scheduled_phone_call.started_at.should == Time.now
-      end
+      it_behaves_like 'won\'t double book pha', :booked
     end
 
     describe '#cancel' do
       before do
-        scheduled_phone_call.state = 'started'
-        scheduled_phone_call.message = message
+        scheduled_phone_call.state = 'booked'
         scheduled_phone_call.owner = pha
         scheduled_phone_call.user = member
         scheduled_phone_call.update_attributes state_event: 'cancel', canceler: member
@@ -410,11 +420,13 @@ describe ScheduledPhoneCall do
       it 'sets the disabled time' do
         scheduled_phone_call.disabled_at.should == Time.now
       end
+
+      it_behaves_like 'won\'t double book pha', :canceled
     end
 
     describe '#ended' do
       before do
-        scheduled_phone_call.state = 'started'
+        scheduled_phone_call.state = 'booked'
         scheduled_phone_call.message = message
         scheduled_phone_call.owner = pha
         scheduled_phone_call.user = member
@@ -430,6 +442,8 @@ describe ScheduledPhoneCall do
       it 'sets the ended time' do
         scheduled_phone_call.ended_at.should == Time.now
       end
+
+      it_behaves_like 'won\'t double book pha', :canceled
     end
   end
 end

@@ -124,6 +124,11 @@ class Member < User
     where(status: SIGNED_UP_STATES)
   end
 
+  SIGNED_UP_CONSUMER_STATES = %i(free trial premium)
+  def self.signed_up_consumer
+    where(status: SIGNED_UP_CONSUMER_STATES)
+  end
+
   PREMIUM_STATES = %i(trial premium chamath)
   def self.premium_states
     where(status: PREMIUM_STATES)
@@ -168,6 +173,16 @@ class Member < User
     role = Role.where(name: role_name).first_or_create!
     roles << role
     @role_names << role.name.to_s if @role_names
+  end
+
+  def has_service_task?
+    tasks.joins(:service_type)
+         .where(service_types: {bucket: ['wellness', 'care coordination', 'insurance', 'other']})
+         .any?
+  end
+
+  def has_request_task?
+    tasks.where(type: %w(UserRequestTask ParsedNurselineRecordTask)).any?
   end
 
   def engaged?
