@@ -130,7 +130,7 @@ describe ScheduledJobs do
 
   describe '#alert_stakeholders_when_phas_forced_off_call' do
     context 'phas forced off call' do
-      let(:stakeholders) { [build_stubbed(:member), build_stubbed(:pha_lead, work_phone_number: '1111111111'), build_stubbed(:pha_lead, work_phone_number: '4083913578')] }
+      let(:stakeholders) { [build_stubbed(:member), build_stubbed(:pha_lead, text_phone_number: '1111111111'), build_stubbed(:pha_lead, text_phone_number: '4083913578')] }
       before do
         Metadata.stub(:force_phas_off_call?) { true }
       end
@@ -191,7 +191,7 @@ describe ScheduledJobs do
       end
 
       context 'no phas on call' do
-        let(:stakeholders) { [build_stubbed(:member), build_stubbed(:pha_lead, work_phone_number: '1111111111'), build_stubbed(:pha_lead, work_phone_number: '4083913578')] }
+        let(:stakeholders) { [build_stubbed(:member), build_stubbed(:pha_lead, text_phone_number: '1111111111'), build_stubbed(:pha_lead, text_phone_number: '4083913578')] }
 
         before do
           Role.stub_chain(:pha, :users) do
