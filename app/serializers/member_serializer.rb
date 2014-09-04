@@ -55,7 +55,8 @@ class MemberSerializer < ActiveModel::Serializer
         if options[:include_onboarding_information]
           attributes.merge!(feature_groups: object.feature_groups,
                             onboarding_group_name: onboarding_group_name,
-                            referral_code_name: referral_code_name)
+                            referral_code_name: referral_code_name,
+                            sessions: object.sessions.serializer.as_json)
         end
       end
     end
