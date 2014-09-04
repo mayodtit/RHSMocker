@@ -97,10 +97,9 @@ resource 'Users' do
     parameter :ethnic_group_id, "User's ethnic group"
     parameter :diet_id, "User's diet id"
     parameter :blood_type, "User's blood type"
-    parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
     parameter :deceased, "Boolean, is the user deceased"
     parameter :date_of_death, "If the user is deceased, when did they die"
-    scope_parameters :user, [:first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone, :ethnic_group_id, :diet_id, :blood_type, :holds_phone_in, :deceased, :date_of_death]
+    scope_parameters :user, [:first_name, :last_name, :avatar, :gender, :height, :birth_date, :phone, :ethnic_group_id, :diet_id, :blood_type, :deceased, :date_of_death]
     required_parameters :auth_token
 
     put '/api/v1/user' do
@@ -114,7 +113,6 @@ resource 'Users' do
       let(:ethnic_group_id) { 1 }
       let(:diet_id) { 1 }
       let(:blood_type) { "B-positive" }
-      let(:holds_phone_in) { "left" }
       let(:deceased) { false }
       let(:raw_post) { params.to_json }
       let(:avatar) { base64_test_image }
@@ -147,13 +145,12 @@ resource 'Users' do
     parameter :ethnic_group_id, "User's ethnic group"
     parameter :diet_id, "User's diet id"
     parameter :blood_type, "User's blood type"
-    parameter :holds_phone_in, "The hand the user holds the phone in (left, right)"
     parameter :deceased, "Boolean, is the user deceased"
     parameter :date_of_death, "If the user is deceased, when did they die"
     parameter :provider_taxonomy_code, "Associate's healthcare provider taxonomy code"
     scope_parameters :user, [:email, :first_name, :last_name, :avatar, :gender,
                              :height, :birth_date, :phone, :ethnic_group_id,
-                             :diet_id, :blood_type, :holds_phone_in, :deceased,
+                             :diet_id, :blood_type, :deceased,
                              :date_of_death, :provider_taxonomy_code]
     required_parameters :auth_token, :id
 
