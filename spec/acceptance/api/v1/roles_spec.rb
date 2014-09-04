@@ -6,12 +6,9 @@ resource "Roles" do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:pha_lead) }
+  let(:session) { user.sessions.create }
   let!(:pha_lead) { create(:pha_lead) }
-  let(:auth_token) { user.auth_token }
-
-  before(:each) do
-    user.login
-  end
+  let(:auth_token) { session.auth_token }
 
   describe 'show' do
     parameter :auth_token, 'Performing user\'s auth_token'
@@ -19,7 +16,7 @@ resource "Roles" do
 
     required_parameters :auth_token, :id
 
-    let(:auth_token) { user.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:id) { user.roles.first.name }
 
     get '/api/v1/roles/:id' do
@@ -38,7 +35,7 @@ resource "Roles" do
 
     required_parameters :auth_token, :id
 
-    let(:auth_token) { user.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:id) { user.roles.first.name }
 
     get '/api/v1/roles/:id/members' do

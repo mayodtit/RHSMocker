@@ -9,7 +9,7 @@ describe Api::V1::UserAgreementsController do
 
   describe 'POST create' do
     def do_request(params={user_agreement: {agreement_id: agreement.id}})
-      post :create, params.merge!(auth_token: user.auth_token)
+      post :create, params
     end
 
     let(:user_agreements) { double('user_agreements', create: user_agreement) }

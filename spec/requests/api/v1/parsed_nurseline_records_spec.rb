@@ -2,11 +2,12 @@ require 'spec_helper'
 
 describe 'ParsedNurselineRecords' do
   let!(:user) { create(:pha) }
+  let(:session) { user.sessions.create }
   let!(:parsed_nurseline_record) { create(:parsed_nurseline_record) }
 
   describe 'GET /api/v1/parsed_nurseline_records' do
     def do_request
-      get '/api/v1/parsed_nurseline_records', auth_token: user.auth_token
+      get '/api/v1/parsed_nurseline_records', auth_token: session.auth_token
     end
 
     it 'indexes ParsedNurselineRecords' do
@@ -19,7 +20,7 @@ describe 'ParsedNurselineRecords' do
 
   describe 'GET /api/v1/parsed_nurseline_records/:id' do
     def do_request
-      get "/api/v1/parsed_nurseline_records/#{parsed_nurseline_record.id}", auth_token: user.auth_token
+      get "/api/v1/parsed_nurseline_records/#{parsed_nurseline_record.id}", auth_token: session.auth_token
     end
 
     it 'shows the ParsedNurselineRecord' do

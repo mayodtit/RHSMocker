@@ -2,13 +2,14 @@ require 'spec_helper'
 
 describe 'ReferralCodes' do
   let!(:user) { create(:admin) }
+  let(:session) { user.sessions.create }
 
   context 'existing record' do
     let!(:referral_code) { create(:referral_code) }
 
     describe 'GET /api/v1/referral_codes' do
       def do_request
-        get '/api/v1/referral_codes', auth_token: user.auth_token
+        get '/api/v1/referral_codes', auth_token: session.auth_token
       end
 
       it 'indexes referral_codes' do
@@ -22,7 +23,7 @@ describe 'ReferralCodes' do
 
     describe 'GET /api/v1/referral_codes/:id' do
       def do_request
-        get "/api/v1/referral_codes/#{referral_code.id}", auth_token: user.auth_token
+        get "/api/v1/referral_codes/#{referral_code.id}", auth_token: session.auth_token
       end
 
       it 'shows the referral_code' do
@@ -35,7 +36,7 @@ describe 'ReferralCodes' do
 
     describe 'PUT /api/v1/referral_codes/:id' do
       def do_request(params={})
-        put "/api/v1/referral_codes/#{referral_code.id}", params.merge!(auth_token: user.auth_token)
+        put "/api/v1/referral_codes/#{referral_code.id}", params.merge!(auth_token: session.auth_token)
       end
 
       let(:new_name) { 'new name' }
@@ -52,7 +53,7 @@ describe 'ReferralCodes' do
 
   describe 'POST /api/v1/referral_codes' do
     def do_request(params={})
-      post '/api/v1/referral_codes', params.merge!(auth_token: user.auth_token)
+      post '/api/v1/referral_codes', params.merge!(auth_token: session.auth_token)
     end
 
     let(:referral_code_attributes) { attributes_for(:referral_code) }

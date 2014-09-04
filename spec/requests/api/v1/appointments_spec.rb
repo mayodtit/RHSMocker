@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe 'Appointments' do
   let!(:user) { create(:member) }
+  let!(:session) { user.sessions.create }
 
   before do
     Timecop.freeze(Date.today.to_time)
@@ -16,7 +17,7 @@ describe 'Appointments' do
 
     describe 'GET /api/v1/users/:user_id/appointments' do
       def do_request
-        get "/api/v1/users/#{user.id}/appointments", auth_token: user.auth_token
+        get "/api/v1/users/#{user.id}/appointments", auth_token: session.auth_token
       end
 
       it 'indexes appointments' do
@@ -29,7 +30,7 @@ describe 'Appointments' do
 
     describe 'GET /api/v1/users/:user_id/appointments/:id' do
       def do_request
-        get "/api/v1/users/#{user.id}/appointments/#{appointment.id}", auth_token: user.auth_token
+        get "/api/v1/users/#{user.id}/appointments/#{appointment.id}", auth_token: session.auth_token
       end
 
       it 'shows the appointment' do
@@ -42,7 +43,7 @@ describe 'Appointments' do
 
     describe 'PUT /api/v1/users/:user_id/appointments/:id' do
       def do_request(params={})
-        put "/api/v1/users/#{user.id}/appointments/#{appointment.id}", params.merge!(auth_token: user.auth_token)
+        put "/api/v1/users/#{user.id}/appointments/#{appointment.id}", params.merge!(auth_token: session.auth_token)
       end
 
       let(:new_scheduled_at) { Time.now + 1.week }
@@ -58,7 +59,7 @@ describe 'Appointments' do
 
     describe 'DELETE /api/v1/users/:user_id/appointments/:id' do
       def do_request
-        delete "/api/v1/users/#{user.id}/appointments/#{appointment.id}", auth_token: user.auth_token
+        delete "/api/v1/users/#{user.id}/appointments/#{appointment.id}", auth_token: session.auth_token
       end
 
       it 'destroys the appointment' do
@@ -71,7 +72,7 @@ describe 'Appointments' do
 
   describe 'POST /api/v1/users/:user_id/appointments' do
     def do_request(params={})
-      post "/api/v1/users/#{user.id}/appointments", params.merge!(auth_token: user.auth_token)
+      post "/api/v1/users/#{user.id}/appointments", params.merge!(auth_token: session.auth_token)
     end
 
     let!(:provider) { create(:member) }

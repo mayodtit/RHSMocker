@@ -6,11 +6,11 @@ resource "Association" do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:member) }
-  let(:auth_token) { user.auth_token }
+  let(:session) { user.sessions.create }
+  let(:auth_token) { session.auth_token }
   let(:user_id) { user.id }
 
-  before(:each) do
-    user.login
+  before do
     User.any_instance.stub(:taxonomy_classification).and_return("trust me i'm a doctor")
   end
 

@@ -8,6 +8,7 @@ resource "MemberServices" do
   let!(:member) { create :member }
   let!(:relative) { create :user }
   let!(:pha) { create(:pha) }
+  let(:session) { pha.sessions.create }
   let!(:other_pha) { create(:pha) }
   let(:auth_token) { pha.auth_token }
 
@@ -16,10 +17,6 @@ resource "MemberServices" do
   let!(:completed_service) { create :service, :completed, member: member, subject: relative }
   let!(:abandoned_service) { create :service, :abandoned, member: member, subject: relative }
 
-  before(:each) do
-    pha.login
-  end
-
   describe 'services' do
     parameter :auth_token, 'Performing hcp\'s auth_token'
     parameter :member_id, 'Member to retrieve services for'
@@ -27,7 +24,7 @@ resource "MemberServices" do
 
     required_parameters :auth_token, :member_id
 
-    let(:auth_token) { pha.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:member_id) { member.id }
     let(:subject_id) { relative.id }
 

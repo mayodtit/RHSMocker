@@ -2,10 +2,11 @@ require 'spec_helper'
 
 describe 'Contents' do
   let(:user) { create(:member) }
+  let(:session) { user.sessions.create }
 
   describe 'GET /api/v1/contents/tos' do
     def do_request
-      get '/api/v1/contents/tos', auth_token: user.auth_token
+      get '/api/v1/contents/tos', auth_token: session.auth_token
     end
 
     let!(:tos) { MayoContent.terms_of_service || create(:mayo_content, :tos) }

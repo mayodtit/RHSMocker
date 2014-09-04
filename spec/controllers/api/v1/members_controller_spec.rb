@@ -12,7 +12,7 @@ describe Api::V1::MembersController do
 
   describe 'GET index' do
     def do_request(params={})
-      get :index, {auth_token: user.auth_token}.merge!(params)
+      get :index, params
     end
 
     before do
@@ -113,10 +113,10 @@ describe Api::V1::MembersController do
         body[:user].to_json.should == user.serializer.as_json.to_json
       end
 
-      it "returns the member's auth_token" do
+      it "returns the session's auth_token" do
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:auth_token].to_json.should == user.auth_token.as_json.to_json
+        body[:auth_token].to_json.should == user.sessions.first.auth_token.to_json
       end
     end
 

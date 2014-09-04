@@ -2,11 +2,12 @@ require 'spec_helper'
 
 describe 'UserAgreements' do
   let!(:user) { create(:member) }
+  let(:session) { user.sessions.create }
   let!(:agreement) { create(:agreement) }
 
   describe 'POST /api/v1/users/:user_id/agreements' do
     def do_request(params={})
-      post "/api/v1/users/#{user.id}/agreements", params.merge!(auth_token: user.auth_token), {'HTTP_USER_AGENT' => 'test'}
+      post "/api/v1/users/#{user.id}/agreements", params.merge!(auth_token: session.auth_token), {'HTTP_USER_AGENT' => 'test'}
     end
 
     let(:user_agreement_params) { {user_agreement: {agreement_id: agreement.id}} }

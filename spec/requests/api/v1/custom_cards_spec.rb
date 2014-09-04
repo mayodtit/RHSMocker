@@ -2,13 +2,14 @@ require 'spec_helper'
 
 describe 'CustomCards' do
   let(:user) { create(:admin) }
+  let(:session) { user.sessions.create }
 
   context 'existing record' do
     let!(:custom_card) { create(:custom_card) }
 
     describe 'GET /api/v1/custom_cards' do
       def do_request
-        get '/api/v1/custom_cards', auth_token: user.auth_token
+        get '/api/v1/custom_cards', auth_token: session.auth_token
       end
 
       it 'indexes custom_cards' do
@@ -21,7 +22,7 @@ describe 'CustomCards' do
 
     describe 'GET /api/v1/custom_cards/:id' do
       def do_request
-        get "/api/v1/custom_cards/#{custom_card.id}", auth_token: user.auth_token
+        get "/api/v1/custom_cards/#{custom_card.id}", auth_token: session.auth_token
       end
 
       it 'shows the custom_card' do
@@ -34,7 +35,7 @@ describe 'CustomCards' do
 
     describe 'PUT /api/v1/custom_cards/:id' do
       def do_request(params={})
-        put "/api/v1/custom_cards/#{custom_card.id}", params.merge!(auth_token: user.auth_token)
+        put "/api/v1/custom_cards/#{custom_card.id}", params.merge!(auth_token: session.auth_token)
       end
 
       let(:new_title) { 'new title' }
@@ -51,7 +52,7 @@ describe 'CustomCards' do
 
   describe 'POST /api/v1/custom_cards' do
     def do_request(params={})
-      post '/api/v1/custom_cards', params.merge!(auth_token: user.auth_token)
+      post '/api/v1/custom_cards', params.merge!(auth_token: session.auth_token)
     end
 
     let(:custom_card_attributes) { attributes_for(:custom_card) }

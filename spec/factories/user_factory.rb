@@ -6,7 +6,6 @@ FactoryGirl.define do
     on_call false
 
     factory :member, class: Member, aliases: [:user_with_email] do
-      sequence(:install_id) { |n| "Install-ID-#{n}" }
       sequence(:email)    { |n| "user#{n}@test.com" }
       password              "password"
       member_flag true

@@ -66,7 +66,8 @@ class Api::V1::InvitationsController < Api::V1::ABaseController
 
     if user.valid?
       @invitation.claim!
-      render_success(user: user.serializer(include_roles: user.care_provider?), auth_token: user.auth_token)
+      @session = user.sessions.create
+      render_success(user: user.serializer(include_roles: user.care_provider?), auth_token: @session.auth_token)
     else
       render_failure({:reason => user.errors.full_messages.to_sentence,
                       :user_message => user.errors.full_messages.to_sentence}, 422)

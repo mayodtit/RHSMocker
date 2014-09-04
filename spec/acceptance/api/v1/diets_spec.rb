@@ -6,7 +6,7 @@ resource "Diets" do
   header 'Content-Type', 'application/json'
 
   get '/api/v1/diets' do
-    before(:each) do
+    before do
       create_list(:diet, 3)
     end
 

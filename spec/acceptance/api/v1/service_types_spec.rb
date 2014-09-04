@@ -6,7 +6,8 @@ resource 'Service Types' do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create :pha }
-  let(:auth_token) { user.auth_token }
+  let(:session) { user.sessions.create }
+  let(:auth_token) { session.auth_token }
   let!(:service_b) { create :service_type, name: 'Service B', bucket: 'insurance' }
   let!(:service_a) { create :service_type, name: 'Service A', bucket: 'insurance' }
   let!(:service_c) { create :service_type, name: 'Service C', bucket: 'wellness' }

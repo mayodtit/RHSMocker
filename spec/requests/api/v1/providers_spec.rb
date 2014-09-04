@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe 'Providers' do
   let!(:user) { create(:member) }
+  let(:session) { user.sessions.create }
   let(:provider) {
                    {
                      first_name: 'Kyle',
@@ -19,7 +20,7 @@ describe 'Providers' do
 
   describe 'GET /api/v1/providers' do
     def do_request
-      get '/api/v1/providers', auth_token: user.auth_token
+      get '/api/v1/providers', auth_token: session.auth_token
     end
 
     it 'indexes the providers' do

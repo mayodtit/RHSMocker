@@ -12,7 +12,7 @@ describe Api::V1::ContentsController do
 
   describe 'GET index' do
     def do_request(params={})
-      get :index, {auth_token: user.auth_token}.merge!(params)
+      get :index, params
     end
 
     it_behaves_like 'action requiring authentication'
@@ -92,7 +92,7 @@ describe Api::V1::ContentsController do
 
   describe 'POST like' do
     def do_request
-      post :like, auth_token: user.auth_token, content_id: content.id
+      post :like, content_id: content.id
     end
 
     it_behaves_like 'action requiring authentication'
@@ -107,7 +107,7 @@ describe Api::V1::ContentsController do
 
   describe 'POST dislike' do
     def do_request
-      post :dislike, auth_token: user.auth_token, content_id: content.id
+      post :dislike, content_id: content.id
     end
 
     it_behaves_like 'action requiring authentication'
@@ -122,7 +122,7 @@ describe Api::V1::ContentsController do
 
   describe 'POST remove_like' do
     def do_request
-      post :remove_like, auth_token: user.auth_token, content_id: content.id
+      post :remove_like, content_id: content.id
     end
 
     it_behaves_like 'action requiring authentication'

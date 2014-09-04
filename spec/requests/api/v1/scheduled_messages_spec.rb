@@ -11,13 +11,14 @@ describe 'ScheduledMessages' do
 
   let(:consult) { create(:consult, :master) }
   let(:pha) { create(:pha) }
+  let(:session) { pha.sessions.create }
 
   context 'existing record' do
     let!(:scheduled_message) { create(:scheduled_message, sender: pha, recipient: consult.initiator) }
 
     describe 'GET /api/v1/consults/:consult_id/scheduled_messages' do
       def do_request
-        get "/api/v1/consults/#{consult.id}/scheduled_messages", auth_token: pha.auth_token
+        get "/api/v1/consults/#{consult.id}/scheduled_messages", auth_token: session.auth_token
       end
 
       it 'indexes scheduled_messages' do
@@ -30,7 +31,7 @@ describe 'ScheduledMessages' do
 
     describe 'GET /api/v1/consults/:consult_id/scheduled_messages/:id' do
       def do_request
-        get "/api/v1/consults/#{consult.id}/scheduled_messages/#{scheduled_message.id}", auth_token: pha.auth_token
+        get "/api/v1/consults/#{consult.id}/scheduled_messages/#{scheduled_message.id}", auth_token: session.auth_token
       end
 
       it 'shows the scheduled_message' do
@@ -43,7 +44,7 @@ describe 'ScheduledMessages' do
 
     describe 'PUT /api/v1/consults/:consult_id/scheduled_messages/:id' do
       def do_request(params={})
-        put "/api/v1/consults/#{consult.id}/scheduled_messages/#{scheduled_message.id}", params.merge!(auth_token: pha.auth_token)
+        put "/api/v1/consults/#{consult.id}/scheduled_messages/#{scheduled_message.id}", params.merge!(auth_token: session.auth_token)
       end
 
       let(:new_publish_at) { Time.now + 5.days }
@@ -59,7 +60,7 @@ describe 'ScheduledMessages' do
 
     describe 'DELETE /api/v1/consults/:consult_id/scheduled_messages/:id' do
       def do_request
-        delete "/api/v1/consults/#{consult.id}/scheduled_messages/#{scheduled_message.id}", auth_token: pha.auth_token
+        delete "/api/v1/consults/#{consult.id}/scheduled_messages/#{scheduled_message.id}", auth_token: session.auth_token
       end
 
       it 'destroys the scheduled_message' do
@@ -72,7 +73,7 @@ describe 'ScheduledMessages' do
 
   describe 'POST /api/v1/consults/:consult_id/scheduled_messages' do
     def do_request(params={})
-      post "/api/v1/consults/#{consult.id}/scheduled_messages", params.merge!(auth_token: pha.auth_token)
+      post "/api/v1/consults/#{consult.id}/scheduled_messages", params.merge!(auth_token: session.auth_token)
     end
 
     let(:scheduled_message_attributes) { {text: 'hello world', publish_at: Time.now + 1.day} }

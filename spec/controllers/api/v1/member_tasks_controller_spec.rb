@@ -12,7 +12,7 @@ describe Api::V1::MemberTasksController do
 
   describe 'GET index' do
     def do_request
-      get :index, member_id: member.id, auth_token: user.auth_token
+      get :index, member_id: member.id
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -35,7 +35,7 @@ describe Api::V1::MemberTasksController do
           o
         end
 
-        get :index, member_id: member.id, auth_token: user.auth_token, subject_id: 1, state: 'unassigned'
+        get :index, member_id: member.id, subject_id: 1, state: 'unassigned'
         body = JSON.parse(response.body, symbolize_names: true)
         body[:tasks].to_json.should == tasks.serializer.as_json.to_json
       end
@@ -53,7 +53,7 @@ describe Api::V1::MemberTasksController do
           o
         end
 
-        get :index, member_id: member.id, auth_token: user.auth_token, subject_id: 1, state: 'unassigned', due_at: 3.days.ago
+        get :index, member_id: member.id, subject_id: 1, state: 'unassigned', due_at: 3.days.ago
         body = JSON.parse(response.body, symbolize_names: true)
         body[:tasks].to_json.should == tasks.serializer.as_json.to_json
       end
@@ -76,7 +76,7 @@ describe Api::V1::MemberTasksController do
             o
           end
 
-          get :index, member_id: member.id, auth_token: user.auth_token, subject_id: member.id, state: 'unassigned', due_at: 3.days.ago
+          get :index, member_id: member.id, subject_id: member.id, state: 'unassigned', due_at: 3.days.ago
           body = JSON.parse(response.body, symbolize_names: true)
           body[:tasks].to_json.should == tasks.serializer.as_json.to_json
         end
@@ -93,7 +93,7 @@ describe Api::V1::MemberTasksController do
 
     def do_request
       task_attributes = {title: 'Title'}
-      post :create, auth_token: user.auth_token, member_id: member.id, task: task_attributes
+      post :create, member_id: member.id, task: task_attributes
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -117,14 +117,14 @@ describe Api::V1::MemberTasksController do
         it 'sets assignor_id to current user' do
           MemberTask.should_receive(:create).with(hash_including('assignor_id' => user.id)) { task }
 
-          post :create, auth_token: user.auth_token, member_id: member.id, task: {owner_id: 2}
+          post :create, member_id: member.id, task: {owner_id: 2}
         end
       end
 
       context 'owner id is not present' do
         it 'sets assignor_id to current user' do
           MemberTask.should_receive(:create).with(hash_excluding('assignor_id')) { task }
-          post :create, auth_token: user.auth_token, member_id: member.id, task: {title: 'Title'}
+          post :create, member_id: member.id, task: {title: 'Title'}
         end
       end
     end

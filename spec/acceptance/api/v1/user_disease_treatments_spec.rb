@@ -6,12 +6,9 @@ resource "UserDiseaseTreatments" do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:member) }
-  let(:auth_token) { user.auth_token }
+  let(:session) { user.sessions.create }
+  let(:auth_token) { session.auth_token }
   let(:user_id) { user.id }
-
-  before(:each) do
-    user.login
-  end
 
   parameter :auth_token, "Performing user's auth_token"
   parameter :user_id, "Target user's id"

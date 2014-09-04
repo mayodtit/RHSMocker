@@ -2,13 +2,14 @@ require 'spec_helper'
 
 describe 'Addresses' do
   let!(:user) { create(:member) }
+  let!(:session) { user.sessions.create }
 
   context 'existing record' do
     let!(:address) { create(:address, user: user) }
 
     describe 'GET /api/v1/users/:user_id/addresses' do
       def do_request
-        get "/api/v1/users/#{user.id}/addresses", auth_token: user.auth_token
+        get "/api/v1/users/#{user.id}/addresses", auth_token: session.auth_token
       end
 
       it 'indexes addresses' do
@@ -21,7 +22,7 @@ describe 'Addresses' do
 
     describe 'GET /api/v1/users/:user_id/addresses/:id' do
       def do_request
-        get "/api/v1/users/#{user.id}/addresses/#{address.id}", auth_token: user.auth_token
+        get "/api/v1/users/#{user.id}/addresses/#{address.id}", auth_token: session.auth_token
       end
 
       it 'shows the address' do
@@ -34,7 +35,7 @@ describe 'Addresses' do
 
     describe 'PUT /api/v1/users/:user_id/addresses/:id' do
       def do_request(params={})
-        put "/api/v1/users/#{user.id}/addresses/#{address.id}", params.merge!(auth_token: user.auth_token)
+        put "/api/v1/users/#{user.id}/addresses/#{address.id}", params.merge!(auth_token: session.auth_token)
       end
 
       let(:new_address) { '123 Test St.' }
@@ -50,7 +51,7 @@ describe 'Addresses' do
 
     describe 'DELETE /api/v1/users/:user_id/addresses/:id' do
       def do_request
-        delete "/api/v1/users/#{user.id}/addresses/#{address.id}", auth_token: user.auth_token
+        delete "/api/v1/users/#{user.id}/addresses/#{address.id}", auth_token: session.auth_token
       end
 
       it 'destroys the address' do
@@ -63,7 +64,7 @@ describe 'Addresses' do
 
   describe 'POST /api/v1/users/:user_id/addresses' do
     def do_request(params={})
-      post "/api/v1/users/#{user.id}/addresses", params.merge!(auth_token: user.auth_token)
+      post "/api/v1/users/#{user.id}/addresses", params.merge!(auth_token: session.auth_token)
     end
 
     let(:address_attributes) { attributes_for(:address) }

@@ -23,7 +23,7 @@ describe Api::V1::ScheduledPhoneCallsController do
 
   describe 'GET index' do
     def do_request
-      get :index, auth_token: user.auth_token
+      get :index
     end
 
     before do
@@ -44,7 +44,7 @@ describe Api::V1::ScheduledPhoneCallsController do
 
       it 'filters by only state, user_id, and owner_id' do
         ScheduledPhoneCall.stub(:where).with('state' => 'booked', 'user_id' => '2', 'owner_id' => '3') { scheduled_phone_calls }
-        get :index, auth_token: user.auth_token, state: 'booked', user_id: 2, owner_id: 3, blah: 5
+        get :index, state: 'booked', user_id: 2, owner_id: 3, blah: 5
         json = JSON.parse(response.body)
         json['scheduled_phone_calls'].to_json.should == scheduled_phone_calls.serializer(shallow: true).to_json
       end
@@ -58,7 +58,7 @@ describe Api::V1::ScheduledPhoneCallsController do
           end
           o
         end
-        get :index, auth_token: user.auth_token, scheduled_after: 3.days.ago
+        get :index, scheduled_after: 3.days.ago
         json = JSON.parse(response.body)
         json['scheduled_phone_calls'].to_json.should == scheduled_phone_calls.serializer(shallow: true).to_json
         Timecop.return
@@ -110,7 +110,7 @@ describe Api::V1::ScheduledPhoneCallsController do
 
   describe 'GET show' do
     def do_request
-      get :show, auth_token: user.auth_token
+      get :show
     end
 
     before do

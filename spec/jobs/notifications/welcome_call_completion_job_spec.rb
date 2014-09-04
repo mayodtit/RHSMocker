@@ -28,7 +28,8 @@ describe Notifications::WelcomeCallCompletionJob do
     end
 
     context 'user with apns_token' do
-      let(:user) { create(:member, apns_token: 'test_token') }
+      let(:user) { create(:member) }
+      let!(:session) { user.sessions.create(apns_token: 'test_token') }
 
       it 'calls APNS' do
         APNS.should_receive(:send_notification)

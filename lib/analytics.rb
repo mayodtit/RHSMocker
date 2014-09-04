@@ -4,7 +4,7 @@ class Analytics
   class << self
     def log_remote_event(remote_event_id)
       remote_event = RemoteEvent.find(remote_event_id)
-      user = remote_event.user || User.find_by_auth_token(remote_event.data_json['auth_token'])
+      user = remote_event.user || Session.find_by_auth_token(remote_event.data_json['auth_token']).try(:member)
 
       # GA logging requires user
       return if user.nil?
