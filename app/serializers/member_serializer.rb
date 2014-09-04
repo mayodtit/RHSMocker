@@ -14,7 +14,7 @@ class MemberSerializer < ActiveModel::Serializer
              :has_master_consult, :subscription_end_date, :subscription_ends_at,
              :invitation_url, :signed_up_at, :has_welcome_call, :device_app_version,
              :device_app_build, :device_timezone, :device_notifications_enabled,
-             :device_os, :status, :meet_your_pha_text
+             :device_os, :status, :meet_your_pha_text, :text_phone_number
 
   has_one :nux_answer
 
