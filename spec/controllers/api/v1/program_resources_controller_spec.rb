@@ -14,7 +14,7 @@ describe Api::V1::ProgramResourcesController do
 
   describe 'GET index' do
     def do_request
-      get :index, auth_token: user.auth_token
+      get :index
     end
 
     it_behaves_like 'action requiring authentication and authorization'

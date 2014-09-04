@@ -2,17 +2,14 @@ require 'spec_helper'
 
 describe 'UserDiseaseUserTreatments' do
   let!(:user) { create(:member) }
+  let(:session) { user.sessions.create }
   let!(:user_disease) { create(:user_disease, :user => user) }
   let!(:user_disease_treatment) { create(:user_disease_treatment, :user => user) }
-
-  before(:each) do
-    user.login
-  end
 
   describe 'creating a record' do
     describe 'POST /api/v1/users/:user_id/diseases/:disease_id/treatments/:id' do
       def do_request(params={})
-        post "/api/v1/users/#{user.id}/diseases/#{user_disease.id}/treatments/#{user_disease_treatment.id}", params.merge!(auth_token: user.auth_token)
+        post "/api/v1/users/#{user.id}/diseases/#{user_disease.id}/treatments/#{user_disease_treatment.id}", params.merge!(auth_token: session.auth_token)
       end
 
       it 'creates a new record' do
@@ -26,7 +23,7 @@ describe 'UserDiseaseUserTreatments' do
 
     describe 'POST /api/v1/users/:user_id/diseases/:disease_id/treatments/:id' do
       def do_request(params={})
-        post "/api/v1/users/#{user.id}/treatments/#{user_disease_treatment.id}/diseases/#{user_disease.id}", params.merge!(auth_token: user.auth_token)
+        post "/api/v1/users/#{user.id}/treatments/#{user_disease_treatment.id}/diseases/#{user_disease.id}", params.merge!(auth_token: session.auth_token)
       end
 
       it 'creates a new record' do
@@ -47,7 +44,7 @@ describe 'UserDiseaseUserTreatments' do
 
     describe 'DELETE /api/v1/users/:user_id/diseases/:disease_id/treatments/:id' do
       def do_request(params={})
-        delete "/api/v1/users/#{user.id}/diseases/#{user_disease.id}/treatments/#{user_disease_treatment.id}", params.merge!(auth_token: user.auth_token)
+        delete "/api/v1/users/#{user.id}/diseases/#{user_disease.id}/treatments/#{user_disease_treatment.id}", params.merge!(auth_token: session.auth_token)
       end
 
       it 'deletes the record' do
@@ -58,7 +55,7 @@ describe 'UserDiseaseUserTreatments' do
 
     describe 'DELETE /api/v1/users/:user_id/treatments/:treatment_id/diseases/:id' do
       def do_request(params={})
-        delete "/api/v1/users/#{user.id}/treatments/#{user_disease_treatment.id}/diseases/#{user_disease.id}", params.merge!(auth_token: user.auth_token)
+        delete "/api/v1/users/#{user.id}/treatments/#{user_disease_treatment.id}/diseases/#{user_disease.id}", params.merge!(auth_token: session.auth_token)
       end
 
       it 'deletes the record' do

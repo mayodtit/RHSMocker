@@ -12,7 +12,7 @@ describe Api::V1::RolesController do
 
   describe 'GET show' do
     def do_request
-      get :show, auth_token: user.auth_token, id: 'pha'
+      get :show, id: 'pha'
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -42,7 +42,7 @@ describe Api::V1::RolesController do
 
   describe 'GET members' do
     def do_request
-      get :members, auth_token: user.auth_token, id: 'pha'
+      get :members, id: 'pha'
     end
 
     it_behaves_like 'action requiring authentication and authorization'

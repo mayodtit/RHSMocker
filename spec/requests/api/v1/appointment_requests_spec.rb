@@ -1,11 +1,12 @@
 require 'spec_helper'
 
 describe 'UserRequests' do
-  let(:user) { create(:member) }
+  let!(:user) { create(:member) }
+  let!(:session) { user.sessions.create }
 
   describe 'POST /api/v1/users/:user_id/appointment_requests' do
     def do_request(params={})
-      post "/api/v1/users/#{user.id}/appointment_requests", params.merge!(auth_token: user.auth_token)
+      post "/api/v1/users/#{user.id}/appointment_requests", params.merge!(auth_token: session.auth_token)
     end
 
     let!(:user_request_type) { create(:appointment_user_request_type) }

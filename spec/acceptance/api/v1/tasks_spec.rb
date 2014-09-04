@@ -6,6 +6,7 @@ resource "Tasks" do
   header 'Content-Type', 'application/json'
 
   let!(:pha) { create(:pha) }
+  let(:session) { pha.sessions.create }
   let!(:other_pha) { create(:pha) }
   let!(:task) { create(:task) }
   let!(:another_task) { create(:task) }
@@ -17,11 +18,7 @@ resource "Tasks" do
   let!(:completed_task) { create(:task, :completed) }
   let!(:abandoned_task) { create(:task, :abandoned) }
 
-  let(:auth_token) { pha.auth_token }
-
-  before(:each) do
-    pha.login
-  end
+  let(:auth_token) { session.auth_token }
 
   describe 'tasks' do
     parameter :auth_token, 'Performing hcp\'s auth_token'
@@ -29,7 +26,7 @@ resource "Tasks" do
 
     required_parameters :auth_token
 
-    let(:auth_token) { pha.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:state) { 'unstarted' }
 
     get '/api/v1/tasks/' do
@@ -50,7 +47,7 @@ resource "Tasks" do
 
     required_parameters :auth_token
 
-    let(:auth_token) { pha.auth_token }
+    let(:auth_token) { session.auth_token }
 
     get '/api/v1/tasks/queue' do
       example_request '[GET] Get the tasks queue for the current user' do
@@ -68,7 +65,7 @@ resource "Tasks" do
 
     required_parameters :auth_token, :id
 
-    let(:auth_token) { pha.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:id) { task.id }
 
     get '/api/v1/tasks/:id' do
@@ -86,7 +83,7 @@ resource "Tasks" do
 
     required_parameters :auth_token
 
-    let(:auth_token) { pha.auth_token }
+    let(:auth_token) { session.auth_token }
 
     get '/api/v1/tasks/current' do
       example_request '[GET] Get the current claimed task of the pha.' do
@@ -108,7 +105,7 @@ resource "Tasks" do
     required_parameters :auth_token, :id
     scope_parameters :task, [:state_event, :owner_id, :reason_abandoned]
 
-    let(:auth_token) { pha.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:id) { task.id }
     let(:state_event) { 'abandon' }
     let(:owner_id) { other_pha.id }

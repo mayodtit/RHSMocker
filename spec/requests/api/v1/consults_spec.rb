@@ -29,6 +29,7 @@ end
 
 describe 'Consults' do
   let(:user) { create(:member) }
+  let(:session) { user.sessions.create }
 
   before do
     Role.find_or_create_by_name!(:pha)
@@ -39,7 +40,7 @@ describe 'Consults' do
 
     describe 'GET /api/v1/consults' do
       def do_request
-        get "/api/v1/consults", auth_token: user.auth_token
+        get "/api/v1/consults", auth_token: session.auth_token
       end
 
       it 'indexes the user\'s consults' do
@@ -52,7 +53,7 @@ describe 'Consults' do
 
     describe 'GET /api/v1/consults/current' do
       def do_request
-        get "/api/v1/consults/current", auth_token: user.auth_token
+        get "/api/v1/consults/current", auth_token: session.auth_token
       end
 
       let!(:master) { create(:consult, :master, initiator: user) }
@@ -67,7 +68,7 @@ describe 'Consults' do
 
     describe 'GET /api/v1/consults/:id' do
       def do_request
-        get "/api/v1/consults/#{consult.id}", auth_token: user.auth_token
+        get "/api/v1/consults/#{consult.id}", auth_token: session.auth_token
       end
 
       it 'shows a single consult' do
@@ -81,7 +82,7 @@ describe 'Consults' do
 
   describe 'POST /api/v1/consults' do
     def do_request(params={})
-      post 'api/v1/consults', params.merge!(auth_token: user.auth_token)
+      post 'api/v1/consults', params.merge!(auth_token: session.auth_token)
     end
 
     let(:title) { 'test title' }

@@ -2,17 +2,14 @@ require 'spec_helper'
 
 describe 'UserDiseaseTreatments' do
   let(:user) { create(:member) }
-
-  before(:each) do
-    user.login
-  end
+  let(:session) { user.sessions.create }
 
   context 'existing record' do
     let!(:user_disease_treatment) { create(:user_disease_treatment, :user => user) }
 
     describe 'GET /api/v1/users/:user_id/treatments' do
       def do_request
-        get "/api/v1/users/#{user.id}/treatments", :auth_token => user.auth_token
+        get "/api/v1/users/#{user.id}/treatments", :auth_token => session.auth_token
       end
 
       it 'indexes the user\'s treatments' do
@@ -28,7 +25,7 @@ describe 'UserDiseaseTreatments' do
 
     describe 'GET /api/v1/users/:user_id/treatments/:id' do
       def do_request
-        get "/api/v1/users/#{user.id}/treatments/#{user_disease_treatment.id}", :auth_token => user.auth_token
+        get "/api/v1/users/#{user.id}/treatments/#{user_disease_treatment.id}", :auth_token => session.auth_token
       end
 
       it 'shows the user\'s treatment' do
@@ -41,7 +38,7 @@ describe 'UserDiseaseTreatments' do
 
     describe 'PUT /api/v1/users/:user_id/treatments/:id' do
       def do_request(params={})
-        put "/api/v1/users/#{user.id}/treatments/#{user_disease_treatment.id}", {:user_disease_treatment => params}.merge!(:auth_token => user.auth_token)
+        put "/api/v1/users/#{user.id}/treatments/#{user_disease_treatment.id}", {:user_disease_treatment => params}.merge!(:auth_token => session.auth_token)
       end
 
       let(:new_start_date) { Date.parse('04-10-1986') }
@@ -59,7 +56,7 @@ describe 'UserDiseaseTreatments' do
 
     describe 'DELETE /api/v1/users/:user_id/treatments/:id' do
       def do_request
-        delete "/api/v1/users/#{user.id}/treatments/#{user_disease_treatment.id}", :auth_token => user.auth_token
+        delete "/api/v1/users/#{user.id}/treatments/#{user_disease_treatment.id}", :auth_token => session.auth_token
       end
 
       it 'deletes the user\'s treatment' do
@@ -71,7 +68,7 @@ describe 'UserDiseaseTreatments' do
 
   describe 'POST /api/v1/users/:user_id/treatments' do
     def do_request(params={})
-      post "/api/v1/users/#{user.id}/treatments", {:user_disease_treatment => params}.merge!(:auth_token => user.auth_token)
+      post "/api/v1/users/#{user.id}/treatments", {:user_disease_treatment => params}.merge!(:auth_token => session.auth_token)
     end
 
     let!(:treatment) { create(:treatment) }

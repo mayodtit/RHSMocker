@@ -2,17 +2,14 @@ require 'spec_helper'
 
 describe 'UserConditionUserTreatments' do
   let!(:user) { create(:member) }
+  let(:session) { user.sessions.create }
   let!(:user_condition) { create(:user_condition, :user => user) }
   let!(:user_treatment) { create(:user_treatment, :user => user) }
-
-  before(:each) do
-    user.login
-  end
 
   describe 'creating a record' do
     describe 'POST /api/v1/users/:user_id/conditions/:condition_id/treatments/:id' do
       def do_request(params={})
-        post "/api/v1/users/#{user.id}/conditions/#{user_condition.id}/treatments/#{user_treatment.id}", params.merge!(auth_token: user.auth_token)
+        post "/api/v1/users/#{user.id}/conditions/#{user_condition.id}/treatments/#{user_treatment.id}", params.merge!(auth_token: session.auth_token)
       end
 
       it 'creates a new record' do
@@ -26,7 +23,7 @@ describe 'UserConditionUserTreatments' do
 
     describe 'POST /api/v1/users/:user_id/conditions/:condition_id/treatments/:id' do
       def do_request(params={})
-        post "/api/v1/users/#{user.id}/treatments/#{user_treatment.id}/conditions/#{user_condition.id}", params.merge!(auth_token: user.auth_token)
+        post "/api/v1/users/#{user.id}/treatments/#{user_treatment.id}/conditions/#{user_condition.id}", params.merge!(auth_token: session.auth_token)
       end
 
       it 'creates a new record' do
@@ -47,7 +44,7 @@ describe 'UserConditionUserTreatments' do
 
     describe 'DELETE /api/v1/users/:user_id/conditions/:condition_id/treatments/:id' do
       def do_request(params={})
-        delete "/api/v1/users/#{user.id}/conditions/#{user_condition.id}/treatments/#{user_treatment.id}", params.merge!(auth_token: user.auth_token)
+        delete "/api/v1/users/#{user.id}/conditions/#{user_condition.id}/treatments/#{user_treatment.id}", params.merge!(auth_token: session.auth_token)
       end
 
       it 'deletes the record' do
@@ -58,7 +55,7 @@ describe 'UserConditionUserTreatments' do
 
     describe 'DELETE /api/v1/users/:user_id/treatments/:treatment_id/conditions/:id' do
       def do_request(params={})
-        delete "/api/v1/users/#{user.id}/treatments/#{user_treatment.id}/conditions/#{user_condition.id}", params.merge!(auth_token: user.auth_token)
+        delete "/api/v1/users/#{user.id}/treatments/#{user_treatment.id}/conditions/#{user_condition.id}", params.merge!(auth_token: session.auth_token)
       end
 
       it 'deletes the record' do

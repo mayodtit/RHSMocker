@@ -19,7 +19,7 @@ describe Api::V1::TasksController do
 
   describe 'GET index' do
     def do_request
-      get :index, auth_token: user.auth_token
+      get :index
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -44,7 +44,7 @@ describe Api::V1::TasksController do
           o
         end
 
-        get :index, auth_token: user.auth_token, state: 'unassigned'
+        get :index, state: 'unassigned'
         body = JSON.parse(response.body, symbolize_names: true)
         body[:tasks].to_json.should == tasks.serializer(shallow: true).as_json.to_json
       end
@@ -63,14 +63,14 @@ describe Api::V1::TasksController do
           end
           o
         end
-        get :index, auth_token: user.auth_token, state: 'unassigned', due_at: 3.days.ago
+        get :index, state: 'unassigned', due_at: 3.days.ago
       end
     end
   end
 
   describe 'GET queue' do
     def do_request
-      get :queue, auth_token: user.auth_token
+      get :queue
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -180,7 +180,7 @@ describe Api::V1::TasksController do
     let(:task) { build_stubbed :task }
 
     def do_request
-      get :show, auth_token: user.auth_token, id: task.id
+      get :show, id: task.id
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -208,7 +208,7 @@ describe Api::V1::TasksController do
     let(:task) { build_stubbed :task }
 
     def do_request
-      get :current, auth_token: user.auth_token
+      get :current
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -242,7 +242,7 @@ describe Api::V1::TasksController do
     let(:task) { build_stubbed :task }
 
     def do_request
-      put :update, auth_token: user.auth_token, id: task.id, task: {state_event: 'abandon'}
+      put :update, id: task.id, task: {state_event: 'abandon'}
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -265,7 +265,7 @@ describe Api::V1::TasksController do
 
               task.stub(:owner_id) { user.id }
               task.stub(:assignor_id) { user.id }
-              put :update, auth_token: user.auth_token, id: task.id, task: {state_event: 'abandon'}
+              put :update, id: task.id, task: {state_event: 'abandon'}
             end
           end
 
@@ -276,7 +276,7 @@ describe Api::V1::TasksController do
 
             context 'owner id is not present' do
               def do_request
-                put :update, auth_token: user.auth_token, id: task.id, task: {state_event: 'start'}
+                put :update, id: task.id, task: {state_event: 'start'}
               end
 
               it 'sets owner id to current user' do
@@ -287,7 +287,7 @@ describe Api::V1::TasksController do
 
             context 'owner id is present' do
               def do_request
-                put :update, auth_token: user.auth_token, id: task.id, task: {state_event: 'start', owner_id: 2}
+                put :update, id: task.id, task: {state_event: 'start', owner_id: 2}
               end
 
               it 'does nothing' do
@@ -304,7 +304,7 @@ describe Api::V1::TasksController do
 
             context 'owner id is not present' do
               def do_request
-                put :update, auth_token: user.auth_token, id: task.id, task: {state_event: 'start'}
+                put :update, id: task.id, task: {state_event: 'start'}
               end
 
               it 'does nothing' do
@@ -315,7 +315,7 @@ describe Api::V1::TasksController do
 
             context 'owner id is present' do
               def do_request
-                put :update, auth_token: user.auth_token, id: task.id, task: {state_event: 'start', owner_id: 2}
+                put :update, id: task.id, task: {state_event: 'start', owner_id: 2}
               end
 
               it 'does nothing' do
@@ -328,7 +328,7 @@ describe Api::V1::TasksController do
 
         context 'owner id is present' do
           def do_request
-            put :update, auth_token: user.auth_token, id: task.id, task: {owner_id: 2}
+            put :update, id: task.id, task: {owner_id: 2}
           end
 
           context 'owner id does not match task' do
@@ -348,7 +348,7 @@ describe Api::V1::TasksController do
             end
 
             def do_request
-              put :update, auth_token: user.auth_token, id: task.id, task: {owner_id: 2}
+              put :update, id: task.id, task: {owner_id: 2}
             end
 
             it 'does nothing' do

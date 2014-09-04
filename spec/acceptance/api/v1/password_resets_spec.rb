@@ -5,7 +5,7 @@ resource "PasswordResets" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  let!(:user) { create(:user_with_email).tap{|u| u.login} }
+  let!(:user) { create(:user_with_email) }
 
   post '/api/v1/password_resets' do
     parameter :email, "User's email address"

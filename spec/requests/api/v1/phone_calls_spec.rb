@@ -2,11 +2,12 @@ require 'spec_helper'
 
 describe 'Associations' do
   let!(:user) { create(:member) }
+  let(:session) { user.sessions.create }
   let!(:consult) { create(:consult, initiator: user) }
 
   describe 'POST /api/v1/consults/:consult_id/phone_calls' do
     def do_request(params={})
-      post "/api/v1/consults/#{consult.id}/phone_calls", params.merge!(auth_token: user.auth_token)
+      post "/api/v1/consults/#{consult.id}/phone_calls", params.merge!(auth_token: session.auth_token)
     end
 
     it 'creates a phone call' do

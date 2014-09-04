@@ -6,17 +6,14 @@ resource "UserConditionUserTreatments" do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:member) }
-  let(:auth_token) { user.auth_token }
+  let(:session) { user.sessions.create }
+  let(:auth_token) { session.auth_token }
   let!(:user_condition) { create(:user_condition, :user => user) }
   let!(:user_treatment) { create(:user_treatment, :user => user) }
   let(:user_id) { user.id }
   let(:condition_id) { user_condition.id }
   let(:treatment_id) { user_treatment.id }
   let(:raw_post) { params.to_json }
-
-  before(:each) do
-    user.login
-  end
 
   parameter :auth_token, "Performing user's auth_token"
   parameter :user_id, "Target user's id"

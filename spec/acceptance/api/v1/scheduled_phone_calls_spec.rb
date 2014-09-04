@@ -7,8 +7,9 @@ resource "ScheduledPhoneCalls" do
 
   context 'as a Member' do
     let!(:user) { create(:member) }
+    let(:session) { user.sessions.create }
     let!(:scheduled_phone_call) { create(:scheduled_phone_call, :assigned) }
-    let(:auth_token) { user.auth_token }
+    let(:auth_token) { session.auth_token }
 
     parameter :auth_token, "Performing user's auth_token"
     required_parameters :auth_token
@@ -35,8 +36,9 @@ resource "ScheduledPhoneCalls" do
   context 'as a PHA' do
     let!(:member) { create(:member) }
     let!(:user) { create(:pha_lead) }
+    let(:session) { user.sessions.create }
     let!(:pha) { create(:pha) }
-    let(:auth_token) { user.auth_token }
+    let(:auth_token) { session.auth_token }
 
     parameter :auth_token, "Performing user's auth_token"
     required_parameters :auth_token

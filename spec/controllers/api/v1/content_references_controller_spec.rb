@@ -19,7 +19,7 @@ describe Api::V1::ContentReferencesController do
 
     describe 'GET inbox' do
       def do_request
-        get :index, auth_token: user.auth_token
+        get :index
       end
 
       it_behaves_like 'action requiring authentication and authorization'

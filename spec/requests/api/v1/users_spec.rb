@@ -3,10 +3,11 @@ require 'spec_helper'
 describe 'Users' do
   context 'with an existing record' do
     let!(:user) { create(:member) }
+    let(:session) { user.sessions.create }
 
     describe 'GET /api/v1/users/:id' do
       def do_request
-        get "/api/v1/users/#{user.id}", auth_token: user.auth_token
+        get "/api/v1/users/#{user.id}", auth_token: session.auth_token
       end
 
       it 'shows the user' do
@@ -19,7 +20,7 @@ describe 'Users' do
 
     describe 'GET /api/v1/users/current' do
       def do_request
-        get "/api/v1/users/current", auth_token: user.auth_token
+        get "/api/v1/users/current", auth_token: session.auth_token
       end
 
       it 'shows the current_user' do
@@ -32,7 +33,7 @@ describe 'Users' do
 
     describe 'DEPRECATED GET /api/v1/user' do
       def do_request
-        get "/api/v1/user", auth_token: user.auth_token
+        get "/api/v1/user", auth_token: session.auth_token
       end
 
       it 'shows the current_user' do
@@ -45,7 +46,7 @@ describe 'Users' do
 
     describe 'PUT /api/v1/users/:id' do
       def do_request(params={})
-        put "/api/v1/users/#{user.id}", params.merge!(auth_token: user.auth_token)
+        put "/api/v1/users/#{user.id}", params.merge!(auth_token: session.auth_token)
       end
 
       let(:new_name) { 'Barrack' }
@@ -61,7 +62,7 @@ describe 'Users' do
 
     describe 'DEPRECATED PUT /api/v1/user/:id' do
       def do_request(params={})
-        put "/api/v1/user/#{user.id}", params.merge!(auth_token: user.auth_token)
+        put "/api/v1/user/#{user.id}", params.merge!(auth_token: session.auth_token)
       end
 
       let(:new_name) { 'Bill' }
@@ -77,7 +78,7 @@ describe 'Users' do
 
     describe 'DEPRECATED PUT /api/v1/user' do
       def do_request(params={})
-        put '/api/v1/user', params.merge!(auth_token: user.auth_token)
+        put '/api/v1/user', params.merge!(auth_token: session.auth_token)
       end
 
       let(:new_name) { 'George' }
@@ -94,12 +95,13 @@ describe 'Users' do
 
   describe 'DEPRECATED POST /api/v1/user/update_email' do
     def do_request
-      post '/api/v1/user/update_email', auth_token: user.auth_token,
+      post '/api/v1/user/update_email', auth_token: session.auth_token,
                                         password: password,
                                         email: new_email
     end
 
     let!(:user) { create(:member) }
+    let(:session) { user.sessions.create }
     let(:password) { 'password' }
     let(:new_email) { 'new_email@getbetter.com' }
 
@@ -112,12 +114,13 @@ describe 'Users' do
 
   describe 'DEPRECATED POST /api/v1/user/update_password' do
     def do_request
-      post '/api/v1/user/update_password', auth_token: user.auth_token,
+      post '/api/v1/user/update_password', auth_token: session.auth_token,
                                            current_password: password,
                                            password: new_password
     end
 
     let!(:user) { create(:user_with_email) }
+    let(:session) { user.sessions.create }
     let(:password) { 'password' }
     let(:new_password) { 'NewPassword!' }
 
@@ -130,10 +133,11 @@ describe 'Users' do
 
   describe 'POST /api/v1/users/:id/invite' do
     def do_request
-      post "/api/v1/users/#{user_id}/invite", auth_token: current_user.auth_token
+      post "/api/v1/users/#{user_id}/invite", auth_token: session.auth_token
     end
 
     let!(:current_user) { create(:member) }
+    let(:session) { current_user.sessions.create }
 
     context 'for a member' do
       let!(:user) { create(:member, :invited) }

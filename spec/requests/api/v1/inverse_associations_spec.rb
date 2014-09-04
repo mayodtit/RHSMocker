@@ -2,11 +2,12 @@ require 'spec_helper'
 
 describe 'InverseAssociations' do
   let!(:user) { create(:member) }
+  let(:session) { user.sessions.create }
   let!(:association) { create(:association, associate: user) }
 
   describe 'GET /api/v1/users/:user_id/inverse_associations' do
     def do_request
-      get "/api/v1/users/#{user.id}/inverse_associations", auth_token: user.auth_token
+      get "/api/v1/users/#{user.id}/inverse_associations", auth_token: session.auth_token
     end
 
     it 'indexes all inverse_associations' do
@@ -19,7 +20,7 @@ describe 'InverseAssociations' do
 
   describe 'PUT /api/v1/users/:user_id/inverse_associations/:id' do
     def do_request(params={})
-      put "/api/v1/users/#{user.id}/inverse_associations/#{association.id}", params.merge!(auth_token: user.auth_token)
+      put "/api/v1/users/#{user.id}/inverse_associations/#{association.id}", params.merge!(auth_token: session.auth_token)
     end
 
     it 'updates the inverse_association' do
@@ -33,7 +34,7 @@ describe 'InverseAssociations' do
 
   describe 'DELETE /api/v1/users/:user_id/inverse_associations/:id' do
     def do_request(params={})
-      delete "/api/v1/users/#{user.id}/inverse_associations/#{association.id}", auth_token: user.auth_token
+      delete "/api/v1/users/#{user.id}/inverse_associations/#{association.id}", auth_token: session.auth_token
     end
 
     it 'destroys the inverse_association' do

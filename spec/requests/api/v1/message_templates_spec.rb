@@ -10,13 +10,14 @@ describe 'MessageTemplates' do
   end
 
   let(:pha) { create(:pha) }
+  let(:session) { pha.sessions.create }
 
   context 'existing record' do
     let!(:message_template) { create(:message_template) }
 
     describe 'GET /api/v1/message_templates' do
       def do_request
-        get "/api/v1/message_templates", auth_token: pha.auth_token
+        get "/api/v1/message_templates", auth_token: session.auth_token
       end
 
       it 'indexes message_templates' do
@@ -29,7 +30,7 @@ describe 'MessageTemplates' do
 
     describe 'GET /api/v1/message_templates/:id' do
       def do_request
-        get "/api/v1/message_templates/#{message_template.id}", auth_token: pha.auth_token
+        get "/api/v1/message_templates/#{message_template.id}", auth_token: session.auth_token
       end
 
       it 'shows the message_template' do
@@ -42,7 +43,7 @@ describe 'MessageTemplates' do
 
     describe 'PUT /api/v1/message_templates/:id' do
       def do_request(params={})
-        put "/api/v1/message_templates/#{message_template.id}", params.merge!(auth_token: pha.auth_token)
+        put "/api/v1/message_templates/#{message_template.id}", params.merge!(auth_token: session.auth_token)
       end
 
       let(:new_text) { "Hey fatty! Why aren't your out running?" }
@@ -58,7 +59,7 @@ describe 'MessageTemplates' do
 
     describe 'DELETE /api/v1/message_templates/:id' do
       def do_request
-        delete "/api/v1/message_templates/#{message_template.id}", auth_token: pha.auth_token
+        delete "/api/v1/message_templates/#{message_template.id}", auth_token: session.auth_token
       end
 
       it 'destroys the message_template' do
@@ -71,7 +72,7 @@ describe 'MessageTemplates' do
 
   describe 'POST /api/v1/message_templates' do
     def do_request(params={})
-      post "/api/v1/message_templates", params.merge!(auth_token: pha.auth_token)
+      post "/api/v1/message_templates", params.merge!(auth_token: session.auth_token)
     end
 
     let(:message_template_attributes) { {name: 'New Template', text: 'hello world'} }

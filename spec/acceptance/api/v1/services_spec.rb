@@ -6,14 +6,11 @@ resource "Services" do
   header 'Content-Type', 'application/json'
 
   let!(:pha) { create(:pha) }
+  let(:session) { pha.sessions.create }
   let!(:other_pha) { create(:pha) }
   let!(:service) { create(:service) }
   let(:time) { 4.days.from_now }
-  let(:auth_token) { pha.auth_token }
-
-  before(:each) do
-    pha.login
-  end
+  let(:auth_token) { session.auth_token }
 
   describe 'service' do
     parameter :auth_token, 'Performing hcp\'s auth_token'
@@ -21,7 +18,7 @@ resource "Services" do
 
     required_parameters :auth_token, :id
 
-    let(:auth_token) { pha.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:id) { service.id }
 
     get '/api/v1/services/:id' do
@@ -45,7 +42,7 @@ resource "Services" do
     required_parameters :auth_token, :id
     scope_parameters :service, [:state_event, :owner_id, :due_at, :reason_abandoned]
 
-    let(:auth_token) { pha.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:id) { service.id }
     let(:state_event) { 'abandon' }
     let(:owner_id) { other_pha.id }

@@ -8,7 +8,9 @@ resource "PhoneCalls" do
   let!(:nurse) { create(:nurse) }
   let!(:pha) { create(:pha) }
   let!(:user) { nurse }
-  let(:auth_token) { user.auth_token }
+  let(:session) { user.sessions.create }
+  let(:pha_session) { pha.sessions.create }
+  let(:auth_token) { session.auth_token }
   let!(:phone_call) { create(:phone_call, to_role: user.roles.first) }
   let!(:other_phone_call) { create(:phone_call, to_role: user.roles.first) }
   let!(:pha_phone_call) { create(:phone_call, to_role: pha.roles.first) }
@@ -39,7 +41,7 @@ resource "PhoneCalls" do
 
     required_parameters :auth_token
 
-    let(:auth_token) { user.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:state) { 'unclaimed' }
 
     get '/api/v1/phone_calls/' do
@@ -58,7 +60,7 @@ resource "PhoneCalls" do
 
     required_parameters :auth_token, :id
 
-    let(:auth_token) { user.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:id) { phone_call.id }
 
     get '/api/v1/phone_calls/:id' do
@@ -80,7 +82,7 @@ resource "PhoneCalls" do
 
     let!(:user) { create(:member) }
     let!(:consult) { create(:consult, :master, initiator: user) }
-    let(:auth_token) { user.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:consult_id) { consult.id }
     let(:origin_phone_number) { '5551112222' }
     let(:destination_phone_number) { '5553334444' }
@@ -107,7 +109,7 @@ resource "PhoneCalls" do
     required_parameters :auth_token, :user_id, :destination_phone_number
 
     let!(:user) { create(:member) }
-    let(:auth_token) { pha.auth_token }
+    let(:auth_token) { pha_session.auth_token }
     let(:user_id) { user.id }
     let(:destination_phone_number) { '5553334444' }
     let(:raw_post) { params.to_json }
@@ -135,7 +137,7 @@ resource "PhoneCalls" do
     required_parameters :auth_token, :id
     scope_parameters :phone_call, [:state_event]
 
-    let(:auth_token) { user.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:id) { phone_call.id }
     let(:state_event) { 'claim' }
 
@@ -326,7 +328,7 @@ resource "PhoneCalls" do
 
     required_parameters :auth_token, :id
 
-    let(:auth_token) { pha.auth_token }
+    let(:auth_token) { pha_session.auth_token }
     let(:id) { pha_phone_call.id }
     let(:raw_post) { params.to_json }
 
@@ -347,7 +349,7 @@ resource "PhoneCalls" do
 
     required_parameters :auth_token, :id
 
-    let(:auth_token) { pha.auth_token }
+    let(:auth_token) { pha_session.auth_token }
     let(:id) { pha_phone_call.id }
     let(:raw_post) { params.to_json }
 
@@ -377,7 +379,7 @@ resource "PhoneCalls" do
 
     required_parameters :auth_token, :id, :caller_id
 
-    let(:auth_token) { user.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:id) { phone_call.id }
     let(:caller_id) { member.id }
 

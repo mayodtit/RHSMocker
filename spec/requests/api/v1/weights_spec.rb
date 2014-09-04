@@ -2,13 +2,14 @@ require 'spec_helper'
 
 describe 'Weights' do
   let!(:user) { create(:member) }
+  let(:session) { user.sessions.create }
 
   context 'existing record' do
     let!(:weight) { create(:weight, user: user) }
 
     describe 'GET /api/v1/users/:user_id/weights' do
       def do_request
-        get "/api/v1/users/#{user.id}/weights", auth_token: user.auth_token
+        get "/api/v1/users/#{user.id}/weights", auth_token: session.auth_token
       end
 
       it 'indexes weights' do
@@ -21,7 +22,7 @@ describe 'Weights' do
 
     describe 'GET /api/v1/users/:user_id/weights/:id' do
       def do_request
-        get "/api/v1/users/#{user.id}/weights/#{weight.id}", auth_token: user.auth_token
+        get "/api/v1/users/#{user.id}/weights/#{weight.id}", auth_token: session.auth_token
       end
 
       it 'shows the weight' do
@@ -34,7 +35,7 @@ describe 'Weights' do
 
     describe 'PUT /api/v1/users/:user_id/weights/:id' do
       def do_request(params={})
-        put "/api/v1/users/#{user.id}/weights/#{weight.id}", params.merge!(auth_token: user.auth_token)
+        put "/api/v1/users/#{user.id}/weights/#{weight.id}", params.merge!(auth_token: session.auth_token)
       end
 
       let(:new_amount) { 145 }
@@ -50,7 +51,7 @@ describe 'Weights' do
 
     describe 'DELETE /api/v1/users/:user_id/weights/:id' do
       def do_request
-        delete "/api/v1/users/#{user.id}/weights/#{weight.id}", auth_token: user.auth_token
+        delete "/api/v1/users/#{user.id}/weights/#{weight.id}", auth_token: session.auth_token
       end
 
       it 'destroys the weight' do
@@ -63,7 +64,7 @@ describe 'Weights' do
 
   describe 'POST /api/v1/users/:user_id/weights' do
     def do_request(params={})
-      post "/api/v1/users/#{user.id}/weights", params.merge!(auth_token: user.auth_token)
+      post "/api/v1/users/#{user.id}/weights", params.merge!(auth_token: session.auth_token)
     end
 
     let(:weight_attributes) { attributes_for(:weight) }

@@ -691,6 +691,26 @@ ActiveRecord::Schema.define(:version => 20140904174632) do
     t.integer  "service_template_id"
   end
 
+  create_table "sessions", :force => true do |t|
+    t.integer  "member_id"
+    t.string   "auth_token"
+    t.string   "device_id"
+    t.string   "apns_token"
+    t.string   "gcm_id"
+    t.string   "device_os"
+    t.string   "device_app_version"
+    t.string   "device_app_build"
+    t.string   "device_timezone"
+    t.boolean  "device_notifications_enabled"
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
+  end
+
+  add_index "sessions", ["apns_token"], :name => "index_sessions_on_apns_token", :unique => true
+  add_index "sessions", ["auth_token"], :name => "index_sessions_on_auth_token", :unique => true
+  add_index "sessions", ["device_id"], :name => "index_sessions_on_device_id"
+  add_index "sessions", ["gcm_id"], :name => "index_sessions_on_gcm_id", :unique => true
+
   create_table "side_effects", :force => true do |t|
     t.string   "name",        :null => false
     t.string   "description"
@@ -977,11 +997,9 @@ ActiveRecord::Schema.define(:version => 20140904174632) do
     t.datetime "created_at",                                                       :null => false
     t.datetime "updated_at",                                                       :null => false
     t.string   "avatar"
-    t.string   "install_id",                      :limit => 36
     t.string   "email"
     t.string   "phone"
     t.string   "crypted_password"
-    t.string   "auth_token"
     t.string   "salt"
     t.string   "reset_password_token"
     t.datetime "reset_password_token_expires_at"
@@ -989,7 +1007,6 @@ ActiveRecord::Schema.define(:version => 20140904174632) do
     t.integer  "ethnic_group_id"
     t.integer  "diet_id"
     t.string   "blood_type"
-    t.string   "holds_phone_in"
     t.string   "npi_number",                      :limit => 10
     t.date     "date_of_death"
     t.string   "expertise"
@@ -1010,7 +1027,6 @@ ActiveRecord::Schema.define(:version => 20140904174632) do
     t.string   "provider_taxonomy_code"
     t.integer  "owner_id"
     t.integer  "pha_id"
-    t.string   "apns_token"
     t.datetime "free_trial_ends_at"
     t.datetime "last_contact_at"
     t.datetime "signed_up_at"
@@ -1019,14 +1035,9 @@ ActiveRecord::Schema.define(:version => 20140904174632) do
     t.integer  "referral_code_id"
     t.boolean  "on_call",                                       :default => false
     t.string   "status"
-    t.string   "gcm_id"
-    t.string   "device_os"
-    t.string   "device_app_version"
-    t.string   "device_app_build"
-    t.string   "device_timezone"
-    t.boolean  "device_notifications_enabled"
     t.integer  "nux_answer_id"
     t.string   "text_phone_number"
+    t.string   "time_zone"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true

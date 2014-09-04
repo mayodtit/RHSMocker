@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe 'ScheduledPhoneCall' do
   let(:user) { create(:member) }
+  let(:session) { user.sessions.create }
 
   before do
     Timecop.freeze
@@ -13,7 +14,7 @@ describe 'ScheduledPhoneCall' do
 
   describe 'GET /api/v1/scheduled_phone_calls/available' do
     def do_request
-      get '/api/v1/scheduled_phone_calls/available', auth_token: user.auth_token
+      get '/api/v1/scheduled_phone_calls/available', auth_token: session.auth_token
     end
 
     let!(:available) { create(:scheduled_phone_call, :assigned, scheduled_at: Time.now + 10.minutes) }
@@ -57,7 +58,7 @@ describe 'ScheduledPhoneCall' do
 
   describe 'GET /api/v1/scheduled_phone_calls/available_times' do
     def do_request
-      get '/api/v1/scheduled_phone_calls/available_times', auth_token: user.auth_token
+      get '/api/v1/scheduled_phone_calls/available_times', auth_token: session.auth_token
     end
 
     let!(:available) { create(:scheduled_phone_call, :assigned) }
@@ -80,7 +81,7 @@ describe 'ScheduledPhoneCall' do
 
     describe 'GET /api/v1/scheduled_phone_calls' do
       def do_request(params={})
-        get "/api/v1/scheduled_phone_calls", params.merge!(auth_token: user.auth_token)
+        get "/api/v1/scheduled_phone_calls", params.merge!(auth_token: session.auth_token)
       end
 
       it 'indexes the scheduled_phone_calls' do
@@ -93,7 +94,7 @@ describe 'ScheduledPhoneCall' do
 
     describe 'GET /api/v1/scheduled_phone_calls/:id' do
       def do_request(params={})
-        get "/api/v1/scheduled_phone_calls/#{id}", params.merge!(auth_token: user.auth_token)
+        get "/api/v1/scheduled_phone_calls/#{id}", params.merge!(auth_token: session.auth_token)
       end
 
       it 'shows the scheduled_phone_call' do
@@ -106,7 +107,7 @@ describe 'ScheduledPhoneCall' do
 
     describe 'PUT /api/v1/scheduled_phone_calls/:id' do
       def do_request(params={})
-        put "/api/v1/scheduled_phone_calls/#{id}", {auth_token: user.auth_token}.merge!(:scheduled_phone_call => params)
+        put "/api/v1/scheduled_phone_calls/#{id}", {auth_token: session.auth_token}.merge!(:scheduled_phone_call => params)
       end
 
       let(:time) { Time.parse('04-10-1986').utc }
@@ -123,7 +124,7 @@ describe 'ScheduledPhoneCall' do
 
     describe 'DELETE /api/v1/scheduled_phone_calls/:id' do
       def do_request(params={})
-        delete "/api/v1/scheduled_phone_calls/#{id}", params.merge!(auth_token: user.auth_token)
+        delete "/api/v1/scheduled_phone_calls/#{id}", params.merge!(auth_token: session.auth_token)
       end
 
       it 'soft-deletes the record' do
@@ -139,7 +140,7 @@ describe 'ScheduledPhoneCall' do
   context 'creating a record' do
     describe 'POST /api/v1/scheduled_phone_calls' do
       def do_request(params={})
-        post "/api/v1/scheduled_phone_calls", params.merge!(auth_token: user.auth_token)
+        post "/api/v1/scheduled_phone_calls", params.merge!(auth_token: session.auth_token)
       end
 
       let(:time) { Time.parse('04-10-1986').utc }

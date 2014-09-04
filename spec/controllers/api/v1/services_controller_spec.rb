@@ -22,7 +22,7 @@ describe Api::V1::ServicesController do
     let(:service) { build_stubbed :service }
 
     def do_request
-      get :show, auth_token: user.auth_token, id: service.id
+      get :show, id: service.id
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -50,7 +50,7 @@ describe Api::V1::ServicesController do
     let(:service) { build_stubbed :service }
 
     def do_request
-      put :update, auth_token: user.auth_token, id: service.id, service: {state_event: 'abandon'}
+      put :update, id: service.id, service: {state_event: 'abandon'}
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -82,7 +82,7 @@ describe Api::V1::ServicesController do
 
             context 'owner id is not present' do
               def do_request
-                put :update, auth_token: user.auth_token, id: service.id, service: {state_event: 'complete'}
+                put :update, id: service.id, service: {state_event: 'complete'}
               end
 
               it 'sets owner id to current user' do
@@ -93,7 +93,7 @@ describe Api::V1::ServicesController do
 
             context 'owner id is present' do
               def do_request
-                put :update, auth_token: user.auth_token, id: service.id, service: {state_event: 'complete', owner_id: 2}
+                put :update, id: service.id, service: {state_event: 'complete', owner_id: 2}
               end
 
               it 'does nothing' do
@@ -110,7 +110,7 @@ describe Api::V1::ServicesController do
 
             context 'owner id is not present' do
               def do_request
-                put :update, auth_token: user.auth_token, id: service.id, service: {state_event: 'start'}
+                put :update, id: service.id, service: {state_event: 'start'}
               end
 
               it 'does nothing' do
@@ -121,7 +121,7 @@ describe Api::V1::ServicesController do
 
             context 'owner id is present' do
               def do_request
-                put :update, auth_token: user.auth_token, id: service.id, service: {state_event: 'start', owner_id: 2}
+                put :update, id: service.id, service: {state_event: 'start', owner_id: 2}
               end
 
               it 'does nothing' do
@@ -134,7 +134,7 @@ describe Api::V1::ServicesController do
 
         context 'owner id is present' do
           def do_request
-            put :update, auth_token: user.auth_token, id: service.id, service: {owner_id: 2}
+            put :update, id: service.id, service: {owner_id: 2}
           end
 
           context 'owner id does not match service' do
@@ -154,7 +154,7 @@ describe Api::V1::ServicesController do
             end
 
             def do_request
-              put :update, auth_token: user.auth_token, id: service.id, service: {owner_id: 2}
+              put :update, id: service.id, service: {owner_id: 2}
             end
 
             it 'does nothing' do
