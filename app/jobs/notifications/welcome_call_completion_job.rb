@@ -5,9 +5,12 @@ class Notifications::WelcomeCallCompletionJob < Struct.new(:user_id)
 
   def perform
     user = User.find(user_id)
-    if user.apns_token
-      APNS.send_notification(user.apns_token, alert: alert_text,
-                                              sound: :default)
+    sessions = user.sessions.where('apns_token IS NOT NULL')
+    if sessions.any?
+      sessions.each do |session|
+        APNS.send_notification(session.apns_token, alert: alert_text,
+                                                   sound: :default)
+      end
     end
   end
 
