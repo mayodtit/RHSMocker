@@ -224,7 +224,7 @@ describe PhoneCallTask do
 
   describe '#notify' do
     let(:task) { build :phone_call_task }
-    let(:pha) { build :pha, work_phone_number: '000' }
+    let(:pha) { build :pha, text_phone_number: '000' }
 
     context 'task is not for pha' do
       before do
@@ -248,7 +248,7 @@ describe PhoneCallTask do
         end
 
         context 'unassigned' do
-          let(:phas) { [build_stubbed(:pha, work_phone_number: '111'), build_stubbed(:pha, work_phone_number: '222'), build_stubbed(:pha, work_phone_number: '333')] }
+          let(:phas) { [build_stubbed(:pha, text_phone_number: '111'), build_stubbed(:pha, text_phone_number: '222'), build_stubbed(:pha, text_phone_number: '333')] }
 
           before do
             task.stub(:unassigned?) { true }
