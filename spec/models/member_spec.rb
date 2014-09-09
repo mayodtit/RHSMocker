@@ -218,6 +218,23 @@ describe Member do
     end
   end
 
+  describe 'scopes' do
+    describe '::with_request_or_service_task' do
+      let!(:engagement_service_type) { create(:service_type, bucket: 'engagement') }
+      let!(:other_service_type) { create(:service_type, bucket: 'other') }
+
+      let!(:with_member_task) { create(:member_task, service_type: engagement_service_type).member }
+      let!(:with_request_task) { create(:user_request).user }
+      let!(:with_service_task) { create(:member_task, service_type: other_service_type).member }
+
+      it 'returns members with a request or service task' do
+        result = described_class.with_request_or_service_task
+        expect(result).to include(with_request_task, with_service_task)
+        expect(result).to_not include(with_member_task)
+      end
+    end
+  end
+
   describe 'states' do
     describe 'invited' do
       let(:member) { build_stubbed(:member, :invited) }

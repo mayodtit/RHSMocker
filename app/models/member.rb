@@ -43,7 +43,8 @@ class Member < User
                                 source: :subscription
   has_many :tasks, class_name: 'Task', conditions: {type: ['MemberTask', 'UserRequestTask', 'ParsedNurselineRecordTask']}
   has_many :request_tasks, class_name: 'Task', conditions: {type: %w(UserRequestTask ParsedNurselineRecordTask)}
-  has_many :service_tasks, class_name: 'MemberTask', conditions: {service_type_id: ServiceType.non_engagement_ids}
+  has_many :service_tasks, class_name: 'MemberTask',
+                           conditions: proc{ {service_type_id: ServiceType.non_engagement_ids} }
   has_many :services
   has_many :user_images, foreign_key: :user_id,
                          inverse_of: :user,
