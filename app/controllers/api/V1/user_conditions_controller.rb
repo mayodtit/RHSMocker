@@ -14,6 +14,7 @@ class Api::V1::UserConditionsController < Api::V1::ABaseController
 
   def create
     create_resource(@user.user_conditions, params[:user_disease], name: :user_disease) and return if disease_path?
+    params[:user_condition][:actor_id] = current_user.id
     create_resource(@user.user_conditions, params[:user_condition])
   end
 
@@ -23,6 +24,7 @@ class Api::V1::UserConditionsController < Api::V1::ABaseController
   end
 
   def destroy
+    @user_condition.actor_id = current_user.id
     destroy_resource(@user_condition)
   end
 
