@@ -132,6 +132,11 @@ class Member < User
     where(status: PREMIUM_STATES)
   end
 
+  def self.with_request_or_service_task
+    includes(:request_tasks, :service_tasks)
+    .where('tasks.id IS NOT NULL OR service_tasks_users.id IS NOT NULL')
+  end
+
   def self.name_search(string)
     wildcard = "%#{string}%"
     where("first_name LIKE ? OR last_name LIKE ? OR email LIKE ?", wildcard, wildcard, wildcard)

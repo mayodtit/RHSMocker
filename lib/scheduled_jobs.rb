@@ -110,17 +110,19 @@ class ScheduledJobs
   end
 
   def self.offboard_free_trial_members
-    if Metadata.offboard_free_trial_members?
-      Member.where('status = ? AND DATEDIFF(?,free_trial_ends_at) <= 6 AND signed_up_at >= ?', :trial, Time.now, Metadata.offboard_free_trial_start_date).each do |member|
-        if OffboardMemberTask::OFFBOARDING_WINDOW.after(Time.now.pacific).pacific.to_date >= member.free_trial_ends_at.pacific.to_date && member.engaged?
-          t = OffboardMemberTask.create_if_only_for_current_free_trial member
-          if !t || t.valid?
-            Rails.logger.info "Offboarded Member #{member.id}"
-          else
-            Rails.logger.error "Could not create OffboardMemberTask for Member #{member.id}"
+    return unless Metadata.offboard_free_trial_members?
+    Member.where(status: :trial)
+          .where('free_trial_ends_at < ?', OffboardMemberTask::OFFBOARDING_WINDOW.after(Time.now.pacific))
+          .where('signed_up_at >= ?', Metadata.offboard_free_trial_start_date)
+          .with_request_or_service_task
+          .find_each do |member|
+            next unless member.request_tasks.any? || member.service_tasks.any?
+            t = OffboardMemberTask.create_if_only_for_current_free_trial member
+            if !t || t.valid?
+              Rails.logger.info "Offboarded Member #{member.id}"
+            else
+              Rails.logger.error "Could not create OffboardMemberTask for Member #{member.id}"
+            end
           end
-        end
-      end
-    end
   end
 end
