@@ -295,10 +295,6 @@ describe ScheduledJobs do
     let!(:another_expiring_member) { create :member, :trial, free_trial_ends_at: Time.parse('2014-09-05 12:00:00 -0700'), first_name: 'F' }
     let!(:premium_member) { create :member, :premium, first_name: 'G' }
 
-    let!(:consult) { create :consult, initiator: too_old_engaged_expired_member, subject: too_old_engaged_expired_member }
-    let!(:consult) { create :consult, initiator: old_engaged_expired_member, subject: old_engaged_expired_member }
-    let!(:consult) { create :consult, initiator: engaged_expired_member, subject: engaged_expired_member }
-
     before do
       Timecop.freeze Time.parse('2014-08-01 16:00:00 -0700')
       Metadata.stub(:offboard_free_trial_start_date) { 2.days.ago }
@@ -307,17 +303,9 @@ describe ScheduledJobs do
       ServiceType.create! name: 'member offboarding', bucket: 'engagement'
 
       # Make engaged members engaged
-      Message.create! user: engaged_expired_member, consult: consult, text: 'test.'
-      Message.create! user: engaged_expired_member, consult: consult, text: 'test.'
-      engaged_expired_member.should be_engaged
-
-      Message.create! user: too_old_engaged_expired_member, consult: consult, text: 'test.'
-      Message.create! user: too_old_engaged_expired_member, consult: consult, text: 'test.'
-      too_old_engaged_expired_member.should be_engaged
-
-      Message.create! user: old_engaged_expired_member, consult: consult, text: 'test.'
-      Message.create! user: old_engaged_expired_member, consult: consult, text: 'test.'
-      old_engaged_expired_member.should be_engaged
+      create(:user_request, user: engaged_expired_member)
+      create(:user_request, user: too_old_engaged_expired_member)
+      create(:user_request, user: old_engaged_expired_member)
     end
 
     after do
