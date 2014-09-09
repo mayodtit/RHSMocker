@@ -403,4 +403,58 @@ describe User do
       build_stubbed(:user, email: 'abhik@gmail.com').should_not be_test
     end
   end
+
+  describe '#track_update' do
+    let!(:user) { create :user }
+
+    before do
+      UserChange.destroy_all
+    end
+
+    context 'nothing changed' do
+      context 'because no changes were made' do
+        it 'does nothing' do
+          UserChange.should_not_receive(:create!)
+          user.send(:track_update)
+        end
+      end
+
+      context 'because only created_at and updated_at were changed' do
+        before do
+          user.created_at = 4.days.ago
+          user.updated_at = 3.days.ago
+          user.changes.should_not be_empty
+          UserChange.should_not_receive(:create!)
+          user.send(:track_update)
+        end
+      end
+    end
+
+    context 'something changed' do
+      it 'it tracks a change after a condition is added to a user' do
+        old_last_name = user.last_name
+        user.update_attributes!(gender: 'M', last_name: 'Poop')
+        UserChange.count.should == 1
+        u = UserChange.last
+        u.user.should == user
+        u.actor.should == Member.robot
+        u.action.should == 'update'
+        eval(u.data).should == {"gender" => [nil, 'M'], "last_name" => [old_last_name, 'Poop']}
+      end
+
+      context 'actor_id is defined' do
+        let(:pha) { build_stubbed :pha }
+
+        before do
+          user.actor_id = pha.id
+          user.last_name = 'Poop'
+        end
+
+        it 'uses the defined actor id' do
+          UserChange.should_receive(:create!).with hash_including(actor_id: pha.id)
+          user.send(:track_update)
+        end
+      end
+    end
+  end
 end

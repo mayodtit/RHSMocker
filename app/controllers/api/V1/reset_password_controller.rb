@@ -32,6 +32,7 @@ class Api::V1::ResetPasswordController < Api::V1::ABaseController
   end
 
   def load_user_from_token!
+    raise ActiveRecord::RecordNotFound, 'We could not find an account. if this is an error, please contact support@getbetter.com' unless params[:id].present?
     @user = Member.find_by_reset_password_token!(params[:id])
   end
 end

@@ -38,4 +38,73 @@ describe UserCondition do
       user_condition.reload.user_treatments.should_not include(user_treatment)
     end
   end
+
+  describe '#track_create' do
+    let!(:member) { create :member }
+    let(:user_condition) { build :user_condition, user: member }
+
+    before do
+      # Prevent changes from being tracked on other models, so we can isolate this one.
+      Member.any_instance.stub(:track_update)
+      UserChange.destroy_all
+    end
+
+    it 'it tracks a change after a condition is added to a user' do
+      user_condition.save!
+      UserChange.count.should == 1
+      u = UserChange.last
+      u.user.should == member
+      u.actor.should == Member.robot
+      u.action.should == 'add'
+      eval(u.data).should == {conditions: [user_condition.condition.name]}
+    end
+
+    context 'actor_id is defined' do
+      let(:pha) { build_stubbed :pha }
+
+      before do
+        user_condition.actor_id = pha.id
+      end
+
+      it 'uses the defined actor id' do
+        UserChange.should_receive(:create!).with hash_including(actor_id: pha.id)
+        user_condition.track_create
+      end
+    end
+  end
+
+  describe '#track_destroy' do
+    let!(:member) { create :member }
+    let!(:condition) { create :condition }
+    let!(:user_condition) { create :user_condition, condition: condition, user: member }
+
+    before do
+      # Prevent changes from being tracked on other models, so we can isolate this one.
+      Member.any_instance.stub(:track_update)
+      UserChange.destroy_all
+    end
+
+    it 'it tracks a change after a condition is added to a user' do
+      user_condition.destroy
+      UserChange.count.should == 1
+      u = UserChange.last
+      u.user.should == member
+      u.actor.should == Member.robot
+      u.action.should == 'destroy'
+      eval(u.data).should == {conditions: [condition.name]}
+    end
+
+    context 'actor_id is defined' do
+      let(:pha) { build_stubbed :pha }
+
+      before do
+        user_condition.actor_id = pha.id
+      end
+
+      it 'uses the defined actor id' do
+        UserChange.should_receive(:create!).with hash_including(actor_id: pha.id)
+        user_condition.track_destroy
+      end
+    end
+  end
 end

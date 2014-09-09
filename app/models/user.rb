@@ -40,6 +40,7 @@ class User < ActiveRecord::Base
                                    dependent: :destroy
 
   has_many :appointments
+  has_many :user_changes
 
   accepts_nested_attributes_for :user_information
   accepts_nested_attributes_for :addresses
@@ -76,6 +77,7 @@ class User < ActiveRecord::Base
   before_validation :strip_attributes
   before_create :create_google_analytics_uuid
   after_save :publish
+  after_save :track_update, on: :update
 
   def test?
     /\@(getbetter|example).com$/i =~ email
@@ -347,5 +349,12 @@ class User < ActiveRecord::Base
 
   def create_google_analytics_uuid
     self.google_analytics_uuid = SecureRandom.uuid
+  end
+
+  def track_update
+    changes = self.changes.except(:created_at, :updated_at)
+    return if changes.empty?
+    @actor_id ||= Member.robot.id
+    UserChange.create! user: self, actor_id: actor_id, action: 'update', data: changes.to_s
   end
 end

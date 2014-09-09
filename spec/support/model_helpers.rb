@@ -26,12 +26,22 @@ shared_examples 'foreign key of' do |property|
   end
 end
 
-shared_examples 'inclusion of' do |property|
+shared_examples 'inclusion of' do |property, accepted_values|
   its "#{property}" do
     model = build_stubbed(described_class.name.underscore.to_sym)
     model.send(:"#{property}=", nil)
     model.should_not be_valid
     model.errors[property.to_sym].should include("is not included in the list")
+  end
+
+  if accepted_values
+    accepted_values.each do |value|
+      its "#{property}" do
+        model = build_stubbed(described_class.name.underscore.to_sym)
+        model.send(:"#{property}=", value)
+        model.should be_valid
+      end
+    end
   end
 end
 
