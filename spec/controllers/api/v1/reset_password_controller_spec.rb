@@ -22,12 +22,12 @@ describe Api::V1::ResetPasswordController do
   end
 
   describe 'GET show' do
-    def do_request
-      get :show
+    def do_request(id = '1039')
+      get :show, id: id
     end
 
     it 'raises ActiveRecord::RecordNotFound without token' do
-      expect{ do_request }.to raise_error ActiveRecord::RecordNotFound
+      expect{ do_request(nil) }.to raise_error ActiveRecord::RecordNotFound
     end
 
     context 'with a token' do
@@ -42,12 +42,12 @@ describe Api::V1::ResetPasswordController do
   end
 
   describe 'PUT update' do
-    def do_request
-      put :update
+    def do_request(id = '1039')
+      put :update, id: id
     end
 
     it 'raises ActiveRecord::RecordNotFound without token' do
-      expect{ do_request }.to raise_error ActiveRecord::RecordNotFound
+      expect{ do_request(nil) }.to raise_error ActiveRecord::RecordNotFound
     end
 
     context 'with a token' do
