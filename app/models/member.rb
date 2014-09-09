@@ -42,6 +42,8 @@ class Member < User
                                 class_name: 'Subscription',
                                 source: :subscription
   has_many :tasks, class_name: 'Task', conditions: {type: ['MemberTask', 'UserRequestTask', 'ParsedNurselineRecordTask']}
+  has_many :request_tasks, class_name: 'Task', conditions: {type: %w(UserRequestTask ParsedNurselineRecordTask)}
+  has_many :service_tasks, class_name: 'MemberTask', conditions: {service_type_id: ServiceType.non_engagement_ids}
   has_many :services
   has_many :user_images, foreign_key: :user_id,
                          inverse_of: :user,
@@ -169,16 +171,6 @@ class Member < User
     role = Role.where(name: role_name).first_or_create!
     roles << role
     @role_names << role.name.to_s if @role_names
-  end
-
-  def has_service_task?
-    tasks.joins(:service_type)
-         .where(service_types: {bucket: ['wellness', 'care coordination', 'insurance', 'other']})
-         .any?
-  end
-
-  def has_request_task?
-    tasks.where(type: %w(UserRequestTask ParsedNurselineRecordTask)).any?
   end
 
   def engaged?

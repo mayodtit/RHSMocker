@@ -13,7 +13,7 @@ class Cohort < ActiveRecord::Base
                   .where('signed_up_at <= ?', ended_at)
 
     users_with_message = users.joins(:messages).uniq
-    users_with_service = users.select{|m| m.has_service_task? || m.has_request_task?}
+    users_with_service = users.select{|m| m.service_tasks.any? || m.request_tasks.any?}
     converted_users = users.joins(:member_state_transitions)
                            .where(member_state_transitions: {to: :premium})
                            .uniq
