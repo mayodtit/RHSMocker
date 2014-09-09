@@ -1,7 +1,8 @@
 require 'spec_helper'
 
 describe Api::V1::BloodPressuresController do
-  let(:user) { build_stubbed(:user) }
+  let(:user) { build_stubbed(:member) }
+  let(:session) { user.sessions.build }
   let(:ability) { Object.new.extend(CanCan::Ability) }
   let(:blood_pressure) { build_stubbed(:blood_pressure, :user => user) }
 
@@ -11,7 +12,7 @@ describe Api::V1::BloodPressuresController do
 
   describe 'GET index' do
     def do_request
-      get :index, auth_token: user.auth_token
+      get :index, auth_token: session.auth_token
     end
 
     it_behaves_like 'action requiring authentication and authorization'

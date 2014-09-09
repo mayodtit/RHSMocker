@@ -6,8 +6,9 @@ resource "Messages" do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:member) }
+  let(:session) { user.sessions.create }
   let!(:consult) { create(:consult, initiator: user) }
-  let(:auth_token) { user.auth_token }
+  let(:auth_token) { session.auth_token }
   let(:consult_id) { consult.id }
 
   parameter :auth_token, "Performing user's auth_token"

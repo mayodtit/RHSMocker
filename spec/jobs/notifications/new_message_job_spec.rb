@@ -38,7 +38,8 @@ describe Notifications::NewMessageJob do
     end
 
     context 'user with apns_token' do
-      let(:user) { create(:member, apns_token: 'test_token') }
+      let(:user) { create(:member) }
+      let!(:session) { user.sessions.create(apns_token: 'test_token') }
 
       it 'calls APNS' do
         APNS.should_receive(:send_notification)
@@ -54,7 +55,8 @@ describe Notifications::NewMessageJob do
     end
 
     context 'user with gcm_id' do
-      let(:user) { create(:member, gcm_id: 'test_gcm_id') }
+      let(:user) { create(:member) }
+      let!(:session) { user.sessions.create(gcm_id: 'test_token') }
 
       it 'calls GCM' do
         GCM.should_receive(:alert_new_message)

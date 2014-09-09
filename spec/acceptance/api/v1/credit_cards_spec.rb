@@ -8,9 +8,10 @@ resource 'CreditCards' do
   parameter :auth_token, 'User auth_token'
   required_parameters :auth_token
 
-  let!(:user) { create(:member).tap{|u| u.login} }
+  let!(:user) { create(:member) }
+  let(:session) { user.sessions.create }
   let(:user_id) { user.id }
-  let(:auth_token) { user.auth_token }
+  let(:auth_token) { session.auth_token }
   let(:card) { double('card', :id => 'card_id', :type => 'Visa', :last4 => '1234', :exp_month => '12', :exp_year => '15') }
   let(:stripe_customer) { double('stripe_customer', :id => 'stripe_id', :default_card => card.id) }
 

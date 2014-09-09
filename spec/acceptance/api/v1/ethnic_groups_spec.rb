@@ -6,7 +6,7 @@ resource "EthnicGroups" do
   header 'Content-Type', 'application/json'
 
   get '/api/v1/ethnic_groups' do
-    before(:each) do
+    before do
       create_list(:ethnic_group, 3)
     end
 

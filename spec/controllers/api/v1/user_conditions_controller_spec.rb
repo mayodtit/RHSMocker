@@ -11,7 +11,7 @@ describe Api::V1::UserConditionsController do
 
   describe 'GET index' do
     def do_request
-      get :index, auth_token: user.auth_token
+      get :index
     end
 
     before(:each) do
@@ -33,7 +33,7 @@ describe Api::V1::UserConditionsController do
 
   describe 'GET show' do
     def do_request
-      get :show, auth_token: user.auth_token
+      get :show
     end
 
     let(:user_conditions) { double('user_conditions', :find => user_condition) }

@@ -2,10 +2,7 @@ require 'spec_helper'
 
 describe 'Cards' do
   let(:user) { create(:member) }
-
-  before(:each) do
-    user.login
-  end
+  let(:session) { user.sessions.create }
 
   describe 'index methods' do
     let!(:unsaved_card) { create(:card, :user => user) }
@@ -14,7 +11,7 @@ describe 'Cards' do
 
     describe 'GET /api/v1/users/:user_id/cards/inbox' do
       def do_request
-        get "/api/v1/users/#{user.id}/cards/inbox", auth_token: user.auth_token
+        get "/api/v1/users/#{user.id}/cards/inbox", auth_token: session.auth_token
       end
 
       it 'indexes only carousel cards' do
@@ -29,7 +26,7 @@ describe 'Cards' do
 
     describe 'GET /api/v1/users/:user_id/cards/timeline' do
       def do_request
-        get "/api/v1/users/#{user.id}/cards/timeline", auth_token: user.auth_token
+        get "/api/v1/users/#{user.id}/cards/timeline", auth_token: session.auth_token
       end
 
       it 'indexes only timeline cards' do
@@ -45,7 +42,7 @@ describe 'Cards' do
 
   describe 'POST /api/v1/users/:user_id/cards' do
     def do_request(params={})
-      post "/api/v1/users/#{user.id}/cards", {card: params}.merge!(auth_token: user.auth_token)
+      post "/api/v1/users/#{user.id}/cards", {card: params}.merge!(auth_token: session.auth_token)
     end
 
     let(:content) { create(:content) }
@@ -60,7 +57,7 @@ describe 'Cards' do
 
   describe 'GET /api/v1/users/:user_id/cards/:id' do
     def do_request
-      get "/api/v1/users/#{user.id}/cards/#{card.id}", auth_token: user.auth_token
+      get "/api/v1/users/#{user.id}/cards/#{card.id}", auth_token: session.auth_token
     end
 
     let!(:card) { create(:card, :user => user) }
@@ -76,7 +73,7 @@ describe 'Cards' do
 
   describe 'PUT /api/v1/users/:user_id/cards/:id' do
     def do_request(params={})
-      put "/api/v1/users/#{user.id}/cards/#{card.id}", params.merge!(auth_token: user.auth_token)
+      put "/api/v1/users/#{user.id}/cards/#{card.id}", params.merge!(auth_token: session.auth_token)
     end
 
     let(:unsaved_card) { create(:card, :user => user) }

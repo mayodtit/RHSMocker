@@ -18,7 +18,7 @@ describe Api::V1::CustomCardsController do
 
     describe 'GET inbox' do
       def do_request
-        get :index, auth_token: user.auth_token
+        get :index
       end
 
       it_behaves_like 'action requiring authentication and authorization'
@@ -36,7 +36,7 @@ describe Api::V1::CustomCardsController do
 
     describe 'GET show' do
       def do_request
-        get :show, auth_token: user.auth_token
+        get :show
       end
 
       it_behaves_like 'action requiring authentication and authorization'
@@ -54,7 +54,7 @@ describe Api::V1::CustomCardsController do
 
     describe 'PUT update' do
       def do_request
-        put :update, auth_token: user.auth_token, custom_card: attributes_for(:custom_card)
+        put :update, custom_card: attributes_for(:custom_card)
       end
 
       before do

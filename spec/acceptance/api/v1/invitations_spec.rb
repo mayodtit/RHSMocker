@@ -6,14 +6,11 @@ resource "Invitations" do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:admin) }
-  let(:auth_token) { user.auth_token }
+  let(:session) { user.sessions.create }
+  let(:auth_token) { session.auth_token }
   let!(:invitation) { create(:invitation) }
 
   describe 'create invitation' do
-    before do
-      user.login
-    end
-
     parameter :auth_token, 'Performing admin\'s auth_token'
     parameter :email, 'Email of HCP to invite'
     parameter :first_name, 'First name of HCP to invite'
@@ -22,7 +19,7 @@ resource "Invitations" do
     required_parameters :auth_token, :email
     scope_parameters :user, [:email, :first_name, :last_name]
 
-    let(:auth_token) { user.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:email) { 'nurse@example.com' }
     let(:first_name) { 'Florence' }
     let(:last_name) { 'Nightingale' }
@@ -92,7 +89,7 @@ resource "Invitations" do
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
         new_user = Member.last
-        response[:auth_token].should == new_user.auth_token
+        response[:auth_token].should == new_user.sessions.first.auth_token
         response[:user].to_json.should == new_user.serializer.as_json.to_json
       end
     end

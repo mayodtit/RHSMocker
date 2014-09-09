@@ -2,13 +2,14 @@ require 'spec_helper'
 
 describe 'Programs' do
   let!(:user) { create(:admin) }
+  let(:session) { user.sessions.create }
 
   describe 'existing record' do
     let!(:program) { create(:program) }
 
     describe 'GET /api/v1/programs' do
       def do_request
-        get "/api/v1/programs", auth_token: user.auth_token
+        get "/api/v1/programs", auth_token: session.auth_token
       end
 
       it 'indexes all programs' do
@@ -22,7 +23,7 @@ describe 'Programs' do
 
     describe 'GET /api/v1/programs/:id' do
       def do_request
-        get "/api/v1/programs/#{program.id}", auth_token: user.auth_token
+        get "/api/v1/programs/#{program.id}", auth_token: session.auth_token
       end
 
       it 'shows a single program' do
@@ -37,7 +38,7 @@ describe 'Programs' do
       let(:new_title) { "New title" }
 
       def do_request(params={})
-        put "api/v1/programs/#{program.id}", {auth_token: user.auth_token}.merge!(:program => params)
+        put "api/v1/programs/#{program.id}", {auth_token: session.auth_token}.merge!(:program => params)
       end
 
       it 'shows a single program' do
@@ -55,7 +56,7 @@ describe 'Programs' do
     let(:title) { "title" }
 
     def do_request(params={})
-      post "api/v1/programs", {auth_token: user.auth_token}.merge!(:program => params)
+      post "api/v1/programs", {auth_token: session.auth_token}.merge!(:program => params)
     end
 
     it 'creates a new program' do

@@ -2,13 +2,14 @@ require 'spec_helper'
 
 describe 'OnboardingGroups' do
   let(:user) { create(:admin) }
+  let(:session) { user.sessions.create }
 
   context 'existing record' do
     let!(:onboarding_group) { create(:onboarding_group) }
 
     describe 'GET /api/v1/onboarding_groups' do
       def do_request
-        get '/api/v1/onboarding_groups', auth_token: user.auth_token
+        get '/api/v1/onboarding_groups', auth_token: session.auth_token
       end
 
       it 'indexes onboarding_groups' do
@@ -21,7 +22,7 @@ describe 'OnboardingGroups' do
 
     describe 'GET /api/v1/onboarding_groups/:id' do
       def do_request
-        get "/api/v1/onboarding_groups/#{onboarding_group.id}", auth_token: user.auth_token
+        get "/api/v1/onboarding_groups/#{onboarding_group.id}", auth_token: session.auth_token
       end
 
       it 'shows the onboarding_group' do
@@ -34,7 +35,7 @@ describe 'OnboardingGroups' do
 
     describe 'PUT /api/v1/onboarding_groups/:id' do
       def do_request(params={})
-        put "/api/v1/onboarding_groups/#{onboarding_group.id}", params.merge!(auth_token: user.auth_token)
+        put "/api/v1/onboarding_groups/#{onboarding_group.id}", params.merge!(auth_token: session.auth_token)
       end
 
       let(:new_name) { 'new name' }
@@ -51,7 +52,7 @@ describe 'OnboardingGroups' do
 
   describe 'POST /api/v1/onboarding_groups' do
     def do_request(params={})
-      post '/api/v1/onboarding_groups', params.merge!(auth_token: user.auth_token)
+      post '/api/v1/onboarding_groups', params.merge!(auth_token: session.auth_token)
     end
 
     let(:onboarding_group_attributes) { attributes_for(:onboarding_group) }

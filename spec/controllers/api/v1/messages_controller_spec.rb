@@ -3,10 +3,12 @@ require 'spec_helper'
 describe Api::V1::MessagesController do
   describe '#needs_off_hours_response' do
     let!(:member) { create(:member, :premium) }
+    let(:session) { member.sessions.create }
     let(:consult) { member.master_consult }
 
     before do
       controller.stub(current_user: member,
+                      current_session: session,
                       consult: consult)
       controller.instance_variable_set('@consult', consult)
       Role.stub_chain(:pha, :on_call?).and_return(false)
@@ -36,7 +38,7 @@ describe Api::V1::MessagesController do
     end
 
     it 'returns false if the current_user device version is >= 1.3.0' do
-      member.stub(device_app_version: '1.3.0')
+      session.stub(device_app_version: '1.3.0')
       expect(send_method).to be_false
     end
 

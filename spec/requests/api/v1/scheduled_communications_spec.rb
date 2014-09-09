@@ -10,6 +10,7 @@ describe 'ScheduledCommunications' do
   end
 
   let(:pha) { create(:pha) }
+  let(:session) { pha.sessions.create }
   let(:member) { create(:member, :premium, pha: pha) }
 
   context 'existing record' do
@@ -17,7 +18,7 @@ describe 'ScheduledCommunications' do
 
     describe 'GET /api/v1/users/:user_id/scheduled_communications' do
       def do_request
-        get "/api/v1/users/#{member.id}/scheduled_communications", auth_token: pha.auth_token
+        get "/api/v1/users/#{member.id}/scheduled_communications", auth_token: session.auth_token
       end
 
       it 'indexes scheduled_communications' do
@@ -30,7 +31,7 @@ describe 'ScheduledCommunications' do
 
     describe 'GET /api/v1/users/:user_id/scheduled_communications/:id' do
       def do_request
-        get "/api/v1/users/#{member.id}/scheduled_communications/#{scheduled_communication.id}", auth_token: pha.auth_token
+        get "/api/v1/users/#{member.id}/scheduled_communications/#{scheduled_communication.id}", auth_token: session.auth_token
       end
 
       it 'shows the scheduled_communication' do
@@ -43,7 +44,7 @@ describe 'ScheduledCommunications' do
 
     describe 'PUT /api/v1/users/:user_id/scheduled_communications/:id' do
       def do_request(params={})
-        put "/api/v1/users/#{member.id}/scheduled_communications/#{scheduled_communication.id}", params.merge!(auth_token: pha.auth_token)
+        put "/api/v1/users/#{member.id}/scheduled_communications/#{scheduled_communication.id}", params.merge!(auth_token: session.auth_token)
       end
 
       let(:new_publish_at) { Time.now + 5.days }
@@ -59,7 +60,7 @@ describe 'ScheduledCommunications' do
 
     describe 'DELETE /api/v1/users/:user_id/scheduled_communications/:id' do
       def do_request
-        delete "/api/v1/users/#{member.id}/scheduled_communications/#{scheduled_communication.id}", auth_token: pha.auth_token
+        delete "/api/v1/users/#{member.id}/scheduled_communications/#{scheduled_communication.id}", auth_token: session.auth_token
       end
 
       it 'destroys the scheduled_communication' do

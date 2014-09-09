@@ -11,6 +11,7 @@ resource "Member Tasks" do
   let!(:relative) { create :user }
   let!(:other_member) { create :member }
   let!(:pha) { create :pha }
+  let(:session) { pha.sessions.create }
   let!(:other_pha) { create :pha }
   let!(:task) { create :task }
   let!(:another_task) { create :task }
@@ -27,11 +28,7 @@ resource "Member Tasks" do
   let!(:other_assigned_task) { create(:member_task, :assigned, member: other_member) }
   let!(:other_unstarted_task) { create(:member_task, member: other_member) }
 
-  let(:auth_token) { pha.auth_token }
-
-  before(:each) do
-    pha.login
-  end
+  let(:auth_token) { session.auth_token }
 
   describe 'tasks' do
     parameter :auth_token, 'Performing hcp\'s auth_token'
@@ -40,7 +37,7 @@ resource "Member Tasks" do
 
     required_parameters :auth_token, :member_id
 
-    let(:auth_token) { pha.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:member_id) { member.id }
     let(:subject_id) { relative.id }
 
@@ -70,7 +67,7 @@ resource "Member Tasks" do
     required_parameters :auth_token, :member_id, :subject_id, :title, :description, :due_at
     scope_parameters :task, [:subject_id, :title, :description, :due_at, :state_event, :owner_id, :service_type_id]
 
-    let(:auth_token) { pha.auth_token }
+    let(:auth_token) { session.auth_token }
     let(:member_id) { other_member.id }
     let(:subject_id) { relative.id }
     let(:title) { 'Title' }

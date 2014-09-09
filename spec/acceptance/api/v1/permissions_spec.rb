@@ -6,7 +6,8 @@ resource "Permissions" do
   header 'Content-Type', 'application/json'
 
   let(:user) { create(:member) }
-  let(:auth_token) { user.auth_token }
+  let(:session) { user.sessions.create }
+  let(:auth_token) { session.auth_token }
   let!(:association) { create(:association, associate: user) }
   let!(:permission) { association.permission }
   let(:id) { association.id }

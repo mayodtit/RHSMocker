@@ -28,10 +28,11 @@ class Api::V1::MembersController < Api::V1::ABaseController
   def create
     @member = Member.create create_attributes
     if @member.errors.empty?
+      @session = @member.sessions.create
       render_success user: @member.serializer,
                      member: @member.reload.serializer,
                      pha_profile: @member.pha.try(:pha_profile).try(:serializer),
-                     auth_token: @member.auth_token
+                     auth_token: @session.auth_token
     else
       render_failure({reason: @member.errors.full_messages.to_sentence,
                       user_message: @member.errors.full_messages.to_sentence}, 422)

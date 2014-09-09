@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe 'Associations' do
   let!(:user) { create(:member) }
+  let!(:session) { user.sessions.create }
 
   context 'existing record' do
     let!(:email) { 'kyle@test.getbetter.com' }
@@ -10,7 +11,7 @@ describe 'Associations' do
 
     describe 'GET /api/v1/associations' do
       def do_request
-        get "/api/v1/users/#{user.id}/associations", auth_token: user.auth_token
+        get "/api/v1/users/#{user.id}/associations", auth_token: session.auth_token
       end
 
       let!(:disabled_association) { create(:association, :disabled) }
@@ -28,7 +29,7 @@ describe 'Associations' do
 
     describe 'GET /api/v1/associations/:id' do
       def do_request
-        get "/api/v1/users/#{user.id}/associations/#{association.id}", auth_token: user.auth_token
+        get "/api/v1/users/#{user.id}/associations/#{association.id}", auth_token: session.auth_token
       end
 
       it 'shows the association' do
@@ -41,7 +42,7 @@ describe 'Associations' do
 
     describe 'PUT /api/v1/associations/:id' do
       def do_request(params={})
-        put "/api/v1/users/#{user.id}/associations/#{association.id}", params.merge!(auth_token: user.auth_token)
+        put "/api/v1/users/#{user.id}/associations/#{association.id}", params.merge!(auth_token: session.auth_token)
       end
 
       let(:association_type) { create(:association_type) }
@@ -57,7 +58,7 @@ describe 'Associations' do
 
     describe 'DELETE /api/v1/associations/:id' do
       def do_request
-        delete "/api/v1/users/#{user.id}/associations/#{association.id}", auth_token: user.auth_token
+        delete "/api/v1/users/#{user.id}/associations/#{association.id}", auth_token: session.auth_token
       end
 
       it 'destroys the association' do
@@ -69,7 +70,7 @@ describe 'Associations' do
 
     describe 'POST /api/v1/associations/:id/invite' do
       def do_request
-        post "/api/v1/users/#{user.id}/associations/#{association.id}/invite", auth_token: user.auth_token
+        post "/api/v1/users/#{user.id}/associations/#{association.id}/invite", auth_token: session.auth_token
       end
 
       context 'without a Member associate' do
@@ -110,7 +111,7 @@ describe 'Associations' do
 
   describe 'POST /api/v1/associations' do
     def do_request(params={})
-      post "/api/v1/users/#{user.id}/associations", params.reverse_merge!(auth_token: user.auth_token)
+      post "/api/v1/users/#{user.id}/associations", params.reverse_merge!(auth_token: session.auth_token)
     end
 
     context 'for the current user' do
@@ -158,13 +159,14 @@ describe 'Associations' do
 
     context 'for a third party' do
       let!(:member) { create(:member) }
+      let!(:session) { member.sessions.create }
       let!(:user) { create(:user, owner: member, email: 'kyle+1@test.getbetter.com') }
       let!(:first_association) { create(:association, user: member, associate: user) }
       let!(:associate) { create(:user, owner: member, email: 'kyle+2@test.getbetter.com') }
       let!(:second_association) { create(:association, user: member, associate: associate) }
 
       it 'creates the association' do
-        do_request(association: {associate_id: associate.id}, auth_token: member.auth_token)
+        do_request(association: {associate_id: associate.id}, auth_token: session.auth_token)
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
         association = Association.find(body[:association][:id])
@@ -177,7 +179,7 @@ describe 'Associations' do
       context 'associate is shared' do
         it 'raises 403' do
           second_association.invite!
-          expect{ do_request(association: {associate_id: associate.id}, auth_token: member.auth_token) }.to_not change(Association, :count)
+          expect{ do_request(association: {associate_id: associate.id}, auth_token: session.auth_token) }.to_not change(Association, :count)
           expect(response).to_not be_success
           expect(response.status).to eq(403)
         end

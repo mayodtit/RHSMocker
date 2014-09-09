@@ -10,7 +10,7 @@ describe Api::V1::ServiceTypesController do
 
   describe 'GET index' do
     def do_request
-      get :index, auth_token: user.auth_token
+      get :index
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -34,7 +34,7 @@ describe Api::V1::ServiceTypesController do
           o
         end
 
-        get :index, auth_token: user.auth_token, bucket: 'insurance'
+        get :index, bucket: 'insurance'
         body = JSON.parse(response.body, symbolize_names: true)
         body[:service_types].to_json.should == service_types.serializer.as_json.to_json
       end
@@ -43,7 +43,7 @@ describe Api::V1::ServiceTypesController do
 
   describe 'GET buckets' do
     def do_request
-      get :buckets, auth_token: user.auth_token
+      get :buckets
     end
 
     it_behaves_like 'action requiring authentication and authorization'
