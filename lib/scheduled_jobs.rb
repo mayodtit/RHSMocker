@@ -1,13 +1,18 @@
 class ScheduledJobs
   def self.downgrade_members
     if Metadata.offboard_free_trial_members?
-      Member.where('status = ? AND free_trial_ends_at < ? AND signed_up_at >= ?', :trial, Time.now, Metadata.offboard_free_trial_start_date).each do |member|
+      Member.where(status: :trial)
+            .where('free_trial_ends_at < ?', Time.now)
+            .where('signed_up_at >= ?', Metadata.offboard_free_trial_start_date)
+            .find_each do |member|
         member.downgrade!
       end
     end
 
     if Metadata.offboard_expired_members?
-      Member.where('status = ? AND subscription_ends_at < ?', :premium, Time.now).each do |member|
+      Member.where(status: :premium)
+            .where('subscription_ends_at < ?', Time.now)
+            .find_each do |member|
         member.downgrade!
       end
     end
