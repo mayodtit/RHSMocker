@@ -3,6 +3,7 @@ class Api::V1::PingController < Api::V1::ABaseController
   after_filter :store_apns_token!, if: -> { params[:auth_token] }
   after_filter :store_gcm_id!, if: -> { params[:auth_token] }
   after_filter :store_device_information!, if: -> { params[:auth_token] }
+  after_filter :store_user_information!, if: -> { params[:auth_token] }
 
   def index
     hash = {
@@ -71,6 +72,22 @@ class Api::V1::PingController < Api::V1::ABaseController
 
     unless changed_attributes.empty?
       current_session.update_attributes!(changed_attributes)
+    end
+  end
+
+  def store_user_information!
+    changed_attributes = {}
+
+    if params[:device_timezone] && (current_user.time_zone != params[:device_timezone])
+      changed_attributes[:time_zone] = params[:device_timezone]
+    end
+
+    if !params[:notifications_enabled].nil? && (current_user.cached_notifications_enabled != params[:notifications_enabled])
+      changed_attributes[:cached_notifications_enabled] = params[:notifications_enabled]
+    end
+
+    unless changed_attributes.empty?
+      current_user.update_attributes!(changed_attributes)
     end
   end
 end

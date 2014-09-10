@@ -283,13 +283,13 @@ class RHSMailer < MandrillMailer::TemplateMailer
 
   def mayo_pilot_invite_email(user, provider)
     mandrill_mail(
-      subject: 'Your Invitation to the Better and Mayo Clinic Pilot',
-      from: 'support@getbetter.com',
+      subject: 'Claim your spot in the Better and Mayo Clinic Pilot',
+      from: 'hello@getbetter.com',
       from_name: 'Better',
       to: {email: user.email},
       template: MAYO_PILOT_INVITE_TEMPLATE,
       headers: {
-        'Reply-To' => 'Better <support@getbetter.com>'
+        'Reply-To' => 'Better <hello@getbetter.com>'
       },
       vars: {
         FNAME: user.salutation,

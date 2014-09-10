@@ -74,6 +74,11 @@ describe Api::V1::UserConditionsController do
         do_request
       end
 
+      it 'sets the actor id' do
+        user_conditions.should_receive(:create).with hash_including(actor_id: user.id)
+        do_request
+      end
+
       context 'save succeeds' do
         it_behaves_like 'success'
 
@@ -150,6 +155,11 @@ describe Api::V1::UserConditionsController do
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it 'attempts to destroy the record' do
         user_condition.should_receive(:destroy).once
+        do_request
+      end
+
+      it 'sets the actor id' do
+        user_condition.should_receive(:actor_id=).with(user.id)
         do_request
       end
 

@@ -218,6 +218,23 @@ describe Member do
     end
   end
 
+  describe 'scopes' do
+    describe '::with_request_or_service_task' do
+      let!(:engagement_service_type) { create(:service_type, bucket: 'engagement') }
+      let!(:other_service_type) { create(:service_type, bucket: 'other') }
+
+      let!(:with_member_task) { create(:member_task, service_type: engagement_service_type).member }
+      let!(:with_request_task) { create(:user_request).user }
+      let!(:with_service_task) { create(:member_task, service_type: other_service_type).member }
+
+      it 'returns members with a request or service task' do
+        result = described_class.with_request_or_service_task
+        expect(result).to include(with_request_task, with_service_task)
+        expect(result).to_not include(with_member_task)
+      end
+    end
+  end
+
   describe 'states' do
     describe 'invited' do
       let(:member) { build_stubbed(:member, :invited) }
@@ -659,112 +676,6 @@ describe Member do
       it 'does nothing' do
         TwilioModule.should_not_receive :message
         member.alert_stakeholders_on_call_status
-      end
-    end
-  end
-
-  describe '#engaged?' do
-    let!(:member) { create :member }
-    let!(:pha) { create :pha }
-    let!(:consult) { create :consult, initiator: member, subject: member }
-
-    context 'member has tasks' do
-      context 'member has only wellness tasks' do
-        before do
-          MemberTask.create! member: member, subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'wellness')
-        end
-
-        it 'returns true' do
-          member.should be_engaged
-        end
-      end
-
-      context 'member has only care coordination tasks' do
-        before do
-          MemberTask.create! member: member, subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'care coordination')
-        end
-
-        it 'returns true' do
-          member.should be_engaged
-        end
-      end
-
-      context 'member has only insurance tasks' do
-        before do
-          MemberTask.create! member: member, subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'insurance')
-        end
-
-        it 'returns true' do
-          member.should be_engaged
-        end
-      end
-
-      context 'member has only other tasks' do
-        before do
-          MemberTask.create! member: member, subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'other')
-        end
-
-        it 'returns true' do
-          member.should be_engaged
-        end
-      end
-
-      context 'member has only engagement tasks' do
-        before do
-          MemberTask.create! member: member, subject: member, creator: pha, due_at: Time.now, title: 'Task', description: 'Description', service_type: ServiceType.create!(name: 'test', bucket: 'engagement')
-        end
-
-        it 'returns false' do
-          member.should_not be_engaged
-        end
-      end
-    end
-
-    context 'member has no tasks' do
-      before do
-        MemberTask.count.should == 0
-      end
-
-      context 'member has sent more than one message' do
-        before do
-          Message.create! user: member, consult: consult, text: 'test.'
-          Message.create! user: member, consult: consult, text: 'test.'
-        end
-
-        it 'returns true' do
-          member.should be_engaged
-        end
-      end
-
-     context 'member has sent one message' do
-       before do
-         Message.create! user: member, consult: consult, text: 'test.'
-       end
-
-       it 'returns true' do
-         member.should_not be_engaged
-       end
-     end
-
-      context 'member has not sent a message' do
-        before do
-          member.messages.count.should == 0
-        end
-
-        it 'returns false' do
-          member.should_not be_engaged
-        end
-
-        context 'pha has sent messages' do
-          before do
-            Message.create! user: pha, consult: consult, text: 'test.'
-            Message.create! user: pha, consult: consult, text: 'test.'
-          end
-
-          it 'returns false' do
-            member.should_not be_engaged
-          end
-        end
       end
     end
   end

@@ -226,7 +226,7 @@ Condition.find_or_create_by_name(name: "Gout",
 Condition.find_or_create_by_name(name: "Obesity",
                                  snomed_name: "Obesity",
                                  snomed_code: "414916001")
-Condition.find_or_create_by_name(name: "Overwieght",
+Condition.find_or_create_by_name(name: "Overweight",
                                  snomed_name: "Obesity",
                                  snomed_code: "414916001")
 Condition.find_or_create_by_name(name: "Lewy body dementia",

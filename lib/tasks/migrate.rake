@@ -1,4 +1,9 @@
 namespace :migrate do
+  task cache_session_info_on_user: :environment do
+    Member.joins(:sessions).update_all('users.time_zone = sessions.device_timezone')
+    Member.joins(:sessions).update_all('users.cached_notifications_enabled = sessions.device_notifications_enabled')
+  end
+
   task :update_gender_question_resource do
     gender_content = Content.find_by_title!('Your Gender')
     gender_question = Question.find_by_view!(:gender)

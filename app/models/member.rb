@@ -42,6 +42,9 @@ class Member < User
                                 class_name: 'Subscription',
                                 source: :subscription
   has_many :tasks, class_name: 'Task', conditions: {type: ['MemberTask', 'UserRequestTask', 'ParsedNurselineRecordTask']}
+  has_many :request_tasks, class_name: 'Task', conditions: {type: %w(UserRequestTask ParsedNurselineRecordTask)}
+  has_many :service_tasks, class_name: 'MemberTask',
+                           conditions: proc{ {service_type_id: ServiceType.non_engagement_ids} }
   has_many :services
   has_many :user_images, foreign_key: :user_id,
                          inverse_of: :user,
@@ -75,7 +78,8 @@ class Member < User
                   :referral_code, :referral_code_id, :on_call,
                   :owned_referral_code,
                   :status, :status_event,
-                  :nux_answer_id, :nux_answer, :time_zone
+                  :nux_answer_id, :nux_answer, :time_zone,
+                  :cached_notifications_enabled
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
@@ -130,6 +134,11 @@ class Member < User
     where(status: PREMIUM_STATES)
   end
 
+  def self.with_request_or_service_task
+    includes(:request_tasks, :service_tasks)
+    .where('tasks.id IS NOT NULL OR service_tasks_users.id IS NOT NULL')
+  end
+
   def self.name_search(string)
     wildcard = "%#{string}%"
     where("first_name LIKE ? OR last_name LIKE ? OR email LIKE ?", wildcard, wildcard, wildcard)
@@ -169,21 +178,6 @@ class Member < User
     role = Role.where(name: role_name).first_or_create!
     roles << role
     @role_names << role.name.to_s if @role_names
-  end
-
-  def has_service_task?
-    tasks.joins(:service_type)
-         .where(service_types: {bucket: ['wellness', 'care coordination', 'insurance', 'other']})
-         .any?
-  end
-
-  def has_request_task?
-    tasks.where(type: %w(UserRequestTask ParsedNurselineRecordTask)).any?
-  end
-
-  def engaged?
-    tasks.joins(:service_type).where(service_types: {bucket: ['wellness', 'care coordination', 'insurance', 'other']}).count > 0 ||
-    messages.count > 1
   end
 
   def admin?
@@ -290,10 +284,6 @@ class Member < User
     else
       :free
     end
-  end
-
-  def time_zone
-    read_attribute(:time_zone) ? ActiveSupport::TimeZone.new(read_attribute(:time_zone)) : nil
   end
 
   protected
