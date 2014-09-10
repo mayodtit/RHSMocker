@@ -78,7 +78,8 @@ class Member < User
                   :referral_code, :referral_code_id, :on_call,
                   :owned_referral_code,
                   :status, :status_event,
-                  :nux_answer_id, :nux_answer, :time_zone
+                  :nux_answer_id, :nux_answer, :time_zone,
+                  :cached_notifications_enabled
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
@@ -283,10 +284,6 @@ class Member < User
     else
       :free
     end
-  end
-
-  def time_zone
-    read_attribute(:time_zone) ? ActiveSupport::TimeZone.new(read_attribute(:time_zone)) : nil
   end
 
   protected

@@ -12,10 +12,11 @@ class Cohort < ActiveRecord::Base
                   .where('signed_up_at >= ?', started_at)
                   .where('signed_up_at <= ?', ended_at)
 
-    users_with_message = users.joins(:messages).uniq
-    users_with_service = users.with_request_or_service_task
+    users_with_message = users.joins(:messages).select('users.id').uniq
+    users_with_service = users.with_request_or_service_task.select('users.id')
     converted_users = users.joins(:member_state_transitions)
                            .where(member_state_transitions: {to: :premium})
+                           .select('users.id')
                            .uniq
 
     upsert_attributes({
