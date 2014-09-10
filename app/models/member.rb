@@ -285,10 +285,6 @@ class Member < User
     end
   end
 
-  def time_zone
-    read_attribute(:time_zone) ? ActiveSupport::TimeZone.new(read_attribute(:time_zone)) : nil
-  end
-
   protected
 
   def free_trial_ends_at_is_nil
