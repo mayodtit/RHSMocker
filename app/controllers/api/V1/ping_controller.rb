@@ -82,6 +82,10 @@ class Api::V1::PingController < Api::V1::ABaseController
       changed_attributes[:time_zone] = params[:device_timezone]
     end
 
+    if !params[:notifications_enabled].nil? && (current_user.cached_notifications_enabled != params[:notifications_enabled])
+      changed_attributes[:cached_notifications_enabled] = params[:notifications_enabled]
+    end
+
     unless changed_attributes.empty?
       current_user.update_attributes!(changed_attributes)
     end
