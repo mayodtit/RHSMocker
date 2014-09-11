@@ -1,6 +1,6 @@
 class PhoneCallTask < Task
   include ActiveModel::ForbiddenAttributesProtection
-  PRIORITY = 10
+  PRIORITY = 15
   belongs_to :phone_call
 
   has_one :member, through: :phone_call, source: :user

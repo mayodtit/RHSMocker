@@ -1,6 +1,10 @@
 class MessageTask < Task
   include ActiveModel::ForbiddenAttributesProtection
-  PRIORITY = 9
+  FIRST_MESSAGE_PRIORITY = 13
+  NTH_MESSAGE_PRIORITY = 12
+  ACTIVE_CONVERSATION_PRIORITY = 11
+  INACTIVE_CONVERSATION_PRIORITY = 10
+
   belongs_to :consult
   belongs_to :message
   has_one :member, through: :consult, source: :initiator
@@ -37,6 +41,9 @@ class MessageTask < Task
   end
 
   def set_priority
-    self.priority = PRIORITY
+    self.priority = NTH_MESSAGE_PRIORITY
+    if message_id.nil? || consult.messages.where('user_id = ? AND created_at < ?', message.user.id, message.created_at).count == 0
+      self.priority = FIRST_MESSAGE_PRIORITY
+    end
   end
 end

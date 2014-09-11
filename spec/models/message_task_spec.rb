@@ -183,11 +183,49 @@ describe MessageTask do
   end
 
   describe '#set_priority' do
-    let(:task) { build :message_task }
+    let!(:consult) { create :consult }
+    let!(:message) { create :message, consult: consult, user: consult.initiator }
 
-    it 'sets it to zero' do
-      task.set_priority
-      task.priority.should == MessageTask::PRIORITY
+    before do
+      # Clear out any MessageTasks that are created through callbacks
+      consult
+      message
+      MessageTask.destroy_all
+    end
+
+    context 'if this message is the first message' do
+      let!(:task) { create :message_task, message: message, consult: consult }
+
+      it 'sets the priority appropriately' do
+        task.set_priority
+        task.priority.should == MessageTask::FIRST_MESSAGE_PRIORITY
+      end
+
+      context 'member added multiple messages' do
+        before do
+          create :message, consult: consult, user: consult.initiator, created_at: 1.minute.from_now
+          create :message, consult: consult, user: consult.initiator, created_at: 5.minutes.from_now
+        end
+
+        it 'sets the priority to what it should be for the first message' do
+          task.set_priority
+          task.priority.should == MessageTask::FIRST_MESSAGE_PRIORITY
+        end
+      end
+    end
+
+    context 'if this message is not the first message' do
+      let!(:task) { create :message_task, message: message, consult: consult }
+
+      before do
+        create :message, consult: consult, user: consult.initiator, created_at: 3.days.ago
+        create :message, consult: consult, user: consult.initiator, created_at: 5.minutes.ago
+      end
+
+      it 'sets the priority appropriately' do
+        task.set_priority
+        task.priority.should == MessageTask::NTH_MESSAGE_PRIORITY
+      end
     end
   end
 end
