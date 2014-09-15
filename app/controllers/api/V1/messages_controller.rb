@@ -21,11 +21,10 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   private
 
   def messages
-    if current_user.care_provider? && @consult.initiator != current_user
-      @consult.messages_and_notes
-    else
-      @consult.messages
-    end
+    messages = @consult.messages
+    messages = @consult.messages_and_notes if current_user.care_provider? && @consult.initiator != current_user
+    messages = messages.where('created_at > ?', Time.parse(params[:last_message_date])) if params[:last_message_date].present?
+    messages
   end
 
   def load_consult!

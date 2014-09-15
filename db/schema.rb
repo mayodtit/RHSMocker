@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140910182342) do
+ActiveRecord::Schema.define(:version => 20140915194900) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -704,6 +704,7 @@ ActiveRecord::Schema.define(:version => 20140910182342) do
     t.boolean  "device_notifications_enabled"
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
+    t.string   "advertiser_id"
   end
 
   add_index "sessions", ["apns_token"], :name => "index_sessions_on_apns_token", :unique => true

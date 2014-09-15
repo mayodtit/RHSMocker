@@ -16,8 +16,13 @@ resource "Messages" do
 
   context 'existing record' do
     let!(:message) { create(:message, consult: consult) }
+    let!(:old_message) { create(:message, consult: consult, created_at: Time.parse('2014-08-26T00:17:26Z')) }
 
     get '/api/v1/consults/:consult_id/messages' do
+      parameter :last_message_date, 'Pull messages after this date'
+
+      let(:last_message_date) { '2014-08-26T00:17:26Z' }
+
       example_request "[GET] Get all Messages for a given Consult" do
         explanation "Returns an array of Messages"
         expect(status).to eq(200)
