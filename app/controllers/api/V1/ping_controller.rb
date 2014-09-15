@@ -70,6 +70,10 @@ class Api::V1::PingController < Api::V1::ABaseController
       changed_attributes[:device_id] = params[:device_id]
     end
 
+    if params[:advertiser_id] && (current_session.advertiser_id != params[:advertiser_id])
+      changed_attributes[:advertiser_id] = params[:advertiser_id]
+    end
+
     unless changed_attributes.empty?
       current_session.update_attributes!(changed_attributes)
     end
