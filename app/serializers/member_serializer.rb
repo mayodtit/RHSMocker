@@ -136,6 +136,6 @@ class MemberSerializer < ActiveModel::Serializer
   end
 
   def meet_your_pha_text
-    "#{object.pha.try(:first_name)} will be your Personal Health Assistant. #{object.pha.try(:gender_pronoun).try(:titleize)}’ll start by helping you with #{object.nux_answer.try(:phrase) || 'your health needs'}.\n\nOur Personal Health Assistant team is dedicated to caring for you and your family’s health needs. If you need help right away when #{object.pha.try(:first_name)} is offline, another member of the team may ask if he or she can assist you."
+    "#{object.pha.try(:first_name)} will be your Personal Health Assistant. #{object.pha.try(:gender_pronoun).try(:titleize)}’ll start by helping you with #{object.nux_answer.try(:phrase) || 'your health needs'}."
   end
 end
