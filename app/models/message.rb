@@ -21,7 +21,7 @@ class Message < ActiveRecord::Base
                   :symptom, :symptom_id, :condition, :condition_id,
                   :off_hours, :note, :user_image, :user_image_id,
                   :user_image_client_guid, :no_notification,
-                  :system
+                  :system, :automated
 
   validates :user, :consult, presence: true
   validates :off_hours, inclusion: {in: [true, false]}
@@ -39,6 +39,7 @@ class Message < ActiveRecord::Base
   after_create :notify_initiator
   after_create :create_task
   after_create :update_initiator_last_contact_at
+  after_create :activate_consult
 
   accepts_nested_attributes_for :phone_call
   accepts_nested_attributes_for :scheduled_phone_call
@@ -65,6 +66,13 @@ class Message < ActiveRecord::Base
   def update_initiator_last_contact_at
     unless phone_call_summary || (phone_call && phone_call.to_nurse?) || note?
       consult.initiator.update_attributes! last_contact_at: self.created_at
+    end
+  end
+
+  def activate_consult
+    if !off_hours? && !system? && !automated?
+      consult.activate! if consult.inactive?
+      Consult.delay(run_at: Metadata.minutes_to_inactive_conversation.from_now).deactivate_if_last_message(self.id)
     end
   end
 

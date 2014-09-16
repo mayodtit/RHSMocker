@@ -163,4 +163,109 @@ describe Message do
       expect(message.reload.user_image).to eq(user_image)
     end
   end
+
+  describe '#activate_consult' do
+    let(:consult) { build_stubbed :consult }
+    let(:message) { build_stubbed :message, consult: consult }
+
+    context 'message is off_hours' do
+      before do
+        message.stub(:off_hours?) { true }
+      end
+
+      it 'does nothing' do
+        consult.should_not_receive :activate!
+        Consult.should_not_receive :delay
+        message.activate_consult
+      end
+    end
+
+    context 'message is not off_hours' do
+      before do
+        message.stub(:off_hours?) { false }
+      end
+
+      context 'message is system' do
+        before do
+          message.stub(:system?) { true }
+        end
+
+        it 'does nothing' do
+          consult.should_not_receive :activate!
+          Consult.should_not_receive :delay
+          message.activate_consult
+        end
+      end
+
+      context 'message is not system' do
+        before do
+          message.stub(:system?) { false }
+        end
+
+        context 'message is automated' do
+          before do
+            message.stub(:automated?) { true }
+          end
+
+          it 'does nothing' do
+            consult.should_not_receive :activate!
+            Consult.should_not_receive :delay
+            message.activate_consult
+          end
+        end
+
+        context 'message is not automated' do
+          before do
+            message.stub(:automated?) { false }
+            Timecop.freeze
+          end
+
+          after do
+            Timecop.return
+          end
+
+          context 'consult is not inactive' do
+            before do
+              consult.stub(:inactive?) { false }
+            end
+
+            it 'doesn\'t activate the consult' do
+              consult.should_not_receive :activate!
+              message.activate_consult
+            end
+
+            it 'creates a delayed job to deactivate the consult if no messages are created' do
+              Consult.should_receive(:delay).with(run_at: Metadata.minutes_to_inactive_conversation.from_now) do
+                o = Object.new
+                o.should_receive(:deactivate_if_last_message).with(message.id)
+                o
+              end
+              message.activate_consult
+            end
+          end
+
+          context 'consult is inactive' do
+            before do
+              consult.stub(:activate!)
+              consult.stub(:inactive?) { true }
+            end
+
+            it 'activates the consult' do
+              consult.should_receive :activate!
+              message.activate_consult
+            end
+
+            it 'creates a delayed job to deactivate the consult if no messages are created' do
+              Consult.should_receive(:delay).with(run_at: Metadata.minutes_to_inactive_conversation.from_now) do
+                o = Object.new
+                o.should_receive(:deactivate_if_last_message).with(message.id)
+                o
+              end
+              message.activate_consult
+            end
+          end
+        end
+      end
+    end
+  end
 end

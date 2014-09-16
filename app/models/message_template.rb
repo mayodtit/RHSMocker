@@ -10,14 +10,14 @@ class MessageTemplate < ActiveRecord::Base
   validates :name, uniqueness: true
   validates :content, presence: true, if: ->(m){m.content_id}
 
-  def create_message(sender, consult, no_notification=false, system_message=false, off_hours=false)
+  def create_message(sender, consult, no_notification=false, system_message=false, automated=false)
     Message.create(user: sender,
                    consult: consult,
                    text: self.class.formatted_text(sender, consult.initiator, text),
                    content: content,
                    no_notification: no_notification,
                    system: system_message,
-                   off_hours: off_hours)
+                   automated: automated)
   end
 
   def create_scheduled_message(sender, consult, publish_at, variables={})
