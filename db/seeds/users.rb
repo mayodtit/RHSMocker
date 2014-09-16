@@ -104,7 +104,7 @@ PHA_ATTRIBUTES.each do |attributes|
   m.add_role(:pha) unless m.roles.find_by_name(:pha)
   image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:avatar_image]))
   m.update_attributes(avatar: image)
-  m.create_pha_profile unless m.pha_profile
+  m.create_pha_profile(capacity_weight: 100) unless m.pha_profile
   m.pha_profile.update_attributes(bio: attributes[:bio]) unless m.pha_profile.bio
   image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:arrow_image]))
   m.pha_profile.update_attributes(bio_image: image)
