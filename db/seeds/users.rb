@@ -102,18 +102,12 @@ PHA_ATTRIBUTES.each do |attributes|
   end
   m = Member.find_or_create_by_email(create_attributes)
   m.add_role(:pha) unless m.roles.find_by_name(:pha)
-  unless m.avatar_url
-    image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:avatar_image]))
-    m.update_attributes(avatar: image)
-  end
-  m.create_pha_profile unless m.pha_profile
+  image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:avatar_image]))
+  m.update_attributes(avatar: image)
+  m.create_pha_profile(capacity_weight: 100) unless m.pha_profile
   m.pha_profile.update_attributes(bio: attributes[:bio]) unless m.pha_profile.bio
-  unless m.pha_profile.bio_image_url
-    image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:arrow_image]))
-    m.pha_profile.update_attributes(bio_image: image)
-  end
-  unless m.pha_profile.full_page_bio_image_url
-    image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:bio_image]))
-    m.pha_profile.update_attributes(full_page_bio_image: image)
-  end
+  image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:arrow_image]))
+  m.pha_profile.update_attributes(bio_image: image)
+  image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:bio_image]))
+  m.pha_profile.update_attributes(full_page_bio_image: image)
 end
