@@ -16,7 +16,7 @@ m = MessageTemplate.upsert_attributes({name: 'Welcome Call Reminder'},
 cw = CommunicationWorkflow.find_or_create_by_name(name: 'Automated Onboarding 8/22/14')
 
 AUTOMATED_ONBOARDING_MESSAGE_1 = <<eof
-  *|member_first_name|*, thanks for signing up. I’m here to help you with *|nux_answer|*. Let’s have a quick conversation so I can learn more. Message me here or [schedule a time to talk](better://nb?cmd=scheduleCall).
+  *|member_first_name|*, thanks for signing up. I’m here to help you *|nux_answer|*. Let’s have a quick conversation so I can learn more. Message me here or [schedule a time to talk](better://nb?cmd=scheduleCall).
 eof
 m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message Day 2 8/22/14'},
                                       {text: AUTOMATED_ONBOARDING_MESSAGE_1.strip()})
@@ -36,7 +36,7 @@ MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
 AUTOMATED_ONBOARDING_EMAIL_2 = <<eof
 Hi *|member_first_name|*,
 
-Just as a reminder, I'm *|pha_first_name|*, your Personal Health Assistant from Better. I'd like to get started helping you with *|nux_answer|*, but first, I need a bit more information. Take a quick minute and send me a message in the app. To see my messages as they come in, turn on Push Notifications within Settings on your phone.
+Just as a reminder, I'm *|pha_first_name|*, your Personal Health Assistant from Better. I'd like to get started helping you *|nux_answer|*, but first, I need a bit more information. Take a quick minute and send me a message in the app. To see my messages as they come in, turn on Push Notifications within Settings on your phone.
 
 Take care,
 *|pha_first_name|*
