@@ -8,7 +8,10 @@ class StripeExtension
       price: stripe_plan[:metadata][:display_price] || "$#{stripe_plan[:price].to_f/100}/month",
 
       # even though we're always returning nil, the iOS client is still reading in the description
-      description: nil
+      description: nil,
+      image_url: stripe_plan[:metadata][:image_name],
+      call_to_action_text: stripe_plan[:metadata][:call_to_action_text] || 'Continue',
+      html_body: '<html></html>'
     }
   end
 
