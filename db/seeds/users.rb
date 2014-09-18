@@ -101,6 +101,8 @@ PHA_ATTRIBUTES.each do |attributes|
     }]
   end
   m = Member.find_or_create_by_email(create_attributes)
+  m.update_attributes(first_name: attributes[:first_name],
+                      last_name: attributes[:last_name])
   m.add_role(:pha) unless m.roles.find_by_name(:pha)
   image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:avatar_image]))
   m.update_attributes(avatar: image)
