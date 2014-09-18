@@ -105,7 +105,7 @@ PHA_ATTRIBUTES.each do |attributes|
   image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:avatar_image]))
   m.update_attributes(avatar: image)
   m.create_pha_profile(capacity_weight: 100) unless m.pha_profile
-  m.pha_profile.update_attributes(bio: attributes[:bio]) unless m.pha_profile.bio
+  m.pha_profile.update_attributes(bio: attributes[:bio])
   image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:arrow_image]))
   m.pha_profile.update_attributes(bio_image: image)
   image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:bio_image]))
