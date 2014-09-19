@@ -79,7 +79,7 @@ class Member < User
                   :owned_referral_code,
                   :status, :status_event,
                   :nux_answer_id, :nux_answer, :time_zone,
-                  :cached_notifications_enabled
+                  :cached_notifications_enabled, :email_confirmed
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
