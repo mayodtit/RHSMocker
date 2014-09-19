@@ -687,4 +687,14 @@ describe Member do
       end
     end
   end
+
+  describe '#confirm_email!' do
+    let(:member) { create(:member, email_confirmed: false, email_confirmation_token: 'token') }
+
+    it 'sets email confirmed and removes the email confirmation token' do
+      member.confirm_email!
+      expect(member.reload.email_confirmed?).to be_true
+      expect(member.email_confirmation_token).to be_nil
+    end
+  end
 end

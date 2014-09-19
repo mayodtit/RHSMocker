@@ -270,6 +270,11 @@ class Member < User
     end
   end
 
+  def confirm_email!
+    update_attributes!(email_confirmed: true,
+                       email_confirmation_token: nil)
+  end
+
   def initial_state
     if password.present? || crypted_password.present?
       next_state
