@@ -19,7 +19,10 @@ describe StripeExtension do
           id: 1,
           name: 'plan',
           price: '$13.37/month',
-          description: nil
+          description: nil,
+          image_url: nil,
+          call_to_action_text: 'Continue',
+          html_body: '<html></html>'
         }
 
         hash = StripeExtension.plan_serializer(@stripe_plan)
@@ -38,7 +41,10 @@ describe StripeExtension do
           id: 1,
           name: 'p',
           price: '$313.37 USD/month',
-          description: nil
+          description: nil,
+          image_url: nil,
+          call_to_action_text: 'Continue',
+          html_body: '<html></html>'
         }
 
         hash = StripeExtension.plan_serializer(@stripe_plan)
