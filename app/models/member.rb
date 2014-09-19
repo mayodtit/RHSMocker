@@ -79,7 +79,8 @@ class Member < User
                   :owned_referral_code,
                   :status, :status_event,
                   :nux_answer_id, :nux_answer, :time_zone,
-                  :cached_notifications_enabled, :email_confirmed
+                  :cached_notifications_enabled, :email_confirmed,
+                  :email_confirmation_token
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
@@ -98,9 +99,11 @@ class Member < User
   validates :onboarding_group, presence: true, if: ->(m){m.onboarding_group_id}
   validates :referral_code, presence: true, if: ->(m){m.referral_code_id}
   validates :nux_answer, presence: true, if: -> (m) { m.nux_answer_id }
+  validates :email_confirmation_token, presence: true, unless: ->(m){m.email_confirmed?}
 
   before_validation :set_owner
   before_validation :set_member_flag
+  before_validation :set_email_confirmation_token, unless: ->(m){m.email_confirmed?}
   before_validation :set_signed_up_at, if: ->(m){m.signed_up? && m.status_changed?}
   before_validation :set_free_trial_ends_at, if: ->(m){m.status?(:trial) && m.status_changed?}
   before_validation :unset_free_trial_ends_at
@@ -371,6 +374,13 @@ class Member < User
   def unset_invitation_token
     return if invited?
     self.invitation_token = nil if invitation_token
+  end
+
+  def set_email_confirmation_token
+    self.email_confirmation_token ||= loop do
+      new_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
+      break new_token unless self.class.exists?(email_confirmation_token: new_token)
+    end
   end
 
   def set_pha

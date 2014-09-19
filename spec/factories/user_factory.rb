@@ -11,6 +11,7 @@ FactoryGirl.define do
       member_flag true
       owner nil
       status 'free'
+      email_confirmed true
 
       trait :invited do
         status 'invited'

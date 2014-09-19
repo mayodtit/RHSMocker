@@ -31,6 +31,14 @@ describe Member do
       expect(member).to_not be_valid
     end
 
+    it 'validates emaiL_confirmation_token is present' do
+      member.stub(:set_email_confirmation_token)
+      expect(member).to be_valid
+      member.email_confirmed = false
+      member.email_confirmation_token = nil
+      expect(member).to_not be_valid
+    end
+
     context 'signed_up user' do
       before do
         member.stub(:set_signed_up_at)
