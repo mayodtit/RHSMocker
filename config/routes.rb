@@ -210,6 +210,7 @@ RHSMocker::Application.routes.draw do
   resources :users, :only => [] do
     get 'reset_password/:token', :to => 'users#reset_password', :on => :collection, :as => 'reset_password'
     put 'reset_password', :to => 'users#reset_password_update', :on => :collection, :as => 'reset_password_update'
+    get 'confirm_email/:token', to: 'users#confirm_email', on: :collection, as: 'confirm_email'
   end
 
   get "/logout" => "sessions#destroy", :as=>"logout"

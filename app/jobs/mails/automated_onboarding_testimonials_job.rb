@@ -5,6 +5,7 @@ class Mails::AutomatedOnboardingTestimonialsJob < Struct.new(:user_id, :pha_id)
 
   def perform
     user = Member.find(user_id)
+    return if user.email_confirmed == false
     pha = Member.find(pha_id)
     RHSMailer.automated_onboarding_testimonials_email(user, pha).deliver
   end
