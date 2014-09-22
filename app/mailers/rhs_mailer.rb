@@ -53,6 +53,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
   PREMIUM_WELCOME_TEMPLATE_JENN = 'Meet Jenn, Your PHA 9/4/2014'
   PREMIUM_WELCOME_TEMPLATE_ANN = 'Meet Ann, Your PHA 9/4/2014'
   PREMIUM_WELCOME_TEMPLATE_JACQUI = 'Meet Jacqui, Your PHA 9/4/2014'
+  PREMIUM_WELCOME_TEMPLATE_CRYSTAL = 'Meet Crystal, Your PHA 9/22/2014'
 
   def meet_your_pha_email(email)
     user = Member.find_by_email!(email)
@@ -73,6 +74,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
       template = PREMIUM_WELCOME_TEMPLATE_ANN
     when 'jacqueline@getbetter.com'
       template = PREMIUM_WELCOME_TEMPLATE_JACQUI
+    when 'crystal@getbetter.com'
+      template = PREMIUM_WELCOME_TEMPLATE_CRYSTAL
     else
       template = PREMIUM_WELCOME_TEMPLATE_CLARE
     end
@@ -224,6 +227,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
   AUTOMATED_ONBOARDING_TESTIMONIALS_JENN = 'Day 8 Email 8/15 Jenn'
   AUTOMATED_ONBOARDING_TESTIMONIALS_ANN = 'Day 8 Email 8/15 Ann'
   AUTOMATED_ONBOARDING_TESTIMONIALS_JACQUI = 'Day 8 Email 8/15 Jacqui'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_CLARE = 'Day 8 Email 9/22 Crystal'
 
   def automated_onboarding_testimonials_email(user, pha)
     template = case pha.email
@@ -241,6 +245,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
                  AUTOMATED_ONBOARDING_TESTIMONIALS_ANN
                when 'jacqueline@getbetter.com'
                  AUTOMATED_ONBOARDING_TESTIMONIALS_JACQUI
+               when 'crystal@getbetter.com'
+                 AUTOMATED_ONBOARDING_TESTIMONIALS_CRYSTAL
                else
                  AUTOMATED_ONBOARDING_TESTIMONIALS_CLARE
                end
