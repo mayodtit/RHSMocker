@@ -33,6 +33,15 @@ class UsersController < ApplicationController
     end
   end
 
+  def confirm_email
+    @token = params[:token]
+    render :confirm_email_failure and return unless @token
+    @member = Member.find_by_email_confirmation_token(@token)
+    render :confirm_email_failure and return unless @member
+    @member.confirm_email!
+    render :confirm_email_success
+  end
+
   private
 
   def load_token!

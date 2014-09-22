@@ -83,6 +83,17 @@ PHA_ATTRIBUTES = [
     arrow_image: 'jacqui-arrow.png',
     avatar_image: 'jacqui-avatar.jpg',
     bio_image: 'jacqui-bio_image.png'
+  },
+  {
+    email: 'crystal@getbetter.com',
+    first_name: 'Crystal',
+    last_name: 'S',
+    bio: 'Crystal is a registered dietitian and certified medical ' +
+         'assistant. She is originally from the Midwest and enjoys ' +
+         'cooking, yoga, and being outdoors.',
+    arrow_image: 'crystal-arrow.png',
+    avatar_image: 'crystal-avatar.jpg',
+    bio_image: 'crystal-bio_image.png'
   }
 ]
 

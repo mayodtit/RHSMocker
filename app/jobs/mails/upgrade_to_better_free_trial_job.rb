@@ -5,6 +5,7 @@ class Mails::UpgradeToBetterFreeTrialJob < Struct.new(:user_id)
 
   def perform
     user = Member.find(user_id)
+    return if user.email_confirmed == false
     RHSMailer.upgrade_to_better_free_trial_email(user.email, user.salutation).deliver
   end
 end

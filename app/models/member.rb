@@ -79,7 +79,8 @@ class Member < User
                   :owned_referral_code,
                   :status, :status_event,
                   :nux_answer_id, :nux_answer, :time_zone,
-                  :cached_notifications_enabled
+                  :cached_notifications_enabled, :email_confirmed,
+                  :email_confirmation_token
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
@@ -98,9 +99,12 @@ class Member < User
   validates :onboarding_group, presence: true, if: ->(m){m.onboarding_group_id}
   validates :referral_code, presence: true, if: ->(m){m.referral_code_id}
   validates :nux_answer, presence: true, if: -> (m) { m.nux_answer_id }
+  validates :email_confirmation_token, presence: true, unless: ->(m){m.email_confirmed?}
 
   before_validation :set_owner
   before_validation :set_member_flag
+  before_validation :set_default_email_confirmed, on: :create
+  before_validation :set_email_confirmation_token, unless: ->(m){m.email_confirmed?}
   before_validation :set_signed_up_at, if: ->(m){m.signed_up? && m.status_changed?}
   before_validation :set_free_trial_ends_at, if: ->(m){m.status?(:trial) && m.status_changed?}
   before_validation :unset_free_trial_ends_at
@@ -118,6 +122,7 @@ class Member < User
   after_save :alert_stakeholders_on_call_status
   after_save :update_referring_scheduled_communications, if: ->(m){m.free_trial_ends_at_changed?}
   after_save :notify_pha_of_upgrade, if: ->(m){(m.status?(:premium) || m.status?(:chamath)) && m.status_changed?}
+  after_save :send_confirm_email_email, if: ->(m){!m.email_confirmed? && m.email_confirmation_token && m.status_changed?}
 
   SIGNED_UP_STATES = %i(free trial premium chamath)
   def self.signed_up
@@ -267,6 +272,11 @@ class Member < User
     end
   end
 
+  def confirm_email!
+    update_attributes!(email_confirmed: true,
+                       email_confirmation_token: nil)
+  end
+
   def initial_state
     if password.present? || crypted_password.present?
       next_state
@@ -371,6 +381,18 @@ class Member < User
   def unset_invitation_token
     return if invited?
     self.invitation_token = nil if invitation_token
+  end
+
+  def set_default_email_confirmed
+    self.email_confirmed = false if email_confirmed.nil?
+    true
+  end
+
+  def set_email_confirmation_token
+    self.email_confirmation_token ||= loop do
+      new_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
+      break new_token unless self.class.exists?(email_confirmation_token: new_token)
+    end
   end
 
   def set_pha
@@ -487,5 +509,9 @@ class Member < User
                        creator: Member.robot,
                        member: self,
                        due_at: Time.now)
+  end
+
+  def send_confirm_email_email
+    UserMailer.delay.confirm_email_email(id)
   end
 end
