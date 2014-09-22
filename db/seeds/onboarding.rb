@@ -6,7 +6,7 @@ Metadata.upsert_attributes({mkey: 'nux_question_text'}, mvalue: 'You’re just t
 
 # Provider search --
 
-NuxAnswer.upsert_attributes({name: 'provider search'}, text: 'Finding a new doctor or specialist', phrase: 'find a new doctor or specialist', active: true, ordinal: 10)
+NuxAnswer.upsert_attributes({name: 'provider search'}, text: 'Finding a new doctor or specialist', phrase: 'find a new doctor or specialist', active: true, ordinal: 5)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*. *|pha_first_name|* will be available *|pha_next_available|* to help you find a new doctor or specialist. 
@@ -35,7 +35,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: provider se
 
 # Fighting a medical bill --
 
-NuxAnswer.upsert_attributes({name: 'billing'}, text: 'Fighting a medical bill', phrase: 'fight a medical bill', active: true, ordinal: 9)
+NuxAnswer.upsert_attributes({name: 'billing'}, text: 'Fighting a medical bill', phrase: 'fight a medical bill', active: true, ordinal: 6)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*. *|pha_first_name|* will be available *|pha_next_available|* to help you sort out your medical bills. 
@@ -93,7 +93,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: medical con
 
 # Caring for a child --
 
-NuxAnswer.upsert_attributes({name: 'childcare'}, text: 'Caring for a child', phrase: 'care for a child', active: true, ordinal: 7)
+NuxAnswer.upsert_attributes({name: 'childcare'}, text: 'Caring for a child', phrase: 'care for a child', active: true, ordinal: 3)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *|pha_next_available|* to help support you and your family.
@@ -122,7 +122,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: childcare'}
 
 # Choosing new insurance --
 
-NuxAnswer.upsert_attributes({name: 'choosing insurance'}, text: 'Choosing new insurance', phrase: 'choose new insurance', active: true, ordinal: 6)
+NuxAnswer.upsert_attributes({name: 'choosing insurance'}, text: 'Choosing new insurance', phrase: 'choose new insurance', active: true, ordinal: 4)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *|pha_next_available|* to help you choose a new insurance plan.
@@ -151,7 +151,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: choosing in
 
 # Having a healthy baby --
 
-NuxAnswer.upsert_attributes({name: 'pregnancy'}, text: 'Having a healthy baby', phrase: 'have a healthy baby', active: true, ordinal: 5)
+NuxAnswer.upsert_attributes({name: 'pregnancy'}, text: 'Having a healthy baby', phrase: 'have a healthy baby', active: true, ordinal: 2)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *|pha_next_available|* to help you during this exciting time as your family grows.
@@ -180,7 +180,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: pregnancy'}
 
 # Caring for an aging parent --
 
-NuxAnswer.upsert_attributes({name: 'eldercare'}, text: 'Caring for an aging parent', phrase: 'care for an aging parent', active: true, ordinal: 4)
+NuxAnswer.upsert_attributes({name: 'eldercare'}, text: 'Caring for an aging parent', phrase: 'care for an aging parent', active: true, ordinal: 10)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *|pha_next_available|* to help support you and your family.
@@ -209,7 +209,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: eldercare'}
 
 # Medical question --
 
-NuxAnswer.upsert_attributes({name: 'medical question'}, text: 'Answering a medical question', phrase: 'answer a medical question', active: true, ordinal: 3)
+NuxAnswer.upsert_attributes({name: 'medical question'}, text: 'Answering a medical question', phrase: 'answer a medical question', active: true, ordinal: 2)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*! We’re here to help with your medical question. You can talk to a Mayo Clinic nurse now by tapping the phone above. 
@@ -225,7 +225,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: medical que
 
 # Losing some weight --
 
-NuxAnswer.upsert_attributes({name: 'weightloss'}, text: 'Losing some weight', phrase: 'lose some weight', active: true, ordinal: 2)
+NuxAnswer.upsert_attributes({name: 'weightloss'}, text: 'Losing some weight', phrase: 'lose some weight', active: true, ordinal: 7)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *|pha_next_available|* to create a plan for your weight loss goals. 
