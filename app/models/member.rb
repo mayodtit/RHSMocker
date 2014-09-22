@@ -103,6 +103,7 @@ class Member < User
 
   before_validation :set_owner
   before_validation :set_member_flag
+  before_validation :set_default_email_confirmed, on: :create
   before_validation :set_email_confirmation_token, unless: ->(m){m.email_confirmed?}
   before_validation :set_signed_up_at, if: ->(m){m.signed_up? && m.status_changed?}
   before_validation :set_free_trial_ends_at, if: ->(m){m.status?(:trial) && m.status_changed?}
@@ -379,6 +380,11 @@ class Member < User
   def unset_invitation_token
     return if invited?
     self.invitation_token = nil if invitation_token
+  end
+
+  def set_default_email_confirmed
+    self.email_confirmed = false if email_confirmed.nil?
+    true
   end
 
   def set_email_confirmation_token
