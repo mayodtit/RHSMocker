@@ -17,4 +17,17 @@ class MemberStateTransition < ActiveRecord::Base
   def self.multiple_exist_for?(member, state)
     where(member_id: member.id, to: state).count > 1
   end
+
+  def self.status_counts(time=Time.now)
+    where(id: most_recent_ids_per_user(time))
+    .group('member_state_transitions.to')
+    .count
+  end
+
+  def self.most_recent_ids_per_user(time=Time.now)
+    where('created_at < ?', time)
+    .select('MAX(id) AS id')
+    .group(:member_id)
+    .map(&:id)
+  end
 end
