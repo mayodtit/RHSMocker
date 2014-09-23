@@ -6,6 +6,7 @@ class StripeExtension
       id: stripe_plan[:id],
       name: stripe_plan[:metadata][:display_name] || stripe_plan[:name],
       price: stripe_plan[:metadata][:display_price] || "$#{stripe_plan[:price].to_f/100}/month",
+      membership: stripe_plan[:metadata][:membership],
 
       # even though we're always returning nil, the iOS client is still reading in the description
       description: nil,
