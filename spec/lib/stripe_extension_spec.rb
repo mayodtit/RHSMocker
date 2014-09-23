@@ -20,6 +20,7 @@ describe StripeExtension do
           name: 'plan',
           price: '$13.37/month',
           description: nil,
+          membership: nil,
           image_url: nil,
           call_to_action_text: 'Continue',
           html_body: '<html></html>'
@@ -41,6 +42,7 @@ describe StripeExtension do
           id: 1,
           name: 'p',
           price: '$313.37 USD/month',
+          membership: nil,
           description: nil,
           image_url: nil,
           call_to_action_text: 'Continue',
