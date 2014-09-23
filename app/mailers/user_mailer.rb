@@ -29,6 +29,11 @@ class UserMailer < ActionMailer::Base
     mail(to: user.email, subject: subject)
   end
 
+  def confirm_email_email(user_id)
+    @user = Member.find(user_id)
+    mail(to: @user.email, subject: 'Confirm your email with Better')
+  end
+
   def scheduled_phone_call_cp_assigned_email(scheduled_phone_call)
     @scheduled_phone_call = scheduled_phone_call
     attachments['event.ics'] = {:mime_type => 'text/calendar', :content => @scheduled_phone_call.owner_assigned_calendar_event.export}
