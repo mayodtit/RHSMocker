@@ -14,8 +14,7 @@ Welcome to Better, *|member_first_name|*. *|pha_first_name|* will be available *
 To get started:
 
 1) Take a photo of your insurance card (front & back) by tapping the camera. 
-2) [Enter your address here](better://nb?cmd=editProfile).
-3) Message your PHA the reason for the visit (eg. checkup, injury), or [schedule a time to talk here](better://nb?cmd=scheduleCall).
+2) [Schedule a time to talk here](better://nb?cmd=scheduleCall), or message *|pha_first_name|* the reason for the visit (e.g. checkup, injury).
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: provider search'}, text: MESSAGE.strip())
 
@@ -25,15 +24,11 @@ eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: provider search'}, text: MESSAGE.strip())
 
 MESSAGE = <<eof
-To get started:
-
-1) Take a photo of your insurance card (front & back) by tapping the camera. 
-2) [Enter your address here](better://nb?cmd=editProfile).
-3) Message me the reason for the visit (eg. checkup, injury), or [schedule a time to talk](better://nb?cmd=scheduleCall).
+Let's get started! Message with the reason for the visit (e.g. checkup, injury)
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: provider search'}, text: MESSAGE.strip())
 
-# Fighting a medical bill --
+################################ Fighting a medical bill ####################################
 
 NuxAnswer.upsert_attributes({name: 'billing'}, text: 'Fighting a medical bill', phrase: 'fight a medical bill', active: true, ordinal: 6)
 
@@ -44,7 +39,7 @@ To get started:
 
 1) Take a photo of your insurance card (front & back) by tapping the camera. 
 2) Take a photo of your medical bill.
-3) Message your PHA details about the bill or [schedule a time to talk](better://nb?cmd=scheduleCall).
+3) [Schedule a time to talk](better://nb?cmd=scheduleCall), or message *|pha_first_name|* PHA details about the bill.
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: billing'}, text: MESSAGE.strip())
 
@@ -54,44 +49,35 @@ eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: billing'}, text: MESSAGE.strip())
 
 MESSAGE = <<eof
-To get started:
-
-1) Take a photo of your insurance card (front & back) by tapping the camera.
-2) Take a photo of your medical bill.
-3) Message me details about the bill or [schedule a time to talk](better://nb?cmd=scheduleCall).
+Let's get started! Message me details about the bill and take a photo of the bill by tapping the camera.
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: billing'}, text: MESSAGE.strip())
 
-# Managing medical conditions --
+################################  Managing medical conditions ################################ 
 
 NuxAnswer.upsert_attributes({name: 'medical condition'}, text: 'Managing medical conditions', phrase: 'manage your medical conditions', active: true, ordinal: 8)
 
 MESSAGE = <<eof
-Welcome to Better, *|member_first_name|*. *|pha_first_name|* will be available *|pha_next_available|* to help you start managing your medical conditions.
+Welcome to Better, *|member_first_name|*. *|pha_first_name|* will be available *|pha_next_available|* to help you manage your medical conditions.
 
 To get started:
 
 1) [Add your medical conditions here](better://nb?cmd=showMedicalInformation).
-2) Take a photo of your insurance card (front & back) by tapping the camera.
-3) Message your PHA any concerns or [schedule a time to talk](better://nb?cmd=scheduleCall).
+2) [Schedule a time to talk](better://nb?cmd=scheduleCall), or message *|pha_first_name|* below.
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: medical condition'}, text: MESSAGE.strip())
 
 MESSAGE = <<eof
-Welcome to Better, *|member_first_name|*! I’m here to help you start managing your medical conditions.
+Welcome to Better, *|member_first_name|*! I’m here to help you manage your medical conditions.
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: medical condition'}, text: MESSAGE.strip())
 
 MESSAGE = <<eof
-To get started:
-
-1) [Add your medical conditions here](better://nb?cmd=showMedicalInformation).
-2) Take a photo of your insurance card (front & back) by tapping the camera.
-3) Message me about your medical conditions or [schedule a time to talk](better://nb?cmd=scheduleCall).
+To get started, message me about any recent concerns and [add your medical conditions] to your profile(better://nb?cmd=showMedicalInformation). 
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: medical condition'}, text: MESSAGE.strip())
 
-# Caring for a child --
+################################ Caring for a child ################################ 
 
 NuxAnswer.upsert_attributes({name: 'childcare'}, text: 'Caring for a child', phrase: 'care for a child', active: true, ordinal: 3)
 
@@ -101,8 +87,7 @@ Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *
 To get started:
 
 1) [Add your child’s information here](better://nb?cmd=newProfile). 
-2) Fill me in on any upcoming appointments.
-3) Message your PHA any questions or concerns, or [schedule a time to talk](better://nb?cmd=scheduleCall).
+2) [Schedule a time to talk](better://nb?cmd=scheduleCall), or message *|pha_first_name|* any questions or concerns.
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: childcare'}, text: MESSAGE.strip())
 
@@ -112,15 +97,11 @@ eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: childcare'}, text: MESSAGE.strip())
 
 MESSAGE = <<eof
-To get started:
-
-1) [Add your child’s information here](better://nb?cmd=newProfile).
-2) Fill me in about your family or any upcoming appointments. 
-3) Message me about how I can support you and your family, or [schedule a time to talk](better://nb?cmd=scheduleCall).
+To get started, tell me a little about your family and your health goals. 
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: childcare'}, text: MESSAGE.strip())
 
-# Choosing new insurance --
+################################  Choosing new insurance ################################
 
 NuxAnswer.upsert_attributes({name: 'choosing insurance'}, text: 'Choosing new insurance', phrase: 'choose new insurance', active: true, ordinal: 4)
 
@@ -129,9 +110,8 @@ Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *
 
 To get started:
 
-1) Add your [medical conditions here](better://nb?cmd=showMedicalInformation). 
-2) Add your [doctors here](better://nb?cmd=showCareTeam). 
-3) Tell your PHA what you’re looking for in a new insurance plan or [schedule a time to talk](better://nb?cmd=scheduleCall).
+1) Add your [medical conditions here](better://nb?cmd=showMedicalInformation) so we can be sure to find you insurance options that cover your needs. 
+2) [Schedule a time to talk](better://nb?cmd=scheduleCall), or message *|pha_first_name|* with what you’re looking for in a new insurance plan.
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: choosing insurance'}, text: MESSAGE.strip())
 
@@ -141,15 +121,11 @@ eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: choosing insurance'}, text: MESSAGE.strip())
 
 MESSAGE = <<eof
-To get started:
-
-1) [Add your medical conditions to your profile here](better://nb?cmd=showMedicalInformation).
-2) [Add your doctors here](better://nb?cmd=showCareTeam).
-3) Tell me what you’re looking for in a new insurance plan or [schedule a time to talk](better://nb?cmd=scheduleCall).
+Let's get started. Can you message me with what you’re looking for in a new insurance plan, and if you currently have insurance? 
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: choosing insurance'}, text: MESSAGE.strip())
 
-# Having a healthy baby --
+################################  Having a healthy baby ################################ 
 
 NuxAnswer.upsert_attributes({name: 'pregnancy'}, text: 'Having a healthy baby', phrase: 'have a healthy baby', active: true, ordinal: 2)
 
@@ -223,7 +199,7 @@ Welcome to Better, *|member_first_name|*! I’m here to help. What is your medic
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: medical question'}, text: MESSAGE.strip())
 
-# Losing some weight --
+########################## Losing some weight ##############################
 
 NuxAnswer.upsert_attributes({name: 'weightloss'}, text: 'Losing some weight', phrase: 'lose some weight', active: true, ordinal: 7)
 
@@ -232,8 +208,9 @@ Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *
 
 To get started:
 
-1) Tell your PHA a little more about your weight loss goals.
-2) [Add medical conditions to your profile](better://nb?cmd=showMedicalInformation).
+1) Tell *|pha_first_name|* a little more about your weight loss goals.  
+2) If you have any current medical conditions we should know about, please [add them to your Profile](better://nb?cmd=showMedicalInformation).
+
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: weightloss'}, text: MESSAGE.strip())
 
@@ -243,10 +220,7 @@ eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: weightloss'}, text: MESSAGE.strip())
 
 MESSAGE = <<eof
-To get started:
-
-1) Tell me more about how I can support your weight loss goals.
-2) [Add medical conditions to your profile](better://nb?cmd=showMedicalInformation).
+Tell me more about your current weight, and your goals for weight loss. Go ahead and send me a message, so we can get started. 
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 2: weightloss'}, text: MESSAGE.strip())
 
