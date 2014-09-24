@@ -227,7 +227,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
   AUTOMATED_ONBOARDING_TESTIMONIALS_JENN = 'Day 8 Email 8/15 Jenn'
   AUTOMATED_ONBOARDING_TESTIMONIALS_ANN = 'Day 8 Email 8/15 Ann'
   AUTOMATED_ONBOARDING_TESTIMONIALS_JACQUI = 'Day 8 Email 8/15 Jacqui'
-  AUTOMATED_ONBOARDING_TESTIMONIALS_CLARE = 'Day 8 Email 9/22 Crystal'
+  AUTOMATED_ONBOARDING_TESTIMONIALS_CRYSTAL = 'Day 8 Email 9/22 Crystal'
 
   def automated_onboarding_testimonials_email(user, pha)
     template = case pha.email

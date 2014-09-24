@@ -171,6 +171,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
     permitted_params.user.tap do |attributes|
       attributes[:referral_code] = @referral_code if @referral_code
       attributes[:onboarding_group] = @onboarding_group if @onboarding_group
+      attributes[:time_zone] = params[:device_properties].try(:[], :device_timezone)
     end
   end
 end
