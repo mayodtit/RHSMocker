@@ -58,7 +58,7 @@ eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: medical condition'}, text: MESSAGE.strip())
 
 MESSAGE = <<eof
-Welcome to Better, *|member_first_name|*! I’m here to help you start managing your medical conditions. To get started, message me about any recent concerns and [Add your medical conditions here](better://nb?cmd=showMedicalInformation).
+Welcome to Better, *|member_first_name|*! I’m here to help you start managing your medical conditions. To get started, message me about any recent concerns and [add your medical conditions here](better://nb?cmd=showMedicalInformation).
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: medical condition'}, text: MESSAGE.strip())
 
@@ -77,7 +77,7 @@ eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: childcare'}, text: MESSAGE.strip())
 
 MESSAGE = <<eof
-Welcome to Better, *|member_first_name|*! I’m here to help support you and your family. To get started, tell me how I can support you and your family.
+Welcome to Better, *|member_first_name|*! I’m here to help. To get started, tell me how I can support you and your family.
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: childcare'}, text: MESSAGE.strip())
 
@@ -100,9 +100,9 @@ Welcome to Better, *|member_first_name|*! I’m here to help you choose a new in
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: choosing insurance'}, text: MESSAGE.strip())
 
-################################  Having a healthy baby ################################ 
+################################  Having a healthy pregnancy ################################
 
-NuxAnswer.upsert_attributes({name: 'pregnancy'}, text: 'Having a healthy baby', phrase: 'have a healthy baby', active: true, ordinal: 2)
+NuxAnswer.upsert_attributes({name: 'pregnancy'}, text: 'Having a healthy pregnancy', phrase: 'have a healthy pregnancy', active: true, ordinal: 2)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *|pha_next_available|* to help you.  To get started, [schedule a time to talk](better://nb?cmd=scheduleCall) or send your PHA a message with your due date.
