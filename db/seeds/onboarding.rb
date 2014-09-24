@@ -102,7 +102,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: choosing in
 
 ################################  Having a healthy pregnancy ################################
 
-NuxAnswer.upsert_attributes({name: 'pregnancy'}, text: 'Having a healthy pregnancy', phrase: 'have a healthy pregnancy', active: true, ordinal: 2)
+NuxAnswer.upsert_attributes({name: 'pregnancy'}, text: 'Having a healthy pregnancy', phrase: 'have a healthy pregnancy', active: true, ordinal: 9)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *|pha_next_available|* to help you.  To get started, [schedule a time to talk](better://nb?cmd=scheduleCall) or send your PHA a message with your due date.
