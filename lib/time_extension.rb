@@ -5,8 +5,8 @@ module TimeExtension
     in_time_zone('Pacific Time (US & Canada)')
   end
 
-  def nine_oclock
-    Time.new(year, month, day, 9, 0, 0, strftime('%:z'))
+  def on_call_start_oclock
+    Time.new(year, month, day, ON_CALL_START_HOUR, 0, 0, strftime('%:z'))
   end
 
   def next_wday(wday)
@@ -48,7 +48,7 @@ module TimeExtension
           'tomorrow'
         end
       else
-        "today at #{next_business_day.strftime('%l%p').strip()}"
+        "later today"
       end
     end
   end
