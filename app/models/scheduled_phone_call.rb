@@ -132,11 +132,11 @@ Prep:
         (Time.now.pacific.to_date >= 1.business_day.before(scheduled_at.pacific).to_date)) &&
        (Time.now < (scheduled_at - 2.hours))
       # scheduled today or tomorrow, send reminder in the morning on the day
-      publish_at = scheduled_at.pacific.nine_oclock
+      publish_at = scheduled_at.pacific.on_call_start_oclock
       day = 'today'
     elsif (Time.now < (scheduled_at - 2.hours))
       # scheduled in the future, not today or tomorrow, send reminder the day before
-      publish_at = 1.business_day.before(scheduled_at.pacific).pacific.nine_oclock
+      publish_at = 1.business_day.before(scheduled_at.pacific).pacific.on_call_start_oclock
       day = scheduled_at.pacific.strftime('%A')
     else
       return
