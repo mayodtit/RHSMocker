@@ -47,15 +47,15 @@ describe Role do
         role.should_not be_on_call
       end
 
-      it 'doesn\'t accept calls before on call start hour' do
+      it 'doesn\'t accept calls before 9AM' do
         time.stub(:wday) { 1 }
-        time.stub(:hour) { ON_CALL_START_HOUR - 1 }
+        time.stub(:hour) { 7 }
         role.should_not be_on_call
       end
 
-      it 'doesn\'t accept calls after on call end hour' do
+      it 'doesn\'t accept calls after 6PM' do
         time.stub(:wday) { 1 }
-        time.stub(:hour) { ON_CALL_END_HOUR }
+        time.stub(:hour) { 18 }
         role.should_not be_on_call
       end
 

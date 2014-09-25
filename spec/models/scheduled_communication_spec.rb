@@ -99,7 +99,7 @@ describe ScheduledCommunication do
 
         it 'updates publish_at' do
           scheduled_communication.update_publish_at_from_calculation!
-          expect(scheduled_communication.reload.publish_at).to eq(Time.new(2014, 7, 23, ON_CALL_START_HOUR, 0, 0, '-07:00'))
+          expect(scheduled_communication.reload.publish_at).to eq(Time.new(2014, 7, 23, 9, 0, 0, '-07:00'))
         end
       end
 
@@ -108,7 +108,7 @@ describe ScheduledCommunication do
 
         it 'updates publish_at' do
           scheduled_communication.update_publish_at_from_calculation!
-          expect(scheduled_communication.reload.publish_at).to eq(Time.new(2014, 7, 29, ON_CALL_START_HOUR, 0, 0, '-07:00'))
+          expect(scheduled_communication.reload.publish_at).to eq(Time.new(2014, 7, 29, 9, 0, 0, '-07:00'))
         end
       end
     end
@@ -127,7 +127,7 @@ describe ScheduledCommunication do
 
         it 'updates publish_at' do
           scheduled_communication.update_publish_at_from_calculation!
-          expect(scheduled_communication.reload.publish_at).to eq(Time.new(2014, 7, 23, ON_CALL_START_HOUR, 0, 0, '-07:00'))
+          expect(scheduled_communication.reload.publish_at).to eq(Time.new(2014, 7, 23, 9, 0, 0, '-07:00'))
         end
       end
 
@@ -136,7 +136,7 @@ describe ScheduledCommunication do
 
         it 'updates publish_at' do
           scheduled_communication.update_publish_at_from_calculation!
-          expect(scheduled_communication.reload.publish_at).to eq(Time.new(2014, 7, 29, ON_CALL_START_HOUR, 0, 0, '-07:00'))
+          expect(scheduled_communication.reload.publish_at).to eq(Time.new(2014, 7, 29, 9, 0, 0, '-07:00'))
         end
       end
     end
