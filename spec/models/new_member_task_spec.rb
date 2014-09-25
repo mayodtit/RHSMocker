@@ -58,7 +58,7 @@ describe NewMemberTask do
 
           it 'sets due at to beginning of next work day' do
             task.set_due_at
-            task.due_at.should == Time.parse('Mon, 30 Jun 2014 09:00:00 PDT -07:00')
+            task.due_at.should == Time.parse("Mon, 30 Jun 2014 0#{ON_CALL_START_HOUR}:00:00 PDT -07:00")
           end
         end
 
@@ -69,7 +69,7 @@ describe NewMemberTask do
 
           it 'sets due at to beginning of next work day' do
             task.set_due_at
-            task.due_at.should == Time.parse('Mon, 30 Jun 2014 09:00:00 PDT -07:00')
+            task.due_at.should == Time.parse("Mon, 30 Jun 2014 0#{ON_CALL_START_HOUR}:00:00 PDT -07:00")
           end
         end
 
