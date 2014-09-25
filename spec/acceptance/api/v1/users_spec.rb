@@ -6,7 +6,7 @@ resource 'Users' do
   header 'Content-Type', 'application/json'
 
   let(:current_password) { 'current_password' }
-  let(:user) { create(:member, password: current_password) }
+  let(:user) { create(:member, :trial, password: current_password) }
   let(:session) { user.sessions.create }
 
   get '/api/v1/users' do
