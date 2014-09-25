@@ -157,16 +157,15 @@ ActiveRecord::Schema.define(:version => 20140924183301) do
 
   create_table "consults", :force => true do |t|
     t.string   "state"
-    t.datetime "created_at",                            :null => false
-    t.datetime "updated_at",                            :null => false
-    t.integer  "subject_id",         :default => 0,     :null => false
-    t.integer  "initiator_id",       :default => 0,     :null => false
+    t.datetime "created_at",                      :null => false
+    t.datetime "updated_at",                      :null => false
+    t.integer  "subject_id",   :default => 0,     :null => false
+    t.integer  "initiator_id", :default => 0,     :null => false
     t.string   "title"
     t.string   "description"
     t.string   "image"
     t.integer  "symptom_id"
-    t.boolean  "master",             :default => false, :null => false
-    t.string   "conversation_state"
+    t.boolean  "master",       :default => false, :null => false
   end
 
   create_table "content_mayo_vocabularies", :force => true do |t|
@@ -398,7 +397,6 @@ ActiveRecord::Schema.define(:version => 20140924183301) do
     t.integer  "user_image_id"
     t.string   "user_image_client_guid"
     t.boolean  "system"
-    t.boolean  "automated",               :default => false, :null => false
   end
 
   add_index "messages", ["consult_id", "created_at", "note"], :name => "index_messages_on_consult_id_and_created_at_and_note"
