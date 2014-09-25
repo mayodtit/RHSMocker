@@ -110,7 +110,13 @@ describe 'ScheduledPhoneCall' do
         put "/api/v1/scheduled_phone_calls/#{id}", {auth_token: session.auth_token}.merge!(:scheduled_phone_call => params)
       end
 
-      let(:time) { Time.parse('04-10-1986').utc }
+      let(:time) do
+        prev_global_time_zone = Time.zone
+        Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+        time = Time.roll_forward(50.days.from_now.in_time_zone(Time.zone))
+        Time.zone = prev_global_time_zone
+        time.utc
+      end
 
       it 'updates the record' do
         scheduled_phone_call.scheduled_at.should_not == time
@@ -143,7 +149,13 @@ describe 'ScheduledPhoneCall' do
         post "/api/v1/scheduled_phone_calls", params.merge!(auth_token: session.auth_token)
       end
 
-      let(:time) { Time.parse('04-10-1986').utc }
+      let(:time) do
+        prev_global_time_zone = Time.zone
+        Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+        time = Time.roll_forward(100.days.from_now.in_time_zone(Time.zone))
+        Time.zone = prev_global_time_zone
+        time.utc
+      end
       let(:attributes) { {:scheduled_at => time} }
 
       it 'creates a new scheduled_phone_call' do

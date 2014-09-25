@@ -45,9 +45,17 @@ resource "ScheduledPhoneCalls" do
 
     context 'existing records' do
       # NOTE: Keep order of creates, tests order
-      let!(:another_scheduled_phone_call) { create(:scheduled_phone_call, :scheduled_at => 4.days.from_now) }
+      before do
+        prev_global_time_zone = Time.zone
+        Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+        @future = Time.roll_forward(200.days.from_now.in_time_zone(Time.zone))
+        @past = Time.roll_backward(3.days.ago.in_time_zone(Time.zone))
+        Time.zone = prev_global_time_zone
+      end
+
+      let!(:another_scheduled_phone_call) { create(:scheduled_phone_call, :scheduled_at => @future) }
       let!(:scheduled_phone_call) { create(:scheduled_phone_call) }
-      let!(:other_scheduled_phone_call) { create(:scheduled_phone_call, :scheduled_at => 3.days.ago) }
+      let!(:other_scheduled_phone_call) { create(:scheduled_phone_call, :scheduled_at => @past) }
       let(:id) { scheduled_phone_call.id }
 
       describe 'phone_calls' do
@@ -87,7 +95,13 @@ resource "ScheduledPhoneCalls" do
 
         let(:state_event) { 'book' }
         let(:user_id) { member.id }
-        let(:scheduled_at) { Time.now + 1.day }
+        let(:scheduled_at) do
+          prev_global_time_zone = Time.zone
+          Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+          time = Time.roll_forward(50.days.from_now.in_time_zone(Time.zone))
+          Time.zone = prev_global_time_zone
+          time.utc
+        end
         let(:callback_phone_number) { '5551234567' }
         let(:raw_post) { params.to_json }
 
@@ -112,7 +126,13 @@ resource "ScheduledPhoneCalls" do
 
     post '/api/v1/scheduled_phone_calls' do
       parameter :scheduled_at, 'Time for when the call is scheduled'
-      let(:scheduled_at) { Time.now + 1.day }
+      let(:scheduled_at) do
+        prev_global_time_zone = Time.zone
+        Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+        time = Time.roll_forward(100.days.from_now.in_time_zone(Time.zone))
+        Time.zone = prev_global_time_zone
+        time.utc
+      end
       let(:raw_post) { params.to_json }
 
       example_request "[POST] Create a scheduled_phone_call" do

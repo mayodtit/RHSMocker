@@ -31,6 +31,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
   validates :reminder_scheduled_message, presence: true, if: ->(s){s.reminder_scheduled_message_id}
   validate :attrs_for_states
   validates :callback_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: false, if: lambda { |spc| spc.user_id }
+  validate :scheduled_at_during_on_call
 
   after_create :if_assigned_notify_owner
   after_save :set_user_phone_if_missing
@@ -264,6 +265,12 @@ Prep:
       if user_id.nil?
         errors.add(:user_id, "must be present when #{self.class.name} is #{state}")
       end
+    end
+  end
+
+  def scheduled_at_during_on_call
+    unless !scheduled_at || Role.pha.during_on_call?(scheduled_at)
+      errors.add(:scheduled_at, "must be weekdays between #{ON_CALL_START_HOUR}AM and #{ON_CALL_END_HOUR % 12}PM")
     end
   end
 end
