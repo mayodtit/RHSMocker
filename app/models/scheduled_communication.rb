@@ -104,9 +104,9 @@ class ScheduledCommunication < ActiveRecord::Base
 
   def calculated_publish_at
     if relative_days > 0
-      relative_days.abs.business_days.after(reference_time.pacific.nine_oclock)
+      relative_days.abs.business_days.after(reference_time.pacific.on_call_start_oclock)
     else
-      relative_days.abs.business_days.before(reference_time.pacific.nine_oclock)
+      relative_days.abs.business_days.before(reference_time.pacific.on_call_start_oclock)
     end
   end
 
