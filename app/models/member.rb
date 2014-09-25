@@ -122,7 +122,7 @@ class Member < User
   after_save :alert_stakeholders_on_call_status
   after_save :update_referring_scheduled_communications, if: ->(m){m.free_trial_ends_at_changed?}
   after_save :notify_pha_of_upgrade, if: ->(m){(m.status?(:premium) || m.status?(:chamath)) && m.status_changed?}
-  after_save :send_confirm_email_email, if: ->(m){!m.email_confirmed? && m.email_confirmation_token && m.status_changed?}
+  after_save :send_confirm_email_email
 
   SIGNED_UP_STATES = %i(free trial premium chamath)
   def self.signed_up
@@ -343,6 +343,11 @@ class Member < User
     event :hold do
       transition :invited => :held
     end
+
+    before_transition :invited => %i(free trial premium chamath) do |member, transition|
+      member.email_confirmed = true
+      member.email_confirmation_token = nil
+    end
   end
 
   def owner_is_self
@@ -512,6 +517,11 @@ class Member < User
   end
 
   def send_confirm_email_email
-    UserMailer.delay.confirm_email_email(id)
+    if (email_confirmed == false) &&
+       email_confirmation_token &&
+       status_changed? &&
+       trial?
+      UserMailer.delay.confirm_email_email(id)
+    end
   end
 end

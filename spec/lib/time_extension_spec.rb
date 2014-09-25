@@ -58,7 +58,7 @@ describe TimeExtension do
         let(:time) { Time.parse("December 23, 2010 01:00 PST -08:00") }
 
         it 'returns now' do
-          time.next_business_day_in_words.should == 'later today'
+          time.next_business_day_in_words.should == 'today at 9AM'
         end
       end
     end
@@ -101,7 +101,7 @@ describe TimeExtension do
         let(:time) { Time.parse("December 23, 2010 22:00 PST -08:00") }
 
         it 'returns now' do
-          time.next_business_day_in_words(ActiveSupport::TimeZone.new('America/New_York')).should == 'later today'
+          time.next_business_day_in_words(ActiveSupport::TimeZone.new('America/New_York')).should == 'today at 12PM'
         end
       end
 
@@ -109,7 +109,7 @@ describe TimeExtension do
         let(:time) { Time.parse("December 23, 2010 01:00 EST -08:00") }
 
         it 'returns now' do
-          time.next_business_day_in_words(ActiveSupport::TimeZone.new('America/New_York')).should == 'later today'
+          time.next_business_day_in_words(ActiveSupport::TimeZone.new('America/New_York')).should == 'today at 12PM'
         end
       end
     end

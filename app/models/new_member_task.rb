@@ -19,8 +19,8 @@ class NewMemberTask < Task
       self.due_at = now.change hour: 18
     else
       if now.wday == 0 || now.wday == 6
-        self.due_at = now.change(hour: ON_CALL_START_HOUR).next_wday 1
-      elsif now.hour > (ON_CALL_END_HOUR - 1)
+        self.due_at = now.change(hour: 9).next_wday 1
+      elsif now.hour > 17
         self.due_at = (now + 1.day).change hour: 12
       else
         self.due_at = now.change hour: 18

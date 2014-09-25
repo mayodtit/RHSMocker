@@ -92,9 +92,9 @@ Hi#{name.present? ? " #{name}" : ''}. #{pha_name} will follow up with you about 
       off_hours_start_yesterday
     elsif now.sunday?
       off_hours_start_day_before_yesterday
-    elsif now.hour > (ON_CALL_END_HOUR - 1)
+    elsif now.hour > 17 # same day off hours
       off_hours_start_today
-    elsif now.hour <  ON_CALL_START_HOUR # yesterday off hours
+    elsif now.hour < 9 # yesterday off hours
       off_hours_start_yesterday
     else # maybe holiday? we shouldn't normally be here
       off_hours_start_yesterday
