@@ -285,7 +285,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     )
   end
 
-  MAYO_PILOT_INVITE_TEMPLATE = 'Mayo Pilot Invite Emails'
+  MAYO_PILOT_INVITE_TEMPLATE = 'MayoPilotInvite_2'
 
   def mayo_pilot_invite_email(user, provider)
     mandrill_mail(
