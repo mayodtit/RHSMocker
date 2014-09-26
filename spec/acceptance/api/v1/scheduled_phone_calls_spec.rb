@@ -48,8 +48,8 @@ resource "ScheduledPhoneCalls" do
       before do
         prev_global_time_zone = Time.zone
         Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
-        @future = Time.roll_forward(200.days.from_now.in_time_zone(Time.zone))
-        @past = Time.roll_backward(3.days.ago.in_time_zone(Time.zone))
+        @future = Time.roll_forward(200.days.from_now.in_time_zone(Time.zone)).utc
+        @past = Time.roll_backward(3.days.ago.in_time_zone(Time.zone)).utc
         Time.zone = prev_global_time_zone
       end
 

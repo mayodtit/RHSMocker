@@ -23,7 +23,7 @@ describe 'ScheduledPhoneCall' do
   let(:future_timestamp) do
     prev_global_time_zone = Time.zone
     Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
-    time = Time.roll_forward(2.days.from_now.in_time_zone(Time.zone))
+    time = Time.roll_forward(10.days.from_now.in_time_zone(Time.zone))
     Time.zone = prev_global_time_zone
     time.utc
   end
