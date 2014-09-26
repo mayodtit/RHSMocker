@@ -269,7 +269,7 @@ Prep:
   end
 
   def scheduled_at_during_on_call
-    unless !scheduled_at || Role.pha.during_on_call?(scheduled_at)
+    if scheduled_at && (assigned? || unassigned?) && !Role.pha.during_on_call?(scheduled_at)
       errors.add(:scheduled_at, "must be weekdays between #{ON_CALL_START_HOUR}AM and #{ON_CALL_END_HOUR % 12}PM")
     end
   end

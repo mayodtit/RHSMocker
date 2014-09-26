@@ -446,4 +446,66 @@ describe ScheduledPhoneCall do
       it_behaves_like 'won\'t double book pha', :canceled
     end
   end
+
+  describe '#scheduled_at_during_on_call' do
+    let(:scheduled_phone_call) { create :scheduled_phone_call }
+    let(:valid_work_time) do
+      prev_global_time_zone = Time.zone
+      Time.zone = ActiveSupport::TimeZone.new 'America/Los_Angeles'
+      time = Time.roll_forward(100.days.from_now.in_time_zone(Time.zone))
+      Time.zone = prev_global_time_zone
+      time
+    end
+
+    context 'scheduled phone call is assigned' do
+      before do
+        scheduled_phone_call.stub(:assigned?) { true }
+        scheduled_phone_call.stub(:unassigned?) { false }
+      end
+
+      it 'allows scheduled at during work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time
+        scheduled_phone_call.should be_valid
+      end
+
+      it 'doesn\'t allow scheduled at after work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time - 1.hour
+        scheduled_phone_call.should_not be_valid
+      end
+    end
+
+    context 'scheduled phone call is unassigned' do
+      before do
+        scheduled_phone_call.stub(:assigned?) { false }
+        scheduled_phone_call.stub(:unassigned?) { true }
+      end
+
+      it 'allows scheduled at during work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time
+        scheduled_phone_call.should be_valid
+      end
+
+      it 'doesn\'t allow scheduled at after work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time - 1.hour
+        scheduled_phone_call.should_not be_valid
+      end
+    end
+
+    context 'scheduled phone call is not unassigned or assigned' do
+      before do
+        scheduled_phone_call.stub(:unassigned?) { false }
+        scheduled_phone_call.stub(:assigned?) { false }
+      end
+
+      it 'allows scheduled at during work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time
+        scheduled_phone_call.should be_valid
+      end
+
+      it 'allows scheduled at after work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time - 1.hour
+        scheduled_phone_call.should be_valid
+      end
+    end
+  end
 end
