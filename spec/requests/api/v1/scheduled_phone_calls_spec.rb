@@ -12,14 +12,38 @@ describe 'ScheduledPhoneCall' do
     Timecop.return
   end
 
+  let(:near_timestamp) do
+    prev_global_time_zone = Time.zone
+    Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+    time = Time.roll_forward(1.days.from_now.in_time_zone(Time.zone))
+    Time.zone = prev_global_time_zone
+    time.utc
+  end
+
+  let(:future_timestamp) do
+    prev_global_time_zone = Time.zone
+    Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+    time = Time.roll_forward(2.days.from_now.in_time_zone(Time.zone))
+    Time.zone = prev_global_time_zone
+    time.utc
+  end
+
+  let(:past_timestamp) do
+    prev_global_time_zone = Time.zone
+    Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+    time = Time.roll_backward(3.days.ago.in_time_zone(Time.zone))
+    Time.zone = prev_global_time_zone
+    time.utc
+  end
+
   describe 'GET /api/v1/scheduled_phone_calls/available' do
     def do_request
       get '/api/v1/scheduled_phone_calls/available', auth_token: session.auth_token
     end
 
-    let!(:available) { create(:scheduled_phone_call, :assigned, scheduled_at: Time.now + 10.minutes) }
+    let!(:available) { create(:scheduled_phone_call, :assigned, scheduled_at: near_timestamp) }
     let!(:unavailable_state) { create(:scheduled_phone_call) }
-    let!(:unavailable_time) { create(:scheduled_phone_call, :assigned, scheduled_at: Time.now - 1.minute) }
+    let!(:unavailable_time) { create(:scheduled_phone_call, :assigned, scheduled_at: past_timestamp) }
 
     it 'indexes available scheduled_phone_calls' do
       do_request
@@ -29,8 +53,8 @@ describe 'ScheduledPhoneCall' do
     end
 
     context 'with free_trial_ends_at' do
-      let!(:user) { create(:member, :trial, free_trial_ends_at: Time.now + 15.minutes) }
-      let!(:future_time) { create(:scheduled_phone_call, :assigned, scheduled_at: Time.now + 30.minutes) }
+      let!(:user) { create(:member, :trial, free_trial_ends_at: near_timestamp + 15.minutes) }
+      let!(:future_time) { create(:scheduled_phone_call, :assigned, scheduled_at: future_timestamp) }
 
       it 'indexes available scheduled_phone_calls' do
         do_request
@@ -41,10 +65,10 @@ describe 'ScheduledPhoneCall' do
     end
 
     context 'with subscription_ends_at' do
-      let!(:future_time) { create(:scheduled_phone_call, :assigned, scheduled_at: Time.now + 30.minutes) }
+      let!(:future_time) { create(:scheduled_phone_call, :assigned, scheduled_at: future_timestamp) }
 
       before do
-        user.update_attributes!(subscription_ends_at: Time.now + 15.minutes)
+        user.update_attributes!(subscription_ends_at: near_timestamp + 15.minutes)
       end
 
       it 'indexes available scheduled_phone_calls' do
@@ -63,7 +87,7 @@ describe 'ScheduledPhoneCall' do
 
     let!(:available) { create(:scheduled_phone_call, :assigned) }
     let!(:unavailable_state) { create(:scheduled_phone_call) }
-    let!(:unavailable_time) { create(:scheduled_phone_call, :assigned, scheduled_at: Time.now - 1.minute) }
+    let!(:unavailable_time) { create(:scheduled_phone_call, :assigned, scheduled_at: past_timestamp) }
 
     it 'indexes available scheduled_phone_call times' do
       do_request
