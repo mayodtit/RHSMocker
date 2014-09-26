@@ -64,7 +64,7 @@ describe ScheduledPhoneCall do
 
   describe 'after create' do
     it 'notifies the owner if is assigned' do
-      spc = ScheduledPhoneCall.new(scheduled_at: 3.days.from_now, state: 'assigned', assigned_at: Time.now, assignor: create(:pha_lead), owner: create(:pha))
+      spc = ScheduledPhoneCall.new(scheduled_at: 3.business_day.from_now.pacific.on_call_start_oclock + 1.hour, state: 'assigned', assigned_at: Time.now, assignor: create(:pha_lead), owner: create(:pha))
       spc.should_receive :notify_owner_of_assigned_call
       spc.save!
     end
@@ -273,7 +273,7 @@ describe ScheduledPhoneCall do
     let(:pha) { build_stubbed(:pha) }
     let(:other_pha) { build_stubbed(:pha) }
     let(:member) { build_stubbed(:member) }
-    let(:other_scheduled_phone_call) { build(:scheduled_phone_call, scheduled_at: 4.days.from_now) }
+    let(:other_scheduled_phone_call) { build(:scheduled_phone_call, scheduled_at: 4.business_day.from_now.pacific.on_call_start_oclock + 1.hour) }
     let(:consult) { build :consult }
     let(:message) { build :message, consult: consult }
 
@@ -294,7 +294,7 @@ describe ScheduledPhoneCall do
       context 'new lets' do
         let!(:pha) { create :pha }
         let!(:member) { create :member, pha: pha }
-        let(:scheduled_phone_call) { build :scheduled_phone_call, state, owner: pha, user: member, scheduled_at: 5.days.from_now }
+        let(:scheduled_phone_call) { build :scheduled_phone_call, state, owner: pha, user: member, scheduled_at: 5.business_day.from_now.pacific.on_call_start_oclock + 1.hour }
 
         before do
           # This clears the context above this
@@ -444,6 +444,68 @@ describe ScheduledPhoneCall do
       end
 
       it_behaves_like 'won\'t double book pha', :canceled
+    end
+  end
+
+  describe '#scheduled_at_during_on_call' do
+    let(:scheduled_phone_call) { create :scheduled_phone_call }
+    let(:valid_work_time) do
+      prev_global_time_zone = Time.zone
+      Time.zone = ActiveSupport::TimeZone.new 'America/Los_Angeles'
+      time = Time.roll_forward(100.days.from_now.in_time_zone(Time.zone))
+      Time.zone = prev_global_time_zone
+      time
+    end
+
+    context 'scheduled phone call is assigned' do
+      before do
+        scheduled_phone_call.stub(:assigned?) { true }
+        scheduled_phone_call.stub(:unassigned?) { false }
+      end
+
+      it 'allows scheduled at during work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time
+        scheduled_phone_call.should be_valid
+      end
+
+      it 'doesn\'t allow scheduled at after work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time - 1.hour
+        scheduled_phone_call.should_not be_valid
+      end
+    end
+
+    context 'scheduled phone call is unassigned' do
+      before do
+        scheduled_phone_call.stub(:assigned?) { false }
+        scheduled_phone_call.stub(:unassigned?) { true }
+      end
+
+      it 'allows scheduled at during work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time
+        scheduled_phone_call.should be_valid
+      end
+
+      it 'doesn\'t allow scheduled at after work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time - 1.hour
+        scheduled_phone_call.should_not be_valid
+      end
+    end
+
+    context 'scheduled phone call is not unassigned or assigned' do
+      before do
+        scheduled_phone_call.stub(:unassigned?) { false }
+        scheduled_phone_call.stub(:assigned?) { false }
+      end
+
+      it 'allows scheduled at during work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time
+        scheduled_phone_call.should be_valid
+      end
+
+      it 'allows scheduled at after work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time - 1.hour
+        scheduled_phone_call.should be_valid
+      end
     end
   end
 end

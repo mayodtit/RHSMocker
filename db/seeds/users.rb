@@ -53,7 +53,7 @@ PHA_ATTRIBUTES = [
     last_name: 'C',
     bio: "Jenn previously worked for the Centers for Disease Control and " +
          "Prevention (CDC) and Harvard Medical School & Harvard Pilgrim " +
-         "Health Care. She is avid cyclist, East Coast native and has " +
+         "Health Care. She is an avid cyclist, East Coast native and has " +
          "lived in four cities in the past five years.",
     arrow_image: 'jenn-arrow.png',
     avatar_image: 'jenn-avatar.jpg',
