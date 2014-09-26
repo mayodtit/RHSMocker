@@ -7,7 +7,7 @@ class RemoveUnbookedScheduledPhoneCallsOutsideOfHours < ActiveRecord::Migration
         num_records_destroyed += 1
       end
     end
-    pp "Destroyed #{num_records_destroyed} ScheduledPhoneCalls"
+    puts "Destroyed #{num_records_destroyed} ScheduledPhoneCalls"
   end
 
   def down
