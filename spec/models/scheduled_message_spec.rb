@@ -17,6 +17,7 @@ describe ScheduledMessage do
   it_validates 'presence of', :sender
   it_validates 'presence of', :text
   it_validates 'foreign key of', :message
+  it_validates 'foreign key of', :content
 
   describe 'events' do
     describe '#deliver' do
