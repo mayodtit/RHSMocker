@@ -2,8 +2,9 @@ class MessageTemplate < ActiveRecord::Base
   has_many :message_workflow_templates, inverse_of: :message_template
   has_many :system_message_workflow_templates, inverse_of: :message_template
   has_many :communication_workflows, through: :message_workflow_templates
+  belongs_to :content
 
-  attr_accessible :name, :text, :subject
+  attr_accessible :name, :text, :subject, :content, :content_id
 
   validates :name, :text, presence: true
   validates :name, uniqueness: true

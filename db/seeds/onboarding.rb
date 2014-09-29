@@ -109,14 +109,14 @@ Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *
 
 Tap below to learn about the services your PHA will provide during this exciting time as your family grows.
 eof
-MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: pregnancy'}, text: MESSAGE.strip(), content: Content.pregnancy)
+MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: pregnancy'}, {text: MESSAGE.strip(), content: Content.pregnancy})
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*! I’m here to support you. Tap below to learn about the services I’ll help you with during this exciting time as your family grows.
 
 Once you know a little more, let me know when your due date is.
 eof
-MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: pregnancy'}, text: MESSAGE.strip(), content: Content.pregnancy)
+MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: pregnancy'}, {text: MESSAGE.strip(), content: Content.pregnancy})
 
 # Caring for an aging parent --
 

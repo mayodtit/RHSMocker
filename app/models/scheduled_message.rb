@@ -1,5 +1,6 @@
 class ScheduledMessage < ScheduledCommunication
   belongs_to :message
+  belongs_to :content
 
   attr_accessible :message, :message_id, :text, :content, :content_id
 
