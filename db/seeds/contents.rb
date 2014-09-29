@@ -39,7 +39,7 @@ No matter where you are in your pregnancy, your Personal Health Assistant (PHA) 
 <p>
 What to expect throughout your pregnancy:
 </p>
-<ul>
+<ul class="image-list">
 <li>
 <img src="/assets/icon_checkin.png">
 <span>
@@ -64,8 +64,8 @@ Appointment preparation and follow up
 Recommendations for the best products, classes, and services in your area
 </span>
 </li>
-<li>
-<img src="/assets/nurseline.png">
+<li class="last">
+<img src="/assets/icon_nurseline.png">
 <span>
 Access to expert Mayo Clinic nurses any time of day or night
 </span>
