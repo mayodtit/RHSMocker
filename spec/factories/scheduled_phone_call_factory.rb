@@ -3,7 +3,7 @@ FactoryGirl.define do
     sequence(:scheduled_at) do |n|
       prev_global_time_zone = Time.zone
       Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
-      time = Time.roll_forward(n.days.from_now.in_time_zone(Time.zone))
+      time = Time.roll_forward(n.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock
       Time.zone = prev_global_time_zone
       time.utc
     end
