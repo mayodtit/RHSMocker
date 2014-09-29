@@ -18,7 +18,7 @@ class TaskSerializer < ActiveModel::Serializer
     else
       super.tap do |attributes|
         attributes.merge!(
-          member: object.member.try(:serializer, options),
+          member: object.member.try(:serializer, options.merge(include_nested_information: true)),
           owner: object.owner.try(:serializer, options),
           service_type: object.service_type
         )
