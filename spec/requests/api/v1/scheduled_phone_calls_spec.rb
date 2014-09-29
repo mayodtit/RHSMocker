@@ -15,7 +15,7 @@ describe 'ScheduledPhoneCall' do
   let(:near_timestamp) do
     prev_global_time_zone = Time.zone
     Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
-    time = Time.roll_forward(1.days.from_now.in_time_zone(Time.zone))
+    time = Time.roll_forward(1.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock
     Time.zone = prev_global_time_zone
     time.utc
   end
@@ -23,7 +23,7 @@ describe 'ScheduledPhoneCall' do
   let(:future_timestamp) do
     prev_global_time_zone = Time.zone
     Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
-    time = Time.roll_forward(10.days.from_now.in_time_zone(Time.zone))
+    time = Time.roll_forward(10.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock
     Time.zone = prev_global_time_zone
     time.utc
   end
@@ -31,7 +31,7 @@ describe 'ScheduledPhoneCall' do
   let(:past_timestamp) do
     prev_global_time_zone = Time.zone
     Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
-    time = Time.roll_backward(3.days.ago.in_time_zone(Time.zone))
+    time = Time.roll_backward(3.days.ago.in_time_zone(Time.zone)).on_call_start_oclock
     Time.zone = prev_global_time_zone
     time.utc
   end
@@ -137,7 +137,7 @@ describe 'ScheduledPhoneCall' do
       let(:time) do
         prev_global_time_zone = Time.zone
         Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
-        time = Time.roll_forward(50.days.from_now.in_time_zone(Time.zone))
+        time = Time.roll_forward(50.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock
         Time.zone = prev_global_time_zone
         time.utc
       end
@@ -176,7 +176,7 @@ describe 'ScheduledPhoneCall' do
       let(:time) do
         prev_global_time_zone = Time.zone
         Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
-        time = Time.roll_forward(100.days.from_now.in_time_zone(Time.zone))
+        time = Time.roll_forward(100.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock
         Time.zone = prev_global_time_zone
         time.utc
       end
