@@ -48,8 +48,8 @@ resource "ScheduledPhoneCalls" do
       before do
         prev_global_time_zone = Time.zone
         Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
-        @future = Time.roll_forward(200.days.from_now.in_time_zone(Time.zone))
-        @past = Time.roll_backward(3.days.ago.in_time_zone(Time.zone))
+        @future = Time.roll_forward(200.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock.utc
+        @past = Time.roll_backward(3.days.ago.in_time_zone(Time.zone)).on_call_start_oclock.utc
         Time.zone = prev_global_time_zone
       end
 
@@ -98,7 +98,7 @@ resource "ScheduledPhoneCalls" do
         let(:scheduled_at) do
           prev_global_time_zone = Time.zone
           Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
-          time = Time.roll_forward(50.days.from_now.in_time_zone(Time.zone))
+          time = Time.roll_forward(50.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock
           Time.zone = prev_global_time_zone
           time.utc
         end
@@ -129,7 +129,7 @@ resource "ScheduledPhoneCalls" do
       let(:scheduled_at) do
         prev_global_time_zone = Time.zone
         Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
-        time = Time.roll_forward(100.days.from_now.in_time_zone(Time.zone))
+        time = Time.roll_forward(100.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock
         Time.zone = prev_global_time_zone
         time.utc
       end

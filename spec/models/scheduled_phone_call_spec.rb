@@ -452,7 +452,7 @@ describe ScheduledPhoneCall do
     let(:valid_work_time) do
       prev_global_time_zone = Time.zone
       Time.zone = ActiveSupport::TimeZone.new 'America/Los_Angeles'
-      time = Time.roll_forward(100.days.from_now.in_time_zone(Time.zone))
+      time = Time.roll_forward(100.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock
       Time.zone = prev_global_time_zone
       time
     end
@@ -469,7 +469,7 @@ describe ScheduledPhoneCall do
       end
 
       it 'doesn\'t allow scheduled at after work hours' do
-        scheduled_phone_call.scheduled_at = valid_work_time - 1.hour
+        scheduled_phone_call.scheduled_at = valid_work_time - 1.hours
         scheduled_phone_call.should_not be_valid
       end
     end
@@ -486,7 +486,7 @@ describe ScheduledPhoneCall do
       end
 
       it 'doesn\'t allow scheduled at after work hours' do
-        scheduled_phone_call.scheduled_at = valid_work_time - 1.hour
+        scheduled_phone_call.scheduled_at = valid_work_time - 1.hours
         scheduled_phone_call.should_not be_valid
       end
     end
