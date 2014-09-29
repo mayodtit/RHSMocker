@@ -78,20 +78,6 @@ task :qa do
   role :cron,     'goldenbear.getbetter.com'
 end
 
-desc "Deploy target qa (silverbear @ EC2)"
-task :qa2 do
-  set :port, 9722
-  set :branch,    'qa'
-  set :rails_env, 'qa'
-  set :cron_file, 'cron-silverbear'
-  set :deploy_to, '/home/rhs/api-qa'
-  role :web,      'silverbear.getbetter.com'
-  role :app,      'silverbear.getbetter.com', :primary => true
-  role :db,       'silverbear.getbetter.com', :primary => true
-  role :delayed,  'silverbear.getbetter.com'
-  role :cron,     'silverbear.getbetter.com'
-end
-
 desc "Deploy target demo (goldenbear @ EC2)"
 task :demo do
   set :port, 9722
