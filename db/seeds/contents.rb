@@ -183,4 +183,5 @@ CustomContent.upsert_attributes({document_id: 'RHS-PREGNANCY'}, {title: 'Healthy
                                                                  show_mayo_copyright: false,
                                                                  show_mayo_logo: false,
                                                                  has_custom_card: false,
-                                                                 raw_body: RHS_PREGNANCY_BODY})
+                                                                 raw_body: RHS_PREGNANCY_BODY,
+                                                                 state_event: :publish})
