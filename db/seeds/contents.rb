@@ -41,19 +41,34 @@ What to expect throughout your pregnancy:
 </p>
 <ul>
 <li>
+<img src="/assets/icon_checkin.png">
+<span>
 Weekly check-ins
+</span>
 </li>
 <li>
+<img src="/assets/icon_plan.png">
+<span>
 A personalized plan just for your pregnancy
+</span>
 </li>
 <li>
+<img src="/assets/icon_appt.png">
+<span>
 Appointment preparation and follow up
+</span>
 </li>
 <li>
+<img src="/assets/icon_recommendations.png">
+<span>
 Recommendations for the best products, classes, and services in your area
+</span>
 </li>
 <li>
+<img src="/assets/nurseline.png">
+<span>
 Access to expert Mayo Clinic nurses any time of day or night
+</span>
 </li>
 </ul>
 <p>
