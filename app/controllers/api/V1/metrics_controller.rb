@@ -4,10 +4,6 @@ class Api::V1::MetricsController < Api::V1::ABaseController
   def index
     items = [
       {
-        description: 'Member Data',
-        path: onboarding_members_api_v1_dashboard_index_path(format: :csv)
-      },
-      {
         description: 'Onboarding Call Data',
         path: onboarding_calls_api_v1_dashboard_index_path(format: :csv)
       },
@@ -26,6 +22,10 @@ class Api::V1::MetricsController < Api::V1::ABaseController
       {
         description: 'List of all onboarding groups and their users',
         path: all_onboarding_groups_and_members_api_v1_metrics_path(format: :csv)
+      },
+      {
+        description: 'Mayo Pilot Overview',
+        path: mayo_pilot_overview_api_v1_metrics_path(format: :csv)
       }
     ]
 
@@ -91,6 +91,17 @@ class Api::V1::MetricsController < Api::V1::ABaseController
         c << [i += 1, phone_call_count, message_count]
 
         processing_week += 1.week
+      end
+    end
+
+    respond_to { |format| format.csv { send_data csv } }
+  end
+
+  def mayo_pilot_overview
+    csv = CSV.generate do |c|
+      c << ['ID', 'Email', 'Status', 'Onboarding Group Name', 'Signed Up At']
+      Member.joins(:onboarding_group).where(onboarding_groups: {mayo_pilot: true}).each do |m|
+        c << [m.id, m.email, m.status, m.onboarding_group.name, m.signed_up_at.pacific.strftime('%m/%d/%Y %I:%M %p')]
       end
     end
 
