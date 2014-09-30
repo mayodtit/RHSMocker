@@ -105,14 +105,18 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: choosing in
 NuxAnswer.upsert_attributes({name: 'pregnancy'}, text: 'Having a healthy pregnancy', phrase: 'have a healthy pregnancy', active: true, ordinal: 9)
 
 MESSAGE = <<eof
-Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *|pha_next_available|* to help you.  To get started, [schedule a time to talk](better://nb?cmd=scheduleCall) or send your PHA a message with your due date.
+Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *|pha_next_available|* to help you.  To get started, [schedule a time to talk](better://nb?cmd=scheduleCall) or send a message with your due date.
+
+Tap below to learn about the services your PHA will provide during this exciting time as your family grows.
 eof
-MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: pregnancy'}, text: MESSAGE.strip())
+MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: pregnancy'}, {text: MESSAGE.strip(), content: Content.pregnancy})
 
 MESSAGE = <<eof
-Welcome to Better, *|member_first_name|*! I’m here to support you during this exciting time as your family grows. To get started, let me know when your due date is.
+Welcome to Better, *|member_first_name|*! I’m here to support you. Tap below to learn what I can do for you during this exciting time as your family grows.
+
+To get started, let me know when your due date is.
 eof
-MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: pregnancy'}, text: MESSAGE.strip())
+MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: pregnancy'}, {text: MESSAGE.strip(), content: Content.pregnancy})
 
 # Caring for an aging parent --
 

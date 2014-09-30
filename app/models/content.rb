@@ -76,6 +76,10 @@ class Content < ActiveRecord::Base
     @mayo_pilot ||= find_by_document_id('RHS-MAYOPILOT')
   end
 
+  def self.pregnancy
+    @pregnancy ||= find_by_document_id('RHS-PREGNANCY')
+  end
+
   # TODO - replace in future with root_share_url, move append to UserReading
   def share_url(user_reading_id=nil)
     result = "/contents/#{document_id}"

@@ -13,6 +13,7 @@ describe MessageTemplate do
   it_validates 'presence of', :name
   it_validates 'presence of', :text
   it_validates 'uniqueness of', :name
+  it_validates 'foreign key of', :content
 
   describe 'sending methods' do
     let(:message_template) { create(:message_template) }
