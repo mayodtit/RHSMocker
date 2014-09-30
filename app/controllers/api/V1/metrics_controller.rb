@@ -101,7 +101,7 @@ class Api::V1::MetricsController < Api::V1::ABaseController
     csv = CSV.generate do |c|
       c << ['ID', 'Email', 'Status', 'Onboarding Group Name', 'Signed Up At']
       Member.joins(:onboarding_group).where(onboarding_groups: {mayo_pilot: true}).each do |m|
-        c << [m.id, m.email, m.status, m.onboarding_group.name, m.signed_up_at.pacific.strftime('%m/%d/%Y %I:%M %p')]
+        c << [m.id, m.email, m.status, m.onboarding_group.name, m.signed_up_at.try(:pacific).try(:strftime, '%m/%d/%Y %I:%M %p')]
       end
     end
 

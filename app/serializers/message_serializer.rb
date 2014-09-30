@@ -80,6 +80,6 @@ class MessageSerializer < ActiveModel::Serializer
   end
 
   def better_logo_asset_path
-    ActionController::Base.helpers.asset_path('logohalf@2x.png')
+    ActionController::Base.helpers.asset_path('logo_58.png')
   end
 end

@@ -63,8 +63,16 @@ describe ScheduledPhoneCall do
   end
 
   describe 'after create' do
+    let(:time) do
+      prev_global_time_zone = Time.zone
+      Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+      time = Time.roll_forward(3.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock + 1.hour
+      Time.zone = prev_global_time_zone
+      time.utc
+    end
+
     it 'notifies the owner if is assigned' do
-      spc = ScheduledPhoneCall.new(scheduled_at: 3.business_day.from_now.pacific.on_call_start_oclock + 1.hour, state: 'assigned', assigned_at: Time.now, assignor: create(:pha_lead), owner: create(:pha))
+      spc = ScheduledPhoneCall.new(scheduled_at: time, state: 'assigned', assigned_at: Time.now, assignor: create(:pha_lead), owner: create(:pha))
       spc.should_receive :notify_owner_of_assigned_call
       spc.save!
     end
@@ -269,11 +277,19 @@ describe ScheduledPhoneCall do
   end
 
   describe 'states' do
+    let(:time) do
+      prev_global_time_zone = Time.zone
+      Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+      time = Time.roll_forward(4.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock + 1.hour
+      Time.zone = prev_global_time_zone
+      time.utc
+    end
+
     let(:pha_lead) { build_stubbed(:pha_lead) }
     let(:pha) { build_stubbed(:pha) }
     let(:other_pha) { build_stubbed(:pha) }
     let(:member) { build_stubbed(:member) }
-    let(:other_scheduled_phone_call) { build(:scheduled_phone_call, scheduled_at: 4.business_day.from_now.pacific.on_call_start_oclock + 1.hour) }
+    let(:other_scheduled_phone_call) { build(:scheduled_phone_call, scheduled_at: time) }
     let(:consult) { build :consult }
     let(:message) { build :message, consult: consult }
 
@@ -292,9 +308,16 @@ describe ScheduledPhoneCall do
 
     shared_examples 'won\'t double book pha' do |state|
       context 'new lets' do
+        let(:time) do
+          prev_global_time_zone = Time.zone
+          Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+          time = Time.roll_forward(5.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock + 1.hour
+          Time.zone = prev_global_time_zone
+          time.utc
+        end
         let!(:pha) { create :pha }
         let!(:member) { create :member, pha: pha }
-        let(:scheduled_phone_call) { build :scheduled_phone_call, state, owner: pha, user: member, scheduled_at: 5.business_day.from_now.pacific.on_call_start_oclock + 1.hour }
+        let(:scheduled_phone_call) { build :scheduled_phone_call, state, owner: pha, user: member, scheduled_at: time }
 
         before do
           # This clears the context above this
