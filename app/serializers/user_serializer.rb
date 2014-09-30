@@ -7,7 +7,8 @@ class UserSerializer < ActiveModel::Serializer
              :phone, :nickname, :city, :state, :work_phone_number,
              :avatar_url, :ethnic_group, :diet, :address,
              :full_name, :provider_taxonomy_code, :taxonomy_classification,
-             :email_read_only, :sharing_prohibited, :owner_id, :text_phone_number
+             :email_read_only, :sharing_prohibited, :owner_id, :text_phone_number,
+             :due_date
 
   def attributes
     if options[:shallow]

@@ -101,6 +101,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
 
       if current_user && current_user.pha?
         attributes << :pha_id
+        attributes << :due_date
         attributes << {user_information_attributes: user_information_attributes}
         attributes << {insurance_policy_attributes: insurance_policy_attributes}
         attributes << {provider_attributes: provider_attributes}

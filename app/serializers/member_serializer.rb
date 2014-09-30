@@ -15,7 +15,7 @@ class MemberSerializer < ActiveModel::Serializer
              :subscription_ends_at,
              :invitation_url, :signed_up_at, :has_welcome_call,
              :status, :status_events, :meet_your_pha_text, :text_phone_number, :time_zone,
-             :cached_notifications_enabled
+             :cached_notifications_enabled, :due_date
 
   has_one :nux_answer
 
