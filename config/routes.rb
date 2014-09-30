@@ -175,6 +175,7 @@ RHSMocker::Application.routes.draw do
         get :inbound_by_week, on: :collection
         get :paying_members_emails, on: :collection
         get :all_onboarding_groups_and_members, on: :collection
+        get :mayo_pilot_overview, on: :collection
       end
       resources :service_types, only: [:index] do
         get :buckets, on: :collection
