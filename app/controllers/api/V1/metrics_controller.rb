@@ -4,10 +4,6 @@ class Api::V1::MetricsController < Api::V1::ABaseController
   def index
     items = [
       {
-        description: 'Member Data',
-        path: onboarding_members_api_v1_dashboard_index_path(format: :csv)
-      },
-      {
         description: 'Onboarding Call Data',
         path: onboarding_calls_api_v1_dashboard_index_path(format: :csv)
       },
