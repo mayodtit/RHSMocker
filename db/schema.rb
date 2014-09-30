@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140929155424) do
+ActiveRecord::Schema.define(:version => 20140930153918) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1055,6 +1055,7 @@ ActiveRecord::Schema.define(:version => 20140929155424) do
     t.boolean  "cached_notifications_enabled"
     t.boolean  "email_confirmed"
     t.string   "email_confirmation_token"
+    t.date     "due_date"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
