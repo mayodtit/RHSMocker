@@ -97,6 +97,17 @@ class Api::V1::MetricsController < Api::V1::ABaseController
     respond_to { |format| format.csv { send_data csv } }
   end
 
+  def mayo_pilot_overview
+    csv = CSV.generate do |c|
+      c << ['ID', 'Email', 'Status', 'Onboarding Group Name', 'Signed Up At']
+      Member.joins(:onboarding_group).where(onboarding_groups: {mayo_pilot: true}).each do |m|
+        c << [m.id, m.email, m.status, m.onboarding_group.name, m.signed_up_at.pacific.strftime('%m/%d/%Y %I:%M %p')]
+      end
+    end
+
+    respond_to { |format| format.csv { send_data csv } }
+  end
+
   private
 
   def authorize_check!
