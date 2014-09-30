@@ -26,6 +26,10 @@ class Api::V1::MetricsController < Api::V1::ABaseController
       {
         description: 'List of all onboarding groups and their users',
         path: all_onboarding_groups_and_members_api_v1_metrics_path(format: :csv)
+      },
+      {
+        description: 'Mayo Pilot Overview',
+        path: mayo_pilot_overview_api_v1_metrics_path(format: :csv)
       }
     ]
 
