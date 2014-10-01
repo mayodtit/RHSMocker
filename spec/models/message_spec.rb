@@ -244,15 +244,21 @@ describe Message do
             end
           end
 
-          context 'consult is inactive' do
+          context 'message is not from the user' do
             before do
+              message.stub(:user) { build_stubbed :pha }
               consult.stub(:activate!)
-              consult.stub(:inactive?) { true }
             end
 
-            it 'activates the consult' do
-              consult.should_receive :activate!
-              message.activate_consult
+            context 'consult is inactive' do
+              before do
+                consult.stub(:inactive?) { true }
+              end
+
+              it 'activates the consult' do
+                consult.should_receive :activate!
+                message.activate_consult
+              end
             end
 
             it 'creates a delayed job to deactivate the consult if no messages are created' do
@@ -262,6 +268,34 @@ describe Message do
                 o
               end
               message.activate_consult
+            end
+          end
+
+          context 'message is from the user' do
+            before do
+              message.stub(:user) { consult.initiator }
+            end
+
+            context 'consult needs response' do
+              before do
+                consult.stub(:needs_response?) { true }
+              end
+
+              it 'doesn\'t flag the consult' do
+                consult.should_not_receive :flag!
+                message.activate_consult
+              end
+            end
+
+            context 'consult doesn\'t need response' do
+              before do
+                consult.stub(:needs_response?) { false }
+              end
+
+              it 'flags the consult' do
+                consult.should_receive :flag!
+                message.activate_consult
+              end
             end
           end
         end

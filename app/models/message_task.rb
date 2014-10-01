@@ -1,9 +1,11 @@
 class MessageTask < Task
   include ActiveModel::ForbiddenAttributesProtection
-  FIRST_MESSAGE_PRIORITY = 13
-  NTH_MESSAGE_PRIORITY = 12
-  ACTIVE_CONVERSATION_PRIORITY = 11
+  FIRST_MESSAGE_PRIORITY = 14
+  NTH_MESSAGE_PRIORITY = 13
+  NEEDS_RESPONSE_PRIORITY = 12
+  AFTER_HOURS_MESSAGE_PRIORITY = 11
   INACTIVE_CONVERSATION_PRIORITY = 10
+  ACTIVE_CONVERSATION_PRIORITY = 9
 
   belongs_to :consult
   belongs_to :message
@@ -18,6 +20,7 @@ class MessageTask < Task
   validate :one_open_per_consult
 
   before_validation :set_consult, on: :create
+  before_validation :set_owner, on: :create
 
   def set_consult
     if consult.nil? && message.present?
@@ -41,9 +44,27 @@ class MessageTask < Task
   end
 
   def set_priority
-    self.priority = NTH_MESSAGE_PRIORITY
-    if message_id.nil? || consult.messages.where('user_id = ? AND created_at < ?', message.user.id, message.created_at).count == 0
-      self.priority = FIRST_MESSAGE_PRIORITY
+    if role.on_call?
+      self.priority = NTH_MESSAGE_PRIORITY
+      if message_id.nil? || consult.messages.where('user_id = ? AND created_at < ?', message.user.id, message.created_at).count == 0
+        self.priority = FIRST_MESSAGE_PRIORITY
+      end
+    else
+      self.priority = AFTER_HOURS_MESSAGE_PRIORITY
+    end
+  end
+
+  def set_owner
+    if !role.on_call? && consult.initiator && self.owner.nil?
+      self.owner = consult.initiator.pha
+      self.assignor = Member.robot
+      self.assigned_at = Time.now
+    end
+  end
+
+  state_machine do
+    after_transition any => [:abandoned, :completed] do |task|
+      task.consult.deactivate! unless task.consult.inactive?
     end
   end
 end

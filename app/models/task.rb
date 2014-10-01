@@ -17,7 +17,8 @@ class Task < ActiveRecord::Base
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
                   :abandoner, :abandoner_id, :role, :role_id,
                   :state_event, :service_type_id, :service_type,
-                  :task_template, :task_template_id, :service, :service_id, :service_ordinal
+                  :task_template, :task_template_id, :service, :service_id, :service_ordinal,
+                  :priority
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :owner, presence: true, if: lambda { |t| t.owner_id }

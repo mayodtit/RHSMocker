@@ -80,19 +80,33 @@ class Consult < ActiveRecord::Base
 
   state_machine :conversation_state, initial: :inactive do
     event :activate do
-      transition :inactive => :active
+      transition [:inactive, :needs_response] => :active
     end
 
     event :deactivate do
-      transition :active => :inactive
+      transition [:active, :needs_response] => :inactive
+    end
+
+    event :flag do
+      transition [:active, :inactive] => :needs_response
     end
 
     after_transition any => :inactive do |consult|
-      MessageTask.where(consult_id: consult.id).open.update_all(priority: MessageTask::INACTIVE_CONVERSATION_PRIORITY)
+      MessageTask.where(consult_id: consult.id).open.find_each do |m|
+        m.update_attributes! priority: MessageTask::INACTIVE_CONVERSATION_PRIORITY
+      end
     end
 
     after_transition any => :active do |consult|
-      MessageTask.where(consult_id: consult.id).open.update_all(priority: MessageTask::ACTIVE_CONVERSATION_PRIORITY)
+      MessageTask.where(consult_id: consult.id).open.find_each do |m|
+        m.update_attributes! priority: MessageTask::ACTIVE_CONVERSATION_PRIORITY
+      end
+    end
+
+    after_transition any => :needs_response do |consult|
+      MessageTask.where(consult_id: consult.id).open.find_each do |m|
+        m.update_attributes! priority: MessageTask::NEEDS_RESPONSE_PRIORITY
+      end
     end
   end
 
