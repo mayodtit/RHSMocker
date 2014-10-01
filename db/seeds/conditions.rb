@@ -1,6 +1,12 @@
 Condition.find_or_create_by_name(name: "Attention deficit hyperactivity disorder",
                                  snomed_name: "Attention deficit hyperactivity disorder (disorder)",
                                  snomed_code: "2150336014")
+Condition.find_or_create_by_name(name: "Actinic keratosis",
+                                 snomed_name: "Actinic keratosis (disorder)",
+                                 snomed_code: "1186816019")
+Condition.find_or_create_by_name(name: "Acute hepatitis C",
+                                 snomed_name: "Acute hepatitis C (disorder)",
+                                 snomed_code: "624381015")
 Condition.find_or_create_by_name(name: "ADHD",
                                  snomed_name: "Attention deficit hyperactivity disorder (disorder)",
                                  snomed_code: "2150336014")
@@ -43,6 +49,9 @@ Condition.find_or_create_by_name(name: "Bipolar disorder",
 Condition.find_or_create_by_name(name: "Celiac disease",
                                  snomed_name: "Celiac disease (disorder)",
                                  snomed_code: "1764248012")
+Condition.find_or_create_by_name(name: "Cirrhosis of liver",
+                                 snomed_name: "Cirrhosis of liver (disorder)",
+                                 snomed_code: "748614010")
 Condition.find_or_create_by_name(name: "Chlamydia",
                                  snomed_name: "Chlamydia trachomatis infection (disorder)",
                                  snomed_code: "629754016")
@@ -67,12 +76,24 @@ Condition.find_or_create_by_name(name: "Chronic thoracic back pain",
 Condition.find_or_create_by_name(name: "Chronic pain",
                                  snomed_name: "Chronic pain (finding)",
                                  snomed_code: "823843010")
+Condition.find_or_create_by_name(name: "Chronic hepatitis C",
+                                 snomed_name: "Chronic hepatitis C (disorder)",
+                                 snomed_code: "732279013")
 Condition.find_or_create_by_name(name: "Chronic abdominal pain",
                                  snomed_name: "Chronic abdominal pain (finding)",
                                  snomed_code: "635598019")
 Condition.find_or_create_by_name(name: "Chronic fatigue syndrome",
                                  snomed_name: "Chronic fatigue syndrome (disorder)",
                                  snomed_code: "790741013")
+Condition.find_or_create_by_name(name: "Chronic inflammatory demyelinating polyradiculoneuropathy",
+                                 snomed_name: "Chronic inflammatory demyelinating polyradiculoneuropathy (disorder)",
+                                 snomed_code: "732174014")
+Condition.find_or_create_by_name(name: "COPD",
+                                 snomed_name: "Chronic obstructive lung disease (disorder)",
+                                 snomed_code: "739041012")
+Condition.find_or_create_by_name(name: "Chronic obstructive lung disease ",
+                                 snomed_name: "Chronic obstructive lung disease (disorder)",
+                                 snomed_code: "739041012")
 Condition.find_or_create_by_name(name: "Chronic sinusitis",
                                  snomed_name: "Chronic sinusitis (disorder)",
                                  snomed_code: "776625019")
@@ -127,6 +148,9 @@ Condition.find_or_create_by_name(name: "Dysthymia",
 Condition.find_or_create_by_name(name: "Ehlers-Danlos syndrome, type 3",
                                  snomed_name: "Ehlers-Danlos syndrome, type 3 (disorder)",
                                  snomed_code: "761685016")
+Condition.find_or_create_by_name(name: "Eczema",
+                                 snomed_name: "Eczema (disorder)",
+                                 snomed_code: "1203151017")
 Condition.find_or_create_by_name(name: "Fatigue",
                                  snomed_name: "Chronic fatigue syndrome (disorder)",
                                  snomed_code: "790741013")
@@ -145,6 +169,9 @@ Condition.find_or_create_by_name(name: "Fibrositis",
 Condition.find_or_create_by_name(name: "Gastroparesis",
                                  snomed_name: "Gastroparesis (disorder)",
                                  snomed_code: "624163010")
+Condition.find_or_create_by_name(name: "Gastric ulcer",
+                                 snomed_name: "Gastric ulcer (disorder)",
+                                 snomed_code: "1765744015")
 Condition.find_or_create_by_name(name: "GERD",
                                  snomed_name: "Gastroesophageal reflux disease (disorder)",
                                  snomed_code: "624072017")
@@ -154,6 +181,9 @@ Condition.find_or_create_by_name(name: "GORD",
 Condition.find_or_create_by_name(name: "Gastroesophageal reflux disease",
                                  snomed_name: "Gastroesophageal reflux disease (disorder)",
                                  snomed_code: "624072017")
+Condition.find_or_create_by_name(name: "Goiter",
+                                 snomed_name: "Goiter (disorder)",
+                                 snomed_code: "768995016")
 Condition.find_or_create_by_name(name: "Gonorrhea",
                                  snomed_name: "Gonorrhea (disorder)",
                                  snomed_code: "742488016")
@@ -223,6 +253,9 @@ Condition.find_or_create_by_name(name: "Gastritis",
 Condition.find_or_create_by_name(name: "Gout",
                                  snomed_name: "Gout (disorder)",
                                  snomed_code: "833690019")
+Condition.find_or_create_by_name(name: "Obstructive sleep apnea syndrome",
+                                 snomed_name: "Obstructive sleep apnea syndrome (disorder)",
+                                 snomed_code: "819197016")
 Condition.find_or_create_by_name(name: "Obesity",
                                  snomed_name: "Obesity",
                                  snomed_code: "414916001")
@@ -292,6 +325,12 @@ Condition.find_or_create_by_name(name: "Postural orthostatic tachycardia syndrom
 Condition.find_or_create_by_name(name: "POTS",
                                  snomed_name: "Postural orthostatic tachycardia syndrome (disorder)",
                                  snomed_code: "1196369012")
+Condition.find_or_create_by_name(name: "Psoriasis",
+                                 snomed_name: "Psoriasis (disorder)",
+                                 snomed_code: "833183013")
+Condition.find_or_create_by_name(name: "Restless legs",
+                                 snomed_name: "Restless legs (disorder)",
+                                 snomed_code: "764254017")
 Condition.find_or_create_by_name(name: "Rheumatoid arthritis",
                                  snomed_name: "Rheumatoid arthritis (disorder)",
                                  snomed_code: "809891012")
@@ -319,12 +358,18 @@ Condition.find_or_create_by_name(name: "Scabies",
 Condition.find_or_create_by_name(name: "Sinusitis",
                                  snomed_name: "Sinusitis (disorder)",
                                  snomed_code: "768784019")
+Condition.find_or_create_by_name(name: "Sleep apnea",
+                                 snomed_name: "Sleep apnea (disorder)",
+                                 snomed_code: "2821169015")
 Condition.find_or_create_by_name(name: "Sjögren's syndrome",
                                  snomed_name: "Sjögren's syndrome (disorder)",
                                  snomed_code: "825633012")
 Condition.find_or_create_by_name(name: "Sjogren's syndrome",
                                  snomed_name: "Sjögren's syndrome (disorder)",
                                  snomed_code: "825633012")
+Condition.find_or_create_by_name(name: "Spina Bifida",
+                                 snomed_name: "Spina Bifida (disorder)",
+                                 snomed_code: "807266011")
 Condition.find_or_create_by_name(name: "Stroke",
                                  snomed_name: "Cerebrovascular accident (disorder)",
                                  snomed_code: "618532011")
