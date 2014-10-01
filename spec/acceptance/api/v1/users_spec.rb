@@ -6,7 +6,7 @@ resource 'Users' do
   header 'Content-Type', 'application/json'
 
   let(:current_password) { 'current_password' }
-  let(:user) { create(:member, password: current_password) }
+  let(:user) { create(:member, :trial, password: current_password) }
   let(:session) { user.sessions.create }
 
   get '/api/v1/users' do
@@ -148,10 +148,11 @@ resource 'Users' do
     parameter :deceased, "Boolean, is the user deceased"
     parameter :date_of_death, "If the user is deceased, when did they die"
     parameter :provider_taxonomy_code, "Associate's healthcare provider taxonomy code"
+    parameter :status_event, 'Change member status; available only to admin; one of ["upgrade", "downgrade", "grant_free_trial", "chamathify"]'
     scope_parameters :user, [:email, :first_name, :last_name, :avatar, :gender,
                              :height, :birth_date, :phone, :ethnic_group_id,
                              :diet_id, :blood_type, :deceased,
-                             :date_of_death, :provider_taxonomy_code]
+                             :date_of_death, :provider_taxonomy_code, :status_event]
     required_parameters :auth_token, :id
 
     put '/api/v1/user/:id' do

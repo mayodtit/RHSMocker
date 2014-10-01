@@ -63,8 +63,16 @@ describe ScheduledPhoneCall do
   end
 
   describe 'after create' do
+    let(:time) do
+      prev_global_time_zone = Time.zone
+      Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+      time = Time.roll_forward(3.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock + 1.hour
+      Time.zone = prev_global_time_zone
+      time.utc
+    end
+
     it 'notifies the owner if is assigned' do
-      spc = ScheduledPhoneCall.new(scheduled_at: 3.days.from_now, state: 'assigned', assigned_at: Time.now, assignor: create(:pha_lead), owner: create(:pha))
+      spc = ScheduledPhoneCall.new(scheduled_at: time, state: 'assigned', assigned_at: Time.now, assignor: create(:pha_lead), owner: create(:pha))
       spc.should_receive :notify_owner_of_assigned_call
       spc.save!
     end
@@ -135,7 +143,7 @@ describe ScheduledPhoneCall do
       end
 
       context 'the same day' do
-        it 'schedules the message for the scheduled day at 9AM pacific' do
+        it 'schedules the message for the scheduled day at the start of on call hours pacific' do
           Timecop.freeze(Time.new(2014, 7, 25, 8, 0, 0, '-07:00'))
           expect{ scheduled_phone_call.reload.book! }.to change(ScheduledMessage, :count).by(1)
           expect(user.inbound_scheduled_communications.count).to eq(1)
@@ -143,14 +151,14 @@ describe ScheduledPhoneCall do
           expect(scheduled_message.state?(:scheduled)).to be_true
           expect(scheduled_message.recipient).to eq(user)
           expect(scheduled_message.text).to eq(message_template.text)
-          expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 25, 9, 0, 0, '-07:00'))
+          expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 25, ON_CALL_START_HOUR, 0, 0, '-07:00'))
           expect(scheduled_message.variables['day']).to eq('today')
           Timecop.return
         end
       end
 
       context 'the day before' do
-        it 'schedules the message for the scheduled day at 9AM pacific' do
+        it 'schedules the message for the scheduled day at the start of on call hours pacific' do
           Timecop.freeze(Time.new(2014, 7, 24, 0, 0, 0, '-07:00'))
           expect{ scheduled_phone_call.reload.book! }.to change(ScheduledMessage, :count).by(1)
           expect(user.inbound_scheduled_communications.count).to eq(1)
@@ -158,14 +166,14 @@ describe ScheduledPhoneCall do
           expect(scheduled_message.state?(:scheduled)).to be_true
           expect(scheduled_message.recipient).to eq(user)
           expect(scheduled_message.text).to eq(message_template.text)
-          expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 25, 9, 0, 0, '-07:00'))
+          expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 25, ON_CALL_START_HOUR, 0, 0, '-07:00'))
           expect(scheduled_message.variables['day']).to eq('today')
           Timecop.return
         end
       end
 
       context 'before the day before' do
-        it 'schedules the message for the day before at 9AM pacific' do
+        it 'schedules the message for the day before at at the start of on call hours pacific' do
           Timecop.freeze(Time.new(2014, 7, 23, 23, 59, 59, '-07:00'))
           expect{ scheduled_phone_call.reload.book! }.to change(ScheduledMessage, :count).by(1)
           expect(user.inbound_scheduled_communications.count).to eq(1)
@@ -173,7 +181,7 @@ describe ScheduledPhoneCall do
           expect(scheduled_message.state?(:scheduled)).to be_true
           expect(scheduled_message.recipient).to eq(user)
           expect(scheduled_message.text).to eq(message_template.text)
-          expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 24, 9, 0, 0, '-07:00'))
+          expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 24, ON_CALL_START_HOUR, 0, 0, '-07:00'))
           expect(scheduled_message.variables['day']).to eq('Friday')
           Timecop.return
         end
@@ -198,7 +206,7 @@ describe ScheduledPhoneCall do
       end
 
       context 'the same day' do
-        it 'schedules the message for the scheduled day at 9AM pacific' do
+        it 'schedules the message for the scheduled day at the start of on call hours pacific' do
           Timecop.freeze(Time.new(2014, 7, 28, 8, 0, 0, '-07:00'))
           expect{ scheduled_phone_call.reload.book! }.to change(ScheduledMessage, :count).by(1)
           expect(user.inbound_scheduled_communications.count).to eq(1)
@@ -206,14 +214,14 @@ describe ScheduledPhoneCall do
           expect(scheduled_message.state?(:scheduled)).to be_true
           expect(scheduled_message.recipient).to eq(user)
           expect(scheduled_message.text).to eq(message_template.text)
-          expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 28, 9, 0, 0, '-07:00'))
+          expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 28, ON_CALL_START_HOUR, 0, 0, '-07:00'))
           expect(scheduled_message.variables['day']).to eq('today')
           Timecop.return
         end
       end
 
       context 'on S/Su' do
-        it 'schedules the message for the scheduled day at 9AM pacific' do
+        it 'schedules the message for the scheduled day at the start of on call hours pacific' do
           Timecop.freeze(Time.new(2014, 7, 26, 8, 0, 0, '-07:00'))
           expect{ scheduled_phone_call.reload.book! }.to change(ScheduledMessage, :count).by(1)
           expect(user.inbound_scheduled_communications.count).to eq(1)
@@ -221,14 +229,14 @@ describe ScheduledPhoneCall do
           expect(scheduled_message.state?(:scheduled)).to be_true
           expect(scheduled_message.recipient).to eq(user)
           expect(scheduled_message.text).to eq(message_template.text)
-          expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 28, 9, 0, 0, '-07:00'))
+          expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 28, ON_CALL_START_HOUR, 0, 0, '-07:00'))
           expect(scheduled_message.variables['day']).to eq('today')
           Timecop.return
         end
       end
 
       context 'on F' do
-        it 'schedules the message for the scheduled day at 9AM pacific' do
+        it 'schedules the message for the scheduled day at the start of on call hours pacific' do
           Timecop.freeze(Time.new(2014, 7, 25, 8, 0, 0, '-07:00'))
           expect{ scheduled_phone_call.reload.book! }.to change(ScheduledMessage, :count).by(1)
           expect(user.inbound_scheduled_communications.count).to eq(1)
@@ -236,14 +244,14 @@ describe ScheduledPhoneCall do
           expect(scheduled_message.state?(:scheduled)).to be_true
           expect(scheduled_message.recipient).to eq(user)
           expect(scheduled_message.text).to eq(message_template.text)
-          expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 28, 9, 0, 0, '-07:00'))
+          expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 28, ON_CALL_START_HOUR, 0, 0, '-07:00'))
           expect(scheduled_message.variables['day']).to eq('today')
           Timecop.return
         end
       end
 
       context 'before F' do
-        it 'schedules the message for the day before the weekend at 9AM pacific' do
+        it 'schedules the message for the day before the weekend at the start of on call hours pacific' do
           Timecop.freeze(Time.new(2014, 7, 24, 8, 0, 0, '-07:00'))
           expect{ scheduled_phone_call.reload.book! }.to change(ScheduledMessage, :count).by(1)
           expect(user.inbound_scheduled_communications.count).to eq(1)
@@ -251,7 +259,7 @@ describe ScheduledPhoneCall do
           expect(scheduled_message.state?(:scheduled)).to be_true
           expect(scheduled_message.recipient).to eq(user)
           expect(scheduled_message.text).to eq(message_template.text)
-          expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 25, 9, 0, 0, '-07:00'))
+          expect(scheduled_message.publish_at).to eq(Time.new(2014, 7, 25, ON_CALL_START_HOUR, 0, 0, '-07:00'))
           expect(scheduled_message.variables['day']).to eq('Monday')
           Timecop.return
         end
@@ -269,11 +277,19 @@ describe ScheduledPhoneCall do
   end
 
   describe 'states' do
+    let(:time) do
+      prev_global_time_zone = Time.zone
+      Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+      time = Time.roll_forward(4.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock + 1.hour
+      Time.zone = prev_global_time_zone
+      time.utc
+    end
+
     let(:pha_lead) { build_stubbed(:pha_lead) }
     let(:pha) { build_stubbed(:pha) }
     let(:other_pha) { build_stubbed(:pha) }
     let(:member) { build_stubbed(:member) }
-    let(:other_scheduled_phone_call) { build(:scheduled_phone_call, scheduled_at: 4.days.from_now) }
+    let(:other_scheduled_phone_call) { build(:scheduled_phone_call, scheduled_at: time) }
     let(:consult) { build :consult }
     let(:message) { build :message, consult: consult }
 
@@ -292,9 +308,16 @@ describe ScheduledPhoneCall do
 
     shared_examples 'won\'t double book pha' do |state|
       context 'new lets' do
+        let(:time) do
+          prev_global_time_zone = Time.zone
+          Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+          time = Time.roll_forward(5.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock + 1.hour
+          Time.zone = prev_global_time_zone
+          time.utc
+        end
         let!(:pha) { create :pha }
         let!(:member) { create :member, pha: pha }
-        let(:scheduled_phone_call) { build :scheduled_phone_call, state, owner: pha, user: member, scheduled_at: 5.days.from_now }
+        let(:scheduled_phone_call) { build :scheduled_phone_call, state, owner: pha, user: member, scheduled_at: time }
 
         before do
           # This clears the context above this
@@ -444,6 +467,68 @@ describe ScheduledPhoneCall do
       end
 
       it_behaves_like 'won\'t double book pha', :canceled
+    end
+  end
+
+  describe '#scheduled_at_during_on_call' do
+    let(:scheduled_phone_call) { create :scheduled_phone_call }
+    let(:valid_work_time) do
+      prev_global_time_zone = Time.zone
+      Time.zone = ActiveSupport::TimeZone.new 'America/Los_Angeles'
+      time = Time.roll_forward(100.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock
+      Time.zone = prev_global_time_zone
+      time
+    end
+
+    context 'scheduled phone call is assigned' do
+      before do
+        scheduled_phone_call.stub(:assigned?) { true }
+        scheduled_phone_call.stub(:unassigned?) { false }
+      end
+
+      it 'allows scheduled at during work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time
+        scheduled_phone_call.should be_valid
+      end
+
+      it 'doesn\'t allow scheduled at after work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time - 1.hours
+        scheduled_phone_call.should_not be_valid
+      end
+    end
+
+    context 'scheduled phone call is unassigned' do
+      before do
+        scheduled_phone_call.stub(:assigned?) { false }
+        scheduled_phone_call.stub(:unassigned?) { true }
+      end
+
+      it 'allows scheduled at during work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time
+        scheduled_phone_call.should be_valid
+      end
+
+      it 'doesn\'t allow scheduled at after work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time - 1.hours
+        scheduled_phone_call.should_not be_valid
+      end
+    end
+
+    context 'scheduled phone call is not unassigned or assigned' do
+      before do
+        scheduled_phone_call.stub(:unassigned?) { false }
+        scheduled_phone_call.stub(:assigned?) { false }
+      end
+
+      it 'allows scheduled at during work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time
+        scheduled_phone_call.should be_valid
+      end
+
+      it 'allows scheduled at after work hours' do
+        scheduled_phone_call.scheduled_at = valid_work_time - 1.hour
+        scheduled_phone_call.should be_valid
+      end
     end
   end
 end

@@ -45,7 +45,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: billing'}, 
 
 ################################  Managing medical conditions ################################ 
 
-NuxAnswer.upsert_attributes({name: 'medical condition'}, text: 'Managing medical conditions', phrase: 'manage your medical conditions', active: true, ordinal: 8)
+NuxAnswer.upsert_attributes({name: 'medical condition'}, text: 'Managing medical conditions', phrase: 'manage your medical conditions', active: true, ordinal: 9)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*. *|pha_first_name|* will be available *|pha_next_available|* to help you start managing your medical conditions.
@@ -102,7 +102,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: choosing in
 
 ################################  Having a healthy pregnancy ################################
 
-NuxAnswer.upsert_attributes({name: 'pregnancy'}, text: 'Having a healthy pregnancy', phrase: 'have a healthy pregnancy', active: true, ordinal: 9)
+NuxAnswer.upsert_attributes({name: 'pregnancy'}, text: 'Having a healthy pregnancy', phrase: 'have a healthy pregnancy', active: true, ordinal: 10)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *|pha_next_available|* to help you.  To get started, [schedule a time to talk](better://nb?cmd=scheduleCall) or send a message with your due date.
@@ -120,7 +120,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: pregnancy'}
 
 # Caring for an aging parent --
 
-NuxAnswer.upsert_attributes({name: 'eldercare'}, text: 'Caring for an aging parent', phrase: 'care for an aging parent', active: true, ordinal: 10)
+NuxAnswer.upsert_attributes({name: 'eldercare'}, text: 'Caring for an aging parent', phrase: 'care for an aging parent', active: true, ordinal: 11)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *|pha_next_available|* to help support you and your family.
@@ -155,7 +155,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: medical que
 
 ########################## Losing some weight ##############################
 
-NuxAnswer.upsert_attributes({name: 'weightloss'}, text: 'Losing some weight', phrase: 'lose some weight', active: true, ordinal: 7)
+NuxAnswer.upsert_attributes({name: 'weightloss'}, text: 'Losing some weight', phrase: 'lose some weight', active: true, ordinal: 8)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *|pha_next_available|* to create a plan for your weight loss goals.
@@ -171,6 +171,25 @@ MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*! I’m here to create a plan for your weight loss goals. To get started, tell me more about how I can support your weight loss goals.
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: weightloss'}, text: MESSAGE.strip())
+
+########################## Trying to conceive ##############################
+
+NuxAnswer.upsert_attributes({name: 'conception'}, text: 'Trying to conceive', phrase: 'start planning a family', active: true, ordinal: 7)
+
+MESSAGE = <<eof
+Welcome to Better, *|member_first_name|*. *|pha_first_name|* will be available *|pha_next_available|* to help you start planning a family.
+
+To get started:
+
+1) Let your PHA know how long you’ve been trying to conceive.
+2) [Schedule a time to talk](better://nb?cmd=scheduleCall), or message your PHA details about your birth control use.
+eof
+MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: conception'}, text: MESSAGE.strip())
+
+MESSAGE = <<eof
+Welcome to Better, *|member_first_name|*! I’m here to help you start planning a family. To get started, tell me how long you’ve been trying to conceive.
+eof
+MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: conception'}, text: MESSAGE.strip())
 
 # Something else --
 

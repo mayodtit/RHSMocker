@@ -131,7 +131,7 @@ describe MessageTemplate do
 
       it 'replaces pha_next_available' do
         member.update_attributes!(time_zone: 'America/New_York')
-        described_class.formatted_text(sender, consult.initiator, 'Your pha is available *|pha_next_available|*').should == "Your pha is available today at 12PM"
+        described_class.formatted_text(sender, consult.initiator, 'Your pha is available *|pha_next_available|*').should == "Your pha is available later today"
       end
     end
 

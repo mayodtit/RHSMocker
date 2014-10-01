@@ -329,7 +329,7 @@ class Member < User
     end
 
     event :downgrade do
-      transition any => :free
+      transition any - :free => :free
     end
 
     event :grant_free_trial do
@@ -337,7 +337,7 @@ class Member < User
     end
 
     event :chamathify do
-      transition any => :chamath
+      transition any - :chamath => :chamath
     end
 
     event :hold do

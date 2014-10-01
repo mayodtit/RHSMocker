@@ -57,7 +57,7 @@ class User < ActiveRecord::Base
                   :user_information_attributes, :addresses_attributes, :insurance_policy_attributes,
                   :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id,
                   :provider_taxonomy_code, :owner, :owner_id, :self_owner, :emergency_contact_attributes,
-                  :actor_id, :text_phone_number
+                  :actor_id, :text_phone_number, :due_date
 
   validate :member_flag_is_nil
   validates :deceased, :inclusion => {:in => [true, false]}

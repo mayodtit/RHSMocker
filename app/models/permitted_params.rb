@@ -65,7 +65,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def scheduled_message
-    params.require(:scheduled_message).permit(:sender_id, :recipient_id, :text, :state_event, :publish_at)
+    params.require(:scheduled_message).permit(:sender_id, :recipient_id, :text, :state_event, :publish_at, :content_id)
   end
 
   def scheduled_communication
@@ -101,6 +101,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
 
       if current_user && current_user.pha?
         attributes << :pha_id
+        attributes << :due_date
         attributes << {user_information_attributes: user_information_attributes}
         attributes << {insurance_policy_attributes: insurance_policy_attributes}
         attributes << {provider_attributes: provider_attributes}
@@ -109,6 +110,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
 
       if current_user && current_user.admin?
         attributes << :pha_id
+        attributes << :status_event
         attributes.concat(%i(is_premium free_trial_ends_at))
       end
 
