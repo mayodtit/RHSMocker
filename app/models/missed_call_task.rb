@@ -1,4 +1,4 @@
-class FollowUpTask < Task
+class MissedCallTask < Task
   include ActiveModel::ForbiddenAttributesProtection
 
   belongs_to :phone_call

@@ -183,11 +183,115 @@ describe MessageTask do
   end
 
   describe '#set_priority' do
-    let(:task) { build :message_task }
+    let!(:consult) { create :consult }
+    let!(:message) { create :message, consult: consult, user: consult.initiator }
 
-    it 'sets it to zero' do
-      task.set_priority
-      task.priority.should == MessageTask::PRIORITY
+    before do
+      # Clear out any MessageTasks that are created through callbacks
+      consult
+      message
+      MessageTask.destroy_all
+    end
+
+    context 'role is on call' do
+      before do
+        Role.any_instance.stub(:on_call?) { true }
+      end
+
+      context 'if this message is the first message' do
+        let!(:task) { create :message_task, message: message, consult: consult }
+
+        it 'sets the priority appropriately' do
+          task.set_priority
+          task.priority.should == MessageTask::FIRST_MESSAGE_PRIORITY
+        end
+
+        context 'member added multiple messages' do
+          before do
+            create :message, consult: consult, user: consult.initiator, created_at: 1.minute.from_now
+            create :message, consult: consult, user: consult.initiator, created_at: 5.minutes.from_now
+          end
+
+          it 'sets the priority to what it should be for the first message' do
+            task.set_priority
+            task.priority.should == MessageTask::FIRST_MESSAGE_PRIORITY
+          end
+        end
+      end
+
+      context 'if this message is not the first message' do
+        let!(:task) { create :message_task, message: message, consult: consult }
+
+        before do
+          create :message, consult: consult, user: consult.initiator, created_at: 3.days.ago
+          create :message, consult: consult, user: consult.initiator, created_at: 5.minutes.ago
+        end
+
+        it 'sets the priority appropriately' do
+          task.set_priority
+          task.priority.should == MessageTask::NTH_MESSAGE_PRIORITY
+        end
+      end
+    end
+
+    context 'role is not on call' do
+      let(:pha) { create :pha }
+      let!(:task) { create :message_task, message: message, consult: consult }
+
+      before do
+        Role.any_instance.stub(:on_call?) { false }
+        consult.initiator.update_attributes!(pha_id: pha.id)
+      end
+
+      it 'sets the priority appropriately' do
+        task.set_priority
+        task.priority.should == MessageTask::AFTER_HOURS_MESSAGE_PRIORITY
+      end
+    end
+  end
+
+  describe 'states' do
+    let!(:message) { create :message }
+    let!(:pha) { create :pha }
+
+    before do
+      # Clear out any MessageTasks that are created through callbacks
+      message
+      MessageTask.destroy_all
+    end
+
+    context 'consult is inactive' do
+      let!(:task) { create :message_task, message: message, consult: message.consult, assignor: pha, owner: pha }
+
+      before do
+        message.consult.deactivate! unless message.consult.inactive?
+      end
+
+      it 'isn\'t deactivated when abandoned' do
+        expect { task.update_attributes! state_event: :abandon, reason_abandoned: 'none', abandoner: pha }.to_not raise_error
+      end
+
+      it 'isn\'t deactivated when completed' do
+        expect { task.update_attributes! state_event: :complete, owner: pha }.to_not raise_error
+      end
+    end
+
+    context 'consult is active' do
+      let!(:task) { create :message_task, message: message, consult: message.consult, assignor: pha, owner: pha }
+
+      before do
+        message.consult.activate! unless message.consult.active?
+      end
+
+      it 'is deactivated when abandoned' do
+        task.update_attributes! state_event: :abandon, reason_abandoned: 'none', abandoner: pha
+        message.consult.reload.should be_inactive
+      end
+
+      it 'is deactivated when completed' do
+        task.update_attributes! state_event: :complete, owner: pha
+        message.consult.reload.should be_inactive
+      end
     end
   end
 end

@@ -20,7 +20,8 @@ class ScheduledMessage < ScheduledCommunication
     self.message = build_message(user: sender,
                                  consult: recipient.master_consult,
                                  text: formatted_text,
-                                 content: content)
+                                 content: content,
+                                 automated: true)
   end
 
   private
