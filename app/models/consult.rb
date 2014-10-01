@@ -47,9 +47,9 @@ class Consult < ActiveRecord::Base
 
       if Role.pha.on_call?
         mt = MessageTemplate.find_by_name "New Premium Member Part 1: #{nux_answer_name}"
-        mt.create_message initiator.pha, self, true if mt
+        mt.create_message initiator.pha, self, true, false, true if mt
         mt = MessageTemplate.find_by_name "New Premium Member Part 2: #{nux_answer_name}"
-        mt.delay(run_at: Metadata.new_signup_second_message_delay.seconds.from_now).create_message(initiator.pha, self) if mt
+        mt.delay(run_at: Metadata.new_signup_second_message_delay.seconds.from_now).create_message(initiator.pha, self, false, false, true) if mt
       else
         mt = MessageTemplate.find_by_name "New Premium Member Off Hours: #{nux_answer_name}"
         mt.create_message initiator.pha, self, true, false, true if mt
@@ -63,11 +63,50 @@ class Consult < ActiveRecord::Base
     end
   end
 
+  def self.deactivate_if_last_message(message_id)
+    message = Message.find(message_id)
+    consult = message.consult
+
+    consult.deactivate! if consult.active? && consult.messages.where(automated: false, system: false, off_hours: false).where('created_at > ?', message.created_at).count < 1
+  end
+
   private
 
   state_machine initial: :open do
     event :close do
       transition :open => :closed
+    end
+  end
+
+  state_machine :conversation_state, initial: :inactive do
+    event :activate do
+      transition [:inactive, :needs_response] => :active
+    end
+
+    event :deactivate do
+      transition [:active, :needs_response] => :inactive
+    end
+
+    event :flag do
+      transition [:active, :inactive] => :needs_response
+    end
+
+    after_transition any => :inactive do |consult|
+      MessageTask.where(consult_id: consult.id).open.find_each do |m|
+        m.update_attributes! priority: MessageTask::INACTIVE_CONVERSATION_PRIORITY
+      end
+    end
+
+    after_transition any => :active do |consult|
+      MessageTask.where(consult_id: consult.id).open.find_each do |m|
+        m.update_attributes! priority: MessageTask::ACTIVE_CONVERSATION_PRIORITY
+      end
+    end
+
+    after_transition any => :needs_response do |consult|
+      MessageTask.where(consult_id: consult.id).open.find_each do |m|
+        m.update_attributes! priority: MessageTask::NEEDS_RESPONSE_PRIORITY
+      end
     end
   end
 

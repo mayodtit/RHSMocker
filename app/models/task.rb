@@ -17,7 +17,8 @@ class Task < ActiveRecord::Base
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
                   :abandoner, :abandoner_id, :role, :role_id,
                   :state_event, :service_type_id, :service_type,
-                  :task_template, :task_template_id, :service, :service_id, :service_ordinal
+                  :task_template, :task_template_id, :service, :service_id, :service_ordinal,
+                  :priority
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :owner, presence: true, if: lambda { |t| t.owner_id }
@@ -38,9 +39,9 @@ class Task < ActiveRecord::Base
 
   scope :nurse, -> { where(['role_id = ?', Role.find_by_name!('nurse').id]) }
   scope :pha, -> { where(['role_id = ?', Role.find_by_name!('pha').id]) }
-  scope :owned, -> (hcp) { where(['state IN (?, ?) AND owner_id = ?', :unstarted, :started, hcp.id]) }
-  scope :needs_triage, -> (hcp) { where(['(owner_id IS NULL AND state NOT IN (?)) OR (state IN (?, ?) AND owner_id = ? AND type IN (?, ?, ?, ?))', :abandoned, :unstarted, :started, hcp.id, PhoneCallTask.name, MessageTask.name, UserRequestTask.name, ParsedNurselineRecordTask.name]) }
-  scope :needs_triage_or_owned, -> (hcp) { where(['(state IN (?, ?) AND owner_id = ?) OR (owner_id IS NULL AND state NOT IN (?))', :unstarted, :started, hcp.id, :abandoned]) }
+  scope :owned, -> (hcp) { where(['state IN (?, ?, ?) AND owner_id = ?', :unstarted, :started, :claimed, hcp.id]) }
+  scope :needs_triage, -> (hcp) { where(['(owner_id IS NULL AND state NOT IN (?)) OR (state IN (?, ?, ?) AND owner_id = ? AND type IN (?, ?, ?, ?))', :abandoned, :unstarted, :started, :claimed, hcp.id, PhoneCallTask.name, MessageTask.name, UserRequestTask.name, ParsedNurselineRecordTask.name]) }
+  scope :needs_triage_or_owned, -> (hcp) { where(['(state IN (?, ?, ?) AND owner_id = ?) OR (owner_id IS NULL AND state NOT IN (?))', :unstarted, :started, :claimed, hcp.id, :abandoned]) }
 
   def open?
     !(%w(completed abandoned).include? state)

@@ -76,7 +76,7 @@ describe Consult do
 
               it 'creates a message from a template' do
                 MessageTemplate.stub(:find_by_name).with("New Premium Member Part 1: #{nux_answer.name}") { message_template }
-                message_template.should_receive(:create_message).with(pha, instance_of(Consult), true).and_call_original
+                message_template.should_receive(:create_message).with(pha, instance_of(Consult), true, false, true).and_call_original
                 consult = create :consult, initiator: member
                 consult.reload
                 consult.messages.count.should == 1
@@ -87,7 +87,7 @@ describe Consult do
                 MessageTemplate.stub(:find_by_name).with("New Premium Member Part 2: #{nux_answer.name}") { message_template }
                 message_template.should_receive(:delay).with(run_at: 10.seconds.from_now) do
                   o = Object.new
-                  o.should_receive(:create_message).with(pha, instance_of(Consult))
+                  o.should_receive(:create_message).with(pha, instance_of(Consult), false, false, true)
                   o
                 end
                 consult = create :consult, initiator: member
@@ -130,7 +130,7 @@ describe Consult do
 
               it 'creates a message from a template' do
                 MessageTemplate.stub(:find_by_name).with("New Premium Member Part 1: something else") { message_template }
-                message_template.should_receive(:create_message).with(pha, instance_of(Consult), true).and_call_original
+                message_template.should_receive(:create_message).with(pha, instance_of(Consult), true, false, true).and_call_original
                 consult = create :consult, initiator: member
                 consult.reload
                 consult.messages.count.should == 1
@@ -141,7 +141,7 @@ describe Consult do
                 MessageTemplate.stub(:find_by_name).with("New Premium Member Part 2: something else") { message_template }
                 message_template.should_receive(:delay).with(run_at: 10.seconds.from_now) do
                   o = Object.new
-                  o.should_receive(:create_message).with(pha, instance_of(Consult))
+                  o.should_receive(:create_message).with(pha, instance_of(Consult), false, false, true)
                   o
                 end
                 consult = create :consult, initiator: member
@@ -228,6 +228,120 @@ describe Consult do
       it 'returns messages ordered by created at' do
         consult.messages_and_notes.should == [old_message, note, new_message]
       end
+    end
+  end
+
+  describe '#deactivate_if_last_message' do
+    context 'message is missing' do
+      it 'throws an exception' do
+        expect { Consult.deactivate_if_last_message(100) }.to raise_error
+      end
+    end
+
+    context 'message is present' do
+      let!(:consult) { create :consult }
+      let!(:message) { create :message, consult: consult }
+
+      context 'consult is inactive' do
+        before do
+          consult.conversation_state = 'inactive'
+          consult.save!
+        end
+
+        it 'does nothing' do
+          Consult.any_instance.should_not_receive :deactivate!
+          Consult.deactivate_if_last_message message.id
+        end
+      end
+
+      context 'consult is active' do
+        before do
+          message
+          consult.conversation_state = 'active'
+          consult.save!
+        end
+
+        context 'no messages were added since' do
+          it 'deactivates the consult' do
+            Consult.deactivate_if_last_message message.id
+            consult.reload.should be_inactive
+          end
+        end
+
+        context 'some messages were added since' do
+          context 'messages are automated' do
+            before do
+              create :message, automated: true, created_at: 5.minutes.from_now
+              create :message, automated: true, created_at: 10.minutes.from_now
+            end
+
+            it 'deactivates the consult' do
+              Consult.deactivate_if_last_message message.id
+              consult.reload.should be_inactive
+            end
+          end
+
+          context 'messages are after hours' do
+            before do
+              create :message, off_hours: true, created_at: 5.minutes.from_now
+              create :message, off_hours: true, created_at: 10.minutes.from_now
+            end
+
+            it 'deactivates the consult' do
+              Consult.deactivate_if_last_message message.id
+              consult.reload.should be_inactive
+            end
+          end
+
+          context 'messages are system' do
+            before do
+              create :message, system: true, created_at: 5.minutes.from_now
+              create :message, system: true, created_at: 10.minutes.from_now
+            end
+
+            it 'deactivates the consult' do
+              Consult.deactivate_if_last_message message.id
+              consult.reload.should be_inactive
+            end
+          end
+        end
+      end
+    end
+  end
+
+  describe '#activate' do
+    let!(:consult) { create :consult }
+    let!(:message) { create :message, consult: consult }
+    let!(:message_task) { create(:message_task, message: message, consult: consult) }
+
+    before do
+      consult.conversation_state = :inactive
+      consult.save!
+      message_task.priority = -1
+      message_task.save!
+    end
+
+    it 'updates the priority of all message tasks that are open' do
+      consult.activate!
+      message_task.reload.priority.should == MessageTask::ACTIVE_CONVERSATION_PRIORITY
+    end
+  end
+
+  describe '#deactivate' do
+    let!(:consult) { create :consult }
+    let!(:message) { create :message, consult: consult }
+    let!(:message_task) { create(:message_task, message: message, consult: consult) }
+
+    before do
+      consult.conversation_state = :active
+      consult.save!
+      message_task.priority = -1
+      message_task.save!
+    end
+
+    it 'updates the priority of all message tasks that are open' do
+      consult.deactivate!
+      message_task.reload.priority.should == MessageTask::INACTIVE_CONVERSATION_PRIORITY
     end
   end
 end
