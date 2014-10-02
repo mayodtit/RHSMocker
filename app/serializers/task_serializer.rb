@@ -6,23 +6,24 @@ class TaskSerializer < ActiveModel::Serializer
 
   def attributes
     if options[:shallow]
-      {
+      attributes = {
         id: object.id,
         title: object.title,
         state: object.state,
         due_at: object.due_at,
         created_at: object.created_at,
         type: type,
-        member: object.member.try(:serializer, options),
         triage_state: triage_state
       }
+      attributes[:member] = object.member.try(:serializer, options) if object.respond_to? :member
+      attributes
     else
       super.tap do |attributes|
         attributes.merge!(
-          member: object.member.try(:serializer, options.merge(include_nested_information: true)),
           owner: object.owner.try(:serializer, options),
           service_type: object.service_type
         )
+        attributes[:member] = object.member.try(:serializer, options.merge(include_nested_information: true)) if object.respond_to? :member
       end
     end
   end

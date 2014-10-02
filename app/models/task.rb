@@ -2,7 +2,6 @@ class Task < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
   PRIORITY = 0
 
-  belongs_to :member
   belongs_to :role, class_name: 'Role'
   belongs_to :owner, class_name: 'Member'
   belongs_to :creator, class_name: 'Member'

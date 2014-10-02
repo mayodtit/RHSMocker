@@ -277,3 +277,6 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message 4 OLD
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
                                           {relative_days: 8})
+
+TOS_VIOLATION = '*|member_first_name|*, due to violations of our terms of service, we will be terminating your account.'
+m = MessageTemplate.upsert_attributes({name: 'TOS Violation'}, {text: TOS_VIOLATION})
