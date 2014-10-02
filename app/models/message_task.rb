@@ -9,7 +9,7 @@ class MessageTask < Task
 
   belongs_to :consult
   belongs_to :message
-  has_one :member, through: :consult, source: :initiator
+  has_one :member, through: :consult, source: :initiator, autosave: false
   delegate :subject, to: :consult
 
   attr_accessible :consult, :consult_id, :message, :message_id
@@ -63,6 +63,20 @@ class MessageTask < Task
   end
 
   state_machine do
+    event :flag do
+      transition any => :spam
+    end
+
+    before_transition any - [:unstarted] => :spam do |task|
+      task.assignor = task.owner
+      task.assigned_at = Time.now
+      task.owner = Member.geoff
+    end
+
+    after_transition :spam => :completed do |task|
+      task.member.smackdown!
+    end
+
     after_transition any => [:abandoned, :completed] do |task|
       task.consult.deactivate! unless task.consult.inactive?
     end

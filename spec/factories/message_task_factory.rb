@@ -4,4 +4,10 @@ FactoryGirl.define do
   factory :message_task, class: MessageTask, parent: :task do
     consult
   end
+
+  trait :spam do
+    state 'spam'
+    association :owner, factory: :member
+    association :assignor, factory: :member
+  end
 end

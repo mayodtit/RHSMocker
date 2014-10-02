@@ -260,37 +260,70 @@ describe MessageTask do
       MessageTask.destroy_all
     end
 
-    context 'consult is inactive' do
-      let!(:task) { create :message_task, message: message, consult: message.consult, assignor: pha, owner: pha }
+    describe 'ending task' do
+      context 'consult is inactive' do
+        let!(:task) { create :message_task, message: message, consult: message.consult, assignor: pha, owner: pha }
 
-      before do
-        message.consult.deactivate! unless message.consult.inactive?
+        before do
+          message.consult.deactivate! unless message.consult.inactive?
+        end
+
+        it 'isn\'t deactivated when abandoned' do
+          expect { task.update_attributes! state_event: :abandon, reason_abandoned: 'none', abandoner: pha }.to_not raise_error
+        end
+
+        it 'isn\'t deactivated when completed' do
+          expect { task.update_attributes! state_event: :complete, owner: pha }.to_not raise_error
+        end
       end
 
-      it 'isn\'t deactivated when abandoned' do
-        expect { task.update_attributes! state_event: :abandon, reason_abandoned: 'none', abandoner: pha }.to_not raise_error
-      end
+      context 'consult is active' do
+        let!(:task) { create :message_task, message: message, consult: message.consult, assignor: pha, owner: pha }
 
-      it 'isn\'t deactivated when completed' do
-        expect { task.update_attributes! state_event: :complete, owner: pha }.to_not raise_error
+        before do
+          message.consult.activate! unless message.consult.active?
+        end
+
+        it 'is deactivated when abandoned' do
+          task.update_attributes! state_event: :abandon, reason_abandoned: 'none', abandoner: pha
+          message.consult.reload.should be_inactive
+        end
+
+        it 'is deactivated when completed' do
+          task.update_attributes! state_event: :complete, owner: pha
+          message.consult.reload.should be_inactive
+        end
       end
     end
 
-    context 'consult is active' do
-      let!(:task) { create :message_task, message: message, consult: message.consult, assignor: pha, owner: pha }
+    describe '#flag' do
+      let!(:pha) { create :pha }
+      let!(:message_task) { create :message_task, :claimed, owner: pha }
 
-      before do
-        message.consult.activate! unless message.consult.active?
+      it 'sets the state to spam' do
+        message_task.flag!
+        message_task.reload.should be_spam
       end
 
-      it 'is deactivated when abandoned' do
-        task.update_attributes! state_event: :abandon, reason_abandoned: 'none', abandoner: pha
-        message.consult.reload.should be_inactive
+      it 'sets the assignor to the current owner' do
+        message_task.flag!
+        message_task.reload.assignor.should == pha
       end
 
-      it 'is deactivated when completed' do
-        task.update_attributes! state_event: :complete, owner: pha
-        message.consult.reload.should be_inactive
+      it 'sets the owner to geoff' do
+        message_task.flag!
+        message_task.reload.owner.should == Member.geoff
+      end
+    end
+
+    describe '#complete' do
+      let!(:message_task) { create :message_task, :spam }
+
+      context 'when marked as spam' do
+        it 'smacks down the member' do
+          message_task.member.should_receive(:smackdown!)
+          message_task.complete!
+        end
       end
     end
   end

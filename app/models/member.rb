@@ -160,6 +160,14 @@ class Member < User
                             avatar_url_override: 'http://i.imgur.com/eU3p9Hj.jpg')
   end
 
+  def self.geoff
+    m = find_or_create_by_email(email: 'geoff@getbetter.com',
+                            first_name: 'Geoff',
+                            last_name: 'Clapp')
+    m.add_role 'pha' unless m.pha?
+    m
+  end
+
   def self.phas
     # less efficient than Role.find.users, but safer because ensures Member
     joins(:roles).where(roles: {name: :pha})
@@ -294,6 +302,12 @@ class Member < User
     else
       :free
     end
+  end
+
+  def smackdown!
+    downgrade!
+    mt = MessageTemplate.find_by_name 'TOS Violation'
+    mt.create_message(Member.robot, master_consult, false, true, true) if mt
   end
 
   protected

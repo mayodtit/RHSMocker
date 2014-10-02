@@ -1,6 +1,8 @@
 class UserRequestTask < Task
   include ActiveModel::ForbiddenAttributesProtection
   PRIORITY = 7
+
+  belongs_to :member
   belongs_to :user_request, inverse_of: :user_request_task
   belongs_to :subject, class_name: 'User'
 
