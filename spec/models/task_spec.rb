@@ -560,6 +560,10 @@ describe Task do
     let!(:task_9) { create :message_task }
     let!(:task_10) { create :phone_call_task }
 
+    before do
+      Role.any_instance.stub(:on_call?) { true }
+    end
+
     describe '#owned' do
       it 'returns owned tasks' do
         tasks = Task.owned(pha)

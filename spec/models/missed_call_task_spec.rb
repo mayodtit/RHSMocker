@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe FollowUpTask do
+describe MissedCallTask do
   it_has_a 'valid factory'
 
   describe 'validations' do

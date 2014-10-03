@@ -131,4 +131,9 @@ class Metadata < ActiveRecord::Base
     delay = Metadata.find_by_mkey('new_signup_second_message_delay').try(:mvalue).to_i
     delay ? delay : 5
   end
+
+  def self.minutes_to_inactive_conversation
+    minutes = Metadata.find_by_mkey('minutes_to_inactive_conversation').try(:mvalue).to_i
+    (minutes ? minutes : 15).minutes
+  end
 end

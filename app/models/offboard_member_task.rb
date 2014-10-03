@@ -4,6 +4,7 @@ class OffboardMemberTask < Task
 
   include ActiveModel::ForbiddenAttributesProtection
 
+  belongs_to :member
   attr_accessible :member_id, :member
 
   validates :member, :service_type, presence: true

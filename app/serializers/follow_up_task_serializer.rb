@@ -1,4 +1,4 @@
-class FollowUpTaskSerializer < TaskSerializer
+class MissedCallTaskSerializer < TaskSerializer
 
   attributes :phone_call_id, :message_id
 

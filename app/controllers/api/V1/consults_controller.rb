@@ -109,7 +109,8 @@ Questions or cancellations? Email me at premium@getbetter.com.
   def pha_message_attributes
     {
       user: @scheduled_phone_call.owner,
-      text: pha_message
+      text: pha_message,
+      automated: true
     }
   end
 

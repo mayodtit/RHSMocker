@@ -8,15 +8,15 @@ resource "Tasks" do
   let!(:pha) { create(:pha) }
   let(:session) { pha.sessions.create }
   let!(:other_pha) { create(:pha) }
-  let!(:task) { create(:task) }
-  let!(:another_task) { create(:task) }
-  let!(:one_more_task) { create(:task) }
+  let!(:task) { create(:member_task) }
+  let!(:another_task) { create(:member_task) }
+  let!(:one_more_task) { create(:member_task) }
 
-  let!(:assigned_task) { create(:task, :assigned) }
-  let!(:started_task) { create(:task, :started) }
-  let!(:claimed_task) { create(:task, :claimed, owner: pha) }
-  let!(:completed_task) { create(:task, :completed) }
-  let!(:abandoned_task) { create(:task, :abandoned) }
+  let!(:assigned_task) { create(:member_task, :assigned) }
+  let!(:started_task) { create(:member_task, :started) }
+  let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
+  let!(:completed_task) { create(:member_task, :completed) }
+  let!(:abandoned_task) { create(:member_task, :abandoned) }
 
   let(:auth_token) { session.auth_token }
 
@@ -40,8 +40,8 @@ resource "Tasks" do
   end
 
   describe 'queue' do
-    let!(:assigned_task) { create(:task, :assigned, owner: pha, due_at: 3.days.ago) }
-    let!(:started_task) { create(:task, :started, owner: pha, due_at: 2.days.ago) }
+    let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago) }
+    let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 2.days.ago) }
 
     parameter :auth_token, 'Performing hcp\'s auth_token'
 
@@ -54,7 +54,7 @@ resource "Tasks" do
         explanation 'Get the task queue for the current user. Accessible only by HCPs'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        response[:tasks].to_json.should == [assigned_task, started_task].serializer(shallow: true).to_json
+        response[:tasks].to_json.should == [assigned_task, started_task, claimed_task].serializer(shallow: true).to_json
       end
     end
   end
