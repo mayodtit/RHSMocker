@@ -72,7 +72,7 @@ class Message < ActiveRecord::Base
   def activate_consult
     if !off_hours? && !system? && !automated?
       if user != consult.initiator
-        consult.activate! if consult.inactive?
+        consult.activate! unless consult.active?
         Consult.delay(run_at: Metadata.minutes_to_inactive_conversation.from_now).deactivate_if_last_message(self.id)
       elsif !consult.needs_response?
         consult.flag!

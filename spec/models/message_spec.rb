@@ -224,9 +224,9 @@ describe Message do
             Timecop.return
           end
 
-          context 'consult is not inactive' do
+          context 'consult is active' do
             before do
-              consult.stub(:inactive?) { false }
+              consult.stub(:active?) { true }
             end
 
             it 'doesn\'t activate the consult' do
@@ -250,9 +250,9 @@ describe Message do
               consult.stub(:activate!)
             end
 
-            context 'consult is inactive' do
+            context 'consult is not active' do
               before do
-                consult.stub(:inactive?) { true }
+                consult.stub(:active?) { false }
               end
 
               it 'activates the consult' do

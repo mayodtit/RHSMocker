@@ -312,36 +312,98 @@ describe Consult do
   describe '#activate' do
     let!(:consult) { create :consult }
     let!(:message) { create :message, consult: consult }
-    let!(:message_task) { create(:message_task, message: message, consult: consult) }
+    let!(:other_message) { create :message, consult: consult }
 
     before do
       consult.conversation_state = :inactive
       consult.save!
+      consult.reload
       message_task.priority = -1
       message_task.save!
     end
 
-    it 'updates the priority of all message tasks that are open' do
-      consult.activate!
-      message_task.reload.priority.should == MessageTask::ACTIVE_CONVERSATION_PRIORITY
+    context 'message for task is last consult message' do
+      let!(:message_task) { create(:message_task, message: other_message, consult: consult) }
+
+      it 'does nothing' do
+        consult.activate!
+        message_task.reload.priority.should == -1
+      end
+    end
+
+    context 'message for task is not last consult message' do
+      let!(:message_task) { create(:message_task, message: message, consult: consult) }
+
+      it 'updates the priority of all message tasks that are open' do
+        consult.activate!
+        message_task.reload.priority.should == MessageTask::ACTIVE_CONVERSATION_PRIORITY
+      end
     end
   end
 
   describe '#deactivate' do
     let!(:consult) { create :consult }
     let!(:message) { create :message, consult: consult }
+    let!(:other_message) { create :message, consult: consult }
     let!(:message_task) { create(:message_task, message: message, consult: consult) }
 
     before do
       consult.conversation_state = :active
       consult.save!
+      consult.reload
       message_task.priority = -1
       message_task.save!
     end
 
-    it 'updates the priority of all message tasks that are open' do
-      consult.deactivate!
-      message_task.reload.priority.should == MessageTask::INACTIVE_CONVERSATION_PRIORITY
+    context 'message for task is last consult message' do
+      let!(:message_task) { create(:message_task, message: other_message, consult: consult) }
+
+      it 'does nothing' do
+        consult.deactivate!
+        message_task.reload.priority.should == -1
+      end
+    end
+
+    context 'message for task is not last consult message' do
+      let!(:message_task) { create(:message_task, message: message, consult: consult) }
+
+      it 'updates the priority of all message tasks that are open' do
+        consult.deactivate!
+        message_task.reload.priority.should == MessageTask::INACTIVE_CONVERSATION_PRIORITY
+      end
+    end
+  end
+
+  describe '#flag' do
+    let!(:consult) { create :consult }
+    let!(:message) { create :message, consult: consult }
+    let!(:other_message) { create :message, consult: consult }
+    let!(:message_task) { create(:message_task, message: message, consult: consult) }
+
+    before do
+      consult.conversation_state = :active
+      consult.save!
+      consult.reload
+      message_task.priority = -1
+      message_task.save!
+    end
+
+    context 'message for task is last consult message' do
+      let!(:message_task) { create(:message_task, message: other_message, consult: consult) }
+
+      it 'does nothing' do
+        consult.flag!
+        message_task.reload.priority.should == -1
+      end
+    end
+
+    context 'message for task is not last consult message' do
+      let!(:message_task) { create(:message_task, message: message, consult: consult) }
+
+      it 'updates the priority of all message tasks that are open' do
+        consult.flag!
+        message_task.reload.priority.should == MessageTask::NEEDS_RESPONSE_PRIORITY
+      end
     end
   end
 end
