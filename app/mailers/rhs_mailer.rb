@@ -46,6 +46,29 @@ class RHSMailer < MandrillMailer::TemplateMailer
     )
   end
 
+  def meet_your_pha_email(email)
+    user = Member.find_by_email!(email)
+    pha = user.pha
+    subject = 'Welcome to Better'
+
+    mandrill_mail(
+      subject: subject,
+      from: pha.email,
+      from_name: pha.full_name,
+      to: { email: email },
+      template: meet_your_pha_template(user),
+      headers: {
+        'Reply-To' => "#{pha.full_name} <premium@getbetter.com>"
+      },
+      vars: {
+        FNAME: user.salutation,
+        MEMBERNEED: user.nux_answer.try(:phrase) || 'your health needs',
+        PHA_BIO: pha.pha_profile.bio,
+        PHA_HEADER_URL: meet_your_pha_header_url(pha)
+      }
+    )
+  end
+
   PREMIUM_WELCOME_TEMPLATE_CLARE = 'Meet Clare, Your PHA 9/4/2014'
   PREMIUM_WELCOME_TEMPLATE_LAUREN = 'Meet Lauren, Your PHA 9/4/2014'
   PREMIUM_WELCOME_TEMPLATE_MEG = 'Meet Meg, Your PHA 9/4/2014'
@@ -54,46 +77,69 @@ class RHSMailer < MandrillMailer::TemplateMailer
   PREMIUM_WELCOME_TEMPLATE_ANN = 'Meet Ann, Your PHA 9/4/2014'
   PREMIUM_WELCOME_TEMPLATE_JACQUI = 'Meet Jacqui, Your PHA 9/4/2014'
   PREMIUM_WELCOME_TEMPLATE_CRYSTAL = 'Meet Crystal, Your PHA 9/22/2014'
+  PREGNANCY_WELCOME_TEMPLATE = 'Meet Your PHA, Pregnancy'
 
-  def meet_your_pha_email(email)
-    user = Member.find_by_email!(email)
-    subject = 'Welcome to Better'
-
-    case user.pha.try(:email)
-    when 'clare@getbetter.com'
-      template = PREMIUM_WELCOME_TEMPLATE_CLARE
-    when 'lauren@getbetter.com'
-      template = PREMIUM_WELCOME_TEMPLATE_LAUREN
-    when 'meg@getbetter.com'
-      template = PREMIUM_WELCOME_TEMPLATE_MEG
-    when 'ninette@getbetter.com'
-      template = PREMIUM_WELCOME_TEMPLATE_NINETTE
-    when 'jenn@getbetter.com'
-      template = PREMIUM_WELCOME_TEMPLATE_JENN
-    when 'ann@getbetter.com'
-      template = PREMIUM_WELCOME_TEMPLATE_ANN
-    when 'jacqueline@getbetter.com'
-      template = PREMIUM_WELCOME_TEMPLATE_JACQUI
-    when 'crystal@getbetter.com'
-      template = PREMIUM_WELCOME_TEMPLATE_CRYSTAL
+  def meet_your_pha_template(member)
+    if member.nux_answer.try(:name) == 'pregnancy'
+      PREGNANCY_WELCOME_TEMPLATE
     else
-      template = PREMIUM_WELCOME_TEMPLATE_CLARE
+      case user.pha.try(:email)
+      when 'clare@getbetter.com'
+        PREMIUM_WELCOME_TEMPLATE_CLARE
+      when 'lauren@getbetter.com'
+        PREMIUM_WELCOME_TEMPLATE_LAUREN
+      when 'meg@getbetter.com'
+        PREMIUM_WELCOME_TEMPLATE_MEG
+      when 'ninette@getbetter.com'
+        PREMIUM_WELCOME_TEMPLATE_NINETTE
+      when 'jenn@getbetter.com'
+        PREMIUM_WELCOME_TEMPLATE_JENN
+      when 'ann@getbetter.com'
+        PREMIUM_WELCOME_TEMPLATE_ANN
+      when 'jacqueline@getbetter.com'
+        PREMIUM_WELCOME_TEMPLATE_JACQUI
+      when 'crystal@getbetter.com'
+        PREMIUM_WELCOME_TEMPLATE_CRYSTAL
+      else
+        raise 'TEMPLATE NOT FOUND'
+      end
     end
+  end
 
-    mandrill_mail(
-      subject: subject,
-      from: user.pha.email,
-      from_name: user.pha.full_name,
-      to: { email: email },
-      template: template,
-      headers: {
-        'Reply-To' => "#{user.pha.full_name} <premium@getbetter.com>"
-      },
-      vars: {
-        FNAME: user.salutation,
-        MEMBERNEED: user.nux_answer.try(:phrase) || 'your health needs'
-      }
-    )
+  PHA_HEADER_ASSET_CLARE = 'meet_your_pha-clare.png'
+  PHA_HEADER_ASSET_LAUREN = 'meet_your_pha-lauren.png'
+  PHA_HEADER_ASSET_MEG = 'meet_your_pha-meg.png'
+  PHA_HEADER_ASSET_NINETTE = 'meet_your_pha-ninette.png'
+  PHA_HEADER_ASSET_JENN = 'meet_your_pha-jenn.png'
+  PHA_HEADER_ASSET_ANN = 'meet_your_pha-ann.png'
+  PHA_HEADER_ASSET_JACQUI = 'meet_your_pha-jacqui.png'
+  PHA_HEADER_ASSET_CRYSTAL = 'meet_your_pha-crystal.png'
+
+  def meet_your_pha_header_asset(pha)
+    case pha.try(:email)
+    when 'clare@getbetter.com'
+      PHA_HEADER_ASSET_CLARE
+    when 'lauren@getbetter.com'
+      PHA_HEADER_ASSET_LAUREN
+    when 'meg@getbetter.com'
+      PHA_HEADER_ASSET_MEG
+    when 'ninette@getbetter.com'
+      PHA_HEADER_ASSET_NINETTE
+    when 'jenn@getbetter.com'
+      PHA_HEADER_ASSET_JENN
+    when 'ann@getbetter.com'
+      PHA_HEADER_ASSET_ANN
+    when 'jacqueline@getbetter.com'
+      PHA_HEADER_ASSET_JACQUI
+    when 'crystal@getbetter.com'
+      PHA_HEADER_ASSET_CRYSTAL
+    else
+      raise 'HEADER ASSET NOT FOUND'
+    end
+  end
+
+  def meet_your_pha_header_url(pha)
+    'https://s3-us-west-2.amazonaws.com/btr-static/pha_email_header_images/' + meet_your_pha_header_asset(pha)
   end
 
   MAYO_WELCOME_TEMPLATE_CLARE = 'Mayo Pilot Meet Clare, Your PHA 8/10/14'
