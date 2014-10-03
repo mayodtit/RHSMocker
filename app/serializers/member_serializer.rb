@@ -83,6 +83,10 @@ class MemberSerializer < ActiveModel::Serializer
     object.pha_profile.try(:bio_image_url)
   end
 
+  def pha_pha_profile_bio_image_url
+    object.pha.try(:pha_profile).try(:bio_image_url)
+  end
+
   def pha_profile_url
     if object.pha_profile
       Rails.application.routes.url_helpers.pha_profile_url(object.pha_profile.id)

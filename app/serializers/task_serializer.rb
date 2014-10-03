@@ -33,6 +33,6 @@ class TaskSerializer < ActiveModel::Serializer
   end
 
   def triage_state
-    'needs response'
+    '-'
   end
 end
