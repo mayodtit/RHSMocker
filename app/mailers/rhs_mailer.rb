@@ -63,7 +63,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
       vars: {
         FNAME: user.salutation,
         MEMBERNEED: user.nux_answer.try(:phrase) || 'your health needs',
-        PHA_BIO: pha.pha_profile.bio,
+        PHA_BIO: pha.pha_profile.try(:bio),
         PHA_HEADER_URL: meet_your_pha_header_url(pha)
       }
     )
@@ -83,7 +83,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     if member.nux_answer.try(:name) == 'pregnancy'
       PREGNANCY_WELCOME_TEMPLATE
     else
-      case user.pha.try(:email)
+      case member.pha.try(:email)
       when 'clare@getbetter.com'
         PREMIUM_WELCOME_TEMPLATE_CLARE
       when 'lauren@getbetter.com'
