@@ -7,6 +7,7 @@ PHA_ATTRIBUTES = [
          "has a background in preventive health and psychology, and is " +
          "an amateur half-marathoner. She loves living in California " +
          "but is a Midwesterner at heart.",
+    first_person_bio: "I’m experienced in digital health and mental wellness. I’m also an amateur half-marathoner and love living in California, but I’m a Midwesterner at heart.",
     arrow_image: 'clare-arrow.png',
     avatar_image: 'clare-avatar.jpg',
     bio_image: 'clare-bio_image.png'
@@ -19,6 +20,7 @@ PHA_ATTRIBUTES = [
          "a clinical researcher. She's passionate about preventive care " +
          "and patient empowerment. In her free time, Lauren is an avid " +
          "cyclist who loves to hike and spend time outdoors.",
+    first_person_bio: "I’ve worked as an EMT, counselor, and clinical researcher. In my free time, I’m an avid cyclist who loves to spend time outdoors.",
     arrow_image: 'lauren-arrow.png',
     avatar_image: 'lauren-avatar.jpg',
     bio_image: 'lauren-bio_image.png'
@@ -31,6 +33,7 @@ PHA_ATTRIBUTES = [
          "nursing and previously worked in research at UCSF's Integrative " +
          "Health Center. In her free time she loves to be outside, " +
          "especially running on trails.",
+    first_person_bio: "I’m a nurse and clinical researcher who specializes in palliative care and caring for the aging. I’m from North Carolina and love to be outside, especially running on trails.",
     arrow_image: 'meg-arrow.png',
     avatar_image: 'meg-avatar.jpg',
     bio_image: 'meg-bio_image.png'
@@ -43,6 +46,7 @@ PHA_ATTRIBUTES = [
          "and a discharge needs coordinator. Most recently, she worked " +
          "at Coram as a Clinical Service Liaison at UCSF and discovered " +
          "a love for House of Cards.",
+    first_person_bio: "I’m a nurse and specialize in transitions in care. I recently discovered a love for House of Cards.",
     arrow_image: 'ninette-arrow.png',
     avatar_image: 'ninette-avatar.jpg',
     bio_image: 'ninette-bio_image.png'
@@ -55,6 +59,7 @@ PHA_ATTRIBUTES = [
          "Prevention (CDC) and Harvard Medical School & Harvard Pilgrim " +
          "Health Care. She is an avid cyclist, East Coast native and has " +
          "lived in four cities in the past five years.",
+    first_person_bio: "I’ve worked for the Centers for Disease Control and Prevention and Harvard Medical School. I’m an avid cyclist, East coast native, and make a mean green smoothie.",
     arrow_image: 'jenn-arrow.png',
     avatar_image: 'jenn-avatar.jpg',
     bio_image: 'jenn-bio_image.png'
@@ -68,6 +73,7 @@ PHA_ATTRIBUTES = [
          "a bilingual, culturally-competent diabetes prevention program. " +
          "She loves a good laugh, exploring hiking trails, and watching " +
          "quirky documentaries.",
+    first_person_bio: "I’m a bilingual health coach specializing in diabetes and managing medical conditions. I’m a caregiver for my parents, and love a good laugh and exploring hiking trails.",
     arrow_image: 'ann-arrow.png',
     avatar_image: 'ann-avatar.jpg',
     bio_image: 'ann-bio_image.png'
@@ -80,6 +86,7 @@ PHA_ATTRIBUTES = [
          "Education. Previously, she worked as an academic mental health " +
          "researcher and disease prevention counselor. In her free time, " +
          "she can be found concocting new recipes in her kitchen.",
+    first_person_bio: "I have a Master’s in Public Health with a focus in health education. In my free time, I enjoy cooking new recipes in my kitchen.",
     arrow_image: 'jacqui-arrow.png',
     avatar_image: 'jacqui-avatar.jpg',
     bio_image: 'jacqui-bio_image.png'
@@ -91,6 +98,7 @@ PHA_ATTRIBUTES = [
     bio: 'Crystal is a registered dietitian and certified medical ' +
          'assistant. She is originally from the Midwest and enjoys ' +
          'cooking, yoga, and being outdoors.',
+    first_person_bio: "I’m a registered dietitian and certified medical assistant. I’m originally from the Midwest and enjoy cooking, yoga, and being outdoors.",
     arrow_image: 'crystal-arrow.png',
     avatar_image: 'crystal-avatar.jpg',
     bio_image: 'crystal-bio_image.png'
@@ -118,7 +126,7 @@ PHA_ATTRIBUTES.each do |attributes|
   image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:avatar_image]))
   m.update_attributes(avatar: image)
   m.create_pha_profile(capacity_weight: 100) unless m.pha_profile
-  m.pha_profile.update_attributes(bio: attributes[:bio])
+  m.pha_profile.update_attributes(bio: attributes[:bio], first_person_bio: attributes[:first_person_bio])
   image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:arrow_image]))
   m.pha_profile.update_attributes(bio_image: image)
   image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:bio_image]))

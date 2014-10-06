@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140930153918) do
+ActiveRecord::Schema.define(:version => 20141006174659) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -487,6 +487,7 @@ ActiveRecord::Schema.define(:version => 20140930153918) do
     t.integer  "capacity_weight"
     t.string   "full_page_bio_image"
     t.integer  "mayo_pilot_capacity_weight"
+    t.text     "first_person_bio"
   end
 
   create_table "phone_call_summaries", :force => true do |t|
