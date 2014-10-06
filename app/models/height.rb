@@ -1,7 +1,7 @@
 class Height < ActiveRecord::Base
   belongs_to :user, inverse_of: :heights
 
-  attr_accessible :user, :user_id, :amount, :taken_at
+  attr_accessible :user, :user_id, :amount, :taken_at, :healthkit_uuid
 
   validates :user, :amount, :taken_at, presence: true
 
