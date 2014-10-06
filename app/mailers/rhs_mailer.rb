@@ -63,7 +63,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
       vars: {
         FNAME: user.salutation,
         MEMBERNEED: user.nux_answer.try(:phrase) || 'your health needs',
-        PHA_BIO: pha.pha_profile.try(:bio),
+        PHA_BIO: pha.pha_profile.try(:first_person_bio),
         PHA_HEADER_URL: meet_your_pha_header_url(pha)
       }
     )

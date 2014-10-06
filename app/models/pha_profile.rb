@@ -4,7 +4,7 @@ class PhaProfile < ActiveRecord::Base
   mount_uploader :full_page_bio_image, PhaProfileFullPageBioImageUploader
 
   attr_accessible :user, :user_id, :bio_image, :full_page_bio_image, :bio, :weekly_capacity,
-                  :capacity_weight, :mayo_pilot_capacity_weight
+                  :capacity_weight, :mayo_pilot_capacity_weight, :first_person_bio
 
   validates :user, presence: true
   validates :capacity_weight, :mayo_pilot_capacity_weight, numericality: {only_integer: true,

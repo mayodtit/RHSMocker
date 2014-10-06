@@ -105,7 +105,7 @@ describe Consult do
 
               it 'creates a message from a template' do
                 MessageTemplate.stub(:find_by_name).with("New Premium Member Off Hours: #{nux_answer.name}") { message_template }
-                message_template.should_receive(:create_message).with(pha, instance_of(Consult), true, false, true).and_call_original
+                message_template.should_receive(:create_message).with(pha, instance_of(Consult), true, true, true).and_call_original
                 consult = create :consult, initiator: member
                 consult.reload
                 consult.messages.count.should == 1
@@ -159,7 +159,7 @@ describe Consult do
 
               it 'creates a message from a template' do
                 MessageTemplate.stub(:find_by_name).with("New Premium Member Off Hours: something else") { message_template }
-                message_template.should_receive(:create_message).with(pha, instance_of(Consult), true, false, true).and_call_original
+                message_template.should_receive(:create_message).with(pha, instance_of(Consult), true, true, true).and_call_original
                 consult = create :consult, initiator: member
                 consult.reload
                 consult.messages.count.should == 1
