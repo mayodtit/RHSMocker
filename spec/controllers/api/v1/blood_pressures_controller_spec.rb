@@ -10,17 +10,6 @@ describe Api::V1::BloodPressuresController do
     controller.stub(:current_ability => ability)
   end
 
-  describe 'GET index' do
-    def do_request
-      get :index, auth_token: session.auth_token
-    end
-
-    it_behaves_like 'action requiring authentication and authorization'
-    context 'authenticated and authorized', :user => :authenticate_and_authorize! do
-      it_behaves_like 'index action', new.blood_pressure
-    end
-  end
-
   describe 'POST create' do
     def do_request
       post :create, blood_pressure: blood_pressure.as_json
@@ -46,7 +35,7 @@ describe Api::V1::BloodPressuresController do
         it 'returns the blood pressure' do
           do_request
           json = JSON.parse(response.body)
-          json['blood_pressure'].to_json.should == blood_pressure.as_json.to_json
+          json['blood_pressure'].to_json.should == blood_pressure.serializer.as_json.to_json
         end
       end
 
