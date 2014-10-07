@@ -4,13 +4,14 @@ class ScheduledCommunication < ActiveRecord::Base
   belongs_to :recipient, class_name: 'Member',
                          inverse_of: :inbound_scheduled_communications
   belongs_to :reference, polymorphic: true
+  belongs_to :delayed_job, class_name: 'Delayed::Backend::ActiveRecord::Job'
   symbolize :reference_event, in: %i(free_trial_ends_at), allow_nil: true
   serialize :variables, Hash
 
   attr_accessible :sender, :sender_id, :recipient, :recipient_id,
                   :reference, :reference_id, :reference_type, :reference_event,
                   :state_event, :publish_at, :delivered_at, :variables,
-                  :relative_days
+                  :relative_days, :delayed_job, :delayed_job_id
 
   validates :recipient, presence: true
   validates :sender, presence: true, if: ->(s){s.sender_id}
