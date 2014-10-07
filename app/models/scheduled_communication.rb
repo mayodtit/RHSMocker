@@ -22,6 +22,8 @@ class ScheduledCommunication < ActiveRecord::Base
   validates :relative_days, presence: true, if: ->(s){s.reference}
   validates :relative_days, numericality: {only_integer: true}, allow_nil: true
 
+  after_save :create_delivery_job, if: ->(s){s.publish_at_changed?}
+
   def self.scheduled
     where(state: :scheduled)
   end
@@ -50,6 +52,10 @@ class ScheduledCommunication < ActiveRecord::Base
     scheduled.non_system.each do |c|
       c.hold!
     end
+  end
+
+  def publish_at_past_time?(time=Time.now)
+    publish_at.try(:<, time) || false
   end
 
   def update_publish_at_from_calculation!
@@ -113,5 +119,10 @@ class ScheduledCommunication < ActiveRecord::Base
 
   def reference_time
     reference.public_send(reference_event)
+  end
+
+  def create_delivery_job
+    delayed_job.destroy if delayed_job
+    self.delayed_job = DeliverScheduledCommunicationJob.create(id, publish_at)
   end
 end
