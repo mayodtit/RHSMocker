@@ -18,6 +18,7 @@ describe Api::V1::MembersController do
     before do
       Member.stub_chain(:page, :per).and_return(results)
       results.stub(total_count: 1)
+      results.stub(:includes).and_return(results)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -28,7 +29,7 @@ describe Api::V1::MembersController do
       it 'returns an array of members as users' do
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:users].to_json.should == [user].serializer.as_json.to_json
+        body[:users].to_json.should == [user].serializer(list: true).as_json.to_json
       end
 
       context 'with a query param' do
@@ -36,7 +37,7 @@ describe Api::V1::MembersController do
           Member.should_receive(:name_search).once.and_return(Member)
           do_request(q: user.first_name)
           body = JSON.parse(response.body, symbolize_names: true)
-          body[:users].to_json.should == [user].serializer.as_json.to_json
+          body[:users].to_json.should == [user].serializer(list: true).as_json.to_json
         end
       end
 
@@ -47,7 +48,7 @@ describe Api::V1::MembersController do
           Member.should_receive(:where).with('pha_id' => '1').once.and_return(Member)
           do_request(q: user.first_name, pha_id: 1)
           body = JSON.parse(response.body, symbolize_names: true)
-          body[:users].to_json.should == [user].serializer.as_json.to_json
+          body[:users].to_json.should == [user].serializer(list: true).as_json.to_json
         end
       end
     end
