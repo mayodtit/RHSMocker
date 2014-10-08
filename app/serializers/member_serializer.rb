@@ -29,6 +29,15 @@ class MemberSerializer < ActiveModel::Serializer
         email: object.email,
         full_name: object.full_name
       }
+    elsif options[:list]
+      {
+        id: object.id,
+        first_name: object.first_name,
+        last_name: object.last_name,
+        email: object.email,
+        pha_full_name: object.pha && object.pha.full_name,
+        last_contact_at: object.last_contact_at
+      }
     else
       super.tap do |attributes|
         if options[:include_roles]
