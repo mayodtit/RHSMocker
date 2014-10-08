@@ -9,7 +9,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
   before_filter :convert_parameters!, only: [:create, :update, :update_current]
 
   def index
-    render_success(users: @members.serializer,
+    render_success(users: @members.includes(:pha).serializer(list: true),
                    page: page,
                    per: per,
                    total_count: @members.total_count)
@@ -76,7 +76,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
       search_params.except!(:is_premium)
     end
 
-    @members = Member.signed_up.where(search_params).order('last_contact_at DESC')
+    @members = Member.signed_up.where(search_params).order('users.last_contact_at DESC')
     @members = @members.name_search(params[:q]) if params[:q]
     @members = @members.page(page).per(per)
   end

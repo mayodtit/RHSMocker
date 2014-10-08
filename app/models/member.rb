@@ -146,7 +146,7 @@ class Member < User
 
   def self.name_search(string)
     wildcard = "%#{string}%"
-    where("first_name LIKE ? OR last_name LIKE ? OR email LIKE ?", wildcard, wildcard, wildcard)
+    where("users.first_name LIKE ? OR users.last_name LIKE ? OR users.email LIKE ?", wildcard, wildcard, wildcard)
   end
 
   def self.create_from_user!(user, actor)
