@@ -19,9 +19,9 @@ class MessageTaskSerializer < TaskSerializer
       when MessageTask::INACTIVE_CONVERSATION_PRIORITY
         'inactive'
       when MessageTask::ACTIVE_CONVERSATION_PRIORITY
-        'waiting'
+        'active'
       else
-        'needs response'
+        '-'
     end
   end
 end
