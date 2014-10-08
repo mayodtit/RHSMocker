@@ -4,8 +4,8 @@ class BloodPressure < ActiveRecord::Base
   belongs_to :user
   belongs_to :collection_type
 
-  attr_accessible :user, :collection_type
-  attr_accessible :diastolic, :systolic, :pulse, :user_id, :collection_type_id, :taken_at
+  attr_accessible :user, :collection_type, :diastolic, :systolic, :pulse,
+                  :user_id, :collection_type_id, :taken_at, :healthkit_uuid
 
   validates :user, :collection_type, :diastolic, :systolic, :taken_at, presence: true
 
@@ -13,14 +13,6 @@ class BloodPressure < ActiveRecord::Base
 
   def self.most_recent
     order('taken_at DESC').first
-  end
-
-  def as_json options={}
-    options.merge!(:only => [:id, :diastolic, :systolic, :pulse, :collection_type_id, :taken_at],
-                   :methods => :mean_arterial_pressure) do |k, v1, v2|
-      v1.is_a?(Array) ? v1 + v2 : [v1] + v2
-    end
-    super(options)
   end
 
   def mean_arterial_pressure

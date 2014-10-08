@@ -53,11 +53,15 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def height
-    params.require(:height).permit(:amount, :taken_at)
+    params.require(:height).permit(:amount, :taken_at, :healthkit_uuid)
   end
 
   def weight
-    params.require(:weight).permit(:amount, :bmi, :taken_at)
+    params.require(:weight).permit(:amount, :bmi, :taken_at, :healthkit_uuid)
+  end
+
+  def blood_pressure
+    params.require(:blood_pressure).permit(:user_id, :collection_type_id, :diastolic, :systolic, :pulse, :taken_at, :healthkit_uuid)
   end
 
   def pha_profile

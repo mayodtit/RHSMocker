@@ -1,3 +1,7 @@
+
+Condition.find_or_create_by_name(name: "Abdominal pain",
+                                 snomed_name: "Abdominal pain (finding)",
+                                 snomed_code: "750827015")
 Condition.find_or_create_by_name(name: "Attention deficit hyperactivity disorder",
                                  snomed_name: "Attention deficit hyperactivity disorder (disorder)",
                                  snomed_code: "2150336014")
@@ -61,6 +65,9 @@ Condition.find_or_create_by_name(name: "Constipation",
 Condition.find_or_create_by_name(name: "Chronic constipation",
                                  snomed_name: "Chronic constipation (disorder)",
                                  snomed_code: "2147881013")
+Condition.find_or_create_by_name(name: "Chronic diarrhea",
+                                 snomed_name: "Chronic diarrhea (disorder)",
+                                 snomed_code: "624618013")
 Condition.find_or_create_by_name(name: "Chronic back pain",
                                  snomed_name: "Chronic back pain (finding)",
                                  snomed_code: "2461407018")
@@ -145,6 +152,9 @@ Condition.find_or_create_by_name(name: "Diabetes mellitus mellitus type 2",
 Condition.find_or_create_by_name(name: "Dysthymia",
                                  snomed_name: "Dysthymia (disorder)",
                                  snomed_code: "819632011")
+Condition.find_or_create_by_name(name: "Dyslipidemia",
+                                 snomed_name: "Dyslipidemia (disorder)",
+                                 snomed_code: "1196288015")
 Condition.find_or_create_by_name(name: "Ehlers-Danlos syndrome, type 3",
                                  snomed_name: "Ehlers-Danlos syndrome, type 3 (disorder)",
                                  snomed_code: "761685016")
@@ -265,6 +275,15 @@ Condition.find_or_create_by_name(name: "Overweight",
 Condition.find_or_create_by_name(name: "Lewy body dementia",
                                  snomed_name: "Senile dementia of the Lewy body type",
                                  snomed_code: "312991009")
+Condition.find_or_create_by_name(name: "Lupus",
+                                 snomed_name: "Lupus erythematosus (disorder)",
+                                 snomed_code: "585744015")
+Condition.find_or_create_by_name(name: "Lupus erythematosus",
+                                 snomed_name: "Lupus erythematosus (disorder)",
+                                 snomed_code: "585744015")
+Condition.find_or_create_by_name(name: "Lupus vulgaris",
+                                 snomed_name: "Lupus vulgaris  (disorder)",
+                                 snomed_code: "570390016")
 Condition.find_or_create_by_name(name: "Frontotemporal dementia",
                                  snomed_name: "Frontotemporal dementia",
                                  snomed_code: "230270009")
@@ -295,6 +314,15 @@ Condition.find_or_create_by_name(name: "Nervous breakdown",
 Condition.find_or_create_by_name(name: "Manic-depressive illness",
                                  snomed_name: "Bipolar disorder (disorder)",
                                  snomed_code: "739182010")
+Condition.find_or_create_by_name(name: "Osteoporosis",
+                                 snomed_name: "Osteoporosis (disorder)",
+                                 snomed_code: "804298014")
+Condition.find_or_create_by_name(name: "Postmenopausal osteoporosis",
+                                 snomed_name: "Postmenopausal osteoporosis (disorder)",
+                                 snomed_code: "541158019")
+Condition.find_or_create_by_name(name: "Menopausal osteoporosis",
+                                 snomed_name: "Menopausal osteoporosis (disorder)",
+                                 snomed_code: "763643011")
 Condition.find_or_create_by_name(name: "Panic Attacks",
                                  snomed_name: "Panic disorder (disorder)",
                                  snomed_code: "1196930010")

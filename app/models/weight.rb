@@ -1,7 +1,7 @@
 class Weight < ActiveRecord::Base
   belongs_to :user
 
-  attr_accessible :user, :user_id, :amount, :bmi, :taken_at
+  attr_accessible :user, :user_id, :amount, :bmi, :taken_at, :healthkit_uuid
 
   validates :user, :amount, :taken_at, presence: true
 
