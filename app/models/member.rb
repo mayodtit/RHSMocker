@@ -347,7 +347,7 @@ class Member < User
     end
 
     event :grant_free_trial do
-      transition :free => :trial
+      transition %i(trial free) => :trial
     end
 
     event :chamathify do

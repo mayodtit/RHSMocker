@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140930153918) do
+ActiveRecord::Schema.define(:version => 20141006193359) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -93,6 +93,7 @@ ActiveRecord::Schema.define(:version => 20140930153918) do
     t.datetime "created_at",         :null => false
     t.datetime "updated_at",         :null => false
     t.datetime "taken_at"
+    t.string   "healthkit_uuid"
   end
 
   add_index "blood_pressures", ["collection_type_id"], :name => "index_blood_pressures_on_collection_type_id"
@@ -313,10 +314,11 @@ ActiveRecord::Schema.define(:version => 20140930153918) do
 
   create_table "heights", :force => true do |t|
     t.integer  "user_id"
-    t.decimal  "amount",     :precision => 9, :scale => 5
+    t.decimal  "amount",         :precision => 9, :scale => 5
     t.datetime "taken_at"
-    t.datetime "created_at",                               :null => false
-    t.datetime "updated_at",                               :null => false
+    t.datetime "created_at",                                   :null => false
+    t.datetime "updated_at",                                   :null => false
+    t.string   "healthkit_uuid"
   end
 
   create_table "insurance_policies", :force => true do |t|
@@ -487,6 +489,7 @@ ActiveRecord::Schema.define(:version => 20140930153918) do
     t.integer  "capacity_weight"
     t.string   "full_page_bio_image"
     t.integer  "mayo_pilot_capacity_weight"
+    t.text     "first_person_bio"
   end
 
   create_table "phone_call_summaries", :force => true do |t|
@@ -1068,11 +1071,12 @@ ActiveRecord::Schema.define(:version => 20140930153918) do
 
   create_table "weights", :force => true do |t|
     t.integer  "user_id"
-    t.decimal  "amount",     :precision => 9, :scale => 5, :default => 0.0
-    t.decimal  "bmi",        :precision => 8, :scale => 5
-    t.datetime "created_at",                                                :null => false
-    t.datetime "updated_at",                                                :null => false
+    t.decimal  "amount",         :precision => 9, :scale => 5, :default => 0.0
+    t.decimal  "bmi",            :precision => 8, :scale => 5
+    t.datetime "created_at",                                                    :null => false
+    t.datetime "updated_at",                                                    :null => false
     t.datetime "taken_at"
+    t.string   "healthkit_uuid"
   end
 
 end
