@@ -67,7 +67,7 @@ class Consult < ActiveRecord::Base
     message = Message.find(message_id)
     consult = message.consult
 
-    consult.deactivate! if consult.active? && consult.messages.where(automated: false, system: false, off_hours: false).where('created_at > ?', message.created_at).count < 1
+    consult.deactivate! if consult.active? && consult.messages.where(automated: false, system: false, note: false, off_hours: false).where('created_at > ?', message.created_at).count < 1
   end
 
   private
@@ -79,6 +79,8 @@ class Consult < ActiveRecord::Base
   end
 
   state_machine :conversation_state, initial: :inactive do
+    store_audit_trail
+
     event :activate do
       transition [:inactive, :needs_response] => :active
     end
@@ -92,20 +94,23 @@ class Consult < ActiveRecord::Base
     end
 
     after_transition any => :inactive do |consult|
+      consult.messages.reload
       MessageTask.where(consult_id: consult.id).open.find_each do |m|
-        m.update_attributes! priority: MessageTask::INACTIVE_CONVERSATION_PRIORITY unless m.message_id == consult.messages.last.try(:id)
+        m.update_attributes! priority: MessageTask::INACTIVE_CONVERSATION_PRIORITY if m.message_id != consult.messages.last.try(:id)
       end
     end
 
     after_transition any => :active do |consult|
+      consult.messages.reload
       MessageTask.where(consult_id: consult.id).open.find_each do |m|
-        m.update_attributes! priority: MessageTask::ACTIVE_CONVERSATION_PRIORITY unless m.message_id == consult.messages.last.try(:id)
+        m.update_attributes! priority: MessageTask::ACTIVE_CONVERSATION_PRIORITY if m.message_id != consult.messages.last.try(:id)
       end
     end
 
     after_transition any => :needs_response do |consult|
+      consult.messages.reload
       MessageTask.where(consult_id: consult.id).open.find_each do |m|
-        m.update_attributes! priority: MessageTask::NEEDS_RESPONSE_PRIORITY unless m.message_id == consult.messages.last.try(:id)
+        m.update_attributes! priority: MessageTask::NEEDS_RESPONSE_PRIORITY if m.message_id != consult.messages.last.try(:id)
       end
     end
   end
