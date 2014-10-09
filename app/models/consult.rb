@@ -79,6 +79,8 @@ class Consult < ActiveRecord::Base
   end
 
   state_machine :conversation_state, initial: :inactive do
+    store_audit_trail
+
     event :activate do
       transition [:inactive, :needs_response] => :active
     end
