@@ -158,12 +158,12 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: medical que
 NuxAnswer.upsert_attributes({name: 'weightloss'}, text: 'Losing some weight', phrase: 'lose some weight', active: true, ordinal: 8)
 
 MESSAGE = <<eof
-Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *|pha_next_available|* to help you. To get started, message your PHA about what motivates you to lose weight (e.g. a doctor’s recommendation, feeling healthier, looking better).
+Welcome to Better, *|member_first_name|*! *|pha_first_name|* will be available *|pha_next_available|* to help you. To get started, message your PHA about what motivates you to lose weight (e.g. a doctor’s recommendation, being healthier and more confident, having a fitness goal).
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: weightloss'}, text: MESSAGE.strip())
 
 MESSAGE = <<eof
-Welcome to Better, *|member_first_name|*. Congratulations on taking your first step to a healthier you! To get started, tell me more about what motivates you to lose weight (e.g. a doctor’s recommendation, feeling healthier, looking better).
+Welcome to Better, *|member_first_name|*. Congratulations on taking your first step to a healthier you! To get started, tell me more about what motivates you to lose weight (e.g. a doctor’s recommendation, being healthier and more confident, having a fitness goal).
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: weightloss'}, text: MESSAGE.strip())
 
