@@ -195,7 +195,7 @@ Our Approach
 We don’t believe in fad diets or quick fixes. We believe in long-term, sustainable changes in your lifestyle. We see small goals as stepping stones along the path to a healthy lifestyle. You can focus on them in the short term as we maintain the full picture of your journey.
 </p>
 <p>
-Whether you know exactly what you want to accomplish, or you have no idea where to start, your PHA will make it simple to get going, stay motivated, and keep moving forward. Your PHA will use the style fits you and your goals, while holding you accountable and helping you make the right decisions around four key areas:
+Whether you know exactly what you want to accomplish, or you have no idea where to start, your Personal Health Assistant (PHA) will make it simple to get going, stay motivated, and keep moving forward. Your PHA will use the style fits you and your goals, while holding you accountable and helping you make the right decisions around four key areas:
 </p>
 <ul class="image-list">
 <li>
@@ -224,10 +224,10 @@ Stress - Stress management techniques pinpoint your stressors and allows you to 
 </li>
 </ul>
 <p>
-There isn’t one solution for everyone. Our holistic, flexible approach will change as you do by allowing you adjust your goals as life happens. We’ll make sure you have all the support you need to lose weight and work toward a healthier lifestyle while celebrating every success along the way.
+There isn’t one solution for everyone. Our holistic, flexible approach will change as you do by allowing you to adjust your goals as life happens. We’ll make sure you have all the support you need to lose weight and work toward a healthier lifestyle while celebrating every success along the way.
 </p>
 <p>
-Make sure to call your PHA. We know our members get the best results if they have a quick call with their PHAs to discuss their motivation and goals.
+Make sure to have a call with your PHA. We know our members get the best results if they start with a quick call to discuss their motivation and goals with their PHAs.
 </p>
 eof
 CustomContent.upsert_attributes({document_id: 'RHS-WEIGHTLOSS'}, {title: 'Better Life Balance',

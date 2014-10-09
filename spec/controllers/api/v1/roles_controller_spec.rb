@@ -72,7 +72,7 @@ describe Api::V1::RolesController do
 
           do_request
           body = JSON.parse(response.body, symbolize_names: true)
-          body[:members].to_json.should == members.serializer.as_json.to_json
+          body[:members].to_json.should == members.serializer(shallow: true).as_json.to_json
         end
       end
     end
