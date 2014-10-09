@@ -92,20 +92,23 @@ class Consult < ActiveRecord::Base
     end
 
     after_transition any => :inactive do |consult|
+      consult.messages.reload
       MessageTask.where(consult_id: consult.id).open.find_each do |m|
-        m.update_attributes! priority: MessageTask::INACTIVE_CONVERSATION_PRIORITY unless m.message_id == consult.messages.last.try(:id)
+        m.update_attributes! priority: MessageTask::INACTIVE_CONVERSATION_PRIORITY if m.message_id != consult.messages.last.try(:id)
       end
     end
 
     after_transition any => :active do |consult|
+      consult.messages.reload
       MessageTask.where(consult_id: consult.id).open.find_each do |m|
-        m.update_attributes! priority: MessageTask::ACTIVE_CONVERSATION_PRIORITY unless m.message_id == consult.messages.last.try(:id)
+        m.update_attributes! priority: MessageTask::ACTIVE_CONVERSATION_PRIORITY if m.message_id != consult.messages.last.try(:id)
       end
     end
 
     after_transition any => :needs_response do |consult|
+      consult.messages.reload
       MessageTask.where(consult_id: consult.id).open.find_each do |m|
-        m.update_attributes! priority: MessageTask::NEEDS_RESPONSE_PRIORITY unless m.message_id == consult.messages.last.try(:id)
+        m.update_attributes! priority: MessageTask::NEEDS_RESPONSE_PRIORITY if m.message_id != consult.messages.last.try(:id)
       end
     end
   end
