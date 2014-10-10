@@ -6,7 +6,7 @@ class PhoneCallSerializer < ActiveModel::Serializer
              :destination_twilio_sid, :origin_twilio_sid,
              :transferred_to_phone_call_id, :cp_connected?,
              :member_connected?, :transferred?, :outbound?, :transferred_to_phone_call,
-             :transferred_from_phone_call, :claimer, :user, :message_id
+             :transferred_from_phone_call, :claimer, :user
 
   def attributes
     if options[:shallow]
@@ -19,10 +19,6 @@ class PhoneCallSerializer < ActiveModel::Serializer
     else
       super
     end
-  end
-
-  def message_id
-    object.message && object.message.id
   end
 
   def user
