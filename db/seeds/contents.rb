@@ -226,13 +226,16 @@ Stress - Stress management techniques pinpoint your stressors and allows you to 
 <p>
 There isn’t one solution for everyone. Our holistic, flexible approach will change as you do by allowing you to adjust your goals as life happens. We’ll make sure you have all the support you need to lose weight and work toward a healthier lifestyle while celebrating every success along the way.
 </p>
-<p>
+<p class="talk-space">
 Make sure to have a call with your PHA. We know our members get the best results if they start with a quick call to discuss their motivation and goals with their PHAs.
 </p>
+<div class="schedule-call schedule-button">
+Schedule a call with your Personal Health Assistant
+</div>
 eof
 CustomContent.upsert_attributes({document_id: 'RHS-WEIGHTLOSS'}, {title: 'Better Life Balance',
                                                                   abstract: 'Be the healthiest you.',
-                                                                  show_call_option: true,
+                                                                  show_call_option: false,
                                                                   show_checker_option: false,
                                                                   show_mayo_copyright: false,
                                                                   show_mayo_logo: false,

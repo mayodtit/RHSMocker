@@ -11,6 +11,9 @@ $ ->
   $(".open-consult-with-message").click ->
     NativeBridge.call('openConsult', {message: $(@).data("message")})
 
+  $(".schedule-call").click ->
+    NativeBridge.call('scheduleCall')
+
   $(".consult-link").click ->
     if not $(@).data("consult-id")
       return
