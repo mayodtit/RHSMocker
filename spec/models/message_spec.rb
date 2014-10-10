@@ -217,84 +217,102 @@ describe Message do
         context 'message is not automated' do
           before do
             message.stub(:automated?) { false }
-            Timecop.freeze
           end
 
-          after do
-            Timecop.return
-          end
-
-          context 'consult is active' do
+          context 'message is note' do
             before do
-              consult.stub(:active?) { true }
+              message.stub(:note?) { true }
             end
 
-            it 'doesn\'t activate the consult' do
+            it 'does nothing' do
               consult.should_not_receive :activate!
-              message.activate_consult
-            end
-
-            it 'creates a delayed job to deactivate the consult if no messages are created' do
-              Consult.should_receive(:delay).with(run_at: Metadata.minutes_to_inactive_conversation.from_now) do
-                o = Object.new
-                o.should_receive(:deactivate_if_last_message).with(message.id)
-                o
-              end
+              Consult.should_not_receive :delay
               message.activate_consult
             end
           end
 
-          context 'message is not from the user' do
+          context 'message is not note' do
             before do
-              message.stub(:user) { build_stubbed :pha }
-              consult.stub(:activate!)
+              message.stub(:note?) { false }
+              Timecop.freeze
             end
 
-            context 'consult is not active' do
+            after do
+              Timecop.return
+            end
+
+            context 'consult is active' do
               before do
-                consult.stub(:active?) { false }
+                consult.stub(:active?) { true }
               end
 
-              it 'activates the consult' do
-                consult.should_receive :activate!
+              it 'doesn\'t activate the consult' do
+                consult.should_not_receive :activate!
+                message.activate_consult
+              end
+
+              it 'creates a delayed job to deactivate the consult if no messages are created' do
+                Consult.should_receive(:delay).with(run_at: Metadata.minutes_to_inactive_conversation.from_now) do
+                  o = Object.new
+                  o.should_receive(:deactivate_if_last_message).with(message.id)
+                  o
+                end
                 message.activate_consult
               end
             end
 
-            it 'creates a delayed job to deactivate the consult if no messages are created' do
-              Consult.should_receive(:delay).with(run_at: Metadata.minutes_to_inactive_conversation.from_now) do
-                o = Object.new
-                o.should_receive(:deactivate_if_last_message).with(message.id)
-                o
-              end
-              message.activate_consult
-            end
-          end
-
-          context 'message is from the user' do
-            before do
-              message.stub(:user) { consult.initiator }
-            end
-
-            context 'consult needs response' do
+            context 'message is not from the user' do
               before do
-                consult.stub(:needs_response?) { true }
+                message.stub(:user) { build_stubbed :pha }
+                consult.stub(:activate!)
               end
 
-              it 'doesn\'t flag the consult' do
-                consult.should_not_receive :flag!
+              context 'consult is not active' do
+                before do
+                  consult.stub(:active?) { false }
+                end
+
+                it 'activates the consult' do
+                  consult.should_receive :activate!
+                  message.activate_consult
+                end
+              end
+
+              it 'creates a delayed job to deactivate the consult if no messages are created' do
+                Consult.should_receive(:delay).with(run_at: Metadata.minutes_to_inactive_conversation.from_now) do
+                  o = Object.new
+                  o.should_receive(:deactivate_if_last_message).with(message.id)
+                  o
+                end
                 message.activate_consult
               end
             end
 
-            context 'consult doesn\'t need response' do
+            context 'message is from the user' do
               before do
-                consult.stub(:needs_response?) { false }
+                message.stub(:user) { consult.initiator }
               end
 
-              it 'flags the consult' do
-                consult.should_receive :flag!
-                message.activate_consult
+              context 'consult needs response' do
+                before do
+                  consult.stub(:needs_response?) { true }
+                end
+
+                it 'doesn\'t flag the consult' do
+                  consult.should_not_receive :flag!
+                  message.activate_consult
+                end
+              end
+
+              context 'consult doesn\'t need response' do
+                before do
+                  consult.stub(:needs_response?) { false }
+                end
+
+                it 'flags the consult' do
+                  consult.should_receive :flag!
+                  message.activate_consult
+                end
               end
             end
           end

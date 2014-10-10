@@ -304,6 +304,18 @@ describe Consult do
               consult.reload.should be_inactive
             end
           end
+
+          context 'messages are notes' do
+            before do
+              create :message, note: true, created_at: 5.minutes.from_now
+              create :message, note: true, created_at: 10.minutes.from_now
+            end
+
+            it 'deactivates the consult' do
+              Consult.deactivate_if_last_message message.id
+              consult.reload.should be_inactive
+            end
+          end
         end
       end
     end
