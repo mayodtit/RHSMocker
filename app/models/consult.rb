@@ -10,6 +10,7 @@ class Consult < ActiveRecord::Base
   has_many :cards, as: :resource, dependent: :destroy
   attr_accessor :skip_tasks
   has_many :conversation_transitions, class_name: 'ConsultConversationStateTransition'
+  has_many :message_tasks
 
   attr_accessible :initiator, :initiator_id, :subject, :subject_id, :symptom,
                   :symptom_id, :state, :title, :description, :image,
