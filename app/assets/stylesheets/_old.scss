@@ -131,13 +131,18 @@ div.content_abstract{
     }
 }
 
-.talk {
-    width: 235px;
+.talk-space {
+    padding-bottom: 74px;
+}
+
+.talk, .schedule-button {
+    width: calc(100% - 75px);
     height: 42px;
-    padding: 13px 10px 13px 75px;
+    padding: 13px 0px 13px 75px;
     position: fixed;
     bottom: 0px;
-    font-family:"Roboto Light";
+    left: 0px;
+    font-family:"Roboto";
     font-size: 16px;
     color: #ffffff;
     background-size: 40px auto;
