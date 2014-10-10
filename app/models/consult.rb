@@ -9,6 +9,7 @@ class Consult < ActiveRecord::Base
   has_many :scheduled_phone_calls, through: :messages
   has_many :cards, as: :resource, dependent: :destroy
   attr_accessor :skip_tasks
+  has_many :conversation_transitions, class_name: 'ConsultConversationStateTransition'
 
   attr_accessible :initiator, :initiator_id, :subject, :subject_id, :symptom,
                   :symptom_id, :state, :title, :description, :image,
@@ -29,14 +30,10 @@ class Consult < ActiveRecord::Base
 
   before_validation :strip_attributes
   after_create :send_initial_message
-  after_save :update_tasks, unless: :skip_tasks?
+  after_commit :update_message_tasks, on: :update
 
   accepts_nested_attributes_for :messages
   mount_uploader :image, ConsultImageUploader
-
-  def update_tasks
-    return if id_changed?
-  end
 
   def send_initial_message
     return if messages.any?
@@ -93,29 +90,20 @@ class Consult < ActiveRecord::Base
       transition [:active, :inactive] => :needs_response
     end
 
-    after_transition any => :inactive do |consult|
-      consult.messages.reload
-      MessageTask.where(consult_id: consult.id).open.find_each do |m|
-        m.update_attributes! priority: MessageTask::INACTIVE_CONVERSATION_PRIORITY if m.message_id != consult.messages.last.try(:id)
-      end
-    end
-
-    after_transition any => :active do |consult|
-      consult.messages.reload
-      MessageTask.where(consult_id: consult.id).open.find_each do |m|
-        m.update_attributes! priority: MessageTask::ACTIVE_CONVERSATION_PRIORITY if m.message_id != consult.messages.last.try(:id)
-      end
-    end
-
-    after_transition any => :needs_response do |consult|
-      consult.messages.reload
-      MessageTask.where(consult_id: consult.id).open.find_each do |m|
-        m.update_attributes! priority: MessageTask::NEEDS_RESPONSE_PRIORITY if m.message_id != consult.messages.last.try(:id)
-      end
-    end
   end
 
-  def skip_tasks?
-    @skip_tasks || false
+  def update_message_tasks
+    if previous_changes.include?('conversation_state')
+      priority = case conversation_state.to_s
+        when 'inactive' then MessageTask::INACTIVE_CONVERSATION_PRIORITY
+        when 'active' then MessageTask::ACTIVE_CONVERSATION_PRIORITY
+        when 'needs_response' then MessageTask::NEEDS_RESPONSE_PRIORITY
+      end
+
+      self.messages.reload
+      MessageTask.where(consult_id: id).open.find_each do |m|
+        m.update_attributes! priority: priority if m.message_id != self.messages.last.try(:id)
+      end
+    end
   end
 end
