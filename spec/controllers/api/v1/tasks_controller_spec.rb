@@ -260,7 +260,8 @@ describe Api::V1::TasksController do
             it 'sets the actor to the current user' do
               task.should_receive(:update_attributes).with(
                 'state_event' => 'abandon',
-                'abandoner' => user
+                'abandoner' => user,
+                'actor_id' => user.id
               )
 
               task.stub(:owner_id) { user.id }

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141009231934) do
+ActiveRecord::Schema.define(:version => 20141009233914) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -792,6 +792,18 @@ ActiveRecord::Schema.define(:version => 20141009231934) do
     t.string   "description"
     t.string   "gender"
   end
+
+  create_table "task_changes", :force => true do |t|
+    t.integer  "task_id",    :null => false
+    t.string   "event"
+    t.string   "from"
+    t.string   "to"
+    t.text     "data"
+    t.integer  "actor_id",   :null => false
+    t.datetime "created_at", :null => false
+  end
+
+  add_index "task_changes", ["task_id"], :name => "index_task_changes_on_task_id"
 
   create_table "task_templates", :force => true do |t|
     t.string   "name",                :null => false

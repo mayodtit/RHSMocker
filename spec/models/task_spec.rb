@@ -781,4 +781,93 @@ describe Task do
       end
     end
   end
+
+  describe '#actor_id' do
+    let(:task) { build_stubbed :task }
+
+    context '@actor_id is set' do
+      before do
+        task.actor_id = 1
+      end
+
+      it 'returns @actor_id' do
+        task.actor_id.should == 1
+      end
+    end
+
+    context '@actor_id is not set' do
+      before do
+        task.actor_id = nil
+      end
+
+      it 'returns @actor_id' do
+        task.actor_id.should == Member.robot.id
+      end
+    end
+  end
+
+  describe '#track_update' do
+    let!(:task) { create :member_task }
+
+    before do
+      TaskChange.destroy_all
+    end
+
+    context 'nothing changed' do
+      context 'because no changes were made' do
+        it 'does nothing' do
+          TaskChange.should_not_receive(:create!)
+          task.send(:track_update)
+        end
+      end
+
+      context 'because only filtered out attributes changed' do
+        before do
+          task.created_at = 4.days.ago
+          task.updated_at = 3.days.ago
+          task.assigned_at = 3.days.ago
+          task.started_at = 2.days.ago
+          task.claimed_at = 1.days.ago
+          task.completed_at = 2.days.ago
+          task.abandoned_at = 10.days.ago
+          task.assignor_id = 2
+          task.state = 'unstarted'
+        end
+
+        it 'does nothing' do
+          task.changes.should_not be_empty
+          TaskChange.should_not_receive(:create!)
+          task.send(:track_update)
+        end
+      end
+    end
+
+    context 'something changed' do
+      it 'it tracks a change after a condition is added to a user' do
+        old_description = task.description
+        old_title = task.title
+        task.update_attributes!(description: 'poop', title: 'shit')
+        TaskChange.count.should == 1
+        t = TaskChange.last
+        t.task.should == task
+        t.actor.should == Member.robot
+        t.event.should == 'update'
+        eval(t.data).should == {"description" => [old_description, 'poop'], "title" => [old_title, 'shit']}
+      end
+
+      context 'actor_id is defined' do
+        let(:pha) { build_stubbed :pha }
+
+        before do
+          task.actor_id = pha.id
+          task.title = 'Poop'
+        end
+
+        it 'uses the defined actor id' do
+          TaskChange.should_receive(:create!).with hash_including(actor_id: pha.id)
+          task.send(:track_update)
+        end
+      end
+    end
+  end
 end

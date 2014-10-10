@@ -24,6 +24,7 @@ class Api::V1::MemberTasksController < Api::V1::ABaseController
 
     attributes[:creator] = current_user
     attributes[:assignor_id] = current_user.id if attributes[:owner_id].present?
+    attributes[:actor_id] = current_user.id
 
     create_resource MemberTask, attributes.merge(member_id: @member.id), name: :task
   end

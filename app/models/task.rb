@@ -10,14 +10,16 @@ class Task < ActiveRecord::Base
   belongs_to :service
   belongs_to :service_type
   belongs_to :task_template
+  has_many :task_changes, class_name: 'TaskChange'
 
+  attr_accessor :actor_id
   attr_accessible :title, :description, :due_at, :reason_abandoned,
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
                   :abandoner, :abandoner_id, :role, :role_id,
                   :state_event, :service_type_id, :service_type,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
-                  :priority
+                  :priority, :actor_id
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :owner, presence: true, if: lambda { |t| t.owner_id }
@@ -35,6 +37,7 @@ class Task < ActiveRecord::Base
 
   after_save :publish
   after_save :notify
+  after_save :track_update, on: :update
 
   scope :nurse, -> { where(['role_id = ?', Role.find_by_name!('nurse').id]) }
   scope :pha, -> { where(['role_id = ?', Role.find_by_name!('pha').id]) }
@@ -124,6 +127,8 @@ class Task < ActiveRecord::Base
   end
 
   state_machine :initial => :unstarted do
+    store_audit_trail to: 'TaskChange', context_to_log: :actor_id
+
     event :unstart do
       transition any => :unstarted
     end
@@ -200,5 +205,24 @@ class Task < ActiveRecord::Base
         errors.add(:state, "cannot claim more than one task.")
       end
     end
+  end
+
+  def actor_id
+    @actor_id || Member.robot.id
+  end
+
+  def track_update
+    changes = self.changes.except(
+      :state,
+      :created_at,
+      :updated_at,
+      :assigned_at,
+      :started_at,
+      :claimed_at,
+      :completed_at,
+      :abandoned_at,
+      :assignor_id)
+    return if changes.empty?
+    TaskChange.create! task: self, actor_id: self.actor_id, event: 'update', data: changes.to_s
   end
 end

@@ -42,6 +42,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
     authorize! :update, @task
 
     update_params = task_attributes
+    update_params[:actor_id] = current_user.id
 
     if update_params[:state_event] == 'abandon'
       update_params[update_params[:state_event].event_actor.to_sym] = current_user
