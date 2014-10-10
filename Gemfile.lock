@@ -332,6 +332,8 @@ GEM
     symbolize (4.4.1)
       activemodel (>= 3.2, < 5)
       activesupport (>= 3.2, < 5)
+    test_after_commit (0.3.0)
+      activerecord (>= 3.2)
     therubyracer (0.12.0)
       libv8 (~> 3.16.14.0)
       ref
@@ -416,6 +418,7 @@ DEPENDENCIES
   sunspot_rails
   sunspot_solr
   symbolize
+  test_after_commit (~> 0.3.0)
   therubyracer
   timecop
   titleize
