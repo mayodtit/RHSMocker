@@ -55,7 +55,7 @@ class MessageTask < Task
   end
 
   def set_owner
-    if !role.on_call? && consult.initiator && self.owner.nil?
+    if !Metadata.triage_off_hours_message? && !role.on_call? && consult.initiator && self.owner.nil?
       self.owner = consult.initiator.pha
       self.assignor = Member.robot
       self.assigned_at = Time.now
