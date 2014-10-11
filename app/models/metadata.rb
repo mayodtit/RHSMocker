@@ -136,4 +136,8 @@ class Metadata < ActiveRecord::Base
     minutes = Metadata.find_by_mkey('minutes_to_inactive_conversation').try(:mvalue).to_i
     (minutes ? minutes : 15).minutes
   end
+
+  def self.triage_off_hours_message?
+    Metadata.find_by_mkey('triage_off_hours_message').try(:mvalue) == 'true'
+  end
 end
