@@ -195,7 +195,7 @@ Our Approach
 We don’t believe in fad diets or quick fixes. We believe in long-term, sustainable changes in your lifestyle. We see small goals as stepping stones along the path to a healthy lifestyle. You can focus on them in the short term as we maintain the full picture of your journey.
 </p>
 <p>
-Whether you know exactly what you want to accomplish, or you have no idea where to start, your Personal Health Assistant (PHA) will make it simple to get going, stay motivated, and keep moving forward. Your PHA will use the style fits you and your goals, while holding you accountable and helping you make the right decisions around four key areas:
+Whether you know exactly what you want to accomplish, or you have no idea where to start, your Personal Health Assistant (PHA) will make it simple to get going, stay motivated, and keep moving forward. Your PHA will use the style that fits you and your goals, while holding you accountable and helping you make the right decisions around four key areas:
 </p>
 <ul class="image-list">
 <li>
@@ -219,7 +219,7 @@ Sleep - Sleep habit evaluation allows you to get rid of what’s keeping you up 
 <li>
 <img src="/assets/icon_stress.png">
 <span>
-Stress - Stress management techniques pinpoint your stressors and allows you to effectively decompress through relaxation, meditation, and social support.
+Stress - Stress management techniques pinpoint your stressors and allow you to effectively decompress through relaxation, meditation, and social support.
 </span>
 </li>
 </ul>
