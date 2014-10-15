@@ -43,4 +43,6 @@ RHSMocker::Application.configure do
     Rails.application.routes.default_url_options[:protocol] = 'http'
     Rails.application.routes.default_url_options[:host] = 'localhost'
   end
+
+  Spawnling::default_options :method => :yield
 end
