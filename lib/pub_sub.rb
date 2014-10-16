@@ -11,7 +11,7 @@ class PubSub
         }
 
         uri = URI.parse PUB_SUB_HOST
-        Net::HTTP.post_form(uri, message: message.to_json)
+        Net::HTTP.post_form(uri, message: message.to_json) unless Rails.env.test?
       end
     end
   end

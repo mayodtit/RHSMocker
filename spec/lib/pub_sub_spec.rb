@@ -11,6 +11,7 @@ describe PubSub do
         o
       end
       Net::HTTP.stub(:post_form)
+      Rails.env.stub(:test?) { false }
     end
 
     it 'sends to PUB_SUB_HOST' do
