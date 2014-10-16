@@ -4,10 +4,6 @@ class Notifications::NewMessageJob < Struct.new(:user_id, :consult_id)
     Delayed::Job.enqueue(job, queue: job.queue_name)
   end
 
-  def enqueue(job)
-    Delayed::Job.where(queue: job.queue).destroy_all
-  end
-
   def perform
     user = User.find(user_id)
     apns_sessions = user.sessions.where('apns_token IS NOT NULL')
