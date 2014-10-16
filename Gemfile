@@ -98,3 +98,4 @@ gem 'base32-crockford'
 gem 'state_machine-audit_trail'
 gem 'business_time'
 gem 'test_after_commit', '~> 0.3.0', group: :test
+gem 'spawnling', '2.1.1'
