@@ -2,13 +2,13 @@ default: &default
   adapter: mysql2
   encoding: utf8
   pool: 5
-  reconnect: true
 
 development:
   <<: *default
   database: rhs_development
   username: root
   host: localhost
+  reconnect: true
 
 test:
   <<: *default
