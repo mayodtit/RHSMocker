@@ -1,6 +1,6 @@
 class DeliverScheduledCommunicationJob < Struct.new(:scheduled_communication_id, :run_at)
   def self.create(scheduled_communication_id, run_at)
-    Delayed::Job.enqueue(new(scheduled_communication_id), queue: 'scheduled_communications', run_at: run_at)
+    Delayed::Job.enqueue(new(scheduled_communication_id), queue: 'scheduled_communications', run_at: run_at, priority: 10)
   end
 
   def perform
