@@ -4,4 +4,8 @@ class ScheduledTemplateEmailSerializer < ScheduledCommunicationSerializer
   def text
     object.template
   end
+
+  def type
+    'template'
+  end
 end

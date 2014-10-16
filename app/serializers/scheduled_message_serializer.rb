@@ -4,4 +4,8 @@ class ScheduledMessageSerializer < ScheduledCommunicationSerializer
   def content_title
     object.content.try(:title)
   end
+
+  def type
+    'message'
+  end
 end
