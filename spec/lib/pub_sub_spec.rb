@@ -3,8 +3,10 @@ require 'spec_helper'
 describe PubSub do
   describe '#publish' do
     let(:uri) { 'http://www.example.com' }
+    let!(:production) { 'production' }
 
     before do
+      production.stub(:test?) { false }
       Metadata.stub(:find_by_mkey).with('use_pub_sub') do
         o = Object
         o.stub(:try).with(:mvalue) { 'true' }
@@ -31,7 +33,7 @@ describe PubSub do
     end
 
     it 'sets the channel according to the env' do
-      Rails.stub(:env) { 'production' }
+      Rails.stub(:env) { production }
       Net::HTTP.should_receive(:post_form) do |uri, body|
         message = JSON.parse(body[:message])
         message['channel'].should == '/production/messages'
@@ -40,12 +42,12 @@ describe PubSub do
     end
 
     it 'sets data' do
-      Rails.stub(:env) { 'production' }
+      Rails.stub(:env) { production }
       Net::HTTP.should_receive(:post_form) do |uri, body|
         message = JSON.parse(body[:message])
         message['data']['id'].should == 1
       end
       PubSub.publish('/messages', {id: 1})
-      end
+    end
   end
 end
