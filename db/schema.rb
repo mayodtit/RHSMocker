@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141009231934) do
+ActiveRecord::Schema.define(:version => 20141017211433) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -120,8 +120,9 @@ ActiveRecord::Schema.define(:version => 20141009231934) do
     t.integer  "users_with_service"
     t.integer  "converted_users"
     t.text     "raw_data"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
+    t.integer  "users_with_completed_service"
   end
 
   create_table "collection_types", :force => true do |t|
