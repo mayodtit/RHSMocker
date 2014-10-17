@@ -31,7 +31,7 @@ describe CommunicationWorkflow do
       it 'creates a scheduled message the next business day at 9AM pacific' do
         expect{ communication_workflow.add_to_member(member) }.to change(ScheduledMessage, :count).by(1)
         s = ScheduledMessage.last
-        expect(s.publish_at).to eq(Time.new(2014, 7, 18, ON_CALL_START_HOUR, 0, 0, '-07:00'))
+        expect(s.publish_at).to eq(Time.new(2014, 7, 18, 9, 0, 0, '-07:00'))
       end
     end
 
@@ -47,7 +47,7 @@ describe CommunicationWorkflow do
       it 'creates a scheduled message on Monday at 9AM pacific' do
         expect{ communication_workflow.add_to_member(member) }.to change(ScheduledMessage, :count).by(1)
         s = ScheduledMessage.last
-        expect(s.publish_at).to eq(Time.new(2014, 7, 21, ON_CALL_START_HOUR, 0, 0, '-07:00'))
+        expect(s.publish_at).to eq(Time.new(2014, 7, 21, 9, 0, 0, '-07:00'))
       end
     end
 
@@ -63,7 +63,7 @@ describe CommunicationWorkflow do
       it 'creates a scheduled message on Monday at 9AM pacific' do
         expect{ communication_workflow.add_to_member(member) }.to change(ScheduledMessage, :count).by(1)
         s = ScheduledMessage.last
-        expect(s.publish_at).to eq(Time.new(2014, 7, 21, ON_CALL_START_HOUR, 0, 0, '-07:00'))
+        expect(s.publish_at).to eq(Time.new(2014, 7, 21, 9, 0, 0, '-07:00'))
       end
     end
   end
