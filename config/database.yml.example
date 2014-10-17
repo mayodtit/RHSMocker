@@ -8,6 +8,7 @@ development:
   database: rhs_development
   username: root
   host: localhost
+  reconnect: true
 
 test:
   <<: *default
