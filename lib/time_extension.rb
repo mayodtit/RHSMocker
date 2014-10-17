@@ -5,6 +5,10 @@ module TimeExtension
     in_time_zone('Pacific Time (US & Canada)')
   end
 
+  def nine_oclock
+    Time.new(year, month, day, 9, 0, 0, strftime('%:z'))
+  end
+
   def on_call_start_oclock
     Time.new(year, month, day, ON_CALL_START_HOUR, 0, 0, strftime('%:z'))
   end

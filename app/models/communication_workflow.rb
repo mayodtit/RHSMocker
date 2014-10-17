@@ -27,7 +27,7 @@ class CommunicationWorkflow < ActiveRecord::Base
   private
 
   def relative_time
-    time = Time.now.pacific.on_call_start_oclock
+    time = Time.now.pacific.nine_oclock
     if !time.to_date.weekday?
       1.business_day.after(1.business_day.before(time)) # previous_business_day
     else
