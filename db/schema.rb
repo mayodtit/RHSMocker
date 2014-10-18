@@ -632,6 +632,7 @@ ActiveRecord::Schema.define(:version => 20141018172139) do
     t.string   "reference_event"
     t.integer  "relative_days"
     t.integer  "content_id"
+    t.integer  "delayed_job_id"
   end
 
   create_table "scheduled_phone_calls", :force => true do |t|

@@ -511,6 +511,15 @@ namespace :seeds do
     ]
   end
 
+  FAKE_MESSAGES = [
+    'hi',
+    'what\'s up bro?',
+    'bro',
+    'thanks!',
+    'What\'s the best broatmeal recipe?',
+    'I could use a Pabst blue ribbon right now',
+    'I can\'t help you with that'
+  ]
   desc "Adds a specified number of messages to Member's account."
   task :add_messages, [:user_id, :num_messages_to_add] => :environment do |t, args|
     num_messages_to_add = args[:num_messages_to_add].to_i
@@ -518,7 +527,7 @@ namespace :seeds do
     m = Member.find(args[:user_id])
     if m.master_consult
       puts "Adding #{num_messages_to_add} messages to #{m.full_name}'s master consult"
-      num_messages_to_add.times { m.master_consult.messages.create! user: [m,m.pha].sample, text: ['hi', 'what\'s up bro?', 'bro', 'thanks!', 'What\'s the best broatmeal recipe?', 'I could use a Pabst blue ribbon right now', 'I can\'t help you with that'].sample }
+      num_messages_to_add.times { m.master_consult.messages.create! user: [m,m.pha].sample, text: FAKE_MESSAGES.sample }
     else
       puts "ERROR: #{m.full_name} does not have a master consult"
     end
@@ -532,6 +541,16 @@ namespace :seeds do
       m.master_consult.messages.create! user: m.pha, text: 'This is a system message. It should not affect whether an off hours message is sent.', system: true
     else
       puts "ERROR: #{m.full_name} does not have a master consult"
+    end
+  end
+
+  desc "Fake send a few messages from member accounts"
+  task :create_inbound_messages, [:num_messages] => :environment do |t, args|
+    num_messages = args[:num_messages]
+    puts "Creating #{num_messages} inbound messages"
+    members = Member.includes(:master_consult).premium_states.where('consults.id IS NOT NULL').order('RAND()').first(num_messages.to_i)
+    members.each do |member|
+      member.master_consult.messages.create(user: member, text: FAKE_MESSAGES.sample)
     end
   end
 
