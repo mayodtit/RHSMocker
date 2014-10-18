@@ -137,7 +137,7 @@ describe 'ScheduledPhoneCall' do
       let(:time) do
         prev_global_time_zone = Time.zone
         Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
-        time = Time.roll_forward(50.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock
+        time = Time.roll_forward(50.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock + 1.hour
         Time.zone = prev_global_time_zone
         time.utc
       end
