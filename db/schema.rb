@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141017211433) do
+ActiveRecord::Schema.define(:version => 20141018170726) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1070,6 +1070,9 @@ ActiveRecord::Schema.define(:version => 20141017211433) do
     t.boolean  "email_confirmed"
     t.string   "email_confirmation_token"
     t.date     "due_date"
+    t.string   "advertiser_id"
+    t.string   "advertiser_media_source"
+    t.string   "advertiser_campaign"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
