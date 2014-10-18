@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141009231934) do
+ActiveRecord::Schema.define(:version => 20141018172139) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -120,8 +120,9 @@ ActiveRecord::Schema.define(:version => 20141009231934) do
     t.integer  "users_with_service"
     t.integer  "converted_users"
     t.text     "raw_data"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
+    t.integer  "users_with_completed_service"
   end
 
   create_table "collection_types", :force => true do |t|
@@ -725,6 +726,7 @@ ActiveRecord::Schema.define(:version => 20141009231934) do
     t.string   "advertiser_id"
   end
 
+  add_index "sessions", ["advertiser_id"], :name => "index_sessions_on_advertiser_id"
   add_index "sessions", ["apns_token"], :name => "index_sessions_on_apns_token", :unique => true
   add_index "sessions", ["auth_token"], :name => "index_sessions_on_auth_token", :unique => true
   add_index "sessions", ["device_id"], :name => "index_sessions_on_device_id"
@@ -1070,6 +1072,9 @@ ActiveRecord::Schema.define(:version => 20141009231934) do
     t.boolean  "email_confirmed"
     t.string   "email_confirmation_token"
     t.date     "due_date"
+    t.string   "advertiser_id"
+    t.string   "advertiser_media_source"
+    t.string   "advertiser_campaign"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true

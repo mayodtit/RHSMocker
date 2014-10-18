@@ -62,6 +62,9 @@ task :production do
   role :delayed,  'longhorn.getbetter.com'
   role :delayed,  'buckeye.getbetter.com'
   role :cron,     'buckeye.getbetter.com'
+  role :web,      'spartan.getbetter.com'
+  role :app,      'spartan.getbetter.com'
+  role :delayed,  'spartan.getbetter.com'
 end
 
 desc "Deploy target qa (goldenbear @ EC2)"

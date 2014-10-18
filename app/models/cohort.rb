@@ -2,7 +2,8 @@ class Cohort < ActiveRecord::Base
   serialize :raw_data, Hash
 
   attr_accessible :started_at, :ended_at, :total_users, :users_with_message,
-                  :users_with_service, :converted_users, :raw_data
+                  :users_with_service, :users_with_completed_service,
+                  :converted_users, :raw_data
 
   def self.create_for_date(date)
     started_at = date.pacific.beginning_of_day
@@ -14,6 +15,7 @@ class Cohort < ActiveRecord::Base
 
     users_with_message = users.joins(:messages).select('users.id').uniq
     users_with_service = users.with_request_or_service_task.select('users.id')
+    users_with_completed_service = users.with_completed_service_task.select('users.id')
     converted_users = users.joins(:member_state_transitions)
                            .where(member_state_transitions: {to: :premium})
                            .select('users.id')
@@ -26,11 +28,13 @@ class Cohort < ActiveRecord::Base
       total_users: users.count,
       users_with_message: users_with_message.count,
       users_with_service: users_with_service.count,
+      users_with_completed_service: users_with_completed_service.count,
       converted_users: converted_users.count,
       raw_data: {
         total_users_ids: users.map(&:id),
         users_with_message_ids: users_with_message.map(&:id),
         users_with_service_ids: users_with_service.map(&:id),
+        users_with_completed_service_ids: users_with_completed_service.map(&:id),
         converted_users_ids: converted_users.map(&:id)
       }
     })

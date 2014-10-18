@@ -80,7 +80,8 @@ class Member < User
                   :status, :status_event,
                   :nux_answer_id, :nux_answer, :time_zone,
                   :cached_notifications_enabled, :email_confirmed,
-                  :email_confirmation_token
+                  :email_confirmation_token, :advertiser_id,
+                  :advertiser_media_source, :advertiser_campaign
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
@@ -142,6 +143,12 @@ class Member < User
   def self.with_request_or_service_task
     includes(:request_tasks, :service_tasks)
     .where('tasks.id IS NOT NULL OR service_tasks_users.id IS NOT NULL')
+  end
+
+  def self.with_completed_service_task
+    includes(:service_tasks)
+    .where(tasks: {state: :completed})
+    .where('tasks.id IS NOT NULL')
   end
 
   def self.name_search(string)
