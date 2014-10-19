@@ -9,8 +9,7 @@ class MemberSerializer < ActiveModel::Serializer
              :phone, :units, :client_data,
              :full_name, :created_at, :email_read_only,
              :sharing_prohibited, :owner_id, :is_premium, :free_trial_ends_at,
-             :pha_id, :pha_profile_bio_image_url, :pha_pha_profile_bio_image_url,
-             :pha_pha_profile_full_page_bio_image_url, :pha_profile_url,
+             :pha_id, :pha_profile_bio_image_url, :pha_pha_profile_bio_image_url, :pha_profile_url,
              :show_welcome_call, :pha_full_name, :last_contact_at,
              :has_master_consult, :subscription_end_date,
              :subscription_ends_at,
@@ -95,10 +94,6 @@ class MemberSerializer < ActiveModel::Serializer
 
   def pha_pha_profile_bio_image_url
     object.pha.try(:pha_profile).try(:bio_image_url)
-  end
-
-  def pha_pha_profile_full_page_bio_image_url
-    object.pha.try(:pha_profile).try(:full_page_bio_image_url)
   end
 
   def pha_profile_url

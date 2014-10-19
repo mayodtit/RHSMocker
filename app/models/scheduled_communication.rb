@@ -4,14 +4,13 @@ class ScheduledCommunication < ActiveRecord::Base
   belongs_to :recipient, class_name: 'Member',
                          inverse_of: :inbound_scheduled_communications
   belongs_to :reference, polymorphic: true
-  belongs_to :delayed_job, class_name: 'Delayed::Backend::ActiveRecord::Job'
   symbolize :reference_event, in: %i(free_trial_ends_at), allow_nil: true
   serialize :variables, Hash
 
   attr_accessible :sender, :sender_id, :recipient, :recipient_id,
                   :reference, :reference_id, :reference_type, :reference_event,
                   :state_event, :publish_at, :delivered_at, :variables,
-                  :relative_days, :delayed_job, :delayed_job_id
+                  :relative_days
 
   validates :recipient, presence: true
   validates :sender, presence: true, if: ->(s){s.sender_id}
@@ -21,8 +20,6 @@ class ScheduledCommunication < ActiveRecord::Base
   validates :reference_event, inclusion: {in: %i(free_trial_ends_at)}, if: ->(s){s.reference}
   validates :relative_days, presence: true, if: ->(s){s.reference}
   validates :relative_days, numericality: {only_integer: true}, allow_nil: true
-
-  after_save :create_delivery_job, if: ->(s){s.publish_at_changed?}
 
   def self.scheduled
     where(state: :scheduled)
@@ -54,10 +51,6 @@ class ScheduledCommunication < ActiveRecord::Base
     end
   end
 
-  def publish_at_past_time?(time=Time.now)
-    publish_at.try(:<, time) || false
-  end
-
   def update_publish_at_from_calculation!
     return unless scheduled? || held?
     return unless reference
@@ -67,11 +60,6 @@ class ScheduledCommunication < ActiveRecord::Base
     else
       update_attributes!(publish_at: calculated_publish_at)
     end
-  end
-
-  def create_delivery_job
-    delayed_job.destroy if delayed_job
-    self.delayed_job = DeliverScheduledCommunicationJob.create(id, publish_at)
   end
 
   protected

@@ -22,7 +22,7 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message Day 2
                                       {text: AUTOMATED_ONBOARDING_MESSAGE_1.strip()})
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
-                                          {relative_days: 1})
+                                          {relative_days: 2})
 
 AUTOMATED_ONBOARDING_MESSAGE_2 = <<eof
   Hi there. You might be busy, but I’m here to help. Let me know what you’d like me to get started on. Send me a message or just call now.
