@@ -70,6 +70,7 @@ class ScheduledCommunication < ActiveRecord::Base
   end
 
   def create_delivery_job
+    delayed_job.destroy if delayed_job
     self.delayed_job = DeliverScheduledCommunicationJob.create(id, publish_at)
   end
 
