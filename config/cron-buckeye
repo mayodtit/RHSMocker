@@ -10,32 +10,3 @@
 0 10 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:send_referral_card > log/cron.log 2>&1
 0 10 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:push_content > log/cron.log 2>&1
 0 * * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:offboard_free_trial_members > log/cron.log 2>&1
-
-# (TS/AP) HACK!!! changing this job to...
-# 1. run hourly, 5 minutes after the hour
-# 2. not run between 9:05 AM PT and 1:05 PM PT (in UTC: 4:05 PM / 8:05 PM), since the morning jobs take an estimated 2hrs 15 minutes to run
-#
-# original job:
-# */5 * * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications
-
-5 0 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 1 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 2 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 3 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 4 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 5 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 6 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 7 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 8 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 9 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 10 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 11 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 12 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 13 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 14 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 15 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 16 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 20 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 21 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 22 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1
-5 23 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:transition_scheduled_communications > log/cron.log 2>&1

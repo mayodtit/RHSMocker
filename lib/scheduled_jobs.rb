@@ -70,25 +70,6 @@ class ScheduledJobs
     end
   end
 
-  def self.transition_scheduled_communications
-    ScheduledCommunication.held.publish_at_past_time.each do |m|
-      begin
-        m = m.reload
-        m.cancel! unless m.canceled?
-      rescue
-        next
-      end
-    end
-    ScheduledCommunication.scheduled.publish_at_past_time.each do |m|
-      begin
-        m = m.reload
-        m.deliver! unless m.delivered?
-      rescue
-        next
-      end
-    end
-  end
-
   def self.send_referral_card
     return unless CustomCard.referral
     Member.where('signed_up_at < ?', Time.now - 5.days).find_each do |m|
