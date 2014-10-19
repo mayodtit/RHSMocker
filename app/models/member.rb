@@ -118,7 +118,6 @@ class Member < User
   after_create :add_onboarding_group_provider
   after_create :add_onboarding_group_cards
   after_create :add_onboarding_group_programs
-  after_save :add_automated_communication_workflows, if: ->(m){m.status?(:trial) && m.status_changed?}
   after_save :send_state_emails
   after_save :alert_stakeholders_on_call_status
   after_save :update_referring_scheduled_communications, if: ->(m){m.free_trial_ends_at_changed?}
@@ -473,20 +472,6 @@ class Member < User
   def add_onboarding_group_programs
     (onboarding_group.try(:programs) || []).each do |program|
       user_programs.create(program: program, subject: self)
-    end
-  end
-
-  def add_automated_communication_workflows
-    return unless inbound_scheduled_communications.empty?
-
-    if Metadata.automated_onboarding? && Metadata.new_onboarding_flow?
-      CommunicationWorkflow.automated_onboarding.try(:add_to_member, self)
-    elsif Metadata.automated_onboarding? && inbound_scheduled_communications.empty?
-      CommunicationWorkflow.automated_onboarding_old.try(:add_to_member, self)
-    end
-
-    if Metadata.automated_offboarding?
-      CommunicationWorkflow.automated_offboarding.try(:add_to_member, self)
     end
   end
 
