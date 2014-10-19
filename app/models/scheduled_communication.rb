@@ -22,8 +22,6 @@ class ScheduledCommunication < ActiveRecord::Base
   validates :relative_days, presence: true, if: ->(s){s.reference}
   validates :relative_days, numericality: {only_integer: true}, allow_nil: true
 
-  after_save :create_delivery_job, if: ->(s){s.publish_at_changed?}
-
   def self.scheduled
     where(state: :scheduled)
   end
@@ -67,10 +65,6 @@ class ScheduledCommunication < ActiveRecord::Base
     else
       update_attributes!(publish_at: calculated_publish_at)
     end
-  end
-
-  def create_delivery_job
-    self.delayed_job = DeliverScheduledCommunicationJob.create(id, publish_at)
   end
 
   protected
