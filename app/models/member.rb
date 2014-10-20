@@ -412,7 +412,7 @@ class Member < User
     self.pha ||= if onboarding_group.try(:mayo_pilot?)
                    PhaProfile.next_pha_profile(true).try(:user)
                  else
-                   PhaProfile.next_pha_profile.try(:user)
+                   PhaProfile.next_pha_profile(false, nux_answer).try(:user)
                  end
   end
 
