@@ -179,6 +179,7 @@ ActiveRecord::Schema.define(:version => 20141020215047) do
     t.integer  "symptom_id"
     t.boolean  "master",             :default => false, :null => false
     t.string   "conversation_state"
+    t.integer  "delayed_job_id"
   end
 
   create_table "content_mayo_vocabularies", :force => true do |t|
@@ -801,6 +802,18 @@ ActiveRecord::Schema.define(:version => 20141020215047) do
     t.string   "gender"
   end
 
+  create_table "task_changes", :force => true do |t|
+    t.integer  "task_id",    :null => false
+    t.string   "event"
+    t.string   "from"
+    t.string   "to"
+    t.text     "data"
+    t.integer  "actor_id",   :null => false
+    t.datetime "created_at", :null => false
+  end
+
+  add_index "task_changes", ["task_id"], :name => "index_task_changes_on_task_id"
+
   create_table "task_templates", :force => true do |t|
     t.string   "name",                :null => false
     t.string   "title",               :null => false
@@ -1072,8 +1085,8 @@ ActiveRecord::Schema.define(:version => 20141020215047) do
     t.boolean  "on_call",                                       :default => false
     t.string   "status"
     t.integer  "nux_answer_id"
-    t.string   "time_zone"
     t.string   "text_phone_number"
+    t.string   "time_zone"
     t.boolean  "cached_notifications_enabled"
     t.boolean  "email_confirmed"
     t.string   "email_confirmation_token"

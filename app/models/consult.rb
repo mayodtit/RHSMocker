@@ -11,6 +11,7 @@ class Consult < ActiveRecord::Base
   attr_accessor :skip_tasks
   has_many :conversation_transitions, class_name: 'ConsultConversationStateTransition'
   has_many :message_tasks
+  belongs_to :delayed_job, class_name: 'Delayed::Backend::ActiveRecord::Job'
 
   attr_accessible :initiator, :initiator_id, :subject, :subject_id, :symptom,
                   :symptom_id, :state, :title, :description, :image,
@@ -80,7 +81,7 @@ class Consult < ActiveRecord::Base
     store_audit_trail
 
     event :activate do
-      transition [:inactive, :needs_response] => :active
+      transition [:inactive, :needs_response, :active] => :active
     end
 
     event :deactivate do
@@ -91,6 +92,16 @@ class Consult < ActiveRecord::Base
       transition [:active, :inactive] => :needs_response
     end
 
+    before_transition any => [:active, :needs_response] do |consult, transition|
+      if consult.delayed_job
+        consult.delayed_job.destroy
+        consult.delayed_job = nil
+      end
+
+      if transition.to == 'active' && message = transition.args.first
+        consult.delayed_job = Consult.delay(run_at: Metadata.minutes_to_inactive_conversation.from_now).deactivate_if_last_message message.id
+      end
+    end
   end
 
   def update_message_tasks
