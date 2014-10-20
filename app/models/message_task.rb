@@ -31,7 +31,12 @@ class MessageTask < Task
   def self.create_if_only_opened_for_consult!(consult, message = nil)
     if (!message || message.user == consult.initiator) && open.where(consult_id: consult.id).count == 0
       due_at = message ? message.created_at : consult.created_at
-      create!(title: 'Inbound Message', consult: consult, message: message, creator: Member.robot, due_at: due_at)
+      create!(title: 'Inbound Message',
+              consult: consult,
+              message: message,
+              creator: Member.robot,
+              due_at: due_at,
+              service_experiment: consult.initiator.service_experiment)
     end
   end
 

@@ -1,10 +1,12 @@
 class PhaProfile < ActiveRecord::Base
   belongs_to :user, class_name: 'Member', inverse_of: :pha_profile
+  belongs_to :nux_answer
   mount_uploader :bio_image, PhaProfileBioImageUploader
   mount_uploader :full_page_bio_image, PhaProfileFullPageBioImageUploader
 
   attr_accessible :user, :user_id, :bio_image, :full_page_bio_image, :bio, :weekly_capacity,
-                  :capacity_weight, :mayo_pilot_capacity_weight, :first_person_bio
+                  :capacity_weight, :mayo_pilot_capacity_weight, :first_person_bio,
+                  :nux_answer, :nux_answer_id
 
   validates :user, presence: true
   validates :capacity_weight, :mayo_pilot_capacity_weight, numericality: {only_integer: true,
@@ -17,7 +19,11 @@ class PhaProfile < ActiveRecord::Base
     all.each.reject{|p| p.max_capacity?}
   end
 
-  def self.next_pha_profile(pilot=false)
+  def self.next_pha_profile(pilot=false, nux_answer=nil)
+    if nux_answer && find_by_nux_answer_id(nux_answer.id)
+      return find_by_nux_answer_id(nux_answer.id)
+    end
+
     capacity_hash = {}
     capacity_total = with_capacity.inject(0) do |sum, profile|
       current_weight = pilot ? profile.mayo_pilot_capacity_weight : profile.capacity_weight

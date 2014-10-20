@@ -501,6 +501,7 @@ ActiveRecord::Schema.define(:version => 20141020135552) do
     t.string   "full_page_bio_image"
     t.integer  "mayo_pilot_capacity_weight"
     t.text     "first_person_bio"
+    t.integer  "nux_answer_id"
   end
 
   create_table "phone_call_summaries", :force => true do |t|
@@ -828,8 +829,8 @@ ActiveRecord::Schema.define(:version => 20141020135552) do
     t.datetime "started_at"
     t.datetime "claimed_at"
     t.datetime "completed_at"
-    t.datetime "created_at",                                :null => false
-    t.datetime "updated_at",                                :null => false
+    t.datetime "created_at",                                    :null => false
+    t.datetime "updated_at",                                    :null => false
     t.integer  "creator_id"
     t.string   "state"
     t.integer  "abandoner_id"
@@ -838,12 +839,13 @@ ActiveRecord::Schema.define(:version => 20141020135552) do
     t.string   "type"
     t.integer  "parsed_nurseline_record_id"
     t.integer  "service_type_id"
-    t.integer  "priority",                   :default => 0, :null => false
+    t.integer  "priority",                   :default => 0,     :null => false
     t.integer  "service_id"
     t.integer  "service_ordinal"
     t.integer  "task_template_id"
     t.integer  "user_request_id"
     t.datetime "member_free_trial_ends_at"
+    t.boolean  "service_experiment",         :default => false, :null => false
   end
 
   add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"
@@ -1078,6 +1080,9 @@ ActiveRecord::Schema.define(:version => 20141020135552) do
     t.string   "advertiser_id"
     t.string   "advertiser_media_source"
     t.string   "advertiser_campaign"
+    t.integer  "impersonated_user_id"
+    t.boolean  "service_experiment",                            :default => false, :null => false
+    t.boolean  "service_experiment_queue",                      :default => false, :null => false
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true

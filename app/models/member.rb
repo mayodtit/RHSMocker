@@ -66,6 +66,7 @@ class Member < User
   accepts_nested_attributes_for :user_agreements
   attr_accessor :skip_agreement_validation
   belongs_to :nux_answer
+  belongs_to :impersonated_user, class_name: 'Member'
 
   attr_accessible :password, :password_confirmation,
                   :invitation_token, :units,
@@ -81,7 +82,9 @@ class Member < User
                   :nux_answer_id, :nux_answer, :time_zone,
                   :cached_notifications_enabled, :email_confirmed,
                   :email_confirmation_token, :advertiser_id,
-                  :advertiser_media_source, :advertiser_campaign
+                  :advertiser_media_source, :advertiser_campaign,
+                  :impersonated_user, :impersonated_user_id,
+                  :service_experiment, :service_experiment_queue
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
@@ -409,11 +412,14 @@ class Member < User
   end
 
   def set_pha
-    self.pha ||= if onboarding_group.try(:mayo_pilot?)
-                   PhaProfile.next_pha_profile(true).try(:user)
-                 else
-                   PhaProfile.next_pha_profile.try(:user)
-                 end
+    next_pha_profile = if onboarding_group.try(:mayo_pilot?)
+                         PhaProfile.next_pha_profile(true)
+                       else
+                         PhaProfile.next_pha_profile(false, nux_answer)
+                       end
+    self.pha ||= next_pha_profile.try(:user)
+    self.service_experiment = next_pha_profile.try(:nux_answer).present?
+    true
   end
 
   def set_master_consult
