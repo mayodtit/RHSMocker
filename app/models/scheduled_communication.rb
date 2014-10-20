@@ -67,6 +67,13 @@ class ScheduledCommunication < ActiveRecord::Base
     end
   end
 
+  def create_delivery_job
+    transaction do
+      job = DeliverScheduledCommunicationJob.create(id, publish_at)
+      update_attribute(:delayed_job_id, job.id)
+    end
+  end
+
   protected
 
   def delivered_at_is_nil
