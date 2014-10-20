@@ -12,6 +12,7 @@ class Api::V1::ScheduledCommunicationsController < Api::V1::ABaseController
   end
 
   def update
+    raise CanCan::AccessDenied and return if @scheduled_communication.type == "ScheduledSystemMessage"
     update_resource @scheduled_communication, permitted_params.scheduled_communication
   end
 
