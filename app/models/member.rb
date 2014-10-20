@@ -116,11 +116,9 @@ class Member < User
   after_create :add_onboarding_group_provider
   after_create :add_onboarding_group_cards
   after_create :add_onboarding_group_programs
-  after_save :send_state_emails
   after_save :alert_stakeholders_on_call_status
   after_save :update_referring_scheduled_communications, if: ->(m){m.free_trial_ends_at_changed?}
   after_save :notify_pha_of_upgrade, if: ->(m){(m.status?(:premium) || m.status?(:chamath)) && m.status_changed?}
-  after_save :send_confirm_email_email
 
   SIGNED_UP_STATES = %i(free trial premium chamath)
   def self.signed_up
@@ -465,28 +463,6 @@ class Member < User
     end
   end
 
-  def send_state_emails
-    if status?(:trial) &&
-       status_changed? &&
-       !MemberStateTransition.multiple_exist_for?(member, :trial) &&
-       !@emails_sent
-      if onboarding_group.try(:mayo_pilot?) && onboarding_group.try(:provider)
-        Mails::MayoPilotMeetYourPhaJob.create(member.id, onboarding_group.provider.id)
-      else
-        Mails::MeetYourPhaJob.create(member.id)
-      end
-      @emails_sent = true
-    elsif status?(:invited) &&
-          status_changed? &&
-          !MemberStateTransition.multiple_exist_for?(member, :invited) &&
-          !@emails_sent &&
-          onboarding_group.try(:mayo_pilot?) &&
-          onboarding_group.try(:provider)
-      Mails::MayoPilotInviteJob.create(member.id, onboarding_group.provider.id)
-      @emails_sent = true
-    end
-  end
-
   def role_names
     @role_names ||= roles.pluck(:name)
   end
@@ -510,14 +486,5 @@ class Member < User
                        creator: Member.robot,
                        member: self,
                        due_at: Time.now)
-  end
-
-  def send_confirm_email_email
-    if (email_confirmed == false) &&
-       email_confirmation_token &&
-       status_changed? &&
-       trial?
-      UserMailer.delay.confirm_email_email(id)
-    end
   end
 end
