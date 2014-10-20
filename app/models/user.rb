@@ -66,7 +66,6 @@ class User < ActiveRecord::Base
   validates :phone, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
   validates :work_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
   validates :text_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
-  validates :owner, presence: true
 
   mount_uploader :avatar, AvatarUploader
 

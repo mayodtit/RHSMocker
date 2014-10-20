@@ -23,7 +23,16 @@ class CommunicationWorkflowTemplate < ActiveRecord::Base
     end
   end
 
-  def calculated_publish_at(reference_time)
+  def calculated_publish_at(reference, reference_time)
+    case reference_event
+    when :recipient_free_trial_ends_at
+      relative_publish_at(reference.free_trial_ends_at)
+    else
+      relative_publish_at(reference_time)
+    end
+  end
+
+  def relative_publish_at(reference_time)
     if relative_days > 0
       relative_days.abs.business_days.after(reference_time.pacific.nine_oclock)
     else

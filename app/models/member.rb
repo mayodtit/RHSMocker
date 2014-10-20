@@ -96,13 +96,11 @@ class Member < User
   validates :units, inclusion: {in: %w(US Metric)}
   validates :terms_of_service_and_privacy_policy, acceptance: {accept: true},
                                                   if: ->(m){!skip_agreement_validation && (m.signed_up? || m.password)}
-  validate :owner_is_self
   validates :onboarding_group, presence: true, if: ->(m){m.onboarding_group_id}
   validates :referral_code, presence: true, if: ->(m){m.referral_code_id}
   validates :nux_answer, presence: true, if: -> (m) { m.nux_answer_id }
   validates :email_confirmation_token, presence: true, unless: ->(m){m.email_confirmed?}
 
-  before_validation :set_owner
   before_validation :set_member_flag
   before_validation :set_default_email_confirmed, on: :create
   before_validation :set_email_confirmation_token, unless: ->(m){m.email_confirmed?}
@@ -118,12 +116,9 @@ class Member < User
   after_create :add_onboarding_group_provider
   after_create :add_onboarding_group_cards
   after_create :add_onboarding_group_programs
-  after_save :add_automated_communication_workflows, if: ->(m){m.status?(:trial) && m.status_changed?}
-  after_save :send_state_emails
   after_save :alert_stakeholders_on_call_status
   after_save :update_referring_scheduled_communications, if: ->(m){m.free_trial_ends_at_changed?}
   after_save :notify_pha_of_upgrade, if: ->(m){(m.status?(:premium) || m.status?(:chamath)) && m.status_changed?}
-  after_save :send_confirm_email_email
 
   SIGNED_UP_STATES = %i(free trial premium chamath)
   def self.signed_up
@@ -371,14 +366,6 @@ class Member < User
     end
   end
 
-  def owner_is_self
-    owner == self
-  end
-
-  def set_owner
-    self.owner ||= self
-  end
-
   def set_signed_up_at
     self.signed_up_at ||= Time.now
   end
@@ -476,42 +463,6 @@ class Member < User
     end
   end
 
-  def add_automated_communication_workflows
-    return unless inbound_scheduled_communications.empty?
-
-    if Metadata.automated_onboarding? && Metadata.new_onboarding_flow?
-      CommunicationWorkflow.automated_onboarding.try(:add_to_member, self)
-    elsif Metadata.automated_onboarding? && inbound_scheduled_communications.empty?
-      CommunicationWorkflow.automated_onboarding_old.try(:add_to_member, self)
-    end
-
-    if Metadata.automated_offboarding?
-      CommunicationWorkflow.automated_offboarding.try(:add_to_member, self)
-    end
-  end
-
-  def send_state_emails
-    if status?(:trial) &&
-       status_changed? &&
-       !MemberStateTransition.multiple_exist_for?(member, :trial) &&
-       !@emails_sent
-      if onboarding_group.try(:mayo_pilot?) && onboarding_group.try(:provider)
-        Mails::MayoPilotMeetYourPhaJob.create(member.id, onboarding_group.provider.id)
-      else
-        Mails::MeetYourPhaJob.create(member.id)
-      end
-      @emails_sent = true
-    elsif status?(:invited) &&
-          status_changed? &&
-          !MemberStateTransition.multiple_exist_for?(member, :invited) &&
-          !@emails_sent &&
-          onboarding_group.try(:mayo_pilot?) &&
-          onboarding_group.try(:provider)
-      Mails::MayoPilotInviteJob.create(member.id, onboarding_group.provider.id)
-      @emails_sent = true
-    end
-  end
-
   def role_names
     @role_names ||= roles.pluck(:name)
   end
@@ -535,14 +486,5 @@ class Member < User
                        creator: Member.robot,
                        member: self,
                        due_at: Time.now)
-  end
-
-  def send_confirm_email_email
-    if (email_confirmed == false) &&
-       email_confirmation_token &&
-       status_changed? &&
-       trial?
-      UserMailer.delay.confirm_email_email(id)
-    end
   end
 end

@@ -7,6 +7,7 @@ describe ReferralCode do
   describe 'validations' do
     before do
       described_class.any_instance.stub(:set_code)
+      Member.any_instance.stub(:add_owned_referral_code)
     end
 
     it_validates 'presence of', :code

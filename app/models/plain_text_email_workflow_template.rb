@@ -11,7 +11,7 @@ class PlainTextEmailWorkflowTemplate < CommunicationWorkflowTemplate
       recipient: member,
       subject: message_template.subject,
       text: message_template.text,
-      publish_at: calculated_publish_at(relative_time)
+      publish_at: calculated_publish_at(member, relative_time)
     })
     ScheduledPlainTextEmail.create!(create_attributes)
   end

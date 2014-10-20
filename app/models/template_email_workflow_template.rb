@@ -8,7 +8,7 @@ class TemplateEmailWorkflowTemplate < CommunicationWorkflowTemplate
       sender: member.pha,
       recipient: member,
       template: template,
-      publish_at: calculated_publish_at(relative_time)
+      publish_at: calculated_publish_at(member, relative_time)
     })
     ScheduledTemplateEmail.create!(create_attributes)
   end

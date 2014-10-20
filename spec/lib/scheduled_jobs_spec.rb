@@ -236,56 +236,6 @@ describe ScheduledJobs do
     end
   end
 
-  describe '#transition_scheduled_communications' do
-    context 'with scheduled message' do
-      let!(:scheduled_message) { create(:scheduled_message, publish_at: Time.now - 1.minute) }
-      let!(:future_scheduled_message) { create(:scheduled_message, publish_at: Time.now + 10.minute) }
-
-      it 'sends scheduled messages in the past' do
-        expect(scheduled_message.state?(:scheduled)).to be_true
-        described_class.transition_scheduled_communications
-        expect(scheduled_message.reload.state?(:delivered)).to be_true
-        future_scheduled_message.reload.should be_scheduled
-      end
-
-      it 'skips messages that have been delivered' do
-        ScheduledCommunication.any_instance.stub(:reload) {
-          scheduled_message.stub(:delivered?) { true }
-          scheduled_message
-        }
-
-        scheduled_message.should_not_receive(:deliver!)
-        described_class.transition_scheduled_communications
-      end
-    end
-
-    context 'with held message' do
-      let!(:scheduled_message) { create(:scheduled_message, :held, publish_at: Time.now - 1.minute) }
-      let!(:future_held_message) { create(:scheduled_message, publish_at: Time.now + 10.minute) }
-
-      before do
-        future_held_message.hold!
-      end
-
-      it 'cancels held messages in the past' do
-        expect(scheduled_message.state?(:held)).to be_true
-        described_class.transition_scheduled_communications
-        expect(scheduled_message.reload.state?(:canceled)).to be_true
-        future_held_message.reload.should be_held
-      end
-
-      it 'skips messages that have been held' do
-        ScheduledCommunication.any_instance.stub(:reload) {
-          scheduled_message.stub(:canceled?) { true }
-          scheduled_message
-        }
-
-        scheduled_message.should_not_receive(:cancel!)
-        described_class.transition_scheduled_communications
-      end
-    end
-  end
-
   describe '#offboard_free_trial_members' do
     let!(:too_old_engaged_expired_member) { create :member, :trial, signed_up_at: Time.parse('2014-07-01 16:00:00 -07:00'), free_trial_ends_at: Time.parse('2014-07-28 12:00:00 -0700'), first_name: 'A' }
     let!(:old_engaged_expired_member) { create :member, :trial, signed_up_at: Time.parse('2014-07-31 16:00:00 -07:00'), free_trial_ends_at: Time.parse('2014-07-31 12:00:00 -0700'), first_name: 'B' }
