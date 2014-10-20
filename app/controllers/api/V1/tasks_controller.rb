@@ -20,6 +20,12 @@ class Api::V1::TasksController < Api::V1::ABaseController
       else
         query = Task.needs_triage_or_owned current_user
       end
+
+      if current_user.service_experiment_queue
+        query = query.where(service_experiment: true)
+      else
+        query = query.where(service_experiment: false)
+      end
     end
 
     tasks = query.where(role_id: role.id).includes(:member).order('priority DESC, due_at ASC, created_at ASC')
