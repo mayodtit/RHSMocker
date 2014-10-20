@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141018172139) do
+ActiveRecord::Schema.define(:version => 20141020135552) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -634,6 +634,9 @@ ActiveRecord::Schema.define(:version => 20141018172139) do
     t.integer  "content_id"
     t.integer  "delayed_job_id"
   end
+
+  add_index "scheduled_communications", ["recipient_id", "state", "type"], :name => "index_scheduled_communications_recipient_id_state_type"
+  add_index "scheduled_communications", ["recipient_id"], :name => "index_scheduled_communications_on_recipient_id"
 
   create_table "scheduled_phone_calls", :force => true do |t|
     t.integer  "user_id"
