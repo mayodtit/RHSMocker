@@ -96,13 +96,11 @@ class Member < User
   validates :units, inclusion: {in: %w(US Metric)}
   validates :terms_of_service_and_privacy_policy, acceptance: {accept: true},
                                                   if: ->(m){!skip_agreement_validation && (m.signed_up? || m.password)}
-  validate :owner_is_self
   validates :onboarding_group, presence: true, if: ->(m){m.onboarding_group_id}
   validates :referral_code, presence: true, if: ->(m){m.referral_code_id}
   validates :nux_answer, presence: true, if: -> (m) { m.nux_answer_id }
   validates :email_confirmation_token, presence: true, unless: ->(m){m.email_confirmed?}
 
-  before_validation :set_owner
   before_validation :set_member_flag
   before_validation :set_default_email_confirmed, on: :create
   before_validation :set_email_confirmation_token, unless: ->(m){m.email_confirmed?}
@@ -368,14 +366,6 @@ class Member < User
       member.email_confirmed = true
       member.email_confirmation_token = nil
     end
-  end
-
-  def owner_is_self
-    owner == self
-  end
-
-  def set_owner
-    self.owner ||= self
   end
 
   def set_signed_up_at

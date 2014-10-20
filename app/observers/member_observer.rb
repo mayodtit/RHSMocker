@@ -1,6 +1,7 @@
 class MemberObserver < ActiveRecord::Observer
   def after_commit(member)
     add_automated_communication_workflows(member)
+    set_self_owner(member)
   end
 
   private
@@ -16,5 +17,10 @@ class MemberObserver < ActiveRecord::Observer
         CommunicationWorkflow.automated_offboarding.try(:add_to_member, member)
       end
     end
+  end
+
+  def set_self_owner(member)
+    return if member.owner_id
+    member.update_attribute(:owner_id, member.id)
   end
 end
