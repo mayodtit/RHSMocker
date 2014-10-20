@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141009231934) do
+ActiveRecord::Schema.define(:version => 20141017173856) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -178,6 +178,7 @@ ActiveRecord::Schema.define(:version => 20141009231934) do
     t.integer  "symptom_id"
     t.boolean  "master",             :default => false, :null => false
     t.string   "conversation_state"
+    t.integer  "delayed_job_id"
   end
 
   create_table "content_mayo_vocabularies", :force => true do |t|
