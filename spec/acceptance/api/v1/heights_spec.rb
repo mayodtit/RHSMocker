@@ -82,7 +82,7 @@ resource 'Height' do
       expect(body[:height][:amount]).to eq(amount.to_s)
       body[:height][:creator_id].should == user.id
       h = Height.find body[:height][:id]
-      h.creator.should == user
+      expect(h.creator).to eq(user)
     end
   end
 end

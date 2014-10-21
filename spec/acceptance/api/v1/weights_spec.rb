@@ -84,7 +84,7 @@ resource 'Weight' do
       expect(body[:weight][:amount]).to eq(amount.to_s)
       body[:weight][:creator_id].should == user.id
       w = Weight.find body[:weight][:id]
-      w.creator.should == user
+      expect(w.creator).to eq(user)
     end
   end
 end

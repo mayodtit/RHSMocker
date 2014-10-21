@@ -11,6 +11,12 @@ class Api::V1::HeightsController < Api::V1::ABaseController
     show_resource @height.serializer
   end
 
+  def create_attributes
+    permitted_params.height.tap do |attributes|
+      attributes[:creator] = current_user
+    end
+  end
+
   def create
     params = permitted_params.height
     params[:creator] = current_user
