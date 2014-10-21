@@ -12,7 +12,9 @@ class Api::V1::WeightsController < Api::V1::ABaseController
   end
 
   def create
-    create_resource @weights, permitted_params.weight
+    params = permitted_params.weight
+    params[:creator] = current_user
+    create_resource @weights, params
   end
 
   def update
