@@ -6,11 +6,6 @@ shared_examples 'creates a consult' do
     expect(response).to be_success
     body = JSON.parse(response.body, symbolize_names: true)
     consult = Consult.find(body[:consult][:id])
-    # Because subject == initiator, but initiator object is only updated in memory
-    consult.subject.last_contact_at = nil
-    # Because phone number of consult initiator is set in after save from callback_phone_number
-    consult.initiator.phone = nil
-    consult.subject.phone = nil
     expect(body[:consult].to_json).to eq(consult.serializer.as_json.to_json)
     expect(consult.initiator).to eq(user)
     expect(consult.subject).to eq(user)
