@@ -11,6 +11,12 @@ class Api::V1::WeightsController < Api::V1::ABaseController
     show_resource @weight.serializer
   end
 
+  def create_attributes
+    permitted_params.weight.tap do |attributes|
+      attributes[:creator] = current_user
+    end
+  end
+
   def create
     params = permitted_params.weight
     params[:creator] = current_user
