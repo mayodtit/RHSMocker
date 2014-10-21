@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141020135552) do
+ActiveRecord::Schema.define(:version => 20141020215047) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -330,6 +330,7 @@ ActiveRecord::Schema.define(:version => 20141020135552) do
     t.datetime "created_at",                                   :null => false
     t.datetime "updated_at",                                   :null => false
     t.string   "healthkit_uuid"
+    t.integer  "creator_id"
   end
 
   create_table "insurance_policies", :force => true do |t|
@@ -1071,8 +1072,8 @@ ActiveRecord::Schema.define(:version => 20141020135552) do
     t.boolean  "on_call",                                       :default => false
     t.string   "status"
     t.integer  "nux_answer_id"
-    t.string   "text_phone_number"
     t.string   "time_zone"
+    t.string   "text_phone_number"
     t.boolean  "cached_notifications_enabled"
     t.boolean  "email_confirmed"
     t.string   "email_confirmation_token"
@@ -1101,6 +1102,7 @@ ActiveRecord::Schema.define(:version => 20141020135552) do
     t.datetime "updated_at",                                                    :null => false
     t.datetime "taken_at"
     t.string   "healthkit_uuid"
+    t.integer  "creator_id"
   end
 
 end
