@@ -96,7 +96,6 @@ resource "PhoneCalls" do
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
         phone_call = PhoneCall.find(body[:phone_call][:id])
-        phone_call.user.last_contact_at = nil
         expect(body[:phone_call].to_json).to eq(phone_call.serializer.as_json.to_json)
       end
     end

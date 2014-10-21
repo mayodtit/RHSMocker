@@ -82,6 +82,7 @@ describe Api::V1::ConsultsController do
 
     before do
       Consult.stub(create: consult)
+      consult.stub(:reload)
     end
 
     it_behaves_like 'action requiring authentication and authorization'

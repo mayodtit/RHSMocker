@@ -39,6 +39,7 @@ describe Api::V1::ProgramResourcesController do
 
     before do
       program.stub(program_resources: program_resources)
+      program_resource.stub(:reload)
     end
 
     it_behaves_like 'action requiring authentication and authorization'

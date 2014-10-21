@@ -84,6 +84,7 @@ describe Api::V1::PhoneCallsController do
     before do
       Consult.stub(find: consult)
       consult.stub(phone_calls: phone_calls)
+      phone_call.stub(:reload)
     end
 
     it_behaves_like 'action requiring authentication and authorization'
