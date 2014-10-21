@@ -64,9 +64,13 @@ class Consult < ActiveRecord::Base
 
   def self.deactivate_if_last_message(message_id)
     message = Message.find(message_id)
-    consult = message.consult
+    Consult.transaction do
+      consult = message.consult.lock!
 
-    consult.deactivate! if consult.active? && consult.messages.where(automated: false, system: false, note: false, off_hours: false).where('created_at > ?', message.created_at).count < 1
+      if consult.active? && consult.messages.where(automated: false, system: false, note: false, off_hours: false).where('created_at > ?', message.created_at).count < 1
+        consult.deactivate!
+      end
+    end
   end
 
   private

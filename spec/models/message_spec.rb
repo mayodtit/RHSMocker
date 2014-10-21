@@ -168,6 +168,10 @@ describe Message do
     let(:consult) { build_stubbed :consult }
     let(:message) { build_stubbed :message, consult: consult }
 
+    before do
+      consult.stub(:lock!) { consult }
+    end
+
     context 'message is off_hours' do
       before do
         message.stub(:off_hours?) { true }
