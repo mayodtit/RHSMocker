@@ -11,16 +11,8 @@ class Api::V1::HeightsController < Api::V1::ABaseController
     show_resource @height.serializer
   end
 
-  def create_attributes
-    permitted_params.height.tap do |attributes|
-      attributes[:creator] = current_user
-    end
-  end
-
   def create
-    params = permitted_params.height
-    params[:creator] = current_user
-    create_resource @heights, params
+    create_resource @heights, create_attributes
   end
 
   def update
@@ -39,5 +31,11 @@ class Api::V1::HeightsController < Api::V1::ABaseController
 
   def load_height!
     @height = @heights.find(params[:id])
+  end
+
+  def create_attributes
+    permitted_params.height.tap do |attributes|
+      attributes[:creator] = current_user
+    end
   end
 end
