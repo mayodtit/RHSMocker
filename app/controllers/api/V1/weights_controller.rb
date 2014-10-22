@@ -11,16 +11,8 @@ class Api::V1::WeightsController < Api::V1::ABaseController
     show_resource @weight.serializer
   end
 
-  def create_attributes
-    permitted_params.weight.tap do |attributes|
-      attributes[:creator] = current_user
-    end
-  end
-
   def create
-    params = permitted_params.weight
-    params[:creator] = current_user
-    create_resource @weights, params
+    create_resource @weights, create_attributes
   end
 
   def update
@@ -40,5 +32,11 @@ class Api::V1::WeightsController < Api::V1::ABaseController
   def load_weight!
     @weight = @weights.find(params[:id])
     authorize! :manage, @weight
+  end
+
+  def create_attributes
+    permitted_params.weight.tap do |attributes|
+      attributes[:creator] = current_user
+    end
   end
 end
