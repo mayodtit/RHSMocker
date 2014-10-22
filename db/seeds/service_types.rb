@@ -29,6 +29,8 @@ ServiceType.find_or_create_by_name(name: 'symptom management', bucket: 'care coo
 ServiceType.find_or_create_by_name(name: 'other care coordination', bucket: 'care coordination')
 
 # Engagement --
+ServiceType.find_or_create_by_name(name: 'welcome call', bucket: 'engagement')
+ServiceType.find_or_create_by_name(name: 'call', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'member onboarding', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'member offboarding', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'preventive care reminders', bucket: 'engagement')
