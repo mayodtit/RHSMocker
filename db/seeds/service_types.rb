@@ -53,4 +53,3 @@ ServiceType.find_or_create_by_name(name: 'other wellness', bucket: 'wellness')
 ServiceType.find_or_create_by_name(name: 'celebration video', bucket: 'wellness')
 ServiceType.find_or_create_by_name(name: 'set goal', bucket: 'wellness')
 ServiceType.find_or_create_by_name(name: 'member completes goal', bucket: 'wellness')
-
