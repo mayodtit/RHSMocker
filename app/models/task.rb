@@ -10,14 +10,16 @@ class Task < ActiveRecord::Base
   belongs_to :service
   belongs_to :service_type
   belongs_to :task_template
+  has_many :task_changes, class_name: 'TaskChange'
 
+  attr_accessor :actor_id, :change_tracked
   attr_accessible :title, :description, :due_at, :reason_abandoned,
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
                   :abandoner, :abandoner_id, :role, :role_id,
                   :state_event, :service_type_id, :service_type,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
-                  :priority, :service_experiment
+                  :priority, :service_experiment, :actor_id
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :owner, presence: true, if: lambda { |t| t.owner_id }
@@ -35,6 +37,7 @@ class Task < ActiveRecord::Base
 
   after_save :publish
   after_save :notify
+  after_commit :track_update, on: :update
 
   scope :nurse, -> { where(['role_id = ?', Role.find_by_name!('nurse').id]) }
   scope :pha, -> { where(['role_id = ?', Role.find_by_name!('pha').id]) }
@@ -124,6 +127,8 @@ class Task < ActiveRecord::Base
   end
 
   state_machine :initial => :unstarted do
+    store_audit_trail to: 'TaskChange', context_to_log: [:actor_id, :data]
+
     event :unstart do
       transition any => :unstarted
     end
@@ -163,6 +168,12 @@ class Task < ActiveRecord::Base
     before_transition :abandoned => any - [:abandoned] do |task|
       task.reason_abandoned = nil
     end
+
+    # Audit trail will create a TaskChange in an after_transition. This tells
+    # after_commit track_update to not create another TaskChange
+    after_transition any => any do |task|
+      task.change_tracked = true
+    end
   end
 
   # TODO: Write more comprehensive tests
@@ -199,6 +210,33 @@ class Task < ActiveRecord::Base
       if task && task.id != id
         errors.add(:state, "cannot claim more than one task.")
       end
+    end
+  end
+
+  def actor_id
+    @actor_id || Member.robot.id
+  end
+
+  def data
+    changes = previous_changes.except(
+      :state,
+      :created_at,
+      :updated_at,
+      :assigned_at,
+      :started_at,
+      :claimed_at,
+      :completed_at,
+      :abandoned_at,
+      :assignor_id)
+    changes.empty? ? nil : changes.to_s
+  end
+
+  def track_update
+    # If audit_trail tells us it's already logged change, do nothing.
+    if change_tracked
+      self.change_tracked = false
+    elsif _data = data
+      TaskChange.create! task: self, actor_id: self.actor_id, event: 'update', data: _data
     end
   end
 end
