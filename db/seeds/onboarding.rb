@@ -169,14 +169,14 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: weightloss'
 
 ########################## Trying to conceive ##############################
 
-NuxAnswer.upsert_attributes({name: 'conception'}, text: 'Trying to conceive', phrase: 'start planning a family', active: true, ordinal: 7)
+NuxAnswer.upsert_attributes({name: 'conception'}, text: 'trying to get pregnant', phrase: 'start planning a family', active: true, ordinal: 7)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*. *|pha_first_name|* will be available *|pha_next_available|* to help you start planning a family.
 
 To get started:
 
-1) Let your PHA know how long you’ve been trying to conceive.
+1) Let your PHA know how long you’ve been trying to get pregnant.
 2) [Schedule a time to talk](better://nb?cmd=scheduleCall), or message your PHA details about your birth control use.
 eof
 MessageTemplate.upsert_attributes({name: 'New Premium Member Off Hours: conception'}, text: MESSAGE.strip())
