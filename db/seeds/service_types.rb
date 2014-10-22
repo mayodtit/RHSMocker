@@ -30,7 +30,8 @@ ServiceType.find_or_create_by_name(name: 'other care coordination', bucket: 'car
 
 # Engagement --
 ServiceType.find_or_create_by_name(name: 'welcome call', bucket: 'engagement')
-ServiceType.find_or_create_by_name(name: 'call', bucket: 'engagement')
+ServiceType.find_or_create_by_name(name: 'check-in call', bucket: 'engagement')
+ServiceType.find_or_create_by_name(name: 'outbound call', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'member onboarding', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'member offboarding', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'preventive care reminders', bucket: 'engagement')
@@ -48,3 +49,8 @@ ServiceType.find_or_create_by_name(name: 'sleep assessment and plan', bucket: 'w
 ServiceType.find_or_create_by_name(name: 'stress assessment and plan', bucket: 'wellness')
 ServiceType.find_or_create_by_name(name: 'wellness research', bucket: 'wellness')
 ServiceType.find_or_create_by_name(name: 'other wellness', bucket: 'wellness')
+# Wellness -- weight mgmnt
+ServiceType.find_or_create_by_name(name: 'celebration video', bucket: 'wellness')
+ServiceType.find_or_create_by_name(name: 'set goal', bucket: 'wellness')
+ServiceType.find_or_create_by_name(name: 'member completes goal', bucket: 'wellness')
+
