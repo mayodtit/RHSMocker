@@ -638,6 +638,11 @@ describe Task do
         task.unstart!
         task.should be_unstarted
       end
+
+      it 'indicates a change was tracked' do
+        task.unstart!
+        expect(task.change_tracked).to be_true
+      end
     end
 
     describe '#start' do
@@ -653,6 +658,11 @@ describe Task do
         task.started_at.should be_nil
         task.start!
         task.started_at.should == Time.now
+      end
+
+      it 'indicates a change was tracked' do
+        task.start!
+        expect(task.change_tracked).to be_true
       end
     end
 
@@ -674,6 +684,13 @@ describe Task do
         task.claim!
         task.claimed_at.should == Time.now
       end
+
+      it 'indicates a change was tracked' do
+        task.claimed_at.should be_nil
+        task.owner = pha
+        task.claim!
+        expect(task.change_tracked).to be_true
+      end
     end
 
     describe '#complete' do
@@ -690,6 +707,11 @@ describe Task do
         task.completed_at.should be_nil
         task.complete!
         task.completed_at.should == Time.now
+      end
+
+      it 'indicates a change was tracked' do
+        task.complete!
+        expect(task.change_tracked).to be_true
       end
     end
 
@@ -710,6 +732,14 @@ describe Task do
         task.reason_abandoned = 'pooed'
         task.abandon!
         task.abandoned_at.should == Time.now
+      end
+
+      it 'indicates a change was tracked' do
+        task.completed_at.should be_nil
+        task.abandoner = pha
+        task.reason_abandoned = 'pooed'
+        task.abandon!
+        expect(task.change_tracked).to be_true
       end
     end
   end
@@ -813,9 +843,26 @@ describe Task do
       TaskChange.destroy_all
     end
 
+    context 'change was tracked' do
+      before do
+        task.change_tracked = true
+      end
+
+      it 'doesn\'t create a task change' do
+        TaskChange.should_not_receive(:create!)
+        task.send(:track_update)
+      end
+
+      it 'sets change_tracked to false' do
+        task.send(:track_update)
+        expect(task.change_tracked).to equal(false)
+      end
+    end
+
     context 'nothing changed' do
       context 'because no changes were made' do
         it 'does nothing' do
+          task.stub(:previous_changes) { task.changes }
           TaskChange.should_not_receive(:create!)
           task.send(:track_update)
         end
@@ -832,10 +879,10 @@ describe Task do
           task.abandoned_at = 10.days.ago
           task.assignor_id = 2
           task.state = 'unstarted'
+          task.stub(:previous_changes) { task.changes }
         end
 
         it 'does nothing' do
-          task.changes.should_not be_empty
           TaskChange.should_not_receive(:create!)
           task.send(:track_update)
         end
@@ -861,6 +908,7 @@ describe Task do
         before do
           task.actor_id = pha.id
           task.title = 'Poop'
+          task.stub(:previous_changes) { task.changes }
         end
 
         it 'uses the defined actor id' do
