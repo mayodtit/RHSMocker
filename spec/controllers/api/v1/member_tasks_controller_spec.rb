@@ -103,7 +103,7 @@ describe Api::V1::MemberTasksController do
       it_behaves_like 'success'
 
       it 'sets the creator to the current user' do
-        MemberTask.should_receive(:create).with('creator' => user, 'title' => 'Title', 'member_id' => member.id) { task }
+        MemberTask.should_receive(:create).with('creator' => user, 'title' => 'Title', 'member_id' => member.id, 'actor_id' => user.id) { task }
 
         do_request
       end
