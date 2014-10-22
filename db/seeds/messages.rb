@@ -25,7 +25,7 @@ MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                           {relative_days: 1})
 
 AUTOMATED_ONBOARDING_MESSAGE_2 = <<eof
-  Hi there. You might be busy, but I’m here to help. Let me know what you’d like me to get started on. Send me a message or just call now.
+  Hi there. You might be busy, but I’m here to help. Let me know what you’d like me to get started on. Send me a message now.
 eof
 m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding Message Day 3 8/22/14'},
                                       {text: AUTOMATED_ONBOARDING_MESSAGE_2.strip()})
