@@ -89,6 +89,7 @@ describe Api::V1::MemberTasksController do
 
     before do
       MemberTask.stub(:create) { task }
+      task.stub(:reload)
     end
 
     def do_request

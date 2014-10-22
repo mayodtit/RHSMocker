@@ -93,6 +93,7 @@ describe Api::V1::CardsController do
 
     before do
       user.stub(cards: cards)
+      card.stub(:reload)
     end
 
     it_behaves_like 'action requiring authentication and authorization'

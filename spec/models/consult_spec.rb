@@ -321,100 +321,156 @@ describe Consult do
     end
   end
 
-  describe '#activate' do
-    let!(:consult) { create :consult }
-    let!(:message) { create :message, consult: consult }
-    let!(:other_message) { create :message, consult: consult }
+  describe 'conversation_state transitions' do
+    let!(:delayed_job) { Member.delay(run_at: 15.minutes.from_now).find(1) }
 
     before do
-      consult.conversation_state = :inactive
-      consult.save!
-      consult.reload
-      message_task.priority = -1
-      message_task.save!
+      Timecop.freeze
     end
 
-    context 'message for task is last consult message' do
-      let!(:message_task) { create(:message_task, message: other_message, consult: consult) }
+    after do
+      Timecop.return
+    end
 
-      it 'does nothing' do
-        consult.activate!
-        message_task.reload.priority.should == -1
+    describe '#activate' do
+      let!(:consult) { create :consult }
+      let!(:message) { create :message, consult: consult }
+      let!(:other_message) { create :message, consult: consult }
+
+      before do
+        consult.conversation_state = :inactive
+        consult.save!
+        consult.reload
+      end
+
+      context 'delayed_job exists on consult' do
+        before do
+          consult.delayed_job = delayed_job
+          consult.save!
+        end
+
+        it 'deletes the delayed_job' do
+          consult.activate!
+          consult.reload.delayed_job.should be_nil
+          Delayed::Backend::ActiveRecord::Job.find_by_id(delayed_job.id).should be_nil
+        end
+      end
+
+      it 'creates a delayed job to deactivate the consult' do
+        Consult.should_receive(:delay).with(run_at: Metadata.minutes_to_inactive_conversation.from_now) do
+          o = Object.new
+          o.should_receive(:deactivate_if_last_message).with(message.id) { delayed_job }
+          o
+        end
+        consult.activate! message
+        consult.reload.delayed_job.should == delayed_job
+      end
+
+      context 'message for task is last consult message' do
+        let!(:message_task) { create(:message_task, message: other_message, consult: consult) }
+
+        before do
+          message_task.priority = -1
+          message_task.save!
+        end
+
+        it 'does nothing' do
+          consult.activate!
+          message_task.reload.priority.should == -1
+        end
+      end
+
+      context 'message for task is not last consult message' do
+        let!(:message_task) { create(:message_task, message: message, consult: consult) }
+
+        before do
+          message_task.priority = -1
+          message_task.save!
+        end
+
+        it 'updates the priority of all message tasks that are open' do
+          consult.activate!
+          message_task.reload.priority.should == MessageTask::ACTIVE_CONVERSATION_PRIORITY
+        end
       end
     end
 
-    context 'message for task is not last consult message' do
+    describe '#deactivate' do
+      let!(:consult) { create :consult }
+      let!(:message) { create :message, consult: consult }
+      let!(:other_message) { create :message, consult: consult }
       let!(:message_task) { create(:message_task, message: message, consult: consult) }
 
-      it 'updates the priority of all message tasks that are open' do
-        consult.activate!
-        message_task.reload.priority.should == MessageTask::ACTIVE_CONVERSATION_PRIORITY
+      before do
+        consult.conversation_state = :active
+        consult.save!
+        consult.reload
+        message_task.priority = -1
+        message_task.save!
       end
-    end
-  end
 
-  describe '#deactivate' do
-    let!(:consult) { create :consult }
-    let!(:message) { create :message, consult: consult }
-    let!(:other_message) { create :message, consult: consult }
-    let!(:message_task) { create(:message_task, message: message, consult: consult) }
+      context 'message for task is last consult message' do
+        let!(:message_task) { create(:message_task, message: other_message, consult: consult) }
 
-    before do
-      consult.conversation_state = :active
-      consult.save!
-      consult.reload
-      message_task.priority = -1
-      message_task.save!
-    end
+        it 'does nothing' do
+          consult.deactivate!
+          message_task.reload.priority.should == -1
+        end
+      end
 
-    context 'message for task is last consult message' do
-      let!(:message_task) { create(:message_task, message: other_message, consult: consult) }
+      context 'message for task is not last consult message' do
+        let!(:message_task) { create(:message_task, message: message, consult: consult) }
 
-      it 'does nothing' do
-        consult.deactivate!
-        message_task.reload.priority.should == -1
+        it 'updates the priority of all message tasks that are open' do
+          consult.deactivate!
+          message_task.reload.priority.should == MessageTask::INACTIVE_CONVERSATION_PRIORITY
+        end
       end
     end
 
-    context 'message for task is not last consult message' do
+    describe '#flag' do
+      let!(:consult) { create :consult }
+      let!(:message) { create :message, consult: consult }
+      let!(:other_message) { create :message, consult: consult }
       let!(:message_task) { create(:message_task, message: message, consult: consult) }
 
-      it 'updates the priority of all message tasks that are open' do
-        consult.deactivate!
-        message_task.reload.priority.should == MessageTask::INACTIVE_CONVERSATION_PRIORITY
+      before do
+        consult.conversation_state = :active
+        consult.save!
+        consult.reload
+        message_task.priority = -1
+        message_task.save!
       end
-    end
-  end
 
-  describe '#flag' do
-    let!(:consult) { create :consult }
-    let!(:message) { create :message, consult: consult }
-    let!(:other_message) { create :message, consult: consult }
-    let!(:message_task) { create(:message_task, message: message, consult: consult) }
+      context 'delayed_job exists on consult' do
+        before do
+          consult.delayed_job = delayed_job
+          consult.save!
+        end
 
-    before do
-      consult.conversation_state = :active
-      consult.save!
-      consult.reload
-      message_task.priority = -1
-      message_task.save!
-    end
-
-    context 'message for task is last consult message' do
-      let!(:message_task) { create(:message_task, message: other_message, consult: consult) }
-
-      it 'does nothing' do
-        consult.flag!
-        message_task.reload.priority.should == -1
+        it 'deletes the delayed_job' do
+          consult.activate!
+          consult.reload.delayed_job.should be_nil
+          Delayed::Backend::ActiveRecord::Job.find_by_id(delayed_job.id).should be_nil
+        end
       end
-    end
 
-    context 'message for task is not last consult message' do
-      let!(:message_task) { create(:message_task, message: message, consult: consult) }
+      context 'message for task is last consult message' do
+        let!(:message_task) { create(:message_task, message: other_message, consult: consult) }
 
-      it 'updates the priority of all message tasks that are open' do
-        consult.flag!
-        message_task.reload.priority.should == MessageTask::NEEDS_RESPONSE_PRIORITY
+        it 'does nothing' do
+          consult.flag!
+          message_task.reload.priority.should == -1
+        end
+      end
+
+      context 'message for task is not last consult message' do
+        let!(:message_task) { create(:message_task, message: message, consult: consult) }
+
+        it 'updates the priority of all message tasks that are open' do
+          consult.flag!
+          message_task.reload.priority.should == MessageTask::NEEDS_RESPONSE_PRIORITY
+        end
       end
     end
   end

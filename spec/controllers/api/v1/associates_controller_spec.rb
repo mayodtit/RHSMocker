@@ -57,6 +57,7 @@ describe Api::V1::AssociatesController do
 
     before do
       user.stub(associates: associates)
+      associate.stub(:reload)
     end
 
     it_behaves_like 'action requiring authentication and authorization'

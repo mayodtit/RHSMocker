@@ -42,6 +42,7 @@ module Api
       def create_resource(collection, resource_params, options={})
         resource = collection.create(resource_params)
         if resource.errors.empty?
+          resource.reload
           render_success((options[:name] || resource_singular_symbol) => (resource.serializer(options[:serializer_options] || {}) || resource))
         else
           render_failure({reason: resource.errors.full_messages.to_sentence}, 422)

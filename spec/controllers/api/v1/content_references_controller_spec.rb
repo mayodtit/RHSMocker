@@ -46,6 +46,7 @@ describe Api::V1::ContentReferencesController do
 
     before do
       content.stub(:content_references => content_references)
+      content_reference.stub(:reload)
     end
 
     it_behaves_like 'action requiring authentication and authorization'

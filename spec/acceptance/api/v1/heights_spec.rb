@@ -80,6 +80,9 @@ resource 'Height' do
       expect(status).to eq(200)
       body = JSON.parse(response_body, symbolize_names: true)
       expect(body[:height][:amount]).to eq(amount.to_s)
+      body[:height][:creator_id].should == user.id
+      h = Height.find body[:height][:id]
+      expect(h.creator).to eq(user)
     end
   end
 end

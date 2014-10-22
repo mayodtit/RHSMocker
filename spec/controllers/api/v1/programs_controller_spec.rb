@@ -51,6 +51,10 @@ describe Api::V1::ProgramsController do
       post :create, program: program.as_json
     end
 
+    before do
+      program.stub(:reload)
+    end
+
     it_behaves_like 'action requiring authentication and authorization'
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do

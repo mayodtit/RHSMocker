@@ -78,11 +78,6 @@ resource "Consults" do
       expect(status).to eq(200)
       body = JSON.parse(response_body, symbolize_names: true)
       consult = Consult.find(body[:consult][:id])
-      # Because subject == initiator, but initiator object is only updated in memory
-      consult.subject.last_contact_at = nil
-      # Because phone number of consult initiator is set in after save from callback_phone_number
-      consult.subject.phone = nil
-      consult.initiator.phone = nil
       expect(body[:consult].to_json).to eq(consult.serializer.as_json.to_json)
       consult.description.should == description
       PhoneCall.last.to_role.should == @nurse

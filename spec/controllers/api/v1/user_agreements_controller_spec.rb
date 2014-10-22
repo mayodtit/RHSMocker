@@ -16,6 +16,7 @@ describe Api::V1::UserAgreementsController do
 
     before do
       user.stub(user_agreements: user_agreements)
+      user_agreement.stub(:reload)
     end
 
     it_behaves_like 'action requiring authentication'

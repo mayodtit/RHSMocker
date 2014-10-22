@@ -98,6 +98,7 @@ describe Api::V1::CustomCardsController do
 
     before do
       CustomCard.stub(:create => custom_card)
+      custom_card.stub(:reload)
     end
 
     it_behaves_like 'action requiring authentication and authorization'

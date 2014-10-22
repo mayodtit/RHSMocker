@@ -19,6 +19,7 @@ describe Api::V1::BloodPressuresController do
 
     before(:each) do
       user.stub(:blood_pressures => blood_pressures)
+      blood_pressure.stub(:reload)
     end
 
     it_behaves_like 'action requiring authentication and authorization'

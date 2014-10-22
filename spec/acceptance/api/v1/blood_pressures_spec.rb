@@ -46,6 +46,32 @@ resource 'BloodPressures' do
     end
   end
 
+  put '/api/v1/users/:user_id/blood_pressures/:id' do
+    let!(:blood_pressure) { create(:blood_pressure, user: user) }
+
+    parameter :id, "Blood pressure reading id"
+    parameter :diastolic, "User's diastolic pressure"
+    parameter :systolic, "User's systolic pressure"
+    parameter :taken_at, "DateTime of when the reading was taken"
+    parameter :pulse, "User's pulse"
+    parameter :collection_type_id, "collection_type_id optional (will make it 'self-reported' by defaults)"
+    required_parameters :id, :diastolic, :systolic, :taken_at
+
+    let(:id) { blood_pressure.id }
+    let(:diastolic) { 90 }
+    let(:systolic) { 91 }
+    let(:pulse) { 92 }
+    let(:taken_at) { DateTime.now-20.minutes }
+    let(:collection_type_id) { 1 }
+    let(:raw_post) { params.to_json }
+
+    example_request "[PUT] Update user's blood pressure" do
+      explanation "Update the user's blood pressure"
+      status.should == 200
+      JSON.parse(response_body).should_not be_empty
+    end
+  end
+
   delete '/api/v1/users/:user_id/blood_pressures/:id' do
     let!(:blood_pressure) { create(:blood_pressure, :user => user) }
 
