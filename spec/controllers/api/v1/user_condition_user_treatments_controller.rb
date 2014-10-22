@@ -25,6 +25,7 @@ describe Api::V1::UserConditionUserTreatmentsController do
 
     before(:each) do
       UserConditionUserTreatment.stub(:create => user_condition_user_treatment)
+      user_condition_user_treatment.stub(:reload)
     end
 
     it_behaves_like 'action requiring authentication and authorization'

@@ -1,0 +1,13 @@
+# Read about factories at https://github.com/thoughtbot/factory_girl
+
+FactoryGirl.define do
+  factory :task_change do
+    association :task, factory: :member_task
+    association :actor, factory: :member
+    event 'update'
+    from 'unstarted'
+    to 'started'
+    data({description: ['first description', 'second description']}.to_s)
+    created_at "2014-10-09 16:39:14"
+  end
+end

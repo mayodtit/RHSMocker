@@ -64,6 +64,7 @@ describe Api::V1::UserTreatmentsController do
 
     before(:each) do
       user.stub(:user_treatments => user_treatments)
+      user_treatment.stub(:reload)
     end
 
     it_behaves_like 'action requiring authentication and authorization'

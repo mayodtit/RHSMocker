@@ -7,6 +7,7 @@ describe 'Messages' do
 
   before do
     Timecop.freeze(Time.new(2014, 4, 17, 12, 0, 0, '-07:00'))
+    Metadata.create!(mkey: 'remove_robot_response', mvalue: 'true')
   end
 
   after do
@@ -87,12 +88,10 @@ describe 'Messages' do
     let(:message_params) { {message: {text: 'test message'}} }
 
     it 'create a new message for the consult' do
-      expect{ do_request(message_params) }.to change(Message, :count).by(2) # TODO - creates 2 messages including auto-response
+      expect{ do_request(message_params) }.to change(Message, :count).by(1)
       expect(response).to be_success
       body = JSON.parse(response.body, symbolize_names: true)
       message = Message.find(body[:message][:id])
-      # Because message is loaded on the after_save that updates last_contact_at
-      message.user.last_contact_at = nil
       expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
     end
   end
@@ -106,12 +105,10 @@ describe 'Messages' do
     let(:message_params) { {message: {text: 'test message'}} }
 
     it 'create a new message for the consult' do
-      expect{ do_request(message_params) }.to change(Message, :count).by(2) # TODO - creates 2 messages including auto-response
+      expect{ do_request(message_params) }.to change(Message, :count).by(1)
       expect(response).to be_success
       body = JSON.parse(response.body, symbolize_names: true)
       message = Message.find(body[:message][:id])
-      # Because message is loaded on the after_save that updates last_contact_at
-      message.user.last_contact_at = nil
       expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
     end
   end

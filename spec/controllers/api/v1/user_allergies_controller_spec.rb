@@ -53,6 +53,7 @@ describe Api::V1::UserAllergiesController do
 
     before(:each) do
       user.stub(:user_allergies => user_allergies)
+      user_allergy.stub(:reload)
     end
 
     it_behaves_like 'action requiring authentication and authorization'

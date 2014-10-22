@@ -82,6 +82,9 @@ resource 'Weight' do
       expect(status).to eq(200)
       body = JSON.parse(response_body, symbolize_names: true)
       expect(body[:weight][:amount]).to eq(amount.to_s)
+      body[:weight][:creator_id].should == user.id
+      w = Weight.find body[:weight][:id]
+      expect(w.creator).to eq(user)
     end
   end
 end

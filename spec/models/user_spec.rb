@@ -420,7 +420,7 @@ describe User do
       end
 
       context 'because only created_at and updated_at were changed' do
-        before do
+        it 'does nothing' do
           user.created_at = 4.days.ago
           user.updated_at = 3.days.ago
           user.changes.should_not be_empty

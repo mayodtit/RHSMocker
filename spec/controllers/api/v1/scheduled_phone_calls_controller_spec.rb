@@ -136,6 +136,7 @@ describe Api::V1::ScheduledPhoneCallsController do
 
     before do
       ScheduledPhoneCall.stub(create: scheduled_phone_call)
+      scheduled_phone_call.stub(:reload)
     end
 
     it_behaves_like 'action requiring authentication and authorization'

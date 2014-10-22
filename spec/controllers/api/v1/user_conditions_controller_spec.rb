@@ -64,6 +64,7 @@ describe Api::V1::UserConditionsController do
 
     before(:each) do
       user.stub(:user_conditions => user_conditions)
+      user_condition.stub(:reload)
     end
 
     it_behaves_like 'action requiring authentication and authorization'

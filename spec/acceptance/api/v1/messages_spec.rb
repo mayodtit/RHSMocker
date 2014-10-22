@@ -14,6 +14,10 @@ resource "Messages" do
   parameter :auth_token, "Performing user's auth_token"
   required_parameters :auth_token
 
+  before do
+    Metadata.create!(mkey: 'remove_robot_response', mvalue: 'true')
+  end
+
   context 'existing record' do
     let!(:message) { create(:message, consult: consult) }
     let!(:old_message) { create(:message, consult: consult, created_at: Time.parse('2014-08-26T00:17:26Z')) }
@@ -49,8 +53,6 @@ resource "Messages" do
       expect(status).to eq(200)
       body = JSON.parse(response_body, symbolize_names: true)
       message = Message.find(body[:message][:id])
-      # Because message is loaded on the after_save that updates last_contact_at
-      message.user.last_contact_at = nil
       expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
       expect(body[:message][:image_url]).to_not be_nil
     end
