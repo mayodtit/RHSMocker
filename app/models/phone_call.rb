@@ -383,8 +383,10 @@ class PhoneCall < ActiveRecord::Base
     end
 
     after_transition :unclaimed => :claimed do |phone_call|
-      phone_call.dialer = phone_call.claimer
-      phone_call.dial
+      if phone_call.to_pha?
+        phone_call.dialer = phone_call.claimer
+        phone_call.dial
+      end
     end
 
     before_transition [:claimed, :disconnected] => :dialing do |phone_call|
