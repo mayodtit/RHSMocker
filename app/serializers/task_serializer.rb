@@ -3,6 +3,7 @@ class TaskSerializer < ActiveModel::Serializer
 
   attributes :id, :title, :state, :description, :due_at, :type, :created_at,
              :owner_id, :service_type_id, :triage_state
+  has_many :task_changes
 
   def attributes
     if options[:shallow]
