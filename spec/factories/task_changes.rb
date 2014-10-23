@@ -7,7 +7,7 @@ FactoryGirl.define do
     event 'update'
     from 'unstarted'
     to 'started'
-    data({description: ['first description', 'second description']}.to_s)
+    data({description: ['first description', 'second description']})
     created_at "2014-10-09 16:39:14"
   end
 end
