@@ -127,7 +127,7 @@ class Task < ActiveRecord::Base
   end
 
   state_machine :initial => :unstarted do
-    store_audit_trail to: 'TaskChange', context_to_log: [:actor_id, :data]
+    store_audit_trail to: 'TaskChange', context_to_log: [:actor_id, :unserialized_data]
 
     event :unstart do
       transition any => :unstarted
@@ -217,7 +217,7 @@ class Task < ActiveRecord::Base
     @actor_id || Member.robot.id
   end
 
-  def data
+  def unserialized_data
     changes = previous_changes.except(
       :state,
       :created_at,
@@ -228,15 +228,15 @@ class Task < ActiveRecord::Base
       :completed_at,
       :abandoned_at,
       :assignor_id)
-    changes.empty? ? nil : changes.to_s
+    changes.empty? ? nil : changes
   end
 
   def track_update
     # If audit_trail tells us it's already logged change, do nothing.
     if change_tracked
       self.change_tracked = false
-    elsif _data = data
-      TaskChange.create! task: self, actor_id: self.actor_id, event: 'update', data: _data
+    elsif unserialized_data = unserialized_data
+      TaskChange.create! task: self, actor_id: self.actor_id, event: 'update', unserialized_data: unserialized_data
     end
   end
 end
