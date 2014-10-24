@@ -70,7 +70,7 @@ class Message < ActiveRecord::Base
   end
 
   def activate_consult
-    if !off_hours? && !system? && !automated? && !note?
+    if !off_hours? && !system? && !automated? && !note? && (text.present? || image.present?)
       Consult.transaction do
         if user != consult.initiator
           consult.lock!.activate! self
