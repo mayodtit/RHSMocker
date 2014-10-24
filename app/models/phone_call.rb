@@ -382,13 +382,6 @@ class PhoneCall < ActiveRecord::Base
       phone_call.claimed_at = Time.now
     end
 
-    after_transition :unclaimed => :claimed do |phone_call|
-      if phone_call.to_pha?
-        phone_call.dialer = phone_call.claimer
-        phone_call.dial
-      end
-    end
-
     before_transition [:claimed, :disconnected] => :dialing do |phone_call|
       raise "Dialer is missing on PhoneCall #{phone_call.id}" if phone_call.dialer.nil?
       raise "Dialer is missing work phone number on PhoneCall #{phone_call.id}" if !phone_call.dialer.work_phone_number
