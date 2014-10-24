@@ -2,6 +2,9 @@
 Condition.find_or_create_by_name(name: "Abdominal pain",
                                  snomed_name: "Abdominal pain (finding)",
                                  snomed_code: "750827015")
+Condition.find_or_create_by_name(name: "Addison's disease",
+                                 snomed_name: "Addison's disease (disorder)",
+                                 snomed_code: "765190014")
 Condition.find_or_create_by_name(name: "Attention deficit hyperactivity disorder",
                                  snomed_name: "Attention deficit hyperactivity disorder (disorder)",
                                  snomed_code: "2150336014")
@@ -53,6 +56,9 @@ Condition.find_or_create_by_name(name: "Bipolar disorder",
 Condition.find_or_create_by_name(name: "Celiac disease",
                                  snomed_name: "Celiac disease (disorder)",
                                  snomed_code: "1764248012")
+Condition.find_or_create_by_name(name: "Central retinal vein occlusion",
+                                 snomed_name: "Central retinal vein occlusion (disorder)",
+                                 snomed_code: "808317010")
 Condition.find_or_create_by_name(name: "Cirrhosis of liver",
                                  snomed_name: "Cirrhosis of liver (disorder)",
                                  snomed_code: "748614010")
@@ -155,6 +161,12 @@ Condition.find_or_create_by_name(name: "Dysthymia",
 Condition.find_or_create_by_name(name: "Dyslipidemia",
                                  snomed_name: "Dyslipidemia (disorder)",
                                  snomed_code: "1196288015")
+Condition.find_or_create_by_name(name: "Dysphagia",
+                                 snomed_name: "Dysphagia (disorder)",
+                                 snomed_code: "777439017")
+Condition.find_or_create_by_name(name: "Esophageal dysphagia",
+                                 snomed_name: "Esophageal dysphagia (disorder)",
+                                 snomed_code: "777615019")
 Condition.find_or_create_by_name(name: "Ehlers-Danlos syndrome, type 3",
                                  snomed_name: "Ehlers-Danlos syndrome, type 3 (disorder)",
                                  snomed_code: "761685016")
@@ -209,6 +221,12 @@ Condition.find_or_create_by_name(name: "Hypercholesterolemia",
 Condition.find_or_create_by_name(name: "Headache",
                                  snomed_name: "Sick headache (disorder)",
                                  snomed_code: "576870011")
+Condition.find_or_create_by_name(name: "Cluster Headache Syndrome",
+                                 snomed_name: "Cluster Headache Syndrome (disorder)",
+                                 snomed_code: "576874019")
+Condition.find_or_create_by_name(name: "Chronic Headaches",
+                                 snomed_name: "Cluster Headache Syndrome (disorder)",
+                                 snomed_code: "576874019")
 Condition.find_or_create_by_name(name: "High Cholesterol",
                                  snomed_name: "Hypercholesterolemia",
                                  snomed_code: "13644009")
@@ -221,6 +239,9 @@ Condition.find_or_create_by_name(name: "Hypertensive disorder",
 Condition.find_or_create_by_name(name: "Hypertension",
                                  snomed_name: "Hypertensive disorder, systemic arterial",
                                  snomed_code: "1202949014")
+Condition.find_or_create_by_name(name: "Hyperthyroidism",
+                                 snomed_name: "Hyperthyroidism (disorder)",
+                                 snomed_code: "766014011")
 Condition.find_or_create_by_name(name: "Hypertrophic cardiomyopathy",
                                  snomed_name: "Hypertrophic cardiomyopathy (disorder)",
                                  snomed_code: "622117015")
@@ -272,6 +293,12 @@ Condition.find_or_create_by_name(name: "Obesity",
 Condition.find_or_create_by_name(name: "Overweight",
                                  snomed_name: "Obesity",
                                  snomed_code: "414916001")
+Condition.find_or_create_by_name(name: "Oropharyngeal dysphagia",
+                                 snomed_name: "Oropharyngeal dysphagia (disorder)",
+                                 snomed_code: "811625017")
+Condition.find_or_create_by_name(name: "Pharyngeal dysphagia",
+                                 snomed_name: "Pharyngeal dysphagia",
+                                 snomed_code: "118716019")
 Condition.find_or_create_by_name(name: "Lewy body dementia",
                                  snomed_name: "Senile dementia of the Lewy body type",
                                  snomed_code: "312991009")
@@ -287,6 +314,15 @@ Condition.find_or_create_by_name(name: "Lupus vulgaris",
 Condition.find_or_create_by_name(name: "Frontotemporal dementia",
                                  snomed_name: "Frontotemporal dementia",
                                  snomed_code: "230270009")
+Condition.find_or_create_by_name(name: "Migraine",
+                                 snomed_name: "Migraine (disorder)",
+                                 snomed_code: "769703016")
+Condition.find_or_create_by_name(name: "Migraine Headaches",
+                                 snomed_name: "Migraine (disorder)",
+                                 snomed_code: "769703016")
+Condition.find_or_create_by_name(name: "Myasthenia gravis",
+                                 snomed_name: "Myasthenia gravis (disorder)",
+                                 snomed_code: "834993010")
 Condition.find_or_create_by_name(name: "Ulcerative colitis",
                                  snomed_name: "Ulcerative colitis",
                                  snomed_code: "64766004")
@@ -413,6 +449,9 @@ Condition.find_or_create_by_name(name: "Thyroid gland hematoma",
 Condition.find_or_create_by_name(name: "Thyroid gland blood clot",
                                  snomed_name: "Thyroid gland hematoma (disorder)",
                                  snomed_code: "654809011")
+Condition.find_or_create_by_name(name: "Thrombosis",
+                                 snomed_name: "Thrombosis (disorder)",
+                                 snomed_code: "2788379011")
 Condition.find_or_create_by_name(name: "Traumatic brain injury",
                                  snomed_name: "Traumatic brain injury (disorder)",
                                  snomed_code: "731368015")
