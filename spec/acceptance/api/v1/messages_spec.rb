@@ -6,7 +6,7 @@ resource "Messages" do
   header 'Content-Type', 'application/json'
 
   let!(:user) { create(:member) }
-  let(:session) { user.sessions.create }
+  let(:session) { user.sessions.create(device_app_version: '1.3.0') }
   let!(:consult) { create(:consult, initiator: user) }
   let(:auth_token) { session.auth_token }
   let(:consult_id) { consult.id }
