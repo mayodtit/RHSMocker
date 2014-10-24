@@ -169,7 +169,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member Part 1: weightloss'
 
 ########################## Trying to conceive ##############################
 
-NuxAnswer.upsert_attributes({name: 'conception'}, text: 'trying to get pregnant', phrase: 'start planning a family', active: true, ordinal: 7)
+NuxAnswer.upsert_attributes({name: 'conception'}, text: 'Trying to get pregnant', phrase: 'start planning a family', active: true, ordinal: 7)
 
 MESSAGE = <<eof
 Welcome to Better, *|member_first_name|*. *|pha_first_name|* will be available *|pha_next_available|* to help you start planning a family.
