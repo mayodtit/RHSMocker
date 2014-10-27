@@ -67,6 +67,8 @@ RHSMocker::Application.routes.draw do
         resources :services, only: [:index, :create], controller: 'member_services'
       end
       resources :message_templates, except: %i(new edit)
+      resources :nuxt_step, only: :index, controller: 'next_nux_step'
+      resources :next_nux_step, only: :index
       resources :onboarding_groups, only: %i(index show create update) do
         resources :users, only: %i(index create destroy), controller: 'onboarding_group_users'
       end
