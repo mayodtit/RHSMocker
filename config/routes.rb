@@ -53,6 +53,7 @@ RHSMocker::Application.routes.draw do
         get :onboarding_calls, on: :collection
       end
       resources :diseases, :only => :index, :controller => :conditions
+      resources :enrollments, only: %i(show create update)
       resources :ethnic_groups, :only => :index
       get 'factors/:symptom_id', to: 'factor_groups#index' # TODO - deprecated!
       resources :locations, :only => :create
@@ -66,6 +67,8 @@ RHSMocker::Application.routes.draw do
         resources :services, only: [:index, :create], controller: 'member_services'
       end
       resources :message_templates, except: %i(new edit)
+      resources :nuxt_step, only: :index, controller: 'next_nux_step'
+      resources :next_nux_step, only: :index
       resources :onboarding_groups, only: %i(index show create update) do
         resources :users, only: %i(index create destroy), controller: 'onboarding_group_users'
       end

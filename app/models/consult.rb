@@ -67,7 +67,10 @@ class Consult < ActiveRecord::Base
     Consult.transaction do
       consult = message.consult.lock!
 
-      if consult.active? && consult.messages.where(automated: false, system: false, note: false, off_hours: false).where('created_at > ?', message.created_at).count < 1
+      if consult.active? &&
+         consult.messages.
+           where(automated: false, note: false, off_hours: false).
+           where('(system IS NULL OR system = 0) AND (text IS NOT NULL OR image IS NOT NULL) AND created_at > ?', message.created_at).count < 1
         consult.deactivate!
       end
     end

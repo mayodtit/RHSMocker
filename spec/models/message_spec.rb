@@ -245,42 +245,108 @@ describe Message do
               Timecop.return
             end
 
-            context 'message is not from the user' do
+            context 'message has no text' do
               before do
-                message.stub(:user) { build_stubbed :pha }
-                consult.stub(:activate!)
+                message.stub(:text) { nil }
               end
 
-              it 'activates the consult' do
-                consult.should_receive(:activate!).with message
+              it 'message' do
+                consult.should_not_receive :activate!
+                Consult.should_not_receive :delay
                 message.activate_consult
               end
             end
 
-            context 'message is from the user' do
+            context 'message has text' do
               before do
-                message.stub(:user) { consult.initiator }
+                message.stub(:text) { 'poo' }
+                message.stub(:img) { nil }
               end
 
-              context 'consult needs response' do
+              context 'message is not from the user' do
                 before do
-                  consult.stub(:needs_response?) { true }
+                  message.stub(:user) { build_stubbed :pha }
+                  consult.stub(:activate!)
                 end
 
-                it 'doesn\'t flag the consult' do
-                  consult.should_not_receive :flag!
+                it 'activates the consult' do
+                  consult.should_receive(:activate!).with message
                   message.activate_consult
                 end
               end
 
-              context 'consult doesn\'t need response' do
+              context 'message is from the user' do
                 before do
-                  consult.stub(:needs_response?) { false }
+                  message.stub(:user) { consult.initiator }
                 end
 
-                it 'flags the consult' do
-                  consult.should_receive :flag!
+                context 'consult needs response' do
+                  before do
+                    consult.stub(:needs_response?) { true }
+                  end
+
+                  it 'doesn\'t flag the consult' do
+                    consult.should_not_receive :flag!
+                    message.activate_consult
+                  end
+                end
+
+                context 'consult doesn\'t need response' do
+                  before do
+                    consult.stub(:needs_response?) { false }
+                  end
+
+                  it 'flags the consult' do
+                    consult.should_receive :flag!
+                    message.activate_consult
+                  end
+                end
+              end
+            end
+
+            context 'message has image' do
+              before do
+                message.stub(:text) { nil }
+                message.stub(:image) { 'img' }
+              end
+
+              context 'message is not from the user' do
+                before do
+                  message.stub(:user) { build_stubbed :pha }
+                  consult.stub(:activate!)
+                end
+
+                it 'activates the consult' do
+                  consult.should_receive(:activate!).with message
                   message.activate_consult
+                end
+              end
+
+              context 'message is from the user' do
+                before do
+                  message.stub(:user) { consult.initiator }
+                end
+
+                context 'consult needs response' do
+                  before do
+                    consult.stub(:needs_response?) { true }
+                  end
+
+                  it 'doesn\'t flag the consult' do
+                    consult.should_not_receive :flag!
+                    message.activate_consult
+                  end
+                end
+
+                context 'consult doesn\'t need response' do
+                  before do
+                    consult.stub(:needs_response?) { false }
+                  end
+
+                  it 'flags the consult' do
+                    consult.should_receive :flag!
+                    message.activate_consult
+                  end
                 end
               end
             end

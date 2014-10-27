@@ -271,8 +271,8 @@ describe Consult do
         context 'some messages were added since' do
           context 'messages are automated' do
             before do
-              create :message, automated: true, created_at: 5.minutes.from_now
-              create :message, automated: true, created_at: 10.minutes.from_now
+              create :message, consult: consult, automated: true, created_at: 5.minutes.from_now, text: 'poo'
+              create :message, consult: consult, automated: true, created_at: 10.minutes.from_now, text: 'poo'
             end
 
             it 'deactivates the consult' do
@@ -283,8 +283,8 @@ describe Consult do
 
           context 'messages are after hours' do
             before do
-              create :message, off_hours: true, created_at: 5.minutes.from_now
-              create :message, off_hours: true, created_at: 10.minutes.from_now
+              create :message, consult: consult, off_hours: true, created_at: 5.minutes.from_now, text: 'poo'
+              create :message, consult: consult, off_hours: true, created_at: 10.minutes.from_now, text: 'poo'
             end
 
             it 'deactivates the consult' do
@@ -295,8 +295,8 @@ describe Consult do
 
           context 'messages are system' do
             before do
-              create :message, system: true, created_at: 5.minutes.from_now
-              create :message, system: true, created_at: 10.minutes.from_now
+              create :message, consult: consult, system: true, created_at: 5.minutes.from_now, text: 'poo'
+              create :message, consult: consult, system: true, created_at: 10.minutes.from_now, text: 'poo'
             end
 
             it 'deactivates the consult' do
@@ -307,13 +307,51 @@ describe Consult do
 
           context 'messages are notes' do
             before do
-              create :message, note: true, created_at: 5.minutes.from_now
-              create :message, note: true, created_at: 10.minutes.from_now
+              create :message, consult: consult, note: true, created_at: 5.minutes.from_now, text: 'poo'
+              create :message, consult: consult, note: true, created_at: 10.minutes.from_now, text: 'poo'
             end
 
             it 'deactivates the consult' do
               Consult.deactivate_if_last_message message.id
               consult.reload.should be_inactive
+            end
+          end
+
+          context 'messages are phone calls' do
+            before do
+              create :message, :with_phone_call, created_at: 5.minutes.from_now, text: nil, consult: consult
+              create :message, :with_phone_call_summary, created_at: 10.minutes.from_now, consult: consult
+            end
+
+            it 'deactivates the consult' do
+              Consult.deactivate_if_last_message message.id
+              consult.reload.should be_inactive
+            end
+          end
+
+          context 'messages are images' do
+            before do
+              message = create :message, consult: consult, created_at: 5.minutes.from_now
+              message.update_column :image, 'img'
+              message = create :message, consult: consult, created_at: 10.minutes.from_now
+              message.update_column :image, 'img'
+            end
+
+            it 'doesn\'t deactivate the consult' do
+              Consult.deactivate_if_last_message message.id
+              consult.reload.should_not be_inactive
+            end
+          end
+
+          context 'messages are text' do
+            before do
+              create :message, consult: consult, text: 'test', created_at: 5.minutes.from_now
+              create :message, consult: consult, text: 'test', created_at: 10.minutes.from_now
+            end
+
+            it 'doesn\'t deactivate the consult' do
+              Consult.deactivate_if_last_message message.id
+              consult.reload.should_not be_inactive
             end
           end
         end

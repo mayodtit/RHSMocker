@@ -80,6 +80,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:message_template).permit(:name, :text)
   end
 
+  def enrollment
+    params.fetch(:enrollment, {}).permit(:email, :first_name, :last_name, :birth_date, :advertiser_id, :time_zone)
+  end
+
   private
 
   def user_request_attributes
