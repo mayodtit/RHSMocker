@@ -45,7 +45,7 @@ describe 'Enrollments' do
       expect{ do_request(enrollment: enrollment_attributes) }.to change(Enrollment, :count).by(1)
       expect(response).to be_success
       body = JSON.parse(response.body, symbolize_names: true)
-      expect(body[:enrollment]).to eq(Enrollment.last.serializer.as_json.to_json)
+      expect(body[:enrollment].to_json).to eq(Enrollment.last.serializer.as_json.to_json)
     end
   end
 end
