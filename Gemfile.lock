@@ -170,7 +170,7 @@ GEM
     less-rails (2.2.6)
       actionpack (>= 3.1)
       less (~> 2.2.0)
-    libv8 (3.16.14.3)
+    libv8 (3.16.14.7)
     listen (0.7.3)
     lumberjack (1.0.3)
     mail (2.5.4)
