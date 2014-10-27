@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141027192836) do
+ActiveRecord::Schema.define(:version => 20141027195846) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -287,6 +287,8 @@ ActiveRecord::Schema.define(:version => 20141027192836) do
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
   end
+
+  add_index "enrollments", ["token"], :name => "index_enrollments_on_token"
 
   create_table "ethnic_groups", :force => true do |t|
     t.string   "name",           :default => "", :null => false
