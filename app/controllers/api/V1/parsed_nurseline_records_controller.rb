@@ -4,8 +4,7 @@ class Api::V1::ParsedNurselineRecordsController < Api::V1::ABaseController
   before_filter :load_parsed_nurseline_record!, only: :show
 
   def index
-    parsed_nurseline_records_desc = @parsed_nurseline_records.order('created_at DESC')
-    index_resource parsed_nurseline_records_desc.serializer
+    index_resource @parsed_nurseline_records.order('created_at DESC').serializer
   end
 
   def show
