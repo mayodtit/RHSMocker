@@ -16,7 +16,7 @@ class TaskChange < ActiveRecord::Base
     if event == "update"
       PubSub.publish "/users/#{data["owner_id"].second}/tasks/owned/notification", {msg: "A task has been assigned to you.", id: task_id}
     end
-    if task.state == "unstarted"
+    if event.nil? && task.owner_id.nil?
       Role.pha.users.where(on_call: true).each do |pha|
         PubSub.publish "/users/#{pha.id}/tasks/owned/notification", {msg: "A new unassigned task has been created", id: task_id}
       end
