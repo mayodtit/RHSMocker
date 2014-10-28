@@ -6,6 +6,7 @@
    diets
    ethnic_groups
    messages
+   nux
    roles
    service_types
    user_requests
