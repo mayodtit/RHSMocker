@@ -13,98 +13,33 @@ class TaskChange < ActiveRecord::Base
 
 
   def publish
-    if event == 'update'
-      case task.type
-        when 'MemberTask'
-          if actor.email.include? "+robot"
-            message = "Better Bot assigned you a #{task.service_type.bucket} task"
-          else
-            message = "#{actor.first_name} assigned you a #{task.service_type.bucket} task"
-          end
-        when 'PhoneCallTask'
-          if actor.email.include? "+robot"
-            message = 'Better Bot assigned you to a call'
-          else
-            message = "#{actor.first_name} assigned you to a call"
-          end
-        when 'MessageTask'
-          if actor.email.include? "+robot"
-            message = 'Better Bot assigned you a message'
-          else
-            message = "#{actor.first_name} assigned you a message"
-          end
-        when 'UserRequestTask'
-          if actor.email.include? "+robot"
-            message = 'Better Bot assigned you an appointment request'
-          else
-            message = "#{actor.first_name} assigned you a"
-          end
-        when 'ParsedNurselineRecordTask'
-          if actor.email.include? "+robot"
-            message = 'Better Bot assigned you a nurseline summary'
-          else
-            message = "#{actor.first_name} assigned you a nurseline sumamry"
-          end
-        when 'UpgradeTask'
-          if actor.email.include? "+robot"
-            message = 'Better Bot assigned you a user upgrade task'
-          else
-            message = "#{actor.first_name} assigned you a user upgrade task"
-          end
-        when 'OffboardMemberTask'
-          if actor.email.include? "+robot"
-            message = 'Better Bot assigned you an offboard task'
-          else
-            message = "#{actor.first_name} assigned you an offboard task"
-          end
+
+    if actor.email.include? "+robot"
+      actor_name = 'Better Bot'
+    else
+      actor_name = actor.first_name
+    end
+
+    if (event == 'update' && data.has_key?('owner_id')) || (event.nil? && !task.owner_id.nil? && task.owner_id != actor_id)
+      if !data['owner_id'].second.nil? && data['owner_id'].second != actor_id
+        case task.type
+          when 'MemberTask'
+            message = "#{actor_name} assigned you a #{task.service_type.bucket} task"
+          when 'PhoneCallTask'
+            message = "#{actor_name} assigned you to a call"
+          when 'MessageTask'
+            message = "#{actor_name} assigned you a message"
+          when 'UserRequestTask'
+            message = "#{actor_name} assigned you an appointment request"
+          when 'ParsedNurselineRecordTask'
+            message = "#{actor_name} assigned you a nurseline sumamry"
+          when 'UpgradeTask'
+            message = "#{actor_name} assigned you a user upgrade task"
+          when 'OffboardMemberTask'
+            message = "#{actor_name} assigned you an offboard task"
+        end
+        PubSub.publish "/users/#{task.owner_id}/tasks/owned/notification", {msg: message, id: task_id, assignedTo: task.owner_id}
       end
-      PubSub.publish "/users/#{data["owner_id"].second}/tasks/owned/notification", {msg: message, id: task_id, assignedTo: task.owner_id}
-    elsif event.nil? && !task.owner_id.nil?
-      case task.type
-        when 'MemberTask'
-          if actor.email.include? "+robot"
-            message = "Better Bot assigned you a #{task.service_type.bucket} task"
-          else
-            message = "#{actor.first_name} assigned you a #{task.service_type.bucket} task"
-          end
-        when 'PhoneCallTask'
-          if actor.email.include? "+robot"
-            message = 'Better Bot assigned you to a phone call'
-          else
-            message = "#{actor.first_name} assigned you to a phone call"
-          end
-        when 'MessageTask'
-          if actor.email.include? "+robot"
-            message = 'Better Bot assigned you a message'
-          else
-            message = "#{actor.first_name} assigned you a message"
-          end
-        when 'UserRequestTask'
-          if actor.email.include? "+robot"
-            message = 'Better Bot assigned you an appointment request'
-          else
-            message = "#{actor.first_name} assigned you an appointment request"
-          end
-        when 'ParsedNurselineRecordTask'
-          if actor.email.include? "+robot"
-            message = 'Better Bot assigned you a nurseline summary'
-          else
-            message = "#{actor.first_name} assigned you a nurseline sumamry"
-          end
-        when 'UpgradeTask'
-          if actor.email.include? "+robot"
-            message = 'Better Bot assigned you a user upgrade task'
-          else
-            message = "#{actor.first_name} assigned you a user upgrade task"
-          end
-        when 'OffboardMemberTask'
-          if actor.email.include? "+robot"
-            message = 'Better Bot assigned you an offboard task'
-          else
-            message = "#{actor.first_name} assigned you an offboard task"
-          end
-      end
-      PubSub.publish "/users/#{task.owner_id}/tasks/owned/notification", {msg: message, id: task_id, assignedTo: task.owner_id}
     elsif event.nil? && task.owner_id.nil?
       case task.type
         when 'MemberTask', 'task', 'member'
