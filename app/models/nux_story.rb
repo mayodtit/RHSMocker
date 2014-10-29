@@ -10,4 +10,12 @@ class NuxStory < ActiveRecord::Base
   def self.enabled
     where('ordinal IS NOT NULL').order(:ordinal)
   end
+
+  def self.trial
+    find_by_unique_id('TRIAL')
+  end
+
+  def self.sign_up_success
+    find_by_unique_id('SIGN_UP_SUCCESS')
+  end
 end

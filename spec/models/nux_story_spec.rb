@@ -7,4 +7,21 @@ describe NuxStory do
   it_validates 'presence of', :unique_id
   it_validates 'inclusion of', :show_nav_signup
   it_validates 'uniqueness of', :unique_id
+  it_validates 'allows blank uniqueness of', :ordinal
+
+  describe '::trial' do
+    let!(:nux_story) { create(:nux_story, unique_id: 'TRIAL') }
+
+    it 'returns the trial story' do
+      expect(described_class.trial).to eq(nux_story)
+    end
+  end
+
+  describe '::sign_up_success' do
+    let!(:nux_story) { create(:nux_story, unique_id: 'SIGN_UP_SUCCESS') }
+
+    it 'returns the credit card story' do
+      expect(described_class.sign_up_success).to eq(nux_story)
+    end
+  end
 end
