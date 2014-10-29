@@ -9,5 +9,6 @@ eof
   NuxStory.upsert_attributes({unique_id: "PLACEHOLDER-STORY-#{i}"},
                              {html: LOREM_IPSUM,
                               action_button_text: 'Next',
-                              show_nav_signup: true})
+                              show_nav_signup: true,
+                              ordinal: i})
 end

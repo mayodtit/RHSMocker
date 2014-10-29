@@ -97,6 +97,6 @@ class Api::V1::PingController < Api::V1::ABaseController
   end
 
   def stories
-    NuxStory.all.serializer.as_json
+    NuxStory.enabled.serializer.as_json
   end
 end
