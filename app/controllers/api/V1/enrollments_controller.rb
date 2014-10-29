@@ -19,6 +19,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   def update
     if @enrollment.update_attributes(permitted_params.enrollment)
       render_success(enrollment: @enrollment.serializer,
+                     next_action: next_action,
                      trial_story: trial_story,
                      success_story: success_story)
     else
@@ -34,6 +35,10 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
 
   def stories
     NuxStory.enabled.serializer.as_json
+  end
+
+  def next_action
+    'credit_card'
   end
 
   def trial_story
