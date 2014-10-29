@@ -11,17 +11,14 @@ class TaskChange < ActiveRecord::Base
 
   after_create :publish
 
-
   def publish
-
     if actor.email.include? "+robot"
       actor_name = 'Better Bot'
     else
       actor_name = actor.first_name
     end
     # For existing tasks assigned to someone
-    if event == 'update' && data.has_key?('owner_id')
-      if data['owner_id'].second != actor_id
+    if event == 'update' && data.has_key?('owner_id') && data['owner_id'].second != actor_id
         case task.type
           when 'MemberTask'
             message = "#{actor_name} assigned you a #{task.service_type.bucket} task"
@@ -39,7 +36,6 @@ class TaskChange < ActiveRecord::Base
             message = "#{actor_name} assigned you an offboard task"
         end
         PubSub.publish "/users/#{task.owner_id}/tasks/owned/notification", {msg: message, id: task_id, assignedTo: task.owner_id}
-      end
     # For new tasks assigned to someone
     elsif (event.nil? && !task.owner_id.nil? && task.owner_id != actor_id)
         case task.type
@@ -59,10 +55,10 @@ class TaskChange < ActiveRecord::Base
             message = "#{actor_name} assigned you an offboard task"
         end
         PubSub.publish "/users/#{task.owner_id}/tasks/owned/notification", {msg: message, id: task_id, assignedTo: task.owner_id}
-    # For new tasks unassigned
+    # For new unassigned tasks
     elsif event.nil? && task.owner_id.nil?
       case task.type
-        when 'MemberTask', 'task', 'member'
+        when 'MemberTask'
           message = "New #{task.service_type.bucket} task"
         when 'PhoneCallTask'
           message = "New inbound phone call"
@@ -82,8 +78,8 @@ class TaskChange < ActiveRecord::Base
       end
     end
   end
+
   def set_created_at
     self.created_at = Time.now unless self.created_at
   end
-
 end
