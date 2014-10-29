@@ -7,7 +7,13 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   def create
-    create_resource Enrollment, permitted_params.enrollment
+    @enrollment = Enrollment.create permitted_params.enrollment
+    if @enrollment.errors.empty?
+      render_success(enrollment: @enrollment.serializer,
+                     stories: stories)
+    else
+      render_failure({reason: @enrollment.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   def update
@@ -18,5 +24,9 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
 
   def load_enrollment!
     @enrollment = Enrollment.find_by_token!(params[:id])
+  end
+
+  def stories
+    NuxStory.all.serializer.as_json
   end
 end
