@@ -17,7 +17,13 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   def update
-    update_resource @enrollment, permitted_params.enrollment
+    if @enrollment.update_attributes(permitted_params.enrollment)
+      render_success(enrollment: @enrollment.serializer,
+                     trial_story: trial_story,
+                     success_story: success_story)
+    else
+      render_failure({reason: @enrollment.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   private
@@ -27,6 +33,14 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   def stories
-    NuxStory.all.serializer.as_json
+    NuxStory.enabled.serializer.as_json
+  end
+
+  def trial_story
+    NuxStory.trial.try(:serializer)
+  end
+
+  def success_story
+    NuxStory.sign_up_success.try(:serializer)
   end
 end
