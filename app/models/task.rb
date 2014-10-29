@@ -228,7 +228,7 @@ class Task < ActiveRecord::Base
       :completed_at,
       :abandoned_at,
       :assignor_id)
-    changes.empty? ? nil : changes.to_s
+    changes.empty? ? nil : changes
   end
 
   def track_update
