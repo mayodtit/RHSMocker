@@ -102,6 +102,16 @@ PHA_ATTRIBUTES = [
     arrow_image: 'crystal-arrow.png',
     avatar_image: 'crystal-avatar.jpg',
     bio_image: 'crystal-bio_image.png'
+  },
+  {
+    email: 'elbret@getbetter.com',
+    first_name: 'Elbret',
+    last_name: 'B',
+    bio: "Elbret is experienced in patient advocacy, health education and awareness, and insurance issues. In her free time, she enjoys cardio kickboxing classes and reading interior design magazines.",
+    first_person_bio: "I’m experienced in patient advocacy, health education and awareness, and insurance issues. In my free time, I enjoy cardio kickboxing classes and reading interior design magazines.",
+    arrow_image: 'elbret-arrow.png',
+    avatar_image: 'elbret-avatar.jpg',
+    bio_image: 'elbret-bio_image.png'
   }
 ]
 
