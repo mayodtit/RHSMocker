@@ -366,21 +366,38 @@ describe ScheduledJobs do
         Metadata.stub(:force_phas_on_call?) { true }
       end
 
-      it 'sends a message to each stakeholder' do
-        Role.stub(:pha_stakeholders) { stakeholders }
-        TwilioModule.should_receive(:message).with(
-          nil,
-          "ALERT: PHAs are currently forced on call till 9PM PDT."
-        )
-        TwilioModule.should_receive(:message).with(
-          '1111111111',
-          "ALERT: PHAs are currently forced on call till 9PM PDT."
-        )
-        TwilioModule.should_receive(:message).with(
-          '4083913578',
-          "ALERT: PHAs are currently forced on call till 9PM PDT."
-        )
-        ScheduledJobs.alert_stakeholders_when_phas_forced_on_call
+      context 'during business time' do
+        before do
+          Time.any_instance.stub(:business_time?) { true }
+        end
+
+        it 'does nothing' do
+          TwilioModule.should_not_receive :message
+          ScheduledJobs.alert_stakeholders_when_phas_forced_on_call
+        end
+      end
+
+      context 'not during business time' do
+        before do
+          Time.any_instance.stub(:business_time?) { false }
+        end
+
+        it 'sends a message to each stakeholder' do
+          Role.stub(:pha_stakeholders) { stakeholders }
+          TwilioModule.should_receive(:message).with(
+            nil,
+            "ALERT: PHAs are currently forced on call till 9PM PDT."
+          )
+          TwilioModule.should_receive(:message).with(
+            '1111111111',
+            "ALERT: PHAs are currently forced on call till 9PM PDT."
+          )
+          TwilioModule.should_receive(:message).with(
+            '4083913578',
+            "ALERT: PHAs are currently forced on call till 9PM PDT."
+          )
+          ScheduledJobs.alert_stakeholders_when_phas_forced_on_call
+        end
       end
     end
 

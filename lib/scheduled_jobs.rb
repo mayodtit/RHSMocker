@@ -117,7 +117,7 @@ class ScheduledJobs
   end
 
   def self.alert_stakeholders_when_phas_forced_on_call
-    if Metadata.force_phas_on_call? && Time.now.business_time?
+    if Metadata.force_phas_on_call? && !Time.now.business_time?
       body = "ALERT: PHAs are currently forced on call till 9PM PDT."
 
       Role.pha_stakeholders.each do |s|
