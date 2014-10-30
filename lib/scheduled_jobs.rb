@@ -111,6 +111,7 @@ class ScheduledJobs
     m = Metadata.find_by_mkey 'force_phas_on_call'
 
     if m && m.mvalue == 'true' && Time.now.pacific.hour() >= 21
+      Rails.logger.info "Unforcing PHAs on call at #{Time.now.pacific}"
       m.mvalue = 'false'
       m.save!
     end
