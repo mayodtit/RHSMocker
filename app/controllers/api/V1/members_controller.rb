@@ -6,6 +6,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
   before_filter :load_member_from_login!, only: :secure_update
   before_filter :load_referral_code!, only: :create
   before_filter :load_onboarding_group!, only: :create
+  before_filter :load_enrollment!, only: :create
   before_filter :convert_parameters!, only: [:create, :update, :update_current]
 
   def index
@@ -125,6 +126,10 @@ class Api::V1::MembersController < Api::V1::ABaseController
     @onboarding_group ||= OnboardingGroup.find_by_name('Generic 14-day trial onboarding group') if Metadata.signup_free_trial?
   end
 
+  def load_enrollment!
+    @enrollment = Enrollment.find_by_token(user_params[:enrollment_token]) if user_params[:enrollment_token]
+  end
+
   def convert_parameters!
     user_params[:avatar] = decode_b64_image(user_params[:avatar]) if user_params[:avatar]
     %w(user_information address insurance_policy provider emergency_contact).each do |key|
@@ -171,6 +176,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
     permitted_params.user.tap do |attributes|
       attributes[:referral_code] = @referral_code if @referral_code
       attributes[:onboarding_group] = @onboarding_group if @onboarding_group
+      attributes[:enrollment] = @enrollment if @enrollment
       attributes[:time_zone] = params[:device_properties].try(:[], :device_timezone)
     end
   end
