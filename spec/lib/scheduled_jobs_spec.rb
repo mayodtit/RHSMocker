@@ -323,7 +323,7 @@ describe ScheduledJobs do
 
         context 'past 9PM' do
           before do
-            Timecop.freeze Time.parse('October 29, 2014, 9:00PM')
+            Timecop.freeze Time.parse('October 29, 2014, 9:00PM PDT')
           end
 
           after do
