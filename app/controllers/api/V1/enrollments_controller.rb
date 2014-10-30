@@ -12,7 +12,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
       render_success(enrollment: @enrollment.serializer,
                      stories: stories)
     else
-      render_failure({reason: @enrollment.errors.full_messages.to_sentence}, 422)
+      render_failure({reason: enrollment_errors}, 422)
     end
   end
 
@@ -23,7 +23,8 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
                      trial_story: trial_story,
                      success_story: success_story)
     else
-      render_failure({reason: @enrollment.errors.full_messages.to_sentence}, 422)
+      render_failure({reason: enrollment_errors,
+                      user_message: enrollment_errors}, 422)
     end
   end
 
@@ -47,5 +48,9 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
 
   def success_story
     NuxStory.sign_up_success.try(:serializer)
+  end
+
+  def enrollment_errors
+    @enrollment.errors.full_messages.to_sentence
   end
 end
