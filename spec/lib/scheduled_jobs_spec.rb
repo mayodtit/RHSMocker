@@ -139,15 +139,15 @@ describe ScheduledJobs do
         Role.stub(:pha_stakeholders) { stakeholders }
         TwilioModule.should_receive(:message).with(
           nil,
-          "ALERT: PHAs are currently forced after hours. This can be changed via the Care Portal."
+          "ALERT: PHAs are currently forced after hours."
         )
         TwilioModule.should_receive(:message).with(
           '1111111111',
-          "ALERT: PHAs are currently forced after hours. This can be changed via the Care Portal."
+          "ALERT: PHAs are currently forced after hours."
         )
         TwilioModule.should_receive(:message).with(
           '4083913578',
-          "ALERT: PHAs are currently forced after hours. This can be changed via the Care Portal."
+          "ALERT: PHAs are currently forced after hours."
         )
         ScheduledJobs.alert_stakeholders_when_phas_forced_off_call
       end
@@ -296,6 +296,119 @@ describe ScheduledJobs do
         OffboardMemberTask.where(member_id: expiring_member).count.should == 0
         OffboardMemberTask.where(member_id: another_expiring_member).count.should == 0
         OffboardMemberTask.where(member_id: premium_member).count.should == 0
+      end
+    end
+  end
+
+  describe '#unforce_phas_on_call' do
+    context 'metadata does not exist' do
+      it 'does nothing if phas are not forced on call' do
+        Metadata.any_instance.should_not_receive(:save!)
+        ScheduledJobs.unforce_phas_on_call()
+      end
+    end
+
+    context 'metadata exists' do
+      context 'its false' do
+        let!(:m) { Metadata.create mkey: :force_phas_on_call, mvalue: 'false' }
+
+        it 'does nothing if phas are not forced on call' do
+          Metadata.any_instance.should_not_receive(:save!)
+          ScheduledJobs.unforce_phas_on_call()
+        end
+      end
+
+      context 'its true' do
+        let!(:m) { Metadata.create mkey: :force_phas_on_call, mvalue: 'true' }
+
+        context 'past 9PM' do
+          before do
+            Timecop.freeze Time.parse('October 29, 2014, 9:00PM')
+          end
+
+          after do
+            Timecop.return
+          end
+
+          it 'sets it to false' do
+            ScheduledJobs.unforce_phas_on_call
+            m = Metadata.find_by_mkey :force_phas_on_call
+            m.should be_present
+            m.mvalue.should == 'false'
+          end
+        end
+
+        context 'before 9PM' do
+          before do
+            Timecop.freeze Time.parse('October 29, 2014, 8:55PM')
+          end
+
+          after do
+            Timecop.return
+          end
+
+          it 'does nothing' do
+            Metadata.any_instance.should_not_receive :save!
+            ScheduledJobs.unforce_phas_on_call
+            m = Metadata.find_by_mkey :force_phas_on_call
+            m.should be_present
+            m.mvalue.should == 'true'
+          end
+        end
+      end
+    end
+  end
+
+  describe '#alert_stakeholders_when_phas_forced_on_call' do
+    context 'phas forced off call' do
+      let(:stakeholders) { [build_stubbed(:member), build_stubbed(:pha_lead, text_phone_number: '1111111111'), build_stubbed(:pha_lead, text_phone_number: '4083913578')] }
+      before do
+        Metadata.stub(:force_phas_on_call?) { true }
+      end
+
+      context 'during business time' do
+        before do
+          Time.any_instance.stub(:business_time?) { true }
+        end
+
+        it 'does nothing' do
+          TwilioModule.should_not_receive :message
+          ScheduledJobs.alert_stakeholders_when_phas_forced_on_call
+        end
+      end
+
+      context 'not during business time' do
+        before do
+          Time.any_instance.stub(:business_time?) { false }
+        end
+
+        it 'sends a message to each stakeholder' do
+          Role.stub(:pha_stakeholders) { stakeholders }
+          TwilioModule.should_receive(:message).with(
+            nil,
+            "ALERT: PHAs are currently forced on call till 9PM PDT."
+          )
+          TwilioModule.should_receive(:message).with(
+            '1111111111',
+            "ALERT: PHAs are currently forced on call till 9PM PDT."
+          )
+          TwilioModule.should_receive(:message).with(
+            '4083913578',
+            "ALERT: PHAs are currently forced on call till 9PM PDT."
+          )
+          ScheduledJobs.alert_stakeholders_when_phas_forced_on_call
+        end
+      end
+    end
+
+    context 'phas not forced off call' do
+      before do
+        Metadata.stub(:force_phas_on_call?) { false }
+      end
+
+      it 'does nothing' do
+        TwilioModule.should_not_receive :message
+        ScheduledJobs.alert_stakeholders_when_phas_forced_on_call
       end
     end
   end

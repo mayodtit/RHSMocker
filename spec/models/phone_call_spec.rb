@@ -1719,38 +1719,17 @@ describe PhoneCall do
 
       it_behaves_like 'cannot transition from', :claim!, [:merged, :dialing, :connected, :missed]
 
-      context 'to a pha' do
-        before do
-          phone_call.stub(:to_pha?) { true }
-          phone_call.claim!
-        end
-
-        it 'changes the state to dialing' do
-          phone_call.should be_dialing
-        end
-
-        it 'sets the claimed time' do
-          phone_call.claimed_at.should == Time.now
-        end
-
-        it 'sets the dialer to claimer' do
-          phone_call.dialer.should == phone_call.claimer
-        end
+      before do
+        phone_call.stub(:to_pha?) { false }
+        phone_call.claim!
       end
 
-      context  'to a nurse' do
-        before do
-          phone_call.stub(:to_pha?) { false }
-          phone_call.claim!
-        end
+      it 'changes the state to claimed' do
+        phone_call.should be_claimed
+      end
 
-        it 'changes the state to claimed' do
-          phone_call.should be_claimed
-        end
-
-        it 'sets the claimed time' do
-          phone_call.claimed_at.should == Time.now
-        end
+      it 'sets the claimed time' do
+        phone_call.claimed_at.should == Time.now
       end
     end
 

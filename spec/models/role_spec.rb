@@ -59,6 +59,23 @@ describe Role do
         role.should_not be_on_call
       end
 
+      it 'accepts calls when PHAs are forced on call' do
+        Metadata.stub(:force_phas_on_call?) { true }
+
+        time.stub(:wday) { 6 }
+        role.should be_on_call
+
+        time.stub(:wday) { 0 }
+        role.should be_on_call
+
+        time.stub(:wday) { 1 }
+        time.stub(:hour) { ON_CALL_START_HOUR - 1 }
+        role.should be_on_call
+
+        time.stub(:wday) { 1 }
+        time.stub(:hour) { ON_CALL_END_HOUR }
+        role.should be_on_call
+      end
     end
 
     context 'nurse' do
