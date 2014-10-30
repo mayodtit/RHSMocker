@@ -31,10 +31,12 @@ ServiceType.find_or_create_by_name(name: 'other care coordination', bucket: 'car
 # Engagement --
 ServiceType.find_or_create_by_name(name: 'welcome call', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'check-in call', bucket: 'engagement')
+ServiceType.find_or_create_by_name(name: 'collect member due date', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'outbound call', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'member onboarding', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'member offboarding', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'preventive care reminders', bucket: 'engagement')
+ServiceType.find_or_create_by_name(name: 'send pregnancy content card', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 're-engagement', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'relevant content', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'themed months questions and content', bucket: 'engagement')

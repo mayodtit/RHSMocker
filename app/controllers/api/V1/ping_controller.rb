@@ -10,7 +10,8 @@ class Api::V1::PingController < Api::V1::ABaseController
       revision: REVISION,
       use_invite_flow: Metadata.use_invite_flow?,
       enable_sharing: Metadata.enable_sharing?,
-      nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer }
+      nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer },
+      stories: stories
     }
 
     if current_user
@@ -93,5 +94,9 @@ class Api::V1::PingController < Api::V1::ABaseController
     unless changed_attributes.empty?
       current_user.update_attributes!(changed_attributes)
     end
+  end
+
+  def stories
+    NuxStory.enabled.serializer.as_json
   end
 end

@@ -114,4 +114,26 @@ describe TimeExtension do
       end
     end
   end
+
+  describe '#is_business_time?' do
+    it 'returns true when time is on workday and during business hours' do
+      t = Time.parse("October 31st, 2014, 3:00pm PDT")
+      t.should be_business_time
+    end
+
+    it 'returns false when time is not on workday' do
+      t = Time.parse("November 1st, 2014, 3:00pm PDT")
+      t.should_not be_business_time
+    end
+
+    it 'returns false when time is before start of business hours' do
+      t = Time.parse("October 31st, 2014, 5:00am PDT")
+      t.should_not be_business_time
+    end
+
+    it 'returns false when time is after end of business hours' do
+      t = Time.parse("October 31st, 2014, 9:00pm PDT")
+      t.should_not be_business_time
+    end
+  end
 end

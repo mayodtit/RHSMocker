@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141022162357) do
+ActiveRecord::Schema.define(:version => 20141029185106) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -274,6 +274,22 @@ ActiveRecord::Schema.define(:version => 20141022162357) do
     t.datetime "updated_at",   :null => false
   end
 
+  create_table "enrollments", :force => true do |t|
+    t.string   "token"
+    t.string   "email"
+    t.string   "crypted_password"
+    t.string   "salt"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.date     "birth_date"
+    t.string   "advertiser_id"
+    t.string   "time_zone"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
+
+  add_index "enrollments", ["token"], :name => "index_enrollments_on_token"
+
   create_table "ethnic_groups", :force => true do |t|
     t.string   "name",           :default => "", :null => false
     t.datetime "created_at",                     :null => false
@@ -444,6 +460,16 @@ ActiveRecord::Schema.define(:version => 20141022162357) do
     t.boolean  "active",     :default => true, :null => false
     t.integer  "ordinal"
     t.text     "phrase"
+  end
+
+  create_table "nux_stories", :force => true do |t|
+    t.text     "html"
+    t.string   "action_button_text"
+    t.boolean  "show_nav_signup"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.string   "unique_id"
+    t.integer  "ordinal"
   end
 
   create_table "onboarding_group_cards", :force => true do |t|

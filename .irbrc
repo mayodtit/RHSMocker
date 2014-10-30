@@ -21,3 +21,19 @@ end
 def jenn
   @jenn ||= Member.find_by_email('jenn@getbetter.com')
 end
+
+def ann
+  @ann ||= Member.find_by_email('ann@getbetter.com')
+end
+
+def jacqui
+  @jacqui ||= Member.find_by_email('jacqueline@getbetter.com')
+end
+
+def crystal
+  @crystal ||= Member.find_by_email('crystal@getbetter.com')
+end
+
+def elbret
+  @elbret ||= Member.find_by_email('elbret@getbetter.com')
+end
