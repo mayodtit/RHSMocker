@@ -1,8 +1,11 @@
 class Enrollment < ActiveRecord::Base
+  belongs_to :user, class_name: 'Member', inverse_of: :enrollment
+
   attr_accessible :token, :email, :first_name, :last_name, :birth_date,
-                  :advertiser_id, :time_zone, :password
+                  :advertiser_id, :time_zone, :password, :user, :user_id
   attr_accessor :password
 
+  validates :user, presence: true, if: ->(e){e.user_id}
   validates :token, presence: true, uniqueness: true
   validates :email, uniqueness: true, allow_nil: true
   validates :password, length: {minimum: 8,
