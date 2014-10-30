@@ -293,7 +293,9 @@ class Member < User
   end
 
   def initial_state
-    if password.present? || crypted_password.present?
+    if enrollment.present?
+      :premium
+    elsif password.present? || crypted_password.present?
       next_state
     else
       :invited
