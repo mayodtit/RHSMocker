@@ -62,8 +62,6 @@ class TaskChange < ActiveRecord::Base
           message = "New #{task.service_type.bucket} task"
         when 'PhoneCallTask'
           message = "New inbound phone call"
-        when 'MessageTask'
-          message = "New inbound message"
         when 'UserRequestTask'
           message = "New appointment request"
         when 'ParsedNurselineRecordTask'
