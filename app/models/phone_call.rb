@@ -44,7 +44,7 @@ class PhoneCall < ActiveRecord::Base
   before_validation :set_creator, on: :create
 
   after_create :dial_if_outbound
-  after_save :publish
+  after_commit :publish
   after_save :create_task
   after_save :create_message_if_user_updated
   after_save :set_user_phone
