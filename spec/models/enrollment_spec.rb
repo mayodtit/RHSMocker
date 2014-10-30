@@ -10,6 +10,7 @@ describe Enrollment do
     it_validates 'presence of', :token
   end
 
+  it_validates 'foreign key of', :user
   it_validates 'uniqueness of', :token
   it_validates 'allows blank uniqueness of', :email
 
