@@ -9,7 +9,7 @@ class TaskChange < ActiveRecord::Base
 
   before_validation :set_created_at
 
-  after_create :publish
+  after_commit :publish
 
   def publish
     if actor.email.include? "+robot"
