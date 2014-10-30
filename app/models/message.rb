@@ -35,7 +35,7 @@ class Message < ActiveRecord::Base
 
   before_validation :set_user_from_association, on: :create
   before_validation :attach_user_image, if: ->(m){m.user_image_client_guid}
-  after_create :publish
+  after_commit :publish, on: :create
   after_create :notify_initiator
   after_create :create_task
   after_create :update_initiator_last_contact_at

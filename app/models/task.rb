@@ -35,7 +35,7 @@ class Task < ActiveRecord::Base
   before_validation :set_priority, on: :create
   before_validation :set_assigned_at
 
-  after_save :publish
+  after_commit :publish
   after_save :notify
   after_commit :track_update, on: :update
 
