@@ -39,4 +39,14 @@ namespace :scheduled do
   task :offboard_free_trial_members => :environment do
     ScheduledJobs.offboard_free_trial_members
   end
+
+  desc 'Unforce phas of call'
+  task :unforce_phas_on_call => :environment do
+    ScheduledJobs.unforce_phas_on_call
+  end
+
+  desc 'Alert stakeholders when phas forced on call'
+  task :alert_stakeholders_when_phas_forced_on_call => :environment do
+    ScheduledJobs.alert_stakeholders_when_phas_forced_on_call
+  end
 end

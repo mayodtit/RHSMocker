@@ -56,6 +56,21 @@ module TimeExtension
       end
     end
   end
+
+  def business_time?
+    prev_global_time_zone = Time.zone
+
+    # Perform all calculations in Pacific timezone
+    Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+
+    self_in_time_zone = self.in_time_zone Time.zone
+    is_business_time = Time.workday?(self_in_time_zone) && !(Time.before_business_hours?(self_in_time_zone) || Time.after_business_hours?(self_in_time_zone))
+
+    # Restore global time zone
+    Time.zone = prev_global_time_zone
+
+    is_business_time
+  end
 end
 
 Time.send(:include, TimeExtension)

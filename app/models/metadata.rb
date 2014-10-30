@@ -5,6 +5,7 @@ class Metadata < ActiveRecord::Base
   validates :mkey, uniqueness: true
 
   after_save :alert_stakeholders_when_phas_forced_off_call
+  after_save :alert_stakeholders_when_phas_forced_on_call
 
   def self.to_hash
     all.inject({}){|hash, metadata| hash[metadata.mkey] = metadata.mvalue; hash}
@@ -73,6 +74,10 @@ class Metadata < ActiveRecord::Base
     Metadata.find_by_mkey('force_phas_off_call').try(:mvalue) == 'true'
   end
 
+  def self.force_phas_on_call?
+    Metadata.find_by_mkey('force_phas_on_call').try(:mvalue) == 'true'
+  end
+
   def self.enable_sharing?
     Metadata.find_by_mkey('enable_sharing').try(:mvalue) == 'true'
   end
@@ -104,6 +109,16 @@ class Metadata < ActiveRecord::Base
   def alert_stakeholders_when_phas_forced_off_call
     if mkey == 'force_phas_off_call' && mvalue_changed?
       ScheduledJobs.alert_stakeholders_when_phas_forced_off_call
+    end
+  end
+
+  def alert_stakeholders_when_phas_forced_on_call
+    return unless mkey == 'force_phas_on_call'
+
+    body = mvalue == 'true' ? "ALERT: PHAs are currently forced on call till 9PM PDT." : "OK: PHAs are no longer forced on call."
+
+    Role.pha_stakeholders.each do |s|
+      TwilioModule.message s.text_phone_number, body
     end
   end
 
