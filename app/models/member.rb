@@ -412,13 +412,17 @@ class Member < User
   end
 
   def set_pha
-    next_pha_profile = if onboarding_group.try(:mayo_pilot?)
-                         PhaProfile.next_pha_profile(true)
-                       else
-                         PhaProfile.next_pha_profile(false, nux_answer)
-                       end
-    self.pha ||= next_pha_profile.try(:user)
-    self.service_experiment = next_pha_profile.try(:nux_answer).present?
+    if onboarding_group.try(:pha)
+      self.pha ||= onboarding_group.pha
+    else
+      next_pha_profile = if onboarding_group.try(:mayo_pilot?)
+                           PhaProfile.next_pha_profile(true)
+                         else
+                           PhaProfile.next_pha_profile(false, nux_answer)
+                         end
+      self.pha ||= next_pha_profile.try(:user)
+      self.service_experiment = next_pha_profile.try(:nux_answer).present?
+    end
     true
   end
 
