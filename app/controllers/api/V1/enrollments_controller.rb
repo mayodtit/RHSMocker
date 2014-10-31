@@ -12,17 +12,19 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
       render_success(enrollment: @enrollment.serializer,
                      stories: stories)
     else
-      render_failure({reason: @enrollment.errors.full_messages.to_sentence}, 422)
+      render_failure({reason: enrollment_errors}, 422)
     end
   end
 
   def update
     if @enrollment.update_attributes(permitted_params.enrollment)
       render_success(enrollment: @enrollment.serializer,
+                     next_action: next_action,
                      trial_story: trial_story,
                      success_story: success_story)
     else
-      render_failure({reason: @enrollment.errors.full_messages.to_sentence}, 422)
+      render_failure({reason: enrollment_errors,
+                      user_message: enrollment_errors}, 422)
     end
   end
 
@@ -36,11 +38,19 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
     NuxStory.enabled.serializer.as_json
   end
 
+  def next_action
+    'credit_card'
+  end
+
   def trial_story
     NuxStory.trial.try(:serializer)
   end
 
   def success_story
     NuxStory.sign_up_success.try(:serializer)
+  end
+
+  def enrollment_errors
+    @enrollment.errors.full_messages.to_sentence
   end
 end

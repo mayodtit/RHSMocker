@@ -35,7 +35,7 @@ class ScheduledJobs
 
   def self.alert_stakeholders_when_phas_forced_off_call
     if Metadata.force_phas_off_call?
-      body = "ALERT: PHAs are currently forced after hours. This can be changed via the Care Portal."
+      body = "ALERT: PHAs are currently forced after hours."
 
       Role.pha_stakeholders.each do |s|
         TwilioModule.message s.text_phone_number, body
@@ -105,5 +105,25 @@ class ScheduledJobs
               Rails.logger.error "Could not create OffboardMemberTask for Member #{member.id}"
             end
           end
+  end
+
+  def self.unforce_phas_on_call
+    m = Metadata.find_by_mkey 'force_phas_on_call'
+
+    if m && m.mvalue == 'true' && Time.now.pacific.hour() >= 21
+      Rails.logger.info "Unforcing PHAs on call at #{Time.now.pacific}"
+      m.mvalue = 'false'
+      m.save!
+    end
+  end
+
+  def self.alert_stakeholders_when_phas_forced_on_call
+    if Metadata.force_phas_on_call? && !Time.now.business_time?
+      body = "ALERT: PHAs are currently forced on call till 9PM PDT."
+
+      Role.pha_stakeholders.each do |s|
+        TwilioModule.message s.text_phone_number, body
+      end
+    end
   end
 end

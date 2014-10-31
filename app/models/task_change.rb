@@ -9,7 +9,7 @@ class TaskChange < ActiveRecord::Base
 
   before_validation :set_created_at
 
-  after_create :publish
+  after_commit :publish
 
   def publish
     if actor.email.include? "+robot"
@@ -62,8 +62,6 @@ class TaskChange < ActiveRecord::Base
           message = "New #{task.service_type.bucket} task"
         when 'PhoneCallTask'
           message = "New inbound phone call"
-        when 'MessageTask'
-          message = "New inbound message"
         when 'UserRequestTask'
           message = "New appointment request"
         when 'ParsedNurselineRecordTask'
