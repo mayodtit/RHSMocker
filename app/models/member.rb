@@ -67,6 +67,7 @@ class Member < User
   attr_accessor :skip_agreement_validation
   belongs_to :nux_answer
   belongs_to :impersonated_user, class_name: 'Member'
+  has_one :enrollment, foreign_key: :user_id, inverse_of: :user
 
   attr_accessible :password, :password_confirmation,
                   :invitation_token, :units,
@@ -84,7 +85,8 @@ class Member < User
                   :email_confirmation_token, :advertiser_id,
                   :advertiser_media_source, :advertiser_campaign,
                   :impersonated_user, :impersonated_user_id,
-                  :service_experiment, :service_experiment_queue
+                  :service_experiment, :service_experiment_queue,
+                  :enrollment
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
@@ -291,7 +293,9 @@ class Member < User
   end
 
   def initial_state
-    if password.present? || crypted_password.present?
+    if enrollment.present?
+      :premium
+    elsif password.present? || crypted_password.present?
       next_state
     else
       :invited

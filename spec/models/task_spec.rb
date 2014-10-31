@@ -899,7 +899,7 @@ describe Task do
         t.task.should == task
         t.actor.should == Member.robot
         t.event.should == 'update'
-        eval(t.data).should == {"description" => [old_description, 'poop'], "title" => [old_title, 'shit']}
+        t.data.should == {"description" => [old_description, 'poop'], "title" => [old_title, 'shit']}
       end
 
       context 'actor_id is defined' do

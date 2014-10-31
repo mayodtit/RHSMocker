@@ -75,7 +75,7 @@ class User < ActiveRecord::Base
   before_validation :set_defaults
   before_validation :strip_attributes
   before_create :create_google_analytics_uuid
-  after_save :publish
+  after_commit :publish
   after_save :track_update, on: :update
 
   def test?
