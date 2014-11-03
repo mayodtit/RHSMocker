@@ -56,7 +56,7 @@ class TaskChange < ActiveRecord::Base
         end
         PubSub.publish "/users/#{task.owner_id}/notifications/tasks", {msg: message, id: task_id, assignedTo: task.owner_id}
     # For new unassigned tasks
-    elsif event.nil? && task.owner_id.nil?
+    elsif event.nil? && task.owner_id.nil? && task.role_id == Role.pha.try(:id)
       case task.type
         when 'MemberTask'
           message = "New #{task.service_type.bucket} task"
