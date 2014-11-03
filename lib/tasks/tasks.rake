@@ -42,7 +42,11 @@ namespace :tasks do
       if task.respond_to? :set_member
         task.set_member
         puts "\tSetting member to #{task.member_id}"
-        task.save!
+        begin
+          task.save!
+        rescue
+          # Do nothing, continue
+        end
       end
     end
   end
