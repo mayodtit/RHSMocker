@@ -1,6 +1,7 @@
 class NuxStory < ActiveRecord::Base
   attr_accessible :html, :action_button_text, :show_nav_signup, :unique_id,
-                  :ordinal, :enable_webview_scrolling
+                  :ordinal, :enable_webview_scrolling, :text_header,
+                  :text_footer
 
   validates :html, :action_button_text, presence: true
   validates :show_nav_signup, inclusion: {in: [true, false]}

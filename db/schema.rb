@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141103021022) do
+ActiveRecord::Schema.define(:version => 20141103180422) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -472,6 +472,8 @@ ActiveRecord::Schema.define(:version => 20141103021022) do
     t.string   "unique_id"
     t.integer  "ordinal"
     t.boolean  "enable_webview_scrolling"
+    t.text     "text_header"
+    t.text     "text_footer"
   end
 
   create_table "onboarding_group_cards", :force => true do |t|
