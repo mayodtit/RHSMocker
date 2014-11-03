@@ -18,6 +18,7 @@ describe Task do
     it_validates 'foreign key of', :role
     it_validates 'foreign key of', :service_type
     it_validates 'foreign key of', :task_template
+    it_validates 'foreign key of', :member
 
     describe '#service' do
       let(:task) { build_stubbed :task }

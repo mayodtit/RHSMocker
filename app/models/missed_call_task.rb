@@ -11,9 +11,10 @@ class MissedCallTask < Task
   validates :phone_call, presence: true, if: lambda { |t| t.phone_call_id }
 
   before_validation :set_owner, on: :create
+  before_validation :set_member
 
-  def member
-    phone_call.user || (consult && consult.initiator)
+  def set_member
+    self.member = phone_call.user if member.nil? && phone_call.present?
   end
 
   def set_role

@@ -6,8 +6,7 @@ describe PhoneCallTask do
   end
 
   describe '#validations' do
-    it_validates 'presence of', :phone_call_id
-    it_validates 'foreign key of', :phone_call
+    it_validates 'presence of', :phone_call
 
     describe '#one_message_per_consult' do
       let(:phone_call) { build_stubbed :phone_call }
@@ -309,6 +308,17 @@ describe PhoneCallTask do
           task.notify
         end
       end
+    end
+  end
+
+  describe '#set_member' do
+    let(:phone_call) { build_stubbed :phone_call }
+    let(:phone_call_task) { build_stubbed :phone_call_task, phone_call: phone_call }
+
+    it 'sets the member to the consult initiator' do
+      phone_call_task.member = nil
+      phone_call_task.set_member
+      phone_call_task.member.should == phone_call.user
     end
   end
 end

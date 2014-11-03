@@ -4,8 +4,7 @@ describe NewMemberTask do
   it_has_a 'valid factory'
 
   describe 'validations' do
-    it_validates 'presence of', :member_id
-    it_validates 'foreign key of', :member
+    it_validates 'presence of', :member
   end
 
   describe '#set_due_at' do

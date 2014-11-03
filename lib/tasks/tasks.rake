@@ -2,10 +2,10 @@ namespace :tasks do
   desc "Generate task changes for tasks don't have any"
   task :backfill_changes => :environment do
     Task.joins("LEFT JOIN `task_changes` ON `task_changes`.`task_id` = `tasks`.`id`").where("`task_changes`.`task_id` is NULL").find_each do |task|
-      puts "PROCESSING TASK #{task.id}"
+      puts "Processing #{task.type} #{task.id}"
 
       if !task.owner_id || Member.where(id: task.owner_id).count == 0
-        puts "\tSKIPPING - Owner doesn't exist"
+        puts "\tSkipping - Owner doesn't exist"
         next
       end
 
@@ -13,7 +13,7 @@ namespace :tasks do
         if task.assignor_id & Member.where(id: task.assignor_id).count > 0
           TaskChange.create!(task: task, actor_id: task.assignor_id, created_at: task.assigned_at, data: {"owner_id" => [nil, task.owner_id]}.to_s)
         else
-          puts "\tSKIPPING ASSIGNMENT CHANGE - Assignor doesn't exist"
+          puts "\tSkipping assignment change - Assignor doesn't exist"
         end
       end
 
@@ -31,6 +31,18 @@ namespace :tasks do
 
       if task.abandoned_at
         TaskChange.create!(task: task, actor_id: task.abandoner_id, created_at: task.abandoned_at, event: 'abandon', from: 'claimed', to: 'abandoned', data: {"reason_abandoned" => [nil, task.reason_abandoned]}.to_s)
+      end
+    end
+  end
+
+  desc "Backfill tasks that should have a member"
+  task :backfill_member => :environment do
+    Task.where(member_id: nil).find_each do |task|
+      puts "Processing #{task.type} #{task.id}"
+      if task.respond_to? :set_member
+        task.set_member
+        puts "\tSetting member to #{task.member_id}"
+        task.save!
       end
     end
   end

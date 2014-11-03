@@ -3,20 +3,23 @@ class PhoneCallTask < Task
   PRIORITY = 15
   belongs_to :phone_call
 
-  has_one :member, through: :phone_call, source: :user
   delegate :consult, to: :phone_call
   delegate :subject, to: :consult
 
   attr_accessible :phone_call_id, :phone_call
 
-  validates :phone_call_id, presence: true
-  validates :phone_call, presence: true, if: lambda { |t| t.phone_call_id }
+  validates :phone_call, presence: true
   validate :one_open_per_phone_call
 
   before_validation :set_role, on: :create
+  before_validation :set_member
 
   def set_role
     self.role_id = phone_call.to_role_id if role_id.nil?
+  end
+
+  def set_member
+    self.member = phone_call.user if member.nil? && phone_call.present?
   end
 
   def self.create_if_only_opened_for_phone_call!(phone_call)

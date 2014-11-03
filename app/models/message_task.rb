@@ -9,7 +9,6 @@ class MessageTask < Task
 
   belongs_to :consult
   belongs_to :message
-  has_one :member, through: :consult, source: :initiator, autosave: false
   delegate :subject, to: :consult
 
   attr_accessible :consult, :consult_id, :message, :message_id
@@ -21,11 +20,16 @@ class MessageTask < Task
 
   before_validation :set_consult, on: :create
   before_validation :set_owner, on: :create
+  before_validation :set_member, on: :create
 
   def set_consult
     if consult.nil? && message.present?
       self.consult_id = message.consult_id
     end
+  end
+
+  def set_member
+    self.member = consult.initiator if consult
   end
 
   def self.create_if_only_opened_for_consult!(consult, message = nil)

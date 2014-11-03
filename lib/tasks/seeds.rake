@@ -1,3 +1,5 @@
+require 'factory_girl'
+
 namespace :seeds do
   task :demo => :environment do |t, args|
     %w(mayo@getbetter.com mayo2@getbetter.com mayo3@getbetter.com kyle@getbetter.com geoff@getbetter.com ashlee@getbetter.com dan@getbetter.com paul@getbetter.com tiem@getbetter.com leslie@getbetter.com tara@getbetter.com gavin.enns@xtremelabs.com adrian.kemp@xtremelabs.com).each do |email|
@@ -580,5 +582,46 @@ namespace :seeds do
     end
 
     NurselineRecord.set_callback :create, :after, :create_processing_job
+  end
+
+  desc "Create a task of every type"
+  task :generate_all_task_types, [:pha_email] => :environment do |t, args|
+    api_user = ApiUser.first || ApiUser.create!(name: 'Test API User')
+    pha_email = args[:pha_email]
+    pha = Member.find_by_email(pha_email)
+
+    unless pha && pha.pha?
+      puts "Could not find PHA with email #{pha_email}"
+      exit()
+    end
+
+    puts "Creating a task for every type and assigning to #{pha.full_name}"
+    member = Member.includes(:master_consult).premium_states.where('consults.id IS NOT NULL').order('RAND()').first
+
+    # Create a message task and assign it to PHA
+    member.master_consult.messages.create(user: member, text: FAKE_MESSAGES.sample)
+    member.master_consult.message_tasks.last.update_attributes!(owner_id: pha.id, assignor: Member.robot, actor_id: Member.robot.id)
+
+    # Create a nurseline record task
+    n = NurselineRecord.create!(
+      payload: "<div>Member #{member.id} was coughing up rabbits.</div>",
+      api_user: api_user
+    )
+
+    ParsedNurselineRecord.create!(
+      user_id: member.id,
+      consult_id: member.master_consult.id,
+      nurseline_record_id: n.id,
+      text: "Member #{member.id} was coughing up rabbits."
+    )
+
+    ParsedNurselineRecordTask.last().update_attributes!(owner_id: pha.id, assignor: Member.robot, actor_id: Member.robot.id)
+
+    # Create an upgrade task and assigns it to PHA
+    UpgradeTask.create!(member: member, owner: pha, assignor: Member.robot, actor_id: Member.robot.id, title: 'Upgraded', creator: Member.robot, due_at: 1.day.from_now)
+
+    # Create an offboard member task and assign it to PHA
+    member.free_trial_ends_at = 4.days.from_now
+    OffboardMemberTask.create!(member: member, owner: pha, assignor: Member.robot, actor_id: Member.robot.id, title: 'Offboard', creator: Member.robot, due_at: 1.day.from_now)
   end
 end

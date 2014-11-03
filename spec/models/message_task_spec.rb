@@ -327,4 +327,15 @@ describe MessageTask do
       end
     end
   end
+
+  describe '#set_member' do
+    let(:message) { build_stubbed :message }
+    let(:message_task) { build_stubbed :message_task, message: message, consult: message.consult }
+
+    it 'sets the member to the consult initiator' do
+      message_task.member = nil
+      message_task.set_member
+      message_task.member.should == message.consult.initiator
+    end
+  end
 end
