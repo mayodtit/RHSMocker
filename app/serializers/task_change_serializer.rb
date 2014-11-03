@@ -4,16 +4,7 @@ class TaskChangeSerializer < ActiveModel::Serializer
 
   def attributes
     if options[:shallow]
-      attributes = {
-        created_at: object.created_at,
-        event: object.event,
-        from: object.from,
-        to: object.to,
-        data: object.data
-      }
-      attributes[:task] = object.task.try(:serializer, options) if object.respond_to? :task
-      attributes[:actor] = object.actor.try(:serializer, options) if object.respond_to? :actor
-      attributes
+      super
     else
       super.tap do |attributes|
         attributes[:task] = object.task.try(:serializer, options) if object.respond_to? :task
