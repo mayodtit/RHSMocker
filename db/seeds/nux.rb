@@ -9,14 +9,14 @@ eof
   NuxStory.upsert_attributes({unique_id: "PLACEHOLDER-STORY-#{i}"},
                              {html: LOREM_IPSUM,
                               action_button_text: 'Next',
-                              show_nav_signup: true,
+                              show_nav_signup: false,
                               ordinal: i})
 end
 
 NuxStory.upsert_attributes({unique_id: 'TRIAL'},
                            {html: LOREM_IPSUM,
                             action_button_text: 'Next',
-                            show_nav_signup: true})
+                            show_nav_signup: false})
 NuxStory.upsert_attributes({unique_id: 'SIGN_UP_SUCCESS'},
                            {html: LOREM_IPSUM,
                             action_button_text: 'Sign Up',
