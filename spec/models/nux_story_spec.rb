@@ -5,9 +5,17 @@ describe NuxStory do
   it_validates 'presence of', :html
   it_validates 'presence of', :action_button_text
   it_validates 'presence of', :unique_id
-  it_validates 'inclusion of', :show_nav_signup
   it_validates 'uniqueness of', :unique_id
   it_validates 'allows blank uniqueness of', :ordinal
+
+  context 'without defaults' do
+    before do
+      described_class.any_instance.stub(:set_defaults)
+    end
+
+    it_validates 'inclusion of', :show_nav_signup
+    it_validates 'inclusion of', :enable_webview_scrolling
+  end
 
   describe '::trial' do
     let!(:nux_story) { create(:nux_story, unique_id: 'TRIAL') }

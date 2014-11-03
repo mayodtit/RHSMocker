@@ -10,14 +10,17 @@ eof
                              {html: LOREM_IPSUM,
                               action_button_text: 'Next',
                               show_nav_signup: false,
+                              enable_webview_scrolling: false,
                               ordinal: i})
 end
 
 NuxStory.upsert_attributes({unique_id: 'TRIAL'},
                            {html: LOREM_IPSUM,
                             action_button_text: 'Next',
-                            show_nav_signup: false})
+                            show_nav_signup: false,
+                            enable_webview_scrolling: false})
 NuxStory.upsert_attributes({unique_id: 'SIGN_UP_SUCCESS'},
                            {html: LOREM_IPSUM,
                             action_button_text: 'Sign Up',
-                            show_nav_signup: false})
+                            show_nav_signup: false,
+                            enable_webview_scrolling: false})
