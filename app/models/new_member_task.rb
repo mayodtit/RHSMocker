@@ -3,10 +3,7 @@ class NewMemberTask < Task
 
   belongs_to :member
 
-  attr_accessible :member_id, :member
-
-  validates :member_id, presence: true
-  validates :member, presence: true, if: lambda { |t| t.member_id }
+  validates :member, presence: true
 
   before_validation :set_owner, on: :create
   before_validation :set_due_at, on: :create
