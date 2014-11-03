@@ -4,7 +4,9 @@ class TaskChangeSerializer < ActiveModel::Serializer
 
   def attributes
     if options[:shallow]
-      super
+      super.tap do |attributes|
+        attributes[:actor] = object.actor.try(:serializer, options) if object.respond_to? :actor
+      end
     else
       super.tap do |attributes|
         attributes[:task] = object.task.try(:serializer, options) if object.respond_to? :task
