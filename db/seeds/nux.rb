@@ -14,11 +14,25 @@ eof
                               ordinal: i})
 end
 
+NuxStory.upsert_attributes({unique_id: 'SIGN_UP'},
+                           {html: LOREM_IPSUM,
+                            action_button_text: 'Next',
+                            show_nav_signup: false,
+                            enable_webview_scrolling: false,
+                            text_header: 'Placeholder text for above sign up form',
+                            text_footer: 'Placeholder text for below sign up form'})
 NuxStory.upsert_attributes({unique_id: 'TRIAL'},
                            {html: LOREM_IPSUM,
                             action_button_text: 'Next',
                             show_nav_signup: false,
                             enable_webview_scrolling: false})
+NuxStory.upsert_attributes({unique_id: 'CREDIT_CARD'},
+                           {html: LOREM_IPSUM,
+                            action_button_text: 'Next',
+                            show_nav_signup: false,
+                            enable_webview_scrolling: false,
+                            text_header: 'Placeholder text for above credit card form',
+                            text_footer: 'Placeholder text for below credit card form'})
 NuxStory.upsert_attributes({unique_id: 'SIGN_UP_SUCCESS'},
                            {html: LOREM_IPSUM,
                             action_button_text: 'Sign Up',

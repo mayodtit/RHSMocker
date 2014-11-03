@@ -15,8 +15,16 @@ class NuxStory < ActiveRecord::Base
     where('ordinal IS NOT NULL').order(:ordinal)
   end
 
+  def self.sign_up
+    find_by_unique_id('SIGN_UP')
+  end
+
   def self.trial
     find_by_unique_id('TRIAL')
+  end
+
+  def self.credit_card
+    find_by_unique_id('CREDIT_CARD')
   end
 
   def self.sign_up_success

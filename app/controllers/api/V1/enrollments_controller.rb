@@ -10,7 +10,8 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
     @enrollment = Enrollment.create permitted_params.enrollment
     if @enrollment.errors.empty?
       render_success(enrollment: @enrollment.serializer,
-                     stories: stories)
+                     stories: stories,
+                     sign_up_story: sign_up_story)
     else
       render_failure({reason: enrollment_errors}, 422)
     end
@@ -21,6 +22,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
       render_success(enrollment: @enrollment.serializer,
                      next_action: next_action,
                      trial_story: trial_story,
+                     credit_card_story: credit_card_story,
                      success_story: success_story)
     else
       render_failure({reason: enrollment_errors,
@@ -42,8 +44,16 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
     'credit_card'
   end
 
+  def sign_up_story
+    NuxStory.sign_up.try(:serializer)
+  end
+
   def trial_story
     NuxStory.trial.try(:serializer)
+  end
+
+  def credit_card_story
+    NuxStory.credit_card.try(:serializer)
   end
 
   def success_story

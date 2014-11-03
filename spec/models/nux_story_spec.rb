@@ -17,11 +17,27 @@ describe NuxStory do
     it_validates 'inclusion of', :enable_webview_scrolling
   end
 
+  describe '::sign_up' do
+    let!(:nux_story) { create(:nux_story, unique_id: 'SIGN_UP') }
+
+    it 'returns the sign up story' do
+      expect(described_class.sign_up).to eq(nux_story)
+    end
+  end
+
   describe '::trial' do
     let!(:nux_story) { create(:nux_story, unique_id: 'TRIAL') }
 
     it 'returns the trial story' do
       expect(described_class.trial).to eq(nux_story)
+    end
+  end
+
+  describe '::credit_card' do
+    let!(:nux_story) { create(:nux_story, unique_id: 'CREDIT_CARD') }
+
+    it 'returns the credit_card story' do
+      expect(described_class.credit_card).to eq(nux_story)
     end
   end
 
