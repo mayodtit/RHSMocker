@@ -38,7 +38,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   def stories
-    NuxStory.enabled.serializer.as_json
+    NuxStory.enabled.by_ordinal.serializer.as_json
   end
 
   def next_action

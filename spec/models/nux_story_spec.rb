@@ -15,6 +15,7 @@ describe NuxStory do
 
     it_validates 'inclusion of', :show_nav_signup
     it_validates 'inclusion of', :enable_webview_scrolling
+    it_validates 'inclusion of', :enabled
   end
 
   describe '::splash' do
