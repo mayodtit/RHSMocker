@@ -1,9 +1,9 @@
 class Api::V1::UserAllergiesController < Api::V1::ABaseController
   include ActiveModel::MassAssignmentSecurity
-  attr_accessible :user_id, :allergy_id
+  attr_accessible :user_id, :allergy_id, :actor_id
 
   before_filter :load_user!
-  before_filter :load_user_allergy!, only: [:show, :update, :destroy]
+  before_filter :load_user_allergy!, only: [:show, :destroy]
 
   def index
     index_resource(@user.user_allergies)

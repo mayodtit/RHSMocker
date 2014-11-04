@@ -4,8 +4,7 @@ class UserAllergy < ActiveRecord::Base
 
   attr_accessor :actor_id
 
-  attr_accessible :user, :allergy
-  attr_accessible :user_id, :allergy_id, :actor_id
+  attr_accessible :user, :user_id, :allergy, :allergy_id, :actor_id
 
   validates :user, :allergy, :presence => true
   validates :allergy_id, :uniqueness => {:scope => :user_id}

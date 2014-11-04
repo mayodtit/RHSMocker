@@ -14,7 +14,12 @@ describe Api::V1::UserAllergiesController do
       get :index
     end
 
+    before(:each) do
+      user.stub(:user_allergies => [user_allergy])
+    end
+
     it_behaves_like 'action requiring authentication and authorization'
+
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it_behaves_like 'index action', new.user_allergy
     end
@@ -64,6 +69,11 @@ describe Api::V1::UserAllergiesController do
         do_request
       end
 
+      it 'sets the actor id' do
+        user_allergies.should_receive(:create).with hash_including(actor_id: user.id)
+        do_request
+      end
+
       context 'save succeeds' do
         it_behaves_like 'success'
 
@@ -84,7 +94,7 @@ describe Api::V1::UserAllergiesController do
     end
   end
 
-  describe 'delete destroy' do
+  describe 'DELETE destroy' do
     def do_request
       delete :destroy
     end
@@ -101,6 +111,11 @@ describe Api::V1::UserAllergiesController do
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it 'attempts to destroy the record' do
         user_allergy.should_receive(:destroy).once
+        do_request
+      end
+
+      it 'sets the actor id' do
+        user_allergy.should_receive(:actor_id=).with(user.id)
         do_request
       end
 
