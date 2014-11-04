@@ -14,10 +14,12 @@ class Api::V1::UserAllergiesController < Api::V1::ABaseController
   end
 
   def create
+    params[:user_allergy][:actor_id] = current_user.id
     create_resource(@user.user_allergies, sanitize_for_mass_assignment(params[:user_allergy]))
   end
 
   def destroy
+    @user_allergy.actor_id = current_user.id
     destroy_resource(@user_allergy)
   end
 
