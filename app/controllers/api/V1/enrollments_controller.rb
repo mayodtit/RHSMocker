@@ -11,6 +11,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
     if @enrollment.errors.empty?
       render_success(enrollment: @enrollment.serializer,
                      stories: stories,
+                     splash_story: splash_story,
                      sign_up_story: sign_up_story)
     else
       render_failure({reason: enrollment_errors}, 422)
@@ -42,6 +43,10 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
 
   def next_action
     'credit_card'
+  end
+
+  def splash_story
+    NuxStory.splash.try(:serializer)
   end
 
   def sign_up_story

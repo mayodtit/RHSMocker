@@ -14,6 +14,11 @@ eof
                               ordinal: i})
 end
 
+NuxStory.upsert_attributes({unique_id: 'SPLASH'},
+                           {html: LOREM_IPSUM,
+                            action_button_text: 'Get Started',
+                            show_nav_signup: false,
+                            enable_webview_scrolling: false})
 NuxStory.upsert_attributes({unique_id: 'SIGN_UP'},
                            {html: LOREM_IPSUM,
                             action_button_text: 'Next',

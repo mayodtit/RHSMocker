@@ -15,6 +15,10 @@ class NuxStory < ActiveRecord::Base
     where('ordinal IS NOT NULL').order(:ordinal)
   end
 
+  def self.splash
+    find_by_unique_id('SPLASH')
+  end
+
   def self.sign_up
     find_by_unique_id('SIGN_UP')
   end

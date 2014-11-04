@@ -17,6 +17,14 @@ describe NuxStory do
     it_validates 'inclusion of', :enable_webview_scrolling
   end
 
+  describe '::splash' do
+    let!(:nux_story) { create(:nux_story, unique_id: 'SPLASH') }
+
+    it 'returns the splash story' do
+      expect(described_class.splash).to eq(nux_story)
+    end
+  end
+
   describe '::sign_up' do
     let!(:nux_story) { create(:nux_story, unique_id: 'SIGN_UP') }
 
