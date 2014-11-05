@@ -7,12 +7,14 @@ class OnboardingGroup < ActiveRecord::Base
   has_many :onboarding_group_cards
   has_many :onboarding_group_programs
   has_many :programs, through: :onboarding_group_programs
+  belongs_to :pha, class_name: 'Member'
 
   accepts_nested_attributes_for :provider
 
   attr_accessible :name, :premium, :free_trial_days,
                   :absolute_free_trial_ends_at, :provider, :provider_id,
-                  :mayo_pilot, :npi_number, :provider_attributes
+                  :mayo_pilot, :npi_number, :provider_attributes,
+                  :pha, :pha_id
 
   validates :name, presence: true
   validates :provider, presence: true, if: ->(o){o.provider_id}
