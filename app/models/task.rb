@@ -229,6 +229,8 @@ class Task < ActiveRecord::Base
       :claimed_at,
       :completed_at,
       :abandoned_at,
+      :abandoner_id,
+      :creator_id,
       :assignor_id)
     changes.empty? ? nil : changes
   end
