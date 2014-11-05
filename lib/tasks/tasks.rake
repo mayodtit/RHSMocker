@@ -50,4 +50,16 @@ namespace :tasks do
       end
     end
   end
+
+  desc "Convert task changes with strings to hashes"
+  task :convert_task_changes_with_string_to_hash => :environment do
+    with_string = TaskChange.where 'data IS NOT NULL AND data NOT LIKE "--- %"'
+    puts "Converting #{with_string.count} old task changes"
+    with_string.find_each do |task_change|
+      # Convert timestamps to valid ruby (e.g. Time.parse("[TIMESTAMP]"))
+      converted_data = task_change.data.gsub(/([a-zA-z][a-zA-z][a-zA-z], \d\d [a-zA-z][a-zA-z][a-zA-z] \d\d\d\d \d\d:\d\d:\d\d [a-zA-z][a-zA-z][a-zA-z] \+\d\d:\d\d)/, 'Time.parse("\1")')
+      task_change.data = eval converted_data
+      task_change.save!
+    end
+  end
 end
