@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141031172515) do
+ActiveRecord::Schema.define(:version => 20141104205213) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -467,10 +467,14 @@ ActiveRecord::Schema.define(:version => 20141031172515) do
     t.text     "html"
     t.string   "action_button_text"
     t.boolean  "show_nav_signup"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
     t.string   "unique_id"
     t.integer  "ordinal"
+    t.boolean  "enable_webview_scrolling"
+    t.text     "text_header"
+    t.text     "text_footer"
+    t.boolean  "enabled"
   end
 
   create_table "onboarding_group_cards", :force => true do |t|
