@@ -24,6 +24,10 @@ class NuxStory < ActiveRecord::Base
     find_by_unique_id('SPLASH')
   end
 
+  def self.question
+    find_by_unique_id('QUESTION')
+  end
+
   def self.sign_up
     find_by_unique_id('SIGN_UP')
   end

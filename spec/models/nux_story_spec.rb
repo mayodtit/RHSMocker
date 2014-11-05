@@ -26,6 +26,14 @@ describe NuxStory do
     end
   end
 
+  describe '::question' do
+    let!(:nux_story) { create(:nux_story, unique_id: 'QUESTION') }
+
+    it 'returns the question story' do
+      expect(described_class.question).to eq(nux_story)
+    end
+  end
+
   describe '::sign_up' do
     let!(:nux_story) { create(:nux_story, unique_id: 'SIGN_UP') }
 
