@@ -124,6 +124,7 @@ class Ability
       can :index, Message
       can :read, Role
       can :read, ServiceType
+      can :read, TaskChange
     end
   end
 end
