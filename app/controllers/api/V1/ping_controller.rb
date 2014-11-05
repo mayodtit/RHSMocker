@@ -12,7 +12,8 @@ class Api::V1::PingController < Api::V1::ABaseController
       enable_sharing: Metadata.enable_sharing?,
       nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer },
       stories: stories,
-      splash_story: splash_story
+      splash_story: splash_story,
+      question_story: question_story
     }
 
     if current_user
@@ -103,5 +104,9 @@ class Api::V1::PingController < Api::V1::ABaseController
 
   def splash_story
     NuxStory.splash.try(:serializer)
+  end
+
+  def question_story
+    NuxStory.question.try(:serializer)
   end
 end
