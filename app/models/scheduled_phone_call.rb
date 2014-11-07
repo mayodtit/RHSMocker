@@ -14,7 +14,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
   belongs_to :phone_call
   belongs_to :reminder_scheduled_message, class_name: 'ScheduledMessage'
   has_one :message, :inverse_of => :scheduled_phone_call
-  has_one :WelcomeCallTask, inverse_of: :scheduled_phone_call
+  has_one :welcome_call_task, inverse_of: :scheduled_phone_call
   delegate :consult, :to => :message
 
   attr_accessible :user, :user_id, :owner, :owner_id, :phone_call, :phone_call_id,
@@ -61,18 +61,13 @@ class ScheduledPhoneCall < ActiveRecord::Base
   end
 
   def create_task
-    if id_changed? # New record
-      if unassigned?
-        WelcomeCallTask.create!(
-            title: 'Welcome Call',
-            creator: Member.robot,
-            due_at: scheduled_at,
-            priority: 0
-        )
-      end
+    if(self.welcome_call_task)
+      self.welcome_call_task.destroy
+      self.welcome_call_task = nil
     end
-
+    PhoneCallTask.create_task! self
   end
+
 
   def owner_assigned_calendar_event
     RiCal.Event do |event|
@@ -227,11 +222,11 @@ Prep:
         mt = MessageTemplate.find_by_name 'Confirm Welcome Call OLD'
         mt.create_message(scheduled_phone_call.user.pha, scheduled_phone_call.user.master_consult, true, true) if mt
       end
+      scheduled_phone_call.create_task
     end
 
     after_transition :assigned => :booked do |scheduled_phone_call|
       scheduled_phone_call.create_reminder
-      scheduled_phone_call.create_task
       scheduled_phone_call.append_welcome_call_survey_to_member_notes
     end
 
