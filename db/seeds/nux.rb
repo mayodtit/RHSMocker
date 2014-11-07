@@ -51,7 +51,7 @@ NuxStory.upsert_attributes({unique_id: 'CREDIT_CARD'},
                             show_nav_signup: false,
                             enable_webview_scrolling: false,
                             text_header: "Try our Personal Health Assistant service free for a month.",
-                            text_footer: "You will not be charged until your 1 month trial ends. At the end of your trial, your card will be charged $19.99/month. If you cancel your subscription before the trial is over, you will not be charged.",
+                            text_footer: "You will not be charged until your one month trial ends. At the end of your trial, your card will be charged $19.99/month. If you cancel your subscription before the trial is over, you will not be charged.",
                             enabled: true})
 NuxStory.upsert_attributes({unique_id: 'SIGN_UP_SUCCESS'},
                            {html: LOREM_IPSUM,
