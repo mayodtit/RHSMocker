@@ -37,7 +37,7 @@ namespace :tasks do
 
   desc "Backfill tasks that should have a member"
   task :backfill_member => :environment do
-    Task.where(member_id: nil).find_each do |task|
+    Task.where(member_id: nil).order('created_at DESC').find_each do |task|
       puts "Processing #{task.type} #{task.id}"
       if task.respond_to? :set_member
         task.set_member
@@ -53,9 +53,10 @@ namespace :tasks do
 
   desc "Convert task changes with strings to hashes"
   task :convert_task_changes_with_string_to_hash => :environment do
-    with_string = TaskChange.where 'data IS NOT NULL AND data NOT LIKE "--- %"'
+    with_string = TaskChange.where('data IS NOT NULL AND data NOT LIKE "--- %"').order('created_at DESC')
     puts "Converting #{with_string.count} old task changes"
     with_string.find_each do |task_change|
+      next unless task_change.data.is_a? String
       # Convert timestamps to valid ruby (e.g. Time.parse("[TIMESTAMP]"))
       converted_data = task_change.data.gsub(/([a-zA-z][a-zA-z][a-zA-z], \d\d [a-zA-z][a-zA-z][a-zA-z] \d\d\d\d \d\d:\d\d:\d\d [a-zA-z][a-zA-z][a-zA-z] \+\d\d:\d\d)/, 'Time.parse("\1")')
       task_change.data = eval converted_data
