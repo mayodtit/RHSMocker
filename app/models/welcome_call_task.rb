@@ -1,6 +1,6 @@
 class WelcomeCallTask < Task
   include ActiveModel::ForbiddenAttributesProtection
-  PRIORITY = 0
+  INITIAL_PRIORITY = 0
   ALERT_PRIORITY = 20
   TIME_BEFORE_CALL = 15
 
@@ -11,9 +11,15 @@ class WelcomeCallTask < Task
 
   validates :scheduled_phone_call, presence: true
 
+  before_validation :set_member
+
   after_create :set_reminder
 
-  state_machine do
+  def set_member
+    self.member = scheduled_phone_call.user if member.nil? && scheduled_phone_call.present?
+  end
+
+  state_machine  do
     before_transition any => :completed do |task|
       task.scheduled_phone_call.update_attributes!(state_event: :end, ender: task.owner)
     end
@@ -27,13 +33,15 @@ class WelcomeCallTask < Task
     end
   end
 
-  def create_task!(scheduled_phone_call)
+  def self.create_task!(scheduled_phone_call)
     create!(
       title: 'Welcome Call',
       creator: Member.robot,
-      due_at: scheduled_at,
-      priority: 0,
-      scheduled_phone_call: scheduled_phone_call
+      due_at: scheduled_phone_call.scheduled_at,
+      priority: INITIAL_PRIORITY,
+      scheduled_phone_call: scheduled_phone_call,
+      owner: scheduled_phone_call.owner,
+      assignor: scheduled_phone_call.assignor
     )
   end
 

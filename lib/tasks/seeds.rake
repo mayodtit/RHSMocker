@@ -412,17 +412,17 @@ namespace :seeds do
     end
 
     puts 'Creating appointments...'
-    DAY_OFFSET = [-30.days, -20.days, -10.days, 0.days, 10.days, 20.days, 30.days]
-    HOUR_OFFSET = [-2.hours, -1.hours, 0.hours, 1.hours, 2.hours]
-    5.times do
+    DAY_OFFSET = [1.business_days, 10.business_days, 20.business_days, 30.business_days, 40.business_days]
+    HOUR_OFFSET = [1.business_hours, 2.business_hours, 3.business_hours, 4.business_hours, 5.business_hours]
+    1.times do
       s = ScheduledPhoneCall.create!(
-        scheduled_at: Time.now + DAY_OFFSET.sample + HOUR_OFFSET.sample,
+        scheduled_at: HOUR_OFFSET.sample.after(DAY_OFFSET.sample.after(Time.now)) + 10.hours,
       )
     end
 
-    15.times do
+    1.times do
       s = ScheduledPhoneCall.new(
-        scheduled_at: Time.now + DAY_OFFSET.sample + HOUR_OFFSET.sample,
+        scheduled_at: HOUR_OFFSET.sample.after(DAY_OFFSET.sample.after(Time.now)) + 10.hours,
         owner: Member.find_by_email!(PHAS.sample),
         assignor: Member.find_by_email!(PHA_LEADS.sample),
         assigned_at: Time.now
@@ -431,7 +431,7 @@ namespace :seeds do
       s.save!
     end
 
-    5.times do
+    1.times do
       m = Member.all.sample
       c = Consult.create!(
         title: 'Welcome Call',
@@ -442,7 +442,7 @@ namespace :seeds do
         messages_attributes: [{
           user: m,
           scheduled_phone_call_attributes: {
-            scheduled_at: Time.now + DAY_OFFSET.sample + HOUR_OFFSET.sample,
+            scheduled_at: HOUR_OFFSET.sample.after(DAY_OFFSET.sample.after(Time.now)) + 10.hours,
             owner: Member.find_by_email!(PHAS.sample),
             assignor: Member.find_by_email!(PHA_LEADS.sample),
             assigned_at: Time.now,
@@ -621,5 +621,39 @@ namespace :seeds do
     # Create an offboard member task and assign it to PHA
     member.free_trial_ends_at = 4.days.from_now
     OffboardMemberTask.create!(member: member, owner: pha, assignor: Member.robot, actor_id: Member.robot.id, title: 'Offboard', creator: Member.robot, due_at: 1.day.from_now)
+  end
+
+  desc "Create a booked welcome call"
+  task :create_booked_welcome_call, [:member_email, :pha_email] => :environment do |t, args|
+    user = nil
+    pha = nil
+
+    user = Member.find_or_create_by_email!(
+      email: args[:member_email],
+      password: 'careportal',
+      user_agreements_attributes: user_agreements_attributes
+    )
+    user.send :set_master_consult
+    pha = Member.find_by_email args[:pha_email]
+
+    prev_global_time_zone = Time.zone
+    Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+    num_days = rand() * 100
+    time = Time.roll_forward(num_days.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock
+    Time.zone = prev_global_time_zone
+
+    welcome_call = ScheduledPhoneCall.create! scheduled_at: time.utc
+    welcome_call.update_attributes!(
+        state_event: :assign,
+        assignor: Member.robot,
+        owner: pha
+    )
+    welcome_call.update_attributes!(
+        state_event: :book,
+        booker: user,
+        user: user,
+        callback_phone_number: "1234567890"
+    )
+    puts welcome_call.id
   end
 end
