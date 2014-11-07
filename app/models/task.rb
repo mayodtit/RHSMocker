@@ -11,7 +11,7 @@ class Task < ActiveRecord::Base
   belongs_to :service
   belongs_to :service_type
   belongs_to :task_template
-  has_many :task_changes, class_name: 'TaskChange'
+  has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
 
   attr_accessor :actor_id, :change_tracked
   attr_accessible :title, :description, :due_at, :reason_abandoned,
