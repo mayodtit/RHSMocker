@@ -856,4 +856,33 @@ Allergy.find_or_create_by_name(name: "Amiodarone",
                                food_allergen: "false",
                                environment_allergen: "false",
                                medication_allergen: "true")
-
+Allergy.find_or_create_by_name(name: "Azathioprine",
+                               snomed_name: "Azathioprine allergy (disorder)",
+                               snomed_code: "688729016",
+                               food_allergen: "false",
+                               environment_allergen: "false",
+                               medication_allergen: "true")
+Allergy.find_or_create_by_name(name: "Imuran",
+                               snomed_name: "Azathioprine allergy (disorder)",
+                               snomed_code: "688729016",
+                               food_allergen: "false",
+                               environment_allergen: "false",
+                               medication_allergen: "true")
+Allergy.find_or_create_by_name(name: "Azasan",
+                               snomed_name: "Azathioprine allergy (disorder)",
+                               snomed_code: "688729016",
+                               food_allergen: "false",
+                               environment_allergen: "false",
+                               medication_allergen: "true")
+Allergy.find_or_create_by_name(name: "Primidone",
+                               snomed_name: "Primidone allergy (disorder)",
+                               snomed_code: "688803013",
+                               food_allergen: "false",
+                               environment_allergen: "false",
+                               medication_allergen: "true")
+Allergy.find_or_create_by_name(name: "Mycoline",
+                               snomed_name: "Primidone allergy (disorder)",
+                               snomed_code: "688803013",
+                               food_allergen: "false",
+                               environment_allergen: "false",
+                               medication_allergen: "true")
