@@ -509,3 +509,18 @@ Condition.find_or_create_by_name(name: "Bladder Cancer",
 Condition.find_or_create_by_name(name: "Leukemia",
                                  snomed_name: "Leukemia, disease (disorder)",
                                  snomed_code: "836815016")
+Condition.find_or_create_by_name(name: "HIV",
+                                 snomed_name: "Human immunodeficiency virus infection (disorder)",
+                                 snomed_code: "828663016")
+Condition.find_or_create_by_name(name: "Human immunodeficiency virus infection",
+                                 snomed_name: "Human immunodeficiency virus infection (disorder)",
+                                 snomed_code: "828663016")
+Condition.find_or_create_by_name(name: "Parkinson's disease",
+                                 snomed_name: "Parkinson's disease (disorder)",
+                                 snomed_code: "786684014")
+Condition.find_or_create_by_name(name: "Wolff-Parkinson-White pattern",
+                                 snomed_name: "Wolff-Parkinson-White pattern (disorder)",
+                                 snomed_code: "786684014")
+Condition.find_or_create_by_name(name: "Juvenile Parkinson's disease",
+                                 snomed_name: "Juvenile Parkinson's disease (disorder)",
+                                 snomed_code: "618077018")
