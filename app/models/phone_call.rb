@@ -48,6 +48,7 @@ class PhoneCall < ActiveRecord::Base
   after_save :create_task
   after_save :create_message_if_user_updated
   after_save :set_user_phone
+  after_save :set_member_on_task
 
   # for metrics
   scope :to_nurse_line, -> { where(destination_phone_number: PhoneCall.nurseline_numbers) }
@@ -459,5 +460,11 @@ class PhoneCall < ActiveRecord::Base
 
   def set_creator
     self.creator = user unless creator_id.present?
+  end
+
+  def set_member_on_task
+    if user_id_changed? && phone_call_task.present?
+      phone_call_task.update_attributes! member_id: user_id
+    end
   end
 end

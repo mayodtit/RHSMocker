@@ -1705,6 +1705,7 @@ describe PhoneCall do
         phone_call = build :phone_call, to_role_id: @pha_id
         phone_call.state = 'unclaimed'
         phone_call_task = build :phone_call_task, phone_call: phone_call
+        phone_call_task.should_receive(:update_attributes!).with(member_id: phone_call.user_id)
         phone_call_task.should_receive(:update_attributes!).with(state_event: :abandon, reason_abandoned: 'test', abandoner: Member.robot)
 
         phone_call.stub(:phone_call_task) { phone_call_task }
@@ -1901,6 +1902,51 @@ describe PhoneCall do
 
         it 'changes the state to missed' do
           phone_call.should be_unclaimed
+        end
+      end
+    end
+  end
+
+  describe '#set_member_on_task' do
+    let(:user) { build_stubbed :member }
+    let(:phone_call_task) { build_stubbed :phone_call_task }
+    let(:phone_call) { build_stubbed :phone_call, user: user }
+
+    before do
+      phone_call.stub(:phone_call_task) { phone_call_task }
+    end
+
+    context 'user_id did not change' do
+      before do
+        phone_call.stub(:user_id_changed?) { false }
+      end
+
+      it 'does nothing' do
+        phone_call_task.should_not_receive(:update_attributes!)
+        phone_call.send :set_member_on_task
+      end
+    end
+
+    context 'user_id did change' do
+      before do
+        phone_call.stub(:user_id_changed?) { true }
+      end
+
+      context 'phone call task is not present' do
+        before do
+          phone_call.stub(:phone_call_task) { nil }
+        end
+
+        it 'does nothing' do
+          phone_call_task.should_not_receive(:update_attributes!)
+          phone_call.send :set_member_on_task
+        end
+      end
+
+      context 'phone call task is present' do
+        it 'updates user id' do
+          phone_call_task.should_receive(:update_attributes!).with(member_id: user.id)
+          phone_call.send :set_member_on_task
         end
       end
     end
