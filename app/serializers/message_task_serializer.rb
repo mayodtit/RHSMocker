@@ -2,6 +2,17 @@ class MessageTaskSerializer < TaskSerializer
 
   attributes :consult_id, :message_id
 
+  def attributes
+    super.tap do |attributes|
+      if options[:shallow]
+        attributes.merge!(
+            consult_id: consult_id,
+            message_id: message_id
+        )
+      end
+    end
+  end
+
   def type
     'message'
   end

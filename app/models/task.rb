@@ -2,6 +2,7 @@ class Task < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
   PRIORITY = 0
 
+  belongs_to :member
   belongs_to :role, class_name: 'Role'
   belongs_to :owner, class_name: 'Member'
   belongs_to :creator, class_name: 'Member'
@@ -10,7 +11,7 @@ class Task < ActiveRecord::Base
   belongs_to :service
   belongs_to :service_type
   belongs_to :task_template
-  has_many :task_changes, class_name: 'TaskChange'
+  has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
 
   attr_accessor :actor_id, :change_tracked
   attr_accessible :title, :description, :due_at, :reason_abandoned,
@@ -19,7 +20,7 @@ class Task < ActiveRecord::Base
                   :abandoner, :abandoner_id, :role, :role_id,
                   :state_event, :service_type_id, :service_type,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
-                  :priority, :service_experiment, :actor_id
+                  :priority, :service_experiment, :actor_id, :member_id, :member
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :owner, presence: true, if: lambda { |t| t.owner_id }
@@ -28,6 +29,7 @@ class Task < ActiveRecord::Base
   validates :service, presence: true, if: lambda { |t| t.service_id }
   validates :service_ordinal, presence: true, if: lambda { |t| t.service_id }
   validates :task_template, presence: true, if: lambda { |t| t.task_template_id }
+  validates :member, presence: true, if: lambda { |t| t.member_id }
   validate :attrs_for_states
   validate :one_claimed_per_owner
 
@@ -227,6 +229,8 @@ class Task < ActiveRecord::Base
       :claimed_at,
       :completed_at,
       :abandoned_at,
+      :abandoner_id,
+      :creator_id,
       :assignor_id)
     changes.empty? ? nil : changes
   end

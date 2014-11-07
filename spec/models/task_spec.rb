@@ -18,6 +18,7 @@ describe Task do
     it_validates 'foreign key of', :role
     it_validates 'foreign key of', :service_type
     it_validates 'foreign key of', :task_template
+    it_validates 'foreign key of', :member
 
     describe '#service' do
       let(:task) { build_stubbed :task }
@@ -878,6 +879,8 @@ describe Task do
           task.completed_at = 2.days.ago
           task.abandoned_at = 10.days.ago
           task.assignor_id = 2
+          task.abandoner_id = 5
+          task.creator_id = 3
           task.state = 'unstarted'
           task.stub(:previous_changes) { task.changes }
         end

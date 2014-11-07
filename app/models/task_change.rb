@@ -9,7 +9,7 @@ class TaskChange < ActiveRecord::Base
 
   before_validation :set_created_at
 
-  after_commit :publish
+  after_commit :publish, on: :create
 
   def publish
     if actor.email.include? "+robot"
@@ -35,7 +35,7 @@ class TaskChange < ActiveRecord::Base
           when 'OffboardMemberTask'
             message = "#{actor_name} assigned you an offboard task"
         end
-        PubSub.publish "/users/#{task.owner_id}/tasks/owned/notification", {msg: message, id: task_id, assignedTo: task.owner_id}
+        PubSub.publish "/users/#{task.owner_id}/notifications/tasks", {msg: message, id: task_id, assignedTo: task.owner_id}
     # For new tasks assigned to someone
     elsif (event.nil? && !task.owner_id.nil? && task.owner_id != actor_id)
         case task.type
@@ -54,9 +54,9 @@ class TaskChange < ActiveRecord::Base
           when 'OffboardMemberTask'
             message = "#{actor_name} assigned you an offboard task"
         end
-        PubSub.publish "/users/#{task.owner_id}/tasks/owned/notification", {msg: message, id: task_id, assignedTo: task.owner_id}
+        PubSub.publish "/users/#{task.owner_id}/notifications/tasks", {msg: message, id: task_id, assignedTo: task.owner_id}
     # For new unassigned tasks
-    elsif event.nil? && task.owner_id.nil?
+    elsif event.nil? && task.owner_id.nil? && task.role_id == Role.pha.try(:id)
       case task.type
         when 'MemberTask'
           message = "New #{task.service_type.bucket} task"
@@ -72,7 +72,7 @@ class TaskChange < ActiveRecord::Base
           message = "New offboard task"
       end
       Role.pha.users.where(on_call: true).each do |pha|
-        PubSub.publish "/users/#{pha.id}/tasks/owned/notification", {msg: message, id: task_id, assignedTo: task.owner_id}
+        PubSub.publish "/users/#{pha.id}/notifications/tasks", {msg: message, id: task_id, assignedTo: task.owner_id}
       end
     end
   end
