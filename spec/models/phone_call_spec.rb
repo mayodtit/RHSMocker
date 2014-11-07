@@ -1705,6 +1705,7 @@ describe PhoneCall do
         phone_call = build :phone_call, to_role_id: @pha_id
         phone_call.state = 'unclaimed'
         phone_call_task = build :phone_call_task, phone_call: phone_call
+        phone_call_task.should_receive(:update_attributes!).with(member_id: phone_call.user_id)
         phone_call_task.should_receive(:update_attributes!).with(state_event: :abandon, reason_abandoned: 'test', abandoner: Member.robot)
 
         phone_call.stub(:phone_call_task) { phone_call_task }
