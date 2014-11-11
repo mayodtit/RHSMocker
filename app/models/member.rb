@@ -65,6 +65,7 @@ class Member < User
                                                 as: :reference
   accepts_nested_attributes_for :user_agreements
   attr_accessor :skip_agreement_validation
+  attr_accessor :payment_token
   belongs_to :nux_answer
   belongs_to :impersonated_user, class_name: 'Member'
   has_one :enrollment, foreign_key: :user_id, inverse_of: :user
@@ -86,7 +87,7 @@ class Member < User
                   :advertiser_media_source, :advertiser_campaign,
                   :impersonated_user, :impersonated_user_id,
                   :service_experiment, :service_experiment_queue,
-                  :enrollment
+                  :enrollment, :payment_token
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
@@ -293,7 +294,7 @@ class Member < User
   end
 
   def initial_state
-    if enrollment.present?
+    if enrollment.present? && payment_token.present?
       :premium
     elsif password.present? || crypted_password.present?
       next_state
