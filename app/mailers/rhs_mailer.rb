@@ -351,4 +351,27 @@ class RHSMailer < MandrillMailer::TemplateMailer
       }
     )
   end
+
+  MEET_YOUR_PHA_MONTH_TRIAL_TEMPLATE = 'Meet Your PHA Month Trial 11/10/2014'
+  def meet_your_pha_month_trial_email(email)
+    user = Member.find_by_email!(email)
+    pha = user.pha
+
+    mandrill_mail(
+      subject: 'Welcome to Better',
+      from: pha.email,
+      from_name: pha.full_name,
+      to: { email: email },
+      template: MEET_YOUR_PHA_MONTH_TRIAL_TEMPLATE,
+      headers: {
+        'Reply-To' => "#{pha.full_name} <premium@getbetter.com>"
+      },
+      vars: {
+        FNAME: user.salutation,
+        MEMBERNEED: user.nux_answer.try(:phrase) || 'your health needs',
+        PHA_BIO: pha.pha_profile.try(:first_person_bio),
+        PHA_HEADER_URL: meet_your_pha_header_url(pha)
+      }
+    )
+  end
 end
