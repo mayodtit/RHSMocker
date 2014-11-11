@@ -40,6 +40,6 @@ class StripeSubscriptionService
 
   def create_stripe_subscription!
     @customer.subscriptions.create(plan: @plan_id,
-                                   trial_end: @trial_end)
+                                   trial_end: @trial_end.to_i)
   end
 end
