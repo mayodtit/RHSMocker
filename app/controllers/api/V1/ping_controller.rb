@@ -25,10 +25,12 @@ class Api::V1::PingController < Api::V1::ABaseController
       hash.merge!({metadata: metadata_hash})
     end
 
-    if Gem::Version.new(params[:app_version] || params[:version] || '1.0.0') >= Gem::Version.new(Metadata.value_for_key('version') || '1.0.0')
+    if ios_version_valid? || android_version_valid?
       hash.merge!(valid: true)
     else
-      hash.merge!(valid: false, app_store_url: Metadata.value_for_key('app_store_url'))
+      hash.merge!(valid: false,
+                  app_store_url: Metadata.value_for_key('app_store_url'),
+                  google_play_url: Metadata.value_for_key('google_play_url'))
     end
 
     render_success(hash)
@@ -108,5 +110,31 @@ class Api::V1::PingController < Api::V1::ABaseController
 
   def question_story
     NuxStory.question.try(:serializer)
+  end
+
+  def ios_version
+    Gem::Version.new(params[:app_version] || params[:version] || '0.0.0')
+  end
+
+  MINIMUM_IOS_VERSION = '1.0.0'
+  def minimum_ios_version
+    Gem::Version.new(Metadata.value_for_key('version') || '1.0.0')
+  end
+
+  def ios_version_valid?
+    ios_version >= minimum_ios_version
+  end
+
+  def android_version
+    Gem::Version.new(params[:android_app_version] || '0.0.0')
+  end
+
+  MINIMUM_ANDROID_VERSION = '0.0.1'
+  def minimum_android_version
+    Gem::Version.new(Metadata.value_for_key('android_version') || '0.0.1')
+  end
+
+  def android_version_valid?
+    android_version >= minimum_android_version
   end
 end

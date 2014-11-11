@@ -13,9 +13,11 @@ resource "Ping" do
     let!(:phone_metadata) { create(:metadata, :mkey => 'phone_number', :mvalue => '5555555555') }
     let!(:version_metadata) { create(:metadata, :mkey => 'current_version', :mvalue => '5000') }
     let(:version) { '1.0.2' }
+    let(:android_version) { '1.0.2' }
     let!(:nux_question_text) { create :metadata, mkey: 'nux_question_text', mvalue: 'First, choose what you need help with.' }
 
-    parameter :version, 'client version'
+    parameter :version, 'iOS client version'
+    parameter :android_version, 'Android client version'
 
     example_request "[GET] Ping the backend" do
       explanation "Ping the backend while unauthenticated"
@@ -51,9 +53,11 @@ resource "Ping" do
     let!(:phone_metadata) { create(:metadata, :mkey => 'phone_number', :mvalue => '5555555555') }
     let!(:version_metadata) { create(:metadata, :mkey => 'current_version', :mvalue => '5000') }
     let(:version) { '1.0.2' }
+    let(:android_version) { '1.0.2' }
     let(:raw_post) { params.to_json }
 
-    parameter :version, 'client version'
+    parameter :version, 'iOS client version'
+    parameter :android_version, 'Android client version'
 
     example_request "[POST] Ping the backend" do
       explanation "Ping the backend while unauthenticated"
