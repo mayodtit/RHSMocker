@@ -28,7 +28,9 @@ describe Api::V1::MemberTasksController do
           o.should_receive(:where).with('subject_id' => '1', 'state' => 'unassigned') do
             o_o = Object.new
             o_o.should_receive(:order).with("field(state, 'unstarted', 'started', 'claimed', 'completed', 'abandoned'), due_at DESC, created_at DESC") do
-              tasks
+              o_o_o = Object.new
+              o_o_o.should_receive(:includes).with(:service_type, :owner) { tasks }
+              o_o_o
             end
             o_o
           end
@@ -37,7 +39,7 @@ describe Api::V1::MemberTasksController do
 
         get :index, member_id: member.id, subject_id: 1, state: 'unassigned'
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:tasks].to_json.should == tasks.serializer.as_json.to_json
+        body[:tasks].to_json.should == tasks.serializer(for_subject: true).as_json.to_json
       end
 
       it 'doesn\'t allow other query parameters' do
@@ -46,7 +48,9 @@ describe Api::V1::MemberTasksController do
           o.should_receive(:where).with('subject_id' => '1', 'state' => 'unassigned') do
             o_o = Object.new
             o_o.should_receive(:order).with("field(state, 'unstarted', 'started', 'claimed', 'completed', 'abandoned'), due_at DESC, created_at DESC") do
-              tasks
+              o_o_o = Object.new
+              o_o_o.should_receive(:includes).with(:service_type, :owner) { tasks }
+              o_o_o
             end
             o_o
           end
@@ -55,7 +59,7 @@ describe Api::V1::MemberTasksController do
 
         get :index, member_id: member.id, subject_id: 1, state: 'unassigned', due_at: 3.days.ago
         body = JSON.parse(response.body, symbolize_names: true)
-        body[:tasks].to_json.should == tasks.serializer.as_json.to_json
+        body[:tasks].to_json.should == tasks.serializer(for_subject: true).as_json.to_json
       end
 
       context 'when the member is the subject' do
@@ -67,7 +71,9 @@ describe Api::V1::MemberTasksController do
               o_o.should_receive(:where).with('state' => 'unassigned') do
                 o_o_o = Object.new
                 o_o_o.should_receive(:order).with("field(state, 'unstarted', 'started', 'claimed', 'completed', 'abandoned'), due_at DESC, created_at DESC") do
-                  tasks
+                  o_o_o_o = Object.new
+                  o_o_o_o.should_receive(:includes).with(:service_type, :owner) { tasks }
+                  o_o_o_o
                 end
                 o_o_o
               end
@@ -78,7 +84,7 @@ describe Api::V1::MemberTasksController do
 
           get :index, member_id: member.id, subject_id: member.id, state: 'unassigned', due_at: 3.days.ago
           body = JSON.parse(response.body, symbolize_names: true)
-          body[:tasks].to_json.should == tasks.serializer.as_json.to_json
+          body[:tasks].to_json.should == tasks.serializer(for_subject: true).as_json.to_json
         end
       end
     end

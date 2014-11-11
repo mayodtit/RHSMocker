@@ -30,6 +30,10 @@ class MemberObserver < ActiveRecord::Observer
       else
         Mails::MeetYourPhaJob.create(member.id)
       end
+    elsif member.premium?
+      return if MemberStateTransition.multiple_exist_for?(member, :premium)
+      return if MemberStateTransition.multiple_exist_for?(member, :trial)
+      Mails::MeetYourPhaMonthTrialJob.create(member.id)
     elsif member.invited?
       return if MemberStateTransition.multiple_exist_for?(member, :invited)
       if member.onboarding_group.try(:mayo_pilot?) && member.onboarding_group.try(:provider)

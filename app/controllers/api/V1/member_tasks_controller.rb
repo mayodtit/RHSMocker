@@ -14,8 +14,8 @@ class Api::V1::MemberTasksController < Api::V1::ABaseController
     end
 
     # NOTE: order is MySQL specific
-    tasks = tasks.where(search_params).order("field(state, 'unstarted', 'started', 'claimed', 'completed', 'abandoned'), due_at DESC, created_at DESC")
-    index_resource tasks.serializer, name: :tasks
+    tasks = tasks.where(search_params).order("field(state, 'unstarted', 'started', 'claimed', 'completed', 'abandoned'), due_at DESC, created_at DESC").includes(:service_type, :owner)
+    index_resource tasks.serializer(for_subject: true), name: :tasks
   end
 
   def create

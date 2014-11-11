@@ -49,6 +49,10 @@ group :development do
   gem 'rest_client', require: false
 end
 
+group :test do
+  gem 'stripe-ruby-mock', '~> 2.0.0'
+end
+
 gem 'codeclimate-test-reporter', group: :test, require: nil    # test coverage for Code Climate
 gem 'raddocs', :git => 'git://github.com/chilcutt/raddocs.git' # gem for parsing API documentation JSON
 
