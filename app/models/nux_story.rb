@@ -13,6 +13,7 @@ class NuxStory < ActiveRecord::Base
   validates :ordinal, uniqueness: true, allow_nil: true
 
   before_validation :set_defaults
+  after_save :track_change
 
   def self.enabled
     where(enabled: true)
@@ -53,5 +54,9 @@ class NuxStory < ActiveRecord::Base
     self.enable_webview_scrolling = false if enable_webview_scrolling.nil?
     self.enabled = false if enabled.nil?
     true
+  end
+
+  def track_change
+    nux_story_changes.create(data: changed_attributes)
   end
 end
