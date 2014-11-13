@@ -1,4 +1,6 @@
 class NuxStory < ActiveRecord::Base
+  has_many :nux_story_changes, dependent: :destroy
+
   attr_accessible :html, :action_button_text, :show_nav_signup, :unique_id,
                   :ordinal, :enable_webview_scrolling, :text_header,
                   :text_footer, :enabled
