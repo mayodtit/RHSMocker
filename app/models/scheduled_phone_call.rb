@@ -236,7 +236,6 @@ Prep:
 
     before_transition any => :canceled do |scheduled_phone_call|
       scheduled_phone_call.canceled_at = Time.now
-      scheduled_phone_call.disabled_at = Time.now
     end
 
     before_transition any => :ended do |scheduled_phone_call|
@@ -255,9 +254,6 @@ Prep:
         validate_actor_and_timestamp_exist :book
       when :canceled
         validate_actor_and_timestamp_exist :cancel
-        if disabled_at.nil?
-          errors.add(:user_id, "must be present when #{self.class.name} is canceled")
-        end
       when :ended
         validate_actor_and_timestamp_exist :end
     end

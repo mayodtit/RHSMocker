@@ -48,7 +48,7 @@ class WelcomeCallTask < Task
   def self.set_priority_high(welcome_call_task_id)
     task = WelcomeCallTask.find(welcome_call_task_id)
     task.priority = ALERT_PRIORITY
-    body = "You have a Welcome Call Scheduled with #{task.user.full_name} in 15 minutes."
+    body = "You have a Welcome Call Scheduled with #{task.member.full_name} in 15 minutes."
     TwilioModule.message task.owner.phone, body
   end
 
