@@ -45,6 +45,13 @@ class WelcomeCallTask < Task
     )
   end
 
+  def update_task
+    self.due_at = scheduled_phone_call.scheduled_at
+    self.priority = INITIAL_PRIORITY
+    self.owner = scheduled_phone_call.owner
+    self.assignor = scheduled_phone_call.assignor
+  end
+
   def self.set_priority_high(welcome_call_task_id)
     task = WelcomeCallTask.find(welcome_call_task_id)
     task.priority = ALERT_PRIORITY
