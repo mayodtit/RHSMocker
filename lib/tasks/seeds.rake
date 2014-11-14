@@ -412,17 +412,17 @@ namespace :seeds do
     end
 
     puts 'Creating appointments...'
-    DAY_OFFSET = [1.business_days, 10.business_days, 20.business_days, 30.business_days, 40.business_days]
-    HOUR_OFFSET = [1.business_hours, 2.business_hours, 3.business_hours, 4.business_hours, 5.business_hours]
-    1.times do
+    DAY_OFFSET = [-30.days, -20.days, -10.days, 0.days, 10.days, 20.days, 30.days]
+    HOUR_OFFSET = [-2.hours, -1.hours, 0.hours, 1.hours, 2.hours]
+    5.times do
       s = ScheduledPhoneCall.create!(
-        scheduled_at: HOUR_OFFSET.sample.after(DAY_OFFSET.sample.after(Time.now)) + 10.hours,
+        scheduled_at: Time.now + DAY_OFFSET.sample + HOUR_OFFSET.sample,
       )
     end
 
-    1.times do
+    15.times do
       s = ScheduledPhoneCall.new(
-        scheduled_at: HOUR_OFFSET.sample.after(DAY_OFFSET.sample.after(Time.now)) + 10.hours,
+        scheduled_at: Time.now + DAY_OFFSET.sample + HOUR_OFFSET.sample,
         owner: Member.find_by_email!(PHAS.sample),
         assignor: Member.find_by_email!(PHA_LEADS.sample),
         assigned_at: Time.now
@@ -431,7 +431,7 @@ namespace :seeds do
       s.save!
     end
 
-    1.times do
+    5.times do
       m = Member.all.sample
       c = Consult.create!(
         title: 'Welcome Call',
@@ -442,7 +442,7 @@ namespace :seeds do
         messages_attributes: [{
           user: m,
           scheduled_phone_call_attributes: {
-            scheduled_at: HOUR_OFFSET.sample.after(DAY_OFFSET.sample.after(Time.now)) + 10.hours,
+            scheduled_at: Time.now + DAY_OFFSET.sample + HOUR_OFFSET.sample,
             owner: Member.find_by_email!(PHAS.sample),
             assignor: Member.find_by_email!(PHA_LEADS.sample),
             assigned_at: Time.now,
