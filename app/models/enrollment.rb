@@ -11,7 +11,7 @@ class Enrollment < ActiveRecord::Base
   validates :password, length: {minimum: 8,
                                 message: "must be 8 or more characters long"},
                        if: ->(e){e.password}
-  validate :email_not_taken_by_member, if: ->(e){e.email}
+  validate :email_not_taken_by_member, if: ->(e){e.email && e.user.nil?}
 
   before_validation :set_token, on: :create
 
