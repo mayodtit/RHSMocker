@@ -38,7 +38,7 @@ describe WelcomeCallTask do
     it 'should set the priority high' do
       WelcomeCallTask.stub(:find).with(welcome_call_task.id) { welcome_call_task }
       WelcomeCallTask.set_priority_high(welcome_call_task.id)
-      welcome_call_task.priority.should == 20
+      welcome_call_task.priority.should == 30
     end
 
     it 'should send a text message' do
