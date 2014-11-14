@@ -1,7 +1,7 @@
 class WelcomeCallTask < Task
   include ActiveModel::ForbiddenAttributesProtection
   INITIAL_PRIORITY = 0
-  ALERT_PRIORITY = 20
+  ALERT_PRIORITY = 30
   TIME_BEFORE_CALL = 15
 
   belongs_to :scheduled_phone_call
