@@ -8,6 +8,14 @@ describe NuxStory do
   it_validates 'uniqueness of', :unique_id
   it_validates 'allows blank uniqueness of', :ordinal
 
+  describe 'callbacks' do
+    let!(:nux_story) { create(:nux_story) }
+
+    it 'tracks change on save' do
+      expect{ nux_story.update_attributes(html: 'changed') }.to change(NuxStoryChange, :count).by(1)
+    end
+  end
+
   context 'without defaults' do
     before do
       described_class.any_instance.stub(:set_defaults)

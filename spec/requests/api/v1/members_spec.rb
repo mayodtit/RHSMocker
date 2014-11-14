@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'stripe_mock'
 
 shared_examples 'creates a member' do
   it 'creates a new member and returns member and auth_token' do
@@ -68,8 +69,35 @@ describe 'Members' do
       post '/api/v1/members', params
     end
 
-    let(:member_params) { {user: attributes_for(:member)} }
+    let(:stripe_helper) { StripeMock.create_test_helper }
+    let(:enrollment) { create(:enrollment) }
+    let(:credit_card_token) { stripe_helper.generate_card_token }
+    let(:plan_id) { 'bp20' }
+    let(:member_params) { {user: {email: 'kyle+test@getbetter.com', password: 'password', enrollment_token: enrollment.token, payment_token: credit_card_token}} }
+
+    before do
+      StripeMock.start
+      Stripe::Plan.create(amount: 1999,
+                          interval: :month,
+                          name: 'Single Membership',
+                          currency: :usd,
+                          id: plan_id)
+    end
+
+    after do
+      StripeMock.stop
+    end
 
     it_behaves_like 'creates a member'
+
+    it 'saves an enrollment when present' do
+      expect{ do_request(member_params) }.to change(Member, :count).by(1)
+      expect(response).to be_success
+      body = JSON.parse(response.body, symbolize_names: true)
+      member = Member.find(body[:user][:id])
+      expect(body[:user].to_json).to eq(member.serializer.as_json.to_json)
+      expect(body[:auth_token]).to eq(member.sessions.first.auth_token)
+      expect(enrollment.reload.user).to eq(member)
+    end
   end
 end
