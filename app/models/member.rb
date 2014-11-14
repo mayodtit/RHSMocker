@@ -68,7 +68,7 @@ class Member < User
   attr_accessor :payment_token
   belongs_to :nux_answer
   belongs_to :impersonated_user, class_name: 'Member'
-  has_one :enrollment, foreign_key: :user_id, inverse_of: :user
+  has_one :enrollment, foreign_key: :user_id, inverse_of: :user, autosave: true
 
   attr_accessible :password, :password_confirmation,
                   :invitation_token, :units,
