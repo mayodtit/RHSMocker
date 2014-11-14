@@ -31,8 +31,9 @@ describe WelcomeCallTask do
   end
 
   describe '#set_priority_high'do
+    let(:pha) { build_stubbed :pha, text_phone_number: "1234567890" }
     let(:scheduled_phone_call) { build_stubbed :scheduled_phone_call }
-    let(:welcome_call_task) { build_stubbed :welcome_call_task, scheduled_phone_call: scheduled_phone_call }
+    let(:welcome_call_task) { build_stubbed :welcome_call_task, scheduled_phone_call: scheduled_phone_call, owner: pha }
 
     it 'should set the priority high' do
       WelcomeCallTask.stub(:find).with(welcome_call_task.id) { welcome_call_task }
@@ -42,7 +43,7 @@ describe WelcomeCallTask do
 
     it 'should send a text message' do
       WelcomeCallTask.stub(:find).with(welcome_call_task.id) { welcome_call_task }
-      TwilioModule.should_receive(:message).with welcome_call_task.owner.phone, "You have a Welcome Call Scheduled with #{welcome_call_task.member.full_name} in 15 minutes."
+      TwilioModule.should_receive(:message).with welcome_call_task.owner.text_phone_number, "You have a Welcome Call Scheduled with #{welcome_call_task.member.full_name} in 15 minutes."
       WelcomeCallTask.set_priority_high(welcome_call_task.id)
     end
   end

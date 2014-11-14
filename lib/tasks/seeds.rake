@@ -638,7 +638,7 @@ namespace :seeds do
 
     prev_global_time_zone = Time.zone
     Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
-    num_days = rand() * 100
+    num_days = rand() * 50
     time = Time.roll_forward(num_days.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock
     Time.zone = prev_global_time_zone
 
