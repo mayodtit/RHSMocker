@@ -6,7 +6,6 @@
    diets
    ethnic_groups
    messages
-   nux
    roles
    service_types
    user_requests
@@ -32,4 +31,8 @@ end
 
 if ENV['seed_onboarding'] || ENV['seed_fast'] || ENV['seed_all']
   load File.join(Rails.root, 'db', 'seeds', 'onboarding.rb')
+end
+
+if ENV['seed_nux'] || ENV['seed_fast'] || ENV['seed_all']
+  load File.join(Rails.root, 'db', 'seeds', 'nux.rb')
 end
