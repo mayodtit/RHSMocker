@@ -2,6 +2,7 @@ FactoryGirl.define do
   factory :communication_workflow_template do
     communication_workflow
     relative_days 1
+    relative_hours 0
 
     factory :message_workflow_template, class: MessageWorkflowTemplate do
       message_template

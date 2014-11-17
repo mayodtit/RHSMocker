@@ -9,12 +9,28 @@ class CommunicationWorkflow < ActiveRecord::Base
     @automated_onboarding ||= find_by_name('Automated Onboarding 8/22/14')
   end
 
-  def self.automated_onboarding_old
-    @automated_onboarding_old ||= find_by_name('Automated Onboarding OLD')
-  end
-
   def self.automated_offboarding
     @automated_offboarding ||= find_by_name('Automated Offboarding')
+  end
+
+  def self.automated_onboarding_something_else
+    @automated_onboarding_something_else ||= find_by_name('Automated Onboarding - Something Else')
+  end
+
+  def self.automated_onboarding_caring_for
+    @automated_onboarding_caring_for ||= find_by_name('Automated Onboarding - Caring For Parent/Child')
+  end
+
+  def self.automated_onboarding_conception
+    @automated_onboarding_conception ||= find_by_name('Automated Onboarding - Conception')
+  end
+
+  def self.automated_onboarding_pregnancy
+    @automated_onboarding_pregnancy ||= find_by_name('Automated Onboarding - Pregnancy')
+  end
+
+  def self.automated_onboarding_weightloss
+    @automated_onboarding_weightloss ||= find_by_name('Automated Onboarding - Weightloss')
   end
 
   def add_to_member(member)

@@ -6,6 +6,7 @@
    diets
    ethnic_groups
    messages
+   premium_onboarding
    roles
    service_types
    user_requests
