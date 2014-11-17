@@ -35,7 +35,7 @@ class CommunicationWorkflowTemplate < ActiveRecord::Base
   end
 
   def relative_publish_at(reference_time)
-    if relative_days == 0
+    if (relative_days == 0) && reference_event.nil?
       # TODO - hack. reference time is set to the previous business day, but we want the current time
       if relative_hours > 0
         if (Time.now + relative_hours.hours + 1.hour).business_time?
