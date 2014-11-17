@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141117051442) do
+ActiveRecord::Schema.define(:version => 20141117202445) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -285,9 +285,11 @@ ActiveRecord::Schema.define(:version => 20141117051442) do
     t.date     "birth_date"
     t.string   "advertiser_id"
     t.string   "time_zone"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
     t.integer  "user_id"
+    t.string   "advertiser_media_source"
+    t.string   "advertiser_campaign"
   end
 
   add_index "enrollments", ["token"], :name => "index_enrollments_on_token"
