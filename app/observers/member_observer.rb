@@ -31,6 +31,8 @@ class MemberObserver < ActiveRecord::Observer
       CommunicationWorkflow.automated_onboarding_caring_for
     when 'conception'
       CommunicationWorkflow.automated_onboarding_conception
+    when 'pregnancy'
+      CommunicationWorkflow.automated_onboarding_pregnancy
     else
       CommunicationWorkflow.automated_onboarding_something_else
     end

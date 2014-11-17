@@ -177,3 +177,56 @@ m = MessageTemplate.find_by_name('Automated Onboarding - Something Else - Day 11
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
                                           {relative_days: 11})
+
+#####
+# Pregnancy
+#####
+cw = CommunicationWorkflow.find_or_create_by_name(name: 'Automated Onboarding - Pregnancy')
+
+PREGNANCY_DAY_0 = <<-eof
+Hi *|member_first_name|*, thanks for signing up. I’m here to help throughout your pregnancy by setting up and preparing for prenatal appointments, finding great doctors, improving your nutrition, recommending the best baby products, and confirming insurance coverage. How does this sound to you?
+eof
+m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding - Pregnancy - Day 0'},
+                                      {text: PREGNANCY_DAY_0.strip()})
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 0})
+
+PREGNANCY_DAY_1 = <<-eof
+Hi *|member_first_name|*, I'd like to send you tips about what you and your baby need during this trimester. When’s your due date?
+eof
+m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding - Pregnancy - Day 1'},
+                                      {text: PREGNANCY_DAY_1.strip()})
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 1})
+
+PREGNANCY_DAY_2 = <<-eof
+Hi *|member_first_name|*. Pregnancy is a busy and exciting time. What can I do to help? Send me a message or [schedule a time to talk](better://nb?cmd=scheduleCall).
+eof
+m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding - Pregnancy - Day 2'},
+                                      {text: PREGNANCY_DAY_2.strip()})
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 2})
+
+m = MessageTemplate.find_by_name('Automated Onboarding - Something Else - Day 3')
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 3})
+m = MessageTemplate.find_by_name('Automated Onboarding - Something Else - Day 4')
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 4})
+m = MessageTemplate.find_by_name('Automated Onboarding - Something Else - Day 6')
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 6})
+m = MessageTemplate.find_by_name('Automated Onboarding - Something Else - Day 8')
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 8})
+m = MessageTemplate.find_by_name('Automated Onboarding - Something Else - Day 11')
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 11})
