@@ -20,8 +20,17 @@ class MemberObserver < ActiveRecord::Observer
           CommunicationWorkflow.automated_offboarding.try(:add_to_member, member)
         end
       elsif member.premium?
-        CommunicationWorkflow.automated_onboarding_something_else.try(:add_to_member, member)
+        communication_workflow_template(member.nux_answer).try(:add_to_member, member)
       end
+    end
+  end
+
+  def communication_workflow_template(nux_answer)
+    case nux_answer.try(:name)
+    when 'childcare', 'eldercare'
+      CommunicationWorkflow.automated_onboarding_caring_for
+    else
+      CommunicationWorkflow.automated_onboarding_something_else
     end
   end
 
