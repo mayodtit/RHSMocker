@@ -33,6 +33,8 @@ class MemberObserver < ActiveRecord::Observer
       CommunicationWorkflow.automated_onboarding_conception
     when 'pregnancy'
       CommunicationWorkflow.automated_onboarding_pregnancy
+    when 'weightloss'
+      CommunicationWorkflow.automated_onboarding_weightloss
     else
       CommunicationWorkflow.automated_onboarding_something_else
     end

@@ -230,3 +230,56 @@ m = MessageTemplate.find_by_name('Automated Onboarding - Something Else - Day 11
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
                                           {relative_days: 11})
+
+#####
+# Weightloss
+#####
+cw = CommunicationWorkflow.find_or_create_by_name(name: 'Automated Onboarding - Weightloss')
+
+WEIGHTLOSS_DAY_0 = <<-eof
+Hi *|member_first_name|*, I’m excited to help you achieve your weight loss goals! We’ll review your current activity and eating habits to see where we can make small changes to build a healthy, sustainable lifestyle. How does this sound to you?
+eof
+m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding - Weightloss - Day 0'},
+                                      {text: WEIGHTLOSS_DAY_0.strip()})
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 0})
+
+WEIGHTLOSS_DAY_1 = <<-eof
+Hi *|member_first_name|*, I’d love to get started by learning more about your needs and set a weight loss goal. Our members get the best results if they have a quick call to discuss their goals.[Tap here to choose a convenient time](better://nb?cmd=scheduleCall). Let me know if you don't find anything that works.
+eof
+m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding - Weightloss - Day 1'},
+                                      {text: WEIGHTLOSS_DAY_1.strip()})
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 1})
+
+WEIGHTLOSS_DAY_2 = <<-eof
+Would you like to get started on your weight loss goal? I’ll also help you schedule appointments, find the best doctors and get the most from your health insurance. We can work together through messaging or [book a call here](better://nb?cmd=scheduleCall).
+eof
+m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding - Weightloss - Day 2'},
+                                      {text: WEIGHTLOSS_DAY_2.strip()})
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 2})
+
+m = MessageTemplate.find_by_name('Automated Onboarding - Something Else - Day 3')
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 3})
+m = MessageTemplate.find_by_name('Automated Onboarding - Something Else - Day 4')
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 4})
+m = MessageTemplate.find_by_name('Automated Onboarding - Something Else - Day 6')
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 6})
+m = MessageTemplate.find_by_name('Automated Onboarding - Something Else - Day 8')
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 8})
+m = MessageTemplate.find_by_name('Automated Onboarding - Something Else - Day 11')
+MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
+                                           message_template_id: m.id},
+                                          {relative_days: 11})
