@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141113213458) do
+ActiveRecord::Schema.define(:version => 20141117051442) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -140,6 +140,7 @@ ActiveRecord::Schema.define(:version => 20141113213458) do
     t.string   "type"
     t.string   "template"
     t.string   "reference_event"
+    t.integer  "relative_hours"
   end
 
   create_table "communication_workflows", :force => true do |t|
