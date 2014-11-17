@@ -30,19 +30,32 @@ describe WelcomeCallTask do
     end
   end
 
+  describe '#update_task!' do
+    let(:pha) { build_stubbed :pha }
+    let(:member) {build_stubbed :member}
+    let(:scheduled_phone_call) { build_stubbed :scheduled_phone_call, owner: pha, assignor: pha }
+    let(:welcome_call_task) { build_stubbed :welcome_call_task, scheduled_phone_call: scheduled_phone_call }
+
+    it 'should create a task with the correct attributes' do
+      welcome_call_task.should_receive(:update_attributes!).with(due_at: scheduled_phone_call.scheduled_at, priority: 0, owner: scheduled_phone_call.owner, assignor: scheduled_phone_call.assignor)
+      welcome_call_task.update_task!
+    end
+  end
+
   describe '#set_priority_high'do
     let(:pha) { build_stubbed :pha, text_phone_number: "1234567890" }
-    let(:scheduled_phone_call) { build_stubbed :scheduled_phone_call }
-    let(:welcome_call_task) { build_stubbed :welcome_call_task, scheduled_phone_call: scheduled_phone_call, owner: pha }
+    let(:scheduled_phone_call) { build_stubbed :scheduled_phone_call, owner: pha, assignor: pha }
+    let(:welcome_call_task) { build_stubbed :welcome_call_task, scheduled_phone_call: scheduled_phone_call, owner: pha, assignor: pha  }
 
     it 'should set the priority high' do
       WelcomeCallTask.stub(:find).with(welcome_call_task.id) { welcome_call_task }
+      welcome_call_task.should_receive(:update_attributes!).with( priority: 30 )
       WelcomeCallTask.set_priority_high(welcome_call_task.id)
-      welcome_call_task.priority.should == 30
     end
 
     it 'should send a text message' do
       WelcomeCallTask.stub(:find).with(welcome_call_task.id) { welcome_call_task }
+      welcome_call_task.stub(:update_attributes!).with( priority: 30 ) { welcome_call_task }
       TwilioModule.should_receive(:message).with welcome_call_task.owner.text_phone_number, "You have a Welcome Call Scheduled with #{welcome_call_task.member.full_name} in 15 minutes."
       WelcomeCallTask.set_priority_high(welcome_call_task.id)
     end

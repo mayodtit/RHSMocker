@@ -61,9 +61,9 @@ class ScheduledPhoneCall < ActiveRecord::Base
   end
 
   def create_task
-    if(self.welcome_call_task)
-      self.welcome_call_task.update_task
-    elsif(self.assignor && self.booker)
+    if self.welcome_call_task
+      self.welcome_call_task.update_task!
+    elsif self.assignor && self.booker
       WelcomeCallTask.create_task! self
     end
   end

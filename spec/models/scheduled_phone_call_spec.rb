@@ -398,6 +398,11 @@ describe ScheduledPhoneCall do
         expect(scheduled_phone_call.booked_at).to eq(Time.now)
       end
 
+      it 'creates or updates a task' do
+        scheduled_phone_call.should_receive :create_task
+        expect(book).to be_true
+      end
+
       it 'notifies the owner confirming that they booked the call' do
         scheduled_phone_call.should_receive :notify_user_confirming_call
         expect(book).to be_true
