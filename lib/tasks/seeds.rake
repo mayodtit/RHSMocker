@@ -622,4 +622,38 @@ namespace :seeds do
     member.free_trial_ends_at = 4.days.from_now
     OffboardMemberTask.create!(member: member, owner: pha, assignor: Member.robot, actor_id: Member.robot.id, title: 'Offboard', creator: Member.robot, due_at: 1.day.from_now)
   end
+
+  desc "Create a booked welcome call"
+  task :create_booked_welcome_call, [:member_email, :pha_email] => :environment do |t, args|
+    user = nil
+    pha = nil
+
+    user = Member.find_or_create_by_email!(
+      email: args[:member_email],
+      password: 'careportal',
+      user_agreements_attributes: user_agreements_attributes
+    )
+    user.send :set_master_consult
+    pha = Member.find_by_email args[:pha_email]
+
+    prev_global_time_zone = Time.zone
+    Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+    num_days = rand() * 50
+    time = Time.roll_forward(num_days.days.from_now.in_time_zone(Time.zone)).on_call_start_oclock
+    Time.zone = prev_global_time_zone
+
+    welcome_call = ScheduledPhoneCall.create! scheduled_at: time.utc
+    welcome_call.update_attributes!(
+        state_event: :assign,
+        assignor: Member.robot,
+        owner: pha
+    )
+    welcome_call.update_attributes!(
+        state_event: :book,
+        booker: user,
+        user: user,
+        callback_phone_number: "1234567890"
+    )
+    puts welcome_call.id
+  end
 end
