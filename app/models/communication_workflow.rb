@@ -9,10 +9,6 @@ class CommunicationWorkflow < ActiveRecord::Base
     @automated_onboarding ||= find_by_name('Automated Onboarding 8/22/14')
   end
 
-  def self.automated_onboarding_old
-    @automated_onboarding_old ||= find_by_name('Automated Onboarding OLD')
-  end
-
   def self.automated_offboarding
     @automated_offboarding ||= find_by_name('Automated Offboarding')
   end
