@@ -9,14 +9,18 @@ class MemberObserver < ActiveRecord::Observer
   private
 
   def add_automated_communication_workflows(member)
-    return unless member.trial? && member.previous_changes[:status]
+    return unless member.previous_changes[:status]
     return unless member.inbound_scheduled_communications.empty?
     member.transaction do
-      if Metadata.automated_onboarding?
-        CommunicationWorkflow.automated_onboarding.try(:add_to_member, member)
-      end
-      if Metadata.automated_offboarding?
-        CommunicationWorkflow.automated_offboarding.try(:add_to_member, member)
+      if member.trial?
+        if Metadata.automated_onboarding?
+          CommunicationWorkflow.automated_onboarding.try(:add_to_member, member)
+        end
+        if Metadata.automated_offboarding?
+          CommunicationWorkflow.automated_offboarding.try(:add_to_member, member)
+        end
+      elsif member.premium?
+        CommunicationWorkflow.automated_onboarding_something_else.try(:add_to_member, member)
       end
     end
   end
