@@ -45,16 +45,19 @@ class WelcomeCallTask < Task
     )
   end
 
-  def update_task
-    self.due_at = scheduled_phone_call.scheduled_at
-    self.priority = INITIAL_PRIORITY
-    self.owner = scheduled_phone_call.owner
-    self.assignor = scheduled_phone_call.assignor
+  def update_task!
+    update_attributes!(
+      due_at: scheduled_phone_call.scheduled_at,
+      priority: INITIAL_PRIORITY,
+      owner: scheduled_phone_call.owner,
+      assignor: scheduled_phone_call.assignor
+    )
+
   end
 
   def self.set_priority_high(welcome_call_task_id)
-    task = WelcomeCallTask.find(welcome_call_task_id)
-    task.priority = ALERT_PRIORITY
+    task = WelcomeCallTask.find welcome_call_task_id
+    task.update_attributes! priority: ALERT_PRIORITY
     if !task.owner.text_phone_number.nil?
       body = "You have a Welcome Call Scheduled with #{task.member.full_name} in 15 minutes."
       TwilioModule.message task.owner.text_phone_number, body
