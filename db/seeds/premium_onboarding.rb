@@ -7,7 +7,8 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding - Something E
                                       {text: SOMETHING_ELSE_DAY_0.strip()})
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
-                                          {relative_days: 0})
+                                          {relative_days: 0,
+                                           relative_hours: 1})
 
 SOMETHING_ELSE_DAY_1 = <<-eof
 Hi *|member_first_name|*, I’d love to get started by learning about your needs. Our members get the best results if they have a quick call to discuss their goals.[Tap here to choose a convenient time](better://nb?cmd=scheduleCall). Let me know if you don't find anything that works.
@@ -84,7 +85,8 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding - Caring For 
                                       {text: CARING_FOR_DAY_0.strip()})
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
-                                          {relative_days: 0})
+                                          {relative_days: 0,
+                                           relative_hours: 1})
 
 CARING_FOR_DAY_1 = <<-eof
 Hi *|member_first_name|*, I’d love to hear about who you’re caring for. Message me about them here and [add them to your profile](better://nb?cmd=newProfile).
@@ -137,7 +139,8 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding - Conception 
                                       {text: CONCEPTION_DAY_0.strip()})
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
-                                          {relative_days: 0})
+                                          {relative_days: 0,
+                                           relative_hours: 1})
 
 CONCEPTION_DAY_1 = <<-eof
 Hi *|member_first_name|*, do you have time to connect? I’m here to support you in everything from setting up a medical team to making sure you’re covered for any treatments you may need. To get started, [add any medical conditions to your profile here](better://nb?cmd=newProfile).
@@ -190,7 +193,8 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding - Pregnancy -
                                       {text: PREGNANCY_DAY_0.strip()})
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
-                                          {relative_days: 0})
+                                          {relative_days: 0,
+                                           relative_hours: 1})
 
 PREGNANCY_DAY_1 = <<-eof
 Hi *|member_first_name|*, I'd like to send you tips about what you and your baby need during this trimester. When’s your due date?
@@ -243,7 +247,8 @@ m = MessageTemplate.upsert_attributes({name: 'Automated Onboarding - Weightloss 
                                       {text: WEIGHTLOSS_DAY_0.strip()})
 MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
                                            message_template_id: m.id},
-                                          {relative_days: 0})
+                                          {relative_days: 0,
+                                           relative_hours: 1})
 
 WEIGHTLOSS_DAY_1 = <<-eof
 Hi *|member_first_name|*, I’d love to get started by learning more about your needs and set a weight loss goal. Our members get the best results if they have a quick call to discuss their goals.[Tap here to choose a convenient time](better://nb?cmd=scheduleCall). Let me know if you don't find anything that works.
