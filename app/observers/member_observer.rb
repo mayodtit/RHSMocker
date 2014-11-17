@@ -29,6 +29,8 @@ class MemberObserver < ActiveRecord::Observer
     case nux_answer.try(:name)
     when 'childcare', 'eldercare'
       CommunicationWorkflow.automated_onboarding_caring_for
+    when 'conception'
+      CommunicationWorkflow.automated_onboarding_conception
     else
       CommunicationWorkflow.automated_onboarding_something_else
     end
