@@ -41,7 +41,7 @@ class WelcomeCallTask < Task
       priority: INITIAL_PRIORITY,
       scheduled_phone_call: scheduled_phone_call,
       owner: scheduled_phone_call.owner,
-      assignor: scheduled_phone_call.assignor
+      assignor: Member.robot
     )
   end
 
@@ -50,9 +50,8 @@ class WelcomeCallTask < Task
       due_at: scheduled_phone_call.scheduled_at,
       priority: INITIAL_PRIORITY,
       owner: scheduled_phone_call.owner,
-      assignor: scheduled_phone_call.assignor
+      assignor: Member.robot
     )
-
   end
 
   def self.set_priority_high(welcome_call_task_id)
