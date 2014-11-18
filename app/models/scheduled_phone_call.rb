@@ -14,6 +14,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
   belongs_to :phone_call
   belongs_to :reminder_scheduled_message, class_name: 'ScheduledMessage'
   has_one :message, :inverse_of => :scheduled_phone_call
+  has_one :welcome_call_task, inverse_of: :scheduled_phone_call
   delegate :consult, :to => :message
 
   attr_accessible :user, :user_id, :owner, :owner_id, :phone_call, :phone_call_id,
@@ -58,6 +59,15 @@ class ScheduledPhoneCall < ActiveRecord::Base
 
     end
   end
+
+  def create_task
+    if self.welcome_call_task
+      self.welcome_call_task.update_task!
+    elsif self.assignor && self.booker
+      WelcomeCallTask.create_task! self
+    end
+  end
+
 
   def owner_assigned_calendar_event
     RiCal.Event do |event|
@@ -212,6 +222,7 @@ Prep:
         mt = MessageTemplate.find_by_name 'Confirm Welcome Call OLD'
         mt.create_message(scheduled_phone_call.user.pha, scheduled_phone_call.user.master_consult, true, true) if mt
       end
+      scheduled_phone_call.create_task
     end
 
     after_transition :assigned => :booked do |scheduled_phone_call|
@@ -225,7 +236,6 @@ Prep:
 
     before_transition any => :canceled do |scheduled_phone_call|
       scheduled_phone_call.canceled_at = Time.now
-      scheduled_phone_call.disabled_at = Time.now
     end
 
     before_transition any => :ended do |scheduled_phone_call|
@@ -244,9 +254,6 @@ Prep:
         validate_actor_and_timestamp_exist :book
       when :canceled
         validate_actor_and_timestamp_exist :cancel
-        if disabled_at.nil?
-          errors.add(:user_id, "must be present when #{self.class.name} is canceled")
-        end
       when :ended
         validate_actor_and_timestamp_exist :end
     end

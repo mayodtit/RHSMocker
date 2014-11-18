@@ -4,6 +4,7 @@ describe ScheduledPhoneCall do
   let(:scheduled_phone_call) { build(:scheduled_phone_call) }
   let(:delayed_user_mailer) { double('delayed user mailer', scheduled_phone_call_cp_assigned_email: true,
                                                             scheduled_phone_call_cp_confirmation_email: true,
+                                                            notify_of_assigned_task: true,
                                                             notify_phas_of_new_task: true,
                                                             notify_pha_of_new_member: true) }
   let(:delayed_rhs_mailer) { double('delayed rhs mailer', scheduled_phone_call_member_confirmation_email: true,
@@ -397,6 +398,11 @@ describe ScheduledPhoneCall do
         expect(scheduled_phone_call.booked_at).to eq(Time.now)
       end
 
+      it 'creates or updates a task' do
+        scheduled_phone_call.should_receive :create_task
+        expect(book).to be_true
+      end
+
       it 'notifies the owner confirming that they booked the call' do
         scheduled_phone_call.should_receive :notify_user_confirming_call
         expect(book).to be_true
@@ -438,10 +444,6 @@ describe ScheduledPhoneCall do
 
       it 'sets the canceled time' do
         scheduled_phone_call.canceled_at.should == Time.now
-      end
-
-      it 'sets the disabled time' do
-        scheduled_phone_call.disabled_at.should == Time.now
       end
 
       it_behaves_like 'won\'t double book pha', :canceled

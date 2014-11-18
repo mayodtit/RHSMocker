@@ -902,6 +902,7 @@ ActiveRecord::Schema.define(:version => 20141117202445) do
     t.integer  "user_request_id"
     t.datetime "member_free_trial_ends_at"
     t.boolean  "service_experiment",         :default => false, :null => false
+    t.integer  "delayed_job_id"
   end
 
   add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"
