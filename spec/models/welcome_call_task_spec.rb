@@ -53,6 +53,13 @@ describe WelcomeCallTask do
       WelcomeCallTask.set_priority_high(welcome_call_task.id)
     end
 
+    it 'should send a notification' do
+      WelcomeCallTask.stub(:find).with(welcome_call_task.id) { welcome_call_task }
+      welcome_call_task.stub(:update_attributes!).with( priority: 30 ) { welcome_call_task }
+      PubSub.should_receive(:publish).with "/users/#{welcome_call_task.owner.id}/notifications/tasks", {msg: "You have a Welcome Call Scheduled with #{welcome_call_task.member.full_name} in 15 minutes.", id: welcome_call_task.id, assignedTo: welcome_call_task.owner.id}
+      WelcomeCallTask.set_priority_high(welcome_call_task.id)
+    end
+
     it 'should send a text message' do
       WelcomeCallTask.stub(:find).with(welcome_call_task.id) { welcome_call_task }
       welcome_call_task.stub(:update_attributes!).with( priority: 30 ) { welcome_call_task }
