@@ -53,7 +53,7 @@ namespace :tasks do
 
   desc "Backfill welcome calls without a task"
   task :backfill_welcome_calls => :environment do
-    ScheduledPhoneCall.joins('LEFT JOIN tasks ON scheduled_phone_calls.id = tasks.scheduled_phone_call_id').where('tasks.scheduled_phone_call_id IS NULL').where(state: 'booked').find_each do |call|
+    ScheduledPhoneCall.joins('LEFT JOIN tasks ON scheduled_phone_calls.id = tasks.scheduled_phone_call_id').where('tasks.scheduled_phone_call_id IS NULL AND scheduled_phone_calls.scheduled_at > ?', Time.now).where(state: 'booked').find_each do |call|
       puts "Processing cheduled phone call #{call.id}"
       if call.respond_to? :create_task
         call.create_task
