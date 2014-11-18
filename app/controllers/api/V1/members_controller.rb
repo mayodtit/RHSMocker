@@ -30,7 +30,11 @@ class Api::V1::MembersController < Api::V1::ABaseController
     @member = Member.create create_attributes
     if @member.errors.empty?
       @session = @member.sessions.create
-      StripeSubscriptionService.new(@member, 'bp20', user_params[:payment_token], Time.zone.now.pacific.end_of_day + 1.month).create if user_params[:payment_token]
+      begin
+        StripeSubscriptionService.new(@member, 'bp20', user_params[:payment_token], Time.zone.now.pacific.end_of_day + 1.month).create if user_params[:payment_token]
+      rescue => e
+        logger.error("StripeSubscriptionService error: #{e}")
+      end
       render_success user: @member.serializer,
                      member: @member.reload.serializer,
                      pha_profile: @member.pha.try(:pha_profile).try(:serializer),

@@ -99,8 +99,8 @@ NuxStory.upsert_attributes({unique_id: 'CREDIT_CARD'},
                             text_footer: "At the end of your trial, your card will be charged $19.99/month. If you cancel your subscription before the trial is over, you will not be charged.",
                             enabled: true})
 NuxStory.upsert_attributes({unique_id: 'SIGN_UP_SUCCESS'},
-                           {html: LOREM_IPSUM,
-                            action_button_text: 'Sign Up',
+                           {html: TRIAL_HTML,
+                            action_button_text: 'Get a month free',
                             show_nav_signup: false,
                             enable_webview_scrolling: false,
                             enabled: false})
