@@ -81,7 +81,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def enrollment
-    params.fetch(:enrollment, {}).permit(:email, :first_name, :last_name, :birth_date, :advertiser_id, :time_zone, :password)
+    params.fetch(:enrollment, {}).permit(:email, :first_name, :last_name, :birth_date, :advertiser_id, :time_zone, :password, :code)
   end
 
   private

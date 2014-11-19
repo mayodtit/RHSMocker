@@ -3,7 +3,7 @@ class Enrollment < ActiveRecord::Base
 
   attr_accessible :token, :email, :first_name, :last_name, :birth_date,
                   :advertiser_id, :time_zone, :password, :user, :user_id,
-                  :advertiser_media_source, :advertiser_campaign
+                  :advertiser_media_source, :advertiser_campaign, :code
   attr_accessor :password
 
   validates :user, presence: true, if: ->(e){e.user_id}

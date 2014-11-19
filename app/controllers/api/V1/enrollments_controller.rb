@@ -59,15 +59,21 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   def trial_story
-    NuxStory.trial.try(:serializer)
+    NuxStory.trial.tap do |trial|
+      trial.enabled = false if (trial && (permitted_params.enrollment[:code] == "inside"))
+    end.try(:serializer)
   end
 
   def credit_card_story
-    NuxStory.credit_card.try(:serializer)
+    NuxStory.credit_card.tap do |credit_card|
+      credit_card.enabled = false if (credit_card && (permitted_params.enrollment[:code] == "inside"))
+    end.try(:serializer)
   end
 
   def success_story
-    NuxStory.sign_up_success.try(:serializer)
+    NuxStory.sign_up_success.tap do |success|
+      success.enabled = false if (success && (permitted_params.enrollment[:code] == "inside"))
+    end.try(:serializer)
   end
 
   def enrollment_errors

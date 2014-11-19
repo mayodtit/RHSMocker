@@ -31,6 +31,18 @@ describe 'Enrollments' do
         expect(enrollment.reload.email).to eq(new_email)
         expect(body[:enrollment].to_json).to eq(enrollment.serializer.as_json.to_json)
       end
+
+      context 'referral code is "inside"' do
+        let!(:nux_story) { create(:nux_story, unique_id: 'CREDIT_CARD', enabled: true) }
+
+        it "changes the NuxStory enabled attribute to false" do
+          NuxStory.credit_card.enabled.should be_true
+          do_request(enrollment: {email: new_email, code: 'inside'})
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:credit_card_story][:enabled]).to be_false
+        end
+      end
     end
   end
 
