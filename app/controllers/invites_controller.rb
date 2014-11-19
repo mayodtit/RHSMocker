@@ -12,6 +12,7 @@ class InvitesController < ApplicationController
   def update
     if @member.update_attributes(update_params)
       @member.update_attribute(:invitation_token, nil)
+      SendWelcomeEmailService.new(@member.reload).call
       redirect_to complete_invites_url
     else
       render action: :show

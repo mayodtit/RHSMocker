@@ -8,7 +8,13 @@ class Api::V1::OnboardingGroupUsersController < Api::V1::ABaseController
   end
 
   def create
-    create_resource @users, user_attributes, name: :user
+    @user = @users.create(user_attributes)
+    if @user.errors.empty?
+       SendMayoPilotInviteEmailService.new(@user).call
+      render_success(user: @user.serializer)
+    else
+      render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   def destroy
