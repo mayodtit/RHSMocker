@@ -14,6 +14,7 @@ class UsersController < ApplicationController
     @code = params.require(:user)[:code] || params[:code]
     @member = Member.create(create_attributes)
     if @member.errors.empty?
+      SendWelcomeEmailService.new(@member).call
       redirect_to complete_invites_url
     else
       render action: :signup

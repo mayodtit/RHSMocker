@@ -1,8 +1,6 @@
 class MemberObserver < ActiveRecord::Observer
   def after_commit(member)
     add_automated_communication_workflows(member)
-    send_state_emails(member)
-    send_confirm_email_email(member)
     set_self_owner(member)
   end
 
@@ -37,34 +35,6 @@ class MemberObserver < ActiveRecord::Observer
       CommunicationWorkflow.automated_onboarding_weightloss
     else
       CommunicationWorkflow.automated_onboarding_something_else
-    end
-  end
-
-  def send_state_emails(member)
-    return unless member.previous_changes[:status]
-    if member.trial?
-      return if MemberStateTransition.multiple_exist_for?(member, :trial)
-      if member.onboarding_group.try(:mayo_pilot?) && member.onboarding_group.try(:provider)
-        Mails::MayoPilotMeetYourPhaJob.create(member.id, member.onboarding_group.provider.id)
-      else
-        Mails::MeetYourPhaJob.create(member.id)
-      end
-    elsif member.premium?
-      return if MemberStateTransition.multiple_exist_for?(member, :premium)
-      return if MemberStateTransition.multiple_exist_for?(member, :trial)
-      Mails::MeetYourPhaMonthTrialJob.create(member.id)
-    elsif member.invited?
-      return if MemberStateTransition.multiple_exist_for?(member, :invited)
-      if member.onboarding_group.try(:mayo_pilot?) && member.onboarding_group.try(:provider)
-        Mails::MayoPilotInviteJob.create(member.id, member.onboarding_group.provider.id)
-      end
-    end
-  end
-
-  def send_confirm_email_email(member)
-    return unless member.trial? && member.previous_changes[:status]
-    if (member.email_confirmed == false) && member.email_confirmation_token
-      UserMailer.delay.confirm_email_email(member.id)
     end
   end
 

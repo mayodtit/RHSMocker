@@ -17,6 +17,7 @@ describe PhaProfile do
     it_validates 'presence of', :user
     it_validates 'numericality of', :capacity_weight
     it_validates 'integer numericality of', :capacity_weight
+    it_validates 'inclusion of', :silence_low_welcome_call_email
   end
 
   describe '::with_capcity' do

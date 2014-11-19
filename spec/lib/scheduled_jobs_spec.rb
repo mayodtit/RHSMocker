@@ -412,4 +412,17 @@ describe ScheduledJobs do
       end
     end
   end
+
+  describe '#alert_stakeholders_when_low_welcome_call_availability' do
+    let!(:pha_profile) { create(:pha_profile) }
+
+    before do
+      pha_profile.user.add_role :pha
+    end
+
+    it 'invokes UserMailer' do
+      UserMailer.should_receive(:notify_of_low_welcome_call_availability).and_call_original
+      described_class.alert_stakeholders_when_low_welcome_call_availability
+    end
+  end
 end

@@ -6,12 +6,13 @@ class PhaProfile < ActiveRecord::Base
 
   attr_accessible :user, :user_id, :bio_image, :full_page_bio_image, :bio, :weekly_capacity,
                   :capacity_weight, :mayo_pilot_capacity_weight, :first_person_bio,
-                  :nux_answer, :nux_answer_id
+                  :nux_answer, :nux_answer_id, :silence_low_welcome_call_email
 
   validates :user, presence: true
   validates :capacity_weight, :mayo_pilot_capacity_weight, numericality: {only_integer: true,
                                                                           greater_than_or_equal_to: 0,
                                                                           less_than_or_equal_to: 100}
+  validates :silence_low_welcome_call_email, inclusion: {in: [true, false]}
 
   before_validation :set_defaults
 
@@ -66,6 +67,7 @@ class PhaProfile < ActiveRecord::Base
   def set_defaults
     self.capacity_weight ||= 0
     self.mayo_pilot_capacity_weight ||= 0
+    self.silence_low_welcome_call_email = false if silence_low_welcome_call_email.nil?
     true
   end
 

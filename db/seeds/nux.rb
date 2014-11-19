@@ -78,7 +78,14 @@ TRIAL_HTML = <<-eof
   <body>
     <div class="content">
       <div id='title'>Try Better free for one month.</div>
-      <div id='body'>Get your own Personal Health Assistant to organize your health information, create a personalized plan based on your needs, and work with you to achieve your health goals.</div>
+      <div id='body'>
+        <p>
+          Get your own Personal Health Assistant to organize your health information, create a personalized plan based on your needs, and work with you to achieve your health goals.
+        </p>
+        <p>
+          At the end of your trial, your card will be charged $19.99/month. If you cancel your subscription before the trial is over, you will not be charged.
+        </p>
+      </div>
     </div>
   </body>
 </html>
@@ -96,7 +103,7 @@ NuxStory.upsert_attributes({unique_id: 'CREDIT_CARD'},
                             show_nav_signup: false,
                             enable_webview_scrolling: false,
                             text_header: nil,
-                            text_footer: "At the end of your trial, your card will be charged $19.99/month. If you cancel your subscription before the trial is over, you will not be charged.",
+                            text_footer: nil,
                             enabled: true})
 NuxStory.upsert_attributes({unique_id: 'SIGN_UP_SUCCESS'},
                            {html: TRIAL_HTML,
