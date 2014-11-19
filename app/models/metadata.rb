@@ -126,10 +126,6 @@ class Metadata < ActiveRecord::Base
     Metadata.find_by_mkey('on_call_queue_only_inbound_and_unassigned').try(:mvalue) == 'true'
   end
 
-  def self.notify_lack_of_tasks?
-    Metadata.find_by_mkey('notify_lack_of_tasks').try(:mvalue) == 'true'
-  end
-
   def self.automated_onboarding?
     Metadata.find_by_mkey('automated_onboarding').try(:mvalue) == 'true'
   end
@@ -158,5 +154,9 @@ class Metadata < ActiveRecord::Base
 
   def self.triage_off_hours_message?
     Metadata.find_by_mkey('triage_off_hours_message').try(:mvalue) == 'true'
+  end
+
+  def self.notify_lack_of_tasks?
+    Metadata.find_by_mkey('notify_lack_of_tasks').try(:mvalue) == 'true'
   end
 end

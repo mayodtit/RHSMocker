@@ -126,4 +126,12 @@ class ScheduledJobs
       end
     end
   end
+
+  def self.notify_lack_of_tasks
+    if Metadata.notify_lack_of_tasks?
+      Member.premium_states.find_each do |member|
+        NoTasksTask.create_if_member_has_no_tasks(member)
+      end
+    end
+  end
 end

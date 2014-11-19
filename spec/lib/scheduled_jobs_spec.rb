@@ -412,4 +412,40 @@ describe ScheduledJobs do
       end
     end
   end
+
+  describe '#notify_lack_of_tasks' do
+    context 'metadata does not exists' do
+
+      it 'does nothing' do
+        Member.should_not_receive :where
+        ScheduledJobs.notify_lack_of_tasks
+      end
+    end
+    context 'metadata exists' do
+      context 'metadata is false' do
+        before do
+          Metadata.stub(:notify_lack_of_tasks?) { false }
+        end
+
+        it 'does nothing' do
+          Member.should_not_receive :where
+          ScheduledJobs.notify_lack_of_tasks
+        end
+      end
+
+      context 'metadata is true' do
+        before do
+          Metadata.stub(:notify_lack_of_tasks?) { true }
+        end
+        let(:task) {create :member_task}
+        let!(:premium_member) {create :member, :premium, first_name: 'a'}
+        let!(:free_member) {create :member, :free, first_name: 'c'}
+        it 'should run create_if_member_has_no_tasks for every premium_states member' do
+          NoTasksTask.should_receive(:create_if_member_has_no_tasks).with(premium_member)
+          NoTasksTask.should_not_receive(:create_if_member_has_no_tasks).with(free_member)
+          ScheduledJobs.notify_lack_of_tasks
+        end
+      end
+    end
+  end
 end
