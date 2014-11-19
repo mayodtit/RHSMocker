@@ -35,6 +35,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
       rescue => e
         logger.error("StripeSubscriptionService error: #{e}")
       end
+      SendWelcomeEmailService.new(@member).call
       SendConfirmEmailService.new(@member).call
       render_success user: @member.serializer,
                      member: @member.reload.serializer,
