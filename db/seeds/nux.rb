@@ -77,13 +77,13 @@ TRIAL_HTML = <<-eof
   </head>
   <body>
     <div class="content">
-      <div id='title'>Try Better free for one month.</div>
+      <div id='title'>Try Better for Free</div>
       <div id='body'>
         <p>
           Get your own Personal Health Assistant to organize your health information, create a personalized plan based on your needs, and work with you to achieve your health goals.
         </p>
         <p>
-          At the end of your trial, your card will be charged $19.99/month. If you cancel your subscription before the trial is over, you will not be charged.
+          At the end of your free month, your card will be charged $19.99/month. If you cancel your subscription before the trial is over, you will not be charged.
         </p>
       </div>
     </div>
@@ -93,16 +93,16 @@ eof
 
 NuxStory.upsert_attributes({unique_id: 'TRIAL'},
                            {html: TRIAL_HTML,
-                            action_button_text: 'Get a month free',
+                            action_button_text: 'Continue',
                             show_nav_signup: false,
                             enable_webview_scrolling: false,
                             enabled: true})
 NuxStory.upsert_attributes({unique_id: 'CREDIT_CARD'},
                            {html: LOREM_IPSUM,
-                            action_button_text: 'Confirm',
+                            action_button_text: 'Start your free month',
                             show_nav_signup: false,
                             enable_webview_scrolling: false,
-                            text_header: nil,
+                            text_header: 'Enter your credit card information to get your free month.',
                             text_footer: nil,
                             enabled: true})
 NuxStory.upsert_attributes({unique_id: 'SIGN_UP_SUCCESS'},
