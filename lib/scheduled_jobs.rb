@@ -25,7 +25,7 @@ class ScheduledJobs
         end
       end
     end
-    logger.error("The following expired member ids failed validation: #{failed_member_ids.to_s}")
+    Rails.logger.error("The following expired member ids failed validation: #{failed_member_ids.to_s}")
     UserMailer.notify_of_failed_member_downgrades unless failed_member_ids.empty?
   end
 
