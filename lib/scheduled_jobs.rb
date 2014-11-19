@@ -25,7 +25,10 @@ class ScheduledJobs
         end
       end
     end
-    UserMailer.notify_of_failed_member_downgrades(failed_member_ids) unless failed_member_ids.empty?
+    
+    logger.error("The following expired member ids failed validation: #{failed_member_ids.to_s}")
+    
+    UserMailer.notify_of_failed_member_downgrades unless failed_member_ids.empty?
   end
 
   # NOTE: Should run every hour to account for Daylight Savings.
