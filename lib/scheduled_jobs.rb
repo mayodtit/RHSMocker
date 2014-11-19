@@ -1,11 +1,16 @@
 class ScheduledJobs
   def self.downgrade_members
+    failed_member_ids = [];
     if Metadata.offboard_free_trial_members?
       Member.where(status: :trial)
             .where('free_trial_ends_at < ?', Time.now)
             .where('signed_up_at >= ?', Metadata.offboard_free_trial_start_date)
             .find_each do |member|
-        member.downgrade!
+        begin
+          member.downgrade!
+        rescue
+          failed_member_ids << member.id
+        end
       end
     end
 
@@ -13,9 +18,14 @@ class ScheduledJobs
       Member.where(status: :premium)
             .where('subscription_ends_at < ?', Time.now)
             .find_each do |member|
-        member.downgrade!
+        begin
+          member.downgrade!
+        rescue
+          failed_member_ids << member.id
+        end
       end
     end
+    UserMailer.notify_of_failed_member_downgrades(failed_member_ids) unless failed_member_ids.empty?
   end
 
   # NOTE: Should run every hour to account for Daylight Savings.

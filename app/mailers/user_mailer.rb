@@ -98,6 +98,11 @@ class UserMailer < ActionMailer::Base
     @pairs = pairs
     mail(to: Role.pha_stakeholders.map(&:email).concat(pairs.keys.map(&:email)), subject: 'WARNING - Low welcome call availability')
   end
+  
+  def notify_of_failed_member_downgrades(failed_member_ids)
+    @failed_member_ids = failed_member_ids
+    mail(to: "engineering@getbetter.com", subject: "#{env}Failed member downgrades")
+  end
 
   def plain_text_email(recipient, sender, subject, text)
     mail(to: "#{recipient.full_name} <#{recipient.email}>",
