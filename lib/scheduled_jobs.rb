@@ -59,7 +59,7 @@ class ScheduledJobs
 
     available_call_counts = Member.phas_with_profile.inject({}) do |hash, pha|
       available_count = pha.owned_scheduled_phone_calls.assigned.in_period(start_time, end_time).count
-      if available_count < 5
+      if (available_count < 5) && !pha.pha_profile.silence_low_welcome_call_email?
         hash[pha] = available_count
       end
       hash

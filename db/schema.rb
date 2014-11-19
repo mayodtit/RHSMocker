@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141117202445) do
+ActiveRecord::Schema.define(:version => 20141119051345) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -537,8 +537,8 @@ ActiveRecord::Schema.define(:version => 20141117202445) do
   create_table "pha_profiles", :force => true do |t|
     t.integer  "user_id"
     t.string   "bio_image"
-    t.datetime "created_at",                 :null => false
-    t.datetime "updated_at",                 :null => false
+    t.datetime "created_at",                                        :null => false
+    t.datetime "updated_at",                                        :null => false
     t.text     "bio"
     t.integer  "weekly_capacity"
     t.integer  "capacity_weight"
@@ -546,6 +546,7 @@ ActiveRecord::Schema.define(:version => 20141117202445) do
     t.integer  "mayo_pilot_capacity_weight"
     t.text     "first_person_bio"
     t.integer  "nux_answer_id"
+    t.boolean  "silence_low_welcome_call_email", :default => false, :null => false
   end
 
   create_table "phone_call_summaries", :force => true do |t|

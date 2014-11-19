@@ -25,7 +25,7 @@ describe WelcomeCallTask do
     let(:scheduled_phone_call) { build_stubbed :scheduled_phone_call, owner: pha, assignor: pha }
 
     it 'should create a task with the correct attributes' do
-      WelcomeCallTask.should_receive(:create!).with(title: 'Welcome Call', creator: Member.robot, due_at: scheduled_phone_call.scheduled_at, priority: 0, scheduled_phone_call: scheduled_phone_call, owner: scheduled_phone_call.owner, assignor: scheduled_phone_call.assignor)
+      WelcomeCallTask.should_receive(:create!).with(title: 'Welcome Call', creator: Member.robot, due_at: scheduled_phone_call.scheduled_at, priority: 0, scheduled_phone_call: scheduled_phone_call, owner: scheduled_phone_call.owner, assignor: Member.robot)
       WelcomeCallTask.create_task! scheduled_phone_call
     end
   end
@@ -37,7 +37,7 @@ describe WelcomeCallTask do
     let(:welcome_call_task) { build_stubbed :welcome_call_task, scheduled_phone_call: scheduled_phone_call }
 
     it 'should create a task with the correct attributes' do
-      welcome_call_task.should_receive(:update_attributes!).with(due_at: scheduled_phone_call.scheduled_at, priority: 0, owner: scheduled_phone_call.owner, assignor: scheduled_phone_call.assignor)
+      welcome_call_task.should_receive(:update_attributes!).with(due_at: scheduled_phone_call.scheduled_at, priority: 0, owner: scheduled_phone_call.owner, assignor: Member.robot)
       welcome_call_task.update_task!
     end
   end

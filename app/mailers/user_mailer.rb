@@ -96,7 +96,7 @@ class UserMailer < ActionMailer::Base
 
   def notify_of_low_welcome_call_availability(pairs)
     @pairs = pairs
-    mail(to: Role.pha_stakeholders.map(&:email).concat(pairs.keys.map(&:email)), subject: 'WARNING - Low welcome call availability')
+    mail(to: Role.pha_stakeholders.map(&:email).concat(pairs.keys.map(&:email)).uniq, subject: 'WARNING - Low welcome call availability')
   end
 
   def plain_text_email(recipient, sender, subject, text)
