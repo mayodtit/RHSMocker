@@ -19,6 +19,7 @@ class AddTasksTask < Task
     self.due_at = Time.end_of_workday(Time.now)
     self.subject = member
     self.description = "The member currently has no current tasks assigned."
+    self.priority = 0
   end
 
   def self.create_if_member_has_no_tasks(member)

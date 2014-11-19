@@ -6,5 +6,6 @@ FactoryGirl.define do
     association :subject, factory: :member
     association :service_type
     title 'Find new services for member'
+    priority 0
   end
 end
