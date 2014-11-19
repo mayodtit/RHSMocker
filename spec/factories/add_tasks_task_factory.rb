@@ -1,7 +1,7 @@
 # Read about factories at https://github.com/thoughtbot/factory_girl
 
 FactoryGirl.define do
-  factory :no_tasks_task, class: NoTasksTask, parent: :task do
+  factory :add_tasks_task, class: AddTasksTask, parent: :task do
     member
     association :subject, factory: :member
     association :service_type

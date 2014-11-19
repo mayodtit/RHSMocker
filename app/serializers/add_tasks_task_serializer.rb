@@ -1,4 +1,4 @@
-class NoTasksTaskSerializer < TaskSerializer
+class AddTasksTaskSerializer < TaskSerializer
   attributes :member_id, :subject_id
 
   def attributes

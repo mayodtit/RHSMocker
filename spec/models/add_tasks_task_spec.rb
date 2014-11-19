@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe NoTasksTask do
+describe AddTasksTask do
   before do
     @service_type = ServiceType.find_or_create_by_name! name: 're-engagement', bucket: 'engagement'
   end
@@ -14,7 +14,7 @@ describe NoTasksTask do
   end
 
   describe '#set_required_attrs' do
-    let(:task) { build :no_tasks_task }
+    let(:task) { build :add_tasks_task }
 
     it 'sets title' do
       task.set_required_attrs
@@ -51,19 +51,19 @@ describe NoTasksTask do
     let!(:member) { create :member }
 
     context 'member has tasks' do
-      let!(:no_tasks_task) { create :no_tasks_task, member: member }
+      let!(:add_tasks_task) { create :add_tasks_task, member: member }
 
       it 'does not create an offboard task' do
-        NoTasksTask.should_not_receive(:create!)
-        NoTasksTask.create_if_member_has_no_tasks(member)
+        AddTasksTask.should_not_receive(:create!)
+        AddTasksTask.create_if_member_has_no_tasks(member)
       end
     end
 
     context 'member has no tasks' do
 
       it 'creates an offboard task' do
-        NoTasksTask.should_receive(:create!)
-        NoTasksTask.create_if_member_has_no_tasks(member)
+        AddTasksTask.should_receive(:create!)
+        AddTasksTask.create_if_member_has_no_tasks(member)
       end
     end
   end

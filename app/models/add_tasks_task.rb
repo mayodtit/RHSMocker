@@ -1,4 +1,4 @@
-class NoTasksTask < Task
+class AddTasksTask < Task
 
   include ActiveModel::ForbiddenAttributesProtection
 
@@ -22,7 +22,7 @@ class NoTasksTask < Task
   end
 
   def self.create_if_member_has_no_tasks(member)
-    if Task.where(member_id: member.id, type: ['MemberTask', 'UserRequestTask', 'NoTasksTask']).open.count == 0
+    if Task.where(member_id: member.id, type: ['MemberTask', 'UserRequestTask', 'AddTasksTask']).open.count == 0
       create! member: member
     end
   end

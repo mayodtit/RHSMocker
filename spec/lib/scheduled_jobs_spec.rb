@@ -441,8 +441,8 @@ describe ScheduledJobs do
         let!(:premium_member) {create :member, :premium, first_name: 'a'}
         let!(:free_member) {create :member, :free, first_name: 'c'}
         it 'should run create_if_member_has_no_tasks for every premium_states member' do
-          NoTasksTask.should_receive(:create_if_member_has_no_tasks).with(premium_member)
-          NoTasksTask.should_not_receive(:create_if_member_has_no_tasks).with(free_member)
+          AddTasksTask.should_receive(:create_if_member_has_no_tasks).with(premium_member)
+          AddTasksTask.should_not_receive(:create_if_member_has_no_tasks).with(free_member)
           ScheduledJobs.notify_lack_of_tasks
         end
       end
