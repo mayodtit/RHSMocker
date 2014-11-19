@@ -1,5 +1,5 @@
 class AddTasksTaskSerializer < TaskSerializer
-  attributes :member_id, :subject_id
+  attributes :member_id
 
   def attributes
     if options[:shallow]
@@ -7,14 +7,13 @@ class AddTasksTaskSerializer < TaskSerializer
     else
       super.tap do |attributes|
         attributes.merge!(
-            subject: object.member.try(:serializer, options),
-            creator: object.subject.try(:serializer, options)
+            subject: object.member.try(:serializer, options)
         )
       end
     end
   end
 
   def type
-    'no-tasks'
+    'add-tasks'
   end
 end

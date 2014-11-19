@@ -2,12 +2,7 @@ class AddTasksTask < Task
 
   include ActiveModel::ForbiddenAttributesProtection
 
-  belongs_to :subject, class_name: 'User'
-
-  attr_accessible :subject_id, :subject
-
   validates :member, presence: true
-  validates :subject, presence: true
   validates :service_type, presence: true
 
   before_validation :set_required_attrs, on: :create
@@ -17,8 +12,7 @@ class AddTasksTask < Task
     self.service_type = ServiceType.find_by_name! 're-engagement'
     self.creator = Member.robot
     self.due_at = Time.end_of_workday(Time.now)
-    self.subject = member
-    self.description = "The member currently has no current tasks assigned."
+    self.description = "The member current has no tasks in progress."
     self.priority = 0
   end
 

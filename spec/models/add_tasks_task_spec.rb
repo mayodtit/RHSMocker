@@ -9,7 +9,6 @@ describe AddTasksTask do
 
   describe 'validations' do
     it_validates 'foreign key of', :member
-    it_validates 'foreign key of', :subject
     it_validates 'foreign key of', :service_type
   end
 
@@ -36,14 +35,9 @@ describe AddTasksTask do
       task.creator.should == Member.robot
     end
 
-    it 'sets the subject to the member' do
-      task.set_required_attrs
-      task.subject.should == task.member
-    end
-
     it 'sets description' do
       task.set_required_attrs
-      task.description.should == "The member currently has no current tasks assigned."
+      task.description.should == "The member current has no tasks in progress."
     end
   end
 
