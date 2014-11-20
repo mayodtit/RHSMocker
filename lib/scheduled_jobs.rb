@@ -149,7 +149,7 @@ class ScheduledJobs
   def self.notify_lack_of_messages
     if Metadata.notify_lack_of_messages?
       Member.premium_states.find_each do |member|
-        if !member.last_contact_at || member.last_contact_at && member.last_contact_at < 1.minute.ago
+        if !member.last_contact_at || member.last_contact_at && member.last_contact_at < 1.week.ago
          MessageMemberTask.create_task_for_member(member)
         end
       end
