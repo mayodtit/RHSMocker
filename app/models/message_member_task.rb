@@ -1,0 +1,22 @@
+class MessageMemberTask < Task
+
+  include ActiveModel::ForbiddenAttributesProtection
+
+  validates :member, presence: true
+  validates :service_type, presence: true
+
+  before_validation :set_required_attrs, on: :create
+
+  def set_required_attrs
+    self.title = "Message Member"
+    self.service_type = ServiceType.find_by_name! 're-engagement'
+    self.creator = Member.robot
+    self.due_at = Time.end_of_workday(Time.now)
+    self.description = "The member current has not been messaged in a week"
+    self.priority = 0
+  end
+
+  def self.create_task_for_member(member)
+    create! member: member
+  end
+end

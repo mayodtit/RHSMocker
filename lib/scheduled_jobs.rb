@@ -145,4 +145,31 @@ class ScheduledJobs
       end
     end
   end
+
+  def self.notify_lack_of_messages
+    if Metadata.notify_lack_of_messages?
+      Member.find_each do |m|
+        m.initiated_consults.each do |c|
+          consult_last_contact_at = nil
+          consult_last_contact_at = c.created_at unless c.master
+          last_message = c.messages.order('created_at ASC').last
+
+          if last_message && last_message.created_at && !last_message.system && (!consult_last_contact_at || consult_last_contact_at > last_message.created_at)
+            consult_last_contact_at = last_message.created_at
+          end
+
+          if consult_last_contact_at && (!m.last_contact_at || m.last_contact_at > consult_last_contact_at)
+            m.last_contact_at = consult_last_contact_at
+          end
+        end
+
+        m.save!
+
+        if m.last_contact_at && m.last_contact_at < (Time.7.days.ago)
+          MessageMemberTask.create_task_for_member(m)
+        end
+      end
+
+    end
+  end
 end
