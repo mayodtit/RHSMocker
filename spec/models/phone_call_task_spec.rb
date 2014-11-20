@@ -205,7 +205,7 @@ describe PhoneCallTask do
       it 'claims the phone call' do
         task.phone_call.stub(:in_progress?) { true }
         task.abandoner = pha
-        task.reason_abandoned = 'pooed'
+        task.reason = 'pooed'
         task.phone_call.should_receive(:update_attributes!).with(state_event: :end, ender: pha)
         task.abandon!
       end

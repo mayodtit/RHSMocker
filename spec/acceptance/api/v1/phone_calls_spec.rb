@@ -255,7 +255,9 @@ resource "PhoneCalls" do
         phone_call.reload.should be_missed
         phone_call_task = phone_call.phone_call_task
         phone_call_task.should be_abandoned
-        phone_call_task.reason_abandoned.should == 'after_hours'
+        task_change = TaskChange.last
+        task_change.task.should == phone_call_task
+        task_change.reason.should == 'after_hours'
         xml = Nokogiri::XML(response_body)
         xml.xpath('//Response/Play').text().should =~ /goodbye.aiff/
       end

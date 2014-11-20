@@ -269,7 +269,7 @@ describe MessageTask do
         end
 
         it 'isn\'t deactivated when abandoned' do
-          expect { task.update_attributes! state_event: :abandon, reason_abandoned: 'none', abandoner: pha }.to_not raise_error
+          expect { task.update_attributes! state_event: :abandon, reason: 'none', abandoner: pha }.to_not raise_error
         end
 
         it 'isn\'t deactivated when completed' do
@@ -285,7 +285,7 @@ describe MessageTask do
         end
 
         it 'is deactivated when abandoned' do
-          task.update_attributes! state_event: :abandon, reason_abandoned: 'none', abandoner: pha
+          task.update_attributes! state_event: :abandon, reason: 'none', abandoner: pha
           message.consult.reload.should be_inactive
         end
 
