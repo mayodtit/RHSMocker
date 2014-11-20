@@ -82,7 +82,7 @@ namespace :tasks do
 
   desc "Backfill reason for task changes that transition to abandoned"
   task :backfill_reason => :environment do
-    TaskChange.where(to: 'abandoned', reason_abandoned: nil).includes(:task).find_each do |task_change|
+    TaskChange.where(to: 'abandoned', reason: nil).includes(:task).find_each do |task_change|
       puts "Backfilling reason for change #{task_change.id} from task #{task_change.task.id}"
       task_change.data.delete 'reason_abandoned'
       task_change.data = nil if task_change.data.empty?
