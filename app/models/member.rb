@@ -15,7 +15,7 @@ class Member < User
   has_one :master_consult, class_name: 'Consult',
                            foreign_key: :initiator_id,
                            conditions: {master: true}
-  has_many :messages, foreign_key: :user_id
+  has_many :messages, foreign_key: :user_id, dependent: :destroy
   has_many :message_statuses, foreign_key: :user_id
   has_many :phone_calls, foreign_key: :user_id
   has_many :scheduled_phone_calls, foreign_key: :user_id
