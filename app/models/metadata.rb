@@ -155,4 +155,8 @@ class Metadata < ActiveRecord::Base
   def self.triage_off_hours_message?
     Metadata.find_by_mkey('triage_off_hours_message').try(:mvalue) == 'true'
   end
+
+  def self.notify_lack_of_tasks?
+    Metadata.find_by_mkey('notify_lack_of_tasks').try(:mvalue) == 'true'
+  end
 end

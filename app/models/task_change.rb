@@ -3,7 +3,7 @@ class TaskChange < ActiveRecord::Base
   belongs_to :actor, class_name: 'Member'
   serialize :data, Hash
   attr_accessible :task, :task_id, :created_at, :event, :from, :to,
-                  :actor, :actor_id, :data
+                  :actor, :actor_id, :data, :reason
 
   validates :task, :actor, presence: true
 

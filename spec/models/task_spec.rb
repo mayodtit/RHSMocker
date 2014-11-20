@@ -108,6 +108,78 @@ describe Task do
         end
       end
     end
+
+    describe 'presence of reason' do
+      let(:task) { build :task }
+
+      context 'neither abandoned nor due at changed' do
+        before do
+          task.stub(:due_at_changed?) { false }
+          task.stub(:state_changed?) { false }
+        end
+
+        it 'doesn\'t need to be present' do
+          task.reason.should_not be_present
+          task.should be_valid
+        end
+      end
+
+      context 'state changed' do
+        before do
+          task.stub(:state_changed?) { true }
+        end
+
+        context 'not transitioning to abandoned' do
+          before do
+            task.stub(:abandoned?) { false }
+          end
+
+          it 'doesn\'t need to be present' do
+            task.reason.should_not be_present
+            task.should be_valid
+          end
+        end
+
+        context 'transitioning to abandoned' do
+          before do
+            task.stub(:abandoned?) { true }
+          end
+
+          it 'needs to be present' do
+            task.reason.should_not be_present
+            task.should_not be_valid
+          end
+        end
+      end
+
+      context 'due_at changed' do
+        before do
+          task.stub(:due_at_changed?) { true }
+        end
+
+        context 'due_at was nil' do
+          before do
+            task.stub(:due_at_was) { nil }
+          end
+
+          it 'doesn\'t need to be present' do
+            task.reason.should_not be_present
+            task.should be_valid
+          end
+        end
+
+        context 'due_at was something else' do
+          before do
+            task.stub(:due_at_was) { 5.days.ago }
+          end
+
+          it 'needs to be present' do
+            task.reason.should_not be_present
+            task.should_not be_valid
+          end
+        end
+      end
+    end
   end
 
   describe '#open?' do
@@ -722,7 +794,7 @@ describe Task do
       it 'changes state to abandoned' do
         task.should_not be_abandoned
         task.abandoner = pha
-        task.reason_abandoned = 'pooed'
+        task.reason = 'pooed'
         task.abandon!
         task.should be_abandoned
       end
@@ -730,7 +802,7 @@ describe Task do
       it 'sets abandoned at' do
         task.completed_at.should be_nil
         task.abandoner = pha
-        task.reason_abandoned = 'pooed'
+        task.reason = 'pooed'
         task.abandon!
         task.abandoned_at.should == Time.now
       end
@@ -738,7 +810,7 @@ describe Task do
       it 'indicates a change was tracked' do
         task.completed_at.should be_nil
         task.abandoner = pha
-        task.reason_abandoned = 'pooed'
+        task.reason = 'pooed'
         task.abandon!
         expect(task.change_tracked).to be_true
       end

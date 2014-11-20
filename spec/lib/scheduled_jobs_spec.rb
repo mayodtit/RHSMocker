@@ -413,6 +413,7 @@ describe ScheduledJobs do
     end
   end
 
+
   describe '#alert_stakeholders_when_low_welcome_call_availability' do
     let!(:pha_profile) { create(:pha_profile) }
 
@@ -423,6 +424,42 @@ describe ScheduledJobs do
     it 'invokes UserMailer' do
       UserMailer.should_receive(:notify_of_low_welcome_call_availability).and_call_original
       described_class.alert_stakeholders_when_low_welcome_call_availability
+    end
+  end
+
+  describe '#notify_lack_of_tasks' do
+    context 'metadata does not exists' do
+
+      it 'does nothing' do
+        Member.should_not_receive :where
+        ScheduledJobs.notify_lack_of_tasks
+      end
+    end
+    context 'metadata exists' do
+      context 'metadata is false' do
+        before do
+          Metadata.stub(:notify_lack_of_tasks?) { false }
+        end
+
+        it 'does nothing' do
+          Member.should_not_receive :where
+          ScheduledJobs.notify_lack_of_tasks
+        end
+      end
+
+      context 'metadata is true' do
+        before do
+          Metadata.stub(:notify_lack_of_tasks?) { true }
+        end
+        let(:task) {create :member_task}
+        let!(:premium_member) {create :member, :premium, first_name: 'a'}
+        let!(:free_member) {create :member, :free, first_name: 'c'}
+        it 'should run create_if_member_has_no_tasks for every premium_states member' do
+          AddTasksTask.should_receive(:create_if_member_has_no_tasks).with(premium_member)
+          AddTasksTask.should_not_receive(:create_if_member_has_no_tasks).with(free_member)
+          ScheduledJobs.notify_lack_of_tasks
+        end
+      end
     end
   end
 end

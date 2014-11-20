@@ -263,18 +263,31 @@ describe Api::V1::TasksController do
           Task.stub(:find) { task }
         end
 
+        context 'reason abandoned is present' do
+          it 'sets reason to reason abandoned' do
+            task.should_receive(:update_attributes).with hash_including('reason' => 'poo')
+            put :update, id: task.id, task: {reason_abandoned: 'poo'}
+          end
+
+          it 'removes reason abandoned' do
+            task.should_receive(:update_attributes).with hash_not_including('reason_abandoned' => 'poo')
+            put :update, id: task.id, task: {reason_abandoned: 'poo'}
+          end
+        end
+
         context 'state event is present' do
           context 'state event is abandon' do
             it 'sets the actor to the current user' do
               task.should_receive(:update_attributes).with(
                 'state_event' => 'abandon',
                 'abandoner' => user,
+                'reason' => 'poo',
                 'actor_id' => user.id
               )
 
               task.stub(:owner_id) { user.id }
               task.stub(:assignor_id) { user.id }
-              put :update, id: task.id, task: {state_event: 'abandon'}
+              put :update, id: task.id, task: {state_event: 'abandon', reason: 'poo'}
             end
           end
 

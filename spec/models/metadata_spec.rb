@@ -283,4 +283,26 @@ describe Metadata do
       end
     end
   end
+
+  describe '#notify_lack_of_tasks' do
+    context 'mkey not found' do
+      it 'returns false' do
+        Metadata.should_not be_notify_lack_of_tasks
+      end
+    end
+
+    context 'mkey found' do
+      it 'is false' do
+        m = create(:metadata, mkey: 'notify_lack_of_tasks', mvalue: 'false')
+        Metadata.should_not be_notify_lack_of_tasks
+      end
+
+      context 'value is true' do
+        it 'is true' do
+          m = create(:metadata, mkey: 'notify_lack_of_tasks', mvalue: 'true')
+          Metadata.should be_notify_lack_of_tasks
+        end
+      end
+    end
+  end
 end

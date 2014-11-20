@@ -13,14 +13,14 @@ class Task < ActiveRecord::Base
   belongs_to :task_template
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
 
-  attr_accessor :actor_id, :change_tracked
-  attr_accessible :title, :description, :due_at, :reason_abandoned,
+  attr_accessor :actor_id, :change_tracked, :reason
+  attr_accessible :title, :description, :due_at,
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
                   :abandoner, :abandoner_id, :role, :role_id,
                   :state_event, :service_type_id, :service_type,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
-                  :priority, :service_experiment, :actor_id, :member_id, :member
+                  :priority, :service_experiment, :actor_id, :member_id, :member, :reason
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :owner, presence: true, if: lambda { |t| t.owner_id }
@@ -30,6 +30,7 @@ class Task < ActiveRecord::Base
   validates :service_ordinal, presence: true, if: lambda { |t| t.service_id }
   validates :task_template, presence: true, if: lambda { |t| t.task_template_id }
   validates :member, presence: true, if: lambda { |t| t.member_id }
+  validates :reason, presence: true, if: lambda { |t| (t.due_at_changed? && t.due_at_was.present?) || (t.state_changed? && t.abandoned?) }
   validate :attrs_for_states
   validate :one_claimed_per_owner
 
@@ -129,7 +130,7 @@ class Task < ActiveRecord::Base
   end
 
   state_machine :initial => :unstarted do
-    store_audit_trail to: 'TaskChange', context_to_log: [:actor_id, :data]
+    store_audit_trail to: 'TaskChange', context_to_log: [:actor_id, :data, :reason]
 
     event :unstart do
       transition any => :unstarted
@@ -168,7 +169,6 @@ class Task < ActiveRecord::Base
     end
 
     before_transition :abandoned => any - [:abandoned] do |task|
-      task.reason_abandoned = nil
     end
 
     # Audit trail will create a TaskChange in an after_transition. This tells
@@ -194,9 +194,6 @@ class Task < ActiveRecord::Base
         validate_timestamp_exists :complete
       when 'abandoned'
         validate_actor_and_timestamp_exist :abandon
-        if reason_abandoned.nil? || reason_abandoned.blank?
-          errors.add(:reason_abandoned, "must be present when #{self.class.name} is #{state}")
-        end
     end
 
     if %w(started claimed completed).include? state
@@ -240,7 +237,7 @@ class Task < ActiveRecord::Base
     if change_tracked
       self.change_tracked = false
     elsif _data = data
-      TaskChange.create! task: self, actor_id: self.actor_id, event: 'update', data: _data
+      TaskChange.create! task: self, actor_id: self.actor_id, event: 'update', data: _data, reason: reason
     end
   end
 end

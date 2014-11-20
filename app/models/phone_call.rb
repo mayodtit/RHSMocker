@@ -414,7 +414,7 @@ class PhoneCall < ActiveRecord::Base
 
     after_transition any - :missed => :missed do |phone_call, transition|
       if task = phone_call.phone_call_task
-        task.update_attributes! state_event: :abandon, reason_abandoned: transition.args.first || 'missed', abandoner: Member.robot
+        task.update_attributes! state_event: :abandon, reason: transition.args.first || 'missed', abandoner: Member.robot
       end
 
       # TODO: Add follow up task
