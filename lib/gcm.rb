@@ -9,11 +9,11 @@ class GCM
 
     uri = URI(GCM_URL)
     req = Net::HTTP::Post.new(uri)
-    req.set_form_data(payload)
+    req.body = payload.to_json
     req['Content-Type'] = 'application/json'
     req['Authorization'] = "key=#{GCM_KEY}"
-    Net::HTTP.start(uri.hostname, uri.port) do |http|
-      http.request(req)
-    end
+    http = Net::HTTP.new(uri.hostname, uri.port)
+    http.use_ssl = true
+    http.request(req)
   end
 end
