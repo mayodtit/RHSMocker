@@ -14,6 +14,9 @@ class GCM
     req['Authorization'] = "key=#{GCM_KEY}"
     http = Net::HTTP.new(uri.hostname, uri.port)
     http.use_ssl = true
-    http.request(req)
+    http.request(req) do |response|
+      # use the response to ensure we block until the response is received
+      Rails.logger.info("GCM alert completed: #{response.to_s}")
+    end
   end
 end
