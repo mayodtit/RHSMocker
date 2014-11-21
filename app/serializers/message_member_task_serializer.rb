@@ -7,7 +7,7 @@ class MessageMemberTaskSerializer < TaskSerializer
     else
       super.tap do |attributes|
         attributes.merge!(
-            subject: object.member.try(:serializer, options)
+            member: object.member.try(:serializer, options)
         )
       end
     end
