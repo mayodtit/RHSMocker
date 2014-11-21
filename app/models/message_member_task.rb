@@ -8,7 +8,7 @@ class MessageMemberTask < Task
   before_validation :set_required_attrs, on: :create
 
   def set_required_attrs
-    self.title = "Message Member"
+    self.title = "Message member"
     self.service_type = ServiceType.find_by_name! 're-engagement'
     self.creator = Member.robot
     self.due_at = Time.end_of_workday(Time.now)

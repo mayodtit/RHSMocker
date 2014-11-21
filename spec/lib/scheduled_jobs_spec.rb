@@ -462,4 +462,42 @@ describe ScheduledJobs do
       end
     end
   end
+
+
+  describe '#notify_lack_of_messages' do
+    context 'metadata does not exists' do
+
+      it 'does nothing' do
+        Member.should_not_receive :where
+        ScheduledJobs.notify_lack_of_messages
+      end
+    end
+    context 'metadata exists' do
+      context 'metadata is false' do
+        before do
+          Metadata.stub(:notify_lack_of_messages?) { false }
+        end
+
+        it 'does nothing' do
+          Member.should_not_receive :where
+          ScheduledJobs.notify_lack_of_messages
+        end
+      end
+    end
+
+    context 'metadata is true' do
+      before do
+        Metadata.stub(:notify_lack_of_messages?) { true }
+      end
+
+      let!(:engaged_member) {create :member, :premium, first_name: 'a', last_contact_at: 1.hour.ago}
+      let!(:free_member) {create :member, :free, first_name: 'b', last_contact_at: 1.hour.ago}
+      let!(:unengaged_member) {create :member, :premium, first_name: 'c', last_contact_at: 2.weeks.ago}
+
+      it 'should run create_if_member_has_no_tasks for every premium_states member' do
+        MessageMemberTask.should_receive(:create_task_for_member).with(unengaged_member)
+        ScheduledJobs.notify_lack_of_messages
+      end
+    end
+  end
 end
