@@ -13,6 +13,7 @@ class Metadata < ActiveRecord::Base
 
   def self.to_hash_for(user)
     to_hash.tap do |hash|
+      hash[:current_user] = user.serializer
       user.feature_groups.each do |fg|
         hash.merge!(fg.metadata_override) if fg.metadata_override
       end
