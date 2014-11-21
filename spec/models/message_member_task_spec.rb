@@ -35,6 +35,11 @@ describe MessageMemberTask do
       task.creator.should == Member.robot
     end
 
+    it 'sets the owner to the members pha' do
+      task.set_required_attrs
+      task.owner.should == task.member.pha
+    end
+
     it 'sets the description' do
       task.set_required_attrs
       task.description.should == "The member has not been messaged in a week"
