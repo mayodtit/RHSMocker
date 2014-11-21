@@ -7,9 +7,13 @@ class GCM
       }
     }
 
-    Curl::Easy.http_post(GCM_URL, payload.to_json) do |c|
-      c.headers['Content-Type'] = 'application/json'
-      c.headers['Authorization'] = "key=#{GCM_KEY}"
+    uri = URI(GCM_URL)
+    req = Net::HTTP::Post.new(uri)
+    req.set_form_data(payload)
+    req['Content-Type'] = 'application/json'
+    req['Authorization'] = "key=#{GCM_KEY}"
+    Net::HTTP.start(uri.hostname, uri.port) do |http|
+      http.request(req)
     end
   end
 end
