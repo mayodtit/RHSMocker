@@ -10,7 +10,7 @@ class Api::V1::PlansController < Api::V1::ABaseController
   def load_plans!
     @plans = Stripe::Plan.all.inject([]) do |array, plan|
       if plan.metadata[:active] == 'true'
-        array << StripeExtension.plan_serializer(plan)
+        array << StripeExtension.plan_serializer(plan, current_user)
       end
       array
     end
