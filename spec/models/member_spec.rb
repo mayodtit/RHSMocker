@@ -227,10 +227,10 @@ describe Member do
 
       context 'when user signed up as premium member' do
         it 'should not create UpgradeTask when member signs up with credit card as premium member' do
-          expect{ Member.new(status: 'premium') }.to change(UpgradeTask, :count).by(0)
+          expect{ Member.create(status: 'premium') }.to change(UpgradeTask, :count).by(0)
         end
         it 'should not create UpgradeTask when member signs up with credit card as chamath member' do
-          expect{ Member.new(status: 'chamath') }.to change(UpgradeTask, :count).by(0)
+          expect{ Member.create(status: 'chamath') }.to change(UpgradeTask, :count).by(0)
         end
       end
     end
