@@ -124,7 +124,6 @@ class Member < User
   after_create :add_onboarding_group_programs
   after_save :alert_stakeholders_on_call_status
   after_save :update_referring_scheduled_communications, if: ->(m){m.free_trial_ends_at_changed?}
-  after_save :notify_pha_of_upgrade, if: ->(m){(m.status?(:premium) || m.status?(:chamath)) && m.status_changed?}
 
   SIGNED_UP_STATES = %i(free trial premium chamath)
   def self.signed_up
@@ -372,6 +371,13 @@ class Member < User
       member.email_confirmed = true
       member.email_confirmation_token = nil
     end
+
+    after_transition any => %i(premium chamath) do |member, transition|
+      UpgradeTask.create(title: 'Member upgraded!',
+                         creator: Member.robot,
+                         member: member,
+                         due_at: Time.now)
+    end
   end
 
   def set_signed_up_at
@@ -494,12 +500,5 @@ class Member < User
         rsc.update_publish_at_from_calculation!
       end
     end
-  end
-
-  def notify_pha_of_upgrade
-    UpgradeTask.create(title: 'Member upgraded!',
-                       creator: Member.robot,
-                       member: self,
-                       due_at: Time.now)
   end
 end
