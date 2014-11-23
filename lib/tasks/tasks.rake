@@ -11,7 +11,7 @@ namespace :tasks do
 
       if task.assigned_at
         if task.assignor_id & Member.where(id: task.assignor_id).count > 0
-          TaskChange.create!(task: task, actor_id: task.assignor_id, created_at: task.assigned_at, data: {"owner_id" => [nil, task.owner_id]}.to_s)
+          TaskChange.create!(task: task, actor_id: task.assignor_id, created_at: task.assigned_at, data: {"owner_id" => [nil, task.owner_id]})
         else
           puts "\tSkipping assignment change - Assignor doesn't exist"
         end
@@ -30,7 +30,7 @@ namespace :tasks do
       end
 
       if task.abandoned_at
-        TaskChange.create!(task: task, actor_id: task.abandoner_id, created_at: task.abandoned_at, event: 'abandon', from: 'claimed', to: 'abandoned', data: {"reason_abandoned" => [nil, task.reason_abandoned]}.to_s)
+        TaskChange.create!(task: task, actor_id: task.abandoner_id, created_at: task.abandoned_at, event: 'abandon', from: 'claimed', to: 'abandoned', data: {"reason_abandoned" => [nil, task.reason_abandoned]})
       end
     end
   end

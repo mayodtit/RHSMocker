@@ -11,6 +11,7 @@ class AddTasksTask < Task
     self.title = "Find new services for member"
     self.service_type = ServiceType.find_by_name! 're-engagement'
     self.creator = Member.robot
+    self.owner = member.pha
     self.due_at = Time.end_of_workday(Time.now)
     self.description = "The member current has no tasks in progress."
     self.priority = 0

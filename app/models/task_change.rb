@@ -34,8 +34,6 @@ class TaskChange < ActiveRecord::Base
             message = "#{actor_name} assigned you a user upgrade task"
           when 'OffboardMemberTask'
             message = "#{actor_name} assigned you an offboard task"
-          when 'WelcomeCallTask'
-            message = "#{actor_name} assigned you a welcome call"
         end
         PubSub.publish "/users/#{task.owner_id}/notifications/tasks", {msg: message, id: task_id, assignedTo: task.owner_id}
     # For new tasks assigned to someone
@@ -55,8 +53,6 @@ class TaskChange < ActiveRecord::Base
             message = "#{actor_name} assigned you a user upgrade task"
           when 'OffboardMemberTask'
             message = "#{actor_name} assigned you an offboard task"
-          when 'WelcomeCallTask'
-            message = "#{actor_name} assigned you a welcome call"
         end
         PubSub.publish "/users/#{task.owner_id}/notifications/tasks", {msg: message, id: task_id, assignedTo: task.owner_id}
     # For new unassigned tasks
