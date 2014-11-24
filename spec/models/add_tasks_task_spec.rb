@@ -40,6 +40,11 @@ describe AddTasksTask do
       task.owner.should == task.member.pha
     end
 
+    it 'sets the assignor to the robot' do
+      task.set_required_attrs
+      task.assignor.should == Member.robot
+    end
+
     it 'sets description' do
       task.set_required_attrs
       task.description.should == "The member current has no tasks in progress."
