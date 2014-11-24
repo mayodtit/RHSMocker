@@ -33,9 +33,9 @@ task :devhosted do
   role :db,       'goldenbear.getbetter.com', :primary => true
 #  role :delayed,  'goldenbear.getbetter.com'
   role :cron,     'goldenbear.getbetter.com'
-  role :web,      'drone.getbetter.com'
-  role :app,      'drone.getbetter.com'
-  role :delayed,  'drone.getbetter.com'
+  role :web,      'thunderbird.getbetter.com'
+  role :app,      'thunderbird.getbetter.com'
+  role :delayed,  'thunderbird.getbetter.com'
 end
 
 desc "Deploy target production @ FireHost (longhorn, wolverine)"
@@ -71,9 +71,9 @@ task :qa do
   role :db,       'goldenbear.getbetter.com', :primary => true
 #  role :delayed,  'goldenbear.getbetter.com'
   role :cron,     'goldenbear.getbetter.com'
-  role :web,      'drone.getbetter.com'
-  role :app,      'drone.getbetter.com'
-  role :delayed,  'drone.getbetter.com'
+  role :web,      'thunderbird.getbetter.com'
+  role :app,      'thunderbird.getbetter.com'
+  role :delayed,  'thunderbird.getbetter.com'
 end
 
 desc "Deploy target demo (goldenbear @ EC2)"
@@ -88,9 +88,9 @@ task :demo do
   role :db,       'goldenbear.getbetter.com', :primary => true
 #  role :delayed,  'goldenbear.getbetter.com'
   role :cron,     'goldenbear.getbetter.com'
-  role :web,      'drone.getbetter.com'
-  role :app,      'drone.getbetter.com'
-  role :delayed,  'drone.getbetter.com'
+  role :web,      'thunderbird.getbetter.com'
+  role :app,      'thunderbird.getbetter.com'
+  role :delayed,  'thunderbird.getbetter.com'
 end
 
 desc "Restart delayed_job"

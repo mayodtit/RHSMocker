@@ -1,15 +1,18 @@
 require 'socket'
 
 class StripeExtension
-  def self.plan_serializer(stripe_plan)
+  def self.plan_serializer(stripe_plan, user=nil)
+    if user.try(:onboarding_group).try(:mayo_pilot?)
+      price = stripe_plan[:metadata][:mayo_pilot_display_price] || "$#{stripe_plan[:price].to_f/100}/month"
+    else
+      price = stripe_plan[:metadata][:display_price] || "$#{stripe_plan[:price].to_f/100}/month"
+    end
+
     {
       id: stripe_plan[:id],
-      name: stripe_plan[:metadata][:display_name] || stripe_plan[:name],
-      price: stripe_plan[:metadata][:display_price] || "$#{stripe_plan[:price].to_f/100}/month",
       membership: stripe_plan[:metadata][:membership],
-
-      # even though we're always returning nil, the iOS client is still reading in the description
-      description: nil,
+      name: stripe_plan[:metadata][:display_name] || stripe_plan[:name],
+      price: price,
       image_url: stripe_plan[:metadata][:image_name],
       call_to_action_text: stripe_plan[:metadata][:call_to_action_text] || 'Continue',
       html_body: '<html></html>'
