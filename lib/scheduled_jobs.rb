@@ -148,8 +148,10 @@ class ScheduledJobs
 
   def self.notify_lack_of_messages
     if Metadata.notify_lack_of_messages?
-      Member.premium_states.where("last_contact_at < ?", 1.week.ago).find_each do |member|
+      Member.premium_states.where("last_contact_at IS NULL or last_contact_at < ?", 1.second.ago).find_each do |member|
+        if member.inbound_scheduled_messages.scheduled.empty?
          MessageMemberTask.create_task_for_member(member)
+        end
       end
     end
   end

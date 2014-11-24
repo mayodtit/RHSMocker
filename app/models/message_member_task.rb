@@ -12,6 +12,8 @@ class MessageMemberTask < Task
     self.service_type = ServiceType.find_by_name! 're-engagement'
     self.creator = Member.robot
     self.owner = member.pha
+    self.assignor = Member.robot
+    self.assigned_at = Time.now
     self.due_at = Time.end_of_workday(Time.now)
     self.description = "The member has not been messaged in a week"
     self.priority = 0
