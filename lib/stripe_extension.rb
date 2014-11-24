@@ -1,8 +1,8 @@
 require 'socket'
 
 class StripeExtension
-  def self.plan_serializer(stripe_plan, user)
-    if user.onboarding_group.try(:mayo_pilot?)
+  def self.plan_serializer(stripe_plan, user=nil)
+    if user.try(:onboarding_group).try(:mayo_pilot?)
       price = stripe_plan[:metadata][:mayo_pilot_display_price] || "$#{stripe_plan[:price].to_f/100}/month"
     else
       price = stripe_plan[:metadata][:display_price] || "$#{stripe_plan[:price].to_f/100}/month"
@@ -11,7 +11,7 @@ class StripeExtension
     {
       id: stripe_plan[:id],
       membership: stripe_plan[:metadata][:membership],
-      name: stripe_plan[:metadata][:mayo_pilot_display_name] || stripe_plan[:name],
+      name: stripe_plan[:metadata][:display_name] || stripe_plan[:name],
       price: price,
       image_url: stripe_plan[:metadata][:image_name],
       call_to_action_text: stripe_plan[:metadata][:call_to_action_text] || 'Continue',
