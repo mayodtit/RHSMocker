@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141119232733) do
+ActiveRecord::Schema.define(:version => 20141124190805) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -441,6 +441,7 @@ ActiveRecord::Schema.define(:version => 20141119232733) do
   add_index "messages", ["consult_id", "created_at", "note"], :name => "index_messages_on_consult_id_and_created_at_and_note"
   add_index "messages", ["consult_id", "created_at"], :name => "index_messages_on_consult_id_and_created_at"
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
+  add_index "messages", ["phone_call_id"], :name => "index_messages_on_phone_call_id"
 
   create_table "metadata", :force => true do |t|
     t.string   "mkey",       :null => false
