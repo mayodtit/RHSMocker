@@ -731,4 +731,6 @@ describe Member do
       member.smackdown!
     end
   end
+
+
 end
