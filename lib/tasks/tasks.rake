@@ -83,12 +83,12 @@ namespace :tasks do
   desc "Recalculate Member.last_contact_at"
     task :recalculate_member_last_contact_at => :environment do
     Member.find_each do |m|
-      m.initiated_consults.each do |c|
+      if m.master_consult
         consult_last_contact_at = nil
-        consult_last_contact_at = c.created_at unless c.master
-        last_message = c.messages.order('created_at ASC').last
+        consult_last_contact_at = m.master_consult.created_at
+        last_message = m.master_consult.messages.where('initiator_id != ?', m.id).where(!:system, !:phone_call, !:note?, !:phone_call_summary).order('created_at ASC').last
 
-        if last_message && last_message.created_at && ( !last_message.system || !last_message.phone_call_summary || !last_message.note? || !( last_message.phone_call && last_message.phone_call.to_nurse? )) && (!consult_last_contact_at || consult_last_contact_at > last_message.created_at)
+        if (!consult_last_contact_at || consult_last_contact_at > last_message.created_at)
           consult_last_contact_at = last_message.created_at
         end
 
