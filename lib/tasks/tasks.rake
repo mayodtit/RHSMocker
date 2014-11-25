@@ -84,20 +84,18 @@ namespace :tasks do
     task :recalculate_member_last_contact_at => :environment do
     Member.find_each do |m|
       if m.master_consult
-        consult_last_contact_at = nil
         consult_last_contact_at = m.master_consult.created_at
-        last_message = m.master_consult.messages.where('initiator_id != ?', m.id).where(!:system, !:phone_call, !:note?, !:phone_call_summary).order('created_at ASC').last
+        m.master_consult.messages.where('user_id <> ? AND !(system IS 1 OR phone_call_summary_id <> NULL OR note IS 1)', m.id).order('created_at DESC').each do |msg|
 
-        if (!consult_last_contact_at || consult_last_contact_at > last_message.created_at)
-          consult_last_contact_at = last_message.created_at
+          if (!(msg.phone_call && msg.phone_call.to_nurse?) && consult_last_contact_at < msg.created_at)
+            consult_last_contact_at = msg.created_at
+            break
+          end
         end
 
-        if consult_last_contact_at && (!m.last_contact_at || m.last_contact_at > consult_last_contact_at)
-          m.last_contact_at = consult_last_contact_at
-        end
+        m.last_contact_at = consult_last_contact_at
+        m.save!
       end
-
-      m.save!
     end
   end
 end
