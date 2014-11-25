@@ -160,4 +160,8 @@ class Metadata < ActiveRecord::Base
   def self.notify_lack_of_tasks?
     Metadata.find_by_mkey('notify_lack_of_tasks').try(:mvalue) == 'true'
   end
+
+  def self.notify_lack_of_messages?
+    Metadata.find_by_mkey('notify_lack_of_messages').try(:mvalue) == 'true'
+  end
 end
