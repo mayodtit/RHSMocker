@@ -372,6 +372,10 @@ class Member < User
       member.email_confirmed = true
       member.email_confirmation_token = nil
     end
+
+    before_transition %i(premium chamath) => :free do |member, transition|
+      DestroyStripeSubscriptionService.new(member).call
+    end
   end
 
   def set_signed_up_at

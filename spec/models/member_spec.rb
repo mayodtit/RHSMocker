@@ -224,6 +224,17 @@ describe Member do
         expect{ member.upgrade! }.to change(UpgradeTask, :count).by(1)
       end
     end
+
+    describe 'Downgrading premium members end stripe subscription' do
+      let!(:member) { create(:member, :premium) }
+
+      it 'create an instance of the DestroyStripeSubscriptionService class, and call #call on it' do
+        service = Object.new
+        DestroyStripeSubscriptionService.stub(:new).with(member) { service }
+        service.should_receive :call
+        member.downgrade!
+      end
+    end
   end
 
   describe 'scopes' do
