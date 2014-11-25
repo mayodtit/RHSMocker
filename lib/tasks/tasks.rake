@@ -97,7 +97,7 @@ namespace :tasks do
     Member.find_each do |m|
       if m.master_consult
         consult_last_contact_at = m.master_consult.created_at
-        m.master_consult.messages.where('consult_id = ? AND user_id <> ? AND (system IS NULL OR system <> 1) AND phone_call_summary_id IS NULL AND note <> 1', m.master_consult.id, m.id).order('created_at DESC').each do |msg|
+        Message.where('consult_id = ? AND user_id <> ? AND (system IS NULL OR system <> 1) AND phone_call_summary_id IS NULL AND note <> 1', m.master_consult.id, m.id).order('created_at DESC')
 
           if (!(msg.phone_call && msg.phone_call.to_nurse?) && consult_last_contact_at < msg.created_at)
             consult_last_contact_at = msg.created_at
