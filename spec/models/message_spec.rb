@@ -150,6 +150,17 @@ describe Message do
         message.update_initiator_last_contact_at
       end
     end
+
+    context 'message is sent by user' do
+      before do
+        message.stub(:user) { message.consult.initiator }
+      end
+
+      it 'doesn\'t set the last contact at' do
+        message.consult.initiator.should_not_receive(:update_attributes!)
+        message.update_initiator_last_contact_at
+      end
+    end
   end
 
   describe '#attach_user_image' do
