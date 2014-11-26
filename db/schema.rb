@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141124190805) do
+ActiveRecord::Schema.define(:version => 20141126165548) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -889,8 +889,8 @@ ActiveRecord::Schema.define(:version => 20141124190805) do
     t.datetime "started_at"
     t.datetime "claimed_at"
     t.datetime "completed_at"
-    t.datetime "created_at",                                    :null => false
-    t.datetime "updated_at",                                    :null => false
+    t.datetime "created_at",                                :null => false
+    t.datetime "updated_at",                                :null => false
     t.integer  "creator_id"
     t.string   "state"
     t.integer  "abandoner_id"
@@ -899,13 +899,12 @@ ActiveRecord::Schema.define(:version => 20141124190805) do
     t.string   "type"
     t.integer  "parsed_nurseline_record_id"
     t.integer  "service_type_id"
-    t.integer  "priority",                   :default => 0,     :null => false
+    t.integer  "priority",                   :default => 0, :null => false
     t.integer  "service_id"
     t.integer  "service_ordinal"
     t.integer  "task_template_id"
     t.integer  "user_request_id"
     t.datetime "member_free_trial_ends_at"
-    t.boolean  "service_experiment",         :default => false, :null => false
     t.integer  "delayed_job_id"
   end
 
@@ -1132,8 +1131,8 @@ ActiveRecord::Schema.define(:version => 20141124190805) do
     t.boolean  "on_call",                                       :default => false
     t.string   "status"
     t.integer  "nux_answer_id"
-    t.string   "time_zone"
     t.string   "text_phone_number"
+    t.string   "time_zone"
     t.boolean  "cached_notifications_enabled"
     t.boolean  "email_confirmed"
     t.string   "email_confirmation_token"
@@ -1142,8 +1141,6 @@ ActiveRecord::Schema.define(:version => 20141124190805) do
     t.string   "advertiser_media_source"
     t.string   "advertiser_campaign"
     t.integer  "impersonated_user_id"
-    t.boolean  "service_experiment",                            :default => false, :null => false
-    t.boolean  "service_experiment_queue",                      :default => false, :null => false
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
