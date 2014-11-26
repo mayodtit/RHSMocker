@@ -5,15 +5,6 @@ sollicitudin efficitur tellus. Nunc faucibus justo vitae ex tempus hendrerit.
 Etiam ut ultrices ligula. Proin quis lacinia odio, ut aliquam orci.
 eof
 
-(1..4).each do |i|
-  NuxStory.upsert_attributes({unique_id: "PLACEHOLDER-STORY-#{i}"},
-                             {html: LOREM_IPSUM,
-                              action_button_text: 'Next',
-                              show_nav_signup: false,
-                              enable_webview_scrolling: false,
-                              ordinal: i,
-                              enabled: false})
-end
 
 NuxStory.upsert_attributes({unique_id: 'SPLASH'},
                            {html: LOREM_IPSUM,
