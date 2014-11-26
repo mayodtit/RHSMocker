@@ -110,7 +110,7 @@ describe MessageTask do
         end
 
         it 'creates a task' do
-          MessageTask.should_receive(:create!).with(title: 'Inbound Message', consult: consult, message: nil, creator: Member.robot, due_at: consult.created_at, service_experiment: false)
+          MessageTask.should_receive(:create!).with(title: 'Inbound Message', consult: consult, message: nil, creator: Member.robot, due_at: consult.created_at)
           MessageTask.create_if_only_opened_for_consult!(consult)
         end
       end
@@ -153,7 +153,7 @@ describe MessageTask do
           end
 
           it 'creates a task with consult and message' do
-            MessageTask.should_receive(:create!).with(title: 'Inbound Message', consult: consult, message: message, creator: Member.robot, due_at: message.created_at, service_experiment: false)
+            MessageTask.should_receive(:create!).with(title: 'Inbound Message', consult: consult, message: message, creator: Member.robot, due_at: message.created_at)
             MessageTask.create_if_only_opened_for_consult!(consult, message)
           end
         end

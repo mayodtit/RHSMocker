@@ -39,8 +39,7 @@ class MessageTask < Task
               consult: consult,
               message: message,
               creator: Member.robot,
-              due_at: due_at,
-              service_experiment: consult.initiator.service_experiment)
+              due_at: due_at)
     end
   end
 
