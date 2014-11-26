@@ -305,6 +305,83 @@ NuxStory.upsert_attributes({unique_id: 'INTRO_AVAILABLE'},
                             enable_webview_scrolling: false,
                             ordinal: 3,
                             enabled: true})
+
+INTRO_PERSONAL_HTML = <<-eof
+<html>
+  <head>
+    <style>
+      @font-face {
+        font-family: 'Roboto Light';
+        font-style: normal;
+        font-weight: 300;
+        src: local("Roboto Light"), local("Roboto-Light"), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/Hgo13k-tfSpn0qi1SFdUfbO3LdcAZYWl9Si6vvxL-qU.woff) format("woff");
+      }
+
+      @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: local("Roboto Regular"), local("Roboto-Regular"), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format("woff");
+      }
+
+      #content {
+        font-family: 'Roboto Light';
+        font-size: 16px;
+        color: white;
+        text-align: center;
+      }
+
+      #title {
+        font-size: 20px;
+        font-family: 'Roboto';
+      }
+
+      #subtitle {
+        margin: 40px 10px 10px;
+        font-family: 'Roboto';
+      }
+
+      #image-container {
+        width: 90%;
+        margin: 10px auto;
+      }
+
+      #image {
+        max-width: 100%;
+      }
+
+      #image-caption-title {
+        font-size: 20px;
+        font-family: 'Roboto';
+      }
+
+      #image-caption-subtitle {
+        width: 200px;
+        margin: 0px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <div id="subtitle">
+        Whatever your health goals are, your PHA is dedicated to helping you and your family achieve them.
+      </div>
+      <div id="image-container">
+        <img id="image" src="https://s3-us-west-2.amazonaws.com/btr-static/images/Lauren-Messaging.png" alt="image" />
+      </div>
+    </div>
+  </body>
+</html>
+eof
+
+NuxStory.upsert_attributes({unique_id: 'INTRO_PERSONAL'},
+                           {html: INTRO_PERSONAL_HTML,
+                            action_button_text: 'Next',
+                            show_nav_signup: false,
+                            enable_webview_scrolling: false,
+                            ordinal: 4,
+                            enabled: true})
+
 QUESTION_TEXT_HEADER = <<-eof
 What would you like to focus on during your free trial?
 eof
