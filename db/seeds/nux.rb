@@ -229,6 +229,82 @@ NuxStory.upsert_attributes({unique_id: 'INTRO_PHA'},
                             enable_webview_scrolling: false,
                             ordinal: 2,
                             enabled: true})
+
+INTRO_AVAILABLE_HTML = <<-eof
+<html>
+  <head>
+    <style>
+      @font-face {
+        font-family: 'Roboto Light';
+        font-style: normal;
+        font-weight: 300;
+        src: local("Roboto Light"), local("Roboto-Light"), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/Hgo13k-tfSpn0qi1SFdUfbO3LdcAZYWl9Si6vvxL-qU.woff) format("woff");
+      }
+
+      @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: local("Roboto Regular"), local("Roboto-Regular"), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format("woff");
+      }
+
+      #content {
+        font-family: 'Roboto Light';
+        font-size: 16px;
+        color: white;
+        text-align: center;
+      }
+
+      #title {
+        font-size: 20px;
+        font-family: 'Roboto';
+      }
+
+      #subtitle {
+        margin: 40px 10px 10px;
+        font-family: 'Roboto';
+      }
+
+      #image-container {
+        width: 75%;
+        margin: 10px auto;
+      }
+
+      #image {
+        max-width: 100%;
+      }
+
+      #image-caption-title {
+        font-size: 20px;
+        font-family: 'Roboto';
+      }
+
+      #image-caption-subtitle {
+        width: 200px;
+        margin: 0px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <div id="subtitle">
+        Health doesn't happen on a schedule, with Better you now have expertise when you need it.
+      </div>
+      <div id="image-container">
+        <img id="image" src="https://s3-us-west-2.amazonaws.com/btr-static/images/iPhoneDemo.png" alt="image" />
+      </div>
+    </div>
+  </body>
+</html>
+eof
+
+NuxStory.upsert_attributes({unique_id: 'INTRO_AVAILABLE'},
+                           {html: INTRO_AVAILABLE_HTML,
+                            action_button_text: 'Next',
+                            show_nav_signup: false,
+                            enable_webview_scrolling: false,
+                            ordinal: 3,
+                            enabled: true})
 QUESTION_TEXT_HEADER = <<-eof
 What would you like to focus on during your free trial?
 eof
