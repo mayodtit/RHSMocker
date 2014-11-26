@@ -221,6 +221,7 @@ class Task < ActiveRecord::Base
   def data
     changes = previous_changes.except(
       :state,
+      :visible_in_queue,
       :created_at,
       :updated_at,
       :assigned_at,
@@ -236,7 +237,7 @@ class Task < ActiveRecord::Base
 
   def track_update
     # If audit_trail tells us it's already logged change, do nothing.
-    if change_tracked
+    if change_tracked || type == 'ViewTaskTask'
       self.change_tracked = false
     elsif _data = data
       TaskChange.create! task: self, actor_id: self.actor_id, event: 'update', data: _data, reason: reason

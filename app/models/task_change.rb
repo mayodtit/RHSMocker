@@ -18,7 +18,8 @@ class TaskChange < ActiveRecord::Base
       actor_name = actor.first_name
     end
     # For existing tasks assigned to someone
-    if task.type != 'ViewTaskTask' && event == 'update' && data.has_key?('owner_id') && data['owner_id'].second != actor_id
+    if task.type != 'ViewTaskTask' && event == 'update' || event == 'unstart' && data.has_key?('owner_id') && data['owner_id'].second != actor_id
+        viewTask = ViewTaskTask.create_task_for_task(task)
         case task.type
           when 'MemberTask'
             message = "#{actor_name} assigned you a #{task.service_type.bucket} task"
@@ -35,10 +36,10 @@ class TaskChange < ActiveRecord::Base
           when 'OffboardMemberTask'
             message = "#{actor_name} assigned you an offboard task"
         end
-        viewTask = ViewTaskTask.create_task_for_task(task)
         PubSub.publish "/users/#{task.owner_id}/notifications/tasks", {msg: message, id: viewTask.id, assignedTo: task.owner_id}
     # For new tasks assigned to someone
     elsif task.type != 'ViewTaskTask' && (event.nil? && !task.owner_id.nil? && task.owner_id != actor_id)
+      ViewTaskTask.create_task_for_task(task)
         case task.type
           when 'MemberTask'
             message = "#{actor_name} assigned you a #{task.service_type.bucket} task"
@@ -55,7 +56,6 @@ class TaskChange < ActiveRecord::Base
           when 'OffboardMemberTask'
             message = "#{actor_name} assigned you an offboard task"
         end
-        ViewTaskTask.create_task_for_task(task)
         PubSub.publish "/users/#{task.owner_id}/notifications/tasks", {msg: message, id: viewTask.id, assignedTo: task.owner_id}
     # For new unassigned tasks
     elsif event.nil? && task.owner_id.nil? && task.role_id == Role.pha.try(:id)

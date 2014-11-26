@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141124205527) do
+ActiveRecord::Schema.define(:version => 20141125200109) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -908,6 +908,7 @@ ActiveRecord::Schema.define(:version => 20141124205527) do
     t.boolean  "service_experiment",         :default => false, :null => false
     t.integer  "delayed_job_id"
     t.integer  "assigned_task_id"
+    t.boolean  "visible_in_queue",           :default => true,  :null => false
   end
 
   add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"

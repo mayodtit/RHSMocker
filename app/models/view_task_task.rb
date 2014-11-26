@@ -7,20 +7,18 @@ class ViewTaskTask < Task
   def self.create_task_for_task(task)
     create!(
         assigned_task: task,
-        title: "Task assigned to you",
+        title: "Task assigned to you by #{task.assignor.full_name}",
+        member: task.member,
         creator: Member.robot,
         assignor: task.assignor,
         owner: task.owner,
         due_at: Time.now,
-        description: "#{task.assignor.full_name} has assigned you a task",
         priority: 30
     )
+    task.update_attributes!(state: 'unclaimed', visible_in_queue: false)
   end
 
   state_machine do
-    before_transition :initial => :unstarted do |task|
-      task.assigned_task.update_attributes!(visible_in_queue: false)
-    end
 
     before_transition any => :completed do |task|
       task.assigned_task.update_attributes!(visible_in_queue: true)
