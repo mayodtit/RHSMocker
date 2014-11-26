@@ -5,13 +5,70 @@ sollicitudin efficitur tellus. Nunc faucibus justo vitae ex tempus hendrerit.
 Etiam ut ultrices ligula. Proin quis lacinia odio, ut aliquam orci.
 eof
 
+SPLASH_HTML = <<-eof
+<html>
+  <head>
+    <style>
+      @font-face {
+        font-family: 'Roboto Light';
+        font-style: normal;
+        font-weight: 300;
+        src: local("Roboto Light"), local("Roboto-Light"), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/Hgo13k-tfSpn0qi1SFdUfbO3LdcAZYWl9Si6vvxL-qU.woff) format("woff");
+      }
+
+      @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: local("Roboto Regular"), local("Roboto-Regular"), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format("woff");
+      }
+
+      .content {
+        font-family: 'Roboto';
+        font-size: 16px;
+        color: white;
+        margin: 50pt 10pt 10pt 10pt;
+      }
+
+      #logo {
+        margin: 120px auto 0px;
+        width: 60%;
+      }
+
+      #logo-image {
+        max-width: 100%;
+      }
+
+      #body {
+        margin-top: 10pt;
+      }
+
+      #subtitle {
+        text-align: center;
+        width: 150px;
+        margin: 10px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div id="logo">
+        <img id="logo-image" src="https://s3-us-west-2.amazonaws.com/btr-static/images/logo.png" alt="logo.png">
+      </div>
+      <div id="body">
+        <p id="subtitle">Get the health care you deserve.</p>
+      </div>
+    </div>
+  </body>
+</html>
+eof
 
 NuxStory.upsert_attributes({unique_id: 'SPLASH'},
-                           {html: LOREM_IPSUM,
-                            action_button_text: 'Get Started',
+                           {html: SPLASH_HTML,
+                            action_button_text: 'Get started',
                             show_nav_signup: false,
                             enable_webview_scrolling: false,
-                            enabled: false})
+                            enabled: true})
 QUESTION_TEXT_HEADER = <<-eof
 What would you like to focus on during your free trial?
 eof
