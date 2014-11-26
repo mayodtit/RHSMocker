@@ -1,4 +1,5 @@
 class Session < ActiveRecord::Base
+  include SoftDeleteModule
   belongs_to :member
 
   attr_accessible :member, :auth_token, :device_id, :apns_token, :gcm_id,
@@ -30,6 +31,10 @@ class Session < ActiveRecord::Base
     end
   end
 
+  def destroy
+    soft_delete(current_session)
+  end
+
   private
 
   def set_auth_token
@@ -38,4 +43,9 @@ class Session < ActiveRecord::Base
       break new_token unless self.class.exists?(auth_token: new_token)
     end
   end
+
+  # def current_session
+  #   nil unless member
+  #   Session.find_by_member_id(member.id)
+  # end
 end

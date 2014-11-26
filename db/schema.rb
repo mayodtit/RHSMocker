@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141119205717) do
+ActiveRecord::Schema.define(:version => 20141125231951) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -441,6 +441,7 @@ ActiveRecord::Schema.define(:version => 20141119205717) do
   add_index "messages", ["consult_id", "created_at", "note"], :name => "index_messages_on_consult_id_and_created_at_and_note"
   add_index "messages", ["consult_id", "created_at"], :name => "index_messages_on_consult_id_and_created_at"
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
+  add_index "messages", ["phone_call_id"], :name => "index_messages_on_phone_call_id"
 
   create_table "metadata", :force => true do |t|
     t.string   "mkey",       :null => false
@@ -774,6 +775,7 @@ ActiveRecord::Schema.define(:version => 20141119205717) do
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
     t.string   "advertiser_id"
+    t.datetime "disabled_at"
   end
 
   add_index "sessions", ["advertiser_id"], :name => "index_sessions_on_advertiser_id"
@@ -854,6 +856,7 @@ ActiveRecord::Schema.define(:version => 20141119205717) do
     t.text     "data"
     t.integer  "actor_id",   :null => false
     t.datetime "created_at", :null => false
+    t.string   "reason"
   end
 
   add_index "task_changes", ["task_id"], :name => "index_task_changes_on_task_id"
@@ -1130,8 +1133,8 @@ ActiveRecord::Schema.define(:version => 20141119205717) do
     t.boolean  "on_call",                                       :default => false
     t.string   "status"
     t.integer  "nux_answer_id"
-    t.string   "text_phone_number"
     t.string   "time_zone"
+    t.string   "text_phone_number"
     t.boolean  "cached_notifications_enabled"
     t.boolean  "email_confirmed"
     t.string   "email_confirmation_token"
