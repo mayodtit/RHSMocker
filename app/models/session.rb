@@ -31,9 +31,9 @@ class Session < ActiveRecord::Base
     end
   end
 
-  def destroy
-    soft_delete(current_session)
-  end
+  # def soft_delete
+  #   self.destroy.save!
+  # end
 
   private
 
