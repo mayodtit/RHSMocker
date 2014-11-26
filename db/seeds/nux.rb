@@ -5,6 +5,8 @@ sollicitudin efficitur tellus. Nunc faucibus justo vitae ex tempus hendrerit.
 Etiam ut ultrices ligula. Proin quis lacinia odio, ut aliquam orci.
 eof
 
+logo_base64 = ActiveSupport::Base64.encode64(open("https://s3-us-west-2.amazonaws.com/btr-static/images/logo.png"){|io| io.read})
+
 SPLASH_HTML = <<-eof
 <html>
   <head>
@@ -53,7 +55,7 @@ SPLASH_HTML = <<-eof
   <body>
     <div class="content">
       <div id="logo">
-        <img id="logo-image" src="https://s3-us-west-2.amazonaws.com/btr-static/images/logo.png" alt="logo.png">
+        <img id="logo-image" src="data:image/png;base64,#{logo_base64}" alt="logo.png">
       </div>
       <div id="body">
         <p id="subtitle">Get the health care you deserve.</p>
@@ -69,6 +71,8 @@ NuxStory.upsert_attributes({unique_id: 'SPLASH'},
                             show_nav_signup: false,
                             enable_webview_scrolling: false,
                             enabled: true})
+
+intro_base64 = ActiveSupport::Base64.encode64(open("https://s3-us-west-2.amazonaws.com/btr-static/images/Lauren-Square.png"){|io| io.read})
 
 INTRO_HTML = <<-eof
 <html>
@@ -133,7 +137,7 @@ INTRO_HTML = <<-eof
         With a Personal Health Assistant, you'll always have someone on your side to make sure your health comes first.
       </div>
       <div id="image-container">
-        <img id="image" src="https://s3-us-west-2.amazonaws.com/btr-static/images/Lauren-Square.png" alt="image" />
+        <img id="image" src="data:image/png;base64,#{intro_base64}" alt="image" />
       </div>
       <div id="image-caption-title">
         Lauren
@@ -153,6 +157,8 @@ NuxStory.upsert_attributes({unique_id: 'INTRO'},
                             enable_webview_scrolling: false,
                             ordinal: 1,
                             enabled: true})
+
+intro_pha_base64 = ActiveSupport::Base64.encode64(open("https://s3-us-west-2.amazonaws.com/btr-static/images/Checklist.png"){|io| io.read})
 
 INTRO_PHA_HTML = <<-eof
 <html>
@@ -215,7 +221,7 @@ INTRO_PHA_HTML = <<-eof
         Your PHA take care of time-consuming and complicated health tasks so you don't have to.
       </div>
       <div id="image-container">
-        <img id="image" src="https://s3-us-west-2.amazonaws.com/btr-static/images/Checklist.png" alt="image" />
+        <img id="image" src="data:image/png;base64,#{intro_pha_base64}" alt="image" />
       </div>
     </div>
   </body>
@@ -229,6 +235,8 @@ NuxStory.upsert_attributes({unique_id: 'INTRO_PHA'},
                             enable_webview_scrolling: false,
                             ordinal: 2,
                             enabled: true})
+
+intro_available_base64 = ActiveSupport::Base64.encode64(open("https://s3-us-west-2.amazonaws.com/btr-static/images/iPhoneDemo.png"){|io| io.read})
 
 INTRO_AVAILABLE_HTML = <<-eof
 <html>
@@ -291,7 +299,7 @@ INTRO_AVAILABLE_HTML = <<-eof
         Health doesn't happen on a schedule, with Better you now have expertise when you need it.
       </div>
       <div id="image-container">
-        <img id="image" src="https://s3-us-west-2.amazonaws.com/btr-static/images/iPhoneDemo.png" alt="image" />
+        <img id="image" src="data:image/png;base64,#{intro_available_base64}" alt="image" />
       </div>
     </div>
   </body>
@@ -305,6 +313,8 @@ NuxStory.upsert_attributes({unique_id: 'INTRO_AVAILABLE'},
                             enable_webview_scrolling: false,
                             ordinal: 3,
                             enabled: true})
+
+intro_personal_base64 = ActiveSupport::Base64.encode64(open("https://s3-us-west-2.amazonaws.com/btr-static/images/Lauren-Messaging.png"){|io| io.read})
 
 INTRO_PERSONAL_HTML = <<-eof
 <html>
@@ -367,7 +377,7 @@ INTRO_PERSONAL_HTML = <<-eof
         Whatever your health goals are, your PHA is dedicated to helping you and your family achieve them.
       </div>
       <div id="image-container">
-        <img id="image" src="https://s3-us-west-2.amazonaws.com/btr-static/images/Lauren-Messaging.png" alt="image" />
+        <img id="image" src="data:image/png;base64,#{intro_personal_base64}" alt="image" />
       </div>
     </div>
   </body>
