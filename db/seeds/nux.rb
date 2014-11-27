@@ -93,14 +93,14 @@ INTRO_HTML = <<-eof
       }
 
       #content {
-        font-family: 'Roboto Light';
+        font-family: 'Roboto';
         font-size: 16px;
         color: white;
         text-align: center;
       }
 
       #title {
-        font-size: 20px;
+        font-size: 24px;
         font-family: 'Roboto';
       }
 
@@ -118,7 +118,7 @@ INTRO_HTML = <<-eof
       }
 
       #image-caption-title {
-        font-size: 20px;
+        font-size: 24px;
         font-family: 'Roboto';
       }
 
@@ -236,7 +236,7 @@ NuxStory.upsert_attributes({unique_id: 'INTRO_PHA'},
                             ordinal: 2,
                             enabled: true})
 
-intro_available_base64 = ActiveSupport::Base64.encode64(open("https://s3-us-west-2.amazonaws.com/btr-static/images/iPhoneDemo.png"){|io| io.read})
+intro_available_base64 = ActiveSupport::Base64.encode64(open("https://s3-us-west-2.amazonaws.com/btr-static/images/iPhoneDemo-2.png"){|io| io.read})
 
 INTRO_AVAILABLE_HTML = <<-eof
 <html>
@@ -274,7 +274,7 @@ INTRO_AVAILABLE_HTML = <<-eof
       }
 
       #image-container {
-        width: 75%;
+        width: 85%;
         margin: 10px auto;
       }
 
@@ -314,7 +314,7 @@ NuxStory.upsert_attributes({unique_id: 'INTRO_AVAILABLE'},
                             ordinal: 3,
                             enabled: true})
 
-intro_personal_base64 = ActiveSupport::Base64.encode64(open("https://s3-us-west-2.amazonaws.com/btr-static/images/Lauren-Messaging.png"){|io| io.read})
+intro_personal_base64 = ActiveSupport::Base64.encode64(open("https://s3-us-west-2.amazonaws.com/btr-static/images/Lauren-Messaging-2.png"){|io| io.read})
 
 INTRO_PERSONAL_HTML = <<-eof
 <html>
