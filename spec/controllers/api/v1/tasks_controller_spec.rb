@@ -36,7 +36,7 @@ describe Api::V1::TasksController do
             o_o = Object.new
             o_o.stub(:includes).with(:member) do
               o_o_o = Object.new
-              o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
+              o_o_o.stub(:order).with('date(due_at) ASC, priority DESC, due_at ASC, created_at ASC') { tasks }
               o_o_o
             end
             o_o
@@ -56,7 +56,7 @@ describe Api::V1::TasksController do
             o_o = Object.new
             o_o.stub(:includes).with(:member) do
               o_o_o = Object.new
-              o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
+              o_o_o.stub(:order).with('date(due_at) ASC, priority DESC, due_at ASC, created_at ASC') { tasks }
               o_o_o
             end
             o_o
@@ -92,7 +92,7 @@ describe Api::V1::TasksController do
               o_o = Object.new
               o_o.stub(:includes).with(:member) do
                 o_o_o = Object.new
-                o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
+                o_o_o.stub(:order).with('date(due_at) ASC, priority DESC, due_at ASC, created_at ASC') { tasks }
                 o_o_o
               end
               o_o
@@ -123,7 +123,7 @@ describe Api::V1::TasksController do
                 o_o_o = Object.new
                 o_o_o.stub(:includes).with(:member) do
                   o_o_o_o = Object.new
-                  o_o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
+                  o_o_o_o.stub(:order).with('date(due_at) ASC, priority DESC, due_at ASC, created_at ASC') { tasks }
                   o_o_o_o
                 end
                 o_o_o
@@ -149,7 +149,7 @@ describe Api::V1::TasksController do
                 o_o_o = Object.new
                 o_o_o.stub(:includes).with(:member) do
                   o_o_o_o = Object.new
-                  o_o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
+                  o_o_o_o.stub(:order).with('date(due_at) ASC, priority DESC, due_at ASC, created_at ASC') { tasks }
                   o_o_o_o
                 end
                 o_o_o
