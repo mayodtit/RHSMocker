@@ -53,7 +53,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def height
-    params.require(:height).permit(:amount, :taken_at, :healthkit_uuid)
+    params.require(:height).permit(:amount, :taken_at, :healthkit_uuid, :healthkit_source)
   end
 
   def weight
