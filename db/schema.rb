@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141128211449) do
+ActiveRecord::Schema.define(:version => 20141128212055) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1155,13 +1155,14 @@ ActiveRecord::Schema.define(:version => 20141128211449) do
 
   create_table "weights", :force => true do |t|
     t.integer  "user_id"
-    t.decimal  "amount",         :precision => 9, :scale => 5, :default => 0.0
-    t.decimal  "bmi",            :precision => 8, :scale => 5
-    t.datetime "created_at",                                                    :null => false
-    t.datetime "updated_at",                                                    :null => false
+    t.decimal  "amount",           :precision => 9, :scale => 5, :default => 0.0
+    t.decimal  "bmi",              :precision => 8, :scale => 5
+    t.datetime "created_at",                                                      :null => false
+    t.datetime "updated_at",                                                      :null => false
     t.datetime "taken_at"
     t.string   "healthkit_uuid"
     t.integer  "creator_id"
+    t.string   "healthkit_source"
   end
 
 end
