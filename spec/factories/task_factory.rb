@@ -34,7 +34,7 @@ FactoryGirl.define do
     trait :abandoned do
       state 'abandoned'
       association :abandoner, factory: :member
-      reason_abandoned 'missed'
+      reason 'missed'
       abandoned_at Time.now
     end
   end

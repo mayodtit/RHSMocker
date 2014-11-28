@@ -1,5 +1,5 @@
 class OffboardMemberTask < Task
-  PRIORITY = 1
+  PRIORITY = 0
   OFFBOARDING_WINDOW = 1.business_day
 
   include ActiveModel::ForbiddenAttributesProtection

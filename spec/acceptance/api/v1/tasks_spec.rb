@@ -100,16 +100,16 @@ resource "Tasks" do
     parameter :id, 'Task id'
     parameter :state_event, 'Event to perform on the task (\'unstart\', \'start\', \'claim\', \'abandon\', \'complete\')'
     parameter :owner_id, 'The id of the owner of this task'
-    parameter :reason_abandoned, 'The reason for abandoning a task'
+    parameter :reason, 'The reason for abandoning a task'
 
     required_parameters :auth_token, :id
-    scope_parameters :task, [:state_event, :owner_id, :reason_abandoned]
+    scope_parameters :task, [:state_event, :owner_id, :reason]
 
     let(:auth_token) { session.auth_token }
     let(:id) { task.id }
     let(:state_event) { 'abandon' }
     let(:owner_id) { other_pha.id }
-    let(:reason_abandoned) { 'unreachable' }
+    let(:reason) { 'unreachable' }
 
     let(:raw_post) { params.to_json }
 
@@ -121,7 +121,9 @@ resource "Tasks" do
         task.reload
         task.should be_abandoned
         task.owner.should == other_pha
-        task.reason_abandoned.should == 'unreachable'
+        task_change = TaskChange.last
+        task_change.task.should == task
+        task_change.reason.should == 'unreachable'
         response[:task].to_json.should == task.serializer.to_json
       end
     end

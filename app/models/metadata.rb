@@ -13,6 +13,7 @@ class Metadata < ActiveRecord::Base
 
   def self.to_hash_for(user)
     to_hash.tap do |hash|
+      hash[:current_user] = user.serializer.as_json
       user.feature_groups.each do |fg|
         hash.merge!(fg.metadata_override) if fg.metadata_override
       end
@@ -154,5 +155,13 @@ class Metadata < ActiveRecord::Base
 
   def self.triage_off_hours_message?
     Metadata.find_by_mkey('triage_off_hours_message').try(:mvalue) == 'true'
+  end
+
+  def self.notify_lack_of_tasks?
+    Metadata.find_by_mkey('notify_lack_of_tasks').try(:mvalue) == 'true'
+  end
+
+  def self.notify_lack_of_messages?
+    Metadata.find_by_mkey('notify_lack_of_messages').try(:mvalue) == 'true'
   end
 end

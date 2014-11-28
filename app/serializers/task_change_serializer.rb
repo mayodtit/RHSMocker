@@ -1,6 +1,6 @@
 class TaskChangeSerializer < ActiveModel::Serializer
 
-  attributes  :created_at, :event, :from, :to, :data
+  attributes :id, :created_at, :event, :from, :to, :data, :reason
 
   def attributes
     if options[:shallow]

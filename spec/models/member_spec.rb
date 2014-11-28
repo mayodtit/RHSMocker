@@ -218,10 +218,20 @@ describe Member do
     end
 
     describe '#notify_pha_of_upgrade' do
-      let!(:member) { create(:member, :trial) }
+      context 'when user signed up as a trial member' do
+        let!(:member) { create(:member, :trial) }
+        it 'creates an UpgradeTask for PHAs' do
+          expect{ member.upgrade! }.to change(UpgradeTask, :count).by(1)
+        end
+      end
 
-      it 'creates an UpgradeTask for PHAs' do
-        expect{ member.upgrade! }.to change(UpgradeTask, :count).by(1)
+      context 'when user signed up as premium member' do
+        it 'should not create UpgradeTask when member signs up with credit card as premium member' do
+          expect{ Member.create(status: 'premium') }.to change(UpgradeTask, :count).by(0)
+        end
+        it 'should not create UpgradeTask when member signs up with credit card as chamath member' do
+          expect{ Member.create(status: 'chamath') }.to change(UpgradeTask, :count).by(0)
+        end
       end
     end
   end

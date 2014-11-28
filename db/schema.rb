@@ -441,6 +441,7 @@ ActiveRecord::Schema.define(:version => 20141126232815) do
   add_index "messages", ["consult_id", "created_at", "note"], :name => "index_messages_on_consult_id_and_created_at_and_note"
   add_index "messages", ["consult_id", "created_at"], :name => "index_messages_on_consult_id_and_created_at"
   add_index "messages", ["content_id"], :name => "index_messages_on_content_id"
+  add_index "messages", ["phone_call_id"], :name => "index_messages_on_phone_call_id"
 
   create_table "metadata", :force => true do |t|
     t.string   "mkey",       :null => false
@@ -854,6 +855,7 @@ ActiveRecord::Schema.define(:version => 20141126232815) do
     t.text     "data"
     t.integer  "actor_id",   :null => false
     t.datetime "created_at", :null => false
+    t.string   "reason"
   end
 
   add_index "task_changes", ["task_id"], :name => "index_task_changes_on_task_id"
@@ -887,8 +889,8 @@ ActiveRecord::Schema.define(:version => 20141126232815) do
     t.datetime "started_at"
     t.datetime "claimed_at"
     t.datetime "completed_at"
-    t.datetime "created_at",                                    :null => false
-    t.datetime "updated_at",                                    :null => false
+    t.datetime "created_at",                                :null => false
+    t.datetime "updated_at",                                :null => false
     t.integer  "creator_id"
     t.string   "state"
     t.integer  "abandoner_id"
@@ -897,13 +899,12 @@ ActiveRecord::Schema.define(:version => 20141126232815) do
     t.string   "type"
     t.integer  "parsed_nurseline_record_id"
     t.integer  "service_type_id"
-    t.integer  "priority",                   :default => 0,     :null => false
+    t.integer  "priority",                   :default => 0, :null => false
     t.integer  "service_id"
     t.integer  "service_ordinal"
     t.integer  "task_template_id"
     t.integer  "user_request_id"
     t.datetime "member_free_trial_ends_at"
-    t.boolean  "service_experiment",         :default => false, :null => false
     t.integer  "delayed_job_id"
   end
 
@@ -1140,8 +1141,6 @@ ActiveRecord::Schema.define(:version => 20141126232815) do
     t.string   "advertiser_media_source"
     t.string   "advertiser_campaign"
     t.integer  "impersonated_user_id"
-    t.boolean  "service_experiment",                            :default => false, :null => false
-    t.boolean  "service_experiment_queue",                      :default => false, :null => false
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true

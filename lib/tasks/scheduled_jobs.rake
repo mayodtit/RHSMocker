@@ -49,4 +49,14 @@ namespace :scheduled do
   task :alert_stakeholders_when_phas_forced_on_call => :environment do
     ScheduledJobs.alert_stakeholders_when_phas_forced_on_call
   end
+
+  desc 'Add a task for all active members without a task'
+  task :notify_lack_of_tasks => :environment do
+    ScheduledJobs.notify_lack_of_tasks
+  end
+
+  desc 'Add a task for all active members without a message'
+  task :notify_lack_of_messages => :environment do
+    ScheduledJobs.notify_lack_of_messages
+  end
 end

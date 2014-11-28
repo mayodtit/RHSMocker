@@ -27,6 +27,9 @@ ServiceType.find_or_create_by_name(name: 'record recovery', bucket: 'care coordi
 ServiceType.find_or_create_by_name(name: 'prescription management', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'symptom management', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'other care coordination', bucket: 'care coordination')
+ServiceType.upsert_attributes!({name: 'preventive care reminders'}, bucket: 'care coordination')
+ServiceType.find_or_create_by_name(name: 'urgent care and emergency room', bucket: 'care coordination')
+ServiceType.find_or_create_by_name(name: 'prevention screenings', bucket: 'care coordination')
 
 # Engagement --
 ServiceType.find_or_create_by_name(name: 'welcome call', bucket: 'engagement')
@@ -35,7 +38,6 @@ ServiceType.find_or_create_by_name(name: 'collect member due date', bucket: 'eng
 ServiceType.find_or_create_by_name(name: 'outbound call', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'member onboarding', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'member offboarding', bucket: 'engagement')
-ServiceType.find_or_create_by_name(name: 'preventive care reminders', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'send pregnancy content card', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 're-engagement', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'relevant content', bucket: 'engagement')

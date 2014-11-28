@@ -137,4 +137,22 @@ class ScheduledJobs
       end
     end
   end
+
+  def self.notify_lack_of_tasks
+    if Metadata.notify_lack_of_tasks?
+      Member.premium_states.find_each do |member|
+        AddTasksTask.create_if_member_has_no_tasks(member)
+      end
+    end
+  end
+
+  def self.notify_lack_of_messages
+    if Metadata.notify_lack_of_messages?
+      Member.premium_states.where("last_contact_at IS NULL or last_contact_at < ?", 1.week.ago).find_each do |member|
+        if member.inbound_scheduled_messages.scheduled.empty?
+         MessageMemberTask.create_task_for_member(member)
+        end
+      end
+    end
+  end
 end

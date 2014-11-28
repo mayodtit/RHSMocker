@@ -110,7 +110,7 @@ describe MessageTask do
         end
 
         it 'creates a task' do
-          MessageTask.should_receive(:create!).with(title: 'Inbound Message', consult: consult, message: nil, creator: Member.robot, due_at: consult.created_at, service_experiment: false)
+          MessageTask.should_receive(:create!).with(title: 'Inbound Message', consult: consult, message: nil, creator: Member.robot, due_at: consult.created_at)
           MessageTask.create_if_only_opened_for_consult!(consult)
         end
       end
@@ -153,7 +153,7 @@ describe MessageTask do
           end
 
           it 'creates a task with consult and message' do
-            MessageTask.should_receive(:create!).with(title: 'Inbound Message', consult: consult, message: message, creator: Member.robot, due_at: message.created_at, service_experiment: false)
+            MessageTask.should_receive(:create!).with(title: 'Inbound Message', consult: consult, message: message, creator: Member.robot, due_at: message.created_at)
             MessageTask.create_if_only_opened_for_consult!(consult, message)
           end
         end
@@ -269,7 +269,7 @@ describe MessageTask do
         end
 
         it 'isn\'t deactivated when abandoned' do
-          expect { task.update_attributes! state_event: :abandon, reason_abandoned: 'none', abandoner: pha }.to_not raise_error
+          expect { task.update_attributes! state_event: :abandon, reason: 'none', abandoner: pha }.to_not raise_error
         end
 
         it 'isn\'t deactivated when completed' do
@@ -285,7 +285,7 @@ describe MessageTask do
         end
 
         it 'is deactivated when abandoned' do
-          task.update_attributes! state_event: :abandon, reason_abandoned: 'none', abandoner: pha
+          task.update_attributes! state_event: :abandon, reason: 'none', abandoner: pha
           message.consult.reload.should be_inactive
         end
 

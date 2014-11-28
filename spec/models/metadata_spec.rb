@@ -22,32 +22,34 @@ describe Metadata do
 
   describe '#to_hash_for' do
     let(:user) { build_stubbed(:member) }
+    let(:user_hash) { {current_user: user.serializer.as_json} }
 
     context 'without feature groups' do
-      it 'returns the basic metadata' do
-        described_class.to_hash_for(user).should == described_class.to_hash
+      it 'returns the basic metadata with current_user' do
+        described_class.to_hash_for(user).should == described_class.to_hash.merge(user_hash)
       end
     end
 
     context 'with feature groups' do
-      before(:each) do
-        user.stub(:feature_groups => [feature_group])
+      before do
+        user.stub(feature_groups: [feature_group])
+        user.stub_chain(:feature_groups, :find_by_name).and_return(nil)
       end
 
       context 'without metadata_override' do
         let(:feature_group) { build_stubbed(:feature_group) }
 
         it 'returns the basic metadata' do
-          described_class.to_hash_for(user).should == described_class.to_hash
+          described_class.to_hash_for(user).should == described_class.to_hash.merge(user_hash)
         end
       end
 
       context 'with metatadata_override' do
-        let(:override) { {:hello => :world} }
-        let(:feature_group) { build_stubbed(:feature_group, :metadata_override => override) }
+        let(:override) { {hello: :world} }
+        let(:feature_group) { build_stubbed(:feature_group, metadata_override: override) }
 
         it 'returns the overridden metadata' do
-          described_class.to_hash_for(user).should == described_class.to_hash.merge!(override)
+          described_class.to_hash_for(user).should == described_class.to_hash.merge!(override).merge!(user_hash)
         end
       end
     end
@@ -279,6 +281,28 @@ describe Metadata do
             "OK: PHAs are no longer forced on call."
           )
           meta_data.alert_stakeholders_when_phas_forced_on_call
+        end
+      end
+    end
+  end
+
+  describe '#notify_lack_of_tasks' do
+    context 'mkey not found' do
+      it 'returns false' do
+        Metadata.should_not be_notify_lack_of_tasks
+      end
+    end
+
+    context 'mkey found' do
+      it 'is false' do
+        m = create(:metadata, mkey: 'notify_lack_of_tasks', mvalue: 'false')
+        Metadata.should_not be_notify_lack_of_tasks
+      end
+
+      context 'value is true' do
+        it 'is true' do
+          m = create(:metadata, mkey: 'notify_lack_of_tasks', mvalue: 'true')
+          Metadata.should be_notify_lack_of_tasks
         end
       end
     end
