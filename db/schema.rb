@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141126232815) do
+ActiveRecord::Schema.define(:version => 20141128210950) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -94,6 +94,7 @@ ActiveRecord::Schema.define(:version => 20141126232815) do
     t.datetime "updated_at",         :null => false
     t.datetime "taken_at"
     t.string   "healthkit_uuid"
+    t.string   "healthkit_source"
   end
 
   add_index "blood_pressures", ["collection_type_id"], :name => "index_blood_pressures_on_collection_type_id"

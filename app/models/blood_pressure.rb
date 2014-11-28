@@ -5,7 +5,8 @@ class BloodPressure < ActiveRecord::Base
   belongs_to :collection_type
 
   attr_accessible :user, :collection_type, :diastolic, :systolic, :pulse,
-                  :user_id, :collection_type_id, :taken_at, :healthkit_uuid
+                  :user_id, :collection_type_id, :taken_at, :healthkit_uuid,
+                  :healthkit_source
 
   validates :user, :collection_type, :diastolic, :systolic, :taken_at, presence: true
 

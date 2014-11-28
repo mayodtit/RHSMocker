@@ -61,7 +61,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def blood_pressure
-    params.require(:blood_pressure).permit(:user_id, :collection_type_id, :diastolic, :systolic, :pulse, :taken_at, :healthkit_uuid)
+    params.require(:blood_pressure).permit(:user_id, :collection_type_id, :diastolic, :systolic, :pulse, :taken_at, :healthkit_uuid, :healthkit_source)
   end
 
   def pha_profile
