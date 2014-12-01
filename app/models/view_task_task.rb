@@ -15,7 +15,7 @@ class ViewTaskTask < Task
         due_at: Time.now,
         priority: 30
     )
-    task.update_attributes!(state: 'unclaimed', visible_in_queue: false)
+    task.update_attributes!(visible_in_queue: false)
   end
 
   state_machine do
