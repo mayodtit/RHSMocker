@@ -13,7 +13,7 @@ class Task < ActiveRecord::Base
   belongs_to :task_template
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
 
-  attr_accessor :actor_id, :change_tracked, :reason
+  attr_accessor :actor_id, :change_tracked, :reason, :task_change
   attr_accessible :title, :description, :due_at,
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
@@ -165,6 +165,7 @@ class Task < ActiveRecord::Base
     end
 
     before_transition any - [:abandoned] => :abandoned do |task|
+      # task.task_change(need to log the reason)
       task.abandoned_at = Time.now
     end
 

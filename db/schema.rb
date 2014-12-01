@@ -775,6 +775,7 @@ ActiveRecord::Schema.define(:version => 20141126165548) do
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
     t.string   "advertiser_id"
+    t.datetime "disabled_at"
   end
 
   add_index "sessions", ["advertiser_id"], :name => "index_sessions_on_advertiser_id"
@@ -1131,8 +1132,8 @@ ActiveRecord::Schema.define(:version => 20141126165548) do
     t.boolean  "on_call",                                       :default => false
     t.string   "status"
     t.integer  "nux_answer_id"
-    t.string   "text_phone_number"
     t.string   "time_zone"
+    t.string   "text_phone_number"
     t.boolean  "cached_notifications_enabled"
     t.boolean  "email_confirmed"
     t.string   "email_confirmation_token"
