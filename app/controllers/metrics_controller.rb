@@ -2,7 +2,7 @@ class MetricsController < ApplicationController
   before_filter :authenticate_api_user!
 
   def enrollments
-    render json: enrollment_metrics, status: :ok
+    render json: {item: enrollment_metrics}, status: :ok
   end
 
   private
