@@ -5,7 +5,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
   def index
     authorize! :read, Task
 
-    tasks = Task.where(params.permit(:state, :owner_id)).where(role_id: role.id).includes(:member).order('date(due_at) ASC, priority DESC, day_priority DESC, due_at ASC, created_at ASC')
+    tasks = Task.where(params.permit(:state, :owner_id)).where(role_id: role.id).includes(:member).order(task_order)
 
     index_resource tasks.serializer(shallow: true)
   end
@@ -22,7 +22,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
       end
     end
 
-    tasks = query.where(role_id: role.id).includes(:member).order('date(due_at) ASC, priority DESC, day_priority DESC, due_at ASC, created_at ASC')
+    tasks = query.where(role_id: role.id).includes(:member).order(task_order)
 
     index_resource tasks.serializer(shallow: true)
   end
@@ -70,6 +70,11 @@ class Api::V1::TasksController < Api::V1::ABaseController
   end
 
   private
+
+  def task_order
+    pacific_offset = Time.zone_offset('PDT')/3600
+    "DATE(CONVERT_TZ(due_at, '+0:00', '#{pacific_offset}:00')) ASC, priority DESC, day_priority DESC, due_at ASC, created_at ASC"
+  end
 
   def role
     if current_user.roles.include? Role.pha
