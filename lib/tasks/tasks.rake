@@ -105,7 +105,11 @@ namespace :tasks do
         end
 
         m.last_contact_at = consult_last_contact_at
-        m.save!
+        begin
+          m.save!
+        rescue
+          # Skip
+        end
       end
     end
   end
