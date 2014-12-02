@@ -7,9 +7,16 @@ class GCM
       }
     }
 
-    Curl::Easy.http_post(GCM_URL, payload.to_json) do |c|
-      c.headers['Content-Type'] = 'application/json'
-      c.headers['Authorization'] = "key=#{GCM_KEY}"
+    uri = URI(GCM_URL)
+    req = Net::HTTP::Post.new(uri)
+    req.body = payload.to_json
+    req['Content-Type'] = 'application/json'
+    req['Authorization'] = "key=#{GCM_KEY}"
+    http = Net::HTTP.new(uri.hostname, uri.port)
+    http.use_ssl = true
+    http.request(req) do |response|
+      # use the response to ensure we block until the response is received
+      Rails.logger.info("GCM alert completed: #{response.to_s}")
     end
   end
 end

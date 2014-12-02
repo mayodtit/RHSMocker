@@ -27,7 +27,7 @@ ServiceType.find_or_create_by_name(name: 'record recovery', bucket: 'care coordi
 ServiceType.find_or_create_by_name(name: 'prescription management', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'symptom management', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'other care coordination', bucket: 'care coordination')
-ServiceType.find_or_create_by_name(name: 'preventive care reminders', bucket: 'care coordination')
+ServiceType.upsert_attributes!({name: 'preventive care reminders'}, bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'urgent care and emergency room', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'prevention screenings', bucket: 'care coordination')
 

@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe AddTasksTask do
+describe MessageMemberTask do
   before do
     @service_type = ServiceType.find_or_create_by_name! name: 're-engagement', bucket: 'engagement'
   end
@@ -13,11 +13,11 @@ describe AddTasksTask do
   end
 
   describe '#set_required_attrs' do
-    let(:task) { build :add_tasks_task }
+    let(:task) { build :message_member_task }
 
     it 'sets title' do
       task.set_required_attrs
-      task.title.should == "Find new services for member"
+      task.title.should == "Message member"
     end
 
     it 'sets due_at to end of workday' do
@@ -35,40 +35,33 @@ describe AddTasksTask do
       task.creator.should == Member.robot
     end
 
+    it 'sets the assignor  to the robot' do
+      task.set_required_attrs
+      task.assignor.should == Member.robot
+    end
+
     it 'sets the owner to the members pha' do
       task.set_required_attrs
       task.owner.should == task.member.pha
     end
 
-    it 'sets the assignor to the robot' do
+    it 'sets the description' do
       task.set_required_attrs
-      task.assignor.should == Member.robot
+      task.description.should == "Member has not been messages in a week. Please send them a message."
     end
 
-    it 'sets description' do
+    it 'sets the priority' do
       task.set_required_attrs
-      task.description.should == "The member current has no tasks in progress."
+      task.priority.should == 0
     end
   end
 
-  describe '#create_if_member_has_no_tasks' do
-    let!(:member) { create :member }
-
-    context 'member has tasks' do
-      let!(:add_tasks_task) { create :add_tasks_task, member: member }
-
-      it 'does not create an offboard task' do
-        AddTasksTask.should_not_receive(:create!)
-        AddTasksTask.create_if_member_has_no_tasks(member)
-      end
-    end
-
-    context 'member has no tasks' do
-
-      it 'creates an offboard task' do
-        AddTasksTask.should_receive(:create!)
-        AddTasksTask.create_if_member_has_no_tasks(member)
-      end
+  describe '#create_task_for_member' do
+    let(:member) { build :member}
+    it 'should create a new task' do
+      MessageMemberTask.should_receive(:create!).with(member: member)
+      MessageMemberTask.create_task_for_member(member)
     end
   end
+
 end

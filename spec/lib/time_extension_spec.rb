@@ -81,10 +81,10 @@ describe TimeExtension do
       end
 
       context 'next business day is today, but hasn\'t started yet' do
-        let(:time) { Time.parse("December 23, 2010 20:00 PST -08:00") }
+        let(:time) { Time.parse("December 23, 2010 22:00 PST -08:00") }
 
         it 'returns now' do
-          time.next_business_day_in_words(ActiveSupport::TimeZone.new('America/New_York')).should == 'tomorrow'
+          time.next_business_day_in_words(ActiveSupport::TimeZone.new('America/Denver')).should == 'tomorrow'
         end
       end
 
@@ -132,7 +132,7 @@ describe TimeExtension do
     end
 
     it 'returns false when time is after end of business hours' do
-      t = Time.parse("October 31st, 2014, 9:00pm PDT")
+      t = Time.parse("October 31st, 2014, 9:01pm PDT")
       t.should_not be_business_time
     end
   end

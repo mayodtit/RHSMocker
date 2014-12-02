@@ -117,9 +117,8 @@ PlainTextEmailWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.
 
 AUTOMATED_OFFBOARDING_MESSAGE_3 = "We're sorry to see you go. If you decide " +
   "you'd like to upgrade later tap [here](better://nb?cmd=showSubscription) " +
-  "and you can pick back up where you left off. If you have a moment, let " +
-  "us know how we could improve our service for you. " +
-  "[Share your thoughts](http://svy.mk/1toueOq)."
+  "and you can pick back up where you left off."
+
 m = MessageTemplate.upsert_attributes({name: 'Automated Offboarding Message 3'},
                                       {text: AUTOMATED_OFFBOARDING_MESSAGE_3})
 SystemMessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,

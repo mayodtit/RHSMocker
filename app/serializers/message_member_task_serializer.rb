@@ -1,4 +1,4 @@
-class AddTasksTaskSerializer < TaskSerializer
+class MessageMemberTaskSerializer < TaskSerializer
   attributes :member_id
 
   def attributes
@@ -14,6 +14,6 @@ class AddTasksTaskSerializer < TaskSerializer
   end
 
   def type
-    'add-tasks'
+    'message-member'
   end
 end

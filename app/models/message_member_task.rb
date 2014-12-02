@@ -1,4 +1,4 @@
-class AddTasksTask < Task
+class MessageMemberTask < Task
 
   include ActiveModel::ForbiddenAttributesProtection
 
@@ -8,19 +8,19 @@ class AddTasksTask < Task
   before_validation :set_required_attrs, on: :create
 
   def set_required_attrs
-    self.title = "Find new services for member"
+    self.title = "Message member"
     self.service_type = ServiceType.find_by_name! 're-engagement'
     self.creator = Member.robot
     self.owner = member.pha
     self.assignor = Member.robot
     self.assigned_at = Time.now
     self.due_at = Time.end_of_workday(Time.now)
-    self.description = "The member current has no tasks in progress."
+    self.description = "Member has not been messages in a week. Please send them a message."
     self.priority = 0
   end
 
-  def self.create_if_member_has_no_tasks(member)
-    if Task.where(member_id: member.id, type: ['MemberTask', 'UserRequestTask', 'AddTasksTask']).open.count == 0
+  def self.create_task_for_member(member)
+    if !MessageMemberTask.find_by_member_id(member.id)
       create! member: member
     end
   end

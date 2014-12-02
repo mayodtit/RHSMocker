@@ -114,4 +114,17 @@ namespace :migrate do
     end
     puts "\nAll done!"
   end
+
+  task :backfill_enrollments => :environment do
+    Enrollment.where('email IS NOT NULL')
+              .where(user_id: nil)
+              .find_each do |enrollment|
+      if member = Member.find_by_email(enrollment.email)
+        enrollment.update_attributes!(user: member)
+        print '.'
+      else
+        print '*'
+      end
+    end
+  end
 end

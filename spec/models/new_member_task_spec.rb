@@ -73,9 +73,9 @@ describe NewMemberTask do
         end
 
         context 'now is a weekday' do
-          context 'now is past 6pm' do
+          context 'now is past 9pm' do
             before do
-              Timecop.freeze Time.parse('Mon, 30 Jun 2014 18:00:00 PDT -07:00')
+              Timecop.freeze Time.parse('Mon, 30 Jun 2014 21:00:00 PDT -07:00')
             end
 
             it 'sets due at to the middle of the next work day' do

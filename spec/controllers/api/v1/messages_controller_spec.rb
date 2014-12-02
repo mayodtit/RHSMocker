@@ -66,8 +66,8 @@ describe Api::V1::MessagesController do
         Timecop.freeze(Time.new(2014, 8, 30, 12, 0, 0, '-07:00'))
       end
 
-      it 'returns 17:00 Pacific on Friday' do
-        expect(send_method).to eq(Time.new(2014, 8, 29, 17, 0, 0, '-07:00'))
+      it 'returns 21:00 Pacific on Friday' do
+        expect(send_method).to eq(Time.new(2014, 8, 29, 21, 0, 0, '-07:00'))
       end
     end
 
@@ -76,18 +76,18 @@ describe Api::V1::MessagesController do
         Timecop.freeze(Time.new(2014, 8, 31, 12, 0, 0, '-07:00'))
       end
 
-      it 'returns 17:00 Pacific on Friday' do
-        expect(send_method).to eq(Time.new(2014, 8, 29, 17, 0, 0, '-07:00'))
+      it 'returns 21:00 Pacific on Friday' do
+        expect(send_method).to eq(Time.new(2014, 8, 29, 21, 0, 0, '-07:00'))
       end
     end
 
-    context 'on a weekday after 17:00 Pacific' do
+    context 'on a weekday after 21:00 Pacific' do
       before do
-        Timecop.freeze(Time.new(2014, 8, 27, 19, 0, 0, '-07:00'))
+        Timecop.freeze(Time.new(2014, 8, 27, 21, 0, 0, '-07:00'))
       end
 
-      it 'returns 17:00 Pacific on the same day' do
-        expect(send_method).to eq(Time.new(2014, 8, 27, 17, 0, 0, '-07:00'))
+      it 'returns 21:00 Pacific on the same day' do
+        expect(send_method).to eq(Time.new(2014, 8, 27, 21, 0, 0, '-07:00'))
       end
     end
 
@@ -96,8 +96,8 @@ describe Api::V1::MessagesController do
         Timecop.freeze(Time.new(2014, 8, 27, 7, 0, 0, '-07:00'))
       end
 
-      it 'returns 17:00 Pacific on the day before' do
-        expect(send_method).to eq(Time.new(2014, 8, 26, 17, 0, 0, '-07:00'))
+      it 'returns 21:00 Pacific on the day before' do
+        expect(send_method).to eq(Time.new(2014, 8, 26, 21, 0, 0, '-07:00'))
       end
     end
   end
