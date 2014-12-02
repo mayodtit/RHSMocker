@@ -24,7 +24,7 @@ describe ViewTaskTask do
 
     it 'should create a new task' do
       ViewTaskTask.should_receive(:create!).with(assigned_task: task,
-                                                 title: "Task assigned to you by #{task.assignor.full_name}",
+                                                 title: "Task assigned to you by #{task.assignor.first_name} #{task.assignor.last_name}",
                                                  member: task.member,
                                                  creator: Member.robot,
                                                  assignor: task.assignor,
