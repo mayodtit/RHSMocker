@@ -2,6 +2,7 @@ class Api::V1::AddressesController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_addresses!
   before_filter :load_address!, only: %i(show update destroy)
+  before_filter :convert_attributes, only: :update
 
   def index
     index_resource @addresses.serializer
@@ -31,5 +32,16 @@ class Api::V1::AddressesController < Api::V1::ABaseController
 
   def load_address!
     @address = @addresses.find(params[:id])
+  end
+
+  # remove duplicate aliased attributes when present
+  def convert_attributes
+    address_params.delete(:address) if address_params[:line1]
+    address_params.delete(:address2) if address_params[:line2]
+    address_params.delete(:type) if address_params[:name]
+  end
+
+  def address_params
+    params.require(:address)
   end
 end
