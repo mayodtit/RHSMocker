@@ -104,6 +104,7 @@ namespace :tasks do
           end
         end
 
+        puts "Updating Member #{m.id} last contact at from #{m.last_contact_at} to #{consult_last_contact_at}"
         m.last_contact_at = consult_last_contact_at
         begin
           m.save!
