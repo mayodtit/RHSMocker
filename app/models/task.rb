@@ -165,7 +165,6 @@ class Task < ActiveRecord::Base
     end
 
     before_transition any - [:abandoned] => :abandoned do |task|
-      # task.task_change(need to log the reason)
       task.abandoned_at = Time.now
     end
 
