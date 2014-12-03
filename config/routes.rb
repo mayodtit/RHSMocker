@@ -205,6 +205,7 @@ RHSMocker::Application.routes.draw do
   resources :mayo_vocabularies, only: :index
   resources :metrics, only: [] do
     get 'enrollments', on: :collection
+    get 'pha_capacity', on: :collection
   end
   resources :nurseline_records, :only => :create
   resources :pha_profiles, only: :show
