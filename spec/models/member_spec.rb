@@ -227,11 +227,14 @@ describe Member do
 
     describe 'Downgrading premium members end stripe subscription' do
       let!(:member) { create(:member, :premium) }
+      let(:service) { double('DestroyStripeSubscriptionService') }
+
+      before do
+        DestroyStripeSubscriptionService.stub(:new).with(member) { service }
+      end
 
       it 'create an instance of the DestroyStripeSubscriptionService class, and call #call on it' do
-        service = Object.new
-        DestroyStripeSubscriptionService.stub(:new).with(member) { service }
-        service.should_receive :call
+        service.should_receive(:call)
         member.downgrade!
       end
     end
@@ -731,6 +734,4 @@ describe Member do
       member.smackdown!
     end
   end
-
-
 end
