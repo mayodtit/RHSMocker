@@ -141,7 +141,9 @@ class ScheduledJobs
   def self.notify_lack_of_tasks
     if Metadata.notify_lack_of_tasks?
       Member.premium_states.find_each do |member|
-        AddTasksTask.create_if_member_has_no_tasks(member)
+        if Message.where(user_id: member.id).exists?
+          AddTasksTask.create_if_member_has_no_tasks(member)
+        end
       end
     end
   end

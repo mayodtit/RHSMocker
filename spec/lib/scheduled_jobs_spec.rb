@@ -448,14 +448,19 @@ describe ScheduledJobs do
       end
 
       context 'metadata is true' do
+        let!(:premium_member) {create :member, :premium, first_name: 'a'}
+        let!(:other_premium_member) {create :member, :premium, first_name: 'b'}
+        let!(:task) {create :member_task, member: other_premium_member}
+        let!(:free_member) {create :member, :free, first_name: 'c'}
+        let!(:message) {create :message, user: premium_member}
+
         before do
           Metadata.stub(:notify_lack_of_tasks?) { true }
         end
-        let(:task) {create :member_task}
-        let!(:premium_member) {create :member, :premium, first_name: 'a'}
-        let!(:free_member) {create :member, :free, first_name: 'c'}
+
         it 'should run create_if_member_has_no_tasks for every premium_states member' do
           AddTasksTask.should_receive(:create_if_member_has_no_tasks).with(premium_member)
+          AddTasksTask.should_not_receive(:create_if_member_has_no_tasks).with(other_premium_member)
           AddTasksTask.should_not_receive(:create_if_member_has_no_tasks).with(free_member)
           ScheduledJobs.notify_lack_of_tasks
         end
