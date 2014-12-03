@@ -24,6 +24,11 @@ class Api::V1::TasksController < Api::V1::ABaseController
 
     tasks = query.where(role_id: role.id).includes(:member).order(task_order)
 
+    if params.has_key? :only_today
+      eod = Time.now.pacific.end_of_day
+      tasks = tasks.where('due_at < ?', eod)
+    end
+
     index_resource tasks.serializer(shallow: true)
   end
 
