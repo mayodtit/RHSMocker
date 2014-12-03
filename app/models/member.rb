@@ -380,9 +380,9 @@ class Member < User
 
     after_transition %i(premium chamath) => :free do |member, transition|
       member.tasks.each do |task|
-        task.reason_abandoned = "Abandoned due to member downgrade"
+        task.reason_abandoned = "member_downgraded_canceled"
         task.abandoner = Member.robot
-        task.reason = "hahahah"
+        task.reason = "member_downgraded_canceled"
         task.abandon!
       end
     end

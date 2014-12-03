@@ -238,20 +238,12 @@ describe Member do
     describe 'abandon tasks when user downgraded' do
       context 'when user signed up as premium, and being downgraded' do
         let!(:member){ create(:member, :premium)}
-        # let!(:member_task){ create(:member_task, member_id: member.id)}
-        # it 'should log the abandoned time' do
-        #   member.downgrade!
-        #   task.abandoned_at.should_not be nil
-        # end
-        # it 'should log the abandoned reason as user downgraded' do
-        #   member.downgrade!
-        #   task.reason_abandoned.should == "Abandoned due to member downgrade"
-        # end
-        it 'should call abandon on member tasks when downgrading member' do
-          task = Object.new
-          MemberTask.stub(:new).with(member) { task }
-          task.should_receive :abandon!
+        let!(:member_task){ create(:member_task, member_id: member.id)}
+
+        it 'should call abandon on the member task' do
           member.downgrade!
+          member_task.reload.reason_abandoned.should == "member_downgraded_canceled"
+          member_task.state.should == "abandoned"
         end
       end
     end
