@@ -13,7 +13,7 @@ class Task < ActiveRecord::Base
   belongs_to :task_template
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
 
-  attr_accessor :actor_id, :change_tracked, :reason, :task_change
+  attr_accessor :actor_id, :change_tracked, :reason
   attr_accessible :title, :description, :due_at,
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
