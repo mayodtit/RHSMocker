@@ -777,6 +777,7 @@ ActiveRecord::Schema.define(:version => 20141203010334) do
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
     t.string   "advertiser_id"
+    t.datetime "disabled_at"
   end
 
   add_index "sessions", ["advertiser_id"], :name => "index_sessions_on_advertiser_id"
