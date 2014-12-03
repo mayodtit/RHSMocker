@@ -13,7 +13,7 @@ class ViewTaskTask < Task
         assignor: task.assignor,
         owner: task.owner,
         due_at: Time.now,
-        priority: 30
+        priority: 7
     )
     task.update_attributes!(visible_in_queue: false)
   end

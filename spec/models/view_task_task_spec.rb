@@ -30,7 +30,7 @@ describe ViewTaskTask do
                                                  assignor: task.assignor,
                                                  owner: task.owner,
                                                  due_at: Time.now,
-                                                 priority: 30)
+                                                 priority: 7)
       ViewTaskTask.create_task_for_task(task)
     end
 
