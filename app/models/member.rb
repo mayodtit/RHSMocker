@@ -377,6 +377,15 @@ class Member < User
                          member: member,
                          due_at: Time.now)
     end
+
+    after_transition %i(premium chamath) => :free do |member, transition|
+      member.tasks.each do |task|
+        task.reason_abandoned = "member_downgraded_canceled"
+        task.abandoner = Member.robot
+        task.reason = "member_downgraded_canceled"
+        task.abandon!
+      end
+    end
   end
 
   def set_signed_up_at
