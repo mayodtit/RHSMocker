@@ -20,7 +20,7 @@ class MessageMemberTask < Task
   end
 
   def self.create_task_for_member(member)
-    if !MessageMemberTask.find_by_member_id(member.id)
+    if !MessageMemberTask.open.find_by_member_id(member.id)
       create! member: member
     end
   end
