@@ -5,8 +5,12 @@ class MetricsController < ApplicationController
     render json: {item: enrollment_metrics}, status: :ok
   end
 
-  def pha_capacity
-    render json: {item: pha_capacity_metrics}, status: :ok
+  def pha_raw_utilization
+    render json: {item: PhaMetricsService.new.raw_utilization}, status: :ok
+  end
+
+  def pha_engaged_utilization
+    render json: {item: PhaMetricsService.new.engaged_utilization}, status: :ok
   end
 
   private
@@ -26,9 +30,5 @@ class MetricsController < ApplicationController
 
   def enrollment_to_time
     params[:to] ? Time.parse(params[:to]) : Time.zone.now.pacific.end_of_day
-  end
-
-  def pha_capacity_metrics
-    PhaCapacityMetricsService.new.call
   end
 end
