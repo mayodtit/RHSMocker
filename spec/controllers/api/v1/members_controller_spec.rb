@@ -125,11 +125,12 @@ describe Api::V1::MembersController do
       end
 
       it 'render readable message to user when Stripe sign-up failed' do
-          StripeSubscriptionService.new(:user, 'bp20', @card_token, Time.zone.now.pacific.end_of_day + 1.month).create
-          response.should_not be_success
-          response.status.should == 402
-          JSON.parse(response.body)['reason'].should == "incorrect_number"
-          JSON.parse(response.body)['user_message'].should == "incorrect_number"
+        do_request
+        StripeSubscriptionService.new(user, 'bp20', @card_token, Time.zone.now.pacific.end_of_day + 1.month).create
+        response.should_not be_success
+        response.status.should == 402
+        JSON.parse(response.body)['reason'].should == "incorrect_number"
+        JSON.parse(response.body)['user_message'].should == "incorrect_number"
       end
     end
 
