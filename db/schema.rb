@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141128212055) do
+ActiveRecord::Schema.define(:version => 20141203010334) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1146,6 +1146,7 @@ ActiveRecord::Schema.define(:version => 20141128212055) do
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
+  add_index "users", ["email_confirmation_token"], :name => "index_users_on_email_confirmation_token"
   add_index "users", ["pha_id"], :name => "index_users_on_pha_id"
   add_index "users", ["phone"], :name => "index_users_on_phone"
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"
