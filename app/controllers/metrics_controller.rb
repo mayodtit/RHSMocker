@@ -6,11 +6,11 @@ class MetricsController < ApplicationController
   end
 
   def pha_raw_utilization
-    render json: {item: PhaMetricsService.new.raw_utilization}, status: :ok
+    render json: {items: PhaMetricsService.new.raw_utilization}, status: :ok
   end
 
   def pha_engaged_utilization
-    render json: {item: PhaMetricsService.new.engaged_utilization}, status: :ok
+    render json: {items: PhaMetricsService.new.engaged_utilization}, status: :ok
   end
 
   private
