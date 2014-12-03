@@ -218,7 +218,7 @@ INTRO_PHA_HTML = <<-eof
   <body>
     <div id="content">
       <div id="subtitle">
-        Your PHA take care of time-consuming and complicated health tasks so you don't have to.
+        Your PHA takes care of time-consuming and complicated health tasks so you don't have to.
       </div>
       <div id="image-container">
         <img id="image" src="data:image/png;base64,#{intro_pha_base64}" alt="image" />
