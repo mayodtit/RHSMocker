@@ -92,16 +92,20 @@ describe Api::V1::MembersController do
   end
 
   describe 'POST create' do
-    def do_request
-      post :create, user: attributes_for(:member)
+    def do_request(params={})
+      post :create, user: attributes_for(:member).merge!(params)
     end
 
     before do
       user.stub(:reload) { user }
+      user.stub(:update_attribute)
       Member.stub(create: user)
       StripeMock.start
-      StripeMock.prepare_card_error(:incorrect_number, :create_card)
-      @card_token = StripeMock.generate_card_token(last4: "0002", exp_year: 1984)
+      Stripe::Plan.create(amount: 1999,
+                          interval: :month,
+                          name: 'Single Membership',
+                          currency: :usd,
+                          id: 'bp20')
     end
 
     it 'attempts to create the record' do
@@ -124,13 +128,95 @@ describe Api::V1::MembersController do
         body[:auth_token].to_json.should == user.sessions.first.auth_token.to_json
       end
 
-      it 'render readable message to user when Stripe sign-up failed' do
-        do_request
-        StripeSubscriptionService.new(user, 'bp20', @card_token, Time.zone.now.pacific.end_of_day + 1.month).create
+      it 'render readable message to user when haveing Stripe::CardError card_declined' do
+        StripeMock.prepare_card_error(:card_declined, :new_customer)
+        do_request(payment_token: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
         response.should_not be_success
-        response.status.should == 402
+        response.status.should == 422
+        JSON.parse(response.body)['reason'].should == "card_declined"
+        JSON.parse(response.body)['user_message'].should == "The card was declined"
+      end
+
+      it 'render readable message to user when haveing Stripe::CardError incorrect_number' do
+        StripeMock.prepare_card_error(:incorrect_number, :new_customer)
+        do_request(payment_token: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+        response.should_not be_success
+        response.status.should == 422
         JSON.parse(response.body)['reason'].should == "incorrect_number"
-        JSON.parse(response.body)['user_message'].should == "incorrect_number"
+        JSON.parse(response.body)['user_message'].should == "The card number is incorrect"
+      end
+
+      it 'render readable message to user when haveing Stripe::CardError invalid_number' do
+        StripeMock.prepare_card_error(:invalid_number, :new_customer)
+        do_request(payment_token: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+        response.should_not be_success
+        response.status.should == 422
+        JSON.parse(response.body)['reason'].should == "invalid_number"
+        JSON.parse(response.body)['user_message'].should == "The card number is not a valid credit card number"
+      end
+
+      it 'render readable message to user when haveing Stripe::CardError invalid_expiry_month' do
+        StripeMock.prepare_card_error(:invalid_expiry_month, :new_customer)
+        do_request(payment_token: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+        response.should_not be_success
+        response.status.should == 422
+        JSON.parse(response.body)['reason'].should == "invalid_expiry_month"
+        JSON.parse(response.body)['user_message'].should == "The card's expiration month is invalid"
+      end
+
+      it 'render readable message to user when haveing Stripe::CardError invalid_expiry_year' do
+        StripeMock.prepare_card_error(:invalid_expiry_year, :new_customer)
+        do_request(payment_token: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+        response.should_not be_success
+        response.status.should == 422
+        JSON.parse(response.body)['reason'].should == "invalid_expiry_year"
+        JSON.parse(response.body)['user_message'].should == "The card's expiration year is invalid"
+      end
+
+      it 'render readable message to user when haveing Stripe::CardError invalid_cvc' do
+        StripeMock.prepare_card_error(:invalid_cvc, :new_customer)
+        do_request(payment_token: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+        response.should_not be_success
+        response.status.should == 422
+        JSON.parse(response.body)['reason'].should == "invalid_cvc"
+        JSON.parse(response.body)['user_message'].should == "The card's security code is invalid"
+      end
+
+      it 'render readable message to user when haveing Stripe::CardError expired_card' do
+        StripeMock.prepare_card_error(:expired_card, :new_customer)
+        do_request(payment_token: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+        response.should_not be_success
+        response.status.should == 422
+        JSON.parse(response.body)['reason'].should == "expired_card"
+        JSON.parse(response.body)['user_message'].should == "The card has expired"
+      end
+
+      it 'render readable message to user when haveing Stripe::CardError incorrect_cvc' do
+        StripeMock.prepare_card_error(:incorrect_cvc, :new_customer)
+        do_request(payment_token: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+        response.should_not be_success
+        response.status.should == 422
+        JSON.parse(response.body)['reason'].should == "incorrect_cvc"
+        JSON.parse(response.body)['user_message'].should == "The card's security code is incorrect"
+      end
+
+      it 'render readable message to user when haveing Stripe::CardError processing_error' do
+        StripeMock.prepare_card_error(:processing_error, :new_customer)
+        do_request(payment_token: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+        response.should_not be_success
+        response.status.should == 422
+        JSON.parse(response.body)['reason'].should == "processing_error"
+        JSON.parse(response.body)['user_message'].should == "An error occurred while processing the card"
+      end
+
+      it 'render readable message to user when haveing errors other than Stripe::CardError' do
+        custom_error = StandardError.new("API error")
+        StripeMock.prepare_error(custom_error, :new_customer)
+        do_request(payment_token: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+        response.should_not be_success
+        response.status.should == 422
+        JSON.parse(response.body)['reason'].should == "API error"
+        JSON.parse(response.body)['user_message'].should == "There's an error with your credit card, please try another one"
       end
     end
 
