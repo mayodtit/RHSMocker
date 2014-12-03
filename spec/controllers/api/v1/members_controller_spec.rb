@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'stripe_mock'
 
 describe Api::V1::MembersController do
   let(:user) { build_stubbed(:member) }
@@ -98,6 +99,9 @@ describe Api::V1::MembersController do
     before do
       user.stub(:reload) { user }
       Member.stub(create: user)
+      StripeMock.start
+      StripeMock.prepare_card_error(:incorrect_number, :create_card)
+      @card_token = StripeMock.generate_card_token(last4: "0002", exp_year: 1984)
     end
 
     it 'attempts to create the record' do
@@ -119,6 +123,14 @@ describe Api::V1::MembersController do
         body = JSON.parse(response.body, symbolize_names: true)
         body[:auth_token].to_json.should == user.sessions.first.auth_token.to_json
       end
+
+      it 'render readable message to user when Stripe sign-up failed' do
+          StripeSubscriptionService.new(:user, 'bp20', @card_token, Time.zone.now.pacific.end_of_day + 1.month).create
+          response.should_not be_success
+          response.status.should == 402
+          JSON.parse(response.body)['reason'].should == "incorrect_number"
+          JSON.parse(response.body)['user_message'].should == "incorrect_number"
+      end
     end
 
     context 'save fails' do
@@ -127,6 +139,10 @@ describe Api::V1::MembersController do
       end
 
       it_behaves_like 'failure'
+    end
+
+    after do
+      StripeMock.stop
     end
   end
 

@@ -32,8 +32,26 @@ class Api::V1::MembersController < Api::V1::ABaseController
       @session = @member.sessions.create
       begin
         StripeSubscriptionService.new(@member, 'bp20', user_params[:payment_token], Time.zone.now.pacific.end_of_day + 1.month).create if user_params[:payment_token]
+      rescue Stripe::CardError => e
+        body = e.json_body
+        err  = body[:error]
+        render_failure({reason: "Message is: #{err[:message]}",
+                        user_message: "Message is: #{err[:message]}"}, 402)
+      rescue Stripe::InvalidRequestError => e
+        render_failure({reason: "Invalid parameters were supplied to Stripe's API",
+                        user_message: "There's an error with your credit card, please try another one"}, 400)
+      rescue Stripe::AuthenticationError => e
+        render_failure({reason: "Authentication with Stripe's API failed",
+                        user_message: "There's an error with your credit card, please try another one"}, 401)
+      rescue Stripe::APIConnectionError => e
+        render_failure({reason: "Network communication with Stripe failed",
+                        user_message: "There's an error with your credit card, please try another one"})
+      rescue Stripe::StripeError => e
+        render_failure({reason: "StripeError",
+                        user_message: "There's an error with your credit card, please try another one"})
       rescue => e
-        logger.error("StripeSubscriptionService error: #{e}")
+        render_failure({reason: "Something else happened, completely unrelated to Stripe",
+                        user_message: "There's an error with your credit card, please try another one"})
       end
       SendWelcomeEmailService.new(@member).call
       SendConfirmEmailService.new(@member).call
