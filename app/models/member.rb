@@ -86,7 +86,6 @@ class Member < User
                   :email_confirmation_token, :advertiser_id,
                   :advertiser_media_source, :advertiser_campaign,
                   :impersonated_user, :impersonated_user_id,
-                  :service_experiment, :service_experiment_queue,
                   :enrollment, :payment_token
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
@@ -378,6 +377,15 @@ class Member < User
                          member: member,
                          due_at: Time.now)
     end
+
+    after_transition %i(premium chamath) => :free do |member, transition|
+      member.tasks.open_state.each do |task|
+        task.reason_abandoned = "member_downgraded_canceled"
+        task.abandoner = Member.robot
+        task.reason = "member_downgraded_canceled"
+        task.abandon!
+      end
+    end
   end
 
   def set_signed_up_at
@@ -432,7 +440,6 @@ class Member < User
                            PhaProfile.next_pha_profile(false, nux_answer)
                          end
       self.pha ||= next_pha_profile.try(:user)
-      self.service_experiment = next_pha_profile.try(:nux_answer).present?
     end
     true
   end

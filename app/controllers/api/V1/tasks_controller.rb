@@ -13,21 +13,16 @@ class Api::V1::TasksController < Api::V1::ABaseController
   def queue
     authorize! :read, Task
 
-    query = Task.owned current_user
+    query = Task.owned(current_user)
     if current_user.on_call?
       if Metadata.on_call_queue_only_inbound_and_unassigned?
         query = Task.needs_triage current_user
       else
         query = Task.needs_triage_or_owned current_user
       end
-
-      if current_user.service_experiment_queue
-        query = query.where(service_experiment: true)
-      else
-        query = query.where(service_experiment: false)
-      end
     end
-
+    
+    query = query.where(visible_in_queue: true)
     tasks = query.where(role_id: role.id).includes(:member).order('priority DESC, due_at ASC, created_at ASC')
 
     index_resource tasks.serializer(shallow: true)

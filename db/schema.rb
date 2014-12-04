@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141124190805) do
+ActiveRecord::Schema.define(:version => 20141203010334) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -94,6 +94,7 @@ ActiveRecord::Schema.define(:version => 20141124190805) do
     t.datetime "updated_at",         :null => false
     t.datetime "taken_at"
     t.string   "healthkit_uuid"
+    t.string   "healthkit_source"
   end
 
   add_index "blood_pressures", ["collection_type_id"], :name => "index_blood_pressures_on_collection_type_id"
@@ -347,12 +348,13 @@ ActiveRecord::Schema.define(:version => 20141124190805) do
 
   create_table "heights", :force => true do |t|
     t.integer  "user_id"
-    t.decimal  "amount",         :precision => 9, :scale => 5
+    t.decimal  "amount",           :precision => 9, :scale => 5
     t.datetime "taken_at"
-    t.datetime "created_at",                                   :null => false
-    t.datetime "updated_at",                                   :null => false
+    t.datetime "created_at",                                     :null => false
+    t.datetime "updated_at",                                     :null => false
     t.string   "healthkit_uuid"
     t.integer  "creator_id"
+    t.string   "healthkit_source"
   end
 
   create_table "insurance_policies", :force => true do |t|
@@ -469,11 +471,11 @@ ActiveRecord::Schema.define(:version => 20141124190805) do
   end
 
   create_table "nux_stories", :force => true do |t|
-    t.text     "html"
+    t.text     "html",                     :limit => 2147483647
     t.string   "action_button_text"
     t.boolean  "show_nav_signup"
-    t.datetime "created_at",               :null => false
-    t.datetime "updated_at",               :null => false
+    t.datetime "created_at",                                     :null => false
+    t.datetime "updated_at",                                     :null => false
     t.string   "unique_id"
     t.integer  "ordinal"
     t.boolean  "enable_webview_scrolling"
@@ -775,6 +777,7 @@ ActiveRecord::Schema.define(:version => 20141124190805) do
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
     t.string   "advertiser_id"
+    t.datetime "disabled_at"
   end
 
   add_index "sessions", ["advertiser_id"], :name => "index_sessions_on_advertiser_id"
@@ -889,8 +892,8 @@ ActiveRecord::Schema.define(:version => 20141124190805) do
     t.datetime "started_at"
     t.datetime "claimed_at"
     t.datetime "completed_at"
-    t.datetime "created_at",                                    :null => false
-    t.datetime "updated_at",                                    :null => false
+    t.datetime "created_at",                                   :null => false
+    t.datetime "updated_at",                                   :null => false
     t.integer  "creator_id"
     t.string   "state"
     t.integer  "abandoner_id"
@@ -899,16 +902,19 @@ ActiveRecord::Schema.define(:version => 20141124190805) do
     t.string   "type"
     t.integer  "parsed_nurseline_record_id"
     t.integer  "service_type_id"
-    t.integer  "priority",                   :default => 0,     :null => false
+    t.integer  "priority",                   :default => 0,    :null => false
     t.integer  "service_id"
     t.integer  "service_ordinal"
     t.integer  "task_template_id"
     t.integer  "user_request_id"
     t.datetime "member_free_trial_ends_at"
-    t.boolean  "service_experiment",         :default => false, :null => false
     t.integer  "delayed_job_id"
+    t.integer  "day_priority",               :default => 0,    :null => false
+    t.integer  "assigned_task_id"
+    t.boolean  "visible_in_queue",           :default => true, :null => false
   end
 
+  add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"
   add_index "tasks", ["owner_id", "state"], :name => "index_tasks_on_owner_id_and_state"
   add_index "tasks", ["state", "due_at", "created_at"], :name => "index_tasks_on_state_and_due_at_and_created_at"
   add_index "tasks", ["state"], :name => "index_tasks_on_state"
@@ -1132,8 +1138,8 @@ ActiveRecord::Schema.define(:version => 20141124190805) do
     t.boolean  "on_call",                                       :default => false
     t.string   "status"
     t.integer  "nux_answer_id"
-    t.string   "time_zone"
     t.string   "text_phone_number"
+    t.string   "time_zone"
     t.boolean  "cached_notifications_enabled"
     t.boolean  "email_confirmed"
     t.string   "email_confirmation_token"
@@ -1142,11 +1148,10 @@ ActiveRecord::Schema.define(:version => 20141124190805) do
     t.string   "advertiser_media_source"
     t.string   "advertiser_campaign"
     t.integer  "impersonated_user_id"
-    t.boolean  "service_experiment",                            :default => false, :null => false
-    t.boolean  "service_experiment_queue",                      :default => false, :null => false
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
+  add_index "users", ["email_confirmation_token"], :name => "index_users_on_email_confirmation_token"
   add_index "users", ["pha_id"], :name => "index_users_on_pha_id"
   add_index "users", ["phone"], :name => "index_users_on_phone"
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"
@@ -1156,13 +1161,14 @@ ActiveRecord::Schema.define(:version => 20141124190805) do
 
   create_table "weights", :force => true do |t|
     t.integer  "user_id"
-    t.decimal  "amount",         :precision => 9, :scale => 5, :default => 0.0
-    t.decimal  "bmi",            :precision => 8, :scale => 5
-    t.datetime "created_at",                                                    :null => false
-    t.datetime "updated_at",                                                    :null => false
+    t.decimal  "amount",           :precision => 9, :scale => 5, :default => 0.0
+    t.decimal  "bmi",              :precision => 8, :scale => 5
+    t.datetime "created_at",                                                      :null => false
+    t.datetime "updated_at",                                                      :null => false
     t.datetime "taken_at"
     t.string   "healthkit_uuid"
     t.integer  "creator_id"
+    t.string   "healthkit_source"
   end
 
 end
