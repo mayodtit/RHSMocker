@@ -892,8 +892,8 @@ ActiveRecord::Schema.define(:version => 20141203010334) do
     t.datetime "started_at"
     t.datetime "claimed_at"
     t.datetime "completed_at"
-    t.datetime "created_at",                                :null => false
-    t.datetime "updated_at",                                :null => false
+    t.datetime "created_at",                                   :null => false
+    t.datetime "updated_at",                                   :null => false
     t.integer  "creator_id"
     t.string   "state"
     t.integer  "abandoner_id"
@@ -902,14 +902,16 @@ ActiveRecord::Schema.define(:version => 20141203010334) do
     t.string   "type"
     t.integer  "parsed_nurseline_record_id"
     t.integer  "service_type_id"
-    t.integer  "priority",                   :default => 0, :null => false
+    t.integer  "priority",                   :default => 0,    :null => false
     t.integer  "service_id"
     t.integer  "service_ordinal"
     t.integer  "task_template_id"
     t.integer  "user_request_id"
     t.datetime "member_free_trial_ends_at"
     t.integer  "delayed_job_id"
-    t.integer  "day_priority",               :default => 0, :null => false
+    t.integer  "day_priority",               :default => 0,    :null => false
+    t.integer  "assigned_task_id"
+    t.boolean  "visible_in_queue",           :default => true, :null => false
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"

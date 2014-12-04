@@ -954,6 +954,7 @@ describe Task do
           task.abandoner_id = 5
           task.creator_id = 3
           task.state = 'unstarted'
+          task.visible_in_queue = true
           task.stub(:previous_changes) { task.changes }
         end
 
