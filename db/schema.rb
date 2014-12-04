@@ -1134,8 +1134,8 @@ ActiveRecord::Schema.define(:version => 20141125200109) do
     t.boolean  "on_call",                                       :default => false
     t.string   "status"
     t.integer  "nux_answer_id"
-    t.string   "text_phone_number"
     t.string   "time_zone"
+    t.string   "text_phone_number"
     t.boolean  "cached_notifications_enabled"
     t.boolean  "email_confirmed"
     t.string   "email_confirmation_token"
