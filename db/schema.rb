@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141127012410) do
+ActiveRecord::Schema.define(:version => 20141128212055) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -94,6 +94,7 @@ ActiveRecord::Schema.define(:version => 20141127012410) do
     t.datetime "updated_at",         :null => false
     t.datetime "taken_at"
     t.string   "healthkit_uuid"
+    t.string   "healthkit_source"
   end
 
   add_index "blood_pressures", ["collection_type_id"], :name => "index_blood_pressures_on_collection_type_id"
@@ -347,12 +348,13 @@ ActiveRecord::Schema.define(:version => 20141127012410) do
 
   create_table "heights", :force => true do |t|
     t.integer  "user_id"
-    t.decimal  "amount",         :precision => 9, :scale => 5
+    t.decimal  "amount",           :precision => 9, :scale => 5
     t.datetime "taken_at"
-    t.datetime "created_at",                                   :null => false
-    t.datetime "updated_at",                                   :null => false
+    t.datetime "created_at",                                     :null => false
+    t.datetime "updated_at",                                     :null => false
     t.string   "healthkit_uuid"
     t.integer  "creator_id"
+    t.string   "healthkit_source"
   end
 
   create_table "insurance_policies", :force => true do |t|
@@ -469,11 +471,11 @@ ActiveRecord::Schema.define(:version => 20141127012410) do
   end
 
   create_table "nux_stories", :force => true do |t|
-    t.text     "html"
+    t.text     "html",                     :limit => 2147483647
     t.string   "action_button_text"
     t.boolean  "show_nav_signup"
-    t.datetime "created_at",               :null => false
-    t.datetime "updated_at",               :null => false
+    t.datetime "created_at",                                     :null => false
+    t.datetime "updated_at",                                     :null => false
     t.string   "unique_id"
     t.integer  "ordinal"
     t.boolean  "enable_webview_scrolling"
@@ -1155,13 +1157,14 @@ ActiveRecord::Schema.define(:version => 20141127012410) do
 
   create_table "weights", :force => true do |t|
     t.integer  "user_id"
-    t.decimal  "amount",         :precision => 9, :scale => 5, :default => 0.0
-    t.decimal  "bmi",            :precision => 8, :scale => 5
-    t.datetime "created_at",                                                    :null => false
-    t.datetime "updated_at",                                                    :null => false
+    t.decimal  "amount",           :precision => 9, :scale => 5, :default => 0.0
+    t.decimal  "bmi",              :precision => 8, :scale => 5
+    t.datetime "created_at",                                                      :null => false
+    t.datetime "updated_at",                                                      :null => false
     t.datetime "taken_at"
     t.string   "healthkit_uuid"
     t.integer  "creator_id"
+    t.string   "healthkit_source"
   end
 
 end

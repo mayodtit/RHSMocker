@@ -331,7 +331,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     )
   end
 
-  MAYO_PILOT_INVITE_TEMPLATE = 'Mayo Pilot Invitation Plain Text'
+  MAYO_PILOT_INVITE_TEMPLATE = 'Mayo Pilot Invitation Plain Text (11/28/2014)'
 
   def mayo_pilot_invite_email(user, provider)
     mandrill_mail(
@@ -346,8 +346,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
       vars: {
         FNAME: user.salutation,
         DRNAME: provider.full_name,
-        IOS_INVITE_URL: Rails.application.routes.url_helpers.invite_url(user.invitation_token),
-        ANDROID_INVITE_URL: Rails.application.routes.url_helpers.android_invite_url(user.invitation_token)
+        INVITE_URL: Rails.application.routes.url_helpers.invite_url(user.invitation_token)
       }
     )
   end
