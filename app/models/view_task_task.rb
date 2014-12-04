@@ -2,7 +2,7 @@ class ViewTaskTask < Task
 
   belongs_to :assigned_task, class_name: 'Task'
   attr_accessible :assigned_task
-  validates :assigned_task, presence: true
+  validates :assigned_task, :owner, :assignor, :member, presence: true
 
   def self.create_task_for_task(task)
     create!(
@@ -20,7 +20,7 @@ class ViewTaskTask < Task
 
   state_machine do
 
-    before_transition any => :completed do |task|
+    after_transition any => :completed do |task|
       task.assigned_task.update_attributes!(visible_in_queue: true)
     end
   end

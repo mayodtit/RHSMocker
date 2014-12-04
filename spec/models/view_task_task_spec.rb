@@ -6,6 +6,9 @@ describe ViewTaskTask do
 
   describe 'validations' do
     it_validates 'presence of', :assigned_task
+    it_validates 'presence of', :member
+    it_validates 'presence of', :owner
+    it_validates 'presence of', :assignor
   end
 
   describe '#create_task_for_task' do
@@ -41,16 +44,16 @@ describe ViewTaskTask do
   end
 
   describe 'complete task' do
-    let(:member) { build_stubbed :member}
-    let(:old_pha) { build_stubbed :pha, first_name: 'A', last_name: 'B'}
-    let(:new_pha) { build_stubbed :pha}
+    let(:member) { create :member}
+    let(:old_pha) { create :pha, first_name: 'A', last_name: 'B'}
+    let(:new_pha) { create :pha}
     let!(:task) { create :task, member: member, owner: new_pha, assignor: old_pha, visible_in_queue: false}
-    let!(:view_task_task) { create :view_task_task, assigned_task: task}
+    let!(:view_task_task) { create :view_task_task, assigned_task: task, member: member}
 
     context 'ViewTaskTask is completed' do
       it 'should set the original task to be visible in queue' do
-        view_task_task.complete
-        task.visible_in_queue.should == true
+        view_task_task.complete!
+        task.reload.visible_in_queue.should == true
       end
     end
   end
