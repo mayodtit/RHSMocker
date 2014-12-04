@@ -13,7 +13,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
   def queue
     authorize! :read, Task
 
-    query = Task.owned current_user
+    query = Task.owned(current_user).where(visible_in_queue: true)
     if current_user.on_call?
       if Metadata.on_call_queue_only_inbound_and_unassigned?
         query = Task.needs_triage current_user

@@ -2,7 +2,7 @@ class TaskSerializer < ActiveModel::Serializer
   self.root = false
 
   attributes :id, :title, :state, :description, :due_at, :type, :created_at,
-             :owner_id, :service_type_id, :triage_state, :member_id, :visible_in_queue
+             :owner_id, :service_type_id, :triage_state, :member_id
 
   def attributes
     if options[:shallow]
