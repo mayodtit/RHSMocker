@@ -14,8 +14,7 @@ class TaskSerializer < ActiveModel::Serializer
         created_at: object.created_at,
         type: type,
         triage_state: triage_state,
-        member_id: member_id,
-        visible_in_queue: visible_in_queue
+        member_id: member_id
       }
       attributes[:member] = object.member.try(:serializer, options) if object.respond_to? :member
       attributes
@@ -28,7 +27,6 @@ class TaskSerializer < ActiveModel::Serializer
         created_at: object.created_at,
         type: type,
         service_type: object.service_type,
-        visible_in_queue: visible_in_queue,
         owner: object.owner.try(:serializer, options.merge(shallow: true))
       }
     elsif options[:for_task]
