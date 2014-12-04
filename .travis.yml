@@ -3,3 +3,4 @@ rvm:
   - 2.0.0-p598
 before_script:
   - mv config/database.yml.example config/database.yml
+  - mysql -e 'create database rhs_test;'
