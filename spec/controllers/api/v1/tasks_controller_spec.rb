@@ -88,11 +88,15 @@ describe Api::V1::TasksController do
         it 'returns tasks for the current hcp' do
           Task.should_receive(:owned).with(user) do
             o = Object.new
-            o.stub(:where).with(role_id: nurse_role.id) do
+            o.stub(:where).with(visible_in_queue: true) do
               o_o = Object.new
-              o_o.stub(:includes).with(:member) do
+              o_o.stub(:where).with(role_id: nurse_role.id) do
                 o_o_o = Object.new
-                o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
+                o_o_o.stub(:includes).with(:member) do
+                  o_o_o_o = Object.new
+                  o_o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
+                  o_o_o_o
+                end
                 o_o_o
               end
               o_o
@@ -121,11 +125,15 @@ describe Api::V1::TasksController do
               o = Object.new
               o.stub(:where).with(service_experiment: false) do
                 o_o = Object.new
-                o_o.stub(:where).with(role_id: nurse_role.id) do
+                o_o.stub(:where).with(visible_in_queue: true) do
                   o_o_o = Object.new
-                  o_o_o.stub(:includes).with(:member) do
+                  o_o_o.stub(:where).with(role_id: nurse_role.id) do
                     o_o_o_o = Object.new
-                    o_o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
+                    o_o_o_o.stub(:includes).with(:member) do
+                      o_o_o_o_o = Object.new
+                      o_o_o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
+                      o_o_o_o_o
+                    end
                     o_o_o_o
                   end
                   o_o_o
@@ -151,11 +159,15 @@ describe Api::V1::TasksController do
               o = Object.new
               o.stub(:where).with(service_experiment: false) do
                 o_o = Object.new
-                o_o.stub(:where).with(role_id: nurse_role.id) do
+                o_o.stub(:where).with(visible_in_queue: true) do
                   o_o_o = Object.new
-                  o_o_o.stub(:includes).with(:member) do
+                  o_o_o.stub(:where).with(role_id: nurse_role.id) do
                     o_o_o_o = Object.new
-                    o_o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
+                    o_o_o_o.stub(:includes).with(:member) do
+                      o_o_o_o_o = Object.new
+                      o_o_o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
+                      o_o_o_o_o
+                    end
                     o_o_o_o
                   end
                   o_o_o
