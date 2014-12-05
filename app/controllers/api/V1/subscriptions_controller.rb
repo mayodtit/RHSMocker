@@ -13,9 +13,9 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   # but it's better than them paying without becoming a premium member.
   def create
     sa = subscription_attributes # this needs to be assigned prior to the user's update_attributes
-
     if @user.update_attributes(user_attributes)
       @customer.subscriptions.create(sa)
+      @user.master_consult.messages.create(message_attributes)
       render_success(user: @user.serializer)
     else
       render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
@@ -55,6 +55,15 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
       end
       attributes.merge!(coupon: '50PERCENT') if @user.onboarding_group.try(:mayo_pilot?)
     end
+  end
+
+  def message_attributes
+    {
+      text: "Thank you for upgrading your subscription to #{subscription_attributes[:plan]}.",
+      user_id: Member.robot.id,
+      system: true,
+      consult_id: @user.master_consult.id
+    }
   end
 
   def user_attributes
