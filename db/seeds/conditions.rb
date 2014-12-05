@@ -524,3 +524,36 @@ Condition.find_or_create_by_name(name: "Wolff-Parkinson-White pattern",
 Condition.find_or_create_by_name(name: "Juvenile Parkinson's disease",
                                  snomed_name: "Juvenile Parkinson's disease (disorder)",
                                  snomed_code: "618077018")
+Condition.find_or_create_by_name(name: "Non-Hodgkin's lymphoma",
+                                 snomed_name: "Non-Hodgkin's lymphoma (disorder)",
+                                 snomed_code: "699541019")
+Condition.find_or_create_by_name(name: "Hypoglycemia",
+                                 snomed_name: "Hypoglycemia (disorder)",
+                                 snomed_code: "699035019")
+Condition.find_or_create_by_name(name: "Chronic metabolic disorder",
+                                 snomed_name: "Chronic metabolic disorder (disorder)",
+                                 snomed_code: "302866003")
+Condition.find_or_create_by_name(name: "Multiple sclerosis",
+                                 snomed_name: "Multiple sclerosis (disorder)",
+                                 snomed_code: "754365011")
+Condition.find_or_create_by_name(name: "MS",
+                                 snomed_name: "Multiple sclerosis (disorder)",
+                                 snomed_code: "754365011")
+Condition.find_or_create_by_name(name: "Vitiligo",
+                                 snomed_name: "Vitiligo (disorder)",
+                                 snomed_code: "795271018")
+Condition.find_or_create_by_name(name: "Interstitial cystitis",
+                                 snomed_name: "Chronic interstitial cystitis (disorder)",
+                                 snomed_code: "582256011")
+Condition.find_or_create_by_name(name: "Polyneuritis ",
+                                 snomed_name: "Polyneuritis  (disorder)",
+                                 snomed_code: "817655016")
+Condition.find_or_create_by_name(name: "Vulvar vestibulitis",
+                                 snomed_name: "Vulvar vestibulitis  (disorder)",
+                                 snomed_code: "761886018")
+Condition.find_or_create_by_name(name: "Vulvodynia",
+                                 snomed_name: "Vulvodynia (disorder)",
+                                 snomed_code: "627921019")
+Condition.find_or_create_by_name(name: "Vulvodynia",
+                                 snomed_name: "Vulvodynia (disorder)",
+                                 snomed_code: "627921019")
