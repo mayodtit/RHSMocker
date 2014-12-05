@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141128212055) do
+ActiveRecord::Schema.define(:version => 20141205192213) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -80,6 +80,7 @@ ActiveRecord::Schema.define(:version => 20141128212055) do
     t.integer  "pair_id"
     t.integer  "creator_id"
     t.integer  "parent_id"
+    t.integer  "actor_id"
   end
 
   add_index "associations", ["user_id"], :name => "index_associations_on_user_id"
