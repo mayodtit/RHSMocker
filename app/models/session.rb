@@ -1,4 +1,5 @@
 class Session < ActiveRecord::Base
+  include SoftDeleteModule
   belongs_to :member
 
   attr_accessible :member, :auth_token, :device_id, :apns_token, :gcm_id,
@@ -11,6 +12,7 @@ class Session < ActiveRecord::Base
   validates :apns_token, :gcm_id, uniqueness: true, allow_nil: true
 
   before_validation :set_auth_token
+  before_destroy :unset_notification_tokens
 
   def store_apns_token!(token)
     if apns_token != token
@@ -37,5 +39,10 @@ class Session < ActiveRecord::Base
       new_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
       break new_token unless self.class.exists?(auth_token: new_token)
     end
+  end
+
+  def unset_notification_tokens
+    self.apns_token = nil
+    self.gcm_id = nil
   end
 end

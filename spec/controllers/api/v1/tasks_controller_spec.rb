@@ -89,7 +89,7 @@ describe Api::V1::TasksController do
         it 'returns tasks for the current hcp' do
           Task.should_receive(:owned).with(user) do
             o = Object.new
-            o.stub(:where).with(role_id: nurse_role.id) do
+            o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true) do
               o_o = Object.new
               o_o.stub(:includes).with(:member) do
                 o_o_o = Object.new
@@ -120,7 +120,7 @@ describe Api::V1::TasksController do
           it 'returns tasks for the current hcp' do
             Task.should_receive(:needs_triage).with(user) do
               o_o = Object.new
-              o_o.stub(:where).with(role_id: nurse_role.id) do
+              o_o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true) do
                 o_o_o = Object.new
                 o_o_o.stub(:includes).with(:member) do
                   o_o_o_o = Object.new
@@ -146,7 +146,7 @@ describe Api::V1::TasksController do
           it 'returns tasks for the current hcp' do
             Task.should_receive(:needs_triage_or_owned).with(user) do
               o_o = Object.new
-              o_o.stub(:where).with(role_id: nurse_role.id) do
+              o_o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true) do
                 o_o_o = Object.new
                 o_o_o.stub(:includes).with(:member) do
                   o_o_o_o = Object.new

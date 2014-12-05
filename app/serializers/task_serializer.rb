@@ -29,6 +29,17 @@ class TaskSerializer < ActiveModel::Serializer
         service_type: object.service_type,
         owner: object.owner.try(:serializer, options.merge(shallow: true))
       }
+    elsif options[:for_task]
+      attributes = {
+          id: object.id,
+          title: object.title,
+          state: object.state,
+          due_at: object.due_at,
+          created_at: object.created_at,
+          type: type,
+          service_type: object.service_type,
+          description: object.description
+      }
     else
       super.tap do |attributes|
         attributes.merge!(

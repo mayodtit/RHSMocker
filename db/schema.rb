@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141128212055) do
+ActiveRecord::Schema.define(:version => 20141203010334) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -777,6 +777,7 @@ ActiveRecord::Schema.define(:version => 20141128212055) do
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
     t.string   "advertiser_id"
+    t.datetime "disabled_at"
   end
 
   add_index "sessions", ["advertiser_id"], :name => "index_sessions_on_advertiser_id"
@@ -891,8 +892,8 @@ ActiveRecord::Schema.define(:version => 20141128212055) do
     t.datetime "started_at"
     t.datetime "claimed_at"
     t.datetime "completed_at"
-    t.datetime "created_at",                                :null => false
-    t.datetime "updated_at",                                :null => false
+    t.datetime "created_at",                                   :null => false
+    t.datetime "updated_at",                                   :null => false
     t.integer  "creator_id"
     t.string   "state"
     t.integer  "abandoner_id"
@@ -901,14 +902,16 @@ ActiveRecord::Schema.define(:version => 20141128212055) do
     t.string   "type"
     t.integer  "parsed_nurseline_record_id"
     t.integer  "service_type_id"
-    t.integer  "priority",                   :default => 0, :null => false
+    t.integer  "priority",                   :default => 0,    :null => false
     t.integer  "service_id"
     t.integer  "service_ordinal"
     t.integer  "task_template_id"
     t.integer  "user_request_id"
     t.datetime "member_free_trial_ends_at"
     t.integer  "delayed_job_id"
-    t.integer  "day_priority",               :default => 0, :null => false
+    t.integer  "day_priority",               :default => 0,    :null => false
+    t.integer  "assigned_task_id"
+    t.boolean  "visible_in_queue",           :default => true, :null => false
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"
@@ -1148,6 +1151,7 @@ ActiveRecord::Schema.define(:version => 20141128212055) do
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
+  add_index "users", ["email_confirmation_token"], :name => "index_users_on_email_confirmation_token"
   add_index "users", ["pha_id"], :name => "index_users_on_pha_id"
   add_index "users", ["phone"], :name => "index_users_on_phone"
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"

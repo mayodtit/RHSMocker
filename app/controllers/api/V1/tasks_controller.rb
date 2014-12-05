@@ -22,7 +22,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
       end
     end
 
-    tasks = query.where(role_id: role.id).includes(:member).order(task_order)
+    tasks = query.where(role_id: role.id, visible_in_queue: true).includes(:member).order(task_order)
 
     if params.has_key? :only_today
       eod = Time.now.pacific.end_of_day

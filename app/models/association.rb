@@ -23,12 +23,14 @@ class Association < ActiveRecord::Base
 
   attr_accessor :is_default_hcp
   attr_accessor :invite
+  attr_accessor :actor_id
+
   attr_accessible :user, :user_id, :associate, :associate_id,
                   :creator, :creator_id,
                   :association_type, :association_type_id,
                   :associate_attributes, :is_default_hcp, :replacement,
                   :replacement_id, :original, :state_event, :state, :pair,
-                  :pair_id, :invite, :parent, :parent_id
+                  :pair_id, :invite, :parent, :parent_id, :actor_id
 
   validates :user, :associate, :creator, :permission, presence: true
   validates :associate_id, uniqueness: {scope: [:user_id, :association_type_id]}
@@ -48,6 +50,9 @@ class Association < ActiveRecord::Base
   after_create :dismiss_related_card!
   after_destroy :enable_original_association
   after_destroy :destroy_related_associations
+
+  after_destroy :track_destroy
+  after_create :track_create
 
   # adding and removing the user's default HCP
   after_save :process_default_hcp
@@ -264,4 +269,13 @@ class Association < ActiveRecord::Base
       end
     end
   end
+
+  def track_create
+    UserChange.create! user: user, actor_id: creator_id, action: 'add', data: {associations: [association.id]}.to_s
+  end
+
+  def track_destroy
+    UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {associations: [association.id]}.to_s
+  end
+
 end

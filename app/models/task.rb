@@ -12,6 +12,7 @@ class Task < ActiveRecord::Base
   belongs_to :service_type
   belongs_to :task_template
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
+  has_one :view_task_task
 
   attr_accessor :actor_id, :change_tracked, :reason
   attr_accessible :title, :description, :due_at,
@@ -20,7 +21,8 @@ class Task < ActiveRecord::Base
                   :abandoner, :abandoner_id, :role, :role_id,
                   :state_event, :service_type_id, :service_type,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
-                  :priority, :actor_id, :member_id, :member, :reason, :day_priority
+                  :priority, :actor_id, :member_id, :member, :reason, :visible_in_queue,
+                  :day_priority
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :owner, presence: true, if: lambda { |t| t.owner_id }
@@ -47,6 +49,10 @@ class Task < ActiveRecord::Base
   scope :owned, -> (hcp) { where(['state IN (?, ?, ?, ?) AND owner_id = ?', :unstarted, :started, :claimed, :spam, hcp.id]) }
   scope :needs_triage, -> (hcp) { where(['(owner_id IS NULL AND state NOT IN (?)) OR (state IN (?, ?, ?, ?) AND owner_id = ? AND type IN (?, ?, ?, ?))', :abandoned, :unstarted, :started, :claimed, :spam, hcp.id, PhoneCallTask.name, MessageTask.name, UserRequestTask.name, ParsedNurselineRecordTask.name]) }
   scope :needs_triage_or_owned, -> (hcp) { where(['(state IN (?, ?, ?, ?) AND owner_id = ?) OR (owner_id IS NULL AND state NOT IN (?))', :unstarted, :started, :claimed, :spam, hcp.id, :abandoned]) }
+
+  def self.open_state
+    where(state: %i(unstarted started claimed))
+  end
 
   def open?
     !(%w(completed abandoned).include? state)
@@ -219,6 +225,7 @@ class Task < ActiveRecord::Base
   def data
     changes = previous_changes.except(
       :state,
+      :visible_in_queue,
       :created_at,
       :updated_at,
       :assigned_at,
