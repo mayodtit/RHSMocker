@@ -271,12 +271,10 @@ class Association < ActiveRecord::Base
   end
 
   def track_create
-    self.creator_id
     UserChange.create! user: user, actor_id: creator_id, action: 'add', data: {associations: [association.id]}.to_s
   end
 
   def track_destroy
-    self.actor_id ||= user_id
     UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {associations: [association.id]}.to_s
   end
 
