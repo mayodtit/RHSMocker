@@ -554,6 +554,33 @@ Condition.find_or_create_by_name(name: "Vulvar vestibulitis",
 Condition.find_or_create_by_name(name: "Vulvodynia",
                                  snomed_name: "Vulvodynia (disorder)",
                                  snomed_code: "627921019")
-Condition.find_or_create_by_name(name: "Vulvodynia",
-                                 snomed_name: "Vulvodynia (disorder)",
-                                 snomed_code: "627921019")
+Condition.find_or_create_by_name(name: "Relaxation of pelvic floor",
+                                 snomed_name: "Relaxation of pelvic floor (disorder)",
+                                 snomed_code: "444599008")
+Condition.find_or_create_by_name(name: "Pneumonia",
+                                 snomed_name: "Pneumonia (disorder)",
+                                 snomed_code: "621810017")
+Condition.find_or_create_by_name(name: "Instability of pelvic floor",
+                                 snomed_name: "Instability of pelvic floor (disorder)",
+                                 snomed_code: "444735002")
+Condition.find_or_create_by_name(name: "Anismus",
+                                 snomed_name: "Anismus (disorder)",
+                                 snomed_code: "83605009")
+Condition.find_or_create_by_name(name: "Hypersomnia",
+                                 snomed_name: "Hypersomnia (disorder)",
+                                 snomed_code: "818550018")
+Condition.find_or_create_by_name(name: "Excessive Sleep",
+                                 snomed_name: "Hypersomnia (disorder)",
+                                 snomed_code: "818550018")
+Condition.find_or_create_by_name(name: "Hypersomnia disorder related to menstruation",
+                                 snomed_name: "Hypersomnia disorder related to menstruation (disorder)",
+                                 snomed_code: "2661110013")
+Condition.find_or_create_by_name(name: "Hypersomnia with sleep apnea",
+                                 snomed_name: "Hypersomnia with sleep apnea (disorder)",
+                                 snomed_code: "820312013")
+Condition.find_or_create_by_name(name: "Posttraumatic stress disorder",
+                                 snomed_name: "Posttraumatic stress disorder (disorder)",
+                                 snomed_code: "784971017")
+Condition.find_or_create_by_name(name: "PTSD",
+                                 snomed_name: "Posttraumatic stress disorder (disorder)",
+                                 snomed_code: "784971017")
