@@ -17,6 +17,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
     if @user.update_attributes(user_attributes)
       @customer.subscriptions.create(sa)
       render_success(user: @user.serializer)
+      UserMailer.confirm_subscription_change(@user, @customer)
     else
       render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
     end
