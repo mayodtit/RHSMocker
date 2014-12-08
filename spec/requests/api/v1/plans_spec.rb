@@ -10,7 +10,6 @@ describe 'Plans' do
 
     it 'return plans with text header' do
       do_request
-      byebug
       body = JSON.parse(response.body, symbolize_names: true)
       expect(body[:text_header]).to eq('Please select the plan below:')
     end
