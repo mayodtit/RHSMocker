@@ -26,7 +26,7 @@ describe 'credit cards' do
       UserMailer.should_receive :confirm_credit_card_change
       do_request
     end
-
+    
     it_behaves_like 'success'
   end
 end
