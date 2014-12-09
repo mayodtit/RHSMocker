@@ -103,9 +103,9 @@ class UserMailer < ActionMailer::Base
     mail(to: "engineering@getbetter.com", subject: "#{env}Failed member downgrades")
   end
 
-  def confirm_subscription_change(user, customer)
+  def confirm_subscription_change(user, subscription)
     @user = user
-    @customer = customer
+    @subscription = subscription
     mail(to: @user.email, subject: 'Your subscription has been updated')
   end
 
