@@ -43,6 +43,17 @@ describe 'Enrollments' do
           expect(body[:credit_card_story][:enabled]).to be_false
         end
       end
+
+      context 'referral code is not invalid' do
+        let!(:nux_story) { create(:nux_story, unique_id: 'CREDIT_CARD', enabled: true) }
+
+        it 'returns error message' do
+          do_request(enrollment: {email: new_email, code: 'insider'})
+          response.should_not be_success
+          JSON.parse(response.body)['reason'].should == "invalid referral code"
+          JSON.parse(response.body)['user_message'].should == "invalid referral code"
+        end
+      end
     end
   end
 

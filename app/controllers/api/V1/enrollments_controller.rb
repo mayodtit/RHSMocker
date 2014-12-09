@@ -20,6 +20,10 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   def update
+    if permitted_params.enrollment[:code] && !approved_code?
+      render_failure({reason: 'invalid referral code',
+                      user_message:'invalid referral code'}) and return
+    end
     if @enrollment.update_attributes(permitted_params.enrollment)
       render_success(enrollment: @enrollment.serializer,
                      next_action: next_action,
