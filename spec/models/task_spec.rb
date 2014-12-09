@@ -298,9 +298,26 @@ describe Task do
         task.stub(:owner_id_changed?) { true }
       end
 
-      it 'resets day priority to 0' do
-        task.reset_day_priority
-        task.day_priority.should == 0
+      context 'owner_id existed' do
+        before do
+          task.stub(:owner_id_was) { 1 }
+        end
+
+        it 'resets day priority to 0' do
+          task.reset_day_priority
+          task.day_priority.should == 0
+        end
+      end
+
+      context 'owner_id didn\'t exist' do
+        before do
+          task.stub(:owner_id_was) { nil }
+        end
+
+        it 'resets day priority to 0' do
+          task.reset_day_priority
+          task.day_priority.should == 11
+        end
       end
     end
 

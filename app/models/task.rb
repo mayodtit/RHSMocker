@@ -80,7 +80,7 @@ class Task < ActiveRecord::Base
   end
 
   def reset_day_priority
-    if owner_id_changed?
+    if owner_id_changed? && owner_id_was
       self.day_priority = 0
     end
   end
