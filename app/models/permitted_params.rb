@@ -84,6 +84,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.fetch(:enrollment, {}).permit(:email, :first_name, :last_name, :birth_date, :advertiser_id, :time_zone, :password, :code)
   end
 
+  def insurance_policy
+    params.require(:insurance_policy).permit(*insurance_policy_attributes)
+  end
+
   private
 
   def user_request_attributes
@@ -111,7 +115,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
         attributes << :pha_id
         attributes << :due_date
         attributes << {user_information_attributes: user_information_attributes}
-        attributes << {insurance_policy_attributes: insurance_policy_attributes}
+        attributes << {insurance_policies_attributes: insurance_policy_attributes}
         attributes << {provider_attributes: provider_attributes}
         attributes << {emergency_contact_attributes: emergency_contact_attributes}
       end
