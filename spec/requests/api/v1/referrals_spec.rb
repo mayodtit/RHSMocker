@@ -19,5 +19,10 @@ describe 'ReferralUsers' do
       expect(new_user.onboarding_group).to eq(onboarding_group)
       expect(new_user.invitation_token).to_not be_nil
     end
+
+    it 'should notify referral when referee sign up' do
+      UserMailer.should_receive (:notify_referrer)
+      do_request(user_attributes)
+    end
   end
 end

@@ -15,6 +15,7 @@ class Api::V1::ReferralsController < Api::V1::ABaseController
       end
     end
     render_success
+    UserMailer.notify_referrer(@user, @referral_code)
   end
 
   private
