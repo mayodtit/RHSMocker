@@ -88,7 +88,7 @@ describe Association do
     describe '#remove_user_default_hcp_if_necessary' do
       context 'user does not have a default HCP' do
         it "should not change the user's default HCP" do
-          u = create(:user, default_hcp_association_id: nil)
+          u = create(:member, default_hcp_association_id: nil)
           u.should_not_receive(:remove_default_hcp)
           a = create(:association, user: u)
           a.destroy
@@ -98,7 +98,7 @@ describe Association do
       context 'user has a default HCP' do
         context "association being destroyed matches user's default HCP" do
           it "should remove user's default HCP" do
-            u1 = create(:user)
+            u1 = create(:member)
             a1 = create(:association, user: u1)
             u1.set_default_hcp(a1.id)
             u1.should_receive(:remove_default_hcp)
@@ -108,7 +108,7 @@ describe Association do
 
         context "association being destroyed isn't user's default HCP" do
           it "should not alter user's default HCP" do
-            u2 = create(:user)
+            u2 = create(:member)
             a2 = create(:association, user: u2)
             a3 = create(:association, user: u2)
             u2.set_default_hcp(a2.id)
@@ -121,7 +121,7 @@ describe Association do
 
     describe '#process_default_hcp' do
       context 'user does not have a default HCP' do
-        let(:u) {create(:user, default_hcp_association_id: nil)}
+        let(:u) {create(:member, default_hcp_association_id: nil)}
 
         context 'creating an association' do
           context 'with is_default_hcp set to true' do
@@ -173,7 +173,7 @@ describe Association do
       end
 
       context 'user has a default HCP' do
-        let(:u) {create(:user, default_hcp_association_id: nil)}
+        let(:u) {create(:member, default_hcp_association_id: nil)}
         before { @association = create(:association, user: u, is_default_hcp: true) }
 
         context 'creating an association' do
