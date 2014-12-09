@@ -39,6 +39,7 @@ class Task < ActiveRecord::Base
   before_validation :set_role, on: :create
   before_validation :set_priority, on: :create
   before_validation :set_assigned_at
+  before_validation :reset_day_priority
 
   after_commit :publish
   after_save :notify
@@ -76,6 +77,12 @@ class Task < ActiveRecord::Base
 
   def set_priority
     self.priority = PRIORITY if priority.nil?
+  end
+
+  def reset_day_priority
+    if owner_id_changed?
+      self.day_priority = 0
+    end
   end
 
   def set_assigned_at
