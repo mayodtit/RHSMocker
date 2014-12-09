@@ -45,8 +45,6 @@ describe 'Enrollments' do
       end
 
       context 'referral code is not invalid' do
-        let!(:nux_story) { create(:nux_story, unique_id: 'CREDIT_CARD', enabled: true) }
-
         it 'returns error message' do
           do_request(enrollment: {email: new_email, code: 'insider'})
           response.should_not be_success
