@@ -32,8 +32,12 @@ class Api::V1::MembersController < Api::V1::ABaseController
       @session = @member.sessions.create
       begin
         StripeSubscriptionService.new(@member, 'bp20', user_params[:payment_token], Time.zone.now.pacific.end_of_day + 1.month).create if user_params[:payment_token]
+      rescue Stripe::CardError => e
+        render_failure({reason: e.as_json['code'],
+                        user_message: e.as_json['message']}, 422) and return
       rescue => e
-        logger.error("StripeSubscriptionService error: #{e}")
+        render_failure({reason: e.to_s,
+                        user_message: "There's an error with your credit card, please try another one"}, 422) and return
       end
       SendWelcomeEmailService.new(@member).call
       SendConfirmEmailService.new(@member).call

@@ -5,6 +5,14 @@ class MetricsController < ApplicationController
     render json: {item: enrollment_metrics}, status: :ok
   end
 
+  def pha_raw_utilization
+    render json: {items: PhaMetricsService.new.raw_utilization}, status: :ok
+  end
+
+  def pha_engaged_utilization
+    render json: {items: PhaMetricsService.new.engaged_utilization}, status: :ok
+  end
+
   private
 
   def authenticate_api_user!
