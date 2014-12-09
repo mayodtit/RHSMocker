@@ -231,4 +231,5 @@ RHSMocker::Application.routes.draw do
   end
 
   match '/docs' => Raddocs::App, :anchor => false
+  mount StripeEvent::Engine => '/stripe_webhooks'
 end
