@@ -20,7 +20,6 @@ describe PermittedParams do
     it 'returns only the permitted parameters' do
       expect(permitted_params.user).to have_key(:first_name)
       expect(permitted_params.user).to have_key(:addresses_attributes)
-      expect(permitted_params.user).to_not have_key(:insurance_policies_attributes)
       expect(permitted_params.user).to_not have_key(:junk)
       expect(permitted_params.user).to_not have_key(:user_information_attributes)
       expect(permitted_params.user).to_not have_key(:provider_attributes)
