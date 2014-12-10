@@ -122,6 +122,7 @@ resource "PhoneCalls" do
         phone_call = PhoneCall.find(body[:phone_call][:id])
         phone_call.should be_outbound
         phone_call.user.should == user
+        phone_call.creator.should == pha
         phone_call.destination_phone_number.should == '5553334444'
         expect(body[:phone_call].to_json).to eq(phone_call.serializer.as_json.to_json)
       end

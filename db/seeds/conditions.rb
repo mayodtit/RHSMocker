@@ -908,3 +908,195 @@ Condition.find_or_create_by_name(name: "Brachial plexus disorder",
 Condition.find_or_create_by_name(name: "BPN - Brachial plexus neuropathy",
                                  snomed_name: "Brachial plexus disorder (disorder)",
                                  snomed_code: "767124011")
+Condition.find_or_create_by_name(name: "Scleroderma",
+                                 snomed_name: "Systemic sclerosis (disorder)",
+                                 snomed_code: "831989015")
+Condition.find_or_create_by_name(name: "Systemic sclerosis",
+                                 snomed_name: "Systemic sclerosis (disorder)",
+                                 snomed_code: "831989015")
+Condition.find_or_create_by_name(name: "Hashimoto's disease",
+                                 snomed_name: "Hashimoto thyroiditis (disorder)",
+                                 snomed_code: "751339013")
+Condition.find_or_create_by_name(name: "Autoimmune thyroiditis",
+                                 snomed_name: "Hashimoto thyroiditis (disorder)",
+                                 snomed_code: "751339013")
+Condition.find_or_create_by_name(name: "Bronchitis",
+                                 snomed_name: "Bronchitis (disorder)",
+                                 snomed_code: "763675014")
+Condition.find_or_create_by_name(name: "Sickle cell-thalassemia disease",
+                                 snomed_name: "Sickle cell-thalassemia disease (disorder)",
+                                 snomed_code: "768228015")
+Condition.find_or_create_by_name(name: "Sickle cell-hemoglobin C disease",
+                                 snomed_name: "Sickle cell-hemoglobin C disease (disorder)",
+                                 snomed_code: "767073016")
+Condition.find_or_create_by_name(name: "Sickle cell-hemoglobin D disease",
+                                 snomed_name: "Sickle cell-hemoglobin D disease (disorder)",
+                                 snomed_code: "755793015")
+Condition.find_or_create_by_name(name: "Sickle cell-hemoglobin E disease",
+                                 snomed_name: "Sickle cell-hemoglobin E disease (disorder)",
+                                 snomed_code: "784437017")
+Condition.find_or_create_by_name(name: "Hemophilia",
+                                 snomed_name: "Hemophilia (disorder)",
+                                 snomed_code: "834144018")
+Condition.find_or_create_by_name(name: "von Willebrand disorder",
+                                 snomed_name: "von Willebrand disorder (disorder)",
+                                 snomed_code: "732066010")
+Condition.find_or_create_by_name(name: "Vascular hemophilia",
+                                 snomed_name: "Vascular hemophilia (disorder)",
+                                 snomed_code: "474297019")
+Condition.find_or_create_by_name(name: "Addison's disease",
+                                 snomed_name: "Addison's disease (disorder)",
+                                 snomed_code: "765190014")
+Condition.find_or_create_by_name(name: "Addison's disease due to autoimmunity",
+                                 snomed_name: "Addison's disease due to autoimmunity (disorder)",
+                                 snomed_code: "817466016")
+Condition.find_or_create_by_name(name: "Bacterial vaginosis",
+                                 snomed_name: "Bacterial vaginosis (disorder)",
+                                 snomed_code: "2574383013")
+Condition.find_or_create_by_name(name: "Bacterial vaginosis in pregnancy",
+                                 snomed_name: "Bacterial vaginosis in pregnancy (disorder)",
+                                 snomed_code: "2990720011")
+Condition.find_or_create_by_name(name: "HPV - Anogenital human papilloma virus infection",
+                                 snomed_name: "Anogenital human papilloma virus infection (disorder)",
+                                 snomed_code: "698960014")
+Condition.find_or_create_by_name(name: "Genital wart virus infection",
+                                 snomed_name: "WVI - Genital wart virus infection (disorder)",
+                                 snomed_code: "444716018")
+Condition.find_or_create_by_name(name: "Genital wart virus infection",
+                                 snomed_name: "WVI - Genital wart virus infection (disorder)",
+                                 snomed_code: "444716018")
+Condition.find_or_create_by_name(name: "Hypothalamic amenorrhea",
+                                 snomed_name: "Hypothalamic amenorrhea (disorder)",
+                                 snomed_code: "625806013")
+Condition.find_or_create_by_name(name: "Postpill amenorrhea",
+                                 snomed_name: "Postpill amenorrhea (disorder)",
+                                 snomed_code: "776479017")
+Condition.find_or_create_by_name(name: "Hypergonadotropic amenorrhea",
+                                 snomed_name: "Hypergonadotropic amenorrhea (disorder)",
+                                 snomed_code: "2662615018")
+Condition.find_or_create_by_name(name: "Conjunctivitis",
+                                 snomed_name: "Conjunctivitis (disorder)",
+                                 snomed_code: "843008018")
+Condition.find_or_create_by_name(name: "Cradle cap",
+                                 snomed_name: "Cradle cap (disorder)",
+                                 snomed_code: "801948017")
+Condition.find_or_create_by_name(name: "Croup",
+                                 snomed_name: "Croup (disorder)",
+                                 snomed_code: "811324012")
+Condition.find_or_create_by_name(name: "Laryngitis",
+                                 snomed_name: "Laryngitis (disorder)",
+                                 snomed_code: "783205014")
+Condition.find_or_create_by_name(name: "Ulcerative laryngitis",
+                                 snomed_name: "Ulcerative laryngitis (disorder)",
+                                 snomed_code: "769291014")
+Condition.find_or_create_by_name(name: "Streptococcal laryngitis",
+                                 snomed_name: "Streptococcal laryngitis (disorder)",
+                                 snomed_code: "827062013")
+Condition.find_or_create_by_name(name: "Streptococcal laryngitis",
+                                 snomed_name: "Streptococcal laryngitis (disorder)",
+                                 snomed_code: "827062013")
+Condition.find_or_create_by_name(name: "Scoliosis",
+                                 snomed_name: "Scoliosis deformity of spine (disorder)",
+                                 snomed_code: "2153143014")
+Condition.find_or_create_by_name(name: "Acquired scoliosis",
+                                 snomed_name: "Acquired scoliosis (disorder)",
+                                 snomed_code: "629792015")
+Condition.find_or_create_by_name(name: "Scoliosis due to radiation",
+                                 snomed_name: "Scoliosis due to radiation (disorder)",
+                                 snomed_code: "784985010")
+Condition.find_or_create_by_name(name: "Postural scoliosis",
+                                 snomed_name: "Postural scoliosis (disorder)",
+                                 snomed_code: "588775011")
+Condition.find_or_create_by_name(name: "Tension headache",
+                                 snomed_name: "Tension-type headache (disorder)",
+                                 snomed_code: "1765976015")
+Condition.find_or_create_by_name(name: "Endometriosis",
+                                 snomed_name: "Endometriosis (disorder)",
+                                 snomed_code: "733184018")
+Condition.find_or_create_by_name(name: "Endometriosis of pelvis",
+                                 snomed_name: "Endometriosis of pelvis (disorder)",
+                                 snomed_code: "757161017")
+Condition.find_or_create_by_name(name: "Endometriosis of pleura",
+                                 snomed_name: "Endometriosis of pleura (disorder)",
+                                 snomed_code: "621862015")
+Condition.find_or_create_by_name(name: "Endometriosis of uterus",
+                                 snomed_name: "Endometriosis of uterus (disorder)",
+                                 snomed_code: "817089016")
+Condition.find_or_create_by_name(name: "Endometriosis of ovary",
+                                 snomed_name: "Endometriosis of ovary (disorder)",
+                                 snomed_code: "659105018")
+Condition.find_or_create_by_name(name: "Endometriosis of intestine",
+                                 snomed_name: "Endometriosis of intestine (disorder)",
+                                 snomed_code: "794013014")
+Condition.find_or_create_by_name(name: "Endometriosis of cervix",
+                                 snomed_name: "Endometriosis of cervix (disorder)",
+                                 snomed_code: "800724013")
+Condition.find_or_create_by_name(name: "Uterine prolapse",
+                                 snomed_name: "Uterine prolapse (disorder)",
+                                 snomed_code: "754673014")
+Condition.find_or_create_by_name(name: "Prolapsed uterus",
+                                 snomed_name: "Uterine prolapse (disorder)",
+                                 snomed_code: "754673014")
+Condition.find_or_create_by_name(name: "Congenital prolapsed uterus",
+                                 snomed_name: "Congenital prolapsed uterus (disorder)",
+                                 snomed_code: "754673014")
+Condition.find_or_create_by_name(name: "Syphilis",
+                                 snomed_name: "Syphilis (disorder)",
+                                 snomed_code: "816974019")
+Condition.find_or_create_by_name(name: "Congenital syphilis",
+                                 snomed_name: "Congenital syphilis (disorder)",
+                                 snomed_code: "767415011")
+Condition.find_or_create_by_name(name: "Syphilis in childbirth",
+                                 snomed_name: "Syphilis in mother complicating childbirth (disorder)",
+                                 snomed_code: "3005466010")
+Condition.find_or_create_by_name(name: "Osteoporosis",
+                                 snomed_name: "Osteoporosis (disorder)",
+                                 snomed_code: "804298014")
+Condition.find_or_create_by_name(name: "Mumps",
+                                 snomed_name: "Mumps (disorder)",
+                                 snomed_code: "768803018")
+Condition.find_or_create_by_name(name: "Tonsillitis",
+                                 snomed_name: "Tonsillitis (disorder)",
+                                 snomed_code: "833225013")
+Condition.find_or_create_by_name(name: "Atelectasis",
+                                 snomed_name: "Atelectasis (disorder)",
+                                 snomed_code: "783991017")
+Condition.find_or_create_by_name(name: "Collapse of lung",
+                                 snomed_name: "Atelectasis (disorder)",
+                                 snomed_code: "77708012")
+Condition.find_or_create_by_name(name: "Pulmonary edema",
+                                 snomed_name: "Pulmonary edema (disorder)",
+                                 snomed_code: "747157015")
+Condition.find_or_create_by_name(name: "Chronic pulmonary edema",
+                                 snomed_name: "Chronic pulmonary edema (disorder)",
+                                 snomed_code: "784240019")
+Condition.find_or_create_by_name(name: "Postoperative pulmonary edema",
+                                 snomed_name: "Postoperative pulmonary edema (disorder)",
+                                 snomed_code: "661477019")
+Condition.find_or_create_by_name(name: "High altitude pulmonary edema",
+                                 snomed_name: "High altitude pulmonary edema (disorder)",
+                                 snomed_code: "621927012")
+Condition.find_or_create_by_name(name: "Pneumothorax",
+                                 snomed_name: "Pneumothorax (disorder)",
+                                 snomed_code: "767833011")
+Condition.find_or_create_by_name(name: "Chronic pneumothorax",
+                                 snomed_name: "Chronic pneumothorax (disorder)",
+                                 snomed_code: "798794017")
+Condition.find_or_create_by_name(name: "Perinatal pneumothorax",
+                                 snomed_name: "Perinatal pneumothorax (disorder)",
+                                 snomed_code: "787469019")
+Condition.find_or_create_by_name(name: "Postoperative pulmonary embolus",
+                                 snomed_name: "Postoperative pulmonary embolus (disorder)",
+                                 snomed_code: "578918015")
+Condition.find_or_create_by_name(name: "Obstetric pulmonary embolism",
+                                 snomed_name: "Obstetric pulmonary embolism (disorder)",
+                                 snomed_code: "585008017")
+Condition.find_or_create_by_name(name: "Pulmonary embolism",
+                                 snomed_name: "Pulmonary embolism (disorder)",
+                                 snomed_code: "798107010")
+Condition.find_or_create_by_name(name: "Pulmonary embolism with pulmonary infarction",
+                                 snomed_name: "Pulmonary embolism with pulmonary infarction (disorder)",
+                                 snomed_code: "2967106016")
+
+
+

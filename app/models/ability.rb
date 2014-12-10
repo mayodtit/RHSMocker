@@ -91,19 +91,19 @@ class Ability
       can :create, PhoneCall
 
       can :ru, PhoneCall do |o|
-        o.to_pha?
+        o.to_pha? || o.creator_id == user.id
       end
 
       can :hang_up, PhoneCall do |o|
-        o.to_pha?
+        o.to_pha? || o.creator_id == user.id
       end
 
       can :transfer, PhoneCall do |o|
-        o.to_pha?
+        o.to_pha? || o.creator_id == user.id
       end
 
       can :merge, PhoneCall do |o|
-        o.to_pha?
+        o.to_pha? || o.creator_id == user.id
       end
 
       can :manage, ScheduledPhoneCall
