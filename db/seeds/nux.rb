@@ -475,7 +475,8 @@ NuxStory.upsert_attributes({unique_id: 'CREDIT_CARD'},
                             enable_webview_scrolling: false,
                             text_header: 'Enter your credit card information to get your free month.',
                             text_footer: nil,
-                            enabled: true})
+                            enabled: true,
+                            secondary_action_button_text: 'Skip this step'})
 NuxStory.upsert_attributes({unique_id: 'SIGN_UP_SUCCESS'},
                            {html: TRIAL_HTML,
                             action_button_text: 'Get a month free',

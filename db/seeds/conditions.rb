@@ -584,3 +584,327 @@ Condition.find_or_create_by_name(name: "Posttraumatic stress disorder",
 Condition.find_or_create_by_name(name: "PTSD",
                                  snomed_name: "Posttraumatic stress disorder (disorder)",
                                  snomed_code: "784971017")
+Condition.find_or_create_by_name(name: "Bronchiectasis",
+                                 snomed_name: "Bronchiectasis (disorder)",
+                                 snomed_code: "724377016")
+Condition.find_or_create_by_name(name: "Osteopenia",
+                                 snomed_name: "Osteopenia (disorder)",
+                                 snomed_code: "709616015")
+Condition.find_or_create_by_name(name: "Asperger's syndrome",
+                                 snomed_name: "Asperger's syndrome (disorder)",
+                                 snomed_code: "753094015")
+Condition.find_or_create_by_name(name: "Factor V Leiden mutation",
+                                 snomed_name: "Factor V Leiden mutation (disorder)",
+                                 snomed_code: "703570019")
+Condition.find_or_create_by_name(name: "Chronic pelvic inflammatory disease",
+                                 snomed_name: "Chronic pelvic inflammatory disease (disorder)",
+                                 snomed_code: "625718010")
+Condition.find_or_create_by_name(name: "Female pelvic inflammatory disease",
+                                 snomed_name: "Female pelvic inflammatory disease (disorder)",
+                                 snomed_code: "582596014")
+Condition.find_or_create_by_name(name: "Acute pelvic inflammatory disease",
+                                 snomed_name: "Acute pelvic inflammatory disease (disorder)",
+                                 snomed_code: "625710015")
+Condition.find_or_create_by_name(name: "Acute PID",
+                                 snomed_name: "Acute pelvic inflammatory disease (disorder)",
+                                 snomed_code: "625710015")
+Condition.find_or_create_by_name(name: "Umbilical hernia",
+                                 snomed_name: "Umbilical hernia (disorder)",
+                                 snomed_code: "1764264016")
+Condition.find_or_create_by_name(name: "Exomphalos",
+                                 snomed_name: "Umbilical hernia (disorder)",
+                                 snomed_code: "1764264016")
+Condition.find_or_create_by_name(name: "Exumbilication",
+                                 snomed_name: "Umbilical hernia (disorder)",
+                                 snomed_code: "1764264016")
+Condition.find_or_create_by_name(name: "Angina",
+                                 snomed_name: "Angina( disorder)",
+                                 snomed_code: "578858017")
+Condition.find_or_create_by_name(name: "Cardiac Angina",
+                                 snomed_name: "Angina( disorder)",
+                                 snomed_code: "578858017")
+Condition.find_or_create_by_name(name: "Angina, class I",
+                                 snomed_name: "Angina, class I (disorder)",
+                                 snomed_code: "800557013")
+Condition.find_or_create_by_name(name: "Angina, class II",
+                                 snomed_name: "Angina, class II (disorder)",
+                                 snomed_code: "778111012")
+Condition.find_or_create_by_name(name: "Angina, class III",
+                                 snomed_name: "Angina, class III (disorder)",
+                                 snomed_code: "827305018")
+Condition.find_or_create_by_name(name: "Angina, class IV",
+                                 snomed_name: "Angina, class IV (disorder)",
+                                 snomed_code: "832193012")
+Condition.find_or_create_by_name(name: "Prinzmetal angina",
+                                 snomed_name: "Prinzmetal angina  (disorder)",
+                                 snomed_code: "829797011")
+Condition.find_or_create_by_name(name: "Exercise-induced angina",
+                                 snomed_name: "Exercise-induced angina (disorder)",
+                                 snomed_code: "696738010")
+Condition.find_or_create_by_name(name: "Nocturnal angina",
+                                 snomed_name: "Nocturnal angina (disorder)",
+                                 snomed_code: "767622011")
+Condition.find_or_create_by_name(name: "Streptococcal sore throat",
+                                 snomed_name: "Streptococcal sore throat (disorder)",
+                                 snomed_code: "780941017")
+Condition.find_or_create_by_name(name: "Strept throat",
+                                 snomed_name: "Streptococcal sore throat (disorder)",
+                                 snomed_code: "780941017")
+Condition.find_or_create_by_name(name: "Refractory angina",
+                                 snomed_name: "Refractory angina (disorder)",
+                                 snomed_code: "711874018")
+Condition.find_or_create_by_name(name: "Congenital hip dysplasia",
+                                 snomed_name: "Congenital hip dysplasia (disorder)",
+                                 snomed_code: "790828019")
+Condition.find_or_create_by_name(name: "Namaqualand hip dysplasia",
+                                 snomed_name: "Namaqualand hip dysplasia (disorder)",
+                                 snomed_code: "644904012")
+Condition.find_or_create_by_name(name: "Syringomyelia",
+                                 snomed_name: "Syringomyelia (disorder)",
+                                 snomed_code: "632156016")
+Condition.find_or_create_by_name(name: "Morvan's disease",
+                                 snomed_name: "Syringomyelia (disorder)",
+                                 snomed_code: "632156016")
+Condition.find_or_create_by_name(name: "Hydrosyringomyelia",
+                                 snomed_name: "Syringomyelia (disorder)",
+                                 snomed_code: "632156016")
+Condition.find_or_create_by_name(name: "Congenital syringomyelia",
+                                 snomed_name: "Congenital syringomyelia (disorder)",
+                                 snomed_code: "1196372017")
+Condition.find_or_create_by_name(name: "Ménière's disease",
+                                 snomed_name: "Ménière's disease (disorder)",
+                                 snomed_code: "738768011")
+Condition.find_or_create_by_name(name: "Meniere disease",
+                                 snomed_name: "Ménière's disease (disorder)",
+                                 snomed_code: "738768011")
+Condition.find_or_create_by_name(name: "Auditory vertigo",
+                                 snomed_name: "Ménière's disease (disorder)",
+                                 snomed_code: "738768011")
+Condition.find_or_create_by_name(name: "Aural vertigo",
+                                 snomed_name: "Ménière's disease (disorder)",
+                                 snomed_code: "738768011")
+Condition.find_or_create_by_name(name: "Schizoaffective disorder",
+                                 snomed_name: "Schizoaffective disorder (disorder)",
+                                 snomed_code: "808775012")
+Condition.find_or_create_by_name(name: "Schizoaffective schizophrenia",
+                                 snomed_name: "Schizoaffective schizophrenia (disorder)",
+                                 snomed_code: "575275016")
+Condition.find_or_create_by_name(name: "Neuralgia",
+                                 snomed_name: "Neuralgia (disorder)",
+                                 snomed_code: "743260015")
+Condition.find_or_create_by_name(name: "Paroxysmal nerve pain",
+                                 snomed_name: "Neuralgia (disorder)",
+                                 snomed_code: "743260015")
+Condition.find_or_create_by_name(name: "Sciatica",
+                                 snomed_name: "Sciatica (disorder)",
+                                 snomed_code: "752533013")
+Condition.find_or_create_by_name(name: "Morton's metatarsalgia",
+                                 snomed_name: "Morton's metatarsalgia (disorder)",
+                                 snomed_code: "761050015")
+Condition.find_or_create_by_name(name: "Morton's disease",
+                                 snomed_name: "Morton's metatarsalgia (disorder)",
+                                 snomed_code: "761050015")
+Condition.find_or_create_by_name(name: "Neuritis",
+                                 snomed_name: "Neuritis (disorder)",
+                                 snomed_code: "826112014")
+Condition.find_or_create_by_name(name: "Optic neuritis",
+                                 snomed_name: "Optic neuritis (disorder)",
+                                 snomed_code: "806408018")
+Condition.find_or_create_by_name(name: "Peripheral motor neuropathy",
+                                 snomed_name: "Peripheral motor neuropathy  (disorder)",
+                                 snomed_code: "839864011")
+Condition.find_or_create_by_name(name: "Peripheral neuritis in pregnancy",
+                                 snomed_name: "Peripheral neuritis in pregnancy (disorder)",
+                                 snomed_code: "745130016")
+Condition.find_or_create_by_name(name: "Cervical spinal stenosis",
+                                 snomed_name: "Spinal stenosis in cervical region (disorder)",
+                                 snomed_code: "825221010")
+Condition.find_or_create_by_name(name: "Spinal stenosis in cervical region",
+                                 snomed_name: "Spinal stenosis in cervical region (disorder)",
+                                 snomed_code: "825221010")
+Condition.find_or_create_by_name(name: "Degenerative cervical spinal stenosis",
+                                 snomed_name: "Degenerative cervical spinal stenosis (disorder)",
+                                 snomed_code: "587783019")
+Condition.find_or_create_by_name(name: "Spinal stenosis, excluding cervical region",
+                                 snomed_name: "Spinal stenosis, excluding cervical region (disorder)",
+                                 snomed_code: "660663019")
+Condition.find_or_create_by_name(name: "Spinal cord compression",
+                                 snomed_name: "Spinal cord compression (disorder)",
+                                 snomed_code: "811435018")
+Condition.find_or_create_by_name(name: "Spinal cord disorder",
+                                 snomed_name: "Spinal cord disorder (disorder)",
+                                 snomed_code: "1203376012")
+Condition.find_or_create_by_name(name: "Myelopathy",
+                                 snomed_name: "Spinal cord disorder (disorder)",
+                                 snomed_code: "1203376012")
+Condition.find_or_create_by_name(name: "Spinal cord injury",
+                                 snomed_name: "Spinal cord injury (disorder)",
+                                 snomed_code: "833719010")
+Condition.find_or_create_by_name(name: "Laceration of spinal cord",
+                                 snomed_name: "Laceration of spinal cord (disorder)",
+                                 snomed_code: "654733010")
+Condition.find_or_create_by_name(name: "Contusion of spinal cord",
+                                 snomed_name: "Contusion of spinal cord (disorder)",
+                                 snomed_code: "654722012")
+Condition.find_or_create_by_name(name: "ITP - Idiopathic thrombocytopenic purpura",
+                                 snomed_name: "ITP - Idiopathic thrombocytopenic purpura (disorder)",
+                                 snomed_code: "763537018")
+Condition.find_or_create_by_name(name: "Migraine without aura",
+                                 snomed_name: "Migraine without aura (disorder)",
+                                 snomed_code: "794571014")
+Condition.find_or_create_by_name(name: "Migraine with aura",
+                                 snomed_name: "Migraine with aura (disorder)",
+                                 snomed_code: "781892015")
+Condition.find_or_create_by_name(name: "Menstrual migraine",
+                                 snomed_name: "Menstrual migraine (disorder)",
+                                 snomed_code: "752677014")
+Condition.find_or_create_by_name(name: "Delusional disorder",
+                                 snomed_name: "Delusional disorder (disorder)",
+                                 snomed_code: "786074014")
+Condition.find_or_create_by_name(name: "Paranoia disorder",
+                                 snomed_name: "Delusional disorder (disorder)",
+                                 snomed_code: "786074014")
+Condition.find_or_create_by_name(name: "Drug-induced paranoia",
+                                 snomed_name: "Drug induced paranoia (disorder)",
+                                 snomed_code: "575189019")
+Condition.find_or_create_by_name(name: "Arteriosclerotic dementia with paranoia",
+                                 snomed_name: "Arteriosclerotic dementia with paranoia (disorder)",
+                                 snomed_code: "575167018")
+Condition.find_or_create_by_name(name: "Presenile dementia with paranoia",
+                                 snomed_name: "Presenile dementia with paranoia (disorder)",
+                                 snomed_code: "575154016")
+Condition.find_or_create_by_name(name: "Senile dementia with paranoia",
+                                 snomed_name: "Senile dementia with paranoia (disorder)",
+                                 snomed_code: "575159014")
+Condition.find_or_create_by_name(name: "Congestive heart failure",
+                                 snomed_name: "Congestive heart failure (disorder)",
+                                 snomed_code: "779232016")
+Condition.find_or_create_by_name(name: "CHF",
+                                 snomed_name: "Congestive heart failure (disorder)",
+                                 snomed_code: "779232016")
+Condition.find_or_create_by_name(name: "CCF - Congestive cardiac failure",
+                                 snomed_name: "Congestive heart failure (disorder)",
+                                 snomed_code: "779232016")
+Condition.find_or_create_by_name(name: "Congestive rheumatic heart failure ",
+                                 snomed_name: "Congestive rheumatic heart failure (disorder)",
+                                 snomed_code: "823964010")
+Condition.find_or_create_by_name(name: "Chronic congestive heart failure",
+                                 snomed_name: "Chronic congestive heart failure (disorder)",
+                                 snomed_code: "831566016")
+Condition.find_or_create_by_name(name: "Congestive heart failure with right heart failure",
+                                 snomed_name: "Congestive heart failure with right heart failure (disorder)",
+                                 snomed_code: "186651000119113")
+Condition.find_or_create_by_name(name: "Pulmonary fibrosis",
+                                 snomed_name: "Fibrosis of lung (disorder)",
+                                 snomed_code: "789534012")
+Condition.find_or_create_by_name(name: "Fibrosis of lung",
+                                 snomed_name: "Fibrosis of lung (disorder)",
+                                 snomed_code: "789534012")
+Condition.find_or_create_by_name(name: "Localized pulmonary fibrosis",
+                                 snomed_name: "Localized pulmonary fibrosis (disorder)",
+                                 snomed_code: "621949018")
+Condition.find_or_create_by_name(name: "Idiopathic pulmonary fibrosis",
+                                 snomed_name: "Idiopathic pulmonary fibrosis (disorder)",
+                                 snomed_code: "2989759012")
+Condition.find_or_create_by_name(name: "Familial idiopathic pulmonary fibrosis",
+                                 snomed_name: "Familial idiopathic pulmonary fibrosis (disorder)",
+                                 snomed_code: "2662335014")
+Condition.find_or_create_by_name(name: "Fibrosis of lung following radiation",
+                                 snomed_name: "Fibrosis of lung following radiation (disorder)",
+                                 snomed_code: "811332016")
+Condition.find_or_create_by_name(name: "Chiari's network",
+                                 snomed_name: "Chiari's network  (disorder)",
+                                 snomed_code: "756193016")
+Condition.find_or_create_by_name(name: "Chiari malformation",
+                                 snomed_name: "Chiari malformation (disorder)",
+                                 snomed_code: "643913015")
+Condition.find_or_create_by_name(name: "Arnold-Chiari syndrome",
+                                 snomed_name: "Chiari malformation (disorder)",
+                                 snomed_code: "643913015")
+Condition.find_or_create_by_name(name: "Pregnancy-related A-G syndrome",
+                                 snomed_name: "Pregnancy-related A-G syndrome (disorder)",
+                                 snomed_code: "827008014")
+Condition.find_or_create_by_name(name: "Chiari-Frommel syndrome",
+                                 snomed_name: "Chiari-Frommel syndrome (disorder)",
+                                 snomed_code: "827008014")
+Condition.find_or_create_by_name(name: "Frommel's disease",
+                                 snomed_name: "Chiari-Frommel syndrome (disorder)",
+                                 snomed_code: "827008014")
+Condition.find_or_create_by_name(name: "Chiari malformation type I",
+                                 snomed_name: "Chiari malformation type I (disorder)",
+                                 snomed_code: "643914014")
+Condition.find_or_create_by_name(name: "Chiari malformation type II",
+                                 snomed_name: "Chiari malformation type II (disorder)",
+                                 snomed_code: "1198887014")
+Condition.find_or_create_by_name(name: "Chiari malformation type III",
+                                 snomed_name: "Chiari malformation type III (disorder)",
+                                 snomed_code: "643915010")
+Condition.find_or_create_by_name(name: "Chiari malformation type IV",
+                                 snomed_name: "Chiari malformation type IV (disorder)",
+                                 snomed_code: "643916011")
+Condition.find_or_create_by_name(name: "Cervical spondylosis",
+                                 snomed_name: "Cervical spondylosis (disorder)",
+                                 snomed_code: "1461978019")
+Condition.find_or_create_by_name(name: "Cervical spondylosis with myelopathy",
+                                 snomed_name: "Cervical spondylosis with myelopathy (disorder)",
+                                 snomed_code: "804743015")
+Condition.find_or_create_by_name(name: "Cervical spondylosis with radiculopathy",
+                                 snomed_name: "Cervical spondylosis with radiculopathy (disorder)",
+                                 snomed_code: "587695014")
+Condition.find_or_create_by_name(name: "Cervical spondylosis without myelopathy",
+                                 snomed_name: "Cervical spondylosis without myelopathy (disorder)",
+                                 snomed_code: "660652017")
+Condition.find_or_create_by_name(name: "Uterine fibroids",
+                                 snomed_name: "Uterine leiomyoma (disorder)",
+                                 snomed_code: "839443017")
+Condition.find_or_create_by_name(name: "Uterine leiomyoma",
+                                 snomed_name: "Uterine leiomyoma (disorder)",
+                                 snomed_code: "839443017")
+Condition.find_or_create_by_name(name: "Uterine fibroids affecting pregnancy",
+                                 snomed_name: "Uterine fibroids affecting pregnancy (disorder)",
+                                 snomed_code: "767419017")
+Condition.find_or_create_by_name(name: "Euthyroid hypothyroxinemia",
+                                 snomed_name: "Euthyroid hypothyroxinemia (disorder)",
+                                 snomed_code: "626296015")
+Condition.find_or_create_by_name(name: "Euthyroid hyperthyroxinamia",
+                                 snomed_name: "Euthyroid hyperthyroxinamia (disorder)",
+                                 snomed_code: "626297012")
+Condition.find_or_create_by_name(name: "Pulmonary emphysema",
+                                 snomed_name: "Pulmonary emphysema  (disorder)",
+                                 snomed_code: "829906018")
+Condition.find_or_create_by_name(name: "Centriacinar emphysema",
+                                 snomed_name: "Centriacinar emphysema (disorder)",
+                                 snomed_code: "808151015")
+Condition.find_or_create_by_name(name: "Panacinar emphysema",
+                                 snomed_name: "Panacinar emphysema (disorder)",
+                                 snomed_code: "787529017")
+Condition.find_or_create_by_name(name: "Paraseptal emphysema",
+                                 snomed_name: "Paraseptal emphysema (disorder)",
+                                 snomed_code: "763118016")
+Condition.find_or_create_by_name(name: "CAD - Coronary artery disease",
+                                 snomed_name: "Coronary arteriosclerosis (disorder)",
+                                 snomed_code: "791895015")
+Condition.find_or_create_by_name(name: "Syphilitic coronary artery disease",
+                                 snomed_name: "Syphilitic coronary artery disease (disorder)",
+                                 snomed_code: "629729016")
+Condition.find_or_create_by_name(name: "Obliterative coronary artery disease",
+                                 snomed_name: "Obliterative coronary artery disease (disorder)",
+                                 snomed_code: "2574630011")
+Condition.find_or_create_by_name(name: "Dysphagia",
+                                 snomed_name: "Dysphagia (disorder)",
+                                 snomed_code: "777439017")
+Condition.find_or_create_by_name(name: "Difficulty in swallowing",
+                                 snomed_name: "Dysphagia (disorder)",
+                                 snomed_code: "777439017")
+Condition.find_or_create_by_name(name: "Plummer-Vinson syndrome",
+                                 snomed_name: "Plummer-Vinson syndrome (disorder)",
+                                 snomed_code: "821252016")
+Condition.find_or_create_by_name(name: "APL - Antiphospholipid syndrome",
+                                 snomed_name: "Antiphospholipid syndrome (disorder)",
+                                 snomed_code: "757342014")
+Condition.find_or_create_by_name(name: "Brachial plexus disorder",
+                                 snomed_name: "Brachial plexus disorder (disorder)",
+                                 snomed_code: "767124011")
+Condition.find_or_create_by_name(name: "BPN - Brachial plexus neuropathy",
+                                 snomed_name: "Brachial plexus disorder (disorder)",
+                                 snomed_code: "767124011")
