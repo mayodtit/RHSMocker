@@ -10,8 +10,7 @@ describe PermittedParams do
                           password: 'password',
                           user_information_attributes: {id: 1},
                           addresses_attributes: {id: 2},
-                          insurance_policies_attributes: {id: 3},
-                          provider_attributes: {id: 4}
+                          provider_attributes: {id: 3}
                         }
                       }
     let(:params) { ActionController::Parameters.new(user: params_hash) }
