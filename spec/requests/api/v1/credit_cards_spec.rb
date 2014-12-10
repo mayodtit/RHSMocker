@@ -23,8 +23,7 @@ describe 'credit cards' do
     end
 
     it 'send confirmation email to user when changes the credit card' do
-      UserMailer.should_receive :confirm_credit_card_change
-      do_request
+      expect{ do_request }.to change(Delayed::Job, :count).by(1)
     end
     
     it_behaves_like 'success'
