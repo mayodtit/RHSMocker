@@ -31,8 +31,7 @@ describe 'subscriptions' do
     end
 
     it 'send confirmation email to user when changes the subscription' do
-      UserMailer.should_receive(:confirm_subscription_change).and_call_original
-      do_request
+      expect{ do_request }.to change(Delayed::Job, :count).by(1)
     end
 
     it_behaves_like 'success'
