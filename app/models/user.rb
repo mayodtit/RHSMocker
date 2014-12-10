@@ -44,7 +44,6 @@ class User < ActiveRecord::Base
 
   accepts_nested_attributes_for :user_information
   accepts_nested_attributes_for :addresses
-  accepts_nested_attributes_for :insurance_policies
   accepts_nested_attributes_for :provider
   accepts_nested_attributes_for :emergency_contact
 
