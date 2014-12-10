@@ -5,5 +5,4 @@ class InsurancePolicy < ActiveRecord::Base
                   :policy_member_id, :notes
 
   validates :user, presence: true
-  validates :user_id, uniqueness: true
 end
