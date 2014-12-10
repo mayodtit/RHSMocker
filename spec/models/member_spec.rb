@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'stripe_mock'
 
 describe Member do
   let(:member) { build_stubbed :member }
@@ -244,6 +245,37 @@ describe Member do
           member.downgrade!
           member_task.reload.reason_abandoned.should == "member_downgraded_canceled"
           member_task.state.should == "abandoned"
+        end
+      end
+    end
+
+    describe 'cancel subscriptions at end of billing period when user transit from premium to any other states' do
+      context 'when user signed up as premium, and being downgraded' do
+        let!(:member){ create(:member, :premium)}
+
+        before do
+          StripeMock.start
+        end
+
+        after do
+          StripeMock.stop
+        end
+
+        it 'should set at_period_end of subscription to true' do
+          customer = Stripe::Customer.create(email: member.email,
+                                             description: StripeExtension.customer_description(member.id),
+                                             card: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+          Stripe::Plan.create(amount: 1999,
+                              interval: :month,
+                              name: 'Single Membership',
+                              currency: :usd,
+                              id: 'bp20',
+                              current_period_start: '1418082585',
+                              current_period_end: '1420790399')
+          member.update_attribute(:stripe_customer_id, customer.id)
+          StripeSubscriptionService.new(member, 'bp20').create
+          member.downgrade!
+          (Stripe::Customer.retrieve(member.stripe_customer_id).subscriptions.data[0].cancel_at_period_end).should be_true
         end
       end
     end

@@ -386,6 +386,11 @@ class Member < User
         task.abandon!
       end
     end
+
+    after_transition :premium => any - %i(premium, chamath) do |member, transition|
+      customer = Stripe::Customer.retrieve(member.stripe_customer_id) if member.stripe_customer_id
+      customer.subscriptions.data[0].delete(at_period_end: true) if (customer && customer.subscriptions.data[0])
+    end
   end
 
   def set_signed_up_at
