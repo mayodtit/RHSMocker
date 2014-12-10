@@ -14,13 +14,12 @@ class ServiceTemplate < ActiveRecord::Base
       due_at: Time.now + time_estimate.to_i.minutes,
       service_template: self,
       member: attributes[:member],
-      subject: attributes[:subject],
+      subject: attributes[:subject] || attributes[:member],
       creator: attributes[:creator],
       owner: attributes[:owner],
       assignor: attributes[:assignor] || attributes[:creator],
       actor_id: attributes[:creator] && attributes[:creator].id
     )
-
     start_at = Time.now
     task_templates.order('service_ordinal DESC, created_at DESC').each do |task_template|
       task = task_template.create_task!(service: service, start_at: start_at, assignor: attributes[:assignor])

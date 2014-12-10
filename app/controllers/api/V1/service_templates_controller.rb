@@ -1,30 +1,26 @@
 class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   before_filter :load_user!
-  before_filter :load_service_template!
-  before_filter :load_service_templates!
-
-
-  def show
-    show_resource @service_template.serializer
-  end
+  before_filter :load_service_template!, only: :show
+  before_filter :load_service_templates!, only: :index
 
   def index
-    show_resource @service_templates.serializer
+    authorize! :read, ServiceTemplate
+    index_resource @service_templates.serializer
   end
 
-  def generate
-    @service_template.create_service! params
+  def show
+    authorize! :read, @service_template
+    show_resource @service_template.serializer
   end
 
   private
 
   def load_service_template!
-    @service_template = @service_templates.find params[:id]
-    authorize! :manage, @service_template
+    @service_template = ServiceTemplate.find params[:id]
   end
 
   def load_service_templates!
-    @service_templates = ServiceTemplate.all
-    authorize! :manage, ServiceTemplate
+    search_params = params.permit(:service_type_id)
+    @service_templates = ServiceTemplate.where(search_params)
   end
 end

@@ -112,6 +112,8 @@ class Ability
       can :manage, ScheduledMessage
       can :manage, ScheduledCommunication
       can :manage, MessageTemplate
+      can :manage, ServiceTemplate
+      can :manage, TaskTemplate
     end
 
     if user.pha_lead?
