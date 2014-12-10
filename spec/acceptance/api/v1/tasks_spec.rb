@@ -93,7 +93,6 @@ resource "Tasks" do
     get '/api/v1/tasks/current' do
       example_request '[GET] Get the current claimed task of the pha.' do
         explanation 'Get the current claimed task of the pha. Accessible only by HCPs'
-        byebug
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
         response[:task].to_json.should == claimed_task.serializer.to_json
