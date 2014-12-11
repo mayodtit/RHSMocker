@@ -3,8 +3,9 @@ class Api::V1::PlansController < Api::V1::ABaseController
 
   def index
     render_success(plan: @plans,
-                   text_header: 'Please select the plan below:')
+                   text_header: text_header)
   end
+
   private
 
   def load_plans!
@@ -14,5 +15,9 @@ class Api::V1::PlansController < Api::V1::ABaseController
       end
       array
     end
+  end
+
+  def text_header
+    'Choose Family Membership for access to your PHA and benefits for everyone you care about. Or keep Single Membership just for you. Prepay for either yearly membership and get a discount.'
   end
 end
