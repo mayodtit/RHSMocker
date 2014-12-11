@@ -16,7 +16,7 @@ class OnboardingGroup < ActiveRecord::Base
                   :absolute_free_trial_ends_at, :provider, :provider_id,
                   :mayo_pilot, :npi_number, :provider_attributes,
                   :pha, :pha_id, :trial_nux_story,
-                  :trial_nux_story_id
+                  :trial_nux_story_id, :stripe_coupon_code
 
   validates :name, presence: true
   validates :provider, presence: true, if: ->(o){o.provider_id}
