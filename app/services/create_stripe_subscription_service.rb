@@ -1,12 +1,13 @@
-class StripeSubscriptionService
-  def initialize(user, plan_id, credit_card_token=nil, trial_end=nil)
-    @user = user
-    @plan_id = plan_id
-    @credit_card_token = credit_card_token
-    @trial_end = trial_end
+class CreateStripeSubscriptionService
+  def initialize(options)
+    @user = options[:user]
+    @plan_id = options[:plan_id]
+    @credit_card_token = options[:credit_card_token]
+    @trial_end = options[:trial_end]
+    @coupon_code = options[:coupon_code]
   end
 
-  def create
+  def call
     if @credit_card_token && @user.stripe_customer_id.nil?
       create_stripe_customer!
     elsif @credit_card_token
@@ -40,6 +41,7 @@ class StripeSubscriptionService
 
   def create_stripe_subscription!
     @customer.subscriptions.create(plan: @plan_id,
-                                   trial_end: @trial_end.try(:to_i))
+                                   trial_end: @trial_end.try(:to_i),
+                                   coupon: @coupon_code)
   end
 end
