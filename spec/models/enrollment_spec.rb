@@ -11,6 +11,8 @@ describe Enrollment do
   end
 
   it_validates 'foreign key of', :user
+  it_validates 'foreign key of', :onboarding_group
+  it_validates 'foreign key of', :referral_code
   it_validates 'uniqueness of', :token
   it_validates 'allows blank uniqueness of', :email
 

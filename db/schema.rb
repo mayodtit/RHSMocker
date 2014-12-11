@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141210010952) do
+ActiveRecord::Schema.define(:version => 20141211074729) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -292,6 +292,8 @@ ActiveRecord::Schema.define(:version => 20141210010952) do
     t.string   "advertiser_media_source"
     t.string   "advertiser_campaign"
     t.string   "code"
+    t.integer  "referral_code_id"
+    t.integer  "onboarding_group_id"
   end
 
   add_index "enrollments", ["token"], :name => "index_enrollments_on_token"
@@ -518,6 +520,8 @@ ActiveRecord::Schema.define(:version => 20141210010952) do
     t.integer  "provider_id"
     t.boolean  "mayo_pilot"
     t.integer  "pha_id"
+    t.integer  "trial_nux_story_id"
+    t.string   "stripe_coupon_code"
   end
 
   create_table "parsed_nurseline_records", :force => true do |t|
