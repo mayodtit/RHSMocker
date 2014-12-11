@@ -526,7 +526,7 @@ TWIST_TRIAL_HTML = <<-eof
           Get your own Personal Health Assistant to organize your health information, create a personalized plan based on your needs, and work with you to achieve your health goals.
         </p>
         <p>
-          Thanks to Jason Calacanis and TWIST, you’ll be provided with a free month of Better and 50% off your first paid month. That’s six weeks the health care you deserve, thanks to @jason.
+          Thanks to Jason Calacanis and TWIST, you’ll be provided with a free month of Better and 50% off your first paid month. That’s six weeks of the health care you deserve, thanks to @jason.
         </p>
       </div>
     </div>
