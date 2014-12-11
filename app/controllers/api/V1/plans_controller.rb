@@ -2,9 +2,9 @@ class Api::V1::PlansController < Api::V1::ABaseController
   before_filter :load_plans!
 
   def index
-    index_resource(@plans)
+    render_success(plan: @plans,
+                   text_header: 'Please select the plan below:')
   end
-
   private
 
   def load_plans!
