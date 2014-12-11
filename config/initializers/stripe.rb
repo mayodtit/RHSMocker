@@ -5,3 +5,5 @@ module Stripe
     RestClient::Request.execute(opts.merge(ssl_version: :TLSv1))
   end
 end
+
+ONE_TIME_FIFTY_PERCENT_OFF_COUPON_CODE = 'OneTimeFiftyPercentOffCoupon'

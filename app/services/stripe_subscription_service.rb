@@ -25,6 +25,10 @@ class StripeSubscriptionService
                                         email: @user.email,
                                         description: StripeExtension.customer_description(@user.id))
     @user.update_attribute(:stripe_customer_id, @customer.id)
+    if @user.referral_code
+      @customer.coupon = ONE_TIME_FIFTY_PERCENT_OFF_COUPON_CODE
+    end
+    @customer.save
   end
 
   def create_stripe_credit_card!
