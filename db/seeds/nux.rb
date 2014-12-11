@@ -454,7 +454,7 @@ TRIAL_HTML = <<-eof
           Get your own Personal Health Assistant to organize your health information, create a personalized plan based on your needs, and work with you to achieve your health goals.
         </p>
         <p>
-          At the end of your free month, your card will be charged $19.99/month. If you cancel your subscription before the trial is over, you will not be charged.
+          At the end of your free month, your card will be charged $19.99/month. You can cancel anytime during your free month and you will not be charged.
         </p>
       </div>
     </div>
