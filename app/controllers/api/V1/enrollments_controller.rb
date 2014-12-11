@@ -76,9 +76,13 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   def trial_story
-    NuxStory.trial.tap do |trial|
+    onboarding_group_or_default_trial_story.tap do |trial|
       trial.enabled = false if (trial && approved_code?)
     end.try(:serializer)
+  end
+
+  def onboarding_group_or_default_trial_story
+    @onboarding_group.try(:trial_nux_story) || NuxStory.trial
   end
 
   def credit_card_story
