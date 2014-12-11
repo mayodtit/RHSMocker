@@ -41,7 +41,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   def load_referral_code
-    @referral_code = ReferralCode.find_by_code(params.require(:enrollment)[:code]) if params.require(:enrollment)[:code]
+    @referral_code = ReferralCode.find_by_code(params[:enrollment][:code]) if params[:enrollment].try(:[], :code)
   end
 
   def load_onboarding_group
