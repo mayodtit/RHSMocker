@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'stripe_mock'
 
 describe Member do
   let(:member) { build_stubbed :member }
@@ -249,6 +250,29 @@ describe Member do
           member_task.reload.reason_abandoned.should == "member_downgraded_canceled"
           member_task.state.should == "abandoned"
         end
+      end
+    end
+
+    describe 'Downgrading premium members end stripe subscription' do
+      let!(:member) { create(:member, :premium) }
+      let(:service) { double('DestroyStripeSubscriptionService') }
+
+      before do
+        StripeMock.start
+        customer = Stripe::Customer.create(email: member.email,
+                                           description: StripeExtension.customer_description(member.id),
+                                           card: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+        member.update_attribute(:stripe_customer_id, customer.id)
+        DestroyStripeSubscriptionService.stub(:new).with(member) { service }
+      end
+
+      after do
+        StripeMock.stop
+      end
+
+      it 'create an instance of the DestroyStripeSubscriptionService class, and call #call on it' do
+        service.should_receive(:call)
+        member.downgrade!
       end
     end
   end
