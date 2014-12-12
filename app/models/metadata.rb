@@ -26,17 +26,17 @@ class Metadata < ActiveRecord::Base
           description: "Share your promo code #{user.owned_referral_code.code} with your friends, and they’ll get two weeks of free Better Premium. Once they’ve become a paid Premium member, you’ll both get a month of Premium for free.",
           services: {
             facebook: {
-              text: 'Simplify your health with Better. Sign up and you’ll get up to 6 weeks of free Premium membership. Your Personal Health Assistant will use Mayo Clinic expertise to do everything from manage your family’s health insurance to crafting custom diet and fitness plans. Referral code is: #{user.owned_referral_code.code}'
+              text: 'Simplify your health with Better. Sign up and you’ll get a 50% off your first paid month. Your Personal Health Assistant will use Mayo Clinic expertise to do everything from manage your family’s health insurance to crafting custom diet and fitness plans. Referral code is: #{user.owned_referral_code.code}'
             },
             twitter: {
-              text: 'Change your health with @Betterpha & @mayoclinic. Sign up here to get up to 6 weeks free. Referral code is: #{user.owned_referral_code.code}'
+              text: 'Change your health with @Betterpha & @mayoclinic. Sign up here to get 50% off your first paid month. Referral code is: #{user.owned_referral_code.code}'
             },
             email: {
               subject: "Get Better with me",
-              text: 'Hey there,\n\nI joined Better's Premium service and thought you'd enjoy it too. Sign up here and get up to 6 weeks free: http://www.getbetter.com/app\n\nI'm gifting you 2 weeks of free membership, which means you'll get your very own Personal Health Assistant who can help with everything from evaluating insurance to finding new doctors.  If you decide to continue your membership, we’ll both get a free month! Here is the referral code: #{user.owned_referral_code.code}'
+              text: 'I joined Better and thought you’d enjoy it too. Sign up and get 50% off your first paid month: http://www.getbetter.com/app\n\nI’m gifting you up to 6 weeks of free membership with your very own Personal Health Assistant who will evaluate your health insurance, fight medical bills, find doctors, make healthy eating plans, and much more. Here is the referral code: #{user.owned_referral_code.code}'
             },
             sms: {
-              text: 'Get Better with me. Sign up here, and you’ll receive up to 6 weeks of free Premium membership with your very own Personal Health Assistant. Here is the referral code: #{user.owned_referral_code.code}'
+              text: 'Get Better with me. Sign up here, and you’ll get 50% off your first paid month up  of membership with your very own Personal Health Assistant. Here is the referral code: #{user.owned_referral_code.code}'
             },
             default: {
               text: 'Get Better with me. Sign up here, and you’ll receive up to 6 weeks of free Premium membership with your very own Personal Health Assistant. Here is the referral code: #{user.owned_referral_code.code}'
