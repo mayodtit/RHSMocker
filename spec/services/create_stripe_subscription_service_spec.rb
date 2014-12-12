@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'stripe_mock'
 
-describe StripeSubscriptionService do
+describe CreateStripeSubscriptionService do
   let(:stripe_helper) { StripeMock.create_test_helper }
   let(:user) { create(:member, :premium) }
   let(:plan_id) { 'bp20' }
@@ -28,7 +28,7 @@ describe StripeSubscriptionService do
                                                         email: user.email,
                                                         description: StripeExtension.customer_description(user.id))
                                                   .and_call_original
-          described_class.new(user, plan_id, credit_card_token).create
+          described_class.new(user: user, plan_id: plan_id, credit_card_token: credit_card_token).call
           expect(Stripe::Customer.retrieve(user.stripe_customer_id).cards.count).to eq(1)
         end
       end
@@ -42,13 +42,13 @@ describe StripeSubscriptionService do
 
         it 'adds the credit card to the customer' do
           expect(Stripe::Customer.retrieve(user.stripe_customer_id).cards.count).to eq(0)
-          described_class.new(user, plan_id, credit_card_token).create
+          described_class.new(user: user, plan_id: plan_id, credit_card_token: credit_card_token).call
           expect(Stripe::Customer.retrieve(user.stripe_customer_id).cards.count).to eq(1)
         end
       end
 
       it 'creates a new subscription for the customer' do
-        described_class.new(user, plan_id, credit_card_token).create
+        described_class.new(user: user, plan_id: plan_id, credit_card_token: credit_card_token).call
         expect(Stripe::Customer.retrieve(user.stripe_customer_id).subscriptions.count).to eq(1)
       end
     end
@@ -62,7 +62,7 @@ describe StripeSubscriptionService do
       end
 
       it 'creates a new subscription for the customer' do
-        described_class.new(user, plan_id).create
+        described_class.new(user: user, plan_id: plan_id).call
         expect(Stripe::Customer.retrieve(user.stripe_customer_id).subscriptions.count).to eq(1)
       end
     end

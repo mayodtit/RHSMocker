@@ -10,8 +10,9 @@ describe Consult do
   it_validates 'inclusion of', :master
 
   it 'validates uniqueness of active per initiator' do
-    current_consult = create(:consult, master: true)
-    new_consult = build_stubbed(:consult, initiator: current_consult.initiator,
+    user = create(:member)
+    current_consult = user.master_consult
+    new_consult = build_stubbed(:consult, initiator: user,
                                           master: true)
     expect(new_consult).to_not be_valid
     expect(new_consult.errors[:master]).to include("has already been taken")
@@ -24,14 +25,6 @@ describe Consult do
         let!(:member) { create(:member, :premium, pha: pha, signed_up_at: Time.now) }
         let(:consult) { create(:consult, initiator: member) }
         let(:message_template) { create :message_template }
-
-        it 'creates a message from a template' do
-          MessageTemplate.stub(:find_by_name).with('New Premium Member OLD') { message_template }
-          message_template.should_receive(:create_message).and_call_original
-          consult = create :consult, initiator: member
-          consult.reload
-          consult.messages.count.should == 1
-        end
 
         it 'does not attach a message if there is already a message' do
           c = create(:consult, initiator: member, messages_attributes: [{user: member, text: 'hello world'}])

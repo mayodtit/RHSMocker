@@ -31,7 +31,13 @@ class Api::V1::MembersController < Api::V1::ABaseController
     if @member.errors.empty?
       @session = @member.sessions.create
       begin
-        StripeSubscriptionService.new(@member, 'bp20', user_params[:payment_token], Time.zone.now.pacific.end_of_day + 1.month).create if user_params[:payment_token]
+        if user_params[:payment_token]
+          CreateStripeSubscriptionService.new(user: @member,
+                                              plan_id: 'bp20',
+                                              credit_card_token: user_params[:payment_token],
+                                              trial_end: Time.zone.now.pacific.end_of_day + 1.month,
+                                              coupon_code: coupon_code).call
+        end
       rescue Stripe::CardError => e
         render_failure({reason: e.as_json['code'],
                         user_message: e.as_json['message']}, 422) and return
@@ -135,6 +141,10 @@ class Api::V1::MembersController < Api::V1::ABaseController
   def load_onboarding_group!
     @onboarding_group = @referral_code.try(:onboarding_group)
     @onboarding_group ||= OnboardingGroup.find_by_name('Generic 14-day trial onboarding group') if Metadata.signup_free_trial?
+  end
+
+  def coupon_code
+    @onboarding_group ? @onboarding_group.stripe_coupon_code : nil
   end
 
   def load_enrollment!
