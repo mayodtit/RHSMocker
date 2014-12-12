@@ -2,7 +2,7 @@ class Api::V1::PlansController < Api::V1::ABaseController
   before_filter :load_plans!
 
   def index
-    render_success(plan: @plans,
+    render_success(plans: @plans,
                    text_header: text_header)
   end
 
