@@ -14,7 +14,7 @@ describe DestroyStripeSubscriptionService do
                         name: 'Single Membership',
                         currency: :usd,
                         id: plan_id)
-    StripeSubscriptionService.new(user, plan_id, credit_card_token).create
+    CreateStripeSubscriptionService.new(user: user, plan_id: plan_id, credit_card_token: credit_card_token).call
   end
 
   after do
@@ -23,7 +23,7 @@ describe DestroyStripeSubscriptionService do
 
   it 'destroy Stripe subscription service' do
     expect(Stripe::Customer.retrieve(user.stripe_customer_id).subscriptions.count).to eq(1)
-    described_class.new(user).call
+    described_class.new(user, :upgrade).call
     expect(Stripe::Customer.retrieve(user.stripe_customer_id).subscriptions.count).to eq(0)
   end
 end
