@@ -51,8 +51,6 @@ ServiceType.find_or_create_by_name(name: 'PHA Introduction', bucket: 'engagement
 ServiceType.find_or_create_by_name(name: 'check-in message', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'service and message planning', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'review member meals', bucket: 'engagement')
-s = ServiceType.find_by_name('other care engagement')
-s.destroy if s
 ServiceType.find_or_create_by_name(name: 'other engagement', bucket: 'engagement')
 
 # Wellness --
