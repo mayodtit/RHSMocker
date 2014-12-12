@@ -114,8 +114,8 @@ class Member < User
   before_validation :unset_free_trial_ends_at
   before_validation :set_invitation_token
   before_validation :unset_invitation_token
-  before_validation :set_pha, if: ->(m){m.is_premium? && m.status_changed?}
-  before_validation :set_master_consult, if: ->(m){m.is_premium? && m.status_changed?}
+  before_validation :set_pha, if: ->(m){m.signed_up? && m.status_changed?}
+  before_validation :set_master_consult, if: ->(m){m.signed_up? && m.status_changed?}
   after_create :add_new_member_content
   after_create :add_owned_referral_code
   after_create :add_onboarding_group_provider
