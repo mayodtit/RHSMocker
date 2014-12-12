@@ -385,9 +385,10 @@ class Member < User
         task.reason = "member_downgraded_canceled"
         task.abandon!
       end
+    end
 
     after_transition %i(premium chamath) => :free do |member, transition|
-      DestroyStripeSubscriptionService.new(member).call if member.stripe_customer_id
+      DestroyStripeSubscriptionService.new(member, :downgrade).call if member.stripe_customer_id
     end
   end
 
