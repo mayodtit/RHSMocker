@@ -5,8 +5,8 @@ class DestroyStripeSubscriptionService
 
   def call
     @customer ||= Stripe::Customer.retrieve(@user.stripe_customer_id)
-     @customer.subscriptions.all.each do |subscription|
-       subscription.delete
+    @customer.subscriptions.all.each do |subscription|
+      subscription.delete
     end
   end
 end

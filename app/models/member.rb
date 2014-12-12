@@ -373,8 +373,8 @@ class Member < User
       member.email_confirmation_token = nil
     end
 
-    before_transition %i(premium chamath) => :free do |member, transition|
-      DestroyStripeSubscriptionService.new(member).call
+    after_transition %i(premium chamath) => :free do |member, transition|
+      DestroyStripeSubscriptionService.new(member).call if member.stripe_customer_id
     end
   end
 
