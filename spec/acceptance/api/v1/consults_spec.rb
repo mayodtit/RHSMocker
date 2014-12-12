@@ -18,7 +18,7 @@ resource "Consults" do
   end
 
   describe 'existing record' do
-    let!(:consult) { create(:consult, :master, :with_messages, initiator: user) }
+    let(:consult) { user.master_consult }
     let(:id) { consult.id }
 
     get '/api/v1/consults' do
@@ -26,7 +26,7 @@ resource "Consults" do
         explanation "Returns an array of consults"
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
-        expect(body[:consults].to_json).to eq([consult].serializer.as_json.to_json)
+        expect(body[:consults].to_json).to eq([consult.reload].serializer.as_json.to_json)
       end
     end
 
@@ -35,7 +35,7 @@ resource "Consults" do
         explanation 'Returns the master consult'
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
-        expect(body[:consult].to_json).to eq(consult.serializer.as_json.to_json)
+        expect(body[:consult].to_json).to eq(consult.reload.serializer.as_json.to_json)
       end
     end
 
@@ -44,7 +44,7 @@ resource "Consults" do
         explanation "Returns the given consult"
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
-        expect(body[:consult].to_json).to eq(consult.serializer.as_json.to_json)
+        expect(body[:consult].to_json).to eq(consult.reload.serializer.as_json.to_json)
       end
     end
   end

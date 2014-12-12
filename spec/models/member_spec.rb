@@ -19,6 +19,10 @@ describe Member do
   it_has_a 'valid factory', :chamath
 
   describe 'validations' do
+    before do
+      described_class.any_instance.stub(:set_pha)
+    end
+
     it_validates 'foreign key of', :pha
     it_validates 'foreign key of', :onboarding_group
     it_validates 'foreign key of', :referral_code
