@@ -279,3 +279,6 @@ MessageWorkflowTemplate.upsert_attributes({communication_workflow_id: cw.id,
 
 TOS_VIOLATION = '*|member_first_name|*, due to violations of our terms of service, we will be terminating your account.'
 m = MessageTemplate.upsert_attributes({name: 'TOS Violation'}, {text: TOS_VIOLATION})
+
+FREE_ONBOARDING = "Want your very own PHA? Become a Better member by [tapping here](better://nb?cmd=showSubscription) and get a month free. Cancel at any time. No surprises, just better health."
+m = MessageTemplate.upsert_attributes({name: 'Free Onboarding'}, {text: FREE_ONBOARDING})
