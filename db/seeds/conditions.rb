@@ -1097,6 +1097,3 @@ Condition.find_or_create_by_name(name: "Pulmonary embolism",
 Condition.find_or_create_by_name(name: "Pulmonary embolism with pulmonary infarction",
                                  snomed_name: "Pulmonary embolism with pulmonary infarction (disorder)",
                                  snomed_code: "2967106016")
-
-
-
