@@ -4,7 +4,10 @@ require 'stripe_mock'
 describe 'credit cards' do
   let!(:user) { create(:member, :premium) }
   let!(:session) { user.sessions.create }
+<<<<<<< HEAD
 
+=======
+>>>>>>> feature/send_user_email_when_change_credit_card
   before do
     StripeMock.start
     customer = Stripe::Customer.create(email: user.email,
@@ -16,12 +19,17 @@ describe 'credit cards' do
   after do
     StripeMock.stop
   end
+<<<<<<< HEAD
+=======
+
+>>>>>>> feature/send_user_email_when_change_credit_card
   describe 'POST /api/v1/users/:user_id/credit_cards' do
     def do_request(params={})
       post "/api/v1/users/#{user.id}/credit_cards", params.merge!(auth_token: session.auth_token,
                                                                   stripe_token: StripeMock.generate_card_token(last4: "4242", exp_year: 1994))
     end
 
+<<<<<<< HEAD
     it 'update the card when user already have a card' do
       expect(Stripe::Customer.retrieve(user.stripe_customer_id).cards[:data].length).to eq(1)
       do_request
@@ -34,6 +42,10 @@ describe 'credit cards' do
       expect(user.reload.master_consult.messages.last.user_id).to eq(Member.robot.id)
       expect(user.master_consult.messages.last.system).to eq(true)
       expect(user.master_consult.messages.last.text).to eq("Your credit card information has been updated. Payments will now be charged to the card ending in 4242.")
+=======
+    it 'send confirmation email to user when changes the credit card' do
+      expect{ do_request }.to change(Delayed::Job, :count).by(1)
+>>>>>>> feature/send_user_email_when_change_credit_card
     end
 
     it_behaves_like 'success'

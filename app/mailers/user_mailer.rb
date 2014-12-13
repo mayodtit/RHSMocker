@@ -111,4 +111,10 @@ class UserMailer < ActionMailer::Base
            format.text{ render text: text }
          end
   end
+
+  def confirm_credit_card_change(user, card)
+    @user = user
+    @card = card
+    mail(to: @user.email, subject: 'Your credit card information has been updated.')
+  end
 end
