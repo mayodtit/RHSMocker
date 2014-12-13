@@ -9,6 +9,6 @@ end
 StripeEvent.configure do |events|
   events.subscribe 'charge.failed' do |event|
     Rails.logger.info("Received Stripe charge.failed, #{event.id} - #{event.type}")
-    UserMailer.notify_bosses_when_user_payment_fail(event)
+    UserMailer.delay.notify_bosses_when_user_payment_fail(event)
   end
 end
