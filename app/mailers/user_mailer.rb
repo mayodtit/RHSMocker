@@ -117,4 +117,10 @@ class UserMailer < ActionMailer::Base
     @card = card
     mail(to: @user.email, subject: 'Your credit card information has been updated.')
   end
+
+  def notify_bosses_when_user_payment_fail(event)
+    mail(to: %w(kyle@getbetter.com geoff@getbetter.com), subject: "#{env}[Stripe] #{event.id} - #{event.type}") do |format|
+      format.text{ render text: "Stripe failure: #{event.id} - #{event.type}" }
+    end
+  end
 end
