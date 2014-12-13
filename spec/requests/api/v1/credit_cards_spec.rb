@@ -8,7 +8,7 @@ describe 'credit cards' do
     StripeMock.start
     customer = Stripe::Customer.create(email: user.email,
                                        description: StripeExtension.customer_description(user.id),
-                                      card: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+                                       card: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
     user.update_attribute(:stripe_customer_id, customer.id)
   end
 
@@ -25,7 +25,7 @@ describe 'credit cards' do
     it 'send confirmation email to user when changes the credit card' do
       expect{ do_request }.to change(Delayed::Job, :count).by(1)
     end
-    
+
     it_behaves_like 'success'
   end
 end
