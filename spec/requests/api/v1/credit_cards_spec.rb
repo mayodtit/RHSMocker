@@ -38,7 +38,7 @@ describe 'credit cards' do
     end
 
     it 'send confirmation email to user when changes the credit card' do
-      expect{ do_request }.to change(Delayed::Job, :count).by(1)
+      expect{ do_request }.to change(Delayed::Job, :count).by(2)
     end
 
     it_behaves_like 'success'
