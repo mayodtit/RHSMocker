@@ -31,6 +31,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
                                              :absolute_free_trial_ends_at,
                                              :mayo_pilot,
                                              :npi_number,
+                                             :subscription_days,
                                              :absolute_subscription_ends_at)
   end
 
