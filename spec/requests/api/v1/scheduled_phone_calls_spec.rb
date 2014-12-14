@@ -68,7 +68,8 @@ describe 'ScheduledPhoneCall' do
       let!(:future_time) { create(:scheduled_phone_call, :assigned, scheduled_at: future_timestamp) }
 
       before do
-        user.update_attributes!(subscription_ends_at: near_timestamp + 15.minutes)
+        user.update_attributes!(status: :premium)
+        user.reload.update_attributes!(subscription_ends_at: near_timestamp + 15.minutes)
       end
 
       it 'indexes available scheduled_phone_calls' do

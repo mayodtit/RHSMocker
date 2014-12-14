@@ -41,7 +41,7 @@ class Member < User
   has_one :shared_subscription, through: :subscription_user,
                                 class_name: 'Subscription',
                                 source: :subscription
-  has_many :tasks, class_name: 'Task', conditions: {type: ['MemberTask', 'UserRequestTask', 'ParsedNurselineRecordTask', 'WelcomeCallTask']}
+  has_many :tasks, class_name: 'Task', conditions: ['type NOT IN (?, ?, ?)', 'MessageTask', 'PhoneCallTask', 'ViewTaskTask']
   has_many :request_tasks, class_name: 'Task', conditions: {type: %w(UserRequestTask ParsedNurselineRecordTask)}
   has_many :service_tasks, class_name: 'MemberTask',
                            conditions: proc{ {service_type_id: ServiceType.non_engagement_ids} }
@@ -112,6 +112,8 @@ class Member < User
   before_validation :set_signed_up_at, if: ->(m){m.signed_up? && m.status_changed?}
   before_validation :set_free_trial_ends_at, if: ->(m){m.status?(:trial) && m.status_changed?}
   before_validation :unset_free_trial_ends_at
+  before_validation :set_subscription_ends_at, if: ->(m){m.status?(:premium) && m.status_changed?}
+  before_validation :unset_subscription_ends_at
   before_validation :set_invitation_token
   before_validation :unset_invitation_token
   before_validation :set_pha, if: ->(m){m.signed_up? && m.status_changed?}
@@ -386,6 +388,10 @@ class Member < User
         task.abandon!
       end
     end
+
+    after_transition %i(premium chamath) => :free do |member, transition|
+      DestroyStripeSubscriptionService.new(member, :downgrade).call if member.stripe_customer_id
+    end
   end
 
   def set_signed_up_at
@@ -399,6 +405,15 @@ class Member < User
   def unset_free_trial_ends_at
     return if invited? || trial?
     self.free_trial_ends_at = nil if free_trial_ends_at
+  end
+
+  def set_subscription_ends_at
+    self.subscription_ends_at ||= onboarding_group.try(:subscription_ends_at, signed_up_at)
+  end
+
+  def unset_subscription_ends_at
+    return if premium?
+    self.subscription_ends_at = nil if subscription_ends_at
   end
 
   def set_member_flag

@@ -16,6 +16,7 @@ describe 'credit cards' do
   after do
     StripeMock.stop
   end
+
   describe 'POST /api/v1/users/:user_id/credit_cards' do
     def do_request(params={})
       post "/api/v1/users/#{user.id}/credit_cards", params.merge!(auth_token: session.auth_token,
@@ -34,6 +35,10 @@ describe 'credit cards' do
       expect(user.reload.master_consult.messages.last.user_id).to eq(Member.robot.id)
       expect(user.master_consult.messages.last.system).to eq(true)
       expect(user.master_consult.messages.last.text).to eq("Your credit card information has been updated. Payments will now be charged to the card ending in 4242.")
+    end
+
+    it 'send confirmation email to user when changes the credit card' do
+      expect{ do_request }.to change(Delayed::Job, :count).by(2)
     end
 
     it_behaves_like 'success'

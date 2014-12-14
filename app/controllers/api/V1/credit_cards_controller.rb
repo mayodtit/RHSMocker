@@ -26,6 +26,7 @@ class Api::V1::CreditCardsController < Api::V1::ABaseController
         @card = @customer.cards.create(card: params[:stripe_token])
         @customer.save
         Message.create!(message_attributes) if @user.master_consult
+        UserMailer.delay.confirm_credit_card_change(@user, @card)
       end
 
       render_success(credit_card: {type: @card.type,
