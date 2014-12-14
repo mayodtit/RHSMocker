@@ -112,6 +112,8 @@ class Member < User
   before_validation :set_signed_up_at, if: ->(m){m.signed_up? && m.status_changed?}
   before_validation :set_free_trial_ends_at, if: ->(m){m.status?(:trial) && m.status_changed?}
   before_validation :unset_free_trial_ends_at
+  before_validation :set_subscription_ends_at, if: ->(m){m.status?(:premium) && m.status_changed?}
+  before_validation :unset_subscription_ends_at
   before_validation :set_invitation_token
   before_validation :unset_invitation_token
   before_validation :set_pha, if: ->(m){m.is_premium? && m.status_changed?}
@@ -399,6 +401,15 @@ class Member < User
   def unset_free_trial_ends_at
     return if invited? || trial?
     self.free_trial_ends_at = nil if free_trial_ends_at
+  end
+
+  def set_subscription_ends_at
+    self.subscription_ends_at ||= onboarding_group.try(:subscription_ends_at, signed_up_at)
+  end
+
+  def unset_subscription_ends_at
+    return if premium?
+    self.subscription_ends_at = nil if subscription_ends_at
   end
 
   def set_member_flag

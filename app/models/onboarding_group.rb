@@ -16,12 +16,14 @@ class OnboardingGroup < ActiveRecord::Base
                   :absolute_free_trial_ends_at, :provider, :provider_id,
                   :mayo_pilot, :npi_number, :provider_attributes,
                   :pha, :pha_id, :trial_nux_story,
-                  :trial_nux_story_id, :stripe_coupon_code
+                  :trial_nux_story_id, :stripe_coupon_code,
+                  :absolute_subscription_ends_at
 
   validates :name, presence: true
   validates :provider, presence: true, if: ->(o){o.provider_id}
   validates :premium, inclusion: {in: [true, false]}
   validates :free_trial_days, numericality: {only_integer: true}
+  validates :subscription_days, numericality: {only_integer: true}
   validates :mayo_pilot, inclusion: {in: [true, false]}
   validates :trial_nux_story, presence: true, if: ->(o){o.trial_nux_story_id}
 
@@ -34,6 +36,18 @@ class OnboardingGroup < ActiveRecord::Base
       absolute_free_trial_ends_at
     elsif free_trial_days > 0
       (time || Time.now).pacific.end_of_day + free_trial_days.days
+    else
+      nil
+    end
+  end
+
+  def subscription_ends_at(time=nil)
+    if !premium?
+      nil
+    elsif absolute_subscription_ends_at
+      absolute_subscription_ends_at
+    elsif subscription_days > 0
+      (time || Time.now).pacific.end_of_day + subscription_days.days
     else
       nil
     end
