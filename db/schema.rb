@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141211074729) do
+ActiveRecord::Schema.define(:version => 20141214180311) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -512,16 +512,17 @@ ActiveRecord::Schema.define(:version => 20141211074729) do
 
   create_table "onboarding_groups", :force => true do |t|
     t.string   "name"
-    t.boolean  "premium",                     :default => false, :null => false
-    t.integer  "free_trial_days",             :default => 0,     :null => false
+    t.boolean  "premium",                       :default => false, :null => false
+    t.integer  "free_trial_days",               :default => 0,     :null => false
     t.datetime "absolute_free_trial_ends_at"
-    t.datetime "created_at",                                     :null => false
-    t.datetime "updated_at",                                     :null => false
+    t.datetime "created_at",                                       :null => false
+    t.datetime "updated_at",                                       :null => false
     t.integer  "provider_id"
     t.boolean  "mayo_pilot"
     t.integer  "pha_id"
     t.integer  "trial_nux_story_id"
     t.string   "stripe_coupon_code"
+    t.datetime "absolute_subscription_ends_at"
   end
 
   create_table "parsed_nurseline_records", :force => true do |t|

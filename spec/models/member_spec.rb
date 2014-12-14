@@ -134,6 +134,32 @@ describe Member do
       end
     end
 
+    describe '#set_subscription_ends_at' do
+      let(:user) { create(:member, :invited) }
+
+      context 'without an onboarding group' do
+        it 'does not set subscription_ends_at' do
+          expect(user.subscription_ends_at).to be_nil
+          user.update_attributes(password: 'password')
+          expect(user.subscription_ends_at).to be_nil
+        end
+      end
+
+      context 'with an onboarding group' do
+        let(:time) { Time.now + 1.day }
+        let(:onboarding_group) { create(:onboarding_group, :premium, absolute_subscription_ends_at: time) }
+        let(:user) { create(:member, :invited, onboarding_group: onboarding_group) }
+
+        context 'with absolute_subscription_ends_at set' do
+          it 'sets subscription_ends_at' do
+            expect(user.subscription_ends_at).to be_nil
+            user.update_attributes(password: 'password', status_event: :sign_up)
+            expect(user.reload.subscription_ends_at.to_i).to eq(time.to_i)
+          end
+        end
+      end
+    end
+
     describe 'set_invitation_token' do
       let(:member) { create(:member, :invited) }
 
