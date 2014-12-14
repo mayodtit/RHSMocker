@@ -17,7 +17,7 @@ class OnboardingGroup < ActiveRecord::Base
                   :mayo_pilot, :npi_number, :provider_attributes,
                   :pha, :pha_id, :trial_nux_story,
                   :trial_nux_story_id, :stripe_coupon_code,
-                  :absolute_subscription_ends_at
+                  :absolute_subscription_ends_at, :subscription_days
 
   validates :name, presence: true
   validates :provider, presence: true, if: ->(o){o.provider_id}
