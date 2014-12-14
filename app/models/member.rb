@@ -404,7 +404,7 @@ class Member < User
   end
 
   def set_subscription_ends_at
-    self.subscription_ends_at ||= onboarding_group.try(:subscription_ends_at)
+    self.subscription_ends_at ||= onboarding_group.try(:subscription_ends_at, signed_up_at)
   end
 
   def unset_subscription_ends_at
