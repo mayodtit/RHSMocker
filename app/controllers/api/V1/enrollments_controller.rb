@@ -103,6 +103,6 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
 
   def approved_code?
     code = permitted_params.enrollment[:code]
-    (code == "inside") || (code == "adam")
+    (code == "inside") || (code == "adam") || @onboarding_group.try(:skip_credit_card?)
   end
 end
