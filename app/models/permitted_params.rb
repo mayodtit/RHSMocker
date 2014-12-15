@@ -32,7 +32,8 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
                                              :mayo_pilot,
                                              :npi_number,
                                              :subscription_days,
-                                             :absolute_subscription_ends_at)
+                                             :absolute_subscription_ends_at,
+                                             :skip_credit_card)
   end
 
   def referral_code
