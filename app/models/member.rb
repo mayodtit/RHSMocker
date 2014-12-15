@@ -468,8 +468,6 @@ class Member < User
   def add_new_member_content
     if onboarding_group.try(:mayo_pilot?)
       cards.create(resource: Content.mayo_pilot, priority: 30) if Content.mayo_pilot
-    else
-      cards.create(resource: Content.free_trial, priority: 30) if Content.free_trial
     end
     cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
     if @sunscreen_content = Content.find_by_document_id('MY01350')
