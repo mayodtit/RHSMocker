@@ -77,7 +77,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
 
   def trial_story
     onboarding_group_or_default_trial_story.tap do |trial|
-      trial.enabled = false if (trial && approved_code?)
+      trial.enabled = false if (trial && skip_credit_card?)
     end.try(:serializer)
   end
 
@@ -87,13 +87,13 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
 
   def credit_card_story
     NuxStory.credit_card.tap do |credit_card|
-      credit_card.enabled = false if (credit_card && approved_code?)
+      credit_card.enabled = false if (credit_card && skip_credit_card?)
     end.try(:serializer)
   end
 
   def success_story
     NuxStory.sign_up_success.tap do |success|
-      success.enabled = false if (success && approved_code?)
+      success.enabled = false if (success && skip_credit_card?)
     end.try(:serializer)
   end
 
@@ -101,8 +101,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
     @enrollment.errors.full_messages.to_sentence
   end
 
-  def approved_code?
-    code = permitted_params.enrollment[:code]
-    (code == "inside") || (code == "adam") || @onboarding_group.try(:skip_credit_card?)
+  def skip_credit_card?
+    @onboarding_group.try(:skip_credit_card?)
   end
 end
