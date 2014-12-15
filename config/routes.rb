@@ -183,6 +183,7 @@ RHSMocker::Application.routes.draw do
         get :buckets, on: :collection
       end
       resources :service_templates, except: %i(new edit)
+      resources :task_templates, only: :show
     end
   end
 

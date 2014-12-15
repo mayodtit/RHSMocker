@@ -11,12 +11,12 @@ class ServiceTemplate < ActiveRecord::Base
       title: attributes[:title] || title,
       description: attributes[:description] || description,
       service_type: service_type,
-      due_at: Time.now + time_estimate.to_i.minutes,
+      due_at: calculate_time_estimate(),
       service_template: self,
       member: attributes[:member],
       subject: attributes[:subject] || attributes[:member],
       creator: attributes[:creator],
-      owner: attributes[:owner],
+      owner: attributes[:owner] || attributes[:member] && attributes[:member].pha,
       assignor: attributes[:assignor] || attributes[:creator],
       actor_id: attributes[:creator] && attributes[:creator].id
     )
@@ -27,5 +27,10 @@ class ServiceTemplate < ActiveRecord::Base
     end
 
     service
+  end
+
+  private
+  def calculate_time_estimate
+    time_estimate.to_i.minutes.from_now.business_time? ? time_estimate.to_i.minutes.from_now : 0.business_hours.after(time_estimate.to_i.minutes.from_now)
   end
 end

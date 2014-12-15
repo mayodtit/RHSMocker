@@ -15,12 +15,14 @@ class Api::V1::MemberServicesController < Api::V1::ABaseController
     create_params = service_template_attributes
     create_params[:creator] = current_user
     create_params[:member] = @member
-    @service_template.create_service! create_params
+    @service = @service_template.create_service! create_params
+    render_success(service: @service.serializer)
   end
+
   private
 
   def service_template_attributes
-    params.permit(:title, :description, :subject_id, :due_at, :owner_id)
+    params.permit(:title, :description, :subject_id, :due_at, :owner_id, :service_template_id, :auth_token, :member_id)
   end
 
   def load_service_template!
