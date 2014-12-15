@@ -35,8 +35,7 @@ describe 'Messages' do
         get '/api/v1/consults/current/messages', auth_token: session.auth_token
       end
 
-      let!(:master) { create(:consult, :master, initiator: user) }
-      let!(:master_message) { create(:message, consult: master) }
+      let!(:master_message) { create(:message, consult: user.master_consult) }
 
       it "indexes messages for the users's master consult" do
         do_request
@@ -101,7 +100,6 @@ describe 'Messages' do
       post '/api/v1/consults/current/messages', params.merge!(auth_token: session.auth_token)
     end
 
-    let!(:consult) { create(:consult, :master, initiator: user) }
     let(:message_params) { {message: {text: 'test message'}} }
 
     it 'create a new message for the consult' do

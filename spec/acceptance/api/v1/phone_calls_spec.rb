@@ -81,7 +81,7 @@ resource "PhoneCalls" do
     required_parameters :auth_token, :destination_phone_number
 
     let!(:user) { create(:member) }
-    let!(:consult) { create(:consult, :master, initiator: user) }
+    let!(:consult) { user.master_consult }
     let(:auth_token) { session.auth_token }
     let(:consult_id) { consult.id }
     let(:origin_phone_number) { '5551112222' }
@@ -122,6 +122,7 @@ resource "PhoneCalls" do
         phone_call = PhoneCall.find(body[:phone_call][:id])
         phone_call.should be_outbound
         phone_call.user.should == user
+        phone_call.creator.should == pha
         phone_call.destination_phone_number.should == '5553334444'
         expect(body[:phone_call].to_json).to eq(phone_call.serializer.as_json.to_json)
       end

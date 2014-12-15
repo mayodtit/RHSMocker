@@ -135,6 +135,7 @@ RHSMocker::Application.routes.draw do
           end
         end
         resources :heights, except: %i(new edit)
+        resources :insurance_policies, except: %i(new edit)
         resources :inverse_associations, only: [:index, :update, :destroy]
         post 'invite', :on => :member
         resources :cards, :only => [:create, :show, :update] do
@@ -231,4 +232,5 @@ RHSMocker::Application.routes.draw do
   end
 
   match '/docs' => Raddocs::App, :anchor => false
+  mount StripeEvent::Engine => '/stripe_webhooks'
 end

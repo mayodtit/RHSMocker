@@ -41,7 +41,7 @@ class Member < User
   has_one :shared_subscription, through: :subscription_user,
                                 class_name: 'Subscription',
                                 source: :subscription
-  has_many :tasks, class_name: 'Task', conditions: {type: ['MemberTask', 'UserRequestTask', 'ParsedNurselineRecordTask', 'WelcomeCallTask']}
+  has_many :tasks, class_name: 'Task', conditions: ['type NOT IN (?, ?, ?)', 'MessageTask', 'PhoneCallTask', 'ViewTaskTask']
   has_many :request_tasks, class_name: 'Task', conditions: {type: %w(UserRequestTask ParsedNurselineRecordTask)}
   has_many :service_tasks, class_name: 'MemberTask',
                            conditions: proc{ {service_type_id: ServiceType.non_engagement_ids} }
@@ -116,8 +116,8 @@ class Member < User
   before_validation :unset_subscription_ends_at
   before_validation :set_invitation_token
   before_validation :unset_invitation_token
-  before_validation :set_pha, if: ->(m){m.is_premium? && m.status_changed?}
-  before_validation :set_master_consult, if: ->(m){m.is_premium? && m.status_changed?}
+  before_validation :set_pha, if: ->(m){m.signed_up? && m.status_changed?}
+  before_validation :set_master_consult, if: ->(m){m.signed_up? && m.status_changed?}
   after_create :add_new_member_content
   after_create :add_owned_referral_code
   after_create :add_onboarding_group_provider
@@ -387,6 +387,10 @@ class Member < User
         task.reason = "member_downgraded_canceled"
         task.abandon!
       end
+    end
+
+    after_transition %i(premium chamath) => :free do |member, transition|
+      DestroyStripeSubscriptionService.new(member, :downgrade).call if member.stripe_customer_id
     end
   end
 

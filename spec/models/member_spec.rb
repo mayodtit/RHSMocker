@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'stripe_mock'
 
 describe Member do
   let(:member) { build_stubbed :member }
@@ -19,6 +20,10 @@ describe Member do
   it_has_a 'valid factory', :chamath
 
   describe 'validations' do
+    before do
+      described_class.any_instance.stub(:set_pha)
+    end
+
     it_validates 'foreign key of', :pha
     it_validates 'foreign key of', :onboarding_group
     it_validates 'foreign key of', :referral_code
@@ -271,6 +276,60 @@ describe Member do
           member_task.reload.reason_abandoned.should == "member_downgraded_canceled"
           member_task.state.should == "abandoned"
         end
+      end
+    end
+
+    describe 'cancel subscriptions at end of billing period when user transit from premium to any other states' do
+      context 'when user signed up as premium, and being downgraded' do
+        let!(:member){ create(:member, :premium)}
+
+        before do
+          StripeMock.start
+        end
+
+        after do
+          StripeMock.stop
+        end
+
+        it 'should set at_period_end of subscription to true' do
+          customer = Stripe::Customer.create(email: member.email,
+                                             description: StripeExtension.customer_description(member.id),
+                                             card: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+          Stripe::Plan.create(amount: 1999,
+                              interval: :month,
+                              name: 'Single Membership',
+                              currency: :usd,
+                              id: 'bp20',
+                              current_period_start: '1418082585',
+                              current_period_end: '1420790399')
+          member.update_attribute(:stripe_customer_id, customer.id)
+          CreateStripeSubscriptionService.new(user: member, plan_id: 'bp20').call
+          member.downgrade!
+          (Stripe::Customer.retrieve(member.stripe_customer_id).subscriptions.data[0].cancel_at_period_end).should be_true
+        end
+      end
+    end
+
+    describe 'Downgrading premium members end stripe subscription' do
+      let!(:member) { create(:member, :premium) }
+      let(:service) { double('DestroyStripeSubscriptionService') }
+
+      before do
+        StripeMock.start
+        customer = Stripe::Customer.create(email: member.email,
+                                           description: StripeExtension.customer_description(member.id),
+                                           card: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+        member.update_attribute(:stripe_customer_id, customer.id)
+        DestroyStripeSubscriptionService.stub(:new).with(member, :downgrade) { service }
+      end
+
+      after do
+        StripeMock.stop
+      end
+
+      it 'create an instance of the DestroyStripeSubscriptionService class, and call #call on it' do
+        service.should_receive(:call)
+        member.downgrade!
       end
     end
   end

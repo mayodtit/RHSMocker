@@ -473,17 +473,18 @@ ActiveRecord::Schema.define(:version => 20141215001744) do
   end
 
   create_table "nux_stories", :force => true do |t|
-    t.text     "html",                     :limit => 2147483647
+    t.text     "html",                         :limit => 2147483647
     t.string   "action_button_text"
     t.boolean  "show_nav_signup"
-    t.datetime "created_at",                                     :null => false
-    t.datetime "updated_at",                                     :null => false
+    t.datetime "created_at",                                         :null => false
+    t.datetime "updated_at",                                         :null => false
     t.string   "unique_id"
     t.integer  "ordinal"
     t.boolean  "enable_webview_scrolling"
     t.text     "text_header"
     t.text     "text_footer"
     t.boolean  "enabled"
+    t.string   "secondary_action_button_text"
   end
 
   create_table "nux_story_changes", :force => true do |t|
