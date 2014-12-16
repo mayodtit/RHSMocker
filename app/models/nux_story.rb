@@ -39,6 +39,10 @@ class NuxStory < ActiveRecord::Base
     find_by_unique_id('TRIAL')
   end
 
+  def self.refer
+    find_by_unique_id('REFER')
+  end
+
   def self.credit_card
     find_by_unique_id('CREDIT_CARD')
   end
