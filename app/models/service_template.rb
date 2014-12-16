@@ -30,6 +30,7 @@ class ServiceTemplate < ActiveRecord::Base
   end
 
   private
+
   def calculate_time_estimate
     time_estimate.to_i.minutes.from_now.business_time? ? time_estimate.to_i.minutes.from_now : 0.business_hours.after(time_estimate.to_i.minutes.from_now)
   end
