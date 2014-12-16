@@ -335,13 +335,6 @@ ActiveRecord::Schema.define(:version => 20141215222212) do
     t.text     "metadata_override"
   end
 
-  create_table "guides", :force => true do |t|
-    t.string   "description"
-    t.integer  "task_template_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
-  end
-
   create_table "hcp_taxonomies", :force => true do |t|
     t.string   "code"
     t.string   "hcptype"
@@ -869,6 +862,13 @@ ActiveRecord::Schema.define(:version => 20141215222212) do
   end
 
   add_index "task_changes", ["task_id"], :name => "index_task_changes_on_task_id"
+
+  create_table "task_guides", :force => true do |t|
+    t.string   "description"
+    t.integer  "task_template_id"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
 
   create_table "task_templates", :force => true do |t|
     t.string   "name",                :null => false

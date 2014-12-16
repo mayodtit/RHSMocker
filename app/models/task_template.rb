@@ -1,9 +1,9 @@
 class TaskTemplate < ActiveRecord::Base
   belongs_to :service_template
   has_many :tasks
-  has_many :guides
+  has_many :task_guides
 
-  attr_accessible :name, :title, :description, :time_estimate, :service_ordinal
+  attr_accessible :name, :title, :description, :time_estimate, :service_ordinal, :service_template
 
   validates :name, :title, presence: true
 
@@ -25,5 +25,14 @@ class TaskTemplate < ActiveRecord::Base
       owner: owner,
       assignor: owner.present? ? (attributes[:assignor] || creator) : nil
     )
+  end
+
+  def create_guides!(new_guides = [])
+    new_guides.each do |text|
+      TaskGuide.create!(
+        task_template: self,
+        description: text
+        )
+    end
   end
 end

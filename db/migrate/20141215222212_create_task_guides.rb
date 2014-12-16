@@ -1,6 +1,6 @@
-class CreateGuides < ActiveRecord::Migration
+class CreateTaskGuides < ActiveRecord::Migration
   def change
-    create_table :guides do |t|
+    create_table :task_guides do |t|
       t.string :description
       t.integer  :task_template_id
       t.datetime :created_at, :null => false

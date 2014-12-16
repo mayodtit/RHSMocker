@@ -1,4 +1,4 @@
-class Guide < ActiveRecord::Base
+class TaskGuide < ActiveRecord::Base
   belongs_to :task_template
 
   attr_accessible :task_template, :task_template_id, :description
