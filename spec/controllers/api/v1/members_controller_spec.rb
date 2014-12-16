@@ -210,7 +210,7 @@ describe Api::V1::MembersController do
       end
 
       it 'render readable message to user when haveing errors other than Stripe::CardError' do
-        custom_error = StandardError.new("API error")
+        custom_error = Stripe::StripeError.new("API error")
         StripeMock.prepare_error(custom_error, :new_customer)
         do_request(payment_token: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
         response.should_not be_success
