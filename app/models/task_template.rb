@@ -1,6 +1,7 @@
 class TaskTemplate < ActiveRecord::Base
   belongs_to :service_template
   has_many :tasks
+  has_many :guides
 
   attr_accessible :name, :title, :description, :time_estimate, :service_ordinal
 

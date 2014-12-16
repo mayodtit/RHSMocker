@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141203010334) do
+ActiveRecord::Schema.define(:version => 20141215222212) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -333,6 +333,13 @@ ActiveRecord::Schema.define(:version => 20141203010334) do
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
     t.text     "metadata_override"
+  end
+
+  create_table "guides", :force => true do |t|
+    t.string   "description"
+    t.integer  "task_template_id"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
   create_table "hcp_taxonomies", :force => true do |t|

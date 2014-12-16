@@ -13,16 +13,6 @@ class ServiceTemplateSerializer < ActiveModel::Serializer
           time_estimate: object.time_estimate
       }
       attributes
-    elsif options[:for_subject]
-      attributes = {
-          id: object.id,
-          title: object.title,
-          description: object.description,
-          service_type_id: object.service_type_id,
-          time_estimate: object.time_estimate,
-          service_type: object.service_type,
-      }
-      attributes[:task_templates] = object.task_templates.try(:serializer, options) if object.respond_to? :task_templates
     else
       super.tap do |attributes|
         attributes.merge!(
