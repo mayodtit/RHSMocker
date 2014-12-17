@@ -6,7 +6,7 @@ module Stripe
   end
 end
 
-OneTimeFiftyPercentOffCoupon = 'OneTimeFiftyPercentOffCoupon'
+ONE_TIME_FIFTY_PERCENT_OFF_COUPON_CODE = 'OneTimeFiftyPercentOffCoupon'
 
 StripeEvent.configure do |events|
   events.subscribe 'charge.failed' do |event|
@@ -14,22 +14,11 @@ StripeEvent.configure do |events|
     UserMailer.delay.notify_bosses_when_user_payment_fail(event)
   end
 
-  events.subscribe 'change.succeeded' do |event|
-    stripe_customer_id = event.data.object.card.customer
-    referee = User.find(stripe_customer_id)
-    referral_code ||= ReferralCode.find(referee.referral_code_id)
-    referrer = User.find(referral_code.user_id) if referral_code && referral_code.user_id
-    referrer.coupon_number += 1
-    referee.referral_code_id = nil
+  events.subscribe 'charge.succeeded' do |event|
+    OfferFreeMonthToReferrerWhenRefereePay.new(event).assign_coupon_to_referrer_when_refereee_sign_up
   end
 
   events.subscribe 'invoice.created' do |event|
-    stripe_customer_id = event.customer
-    referrer_stripe_customer = Stripe::Customer.retrieve(stripe_customer_id)
-    referrer = User.find(stripe_customer_id)
-    if referrer.coupon_number != 0 && referrer_stripe_customer.discount.nil?
-      referrer_stripe_customer.coupon = OneTimeFiftyPercentOffCoupon
-      referrer.coupon_number -= 1
-    end
+    OfferFreeMonthToReferrerWhenRefereePay.new(event).redeem_coupon_when_referrer_charged
   end
 end

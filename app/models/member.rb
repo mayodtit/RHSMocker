@@ -86,7 +86,7 @@ class Member < User
                   :email_confirmation_token, :advertiser_id,
                   :advertiser_media_source, :advertiser_campaign,
                   :impersonated_user, :impersonated_user_id,
-                  :enrollment, :payment_token
+                  :enrollment, :payment_token, :coupon_number
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
