@@ -14,7 +14,7 @@ class AddTasksTask < Task
     self.owner = member.pha
     self.assignor = Member.robot
     self.assigned_at = Time.now
-    self.due_at = Time.now.eighteen_oclock
+    self.due_at = Time.now.pacific.eighteen_oclock
     self.description = "The member current has no tasks in progress."
     self.priority = 0
   end
