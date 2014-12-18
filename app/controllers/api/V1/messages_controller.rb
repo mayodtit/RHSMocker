@@ -16,9 +16,15 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   private
 
   def messages
-    messages = @consult.messages
-    messages = @consult.messages_and_notes if current_user.care_provider? && @consult.initiator != current_user
-    messages = messages.where('created_at > ?', Time.parse(params[:last_message_date])) if params[:last_message_date].present?
+    if params[:page].nil?
+      messages = @consult.messages
+      messages = @consult.messages_and_notes if current_user.care_provider? && @consult.initiator != current_user
+      messages = messages.where('created_at > ?', Time.parse(params[:last_message_date])) if params[:last_message_date].present?
+    else
+      messages = @consult.messages.order('created_at DESC').page params[:page]
+      messages = @consult.messages_and_notes.order('created_at DESC').page params[:page] if current_user.care_provider? && @consult.initiator != current_user
+      messages = @consult.messages.where('created_at > ?', Time.parse(params[:last_message_date])).order('created_at DESC').page params[:page] if params[:last_message_date].present?
+    end
     messages
   end
 
