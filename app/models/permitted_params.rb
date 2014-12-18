@@ -30,7 +30,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
                                              :free_trial_days,
                                              :absolute_free_trial_ends_at,
                                              :mayo_pilot,
-                                             :npi_number)
+                                             :npi_number,
+                                             :subscription_days,
+                                             :absolute_subscription_ends_at,
+                                             :skip_credit_card)
   end
 
   def referral_code
@@ -84,6 +87,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.fetch(:enrollment, {}).permit(:email, :first_name, :last_name, :birth_date, :advertiser_id, :time_zone, :password, :code)
   end
 
+  def insurance_policy
+    params.require(:insurance_policy).permit(:id, :company_name, :plan_type, :policy_member_id, :notes)
+  end
+
   private
 
   def user_request_attributes
@@ -111,7 +118,6 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
         attributes << :pha_id
         attributes << :due_date
         attributes << {user_information_attributes: user_information_attributes}
-        attributes << {insurance_policy_attributes: insurance_policy_attributes}
         attributes << {provider_attributes: provider_attributes}
         attributes << {emergency_contact_attributes: emergency_contact_attributes}
       end
@@ -150,10 +156,6 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
 
   def address_attributes
     %i(id address address2 line1 line2 city state postal_code name type)
-  end
-
-  def insurance_policy_attributes
-    [:id, :company_name, :plan_type, :policy_member_id, :notes]
   end
 
   def provider_attributes

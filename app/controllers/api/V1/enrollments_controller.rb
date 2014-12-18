@@ -1,13 +1,15 @@
 class Api::V1::EnrollmentsController < Api::V1::ABaseController
   skip_before_filter :authentication_check
   before_filter :load_enrollment!, only: %i(show update)
+  before_filter :load_referral_code, only: %i(create update)
+  before_filter :load_onboarding_group, only: %i(create update)
 
   def show
     show_resource @enrollment.serializer
   end
 
   def create
-    @enrollment = Enrollment.create permitted_params.enrollment
+    @enrollment = Enrollment.create enrollment_params
     if @enrollment.errors.empty?
       render_success(enrollment: @enrollment.serializer,
                      stories: stories,
@@ -20,7 +22,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   def update
-    if @enrollment.update_attributes(permitted_params.enrollment)
+    if @enrollment.update_attributes enrollment_params
       render_success(enrollment: @enrollment.serializer,
                      next_action: next_action,
                      trial_story: trial_story,
@@ -36,6 +38,21 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
 
   def load_enrollment!
     @enrollment = Enrollment.find_by_token!(params[:id])
+  end
+
+  def load_referral_code
+    @referral_code = ReferralCode.find_by_code(params[:enrollment][:code]) if params[:enrollment].try(:[], :code)
+  end
+
+  def load_onboarding_group
+    @onboarding_group = @referral_code.onboarding_group if @referral_code
+  end
+
+  def enrollment_params
+    permitted_params.enrollment.tap do |attributes|
+      attributes[:onboarding_group] = @onboarding_group if @onboarding_group
+      attributes[:referral_code] = @referral_code if @referral_code
+    end
   end
 
   def stories
@@ -59,20 +76,24 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   def trial_story
-    NuxStory.trial.tap do |trial|
-      trial.enabled = false if (trial && approved_code?)
+    onboarding_group_or_default_trial_story.tap do |trial|
+      trial.enabled = false if (trial && skip_credit_card?)
     end.try(:serializer)
+  end
+
+  def onboarding_group_or_default_trial_story
+    @onboarding_group.try(:trial_nux_story) || NuxStory.trial
   end
 
   def credit_card_story
     NuxStory.credit_card.tap do |credit_card|
-      credit_card.enabled = false if (credit_card && approved_code?)
+      credit_card.enabled = false if (credit_card && skip_credit_card?)
     end.try(:serializer)
   end
 
   def success_story
     NuxStory.sign_up_success.tap do |success|
-      success.enabled = false if (success && approved_code?)
+      success.enabled = false if (success && skip_credit_card?)
     end.try(:serializer)
   end
 
@@ -80,8 +101,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
     @enrollment.errors.full_messages.to_sentence
   end
 
-  def approved_code?
-    code = permitted_params.enrollment[:code]
-    (code == "inside") || (code == "adam")
+  def skip_credit_card?
+    @onboarding_group.try(:skip_credit_card?)
   end
 end
