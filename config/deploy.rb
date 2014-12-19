@@ -136,8 +136,8 @@ namespace :deploy do
     run "crontab < #{release_path}/config/#{cron_file}"
   end
 
-  task :run_seeds do
-    run "cd #{release_path}; /usr/bin/env RAILS_ENV=#{rails_env} bundle exec rake db:seeds"
+  task :run_seeds, :roles => :db do
+    run "cd #{release_path}; RAILS_ENV=#{rails_env} bundle exec rake db:seed"
   end
 
   task :start do ; end
@@ -167,9 +167,9 @@ before "deploy:create_symlink", "deploy:web:disable"
 after 'deploy', 'deploy:migrate'
 after 'deploy:migrate', 'deploy:web:enable'
 after 'deploy:migrate', 'deploy:write_crontab'
-after 'deploy:migrate', 'deploy:run_seeds'
 after 'deploy:web:enable', 'restart_delayed_job'
 after 'deploy:web:enable', 'complete'
+after 'deploy:web:enable', 'deploy:run_seeds'
 
 require './config/boot'
 #require 'airbrake/capistrano'
