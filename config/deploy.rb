@@ -136,6 +136,10 @@ namespace :deploy do
     run "crontab < #{release_path}/config/#{cron_file}"
   end
 
+  task :run_seeds do
+    run "cd #{release_path}; /usr/bin/env RAILS_ENV=#{rails_env} bundle exec rake db:seeds"
+  end
+
   task :start do ; end
   task :stop do ; end
   task :restart, :roles => :app, :except => { :no_release => true } do
@@ -163,6 +167,7 @@ before "deploy:create_symlink", "deploy:web:disable"
 after 'deploy', 'deploy:migrate'
 after 'deploy:migrate', 'deploy:web:enable'
 after 'deploy:migrate', 'deploy:write_crontab'
+after 'deploy:migrate', 'deploy:run_seeds'
 after 'deploy:web:enable', 'restart_delayed_job'
 after 'deploy:web:enable', 'complete'
 
