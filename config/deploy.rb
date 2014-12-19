@@ -137,7 +137,7 @@ namespace :deploy do
   end
 
   task :run_seeds do
-    run "cd #{release_path}; /usr/bin/env RAILS_ENV=#{rails_env} bundle exec rake db:seeds"
+    run "cd #{release_path}; /usr/bin/env RAILS_ENV=#{rails_env} bundle exec rake db:seed"
   end
 
   task :start do ; end
