@@ -112,6 +112,16 @@ PHA_ATTRIBUTES = [
     arrow_image: 'elbret-arrow.png',
     avatar_image: 'elbret-avatar.jpg',
     bio_image: 'elbret-bio_image.png'
+  },
+  {
+    email: 'caitlin@getbetter.com',
+    first_name: 'Caitlin',
+    last_name: 'P',
+    bio: "Caitlin has worked as a physical therapy aide and an EMT. She loves music and her favorite stress relievers are playing violin and hiking (though usually not at the same time).",
+    first_person_bio: "I’ve worked as a physical therapy aide and an EMT. I love music and my favorite stress relievers are playing violin and hiking (though usually not at the same time).",
+    arrow_image: 'caitlin-arrow.png',
+    avatar_image: 'caitlin-avatar.jpg',
+    bio_image: 'caitlin-bio_image.png'
   }
 ]
 
