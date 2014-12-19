@@ -5,20 +5,21 @@ class OfferFreeMonthToReferrerWhenRefereePay
 
   def assign_coupon
     referee = find_member(find_stripe_customer_id(@event))
-    referral_code ||= ReferralCode.find(referee.referral_code_id)
-    referrer = Member.find(referral_code.user_id) if referral_code && referral_code.user_id
-    distribute_coupon(referrer, referee)
+    referral_code = referee.referral_code
+    referrer = referral_code.user
+    distribute_coupon(referrer, referee) if referrer
   end
 
   def apply_coupon
     referrer_stripe_customer = Stripe::Customer.retrieve(find_stripe_customer_id(@event))
     referrer = find_member(find_stripe_customer_id(@event))
-    if referrer.coupon_number != 0 && referrer_stripe_customer.discount.nil?
+    if referrer && referrer.coupon_count > 0 && referrer_stripe_customer.discount.nil?
       redeem_coupon(referrer, referrer_stripe_customer)
     end
   end
 
   private
+
   def find_stripe_customer_id(event)
     event.data.object.customer
   end
@@ -30,14 +31,14 @@ class OfferFreeMonthToReferrerWhenRefereePay
   def distribute_coupon(referrer, referee)
     referee.referral_code_id = nil
     referee.save!
-    referrer.coupon_number += 1
+    referrer.increment!(:coupon_count)
     referrer.save!
   end
 
   def redeem_coupon(referrer, customer)
     customer.coupon = ONE_TIME_FIFTY_PERCENT_OFF_COUPON_CODE
     customer.save
-    referrer.coupon_number -= 1
+    referrer.decrement!(:coupon_count)
     referrer.save!
   end
 end

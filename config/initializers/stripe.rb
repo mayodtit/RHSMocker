@@ -15,10 +15,10 @@ StripeEvent.configure do |events|
   end
 
   events.subscribe 'charge.succeeded' do |event|
-    OfferFreeMonthToReferrerWhenRefereePay.new(event).assign_coupon_to_referrer_when_refereee_sign_up
+    OfferFreeMonthToReferrerWhenRefereePay.new(event).assign_coupon
   end
 
   events.subscribe 'invoice.created' do |event|
-    OfferFreeMonthToReferrerWhenRefereePay.new(event).redeem_coupon_when_referrer_charged
+    OfferFreeMonthToReferrerWhenRefereePay.new(event).apply_coupon
   end
 end

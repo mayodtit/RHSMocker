@@ -28,9 +28,9 @@ describe 'OfferFreeMonthToReferrerWhenRefereePay' do
     end
 
     it 'should increase the quantity of referrer‘s coupon number by 1' do
-      expect(referrer.coupon_number).to eq(0)
+      expect(referrer.coupon_count).to eq(0)
       do_method
-      expect(referrer.reload.coupon_number).to eq(1)
+      expect(referrer.reload.coupon_count).to eq(1)
     end
 
     it 'should remove the referee‘s referral code id' do
@@ -41,7 +41,7 @@ describe 'OfferFreeMonthToReferrerWhenRefereePay' do
   end
 
   describe '#redeem_coupon' do
-    let(:referrer) {create(:member, coupon_number:1)}
+    let(:referrer) {create(:member, coupon_count:1)}
 
     before do
       referrer_customer = Stripe::Customer.create(email: referrer.email,
@@ -63,9 +63,9 @@ describe 'OfferFreeMonthToReferrerWhenRefereePay' do
     end
 
     it 'should decrease the referrer‘ coupon number by 1' do
-      expect(referrer.coupon_number).to eq(1)
+      expect(referrer.coupon_count).to eq(1)
       do_method
-      expect(referrer.reload.coupon_number).to eq(0)
+      expect(referrer.reload.coupon_count).to eq(0)
     end
   end
 end
