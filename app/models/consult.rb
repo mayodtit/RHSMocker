@@ -1,4 +1,5 @@
 class Consult < ActiveRecord::Base
+  include SoftDeleteModule
   belongs_to :initiator, class_name: 'Member'
   belongs_to :subject, class_name: 'User'
   belongs_to :symptom

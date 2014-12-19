@@ -4,6 +4,7 @@ ServiceType.find_or_create_by_name(name: 'other', bucket: 'other')
 # Insurance --
 ServiceType.find_or_create_by_name(name: 'benefit evaluation', bucket: 'insurance')
 ServiceType.find_or_create_by_name(name: 'claims', bucket: 'insurance')
+ServiceType.find_or_create_by_name(name: 'medical bill investigation', bucket: 'insurance')
 ServiceType.find_or_create_by_name(name: 'cost estimation', bucket: 'insurance')
 ServiceType.find_or_create_by_name(name: 'deductible/FSA/HSA status assessment', bucket: 'insurance')
 ServiceType.find_or_create_by_name(name: 'eligibility check', bucket: 'insurance')
