@@ -21,7 +21,7 @@ class ServiceTemplate < ActiveRecord::Base
       actor_id: attributes[:creator] && attributes[:creator].id
     )
     start_at = Time.now
-    task_templates.order('service_ordinal DESC, created_at DESC').each do |task_template|
+    task_templates.order('service_ordinal DESC, created_at ASC').each do |task_template|
       task = task_template.create_task!(service: service, start_at: start_at, assignor: attributes[:assignor])
       start_at = task.due_at
     end
