@@ -114,18 +114,19 @@ namespace :tasks do
       end
     end
   end
+
   desc "Send Members OOO message"
     task :holiday_ooo_message => :environment do
-      holidayMessage = "Our PHAs will be offline early today and out of the office tomorrow for the holiday. Our team of Mayo Clinic nurses is available 24/7 if you need anything. Just tap the phone icon to call. Have a wonderful holiday!"
+      holidayMessage = "Our PHAs will be offline early today and out of the office tomorrow for the holiday. Our team of Mayo Clinic nurses are available 24/7 if you need anything. Just tap the phone icon to call. Have a wonderful holiday!"
       newYearsMessage = "Our PHAs will be out of the office tomorrow to celebrate New Year’s Day. Our team of Mayo Clinic nurses are available 24/7 if you aren’t feeling well or have a medical question. Just tap the phone icon to call. Happy New Year!"
       Member.premium_states.each do |m|
-        if( ScheduledSystemMessage.where(recipient_id: m.id, text: holidayMessage).count == 0 )
+        if( ScheduledSystemMessage.where(recipient_id: m.id, text: holidayMessage, state: :scheduled).count == 0 )
           ScheduledSystemMessage.create(sender: Member.robot,
                                         recipient: m,
                                         publish_at: Time.parse('24 Dec 2014 08:00:00 PST -08:00'),
                                         text: holidayMessage)
         end
-        if( ScheduledSystemMessage.where(recipient_id: m.id, text: newYearsMessage).count == 0 )
+        if( ScheduledSystemMessage.where(recipient_id: m.id, text: newYearsMessage, state: :scheduled).count == 0 )
           ScheduledSystemMessage.create(sender: Member.robot,
                                         recipient: m,
                                         publish_at: Time.parse('31 Dec 2014 08:00:00 PST -08:00'),
