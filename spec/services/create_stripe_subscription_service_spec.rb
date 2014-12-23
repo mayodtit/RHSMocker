@@ -14,6 +14,7 @@ describe CreateStripeSubscriptionService do
                         name: 'Single Membership',
                         currency: :usd,
                         id: plan_id)
+    Stripe::Coupon.create(id: 'OneTimeFiftyPercentOffCoupon', percent_off: 50, duration: 'once')
   end
 
   after do
@@ -30,6 +31,17 @@ describe CreateStripeSubscriptionService do
                                                   .and_call_original
           described_class.new(user: user, plan_id: plan_id, credit_card_token: credit_card_token).call
           expect(Stripe::Customer.retrieve(user.stripe_customer_id).cards.count).to eq(1)
+        end
+
+        context 'customer has a referral code' do
+          let(:referrer) { create(:member) }
+          let(:referral_code) { create :referral_code, user: referrer }
+          let(:user) { create(:member, :premium, referral_code_id: referral_code.id) }
+
+          it 'should give customer a 50% off coupon' do
+            described_class.new(user: user, plan_id: plan_id, credit_card_token: credit_card_token).call
+            expect(Stripe::Customer.retrieve(user.stripe_customer_id).coupon).to eq("OneTimeFiftyPercentOffCoupon")
+          end
         end
       end
 
