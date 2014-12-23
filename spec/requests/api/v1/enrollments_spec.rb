@@ -51,7 +51,7 @@ describe 'Enrollments' do
           do_request(enrollment: {email: new_email, code: 'insider'})
           response.should_not be_success
           JSON.parse(response.body)['reason'].should == "invalid referral code"
-          JSON.parse(response.body)['user_message'].should == "invalid referral code"
+          JSON.parse(response.body)['user_message'].should == "Referral code is invalid"
         end
       end
 
