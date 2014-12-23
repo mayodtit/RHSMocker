@@ -58,6 +58,8 @@ class Association < ActiveRecord::Base
   after_save :process_default_hcp
   before_destroy :remove_user_default_hcp_if_necessary
 
+  after_commit :publish
+
   accepts_nested_attributes_for :associate
 
   def self.enabled
@@ -278,4 +280,7 @@ class Association < ActiveRecord::Base
     UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {associations: [associate.id]}.to_s  if actor_id
   end
 
+  def publish
+    PubSub.publish "/associations/update", { user_id: user_id }
+  end
 end

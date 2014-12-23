@@ -470,8 +470,8 @@ class Member < User
       cards.create(resource: Content.mayo_pilot, priority: 30) if Content.mayo_pilot
     end
     cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
-    if @sunscreen_content = Content.find_by_document_id('MY01350')
-      cards.create(resource: @sunscreen_content, priority: 1)
+    if @cold_weather_content = Content.find_by_document_id('HQ01681')
+      cards.create(resource: @cold_weather_content, priority: 1)
     end
     if @happiness_content = Content.find_by_document_id('MY01357')
       cards.create(resource: @happiness_content, priority: 1)

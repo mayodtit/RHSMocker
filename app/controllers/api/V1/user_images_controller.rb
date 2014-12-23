@@ -12,11 +12,11 @@ class Api::V1::UserImagesController < Api::V1::ABaseController
   end
 
   def create
-    create_resource @user_images, permitted_params.user_image
+    create_resource @user_images, user_image_attributes
   end
 
   def update
-    update_resource @user_image, permitted_params.user_image
+    update_resource @user_image, user_image_attributes
   end
 
   def destroy
@@ -32,5 +32,11 @@ class Api::V1::UserImagesController < Api::V1::ABaseController
   def load_user_image!
     @user_image = @user_images.find(params[:id])
     authorize! :manage, @user_image
+  end
+
+  def user_image_attributes
+    permitted_params.user_image.tap do |attributes|
+      attributes[:image] = decode_b64_image(attributes[:image]) if attributes[:image]
+    end
   end
 end
