@@ -45,6 +45,30 @@ describe 'Enrollments' do
           expect(body[:credit_card_story][:enabled]).to be_false
         end
       end
+
+      context 'referral code is not invalid' do
+        it 'returns error message' do
+          do_request(enrollment: {email: new_email, code: 'insider'})
+          response.should_not be_success
+          JSON.parse(response.body)['reason'].should == "invalid referral code"
+          JSON.parse(response.body)['user_message'].should == "Referral code is invalid"
+        end
+      end
+
+      context 'with a referral code when sign up' do
+        let(:new_email) { 'kyle+test@getbetter.com' }
+        let(:member) {create(:member)}
+        let!(:onboarding_group) { create(:onboarding_group, :premium, skip_credit_card: false) }
+        let!(:nux_story) { create(:nux_story, unique_id: 'REFER', enabled: true) }
+        let!(:referral_code) { create(:referral_code, onboarding_group: onboarding_group, user_id: member.id) }
+
+        it "renders different story if user uses others' referral code" do
+          do_request(enrollment: {email: new_email, code: referral_code.code})
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:trial_story][:unique_id]).to eq('REFER')
+        end
+      end
     end
   end
 

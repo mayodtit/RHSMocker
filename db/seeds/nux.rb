@@ -484,6 +484,64 @@ NuxStory.upsert_attributes({unique_id: 'SIGN_UP_SUCCESS'},
                             enable_webview_scrolling: false,
                             enabled: false})
 
+REFER_HTML = <<-eof
+<html>
+  <head>
+    <style>
+      @font-face {
+        font-family: 'Roboto Light';
+        font-style: normal;
+        font-weight: 300;
+        src: local("Roboto Light"), local("Roboto-Light"), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/Hgo13k-tfSpn0qi1SFdUfbO3LdcAZYWl9Si6vvxL-qU.woff) format("woff");
+      }
+
+      @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: local("Roboto Regular"), local("Roboto-Regular"), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format("woff");
+      }
+
+      .content {
+        font-family: 'Roboto';
+        font-size: 16px;
+        color: white;
+        margin: 50pt 10pt 10pt 10pt;
+      }
+
+      #title {
+        font-family: 'Roboto Light';
+        font-size: 24px;
+      }
+
+      #body {
+        margin-top: 10pt;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div id='title'>Try Better for Free</div>
+      <div id='body'>
+        <p>
+          Get your own Personal Health Assistant to organize your health information, create a personalized plan based on your needs, and work with you to achieve your health goals.
+        </p>
+        <p>
+          At the end of your free month, you'll get a 50% discount off of your first paid month. You can cancel anytime during your free month and you will not be charged.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+eof
+
+NuxStory.upsert_attributes({unique_id: 'REFER'},
+                           {html: REFER_HTML,
+                            action_button_text: 'Continue',
+                            show_nav_signup: false,
+                            enable_webview_scrolling: false,
+                            enabled: true})
+
 TWIST_TRIAL_HTML = <<-eof
 <html>
   <head>
