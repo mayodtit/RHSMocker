@@ -521,7 +521,7 @@ REFER_HTML = <<-eof
   </head>
   <body>
     <div class="content">
-      <div id='title'>One Month free payment!</div>
+      <div id='title'>Try Better for Free</div>
       <div id='body'>
         <p>
           Get your own Personal Health Assistant to organize your health information, create a personalized plan based on your needs, and work with you to achieve your health goals.
