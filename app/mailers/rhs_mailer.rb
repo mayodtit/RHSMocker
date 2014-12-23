@@ -373,4 +373,21 @@ class RHSMailer < MandrillMailer::TemplateMailer
       }
     )
   end
+
+  NOTIFY_REFERRER_OF_SIGN_UP_TEMPLATE='Tell a Friend Notification 12/12/2014'
+
+  def notify_referrer_of_sign_up(referrer_id, referee_id)
+    referrer = Member.find(referrer_id)
+    referee = Member.find(referee_id)
+
+    mandrill_mail(
+      subject: 'Welcome to Better',
+      to: { email: referrer.email },
+      template: NOTIFY_REFERRER_OF_SIGN_UP_TEMPLATE,
+      vars: {
+        FNAME: referrer.first_name,
+        REFEREE_FNAME: referee.first_name
+      }
+    )
+  end
 end

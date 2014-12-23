@@ -41,6 +41,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
           end
           SendWelcomeEmailService.new(@member).call
           SendConfirmEmailService.new(@member).call
+          SendNotifyReferrerOnSignUpEmailService.new(referrer: @referral_code.user, referee: @member).call if @referral_code.try(:user)
           render_success user: @member.serializer,
                          member: @member.reload.serializer,
                          pha_profile: @member.pha.try(:pha_profile).try(:serializer),

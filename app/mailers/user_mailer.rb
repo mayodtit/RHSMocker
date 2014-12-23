@@ -112,12 +112,6 @@ class UserMailer < ActionMailer::Base
          end
   end
 
-  def notify_referrer(user, referral_code)
-    mail(to: User.find(referral_code.creator_id).email, subject: "Your friend #{user.first_name} just signed up with Better!") do |format|
-      format.text{ render text: "Your friend #{user.first_name} just signed up with Better!"}
-    end
-  end
-
   def confirm_credit_card_change(user, card)
     @user = user
     @card = card
