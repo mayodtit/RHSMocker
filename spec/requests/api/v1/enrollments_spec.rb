@@ -46,6 +46,15 @@ describe 'Enrollments' do
         end
       end
 
+      context 'referral code is not invalid' do
+        it 'returns error message' do
+          do_request(enrollment: {email: new_email, code: 'insider'})
+          response.should_not be_success
+          JSON.parse(response.body)['reason'].should == "invalid referral code"
+          JSON.parse(response.body)['user_message'].should == "invalid referral code"
+        end
+      end
+
       context 'with a referral code when sign up' do
         let(:new_email) { 'kyle+test@getbetter.com' }
         let(:member) {create(:member)}
