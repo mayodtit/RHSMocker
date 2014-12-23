@@ -9,7 +9,7 @@ class Api::V1::MemberTasksController < Api::V1::ABaseController
     tasks = @member.tasks
 
     if search_params[:subject_id].to_i == @member.id
-      tasks = tasks.where("type = 'ParsedNurselineRecordTask' OR type = 'WelcomeCallTask' OR type = 'AddTasksTask' OR subject_id = ?", params[:subject_id])
+      tasks = tasks.where(subject_id: [params[:subject_id], nil])
       search_params.delete :subject_id
     end
 

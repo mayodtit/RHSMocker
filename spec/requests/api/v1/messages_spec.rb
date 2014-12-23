@@ -35,8 +35,7 @@ describe 'Messages' do
         get '/api/v1/consults/current/messages', auth_token: session.auth_token
       end
 
-      let!(:master) { create(:consult, :master, initiator: user) }
-      let!(:master_message) { create(:message, consult: master) }
+      let!(:master_message) { create(:message, consult: user.master_consult) }
 
       it "indexes messages for the users's master consult" do
         do_request
@@ -78,6 +77,25 @@ describe 'Messages' do
         end
       end
     end
+
+    context 'messages api allows pagination' do
+      before do
+        create_list(:message, 30, consult: consult)
+      end
+
+      describe 'GET /api/v1/consults/:consult_id/messages?page=1' do
+        def do_request
+          get "/api/v1/consults/#{consult.id}/messages?page=1", auth_token: session.auth_token
+        end
+
+        it 'indexes 25 messages for the user‘s master consult' do
+          do_request
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:messages].count).to eq(25)
+        end
+      end
+    end
   end
 
   describe 'POST /api/v1/consults/:consult_id/messages' do
@@ -101,7 +119,6 @@ describe 'Messages' do
       post '/api/v1/consults/current/messages', params.merge!(auth_token: session.auth_token)
     end
 
-    let!(:consult) { create(:consult, :master, initiator: user) }
     let(:message_params) { {message: {text: 'test message'}} }
 
     it 'create a new message for the consult' do

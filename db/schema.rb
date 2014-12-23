@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141210010952) do
+ActiveRecord::Schema.define(:version => 20141217235156) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -182,6 +182,7 @@ ActiveRecord::Schema.define(:version => 20141210010952) do
     t.boolean  "master",             :default => false, :null => false
     t.string   "conversation_state"
     t.integer  "delayed_job_id"
+    t.datetime "disabled_at"
   end
 
   create_table "content_mayo_vocabularies", :force => true do |t|
@@ -292,6 +293,8 @@ ActiveRecord::Schema.define(:version => 20141210010952) do
     t.string   "advertiser_media_source"
     t.string   "advertiser_campaign"
     t.string   "code"
+    t.integer  "referral_code_id"
+    t.integer  "onboarding_group_id"
   end
 
   add_index "enrollments", ["token"], :name => "index_enrollments_on_token"
@@ -362,9 +365,23 @@ ActiveRecord::Schema.define(:version => 20141210010952) do
     t.string   "company_name"
     t.string   "plan_type"
     t.string   "policy_member_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",                                          :null => false
+    t.datetime "updated_at",                                          :null => false
     t.text     "notes"
+    t.string   "group_number"
+    t.datetime "effective_date"
+    t.datetime "termination_date"
+    t.string   "member_services_number"
+    t.boolean  "authorized",                       :default => false, :null => false
+    t.string   "subscriber_name"
+    t.string   "plan"
+    t.string   "family_individual"
+    t.string   "employer_individual"
+    t.string   "employer_exchange"
+    t.integer  "insurance_card_front_id"
+    t.integer  "insurance_card_back_id"
+    t.string   "insurance_card_front_client_guid"
+    t.string   "insurance_card_back_client_guid"
   end
 
   create_table "invitations", :force => true do |t|
@@ -510,14 +527,19 @@ ActiveRecord::Schema.define(:version => 20141210010952) do
 
   create_table "onboarding_groups", :force => true do |t|
     t.string   "name"
-    t.boolean  "premium",                     :default => false, :null => false
-    t.integer  "free_trial_days",             :default => 0,     :null => false
+    t.boolean  "premium",                       :default => false, :null => false
+    t.integer  "free_trial_days",               :default => 0,     :null => false
     t.datetime "absolute_free_trial_ends_at"
-    t.datetime "created_at",                                     :null => false
-    t.datetime "updated_at",                                     :null => false
+    t.datetime "created_at",                                       :null => false
+    t.datetime "updated_at",                                       :null => false
     t.integer  "provider_id"
     t.boolean  "mayo_pilot"
     t.integer  "pha_id"
+    t.integer  "trial_nux_story_id"
+    t.string   "stripe_coupon_code"
+    t.datetime "absolute_subscription_ends_at"
+    t.integer  "subscription_days",             :default => 0,     :null => false
+    t.boolean  "skip_credit_card",              :default => false, :null => false
   end
 
   create_table "parsed_nurseline_records", :force => true do |t|

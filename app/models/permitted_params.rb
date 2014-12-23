@@ -30,7 +30,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
                                              :free_trial_days,
                                              :absolute_free_trial_ends_at,
                                              :mayo_pilot,
-                                             :npi_number)
+                                             :npi_number,
+                                             :subscription_days,
+                                             :absolute_subscription_ends_at,
+                                             :skip_credit_card)
   end
 
   def referral_code
@@ -49,7 +52,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def user_image
-    params.require(:user_image).permit(:image)
+    params.require(:user_image).permit(:image, :client_guid)
   end
 
   def height
@@ -85,7 +88,9 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def insurance_policy
-    params.require(:insurance_policy).permit(:id, :company_name, :plan_type, :policy_member_id, :notes)
+    params.require(:insurance_policy).permit(:id, :company_name, :plan_type, :plan, :subscriber_name, :family_individual, :employer_individual, :employer_exchange,
+                                             :group_number, :effective_date, :termination_date, :member_services_number, :authorized, :policy_member_id, :notes,
+                                             :insurance_card_front_client_guid, :insurance_card_back_client_guid)
   end
 
   private

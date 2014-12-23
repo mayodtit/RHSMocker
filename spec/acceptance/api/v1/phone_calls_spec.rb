@@ -81,7 +81,7 @@ resource "PhoneCalls" do
     required_parameters :auth_token, :destination_phone_number
 
     let!(:user) { create(:member) }
-    let!(:consult) { create(:consult, :master, initiator: user) }
+    let!(:consult) { user.master_consult }
     let(:auth_token) { session.auth_token }
     let(:consult_id) { consult.id }
     let(:origin_phone_number) { '5551112222' }
