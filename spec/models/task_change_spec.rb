@@ -12,6 +12,11 @@ describe TaskChange do
     let(:task_change) { build_stubbed :task_change }
     let(:owner) { build_stubbed :pha }
     let(:actor) { build_stubbed :pha }
+    let(:view_task_task) {build_stubbed :view_task_task, assigned_task: task_change.task}
+
+    before do
+      ViewTaskTask.stub(:create_task_for_task) {view_task_task}
+    end
 
     shared_examples 'doesn\'t send pub sub notification' do
       it 'doesn\'t send a pub sub notification' do
@@ -53,19 +58,20 @@ describe TaskChange do
             end
 
             it 'send a pub sub notification' do
-              PubSub.should_receive(:publish).with "/users/#{task_change.task.owner_id}/notifications/tasks", {msg: "#{task_change.actor.first_name} assigned you a #{task_change.task.service_type.bucket} task", id: task_change.task_id, assignedTo: task_change.task.owner_id}
+              PubSub.should_receive(:publish).with "/users/#{task_change.task.owner_id}/notifications/tasks", {msg: "#{task_change.actor.first_name} assigned you a #{task_change.task.service_type.bucket} task", id: view_task_task.id, assignedTo: task_change.task.owner_id}
               task_change.publish
             end
           end
 
-          context 'task type is PhoneCallTask'
-          before do
-            task_change.task.stub(:type) { 'PhoneCallTask' }
-          end
+          context 'task type is PhoneCallTask' do
+            before do
+              task_change.task.stub(:type) { 'PhoneCallTask' }
+            end
 
-          it 'send a pub sub notification' do
-            PubSub.should_receive(:publish).with "/users/#{task_change.task.owner_id}/notifications/tasks", {msg: "#{task_change.actor.first_name} assigned you to a call", id: task_change.task_id, assignedTo: task_change.task.owner_id}
-            task_change.publish
+            it 'send a pub sub notification' do
+              PubSub.should_receive(:publish).with "/users/#{task_change.task.owner_id}/notifications/tasks", {msg: "#{task_change.actor.first_name} assigned you to a call", id: task_change.task.id, assignedTo: task_change.task.owner_id}
+              task_change.publish
+            end
           end
         end
       end
@@ -146,19 +152,20 @@ describe TaskChange do
           end
 
           it 'send a pub sub notification' do
-            PubSub.should_receive(:publish).with "/users/#{task_change.task.owner_id}/notifications/tasks", {msg: "#{task_change.actor.first_name} assigned you a #{task_change.task.service_type.bucket} task", id: task_change.task_id, assignedTo: task_change.task.owner_id}
+            PubSub.should_receive(:publish).with "/users/#{task_change.task.owner_id}/notifications/tasks", {msg: "#{task_change.actor.first_name} assigned you a #{task_change.task.service_type.bucket} task", id: view_task_task.id, assignedTo: task_change.task.owner_id}
             task_change.publish
           end
         end
 
-        context 'task type is PhoneCallTask'
-        before do
-          task_change.task.stub(:type) { 'PhoneCallTask' }
-        end
+        context 'task type is PhoneCallTask' do
+          before do
+            task_change.task.stub(:type) { 'PhoneCallTask' }
+          end
 
-        it 'send a pub sub notification' do
-          PubSub.should_receive(:publish).with "/users/#{task_change.task.owner_id}/notifications/tasks", {msg: "#{task_change.actor.first_name} assigned you to a call", id: task_change.task_id, assignedTo: task_change.task.owner_id}
-          task_change.publish
+          it 'send a pub sub notification' do
+            PubSub.should_receive(:publish).with "/users/#{task_change.task.owner_id}/notifications/tasks", {msg: "#{task_change.actor.first_name} assigned you to a call", id: task_change.task.id, assignedTo: task_change.task.owner_id}
+            task_change.publish
+          end
         end
       end
 

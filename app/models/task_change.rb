@@ -18,43 +18,55 @@ class TaskChange < ActiveRecord::Base
       actor_name = actor.first_name
     end
     # For existing tasks assigned to someone
-    if event == 'update' && data.has_key?('owner_id') && data['owner_id'].second != actor_id
-        case task.type
-          when 'MemberTask'
-            message = "#{actor_name} assigned you a #{task.service_type.bucket} task"
-          when 'PhoneCallTask'
-            message = "#{actor_name} assigned you to a call"
-          when 'MessageTask'
-            message = "#{actor_name} assigned you a message"
-          when 'UserRequestTask'
-            message = "#{actor_name} assigned you an appointment request"
-          when 'ParsedNurselineRecordTask'
-            message = "#{actor_name} assigned you a nurseline sumamry"
-          when 'UpgradeTask'
-            message = "#{actor_name} assigned you a user upgrade task"
-          when 'OffboardMemberTask'
-            message = "#{actor_name} assigned you an offboard task"
-        end
-        PubSub.publish "/users/#{task.owner_id}/notifications/tasks", {msg: message, id: task_id, assignedTo: task.owner_id}
+    if task.type != 'ViewTaskTask' && ((event == 'update' || event == 'unstart') && data.has_key?('owner_id') && data['owner_id'].second != actor_id)
+      viewTask = task
+
+      if task.type != 'MessageTask' && task.type != 'PhoneCallTask' && task.type != 'WelcomeCallTask'  && task.type != 'AddTasksTask'  && task.type != 'MessageMemberTask'
+        viewTask = ViewTaskTask.create_task_for_task(task)
+      end
+
+      case task.type
+        when 'MemberTask'
+          message = "#{actor_name} assigned you a #{task.service_type.bucket} task"
+        when 'PhoneCallTask'
+          message = "#{actor_name} assigned you to a call"
+        when 'MessageTask'
+          message = "#{actor_name} assigned you a message"
+        when 'UserRequestTask'
+          message = "#{actor_name} assigned you an appointment request"
+        when 'ParsedNurselineRecordTask'
+          message = "#{actor_name} assigned you a nurseline sumamry"
+        when 'UpgradeTask'
+          message = "#{actor_name} assigned you a user upgrade task"
+        when 'OffboardMemberTask'
+          message = "#{actor_name} assigned you an offboard task"
+      end
+      PubSub.publish "/users/#{task.owner_id}/notifications/tasks", {msg: message, id: viewTask.id, assignedTo: task.owner_id}
     # For new tasks assigned to someone
-    elsif (event.nil? && !task.owner_id.nil? && task.owner_id != actor_id)
-        case task.type
-          when 'MemberTask'
-            message = "#{actor_name} assigned you a #{task.service_type.bucket} task"
-          when 'PhoneCallTask'
-            message = "#{actor_name} assigned you to a call"
-          when 'MessageTask'
-            message = "#{actor_name} assigned you a message"
-          when 'UserRequestTask'
-            message = "#{actor_name} assigned you an appointment request"
-          when 'ParsedNurselineRecordTask'
-            message = "#{actor_name} assigned you a nurseline sumamry"
-          when 'UpgradeTask'
-            message = "#{actor_name} assigned you a user upgrade task"
-          when 'OffboardMemberTask'
-            message = "#{actor_name} assigned you an offboard task"
-        end
-        PubSub.publish "/users/#{task.owner_id}/notifications/tasks", {msg: message, id: task_id, assignedTo: task.owner_id}
+    elsif task.type != 'ViewTaskTask' && (event.nil? && !task.owner_id.nil? && task.owner_id != actor_id)
+      viewTask = task
+
+      if task.type != 'MessageTask' && task.type != 'PhoneCallTask' && task.type != 'WelcomeCallTask' && task.type != 'AddTasksTask'  && task.type != 'MessageMemberTask'
+        viewTask = ViewTaskTask.create_task_for_task(task)
+      end
+
+      case task.type
+        when 'MemberTask'
+          message = "#{actor_name} assigned you a #{task.service_type.bucket} task"
+        when 'PhoneCallTask'
+          message = "#{actor_name} assigned you to a call"
+        when 'MessageTask'
+          message = "#{actor_name} assigned you a message"
+        when 'UserRequestTask'
+          message = "#{actor_name} assigned you an appointment request"
+        when 'ParsedNurselineRecordTask'
+          message = "#{actor_name} assigned you a nurseline sumamry"
+        when 'UpgradeTask'
+          message = "#{actor_name} assigned you a user upgrade task"
+        when 'OffboardMemberTask'
+          message = "#{actor_name} assigned you an offboard task"
+      end
+      PubSub.publish "/users/#{task.owner_id}/notifications/tasks", {msg: message, id: viewTask.id, assignedTo: task.owner_id}
     # For new unassigned tasks
     elsif event.nil? && task.owner_id.nil? && task.role_id == Role.pha.try(:id)
       case task.type

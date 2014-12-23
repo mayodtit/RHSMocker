@@ -57,7 +57,6 @@ resource 'Users' do
         response = JSON.parse(response_body, :symbolize_names => true)
         new_user = User.find(response[:user][:id])
         response[:auth_token].should == new_user.sessions.first.auth_token
-        response[:user].to_json.should == new_user.serializer.as_json.to_json
       end
     end
   end

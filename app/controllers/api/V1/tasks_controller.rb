@@ -5,7 +5,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
   def index
     authorize! :read, Task
 
-    tasks = Task.where(params.permit(:state, :owner_id)).where(role_id: role.id).includes(:member).order('priority DESC, due_at ASC, created_at ASC')
+    tasks = Task.where(params.permit(:state, :owner_id)).where(role_id: role.id).includes(:member).order(task_order)
 
     index_resource tasks.serializer(shallow: true)
   end
@@ -22,9 +22,16 @@ class Api::V1::TasksController < Api::V1::ABaseController
       end
     end
 
-    tasks = query.where(role_id: role.id).includes(:member).order('priority DESC, due_at ASC, created_at ASC')
+    tasks = query.where(role_id: role.id, visible_in_queue: true).includes(:member).order(task_order)
+    future_count = 0
 
-    index_resource tasks.serializer(shallow: true)
+    if params.has_key? :only_today
+      eod = Time.now.pacific.end_of_day
+      future_count = tasks.where('due_at > ?', eod).count
+      tasks = tasks.where('due_at <= ?', eod)
+    end
+
+    render_success tasks: tasks.serializer(shallow: true), future_count: future_count
   end
 
   def show
@@ -71,6 +78,11 @@ class Api::V1::TasksController < Api::V1::ABaseController
 
   private
 
+  def task_order
+    pacific_offset = Time.zone_offset('PDT')/3600
+    "DATE(CONVERT_TZ(due_at, '+0:00', '#{pacific_offset}:00')) ASC, priority DESC, day_priority DESC, due_at ASC, created_at ASC"
+  end
+
   def role
     if current_user.roles.include? Role.pha
       return Role.pha
@@ -84,6 +96,6 @@ class Api::V1::TasksController < Api::V1::ABaseController
   end
 
   def task_attributes
-    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id)
+    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :day_priority)
   end
 end

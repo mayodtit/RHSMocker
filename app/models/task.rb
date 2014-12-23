@@ -12,6 +12,7 @@ class Task < ActiveRecord::Base
   belongs_to :service_type
   belongs_to :task_template
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
+  has_one :view_task_task
 
   attr_accessor :actor_id, :change_tracked, :reason
   attr_accessible :title, :description, :due_at,
@@ -20,7 +21,8 @@ class Task < ActiveRecord::Base
                   :abandoner, :abandoner_id, :role, :role_id,
                   :state_event, :service_type_id, :service_type,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
-                  :priority, :actor_id, :member_id, :member, :reason
+                  :priority, :actor_id, :member_id, :member, :reason, :visible_in_queue,
+                  :day_priority
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :owner, presence: true, if: lambda { |t| t.owner_id }
@@ -37,6 +39,7 @@ class Task < ActiveRecord::Base
   before_validation :set_role, on: :create
   before_validation :set_priority, on: :create
   before_validation :set_assigned_at
+  before_validation :reset_day_priority
 
   after_commit :publish
   after_save :notify
@@ -74,6 +77,12 @@ class Task < ActiveRecord::Base
 
   def set_priority
     self.priority = PRIORITY if priority.nil?
+  end
+
+  def reset_day_priority
+    if owner_id_changed? && owner_id_was
+      self.day_priority = 0
+    end
   end
 
   def set_assigned_at
@@ -223,6 +232,7 @@ class Task < ActiveRecord::Base
   def data
     changes = previous_changes.except(
       :state,
+      :visible_in_queue,
       :created_at,
       :updated_at,
       :assigned_at,

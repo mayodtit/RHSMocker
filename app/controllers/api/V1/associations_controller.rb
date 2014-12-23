@@ -42,6 +42,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   end
 
   def destroy
+    @association.actor_id = current_user.id
     destroy_resource @association
   end
 

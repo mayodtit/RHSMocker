@@ -5,6 +5,10 @@ resource "Tasks" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
+  before do
+    ViewTaskTask.stub(:create_task_for_task)
+  end
+
   let!(:pha) { create(:pha) }
   let(:session) { pha.sessions.create }
   let!(:other_pha) { create(:pha) }
@@ -21,6 +25,7 @@ resource "Tasks" do
   let(:auth_token) { session.auth_token }
 
   describe 'tasks' do
+
     parameter :auth_token, 'Performing hcp\'s auth_token'
     parameter :state, 'Filter by the state of task (e.g. \'unstarted\',\'started\', \'completed\')'
 
@@ -55,6 +60,7 @@ resource "Tasks" do
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
         response[:tasks].to_json.should == [assigned_task, started_task, claimed_task].serializer(shallow: true).to_json
+        response[:future_count].should == 0
       end
     end
   end

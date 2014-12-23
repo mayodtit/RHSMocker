@@ -62,7 +62,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
       },
       vars: {
         FNAME: user.salutation,
-        MEMBERNEED: user.nux_answer.try(:phrase) || 'your health needs',
+        MEMBERNEED: user.nux_answer.try(:phrase) || 'with your health needs',
         PHA_BIO: pha.pha_profile.try(:first_person_bio),
         PHA_HEADER_URL: meet_your_pha_header_url(pha)
       }
@@ -309,7 +309,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
       vars: {
         FNAME: user.salutation,
         PHA: pha.first_name,
-        MEMBERNEED: user.nux_answer.try(:phrase) || 'your health needs'
+        MEMBERNEED: user.nux_answer.try(:phrase) || 'with your health needs'
       },
     )
   end
@@ -367,7 +367,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
       },
       vars: {
         FNAME: user.salutation,
-        MEMBERNEED: user.nux_answer.try(:phrase) || 'your health needs',
+        MEMBERNEED: user.nux_answer.try(:phrase) || 'with your health needs',
         PHA_BIO: pha.pha_profile.try(:first_person_bio),
         PHA_HEADER_URL: meet_your_pha_header_url(pha)
       }

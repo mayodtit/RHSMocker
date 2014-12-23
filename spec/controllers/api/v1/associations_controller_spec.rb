@@ -66,6 +66,11 @@ describe Api::V1::AssociationsController do
         do_request
       end
 
+      it 'sets the creator id' do
+        associations.should_receive(:create).with hash_including(creator_id: user.id)
+        do_request
+      end
+
       context 'save succeeds' do
         it_behaves_like 'success'
 
@@ -142,6 +147,11 @@ describe Api::V1::AssociationsController do
     context 'authenticated and authorized', user: :authenticate_and_authorize! do
       it 'attempts to destroy the record' do
         association.should_receive(:destroy).once
+        do_request
+      end
+
+      it 'sets the actor id' do
+        association.should_receive(:actor_id=).with(user.id)
         do_request
       end
 

@@ -9,7 +9,8 @@ describe 'ScheduledMessages' do
     Timecop.return
   end
 
-  let(:consult) { create(:consult, :master) }
+  let!(:user) { create(:member) }
+  let(:consult) { user.master_consult }
   let(:pha) { create(:pha) }
   let(:session) { pha.sessions.create }
 

@@ -1,6 +1,9 @@
 language: ruby
 rvm:
-  - 2.0.0
+  - 2.0.0-p598
 before_script:
+  - mv config/application.yml.example config/application.yml
+  - mv config/database.yml.example config/database.yml
   - mysql -e 'create database rhs_test;'
-  - bundle exec rake db:test:prepare
+  - RAILS_ENV=test bundle exec rake db:schema:load
+script: "RAILS_ENV=test bundle exec rake spec"

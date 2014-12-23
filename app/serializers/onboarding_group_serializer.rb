@@ -3,7 +3,9 @@ class OnboardingGroupSerializer < ActiveModel::Serializer
 
   attributes :id, :name, :premium, :free_trial_days,
              :absolute_free_trial_ends_at, :users_count,
-             :mayo_pilot, :provider_id, :provider
+             :mayo_pilot, :provider_id, :provider,
+             :subscription_days, :absolute_subscription_ends_at,
+             :skip_credit_card
 
   def users_count
     object.users.count

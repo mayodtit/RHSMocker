@@ -290,6 +290,49 @@ describe Task do
     end
   end
 
+  describe '#reset_day_priority' do
+    let(:task) { build :task, day_priority: 11 }
+
+    context 'owner_id changed' do
+      before do
+        task.stub(:owner_id_changed?) { true }
+      end
+
+      context 'owner_id existed' do
+        before do
+          task.stub(:owner_id_was) { 1 }
+        end
+
+        it 'resets day priority to 0' do
+          task.reset_day_priority
+          task.day_priority.should == 0
+        end
+      end
+
+      context 'owner_id didn\'t exist' do
+        before do
+          task.stub(:owner_id_was) { nil }
+        end
+
+        it 'resets day priority to 0' do
+          task.reset_day_priority
+          task.day_priority.should == 11
+        end
+      end
+    end
+
+    context 'owner_id did not change' do
+      before do
+        task.stub(:owner_id_changed?) { false }
+      end
+
+      it 'doesn\'t reset day priority' do
+        task.reset_day_priority
+        task.day_priority.should == 11
+      end
+    end
+  end
+
   describe '#set_assigned_at' do
     let(:task) { build :task }
 
@@ -954,6 +997,7 @@ describe Task do
           task.abandoner_id = 5
           task.creator_id = 3
           task.state = 'unstarted'
+          task.visible_in_queue = true
           task.stub(:previous_changes) { task.changes }
         end
 

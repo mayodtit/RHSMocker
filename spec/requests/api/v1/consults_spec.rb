@@ -23,8 +23,8 @@ shared_examples 'creates a message' do |num_messages|
 end
 
 describe 'Consults' do
-  let(:user) { create(:member) }
-  let(:session) { user.sessions.create }
+  let!(:user) { create(:member) }
+  let!(:session) { user.sessions.create }
 
   before do
     Role.find_or_create_by_name!(:pha)
@@ -42,7 +42,8 @@ describe 'Consults' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:consults].to_json).to eq([consult].serializer.as_json.to_json)
+        expect(body[:consults]).to_not be_empty
+        expect(body[:consults].map{|c| c[:id]}).to include(consult.id)
       end
     end
 
@@ -51,13 +52,11 @@ describe 'Consults' do
         get "/api/v1/consults/current", auth_token: session.auth_token
       end
 
-      let!(:master) { create(:consult, :master, initiator: user) }
-
       it 'shows the master consult' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:consult].to_json).to eq(master.serializer.as_json.to_json)
+        expect(body[:consult].to_json).to eq(user.reload.master_consult.serializer.as_json.to_json)
       end
     end
 
@@ -86,7 +85,7 @@ describe 'Consults' do
     it_behaves_like 'creates a consult'
 
     context 'with a subject' do
-      let(:subject) { create(:user) }
+      let!(:subject) { create(:user) }
       let(:params) { {consult: {title: title, subject_id: subject.id}} }
 
       it 'creates a new consult for the given subject' do
