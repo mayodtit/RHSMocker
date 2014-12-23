@@ -66,7 +66,7 @@ describe Api::V1::MemberTasksController do
         it 'return ParsedNurselineRecordTasks' do
           member.should_receive(:tasks) do
             o = Object.new
-            o.should_receive(:where).with("type = 'ParsedNurselineRecordTask' OR type = 'WelcomeCallTask' OR type = 'AddTasksTask' OR subject_id = ?", member.id.to_s) do
+            o.should_receive(:where).with(subject_id: [member.id.to_s, nil]) do
               o_o = Object.new
               o_o.should_receive(:where).with('state' => 'unassigned') do
                 o_o_o = Object.new

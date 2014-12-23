@@ -12,7 +12,7 @@
   {key: 'direct_nurse_phone_number', value: '5553334444'},
   {key: 'force_phas_off_call', value: 'false'},
   {key: 'enable_sharing', value: 'true'},
-  {key: 'signup_free_trial', value: 'true'},
+  {key: 'signup_free_trial', value: 'false'},
   {key: 'new_onboarding_flow', value: 'true'},
   {key: 'offboard_free_trial_members', value: 'true'},
   {key: 'automated_onboarding', value: 'true'},

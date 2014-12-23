@@ -15,6 +15,7 @@ describe Api::V1::TasksController do
 
   before(:each) do
     controller.stub(:current_ability => ability)
+    controller.stub(:task_order) { 'due_at DESC' }
   end
 
   describe 'GET index' do
@@ -36,7 +37,7 @@ describe Api::V1::TasksController do
             o_o = Object.new
             o_o.stub(:includes).with(:member) do
               o_o_o = Object.new
-              o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
+              o_o_o.stub(:order).with('due_at DESC') { tasks }
               o_o_o
             end
             o_o
@@ -56,7 +57,7 @@ describe Api::V1::TasksController do
             o_o = Object.new
             o_o.stub(:includes).with(:member) do
               o_o_o = Object.new
-              o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
+              o_o_o.stub(:order).with('due_at DESC') { tasks }
               o_o_o
             end
             o_o
@@ -88,15 +89,11 @@ describe Api::V1::TasksController do
         it 'returns tasks for the current hcp' do
           Task.should_receive(:owned).with(user) do
             o = Object.new
-            o.stub(:where).with(visible_in_queue: true) do
+            o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true) do
               o_o = Object.new
-              o_o.stub(:where).with(role_id: nurse_role.id) do
+              o_o.stub(:includes).with(:member) do
                 o_o_o = Object.new
-                o_o_o.stub(:includes).with(:member) do
-                  o_o_o_o = Object.new
-                  o_o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
-                  o_o_o_o
-                end
+                o_o_o.stub(:order).with('due_at DESC') { tasks }
                 o_o_o
               end
               o_o
@@ -107,6 +104,7 @@ describe Api::V1::TasksController do
           do_request
           body = JSON.parse(response.body, symbolize_names: true)
           body[:tasks].to_json.should == tasks.serializer(shallow: true).as_json.to_json
+          body[:future_count].should == 0
         end
       end
 
@@ -122,26 +120,23 @@ describe Api::V1::TasksController do
 
           it 'returns tasks for the current hcp' do
             Task.should_receive(:needs_triage).with(user) do
-              o = Object.new
-              o.stub(:where).with(visible_in_queue: true) do
-                o_o = Object.new
-                o_o.stub(:where).with(role_id: nurse_role.id) do
-                  o_o_o = Object.new
-                  o_o_o.stub(:includes).with(:member) do
-                    o_o_o_o = Object.new
-                    o_o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
-                    o_o_o_o
-                  end
-                  o_o_o
+              o_o = Object.new
+              o_o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true) do
+                o_o_o = Object.new
+                o_o_o.stub(:includes).with(:member) do
+                  o_o_o_o = Object.new
+                  o_o_o_o.stub(:order).with('due_at DESC') { tasks }
+                  o_o_o_o
                 end
-                o_o
+                o_o_o
               end
-              o
+              o_o
             end
 
             do_request
             body = JSON.parse(response.body, symbolize_names: true)
             body[:tasks].to_json.should == tasks.serializer(shallow: true).as_json.to_json
+            body[:future_count].should == 0
           end
         end
 
@@ -152,26 +147,23 @@ describe Api::V1::TasksController do
 
           it 'returns tasks for the current hcp' do
             Task.should_receive(:needs_triage_or_owned).with(user) do
-              o = Object.new
-              o.stub(:where).with(visible_in_queue: true) do
-                o_o = Object.new
-                o_o.stub(:where).with(role_id: nurse_role.id) do
-                  o_o_o = Object.new
-                  o_o_o.stub(:includes).with(:member) do
-                    o_o_o_o = Object.new
-                    o_o_o_o.stub(:order).with('priority DESC, due_at ASC, created_at ASC') { tasks }
-                    o_o_o_o
-                  end
-                  o_o_o
+              o_o = Object.new
+              o_o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true) do
+                o_o_o = Object.new
+                o_o_o.stub(:includes).with(:member) do
+                  o_o_o_o = Object.new
+                  o_o_o_o.stub(:order).with('due_at DESC') { tasks }
+                  o_o_o_o
                 end
-                o_o
+                o_o_o
               end
-              o
+              o_o
             end
 
             do_request
             body = JSON.parse(response.body, symbolize_names: true)
             body[:tasks].to_json.should == tasks.serializer(shallow: true).as_json.to_json
+            body[:future_count].should == 0
           end
         end
       end

@@ -332,6 +332,9 @@ GEM
       dante (>= 0.2.0)
       jimson-temp
       stripe (>= 1.15.0)
+    stripe_event (1.4.0)
+      activesupport (>= 3.1)
+      stripe (~> 1.6)
     strong_parameters (0.2.1)
       actionpack (~> 3.0)
       activemodel (~> 3.0)
@@ -430,6 +433,7 @@ DEPENDENCIES
   state_machine-audit_trail
   stripe
   stripe-ruby-mock (~> 2.0.0)
+  stripe_event
   strong_parameters
   sunspot_rails
   sunspot_solr

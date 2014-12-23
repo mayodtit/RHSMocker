@@ -41,7 +41,7 @@ class Member < User
   has_one :shared_subscription, through: :subscription_user,
                                 class_name: 'Subscription',
                                 source: :subscription
-  has_many :tasks, class_name: 'Task', conditions: {type: ['MemberTask', 'UserRequestTask', 'ParsedNurselineRecordTask', 'WelcomeCallTask']}
+  has_many :tasks, class_name: 'Task', conditions: ['type NOT IN (?, ?, ?)', 'MessageTask', 'PhoneCallTask', 'ViewTaskTask']
   has_many :request_tasks, class_name: 'Task', conditions: {type: %w(UserRequestTask ParsedNurselineRecordTask)}
   has_many :service_tasks, class_name: 'MemberTask',
                            conditions: proc{ {service_type_id: ServiceType.non_engagement_ids} }
@@ -112,10 +112,12 @@ class Member < User
   before_validation :set_signed_up_at, if: ->(m){m.signed_up? && m.status_changed?}
   before_validation :set_free_trial_ends_at, if: ->(m){m.status?(:trial) && m.status_changed?}
   before_validation :unset_free_trial_ends_at
+  before_validation :set_subscription_ends_at, if: ->(m){m.status?(:premium) && m.status_changed?}
+  before_validation :unset_subscription_ends_at
   before_validation :set_invitation_token
   before_validation :unset_invitation_token
-  before_validation :set_pha, if: ->(m){m.is_premium? && m.status_changed?}
-  before_validation :set_master_consult, if: ->(m){m.is_premium? && m.status_changed?}
+  before_validation :set_pha, if: ->(m){m.signed_up? && m.status_changed?}
+  before_validation :set_master_consult, if: ->(m){m.signed_up? && m.status_changed?}
   after_create :add_new_member_content
   after_create :add_owned_referral_code
   after_create :add_onboarding_group_provider
@@ -386,6 +388,10 @@ class Member < User
         task.abandon!
       end
     end
+
+    after_transition %i(premium chamath) => :free do |member, transition|
+      DestroyStripeSubscriptionService.new(member, :downgrade).call if member.stripe_customer_id
+    end
   end
 
   def set_signed_up_at
@@ -399,6 +405,15 @@ class Member < User
   def unset_free_trial_ends_at
     return if invited? || trial?
     self.free_trial_ends_at = nil if free_trial_ends_at
+  end
+
+  def set_subscription_ends_at
+    self.subscription_ends_at ||= onboarding_group.try(:subscription_ends_at, signed_up_at)
+  end
+
+  def unset_subscription_ends_at
+    return if premium?
+    self.subscription_ends_at = nil if subscription_ends_at
   end
 
   def set_member_flag
@@ -453,12 +468,10 @@ class Member < User
   def add_new_member_content
     if onboarding_group.try(:mayo_pilot?)
       cards.create(resource: Content.mayo_pilot, priority: 30) if Content.mayo_pilot
-    else
-      cards.create(resource: Content.free_trial, priority: 30) if Content.free_trial
     end
     cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
-    if @sunscreen_content = Content.find_by_document_id('MY01350')
-      cards.create(resource: @sunscreen_content, priority: 1)
+    if @cold_weather_content = Content.find_by_document_id('HQ01681')
+      cards.create(resource: @cold_weather_content, priority: 1)
     end
     if @happiness_content = Content.find_by_document_id('MY01357')
       cards.create(resource: @happiness_content, priority: 1)

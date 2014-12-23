@@ -37,7 +37,7 @@ class Api::V1::PhoneCallsController < Api::V1::ABaseController
     phone_call_params = params.require(:phone_call).permit(:user_id,
                                                            :destination_phone_number)
     phone_call_params[:outbound] = true
-    phone_call_params[:creator_id] = current_user
+    phone_call_params[:creator_id] = current_user.id
     phone_call_params[:origin_phone_number] = current_user.work_phone_number
 
     create_resource PhoneCall, phone_call_params
