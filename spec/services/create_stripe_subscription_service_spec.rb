@@ -34,11 +34,12 @@ describe CreateStripeSubscriptionService do
         end
 
         context 'customer has a referral code' do
-          let(:referral_code) { create :referral_code}
+          let(:referrer) { create(:member) }
+          let(:referral_code) { create :referral_code, user: referrer }
           let(:user) { create(:member, :premium, referral_code_id: referral_code.id) }
 
           it 'should give customer a 50% off coupon' do
-            StripeSubscriptionService.new(user, plan_id, credit_card_token).create
+            described_class.new(user: user, plan_id: plan_id, credit_card_token: credit_card_token).call
             expect(Stripe::Customer.retrieve(user.stripe_customer_id).coupon).to eq("OneTimeFiftyPercentOffCoupon")
           end
         end
