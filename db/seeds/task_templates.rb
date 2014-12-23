@@ -53,7 +53,7 @@ TaskTemplate.find_or_create_by_name(
     name: "complete member profile",
     service_template: ServiceTemplate.find_by_name('30 day experience'),
     title: "Complete Profile",
-    description: "Data to complete:<br> - Address<br> - Birthday<br> - Gender<br> - Insurance Information<br> - Current Care Team<br> - Medical Conditions<br> - Height and Weight (for WM only)<br> - Due date (for Pregnancy only)",
+    description: "Data to complete:\n\n - Address\n - Birthday\n - Gender\n - Insurance Information\n - Current Care Team\n - Medical Conditions\n - Height and Weight (for WM only)\n - Due date (for Pregnancy only)",
     time_estimate: 10000,
     service_ordinal: 1
 )
