@@ -454,7 +454,7 @@ TRIAL_HTML = <<-eof
           Get your own Personal Health Assistant to organize your health information, create a personalized plan based on your needs, and work with you to achieve your health goals.
         </p>
         <p>
-          At the end of your free month, your card will be charged $19.99/month. If you cancel your subscription before the trial is over, you will not be charged.
+          At the end of your free month, your card will be charged $19.99/month. You can cancel anytime during your free month and you will not be charged.
         </p>
       </div>
     </div>
@@ -475,10 +475,127 @@ NuxStory.upsert_attributes({unique_id: 'CREDIT_CARD'},
                             enable_webview_scrolling: false,
                             text_header: 'Enter your credit card information to get your free month.',
                             text_footer: nil,
-                            enabled: true})
+                            enabled: true,
+                            secondary_action_button_text: 'No thanks.'})
 NuxStory.upsert_attributes({unique_id: 'SIGN_UP_SUCCESS'},
                            {html: TRIAL_HTML,
                             action_button_text: 'Get a month free',
                             show_nav_signup: false,
                             enable_webview_scrolling: false,
                             enabled: false})
+
+REFER_HTML = <<-eof
+<html>
+  <head>
+    <style>
+      @font-face {
+        font-family: 'Roboto Light';
+        font-style: normal;
+        font-weight: 300;
+        src: local("Roboto Light"), local("Roboto-Light"), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/Hgo13k-tfSpn0qi1SFdUfbO3LdcAZYWl9Si6vvxL-qU.woff) format("woff");
+      }
+
+      @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: local("Roboto Regular"), local("Roboto-Regular"), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format("woff");
+      }
+
+      .content {
+        font-family: 'Roboto';
+        font-size: 16px;
+        color: white;
+        margin: 50pt 10pt 10pt 10pt;
+      }
+
+      #title {
+        font-family: 'Roboto Light';
+        font-size: 24px;
+      }
+
+      #body {
+        margin-top: 10pt;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div id='title'>Try Better for Free</div>
+      <div id='body'>
+        <p>
+          Get your own Personal Health Assistant to organize your health information, create a personalized plan based on your needs, and work with you to achieve your health goals.
+        </p>
+        <p>
+          At the end of your free month, you'll get a 50% discount off of your first paid month. You can cancel anytime during your free month and you will not be charged.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+eof
+
+NuxStory.upsert_attributes({unique_id: 'REFER'},
+                           {html: REFER_HTML,
+                            action_button_text: 'Continue',
+                            show_nav_signup: false,
+                            enable_webview_scrolling: false,
+                            enabled: true})
+
+TWIST_TRIAL_HTML = <<-eof
+<html>
+  <head>
+    <style>
+      @font-face {
+        font-family: 'Roboto Light';
+        font-style: normal;
+        font-weight: 300;
+        src: local("Roboto Light"), local("Roboto-Light"), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/Hgo13k-tfSpn0qi1SFdUfbO3LdcAZYWl9Si6vvxL-qU.woff) format("woff");
+      }
+
+      @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: local("Roboto Regular"), local("Roboto-Regular"), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format("woff");
+      }
+
+      .content {
+        font-family: 'Roboto';
+        font-size: 16px;
+        color: white;
+        margin: 50pt 10pt 10pt 10pt;
+      }
+
+      #title {
+        font-family: 'Roboto Light';
+        font-size: 24px;
+      }
+
+      #body {
+        margin-top: 10pt;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div id='title'>Try Better for Free</div>
+      <div id='body'>
+        <p>
+          Get your own Personal Health Assistant to organize your health information, create a personalized plan based on your needs, and work with you to achieve your health goals.
+        </p>
+        <p>
+          Thanks to Jason Calacanis and TWIST, you’ll be provided with a free month of Better and 50% off your first paid month. That’s six weeks of the health care you deserve, thanks to @jason.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+eof
+
+NuxStory.upsert_attributes({unique_id: 'TWIST_TRIAL'},
+                           {html: TWIST_TRIAL_HTML,
+                            action_button_text: 'Continue',
+                            show_nav_signup: false,
+                            enable_webview_scrolling: false,
+                            enabled: true})

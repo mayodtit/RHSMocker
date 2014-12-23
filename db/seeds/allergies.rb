@@ -886,3 +886,15 @@ Allergy.find_or_create_by_name(name: "Mycoline",
                                food_allergen: "false",
                                environment_allergen: "false",
                                medication_allergen: "true")
+Allergy.find_or_create_by_name(name: "Tramadol",
+                               snomed_name: "Allergy to tramadol (disorder)",
+                               snomed_code: "2916926012",
+                               food_allergen: "false",
+                               environment_allergen: "false",
+                               medication_allergen: "true")
+Allergy.find_or_create_by_name(name: "Povidone Iodine",
+                               snomed_name: "Povidone iodine allergy (disorder)",
+                               snomed_code: "689968014",
+                               food_allergen: "false",
+                               environment_allergen: "false",
+                               medication_allergen: "true")

@@ -14,7 +14,7 @@ class MessageMemberTask < Task
     self.owner = member.pha
     self.assignor = Member.robot
     self.assigned_at = Time.now
-    self.due_at = Time.end_of_workday(Time.now)
+    self.due_at = Time.now.pacific.eighteen_oclock
     self.description = "Member has not been messages in a week. Please send them a message."
     self.priority = 0
   end

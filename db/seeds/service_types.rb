@@ -4,6 +4,7 @@ ServiceType.find_or_create_by_name(name: 'other', bucket: 'other')
 # Insurance --
 ServiceType.find_or_create_by_name(name: 'benefit evaluation', bucket: 'insurance')
 ServiceType.find_or_create_by_name(name: 'claims', bucket: 'insurance')
+ServiceType.find_or_create_by_name(name: 'medical bill investigation', bucket: 'insurance')
 ServiceType.find_or_create_by_name(name: 'cost estimation', bucket: 'insurance')
 ServiceType.find_or_create_by_name(name: 'deductible/FSA/HSA status assessment', bucket: 'insurance')
 ServiceType.find_or_create_by_name(name: 'eligibility check', bucket: 'insurance')
@@ -30,6 +31,7 @@ ServiceType.find_or_create_by_name(name: 'other care coordination', bucket: 'car
 ServiceType.upsert_attributes!({name: 'preventive care reminders'}, bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'urgent care and emergency room', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'prevention screenings', bucket: 'care coordination')
+ServiceType.find_or_create_by_name(name: 'assemble care team', bucket: 'care coordination')
 
 # Engagement --
 ServiceType.find_or_create_by_name(name: 'welcome call', bucket: 'engagement')
@@ -42,8 +44,14 @@ ServiceType.find_or_create_by_name(name: 'send pregnancy content card', bucket: 
 ServiceType.find_or_create_by_name(name: 're-engagement', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'relevant content', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'themed months questions and content', bucket: 'engagement')
-s = ServiceType.find_by_name('other care engagement')
-s.destroy if s
+ServiceType.find_or_create_by_name(name: 'offer insurance review service', bucket: 'engagement')
+ServiceType.find_or_create_by_name(name: 'offer care team creation service', bucket: 'engagement')
+ServiceType.find_or_create_by_name(name: 'complete profile', bucket: 'engagement')
+ServiceType.find_or_create_by_name(name: 'introduction task', bucket: 'engagement')
+ServiceType.find_or_create_by_name(name: 'PHA Introduction', bucket: 'engagement')
+ServiceType.find_or_create_by_name(name: 'check-in message', bucket: 'engagement')
+ServiceType.find_or_create_by_name(name: 'service and message planning', bucket: 'engagement')
+ServiceType.find_or_create_by_name(name: 'review member meals', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'other engagement', bucket: 'engagement')
 
 # Wellness --
@@ -52,6 +60,10 @@ ServiceType.find_or_create_by_name(name: 'nutrition assessment and plan', bucket
 ServiceType.find_or_create_by_name(name: 'sleep assessment and plan', bucket: 'wellness')
 ServiceType.find_or_create_by_name(name: 'stress assessment and plan', bucket: 'wellness')
 ServiceType.find_or_create_by_name(name: 'wellness research', bucket: 'wellness')
+ServiceType.find_or_create_by_name(name: 'send articles or tips', bucket: 'wellness')
+ServiceType.find_or_create_by_name(name: 'send recipes', bucket: 'wellness')
+ServiceType.find_or_create_by_name(name: 'send member meal feedback', bucket: 'wellness')
+ServiceType.find_or_create_by_name(name: 'send member travel planning', bucket: 'wellness')
 ServiceType.find_or_create_by_name(name: 'other wellness', bucket: 'wellness')
 # Wellness -- weight mgmnt
 ServiceType.find_or_create_by_name(name: 'celebration video', bucket: 'wellness')

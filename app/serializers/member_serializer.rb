@@ -58,7 +58,6 @@ class MemberSerializer < ActiveModel::Serializer
 
         if options[:include_nested_information]
           attributes.merge!(user_information: object.user_information,
-                            insurance_policy: object.insurance_policy,
                             provider: object.provider,
                             emergency_contact: object.emergency_contact.try(:serializer).try(:as_json))
         end
@@ -154,6 +153,6 @@ class MemberSerializer < ActiveModel::Serializer
   end
 
   def meet_your_pha_text
-    "#{object.pha.try(:first_name)} is your Personal Health Assistant. #{object.pha.try(:gender_pronoun).try(:titleize)}’ll start by helping you #{object.nux_answer.try(:phrase) || 'your health needs'}."
+    "#{object.pha.try(:first_name)} is your Personal Health Assistant. #{object.pha.try(:gender_pronoun).try(:titleize)}’ll start by helping you #{object.nux_answer.try(:phrase) || 'with your health needs'}."
   end
 end

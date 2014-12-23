@@ -7,7 +7,7 @@ class MemberObserver < ActiveRecord::Observer
   private
 
   def add_automated_communication_workflows(member)
-    return unless member.previous_changes[:status]
+    return if member.owner_id
     return unless member.inbound_scheduled_communications.empty?
     member.transaction do
       if member.trial?

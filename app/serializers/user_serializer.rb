@@ -29,7 +29,6 @@ class UserSerializer < ActiveModel::Serializer
 
         if options[:include_nested_information]
           attributes.merge!(user_information: object.user_information,
-                            insurance_policy: object.insurance_policy,
                             provider: object.provider,
                             emergency_contact: object.emergency_contact.try(:serializer).try(:as_json))
         end

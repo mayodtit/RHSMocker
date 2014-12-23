@@ -22,7 +22,7 @@ describe AddTasksTask do
 
     it 'sets due_at to end of workday' do
       task.set_required_attrs
-      task.due_at = Time.end_of_workday(Time.now)
+      task.due_at = Time.now.eighteen_oclock
     end
 
     it 'sets service type' do

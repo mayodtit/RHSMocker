@@ -104,6 +104,7 @@ describe Api::V1::TasksController do
           do_request
           body = JSON.parse(response.body, symbolize_names: true)
           body[:tasks].to_json.should == tasks.serializer(shallow: true).as_json.to_json
+          body[:future_count].should == 0
         end
       end
 
@@ -135,6 +136,7 @@ describe Api::V1::TasksController do
             do_request
             body = JSON.parse(response.body, symbolize_names: true)
             body[:tasks].to_json.should == tasks.serializer(shallow: true).as_json.to_json
+            body[:future_count].should == 0
           end
         end
 
@@ -161,6 +163,7 @@ describe Api::V1::TasksController do
             do_request
             body = JSON.parse(response.body, symbolize_names: true)
             body[:tasks].to_json.should == tasks.serializer(shallow: true).as_json.to_json
+            body[:future_count].should == 0
           end
         end
       end

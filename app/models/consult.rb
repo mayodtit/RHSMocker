@@ -1,4 +1,5 @@
 class Consult < ActiveRecord::Base
+  include SoftDeleteModule
   belongs_to :initiator, class_name: 'Member'
   belongs_to :subject, class_name: 'User'
   belongs_to :symptom
@@ -41,25 +42,21 @@ class Consult < ActiveRecord::Base
     return if messages.any?
     return unless initiator.signed_up?
     return unless initiator.pha
-    if Metadata.new_onboarding_flow?
-      nux_answer_name = initiator.nux_answer.try(:name) || 'something else'
+    nux_answer_name = initiator.nux_answer.try(:name) || 'something else'
 
-      if Role.pha.on_call?
-        mt = MessageTemplate.find_by_name "New Premium Member Part 1: #{nux_answer_name}"
-        mt.create_message initiator.pha, self, true, false, true if mt
-        mt = MessageTemplate.find_by_name "New Premium Member Part 2: #{nux_answer_name}"
-        mt.delay(run_at: Metadata.new_signup_second_message_delay.seconds.from_now).create_message(initiator.pha, self, false, false, true) if mt
-      else
-        mt = MessageTemplate.find_by_name "New Premium Member Off Hours: #{nux_answer_name}"
-        mt.create_message initiator.pha, self, true, true, true if mt
-      end
-
-      self.reload
+    if initiator.free?
+      MessageTemplate.find_by_name('Free Onboarding').try(:create_message, initiator.pha, self, true, true, true)
+    elsif Role.pha.on_call?
+      mt = MessageTemplate.find_by_name "New Premium Member Part 1: #{nux_answer_name}"
+      mt.create_message initiator.pha, self, true, false, true if mt
+      mt = MessageTemplate.find_by_name "New Premium Member Part 2: #{nux_answer_name}"
+      mt.delay(run_at: Metadata.new_signup_second_message_delay.seconds.from_now).create_message(initiator.pha, self, false, false, true) if mt
     else
-      mt = MessageTemplate.find_by_name 'New Premium Member OLD'
-      mt.create_message initiator.pha, self, true if mt
-      self.reload
+      mt = MessageTemplate.find_by_name "New Premium Member Off Hours: #{nux_answer_name}"
+      mt.create_message initiator.pha, self, true, true, true if mt
     end
+
+    self.reload
   end
 
   def self.deactivate_if_last_message(message_id)
