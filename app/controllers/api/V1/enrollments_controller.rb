@@ -44,7 +44,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
     @referral_code = ReferralCode.find_by_code(params[:enrollment][:code]) if params[:enrollment].try(:[], :code)
     if params[:enrollment].try(:[], :code) && !@referral_code
       render_failure({reason: 'invalid referral code',
-                      user_message:'invalid referral code'})
+                      user_message:'Referral code is invalid'})
     end
   end
 
