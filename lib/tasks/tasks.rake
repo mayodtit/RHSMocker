@@ -77,6 +77,7 @@ namespace :tasks do
       converted_data = task_change.data.gsub(/([a-zA-z][a-zA-z][a-zA-z], \d\d [a-zA-z][a-zA-z][a-zA-z] \d\d\d\d \d\d:\d\d:\d\d [a-zA-z][a-zA-z][a-zA-z] \+\d\d:\d\d)/, 'Time.parse("\1")')
       task_change.data = eval converted_data
       task_change.save!
+
     end
   end
 
@@ -113,5 +114,25 @@ namespace :tasks do
         end
       end
     end
+  end
+
+  desc "Send Members OOO message"
+    task :holiday_ooo_message => :environment do
+      holidayMessage = "We hope you're having a wonderful holiday week! Our PHA team will be offline from 12PM PST today through 12/25. They'll be back on Friday. In the meantime, if you have any symptoms or medical questions, tap the phone icon to talk to a Mayo Clinic nurse."
+      newYearsMessage = "Tomorrow our team of PHAs will be offline. They’ll be back on 1/2 to support you with your New Year’s resolutions. As always, Mayo Clinic nurses are available 24/7. Tap the phone icon to connect. Cheers to a healthy New Year!"
+      Member.premium_states.each do |m|
+        if( ScheduledSystemMessage.where(recipient_id: m.id, text: holidayMessage, state: :scheduled).count == 0 )
+          ScheduledSystemMessage.create(sender: Member.robot,
+                                        recipient: m,
+                                        publish_at: Time.parse('24 Dec 2014 08:00:00 PST -08:00'),
+                                        text: holidayMessage)
+        end
+        if( ScheduledSystemMessage.where(recipient_id: m.id, text: newYearsMessage, state: :scheduled).count == 0 )
+          ScheduledSystemMessage.create(sender: Member.robot,
+                                        recipient: m,
+                                        publish_at: Time.parse('31 Dec 2014 08:00:00 PST -08:00'),
+                                        text: newYearsMessage)
+        end
+      end
   end
 end
