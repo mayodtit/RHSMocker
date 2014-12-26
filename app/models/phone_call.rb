@@ -350,11 +350,6 @@ class PhoneCall < ActiveRecord::Base
       transition any => :ended
     end
 
-    # NOTE: Backwards compatibility with old design of CP
-    event :reclaim do
-      transition :ended => :claimed
-    end
-
     event :unclaim do
       transition [:disconnected, :claimed] => :unclaimed
     end
