@@ -169,11 +169,9 @@ class Member < User
   end
 
   def self.geoff
-    m = find_or_create_by_email(email: 'geoff@getbetter.com',
-                            first_name: 'Geoff',
-                            last_name: 'Clapp')
-    m.add_role 'pha' unless m.pha?
-    m
+    find_or_create_by_email(email: 'geoff@getbetter.com', first_name: 'Geoff', last_name: 'Clapp').tap do |m|
+      m.add_role :pha unless m.pha?
+    end
   end
 
   def self.phas

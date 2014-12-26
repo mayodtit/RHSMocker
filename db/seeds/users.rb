@@ -152,3 +152,9 @@ PHA_ATTRIBUTES.each do |attributes|
   image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:bio_image]))
   m.pha_profile.update_attributes(full_page_bio_image: image)
 end
+
+Member.upsert_attributes({email: 'testphone+robot@getbetter.com'}, {first_name: 'Better', last_name: '', avatar_url_override: 'http://i.imgur.com/eU3p9Hj.jpg'})
+
+Member.upsert_attributes({email: 'geoff@getbetter.com'}, {first_name: 'Geoff', last_name: 'Clapp'}).tap do |m|
+  m.add_role :pha unless m.pha?
+end
