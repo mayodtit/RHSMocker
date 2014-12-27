@@ -555,28 +555,42 @@ namespace :seeds do
   end
 
   desc "Adds nurseline summaries for a random member of every PHA in the system."
-  task :add_nurseline_summaries => :environment do |t, args|
+  task :add_nurseline_summaries, [:unknown] => :environment do |t, args|
     api_user = ApiUser.first || ApiUser.create!(name: 'Test API User')
 
     NurselineRecord.skip_callback :create, :after, :create_processing_job
 
-    Role.pha.users.each do |pha|
-      member = Member.joins(:master_consult).where('NOT status = ?', :free).where(pha_id: pha.id).sample
-      next unless member
-
-      puts "PHA #{pha.id} (#{pha.full_name}): Adding summary, records, and tasks to Member #{member.id} (#{member.full_name})"
+    if args[:unknown]
+      puts "Adding unknown summary, records, and tasks"
 
       n = NurselineRecord.create!(
-        payload: "<div>Member #{member.id} was coughing up rabbits.</div>",
+        payload: "<div>Unknown member was coughing up rabbits.</div>",
         api_user: api_user
       )
 
       ParsedNurselineRecord.create!(
-        user_id: member.id,
-        consult_id: member.master_consult.id,
         nurseline_record_id: n.id,
-        text: "Member #{member.id} was coughing up rabbits."
+        text: "Unknown member was coughing up rabbits."
       )
+    else
+      Role.pha.users.each do |pha|
+        member = Member.joins(:master_consult).where('NOT status = ?', :free).where(pha_id: pha.id).sample
+        next unless member
+
+        puts "PHA #{pha.id} (#{pha.full_name}): Adding summary, records, and tasks to Member #{member.id} (#{member.full_name})"
+
+        n = NurselineRecord.create!(
+          payload: "<div>Member #{member.id} was coughing up rabbits.</div>",
+          api_user: api_user
+        )
+
+        ParsedNurselineRecord.create!(
+          user_id: member.id,
+          consult_id: member.master_consult.id,
+          nurseline_record_id: n.id,
+          text: "Member #{member.id} was coughing up rabbits."
+        )
+      end
     end
 
     NurselineRecord.set_callback :create, :after, :create_processing_job
