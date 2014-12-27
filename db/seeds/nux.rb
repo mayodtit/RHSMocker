@@ -236,7 +236,7 @@ NuxStory.upsert_attributes({unique_id: 'INTRO_PHA'},
                             ordinal: 2,
                             enabled: true})
 
-intro_available_base64 = ActiveSupport::Base64.encode64(open("https://s3-us-west-2.amazonaws.com/btr-static/images/iPhoneDemo-2.png"){|io| io.read})
+intro_available_base64 = ActiveSupport::Base64.encode64(open("https://s3-us-west-2.amazonaws.com/btr-static/images/iPhoneDemo-3.png"){|io| io.read})
 
 INTRO_AVAILABLE_HTML = <<-eof
 <html>
