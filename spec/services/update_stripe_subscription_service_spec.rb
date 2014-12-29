@@ -10,11 +10,22 @@ describe 'UpdateStripeSubscriptionService' do
     StripeMock.start
     Stripe::Plan.create(amount: 1999,
                         interval: :month,
-                        name: 'Single Membership',
+                        name: 'Better Premium, Single Membership',
+                        currency: :usd,
+                        id: 'bp20')
+    Stripe::Plan.create(amount: 4999,
+                        interval: :month,
+                        name: 'Better Premium, Family Membership',
                         currency: :usd,
                         id: 'bp50')
+    Stripe::Plan.create(amount: 19200,
+                        interval: :year,
+                        name: 'Better Premium, Family Membership',
+                        currency: :usd,
+                        id: 'bpYRSingle192')
     subscription = CreateStripeSubscriptionService.new(user: user, plan_id: 'bp50', credit_card_token: credit_card_token).call
     user.update_attribute(:stripe_customer_id, subscription.customer)
+    # Stripe::Invoice.create(customer: user.stripe_customer_id, subscription: subscription.id)
   end
 
   after do
@@ -26,20 +37,21 @@ describe 'UpdateStripeSubscriptionService' do
       let(:plan_id) { 'bpYRSingle192' }
 
       def do_method
-        described_class.new(user, plan_id).call
+        UpdateStripeSubscriptionService.new(user, plan_id).call
       end
 
       it 'should update the customer‘s subscription' do
-        expect(Stripe::Customer.retrieve(user.stripe_customer_id).subscriptions.data[0].id).to eq('bp50')
+        expect(Stripe::Customer.retrieve(user.stripe_customer_id).subscriptions.data[0].plan.id).to eq('bp50')
         do_method
-        expect(Stripe::Customer.retrieve(user.stripe_customer_id).subscriptions.data[0].id).to eq('bpYRSingle192')
+        expect(Stripe::Customer.retrieve(user.stripe_customer_id).subscriptions.data[0].plan.id).to eq('bpYRSingle192')
       end
 
       it 'prorate and create the invoice immediately' do
-        expect(Stripe::Customer.retrieve(user.stripe_customer_id).invoices.data[-1].lines.data[0].plan.id).to eq('bp50')
+        # expect(Stripe::Customer.retrieve(user.stripe_customer_id).invoices.last.subscription).to eq(subscription.id)
         do_method
-        expect(Stripe::Customer.retrieve(user.stripe_customer_id).invoices.data[-1].lines.data[0].proration).to eq(true)
-        expect(Stripe::Customer.retrieve(user.stripe_customer_id).invoices.data[-1].lines.data[0].plan.id).to eq('bpYRSingle192')
+        byebug
+        expect(Stripe::Customer.retrieve(user.stripe_customer_id).invoices.last.lines.data[0].proration).to eq(true)
+        # expect(Stripe::Customer.retrieve(user.stripe_customer_id).invoices.last.lines.data[0].plan.id).to eq('bpYRSingle192')
       end
     end
 
