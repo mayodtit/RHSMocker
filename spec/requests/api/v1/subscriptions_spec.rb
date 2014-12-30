@@ -37,9 +37,9 @@ describe 'Subscriptions' do
 
     it 'creates a system message for the user' do
       do_request
-      expect(user.master_consult.messages.last.user_id).to eq(Member.robot.id)
-      expect(user.master_consult.messages.last.system).to eq(true)
-      expect(user.master_consult.messages.last.text).to eq("Thank you for upgrading your subscription to bp20.")
+      expect(user.master_consult.reload.messages.last.user_id).to eq(Member.robot.id)
+      expect(user.master_consult.reload.messages.last.system).to eq(true)
+      expect(user.master_consult.reload.messages.last.text).to eq("Thank you for upgrading your subscription to Single Membership.")
     end
 
     it_behaves_like 'success'

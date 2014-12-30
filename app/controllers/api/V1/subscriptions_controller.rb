@@ -59,7 +59,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
 
   def message_attributes
     {
-      text: "Thank you for upgrading your subscription to #{subscription_attributes[:plan]}.",
+      text: "Thank you for upgrading your subscription to #{Stripe::Plan.retrieve(subscription_attributes[:plan]).name}.",
       user_id: Member.robot.id,
       system: true,
       consult_id: @user.master_consult.id
