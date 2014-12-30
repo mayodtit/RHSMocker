@@ -29,7 +29,11 @@ class UpdateStripeSubscriptionService
 
   def upgrade_or_downgrade
     load_current_plan_id!
-    #now, no yearly to monthly, so just compare the price
+    #now, no yearly to monthly upgrade or downgrade, so just compare the price
+    # upgrade_patten = [['bp10', 'bp20'], ['bp10', 'bp50'], ['bp10', 'bpYRSingle192'], ['bp10', 'bpYRFamily480'],
+    #                   ['bp20', 'bp50'], ['bp20', 'bpYRSingle192'], ['bp20', 'bpYRFamily480'], ['bp50', 'bpYRSingle192'],
+    #                   ['bp50', 'bpYRFamily480'], ['bpYRSingle192', 'bpYRFamily480']]
+    #left here as a reference
     if Stripe::Plan.retrieve(@plan_id).amount > Stripe::Plan.retrieve(@current_plan_id).amount
       :upgrade
     else
@@ -42,22 +46,15 @@ class UpdateStripeSubscriptionService
     @subscription.plan = @plan_id
     @subscription.prorate = true
     @subscription.save
-    # invoice = Stripe::Invoice.create(customer: @customer.id, subscription: @subscription.id)
-    # invoice.pay
   end
 
   def downgrade_subscription
     load_subscription!
-    # ScheduledJobs.
     @subscription.plan = @plan_id
     @subscription.prorate = false
     @subscription.save
+    @run_at = @subscription.current_period_end
   end
 
-  handle_asynchronously :downgrade_subscription, :run_at => Proc.new { @subscription.current_period_end }
+  handle_asynchronously :downgrade_subscription, :run_at => Proc.new { @run_at }
 end
-
-
-# upgrade_patten = [['bp10', 'bp20'], ['bp10', 'bp50'], ['bp10', 'bpYRSingle192'], ['bp10', 'bpYRFamily480'],
-#                   ['bp20', 'bp50'], ['bp20', 'bpYRSingle192'], ['bp20', 'bpYRFamily480'], ['bp50', 'bpYRSingle192'],
-#                   ['bp50', 'bpYRFamily480'], ['bpYRSingle192', 'bpYRFamily480']]
