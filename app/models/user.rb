@@ -18,6 +18,7 @@ class User < ActiveRecord::Base
   has_many :conditions, :through=> :user_conditions
   has_many :user_treatments
   has_many :treatments, :through=> :user_treatments
+  has_many :discount_records
   belongs_to :ethnic_group
   belongs_to :diet
   has_one :user_information

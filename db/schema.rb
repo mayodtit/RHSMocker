@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141219031144) do
+ActiveRecord::Schema.define(:version => 20150102213010) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -182,6 +182,7 @@ ActiveRecord::Schema.define(:version => 20141219031144) do
     t.boolean  "master",             :default => false, :null => false
     t.string   "conversation_state"
     t.integer  "delayed_job_id"
+    t.datetime "disabled_at"
   end
 
   create_table "content_mayo_vocabularies", :force => true do |t|
@@ -265,6 +266,17 @@ ActiveRecord::Schema.define(:version => 20141219031144) do
     t.datetime "updated_at",                  :null => false
     t.integer  "ordinal",     :default => 0,  :null => false
     t.datetime "disabled_at"
+  end
+
+  create_table "discount_records", :force => true do |t|
+    t.integer  "referral_code_id", :null => false
+    t.integer  "referee_id",       :null => false
+    t.integer  "referrer_id"
+    t.string   "coupon",           :null => false
+    t.boolean  "referrer",         :null => false
+    t.datetime "redeemed_at"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
   create_table "emergency_contacts", :force => true do |t|
