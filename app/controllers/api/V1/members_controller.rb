@@ -27,33 +27,35 @@ class Api::V1::MembersController < Api::V1::ABaseController
   end
 
   def create
-    @member = Member.create create_attributes
-    if @member.errors.empty?
-      @session = @member.sessions.create
-      begin
-        if user_params[:payment_token]
-          CreateStripeSubscriptionService.new(user: @member,
-                                              plan_id: 'bp20',
-                                              credit_card_token: user_params[:payment_token],
-                                              trial_end: Time.zone.now.pacific.end_of_day + 1.month,
-                                              coupon_code: coupon_code).call
+    begin
+      ActiveRecord::Base.transaction do
+        @member = Member.create create_attributes
+        if @member.errors.empty?
+          @session = @member.sessions.create
+          if user_params[:payment_token]
+            CreateStripeSubscriptionService.new(user: @member,
+                                                plan_id: 'bp20',
+                                                credit_card_token: user_params[:payment_token],
+                                                trial_end: Time.zone.now.pacific.end_of_day + 1.month,
+                                                coupon_code: coupon_code).call
+          end
+          SendWelcomeEmailService.new(@member).call
+          SendConfirmEmailService.new(@member).call
+          render_success user: @member.serializer,
+                         member: @member.reload.serializer,
+                         pha_profile: @member.pha.try(:pha_profile).try(:serializer),
+                         auth_token: @session.auth_token
+        else
+          render_failure({reason: @member.errors.full_messages.to_sentence,
+                          user_message: @member.errors.full_messages.to_sentence}, 422)
         end
-      rescue Stripe::CardError => e
-        render_failure({reason: e.as_json['code'],
-                        user_message: e.as_json['message']}, 422) and return
-      rescue => e
-        render_failure({reason: e.to_s,
-                        user_message: "There's an error with your credit card, please try another one"}, 422) and return
       end
-      SendWelcomeEmailService.new(@member).call
-      SendConfirmEmailService.new(@member).call
-      render_success user: @member.serializer,
-                     member: @member.reload.serializer,
-                     pha_profile: @member.pha.try(:pha_profile).try(:serializer),
-                     auth_token: @session.auth_token
-    else
-      render_failure({reason: @member.errors.full_messages.to_sentence,
-                      user_message: @member.errors.full_messages.to_sentence}, 422)
+    rescue Stripe::CardError => e
+      render_failure({reason: e.as_json['code'],
+                      user_message: e.as_json['message']}, 422) and return
+    rescue Stripe::StripeError => e
+      render_failure({reason: e.to_s,
+                      user_message: "There's an error with your credit card, please try another one"}, 422) and return
     end
   end
 

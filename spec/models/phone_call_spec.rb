@@ -1844,32 +1844,6 @@ describe PhoneCall do
 
     end
 
-    describe '#reclaim!' do
-      before do
-        phone_call.state = 'ended'
-        phone_call.ender = other_nurse
-        phone_call.ended_at = Time.now
-        phone_call.claimer = nurse
-        phone_call.reclaim!
-      end
-
-      it 'changes the state to claimed' do
-        phone_call.should be_claimed
-      end
-
-      it 'unsets the ender' do
-        phone_call.ender.should be_nil
-      end
-
-      it 'unsets the ended time' do
-        phone_call.ended_at.should be_nil
-      end
-
-      it 'sets the claimed time' do
-        phone_call.claimed_at.should == Time.now
-      end
-    end
-
     describe '#unclaim!' do
       before do
         phone_call.state = 'claimed'

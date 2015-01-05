@@ -21,7 +21,7 @@ class TaskChange < ActiveRecord::Base
     if task.type != 'ViewTaskTask' && ((event == 'update' || event == 'unstart') && data.has_key?('owner_id') && data['owner_id'].second != actor_id)
       viewTask = task
 
-      if task.type != 'MessageTask' && task.type != 'PhoneCallTask' && task.type != 'WelcomeCallTask'  && task.type != 'AddTaskTask'  && task.type != 'MessageMemberTask'
+      if task.type != 'MessageTask' && task.type != 'PhoneCallTask' && task.type != 'WelcomeCallTask'  && task.type != 'AddTasksTask'  && task.type != 'MessageMemberTask'
         viewTask = ViewTaskTask.create_task_for_task(task)
       end
 
@@ -35,7 +35,7 @@ class TaskChange < ActiveRecord::Base
         when 'UserRequestTask'
           message = "#{actor_name} assigned you an appointment request"
         when 'ParsedNurselineRecordTask'
-          message = "#{actor_name} assigned you a nurseline sumamry"
+          message = "#{actor_name} assigned you a nurseline summary"
         when 'UpgradeTask'
           message = "#{actor_name} assigned you a user upgrade task"
         when 'OffboardMemberTask'
@@ -46,7 +46,7 @@ class TaskChange < ActiveRecord::Base
     elsif task.type != 'ViewTaskTask' && (event.nil? && !task.owner_id.nil? && task.owner_id != actor_id)
       viewTask = task
 
-      if task.type != 'MessageTask' && task.type != 'PhoneCallTask' && task.type != 'WelcomeCallTask' && task.type != 'AddTaskTask'  && task.type != 'MessageMemberTask'
+      if task.type != 'MessageTask' && task.type != 'PhoneCallTask' && task.type != 'WelcomeCallTask' && task.type != 'AddTasksTask'  && task.type != 'MessageMemberTask'
         viewTask = ViewTaskTask.create_task_for_task(task)
       end
 
@@ -60,7 +60,7 @@ class TaskChange < ActiveRecord::Base
         when 'UserRequestTask'
           message = "#{actor_name} assigned you an appointment request"
         when 'ParsedNurselineRecordTask'
-          message = "#{actor_name} assigned you a nurseline sumamry"
+          message = "#{actor_name} assigned you a nurseline summary"
         when 'UpgradeTask'
           message = "#{actor_name} assigned you a user upgrade task"
         when 'OffboardMemberTask'

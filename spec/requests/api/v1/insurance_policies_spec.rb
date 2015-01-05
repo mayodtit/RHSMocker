@@ -57,7 +57,7 @@ describe 'Insurance_Policies' do
       it 'destroys the insurance policy' do
         do_request
         expect(response).to be_success
-        expect(InsurancePolicy.find_by_id(insurance_policy.id)).to be_nil
+        expect(InsurancePolicy.unscoped.find_by_id(insurance_policy.id).disabled_at).to_not be_nil
       end
     end
   end

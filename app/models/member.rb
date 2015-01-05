@@ -169,11 +169,9 @@ class Member < User
   end
 
   def self.geoff
-    m = find_or_create_by_email(email: 'geoff@getbetter.com',
-                            first_name: 'Geoff',
-                            last_name: 'Clapp')
-    m.add_role 'pha' unless m.pha?
-    m
+    find_or_create_by_email(email: 'geoff@getbetter.com', first_name: 'Geoff', last_name: 'Clapp').tap do |m|
+      m.add_role :pha unless m.pha?
+    end
   end
 
   def self.phas
@@ -468,12 +466,10 @@ class Member < User
   def add_new_member_content
     if onboarding_group.try(:mayo_pilot?)
       cards.create(resource: Content.mayo_pilot, priority: 30) if Content.mayo_pilot
-    else
-      cards.create(resource: Content.free_trial, priority: 30) if Content.free_trial
     end
     cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
-    if @sunscreen_content = Content.find_by_document_id('MY01350')
-      cards.create(resource: @sunscreen_content, priority: 1)
+    if @cold_weather_content = Content.find_by_document_id('HQ01681')
+      cards.create(resource: @cold_weather_content, priority: 1)
     end
     if @happiness_content = Content.find_by_document_id('MY01357')
       cards.create(resource: @happiness_content, priority: 1)

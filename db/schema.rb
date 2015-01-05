@@ -376,9 +376,24 @@ ActiveRecord::Schema.define(:version => 20150102213010) do
     t.string   "company_name"
     t.string   "plan_type"
     t.string   "policy_member_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",                                          :null => false
+    t.datetime "updated_at",                                          :null => false
     t.text     "notes"
+    t.string   "group_number"
+    t.datetime "effective_date"
+    t.datetime "termination_date"
+    t.string   "member_services_number"
+    t.boolean  "authorized",                       :default => false, :null => false
+    t.string   "subscriber_name"
+    t.string   "plan"
+    t.string   "family_individual"
+    t.string   "employer_individual"
+    t.string   "employer_exchange"
+    t.integer  "insurance_card_front_id"
+    t.integer  "insurance_card_back_id"
+    t.string   "insurance_card_front_client_guid"
+    t.string   "insurance_card_back_client_guid"
+    t.datetime "disabled_at"
   end
 
   create_table "invitations", :force => true do |t|
