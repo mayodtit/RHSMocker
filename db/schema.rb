@@ -270,8 +270,7 @@ ActiveRecord::Schema.define(:version => 20150102213010) do
 
   create_table "discount_records", :force => true do |t|
     t.integer  "referral_code_id", :null => false
-    t.integer  "referee_id",       :null => false
-    t.integer  "referrer_id"
+    t.integer  "user_id",          :null => false
     t.string   "coupon",           :null => false
     t.boolean  "referrer",         :null => false
     t.datetime "redeemed_at"
