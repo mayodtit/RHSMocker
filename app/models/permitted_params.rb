@@ -64,7 +64,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def discount_history
-    params.require(:discount_history).permit(:user_id, :referral_code_id, :redeemed_at)
+    params.require(:discount_history).permit(:user_id, :referral_code_id, :coupon, :redeemed_at, :referrer)
   end
 
   def blood_pressure

@@ -43,18 +43,17 @@ class GrantReferrerCreditWhenRefereePay
 
   def used_referral_code?(referee, referrer)
     DiscountRecord.where(referral_code_id = referee.referral_code_id).each do |record|
-      return true if record.user_id = referrer.id
+      return true if record.user_id == referrer.id
     end
     false
   end
 
   def redeem_coupon(referrer, customer)
-    byebug
-    referrer_discount_record = referrer.discount_records.find("discount_records.redeemed_at IS NULL")
+    referrer_discount_record = referrer.discount_records.find_by_redeemed_at(nil)
     if referrer_discount_record
       customer.coupon = referrer_discount_record.coupon
       customer.save
-      rreferrer_discount_record.redeemed_at = Time.now
+      referrer_discount_record.redeemed_at = Time.now
       referrer_discount_record.save!
     end
   end

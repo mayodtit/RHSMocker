@@ -1,7 +1,5 @@
 Stripe.api_key = ENV['STRIPE_API_KEY']
 
-ONE_TIME_FIFTY_PERCENT_OFF_COUPON_CODE = 'OneTimeFiftyPercentOffCoupon'
-
 module Stripe
   def self.execute_request(opts)
     RestClient::Request.execute(opts.merge(ssl_version: :TLSv1))
@@ -17,10 +15,10 @@ StripeEvent.configure do |events|
   end
 
   events.subscribe 'charge.succeeded' do |event|
-    OfferFreeMonthToReferrerWhenRefereePay.new(event).assign_coupon
+    GrantReferrerCreditWhenRefereePay.new(event).assign_coupon
   end
 
   events.subscribe 'invoice.created' do |event|
-    OfferFreeMonthToReferrerWhenRefereePay.new(event).apply_coupon
+    GrantReferrerCreditWhenRefereePay.new(event).apply_coupon
   end
 end

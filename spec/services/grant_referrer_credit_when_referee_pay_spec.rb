@@ -5,10 +5,18 @@ describe 'GrantReferrerCreditWhenRefereePay' do
   let(:referrer) {create(:member)}
   let(:referee) {create(:member, referral_code_id: referral_code.id)}
   let(:referral_code) {create(:referral_code, name: referrer.email, user_id: referrer.id)}
-  let(:discount_record) { DiscountRecord.new(:discount_record, user_id: referrer.id, coupon: 'OneTimeFiftyPercentOffCoupon', referrer: true)}
 
   before do
     StripeMock.start
+    referee_customer = Stripe::Customer.create(email: referee.email,
+                                               description: StripeExtension.customer_description(referee.id),
+                                               card: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+    referee.update_attribute(:stripe_customer_id, referee_customer.id)
+    referrer_customer = Stripe::Customer.create(email: referrer.email,
+                                                description: StripeExtension.customer_description(referrer.id),
+                                                card: StripeMock.generate_card_token(last4: "0003", exp_year: 1984))
+    referrer.update_attribute(:stripe_customer_id, referrer_customer.id)
+    Stripe::Coupon.create(id: 'OneTimeFiftyPercentOffCoupon', percent_off: 50, duration: 'once')
   end
 
   after do
@@ -37,11 +45,8 @@ describe 'GrantReferrerCreditWhenRefereePay' do
 
   describe '#apply_coupon' do
     before do
-      referrer_customer = Stripe::Customer.create(email: referrer.email,
-                                                  description: StripeExtension.customer_description(referrer.id),
-                                                  card: StripeMock.generate_card_token(last4: "0003", exp_year: 1984))
-      referrer.update_attribute(:stripe_customer_id, referrer_customer.id)
-      Stripe::Coupon.create(id: 'OneTimeFiftyPercentOffCoupon', percent_off: 50, duration: 'once')
+      event = StripeMock.mock_webhook_event('charge.succeeded', {customer: referee.stripe_customer_id})
+      GrantReferrerCreditWhenRefereePay.new(event).assign_coupon
     end
 
     def do_method
