@@ -1,7 +1,12 @@
 require 'spec_helper'
 require 'stripe_mock'
 
-describe 'OfferFreeMonthToReferrerWhenRefereePay' do
+describe 'GrantReferrerCreditWhenRefereePay' do
+  let(:referrer) {create(:member)}
+  let(:referee) {create(:member, referral_code_id: referral_code.id)}
+  let(:referral_code) {create(:referral_code, name: referrer.email, user_id: referrer.id)}
+  let(:discount_record) { DiscountRecord.new(:discount_record, user_id: referrer.id, coupon: 'OneTimeFiftyPercentOffCoupon', referrer: true)}
+
   before do
     StripeMock.start
   end
@@ -11,10 +16,6 @@ describe 'OfferFreeMonthToReferrerWhenRefereePay' do
   end
 
   describe '#assign_coupon' do
-    let(:referrer) {create(:member)}
-    let(:referee) {create(:member, referral_code_id: referral_code.id)}
-    let(:referral_code) {create(:referral_code, name: referrer.email, user_id: referrer.id)}
-
     before do
       referee_customer = Stripe::Customer.create(email: referee.email,
                                                  description: StripeExtension.customer_description(referee.id),
@@ -24,25 +25,17 @@ describe 'OfferFreeMonthToReferrerWhenRefereePay' do
 
     def do_method
       event = StripeMock.mock_webhook_event('charge.succeeded', {customer: referee.stripe_customer_id})
-      OfferFreeMonthToReferrerWhenRefereePay.new(event).assign_coupon
+      GrantReferrerCreditWhenRefereePay.new(event).assign_coupon
     end
 
-    it 'should increase the quantity of referrer‘s coupon number by 1' do
-      expect(referrer.coupon_count).to eq(0)
+    it 'should add the discount to discount_records' do
+      expect(referrer.discount_records.count).to eq(0)
       do_method
-      expect(referrer.reload.coupon_count).to eq(1)
-    end
-
-    it 'should remove the referee‘s referral code id' do
-      expect(referee.referral_code_id).to eq(referral_code.id)
-      do_method
-      expect(referee.reload.referral_code_id).to eq(nil)
+      expect(referrer.reload.discount_records.count).to eq(1)
     end
   end
 
-  describe '#redeem_coupon' do
-    let(:referrer) {create(:member, coupon_count:1)}
-
+  describe '#apply_coupon' do
     before do
       referrer_customer = Stripe::Customer.create(email: referrer.email,
                                                   description: StripeExtension.customer_description(referrer.id),
@@ -53,7 +46,7 @@ describe 'OfferFreeMonthToReferrerWhenRefereePay' do
 
     def do_method
       event = StripeMock.mock_webhook_event('invoice.created', {customer: referrer.stripe_customer_id})
-      OfferFreeMonthToReferrerWhenRefereePay.new(event).apply_coupon
+      GrantReferrerCreditWhenRefereePay.new(event).apply_coupon
     end
 
     it 'should assign the coupon to referrer‘s stripe discount' do
@@ -62,10 +55,10 @@ describe 'OfferFreeMonthToReferrerWhenRefereePay' do
       expect(Stripe::Customer.retrieve(referrer.reload.stripe_customer_id).coupon).to eq('OneTimeFiftyPercentOffCoupon')
     end
 
-    it 'should decrease the referrer‘ coupon number by 1' do
-      expect(referrer.coupon_count).to eq(1)
+    it 'should time stamp the redeemed_at for the user' do
+      expect(referrer.discount_records.last.redeemed_at).to eq(nil)
       do_method
-      expect(referrer.reload.coupon_count).to eq(0)
+      expect(referrer.reload.discount_records.last.redeemed_at).not_to eq(nil)
     end
   end
 end
