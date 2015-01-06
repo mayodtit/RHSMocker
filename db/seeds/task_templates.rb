@@ -6,7 +6,7 @@ TaskTemplate.find_or_create_by_name(
     description: "Find a provider for a member",
     time_estimate: 900,
     service_ordinal: 1
-).create_guides!(["This is a guide", "This is another guide", "a third guide?"])
+)
 TaskTemplate.find_or_create_by_name(
     name: "perform provider search",
     service_template: ServiceTemplate.find_by_name('provider search'),

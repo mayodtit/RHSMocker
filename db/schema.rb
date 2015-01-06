@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141215222212) do
+ActiveRecord::Schema.define(:version => 20150106221309) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -182,6 +182,7 @@ ActiveRecord::Schema.define(:version => 20141215222212) do
     t.boolean  "master",             :default => false, :null => false
     t.string   "conversation_state"
     t.integer  "delayed_job_id"
+    t.datetime "disabled_at"
   end
 
   create_table "content_mayo_vocabularies", :force => true do |t|
@@ -364,9 +365,24 @@ ActiveRecord::Schema.define(:version => 20141215222212) do
     t.string   "company_name"
     t.string   "plan_type"
     t.string   "policy_member_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",                                          :null => false
+    t.datetime "updated_at",                                          :null => false
     t.text     "notes"
+    t.string   "group_number"
+    t.datetime "effective_date"
+    t.datetime "termination_date"
+    t.string   "member_services_number"
+    t.boolean  "authorized",                       :default => false, :null => false
+    t.string   "subscriber_name"
+    t.string   "plan"
+    t.string   "family_individual"
+    t.string   "employer_individual"
+    t.string   "employer_exchange"
+    t.integer  "insurance_card_front_id"
+    t.integer  "insurance_card_back_id"
+    t.string   "insurance_card_front_client_guid"
+    t.string   "insurance_card_back_client_guid"
+    t.datetime "disabled_at"
   end
 
   create_table "invitations", :force => true do |t|
@@ -876,6 +892,7 @@ ActiveRecord::Schema.define(:version => 20141215222212) do
     t.integer  "task_template_id"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
+    t.string   "title"
   end
 
   create_table "task_templates", :force => true do |t|

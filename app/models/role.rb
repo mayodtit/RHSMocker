@@ -9,15 +9,15 @@ class Role < ActiveRecord::Base
                    uniqueness: {scope: %i(resource_id resource_type)}
 
   def on_call?
-    during_on_call? Time.now
-  end
+        during_on_call? Time.now
+    end
 
-  def during_on_call? timestamp
-    on_call = false
+    def during_on_call? timestamp
+      on_call = false
 
-    case name
-      when 'pha'
-        t = timestamp.in_time_zone('Pacific Time (US & Canada)')
+      case name
+        when 'pha'
+          t = timestamp.in_time_zone('Pacific Time (US & Canada)')
         on_call = (Metadata.force_phas_on_call? || !(t.wday == 0 || t.wday == 6 || t.hour < ON_CALL_START_HOUR || t.hour > (ON_CALL_END_HOUR - 1))) && !Metadata.force_phas_off_call?
       when 'nurse'
         on_call = true
