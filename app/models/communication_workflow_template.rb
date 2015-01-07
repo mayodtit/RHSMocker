@@ -39,11 +39,14 @@ class CommunicationWorkflowTemplate < ActiveRecord::Base
       # TODO - hack. reference time is set to the previous business day, but we want the current time
       if relative_hours > 0
         if (Time.now + relative_hours.hours + 1.hour).business_time?
-          if (Time.now + relative_hours.hours) > 1.business_day.after(reference_time.pacific.nine_oclock)
+          if (Time.now + relative_hours.hours) > 1.business_day.after(reference_time.pacific.eight_oclock) && (Time.now + relative_hours.hours) < 1.business_day.after(reference_time.pacific.eight_oclock)
+            #if sending between 8-9am, send at 10am
+            1.business_day.after(reference_time.pacific.ten_oclock)
+          elsif (Time.now + relative_hours.hours) >= 1.business_day.after(reference_time.pacific.nine_oclock)
             # if sending after 9AM, delay 1 hour
             Time.now + relative_hours.hours
           else
-            # if before 9AM, send at 9AM
+            # if before 8AM, send at 9AM
             1.business_day.after(reference_time.pacific.nine_oclock)
           end
         else
