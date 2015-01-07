@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141230224314) do
+ActiveRecord::Schema.define(:version => 20150107202652) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1138,7 +1138,6 @@ ActiveRecord::Schema.define(:version => 20141230224314) do
     t.string   "expertise"
     t.boolean  "deceased",                                      :default => false, :null => false
     t.string   "city"
-    t.string   "state"
     t.string   "type",                                          :default => "",    :null => false
     t.string   "invitation_token"
     t.string   "units",                                         :default => "US",  :null => false
