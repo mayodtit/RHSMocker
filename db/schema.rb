@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150106221309) do
+ActiveRecord::Schema.define(:version => 20150106233831) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -888,7 +888,7 @@ ActiveRecord::Schema.define(:version => 20150106221309) do
   add_index "task_changes", ["task_id"], :name => "index_task_changes_on_task_id"
 
   create_table "task_guides", :force => true do |t|
-    t.string   "description"
+    t.text     "description"
     t.integer  "task_template_id"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
@@ -898,7 +898,7 @@ ActiveRecord::Schema.define(:version => 20150106221309) do
   create_table "task_templates", :force => true do |t|
     t.string   "name",                :null => false
     t.string   "title",               :null => false
-    t.string   "description"
+    t.text     "description"
     t.integer  "time_estimate"
     t.integer  "service_ordinal"
     t.integer  "service_template_id"

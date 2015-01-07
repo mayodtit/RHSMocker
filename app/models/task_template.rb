@@ -26,13 +26,4 @@ class TaskTemplate < ActiveRecord::Base
       assignor: owner.present? ? (attributes[:assignor] || creator) : nil
     )
   end
-
-  def create_guides!(new_guides = [])
-    new_guides.each do |text|
-      TaskGuide.create!(
-        task_template: self,
-        description: text
-        )
-    end
-  end
 end
