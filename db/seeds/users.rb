@@ -112,6 +112,16 @@ PHA_ATTRIBUTES = [
     arrow_image: 'elbret-arrow.png',
     avatar_image: 'elbret-avatar.jpg',
     bio_image: 'elbret-bio_image.png'
+  },
+  {
+    email: 'caitlin@getbetter.com',
+    first_name: 'Caitlin',
+    last_name: 'P',
+    bio: "Caitlin has worked as a physical therapy aide and an EMT. She loves music and her favorite stress relievers are playing violin and hiking (though usually not at the same time).",
+    first_person_bio: "I’ve worked as a physical therapy aide and an EMT. I love music and my favorite stress relievers are playing violin and hiking (though usually not at the same time).",
+    arrow_image: 'caitlin-arrow.png',
+    avatar_image: 'caitlin-avatar.jpg',
+    bio_image: 'caitlin-bio_image.png'
   }
 ]
 
@@ -141,4 +151,10 @@ PHA_ATTRIBUTES.each do |attributes|
   m.pha_profile.update_attributes(bio_image: image)
   image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:bio_image]))
   m.pha_profile.update_attributes(full_page_bio_image: image)
+end
+
+Member.upsert_attributes({email: 'testphone+robot@getbetter.com'}, {first_name: 'Better', last_name: '', avatar_url_override: 'http://i.imgur.com/eU3p9Hj.jpg'})
+
+Member.upsert_attributes({email: 'geoff@getbetter.com'}, {first_name: 'Geoff', last_name: 'Clapp'}).tap do |m|
+  m.add_role :pha unless m.pha?
 end

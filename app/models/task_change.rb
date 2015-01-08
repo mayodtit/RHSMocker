@@ -35,7 +35,7 @@ class TaskChange < ActiveRecord::Base
         when 'UserRequestTask'
           message = "#{actor_name} assigned you an appointment request"
         when 'ParsedNurselineRecordTask'
-          message = "#{actor_name} assigned you a nurseline sumamry"
+          message = "#{actor_name} assigned you a nurseline summary"
         when 'UpgradeTask'
           message = "#{actor_name} assigned you a user upgrade task"
         when 'OffboardMemberTask'
@@ -60,7 +60,7 @@ class TaskChange < ActiveRecord::Base
         when 'UserRequestTask'
           message = "#{actor_name} assigned you an appointment request"
         when 'ParsedNurselineRecordTask'
-          message = "#{actor_name} assigned you a nurseline sumamry"
+          message = "#{actor_name} assigned you a nurseline summary"
         when 'UpgradeTask'
           message = "#{actor_name} assigned you a user upgrade task"
         when 'OffboardMemberTask'

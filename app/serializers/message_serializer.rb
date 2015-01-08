@@ -3,7 +3,7 @@ class MessageSerializer < ActiveModel::Serializer
 
   attributes :id, :text, :created_at, :consult_id, :title, :image_url, :type,
              :content_id, :symptom_id, :condition_id, :note, :user_image_id,
-             :contents
+             :contents, :system, :user_id
 
   has_one :user
   has_one :phone_call

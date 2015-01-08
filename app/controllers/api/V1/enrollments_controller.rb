@@ -25,7 +25,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
     if @enrollment.update_attributes enrollment_params
       render_success(enrollment: @enrollment.serializer,
                      next_action: next_action,
-                     trial_story: trial_story,
+                     trial_story: trial_or_refer,
                      credit_card_story: credit_card_story,
                      success_story: success_story)
     else
@@ -42,6 +42,10 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
 
   def load_referral_code
     @referral_code = ReferralCode.find_by_code(params[:enrollment][:code]) if params[:enrollment].try(:[], :code)
+    if params[:enrollment].try(:[], :code) && !@referral_code
+      render_failure({reason: 'invalid referral code',
+                      user_message:'Referral code is invalid'})
+    end
   end
 
   def load_onboarding_group
@@ -75,9 +79,23 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
     NuxStory.sign_up.try(:serializer)
   end
 
+  def trial_or_refer
+    if @referral_code && @referral_code.user_id
+      refer_story
+    else
+      trial_story
+    end
+  end
+
   def trial_story
     onboarding_group_or_default_trial_story.tap do |trial|
       trial.enabled = false if (trial && skip_credit_card?)
+    end.try(:serializer)
+  end
+
+  def refer_story
+    NuxStory.refer.tap do |refer|
+      refer.enabled = false if (refer && skip_credit_card?)
     end.try(:serializer)
   end
 
