@@ -1,4 +1,5 @@
 class InsurancePolicy < ActiveRecord::Base
+  include SoftDeleteModule
   belongs_to :user
   belongs_to :insurance_card_front, class_name: 'UserImage', inverse_of: :insurance_card_front_insurance_policies
   belongs_to :insurance_card_back, class_name: 'UserImage', inverse_of: :insurance_card_back_insurance_policies
