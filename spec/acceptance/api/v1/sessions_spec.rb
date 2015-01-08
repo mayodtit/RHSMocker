@@ -6,7 +6,8 @@ resource "Sessions" do
   header 'Content-Type', 'application/json'
 
   let(:password) { 'password' }
-  let!(:member) { create(:member, password: password) }
+  let(:user) { create(:pha_lead) }
+  let!(:member) { create(:member, password: password, pha_id: user.id) }
 
   post '/api/v1/login' do
     parameter :email, "User's email address"
@@ -23,6 +24,7 @@ resource "Sessions" do
       expect(member.sessions.count).to eq(1)
       expect(body[:auth_token]).to eq(member.sessions.first.auth_token)
       expect(body[:user].to_json).to eq(member.serializer(include_roles: true).as_json.to_json)
+      expect(body[:pha].to_json).to eq(member.pha.serializer.as_json.to_json)
     end
   end
 
