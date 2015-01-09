@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141217235156) do
+ActiveRecord::Schema.define(:version => 20141230224314) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -382,6 +382,7 @@ ActiveRecord::Schema.define(:version => 20141217235156) do
     t.integer  "insurance_card_back_id"
     t.string   "insurance_card_front_client_guid"
     t.string   "insurance_card_back_client_guid"
+    t.datetime "disabled_at"
   end
 
   create_table "invitations", :force => true do |t|

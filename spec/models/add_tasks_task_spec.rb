@@ -57,7 +57,7 @@ describe AddTasksTask do
     context 'member has tasks' do
       let!(:add_tasks_task) { create :add_tasks_task, member: member }
 
-      it 'does not create an offboard task' do
+      it 'does not create an AddTasksTask task' do
         AddTasksTask.should_not_receive(:create!)
         AddTasksTask.create_if_member_has_no_tasks(member)
       end
@@ -65,9 +65,20 @@ describe AddTasksTask do
 
     context 'member has no tasks' do
 
-      it 'creates an offboard task' do
-        AddTasksTask.should_receive(:create!)
-        AddTasksTask.create_if_member_has_no_tasks(member)
+      context 'member has not messaged' do
+        it 'does not create an AddTasksTask task' do
+          AddTasksTask.should_not_receive(:create!)
+          AddTasksTask.create_if_member_has_no_tasks(member)
+        end
+      end
+
+      context 'member has messaged' do
+        let!(:message) { create :message, user_id: member.id}
+
+        it 'creates an AddTasksTask' do
+          AddTasksTask.should_receive(:create!)
+          AddTasksTask.create_if_member_has_no_tasks(member)
+        end
       end
     end
   end
