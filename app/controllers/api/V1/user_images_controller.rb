@@ -32,9 +32,7 @@ class Api::V1::UserImagesController < Api::V1::ABaseController
 
   def user_image_attributes
     @request_body = request.body.string
-    # Hacky-way to get the string without boundary.
-    @main_str = @request_body.slice(35..@request_body.length-37)
-    @parsed_str = JSON.parse(@main_str, {:symbolize_names => true})
+    @parsed_str = JSON.parse(@request_body, {:symbolize_names => true})
     permitted_params.user_image.tap do |attributes|
       attributes[:image] = decode_b64_image(@parsed_str[:user_image][:image])
       attributes[:client_guid] = @parsed_str[:client_guid]
