@@ -52,7 +52,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def user_image
-    params.require(:user_image).permit(:image, :client_guid)
+    params.permit(:image, :client_guid)
   end
 
   def height
