@@ -409,6 +409,7 @@ DEPENDENCIES
   jquery-ui-rails
   kaminari
   less-rails
+  mail
   mandrill_mailer
   minitar
   mixpanel-ruby

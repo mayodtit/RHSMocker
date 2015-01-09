@@ -14,12 +14,18 @@ describe Enrollment do
   it_validates 'foreign key of', :onboarding_group
   it_validates 'foreign key of', :referral_code
   it_validates 'uniqueness of', :token
-  it_validates 'allows blank uniqueness of', :email
+  # it_validates 'allows blank uniqueness of', :email
 
   it 'validates length of password' do
     e = build_stubbed(:enrollment, password: 'short')
     expect(e).to_not be_valid
     expect(e.errors[:password]).to include('must be 8 or more characters long')
+  end
+
+  it 'validate the validity of a email' do
+    e = build_stubbed(:enrollment, email: 'wuang@getbetter.co,')
+    expect(e).to_not be_valid
+    expect(e.errors[:email]).to include('is invalid')
   end
 
   it 'validates email not taken by member' do
