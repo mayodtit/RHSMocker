@@ -2,20 +2,23 @@ OnboardingGroup.find_or_create_by_name(name: 'Generic 14-day trial onboarding gr
                                        premium: true,
                                        free_trial_days: 14)
 
-o = OnboardingGroup.find_or_create_by_name(name: 'Inside',
-                                           premium: true,
-                                           free_trial_days: 14,
-                                           skip_credit_card: true)
-ReferralCode.find_or_create_by_name(name: 'Inside',
-                                    code: 'inside',
-                                    onboarding_group: o)
-
 o = OnboardingGroup.find_or_create_by_name(name: "Adam's users",
                                            premium: true,
                                            free_trial_days: 14,
                                            skip_credit_card: true)
 ReferralCode.find_or_create_by_name(name: "Adam's users",
                                     code: 'adam',
+                                    onboarding_group: o)
+
+#Ensure that the Launch group is created, since we have a signup page for them
+#This replaces the "inside" group
+o = OnboardingGroup.find_or_create_by_name(name: 'Launch',
+                                           premium: true,
+                                           free_trial_days: 0,
+                                           subscription_days: 365,
+                                           skip_credit_card: true)
+ReferralCode.find_or_create_by_name(name: 'Launch',
+                                    code: 'launch',
                                     onboarding_group: o)
 
 Metadata.upsert_attributes({mkey: 'nux_question_text'}, mvalue: 'You’re just two steps away from your own Personal Health Assistant. What would you like to focus on during your free trial?')
