@@ -15,14 +15,6 @@ class InsurancePolicy < ActiveRecord::Base
 
   before_validation :attach_user_image, if: ->(ip){ip.insurance_card_front_client_guid || ip.insurance_card_back_client_guid}
 
-  def plan_types_medical
-    %w(HMO PPO POS EPO HDHP)
-  end
-
-  def plan_types_dental
-    %w(PPO Premier)
-  end
-
   private
 
   def attach_user_image
