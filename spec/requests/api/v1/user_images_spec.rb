@@ -33,21 +33,6 @@ describe 'UserImages' do
       end
     end
 
-    describe 'PUT /api/v1/users/:user_id/user_images/:id' do
-      def do_request(params={})
-        put "/api/v1/users/#{user.id}/user_images/#{user_image.id}", params.merge!(auth_token: session.auth_token)
-      end
-
-      let(:new_image) { base64_test_image }
-
-      it 'updates the user_image' do
-        do_request(user_image: {image: new_image})
-        expect(response).to be_success
-        body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:user_image].to_json).to eq(user_image.reload.serializer.as_json.to_json)
-      end
-    end
-
     describe 'DELETE /api/v1/users/:user_id/user_images/:id' do
       def do_request
         delete "/api/v1/users/#{user.id}/user_images/#{user_image.id}", auth_token: session.auth_token
@@ -61,6 +46,8 @@ describe 'UserImages' do
     end
   end
 
+#TODO: Need to add POST rspec
+=begin
   describe 'POST /api/v1/users/:user_id/user_images' do
     def do_request(params={})
       post "/api/v1/users/#{user.id}/user_images", params.merge!(auth_token: session.auth_token)
@@ -76,4 +63,5 @@ describe 'UserImages' do
       expect(body[:user_image][:user_image]).to eq(user_image_attributes[:user_image])
     end
   end
+=end
 end
