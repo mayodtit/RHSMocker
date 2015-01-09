@@ -11,6 +11,10 @@ class Api::V1::UserImagesController < Api::V1::ABaseController
     show_resource @user_image.serializer
   end
 
+  def update
+    update_resource @user_image, user_image_attributes
+  end
+
   def create
     create_resource @user_images, user_image_attributes
   end
