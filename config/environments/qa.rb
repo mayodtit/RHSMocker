@@ -83,7 +83,6 @@ RHSMocker::Application.configure do
   MandrillMailer.configure do |config|
     config.interceptor_params = { to: [{ email: "engineering@better.com", name: "test" }] }
   end
-
   # Enable threaded mode
   # config.threadsafe!
 
