@@ -47,7 +47,7 @@ class WelcomeCallTask < Task
 
   def update_task!
     update_attributes!(
-      due_at: scheduled_phone_call.scheduled_at,
+      due_at: scheduled_phone_cal l.scheduled_at,
       priority: INITIAL_PRIORITY,
       owner: scheduled_phone_call.owner,
       assignor: Member.robot
@@ -56,11 +56,13 @@ class WelcomeCallTask < Task
 
   def self.set_priority_high(welcome_call_task_id)
     task = WelcomeCallTask.find welcome_call_task_id
-    task.update_attributes! priority: ALERT_PRIORITY
-    body = "You have a Welcome Call Scheduled with #{task.member.full_name} in 15 minutes."
-    PubSub.publish "/users/#{task.owner.id}/notifications/tasks", {msg: body, id: task.id, assignedTo: task.owner.id}
-    if !task.owner.text_phone_number.nil?
-      TwilioModule.message task.owner.text_phone_number, body
+    if task.open?
+      task.update_attributes! priority: ALERT_PRIORITY
+      body = "You have a Welcome Call Scheduled with #{task.member.full_name} in 15 minutes."
+      PubSub.publish "/users/#{task.owner.id}/notifications/tasks", {msg: body, id: task.id, assignedTo: task.owner.id}
+      if !task.owner.text_phone_number.nil?
+        TwilioModule.message task.owner.text_phone_number, body
+      end
     end
   end
 
