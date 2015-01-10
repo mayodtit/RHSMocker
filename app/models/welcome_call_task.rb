@@ -47,7 +47,7 @@ class WelcomeCallTask < Task
 
   def update_task!
     update_attributes!(
-      due_at: scheduled_phone_cal l.scheduled_at,
+      due_at: scheduled_phone_call.scheduled_at,
       priority: INITIAL_PRIORITY,
       owner: scheduled_phone_call.owner,
       assignor: Member.robot
