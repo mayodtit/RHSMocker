@@ -2,10 +2,14 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :render_failure_if_not_self
   before_filter :create_credit_card!, only: :create
-  before_filter :load_customer!, only: :create
+  before_filter :load_customer!, :only => %i(create, available_options)
 
   def index
     index_resource(@user.subscriptions)
+  end
+
+  def available_options
+    render_success(plans: available_plans.serializer)
   end
 
   # TODO: this transaction should be all-or-nothing.
@@ -64,5 +68,13 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
       subscription_ends_at: nil,
       actor_id: current_user.id
     }
+  end
+
+  def available_plans
+    subscribe_options = []
+    Stripe::Plan.all.each do |plan|
+        subscribe_options << plan
+    end
+    subscribe_options.delete_if{|option| option.amount <= @customer.subscriptions.data[0].plan.amount}
   end
 end
