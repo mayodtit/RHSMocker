@@ -22,6 +22,14 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
     end
   end
 
+  def destroy
+    if DestroyStripeSubscriptionService.new(@user, :upgrade).call
+      render_success
+    else
+      render_failure({reason: 'Error occurred during subscription cancellation'}, 422)
+    end
+  end
+
   private
 
   def render_failure_if_not_self
