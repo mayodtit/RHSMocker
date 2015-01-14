@@ -41,5 +41,4 @@ describe 'Subscriptions' do
       expect(customer.subscriptions.data.length).to eq(0)
     end
   end
-
 end
