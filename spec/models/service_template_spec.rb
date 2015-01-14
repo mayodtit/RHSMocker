@@ -92,7 +92,7 @@ describe ServiceTemplate do
 
         service_template.should_receive(:task_templates) do
           o = Object.new
-          o.should_receive(:order).with('service_ordinal ASC, created_at DESC') { task_templates }
+          o.should_receive(:order).with('service_ordinal DESC, created_at ASC') { task_templates }
           o
         end
 
