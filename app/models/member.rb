@@ -244,7 +244,7 @@ class Member < User
   end
 
   def has_upgraded?
-    MemberStateTransition.where(member_id: Member.last.id).where(to: PREMIUM_STATES).exists?
+    MemberStateTransition.where(member_id: id).where(to: PREMIUM_STATES).exists?
   end
 
   def new_user?
