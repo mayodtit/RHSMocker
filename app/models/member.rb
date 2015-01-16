@@ -244,8 +244,9 @@ class Member < User
   end
 
   def has_upgraded?
-    MemberStateTransition.where(member_id: Member.last.id).where(event: :upgrade).exists?
+    MemberStateTransition.where(member_id: Member.last.id).where(to: PREMIUM_STATES).exists?
   end
+
   def new_user?
     status?(:free) && !has_upgraded?
   end
