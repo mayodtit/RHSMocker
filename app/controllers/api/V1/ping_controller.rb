@@ -1,9 +1,15 @@
 class Api::V1::PingController < Api::V1::ABaseController
-  skip_before_filter :authentication_check, :unless => lambda{ params[:auth_token] }
+  skip_before_filter :authentication_check
+  before_filter :ping_controller_authentication_check, :if => lambda{ params[:auth_token] }
   after_filter :store_apns_token!, if: -> { params[:auth_token] }
   after_filter :store_gcm_id!, if: -> { params[:auth_token] }
   after_filter :store_device_information!, if: -> { params[:auth_token] }
   after_filter :store_user_information!, if: -> { params[:auth_token] }
+
+  def ping_controller_authentication_check
+    @session = Session.find_by_auth_token(params[:auth_token])
+    auto_login(member) if @session && @session.member
+  end
 
   def index
     hash = {
