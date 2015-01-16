@@ -52,6 +52,8 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
     {plan: params.require(:subscription).require(:plan_id)}.tap do |attributes|
       if @user.free_trial_ends_at && (@user.free_trial_ends_at.end_of_day > Time.zone.now.end_of_day)
         attributes.merge!(trial_end: @user.free_trial_ends_at.to_i) if @user.free_trial_ends_at
+      elsif @user.new_user?
+        attributes.merge!(trial_end: 1.month.from_now.pacific.end_of_day.to_i)
       end
       attributes.merge!(coupon: '50PERCENT') if @user.onboarding_group.try(:mayo_pilot?)
     end
