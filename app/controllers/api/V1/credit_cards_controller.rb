@@ -1,6 +1,7 @@
 class Api::V1::CreditCardsController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :render_failure_if_not_self
+  before_filter :remove_credit_cards, :only => :create
 
   def index
     index_resource(@user.credit_cards)
@@ -9,8 +10,6 @@ class Api::V1::CreditCardsController < Api::V1::ABaseController
   # since a user is limited to one credit card, this method is used for both
   # adding and updating a credit card
   def create
-    @user.remove_all_credit_cards
-
     begin
       if @user.stripe_customer_id.nil?
 
@@ -18,7 +17,7 @@ class Api::V1::CreditCardsController < Api::V1::ABaseController
         @customer = Stripe::Customer.create(card: params[:stripe_token],
                                             email: @user.email,
                                             description: StripeExtension.customer_description(@user.id))
-        @card = @customer.cards.retrieve(@customer.default_card)
+        load_credit_card
         @user.update_attribute(:stripe_customer_id, @customer.id)
       else
         load_customer!
@@ -39,9 +38,16 @@ class Api::V1::CreditCardsController < Api::V1::ABaseController
   end
 
   private
+  def remove_credit_cards
+    @user.remove_all_credit_cards
+  end
+
+  def load_credit_card
+    @card = @customer.cards.retrieve(@customer.default_card)
+  end
 
   def load_customer!
-    @customer = Stripe::Customer.retrieve(@user.stripe_customer_id)
+    @customer = Stripe::Customer.retrieve(@user.stripe_customer_id) if @user
   end
 
   def send_confirmation_info
