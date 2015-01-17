@@ -8,7 +8,7 @@ class Api::V1::PingController < Api::V1::ABaseController
 
   def ping_controller_authentication_check
     @session = Session.find_by_auth_token(params[:auth_token])
-    auto_login(member) if @session && @session.member
+    auto_login(@session.member) if @session && @session.member
   end
 
   def index
