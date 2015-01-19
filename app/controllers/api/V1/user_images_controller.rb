@@ -35,11 +35,11 @@ class Api::V1::UserImagesController < Api::V1::ABaseController
   end
 
   def user_image_attributes
-    @request_body = request.body.string
-    @parsed_str = JSON.parse(@request_body, {:symbolize_names => true})
+    request.body.rewind
+    @request_body = JSON.parse(request.body.read, {:symbolize_names => true})
     permitted_params.user_image.tap do |attributes|
-      attributes[:image] = decode_b64_image(@parsed_str[:user_image][:image])
-      attributes[:client_guid] = @parsed_str[:client_guid]
+      attributes[:image] = decode_b64_image(@request_body[:user_image][:image])
+      attributes[:client_guid] = @request_body[:client_guid]
     end
   end
 end
