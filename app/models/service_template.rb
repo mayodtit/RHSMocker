@@ -11,7 +11,7 @@ class ServiceTemplate < ActiveRecord::Base
       title: attributes[:title] || title,
       description: attributes[:description] || description,
       service_type: service_type,
-      due_at: calculate_time_estimate(),
+      due_at: calculate_time_estimate,
       service_template: self,
       member: attributes[:member],
       subject: attributes[:subject] || attributes[:member],

@@ -13,7 +13,7 @@ class CreateTaskRequirements < ActiveRecord::Migration
       t.text :description
       t.integer :task_requirement_template_id
       t.integer :task_id
-      t.boolean :completed, :default => true
+      t.boolean :completed, :default => false
       t.datetime :created_at, :null => false
       t.datetime :updated_at, :null => false
     end

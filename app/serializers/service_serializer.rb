@@ -13,7 +13,6 @@ class ServiceSerializer < ActiveModel::Serializer
           due_at: object.due_at,
           created_at: object.created_at
       }
-      attributes
     elsif options[:for_subject]
       attributes = {
           id: object.id,

@@ -34,6 +34,7 @@ class TaskSerializer < ActiveModel::Serializer
     elsif options[:for_task]
       attributes = {
         id: object.id,
+
         title: object.title,
         state: object.state,
         due_at: object.due_at,

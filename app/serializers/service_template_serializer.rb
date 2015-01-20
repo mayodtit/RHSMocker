@@ -12,7 +12,6 @@ class ServiceTemplateSerializer < ActiveModel::Serializer
           service_type_id: object.service_type_id,
           time_estimate: object.time_estimate
       }
-      attributes
     else
       super.tap do |attributes|
         attributes.merge!(
