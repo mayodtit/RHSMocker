@@ -1,17 +1,16 @@
 class Api::V1::PingController < Api::V1::ABaseController
-  before_filter :authentication_check, :if => lambda{ params[:auth_token] }
+  before_filter :load_current_session!
+  before_filter :authentication_check
   after_filter :store_apns_token!, if: -> { params[:auth_token] && valid_token? }
   after_filter :store_gcm_id!, if: -> { params[:auth_token] && valid_token? }
   after_filter :store_device_information!, if: -> { params[:auth_token] && valid_token?}
   after_filter :store_user_information!, if: -> { params[:auth_token] && valid_token?}
 
   def authentication_check
-    @session ||= current_session
-    auto_login(@session.member) if @session && @session.member
+    auto_login(@session.member) if @session.try(:member)
   end
 
   def valid_token?
-    @session = current_session
     !!@session
   end
 
@@ -50,8 +49,8 @@ class Api::V1::PingController < Api::V1::ABaseController
 
   private
 
-  def current_session
-    Session.find_by_auth_token(params[:auth_token])
+  def load_current_session!
+    @session = Session.find_by_auth_token(params[:auth_token])
   end
 
   def store_apns_token!
