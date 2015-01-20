@@ -47,27 +47,20 @@ class ScheduledPhoneCall < ActiveRecord::Base
 
   def user_confirmation_calendar_event
     RiCal.Event do |event|
-      event.summary = set_calendar_event[summary]
-      event.description = set_calendar_event[description]
-      event.dtstart = set_calendar_event[dtstart]
-      event.dtend = set_calendar_event[dtend]
-      event.location = set_calendar_event[location]
-      event.attendee = set_calendar_event[attendee]
+      event.summary = "Your call with #{pha_full_name}"
+      event.description = "#{pha_full_name} will call you at #{callback_phone_number}."
+      event.dtstart = scheduled_at
+      event.dtend = scheduled_at + scheduled_duration
+      event.location = callback_phone_number || user.phone || 'Call'
+      event.attendee = user.email
       event.organizer_property = RiCal::PropertyValue::CalAddress.new(nil,
                                                                       value: 'mailto:noreply@getbetter.com',
                                                                       params: {'CN' => 'Better'})
-
     end
   end
 
-  def set_calendar_event
-    summary = "Your call with #{user.pha.full_name}"
-    description = "#{user.pha.full_name} will call you at #{callback_phone_number}."
-    dtstart = scheduled_at
-    dtend = scheduled_at + scheduled_duration
-    location = callback_phone_number || user.phone || 'Call'
-    attendee = user.email
-    [summary, description, dtstart, dtend, location, attendee]
+  def pha_full_name
+    user.pha.full_name
   end
 
   def create_task
@@ -160,9 +153,9 @@ Prep:
       return
     end
     update_attributes!(reminder_scheduled_message: template.create_scheduled_message(owner,
-                                                                                          user.master_consult,
-                                                                                          publish_at,
-                                                                                          'day' => day))
+                                                                                     user.master_consult,
+                                                                                     publish_at,
+                                                                                     'day' => day))
   end
 
   def send_in_morning
