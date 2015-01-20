@@ -17,12 +17,6 @@ describe 'Subscriptions' do
                                            display_price: '$19.99/month',
                                            active: 'true'
                                        })
-
-    customer = Stripe::Customer.create(email: user.email,
-                                       description: StripeExtension.customer_description(user.id),
-                                       card: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
-    customer.subscriptions.create(:plan => 'bp20')
-    user.update_attribute(:stripe_customer_id, customer.id)
   end
 
   after do
@@ -30,6 +24,14 @@ describe 'Subscriptions' do
   end
 
   describe 'DELETE /api/v1/users/:user_id/subscriptions' do
+    before do
+      customer = Stripe::Customer.create(email: user.email,
+                                         description: StripeExtension.customer_description(user.id),
+                                         card: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+      customer.subscriptions.create(:plan => 'bp20')
+      user.update_attribute(:stripe_customer_id, customer.id)
+    end
+
     def do_request(params={})
       delete "/api/v1/users/#{user.id}/subscriptions", params.merge!(auth_token: session.auth_token)
     end
