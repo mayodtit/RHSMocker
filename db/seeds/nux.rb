@@ -393,7 +393,7 @@ NuxStory.upsert_attributes({unique_id: 'INTRO_PERSONAL'},
                             enabled: true})
 
 QUESTION_TEXT_HEADER = <<-eof
-What would you like to focus on during your free trial?
+What would you like your Personal Health Assistant to focus on first?
 eof
 NuxStory.upsert_attributes({unique_id: 'QUESTION'},
                            {html: LOREM_IPSUM,
