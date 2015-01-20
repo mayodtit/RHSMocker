@@ -13,10 +13,10 @@ describe UserInformation do
     before do
       # Prevent changes from being tracked on other models, so we can isolate this one.
       Member.any_instance.stub(:track_update)
-      UserInformation.destroy_all
+      UserChange.destroy_all
     end
 
-    it 'it tracks a change after a condition is added to a user' do
+    it 'it tracks a change after user information is added to a user' do
       user_information.save!
       UserInformation.count.should == 1
       u = UserChange.last
@@ -40,6 +40,29 @@ describe UserInformation do
     end
   end
 
+  describe '#track update' do
+    let!(:member) { create :member }
+    let!(:user_information) { create :user_information, user: member }
+    let!(:new_user_information) {create :user_information}
+
+    before do
+      # Prevent changes from being tracked on other models, so we can isolate this one.
+      Member.any_instance.stub(:track_update)
+      UserChange.destroy_all
+    end
+
+    it 'tracks a change after an update on the information is made' do
+      user_information = new_user_information
+      user_information.save!
+      UserChange.count.should == 1
+      u = UserChange.last
+      u.user.should == member
+      u.actor.should == Member.robot
+      u.action.should == 'update'
+      eval(u.data).should == {informations: [new_user_information.user.first_name, new_user_information.user.last_name]}
+    end
+  end
+
   describe '#track_destroy' do
     let!(:member) { create :member }
     let!(:user_information) { create :user_information, user: member }
@@ -50,7 +73,7 @@ describe UserInformation do
       UserChange.destroy_all
     end
 
-    it 'it tracks a change after a condition is added to a user' do
+    it 'tracks a change after user information is destroyed' do
       user_information.destroy
       UserChange.count.should == 1
       u = UserChange.last
