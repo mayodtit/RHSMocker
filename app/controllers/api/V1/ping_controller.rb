@@ -1,5 +1,4 @@
 class Api::V1::PingController < Api::V1::ABaseController
-  # skip_before_filter :authentication_check
   before_filter :authentication_check, :if => lambda{ params[:auth_token] }
   after_filter :store_apns_token!, if: -> { params[:auth_token] && valid_token? }
   after_filter :store_gcm_id!, if: -> { params[:auth_token] && valid_token? }
