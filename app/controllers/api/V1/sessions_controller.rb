@@ -5,8 +5,14 @@ class Api::V1::SessionsController < Api::V1::ABaseController
     @user = login(email, password)
     if @user
       @session = @user.sessions.create
-      render_success(user: @user.serializer(include_roles: true),
-                     auth_token: @session.auth_token)
+      if @user.pha
+        render_success(user: @user.serializer(include_roles: true),
+                       pha: @user.pha.serializer,
+                       auth_token: @session.auth_token)
+      else
+        render_success(user: @user.serializer(include_roles: true),
+                       auth_token: @session.auth_token)
+      end
       Analytics.log_user_login(@user.google_analytics_uuid)
     else
       render_failure({reason:"Incorrect credentials", user_message: 'Email or password is invalid'}, 401)
