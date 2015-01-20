@@ -16,3 +16,5 @@ Diet.find_or_create_by_name(name: 'Halal',
                             ordinal: 8)
 Diet.find_or_create_by_name(name: 'Organic',
                             ordinal: 9)
+Diet.find_or_create_by_name(name: 'High fat, High sodium',
+                            ordinal: 10)
