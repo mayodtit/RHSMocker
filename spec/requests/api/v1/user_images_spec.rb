@@ -35,13 +35,13 @@ describe 'UserImages' do
 
     describe 'PUT /api/v1/users/:user_id/user_images/:id' do
       def do_request(params={})
-        put "/api/v1/users/#{user.id}/user_images/#{user_image.id}", params.merge!(auth_token: session.auth_token)
+        put "/api/v1/users/#{user.id}/user_images/#{user_image.id}", params.merge!(auth_token: session.auth_token).to_json, { 'CONTENT_TYPE' => 'application/json', 'ACCEPT' => 'application/json' }
       end
 
       let(:new_image) { base64_test_image }
 
       it 'updates the user_image' do
-        do_request(user_image: {image: new_image})
+        do_request(user_image: {image: new_image, client_guid: "GUID"})
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
         expect(body[:user_image].to_json).to eq(user_image.reload.serializer.as_json.to_json)
@@ -61,19 +61,19 @@ describe 'UserImages' do
     end
   end
 
+
   describe 'POST /api/v1/users/:user_id/user_images' do
     def do_request(params={})
-      post "/api/v1/users/#{user.id}/user_images", params.merge!(auth_token: session.auth_token)
+      post "/api/v1/users/#{user.id}/user_images", params.merge!(auth_token: session.auth_token).to_json, { 'CONTENT_TYPE' => 'application/json', 'ACCEPT' => 'application/json' }
     end
 
     let(:image) { base64_test_image }
-    let(:user_image_attributes) { {image: image} }
+    let(:user_image_attributes) { { user_image: {image: image , client_guid: "GUID"}} }
 
     it 'creates a user_image' do
-      expect{ do_request(user_image: user_image_attributes) }.to change(UserImage, :count).by(1)
+      expect{ do_request(user_image_attributes) }.to change(UserImage, :count).by(1)
+      do_request(user_image_attributes)
       expect(response).to be_success
-      body = JSON.parse(response.body, symbolize_names: true)
-      expect(body[:user_image][:user_image]).to eq(user_image_attributes[:user_image])
     end
   end
 end

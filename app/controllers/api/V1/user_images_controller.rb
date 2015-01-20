@@ -11,12 +11,12 @@ class Api::V1::UserImagesController < Api::V1::ABaseController
     show_resource @user_image.serializer
   end
 
-  def create
-    create_resource @user_images, user_image_attributes
-  end
-
   def update
     update_resource @user_image, user_image_attributes
+  end
+
+  def create
+    create_resource @user_images, user_image_attributes
   end
 
   def destroy
@@ -35,8 +35,11 @@ class Api::V1::UserImagesController < Api::V1::ABaseController
   end
 
   def user_image_attributes
+    request.body.rewind
+    @request_body = JSON.parse(request.body.read, {:symbolize_names => true})
     permitted_params.user_image.tap do |attributes|
-      attributes[:image] = decode_b64_image(attributes[:image]) if attributes[:image]
+      attributes[:image] = decode_b64_image(@request_body[:user_image][:image])
+      attributes[:client_guid] = @request_body[:client_guid]
     end
   end
 end
