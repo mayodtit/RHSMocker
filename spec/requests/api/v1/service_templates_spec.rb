@@ -42,4 +42,21 @@ describe 'ServiceTemplates' do
     end
   end
 
+  context 'create a new record' do
+    describe 'POST /api/v1/service_templates' do
+      def do_request(params={})
+        post "/api/v1/service_templates", params.merge!(auth_token: session.auth_token)
+      end
+      let!(:service_type) { create :service_type}
+      let(:service_template_attributes) { attributes_for(:service_template).merge!(service_type_id: service_type.id)}
+
+      it 'creates a service template' do
+        expect{ do_request(service_template: service_template_attributes) }.to change(ServiceTemplate, :count).by(1)
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:service_template][:service_template]).to eq(service_template_attributes[:service_template])
+      end
+    end
+  end
+
 end

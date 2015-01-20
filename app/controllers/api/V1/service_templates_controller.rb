@@ -1,11 +1,16 @@
 class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   before_filter :load_user!
+  before_filter :load_service_templates!
   before_filter :load_service_template!, only: :show
-  before_filter :load_service_templates!, only: :index
+
 
   def index
     authorize! :read, ServiceTemplate
     index_resource @service_templates.serializer
+  end
+
+  def create
+    create_resource @service_templates, permitted_params.service_template
   end
 
   def show
@@ -23,4 +28,5 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
     search_params = params.permit(:service_type_id)
     @service_templates = ServiceTemplate.where(search_params)
   end
+
 end
