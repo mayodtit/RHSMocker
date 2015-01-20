@@ -27,9 +27,8 @@ class Search::Service::Bloom
   def sanitize_params(params)
     new_params = params.reject{|k,v| !QUERY_PARAMS.include?(k.to_sym)}
     new_params['practice_address.state'] = params[:state] if params[:state]
-    zip_params = params.select{|k, v| k.to_s.match(/^zip\d+/)}.values
+    zip_params = params.select{|k, v| k.to_s.match(/^zip\z|\d+/)}.values
     new_params['practice_address.zip'] = zip_params if zip_params
-    byebug
     new_params
   end
 
