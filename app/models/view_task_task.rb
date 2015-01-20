@@ -5,7 +5,6 @@ class ViewTaskTask < Task
   validates :assigned_task, :owner, :assignor, :member, presence: true
 
   def self.create_task_for_task(task)
-    return task if task.owner == task.assignor
     create!(
         assigned_task: task,
         title: "Task assigned to you by #{task.assignor.full_name}",
