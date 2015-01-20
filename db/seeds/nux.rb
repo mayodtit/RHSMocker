@@ -152,7 +152,7 @@ eof
 
 NuxStory.upsert_attributes({unique_id: 'INTRO'},
                            {html: INTRO_HTML,
-                            action_button_text: 'Learn more',
+                            action_button_text: 'Learn More',
                             show_nav_signup: false,
                             enable_webview_scrolling: false,
                             ordinal: 1,
@@ -470,7 +470,7 @@ NuxStory.upsert_attributes({unique_id: 'TRIAL'},
                             enabled: true})
 NuxStory.upsert_attributes({unique_id: 'CREDIT_CARD'},
                            {html: LOREM_IPSUM,
-                            action_button_text: 'Start your free month',
+                            action_button_text: 'Start Your Free Month',
                             show_nav_signup: false,
                             enable_webview_scrolling: false,
                             text_header: 'Enter your credit card information to get your free month.',
@@ -479,7 +479,7 @@ NuxStory.upsert_attributes({unique_id: 'CREDIT_CARD'},
                             secondary_action_button_text: 'No thanks.'})
 NuxStory.upsert_attributes({unique_id: 'SIGN_UP_SUCCESS'},
                            {html: TRIAL_HTML,
-                            action_button_text: 'Get a month free',
+                            action_button_text: 'Get a Month Free',
                             show_nav_signup: false,
                             enable_webview_scrolling: false,
                             enabled: false})
