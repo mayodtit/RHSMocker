@@ -9,6 +9,14 @@ module TimeExtension
     Time.new(year, month, day, 9, 0, 0, strftime('%:z'))
   end
 
+  def ten_oclock
+    Time.new(year, month, day, 10, 0, 0, strftime('%:z'))
+  end
+
+  def eight_oclock
+    Time.new(year, month, day, 8, 0, 0, strftime('%:z'))
+  end
+
   def eighteen_oclock
     Time.new(year, month, day, 18, 0, 0, strftime('%:z'))
   end
