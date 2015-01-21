@@ -9,6 +9,7 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   end
 
   def create
+    authorize! :create, ServiceTemplate
     create_resource @service_templates, permitted_params.service_template
   end
 
