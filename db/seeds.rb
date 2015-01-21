@@ -39,3 +39,4 @@ end
 if ENV['seed_nux'] || ENV['seed_fast'] || ENV['seed_all']
   load File.join(Rails.root, 'db', 'seeds', 'nux.rb')
 end
+
