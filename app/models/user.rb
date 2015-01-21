@@ -353,6 +353,6 @@ class User < ActiveRecord::Base
     changes = self.changes.except(:created_at, :updated_at)
     return if changes.empty?
     @actor_id ||= Member.robot.id
-    UserChange.create! user: self, actor_id: actor_id, action: 'update', data: changes.to_s
+    UserChange.create! user: self, actor_id: actor_id, action: 'update', data: changes
   end
 end

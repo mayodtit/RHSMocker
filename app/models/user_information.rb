@@ -13,16 +13,16 @@ class UserInformation < ActiveRecord::Base
 
   def track_create
     self.actor_id ||= Member.robot.id
-    UserChange.create! user: user, actor_id: actor_id, action: 'add', data: {informations: [user.first_name, user.last_name]}.to_s
+    UserChange.create! user: user, actor_id: actor_id, action: 'add', data: {informations: [user.first_name, user.last_name]}
   end
 
   def track_update
     self.actor_id ||= Member.robot.id
-    UserChange.create! user: user, actor_id: actor_id, action: 'update', data: {information: [user.first_name, user.last_name]}.to_s
+    UserChange.create! user: user, actor_id: actor_id, action: 'update', data: {information: [user.first_name, user.last_name]}
   end
 
   def track_destroy
     self.actor_id ||= Member.robot.id
-    UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {informations: [user.first_name, user.last_name]}.to_s
+    UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {informations: [user.first_name, user.last_name]}
   end
 end
