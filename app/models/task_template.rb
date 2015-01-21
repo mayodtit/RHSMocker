@@ -1,8 +1,9 @@
 class TaskTemplate < ActiveRecord::Base
   belongs_to :service_template
   has_many :tasks
+  has_many :task_guides
 
-  attr_accessible :name, :title, :description, :time_estimate, :service_ordinal
+  attr_accessible :name, :title, :description, :time_estimate, :service_ordinal, :service_template
 
   validates :name, :title, presence: true
 
@@ -14,6 +15,7 @@ class TaskTemplate < ActiveRecord::Base
       title: attributes[:title] || title,
       description: attributes[:description] || description,
       due_at: (attributes[:start_at] || Time.now) + time_estimate.to_i.minutes,
+      time_estimate: time_estimate,
       task_template: self,
       service: attributes[:service],
       service_type: attributes[:service] ? attributes[:service].service_type : attributes[:service_type],
