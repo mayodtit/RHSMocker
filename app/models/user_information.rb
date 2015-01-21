@@ -18,7 +18,7 @@ class UserInformation < ActiveRecord::Base
 
   def track_update
     self.actor_id ||= Member.robot.id
-    UserChange.create! user: user, actor_id: actor_id, action: 'update', data: {information: [user.first_name, user.last_name]}.to_s
+    UserChange.create! user: user, actor_id: actor_id, action: 'update', data: {informations: [user.first_name, user.last_name]}.to_s
   end
 
   def track_destroy

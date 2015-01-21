@@ -5,7 +5,6 @@ describe UserInformation do
   it_validates 'presence of', :user
   it_validates 'uniqueness of', :user_id
 
-
   describe '#track_create' do
     let!(:member) { create :member }
     let(:user_information) { build :user_information, user: member }
@@ -43,23 +42,22 @@ describe UserInformation do
   describe '#track update' do
     let!(:member) { create :member }
     let!(:user_information) { create :user_information, user: member }
-    let!(:new_user_information) {create :user_information}
 
     before do
-      # Prevent changes from being tracked on other models, so we can isolate this one.
       Member.any_instance.stub(:track_update)
       UserChange.destroy_all
     end
 
     it 'tracks a change after an update on the information is made' do
-      user_information = new_user_information
-      user_information.save!
+      user_information.notes = 'test'
+      user_information.highlights = 'test'
+      user_information.save
       UserChange.count.should == 1
       u = UserChange.last
       u.user.should == member
       u.actor.should == Member.robot
       u.action.should == 'update'
-      eval(u.data).should == {informations: [new_user_information.user.first_name, new_user_information.user.last_name]}
+      eval(u.data).should == {informations: [user_information.user.first_name, user_information.user.last_name]}
     end
   end
 
@@ -68,7 +66,6 @@ describe UserInformation do
     let!(:user_information) { create :user_information, user: member }
 
     before do
-      # Prevent changes from being tracked on other models, so we can isolate this one.
       Member.any_instance.stub(:track_update)
       UserChange.destroy_all
     end
