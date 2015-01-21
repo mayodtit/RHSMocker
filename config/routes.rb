@@ -183,6 +183,8 @@ RHSMocker::Application.routes.draw do
       resources :service_types, only: [:index] do
         get :buckets, on: :collection
       end
+      resources :service_templates, only: [:index, :create, :show]
+      resources :task_templates, only: [:show, :create]
     end
   end
 

@@ -93,6 +93,13 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
                                              :insurance_card_front_client_guid, :insurance_card_back_client_guid)
   end
 
+  def service_template
+    params.require(:service_template).permit(:name, :title, :description, :service_type_id, :time_estimate)
+  end
+
+  def task_template
+    params.require(:task_template).permit(:name, :title, :service_template, :description, :time_estimate, :service_ordinal)
+  end
   private
 
   def user_request_attributes

@@ -10,15 +10,15 @@ describe ServiceTemplate do
   end
 
   describe '#create_service!' do
-    let(:service_template) { build_stubbed :service_template }
+    let(:service_template) { build_stubbed :service_template, time_estimate: 60 }
     let(:service) { build_stubbed :service }
-    let(:member) { build_stubbed :member }
+
     let(:relative) { build_stubbed :user }
     let(:pha) { build_stubbed :pha }
     let(:other_pha) { build_stubbed :pha }
-
+    let(:member) { build_stubbed :member , pha: pha}
     before do
-      Timecop.freeze
+      Timecop.freeze(Time.new(2014, 7, 28, 0, 0, 0, '-07:00'))
     end
 
     after do
@@ -30,7 +30,7 @@ describe ServiceTemplate do
         title: service_template.title,
         description: service_template.description,
         service_type: service_template.service_type,
-        due_at: Time.now + service_template.time_estimate.minutes
+        due_at: Time.new(2014, 7, 28, 1, 0, 0, '-07:00')
       )) { service }
 
       service_template.create_service!.should == service
@@ -92,7 +92,7 @@ describe ServiceTemplate do
 
         service_template.should_receive(:task_templates) do
           o = Object.new
-          o.should_receive(:order).with('service_ordinal DESC, created_at DESC') { task_templates }
+          o.should_receive(:order).with('service_ordinal DESC, created_at ASC') { task_templates }
           o
         end
 
