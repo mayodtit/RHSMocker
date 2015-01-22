@@ -25,6 +25,11 @@ module TimeExtension
     end
   end
 
+  def business_minutes_from(minutes)
+    Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+    (self + minutes.minutes).business_time? ? self + minutes.minutes : 0.business_hours.after(self + minutes.minutes)
+  end
+
   def next_business_day_in_words(time_zone = nil)
     # Use our timezone if none is specified
     time_zone ||= ActiveSupport::TimeZone.new('America/Los_Angeles')

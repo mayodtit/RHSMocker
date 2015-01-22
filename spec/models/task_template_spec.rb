@@ -26,7 +26,7 @@ describe TaskTemplate do
       MemberTask.should_receive(:create!).with(hash_including(
         title: task_template.title,
         description: task_template.description,
-        due_at: Time.now + task_template.time_estimate.minutes,
+        due_at: Time.now.business_minutes_from(task_template.time_estimate.to_i),
         service_ordinal: task_template.service_ordinal
       )) { task }
 
@@ -117,7 +117,7 @@ describe TaskTemplate do
       MemberTask.should_receive(:create!).with(hash_including(
         title: attributes[:title],
         description: attributes[:description],
-        due_at: 4.days.ago + task_template.time_estimate.minutes
+        due_at: 4.days.ago.business_minutes_from(task_template.time_estimate.to_i)
       )) { task }
 
       task_template.create_task!(attributes).should == task

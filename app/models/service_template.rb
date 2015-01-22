@@ -11,7 +11,7 @@ class ServiceTemplate < ActiveRecord::Base
       title: attributes[:title] || title,
       description: attributes[:description] || description,
       service_type: service_type,
-      due_at: calculate_time_estimate,
+      due_at: Time.now.business_minutes_from(time_estimate.to_i),
       service_template: self,
       member: attributes[:member],
       subject: attributes[:subject] || attributes[:member],
@@ -27,11 +27,5 @@ class ServiceTemplate < ActiveRecord::Base
     end
 
     service
-  end
-
-  private
-
-  def calculate_time_estimate
-    time_estimate.to_i.minutes.from_now.business_time? ? time_estimate.to_i.minutes.from_now : 0.business_hours.after(time_estimate.to_i.minutes.from_now)
   end
 end

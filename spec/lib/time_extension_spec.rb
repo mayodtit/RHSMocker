@@ -28,6 +28,23 @@ describe TimeExtension do
     end
   end
 
+  describe '#business_minutes_from' do
+    # Friday
+    let(:t) { Time.parse '2014-06-13 02:00:00' }
+
+    context 'scheduled during business hours' do
+      it 'returns the time plus the minutes arguement' do
+        t.business_minutes_from(600).should == Time.parse('2014-06-13 12:00:00')
+      end
+    end
+
+    context 'scheduled not during business hours' do
+      it 'returns the next business time ' do
+        t.business_minutes_from(1440).should == Time.parse('2014-06-16 06:00:00')
+      end
+    end
+  end
+
   describe '#next_business_day_in_words' do
     context 'in pacific time zone' do
       context 'during business day' do
