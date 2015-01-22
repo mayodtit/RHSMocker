@@ -1,3 +1,5 @@
+include Math
+
 class Numeric
   def to_rad
     self * PI / 180
@@ -7,82 +9,52 @@ class Numeric
   end
 end
 
+class Search::Geo::Proximity
+  def findNear(params)
+    begin
+    # Find query zip code in params
+    qzip = params["zip"]
 
-class Search::Service::Proximity
-  def proximitySearch(params)
-    # puts "Enter zipcode: "
-    # in1 = gets.chomp
+    # Find query distance in params
+    qdist = params["dist"]
 
-    # Find zip code in params
-    zip = ""
+    # Find object with query zip code in geo data
+    qloc = Proximity.find(:first, :conditions => { :zip => qzip})
+    qlat = qloc.latitude
+    qlong = qloc.longitude
 
-    # puts "Enter Distance: "
-    # in2 = gets.chomp
-    # Find distance in params
-    distance = ""
+    # Set other parameters
+    dist = qdist.to_f
+    radius = 3959
 
-    # latN = (asin(sin(lat1.to_rad) * cos(dist/radius) + cos(lat1.to_rad) * sin(dist/radius) * cos(0.to_rad))).to_deg
-    # latS = (asin(sin(lat1.to_rad) * cos(dist/radius) + cos(lat1.to_rad) * sin(dist/radius) * cos(180.to_rad))).to_deg
-    # longE = (long1.to_rad + atan2(sin(90.to_rad) * sin(dist/radius) * cos(lat1.to_rad) , cos(dist/radius) - sin(lat1.to_rad) * sin(latN.to_rad))).to_deg
-    # longW = (long1.to_rad + atan2(sin(270.to_rad) * sin(dist/radius) * cos(lat1.to_rad) , cos(dist/radius) - sin(lat1.to_rad) * sin(latN.to_rad))).to_deg
+    latN = (asin(sin(qlat.to_rad) * cos(dist/radius) + cos(qlat.to_rad) * sin(dist/radius) * cos(0.to_rad))).to_deg
+    latS = (asin(sin(qlat.to_rad) * cos(dist/radius) + cos(qlat.to_rad) * sin(dist/radius) * cos(180.to_rad))).to_deg
+    longE = (qlong.to_rad + atan2(sin(90.to_rad) * sin(dist/radius) * cos(qlat.to_rad) , cos(dist/radius) - sin(qlat.to_rad) * sin(latN.to_rad))).to_deg
+    longW = (qlong.to_rad + atan2(sin(270.to_rad) * sin(dist/radius) * cos(qlat.to_rad) , cos(dist/radius) - sin(qlat.to_rad) * sin(latN.to_rad))).to_deg
     # Calculate range of valid latitudes and longitudes
 
-    # Arrays that hold index values of matches
-    latFiltered = []
-    index_bothFiltered = []
+    # Arrays that hold matches
+    bothFiltered = []
 
     # Iterate through data to filter appropriate values
-    Proximity.find_each do |loc|
-        if loc.latitude <=latN && loc.latittude>=latS
-          latFiltered.push(loc)
-        end
-
+    Proximity.where('latitude >= ? AND latitude <= ?', latS, latN).each do |loc|
+      if loc.longitude>=longW && loc.longitude<=longE
+        bothFiltered.push(loc)
+      end
     end
-    zipcode = s.column(2)
-    city = s.column(3)
-    state = s.column(4)
-    county = s.column(6)
-    latitude = s.column(10).map(&:to_f)
-    longitude = s.column(11).map(&:to_f)
 
+    zipString = ""
+    bothFiltered.each do |loc|
+      zipString = zipString + " " + loc.zip.to_s
+    end
 
+    params["zip"] = zipString
 
-      # puts zipcode.find_index(in1)
-      zc_index = zipcode.find_index(in1)
-      lat1 = latitude[zc_index]
-      long1 = longitude[zc_index]
-      dist = in2.to_f
-      radius = 3959
+    return params
 
-
-
-
-      # # puts latN
-      # # puts latS
-      # # puts longE
-      # # puts longW
-      #
-      # f1 = latitude.each_with_index
-      # f1 = f1.select { |lat, index| lat<=latN && lat>=latS }
-      #
-      # indexLat = f1.map {|item| item[1]}
-      #
-      # f2 = longitude.each_with_index
-      # f2 = f2.select { |long, index| indexLat.include? index}
-      #
-      # # Get the list of longitudes filtered by latitude and apply longitude filter
-      # f3 = (f2.map { |item| item[0] }).select { |long| long>=longW && long<=longE }
-      #
-      # # puts f1.length
-      # # puts f3.length
-      # # puts f3
-      #
-      # # Find the indexes again
-      # f4 = f2.select { |long, index| f3.include? long}
-      #
-      # indexFiltered = f4.map { |long, index| index}
-      #
-      # indexFiltered.each {|index| puts zipcode[index], city[index], state[index] }
+    rescue
+      puts "Error in geo/proximity.rb"
+    end
   end
 end
 
