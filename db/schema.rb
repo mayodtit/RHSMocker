@@ -1165,7 +1165,6 @@ ActiveRecord::Schema.define(:version => 20150113213238) do
     t.string   "expertise"
     t.boolean  "deceased",                                      :default => false, :null => false
     t.string   "city"
-    t.string   "state"
     t.string   "type",                                          :default => "",    :null => false
     t.string   "invitation_token"
     t.string   "units",                                         :default => "US",  :null => false
