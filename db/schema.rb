@@ -925,7 +925,7 @@ ActiveRecord::Schema.define(:version => 20150120005950) do
   create_table "task_templates", :force => true do |t|
     t.string   "name",                :null => false
     t.string   "title",               :null => false
-    t.string   "description"
+    t.text   "description"
     t.integer  "time_estimate"
     t.integer  "service_ordinal"
     t.integer  "service_template_id"
@@ -971,6 +971,7 @@ ActiveRecord::Schema.define(:version => 20150120005950) do
     t.integer  "day_priority",               :default => 0,    :null => false
     t.integer  "assigned_task_id"
     t.boolean  "visible_in_queue",           :default => true, :null => false
+    t.integer  "time_estimate"
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"
@@ -1159,7 +1160,7 @@ ActiveRecord::Schema.define(:version => 20150120005950) do
     t.datetime "updated_at",                                                       :null => false
     t.string   "avatar"
     t.string   "email"
-    t.string   "phone"
+    t.string   "ne"
     t.string   "crypted_password"
     t.string   "salt"
     t.string   "reset_password_token"
