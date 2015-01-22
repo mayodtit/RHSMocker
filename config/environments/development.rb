@@ -43,9 +43,9 @@ RHSMocker::Application.configure do
 
   MandrillMailer.configure { |config| config.api_key = key }
 
-  MandrillMailer.configure do |config|
-    config.interceptor_params = { to: [{ email: "engineering@better.com", name: "test" }] }
-  end
+  # MandrillMailer.configure do |config|
+  #   config.interceptor_params = { to: [{ email: "engineering@better.com", name: "test" }] }
+  # end
   # ***************************************************************************
 
   # Print deprecation notices to the Rails logger
