@@ -69,6 +69,7 @@ class Member < User
   belongs_to :nux_answer
   belongs_to :impersonated_user, class_name: 'Member'
   has_one :enrollment, foreign_key: :user_id, inverse_of: :user, autosave: true
+  has_many :entries
 
   attr_accessible :password, :password_confirmation,
                   :invitation_token, :units,
