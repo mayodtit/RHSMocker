@@ -30,17 +30,17 @@ describe TimeExtension do
 
   describe '#business_minutes_from' do
     # Friday
-    let(:t) { Time.parse '2014-06-13 02:00:00' }
+    let(:t) { Time.parse '2014-06-13 02:00:00 -0700' }
 
     context 'scheduled during business hours' do
       it 'returns the time plus the minutes arguement' do
-        t.business_minutes_from(600).should == Time.parse('2014-06-13 12:00:00')
+        t.business_minutes_from(600).should == Time.parse('2014-06-13 12:00:00 -0700')
       end
     end
 
     context 'scheduled not during business hours' do
       it 'returns the next business time ' do
-        t.business_minutes_from(1440).should == Time.parse('2014-06-16 06:00:00')
+        t.business_minutes_from(1440).should == Time.parse('2014-06-16 06:00:00 -0700')
       end
     end
   end

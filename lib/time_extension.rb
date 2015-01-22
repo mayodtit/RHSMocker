@@ -26,8 +26,13 @@ module TimeExtension
   end
 
   def business_minutes_from(minutes)
+    prev_global_time_zone = Time.zone
+
+    # Perform all calculations in Pacific timezone
     Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
-    (self + minutes.minutes).business_time? ? self + minutes.minutes : 0.business_hours.after(self + minutes.minutes)
+    new_time = (self + minutes.minutes).business_time? ? self + minutes.minutes : 0.business_hours.after(self + minutes.minutes)
+    Time.zone = prev_global_time_zone
+    new_time
   end
 
   def next_business_day_in_words(time_zone = nil)
