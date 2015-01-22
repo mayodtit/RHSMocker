@@ -94,7 +94,6 @@ gem 'ri_cal'
 gem 'symbolize'
 gem 'kaminari' # pagination
 gem 'strong_parameters'
-gem 'timecop'
 gem 'rubyzip'
 gem 'twilio-ruby'
 gem 'mandrill_mailer'           # for integration with MailChimp templates
