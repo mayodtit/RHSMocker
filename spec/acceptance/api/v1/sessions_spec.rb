@@ -1,4 +1,4 @@
-require 'spec_helper'
+ require 'spec_helper'
 require 'rspec_api_documentation/dsl'
 
 resource "Sessions" do
