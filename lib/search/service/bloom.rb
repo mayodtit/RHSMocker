@@ -3,7 +3,7 @@
 
 class Search::Service::Bloom
   include HTTParty
-  base_uri 'http://localhost:3005/'
+  base_uri 'http://192.168.1.161:3005/'
 
   def query(params)
     response = self.class.get('/api/search', :query => query_params(params))
@@ -42,11 +42,10 @@ class Search::Service::Bloom
         zip_array.each do |zip|
           zip_string << "&value#{i}=#{zip}"
         end
-
         result << zip_string.string
       else
       #Request construction for keys that are not zip codes
-        result << "key#{i}=#{key.to_s}&op#{i}=substring&value#{i}=#{params[key].to_s}"
+        result << "key#{i}=#{key.to_s}&op#{i}=prefix&value#{i}=#{params[key].to_s}"
       end
     end
     result.join('&')
