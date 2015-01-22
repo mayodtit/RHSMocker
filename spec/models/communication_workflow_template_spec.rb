@@ -21,10 +21,13 @@ describe CommunicationWorkflowTemplate do
     Timecop.freeze(new_time)
 
     context 'when relative days is equal to 0 day' do
-      let!(:communication_workflow_template) { create :communication_workflow_template }
+      let!(communication_workflow_template) { create :communication_workflow_template,
+                                                     relative_days: 0,
+                                                     relative_hours: 1}
+      let(:reference_time) { Time.local(2015, 1, 9, 9, 0, 0 ) }
 
       it 'sending at 10am if it is between 8-9am' do
-        expect( communication_workflow_template.relative_publish_at()).to eq(Time.local(2015, 1, 11, 10, 0, 0))
+        expect( communication_workflow_template.relative_publish_at(reference_time)).to eq(Time.local(2015, 1, 11, 10, 0, 0))
       end
 
       it 'sending one hour later if it is after 9am' do
