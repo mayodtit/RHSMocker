@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150113213238) do
+ActiveRecord::Schema.define(:version => 20150122022555) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -299,6 +299,17 @@ ActiveRecord::Schema.define(:version => 20150113213238) do
 
   add_index "enrollments", ["token"], :name => "index_enrollments_on_token"
 
+  create_table "entries", :force => true do |t|
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+    t.integer  "member_id",     :null => false
+    t.integer  "resource_id",   :null => false
+    t.string   "resource_type", :null => false
+  end
+
+  add_index "entries", ["member_id"], :name => "index_entries_on_member_id"
+  add_index "entries", ["resource_id", "resource_type"], :name => "index_entries_on_resource_id_and_resource_type"
+
   create_table "ethnic_groups", :force => true do |t|
     t.string   "name",           :default => "", :null => false
     t.datetime "created_at",                     :null => false
@@ -468,6 +479,12 @@ ActiveRecord::Schema.define(:version => 20150113213238) do
     t.string   "mvalue",     :null => false
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "notes", :force => true do |t|
+    t.integer "member_id",  :null => false
+    t.integer "creator_id", :null => false
+    t.text    "text",       :null => false
   end
 
   create_table "nurseline_records", :force => true do |t|
