@@ -17,8 +17,6 @@ class Api::V1::ProvidersController < Api::V1::ABaseController
     [:first_name, :last_name].each { |k| params[k].strip! unless params[k].nil? }
     @search_instance = search_service
     new_params = @search_instance.proximity(params)
-    puts params
-    byebug
     begin
       @providers = search_service.query(params)
     rescue => e
