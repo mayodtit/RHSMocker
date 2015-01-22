@@ -4,9 +4,11 @@ class Entry < ActiveRecord::Base
 
   validates :member, :resource, presence: true
 
+  attr_accessible :resource, :resource_id, :member, :member_id
+
   after_commit :publish, on: :create
 
   def publish
-    PubSub.publish "/users/#{user.id}/timeline/entries/new", {id: id}
+    PubSub.publish "/users/#{member.id}/timeline/entries/new", {id: id}
   end
 end

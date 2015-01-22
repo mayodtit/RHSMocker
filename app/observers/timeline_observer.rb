@@ -5,7 +5,7 @@ class TimelineObserver < ActiveRecord::Observer
     if observed.respond_to?(:member)
       observed.member.entries.create(resource: observed)
     elsif observed.respond_to?(:user)
-      user.member.entries.create(resource: observed)
+      observed.user.member.entries.create(resource: observed)
     end
   end
 end
