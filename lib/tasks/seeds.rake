@@ -682,18 +682,21 @@ namespace :seeds do
     longitude = s.column(11)
     puts "Done parsing xls"
     puts "Starting Database population"
-    zip.each_with_index { |zip, index|
-      puts "working with " + zip
-      prox = Proximity.new
-      prox.city = city[index]
-      prox.zip = zip[index]
-      prox.state = state[index]
-      prox.county = county[index]
-      prox.latitude = latitude[index]
-      prox.longitude = longitude[index]
-      prox.save
+    zip.each_with_index { |zipcode, index|
+      puts "Processing " + zipcode
+      begin
+        Proximity.create!(
+            :city => city[index],
+            :zip => zip[index],
+            :state => state[index],
+            :county => county[index],
+            :latitude => latitude[index],
+            :longitude => longitude[index]
+        )
+      rescue
+      end
     }
-
+  puts "Database populated"
 
   end
 end

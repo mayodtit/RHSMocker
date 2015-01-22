@@ -663,8 +663,8 @@ ActiveRecord::Schema.define(:version => 20150120005950) do
     t.integer "zip"
     t.string  "state"
     t.string  "county"
-    t.decimal "latitude",  :precision => 10, :scale => 0
-    t.decimal "longitude", :precision => 10, :scale => 0
+    t.float   "latitude"
+    t.float   "longitude"
   end
 
   create_table "referral_codes", :force => true do |t|
