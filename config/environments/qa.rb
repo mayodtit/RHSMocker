@@ -79,10 +79,6 @@ RHSMocker::Application.configure do
     :enable_starttls_auto => true
   }
   MandrillMailer.configure { |config| config.api_key = key }
-
-  MandrillMailer.configure do |config|
-    config.interceptor_params = { to: [{ email: "engineering@better.com", name: "test" }] }
-  end
   # Enable threaded mode
   # config.threadsafe!
 

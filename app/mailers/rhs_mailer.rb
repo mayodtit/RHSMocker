@@ -2,21 +2,22 @@ class RHSMailer < MandrillMailer::TemplateMailer
   default from: (Rails.env.production? ? 'support@getbetter.com' : "support@#{Rails.env}.getbetter.com")
   default from_name: 'Better'
 
-  def before_check(email)
-    if Rails.env.production? || email.include?('@getbetter.com')
-      return email
-    else
-      email = 'engineering@getbetter.com'
-      return email
-      # subject = "[To:" + recepients + "]"+ subject
+  def before_check(email, subject)
+    original_subject = subject
+    unless ( Rails.env.production? || email.include?('@getbetter.com') )
+      subject = "[To:" + email+ "]" + original_subject
+      email = 'wuang@getbetter.com'
     end
+    return email, subject
   end
 
   def welcome_to_better_email(email, salutation)
-    email = before_check(email)
+    original_email = email
+    original_subject = 'hahaha'
+    revised_email, revised_subject = before_check(original_email, original_subject)
     mandrill_mail(
-      subject: 'Welcome to Better',
-      to: { email: email },
+      subject: revised_subject,
+      to: { email: revised_email },
       template: 'All User Welcome Email',
       vars: {
         FNAME: salutation
