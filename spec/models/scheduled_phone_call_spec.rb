@@ -435,7 +435,6 @@ describe ScheduledPhoneCall do
       it_behaves_like 'cannot transition from', :cancel!, [:ended, :canceled]
 
       it 'changes the state to canceled' do
-        byebug
         booked_scheduled_phone_call.update_attributes! state_event: 'cancel', canceler: member_with_phone
         booked_scheduled_phone_call.should be_canceled
       end
