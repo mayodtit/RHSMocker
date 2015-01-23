@@ -10,7 +10,7 @@ class TimelineObserver < ActiveRecord::Observer
 
     case observed.class.name
       when "MemberTask"
-        member.entries.create(resource: observed, resource_type: "MemberTask")
+        member.entries.create(resource: observed, resource_type: "Task", actor_id: observed.actor_id)
       when "Message"
         if !observed.phone_call || !observed.scheduled_phone_call || !observed.phone_call_summary
           observed.consult.initiator.entries.create(resource: observed, actor: member)
