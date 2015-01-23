@@ -18,7 +18,8 @@ class Search::Service::Mock
       last_name: params[:last_name] || 'Smith',
       npi_number: params[:npi_number] || rand(10 ** 10).to_s.rjust(10,'0'),
       city: 'Fake City',
-      state: params[:state] || 'NR',
+      zip: '94301',
+      state: params[:state] || 'CA',
       expertise: 'Internal Medicine'
     }
   end

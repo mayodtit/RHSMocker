@@ -28,6 +28,7 @@ class Search::Service::Bloom
     new_params = params.reject{|k,v| !QUERY_PARAMS.include?(k.to_sym)}
     new_params['practice_address.state'] = params[:state] if params[:state]
     new_params['practice_address.zip'] = params[:zip] if params[:zip]
+    new_params['practice_address.city'] = params[:city] if params[:city]
     new_params
   end
 
@@ -58,6 +59,7 @@ class Search::Service::Bloom
   end
 
   def sanitize_record(record)
+    byebug
     p = record['practice_address']
     practice_address = {
       address: prettify(p['address_line']),
@@ -95,6 +97,7 @@ class Search::Service::Bloom
 
   # Find the provider's Healthcare Provider Taxonomy Code.  There can only be one per NPI record
   def get_hcp_code(details_ary)
+    byebug
     if details_ary.size == 1
       details_ary.first['healthcare_taxonomy_code']
     else
