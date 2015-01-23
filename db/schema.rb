@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150122022555) do
+ActiveRecord::Schema.define(:version => 20150123014529) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -305,6 +305,7 @@ ActiveRecord::Schema.define(:version => 20150122022555) do
     t.integer  "member_id",     :null => false
     t.integer  "resource_id",   :null => false
     t.string   "resource_type", :null => false
+    t.integer  "actor_id"
   end
 
   add_index "entries", ["member_id"], :name => "index_entries_on_member_id"

@@ -114,6 +114,7 @@ class Ability
       can :manage, MessageTemplate
       can :manage, ServiceTemplate
       can :manage, TaskTemplate
+      can :manage, Entry
     end
 
     if user.pha_lead?
