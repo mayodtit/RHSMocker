@@ -59,7 +59,6 @@ class Search::Service::Bloom
   end
 
   def sanitize_record(record)
-    byebug
     p = record['practice_address']
     practice_address = {
       address: prettify(p['address_line']),
@@ -97,7 +96,6 @@ class Search::Service::Bloom
 
   # Find the provider's Healthcare Provider Taxonomy Code.  There can only be one per NPI record
   def get_hcp_code(details_ary)
-    byebug
     if details_ary.size == 1
       details_ary.first['healthcare_taxonomy_code']
     else
