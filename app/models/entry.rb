@@ -10,6 +10,6 @@ class Entry < ActiveRecord::Base
   after_commit :publish, on: :create
 
   def publish
-    PubSub.publish "/users/#{member.id}/timeline/entries/new", {id: id}
+    PubSub.publish "/members/#{member.id}/timeline/entries/new", {id: id}
   end
 end
