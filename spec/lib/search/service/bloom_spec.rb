@@ -62,4 +62,67 @@ describe Search::Service::Bloom do
       end
     end
   end
+
+  describe '#sanitize_record' do
+    it 'will take record and rehash it' do
+      @record = {
+          'business_address' => {
+              'address_line' => '1906 PINE MEADOW DR',
+              'city' => 'SANTA ROSA',
+              'country_code' => 'US',
+              'state' => 'CA',
+              'zip' => '954031584'
+          },
+          'credential' => 'PHARM.D.',
+          'enumeration_date' => '2012-07-17T00:00:00.000Z',
+          'first_name' => 'BENJAMIN',
+          'gender' => 'male',
+          'last_name' => 'WANG',
+          'last_update_date' => '2012-07-17T00:00:00.000Z',
+          'middle_name' => 'SHIAN EN',
+          'name_prefix' => 'DR.',
+          'npi' => '1457606311',
+          'practice_address' => {
+              'address_line' => '3801 MIRANDA AVE',
+              'city' => 'PALO ALTO',
+              'country_code' => 'US',
+              'phone' => '6504935000',
+              'state' => 'CA',
+              'zip' => '943041207'
+          },
+          'provider_details' => [{
+                                     'healthcare_taxonomy_code' => '183500000X',
+                                     'license_number' => '67223',
+                                     'license_number_state' => 'CA',
+                                     'taxonomy_switch' => 'yes'
+                                 }],
+          'sole_proprietor' => 'no',
+          'type' => 'individual'
+      }
+      new_record = npi.send(:sanitize_record, @record)
+      new_record[:first_name].should == 'Benjamin'
+      new_record[:last_name].should == 'Wang'
+      new_record[:npi_number].should == '1457606311'
+      new_record[:city].should == 'Palo Alto'
+      new_record[:address][:address].should == '3801 Miranda Ave'
+      new_record[:address][:state].should == 'CA'
+      new_record[:address][:postal_code].should == '943041207'
+      new_record[:phone].should == '6504935000'
+    end
+  end
+
+  describe '#prettify' do
+    context 'not nil string' do
+      it 'titleizes the string' do
+        pretty_string = npi.send(:prettify, 'PALO ALTO')
+        pretty_string.should == 'Palo Alto'
+      end
+    end
+    context 'null string' do
+      it 'returns nil for nil string' do
+        pretty_string = npi.send(:prettify, nil)
+        pretty_string.should == nil
+      end
+    end
+  end
 end
