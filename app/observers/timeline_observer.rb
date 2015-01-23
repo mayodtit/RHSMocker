@@ -2,10 +2,13 @@ class TimelineObserver < ActiveRecord::Observer
   observe :note, :message, :phone_call, :scheduled_phone_call, :phone_call_summary, :member_task
 
   def after_create(observed)
-    if observed.respond_to?(:member)
+
+    if observed.respond_to?(:member) && !observed.member.nil?
       member = observed.member
-    elsif observed.respond_to?(:user)
+    elsif observed.respond_to?(:user) && !observed.user.nil?
       member = observed.user.member
+    else
+      return
     end
 
     case observed.class.name
