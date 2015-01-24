@@ -22,7 +22,7 @@ describe UserInformation do
       u.user.should == member
       u.actor.should == Member.robot
       u.action.should == 'add'
-      eval(u.data).should == {informations: [user_information.user.first_name, user_information.user.last_name]}
+      u.data.should == {informations: [user_information.user.first_name, user_information.user.last_name]}
     end
 
     context 'actor_id is defined' do
@@ -38,29 +38,7 @@ describe UserInformation do
       end
     end
   end
-
-  describe '#track update' do
-    let!(:member) { create :member }
-    let!(:user_information) { create :user_information, user: member }
-
-    before do
-      Member.any_instance.stub(:track_update)
-      UserChange.destroy_all
-    end
-
-    it 'tracks a change after an update on the information is made' do
-      user_information.notes = 'test'
-      user_information.highlights = 'test'
-      user_information.save
-      UserChange.count.should == 1
-      u = UserChange.last
-      u.user.should == member
-      u.actor.should == Member.robot
-      u.action.should == 'update'
-      eval(u.data).should == {informations: [user_information.user.first_name, user_information.user.last_name]}
-    end
-  end
-
+  
   describe '#track_destroy' do
     let!(:member) { create :member }
     let!(:user_information) { create :user_information, user: member }
@@ -77,7 +55,7 @@ describe UserInformation do
       u.user.should == member
       u.actor.should == Member.robot
       u.action.should == 'destroy'
-      eval(u.data).should == {informations: [user_information.user.first_name,  user_information.user.last_name]}
+      u.data.should == {informations: [user_information.user.first_name,  user_information.user.last_name]}
     end
 
     context 'actor_id is defined' do
