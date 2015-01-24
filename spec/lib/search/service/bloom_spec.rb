@@ -65,7 +65,7 @@ describe Search::Service::Bloom do
 
   describe '#sanitize_record' do
     it 'will take record and rehash it' do
-      @record = {
+      record = {
           'business_address' => {
               'address_line' => '1906 PINE MEADOW DR',
               'city' => 'SANTA ROSA',
@@ -99,7 +99,7 @@ describe Search::Service::Bloom do
           'sole_proprietor' => 'no',
           'type' => 'individual'
       }
-      new_record = npi.send(:sanitize_record, @record)
+      new_record = npi.send(:sanitize_record, record)
       new_record[:first_name].should == 'Benjamin'
       new_record[:last_name].should == 'Wang'
       new_record[:npi_number].should == '1457606311'
