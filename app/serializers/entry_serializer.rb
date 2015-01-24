@@ -20,7 +20,7 @@ class EntrySerializer < ViewSerializer
           id: object.id,
           created_at: object.created_at,
           updated_at: object.updated_at,
-          resource: object.resource.try(:serializer, options.merge(shallow: true)),
+          resource: object.resource.try(:serializer),
           resource_type: object.resource_type,
           member: object.member.try(:serializer, options.merge(shallow: true)),
           member_id: object.member_id,

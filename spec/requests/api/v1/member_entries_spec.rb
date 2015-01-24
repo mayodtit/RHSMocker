@@ -29,5 +29,4 @@ describe 'MemberEntries' do
       end
     end
   end
-
 end
