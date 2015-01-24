@@ -350,7 +350,7 @@ class User < ActiveRecord::Base
   end
 
   def track_update
-    changes = self.changes.except(:created_at, :updated_at)
+    changes = self.changes.except(:created_at, :updated_at, :avatar)
     return if changes.empty?
     @actor_id ||= Member.robot.id
     UserChange.create! user: self, actor_id: actor_id, action: 'update', data: changes
