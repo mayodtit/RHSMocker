@@ -1,7 +1,7 @@
 class Subscription < ActiveRecord::Base
-  belongs_to :owner, class_name: 'Member'
+  belongs_to :user, class_name: 'Member'
 
-  attr_accessible :owner, :owner_id, :stripe_subscription_id
+  attr_accessible :user, :user_id, :stripe_subscription_id
 
-  validates :owner, presence: true, if: ->(s){s.owner_id}
+  validates :user, presence: true, if: ->(s){s.user_id}
 end
