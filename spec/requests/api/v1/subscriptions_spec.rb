@@ -23,9 +23,30 @@ describe 'Subscriptions' do
     StripeMock.stop
   end
 
+  describe 'Get /api/v1/users/:user_id/subscriptions' do
+    before do
+      customer = Stripe::Customer.create(email: user.email,
+                                         description: StripeExtension.customer_description(user.id),
+                                         card: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+      user.update_attribute(:stripe_customer_id, customer.id)
+      customer.subscriptions.create(:plan => @single_plan.id)
+    end
+
+    def do_request(params = {})
+      get "api/v1/users/#{user.id}/subscriptions", params.merge!(auth_token: session.auth_token)
+    end
+
+    it 'should get the subscription of the the user' do
+      do_request
+      response.should be_success
+      body = JSON.parse(response.body, symbolize_names: true)
+      expect( body[:subscriptions].first[:plan][:id] ).to eq( 'bp20' )
+    end
+  end
+
   describe 'POST /api/v1/users/:user_id/subscriptions' do
-    def do_request(params={})
-      create "api/v1/users/#{user.id}/subscriptions", params.merge!(auth_token: session.auth_token,
+    def do_request(params = {})
+      post "api/v1/users/#{user.id}/subscriptions", params.merge!(auth_token: session.auth_token,
                                                                     plan_id: @single_plan.id)
     end
 

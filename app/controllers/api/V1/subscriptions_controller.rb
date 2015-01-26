@@ -22,6 +22,14 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
     end
   end
 
+  def update
+    if UpdateStripeSubscriptionService.new(@user, params[:plan_id]).call
+      render_success
+    else
+      render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
+    end
+  end
+
   private
 
   def render_failure_if_not_self
