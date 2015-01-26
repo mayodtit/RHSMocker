@@ -24,7 +24,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   def update
     sa = subscription_attributes
     if UpdateStripeSubscriptionService.new(@user, sa[:plan]).call
-      render_success ({ new_subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions })
+      render_success ({ new_subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first })
     else
       render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
     end

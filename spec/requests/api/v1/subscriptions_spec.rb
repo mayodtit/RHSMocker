@@ -82,7 +82,7 @@ describe 'Subscriptions' do
       do_request
       response.should be_success
       body = JSON.parse(response.body, symbolize_names: true)
-      expect( body[:new_subscription][:data].first[:plan][:id] ).to eq( 'bp50' )
+      expect( body[:new_subscription][:plan][:id] ).to eq( 'bp50' )
     end
   end
 end
