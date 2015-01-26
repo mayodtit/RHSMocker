@@ -3,7 +3,7 @@
 
 class Search::Service::Bloom
   include HTTParty
-  base_uri 'http://bloomapi.getbetter.com/'
+  base_uri 'http://192.168.1.161:3005/'
 
   def query(params)
     response = self.class.get('/api/search', :query => query_params(params))
@@ -27,6 +27,8 @@ class Search::Service::Bloom
   def sanitize_params(params)
     new_params = params.reject{|k,v| !QUERY_PARAMS.include?(k.to_sym)}
     new_params['practice_address.state'] = params[:state] if params[:state]
+    new_params['practice_address.zip'] = params[:zip] if params[:zip]
+    new_params['practice_address.city'] = params[:city] if params[:city]
     new_params
   end
 
@@ -34,7 +36,18 @@ class Search::Service::Bloom
     params = sanitize_params(params)
     result = []
     params.keys.each_with_index do |key, i|
-      result << "key#{i}=#{key.to_s}&op#{i}=eq&value#{i}=#{params[key].to_s.upcase}"
+      if key == 'practice_address.zip'
+        zip_string = StringIO.new
+        zip_string << "key#{i}=practice_address.zip&op#{i}=prefix"
+        zip_array = params['practice_address.zip'].split(' ')
+        zip_array.each do |zip|
+          zip_string << "&value#{i}=#{zip}"
+        end
+        result << zip_string.string
+      else
+      #Request construction for keys that are not zip codes
+        result << "key#{i}=#{key.to_s}&op#{i}=prefix&value#{i}=#{params[key].to_s}"
+      end
     end
     result.join('&')
   end

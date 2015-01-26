@@ -7,6 +7,13 @@ class Search::Service
     npi.find(params)
   end
 
+  def proximity(params, services=nil)
+    if !params['dist'].nil? && !params['zip'].nil?
+      @geo||= Search::Geo::Proximity.new
+      @geo.findNear(params)
+    end
+  end
+
   private
 
   def npi

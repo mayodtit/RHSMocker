@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150113213238) do
+ActiveRecord::Schema.define(:version => 20150120005950) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -658,6 +658,15 @@ ActiveRecord::Schema.define(:version => 20150113213238) do
     t.datetime "updated_at",  :null => false
   end
 
+  create_table "proximity", :force => true do |t|
+    t.string  "city"
+    t.integer "zip"
+    t.string  "state"
+    t.string  "county"
+    t.float   "latitude"
+    t.float   "longitude"
+  end
+
   create_table "referral_codes", :force => true do |t|
     t.string   "name"
     t.string   "code"
@@ -916,7 +925,7 @@ ActiveRecord::Schema.define(:version => 20150113213238) do
   create_table "task_templates", :force => true do |t|
     t.string   "name",                :null => false
     t.string   "title",               :null => false
-    t.text     "description"
+    t.text   "description"
     t.integer  "time_estimate"
     t.integer  "service_ordinal"
     t.integer  "service_template_id"
@@ -1151,7 +1160,7 @@ ActiveRecord::Schema.define(:version => 20150113213238) do
     t.datetime "updated_at",                                                       :null => false
     t.string   "avatar"
     t.string   "email"
-    t.string   "phone"
+    t.string   "ne"
     t.string   "crypted_password"
     t.string   "salt"
     t.string   "reset_password_token"

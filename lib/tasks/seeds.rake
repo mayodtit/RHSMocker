@@ -669,4 +669,34 @@ namespace :seeds do
     )
     puts welcome_call.id
   end
+
+  desc "Seed proximity data for US cities"
+  task :proximity => :environment do
+    s = Roo::Spreadsheet.open(Rails.root.join('lib', 'assets', 'US.xls').to_s)
+    puts "Start parsing xls"
+    zip = s.column(2)
+    city = s.column(3)
+    state = s.column(4)
+    county = s.column(6)
+    latitude = s.column(10)
+    longitude = s.column(11)
+    puts "Done parsing xls"
+    puts "Starting Database population"
+    zip.each_with_index { |zipcode, index|
+      puts "Processing " + zipcode
+      begin
+        Proximity.create!(
+            :city => city[index],
+            :zip => zip[index],
+            :state => state[index],
+            :county => county[index],
+            :latitude => latitude[index],
+            :longitude => longitude[index]
+        )
+      rescue
+      end
+    }
+  puts "Database populated"
+
+  end
 end
