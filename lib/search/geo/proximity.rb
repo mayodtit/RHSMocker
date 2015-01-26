@@ -12,6 +12,9 @@ end
 class Search::Geo::Proximity
   def findNear(params)
     begin
+      if !checkParams(params)
+        return params
+      end
     # Find query zip code in params
     qzip = params["zip"]
 
@@ -54,6 +57,13 @@ class Search::Geo::Proximity
 
     rescue
       puts "Error in geo/proximity.rb"
+    end
+
+    def checkParams(params)
+      if !params['dist'].nil? && !params['zip'].nil?
+        return true
+      end
+      return false
     end
   end
 end
