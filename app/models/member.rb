@@ -37,10 +37,6 @@ class Member < User
   has_many :programs, through: :user_programs
   has_one :owned_subscription, class_name: 'Subscription',
                                foreign_key: :owner_id
-  has_one :subscription_user, foreign_key: :user_id
-  has_one :shared_subscription, through: :subscription_user,
-                                class_name: 'Subscription',
-                                source: :subscription
   has_many :tasks, class_name: 'Task', conditions: ['type NOT IN (?, ?, ?)', 'MessageTask', 'PhoneCallTask', 'ViewTaskTask']
   has_many :request_tasks, class_name: 'Task', conditions: {type: %w(UserRequestTask ParsedNurselineRecordTask)}
   has_many :service_tasks, class_name: 'MemberTask',
