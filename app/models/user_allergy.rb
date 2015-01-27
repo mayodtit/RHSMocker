@@ -21,11 +21,11 @@ class UserAllergy < ActiveRecord::Base
 
   def track_create
     self.actor_id ||= Member.robot.id
-    UserChange.create! user: user, actor_id: actor_id, action: 'add', data: {allergies: [allergy.name]}.to_s
+    UserChange.create! user: user, actor_id: actor_id, action: 'add', data: {allergies: [allergy.name]}
   end
 
   def track_destroy
     self.actor_id ||= Member.robot.id
-    UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {allergies: [allergy.name]}.to_s
+    UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {allergies: [allergy.name]}
   end
 end

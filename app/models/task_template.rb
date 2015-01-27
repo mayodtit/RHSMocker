@@ -14,7 +14,7 @@ class TaskTemplate < ActiveRecord::Base
     MemberTask.create!(
       title: attributes[:title] || title,
       description: attributes[:description] || description,
-      due_at: (attributes[:start_at] || Time.now) + time_estimate.to_i.minutes,
+      due_at: (attributes[:start_at] || Time.now).business_minutes_from(time_estimate.to_i),
       time_estimate: time_estimate,
       task_template: self,
       service: attributes[:service],

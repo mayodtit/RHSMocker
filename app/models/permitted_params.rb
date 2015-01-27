@@ -146,7 +146,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   def base_user_attributes
     [:id, :first_name, :last_name, :avatar, :gender, :birth_date,
      :phone, :blood_type, :holds_phone_in, :diet_id, :ethnic_group_id,
-     :deceased, :date_of_death, :npi_number, :expertise, :city, :state, :units,
+     :deceased, :date_of_death, :npi_number, :expertise, :city, :units,
      :nickname, :work_phone_number, :text_phone_number, :provider_taxonomy_code, :actor_id, :nux_answer_id,
      :payment_token]
   end
@@ -164,11 +164,11 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def address_attributes
-    %i(id address address2 line1 line2 city state postal_code name type)
+    %i(id address address2 line1 line2 city postal_code name type)
   end
 
   def provider_attributes
-    [:id, :address, :city, :state, :postal_code, :phone]
+    [:id, :address, :city, :postal_code, :phone]
   end
 
   def emergency_contact_attributes

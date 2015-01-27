@@ -52,7 +52,7 @@ class User < ActiveRecord::Base
 
   attr_accessible :first_name, :last_name, :avatar, :gender, :birth_date, :email,
                   :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
-                  :date_of_death, :expertise, :city, :state, :avatar_url_override, :client_data,
+                  :date_of_death, :expertise, :city, :avatar_url_override, :client_data,
                   :user_information_attributes, :addresses_attributes,
                   :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id,
                   :provider_taxonomy_code, :owner, :owner_id, :self_owner, :emergency_contact_attributes,
@@ -350,9 +350,9 @@ class User < ActiveRecord::Base
   end
 
   def track_update
-    changes = self.changes.except(:created_at, :updated_at)
+    changes = self.changes.except(:created_at, :updated_at, :avatar)
     return if changes.empty?
     @actor_id ||= Member.robot.id
-    UserChange.create! user: self, actor_id: actor_id, action: 'update', data: changes.to_s
+    UserChange.create! user: self, actor_id: actor_id, action: 'update', data: changes
   end
 end

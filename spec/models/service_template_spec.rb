@@ -30,7 +30,7 @@ describe ServiceTemplate do
         title: service_template.title,
         description: service_template.description,
         service_type: service_template.service_type,
-        due_at: Time.new(2014, 7, 28, 1, 0, 0, '-07:00')
+        due_at: Time.new(2014, 7, 28, 6, 0, 0, '-07:00')
       )) { service }
 
       service_template.create_service!.should == service

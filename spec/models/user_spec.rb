@@ -439,7 +439,7 @@ describe User do
         u.user.should == user
         u.actor.should == Member.robot
         u.action.should == 'update'
-        eval(u.data).should == {"gender" => [nil, 'M'], "last_name" => [old_last_name, 'Poop']}
+        u.data.should == {"gender" => [nil, 'M'], "last_name" => [old_last_name, 'Poop']}
       end
 
       context 'actor_id is defined' do

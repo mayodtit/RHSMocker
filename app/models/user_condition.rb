@@ -25,11 +25,11 @@ class UserCondition < ActiveRecord::Base
 
   def track_create
     self.actor_id ||= Member.robot.id
-    UserChange.create! user: user, actor_id: actor_id, action: 'add', data: {conditions: [condition.name]}.to_s
+    UserChange.create! user: user, actor_id: actor_id, action: 'add', data: {conditions: [condition.name]}
   end
 
   def track_destroy
     self.actor_id ||= Member.robot.id
-    UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {conditions: [condition.name]}.to_s
+    UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {conditions: [condition.name]}
   end
 end

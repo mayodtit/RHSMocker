@@ -273,11 +273,11 @@ class Association < ActiveRecord::Base
   end
 
   def track_create
-    UserChange.create! user: user, actor_id: creator_id, action: 'add', data: {associations: [associate.id]}.to_s if creator.is_a? Member
+    UserChange.create! user: user, actor_id: creator_id, action: 'add', data: {associations: [associate.id]} if creator.is_a? Member
   end
 
   def track_destroy
-    UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {associations: [associate.id]}.to_s  if actor_id
+    UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {associations: [associate.id]}  if actor_id
   end
 
   def publish
