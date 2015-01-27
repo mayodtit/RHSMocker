@@ -79,7 +79,6 @@ RHSMocker::Application.configure do
     :enable_starttls_auto => true
   }
   MandrillMailer.configure { |config| config.api_key = key }
-
   # Enable threaded mode
   # config.threadsafe!
 
