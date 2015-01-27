@@ -147,6 +147,7 @@ RHSMocker::Application.routes.draw do
         put :secure_update, on: :member, to: 'members#secure_update'
         resources :subscriptions, only: [:index, :create] do
           delete :destroy, :on => :collection
+          put :update, :on => :collection
         end
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
           resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do
