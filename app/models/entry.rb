@@ -4,7 +4,7 @@ class Entry < ActiveRecord::Base
   belongs_to :actor, class_name: "Member"
   serialize :data, Hash
 
-  validates :member, :resource, :data, presence: true
+  validates :member, :resource, presence: true
 
   attr_accessible :resource, :resource_id, :member, :member_id, :resource_type, :actor, :actor_id, :data
 
