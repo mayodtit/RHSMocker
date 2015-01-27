@@ -5,10 +5,10 @@ namespace :user_change do
     puts "Converting #{with_string.count} old user changes"
     with_string.find_each do |user_change|
       next unless user_change.data.is_a? String
-      # Convert timestamps to valid ruby (e.g. Time.parse("[TIMESTAMP]"))
-      converted_data = user_change.data.gsub(/([a-zA-z][a-zA-z][a-zA-z], \d\d [a-zA-z][a-zA-z][a-zA-z] \d\d\d\d \d\d:\d\d:\d\d [a-zA-z][a-zA-z][a-zA-z] \+\d\d:\d\d)/, 'Time.parse("\1")')
-      user_change.data = eval converted_data
-      user_change.save!
+        converted_data = user_change.data.gsub(/([a-zA-z][a-zA-z][a-zA-z], \d\d [a-zA-z][a-zA-z][a-zA-z] \d\d\d\d \d\d:\d\d:\d\d [a-zA-z][a-zA-z][a-zA-z] \+\d\d:\d\d)/, 'Time.parse("\1")')
+        converted_data = converted_data.gsub(/([a-zA-z][a-zA-z][a-zA-z], \d\d [a-zA-z][a-zA-z][a-zA-z] \d\d\d\d)\]/, 'Date.parse("\1")]')
+        user_change.data = eval converted_data
+        user_change.save!
     end
   end
 end
