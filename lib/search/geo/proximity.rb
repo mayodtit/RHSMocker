@@ -45,6 +45,7 @@ class Search::Geo::Proximity
           bothFiltered.push(loc)
         end
       end
+    end
 
       zipString = ""
       bothFiltered.each do |loc|
