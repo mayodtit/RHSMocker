@@ -58,12 +58,12 @@ class Search::Geo::Proximity
     rescue
       puts "Error in geo/proximity.rb"
     end
+  end
 
-    def checkParams(params)
-      if !params['dist'].nil? && !params['zip'].nil?
-        return true
-      end
+  def checkParams(params)
+    if params['dist'].nil? || params['zip'].nil?
       return false
     end
+    return true
   end
 end
