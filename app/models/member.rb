@@ -243,6 +243,14 @@ class Member < User
     is_premium? || status?(:free)
   end
 
+  def has_upgraded?
+    MemberStateTransition.where(member_id: id).where(to: PREMIUM_STATES).exists?
+  end
+
+  def new_user?
+    status?(:free) && !has_upgraded?
+  end
+
   def invite! invitation
     return if signed_up?
     update_attributes!(invitation_token: invitation.token)

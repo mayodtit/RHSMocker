@@ -23,15 +23,25 @@ class Api::V1::TasksController < Api::V1::ABaseController
     end
 
     tasks = query.where(role_id: role.id, visible_in_queue: true).includes(:member).order(task_order)
+    tomorrow_count = 0
     future_count = 0
 
     if params.has_key? :only_today
       eod = Time.now.pacific.end_of_day
+      tom_eod = 1.day.from_now.pacific.end_of_day
       future_count = tasks.where('due_at > ?', eod).count
+      tomorrow_count = tasks.where('due_at > ? && due_at <= ?', eod, tom_eod).count
       tasks = tasks.where('due_at <= ?', eod)
     end
 
-    render_success tasks: tasks.serializer(shallow: true), future_count: future_count
+    if params.has_key? :until_tomorrow
+      eod = Time.now.pacific.end_of_day
+      tom_eod = 1.day.from_now.pacific.end_of_day
+      future_count = tasks.where('due_at > ?', tom_eod).count
+      tasks = tasks.where('due_at <= ?', tom_eod)
+    end
+
+    render_success tasks: tasks.serializer(shallow: true), tomorrow_count: tomorrow_count, future_count: future_count
   end
 
   def show

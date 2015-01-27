@@ -23,7 +23,7 @@ describe UserAllergy do
       u.user.should == member
       u.actor.should == Member.robot
       u.action.should == 'add'
-      eval(u.data).should == {allergies: [user_allergy.allergy.name]}
+      u.data.should == {allergies: [user_allergy.allergy.name]}
     end
 
     context 'actor_id is defined' do
@@ -58,7 +58,7 @@ describe UserAllergy do
       u.user.should == member
       u.actor.should == Member.robot
       u.action.should == 'destroy'
-      eval(u.data).should == {allergies: [allergy.name]}
+      u.data.should == {allergies: [allergy.name]}
     end
 
     context 'actor_id is defined' do

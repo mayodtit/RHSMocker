@@ -91,8 +91,7 @@ namespace :seeds do
 
       d = User.create(:first_name => 'Paul',
                       :last_name => 'Limburg',
-                      :expertise => 'Gastroenterology',
-                      :state => 'MN')
+                      :expertise => 'Gastroenterology')
 
       u.associations.create(:associate => d, :association_type_id => 14)
       a.associations.create(:associate => d, :association_type_id => 14)

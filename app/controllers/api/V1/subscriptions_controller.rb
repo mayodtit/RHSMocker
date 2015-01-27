@@ -17,10 +17,26 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   # but it's better than them paying without becoming a premium member.
   def create
     sa = subscription_attributes # this needs to be assigned prior to the user's update_attributes
-
     if @user.update_attributes(user_attributes)
       @customer.subscriptions.create(sa)
       render_success(user: @user.serializer)
+    else
+      render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
+    end
+  end
+
+  def destroy
+    if DestroyStripeSubscriptionService.new(@user, :upgrade).call
+      render_success
+    else
+      render_failure({reason: 'Error occurred during subscription cancellation'}, 422)
+    end
+  end
+
+  def update
+    sa = subscription_attributes
+    if UpdateStripeSubscriptionService.new(@user, sa[:plan]).call
+      render_success ({ new_subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first })
     else
       render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
     end
@@ -56,6 +72,8 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
     {plan: params.require(:subscription).require(:plan_id)}.tap do |attributes|
       if @user.free_trial_ends_at && (@user.free_trial_ends_at.end_of_day > Time.zone.now.end_of_day)
         attributes.merge!(trial_end: @user.free_trial_ends_at.to_i) if @user.free_trial_ends_at
+      elsif @user.new_user?
+        attributes.merge!(trial_end: 1.month.from_now.pacific.end_of_day.to_i)
       end
       attributes.merge!(coupon: '50PERCENT') if @user.onboarding_group.try(:mayo_pilot?)
     end

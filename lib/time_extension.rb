@@ -9,6 +9,14 @@ module TimeExtension
     Time.new(year, month, day, 9, 0, 0, strftime('%:z'))
   end
 
+  def ten_oclock
+    Time.new(year, month, day, 10, 0, 0, strftime('%:z'))
+  end
+
+  def eight_oclock
+    Time.new(year, month, day, 8, 0, 0, strftime('%:z'))
+  end
+
   def eighteen_oclock
     Time.new(year, month, day, 18, 0, 0, strftime('%:z'))
   end
@@ -23,6 +31,16 @@ module TimeExtension
     else
       self + (7 - self.wday + wday).days
     end
+  end
+
+  def business_minutes_from(minutes)
+    prev_global_time_zone = Time.zone
+
+    # Perform all calculations in Pacific timezone
+    Time.zone = ActiveSupport::TimeZone.new('America/Los_Angeles')
+    new_time = (self + minutes.minutes).business_time? ? self + minutes.minutes : 0.business_hours.after(self + minutes.minutes)
+    Time.zone = prev_global_time_zone
+    new_time
   end
 
   def next_business_day_in_words(time_zone = nil)

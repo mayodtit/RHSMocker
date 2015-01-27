@@ -63,8 +63,6 @@ describe Api::V1::PingController do
         get :index, :auth_token => 'BAADBEEFDEADBEEF'
       end
 
-      it_behaves_like 'action requiring authentication'
-
       context 'authenticated', :user => :authenticate! do
         it_behaves_like 'success'
 
@@ -75,6 +73,17 @@ describe Api::V1::PingController do
           metadata = json['metadata']
           metadata[metadata2.mkey].should == metadata2.mvalue
           metadata.should_not have_key('use_invite_flow')
+        end
+      end
+
+      context 'invalid token' do
+        it_behaves_like 'success'
+
+        it 'responds with use_invite_flow' do
+          do_request
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body).to have_key(:use_invite_flow)
         end
       end
     end
