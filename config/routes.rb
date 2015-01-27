@@ -146,7 +146,7 @@ RHSMocker::Application.routes.draw do
         resources :scheduled_messages, except: %i(new edit)
         put :secure_update, on: :member, to: 'members#secure_update'
         resources :subscriptions, only: [:index, :create] do
-          get :available_options, :on => :member
+          get :available_options, :on => :collection
           delete :destroy, :on => :collection
           put :update, :on => :collection
         end

@@ -44,46 +44,33 @@ describe 'Subscriptions' do
                                         description: StripeExtension.customer_description(user.id),
                                         card: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
 
-    @customer.subscriptions.create(:plan => 'bp20')
+    user.update_attribute(:stripe_customer_id, @customer.id)
   end
 
   after do
     StripeMock.stop
   end
 
-  describe 'Get /api/v1/users/:user_id/subscriptions' do
-    def do_request(params={})
-      get "/api/v1/users/#{user.id}/subscriptions", params.merge!(auth_token: session.auth_token)
-    end
-
-    it 'get the subscription of the user' do
-      do_request
-      expect(response).to be_success
-      body = JSON.parse(response.body, symbolize_names: true)
-      expect(body[:subscriptions].to_json).to eq(user.subscriptions.to_json)
-    end
-  end
-
   describe 'Get /api/v1/users/:user_id/subscriptions/:id/available_options' do
+    before do
+      @customer.subscriptions.create(:plan => 'bp20')
+    end
+
     def do_request(params={})
-      get "/api/v1/users/#{user.id}/subscriptions/:id/available_options", params.merge!(auth_token: session.auth_token)
+      get "/api/v1/users/#{user.id}/subscriptions/available_options", params.merge!(auth_token: session.auth_token)
     end
 
     it 'get the subscription of the user' do
       do_request
       expect(response).to be_success
       body = JSON.parse(response.body, symbolize_names: true)
-      expect(body[:plans].to_json).to eq([@family_plan, @yearly_single_plan].serializer.as_json.to_json)
+      expect(body[:available_plans].to_json).to eq([@family_plan, @yearly_single_plan].serializer.as_json.to_json)
     end
   end
 
   describe 'DELETE /api/v1/users/:user_id/subscriptions' do
     before do
-      customer = Stripe::Customer.create(email: user.email,
-                                         description: StripeExtension.customer_description(user.id),
-                                         card: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
-      customer.subscriptions.create(:plan => 'bp20')
-      user.update_attribute(:stripe_customer_id, customer.id)
+      @customer.subscriptions.create(:plan => 'bp20')
     end
 
     def do_request(params={})
@@ -93,8 +80,8 @@ describe 'Subscriptions' do
     it 'should stop the current subscription of the user' do
       do_request
       expect(response).to be_success
-      customer = Stripe::Customer.retrieve(user.stripe_customer_id)
-      expect(customer.subscriptions.data.length).to eq(0)
+      @customer = Stripe::Customer.retrieve(user.stripe_customer_id)
+      expect(@customer.subscriptions.data.length).to eq(0)
     end
   end
 
@@ -124,23 +111,16 @@ describe 'Subscriptions' do
     it 'should create the a subscription for the user' do
       do_request
       response.should be_success
+      body = JSON.parse(response.body, symbolize_names: true)
+      byebug
+      expect(body[:user].to_json).to eq( user.serializer.as_json.to_json )
     end
   end
+
 
   describe 'PUT /api/v1/users/:user_id/subscriptions' do
     before do
       @customer.subscriptions.create(:plan => @single_plan.id)
-      @family_plan = Stripe::Plan.create(amount: 4999,
-                                         interval: :month,
-                                         name: 'Family Membership',
-                                         currency: :usd,
-                                         id: 'bp50',
-                                         metadata: {
-                                             display_name: 'Family Membership',
-                                             display_price: '$49.99/month',
-                                             active: 'true'
-                                         })
-
     end
 
     def do_request(params = {})
@@ -153,7 +133,6 @@ describe 'Subscriptions' do
       response.should be_success
       body = JSON.parse(response.body, symbolize_names: true)
       expect( body[:new_subscription][:plan][:id] ).to eq( 'bp50' )
->>>>>>> develop
     end
   end
 end
