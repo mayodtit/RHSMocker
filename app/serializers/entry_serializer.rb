@@ -1,7 +1,7 @@
 class EntrySerializer < ViewSerializer
   self.root = false
 
-  attributes :id, :created_at, :updated_at, :member_id, :resource_id, :resource_type, :actor_id
+  attributes :id, :created_at, :updated_at, :member_id, :resource_id, :resource_type, :actor_id, :data
 
   def attributes
     if options[:shallow]
@@ -12,7 +12,8 @@ class EntrySerializer < ViewSerializer
           member_id: object.member_id,
           actor_id: object.actor_id,
           resource_id: object.resource_id,
-          resource_type: object.resource_type
+          resource_type: object.resource_type,
+          data: object.data
       }
       attributes
     elsif options[:timeline]
@@ -20,13 +21,13 @@ class EntrySerializer < ViewSerializer
           id: object.id,
           created_at: object.created_at,
           updated_at: object.updated_at,
-          resource: object.resource.try(:serializer),
+          resource_id: object.resource_id,
           resource_type: object.resource_type,
           member: object.member.try(:serializer, options.merge(shallow: true)),
           member_id: object.member_id,
           actor: object.actor.try(:serializer, options.merge(shallow: true)),
-          actor_id: object.actor_id
-
+          actor_id: object.actor_id,
+          data: object.data
       }
       attributes
     else
