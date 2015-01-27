@@ -112,11 +112,10 @@ describe 'Subscriptions' do
       do_request
       response.should be_success
       body = JSON.parse(response.body, symbolize_names: true)
-      byebug
-      expect(body[:user].to_json).to eq( user.serializer.as_json.to_json )
+      user.update_attributes({status_event: :upgrade, free_trial_ends_at: nil, subscription_ends_at: nil, actor_id: user.id})
+      expect(body[:user].to_json).to eq(user.serializer.as_json.to_json )
     end
   end
-
 
   describe 'PUT /api/v1/users/:user_id/subscriptions' do
     before do
