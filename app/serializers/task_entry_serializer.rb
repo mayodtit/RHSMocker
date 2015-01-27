@@ -3,18 +3,18 @@ class TaskEntrySerializer < ActiveModel::Serializer
   attributes :title, :due_at, :description, :member, :creator, :owner, :service_type
 
   def member
-    object.member.full_name
+    object.member? && object.member.full_name
   end
 
   def creator
-    object.creator.full_name
+    object.creator? && object.creator.full_name
   end
 
   def owner
-    object.owner.full_name
+    object.owner? && object.owner.full_name
   end
 
   def service_type
-    object.service_type.name
+    object.service_type? && object.service_type.name
   end
 end
