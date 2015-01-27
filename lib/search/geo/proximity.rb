@@ -15,8 +15,8 @@ class Search::Geo::Proximity
       if !checkParams(params)
         return params
       end
-    # Find query zip code in params
-    qzip = params["zip"]
+      # Find query zip code in params
+      qzip = params["zip"]
 
     # Find query distance in params
     qdist = params["dist"]
