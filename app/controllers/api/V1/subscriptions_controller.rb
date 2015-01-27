@@ -13,10 +13,18 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   # but it's better than them paying without becoming a premium member.
   def create
     sa = subscription_attributes # this needs to be assigned prior to the user's update_attributes
-
     if @user.update_attributes(user_attributes)
       @customer.subscriptions.create(sa)
       render_success(user: @user.serializer)
+    else
+      render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
+    end
+  end
+
+  def update
+    sa = subscription_attributes
+    if UpdateStripeSubscriptionService.new(@user, sa[:plan]).call
+      render_success ({ new_subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first })
     else
       render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
     end
