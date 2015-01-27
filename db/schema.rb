@@ -1160,7 +1160,7 @@ ActiveRecord::Schema.define(:version => 20150120005950) do
     t.datetime "updated_at",                                                       :null => false
     t.string   "avatar"
     t.string   "email"
-    t.string   "ne"
+    t.string   "phone"
     t.string   "crypted_password"
     t.string   "salt"
     t.string   "reset_password_token"
