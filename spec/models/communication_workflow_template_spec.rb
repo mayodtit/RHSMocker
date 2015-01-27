@@ -21,11 +21,11 @@ describe CommunicationWorkflowTemplate do
       let!(:communication_workflow_template) { create :communication_workflow_template,
                                                      relative_days: 0,
                                                      relative_hours: 1}
-      let(:reference_time) { Time.local(2015, 1, 12, 9, 0, 0 ).utc }
+      let(:reference_time) { Time.new(2015, 1, 12, 9, 0, 0, "+00:00" ) }
 
       context 'Time now + relative hour is between 8am -9am' do
         before do
-          new_time = Time.local(2015, 1, 13, 15, 30, 0)
+          new_time = Time.new(2015, 1, 13, 15, 30, 0, "+00:00")
           Timecop.freeze(new_time)
         end
 
@@ -34,13 +34,13 @@ describe CommunicationWorkflowTemplate do
         end
 
         it 'should publish at 10am' do
-          expect( communication_workflow_template.send( :relative_publish_at, reference_time).pacific ).to eq( Time.local(2015, 1, 13, 18, 0, 0).pacific)
+          expect( communication_workflow_template.send( :relative_publish_at, reference_time).pacific ).to eq( Time.new(2015, 1, 13, 18, 0, 0, "+00:00").pacific)
         end
       end
 
       context 'Time now + relative hour is after 9am, but before business close' do
         before do
-          new_time = Time.local(2015, 1, 13, 19, 30, 0).utc
+          new_time = Time.new(2015, 1, 13, 19, 30, 0, "+00:00")
           Timecop.freeze(new_time)
         end
 
@@ -49,13 +49,13 @@ describe CommunicationWorkflowTemplate do
         end
 
         it 'should publish one hour later if it is after 9am' do
-          expect( communication_workflow_template.send(:relative_publish_at, reference_time).pacific ).to eq( Time.local(2015, 1, 13, 21, 30, 0).pacific)
+          expect( communication_workflow_template.send(:relative_publish_at, reference_time).pacific ).to eq( Time.new(2015, 1, 13, 21, 30, 0, "+00:00").pacific)
         end
       end
 
       context 'Time now + relative hour is before 8am' do
         before do
-          new_time = Time.local(2015, 1, 13, 14, 30, 0)
+          new_time = Time.new(2015, 1, 13, 14, 30, 0, "+00:00")
           Timecop.freeze(new_time)
         end
 
@@ -64,13 +64,13 @@ describe CommunicationWorkflowTemplate do
         end
 
         it 'publish at 9am if it is before 8am' do
-          expect( communication_workflow_template.send(:relative_publish_at, reference_time).pacific ).to eq( Time.local(2015, 1, 13, 17, 0, 0).pacific)
+          expect( communication_workflow_template.send(:relative_publish_at, reference_time).pacific ).to eq( Time.new(2015, 1, 13, 17, 0, 0, "+00:00").pacific)
         end
       end
 
       context 'Time now + relative hour is not in business hour' do
         before do
-          new_time = Time.local(2015, 1, 14, 5, 30, 0).pacific
+          new_time = Time.new(2015, 1, 14, 5, 30, 0, "+00:00").pacific
           Timecop.freeze(new_time)
         end
 
@@ -79,7 +79,7 @@ describe CommunicationWorkflowTemplate do
         end
 
         it 'sending at 9am one day after if it is during off hours' do
-          expect( communication_workflow_template.send(:relative_publish_at, reference_time).pacific ).to eq( Time.local(2015, 1, 13, 17, 0, 0).pacific)
+          expect( communication_workflow_template.send(:relative_publish_at, reference_time).pacific ).to eq( Time.new(2015, 1, 13, 17, 0, 0, "+00:00").pacific)
         end
       end
     end
@@ -88,10 +88,10 @@ describe CommunicationWorkflowTemplate do
       let!(:communication_workflow_template) { create :communication_workflow_template,
                                                       relative_days: 0,
                                                       relative_hours: -1}
-      let(:reference_time) { Time.local(2015, 1, 12, 9, 0, 0 ) }
+      let(:reference_time) { Time.new(2015, 1, 12, 9, 0, 0, "+00:00") }
 
       before do
-        new_time = Time.local(2015, 1, 13, 17, 30, 0)
+        new_time = Time.new(2015, 1, 13, 17, 30, 0, "+00:00")
         Timecop.freeze(new_time)
       end
 
@@ -100,7 +100,7 @@ describe CommunicationWorkflowTemplate do
       end
 
       it 'should publish at one hour before time now' do
-        expect( communication_workflow_template.send(:relative_publish_at, reference_time).pacific ).to eq( Time.local(2015, 1, 13, 16, 30, 0).pacific)
+        expect( communication_workflow_template.send(:relative_publish_at, reference_time).pacific ).to eq( Time.new(2015, 1, 13, 16, 30, 0, "+00:00").pacific)
       end
     end
 
@@ -109,10 +109,10 @@ describe CommunicationWorkflowTemplate do
       let!(:communication_workflow_template) { create :communication_workflow_template,
                                                      relative_days: 1,
                                                      relative_hours: 2}
-      let(:reference_time) { Time.local(2015, 1, 12, 9, 0, 0 ) }
+      let(:reference_time) { Time.new(2015, 1, 12, 9, 0, 0, "+00:00" ) }
 
       before do
-        new_time = Time.local(2015, 1, 13, 17, 30, 0)
+        new_time = Time.new(2015, 1, 13, 17, 30, 0)
         Timecop.freeze(new_time)
       end
 
@@ -121,7 +121,7 @@ describe CommunicationWorkflowTemplate do
       end
 
       it 'sending the relatives days later at 9am' do
-        expect( communication_workflow_template.send(:relative_publish_at, reference_time).pacific ).to eq(Time.local(2015, 1, 13, 17, 0, 0).pacific)
+        expect( communication_workflow_template.send(:relative_publish_at, reference_time).pacific ).to eq(Time.new(2015, 1, 13, 17, 0, 0, "+00:00").pacific)
       end
     end
 
@@ -129,10 +129,10 @@ describe CommunicationWorkflowTemplate do
       let!(:communication_workflow_template) { create :communication_workflow_template,
                                                      relative_days: -1,
                                                      relative_hours: 2}
-      let(:reference_time) { Time.local(2015, 1, 12, 9, 0, 0 ) }
+      let(:reference_time) { Time.new(2015, 1, 12, 9, 0, 0, "+00:00" ) }
 
       before do
-        new_time = Time.local(2015, 1, 13, 17, 30, 0)
+        new_time = Time.new(2015, 1, 13, 17, 30, 0, "+00:00" )
         Timecop.freeze(new_time)
       end
 
@@ -141,7 +141,7 @@ describe CommunicationWorkflowTemplate do
       end
 
       it 'sending the relatives days before at 9am' do
-        expect( communication_workflow_template.send(:relative_publish_at, reference_time).pacific ).to eq(Time.local(2015, 1, 9, 17, 0, 0).pacific)
+        expect( communication_workflow_template.send(:relative_publish_at, reference_time).pacific ).to eq(Time.new(2015, 1, 9, 17, 0, 0, "+00:00" ).pacific)
       end
     end
   end
