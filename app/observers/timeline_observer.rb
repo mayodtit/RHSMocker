@@ -1,5 +1,5 @@
 class TimelineObserver < ActiveRecord::Observer
-  observe :note, :message, :phone_call, :scheduled_phone_call, :phone_call_summary, :member_task
+  observe :message, :member_task
 
   def after_create(observed)
 
@@ -18,14 +18,6 @@ class TimelineObserver < ActiveRecord::Observer
         if !observed.phone_call || !observed.scheduled_phone_call || !observed.phone_call_summary
           observed.consult.initiator.entries.create(resource: observed, actor: member, data: observed.entry_serializer.as_json)
         end
-      when "Note"
-        member.entries.create(resource: observed)
-      when "PhoneCall"
-        member.entries.create(resource: observed)
-      when "ScheduledPhoneCall"
-        member.entries.create(resource: observed)
-      when "PhoneCallSumamry"
-        member.entries.create(resource: observed)
     end
   end
 end

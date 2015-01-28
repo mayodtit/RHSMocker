@@ -3,7 +3,7 @@ class MessageEntrySerializer < ActiveModel::Serializer
 
   attributes :sender, :receiver, :text, :created_at, :title, :image_url, :type,
              :content_id, :symptom_id, :condition_id, :user_image_id,
-             :contents, :system
+             :contents, :system, :note
 
   def sender
     object.consult.initiator.full_name
