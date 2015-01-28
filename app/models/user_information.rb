@@ -7,12 +7,12 @@ class UserInformation < ActiveRecord::Base
   validates :user, presence: true
   validates :user_id, uniqueness: true
 
-  after_destroy track_changes('destroy')
-  after_create track_create('add')
-  after_update track_update('update')
+  after_destroy {|c| c.track_changes 'destroy'}
+  after_create {|c| c.track_changes 'add'}
+  after_update {|c| c.track_changes 'update'}
 
   def track_changes(action)
     self.actor_id ||= Member.robot.id
-    UserChange.create! user: user, actor_id: actor_id, action: action, data: {changed_attributes: [ UserInformation.changed ]}.to_s
+    UserChange.create! user: user, actor_id: actor_id, action: action, data: {changed_attributes: [ UserInformation.changed ]}
   end
 end
