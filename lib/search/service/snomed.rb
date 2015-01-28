@@ -1,6 +1,3 @@
-# Code values explained here (in case you ever need some light bedtime reading)
-# http://www.cms.gov/Regulations-and-Guidance/HIPAA-Administrative-Simplification/NationalProvIdentStand/downloads/Data_Dissemination_File-Code_Values.pdf
-
 class Search::Service::Snomed
   include HTTParty
   #TODO: version should be a changeable global variable set somewhere
