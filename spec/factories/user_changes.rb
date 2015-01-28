@@ -5,6 +5,6 @@ FactoryGirl.define do
     association :user
     association :actor, factory: :member
     action 'add'
-    data({gender: ['male', 'female']}.to_s)
+    data({gender: ['male', 'female']})
   end
 end

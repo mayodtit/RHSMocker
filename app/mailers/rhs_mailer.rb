@@ -2,48 +2,64 @@ class RHSMailer < MandrillMailer::TemplateMailer
   default from: (Rails.env.production? ? 'support@getbetter.com' : "support@#{Rails.env}.getbetter.com")
   default from_name: 'Better'
 
+  def before_check(params)
+    unless ( Rails.env.production? || params[:to][:email].include?('@getbetter.com') )
+      params[:subject] = "[To:" + params[:to][:email] + "]" + params[:subject]
+      params[:to][:email] = 'engineering@getbetter.com'
+    end
+  end
+
+  def send_mail(params)
+    before_check(params)
+    mandrill_mail(params)
+  end
+
   def welcome_to_better_email(email, salutation)
-    mandrill_mail(
+    params = {
       subject: 'Welcome to Better',
       to: { email: email },
       template: 'All User Welcome Email',
       vars: {
         FNAME: salutation
       }
-    )
+    }
+    send_mail(params)
   end
 
   def welcome_to_better_free_trial_email(email, salutation)
-    mandrill_mail(
+    params = {
       subject: 'Welcome to Better Premium',
       to: { email: email },
       template: 'Free Trial Welcome Email',
       vars: {
         FNAME: salutation
       }
-    )
+    }
+    send_mail(params)
   end
 
   def upgrade_to_better_free_trial_email(email, salutation)
-    mandrill_mail(
+    params = {
       subject: "You've been handpicked to try Better Premium",
       to: { email: email },
       template: 'Upgrade to Trial',
       vars: {
         FNAME: salutation
       }
-    )
+    }
+    send_mail(params)
   end
 
   def welcome_to_premium_email(email, salutation)
-    mandrill_mail(
+    params = {
       subject: 'Welcome to Better Premium',
       to: { email: email },
       template: 'PAID Premium User Welcome',
       vars: {
         FNAME: salutation
       }
-    )
+    }
+    send_mail(params)
   end
 
   def meet_your_pha_email(email)
@@ -51,7 +67,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     pha = user.pha
     subject = 'Welcome to Better'
 
-    mandrill_mail(
+    params = {
       subject: subject,
       from: pha.email,
       from_name: pha.full_name,
@@ -66,7 +82,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
         PHA_BIO: pha.pha_profile.try(:first_person_bio),
         PHA_HEADER_URL: meet_your_pha_header_url(pha)
       }
-    )
+    }
+    send_mail(params)
   end
 
   PREMIUM_WELCOME_TEMPLATE_CLARE = 'Meet Clare, Your PHA 9/4/2014'
@@ -164,7 +181,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
       raise 'Must have PHA to send Meet your PHA'
     end
 
-    mandrill_mail(
+    params = {
       subject: 'Meet your Better Personal Health Assistant',
       from: user.pha.email,
       from_name: user.pha.full_name,
@@ -177,11 +194,12 @@ class RHSMailer < MandrillMailer::TemplateMailer
         FNAME: user.salutation,
         DRNAME: provider.full_name
       }
-    )
+    }
+    send_mail(params)
   end
 
   def invitation_email(user, url)
-    mandrill_mail(
+    params = {
       subject: "You've been invited to Better",
       to: {email: user.email},
       template: 'Invited to Better (generic)',
@@ -189,11 +207,12 @@ class RHSMailer < MandrillMailer::TemplateMailer
         FNAME: user.first_name || 'there',
         LINK: url
       }
-    )
+    }
+    send_mail(params)
   end
 
   def reset_password_email(email, salutation, url)
-    mandrill_mail(
+    params = {
       subject: 'Reset Password Instructions for Better',
       to: { email: email },
       template: 'Password Reset',
@@ -201,11 +220,12 @@ class RHSMailer < MandrillMailer::TemplateMailer
         GREETING: salutation,
         RESETLINK: url
       }
-    )
+    }
+    send_mail(params)
   end
 
   def assigned_role_email(email, greeting, url, signature)
-    mandrill_mail(
+    params = {
       subject: "#{signature} invited you to care for patients with Better!",
       to: { email: email },
       template: 'Assigned Role',
@@ -214,7 +234,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
         URL: url,
         SIGNATURE: signature
       }
-    )
+    }
+    send_mail(params)
   end
 
   WELCOME_CALL_CONFIRMATION = 'Call Confirmation 7/22/14 from Better.'
@@ -222,7 +243,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
   def scheduled_phone_call_member_confirmation_email(spc_id)
     spc = ScheduledPhoneCall.find(spc_id)
 
-    mandrill_mail(
+    params = {
       subject: 'Your Better Call Confirmation',
       from: 'premium@getbetter.com',
       from_name: 'Better',
@@ -243,13 +264,14 @@ class RHSMailer < MandrillMailer::TemplateMailer
           mime_type: 'text/calendar'
         }
       ]
-    )
+    }
+    send_mail(params)
   end
 
   AUTOMATED_ONBOARDING_SURVEY = '"Survey" email on Day 3 of Trial (7/25/14)'
 
   def automated_onboarding_survey_email(user, pha)
-    mandrill_mail(
+    params = {
       subject: 'What can I help you with?',
       from: pha.email,
       from_name: pha.full_name,
@@ -262,8 +284,9 @@ class RHSMailer < MandrillMailer::TemplateMailer
         FNAME: user.salutation,
         PHA: pha.first_name,
         PHA_EMAIL: "#{pha.full_name} <#{pha.email}>"
-      },
-    )
+      }
+    }
+    send_mail(params)
   end
 
   AUTOMATED_ONBOARDING_TESTIMONIALS_CLARE = 'Day 8 Email 8/15 Clare'
@@ -297,7 +320,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
                  AUTOMATED_ONBOARDING_TESTIMONIALS_CLARE
                end
 
-    mandrill_mail(
+    params = {
       subject: "Let's chat",
       from: pha.email,
       from_name: pha.full_name,
@@ -310,12 +333,13 @@ class RHSMailer < MandrillMailer::TemplateMailer
         FNAME: user.salutation,
         PHA: pha.first_name,
         MEMBERNEED: user.nux_answer.try(:phrase) || 'with your health needs'
-      },
-    )
+      }
+    }
+    send_mail(params)
   end
 
   def referral_advertisement_email(user)
-    mandrill_mail(
+    params = {
       subject: 'Give Better, Get Better',
       from: 'support@getbetter.com',
       from_name: 'Better',
@@ -327,14 +351,15 @@ class RHSMailer < MandrillMailer::TemplateMailer
       vars: {
         FNAME: user.salutation,
         PROMO: user.owned_referral_code.code
-      },
-    )
+      }
+    }
+    send_mail(params)
   end
 
   MAYO_PILOT_INVITE_TEMPLATE = 'Mayo Pilot Invitation Plain Text (11/28/2014)'
 
   def mayo_pilot_invite_email(user, provider)
-    mandrill_mail(
+    params = {
       subject: 'Claim your spot in the Better and Mayo Clinic Pilot',
       from: 'hello@getbetter.com',
       from_name: 'The Better and Mayo Clinic Pilot',
@@ -348,7 +373,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
         DRNAME: provider.full_name,
         INVITE_URL: Rails.application.routes.url_helpers.invite_url(user.invitation_token)
       }
-    )
+    }
+    send_mail(params)
   end
 
   MEET_YOUR_PHA_MONTH_TRIAL_TEMPLATE = 'Meet Your PHA Month Trial 11/10/2014'
@@ -356,7 +382,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     user = Member.find_by_email!(email)
     pha = user.pha
 
-    mandrill_mail(
+    params = {
       subject: 'Welcome to Better',
       from: pha.email,
       from_name: pha.full_name,
@@ -371,6 +397,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
         PHA_BIO: pha.pha_profile.try(:first_person_bio),
         PHA_HEADER_URL: meet_your_pha_header_url(pha)
       }
-    )
+    }
+    send_mail(params)
   end
 end

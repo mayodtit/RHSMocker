@@ -56,7 +56,7 @@ describe UserCondition do
       u.user.should == member
       u.actor.should == Member.robot
       u.action.should == 'add'
-      eval(u.data).should == {conditions: [user_condition.condition.name]}
+      u.data.should == {conditions: [user_condition.condition.name]}
     end
 
     context 'actor_id is defined' do
@@ -91,7 +91,7 @@ describe UserCondition do
       u.user.should == member
       u.actor.should == Member.robot
       u.action.should == 'destroy'
-      eval(u.data).should == {conditions: [condition.name]}
+      u.data.should == {conditions: [condition.name]}
     end
 
     context 'actor_id is defined' do
