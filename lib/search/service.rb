@@ -18,6 +18,6 @@ class Search::Service
   end
 
   def snomed
-    @snomed ||= Search::Service::Snomed.next
+    @snomed ||= Search::Service::Snomed.new
   end
 end
