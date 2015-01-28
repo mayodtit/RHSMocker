@@ -71,4 +71,46 @@ describe UserInformation do
       end
     end
   end
+
+  describe '#track_change' do
+    let!(:member) { create :member }
+
+    before do
+      UserChange.destroy_all
+    end
+
+    context 'on create'
+      def create_info
+        UserInformation.create( user_id: member.id, notes: 'test', highlight: 'test' )
+      end
+
+      it 'should log the created user information in the user change log' do
+        create_info
+        expect( UserChange.all.first ).to eq(UserChange)
+      end
+    end
+
+    context 'on update' do
+      let!(:user_information) { create :user_information, user: member }
+
+      def update_info
+        UserInformation.create( user_id: member.id, notes: 'test', highlight: 'test' )
+      end
+
+      it 'should log the updated user information in the user change log' do
+
+      end
+    end
+
+    context 'on destroy' do
+      let!(:user_information) { create :user_information, user: member }
+
+      def destroy_info
+        UserInformation.create( user_id: member.id, notes: 'test', highlight: 'test' )
+      end
+
+      it 'should log the destroyed user information in the user change log' do
+
+      end
+    end
 end
