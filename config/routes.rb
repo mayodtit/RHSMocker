@@ -7,7 +7,8 @@ RHSMocker::Application.routes.draw do
       resources :agreements, only: [:index, :show] do
         get :current, on: :collection
       end
-      resources :allergies, :only => :index
+      resources :allergies, :only => :index #DEPRECATED FOR NOW
+      get 'allergies/search', to: 'allergies#search'
       resources :association_types, :only => :index
       resources :associations, only: [] do
         get :permission, on: :member, to: 'permissions#show'
