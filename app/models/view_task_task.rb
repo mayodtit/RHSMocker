@@ -6,7 +6,7 @@ class ViewTaskTask < Task
 
   def self.create_task_for_task(task)
     return task if task.owner == task.assignor
-    create!(
+    viewTask = create!(
         assigned_task: task,
         title: task.title,
         member: task.member,
@@ -18,6 +18,7 @@ class ViewTaskTask < Task
         day_priority: 15
     )
     task.update_attributes!(visible_in_queue: false)
+    viewTask
   end
 
   state_machine do
