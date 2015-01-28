@@ -51,23 +51,6 @@ describe 'Subscriptions' do
     StripeMock.stop
   end
 
-  describe 'Get /api/v1/users/:user_id/subscriptions/:id/available_options' do
-    before do
-      @customer.subscriptions.create(:plan => 'bp20')
-    end
-
-    def do_request(params={})
-      get "/api/v1/users/#{user.id}/subscriptions/available_options", params.merge!(auth_token: session.auth_token)
-    end
-
-    it 'get the subscription of the user' do
-      do_request
-      expect(response).to be_success
-      body = JSON.parse(response.body, symbolize_names: true)
-      expect(body[:available_plans].to_json).to eq([@family_plan, @yearly_single_plan].serializer.as_json.to_json)
-    end
-  end
-
   describe 'DELETE /api/v1/users/:user_id/subscriptions' do
     before do
       @customer.subscriptions.create(:plan => 'bp20')
