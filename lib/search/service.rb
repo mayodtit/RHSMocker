@@ -7,9 +7,17 @@ class Search::Service
     npi.find(params)
   end
 
+  def snomed_query(params, services=nil)
+    snomed.query(params)
+  end
+
   private
 
   def npi
     @npi ||= Search::Service::Bloom.new
+  end
+
+  def snomed
+    @snomed ||= Search::Service::Snomed.next
   end
 end
