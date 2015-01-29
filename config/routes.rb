@@ -145,7 +145,10 @@ RHSMocker::Application.routes.draw do
         resources :scheduled_communications, only: %i(index show update destroy)
         resources :scheduled_messages, except: %i(new edit)
         put :secure_update, on: :member, to: 'members#secure_update'
-        resources :subscriptions, only: [:index, :create]
+        resources :subscriptions, only: [:index, :create] do
+          delete :destroy, :on => :collection
+          put :update, :on => :collection
+        end
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
           resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
@@ -183,6 +186,8 @@ RHSMocker::Application.routes.draw do
       resources :service_types, only: [:index] do
         get :buckets, on: :collection
       end
+      resources :service_templates, only: [:index, :create, :show]
+      resources :task_templates, only: [:show, :create]
     end
   end
 

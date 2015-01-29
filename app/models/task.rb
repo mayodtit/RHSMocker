@@ -12,6 +12,8 @@ class Task < ActiveRecord::Base
   belongs_to :service_type
   belongs_to :task_template
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
+  has_many :task_guides, through: :task_template
+  has_many :task_requirements
   has_one :view_task_task
 
   attr_accessor :actor_id, :change_tracked, :reason
@@ -22,7 +24,7 @@ class Task < ActiveRecord::Base
                   :state_event, :service_type_id, :service_type,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
                   :priority, :actor_id, :member_id, :member, :reason, :visible_in_queue,
-                  :day_priority
+                  :day_priority, :time_estimate
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :owner, presence: true, if: lambda { |t| t.owner_id }

@@ -10,7 +10,9 @@
    roles
    service_types
    user_requests
-   treatments).each do |filename|
+   treatments
+   service_templates
+   task_templates).each do |filename|
      load File.join(Rails.root, 'db', 'seeds', "#{filename}.rb")
    end
 

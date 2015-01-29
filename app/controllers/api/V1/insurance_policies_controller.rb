@@ -4,7 +4,8 @@ class Api::V1::InsurancePoliciesController < Api::V1::ABaseController
   before_filter :load_insurance_policy!, only: %i(show update destroy)
 
   def index
-    index_resource @insurance_policies.serializer
+    render_success(insurance_policies: @insurance_policies.serializer,
+                   plan_types: plan_types)
   end
 
   def show
@@ -31,5 +32,18 @@ class Api::V1::InsurancePoliciesController < Api::V1::ABaseController
 
   def load_insurance_policy!
     @insurance_policy = @insurance_policies.find(params[:id])
+  end
+
+  def plan_types
+    {
+        medical: {
+            display_string: "Medical",
+            types: %w(HMO PPO POS EPO HDHP)
+        },
+        dental: {
+            display_string: "Dental",
+            types: %w(PPO Premier)
+        }
+    }
   end
 end

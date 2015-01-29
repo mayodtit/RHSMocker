@@ -51,6 +51,7 @@ end
 
 group :test do
   gem 'stripe-ruby-mock', '~> 2.0.0'
+  gem 'timecop'
 end
 
 gem 'codeclimate-test-reporter', group: :test, require: nil    # test coverage for Code Climate
@@ -93,7 +94,6 @@ gem 'ri_cal'
 gem 'symbolize'
 gem 'kaminari' # pagination
 gem 'strong_parameters'
-gem 'timecop'
 gem 'rubyzip'
 gem 'twilio-ruby'
 gem 'mandrill_mailer'           # for integration with MailChimp templates

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141230224314) do
+ActiveRecord::Schema.define(:version => 20150113213238) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -887,10 +887,36 @@ ActiveRecord::Schema.define(:version => 20141230224314) do
 
   add_index "task_changes", ["task_id"], :name => "index_task_changes_on_task_id"
 
+  create_table "task_guides", :force => true do |t|
+    t.text     "description"
+    t.integer  "task_template_id"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+    t.string   "title"
+  end
+
+  create_table "task_requirement_templates", :force => true do |t|
+    t.string   "title",            :null => false
+    t.text     "description"
+    t.integer  "task_template_id"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
+
+  create_table "task_requirements", :force => true do |t|
+    t.string   "title",                                          :null => false
+    t.text     "description"
+    t.integer  "task_requirement_template_id"
+    t.integer  "task_id"
+    t.boolean  "completed",                    :default => true
+    t.datetime "created_at",                                     :null => false
+    t.datetime "updated_at",                                     :null => false
+  end
+
   create_table "task_templates", :force => true do |t|
     t.string   "name",                :null => false
     t.string   "title",               :null => false
-    t.string   "description"
+    t.text     "description"
     t.integer  "time_estimate"
     t.integer  "service_ordinal"
     t.integer  "service_template_id"
@@ -936,6 +962,7 @@ ActiveRecord::Schema.define(:version => 20141230224314) do
     t.integer  "day_priority",               :default => 0,    :null => false
     t.integer  "assigned_task_id"
     t.boolean  "visible_in_queue",           :default => true, :null => false
+    t.integer  "time_estimate"
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"
@@ -1138,7 +1165,6 @@ ActiveRecord::Schema.define(:version => 20141230224314) do
     t.string   "expertise"
     t.boolean  "deceased",                                      :default => false, :null => false
     t.string   "city"
-    t.string   "state"
     t.string   "type",                                          :default => "",    :null => false
     t.string   "invitation_token"
     t.string   "units",                                         :default => "US",  :null => false

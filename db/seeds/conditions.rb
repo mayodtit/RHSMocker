@@ -1100,3 +1100,11 @@ Condition.find_or_create_by_name(name: "Pulmonary embolism with pulmonary infarc
 Condition.find_or_create_by_name(name: "Ebstein's anomaly",
                                  snomed_name: "Ebstein's anomaly of tricuspid valve (disorder)",
                                  snomed_code: "313369016")
+Condition.find_or_create_by_name(name: "Benign intracranial hypertension",
+                                 snomed_name: "Benign intracranial hypertension (disorder)",
+                                 snomed_code: "808083012")
+Condition.find_or_create_by_name(name: "Idiopathic intracranial hypertension",
+                                 snomed_name: "Idiopathic intracranial hypertension (disorder)",
+                                 snomed_code: "808083012")
+
+

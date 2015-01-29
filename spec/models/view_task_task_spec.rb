@@ -27,13 +27,14 @@ describe ViewTaskTask do
 
     it 'should create a new task' do
       ViewTaskTask.should_receive(:create!).with(assigned_task: task,
-                                                 title: "Task assigned to you by #{task.assignor.first_name} #{task.assignor.last_name}",
+                                                 title: "#{task.title}",
                                                  member: task.member,
                                                  creator: Member.robot,
                                                  assignor: task.assignor,
                                                  owner: task.owner,
                                                  due_at: Time.now,
-                                                 priority: 7)
+                                                 priority: 7,
+                                                 day_priority: 15)
       ViewTaskTask.create_task_for_task(task)
     end
 
