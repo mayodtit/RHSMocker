@@ -13,6 +13,11 @@ StripeEvent.configure do |events|
   events.subscribe 'charge.failed' do |event|
     Rails.logger.info("Received Stripe charge.failed, #{event.id} - #{event.type}")
     UserMailer.delay.notify_bosses_when_user_payment_fail(event)
+    customer = Stripe::Customer.retrieve(event.data.object.customer)
+    unless customer.delinquent
+      user = User.find_by_stripe_customer_id(customer.id)
+      RHSMailer.notify_user_when_first_charge_fail(event, user)
+    end
   end
 
   events.subscribe 'charge.succeeded' do |event|

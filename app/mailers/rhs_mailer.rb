@@ -400,4 +400,24 @@ class RHSMailer < MandrillMailer::TemplateMailer
     }
     send_mail(params)
   end
+
+
+  def notify_user_when_first_charge_fail(event, user)
+    params = {
+        subject: 'Charge Failed',
+        from: "support@getbetter.com",
+        from_name: "Better",
+        to: { email: user.email },
+        template: FIRST_CHARGE_FAILED,
+        headers: {
+            'Reply-To' => "#{pha.full_name} <premium@getbetter.com>"
+        },
+        vars: {
+            #subject to future change, here is just a example
+            FNAME: user.salutation,
+            REASON: event.type
+        }
+    }
+    send_mail(params)
+  end
 end
