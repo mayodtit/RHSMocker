@@ -1,8 +1,8 @@
-class DiscountRecord < ActiveRecord::Base
-  belongs_to :user
+class Discount < ActiveRecord::Base
+  belongs_to :member
   belongs_to :referral_code
 
   attr_accessible :user_id, :referral_code_id, :referrer, :coupon, :redeemed_at
 
-  validates :user_id, :referral_code_id, presence: true
+  validates :user, :referral_code, :referrer, :coupon, presence: true
 end

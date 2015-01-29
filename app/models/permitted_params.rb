@@ -63,8 +63,8 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:weight).permit(:amount, :bmi, :taken_at, :healthkit_uuid, :healthkit_source)
   end
 
-  def discount_history
-    params.require(:discount_history).permit(:user_id, :referral_code_id, :coupon, :redeemed_at, :referrer)
+  def discounts
+    params.require(:discounts).permit(:user_id, :referral_code_id, :coupon, :redeemed_at, :referrer)
   end
 
   def blood_pressure

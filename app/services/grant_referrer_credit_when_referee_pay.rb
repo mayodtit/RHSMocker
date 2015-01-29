@@ -21,7 +21,7 @@ class GrantReferrerCreditWhenRefereePay
   private
 
   def has_coupon?(referrer)
-    !referrer.discount_records.where("discount_records.redeemed_at IS NULL").nil?
+    !referrer.discounts.where("discounts.redeemed_at IS NULL").nil?
   end
 
   def find_stripe_customer_id(event)
@@ -34,22 +34,21 @@ class GrantReferrerCreditWhenRefereePay
 
   def distribute_coupon(referrer, referee)
     unless used_referral_code?(referee, referrer)
-      referrer.discount_records.create(user_id: referrer.id,
-                                       referral_code_id: referee.referral_code.id,
+      referrer.discouts.create(referral_code_id: referee.referral_code.id,
                                        coupon: ONE_TIME_FIFTY_PERCENT_OFF_COUPON_CODE,
                                        referrer: true)
     end
   end
 
   def used_referral_code?(referee, referrer)
-    DiscountRecord.where(referral_code_id = referee.referral_code_id).each do |record|
+    Discount.where(referral_code_id = referee.referral_code_id).each do |record|
       return true if record.user_id == referrer.id
     end
     false
   end
 
   def redeem_coupon(referrer, customer)
-    referrer_discount_record = referrer.discount_records.find_by_redeemed_at(nil)
+    referrer_discount_record = referrer.discounts.find_by_redeemed_at(nil)
     if referrer_discount_record
       customer.coupon = referrer_discount_record.coupon
       customer.save
