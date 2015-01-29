@@ -118,7 +118,7 @@ RHSMocker::Application.routes.draw do
         resources :associations, except: [:new, :edit] do
           post :invite, on: :member
         end
-        resources :plans do
+        resources :plans, only: [] do
           get :available_options, on: :collection
         end
         resources :blood_pressures, except: %i(new edit)
