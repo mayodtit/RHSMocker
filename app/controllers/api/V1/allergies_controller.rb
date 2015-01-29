@@ -15,9 +15,8 @@ class Api::V1::AllergiesController < Api::V1::ABaseController
     @allergies = if params[:q].blank?
       Allergy.where('snomed_code NOT in (?)', excluded_allergies).order('name ASC')
     else
-      snomod_results.reject{|a| excluded_allergies.include?(a.snomed_code) }
+      snomod_results
     end
-
     render_success({allergies: @allergies})
   end
 

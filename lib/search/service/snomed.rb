@@ -4,20 +4,23 @@ class Search::Service::Snomed
   base_uri 'http://127.0.0.1:4000/snomed/en-edition/v20140901'
 
   def query(params)
-    byebug
-    query_params = select_query(params)
+    if params[:controller] == 'api/v1/allergies'
+      allergy_flag  = true
+    end
+    query_params = select_query(allergy_flag, params)
     response = self.class.get('/descriptions', :query => query_params)
     raise StandardError, 'Non-success response from SNOMED database' unless response.success?
-    sanitize_response(response.parsed_response)
+    sanitize_response(allergy_flag, response.parsed_response)
   end
 
-  def select_query(params)
-    if params[:controller] == 'api/v1/allergies'
-      new_params = allergy_query(params)
+  private
+
+  def select_query(allergy_flag, params)
+    if allergy_flag
+      allergy_query(params)
     else
-      new_params = condition_query(params)
+      condition_query(params)
     end
-    new_params
   end
 
   def allergy_query(params)
@@ -28,7 +31,31 @@ class Search::Service::Snomed
 
   end
 
-  def sanitize_response(response)
+  def sanitize_response(allergy_flag, response)
+    if allergy_flag
+      sanitize_allergy(response)
+    else
+      sanitize_condition(response)
+    end
+  end
+
+  def sanitize_allergy(response)
+    result = []
+    response['matches'].each do |match|
+      byebug
+      result << {
+        :environmental_allergen => false,
+        :food_allergen => false,
+        :medication_allergen => false,
+        :name => match['term'],
+        :snomed_code => match['conceptId'],
+        :snomed_name => match['fsn']
+      }
+    end
+    result
+  end
+
+  def sanitize_condition(response)
 
   end
 end
