@@ -64,7 +64,7 @@ describe 'Subscriptions' do
       do_request
       expect(response).to be_success
       @customer = Stripe::Customer.retrieve(user.stripe_customer_id)
-      expect(@customer.subscriptions.data.length).to eq(0)
+      expect(@customer.subscriptions.data.first.cancel_at_period_end).to eq(true)
     end
   end
 
