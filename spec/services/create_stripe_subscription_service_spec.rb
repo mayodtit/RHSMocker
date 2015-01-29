@@ -42,6 +42,12 @@ describe CreateStripeSubscriptionService do
             described_class.new(user: user, plan_id: plan_id, credit_card_token: credit_card_token).call
             expect(Stripe::Customer.retrieve(user.stripe_customer_id).coupon).to eq("OneTimeFiftyPercentOffCoupon")
           end
+
+          it 'should log the discount to discount_record table' do
+            expect(user.discount_records.count).to eq(0)
+            described_class.new(user: user, plan_id: plan_id, credit_card_token: credit_card_token).call
+            expect(user.discount_records.count).to eq(1)
+          end
         end
       end
 

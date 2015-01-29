@@ -1,6 +1,7 @@
 class Member < User
   authenticates_with_sorcery!
   has_many :sessions, dependent: :destroy
+  has_many :discounts, foreign_key: :user_id
   has_many :user_roles, foreign_key: :user_id, inverse_of: :user
   has_many :roles, through: :user_roles
   has_many :user_agreements, foreign_key: :user_id, inverse_of: :user
@@ -86,7 +87,7 @@ class Member < User
                   :email_confirmation_token, :advertiser_id,
                   :advertiser_media_source, :advertiser_campaign,
                   :impersonated_user, :impersonated_user_id,
-                  :enrollment, :payment_token
+                  :enrollment, :payment_token, :coupon_count
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
