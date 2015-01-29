@@ -1,6 +1,6 @@
 class Api::V1::PlansController < Api::V1::ABaseController
   before_filter :load_plans!, :only => :index
-  before_filter :load_available_plans!, :only => :available_options
+  before_filter :load_user!, :load_available_plans!, :only => :available_options
 
   def index
     render_success(plans: @plans,
@@ -16,10 +16,12 @@ class Api::V1::PlansController < Api::V1::ABaseController
   def load_available_plans!
     @available_plans = []
     Stripe::Plan.all.each do |plan|
-      if (current_user.stripe_customer_id) && (Stripe::Customer.retrieve(current_user.stripe_customer_id).subscriptions.count > 0)
-        @available_plans << plan if plan.amount > Stripe::Customer.retrieve(current_user.stripe_customer_id).subscriptions.data[0].plan.amount
-      else
-        @available_plans << plan
+      if plan.metadata[:active] == 'true'
+        if (current_user.stripe_customer_id) && (Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.count > 0)
+          @available_plans << plan if plan.amount > Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.data[0].plan.amount
+        else
+          @available_plans << plan
+        end
       end
     end
   end
