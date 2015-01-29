@@ -16,7 +16,7 @@ describe 'GrantReferrerCreditWhenRefereePay' do
                                                 description: StripeExtension.customer_description(referrer.id),
                                                 card: StripeMock.generate_card_token(last4: "0003", exp_year: 1984))
     referrer.update_attribute(:stripe_customer_id, referrer_customer.id)
-    Stripe::Coupon.create(id: 'OneTimeFiftyPercentOffCoupon', percent_off: 50, duration: 'once')
+    Stripe::Coupon.create(id: 'ONE_TIME_HUNDRED_PERCENT_OFF_COUPON_CODE', percent_off: 100, duration: 'once')
   end
 
   after do
@@ -57,7 +57,7 @@ describe 'GrantReferrerCreditWhenRefereePay' do
     it 'should assign the coupon to referrer‘s stripe discount' do
       expect(Stripe::Customer.retrieve(referrer.stripe_customer_id).discount).to eq(nil)
       do_method
-      expect(Stripe::Customer.retrieve(referrer.reload.stripe_customer_id).coupon).to eq('OneTimeFiftyPercentOffCoupon')
+      expect(Stripe::Customer.retrieve(referrer.reload.stripe_customer_id).coupon).to eq('OneTimeHundredPercentOffCoupon')
     end
 
     it 'should time stamp the redeemed_at for the user' do

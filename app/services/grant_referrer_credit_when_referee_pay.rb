@@ -35,7 +35,7 @@ class GrantReferrerCreditWhenRefereePay
   def distribute_coupon(referrer, referee)
     unless used_referral_code?(referee, referrer)
       referrer.discounts.create(referral_code_id: referee.referral_code.id,
-                                coupon: ONE_TIME_FIFTY_PERCENT_OFF_COUPON_CODE,
+                                coupon: ONE_TIME_HUNDRED_PERCENT_OFF_COUPON_CODE,
                                 referrer: true)
     end
   end

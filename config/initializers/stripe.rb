@@ -7,6 +7,7 @@ module Stripe
 end
 
 ONE_TIME_FIFTY_PERCENT_OFF_COUPON_CODE = 'OneTimeFiftyPercentOffCoupon'
+ONE_TIME_HUNDRED_PERCENT_OFF_COUPON_CODE = "OneTimeHundredPercentOffCoupon"
 
 StripeEvent.configure do |events|
   events.subscribe 'charge.failed' do |event|
