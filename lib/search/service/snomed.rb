@@ -42,17 +42,28 @@ class Search::Service::Snomed
   def sanitize_allergy(response)
     result = []
     response['matches'].each do |match|
-      byebug
-      result << {
-        :environmental_allergen => false,
-        :food_allergen => false,
-        :medication_allergen => false,
-        :name => match['term'],
-        :snomed_code => match['conceptId'],
-        :snomed_name => match['fsn']
-      }
+      unless allergy_filter(match)
+        result << {
+          :environmental_allergen => false,
+          :food_allergen => false,
+          :medication_allergen => false,
+          :name => match['term'],
+          :snomed_code => match['conceptId'],
+          :snomed_name => match['fsn']
+        }
+      end
     end
     result
+  end
+
+  def allergy_filter(match)
+    byebug
+    term = match['term']
+    if term.include? '(disorder)' or term.include? 'Allergy to'
+      true
+    else
+      false
+    end
   end
 
   def sanitize_condition(response)
