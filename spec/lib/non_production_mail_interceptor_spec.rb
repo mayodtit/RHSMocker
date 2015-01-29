@@ -17,7 +17,7 @@ describe NonProductionMailInterceptor, "delivery interception" do
 
     NonProductionMailInterceptor.stub(:deliver? => false)
     expect(outer_mail.subject).to eq('[To:Neel@getworse.com]Test')
-    expect(outer_mail.to).to eq(["engineering@getbetter.com"])
+    expect(outer_mail.to).to eq(["test@getbetter.com"])
   end
 
   it "mail to @getbetter.com still goes" do
