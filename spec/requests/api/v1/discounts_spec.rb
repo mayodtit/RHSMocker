@@ -1,9 +1,10 @@
 require 'spec_helper'
 
 describe 'discounts' do
-  let!(:user) { create(:member) }
+  let(:user) { create(:member) }
   let(:session) { user.sessions.create }
-  let (:discount) { create(:discount, member: user)}
+  let( :referral_code) {create(:referral_code)}
+  let(:discount) { Discount.create(:user_id => user.id, :referral_code_id => referral_code.id, :referrer => false, :coupon => 'coupon' )}
 
   describe 'GET    /api/v1/users/:user_id/discounts' do
     def do_request(params = {})

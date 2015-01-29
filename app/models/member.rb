@@ -1,7 +1,7 @@
 class Member < User
   authenticates_with_sorcery!
   has_many :sessions, dependent: :destroy
-  has_many :discounts
+  has_many :discounts, foreign_key: :user_id
   has_many :user_roles, foreign_key: :user_id, inverse_of: :user
   has_many :roles, through: :user_roles
   has_many :user_agreements, foreign_key: :user_id, inverse_of: :user

@@ -37,9 +37,9 @@ describe 'GrantReferrerCreditWhenRefereePay' do
     end
 
     it 'should add the discount to discount_records' do
-      expect(referrer.discount_records.count).to eq(0)
+      expect(referrer.discounts.count).to eq(0)
       do_method
-      expect(referrer.reload.discount_records.count).to eq(1)
+      expect(referrer.discounts.count).to eq(1)
     end
   end
 
@@ -61,9 +61,9 @@ describe 'GrantReferrerCreditWhenRefereePay' do
     end
 
     it 'should time stamp the redeemed_at for the user' do
-      expect(referrer.discount_records.last.redeemed_at).to eq(nil)
+      expect(referrer.discounts.last.redeemed_at).to eq(nil)
       do_method
-      expect(referrer.reload.discount_records.last.redeemed_at).not_to eq(nil)
+      expect(referrer.reload.discounts.last.redeemed_at).not_to eq(nil)
     end
   end
 end

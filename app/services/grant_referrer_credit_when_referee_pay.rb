@@ -34,14 +34,14 @@ class GrantReferrerCreditWhenRefereePay
 
   def distribute_coupon(referrer, referee)
     unless used_referral_code?(referee, referrer)
-      referrer.discouts.create(referral_code_id: referee.referral_code.id,
-                                       coupon: ONE_TIME_FIFTY_PERCENT_OFF_COUPON_CODE,
-                                       referrer: true)
+      referrer.discounts.create(referral_code_id: referee.referral_code.id,
+                                coupon: ONE_TIME_FIFTY_PERCENT_OFF_COUPON_CODE,
+                                referrer: true)
     end
   end
 
   def used_referral_code?(referee, referrer)
-    Discount.where(referral_code_id = referee.referral_code_id).each do |record|
+    Discount.where(referral_code_id: referee.referral_code_id).each do |record|
       return true if record.user_id == referrer.id
     end
     false
