@@ -1,12 +1,12 @@
 class Search::Service::Snomed
   include HTTParty
   #TODO: version should be a changeable global variable set somewhere
-  base_uri 'http://127.0.0.1:4000/snomed/en-edition/v20140901/'
+  base_uri 'http://127.0.0.1:4000/snomed/en-edition/v20140901'
 
   def query(params)
     byebug
     query_params = select_query(params)
-    response = self.class.get('/concepts/' + query_params)
+    response = self.class.get('/descriptions', :query => query_params)
     raise StandardError, 'Non-success response from SNOMED database' unless response.success?
     sanitize_response(response.parsed_response)
   end
@@ -21,9 +21,7 @@ class Search::Service::Snomed
   end
 
   def allergy_query(params)
-    params[:q] = 'dog'
-    result = '91936005'
-    result
+    "query=#{params[:q]}%20allergy&searchMode=partialMatching&semanticFilter=disorder"
   end
 
   def condition_query(params)
