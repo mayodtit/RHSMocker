@@ -16,7 +16,7 @@ StripeEvent.configure do |events|
     customer = Stripe::Customer.retrieve(event.data.object.customer)
     unless customer.delinquent
       user = User.find_by_stripe_customer_id(customer.id)
-      RHSMailer.notify_user_when_first_charge_fail(event, user)
+      RHSMailer.notify_user_when_first_charge_fail(event, user).deliver
     end
   end
 

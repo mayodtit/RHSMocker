@@ -401,23 +401,22 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
-
-  def notify_user_when_first_charge_fail(event, user)
-    params = {
-        subject: 'Charge Failed',
-        from: "support@getbetter.com",
-        from_name: "Better",
-        to: { email: user.email },
-        template: FIRST_CHARGE_FAILED,
-        headers: {
-            'Reply-To' => "#{pha.full_name} <premium@getbetter.com>"
-        },
-        vars: {
-            #subject to future change, here is just a example
-            FNAME: user.salutation,
-            REASON: event.type
-        }
-    }
-    send_mail(params)
+  def notify_user_when_first_charge_fail(event)
+    customer = Stripe::Customer.retrieve(event.data.object.customer)
+    unless customer.delinquent
+      user = User.find_by_stripe_customer_id(customer.id)
+      params = {
+          subject: 'Charge Failed',
+          from: "support@getbetter.com",
+          from_name: "Better",
+          to: { email: user.email },
+          vars: {
+              #subject to future change, here is just a example
+              FNAME: user.salutation,
+              REASON: event.type
+          }
+      }
+      send_mail(params)
+    end
   end
 end
