@@ -1,4 +1,5 @@
 class Api::V1::PlansController < Api::V1::ABaseController
+  before_filter :load_active_plans!
   before_filter :load_plans!, :only => :index
   before_filter :load_user!, :load_available_plans!, :only => :available_options
 
@@ -15,21 +16,24 @@ class Api::V1::PlansController < Api::V1::ABaseController
 
   def load_available_plans!
     @available_plans = []
-    Stripe::Plan.all.each do |plan|
-      if plan.metadata[:active] == 'true'
-        if (current_user.stripe_customer_id) && (Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.count > 0)
-          @available_plans << plan if plan.amount > Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.data[0].plan.amount
-        else
-          @available_plans << plan
-        end
+    @active_plans.each do |plan|
+      if (current_user.stripe_customer_id) && (Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.count > 0)
+        @available_plans << plan if plan.amount > Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.data[0].plan.amount
+      else
+        @available_plans << plan
       end
+      @available_plans
     end
   end
 
   def load_plans!
-    @plans = Stripe::Plan.all.inject([]) do |array, plan|
+    @plans = @active_plans.inject([]){|array, plan|array << StripeExtension.plan_serializer(plan, current_user) }
+  end
+
+  def load_active_plans!
+    @active_plans = Stripe::Plan.all.inject([]) do |array, plan|
       if plan.metadata[:active] == 'true'
-        array << StripeExtension.plan_serializer(plan, current_user)
+        array << plan
       end
       array
     end
