@@ -75,7 +75,7 @@ class Search::Service::Snomed
 
   def condition_filter(match)
     term = match['term']
-    if term.include? '(' or term.include? ' of ' or term.include? ' - '
+    if allergy_filter(match) or term.include? ' of ' or term.include? ' - ' or term =~ /\d/
       true
     else
       false
