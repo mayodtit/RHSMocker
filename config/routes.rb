@@ -25,6 +25,7 @@ RHSMocker::Application.routes.draw do
       resources :diets, :only => :index
       resources :cards, :only => [:show, :update]
       resources :conditions, :only => :index
+      get 'conditions/search', to: 'conditions#search'
       resources :consults, only: %i(index show create) do
         get :current, on: :collection
         resources :messages, only: %i(index create) do

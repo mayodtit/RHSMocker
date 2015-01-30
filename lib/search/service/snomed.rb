@@ -1,3 +1,5 @@
+require 'set'
+
 class Search::Service::Snomed
   include HTTParty
   #TODO: version should be a changeable global variable set somewhere
@@ -28,7 +30,7 @@ class Search::Service::Snomed
   end
 
   def condition_query(params)
-
+    "query=#{params[:q]}&searchMode=partialMatching&semanticFilter=disorder"
   end
 
   def sanitize_response(allergy_flag, response)
@@ -56,17 +58,37 @@ class Search::Service::Snomed
     result
   end
 
-  def allergy_filter(match)
-    byebug
+  def sanitize_condition(response)
+    result = []
+    condition_set = Set.new
+    response['matches'].each do |match|
+      fsn = match['fsn']
+      unless disorder_filter(match) || condition_set.add?(fsn)
+        result << {
+            :name => match['term'],
+            :snomed_code => match['conceptId'],
+            :snomed_name => fsn
+        }
+      end
+    end
+    result
+  end
+
+  def disorder_filter(match)
     term = match['term']
-    if term.include? '(disorder)' or term.include? 'Allergy to'
+    if term.include? '(disorder)'
       true
     else
       false
     end
-  end
+    end
 
-  def sanitize_condition(response)
-
+  def allergy_filter(match)
+    term = match['term']
+    if disorder_filter(match) or term.include? 'Allergy to'
+      true
+    else
+      false
+    end
   end
 end
