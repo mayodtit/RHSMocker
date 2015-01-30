@@ -16,7 +16,7 @@
 
 div.content_card {
     font-family:"Roboto Light";
-    width:300px;
+    width: 100%;
     height:288px;
 }
 
@@ -68,7 +68,7 @@ div.content_title_card {
 // #########################################################
 
 div.content_full {
-    width:320px;
+    width: 100%;
 }
 
 div.content_header {
@@ -169,7 +169,6 @@ img.mayo_icon {
 }
 
 .section-head {
-  width: 260px;
   margin: 0px -10px;
   padding: 15px 10px 15px 50px;
   font-size: 18px;
@@ -247,14 +246,14 @@ strong {
 
 //Content Tables
 div.mctable {
-    width: 300px;
-    max-width: 300px;
+    width: 100%;
+    max-width: 100%;
     padding-bottom: 10px;
     font-size: 9px;
 }
 
 table.content {
-    max-width: 300px;
+    max-width: 100%;
     font-size: 9px;
 }
 
