@@ -60,32 +60,31 @@ class Search::Service::Snomed
 
   def sanitize_condition(response)
     result = []
-    condition_set = Set.new
     response['matches'].each do |match|
-      fsn = match['fsn']
-      unless disorder_filter(match) || condition_set.add?(fsn)
+      unless condition_filter(match)
         result << {
             :name => match['term'],
             :snomed_code => match['conceptId'],
-            :snomed_name => fsn
+            :snomed_name => match['fsn']
         }
       end
     end
+
     result
   end
 
-  def disorder_filter(match)
+  def condition_filter(match)
     term = match['term']
-    if term.include? '(disorder)'
+    if term.include? '(' or term.include? ' of ' or term.include? ' - '
       true
     else
       false
     end
-    end
+  end
 
   def allergy_filter(match)
     term = match['term']
-    if disorder_filter(match) or term.include? 'Allergy to'
+    if term.include? '(' or term.include? 'Allergy to'
       true
     else
       false
