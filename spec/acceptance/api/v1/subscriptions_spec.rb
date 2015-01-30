@@ -14,8 +14,7 @@ resource 'Subscriptions' do
 
   parameter :auth_token, "Performing user's auth_token"
   parameter :user_id, "Target user's id"
-  parameter :stripe_customer_id, "The foreign key to locate user on Stripe"
-  required_parameters :auth_token, :user_id, :stripe_customer_id
+  required_parameters :auth_token, :user_id
 
   before do
     StripeMock.start
@@ -69,7 +68,6 @@ resource 'Subscriptions' do
       @customer.subscriptions.create(:plan => @single_plan.id)
     end
 
-
     example_request '[GET] Retrieve user subscription' do
       explanation 'Returns the user subscription'
       status.should == 200
@@ -84,17 +82,16 @@ resource 'Subscriptions' do
     parameter :plan_id, 'Plan ID for subscription'
 
     required_parameters :subscription, :plan_id
+    scope_parameters :subscription, [:plan_id]
 
     let(:plan_id) { @single_plan.id }
-    let(:subscription) { {:plan_id => plan_id} }
     let(:raw_post) { params.to_json }
 
     example_request '[POST] Create a new subscription for the user' do
       explanation 'Returns the updated user object'
       status.should == 200
       body = JSON.parse(response_body, symbolize_names: true)
-      user.update_attributes({status_event: :upgrade, free_trial_ends_at: nil, subscription_ends_at: nil, actor_id: user.id})
-      expect(body[:user].to_json).to eq(user.serializer.as_json.to_json )
+      expect( body[:subscription][:plan][:id] ).to eq( 'bp20' )
     end
   end
 
@@ -105,7 +102,7 @@ resource 'Subscriptions' do
 
     let(:raw_post) { params.to_json }
 
-    example_request '[Delete] Delete the subscription of the user' do
+    example_request '[DELETE] Delete the subscription of the user' do
       explanation 'Returns success status if deleted the subscription'
       status.should == 200
     end
@@ -116,9 +113,9 @@ resource 'Subscriptions' do
     parameter :plan_id, 'Plan ID for subscription'
 
     required_parameters :subscription, :plan_id
+    scope_parameters :subscription, [:plan_id]
 
     let(:plan_id) { @family_plan.id }
-    let(:subscription) { {:plan_id => plan_id} }
     let(:raw_post) { params.to_json }
 
     before do
@@ -129,7 +126,7 @@ resource 'Subscriptions' do
       explanation 'Returns the updated new subscription object'
       status.should == 200
       body = JSON.parse(response_body, symbolize_names: true)
-      expect( body[:new_subscription][:plan].to_json ).to eq( @family_plan.as_json.to_json )
+      expect( body[:subscription][:plan].to_json ).to eq( @family_plan.as_json.to_json )
     end
   end
 end
