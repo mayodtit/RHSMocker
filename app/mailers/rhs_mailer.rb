@@ -5,7 +5,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
   def before_check(params)
     unless ( Rails.env.production? || params[:to][:email].include?('@getbetter.com') )
       params[:subject] = "[To:" + params[:to][:email] + "]" + params[:subject]
-      params[:to][:email] = 'engineering@getbetter.com'
+      params[:to][:email] = 'test@getbetter.com'
     end
   end
 

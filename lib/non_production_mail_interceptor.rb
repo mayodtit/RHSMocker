@@ -3,7 +3,7 @@ class NonProductionMailInterceptor
     unless self.deliver?(message)
       recepients = message.to.each.inject{|names, el|names += (','+el)}
       message.subject ="[To:" + recepients + "]"+ message.subject
-      message.to = ['engineering@getbetter.com']
+      message.to = ['test@getbetter.com']
     end
   end
 

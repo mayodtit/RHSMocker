@@ -13,13 +13,37 @@ describe 'Subscriptions' do
                                        currency: :usd,
                                        id: 'bp20',
                                        metadata: {
-                                           display_name: 'Single Membership',
-                                           display_price: '$19.99/month',
+                                          display_name: 'Single Membership',
+                                          display_price: '$19.99/month',
+                                          active: 'true'
+                                       })
+
+    @family_plan = Stripe::Plan.create(amount:4999,
+                                       interval: :month,
+                                       name: 'Family Membership',
+                                       currency: :usd,
+                                       id: 'bp50',
+                                       metadata: {
+                                         display_name: 'Family Membership',
+                                         display_price: '49.99/month',
+                                         active: 'true'
+                                       })
+
+    @yearly_single_plan = Stripe::Plan.create(amount:14999,
+                                       interval: :year,
+                                       name: 'Yearly Single Membership',
+                                       currency: :usd,
+                                       id: 'bp150',
+                                       metadata: {
+                                           display_name: 'Yearly Single Membership',
+                                           display_price: '149.99/month',
                                            active: 'true'
                                        })
+
     @customer = Stripe::Customer.create(email: user.email,
                                         description: StripeExtension.customer_description(user.id),
                                         card: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+
     user.update_attribute(:stripe_customer_id, @customer.id)
   end
 
@@ -29,11 +53,7 @@ describe 'Subscriptions' do
 
   describe 'DELETE /api/v1/users/:user_id/subscriptions' do
     before do
-      customer = Stripe::Customer.create(email: user.email,
-                                         description: StripeExtension.customer_description(user.id),
-                                         card: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
-      customer.subscriptions.create(:plan => 'bp20')
-      user.update_attribute(:stripe_customer_id, customer.id)
+      @customer.subscriptions.create(:plan => 'bp20')
     end
 
     def do_request(params={})
@@ -43,8 +63,8 @@ describe 'Subscriptions' do
     it 'should stop the current subscription of the user' do
       do_request
       expect(response).to be_success
-      customer = Stripe::Customer.retrieve(user.stripe_customer_id)
-      expect(customer.subscriptions.data.length).to eq(0)
+      @customer = Stripe::Customer.retrieve(user.stripe_customer_id)
+      expect(@customer.subscriptions.data.first.cancel_at_period_end).to eq(true)
     end
   end
 
@@ -74,23 +94,15 @@ describe 'Subscriptions' do
     it 'should create the a subscription for the user' do
       do_request
       response.should be_success
+      body = JSON.parse(response.body, symbolize_names: true)
+      user.update_attributes({status_event: :upgrade, free_trial_ends_at: nil, subscription_ends_at: nil, actor_id: user.id})
+      expect(body[:user].to_json).to eq(user.serializer.as_json.to_json )
     end
   end
 
   describe 'PUT /api/v1/users/:user_id/subscriptions' do
     before do
       @customer.subscriptions.create(:plan => @single_plan.id)
-      @family_plan = Stripe::Plan.create(amount: 4999,
-                                         interval: :month,
-                                         name: 'Family Membership',
-                                         currency: :usd,
-                                         id: 'bp50',
-                                         metadata: {
-                                             display_name: 'Family Membership',
-                                             display_price: '$49.99/month',
-                                             active: 'true'
-                                         })
-
     end
 
     def do_request(params = {})

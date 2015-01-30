@@ -13,7 +13,7 @@ describe RHSMailer, "#before_check" do
     it "should send email under non-production env goes to inner mailbox address and change its subject" do
       Rails.stub(env: ActiveSupport::StringInquirer.new("development"))
       mailer.before_check(params)
-      expect( params[:to][:email] ).to eq( 'engineering@getbetter.com' )
+      expect( params[:to][:email] ).to eq( 'test@getbetter.com' )
       expect( params[:subject] ).to eq( '[To:neel@getworse.com]Test')
     end
 

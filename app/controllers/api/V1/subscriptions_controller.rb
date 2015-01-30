@@ -8,21 +8,25 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
     index_resource(@user.subscriptions)
   end
 
-  # TODO: this transaction should be all-or-nothing.
-  # Right now it's posible for the user to become premium without paying,
-  # but it's better than them paying without becoming a premium member.
   def create
-    sa = subscription_attributes # this needs to be assigned prior to the user's update_attributes
-    if @user.update_attributes(user_attributes)
-      @customer.subscriptions.create(sa)
-      render_success(user: @user.serializer)
-    else
-      render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
+    begin
+      ActiveRecord::Base.transaction do
+        sa = subscription_attributes
+        @customer.subscriptions.create(sa)
+        if @user.update_attributes(user_attributes)
+          render_success(user: @user.serializer)
+        else
+          render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
+        end
+      end
+    rescue => e
+      Rails.logger.error "Error in subscriptionsController#create for user #{@user.id}: #{e}"
+      render_failure({reason: 'Error adding subscription'}, 422)
     end
   end
 
   def destroy
-    if DestroyStripeSubscriptionService.new(@user, :upgrade).call
+    if DestroyStripeSubscriptionService.new(@user, :downgrade).call
       render_success
     else
       render_failure({reason: 'Error occurred during subscription cancellation'}, 422)
@@ -73,6 +77,15 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
       end
       attributes.merge!(coupon: '50PERCENT') if @user.onboarding_group.try(:mayo_pilot?)
     end
+  end
+
+  def message_attributes
+    {
+      text: "Thank you for upgrading your subscription to #{Stripe::Plan.retrieve(subscription_attributes[:plan]).name}.",
+      user_id: Member.robot.id,
+      system: true,
+      consult_id: @user.master_consult.id
+    }
   end
 
   def user_attributes

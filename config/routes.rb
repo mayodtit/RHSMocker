@@ -118,6 +118,9 @@ RHSMocker::Application.routes.draw do
         resources :associations, except: [:new, :edit] do
           post :invite, on: :member
         end
+        resources :plans, only: [] do
+          get :available_options, on: :collection
+        end
         resources :blood_pressures, except: %i(new edit)
         resources :credit_cards, only: [:index, :create]
         resources :credits, :only => [:index, :show, :create] do
@@ -129,6 +132,7 @@ RHSMocker::Application.routes.draw do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
+        resources :discounts, :only => :index
         resources :diseases, except: [:new, :edit], controller: 'user_conditions' do
           resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection

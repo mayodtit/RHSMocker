@@ -217,10 +217,10 @@ Prep:
       scheduled_phone_call.notify_owner_confirming_call
       if Metadata.new_onboarding_flow?
         mt = MessageTemplate.find_by_name 'Confirm Welcome Call'
-        mt.create_message(scheduled_phone_call.user.pha, scheduled_phone_call.user.master_consult, true, true) if mt
+        mt.create_message(Member.robot, scheduled_phone_call.user.master_consult, true, true) if mt
       else
         mt = MessageTemplate.find_by_name 'Confirm Welcome Call OLD'
-        mt.create_message(scheduled_phone_call.user.pha, scheduled_phone_call.user.master_consult, true, true) if mt
+        mt.create_message(Member.robot, scheduled_phone_call.user.master_consult, true, true) if mt
       end
       scheduled_phone_call.create_task
     end

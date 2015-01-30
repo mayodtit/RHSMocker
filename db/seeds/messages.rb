@@ -1,9 +1,8 @@
 # Current Messages --
-
 CONFIRM_WELCOME_CALL = "Thanks for scheduling your call. We've sent you " +
   "a confirmation email with a calendar invite. Be sure to start filling " +
   "out your Health Profile; it's in the navigation menu at the top left " +
-  "of your screen. *|pha_first_name|* will speak with you soon."
+  "of your screen. One of our PHAs will speak with you soon."
 MessageTemplate.upsert_attributes({name: 'Confirm Welcome Call'},
                                   {text: CONFIRM_WELCOME_CALL})
 
@@ -148,7 +147,7 @@ MessageTemplate.upsert_attributes({name: 'New Premium Member OLD'},
 CONFIRM_WELCOME_CALL_OLD = "Thanks for scheduling your call. We've sent you " +
   "a confirmation email with a calendar invite. Be sure to start filling " +
   "out your Health Profile; it's in the navigation menu at the top left " +
-  "of your screen. *|pha_first_name|* will speak with you soon."
+  "of your screen. One of our PHAs will speak with you soon."
 MessageTemplate.upsert_attributes({name: 'Confirm Welcome Call OLD'},
                                   {text: CONFIRM_WELCOME_CALL_OLD})
 

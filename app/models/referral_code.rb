@@ -2,6 +2,7 @@ class ReferralCode < ActiveRecord::Base
   belongs_to :user, class_name: 'Member', inverse_of: :owned_referral_code
   belongs_to :creator, class_name: 'Member'
   belongs_to :onboarding_group
+  has_many :discounts
   has_many :users, class_name: 'Member',
                    inverse_of: :referral_code,
                    dependent: :nullify
