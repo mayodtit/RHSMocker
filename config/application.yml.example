@@ -8,6 +8,7 @@ development:
   AWS_DOCS: true
   AWS_ACCESS_KEY_ID: AKIAJYP4DRAT7EQ3RREQ
   AWS_SECRET_ACCESS_KEY: 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
+  BLOOM_API_URL: 'http://warrior.getbetter.com/'
   S3_BUCKET: btr01-devlocal
   GA_TRACKING_ID: UA-40574608-2 # for rhs-devlocal
   PUSHER_APP_ID: 36367
@@ -34,6 +35,7 @@ test:
   AWS_DOCS: true
   AWS_ACCESS_KEY_ID: AKIAJYP4DRAT7EQ3RREQ
   AWS_SECRET_ACCESS_KEY: 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
+  BLOOM_API_URL: 'http://warrior.getbetter.com/'
   S3_BUCKET: btr01-devlocal
   GA_TRACKING_ID: UA-40574608-2 # for rhs-devlocal
   PUSHER_APP_ID: 36367

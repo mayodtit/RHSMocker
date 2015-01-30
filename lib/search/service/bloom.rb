@@ -3,7 +3,7 @@
 
 class Search::Service::Bloom
   include HTTParty
-  base_uri 'http://warrior.getbetter.com/'
+  base_uri ENV['BLOOM_API_URL']
 
   def query(params)
     response = self.class.get('/api/search', :query => query_params(params))
