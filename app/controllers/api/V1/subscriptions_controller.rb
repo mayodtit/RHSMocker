@@ -5,7 +5,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   before_filter :load_customer!, only: :create
 
   def index
-    index_resource(@user.subscriptions)
+    index_resource(@user.subscription)
   end
 
   def create
