@@ -925,7 +925,7 @@ ActiveRecord::Schema.define(:version => 20150120005950) do
   create_table "task_templates", :force => true do |t|
     t.string   "name",                :null => false
     t.string   "title",               :null => false
-    t.text   "description"
+    t.text     "description"
     t.integer  "time_estimate"
     t.integer  "service_ordinal"
     t.integer  "service_template_id"
