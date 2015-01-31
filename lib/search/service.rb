@@ -9,7 +9,8 @@ class Search::Service
 
   def proximity(params, services=nil)
     @geo||= Search::Geo::Proximity.new
-    @geo.findNear(params)
+
+    @geo.find_near(params)
   end
 
   private
@@ -18,3 +19,4 @@ class Search::Service
     @npi ||= Search::Service::Bloom.new
   end
 end
+

@@ -15,8 +15,8 @@ class Api::V1::ProvidersController < Api::V1::ABaseController
   def load_providers!
     # remove whitespace from params
     [:first_name, :last_name].each { |k| params[k].strip! unless params[k].nil? }
-    @search_instance = search_service
-    new_params = @search_instance.proximity(params)
+
+    search_service.proximity(params)
     begin
       @providers = search_service.query(params)
     rescue => e
