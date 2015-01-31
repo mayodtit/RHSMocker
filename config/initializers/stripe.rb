@@ -12,12 +12,9 @@ ONE_TIME_HUNDRED_PERCENT_OFF_COUPON_CODE = "OneTimeHundredPercentOffCoupon"
 StripeEvent.configure do |events|
   events.subscribe 'charge.failed' do |event|
     Rails.logger.info("Received Stripe charge.failed, #{event.id} - #{event.type}")
+    #does it matter to use delay job here to handle asyncroly
     UserMailer.delay.notify_bosses_when_user_payment_fail(event)
-    customer = Stripe::Customer.retrieve(event.data.object.customer)
-    unless customer.delinquent
-      user = User.find_by_stripe_customer_id(customer.id)
-      RHSMailer.notify_user_when_first_charge_fail(event, user).deliver
-    end
+    RHSMailer.notify_user_when_first_charge_fail(event).deliver
   end
 
   events.subscribe 'charge.succeeded' do |event|
