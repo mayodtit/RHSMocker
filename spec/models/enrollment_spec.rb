@@ -14,7 +14,7 @@ describe Enrollment do
   it_validates 'foreign key of', :onboarding_group
   it_validates 'foreign key of', :referral_code
   it_validates 'uniqueness of', :token
-  # it_validates 'allows blank uniqueness of', :email
+  it_validates 'allows blank uniqueness of', :email
 
   it 'validates length of password' do
     e = build_stubbed(:enrollment, password: 'short')

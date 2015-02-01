@@ -69,7 +69,7 @@ shared_examples 'allows blank uniqueness of' do |property, *scopes|
     create(described_class.name.underscore.to_sym, property => nil)
     create(described_class.name.underscore.to_sym, property => nil).should be_valid
 
-    model = create(described_class.name.underscore.to_sym, property => 'test')
+    model = create(described_class.name.underscore.to_sym, property => 'test@gmail.com')
     duplicate = build_stubbed(described_class.name.underscore.to_sym,
                               scopes.inject({property => model.send(property)}){|h,v| h[v] = model.send(v); h})
     duplicate.should_not be_valid
