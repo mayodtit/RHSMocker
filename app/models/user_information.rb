@@ -13,7 +13,6 @@ class UserInformation < ActiveRecord::Base
 
   def track_changes(action)
     self.actor_id ||= Member.robot.id
-    byebug
     changes = self.changes
     unless changes.empty?
       UserChange.create! user: user, actor_id: actor_id, action: action, data: changes
@@ -22,7 +21,6 @@ class UserInformation < ActiveRecord::Base
 
   def track_destroy
     self.actor_id ||= Member.robot.id
-    byebug
-    UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {:id => 1}
+    UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {user_information: self}
   end
 end
