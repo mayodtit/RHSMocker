@@ -28,6 +28,12 @@ describe Enrollment do
     expect(e.errors[:email]).to include('is invalid')
   end
 
+  it 'should not take UTF-8 encoded symbols' do
+    e = build_stubbed(:enrollment, email: 'wuan☁@getbetter.com')
+    expect(e).to_not be_valid
+    expect(e.errors[:email]).to include('is invalid')
+  end
+
   it 'validates email not taken by member' do
     m = create(:member)
     e = build_stubbed(:enrollment, email: m.email)
