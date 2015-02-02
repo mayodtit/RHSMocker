@@ -12,7 +12,7 @@ class Api::V1::AllergiesController < Api::V1::ABaseController
   end
 
   def search
-    @allergies = params[:q].blank? ? Allergy.where('snomed_code NOT in (?)', excluded_allergies).order('name ASC') : snomod_results
+    @allergies = snomod_results
     render_success({allergies: @allergies})
   end
 
