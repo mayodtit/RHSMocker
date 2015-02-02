@@ -87,7 +87,7 @@ class Member < User
                   :email_confirmation_token, :advertiser_id,
                   :advertiser_media_source, :advertiser_campaign,
                   :impersonated_user, :impersonated_user_id,
-                  :enrollment, :payment_token, :coupon_count
+                  :enrollment, :payment_token, :coupon_count, :delinquent
 
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
@@ -106,6 +106,7 @@ class Member < User
   validates :referral_code, presence: true, if: ->(m){m.referral_code_id}
   validates :nux_answer, presence: true, if: -> (m) { m.nux_answer_id }
   validates :email_confirmation_token, presence: true, unless: ->(m){m.email_confirmed?}
+  validates :delinquent, :inclusion => {:in => [true, false]}
 
   before_validation :set_member_flag
   before_validation :set_default_email_confirmed, on: :create

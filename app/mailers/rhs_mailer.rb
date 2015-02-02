@@ -403,8 +403,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
 
   def notify_user_when_first_charge_fail(event)
     customer = Stripe::Customer.retrieve(event.data.object.customer)
-    unless customer.delinquent
-      user = User.find_by_stripe_customer_id(customer.id)
+    user = User.find_by_stripe_customer_id(customer.id)
+    unless user.delinquent
       params = {
           subject: 'Charge Failed',
           from: "support@getbetter.com",
@@ -417,6 +417,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
           }
       }
       send_mail(params)
+      user.delinquent = true
     end
   end
 end
