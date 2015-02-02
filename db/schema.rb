@@ -11,8 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-
-ActiveRecord::Schema.define(:version => 20150129004817) do
+ActiveRecord::Schema.define(:version => 20150202234112) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -43,6 +42,8 @@ ActiveRecord::Schema.define(:version => 20150129004817) do
     t.boolean  "environment_allergen"
     t.boolean  "medication_allergen"
     t.datetime "disabled_at"
+    t.integer  "concept_id"
+    t.integer  "description_id"
   end
 
   create_table "api_users", :force => true do |t|
@@ -269,7 +270,7 @@ ActiveRecord::Schema.define(:version => 20150129004817) do
     t.datetime "disabled_at"
   end
 
-  create_table "discounts", :force => true do |t|
+  create_table "discount_records", :force => true do |t|
     t.integer  "referral_code_id", :null => false
     t.integer  "user_id",          :null => false
     t.string   "coupon",           :null => false
@@ -667,6 +668,15 @@ ActiveRecord::Schema.define(:version => 20150129004817) do
     t.string   "phone"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+  end
+
+  create_table "proximity", :force => true do |t|
+    t.string  "city"
+    t.integer "zip"
+    t.string  "state"
+    t.string  "county"
+    t.float   "latitude"
+    t.float   "longitude"
   end
 
   create_table "referral_codes", :force => true do |t|
