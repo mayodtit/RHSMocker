@@ -2,7 +2,7 @@ require 'net/http'
 
 class PubSub
   class << self
-    def publish(channel, data, session_id)
+    def publish(channel, data, session_id = nil)
       Spawnling.new do
         message = {
           channel: "/#{Rails.env}#{channel}",
