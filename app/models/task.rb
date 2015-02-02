@@ -12,11 +12,11 @@ class Task < ActiveRecord::Base
   belongs_to :service_type
   belongs_to :task_template
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
-  has_many :task_guides, through: :task_template
+  has_many :task_pubsub_client_ides, through: :task_template
   has_many :task_requirements
   has_one :view_task_task
 
-  attr_accessor :actor_id, :change_tracked, :reason
+  attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id
   attr_accessible :title, :description, :due_at,
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
@@ -24,7 +24,7 @@ class Task < ActiveRecord::Base
                   :state_event, :service_type_id, :service_type,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
                   :priority, :actor_id, :member_id, :member, :reason, :visible_in_queue,
-                  :day_priority, :time_estimate
+                  :day_priority, :time_estimate, :pubsub_client_id
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :owner, presence: true, if: lambda { |t| t.owner_id }
@@ -129,18 +129,18 @@ class Task < ActiveRecord::Base
 
   def publish
     if id_changed?
-      PubSub.publish "/tasks/new", { id: id }
+      PubSub.publish "/tasks/new", { id: id }, pubsub_client_id
     else
-      PubSub.publish "/tasks/update", { id: id }
-      PubSub.publish "/tasks/#{id}/update", { id: id }
+      PubSub.publish "/tasks/update", { id: id },  pubsub_client_id
+      PubSub.publish "/tasks/#{id}/update", { id: id },  pubsub_client_id
     end
 
     if owner_id.present?
-      PubSub.publish "/users/#{owner_id}/tasks/owned/update", { id: id }
+      PubSub.publish "/users/#{owner_id}/tasks/owned/update", { id: id },  pubsub_client_id
     end
 
     if owner_id_changed? && owner_id_was
-      PubSub.publish "/users/#{owner_id_was}/tasks/owned/update", { id: id }
+      PubSub.publish "/users/#{owner_id_was}/tasks/owned/update", { id: id },  pubsub_client_id
     end
   end
 
