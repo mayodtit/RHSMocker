@@ -580,7 +580,8 @@ describe Task do
       it 'publishes that a new phone call was created' do
         PubSub.should_receive(:publish).with(
           "/tasks/new",
-          {id: task.id}
+          {id: task.id},
+          nil
         )
         task.publish
       end
@@ -596,11 +597,13 @@ describe Task do
       it 'publishes that a phone call was updated' do
         PubSub.should_receive(:publish).with(
           "/tasks/update",
-          { id: task.id }
+          { id: task.id },
+          nil
         )
         PubSub.should_receive(:publish).with(
           "/tasks/#{task.id}/update",
-          { id: task.id }
+          { id: task.id },
+          nil
         )
         task.publish
       end
@@ -614,10 +617,11 @@ describe Task do
       end
 
       it 'published to the owners channel' do
-        PubSub.should_receive(:publish).with('/tasks/new', { id: task.id })
+        PubSub.should_receive(:publish).with('/tasks/new', { id: task.id }, nil)
         PubSub.should_receive(:publish).with(
           "/users/3/tasks/owned/update",
-          { id: task.id }
+          { id: task.id },
+          nil
         )
         task.publish
       end
@@ -636,10 +640,11 @@ describe Task do
         end
 
         it 'publishes to the old owners channel' do
-          PubSub.should_receive(:publish).with('/tasks/new', { id: task.id })
+          PubSub.should_receive(:publish).with('/tasks/new', { id: task.id }, nil)
           PubSub.should_receive(:publish).with(
             "/users/2/tasks/owned/update",
-            { id: task.id }
+            { id: task.id },
+            nil
           )
           task.publish
         end
@@ -651,10 +656,11 @@ describe Task do
         end
 
         it 'publishes to the old owners channel' do
-          PubSub.should_receive(:publish).with('/tasks/new', { id: task.id })
+          PubSub.should_receive(:publish).with('/tasks/new', { id: task.id }, nil)
           PubSub.should_not_receive(:publish).with(
             "/users//tasks/owned/update",
-            { id: task.id }
+            { id: task.id },
+            nil
           )
           task.publish
         end
