@@ -3,8 +3,8 @@ require 'set'
 class Search::Service::Snomed
   include HTTParty
   #TODO: version should be a changeable global variable set somewhere
-  base_uri 'http://127.0.0.1:4000/snomed/en-edition/v20140901'
   @skip_counter = 0
+  base_uri ENV['SNOMED_SEARCH_URL']
 
   def query(params)
     if params[:controller] == 'api/v1/allergies'
