@@ -49,7 +49,7 @@ describe UserInformation do
 
       it 'should log the destroyed user information in the user change log' do
         destroy_info
-        expect( UserChange.all.first.data[:user_information]).to eq(user_information)
+        expect( UserChange.all.first.data[:user_information]['id']).to eq(user_information.id)
       end
     end
   end

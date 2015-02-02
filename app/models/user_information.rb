@@ -21,6 +21,6 @@ class UserInformation < ActiveRecord::Base
 
   def track_destroy
     self.actor_id ||= Member.robot.id
-    UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {user_information: self}
+    UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {user_information: self.as_json}
   end
 end
