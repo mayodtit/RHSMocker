@@ -18,13 +18,12 @@ class Search::Geo::Proximity
     query = extract_params(params)
     query = query.merge(latitude_range(query))
     query = query.merge(longitude_range(query))
-
     calculate_zips(params, query)
   end
 
   def valid_params?(params)
     !params['dist'].nil? && !params['zip'].nil?
-  end
+end
 
   def extract_params(params)
     zip = params['zip']
@@ -75,6 +74,7 @@ class Search::Geo::Proximity
     end
 
     params["zip"] = locations.join(' ')
+    params
   end
 end
 

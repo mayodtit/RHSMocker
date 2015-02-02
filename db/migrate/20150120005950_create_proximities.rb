@@ -1,6 +1,6 @@
 class CreateProximities < ActiveRecord::Migration
-  def up
-    create_table :proximity do |t|
+  def change
+    create_table :proximities do |t|
       t.string :city
       t.integer :zip
       t.string :state
@@ -8,8 +8,5 @@ class CreateProximities < ActiveRecord::Migration
       t.float :latitude
       t.float :longitude
     end
-  end
-  def down
-    drop_table :proximity
   end
 end

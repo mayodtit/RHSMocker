@@ -658,7 +658,7 @@ ActiveRecord::Schema.define(:version => 20150120005950) do
     t.datetime "updated_at",  :null => false
   end
 
-  create_table "proximity", :force => true do |t|
+  create_table "proximities", :force => true do |t|
     t.string  "city"
     t.integer "zip"
     t.string  "state"

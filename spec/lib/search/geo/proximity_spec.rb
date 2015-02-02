@@ -5,7 +5,7 @@ describe Search::Geo::Proximity do
     @proximity ||= Search::Geo::Proximity.new
   end
 
-  def createLocations(params)
+  def create_locations(params)
     Proximity.create!(
                  :city => params['city'],
                  :zip => params['zip'],
@@ -23,12 +23,12 @@ describe Search::Geo::Proximity do
     }
   end
 
-  describe '#checkParams' do
+  describe '#valid_params' do
     context 'valid params' do
       it 'should return true' do
         @params['dist'] = '3'
         @params['zip'] = '94301'
-        valid = proximity.checkParams(@params)
+        valid = proximity.valid_params?(@params)
 
         expect(valid).to eq(true)
       end
@@ -36,7 +36,7 @@ describe Search::Geo::Proximity do
 
     context 'both invalid params' do
       it 'should return true' do
-        valid = proximity.checkParams(@params)
+        valid = proximity.valid_params?(@params)
 
         expect(valid).to eq(false)
       end
@@ -45,40 +45,41 @@ describe Search::Geo::Proximity do
     context 'one invalid params' do
       it 'should return true' do
         @params['dist'] = '3'
-        valid = proximity.checkParams(@params)
+        valid = proximity.valid_params?(@params)
 
         expect(valid).to eq(false)
 
         @params.delete 'dist'
         @params['zip'] = '94301'
-        valid = proximity.checkParams(@params)
+        valid = proximity.valid_params?(@params)
 
         expect(valid).to eq(false)
       end
     end
   end
 
-  describe '#findNear' do
+  describe '#find_near' do
     context 'valid params' do
       it "should return 94301 and 94303 and not 94203" do
         @params['dist'] = '3'
         @params['zip'] = '94301'
-        createLocations({'city' => 'Palo Alto', 'zip' => '94301', 'latitude' => '37.4443', 'longitude' => '-122.15' })
-        createLocations({'city' => 'Palo Alto', 'zip' => '94303', 'latitude' => '37.4673', 'longitude' => '-122.139' })
-        createLocations({'city' => 'Sacramento', 'zip' => '94203', 'latitude' => '38.3805', 'longitude' => '-121.555' })
-        new_params ||= proximity.findNear(@params)
-        zipString = new_params['zip'].split
+        create_locations({'city' => 'Palo Alto', 'zip' => '94301', 'latitude' => '37.4443', 'longitude' => '-122.15' })
+        create_locations({'city' => 'Palo Alto', 'zip' => '94303', 'latitude' => '37.4673', 'longitude' => '-122.139' })
+        create_locations({'city' => 'Sacramento', 'zip' => '94203', 'latitude' => '38.3805', 'longitude' => '-121.555' })
+        new_params ||= proximity.find_near(@params)
+        
+        zips = new_params['zip'].split
 
-        zipString.length.should == 2
-        zipString.should_not include '94203'
-        expect(zipString).to include '94301'
-        expect(zipString).to include '94303'
+        zips.length.should == 2
+        zips.should_not include '94203'
+        expect(zips).to include '94301'
+        expect(zips).to include '94303'
       end
     end
 
     context 'invalid params, values missing' do
       it "should return original params" do
-        new_params ||= proximity.findNear(@params)
+        new_params ||= proximity.find_near(@params)
 
         new_params.should eq(@params)
       end
@@ -87,13 +88,13 @@ describe Search::Geo::Proximity do
     context 'invalid params, one value missing' do
       it "should return original params" do
         @params['dist'] = '3'
-        new_params ||= proximity.findNear(@params)
+        new_params ||= proximity.find_near(@params)
 
         new_params.should eq(@params)
 
         @params.delete 'dist'
         @params['zip'] = '94301'
-        new_params ||= proximity.findNear(@params)
+        new_params ||= proximity.find_near(@params)
         
         new_params.should eq(@params)
       end
