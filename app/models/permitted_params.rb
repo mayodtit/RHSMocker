@@ -172,7 +172,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def provider_attributes
-    [:id, :address, :city, :postal_code, :phone]
+    [:id, :address, :city, :state, :postal_code, :phone]
   end
 
   def emergency_contact_attributes
