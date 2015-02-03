@@ -45,6 +45,6 @@ class Api::V1::PlansController < Api::V1::ABaseController
   end
 
   def available_options_text_header
-    "needs copy"
+    "Please select the plan you would like to subscribe to:"
   end
 end
