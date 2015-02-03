@@ -852,8 +852,9 @@ ActiveRecord::Schema.define(:version => 20150203192323) do
     t.decimal  "tax_percent",             :precision => 10, :scale => 0
     t.text     "discount"
     t.text     "metadata"
-    t.integer  "owner_id",                                                                  :null => false
+    t.integer  "user_id",                                                                   :null => false
     t.integer  "plan_id",                                                                   :null => false
+    t.datetime "disabled_at"
   end
 
   create_table "symptom_medical_advice_items", :force => true do |t|

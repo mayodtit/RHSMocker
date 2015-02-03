@@ -90,6 +90,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
 
   def mirror_subscription
     if @user.subscription
+    end
   end
 
   def user_attributes
