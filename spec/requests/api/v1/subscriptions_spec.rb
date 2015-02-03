@@ -81,7 +81,7 @@ describe 'Subscriptions' do
       do_request
       response.should be_success
       body = JSON.parse(response.body, symbolize_names: true)
-      expect( body[:subscriptions].first[:plan][:id] ).to eq( 'bp20' )
+      expect( body[:subscriptions][:plan][:id] ).to eq( 'bp20' )
     end
   end
 
@@ -95,8 +95,7 @@ describe 'Subscriptions' do
       do_request
       response.should be_success
       body = JSON.parse(response.body, symbolize_names: true)
-      user.update_attributes({status_event: :upgrade, free_trial_ends_at: nil, subscription_ends_at: nil, actor_id: user.id})
-      expect(body[:user].to_json).to eq(user.serializer.as_json.to_json )
+      expect( body[:subscription][:plan][:id] ).to eq( 'bp20' )
     end
   end
 
@@ -114,7 +113,7 @@ describe 'Subscriptions' do
       do_request
       response.should be_success
       body = JSON.parse(response.body, symbolize_names: true)
-      expect( body[:new_subscription][:plan][:id] ).to eq( 'bp50' )
+      expect( body[:subscription][:plan][:id] ).to eq( 'bp50' )
     end
   end
 end

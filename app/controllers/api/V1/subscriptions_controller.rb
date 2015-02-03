@@ -5,7 +5,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   before_filter :load_customer!, only: :create
 
   def index
-    index_resource(@user.subscriptions)
+    index_resource(@user.subscription)
   end
 
   def create
@@ -14,7 +14,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
         sa = subscription_attributes
         @customer.subscriptions.create(sa)
         if @user.update_attributes(user_attributes)
-          render_success(user: @user.serializer)
+          render_success({subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first})
         else
           render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
         end
@@ -36,7 +36,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   def update
     sa = subscription_attributes
     if UpdateStripeSubscriptionService.new(@user, sa[:plan]).call
-      render_success ({ new_subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first })
+      render_success ({ subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first })
     else
       render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
     end

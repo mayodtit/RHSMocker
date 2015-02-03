@@ -39,4 +39,9 @@ describe NonProductionMailInterceptor, "#.deliver?" do
     message = mock(to: %w[wuang@getbetter.com])
     NonProductionMailInterceptor.deliver?(message).should be_true
   end
+
+  it 'is true for testelf emails' do
+    message = mock(to: %w[wuang@testelf.com])
+    NonProductionMailInterceptor.deliver?(message).should be_true
+  end
 end
