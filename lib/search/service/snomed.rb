@@ -3,7 +3,7 @@ require 'set'
 class Search::Service::Snomed
   include HTTParty
   #TODO: version should be a changeable global variable set somewhere
-  @skip_counter = 0
+
   base_uri ENV['SNOMED_SEARCH_URL']
 
   def query(params)
@@ -12,9 +12,10 @@ class Search::Service::Snomed
     end
     #TODO simply a test, delete later
     if params[:q].blank?
-      test(params)
+      test_filter(params)
     end
     #END
+    @skip_counter = 0
     query_params = select_query(allergy_flag, params)
     response = self.class.get('/descriptions', :query => query_params)
     raise StandardError, 'Non-success response from SNOMED database' unless response.success?
@@ -24,22 +25,25 @@ class Search::Service::Snomed
   private
 
   #TESTING PURPOSES ONLY
-  def test(params)
-    set = Set.new
+  def test_filter(params)
+    concept_set = Set.new
+    concept_hash = Hash.new
     (0..34).each do |i|
       query_params = select_query(true, params)
+      puts "#{query_params}"
       response = self.class.get('/descriptions', :query => query_params)
       @skip_counter += 100
       response['matches'].each do |match|
         unless allergy_filter(match)
-          if set.add?(match['conceptId'])
-            byebug
-            put 'THERE ARE DUPLICATES'
+          if concept_set.include?(match['conceptId'])
+            puts "THERE ARE DUPLICATES #{i}, #{match['conceptId']}, #{match['term']} == #{concept_hash[match['conceptId']]}"
+          else
+            concept_set.add(match['conceptId'])
+            concept_hash[match['conceptId']] = match['term']
           end
         end
       end
     end
-    byebug
   end
 
   def select_query(allergy_flag, params)
@@ -55,7 +59,7 @@ class Search::Service::Snomed
   end
 
   def condition_query(params)
-    "query=#{params[:q]}&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{@skip_counter}&returnLimit=100&semanticFilter=disorder&normalize=true"
+    "query=#{params[:q]}&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{@skip_counter}&returnLimit=100&normalize=true"
   end
 
   def sanitize_response(allergy_flag, response)
@@ -99,7 +103,7 @@ class Search::Service::Snomed
 
   def condition_filter(match)
     term = match['term']
-    if term.include? '(' or term.include? 'allergy' or term.include? ' of ' or term.include? ' - ' or term =~ /\d/
+    if term.include? '(' or term.include? 'allergy' or term.include? ' - '
       true
     else
       false
