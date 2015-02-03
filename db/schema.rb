@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150203181833) do
+ActiveRecord::Schema.define(:version => 20150203192323) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -835,10 +835,8 @@ ActiveRecord::Schema.define(:version => 20150203181833) do
   end
 
   create_table "subscriptions", :force => true do |t|
-    t.integer  "owner_id"
     t.datetime "created_at",                                                                :null => false
     t.datetime "updated_at",                                                                :null => false
-    t.integer  "plan_id",                                                                   :null => false
     t.datetime "start",                                                                     :null => false
     t.string   "status",                                                                    :null => false
     t.string   "customer",                                                                  :null => false
@@ -854,6 +852,8 @@ ActiveRecord::Schema.define(:version => 20150203181833) do
     t.decimal  "tax_percent",             :precision => 10, :scale => 0
     t.text     "discount"
     t.text     "metadata"
+    t.integer  "owner_id",                                                                  :null => false
+    t.integer  "plan_id",                                                                   :null => false
   end
 
   create_table "symptom_medical_advice_items", :force => true do |t|

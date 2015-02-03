@@ -88,6 +88,10 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
     }
   end
 
+  def mirror_subscription
+    if @user.subscription
+  end
+
   def user_attributes
     {
       status_event: :upgrade,
