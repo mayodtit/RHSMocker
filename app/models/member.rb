@@ -36,8 +36,8 @@ class Member < User
                            inverse_of: :pha
   has_many :user_programs, foreign_key: :user_id, dependent: :destroy
   has_many :programs, through: :user_programs
-  has_one :owned_subscription, class_name: 'Subscription',
-                               foreign_key: :owner_id
+  has_one :subscription, class_name: 'Subscription',
+                         foreign_key: :owner_id
   has_one :subscription_user, foreign_key: :user_id
   has_one :shared_subscription, through: :subscription_user,
                                 class_name: 'Subscription',

@@ -56,5 +56,6 @@ class CreateStripeSubscriptionService
     @customer.subscriptions.create(plan: @plan_id,
                                    trial_end: @trial_end.try(:to_i),
                                    coupon: @coupon_code)
+    @user.subscription
   end
 end

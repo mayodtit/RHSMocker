@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150129004817) do
+ActiveRecord::Schema.define(:version => 20150203181833) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -836,8 +836,24 @@ ActiveRecord::Schema.define(:version => 20150129004817) do
 
   create_table "subscriptions", :force => true do |t|
     t.integer  "owner_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",                                                                :null => false
+    t.datetime "updated_at",                                                                :null => false
+    t.integer  "plan_id",                                                                   :null => false
+    t.datetime "start",                                                                     :null => false
+    t.string   "status",                                                                    :null => false
+    t.string   "customer",                                                                  :null => false
+    t.boolean  "cancel_at_period_end",                                   :default => false, :null => false
+    t.datetime "current_period_start",                                                      :null => false
+    t.datetime "current_period_end",                                                        :null => false
+    t.datetime "ended_at"
+    t.datetime "trial_start"
+    t.datetime "trial_end"
+    t.date     "canceled_at"
+    t.integer  "quantity",                                                                  :null => false
+    t.decimal  "application_fee_percent", :precision => 10, :scale => 0
+    t.decimal  "tax_percent",             :precision => 10, :scale => 0
+    t.text     "discount"
+    t.text     "metadata"
   end
 
   create_table "symptom_medical_advice_items", :force => true do |t|
