@@ -42,8 +42,8 @@ ActiveRecord::Schema.define(:version => 20150202234112) do
     t.boolean  "environment_allergen"
     t.boolean  "medication_allergen"
     t.datetime "disabled_at"
-    t.integer  "concept_id"
-    t.integer  "description_id"
+    t.string   "concept_id"
+    t.string   "description_id"
   end
 
   create_table "api_users", :force => true do |t|

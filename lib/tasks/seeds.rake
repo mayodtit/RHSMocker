@@ -669,4 +669,57 @@ namespace :seeds do
     )
     puts welcome_call.id
   end
+
+  task :update_allergies_table => :environment do
+    require 'open-uri'
+    require 'json'
+
+    Allergy.all.each do |al|
+      # TODO
+      # 1. lookup the entry (name + concept id?) with snomed api
+      # 2. string or regex match the name for description id
+      # 3. store terms in db
+      concept_id = al.snomed_code
+      url = 'http://107.170.178.177/api/snomed/us-edition/v20140301/concepts/' + concept_id.to_s
+      uri = URI.parse(url)
+      resp = uri.read
+
+      desc_id = al.snomed_code  if resp.include? 'Concept not found'
+
+      if desc_id.nil?
+        json_resp = JSON.parse(resp)
+        match = match_name(al.snomed_name, json_resp)
+        store_terms(al, concept_id, match) unless match.nil?
+      else
+        url = 'http://107.170.178.177/api/snomed/us-edition/v20140301/descriptions/' + desc_id.to_s
+        uri = URI.parse(url)
+        resp = uri.read
+
+        json_resp = JSON.parse(resp)
+        begin
+          concept_id = json_resp["matches"][0]["conceptId"]
+          store_terms(al, concept_id, desc_id) unless match.nil?
+        rescue
+          puts "Error @ desc id =", desc_id
+        end
+
+      end
+    end
+  end
+
+  task :populate_allergies_from_snomed => :environment do
+
+  end
+
+  def match_name(name, resp)
+    resp['descriptions'].each{ |o|
+      return o['descriptionId'] if o['term'] == name
+    }
+    return nil
+  end
+  def store_terms(obj, cid, did)
+    obj.concept_id = cid
+    obj.description_id = did
+    obj.save
+  end
 end
