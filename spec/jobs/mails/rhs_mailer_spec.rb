@@ -68,7 +68,7 @@ describe RHSMailer, "#notify_user_when_first_charge_fail" do
 
   def do_method
     event = StripeMock.mock_webhook_event('charge.failed', {customer: user.stripe_customer_id})
-    RHSMailer.notify_user_when_first_charge_fail(event).deliver
+    RHSMailer.notify_user_when_first_charge_fail(event, user).deliver
   end
 
   it 'should email the user to notify their first failed payment' do

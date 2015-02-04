@@ -17,6 +17,6 @@ class Notifications::UserFirstChargeFailedJob < Struct.new(:user_id)
   private
 
   def alert_text
-    'Your Charge Failed! Pay your money,man!'
+    'Your Charge Failed! Pay your money,man! Require Copy!'
   end
 end
