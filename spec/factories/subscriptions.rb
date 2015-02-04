@@ -1,5 +1,5 @@
 FactoryGirl.define do
   factory :subscription do
-    association :owner, factory: [:member, :premium]
+    association :user, factory: [:member, :premium]
   end
 end

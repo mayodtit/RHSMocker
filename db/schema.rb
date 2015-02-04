@@ -827,13 +827,6 @@ ActiveRecord::Schema.define(:version => 20150203192323) do
     t.datetime "updated_at",  :null => false
   end
 
-  create_table "subscription_users", :force => true do |t|
-    t.integer  "subscription_id"
-    t.integer  "user_id"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
-  end
-
   create_table "subscriptions", :force => true do |t|
     t.datetime "created_at",                                                                :null => false
     t.datetime "updated_at",                                                                :null => false
