@@ -61,6 +61,10 @@ class Task < ActiveRecord::Base
     !(%w(completed abandoned).include? state)
   end
 
+  def self.claimed
+    where(state: :claimed)
+  end
+
   def for_nurse?
     role.name == 'nurse'
   end
