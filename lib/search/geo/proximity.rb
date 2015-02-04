@@ -60,20 +60,13 @@ end
   end
 
   def calculate_zips(params, query)
-    dist = query['dist'].to_f
     latN = query['latN']
     latS = query['latS']
     longW = query['longW']
     longE = query['longE']
 
-    locations = []
-
-    Proximity.where('latitude >= ? AND latitude <= ? AND longitude >= ? AND longitude <= ?',
-                    latS, latN, longW, longE).each do |loc|
-        locations.push(loc.zip)
-    end
-
-    params["zip"] = locations.join(' ')
+    params["zip"] = Proximity.where('latitude >= ? AND latitude <= ? AND longitude >= ? AND longitude <= ?',
+                    latS, latN, longW, longE).pluck(:zip).join(' ')
     params
   end
 end

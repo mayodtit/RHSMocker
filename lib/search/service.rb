@@ -8,8 +8,7 @@ class Search::Service
   end
 
   def proximity(params, services=nil)
-    @geo||= Search::Geo::Proximity.new
-
+    @geo ||= Search::Geo::Proximity.new
     @geo.find_near(params)
   end
 

@@ -55,30 +55,30 @@ class Search::Service::Bloom
   def sanitize_record(record)
     p = record['practice_address']
     practice_address = {
-        address: prettify(p['address_line']),
-        address2: prettify(p['address_details_line']),
-        city: prettify(p['city']),
-        state: p['state'],
-        postal_code: p['zip'],
-        country_code: p['county_code'],
-        phone: p['phone'], # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
-        fax: p['fax']
+      address: prettify(p['address_line']),
+      address2: prettify(p['address_details_line']),
+      city: prettify(p['city']),
+      state: p['state'],
+      postal_code: p['zip'],
+      country_code: p['county_code'],
+      phone: p['phone'], # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
+      fax: p['fax']
     }
 
     hcp_code = get_hcp_code(record['provider_details'])
     {
-        :first_name => prettify(record['first_name']),
-        :last_name => prettify(record['last_name']),
-        :npi_number => record['npi'].to_s,
-        :address => practice_address,
-        :city => prettify(p['city']), # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
-        :state => p['state'], # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
-        :phone => p['phone'],
-        :expertise => record['credential'],
-        :gender => record['gender'],
-        :healthcare_taxonomy_code => hcp_code, # this line left in for backwards compabitility
-        :provider_taxonomy_code => hcp_code,
-        :taxonomy_classification => HCPTaxonomy.get_classification_by_hcp_code(hcp_code)
+      :first_name => prettify(record['first_name']),
+      :last_name => prettify(record['last_name']),
+      :npi_number => record['npi'].to_s,
+      :address => practice_address,
+      :city => prettify(p['city']), # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
+      :state => p['state'], # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
+      :phone => p['phone'],
+      :expertise => record['credential'],
+      :gender => record['gender'],
+      :healthcare_taxonomy_code => hcp_code, # this line left in for backwards compabitility
+      :provider_taxonomy_code => hcp_code,
+      :taxonomy_classification => HCPTaxonomy.get_classification_by_hcp_code(hcp_code)
     }
   end
 

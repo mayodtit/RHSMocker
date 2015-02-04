@@ -683,17 +683,17 @@ namespace :seeds do
     puts "Done parsing xls"
     puts "Starting Database population"
     zip.each_with_index { |zipcode, index|
-      puts "Processing " + zipcode
       begin
-        Proximity.create!(
-            :city => city[index],
-            :zip => zip[index],
-            :state => state[index],
-            :county => county[index],
-            :latitude => latitude[index],
-            :longitude => longitude[index]
-        )
+        Proximity.find_or_create_by_zip_and_city!(zip[index],city[index]) do |loc|
+            loc.state = state[index]
+            loc.county = county[index]
+            loc.latitude = latitude[index]
+            loc.longitude = longitude[index]
+        end
+        print '.'
+        puts 'Processed ',index, 'records' if index % 5000 == 0
       rescue
+        puts "Error adding, ", zipcode
       end
     }
   puts "Database populated"
