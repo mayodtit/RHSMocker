@@ -12,7 +12,9 @@ class TimelineObserver < ActiveRecord::Observer
           observed.consult.initiator.entries.create(resource: observed, actor: observed.user, data: observed.entry_serializer.as_json)
         end
       when "PhoneCall"
-        observed.user.entries.create(resource: observed, actor: observed.creator, data: observed.entry_serializer.as_json)
+        if observed.user && observed.creator
+          observed.user.entries.create(resource: observed, actor: observed.creator, data: observed.entry_serializer.as_json)
+        end
     end
   end
 end
