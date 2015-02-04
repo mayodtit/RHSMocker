@@ -16,7 +16,7 @@ describe 'OnboardingGroups' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:onboarding_groups].to_json).to eq([onboarding_group].serializer.as_json.to_json)
+        expect(body[:onboarding_groups].to_json).to eq([onboarding_group].serializer.as_json.each{|h| h[:users_count] = 0}.to_json)
       end
     end
 

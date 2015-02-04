@@ -83,7 +83,20 @@ class Api::V1::TasksController < Api::V1::ABaseController
       update_params[:assignor_id] = current_user.id
     end
 
-    update_resource @task, update_params
+    if update_params[:state_event] == 'claim'
+      @updated_tasks = Task.claimed.where(owner_id: current_user.id).each do |t|
+        t.actor_id = current_user.id
+        t.pubsub_client_id = update_params[:pubsub_client_id]
+        t.start!
+      end
+    end
+
+    if @task.update_attributes(update_params)
+      render_success(task: @task.serializer,
+                     updated_tasks: @updated_tasks.try(:serializer) || [])
+    else
+      render_failure({reason: @task.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   private
@@ -106,6 +119,6 @@ class Api::V1::TasksController < Api::V1::ABaseController
   end
 
   def task_attributes
-    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :day_priority)
+    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :day_priority, :pubsub_client_id)
   end
 end
