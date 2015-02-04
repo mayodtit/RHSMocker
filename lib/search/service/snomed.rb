@@ -2,8 +2,6 @@ require 'set'
 
 class Search::Service::Snomed
   include HTTParty
-  #TODO: version should be a changeable global variable set somewhere
-
   base_uri ENV['SNOMED_SEARCH_URL']
 
   def query(params)
