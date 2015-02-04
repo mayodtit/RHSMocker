@@ -18,7 +18,6 @@ describe '#send_charge_failed_notification' do
   end
 
   describe '#call' do
-
     def do_method
       event = StripeMock.mock_webhook_event('charge.failed', {customer: user.stripe_customer_id})
       SendChargeFailedNotification.new( event ).call
@@ -26,10 +25,6 @@ describe '#send_charge_failed_notification' do
 
     it 'should send user email and push notification if the user delinquent status is false' do
       expect{do_method}.to change(Delayed::Job, :count).by(2)
-    end
-
-    it 'should set the user delinquent status to true if the current is false' do
-      expect{ do_method }.to change{ user.reload.delinquent }.from( false ).to ( true )
     end
   end
 end

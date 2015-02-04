@@ -40,7 +40,6 @@ describe 'GrantReferrerCreditWhenRefereePay' do
       expect(referrer.discounts.count).to eq(0)
       do_method
       expect(referrer.discounts.count).to eq(1)
-      expect()
     end
   end
 
