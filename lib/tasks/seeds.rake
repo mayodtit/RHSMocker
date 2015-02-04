@@ -675,10 +675,6 @@ namespace :seeds do
     require 'json'
 
     Allergy.all.each do |al|
-      # TODO
-      # 1. lookup the entry (name + concept id?) with snomed api
-      # 2. string or regex match the name for description id
-      # 3. store terms in db
       concept_id = al.snomed_code
       url = 'http://107.170.178.177/api/snomed/us-edition/v20140301/concepts/' + concept_id.to_s
       uri = URI.parse(url)
@@ -708,7 +704,34 @@ namespace :seeds do
   end
 
   task :populate_allergies_from_snomed => :environment do
+    require 'open-uri'
+    concept_set = Set.new
+    concept_hash = Hash.new
+    base_url = 'http://107.170.178.177/api/snomed/us-edition/v20140301/descriptions'
+    (0..34).each do |i|
+      query = "?query=allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo="\
+        "#{i*100}&returnLimit=100&semanticFilter=disorder&normalize=true"
+      url = base_url + query
+      uri = URI.parse(url)
+      resp = uri.read
+      matches = JSON.parse(resp)['matches']
 
+      matches.each do |match|
+        term = match['term']
+
+        unless term.include? '(' or term.include? 'Allergy to'
+          desc_url = 'http://107.170.178.177/api/snomed/us-edition/v20140301/concepts/' + match['conceptId']
+          desc_uri = URI.parse(desc_url)
+          desc_json = JSON.parse(desc_uri.read)
+          desc_id = match_name(term, desc_json)
+          Allergy.find_or_create_by_concept_id_and_description_id(match['conceptId'], desc_id) do |al|
+            al.name =  term.split(' ')[0..-2].join(' ') unless term.split(' ').length < 2
+            al.name = term if term.split(' ').length < 2
+            al.snomed_name = match['fsn']
+          end
+        end
+      end
+    end
   end
 
   def match_name(name, resp)
