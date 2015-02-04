@@ -27,8 +27,9 @@ class EntrySerializer < ViewSerializer
           member_id: object.member_id,
           actor: object.actor.try(:serializer, options.merge(shallow: true)),
           actor_id: object.actor_id,
-          data: object.data
+          data: object.data,
       }
+      attributes[:resource] = object.resource.try(:serializer, options.merge(shallow: true)) if object.resource_type == "PhoneCall"
       attributes
     else
       super.tap do |attributes|

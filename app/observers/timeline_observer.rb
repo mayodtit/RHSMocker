@@ -2,7 +2,6 @@ class TimelineObserver < ActiveRecord::Observer
   observe :message, :task_change, :phone_call
 
   def after_create(observed)
-
     case observed.class.name
       when "TaskChange"
         return if (observed.task && observed.task.type != 'MemberTask') || (observed.event != nil && observed.event != "complete")
@@ -11,10 +10,14 @@ class TimelineObserver < ActiveRecord::Observer
         if !observed.phone_call && !observed.scheduled_phone_call && !observed.phone_call_summary
           observed.consult.initiator.entries.create(resource: observed, actor: observed.user, data: observed.entry_serializer.as_json)
         end
-      when "PhoneCall"
-        if observed.user && observed.creator
-          observed.user.entries.create(resource: observed, actor: observed.creator, data: observed.entry_serializer.as_json)
-        end
+    end
+  end
+
+  def after_save(observed)
+    return if observed.class.name != "PhoneCall"
+
+    if observed.user && observed.creator && !Entry.exists?(resource_id: observed.id)
+      observed.user.entries.create(resource: observed, actor: observed.user, data: observed.entry_serializer.as_json)
     end
   end
 end
