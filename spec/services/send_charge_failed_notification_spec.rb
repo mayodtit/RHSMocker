@@ -1,6 +1,5 @@
 require 'spec_helper'
 require 'stripe_mock'
-require 'mandrill_mailer/offline'
 
 describe '#send_charge_failed_notification' do
   let!(:user) {create(:member, :premium)}
@@ -25,12 +24,8 @@ describe '#send_charge_failed_notification' do
       SendChargeFailedNotification.new( event ).call
     end
 
-    it 'should send user email if the user delinquent status is false' do
-      expect{do_method}.to change{ MandrillMailer.deliveries.count }.by( 1 )
-    end
-
-    it 'should send user push notification if the user delinquent status is false' do
-      expect{ do_method }.to change(Delayed::Job, :count).by(1)
+    it 'should send user email and push notification if the user delinquent status is false' do
+      expect{do_method}.to change(Delayed::Job, :count).by(2)
     end
 
     it 'should set the user delinquent status to true if the current is false' do

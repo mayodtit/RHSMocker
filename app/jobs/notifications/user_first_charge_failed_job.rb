@@ -5,12 +5,9 @@ class Notifications::UserFirstChargeFailedJob < Struct.new(:user_id)
 
   def perform
     user = User.find(user_id)
-    sessions = user.sessions.where('apns_token IS NOT NULL')
-    if sessions.any?
-      sessions.each do |session|
+    user.sessions.where('apns_token IS NOT NULL').each do |session|
         APNS.send_notification(session.apns_token, alert: alert_text,
                                sound: :default)
-      end
     end
   end
 

@@ -6,7 +6,7 @@ class SendChargeFailedNotification
   def call
     load_user!
     unless @user.delinquent
-      RHSMailer.notify_user_when_first_charge_fail(@event, @user).deliver
+      RHSMailer.delay.notify_user_when_first_charge_fail(@event, @user)
       Notifications::UserFirstChargeFailedJob.create(@user.id)
       @user.update_attributes(:delinquent => true)
     end

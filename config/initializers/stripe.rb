@@ -17,9 +17,6 @@ StripeEvent.configure do |events|
   end
 
   events.subscribe 'charge.succeeded' do |event|
-    customer = Stripe::Customer.retrieve(event.data.object.customer)
-    user = User.find_by_stripe_customer_id(customer.id)
-    user.delinquent = false
     GrantReferrerCreditWhenRefereePay.new(event).assign_coupon
   end
 
