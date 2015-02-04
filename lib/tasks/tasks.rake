@@ -134,5 +134,20 @@ namespace :tasks do
                                         text: newYearsMessage)
         end
       end
+    end
+
+  desc "Backfill timeline message entries"
+  task :backfill_timeline_messages => :environment do
+    Message.where(user_id: nil).find_each do |message|
+      puts "Processing #{message.id}"
+      if !message.phone_call || !message.scheduled_phone_call || !message.phone_call_summary
+        begin
+          puts "\tCreating timeline message entry for Member #{message.consult.initiator.id}"
+          message.consult.initiator.entries.create(resource: message, actor: message.user, data: message.entry_serializer.as_json)
+        rescue
+          # Do nothing, continue
+        end
+      end
+    end
   end
 end

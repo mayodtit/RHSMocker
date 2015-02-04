@@ -4,7 +4,7 @@ class TaskChangeEntrySerializer < ActiveModel::Serializer
   attributes :id, :task_id, :task, :event, :actor, :update_type, :update_data
 
   def task
-    object.task.try(:entry_serializer)
+    object.task.try(:entry_serializer).as_json
   end
 
   def event
@@ -12,6 +12,8 @@ class TaskChangeEntrySerializer < ActiveModel::Serializer
       'created'
     elsif object.event == 'update'
       'updated'
+    elsif object.event == 'unstart' && object.data && object.data.keys.first == "owner_id"
+      'assigned'
     else
       object.to
     end
