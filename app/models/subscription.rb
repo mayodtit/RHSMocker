@@ -4,6 +4,7 @@ class Subscription < ActiveRecord::Base
   belongs_to :user, class_name: 'Member'
 
   serialize :discount, Hash
+  serialize :metadata, Hash
 
   validates :user, presence: true
   validates :user_id, uniqueness: true
@@ -16,6 +17,8 @@ class Subscription < ActiveRecord::Base
   validates :current_period_end, presence: true
   validates :quantity, presence: true
 
-  attr_accessible :user, :user_id, :disabled_at
+  attr_accessible :user, :user_id, :start, :status, :customer, :cancel_at_period_end, :current_period_end,
+                  :current_period_start, :ended_at, :trial_start, :trial_end, :quantity, :disabled_at, :plan_id, :metadata,
+                  :application_fee_percent, :tax_percent
 
 end

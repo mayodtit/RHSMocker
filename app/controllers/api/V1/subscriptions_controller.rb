@@ -43,6 +43,9 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   end
 
   private
+  def sync_subscriptions
+    stripe_subscription = @customer.subscriptions.first
+  end
 
   def render_failure_if_not_self
     render_failure if (current_user.id != params[:user_id].to_i)

@@ -53,9 +53,29 @@ class CreateStripeSubscriptionService
   end
 
   def create_stripe_subscription!
-    @customer.subscriptions.create(plan: @plan_id,
-                                   trial_end: @trial_end.try(:to_i),
-                                   coupon: @coupon_code)
-    @user.subscription
+    @customer.subscriptions.create({ plan: @plan_id,
+                                     trial_end: @trial_end.try(:to_i)})
+    byebug
+    subscription = Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first
+    Subscription.create(subscription_attributes(subscription)) if subscription
+  end
+
+  def subscription_attributes(subscription)
+    {start: subscription.start,
+     status: subscription.status,
+     customer: subscription.customer,
+     cancel_at_period_end: subscription.cancel_at_period_end,
+     current_period_start: subscription.current_period_start,
+     current_period_end: subscription.current_period_end,
+     # ended_at: subscription.ended_at,
+     # trial_start: subscription.trial_start,
+     # trial_end: subscription.trial_end,
+     # quantity: subscription.quantity,
+     # application_fee_percent: subscription.application_fee_percent,
+     # tax_percent: subscription.tax_percent,
+     # discount: subscription.discount,
+     # metadata: subscription.metadata,
+     user_id: @user.id,
+     plan_id: @plan_id}
   end
 end

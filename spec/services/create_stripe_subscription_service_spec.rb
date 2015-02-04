@@ -68,6 +68,7 @@ describe CreateStripeSubscriptionService do
       it 'creates a new subscription for the customer' do
         described_class.new(user: user, plan_id: plan_id, credit_card_token: credit_card_token).call
         expect(Stripe::Customer.retrieve(user.stripe_customer_id).subscriptions.count).to eq(1)
+        expect(user.subscription.nil?).to eq(false)
       end
     end
 
