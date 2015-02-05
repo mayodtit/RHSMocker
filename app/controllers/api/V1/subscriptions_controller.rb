@@ -30,8 +30,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   def destroy
     if DestroyStripeSubscriptionService.new(@user, :downgrade).call
       subscription = Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first
-      render_success({cancel_at_period_end: subscription.cancel_at_period_end,
-                      current_period_end: subscription.current_period_end})
+      render_success
     else
       render_failure({reason: 'Error occurred during subscription cancellation'}, 422)
     end
