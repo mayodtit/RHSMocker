@@ -5,6 +5,7 @@ class DowngradeMemberToFree
 
   def call
     load_member!
+    return if @member.nil?
     @member.downgrade!
   end
 
