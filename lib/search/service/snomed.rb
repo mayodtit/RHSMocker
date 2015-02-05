@@ -26,22 +26,25 @@ class Search::Service::Snomed
   def test_filter(params)
     concept_set = Set.new
     concept_hash = Hash.new
+    @skip_counter = 0
     (0..34).each do |i|
       query_params = select_query(true, params)
       puts "#{query_params}"
       response = self.class.get('/descriptions', :query => query_params)
       @skip_counter += 100
       response['matches'].each do |match|
-        unless allergy_filter(match)
+        term = match['term']
+        unless allergy_filter(term)
           if concept_set.include?(match['conceptId'])
-            puts "THERE ARE DUPLICATES #{i}, #{match['conceptId']}, #{match['term']} == #{concept_hash[match['conceptId']]}"
+            puts "#{match['conceptId']}, #{term} == #{concept_hash[match['conceptId']]}"
           else
             concept_set.add(match['conceptId'])
-            concept_hash[match['conceptId']] = match['term']
+            concept_hash[match['conceptId']] = term
           end
         end
       end
     end
+    puts concept_set.size
   end
 
   def select_query(allergy_flag, params)
@@ -71,12 +74,13 @@ class Search::Service::Snomed
   def sanitize_allergy(response)
     result = []
     response['matches'].each do |match|
-      unless allergy_filter(match)
+      term = match['term']
+      unless allergy_filter(term)
         result << {
           :environmental_allergen => false,
           :food_allergen => false,
           :medication_allergen => false,
-          :name => match['term'],
+          :name => term,
           :snomed_code => match['conceptId'],
           :snomed_name => match['fsn']
         }
@@ -88,9 +92,10 @@ class Search::Service::Snomed
   def sanitize_condition(response)
     result = []
     response['matches'].each do |match|
-      unless condition_filter(match)
+      term = match['term']
+      unless condition_filter(term)
         result << {
-            :name => match['term'],
+            :name => term,
             :snomed_code => match['conceptId'],
             :snomed_name => match['fsn']
         }
@@ -99,18 +104,16 @@ class Search::Service::Snomed
     result
   end
 
-  def condition_filter(match)
-    term = match['term']
-    if term.include? '(' or term.include? 'allergy' or term.include? ' - '
+  def condition_filter(term)
+    if term.include? '(disorder)' or term.include? 'allergy' or term.include? ' - '
       true
     else
       false
     end
   end
 
-  def allergy_filter(match)
-    term = match['term']
-    if term.include? '(' or term.include? 'Allergy to'
+  def allergy_filter(term)
+    if term.include? '(disorder)'
       true
     else
       false
