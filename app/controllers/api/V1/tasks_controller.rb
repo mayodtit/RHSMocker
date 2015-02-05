@@ -93,7 +93,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
 
     if @task.update_attributes(update_params)
       render_success(task: @task.serializer,
-                     updated_tasks: @updated_tasks.try(:serializer) || [])
+                     updated_tasks: @updated_tasks.try(:serializer, shallow: true) || [])
     else
       render_failure({reason: @task.errors.full_messages.to_sentence}, 422)
     end

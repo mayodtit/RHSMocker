@@ -31,6 +31,22 @@ describe 'Ping' do
         expect(response).to be_success
         expect(session.reload.gcm_id).to eq(gcm_id)
       end
+
+      context 'with NUX stories' do
+        let!(:nux_story) { create(:nux_story, enabled: true) }
+
+        it 'does not render stories when using exclude_stories' do
+          do_request
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:stories]).to_not be_empty
+
+          do_request(exclude_stories: true)
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:stories]).to be_nil
+        end
+      end
     end
 
     context 'with an invalid auth_token' do
