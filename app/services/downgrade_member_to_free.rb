@@ -7,6 +7,7 @@ class DowngradeMemberToFree
     load_member!
     return if @member.nil?
     @member.downgrade!
+    RHSMailer.delay.confirm_subscription_deletion(@member)
   end
 
   private

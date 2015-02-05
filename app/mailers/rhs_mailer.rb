@@ -404,4 +404,17 @@ class RHSMailer < MandrillMailer::TemplateMailer
     }
     send_mail(params)
   end
+
+  def confirm_subscription_deletion(user)
+    params = {
+        subject: 'Your subscription is deleted',
+        from: 'support@getbetter.com',
+        from_name: 'Better',
+        to: {email: user.email},
+        vars: {
+            FNAME: user.salutation,
+            }
+    }
+    send_mail(params)
+  end
 end
