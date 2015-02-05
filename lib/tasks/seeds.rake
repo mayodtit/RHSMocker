@@ -675,6 +675,10 @@ namespace :seeds do
     require 'json'
 
     Allergy.all.each do |al|
+      # TODO
+      # 1. lookup the entry (name + concept id?) with snomed api
+      # 2. string or regex match the name for description id
+      # 3. store terms in db
       concept_id = al.snomed_code
       url = 'http://107.170.178.177/api/snomed/us-edition/v20140301/concepts/' + concept_id.to_s
       uri = URI.parse(url)
@@ -698,19 +702,35 @@ namespace :seeds do
         rescue
           puts "Error @ desc id =", desc_id
         end
-
       end
     end
   end
 
+  task :update_conditions_table => :environment do
+    require 'open-uri'
+    require 'json'
+    failed = 0
+    Condition.all.each do |c|
+      desc_id = c.snomed_code
+      url = 'http://107.170.143.181/api/snomed/en-edition/v20140731/descriptions/' + desc_id.to_s
+      uri = URI.parse(url)
+      json = JSON.parse(uri.read)
+      begin
+        concept_id = json['matches'][0]['conceptId']
+        store_terms(c, concept_id, desc_id)
+      rescue
+        failed += 1
+        puts "Error @ desc id = #{desc_id}"
+      end
+    end
+    puts "TOTAL FAILED #{failed}"
+  end
+
   task :populate_allergies_from_snomed => :environment do
     require 'open-uri'
-    concept_set = Set.new
-    concept_hash = Hash.new
     base_url = 'http://107.170.178.177/api/snomed/us-edition/v20140301/descriptions'
     (0..34).each do |i|
-      query = "?query=allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo="\
-        "#{i*100}&returnLimit=100&semanticFilter=disorder&normalize=true"
+      query = "?query=allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{i*100}&returnLimit=100&semanticFilter=disorder&normalize=true"
       url = base_url + query
       uri = URI.parse(url)
       resp = uri.read
