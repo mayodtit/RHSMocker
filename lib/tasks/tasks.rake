@@ -138,14 +138,13 @@ namespace :tasks do
 
   desc "Backfill timeline message entries"
   task :backfill_timeline_messages => :environment do
-    Message.all.each do |message|
-      puts "Processing #{message.id}"
+    Message.find_each do |message|
+      puts "."
       if !Entry.exists?(resource_id: message.id) && !(message.phone_call || message.scheduled_phone_call || message.phone_call_summary)
         begin
-          puts "\tCreating timeline message entry for Member #{message.consult.initiator.id}"
           message.consult.initiator.entries.create(resource: message, actor: message.user, data: message.entry_serializer.as_json)
         rescue
-          # Do nothing, continue
+          puts "/nError with message: " + message.id + "\n"
         end
       end
     end
