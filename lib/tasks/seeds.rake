@@ -739,7 +739,7 @@ namespace :seeds do
       matches.each do |match|
         term = match['term']
 
-        unless term.include? '(' or term.include? 'Allergy to'
+        unless term.include? '(disorder)'
           desc_url = 'http://107.170.178.177/api/snomed/us-edition/v20140301/concepts/' + match['conceptId']
           desc_uri = URI.parse(desc_url)
           desc_json = JSON.parse(desc_uri.read)
