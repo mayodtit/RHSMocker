@@ -12,6 +12,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
     begin
       ActiveRecord::Base.transaction do
         sa = subscription_attributes
+        raise "can't have more than one subscription" if (@customer.subscriptions.count > 0)
         @customer.subscriptions.create(sa)
         if @user.update_attributes(user_attributes)
           render_success({user: @user.serializer,
@@ -22,7 +23,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
       end
     rescue => e
       Rails.logger.error "Error in subscriptionsController#create for user #{@user.id}: #{e}"
-      render_failure({reason: 'Error adding subscription'}, 422)
+      render_failure({reason: "Error occurred during adding subscription"}, 422)
     end
   end
 
