@@ -6,48 +6,46 @@ namespace :stripe do
 
       # exit early for stripe error conditions
       if stripe_subscriptions.count > 1
-        print 'S'
+        print 'S' + "user: #{m.id}"
         next
       elsif stripe_subscriptions.count < 1
-        print '-'
+        print '-' + "user: #{m.id}"
         next
       end
 
       stripe_subscription = stripe_subscriptions.first
 
       # check for existing subscription in our database
-      if m.subscription.try(:stripe_subscription_id) == stripe_subscription_id
+      if m.subscription.try(:stripe_subscription_id) == stripe_subscription.id
         print '*'
         next
       elsif m.subscription && m.subscription.stripe_subscription_id != stripe_subscription.id
-        print '!'
+        print '!' + "user: #{m.id}"
         next
       end
 
-      m.create_subscription!(stripe_subscription_id: stripe_subscription.id)
+      subscription_attributes = {
+                                  start: stripe_subscription.start,
+                                  status: stripe_subscription.status,
+                                  customer: stripe_subscription.customer,
+                                  cancel_at_period_end: stripe_subscription.cancel_at_period_end,
+                                  current_period_start: stripe_subscription.current_period_start,
+                                  current_period_end: stripe_subscription.current_period_end,
+                                  ended_at: stripe_subscription.ended_at,
+                                  trial_start: stripe_subscription.trial_start,
+                                  trial_end: stripe_subscription.trial_end,
+                                  quantity: stripe_subscription.quantity,
+                                  application_fee_percent: stripe_subscription.application_fee_percent,
+                                  tax_percent: stripe_subscription.tax_percent,
+                                  discount: stripe_subscription.discount,
+                                  metadata: stripe_subscription.metadata,
+                                  user_id: m.id,
+                                  plan_id: stripe_subscription.plan.id,
+                                  stripe_subscription_id: stripe_subscription.id
+                                }
+
+      Subscription.create(subscription_attributes)
       print '.'
     end
   end
-end
-
-
-def subscription_attributes
-  {
-      start: @event.data.object.start,
-      status: @event.data.object.status,
-      customer: @event.data.object.customer,
-      cancel_at_period_end: @event.data.object.cancel_at_period_end,
-      current_period_start: @event.data.object.current_period_start,
-      current_period_end: @event.data.object.current_period_end,
-      ended_at: @event.data.object.ended_at,
-      trial_start: @event.data.object.trial_start,
-      trial_end: @event.data.object.trial_end,
-      quantity: @event.data.object.quantity,
-      application_fee_percent: @event.data.object.application_fee_percent,
-      tax_percent: @event.data.object.tax_percent,
-      discount: @event.data.object.discount,
-      metadata: @event.data.object.metadata,
-      user_id: @user.id,
-      plan_id: @event.data.object.plan.id
-  }
 end
