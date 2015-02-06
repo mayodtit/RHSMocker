@@ -483,10 +483,7 @@ describe ScheduledPhoneCall do
     end
 
     context 'scheduled phone call is assigned' do
-      before do
-        scheduled_phone_call.stub(:assigned?) { true }
-        scheduled_phone_call.stub(:unassigned?) { false }
-      end
+      let(:scheduled_phone_call) { create :scheduled_phone_call, :assigned }
 
       it 'allows scheduled at during work hours' do
         scheduled_phone_call.scheduled_at = valid_work_time
@@ -500,10 +497,7 @@ describe ScheduledPhoneCall do
     end
 
     context 'scheduled phone call is unassigned' do
-      before do
-        scheduled_phone_call.stub(:assigned?) { false }
-        scheduled_phone_call.stub(:unassigned?) { true }
-      end
+      let(:scheduled_phone_call) { create :scheduled_phone_call }
 
       it 'allows scheduled at during work hours' do
         scheduled_phone_call.scheduled_at = valid_work_time
@@ -517,10 +511,7 @@ describe ScheduledPhoneCall do
     end
 
     context 'scheduled phone call is not unassigned or assigned' do
-      before do
-        scheduled_phone_call.stub(:unassigned?) { false }
-        scheduled_phone_call.stub(:assigned?) { false }
-      end
+      let(:scheduled_phone_call) { create :scheduled_phone_call, :booked }
 
       it 'allows scheduled at during work hours' do
         scheduled_phone_call.scheduled_at = valid_work_time
