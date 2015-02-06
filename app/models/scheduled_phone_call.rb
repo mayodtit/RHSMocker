@@ -30,7 +30,10 @@ class ScheduledPhoneCall < ActiveRecord::Base
   validates :scheduled_at, presence: true
   validates :user, presence: true, if: lambda{|spc| spc.user_id}
   validates :reminder_scheduled_message, presence: true, if: ->(s){s.reminder_scheduled_message_id}
-  validate :attrs_for_states
+  validate :presence_of_actor_and_timestamp
+  validate :not_already_booked
+  validate :presence_of_owner_id
+  validate :presence_of_user_id
   validates :callback_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: false, if: lambda { |spc| spc.user_id }
   validate :scheduled_at_during_on_call
 
@@ -141,11 +144,11 @@ Prep:
 
   def create_reminder
     return unless template = MessageTemplate.find_by_name('Welcome Call Reminder')
-    if send_in_morning
+    if send_in_morning?
       # scheduled today or tomorrow, send reminder in the morning on the day
       publish_at = scheduled_at.pacific.on_call_start_oclock
       day = 'today'
-    elsif within_2_hours
+    elsif within_2_hours?
       # scheduled in the future, not today or tomorrow, send reminder the day before
       publish_at = 1.business_day.before(scheduled_at.pacific).pacific.on_call_start_oclock
       day = scheduled_at.pacific.strftime('%A')
@@ -158,24 +161,28 @@ Prep:
                                                                                      'day' => day))
   end
 
-  def send_in_morning
-    (scheduled_at_now? ||within_a_day?) && within_2_hours
+  def send_in_morning?
+    (scheduled_at_now? || within_a_day?) && within_2_hours?
   end
 
-  def within_2_hours
-    Time.now < (scheduled_at - 2.hours)
+  def within_2_hours?
+    current_time < (scheduled_at - 2.hours)
   end
 
   def scheduled_at_now?
-    comvert_time(Time.now) == comvert_time(scheduled_at)
+    current_date == scheduled_at.pacific.to_date
   end
 
   def within_a_day?
-    comvert_time(Time.now) >= 1.business_day.before(scheduled_at.pacific).to_date
+    current_date >= 1.business_day.before(scheduled_at.pacific).to_date
   end
 
-  def comvert_time(time_now)
-    time_now.pacific.to_date
+  def current_date
+    @current_date ||= current_time.pacific.to_date
+  end
+
+  def current_time
+    @current_time ||= Time.now
   end
 
   def reschedule_reminder
@@ -264,31 +271,21 @@ Prep:
     end
   end
 
-  # TODO: Write more comprehensive tests
-  def attrs_for_states
-    state_sym = state.to_sym
-    state_sym_selector(state_sym)
-    scheduled_call_check(state_sym)
-    present_check(state_sym)
+  def presence_of_actor_and_timestamp
+    if assigned?
+      validate_actor_and_timestamp_exist :assign
+    elsif booked?
+      validate_actor_and_timestamp_exist :book
+    elsif canceled?
+      validate_actor_and_timestamp_exist :cancel
+    elsif ended?
+      validate_actor_and_timestamp_exist :end
+    end
   end
 
-  def scheduled_call_check(state_sym)
-    if state_sym != :unassigned && scheduled_call?
+  def not_already_booked
+    if !unassigned? && scheduled_call?
       errors.add(:scheduled_at, "is already booked for #{owner.full_name}.")
-    end
-  end
-
-  def present_check(state_sym)
-    if state_sym != :unassigned && state_sym != :canceled
-      if owner_id.nil?
-        errors.add(:owner_id, "must be present when #{self.class.name} is #{state}")
-      end
-    end
-
-    unless %i(unassigned assigned canceled).include? state_sym
-      if user_id.nil?
-        errors.add(:user_id, "must be present when #{self.class.name} is #{state}")
-      end
     end
   end
 
@@ -297,16 +294,15 @@ Prep:
     phone_calls.where(scheduled_at: scheduled_at, owner_id: owner_id).count != 0
   end
 
-  def state_sym_selector(state_sym)
-    case state_sym
-      when :assigned
-        validate_actor_and_timestamp_exist :assign
-      when :booked
-        validate_actor_and_timestamp_exist :book
-      when :canceled
-        validate_actor_and_timestamp_exist :cancel
-      when :ended
-        validate_actor_and_timestamp_exist :end
+  def presence_of_owner_id
+    if !unassigned? && !canceled? && owner_id.nil?
+      errors.add(:owner_id, "must be present when #{self.class.name} is #{state}")
+    end
+  end
+
+  def presence_of_user_id
+    if !unassigned? && !assigned? && !canceled? && user_id.nil?
+      errors.add(:user_id, "must be present when #{self.class.name} is #{state}")
     end
   end
 
