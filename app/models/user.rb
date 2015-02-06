@@ -236,9 +236,14 @@ class User < ActiveRecord::Base
   end
 
   def subscription
-    return nil if stripe_customer_id.nil?
+    return [] if stripe_customer_id.nil?
+
     customer = Stripe::Customer.retrieve(stripe_customer_id)
-    customer.subscriptions.first
+    array = []
+    customer.subscriptions.each do |subscription|
+      array << StripeExtension.subscription_serializer(subscription)
+    end
+    array
   end
 
   def remove_all_credit_cards

@@ -30,7 +30,6 @@ class TaskSerializer < ActiveModel::Serializer
         service_type: object.service_type,
         owner: object.owner.try(:serializer, options.merge(shallow: true))
       }
-      attributes[:task_guides] = object.task_guides.try(:serializer) if object.respond_to? :task_guides
       attributes
     elsif options[:for_task]
       attributes = {
@@ -44,7 +43,6 @@ class TaskSerializer < ActiveModel::Serializer
         description: object.description,
         day_priority: object.day_priority
       }
-      attributes[:task_guides] = object.task_guides.try(:serializer) if object.respond_to? :task_guides
       attributes
     else
       super.tap do |attributes|
@@ -53,9 +51,7 @@ class TaskSerializer < ActiveModel::Serializer
           service_type: object.service_type
         )
         attributes[:task_changes] = object.task_changes.try(:serializer, options.merge(shallow: true)) if object.respond_to? :task_changes
-        attributes[:task_template] = object.task_template.try(:serializer) if object.respond_to? :task_template
-        attributes[:task_guides] = object.task_guides.try(:serializer) if object.respond_to? :task_guides
-        attributes[:member] = object.member.try(:serializer, options.merge(include_nested_information: true)) if object.respond_to? :member
+        attributes[:member] = object.member.try(:serializer, options.merge(shallow: true)) if object.respond_to? :member
       end
     end
   end

@@ -72,7 +72,7 @@ resource 'Subscriptions' do
       explanation 'Returns the user subscription'
       status.should == 200
       body = JSON.parse(response_body, symbolize_names: true)
-      expect( body[:subscriptions][:plan].to_json ).to eq( @single_plan.as_json.to_json )
+      expect( body[:subscriptions].first[:plan][:id] ).to eq( 'bp20' )
     end
   end
 

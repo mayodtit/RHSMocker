@@ -14,7 +14,7 @@ class Enrollment < ActiveRecord::Base
   validates :onboarding_group, presence: true, if: ->(e){e.onboarding_group_id}
   validates :referral_code, presence: true, if: ->(e){e.referral_code_id}
   validates :token, presence: true, uniqueness: true
-  validates :email, uniqueness: true, allow_nil: true
+  validates :email, uniqueness: true, allow_nil: true, :email => true
   validates :password, length: {minimum: 8,
                                 message: "must be 8 or more characters long"},
                        if: ->(e){e.password}

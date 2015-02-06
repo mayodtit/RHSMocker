@@ -1,6 +1,6 @@
 class CreateDiscountRecords < ActiveRecord::Migration
   def change
-    create_table :discount_records do |t|
+    create_table :discounts do |t|
       t.integer :referral_code_id, :null => false
       t.integer :user_id, :null => false
       t.string :coupon, :null => false

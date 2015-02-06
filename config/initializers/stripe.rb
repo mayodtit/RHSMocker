@@ -32,6 +32,7 @@ StripeEvent.configure do |events|
   end
 
   events.subscribe 'customer.subscription.deleted' do |event|
+    DowngradeMemberToFree.new(event).call
     SyncStripeSubscription.new(event).delete
   end
 end

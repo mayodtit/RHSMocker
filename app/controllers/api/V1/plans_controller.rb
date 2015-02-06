@@ -9,18 +9,20 @@ class Api::V1::PlansController < Api::V1::ABaseController
   end
 
   def available_options
-    render_success(available_plans: @available_plans)
+    render_success(plans: @available_plans,
+                   text_header: available_options_text_header)
   end
 
   private
 
   def load_available_plans!
     @available_plans = []
+    stripe_subscriptions = Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions
     @active_plans.each do |plan|
-      if (current_user.stripe_customer_id) && (Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.count > 0)
-        @available_plans << plan if plan.amount > Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.data[0].plan.amount
+      if (current_user.stripe_customer_id) && ( stripe_subscriptions.count > 0)
+        @available_plans << StripeExtension.plan_serializer(plan, current_user) if plan.amount > stripe_subscriptions.data[0].plan.amount
       else
-        @available_plans << plan
+        @available_plans << StripeExtension.plan_serializer(plan, current_user)
       end
       @available_plans
     end
@@ -41,5 +43,9 @@ class Api::V1::PlansController < Api::V1::ABaseController
 
   def text_header
     'Choose Family Membership for access to your PHA and benefits for everyone you care about. Or keep Single Membership just for you. Prepay for either yearly membership and get a discount.'
+  end
+
+  def available_options_text_header
+    "Please select the plan you would like to subscribe to:"
   end
 end
