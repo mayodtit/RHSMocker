@@ -680,7 +680,9 @@ namespace :seeds do
       # 2. string or regex match the name for description id
       # 3. store terms in db
       concept_id = al.snomed_code
-      url = 'http://107.170.178.177/api/snomed/us-edition/v20140301/concepts/' + concept_id.to_s
+      base_url = ENV['SNOMED_SEARCH_URL']
+
+      url = base_url + 'concepts/' + concept_id.to_s
       uri = URI.parse(url)
       resp = uri.read
 
@@ -691,7 +693,7 @@ namespace :seeds do
         match = match_name(al.snomed_name, json_resp)
         store_terms(al, concept_id, match) unless match.nil?
       else
-        url = 'http://107.170.178.177/api/snomed/us-edition/v20140301/descriptions/' + desc_id.to_s
+        url = base_url + 'descriptions/' + desc_id.to_s
         uri = URI.parse(url)
         resp = uri.read
 
@@ -710,9 +712,10 @@ namespace :seeds do
     require 'open-uri'
     require 'json'
     failed = 0
+    base_url = ENV['SNOMED_SEARCH_URL']
     Condition.all.each do |c|
       desc_id = c.snomed_code
-      url = 'http://107.170.143.181/api/snomed/en-edition/v20140731/descriptions/' + desc_id.to_s
+      url = base_url + 'descriptions/' + desc_id.to_s
       uri = URI.parse(url)
       json = JSON.parse(uri.read)
       begin
@@ -728,9 +731,9 @@ namespace :seeds do
 
   task :populate_allergies_from_snomed => :environment do
     require 'open-uri'
-    base_url = 'http://107.170.178.177/api/snomed/us-edition/v20140301/descriptions'
+    base_url = ENV['SNOMED_SEARCH_URL']
     (0..34).each do |i|
-      query = "?query=allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{i*100}&returnLimit=100&semanticFilter=disorder&normalize=true"
+      query = "descriptions?query=allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{i*100}&returnLimit=100&semanticFilter=disorder&normalize=true"
       url = base_url + query
       uri = URI.parse(url)
       resp = uri.read
@@ -740,7 +743,7 @@ namespace :seeds do
         term = match['term']
 
         unless term.include? '(disorder)'
-          desc_url = 'http://107.170.178.177/api/snomed/us-edition/v20140301/concepts/' + match['conceptId']
+          desc_url = base_url + 'concepts/' + match['conceptId']
           desc_uri = URI.parse(desc_url)
           desc_json = JSON.parse(desc_uri.read)
           desc_id = match_name(term, desc_json)
