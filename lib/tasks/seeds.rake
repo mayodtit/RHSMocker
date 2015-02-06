@@ -670,15 +670,12 @@ namespace :seeds do
     puts welcome_call.id
   end
 
+  # Looks at Allergies table and updates entries from db/seeds/allergies.rb by adding description or concept ids
   task :update_allergies_table => :environment do
     require 'open-uri'
     require 'json'
 
     Allergy.all.each do |al|
-      # TODO
-      # 1. lookup the entry (name + concept id?) with snomed api
-      # 2. string or regex match the name for description id
-      # 3. store terms in db
       concept_id = al.snomed_code
       base_url = ENV['SNOMED_SEARCH_URL']
 
@@ -692,14 +689,16 @@ namespace :seeds do
         json_resp = JSON.parse(resp)
         match = match_name(al.snomed_name, json_resp)
         store_terms(al, concept_id, match) unless match.nil?
+
       else
         url = base_url + 'descriptions/' + desc_id.to_s
         uri = URI.parse(url)
         resp = uri.read
-
         json_resp = JSON.parse(resp)
+
         begin
           concept_id = json_resp["matches"][0]["conceptId"]
+          # 3. store terms in db
           store_terms(al, concept_id, desc_id) unless match.nil?
         rescue
           puts "Error @ desc id =", desc_id
@@ -708,7 +707,7 @@ namespace :seeds do
     end
   end
 
-  # Looks at Allergies table and updates entries from db/seeds/allergies.rb by adding description or concept ids
+  # Looks at Conditions table and updates entries from db/seeds/conditions.rb by adding description or concept ids
   task :update_conditions_table => :environment do
     require 'open-uri'
     require 'json'
