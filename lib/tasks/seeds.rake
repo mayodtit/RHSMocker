@@ -708,6 +708,7 @@ namespace :seeds do
     end
   end
 
+  # Looks at Allergies table and updates entries from db/seeds/allergies.rb by adding description or concept ids
   task :update_conditions_table => :environment do
     require 'open-uri'
     require 'json'
@@ -729,6 +730,7 @@ namespace :seeds do
     puts "TOTAL FAILED #{failed}"
   end
 
+  # Populates database using SNOMED api, filters out most synonyms
   task :populate_allergies_from_snomed => :environment do
     require 'open-uri'
     base_url = ENV['SNOMED_SEARCH_URL']
@@ -757,12 +759,15 @@ namespace :seeds do
     end
   end
 
+  # Finds the description id of an term with by exact match
   def match_name(name, resp)
     resp['descriptions'].each{ |o|
       return o['descriptionId'] if o['term'] == name
     }
     return nil
   end
+
+  # Updates and saves SNOMED entries that were seeded
   def store_terms(obj, cid, did)
     obj.concept_id = cid
     obj.description_id = did
