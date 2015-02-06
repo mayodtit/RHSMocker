@@ -17,7 +17,7 @@ class Api::V1::CreditCardsController < Api::V1::ABaseController
         @customer = Stripe::Customer.create(card: params[:stripe_token],
                                             email: @user.email,
                                             description: StripeExtension.customer_description(@user.id))
-        load_credit_card
+        load_credit_card!
         @user.update_attribute(:stripe_customer_id, @customer.id)
       else
         load_customer!
@@ -42,7 +42,7 @@ class Api::V1::CreditCardsController < Api::V1::ABaseController
     @user.remove_all_credit_cards
   end
 
-  def load_credit_card
+  def load_credit_card!
     @card = @customer.cards.retrieve(@customer.default_card)
   end
 
