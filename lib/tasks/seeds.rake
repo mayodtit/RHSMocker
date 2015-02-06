@@ -733,8 +733,13 @@ namespace :seeds do
   task :populate_allergies_from_snomed => :environment do
     require 'open-uri'
     base_url = ENV['SNOMED_SEARCH_URL']
+    puts "Terms completed: "
     (0..34).each do |i|
-      query = "descriptions?query=allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{i*100}&returnLimit=100&semanticFilter=disorder&normalize=true"
+      skip_counter = i * 100
+      print "\r#{skip_counter}"
+
+      query = "descriptions?query=allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{
+        skip_counter}&returnLimit=100&semanticFilter=disorder&normalize=true"
       url = base_url + query
       uri = URI.parse(url)
       resp = uri.read
