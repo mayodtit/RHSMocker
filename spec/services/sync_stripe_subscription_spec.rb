@@ -3,7 +3,7 @@ require 'stripe_mock'
 
 describe 'SyncStripeSubscription' do
   let!(:user) { create(:member, :premium) }
-  
+
   before do
     StripeMock.start
     customer = Stripe::Customer.create(email: user.email,
