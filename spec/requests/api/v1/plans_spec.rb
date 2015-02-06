@@ -94,6 +94,10 @@ describe 'Plans' do
     end
 
     context 'user do not have a plan subscribed' do
+      before do
+        user.update_attribute(:stripe_customer_id, nil)
+      end
+
       it 'should return all the plans' do
         do_request
         expect(response).to be_success
