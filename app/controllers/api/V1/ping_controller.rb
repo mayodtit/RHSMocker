@@ -9,7 +9,8 @@ class Api::V1::PingController < Api::V1::ABaseController
       revision: REVISION,
       use_invite_flow: Metadata.use_invite_flow?,
       enable_sharing: Metadata.enable_sharing?,
-      nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer }
+      nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer },
+      auth_token_valid: session_valid?
     }
 
     unless params[:exclude_stories]
@@ -48,7 +49,7 @@ class Api::V1::PingController < Api::V1::ABaseController
   end
 
   def session_valid?
-    params[:auth_token] && current_session
+    (params[:auth_token] && current_session) ? true : false
   end
 
   def store_apns_token!
