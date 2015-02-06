@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150204230000) do
+ActiveRecord::Schema.define(:version => 20150206000123) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -827,6 +827,13 @@ ActiveRecord::Schema.define(:version => 20150204230000) do
     t.datetime "updated_at",  :null => false
   end
 
+  create_table "subscription_users", :force => true do |t|
+    t.integer  "subscription_id"
+    t.integer  "user_id"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
   create_table "subscriptions", :force => true do |t|
     t.datetime "created_at",                                                                :null => false
     t.datetime "updated_at",                                                                :null => false
@@ -848,6 +855,7 @@ ActiveRecord::Schema.define(:version => 20150204230000) do
     t.datetime "disabled_at"
     t.string   "plan_id",                                                                   :null => false
     t.datetime "canceled_at"
+    t.string   "stripe_subscription_id",                                                    :null => false
   end
 
   create_table "symptom_medical_advice_items", :force => true do |t|

@@ -29,3 +29,25 @@ namespace :stripe do
     end
   end
 end
+
+
+def subscription_attributes
+  {
+      start: @event.data.object.start,
+      status: @event.data.object.status,
+      customer: @event.data.object.customer,
+      cancel_at_period_end: @event.data.object.cancel_at_period_end,
+      current_period_start: @event.data.object.current_period_start,
+      current_period_end: @event.data.object.current_period_end,
+      ended_at: @event.data.object.ended_at,
+      trial_start: @event.data.object.trial_start,
+      trial_end: @event.data.object.trial_end,
+      quantity: @event.data.object.quantity,
+      application_fee_percent: @event.data.object.application_fee_percent,
+      tax_percent: @event.data.object.tax_percent,
+      discount: @event.data.object.discount,
+      metadata: @event.data.object.metadata,
+      user_id: @user.id,
+      plan_id: @event.data.object.plan.id
+  }
+end

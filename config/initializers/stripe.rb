@@ -22,4 +22,16 @@ StripeEvent.configure do |events|
   events.subscribe 'invoice.created' do |event|
     GrantReferrerCreditWhenRefereePay.new(event).apply_coupon
   end
+
+  events.subscribe 'customer.subscription.created' do |event|
+    SyncStripeSubscription.new(event).create
+  end
+
+  events.subscribe 'customer.subscription.updated' do |event|
+    SyncStripeSubscription.new(event).update
+  end
+
+  events.subscribe 'customer.subscription.deleted' do |event|
+    SyncStripeSubscription.new(event).delete
+  end
 end

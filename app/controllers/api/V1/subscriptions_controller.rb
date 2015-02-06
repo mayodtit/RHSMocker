@@ -43,9 +43,6 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   end
 
   private
-  def sync_subscriptions
-    stripe_subscription = @customer.subscriptions.first
-  end
 
   def render_failure_if_not_self
     render_failure if (current_user.id != params[:user_id].to_i)
@@ -89,11 +86,6 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
       system: true,
       consult_id: @user.master_consult.id
     }
-  end
-
-  def mirror_subscription
-    if @user.subscription
-    end
   end
 
   def user_attributes

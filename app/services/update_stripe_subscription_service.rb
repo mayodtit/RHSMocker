@@ -13,6 +13,7 @@ class UpdateStripeSubscriptionService
   end
 
   private
+
   def load_stripe_customer!
     @customer ||= Stripe::Customer.retrieve(@user.stripe_customer_id)
   end
