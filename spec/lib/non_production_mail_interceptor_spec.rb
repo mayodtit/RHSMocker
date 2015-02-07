@@ -17,7 +17,7 @@ describe NonProductionMailInterceptor, "delivery interception" do
 
     NonProductionMailInterceptor.stub(:deliver? => false)
     expect(outer_mail.subject).to eq('[To:Neel@getworse.com]Test')
-    expect(outer_mail.to).to eq(["engineering@getbetter.com"])
+    expect(outer_mail.to).to eq(["test@getbetter.com"])
   end
 
   it "mail to @getbetter.com still goes" do
@@ -37,6 +37,11 @@ describe NonProductionMailInterceptor, "#.deliver?" do
 
   it "is true for other recipients" do
     message = mock(to: %w[wuang@getbetter.com])
+    NonProductionMailInterceptor.deliver?(message).should be_true
+  end
+
+  it 'is true for testelf emails' do
+    message = mock(to: %w[wuang@testelf.com])
     NonProductionMailInterceptor.deliver?(message).should be_true
   end
 end

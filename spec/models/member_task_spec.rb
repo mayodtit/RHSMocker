@@ -23,11 +23,13 @@ describe MemberTask do
       it 'publishes that a new task was created' do
         PubSub.should_receive(:publish).with(
           "/tasks/new",
-          {id: task.id}
+          {id: task.id},
+          nil
         )
         PubSub.should_receive(:publish).with(
           "/members/1/subjects/5/tasks/new",
-          {id: task.id}
+          {id: task.id},
+          nil
         )
         task.publish
       end
@@ -44,15 +46,18 @@ describe MemberTask do
       it 'publishes that a task was updated' do
         PubSub.should_receive(:publish).with(
           "/tasks/update",
-          {id: task.id}
+          {id: task.id},
+          nil
         )
         PubSub.should_receive(:publish).with(
           "/tasks/2/update",
-          {id: task.id}
+          {id: task.id},
+          nil
         )
         PubSub.should_receive(:publish).with(
           "/members/1/subjects/5/tasks/update",
-          {id: task.id}
+          {id: task.id},
+          nil
         )
         task.publish
       end
@@ -73,11 +78,13 @@ describe MemberTask do
       it 'publishes that a new task was created' do
         PubSub.should_receive(:publish).with(
           "/tasks/new",
-          {id: task.id}
+          {id: task.id},
+          nil
         )
         PubSub.should_receive(:publish).with(
           "/members/1/subjects/5/tasks/new",
-          {id: task.id}
+          {id: task.id},
+          nil
         )
         task.publish
       end
@@ -94,15 +101,18 @@ describe MemberTask do
       it 'publishes that a task was updated' do
         PubSub.should_receive(:publish).with(
           "/tasks/update",
-          {id: task.id}
+          {id: task.id},
+          nil
         )
         PubSub.should_receive(:publish).with(
           "/tasks/2/update",
-          {id: task.id}
+          {id: task.id},
+          nil
         )
         PubSub.should_receive(:publish).with(
           "/members/1/subjects/5/tasks/update",
-          {id: task.id}
+          {id: task.id},
+          nil
         )
         task.publish
       end

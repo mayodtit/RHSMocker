@@ -4,7 +4,7 @@ OnboardingGroup.find_or_create_by_name(name: 'Generic 14-day trial onboarding gr
 
 o = OnboardingGroup.find_or_create_by_name(name: "Adam's users",
                                            premium: true,
-                                           free_trial_days: 14,
+                                           free_trial_days: 30,
                                            skip_credit_card: true)
 ReferralCode.find_or_create_by_name(name: "Adam's users",
                                     code: 'adam',

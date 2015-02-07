@@ -3,10 +3,14 @@ class RHSMailer < MandrillMailer::TemplateMailer
   default from_name: 'Better'
 
   def before_check(params)
-    unless ( Rails.env.production? || params[:to][:email].include?('@getbetter.com') )
+    if !Rails.env.production? && !whitelisted_email?(params[:to][:email])
       params[:subject] = "[To:" + params[:to][:email] + "]" + params[:subject]
-      params[:to][:email] = 'engineering@getbetter.com'
+      params[:to][:email] = 'test@getbetter.com'
     end
+  end
+
+  def whitelisted_email?(email)
+    email.match(/.*getbetter\.com|.*testelf.*/).present?
   end
 
   def send_mail(params)

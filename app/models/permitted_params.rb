@@ -63,6 +63,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:weight).permit(:amount, :bmi, :taken_at, :healthkit_uuid, :healthkit_source)
   end
 
+  def discounts
+    params.require(:discounts).permit(:user_id, :referral_code_id, :coupon, :redeemed_at, :referrer)
+  end
+
   def blood_pressure
     params.require(:blood_pressure).permit(:user_id, :collection_type_id, :diastolic, :systolic, :pulse, :taken_at, :healthkit_uuid, :healthkit_source)
   end
@@ -164,11 +168,11 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def address_attributes
-    %i(id address address2 line1 line2 city postal_code name type)
+    %i(id address address2 line1 line2 city state postal_code name type)
   end
 
   def provider_attributes
-    [:id, :address, :city, :postal_code, :phone]
+    [:id, :address, :city, :state, :postal_code, :phone]
   end
 
   def emergency_contact_attributes
