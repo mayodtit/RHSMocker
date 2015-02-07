@@ -24,7 +24,7 @@ development:
   TWILIO_TOKEN: d198bff8b6329cd6110c6dc2fb58cd2b
   MIXPANEL_API_KEY: 3a844a978038d0d30c507a78b4403388
   MIXPANEL_TOKEN: 6ecc7e55d9b4e93d87d962f08e303b4a
-  SNOMED_SEARCH_URL: http://107.170.178.177/api/snomed/us-edition/v20140301/
+  SNOMED_SEARCH_URL: http://localhost:4000/snomed/en-edition/v20140731/
 test:
   GCM_KEY: AIzaSyAkGLtzj-ecM3Nkhw6t6LlyQkSZwo_H2EI
   NOD_API_KEY: ukWpqVwGyS7Aq3USxYEK
@@ -40,4 +40,4 @@ test:
   PUSHER_APP_ID: 36367
   PUSHER_KEY: f93e7c2a2a407ef7747b
   PUSHER_SECRET: 513445887ae45c985287
-  SNOMED_SEARCH_URL: http://107.170.178.177/api/snomed/us-edition/v20140301/
+  SNOMED_SEARCH_URL: http://localhost:4000/snomed/en-edition/v20140731/
