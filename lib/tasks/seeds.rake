@@ -698,7 +698,7 @@ namespace :seeds do
 
         begin
           concept_id = json_resp["matches"][0]["conceptId"]
-          # 3. store terms in db
+
           store_terms(al, concept_id, desc_id) unless match.nil?
         rescue
           puts "Error @ desc id =", desc_id
@@ -733,8 +733,13 @@ namespace :seeds do
   task :populate_allergies_from_snomed => :environment do
     require 'open-uri'
     base_url = ENV['SNOMED_SEARCH_URL']
+    puts "Terms parsed: "
     (0..34).each do |i|
-      query = "descriptions?query=allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{i*100}&returnLimit=100&semanticFilter=disorder&normalize=true"
+      skip_counter = i * 100
+      print "\r#{skip_counter}"
+
+      query = "descriptions?query=allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{
+        skip_counter}&returnLimit=100&semanticFilter=disorder&normalize=true"
       url = base_url + query
       uri = URI.parse(url)
       resp = uri.read
@@ -744,10 +749,7 @@ namespace :seeds do
         term = match['term']
 
         unless term.include? '(disorder)'
-          desc_url = base_url + 'concepts/' + match['conceptId']
-          desc_uri = URI.parse(desc_url)
-          desc_json = JSON.parse(desc_uri.read)
-          desc_id = match_name(term, desc_json)
+          desc_id = match['descriptionId']
           Allergy.find_or_create_by_concept_id_and_description_id(match['conceptId'], desc_id) do |al|
             al.name =  term.split(' ')[0..-2].join(' ') unless term.split(' ').length < 2
             al.name = term if term.split(' ').length < 2
