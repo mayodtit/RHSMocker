@@ -18,6 +18,14 @@ describe 'Ping' do
         post '/api/v1/ping', options.merge!(auth_token: session.auth_token)
       end
 
+      it 'indicates session is valid' do
+        expect(session.apns_token).to be_nil
+        do_request(device_token: apns_token)
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:auth_token_valid]).to be_true
+      end
+
       it 'stores the apns token when present' do
         expect(session.apns_token).to be_nil
         do_request(device_token: apns_token)
@@ -52,6 +60,14 @@ describe 'Ping' do
     context 'with an invalid auth_token' do
       def do_request(options={})
         post '/api/v1/ping', options.merge!(auth_token: 'invalid_token')
+      end
+
+      it 'indicates session is not valid' do
+        expect(session.apns_token).to be_nil
+        do_request(device_token: apns_token)
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:auth_token_valid]).to be_false
       end
 
       it 'not store the apns token when present' do
