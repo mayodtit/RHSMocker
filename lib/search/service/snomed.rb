@@ -5,15 +5,10 @@ class Search::Service::Snomed
   base_uri ENV['SNOMED_SEARCH_URL']
 
   def query(params)
+    @skip_counter = 0
     if params[:controller] == 'api/v1/allergies'
       allergy_flag  = true
     end
-    #TODO simply a test, delete later
-    if params[:q].blank?
-      test_filter(params)
-    end
-    #END
-    @skip_counter = 0
     query_params = select_query(allergy_flag, params)
     response = self.class.get('/descriptions', :query => query_params)
     raise StandardError, 'Non-success response from SNOMED database' unless response.success?
@@ -22,7 +17,7 @@ class Search::Service::Snomed
 
   private
 
-  #TESTING PURPOSES ONLY
+  #Used to test the accuracy of the allergy filter.  Pass in empty params.
   def test_filter(params)
     concept_set = Set.new
     concept_hash = Hash.new
