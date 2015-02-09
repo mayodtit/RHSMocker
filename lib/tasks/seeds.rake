@@ -736,7 +736,6 @@ namespace :seeds do
     puts "Terms parsed: "
     (0..34).each do |i|
       skip_counter = i * 100
-      print "\r#{skip_counter}"
 
       query = "descriptions?query=allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{
         skip_counter}&returnLimit=100&semanticFilter=disorder&normalize=true"
@@ -756,6 +755,8 @@ namespace :seeds do
             al.snomed_name = match['fsn']
           end
         end
+        print "\r#{skip_counter}"
+        skip_counter += 1
       end
     end
   end
