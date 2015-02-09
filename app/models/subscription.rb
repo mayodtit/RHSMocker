@@ -5,6 +5,7 @@ class Subscription < ActiveRecord::Base
 
   serialize :discount, Hash
   serialize :metadata, Hash
+  serialize :plan, Hash
 
   validates :user, presence: true
   validates :user_id, uniqueness: true
@@ -19,7 +20,7 @@ class Subscription < ActiveRecord::Base
   validates :stripe_subscription_id, presence: true, uniqueness: true
 
   attr_accessible :user, :user_id, :start, :status, :customer, :cancel_at_period_end, :current_period_end,
-                  :current_period_start, :ended_at, :trial_start, :trial_end, :quantity, :disabled_at, :plan_id, :metadata,
+                  :current_period_start, :ended_at, :trial_start, :trial_end, :quantity, :disabled_at, :plan, :metadata,
                   :application_fee_percent, :tax_percent, :discount, :stripe_subscription_id
 
 end

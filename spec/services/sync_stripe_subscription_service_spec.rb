@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'stripe_mock'
 
-describe 'SyncStripeSubscription' do
+describe 'SyncStripeSubscriptionService' do
   let!(:user) { create(:member, :premium) }
 
   before do
@@ -23,7 +23,7 @@ describe 'SyncStripeSubscription' do
       event.data.object['tax_percent'] = nil
       event.data.object['discount'] = nil
       event.data.object['metadata'] = {}
-      SyncStripeSubscription.new(event).create
+      SyncStripeSubscriptionService.new(event).create
     end
 
     it 'should create the subscription on local' do
@@ -39,7 +39,7 @@ describe 'SyncStripeSubscription' do
       event.data.object['tax_percent'] = nil
       event.data.object['discount'] = nil
       event.data.object['metadata'] = {}
-      SyncStripeSubscription.new(event).update
+      SyncStripeSubscriptionService.new(event).update
     end
 
     it 'should create the subscription on local' do
@@ -52,7 +52,7 @@ describe 'SyncStripeSubscription' do
 
     def do_method
       event = StripeMock.mock_webhook_event('customer.subscription.deleted', {customer: user.stripe_customer_id})
-      SyncStripeSubscription.new(event).delete
+      SyncStripeSubscriptionService.new(event).delete
     end
 
     it 'should create the subscription on local' do

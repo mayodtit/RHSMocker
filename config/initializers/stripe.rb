@@ -24,15 +24,15 @@ StripeEvent.configure do |events|
   end
 
   events.subscribe 'customer.subscription.created' do |event|
-    SyncStripeSubscription.new(event).create
+    SyncStripeSubscriptionService.new(event).call
   end
 
   events.subscribe 'customer.subscription.updated' do |event|
-    SyncStripeSubscription.new(event).update
+    SyncStripeSubscriptionService.new(event).call
   end
 
   events.subscribe 'customer.subscription.deleted' do |event|
     DowngradeMemberToFree.new(event).call
-    SyncStripeSubscription.new(event).delete
+    SyncStripeSubscriptionService.new(event).call
   end
 end

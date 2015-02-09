@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150206000123) do
+ActiveRecord::Schema.define(:version => 20150207011601) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -852,10 +852,9 @@ ActiveRecord::Schema.define(:version => 20150206000123) do
     t.text     "discount"
     t.text     "metadata"
     t.integer  "user_id",                                                                   :null => false
-    t.datetime "disabled_at"
-    t.string   "plan_id",                                                                   :null => false
     t.datetime "canceled_at"
     t.string   "stripe_subscription_id",                                                    :null => false
+    t.text     "plan",                                                                      :null => false
   end
 
   create_table "symptom_medical_advice_items", :force => true do |t|

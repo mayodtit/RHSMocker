@@ -1,27 +1,36 @@
-class SyncStripeSubscription
+class SyncStripeSubscriptionService
   def initialize(event)
     @event = event
     @user = User.find_by_stripe_customer_id(event.data.object.customer)
   end
 
-  def create
+  def call
     return if @user.nil?
-    Subscription.create(subscription_attributes)
+    event_type = @event.type
+    if event_type == 'customer.subscription.created'
+      @user.subscriptions.create( subscription_attributes )
+    elsif event_type == 'customer.subscription.updated'
+      @user.subscriptions.create( subscription_attributes )
+    elsif event_type == 'customer.subscription.deleted'
+      @user.subscriptions.find_by_stripe_subscription_id( @event.data.object.id ).destroy
+    end
+  end
+
+  private
+
+  def create
+    @user.subscriptions.create(subscription_attributes)
   end
 
   def update
-    return if @user.nil?
-    subscription = Subscription.find_by_user_id(@user.id)
-    subscription.update_attributes(subscription_attributes)
+    @user.subscriptions.create(subscription_attributes)
   end
 
   def delete
-    return if @user.nil?
     subscription = Subscription.find_by_user_id(@user.id)
     subscription.destroy
   end
 
-  private
 
   def subscription_attributes
     {
