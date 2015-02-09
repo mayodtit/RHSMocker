@@ -75,4 +75,4 @@ Developing for the API? Read on.
 
 ### Setup
 
-Getting your environment up and running is detailed [here](https://sites.google.com/a/getbetter.com/engineering/development-environment/rails).
+Getting your environment up and running is detailed on the wiki page  [Development Environment](https://github.com/RemoteHealthServices/RHSMocker/wiki/Development-Environment).
