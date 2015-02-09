@@ -6,10 +6,10 @@ class SendWelcomeEmailService
   def call
     if @user.trial?
       send_trial_welcome_email
-    elsif @user.premium?
-      send_premium_welcome_email
     elsif @user.free?
       send_free_welcome_email
+    elsif @user.premium?
+      send_premium_welcome_email
     end
   end
 
