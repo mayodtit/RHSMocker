@@ -6,11 +6,11 @@ class Api::V1::UserAllergiesController < Api::V1::ABaseController
   before_filter :load_user_allergy!, only: [:show, :destroy]
 
   def index
-    index_resource(@user.user_allergies)
+    index_resource(@user.user_allergies.serializer)
   end
 
   def show
-    show_resource(@user_allergy)
+    show_resource(@user_allergy.serializer)
   end
 
   def create
