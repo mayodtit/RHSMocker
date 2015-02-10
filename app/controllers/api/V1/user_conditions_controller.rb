@@ -14,7 +14,21 @@ class Api::V1::UserConditionsController < Api::V1::ABaseController
 
   def create
     create_resource(@user.user_conditions, params[:user_disease], name: :user_disease) and return if disease_path?
+
+    if params[:condition]
+      condition = Condition.where(:description_id => params[:condition][:description_id])
+      if condition.none?
+        condition[0] = Condition.create(params[:condition])
+      end
+    end
+
+    unless params[:user_condition]
+      params[:user_condition] = Hash.new
+      params[:user_condition][:condition_id] = condition[0][:id]
+    end
+
     params[:user_condition][:actor_id] = current_user.id
+
     create_resource(@user.user_conditions, params[:user_condition])
   end
 

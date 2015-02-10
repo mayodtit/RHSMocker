@@ -77,7 +77,9 @@ class Search::Service::Snomed
           :medication_allergen => false,
           :name => term,
           :snomed_code => match['conceptId'],
-          :snomed_name => match['fsn']
+          :snomed_name => match['fsn'],
+          :concept_id => match['conceptId'],
+          :description_id =>match['descriptionId']
         }
       end
     end
@@ -92,7 +94,9 @@ class Search::Service::Snomed
         result << {
             :name => term,
             :snomed_code => match['conceptId'],
-            :snomed_name => match['fsn']
+            :snomed_name => match['fsn'],
+            :concept_id => match['conceptId'],
+            :description_id =>match['descriptionId']
         }
       end
     end
