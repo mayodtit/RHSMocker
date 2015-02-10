@@ -11,10 +11,22 @@ module TwilioModule
       body = "#{Rails.env} - #{body}" unless Rails.env.production?
 
       client.account.messages.create(
-        from: PhoneNumberUtil::format_for_dialing(SERVICE_ALERT_PHONE_NUMBER),
+        from: alert_phone_number,
         to: PhoneNumberUtil::format_for_dialing(phone_number),
         body: body
       )
+    end
+
+    def alert_phone_number
+      if Rails.env.production? || Rails.env.qa? || Rails.env.demo?
+        format_for_dialing(Metadata.pha_phone_number || SERVICE_ALERT_PHONE_NUMBER)
+      else
+        format_for_dialing(SERVICE_ALERT_PHONE_NUMBER)
+      end
+    end
+
+    def format_for_dialing(phone_number)
+      PhoneNumberUtil::format_for_dialing(phone_number)
     end
 
     def message(phone_number, body)
