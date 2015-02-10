@@ -9,8 +9,8 @@ describe 'SmsNotifications' do
     let('phone_number') { '4155551212' }
 
     it 'queues an SMS to be sent' do
-      TwilioModule.should_receive(:message).and_call_original
-      expect{ do_request(phone_number: phone_number) }.to change(Delayed::Job, :count).by(1)
+      TwilioModule.should_receive(:message_now)
+      do_request(phone_number: phone_number)
       expect(response).to be_success
     end
   end
