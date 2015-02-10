@@ -410,6 +410,26 @@ namespace :seeds do
       m.add_role :pha_lead unless m.pha_lead?
     end
 
+    puts 'Creating super users...'
+    PHA_LEADS = %w(kyle@getbetter.com emilio@getbetter.com)
+    PHA_LEADS.each do |email|
+      m = Member.find_or_create_by_email!(
+          email: email,
+          user_agreements_attributes: user_agreements_attributes
+      )
+
+      m.update_attributes!(
+          password: 'careportal',
+          password_confirmation: 'careportal',
+          first_name: email[/[^@]+/].capitalize,
+          last_name: LAST_NAMES.sample,
+      )
+
+      m.add_role :pha unless m.pha?
+      m.add_role :pha_lead unless m.pha_lead?
+      m.add_role :admin unless m.admin?
+    end
+
     puts 'Creating appointments...'
     DAY_OFFSET = [-30.days, -20.days, -10.days, 0.days, 10.days, 20.days, 30.days]
     HOUR_OFFSET = [-2.hours, -1.hours, 0.hours, 1.hours, 2.hours]
