@@ -673,15 +673,15 @@ describe Member do
 
             it 'sends a message to each stakeholder' do
               Role.stub(:pha_stakeholders) { stakeholders }
-              TwilioModule.should_receive(:message).with(
+              TwilioClient.should_receive(:message).with(
                 nil,
                 "OK: PHAs are triaging."
               )
-              TwilioModule.should_receive(:message).with(
+              TwilioClient.should_receive(:message).with(
                 '1111111111',
                 "OK: PHAs are triaging."
               )
-              TwilioModule.should_receive(:message).with(
+              TwilioClient.should_receive(:message).with(
                 '4083913578',
                 "OK: PHAs are triaging."
               )
@@ -704,7 +704,7 @@ describe Member do
             end
 
             it 'does nothing' do
-              TwilioModule.should_not_receive :message
+              TwilioClient.should_not_receive :message
               member.alert_stakeholders_on_call_status
             end
           end
@@ -723,7 +723,7 @@ describe Member do
             end
 
             it 'does nothing' do
-              TwilioModule.should_not_receive :message
+              TwilioClient.should_not_receive :message
               member.alert_stakeholders_on_call_status
             end
           end
@@ -743,15 +743,15 @@ describe Member do
 
             it 'sends a message to each stakeholder' do
               Role.stub(:pha_stakeholders) { stakeholders }
-              TwilioModule.should_receive(:message).with(
+              TwilioClient.should_receive(:message).with(
                 nil,
                 "ALERT: No PHAs triaging!"
               )
-              TwilioModule.should_receive(:message).with(
+              TwilioClient.should_receive(:message).with(
                 '1111111111',
                 "ALERT: No PHAs triaging!"
               )
-              TwilioModule.should_receive(:message).with(
+              TwilioClient.should_receive(:message).with(
                 '4083913578',
                 "ALERT: No PHAs triaging!"
               )
@@ -766,7 +766,7 @@ describe Member do
           end
 
           it 'does nothing' do
-            TwilioModule.should_not_receive :message
+            TwilioClient.should_not_receive :message
             member.alert_stakeholders_on_call_status
           end
         end
@@ -778,7 +778,7 @@ describe Member do
         end
 
         it 'does nothing' do
-          TwilioModule.should_not_receive :message
+          TwilioClient.should_not_receive :message
           member.alert_stakeholders_on_call_status
         end
       end
@@ -790,7 +790,7 @@ describe Member do
       end
 
       it 'does nothing' do
-        TwilioModule.should_not_receive :message
+        TwilioClient.should_not_receive :message
         member.alert_stakeholders_on_call_status
       end
     end

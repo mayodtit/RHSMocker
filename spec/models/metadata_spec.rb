@@ -245,15 +245,15 @@ describe Metadata do
 
         it 'sends a message to each stakeholder' do
           Role.stub(:pha_stakeholders) { stakeholders }
-          TwilioModule.should_receive(:message).with(
+          TwilioClient.should_receive(:message).with(
             nil,
             "ALERT: PHAs are currently forced on call till 9PM PDT."
           )
-          TwilioModule.should_receive(:message).with(
+          TwilioClient.should_receive(:message).with(
             '1111111111',
             "ALERT: PHAs are currently forced on call till 9PM PDT."
           )
-          TwilioModule.should_receive(:message).with(
+          TwilioClient.should_receive(:message).with(
             '4083913578',
             "ALERT: PHAs are currently forced on call till 9PM PDT."
           )
@@ -268,15 +268,15 @@ describe Metadata do
 
         it 'sends a message to each stakeholder' do
           Role.stub(:pha_stakeholders) { stakeholders }
-          TwilioModule.should_receive(:message).with(
+          TwilioClient.should_receive(:message).with(
             nil,
             "OK: PHAs are no longer forced on call."
           )
-          TwilioModule.should_receive(:message).with(
+          TwilioClient.should_receive(:message).with(
             '1111111111',
             "OK: PHAs are no longer forced on call."
           )
-          TwilioModule.should_receive(:message).with(
+          TwilioClient.should_receive(:message).with(
             '4083913578',
             "OK: PHAs are no longer forced on call."
           )

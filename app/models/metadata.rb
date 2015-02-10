@@ -119,7 +119,7 @@ class Metadata < ActiveRecord::Base
     body = mvalue == 'true' ? "ALERT: PHAs are currently forced on call till 9PM PDT." : "OK: PHAs are no longer forced on call."
 
     Role.pha_stakeholders.each do |s|
-      TwilioModule.message s.text_phone_number, body
+      TwilioClient.message s.text_phone_number, body
     end
   end
 

@@ -137,15 +137,15 @@ describe ScheduledJobs do
 
       it 'sends a message to each stakeholder' do
         Role.stub(:pha_stakeholders) { stakeholders }
-        TwilioModule.should_receive(:message).with(
+        TwilioClient.should_receive(:message).with(
           nil,
           "ALERT: PHAs are currently forced after hours."
         )
-        TwilioModule.should_receive(:message).with(
+        TwilioClient.should_receive(:message).with(
           '1111111111',
           "ALERT: PHAs are currently forced after hours."
         )
-        TwilioModule.should_receive(:message).with(
+        TwilioClient.should_receive(:message).with(
           '4083913578',
           "ALERT: PHAs are currently forced after hours."
         )
@@ -159,7 +159,7 @@ describe ScheduledJobs do
       end
 
       it 'does nothing' do
-        TwilioModule.should_not_receive :message
+        TwilioClient.should_not_receive :message
         ScheduledJobs.alert_stakeholders_when_phas_forced_off_call
       end
     end
@@ -185,7 +185,7 @@ describe ScheduledJobs do
         end
 
         it 'does nothing' do
-          TwilioModule.should_not_receive :message
+          TwilioClient.should_not_receive :message
           ScheduledJobs.alert_stakeholders_when_no_pha_on_call
         end
       end
@@ -207,15 +207,15 @@ describe ScheduledJobs do
 
         it 'sends a message to each stakeholder' do
           Role.stub(:pha_stakeholders) { stakeholders }
-          TwilioModule.should_receive(:message).with(
+          TwilioClient.should_receive(:message).with(
             nil,
             "ALERT: No PHAs triaging!"
           )
-          TwilioModule.should_receive(:message).with(
+          TwilioClient.should_receive(:message).with(
             '1111111111',
             "ALERT: No PHAs triaging!"
           )
-          TwilioModule.should_receive(:message).with(
+          TwilioClient.should_receive(:message).with(
             '4083913578',
             "ALERT: No PHAs triaging!"
           )
@@ -230,7 +230,7 @@ describe ScheduledJobs do
       end
 
       it 'does nothing' do
-        TwilioModule.client.account.messages.should_not_receive :create
+        TwilioClient.client.account.messages.should_not_receive :create
         ScheduledJobs.alert_stakeholders_when_no_pha_on_call
       end
     end
@@ -372,7 +372,7 @@ describe ScheduledJobs do
         end
 
         it 'does nothing' do
-          TwilioModule.should_not_receive :message
+          TwilioClient.should_not_receive :message
           ScheduledJobs.alert_stakeholders_when_phas_forced_on_call
         end
       end
@@ -384,15 +384,15 @@ describe ScheduledJobs do
 
         it 'sends a message to each stakeholder' do
           Role.stub(:pha_stakeholders) { stakeholders }
-          TwilioModule.should_receive(:message).with(
+          TwilioClient.should_receive(:message).with(
             nil,
             "ALERT: PHAs are currently forced on call till 9PM PDT."
           )
-          TwilioModule.should_receive(:message).with(
+          TwilioClient.should_receive(:message).with(
             '1111111111',
             "ALERT: PHAs are currently forced on call till 9PM PDT."
           )
-          TwilioModule.should_receive(:message).with(
+          TwilioClient.should_receive(:message).with(
             '4083913578',
             "ALERT: PHAs are currently forced on call till 9PM PDT."
           )
@@ -407,7 +407,7 @@ describe ScheduledJobs do
       end
 
       it 'does nothing' do
-        TwilioModule.should_not_receive :message
+        TwilioClient.should_not_receive :message
         ScheduledJobs.alert_stakeholders_when_phas_forced_on_call
       end
     end

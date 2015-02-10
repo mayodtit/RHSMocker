@@ -289,7 +289,7 @@ class Member < User
 
       if body
         Role.pha_stakeholders.each do |s|
-          TwilioModule.message s.work_phone_number, body
+          TwilioClient.message s.work_phone_number, body
         end
       end
     end
