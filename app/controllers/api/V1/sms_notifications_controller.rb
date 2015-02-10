@@ -2,7 +2,7 @@ class Api::V1::SmsNotificationsController < Api::V1::ABaseController
   skip_before_filter :authentication_check
 
   def download
-    TwilioModule.message(params[:phone_number], download_text)
+    TwilioModule.message_now(params[:phone_number], download_text)
     head :ok
   end
 
