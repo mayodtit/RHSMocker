@@ -17,7 +17,7 @@ describe 'SyncStripeSubscriptionService' do
     StripeMock.stop
   end
 
-  context 'when subscription created event' do
+  context 'when received subscription created event' do
     def do_method
       event = StripeMock.mock_webhook_event('customer.subscription.created', {customer: user.stripe_customer_id})
       event.data.object['tax_percent'] = nil
@@ -28,11 +28,14 @@ describe 'SyncStripeSubscriptionService' do
 
     it 'should create the subscription on local' do
       expect{ do_method }.to change{ user.subscriptions.count }.from(0).to(1)
+    end
+
+    it 'should set the new subscription as current subscription' do
       expect{ do_method }.to change{ user.subscriptions.last.is_current }.from( false ).to( true )
     end
   end
 
-  context 'when subscription updated event' do
+  context 'when received subscription updated event' do
     let(:subscription) {create(:subscription, user_id: user.id, customer: user.stripe_customer_id)}
 
     def do_method
@@ -43,13 +46,28 @@ describe 'SyncStripeSubscriptionService' do
       SyncStripeSubscriptionService.new(event).call
     end
 
-    it 'should create the subscription on local' do
-      expect{ do_method }.to change{ user.subscriptions.count }.from(0).to(1)
-      expect{ do_method }.to change{ user.subscriptions.last.is_current }.from( false ).to( true )
+    context 'upgrade the subscription' do
+      it 'should create the subscription on local' do
+        expect{ do_method }.to change{ user.subscriptions.count }.from(0).to(1)
+      end
+
+      it 'should the set the new subscription as current subscription' do
+        expect{ do_method }.to change{ user.subscriptions.last.is_current }.from( false ).to( true )
+      end
+    end
+
+    context 'downgrade the subscription' do
+      it 'should create the subscription on local' do
+        expect{ do_method }.to change{ user.subscriptions.count }.from(0).to(1)
+      end
+
+      it 'should set the new subscription to current at the end of the current subscription period' do
+        expect{ do_method }.to change{ Delayed::Job.count }.by(1)
+      end
     end
   end
 
-  context '#delete' do
+  context 'when received subscription deleted event' do
     let(:subscription) {create(:subscription, user_id: user.id, customer: user.stripe_customer_id)}
 
     def do_method
@@ -57,7 +75,7 @@ describe 'SyncStripeSubscriptionService' do
       SyncStripeSubscriptionService.new(event).call
     end
 
-    it 'should create the subscription on local' do
+    it 'should set current subscription on local to false' do
       expect{ do_method }.to change{ user.subscriptions.last.is_current }.from( true ).to( false )
     end
   end

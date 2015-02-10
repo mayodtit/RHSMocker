@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150209234308) do
+ActiveRecord::Schema.define(:version => 20150210225523) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -855,7 +855,7 @@ ActiveRecord::Schema.define(:version => 20150209234308) do
     t.datetime "canceled_at"
     t.string   "stripe_subscription_id",                                                    :null => false
     t.text     "plan",                                                                      :null => false
-    t.boolean  "is_current"
+    t.boolean  "is_current",                                             :default => false, :null => false
   end
 
   create_table "symptom_medical_advice_items", :force => true do |t|
