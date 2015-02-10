@@ -1,5 +1,4 @@
 class Subscription < ActiveRecord::Base
-  include SoftDeleteModule
 
   belongs_to :user, class_name: 'Member'
 
@@ -19,8 +18,8 @@ class Subscription < ActiveRecord::Base
   validates :quantity, presence: true
   validates :stripe_subscription_id, presence: true, uniqueness: true
 
-  attr_accessible :user, :user_id, :start, :status, :customer, :cancel_at_period_end, :current_period_end,
-                  :current_period_start, :ended_at, :trial_start, :trial_end, :quantity, :disabled_at, :plan, :metadata,
-                  :application_fee_percent, :tax_percent, :discount, :stripe_subscription_id
+  attr_accessible :user, :user_id, :start, :status, :customer, :cancel_at_period_end, :current_period_end, :discount,
+                  :current_period_start, :ended_at, :trial_start, :trial_end, :quantity, :plan, :metadata, :tax_percent,
+                  :application_fee_percent, :stripe_subscription_id, :is_current
 
 end

@@ -2,7 +2,7 @@ require 'spec_helper'
 require 'stripe_mock'
 
 describe 'SyncStripeSubscriptionService' do
-  let!(:user) { create(:member, :premium) }
+  let(:user) { create(:member, :premium) }
 
   before do
     StripeMock.start
@@ -17,46 +17,48 @@ describe 'SyncStripeSubscriptionService' do
     StripeMock.stop
   end
 
-  describe '#create' do
+  context 'when subscription created event' do
     def do_method
       event = StripeMock.mock_webhook_event('customer.subscription.created', {customer: user.stripe_customer_id})
       event.data.object['tax_percent'] = nil
       event.data.object['discount'] = nil
       event.data.object['metadata'] = {}
-      SyncStripeSubscriptionService.new(event).create
+      SyncStripeSubscriptionService.new(event).call
     end
 
     it 'should create the subscription on local' do
-      expect{ do_method }.to change{ Subscription.all.count }.from(0).to(1)
+      expect{ do_method }.to change{ user.subscriptions.count }.from(0).to(1)
+      expect{ do_method }.to change{ user.subscriptions.last.is_current }.from( false ).to( true )
     end
   end
 
-  describe '#update' do
-    let!(:subscription) {create(:subscription, user_id: user.id, customer: user.stripe_customer_id)}
-    let!(:event) {StripeMock.mock_webhook_event('customer.subscription.updated', {customer: user.stripe_customer_id})}
+  context 'when subscription updated event' do
+    let(:subscription) {create(:subscription, user_id: user.id, customer: user.stripe_customer_id)}
 
     def do_method
+      event = StripeMock.mock_webhook_event('customer.subscription.updated', {customer: user.stripe_customer_id})
       event.data.object['tax_percent'] = nil
       event.data.object['discount'] = nil
       event.data.object['metadata'] = {}
-      SyncStripeSubscriptionService.new(event).update
+      SyncStripeSubscriptionService.new(event).call
     end
 
     it 'should create the subscription on local' do
-      expect{ do_method }.to change{ subscription.reload.plan_id }.from('bp').to( event.data.object.plan.id)
+      expect{ do_method }.to change{ user.subscriptions.count }.from(0).to(1)
+      expect{ do_method }.to change{ user.subscriptions.last.is_current }.from( false ).to( true )
     end
   end
 
-  describe '#delete' do
-    let!(:subscription) {create(:subscription, user_id: user.id, customer: user.stripe_customer_id)}
+  context '#delete' do
+    let(:subscription) {create(:subscription, user_id: user.id, customer: user.stripe_customer_id)}
 
     def do_method
       event = StripeMock.mock_webhook_event('customer.subscription.deleted', {customer: user.stripe_customer_id})
-      SyncStripeSubscriptionService.new(event).delete
+      SyncStripeSubscriptionService.new(event).call
     end
 
     it 'should create the subscription on local' do
-      expect{ do_method }.to change{ Subscription.all.count }.from(1).to(0)
+      expect{ do_method }.to change{ user.subscriptions.last.is_current }.from( true ).to( false )
     end
   end
 end

@@ -7,30 +7,28 @@ class SyncStripeSubscriptionService
   def call
     return if @user.nil?
     event_type = @event.type
-    if event_type == 'customer.subscription.created'
-      @user.subscriptions.create( subscription_attributes )
-    elsif event_type == 'customer.subscription.updated'
-      @user.subscriptions.create( subscription_attributes )
+    if ( event_type == 'customer.subscription.created' ) || ( event_type == 'customer.subscription.updated' )
+      create_subscription
     elsif event_type == 'customer.subscription.deleted'
-      @user.subscriptions.find_by_stripe_subscription_id( @event.data.object.id ).destroy
+      delete_subscription
     end
   end
 
   private
 
-  def create
-    @user.subscriptions.create(subscription_attributes)
+  def create_subscription
+    @user.subscriptions.create( subscription_attributes )
+    subscription = @user.subscriptions.last
+    if @event.object.plan.amount > @event.previous_attributes.plan.amount
+      subscription.update_attributes(:is_current => true)
+    else
+      subscription.delay.update_attributes(:is_current => true)
+    end
   end
 
-  def update
-    @user.subscriptions.create(subscription_attributes)
+  def delete_subscription
+    @user.subscriptions.last.update_attributes(:is_current => nil)
   end
-
-  def delete
-    subscription = Subscription.find_by_user_id(@user.id)
-    subscription.destroy
-  end
-
 
   def subscription_attributes
     {

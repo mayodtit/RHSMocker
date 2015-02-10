@@ -56,6 +56,6 @@ class UpdateStripeSubscriptionService
     @subscription.save
     @run_at = @subscription.current_period_end
   end
-
+#this could be done immediately without waiting till the end of period, subject to change
   handle_asynchronously :downgrade_subscription, :run_at => Proc.new { @run_at }
 end
