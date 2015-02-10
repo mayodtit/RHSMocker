@@ -6,7 +6,7 @@ module TwilioModule
       @client
     end
 
-    def message(phone_number, body)
+    def message_now(phone_number, body)
       return unless phone_number
       body = "#{Rails.env} - #{body}" unless Rails.env.production?
 
@@ -15,6 +15,10 @@ module TwilioModule
         to: PhoneNumberUtil::format_for_dialing(phone_number),
         body: body
       )
+    end
+
+    def message(phone_number, body)
+      message_now(phone_number, body)
     end
     handle_asynchronously :message
   end
