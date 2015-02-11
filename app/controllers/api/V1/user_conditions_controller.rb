@@ -13,8 +13,10 @@ class Api::V1::UserConditionsController < Api::V1::ABaseController
   end
 
   def create
+    #deprecated
     create_resource(@user.user_conditions, params[:user_disease], name: :user_disease) and return if disease_path?
 
+    #new api requires condition
     if params[:condition]
       condition = Condition.where(:description_id => params[:condition][:description_id])
       if condition.none?
@@ -27,6 +29,7 @@ class Api::V1::UserConditionsController < Api::V1::ABaseController
       params[:user_condition][:condition_id] = condition[0][:id]
     end
 
+    #common for deprecated and new api
     params[:user_condition][:actor_id] = current_user.id
 
     create_resource(@user.user_conditions, params[:user_condition])
