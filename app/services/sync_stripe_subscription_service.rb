@@ -7,8 +7,10 @@ class SyncStripeSubscriptionService
   def call
     return if @user.nil?
     event_type = @event.type
-    if ( event_type == 'customer.subscription.created' ) || ( event_type == 'customer.subscription.updated' )
+    if event_type == 'customer.subscription.created'
       create_subscription
+    elsif event_type == 'customer.subscription.updated'
+      update_subscription
     elsif event_type == 'customer.subscription.deleted'
       delete_subscription
     end
@@ -17,17 +19,25 @@ class SyncStripeSubscriptionService
   private
 
   def create_subscription
+    subscription = @user.subscriptions.create( subscription_attributes )
+    subscription.update_attributes(:is_current => true)
+  end
+
+  def update_subscription
+    current_subscription = @user.subscriptions.last
     @user.subscriptions.create( subscription_attributes )
-    subscription = @user.subscriptions.last
-    if @event.object.plan.amount > @event.previous_attributes.plan.amount
-      subscription.update_attributes(:is_current => true)
+    new_subscription = @user.subscriptions.last
+    if new_subscription.plan[:amount] > current_subscription.plan[:amount]
+      current_subscription.update_attributes(:is_current => false)
+      new_subscription.update_attributes(:is_current => true)
     else
-      subscription.delay.update_attributes(:is_current => true)
+      current_subscription.delay.update_attributes(:is_current => true)
+      new_subscription.delay.update_attributes(:is_current => true)
     end
   end
 
   def delete_subscription
-    @user.subscriptions.last.update_attributes(:is_current => nil)
+    @user.subscriptions.last.update_attributes(:is_current => false)
   end
 
   def subscription_attributes
@@ -47,7 +57,7 @@ class SyncStripeSubscriptionService
      discount: @event.data.object.discount,
      metadata: @event.data.object.metadata,
      user_id: @user.id,
-     plan: @event.data.object.plan,
+     plan: @event.data.object.plan.to_hash,
      stripe_subscription_id: @event.data.object.id
     }
   end

@@ -30,45 +30,62 @@ describe 'SyncStripeSubscriptionService' do
       expect{ do_method }.to change{ user.subscriptions.count }.from(0).to(1)
     end
 
-    it 'should set the new subscription as current subscription' do
-      expect{ do_method }.to change{ user.subscriptions.last.is_current }.from( false ).to( true )
+    it 'should mark the new subscription as current subscription' do
+      do_method
+      expect( user.reload.subscriptions.last.is_current ).to eq(true)
     end
   end
 
   context 'when received subscription updated event' do
-    let(:subscription) {create(:subscription, user_id: user.id, customer: user.stripe_customer_id)}
-
-    def do_method
-      event = StripeMock.mock_webhook_event('customer.subscription.updated', {customer: user.stripe_customer_id})
-      event.data.object['tax_percent'] = nil
-      event.data.object['discount'] = nil
-      event.data.object['metadata'] = {}
-      SyncStripeSubscriptionService.new(event).call
-    end
+    let!(:subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
 
     context 'upgrade the subscription' do
-      it 'should create the subscription on local' do
-        expect{ do_method }.to change{ user.subscriptions.count }.from(0).to(1)
+      def do_method
+        event = StripeMock.mock_webhook_event('customer.subscription.updated', {customer: user.stripe_customer_id})
+        event.data.object['tax_percent'] = nil
+        event.data.object['discount'] = nil
+        event.data.object['metadata'] = {}
+        event.data.object.plan.amount = 5000
+        SyncStripeSubscriptionService.new(event).call
       end
 
-      it 'should the set the new subscription as current subscription' do
-        expect{ do_method }.to change{ user.subscriptions.last.is_current }.from( false ).to( true )
+      it 'should create the subscription on local' do
+        expect( user.subscriptions.count ).to eq(1)
+        do_method
+        expect( user.subscriptions.count ).to eq(2)
+      end
+
+      it 'should the mark the new subscription as current subscription and unmark the previous subscription as current' do
+        do_method
+        expect( user.reload.subscriptions.last.is_current ).to eq(true)
+        expect( user.reload.subscriptions[-2].is_current ).to eq(false)
       end
     end
 
     context 'downgrade the subscription' do
-      it 'should create the subscription on local' do
-        expect{ do_method }.to change{ user.subscriptions.count }.from(0).to(1)
+      def do_method
+        event = StripeMock.mock_webhook_event('customer.subscription.updated', {customer: user.stripe_customer_id})
+        event.data.object['tax_percent'] = nil
+        event.data.object['discount'] = nil
+        event.data.object['metadata'] = {}
+        event.data.object.plan.amount = 5
+        SyncStripeSubscriptionService.new(event).call
       end
 
-      it 'should set the new subscription to current at the end of the current subscription period' do
-        expect{ do_method }.to change{ Delayed::Job.count }.by(1)
+      it 'should create the subscription on local' do
+        expect( user.subscriptions.count ).to eq(1)
+        do_method
+        expect( user.subscriptions.count ).to eq(2)
+      end
+
+      it 'should mark the new subscription as current at the end of the current subscription period and unmark the previous subscription' do
+        expect{ do_method }.to change{ Delayed::Job.count }.by(2)
       end
     end
   end
 
   context 'when received subscription deleted event' do
-    let(:subscription) {create(:subscription, user_id: user.id, customer: user.stripe_customer_id)}
+    let!(:subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
 
     def do_method
       event = StripeMock.mock_webhook_event('customer.subscription.deleted', {customer: user.stripe_customer_id})
@@ -76,7 +93,7 @@ describe 'SyncStripeSubscriptionService' do
     end
 
     it 'should set current subscription on local to false' do
-      expect{ do_method }.to change{ user.subscriptions.last.is_current }.from( true ).to( false )
+      expect{ do_method }.to change{ user.reload.subscriptions.last.is_current }.from( true ).to( false )
     end
   end
 end

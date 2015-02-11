@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150210225523) do
+ActiveRecord::Schema.define(:version => 20150211191603) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -837,12 +837,9 @@ ActiveRecord::Schema.define(:version => 20150210225523) do
   create_table "subscriptions", :force => true do |t|
     t.datetime "created_at",                                                                :null => false
     t.datetime "updated_at",                                                                :null => false
-    t.datetime "start",                                                                     :null => false
     t.string   "status",                                                                    :null => false
     t.string   "customer",                                                                  :null => false
     t.boolean  "cancel_at_period_end",                                   :default => false, :null => false
-    t.datetime "current_period_start",                                                      :null => false
-    t.datetime "current_period_end",                                                        :null => false
     t.datetime "ended_at"
     t.datetime "trial_start"
     t.datetime "trial_end"
@@ -856,6 +853,9 @@ ActiveRecord::Schema.define(:version => 20150210225523) do
     t.string   "stripe_subscription_id",                                                    :null => false
     t.text     "plan",                                                                      :null => false
     t.boolean  "is_current",                                             :default => false, :null => false
+    t.integer  "start",                                                                     :null => false
+    t.integer  "current_period_start",                                                      :null => false
+    t.integer  "current_period_end",                                                        :null => false
   end
 
   create_table "symptom_medical_advice_items", :force => true do |t|
