@@ -42,7 +42,18 @@ class UpdateStripeSubscriptionService
     end
   end
 
+  def subscription_attributes
+    {   status: 'active',
+        customer: @customer,
+        cancel_at_period_end: false,
+        quantity: 1,
+        user_id: @user.id,
+        plan: Stripe::Plan.retrieve(sa[:plan]).to_hash
+    }
+  end
+
   def upgrade_subscription
+    @user.subscriptions.create(subscription_attributes)
     load_subscription!
     @subscription.plan = @plan_id
     @subscription.prorate = true
@@ -50,12 +61,11 @@ class UpdateStripeSubscriptionService
   end
 
   def downgrade_subscription
+    @user.subscriptions.delay.create(subscription_attributes)
     load_subscription!
     @subscription.plan = @plan_id
     @subscription.prorate = false
     @subscription.save
     @run_at = @subscription.current_period_end
   end
-#this could be done immediately without waiting till the end of period, subject to change
-  handle_asynchronously :downgrade_subscription, :run_at => Proc.new { @run_at }
 end

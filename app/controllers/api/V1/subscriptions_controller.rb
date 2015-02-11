@@ -13,6 +13,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
       ActiveRecord::Base.transaction do
         sa = subscription_attributes
         raise "can't have more than one subscription" if (@customer.subscriptions.count > 0)
+        @user.subscriptions.create(local_attributes)
         @customer.subscriptions.create(sa)
         if @user.update_attributes(user_attributes)
           render_success({user: @user.serializer,
@@ -26,10 +27,10 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
       render_failure({reason: "Error occurred during adding subscription"}, 422)
     end
   end
-
+#destroy is done!
   def destroy
-    if DestroyStripeSubscriptionService.new(@user, :downgrade).call
-      subscription = Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first
+    if @user.subscriptions.last.update_attributes(:is_current => false)
+      DestroyStripeSubscriptionService.new(@user, :downgrade).call
       render_success
     else
       render_failure({reason: 'Error occurred during subscription cancellation'}, 422)
@@ -46,6 +47,30 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   end
 
   private
+
+  # validates :user, presence: true
+  # validates :user_id, uniqueness: true
+  # validates :plan,  presence: true
+  # validates :start, presence: true
+  # validates :status, presence: true
+  # validates :customer, presence: true
+  # validates :cancel_at_period_end, :inclusion => {:in => [true, false]}
+  # validates :is_current, :inclusion => {:in => [true, false]}
+  # validates :current_period_start, presence: true
+  # validates :current_period_end, presence: true
+  # validates :quantity, presence: true
+  # validates :stripe_subscription_id, presence: true
+
+  def local_attributes
+    {   status: 'active',
+        customer: @customer,
+        cancel_at_period_end: false,
+        quantity: 1,
+        user_id: @user.id,
+        plan: Stripe::Plan.retrieve(sa[:plan]).to_hash,
+        is_current: true,
+    }
+  end
 
   def render_failure_if_not_self
     render_failure if (current_user.id != params[:user_id].to_i)

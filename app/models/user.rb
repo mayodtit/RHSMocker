@@ -236,12 +236,14 @@ class User < ActiveRecord::Base
   end
 
   def render_subscription
-    return [] if stripe_customer_id.nil?
-
-    customer = Stripe::Customer.retrieve(stripe_customer_id)
-    array = []
-    customer.subscriptions.each do |subscription|
-      array << StripeExtension.subscription_serializer(subscription)
+    current_subscription = self.subscriptions.find(is_current: true)
+    latest_subscription = self.subscriptions.last
+    if current_subscription.nil?
+      return []
+    else
+      array =  StripeExtension.subscription_serializer(current_subscription)
+      future_subscription = latest_subscription if (latest_subscription.is_current == false)
+      array << StripeExtension.subscription_serializer(furture_subscription) unless future_subscription.nil?
     end
     array
   end

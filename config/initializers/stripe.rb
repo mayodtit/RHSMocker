@@ -35,4 +35,6 @@ StripeEvent.configure do |events|
     DowngradeMemberToFree.new(event).call
     SyncStripeSubscriptionService.new(event).call
   end
+
+  events.subscribe 'customer.subscripton.'
 end
