@@ -47,7 +47,7 @@ class SyncStripeSubscriptionService
      discount: @event.data.object.discount,
      metadata: @event.data.object.metadata,
      user_id: @user.id,
-     plan_id: @event.data.object.plan.id,
+     plan: @event.data.object.plan,
      stripe_subscription_id: @event.data.object.id
     }
   end

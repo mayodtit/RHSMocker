@@ -13,7 +13,7 @@ class Subscription < ActiveRecord::Base
   validates :status, presence: true
   validates :customer, presence: true, uniqueness: true
   validates :cancel_at_period_end, :inclusion => {:in => [true, false]}
-  validates :is_current, :inlcusion => {:in => [true, false]}
+  validates :is_current, :inclusion => {:in => [true, false]}
   validates :current_period_start, presence: true
   validates :current_period_end, presence: true
   validates :quantity, presence: true
