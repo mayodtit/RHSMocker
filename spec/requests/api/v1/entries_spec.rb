@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'MemberEntries' do
+describe 'Entries' do
   before do
     Timecop.freeze(Date.today.to_time)
   end
@@ -21,7 +21,7 @@ describe 'MemberEntries' do
         get "/api/v1/members/#{member.id}/entries", auth_token: session.auth_token
       end
 
-      it 'indexes member\'s entries' do
+      it "indexes member's entries" do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)

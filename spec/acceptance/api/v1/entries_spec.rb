@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'rspec_api_documentation/dsl'
 
-resource "MemberEntries" do
+resource "Entries" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 

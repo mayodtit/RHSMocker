@@ -14,7 +14,7 @@ class TimelineObserver < ActiveRecord::Observer
   end
 
   def after_save(observed)
-    return if observed.class.name != "PhoneCall"
+    return unless observed.is_a? PhoneCall
 
     if observed.user && observed.creator && !Entry.exists?(resource_id: observed.id)
       observed.user.entries.create(resource: observed, actor: observed.user, data: observed.entry_serializer.as_json)

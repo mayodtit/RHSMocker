@@ -1,4 +1,4 @@
-class Api::V1::MemberEntriesController < Api::V1::ABaseController
+class Api::V1::EntriesController < Api::V1::ABaseController
   before_filter :load_member!
 
   def index
