@@ -31,7 +31,6 @@ class Api::V1::UserConditionsController < Api::V1::ABaseController
 
     #common for deprecated and new api
     params[:user_condition][:actor_id] = current_user.id
-
     create_resource(@user.user_conditions, params[:user_condition])
   end
 

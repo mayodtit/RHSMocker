@@ -7,12 +7,12 @@ class Search::Service::Snomed
   def query(params)
     @skip_counter = 0
     if params[:controller] == 'api/v1/allergies'
-      allergy_flag  = true
+      is_allergy  = true
     end
-    query_params = select_query(allergy_flag, params)
+    query_params = select_query(is_allergy, params)
     response = self.class.get('/descriptions', :query => query_params)
     raise StandardError, 'Non-success response from SNOMED database' unless response.success?
-    sanitize_response(allergy_flag, response.parsed_response)
+    sanitize_response(is_allergy, response.parsed_response)
   end
 
   private
@@ -42,8 +42,8 @@ class Search::Service::Snomed
     puts concept_set.size
   end
 
-  def select_query(allergy_flag, params)
-    if allergy_flag
+  def select_query(is_allergy, params)
+    if is_allergy
       allergy_query(params)
     else
       condition_query(params)
@@ -51,15 +51,15 @@ class Search::Service::Snomed
   end
 
   def allergy_query(params)
-    "query=#{params[:q]}%20allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{@skip_counter}&returnLimit=100&semanticFilter=disorder&normalize=true"
+    "query=#{params[:q].gsub(' ', '%20')}%20allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{@skip_counter}&returnLimit=100&semanticFilter=disorder&normalize=true"
   end
 
   def condition_query(params)
-    "query=#{params[:q]}&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{@skip_counter}&returnLimit=100&normalize=true"
+    "query=#{params[:q].gsub(' ', '%20')}&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{@skip_counter}&returnLimit=100&normalize=true"
   end
 
-  def sanitize_response(allergy_flag, response)
-    if allergy_flag
+  def sanitize_response(is_allergy, response)
+    if is_allergy
       sanitize_allergy(response)
     else
       sanitize_condition(response)
