@@ -71,16 +71,11 @@ class Search::Service::Snomed
     response['matches'].each do |match|
       term = match['term']
       unless allergy_filter(term)
-        result << {
-          :environmental_allergen => false,
-          :food_allergen => false,
-          :medication_allergen => false,
-          :name => term,
-          :snomed_code => match['conceptId'],
-          :snomed_name => match['fsn'],
-          :concept_id => match['conceptId'],
-          :description_id =>match['descriptionId']
-        }
+        current_result = {
+            :environmental_allergen => false,
+            :food_allergen => false,
+            :medication_allergen => false}
+        result << set_result(current_result, match)
       end
     end
     result
@@ -89,18 +84,21 @@ class Search::Service::Snomed
   def sanitize_condition(response)
     result = []
     response['matches'].each do |match|
-      term = match['term']
-      unless condition_filter(term)
-        result << {
-            :name => term,
-            :snomed_code => match['conceptId'],
-            :snomed_name => match['fsn'],
-            :concept_id => match['conceptId'],
-            :description_id =>match['descriptionId']
-        }
+      unless condition_filter(match['term'])
+        current_result = Hash.new
+        result << set_result(current_result, match)
       end
     end
     result
+  end
+
+  def set_result(current_result, match)
+    current_result[:name] = match['term']
+    current_result[:snomed_code] = match['conceptId']
+    current_result[:snomed_name] = match['fsn']
+    current_result[:concept_id] = match['conceptId']
+    current_result[:description_id] = match['descriptionId']
+    current_result
   end
 
   def condition_filter(term)

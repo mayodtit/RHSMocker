@@ -46,4 +46,29 @@ describe Search::Service::Snomed do
       query.should == 'query=filler%20text&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=&returnLimit=100&normalize=true'
     end
   end
+
+  describe '#sanitize_response' do
+    before do
+      @response = {
+          'matches' => [{
+          'term'=> 'Brain tumor',
+          'conceptId'=> '254935002',
+          'descriptionId' => '379840013',
+          'fsn' => 'Intracranial tumor (disorder)', }]
+      }
+    end
+    context 'allergy response' do
+      it 'should select sanitize_allergy method' do
+        result = snomed.send(:sanitize_response, true, @response)
+        result[0][:food_allergen].should == false
+      end
+    end
+    context 'condition response' do
+      it 'should select sanitize_condition method' do
+        result = snomed.send(:sanitize_response, false, @response)
+        result[0][:food_allergen].should == nil
+      end
+    end
+  end
+
 end
