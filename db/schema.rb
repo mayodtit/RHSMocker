@@ -11,11 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(:version => 20150212015132) do
-=======
 ActiveRecord::Schema.define(:version => 20150212002325) do
->>>>>>> feature/serviceTypeDescriptions
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
