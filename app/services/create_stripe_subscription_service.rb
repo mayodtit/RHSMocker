@@ -53,7 +53,20 @@ class CreateStripeSubscriptionService
   end
 
   def create_stripe_subscription!
-    @customer.subscriptions.create({ plan: @plan_id,
-                                     trial_end: @trial_end.try(:to_i)})
+    if @user.subscriptions.create(local_attributes)
+       @customer.subscriptions.create({ plan: @plan_id,
+                                        trial_end: @trial_end.try(:to_i)})
+    end
+  end
+
+  def local_attributes
+    {   status: 'active',
+        customer: @customer,
+        cancel_at_period_end: false,
+        quantity: 1,
+        user_id: @user.id,
+        plan: Stripe::Plan.retrieve(@plan_id).to_hash,
+        is_current: true,
+    }
   end
 end

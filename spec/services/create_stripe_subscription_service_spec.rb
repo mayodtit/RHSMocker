@@ -24,12 +24,13 @@ describe CreateStripeSubscriptionService do
   describe '#create' do
     context 'with a credit card token' do
       context 'without a strip account' do
-        it 'creates a stripe customer with credit card' do
+        it 'creates a stripe customer on local and stripe if user enter with credit card' do
           Stripe::Customer.should_receive(:create).with(card: credit_card_token,
                                                         email: user.email,
                                                         description: StripeExtension.customer_description(user.id))
                                                   .and_call_original
           described_class.new(user: user, plan_id: plan_id, credit_card_token: credit_card_token).call
+          expect(user.subscriptions.count).to eq(1)
           expect(Stripe::Customer.retrieve(user.stripe_customer_id).cards.count).to eq(1)
         end
 

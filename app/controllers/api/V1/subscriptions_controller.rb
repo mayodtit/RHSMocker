@@ -29,7 +29,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   end
 
   def destroy
-    if @user.subscriptions.last.update_attributes(:is_current => false) &&  DestroyStripeSubscriptionService.new(@user, :downgrade).call
+    if DestroyStripeSubscriptionService.new(@user, :downgrade).call
         render_success
     else
       render_failure({reason: 'Error occurred during subscription cancellation'}, 422)
@@ -53,7 +53,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
         cancel_at_period_end: false,
         quantity: 1,
         user_id: @user.id,
-        plan: Stripe::Plan.retrieve(sa[:plan]).to_hash,
+        plan: Stripe::Plan.retrieve(subscription_attributes[:plan]).to_hash,
         is_current: true,
     }
   end

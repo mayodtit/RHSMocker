@@ -7,7 +7,6 @@ class Subscription < ActiveRecord::Base
   serialize :plan, Hash
 
   validates :user, presence: true
-  validates :user_id, uniqueness: true
   validates :plan,  presence: true
   validates :status, presence: true
   validates :customer, presence: true

@@ -19,31 +19,22 @@ class SyncStripeSubscriptionService
   private
 
   def create_subscription
-    @user.subscriptions.find(is_current:true).update_attributes(subscription_attributes)
+    @user.subscriptions.find_by_is_current(true).update_attributes(subscription_attributes)
   end
 
   def update_subscription
-    # current_subscription = @user.subscriptions.last
-    # @user.subscriptions.create( subscription_attributes )
-    # new_subscription = @user.subscriptions.last
-    # if new_subscription.plan[:amount] > current_subscription.plan[:amount]
-    #   current_subscription.update_attributes(:is_current => false)
-    #   new_subscription.update_attributes(:is_current => true)
-    # else
-    #   current_subscription.delay.update_attributes(:is_current => true)
-    #   new_subscription.delay.update_attributes(:is_current => true)
-    # end
-    latest_subscription = user.subscriptions.last
-    #the upgrade senario
-    if latest_subscription.is_current
-      latest_subscription.update_attributes(subscription_attributes)
-    else #the downgrade senario
-      
+    latest_subscription = @user.subscriptions.last
+    latest_subscription.update_attributes(subscription_attributes)
+    #the downgrade senario, need to update the is_current param at end of period
+    unless latest_subscription.is_current
+      period_end = Time.at(@event.data.object.current_period_end).utc.to_datetime
+      @user.subscriptions.find_by_is_current(true).delay(run_at: period_end).update_attributes(:is_current => false)
+      latest_subscription.delay(run_at: period_end).update_attributes(:is_current => true)
     end
   end
 
   def delete_subscription
-    @user.subscriptions.last.update_attributes(subscription_attributes)
+    @user.subscriptions.last.update_attributes(subscription_attributes.tap{|attribute|attribute.merge!(:is_current => false)})
   end
 
   def subscription_attributes
@@ -56,7 +47,7 @@ class SyncStripeSubscriptionService
      current_period_end: @event.data.object.current_period_end,
      ended_at: @event.data.object.ended_at,
      trial_start: @event.data.object.trial_start,
-     trial_end: @event.data.object.trial_end,
+     trial_end: @event.data.object.trial_end         ,
      quantity: @event.data.object.quantity,
      application_fee_percent: @event.data.object.application_fee_percent,
      tax_percent: @event.data.object.tax_percent,

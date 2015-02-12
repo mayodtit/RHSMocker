@@ -63,7 +63,7 @@ class UpdateStripeSubscriptionService
   end
 
   def downgrade_subscription
-    @user.subscriptions.create(local_attributes.tap{|attribute|attribute[is_current] = false})
+    @user.subscriptions.create(local_attributes.tap{|attribute|attribute[is_current] = false} )
     load_subscription!
     @subscription.plan = @plan_id
     @subscription.prorate = false

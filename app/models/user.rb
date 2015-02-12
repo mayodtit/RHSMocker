@@ -236,14 +236,13 @@ class User < ActiveRecord::Base
   end
 
   def render_subscription
-    current_subscription = self.subscriptions.find(is_current: true)
+    current_subscription = self.subscriptions.find_by_is_current(true)
     latest_subscription = self.subscriptions.last
     if current_subscription.nil?
       return []
     else
-      array =  StripeExtension.subscription_serializer(current_subscription)
-      future_subscription = latest_subscription if (latest_subscription.is_current == false)
-      array << StripeExtension.subscription_serializer(furture_subscription) unless future_subscription.nil?
+      array =  [StripeExtension.subscription_serializer(current_subscription)]
+      array << StripeExtension.subscription_serializer(latest_subscription) if (latest_subscription.is_current == false)
     end
     array
   end

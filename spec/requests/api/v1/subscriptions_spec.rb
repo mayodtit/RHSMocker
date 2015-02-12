@@ -62,16 +62,14 @@ describe 'Subscriptions' do
 
     it 'should stop the current subscription of the user' do
       do_request
-      expect(response).to be_success
+      response.should be_success
       @customer = Stripe::Customer.retrieve(user.stripe_customer_id)
       expect(@customer.subscriptions.data.first.cancel_at_period_end).to eq(true)
     end
   end
 
   describe 'Get /api/v1/users/:user_id/subscriptions' do
-    before do
-      @customer.subscriptions.create(:plan => @single_plan.id)
-    end
+    let!(:subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
 
     def do_request(params = {})
       get "api/v1/users/#{user.id}/subscriptions", params.merge!(auth_token: session.auth_token)
@@ -97,9 +95,17 @@ describe 'Subscriptions' do
       body = JSON.parse(response.body, symbolize_names: true)
       expect( body[:subscription][:plan][:id] ).to eq( 'bp20' )
     end
+
+    it 'should also create the subscription on local' do
+      expect(user.reload.subscriptions.count).to eq(0)
+      do_request
+      expect(user.reload.subscriptions.count).to eq(1)
+    end
   end
 
   describe 'PUT /api/v1/users/:user_id/subscriptions' do
+    let!(:subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
+
     before do
       @customer.subscriptions.create(:plan => @single_plan.id)
     end

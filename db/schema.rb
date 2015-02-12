@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150211191603) do
+ActiveRecord::Schema.define(:version => 20150212184848) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -850,12 +850,12 @@ ActiveRecord::Schema.define(:version => 20150211191603) do
     t.text     "metadata"
     t.integer  "user_id",                                                                   :null => false
     t.datetime "canceled_at"
-    t.string   "stripe_subscription_id",                                                    :null => false
     t.text     "plan",                                                                      :null => false
     t.boolean  "is_current",                                             :default => false, :null => false
-    t.integer  "start",                                                                     :null => false
-    t.integer  "current_period_start",                                                      :null => false
-    t.integer  "current_period_end",                                                        :null => false
+    t.string   "stripe_subscription_id"
+    t.integer  "current_period_start"
+    t.integer  "current_period_end"
+    t.integer  "start"
   end
 
   create_table "symptom_medical_advice_items", :force => true do |t|

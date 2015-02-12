@@ -18,30 +18,30 @@ describe 'SyncStripeSubscriptionService' do
   end
 
   context 'when received subscription created event' do
+    let!(:subscription){create(:subscription, :bp20, is_current: true, user_id: user.id)}
+    let(:event) {StripeMock.mock_webhook_event('customer.subscription.created', {customer: user.stripe_customer_id})}
+
     def do_method
-      event = StripeMock.mock_webhook_event('customer.subscription.created', {customer: user.stripe_customer_id})
       event.data.object['tax_percent'] = nil
       event.data.object['discount'] = nil
       event.data.object['metadata'] = {}
       SyncStripeSubscriptionService.new(event).call
     end
 
-    it 'should create the subscription on local' do
-      expect{ do_method }.to change{ user.subscriptions.count }.from(0).to(1)
-    end
-
-    it 'should mark the new subscription as current subscription' do
+    it 'should update the corresponding the subscription on local' do
       do_method
-      expect( user.reload.subscriptions.last.is_current ).to eq(true)
+      expect(subscription.reload.stripe_subscription_id).to eq(event.data.object['id'])
     end
   end
 
   context 'when received subscription updated event' do
-    let!(:subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
+    let(:event) {StripeMock.mock_webhook_event('customer.subscription.updated', {customer: user.stripe_customer_id})}
 
     context 'upgrade the subscription' do
+      let!(:previous_subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, is_current: false)}
+      let!(:upgraded_subscription) {create(:subscription, :bp50, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
+
       def do_method
-        event = StripeMock.mock_webhook_event('customer.subscription.updated', {customer: user.stripe_customer_id})
         event.data.object['tax_percent'] = nil
         event.data.object['discount'] = nil
         event.data.object['metadata'] = {}
@@ -49,20 +49,16 @@ describe 'SyncStripeSubscriptionService' do
         SyncStripeSubscriptionService.new(event).call
       end
 
-      it 'should create the subscription on local' do
-        expect( user.subscriptions.count ).to eq(1)
+      it 'should update the corresponding subscription on local' do
         do_method
-        expect( user.subscriptions.count ).to eq(2)
-      end
-
-      it 'should the mark the new subscription as current subscription and unmark the previous subscription as current' do
-        do_method
-        expect( user.reload.subscriptions.last.is_current ).to eq(true)
-        expect( user.reload.subscriptions[-2].is_current ).to eq(false)
+        expect(upgraded_subscription.reload.stripe_subscription_id).to eq(event.data.object['id'])
       end
     end
 
     context 'downgrade the subscription' do
+      let!(:previous_subscription) {create(:subscription, :bp50, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
+      let!(:downgraded_subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, is_current: false)}
+
       def do_method
         event = StripeMock.mock_webhook_event('customer.subscription.updated', {customer: user.stripe_customer_id})
         event.data.object['tax_percent'] = nil
@@ -72,10 +68,9 @@ describe 'SyncStripeSubscriptionService' do
         SyncStripeSubscriptionService.new(event).call
       end
 
-      it 'should create the subscription on local' do
-        expect( user.subscriptions.count ).to eq(1)
+      it 'should update the corresponding subscription on local' do
         do_method
-        expect( user.subscriptions.count ).to eq(2)
+        expect(downgraded_subscription.reload.stripe_subscription_id).to eq(event.data.object['id'])
       end
 
       it 'should mark the new subscription as current at the end of the current subscription period and unmark the previous subscription' do
@@ -86,14 +81,19 @@ describe 'SyncStripeSubscriptionService' do
 
   context 'when received subscription deleted event' do
     let!(:subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
+    let(:event) {StripeMock.mock_webhook_event('customer.subscription.deleted', {customer: user.stripe_customer_id})}
 
     def do_method
-      event = StripeMock.mock_webhook_event('customer.subscription.deleted', {customer: user.stripe_customer_id})
+      event.data.object['tax_percent'] = nil
+      event.data.object['discount'] = nil
+      event.data.object['metadata'] = {}
       SyncStripeSubscriptionService.new(event).call
     end
 
-    it 'should set current subscription on local to false' do
-      expect{ do_method }.to change{ user.reload.subscriptions.last.is_current }.from( true ).to( false )
+    it 'should update the corresponding subscription on local' do
+      do_method
+      expect(subscription.reload.stripe_subscription_id).to eq(event.data.object['id'])
+      expect(subscription.reload.is_current).to eq(false)
     end
   end
 end

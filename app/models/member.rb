@@ -36,8 +36,7 @@ class Member < User
                            inverse_of: :pha
   has_many :user_programs, foreign_key: :user_id, dependent: :destroy
   has_many :programs, through: :user_programs
-  has_many :subscriptions, class_name: 'Subscription',
-                           foreign_key: :user_id
+  has_many :subscriptions, class_name: 'Subscription', foreign_key: :user_id
   has_many :tasks, class_name: 'Task', conditions: ['type NOT IN (?, ?, ?)', 'MessageTask', 'PhoneCallTask', 'ViewTaskTask']
   has_many :request_tasks, class_name: 'Task', conditions: {type: %w(UserRequestTask ParsedNurselineRecordTask)}
   has_many :service_tasks, class_name: 'MemberTask',
