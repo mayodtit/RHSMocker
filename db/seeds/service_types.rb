@@ -1,5 +1,5 @@
 # Service Types -
-ServiceType.find_or_create_by_name(name: 'other', bucket: 'other', text: 'Other Texts')
+ServiceType.find_or_create_by_name(name: 'other', bucket: 'other')
 
 # Insurance --
 ServiceType.find_or_create_by_name(name: 'benefit evaluation', bucket: 'insurance')
