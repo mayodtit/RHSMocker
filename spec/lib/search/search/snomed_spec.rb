@@ -47,16 +47,17 @@ describe Search::Service::Snomed do
     end
   end
 
+  before do
+    @response = {
+        'matches' => [{
+        'term'=> 'Brain tumor',
+        'conceptId'=> '254935002',
+        'descriptionId' => '379840013',
+        'fsn' => 'Intracranial tumor (disorder)', }]
+    }
+  end
+
   describe '#sanitize_response' do
-    before do
-      @response = {
-          'matches' => [{
-          'term'=> 'Brain tumor',
-          'conceptId'=> '254935002',
-          'descriptionId' => '379840013',
-          'fsn' => 'Intracranial tumor (disorder)', }]
-      }
-    end
     context 'allergy response' do
       it 'should select sanitize_allergy method' do
         result = snomed.send(:sanitize_response, true, @response)
@@ -71,4 +72,30 @@ describe Search::Service::Snomed do
     end
   end
 
+  describe '#set_result' do
+    it 'sets the current_result to better api format from a match given by snomed' do
+      result = snomed.send(:set_result, Hash.new, @response)
+      result[:name].should == @response['term']
+      result[:smomed_name].should == @response['term']
+      result[:snomed_code].should == @response['concept_id']
+      result[:description_id].should == @response['description']
+      result[:concept_id].should == @response['concept_id']
+    end
+  end
+
+  describe '#condition_filter' do
+    it 'filters condition terms' do
+      snomed.send(:condition_filter, 'Cancer of the brain (disorder)').should == true
+      snomed.send(:condition_filter, 'Cat allergy').should == true
+      snomed.send(:condition_filter, 'CA - Brain').should == true
+      snomed.send(:condition_filter, 'Brain tumor').should == false
+    end
+  end
+
+  describe '#allergy_filter' do
+    it 'filters allergy terms' do
+      snomed.send(:allergy_filter, 'Brain allergy (disorder)').should == true
+      snomed.send(:allergy_filter, 'Cat allergy').should == false
+    end
+  end
 end
