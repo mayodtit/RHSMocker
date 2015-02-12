@@ -38,6 +38,8 @@ class Api::V1::PingController < Api::V1::ABaseController
                     app_store_url: Metadata.value_for_key('app_store_url'),
                     google_play_url: Metadata.value_for_key('google_play_url'))
       end
+
+      render_success(hash)
     end
   end
 
@@ -150,7 +152,7 @@ class Api::V1::PingController < Api::V1::ABaseController
   end
 
   def care_portal?
-    params[:care_portal] &&  params[:care_portal] == 'true'
+    params[:care_portal] && params[:care_portal] == 'true'
   end
 
   def android_version
