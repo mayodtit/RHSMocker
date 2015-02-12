@@ -11,7 +11,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20150212015132) do
+=======
+ActiveRecord::Schema.define(:version => 20150212002325) do
+>>>>>>> feature/serviceTypeDescriptions
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -773,10 +777,11 @@ ActiveRecord::Schema.define(:version => 20150212015132) do
   end
 
   create_table "service_types", :force => true do |t|
-    t.string   "name",       :null => false
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.string   "name",                 :null => false
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
     t.string   "bucket"
+    t.text     "description_template"
   end
 
   add_index "service_types", ["bucket"], :name => "index_service_types_on_bucket"
