@@ -4,7 +4,8 @@ ServiceType.find_or_create_by_name(name: 'other', bucket: 'other', text: 'Other 
 # Insurance --
 ServiceType.find_or_create_by_name(name: 'benefit evaluation', bucket: 'insurance')
 ServiceType.find_or_create_by_name(name: 'claims', bucket: 'insurance')
-ServiceType.upsert_attributes!({name: 'medical bill investigation'}, {bucket: 'insurance', description_template: "What member is looking to find out?
+ServiceType.upsert_attributes!({name: 'medical bill investigation'}, {bucket: 'insurance',
+description_template: "What member is looking to find out?
 Super bill:
 Claims Form:
 Image links to bills in question:
@@ -15,7 +16,8 @@ ServiceType.find_or_create_by_name(name: 'cost estimation', bucket: 'insurance')
 ServiceType.find_or_create_by_name(name: 'deductible/FSA/HSA status assessment', bucket: 'insurance')
 ServiceType.find_or_create_by_name(name: 'eligibility check', bucket: 'insurance')
 ServiceType.find_or_create_by_name(name: 'grievances', bucket: 'insurance')
-ServiceType.upsert_attributes!({name: 'insurance plan - search'}, {bucket: 'insurance', description_template: "Current plan? When did it end and why, current premium
+ServiceType.upsert_attributes!({name: 'insurance plan - search'}, {bucket: 'insurance',
+description_template: "Current plan? When did it end and why, current premium
 Individual vs Family
 Employer vs exchange (if family, confirm no one in family is eligible for insurance through employer)
 Zip code
@@ -31,7 +33,8 @@ Household income (if exchanges):
 Plan preferences (hmo vs ppo)
 Dental and vision
 "})
-ServiceType.upsert_attributes!({name: 'insurance plan - buying/applying'}, {bucket: 'insurance', description_template: "Current plan? When did it end and why, current premium
+ServiceType.upsert_attributes!({name: 'insurance plan - buying/applying'}, {bucket: 'insurance',
+description_template: "Current plan? When did it end and why, current premium
 Individual vs Family
 Employer vs exchange (if family, confirm no one in family is eligible for insurance through employer)
 Zip code
@@ -52,7 +55,8 @@ ServiceType.find_or_create_by_name(name: 'temporary insurance', bucket: 'insuran
 ServiceType.find_or_create_by_name(name: 'other insurance', bucket: 'insurance')
 
 # Care Coordination --
-ServiceType.upsert_attributes!({name: 'appointment booking'}, {bucket: 'care coordination', description_template: "For which person:
+ServiceType.upsert_attributes!({name: 'appointment booking'}, {bucket: 'care coordination',
+description_template: "For which person:
 Provider:
 Address:
 Phone number:
@@ -88,7 +92,7 @@ ServiceType.find_or_create_by_name(name: 'specialist/2nd opinion', bucket: 'care
 ServiceType.find_or_create_by_name(name: 'medical/clinical research', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'natural disaster preparedness', bucket: 'care coordination')
 ServiceType.upsert_attributes!({name: 'provider search'}, {bucket: 'care coordination',
-                                  description_template: "Description:
+description_template: "Description:
 Doctor type
 Reason for visit
 Zip code
@@ -97,9 +101,9 @@ Insurance company and full name of plan:
 Insurance website from back of card:
 Insurance through employer or exchange
 Specific Appointment needs?
-Other important information
-"})
-ServiceType.upsert_attributes!({name: 'record recovery'}, {bucket: 'care coordination', description_template: "For which family member?
+Other important information"})
+ServiceType.upsert_attributes!({name: 'record recovery'}, {bucket: 'care coordination',
+description_template: "For which family member?
 For what use:
 Type of records to request:
 Urgency:
@@ -115,7 +119,6 @@ Name:
 Address:
 Fax Number
 Office number
-
 Call notes: "})
 ServiceType.find_or_create_by_name(name: 'prescription management', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'symptom management', bucket: 'care coordination')
@@ -142,10 +145,9 @@ ServiceType.find_or_create_by_name(name: 'offer care team creation service', buc
 ServiceType.find_or_create_by_name(name: 'complete profile', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'introduction task', bucket: 'engagement')
 ServiceType.upsert_attributes!({name: 'PHA Introduction'}, {bucket: 'engagement',
-                                                            description_template: "Thanks for signing up for Better. I'm here to support you with:      . I'll get started and you can expect an update by_______. In the meantime, feel free to message back in with questions. Our team will be quick to respond and I'll always follow up.
-
-                                                                                                                                                                                                                                                                                                     Tasks 30 days for PHA to assign:
-                                                                                                                                                                                                                                                                                                                                  Complete profile task
+description_template: "Thanks for signing up for Better. I'm here to support you with:      . I'll get started and you can expect an update by_______. In the meantime, feel free to message back in with questions. Our team will be quick to respond and I'll always follow up.
+Tasks 30 days for PHA to assign:
+Complete profile task
 3 Friday check-in tasks
 Offer Insurance Review Service
 Perform Preventive Care Assessment
