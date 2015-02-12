@@ -42,18 +42,20 @@ class UpdateStripeSubscriptionService
     end
   end
 
-  def subscription_attributes
+  def local_attributes
     {   status: 'active',
         customer: @customer,
         cancel_at_period_end: false,
         quantity: 1,
         user_id: @user.id,
-        plan: Stripe::Plan.retrieve(sa[:plan]).to_hash
+        plan: Stripe::Plan.retrieve(@plan_id).to_hash,
+        is_current: true
     }
   end
 
   def upgrade_subscription
-    @user.subscriptions.create(subscription_attributes)
+    @user.subscriptions.last.update_attributes(:is_current => false)
+    @user.subscriptions.create(local_attributes)
     load_subscription!
     @subscription.plan = @plan_id
     @subscription.prorate = true
@@ -61,11 +63,10 @@ class UpdateStripeSubscriptionService
   end
 
   def downgrade_subscription
-    @user.subscriptions.delay.create(subscription_attributes)
+    @user.subscriptions.create(local_attributes.tap{|attribute|attribute[is_current] = false})
     load_subscription!
     @subscription.plan = @plan_id
     @subscription.prorate = false
     @subscription.save
-    @run_at = @subscription.current_period_end
   end
 end

@@ -19,25 +19,31 @@ class SyncStripeSubscriptionService
   private
 
   def create_subscription
-    subscription = @user.subscriptions.create( subscription_attributes )
-    subscription.update_attributes(:is_current => true)
+    @user.subscriptions.find(is_current:true).update_attributes(subscription_attributes)
   end
 
   def update_subscription
-    current_subscription = @user.subscriptions.last
-    @user.subscriptions.create( subscription_attributes )
-    new_subscription = @user.subscriptions.last
-    if new_subscription.plan[:amount] > current_subscription.plan[:amount]
-      current_subscription.update_attributes(:is_current => false)
-      new_subscription.update_attributes(:is_current => true)
-    else
-      current_subscription.delay.update_attributes(:is_current => true)
-      new_subscription.delay.update_attributes(:is_current => true)
+    # current_subscription = @user.subscriptions.last
+    # @user.subscriptions.create( subscription_attributes )
+    # new_subscription = @user.subscriptions.last
+    # if new_subscription.plan[:amount] > current_subscription.plan[:amount]
+    #   current_subscription.update_attributes(:is_current => false)
+    #   new_subscription.update_attributes(:is_current => true)
+    # else
+    #   current_subscription.delay.update_attributes(:is_current => true)
+    #   new_subscription.delay.update_attributes(:is_current => true)
+    # end
+    latest_subscription = user.subscriptions.last
+    #the upgrade senario
+    if latest_subscription.is_current
+      latest_subscription.update_attributes(subscription_attributes)
+    else #the downgrade senario
+      
     end
   end
 
   def delete_subscription
-    @user.subscriptions.last.update_attributes(:is_current => false)
+    @user.subscriptions.last.update_attributes(subscription_attributes)
   end
 
   def subscription_attributes
@@ -56,7 +62,6 @@ class SyncStripeSubscriptionService
      tax_percent: @event.data.object.tax_percent,
      discount: @event.data.object.discount,
      metadata: @event.data.object.metadata,
-     user_id: @user.id,
      plan: @event.data.object.plan.to_hash,
      stripe_subscription_id: @event.data.object.id
     }
