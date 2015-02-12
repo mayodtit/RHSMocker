@@ -5,43 +5,55 @@ class Api::V1::PingController < Api::V1::ABaseController
   after_filter :store_user_information!, if: :session_valid?
 
   def index
-    hash = {
-      revision: REVISION,
-      use_invite_flow: Metadata.use_invite_flow?,
-      enable_sharing: Metadata.enable_sharing?,
-      nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer },
-      auth_token_valid: session_valid?
-    }
-
-    unless params[:exclude_stories]
-      hash.merge!(stories: stories,
-                  splash_story: splash_story,
-                  question_story: question_story)
-    end
-
-    if current_user
-      metadata_hash = Metadata.to_hash_for(current_user)
-      metadata_hash.delete('use_invite_flow')
-      metadata_hash.delete('version')
-      metadata_hash.delete('app_store_url')
-      metadata_hash.delete('nux_question_text')
-      hash.merge!({metadata: metadata_hash})
-    end
-
-    if ios_version_valid? || android_version_valid?
-      hash.merge!(valid: true)
+    if care_portal?
+      keep_alive
     else
-      hash.merge!(valid: false,
-                  app_store_url: Metadata.value_for_key('app_store_url'),
-                  google_play_url: Metadata.value_for_key('google_play_url'))
-    end
+      hash = {
+        revision: REVISION,
+        use_invite_flow: Metadata.use_invite_flow?,
+        enable_sharing: Metadata.enable_sharing?,
+        nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer },
+        auth_token_valid: session_valid?
+      }
 
-    render_success(hash)
+      unless params[:exclude_stories]
+        hash.merge!(stories: stories,
+                    splash_story: splash_story,
+                    question_story: question_story)
+      end
+
+      if current_user
+        metadata_hash = Metadata.to_hash_for(current_user)
+        metadata_hash.delete('use_invite_flow')
+        metadata_hash.delete('version')
+        metadata_hash.delete('app_store_url')
+        metadata_hash.delete('nux_question_text')
+        hash.merge!({metadata: metadata_hash})
+      end
+
+      if ios_version_valid? || android_version_valid?
+        hash.merge!(valid: true)
+      else
+        hash.merge!(valid: false,
+                    app_store_url: Metadata.value_for_key('app_store_url'),
+                    google_play_url: Metadata.value_for_key('google_play_url'))
+      end
+    end
   end
 
   alias_method :create, :index
 
   private
+
+  def keep_alive
+    @session = Session.find_by_auth_token(params[:auth_token])
+    if @session
+      @session.keep_alive
+      render_success
+    else
+      render_failure
+    end
+  end
 
   def authentication_check
     @session = Session.find_by_auth_token(params[:auth_token])
@@ -135,6 +147,10 @@ class Api::V1::PingController < Api::V1::ABaseController
 
   def ios_version_valid?
     ios_version >= minimum_ios_version
+  end
+
+  def care_portal?
+    params[:care_portal] &&  params[:care_portal] == 'true'
   end
 
   def android_version
