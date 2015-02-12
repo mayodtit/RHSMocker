@@ -309,19 +309,6 @@ ActiveRecord::Schema.define(:version => 20150212002325) do
 
   add_index "enrollments", ["token"], :name => "index_enrollments_on_token"
 
-  create_table "entries", :force => true do |t|
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
-    t.integer  "member_id",     :null => false
-    t.integer  "resource_id",   :null => false
-    t.string   "resource_type", :null => false
-    t.integer  "actor_id"
-    t.text     "data"
-  end
-
-  add_index "entries", ["member_id"], :name => "index_entries_on_member_id"
-  add_index "entries", ["resource_id", "resource_type"], :name => "index_entries_on_resource_id_and_resource_type"
-
   create_table "ethnic_groups", :force => true do |t|
     t.string   "name",           :default => "", :null => false
     t.datetime "created_at",                     :null => false
@@ -928,13 +915,13 @@ ActiveRecord::Schema.define(:version => 20150212002325) do
   end
 
   create_table "task_requirements", :force => true do |t|
-    t.string   "title",                                           :null => false
+    t.string   "title",                                          :null => false
     t.text     "description"
     t.integer  "task_requirement_template_id"
     t.integer  "task_id"
-    t.boolean  "completed",                    :default => false
-    t.datetime "created_at",                                      :null => false
-    t.datetime "updated_at",                                      :null => false
+    t.boolean  "completed",                    :default => true
+    t.datetime "created_at",                                     :null => false
+    t.datetime "updated_at",                                     :null => false
   end
 
   create_table "task_templates", :force => true do |t|
@@ -1189,7 +1176,6 @@ ActiveRecord::Schema.define(:version => 20150212002325) do
     t.string   "expertise"
     t.boolean  "deceased",                                      :default => false, :null => false
     t.string   "city"
-    t.string   "state"
     t.string   "type",                                          :default => "",    :null => false
     t.string   "invitation_token"
     t.string   "units",                                         :default => "US",  :null => false
