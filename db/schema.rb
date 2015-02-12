@@ -671,6 +671,15 @@ ActiveRecord::Schema.define(:version => 20150212015132) do
     t.datetime "updated_at",  :null => false
   end
 
+  create_table "proximities", :force => true do |t|
+    t.string  "city"
+    t.integer "zip"
+    t.string  "state"
+    t.string  "county"
+    t.float   "latitude"
+    t.float   "longitude"
+  end
+
   create_table "referral_codes", :force => true do |t|
     t.string   "name"
     t.string   "code"
