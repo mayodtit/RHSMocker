@@ -34,6 +34,7 @@ describe 'UpdateStripeSubscriptionService' do
   describe '#call' do
     context 'update user immediately' do
       let(:plan_id) { 'bpYRSingle192' }
+      let(:subscription) {create(:subscription, :bp50, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
 
       def do_method
         UpdateStripeSubscriptionService.new(user, plan_id).call
@@ -45,6 +46,13 @@ describe 'UpdateStripeSubscriptionService' do
         do_method
         expect(Stripe::Customer.retrieve(user.stripe_customer_id).subscriptions.data[0].plan.id).to eq('bpYRSingle192')
       end
+
+      it 'should create the new subscription, and change the current subscription on local' do
+        do_method
+        expect(user.reload.subscriptions.count).to eq(2)
+        expect(user.reload.subscriptions.first.is_current).to eq(false)
+        expect(user.reload.subscriptions.last.is_current).to eq(true)
+      end
     end
 
     context 'downgrade the user at end of current period' do
@@ -54,11 +62,16 @@ describe 'UpdateStripeSubscriptionService' do
         UpdateStripeSubscriptionService.new(user, plan_id).call
       end
 
-      it 'should downgrade the customer‘s subscription at end of current period' do
+      it 'should downgrade the customer‘s subscription on stripe, and not prorate' do
         expect(Stripe::Customer.retrieve(user.stripe_customer_id).subscriptions.data[0].plan.id).to eq('bp50')
-        expect(Delayed::Job.count).to eq(0)
         do_method
-        expect(Delayed::Job.count).to eq(1)
+        expect(Stripe::Customer.retrieve(user.stripe_customer_id).subscriptions.data[0].plan.id).to eq('bp20')
+      end
+
+      it 'should create the new subscription, and not change the current subscription on local' do
+        do_method
+        expect(user.reload.subscriptions.count).to eq(2)
+        expect(user.reload.subscriptions.last.is_current).to eq(false)
       end
     end
   end

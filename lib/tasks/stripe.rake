@@ -40,7 +40,7 @@ namespace :stripe do
                                   discount: stripe_subscription.discount,
                                   metadata: stripe_subscription.metadata,
                                   user_id: m.id,
-                                  plan_id: stripe_subscription.plan.id,
+                                  plan: stripe_subscription.plan.to_hash,
                                   stripe_subscription_id: stripe_subscription.id
                                 }
 
