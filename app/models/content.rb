@@ -35,7 +35,7 @@ class Content < ActiveRecord::Base
   validates :condition, presence: true, if: lambda{|c| c.condition_id}
 
   before_validation :set_defaults, on: :create
-  after_commit :reindex, on: :create
+  after_commit :reindex
 
   searchable :auto_index => false do
     text :raw_body
