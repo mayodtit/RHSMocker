@@ -1,5 +1,6 @@
 class MessageEntrySerializer < ActiveModel::Serializer
   self.root = false
+  delegate :content, to: :object
 
   attributes :id, :sender, :receiver, :text, :created_at, :image_url, :type,
              :content_id, :symptom_id, :condition_id, :user_image_id,
@@ -27,19 +28,19 @@ class MessageEntrySerializer < ActiveModel::Serializer
   end
 
   def contents
-    if object.content.try(:show_mayo_logo?)
+    if content.try(:show_mayo_logo?)
       [
           {
-              id: object.content.id,
-              title: object.content.title,
+              id: content.id,
+              title: content.title,
               image_url: root_url + mayo_logo_asset_path
           }
       ]
-    elsif object.content
+    elsif content
       [
           {
-              id: object.content.id,
-              title: object.content.title,
+              id: content.id,
+              title: content.title,
               image_url: root_url + better_logo_asset_path
           }
       ]

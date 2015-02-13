@@ -25,7 +25,7 @@ describe 'Entries' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:entries].to_json).to eq([entry].serializer(timeline: true).as_json.to_json)
+        expect(body[:entries].to_json).to eq([entry].serializer.as_json.to_json)
       end
     end
   end

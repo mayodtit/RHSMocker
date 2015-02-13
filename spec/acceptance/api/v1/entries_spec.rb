@@ -29,7 +29,7 @@ resource "Entries" do
         explanation 'Get all entries for a member'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        response[:entries].to_json.should == [entry, another_entry].serializer(timeline: true).to_json
+        response[:entries].to_json.should == [entry, another_entry].serializer.to_json
       end
     end
   end
