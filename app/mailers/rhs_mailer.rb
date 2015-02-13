@@ -1,5 +1,5 @@
 class RHSMailer < MandrillMailer::TemplateMailer
-  default from: ((Rails.env.production? && Rails.env.demo?) ? 'support@getbetter.com' : "support@#{Rails.env}.getbetter.com")
+  default from: ((Rails.env.production? || Rails.env.demo?) ? 'support@getbetter.com' : "support@#{Rails.env}.getbetter.com")
   default from_name: 'Better'
 
   def before_check(params)
