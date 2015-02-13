@@ -12,7 +12,7 @@ module TimeoutModule
     end
   end
 
-    def keep_alive(expires_at=15.minutes.from_now)
+  def keep_alive(expires_at=15.minutes.from_now)
     update_attribute(:disabled_at, expires_at)
   end
 
