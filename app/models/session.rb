@@ -1,5 +1,5 @@
 class Session < ActiveRecord::Base
-  include SoftDeleteModule
+  include TimeoutModule
   belongs_to :member
 
   attr_accessible :member, :auth_token, :device_id, :apns_token, :gcm_id,

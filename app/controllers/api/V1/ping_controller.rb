@@ -5,6 +5,8 @@ class Api::V1::PingController < Api::V1::ABaseController
   after_filter :store_user_information!, if: :session_valid?
 
   def index
+    keep_alive and return if care_portal?
+
     hash = {
       revision: REVISION,
       use_invite_flow: Metadata.use_invite_flow?,
@@ -42,6 +44,15 @@ class Api::V1::PingController < Api::V1::ABaseController
   alias_method :create, :index
 
   private
+
+  def keep_alive
+    if session_valid?
+      current_session.keep_alive
+      render_success
+    else
+      render_failure
+    end
+  end
 
   def authentication_check
     @session = Session.find_by_auth_token(params[:auth_token])
@@ -135,6 +146,10 @@ class Api::V1::PingController < Api::V1::ABaseController
 
   def ios_version_valid?
     ios_version >= minimum_ios_version
+  end
+
+  def care_portal?
+    params[:care_portal]
   end
 
   def android_version
