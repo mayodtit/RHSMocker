@@ -10,7 +10,7 @@ describe RHSMailer, "#before_check" do
                        template: 'All User Welcome Email',
     }}
 
-    it "should send email under non-production env goes to inner mailbox address and change its subject" do
+    it "should send email under non-production/demo env goes to inner mailbox address and change its subject" do
       Rails.stub(env: ActiveSupport::StringInquirer.new("development"))
       mailer.before_check(params)
       expect( params[:to][:email] ).to eq( 'test@getbetter.com' )
@@ -18,6 +18,13 @@ describe RHSMailer, "#before_check" do
     end
 
     it "should send mail under production env goes to its original address" do
+      Rails.stub(env: ActiveSupport::StringInquirer.new("production"))
+      mailer.before_check(params)
+      expect( params[:to][:email] ).to eq( 'neel@getworse.com' )
+      expect( params[:subject] ).to eq( 'Test')
+    end
+
+    it "should send mail under demo env goes to its original address" do
       Rails.stub(env: ActiveSupport::StringInquirer.new("production"))
       mailer.before_check(params)
       expect( params[:to][:email] ).to eq( 'neel@getworse.com' )

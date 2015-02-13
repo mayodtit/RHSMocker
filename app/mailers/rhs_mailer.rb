@@ -1,9 +1,9 @@
 class RHSMailer < MandrillMailer::TemplateMailer
-  default from: (Rails.env.production? ? 'support@getbetter.com' : "support@#{Rails.env}.getbetter.com")
+  default from: ((Rails.env.production? && Rails.env.demo?) ? 'support@getbetter.com' : "support@#{Rails.env}.getbetter.com")
   default from_name: 'Better'
 
   def before_check(params)
-    if !Rails.env.production? && !whitelisted_email?(params[:to][:email])
+    if (!Rails.env.production? && !Rails.env.demo?) && !whitelisted_email?(params[:to][:email])
       params[:subject] = "[To:" + params[:to][:email] + "]" + params[:subject]
       params[:to][:email] = 'test@getbetter.com'
     end
