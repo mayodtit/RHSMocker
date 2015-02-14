@@ -1,8 +1,9 @@
-class DataSources::BetterDoctor
-  include HTTParty
+require 'httparty'
 
+class DataSources::BetterDoctor
   ## API Methods
 
+  ## TODO NEXT refactor this so it can be tested without making the request
   def self.lookup_by_npi(npi)
     wrap_api_call("doctors/npi/#{npi}") do |data|
       parse_doctor_response(data)
@@ -26,7 +27,7 @@ class DataSources::BetterDoctor
   }
 
   def self.build_query_url(arg_str)
-    return if arg_str.empty?
+    return if arg_str.blank?
 
     query_param_suffix = if arg_str =~ /\?/
                            "&"
