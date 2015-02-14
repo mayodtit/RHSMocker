@@ -15,7 +15,7 @@ class CreateStripeSubscriptionService
     else
       load_stripe_customer!
     end
-    add_referral_code_coupon!
+    add_referral_code_discount!
     create_stripe_subscription!
   end
 
@@ -40,15 +40,11 @@ class CreateStripeSubscriptionService
     @customer ||= Stripe::Customer.retrieve(@user.stripe_customer_id)
   end
 
-  def add_referral_code_coupon!
+  def add_referral_code_discount!
     if @user.referral_code.try(:user_id)
-      @customer.coupon = ONE_TIME_FIFTY_PERCENT_OFF_COUPON_CODE
       @user.discounts.create(referral_code_id: @user.referral_code.id,
-                             coupon: ONE_TIME_FIFTY_PERCENT_OFF_COUPON_CODE,
+                             coupon: 0.5,
                              referrer: false)
-      if @customer.save
-        @user.discounts.last.update_attributes(redeemed_at: Time.now)
-      end
     end
   end
 
