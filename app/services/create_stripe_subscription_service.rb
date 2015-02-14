@@ -43,7 +43,7 @@ class CreateStripeSubscriptionService
   def add_referral_code_discount!
     if @user.referral_code.try(:user_id)
       @user.discounts.create(referral_code_id: @user.referral_code.id,
-                             coupon: 0.5,
+                             discount_percent: 0.5,
                              referrer: false)
     end
   end

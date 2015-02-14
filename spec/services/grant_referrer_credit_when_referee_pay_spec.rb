@@ -43,27 +43,27 @@ describe 'GrantReferrerCreditWhenRefereePay' do
     end
   end
 
-  # describe '#apply_coupon' do
-  #   before do
-  #     event = StripeMock.mock_webhook_event('charge.succeeded', {customer: referee.stripe_customer_id})
-  #     GrantReferrerCreditWhenRefereePay.new(event).assign_coupon
-  #   end
-  #
-  #   def do_method
-  #     event = StripeMock.mock_webhook_event('invoice.created', {customer: referrer.stripe_customer_id})
-  #     GrantReferrerCreditWhenRefereePay.new(event).apply_coupon
-  #   end
-  #
-  #   it 'should assign the coupon to referrer‘s stripe discount' do
-  #     expect(Stripe::Customer.retrieve(referrer.stripe_customer_id).discount).to eq(nil)
-  #     do_method
-  #     expect(Stripe::Customer.retrieve(referrer.reload.stripe_customer_id).coupon).to eq('OneTimeHundredPercentOffCoupon')
-  #   end
-  #
-  #   it 'should time stamp the redeemed_at for the user' do
-  #     expect(referrer.discounts.last.redeemed_at).to eq(nil)
-  #     do_method
-  #     expect(referrer.reload.discounts.last.redeemed_at).not_to eq(nil)
-  #   end
-  # end
+  describe '#apply_coupon' do
+    before do
+      event = StripeMock.mock_webhook_event('charge.succeeded', {customer: referee.stripe_customer_id})
+      GrantReferrerCreditWhenRefereePay.new(event).assign_coupon
+    end
+
+    def do_method
+      event = StripeMock.mock_webhook_event('invoice.created', {customer: referrer.stripe_customer_id})
+      GrantReferrerCreditWhenRefereePay.new(event).apply_coupon
+    end
+
+    it 'should create an invoice item under the created invoice to add the discount' do
+      expect(referrer.discounts.first.invoice_item).to eq({})
+      do_method
+      expect(referrer.discounts.first.invoice_item).not_to eq(nil)
+    end
+
+    it 'should time stamp the redeemed_at for the user' do
+      expect(referrer.discounts.last.redeemed_at).to eq(nil)
+      do_method
+      expect(referrer.reload.discounts.last.redeemed_at).not_to eq(nil)
+    end
+  end
 end
