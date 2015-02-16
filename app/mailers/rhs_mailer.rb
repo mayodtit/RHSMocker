@@ -30,13 +30,20 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
+  WELCOME_TO_BETTER_FREE_TRIAL_TEMPLATE = 'Welcome to Better, Free Version 12/10/2014'
   def welcome_to_better_free_trial_email(email, salutation)
+    user = Member.find_by_email!(email)
+
     params = {
-      subject: 'Welcome to Better Premium',
+      subject: 'Welcome to Better Free',
       to: { email: email },
-      template: 'Free Trial Welcome Email',
+      template: WELCOME_TO_BETTER_FREE_TRIAL_TEMPLATE,
+      headers: {
+        'Reply-To' => "Better <support@getbetter.com>"
+      },
       vars: {
-        FNAME: salutation
+        FNAME: salutation,
+        MEMBERNEED: user.nux_answer.try(:phrase) || 'with your health needs'
       }
     }
     send_mail(params)

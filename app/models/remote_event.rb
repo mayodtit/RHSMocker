@@ -4,7 +4,8 @@ class RemoteEvent < ActiveRecord::Base
   attr_accessible :user, :user_id, :data, :device_id
   validates :data, presence: true
 
-  after_create :log
+  # TODO - disabled to reduce database load
+  #after_create :log
 
   def build_number
     data_json['properties'].try(:[], 'app_build')

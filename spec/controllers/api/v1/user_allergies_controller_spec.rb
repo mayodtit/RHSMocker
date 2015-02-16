@@ -77,7 +77,7 @@ describe Api::V1::UserAllergiesController do
       context 'save succeeds' do
         it_behaves_like 'success'
 
-        it 'returns the blood pressure' do
+        it 'returns the allergy here' do
           do_request
           json = JSON.parse(response.body)
           json['user_allergy'].to_json.should == user_allergy.as_json.to_json

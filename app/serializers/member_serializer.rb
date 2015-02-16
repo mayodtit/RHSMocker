@@ -39,6 +39,16 @@ class MemberSerializer < ActiveModel::Serializer
         pha_full_name: object.pha && object.pha.full_name,
         last_contact_at: object.last_contact_at
       }
+    elsif options[:timeline]
+      {
+          id: object.id,
+          first_name: object.first_name,
+          last_name: object.last_name,
+          email: object.email,
+          pha_full_name: object.pha && object.pha.full_name,
+          last_contact_at: object.last_contact_at,
+          timeline: object.entries.try(:serializer)
+      }
     else
       super.tap do |attributes|
         if options[:include_roles]
