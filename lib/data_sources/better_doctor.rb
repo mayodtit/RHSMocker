@@ -18,12 +18,10 @@ class DataSources::BetterDoctor
 
   private
 
-  ## TODO Store in config, environment, ??
   BETTER_DOCTOR_API = {
-    api_key: "edd4c37c129961549d4f1882251b261c",
+    api_key: ENV['BETTER_DOCTOR_API_KEY'],
     base_url: "https://api.betterdoctor.com/",
     version: "beta"
-    ## TODO Our key doesn't work for the "2015-01-27" version of the API
   }
 
   def self.build_query_url(arg_str)
