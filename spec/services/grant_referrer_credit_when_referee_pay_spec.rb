@@ -65,5 +65,10 @@ describe 'GrantReferrerCreditWhenRefereePay' do
       do_method
       expect(referrer.reload.discounts.last.redeemed_at).not_to eq(nil)
     end
+
+    it 'should send a confirmation email to user' do
+      do_method
+      expect(Delayed::Job.count).to eq(1)
+    end
   end
 end

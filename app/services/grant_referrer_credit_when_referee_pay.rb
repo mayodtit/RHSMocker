@@ -16,7 +16,9 @@ class GrantReferrerCreditWhenRefereePay
     referrer = find_member(find_stripe_customer_id(@event))
     return if referrer.nil?
     if referrer && has_coupon?(referrer)
-      redeem_coupon(referrer, referrer_stripe_customer)
+      if redeem_coupon(referrer, referrer_stripe_customer)
+        RHSMailer.delay.confirm_discount_received(referrer)
+      end
     end
   end
 

@@ -411,4 +411,13 @@ class RHSMailer < MandrillMailer::TemplateMailer
     }
     send_mail(params)
   end
+
+  def confirm_discount_received(user)
+    params = {
+        subject: 'You should received the discount',
+        from: 'Better',
+        to: {email: user.email}
+    }
+    send_mail(params)
+  end
 end
