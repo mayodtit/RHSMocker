@@ -39,6 +39,7 @@ class DataSources::BetterDoctor
 
     "#{BETTER_DOCTOR_API[:base_url]}#{BETTER_DOCTOR_API[:version]}/#{arg_str}user_key=#{BETTER_DOCTOR_API[:api_key]}"
   end
+  private_class_method :build_query_url
 
   ## TODO See API for payload fields - https://developer.betterdoctor.com/documentation
   def self.parse_doctor_response(doctor_response)
@@ -47,6 +48,7 @@ class DataSources::BetterDoctor
       image_url: doctor_response["profile"]["image_url"]
     }
   end
+  private_class_method :parse_doctor_response
 
   def self.default_search_opts
     { user_location: { lat: "37.773", lon: "-122.413" },
@@ -56,6 +58,7 @@ class DataSources::BetterDoctor
       ## TODO More fields (specialty, insurance, etc) available - https://developer.betterdoctor.com/documentation
     }
   end
+  private_class_method :default_search_opts
 
   ## TODO Extend if we want to search on more fields
   def self.build_search_query(opts)
@@ -78,6 +81,7 @@ class DataSources::BetterDoctor
 
     q.gsub(/&$/,'')
   end
+  private_class_method :build_search_query
 
   def self.wrap_api_call(query_str)
     response = HTTParty.get(build_query_url(query_str))
@@ -89,4 +93,5 @@ class DataSources::BetterDoctor
       { error: response_metadata["message"], error_code: response_metadata["error_code"]}
     end
   end
+  private_class_method :wrap_api_call
 end
