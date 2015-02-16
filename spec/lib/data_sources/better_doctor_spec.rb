@@ -2,23 +2,39 @@ require 'spec_helper'
 
 describe DataSources::BetterDoctor do
   describe ".build_query_url" do
-    describe "returns nil" do
-      it "if passed nil" do
-        expect(DataSources::BetterDoctor.send(:build_query_url, nil)).to be_nil
-      end
-
-      it "if passed empty string" do
-        expect(DataSources::BetterDoctor.send(:build_query_url, "")).to be_nil
-      end
+    context "when passed nil, it returns nil" do
+      it { expect(DataSources::BetterDoctor.send(:build_query_url, nil)).to be_nil }
     end
-    describe "constructs a url" do
-      it "with query params" do
-        url = "https://api.betterdoctor.com/beta/foo?bar=1&user_key=edd4c37c129961549d4f1882251b261c"
-        expect(DataSources::BetterDoctor.send(:build_query_url, "foo?bar=1")).to eq url
+    context "when passed empty string, it returns nil" do
+      it { expect(DataSources::BetterDoctor.send(:build_query_url, "")).to be_nil }
+    end
+    context "valid inputs" do
+      context "user_key" do
+        subject(:user_key) do
+          url = DataSources::BetterDoctor.send(:build_query_url, "foo?bar=1")
+          /user_key=(.+)\z/.match(url).captures.first
+        end
+        it "is present" do
+          expect(user_key).to be
+        end
+        it "is the correct length" do
+          expect(user_key.length).to be 32
+        end
+        it "uses only hex characters" do
+          expect(/\A[a-z0-9]+\z/.match(user_key)).to be
+        end
       end
-      it "without query params" do
-        url = "https://api.betterdoctor.com/beta/foo?user_key=edd4c37c129961549d4f1882251b261c"
-        expect(DataSources::BetterDoctor.send(:build_query_url, "foo")).to eq url
+      context "when passed args with query params" do
+        subject(:url) { DataSources::BetterDoctor.send(:build_query_url, "foo?bar=1") }
+        it "contructs a url" do
+          expect(url.start_with?("https://api.betterdoctor.com/beta/foo?bar=1&user_key=")).to be_true
+        end
+      end
+      context "when passed args without query params" do
+        subject(:url) { DataSources::BetterDoctor.send(:build_query_url, "foo") }
+        it "contructs a url" do
+          expect(url.start_with?("https://api.betterdoctor.com/beta/foo?user_key=")).to be_true
+        end
       end
     end
   end
