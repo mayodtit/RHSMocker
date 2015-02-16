@@ -405,7 +405,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
-  def notify_trail_will_end(event)
+  def notify_trial_will_end(event)
     customer = event.data.object.customer
     user = User.find_by_stripe_customer_id(customer)
     return if user.nil?
