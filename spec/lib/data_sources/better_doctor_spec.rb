@@ -39,7 +39,7 @@ describe DataSources::BetterDoctor do
     end
 
     describe "standard keys" do
-      [:query, :gender].each do |key|
+      [:gender, :specialty_uid, :insurance_uid].each do |key|
         it "adds #{key} to query params" do
           opts = {}
           opts[key] = 123
@@ -60,7 +60,8 @@ describe DataSources::BetterDoctor do
     end
 
     it "handles all parameters at once" do
-      expected_query = "query=pediatrician&gender=female&user_location=37.773,-122.413&location=37.773,-122.413,10"
+      expected_query = "gender=female&specialty_uid=vascular-surgeon&insurance_uid=wellmark-allianceselectiowa" +
+        "&user_location=37.773,-122.413&location=37.773,-122.413,10"
       expect(DataSources::BetterDoctor.send(:build_search_query, DataSources::BetterDoctor.send(:default_search_opts))).to eq expected_query
     end
   end

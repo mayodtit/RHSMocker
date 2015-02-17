@@ -51,18 +51,23 @@ class DataSources::BetterDoctor
   def self.default_search_opts
     { user_location: { lat: "37.773", lon: "-122.413" },
       distance: 10,
-      query: "pediatrician",
-      gender: "female"
-      ## TODO More fields (specialty, insurance, etc) available - https://developer.betterdoctor.com/documentation
+      gender: "female",
+      specialty_uid: "vascular-surgeon",
+      insurance_uid: "wellmark-allianceselectiowa"
     }
   end
   private_class_method :default_search_opts
 
-  ## TODO Extend if we want to search on more fields
+  ## Search by the following fields: (see https://developer.betterdoctor.com/documentation for more)
+  ## - gender - "string"
+  ## - specialty_uid - "string" (see .specialties)
+  ## - insurance_uid - "string" (see .insurances for uids of plans, not companies)
+  ## - user_location - {lat: "-?###.###", lon: "-?###.###" }
+  ## - distance - ## (miles)
   def self.build_search_query(opts)
     q = ""
-    ## Params that can be included w/o transformation: https://developer.betterdoctor.com/documentation
-    [:query, :gender].each do |k|
+    ## Params that can be included w/o transformation
+    [:gender, :specialty_uid, :insurance_uid].each do |k|
       if opts[k].present?
         q += "#{k}=#{opts[k]}&"
       end
