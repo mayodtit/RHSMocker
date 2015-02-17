@@ -30,7 +30,6 @@ class Search::Service::Bloom
     new_params['practice_address.zip'] = params[:zip] if params[:zip]
     new_params['practice_address.city'] = params[:city] if params[:city]
     new_params
-
   end
 
   def query_params(params)
@@ -40,7 +39,7 @@ class Search::Service::Bloom
       if key == 'practice_address.zip'
         result << "key#{i}=practice_address.zip&op#{i}=prefix" + params['practice_address.zip'].split(' ').map { |zip| "&value#{i}=#{zip}" }.join
       else
-        result << "key#{i}=#{key.to_s}&op#{i}=prefix&value#{i}=#{params[key].to_s}"
+        result << "key#{i}=#{key.to_s}&op#{i}=prefix&value#{i}=#{params[key].to_s.downcase}"
       end
     end
     result.join('&')
