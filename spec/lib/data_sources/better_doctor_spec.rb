@@ -12,7 +12,7 @@ describe DataSources::BetterDoctor do
     end
     context "valid inputs" do
       context "user_key" do
-        subject(:user_key) do
+        let(:user_key) do
           url = DataSources::BetterDoctor.send(:build_query_url, "foo?bar=1")
           /user_key=(.+)\z/.match(url).captures.first
         end
@@ -21,13 +21,13 @@ describe DataSources::BetterDoctor do
         end
       end
       context "when passed args with query params" do
-        subject(:url) { DataSources::BetterDoctor.send(:build_query_url, "foo?bar=1") }
+        let(:url) { DataSources::BetterDoctor.send(:build_query_url, "foo?bar=1") }
         it "contructs a url" do
           expect(url.start_with?("https://api.betterdoctor.com/beta/foo?bar=1&user_key=")).to be_true
         end
       end
       context "when passed args without query params" do
-        subject(:url) { DataSources::BetterDoctor.send(:build_query_url, "foo") }
+        let(:url) { DataSources::BetterDoctor.send(:build_query_url, "foo") }
         it "contructs a url" do
           expect(url.start_with?("https://api.betterdoctor.com/beta/foo?user_key=")).to be_true
         end
@@ -72,11 +72,19 @@ describe DataSources::BetterDoctor do
     ## This method receives data mid-processing and there's not a great way to generate it's input. '.lookup_by_npi' effectively tests this
   end
 
+  describe ".parse_insurance_response" do
+    ## This method receives data mid-processing and there's not a great way to generate it's input. '.insurances' effectively tests this
+  end
+
+  describe ".parse_specialty_response" do
+    ## This method receives data mid-processing and there's not a great way to generate it's input. '.specialties' effectively tests this
+  end
+
   describe ".wrap_api_call" do
     ## Successful API calls are handled in the context "API Calls" below
     context "failing API calls" do
       context "invalid API key" do
-        subject(:error_response) { DataSources::BetterDoctor.send(:wrap_api_call, "doctors/npi/0000000401?user_key=notreal") }
+        let(:error_response) { DataSources::BetterDoctor.send(:wrap_api_call, "doctors/npi/0000000401?user_key=notreal") }
         it "returns an error message" do
           expect(error_response[:error]).to eq "Invalid user_key"
         end
@@ -90,7 +98,7 @@ describe DataSources::BetterDoctor do
   context "API Calls" do
     describe ".lookup_by_npi" do
       context "successful response" do
-        subject(:doctor) { DataSources::BetterDoctor.lookup_by_npi("1285699967") }
+        let(:doctor) { DataSources::BetterDoctor.lookup_by_npi("1285699967") }
         it "parses the ratings" do
           expect(doctor[:ratings]).to eq [5]
         end
@@ -101,7 +109,7 @@ describe DataSources::BetterDoctor do
       end
 
       context "invalid npi" do
-        subject(:error_response) { DataSources::BetterDoctor.lookup_by_npi("0000000404") }
+        let(:error_response) { DataSources::BetterDoctor.lookup_by_npi("0000000404") }
         it "returns error message" do
           expect(error_response[:error]).to be
         end
@@ -110,8 +118,37 @@ describe DataSources::BetterDoctor do
         end
       end
     end
-    describe ".search"
-    describe ".specialties"
-    describe ".insurances"
+
+    describe ".search" do
+
+    end
+
+    describe ".specialties" do
+      context "successful response" do
+        let(:specialties) { DataSources::BetterDoctor.specialties }
+        it { expect(specialties.length).to eq 245 }
+
+        context "specialty record parsing" do
+          let(:acupuncture) { specialties.first }
+          it { expect(acupuncture[:uid]).to eq "acupuncturist" }
+          it { expect(acupuncture[:name]).to eq "Acupuncture" }
+          it { expect(acupuncture[:category]).to eq "medical" }
+        end
+      end
+    end
+
+    describe ".insurances" do
+      context "successful response" do
+        let(:insurances) { DataSources::BetterDoctor.insurances }
+        it { expect(insurances.length).to eq 77 }
+
+        context "insurance record parsing" do
+          let(:aetna) { insurances.first }
+          it { expect(aetna[:uid]).to eq "aetna" }
+          it { expect(aetna[:name]).to eq "Aetna" }
+          it { expect(aetna[:num_plans]).to eq 41 }
+        end
+      end
+    end
   end
 end

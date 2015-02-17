@@ -15,6 +15,14 @@ class FakeBetterDoctor < Sinatra::Base
     json_response 401, 'error_invalid_user_key.json'
   end
 
+  get '/beta/insurances' do
+    json_response 200, 'insurances.json'
+  end
+
+  get '/beta/specialties' do
+    json_response 200, 'specialties.json'
+  end
+
   private
 
   def json_response(response_code, file_name)

@@ -17,13 +17,13 @@ class DataSources::BetterDoctor
 
   def self.specialties
     @specialties ||= wrap_api_call("specialties") do |data|
-      data ## see https://developer.betterdoctor.com/data-models#Specialty_List
+      data.map{|specialty_response| parse_specialty_response(specialty_response)}
     end
   end
 
   def self.insurances
     @insurances ||= wrap_api_call("insurances") do |data|
-      data ## see https://developer.betterdoctor.com/data-models#InsuranceProvider
+      data.map{|insurance_response| parse_insurance_response(insurance_response)}
     end
   end
 
@@ -53,7 +53,7 @@ class DataSources::BetterDoctor
   end
   private_class_method :build_query_url
 
-  ## TODO See API for payload fields - https://developer.betterdoctor.com/documentation
+  ## TODO See API for payload fields - https://developer.betterdoctor.com/data-models#Doctor
   def self.parse_doctor_response(doctor_response)
     { profile: doctor_response["profile"],
       ratings: doctor_response["ratings"].map{|r| r["rating"]},
@@ -61,6 +61,24 @@ class DataSources::BetterDoctor
     }
   end
   private_class_method :parse_doctor_response
+
+  ## TODO See API for payload fields - https://developer.betterdoctor.com/data-models#Specialty
+  def self.parse_specialty_response(specialty_response)
+    { uid: specialty_response["uid"],
+      name: specialty_response["name"],
+      category: specialty_response["category"]
+    }
+  end
+  private_class_method :parse_specialty_response
+
+  ## TODO See API for payload fields - https://developer.betterdoctor.com/datamodels/#InsuranceProvider
+  def self.parse_insurance_response(insurance_response)
+    { uid: insurance_response["uid"],
+      name: insurance_response["name"],
+      num_plans: insurance_response["plans"].count
+    }
+  end
+  private_class_method :parse_insurance_response
 
   def self.default_search_opts
     { user_location: { lat: "37.773", lon: "-122.413" },
