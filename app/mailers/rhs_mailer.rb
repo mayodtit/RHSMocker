@@ -417,7 +417,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
         template: "Free month ending (email support) 2/16/2015",
         to: {email: user.email},
         vars: {
-          FNAME: user.first_name,
+          FNAME: user.salutation,
           PLAN_NAME: plan_name,
           pha_first_name: pha_first_name
         }
