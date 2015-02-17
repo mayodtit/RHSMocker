@@ -67,7 +67,7 @@ describe DataSources::BetterDoctor do
   end
 
   describe ".parse_doctor_response" do
-
+    ## TODO Deferring until we know what Doctor fields to use
   end
 
   describe ".wrap_api_call" do

@@ -16,6 +16,20 @@ class DataSources::BetterDoctor
     end
   end
 
+  def self.specialties
+    @specialties ||= wrap_api_call("specialties") do |data|
+      data ## see https://developer.betterdoctor.com/data-models#Specialty_List
+    end
+  end
+
+  def self.insurances
+    @insurances ||= wrap_api_call("insurances") do |data|
+      data ## see https://developer.betterdoctor.com/data-models#InsuranceProvider
+    end
+  end
+
+  ## TODO Map zipcode to lat/long - although this will probably happen upstream in the caller to .search
+
   private
 
   BETTER_DOCTOR_API = {
