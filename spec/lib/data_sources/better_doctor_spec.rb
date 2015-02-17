@@ -14,14 +14,8 @@ describe DataSources::BetterDoctor do
           url = DataSources::BetterDoctor.send(:build_query_url, "foo?bar=1")
           /user_key=(.+)\z/.match(url).captures.first
         end
-        it "is present" do
-          expect(user_key).to be
-        end
-        it "is the correct length" do
-          expect(user_key.length).to be 32
-        end
-        it "uses only hex characters" do
-          expect(/\A[a-z0-9]+\z/.match(user_key)).to be
+        it "is exactly 32 hexadecimal chars" do
+          expect(/\A[a-z0-9]{32}\z/.match(user_key)).to be
         end
       end
       context "when passed args with query params" do
