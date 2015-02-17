@@ -413,7 +413,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     return if user.nil?
     params = {
         subject: "Your trial is ending soon",
-        from: 'support@getbetter.com',
+        from: 'Better<support@getbetter.com>',
         template: "Free month ending (email support) 2/16/2015",
         to: {email: user.email},
         vars: {
