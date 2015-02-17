@@ -62,8 +62,7 @@ describe DataSources::BetterDoctor do
     end
 
     it "handles all parameters at once" do
-      expected_query = "gender=female&specialty_uid=vascular-surgeon&insurance_uid=wellmark-allianceselectiowa" +
-        "&user_location=37.773,-122.413&location=37.773,-122.413,10"
+      expected_query = "gender=female&user_location=37.773,-122.413&location=37.773,-122.413,10"
       expect(DataSources::BetterDoctor.send(:build_search_query, DataSources::BetterDoctor.send(:default_search_opts))).to eq expected_query
     end
   end
@@ -85,12 +84,8 @@ describe DataSources::BetterDoctor do
     context "failing API calls" do
       context "invalid API key" do
         let(:error_response) { DataSources::BetterDoctor.send(:wrap_api_call, "doctors/npi/0000000401?user_key=notreal") }
-        it "returns an error message" do
-          expect(error_response[:error]).to eq "Invalid user_key"
-        end
-        it "returns an error code" do
-          expect(error_response[:error_code]).to be 1000
-        end
+        it { expect(error_response[:error]).to eq "Invalid user_key" }
+        it { expect(error_response[:error_code]).to be 1000 }
       end
     end
   end
@@ -99,28 +94,30 @@ describe DataSources::BetterDoctor do
     describe ".lookup_by_npi" do
       context "successful response" do
         let(:doctor) { DataSources::BetterDoctor.lookup_by_npi("1285699967") }
-        it "parses the ratings" do
-          expect(doctor[:ratings]).to eq [5]
-        end
-        it "parses the image url" do
-          expect(doctor[:image_url]).to eq "https://asset3.betterdoctor.com/images/531e869a4214f849610000d0-1_thumbnail.jpg"
-        end
-        ## TODO Deferring additional tests until we know what Doctor fields to use
+        it { expect(doctor[:ratings]).to eq [5] }
+        it { expect(doctor[:image_url]).to eq "https://asset3.betterdoctor.com/images/531e869a4214f849610000d0-1_thumbnail.jpg" }
+        ## TODO Deferring additional tests until we know what Doctor fields to use. See also .search
       end
 
       context "invalid npi" do
         let(:error_response) { DataSources::BetterDoctor.lookup_by_npi("0000000404") }
-        it "returns error message" do
-          expect(error_response[:error]).to be
-        end
-        it "returns an error code" do
-          expect(error_response[:error_code]).to be 9999
-        end
+        it { expect(error_response[:error]).to be }
+        it { expect(error_response[:error_code]).to be 9999 }
       end
     end
 
     describe ".search" do
+      context "successful response" do
+        let(:search_results) { DataSources::BetterDoctor.search(DataSources::BetterDoctor.send(:default_search_opts)) }
+        it { expect(search_results.length).to eq 10 }
 
+        context "doctor record parsing" do
+          let(:doctor) { search_results.first }
+          it { expect(doctor[:ratings]).to eq [nil, 5] }
+          it { expect(doctor[:image_url]).to eq "https://asset4.betterdoctor.com/images/539b48fe4214f828a3000055-1_thumbnail.jpg" }
+          ## TODO Deferring additional tests until we know what Doctor fields to use. See also .search
+        end
+      end
     end
 
     describe ".specialties" do

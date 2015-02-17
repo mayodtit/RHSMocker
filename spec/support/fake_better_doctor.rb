@@ -23,6 +23,10 @@ class FakeBetterDoctor < Sinatra::Base
     json_response 200, 'specialties.json'
   end
 
+  get '/beta/doctors' do
+    json_response 200, 'doctor_search.json'
+  end
+
   private
 
   def json_response(response_code, file_name)

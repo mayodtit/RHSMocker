@@ -83,9 +83,10 @@ class DataSources::BetterDoctor
   def self.default_search_opts
     { user_location: { lat: "37.773", lon: "-122.413" },
       distance: 10,
-      gender: "female",
-      specialty_uid: "vascular-surgeon",
-      insurance_uid: "wellmark-allianceselectiowa"
+      gender: "female"
+      # ,
+      # specialty_uid: "vascular-surgeon",
+      # insurance_uid: "wellmark-allianceselectiowa"
     }
   end
   private_class_method :default_search_opts
