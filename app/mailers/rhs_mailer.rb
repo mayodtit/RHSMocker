@@ -381,7 +381,9 @@ class RHSMailer < MandrillMailer::TemplateMailer
     referee = Member.find(referee_id)
 
     mandrill_mail(
-      subject: 'Welcome to Better',
+      subject: 'Good news {referee.name} has signed up for Better!',
+      from: 'support@getbetter.com',
+      from_name: 'Better',
       to: { email: referrer.email },
       template: NOTIFY_REFERRER_OF_SIGN_UP_TEMPLATE,
       vars: {
