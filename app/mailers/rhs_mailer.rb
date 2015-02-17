@@ -373,4 +373,19 @@ class RHSMailer < MandrillMailer::TemplateMailer
       }
     )
   end
+
+  def confirm_subscription_change(user, subscription)
+    plan_name = subscription.plan.name
+
+    mandrill_mail(
+        subject: 'Review the change to your Better membership',
+        from: "Better<support@getbetter.com>",
+        to: { email: user.email },
+        template: "Subscription update 2/16/2015",
+        vars: {
+            FNAME: user.salutation,
+            PLAN_NAME: plan_name
+        }
+    )
+  end
 end

@@ -16,7 +16,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
     if @user.update_attributes(user_attributes)
       @subscription = @customer.subscriptions.create(sa)
       render_success(user: @user.serializer)
-      UserMailer.delay.confirm_subscription_change(@user, @subscription)
+      RHSMailer.delay.confirm_subscription_change(@user, @subscription)
     else
       render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
     end
