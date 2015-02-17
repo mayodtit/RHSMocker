@@ -497,7 +497,7 @@ describe ScheduledJobs do
 
       let!(:engaged_member) {create :member, :premium, first_name: 'a', last_contact_at: 1.hour.ago}
       let!(:free_member) {create :member, :free, first_name: 'b', last_contact_at: 1.hour.ago}
-      let!(:unengaged_member) {create :member, :premium, first_name: 'c', last_contact_at: 2.weeks.ago}
+      let!(:unengaged_member) {create :member, :premium, first_name: 'c', last_contact_at: 3.weeks.ago}
       let!(:message) {create :message, user: unengaged_member}
       it 'should run create_if_member_has_no_tasks for every premium_states member' do
         MessageMemberTask.should_receive(:create_task_for_member).with(unengaged_member)
