@@ -45,6 +45,10 @@ RSpec.configure do |config|
   config.before(:each) { Role.find_or_create_by_name!(:pha).id }
   config.before(:each) { Role.find_or_create_by_name!(:pha_lead).id }
   config.before(:each) { Member.robot }
+
+  config.before(:each) do
+    stub_request(:any, /api.betterdoctor.com/).to_rack(FakeBetterDoctor)
+  end
 end
 
 def stub_out_analytics_methods

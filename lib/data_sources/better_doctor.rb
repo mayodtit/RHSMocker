@@ -3,7 +3,6 @@ require 'httparty'
 class DataSources::BetterDoctor
   ## API Methods
 
-  ## TODO NEXT refactor this so it can be tested without making the request
   def self.lookup_by_npi(npi)
     wrap_api_call("doctors/npi/#{npi}") do |data|
       parse_doctor_response(data)
@@ -28,6 +27,7 @@ class DataSources::BetterDoctor
     end
   end
 
+  ## TODO Reverse lookup of insurance plans+specialties based on canonical or commoon names
   ## TODO Map zipcode to lat/long - although this will probably happen upstream in the caller to .search
 
   private

@@ -1,4 +1,6 @@
 require 'spec_helper'
+require 'webmock/rspec'
+WebMock.disable_net_connect!(allow_localhost: true)
 
 describe DataSources::BetterDoctor do
   describe ".build_query_url" do
@@ -67,12 +69,49 @@ describe DataSources::BetterDoctor do
   end
 
   describe ".parse_doctor_response" do
-    ## TODO Deferring until we know what Doctor fields to use
+    ## This method receives data mid-processing and there's not a great way to generate it's input. '.lookup_by_npi' effectively tests this
   end
 
   describe ".wrap_api_call" do
-
+    ## Successful API calls are handled in the context "API Calls" below
+    context "failing API calls" do
+      context "invalid API key" do
+        subject(:error_response) { DataSources::BetterDoctor.send(:wrap_api_call, "doctors/npi/0000000401?user_key=notreal") }
+        it "returns an error message" do
+          expect(error_response[:error]).to eq "Invalid user_key"
+        end
+        it "returns an error code" do
+          expect(error_response[:error_code]).to be 1000
+        end
+      end
+    end
   end
 
+  context "API Calls" do
+    describe ".lookup_by_npi" do
+      context "successful response" do
+        subject(:doctor) { DataSources::BetterDoctor.lookup_by_npi("1285699967") }
+        it "parses the ratings" do
+          expect(doctor[:ratings]).to eq [5]
+        end
+        it "parses the image url" do
+          expect(doctor[:image_url]).to eq "https://asset3.betterdoctor.com/images/531e869a4214f849610000d0-1_thumbnail.jpg"
+        end
+        ## TODO Deferring additional tests until we know what Doctor fields to use
+      end
 
+      context "invalid npi" do
+        subject(:error_response) { DataSources::BetterDoctor.lookup_by_npi("0000000404") }
+        it "returns error message" do
+          expect(error_response[:error]).to be
+        end
+        it "returns an error code" do
+          expect(error_response[:error_code]).to be 9999
+        end
+      end
+    end
+    describe ".search"
+    describe ".specialties"
+    describe ".insurances"
+  end
 end
