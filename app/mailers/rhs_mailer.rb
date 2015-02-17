@@ -405,10 +405,10 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
-  def notify_user_when_first_charge_fail(event, user)
+  def notify_user_when_first_charge_fail(user)
     params = {
         subject: 'Your credit card was declined',
-        from: "Better <support@getbetter.com>",
+        from: "support@getbetter.com",
         template: "Credit card declined 12/12/2014",
         to: { email: user.email },
         vars: {

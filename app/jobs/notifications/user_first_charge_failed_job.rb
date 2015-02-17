@@ -14,6 +14,6 @@ class Notifications::UserFirstChargeFailedJob < Struct.new(:user_id)
   private
 
   def alert_text
-    'Your Charge Failed! Pay your money,man! Require Copy!'
+    "Your credit card has been declined. To continue your Better membership please update your credit card information in the Membership section in the Settings of your [Health Profile] within the next 5 days, or your subscription will be canceled."
   end
 end
