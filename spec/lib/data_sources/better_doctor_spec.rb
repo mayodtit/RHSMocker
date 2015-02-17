@@ -149,3 +149,5 @@ describe DataSources::BetterDoctor do
     end
   end
 end
+
+WebMock.allow_net_connect!
