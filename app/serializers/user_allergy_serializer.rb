@@ -1,5 +1,7 @@
 class UserAllergySerializer <  ActiveModel::Serializer
   self.root = false
 
-  attributes :allergy_id, :created_at, :id, :updated_at, :user_id
+  has_one :allergy
+
+  attributes :allergy_id, :allergy, :created_at, :id, :updated_at, :user_id
 end

@@ -6,7 +6,7 @@ class Api::V1::UserAllergiesController < Api::V1::ABaseController
   before_filter :load_user_allergy!, only: [:show, :destroy]
 
   def index
-    index_resource(@user.user_allergies.serializer)
+    index_resource(user_allergies_serializer(@user.user_allergies))
   end
 
   def show
@@ -28,5 +28,9 @@ class Api::V1::UserAllergiesController < Api::V1::ABaseController
   def load_user_allergy!
     @user_allergy = @user.user_allergies.find(params[:id])
     authorize! :manage, @user_allergy
+  end
+
+  def user_allergies_serializer(allergies)
+    allergies.inject(array = []){| array, allergy| array << allergy.serializer}
   end
 end
