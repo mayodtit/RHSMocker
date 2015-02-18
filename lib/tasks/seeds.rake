@@ -751,7 +751,7 @@ namespace :seeds do
     require 'open-uri'
     base_url = ENV['SNOMED_SEARCH_URL']
     puts "Terms parsed: "
-    (0..34).each do |i|
+    (0..4).each do |i|
       skip_counter = i * 100
 
       query = "descriptions?query=allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{
@@ -768,8 +768,9 @@ namespace :seeds do
           desc_id = match['descriptionId']
           Allergy.find_or_create_by_concept_id_and_description_id(match['conceptId'], desc_id) do |al|
             name = term.split(' ')
-            al.name = name[2,name.size-1] if name.include? 'Allergy to'
-            al.name = name[0,name.size-2] if name[name.size-1].eql? 'allergy'
+            al.name = term
+            al.name = name[2,name.size].join(' ') if term.include?('Allergy to')
+            al.name = name[0,name.size-1].join(' ') if term.include? 'allergy'
             al.snomed_name = match['fsn']
           end
         end
