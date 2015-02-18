@@ -5,6 +5,6 @@ class AdjustServiceLevelService
 
   def call
     return if @user.nil?
-    @user.upgrade! if (@user.status == 'free' || @user.status == 'trial')
+    @user.update_attributes(status: 'premium') if (@user.free? || @user.trial?)
   end
 end
