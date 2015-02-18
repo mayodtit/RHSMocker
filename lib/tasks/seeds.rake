@@ -750,8 +750,9 @@ namespace :seeds do
         unless term.include? '(disorder)'
           desc_id = match['descriptionId']
           Allergy.find_or_create_by_concept_id_and_description_id(match['conceptId'], desc_id) do |al|
-            al.name =  term.split(' ')[0..-2].join(' ') unless term.split(' ').length < 2
-            al.name = term if term.split(' ').length < 2
+            name = term.split(' ')
+            al.name = name[2,name.size-1] if name.include? 'Allergy to'
+            al.name = name[0,name.size-2] if name[name.size-1].eql? 'allergy'
             al.snomed_name = match['fsn']
           end
         end
