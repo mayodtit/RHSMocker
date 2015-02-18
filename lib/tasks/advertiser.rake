@@ -13,15 +13,17 @@ namespace :advertiser do
       found = false
 
       if user = Session.find_by_advertiser_id(row['IDFA']).try(:member)
-        user.update_attribute(:advertiser_id, row['IDFA'])
-        user.update_attribute(:advertiser_media_source, row['Media Source (pid)'])
-        user.update_attribute(:advertiser_campaign, row['Campaign (c)'])
+        user.advertiser_id = row['IDFA']
+        user.advertiser_media_source = row['Media Source (pid)']
+        user.advertiser_campaign = row['Campaign (c)']
+        user.save(false)
         found = true
       end
 
       if enrollment = Enrollment.find_by_advertiser_id(row['IDFA'])
-        enrollment.update_attribute(:advertiser_media_source, row['Media Source (pid)'])
-        enrollment.update_attribute(:advertiser_campaign, row['Campaign (c)'])
+        enrollment.advertiser_media_source = row['Media Source (pid)']
+        enrollment.advertiser_campaign = row['Campaign (c)']
+        enrollment.save(false)
         found = true
       end
 
