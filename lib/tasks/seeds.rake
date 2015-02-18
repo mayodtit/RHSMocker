@@ -727,19 +727,16 @@ namespace :seeds do
         uri = URI.parse(url)
         json = JSON.parse(uri.read)
         found = false
-
         json['descriptions'].each do |concept|
           if concept['term'] == c.name
             store_terms(c, concept_id, concept['descriptionId'].to_s)
-            puts "FOUND @ concept id = #{desc_id}, name = #{c.name}"
             found = true
             break
           end
         end
-
         unless found
           failed += 1
-          puts "Error @ id = #{desc_id}, name = #{c.name}"
+          puts "Error @ concept id = #{desc_id}, name = #{c.name}"
         end
       end
     end
