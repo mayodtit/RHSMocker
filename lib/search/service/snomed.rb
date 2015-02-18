@@ -7,6 +7,8 @@ class Search::Service::Snomed
   def query(params)
     if params[:controller] == 'api/v1/allergies'
       is_allergy  = true
+    elsif params[:controller] == 'api/v1/conditions'
+      @semanticFilter = 'disorder'
     end
     query_params = select_query(is_allergy, params)
     response = self.class.get('/descriptions', :query => query_params)
@@ -29,7 +31,7 @@ class Search::Service::Snomed
   end
 
   def condition_query(params)
-    "query=#{params[:q].gsub(' ', '%20')}&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=0&returnLimit=100&normalize=true&semanticFilter=disorder"
+    "query=#{params[:q].gsub(' ', '%20')}&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=0&returnLimit=100&normalize=true&semanticFilter=#{@semanticFilter}"
   end
 
   def sanitize_response(is_allergy, response)
