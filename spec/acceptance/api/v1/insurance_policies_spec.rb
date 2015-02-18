@@ -13,6 +13,10 @@ resource 'InsurancePolicy' do
   parameter :auth_token, 'User auth_token'
   required_parameters :auth_token
 
+  before do
+    CarrierWave::Mount::Mounter.any_instance.stub(:store!)
+  end
+
   context 'existing record' do
     let!(:insurance_policy) { create(:insurance_policy, user: user) }
 
@@ -40,10 +44,13 @@ resource 'InsurancePolicy' do
       parameter :company_name, 'Company name on Insurance Policy'
       parameter :plan_type, 'Insurance plan type'
       parameter :policy_member_id, 'Member ID for policy'
-      scope_parameters :insurance_policy, [:company_name, :plan_type, :policy_member_id]
+      parameter :insurance_card_front_image, 'base64 encoded image of the front of the insurance card'
+      parameter :insurance_card_back_image, 'base64 encoded image of the back of the insurance card'
+      scope_parameters :insurance_policy, [:company_name, :plan_type, :policy_member_id, :insurance_card_front_image, :insurance_card_back_image]
 
       let(:company_name) { 'Test Company' }
       let(:id) { insurance_policy.id }
+      let(:insurance_card_front_image) { base64_test_image }
       let(:raw_post) { params.to_json }
 
       example_request '[PUT] Update an InsurancePolicy' do
@@ -69,9 +76,12 @@ resource 'InsurancePolicy' do
     parameter :company_name, 'Company name on Insurance Policy'
     parameter :plan_type, 'Insurance plan type'
     parameter :policy_member_id, 'Member ID for policy'
-    scope_parameters :insurance_policy, [:company_name, :plan_type, :policy_member_id]
+    parameter :insurance_card_front_image, 'base64 encoded image of the front of the insurance card'
+    parameter :insurance_card_back_image, 'base64 encoded image of the back of the insurance card'
+    scope_parameters :insurance_policy, [:company_name, :plan_type, :policy_member_id, :insurance_card_front_image, :insurance_card_back_image]
 
     let(:company_name) { 'Test Company' }
+    let(:insurance_card_front_image) { base64_test_image }
     let(:raw_post) { params.to_json }
 
     example_request '[POST] Create a new Insurance Policy' do
