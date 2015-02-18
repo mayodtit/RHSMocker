@@ -1,7 +1,6 @@
 class Api::V1::AllergiesController < Api::V1::ABaseController
   skip_before_filter :authentication_check
 
-  # deprecated - please use #search instead
   def index
     @allergies = params[:q].blank? ? Allergy.where('snomed_code NOT in (?)', excluded_allergies).order('name ASC') : solr_results.reject { |a| excluded_allergies.include?(a.snomed_code) }
     render_success({allergies: @allergies})

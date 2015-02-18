@@ -714,16 +714,33 @@ namespace :seeds do
     failed = 0
     base_url = ENV['SNOMED_SEARCH_URL']
     Condition.all.each do |c|
-      desc_id = c.snomed_code
-      url = base_url + 'descriptions/' + desc_id.to_s
+      desc_id = c.snomed_code.to_s
+      url = base_url + 'descriptions/' + desc_id
       uri = URI.parse(url)
       json = JSON.parse(uri.read)
-      begin
+      if json['matches'][0]
         concept_id = json['matches'][0]['conceptId']
         store_terms(c, concept_id, desc_id)
-      rescue
-        failed += 1
-        puts "Error @ desc id = #{desc_id}"
+      else
+        concept_id = desc_id
+        url = base_url + 'concepts/' + concept_id
+        uri = URI.parse(url)
+        json = JSON.parse(uri.read)
+        found = false
+
+        json['descriptions'].each do |concept|
+          if concept['term'] == c.name
+            store_terms(c, concept_id, concept['descriptionId'].to_s)
+            puts "FOUND @ concept id = #{desc_id}, name = #{c.name}"
+            found = true
+            break
+          end
+        end
+
+        unless found
+          failed += 1
+          puts "Error @ id = #{desc_id}, name = #{c.name}"
+        end
       end
     end
     puts "TOTAL FAILED #{failed}"

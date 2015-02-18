@@ -29,7 +29,7 @@ class Search::Service::Snomed
   end
 
   def condition_query(params)
-    "query=#{params[:q].gsub(' ', '%20')}&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=0&returnLimit=100&normalize=true"
+    "query=#{params[:q].gsub(' ', '%20')}&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=0&returnLimit=100&normalize=true&semanticFilter=disorder"
   end
 
   def sanitize_response(is_allergy, response)
@@ -46,9 +46,9 @@ class Search::Service::Snomed
       term = match['term']
       unless allergy_filter(term)
         current_result = {
-            :environmental_allergen => false,
-            :food_allergen => false,
-            :medication_allergen => false}
+            :environmental_allergen => nil,
+            :food_allergen => nil,
+            :medication_allergen => nil}
         result << set_result(current_result, match)
       end
     end
