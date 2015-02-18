@@ -1,14 +1,20 @@
 require 'csv'
 
 namespace :advertiser do
-  task import: :environment do
+  task :import, [:start_at] => [:environment] do |t, args|
+    begin
+      start_at = Integer(args[:start_at])
+    rescue
+      start_at = 0
+    end
     file = File.read(Rails.root.join('lib', 'assets', 'advertiser_data.csv'), encoding: 'ISO-8859-1')
     csv = CSV.parse(file, headers: true)
     puts "***** PROCESSING CSV OF LENGTH #{csv.length} *****"
     csv.inject(0) do |count, row|
-      if (count % 1000) == 0
+      if (count % 100) == 0
         puts count
       end
+      next if count < start_at
 
       found = false
 
