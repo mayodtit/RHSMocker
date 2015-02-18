@@ -51,7 +51,6 @@ describe Api::V1::UserAllergiesController do
       it 'returns the user allergy' do
         do_request
         json = JSON.parse(response.body)
-        json['user_allergy']['allergy_id'] == user_allergy.allergy_id
         json['user_allergy']['allergy'] == user_allergy.allergy.as_json.to_json
       end
     end
