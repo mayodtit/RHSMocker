@@ -291,7 +291,7 @@ Prep:
 
   def scheduled_call?
     phone_calls = self.class.where(self.class.arel_table[:id].not_eq(id))
-    phone_calls.where(scheduled_at: scheduled_at, owner_id: owner_id).count != 0
+    phone_calls.where(scheduled_at: scheduled_at, owner_id: owner_id).any?
   end
 
   def presence_of_owner_id
