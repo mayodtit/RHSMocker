@@ -751,7 +751,7 @@ namespace :seeds do
     require 'open-uri'
     base_url = ENV['SNOMED_SEARCH_URL']
     puts "Terms parsed: "
-    (0..4).each do |i|
+    (0..34).each do |i|
       skip_counter = i * 100
 
       query = "descriptions?query=allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{
