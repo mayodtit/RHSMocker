@@ -22,14 +22,14 @@ namespace :advertiser do
         user.advertiser_id = row['IDFA']
         user.advertiser_media_source = row['Media Source (pid)']
         user.advertiser_campaign = row['Campaign (c)']
-        user.save(false)
+        user.save(validate: false)
         found = true
       end
 
       if enrollment = Enrollment.find_by_advertiser_id(row['IDFA'])
         enrollment.advertiser_media_source = row['Media Source (pid)']
         enrollment.advertiser_campaign = row['Campaign (c)']
-        enrollment.save(false)
+        enrollment.save(validate: false)
         found = true
       end
 
