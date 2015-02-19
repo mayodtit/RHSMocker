@@ -1,13 +1,13 @@
 class UserMailer < ActionMailer::Base
   default from: lambda{
-    email = Rails.env.production? ? 'support@getbetter.com' : "support@#{Rails.env}.getbetter.com"
+    email = (Rails.env.production? || Rails.env.demo?) ? 'support@getbetter.com' : "support@#{Rails.env}.getbetter.com"
     from_address = Mail::Address.new(email)
     from_address.display_name = 'Better'
     from_address.format
   }
 
   def env
-    Rails.env.production? ? '' : "#{Rails.env}: "
+    (Rails.env.production? || Rails.env.demo?) ? '' : "#{Rails.env}: "
   end
 
   # this method needs to remain since socery doesn't seem to work
