@@ -28,6 +28,6 @@ StripeEvent.configure do |events|
   end
 
   events.subscribe 'customer.subscription.trial_will_end' do |event|
-    RHSMailer.delay.notify_trial_will_end(event)
+    Mails::NotifyTrialWillEndJob.create(event)
   end
 end
