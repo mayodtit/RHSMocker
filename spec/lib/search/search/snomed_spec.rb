@@ -22,7 +22,7 @@ describe Search::Service::Snomed do
     context 'conditions' do
       it 'should return condition query string' do
         query = snomed.send(:select_query, false, @params)
-        query.should == 'query=&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=0&returnLimit=100&normalize=true'
+        query.should == 'query=&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=0&returnLimit=100&normalize=true&semanticFilter='
       end
     end
   end
@@ -43,7 +43,7 @@ describe Search::Service::Snomed do
     end
     it 'should construct generic condition query with given params' do
       query = snomed.send(:condition_query, @params)
-      query.should == 'query=filler%20text&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=0&returnLimit=100&normalize=true'
+      query.should == 'query=filler%20text&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=0&returnLimit=100&normalize=true&semanticFilter='
     end
   end
 
@@ -61,7 +61,7 @@ describe Search::Service::Snomed do
     context 'allergy response' do
       it 'should select sanitize_allergy method' do
         result = snomed.send(:sanitize_response, true, @response)
-        result[0][:food_allergen].should == false
+        result[0][:food_allergen].should == nil
       end
     end
     context 'condition response' do
