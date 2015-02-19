@@ -1,8 +1,8 @@
 class Api::V1::ConditionsController < Api::V1::ABaseController
   skip_before_filter :authentication_check
-
+  before_filter :load_conditions!, only: [:index]
+  
   def index
-    load_conditions!
     index_resource(@conditions.serializer, name: :diseases) and return if diseases_path?
     index_resource(@conditions.serializer)
   end
