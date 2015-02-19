@@ -23,6 +23,10 @@ StripeEvent.configure do |events|
     GrantReferrerCreditWhenRefereePay.new(event).apply_coupon
   end
 
+  events.subscribe 'invoice.payment_succeeded' do |event|
+    AdjustServiceLevelService.new(event).call
+  end
+
   events.subscribe 'customer.subscription.deleted' do |event|
     DowngradeMemberToFree.new(event).call
   end
