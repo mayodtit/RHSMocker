@@ -26,7 +26,7 @@ describe 'DowngradeMemberToFree' do
       expect{ do_method }.to change{ user.reload.status }.from('premium').to('free')
     end
 
-    it 'should send email to user' do
+    it 'should add email to delayed_job' do
       expect{ do_method }.to change{ Delayed::Job.count }.from(0).to(1)
     end
   end

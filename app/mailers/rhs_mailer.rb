@@ -408,8 +408,9 @@ class RHSMailer < MandrillMailer::TemplateMailer
   def confirm_subscription_deletion(user)
     params = {
         subject: 'Your subscription has ended',
-        from: 'Better <support@getbetter.com>',
-        Template: "Account downgraded 2/16/2015",
+        from: 'support@getbetter.com',
+        from_name: 'Better',
+        template: "Account downgraded 2/16/2015",
         to: {email: user.email},
         vars: {
           FNAME: user.salutation,
