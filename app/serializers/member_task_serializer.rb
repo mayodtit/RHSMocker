@@ -4,11 +4,13 @@ class MemberTaskSerializer < TaskSerializer
   def attributes
     if options[:shallow]
       super
+    elsif options[:for_subject]
+      super
     else
       super.tap do |attributes|
         attributes.merge!(
-          subject: object.subject.try(:serializer, options),
-          creator: object.creator.try(:serializer, options)
+          subject: object.subject.try(:serializer, options.merge(shallow: true)),
+          creator: object.creator.try(:serializer, options.merge(shallow: true))
         )
       end
     end
