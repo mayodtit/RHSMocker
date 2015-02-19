@@ -20,7 +20,7 @@ class AddTasksTask < Task
   end
 
   def self.create_if_member_has_no_tasks(member)
-    if Message.where(user_id: member.id).exists? && Task.where(member_id: member.id, created_at: "< ? #{2.weeks.ago}", type: ['MemberTask', 'UserRequestTask', 'AddTasksTask']).open.count == 0
+    if Message.where(user_id: member.id).exists? && Task.where(member_id: member.id, type: ['MemberTask', 'UserRequestTask', 'AddTasksTask']).open.count == 0 && Task.where("created_at < ?", 2.weeks.ago).open.count == 0
       create! member: member
     end
   end
