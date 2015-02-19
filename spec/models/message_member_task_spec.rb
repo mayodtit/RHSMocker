@@ -47,7 +47,7 @@ describe MessageMemberTask do
 
     it 'sets the description' do
       task.set_required_attrs
-      task.description.should == "Member has not been messages in a week. Please send them a message."
+      task.description.should == "Member has not been messaging in two weeks. Please send them a message."
     end
 
     it 'sets the priority' do
