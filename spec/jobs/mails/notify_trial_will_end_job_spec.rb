@@ -42,6 +42,3 @@ describe Mails::NotifyTrialWillEndJob do
     end
   end
 end
-
-
-
