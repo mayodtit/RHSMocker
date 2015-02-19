@@ -154,8 +154,8 @@ ActiveRecord::Schema.define(:version => 20150204190559) do
 
   create_table "conditions", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
     t.string   "snomed_name"
     t.string   "snomed_code"
     t.datetime "disabled_at"
