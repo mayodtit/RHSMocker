@@ -16,4 +16,3 @@ class Notifications::UserFirstChargeFailedJob < Struct.new(:user_id)
     "Oh no, your credit card has been declined! Update your credit card information before your subscription is canceled."
   end
 end
-
