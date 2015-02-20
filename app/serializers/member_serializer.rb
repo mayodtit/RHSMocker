@@ -14,7 +14,7 @@ class MemberSerializer < ActiveModel::Serializer
              :show_welcome_call, :pha_full_name, :last_contact_at,
              :has_master_consult, :subscription_end_date,
              :subscription_ends_at,
-             :invitation_url, :signed_up_at, :has_welcome_call,
+             :invitation_url, :signed_up_at,
              :status, :status_events, :meet_your_pha_text, :text_phone_number, :time_zone,
              :cached_notifications_enabled, :due_date
 
@@ -121,15 +121,7 @@ class MemberSerializer < ActiveModel::Serializer
   end
 
   def show_welcome_call
-    (has_welcome_call && object.scheduled_phone_calls.empty?) || false
-  end
-
-  def has_welcome_call
-    if object.feature_groups.find_by_name('Launch day A/B test - without onboarding calls')
-      false
-    else
-      true
-    end
+    (object.scheduled_phone_calls.empty?) || false
   end
 
   # TODO - workaround for client issue, remove after client supports nil value
