@@ -1,15 +1,17 @@
 require 'csv'
 
 namespace :admin do
-  task :provider_image_url_import => :environment do |t, args|
-    assign_urls
+  task :provider_image_url_import, [:filename] => :environment do |t, args|
+    filename = args[:filename] || "provider_image_urls.csv"
+
+    npi_image_map = load_npi_image_map(filename)
+
+    assign_urls(npi_image_map)
   end
 
   private
 
-  def assign_urls
-    npi_image_map = load_npi_image_map
-
+  def assign_urls(npi_image_map)
     num_updated = 0
 
     puts "ASSIGNING URLs TO PROVIDERS"
@@ -30,9 +32,9 @@ namespace :admin do
     User.where("npi_number IS NOT NULL AND avatar_url_override IS NULL")
   end
 
-  def load_npi_image_map
+  def load_npi_image_map(filename)
     puts "LOADING NPI-IMAGE_URL PAIRS FROM FILE"
-    file = File.read(Rails.root.join('lib', 'assets', 'provider_image_urls.csv'), encoding: 'ISO-8859-1')
+    file = File.read(Rails.root.join('lib', 'assets', filename), encoding: 'ISO-8859-1')
     csv = CSV.parse(file, headers: true)
 
     npi_map = {}
