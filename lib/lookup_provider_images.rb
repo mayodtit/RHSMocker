@@ -1,3 +1,4 @@
+require 'csv'
 
 class LookupProviderImages
 
@@ -20,7 +21,12 @@ class LookupProviderImages
   end
 
   def self.write_npi_map_to_csv(npi_map)
-    ## TODO Implement
+    filename = Rails.root.join('lib', 'assets', "provider_image_urls_#{Time.now.strftime("%Y%m%d_%H%M%S")}.csv")
+    puts "WRITING #{npi_map.keys.count} IMAGES TO #{filename}"
+    CSV.open(filename, "w") do |csv|
+      csv << ["npi","image_url"]
+      npi_map.each{|npi, image_url| csv << [npi, image_url] }
+    end
   end
 
   def self.load_npi_image_map
