@@ -90,12 +90,12 @@ describe DataSources::BetterDoctor do
   end
 
   context "API Calls" do
-    around(:each) do |example|
-      ## Since tests are run in parallel (and other tests make network requests, limit disabling network as much as possible
+    before(:each) do
+      stub_request(:any, /api.betterdoctor.com/).to_rack(FakeBetterDoctor)
       WebMock.disable_net_connect!(allow_localhost: true)
-      example.run
-      WebMock.allow_net_connect!
     end
+
+    after(:each) { WebMock.allow_net_connect! }
 
     describe ".lookup_by_npi" do
       context "successful response" do
