@@ -90,27 +90,23 @@ describe DataSources::BetterDoctor do
   end
 
   context "API Calls" do
+    around(:each) do |example|
+      ## Since tests are run in parallel (and other tests make network requests, limit disabling network as much as possible
+      WebMock.disable_net_connect!(allow_localhost: true)
+      example.run
+      WebMock.allow_net_connect!
+    end
+
     describe ".lookup_by_npi" do
       context "successful response" do
-        let(:doctor) do
-          ## Since tests are run in parallel (and other tests make network requests, limit disabling network as much as possible
-          WebMock.disable_net_connect!(allow_localhost: true)
-          doctor = DataSources::BetterDoctor.lookup_by_npi("1285699967")
-          WebMock.allow_net_connect!
-          doctor
-        end
+        let(:doctor) { DataSources::BetterDoctor.lookup_by_npi("1285699967") }
         it { expect(doctor[:ratings]).to eq [5] }
         it { expect(doctor[:image_url]).to eq "https://asset3.betterdoctor.com/images/531e869a4214f849610000d0-1_thumbnail.jpg" }
         ## TODO Deferring additional tests until we know what Doctor fields to use. See also .search
       end
 
       context "invalid npi" do
-        let(:error_response) do
-          WebMock.disable_net_connect!(allow_localhost: true)
-          doctor = DataSources::BetterDoctor.lookup_by_npi("0000000404")
-          WebMock.allow_net_connect!
-          doctor
-        end
+        let(:error_response) { DataSources::BetterDoctor.lookup_by_npi("0000000404") }
         it { expect(error_response[:error]).to be }
         it { expect(error_response[:error_code]).to be 9999 }
       end
@@ -118,12 +114,7 @@ describe DataSources::BetterDoctor do
 
     describe ".search" do
       context "successful response" do
-        let(:search_results) do
-          WebMock.disable_net_connect!(allow_localhost: true)
-          search_results = DataSources::BetterDoctor.search(DataSources::BetterDoctor.send(:default_search_opts))
-          WebMock.allow_net_connect!
-          search_results
-        end
+        let(:search_results) { DataSources::BetterDoctor.search(DataSources::BetterDoctor.send(:default_search_opts)) }
         it { expect(search_results.length).to eq 10 }
 
         context "doctor record parsing" do
@@ -137,12 +128,7 @@ describe DataSources::BetterDoctor do
 
     describe ".specialties" do
       context "successful response" do
-        let(:specialties) do
-          WebMock.disable_net_connect!(allow_localhost: true)
-          specialties = DataSources::BetterDoctor.specialties
-          WebMock.allow_net_connect!
-          specialties
-        end
+        let(:specialties) { DataSources::BetterDoctor.specialties }
         it { expect(specialties.length).to eq 245 }
 
         context "specialty record parsing" do
@@ -156,12 +142,7 @@ describe DataSources::BetterDoctor do
 
     describe ".insurances" do
       context "successful response" do
-        let(:insurances) do
-          WebMock.disable_net_connect!(allow_localhost: true)
-          insurances = DataSources::BetterDoctor.insurances
-          WebMock.allow_net_connect!
-          insurances
-        end
+        let(:insurances) { DataSources::BetterDoctor.insurances }
         it { expect(insurances.length).to eq 77 }
 
         context "insurance record parsing" do
