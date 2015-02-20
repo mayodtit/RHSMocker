@@ -6,15 +6,14 @@ class Notifications::UserFirstChargeFailedJob < Struct.new(:user_id)
   def perform
     user = User.find(user_id)
     user.sessions.where('apns_token IS NOT NULL').each do |session|
-        APNS.send_notification(session.apns_token, alert: alert_text,
-                               sound: :default)
+      APNS.send_notification(session.apns_token, alert: alert_text, sound: :default)
     end
   end
 
   private
 
   def alert_text
-    "Your credit card has been declined. To continue your Better membership please update your credit card information in the Membership section in the Settings of [Health Profile](better://nb?cmd=showProfile) within the next 5 days, or your subscription will be canceled."
+    "Oh no, your credit card has been declined! Update your credit card information before your subscription is canceled."
   end
 end
 
