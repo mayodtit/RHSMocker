@@ -33,16 +33,12 @@ namespace :admin do
   end
 
   def load_npi_image_map(filename)
-    puts "LOADING NPI-IMAGE_URL PAIRS FROM FILE"
-    file = File.read(Rails.root.join('lib', 'assets', filename), encoding: 'ISO-8859-1')
-    csv = CSV.parse(file, headers: true)
-
+    file_to_open = Rails.root.join('lib', 'assets', filename)
     npi_map = {}
 
-    puts "***** PROCESSING CSV OF LENGTH #{csv.length} *****"
-    csv.inject(0) do |count, row|
-      npi_map[row["npi"]] = row["image_url"]
-    end
+    puts "LOADING NPI-IMAGE_URL PAIRS FROM FILE - #{file_to_open}"
+
+    CSV.foreach(file_to_open, encoding: 'ISO-8859-1'){|row| npi_map[row["npi"]] = row["image_url"] }
 
     npi_map
   end
