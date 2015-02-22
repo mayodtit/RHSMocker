@@ -2,6 +2,15 @@ require 'spec_helper'
 require 'webmock/rspec'
 
 describe DataSources::BetterDoctor do
+  before do
+    stub_request(:any, /api.betterdoctor.com/).to_rack(FakeBetterDoctor)
+    WebMock.disable_net_connect!(allow_localhost: true)
+  end
+
+  after do
+    WebMock.allow_net_connect!
+  end
+
   describe ".build_query_url" do
     context "when passed nil, it returns nil" do
       it { expect(DataSources::BetterDoctor.send(:build_query_url, nil)).to be_nil }
@@ -90,13 +99,6 @@ describe DataSources::BetterDoctor do
   end
 
   context "API Calls" do
-    before(:each) do
-      stub_request(:any, /api.betterdoctor.com/).to_rack(FakeBetterDoctor)
-      WebMock.disable_net_connect!(allow_localhost: true)
-    end
-
-    after(:each) { WebMock.allow_net_connect! }
-
     describe ".lookup_by_npi" do
       context "successful response" do
         let(:doctor) { DataSources::BetterDoctor.lookup_by_npi("1285699967") }
