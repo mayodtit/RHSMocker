@@ -30,7 +30,10 @@ class ScheduledPhoneCall < ActiveRecord::Base
   validates :scheduled_at, presence: true
   validates :user, presence: true, if: lambda{|spc| spc.user_id}
   validates :reminder_scheduled_message, presence: true, if: ->(s){s.reminder_scheduled_message_id}
-  validate :attrs_for_states
+  validate :presence_of_actor_and_timestamp
+  validate :not_already_booked
+  validate :presence_of_owner_id
+  validate :presence_of_user_id
   validates :callback_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: false, if: lambda { |spc| spc.user_id }
   validate :scheduled_at_during_on_call
 
@@ -47,8 +50,8 @@ class ScheduledPhoneCall < ActiveRecord::Base
 
   def user_confirmation_calendar_event
     RiCal.Event do |event|
-      event.summary = "Your call with #{user.pha.full_name}"
-      event.description = "#{user.pha.full_name} will call you at #{callback_phone_number}."
+      event.summary = "Your call with #{pha_full_name}"
+      event.description = "#{pha_full_name} will call you at #{callback_phone_number}."
       event.dtstart = scheduled_at
       event.dtend = scheduled_at + scheduled_duration
       event.location = callback_phone_number || user.phone || 'Call'
@@ -56,8 +59,11 @@ class ScheduledPhoneCall < ActiveRecord::Base
       event.organizer_property = RiCal::PropertyValue::CalAddress.new(nil,
                                                                       value: 'mailto:noreply@getbetter.com',
                                                                       params: {'CN' => 'Better'})
-
     end
+  end
+
+  def pha_full_name
+    user.pha.full_name
   end
 
   def create_task
@@ -138,13 +144,11 @@ Prep:
 
   def create_reminder
     return unless template = MessageTemplate.find_by_name('Welcome Call Reminder')
-    if ((Time.now.pacific.to_date == scheduled_at.pacific.to_date) ||
-        (Time.now.pacific.to_date >= 1.business_day.before(scheduled_at.pacific).to_date)) &&
-       (Time.now < (scheduled_at - 2.hours))
+    if send_in_morning?
       # scheduled today or tomorrow, send reminder in the morning on the day
       publish_at = scheduled_at.pacific.on_call_start_oclock
       day = 'today'
-    elsif (Time.now < (scheduled_at - 2.hours))
+    elsif within_2_hours?
       # scheduled in the future, not today or tomorrow, send reminder the day before
       publish_at = 1.business_day.before(scheduled_at.pacific).pacific.on_call_start_oclock
       day = scheduled_at.pacific.strftime('%A')
@@ -155,6 +159,30 @@ Prep:
                                                                                      user.master_consult,
                                                                                      publish_at,
                                                                                      'day' => day))
+  end
+
+  def send_in_morning?
+    (scheduled_at_now? || within_a_day?) && within_2_hours?
+  end
+
+  def within_2_hours?
+    current_time < (scheduled_at - 2.hours)
+  end
+
+  def scheduled_at_now?
+    current_date == scheduled_at.pacific.to_date
+  end
+
+  def within_a_day?
+    current_date >= 1.business_day.before(scheduled_at.pacific).to_date
+  end
+
+  def current_date
+    @current_date ||= current_time.pacific.to_date
+  end
+
+  def current_time
+    @current_time ||= Time.now
   end
 
   def reschedule_reminder
@@ -243,35 +271,38 @@ Prep:
     end
   end
 
-  # TODO: Write more comprehensive tests
-  def attrs_for_states
-    state_sym = state.to_sym
-
-    case state_sym
-      when :assigned
-        validate_actor_and_timestamp_exist :assign
-      when :booked
-        validate_actor_and_timestamp_exist :book
-      when :canceled
-        validate_actor_and_timestamp_exist :cancel
-      when :ended
-        validate_actor_and_timestamp_exist :end
+  def presence_of_actor_and_timestamp
+    if assigned?
+      validate_actor_and_timestamp_exist :assign
+    elsif booked?
+      validate_actor_and_timestamp_exist :book
+    elsif canceled?
+      validate_actor_and_timestamp_exist :cancel
+    elsif ended?
+      validate_actor_and_timestamp_exist :end
     end
+  end
 
-    if state_sym != :unassigned && self.class.where(self.class.arel_table[:id].not_eq(id)).where(scheduled_at: scheduled_at, owner_id: owner_id).count != 0
+  def not_already_booked
+    if !unassigned? && scheduled_call?
       errors.add(:scheduled_at, "is already booked for #{owner.full_name}.")
     end
+  end
 
-    if state_sym != :unassigned && state_sym != :canceled
-      if owner_id.nil?
-        errors.add(:owner_id, "must be present when #{self.class.name} is #{state}")
-      end
+  def scheduled_call?
+    phone_calls = self.class.where(self.class.arel_table[:id].not_eq(id))
+    phone_calls.where(scheduled_at: scheduled_at, owner_id: owner_id).any?
+  end
+
+  def presence_of_owner_id
+    if !unassigned? && !canceled? && owner_id.nil?
+      errors.add(:owner_id, "must be present when #{self.class.name} is #{state}")
     end
+  end
 
-    unless %i(unassigned assigned canceled).include? state_sym
-      if user_id.nil?
-        errors.add(:user_id, "must be present when #{self.class.name} is #{state}")
-      end
+  def presence_of_user_id
+    if !unassigned? && !assigned? && !canceled? && user_id.nil?
+      errors.add(:user_id, "must be present when #{self.class.name} is #{state}")
     end
   end
 

@@ -30,9 +30,6 @@ RHSMocker::Application.configure do
   config.action_mailer.delivery_method = :test
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
-  # test key - does not actually send emails
-  MandrillMailer.configure { |config| config.api_key = 'SqiXeqW6NNdZk_UWW7zbTA' }
-
   # Raise exception on mass assignment protection for Active Record models
   config.active_record.mass_assignment_sanitizer = :strict
 

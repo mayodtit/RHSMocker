@@ -1,0 +1,1436 @@
+{
+  "meta": {
+    "data_type": "Doctor",
+    "total": 1,
+    "count": 1
+  },
+  "data": {
+    "practices": [
+      {
+        "lat": 33.72105,
+        "lon": -117.19054,
+        "uid": "66d8d4034f16f5f4b42e1a7e46fa1acb",
+        "slug": "ca-sun-city-27994-bradley-rd-2",
+        "name": "Bill L Jou MD Inc",
+        "website": null,
+        "description": null,
+        "accepts_new_patients": true,
+        "image_urls": [
+          "https://asset1.betterdoctor.com/assets/default_practice.jpg"
+        ],
+        "insurance_uids": [],
+        "visit_address": {
+          "city": "Sun City",
+          "lat": 33.72105,
+          "lon": -117.19054,
+          "state": "CA",
+          "state_long": "California",
+          "street": "27994 Bradley Rd",
+          "street2": "Ste C",
+          "zip": "92586"
+        },
+        "phones": [
+          {
+            "number": "9516768558",
+            "type": "fax"
+          },
+          {
+            "number": "9516768118",
+            "type": "landline"
+          }
+        ],
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ]
+      },
+      {
+        "lat": 33.50994,
+        "lon": -117.15841,
+        "uid": "e788759aa9dee7e1571a79312fe54bbb",
+        "slug": "bill-l-jou-md",
+        "name": "Bill L Jou MD",
+        "website": null,
+        "description": null,
+        "accepts_new_patients": true,
+        "image_urls": [
+          "https://asset1.betterdoctor.com/assets/default_practice.jpg"
+        ],
+        "insurance_uids": [],
+        "visit_address": {
+          "city": "Temecula",
+          "lat": 33.50994,
+          "lon": -117.15841,
+          "state": "CA",
+          "state_long": "California",
+          "street": "27699 Jefferson Ave",
+          "street2": "Ste 203",
+          "zip": "92590"
+        },
+        "phones": [
+          {
+            "number": "9516768558",
+            "type": "fax"
+          },
+          {
+            "number": "9516768118",
+            "type": "landline"
+          }
+        ],
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ]
+      },
+      {
+        "lat": 33.51326,
+        "lon": -117.17359,
+        "uid": "aea860dd6978052bff8d0580ca63850d",
+        "slug": "bill-l-jou-md-inc",
+        "name": "Bill L Jou MD Inc",
+        "website": null,
+        "description": null,
+        "accepts_new_patients": true,
+        "image_urls": [
+          "https://asset1.betterdoctor.com/assets/default_practice.jpg"
+        ],
+        "insurance_uids": [],
+        "visit_address": {
+          "city": "Temecula",
+          "lat": 33.51326,
+          "lon": -117.17359,
+          "state": "CA",
+          "state_long": "California",
+          "street": "41900 Winchester Rd",
+          "street2": "# 100",
+          "zip": "92590"
+        },
+        "phones": [
+          {
+            "number": "9516768558",
+            "type": "fax"
+          },
+          {
+            "number": "9516768118",
+            "type": "landline"
+          }
+        ],
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Wayne State University School of Medicine",
+        "graduation_year": null,
+        "degree": "MD"
+      }
+    ],
+    "profile": {
+      "first_name": "Bill",
+      "middle_name": "Liang",
+      "last_name": "Jou",
+      "slug": "bill-jou",
+      "title": "MD",
+      "image_url": "https://asset3.betterdoctor.com/images/531e869a4214f849610000d0-1_thumbnail.jpg",
+      "gender": "male",
+      "languages": [
+        {
+          "name": "English",
+          "code": "en"
+        }
+      ],
+      "bio": "Dr. Bill Jou, MD is one of the best rated doctors in the United States. He specializes in endocrinology, diabetes & metabolism and internal medicine and currently sees patients in Sun city, California and Temecula, California.\n\nDr. Jou holds a medical degree from Wayne State University School Of Medicine and is licensed to treat patients in California.\n\nBased on his experience, credentials and network, Dr. Jou has been found to be in the top 20% of all doctors in the United States.\n\nIn addition, Dr. Jou has passed an automated background check which looked at elements including medical license status and malpractice screening (no history found)."
+    },
+    "ratings": [
+      {
+        "active": true,
+        "provider": "betterdoctor",
+        "provider_uid": "131c946e87d5dcc906ca149efec708ea",
+        "provider_url": "https://betterdoctor.com/bill-jou",
+        "rating": 5,
+        "review_count": 0,
+        "image_url_small": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0.png",
+        "image_url_small_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0@2x.png",
+        "image_url_large": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0.png",
+        "image_url_large_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0@2x.png"
+      }
+    ],
+    "insurances": [
+      {
+        "insurance_plan": {
+          "uid": "aetna-aetnabasichmo",
+          "name": "Basic - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aetnachoiceposiiwithhealthfund",
+          "name": "Choice - POS II with HealthFund",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aetnachoiceposwithhealthfund",
+          "name": "Choice - POS with HealthFund",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aetnahealthfundhmo",
+          "name": "HealthFund - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aetnamdbronzesilverandgoldhmo",
+          "name": "MD Bronze, Silver & Gold - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aetnamedicareplanhmoopenaccesshmo",
+          "name": "Medicare Plan - HMO - Open Access",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aetnaopenaccesshmo",
+          "name": "Open Access - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aetnawholehealthsmbannerhealthnetworkhmo",
+          "name": "Whole Health℠ - Banner Health Network - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aexcelchoiceposii",
+          "name": "Aexcel Choice - POS II",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aexcelchoiceposiiwithhealthfund",
+          "name": "Aexcel Choice - POS II with HealthFund",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aexcelmanagedchoicepos",
+          "name": "Aexcel Managed Choice - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aexcelopenaccessmanagedchoicepos",
+          "name": "Aexcel Open Access Managed Choice - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aexcelopenaccessmanagedchoiceposwithhealthfund",
+          "name": "Aexcel Open Access Managed Choice - POS with HealthFund",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aexcelpluschoiceposii",
+          "name": "Aexcel Plus Choice - POS II",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aexcelpluschoiceposiiwithhealthfund",
+          "name": "Aexcel Plus Choice - POS II with HealthFund",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aexcelplusmanagedchoicepos",
+          "name": "Aexcel Plus Managed Choice - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aexcelplusopenaccessmanagedchoicepos",
+          "name": "Aexcel Plus Open Access Managed Choice - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-aexcelplusopenaccessmanagedchoiceposwithhealthfund",
+          "name": "Aexcel Plus Open Access Managed Choice - POS with HealthFund",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-cahmoconcentriccommercial",
+          "name": "CA Concentric Commercial - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-choiceposii",
+          "name": "Choice - POS II",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-choiceppo",
+          "name": "Choice - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-healthynewyorkhmo",
+          "name": "Healthy New York - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-hmo",
+          "name": "HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-hmodeductibleplancamembersonly",
+          "name": "HMO - Deductible Plan - California Members Only",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "aetna-managedchoicepos",
+          "name": "Managed Choice - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "aetna",
+          "name": "Aetna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "anthem-5199employeeelect",
+          "name": "51-99 Employee Elect",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "anthem",
+          "name": "Anthem Blue Cross"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "anthem-advantagehmo",
+          "name": "Advantage - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "anthem",
+          "name": "Anthem Blue Cross"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "anthem-advantageppo",
+          "name": "Advantage - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "anthem",
+          "name": "Anthem Blue Cross"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "anthem-bluecardppo",
+          "name": "Blue Card - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "anthem",
+          "name": "Anthem Blue Cross"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "anthem-bluecrosshmocaliforniacare",
+          "name": "Blue Cross - HMO (CaliforniaCare)",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "anthem",
+          "name": "Anthem Blue Cross"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "anthem-bluecrossposhmonetwork",
+          "name": "Blue Cross - POS - HMO Network",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "anthem",
+          "name": "Anthem Blue Cross"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "anthem-bluecrossppoprudentbuyer",
+          "name": "Blue Cross - PPO (Prudent Buyer)",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "anthem",
+          "name": "Anthem Blue Cross"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "anthem-blueviewvision",
+          "name": "Blue View Vision",
+          "category": [
+            "vision"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "anthem",
+          "name": "Anthem Blue Cross"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "anthem-freedomblueppo",
+          "name": "Freedom Blue - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "anthem",
+          "name": "Anthem Blue Cross"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "anthem-lumenosplans",
+          "name": "Lumenos Plans",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "anthem",
+          "name": "Anthem Blue Cross"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "anthem-nationalppobluecardppo",
+          "name": "National - PPO - BlueCard PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "anthem",
+          "name": "Anthem Blue Cross"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "anthem-nationalppobluecardppobasic",
+          "name": "National - PPO - BlueCard PPO Basic",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "anthem",
+          "name": "Anthem Blue Cross"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "anthem-selectplushmo",
+          "name": "Select Plus - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "anthem",
+          "name": "Anthem Blue Cross"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "anthembluecrossblueshield-nationalppobluecardppo",
+          "name": "National - PPO - BlueCard PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "anthembluecrossblueshield",
+          "name": "Anthem Blue Cross Blue Shield"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "anthembluecrossblueshield-nationalppobluecardppobasic",
+          "name": "National - PPO - BlueCard PPO Basic",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "anthembluecrossblueshield",
+          "name": "Anthem Blue Cross Blue Shield"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "bcbs-bluecardppo",
+          "name": "Blue Card - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "bcbs",
+          "name": "Blue Cross Blue Shield"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "bcbs-bluecrosscaliforniappo",
+          "name": "Blue Cross California - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "bcbs",
+          "name": "Blue Cross Blue Shield"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "bcbs-blueshieldcaliforniappo",
+          "name": "Blue Shield California - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "bcbs",
+          "name": "Blue Cross Blue Shield"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "bcbs-blueshieldsavings",
+          "name": "Blue Shield Savings",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "bcbs",
+          "name": "Blue Cross Blue Shield"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "bcbs-blueshieldspectrumppo",
+          "name": "Blue Shield Spectrum - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "bcbs",
+          "name": "Blue Cross Blue Shield"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "bluecrossblueshieldofgeorgia-nationalppobluecardppo",
+          "name": "National - PPO - BlueCare PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "bluecrossblueshieldofgeorgia",
+          "name": "Blue Cross Blue Shield of Georgia (BCBSGA)"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "bluecrossblueshieldofgeorgia-nationalppobluecardppobasic",
+          "name": "National - PPO - BlueCare PPO Basic",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "bluecrossblueshieldofgeorgia",
+          "name": "Blue Cross Blue Shield of Georgia (BCBSGA)"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "blueshieldofcalifornia-accesshmo",
+          "name": "Access+ - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "blueshieldofcalifornia",
+          "name": "Blue Shield of California"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "blueshieldofcalifornia-blueshield65plushmo",
+          "name": "Blue Shield 65 Plus - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "blueshieldofcalifornia",
+          "name": "Blue Shield of California"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "blueshieldofcalifornia-blueshieldcabasicppobronzelevelhix",
+          "name": "Basic PPO - Bronze level HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "blueshieldofcalifornia",
+          "name": "Blue Shield of California"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "blueshieldofcalifornia-blueshieldofcaliforniapponetwork",
+          "name": "Blue Shield of California - PPO Network",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "blueshieldofcalifornia",
+          "name": "Blue Shield of California"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "blueshieldofcalifornia-federalemployeehealthbenefitprogramaccesshmo",
+          "name": "Federal Employee Health Benefit Program Access+ - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "blueshieldofcalifornia",
+          "name": "Blue Shield of California"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "blueshieldofcalifornia-localaccesshmo",
+          "name": "Local Access+ - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "blueshieldofcalifornia",
+          "name": "Blue Shield of California"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "cigna-choicefundoaplus",
+          "name": "Choice Fund Open Access Plus",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "cigna",
+          "name": "Cigna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "cigna-choicefundoapluswithcarelink",
+          "name": "Choice Fund Open Access Plus with CareLink",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "cigna",
+          "name": "Cigna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "cigna-choicefundppo",
+          "name": "Choice Fund - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "cigna",
+          "name": "Cigna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "cigna-hmo",
+          "name": "HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "cigna",
+          "name": "Cigna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "cigna-network",
+          "name": "Network",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "cigna",
+          "name": "Cigna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "cigna-openaccess",
+          "name": "Open Access",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "cigna",
+          "name": "Cigna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "cigna-openaccessplus",
+          "name": "Open Access Plus",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "cigna",
+          "name": "Cigna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "cigna-openaccesspluswithcarelink",
+          "name": "Open Access Plus with CareLink",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "cigna",
+          "name": "Cigna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "cigna-pos",
+          "name": "POS",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "cigna",
+          "name": "Cigna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "cigna-ppo",
+          "name": "PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "cigna",
+          "name": "Cigna"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "empirebluecrossblueshield-nationalppobluecardppo",
+          "name": "National - PPO - BlueCard PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "empirebluecrossblueshield",
+          "name": "Empire Blue Cross Blue Shield"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "empirebluecrossblueshield-nationalppobluecardppobasic",
+          "name": "National - PPO - BlueCard PPO Basic",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "empirebluecrossblueshield",
+          "name": "Empire Blue Cross Blue Shield"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "healthnet-bluegoldhmo",
+          "name": "Blue & Gold - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "healthnet",
+          "name": "HealthNet"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "healthnet-californialargegroupppo",
+          "name": "California Large Group - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "healthnet",
+          "name": "Health Net"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "healthnet-healthnetindividualfamilyppohix",
+          "name": "Health Net Individual & Family - PPO & HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "healthnet",
+          "name": "HealthNet"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "healthnet-healthyhearthmo",
+          "name": "Healthy Heart - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "healthnet",
+          "name": "HealthNet"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "healthnet-hmoemployergroup",
+          "name": "HMO - Employer Group",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "healthnet",
+          "name": "Health Net"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "healthnet-hmoemployergroupplans",
+          "name": "HMO - Employer Group Plans",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "healthnet",
+          "name": "HealthNet"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "healthnet-hmoexcelcaresilvernetwork",
+          "name": "HMO - ExcelCare & Silver Network",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "healthnet",
+          "name": "HealthNet"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "healthnet-hmoexcelcaresilvernetworkmedicarecob",
+          "name": "HMO - ExcelCare & Silver Network Medicare COB",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "healthnet",
+          "name": "HealthNet"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "healthnet-hmoindividualfamily",
+          "name": "HMO - Individual & Family",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "healthnet",
+          "name": "HealthNet"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "healthnet-rubyselecthmosanfrancisco",
+          "name": "Ruby Select - HMO - San Francisco",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "healthnet",
+          "name": "HealthNet"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "healthnet-saludhmoplus",
+          "name": "Salud HMO Plus",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "healthnet",
+          "name": "HealthNet"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "healthnet-seniorityplusamberiihmosnp",
+          "name": "Seniority Plus Amber II - HMO SNP",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "healthnet",
+          "name": "HealthNet"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "healthnet-seniorityplusemployerhmo",
+          "name": "Seniority Plus - Employer HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "healthnet",
+          "name": "HealthNet"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "healthnet-seniorityplusgreenhmo",
+          "name": "Seniority Plus Green - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "healthnet",
+          "name": "HealthNet"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "humana-choicecarenetworkppo",
+          "name": "ChoiceCare Network - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "humana",
+          "name": "Humana"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "humana-humanachoicecarenetworkppo",
+          "name": "ChoiceCare Network - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "humana",
+          "name": "Humana"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "medicare-medicare",
+          "name": "Medicare",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "medicare",
+          "name": "Medicare"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "multiplan-multiplanppo",
+          "name": "PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "multiplan",
+          "name": "Multiplan"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "multiplan-phcsppo",
+          "name": "PHCS - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "multiplan",
+          "name": "Multiplan"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "multiplan-phcsppokaiser",
+          "name": "PHCS - PPO - Kaiser",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "multiplan",
+          "name": "Multiplan"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "pacificare-pacificarehmo",
+          "name": "HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "pacificare",
+          "name": "PacifiCare"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "uhc-choicehmochoiceplushmo",
+          "name": "Choice HMO & Choice Plus HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "uhc",
+          "name": "UnitedHealthcare"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "uhc-choicepluspos",
+          "name": "Choice Plus - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "uhc",
+          "name": "UnitedHealthcare"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "uhc-navigatehmonavigatebalancedhmonavigateplushmo",
+          "name": "Navigate HMO & Navigate Balanced HMO & Navigate Plus HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "uhc",
+          "name": "UnitedHealthcare"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "uhc-navigatenavigatebalanced",
+          "name": "Navigate & Navigate Balanced",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "uhc",
+          "name": "UnitedHealthcare"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "uhc-navigateplus",
+          "name": "Navigate Plus",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "uhc",
+          "name": "UnitedHealthcare"
+        }
+      },
+      {
+        "insurance_plan": {
+          "uid": "uhc-optionsppo",
+          "name": "Options - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        "insurance_provider": {
+          "uid": "uhc",
+          "name": "UnitedHealthcare"
+        }
+      }
+    ],
+    "specialties": [
+      {
+        "uid": "endocrinologist",
+        "name": "Endocrinology, Diabetes & Metabolism",
+        "description": "Specializes in diabetes, thyroid and other disorders affected by hormones.",
+        "category": "medical",
+        "actor": "Endocrinologist",
+        "actors": "Endocrinologists"
+      },
+      {
+        "uid": "internist",
+        "name": "Internal Medicine",
+        "description": "Specializes in common illnesses and complex medical problems.",
+        "category": "medical",
+        "actor": "Internist",
+        "actors": "Internists"
+      }
+    ],
+    "hospital_affiliations": [],
+    "group_affiliations": [],
+    "claims": [
+      {
+        "hcpcs": "99214",
+        "hcpcs_description": "Office / outpatient visit, established patient, 25 minutes",
+        "service_cnt": 182,
+        "bene_uniq_cnt": 128,
+        "avg_allowed_amt": 106.98,
+        "avg_charge_amt": 150,
+        "avg_payment_amt": 82.955
+      },
+      {
+        "hcpcs": "99213",
+        "hcpcs_description": "Office / outpatient visit, established patient, 15 minutes",
+        "service_cnt": 174,
+        "bene_uniq_cnt": 118,
+        "avg_allowed_amt": 72.42,
+        "avg_charge_amt": 100,
+        "avg_payment_amt": 57.097586207
+      },
+      {
+        "hcpcs": "99204",
+        "hcpcs_description": "Office / outpatient visit, new patient, 45 minutes",
+        "service_cnt": 157,
+        "bene_uniq_cnt": 157,
+        "avg_allowed_amt": 163.41,
+        "avg_charge_amt": 228.02547771,
+        "avg_payment_amt": 129.52286624
+      },
+      {
+        "hcpcs": "10022",
+        "hcpcs_description": "Fine needle aspiration with image",
+        "service_cnt": 32,
+        "bene_uniq_cnt": 21,
+        "avg_allowed_amt": 141.83,
+        "avg_charge_amt": 200,
+        "avg_payment_amt": 113.461875
+      },
+      {
+        "hcpcs": "76942",
+        "hcpcs_description": "Ultrasonic guidance, needle placement",
+        "service_cnt": 11,
+        "bene_uniq_cnt": 11,
+        "avg_allowed_amt": 200,
+        "avg_charge_amt": 200,
+        "avg_payment_amt": 160
+      }
+    ],
+    "uid": "131c946e87d5dcc906ca149efec708ea",
+    "npi": "1285699967",
+    "attribution_url": "https://betterdoctor.com/bill-jou"
+  }
+}

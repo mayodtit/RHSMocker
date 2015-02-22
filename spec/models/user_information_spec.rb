@@ -5,69 +5,51 @@ describe UserInformation do
   it_validates 'presence of', :user
   it_validates 'uniqueness of', :user_id
 
-  describe '#track_create' do
-    let!(:member) { create :member }
-    let(:user_information) { build :user_information, user: member }
+  let!(:member) { create :member }
 
-    before do
-      # Prevent changes from being tracked on other models, so we can isolate this one.
-      Member.any_instance.stub(:track_update)
-      UserChange.destroy_all
-    end
+  before do
+    UserChange.destroy_all
+  end
 
-    it 'it tracks a change after user information is added to a user' do
-      user_information.save!
-      UserInformation.count.should == 1
-      u = UserChange.last
-      u.user.should == member
-      u.actor.should == Member.robot
-      u.action.should == 'add'
-      u.data.should == {informations: [user_information.user.first_name, user_information.user.last_name]}
-    end
-
-    context 'actor_id is defined' do
-      let(:pha) { build_stubbed :pha }
-
-      before do
-        user_information.actor_id = pha.id
+  describe '#track_change' do
+    context 'on create' do
+      def create_info
+        UserInformation.create( user_id: member.id, notes: 'test' )
       end
 
-      it 'uses the defined actor id' do
-        UserChange.should_receive(:create!).with hash_including(actor_id: pha.id)
-        user_information.track_create
+      it 'should log the created user information in the user change log' do
+        create_info
+        expect( UserChange.all.first.data['notes'].last).to eq('test')
+      end
+    end
+
+    context 'on update' do
+      let!(:user_information) { create :user_information, user: member }
+
+      def update_info
+        UserChange.destroy_all
+        user_information.update_attributes( notes: 'test')
+      end
+
+      it 'should log the updated user information in the user change log' do
+        update_info
+        expect( UserChange.all.first.data['notes']).to eq([nil,'test'])
       end
     end
   end
-  
+
   describe '#track_destroy' do
-    let!(:member) { create :member }
-    let!(:user_information) { create :user_information, user: member }
+    context 'on destroy' do
+      let!(:user_information) { create :user_information, user: member, notes: 'test' }
 
-    before do
-      Member.any_instance.stub(:track_update)
-      UserChange.destroy_all
-    end
-
-    it 'tracks a change after user information is destroyed' do
-      user_information.destroy
-      UserChange.count.should == 1
-      u = UserChange.last
-      u.user.should == member
-      u.actor.should == Member.robot
-      u.action.should == 'destroy'
-      u.data.should == {informations: [user_information.user.first_name,  user_information.user.last_name]}
-    end
-
-    context 'actor_id is defined' do
-      let(:pha) { build_stubbed :pha }
-
-      before do
-        user_information.actor_id = pha.id
+      def destroy_info
+        UserChange.destroy_all
+        UserInformation.destroy(user_information)
       end
 
-      it 'uses the defined actor id' do
-        UserChange.should_receive(:create!).with hash_including(actor_id: pha.id)
-        user_information.track_destroy
+      it 'should log the destroyed user information in the user change log' do
+        destroy_info
+        expect( UserChange.all.first.data[:user_information]['id']).to eq(user_information.id)
       end
     end
   end

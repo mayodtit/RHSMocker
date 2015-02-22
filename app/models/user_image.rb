@@ -5,7 +5,7 @@ class UserImage < ActiveRecord::Base
   has_many :insurance_card_back_insurance_policies, class_name: 'InsurancePolicy', foreign_key: :insurance_card_back_id, inverse_of: :insurance_card_back, dependent: :nullify
   mount_uploader :image, UserImageUploader
 
-  attr_accessible :user, :user_id, :image, :client_guid
+  attr_accessible :user, :user_id, :image, :client_guid, :created_at
 
   validates :user, presence: true
   validates :client_guid, uniqueness: true, if: ->(u){u.client_guid.present?}

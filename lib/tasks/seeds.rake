@@ -411,7 +411,7 @@ namespace :seeds do
     end
 
     puts 'Creating super users...'
-    PHA_LEADS = %w(kyle@getbetter.com emilio@getbetter.com)
+    PHA_LEADS = %w(kyle@getbetter.com emilio@getbetter.com neel@getbetter.com)
     PHA_LEADS.each do |email|
       m = Member.find_or_create_by_email!(
           email: email,

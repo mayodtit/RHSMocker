@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "error": true,
+    "message": "Invalid user_key",
+    "error_code": 1000,
+    "http_status_code": 401
+  }
+}
