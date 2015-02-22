@@ -1,8 +1,16 @@
 require 'spec_helper'
 require 'webmock/rspec'
-WebMock.disable_net_connect!(allow_localhost: true)
 
 describe DataSources::BetterDoctor do
+  before do
+    stub_request(:any, /api.betterdoctor.com/).to_rack(FakeBetterDoctor)
+    WebMock.disable_net_connect!(allow_localhost: true)
+  end
+
+  after do
+    WebMock.allow_net_connect!
+  end
+
   describe ".build_query_url" do
     context "when passed nil, it returns nil" do
       it { expect(DataSources::BetterDoctor.send(:build_query_url, nil)).to be_nil }
@@ -149,5 +157,3 @@ describe DataSources::BetterDoctor do
     end
   end
 end
-
-WebMock.allow_net_connect!

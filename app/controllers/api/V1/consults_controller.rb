@@ -18,7 +18,13 @@ class Api::V1::ConsultsController < Api::V1::ABaseController
   end
 
   def create
-    create_resource Consult, consult_attributes
+    @consult = Consult.create(consult_attributes)
+    if @consult.errors.empty?
+      @consult = Consult.find(@consult.id) # force reload of CarrierWave image url
+      render_success(consult: @consult.serializer)
+    else
+      render_failure({reason: @consult.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   private
