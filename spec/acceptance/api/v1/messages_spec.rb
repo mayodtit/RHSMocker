@@ -16,6 +16,7 @@ resource "Messages" do
 
   before do
     Metadata.create!(mkey: 'remove_robot_response', mvalue: 'true')
+    CarrierWave::Mount::Mounter.any_instance.stub(:store!)
   end
 
   context 'existing record' do

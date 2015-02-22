@@ -10,7 +10,13 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def create
-    create_resource(@consult.messages, message_attributes)
+    @message = @consult.messages.create(message_attributes)
+    if @message.errors.empty?
+      @message = Message.find(@message.id) # force reload of CarrierWave image url
+      render_success(message: @message.serializer)
+    else
+      render_failure({reason: @message.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   private
