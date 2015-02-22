@@ -35,7 +35,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     user = Member.find_by_email!(email)
 
     params = {
-      subject: 'Welcome to Better Free',
+      subject: 'Welcome to Better',
       to: { email: email },
       template: WELCOME_TO_BETTER_FREE_TRIAL_TEMPLATE,
       headers: {
@@ -63,7 +63,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
 
   def welcome_to_premium_email(email, salutation)
     params = {
-      subject: 'Welcome to Better Premium',
+      subject: 'Welcome to Better',
       to: { email: email },
       template: 'PAID Premium User Welcome',
       vars: {
