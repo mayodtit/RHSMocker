@@ -9,7 +9,8 @@ class Session < ActiveRecord::Base
 
   validates :member, presence: true
   validates :auth_token, presence: true, uniqueness: true
-  validates :apns_token, :gcm_id, uniqueness: true, allow_nil: true
+  validates :apns_token, uniqueness: {scope: :disabled_at}, allow_nil: true
+  validates :gcm_id, uniqueness: {scope: :disabled_at}, allow_nil: true
 
   before_validation :set_auth_token
   before_destroy :unset_notification_tokens
