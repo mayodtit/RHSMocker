@@ -157,4 +157,14 @@ class ScheduledJobs
       end
     end
   end
+
+  def self.timeout_messages
+    Member.phas.each do |pha|
+      if pha.sessions.where(device_os: nil).empty?
+        MessageTask.where(owner_id: pha.id).each do |task|
+          task.update_attributes(owner: nil, state_event: :unstart)
+        end
+      end
+    end
+  end
 end

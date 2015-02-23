@@ -16,6 +16,5 @@ module TimeoutModule
     update_attribute(:disabled_at, expires_at)
   end
 
-
   alias_method :destroy!, :destroy
 end

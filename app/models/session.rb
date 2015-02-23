@@ -47,10 +47,4 @@ class Session < ActiveRecord::Base
     self.apns_token = nil
     self.gcm_id = nil
   end
-
-  def unstart_messages
-    MessageTask.where(owner_id: member_id).each do |task|
-      task.update_attributes!(owner: nil, state_event: :unstart)
-    end
-  end
 end
