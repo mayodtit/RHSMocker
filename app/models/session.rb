@@ -14,6 +14,7 @@ class Session < ActiveRecord::Base
 
   before_validation :set_auth_token
   before_destroy :unset_notification_tokens
+  after_destroy :unstart_messages
 
   def store_apns_token!(token)
     if apns_token != token
@@ -45,5 +46,12 @@ class Session < ActiveRecord::Base
   def unset_notification_tokens
     self.apns_token = nil
     self.gcm_id = nil
+  end
+
+  def unstart_messages
+    MessageTask.where(owner_id: member_id).each do |task|
+      task.unstart
+      task.update_attribute(:owner, nil)
+    end
   end
 end
