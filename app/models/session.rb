@@ -14,7 +14,6 @@ class Session < ActiveRecord::Base
 
   before_validation :set_auth_token
   before_destroy :unset_notification_tokens
-  after_destroy :unstart_messages
 
   def store_apns_token!(token)
     if apns_token != token
