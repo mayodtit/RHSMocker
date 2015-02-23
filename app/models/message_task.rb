@@ -51,6 +51,13 @@ class MessageTask < Task
     end
   end
 
+  def self.log_out(member_id)
+    where(owner_id: member_id).each do |task|
+        task.unstart
+        task.update_attribute(:owner, nil)
+    end
+  end
+
   def set_priority
     if role.on_call?
       self.priority = NTH_MESSAGE_PRIORITY

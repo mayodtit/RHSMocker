@@ -7,7 +7,9 @@ module TimeoutModule
 
   def destroy
     run_callbacks :destroy do
-      update_attribute(:disabled_at, Time.now)
+      if member
+        MessageTask.log_out(member.id)
+      end
       self
     end
   end
