@@ -10,6 +10,7 @@ module TimeoutModule
       if member
         MessageTask.log_out(member.id)
       end
+      update_attribute(:disabled_at, Time.now)
       self
     end
   end
