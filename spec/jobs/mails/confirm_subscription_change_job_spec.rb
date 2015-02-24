@@ -40,5 +40,4 @@ describe Mails::ConfirmSubscriptionChangeJob do
       described_class.new(user.id, subscription).perform
     end
   end
-
 end
