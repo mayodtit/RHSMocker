@@ -6,10 +6,14 @@ class MessageSerializer < ActiveModel::Serializer
              :content_id, :symptom_id, :condition_id, :note, :user_image_id,
              :contents, :system, :user_id
 
-  has_one :user
-  has_one :phone_call
-  has_one :phone_call_summary
-  has_one :scheduled_phone_call
+  def attributes
+    super.tap do |attributes|
+      attributes.merge!(
+          user: object.user.try(:serializer, options.merge(shallow: true))
+      )
+
+    end
+  end
 
   def title
     'Conversation with a Health Assistant'
