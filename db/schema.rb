@@ -312,6 +312,19 @@ ActiveRecord::Schema.define(:version => 20150212015132) do
   add_index "enrollments", ["email"], :name => "index_enrollments_on_email"
   add_index "enrollments", ["token"], :name => "index_enrollments_on_token"
 
+  create_table "entries", :force => true do |t|
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+    t.integer  "member_id",     :null => false
+    t.integer  "resource_id",   :null => false
+    t.string   "resource_type", :null => false
+    t.integer  "actor_id"
+    t.text     "data"
+  end
+
+  add_index "entries", ["member_id"], :name => "index_entries_on_member_id"
+  add_index "entries", ["resource_id", "resource_type"], :name => "index_entries_on_resource_id_and_resource_type"
+
   create_table "ethnic_groups", :force => true do |t|
     t.string   "name",           :default => "", :null => false
     t.datetime "created_at",                     :null => false
@@ -671,6 +684,15 @@ ActiveRecord::Schema.define(:version => 20150212015132) do
     t.datetime "updated_at",  :null => false
   end
 
+  create_table "proximities", :force => true do |t|
+    t.string  "city"
+    t.integer "zip"
+    t.string  "state"
+    t.string  "county"
+    t.float   "latitude"
+    t.float   "longitude"
+  end
+
   create_table "referral_codes", :force => true do |t|
     t.string   "name"
     t.string   "code"
@@ -773,10 +795,11 @@ ActiveRecord::Schema.define(:version => 20150212015132) do
   end
 
   create_table "service_types", :force => true do |t|
-    t.string   "name",       :null => false
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.string   "name",                 :null => false
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
     t.string   "bucket"
+    t.text     "description_template"
   end
 
   add_index "service_types", ["bucket"], :name => "index_service_types_on_bucket"

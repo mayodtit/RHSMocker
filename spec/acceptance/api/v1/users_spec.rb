@@ -9,6 +9,10 @@ resource 'Users' do
   let(:user) { create(:member, :trial, password: current_password) }
   let(:session) { user.sessions.create }
 
+  before do
+    CarrierWave::Mount::Mounter.any_instance.stub(:store!)
+  end
+
   get '/api/v1/users' do
     parameter :auth_token, "User's Auth token"
     parameter :first_name, "Optional filter for external search"
