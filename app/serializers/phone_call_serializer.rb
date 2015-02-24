@@ -14,6 +14,7 @@ class PhoneCallSerializer < ActiveModel::Serializer
       {
         id: object.id,
         created_at: object.created_at,
+        user: object.user.try(:serializer, options.merge(shallow: true)),
         user_id: object.user_id,
         state: object.state
       }

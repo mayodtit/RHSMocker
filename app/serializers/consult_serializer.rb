@@ -3,11 +3,16 @@ class ConsultSerializer < ViewSerializer
 
   attributes :id, :title, :description, :initiator_id, :subject_id, :state,
              :image_url, :created_at, :updated_at, :status, :subject_full_name
-
-  has_one :initiator
-  has_one :subject
+  
   delegate :subject, to: :object
   alias_method :status, :state
+
+  def attributes
+    super.tap do |attributes|
+      attributes[:initiator] = object.initiator.try(:serializer, options.merge(shallow: true)) if object.respond_to? :initiator
+      attributes[:subject] = object.subject.try(:serializer, options.merge(shallow: true)) if object.respond_to? :subject
+    end
+  end
 
   def body
     controller.render_to_string(template: 'api/v1/cards/preview',
