@@ -5,6 +5,6 @@ class Mails::NotifyUserWhenFirstChargeFailJob < Struct.new(:user_id)
 
   def perform
     user = User.find(user_id)
-    RHSMailer.notify_user_when_first_charge_fail(user)
+    RHSMailer.notify_user_when_first_charge_fail(user).deliver
   end
 end
