@@ -105,7 +105,7 @@ describe 'Members' do
       let(:member_params) { {user: {email: 'kyle+test@getbetter.com', password: 'password', enrollment_token: enrollment.token, payment_token: credit_card_token, code: referral_code.code}} }
 
       it 'queues an email to the referrer' do
-        SendNotifyReferrerOnSignUpEmailService.should_receive(:new).once.and_call_original
+        NotifyReferrerWhenRefereeSignUpService.should_receive(:new).once.and_call_original
         expect{ do_request(member_params) }.to change(Delayed::Job, :count).by(3)
       end
     end

@@ -1,10 +1,10 @@
 class NotifyReferrerWhenRefereeSignUpService
-  def initialize(options={})
-    @referrer = options[:referrer]
-    @referee = options[:referee]
+  def initialize(referral_code, member)
+    @referrer = referral_code.user
+    @referee = member
   end
 
   def call
-    Mails::NotifyReferrerOfSignUpJob.create(@referee.id, @referee.id)
+    Mails::NotifyReferrerOfSignUpJob.create(@referee.id, @referee.id) if @referrer
   end
 end

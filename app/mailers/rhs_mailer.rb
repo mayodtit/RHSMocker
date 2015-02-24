@@ -373,16 +373,14 @@ class RHSMailer < MandrillMailer::TemplateMailer
       }
     )
   end
-
-  NOTIFY_REFERRER_OF_SIGN_UP_TEMPLATE='Tell a Friend Notification 12/12/2014'
-
+  
   def notify_referrer_of_sign_up(referrer, referee)
     mandrill_mail(
       subject: "Good news #{referee.first_name || "your friend"} has signed up for Better!",
       from: 'support@getbetter.com',
       from_name: 'Better',
       to: { email: referrer.email },
-      template: NOTIFY_REFERRER_OF_SIGN_UP_TEMPLATE,
+      template: 'Tell a Friend Notification 12/12/2014',
       vars: {
         FNAME: referrer.first_name,
         REFEREE_FNAME: referee.first_name
