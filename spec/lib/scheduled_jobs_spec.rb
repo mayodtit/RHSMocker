@@ -505,4 +505,19 @@ describe ScheduledJobs do
       end
     end
   end
+
+  describe '#timeout_messages' do
+    let!(:pha) { create :pha }
+    let!(:session) { create :session, member: pha, device_os: nil, disabled_at: 10.minutes.ago }
+    let!(:message_task) { create :message_task, :claimed, owner: pha, assignor: pha}
+
+    it 'should unstart claimed messsages for PHAs that do not have an active session' do
+      expect(message_task).to be_claimed
+      expect(message_task.owner).to eq(pha)
+      ScheduledJobs.timeout_messages
+      message_task.reload
+      expect(message_task).to be_unstarted
+      expect(message_task.owner).to eq(nil)
+    end
+  end
 end
