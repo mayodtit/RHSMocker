@@ -55,9 +55,9 @@ describe 'GrantReferrerCreditWhenRefereePay' do
     end
 
     it 'should create an invoice item under the created invoice to add the discount' do
-      expect(referrer.discounts.first.invoice_item).to eq({})
+      expect(referrer.discounts.first.invoice_item_id).to eq(nil)
       do_method
-      expect(referrer.discounts.first.invoice_item).not_to eq(nil)
+      expect(referrer.discounts.first.invoice_item_id).not_to eq(nil)
     end
 
     it 'should time stamp the redeemed_at for the user' do

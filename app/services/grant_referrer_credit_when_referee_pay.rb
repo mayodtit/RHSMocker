@@ -63,7 +63,7 @@ class GrantReferrerCreditWhenRefereePay
                                                    :invoice => invoice_id,
                                                    :description => "Referral Discount")
 
-      referrer_discount_record.update_attributes(invoice_item: invoice_item.to_hash)
+      referrer_discount_record.update_attributes(invoice_item_id: invoice_item.id)
       referrer_discount_record.redeemed_at = Time.now
       referrer_discount_record.save!
       end
