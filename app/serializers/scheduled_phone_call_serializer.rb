@@ -10,7 +10,7 @@ class ScheduledPhoneCallSerializer < ActiveModel::Serializer
     if options[:shallow]
       {
         id: object.id,
-        owner: object.owner,
+        owner: object.owner.try(:serializer, options.merge(shallow: true)),
         state: object.state,
         scheduled_at: object.scheduled_at,
         created_at: object.created_at
