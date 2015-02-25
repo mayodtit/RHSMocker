@@ -24,7 +24,7 @@ resource "Messages" do
     let!(:old_message) { create(:message, consult: consult, created_at: Time.parse('2014-08-26T00:17:26Z')) }
 
     get '/api/v1/consults/:consult_id/messages' do
-      parameter :last_message_date, 'Pull messages after this date'
+      parameter :last_message_date, 'DEPRECATED: Pull messages after this date'
 
       let(:last_message_date) { '2014-08-26T00:17:26Z' }
 
