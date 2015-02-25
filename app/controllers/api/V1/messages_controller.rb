@@ -26,7 +26,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def base_messages_with_pagination
-    if page_size
+    if page_size && !care_portal?
       base_messages.order('id DESC').page(page_number).per(page_size)
     elsif params[:last_message_date]
       base_messages.where('created_at > ?', Time.parse(params[:last_message_date]))
@@ -49,6 +49,10 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
   def page_size
     @page_size ||= params[:per] || Metadata.default_page_size
+  end
+
+  def care_portal?
+    params[:care_portal].present?
   end
 
   def load_consult!
