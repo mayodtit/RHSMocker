@@ -11,7 +11,9 @@ class MessageSerializer < ActiveModel::Serializer
       attributes.merge!(
           user: object.user.try(:serializer, options.merge(shallow: true))
       )
-
+      attributes[:phone_call] = object.phone_call.try(:serializer, options.merge(shallow: true)) if object.respond_to? :phone_call
+      attributes[:phone_call_summary] = object.phone_call_summary.try(:serializer, options.merge(shallow: true)) if object.respond_to? :phone_call_summary
+      attributes[:scheduled_phone_call] = object.scheduled_phone_call.try(:serializer, options.merge(shallow: true)) if object.respond_to? :scheduled_phone_call
     end
   end
 
