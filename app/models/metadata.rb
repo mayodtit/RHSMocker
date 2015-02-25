@@ -164,4 +164,8 @@ class Metadata < ActiveRecord::Base
   def self.notify_lack_of_messages?
     Metadata.find_by_mkey('notify_lack_of_messages').try(:mvalue) == 'true'
   end
+
+  def self.default_page_size
+    find_by_mkey('default_page_size').try(:mvalue).try(:to_i)
+  end
 end
