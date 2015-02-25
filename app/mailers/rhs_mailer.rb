@@ -415,7 +415,10 @@ class RHSMailer < MandrillMailer::TemplateMailer
   def confirm_discount_received(user)
     params = {
         subject: 'You should received the discount',
-        from: 'Better',
+        from: 'support@getbetter.com',
+        from_name: "Better",
+        #dummy template used here to test the method, need to change when copy is ready
+        template: MAYO_PILOT_INVITE_TEMPLATE,
         to: {email: user.email}
     }
     send_mail(params)
