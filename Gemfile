@@ -106,3 +106,4 @@ gem 'spawnling', '2.1.1'
 gem 'stripe_event'
 gem 'roo'
 gem 'mail'
+gem 'mailcheck'                 # library for email suggestions
