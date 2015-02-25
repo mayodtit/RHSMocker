@@ -9,8 +9,8 @@ class ConsultSerializer < ViewSerializer
 
   def attributes
     super.tap do |attributes|
-      attributes[:initiator] = object.initiator.try(:serializer, options.merge(shallow: true)) if object.respond_to? :initiator
-      attributes[:subject] = object.subject.try(:serializer, options.merge(shallow: true)) if object.respond_to? :subject
+      attributes[:initiator] = object.initiator.try(:serializer, options.merge(shallow: true))
+      attributes[:subject] = object.subject.try(:serializer, options.merge(shallow: true))
     end
   end
 
