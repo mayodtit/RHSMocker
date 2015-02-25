@@ -17,7 +17,7 @@ class GrantReferrerCreditWhenRefereePay
     return if referrer.nil?
     if referrer && has_coupon?(referrer)
       if redeem_coupon(referrer, referrer_stripe_customer)
-        RHSMailer.delay.confirm_discount_received(referrer)
+        Mails::ConfirmDiscountReceivedJob.create(referrer.id)
       end
     end
   end
@@ -58,7 +58,7 @@ class GrantReferrerCreditWhenRefereePay
     discount_amount = invoice_amount * (referrer_discount_record.discount_percent)
     if referrer_discount_record
       if invoice_item = Stripe::InvoiceItem.create(:customer => customer,
-                                                   :amount => discount_amount,
+                                                   :amount => -discount_amount,
                                                    :currency => "usd",
                                                    :invoice => invoice_id,
                                                    :description => "Referral Discount")
