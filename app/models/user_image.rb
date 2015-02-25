@@ -20,15 +20,15 @@ class UserImage < ActiveRecord::Base
 
   def set_foreign_references
     Message.where(user_image_client_guid: client_guid).each do |m|
-      m.update_attributes!(user_image: self)
+      m.update_attribute(:user_image, self)
     end
 
     InsurancePolicy.where(insurance_card_front_client_guid: client_guid).each do |ip|
-      ip.update_attributes!(insurance_card_front: self)
+      ip.update_attribute(:insurance_card_front, self)
     end
 
     InsurancePolicy.where(insurance_card_back_client_guid: client_guid).each do |ip|
-      ip.update_attributes!(insurance_card_back: self)
+      ip.update_attribute(:insurance_card_back, self)
     end
   end
 end

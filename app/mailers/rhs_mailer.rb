@@ -411,4 +411,26 @@ class RHSMailer < MandrillMailer::TemplateMailer
     }
     send_mail(params)
   end
+
+  def notify_trial_will_end(event)
+    customer = event.data.object.customer
+    user = User.find_by_stripe_customer_id(customer)
+    return if user.nil?
+    plan_name = Stripe::Customer.retrieve(customer).subscriptions.data.first.plan.name
+    return if user.pha.nil?
+    pha_first_name = user.pha.first_name
+    params = {
+        subject: "Your trial is ending soon",
+        from: 'support@getbetter.com',
+        from_name: 'Better',
+        template: "Free month ending (email support) 2/16/2015",
+        to: {email: user.email},
+        vars: {
+          FNAME: user.salutation,
+          PLAN_NAME: plan_name,
+          pha_first_name: pha_first_name
+        }
+    }
+    send_mail(params)
+  end
 end
