@@ -5,7 +5,6 @@ class Api::V1::ValidateEmailController < Api::V1::ABaseController
 
   def index
     @suggestion = validate(params[:q])
-    puts @suggestion
     if @suggestion == false
       render_success
     else    
