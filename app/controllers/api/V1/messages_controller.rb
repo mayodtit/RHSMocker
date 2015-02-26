@@ -44,7 +44,6 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def filter_excluded(page)
-    byebug
     filter_ids ||= params[:exclude].split(",")
     page.where('id not in (?)',(filter_ids.nil? ? [] : filter_ids))
   end
@@ -59,7 +58,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
   def before_message_id(page)
     before_id ||= params[:before]
-    page.where('id < (?)', before_id)
+    before_id.nil? ? page : page.where('id < (?)', before_id)
   end
 
   def care_portal?
