@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150212015132) do
+ActiveRecord::Schema.define(:version => 20150226224052) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -772,6 +772,19 @@ ActiveRecord::Schema.define(:version => 20150212015132) do
   add_index "scheduled_phone_calls", ["scheduled_at"], :name => "index_scheduled_phone_calls_on_scheduled_at"
   add_index "scheduled_phone_calls", ["state", "scheduled_at"], :name => "index_scheduled_phone_calls_on_state_and_scheduled_at"
   add_index "scheduled_phone_calls", ["state"], :name => "index_scheduled_phone_calls_on_state"
+
+  create_table "service_changes", :force => true do |t|
+    t.integer  "service_id", :null => false
+    t.string   "event"
+    t.string   "from"
+    t.string   "to"
+    t.text     "data"
+    t.integer  "actor_id",   :null => false
+    t.datetime "created_at", :null => false
+    t.string   "reason"
+  end
+
+  add_index "service_changes", ["service_id"], :name => "index_service_changes_on_service_id"
 
   create_table "service_state_transitions", :force => true do |t|
     t.integer  "service_id", :null => false

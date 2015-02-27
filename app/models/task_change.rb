@@ -1,3 +1,4 @@
+
 class TaskChange < ActiveRecord::Base
   belongs_to :task
   belongs_to :actor, class_name: 'Member'

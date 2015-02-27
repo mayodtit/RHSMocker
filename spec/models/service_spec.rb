@@ -20,33 +20,6 @@ describe Service do
       service.should_not be_valid
       service.errors[:assigned_at].should include("can't be blank")
     end
-
-    context 'reason_abandoned' do
-      let(:service) { build_stubbed :service }
-
-      context 'service is abandoned' do
-        before do
-          service.stub(:abandoned?) { true }
-        end
-
-        it 'reason_abandoned should be present' do
-          service.reason_abandoned = ''
-          service.should_not be_valid
-          service.errors[:reason_abandoned].should include("can't be blank")
-        end
-      end
-
-      context 'service is not abandoned' do
-        before do
-          service.stub(:abandoned?) { false }
-        end
-
-        it 'reason_abandoned should be present' do
-          service.reason_abandoned = nil
-          service.should be_valid
-        end
-      end
-    end
   end
 
   describe '#set_assigned_at' do
