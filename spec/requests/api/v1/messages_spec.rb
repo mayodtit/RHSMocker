@@ -134,7 +134,7 @@ describe 'Messages' do
         end
       end
 
-      describe 'GET /api/v1/consults/:consult_id/messages?page=1&per=5&exclude=5,3' do
+      describe 'GET /api/v1/consults/:consult_id/messages?page=1&per=5&exclude[]=5&exclude[]=3' do
         let!(:first_message) { create(:message, consult: consult) }
         let!(:second_message) { create(:message, consult: consult) }
         let!(:third_message) { create(:message, consult: consult) }
@@ -144,7 +144,7 @@ describe 'Messages' do
         let!(:seventh_message) { create(:message, consult: consult) }
 
         def do_request
-          get "/api/v1/consults/#{consult.id}/messages?page=1&per=5&exclude=#{fifth_message.id},#{third_message.id}", auth_token: session.auth_token
+          get "/api/v1/consults/#{consult.id}/messages?page=1&per=5&exclude[]=#{fifth_message.id}&exclude[]=#{third_message.id}", auth_token: session.auth_token
         end
 
         it 'tests messaging pagination with page, page size, and exclude parameters specified' do
@@ -156,7 +156,7 @@ describe 'Messages' do
           expect(body[:messages].size).to eql(3)
         end
       end
-      describe 'GET /api/v1/consults/:consult_id/messages?page=1&per=5&exclude=5,3&before=7' do
+      describe 'GET /api/v1/consults/:consult_id/messages?page=1&per=5&exclude[]=5&exclude[]=3&before=7' do
 
         let!(:first_message) { create(:message, consult: consult) }
         let!(:second_message) { create(:message, consult: consult) }
@@ -167,7 +167,7 @@ describe 'Messages' do
         let!(:seventh_message) { create(:message, consult: consult) }
 
         def do_request
-          get "/api/v1/consults/#{consult.id}/messages?page=1&per=5&exclude=#{fifth_message.id},#{third_message.id}&before=#{seventh_message.id}", auth_token: session.auth_token
+          get "/api/v1/consults/#{consult.id}/messages?page=1&per=5&exclude[]=#{fifth_message.id}&exclude[]=#{third_message.id}&before=#{seventh_message.id}", auth_token: session.auth_token
         end
 
         it 'tests messaging pagination with page, page size, exclude, and before parameters specified' do
