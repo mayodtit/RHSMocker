@@ -349,24 +349,6 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
-  def referral_advertisement_email(user)
-    params = {
-      subject: 'Give Better, Get Better',
-      from: 'support@getbetter.com',
-      from_name: 'Better',
-      to: {email: user.email},
-      template: 'Referral Program',
-      headers: {
-        'Reply-To' => 'Better <support@getbetter.com>'
-      },
-      vars: {
-        FNAME: user.salutation,
-        PROMO: user.owned_referral_code.code
-      }
-    }
-    send_mail(params)
-  end
-
   MAYO_PILOT_INVITE_TEMPLATE = 'Mayo Pilot Invitation Plain Text (11/28/2014)'
 
   def mayo_pilot_invite_email(user, provider)
