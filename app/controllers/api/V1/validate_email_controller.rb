@@ -6,9 +6,11 @@ class Api::V1::ValidateEmailController < Api::V1::ABaseController
   def index
     email = params[:q]
     @suggestion = suggest(email)
-    @suggestion == false ? @suggestion = {:suggestion => false} : @suggestion[:suggestion] = true;
+    @suggestion == false ? @suggestion = {:suggestion => false} : @suggestion[:suggestion] = true
     check_domain(email) ? render_success(@suggestion) : render_failure(@suggestion, 422)
   end
+
+  private
 
   def suggest(email)
     mailcheck = Mailcheck.new(
