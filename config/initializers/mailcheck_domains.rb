@@ -36,5 +36,5 @@ MAILCHECK_DOMAINS = [
     "hotmail.com.ar", "live.com.ar", "yahoo.com.ar", "fibertel.com.ar", "speedy.com.ar", "arnet.com.ar",
 
     #Domains used in Mexico
-    "hotmail.com", "gmail.com", "yahoo.com.mx", "live.com.mx", "yahoo.com", "hotmail.es", "live.com", "hotmail.com.mx", "prodigy.net.mx", "msn.com"]
+    "yahoo.com.mx", "live.com.mx", "hotmail.es", "hotmail.com.mx", "prodigy.net.mx"]
 MAILCHECK_TOP_LEVEL_DOMAINS = ["co.jp", "co.uk", "com", "net", "org", "info", "edu", "gov", "mil", "ca"]
