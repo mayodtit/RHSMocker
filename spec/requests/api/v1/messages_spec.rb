@@ -106,7 +106,7 @@ describe 'Messages' do
           get "/api/v1/consults/#{consult.id}/messages?page=1&per=3", auth_token: session.auth_token
         end
 
-        it 'does asdf' do
+        it 'tests messaging pagination with page and page size specified' do
           do_request
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
@@ -125,11 +125,12 @@ describe 'Messages' do
           get "/api/v1/consults/#{consult.id}/messages?page=2&per=3", auth_token: session.auth_token
         end
 
-        it 'does asdf' do
+        it 'tests messaging pagination at end of created terms' do
           do_request
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
           expect(body[:messages].map {|i| i[:id]}).to include(first_message.id, second_message.id)
+          expect(body[:messages].map {|i| i[:id]}).not_to include(third_message.id, fourth_message.id, fifth_message.id)
         end
       end
 
@@ -146,7 +147,7 @@ describe 'Messages' do
           get "/api/v1/consults/#{consult.id}/messages?page=1&per=5&exclude=#{fifth_message.id},#{third_message.id}", auth_token: session.auth_token
         end
 
-        it 'does asdf' do
+        it 'tests messaging pagination with page, page size, and exclude parameters specified' do
           do_request
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
@@ -169,7 +170,7 @@ describe 'Messages' do
           get "/api/v1/consults/#{consult.id}/messages?page=1&per=5&exclude=#{fifth_message.id},#{third_message.id}&before=#{seventh_message.id}", auth_token: session.auth_token
         end
 
-        it 'does asdf' do
+        it 'tests messaging pagination with page, page size, exclude, and before parameters specified' do
           do_request
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
