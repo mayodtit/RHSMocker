@@ -122,7 +122,7 @@ describe 'Messages' do
         let!(:fifth_message) { create(:message, consult: consult) }
 
         def do_request
-          get "/api/v1/consults/#{consult.id}/messages?page=2per=3", auth_token: session.auth_token
+          get "/api/v1/consults/#{consult.id}/messages?page=2&per=3", auth_token: session.auth_token
         end
 
         it 'does asdf' do
@@ -133,7 +133,7 @@ describe 'Messages' do
         end
       end
 
-      describe 'GET /api/v1/consults/:consult_id/messages?page=1&per=5&exclude=1,3' do
+      describe 'GET /api/v1/consults/:consult_id/messages?page=1&per=5&exclude=5,3' do
         let!(:first_message) { create(:message, consult: consult) }
         let!(:second_message) { create(:message, consult: consult) }
         let!(:third_message) { create(:message, consult: consult) }
@@ -143,7 +143,7 @@ describe 'Messages' do
         let!(:seventh_message) { create(:message, consult: consult) }
 
         def do_request
-          get "/api/v1/consults/#{consult.id}/messages?page=1&per=5&exclude=5,3", auth_token: session.auth_token
+          get "/api/v1/consults/#{consult.id}/messages?page=1&per=5&exclude=#{fifth_message.id},#{third_message.id}", auth_token: session.auth_token
         end
 
         it 'does asdf' do
@@ -151,10 +151,12 @@ describe 'Messages' do
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
           expect(body[:messages].map {|i| i[:id]}).to include(seventh_message.id, sixth_message.id, fourth_message.id)
+          expect(body[:messages].map {|i| i[:id]}).not_to include(fifth_message.id, third_message.id)
+          expect(body[:messages].size).to eql(3)
         end
       end
-
       describe 'GET /api/v1/consults/:consult_id/messages?page=1&per=5&exclude=5,3&before=7' do
+
         let!(:first_message) { create(:message, consult: consult) }
         let!(:second_message) { create(:message, consult: consult) }
         let!(:third_message) { create(:message, consult: consult) }
@@ -164,7 +166,7 @@ describe 'Messages' do
         let!(:seventh_message) { create(:message, consult: consult) }
 
         def do_request
-          get "/api/v1/consults/#{consult.id}/messages?page=1&per=5&exclude=5,3&before=7", auth_token: session.auth_token
+          get "/api/v1/consults/#{consult.id}/messages?page=1&per=5&exclude=#{fifth_message.id},#{third_message.id}&before=#{seventh_message.id}", auth_token: session.auth_token
         end
 
         it 'does asdf' do
@@ -172,6 +174,8 @@ describe 'Messages' do
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
           expect(body[:messages].map {|i| i[:id]}).to include(sixth_message.id, fourth_message.id, second_message.id)
+          expect(body[:messages].map {|i| i[:id]}).not_to include(fifth_message.id, third_message.id)
+          expect(body[:messages].size).to eql(3)
         end
       end
     end

@@ -22,12 +22,12 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   private
 
   def messages
-    base_messages_with_pagination.includes(:user).sort_by(&:id)
+    base_messages_with_pagination.includes(:user).reject{|i| i.exclude_id(exclude_list)}.sort_by(&:id)
   end
 
   def base_messages_with_pagination
     if page_size && !care_portal?
-      filter_excluded(before_message_id(base_messages.order('id DESC').page(page_number).per(page_size)))
+      before_message_id(base_messages.order('id DESC').page(page_number).per(page_size))
     elsif params[:last_message_date]
       base_messages.where('created_at > ?', Time.parse(params[:last_message_date]))
     else
@@ -43,9 +43,8 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     end
   end
 
-  def filter_excluded(page)
-    filter_ids ||= params[:exclude]
-    filter_ids.nil? ? page: return_relation_from_id_array((page - page.where('id in (?)', filter_ids.split(","))).map {|i| i.id})
+  def exclude_list
+     params[:exclude].nil? ? [] : params[:exclude]
   end
 
   def return_relation_from_id_array(id_a)
