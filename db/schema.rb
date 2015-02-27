@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150224222125) do
+ActiveRecord::Schema.define(:version => 20150227193301) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1209,7 +1209,7 @@ ActiveRecord::Schema.define(:version => 20150224222125) do
     t.string   "advertiser_campaign"
     t.integer  "impersonated_user_id"
     t.integer  "coupon_count",                                  :default => 0,     :null => false
-    t.boolean  "delinquent",                                    :default => false
+    t.boolean  "delinquent"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
