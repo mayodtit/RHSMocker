@@ -45,7 +45,11 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
   def filter_excluded(page)
     filter_ids ||= params[:exclude]
-    filter_ids.nil? ? page : page.where('id not in (?)', filter_ids.split(","))
+    filter_ids.nil? ? page: return_relation_from_id_array((page - page.where('id in (?)', filter_ids.split(","))).map {|i| i.id})
+  end
+
+  def return_relation_from_id_array(id_a)
+    base_messages.where('id in (?)', id_a)
   end
 
   def page_number

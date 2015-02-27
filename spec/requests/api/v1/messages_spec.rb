@@ -95,6 +95,85 @@ describe 'Messages' do
           expect(body[:messages].count).to eq(25)
         end
       end
+
+      describe 'GET /api/v1/consults/:consult_id/messages?page=1&per=3' do
+        let!(:first_message) { create(:message, consult: consult) }
+        let!(:second_message) { create(:message, consult: consult) }
+        let!(:third_message) { create(:message, consult: consult) }
+        let!(:fourth_message) { create(:message, consult: consult) }
+
+        def do_request
+          get "/api/v1/consults/#{consult.id}/messages?page=1&per=3", auth_token: session.auth_token
+        end
+
+        it 'does asdf' do
+          do_request
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:messages].map {|i| i[:id]}).to include(second_message.id, third_message.id, fourth_message.id)
+        end
+      end
+
+      describe 'GET /api/v1/consults/:consult_id/messages?page=2&per=3' do
+        let!(:first_message) { create(:message, consult: consult) }
+        let!(:second_message) { create(:message, consult: consult) }
+        let!(:third_message) { create(:message, consult: consult) }
+        let!(:fourth_message) { create(:message, consult: consult) }
+        let!(:fifth_message) { create(:message, consult: consult) }
+
+        def do_request
+          get "/api/v1/consults/#{consult.id}/messages?page=2per=3", auth_token: session.auth_token
+        end
+
+        it 'does asdf' do
+          do_request
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:messages].map {|i| i[:id]}).to include(first_message.id, second_message.id)
+        end
+      end
+
+      describe 'GET /api/v1/consults/:consult_id/messages?page=1&per=5&exclude=1,3' do
+        let!(:first_message) { create(:message, consult: consult) }
+        let!(:second_message) { create(:message, consult: consult) }
+        let!(:third_message) { create(:message, consult: consult) }
+        let!(:fourth_message) { create(:message, consult: consult) }
+        let!(:fifth_message) { create(:message, consult: consult) }
+        let!(:sixth_message) { create(:message, consult: consult) }
+        let!(:seventh_message) { create(:message, consult: consult) }
+
+        def do_request
+          get "/api/v1/consults/#{consult.id}/messages?page=1&per=5&exclude=5,3", auth_token: session.auth_token
+        end
+
+        it 'does asdf' do
+          do_request
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:messages].map {|i| i[:id]}).to include(seventh_message.id, sixth_message.id, fourth_message.id)
+        end
+      end
+
+      describe 'GET /api/v1/consults/:consult_id/messages?page=1&per=5&exclude=5,3&before=7' do
+        let!(:first_message) { create(:message, consult: consult) }
+        let!(:second_message) { create(:message, consult: consult) }
+        let!(:third_message) { create(:message, consult: consult) }
+        let!(:fourth_message) { create(:message, consult: consult) }
+        let!(:fifth_message) { create(:message, consult: consult) }
+        let!(:sixth_message) { create(:message, consult: consult) }
+        let!(:seventh_message) { create(:message, consult: consult) }
+
+        def do_request
+          get "/api/v1/consults/#{consult.id}/messages?page=1&per=5&exclude=5,3&before=7", auth_token: session.auth_token
+        end
+
+        it 'does asdf' do
+          do_request
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:messages].map {|i| i[:id]}).to include(sixth_message.id, fourth_message.id, second_message.id)
+        end
+      end
     end
   end
 
