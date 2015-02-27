@@ -226,7 +226,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     params = {
       subject: 'Reset Password Instructions for Better',
       to: { email: email },
-      template: 'Password Reset',
+      template: 'Password Recovery email 2/27/2014',
       vars: {
         GREETING: salutation,
         RESETLINK: url
