@@ -5,7 +5,6 @@ describe Api::V1::ValidateEmailController do
   	get(:index, {:q => email})
   	JSON.parse(response.body)
   end
-
   describe 'GET index' do
   	it 'should return no suggestions for valid email' do
   	  do_request('michael@gmail.com')['suggestion'].should == false
