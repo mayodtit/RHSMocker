@@ -5,6 +5,7 @@ describe Api::V1::ValidateEmailController do
   	get(:index, {:q => email})
   	JSON.parse(response.body)
   end
+
   describe 'GET index' do
   	it 'should return no suggestions for valid email' do
   	  do_request('michael@gmail.com')['suggestion'].should == false
@@ -21,6 +22,11 @@ describe Api::V1::ValidateEmailController do
   	  response = do_request('michael@gmei.com')
   	  response['suggestion'].should == true
   	  response['full'].should == 'michael@gmail.com'
+  	end
+  	it 'should return suggestion for 3 edit distance mis-spelled email' do
+  	  response = do_request('michael@sbc123global.net')
+  	  response['suggestion'].should == true
+  	  response['full'].should == 'michael@sbcglobal.net'
   	end
   	it 'should return suggestion when user forgets dot' do
   	  response = do_request('michael@gmaicom')
