@@ -35,7 +35,7 @@ class Service < ActiveRecord::Base
   end
 
   state_machine :initial => :open do
-    store_audit_trail to: 'ServiceChange', context_to_log: [:actor_id, :data]
+    store_audit_trail to: 'ServiceChange', context_to_log: [:actor_id, :data, :reason]
 
     event :reopen do
       transition any => :open
