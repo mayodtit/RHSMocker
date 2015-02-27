@@ -107,6 +107,7 @@ class Member < User
   validates :nux_answer, presence: true, if: -> (m) { m.nux_answer_id }
   validates :email_confirmation_token, presence: true, unless: ->(m){m.email_confirmed?}
 
+  before_create :set_delinquent_to_false
   before_validation :set_member_flag
   before_validation :set_default_email_confirmed, on: :create
   before_validation :set_email_confirmation_token, unless: ->(m){m.email_confirmed?}
@@ -527,5 +528,10 @@ class Member < User
         rsc.update_publish_at_from_calculation!
       end
     end
+  end
+
+  def set_delinquent_to_false
+    self.delinquent = false
+    nil
   end
 end
