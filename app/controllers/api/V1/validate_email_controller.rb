@@ -1,4 +1,3 @@
-require 'mailcheck'
 require 'valid_email'
 class Api::V1::ValidateEmailController < Api::V1::ABaseController
   skip_before_filter :authentication_check
@@ -13,7 +12,7 @@ class Api::V1::ValidateEmailController < Api::V1::ABaseController
   private
 
   def suggest(email)
-    mailcheck = Mailcheck2.new(
+    mailcheck = Mailcheck.new(
       :domains => MAILCHECK_DOMAINS,
       :top_level_domains => MAILCHECK_TOP_LEVEL_DOMAINS
     )

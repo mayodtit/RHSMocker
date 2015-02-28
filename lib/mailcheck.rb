@@ -1,4 +1,4 @@
-class Mailcheck2
+class Mailcheck
 
   DOMAINS = ['yahoo.com', 'google.com', 'hotmail.com', 'gmail.com', 'me.com', 'aol.com', 'mac.com', 'live.com', 'comcast.net', 'googlemail.com', 'msn.com', 'hotmail.co.uk', 'yahoo.co.uk', 'facebook.com', 'verizon.net', 'sbcglobal.net', 'att.net', 'gmx.com', 'mail.com']
 
@@ -21,23 +21,23 @@ class Mailcheck2
   end
 
   def suggest_for_unknown_address(email)
-    @threshold = 5
     len = email.length
+    @threshold = 99
     match = Hash.new
     match[:dist] = 99
+
     (1...len).each do |i|
       address = email[0...i]
       domain = email[i...len]
       result = find_closest_domain(domain, @domains)
-      if result[1] != nil && result[1] < match[:dist]
+      if result[1] != nil && (result[1] + i * 0.05 < match[:dist])
         match[:dist] = result[1]
         match[:address] = address
         match[:domain] = result[0]
       end
     end
-    puts match
-    puts find_closest_domain('g', @domains)
-    if match[:dist] <= @threshold
+
+    if match[:domain]
       return { :address => match[:address], :domain => match[:domain], :full => "#{match[:address]}@#{match[:domain]}" }
     end
 

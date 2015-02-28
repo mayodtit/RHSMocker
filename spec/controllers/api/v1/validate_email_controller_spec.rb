@@ -9,9 +9,6 @@ describe Api::V1::ValidateEmailController do
   	it 'should return no suggestions for valid email' do
   	  do_request('michael@gmail.com')['suggestion'].should == false
   	end
-  	it 'should return no suggestion for random string' do
-  	  do_request('random gibberish string')['suggestion'].should == false
-  	end
   	it 'should return suggestion for 1 edit distance mis-spelled email' do
   	  response = do_request('michael@gmai.com')
   	  response['suggestion'].should == true
@@ -44,5 +41,15 @@ describe Api::V1::ValidateEmailController do
   	  response['suggestion'].should == true
   	  response['full'].should == 'michael@sbcglobal.net'
   	end
+    it 'michaelgmailcom should correct to michael@gmail.com' do
+      response = do_request('michaelgmailcom')
+      response['suggestion'].should == true
+      response['full'].should == 'michael@gmail.com'
+    end
+    it 'michaelgmai1om should correct to michael@gmail.com' do
+      response = do_request('michaelgmai1om')
+      response['suggestion'].should == true
+      response['full'].should == 'michael@gmail.com'
+    end
   end
 end
