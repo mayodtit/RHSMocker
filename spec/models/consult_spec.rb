@@ -205,10 +205,6 @@ describe Consult do
         consult.messages.include?(new_message).should be_true
         consult.messages.include?(note).should be_false
       end
-
-      it 'returns messages ordered by created at' do
-        consult.reload.messages.should == [old_message, new_message]
-      end
     end
 
     describe '#messages_and_notes' do
@@ -216,10 +212,6 @@ describe Consult do
         consult.messages_and_notes.include?(old_message).should be_true
         consult.messages_and_notes.include?(new_message).should be_true
         consult.messages_and_notes.include?(note).should be_true
-      end
-
-      it 'returns messages ordered by created at' do
-        consult.messages_and_notes.should == [old_message, note, new_message]
       end
     end
   end

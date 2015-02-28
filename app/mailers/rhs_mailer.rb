@@ -226,7 +226,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     params = {
       subject: 'Reset Password Instructions for Better',
       to: { email: email },
-      template: 'Password Reset',
+      template: 'Password Recovery email 2/27/2014',
       vars: {
         GREETING: salutation,
         RESETLINK: url
@@ -349,24 +349,6 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
-  def referral_advertisement_email(user)
-    params = {
-      subject: 'Give Better, Get Better',
-      from: 'support@getbetter.com',
-      from_name: 'Better',
-      to: {email: user.email},
-      template: 'Referral Program',
-      headers: {
-        'Reply-To' => 'Better <support@getbetter.com>'
-      },
-      vars: {
-        FNAME: user.salutation,
-        PROMO: user.owned_referral_code.code
-      }
-    }
-    send_mail(params)
-  end
-
   MAYO_PILOT_INVITE_TEMPLATE = 'Mayo Pilot Invitation Plain Text (11/28/2014)'
 
   def mayo_pilot_invite_email(user, provider)
@@ -432,5 +414,21 @@ class RHSMailer < MandrillMailer::TemplateMailer
         }
     }
     send_mail(params)
+  end
+
+  def confirm_subscription_change(user, subscription)
+    plan_name = subscription.plan.name
+
+    mandrill_mail(
+        subject: 'Your subscription has been updated',
+        from: "support@getbetter.com",
+        from_name: 'Better',
+        to: { email: user.email },
+        template: "Subscription update 2/16/2015",
+        vars: {
+          FNAME: user.salutation,
+          PLAN_NAME: plan_name
+        }
+    )
   end
 end
