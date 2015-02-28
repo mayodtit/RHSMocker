@@ -41,6 +41,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
           end
           SendWelcomeEmailService.new(@member).call
           SendConfirmEmailService.new(@member).call
+          SendDownloadLinkService.new(@member.phone).call if send_download_link?
           render_success user: @member.serializer,
                          member: @member.reload.serializer,
                          pha_profile: @member.pha.try(:pha_profile).try(:serializer),
@@ -203,5 +204,9 @@ class Api::V1::MembersController < Api::V1::ABaseController
       attributes[:enrollment] = @enrollment if @enrollment
       attributes[:time_zone] = params[:device_properties].try(:[], :device_timezone)
     end
+  end
+
+  def send_download_link?
+    params[:send_download_link]
   end
 end
