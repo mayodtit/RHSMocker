@@ -21,20 +21,36 @@ class Mailcheck2
   end
 
   def suggest_for_unknown_address(email)
+    @threshold = 5
     len = email.length
+    match = Hash.new
+    match[:dist] = 99
     (1...len).each do |i|
-      puts "#{email[0...i]} + #{email[i...len]}"
+      address = email[0...i]
+      domain = email[i...len]
+      result = find_closest_domain(domain, @domains)
+      if result[1] != nil && result[1] < match[:dist]
+        match[:dist] = result[1]
+        match[:address] = address
+        match[:domain] = result[0]
+      end
     end
+    puts match
+    puts find_closest_domain('g', @domains)
+    if match[:dist] <= @threshold
+      return { :address => match[:address], :domain => match[:domain], :full => "#{match[:address]}@#{match[:domain]}" }
+    end
+
     false
   end
 
   def suggest_for_known_address(email_parts)
     # If there is no top level domain, allow larger room for error
     if email_parts[:top_level_domain] == ''
-      @threshold = 5
+      @threshold = 4
     end
 
-    closest_domain = find_closest_domain(email_parts[:domain], @domains)
+    closest_domain = find_closest_domain(email_parts[:domain], @domains)[0]
 
     if closest_domain
       if closest_domain != email_parts[:domain]
@@ -47,7 +63,9 @@ class Mailcheck2
       if email_parts[:top_level_domain] == ''
         return { :address => email_parts[:address], :domain => email_parts[:domain], :full => email_parts[:address] + '@' + email_parts[:domain] + '.com' }
       end
-      closest_top_level_domain = find_closest_domain(email_parts[:top_level_domain], @top_level_domains)
+
+      closest_top_level_domain = find_closest_domain(email_parts[:top_level_domain], @top_level_domains)[0]
+
       if email_parts[:domain] && closest_top_level_domain && closest_top_level_domain != email_parts[:top_level_domain]
         # The email address may have a mispelled top-level domain return a suggestion
         domain = email_parts[:domain]
@@ -67,7 +85,7 @@ class Mailcheck2
     return nil if domains.nil? || domains.size == 0
 
     domains.each do |dmn|
-      return domain if domain == dmn
+      return [domain, 0] if domain == dmn
       dist = sift_3distance(domain, dmn)
       if dist < min_dist
         min_dist = dist
@@ -76,9 +94,9 @@ class Mailcheck2
     end
 
     if min_dist <= @threshold && closest_domain
-      closest_domain
+      [closest_domain, min_dist]
     else
-      nil
+      [nil, nil]
     end
   end
 
