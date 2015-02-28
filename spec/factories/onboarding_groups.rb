@@ -3,6 +3,7 @@ FactoryGirl.define do
     sequence(:name) {|n| "OnboardingGroup #{n}"}
     premium false
     mayo_pilot false
+    skip_initial_message false
 
     trait :premium do
       premium true

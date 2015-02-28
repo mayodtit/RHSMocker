@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150212015132) do
+ActiveRecord::Schema.define(:version => 20150228192126) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -567,6 +567,7 @@ ActiveRecord::Schema.define(:version => 20150212015132) do
     t.datetime "absolute_subscription_ends_at"
     t.integer  "subscription_days",             :default => 0,     :null => false
     t.boolean  "skip_credit_card",              :default => false, :null => false
+    t.boolean  "skip_initial_message",          :default => false, :null => false
   end
 
   create_table "parsed_nurseline_records", :force => true do |t|

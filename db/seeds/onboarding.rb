@@ -21,6 +21,12 @@ ReferralCode.find_or_create_by_name(name: 'Launch',
                                     code: 'launch',
                                     onboarding_group: o)
 
+o = OnboardingGroup.find_or_create_by_name(name: "Mayo Pilot 2",
+                                           premium: true,
+                                           free_trial_days: 60,
+                                           skip_credit_card: true,
+                                           skip_initial_message: true)
+
 Metadata.upsert_attributes({mkey: 'nux_question_text'}, mvalue: 'You’re just two steps away from your own Personal Health Assistant. What would you like to focus on during your free trial?')
 
 # Provider search --

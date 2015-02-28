@@ -24,6 +24,7 @@ describe OnboardingGroup do
     it_validates 'inclusion of', :mayo_pilot
     it_validates 'inclusion of', :skip_credit_card
     it_validates 'foreign key of', :trial_nux_story
+    it_validates 'inclusion of', :skip_initial_message
   end
 
   describe '#free_trial_ends_at' do
