@@ -64,7 +64,11 @@ class Message < ActiveRecord::Base
   end
 
   def self.exclude(array=[])
-    all.reject{|message| array ? array.map(&:to_i).include?(message.id) : false}
+     if array.nil? || array.empty?
+       scoped
+     else
+        all.reject{|message| array.map(&:to_i).include? message.id}
+     end
   end
 
   def update_initiator_last_contact_at
