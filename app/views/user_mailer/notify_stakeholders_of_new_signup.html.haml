@@ -1,0 +1,4 @@
+%p
+  There's a new signup for #{@onboarding_group.name}. You can view this group using the following link:
+
+  = link_to "<#{CARE_URL_PREFIX}/admin/onboarding_groups/#{@onboarding_group.id}/users>", "#{CARE_URL_PREFIX}/admin/onboarding_groups/#{@onboarding_group.id}/users"

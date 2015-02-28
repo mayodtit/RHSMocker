@@ -42,6 +42,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
           SendWelcomeEmailService.new(@member).call
           SendConfirmEmailService.new(@member).call
           SendDownloadLinkService.new(@member.phone).call if send_download_link?
+          SendEmailNotificationToStakeholders.new(@member).call
           render_success user: @member.serializer,
                          member: @member.reload.serializer,
                          pha_profile: @member.pha.try(:pha_profile).try(:serializer),
