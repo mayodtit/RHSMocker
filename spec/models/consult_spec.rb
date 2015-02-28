@@ -68,7 +68,7 @@ describe Consult do
               end
 
               context 'with an onboarding group that does not get a first message' do
-                let!(:onboarding_group) { create(:onboarding_group, skip_initial_message: true) }
+                let!(:onboarding_group) { create(:onboarding_group, skip_automated_communications: true) }
 
                 before do
                   member.update_attributes(onboarding_group: onboarding_group)

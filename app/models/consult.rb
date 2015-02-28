@@ -42,7 +42,7 @@ class Consult < ActiveRecord::Base
     return if messages.any?
     return unless initiator.signed_up?
     return unless initiator.pha
-    return if initiator.onboarding_group.try(:skip_initial_message?)
+    return if initiator.onboarding_group.try(:skip_automated_communications?)
     nux_answer_name = initiator.nux_answer.try(:name) || 'something else'
 
     if initiator.free?

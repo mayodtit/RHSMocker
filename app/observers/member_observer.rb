@@ -9,6 +9,7 @@ class MemberObserver < ActiveRecord::Observer
   def add_automated_communication_workflows(member)
     return if member.owner_id
     return unless member.inbound_scheduled_communications.empty?
+    return if member.onboarding_group.try(:skip_automated_communications?)
     member.transaction do
       if member.trial?
         if Metadata.automated_onboarding?
