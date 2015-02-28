@@ -38,7 +38,7 @@ class Mailcheck
     end
 
     if match[:domain]
-      return { :address => match[:address], :domain => match[:domain], :full => "#{match[:address]}@#{match[:domain]}" }
+      return { :suggestions => { :address => match[:address], :domain => match[:domain], :full => "#{match[:address]}@#{match[:domain]}" }}
     end
 
     false
@@ -55,13 +55,13 @@ class Mailcheck
     if closest_domain
       if closest_domain != email_parts[:domain]
         # The email address closely matches one of the supplied domains return a suggestion
-        return { :address => email_parts[:address], :domain => closest_domain, :full => "#{email_parts[:address]}@#{closest_domain}" }
+        return { :suggestions => { :address => email_parts[:address], :domain => closest_domain, :full => "#{email_parts[:address]}@#{closest_domain}" }}
       end
     else
       # The email address does not closely match one of the supplied domains
       # First to check if top level domain is empty.  If it is empty, by default assignment it to com.
       if email_parts[:top_level_domain] == ''
-        return { :address => email_parts[:address], :domain => email_parts[:domain], :full => email_parts[:address] + '@' + email_parts[:domain] + '.com' }
+        return { :suggestions => { :address => email_parts[:address], :domain => email_parts[:domain], :full => email_parts[:address] + '@' + email_parts[:domain] + '.com' }}
       end
 
       closest_top_level_domain = find_closest_domain(email_parts[:top_level_domain], @top_level_domains)[0]
@@ -70,7 +70,7 @@ class Mailcheck
         # The email address may have a mispelled top-level domain return a suggestion
         domain = email_parts[:domain]
         closest_domain = domain[0, domain.rindex(email_parts[:top_level_domain])] + closest_top_level_domain
-        return { :address => email_parts[:address], :domain => closest_domain, :full => "#{email_parts[:address]}@#{closest_domain}" }
+        return { :suggestions => { :address => email_parts[:address], :domain => closest_domain, :full => "#{email_parts[:address]}@#{closest_domain}" }}
       end
     end
     # The email address exactly matches one of the supplied domains, does not closely

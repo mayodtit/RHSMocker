@@ -5,8 +5,11 @@ class Api::V1::ValidateEmailController < Api::V1::ABaseController
   def index
     email = params[:q]
     @suggestion = suggest(email)
-    @suggestion == false ? @suggestion = {:suggestion => false} : @suggestion[:suggestion] = true
-    check_domain(email) ? render_success(@suggestion) : render_failure(@suggestion, 422)
+    if @suggestion == false 
+      check_domain(email) ? render_success() : render_failure({reason: 'Invalid email domain, no suggestions found'}, 422)
+    else
+      check_domain(email) ? render_success(@suggestion) : render_failure(@suggestion, 422)
+    end
   end
 
   private
