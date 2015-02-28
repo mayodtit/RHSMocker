@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150226224052) do
+ActiveRecord::Schema.define(:version => 20150228023358) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -834,6 +834,9 @@ ActiveRecord::Schema.define(:version => 20150226224052) do
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
     t.integer  "service_template_id"
+    t.datetime "completed_at"
+    t.datetime "abandoned_at"
+    t.integer  "abandoner_id"
   end
 
   create_table "sessions", :force => true do |t|

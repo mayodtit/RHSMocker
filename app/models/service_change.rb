@@ -6,10 +6,4 @@ class ServiceChange < ActiveRecord::Base
                   :actor, :actor_id, :data, :reason
 
   validates :service, :actor, presence: true
-
-  before_validation :set_created_at
-
-  def set_created_at
-    self.created_at = Time.now unless self.created_at
-  end
 end

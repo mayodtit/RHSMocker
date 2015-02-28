@@ -49,6 +49,14 @@ class Service < ActiveRecord::Base
       transition any => :abandoned
     end
 
+    before_transition any - [:completed] => :completed do |service|
+      service.completed_at = Time.now
+    end
+
+    before_transition any - [:abandoned] => :abandoned do |service|
+      service.abandoned_at = Time.now
+    end
+
     after_transition any => any do |service|
       service.change_tracked = true
     end
