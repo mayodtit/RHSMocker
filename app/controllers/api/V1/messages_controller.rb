@@ -22,12 +22,12 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   private
 
   def messages
-    base_messages_with_pagination.includes(:user).sort_by(&:id)
+    base_messages_with_pagination.includes(:user).exclude(params[:exclude]).sort_by(&:id)
   end
 
   def base_messages_with_pagination
     if page_size && !show_all?
-      base_messages.order('id DESC').page(page_number).per(page_size)
+      base_messages.order('id DESC').before(params[:before]).after(params[:after]).page(page_number).per(page_size)
     elsif params[:last_message_date]
       base_messages.where('created_at > ?', Time.parse(params[:last_message_date]))
     else
