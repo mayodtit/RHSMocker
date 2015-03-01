@@ -26,7 +26,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
     tomorrow_count = 0
     future_count = 0
 
-    if params[:only_today].present? && params[:only_today]
+    if only_today?
       eod = Time.now.pacific.end_of_day
       tom_eod = 1.day.from_now.pacific.end_of_day
       future_count = tasks.where('due_at > ?', eod).count
@@ -34,7 +34,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
       tasks = tasks.where('due_at <= ?', eod)
     end
 
-    if params[:until_tomorrow].present? && params[:until_tomorrow]
+    if until_tomorrow?
       eod = Time.now.pacific.end_of_day
       tom_eod = 1.day.from_now.pacific.end_of_day
       future_count = tasks.where('due_at > ?', tom_eod).count
@@ -120,5 +120,13 @@ class Api::V1::TasksController < Api::V1::ABaseController
 
   def task_attributes
     params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :day_priority, :pubsub_client_id)
+  end
+
+  def only_today?
+    params[:only_today]
+  end
+
+  def until_tomorrow?
+    params[:until_tomorrow]
   end
 end
