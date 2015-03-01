@@ -4,7 +4,7 @@ class SendDownloadLinkService
   end
 
   def call
-    return unless @user.phone.present?
+    return unless phone_number.present?
     TwilioModule.message_now(phone_number, download_text)
   end
 
