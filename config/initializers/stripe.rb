@@ -30,4 +30,8 @@ StripeEvent.configure do |events|
   events.subscribe 'customer.subscription.deleted' do |event|
     DowngradeMemberToFree.new(event).call
   end
+
+  events.subscribe 'customer.subscription.trial_will_end' do |event|
+    Mails::NotifyTrialWillEndJob.create(event)
+  end
 end

@@ -123,4 +123,9 @@ class UserMailer < ActionMailer::Base
       format.text{ render text: "Stripe failure: #{event.data.object.customer} - #{event.type}" }
     end
   end
+
+  def notify_stakeholders_of_new_signup(email, onboarding_group_id)
+    @onboarding_group = OnboardingGroup.find(onboarding_group_id)
+    mail(to: email, subject: "New sign up for #{@onboarding_group.name}")
+  end
 end
