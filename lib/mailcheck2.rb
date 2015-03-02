@@ -19,25 +19,24 @@ class Mailcheck2 < Mailcheck
   def suggest_for_unknown_address(email)
     len = email.length
     @threshold = 99
-    match = Hash.new
-    match[:dist] = 99
+    match = {dist: 99}
 
     (1...len).each do |i|
       address = email[0...i]
       domain = email[i...len]
       result = find_closest_domain(domain, @domains)
-      if result[1] != nil && (result[1] + i * 0.05 < match[:dist])
-        match[:dist] = result[1]
+      if result[:min_dist] != nil && (result[:min_dist] + i * 0.05 < match[:dist])
+        match[:dist] = result[:min_dist]
         match[:address] = address
-        match[:domain] = result[0]
+        match[:domain] = result[:closest_domain]
       end
     end
 
     if match[:domain]
-      return { :suggestions => { :address => match[:address], :domain => match[:domain], :full => "#{match[:address]}@#{match[:domain]}" }}
+      return { :suggestion => { :address => match[:address], :domain => match[:domain], :full => "#{match[:address]}@#{match[:domain]}" }}
     end
 
-    false
+    nil
   end
 
   def suggest_for_known_address(email_parts)
@@ -46,32 +45,30 @@ class Mailcheck2 < Mailcheck
       @threshold = 4
     end
 
-    closest_domain = find_closest_domain(email_parts[:domain], @domains)[0]
+    closest_domain = find_closest_domain(email_parts[:domain], @domains)[:closest_domain]
 
-    if closest_domain
-      if closest_domain != email_parts[:domain]
+    if closest_domain && closest_domain != email_parts[:domain]
         # The email address closely matches one of the supplied domains return a suggestion
-        return { :suggestions => { :address => email_parts[:address], :domain => closest_domain, :full => "#{email_parts[:address]}@#{closest_domain}" }}
-      end
+      return { :suggestion => { :address => email_parts[:address], :domain => closest_domain, :full => "#{email_parts[:address]}@#{closest_domain}" }}
     else
       # The email address does not closely match one of the supplied domains
       # First to check if top level domain is empty.  If it is empty, by default assignment it to com.
       if email_parts[:top_level_domain] == ''
-        return { :suggestions => { :address => email_parts[:address], :domain => email_parts[:domain], :full => email_parts[:address] + '@' + email_parts[:domain] + '.com' }}
+        return { :suggestion => { :address => email_parts[:address], :domain => email_parts[:domain], :full => email_parts[:address] + '@' + email_parts[:domain] + '.com' }}
       end
 
-      closest_top_level_domain = find_closest_domain(email_parts[:top_level_domain], @top_level_domains)[0]
+      closest_top_level_domain = find_closest_domain(email_parts[:top_level_domain], @top_level_domains)[:closest_domain]
       if email_parts[:domain] && closest_top_level_domain && closest_top_level_domain != email_parts[:top_level_domain]
         # The email address may have a mispelled top-level domain return a suggestion
         domain = email_parts[:domain]
         closest_domain = domain[0, domain.rindex(email_parts[:top_level_domain])] + closest_top_level_domain
-        return { :suggestions => { :address => email_parts[:address], :domain => closest_domain, :full => "#{email_parts[:address]}@#{closest_domain}" }}
+        return { :suggestion => { :address => email_parts[:address], :domain => closest_domain, :full => "#{email_parts[:address]}@#{closest_domain}" }}
       end
     end
     # The email address exactly matches one of the supplied domains, does not closely
     # match any domain and does not appear to simply have a mispelled top-level domain,
     # or is an invalid email address do not return a suggestion.
-    false
+    nil
   end
 
   def find_closest_domain(domain, domains)
@@ -80,7 +77,7 @@ class Mailcheck2 < Mailcheck
     return nil if domains.nil? || domains.size == 0
 
     domains.each do |dmn|
-      return [domain, 0] if domain == dmn
+      return {closest_domain: domain, min_dist: 0} if domain == dmn
       dist = sift_3distance(domain, dmn)
       if dist < min_dist
         min_dist = dist
@@ -89,9 +86,9 @@ class Mailcheck2 < Mailcheck
     end
 
     if min_dist <= @threshold && closest_domain
-      [closest_domain, min_dist]
+      {closest_domain: closest_domain, min_dist: min_dist}
     else
-      [nil, nil]
+      {closest_domain: nil, min_dist: nil}
     end
   end
 end
