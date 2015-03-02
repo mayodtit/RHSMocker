@@ -3,7 +3,7 @@ class Api::V1::ValidateEmailController < Api::V1::ABaseController
   skip_before_filter :authentication_check
 
   def index
-    email = params[:q]
+    email = params[:email]
     @suggestion = suggest(email)
     if @suggestion == false 
       check_domain(email) ? render_success() : render_failure({reason: 'Invalid email domain, no suggestions found'}, 422)
@@ -15,7 +15,7 @@ class Api::V1::ValidateEmailController < Api::V1::ABaseController
   private
 
   def suggest(email)
-    mailcheck = Mailcheck.new(
+    mailcheck = Mailcheck2.new(
       :domains => MAILCHECK_DOMAINS,
       :top_level_domains => MAILCHECK_TOP_LEVEL_DOMAINS
     )

@@ -1,25 +1,21 @@
-class Mailcheck
+require 'mailcheck'
 
-  DOMAINS = ['yahoo.com', 'google.com', 'hotmail.com', 'gmail.com', 'me.com', 'aol.com', 'mac.com', 'live.com', 'comcast.net', 'googlemail.com', 'msn.com', 'hotmail.co.uk', 'yahoo.co.uk', 'facebook.com', 'verizon.net', 'sbcglobal.net', 'att.net', 'gmx.com', 'mail.com']
+class Mailcheck2 < Mailcheck
 
-  TOP_LEVEL_DOMAINS = ['co.uk', 'com', 'net', 'org', 'info', 'edu', 'gov', 'mil', 'ca']
-
-  def initialize(opts = {})
-    @threshold = 3
-    @domains = opts[:domains] || DOMAINS
-    @top_level_domains = opts[:top_level_domains] || TOP_LEVEL_DOMAINS
-  end
-
+  #email suggestion is divided into 2 categories: 
+  #1. the address is known
+  #2. the address is unknown
   def suggest(email)
     email_parts = split_email(email.downcase)
-
     if email_parts
+      @threshold = 3
       suggest_for_known_address(email_parts)
     else
       suggest_for_unknown_address(email)
     end
   end
 
+  #For unknown addresses, a heuristic is used to determine a suitable fit
   def suggest_for_unknown_address(email)
     len = email.length
     @threshold = 99
@@ -65,7 +61,6 @@ class Mailcheck
       end
 
       closest_top_level_domain = find_closest_domain(email_parts[:top_level_domain], @top_level_domains)[0]
-
       if email_parts[:domain] && closest_top_level_domain && closest_top_level_domain != email_parts[:top_level_domain]
         # The email address may have a mispelled top-level domain return a suggestion
         domain = email_parts[:domain]
@@ -98,52 +93,5 @@ class Mailcheck
     else
       [nil, nil]
     end
-  end
-
-  def sift_3distance(s1, s2)
-    # sift3: http:#siderite.blogspot.com/2007/04/super-fast-and-accurate-string-distance.html
-    c = 0
-    offset1 = 0
-    offset2 = 0
-    lcs = 0
-    max_offset = 5
-
-    while (c + offset1 < s1.length) && (c + offset2 < s2.length) do
-      if s1[c + offset1] == s2[c + offset2]
-        lcs += 1
-      else
-        offset1 = 0
-        offset2 = 0
-        max_offset.times do |i|
-          if c + i < s1.length && s1[c + i] == s2[c]
-            offset1 = i
-            break
-          end
-          if c + i < s2.length && s1[c] == s2[c + i]
-            offset2 = i
-            break
-          end
-        end
-      end
-      c += 1
-    end
-    (s1.length + s2.length) / 2.0 - lcs
-  end
-
-  def split_email(email)
-    parts = email.split('@')
-
-    return false if parts.length < 2 || parts.any?{ |p| p == '' }
-
-    domain = parts.pop
-    domain_parts = domain.split('.')
- 
-    return false if domain_parts.length == 0
-
-    {
-      :top_level_domain => domain_parts[1..-1].join('.'),
-      :domain => domain,
-      :address => parts.first
-    }
   end
 end

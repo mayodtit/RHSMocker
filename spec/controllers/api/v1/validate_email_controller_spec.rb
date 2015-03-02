@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe Api::V1::ValidateEmailController do
   def do_request(email)
-  	get(:index, {:q => email})
+  	get(:index, {:email => email})
   	JSON.parse(response.body)
   end
   describe 'GET index' do

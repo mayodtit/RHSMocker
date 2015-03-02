@@ -106,4 +106,5 @@ gem 'spawnling', '2.1.1'
 gem 'stripe_event'
 gem 'roo'
 gem 'mail'
+gem 'mailcheck'
 gem 'valid_email', require: 'valid_email/validate_email'       # library for email validation
