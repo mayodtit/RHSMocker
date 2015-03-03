@@ -5,7 +5,7 @@ class TaskChangeSerializer < ActiveModel::Serializer
   def attributes
     if options[:shallow]
       super.tap do |attributes|
-        attributes[:actor] = object.actor.try(:serializer, options) if object.respond_to? :actor
+        attributes[:actor] = object.actor.try(:serializer,  options.merge(shallow: true)) if object.respond_to? :actor
       end
     else
       super.tap do |attributes|
