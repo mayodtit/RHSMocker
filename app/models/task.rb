@@ -183,7 +183,7 @@ class Task < ActiveRecord::Base
       task.completed_at = Time.now
     end
 
-    after_transition any - [:completed] => :completed do |task|
+    after_transition any - :completed => :completed do |task|
       ViewTaskTask.where(assigned_task_id: task.id).each do |view|
         view.complete!
       end
