@@ -22,15 +22,18 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
           render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
         end
       end
+    rescue Stripe::CardError => e
+      Rails.logger.error "Error in subscriptionsController#update for user #{@user.id}: #{e}"
+      render_failure({reason: e.as_json['code'],
+                      user_message: e.as_json['message']}, 422) and return
     rescue => e
       Rails.logger.error "Error in subscriptionsController#create for user #{@user.id}: #{e}"
-      render_failure({reason: "Error occurred during adding subscription"}, 422)
+      render_failure({reason: "Error occurred during adding subscription"}, 422) and return
     end
   end
 
   def destroy
     if DestroyStripeSubscriptionService.new(@user, :downgrade).call
-      subscription = Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first
       render_success
     else
       render_failure({reason: 'Error occurred during subscription cancellation'}, 422)
@@ -46,6 +49,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
         render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
       end
     rescue Stripe::CardError => e
+      Rails.logger.error "Error in subscriptionsController#update for user #{@user.id}: #{e}"
       render_failure({reason: e.as_json['code'],
                       user_message: e.as_json['message']}, 422) and return
     rescue => e
