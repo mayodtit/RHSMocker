@@ -35,7 +35,7 @@ class Service < ActiveRecord::Base
   end
 
   state_machine :initial => :open do
-    store_audit_trail to: 'ServiceChange', context_to_log: [:actor_id, :data, :reason]
+    store_audit_trail to: 'ServiceChange', context_to_log: %i(actor_id data reason)
 
     event :reopen do
       transition any => :open
@@ -49,11 +49,11 @@ class Service < ActiveRecord::Base
       transition any => :abandoned
     end
 
-    before_transition any - [:completed] => :completed do |service|
+    before_transition any - :completed => :completed do |service|
       service.completed_at = Time.now
     end
 
-    before_transition any - [:abandoned] => :abandoned do |service|
+    before_transition any - :abandoned => :abandoned do |service|
       service.abandoned_at = Time.now
     end
 
