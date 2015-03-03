@@ -22,4 +22,16 @@ StripeEvent.configure do |events|
   events.subscribe 'invoice.created' do |event|
     GrantReferrerCreditWhenRefereePay.new(event).apply_coupon
   end
+
+  events.subscribe 'invoice.payment_succeeded' do |event|
+    AdjustServiceLevelService.new(event).call
+  end
+
+  events.subscribe 'customer.subscription.deleted' do |event|
+    DowngradeMemberToFree.new(event).call
+  end
+
+  events.subscribe 'customer.subscription.trial_will_end' do |event|
+    Mails::NotifyTrialWillEndJob.create(event)
+  end
 end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150204190559) do
+ActiveRecord::Schema.define(:version => 20150228212218) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -114,6 +114,8 @@ ActiveRecord::Schema.define(:version => 20150204190559) do
     t.integer  "user_program_id"
     t.integer  "sender_id"
   end
+
+  add_index "cards", ["user_id", "resource_id", "resource_type"], :name => "index_cards_on_user_id_and_resource_id_and_resource_type"
 
   create_table "cohorts", :force => true do |t|
     t.datetime "started_at"
@@ -311,7 +313,21 @@ ActiveRecord::Schema.define(:version => 20150204190559) do
     t.integer  "onboarding_group_id"
   end
 
+  add_index "enrollments", ["email"], :name => "index_enrollments_on_email"
   add_index "enrollments", ["token"], :name => "index_enrollments_on_token"
+
+  create_table "entries", :force => true do |t|
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+    t.integer  "member_id",     :null => false
+    t.integer  "resource_id",   :null => false
+    t.string   "resource_type", :null => false
+    t.integer  "actor_id"
+    t.text     "data"
+  end
+
+  add_index "entries", ["member_id"], :name => "index_entries_on_member_id"
+  add_index "entries", ["resource_id", "resource_type"], :name => "index_entries_on_resource_id_and_resource_type"
 
   create_table "ethnic_groups", :force => true do |t|
     t.string   "name",           :default => "", :null => false
@@ -555,6 +571,7 @@ ActiveRecord::Schema.define(:version => 20150204190559) do
     t.datetime "absolute_subscription_ends_at"
     t.integer  "subscription_days",             :default => 0,     :null => false
     t.boolean  "skip_credit_card",              :default => false, :null => false
+    t.boolean  "skip_automated_communications", :default => false, :null => false
   end
 
   create_table "parsed_nurseline_records", :force => true do |t|
@@ -672,6 +689,15 @@ ActiveRecord::Schema.define(:version => 20150204190559) do
     t.datetime "updated_at",  :null => false
   end
 
+  create_table "proximities", :force => true do |t|
+    t.string  "city"
+    t.integer "zip"
+    t.string  "state"
+    t.string  "county"
+    t.float   "latitude"
+    t.float   "longitude"
+  end
+
   create_table "referral_codes", :force => true do |t|
     t.string   "name"
     t.string   "code"
@@ -774,10 +800,11 @@ ActiveRecord::Schema.define(:version => 20150204190559) do
   end
 
   create_table "service_types", :force => true do |t|
-    t.string   "name",       :null => false
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.string   "name",                 :null => false
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
     t.string   "bucket"
+    t.text     "description_template"
   end
 
   add_index "service_types", ["bucket"], :name => "index_service_types_on_bucket"
@@ -1011,6 +1038,8 @@ ActiveRecord::Schema.define(:version => 20150204190559) do
     t.datetime "updated_at",   :null => false
   end
 
+  add_index "user_agreements", ["user_id", "agreement_id"], :name => "index_user_agreements_on_user_id_and_agreement_id"
+
   create_table "user_allergies", :force => true do |t|
     t.integer  "user_id"
     t.integer  "allergy_id"
@@ -1099,6 +1128,8 @@ ActiveRecord::Schema.define(:version => 20150204190559) do
     t.integer  "dismissed_count", :default => 0, :null => false
     t.integer  "shared_count",    :default => 0, :null => false
   end
+
+  add_index "user_readings", ["user_id", "content_id"], :name => "index_user_readings_on_user_id_and_content_id"
 
   create_table "user_request_type_fields", :force => true do |t|
     t.integer  "user_request_type_id"
@@ -1217,6 +1248,7 @@ ActiveRecord::Schema.define(:version => 20150204190559) do
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
   add_index "users", ["email_confirmation_token"], :name => "index_users_on_email_confirmation_token"
+  add_index "users", ["onboarding_group_id"], :name => "index_users_on_onboarding_group_id"
   add_index "users", ["pha_id"], :name => "index_users_on_pha_id"
   add_index "users", ["phone"], :name => "index_users_on_phone"
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"

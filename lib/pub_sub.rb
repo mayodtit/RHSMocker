@@ -2,12 +2,12 @@ require 'net/http'
 
 class PubSub
   class << self
-    def publish(channel, data)
+    def publish(channel, data, session_id = nil)
       Spawnling.new do
         message = {
           channel: "/#{Rails.env}#{channel}",
-          data: data,
-          ext: { secret: PUB_SUB_SECRET }
+          data: data.merge!({guid: session_id}),
+          ext: { secret: PUB_SUB_SECRET}
         }
 
         uri = URI.parse PUB_SUB_HOST

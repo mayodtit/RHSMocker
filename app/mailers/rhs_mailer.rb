@@ -1,12 +1,16 @@
 class RHSMailer < MandrillMailer::TemplateMailer
-  default from: (Rails.env.production? ? 'support@getbetter.com' : "support@#{Rails.env}.getbetter.com")
+  default from: ((Rails.env.production? || Rails.env.demo?) ? 'support@getbetter.com' : "support@#{Rails.env}.getbetter.com")
   default from_name: 'Better'
 
   def before_check(params)
-    unless ( Rails.env.production? || params[:to][:email].include?('@getbetter.com') )
+    if (!Rails.env.production? && !Rails.env.demo?) && !whitelisted_email?(params[:to][:email])
       params[:subject] = "[To:" + params[:to][:email] + "]" + params[:subject]
       params[:to][:email] = 'test@getbetter.com'
     end
+  end
+
+  def whitelisted_email?(email)
+    email.match(/.*getbetter\.com|.*testelf.*/).present?
   end
 
   def send_mail(params)
@@ -26,13 +30,20 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
+  WELCOME_TO_BETTER_FREE_TRIAL_TEMPLATE = 'Welcome to Better, Free Version 12/10/2014'
   def welcome_to_better_free_trial_email(email, salutation)
+    user = Member.find_by_email!(email)
+
     params = {
-      subject: 'Welcome to Better Premium',
+      subject: 'Welcome to Better',
       to: { email: email },
-      template: 'Free Trial Welcome Email',
+      template: WELCOME_TO_BETTER_FREE_TRIAL_TEMPLATE,
+      headers: {
+        'Reply-To' => "Better <support@getbetter.com>"
+      },
       vars: {
-        FNAME: salutation
+        FNAME: salutation,
+        MEMBERNEED: user.nux_answer.try(:phrase) || 'with your health needs'
       }
     }
     send_mail(params)
@@ -52,7 +63,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
 
   def welcome_to_premium_email(email, salutation)
     params = {
-      subject: 'Welcome to Better Premium',
+      subject: 'Welcome to Better',
       to: { email: email },
       template: 'PAID Premium User Welcome',
       vars: {
@@ -215,7 +226,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     params = {
       subject: 'Reset Password Instructions for Better',
       to: { email: email },
-      template: 'Password Reset',
+      template: 'Password Recovery email 2/27/2014',
       vars: {
         GREETING: salutation,
         RESETLINK: url
@@ -338,24 +349,6 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
-  def referral_advertisement_email(user)
-    params = {
-      subject: 'Give Better, Get Better',
-      from: 'support@getbetter.com',
-      from_name: 'Better',
-      to: {email: user.email},
-      template: 'Referral Program',
-      headers: {
-        'Reply-To' => 'Better <support@getbetter.com>'
-      },
-      vars: {
-        FNAME: user.salutation,
-        PROMO: user.owned_referral_code.code
-      }
-    }
-    send_mail(params)
-  end
-
   MAYO_PILOT_INVITE_TEMPLATE = 'Mayo Pilot Invitation Plain Text (11/28/2014)'
 
   def mayo_pilot_invite_email(user, provider)
@@ -399,5 +392,43 @@ class RHSMailer < MandrillMailer::TemplateMailer
       }
     }
     send_mail(params)
+  end
+
+  def notify_trial_will_end(event)
+    customer = event.data.object.customer
+    user = User.find_by_stripe_customer_id(customer)
+    return if user.nil?
+    plan_name = Stripe::Customer.retrieve(customer).subscriptions.data.first.plan.name
+    return if user.pha.nil?
+    pha_first_name = user.pha.first_name
+    params = {
+        subject: "Your trial is ending soon",
+        from: 'support@getbetter.com',
+        from_name: 'Better',
+        template: "Free month ending (email support) 2/16/2015",
+        to: {email: user.email},
+        vars: {
+          FNAME: user.salutation,
+          PLAN_NAME: plan_name,
+          pha_first_name: pha_first_name
+        }
+    }
+    send_mail(params)
+  end
+
+  def confirm_subscription_change(user, subscription)
+    plan_name = subscription.plan.name
+
+    mandrill_mail(
+        subject: 'Your subscription has been updated',
+        from: "support@getbetter.com",
+        from_name: 'Better',
+        to: { email: user.email },
+        template: "Subscription update 2/16/2015",
+        vars: {
+          FNAME: user.salutation,
+          PLAN_NAME: plan_name
+        }
+    )
   end
 end

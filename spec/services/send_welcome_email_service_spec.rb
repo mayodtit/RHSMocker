@@ -24,6 +24,15 @@ describe SendWelcomeEmailService do
     end
   end
 
+  context 'with a free member' do
+    let!(:user) { create(:member, :free) }
+
+    it 'queues a Mails::WelcomeToBetterFreeTrialJob' do
+      Mails::WelcomeToBetterFreeTrialJob.should_receive(:create).and_call_original
+      expect{ described_class.new(user).call }.to change(Delayed::Job, :count).by(1)
+    end
+  end
+
   context 'with a premium member' do
     let!(:user) { create(:member, :premium) }
 

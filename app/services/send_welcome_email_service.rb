@@ -6,6 +6,8 @@ class SendWelcomeEmailService
   def call
     if @user.trial?
       send_trial_welcome_email
+    elsif @user.free?
+      send_free_welcome_email
     elsif @user.premium?
       send_premium_welcome_email
     end
@@ -19,6 +21,10 @@ class SendWelcomeEmailService
     else
       Mails::MeetYourPhaJob.create(@user.id)
     end
+  end
+
+  def send_free_welcome_email
+    Mails::WelcomeToBetterFreeTrialJob.create(@user.id)
   end
 
   def send_premium_welcome_email

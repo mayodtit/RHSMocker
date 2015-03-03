@@ -410,6 +410,26 @@ namespace :seeds do
       m.add_role :pha_lead unless m.pha_lead?
     end
 
+    puts 'Creating super users...'
+    PHA_LEADS = %w(kyle@getbetter.com emilio@getbetter.com neel@getbetter.com)
+    PHA_LEADS.each do |email|
+      m = Member.find_or_create_by_email!(
+          email: email,
+          user_agreements_attributes: user_agreements_attributes
+      )
+
+      m.update_attributes!(
+          password: 'careportal',
+          password_confirmation: 'careportal',
+          first_name: email[/[^@]+/].capitalize,
+          last_name: LAST_NAMES.sample,
+      )
+
+      m.add_role :pha unless m.pha?
+      m.add_role :pha_lead unless m.pha_lead?
+      m.add_role :admin unless m.admin?
+    end
+
     puts 'Creating appointments...'
     DAY_OFFSET = [-30.days, -20.days, -10.days, 0.days, 10.days, 20.days, 30.days]
     HOUR_OFFSET = [-2.hours, -1.hours, 0.hours, 1.hours, 2.hours]
@@ -790,5 +810,35 @@ namespace :seeds do
     obj.concept_id = cid
     obj.description_id = did
     obj.save
+
+  desc "Seed proximity data for US cities"
+  task :proximity => :environment do
+    s = Roo::Spreadsheet.open(Rails.root.join('lib', 'assets', 'US.xls').to_s)
+    puts "Start parsing xls"
+    zip = s.column(2)
+    city = s.column(3)
+    state = s.column(4)
+    county = s.column(6)
+    latitude = s.column(10)
+    longitude = s.column(11)
+    puts "Done parsing xls"
+    puts "Starting Database population"
+    zip.each_with_index { |zipcode, index|
+      begin
+        Proximity.find_or_create_by_zip_and_city!(zip[index],city[index]) do |loc|
+            loc.state = state[index]
+            loc.county = county[index]
+            loc.latitude = latitude[index]
+            loc.longitude = longitude[index]
+        end
+        print '.'
+        puts 'Processed ',index, 'records' if index % 5000 == 0
+      rescue
+        puts "Error adding, ", zipcode
+      end
+    }
+  puts "Database populated"
+
   end
 end
+

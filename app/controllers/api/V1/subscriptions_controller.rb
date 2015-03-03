@@ -5,26 +5,32 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   before_filter :load_customer!, only: :create
 
   def index
-    index_resource(@user.subscriptions)
+    index_resource(@user.subscription)
   end
 
-  # TODO: this transaction should be all-or-nothing.
-  # Right now it's posible for the user to become premium without paying,
-  # but it's better than them paying without becoming a premium member.
   def create
-    sa = subscription_attributes # this needs to be assigned prior to the user's update_attributes
-
-    if @user.update_attributes(user_attributes)
-      @customer.subscriptions.create(sa)
-      @user.master_consult.messages.create(message_attributes)
-      render_success(user: @user.serializer)
-    else
-      render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
+    begin
+      ActiveRecord::Base.transaction do
+        sa = subscription_attributes
+        raise "can't have more than one subscription" if (@customer.subscriptions.count > 0)
+        @customer.subscriptions.create(sa)
+        if @user.update_attributes(user_attributes)
+          render_success({user: @user.serializer,
+                          subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first})
+          Mails::ConfirmSubscriptionChangeJob.create(@user.id, @subscription)
+        else
+          render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
+        end
+      end
+    rescue => e
+      Rails.logger.error "Error in subscriptionsController#create for user #{@user.id}: #{e}"
+      render_failure({reason: "Error occurred during adding subscription"}, 422)
     end
   end
 
   def destroy
-    if DestroyStripeSubscriptionService.new(@user, :upgrade).call
+    if DestroyStripeSubscriptionService.new(@user, :downgrade).call
+      subscription = Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first
       render_success
     else
       render_failure({reason: 'Error occurred during subscription cancellation'}, 422)
@@ -34,7 +40,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   def update
     sa = subscription_attributes
     if UpdateStripeSubscriptionService.new(@user, sa[:plan]).call
-      render_success ({ new_subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first })
+      render_success ({ subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first })
     else
       render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
     end

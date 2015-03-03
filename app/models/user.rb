@@ -235,7 +235,7 @@ class User < ActiveRecord::Base
     end
   end
 
-  def subscriptions
+  def subscription
     return [] if stripe_customer_id.nil?
 
     customer = Stripe::Customer.retrieve(stripe_customer_id)

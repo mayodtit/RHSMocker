@@ -10,22 +10,49 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def create
-    create_resource(@consult.messages, message_attributes)
+    @message = @consult.messages.create(message_attributes)
+    if @message.errors.empty?
+      @message = Message.find(@message.id) # force reload of CarrierWave image url
+      render_success(message: @message.serializer)
+    else
+      render_failure({reason: @message.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   private
 
   def messages
-    if params[:page].nil?
-      messages = @consult.messages
-      messages = @consult.messages_and_notes if current_user.care_provider? && @consult.initiator != current_user
-      messages = messages.where('created_at > ?', Time.parse(params[:last_message_date])) if params[:last_message_date].present?
+    base_messages_with_pagination.includes(:user).exclude(params[:exclude]).sort_by(&:id)
+  end
+
+  def base_messages_with_pagination
+    if page_size && !show_all?
+      base_messages.order('id DESC').before(params[:before]).after(params[:after]).page(page_number).per(page_size)
+    elsif params[:last_message_date]
+      base_messages.where('created_at > ?', Time.parse(params[:last_message_date]))
     else
-      messages = @consult.messages.order('created_at DESC').page params[:page]
-      messages = @consult.messages_and_notes.order('created_at DESC').page params[:page] if current_user.care_provider? && @consult.initiator != current_user
-      messages = @consult.messages.where('created_at > ?', Time.parse(params[:last_message_date])).order('created_at DESC').page params[:page] if params[:last_message_date].present?
+      base_messages
     end
-    messages.includes(:user)
+  end
+
+  def base_messages
+    if current_user.care_provider? && @consult.initiator != current_user
+      @consult.messages_and_notes
+    else
+      @consult.messages
+    end
+  end
+
+  def page_number
+    @page_number ||= params[:page] || 1
+  end
+
+  def page_size
+    @page_size ||= params[:per] || Metadata.default_page_size
+  end
+
+  def show_all?
+    params[:show_all].present?
   end
 
   def load_consult!

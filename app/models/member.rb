@@ -70,6 +70,7 @@ class Member < User
   belongs_to :nux_answer
   belongs_to :impersonated_user, class_name: 'Member'
   has_one :enrollment, foreign_key: :user_id, inverse_of: :user, autosave: true
+  has_many :entries
 
   attr_accessible :password, :password_confirmation,
                   :invitation_token, :units,
@@ -387,7 +388,7 @@ class Member < User
                          due_at: Time.now)
     end
 
-    after_transition %i(premium chamath) => :free do |member, transition|
+    after_transition %i(trial premium chamath) => :free do |member, transition|
       member.tasks.open_state.each do |task|
         task.reason_abandoned = "member_downgraded_canceled"
         task.abandoner = Member.robot
@@ -473,18 +474,26 @@ class Member < User
   end
 
   def add_new_member_content
-    if onboarding_group.try(:mayo_pilot?)
-      cards.create(resource: Content.mayo_pilot, priority: 30) if Content.mayo_pilot
-    end
+    add_mayo_pilot_content
     cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
-    if @cold_weather_content = Content.find_by_document_id('HQ01681')
-      cards.create(resource: @cold_weather_content, priority: 1)
-    end
-    if @happiness_content = Content.find_by_document_id('MY01357')
-      cards.create(resource: @happiness_content, priority: 1)
-    end
+    add_cold_weather_cotent
+    add_happiness_content
     cards.create(resource: CustomCard.swipe_explainer, priority: 0) if CustomCard.swipe_explainer
   end
+
+  def add_mayo_pilot_content
+    cards.create(resource: Content.mayo_pilot, priority: 30) if (onboarding_group.try(:mayo_pilot?)) && (Content.mayo_pilot)
+  end
+
+  def add_cold_weather_cotent
+    cards.create(resource: @cold_weather_content, priority: 1) if @cold_weather_content = Content.find_by_document_id('HQ01681')
+  end
+
+  def add_happiness_content
+    cards.create(resource: @happiness_content, priority: 1) if @happiness_content = Content.find_by_document_id('MY01357')
+  end
+
+
 
   def add_owned_referral_code
     return if owned_referral_code

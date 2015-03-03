@@ -1,29 +1,25 @@
 class Api::V1::PingController < Api::V1::ABaseController
-  before_filter :load_current_session!
-  before_filter :authentication_check
-  after_filter :store_apns_token!, if: -> { params[:auth_token] && valid_token? }
-  after_filter :store_gcm_id!, if: -> { params[:auth_token] && valid_token? }
-  after_filter :store_device_information!, if: -> { params[:auth_token] && valid_token?}
-  after_filter :store_user_information!, if: -> { params[:auth_token] && valid_token?}
-
-  def authentication_check
-    auto_login(@session.member) if @session.try(:member)
-  end
-
-  def valid_token?
-    !!@session
-  end
+  after_filter :store_apns_token!, if: :session_valid?
+  after_filter :store_gcm_id!, if: :session_valid?
+  after_filter :store_device_information!, if: :session_valid?
+  after_filter :store_user_information!, if: :session_valid?
 
   def index
+    keep_alive and return if care_portal?
+
     hash = {
       revision: REVISION,
       use_invite_flow: Metadata.use_invite_flow?,
       enable_sharing: Metadata.enable_sharing?,
       nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer },
-      stories: stories,
-      splash_story: splash_story,
-      question_story: question_story
+      auth_token_valid: session_valid?
     }
+
+    unless params[:exclude_stories]
+      hash.merge!(stories: stories,
+                  splash_story: splash_story,
+                  question_story: question_story)
+    end
 
     if current_user
       metadata_hash = Metadata.to_hash_for(current_user)
@@ -49,8 +45,22 @@ class Api::V1::PingController < Api::V1::ABaseController
 
   private
 
-  def load_current_session!
+  def keep_alive
+    if session_valid?
+      current_session.keep_alive
+      render_success
+    else
+      render_failure
+    end
+  end
+
+  def authentication_check
     @session = Session.find_by_auth_token(params[:auth_token])
+    auto_login(@session.member) if @session.try(:member)
+  end
+
+  def session_valid?
+    (params[:auth_token] && current_session) ? true : false
   end
 
   def store_apns_token!
@@ -136,6 +146,10 @@ class Api::V1::PingController < Api::V1::ABaseController
 
   def ios_version_valid?
     ios_version >= minimum_ios_version
+  end
+
+  def care_portal?
+    params[:care_portal]
   end
 
   def android_version

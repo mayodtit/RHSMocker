@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "error": true,
+    "message": "We're sorry; we were unable to page a doctor by that uid ;-(",
+    "error_code": 9999,
+    "http_status_code": 404
+  }
+}

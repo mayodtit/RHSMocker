@@ -12,7 +12,12 @@ class Api::V1::UserImagesController < Api::V1::ABaseController
   end
 
   def update
-    update_resource @user_image, user_image_attributes
+    if @user_image.update_attributes(user_image_attributes)
+      @user_image = UserImage.find(@user_image.id) # force reload of CarrierWave image url
+      render_success(user_image: @user_image.serializer)
+    else
+      render_failure({user_image: @user_image.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   def create

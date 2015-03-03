@@ -1,4 +1,6 @@
 require 'codeclimate-test-reporter'
+require 'webmock/rspec'
+require 'mandrill_mailer/offline'
 CodeClimate::TestReporter.start
 
 ENV["RAILS_ENV"] ||= 'test'

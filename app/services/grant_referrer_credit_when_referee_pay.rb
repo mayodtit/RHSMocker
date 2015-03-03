@@ -5,6 +5,7 @@ class GrantReferrerCreditWhenRefereePay
 
   def assign_coupon
     referee = find_member(find_stripe_customer_id(@event))
+    return if referee.nil?
     referral_code = referee.referral_code
     referrer = referral_code.user if referral_code
     distribute_coupon(referrer, referee) if referrer
@@ -13,6 +14,7 @@ class GrantReferrerCreditWhenRefereePay
   def apply_coupon
     referrer_stripe_customer = Stripe::Customer.retrieve(find_stripe_customer_id(@event))
     referrer = find_member(find_stripe_customer_id(@event))
+    return if referrer.nil?
     if referrer && has_coupon?(referrer)
       redeem_coupon(referrer, referrer_stripe_customer)
     end

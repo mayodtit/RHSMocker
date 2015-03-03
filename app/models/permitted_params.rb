@@ -168,11 +168,11 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def address_attributes
-    %i(id address address2 line1 line2 city postal_code name type)
+    %i(id address address2 line1 line2 city state postal_code name type)
   end
 
   def provider_attributes
-    [:id, :address, :city, :postal_code, :phone]
+    [:id, :address, :city, :state, :postal_code, :phone]
   end
 
   def emergency_contact_attributes

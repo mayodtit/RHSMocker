@@ -41,6 +41,8 @@ class Api::V1::MembersController < Api::V1::ABaseController
           end
           SendWelcomeEmailService.new(@member).call
           SendConfirmEmailService.new(@member).call
+          SendDownloadLinkService.new(@member.phone).call if send_download_link?
+          SendEmailToStakeholdersService.new(@member).call
           render_success user: @member.serializer,
                          member: @member.reload.serializer,
                          pha_profile: @member.pha.try(:pha_profile).try(:serializer),
@@ -70,8 +72,9 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def update_current
     if current_user.update_attributes(permitted_params(current_user).user)
-      render_success user: current_user.serializer,
-                     member: current_user.serializer
+      @member = Member.find(current_user.id) # force reload of CarrierWave image for correct URL
+      render_success user: @member.serializer,
+                     member: @member.serializer
     else
       render_failure({reason: current_user.errors.full_messages.to_sentence}, 422)
     end
@@ -202,5 +205,9 @@ class Api::V1::MembersController < Api::V1::ABaseController
       attributes[:enrollment] = @enrollment if @enrollment
       attributes[:time_zone] = params[:device_properties].try(:[], :device_timezone)
     end
+  end
+
+  def send_download_link?
+    params[:send_download_link]
   end
 end

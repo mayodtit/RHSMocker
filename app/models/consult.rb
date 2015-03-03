@@ -3,8 +3,8 @@ class Consult < ActiveRecord::Base
   belongs_to :initiator, class_name: 'Member'
   belongs_to :subject, class_name: 'User'
   belongs_to :symptom
-  has_many :messages, inverse_of: :consult, conditions: { note: false }, order: 'created_at ASC'
-  has_many :messages_and_notes, class_name: 'Message', inverse_of: :consult, order: 'created_at ASC'
+  has_many :messages, inverse_of: :consult, conditions: { note: false }
+  has_many :messages_and_notes, class_name: 'Message', inverse_of: :consult
   has_many :users, through: :messages
   has_many :phone_calls, through: :messages
   has_many :scheduled_phone_calls, through: :messages
@@ -42,6 +42,7 @@ class Consult < ActiveRecord::Base
     return if messages.any?
     return unless initiator.signed_up?
     return unless initiator.pha
+    return if initiator.onboarding_group.try(:skip_automated_communications?)
     nux_answer_name = initiator.nux_answer.try(:name) || 'something else'
 
     if initiator.free?

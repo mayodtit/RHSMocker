@@ -8,6 +8,7 @@ development:
   AWS_DOCS: true
   AWS_ACCESS_KEY_ID: AKIAJYP4DRAT7EQ3RREQ
   AWS_SECRET_ACCESS_KEY: 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
+  BLOOM_API_URL: 'http://warrior.getbetter.com/'
   S3_BUCKET: btr01-devlocal
   GA_TRACKING_ID: UA-40574608-2 # for rhs-devlocal
   PUSHER_APP_ID: 36367
@@ -25,6 +26,7 @@ development:
   MIXPANEL_API_KEY: 3a844a978038d0d30c507a78b4403388
   MIXPANEL_TOKEN: 6ecc7e55d9b4e93d87d962f08e303b4a
   SNOMED_SEARCH_URL: https://snomed.getbetter.com/snomed/en-edition/v20140901/
+  BETTER_DOCTOR_API_KEY: edd4c37c129961549d4f1882251b261c
 test:
   GCM_KEY: AIzaSyAkGLtzj-ecM3Nkhw6t6LlyQkSZwo_H2EI
   NOD_API_KEY: ukWpqVwGyS7Aq3USxYEK
@@ -35,9 +37,11 @@ test:
   AWS_DOCS: true
   AWS_ACCESS_KEY_ID: AKIAJYP4DRAT7EQ3RREQ
   AWS_SECRET_ACCESS_KEY: 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
+  BLOOM_API_URL: 'http://warrior.getbetter.com/'
   S3_BUCKET: btr01-devlocal
   GA_TRACKING_ID: UA-40574608-2 # for rhs-devlocal
   PUSHER_APP_ID: 36367
   PUSHER_KEY: f93e7c2a2a407ef7747b
   PUSHER_SECRET: 513445887ae45c985287
   SNOMED_SEARCH_URL: https://snomed.getbetter.com/snomed/en-edition/v20140901/
+  BETTER_DOCTOR_API_KEY: edd4c37c129961549d4f1882251b261c

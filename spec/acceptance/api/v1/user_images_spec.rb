@@ -13,6 +13,10 @@ resource 'UserImage' do
   parameter :auth_token, 'User auth_token'
   required_parameters :auth_token
 
+  before do
+    CarrierWave::Mount::Mounter.any_instance.stub(:store!)
+  end
+
   context 'existing record' do
     let!(:user_image) { create(:user_image, user: user) }
 

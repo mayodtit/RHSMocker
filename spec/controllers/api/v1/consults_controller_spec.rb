@@ -81,7 +81,8 @@ describe Api::V1::ConsultsController do
     end
 
     before do
-      Consult.stub(create: consult)
+      Consult.stub(create: consult,
+                   find: consult)
       consult.stub(:reload)
     end
 

@@ -9,6 +9,10 @@ class Search::Service
 
   def snomed_query(params, services=nil)
     snomed.query(params)
+
+  def proximity(params, services=nil)
+    @geo ||= Search::Geo::Proximity.new
+    @geo.find_near(params)
   end
 
   private
@@ -21,3 +25,4 @@ class Search::Service
     @snomed ||= Search::Service::Snomed.new
   end
 end
+

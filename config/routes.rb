@@ -66,6 +66,7 @@ RHSMocker::Application.routes.draw do
         put :secure_update, on: :member
         put :update_current, on: :collection # TODO - this should be deprecated in general, client should know the ID
         resources :tasks, only: [:index, :create], controller: 'member_tasks'
+        resources :entries, only: :index
         resources :services, only: [:index, :create], controller: 'member_services'
         resources :task_changes, only: :index
       end
@@ -96,6 +97,9 @@ RHSMocker::Application.routes.draw do
       resources :side_effects, :only => :index
       post :signup, to: 'members#create', as: :signup # TODO - deprecated!
       resources :service_status, only: :index
+      resources :sms_notifications, only: [] do
+        post :download, on: :collection
+      end
       resources :symptoms, only: :index do
         resources :factor_groups, only: :index
         resources :contents, only: :index, controller: :symptom_contents

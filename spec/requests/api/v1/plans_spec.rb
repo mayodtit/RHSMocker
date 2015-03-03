@@ -88,16 +88,22 @@ describe 'Plans' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:available_plans].to_json).to eq([@family_plan, @yearly_single_plan].serializer.as_json.to_json)
+        expect(body[:plans].count).to eq(2)
+        expect(body[:text_header]).to_not be_blank
       end
     end
 
     context 'user do not have a plan subscribed' do
+      before do
+        user.update_attribute(:stripe_customer_id, nil)
+      end
+
       it 'should return all the plans' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:available_plans].to_json).to eq([@single_plan, @family_plan, @yearly_single_plan].serializer.as_json.to_json)
+        expect(body[:plans].count).to eq(3)
+        expect(body[:text_header]).to_not be_blank
       end
     end
   end

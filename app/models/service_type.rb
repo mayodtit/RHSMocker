@@ -2,7 +2,7 @@ class ServiceType < ActiveRecord::Base
   BUCKETS = ['care coordination', 'engagement', 'insurance', 'wellness', 'other']
   NON_ENGAGEMENT_BUCKETS = ['care coordination', 'insurance', 'wellness', 'other']
 
-  attr_accessible :name, :bucket
+  attr_accessible :name, :bucket, :description_template
 
   validates :name, presence: true
   validates :bucket, inclusion: { in: BUCKETS }, presence: true
