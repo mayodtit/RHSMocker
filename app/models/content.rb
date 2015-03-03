@@ -35,8 +35,9 @@ class Content < ActiveRecord::Base
   validates :condition, presence: true, if: lambda{|c| c.condition_id}
 
   before_validation :set_defaults, on: :create
+  after_commit :reindex
 
-  searchable do
+  searchable :auto_index => false do
     text :raw_body
     text :title, :boost => 2.0
     text :keywords
@@ -165,5 +166,10 @@ class Content < ActiveRecord::Base
     self.show_call_option = true if show_call_option.nil?
     self.show_checker_option = true if show_checker_option.nil?
     self.show_mayo_copyright = false if show_mayo_copyright.nil?
+  end
+
+  def reindex
+    Content.reindex
+    Sunspot.commit
   end
 end
