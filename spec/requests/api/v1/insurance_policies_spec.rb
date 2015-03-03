@@ -103,6 +103,11 @@ describe 'Insurance_Policies' do
       expect(response).to be_success
     end
 
+    it "creates a follow-up task for an HCC" do
+      expect{ do_request(insurance_policy: insurance_policy_attributes) }.to change(InsurancePolicyTask, :count).by(1)
+      expect(response).to be_success
+    end
+
     context 'with an image' do
       let(:insurance_policy_attributes) { {insurance_card_front_image: base64_test_image, insurance_card_back_image: base64_test_image} }
 

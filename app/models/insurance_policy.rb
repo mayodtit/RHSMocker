@@ -39,6 +39,8 @@ class InsurancePolicy < ActiveRecord::Base
                         owner: user.owner.pha,
                         creator: Member.robot,
                         assignor: Member.robot)
+      InsurancePolicyTask.create(member: user.owner,
+                                 subject: user)
     end
   end
 end
