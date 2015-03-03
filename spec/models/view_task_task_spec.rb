@@ -39,9 +39,9 @@ describe ViewTaskTask do
     end
 
     it 'should set the original task to be not visible in queue' do
-      task.visible_in_queue.should == true
+      task.visible_in_queue.should be_true
       ViewTaskTask.create_task_for_task(task)
-      task.visible_in_queue.should == false
+      task.visible_in_queue.should be_false
     end
   end
 
@@ -53,9 +53,9 @@ describe ViewTaskTask do
 
     context 'ViewTaskTask is completed' do
       it 'should set the original task to be visible in queue' do
-        task.reload.visible_in_queue.should == false
+        task.visible_in_queue.should be_false
         ViewTaskTask.find_by_assigned_task_id(task.id).complete!
-        task.reload.visible_in_queue.should == true
+        task.reload.visible_in_queue.should be_true
       end
     end
   end
