@@ -27,12 +27,21 @@ Dental and vision
 eof
 
 APPOINTMENT_BOOKING_DESCRIPTION_TEMPLATE = <<-eof
-For which person:
-Provider:
-Address:
-Phone number:
+For who: Member name:
 Reason for visit:
-Specific dates/ times that work better
+
+replace the current flow with words:
+(Copy + paste doctor contact info (address, phone, and name)
+
+Example:
+Robert E Markison, MD
+2000 Van Ness Avenue Ste 204
+San Francisco, CA 94109
+Phone: (415) 929-5900
+
+Member pref for appt: Usually M/W/F work best, late morning or late afternoon.
+
+
 
 ---------------------------------------------------------
 Call notes:
@@ -44,7 +53,15 @@ Special instructions to prepare:
 
 ________________________________
 Message to member
+M1:
 You're all set! Here are the details of your upcoming appointment:
+M2:
+Day, Date at Time
+Dr. First Last
+Address (map)
+Phone number
+M3:
+If you have any questions or need to cancel, just message me here.
 
 _______________________________
 Google Calendar Invite:
@@ -55,7 +72,6 @@ Event Content:
 Dr. [Dr. Name]
 [Phone number]
 If you have any questions or need to cancel, just message me here.
-
 eof
 
 PROVIDER_SEARCH_DESCRIPTION_TEMPLATE = <<-eof
