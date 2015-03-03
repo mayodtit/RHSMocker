@@ -28,7 +28,8 @@ class MemberSerializer < ActiveModel::Serializer
         first_name: object.first_name,
         last_name: object.last_name,
         email: object.email,
-        full_name: object.full_name
+        full_name: object.full_name,
+        pha_id: object.pha_id
       }
     elsif options[:list]
       {
