@@ -21,6 +21,10 @@ describe Api::V1::ValidateEmailController do
   	  response = do_request('michael@sbc123global.net')
   	  response['suggestion']['full'].should == 'michael@sbcglobal.net'
   	end
+    it 'michael@getbetter should append the .com at the end' do
+      response = do_request('michael@getbetter')
+      response['suggestion']['full'].should == 'michael@getbetter.com'
+    end
   	it 'should return suggestion when user forgets dot' do
   	  response = do_request('michael@gmaicom')
   	  response['suggestion']['full'].should == 'michael@gmail.com'

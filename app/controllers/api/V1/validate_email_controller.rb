@@ -12,7 +12,7 @@ class Api::V1::ValidateEmailController < Api::V1::ABaseController
   private
 
   def suggestion
-    @suggestion = Mailcheck2.new(
+    @suggestion ||= Mailcheck2.new(
       :domains => MAILCHECK_DOMAINS,
       :top_level_domains => MAILCHECK_TOP_LEVEL_DOMAINS
     ).suggest(params[:email])
