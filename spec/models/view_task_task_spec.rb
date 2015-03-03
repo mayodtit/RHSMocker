@@ -39,6 +39,7 @@ describe ViewTaskTask do
     end
 
     it 'should set the original task to be not visible in queue' do
+      task.visible_in_queue.should == true
       ViewTaskTask.create_task_for_task(task)
       task.visible_in_queue.should == false
     end
@@ -49,11 +50,11 @@ describe ViewTaskTask do
     let(:old_pha) { create :pha, first_name: 'A', last_name: 'B'}
     let(:new_pha) { create :pha}
     let!(:task) { create :task, member: member, owner: new_pha, assignor: old_pha, visible_in_queue: false}
-    let!(:view_task_task) { create :view_task_task, assigned_task: task, member: member}
 
     context 'ViewTaskTask is completed' do
       it 'should set the original task to be visible in queue' do
-        view_task_task.complete!
+        task.reload.visible_in_queue.should == false
+        ViewTaskTask.find_by_assigned_task_id(task.id).complete!
         task.reload.visible_in_queue.should == true
       end
     end
