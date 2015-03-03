@@ -23,7 +23,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
         end
       end
     rescue Stripe::CardError => e
-      Rails.logger.error "Error in subscriptionsController#update for user #{@user.id}: #{e}"
+      Rails.logger.error "Error in subscriptionsController#create for user #{@user.id}: #{e}"
       render_failure({reason: e.as_json['code'],
                       user_message: e.as_json['message']}, 422) and return
     rescue => e
