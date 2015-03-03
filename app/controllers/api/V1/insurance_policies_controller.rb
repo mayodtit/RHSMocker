@@ -51,6 +51,7 @@ class Api::V1::InsurancePoliciesController < Api::V1::ABaseController
     permitted_params.insurance_policy.tap do |attributes|
       add_insurance_card_image_attributes(attributes, :front)
       add_insurance_card_image_attributes(attributes, :back)
+      attributes[:actor] = current_user
     end
   end
 

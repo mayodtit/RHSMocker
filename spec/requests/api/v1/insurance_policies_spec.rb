@@ -1,7 +1,8 @@
 require 'spec_helper'
 
 describe 'Insurance_Policies' do
-  let!(:user) { create(:member) }
+  let!(:pha) { create(:pha) }
+  let!(:user) { create(:member, :premium, pha: pha) }
   let!(:session) { user.sessions.create }
 
   context 'existing record' do
@@ -88,12 +89,18 @@ describe 'Insurance_Policies' do
     end
 
     let(:insurance_policy_attributes) { attributes_for(:insurance_policy) }
+    let!(:service_type) { create(:service_type, name: 'process insurance card') }
 
     it 'creates a insurance policy' do
       expect{ do_request(insurance_policy: insurance_policy_attributes) }.to change(InsurancePolicy, :count).by(1)
       expect(response).to be_success
       body = JSON.parse(response.body, symbolize_names: true)
       expect(body[:insurance_policy][:insurance_policy]).to eq(insurance_policy_attributes[:insurance_policy])
+    end
+
+    it "creates a follow-up task for the user's PHA" do
+      expect{ do_request(insurance_policy: insurance_policy_attributes) }.to change(MemberTask, :count).by(1)
+      expect(response).to be_success
     end
 
     context 'with an image' do
