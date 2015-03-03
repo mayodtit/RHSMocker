@@ -19,11 +19,7 @@ class Search::Service::Snomed
   private
 
   def select_query(is_allergy, params)
-    if is_allergy
-      allergy_query(params)
-    else
-      condition_query(params)
-    end
+    is_allergy ? allergy_query(params) : condition_query(params)
   end
 
   def allergy_query(params)
@@ -35,11 +31,7 @@ class Search::Service::Snomed
   end
 
   def sanitize_response(is_allergy, response)
-    if is_allergy
-      sanitize_allergy(response)
-    else
-      sanitize_condition(response)
-    end
+    is_allergy ? sanitize_allergy(response) : sanitize_condition(response)
   end
 
   def sanitize_allergy(response)
@@ -48,9 +40,9 @@ class Search::Service::Snomed
       term = match['term']
       unless allergy_filter(term)
         current_result = {
-            :environmental_allergen => nil,
-            :food_allergen => nil,
-            :medication_allergen => nil}
+            environmental_allergen: nil,
+            food_allergen: nil,
+            medication_allergen: nil}
         result << set_result(current_result, match)
       end
     end
@@ -61,7 +53,7 @@ class Search::Service::Snomed
     result = []
     response['matches'].each do |match|
       unless condition_filter(match['term'])
-        current_result = Hash.new
+        current_result = {}
         result << set_result(current_result, match)
       end
     end

@@ -7,8 +7,7 @@ class Api::V1::AllergiesController < Api::V1::ABaseController
   end
 
   def search
-    @allergies = snomod_results
-    render_success({allergies: @allergies})
+    render_success({allergies: snomod_results})
   end
 
   private
