@@ -50,7 +50,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
                       user_message: e.as_json['message']}, 422) and return
     rescue => e
       Rails.logger.error "Error in subscriptionsController#update for user #{@user.id}: #{e}"
-      render failure({reason: "Error occurred during updating subscription"})and return
+      render failure({reason: "Error occurred during updating subscription"}) and return
     end
   end
 
