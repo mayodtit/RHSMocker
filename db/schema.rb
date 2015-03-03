@@ -774,6 +774,19 @@ ActiveRecord::Schema.define(:version => 20150228212218) do
   add_index "scheduled_phone_calls", ["state", "scheduled_at"], :name => "index_scheduled_phone_calls_on_state_and_scheduled_at"
   add_index "scheduled_phone_calls", ["state"], :name => "index_scheduled_phone_calls_on_state"
 
+  create_table "service_changes", :force => true do |t|
+    t.integer  "service_id", :null => false
+    t.string   "event"
+    t.string   "from"
+    t.string   "to"
+    t.text     "data"
+    t.integer  "actor_id",   :null => false
+    t.datetime "created_at", :null => false
+    t.string   "reason"
+  end
+
+  add_index "service_changes", ["service_id"], :name => "index_service_changes_on_service_id"
+
   create_table "service_state_transitions", :force => true do |t|
     t.integer  "service_id", :null => false
     t.string   "event"
@@ -822,6 +835,9 @@ ActiveRecord::Schema.define(:version => 20150228212218) do
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
     t.integer  "service_template_id"
+    t.datetime "completed_at"
+    t.datetime "abandoned_at"
+    t.integer  "abandoner_id"
   end
 
   create_table "sessions", :force => true do |t|
