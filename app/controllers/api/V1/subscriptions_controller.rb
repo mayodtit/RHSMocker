@@ -38,11 +38,19 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   end
 
   def update
-    sa = subscription_attributes
-    if UpdateStripeSubscriptionService.new(@user, sa[:plan]).call
-      render_success ({ subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first })
-    else
-      render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
+    begin
+      sa = subscription_attributes
+      if UpdateStripeSubscriptionService.new(@user, sa[:plan]).call
+        render_success ({ subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first })
+      else
+        render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
+      end
+    rescue Stripe::CardError => e
+      render_failure({reason: e.as_json['code'],
+                      user_message: e.as_json['message']}, 422) and return
+    rescue => e
+      Rails.logger.error "Error in subscriptionsController#update for user #{@user.id}: #{e}"
+      render failure({reason: "Error occurred during updating subscription"})and return
     end
   end
 
