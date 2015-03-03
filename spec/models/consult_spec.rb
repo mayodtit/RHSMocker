@@ -67,6 +67,21 @@ describe Consult do
                 Timecop.return()
               end
 
+              context 'with an onboarding group that does not get a first message' do
+                let!(:onboarding_group) { create(:onboarding_group, skip_automated_communications: true) }
+
+                before do
+                  member.update_attributes(onboarding_group: onboarding_group)
+                end
+
+                it 'does not attach a message' do
+                  MessageTemplate.stub(:find_by_name).with("New Premium Member Part 1: #{nux_answer.name}") { message_template }
+                  consult = create :consult, initiator: member
+                  consult.reload
+                  consult.messages.count.should == 0
+                end
+              end
+
               it 'creates a message from a template' do
                 MessageTemplate.stub(:find_by_name).with("New Premium Member Part 1: #{nux_answer.name}") { message_template }
                 message_template.should_receive(:create_message).with(pha, instance_of(Consult), true, false, true).and_call_original
@@ -205,10 +220,6 @@ describe Consult do
         consult.messages.include?(new_message).should be_true
         consult.messages.include?(note).should be_false
       end
-
-      it 'returns messages ordered by created at' do
-        consult.reload.messages.should == [old_message, new_message]
-      end
     end
 
     describe '#messages_and_notes' do
@@ -216,10 +227,6 @@ describe Consult do
         consult.messages_and_notes.include?(old_message).should be_true
         consult.messages_and_notes.include?(new_message).should be_true
         consult.messages_and_notes.include?(note).should be_true
-      end
-
-      it 'returns messages ordered by created at' do
-        consult.messages_and_notes.should == [old_message, note, new_message]
       end
     end
   end

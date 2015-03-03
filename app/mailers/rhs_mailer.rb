@@ -226,7 +226,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     params = {
       subject: 'Reset Password Instructions for Better',
       to: { email: email },
-      template: 'Password Reset',
+      template: 'Password Recovery email 2/27/2014',
       vars: {
         GREETING: salutation,
         RESETLINK: url
@@ -412,6 +412,51 @@ class RHSMailer < MandrillMailer::TemplateMailer
           PLAN_NAME: plan_name,
           pha_first_name: pha_first_name
         }
+    }
+    send_mail(params)
+  end
+
+  def confirm_subscription_deletion(user)
+    params = {
+        subject: 'Your subscription has ended',
+        from: 'support@getbetter.com',
+        from_name: 'Better',
+        template: "Account downgraded 2/16/2015",
+        to: {email: user.email},
+        vars: {
+          FNAME: user.salutation,
+        }
+    }
+    send_mail(params)
+  end
+
+  def confirm_subscription_change(user, subscription)
+    plan_name = subscription.plan.name
+    params = {
+      subject: 'Your subscription has been updated',
+      from: "support@getbetter.com",
+      from_name: 'Better',
+      to: { email: user.email },
+      template: "Subscription update 2/16/2015",
+      vars: {
+        FNAME: user.salutation,
+        PLAN_NAME: plan_name
+      }
+    }
+    send_mail(params)
+  end
+  
+  def notify_referrer_of_sign_up(referrer, referee)
+    params = {
+      subject: "Good news #{referee.first_name || "your friend"} has signed up for Better!",
+      from: 'support@getbetter.com',
+      from_name: 'Better',
+      to: { email: referrer.email },
+      template: 'Tell a Friend Notification 12/12/2014',
+      vars: {
+        FNAME: referrer.first_name,
+        REFEREE_FNAME: referee.first_name
+      }
     }
     send_mail(params)
   end
