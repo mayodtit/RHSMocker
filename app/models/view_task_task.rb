@@ -23,7 +23,7 @@ class ViewTaskTask < Task
   state_machine do
 
     after_transition any => :completed do |task|
-      unless ViewTaskTask.where(assigned_task_id: task.assigned_task_id).open.count > 0
+      if ViewTaskTask.where(assigned_task_id: task.assigned_task_id).open.empty?
         task.assigned_task.update_attributes!(visible_in_queue: true)
       end
     end
