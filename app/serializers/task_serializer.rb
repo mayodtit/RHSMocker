@@ -41,7 +41,8 @@ class TaskSerializer < ActiveModel::Serializer
         type: type,
         service_type: object.service_type,
         description: object.description,
-        day_priority: object.day_priority
+        day_priority: object.day_priority,
+        member: object.member.try(:serializer, options.merge(shallow: true))
       }
       attributes
     else
