@@ -30,8 +30,8 @@ class InsurancePolicy < ActiveRecord::Base
   def create_tasks
     return unless user.owner.is_premium?
     if @actor == user || user.owner == @actor
-      MemberTask.create(title: 'Process insurance',
-                        description: 'Insurance card received, process the card',
+      MemberTask.create(title: 'Process insurance - Review',
+                        description: 'Insurance card received and processed by HCC, review insurances to make sure everything is set.',
                         due_at: Time.now + 1.hour,
                         service_type: ServiceType.find_by_name('process insurance card'),
                         member: user.owner,

@@ -17,8 +17,9 @@ class InsurancePolicyTask < Task
   private
 
   TASK_DESCRIPTION = <<-eof
-1. Verify new insurance policy is in their profile
+1. Verify new insurance policy is in their profile.
 2. Acknowledge to the member that we've heard them and are processing their Insurance policy.
+3. Extract information from the card and put it into the insurance policy fields.
   eof
 
   def set_defaults
