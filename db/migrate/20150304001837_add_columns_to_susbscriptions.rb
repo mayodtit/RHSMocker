@@ -18,7 +18,6 @@ class AddColumnsToSusbscriptions < ActiveRecord::Migration
     add_column :subscriptions, :current_period_start, :integer
     add_column :subscriptions, :current_period_end, :integer
     add_column :subscriptions, :start, :integer
-    change_column_null :subscriptions, :owner_id, false
     rename_column :subscriptions, :owner_id, :user_id
   end
 end
