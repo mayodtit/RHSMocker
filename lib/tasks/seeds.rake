@@ -840,5 +840,6 @@ namespace :seeds do
   puts "Database populated"
 
   end
-end
+  end
+  end
 
