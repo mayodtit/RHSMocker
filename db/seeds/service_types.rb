@@ -57,19 +57,15 @@ Special instructions to prepare:
 ---------------------------------------------------------
 Message to member:
 
-M1:
-You're all set! Here are the details of your upcoming appointment:
+Here are the details of your appointment:
+
 **Day, Date at Time**
 Dr. First Last
-Address ([map](map link))
+Address: ([map](map link))
 Phone: Phone number
-M2:
-Day, Date at Time
-Dr. First Last 
-Address (map)
-Phone number
-M3:
-If you have any questions or need to cancel, just message me here.
+Special instructions:
+
+Let me know if this works for you and I’ll add it to your calendar!
 
 ---------------------------------------------------------
 Google Calendar Invite:
