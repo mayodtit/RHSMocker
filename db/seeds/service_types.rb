@@ -27,8 +27,13 @@ Dental and vision
 eof
 
 APPOINTMENT_BOOKING_DESCRIPTION_TEMPLATE = <<-eof
-For who: Member name:
+For which person:
+Insurance plan:
+Provider:
+Address:
+Phone number:
 Reason for visit:
+Specific dates/times that work better:
 
 replace the current flow with words:
 (Copy + paste doctor contact info (address, phone, and name)
@@ -38,32 +43,35 @@ Robert E Markison, MD
 2000 Van Ness Avenue Ste 204
 San Francisco, CA 94109
 Phone: (415) 929-5900
-
 Member pref for appt: Usually M/W/F work best, late morning or late afternoon.
-
-
 
 ---------------------------------------------------------
 Call notes:
+
 Who you spoke with:
 Available times/Booked time:
 Insurance still up-to-date:
 What to bring:
 Special instructions to prepare:
 
-________________________________
-Message to member
+---------------------------------------------------------
+Message to member:
+
 M1:
 You're all set! Here are the details of your upcoming appointment:
+**Day, Date at Time**
+Dr. First Last
+Address ([map](map link))
+Phone: Phone number
 M2:
 Day, Date at Time
-Dr. First Last
+Dr. First Last 
 Address (map)
 Phone number
 M3:
 If you have any questions or need to cancel, just message me here.
 
-_______________________________
+---------------------------------------------------------
 Google Calendar Invite:
 
 Event Title: Appointment with Dr. [Dr. Name]
