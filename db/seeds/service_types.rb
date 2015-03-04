@@ -164,6 +164,7 @@ ServiceType.upsert_attributes!({name: 'PHA Introduction'}, {bucket: 'engagement'
 ServiceType.find_or_create_by_name(name: 'check-in message', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'service and message planning', bucket: 'engagement')
 ServiceType.upsert_attributes!({name: 'review member meals'}, {bucket: 'engagement', description_template: REVIEW_MEMBER_MEALS_DESCRIPTION_TEMPLATE})
+ServiceType.find_or_create_by_name(name: 'process insurance card', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'other engagement', bucket: 'engagement')
 
 # Wellness --
