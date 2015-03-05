@@ -85,6 +85,10 @@ class Message < ActiveRecord::Base
     id ? where('id > ?', id) : scoped
   end
 
+  def self.after_incl(id=nil)
+    id ? where('id >= ?', id) : scoped
+  end
+
   def activate_consult
     if !off_hours? && !system? && !automated? && !note? && (text.present? || image.present?)
       Consult.transaction do

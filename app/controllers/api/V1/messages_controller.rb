@@ -12,9 +12,10 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   def create
     @message = @consult.messages.create(message_attributes)
     if @message.errors.empty?
-      #@message = Message.find(@message.id) # force reload of CarrierWave image url
-      @message = messages
-      render_success(message: @message.serializer)
+      @message = Message.find(@message.id) # force reload of CarrierWave image url
+      params[:after_incl] = @message.id
+      @messages = post_messages
+      render_success(message: @message.serializer, messages: @messages.serializer)
     else
       render_failure({reason: @message.errors.full_messages.to_sentence}, 422)
     end
@@ -24,6 +25,10 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
   def messages
     base_messages_with_pagination.includes(:user).exclude(params[:exclude]).sort_by(&:id)
+  end
+
+  def post_messages
+    base_messages.after_incl(params[:after_incl]).includes(:user)
   end
 
   def base_messages_with_pagination
