@@ -28,25 +28,46 @@ eof
 
 APPOINTMENT_BOOKING_DESCRIPTION_TEMPLATE = <<-eof
 For which person:
+Insurance plan:
 Provider:
 Address:
 Phone number:
 Reason for visit:
-Specific dates/ times that work better
+Specific dates/times that work better:
+
+replace the current flow with words:
+(Copy + paste doctor contact info (address, phone, and name)
+
+Example:
+Robert E Markison, MD
+2000 Van Ness Avenue Ste 204
+San Francisco, CA 94109
+Phone: (415) 929-5900
+Member pref for appt: Usually M/W/F work best, late morning or late afternoon.
 
 ---------------------------------------------------------
 Call notes:
+
 Who you spoke with:
 Available times/Booked time:
 Insurance still up-to-date:
 What to bring:
 Special instructions to prepare:
 
-________________________________
-Message to member
-You're all set! Here are the details of your upcoming appointment:
+---------------------------------------------------------
+Message to member:
 
-_______________________________
+Here are the details of your appointment:
+
+**Day, Date at Time**
+Dr. First Last
+Address: ([map](map link))
+Phone: Phone number
+Special instructions:
+
+Let me know if this works for you and I’ll add it to your calendar!
+
+---------------------------------------------------------
 Google Calendar Invite:
 
 Event Title: Appointment with Dr. [Dr. Name]
@@ -55,7 +76,6 @@ Event Content:
 Dr. [Dr. Name]
 [Phone number]
 If you have any questions or need to cancel, just message me here.
-
 eof
 
 PROVIDER_SEARCH_DESCRIPTION_TEMPLATE = <<-eof
@@ -110,11 +130,16 @@ member's goal:
 dates to review:
 eof
 
+REVIEW_DISCHARGE_PAPERS_DESCRIPTION_TEMPLATE = <<eof
+Who reviewed?
+Who double checked?
+eof
+
 # Service Types -
 ServiceType.find_or_create_by_name(name: 'other', bucket: 'other')
 
 # Insurance --
-ServiceType.find_or_create_by_name(name: 'benefit evaluation', bucket: 'insurance')
+ServiceType.find_or_create_by_name(name: 'insurance review', bucket: 'insurance')
 ServiceType.find_or_create_by_name(name: 'claims', bucket: 'insurance')
 ServiceType.upsert_attributes!({name: 'medical bill investigation'}, {bucket: 'insurance', description_template: MEDICAL_BILL_INVESTIGATION_DESCRIPTION_TEMPLATE})
 ServiceType.find_or_create_by_name(name: 'cost estimation', bucket: 'insurance')
@@ -144,6 +169,7 @@ ServiceType.upsert_attributes!({name: 'preventive care reminders'}, bucket: 'car
 ServiceType.find_or_create_by_name(name: 'urgent care and emergency room', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'prevention screenings', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'assemble care team', bucket: 'care coordination')
+ServiceType.find_or_create_by_name(name: 'review discharge papers', bucket: 'care coordination', description_template: REVIEW_DISCHARGE_PAPERS_DESCRIPTION_TEMPLATE)
 
 # Engagement --
 ServiceType.upsert_attributes!({name: 'welcome call'}, {bucket: 'engagement', description_template: WELCOME_CALL_DESCRIPTION_TEMPLATE})
@@ -164,6 +190,7 @@ ServiceType.upsert_attributes!({name: 'PHA Introduction'}, {bucket: 'engagement'
 ServiceType.find_or_create_by_name(name: 'check-in message', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'service and message planning', bucket: 'engagement')
 ServiceType.upsert_attributes!({name: 'review member meals'}, {bucket: 'engagement', description_template: REVIEW_MEMBER_MEALS_DESCRIPTION_TEMPLATE})
+ServiceType.find_or_create_by_name(name: 'process insurance card', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'other engagement', bucket: 'engagement')
 
 # Wellness --

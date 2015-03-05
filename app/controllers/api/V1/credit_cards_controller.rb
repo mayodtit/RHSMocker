@@ -31,9 +31,12 @@ class Api::V1::CreditCardsController < Api::V1::ABaseController
                                    last4: @card.last4.to_i,
                                    exp_month: @card.exp_month.to_i,
                                    exp_year: @card.exp_year.to_i})
+    rescue Stripe::CardError => e
+      Rails.logger.error "Error in subscriptionsController#create for user #{@user.id}: #{e}"
+      render_failure({reason: e.as_json['message']}, 422) and return
     rescue => e
       Rails.logger.error "Error in CreditCardsController#create for user #{@user.id}: #{e}"
-      render_failure({reason: 'Error adding credit card'}, 422)
+      render_failure({reason: 'Error adding credit card'}, 422) and return
     end
   end
 

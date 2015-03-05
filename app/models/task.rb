@@ -50,7 +50,7 @@ class Task < ActiveRecord::Base
   scope :nurse, -> { where(['role_id = ?', Role.find_by_name!('nurse').id]) }
   scope :pha, -> { where(['role_id = ?', Role.find_by_name!('pha').id]) }
   scope :owned, -> (hcp) { where(['state IN (?, ?, ?, ?) AND owner_id = ?', :unstarted, :started, :claimed, :spam, hcp.id]) }
-  scope :needs_triage, -> (hcp) { where(['(owner_id IS NULL AND state NOT IN (?)) OR (state IN (?, ?, ?, ?) AND owner_id = ? AND type IN (?, ?, ?, ?))', :abandoned, :unstarted, :started, :claimed, :spam, hcp.id, PhoneCallTask.name, MessageTask.name, UserRequestTask.name, ParsedNurselineRecordTask.name]) }
+  scope :needs_triage, -> (hcp) { where(['(owner_id IS NULL AND state NOT IN (?)) OR (state IN (?, ?, ?, ?) AND owner_id = ? AND type IN (?, ?, ?, ?, ?))', :abandoned, :unstarted, :started, :claimed, :spam, hcp.id, PhoneCallTask.name, MessageTask.name, UserRequestTask.name, ParsedNurselineRecordTask.name, InsurancePolicyTask.name]) }
   scope :needs_triage_or_owned, -> (hcp) { where(['(state IN (?, ?, ?, ?) AND owner_id = ?) OR (owner_id IS NULL AND state NOT IN (?))', :unstarted, :started, :claimed, :spam, hcp.id, :abandoned]) }
 
   def self.open_state
@@ -182,6 +182,13 @@ class Task < ActiveRecord::Base
     before_transition any - [:completed] => :completed do |task|
       task.completed_at = Time.now
     end
+
+    after_transition any - :completed => :completed do |task|
+      ViewTaskTask.where(assigned_task_id: task.id).each do |view|
+        view.complete!
+      end
+    end
+
 
     before_transition any - [:abandoned] => :abandoned do |task|
       task.abandoned_at = Time.now

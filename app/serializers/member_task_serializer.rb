@@ -10,7 +10,8 @@ class MemberTaskSerializer < TaskSerializer
       super.tap do |attributes|
         attributes.merge!(
           subject: object.subject.try(:serializer, options.merge(shallow: true)),
-          creator: object.creator.try(:serializer, options.merge(shallow: true))
+          creator: object.creator.try(:serializer, options.merge(shallow: true)),
+          service: object.service.try(:serializer, options.merge(shallow: true))
         )
       end
     end

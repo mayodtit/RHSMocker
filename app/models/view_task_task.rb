@@ -6,7 +6,7 @@ class ViewTaskTask < Task
 
   def self.create_task_for_task(task)
     return task if task.owner == task.assignor
-    viewTask = create!(
+    view_task = create!(
         assigned_task: task,
         title: task.title,
         member: task.member,
@@ -15,21 +15,21 @@ class ViewTaskTask < Task
         owner: task.owner,
         due_at: Time.now,
         priority: 7,
-        day_priority: 15
-    )
+        day_priority: 15)
     task.update_attributes!(visible_in_queue: false)
-    viewTask
+    view_task
   end
 
   state_machine do
 
     after_transition any => :completed do |task|
-      task.assigned_task.update_attributes!(visible_in_queue: true)
+      if ViewTaskTask.where(assigned_task_id: task.assigned_task_id).open.empty?
+        task.assigned_task.update_attributes!(visible_in_queue: true)
+      end
     end
 
     after_transition any => :started do |task|
       task.complete
     end
-
   end
 end
