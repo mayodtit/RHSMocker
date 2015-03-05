@@ -266,7 +266,7 @@ Condition.find_or_create_by_name(name: "Insomnia",
 Condition.find_or_create_by_name(name: "Influenza",
                                  snomed_name: "Influenza (disorder)",
                                  snomed_code: "800481016")
-Condition.find_or_create_by_name(name: "Evelated Blood Pressure",
+Condition.find_or_create_by_name(name: "Elevated Blood Pressure",
                                  snomed_name: "Hypertensive disorder, systemic arterial",
                                  snomed_code: "1202949014")
 Condition.find_or_create_by_name(name: "Epilepsy",

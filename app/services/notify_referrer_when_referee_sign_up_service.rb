@@ -1,6 +1,6 @@
 class NotifyReferrerWhenRefereeSignUpService
   def initialize(referral_code, member)
-    @referrer = referral_code.user
+    @referrer = referral_code.creator
     @referee = member
   end
 
