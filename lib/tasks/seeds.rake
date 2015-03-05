@@ -716,7 +716,6 @@ namespace :seeds do
         puts "Error adding, ", zipcode
       end
     }
-  puts "Database populated"
-
+    puts "Database populated"
   end
 end
