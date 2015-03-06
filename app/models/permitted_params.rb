@@ -92,7 +92,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def insurance_policy
-    params.require(:insurance_policy).permit(:id, :company_name, :plan_type, :plan, :subscriber_name, :family_individual, :employer_individual, :employer_exchange,
+    params.require(:insurance_policy).permit(:id, :company_name, :plan_type, :plan, :subscriber_name, :family_individual, :employer_exchange,
                                              :group_number, :effective_date, :termination_date, :member_services_number, :authorized, :policy_member_id, :notes,
                                              :insurance_card_front_client_guid, :insurance_card_back_client_guid)
   end
