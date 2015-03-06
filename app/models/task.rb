@@ -187,6 +187,10 @@ class Task < ActiveRecord::Base
       ViewTaskTask.where(assigned_task_id: task.id).each do |view|
         view.complete!
       end
+
+      if task.service && task.service.tasks.open_state.empty?
+        task.service.create_tasks(task.service_ordinal + 1)
+      end
     end
 
 

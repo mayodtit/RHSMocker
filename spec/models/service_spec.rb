@@ -98,6 +98,37 @@ describe Service do
     end
   end
 
+  describe '#create_tasks' do
+    let!(:service_template) { create :service_template}
+    let!(:service) { create :service, service_template: service_template }
+    let!(:task_template) {create :task_template, service_template: service_template, service_ordinal: 0}
+    let!(:another_task_template) {create :task_template, service_template: service_template, service_ordinal: 1}
+
+    before do
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
+    context 'there are task_templates for the service ordinal' do
+      it 'should create tasks with that ordinal' do
+        Task.should_receive(:create!).with(hash_including(service_ordinal: 0))
+        Task.should_not_receive(:create!).with(hash_including(service_ordinal: 1))
+        service.create_tasks(0)
+      end
+    end
+
+    context 'there are no task_templates for the service ordinal' do
+      it 'should not create any tasks' do
+        Task.should_not_receive(:create!)
+        service.create_tasks(3)
+      end
+    end
+  end
+
+
   describe '#tasks' do
     let!(:service) { create :service }
     let!(:first_task) { create :task, service: service, service_ordinal: 0 }

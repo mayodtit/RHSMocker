@@ -5,7 +5,7 @@ TaskTemplate.find_or_create_by_name(
     title: "Collect information from search",
     description: "Find a provider for a member",
     time_estimate: 900,
-    service_ordinal: 1
+    service_ordinal: 0
 )
 TaskTemplate.find_or_create_by_name(
     name: "perform provider search",
@@ -13,7 +13,7 @@ TaskTemplate.find_or_create_by_name(
     title: "Perform provider search",
     description: "Find a provider for a member",
     time_estimate: 900,
-    service_ordinal: 2
+    service_ordinal: 1
 )
 TaskTemplate.find_or_create_by_name(
     name: "send member options",
@@ -21,7 +21,7 @@ TaskTemplate.find_or_create_by_name(
     title: "Send member the options",
     description: "Find a provider for a member",
     time_estimate: 900,
-    service_ordinal: 3
+    service_ordinal: 2
 )
 TaskTemplate.find_or_create_by_name(
     name: "schedule follow up message",
@@ -29,7 +29,7 @@ TaskTemplate.find_or_create_by_name(
     title: "Sechedule message to follow up on options",
     description: "Find a provider for a member",
     time_estimate: 900,
-    service_ordinal: 4
+    service_ordinal: 2
 )
 TaskTemplate.find_or_create_by_name(
     name: "assign next",
@@ -37,7 +37,7 @@ TaskTemplate.find_or_create_by_name(
     title: "Assign next tasks or services",
     description: "1) Send introduction message<br>2) Review profile information entered by HCC",
     time_estimate: 900,
-    service_ordinal: 5
+    service_ordinal: 3
 )
 
 # 30 Day Experience --
