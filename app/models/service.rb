@@ -35,8 +35,10 @@ class Service < ActiveRecord::Base
   end
 
   def create_tasks(service_ordinal)
-    service_template.task_templates.where(service_ordinal: service_ordinal).order('created_at ASC').each do |task_template|
-      task_template.create_task!(service: self, start_at: Time.now, assignor: assignor)
+    if service_template && service_template.task_templates
+      service_template.task_templates.where(service_ordinal: service_ordinal).order('created_at ASC').each do |task_template|
+        task_template.create_task!(service: self, start_at: Time.now, assignor: assignor)
+      end
     end
   end
 
