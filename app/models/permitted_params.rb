@@ -33,7 +33,8 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
                                              :npi_number,
                                              :subscription_days,
                                              :absolute_subscription_ends_at,
-                                             :skip_credit_card)
+                                             :skip_credit_card,
+                                             :skip_emails)
   end
 
   def referral_code
