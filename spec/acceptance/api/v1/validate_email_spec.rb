@@ -16,11 +16,12 @@ resource 'ValidateEmail' do
                     }
                   }
   get '/api/v1/validate_email' do
+    let(:email) { 'michael@gmai.com' }
     example_request '[GET] Email correction suggestions (if any)' do
-      explanation 'Returns a suggestion if one is found'
+      explanation 'Returns a suggestion if one is found, returns 422 response if domain is invalid'
       expect(status).to eq(200)
       body = JSON.parse(response_body, symbolize_names: true)
-      expect(body[:suggestion].to_json).to eq([suggestion].as_json.to_json)
+      expect(body[:suggestion].to_json).to eq(suggestion.as_json.to_json)
     end
   end
 end
