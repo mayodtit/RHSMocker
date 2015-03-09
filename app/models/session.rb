@@ -18,7 +18,10 @@ class Session < ActiveRecord::Base
   def store_apns_token!(token)
     if apns_token != token
       transaction do
-        self.class.where(apns_token: token).destroy_all
+        self.class.where(apns_token: token).each do |s|
+          s.update_attributes!(apns_token: nil, gcm_id: nil)
+          s.destroy
+        end
         update_attributes!(apns_token: token)
       end
     end
@@ -27,7 +30,10 @@ class Session < ActiveRecord::Base
   def store_gcm_id!(new_gcm_id)
     if gcm_id != new_gcm_id
       transaction do
-        self.class.where(gcm_id: new_gcm_id).destroy_all
+        self.class.where(gcm_id: new_gcm_id).each do |s|
+          s.update_attributes!(apns_token: nil, gcm_id: nil)
+          s.destroy
+        end
         update_attributes!(gcm_id: new_gcm_id)
       end
     end
