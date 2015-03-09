@@ -19,8 +19,7 @@ class Session < ActiveRecord::Base
     if apns_token != token
       transaction do
         self.class.where(apns_token: token).each do |s|
-          s.update_attributes!(apns_token: nil, gcm_id: nil)
-          s.destroy
+          s.update_attributes!(apns_token: nil, gcm_id: nil, disabled_at: Time.now)
         end
         update_attributes!(apns_token: token)
       end
@@ -31,8 +30,7 @@ class Session < ActiveRecord::Base
     if gcm_id != new_gcm_id
       transaction do
         self.class.where(gcm_id: new_gcm_id).each do |s|
-          s.update_attributes!(apns_token: nil, gcm_id: nil)
-          s.destroy
+          s.update_attributes!(apns_token: nil, gcm_id: nil, disabled_at: Time.now)
         end
         update_attributes!(gcm_id: new_gcm_id)
       end
