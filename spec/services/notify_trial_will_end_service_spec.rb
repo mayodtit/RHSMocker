@@ -27,9 +27,22 @@ describe NotifyTrialWillEndService do
       NotifyTrialWillEndService.new(event).call
     end
 
-    it "should send a email to user if user has not downgrade" do
-      Mails::NotifyTrialWillEndJob.should_receive(:create).and_call_original
-      expect{do_method}.to change(Delayed::Job, :count).by(1)
+    context 'user is not downgraded' do
+      it "should send a email to user" do
+        Mails::NotifyTrialWillEndJob.should_receive(:create).and_call_original
+        expect{do_method}.to change(Delayed::Job, :count).by(1)
+      end
+    end
+
+
+    context 'user is downgraded' do
+      before do
+        user.downgrade!
+      end
+
+      it "should not send an email to user" do
+        expect{do_method}.to change(Delayed::Job, :count).by(0)
+      end
     end
   end
 end
