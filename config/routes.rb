@@ -197,6 +197,9 @@ RHSMocker::Application.routes.draw do
       resources :service_templates, only: [:index, :create, :show]
       resources :task_templates, only: [:show, :create]
       resources :domains, :only => :index 
+      get 'domains/get_all', to: 'domains#get_all_domains'
+      get 'domains/submit', to: 'domains#submit'
+      get 'domains/prefix', to: 'domains#suggest_given_prefix'
     end
   end
 

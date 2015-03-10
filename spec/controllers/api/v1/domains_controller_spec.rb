@@ -2,6 +2,8 @@ require 'spec_helper'
 
 describe Api::V1::DomainsController do
   def do_request(email)
+    Domain.create(email_domain: 'gmail.com')
+    Domain.create(email_domain: 'sbcglobal.net')
   	get(:index, {:email => email})
   	JSON.parse(response.body)
   end
