@@ -27,7 +27,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def post_messages
-    base_messages.after(params[:after_incl]).includes(:user)
+    base_messages.after(params[:after]).includes(:user)
   end
 
   def base_messages_with_pagination

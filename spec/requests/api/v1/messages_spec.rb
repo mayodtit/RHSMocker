@@ -243,6 +243,26 @@ describe 'Messages' do
     end
   end
 
+  describe 'POST /api/v1/consults/:consult_id/messages' do
+    def do_request(params={})
+      post "/api/v1/consults/#{consult.id}/messages", params.merge!(auth_token: session.auth_token)
+    end
+
+    let!(:first_message) { create(:message, consult: consult) }
+    let!(:second_message) { create(:message, consult: consult) }
+    let(:message_params) { {:message=>{:text => "test message"}, :after=> first_message.id} }
+
+    it 'create a new message for the consult' do
+      expect{ do_request(message_params) }.to change(Message, :count).by(1)
+      expect(response).to be_success
+      body = JSON.parse(response.body, symbolize_names: true)
+      message = Message.find(body[:message][:id])
+      expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
+      expect(body[:messages].map {|i| i[:id]}).to include(message.id, second_message.id)
+      expect(body[:messages].size).to eql(2)
+    end
+  end
+
   describe 'POST /api/v1/consults/current/messages' do
     def do_request(params={})
       post '/api/v1/consults/current/messages', params.merge!(auth_token: session.auth_token)
