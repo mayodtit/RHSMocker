@@ -5,7 +5,7 @@ class Session < ActiveRecord::Base
   attr_accessible :member, :auth_token, :device_id, :apns_token, :gcm_id,
                   :device_os, :device_app_version, :device_app_build,
                   :device_timezone, :device_notifications_enabled, :device_model,
-                  :advertiser_id
+                  :advertiser_id, :disabled_at
 
   validates :member, presence: true
   validates :auth_token, presence: true, uniqueness: true
