@@ -53,7 +53,8 @@ class CreateStripeSubscriptionService
   end
 
   def create_stripe_subscription!
-    if @user.subscriptions.create(local_attributes)
+    subscription = @user.subscriptions.create(local_attributes)
+    if subscription.errors.empty?
        @customer.subscriptions.create({ plan: @plan_id,
                                         trial_end: @trial_end.try(:to_i)})
     end
@@ -66,7 +67,7 @@ class CreateStripeSubscriptionService
         quantity: 1,
         user_id: @user.id,
         plan: Stripe::Plan.retrieve(@plan_id).to_hash,
-        is_current: true,
+        current: true,
     }
   end
 end

@@ -69,7 +69,7 @@ describe 'Subscriptions' do
   end
 
   describe 'Get /api/v1/users/:user_id/subscriptions' do
-    let!(:subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
+    let!(:subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, current: true)}
 
     def do_request(params = {})
       get "api/v1/users/#{user.id}/subscriptions", params.merge!(auth_token: session.auth_token)
@@ -104,7 +104,7 @@ describe 'Subscriptions' do
   end
 
   describe 'PUT /api/v1/users/:user_id/subscriptions' do
-    let!(:subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
+    let!(:subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, current: true)}
 
     before do
       @customer.subscriptions.create(:plan => @single_plan.id)

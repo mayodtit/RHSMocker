@@ -34,7 +34,7 @@ describe 'UpdateStripeSubscriptionService' do
   describe '#call' do
     context 'update user immediately' do
       let(:plan_id) { 'bpYRSingle192' }
-      let(:subscription) {create(:subscription, :bp50, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
+      let(:subscription) {create(:subscription, :bp50, user_id: user.id, customer: user.stripe_customer_id, current: true)}
 
       def do_method
         UpdateStripeSubscriptionService.new(user, plan_id).call
@@ -50,8 +50,8 @@ describe 'UpdateStripeSubscriptionService' do
       it 'should create the new subscription, and change the current subscription on local' do
         do_method
         expect(user.reload.subscriptions.count).to eq(2)
-        expect(user.reload.subscriptions.first.is_current).to eq(false)
-        expect(user.reload.subscriptions.last.is_current).to eq(true)
+        expect(user.reload.subscriptions.first.current).to eq(false)
+        expect(user.reload.subscriptions.last.current).to eq(true)
       end
     end
 
@@ -71,7 +71,7 @@ describe 'UpdateStripeSubscriptionService' do
       it 'should create the new subscription, and not change the current subscription on local' do
         do_method
         expect(user.reload.subscriptions.count).to eq(2)
-        expect(user.reload.subscriptions.last.is_current).to eq(false)
+        expect(user.reload.subscriptions.last.current).to eq(false)
       end
     end
   end

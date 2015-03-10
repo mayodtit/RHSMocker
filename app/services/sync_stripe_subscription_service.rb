@@ -19,22 +19,22 @@ class SyncStripeSubscriptionService
   private
 
   def create_subscription
-    @user.subscriptions.find_by_is_current(true).update_attributes(subscription_attributes)
+    @user.subscriptions.find_by_current(true).update_attributes(subscription_attributes)
   end
 
   def update_subscription
     latest_subscription = @user.subscriptions.last
     latest_subscription.update_attributes(subscription_attributes)
-    #the downgrade senario, need to update the is_current param at end of period
-    unless latest_subscription.is_current
+    #the downgrade senario, need to update the current param at end of period
+    unless latest_subscription.current
       period_end = Time.at(@event.data.object.current_period_end).utc.to_datetime
-      @user.subscriptions.find_by_is_current(true).delay(run_at: period_end).update_attributes(:is_current => false)
-      latest_subscription.delay(run_at: period_end).update_attributes(:is_current => true)
+      @user.subscriptions.find_by_current(true).delay(run_at: period_end).update_attributes(:current => false)
+      latest_subscription.delay(run_at: period_end).update_attributes(:current => true)
     end
   end
 
   def delete_subscription
-    @user.subscriptions.last.update_attributes(subscription_attributes.tap{|attribute|attribute.merge!(:is_current => false)})
+    @user.subscriptions.last.update_attributes(subscription_attributes.tap{|attribute|attribute.merge!(:current => false)})
   end
 
   def subscription_attributes

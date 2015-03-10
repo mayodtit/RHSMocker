@@ -18,7 +18,7 @@ describe 'SyncStripeSubscriptionService' do
   end
 
   context 'when received subscription created event' do
-    let!(:subscription){create(:subscription, :bp20, is_current: true, user_id: user.id)}
+    let!(:subscription){create(:subscription, :bp20, current: true, user_id: user.id)}
     let(:event) {StripeMock.mock_webhook_event('customer.subscription.created', {customer: user.stripe_customer_id})}
 
     def do_method
@@ -38,8 +38,8 @@ describe 'SyncStripeSubscriptionService' do
     let(:event) {StripeMock.mock_webhook_event('customer.subscription.updated', {customer: user.stripe_customer_id})}
 
     context 'upgrade the subscription' do
-      let!(:previous_subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, is_current: false)}
-      let!(:upgraded_subscription) {create(:subscription, :bp50, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
+      let!(:previous_subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, current: false)}
+      let!(:upgraded_subscription) {create(:subscription, :bp50, user_id: user.id, customer: user.stripe_customer_id, current: true)}
 
       def do_method
         event.data.object['tax_percent'] = nil
@@ -56,8 +56,8 @@ describe 'SyncStripeSubscriptionService' do
     end
 
     context 'downgrade the subscription' do
-      let!(:previous_subscription) {create(:subscription, :bp50, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
-      let!(:downgraded_subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, is_current: false)}
+      let!(:previous_subscription) {create(:subscription, :bp50, user_id: user.id, customer: user.stripe_customer_id, current: true)}
+      let!(:downgraded_subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, current: false)}
 
       def do_method
         event = StripeMock.mock_webhook_event('customer.subscription.updated', {customer: user.stripe_customer_id})
@@ -80,7 +80,7 @@ describe 'SyncStripeSubscriptionService' do
   end
 
   context 'when received subscription deleted event' do
-    let!(:subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
+    let!(:subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, current: true)}
     let(:event) {StripeMock.mock_webhook_event('customer.subscription.deleted', {customer: user.stripe_customer_id})}
 
     def do_method
@@ -93,7 +93,7 @@ describe 'SyncStripeSubscriptionService' do
     it 'should update the corresponding subscription on local' do
       do_method
       expect(subscription.reload.stripe_subscription_id).to eq(event.data.object['id'])
-      expect(subscription.reload.is_current).to eq(false)
+      expect(subscription.reload.current).to eq(false)
     end
   end
 end

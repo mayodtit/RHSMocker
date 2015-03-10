@@ -13,7 +13,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
       ActiveRecord::Base.transaction do
         sa = subscription_attributes
         raise "can't have more than one subscription" if (@customer.subscriptions.count > 0)
-        @user.subscriptions.create(local_attributes)
+        @user.subscriptions.create!(local_attributes)
         @customer.subscriptions.create(sa)
         if @user.update_attributes(user_attributes)
           render_success({user: @user.serializer,
@@ -30,7 +30,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
 
   def destroy
     if DestroyStripeSubscriptionService.new(@user, :downgrade).call
-        render_success
+      render_success
     else
       render_failure({reason: 'Error occurred during subscription cancellation'}, 422)
     end
@@ -54,7 +54,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
         quantity: 1,
         user_id: @user.id,
         plan: Stripe::Plan.retrieve(subscription_attributes[:plan]).to_hash,
-        is_current: true,
+        current: true,
     }
   end
 

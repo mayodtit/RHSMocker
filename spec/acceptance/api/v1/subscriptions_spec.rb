@@ -64,7 +64,7 @@ resource 'Subscriptions' do
 
 
   get '/api/v1/users/:user_id/subscriptions' do
-    let!(:subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
+    let!(:subscription) {create(:subscription, :bp20, user_id: user.id, customer: user.stripe_customer_id, current: true)}
 
     example_request '[GET] Retrieve user subscription' do
       explanation 'Returns the user subscription'
@@ -115,7 +115,7 @@ resource 'Subscriptions' do
 
     let(:plan_id) { @family_plan.id }
     let(:raw_post) { params.to_json }
-    let(:subscription) {create(:subscription, :bp50, user_id: user.id, customer: user.stripe_customer_id, is_current: true)}
+    let(:subscription) {create(:subscription, :bp50, user_id: user.id, customer: user.stripe_customer_id, current: true)}
 
 
     before do

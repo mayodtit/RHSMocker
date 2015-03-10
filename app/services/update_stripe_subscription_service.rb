@@ -49,12 +49,12 @@ class UpdateStripeSubscriptionService
         quantity: 1,
         user_id: @user.id,
         plan: Stripe::Plan.retrieve(@plan_id).to_hash,
-        is_current: true
+        current: true
     }
   end
 
   def upgrade_subscription
-    @user.subscriptions.last.update_attributes(:is_current => false)
+    @user.subscriptions.last.update_attributes(:current => false)
     @user.subscriptions.create(local_attributes)
     load_subscription!
     @subscription.plan = @plan_id
@@ -63,7 +63,7 @@ class UpdateStripeSubscriptionService
   end
 
   def downgrade_subscription
-    @user.subscriptions.create(local_attributes.tap{|attribute|attribute.merge!(:is_current => false)} )
+    @user.subscriptions.create(local_attributes.tap{|attribute|attribute.merge!(:current => false)} )
     load_subscription!
     @subscription.plan = @plan_id
     @subscription.prorate = false
