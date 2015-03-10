@@ -684,6 +684,17 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "provider_search_preferences", :force => true do |t|
+    t.string   "lat"
+    t.string   "lon"
+    t.decimal  "distance",      :precision => 10, :scale => 0
+    t.string   "gender"
+    t.string   "specialty_uid"
+    t.string   "insurance_uid"
+    t.datetime "created_at",                                   :null => false
+    t.datetime "updated_at",                                   :null => false
+  end
+
   create_table "providers", :force => true do |t|
     t.integer  "user_id"
     t.string   "address"
