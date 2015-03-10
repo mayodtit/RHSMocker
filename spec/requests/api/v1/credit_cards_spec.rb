@@ -56,7 +56,7 @@ describe 'credit cards' do
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
         expect( body[:user_message] ).to eq( 'The card number is incorrect' )
-        expect( body[:reason] ).to eq( 'incorrect_number' )
+        expect( body[:reason] ).to eq( 'The card number is incorrect' )
       end
     end
   end
