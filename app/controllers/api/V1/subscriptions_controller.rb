@@ -5,7 +5,14 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   before_filter :load_customer!, only: :create
 
   def index
-    index_resource(@user.render_subscription)
+    current_subscription = @user.subscriptions.find_by_current(true)
+    latest_subscription = @user.subscriptions.last
+    #here is for backwards compatability, will remove subscriptions entry when user has been upgraded to new version
+    #here using subscription_serializer for now to make sure it's backward compatible. Subject to future changes.
+    render_success({subscriptions: {current: StripeExtension.subscription_serializer(current_subscription),
+                                    upcoming: StripeExtension.subscription_serializer(latest_subscription)},
+                    current: StripeExtension.subscription_serializer(current_subscription),
+                    upcoming: StripeExtension.subscription_serializer(latest_subscription)})
   end
 
   def create

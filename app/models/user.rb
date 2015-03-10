@@ -235,18 +235,6 @@ class User < ActiveRecord::Base
     end
   end
 
-  def render_subscription
-    current_subscription = subscriptions.find_by_current(true)
-    latest_subscription = subscriptions.last
-    if current_subscription.nil?
-      return []
-    else
-      array =  [StripeExtension.subscription_serializer(current_subscription)]
-      array << StripeExtension.subscription_serializer(latest_subscription) if (latest_subscription.current == false)
-    end
-    array
-  end
-
   def remove_all_credit_cards
     return if stripe_customer_id.nil?
 
