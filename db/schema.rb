@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150228212218) do
+ActiveRecord::Schema.define(:version => 20150308153300) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1233,4 +1233,5 @@ ActiveRecord::Schema.define(:version => 20150228212218) do
     t.integer  "creator_id"
     t.string   "healthkit_source"
   end
+
 end
