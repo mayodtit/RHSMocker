@@ -1,9 +1,14 @@
 class ProviderSearchPreferences < ActiveRecord::Base
   attr_accessible :distance, :gender, :id, :insurance_uid, :lat, :lon, :specialty_uid
 
-  validate :location_parameters_must_all_be_provided
+  validate :location_parameters_must_all_be_provided_together
 
-  def location_parameters_must_all_be_provided
+  validates :distance, numericality: true, allow_nil: true
+  validates :lon, format: { with: /\A-?\d{1,3}.\d{3}\z/, message: "must be in the format ###.###" }, allow_nil: true
+  validates :lat, format: { with: /\A-?\d{1,3}.\d{3}\z/, message: "must be in the format ###.###" }, allow_nil: true
+  validates :gender, inclusion: { in: %w(male female), message: "must be either male or female" }, allow_nil: true
+
+  def location_parameters_must_all_be_provided_together
     return if lat && lon && distance
     return if lat.blank? && lon.blank? && distance.blank?
     [:lat, :lon, :distance].each do |k|
