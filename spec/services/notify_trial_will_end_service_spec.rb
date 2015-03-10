@@ -23,7 +23,9 @@ describe NotifyTrialWillEndService do
 
   describe "#call" do
     def do_method
-      event = StripeMock.mock_webhook_event('customer.subscription.trial_will_end', {customer: user.stripe_customer_id})
+      id = Stripe::Customer.retrieve(user.stripe_customer_id).subscriptions.data[0].id
+      event = StripeMock.mock_webhook_event('customer.subscription.trial_will_end', {customer: user.stripe_customer_id,
+                                                                                     id: id})
       NotifyTrialWillEndService.new(event).call
     end
 
