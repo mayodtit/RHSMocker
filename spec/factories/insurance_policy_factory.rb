@@ -12,7 +12,6 @@ FactoryGirl.define do
     authorized false
     subscriber_name "InsurancePolicy subscriber name"
     family_individual "InsurancePolicy Family Individual"
-    employer_individual "InsurancePolicy Employer Individual"
     employer_exchange "InsurancePolicy Employer Exchange"
     insurance_card_front nil
     insurance_card_back nil
