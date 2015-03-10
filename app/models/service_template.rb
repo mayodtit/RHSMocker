@@ -20,7 +20,7 @@ class ServiceTemplate < ActiveRecord::Base
       assignor: attributes[:assignor] || attributes[:creator],
       actor_id: attributes[:creator] && attributes[:creator].id
     )
-    service.create_tasks(0)
+    service.create_next_ordinal_tasks
     service
   end
 end

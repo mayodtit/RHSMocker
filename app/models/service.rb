@@ -34,9 +34,10 @@ class Service < ActiveRecord::Base
     end
   end
 
-  def create_tasks(service_ordinal)
-    if service_ordinal && service_template && service_template.task_templates
-      service_template.task_templates.where(service_ordinal: service_ordinal).order('created_at ASC').each do |task_template|
+  def create_next_ordinal_tasks(service_ordinal = -1)
+    next_ordinal = service_template.task_templates.where('service_ordinal > ?', service_ordinal ).minimum(:service_ordinal) if tasks.open_state.empty?
+    if next_ordinal
+      service_template.task_templates.where(service_ordinal: next_ordinal).order('created_at ASC').each do |task_template|
         task_template.create_task!(service: self, start_at: Time.now, assignor: assignor)
       end
     end
