@@ -42,6 +42,6 @@ StripeEvent.configure do |events|
   end
 
   events.subscribe 'customer.subscription.trial_will_end' do |event|
-    Mails::NotifyTrialWillEndJob.create(event)
+    NotifyTrialWillEndService.new(event).call
   end
 end
