@@ -837,15 +837,27 @@ describe Task do
       end
 
       context 'the task is part of a service' do
-        let(:service_template) { build :service_template}
-        let(:task_template) { build :task_template, service_template: service_template, service_ordinal: 1}
-        let(:service) { build :service, service_template: service_template }
+        let!(:service_template) { create :service_template}
+        let!(:service) { create :service, service_template: service_template }
         let(:service_task) { build :task, :claimed, service: service, service_ordinal: 0 }
 
         context 'there are tasks in the service template with a higher ordinal' do
-          it 'should create the tasks with the next ordinal' do
-            service.should_receive(:create_tasks).with(1)
-            service_task.complete!
+          let!(:task_template) { create :task_template, service_template: service_template, service_ordinal: 2}
+          let!(:task_template_higher) { create :task_template, service_template: service_template, service_ordinal: 3}
+
+          context 'the completed task is the last task in its ordinal' do
+            it 'should create the tasks with the next ordinal' do
+              service.should_receive(:create_tasks).with(2)
+              service_task.complete!
+            end
+          end
+
+          context 'the completed task is not the last task in its ordinal' do
+            let!(:another_service_task) { create :task, :claimed, service: service, service_ordinal: 0 }
+            it 'should not create any tasks' do
+              service.should_not_receive(:create_tasks)
+              service_task.complete!
+            end
           end
         end
       end
