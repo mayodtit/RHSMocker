@@ -77,10 +77,11 @@ describe 'Subscriptions' do
 
     it 'should get the subscription of the the user' do
       do_request
-      byebug
       response.should be_success
       body = JSON.parse(response.body, symbolize_names: true)
-      # expect( body[:subscriptions].to_json.to eq() )
+      serialized_subscription = StripeExtension.subscription_serializer(subscription)
+      expect(body[:subscriptions].to_json).to eq([serialized_subscription, nil].as_json.to_json)
+      expect(body[:current].to_json).to eq(serialized_subscription.as_json.to_json)
     end
   end
 
