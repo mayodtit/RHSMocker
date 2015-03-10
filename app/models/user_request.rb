@@ -17,8 +17,7 @@ class UserRequest < ActiveRecord::Base
   def send_confirmation_message
     return unless user.master_consult
 
-    text = "#{user.pha.try(:first_name) || 'Your PHA'}'s working on your " +
-           "appointment request. Look out for more details soon."
+    text = "We're working on your appointment request. Look out for more details soon."
 
     user.master_consult.messages.create(user: Member.robot,
                                         text: text,
