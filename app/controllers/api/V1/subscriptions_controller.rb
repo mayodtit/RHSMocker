@@ -13,11 +13,11 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
       ActiveRecord::Base.transaction do
         sa = subscription_attributes
         raise "can't have more than one subscription" if (@customer.subscriptions.count > 0)
-        @customer.subscriptions.create(sa)
+        subscription = @customer.subscriptions.create(sa)
         if @user.update_attributes(user_attributes)
           render_success({user: @user.serializer,
                           subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first})
-          Mails::ConfirmSubscriptionChangeJob.create(@user.id, @subscription)
+          Mails::ConfirmSubscriptionChangeJob.create(@user.id, subscription)
         else
           render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
         end
