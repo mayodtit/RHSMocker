@@ -1,4 +1,4 @@
-class Api::V1::ValidateEmailController < Api::V1::ABaseController
+class Api::V1::DomainsController < Api::V1::ABaseController
   skip_before_filter :authentication_check
 
   def index
