@@ -1,7 +1,7 @@
 class RemoveServiceTemplateSeeds < ActiveRecord::Migration
   def up
-    TaskTemplate.try(:destroy_all)
-    ServiceTemplate.try(:destroy_all)
+    TaskTemplate.destroy_all
+    ServiceTemplate.destroy_all
   end
 
   def down

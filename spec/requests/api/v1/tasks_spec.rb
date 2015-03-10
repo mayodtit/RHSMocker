@@ -16,39 +16,39 @@ describe 'Tasks' do
 
       context 'claiming a task' do
         it 'claims the task' do
-          expect(task.claimed?).to be_false
+          expect(task).to_not be_claimed
           do_request(task: {state_event: :claim})
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
           expect(body[:task].to_json).to eq(task.reload.serializer.as_json.to_json)
-          expect(task.claimed?).to be_true
+          expect(task).to be_claimed
         end
 
         context 'with a claimed task' do
           let!(:claimed_task) { create(:task, :claimed, owner: pha) }
 
           it 'unclaims other claimed tasks' do
-            expect(task.claimed?).to be_false
-            expect(claimed_task.claimed?).to be_true
+            expect(task).to_not be_claimed
+            expect(claimed_task).to be_claimed
             do_request(task: {state_event: :claim})
             expect(response).to be_success
             body = JSON.parse(response.body, symbolize_names: true)
             expect(body[:task].to_json).to eq(task.reload.serializer.as_json.to_json)
             expect(body[:updated_tasks].to_json).to eq([claimed_task.reload].serializer(shallow: true).as_json.to_json)
-            expect(task.claimed?).to be_true
-            expect(claimed_task.claimed?).to be_false
+            expect(task).to be_claimed
+            expect(claimed_task).to_not be_claimed
           end
         end
       end
 
       context 'completing a task' do
         it 'completes the task' do
-          expect(task.completed?).to be_false
+          expect(task).to_not be_completed
           do_request(task: {state_event: :complete})
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
           expect(body[:task].to_json).to eq(task.reload.serializer.as_json.to_json)
-          expect(task.completed?).to be_true
+          expect(task).to be_completed
         end
 
         context 'there are tasks templates in the service template with a higher ordinal' do
@@ -56,13 +56,13 @@ describe 'Tasks' do
 
           context 'the completed task is the last task in its ordinal' do
             it 'should create the tasks with the next ordinal' do
-              expect(task.completed?).to be_false
+              expect(task).to_not be_completed
               expect{ do_request(task: {state_event: :complete}) }.to change(Task, :count).by 2
               expect(response).to be_success
               body = JSON.parse(response.body, symbolize_names: true)
               expect(body[:task].to_json).to eq(task.reload.serializer.as_json.to_json)
               expect(body[:updated_tasks].to_json).to eq(Task.where(service_ordinal: 1).serializer(shallow: true).as_json.to_json)
-              expect(task.completed?).to be_true
+              expect(task).to be_completed
             end
           end
         end
