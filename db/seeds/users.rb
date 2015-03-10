@@ -158,3 +158,5 @@ Member.upsert_attributes({email: 'testphone+robot@getbetter.com'}, {first_name: 
 Member.upsert_attributes({email: 'geoff@getbetter.com'}, {first_name: 'Geoff', last_name: 'Clapp'}).tap do |m|
   m.add_role :pha unless m.pha?
 end
+
+Member.find_by_email('caitlin@getbetter.com').pha_profile.update_attributes(:weekly_capacity => 0)

@@ -43,9 +43,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
           SendConfirmEmailService.new(@member).call
           SendDownloadLinkService.new(@member.phone).call if send_download_link?
           SendEmailToStakeholdersService.new(@member).call
-
-          # TODO - KC - Disabled for now, causing issues with BD sign ups
-          # NotifyReferrerWhenRefereeSignUpService.new(@referral_code, @member).call if @referral_code
+          NotifyReferrerWhenRefereeSignUpService.new(@referral_code, @member).call if @referral_code
 
           render_success user: @member.serializer,
                          member: @member.reload.serializer,
