@@ -104,7 +104,7 @@ describe 'Members' do
       let(:referral_code) { create(:referral_code, :with_onboarding_group, user: referrer) }
       let(:member_params) { {user: {email: 'kyle+test@getbetter.com', password: 'password', enrollment_token: enrollment.token, payment_token: credit_card_token, code: referral_code.code}} }
 
-      xit 'queues an email to the referrer' do
+      it 'queues an email to the referrer' do
         NotifyReferrerWhenRefereeSignUpService.should_receive(:new).once.and_call_original
         do_request(member_params)
       end
