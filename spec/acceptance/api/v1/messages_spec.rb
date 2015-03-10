@@ -24,6 +24,7 @@ resource "Messages" do
     let!(:old_message) { create(:message, consult: consult, created_at: Time.parse('2014-08-26T00:17:26Z')) }
 
     get '/api/v1/consults/:consult_id/messages' do
+      parameter :show_all, "Includes all the messages"
       parameter :last_message_date, 'DEPRECATED: Pull messages after this date'
 
       let(:last_message_date) { '2014-08-26T00:17:26Z' }
@@ -33,6 +34,38 @@ resource "Messages" do
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
         expect(body[:messages].to_json).to eq([message].serializer(shallow: true).as_json.to_json)
+      end
+    end
+  end
+
+  context 'existing messages' do
+    let!(:first_message) { create(:message, consult: consult) }
+    let!(:second_message) { create(:message, consult: consult) }
+    let!(:third_message) { create(:message, consult: consult) }
+    let!(:fourth_message) { create(:message, consult: consult) }
+    let!(:fifth_message) { create(:message, consult: consult) }
+    let!(:sixth_message) { create(:message, consult: consult) }
+    let!(:seventh_message) { create(:message, consult: consult) }
+
+    get '/api/v1/consults/:consult_id/messages' do
+      parameter :after, 'filters for messages with ids after, but not including the specified integer id'
+      parameter :before, 'filters for messages with ids before, but not including before the specified integer id'
+      parameter :exclude, 'filters for message with ids in the specified integer array and removes them from the response after page is generated'
+      parameter :page,'integer page number, indexed starting from 1'
+      parameter :per, 'integer size of pages'
+
+      let!(:after) {first_message.id}
+      let!(:before) {seventh_message.id}
+      let!(:exclude) {["#{third_message.id}","#{fifth_message.id}"]}
+      let!(:page) {1}
+      let!(:per) {5}
+      example_request "[GET] Get Paginated Messages DOC" do
+        explanation "Returns an array of Messages"
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:messages].map {|i| i[:id]}).to include(sixth_message.id, fourth_message.id, second_message.id)
+        expect(body[:messages].map {|i| i[:id]}).not_to include(fifth_message.id, third_message.id)
+        expect(body[:messages].size).to eql(3)
       end
     end
   end
