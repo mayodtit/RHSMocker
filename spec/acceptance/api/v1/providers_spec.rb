@@ -45,7 +45,7 @@ resource 'Providers' do
   parameter :state, "State the provider resides in"
   parameter :zip, "Zip code the provider resides in"
   parameter :city, "City the provider resides in"
-  parameter :dist, "Distance to restrict the search radius"
+  parameter :dist, "Size of the search radius in miles"
   required_parameters :auth_token
 
   get '/api/v1/providers/search' do
