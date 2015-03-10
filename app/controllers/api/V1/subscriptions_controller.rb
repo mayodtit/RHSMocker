@@ -6,11 +6,11 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
 
   def index
     current_subscription = @user.subscriptions.find_by_current(true)
-    latest_subscription = @user.subscriptions.last
+    latest_subscription = @user.subscriptions.last if (current_subscription.id != @user.subscriptions.last.id)
     #here is for backwards compatability, will remove subscriptions entry when user has been upgraded to new version
     #here using subscription_serializer for now to make sure it's backward compatible. Subject to future changes.
-    render_success({subscriptions: {current: StripeExtension.subscription_serializer(current_subscription),
-                                    upcoming: StripeExtension.subscription_serializer(latest_subscription)},
+    render_success({subscriptions: [ StripeExtension.subscription_serializer(current_subscription),
+                                     StripeExtension.subscription_serializer(latest_subscription)],
                     current: StripeExtension.subscription_serializer(current_subscription),
                     upcoming: StripeExtension.subscription_serializer(latest_subscription)})
   end

@@ -20,6 +20,7 @@ class StripeExtension
   end
 
   def self.subscription_serializer(stripe_subscription)
+    return if stripe_subscription.nil?
     {
       id: stripe_subscription[:id],
       plan: plan_serializer(stripe_subscription[:plan]),
