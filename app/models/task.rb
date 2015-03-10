@@ -189,7 +189,8 @@ class Task < ActiveRecord::Base
       end
 
       if task.service && task.service.tasks.open_state.empty?
-        task.service.create_tasks(task.service_ordinal + 1)
+        service_ordinal = service_template.task_templates.where('service_ordinal > ', task.service_ordinal ).minimum(:service_ordinal)
+        task.service.create_tasks(task.service_ordinal + 1) if service_ordinal
       end
     end
 
