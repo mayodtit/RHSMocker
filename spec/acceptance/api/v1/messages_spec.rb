@@ -48,11 +48,11 @@ resource "Messages" do
     let!(:seventh_message) { create(:message, consult: consult) }
 
     get '/api/v1/consults/:consult_id/messages' do
-      parameter :after, 'after exclusive (takes integer)'
-      parameter :before, 'before exclusive (takes integer)'
-      parameter :exclude, 'excludes from return (takes integer array)'
-      parameter :page,'page number, starts from 1 (takes integer)'
-      parameter :per, 'page size (takes integer)'
+      parameter :after, 'filters for messages with ids after, but not including the specified integer id'
+      parameter :before, 'filters for messages with ids before, but not including before the specified integer id'
+      parameter :exclude, 'filters for message with ids in the specified integer array and removes them from the response after page is generated'
+      parameter :page,'integer page number, indexed starting from 1'
+      parameter :per, 'integer size of pages'
 
       let!(:after) {first_message.id}
       let!(:before) {seventh_message.id}
