@@ -695,6 +695,14 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at",                                   :null => false
   end
 
+  create_table "provider_searches", :force => true do |t|
+    t.integer  "provider_search_preferences_id"
+    t.string   "state"
+    t.integer  "user_id"
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+  end
+
   create_table "providers", :force => true do |t|
     t.integer  "user_id"
     t.string   "address"
