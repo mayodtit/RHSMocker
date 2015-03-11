@@ -68,7 +68,6 @@ RHSMocker::Application.routes.draw do
         resources :services, only: [:index, :create]
         resources :task_changes, only: :index
       end
-      resources :tasks, only: [:show, :update]
       resources :message_templates, except: %i(new edit)
       resources :onboarding_groups, only: %i(index show create update) do
         resources :users, only: %i(index create destroy), controller: 'onboarding_group_users'
