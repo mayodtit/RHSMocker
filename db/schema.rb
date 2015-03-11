@@ -684,6 +684,17 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "provider_profiles", :force => true do |t|
+    t.string   "npi_number", :limit => 10
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "image_url"
+    t.string   "gender"
+    t.text     "ratings"
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
+  end
+
   create_table "provider_search_preferences", :force => true do |t|
     t.string   "lat"
     t.string   "lon"

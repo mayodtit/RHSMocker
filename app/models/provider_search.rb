@@ -24,9 +24,11 @@ class ProviderSearch < ActiveRecord::Base
     end
 
     results.map do |api_result|
-      1 ## TODO Create/merge ProviderProfiles based on API results
-    end.map do |provider_profile|
-      2 ## TODO Create ProviderSearchResults based on those profiles
+      profile = ProviderProfile.find_by_npi_number(api_result[:npi_number]) || ProviderProfile.new
+      profile.update_attributes(api_result)
+      profile
     end
+
+    ## TODO Create ProviderSearchResults based on those profiles
   end
 end
