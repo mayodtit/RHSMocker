@@ -8,7 +8,7 @@ class InsurancePolicy < ActiveRecord::Base
   accepts_nested_attributes_for :insurance_card_front, :insurance_card_back
 
   attr_accessible :user, :user_id, :company_name, :plan_type, :plan, :group_number,
-                  :effective_date, :termination_date, :member_services_number, :family_individual, :employer_individual, :employer_exchange,
+                  :effective_date, :termination_date, :member_services_number, :family_individual, :employer_exchange,
                   :authorized, :policy_member_id, :notes, :subscriber_name, :insurance_card_front, :insurance_card_front_id,
                   :insurance_card_back, :insurance_card_back_id, :insurance_card_front_client_guid, :insurance_card_back_client_guid,
                   :insurance_card_front_attributes, :insurance_card_back_attributes, :actor
