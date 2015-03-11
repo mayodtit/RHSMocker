@@ -835,6 +835,32 @@ describe Task do
         task.complete!
         expect(task.change_tracked).to be_true
       end
+
+      context 'the task is part of a service' do
+        let!(:service_template) { create :service_template}
+        let!(:service) { create :service, service_template: service_template }
+        let(:service_task) { build :task, :claimed, service: service, service_ordinal: 0 }
+
+        context 'there are tasks in the service template with a higher ordinal' do
+          let!(:task_template) { create :task_template, service_template: service_template, service_ordinal: 2}
+          let!(:task_template_higher) { create :task_template, service_template: service_template, service_ordinal: 3}
+
+          context 'the completed task is the last task in its ordinal' do
+            it 'should create the tasks with the next ordinal' do
+              service.should_receive(:create_next_ordinal_tasks)
+              service_task.complete!
+            end
+          end
+
+          context 'the completed task is not the last task in its ordinal' do
+            let!(:another_service_task) { create :task, :claimed, service: service, service_ordinal: 0 }
+            it 'should not create any tasks' do
+              service.should_not_receive(:create_next_ordinal_tasks)
+              service_task.complete!
+            end
+          end
+        end
+      end
     end
 
     describe '#abandon' do
