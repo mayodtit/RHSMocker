@@ -855,7 +855,7 @@ describe Task do
           context 'the completed task is not the last task in its ordinal' do
             let!(:another_service_task) { create :task, :claimed, service: service, service_ordinal: 0 }
             it 'should not create any tasks' do
-              service.should_not_receive(:create_next_ordinal_tasks)
+              Task.should_not_receive(:create!)
               service_task.complete!
             end
           end

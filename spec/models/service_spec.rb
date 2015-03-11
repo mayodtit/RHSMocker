@@ -116,14 +116,14 @@ describe Service do
       it 'should create tasks with that ordinal' do
         Task.should_receive(:create!).with(hash_including(service_ordinal: 0))
         Task.should_not_receive(:create!).with(hash_including(service_ordinal: 1))
-        service.create_tasks(0)
+        service.create_next_ordinal_tasks
       end
     end
 
     context 'there are no task_templates for the service ordinal' do
       it 'should not create any tasks' do
         Task.should_not_receive(:create!)
-        service.create_tasks(3)
+        service.create_next_ordinal_tasks(3)
       end
     end
   end
