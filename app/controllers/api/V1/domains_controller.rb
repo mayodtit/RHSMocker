@@ -22,7 +22,7 @@ class Api::V1::DomainsController < Api::V1::ABaseController
     render_success(domains: get_domains)
   end
 
-  def suggest_given_prefix
+  def suggest_using_prefix
     render_success(domains: get_domains.select {|d| d.starts_with?(get_email_domain)})
   end
 

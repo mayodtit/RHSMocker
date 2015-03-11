@@ -199,7 +199,7 @@ RHSMocker::Application.routes.draw do
       resources :domains, :only => :index 
       get 'domains/get_all', to: 'domains#get_all_domains'
       get 'domains/submit', to: 'domains#submit'
-      get 'domains/prefix', to: 'domains#suggest_given_prefix'
+      get 'domains/prefix', to: 'domains#suggest_using_prefix'
     end
   end
 
