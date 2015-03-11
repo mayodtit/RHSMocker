@@ -11,24 +11,24 @@ class Api::V1::DomainsController < Api::V1::ABaseController
 
   def submit
     if valid_domain? 
-      Domain.create!(email_domain: get_email_domain) if not_in_db get_email_domain
+      Domain.create!(email_domain: email_domain) if not_in_db? email_domain
       render_success
     else
       invalid_domain_response
     end
   end
 
-  def get_all_domains
-    render_success(domains: get_domains)
+  def all_domains
+    render_success(domains: domains)
   end
 
-  def suggest_using_prefix
-    render_success(domains: get_domains.select {|d| d.starts_with?(get_email_domain)})
+  def suggest
+    render_success(domains: domains.select {|d| d.starts_with?(email_domain)})
   end
 
   private
 
-  def not_in_db(domain)
+  def not_in_db? (domain)
     Domain.where(email_domain: domain).none?
   end
 
@@ -38,7 +38,7 @@ class Api::V1::DomainsController < Api::V1::ABaseController
 
   def suggestion
     @suggestion ||= Mailcheck2.new(
-      :domains => get_domains,
+      :domains => domains,
       :top_level_domains => MAILCHECK_TOP_LEVEL_DOMAINS
     ).suggest(params[:email])
   end
@@ -47,11 +47,11 @@ class Api::V1::DomainsController < Api::V1::ABaseController
     ValidateEmail.valid?(params[:email]) && ValidateEmail.mx_valid?(params[:email])
   end
 
-  def get_email_domain
-    @dom ||= params[:email].split('@').last
+  def email_domain
+    @email_domain ||= params[:email].split('@').last
   end
 
-  def get_domains
+  def domains
     @domains ||= Domain.find(:all).flat_map(&:email_domain).sort
   end
 end

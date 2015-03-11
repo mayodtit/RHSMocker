@@ -58,9 +58,9 @@ describe Api::V1::DomainsController do
     end
   end
 
-  describe 'GET get_all_domains' do
+  describe 'GET all_domains' do
     it 'should return all domains in the database' do
-      get(:get_all_domains)
+      get(:all_domains)
       resp = JSON.parse(response.body)
       resp['domains'][0].should == 'gmail.com'
       resp['domains'].size.should == 2
@@ -87,7 +87,7 @@ describe Api::V1::DomainsController do
   describe 'GET suggestions using a prefix' do
 
     def do_request(email)
-      get(:suggest_using_prefix, {:email => email})
+      get(:suggest, {:email => email})
       JSON.parse(response.body)
     end
 
