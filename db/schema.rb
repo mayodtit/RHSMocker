@@ -706,6 +706,14 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at",                                   :null => false
   end
 
+  create_table "provider_search_results", :force => true do |t|
+    t.integer  "provider_profile_id"
+    t.integer  "provider_search_id"
+    t.string   "state"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
+
   create_table "provider_searches", :force => true do |t|
     t.integer  "provider_search_preferences_id"
     t.string   "state"

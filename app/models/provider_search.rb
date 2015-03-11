@@ -9,6 +9,9 @@ class ProviderSearch < ActiveRecord::Base
   belongs_to :preferences, class_name: ProviderSearchPreferences, foreign_key: :provider_search_preferences_id
   validates_presence_of :preferences
 
+  has_many :provider_search_results
+  has_many :provider_profiles, through: :provider_search_results
+
   ## TODO Remove when done testing
   def self.default_preferences
     ProviderSearchPreferences.new(lat: "37.773", lon: "-122.413", distance: 10, gender: "female")
@@ -24,11 +27,13 @@ class ProviderSearch < ActiveRecord::Base
     end
 
     results.map do |api_result|
-      profile = ProviderProfile.find_by_npi_number(api_result[:npi_number]) || ProviderProfile.new
+      profile = ProviderProfile.where(npi_number: api_result[:npi_number]).first_or_create
       profile.update_attributes(api_result)
       profile
+    end.map do |profile|
+      ProviderSearchResult.where(provider_search_id: self.id, provider_profile_id: profile.id).first_or_create
     end
 
-    ## TODO Create ProviderSearchResults based on those profiles
+    provider_profiles
   end
 end
