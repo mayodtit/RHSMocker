@@ -2,7 +2,7 @@ class ServiceTemplate < ActiveRecord::Base
   belongs_to :service_type
   has_many :task_templates
 
-  attr_accessible :name, :title, :description, :service_type_id, :service_type, :time_estimate
+  attr_accessible :name, :title, :description, :service_type_id, :service_type, :time_estimate, :timed_service
 
   validates :name, :title, :service_type, presence: true
 
