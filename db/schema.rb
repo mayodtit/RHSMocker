@@ -806,7 +806,7 @@ ActiveRecord::Schema.define(:version => 20150312183031) do
     t.integer  "time_estimate"
     t.datetime "created_at",                         :null => false
     t.datetime "updated_at",                         :null => false
-    t.boolean  "timed_service",   :default => false
+    t.boolean  "timed_service",   :default => false, :null => false
   end
 
   create_table "service_types", :force => true do |t|

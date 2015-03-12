@@ -34,11 +34,11 @@ class Service < ActiveRecord::Base
     end
   end
 
-  def create_next_ordinal_tasks(current_ordinal = -1, start_time = Time.now)
+  def create_next_ordinal_tasks(current_ordinal = -1, last_due_at = Time.now)
     return unless service_template && tasks.open_state.empty?
     if next_ordinal = next_ordinal(current_ordinal)
       service_template.task_templates.where(service_ordinal: next_ordinal).each do |task_template|
-        task_template.create_task!(service: self, start_at: service_template.timed_service ? start_time : Time.now, assignor: assignor)
+        task_template.create_task!(service: self, start_at: service_template.timed_service? ? last_due_at : Time.now, assignor: assignor)
       end
     end
   end
