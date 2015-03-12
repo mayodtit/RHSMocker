@@ -13,22 +13,26 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
       ActiveRecord::Base.transaction do
         sa = subscription_attributes
         raise "can't have more than one subscription" if (@customer.subscriptions.count > 0)
-        @customer.subscriptions.create(sa)
+        subscription = @customer.subscriptions.create(sa)
         if @user.update_attributes(user_attributes)
           render_success({user: @user.serializer,
                           subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first})
-          Mails::ConfirmSubscriptionChangeJob.create(@user.id, @subscription)
+          Mails::ConfirmSubscriptionChangeJob.create(@user.id, subscription)
         else
-          render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
+          render_failure({reason: 'Error occurred while adding subscription',
+                          user_message: 'Error occurred while adding subscription'}, 422)
         end
       end
     rescue Stripe::CardError => e
       Rails.logger.error "Error in subscriptionsController#create for user #{@user.id}: #{e}"
-      render_failure({reason: e.as_json['code'],
+      #render the e.as_json['code'] for reason when client ready to upgrade user version
+      render_failure({reason: e.as_json['message'],
                       user_message: e.as_json['message']}, 422) and return
     rescue => e
       Rails.logger.error "Error in subscriptionsController#create for user #{@user.id}: #{e}"
-      render_failure({reason: "Error occurred while adding subscription"}, 422) and return
+      #render the e.to_s for reason when client ready to upgrade user version
+      render_failure({reason: 'Error occurred while adding subscription',
+                      user_message: 'Error occurred while adding subscription'}, 422) and return
     end
   end
 
@@ -49,11 +53,14 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
       end
     rescue Stripe::CardError => e
       Rails.logger.error "Error in subscriptionsController#update for user #{@user.id}: #{e}"
-      render_failure({reason: e.as_json['code'],
+      #render the e.as_json['code'] for reason when client ready to upgrade user version
+      render_failure({reason: e.as_json['message'],
                       user_message: e.as_json['message']}, 422) and return
     rescue => e
       Rails.logger.error "Error in subscriptionsController#update for user #{@user.id}: #{e}"
-      render failure({reason: "Error occurred while updating subscription"}) and return
+      #render the e.to_s for reason when client ready to upgrade user version
+      render_failure({reason: 'Error occurred while updating subscription',
+                      user_message: 'Error occurred while updating subscription'}, 422) and return
     end
   end
 

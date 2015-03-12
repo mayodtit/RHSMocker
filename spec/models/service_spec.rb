@@ -98,6 +98,57 @@ describe Service do
     end
   end
 
+  describe '#create_tasks' do
+    before do
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
+    context 'there are task_templates for the service ordinal' do
+      context 'the service is a timed service' do
+        let!(:service_template) { create :service_template, timed_service: true}
+        let!(:service) { create :service, service_template: service_template }
+        let!(:task_template) {create :task_template, service_template: service_template, service_ordinal: 0}
+        let!(:another_task_template) {create :task_template, service_template: service_template, service_ordinal: 1}
+
+        it 'should create tasks with that ordinal starting at the due date' do
+          Task.should_receive(:create!).with(hash_including(service_ordinal: 0))
+          Task.should_not_receive(:create!).with(hash_including(service_ordinal: 1, due_at: (1.day.from_now + task_template.time_estimate)))
+          service.create_next_ordinal_tasks(-1, 1.day.from_now)
+        end
+      end
+
+      context 'the service is not a timed service' do
+        let!(:service_template) { create :service_template, timed_service: false}
+        let!(:service) { create :service, service_template: service_template }
+        let!(:task_template) {create :task_template, service_template: service_template, service_ordinal: 0}
+        let!(:another_task_template) {create :task_template, service_template: service_template, service_ordinal: 1}
+
+        it 'should create tasks with that ordinal starting now' do
+          Task.should_receive(:create!).with(hash_including(service_ordinal: 0))
+          Task.should_not_receive(:create!).with(hash_including(service_ordinal: 1, due_at: (Time.now + task_template.time_estimate)))
+          service.create_next_ordinal_tasks( -1 , 1.day.from_now)
+        end
+      end
+    end
+
+    context 'there are no task_templates for the service ordinal' do
+      let!(:service_template) { create :service_template, timed_service: false}
+      let!(:service) { create :service, service_template: service_template }
+      let!(:task_template) {create :task_template, service_template: service_template, service_ordinal: 0}
+      let!(:another_task_template) {create :task_template, service_template: service_template, service_ordinal: 1}
+
+      it 'should not create any tasks' do
+        Task.should_not_receive(:create!)
+        service.create_next_ordinal_tasks(3)
+      end
+    end
+  end
+
+
   describe '#tasks' do
     let!(:service) { create :service }
     let!(:first_task) { create :task, service: service, service_ordinal: 0 }

@@ -55,6 +55,7 @@ describe 'credit cards' do
         StripeMock.prepare_card_error(:incorrect_number, :create_card)
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
+        expect( body[:user_message] ).to eq( 'The card number is incorrect' )
         expect( body[:reason] ).to eq( 'The card number is incorrect' )
       end
     end

@@ -13,7 +13,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     @message = @consult.messages.create(message_attributes)
     if @message.errors.empty?
       @message = Message.find(@message.id) # force reload of CarrierWave image url
-      render_success(message: @message.serializer)
+      render_success(message: @message.serializer, messages: messages.serializer)
     else
       render_failure({reason: @message.errors.full_messages.to_sentence}, 422)
     end
@@ -26,12 +26,18 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def base_messages_with_pagination
-    if page_size && !show_all?
-      base_messages.order('id DESC').before(params[:before]).after(params[:after]).page(page_number).per(page_size)
-    elsif params[:last_message_date]
+    if show_all?
+      base_messages
+    else
+      base_messages_scopes.page(page_number).per(page_size)
+    end
+  end
+
+  def base_messages_scopes
+    if params[:last_message_date]
       base_messages.where('created_at > ?', Time.parse(params[:last_message_date]))
     else
-      base_messages
+      base_messages.order('id DESC').before(params[:before]).after(params[:after])
     end
   end
 

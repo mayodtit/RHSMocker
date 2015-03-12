@@ -2,7 +2,7 @@ class ServiceTemplate < ActiveRecord::Base
   belongs_to :service_type
   has_many :task_templates
 
-  attr_accessible :name, :title, :description, :service_type_id, :service_type, :time_estimate
+  attr_accessible :name, :title, :description, :service_type_id, :service_type, :time_estimate, :timed_service
 
   validates :name, :title, :service_type, presence: true
 
@@ -20,12 +20,7 @@ class ServiceTemplate < ActiveRecord::Base
       assignor: attributes[:assignor] || attributes[:creator],
       actor_id: attributes[:creator] && attributes[:creator].id
     )
-    start_at = Time.now
-    task_templates.order('service_ordinal DESC, created_at ASC').each do |task_template|
-      task = task_template.create_task!(service: service, start_at: start_at, assignor: attributes[:assignor])
-      start_at = task.due_at
-    end
-
+    service.create_next_ordinal_tasks
     service
   end
 end

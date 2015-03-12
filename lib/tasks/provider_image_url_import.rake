@@ -38,7 +38,7 @@ namespace :admin do
 
     puts "LOADING NPI-IMAGE_URL PAIRS FROM FILE - #{file_to_open}"
 
-    CSV.foreach(file_to_open, encoding: 'ISO-8859-1'){|row| npi_map[row["npi"]] = row["image_url"] }
+    CSV.foreach(file_to_open, encoding: 'ISO-8859-1', headers: true){|row| npi_map[row["npi"]] = row["image_url"] }
 
     npi_map
   end

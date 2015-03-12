@@ -43,9 +43,20 @@ class Api::V1::MembersController < Api::V1::ABaseController
           SendConfirmEmailService.new(@member).call
           SendDownloadLinkService.new(@member.phone).call if send_download_link?
           SendEmailToStakeholdersService.new(@member).call
+          NotifyReferrerWhenRefereeSignUpService.new(@referral_code, @member).call if @referral_code
 
-          # TODO - KC - Disabled for now, causing issues with BD sign ups
-          # NotifyReferrerWhenRefereeSignUpService.new(@referral_code, @member).call if @referral_code
+          # TODO - remove when unneeded
+          if mayo_pilot_2?
+            MemberTask.create(title: 'Discharge Instructions Follow Up',
+                              description: MAYO_PILOT_2_TASK_DESCRIPTION,
+                              due_at: 1.business_day.from_now,
+                              service_type: ServiceType.find_by_name('other engagement'),
+                              member: @member,
+                              subject: @member,
+                              owner: @member.pha,
+                              creator: Member.robot,
+                              assignor: Member.robot)
+          end
 
           render_success user: @member.serializer,
                          member: @member.reload.serializer,
@@ -214,4 +225,14 @@ class Api::V1::MembersController < Api::V1::ABaseController
   def send_download_link?
     params[:send_download_link]
   end
+
+  def mayo_pilot_2?
+    @onboarding_group.try(:name) == 'Mayo Pilot 2'
+  end
+
+  MAYO_PILOT_2_TASK_DESCRIPTION = <<-eof
+Check if you've been assigned a "Review Discharge Plan and save information" task from Paul/Meg
+Follow up with Paul/Meg if there is no task.
+Follow "What to do if No Discharge Received" (https://betterpha.squarespace.com/config#/|/stroke-resources/) if you have not been assigned a review discharge form task for patient within 24 hours
+  eof
 end

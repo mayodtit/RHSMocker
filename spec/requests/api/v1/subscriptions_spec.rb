@@ -98,6 +98,10 @@ describe 'Subscriptions' do
         body = JSON.parse(response.body, symbolize_names: true)
         expect( body[:subscription][:plan][:id] ).to eq( 'bp20' )
       end
+
+      it 'should send a confirmation email to the user' do
+        expect{ do_request }.to change{ Delayed::Job.count }.from(0).to(1)
+      end
     end
 
     context 'credit card errors during adding subscription' do

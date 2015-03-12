@@ -91,6 +91,10 @@ class Api::V1::TasksController < Api::V1::ABaseController
       end
     end
 
+    if ( update_params[:state_event] == 'complete' || update_params[:state_event] == 'abandon' ) && @task.service
+      @updated_tasks = @task.service.tasks.open_state.where('service_ordinal > ?', @task.service_ordinal)
+    end
+
     if @task.update_attributes(update_params)
       render_success(task: @task.serializer,
                      updated_tasks: @updated_tasks.try(:serializer, shallow: true) || [])

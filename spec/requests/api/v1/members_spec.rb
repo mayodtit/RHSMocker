@@ -104,9 +104,20 @@ describe 'Members' do
       let(:referral_code) { create(:referral_code, :with_onboarding_group, user: referrer) }
       let(:member_params) { {user: {email: 'kyle+test@getbetter.com', password: 'password', enrollment_token: enrollment.token, payment_token: credit_card_token, code: referral_code.code}} }
 
-      xit 'queues an email to the referrer' do
+      it 'queues an email to the referrer' do
         NotifyReferrerWhenRefereeSignUpService.should_receive(:new).once.and_call_original
         do_request(member_params)
+      end
+    end
+
+    context 'Mayo Pilot 2' do
+      let!(:service_type) { create(:service_type, name: 'other engagement') }
+      let!(:onboarding_group) { create(:onboarding_group, premium: true, name: 'Mayo Pilot 2') }
+      let!(:referral_code) { create(:referral_code, onboarding_group: onboarding_group) }
+      let(:member_params) { {user: {email: 'kyle+test@getbetter.com', password: 'password', enrollment_token: enrollment.token, payment_token: credit_card_token, code: referral_code.code}} }
+
+      it 'creates a task for the PHA' do
+        expect{ do_request(member_params) }.to change(MemberTask, :count).by(1)
       end
     end
   end
