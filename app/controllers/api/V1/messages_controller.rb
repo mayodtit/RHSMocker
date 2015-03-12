@@ -12,9 +12,8 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   def create
     @message = @consult.messages.create(message_attributes)
     if @message.errors.empty?
-      @messages = messages
-      @message = Message.where('id = ?', @message.id)[0]
-      render_success(message: @message.serializer, messages: @messages.serializer)
+      @message = Message.find(@message.id)
+      render_success(message: @message.serializer, messages: messages.serializer)
     else
       render_failure({reason: @message.errors.full_messages.to_sentence}, 422)
     end
@@ -27,17 +26,15 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def base_messages_with_pagination
-    if !page_size
-      base_messages_scopes
+    if show_all?
+      base_messages
     else
       base_messages_scopes.page(page_number).per(page_size)
     end
   end
 
   def base_messages_scopes
-    if show_all?
-      base_messages
-    elsif params[:last_message_date]
+    if params[:last_message_date]
       base_messages.where('created_at > ?', Time.parse(params[:last_message_date]))
     else
       base_messages.order('id DESC').before(params[:before]).after(params[:after])
