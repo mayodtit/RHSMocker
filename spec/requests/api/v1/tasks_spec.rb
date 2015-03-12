@@ -67,6 +67,33 @@ describe 'Tasks' do
           end
         end
       end
+
+      context 'abandoning a task' do
+        it 'abandons the task' do
+          expect(task).to_not be_abandoned
+          do_request(task: {state_event: :abandon, reason: 'Just because'})
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:task].to_json).to eq(task.reload.serializer.as_json.to_json)
+          expect(task).to be_abandoned
+        end
+
+        context 'there are tasks templates in the service template with a higher ordinal' do
+          let!(:task_template) { create :task_template, service_template: service_template, service_ordinal: 1}
+
+          context 'the abandoned task is the last task in its ordinal' do
+            it 'should create the tasks with the next ordinal' do
+              expect(task).to_not be_abandoned
+              expect{ do_request(task: {state_event: :abandon, reason: 'Just because'}) }.to change(Task, :count).by 2
+              expect(response).to be_success
+              body = JSON.parse(response.body, symbolize_names: true)
+              expect(body[:task].to_json).to eq(task.reload.serializer.as_json.to_json)
+              expect(body[:updated_tasks].to_json).to eq(Task.where(service_ordinal: 1).serializer(shallow: true).as_json.to_json)
+              expect(task).to be_abandoned
+            end
+          end
+        end
+      end
     end
   end
 end
