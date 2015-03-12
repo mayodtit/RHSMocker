@@ -3,6 +3,20 @@ class ProviderSearch < ActiveRecord::Base
 
   belongs_to :user
 
+  ## Generic wrappers in case we expand beyond BetterDoctor
+  def self.insurance_values
+    @insurance_values ||= DataSources::BetterDoctor.insurances.map{|insurance| insurance[:uid] }
+  end
+
+  def self.specialty_values
+    @specialty_values ||= DataSources::BetterDoctor.specialties.map{|specialty| specialty[:uid] }
+  end
+
+  ## TODO Remove when done testing
+  def self.default_preferences
+    ProviderSearchPreferences.new(lat: "37.773", lon: "-122.413", distance: 10, gender: "female")
+  end
+
   ## This is belongs_to when it is conceptually a has_one. Preferences are dependent objects
   ##   but can belong to multiple other classes (ProviderSearch, User, etc)
   ## Possibly a polymorphic?
@@ -11,11 +25,6 @@ class ProviderSearch < ActiveRecord::Base
 
   has_many :provider_search_results
   has_many :provider_profiles, through: :provider_search_results
-
-  ## TODO Remove when done testing
-  def self.default_preferences
-    ProviderSearchPreferences.new(lat: "37.773", lon: "-122.413", distance: 10, gender: "female")
-  end
 
   def perform_search
     raise 'Search preferences missing' unless (preferences && preferences.valid?)

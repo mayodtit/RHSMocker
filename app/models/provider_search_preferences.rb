@@ -10,7 +10,8 @@ class ProviderSearchPreferences < ActiveRecord::Base
   validates :lon, format: { with: lat_lon_regex, message: "must be in the format ###.###" }, allow_nil: true
   validates :lat, format: { with: lat_lon_regex, message: "must be in the format ###.###" }, allow_nil: true
 
-  ## TODO validate insurance_uid, specialty_uid - verify against DataSources::BetterDoctor.insurances, DataSources::BetterDoctor.specialties ?
+  validates :insurance_uid, inclusion: { in: ProviderSearch.insurance_values, message: "is not a valid insurance id" }, allow_nil: true
+  validates :specialty_uid, inclusion: { in: ProviderSearch.specialty_values, message: "is not a valid specialty id" }, allow_nil: true
 
   def location_parameters_must_all_be_provided_together
     return if lat && lon && distance
