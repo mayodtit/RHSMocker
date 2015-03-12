@@ -1,3 +1,6 @@
+original_sunspot_session = Sunspot.session
+Sunspot.session = ::Sunspot::Rails::StubSessionProxy.new($original_sunspot_session)
+
 %w(agreements
    allergies
    association_types
@@ -40,3 +43,9 @@ if ENV['seed_nux'] || ENV['seed_fast'] || ENV['seed_all']
   load File.join(Rails.root, 'db', 'seeds', 'nux.rb')
 end
 
+Sunspot.session = original_sunspot_session
+Content.reindex
+Allergy.reindex
+Condition.reindex
+Treatment.reindex
+Sunspot.commit

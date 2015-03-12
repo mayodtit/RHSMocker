@@ -34,6 +34,20 @@ class Service < ActiveRecord::Base
     end
   end
 
+  def create_next_ordinal_tasks(current_ordinal = -1)
+    return unless service_template && tasks.open_state.empty?
+    if next_ordinal = next_ordinal(current_ordinal)
+      service_template.task_templates.where(service_ordinal: next_ordinal).each do |task_template|
+        task_template.create_task!(service: self, start_at: Time.now, assignor: assignor)
+      end
+    end
+  end
+
+  def next_ordinal(current_ordinal)
+    return unless service_template
+    service_template.task_templates.where('service_ordinal > ?', current_ordinal).minimum(:service_ordinal)
+  end
+
   state_machine :initial => :open do
     store_audit_trail to: 'ServiceChange', context_to_log: %i(actor_id data reason)
 

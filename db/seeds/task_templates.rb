@@ -1,83 +1,104 @@
-# Provider Search --
+# Mayo Pilot 2 --
+# Week 1
 TaskTemplate.find_or_create_by_name(
-    name: "collect information",
-    service_template: ServiceTemplate.find_by_name('provider search'),
-    title: "Collect information from search",
-    description: "Find a provider for a member",
-    time_estimate: 900,
+    name: "mayo pilot 2 - day 2",
+    service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
+    title: "Check In with Stroke Patient",
+    description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHow are you feeling today? As a reminder, I am extension of your care team at Mayo Clinic and here to help out with your transition after the hospital",
+    time_estimate: 1440,
+    priority: 1,
+    service_ordinal: 0
+)
+TaskTemplate.find_or_create_by_name(
+    name: "mayo pilot 2 - day 3",
+    service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
+    title: "Check In with Stroke Patient",
+    description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHi___, how are things going?",
+    time_estimate: 1440,
+    priority: 1,
     service_ordinal: 1
 )
 TaskTemplate.find_or_create_by_name(
-    name: "perform provider search",
-    service_template: ServiceTemplate.find_by_name('provider search'),
-    title: "Perform provider search",
-    description: "Find a provider for a member",
-    time_estimate: 900,
+    name: "mayo pilot 2 - day 4",
+    service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
+    title: "Check In with Stroke Patient",
+    description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nJust checking in, ___. How are you today?",
+    time_estimate: 1440,
+    priority: 1,
     service_ordinal: 2
 )
 TaskTemplate.find_or_create_by_name(
-    name: "send member options",
-    service_template: ServiceTemplate.find_by_name('provider search'),
-    title: "Send member the options",
-    description: "Find a provider for a member",
-    time_estimate: 900,
+    name: "mayo pilot 2 - day 5",
+    service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
+    title: "Check In with Stroke Patient",
+    description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHi ___, Do you have any questions for me as you recuperate?",
+    time_estimate: 1440,
+    priority: 1,
     service_ordinal: 3
 )
+# Week 2
 TaskTemplate.find_or_create_by_name(
-    name: "schedule follow up message",
-    service_template: ServiceTemplate.find_by_name('provider search'),
-    title: "Sechedule message to follow up on options",
-    description: "Find a provider for a member",
-    time_estimate: 900,
+    name: "mayo pilot 2 - day 8",
+    service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
+    title: "Check In with Stroke Patient",
+    description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHi ___, wanted to see how you're doing today?",
+    time_estimate: 2880,
+    priority: 1,
     service_ordinal: 4
 )
 TaskTemplate.find_or_create_by_name(
-    name: "assign next",
-    service_template: ServiceTemplate.find_by_name('provider search'),
-    title: "Assign next tasks or services",
-    description: "1) Send introduction message<br>2) Review profile information entered by HCC",
-    time_estimate: 900,
+    name: "mayo pilot 2 - day 10",
+    service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
+    title: "Check In with Stroke Patient",
+    description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nI hope you are doing well ___. Please let me know if I can help out with anything.",
+    time_estimate: 2880,
+    priority: 1,
     service_ordinal: 5
 )
-
-# 30 Day Experience --
 TaskTemplate.find_or_create_by_name(
-    name: "PHA introduction",
-    service_template: ServiceTemplate.find_by_name('30 day experience'),
-    title: "PHA Introduction",
-    description: "Send introduction message.",
-    time_estimate: 120,
-    service_ordinal: 1
+    name: "mayo pilot 2 - day 12",
+    service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
+    title: "Check In with Stroke Patient",
+    description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHow are you feeling today, ____?",
+    time_estimate: 2880,
+    priority: 1,
+    service_ordinal: 6
+)
+# Week 3
+TaskTemplate.find_or_create_by_name(
+    name: "mayo pilot 2 - day 15",
+    service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
+    title: "Check In with Stroke Patient",
+    description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHi ____. I wanted to check in with you and see how you're doing today.",
+    time_estimate: 4320,
+    priority: 1,
+    service_ordinal: 7
 )
 TaskTemplate.find_or_create_by_name(
-    name: "offer insurance review service",
-    service_template: ServiceTemplate.find_by_name('30 day experience'),
-    title: "Offer Insurance Review Service",
-    description: "Message member to offer service:\n\nChances are you may not know everything about your health insurance coverage, like if you’re using all of your benefits or what appointments are covered. I’d like to break down your plan to see if you’re getting the most out of your insurance. Does that sound helpful to you?",
-    time_estimate: 10080,
-    service_ordinal: 1
+    name: "mayo pilot 2 - day 18",
+    service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
+    title: "Check In with Stroke Patient",
+    description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nPlease let me know if I can do anything for you, ___. Here to help out!",
+    time_estimate: 4320,
+    priority: 1,
+    service_ordinal: 8
+)
+# Week 4
+TaskTemplate.find_or_create_by_name(
+    name: "mayo pilot 2 - day 22",
+    service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
+    title: "Check In with Stroke Patient",
+    description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHi ____. I wanted to check in with you and see how you're doing today.",
+    time_estimate: 4320,
+    priority: 1,
+    service_ordinal: 9
 )
 TaskTemplate.find_or_create_by_name(
-    name: "prevention screenings",
-    service_template: ServiceTemplate.find_by_name('30 day experience'),
-    title: "Perform Preventive Screening Service",
-    description: "See website for details based on age/gender - http://betterpha.squarespace.com/30-day-experience-1-1-3",
-    time_estimate: 10080,
-    service_ordinal: 1
-)
-TaskTemplate.find_or_create_by_name(
-    name: "offer creating care team service",
-    service_template: ServiceTemplate.find_by_name('30 day experience'),
-    title: "Offer Creating Care Team Service",
-    description: "Message member to offer service:\n\nWe want to ensure that you have doctors you need and like, are organized with your annual appointment schedule, and have a health record that is shared among their current providers. Would this be helpful for you?",
-    time_estimate: 10080,
-    service_ordinal: 1
-)
-TaskTemplate.find_or_create_by_name(
-    name: "complete member profile",
-    service_template: ServiceTemplate.find_by_name('30 day experience'),
-    title: "Complete Profile",
-    description: "Data to complete:\n\n - Address\n - Birthday\n - Gender\n - Insurance Information\n - Current Care Team\n - Medical Conditions\n - Height and Weight (for WM only)\n - Due date (for Pregnancy only)",
-    time_estimate: 10080,
-    service_ordinal: 1
+    name: "mayo pilot 2 - day 25",
+    service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
+    title: "Check In with Stroke Patient",
+    description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nPlease let me know if I can do anything for you, ___. Here to help out!",
+    time_estimate: 4320,
+    priority: 1,
+    service_ordinal: 10
 )

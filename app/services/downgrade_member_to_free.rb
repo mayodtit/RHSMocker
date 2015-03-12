@@ -6,7 +6,7 @@ class DowngradeMemberToFree
   def call
     load_member!
     return if @member.nil?
-    @member.downgrade!
+    @member.downgrade! unless @member.free?
     Mails::ConfirmSubscriptionDeletionJob.create(@member.id)
   end
 
