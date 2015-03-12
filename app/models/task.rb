@@ -190,7 +190,7 @@ class Task < ActiveRecord::Base
     end
 
     after_transition any - [:completed, :abandoned] => [:completed, :abandoned] do |task|
-      task.service.create_next_ordinal_tasks(task.service_ordinal) if task.service
+      task.service.create_next_ordinal_tasks(task.service_ordinal, task.due_at) if task.service
     end
 
 
