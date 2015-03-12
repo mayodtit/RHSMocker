@@ -187,7 +187,9 @@ class Task < ActiveRecord::Base
       ViewTaskTask.where(assigned_task_id: task.id).each do |view|
         view.complete!
       end
+    end
 
+    after_transition any - [:completed, :abandoned] => [:completed, :abandoned] do |task|
       task.service.create_next_ordinal_tasks(task.service_ordinal) if task.service
     end
 
