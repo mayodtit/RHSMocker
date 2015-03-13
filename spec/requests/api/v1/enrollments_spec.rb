@@ -4,6 +4,70 @@ describe 'Enrollments' do
   context 'existing record' do
     let!(:enrollment) { create(:enrollment) }
 
+    describe 'GET /api/v1/enrollments/on_board/uout' do
+      let!(:enrollment_with_uout){create(:enrollment, uout: 'test_uout')}
+
+      context 'the user has a valid uout' do
+        let(:uout){'test_uout'}
+        context 'the valid uout has not been used' do
+
+        end
+
+        context 'the valid uout has been used' do
+          let(:user){create(:member)}
+          before do
+            :enrollment_with_uout.update_attributes(:used_uout => true)
+          end
+
+          it 'should return the login info to the client' do
+
+          end
+        end
+      end
+
+      context 'the user has a invalid uout, or not have a uout' do
+
+      end
+    end
+
+    # def on_board
+    #   if valid_uout?
+    #     if @enrollment.used_uout
+    #       # if uout is used, then return names with the auth_token to client
+    #       session = Member.find(@enrollment.user_id).sessions.create
+    #       render_success(first_name: @enrollment.first_name,
+    #                      last_name: @enrollment.last_name,
+    #                      auth_token: session.auth_token)
+    #     else
+    #       #if uout is not used,  render the user a customized sign up screen, and pre-populate as much info as possible
+    #       #subject to chagne whenever cutomized stories are available, or requirement adjustment
+    #       render_success(enrollment: @enrollment.serializer,
+    #                      stories: stories,
+    #                      splash_story: splash_story,
+    #                      question_story: question_story)
+    #       @enrollment.update_attributes(used_uout: true)
+    #     end
+    #   else
+    #     # I personally favours rendering error message here, then client make a call to the #create route
+    #     render_failure(reason: "invalid uout")
+    #   end
+    # end
+
+    describe 'POST /api/v1/enrollments/invite' do
+      let(:enrollment_attributes) { {:first_name  => 'first_name', :last_name => 'last_name', :email => 'test@test.com'} }
+
+      def do_request(params={})
+        post "/api/v1/enrollments/invite", params
+      end
+
+      it 'set the uuot, and send out invitation email' do
+        Rails.stub(env: ActiveSupport::StringInquirer.new("development"))
+        expect{do_request(enrollment: enrollment_attributes)}.to change{Enrollment.count}.by(1)
+        expect(response).to be_success
+        expect(Delayed::Job.count).to eq(1)
+      end
+    end
+
     describe 'GET /api/v1/enrollments/:id' do
       def do_request
         get "/api/v1/enrollments/#{enrollment.token}"

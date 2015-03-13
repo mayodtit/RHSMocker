@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150312183031) do
+ActiveRecord::Schema.define(:version => 20150314011054) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -307,6 +307,8 @@ ActiveRecord::Schema.define(:version => 20150312183031) do
     t.string   "code"
     t.integer  "referral_code_id"
     t.integer  "onboarding_group_id"
+    t.string   "uout"
+    t.boolean  "used_uout"
   end
 
   add_index "enrollments", ["email"], :name => "index_enrollments_on_email"

@@ -34,7 +34,70 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
     end
   end
 
+  def on_board
+    if valid_uout?
+      if @enrollment.used_uout
+      # if uout is used, then return names with the auth_token to client
+        session = Member.find(@enrollment.user_id).sessions.create
+        render_success(first_name: @enrollment.first_name,
+                       last_name: @enrollment.last_name,
+                       auth_token: session.auth_token)
+      else
+        #if uout is not used,  render the user a customized sign up screen, and pre-populate as much info as possible
+        #subject to chagne whenever cutomized stories are available, or requirement adjustment
+        render_success(enrollment: @enrollment.serializer,
+                       stories: stories,
+                       splash_story: splash_story,
+                       question_story: question_story)
+        @enrollment.update_attributes(used_uout: true)
+      end
+    else
+      # I personally favours rendering error message here, then client make a call to the #create route
+      render_failure(reason: "invalid uout")
+    end
+  end
+
+  def invite
+    #the n point for web page sign up or other b2b sign-ups to generate invitation email
+    @enrollment = Enrollment.create enrollment_params
+    if @enrollment.errors.empty?
+      render_success
+      set_uout
+      generate_invitation_link
+      Mails::SendBusinessOnBoardInvitationEmailJob.create(@enrollment.id, @link, @enrollment.uout)
+    else
+      render_failure({reason: enrollment_errors}, 422)
+    end
+  end
+
   private
+
+  def set_uout
+    uout ||= loop do
+      new_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
+      break new_token unless Enrollment.exists?(token: new_token)
+    end
+    @enrollment.update_attributes(uout: uout)
+  end
+
+  def valid_uout?
+    if params[:uout]
+      @enrollment = Enrollment.find_by_uout(params[:uout])
+      !!@enrollment
+    else
+      false
+    end
+  end
+
+  def generate_invitation_link
+    if Rails.env.development?
+      @link = "better-dev://nb?cmd='onboarding'+uout='#{@enrollment.uout}'"
+    elsif Rails.env.production?
+      @link = "better://nb?cmd='onboarding'+uout='#{@enrollment.uout}"
+    elsif Rails.env.qa?
+      @link = "better-qa://nb?cmd='onboarding'+uout='#{@enrollment.uout}'"
+    end
+  end
 
   def load_enrollment!
     @enrollment = Enrollment.find_by_token!(params[:id])
