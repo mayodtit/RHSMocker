@@ -25,7 +25,8 @@ o = OnboardingGroup.find_or_create_by_name(name: "Mayo Pilot 2",
                                            premium: true,
                                            free_trial_days: 60,
                                            skip_credit_card: true,
-                                           skip_automated_communications: true)
+                                           skip_automated_communications: true,
+                                           skip_emails: true)
 ReferralCode.find_or_create_by_name(name: 'Mayo Pilot 2',
                                     code: 'mayopilot2',
                                     onboarding_group: o)
