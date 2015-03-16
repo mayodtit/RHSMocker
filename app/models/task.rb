@@ -1,6 +1,7 @@
 class Task < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
   PRIORITY = 0
+  URGENT_PRIORITY = 12
 
   belongs_to :member
   belongs_to :role, class_name: 'Role'
@@ -26,7 +27,7 @@ class Task < ActiveRecord::Base
                   :priority, :actor_id, :member_id, :member, :reason, :visible_in_queue,
                   :day_priority, :time_estimate, :pubsub_client_id, :urgent
 
-  validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
+  validates :title, :state, :creator_id, :role_id, :due_at, :priority, :urgent, presence: true
   validates :owner, presence: true, if: lambda { |t| t.owner_id }
   validates :role, presence: true, if: lambda { |t| t.role_id }
   validates :service_type, presence: true, if: lambda { |t| t.service_type_id }
@@ -83,7 +84,7 @@ class Task < ActiveRecord::Base
 
   def set_priority
     if urgent?
-      self.priority = 12
+      self.priority = URGENT_PRIORITY
     else
       self.priority = PRIORITY if priority.nil?
     end
