@@ -5,7 +5,7 @@ class ViewTaskTask < Task
   validates :assigned_task, :owner, :assignor, :member, presence: true
 
   def self.create_task_for_task(task)
-    return task if task.owner == task.assignor
+    return task if task.owner == task.assignor || task.urgent?
     view_task = create!(
         assigned_task: task,
         title: task.title,
