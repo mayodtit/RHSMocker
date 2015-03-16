@@ -281,7 +281,9 @@ ActiveRecord::Schema.define(:version => 20150309234210) do
   end
 
   create_table "domains", :force => true do |t|
-    t.string "email_domain"
+    t.string   "email_domain"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
   create_table "emergency_contacts", :force => true do |t|
