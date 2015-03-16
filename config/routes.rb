@@ -196,7 +196,11 @@ RHSMocker::Application.routes.draw do
       end
       resources :service_templates, only: [:index, :create, :show]
       resources :task_templates, only: [:show, :create]
-      resources :validate_email, :only => :index 
+      resources :domains, only: :index do
+        get :all_domains, on: :collection
+        get :submit, on: :collection
+        get :suggest, on: :collection
+      end
     end
   end
 
