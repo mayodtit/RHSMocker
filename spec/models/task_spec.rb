@@ -14,6 +14,7 @@ describe Task do
     it_validates 'presence of', :creator_id
     it_validates 'presence of', :due_at
     it_validates 'presence of', :priority
+    it_validates 'inclusion of', :urgent
     it_validates 'foreign key of', :owner
     it_validates 'foreign key of', :role
     it_validates 'foreign key of', :service_type
