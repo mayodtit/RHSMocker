@@ -2,7 +2,7 @@ class TaskSerializer < ActiveModel::Serializer
   self.root = false
 
   attributes :id, :title, :state, :description, :due_at, :type, :created_at,
-             :owner_id, :service_type_id, :triage_state, :member_id, :day_priority, :task_template_id
+             :owner_id, :service_type_id, :triage_state, :member_id, :day_priority, :task_template_id, :urgent
 
   def attributes
     if options[:shallow]
@@ -15,6 +15,7 @@ class TaskSerializer < ActiveModel::Serializer
         type: type,
         triage_state: triage_state,
         member_id: member_id,
+        urgent: object.urgent,
         day_priority: object.day_priority
       }
       attributes[:member] = object.member.try(:serializer, options) if object.respond_to? :member
@@ -28,6 +29,7 @@ class TaskSerializer < ActiveModel::Serializer
         created_at: object.created_at,
         type: type,
         service_type: object.service_type,
+        urgent: object.urgent,
         owner: object.owner.try(:serializer, options.merge(shallow: true))
       }
       attributes
@@ -42,6 +44,7 @@ class TaskSerializer < ActiveModel::Serializer
         service_type: object.service_type,
         description: object.description,
         day_priority: object.day_priority,
+        urgent: object.urgent,
         member: object.member.try(:serializer, options.merge(shallow: true))
       }
       attributes
