@@ -102,3 +102,57 @@ TaskTemplate.find_or_create_by_name(
     priority: 1,
     service_ordinal: 10
 )
+
+# Provider Search
+TaskTemplate.find_or_create_by_name(
+    name: "provider search - find options",
+    service_template: ServiceTemplate.find_by_name('provider search'),
+    title: "Find initial provider options",
+    description:
+"1. Go to insurance website and search by:
+  * Specialty
+  * Distance (5 miles, expand if no options, shorten if >50 options)
+  * Preferences
+1. Sort search results by distance
+1. Go down the list and call providers and ask:
+  * Accepts new patients?
+  * Accepts insurance plan?
+  * Next available appointment? (ex: “late march” not specific date/time)
+  * Meets other preferences? (ex. holistic, treats rare disease, LGBTQ friendly, etc)
+  * Confirm address?
+1. Stop when you have 3 options
+1. Open the [“Format Doctor Recommendations” Tool](http://remotehealthservices.github.io/doctor_recommendation_formatter/) and add information for chosen options
+1. Search for provider’s profile link (from hospital/clinic) add to tool
+1. Google the provider name and location (Dr. First Last, State)
+1. Add review links to tool
+1. Save templated options to the Service Description
+1. Complete Task
+1. Save pdf of initial insurance options as “ZipCode_DoctorType.pdf” to [Provider Search Documents Folder](http://goo.gl/V9snYH)
+
+**CP Doctor List template (save to Task Notes in CP):**
+Dr. name:
+Address:
+Phone:
+Profile link:
+Accepting patients:
+Takes insurance:
+Next available:",
+    time_estimate: 360,
+    service_ordinal: 0
+)
+TaskTemplate.find_or_create_by_name(
+    name: "provider search -  send options",
+    service_template: ServiceTemplate.find_by_name('provider search'),
+    title: "SEND - provider options",
+    description: "Send options to Member (see service notes)",
+    time_estimate: 60,
+    service_ordinal: 1
+)
+TaskTemplate.find_or_create_by_name(
+    name: "provider search - follow up",
+    service_template: ServiceTemplate.find_by_name('provider search'),
+    title: "Follow up - provider options",
+    description: "Just checking in to see what you thought of the providers I sent over. Would you like me to book an appointment with one of them?",
+    time_estimate: 4320,
+    service_ordinal: 2
+)
