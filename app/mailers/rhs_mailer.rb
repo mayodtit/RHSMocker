@@ -30,7 +30,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
-  WELCOME_TO_BETTER_FREE_TRIAL_TEMPLATE = 'Welcome to Better, Free Version 12/10/2014'
+  WELCOME_TO_BETTER_FREE_TRIAL_TEMPLATE = 'Welcome to Better, Free Version 3/16/2015'
   def welcome_to_better_free_trial_email(email, salutation)
     user = Member.find_by_email!(email)
 
