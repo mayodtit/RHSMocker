@@ -718,4 +718,11 @@ namespace :seeds do
     }
     puts "Database populated"
   end
+
+  desc "Seed common email domains"
+  task :domain => :environment do
+    MAILCHECK_DOMAINS.each do |domain|
+      Domain.create!(email_domain: domain)
+    end
+  end
 end

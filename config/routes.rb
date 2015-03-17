@@ -65,7 +65,7 @@ RHSMocker::Application.routes.draw do
         put :update_current, on: :collection # TODO - this should be deprecated in general, client should know the ID
         resources :tasks, only: [:index, :create], controller: 'member_tasks'
         resources :entries, only: :index
-        resources :services, only: [:index, :create], controller: 'member_services'
+        resources :services, only: [:index, :create]
         resources :task_changes, only: :index
       end
       resources :message_templates, except: %i(new edit)
@@ -196,7 +196,11 @@ RHSMocker::Application.routes.draw do
       end
       resources :service_templates, only: [:index, :create, :show]
       resources :task_templates, only: [:show, :create]
-      resources :validate_email, :only => :index 
+      resources :domains, only: :index do
+        get :all_domains, on: :collection
+        get :submit, on: :collection
+        get :suggest, on: :collection
+      end
     end
   end
 

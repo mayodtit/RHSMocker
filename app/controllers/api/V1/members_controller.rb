@@ -231,8 +231,8 @@ class Api::V1::MembersController < Api::V1::ABaseController
   end
 
   MAYO_PILOT_2_TASK_DESCRIPTION = <<-eof
-Check if you've been assigned a "Review Discharge Plan and save information" task from Paul/Meg
-Follow up with Paul/Meg if there is no task.
-Follow "What to do if No Discharge Received" (https://betterpha.squarespace.com/config#/|/stroke-resources/) if you have not been assigned a review discharge form task for patient within 24 hours
+1. Check if you've been assigned a "Review Discharge Plan and save information" task from Paul/Meg
+2. Follow up with Paul/Meg if there is no task.
+3. Follow "What to do if No Discharge Received" (https://betterpha.squarespace.com/config#/|/stroke-resources/) if you have not been assigned a review discharge form task for patient within 24 hours
   eof
 end

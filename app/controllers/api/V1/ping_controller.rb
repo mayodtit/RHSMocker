@@ -78,6 +78,10 @@ class Api::V1::PingController < Api::V1::ABaseController
       changed_attributes[:device_os] = params[:device_os]
     end
 
+    if params[:device_os_version] && (current_session.device_os_version != params[:device_os_version])
+      changed_attributes[:device_os_version] = params[:device_os_version]
+    end
+
     if params[:app_version] && (current_session.device_app_version != params[:app_version])
       changed_attributes[:device_app_version] = params[:app_version]
     end
