@@ -137,7 +137,7 @@ Profile link:
 Accepting patients:
 Takes insurance:
 Next available:",
-    time_estimate: 360,
+    time_estimate: 240,
     service_ordinal: 0
 )
 TaskTemplate.find_or_create_by_name(
