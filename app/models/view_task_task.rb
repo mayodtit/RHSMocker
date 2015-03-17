@@ -5,6 +5,14 @@ class ViewTaskTask < Task
   validates :assigned_task, :owner, :assignor, :member, presence: true
 
   def self.create_task_for_task(task)
+    ViewTaskTask.where(assigned_task_id: task.id).open.each do |t|
+      t.reason = 'Reassigned'
+      t.abandoner = task.assignor
+      t.abandon!
+    end
+
+    task.update_attribute(:visible_in_queue, true)
+
     return task if task.owner == task.assignor || task.urgent? || task.owner.has_role?('specialist')
     view_task = create!(
         assigned_task: task,
