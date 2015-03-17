@@ -725,4 +725,126 @@ namespace :seeds do
       Domain.create!(email_domain: domain)
     end
   end
+  
+  # Looks at Allergies table and updates entries from db/seeds/allergies.rb by adding description or concept ids
+  task :update_allergies_table => :environment do
+    require 'open-uri'
+    require 'json'
+
+    Allergy.all.each do |al|
+      concept_id = al.snomed_code
+      base_url = ENV['SNOMED_SEARCH_URL']
+
+      url = base_url + 'concepts/' + concept_id.to_s
+      uri = URI.parse(url)
+      resp = uri.read
+
+      desc_id = al.snomed_code  if resp.include? 'Concept not found'
+
+      if desc_id.nil?
+        json_resp = JSON.parse(resp)
+        match = match_name(al.snomed_name, json_resp)
+        store_terms(al, concept_id, match) unless match.nil?
+
+      else
+        url = base_url + 'descriptions/' + desc_id.to_s
+        uri = URI.parse(url)
+        resp = uri.read
+        json_resp = JSON.parse(resp)
+
+        begin
+          concept_id = json_resp["matches"][0]["conceptId"]
+
+          store_terms(al, concept_id, desc_id) unless match.nil?
+        rescue
+          puts "Error @ desc id =", desc_id
+        end
+      end
+    end
+  end
+
+  # Looks at Conditions table and updates entries from db/seeds/conditions.rb by adding description or concept ids
+  task :update_conditions_table => :environment do
+    require 'open-uri'
+    require 'json'
+    failed = 0
+    base_url = ENV['SNOMED_SEARCH_URL']
+    Condition.all.each do |c|
+      desc_id = c.snomed_code.to_s
+      url = base_url + 'descriptions/' + desc_id
+      uri = URI.parse(url)
+      json = JSON.parse(uri.read)
+      if json['matches'][0]
+        concept_id = json['matches'][0]['conceptId']
+        store_terms(c, concept_id, desc_id)
+      else
+        concept_id = desc_id
+        url = base_url + 'concepts/' + concept_id
+        uri = URI.parse(url)
+        json = JSON.parse(uri.read)
+        found = false
+        json['descriptions'].each do |concept|
+          if concept['term'] == c.name
+            store_terms(c, concept_id, concept['descriptionId'].to_s)
+            found = true
+            break
+          end
+        end
+        unless found
+          failed += 1
+          puts "Error @ concept id = #{desc_id}, name = #{c.name}"
+        end
+      end
+    end
+    puts "TOTAL FAILED #{failed}"
+  end
+
+  # Populates database using SNOMED api, filters out most synonyms
+  task :populate_allergies_from_snomed => :environment do
+    require 'open-uri'
+    base_url = ENV['SNOMED_SEARCH_URL']
+    puts "Terms parsed: "
+    (0..34).each do |i|
+      skip_counter = i * 100
+
+      query = "descriptions?query=allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{
+        skip_counter}&returnLimit=100&semanticFilter=disorder&normalize=true"
+      url = base_url + query
+      uri = URI.parse(url)
+      resp = uri.read
+      matches = JSON.parse(resp)['matches']
+
+      matches.each do |match|
+        term = match['term']
+
+        unless term.include? '(disorder)'
+          desc_id = match['descriptionId']
+          Allergy.find_or_create_by_concept_id_and_description_id(match['conceptId'], desc_id) do |al|
+            name = term.split(' ')
+            al.name = term
+            al.name = name[2,name.size].join(' ') if term.include?('Allergy to')
+            al.name = name[0,name.size-1].join(' ') if term.include? 'allergy'
+            al.snomed_name = match['fsn']
+          end
+        end
+        print "\r#{skip_counter}"
+        skip_counter += 1
+      end
+    end
+  end
+
+  # Finds the description id of an term with by exact match
+  def match_name(name, resp)
+    resp['descriptions'].each{ |o|
+      return o['descriptionId'] if o['term'] == name
+    }
+    return nil
+  end
+
+  # Updates and saves SNOMED entries that were seeded
+  def store_terms(obj, cid, did)
+    obj.concept_id = cid
+    obj.description_id = did
+    obj.save
+  end
 end
