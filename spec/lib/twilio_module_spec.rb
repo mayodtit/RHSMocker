@@ -10,7 +10,7 @@ describe PubSub do
 
         it 'sends the body and uses PHA phone number' do
           TwilioModule.client.account.messages.should_receive(:create).with(
-            from: PhoneNumberUtil::format_for_dialing(Metadata.pha_phone_number),
+            from: PhoneNumberUtil::format_for_dialing(Metadata.outbound_calls_number),
             to: PhoneNumberUtil::format_for_dialing('4083913578'),
             body: 'Hello'
           )

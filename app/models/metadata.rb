@@ -63,6 +63,10 @@ class Metadata < ActiveRecord::Base
     Metadata.find_by_mkey('pha_phone_number').try(:mvalue) || PHA_PHONE_NUMBER
   end
 
+  def self.outbound_calls_number
+    Metadata.find_by_mkey('outbound_calls_number').try(:mvalue) || OUTBOUND_CALLS_NUMBER
+  end
+
   def self.value_for_key(key)
     find_by_mkey(key).try(:mvalue)
   end
