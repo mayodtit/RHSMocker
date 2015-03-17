@@ -6,7 +6,7 @@ class Allergy < ActiveRecord::Base
   has_many :users, :through => :user_allergies
 
   attr_accessible :name, :snomed_name, :snomed_code, :food_allergen,
-                  :environment_allergen, :medication_allergen
+                  :environment_allergen, :medication_allergen, :concept_id, :description_id
 
   after_commit :reindex
 
