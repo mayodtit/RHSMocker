@@ -17,7 +17,7 @@ class Service < ActiveRecord::Base
 
   attr_accessor :actor_id, :change_tracked, :reason
   attr_accessible :description, :title, :service_type_id, :service_type, :user_facing,
-                  :member_id, :member, :subject_id, :subject, :reason_abandoned,
+                  :member_id, :member, :subject_id, :subject, :reason_abandoned, :reason,
                   :creator_id, :creator, :owner_id, :owner, :assignor_id, :assignor,
                   :actor_id, :due_at, :state_event, :service_template, :service_template_id
 
@@ -63,7 +63,7 @@ class Service < ActiveRecord::Base
   state_machine :initial => :open do
     store_audit_trail to: 'ServiceChange', context_to_log: %i(actor_id data reason)
 
-    event :waiting do
+    event :wait do
       transition any => :waiting
     end
 

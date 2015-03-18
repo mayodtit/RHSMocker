@@ -12,7 +12,7 @@ class ServiceTemplate < ActiveRecord::Base
       title: attributes[:title] || title,
       description: attributes[:description] || description,
       service_type: service_type,
-      due_at: Time.now.business_minutes_from(time_estimate.to_i),
+      due_at: attributes[:due_at] || Time.now.business_minutes_from(time_estimate.to_i),
       service_template: self,
       member: attributes[:member],
       subject: attributes[:subject] || attributes[:member],
