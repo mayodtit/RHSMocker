@@ -1,5 +1,5 @@
 class ProviderSearch < ActiveRecord::Base
-  attr_accessible :id, :provider_search_preferences_id, :state, :user_id, :preferences
+  attr_accessible :id, :preferences, :provider_search_preferences_id, :state, :user, :user_id
 
   belongs_to :user
 
@@ -17,9 +17,6 @@ class ProviderSearch < ActiveRecord::Base
     ProviderSearchPreferences.new(lat: "37.773", lon: "-122.413", distance: 10, gender: "female")
   end
 
-  ## This is belongs_to when it is conceptually a has_one. Preferences are dependent objects
-  ##   but can belong to multiple other classes (ProviderSearch, User, etc)
-  ## Possibly a polymorphic?
   belongs_to :preferences, class_name: ProviderSearchPreferences, foreign_key: :provider_search_preferences_id
   validates_presence_of :preferences
 
@@ -36,9 +33,9 @@ class ProviderSearch < ActiveRecord::Base
     end
 
     results.map do |api_result|
-      profile = ProviderProfile.where(npi_number: api_result[:npi_number]).first_or_create
-      profile.update_attributes(api_result)
-      profile
+      profile = ProviderProfile.where(npi_number: api_result[:npi_number]).first_or_create.tap do |pr|
+        pr.update_attributes(api_result)
+      end
     end.map do |profile|
       ProviderSearchResult.where(provider_search_id: self.id, provider_profile_id: profile.id).first_or_create
     end
