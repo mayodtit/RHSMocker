@@ -7,7 +7,7 @@ class Api::V1::AllergiesController < Api::V1::ABaseController
   end
 
   def search
-    render_success({allergies: snomod_results})
+    render_success({allergies: snomed_results})
   end
 
   private
@@ -16,7 +16,7 @@ class Api::V1::AllergiesController < Api::V1::ABaseController
     Allergy.or_search(params[:q]).results
   end
 
-  def snomod_results
+  def snomed_results
     begin
       search_service.snomed_query(params)
     rescue => e

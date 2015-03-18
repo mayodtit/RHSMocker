@@ -156,8 +156,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
 
   create_table "conditions", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
     t.string   "snomed_name"
     t.string   "snomed_code"
     t.datetime "disabled_at"
@@ -274,7 +274,7 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "disabled_at"
   end
 
-  create_table "discount_records", :force => true do |t|
+  create_table "discounts", :force => true do |t|
     t.integer  "referral_code_id", :null => false
     t.integer  "user_id",          :null => false
     t.string   "coupon",           :null => false
@@ -696,15 +696,6 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
   end
 
   create_table "proximities", :force => true do |t|
-    t.string  "city"
-    t.integer "zip"
-    t.string  "state"
-    t.string  "county"
-    t.float   "latitude"
-    t.float   "longitude"
-  end
-
-  create_table "proximity", :force => true do |t|
     t.string  "city"
     t.integer "zip"
     t.string  "state"

@@ -99,17 +99,17 @@ namespace :seeds do
 
       u.user_conditions.destroy_all
       u.user_conditions.create(:condition_id => 1,
-                             :start_date => Date.parse('18/6/2013'),
-                             :being_treated => true,
-                             :diagnosed => true,
-                             :diagnoser_id => d.id,
-                             :diagnosed_date => Time.parse('20/6/2013'))
+                               :start_date => Date.parse('18/6/2013'),
+                               :being_treated => true,
+                               :diagnosed => true,
+                               :diagnoser_id => d.id,
+                               :diagnosed_date => Time.parse('20/6/2013'))
 
       u.user_treatments.destroy_all
       u.user_treatments.create(:treatment_id => 10,
-                                       :doctor_id => d.id,
-                                       :prescribed_by_doctor => true,
-                                       :start_date => Date.parse('22/6/2013'))
+                               :doctor_id => d.id,
+                               :prescribed_by_doctor => true,
+                               :start_date => Date.parse('22/6/2013'))
     end
   end
 
@@ -414,15 +414,15 @@ namespace :seeds do
     PHA_LEADS = %w(kyle@getbetter.com emilio@getbetter.com neel@getbetter.com)
     PHA_LEADS.each do |email|
       m = Member.find_or_create_by_email!(
-          email: email,
-          user_agreements_attributes: user_agreements_attributes
+        email: email,
+        user_agreements_attributes: user_agreements_attributes
       )
 
       m.update_attributes!(
-          password: 'careportal',
-          password_confirmation: 'careportal',
-          first_name: email[/[^@]+/].capitalize,
-          last_name: LAST_NAMES.sample,
+        password: 'careportal',
+        password_confirmation: 'careportal',
+        first_name: email[/[^@]+/].capitalize,
+        last_name: LAST_NAMES.sample,
       )
 
       m.add_role :pha unless m.pha?
@@ -677,15 +677,15 @@ namespace :seeds do
 
     welcome_call = ScheduledPhoneCall.create! scheduled_at: time.utc
     welcome_call.update_attributes!(
-        state_event: :assign,
-        assignor: Member.robot,
-        owner: pha
+      state_event: :assign,
+      assignor: Member.robot,
+      owner: pha
     )
     welcome_call.update_attributes!(
-        state_event: :book,
-        booker: user,
-        user: user,
-        callback_phone_number: "1234567890"
+      state_event: :book,
+      booker: user,
+      user: user,
+      callback_phone_number: "1234567890"
     )
     puts welcome_call.id
   end
@@ -705,10 +705,10 @@ namespace :seeds do
     zip.each_with_index { |zipcode, index|
       begin
         Proximity.find_or_create_by_zip_and_city!(zip[index],city[index]) do |loc|
-            loc.state = state[index]
-            loc.county = county[index]
-            loc.latitude = latitude[index]
-            loc.longitude = longitude[index]
+          loc.state = state[index]
+          loc.county = county[index]
+          loc.latitude = latitude[index]
+          loc.longitude = longitude[index]
         end
         print '.'
         puts 'Processed ',index, 'records' if index % 5000 == 0
@@ -725,7 +725,7 @@ namespace :seeds do
       Domain.create!(email_domain: domain)
     end
   end
-  
+
   # Looks at Allergies table and updates entries from db/seeds/allergies.rb by adding description or concept ids
   task :update_allergies_table => :environment do
     require 'open-uri'
@@ -808,7 +808,7 @@ namespace :seeds do
       skip_counter = i * 100
 
       query = "descriptions?query=allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{
-        skip_counter}&returnLimit=100&semanticFilter=disorder&normalize=true"
+      skip_counter}&returnLimit=100&semanticFilter=disorder&normalize=true"
       url = base_url + query
       uri = URI.parse(url)
       resp = uri.read
