@@ -704,8 +704,6 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.float   "longitude"
   end
 
-<<<<<<< HEAD
-=======
   create_table "proximity", :force => true do |t|
     t.string  "city"
     t.integer "zip"
@@ -715,7 +713,6 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.float   "longitude"
   end
 
->>>>>>> feature/snomed-enhancement
   create_table "referral_codes", :force => true do |t|
     t.string   "name"
     t.string   "code"
