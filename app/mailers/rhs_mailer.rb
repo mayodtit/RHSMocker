@@ -370,7 +370,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
-  MEET_YOUR_PHA_MONTH_TRIAL_TEMPLATE = 'Meet Your PHA Month Trial 11/10/2014'
+  MEET_YOUR_PHA_MONTH_TRIAL_TEMPLATE = 'Meet Your PHA Month Trial 3/16/2015'
   def meet_your_pha_month_trial_email(email)
     user = Member.find_by_email!(email)
     pha = user.pha
