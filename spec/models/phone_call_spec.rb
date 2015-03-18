@@ -507,7 +507,7 @@ describe PhoneCall do
     describe '#dial_origin' do
       it 'dials the origin phone number via twilio' do
         TwilioModule.client.account.calls.should_receive(:create).with(
-          from: "1#{Metadata.pha_phone_number}",
+          from: "1#{Metadata.outbound_calls_number}",
           to: "1#{phone_call.origin_phone_number}",
           url: connect_url,
           method: 'POST',
@@ -533,7 +533,7 @@ describe PhoneCall do
     describe '#dial_destination' do
       it 'dials the destination phone number via twilio' do
         TwilioModule.client.account.calls.should_receive(:create).with(
-          from: "1#{Metadata.pha_phone_number}",
+          from: "1#{Metadata.outbound_calls_number}",
           to: "1#{phone_call.destination_phone_number}",
           url: connect_url,
           method: 'POST',

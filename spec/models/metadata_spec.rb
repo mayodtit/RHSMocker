@@ -95,6 +95,10 @@ describe Metadata do
     it_behaves_like 'has a default value', :pha_phone_number
   end
 
+  describe '#outbound_calls_number' do
+    it_behaves_like 'has a default value', :outbound_calls_number
+  end
+
   describe '#force_phas_off_call' do
     context 'mkey not found' do
       it 'returns false' do
