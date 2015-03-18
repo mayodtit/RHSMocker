@@ -452,7 +452,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
       from: 'support@getbetter.com',
       from_name: 'Better',
       to: { email: referrer.email },
-      template: 'Tell a Friend Notification 12/12/2014',
+      template: 'Tell a Friend Notification 3/16/2015',
       vars: {
         FNAME: referrer.first_name,
         REFEREE_FNAME: referee.first_name
