@@ -2,7 +2,7 @@ require 'spec_helper'
 require 'stripe_mock'
 
 describe 'Plans' do
-  let!(:user) { create(:member) }
+  let!(:user) { create(:member, :premium) }
   let!(:session) { user.sessions.create }
 
   before do
@@ -96,6 +96,21 @@ describe 'Plans' do
     context 'user do not have a plan subscribed' do
       before do
         user.update_attribute(:stripe_customer_id, nil)
+      end
+
+      it 'should return all the plans' do
+        do_request
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:plans].count).to eq(3)
+        expect(body[:text_header]).to_not be_blank
+      end
+    end
+
+    context 'user has downgraded, but still have a subscription' do
+      before do
+        @customer.subscriptions.create(:plan => 'bp20')
+        user.downgrade!
       end
 
       it 'should return all the plans' do
