@@ -2,9 +2,10 @@ class ServiceTemplate < ActiveRecord::Base
   belongs_to :service_type
   has_many :task_templates
 
-  attr_accessible :name, :title, :description, :service_type_id, :service_type, :time_estimate, :timed_service
+  attr_accessible :name, :title, :description, :service_type_id, :service_type, :time_estimate, :timed_service, :user_facing
 
   validates :name, :title, :service_type, presence: true
+  validates :user_facing, :inclusion => { :in => [true, false] }
 
   def create_service!(attributes = {})
     service = Service.create!(
@@ -18,7 +19,8 @@ class ServiceTemplate < ActiveRecord::Base
       creator: attributes[:creator],
       owner: attributes[:owner] || attributes[:member] && attributes[:member].pha,
       assignor: attributes[:assignor] || attributes[:creator],
-      actor_id: attributes[:creator] && attributes[:creator].id
+      actor_id: attributes[:creator] && attributes[:creator].id,
+      user_facing: attributes[:user_facing] || user_facing
     )
     service.create_next_ordinal_tasks
     service

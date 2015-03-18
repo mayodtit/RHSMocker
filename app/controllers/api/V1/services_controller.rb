@@ -11,11 +11,17 @@ class Api::V1::ServicesController < Api::V1::ABaseController
   end
 
   def create
-    authorize! :read, @service_template
     authorize! :create, Service
-    create_params = service_template_attributes
-    @service = @service_template.create_service! create_params
-    render_success(service: @service.serializer)
+
+    if @service_template
+      authorize! :read, @service_template
+      create_params = service_template_attributes
+      @service = @service_template.create_service! create_params
+      render_success(service: @service.serializer)
+    else
+      create_params = service_attributes
+      create_resource Service, create_params
+    end
   end
 
   def show
@@ -52,19 +58,24 @@ class Api::V1::ServicesController < Api::V1::ABaseController
   def service_attributes
     params.require(:service).permit(
       :title, :description, :state_event, :member_id, :subject_id, :owner_id,
-      :reason_abandoned, :due_at
-    )
+      :reason_abandoned, :due_at, :service_type, :service_type_id, :user_facing, :auth_token).tap do |attributes|
+      attributes[:creator] = current_user
+      attributes[:assignor] = current_user
+      attributes[:member] = @member
+    end
   end
 
   def service_template_attributes
-    params.permit(:title, :description, :subject_id, :due_at, :owner_id, :service_template_id, :auth_token).tap do |attributes|
+    params.permit(:title, :description, :subject_id, :due_at, :owner_id, :service_template_id, :auth_token, :timed_service).tap do |attributes|
       attributes[:creator] = current_user
       attributes[:member] = @member
     end
   end
 
   def load_service_template!
-    @service_template = ServiceTemplate.find params[:service_template_id]
+    if params[:service_template_id]
+      @service_template = ServiceTemplate.find params[:service_template_id]
+    end
   end
 end
 

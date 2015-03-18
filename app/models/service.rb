@@ -16,17 +16,27 @@ class Service < ActiveRecord::Base
   has_many :service_changes, order: 'created_at DESC'
 
   attr_accessor :actor_id, :change_tracked, :reason
-  attr_accessible :description, :title, :service_type_id, :service_type,
+  attr_accessible :description, :title, :service_type_id, :service_type, :user_facing,
                   :member_id, :member, :subject_id, :subject, :reason_abandoned,
                   :creator_id, :creator, :owner_id, :owner, :assignor_id, :assignor,
                   :actor_id, :due_at, :state_event, :service_template, :service_template_id
 
   validates :title, :service_type, :state, :member, :creator, :owner, :assignor, :assigned_at, presence: true
+  validates :user_facing, :inclusion => { :in => [true, false] }
   validates :service_template, presence: true, if: lambda { |s| s.service_template_id.present? }
 
   before_validation :set_assigned_at
 
   after_commit :track_update, on: :update
+  after_commit :publish
+
+  def publish
+    if id_changed?
+      PubSub.publish "/members/#{member_id}/subjects/#{subject_id}/services/new", {id: id}
+    else
+      PubSub.publish "/members/#{member_id}/subjects/#{subject_id}/services/update", {id: id}
+    end
+  end
 
   def set_assigned_at
     if owner_id_changed?
@@ -40,6 +50,8 @@ class Service < ActiveRecord::Base
       service_template.task_templates.where(service_ordinal: next_ordinal).each do |task_template|
         task_template.create_task!(service: self, start_at: service_template.timed_service? ? last_due_at : Time.now, assignor: assignor)
       end
+    else
+      self.complete!
     end
   end
 
@@ -50,6 +62,10 @@ class Service < ActiveRecord::Base
 
   state_machine :initial => :open do
     store_audit_trail to: 'ServiceChange', context_to_log: %i(actor_id data reason)
+
+    event :waiting do
+      transition any => :waiting
+    end
 
     event :reopen do
       transition any => :open

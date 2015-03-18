@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150317220250) do
+ActiveRecord::Schema.define(:version => 20150318180149) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -156,8 +156,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
 
   create_table "conditions", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
     t.string   "snomed_name"
     t.string   "snomed_code"
     t.datetime "disabled_at"
@@ -817,6 +817,7 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "created_at",                         :null => false
     t.datetime "updated_at",                         :null => false
     t.boolean  "timed_service",   :default => false, :null => false
+    t.boolean  "user_facing",     :default => false, :null => false
   end
 
   create_table "service_types", :force => true do |t|
@@ -831,24 +832,25 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
   add_index "service_types", ["name"], :name => "index_service_types_on_name", :unique => true
 
   create_table "services", :force => true do |t|
-    t.string   "title",               :null => false
+    t.string   "title",                                  :null => false
     t.text     "description"
-    t.integer  "service_type_id",     :null => false
-    t.string   "state",               :null => false
-    t.integer  "member_id",           :null => false
+    t.integer  "service_type_id",                        :null => false
+    t.string   "state",                                  :null => false
+    t.integer  "member_id",                              :null => false
     t.integer  "subject_id"
     t.string   "reason_abandoned"
-    t.integer  "creator_id",          :null => false
-    t.integer  "owner_id",            :null => false
-    t.integer  "assignor_id",         :null => false
+    t.integer  "creator_id",                             :null => false
+    t.integer  "owner_id",                               :null => false
+    t.integer  "assignor_id",                            :null => false
     t.datetime "due_at"
     t.datetime "assigned_at"
-    t.datetime "created_at",          :null => false
-    t.datetime "updated_at",          :null => false
+    t.datetime "created_at",                             :null => false
+    t.datetime "updated_at",                             :null => false
     t.integer  "service_template_id"
     t.datetime "completed_at"
     t.datetime "abandoned_at"
     t.integer  "abandoner_id"
+    t.boolean  "user_facing",         :default => false, :null => false
   end
 
   create_table "sessions", :force => true do |t|
