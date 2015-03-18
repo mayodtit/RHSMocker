@@ -11,7 +11,16 @@ module Api
         return render_failure({reason:"Invalid auth_token"}) unless @session
         member = @session.member
         return render_failure({reason:"Invalid auth_token"}) unless member
+        time_out_check(@session)
         auto_login(member)
+      end
+
+      def time_out_check(session)
+        if (Time.now - session.last_seen_at) < 900
+          session.update_attributes(note: 'Your current session expired')
+          render_failure({reason: session.note})
+          session.destroy and return
+        end
       end
 
       def render_success resp=Hash.new

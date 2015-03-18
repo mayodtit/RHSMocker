@@ -3,6 +3,8 @@ class Api::V1::PingController < Api::V1::ABaseController
   after_filter :store_gcm_id!, if: :session_valid?
   after_filter :store_device_information!, if: :session_valid?
   after_filter :store_user_information!, if: :session_valid?
+  after_filter :log_time!, if: :session_valid?
+
 
   def index
     keep_alive and return if care_portal?
@@ -52,6 +54,10 @@ class Api::V1::PingController < Api::V1::ABaseController
     else
       render_failure
     end
+  end
+
+  def log_time!
+    session.update_attributes(last_seen_at: Time.now)
   end
 
   def authentication_check
