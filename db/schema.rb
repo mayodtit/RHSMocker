@@ -11,11 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(:version => 20150316175428) do
-=======
-ActiveRecord::Schema.define(:version => 20150212015132) do
->>>>>>> feature/snomed-enhancement
+ActiveRecord::Schema.define(:version => 20150317220250) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -160,8 +156,8 @@ ActiveRecord::Schema.define(:version => 20150212015132) do
 
   create_table "conditions", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
     t.string   "snomed_name"
     t.string   "snomed_code"
     t.datetime "disabled_at"
@@ -278,7 +274,7 @@ ActiveRecord::Schema.define(:version => 20150212015132) do
     t.datetime "disabled_at"
   end
 
-  create_table "discount_records", :force => true do |t|
+  create_table "discounts", :force => true do |t|
     t.integer  "referral_code_id", :null => false
     t.integer  "user_id",          :null => false
     t.string   "coupon",           :null => false
@@ -708,18 +704,6 @@ ActiveRecord::Schema.define(:version => 20150212015132) do
     t.float   "longitude"
   end
 
-<<<<<<< HEAD
-=======
-  create_table "proximity", :force => true do |t|
-    t.string  "city"
-    t.integer "zip"
-    t.string  "state"
-    t.string  "county"
-    t.float   "latitude"
-    t.float   "longitude"
-  end
-
->>>>>>> feature/snomed-enhancement
   create_table "referral_codes", :force => true do |t|
     t.string   "name"
     t.string   "code"
@@ -848,7 +832,7 @@ ActiveRecord::Schema.define(:version => 20150212015132) do
 
   create_table "services", :force => true do |t|
     t.string   "title",               :null => false
-    t.string   "description"
+    t.text     "description"
     t.integer  "service_type_id",     :null => false
     t.string   "state",               :null => false
     t.integer  "member_id",           :null => false
