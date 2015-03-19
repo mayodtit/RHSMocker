@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150317220250) do
+ActiveRecord::Schema.define(:version => 20150319172449) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1027,7 +1027,6 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "member_free_trial_ends_at"
     t.integer  "delayed_job_id"
     t.integer  "day_priority",               :default => 0,     :null => false
-    t.integer  "assigned_task_id"
     t.boolean  "visible_in_queue",           :default => true,  :null => false
     t.integer  "time_estimate"
     t.boolean  "urgent",                     :default => false, :null => false
