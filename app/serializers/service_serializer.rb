@@ -1,7 +1,7 @@
 class ServiceSerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes :id, :title, :state, :description, :due_at, :service_type_id, :created_at, :owner_id, :user_facing, :member_id, :subject_id
+  attributes :id, :title, :state, :description, :user_request, :due_at, :service_type_id, :created_at, :owner_id, :user_facing, :member_id, :subject_id, :service_template_id
 
   def attributes
     if options[:shallow]
@@ -9,6 +9,7 @@ class ServiceSerializer < ActiveModel::Serializer
           id: object.id,
           title: object.title,
           description: object.description,
+          user_request: object.user_request,
           service_type_id: object.service_type_id,
           due_at: object.due_at,
           user_facing: object.user_facing,
@@ -21,6 +22,7 @@ class ServiceSerializer < ActiveModel::Serializer
           id: object.id,
           title: object.title,
           description: object.description,
+          user_request: object.user_request,
           service_type_id: object.service_type_id,
           due_at: object.due_at,
           created_at: object.created_at,
