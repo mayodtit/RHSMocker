@@ -114,7 +114,7 @@ class Task < ActiveRecord::Base
   end
 
   def mark_as_unread
-    return unless for_pha? && (owner_id_changed? || id_changed?) && assignor_id != owner_id && type == 'MemberTask' && !owner.has_role?('specialist') && urgent == false
+    return unless (owner_id_changed? || id_changed?) && assignor_id != owner_id && type == 'MemberTask' && owner.has_role?('pha') && !owner.has_role?('specialist') && !urgent?
     self.unread = true
   end
 
