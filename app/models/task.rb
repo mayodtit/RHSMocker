@@ -15,7 +15,6 @@ class Task < ActiveRecord::Base
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
   has_many :task_guides, class_name: 'TaskGuide', through: :task_template
   has_many :task_requirements
-  has_one :view_task_task
 
   attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id
   attr_accessible :title, :description, :due_at,
