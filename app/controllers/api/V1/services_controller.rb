@@ -16,10 +16,16 @@ class Api::V1::ServicesController < Api::V1::ABaseController
     if @service_template
       authorize! :read, @service_template
       create_params = service_template_attributes
+      create_params[:creator] = current_user
+      create_params[:member] = @member
+      create_params[:actor_id] = current_user.id
       @service = @service_template.create_service! create_params
       render_success(service: @service.serializer)
     else
       create_params = service_attributes
+      create_params[:creator] = current_user
+      create_params[:assignor_id] = current_user.id if attributes[:owner_id].present?
+      create_params[:actor_id] = current_user.id
       create_resource Service, create_params
     end
   end
@@ -56,17 +62,11 @@ class Api::V1::ServicesController < Api::V1::ABaseController
   end
 
   def service_attributes
-    params.require(:service).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :user_facing, :auth_token).tap do |attributes|
-      attributes[:creator] = current_user
-      attributes[:assignor] = current_user
-    end
+    params.require(:service).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :user_facing, :auth_token)
   end
 
   def service_template_attributes
-    params.permit(:title, :description, :subject_id, :due_at, :owner_id, :service_type, :service_template_id, :auth_token, :user_facing).tap do |attributes|
-      attributes[:creator] = current_user
-      attributes[:member] = @member
-    end
+    params.permit(:title, :description, :subject_id, :due_at, :owner_id, :service_type, :service_template_id, :auth_token, :user_facing)
   end
 
   def load_service_template!
