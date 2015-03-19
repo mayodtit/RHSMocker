@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150319172449) do
+ActiveRecord::Schema.define(:version => 20150319173126) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1030,6 +1030,7 @@ ActiveRecord::Schema.define(:version => 20150319172449) do
     t.boolean  "visible_in_queue",           :default => true,  :null => false
     t.integer  "time_estimate"
     t.boolean  "urgent",                     :default => false, :null => false
+    t.boolean  "unread",                     :default => false, :null => false
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"
