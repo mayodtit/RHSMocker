@@ -19,7 +19,7 @@ module TwilioModule
 
     def alert_phone_number
       if Rails.env.production? || Rails.env.qa? || Rails.env.demo?
-        format_for_dialing(Metadata.pha_phone_number || SERVICE_ALERT_PHONE_NUMBER)
+        format_for_dialing(Metadata.outbound_calls_number || SERVICE_ALERT_PHONE_NUMBER)
       else
         format_for_dialing(SERVICE_ALERT_PHONE_NUMBER)
       end
