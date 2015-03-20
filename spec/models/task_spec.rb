@@ -335,6 +335,98 @@ describe Task do
     end
   end
 
+  describe '#mark_as_unread' do
+    let(:task) { build :task, type: 'MemberTask' }
+    let(:pha) { build :pha}
+
+    context 'owner is a specialist' do
+      before do
+        task.stub(:owner_id_changed?) { true }
+        pha.stub(:has_role?).with('pha') { true }
+        pha.stub(:has_role?).with('specialist') { true }
+        task.owner_id { specialist.id }
+      end
+
+      it 'does nothing' do
+        task.mark_as_unread
+        task.unread.should == false
+      end
+    end
+
+    context 'owner is a pha' do
+      before do
+        pha.stub(:has_role?).with('pha') { true }
+        pha.stub(:has_role?).with('specialist') { false }
+      end
+
+      context 'owner_id changed' do
+        before do
+          task.stub(:owner_id_changed?) { true }
+        end
+
+        context 'unassigned' do
+          before do
+            task.stub(:unassigned?) { true }
+          end
+
+          it 'does nothing' do
+            task.mark_as_unread
+            task.unread.should == false
+          end
+        end
+
+        context 'has owner' do
+          before do
+            task.stub(:unassigned?) { false }
+            task.stub(:owner) { pha }
+          end
+
+          context 'owner is assignor' do
+            before do
+              task.stub(:assignor_id) { 1 }
+              task.stub(:owner_id) { 1 }
+            end
+
+            it 'does nothing' do
+              task.mark_as_unread
+              task.unread.should == false
+            end
+          end
+
+          context 'owner is not assignor' do
+            before do
+              task.stub(:assignor_id) { 0 }
+              task.stub(:owner_id) { 1 }
+            end
+
+            context 'task is urgent' do
+              before do
+                task.stub(:urgent?) { true }
+              end
+
+              it 'does nothing' do
+                task.mark_as_unread
+                task.unread.should == false
+              end
+            end
+
+            context 'task is not urgent' do
+              before do
+                task.stub(:urgent) { false }
+              end
+
+              it 'marks as unread' do
+
+                task.mark_as_unread
+                task.unread.should == true
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+
   describe '#set_assigned_at' do
     let(:task) { build :task }
 
