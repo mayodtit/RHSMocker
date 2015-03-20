@@ -79,7 +79,7 @@ end
 desc "Deploy target demo (goldenbear @ EC2)"
 task :demo do
   set :port, 9722
-  set :branch,    'master'
+  set :branch,    'demo'
   set :rails_env, 'demo'
   set :deploy_to, '/home/rhs/api-demo'
   set :cron_file, 'cron-goldenbear'
