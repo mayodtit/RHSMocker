@@ -5,6 +5,5 @@ rvm:
 before_script:
   - mv config/application.yml.example config/application.yml
   - mv config/database.yml.example config/database.yml
-  - mysql -e 'create database rhs_test;'
-  - RAILS_ENV=test bundle exec rake db:schema:load
-script: "RAILS_ENV=test bundle exec rake spec"
+  - RAILS_ENV=test bundle exec rake parallel:create parallel:load_schema
+script: "RAILS_ENV=test bundle exec parallel_rspec spec"
