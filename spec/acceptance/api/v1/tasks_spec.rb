@@ -12,11 +12,11 @@ resource "Tasks" do
   let!(:another_task) { create(:member_task) }
   let!(:one_more_task) { create(:member_task) }
 
-  let!(:assigned_task) { create(:member_task, :assigned) }
-  let!(:started_task) { create(:member_task, :started) }
-  let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
-  let!(:completed_task) { create(:member_task, :completed) }
-  let!(:abandoned_task) { create(:member_task, :abandoned) }
+  let!(:assigned_task) { create(:member_task, :assigned, unread: false) }
+  let!(:started_task) { create(:member_task, :started, unread: false) }
+  let!(:claimed_task) { create(:member_task, :claimed, owner: pha, unread: false) }
+  let!(:completed_task) { create(:member_task, :completed, unread: false) }
+  let!(:abandoned_task) { create(:member_task, :abandoned, unread: false) }
 
   let(:auth_token) { session.auth_token }
 
