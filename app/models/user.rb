@@ -44,6 +44,8 @@ class User < ActiveRecord::Base
   has_many :user_images, inverse_of: :user,
                          dependent: :destroy
 
+  has_many :provider_searches
+
   accepts_nested_attributes_for :user_information
   accepts_nested_attributes_for :addresses
   accepts_nested_attributes_for :provider
