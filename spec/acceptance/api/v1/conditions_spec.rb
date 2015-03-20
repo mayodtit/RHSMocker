@@ -33,6 +33,7 @@ resource 'Conditions' do
       end
     end
   end
+
   get '/api/v1/conditions/search' do
     let!(:condition) { create(:condition,
       name: "Influenza A (H1N1)",
@@ -41,13 +42,14 @@ resource 'Conditions' do
       concept_id: "442696006",
       description_id: "2820794017"
     ) }
-    before(:each) do
-        Condition.stub_chain(:search, :results).and_return([condition])
-      end
     let(:q)   { 'H1' }
 
-    example_request '[GET] Get all Conditions' do
-      explanation 'Returns an array of Conditions'
+    before(:each) do
+      Condition.stub_chain(:search, :results).and_return([condition])
+    end
+
+    example_request '[GET] Query SNOMED database' do
+      explanation 'Returns an array of conditions that match the query.'
       status.should == 200
       body = JSON.parse(response_body, :symbolize_names => true)
       body[:conditions].map{|d| d[:id]}.should include(condition.id)
