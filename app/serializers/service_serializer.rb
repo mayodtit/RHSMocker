@@ -41,7 +41,7 @@ class ServiceSerializer < ActiveModel::Serializer
             subject: object.subject.try(:serializer, options.merge(shallow: true)),
             service_type: object.service_type
         )
-        attributes[:tasks] = object.tasks.try(:serializer, options.merge(shallow: true)) if object.respond_to? :tasks
+        attributes[:tasks] = object.tasks.try(:serializer) if object.respond_to? :tasks
       end
     end
   end
