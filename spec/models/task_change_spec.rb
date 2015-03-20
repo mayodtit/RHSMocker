@@ -53,7 +53,7 @@ describe TaskChange do
             end
 
             it 'send a pub sub notification' do
-              PubSub.should_receive(:publish).with "/users/#{task_change.task.owner_id}/notifications/tasks", {msg: "#{task_change.actor.first_name} assigned you a #{task_change.task.service_type.bucket} task", id: task.id, assignedTo: task_change.task.owner_id}
+              PubSub.should_receive(:publish).with "/users/#{task_change.task.owner_id}/notifications/tasks", {msg: "#{task_change.actor.first_name} assigned you a #{task_change.task.service_type.bucket} task", id: task_change.task.id, assignedTo: task_change.task.owner_id}
               task_change.publish
             end
           end
@@ -147,7 +147,7 @@ describe TaskChange do
           end
 
           it 'send a pub sub notification' do
-            PubSub.should_receive(:publish).with "/users/#{task_change.task.owner_id}/notifications/tasks", {msg: "#{task_change.actor.first_name} assigned you a #{task_change.task.service_type.bucket} task", id: task.id, assignedTo: task_change.task.owner_id}
+            PubSub.should_receive(:publish).with "/users/#{task_change.task.owner_id}/notifications/tasks", {msg: "#{task_change.actor.first_name} assigned you a #{task_change.task.service_type.bucket} task", id: task_change.task.id, assignedTo: task_change.task.owner_id}
             task_change.publish
           end
         end
