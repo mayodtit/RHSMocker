@@ -10,3 +10,4 @@ before_script:
 script: "true"
 after_success:
   - ssh -p 9722 rhs@goldenbear.getbetter.com -o 'StrictHostKeyChecking=no' -o 'BatchMode=yes' -o 'ConnectionAttempts=1' -o 'ConnectTimeout=2' echo "Connected to Goldenbear"
+  - cap devhosted deploy
