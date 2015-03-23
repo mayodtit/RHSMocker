@@ -201,7 +201,9 @@ class Task < ActiveRecord::Base
 
     after_transition any - :abandoned => :abandoned  do |task|
       if task.service
-        task.service
+        task.service.reason = task.reason
+        task.service.abandoner = task.abandoner
+        task.service.abandon!
       end
     end
 
