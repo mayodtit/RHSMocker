@@ -23,7 +23,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
     end
 
     tasks = query.where(role_id: role.id, visible_in_queue: true, unread: false, urgent: false).includes(:member).order(task_order)
-    immediate_tasks = query.where('role_id = ? && visible_in_queue IS TRUE && (unread IS TRUE OR urgent IS TRUE)', role.id).includes(:member) if current_user.pha?
+    immediate_tasks = query.where(role_id: role.id, visible_in_queue: true).where('unread IS TRUE OR urgent IS TRUE').includes(:member) if current_user.pha?
     tomorrow_count = 0
     future_count = 0
 

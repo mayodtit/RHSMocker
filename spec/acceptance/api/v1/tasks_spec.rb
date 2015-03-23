@@ -8,9 +8,9 @@ resource "Tasks" do
   let!(:pha) { create(:pha) }
   let(:session) { pha.sessions.create }
   let!(:other_pha) { create(:pha) }
-  let!(:task) { create(:member_task) }
-  let!(:another_task) { create(:member_task) }
-  let!(:one_more_task) { create(:member_task) }
+  let!(:task) { create(:member_task, unread: false) }
+  let!(:another_task) { create(:member_task, unread: false) }
+  let!(:one_more_task) { create(:member_task, unread: false) }
 
   let!(:assigned_task) { create(:member_task, :assigned, unread: false) }
   let!(:started_task) { create(:member_task, :started, unread: false) }

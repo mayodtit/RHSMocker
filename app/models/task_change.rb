@@ -18,7 +18,7 @@ class TaskChange < ActiveRecord::Base
       actor_name = actor.first_name
     end
     # For existing tasks assigned to someone
-    if ((event == 'update' || event == 'unstart') && data.has_key?('owner_id') && data['owner_id'].second != actor_id)
+    if %w(update unstart).include?(event) && data['owner_id'] && data['owner_id'].second != actor_id
 
       case task.type
         when 'MemberTask'
