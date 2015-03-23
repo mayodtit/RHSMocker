@@ -2,13 +2,16 @@ language: ruby
 cache: bundler
 rvm:
   - 2.0.0-p598
+env:
+  - "TEST_GROUP=1,2"
+  - "TEST_GROUP=3,4"
 before_script:
   - mv config/application.yml.example config/application.yml
   - mv config/database.yml.example config/database.yml
   - mysql -e 'create database rhs_test;'
   - mysql -e 'create database rhs_test2;'
   - RAILS_ENV=test bundle exec rake parallel:load_schema[2]
-script: "RAILS_ENV=test bundle exec parallel_rspec spec -n 2 --only-group 1,2"
+script: "RAILS_ENV=test bundle exec parallel_rspec spec -n 4 --only-group $TEST_GROUP --group-by filesize --type rspec"
 after_success:
   - '[[ "$TRAVIS_BRANCH" == "develop" ]] && bundle exec cap devhosted deploy'
   - '[[ "$TRAVIS_BRANCH" == "qa" ]] && bundle exec cap qa deploy'
