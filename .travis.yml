@@ -7,7 +7,8 @@ before_script:
   - mv config/database.yml.example config/database.yml
   - mysql -e 'create database rhs_test;'
   - mysql -e 'create database rhs_test2;'
-script: "true"
+  - RAILS_ENV=test bundle exec rake parallel:load_schema[2]
+script: "RAILS_ENV=test bundle exec parallel_rspec spec -n 2 --only-group 1,2"
 after_success:
   - '[[ "$TRAVIS_BRANCH" == "develop" ]] && bundle exec cap devhosted deploy'
   - '[[ "$TRAVIS_BRANCH" == "qa" ]] && bundle exec cap qa deploy'
