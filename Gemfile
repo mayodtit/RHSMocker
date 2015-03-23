@@ -42,6 +42,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'guard-rspec'
   gem 'byebug'
+  gem 'travis', require: false
 end
 
 group :development do
