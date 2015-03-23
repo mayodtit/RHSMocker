@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150317220250) do
+ActiveRecord::Schema.define(:version => 20150319173126) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -156,8 +156,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
 
   create_table "conditions", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
     t.string   "snomed_name"
     t.string   "snomed_code"
     t.datetime "disabled_at"
@@ -1065,10 +1065,10 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "member_free_trial_ends_at"
     t.integer  "delayed_job_id"
     t.integer  "day_priority",               :default => 0,     :null => false
-    t.integer  "assigned_task_id"
     t.boolean  "visible_in_queue",           :default => true,  :null => false
     t.integer  "time_estimate"
     t.boolean  "urgent",                     :default => false, :null => false
+    t.boolean  "unread",                     :default => false, :null => false
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"
