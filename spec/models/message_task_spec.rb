@@ -10,6 +10,15 @@ describe MessageTask do
     it_validates 'foreign key of', :message
     it_validates 'foreign key of', :consult
 
+    describe 'one_open_message_task_per_member' do
+      let!(:member) { create :member }
+
+      it 'should rasie validation error when a member has more than one open message task' do
+        create :message_task, consult: member.master_consult, state: 'unstarted'
+        expect{ create(:message_task, consult: member.master_consult, state: 'unstarted') }.to raise_error(ActiveRecord::RecordInvalid)
+      end
+    end
+
     describe '#one_message_per_consult' do
       let(:consult) { build_stubbed :consult }
       let(:task) { build :message_task, consult: consult }
