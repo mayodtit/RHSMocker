@@ -13,6 +13,4 @@ before_script:
   - mysql -e 'create database rhs_test2;'
 script: 'true'
 after_success:
-  - '[[ "$TRAVIS_BRANCH" == "develop" ]] && bundle exec cap devhosted deploy'
-  - '[[ "$TRAVIS_BRANCH" == "qa" ]] && bundle exec cap qa deploy'
   - '[[ "$AUTOMATED_DEPLOY" == "true" ]] && bundle exec rake automated_deployment:deploy[$TRAVIS_BUILD_NUMBER,$TRAVIS_JOB_NUMBER]'
