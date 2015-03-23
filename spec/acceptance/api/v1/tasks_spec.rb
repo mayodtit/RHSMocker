@@ -41,8 +41,8 @@ resource "Tasks" do
   end
 
   describe 'queue' do
-    let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago) }
-    let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 2.days.ago) }
+    let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago, unread: false) }
+    let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 2.days.ago, unread: false) }
 
     parameter :auth_token, 'Performing hcp\'s auth_token'
 
