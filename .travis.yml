@@ -10,3 +10,4 @@ before_script:
 script: "true"
 after_success:
   - '[[ "$TRAVIS_BRANCH" == "develop" ]] && bundle exec cap devhosted deploy'
+  - '[[ "$TRAVIS_BRANCH" == "qa" ]] && bundle exec cap qa deploy'
