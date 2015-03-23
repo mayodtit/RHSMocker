@@ -1,5 +1,5 @@
 namespace :automated_deployment do
-  task :deploy, [:build_id, :job_id] => :environment do
+  task :deploy, [:build_id, :job_id] => :environment do |t, args|
     build_id = args[:build_id]
     job_id = args[:job_id]
 
