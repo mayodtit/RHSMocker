@@ -58,7 +58,7 @@ namespace :automated_deployment do
     when 'qa'
       'qa'
     else
-      'devhosted' # TODO - switch to nil
+      nil
     end
   end
 
