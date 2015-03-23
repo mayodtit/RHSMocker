@@ -24,6 +24,6 @@ class ServiceTemplateSerializer < ActiveModel::Serializer
   end
 
   def due_at
-    Time.now.business_minutes_from(object.time_estimate.to_i)
+    Time.now.business_minutes_from(object.time_estimate)
   end
 end

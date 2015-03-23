@@ -30,6 +30,10 @@ class Service < ActiveRecord::Base
   after_commit :track_update, on: :update
   after_commit :publish
 
+  def open?
+    !(%w(completed abandoned).include? state)
+  end
+
   def publish
     if id_changed?
       PubSub.publish "/members/#{member_id}/subjects/#{subject_id}/services/new", {id: id}
@@ -45,7 +49,7 @@ class Service < ActiveRecord::Base
   end
 
   def create_next_ordinal_tasks(current_ordinal = -1, last_due_at = Time.now)
-    return unless service_template && tasks.open_state.empty?
+    return unless self.open? && self.service_template && tasks.open_state.empty?
     if next_ordinal = next_ordinal(current_ordinal)
       service_template.task_templates.where(service_ordinal: next_ordinal).each do |task_template|
         task_template.create_task!(service: self, start_at: service_template.timed_service? ? last_due_at : Time.now, assignor: assignor)
@@ -87,10 +91,24 @@ class Service < ActiveRecord::Base
       service.abandoned_at = Time.now
     end
 
+    after_transition any - :completed => :completed do |service|
+      Task.where(service_id: service.id).each do |task|
+        task.complete!
+      end
+    end
+
+    after_transition any - :abandoned => :abandoned do |service|
+      Task.where(service_id: service.id).each do |task|
+        task.abandoner = service.abandoner
+        task.reason = service.reason
+        task.abandon!
+      end
+    end
+
     after_transition any => any do |service|
       service.change_tracked = true
-    end
   end
+end
 
   def actor_id
     if @actor_id.nil?
