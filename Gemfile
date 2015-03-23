@@ -42,7 +42,6 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'guard-rspec'
   gem 'byebug'
-  gem 'travis', require: false
 end
 
 group :development do
@@ -109,3 +108,4 @@ gem 'roo'
 gem 'mail'
 gem 'mailcheck'
 gem 'valid_email', require: 'valid_email/validate_email'       # library for email validation
+gem 'travis', require: false
