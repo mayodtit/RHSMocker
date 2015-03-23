@@ -195,20 +195,18 @@ class Task < ActiveRecord::Base
       end
     end
 
-    after_transition any - [:completed, :abandoned] => [:completed, :abandoned] do |task|
+    after_transition any - :completed => :completed  do |task|
       task.service.create_next_ordinal_tasks(task.service_ordinal, task.due_at) if task.service
     end
 
-
-    before_transition any - [:abandoned] => :abandoned do |task|
-      task.abandoned_at = Time.now
-
+    after_transition any - :abandoned => :abandoned  do |task|
       if task.service
-        task.service.abandon!
+        task.service
       end
     end
 
-    before_transition :abandoned => any - [:abandoned] do |task|
+    before_transition any - :abandoned => :abandoned do |task|
+      task.abandoned_at = Time.now
     end
 
     # Audit trail will create a TaskChange in an after_transition. This tells
