@@ -9,4 +9,4 @@ before_script:
   - mysql -e 'create database rhs_test2;'
 script: "true"
 after_success:
-  - [[ "$TRAVIS_BRANCH" == "develop" ]] && bundle exec cap devhosted deploy
+  - '[[ "$TRAVIS_BRANCH" == "develop" ]] && bundle exec cap devhosted deploy'
