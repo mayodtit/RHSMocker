@@ -8,15 +8,15 @@ resource "Tasks" do
   let!(:pha) { create(:pha) }
   let(:session) { pha.sessions.create }
   let!(:other_pha) { create(:pha) }
-  let!(:task) { create(:member_task, unread: false) }
-  let!(:another_task) { create(:member_task, unread: false) }
-  let!(:one_more_task) { create(:member_task, unread: false) }
+  let!(:task) { create(:member_task) }
+  let!(:another_task) { create(:member_task) }
+  let!(:one_more_task) { create(:member_task) }
 
-  let!(:assigned_task) { create(:member_task, :assigned, unread: false) }
-  let!(:started_task) { create(:member_task, :started, unread: false) }
-  let!(:claimed_task) { create(:member_task, :claimed, owner: pha, unread: false) }
-  let!(:completed_task) { create(:member_task, :completed, unread: false) }
-  let!(:abandoned_task) { create(:member_task, :abandoned, unread: false) }
+  let!(:assigned_task) { create(:member_task, :assigned) }
+  let!(:started_task) { create(:member_task, :started) }
+  let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
+  let!(:completed_task) { create(:member_task, :completed) }
+  let!(:abandoned_task) { create(:member_task, :abandoned) }
 
   let(:auth_token) { session.auth_token }
 
@@ -41,8 +41,8 @@ resource "Tasks" do
   end
 
   describe 'queue' do
-    let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago, unread: false) }
-    let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 2.days.ago, unread: false) }
+    let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago) }
+    let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 2.days.ago) }
 
     parameter :auth_token, 'Performing hcp\'s auth_token'
 
