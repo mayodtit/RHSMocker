@@ -3,9 +3,11 @@ require 'travis'
 namespace :automated_deployment do
   task deploy: :environment do
     return unless deploy_target
+    attempt_deploy!
+  end
 
+  def attempt_deploy!
     Travis::Pro.access_token = ENV['TRAVIS_ACCESS_TOKEN']
-
     attempts = 0
     while !jobs_failed? && attempts < 10 do
       deploy! and return if jobs_passed?
@@ -16,15 +18,23 @@ namespace :automated_deployment do
   end
 
   def repo
-    @repo ||= Travis::Pro::Repository.find('RemoteHealthServices/RHSMocker')
+    Travis::Pro::Repository.find('RemoteHealthServices/RHSMocker')
   end
 
   def build
-    @build ||= repo.build(ENV['TRAVIS_BUILD_NUMBER'])
+    repo.build(ENV['TRAVIS_BUILD_NUMBER'])
+  end
+
+  def jobs
+    build.jobs
   end
 
   def jobs_excluding_this_one
-    @jobs ||= build.jobs.reject{|j| j.number == ENV['TRAVIS_JOB_NUMBER']}
+    begin
+      jobs.reject{|j| j.number == ENV['TRAVIS_JOB_NUMBER']}
+    rescue KeyError
+      retry
+    end
   end
 
   def jobs_passed?
@@ -48,11 +58,12 @@ namespace :automated_deployment do
     when 'qa'
       'qa'
     else
-      'develop' # TODO - switch to nil
+      'devhosted' # TODO - switch to nil
     end
   end
 
   def deploy!
     system("bundle exec cap #{deploy_target} deploy")
+    true
   end
 end
