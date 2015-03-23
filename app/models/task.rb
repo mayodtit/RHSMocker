@@ -202,6 +202,10 @@ class Task < ActiveRecord::Base
 
     before_transition any - [:abandoned] => :abandoned do |task|
       task.abandoned_at = Time.now
+
+      if task.service
+        task.service.abandon!
+      end
     end
 
     before_transition :abandoned => any - [:abandoned] do |task|

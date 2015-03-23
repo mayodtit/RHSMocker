@@ -57,6 +57,7 @@ describe 'Tasks' do
           context 'the completed task is the last task in its ordinal' do
             it 'should create the tasks with the next ordinal' do
               expect(task).to_not be_completed
+              # TODO: CHANGE TO count.by 1 after merging in kill_view_tasks
               expect{ do_request(task: {state_event: :complete}) }.to change(Task, :count).by 2
               expect(response).to be_success
               body = JSON.parse(response.body, symbolize_names: true)
@@ -84,6 +85,7 @@ describe 'Tasks' do
           context 'the abandoned task is the last task in its ordinal' do
             it 'should create the tasks with the next ordinal' do
               expect(task).to_not be_abandoned
+              # TODO: CHANGE TO count.by 1 after merging in kill_view_tasks
               expect{ do_request(task: {state_event: :abandon, reason: 'Just because'}) }.to change(Task, :count).by 2
               expect(response).to be_success
               body = JSON.parse(response.body, symbolize_names: true)
