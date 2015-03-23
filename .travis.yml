@@ -4,7 +4,7 @@ sudo: false
 rvm:
   - 2.0.0-p598
 env:
-  - "TEST_GROUP=1,2"
+  - "TEST_GROUP=1,2 AUTOMATED_DEPLOY=true"
   - "TEST_GROUP=3,4"
 before_script:
   - mv config/application.yml.example config/application.yml
@@ -15,3 +15,4 @@ script: 'true'
 after_success:
   - '[[ "$TRAVIS_BRANCH" == "develop" ]] && bundle exec cap devhosted deploy'
   - '[[ "$TRAVIS_BRANCH" == "qa" ]] && bundle exec cap qa deploy'
+  - '[[ "$AUTOMATED_DEPLOY" == "true" ]] && bundle exec rake automated_deployment:deploy[$TRAVIS_BUILD_NUMBER,$TRAVIS_JOB_NUMBER]'
