@@ -47,6 +47,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
       @total_count_per_user = @consult.messages_and_notes.count
       @consult.messages_and_notes
     else
+      @total_count_per_user = @consult.messages.count
       @consult.messages
     end
   end
