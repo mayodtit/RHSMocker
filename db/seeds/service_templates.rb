@@ -6,11 +6,9 @@ ServiceTemplate.find_or_create_by_name(
     time_estimate: 43200,
     timed_service: true
 )
-ServiceTemplate.find_or_create_by_name(
-    name: "provider search",
-    title: "Provider Search",
-    description:
-"#Member preference checklist
+
+PROVIDER_SEARCH_DESCRIPTION = <<-eof
+#Member preference checklist
 * **Type of Doctor:**
 * **Location (zip):**
 * **Preferences (if any):**
@@ -19,7 +17,13 @@ ServiceTemplate.find_or_create_by_name(
 * **Insurance website:**
 * **Employer/Exchanges:**
 
-#PHA message to send (paste templated options here):",
+#PHA message to send (paste templated options here):
+eof
+
+ServiceTemplate.find_or_create_by_name(
+    name: "provider search",
+    title: "Provider Search",
+    description: PROVIDER_SEARCH_DESCRIPTION,
     service_type: ServiceType.find_by_name('provider search'),
     time_estimate: 4500
 )

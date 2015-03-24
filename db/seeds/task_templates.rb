@@ -103,13 +103,8 @@ TaskTemplate.find_or_create_by_name(
     service_ordinal: 10
 )
 
-# Provider Search
-TaskTemplate.find_or_create_by_name(
-    name: "provider search - find options",
-    service_template: ServiceTemplate.find_by_name('provider search'),
-    title: "Find initial provider options",
-    description:
-"1. Go to insurance website and search by:
+FIND_OPTIONS_TEMPLATE = <<-eof
+1. Go to insurance website and search by:
   * Specialty
   * Distance (5 miles, expand if no options, shorten if >50 options)
   * Preferences
@@ -136,7 +131,15 @@ Phone:
 Profile link:
 Accepting patients:
 Takes insurance:
-Next available:",
+Next available:
+eof
+
+# Provider Search
+TaskTemplate.find_or_create_by_name(
+    name: "provider search - find options",
+    service_template: ServiceTemplate.find_by_name('provider search'),
+    title: "Find initial provider options",
+    description: FIND_OPTIONS_TEMPLATE,
     time_estimate: 240,
     service_ordinal: 0
 )
