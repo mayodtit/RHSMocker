@@ -5,10 +5,6 @@ resource "Tasks" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  before do
-    ViewTaskTask.stub(:create_task_for_task)
-  end
-
   let!(:pha) { create(:pha) }
   let(:session) { pha.sessions.create }
   let!(:other_pha) { create(:pha) }

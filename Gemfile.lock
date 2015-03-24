@@ -60,6 +60,7 @@ GEM
     apns (1.0.0)
     arel (3.0.3)
     awesome_print (1.1.0)
+    backports (3.6.4)
     base32-crockford (0.1.0)
     bcrypt-ruby (3.0.1)
     blankslate (3.1.3)
@@ -106,6 +107,8 @@ GEM
       delayed_job (>= 3.0, < 4.1)
     diff-lcs (1.2.4)
     erubis (2.7.0)
+    ethon (0.7.3)
+      ffi (>= 1.3.0)
     excon (0.25.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -119,7 +122,10 @@ GEM
       oauth (>= 0.4.4)
     faraday (0.8.6)
       multipart-post (~> 1.1)
+    faraday_middleware (0.9.1)
+      faraday (>= 0.7.4, < 0.10)
     fattr (2.2.1)
+    ffi (1.9.8)
     figaro (0.7.0)
       bundler (~> 1.0)
       rails (>= 3, < 5)
@@ -136,6 +142,13 @@ GEM
       nokogiri (~> 1.5)
       ruby-hmac
     formatador (0.2.4)
+    gh (0.14.0)
+      addressable
+      backports
+      faraday (~> 0.8)
+      multi_json (~> 1.0)
+      net-http-persistent (>= 2.7)
+      net-http-pipeline
     guard (1.7.0)
       formatador (>= 0.2.4)
       listen (>= 0.6.0)
@@ -172,6 +185,8 @@ GEM
     kaminari (0.14.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    launchy (2.4.3)
+      addressable (~> 2.3)
     less (2.2.2)
       commonjs (~> 0.2.6)
     less-rails (2.2.6)
@@ -201,6 +216,8 @@ GEM
     multipart-post (1.2.0)
     mustache (0.99.4)
     mysql2 (0.3.13)
+    net-http-persistent (2.9.4)
+    net-http-pipeline (1.0.1)
     net-scp (1.1.2)
       net-ssh (>= 2.6.5)
     net-sftp (2.1.2)
@@ -221,8 +238,8 @@ GEM
       rack (~> 1.2)
     options (2.3.0)
       fattr
-    parallel (0.8.0)
-    parallel_tests (0.15.3)
+    parallel (1.4.1)
+    parallel_tests (1.3.7)
       parallel
     polyglot (0.3.4)
     pr_geohash (1.0.0)
@@ -233,6 +250,9 @@ GEM
       coderay (~> 1.0.5)
       method_source (~> 0.8)
       slop (~> 3.4)
+    pusher-client (0.6.0)
+      json
+      websocket (~> 1.0)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -366,6 +386,18 @@ GEM
     tilt (1.4.1)
     timecop (0.6.3)
     titleize (1.3.0)
+    travis (1.5.0)
+      backports
+      faraday (~> 0.8)
+      faraday_middleware (~> 0.9)
+      gh
+      highline (~> 1.6)
+      launchy (~> 2.1)
+      netrc (~> 0.7)
+      pry (~> 0.9)
+      pusher-client (~> 0.3, >= 0.3.1)
+      typhoeus (~> 0.5)
+      websocket-native (~> 1.0)
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
@@ -373,6 +405,8 @@ GEM
       builder (>= 2.1.2)
       jwt (>= 0.1.2)
       multi_json (>= 1.3.0)
+    typhoeus (0.7.1)
+      ethon (>= 0.7.1)
     tzinfo (0.3.41)
     uglifier (1.3.0)
       execjs (>= 0.3.0)
@@ -383,6 +417,8 @@ GEM
     webmock (1.13.0)
       addressable (>= 2.2.7)
       crack (>= 0.3.2)
+    websocket (1.2.1)
+    websocket-native (1.0.0)
     zeus (0.13.3)
       method_source (>= 0.6.7)
     zeus-parallel_tests (0.2.4)
@@ -456,6 +492,7 @@ DEPENDENCIES
   therubyracer
   timecop
   titleize
+  travis
   twilio-ruby
   twitter-bootstrap-rails!
   uglifier (>= 1.0.3)

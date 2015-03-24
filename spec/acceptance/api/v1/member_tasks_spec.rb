@@ -5,10 +5,6 @@ resource "Member Tasks" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  before do
-    ViewTaskTask.stub(:create_task_for_task)
-  end
-
   let!(:service_type) { create :service_type }
 
   let!(:member) { create :member }

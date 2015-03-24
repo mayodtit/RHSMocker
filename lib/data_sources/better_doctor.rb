@@ -55,9 +55,13 @@ class DataSources::BetterDoctor
 
   ## TODO See API for payload fields - https://developer.betterdoctor.com/data-models#Doctor
   def self.parse_doctor_response(doctor_response)
-    { profile: doctor_response["profile"],
-      ratings: doctor_response["ratings"].map{|r| r["rating"]},
-      image_url: doctor_response["profile"]["image_url"]
+    { first_name: doctor_response["profile"]["first_name"],
+      last_name: doctor_response["profile"]["last_name"],
+      gender: doctor_response["profile"]["gender"],
+      npi_number: doctor_response["npi"],
+      image_url: doctor_response["profile"]["image_url"],
+      ratings: doctor_response["ratings"].map{|r| r["rating"]}
+      # profile: doctor_response["profile"].deep_symbolize_keys,
     }
   end
   private_class_method :parse_doctor_response

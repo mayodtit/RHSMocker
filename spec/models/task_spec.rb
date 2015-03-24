@@ -15,6 +15,7 @@ describe Task do
     it_validates 'presence of', :due_at
     it_validates 'presence of', :priority
     it_validates 'inclusion of', :urgent
+    it_validates 'inclusion of', :unread
     it_validates 'foreign key of', :owner
     it_validates 'foreign key of', :role
     it_validates 'foreign key of', :service_type
@@ -330,6 +331,98 @@ describe Task do
       it 'doesn\'t reset day priority' do
         task.reset_day_priority
         task.day_priority.should == 11
+      end
+    end
+  end
+
+  describe '#mark_as_unread' do
+    let(:task) { build :task, type: 'MemberTask' }
+    let(:pha) { build :pha}
+
+    context 'owner is a specialist' do
+      before do
+        task.stub(:owner_id_changed?) { true }
+        pha.stub(:has_role?).with('pha') { true }
+        pha.stub(:has_role?).with('specialist') { true }
+        task.owner_id { specialist.id }
+      end
+
+      it 'does nothing' do
+        task.mark_as_unread
+        task.unread.should == false
+      end
+    end
+
+    context 'owner is a pha' do
+      before do
+        pha.stub(:has_role?).with('pha') { true }
+        pha.stub(:has_role?).with('specialist') { false }
+      end
+
+      context 'owner_id changed' do
+        before do
+          task.stub(:owner_id_changed?) { true }
+        end
+
+        context 'unassigned' do
+          before do
+            task.stub(:unassigned?) { true }
+          end
+
+          it 'does nothing' do
+            task.mark_as_unread
+            task.unread.should == false
+          end
+        end
+
+        context 'has owner' do
+          before do
+            task.stub(:unassigned?) { false }
+            task.stub(:owner) { pha }
+          end
+
+          context 'owner is assignor' do
+            before do
+              task.stub(:assignor_id) { 1 }
+              task.stub(:owner_id) { 1 }
+            end
+
+            it 'does nothing' do
+              task.mark_as_unread
+              task.unread.should == false
+            end
+          end
+
+          context 'owner is not assignor' do
+            before do
+              task.stub(:assignor_id) { 0 }
+              task.stub(:owner_id) { 1 }
+            end
+
+            context 'task is urgent' do
+              before do
+                task.stub(:urgent?) { true }
+              end
+
+              it 'does nothing' do
+                task.mark_as_unread
+                task.unread.should == false
+              end
+            end
+
+            context 'task is not urgent' do
+              before do
+                task.stub(:urgent) { false }
+              end
+
+              it 'marks as unread' do
+
+                task.mark_as_unread
+                task.unread.should == true
+              end
+            end
+          end
+        end
       end
     end
   end
@@ -896,27 +989,11 @@ describe Task do
         let!(:service) { create :service, service_template: service_template }
         let(:service_task) { build :task, :claimed, service: service, service_ordinal: 0 }
 
-        context 'there are tasks in the service template with a higher ordinal' do
-          let!(:task_template) { create :task_template, service_template: service_template, service_ordinal: 2}
-          let!(:task_template_higher) { create :task_template, service_template: service_template, service_ordinal: 3}
-
-          context 'the completed task is the last task in its ordinal' do
-            it 'should create the tasks with the next ordinal' do
-              service.should_receive(:create_next_ordinal_tasks)
-              service_task.abandoner = pha
-              service_task.reason = 'just because'
-              service_task.abandon!
-            end
-          end
-
-          context 'the completed task is not the last task in its ordinal' do
-            let!(:another_service_task) { create :task, :claimed, service: service, service_ordinal: 0 }
-            it 'should not create any tasks' do
-              Task.should_not_receive(:create!)
-              service_task.abandoner = pha
-              service_task.reason = 'just because'
-              service_task.abandon!
-            end
+          it 'should abandon the service' do
+            service.should_receive(:abandon!)
+            service_task.abandoner = pha
+            service_task.reason = 'just because'
+            service_task.abandon!
           end
         end
       end

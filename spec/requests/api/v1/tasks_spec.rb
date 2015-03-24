@@ -57,8 +57,7 @@ describe 'Tasks' do
           context 'the completed task is the last task in its ordinal' do
             it 'should create the tasks with the next ordinal' do
               expect(task).to_not be_completed
-              # TODO: CHANGE TO count.by 1 after merging in kill_view_tasks
-              expect{ do_request(task: {state_event: :complete}) }.to change(Task, :count).by 2
+              expect{ do_request(task: {state_event: :complete}) }.to change(Task, :count).by 1
               expect(response).to be_success
               body = JSON.parse(response.body, symbolize_names: true)
               expect(body[:task].to_json).to eq(task.reload.serializer.as_json.to_json)
