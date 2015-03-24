@@ -10,6 +10,7 @@ class Service < ActiveRecord::Base
   belongs_to :creator, class_name: 'Member'
   belongs_to :owner, class_name: 'Member'
   belongs_to :assignor, class_name: 'Member'
+  belongs_to :abandoner, class_name: 'Member'
 
   has_many :service_state_transitions
   has_many :tasks, order: 'service_ordinal ASC, priority DESC, due_at ASC, created_at ASC'
@@ -17,7 +18,7 @@ class Service < ActiveRecord::Base
 
   attr_accessor :actor_id, :change_tracked, :reason
   attr_accessible :description, :title, :service_type_id, :service_type, :user_facing, :user_request,
-                  :member_id, :member, :subject_id, :subject, :reason_abandoned, :reason,
+                  :member_id, :member, :subject_id, :subject, :reason_abandoned, :reason, :abandoner, :abandoner_id,
                   :creator_id, :creator, :owner_id, :owner, :assignor_id, :assignor,
                   :actor_id, :due_at, :state_event, :service_template, :service_template_id
 
