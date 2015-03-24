@@ -989,12 +989,11 @@ describe Task do
         let!(:service) { create :service, service_template: service_template }
         let(:service_task) { build :task, :claimed, service: service, service_ordinal: 0 }
 
-          it 'should abandon the service' do
-            service.should_receive(:abandon!)
-            service_task.abandoner = pha
-            service_task.reason = 'just because'
-            service_task.abandon!
-          end
+        it 'should abandon the service' do
+          service.should_receive(:abandon!)
+          service_task.abandoner = pha
+          service_task.reason = 'just because'
+          service_task.abandon!
         end
       end
     end

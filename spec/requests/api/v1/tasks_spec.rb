@@ -88,7 +88,7 @@ describe 'Tasks' do
             expect(body[:task].to_json).to eq(task.reload.serializer.as_json.to_json)
             expect(body[:updated_tasks].to_json).to eq(Task.where(service_ordinal: 1).serializer(shallow: true).as_json.to_json)
             expect(task).to be_abandoned
-            expect(service).to be_abandoned
+            expect(service.reload).to be_abandoned
           end
         end
       end
