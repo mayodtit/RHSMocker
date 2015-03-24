@@ -1,10 +1,10 @@
-class Mails::SendBusinessOnBoardInvitationEmailJob < Struct.new(:member_id, :link, :unique_on_boarding_user_token)
-  def self.create(member_id, link, unique_on_boarding_user_token )
-    Delayed::Job.enqueue(new(member_id, link, unique_on_boarding_user_token))
+class Mails::SendBusinessOnBoardInvitationEmailJob < Struct.new(:user_id, :link, :unique_on_boarding_user_token)
+  def self.create(user_id, link, unique_on_boarding_user_token )
+    Delayed::Job.enqueue(new(user_id, link, unique_on_boarding_user_token))
   end
 
   def perform
-    member = Member.find(member_id)
-    RHSMailer.business_on_board_invitation_email(member, link, unique_on_boarding_user_token)
+    user = Member.find(user_id) || Enrollment.find(user_id)
+    RHSMailer.business_on_board_invitation_email(user, link, unique_on_boarding_user_token)
   end
 end

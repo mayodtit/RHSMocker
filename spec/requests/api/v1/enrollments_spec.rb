@@ -30,44 +30,6 @@ describe 'Enrollments' do
       end
     end
 
-    # def on_board
-    #   if valid_uout?
-    #     if @enrollment.used_uout
-    #       # if uout is used, then return names with the auth_token to client
-    #       session = Member.find(@enrollment.user_id).sessions.create
-    #       render_success(first_name: @enrollment.first_name,
-    #                      last_name: @enrollment.last_name,
-    #                      auth_token: session.auth_token)
-    #     else
-    #       #if uout is not used,  render the user a customized sign up screen, and pre-populate as much info as possible
-    #       #subject to chagne whenever cutomized stories are available, or requirement adjustment
-    #       render_success(enrollment: @enrollment.serializer,
-    #                      stories: stories,
-    #                      splash_story: splash_story,
-    #                      question_story: question_story)
-    #       @enrollment.update_attributes(used_uout: true)
-    #     end
-    #   else
-    #     # I personally favours rendering error message here, then client make a call to the #create route
-    #     render_failure(reason: "invalid uout")
-    #   end
-    # end
-
-    describe 'POST /api/v1/enrollments/invite' do
-      let(:enrollment_attributes) { {:first_name  => 'first_name', :last_name => 'last_name', :email => 'test@test.com'} }
-
-      def do_request(params={})
-        post "/api/v1/enrollments/invite", params
-      end
-
-      it 'set the uuot, and send out invitation email' do
-        Rails.stub(env: ActiveSupport::StringInquirer.new("development"))
-        expect{do_request(enrollment: enrollment_attributes)}.to change{Enrollment.count}.by(1)
-        expect(response).to be_success
-        expect(Delayed::Job.count).to eq(1)
-      end
-    end
-
     describe 'GET /api/v1/enrollments/:id' do
       def do_request
         get "/api/v1/enrollments/#{enrollment.token}"
@@ -141,13 +103,28 @@ describe 'Enrollments' do
       post "/api/v1/enrollments", params
     end
 
-    let(:enrollment_attributes) { attributes_for(:enrollment) }
+    context 'for business onboading group' do
+      let(:enrollment_attributes) { {:business_on_board => 'yes', :first_name => 'first_name', :last_name => 'last_name', :email => 'email@gmail.com'} }
 
-    it 'creates a enrollment' do
-      expect{ do_request(enrollment: enrollment_attributes) }.to change(Enrollment, :count).by(1)
-      expect(response).to be_success
-      body = JSON.parse(response.body, symbolize_names: true)
-      expect(body[:enrollment].to_json).to eq(Enrollment.last.serializer.as_json.to_json)
+      it 'creates an enrollment, set the uuot, and send out invitation email' do
+        Rails.stub(env: ActiveSupport::StringInquirer.new("development"))
+        byebug
+        do_request(enrollment: enrollment_attributes)
+        expect(response).to be_success
+        expect(Delayed::Job.count).to eq(1)
+      end
+    end
+
+
+    context 'for normal users' do
+      let(:enrollment_attributes) { attributes_for(:enrollment) }
+
+      it 'creates a enrollment' do
+        expect{ do_request(enrollment: enrollment_attributes) }.to change(Enrollment, :count).by(1)
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:enrollment].to_json).to eq(Enrollment.last.serializer.as_json.to_json)
+      end
     end
   end
 end

@@ -11,11 +11,24 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   def create
     @enrollment = Enrollment.create enrollment_params
     if @enrollment.errors.empty?
-      render_success(enrollment: @enrollment.serializer,
-                     stories: stories,
-                     splash_story: splash_story,
-                     question_story: question_story,
-                     sign_up_story: sign_up_story)
+      if params[:business_on_board]
+        render_success
+        set_uout
+        generate_invitation_link
+        Mails::SendBusinessOnBoardInvitationEmailJob.create(@enrollment.id, @link, @enrollment.unique_on_boarding_user_token)
+      else
+        hash = {
+            nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer },
+            enrollment: @enrollment.serializer
+        }
+        unless params[:enrollment][:exclude_stories]
+          hash.merge!(stories: stories,
+                      splash_story: splash_story,
+                      question_story: question_story,
+                      sign_up_story: sign_up_story)
+        end
+        render_success(hash)
+      end
     else
       render_failure({reason: enrollment_errors}, 422)
     end
@@ -35,63 +48,48 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   def on_board
-    user = Member.find_by_unique_on_boarding_user_token(params[:unique_on_boarding_user_token]) if params[:unique_on_boarding_user_token]
-    if user
-      session = user.sessions.create
-      hash = {
-          nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer },
-      }
+    obj ||= [Enrollment, Member].each do |class_name|
+       obj = class_name.find_by_unique_on_boarding_user_token(params[:unique_on_boarding_user_token]) if params[:unique_on_boarding_user_token]
+      break obj unless obj.nil?
+    end
+    if obj
+      hash = {nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer }}
       unless params[:exclude_stories]
         hash.merge!(stories: stories,
                     splash_story: splash_story,
                     question_story: question_story)
       end
-      render_success(auth_token: session.auth_token,
-                     user: user.id).merge! hash
-      user.update_attributes(unique_on_boarding_user_token: nil)
+      if obj.class == User
+        hash.merge!(auth_token: obj.auth_token,
+                    user:obj.id)
+      else
+        hash.merge!(sign_up_story:sign_up_story,
+                    enrollment: obj.serializer)
+      end
+      render_success(hash)
+      obj.update_attributes(unique_on_boarding_user_token: nil)
     else
       render_failure(reason: "invalid uout")
-    end
-  end
-
-  def invite
-    @enrollment = Enrollment.create enrollment_params
-    if @enrollment.errors.empty?
-      render_success
-      set_uout
-      generate_invitation_link
-      Mails::SendBusinessOnBoardInvitationEmailJob.create(@enrollment.id, @link, @enrollment.uout)
-    else
-      render_failure({reason: enrollment_errors}, 422)
     end
   end
 
   private
 
   def set_uout
-    uout ||= loop do
+    unique_on_boarding_user_token ||= loop do
       new_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
-      break new_token unless Enrollment.exists?(token: new_token)
+      break new_token unless Enrollment.exists?(unique_on_boarding_user_token: new_token)
     end
-    @enrollment.update_attributes(uout: uout)
-  end
-
-  def valid_uout?
-    if params[:uout]
-      @enrollment = Enrollment.find_by_uout(params[:uout])
-      !!@enrollment
-    else
-      false
-    end
+    @enrollment.update_attributes(unique_on_boarding_user_token: unique_on_boarding_user_token)
   end
 
   def generate_invitation_link
     if Rails.env.development?
-      @link = "better-dev://nb?cmd='onboarding'+uout='#{@enrollment.uout}'"
+      @link = "better-dev://nb?cmd='onboarding'+uout='#{@enrollment.unique_on_boarding_user_token}'"
     elsif Rails.env.production?
-      @link = "better://nb?cmd='onboarding'+uout='#{@enrollment.uout}"
+      @link = "better://nb?cmd='onboarding'+uout='#{@enrollment.unique_on_boarding_user_token}"
     elsif Rails.env.qa?
-      @link = "better-qa://nb?cmd='onboarding'+uout='#{@enrollment.uout}'"
+      @link = "better-qa://nb?cmd='onboarding'+uout='#{@enrollment.unique_on_boarding_user_token}'"
     end
   end
 

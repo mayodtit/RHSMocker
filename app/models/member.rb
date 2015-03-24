@@ -88,8 +88,9 @@ class Member < User
                   :email_confirmation_token, :advertiser_id,
                   :advertiser_media_source, :advertiser_campaign,
                   :impersonated_user, :impersonated_user_id,
-                  :enrollment, :payment_token, :coupon_count
+                  :enrollment, :payment_token, :coupon_count, :unique_on_boarding_user_token
 
+  validates :unique_on_boarding_user_token, uniqueness: true, allow_nil: true
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
   validates :member_flag, inclusion: {in: [true]}

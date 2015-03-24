@@ -6,8 +6,8 @@ class Enrollment < ActiveRecord::Base
   attr_accessible :token, :email, :first_name, :last_name, :birth_date,
                   :advertiser_id, :time_zone, :password, :user, :user_id,
                   :advertiser_media_source, :advertiser_campaign, :code,
-                  :onboarding_group, :onboarding_group_id, :uout,
-                  :referral_code, :referral_code_id, :used_uout
+                  :onboarding_group, :onboarding_group_id, :unique_on_boarding_user_token,
+                  :referral_code, :referral_code_id
   attr_accessor :password
 
   validates :user, presence: true, if: ->(e){e.user_id}
@@ -15,7 +15,7 @@ class Enrollment < ActiveRecord::Base
   validates :referral_code, presence: true, if: ->(e){e.referral_code_id}
   validates :token, presence: true, uniqueness: true
   validates :email, uniqueness: true, allow_nil: true, :email => true
-  validates :uout, uniqueness: true, allow_nil: true
+  validates :unique_on_boarding_user_token, uniqueness: true, allow_nil: true
   validates :password, length: {minimum: 8,
                                 message: "must be 8 or more characters long"},
                        if: ->(e){e.password}
