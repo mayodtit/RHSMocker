@@ -12,6 +12,14 @@ resource "ServiceTemplates" do
   let(:auth_token) { session.auth_token }
 
   describe 'service_template' do
+    before do
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
     parameter :auth_token, 'Performing hcp\'s auth_token'
     parameter :id, 'Service id'
 
