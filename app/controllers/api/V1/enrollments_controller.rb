@@ -35,30 +35,26 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   def on_board
-    if valid_uout?
-      if @enrollment.used_uout
-      # if uout is used, then return names with the auth_token to client
-        session = Member.find(@enrollment.user_id).sessions.create
-        render_success(first_name: @enrollment.first_name,
-                       last_name: @enrollment.last_name,
-                       auth_token: session.auth_token)
-      else
-        #if uout is not used,  render the user a customized sign up screen, and pre-populate as much info as possible
-        #subject to chagne whenever cutomized stories are available, or requirement adjustment
-        render_success(enrollment: @enrollment.serializer,
-                       stories: stories,
-                       splash_story: splash_story,
-                       question_story: question_story)
-        @enrollment.update_attributes(used_uout: true)
+    user = Member.find_by_unique_on_boarding_user_token(params[:unique_on_boarding_user_token]) if params[:unique_on_boarding_user_token]
+    if user
+      session = user.sessions.create
+      hash = {
+          nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer },
+      }
+      unless params[:exclude_stories]
+        hash.merge!(stories: stories,
+                    splash_story: splash_story,
+                    question_story: question_story)
       end
+      render_success(auth_token: session.auth_token,
+                     user: user.id).merge! hash
+      user.update_attributes(unique_on_boarding_user_token: nil)
     else
-      # I personally favours rendering error message here, then client make a call to the #create route
       render_failure(reason: "invalid uout")
     end
   end
 
   def invite
-    #the n point for web page sign up or other b2b sign-ups to generate invitation email
     @enrollment = Enrollment.create enrollment_params
     if @enrollment.errors.empty?
       render_success
