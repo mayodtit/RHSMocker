@@ -600,7 +600,7 @@ describe PhoneCall do
           PhoneNumberUtil.stub(:is_valid_caller_id) { true }
         end
 
-        shared_examples_for 'unable to resolve call' do
+        shared_examples_for 'unable to resolve call for pha' do
           context 'member with phone exists' do
             let(:member) { build(:member) }
             before do
@@ -695,7 +695,7 @@ describe PhoneCall do
               phone_call.stub(:created_at) { Time.now - 6.minutes }
             end
 
-            it_behaves_like 'unable to resolve call'
+            it_behaves_like 'unable to resolve call for pha'
           end
 
           context 'phone call is under 5 minutes old' do
@@ -727,7 +727,7 @@ describe PhoneCall do
             end
           end
 
-          it_behaves_like 'unable to resolve call'
+          it_behaves_like 'unable to resolve call for pha'
         end
       end
     end
@@ -751,7 +751,7 @@ describe PhoneCall do
           PhoneNumberUtil.stub(:is_valid_caller_id) { true }
         end
 
-        shared_examples_for 'unable to resolve call' do
+        shared_examples_for 'unable to resolve call for nurse' do
           context 'member with phone exists' do
             let(:member) { build(:member) }
             before do
@@ -837,7 +837,7 @@ describe PhoneCall do
               phone_call.stub(:created_at) { Time.now - 6.minutes }
             end
 
-            it_behaves_like 'unable to resolve call'
+            it_behaves_like 'unable to resolve call for nurse'
           end
 
           context 'phone call is under 5 minutes old' do
@@ -869,7 +869,7 @@ describe PhoneCall do
             end
           end
 
-          it_behaves_like 'unable to resolve call'
+          it_behaves_like 'unable to resolve call for nurse'
         end
       end
     end
