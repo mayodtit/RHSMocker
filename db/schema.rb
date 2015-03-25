@@ -299,8 +299,8 @@ ActiveRecord::Schema.define(:version => 20150313182003) do
     t.date     "birth_date"
     t.string   "advertiser_id"
     t.string   "time_zone"
-    t.datetime "created_at",                    :null => false
-    t.datetime "updated_at",                    :null => false
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
     t.integer  "user_id"
     t.string   "advertiser_media_source"
     t.string   "advertiser_campaign"

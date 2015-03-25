@@ -9,9 +9,9 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   def create
-    @enrollment = Enrollment.create enrollment_params
+    @enrollment = Enrollment.create
     if @enrollment.errors.empty?
-      if params[:business_on_board]
+      if params[:enrollment][:business_on_board]
         render_success
         set_uout
         generate_invitation_link
@@ -48,10 +48,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   def on_board
-    obj ||= [Enrollment, Member].each do |class_name|
-       obj = class_name.find_by_unique_on_boarding_user_token(params[:unique_on_boarding_user_token]) if params[:unique_on_boarding_user_token]
-      break obj unless obj.nil?
-    end
+    obj = find_record
     if obj
       hash = {nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer }}
       unless params[:exclude_stories]
@@ -59,12 +56,13 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
                     splash_story: splash_story,
                     question_story: question_story)
       end
-      if obj.class == User
-        hash.merge!(auth_token: obj.auth_token,
-                    user:obj.id)
-      else
+      if obj.class == Enrollment
         hash.merge!(sign_up_story:sign_up_story,
                     enrollment: obj.serializer)
+      else
+        session = obj.sessions.create
+        hash.merge!(auth_token: session.auth_token,
+                    user:obj.id)
       end
       render_success(hash)
       obj.update_attributes(unique_on_boarding_user_token: nil)
@@ -74,6 +72,14 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   private
+
+  def find_record
+    [Enrollment, Member].each do |class_name|
+      obj = class_name.find_by_unique_on_boarding_user_token(params[:unique_on_boarding_user_token]) if params[:unique_on_boarding_user_token]
+      break obj unless obj.nil?
+      return nil
+    end
+  end
 
   def set_uout
     unique_on_boarding_user_token ||= loop do
