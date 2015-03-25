@@ -8,10 +8,9 @@ describe MemberTask do
     it_validates 'foreign key of', :subject
     it_validates 'foreign key of', :service_type
   end
-
   describe '#publish' do
     let(:task) { build(:member_task) }
-
+    
     context 'new record' do
       before do
         task.stub(:id) { 2 }
@@ -32,6 +31,12 @@ describe MemberTask do
           nil
         )
         task.publish
+      end
+
+      let!(:member_task) { create(:member_task) }
+      it 'has default priority of 3' do
+        byebug
+        member_task[:priority].should == 3
       end
     end
 
