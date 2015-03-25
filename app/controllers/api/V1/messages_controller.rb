@@ -6,7 +6,8 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   def index
     render_success(consult: @consult.serializer,
                    messages: messages.serializer(shallow: true),
-                   users: @users.serializer)
+                   users: @users.serializer,
+                   total_count: @total_count_per_user)
   end
 
   def create
@@ -43,8 +44,10 @@ class Api::V1::MessagesController < Api::V1::ABaseController
 
   def base_messages
     if current_user.care_provider? && @consult.initiator != current_user
+      @total_count_per_user = @consult.messages_and_notes.count
       @consult.messages_and_notes
     else
+      @total_count_per_user = @consult.messages.count
       @consult.messages
     end
   end

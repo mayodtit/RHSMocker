@@ -4,6 +4,8 @@ describe 'Messages' do
   let(:user) { create(:member) }
   let(:session) { user.sessions.create }
   let(:consult) { create(:consult, initiator: user) }
+  let(:total_count_for_pha) { consult.messages_and_notes.count }
+  let(:total_count_for_user) { consult.messages.count }
 
   before do
     Timecop.freeze(Time.new(2014, 4, 17, 12, 0, 0, '-07:00'))
@@ -27,6 +29,7 @@ describe 'Messages' do
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
         expect(body[:messages].to_json).to eq([message].serializer(shallow: true).as_json.to_json)
+        expect(body[:total_count]).to eq(total_count_for_pha)
       end
     end
 
@@ -42,6 +45,7 @@ describe 'Messages' do
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
         expect(body[:messages].to_json).to eq([master_message].serializer(shallow: true).as_json.to_json)
+        expect(body[:total_count]).to eq(total_count_for_pha)
       end
     end
 
@@ -61,6 +65,7 @@ describe 'Messages' do
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
           expect(body[:messages].to_json).to eq([message, note].serializer(shallow: true).as_json.to_json)
+          expect(body[:total_count]).to eq(total_count_for_pha)
         end
       end
 
@@ -74,6 +79,7 @@ describe 'Messages' do
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
           expect(body[:messages].to_json).to eq([message].serializer(shallow: true).as_json.to_json)
+          expect(body[:total_count]).to eq(total_count_for_user)
         end
       end
     end
@@ -93,6 +99,7 @@ describe 'Messages' do
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
           expect(body[:messages].count).to eq(5)
+          expect(body[:total_count]).to eq(total_count_for_pha)
         end
       end
 
@@ -111,6 +118,7 @@ describe 'Messages' do
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
           expect(body[:messages].map {|i| i[:id]}).to include(second_message.id, third_message.id, fourth_message.id)
+          expect(body[:total_count]).to eq(total_count_for_pha)
         end
       end
 
@@ -131,6 +139,7 @@ describe 'Messages' do
           body = JSON.parse(response.body, symbolize_names: true)
           expect(body[:messages].map {|i| i[:id]}).to include(first_message.id, second_message.id)
           expect(body[:messages].map {|i| i[:id]}).not_to include(third_message.id, fourth_message.id, fifth_message.id)
+          expect(body[:total_count]).to eq(total_count_for_pha)
         end
       end
 
@@ -154,6 +163,7 @@ describe 'Messages' do
           expect(body[:messages].map {|i| i[:id]}).to include(seventh_message.id, sixth_message.id, fourth_message.id)
           expect(body[:messages].map {|i| i[:id]}).not_to include(fifth_message.id, third_message.id)
           expect(body[:messages].size).to eql(3)
+          expect(body[:total_count]).to eq(total_count_for_pha)
         end
       end
 
@@ -177,6 +187,7 @@ describe 'Messages' do
           expect(body[:messages].map {|i| i[:id]}).to include(sixth_message.id, fourth_message.id, second_message.id)
           expect(body[:messages].map {|i| i[:id]}).not_to include(fifth_message.id, third_message.id)
           expect(body[:messages].size).to eql(3)
+          expect(body[:total_count]).to eq(total_count_for_pha)
         end
       end
 
@@ -200,6 +211,7 @@ describe 'Messages' do
           expect(body[:messages].map {|i| i[:id]}).to include(fourth_message.id, sixth_message.id, seventh_message.id)
           expect(body[:messages].map {|i| i[:id]}).not_to include(fifth_message.id, third_message.id)
           expect(body[:messages].size).to eql(3)
+          expect(body[:total_count]).to eq(total_count_for_pha)
         end
       end
 
@@ -222,6 +234,7 @@ describe 'Messages' do
           body = JSON.parse(response.body, symbolize_names: true)
           expect(body[:messages].map {|i| i[:id]}).to include(third_message.id, fourth_message.id)
           expect(body[:messages].size).to eql(2)
+          expect(body[:total_count]).to eq(total_count_for_pha)
         end
       end
     end
