@@ -24,7 +24,7 @@ Allergy.find_or_create_by_name(name: "Ant Sting",
                                medication_allergen: "false")
 Allergy.find_or_create_by_name(name: "Animal Dander",
                                snomed_name: "Dander (animal) allergy",
-                               snomed_code: "620400013",
+                               snomed_code: "232347008",
                                food_allergen: "false",
                                environment_allergen: "true",
                                medication_allergen: "false")
@@ -96,7 +96,7 @@ Allergy.find_or_create_by_name(name: "Chocolate",
                                medication_allergen: "false")
 Allergy.find_or_create_by_name(name: "Clonidine",
                                snomed_name: "Clonidine allergy",
-                               snomed_code: "689017014",
+                               snomed_code: "294058006",
                                food_allergen: "false",
                                environment_allergen: "true",
                                medication_allergen: "false")

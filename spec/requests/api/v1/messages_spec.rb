@@ -85,20 +85,20 @@ describe 'Messages' do
     end
 
     context 'messages api allows pagination' do
-      before do
-        create_list(:message, 30, consult: consult)
-      end
-
       describe 'GET /api/v1/consults/:consult_id/messages?page=1' do
         def do_request
-          get "/api/v1/consults/#{consult.id}/messages?page=1&per=25", auth_token: session.auth_token
+          get "/api/v1/consults/#{consult.id}/messages?page=1&per=5", auth_token: session.auth_token
         end
 
-        it 'indexes 25 messages for the user‘s master consult' do
+        before do
+          create_list(:message, 6, consult: consult)
+        end
+
+        it 'indexes 5 messages for the user‘s master consult' do
           do_request
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
-          expect(body[:messages].count).to eq(25)
+          expect(body[:messages].count).to eq(5)
           expect(body[:total_count]).to eq(total_count_for_pha)
         end
       end
@@ -166,6 +166,7 @@ describe 'Messages' do
           expect(body[:total_count]).to eq(total_count_for_pha)
         end
       end
+
       describe 'GET /api/v1/consults/:consult_id/messages?page=1&per=5&exclude[]=5&exclude[]=3&before=7' do
         let!(:first_message) { create(:message, consult: consult) }
         let!(:second_message) { create(:message, consult: consult) }
@@ -236,7 +237,6 @@ describe 'Messages' do
           expect(body[:total_count]).to eq(total_count_for_pha)
         end
       end
-
     end
   end
 

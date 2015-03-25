@@ -6,3 +6,20 @@ ServiceTemplate.find_or_create_by_name(
     time_estimate: 4500,
     timed_service: true
 )
+ServiceTemplate.find_or_create_by_name(
+    name: "provider search",
+    title: "Provider Search",
+    description:
+"#Member preference checklist
+* **Type of Doctor:**
+* **Location (zip):**
+* **Preferences (if any):**
+* **Reason for visit:**
+* **Insurance plan:**
+* **Insurance website:**
+* **Employer/Exchanges:**
+
+#PHA message to send (paste templated options here):",
+    service_type: ServiceType.find_by_name('provider search'),
+    time_estimate: 4500
+)
