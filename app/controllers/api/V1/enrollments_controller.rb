@@ -9,7 +9,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   def create
-    @enrollment = Enrollment.create
+    @enrollment = Enrollment.create enrollment_params
     if @enrollment.errors.empty?
       if params[:enrollment][:business_on_board]
         render_success

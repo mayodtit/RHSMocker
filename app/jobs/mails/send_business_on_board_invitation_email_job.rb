@@ -4,7 +4,7 @@ class Mails::SendBusinessOnBoardInvitationEmailJob < Struct.new(:user_id, :link,
   end
 
   def perform
-    user = Member.find(user_id) || Enrollment.find(user_id)
+    user = Member.find_by_id(user_id) || Enrollment.find_by_id(user_id)
     RHSMailer.business_on_board_invitation_email(user, link, unique_on_boarding_user_token)
   end
 end
