@@ -13,6 +13,7 @@ class MessageTask < Task
 
   attr_accessible :consult, :consult_id, :message, :message_id
 
+  validates_uniqueness_of :member_id, conditions: -> {where.not(status: ['completed', 'abandoned'])}
   validates :consult_id, presence: true
   validates :consult, presence: true, if: lambda { |t| t.consult_id }
   validates :message, presence: true, if: lambda { |t| t.message_id }

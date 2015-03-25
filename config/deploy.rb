@@ -79,7 +79,7 @@ end
 desc "Deploy target demo (goldenbear @ EC2)"
 task :demo do
   set :port, 9722
-  set :branch,    'master'
+  set :branch,    'demo'
   set :rails_env, 'demo'
   set :deploy_to, '/home/rhs/api-demo'
   set :cron_file, 'cron-goldenbear'
@@ -168,8 +168,8 @@ after 'deploy', 'deploy:migrate'
 after 'deploy:migrate', 'deploy:web:enable'
 after 'deploy:migrate', 'deploy:write_crontab'
 after 'deploy:web:enable', 'restart_delayed_job'
-after 'deploy:web:enable', 'complete'
 after 'deploy:web:enable', 'deploy:run_seeds'
+after 'deploy:web:enable', 'complete'
 
 require './config/boot'
 #require 'airbrake/capistrano'

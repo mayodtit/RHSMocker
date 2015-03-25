@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150317220250) do
+ActiveRecord::Schema.define(:version => 20150319173126) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -156,8 +156,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
 
   create_table "conditions", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
     t.string   "snomed_name"
     t.string   "snomed_code"
     t.datetime "disabled_at"
@@ -684,6 +684,44 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "provider_profiles", :force => true do |t|
+    t.string   "npi_number", :limit => 10
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "image_url"
+    t.string   "gender"
+    t.text     "ratings"
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
+  end
+
+  create_table "provider_search_preferences", :force => true do |t|
+    t.string   "lat"
+    t.string   "lon"
+    t.decimal  "distance",      :precision => 10, :scale => 0
+    t.string   "gender"
+    t.string   "specialty_uid"
+    t.string   "insurance_uid"
+    t.datetime "created_at",                                   :null => false
+    t.datetime "updated_at",                                   :null => false
+  end
+
+  create_table "provider_search_results", :force => true do |t|
+    t.integer  "provider_profile_id"
+    t.integer  "provider_search_id"
+    t.string   "state"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
+
+  create_table "provider_searches", :force => true do |t|
+    t.integer  "provider_search_preferences_id"
+    t.string   "state"
+    t.integer  "user_id"
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+  end
+
   create_table "providers", :force => true do |t|
     t.integer  "user_id"
     t.string   "address"
@@ -1027,10 +1065,10 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "member_free_trial_ends_at"
     t.integer  "delayed_job_id"
     t.integer  "day_priority",               :default => 0,     :null => false
-    t.integer  "assigned_task_id"
     t.boolean  "visible_in_queue",           :default => true,  :null => false
     t.integer  "time_estimate"
     t.boolean  "urgent",                     :default => false, :null => false
+    t.boolean  "unread",                     :default => false, :null => false
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"
