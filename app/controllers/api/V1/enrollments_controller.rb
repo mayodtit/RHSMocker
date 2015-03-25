@@ -15,7 +15,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
         render_success
         set_uout
         generate_invitation_link
-        Mails::SendBusinessOnBoardInvitationEmailJob.create(@enrollment.id, @link, @enrollment.unique_on_boarding_user_token)
+        Mails::SendBusinessOnBoardInvitationEmailJob.create(@enrollment.id, @link)
       else
         hash = {
             nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer },
@@ -49,35 +49,46 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
 
   def on_board
     obj = find_record
-    if obj
-      hash = {nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer }}
-      unless params[:exclude_stories]
-        hash.merge!(stories: stories,
-                    splash_story: splash_story,
-                    question_story: question_story)
-      end
-      if obj.class == Enrollment
-        hash.merge!(sign_up_story:sign_up_story,
-                    enrollment: obj.serializer)
-      else
-        session = obj.sessions.create
-        hash.merge!(auth_token: session.auth_token,
-                    user:obj.id)
-      end
-      render_success(hash)
+    load_stories!
+    if obj.is_a? Member
+      session = obj.sessions.create
+      @hash.merge!(auth_token: session.auth_token,
+                   user_id: obj.id)
+      render_success(@hash)
+      obj.update_attributes(unique_on_boarding_user_token: nil)
+    elsif obj.is_a? Enrollment
+      @hash.merge!(sign_up_story:sign_up_story,
+                   enrollment: obj.serializer)
+      render_success(@hash)
       obj.update_attributes(unique_on_boarding_user_token: nil)
     else
-      render_failure(reason: "invalid uout")
+      render_failure({reason: "invalid uout"}, 422)
     end
   end
 
   private
 
+  def load_stories!
+    @hash = {nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer }}
+    unless params[:exclude_stories]
+      @hash.merge!(stories: stories,
+                   splash_story: splash_story,
+                   question_story: question_story)
+    end
+  end
+
   def find_record
+    records = []
     [Enrollment, Member].each do |class_name|
       obj = class_name.find_by_unique_on_boarding_user_token(params[:unique_on_boarding_user_token]) if params[:unique_on_boarding_user_token]
-      break obj unless obj.nil?
+      records << obj unless obj.nil?
+    end
+    if records.count == 0
       return nil
+    elsif records.count == 1
+      return records.first
+    else
+      return records.select{|record|record.is_a?Member}.first
     end
   end
 

@@ -7,7 +7,6 @@ describe 'Enrollments' do
     let!(:unique_on_boarding_user_token){'test_uout'}
     let!(:user){create(:member, unique_on_boarding_user_token: unique_on_boarding_user_token)}
     let!(:nux_story) { create(:nux_story, enabled: true, ordinal: 1) }
-    let!(:enrollment){create(:enrollment, unique_on_boarding_user_token: unique_on_boarding_user_token)}
 
     def do_request(params={})
       get "/api/v1/enrollments/on_board", params
@@ -15,11 +14,7 @@ describe 'Enrollments' do
 
     context 'the user has a valid unique_on_boarding_user_token' do
       context 'the user is existing' do
-        before do
-          user.update_attributes(unique_on_boarding_user_token: unique_on_boarding_user_token)
-        end
-
-        it 'should populate user info, and render sign on stories' do
+        it 'should return the login info to the client' do
           do_request(:unique_on_boarding_user_token => unique_on_boarding_user_token)
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
@@ -29,7 +24,13 @@ describe 'Enrollments' do
       end
 
       context 'the user is not existing' do
-        it 'should return the login info to the client' do
+        let!(:enrollment){create(:enrollment, unique_on_boarding_user_token: unique_on_boarding_user_token)}
+
+        before do
+          user.destroy
+        end
+
+        it 'should populate user info, and render sign on stories' do
           do_request(:unique_on_boarding_user_token => unique_on_boarding_user_token)
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)

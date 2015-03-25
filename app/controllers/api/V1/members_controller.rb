@@ -39,16 +39,17 @@ class Api::V1::MembersController < Api::V1::ABaseController
                                                 trial_end: Time.zone.now.pacific.end_of_day + 1.month,
                                                 coupon_code: coupon_code).call
           end
+          SendEmailToStakeholdersService.new(@member).call
           if user_params[:business_on_board]
             render_success
             set_uout
             generate_invitation_link
-            Mails::SendBusinessOnBoardInvitationEmailJob.create(@member.id, @link, @member.unique_on_boarding_user_token) and return
+            SendConfirmEmailService.new(@member).call
+            Mails::SendBusinessOnBoardInvitationEmailJob.create(@member.id, @link) and return
           end
           SendWelcomeEmailService.new(@member).call
           SendConfirmEmailService.new(@member).call
           SendDownloadLinkService.new(@member.phone).call if send_download_link?
-          SendEmailToStakeholdersService.new(@member).call
           NotifyReferrerWhenRefereeSignUpService.new(@referral_code, @member).call if @referral_code
 
           # TODO - remove when unneeded

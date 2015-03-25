@@ -102,11 +102,11 @@ describe 'Members' do
     context 'business on boarding' do
       let(:member_params) { {user: {email: 'kyle+test@getbetter.com', password: 'password', business_on_board: "yes"}} }
 
-      it 'should send out invite email' do
+      it 'should send out invite and confirmation email' do
         Rails.stub(env: ActiveSupport::StringInquirer.new("development"))
         do_request(member_params)
         expect(response).to be_success
-        expect(Delayed::Job.count).to eq(1)
+        expect(Delayed::Job.count).to eq(2)
       end
     end
 
