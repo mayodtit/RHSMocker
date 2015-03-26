@@ -13,7 +13,7 @@ class MemberTask < Task
   def set_priority
     self.priority = PRIORITY
   end
-  
+
   def publish
     super
 
