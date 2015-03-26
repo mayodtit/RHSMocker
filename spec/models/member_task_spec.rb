@@ -35,7 +35,6 @@ describe MemberTask do
 
       let!(:member_task) { create(:member_task) }
       it 'has default priority of 3' do
-        byebug
         member_task[:priority].should == 3
       end
     end
