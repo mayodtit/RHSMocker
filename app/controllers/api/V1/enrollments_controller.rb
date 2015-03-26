@@ -16,7 +16,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
         render_success
         set_uout
         generate_invitation_link
-        Mails::SendBusinessOnBoardInvitationEmailJob.create(@enrollment.id, @link)
+        Mails::SendBusinessOnBoardInvitationEmailJob.create(@enrollment.unique_on_boarding_user_token, @link)
       else
         hash = {
             nux: { question: Metadata.nux_question_text, answers: NuxAnswer.active.serializer },
