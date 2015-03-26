@@ -17,12 +17,13 @@ class Api::V1::UserConditionsController < Api::V1::ABaseController
     create_resource(@user.user_conditions, params[:user_disease], name: :user_disease) and return if disease_path?
 
     #new api requires condition
-    if params[:condition]
-      condition = Condition.where(description_id: params[:condition][:description_id])
-      condition[0] = Condition.create(params[:condition]) if condition.none?
+    if params[:user_condition][:condition]
+      condition = Condition.where(description_id: params[:user_condition][:condition][:description_id])
+      condition[0] = Condition.create(params[:user_condition][:condition]) if condition.none?
     end
 
     params[:user_condition] = {condition_id: condition[0][:id]} unless params[:user_condition]
+    params[:user_condition].delete(:condtion)
 
     #common for deprecated and new api
     params[:user_condition][:actor_id] = current_user.id
