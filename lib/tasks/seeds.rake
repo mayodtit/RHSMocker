@@ -910,4 +910,33 @@ My phone: 650-887-3711
     obj.description_id = did
     obj.save
   end
+
+  task :create_user_conditions => :environment do
+    user = User.find_by_id(39)
+    (0..362).each do |i|
+      user_condition = {
+        condition_id: i,
+        actor_id: i,
+      }
+      user.user_conditions.create(user_condition)
+      user_condition[:actor_id] = i + 400
+      user.user_conditions.create(user_condition)
+    end
+  end
+
+  task :remove_duplicates => :environment do
+    require 'set'
+    conditions = Condition.find(:all)
+    set = Set.new
+    condtions.each do |condition|
+      if condition[description_id] == nil
+        
+      end
+      if set.include? condition[:description_id]
+        puts condition[:description_id]
+      else
+        set << condition[:description_id]
+      end
+    end
+  end
 end
