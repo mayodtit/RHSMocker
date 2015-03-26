@@ -4,7 +4,7 @@ class InsurancePolicySerializer < ActiveModel::Serializer
   attributes :id, :user_id, :company_name, :plan_type, :plan, :group_number,
              :effective_date, :termination_date, :member_services_number, :family_individual, :employer_exchange,
              :authorized, :policy_member_id, :notes, :subscriber_name, :insurance_card_front_image_url, :insurance_card_back_image_url,
-             :summary
+             :created_at, :updated_at, :summary
 
   def insurance_card_front_image_url
     object.insurance_card_front.try(:url)
