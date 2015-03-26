@@ -42,14 +42,11 @@ class Member < User
   has_one :shared_subscription, through: :subscription_user,
                                 class_name: 'Subscription',
                                 source: :subscription
-  has_many :tasks, class_name: 'Task', conditions: ['type NOT IN (?, ?, ?, ?)', 'MessageTask', 'PhoneCallTask', 'ViewTaskTask', 'InsurancePolicyTask']
+  has_many :tasks, class_name: 'Task', conditions: ['type NOT IN (?, ?, ?)', 'MessageTask', 'PhoneCallTask', 'InsurancePolicyTask']
   has_many :request_tasks, class_name: 'Task', conditions: {type: %w(UserRequestTask ParsedNurselineRecordTask)}
   has_many :service_tasks, class_name: 'MemberTask',
                            conditions: proc{ {service_type_id: ServiceType.non_engagement_ids} }
   has_many :services
-  has_many :user_images, foreign_key: :user_id,
-                         inverse_of: :user,
-                         dependent: :destroy
   belongs_to :onboarding_group, inverse_of: :users
   belongs_to :referral_code, inverse_of: :users
   has_many :user_requests, foreign_key: :user_id

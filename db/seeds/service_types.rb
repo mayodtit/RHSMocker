@@ -35,17 +35,8 @@ Phone number:
 Reason for visit:
 Specific dates/times that work better:
 
-replace the current flow with words:
-(Copy + paste doctor contact info (address, phone, and name)
+________________________________
 
-Example:
-Robert E Markison, MD
-2000 Van Ness Avenue Ste 204
-San Francisco, CA 94109
-Phone: (415) 929-5900
-Member pref for appt: Usually M/W/F work best, late morning or late afternoon.
-
----------------------------------------------------------
 Call notes:
 
 Who you spoke with:
@@ -54,8 +45,9 @@ Insurance still up-to-date:
 What to bring:
 Special instructions to prepare:
 
----------------------------------------------------------
-Message to member:
+________________________
+
+Update message for PHA to send:
 
 Here are the details of your appointment:
 
@@ -63,19 +55,8 @@ Here are the details of your appointment:
 Dr. First Last
 Address: ([map](map link))
 Phone: Phone number
-Special instructions:
 
 Let me know if this works for you and I’ll add it to your calendar!
-
----------------------------------------------------------
-Google Calendar Invite:
-
-Event Title: Appointment with Dr. [Dr. Name]
-Event Location: [Clinic Address]
-Event Content:
-Dr. [Dr. Name]
-[Phone number]
-If you have any questions or need to cancel, just message me here.
 eof
 
 PROVIDER_SEARCH_DESCRIPTION_TEMPLATE = <<-eof

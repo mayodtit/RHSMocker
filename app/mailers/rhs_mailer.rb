@@ -370,7 +370,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
-  MEET_YOUR_PHA_MONTH_TRIAL_TEMPLATE = 'Meet Your PHA Month Trial 11/10/2014'
+  MEET_YOUR_PHA_MONTH_TRIAL_TEMPLATE = 'Meet Your PHA Month Trial 3/16/2015'
   def meet_your_pha_month_trial_email(email)
     user = Member.find_by_email!(email)
     pha = user.pha
@@ -452,7 +452,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
       from: 'support@getbetter.com',
       from_name: 'Better',
       to: { email: referrer.email },
-      template: 'Tell a Friend Notification 12/12/2014',
+      template: 'Tell a Friend Notification 3/16/2015',
       vars: {
         FNAME: referrer.first_name,
         REFEREE_FNAME: referee.first_name

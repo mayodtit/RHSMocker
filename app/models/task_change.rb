@@ -18,12 +18,7 @@ class TaskChange < ActiveRecord::Base
       actor_name = actor.first_name
     end
     # For existing tasks assigned to someone
-    if task.type != 'ViewTaskTask' && ((event == 'update' || event == 'unstart') && data.has_key?('owner_id') && data['owner_id'].second != actor_id)
-      view_task = task
-
-      if task.type != 'MessageTask' && task.type != 'PhoneCallTask' && task.type != 'WelcomeCallTask'  && task.type != 'AddTasksTask'  && task.type != 'MessageMemberTask'
-        view_task = ViewTaskTask.create_task_for_task(task)
-      end
+    if %w(update unstart).include?(event) && data['owner_id'] && data['owner_id'].second != actor_id
 
       case task.type
         when 'MemberTask'
@@ -41,14 +36,9 @@ class TaskChange < ActiveRecord::Base
         when 'OffboardMemberTask'
           message = "#{actor_name} assigned you an offboard task"
       end
-      PubSub.publish "/users/#{task.owner_id}/notifications/tasks", {msg: message, id: view_task.id, assignedTo: task.owner_id}
+      PubSub.publish "/users/#{task.owner_id}/notifications/tasks", {msg: message, id: task_id, assignedTo: task.owner_id}
     # For new tasks assigned to someone
-    elsif task.type != 'ViewTaskTask' && (event.nil? && !task.owner_id.nil? && task.owner_id != actor_id)
-      view_task = task
-
-      if task.type != 'MessageTask' && task.type != 'PhoneCallTask' && task.type != 'WelcomeCallTask' && task.type != 'AddTasksTask'  && task.type != 'MessageMemberTask'
-        view_task = ViewTaskTask.create_task_for_task(task)
-      end
+    elsif (event.nil? && !task.owner_id.nil? && task.owner_id != actor_id)
 
       case task.type
         when 'MemberTask'
@@ -66,7 +56,7 @@ class TaskChange < ActiveRecord::Base
         when 'OffboardMemberTask'
           message = "#{actor_name} assigned you an offboard task"
       end
-      PubSub.publish "/users/#{task.owner_id}/notifications/tasks", {msg: message, id: view_task.id, assignedTo: task.owner_id}
+      PubSub.publish "/users/#{task.owner_id}/notifications/tasks", {msg: message, id: task_id, assignedTo: task.owner_id}
     # For new unassigned tasks
     elsif event.nil? && task.owner_id.nil? && task.role_id == Role.pha.try(:id)
       case task.type

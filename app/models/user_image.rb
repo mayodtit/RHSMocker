@@ -1,5 +1,5 @@
 class UserImage < ActiveRecord::Base
-  belongs_to :user, class_name: 'Member', inverse_of: :user_images
+  belongs_to :user, inverse_of: :user_images
   has_many :messages, inverse_of: :user_image, dependent: :nullify
   has_many :insurance_card_front_insurance_policies, class_name: 'InsurancePolicy', foreign_key: :insurance_card_front_id, inverse_of: :insurance_card_front, dependent: :nullify
   has_many :insurance_card_back_insurance_policies, class_name: 'InsurancePolicy', foreign_key: :insurance_card_back_id, inverse_of: :insurance_card_back, dependent: :nullify

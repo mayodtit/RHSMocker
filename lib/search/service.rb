@@ -12,10 +12,18 @@ class Search::Service
     @geo.find_near(params)
   end
 
+  def snomed_query(params, services=nil)
+    snomed.query(params)
+  end
+
   private
 
   def npi
     @npi ||= Search::Service::Bloom.new
+  end
+
+  def snomed
+    @snomed ||= Search::Service::Snomed.new
   end
 end
 
