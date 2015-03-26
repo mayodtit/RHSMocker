@@ -45,7 +45,8 @@ class Api::V1::MembersController < Api::V1::ABaseController
             set_uout
             generate_invitation_link
             SendConfirmEmailService.new(@member).call
-            Mails::SendBusinessOnBoardInvitationEmailJob.create(@member.id, @link) and return
+            Mails::SendBusinessOnBoardInvitationEmailJob.create(@member.id, @link) and
+            return
           end
           SendWelcomeEmailService.new(@member).call
           SendConfirmEmailService.new(@member).call

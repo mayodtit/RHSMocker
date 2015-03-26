@@ -3,6 +3,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   before_filter :load_enrollment!, only: %i(show update)
   before_filter :load_referral_code, only: %i(create update)
   before_filter :load_onboarding_group, only: %i(create update)
+  before_filter :load_stories!, only: :on_board
 
   def show
     show_resource @enrollment.serializer
@@ -49,7 +50,6 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
 
   def on_board
     obj = find_record
-    load_stories!
     if obj.is_a? Member
       session = obj.sessions.create
       @hash.merge!(auth_token: session.auth_token,
@@ -78,18 +78,11 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
   end
 
   def find_record
-    records = []
-    [Enrollment, Member].each do |class_name|
+    [Member, Enrollment].each do |class_name|
       obj = class_name.find_by_unique_on_boarding_user_token(params[:unique_on_boarding_user_token]) if params[:unique_on_boarding_user_token]
-      records << obj unless obj.nil?
+      return obj if obj
     end
-    if records.count == 0
-      return nil
-    elsif records.count == 1
-      return records.first
-    else
-      return records.select{|record|record.is_a?Member}.first
-    end
+    nil
   end
 
   def set_uout
