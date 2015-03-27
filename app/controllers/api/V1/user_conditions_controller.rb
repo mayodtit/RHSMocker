@@ -19,11 +19,10 @@ class Api::V1::UserConditionsController < Api::V1::ABaseController
     #new api requires condition
     if params[:user_condition][:condition]
       condition = Condition.where(description_id: params[:user_condition][:condition][:description_id])
-      condition[0] = Condition.create(params[:user_condition][:condition]) if condition.none?
+      condition[0] = Condition.create(params[:user_condition][:condition]) if condition.none?  
+      params[:user_condition][:condition_id] = condition[0][:id]
+      params[:user_condition].delete(:condition)
     end
-
-    params[:user_condition][:condition_id] = condition[0][:id] if condition.none?
-    params[:user_condition].delete(:condition)
 
     #common for deprecated and new api
     params[:user_condition][:actor_id] = current_user.id
