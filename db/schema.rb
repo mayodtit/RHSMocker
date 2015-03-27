@@ -317,6 +317,7 @@ ActiveRecord::Schema.define(:version => 20150325010823) do
     t.string   "code"
     t.integer  "referral_code_id"
     t.integer  "onboarding_group_id"
+    t.string   "unique_on_boarding_user_token"
   end
 
   add_index "enrollments", ["email"], :name => "index_enrollments_on_email"
@@ -1309,6 +1310,7 @@ ActiveRecord::Schema.define(:version => 20150325010823) do
     t.string   "advertiser_campaign"
     t.integer  "impersonated_user_id"
     t.integer  "coupon_count",                                  :default => 0,     :null => false
+    t.string   "unique_on_boarding_user_token"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true

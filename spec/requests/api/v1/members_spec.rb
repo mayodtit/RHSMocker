@@ -99,6 +99,17 @@ describe 'Members' do
       expect(enrollment.reload.user).to eq(member)
     end
 
+    context 'business on boarding' do
+      let(:member_params) { {user: {email: 'kyle+test@getbetter.com', password: 'password', business_on_board: "yes"}} }
+
+      it 'should send out invite and confirmation email' do
+        Rails.stub(env: ActiveSupport::StringInquirer.new("development"))
+        do_request(member_params)
+        expect(response).to be_success
+        expect(Delayed::Job.count).to eq(2)
+      end
+    end
+
     context 'with a referral code' do
       let(:referrer) { create(:member) }
       let(:referral_code) { create(:referral_code, :with_onboarding_group, user: referrer) }
