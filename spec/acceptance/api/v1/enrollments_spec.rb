@@ -75,6 +75,8 @@ resource 'Enrollment' do
       let(:business_on_board) {'yes'}
       let(:raw_post) { params.to_json }
 
+      required_parameters :email, :first_name, :business_on_board
+
       example_request '[POST] Create Enrollment for business on_boarding users' do
         expect(status).to eq(200)
         expect(Enrollment.count).to eq(1)

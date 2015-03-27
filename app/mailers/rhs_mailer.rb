@@ -464,14 +464,12 @@ class RHSMailer < MandrillMailer::TemplateMailer
   def business_on_board_invitation_email(user,link)
     params = {
       subject: 'B2B sign up',
-      from: 'support@getbetter.com',
       from_name: 'Better',
       to: { email: user.email },
-      #a template is needed here
-      template: 'business onboard',
+      template: 'B2B Onboarding Email 3/26/2015',
       vars: {
         LINK: link,
-        FNAME: user.first_name
+        FNAME: user.first_name,
       }
     }
     send_mail(params)
