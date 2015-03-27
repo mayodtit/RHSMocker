@@ -27,3 +27,34 @@ ServiceTemplate.find_or_create_by_name(
     service_type: ServiceType.find_by_name('provider search'),
     time_estimate: 4500
 )
+
+APPOINTMENT_BOOKING_DESCRIPTION = <<-eof
+#Appointment preferences checklist
+* **Member:**
+* **Insurance plan:**
+* **Provider:**
+* **Address:**
+* **Phone:**
+* **Reason for visit:**
+* **Specific dates/times that work better:**
+
+#PHA message to send (update template here):
+
+Here are the details of your appointment:
+
+**Day, Date at Time**
+Dr. First Last
+Address: ([map](map link))
+Phone: Phone number
+
+Let me know if this works for you and I’ll add it to your calendar!
+
+eof
+
+ServiceTemplate.find_or_create_by_name(
+    name: "appointment booking",
+    title: "Appointment Booking",
+    description: APPOINTMENT_BOOKING_DESCRIPTION,
+    service_type: ServiceType.find_by_name('appointment booking'),
+    time_estimate: 60
+)
