@@ -1,5 +1,5 @@
 class RHSMailer < MandrillMailer::TemplateMailer
-  default from: ((Rails.env.production? || Rails.env.demo?) ? 'support@getbetter.com' : "support@#{Rails.env}.getbetter.com")
+  default from: ((Rails.env.production? || Rails.env.demo?) ? 'support@getbetter.com' : "support+#{Rails.env}@getbetter.com")
   default from_name: 'Better'
 
   def before_check(params)
@@ -7,6 +7,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
       params[:subject] = "[To:" + params[:to][:email] + "]" + params[:subject]
       params[:to][:email] = 'test@getbetter.com'
     end
+    params[:from] = 'support+dev@getbetter.com' if Rails.env.development?
   end
 
   def whitelisted_email?(email)
@@ -403,7 +404,6 @@ class RHSMailer < MandrillMailer::TemplateMailer
     pha_first_name = user.pha.first_name
     params = {
         subject: "Your trial is ending soon",
-        from: 'support@getbetter.com',
         from_name: 'Better',
         template: "Free month ending (email support) 2/16/2015",
         to: {email: user.email},
@@ -419,7 +419,6 @@ class RHSMailer < MandrillMailer::TemplateMailer
   def confirm_subscription_deletion(user)
     params = {
         subject: 'Your subscription has ended',
-        from: 'support@getbetter.com',
         from_name: 'Better',
         template: "Account downgraded 2/16/2015",
         to: {email: user.email},
@@ -434,7 +433,6 @@ class RHSMailer < MandrillMailer::TemplateMailer
     plan_name = subscription.plan.name
     params = {
       subject: 'Your subscription has been updated',
-      from: "support@getbetter.com",
       from_name: 'Better',
       to: { email: user.email },
       template: "Subscription update 2/16/2015",
@@ -449,13 +447,26 @@ class RHSMailer < MandrillMailer::TemplateMailer
   def notify_referrer_of_sign_up(referrer, referee)
     params = {
       subject: "Good news #{referee.first_name || "your friend"} has signed up for Better!",
-      from: 'support@getbetter.com',
       from_name: 'Better',
       to: { email: referrer.email },
       template: 'Tell a Friend Notification 3/16/2015',
       vars: {
         FNAME: referrer.first_name,
         REFEREE_FNAME: referee.first_name
+      }
+    }
+    send_mail(params)
+  end
+
+  def business_on_board_invitation_email(user,link)
+    params = {
+      subject: 'B2B sign up',
+      from_name: 'Better',
+      to: { email: user.email },
+      template: 'B2B Onboarding Email 3/26/2015',
+      vars: {
+        LINK: link,
+        FNAME: user.first_name,
       }
     }
     send_mail(params)

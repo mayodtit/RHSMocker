@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150319173126) do
+ActiveRecord::Schema.define(:version => 20150326233346) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -135,6 +135,20 @@ ActiveRecord::Schema.define(:version => 20150319173126) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "comments", :force => true do |t|
+    t.string   "title",            :limit => 50, :default => ""
+    t.text     "comment"
+    t.integer  "commentable_id"
+    t.string   "commentable_type"
+    t.integer  "user_id"
+    t.datetime "created_at",                                     :null => false
+    t.datetime "updated_at",                                     :null => false
+  end
+
+  add_index "comments", ["commentable_id"], :name => "index_comments_on_commentable_id"
+  add_index "comments", ["commentable_type"], :name => "index_comments_on_commentable_type"
+  add_index "comments", ["user_id"], :name => "index_comments_on_user_id"
 
   create_table "communication_workflow_templates", :force => true do |t|
     t.integer  "communication_workflow_id"
@@ -317,6 +331,7 @@ ActiveRecord::Schema.define(:version => 20150319173126) do
     t.string   "code"
     t.integer  "referral_code_id"
     t.integer  "onboarding_group_id"
+    t.string   "unique_on_boarding_user_token"
   end
 
   add_index "enrollments", ["email"], :name => "index_enrollments_on_email"
@@ -1309,6 +1324,7 @@ ActiveRecord::Schema.define(:version => 20150319173126) do
     t.string   "advertiser_campaign"
     t.integer  "impersonated_user_id"
     t.integer  "coupon_count",                                  :default => 0,     :null => false
+    t.string   "unique_on_boarding_user_token"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
