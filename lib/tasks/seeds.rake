@@ -830,31 +830,37 @@ My phone: 650-887-3711
     require 'json'
     failed = 0
     base_url = ENV['SNOMED_SEARCH_URL']
+    counter = 0
     Condition.all.each do |c|
+      print "\r#{counter}"
+      counter += 1
       desc_id = c.snomed_code.to_s
       url = base_url + 'descriptions/' + desc_id
       uri = URI.parse(url)
+      json0 = JSON.parse(uri.read)
+
+      concept_id = json0['matches'][0] ? json0['matches'][0]['conceptId'] : desc_id
+      url = base_url + 'concepts/' + concept_id
+      uri = URI.parse(url)
       json = JSON.parse(uri.read)
-      if json['matches'][0]
-        concept_id = json['matches'][0]['conceptId']
+      found = false
+      json['descriptions'].each do |concept|
+        if concept['term'] == c.name
+          store_terms(c, concept_id, concept['descriptionId'].to_s)
+          found = true
+          break
+        end
+      end
+
+      if !found && json0['matches'][0]
+        concept_id = json0['matches'][0]['conceptId']
         store_terms(c, concept_id, desc_id)
-      else
-        concept_id = desc_id
-        url = base_url + 'concepts/' + concept_id
-        uri = URI.parse(url)
-        json = JSON.parse(uri.read)
-        found = false
-        json['descriptions'].each do |concept|
-          if concept['term'] == c.name
-            store_terms(c, concept_id, concept['descriptionId'].to_s)
-            found = true
-            break
-          end
-        end
-        unless found
-          failed += 1
-          puts "Error @ concept id = #{desc_id}, name = #{c.name}"
-        end
+        found = true
+      end
+
+      if !found
+        failed += 1
+        puts "Error @ id = #{desc_id}, name = #{c.name}"
       end
     end
     puts "TOTAL FAILED #{failed}"
@@ -924,17 +930,47 @@ My phone: 650-887-3711
 
   task :remove_duplicates => :environment do
     require 'set'
-    conditions = Condition.find(:all)
+    require 'open-uri'
+    require 'json'
+    base_url = ENV['SNOMED_SEARCH_URL']
+    unique_conditions = {}
     set = Set.new
-    condtions.each do |condition|
-      if condition[description_id] == nil
-        
-      end
-      if set.include? condition[:description_id]
-        puts condition[:description_id]
-      else
-        set << condition[:description_id]
+    conditions = Condition.all
+    # first stage: find unique conditions
+    total = 0
+    conditions.each do |condition|
+      desc_id = condition[:description_id]
+      if desc_id != nil || set.include?(desc_id) != false
+        url = base_url + 'descriptions/' + desc_id
+        uri = URI.parse(url)
+        json = JSON.parse(uri.read)
+        if json['matches'][0]['term'] == condition[:name]
+          puts "total in set = #{total}"
+          total += 1
+          set << desc_id
+          unique_conditions[desc_id] = condition[:id]
+        end
       end
     end
+
+    byebug
+    # second stage: relink existing users
+    total = 0
+    duplicate_set = Set.new
+    puts "sdfgdhfgkshdf"
+    conditions.each do |condition|
+      desc_id = condition[:description_id]
+      cond_id = condition[:id]
+      puts "#{cond_id}"
+      
+      if set.include?(desc_id) && unique_conditions[desc_id] != cond_id
+        puts "total in duplicate set = #{total}"
+        total += 1
+        duplicate_set << cond_id
+        # relink
+
+      end
+    end
+    # third stage: delete useless conditions
   end
 end
