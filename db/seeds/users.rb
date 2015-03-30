@@ -132,6 +132,39 @@ PHA_ATTRIBUTES = [
     arrow_image: 'caitlin-arrow.png',
     avatar_image: 'caitlin-avatar.jpg',
     bio_image: 'caitlin-bio_image.png'
+  },
+  {
+    email: 'francisca@getbetter.com',
+    first_name: 'Francisca',
+    last_name: 'S',
+    gender: 'female',
+    bio: "Francisca has experience in mental health settings as a counselor and advocate for survivors of sexual assault. Most recently she worked in the pharmaceutical reimbursement industry. She enjoys cooking, eating, and dancing.",
+    first_person_bio: "I have experience in mental health settings as a counselor and advocate for survivors of sexual assault. Most recently I worked in the pharmaceutical reimbursement industry. I enjoy cooking, eating, and dancing.",
+    arrow_image: 'francisca-arrow.jpg',
+    avatar_image: 'francisca-avatar.png',
+    bio_image: 'francisca-bio_image.jpg'
+  },
+  {
+    email: 'leilani@getbetter.com',
+    first_name: 'Leilani',
+    last_name: 'F',
+    gender: 'female',
+    bio: "Leilani has six years of experience advocating to get patients the most out of their insurance and get their medications covered. She enjoys spending time with her family, trying new recipes, and going to the beach.",
+    first_person_bio: "I have six years of experience advocating to get patients the most out of their insurance and get their medications covered. I enjoy spending time with my family, trying new recipes, and going to the beach.",
+    arrow_image: 'leilani-arrow.jpg',
+    avatar_image: 'leilani-avatar.png',
+    bio_image: 'leilani-bio_image.jpg'
+  },
+  {
+    email: 'cole@getbetter.com',
+    first_name: 'Cole',
+    last_name: 'C',
+    gender: 'female',
+    bio: "Cole is experienced in patient satisfaction and improving the hospital-patient interaction. Cole was diagnosed with a chronic disease at age 5 and knows first-hand that your illness/diagnosis does not define you. She loves traveling, exploring the outdoors, dancing, and emojis!",
+    first_person_bio: "I’m experienced in patient satisfaction and improving the hospital-patient interaction. I was diagnosed with a chronic disease at age 5 and know first-hand that your illness/diagnosis does not define you. I love traveling, exploring the outdoors, dancing, and emojis!",
+    arrow_image: 'cole-arrow.jpg',
+    avatar_image: 'cole-avatar.png',
+    bio_image: 'cole-bio_image.jpg'
   }
 ]
 
