@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150319225211) do
+ActiveRecord::Schema.define(:version => 20150331001524) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -889,7 +889,8 @@ ActiveRecord::Schema.define(:version => 20150319225211) do
     t.datetime "abandoned_at"
     t.integer  "abandoner_id"
     t.boolean  "user_facing",         :default => false, :null => false
-    t.text     "user_request"
+    t.text     "service_request"
+    t.text     "service_deliverable"
   end
 
   create_table "sessions", :force => true do |t|

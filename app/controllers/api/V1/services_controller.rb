@@ -63,11 +63,11 @@ class Api::V1::ServicesController < Api::V1::ABaseController
   end
 
   def service_attributes
-    params.require(:service).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :user_facing, :user_request, :auth_token)
+    params.require(:service).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :user_facing, :service_request, :service_deliverable, :auth_token)
   end
 
   def service_template_attributes
-    params.permit(:title, :description, :subject_id, :due_at, :owner_id, :service_type, :service_template_id, :auth_token, :user_facing, :user_request)
+    params.permit(:title, :description, :subject_id, :due_at, :owner_id, :service_type, :service_template_id, :auth_token, :user_facing, :service_request, :service_deliverable)
   end
 
   def load_service_template!

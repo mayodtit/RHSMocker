@@ -17,7 +17,7 @@ class Service < ActiveRecord::Base
   has_many :service_changes, order: 'created_at DESC'
 
   attr_accessor :actor_id, :change_tracked, :reason
-  attr_accessible :description, :title, :service_type_id, :service_type, :user_facing, :user_request,
+  attr_accessible :description, :title, :service_type_id, :service_type, :user_facing, :service_request, :service_deliverable,
                   :member_id, :member, :subject_id, :subject, :reason_abandoned, :reason, :abandoner, :abandoner_id,
                   :creator_id, :creator, :owner_id, :owner, :assignor_id, :assignor,
                   :actor_id, :due_at, :state_event, :service_template, :service_template_id
@@ -25,7 +25,6 @@ class Service < ActiveRecord::Base
   validates :title, :service_type, :state, :member, :creator, :owner, :assignor, :assigned_at, presence: true
   validates :user_facing, :inclusion => { :in => [true, false] }
   validates :service_template, presence: true, if: lambda { |s| s.service_template_id.present? }
-
   before_validation :set_assigned_at
 
   after_commit :track_update, on: :update
