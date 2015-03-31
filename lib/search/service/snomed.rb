@@ -70,7 +70,7 @@ class Search::Service::Snomed
   end
 
   def condition_filter(term)
-    if term.include? '(disorder)' or term.include? 'allergy' or term.include? ' - '
+    if term.include? '(disorder)' or term.include? 'allergy'
       true
     else
       false

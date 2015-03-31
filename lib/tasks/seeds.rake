@@ -832,29 +832,37 @@ My phone: 650-887-3711
     base_url = ENV['SNOMED_SEARCH_URL']
     counter = 0
     Condition.all.each do |c|
-      print "\r#{counter}"
       counter += 1
+      print "\r#{counter} "
       desc_id = c.snomed_code.to_s
       url = base_url + 'descriptions/' + desc_id
       uri = URI.parse(url)
-      json0 = JSON.parse(uri.read)
+      json0 = JSON.parse(uri.read)['matches'][0]
 
-      concept_id = json0['matches'][0] ? json0['matches'][0]['conceptId'] : desc_id
-      url = base_url + 'concepts/' + concept_id
-      uri = URI.parse(url)
-      json = JSON.parse(uri.read)
-      found = false
-      json['descriptions'].each do |concept|
-        if concept['term'] == c.name
-          store_terms(c, concept_id, concept['descriptionId'].to_s)
-          found = true
-          break
+      if json0 && json0['term'] == c.name
+        found = true
+        store_terms(c, json0['conceptId'], desc_id)
+      else
+        concept_id = json0 ? json0['conceptId'] : desc_id
+        url = base_url + 'concepts/' + concept_id
+        uri = URI.parse(url)
+        json = JSON.parse(uri.read)
+        found = false
+        json['descriptions'].each do |concept|
+          if concept['term'] == c.name
+            store_terms(c, concept_id, concept['descriptionId'].to_s)
+            found = true
+            break
+          end
         end
       end
 
-      if !found && json0['matches'][0]
-        concept_id = json0['matches'][0]['conceptId']
+      if !found && json0
+        puts "#{desc_id} = #{json0['term']}, original name: #{c.name}" 
+        concept_id = json0['conceptId']
         store_terms(c, concept_id, desc_id)
+        c.name = json0['term']
+        c.save
         found = true
       end
 
@@ -936,16 +944,17 @@ My phone: 650-887-3711
     unique_conditions = {}
     set = Set.new
     conditions = Condition.all
+
     # first stage: find unique conditions
     total = 0
     conditions.each do |condition|
       desc_id = condition[:description_id]
-      if desc_id != nil || set.include?(desc_id) != false
+      if desc_id != nil && !set.include?(desc_id)
         url = base_url + 'descriptions/' + desc_id
         uri = URI.parse(url)
         json = JSON.parse(uri.read)
+        print "\r#{total}"
         if json['matches'][0]['term'] == condition[:name]
-          puts "total in set = #{total}"
           total += 1
           set << desc_id
           unique_conditions[desc_id] = condition[:id]
@@ -953,24 +962,28 @@ My phone: 650-887-3711
       end
     end
 
-    byebug
     # second stage: relink existing users
     total = 0
     duplicate_set = Set.new
-    puts "sdfgdhfgkshdf"
+    
     conditions.each do |condition|
       desc_id = condition[:description_id]
       cond_id = condition[:id]
-      puts "#{cond_id}"
-      
-      if set.include?(desc_id) && unique_conditions[desc_id] != cond_id
-        puts "total in duplicate set = #{total}"
+      unique_condition_id = unique_conditions[desc_id]
+
+      if unique_condition_id != cond_id && desc_id != nil
+        byebug
         total += 1
         duplicate_set << cond_id
-        # relink
-
+        user_conditions = UserCondition.find_all_by_condition_id(cond_id)
+        user_conditions.each do |uc|
+          uc[:condition_id] = unique_condition_id
+          puts "#{uc[:condition_id]} = #{unique_condition_id}"
+          uc.save
+        end
       end
-    end
+    end 
+
     # third stage: delete useless conditions
   end
 end
