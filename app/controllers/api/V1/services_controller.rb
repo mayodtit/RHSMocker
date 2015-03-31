@@ -6,7 +6,7 @@ class Api::V1::ServicesController < Api::V1::ABaseController
 
   def index
     authorize! :read, Service
-    services = @member.services.where(params.permit(:subject_id, :state)).order('due_at, created_at ASC')
+    services = @member.services.where(params.permit(:subject_id, :state)).order("field(state, 'open', 'waiting', 'completed', 'abandoned'), due_at DESC, created_at DESC")
     index_resource services.serializer, name: :services
   end
 
