@@ -67,7 +67,7 @@ describe Api::V1::ServicesController do
           o = Object.new
           o.should_receive(:where).with('subject_id' => '1', 'state' => 'unassigned') do
             o_o = Object.new
-            o_o.should_receive(:order).with('due_at, created_at ASC') do
+            o_o.should_receive(:order).with("field(state, 'open', 'waiting', 'completed', 'abandoned'), due_at DESC, created_at DESC") do
               services
             end
             o_o
@@ -85,7 +85,7 @@ describe Api::V1::ServicesController do
           o = Object.new
           o.should_receive(:where).with('subject_id' => '1', 'state' => 'unassigned') do
             o_o = Object.new
-            o_o.should_receive(:order).with('due_at, created_at ASC') do
+            o_o.should_receive(:order).with("field(state, 'open', 'waiting', 'completed', 'abandoned'), due_at DESC, created_at DESC") do
               services
             end
             o_o
