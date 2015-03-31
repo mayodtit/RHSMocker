@@ -1,6 +1,8 @@
 class Service < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
 
+  OPEN_STATES = %w(completed abandoned)
+
   belongs_to :service_type
   belongs_to :service_template
 
@@ -31,7 +33,7 @@ class Service < ActiveRecord::Base
   after_commit :publish
 
   def open?
-    !(%w(completed abandoned).include? state)
+    !(OPEN_STATES.include? state)
   end
 
   def publish
@@ -49,7 +51,7 @@ class Service < ActiveRecord::Base
   end
 
   def create_next_ordinal_tasks(current_ordinal = -1, last_due_at = Time.now)
-    return unless self.open? && self.service_template && tasks.open_state.empty?
+    return unless open? && service_template && tasks.open_state.empty?
     if next_ordinal = next_ordinal(current_ordinal)
       service_template.task_templates.where(service_ordinal: next_ordinal).each do |task_template|
         task_template.create_task!(service: self, start_at: service_template.timed_service? ? last_due_at : Time.now, assignor: assignor)
@@ -107,8 +109,8 @@ class Service < ActiveRecord::Base
 
     after_transition any => any do |service|
       service.change_tracked = true
+    end
   end
-end
 
   def actor_id
     if @actor_id.nil?

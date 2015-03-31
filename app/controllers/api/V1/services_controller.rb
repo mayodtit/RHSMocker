@@ -12,23 +12,7 @@ class Api::V1::ServicesController < Api::V1::ABaseController
 
   def create
     authorize! :create, Service
-
-    if @service_template
-      authorize! :read, @service_template
-      create_params = service_template_attributes
-      create_params[:creator] = current_user
-      create_params[:member] = @member
-      create_params[:actor_id] = current_user.id
-      @service = @service_template.create_service! create_params
-      render_success(service: @service.serializer)
-    else
-      create_params = service_attributes
-      create_params[:creator] = current_user
-      create_params[:member] = @member
-      create_params[:assignor_id] = current_user.id if create_params[:owner_id].present?
-      create_params[:actor_id] = current_user.id
-      create_resource Service, create_params
-    end
+    create_resource Service, create_params
   end
 
   def show
@@ -39,7 +23,7 @@ class Api::V1::ServicesController < Api::V1::ABaseController
   def update
     authorize! :update, @service
 
-    update_params = service_attributes
+    update_params = permitted_params.service_attributes
 
     if update_params[:state_event].present?
       update_params[:actor_id] = current_user.id
@@ -72,8 +56,22 @@ class Api::V1::ServicesController < Api::V1::ABaseController
 
   def load_service_template!
     if params[:service_template_id]
+      authorize! :read, @service_template
       @service_template = ServiceTemplate.find params[:service_template_id]
     end
+  end
+
+  def create_params
+      if @service_template
+        create_params = permitted_params.service_template_attributes
+      else
+        create_params = permitted_params.service_attributes
+        create_params[:assignor_id] = current_user.id if create_params[:owner_id].present?
+      end
+      create_params[:creator] = current_user
+      create_params[:member] = @member
+      create_params[:actor_id] = current_user.id
+      create_params
   end
 end
 
