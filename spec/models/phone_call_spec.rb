@@ -1629,7 +1629,7 @@ describe PhoneCall do
     end
 
     describe '#resolve!' do
-      let(:phone_call) { build(:phone_call, :with_message, to_role_id: @pha_id) }
+      let(:phone_call) { build(:phone_call, to_role_id: @pha_id) }
 
       before do
         phone_call.resolve!
@@ -1644,36 +1644,36 @@ describe PhoneCall do
       end
 
       it 'creates a phone call task' do
-        phone_call = create :phone_call, to_role_id: @pha_id
+        phone_call = create :phone_call
         PhoneCallTask.should_receive(:create_if_only_opened_for_phone_call!).with(phone_call)
         phone_call.resolve!
       end
     end
 
     describe '#merge!' do
-      let(:phone_call) { build :phone_call, :with_message, to_role_id: @pha_id }
-      let(:other_phone_call) { build_stubbed :phone_call, to_role_id: @pha_id, state: :claimed, claimer: nurse, claimed_at: Time.now }
+      let(:phone_call) { build :phone_call, :with_message }
+      let(:stubbed_phone_call) { build_stubbed :phone_call, state: :claimed, claimer: nurse, claimed_at: Time.now }
 
       before do
-        other_phone_call.stub(:save!)
+        stubbed_phone_call.stub(:save!)
         phone_call.message.stub(:update_attributes!)
       end
 
       it 'changes the state to merged' do
-        phone_call.merged_into_phone_call = other_phone_call
+        phone_call.merged_into_phone_call = stubbed_phone_call
         phone_call.merge!
         phone_call.should be_merged
       end
 
       it 'merges attributes' do
-        phone_call.merged_into_phone_call = other_phone_call
-        other_phone_call.should_receive(:merge_attributes!).with(phone_call)
+        phone_call.merged_into_phone_call = stubbed_phone_call
+        stubbed_phone_call.should_receive(:merge_attributes!).with(phone_call)
         phone_call.merge!
       end
 
       it 'switches the messages phone call' do
-        phone_call.merged_into_phone_call = other_phone_call
-        phone_call.message.should_receive(:update_attributes!).with(phone_call_id: other_phone_call.id)
+        phone_call.merged_into_phone_call = stubbed_phone_call
+        phone_call.message.should_receive(:update_attributes!).with(phone_call_id: stubbed_phone_call.id)
         phone_call.merge!
       end
 
