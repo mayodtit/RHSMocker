@@ -989,7 +989,7 @@ describe PhoneCall do
 
   describe '#transfer!' do
     let(:phone_call) { build :phone_call }
-    let(:nurseline_phone_call) { build :phone_call, to_role: @nurse }
+    let(:nurseline_phone_call) { build(:phone_call, to_role: @nurse) }
     let(:nurse) { build_stubbed :nurse }
 
     before do
@@ -1043,6 +1043,7 @@ describe PhoneCall do
         end
 
         it 'creates a message' do
+          phone_call.message = build :message
           Message.should_receive(:create!).with(
             user: phone_call.user,
             consult: consult,
@@ -1069,12 +1070,8 @@ describe PhoneCall do
   end
 
   describe '#merge_attributes!' do
-    let(:phone_call) { build :phone_call }
+    let(:phone_call) { build(:phone_call).tap{|p| p.stub(:save!)} }
     let(:other_phone_call) { build :phone_call }
-
-    before do
-      phone_call.stub :save!
-    end
 
     it 'filters out specific attrs' do
       other_phone_call.stub(:attributes) do
@@ -1134,11 +1131,17 @@ describe PhoneCall do
       phone_call.merge_attributes! other_phone_call
     end
 
-    it 'works' do
+    it 'two calls are different' do
+      phone_call = build_stubbed PhoneCall
+      other_phone_call = build_stubbed PhoneCall
+
+      phone_call.user_id.should_not == other_phone_call.user_id
+    end
+
+    it 'merge works' do
       phone_call = create :phone_call
       other_phone_call = create :phone_call
 
-      phone_call.user_id.should_not == other_phone_call.user_id
       phone_call.merge_attributes! other_phone_call
       phone_call.reload.user_id.should == other_phone_call.user_id
     end
@@ -1358,7 +1361,7 @@ describe PhoneCall do
   end
 
   describe '#create_message_if_user_updated' do
-    let(:phone_call)  { build :phone_call }
+    let(:phone_call)  { build(:phone_call).tap{|p| p.message = build :message} }
 
     context 'message exists' do
       before do
@@ -1626,7 +1629,7 @@ describe PhoneCall do
     end
 
     describe '#resolve!' do
-      let(:phone_call) { build(:phone_call, to_role_id: @pha_id) }
+      let(:phone_call) { build(:phone_call, :with_message, to_role_id: @pha_id) }
 
       before do
         phone_call.resolve!
@@ -1648,7 +1651,7 @@ describe PhoneCall do
     end
 
     describe '#merge!' do
-      let(:phone_call) { build :phone_call, to_role_id: @pha_id }
+      let(:phone_call) { build :phone_call, :with_message, to_role_id: @pha_id }
       let(:other_phone_call) { build_stubbed :phone_call, to_role_id: @pha_id, state: :claimed, claimer: nurse, claimed_at: Time.now }
 
       before do
@@ -1675,7 +1678,7 @@ describe PhoneCall do
       end
 
       it 'works' do
-        phone_call = create :phone_call
+        phone_call = create :phone_call, :with_message
         other_phone_call = create :phone_call, state: :claimed, claimer: nurse, claimed_at: Time.now, message: nil
         message = phone_call.message
 
