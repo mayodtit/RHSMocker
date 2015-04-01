@@ -48,7 +48,6 @@ Address: ([map](map link))
 Phone: Phone number
 
 Let me know if this works for you and I’ll add it to your calendar!
-
 eof
 
 ServiceTemplate.find_or_create_by_name(
@@ -56,5 +55,5 @@ ServiceTemplate.find_or_create_by_name(
     title: "Appointment Booking",
     description: APPOINTMENT_BOOKING_DESCRIPTION,
     service_type: ServiceType.find_by_name('appointment booking'),
-    time_estimate: 60
+    time_estimate: 150
 )
