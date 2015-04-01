@@ -338,8 +338,8 @@ resource "PhoneCalls" do
 
           let!(:user) { pha }
           let!(:member) { create :member }
-          let!(:phone_call) { create(:phone_call, state: :claimed, to_role: Role.pha, user: nil, message: nil) }
-          let!(:unresolved_phone_call) { create(:phone_call, state: :unresolved, to_role: Role.pha, user: member) }
+          let!(:phone_call) { create(:phone_call,:with_message, state: :claimed, to_role: Role.pha, user: nil, message: nil) }
+          let!(:unresolved_phone_call) { create(:phone_call, :with_message, state: :unresolved, to_role: Role.pha, user: member) }
           let(:id) { phone_call.id }
           let(:caller_id) { member.id }
           let(:raw_post) { params.to_json }
