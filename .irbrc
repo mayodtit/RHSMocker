@@ -37,3 +37,11 @@ end
 def elbret
   @elbret ||= Member.find_by_email('elbret@getbetter.com')
 end
+
+def cole
+  @cole ||= Member.find_by_email('cole@getbetter.com')
+end
+
+def leilani
+  @leilani ||= Member.find_by_email('leilani@getbetter.com')
+end
