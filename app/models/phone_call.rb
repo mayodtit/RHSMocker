@@ -230,10 +230,9 @@ class PhoneCall < ActiveRecord::Base
   end
 
   def merge_attributes!(phone_call)
-    attrs = phone_call.attributes.select do |attr, value|
-      !%w(id merged_into_phone_call_id state resolved_at identifier_token twilio_conference_name).include?(attr.to_s) && value.present? && PhoneCall.column_names.include?(attr.to_s)
-    end
-
+        attrs = phone_call.attributes.select do |attr, value|
+                !%w(id merged_into_phone_call_id state resolved_at identifier_token twilio_conference_name).include?(attr.to_s) && value.present? && PhoneCall.column_names.include?(attr.to_s)
+                    end
     assign_attributes attrs, without_protection: true
     save!
   end
