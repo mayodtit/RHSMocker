@@ -1361,7 +1361,7 @@ describe PhoneCall do
   end
 
   describe '#create_message_if_user_updated' do
-    let(:phone_call)  { build(:phone_call).tap{|p| p.message = build :message} }
+    let(:phone_call)  { build :phone_call, :with_message }
 
     context 'message exists' do
       before do
