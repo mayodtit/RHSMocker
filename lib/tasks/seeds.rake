@@ -860,9 +860,8 @@ My phone: 650-887-3711
       if !found && json0
         puts "#{desc_id} = #{json0['term']}, original name: #{c.name}" 
         concept_id = json0['conceptId']
-        store_terms(c, concept_id, desc_id)
         c.name = json0['term']
-        c.save
+        store_terms(c, concept_id, desc_id)
         found = true
       end
 
@@ -872,6 +871,27 @@ My phone: 650-887-3711
       end
     end
     puts "TOTAL FAILED #{failed}"
+
+    if failed != 0
+      configure_condition(41, '64766004', '107644019', 'Ulcerative colitis')
+      configure_condition(48, '35489007', '486184015', 'Depression')
+      configure_condition(77, '13644009', '475418015', 'Hypercholesterolaemia')
+      configure_condition(93, '235595009', '353135014', 'Gastroesophageal reflux disease')
+      configure_condition(98, '414916001', '2535065012', 'Obesity')
+      configure_condition(153, '44054006', '197761014', 'Type 2 diabetes mellitus')
+      configure_condition(154, '40930008', '492839019', 'Hypothyroid')
+      configure_condition(177, '302866003', '444844011', 'Hypoglycaemia')
+    end
+  end
+
+  def configure_condition(id, cid, did, cname)
+    condition = Condition.find_by_id(id)
+    name = condition.name
+    condition.name = cname
+    condition.description_id = did
+    condition.concept_id = cid
+    puts "#{condition.description_id} = #{condition.name}, original name: #{name}" 
+    condition.save
   end
 
   # Populates database using SNOMED api, filters out most synonyms
@@ -925,7 +945,7 @@ My phone: 650-887-3711
 
   task :create_user_conditions => :environment do
     user = User.find_by_id(39)
-    (0..362).each do |i|
+    (1..363).each do |i|
       user_condition = {
         condition_id: i,
         actor_id: i,
@@ -946,44 +966,36 @@ My phone: 650-887-3711
     conditions = Condition.all
 
     # first stage: find unique conditions
-    total = 0
     conditions.each do |condition|
       desc_id = condition[:description_id]
       if desc_id != nil && !set.include?(desc_id)
-        url = base_url + 'descriptions/' + desc_id
-        uri = URI.parse(url)
-        json = JSON.parse(uri.read)
-        print "\r#{total}"
-        if json['matches'][0]['term'] == condition[:name]
-          total += 1
-          set << desc_id
-          unique_conditions[desc_id] = condition[:id]
-        end
+        set << desc_id          
+        unique_conditions[desc_id] = condition[:id]
       end
     end
 
     # second stage: relink existing users
-    total = 0
     duplicate_set = Set.new
-    
+
     conditions.each do |condition|
       desc_id = condition[:description_id]
       cond_id = condition[:id]
-      unique_condition_id = unique_conditions[desc_id]
+      unique_cond_id = unique_conditions[desc_id]
 
-      if unique_condition_id != cond_id && desc_id != nil
-        byebug
-        total += 1
+      if unique_cond_id != cond_id && desc_id != nil
         duplicate_set << cond_id
         user_conditions = UserCondition.find_all_by_condition_id(cond_id)
         user_conditions.each do |uc|
-          uc[:condition_id] = unique_condition_id
-          puts "#{uc[:condition_id]} = #{unique_condition_id}"
+          uc[:condition_id] = unique_cond_id
           uc.save
         end
       end
     end 
-
+    
     # third stage: delete useless conditions
+    duplicate_set.each do |id|
+      Condition.find_by_id(id).destroy
+      puts "#{id} is removed"
+    end
   end
 end
