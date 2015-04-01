@@ -4,8 +4,8 @@ sudo: false
 rvm:
   - 2.0.0-p598
 env:
-  - "TEST_GROUP=1,2 AUTOMATED_DEPLOY=true"
-  - "TEST_GROUP=3,4"
+  - "TEST_GROUP=1,2"
+  - "TEST_GROUP=3,4 AUTOMATED_DEPLOY=true"
 before_script:
   - mv config/application.yml.example config/application.yml
   - mv config/database.yml.example config/database.yml
