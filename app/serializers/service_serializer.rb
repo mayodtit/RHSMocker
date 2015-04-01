@@ -2,7 +2,8 @@ class ServiceSerializer < ActiveModel::Serializer
   self.root = false
 
   attributes :id, :member_id, :user_id, :owner_id, :service_type_id, :state,
-             :title, :description, :due_at, :created_at, :updated_at
+             :title, :description, :due_at, :created_at, :updated_at,
+             :user_facing, :service_request, :service_deliverable
 
   def attributes
     super.tap do |attrs|
@@ -46,7 +47,7 @@ class ServiceSerializer < ActiveModel::Serializer
 
   def tasks
     if object.respond_to? :tasks
-      object.tasks.try(:serializer, options.merge(shallow: true))
+      object.tasks.order('service_ordinal ASC, due_at DESC, created_at DESC').try(:serializer, options.merge(shallow: true))
     else
       nil
     end

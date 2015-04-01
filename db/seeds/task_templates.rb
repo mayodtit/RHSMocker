@@ -103,13 +103,8 @@ TaskTemplate.find_or_create_by_name(
     service_ordinal: 10
 )
 
-# Provider Search
-TaskTemplate.find_or_create_by_name(
-    name: "provider search - find options",
-    service_template: ServiceTemplate.find_by_name('provider search'),
-    title: "Find initial provider options",
-    description:
-"1. Go to insurance website and search by:
+PROVIDER_SEARCH_FIND_OPTIONS_TEMPLATE = <<-eof
+1. Go to insurance website and search by:
   * Specialty
   * Distance (5 miles, expand if no options, shorten if >50 options)
   * Preferences
@@ -136,7 +131,15 @@ Phone:
 Profile link:
 Accepting patients:
 Takes insurance:
-Next available:",
+Next available:
+eof
+
+# Provider Search
+TaskTemplate.find_or_create_by_name(
+    name: "provider search - find options",
+    service_template: ServiceTemplate.find_by_name('provider search'),
+    title: "Find initial provider options",
+    description: PROVIDER_SEARCH_FIND_OPTIONS_TEMPLATE,
     time_estimate: 240,
     service_ordinal: 0
 )
@@ -154,5 +157,89 @@ TaskTemplate.find_or_create_by_name(
     title: "Follow up - provider options",
     description: "Just checking in to see what you thought of the providers I sent over. Would you like me to book an appointment with one of them?",
     time_estimate: 4320,
+    service_ordinal: 2
+)
+
+# Appointment Booking
+
+APPOINTMENT_BOOKING_CALL_PROVIDER_TEMPLATE = <<-eof
+1. Call provider office
+1. Book appointment that fits member’s preferences
+1. **If there is a cancellation fee and the appointment is within 48 hours of calling, don’t book unless member confirms**
+1. If there is no appointment during member’s preferences
+ * Collect next available appointments
+ * Assign PHA a task titled “UPDATE - no available appointments, get new option” and include available appointment information
+ * Call back to book when PHA gets new information from member
+1. Once booked, confirm:
+ * Time and date of appointment
+ * Location
+ * Insurance
+ * Visit length
+ * Cancellation policy
+1. Request new patient paperwork for member to complete before visit
+1. Update message in service notes with appointment information
+1. Complete task
+
+---------------------------------------------------------
+Call notes:
+
+Who you spoke with:
+Available times/Booked time:
+Insurance still up-to-date:
+What to bring:
+Special instructions to prepare:
+
+---------------------------------------------------------
+eof
+
+APPOINTMENT_BOOKING_REMINDER_TEMPLATE = <<-eof
+* Change due date of this task to day before appointment
+* On due date, send member reminder message with appointment details (See service notes)
+eof
+
+APPOINTMENT_BOOKING_FOLLOW_UP_TEMPLATE = <<-eof
+* Change due date of this task to same day of appointment
+* On due date, send member reminder message:
+  *How did your appointment go? Do you get all your questions answered?” *
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "appointment booking - call provider",
+    service_template: ServiceTemplate.find_by_name('appointment booking'),
+    title: "Call provider to book appointment",
+    description: APPOINTMENT_BOOKING_CALL_PROVIDER_TEMPLATE,
+    time_estimate: 60,
+    service_ordinal: 0
+)
+TaskTemplate.find_or_create_by_name(
+    name: "appointment booking -  send confirmation",
+    service_template: ServiceTemplate.find_by_name('appointment booking'),
+    title: "SEND - appointment confirmation",
+    description: "Send appointment to Member (see service notes)",
+    time_estimate: 30,
+    service_ordinal: 1
+)
+TaskTemplate.find_or_create_by_name(
+    name: "appointment booking - calander invite",
+    service_template: ServiceTemplate.find_by_name('appointment booking'),
+    title: "SEND - calendar invite",
+    description: "Send member a calendar invite (See service notes)",
+    time_estimate: 60,
+    service_ordinal: 2
+)
+TaskTemplate.find_or_create_by_name(
+    name: "appointment booking - reminder",
+    service_template: ServiceTemplate.find_by_name('appointment booking'),
+    title: "Appointment reminder",
+    description: APPOINTMENT_BOOKING_REMINDER_TEMPLATE,
+    time_estimate: 60,
+    service_ordinal: 2
+)
+TaskTemplate.find_or_create_by_name(
+    name: "appointment booking - appointment follow-up",
+    service_template: ServiceTemplate.find_by_name('appointment booking'),
+    title: "SEND - Appointment follow-up",
+    description: APPOINTMENT_BOOKING_FOLLOW_UP_TEMPLATE,
+    time_estimate: 60,
     service_ordinal: 2
 )
