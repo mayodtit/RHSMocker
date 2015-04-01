@@ -47,7 +47,7 @@ class ServiceSerializer < ActiveModel::Serializer
 
   def tasks
     if object.respond_to? :tasks
-      object.tasks.order('service_ordinal ASC, due_at DESC, created_at DESC').try(:serializer, options.merge(shallow: true))
+      object.tasks.order('service_ordinal ASC, due_at DESC, created_at DESC').try(:serializer, options.merge(for_subject: true))
     else
       nil
     end
