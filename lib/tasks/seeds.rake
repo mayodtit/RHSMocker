@@ -625,7 +625,7 @@ My phone: 650-887-3711
       puts "ERROR: #{m.full_name} does not have a master consult"
     end
   end
-  
+
   desc "Fake send a few messages from member accounts"
   task :create_inbound_messages, [:num_messages] => :environment do |t, args|
     num_messages = args[:num_messages]
@@ -802,14 +802,8 @@ My phone: 650-887-3711
       uri = URI.parse(url)
       resp = uri.read
 
-      desc_id = al.snomed_code  if resp.include? 'Concept not found'
-
-      if desc_id.nil?
-        json_resp = JSON.parse(resp)
-        match = match_name(al.snomed_name, json_resp)
-        store_terms(al, concept_id, match) unless match.nil?
-
-      else
+      if resp.include? 'Concept not found'
+        desc_id = al.snomed_code
         url = base_url + 'descriptions/' + desc_id.to_s
         uri = URI.parse(url)
         resp = uri.read
@@ -818,10 +812,14 @@ My phone: 650-887-3711
         begin
           concept_id = json_resp["matches"][0]["conceptId"]
 
-          store_terms(al, concept_id, desc_id) unless match.nil?
+          store_terms(al, concept_id, desc_id) unless json_resp['matches'].size == 0
         rescue
           puts "Error @ desc id =", desc_id
         end
+      else
+        json_resp = JSON.parse(resp)
+        match = match_name(al.snomed_name, json_resp)
+        store_terms(al, concept_id, match) unless match.nil?
       end
     end
   end

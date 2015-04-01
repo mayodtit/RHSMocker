@@ -55,7 +55,9 @@ RHSMocker::Application.routes.draw do
         get :onboarding_calls, on: :collection
       end
       resources :diseases, :only => :index, :controller => :conditions
-      resources :enrollments, only: %i(show create update)
+      resources :enrollments, only: %i(show create update) do
+        get :on_board, on: :collection
+      end
       resources :ethnic_groups, :only => :index
       get 'factors/:symptom_id', to: 'factor_groups#index' # TODO - deprecated!
       resources :locations, :only => :create
@@ -155,6 +157,7 @@ RHSMocker::Application.routes.draw do
         resources :scheduled_communications, only: %i(index show update destroy)
         resources :scheduled_messages, except: %i(new edit)
         put :secure_update, on: :member, to: 'members#secure_update'
+        resources :services, only: %i(index create)
         resources :subscriptions, only: [:index, :create] do
           delete :destroy, :on => :collection
           put :update, :on => :collection

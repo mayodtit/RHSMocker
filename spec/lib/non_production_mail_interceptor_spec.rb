@@ -14,7 +14,6 @@ describe NonProductionMailInterceptor, "delivery interception" do
 
   it "mail to non-getbetter.com goes to inner mailbox" do
     deliver_outer_mail
-
     NonProductionMailInterceptor.stub(:deliver? => false)
     expect(outer_mail.subject).to eq('[To:Neel@getworse.com]Test')
     expect(outer_mail.to).to eq(["test@getbetter.com"])

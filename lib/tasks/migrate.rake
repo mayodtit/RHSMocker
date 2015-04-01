@@ -127,4 +127,11 @@ namespace :migrate do
       end
     end
   end
+
+  task :update_member_task_priority => :environment do
+    MemberTask.open_state.each {|task|
+      task.priority = 3
+      task.save
+    }
+  end
 end

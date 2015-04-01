@@ -3,6 +3,7 @@ PHA_ATTRIBUTES = [
     email: 'clare@getbetter.com',
     first_name: 'Clare',
     last_name: 'W',
+    gender: 'female',
     bio: "Clare leads the Personal Health Assistant Team here at Better, " +
          "has a background in preventive health and psychology, and is " +
          "an amateur half-marathoner. She loves living in California " +
@@ -16,6 +17,7 @@ PHA_ATTRIBUTES = [
     email: 'lauren@getbetter.com',
     first_name: 'Lauren',
     last_name: 'M',
+    gender: 'female',
     bio: "Lauren has worked as an EMT, a disease prevention counselor, and " +
          "a clinical researcher. She's passionate about preventive care " +
          "and patient empowerment. In her free time, Lauren is an avid " +
@@ -29,6 +31,7 @@ PHA_ATTRIBUTES = [
     email: 'meg@getbetter.com',
     first_name: 'Meg',
     last_name: 'M',
+    gender: 'female',
     bio: "Meg has a clinical background in hospice and palliative care " +
          "nursing and previously worked in research at UCSF's Integrative " +
          "Health Center. In her free time she loves to be outside, " +
@@ -42,6 +45,7 @@ PHA_ATTRIBUTES = [
     email: 'ninette@getbetter.com',
     first_name: 'Ninette',
     last_name: 'T',
+    gender: 'female',
     bio: "Ninette is a Registered Nurse who has worked as a floor nurse " +
          "and a discharge needs coordinator. Most recently, she worked " +
          "at Coram as a Clinical Service Liaison at UCSF and discovered " +
@@ -55,6 +59,7 @@ PHA_ATTRIBUTES = [
     email: 'jenn@getbetter.com',
     first_name: 'Jenn',
     last_name: 'C',
+    gender: 'female',
     bio: "Jenn previously worked for the Centers for Disease Control and " +
          "Prevention (CDC) and Harvard Medical School & Harvard Pilgrim " +
          "Health Care. She is an avid cyclist, East Coast native and has " +
@@ -68,6 +73,7 @@ PHA_ATTRIBUTES = [
     email: 'ann@getbetter.com',
     first_name: 'Ann',
     last_name: 'B',
+    gender: 'female',
     bio: "Ann is a lifestyle health coach specialized in building healthy " +
          "habits and managing chronic conditions. Previously, she developed " +
          "a bilingual, culturally-competent diabetes prevention program. " +
@@ -82,6 +88,7 @@ PHA_ATTRIBUTES = [
     email: 'jacqueline@getbetter.com',
     first_name: 'Jacqui',
     last_name: 'B',
+    gender: 'female',
     bio: "Jacqui has a Master's in Public Health with a focus in Health " +
          "Education. Previously, she worked as an academic mental health " +
          "researcher and disease prevention counselor. In her free time, " +
@@ -95,6 +102,7 @@ PHA_ATTRIBUTES = [
     email: 'crystal@getbetter.com',
     first_name: 'Crystal',
     last_name: 'S',
+    gender: 'female',
     bio: 'Crystal is a registered dietitian and certified medical ' +
          'assistant. She is originally from the Midwest and enjoys ' +
          'cooking, yoga, and being outdoors.',
@@ -107,6 +115,7 @@ PHA_ATTRIBUTES = [
     email: 'elbret@getbetter.com',
     first_name: 'Elbret',
     last_name: 'B',
+    gender: 'female',
     bio: "Elbret is experienced in patient advocacy, health education and awareness, and insurance issues. In her free time, she enjoys cardio kickboxing classes and reading interior design magazines.",
     first_person_bio: "I’m experienced in patient advocacy, health education and awareness, and insurance issues. In my free time, I enjoy cardio kickboxing classes and reading interior design magazines.",
     arrow_image: 'elbret-arrow.png',
@@ -117,6 +126,7 @@ PHA_ATTRIBUTES = [
     email: 'caitlin@getbetter.com',
     first_name: 'Caitlin',
     last_name: 'P',
+    gender: 'female',
     bio: "Caitlin has worked as a physical therapy aide and an EMT. She loves music and her favorite stress relievers are playing violin and hiking (though usually not at the same time).",
     first_person_bio: "I’ve worked as a physical therapy aide and an EMT. I love music and my favorite stress relievers are playing violin and hiking (though usually not at the same time).",
     arrow_image: 'caitlin-arrow.png',
@@ -184,6 +194,7 @@ PHA_ATTRIBUTES.each do |attributes|
   m.pha_profile.update_attributes(bio_image: image)
   image = File.open(File.join(Rails.root, 'app', 'assets', 'images', attributes[:bio_image]))
   m.pha_profile.update_attributes(full_page_bio_image: image)
+  m.update_attributes(gender: attributes[:gender])
 end
 
 Member.upsert_attributes({email: 'testphone+robot@getbetter.com'}, {first_name: 'Better', last_name: '', avatar_url_override: 'http://i.imgur.com/eU3p9Hj.jpg'})
