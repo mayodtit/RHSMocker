@@ -45,6 +45,10 @@ class Api::V1::ServicesController < Api::V1::ABaseController
 
   private
 
+  def load_member!
+    @member = Member.find(params[:member_id] || params[:user_id])
+  end
+
   def load_service!
     @service = Service.find params[:id]
   end
