@@ -117,6 +117,7 @@ RHSMocker::Application.routes.draw do
       resources :user_requests, only: %i(index show create update)
       resources :users, only: [:show, :update, :destroy] do
         get :index, on: :collection, to: 'providers#index' # TODO - this is deprecated; new endpoint: providers/search
+        resources :user_files, only: :create
         resources :addresses, except: %i(new edit)
         resources :agreements, only: :create, controller: 'user_agreements'
         resources :allergies, :except => [:new, :edit, :update], :controller => 'user_allergies'

@@ -23,6 +23,7 @@ class User < ActiveRecord::Base
   has_one :user_information
   has_many :addresses, inverse_of: :user
   has_many :insurance_policies
+  has_many :user_files
   has_one :provider
   has_one :emergency_contact
 

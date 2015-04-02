@@ -56,6 +56,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.permit(:image, :client_guid)
   end
 
+  def user_file
+    params.require(:user_file).permit(:file)
+  end
+
   def height
     params.require(:height).permit(:amount, :taken_at, :healthkit_uuid, :healthkit_source)
   end
