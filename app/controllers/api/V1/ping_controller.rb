@@ -28,6 +28,7 @@ class Api::V1::PingController < Api::V1::ABaseController
       metadata_hash.delete('app_store_url')
       metadata_hash.delete('nux_question_text')
       hash.merge!({metadata: metadata_hash})
+      hash.merge!({logging_level: current_session.logging_level, logging_command: current_session.logging_command}) if session_valid?
     end
 
     if ios_version_valid? || android_version_valid?
@@ -52,11 +53,6 @@ class Api::V1::PingController < Api::V1::ABaseController
     else
       render_failure
     end
-  end
-
-  def authentication_check
-    @session = Session.find_by_auth_token(params[:auth_token])
-    auto_login(@session.member) if @session.try(:member)
   end
 
   def session_valid?
