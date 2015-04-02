@@ -55,6 +55,11 @@ class Api::V1::PingController < Api::V1::ABaseController
     end
   end
 
+  def authentication_check
+    @session = Session.find_by_auth_token(params[:auth_token])
+    auto_login(@session.member) if @session.try(:member)
+  end
+
   def session_valid?
     (params[:auth_token] && current_session) ? true : false
   end
