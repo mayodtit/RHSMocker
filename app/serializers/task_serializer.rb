@@ -28,6 +28,7 @@ class TaskSerializer < ActiveModel::Serializer
         state: object.state,
         due_at: object.due_at,
         created_at: object.created_at,
+        member_id: member_id,
         type: type,
         service_type: object.service_type,
         urgent: object.urgent,
