@@ -33,6 +33,7 @@ class ServiceSerializer < ActiveModel::Serializer
     {
       service_type: object.service_type,
       owner: object.owner.try(:serializer, options.merge(shallow: true)),
+      member: object.member.try(:serializer, options.merge(shallow: true)),
       tasks: tasks
     }
   end
@@ -41,6 +42,7 @@ class ServiceSerializer < ActiveModel::Serializer
     {
       service_type: object.service_type,
       owner: object.owner.try(:serializer, options),
+      member: object.member.try(:serializer, options),
       tasks: tasks
     }
   end
