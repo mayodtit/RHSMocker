@@ -1,4 +1,3 @@
-
 Condition.find_or_create_by_name(name: "Abdominal pain",
                                  snomed_name: "Abdominal pain (finding)",
                                  snomed_code: "750827015")
@@ -14,16 +13,16 @@ Condition.find_or_create_by_name(name: "Actinic keratosis",
 Condition.find_or_create_by_name(name: "Acute hepatitis C",
                                  snomed_name: "Acute hepatitis C (disorder)",
                                  snomed_code: "624381015")
-Condition.find_or_create_by_name(name: "ADHD",
+Condition.find_or_create_by_name(name: "Attention deficit hyperactivity disorder (disorder)",
                                  snomed_name: "Attention deficit hyperactivity disorder (disorder)",
                                  snomed_code: "2150336014")
 Condition.find_or_create_by_name(name: "Anemia",
                                  snomed_name: "Anemia",
                                  snomed_code: "271737000")
-Condition.find_or_create_by_name(name: "Anxiety disorder",
+Condition.find_or_create_by_name(name: "Anxiety disorder (disorder)",
                                  snomed_name: "Anxiety disorder (disorder)",
                                  snomed_code: "581863017")
-Condition.find_or_create_by_name(name: "Anxiety",
+Condition.find_or_create_by_name(name: "Anxiety disorder (disorder)",
                                  snomed_name: "Anxiety disorder (disorder)",
                                  snomed_code: "581863017")
 Condition.find_or_create_by_name(name: "Akureyri disease",
@@ -32,13 +31,13 @@ Condition.find_or_create_by_name(name: "Akureyri disease",
 Condition.find_or_create_by_name(name: "Arthritis",
                                  snomed_name: "Arthritis (disorder)",
                                  snomed_code: "769074019")
-Condition.find_or_create_by_name(name: "Autistic disorder",
+Condition.find_or_create_by_name(name: "Autistic disorder (disorder)",
                                  snomed_name: "Autistic disorder (disorder)",
                                  snomed_code: "2464307018")
 Condition.find_or_create_by_name(name: "Autism",
                                  snomed_name: "Autistic disorder (disorder)",
                                  snomed_code: "2464307018")
-Condition.find_or_create_by_name(name: "Autistic",
+Condition.find_or_create_by_name(name: "Autistic disorder (disorder)",
                                  snomed_name: "Autistic disorder (disorder)",
                                  snomed_code: "2464307018")
 Condition.find_or_create_by_name(name: "Alzheimer's disease",
@@ -62,7 +61,7 @@ Condition.find_or_create_by_name(name: "Central retinal vein occlusion",
 Condition.find_or_create_by_name(name: "Cirrhosis of liver",
                                  snomed_name: "Cirrhosis of liver (disorder)",
                                  snomed_code: "748614010")
-Condition.find_or_create_by_name(name: "Chlamydia",
+Condition.find_or_create_by_name(name: "Chlamydia trachomatis infection (disorder)",
                                  snomed_name: "Chlamydia trachomatis infection (disorder)",
                                  snomed_code: "629754016")
 Condition.find_or_create_by_name(name: "Constipation",
@@ -77,10 +76,10 @@ Condition.find_or_create_by_name(name: "Chronic diarrhea",
 Condition.find_or_create_by_name(name: "Chronic back pain",
                                  snomed_name: "Chronic back pain (finding)",
                                  snomed_code: "2461407018")
-Condition.find_or_create_by_name(name: "Chronic low back pain",
+Condition.find_or_create_by_name(name: "Chronic back pain (finding)",
                                  snomed_name: "Chronic low back pain (finding)",
                                  snomed_code: "2461407018")
-Condition.find_or_create_by_name(name: "CLBP",
+Condition.find_or_create_by_name(name: "Chronic back pain (finding)",
                                  snomed_name: "Chronic low back pain (finding)",
                                  snomed_code: "2461407018")
 Condition.find_or_create_by_name(name: "Chronic thoracic back pain",
@@ -104,7 +103,7 @@ Condition.find_or_create_by_name(name: "Chronic inflammatory demyelinating polyr
 Condition.find_or_create_by_name(name: "COPD",
                                  snomed_name: "Chronic obstructive lung disease (disorder)",
                                  snomed_code: "739041012")
-Condition.find_or_create_by_name(name: "Chronic obstructive lung disease ",
+Condition.find_or_create_by_name(name: "Chronic obstructive lung disease (disorder)",
                                  snomed_name: "Chronic obstructive lung disease (disorder)",
                                  snomed_code: "739041012")
 Condition.find_or_create_by_name(name: "Chronic sinusitis",
@@ -119,7 +118,7 @@ Condition.find_or_create_by_name(name: "Crohns disease",
 Condition.find_or_create_by_name(name: "Clap",
                                  snomed_name: "Gonorrhea (disorder)",
                                  snomed_code: "742488016")
-Condition.find_or_create_by_name(name: "Colitis (Ulcerative)",
+Condition.find_or_create_by_name(name: "Ulcerative colitis",
                                  snomed_name: "Ulcerative colitis",
                                  snomed_code: "64766004")
 Condition.find_or_create_by_name(name: "Coronary arteriosclerosis",
@@ -140,7 +139,7 @@ Condition.find_or_create_by_name(name: "Cystic fibrosis of pancreas",
 Condition.find_or_create_by_name(name: "Cystic fibrosis of the lung",
                                  snomed_name: "Cystic fibrosis of the lung (disorder)",
                                  snomed_code: "828843013")
-Condition.find_or_create_by_name(name: "Depressive Disorder",
+Condition.find_or_create_by_name(name: "Depression",
                                  snomed_name: "Depressive disorder",
                                  snomed_code: "35489007")
 Condition.find_or_create_by_name(name: "Depression",
@@ -149,10 +148,10 @@ Condition.find_or_create_by_name(name: "Depression",
 Condition.find_or_create_by_name(name: "Diabetes insipidus",
                                  snomed_name: "Diabetes insipidus",
                                  snomed_code: "742658019")
-Condition.find_or_create_by_name(name: "Diabetes mellitus mellitus type 1",
+Condition.find_or_create_by_name(name: "Diabetes mellitus type 1 (disorder)",
                                  snomed_name: "Diabetes mellitus type 1 (disorder)",
                                  snomed_code: "784006012")
-Condition.find_or_create_by_name(name: "Diabetes mellitus mellitus type 2",
+Condition.find_or_create_by_name(name: "Diabetes mellitus type 2 (disorder)",
                                  snomed_name: "Diabetes mellitus type 2 (disorder)",
                                  snomed_code: "781138016")
 Condition.find_or_create_by_name(name: "Dysthymia",
@@ -173,7 +172,7 @@ Condition.find_or_create_by_name(name: "Ehlers-Danlos syndrome, type 3",
 Condition.find_or_create_by_name(name: "Eczema",
                                  snomed_name: "Eczema (disorder)",
                                  snomed_code: "1203151017")
-Condition.find_or_create_by_name(name: "Fatigue",
+Condition.find_or_create_by_name(name: "Chronic fatigue syndrome (disorder)",
                                  snomed_name: "Chronic fatigue syndrome (disorder)",
                                  snomed_code: "790741013")
 Condition.find_or_create_by_name(name: "Flu",
@@ -194,10 +193,10 @@ Condition.find_or_create_by_name(name: "Gastroparesis",
 Condition.find_or_create_by_name(name: "Gastric ulcer",
                                  snomed_name: "Gastric ulcer (disorder)",
                                  snomed_code: "1765744015")
-Condition.find_or_create_by_name(name: "GERD",
+Condition.find_or_create_by_name(name: "Gastroesophageal reflux disease",
                                  snomed_name: "Gastroesophageal reflux disease (disorder)",
                                  snomed_code: "624072017")
-Condition.find_or_create_by_name(name: "GORD",
+Condition.find_or_create_by_name(name: "Gastroesophageal reflux disease",
                                  snomed_name: "Gastroesophageal reflux disease (disorder)",
                                  snomed_code: "624072017")
 Condition.find_or_create_by_name(name: "Gastroesophageal reflux disease",
@@ -209,7 +208,7 @@ Condition.find_or_create_by_name(name: "Goiter",
 Condition.find_or_create_by_name(name: "Gonorrhea",
                                  snomed_name: "Gonorrhea (disorder)",
                                  snomed_code: "742488016")
-Condition.find_or_create_by_name(name: "Gonorrhea of the rectum",
+Condition.find_or_create_by_name(name: "Gonorrhea of rectum (disorder)",
                                  snomed_name: "Gonorrhea of rectum (disorder)",
                                  snomed_code: "779679012")
 Condition.find_or_create_by_name(name: "Hypothyroidism",
@@ -218,16 +217,16 @@ Condition.find_or_create_by_name(name: "Hypothyroidism",
 Condition.find_or_create_by_name(name: "Hypercholesterolemia",
                                  snomed_name: "Hypercholesterolemia",
                                  snomed_code: "13644009")
-Condition.find_or_create_by_name(name: "Headache",
+Condition.find_or_create_by_name(name: "Sick headache (disorder)",
                                  snomed_name: "Sick headache (disorder)",
                                  snomed_code: "576870011")
-Condition.find_or_create_by_name(name: "Cluster Headache Syndrome",
+Condition.find_or_create_by_name(name: "Cluster headache syndrome (disorder)",
                                  snomed_name: "Cluster Headache Syndrome (disorder)",
                                  snomed_code: "576874019")
-Condition.find_or_create_by_name(name: "Chronic Headaches",
+Condition.find_or_create_by_name(name: "Cluster headache syndrome (disorder)",
                                  snomed_name: "Cluster Headache Syndrome (disorder)",
                                  snomed_code: "576874019")
-Condition.find_or_create_by_name(name: "High Cholesterol",
+Condition.find_or_create_by_name(name: "Hypercholesterolaemia",
                                  snomed_name: "Hypercholesterolemia",
                                  snomed_code: "13644009")
 Condition.find_or_create_by_name(name: "History of tonsillectomy",
@@ -245,13 +244,13 @@ Condition.find_or_create_by_name(name: "Hyperthyroidism",
 Condition.find_or_create_by_name(name: "Hypertrophic cardiomyopathy",
                                  snomed_name: "Hypertrophic cardiomyopathy (disorder)",
                                  snomed_code: "622117015")
-Condition.find_or_create_by_name(name: "HCM",
+Condition.find_or_create_by_name(name: "Hypertrophic cardiomyopathy (disorder)",
                                  snomed_name: "Hypertrophic cardiomyopathy (disorder)",
                                  snomed_code: "622117015")
-Condition.find_or_create_by_name(name: "High Blood Pressure",
+Condition.find_or_create_by_name(name: "Hypertensive disorder, systemic arterial (disorder)",
                                  snomed_name: "Hypertensive disorder, systemic arterial",
                                  snomed_code: "1202949014")
-Condition.find_or_create_by_name(name: "IBS",
+Condition.find_or_create_by_name(name: "Irritable bowel syndrome (disorder)",
                                  snomed_name: "Irritable bowel syndrome (disorder)",
                                  snomed_code: "2912822011")
 Condition.find_or_create_by_name(name: "Irritable bowel syndrome",
@@ -266,7 +265,7 @@ Condition.find_or_create_by_name(name: "Insomnia",
 Condition.find_or_create_by_name(name: "Influenza",
                                  snomed_name: "Influenza (disorder)",
                                  snomed_code: "800481016")
-Condition.find_or_create_by_name(name: "Elevated Blood Pressure",
+Condition.find_or_create_by_name(name: "Hypertensive disorder, systemic arterial (disorder)",
                                  snomed_name: "Hypertensive disorder, systemic arterial",
                                  snomed_code: "1202949014")
 Condition.find_or_create_by_name(name: "Epilepsy",
@@ -275,7 +274,7 @@ Condition.find_or_create_by_name(name: "Epilepsy",
 Condition.find_or_create_by_name(name: "Hyperlipidemia",
                                  snomed_name: "Hyperlipidemia",
                                  snomed_code: "55822004")
-Condition.find_or_create_by_name(name: "Gastroesophageal reflux",
+Condition.find_or_create_by_name(name: "Gastroesophageal reflux disease",
                                  snomed_name: "Gastroesophageal reflux",
                                  snomed_code: "235595009")
 Condition.find_or_create_by_name(name: "Gastritis",
@@ -290,7 +289,7 @@ Condition.find_or_create_by_name(name: "Obstructive sleep apnea syndrome",
 Condition.find_or_create_by_name(name: "Obesity",
                                  snomed_name: "Obesity",
                                  snomed_code: "414916001")
-Condition.find_or_create_by_name(name: "Overweight",
+Condition.find_or_create_by_name(name: "Obesity",
                                  snomed_name: "Obesity",
                                  snomed_code: "414916001")
 Condition.find_or_create_by_name(name: "Oropharyngeal dysphagia",
@@ -317,7 +316,7 @@ Condition.find_or_create_by_name(name: "Frontotemporal dementia",
 Condition.find_or_create_by_name(name: "Migraine",
                                  snomed_name: "Migraine (disorder)",
                                  snomed_code: "769703016")
-Condition.find_or_create_by_name(name: "Migraine Headaches",
+Condition.find_or_create_by_name(name: "Migraine (disorder)",
                                  snomed_name: "Migraine (disorder)",
                                  snomed_code: "769703016")
 Condition.find_or_create_by_name(name: "Myasthenia gravis",
@@ -326,7 +325,7 @@ Condition.find_or_create_by_name(name: "Myasthenia gravis",
 Condition.find_or_create_by_name(name: "Ulcerative colitis",
                                  snomed_name: "Ulcerative colitis",
                                  snomed_code: "64766004")
-Condition.find_or_create_by_name(name: "Kidney Stone",
+Condition.find_or_create_by_name(name: "Kidney stone (disorder)",
                                  snomed_name: "Kidney Stone (disorder)",
                                  snomed_code: "839752010")
 Condition.find_or_create_by_name(name: "Glaucoma",
@@ -341,7 +340,7 @@ Condition.find_or_create_by_name(name: "Graves disease",
 Condition.find_or_create_by_name(name: "Juvenile Graves' disease",
                                  snomed_name: "Juvenile Graves' disease (disorder)",
                                  snomed_code: "626606018")
-Condition.find_or_create_by_name(name: "Juvenile Graves disease",
+Condition.find_or_create_by_name(name: "Juvenile Graves' disease (disorder)",
                                  snomed_name: "Juvenile Graves' disease (disorder)",
                                  snomed_code: "626606018")
 Condition.find_or_create_by_name(name: "Nervous breakdown",
@@ -359,16 +358,16 @@ Condition.find_or_create_by_name(name: "Postmenopausal osteoporosis",
 Condition.find_or_create_by_name(name: "Menopausal osteoporosis",
                                  snomed_name: "Menopausal osteoporosis (disorder)",
                                  snomed_code: "763643011")
-Condition.find_or_create_by_name(name: "Panic Attacks",
+Condition.find_or_create_by_name(name: "Panic disorder (disorder)",
                                  snomed_name: "Panic disorder (disorder)",
                                  snomed_code: "1196930010")
 Condition.find_or_create_by_name(name: "Polycystic ovaries",
                                  snomed_name: "Polycystic ovaries (disorder)",
                                  snomed_code: "809871017")
-Condition.find_or_create_by_name(name: "PCO",
+Condition.find_or_create_by_name(name: "Polycystic ovaries (disorder)",
                                  snomed_name: "Polycystic ovaries (disorder)",
                                  snomed_code: "809871017")
-Condition.find_or_create_by_name(name: "PCOS - Polycystic ovarian syndrome",
+Condition.find_or_create_by_name(name: "Polycystic ovaries (disorder)",
                                  snomed_name: "Polycystic ovaries (disorder)",
                                  snomed_code: "809871017")
 Condition.find_or_create_by_name(name: "Stein-Leventhal syndrome",
@@ -386,7 +385,7 @@ Condition.find_or_create_by_name(name: "Postpartum depression",
 Condition.find_or_create_by_name(name: "Postural orthostatic tachycardia syndrome",
                                  snomed_name: "Postural orthostatic tachycardia syndrome (disorder)",
                                  snomed_code: "1196369012")
-Condition.find_or_create_by_name(name: "POTS",
+Condition.find_or_create_by_name(name: "Postural orthostatic tachycardia syndrome (disorder)",
                                  snomed_name: "Postural orthostatic tachycardia syndrome (disorder)",
                                  snomed_code: "1196369012")
 Condition.find_or_create_by_name(name: "Psoriasis",
@@ -431,7 +430,7 @@ Condition.find_or_create_by_name(name: "Sjögren's syndrome",
 Condition.find_or_create_by_name(name: "Sjogren's syndrome",
                                  snomed_name: "Sjögren's syndrome (disorder)",
                                  snomed_code: "825633012")
-Condition.find_or_create_by_name(name: "Spina Bifida",
+Condition.find_or_create_by_name(name: "Spina bifida (disorder)",
                                  snomed_name: "Spina Bifida (disorder)",
                                  snomed_code: "807266011")
 Condition.find_or_create_by_name(name: "Stroke",
@@ -446,7 +445,7 @@ Condition.find_or_create_by_name(name: "Thyroid infection",
 Condition.find_or_create_by_name(name: "Thyroid gland hematoma",
                                  snomed_name: "Thyroid gland hematoma (disorder)",
                                  snomed_code: "654809011")
-Condition.find_or_create_by_name(name: "Thyroid gland blood clot",
+Condition.find_or_create_by_name(name: "Thyroid gland hematoma (disorder)",
                                  snomed_name: "Thyroid gland hematoma (disorder)",
                                  snomed_code: "654809011")
 Condition.find_or_create_by_name(name: "Thrombosis",
@@ -458,10 +457,10 @@ Condition.find_or_create_by_name(name: "Traumatic brain injury",
 Condition.find_or_create_by_name(name: "Type 1 diabetes mellitus with hypoglycemic coma",
                                  snomed_name: "Type 1 diabetes mellitus with hypoglycemic coma (disorder)",
                                  snomed_code: "711608018")
-Condition.find_or_create_by_name(name: "Type 2 Diabetes",
+Condition.find_or_create_by_name(name: "Type 2 diabetes mellitus",
                                  snomed_name: "Diabetes mellitus type 2",
                                  snomed_code: "44054006")
-Condition.find_or_create_by_name(name: "Underactive Thyroid",
+Condition.find_or_create_by_name(name: "Hypothyroid",
                                  snomed_name: "Hypothyroidism",
                                  snomed_code: "40930008")
 Condition.find_or_create_by_name(name: "Upper respiratory infection",
@@ -473,43 +472,43 @@ Condition.find_or_create_by_name(name: "Urinary tract infectious disease",
 Condition.find_or_create_by_name(name: "Vascular dementia",
                                  snomed_name: "Vascular dementia",
                                  snomed_code: "429998004")
-Condition.find_or_create_by_name(name: "Colon Cancer",
+Condition.find_or_create_by_name(name: "Malignant tumor of colon (disorder)",
                                  snomed_name: "Malignant tumor of colon (disorder)",
                                  snomed_code: "755227010")
-Condition.find_or_create_by_name(name: "Rectal Cancer",
+Condition.find_or_create_by_name(name: "Malignant tumor of rectum (disorder)",
                                  snomed_name: "Malignant tumor of rectum (disorder)",
                                  snomed_code: "755166011")
-Condition.find_or_create_by_name(name: "Breast Cancer",
+Condition.find_or_create_by_name(name: "Malignant tumor of breast (disorder)",
                                  snomed_name: "Malignant tumor of breast (disorder)",
                                  snomed_code: "645787019")
-Condition.find_or_create_by_name(name: "Thyroid Cancer",
+Condition.find_or_create_by_name(name: "Malignant tumor of thyroid gland (disorder)",
                                  snomed_name: "Malignant tumor of thyroid gland (disorder)",
                                  snomed_code: "755307011")
-Condition.find_or_create_by_name(name: "Prostate Cancer",
+Condition.find_or_create_by_name(name: "Malignant tumor of prostate (disorder)",
                                  snomed_name: "Malignant tumor of prostate (disorder)",
                                  snomed_code: "1766988013")
 Condition.find_or_create_by_name(name: "Pancreatic cancer",
                                  snomed_name: "Malignant tumor of pancreas (disorder)",
                                  snomed_code: "755240017")
-Condition.find_or_create_by_name(name: "Lung cancer",
+Condition.find_or_create_by_name(name: "Malignant tumor of lung (disorder)",
                                  snomed_name: "Malignant tumor of lung (disorder)",
                                  snomed_code: "755174012")
-Condition.find_or_create_by_name(name: "Melanoma",
+Condition.find_or_create_by_name(name: "Malignant melanoma (disorder)",
                                  snomed_name: "Malignant melanoma (disorder)",
                                  snomed_code: "1197537014")
-Condition.find_or_create_by_name(name: "Skin cancer",
+Condition.find_or_create_by_name(name: "Malignant melanoma (disorder)",
                                  snomed_name: "Malignant melanoma (disorder)",
                                  snomed_code: "1197537014")
-Condition.find_or_create_by_name(name: "Kidney Cancer",
+Condition.find_or_create_by_name(name: "Malignant tumor of kidney (disorder)",
                                  snomed_name: "Malignant tumor of kidney (disorder)",
                                  snomed_code: "755351019")
-Condition.find_or_create_by_name(name: "Bladder Cancer",
+Condition.find_or_create_by_name(name: "Malignant tumor of urinary bladder (disorder)",
                                  snomed_name: "Malignant tumor of urinary bladder (disorder)",
                                  snomed_code: "1767246018")
 Condition.find_or_create_by_name(name: "Leukemia",
                                  snomed_name: "Leukemia, disease (disorder)",
                                  snomed_code: "836815016")
-Condition.find_or_create_by_name(name: "HIV",
+Condition.find_or_create_by_name(name: "Human immunodeficiency virus infection (disorder)",
                                  snomed_name: "Human immunodeficiency virus infection (disorder)",
                                  snomed_code: "828663016")
 Condition.find_or_create_by_name(name: "Human immunodeficiency virus infection",
@@ -518,7 +517,7 @@ Condition.find_or_create_by_name(name: "Human immunodeficiency virus infection",
 Condition.find_or_create_by_name(name: "Parkinson's disease",
                                  snomed_name: "Parkinson's disease (disorder)",
                                  snomed_code: "786684014")
-Condition.find_or_create_by_name(name: "Wolff-Parkinson-White pattern",
+Condition.find_or_create_by_name(name: "Parkinson's disease (disorder)",
                                  snomed_name: "Wolff-Parkinson-White pattern (disorder)",
                                  snomed_code: "786684014")
 Condition.find_or_create_by_name(name: "Juvenile Parkinson's disease",
@@ -530,13 +529,13 @@ Condition.find_or_create_by_name(name: "Non-Hodgkin's lymphoma",
 Condition.find_or_create_by_name(name: "Hypoglycemia",
                                  snomed_name: "Hypoglycemia (disorder)",
                                  snomed_code: "699035019")
-Condition.find_or_create_by_name(name: "Chronic metabolic disorder",
+Condition.find_or_create_by_name(name: "Hypoglycaemia",
                                  snomed_name: "Chronic metabolic disorder (disorder)",
                                  snomed_code: "302866003")
 Condition.find_or_create_by_name(name: "Multiple sclerosis",
                                  snomed_name: "Multiple sclerosis (disorder)",
                                  snomed_code: "754365011")
-Condition.find_or_create_by_name(name: "MS",
+Condition.find_or_create_by_name(name: "Multiple sclerosis (disorder)",
                                  snomed_name: "Multiple sclerosis (disorder)",
                                  snomed_code: "754365011")
 Condition.find_or_create_by_name(name: "Vitiligo",
@@ -545,7 +544,7 @@ Condition.find_or_create_by_name(name: "Vitiligo",
 Condition.find_or_create_by_name(name: "Interstitial cystitis",
                                  snomed_name: "Chronic interstitial cystitis (disorder)",
                                  snomed_code: "582256011")
-Condition.find_or_create_by_name(name: "Polyneuritis ",
+Condition.find_or_create_by_name(name: "Polyneuritis (disorder)",
                                  snomed_name: "Polyneuritis  (disorder)",
                                  snomed_code: "817655016")
 Condition.find_or_create_by_name(name: "Vulvar vestibulitis",
@@ -569,7 +568,7 @@ Condition.find_or_create_by_name(name: "Anismus",
 Condition.find_or_create_by_name(name: "Hypersomnia",
                                  snomed_name: "Hypersomnia (disorder)",
                                  snomed_code: "818550018")
-Condition.find_or_create_by_name(name: "Excessive Sleep",
+Condition.find_or_create_by_name(name: "Hypersomnia (disorder)",
                                  snomed_name: "Hypersomnia (disorder)",
                                  snomed_code: "818550018")
 Condition.find_or_create_by_name(name: "Hypersomnia disorder related to menstruation",
@@ -581,7 +580,7 @@ Condition.find_or_create_by_name(name: "Hypersomnia with sleep apnea",
 Condition.find_or_create_by_name(name: "Posttraumatic stress disorder",
                                  snomed_name: "Posttraumatic stress disorder (disorder)",
                                  snomed_code: "784971017")
-Condition.find_or_create_by_name(name: "PTSD",
+Condition.find_or_create_by_name(name: "Posttraumatic stress disorder (disorder)",
                                  snomed_name: "Posttraumatic stress disorder (disorder)",
                                  snomed_code: "784971017")
 Condition.find_or_create_by_name(name: "Bronchiectasis",
@@ -620,7 +619,7 @@ Condition.find_or_create_by_name(name: "Exumbilication",
 Condition.find_or_create_by_name(name: "Angina",
                                  snomed_name: "Angina( disorder)",
                                  snomed_code: "578858017")
-Condition.find_or_create_by_name(name: "Cardiac Angina",
+Condition.find_or_create_by_name(name: "Angina (disorder)",
                                  snomed_name: "Angina( disorder)",
                                  snomed_code: "578858017")
 Condition.find_or_create_by_name(name: "Angina, class I",
@@ -761,10 +760,10 @@ Condition.find_or_create_by_name(name: "Menstrual migraine",
 Condition.find_or_create_by_name(name: "Delusional disorder",
                                  snomed_name: "Delusional disorder (disorder)",
                                  snomed_code: "786074014")
-Condition.find_or_create_by_name(name: "Paranoia disorder",
+Condition.find_or_create_by_name(name: "Delusional disorder (disorder)",
                                  snomed_name: "Delusional disorder (disorder)",
                                  snomed_code: "786074014")
-Condition.find_or_create_by_name(name: "Drug-induced paranoia",
+Condition.find_or_create_by_name(name: "Drug-induced paranoid state (disorder)",
                                  snomed_name: "Drug induced paranoia (disorder)",
                                  snomed_code: "575189019")
 Condition.find_or_create_by_name(name: "Arteriosclerotic dementia with paranoia",
@@ -779,13 +778,13 @@ Condition.find_or_create_by_name(name: "Senile dementia with paranoia",
 Condition.find_or_create_by_name(name: "Congestive heart failure",
                                  snomed_name: "Congestive heart failure (disorder)",
                                  snomed_code: "779232016")
-Condition.find_or_create_by_name(name: "CHF",
+Condition.find_or_create_by_name(name: "Congestive heart failure (disorder)",
                                  snomed_name: "Congestive heart failure (disorder)",
                                  snomed_code: "779232016")
 Condition.find_or_create_by_name(name: "CCF - Congestive cardiac failure",
                                  snomed_name: "Congestive heart failure (disorder)",
                                  snomed_code: "779232016")
-Condition.find_or_create_by_name(name: "Congestive rheumatic heart failure ",
+Condition.find_or_create_by_name(name: "Congestive rheumatic heart failure (disorder)",
                                  snomed_name: "Congestive rheumatic heart failure (disorder)",
                                  snomed_code: "823964010")
 Condition.find_or_create_by_name(name: "Chronic congestive heart failure",
@@ -1037,7 +1036,7 @@ Condition.find_or_create_by_name(name: "Uterine prolapse",
 Condition.find_or_create_by_name(name: "Prolapsed uterus",
                                  snomed_name: "Uterine prolapse (disorder)",
                                  snomed_code: "754673014")
-Condition.find_or_create_by_name(name: "Congenital prolapsed uterus",
+Condition.find_or_create_by_name(name: "Uterine prolapse (disorder)",
                                  snomed_name: "Congenital prolapsed uterus (disorder)",
                                  snomed_code: "754673014")
 Condition.find_or_create_by_name(name: "Syphilis",
@@ -1106,5 +1105,3 @@ Condition.find_or_create_by_name(name: "Benign intracranial hypertension",
 Condition.find_or_create_by_name(name: "Idiopathic intracranial hypertension",
                                  snomed_name: "Idiopathic intracranial hypertension (disorder)",
                                  snomed_code: "808083012")
-
-

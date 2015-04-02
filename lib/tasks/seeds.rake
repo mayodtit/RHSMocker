@@ -943,6 +943,7 @@ My phone: 650-887-3711
     obj.save
   end
 
+  # For testing purposes
   task :create_user_conditions => :environment do
     user = User.find_by_id(39)
     (1..363).each do |i|
