@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150331165453) do
+ActiveRecord::Schema.define(:version => 20150403231517) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1015,10 +1015,8 @@ ActiveRecord::Schema.define(:version => 20150331165453) do
   end
 
   add_index "sessions", ["advertiser_id"], :name => "index_sessions_on_advertiser_id"
-  add_index "sessions", ["apns_token"], :name => "index_sessions_on_apns_token", :unique => true
   add_index "sessions", ["auth_token"], :name => "index_sessions_on_auth_token", :unique => true
   add_index "sessions", ["device_id"], :name => "index_sessions_on_device_id"
-  add_index "sessions", ["gcm_id"], :name => "index_sessions_on_gcm_id", :unique => true
 
   create_table "side_effects", :force => true do |t|
     t.string   "name",        :null => false
