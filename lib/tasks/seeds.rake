@@ -871,12 +871,12 @@ My phone: 650-887-3711
       uri = URI.parse(url)
       json0 = JSON.parse(uri.read)['matches'][0]
 
-      # check if description id
+      # check if snomed_code is description id
       if json0 && json0['term'] == c.name
         found = true
         store_terms(c, json0['conceptId'], desc_id)
       else
-      # check if concept id
+      # check if snomed_code is concept id
         concept_id = json0 ? json0['conceptId'] : desc_id
         url = base_url + 'concepts/' + concept_id
         uri = URI.parse(url)
@@ -891,7 +891,7 @@ My phone: 650-887-3711
         end
       end
 
-      # reassign name id did not match with name
+      # reassign name if id did not match with name in the snomed database
       if !found && json0
         puts "#{desc_id} = #{json0['term']}, original name: #{c.name}" 
         concept_id = json0['conceptId']
