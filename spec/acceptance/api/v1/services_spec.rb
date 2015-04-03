@@ -37,7 +37,7 @@ resource "Services" do
     parameter :state_event, 'Event to perform on the service (\'reopen\', \'complete\', \'abandon\')'
     parameter :owner_id, 'The id of the owner of this service'
     parameter :due_at, 'When the service is due'
-    parameter :reason_abandoned, 'The reason for abandoning a service'
+    parameter :reason, 'The reason for abandoning a service'
 
     required_parameters :auth_token, :id
     scope_parameters :service, [:state_event, :owner_id, :due_at, :reason_abandoned]
@@ -48,7 +48,7 @@ resource "Services" do
     let(:owner_id) { other_pha.id }
     let(:time) { 4.days.from_now }
     let(:due_at) { time }
-    let(:reason_abandoned) { 'unreachable' }
+    let(:reason) { 'unreachable' }
 
     let(:raw_post) { params.to_json }
 
@@ -60,7 +60,7 @@ resource "Services" do
         service.reload
         service.should be_abandoned
         service.owner.should == other_pha
-        service.reason_abandoned.should == 'unreachable'
+        service.reason.should == 'unreachable'
         service.due_at.to_s.should == time.to_s
         response[:service].to_json.should == service.serializer.to_json
       end
