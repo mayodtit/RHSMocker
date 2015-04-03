@@ -33,6 +33,10 @@ class Api::V1::ServicesController < Api::V1::ABaseController
       update_params[:actor_id] = current_user.id
     end
 
+    if update_params[:state_event] == 'abandon'
+      update_params[update_params[:state_event].event_actor.to_sym] = current_user
+    end
+
     if !@service.owner_id && !update_params[:owner_id]
       update_params[:owner_id] = current_user.id
     end

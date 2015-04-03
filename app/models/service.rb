@@ -27,6 +27,7 @@ class Service < ActiveRecord::Base
   validates :title, :service_type, :state, :member, :creator, :owner, :assignor, :assigned_at, presence: true
   validates :user_facing, :inclusion => { :in => [true, false] }
   validates :service_template, presence: true, if: lambda { |s| s.service_template_id.present? }
+  validates :reason, presence: true, if: lambda { |s| (s.due_at_changed? && s.due_at_was.present?) || (s.state_changed? && s.abandoned?) }
   before_validation :set_assigned_at
 
   after_commit :track_update, on: :update
