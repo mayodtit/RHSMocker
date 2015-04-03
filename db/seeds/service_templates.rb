@@ -57,3 +57,36 @@ ServiceTemplate.find_or_create_by_name(
     service_type: ServiceType.find_by_name('appointment booking'),
     time_estimate: 150
 )
+
+CARE_COORDINATION_CALL_DESCRIPTION = <<-eof
+Who to call:
+Phone number:
+For member:
+Reason for call:
+Questions to ask:
+Possible next steps:
+
+**Specialist Call Notes:**
+Who you spoke with:
+Notes from call:
+
+---------------------------------------------------------
+
+**Member update:**
+1)
+
+**PHA Next steps:**
+1) Update member
+2) (if needed)
+
+**Specialist next steps:**
+1) (if needed)
+eof
+
+ServiceTemplate.find_or_create_by_name(
+    name: "care coordination call",
+    title: "Care Coordination Call",
+    description: CARE_COORDINATION_CALL_DESCRIPTION,
+    service_type: ServiceType.find_by_name('care coordination call'),
+    time_estimate: 120
+)

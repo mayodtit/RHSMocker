@@ -248,3 +248,35 @@ TaskTemplate.find_or_create_by_name(
     time_estimate: 60,
     service_ordinal: 2
 )
+
+#Care Coordination Call
+
+MAKE_CARE_COORDINATION_CALL_DESCRIPTION = <<-eof
+1. Make phone call
+1. Record who you spoke with and complete notes from call
+1. Update Member update
+1. Update PHA next steps (if needed)
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "care coordination call - make call",
+    service_template: ServiceTemplate.find_by_name('care coordination call'),
+    title: "Make Care Coordination Call",
+    description: MAKE_CARE_COORDINATION_CALL_DESCRIPTION,
+    time_estimate: 60,
+    service_ordinal: 0
+)
+
+CARE_COORDINATION_CALL_SEND_MEMBER_UPDATES_DESCRIPTION = <<-eof
+1. Update member
+1. Complete PHA next steps (see service description)
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "care coordination call - send update",
+    service_template: ServiceTemplate.find_by_name('care coordination call'),
+    title: "Send member update",
+    description: CARE_COORDINATION_CALL_SEND_MEMBER_UPDATES_DESCRIPTION,
+    time_estimate: 60,
+    service_ordinal: 1
+)
