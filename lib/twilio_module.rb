@@ -7,7 +7,7 @@ module TwilioModule
     end
 
     def message_now(phone_number, body)
-      return unless phone_number
+      return if phone_number.blank?
       body = "#{Rails.env} - #{body}" unless Rails.env.production?
 
       client.account.messages.create(
