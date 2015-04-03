@@ -832,14 +832,14 @@ My phone: 650-887-3711
         end
       end
     end
-    puts "TOTAL NODE FOUND #{not_found}"
+    puts "TOTAL NOT FOUND #{not_found}"
   end
 
   def filter_term(term)
     term = term.downcase
     term.slice!('(disorder)') if term.include? ('(disorder)')
     term.slice!('allergy') if term.include? ('allergy') 
-    term.slice!('to') if term.include? ('to')
+    term.slice!(' to ') if term.include? (' to ')
     term.strip
     term
   end
