@@ -9,7 +9,7 @@ class Message < ActiveRecord::Base
   belongs_to :phone_call_summary, inverse_of: :message
   belongs_to :user_image, inverse_of: :messages
   has_many :message_statuses
-  attr_accessor :no_notification
+  attr_accessor :no_notification, :pubsub_client_id
 
   attr_accessible :user, :user_id, :consult, :consult_id, :content,
                   :content_id, :phone_call, :phone_call_id,
@@ -21,7 +21,7 @@ class Message < ActiveRecord::Base
                   :symptom, :symptom_id, :condition, :condition_id,
                   :off_hours, :note, :user_image, :user_image_id,
                   :user_image_client_guid, :no_notification,
-                  :system, :automated
+                  :system, :automated, :pubsub_client_id
 
   validates :user, :consult, presence: true
   validates :off_hours, inclusion: {in: [true, false]}
@@ -47,9 +47,9 @@ class Message < ActiveRecord::Base
   mount_uploader :image, MessageImageUploader
 
   def publish
-    PubSub.publish "/users/#{consult.initiator_id}/consults/#{consult_id}/messages/new", {id: id}
+    PubSub.publish "/users/#{consult.initiator_id}/consults/#{consult_id}/messages/new", {id: id}, pubsub_client_id
     if consult.master?
-      PubSub.publish "/users/#{consult.initiator_id}/consults/current/messages/new", {id: id}
+      PubSub.publish "/users/#{consult.initiator_id}/consults/current/messages/new", {id: id}, pubsub_client_id
     end
   end
 
