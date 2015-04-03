@@ -844,6 +844,7 @@ My phone: 650-887-3711
     term
   end
 
+
   # Finds the description id of an term with by exact match
   def match_name(name, resp)
     resp['descriptions'].each{ |o|
@@ -870,10 +871,12 @@ My phone: 650-887-3711
       uri = URI.parse(url)
       json0 = JSON.parse(uri.read)['matches'][0]
 
+      # check if description id
       if json0 && json0['term'] == c.name
         found = true
         store_terms(c, json0['conceptId'], desc_id)
       else
+      # check if concept id
         concept_id = json0 ? json0['conceptId'] : desc_id
         url = base_url + 'concepts/' + concept_id
         uri = URI.parse(url)
@@ -888,6 +891,7 @@ My phone: 650-887-3711
         end
       end
 
+      # reassign name id did not match with name
       if !found && json0
         puts "#{desc_id} = #{json0['term']}, original name: #{c.name}" 
         concept_id = json0['conceptId']
@@ -903,6 +907,7 @@ My phone: 650-887-3711
     end
     puts "TOTAL FAILED #{failed}"
 
+    # manually fix conditions that could not be fixed by the script
     if failed != 0
       configure_condition(41, '64766004', '107644019', 'Ulcerative colitis')
       configure_condition(48, '35489007', '486184015', 'Depression')
@@ -913,6 +918,9 @@ My phone: 650-887-3711
       configure_condition(154, '40930008', '492839019', 'Hypothyroid')
       configure_condition(177, '302866003', '444844011', 'Hypoglycaemia')
     end
+
+    # remove the duplicate entries
+    remove_duplicates
   end
 
   def configure_condition(id, cid, did, cname)
@@ -966,11 +974,7 @@ My phone: 650-887-3711
     obj.save
   end
 
-  task :remove_duplicates => :environment do
-    require 'set'
-    require 'open-uri'
-    require 'json'
-    base_url = ENV['SNOMED_SEARCH_URL']
+  def remove_duplicates
     unique_conditions = {}
     set = Set.new
     conditions = Condition.all
