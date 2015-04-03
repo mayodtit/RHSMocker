@@ -40,7 +40,7 @@ resource "Services" do
     parameter :reason, 'The reason for abandoning a service'
 
     required_parameters :auth_token, :id
-    scope_parameters :service, [:state_event, :owner_id, :due_at, :reason_abandoned]
+    scope_parameters :service, [:state_event, :owner_id, :due_at, :reason]
 
     let(:id) { service.id }
     let(:state_event) { 'abandon' }
@@ -60,7 +60,6 @@ resource "Services" do
         service.reload
         service.should be_abandoned
         service.owner.should == other_pha
-        service.reason.should == 'unreachable'
         service.due_at.to_s.should == time.to_s
         response[:service].to_json.should == service.serializer.to_json
       end
