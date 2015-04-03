@@ -165,18 +165,23 @@ TaskTemplate.find_or_create_by_name(
 APPOINTMENT_BOOKING_CALL_PROVIDER_TEMPLATE = <<-eof
 1. Call provider office
 1. Book appointment that fits member’s preferences
-1. **If there is a cancellation fee and the appointment is within 48 hours of calling, don’t book unless member confirms**
-1. If there is no appointment during member’s preferences
- * Collect next available appointments
- * Assign PHA a task titled “UPDATE - no available appointments, get new option” and include available appointment information
- * Call back to book when PHA gets new information from member
+1. **If there is a cancellation fee and the appointment is within 48 hours of calling, don’t book unless urgent appointment**
+1. If there is no appointment during member’s preferences:
+  * Reassign task to PHA and add to title: “UPDATE -” and include in service description:
+    - Explanation (no appts available during preferred time)
+    - Available appointment information
+    - PHA Next Steps:
+      1) Update member and request new preferences
+      2) Send task back to HSA with update
+  * Call back to book when PHA gets new information from member
+  * Book next available appointment only if limited options
 1. Once booked, confirm:
- * Time and date of appointment
- * Location
- * Insurance
- * Visit length
- * Cancellation policy
-1. Request new patient paperwork for member to complete before visit
+  * Time and date of appointment
+  * Location
+  * Insurance
+  * Visit length
+  * Cancellation policy
+1. Request new patient paperwork for member to complete before visit to be faxed to 866-284-8260
 1. Update message in service notes with appointment information
 1. Complete task
 

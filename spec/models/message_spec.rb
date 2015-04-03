@@ -23,7 +23,7 @@ describe Message do
     it 'publishes that a message was created' do
       PubSub.should_receive(:publish).with(
         "/users/#{message.consult.initiator_id}/consults/#{message.consult_id}/messages/new",
-        {id: message.id}
+        {id: message.id}, nil
       )
       message.publish
     end
@@ -36,11 +36,11 @@ describe Message do
       it 'publishes that a message was created to two channels' do
         PubSub.should_receive(:publish).with(
           "/users/#{message.consult.initiator_id}/consults/#{message.consult_id}/messages/new",
-          {id: message.id}
+          {id: message.id}, nil
         )
         PubSub.should_receive(:publish).with(
           "/users/#{message.consult.initiator_id}/consults/current/messages/new",
-          {id: message.id}
+          {id: message.id}, nil
         )
         message.publish
       end

@@ -17,7 +17,7 @@ class ServiceTemplate < ActiveRecord::Base
       member: attributes[:member],
       subject: attributes[:subject] || attributes[:member],
       creator: attributes[:creator],
-      owner: attributes[:owner] || attributes[:member] && attributes[:member].pha,
+      owner_id: attributes[:owner_id] || attributes[:member] && attributes[:member].pha.id,
       assignor: attributes[:assignor] || attributes[:creator],
       actor_id: attributes[:creator] && attributes[:creator].id,
       user_facing: attributes[:user_facing] || user_facing,

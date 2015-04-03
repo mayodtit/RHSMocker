@@ -132,7 +132,7 @@ describe Api::V1::ServicesController do
     let(:service) { build_stubbed :service }
 
     def do_request
-      put :update, id: service.id, service: {state_event: 'abandon'}
+      put :update, id: service.id, service: {state_event: 'waiting'}
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -148,7 +148,7 @@ describe Api::V1::ServicesController do
         context 'state event is present' do
           it 'sets the actor to the current user' do
             service.should_receive(:update_attributes).with(
-              'state_event' => 'abandon',
+              'state_event' => 'waiting',
               'actor_id' => user.id
             )
 
