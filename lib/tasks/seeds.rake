@@ -793,7 +793,8 @@ My phone: 650-887-3711
   task :update_allergies_table => :environment do
     require 'open-uri'
     require 'json'
-
+    total = 0
+    not_found = 0
     Allergy.all.each do |al|
       concept_id = al.snomed_code
       base_url = ENV['SNOMED_SEARCH_URL']
@@ -811,17 +812,47 @@ My phone: 650-887-3711
 
         begin
           concept_id = json_resp["matches"][0]["conceptId"]
-
+          puts "#{al.name} ?== #{json_resp["matches"][0]["term"]}"
           store_terms(al, concept_id, desc_id) unless json_resp['matches'].size == 0
         rescue
-          puts "Error @ desc id =", desc_id
+          not_found += 1
+          puts "Error @ desc id = #{desc_id}, id = #{al.id}, name = #{al.name}"
         end
       else
+        total += 1
         json_resp = JSON.parse(resp)
-        match = match_name(al.snomed_name, json_resp)
-        store_terms(al, concept_id, match) unless match.nil?
+        match = match_name(al.name, json_resp)
+        if match.nil?
+          term = filter_term(json_resp['descriptions'][0]['term'])
+          puts "NOT FOUND FOR: #{al.snomed_code}, #{al.name}.  NEW NAME: #{term}"
+          al.name = term.capitalize
+          store_terms(al, concept_id, json_resp['descriptions'][0]['description_id']) 
+        else
+          store_terms(al, concept_id, match) 
+        end
       end
     end
+    puts "TOTAL NODE FOUND #{not_found}"
+  end
+
+  def filter_term(term)
+    term = term.downcase
+    term.slice!('(disorder)') if term.include? ('(disorder)')
+    term.slice!('allergy') if term.include? ('allergy') 
+    term.slice!('to') if term.include? ('to')
+    term.strip
+    term
+  end
+
+  # Finds the description id of an term with by exact match
+  def match_name(name, resp)
+    resp['descriptions'].each{ |o|
+      term = filter_term(o['term'])
+      if term == name.downcase
+        return o['descriptionId'] 
+      end
+    }
+    return nil
   end
 
   # Looks at Conditions table and updates entries from db/seeds/conditions.rb by adding description or concept ids
@@ -928,33 +959,11 @@ My phone: 650-887-3711
     end
   end
 
-  # Finds the description id of an term with by exact match
-  def match_name(name, resp)
-    resp['descriptions'].each{ |o|
-      return o['descriptionId'] if o['term'] == name
-    }
-    return nil
-  end
-
   # Updates and saves SNOMED entries that were seeded
   def store_terms(obj, cid, did)
     obj.concept_id = cid
     obj.description_id = did
     obj.save
-  end
-
-  # For testing purposes
-  task :create_user_conditions => :environment do
-    user = User.find_by_id(39)
-    (1..363).each do |i|
-      user_condition = {
-        condition_id: i,
-        actor_id: i,
-      }
-      user.user_conditions.create(user_condition)
-      user_condition[:actor_id] = i + 400
-      user.user_conditions.create(user_condition)
-    end
   end
 
   task :remove_duplicates => :environment do
