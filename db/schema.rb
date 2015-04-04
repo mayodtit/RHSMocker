@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150403231517) do
+ActiveRecord::Schema.define(:version => 20150404003915) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -927,18 +927,6 @@ ActiveRecord::Schema.define(:version => 20150403231517) do
   end
 
   add_index "service_changes", ["service_id"], :name => "index_service_changes_on_service_id"
-
-  create_table "service_state_transitions", :force => true do |t|
-    t.integer  "service_id", :null => false
-    t.string   "event"
-    t.string   "from"
-    t.string   "to"
-    t.integer  "actor_id",   :null => false
-    t.datetime "created_at", :null => false
-  end
-
-  add_index "service_state_transitions", ["actor_id"], :name => "index_service_state_transitions_on_actor_id"
-  add_index "service_state_transitions", ["service_id"], :name => "index_service_state_transitions_on_service_id"
 
   create_table "service_templates", :force => true do |t|
     t.string   "name",                               :null => false
