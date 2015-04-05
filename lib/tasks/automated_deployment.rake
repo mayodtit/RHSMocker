@@ -62,8 +62,13 @@ namespace :automated_deployment do
     end
   end
 
+  def develop?
+    ENV['TRAVIS_BRANCH'] == 'develop'
+  end
+
   def deploy!
     system("bundle exec cap #{deploy_target} deploy")
+    system("bundle exec rake docs:generate api_docs:export S3_BUCKET=btr01-dev") if develop?
     true
   end
 end
