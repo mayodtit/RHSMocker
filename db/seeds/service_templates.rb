@@ -36,6 +36,7 @@ APPOINTMENT_BOOKING_DESCRIPTION = <<-eof
 * **Address:**
 * **Phone:**
 * **Reason for visit:**
+* **New Patient:** yes/no
 * **Specific dates/times that work better:**
 
 #PHA message to send (update template here):
@@ -89,4 +90,23 @@ ServiceTemplate.find_or_create_by_name(
     description: CARE_COORDINATION_CALL_DESCRIPTION,
     service_type: ServiceType.find_by_name('care coordination call'),
     time_estimate: 120
+)
+
+PHA_AUTHORIZATION_DESCRIPTION = <<-eof
+* **Member:**
+* **Insurance company:**
+* **Insurance phone number:**
+* **Purpose of authorization:**
+* **Name of person to authorize**
+* **Link to signed form:**
+* **Date sent to insurance:**
+* **Member information** Birth dates, Address, insurance number, legal name
+eof
+
+ServiceTemplate.find_or_create_by_name(
+    name: "pha authorization",
+    title: "PHA Authorization",
+    description: PHA_AUTHORIZATION_DESCRIPTION,
+    service_type: ServiceType.find_by_name('pha designation for authorization'),
+    time_estimate: 43500
 )

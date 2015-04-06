@@ -280,3 +280,130 @@ TaskTemplate.find_or_create_by_name(
     time_estimate: 60,
     service_ordinal: 1
 )
+
+# PHA Authorization
+
+PHA_AUTHORIZATION_OBTAIN_FORM_DESCRIPTION = <<-eof
+1.  Check Google Drive folder for form:
+  * [Insurance forms folder](http://goo.gl/tgmqxW)
+1. If authorization form not on file
+  * Go to insurance website, locate “Forms” section and look for “Authorization to release PHI” form.
+  * If unable to find online, call insurance and confirm that you have the right authorization form or have it sent to pha@getbetter OR directly to member if necessary.
+1. When you have the correct form, save to drive folder with insurance name (eg “Blue Shield of CA”) as “InsuranceName_AuthorizationForm”
+1. Add link to blank form to service description.
+1. Complete task
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "pha authorization - obtain authorization form",
+    service_template: ServiceTemplate.find_by_name('pha authorization'),
+    title: "Obtain Authorization Form",
+    description: PHA_AUTHORIZATION_OBTAIN_FORM_DESCRIPTION,
+    time_estimate: 60,
+    service_ordinal: 0
+)
+
+PHA_AUTHORIZATION_SEND_FORM_TO_MEMBER_DESCRIPTION = <<-eof
+1. Go to hellosign.com
+1. Upload form to hellosign
+1. Complete with member’s information
+1. Review with 1 other Specialist team member by making a task assigned to them with the link to the form
+1. Send form to member to sign
+1. Complete task
+
+#Hellosign Cover Page message
+Please sign the form from your insurance company that allows us to speak on your behalf and obtain information. Let me know if you have any questions. Once it's signed, I'll send it to insurance.
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "pha authorization - send form to member",
+    service_template: ServiceTemplate.find_by_name('pha authorization'),
+    title: "Send Authorization Form to Member",
+    description: PHA_AUTHORIZATION_SEND_FORM_TO_MEMBER_DESCRIPTION,
+    time_estimate: 60,
+    service_ordinal: 0
+)
+
+PHA_AUTHORIZATION_SEND_FORM_TO_INSURANCE_DESCRIPTION = <<-eof
+1. Search for signed form on Hellosign.com using member’s email
+1. **If not signed**
+  * Assign a task for PHA titled “UPDATE - member needs to sign form” with this message:
+I’ve emailed you an authorization form to sign from Hellosign.com. Let me know if you have any questions. Once it is signed, we’ll send it to your insurance company. Thanks!
+  * Change due date of task for 3 days later
+1. **If signed**
+  * Save signed form to member’s folder in drive as “Signed_<insurance>Authorization”
+  * Right click document and choose “Get Link”
+  * Save link to signed form to service description and member’s profile under insurance tab
+1. Mail **and/or** fax the form to the address/number listed on the form
+1. Complete task
+1. Change next task to assign to PHA
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "pha authorization - send form to insurance",
+    service_template: ServiceTemplate.find_by_name('pha authorization'),
+    title: "Send Signed Authorization Form to Insurance",
+    description: PHA_AUTHORIZATION_SEND_FORM_TO_INSURANCE_DESCRIPTION,
+    time_estimate: 60,
+    service_ordinal: 1
+)
+
+PHA_AUTHORIZATION_UPDATE_MEMBER_AUTHORIZATION_SENT_DESCRIPTION = <<-eof
+**Will be assigned to Specialist, reassign to PHA**
+Signed authorization form has been sent to insurance.
+
+1. Send member update:
+
+  I've sent the authorization form to your insurance company. It can take up to 30 days for this form to process. I’ll follow up to make sure it goes through. In the mean time, I’ll dial you in for verbal consent if we need to speak to your insurance company. Do you have any questions?
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "pha authorization - update member authorization sent",
+    service_template: ServiceTemplate.find_by_name('pha authorization'),
+    title: "Update member - Authorization form sent",
+    description: PHA_AUTHORIZATION_UPDATE_MEMBER_AUTHORIZATION_SENT_DESCRIPTION,
+    time_estimate: 60,
+    service_ordinal: 2
+)
+
+PHA_AUTHORIZATION_CALL_CONFIRM_AUTHORIZATION_DESCRIPTION = <<-eof
+1. Call insurance company
+1. Confirm form was received and is on file
+1. **If not received:**
+  * Resend authorization form to insurance
+  * Reschedule task for 14 days later
+  * Assign a task for PHA to update member with this message:
+I checked on the authorization we filed. They did not have it on file. I've sent the authorization form again today. I’ll follow up in the next few weeks and will let you know when it goes through!
+1. **If received:**
+  * Go to insurance tab in member’s profile
+  * Change “Authorization on file” to “Yes”
+1. Complete task
+1. Change next task to assign to PHA
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "pha authorization - call confirm authorization",
+    service_template: ServiceTemplate.find_by_name('pha authorization'),
+    title: "Call - confirm authorization form on file",
+    description: PHA_AUTHORIZATION_CALL_CONFIRM_AUTHORIZATION_DESCRIPTION,
+    time_estimate: 43200,
+    service_ordinal: 3
+)
+
+PHA_AUTHORIZATION_UPDATE_MEMBER_AUTHORIZATION_ON_FILE_DESCRIPTION = <<-eof
+**Will be assigned to Specialist, reassign to PHA**
+Signed authorization form is on file with insurance
+
+1. Send member update:
+
+  The authorization form you signed is on file with your insurance company. Next time I call over, we shouldn’t need to dial you in for verbal consent!
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "pha authorization - update member authorization on file",
+    service_template: ServiceTemplate.find_by_name('pha authorization'),
+    title: "Update member - Authorization form on file",
+    description: PHA_AUTHORIZATION_UPDATE_MEMBER_AUTHORIZATION_ON_FILE_DESCRIPTION,
+    time_estimate: 60,
+    service_ordinal: 4
+)
