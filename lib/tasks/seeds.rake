@@ -778,7 +778,7 @@ My phone: 650-887-3711
         puts "Error adding, ", zipcode
       end
     }
-    puts "Database populated"
+    puts "\nDatabase populated"
   end
 
   desc "Seed common email domains"
