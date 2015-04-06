@@ -3,6 +3,9 @@ class Api::V1::ServicesController < Api::V1::ABaseController
   before_filter :load_member!, only: [:index, :create]
   before_filter :load_service!, only: [:show, :update]
   before_filter :load_service_template!, only: :create
+  before_filter :load_activities!, only: :activities
+  before_filter :load_suggestions!, only: :activities
+  before_filter :load_activity_users!, only: :activities
 
   def index
     authorize! :read, Service
@@ -22,6 +25,13 @@ class Api::V1::ServicesController < Api::V1::ABaseController
 
   def show
     show_resource @service.serializer
+  end
+
+  def activities
+    render_success(
+        users: @users.serializer.try(:serializer, options.merge(shallow: true)),
+        activites: @activites.try(:serializer, options.merge(for_activity: true)),
+        suggestions: @suggestions.try(:serializer, options.merge(for_activity: true)))
   end
 
   def update
@@ -64,6 +74,30 @@ class Api::V1::ServicesController < Api::V1::ABaseController
       @service_template = ServiceTemplate.find params[:service_template_id]
       authorize! :read, @service_template
     end
+  end
+
+  def load_activities!
+    authorize! :read, Service
+    @activities = Service.where(member: current_user, user_facing: true)
+  end
+
+  def load_suggestions!
+    authorize! :read, ServiceTemplate
+    @suggestions = ServiceTemplate.where(suggestion: true)
+  end
+
+  def in_progress_activities
+    @activities.open_state
+  end
+
+  def completed_activities
+    @activities.closed_state
+  end
+
+  def load_activity_users!
+    @users = @activities.members.to_a
+    @users = @users << @user.pha if @user.pha
+    @users = @users.uniq
   end
 
   def create_params

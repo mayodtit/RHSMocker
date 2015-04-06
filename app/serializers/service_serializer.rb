@@ -6,11 +6,15 @@ class ServiceSerializer < ActiveModel::Serializer
              :user_facing, :service_request, :service_deliverable
 
   def attributes
-    super.tap do |attrs|
-      if for_subject?
-        attrs.merge!(subject_attributes)
-      elsif non_shallow? # KC - TODO - invert this logic, shallow should be default
-        attrs.merge!(non_shallow_attributes)
+    if for_activity?
+      activity_attributes
+    else
+      super.tap do |attrs|
+        if for_subject?
+          attrs.merge!(subject_attributes)
+        elsif non_shallow? # KC - TODO - invert this logic, shallow should be default
+          attrs.merge!(non_shallow_attributes)
+        end
       end
     end
   end
@@ -25,8 +29,25 @@ class ServiceSerializer < ActiveModel::Serializer
     options[:shallow].blank? ? true : false
   end
 
+  def for_activity?
+    options[:for_activity] ? true : false
+  end
+
   def user_id
     object.member_id
+  end
+
+  def activity_attributes
+    {
+        id: object.id,
+        state: object.state,
+        title: object.title,
+        description: object.service_request,
+        due_at: object.due_at,
+        updated_at: object.updated_at,
+        owner_id: object.owner_id,
+        deliverable: object.deliverable
+    }
   end
 
   def subject_attributes
