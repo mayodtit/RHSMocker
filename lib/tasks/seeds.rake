@@ -794,7 +794,23 @@ My phone: 650-887-3711
     require 'open-uri'
     require 'json'
     total = 0
-    not_found = 0
+    # fix allergies that require manual fix
+    if Allergy.all.size > 140
+      al = Allergy.find_by_name('Sulfonamides')
+      al.snomed_code = '835357010'
+      al.save
+      al = Allergy.find_by_name('Simvastatin')
+      al.snomed_code = '690031018'
+      al.save
+      al = Allergy.find_by_name('Wheat')
+      al.snomed_code = '2575121014'
+      al.save
+      al = Allergy.find_by_name('Scorpion Sting')
+      al.snomed_code = '2645985010'
+      al.save
+    end
+
+    # update allergies using snomed_code
     Allergy.all.each do |al|
       concept_id = al.snomed_code
       base_url = ENV['SNOMED_SEARCH_URL']
@@ -810,45 +826,45 @@ My phone: 650-887-3711
         resp = uri.read
         json_resp = JSON.parse(resp)
 
-        begin
-          concept_id = json_resp["matches"][0]["conceptId"]
-          puts "#{al.name} ?== #{json_resp["matches"][0]["term"]}"
-          store_terms(al, concept_id, desc_id) unless json_resp['matches'].size == 0
-        rescue
-          not_found += 1
-          puts "Error @ desc id = #{desc_id}, id = #{al.id}, name = #{al.name}"
-        end
-      else
         total += 1
+        concept_id = json_resp["matches"][0]["conceptId"]
+        term = filter_term(json_resp["matches"][0]["term"])
+        puts "#{al.name} ?= #{term.capitalize}"
+        al.name = term.capitalize
+        store_terms(al, concept_id, desc_id) unless json_resp['matches'].size == 0
+      else
         json_resp = JSON.parse(resp)
         match = match_name(al.name, json_resp)
         if match.nil?
+          total += 1
           term = filter_term(json_resp['descriptions'][0]['term'])
-          puts "NOT FOUND FOR: #{al.snomed_code}, #{al.name}.  NEW NAME: #{term}"
+          puts "#{al.name} ?= #{term.capitalize}"
           al.name = term.capitalize
-          store_terms(al, concept_id, json_resp['descriptions'][0]['description_id']) 
+          store_terms(al, concept_id, json_resp['descriptions'][0]['descriptionId']) 
         else
           store_terms(al, concept_id, match) 
         end
       end
     end
-    puts "TOTAL NOT FOUND #{not_found}"
+    puts "TOTAL CHANGED: #{total}"
+
+    remove_duplicates('allergies')
   end
 
   def filter_term(term)
     term = term.downcase
     term.slice!('(disorder)') if term.include? ('(disorder)')
+    term.slice!('allergy to ') if term.include? ('allergy to ')
     term.slice!('allergy') if term.include? ('allergy') 
-    term.slice!(' to ') if term.include? (' to ')
-    term.strip
+    term = term.strip
     term
   end
-
 
   # Finds the description id of an term with by exact match
   def match_name(name, resp)
     resp['descriptions'].each{ |o|
       term = filter_term(o['term'])
+      name = name.downcase
       if term == name.downcase
         return o['descriptionId'] 
       end
@@ -920,7 +936,7 @@ My phone: 650-887-3711
     end
 
     # remove the duplicate entries
-    remove_duplicates
+    remove_duplicates('conditions')
   end
 
   def configure_condition(id, cid, did, cname)
@@ -953,11 +969,12 @@ My phone: 650-887-3711
 
         unless term.include? '(disorder)'
           desc_id = match['descriptionId']
-          Allergy.find_or_create_by_concept_id_and_description_id(match['conceptId'], desc_id) do |al|
+          term = filter_term(match['term'])
+          term = term.capitalize
+          Allergy.find_or_create_by_name(term) do |al|
             name = term.split(' ')
-            al.name = term
-            al.name = name[2,name.size].join(' ') if term.include?('Allergy to')
-            al.name = name[0,name.size-1].join(' ') if term.include? 'allergy'
+            al.description_id = desc_id
+            al.concept_id = match['conceptId']
             al.snomed_name = match['fsn']
           end
         end
@@ -974,10 +991,15 @@ My phone: 650-887-3711
     obj.save
   end
 
-  def remove_duplicates
+  def remove_duplicates(type)
+    require 'set'
     unique_conditions = {}
     set = Set.new
-    conditions = Condition.all
+    if type == 'conditions'
+      conditions = Condition.all
+    else
+      conditions = Allergy.all
+    end
 
     # first stage: find unique conditions
     conditions.each do |condition|
@@ -998,17 +1020,31 @@ My phone: 650-887-3711
 
       if unique_cond_id != cond_id && desc_id != nil
         duplicate_set << cond_id
-        user_conditions = UserCondition.find_all_by_condition_id(cond_id)
+        if type == 'conditions'
+          user_conditions = UserCondition.find_all_by_condition_id(cond_id)
+        else
+          user_conditions = UserAllergy.find_all_by_allergy_id(cond_id)
+        end
         user_conditions.each do |uc|
-          uc[:condition_id] = unique_cond_id
-          uc.save
+          if type == 'conditions'
+            uc[:condition_id] = unique_cond_id
+            puts "#{uc.id} == #{uc[:condition_id]}"
+          else
+            uc[:allergy_id] = unique_cond_id
+            puts "#{uc.id} == #{uc[:allergy_id]}"
+          end
+          uc.destroy unless uc.save
         end
       end
     end 
     
     # third stage: delete useless conditions
     duplicate_set.each do |id|
-      Condition.find_by_id(id).destroy
+      if type == 'conditions'
+        Condition.find_by_id(id).destroy
+      else
+        Allergy.find_by_id(id).destroy
+      end
       puts "#{id} is removed"
     end
   end
