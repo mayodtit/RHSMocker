@@ -20,33 +20,6 @@ describe Service do
       service.should_not be_valid
       service.errors[:assigned_at].should include("can't be blank")
     end
-
-    context 'reason_abandoned' do
-      let(:service) { build_stubbed :service }
-
-      context 'service is abandoned' do
-        before do
-          service.stub(:abandoned?) { true }
-        end
-
-        it 'reason_abandoned should be present' do
-          service.reason_abandoned = ''
-          service.should_not be_valid
-          service.errors[:reason_abandoned].should include("can't be blank")
-        end
-      end
-
-      context 'service is not abandoned' do
-        before do
-          service.stub(:abandoned?) { false }
-        end
-
-        it 'reason_abandoned should be present' do
-          service.reason_abandoned = nil
-          service.should be_valid
-        end
-      end
-    end
   end
 
   describe '#set_assigned_at' do
@@ -125,6 +98,57 @@ describe Service do
     end
   end
 
+  describe '#create_tasks' do
+    before do
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
+    context 'there are task_templates for the service ordinal' do
+      context 'the service is a timed service' do
+        let!(:service_template) { create :service_template, timed_service: true}
+        let!(:service) { create :service, service_template: service_template }
+        let!(:task_template) {create :task_template, service_template: service_template, service_ordinal: 0}
+        let!(:another_task_template) {create :task_template, service_template: service_template, service_ordinal: 1}
+
+        it 'should create tasks with that ordinal starting at the due date' do
+          Task.should_receive(:create!).with(hash_including(service_ordinal: 0))
+          Task.should_not_receive(:create!).with(hash_including(service_ordinal: 1, due_at: (1.day.from_now + task_template.time_estimate)))
+          service.create_next_ordinal_tasks(-1, 1.day.from_now)
+        end
+      end
+
+      context 'the service is not a timed service' do
+        let!(:service_template) { create :service_template, timed_service: false}
+        let!(:service) { create :service, service_template: service_template }
+        let!(:task_template) {create :task_template, service_template: service_template, service_ordinal: 0}
+        let!(:another_task_template) {create :task_template, service_template: service_template, service_ordinal: 1}
+
+        it 'should create tasks with that ordinal starting now' do
+          Task.should_receive(:create!).with(hash_including(service_ordinal: 0))
+          Task.should_not_receive(:create!).with(hash_including(service_ordinal: 1, due_at: (Time.now + task_template.time_estimate)))
+          service.create_next_ordinal_tasks( -1 , 1.day.from_now)
+        end
+      end
+    end
+
+    context 'there are no task_templates for the service ordinal' do
+      let!(:service_template) { create :service_template, timed_service: false}
+      let!(:service) { create :service, service_template: service_template }
+      let!(:task_template) {create :task_template, service_template: service_template, service_ordinal: 0}
+      let!(:another_task_template) {create :task_template, service_template: service_template, service_ordinal: 1}
+
+      it 'should not create any tasks' do
+        Task.should_not_receive(:create!)
+        service.create_next_ordinal_tasks(3)
+      end
+    end
+  end
+
+
   describe '#tasks' do
     let!(:service) { create :service }
     let!(:first_task) { create :task, service: service, service_ordinal: 0 }
@@ -144,6 +168,88 @@ describe Service do
 
     it 'returns all tasks sorted by service ordinal' do
       service.tasks.should == [first_task, second_task, third_task, fourth_task, fifth_task]
+    end
+  end
+
+  describe '#track_update' do
+    let!(:service) { create :service }
+
+    before do
+      ServiceChange.destroy_all
+    end
+
+    context 'change was tracked' do
+      before do
+        service.change_tracked = true
+      end
+
+      it 'doesn\'t create a service change' do
+        ServiceChange.should_not_receive(:create!)
+        service.send(:track_update)
+      end
+
+      it 'sets change_tracked to false' do
+        service.send(:track_update)
+        expect(service.change_tracked).to equal(false)
+      end
+    end
+
+    context 'nothing changed' do
+      context 'because no changes were made' do
+        it 'does nothing' do
+          service.stub(:previous_changes) { service.changes }
+          ServiceChange.should_not_receive(:create!)
+          service.send(:track_update)
+        end
+      end
+
+      context 'because only filtered out attributes changed' do
+        before do
+          service.created_at = 4.days.ago
+          service.updated_at = 3.days.ago
+          service.assigned_at = 3.days.ago
+          service.completed_at = 2.days.ago
+          service.abandoned_at = 10.days.ago
+          service.assignor_id = 2
+          service.abandoner_id = 5
+          service.creator_id = 3
+          service.state = 'unstarted'
+          service.stub(:previous_changes) { service.changes }
+        end
+
+        it 'does nothing' do
+          ServiceChange.should_not_receive(:create!)
+          service.send(:track_update)
+        end
+      end
+    end
+
+    context 'something changed' do
+      it 'it tracks a change after a the description is changed' do
+        old_description = service.description
+        old_title = service.title
+        service.update_attributes!(description: 'poop', title: 'shit')
+        ServiceChange.count.should == 1
+        t = ServiceChange.last
+        t.service.should == service
+        t.event.should == 'update'
+        t.data.should == {"description" => [old_description, 'poop'], "title" => [old_title, 'shit']}
+      end
+
+      context 'actor_id is defined' do
+        let(:pha) { build_stubbed :pha }
+
+        before do
+          service.actor_id = pha.id
+          service.title = 'Poop'
+          service.stub(:previous_changes) { service.changes }
+        end
+
+        it 'uses the defined actor id' do
+          ServiceChange.should_receive(:create!).with hash_including(actor_id: pha.id)
+          service.send(:track_update)
+        end
+      end
     end
   end
 end

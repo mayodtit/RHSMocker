@@ -17,9 +17,10 @@ class Api::V1::PlansController < Api::V1::ABaseController
 
   def load_available_plans!
     @available_plans = []
+    stripe_subscriptions = Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions if @user.stripe_customer_id
     @active_plans.each do |plan|
-      if (current_user.stripe_customer_id) && (Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.count > 0)
-        @available_plans << StripeExtension.plan_serializer(plan, current_user) if plan.amount > Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.data[0].plan.amount
+      if (stripe_subscriptions) && ( stripe_subscriptions.count > 0)
+        @available_plans << StripeExtension.plan_serializer(plan, current_user) if plan.amount > stripe_subscriptions.data[0].plan.amount
       else
         @available_plans << StripeExtension.plan_serializer(plan, current_user)
       end

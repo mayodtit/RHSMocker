@@ -18,7 +18,8 @@ class OnboardingGroup < ActiveRecord::Base
                   :pha, :pha_id, :trial_nux_story,
                   :trial_nux_story_id, :stripe_coupon_code,
                   :absolute_subscription_ends_at, :subscription_days,
-                  :skip_credit_card
+                  :skip_credit_card, :skip_automated_communications,
+                  :skip_emails
 
   validates :name, presence: true
   validates :provider, presence: true, if: ->(o){o.provider_id}
@@ -28,6 +29,8 @@ class OnboardingGroup < ActiveRecord::Base
   validates :mayo_pilot, inclusion: {in: [true, false]}
   validates :skip_credit_card, inclusion: {in: [true, false]}
   validates :trial_nux_story, presence: true, if: ->(o){o.trial_nux_story_id}
+  validates :skip_automated_communications, inclusion: {in: [true, false]}
+  validates :skip_emails, inclusion: {in: [true, false]}
 
   before_validation :set_defaults
 

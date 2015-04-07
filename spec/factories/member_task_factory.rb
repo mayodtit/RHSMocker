@@ -5,5 +5,6 @@ FactoryGirl.define do
     member
     association :subject, factory: :user
     association :service_type
+    unread false
   end
 end

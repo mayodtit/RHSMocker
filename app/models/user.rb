@@ -41,6 +41,10 @@ class User < ActiveRecord::Base
 
   has_many :appointments
   has_many :user_changes
+  has_many :user_images, inverse_of: :user,
+                         dependent: :destroy
+
+  has_many :provider_searches
 
   accepts_nested_attributes_for :user_information
   accepts_nested_attributes_for :addresses
@@ -236,9 +240,14 @@ class User < ActiveRecord::Base
   end
 
   def subscription
-    return nil if stripe_customer_id.nil?
+    return [] if stripe_customer_id.nil?
+
     customer = Stripe::Customer.retrieve(stripe_customer_id)
-    customer.subscriptions.first
+    array = []
+    customer.subscriptions.each do |subscription|
+      array << StripeExtension.subscription_serializer(subscription)
+    end
+    array
   end
 
   def remove_all_credit_cards

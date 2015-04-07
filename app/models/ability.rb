@@ -49,7 +49,7 @@ class Ability
     end
 
     can :manage, UserImage do |o|
-      user.id == o.user_id
+      (user.id == o.user_id) || can?(:manage, o.user)
     end
 
     can :ru, ScheduledPhoneCall do |o|
@@ -114,6 +114,7 @@ class Ability
       can :manage, MessageTemplate
       can :manage, ServiceTemplate
       can :manage, TaskTemplate
+      can :manage, Entry
     end
 
     if user.pha_lead?

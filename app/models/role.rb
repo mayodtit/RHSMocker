@@ -44,9 +44,6 @@ class Role < ActiveRecord::Base
     geoff = Member.find_by_email 'geoff@getbetter.com'
     leads.push geoff if geoff
 
-    abhik = Member.find_by_email 'abhik@getbetter.com'
-    leads.push abhik if abhik
-
     kyle = Member.find_by_email 'kyle@getbetter.com'
     leads.push kyle if kyle
 

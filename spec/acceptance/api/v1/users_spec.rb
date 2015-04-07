@@ -9,6 +9,10 @@ resource 'Users' do
   let(:user) { create(:member, :trial, password: current_password) }
   let(:session) { user.sessions.create }
 
+  before do
+    CarrierWave::Mount::Mounter.any_instance.stub(:store!)
+  end
+
   get '/api/v1/users' do
     parameter :auth_token, "User's Auth token"
     parameter :first_name, "Optional filter for external search"
@@ -37,26 +41,53 @@ resource 'Users' do
     end
   end
 
-  describe 'create user with email and password' do
-    parameter :install_id, "Unique install ID"
-    parameter :email, "Account email"
-    parameter :password, "Account password"
-    parameter :token, "Invitation token"
-    scope_parameters :user, [:install_id, :email, :password, :token]
-    required_parameters :install_id, :email, :password, :token
+  context 'create normal user' do
+    describe 'create user with email and password' do
+      parameter :install_id, "Unique install ID"
+      parameter :email, "Account email"
+      parameter :password, "Account password"
+      parameter :token, "Invitation token"
+      scope_parameters :user, [:install_id, :email, :password, :token]
+      required_parameters :install_id, :email, :password, :token
 
-    post '/api/v1/signup' do
-      let(:install_id) { "1234" }
-      let(:email) { "tst11@test.com" }
-      let(:password) { "11111111" }
-      let(:raw_post) { params.to_json }
+      post '/api/v1/signup' do
+        let(:install_id) { "1234" }
+        let(:email) { "tst11@test.com" }
+        let(:password) { "11111111" }
+        let(:raw_post) { params.to_json }
 
-      example_request "[POST] Sign up using email and password (or add email and password to account)" do
-        explanation "If the install ID exists, update that user's account with email and password.  Can pass additional user fields, such as first_name, gender, birth_date, etc.  Returns auth_token and the user."
-        status.should == 200
-        response = JSON.parse(response_body, :symbolize_names => true)
-        new_user = User.find(response[:user][:id])
-        response[:auth_token].should == new_user.sessions.first.auth_token
+        example_request "[POST] Sign up using email and password (or add email and password to account)" do
+          explanation "If the install ID exists, update that user's account with email and password.  Can pass additional user fields, such as first_name, gender, birth_date, etc.  Returns auth_token and the user."
+          status.should == 200
+          response = JSON.parse(response_body, :symbolize_names => true)
+          new_user = User.find(response[:user][:id])
+          response[:auth_token].should == new_user.sessions.first.auth_token
+        end
+      end
+    end
+  end
+
+  context 'create business on boarding user' do
+    describe 'create user with email and password' do
+      parameter :email, "Account email"
+      parameter :password, "Account password"
+      parameter :business_on_board, "yes"
+      scope_parameters :user, [:email, :password, :business_on_board]
+      required_parameters :email, :password
+
+      post '/api/v1/signup' do
+        let(:install_id) { "1234" }
+        let(:email) { "tst11@test.com" }
+        let(:password) { "11111111" }
+        let(:business_on_board) {"yes"}
+        let(:raw_post) { params.to_json }
+
+        example_request "[POST] Sign up using email and password and send inviation email" do
+          explanation "Generate invite and confirmation emmail email and send to user with login link."
+          status.should == 200
+          expect(Member.last.email).to eq(email)
+          expect(Delayed::Job.count).to eq(2)
+        end
       end
     end
   end

@@ -9,13 +9,6 @@ class UserAllergy < ActiveRecord::Base
   validates :user, :allergy, :presence => true
   validates :allergy_id, :uniqueness => {:scope => :user_id}
 
-  def as_json(options=nil)
-    {
-      :id=>id,
-      :allergy=>allergy
-    }
-  end
-
   after_destroy :track_destroy
   after_create :track_create
 

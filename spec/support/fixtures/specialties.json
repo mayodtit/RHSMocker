@@ -1,0 +1,1972 @@
+{
+  "meta": {
+    "data_type": "array",
+    "item_type": "Specialty",
+    "total": 245,
+    "count": 245,
+    "skip": 0,
+    "limit": 245
+  },
+  "data": [
+    {
+      "uid": "acupuncturist",
+      "name": "Acupuncture",
+      "description": "Specializes in ancient alternative therapy via needles.",
+      "category": "medical",
+      "actor": "Acupuncturist",
+      "actors": "Acupuncturists"
+    },
+    {
+      "uid": "addiction-medicine-anesthesiologist",
+      "name": "Addiction Medicine",
+      "description": "Specializes in the diagnosis and treatment of addictions.",
+      "category": "medical",
+      "actor": "Addiction Medicine Anesthesiologist",
+      "actors": "Addiction Medicine Anesthesiologists"
+    },
+    {
+      "uid": "addiction-specialist",
+      "name": "Addiction Medicine",
+      "description": "Specializes in the treatment of addiction disorders.",
+      "category": "medical",
+      "actor": "Addiction Specialist",
+      "actors": "Addiction Specialists"
+    },
+    {
+      "uid": "addiction-psychiatrist",
+      "name": "Addiction Psychiatry",
+      "description": "Specializes in alcohol, drug and substance problems.",
+      "category": "medical",
+      "actor": "Addiction Psychiatrist",
+      "actors": "Addiction Psychiatrists"
+    },
+    {
+      "uid": "addiction-psychologist",
+      "name": "Addiction Psychology",
+      "description": "Specialzes in helping patients with physical and mental addictions.",
+      "category": "medical",
+      "actor": "Addiction Psychologist",
+      "actors": "Addiction Psychologists"
+    },
+    {
+      "uid": "allergist",
+      "name": "Allergy & Immunology",
+      "description": "Specializes in treatment of allergies and the immune system.",
+      "category": "medical",
+      "actor": "Allergist",
+      "actors": "Allergists"
+    },
+    {
+      "uid": "otolaryngic-allergist",
+      "name": "Otolaryngic Allergy",
+      "description": "Specializes in ear, nose and throat allergies.",
+      "category": "medical",
+      "actor": "Otolaryngic Allergist",
+      "actors": "Otolaryngic Allergists"
+    },
+    {
+      "uid": "pediatric-allergist",
+      "name": "Pediatric Allergy",
+      "description": "Specializes in treatment of allergies and the immune system in children.",
+      "category": "medical",
+      "actor": "Pediatric Allergist",
+      "actors": "Pediatric Allergists"
+    },
+    {
+      "uid": "internist-chiropractor",
+      "name": "Chiropractic Internal Medicine",
+      "description": "Specializes in alternartive therapy of muscles, bones, and joints.",
+      "category": "medical",
+      "actor": "Internal Medicine Chiropractor",
+      "actors": "Internal Medicine Chiropractors"
+    },
+    {
+      "uid": "medical-examiner-chiropractor",
+      "name": "Chiropractic Medical Examiner",
+      "description": "Specializes in alternartive therapy of muscles, bones, and joints.",
+      "category": "medical",
+      "actor": "Medical Examiner Chiropractor",
+      "actors": "Medical Examiner Chiropractors"
+    },
+    {
+      "uid": "neurology-chiropractor",
+      "name": "Chiropractic Neurology",
+      "description": "Specializes in alternartive therapy of muscles, bones, and joints.",
+      "category": "medical",
+      "actor": "Neurology Chiropractor",
+      "actors": "Neurology Chiropractors"
+    },
+    {
+      "uid": "nutrition-chiropractor",
+      "name": "Chiropractic Nutrition Medicine",
+      "description": "Specializes in alternartive therapy of muscles, bones, and joints.",
+      "category": "medical",
+      "actor": "Nutrition Chiropractor",
+      "actors": "Nutrition Chiropractors"
+    },
+    {
+      "uid": "occupational-chiropractor",
+      "name": "Chiropractic Occupational Health",
+      "description": "Specializes in alternartive therapy of muscles, bones, and joints.",
+      "category": "medical",
+      "actor": "Occupational Chiropractor",
+      "actors": "Occupational Chiropractors"
+    },
+    {
+      "uid": "orthopedic-chiropractor",
+      "name": "Chiropractic Orthopedics",
+      "description": "Specializes in alternartive therapy of muscles, bones, and joints.",
+      "category": "medical",
+      "actor": "Orthopedic Chiropractor",
+      "actors": "Orthopedic Chiropractors"
+    },
+    {
+      "uid": "pediatric-chiropractor",
+      "name": "Chiropractic Pediatrics",
+      "description": "Specializes in alternartive therapy of muscles, bones, and joints.",
+      "category": "medical",
+      "actor": "Pediatric Chiropractor",
+      "actors": "Pediatric Chiropractors"
+    },
+    {
+      "uid": "radiology-chiropractor",
+      "name": "Chiropractic Radiology",
+      "description": "Specializes in alternartive therapy of muscles, bones, and joints.",
+      "category": "medical",
+      "actor": "Radiology Chiropractor",
+      "actors": "Radiology Chiropractors"
+    },
+    {
+      "uid": "rehabilitation-chiropractor",
+      "name": "Chiropractic Rehabilitation",
+      "description": "Specializes in alternartive therapy of muscles, bones, and joints.",
+      "category": "medical",
+      "actor": "Rehabilitation Chiropractor",
+      "actors": "Rehabilitation Chiropractors"
+    },
+    {
+      "uid": "sports-chiropractor",
+      "name": "Chiropractic Sports Medicine",
+      "description": "Specializes in alternartive therapy of muscles, bones, and joints.",
+      "category": "medical",
+      "actor": "Sports Chiropractor",
+      "actors": "Sports Chiropractors"
+    },
+    {
+      "uid": "thermography-chiropractor",
+      "name": "Chiropractic Thermography",
+      "description": "Specializes in alternartive therapy of muscles, bones, and joints.",
+      "category": "medical",
+      "actor": "Thermography Chiropractor",
+      "actors": "Thermography Chiropractors"
+    },
+    {
+      "uid": "chiropractor",
+      "name": "Chiropractics",
+      "description": "Specializes in alternartive therapy of muscles, bones, and joints.",
+      "category": "medical",
+      "actor": "Chiropractor",
+      "actors": "Chiropractors"
+    },
+    {
+      "uid": "dietitian",
+      "name": "Dietitian, Registered",
+      "description": "Specializes in alternative food and nutrition therapies.",
+      "category": "medical",
+      "actor": "Dietitian",
+      "actors": "Dietitians"
+    },
+    {
+      "uid": "massage-therapist",
+      "name": "Massage Therapy",
+      "description": "Specializes in alternative therapy of muscles and tissue.",
+      "category": "medical",
+      "actor": "Massage Therapist",
+      "actors": "Massage Therapists"
+    },
+    {
+      "uid": "naturopathic-doctor",
+      "name": "Naturopath",
+      "description": "Specializes in alternative natural healing.",
+      "category": "medical",
+      "actor": "Naturopathic Doctor",
+      "actors": "Naturopathic Doctors"
+    },
+    {
+      "uid": "nutritionist",
+      "name": "Nutrition Medicine",
+      "description": "Specializes in alternative food and nutrition therapies.",
+      "category": "medical",
+      "actor": "Nutritionist",
+      "actors": "Nutritionists"
+    },
+    {
+      "uid": "anesthesiologist",
+      "name": "Anesthesiology",
+      "description": "Specializes in managing pain and anesthesia in surgeries.",
+      "category": "medical",
+      "actor": "Anesthesiologist",
+      "actors": "Anesthesiologists"
+    },
+    {
+      "uid": "critical-care-anesthesiologist",
+      "name": "Critical Care Medicine",
+      "description": "Specializes in managing anesthesia in critical surgeries.",
+      "category": "medical",
+      "actor": "Critical Care Anesthesiologist",
+      "actors": "Critical Care Anesthesiologists"
+    },
+    {
+      "uid": "hospice-palliative-medicine-anesthesiologist",
+      "name": "Hospice and Palliative Medicine",
+      "description": "Specializes in relieving the suffering of dying patients.",
+      "category": "medical",
+      "actor": "Hospice and Palliative Medicine Anesthesiologist",
+      "actors": "Hospice and Palliative Medicine Anesthesiologists"
+    },
+    {
+      "uid": "pain-medicine-anesthesiologist",
+      "name": "Pain Medicine",
+      "description": "Specializes in managing acute and chronic pain.",
+      "category": "medical",
+      "actor": "Pain Medicine Anesthesiologist",
+      "actors": "Pain Medicine Anesthesiologists"
+    },
+    {
+      "uid": "pediatric-anesthesiologist",
+      "name": "Pediatric Anesthesiology",
+      "description": "Specializes in managing pain and anesthesia in surgeries of children.",
+      "category": "medical",
+      "actor": "Pediatric Anesthesiologist",
+      "actors": "Pediatric Anesthesiologists"
+    },
+    {
+      "uid": "cardiologist",
+      "name": "Cardiovascular Disease",
+      "description": "Specializes in heart problems.",
+      "category": "medical",
+      "actor": "Cardiologist",
+      "actors": "Cardiologists"
+    },
+    {
+      "uid": "interventional-cardiologist",
+      "name": "Interventional Cardiology",
+      "description": "Specializes in heart imaging and diagnostics.",
+      "category": "medical",
+      "actor": "Interventional Cardiologist",
+      "actors": "Interventional Cardiologists"
+    },
+    {
+      "uid": "pediatric-cardiologist",
+      "name": "Pediatric Cardiology",
+      "description": "Specializes in children with heart problems.",
+      "category": "medical",
+      "actor": "Pediatric Cardiologist",
+      "actors": "Pediatric Cardiologists"
+    },
+    {
+      "uid": "cardiothoracic-surgeon",
+      "name": "Cardiothoracic Surgery",
+      "description": "Specializes in chest and heart surgery.",
+      "category": "medical",
+      "actor": "Cardiothoracic Surgeon",
+      "actors": "Cardiothoracic Surgeons"
+    },
+    {
+      "uid": "adolescent-medicine-pediatrician",
+      "name": "Adolescent Medicine",
+      "description": "Specializes in the health of children from 9 to 14 years old.",
+      "category": "medical",
+      "actor": "Adolescent Medicine Pediatrician",
+      "actors": "Adolescent Medicine Pediatricians"
+    },
+    {
+      "uid": "child-psychiatrist",
+      "name": "Child & Adolescent Psychiatry",
+      "description": "Specializes in the diagnosis and treatment of children's mental disorders.",
+      "category": "medical",
+      "actor": "Child Psychiatrist",
+      "actors": "Child Psychiatrists"
+    },
+    {
+      "uid": "child-abuse-pediatrician",
+      "name": "Child Abuse Pediatrics",
+      "description": "Specializes in treating consequences of child abuse and neglect.",
+      "category": "medical",
+      "actor": "Child Abuse Pediatricians",
+      "actors": "Child Abuse Pediatricians"
+    },
+    {
+      "uid": "developmental-behavioral-pediatrician",
+      "name": "Developmental Behavioral Pediatrics",
+      "description": "Specializes in developmental difficulties and problematic behaviors in children.",
+      "category": "medical",
+      "actor": "Developmental Behavioral Pediatrician",
+      "actors": "Developmental Behavioral Pediatricians"
+    },
+    {
+      "uid": "neonatal-perinatal-pediatrician",
+      "name": "Neonatal & Perinatal Medicine",
+      "description": "Specializes in premature and ill new borns as well as high-risk pregnancies.",
+      "category": "medical",
+      "actor": "Neonatal & Perinatal Pediatrician",
+      "actors": "Neonatal & Perinatal Pediatricians"
+    },
+    {
+      "uid": "neurodevelopmental-disability-pediatrician",
+      "name": "Neurodevelopmental Disability",
+      "description": "Specializes in developmental delays or learning disorders in children.",
+      "category": "medical",
+      "actor": "Neurodevelopmental Disability Pediatrician",
+      "actors": "Neurodevelopmental Disability Pediatricians"
+    },
+    {
+      "uid": "critical-care-pediatrician",
+      "name": "Pediatric Critical Care Medicine",
+      "description": "Specializes in the care of critically ill children.",
+      "category": "medical",
+      "actor": "Critical Care Pediatrician",
+      "actors": "Critical Care Pediatricians"
+    },
+    {
+      "uid": "pediatric-dentist",
+      "name": "Pediatric Dentistry",
+      "description": "Specializes in children's oral health.",
+      "category": "dental",
+      "actor": "Pediatric Dentist",
+      "actors": "Pediatric Dentists"
+    },
+    {
+      "uid": "pediatric-dermatologist",
+      "name": "Pediatric Dermatology",
+      "description": "Specializes in children's skin disorders, including moles and melanoma.",
+      "category": "medical",
+      "actor": "Pediatric Dermatologist",
+      "actors": "Pediatric Dermatologists"
+    },
+    {
+      "uid": "emergency-medicine-pediatrician",
+      "name": "Pediatric Emergency Medicine",
+      "description": "Specializes in immediate decisions and actions related to children's health.",
+      "category": "medical",
+      "actor": "Emergency Pediatrician",
+      "actors": "Emergency Pediatricians"
+    },
+    {
+      "uid": "pediatric-endocrinologist",
+      "name": "Pediatric Endocrinology",
+      "description": "Specializes in diabetes, thyroid, growth and hormonal disorders in children.",
+      "category": "medical",
+      "actor": "Pediatric Endocrinologist",
+      "actors": "Pediatric Endocrinologists"
+    },
+    {
+      "uid": "pediatric-gastroenterologist",
+      "name": "Pediatric Gastroenterology",
+      "description": "Specializes in children's digestive system.",
+      "category": "medical",
+      "actor": "Pediatric Gastroenterologist",
+      "actors": "Pediatric Gastroenterologists"
+    },
+    {
+      "uid": "pediatric-oncologist",
+      "name": "Pediatric Hematology & Oncology",
+      "description": "Specializes in disorders that involve blood, spleen and lymph as well as cancer or other tumors.",
+      "category": "medical",
+      "actor": "Pediatric Hematology & Oncologist",
+      "actors": "Pediatric Hematology & Oncologists"
+    },
+    {
+      "uid": "infectious-diseases-pediatrician",
+      "name": "Pediatric Infectious Disease",
+      "description": "Specializes in children's infectious diseases.",
+      "category": "medical",
+      "actor": "Infectious Disease Pediatrician",
+      "actors": "Infectious Disease Pediatricians"
+    },
+    {
+      "uid": "pediatric-medical-toxicologist",
+      "name": "Pediatric Medical Toxicology",
+      "description": "Specializes in injury and illness from exposures to drugs and chemicals in children.",
+      "category": "medical",
+      "actor": "Pediatric Medical Toxicologist",
+      "actors": "Pediatric Medical Toxicologists"
+    },
+    {
+      "uid": "pediatric-nephrologist",
+      "name": "Pediatric Nephrology",
+      "description": "Specializes in children's kidney disorders.",
+      "category": "medical",
+      "actor": "Pediatric Nephrologist",
+      "actors": "Pediatric Nephrologists"
+    },
+    {
+      "uid": "pediatric-neurologist",
+      "name": "Pediatric Neurology",
+      "description": "Specializes in children's brain and nervous system.",
+      "category": "medical",
+      "actor": "Pediatric Neurologist",
+      "actors": "Pediatric Neurologists"
+    },
+    {
+      "uid": "pediatric-optometrist",
+      "name": "Pediatric Optometry",
+      "description": "Specializes in children's eye and visual problems.",
+      "category": "vision",
+      "actor": "Pediatric Optometrist",
+      "actors": "Pediatric Optometrists"
+    },
+    {
+      "uid": "pediatric-orhopedic-surgeon",
+      "name": "Pediatric Orthopedic Surgery",
+      "description": "Specializes in surgery of musculoskeletal problems in children.",
+      "category": "medical",
+      "actor": "Pediatric Orthopedic Surgeon",
+      "actors": "Pediatric Orthopedic Surgeons"
+    },
+    {
+      "uid": "pediatric-ear-nose-throat-doctor",
+      "name": "Pediatric Otolaryngology",
+      "description": "Specializes in children's ear, nose and throat problems.",
+      "category": "medical",
+      "actor": "Pediatric Ear, Nose and Throat Doctor",
+      "actors": "Pediatric Ear, Nose and Throat Doctors"
+    },
+    {
+      "uid": "pediatric-pathologist",
+      "name": "Pediatric Pathology",
+      "description": "Specializes in laboratory tests of tissue and bodily fluids in children.",
+      "category": "medical",
+      "actor": "Pediatric Pathologist",
+      "actors": "Pediatric Pathologists"
+    },
+    {
+      "uid": "pediatric-physical-therapist",
+      "name": "Pediatric Physical Therapy",
+      "description": "Specializes in children's physical therapy.",
+      "category": "medical",
+      "actor": "Pediatrics Physical Therapist",
+      "actors": "Pediatrics Physical Therapists"
+    },
+    {
+      "uid": "pediatric-pulmonologist",
+      "name": "Pediatric Pulmonology",
+      "description": "Specializes in children's lungs and airways.",
+      "category": "medical",
+      "actor": "Pediatric Pulmonologist",
+      "actors": "Pediatric Pulmonologists"
+    },
+    {
+      "uid": "pediatric-radiologist",
+      "name": "Pediatric Radiology",
+      "description": "Specializes in imaging of children via X-rays and ultrasound.",
+      "category": "medical",
+      "actor": "Pediatric Radiologist",
+      "actors": "Pediatric Radiologists"
+    },
+    {
+      "uid": "pediatric-rehabilitation-physiatrist",
+      "name": "Pediatric Rehabilitation Medicine",
+      "description": "Specializes in treating children with physical disabilities.",
+      "category": "medical",
+      "actor": "Pediatric Rehabilitation Physiatrist",
+      "actors": "Pediatric Rehabilitation Physiatrists"
+    },
+    {
+      "uid": "pediatric-rheumatologist",
+      "name": "Pediatric Rheumatology",
+      "description": "Specializes in children's joints, muscles, bones and tendons.",
+      "category": "medical",
+      "actor": "Pediatric Rheumatologist",
+      "actors": "Pediatric Rheumatologists"
+    },
+    {
+      "uid": "sleep-medicine-pediatrician",
+      "name": "Pediatric Sleep Medicine",
+      "description": "Specializes in children's sleep disorders.",
+      "category": "medical",
+      "actor": "Sleep Medicine Pediatrician",
+      "actors": "Sleep Medicine Pediatricians"
+    },
+    {
+      "uid": "sport-medicine-pediatrician",
+      "name": "Pediatric Sport Medicine",
+      "description": "Specializes in the prevention and treatment of sports injuries in children.",
+      "category": "medical",
+      "actor": "Sport Medicine Pediatrician",
+      "actors": "Sport Medicine Pediatricians"
+    },
+    {
+      "uid": "pediatric-surgeon",
+      "name": "Pediatric Surgery",
+      "description": "Specializes in complicated surgical conditions in children.",
+      "category": "medical",
+      "actor": "Pediatric Surgeon",
+      "actors": "Pediatric Surgeons"
+    },
+    {
+      "uid": "pediatric-transplant-hepatologist",
+      "name": "Pediatric Transplant Hepatology",
+      "description": "Specializes in children's liver transplants.",
+      "category": "medical",
+      "actor": "Pediatric Transplant Hepatologist",
+      "actors": "Pediatric Transplant Hepatologists"
+    },
+    {
+      "uid": "pediatric-urologist",
+      "name": "Pediatric Urology",
+      "description": "Specializes in children's genital and urinary problems.",
+      "category": "medical",
+      "actor": "Pediatric Urologist",
+      "actors": "Pediatric Urologists"
+    },
+    {
+      "uid": "pediatrician",
+      "name": "Pediatrics",
+      "description": "Specializes in the health of children from birth to young adulthood.",
+      "category": "medical",
+      "actor": "Pediatrician",
+      "actors": "Pediatricians"
+    },
+    {
+      "uid": "colorectal-surgeon",
+      "name": "Colon & Rectal Surgery",
+      "description": "Specializes in colon and rectal surgery.",
+      "category": "medical",
+      "actor": "Colorectal Surgeon",
+      "actors": "Colorectal Surgeons"
+    },
+    {
+      "uid": "addiction-counselor",
+      "name": "Addiction Counseling",
+      "description": "Specializes in addiction counseling.",
+      "category": "medical",
+      "actor": "Addiction Counselor",
+      "actors": "Addiction Counselors"
+    },
+    {
+      "uid": "counselor-specialist",
+      "name": "Counseling",
+      "description": "Specializes in behavioral health service counseling.",
+      "category": "medical",
+      "actor": "Counselor",
+      "actors": "Counselors"
+    },
+    {
+      "uid": "mental-health-counselor",
+      "name": "Mental Health Counseling",
+      "description": "Specializes in mental health service counseling.",
+      "category": "medical",
+      "actor": "Mental Health Counselor",
+      "actors": "Mental Health Counselors"
+    },
+    {
+      "uid": "pastoral-counselor",
+      "name": "Pastoral Counseling",
+      "description": "Specializes in behavioral health service counseling.",
+      "category": "medical",
+      "actor": "Pastoral Counselor",
+      "actors": "Pastoral Counselors"
+    },
+    {
+      "uid": "professional-counselor",
+      "name": "Professional Counseling",
+      "description": "Specializes in professional counseling counseling.",
+      "category": "medical",
+      "actor": "Professional Counselor",
+      "actors": "Professional Counselors"
+    },
+    {
+      "uid": "school-counselor",
+      "name": "School Counseling",
+      "description": "Specializes in school counseling.",
+      "category": "medical",
+      "actor": "School Counselor",
+      "actors": "School Counselors"
+    },
+    {
+      "uid": "critical-care-doctor",
+      "name": "Critical Care Medicine",
+      "description": "Specializes in the care of critically ill patients.",
+      "category": "medical",
+      "actor": "Critical Care Doctor",
+      "actors": "Critical Care Doctors"
+    },
+    {
+      "uid": "critical-care-obgyn",
+      "name": "Critical Care Medicine OBGYN",
+      "description": "Specializes in critical care diagnoses and treatment.",
+      "category": "medical",
+      "actor": "Critical Care OBGYN",
+      "actors": "Critical Care OBGYNs"
+    },
+    {
+      "uid": "dentist",
+      "name": "Dentistry",
+      "description": "Specializes in teeth and oral health.",
+      "category": "dental",
+      "actor": "Dentist",
+      "actors": "Dentists"
+    },
+    {
+      "uid": "endotontist",
+      "name": "Endodontics",
+      "description": "Specializes in root canal and other similar issues.",
+      "category": "dental",
+      "actor": "Endotontist",
+      "actors": "Endotontists"
+    },
+    {
+      "uid": "general-dentist",
+      "name": "General Dentistry",
+      "description": "Specializes in teeth and oral health.",
+      "category": "dental",
+      "actor": "Dentist",
+      "actors": "Dentists"
+    },
+    {
+      "uid": "oral-maxillofacial-surgeon",
+      "name": "Oral & Maxillofacial Surgery",
+      "description": "Specializes in surgical operations of the mouth, jaw and face.",
+      "category": "dental",
+      "actor": "Oral Surgeon",
+      "actors": "Oral Surgeons"
+    },
+    {
+      "uid": "oral-pathologist",
+      "name": "Oral and Maxillofacial Pathology",
+      "description": "Specializes in identification of oral diseases.",
+      "category": "dental",
+      "actor": "Oral Pathologist",
+      "actors": "Oral Pathologists"
+    },
+    {
+      "uid": "oral-radiologist",
+      "name": "Oral and Maxillofacial Radiology",
+      "description": "Specializes in X-rays of the mouth, jaw and face.",
+      "category": "medical",
+      "actor": "Oral Radiologist",
+      "actors": "Oral Radiologists"
+    },
+    {
+      "uid": "orthodontist",
+      "name": "Orthodontics",
+      "description": "Specializes in the correction of teeth and surrounding structures.",
+      "category": "dental",
+      "actor": "Orthodontist",
+      "actors": "Orthodontists"
+    },
+    {
+      "uid": "periodontist",
+      "name": "Periodontics",
+      "description": "Specializes in gums and bones that support your teeth.",
+      "category": "dental",
+      "actor": "Periodontist",
+      "actors": "Periodontists"
+    },
+    {
+      "uid": "prosthodontist",
+      "name": "Prosthodontics",
+      "description": "Specializes in restoration and replacement of teeth.",
+      "category": "dental",
+      "actor": "Prosthodontist",
+      "actors": "Prosthodontists"
+    },
+    {
+      "uid": "immunodermatologist",
+      "name": "Clinical & Laboratory Dermatological Immunology",
+      "description": "Specializes in diagnoses of the body's immune system by laboratory procedures.",
+      "category": "medical",
+      "actor": "Immunodermatologist",
+      "actors": "Immunodermatologists"
+    },
+    {
+      "uid": "dermatologist",
+      "name": "Dermatology",
+      "description": "Specializes in skin disorders, including moles and melanoma.",
+      "category": "medical",
+      "actor": "Dermatologist",
+      "actors": "Dermatologists"
+    },
+    {
+      "uid": "dermatopathologist",
+      "name": "Dermatopathology",
+      "description": "Specializes in diagnoses and monitoring skin diseases.",
+      "category": "medical",
+      "actor": "Dermatopathologist",
+      "actors": "Dermatopathologists"
+    },
+    {
+      "uid": "micrographic-surgeon",
+      "name": "MOHS-Micrographic Surgery",
+      "description": "Specializes in removing diseased skin via surgical methods.",
+      "category": "medical",
+      "actor": "Micrographic Surgeon",
+      "actors": "Micrographic Surgeons"
+    },
+    {
+      "uid": "procedural-dermatologist",
+      "name": "Procedural Dermatology",
+      "description": "Specializes in skin related surgical operations.",
+      "category": "medical",
+      "actor": "Procedural Dermatologist",
+      "actors": "Procedural Dermatologists"
+    },
+    {
+      "uid": "sleep-medicine-otolaryngologist",
+      "name": "Otolaryngologic Sleep Medicine",
+      "description": "Specializes in sleep disorders.",
+      "category": "medical",
+      "actor": "Sleep Medicine Otolaryngologist",
+      "actors": "Sleep Medicine Otolaryngologists"
+    },
+    {
+      "uid": "ear-nose-throat-doctor",
+      "name": "Otolaryngology",
+      "description": "Specializes in ear, nose and throat problems.",
+      "category": "medical",
+      "actor": "Ear, Nose and Throat Doctor",
+      "actors": "Ear, Nose and Throat Doctors"
+    },
+    {
+      "uid": "otolaryngology-facial-plastic-surgeon",
+      "name": "Otolaryngology/Facial Plastic Surgery",
+      "description": "Specializes in facial, plastic and reconstructive surgery.",
+      "category": "medical",
+      "actor": "Facial Plastic Surgeon",
+      "actors": "Facial Plastic Surgeons"
+    },
+    {
+      "uid": "otology-neurotologist",
+      "name": "Otology & Neurotology",
+      "description": "Specializes in ear and hearing problems.",
+      "category": "medical",
+      "actor": "Otology Neurotologist",
+      "actors": "Otology Neurotologists"
+    },
+    {
+      "uid": "head-neck-plastic-surgeon",
+      "name": "Plastic Surgery within the Head & Neck",
+      "description": "Specializes in head and neck plastic and reconstructive surgery.",
+      "category": "medical",
+      "actor": "Head & Neck Plastic Surgeon",
+      "actors": "Head & Neck Plastic Surgeons"
+    },
+    {
+      "uid": "emergency-medicine-doctor",
+      "name": "Emergency Medicine",
+      "description": "Specializes in immediate emergency care.",
+      "category": "medical",
+      "actor": "Emergency Medicine Doctor",
+      "actors": "Emergency Medicine Doctors"
+    },
+    {
+      "uid": "endocrinologist",
+      "name": "Endocrinology, Diabetes & Metabolism",
+      "description": "Specializes in diabetes, thyroid and other disorders affected by hormones.",
+      "category": "medical",
+      "actor": "Endocrinologist",
+      "actors": "Endocrinologists"
+    },
+    {
+      "uid": "corneal-contact-management-optometrist",
+      "name": "Corneal and Contact Management",
+      "description": "Specializes in contact lenses.",
+      "category": "vision",
+      "actor": "Corneal and Contact Management Optometrist",
+      "actors": "Corneal and Contact Management Optometrists"
+    },
+    {
+      "uid": "low-vision-rehabilitation-optometrist",
+      "name": "Low Vision Rehabilitation",
+      "description": "Specializes in treating patients with very poor vision.",
+      "category": "vision",
+      "actor": "Low Vision Rehabilitation Optometrist",
+      "actors": "Low Vision Rehabilitation Optometrists"
+    },
+    {
+      "uid": "occupational-vision-optometrist",
+      "name": "Occupational Vision",
+      "description": "Specializes in work related vision and eye safety.",
+      "category": "vision",
+      "actor": "Occupational Vision Optometrist",
+      "actors": "Occupational Vision Optometrists"
+    },
+    {
+      "uid": "ophthalmologist",
+      "name": "Ophthalmology",
+      "description": "Specializes in vision, eye care, and eye surgery including Lasik.",
+      "category": "vision",
+      "actor": "Ophthalmologist",
+      "actors": "Ophthalmologists"
+    },
+    {
+      "uid": "optometrist",
+      "name": "Optometry",
+      "description": "Specializes in vision and prescribing glasses and contact lenses.",
+      "category": "vision",
+      "actor": "Optometrist",
+      "actors": "Optometrists"
+    },
+    {
+      "uid": "sports-vision-optometrist",
+      "name": "Sports Vision",
+      "description": "Specializes in sport related eye injuries and treatments.",
+      "category": "vision",
+      "actor": "Sports Vision Optometrist",
+      "actors": "Sports Vision Optometrists"
+    },
+    {
+      "uid": "vision-therapy-optometrist",
+      "name": "Vision Therapy",
+      "description": "Specializes in therapies to help improve vision.",
+      "category": "vision",
+      "actor": "Vision Therapist",
+      "actors": "Vision Therapists"
+    },
+    {
+      "uid": "gastroenterologist",
+      "name": "Gastroenterology",
+      "description": "Specializes in the digestive system.",
+      "category": "medical",
+      "actor": "Gastroenterologist",
+      "actors": "Gastroenterologists"
+    },
+    {
+      "uid": "general-surgeon",
+      "name": "Surgery",
+      "description": "Specializes in complex surgical operations.",
+      "category": "medical",
+      "actor": "General Surgeon",
+      "actors": "General Surgeons"
+    },
+    {
+      "uid": "clinical-biochemical-geneticist",
+      "name": "Clinical Biochemical Genetics",
+      "description": "Specializes in biochemical diagnostics of genetic disorders.",
+      "category": "medical",
+      "actor": "Clinical Biochemical Geneticist",
+      "actors": "Clinical Biochemical Geneticists"
+    },
+    {
+      "uid": "clinical-cytogeneticist",
+      "name": "Clinical Cytogenetic",
+      "description": "Specializes in laboratory diagnostics of genes.",
+      "category": "medical",
+      "actor": "Clinical Cytogeneticist",
+      "actors": "Clinical Cytogeneticists"
+    },
+    {
+      "uid": "clinical-geneticist",
+      "name": "Clinical Genetics (M.D.)",
+      "description": "Specializes in the diagnoses of and counselling for genetic disorders.",
+      "category": "medical",
+      "actor": "Geneticist",
+      "actors": "Geneticists"
+    },
+    {
+      "uid": "clinical-molecular-geneticist",
+      "name": "Clinical Molecular Genetics",
+      "description": "Specializes in molecular diagnostics of genetic disorders.",
+      "category": "medical",
+      "actor": "Clinical Molecular Geneticist",
+      "actors": "Clinical Molecular Geneticists"
+    },
+    {
+      "uid": "geneticist",
+      "name": "Medical Genetics, Ph.D. Medical Genetics",
+      "description": "Specializes in the diagnoses of and counselling for genetic disorders.",
+      "category": "medical",
+      "actor": "Geneticist",
+      "actors": "Geneticists"
+    },
+    {
+      "uid": "medical-geneticist",
+      "name": "Ph.D. Medical Genetics",
+      "description": "Specializes in the diagnoses of and counselling for genetic disorders.",
+      "category": "medical",
+      "actor": "Geneticist",
+      "actors": "Geneticists"
+    },
+    {
+      "uid": "geriatric-medicine-doctor",
+      "name": "Geriatric Medicine",
+      "description": "Specializes in the aging process and elderly.",
+      "category": "medical",
+      "actor": "Geriatric Medicine Doctor",
+      "actors": "Geriatric Medicine Doctors"
+    },
+    {
+      "uid": "hepatologist",
+      "name": "Hepatology",
+      "description": "Specializes in liver and spleen  diseases.",
+      "category": "medical",
+      "actor": "Hepatologist",
+      "actors": "Hepatologists"
+    },
+    {
+      "uid": "transplant-hepatologist",
+      "name": "Transplant Hepatology",
+      "description": "Specializes in liver transplants.",
+      "category": "medical",
+      "actor": "Transplant Hepatologist",
+      "actors": "Transplant Hepatologists"
+    },
+    {
+      "uid": "hospice-care-palliative-doctor",
+      "name": "Hospice and Palliative Medicine",
+      "description": "Specializes in preventing and relieving suffering of dying patients.",
+      "category": "medical",
+      "actor": "Hospice Care and Palliative Doctor",
+      "actors": "Hospice Care and Palliative Doctors"
+    },
+    {
+      "uid": "hospitalist",
+      "name": "Hospitalist",
+      "description": "Specializes in general medical care of hospitalized patients.",
+      "category": "medical",
+      "actor": "Hospitalist",
+      "actors": "Hospitalists"
+    },
+    {
+      "uid": "infectious-disease-doctor",
+      "name": "Infectious Disease",
+      "description": "Specializes in infectious diseases of all types and in all organ systems.",
+      "category": "medical",
+      "actor": "Infectious Disease Doctor",
+      "actors": "Infectious Disease Doctors"
+    },
+    {
+      "uid": "adult-psychologist",
+      "name": "Adult Development & Aging Psychology",
+      "description": "Specializes in adult counceling and therapy.",
+      "category": "medical",
+      "actor": "Adult Psychologist",
+      "actors": "Adult Psychologists"
+    },
+    {
+      "uid": "clinical-child-psychologist",
+      "name": "Clinical Child & Adolescent Psychology",
+      "description": "Specializes in children's psychological counceling and therapy.",
+      "category": "medical",
+      "actor": "Clinical Child Psychologist",
+      "actors": "Clinical Child Psychologists"
+    },
+    {
+      "uid": "clinical-neurophysiologist",
+      "name": "Clinical Neurophysiology",
+      "description": "Specializes in nervous system disorders.",
+      "category": "medical",
+      "actor": "Clinical Neurophysiologist",
+      "actors": "Clinical Neurophysiologists"
+    },
+    {
+      "uid": "clinical-psychologist",
+      "name": "Clinical Psychology",
+      "description": "Specializes in psychological counceling and therapy.",
+      "category": "medical",
+      "actor": "Clinical Psychologist",
+      "actors": "Clinical Psychologists"
+    },
+    {
+      "uid": "cognitive-behavioral-psychologist",
+      "name": "Cognitive & Behavioral Psychology",
+      "description": "Specializes in understanding and researching human behaviour.",
+      "category": "medical",
+      "actor": "Cognitive & Behavioral Psychologist",
+      "actors": "Cognitive & Behavioral Psychologists"
+    },
+    {
+      "uid": "counceling-pshychologist",
+      "name": "Counseling Psychology",
+      "description": "Specializes in psychological counceling.",
+      "category": "medical",
+      "actor": "Counceling Psychologist",
+      "actors": "Counceling Psychologists"
+    },
+    {
+      "uid": "family-psychologist",
+      "name": "Family Psychology",
+      "description": "Specializes in family counceling and therapy.",
+      "category": "medical",
+      "actor": "Family Psychologist",
+      "actors": "Family Psychologists"
+    },
+    {
+      "uid": "forensic-psychologist",
+      "name": "Forensic Psychology",
+      "description": "Specializes in psychology related criminal matters.",
+      "category": "medical",
+      "actor": "Forensic Psychologist",
+      "actors": "Forensic Psychologists"
+    },
+    {
+      "uid": "geriatric-psychiatrist",
+      "name": "Geriatric Psychiatry",
+      "description": "Specializes in the diagnosis and treatment of mental disorders in the elderly.",
+      "category": "medical",
+      "actor": "Geriatric Psychiatrist",
+      "actors": "Geriatric Psychiatrists"
+    },
+    {
+      "uid": "group-psychotherapy-psychologist",
+      "name": "Group Psychotherapy",
+      "description": "Specializes in counceling and therapy in groups.",
+      "category": "medical",
+      "actor": "Group Psychotherapy Psychologist",
+      "actors": "Group Psychotherapy Psychologists"
+    },
+    {
+      "uid": "health-psychologist",
+      "name": "Health Psychology",
+      "description": "Specializes in counceling of patients with physical health problems.",
+      "category": "medical",
+      "actor": "Health Psychologist",
+      "actors": "Health Psychologists"
+    },
+    {
+      "uid": "health-service-psychologist",
+      "name": "Health Service Psychology",
+      "description": "Specializes in patients whose functioning is impaired.",
+      "category": "medical",
+      "actor": "Health Service Psychologist",
+      "actors": "Health Service Psychologists"
+    },
+    {
+      "uid": "mental-retardation-psychologists",
+      "name": "Mental Retardation & Developmental Disabilities",
+      "description": "Specializes in the counceling and therapy of the mentally challenged.",
+      "category": "medical",
+      "actor": "Mental Retardation Psychologist",
+      "actors": "Mental Retardation Psychologists"
+    },
+    {
+      "uid": "medical-psychologist",
+      "name": "Prescribing (Medical) Psychology",
+      "description": "Specializes in treating the mind with medication.",
+      "category": "medical",
+      "actor": "Medical Psychologist",
+      "actors": "Medical Psychologists"
+    },
+    {
+      "uid": "psychiatrist",
+      "name": "Psychiatry",
+      "description": "Specializes in the diagnosis and treatment of mental disorders.",
+      "category": "medical",
+      "actor": "Psychiatrist",
+      "actors": "Psychiatrists"
+    },
+    {
+      "uid": "psychoanalyst",
+      "name": "Psychoanalysis",
+      "description": "Specializes in psychoanalysis techniques developed by Sigmund Freud.",
+      "category": "medical",
+      "actor": "Psychoanalyst",
+      "actors": "Psychoanalysts"
+    },
+    {
+      "uid": "psychologist",
+      "name": "Psychology",
+      "description": "Specializes in psychological counceling and therapy.",
+      "category": "medical",
+      "actor": "Psychologist",
+      "actors": "Psychologists"
+    },
+    {
+      "uid": "rehabilitation-psychologist",
+      "name": "Rehabilitation Psychology",
+      "description": "Specializes in rehabilitation counceling and therapy.",
+      "category": "medical",
+      "actor": "Rehabilitation Psychologist",
+      "actors": "Rehabilitation Psychologists"
+    },
+    {
+      "uid": "school-psychologist",
+      "name": "School Psychology",
+      "description": "Specializes in counceling and therapy in schools.",
+      "category": "medical",
+      "actor": "School Psychologist",
+      "actors": "School Psychologists"
+    },
+    {
+      "uid": "nephrologist",
+      "name": "Nephrology",
+      "description": "Specializes in patients with kidney disorders.",
+      "category": "medical",
+      "actor": "Nephrologist",
+      "actors": "Nephrologists"
+    },
+    {
+      "uid": "neurologist",
+      "name": "Neurology",
+      "description": "Specializes in the brain and nervous system.",
+      "category": "medical",
+      "actor": "Neurologist",
+      "actors": "Neurologists"
+    },
+    {
+      "uid": "neuromusculoskeletal-medicine-doctor",
+      "name": "Neuromusculoskeletal Medicine & OMM",
+      "description": "Specializes in holistic physical therapy to treat illnesses.",
+      "category": "medical",
+      "actor": "Neuromusculoskeletal Medicine Doctor",
+      "actors": "Neuromusculoskeletal Medicine Doctors"
+    },
+    {
+      "uid": "neurosurgeon",
+      "name": "Neurological Surgery",
+      "description": "Specializes in nervous system and brain surgery.",
+      "category": "medical",
+      "actor": "Neurosurgeon",
+      "actors": "Neurosurgeons"
+    },
+    {
+      "uid": "vivo-vitro-nuclear-medicine-doctor",
+      "name": "In Vivo & In Vitro Nuclear Medicine",
+      "description": "Specializes in diagnosing and treating diseases with radioactive materials.",
+      "category": "medical",
+      "actor": "In Vivo & In Vitro Nuclear Medicine Doctor",
+      "actors": "In Vivo & In Vitro Nuclear Medicine Doctors"
+    },
+    {
+      "uid": "nuclear-cardiologist",
+      "name": "Nuclear Cardiology",
+      "description": "Specializes in diagnosing and treating diseases with radioactive materials.",
+      "category": "medical",
+      "actor": "Nuclear Cardiologist",
+      "actors": "Nuclear Cardiologists"
+    },
+    {
+      "uid": "nuclear-imaging-doctor",
+      "name": "Nuclear Imaging & Therapy",
+      "description": "Specializes in diagnosing and treating diseases with radioactive materials.",
+      "category": "medical",
+      "actor": "Nuclear Imaging & Therapy Doctor",
+      "actors": "Nuclear Imaging & Therapy Doctors"
+    },
+    {
+      "uid": "nuclear-medicine-doctor",
+      "name": "Nuclear Medicine",
+      "description": "Specializes in diagnosing and treating diseases with radioactive materials.",
+      "category": "medical",
+      "actor": "Nuclear Medicine Doctor",
+      "actors": "Nuclear Medicine Doctors"
+    },
+    {
+      "uid": "acute-nurse-practitioner",
+      "name": "Acute Care Nurse Practitioner",
+      "description": "Specializes in immediate care.",
+      "category": "medical",
+      "actor": "Acute Nurse Practitoner",
+      "actors": "Acute Nurse Practitoners"
+    },
+    {
+      "uid": "adult-nurse-practitioner",
+      "name": "Adult Health Nurse Practitioner",
+      "description": "Specializes in adult's health.",
+      "category": "medical",
+      "actor": "Adult Nurse Practitoner",
+      "actors": "Adult Nurse Practitoners"
+    },
+    {
+      "uid": "family-nurse-practitioner",
+      "name": "Family Nurse Practitioner",
+      "description": "Specializes in your and your family's health.",
+      "category": "medical",
+      "actor": "Family Nurse Practitoner",
+      "actors": "Family Nurse Practitoners"
+    },
+    {
+      "uid": "gerontology-nurse-practitioner",
+      "name": "Gerontology Nurse Practitioner",
+      "description": "Specializes in the diagnosis of common illnesses.",
+      "category": "medical",
+      "actor": "Gerontology Nurse Practitoner",
+      "actors": "Gerontology Nurse Practitoners"
+    },
+    {
+      "uid": "neonatal-critical-care-nurse-practitioner",
+      "name": "Neonatal, Critical Care Nurse Practitioner",
+      "description": "Specializes in premature and ill new borns as well as high-risk pregnancies.",
+      "category": "medical",
+      "actor": "Neonatal Nurse Practitoner",
+      "actors": "Neonatal Nurse Practitoners"
+    },
+    {
+      "uid": "neonatal-nurse-practitioner",
+      "name": "Neonatology Nurse Practitioner",
+      "description": "Specializes in premature and ill new borns as well as high-risk pregnancies.",
+      "category": "medical",
+      "actor": "Neonatal Nurse Practitoner",
+      "actors": "Neonatal Nurse Practitoners"
+    },
+    {
+      "uid": "nurse-practitioner",
+      "name": "Nurse Practitioner",
+      "description": "Specializes in your and your family's health.",
+      "category": "medical",
+      "actor": "General Nurse Practitoner",
+      "actors": "General Nurse Practitoners"
+    },
+    {
+      "uid": "obgyn-nurse-practitioner",
+      "name": "OBGYN Nurse Practitioner",
+      "description": "Specializes in the care of the female reproductive system.",
+      "category": "medical",
+      "actor": "OBGYN Nurse Practitoner",
+      "actors": "OBGYN Nurse Practitoners"
+    },
+    {
+      "uid": "pediatric-nurse-practitioner",
+      "name": "Pediatric Nurse Practitioner",
+      "description": "Specializes in the health of children from birth to young adulthood.",
+      "category": "medical",
+      "actor": "Pediatric Nurse Practitoner",
+      "actors": "Pediatric Nurse Practitoners"
+    },
+    {
+      "uid": "primary-care-nurse-practitioner",
+      "name": "Primary Care Nurse Practitioner",
+      "description": "Specializes in your and your family's health.",
+      "category": "medical",
+      "actor": "Primary Care Nurse Practitoner",
+      "actors": "Primary Care Nurse Practitoners"
+    },
+    {
+      "uid": "mental-health-nurse-practitioner",
+      "name": "Psych/Mental Health Nurse Practitioner",
+      "description": "Specializes in mental health.",
+      "category": "medical",
+      "actor": "Mental Health Nurse Practitoner",
+      "actors": "Mental Health Nurse Practitoners"
+    },
+    {
+      "uid": "women-health-nurse-practitioner",
+      "name": "Women's Health Nurse Practitioner",
+      "description": "Specializes in women's health.",
+      "category": "medical",
+      "actor": "Women's Health Nurse Practitoner",
+      "actors": "Women's Health Nurse Practitoners"
+    },
+    {
+      "uid": "gynecologic-oncologist",
+      "name": "Gynecologic Oncology",
+      "description": "Specializes in cancer and other tumors of the female reproductive organs.",
+      "category": "medical",
+      "actor": "Gynecologic Oncologist",
+      "actors": "Gynecologic Oncologists"
+    },
+    {
+      "uid": "gynecologist",
+      "name": "Gynecology",
+      "description": "Specializes in the care of the female reproductive system.",
+      "category": "medical",
+      "actor": "Gynecologist",
+      "actors": "Gynecologists"
+    },
+    {
+      "uid": "hospice-palliative-obgyn",
+      "name": "Hospice & Palliative Medicine",
+      "description": "Specializes in preventing and relieving life limiting illnesses",
+      "category": "medical",
+      "actor": "Hospice and Palliative OBGYN",
+      "actors": "Hospice and Palliative OBGYNs"
+    },
+    {
+      "uid": "maternal-fetal-medicine-obgyn",
+      "name": "Maternal & Fetal Medicine",
+      "description": "Specializes in high-risk pregnancies and pregnancy complications.",
+      "category": "medical",
+      "actor": "Maternal & Fetal OBGYN",
+      "actors": "Maternal & Fetal OBGYNs"
+    },
+    {
+      "uid": "obstetrician",
+      "name": "Obstetrics",
+      "description": "Specializes in pregnancy and delivery.",
+      "category": "medical",
+      "actor": "Obstetrician",
+      "actors": "Obstetricians"
+    },
+    {
+      "uid": "obstetrics-gynecologist",
+      "name": "Obstetrics & Gynecology",
+      "description": "Specializes in the care of the female reproductive system.",
+      "category": "medical",
+      "actor": "OBGYN",
+      "actors": "OBGYNs"
+    },
+    {
+      "uid": "reproductive-erndocrinologist",
+      "name": "Reproductive Endocrinology",
+      "description": "Specializes in infertility and hormonal problems.",
+      "category": "medical",
+      "actor": "Reproductive Endocrinologist",
+      "actors": "Reproductive Endocrinologists"
+    },
+    {
+      "uid": "oncologist",
+      "name": "Hematology & Oncology",
+      "description": "Specializes in the diagnosis and treatment of cancer and tumors.",
+      "category": "medical",
+      "actor": "Oncologist",
+      "actors": "Oncologists"
+    },
+    {
+      "uid": "medical-oncologist",
+      "name": "Medical Oncology",
+      "description": "Specializes in the diagnosis and treatment of cancer and tumors.",
+      "category": "medical",
+      "actor": "Medical Oncologist",
+      "actors": "Medical Oncologists"
+    },
+    {
+      "uid": "radiation-oncologist",
+      "name": "Radiation Oncology",
+      "description": "Specializes in radiation treatment of cancer and tumors.",
+      "category": "medical",
+      "actor": "Radiation Oncologist",
+      "actors": "Radiation Oncologists"
+    },
+    {
+      "uid": "surgical-oncologist",
+      "name": "Surgical Oncology",
+      "description": "Specializes in the branch of surgery which focuses on the surgical management of cancer.",
+      "category": "medical",
+      "actor": "Surgical Oncologist",
+      "actors": "Surgical Oncologists"
+    },
+    {
+      "uid": "oral-surgeon",
+      "name": "Oral & Maxillofacial Surgery",
+      "description": "Specializes in surgical operations of the mouth, jaw and face.",
+      "category": "medical",
+      "actor": "Oral Surgeon",
+      "actors": "Oral Surgeons"
+    },
+    {
+      "uid": "reconstructive-orthopedist",
+      "name": "Adult Reconstructive orthopedic Surgery",
+      "description": "Specializes in reconstructive surgery, including hip and knee.",
+      "category": "medical",
+      "actor": "Reconstructive Surgeon",
+      "actors": "Reconstructive Surgeons"
+    },
+    {
+      "uid": "foot-ankle-orthopedist",
+      "name": "Foot and Ankle Surgery",
+      "description": "Specializes in foot and ankle surgery.",
+      "category": "medical",
+      "actor": "Foot and Ankle Surgeon",
+      "actors": "Foot and Ankle Surgeons"
+    },
+    {
+      "uid": "hand-orthopedist",
+      "name": "Hand Surgery",
+      "description": "Specializes in hand and wrist surgery.",
+      "category": "medical",
+      "actor": "Hand Surgeon",
+      "actors": "Hand Surgeons"
+    },
+    {
+      "uid": "sports-medicine-orthopedist",
+      "name": "Orthopedic Sports Medicine",
+      "description": "Specializes in surgery and treatment of sport related injuries.",
+      "category": "medical",
+      "actor": "Sports Medicine Orthopedist",
+      "actors": "Sports Medicine Orthopedists"
+    },
+    {
+      "uid": "orthopedic-surgeon",
+      "name": "Orthopedic Surgery",
+      "description": "Specializes in surgery and treatment of musculoskeletal problems, including knees and spine.",
+      "category": "medical",
+      "actor": "Orthopedist",
+      "actors": "Orthopedists"
+    },
+    {
+      "uid": "spine-orthopedist",
+      "name": "Orthopedic Surgery of the Spine",
+      "description": "Specializes in spine surgery and treatment.",
+      "category": "medical",
+      "actor": "Spine Surgeon",
+      "actors": "Spine Surgeons"
+    },
+    {
+      "uid": "trauma-orthopedist",
+      "name": "Orthopedic Trauma",
+      "description": "Specializes in acute orthopedic injuries, including hip treatments.",
+      "category": "medical",
+      "actor": "Trauma Orthopedist",
+      "actors": "Trauma Orthopedists"
+    },
+    {
+      "uid": "interventional-pain-management-doctor",
+      "name": "Interventional Pain Medicine",
+      "description": "Specializes in pain management and prevention.",
+      "category": "medical",
+      "actor": "Interventional Pain Management Doctor",
+      "actors": "Interventional Pain Management Doctors"
+    },
+    {
+      "uid": "pain-management-doctor",
+      "name": "Pain Medicine",
+      "description": "Specializes in pain management and prevention.",
+      "category": "medical",
+      "actor": "Pain Management Doctor",
+      "actors": "Pain Management Doctors"
+    },
+    {
+      "uid": "anatomic-pathologist",
+      "name": "Anatomic Pathology",
+      "description": "Specializes in laboratory tests of tissue and bodily fluids.",
+      "category": "medical",
+      "actor": "Anatomic Pathologist",
+      "actors": "Anatomic Pathologists"
+    },
+    {
+      "uid": "blood-banking-transfusion-doctor",
+      "name": "Blood Banking & Transfusion Medicine",
+      "description": "Specializes in blood transfusion and banking.",
+      "category": "medical",
+      "actor": "Blood Banking & Transfusion Doctor",
+      "actors": "Blood Banking & Transfusion Doctors"
+    },
+    {
+      "uid": "chemical-pathologist",
+      "name": "Chemical Pathology",
+      "description": "Specializes in biochemistry of the human body.",
+      "category": "medical",
+      "actor": "Chemical Pathologist",
+      "actors": "Chemical Pathologists"
+    },
+    {
+      "uid": "clinical-pathologist",
+      "name": "Clinical Pathology",
+      "description": "Specializes in laboratory tests of tissue and bodily fluids.",
+      "category": "medical",
+      "actor": "Clinical Pathologist",
+      "actors": "Clinical Pathologists"
+    },
+    {
+      "uid": "laboratory-medicine-doctor",
+      "name": "Clinical Pathology/Laboratory Medicine",
+      "description": "Specializes in laboratory tests of tissue and bodily fluids.",
+      "category": "medical",
+      "actor": "Clinical Pathologist",
+      "actors": "Clinical Pathologists"
+    },
+    {
+      "uid": "cytopathologist",
+      "name": "Cytopathology",
+      "description": "Specializes in laboratory tests of human cells, including Pap test.",
+      "category": "medical",
+      "actor": "Cytopathologist",
+      "actors": "Cytopathologists"
+    },
+    {
+      "uid": "dermatopathology-doctor",
+      "name": "Dermatopathology",
+      "description": "Specializes in laboratory tests of skin.",
+      "category": "medical",
+      "actor": "Dermatopathologist",
+      "actors": "Dermatopathologists"
+    },
+    {
+      "uid": "forensic-pathologist",
+      "name": "Forensic Pathology",
+      "description": "Specializes in investigating reasons of death.",
+      "category": "medical",
+      "actor": "Forensic Pathologist",
+      "actors": "Forensic Pathologists"
+    },
+    {
+      "uid": "hematopathologist",
+      "name": "Hematology",
+      "description": "Specializes in laboratory tests of blood cells and bone marrow.",
+      "category": "medical",
+      "actor": "Hematopathologist",
+      "actors": "Hematopathologists"
+    },
+    {
+      "uid": "immunopathologist",
+      "name": "Immunopathology",
+      "description": "Specializes in the diagnosis of immunologic diseases.",
+      "category": "medical",
+      "actor": "Immunopathologist",
+      "actors": "Immunopathologists"
+    },
+    {
+      "uid": "medical-microbiologist",
+      "name": "Medical Microbiology",
+      "description": "Specializes in viruses and bacteria that cause diseases.",
+      "category": "medical",
+      "actor": "Medical Microbiologist",
+      "actors": "Medical Microbiologists"
+    },
+    {
+      "uid": "molecular-genetic-pathologist",
+      "name": "Molecular Genetic Pathology",
+      "description": "Specializes in laboratory tests of genetic materials.",
+      "category": "medical",
+      "actor": "Molecular Genetic Pathologist",
+      "actors": "Molecular Genetic Pathologists"
+    },
+    {
+      "uid": "neuropathologist",
+      "name": "Neuropathology",
+      "description": "Specializes in diagnosing nervous system diseases.",
+      "category": "medical",
+      "actor": "Neuropathologist",
+      "actors": "Neuropathologists"
+    },
+    {
+      "uid": "pathologist",
+      "name": "Pathology",
+      "description": "Specializes in laboratory tests of tissue and bodily fluids.",
+      "category": "medical",
+      "actor": "Pathologist",
+      "actors": "Pathologists"
+    },
+    {
+      "uid": "hospice-palliative-physiatrist",
+      "name": "Hospice and Palliative Medicine",
+      "description": "Specializes in reliving the suffering of dying patients.",
+      "category": "medical",
+      "actor": "Hospice and Palliative Physiatrist",
+      "actors": "Hospice and Palliative Physiatrists"
+    },
+    {
+      "uid": "neuromuscular-physiatrist",
+      "name": "Neuromuscular Medicine",
+      "description": "Specializes in neuromuscular medicine.",
+      "category": "medical",
+      "actor": "Neuromuscular Physiatrist",
+      "actors": "Neuromuscular Physiatrists"
+    },
+    {
+      "uid": "pain-medicine-physiatrist",
+      "name": "Pain Medicine",
+      "description": "Specializes in treating patients with cronic or acute pain.",
+      "category": "medical",
+      "actor": "Pain Medicine Physiatrist",
+      "actors": "Pain Medicine Physiatrists"
+    },
+    {
+      "uid": "sports-medicine-physiatrist",
+      "name": "Physiastric Sports Medicine",
+      "description": "Specializes in treating patients with sport related physical disabilities.",
+      "category": "medical",
+      "actor": "Sports Medicine Physiatrist",
+      "actors": "Sports Medicine Physiatrists"
+    },
+    {
+      "uid": "physiatrist",
+      "name": "Physical Medicine & Rehabilitation",
+      "description": "Specializes in treating patients with physical disabilities.",
+      "category": "medical",
+      "actor": "Physiatrist",
+      "actors": "Physiatrists"
+    },
+    {
+      "uid": "spinal-cord-injury-physiatrist",
+      "name": "Spinal Cord Injury Medicine",
+      "description": "Specializes in patients with spinal cord injuries.",
+      "category": "medical",
+      "actor": "Spinal Cord Injury Physiatrist",
+      "actors": "Spinal Cord Injury Physiatrists"
+    },
+    {
+      "uid": "cardiopulmonary-physical-therapist",
+      "name": "Cardiopulmonary Physical Therapy",
+      "description": "Specializes in heart and lung related physical therapy.",
+      "category": "medical",
+      "actor": "Cardiopulmonary Physical Therapist",
+      "actors": "Cardiopulmonary Physical Therapists"
+    },
+    {
+      "uid": "electrophysiology-physical-therapist",
+      "name": "Clinical Electrophysiology",
+      "description": "Specializes in wound management and physical therapy.",
+      "category": "medical",
+      "actor": "Electrophysiology Physical Therapist",
+      "actors": "Electrophysiology Physical Therapists"
+    },
+    {
+      "uid": "ergonomic-physical-therapist",
+      "name": "Ergonomic Physical Therapy",
+      "description": "Specializes in ergonomics and physical therapy.",
+      "category": "medical",
+      "actor": "Ergonomic Physical Therapist",
+      "actors": "Ergonomic Physical Therapists"
+    },
+    {
+      "uid": "geriatric-physical-therapist",
+      "name": "Geriatrics Physical Therapy",
+      "description": "Specializes in physical therapy for the elderly.",
+      "category": "medical",
+      "actor": "Geriatric Physical Therapist",
+      "actors": "Geriatric Physical Therapists"
+    },
+    {
+      "uid": "hand-physical-therapist",
+      "name": "Hand Physical Therapy",
+      "description": "Specializes in physical therapy of the hands.",
+      "category": "medical",
+      "actor": "Hand Physical Therapist",
+      "actors": "Hand Physical Therapists"
+    },
+    {
+      "uid": "human-factor-physical-therapist",
+      "name": "Human Factor Physical Therapy",
+      "description": "Specializes in physical therapy.",
+      "category": "medical",
+      "actor": "Human Factors Physical Therapist",
+      "actors": "Human Factors Physical Therapists"
+    },
+    {
+      "uid": "neurology-physical-therapist",
+      "name": "Neurology Physical Therapy",
+      "description": "Specializes in nervous system physical therapy.",
+      "category": "medical",
+      "actor": "Neurology Physical Therapist",
+      "actors": "Neurology Physical Therapists"
+    },
+    {
+      "uid": "orthopedic-physical-therapist",
+      "name": "Orthopedic Physical Therapy",
+      "description": "Specializes in physical therapy of joints and muscles.",
+      "category": "medical",
+      "actor": "Orthopedic Physical Therapist",
+      "actors": "Orthopedic Physical Therapists"
+    },
+    {
+      "uid": "physical-therapist",
+      "name": "Physical Therapy",
+      "description": "Specializes in physical therapy.",
+      "category": "medical",
+      "actor": "Physical Therapist",
+      "actors": "Physical Therapists"
+    },
+    {
+      "uid": "sport-physical-therapist",
+      "name": "Sports Physical Therapy",
+      "description": "Specializes in sport injury related physical therapy.",
+      "category": "medical",
+      "actor": "Sports Physical Therapist",
+      "actors": "Sports Physical Therapists"
+    },
+    {
+      "uid": "facial-plastic-surgeon",
+      "name": "Facial Plastic Surgery",
+      "description": "Specializes in facial, plastic and reconstructive surgery.",
+      "category": "medical",
+      "actor": "Facial Plastic Surgeon",
+      "actors": "Facial Plastic Surgeons"
+    },
+    {
+      "uid": "plastic-surgery-specialist",
+      "name": "Plastic Surgery",
+      "description": "Specializes in plastic and reconstructive surgery.",
+      "category": "medical",
+      "actor": "Plastic Surgeon",
+      "actors": "Plastic Surgeons"
+    },
+    {
+      "uid": "plastic-surgeon",
+      "name": "Plastic and Reconstructive Surgery",
+      "description": "Specializes in plastic and reconstructive surgery.",
+      "category": "medical",
+      "actor": "Plastic Surgeon",
+      "actors": "Plastic Surgeons"
+    },
+    {
+      "uid": "podiatry-surgeon",
+      "name": "Foot & Ankle Surgery",
+      "description": "Specializes in foot and ankle surgery.",
+      "category": "medical",
+      "actor": "Podiatric Surgeon",
+      "actors": "Podiatric Surgeons"
+    },
+    {
+      "uid": "podiatry-foot-surgeon",
+      "name": "Foot Surgery",
+      "description": "Specializes in foot surgery.",
+      "category": "medical",
+      "actor": "Podiatric Foot Surgeon",
+      "actors": "Podiatric Foot Surgeons"
+    },
+    {
+      "uid": "podiatrist",
+      "name": "Podiatry",
+      "description": "Specializes in foot and ankle problems.",
+      "category": "medical",
+      "actor": "Podiatrist",
+      "actors": "Podiatrists"
+    },
+    {
+      "uid": "primary-podiatry-doctor",
+      "name": "Primary Podiatric Medicine",
+      "description": "Specializes in foot and ankle problems.",
+      "category": "medical",
+      "actor": "Podiatrist",
+      "actors": "Podiatrists"
+    },
+    {
+      "uid": "radiology-podiatrist",
+      "name": "Radiology Podiatry",
+      "description": "Specializes in foot and ankle imaging.",
+      "category": "medical",
+      "actor": "Radiology Podiatrist",
+      "actors": "Radiology Podiatrists"
+    },
+    {
+      "uid": "sports-podiatrist",
+      "name": "Sports Medicine Podiatry",
+      "description": "Specializes in sport related foot and ankle problems.",
+      "category": "medical",
+      "actor": "Sports Podiatrist",
+      "actors": "Sports Podiatrists"
+    },
+    {
+      "uid": "aerospace-medicine-doctor",
+      "name": "Aerospace Medicine",
+      "description": "Specializes in health and safety of airplane crewmembers and passangers.",
+      "category": "medical",
+      "actor": "Aerospace Medicine Doctor",
+      "actors": "Aerospace Medicine Doctors"
+    },
+    {
+      "uid": "environmental-preventive-medicine-doctor",
+      "name": "Environmental Preventive Medicine",
+      "description": "Specializes in environmental related preventive care.",
+      "category": "medical",
+      "actor": "Environmental Preventive Medicine Doctor",
+      "actors": "Environmental Preventive Medicine Doctors"
+    },
+    {
+      "uid": "occupational-medicine-doctor",
+      "name": "Occupational Medicine",
+      "description": "Specializes in occupational preventive care.",
+      "category": "medical",
+      "actor": "Occupational Medicine Doctor",
+      "actors": "Occupational Medicine Doctors"
+    },
+    {
+      "uid": "preventive-medical-toxicologist",
+      "name": "Preventive Medical Toxicology",
+      "description": "Specializes in preventing illnesses related to drugs and chemicals.",
+      "category": "medical",
+      "actor": "Preventive Medical Toxicologist",
+      "actors": "Preventive Medical Toxicologists"
+    },
+    {
+      "uid": "preventive-medicine-doctor",
+      "name": "Preventive Medicine",
+      "description": "Specializes in preventive care and public health.",
+      "category": "medical",
+      "actor": "Preventive Medicine Doctor",
+      "actors": "Preventive Medicine Doctors"
+    },
+    {
+      "uid": "preventive-sports-medicine-doctor",
+      "name": "Preventive Sports Medicine",
+      "description": "Specializes in sport related preventive care.",
+      "category": "medical",
+      "actor": "Preventive Sports Medicine Doctor",
+      "actors": "Preventive Sports Medicine Doctors"
+    },
+    {
+      "uid": "undersea-hyperbaric-medicine-doctor",
+      "name": "Undersea and Hyperbaric Medicine",
+      "description": "Specializes in diving related illnesses.",
+      "category": "medical",
+      "actor": "Undersea and Hyperbaric Medicine Doctor",
+      "actors": "Undersea and Hyperbaric Medicine Doctors"
+    },
+    {
+      "uid": "family-practitioner",
+      "name": "Family Medicine",
+      "description": "Specializes in your and your family's total health.",
+      "category": "medical",
+      "actor": "Family Practitioner",
+      "actors": "Family Practitioners"
+    },
+    {
+      "uid": "general-practitioner",
+      "name": "General Practice",
+      "description": "Specializes and treats your total health.",
+      "category": "medical",
+      "actor": "General Practitioner",
+      "actors": "General Practitioners"
+    },
+    {
+      "uid": "internist",
+      "name": "Internal Medicine",
+      "description": "Specializes in common illnesses and complex medical problems.",
+      "category": "medical",
+      "actor": "Internist",
+      "actors": "Internists"
+    },
+    {
+      "uid": "pulmonologist",
+      "name": "Pulmonary Disease",
+      "description": "Specializes in lungs and airways.",
+      "category": "medical",
+      "actor": "Pulmonologist",
+      "actors": "Pulmonologists"
+    },
+    {
+      "uid": "body-imaging-radiologist",
+      "name": "Body Imaging",
+      "description": "Specializes in body imaging.",
+      "category": "medical",
+      "actor": "Body Imaging Radiologist",
+      "actors": "Body Imaging Radiologists"
+    },
+    {
+      "uid": "diagnostic-neuroimaging-radiologist",
+      "name": "Diagnostic Neuroimaging",
+      "description": "Specializes in computer imaging including MRI and CT scans.",
+      "category": "medical",
+      "actor": "Diagnostic Neuroimaging Radiologist",
+      "actors": "Diagnostic Neuroimaging Radiologists"
+    },
+    {
+      "uid": "diagnostic-radiologist",
+      "name": "Diagnostic Radiology",
+      "description": "Specializes in imaging via X-rays and ultrasound.",
+      "category": "medical",
+      "actor": "Diagnostic Radiologist",
+      "actors": "Diagnostic Radiologists"
+    },
+    {
+      "uid": "diagnostic-ultrasound-radiologist",
+      "name": "Diagnostic Ultrasound",
+      "description": "Specializes in diagnostic ultrasound.",
+      "category": "medical",
+      "actor": "Diagnostic Ultrasound Radiologist",
+      "actors": "Diagnostic Ultrasound Radiologists"
+    },
+    {
+      "uid": "hospice-palliative-medicine-radiologist",
+      "name": "Hospice and Palliative Medicine",
+      "description": "Specializes in relieving the suffering of dying patients.",
+      "category": "medical",
+      "actor": "Hospice and Palliative Medicine Radiologist",
+      "actors": "Hospice and Palliative Medicine Radiologists"
+    },
+    {
+      "uid": "neuroradiologist",
+      "name": "Neuroradiology",
+      "description": "Specializes in imaging of the brain, spine and spinal cord.",
+      "category": "medical",
+      "actor": "Neuroradiologist",
+      "actors": "Neuroradiologists"
+    },
+    {
+      "uid": "nuclear-radiologist",
+      "name": "Nuclear Radiology",
+      "description": "Specializes in imaging with radiologic substances.",
+      "category": "medical",
+      "actor": "Nuclear Radiologist",
+      "actors": "Nuclear Radiologists"
+    },
+    {
+      "uid": "radiological-physicist",
+      "name": "Radiological Physics",
+      "description": "Specializes in diagnostics via roentgen and gamma rays.",
+      "category": "medical",
+      "actor": "Radiological Physicist",
+      "actors": "Radiological Physicists"
+    },
+    {
+      "uid": "therapeutic-radiologist",
+      "name": "Therapeutic Radiology",
+      "description": "Specializes in the treatment of cancer and other diseases with radiation.",
+      "category": "medical",
+      "actor": "Therapeutic Radiologist",
+      "actors": "Therapeutic Radiologists"
+    },
+    {
+      "uid": "vascular-interventional-radiologist",
+      "name": "Vascular & Interventional Radiology",
+      "description": "Specializes in diagnosing diseases by imaging.",
+      "category": "medical",
+      "actor": "Vascular & Interventional Radiologist",
+      "actors": "Vascular & Interventional Radiologists"
+    },
+    {
+      "uid": "rheumatologist",
+      "name": "Rheumatology",
+      "description": "Specializes in joints, muscles, bones and tendons.",
+      "category": "medical",
+      "actor": "Rheumatologist",
+      "actors": "Rheumatologists"
+    },
+    {
+      "uid": "sleep-medicine-doctor",
+      "name": "Sleep Medicine",
+      "description": "Specializes in  sleep disorders.",
+      "category": "medical",
+      "actor": "Sleep Medicine Doctor",
+      "actors": "Sleep Medicine Doctors"
+    },
+    {
+      "uid": "audiologist",
+      "name": "Audiology",
+      "description": "Specializes in hearing and hearing aids.",
+      "category": "medical",
+      "actor": "Audiologist",
+      "actors": "Audiologists"
+    },
+    {
+      "uid": "hearing-aid-audiologist",
+      "name": "Audiology & Hearing Aid Fitter",
+      "description": "Specializes in hearing and hearing aids.",
+      "category": "medical",
+      "actor": "Hearing Aid Audiologist",
+      "actors": "Hearing Aid Audiologists"
+    },
+    {
+      "uid": "bariatric-medicine-obgyn",
+      "name": "Bariatric Medicine",
+      "description": "Specializes in the treatment of obesity and its associated conditions.",
+      "category": "medical",
+      "actor": "Bariatric Medicine OBGYN",
+      "actors": "Bariatric Medicine OBGYNs"
+    },
+    {
+      "uid": "speech-therapist",
+      "name": "Speech Therapy",
+      "description": "Specializes in speech therapy.",
+      "category": "medical",
+      "actor": "Speech Therapist",
+      "actors": "Speech Therapists"
+    },
+    {
+      "uid": "sports-medicine-doctor",
+      "name": "Sports Medicine",
+      "description": "Specializes in prevention and treatment of sports related injuries.",
+      "category": "medical",
+      "actor": "Sports Medicine Doctor",
+      "actors": "Sports Medicine Doctors"
+    },
+    {
+      "uid": "urologist",
+      "name": "Urology",
+      "description": "Specializes in genital and urinary problems.",
+      "category": "medical",
+      "actor": "Urologist",
+      "actors": "Urologists"
+    },
+    {
+      "uid": "vascular-surgeon",
+      "name": "Vascular Surgery",
+      "description": "Specializes in blood vessel surgery excluding the heart.",
+      "category": "medical",
+      "actor": "Vascular Surgeon",
+      "actors": "Vascular Surgeons"
+    }
+  ]
+}

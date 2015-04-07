@@ -3,7 +3,7 @@
 
 class Search::Service::Bloom
   include HTTParty
-  base_uri 'http://bloomapi.getbetter.com/'
+  base_uri ENV['BLOOM_API_URL']
 
   def query(params)
     response = self.class.get('/api/search', :query => query_params(params))
@@ -25,8 +25,12 @@ class Search::Service::Bloom
   QUERY_PARAMS = [:first_name, :last_name, :npi]
 
   def sanitize_params(params)
-    new_params = params.reject{|k,v| !QUERY_PARAMS.include?(k.to_sym)}
+    new_params = params.reject { |k, v| !QUERY_PARAMS.include?(k.to_sym) }
     new_params['practice_address.state'] = params[:state] if params[:state]
+    new_params['practice_address.zip'] = params[:zip] if params[:zip]
+    new_params['practice_address.city'] = params[:city] if params[:city]
+    new_params['offset'] = params[:offset] if params[:offset]
+    new_params['limit'] = params[:per] if params[:per]
     new_params
   end
 
@@ -34,7 +38,13 @@ class Search::Service::Bloom
     params = sanitize_params(params)
     result = []
     params.keys.each_with_index do |key, i|
-      result << "key#{i}=#{key.to_s}&op#{i}=eq&value#{i}=#{params[key].to_s.upcase}"
+      if key == 'practice_address.zip'
+        result << "key#{i}=practice_address.zip&op#{i}=prefix" + params['practice_address.zip'].split(' ').map { |zip| "&value#{i}=#{zip}" }.join
+      elsif key == 'offset' || key == 'limit'
+        result << "#{key.to_s}=" + params[key].to_s.downcase
+      else
+        result << "key#{i}=#{key.to_s}&op#{i}=prefix&value#{i}=#{params[key].to_s.downcase}"
+      end
     end
     result.join('&')
   end
@@ -65,7 +75,7 @@ class Search::Service::Bloom
       :npi_number => record['npi'].to_s,
       :address => practice_address,
       :city => prettify(p['city']), # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
-      :state => p['state'],         # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
+      :state => p['state'], # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
       :phone => p['phone'],
       :expertise => record['credential'],
       :gender => record['gender'],

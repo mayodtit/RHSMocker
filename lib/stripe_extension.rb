@@ -22,7 +22,9 @@ class StripeExtension
   def self.subscription_serializer(stripe_subscription)
     {
       id: stripe_subscription[:id],
-      plan: plan_serializer(stripe_subscription[:plan])
+      plan: plan_serializer(stripe_subscription[:plan]),
+      cancel_at_period_end: stripe_subscription[:cancel_at_period_end],
+      current_period_end: stripe_subscription[:current_period_end]
     }
   end
 

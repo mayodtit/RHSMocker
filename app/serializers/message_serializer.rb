@@ -1,14 +1,19 @@
 class MessageSerializer < ActiveModel::Serializer
   self.root = false
+  delegate :content, to: :object
 
   attributes :id, :text, :created_at, :consult_id, :title, :image_url, :type,
              :content_id, :symptom_id, :condition_id, :note, :user_image_id,
              :contents, :system, :user_id
 
-  has_one :user
-  has_one :phone_call
-  has_one :phone_call_summary
-  has_one :scheduled_phone_call
+  def attributes
+    super.tap do |attributes|
+      attributes[:user] = object.user.try(:serializer, options.merge(shallow: true))
+      attributes[:phone_call] = object.phone_call.try(:serializer, options.merge(shallow: true)) if object.respond_to? :phone_call
+      attributes[:phone_call_summary] = object.phone_call_summary.try(:serializer, options.merge(shallow: true)) if object.respond_to? :phone_call_summary
+      attributes[:scheduled_phone_call] = object.scheduled_phone_call.try(:serializer, options.merge(shallow: true)) if object.respond_to? :scheduled_phone_call
+    end
+  end
 
   def title
     'Conversation with a Health Assistant'
@@ -38,19 +43,19 @@ class MessageSerializer < ActiveModel::Serializer
   end
 
   def contents
-    if object.content.try(:show_mayo_logo?)
+    if content.try(:show_mayo_logo?)
       [
         {
-          id: object.content.id,
-          title: object.content.title,
+          id: content.id,
+          title: content.title,
           image_url: root_url + mayo_logo_asset_path
         }
       ]
-    elsif object.content
+    elsif content
       [
         {
-          id: object.content.id,
-          title: object.content.title,
+          id: content.id,
+          title: content.title,
           image_url: root_url + better_logo_asset_path
         }
       ]

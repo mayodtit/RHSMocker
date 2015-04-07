@@ -8,9 +8,9 @@ describe PubSub do
           Rails.env.stub(:production?) { true }
         end
 
-        it 'sends the body' do
+        it 'sends the body and uses PHA phone number' do
           TwilioModule.client.account.messages.should_receive(:create).with(
-            from: PhoneNumberUtil::format_for_dialing(SERVICE_ALERT_PHONE_NUMBER),
+            from: PhoneNumberUtil::format_for_dialing(Metadata.outbound_calls_number),
             to: PhoneNumberUtil::format_for_dialing('4083913578'),
             body: 'Hello'
           )

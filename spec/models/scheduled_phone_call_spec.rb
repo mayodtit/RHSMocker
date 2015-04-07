@@ -429,21 +429,19 @@ describe ScheduledPhoneCall do
     end
 
     describe '#cancel' do
-      before do
-        scheduled_phone_call.state = 'booked'
-        scheduled_phone_call.owner = pha
-        scheduled_phone_call.user = member
-        scheduled_phone_call.update_attributes state_event: 'cancel', canceler: member
-      end
+      let!(:member_with_phone) { create(:member, phone: 1234567890)}
+      let!(:booked_scheduled_phone_call) { create(:scheduled_phone_call, :booked, owner: pha, user: member_with_phone) }
 
       it_behaves_like 'cannot transition from', :cancel!, [:ended, :canceled]
 
       it 'changes the state to canceled' do
-        scheduled_phone_call.should be_canceled
+        booked_scheduled_phone_call.update_attributes! state_event: 'cancel', canceler: member_with_phone
+        booked_scheduled_phone_call.should be_canceled
       end
 
       it 'sets the canceled time' do
-        scheduled_phone_call.canceled_at.should == Time.now
+        booked_scheduled_phone_call.update_attributes! state_event: 'cancel', canceler: member_with_phone
+        booked_scheduled_phone_call.canceled_at.should == Time.now
       end
 
       it_behaves_like 'won\'t double book pha', :canceled
@@ -483,10 +481,7 @@ describe ScheduledPhoneCall do
     end
 
     context 'scheduled phone call is assigned' do
-      before do
-        scheduled_phone_call.stub(:assigned?) { true }
-        scheduled_phone_call.stub(:unassigned?) { false }
-      end
+      let(:scheduled_phone_call) { create :scheduled_phone_call, :assigned }
 
       it 'allows scheduled at during work hours' do
         scheduled_phone_call.scheduled_at = valid_work_time
@@ -500,10 +495,7 @@ describe ScheduledPhoneCall do
     end
 
     context 'scheduled phone call is unassigned' do
-      before do
-        scheduled_phone_call.stub(:assigned?) { false }
-        scheduled_phone_call.stub(:unassigned?) { true }
-      end
+      let(:scheduled_phone_call) { create :scheduled_phone_call }
 
       it 'allows scheduled at during work hours' do
         scheduled_phone_call.scheduled_at = valid_work_time
@@ -517,10 +509,7 @@ describe ScheduledPhoneCall do
     end
 
     context 'scheduled phone call is not unassigned or assigned' do
-      before do
-        scheduled_phone_call.stub(:unassigned?) { false }
-        scheduled_phone_call.stub(:assigned?) { false }
-      end
+      let(:scheduled_phone_call) { create :scheduled_phone_call, :booked }
 
       it 'allows scheduled at during work hours' do
         scheduled_phone_call.scheduled_at = valid_work_time

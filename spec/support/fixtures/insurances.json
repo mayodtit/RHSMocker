@@ -1,0 +1,2967 @@
+{
+  "meta": {
+    "data_type": "array",
+    "item_type": "InsuranceProvider",
+    "total": 77,
+    "count": 77,
+    "skip": 0,
+    "limit": 77
+  },
+  "data": [
+    {
+      "uid": "aetna",
+      "name": "Aetna",
+      "plans": [
+        {
+          "uid": "aetna-aetnaadvantage6350hix",
+          "name": "Advantage 6350 - HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnabasichix",
+          "name": "Basic - HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnabasichmo",
+          "name": "Basic - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnachoiceposiiwithhealthfund",
+          "name": "Choice - POS II with HealthFund",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnachoiceposwithhealthfund",
+          "name": "Choice - POS with HealthFund",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnahealthfundhmo",
+          "name": "HealthFund - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnahealthfundopenchoiceppo",
+          "name": "HealthFund Open Choice - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnamdbronzesilverandgoldhmo",
+          "name": "MD Bronze, Silver & Gold - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnamedicareplanhmoopenaccesshmo",
+          "name": "Medicare Plan - HMO - Open Access",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnaopenaccesshmo",
+          "name": "Open Access - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnawholehealthbaptistintegratedhealthnetworktn",
+          "name": "Whole Health℠ - Baptist Integrated Health Network (TN)",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnawholehealthsmauroraaccountablecarenetwork",
+          "name": "Whole Health℠ - Aurora Accountable Care Network",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnawholehealthsmbannerhealthnetworkhmo",
+          "name": "Whole Health℠ - Banner Health Network - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnawholehealthsmbannerhealthnetworkoamc",
+          "name": "Whole Health℠ - Banner Health Network - OAMC",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnawholehealthsmcoastalvirginiahealthpartners",
+          "name": "Whole Health℠ - Coastal Virginia Health Partners",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnawholehealthsmmemorialhermannaccountablecarenetwork",
+          "name": "Whole Health℠ - Memorial Hermann Accountable Care Network",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnawholehealthsmmidwestcommunityhealthsolutionsprovidersdesignatedandnondesignated",
+          "name": "Whole Health℠ - Midwest Community Health Solutions Providers",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnawholehealthsmprimecarephysicianshmo",
+          "name": "Whole Health℠ - PrimeCare Physicians - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnawholehealthsmprimecarephysiciansoamc",
+          "name": "Whole Health℠ - PrimeCare Physicians - OAMC",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aetnawholehealthsmvirginiaoamc",
+          "name": "Whole Health℠ - Virginia - OAMC",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aexcelchoiceposii",
+          "name": "Aexcel Choice - POS II",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aexcelchoiceposiiwithhealthfund",
+          "name": "Aexcel Choice - POS II with HealthFund",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aexcelmanagedchoicepos",
+          "name": "Aexcel Managed Choice - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aexcelopenaccessmanagedchoicepos",
+          "name": "Aexcel Open Access Managed Choice - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aexcelopenaccessmanagedchoiceposwithhealthfund",
+          "name": "Aexcel Open Access Managed Choice - POS with HealthFund",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aexcelpluschoiceposii",
+          "name": "Aexcel Plus Choice - POS II",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aexcelpluschoiceposiiwithhealthfund",
+          "name": "Aexcel Plus Choice - POS II with HealthFund",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aexcelplusmanagedchoicepos",
+          "name": "Aexcel Plus Managed Choice - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aexcelplusopenaccessmanagedchoicepos",
+          "name": "Aexcel Plus Open Access Managed Choice - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aexcelplusopenaccessmanagedchoiceposwithhealthfund",
+          "name": "Aexcel Plus Open Access Managed Choice - POS with HealthFund",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aexcelppo",
+          "name": "Aexcel - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-aexcelppowithhealthfund",
+          "name": "Aexcel - PPO with HealthFund",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-cahmoconcentriccommercial",
+          "name": "CA Concentric Commercial - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-choiceposii",
+          "name": "Choice - POS II",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-choiceppo",
+          "name": "Choice - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-healthynewyorkhmo",
+          "name": "Healthy New York - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-hmo",
+          "name": "HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-managedchoicepos",
+          "name": "Managed Choice - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-hmodeductibleplancamembersonly",
+          "name": "HMO - Deductible Plan - California Members Only",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-openchoiceppo",
+          "name": "Open Choice - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "aetna-savingsplusofarizona",
+          "name": "Savings Plus of Arizona",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "aetnadental",
+      "name": "Aetna Dental",
+      "plans": [
+        {
+          "uid": "aetnadental-dentaleppwithppoiinetwork",
+          "name": "EPP with PPO II Network",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "aetnadental-dentalppopdn",
+          "name": "PPO/PDN",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "aetnadental-dentalppopdnwithppoiinetwork",
+          "name": "PPO/PDN with PPO II Network",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "aetnadental-ppo",
+          "name": "PPO",
+          "category": [
+            "dental"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "altius",
+      "name": "Altius",
+      "plans": [
+        {
+          "uid": "altius-altiusproviderdirectory",
+          "name": "Altius Provider Directory",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ameritas",
+      "name": "Ameritas",
+      "plans": [
+        {
+          "uid": "ameritas-ameritasppo",
+          "name": "PPO",
+          "category": [
+            "dental"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "anthem",
+      "name": "Anthem Blue Cross",
+      "plans": [
+        {
+          "uid": "anthem-5199employeeelect",
+          "name": "51-99 Employee Elect",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthem-advantagehmo",
+          "name": "Advantage - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthem-advantageppo",
+          "name": "Advantage - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthem-blueaccessppo",
+          "name": "Blue Access - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthem-bluecardppo",
+          "name": "Blue Card - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthem-bluecrosshmocaliforniacare",
+          "name": "Blue Cross - HMO (CaliforniaCare)",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthem-bluecrossposhmonetwork",
+          "name": "Blue Cross - POS - HMO Network",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthem-bluecrossppoprudentbuyer",
+          "name": "Blue Cross - PPO (Prudent Buyer)",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthem-bluepreferredhmo",
+          "name": "Blue Preferred - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthem-bluepreferredpluspos",
+          "name": "Blue Preferred Plus - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthem-bluepreferredpos",
+          "name": "Blue Preferred - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthem-blueviewvision",
+          "name": "Blue View Vision",
+          "category": [
+            "vision"
+          ]
+        },
+        {
+          "uid": "anthem-dentalppo",
+          "name": "Dental - PPO",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "anthem-freedomblueppo",
+          "name": "Freedom Blue - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthem-lumenosplans",
+          "name": "Lumenos Plans",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthem-nationalppobluecardppo",
+          "name": "National - PPO - BlueCard PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthem-nationalppobluecardppobasic",
+          "name": "National - PPO - BlueCard PPO Basic",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthem-selectplushmo",
+          "name": "Select Plus - HMO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "anthembluecrossblueshield",
+      "name": "Anthem Blue Cross Blue Shield",
+      "plans": [
+        {
+          "uid": "anthembluecrossblueshield-anthemhealthkeepershmohmopos",
+          "name": "HeathKeepers - HMO & HMO POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-anthemhealthkeepersplus",
+          "name": "HealthKeepers Plus",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-anthemkeycareppo",
+          "name": "Anthem KeyCare - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-anthemmedibluehmo",
+          "name": "MediBlue - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-blueaccesschoiceppo",
+          "name": "Blue Access Choice - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-blueaccesschoicestlouis",
+          "name": "Blue Access Choice (St Louis)",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-blueaccessppo",
+          "name": "Blue Access - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-bluepreferredforfedemployees",
+          "name": "Blue Preferred - Federal Employees",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-bluepreferredhmo",
+          "name": "Blue Preferred - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-bluepreferredhmonewi",
+          "name": "Blue Preferred - HMO - NE Wisconsin",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-bluepreferredhmonwwi",
+          "name": "Blue Preferred - HMO - NW Wisconsin",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-bluepreferredhmosewi",
+          "name": "Blue Preferred - HMO - SE Wisconsin",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-bluepreferredpluspos",
+          "name": "Blue Preferred Plus - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-bluepreferredselect",
+          "name": "Blue Preferred Select",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-bronzedirectaccessplusgjqa",
+          "name": "Bronze DirectAccess Plus - gjqa",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-coredirectaccessplusgjqa",
+          "name": "Core DirectAccess Plus - gjqa",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-coredirectaccesspluswdental",
+          "name": "Core DirectAccess Plus with Dental",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-coredirectaccesswdentalwhsa",
+          "name": "Core DirectAccess with Dental & HSA",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-essentialdirectaccesspluswhsa",
+          "name": "Essential DirectAccess Plus with HSA",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-golddirectaccesspluswhsa",
+          "name": "Gold DirectAccess Plus with HSA",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-individualbasickeycareppo",
+          "name": "Individual Basic KeyCare - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-individualkeycareppo",
+          "name": "Individual KeyCare - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-individualkeycareprefppo",
+          "name": "Individual KeyCare Pref - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-lumenosplansblueaccess",
+          "name": "Lumenos Plans - Blue Access",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-lumenosplansblueaccesschoice",
+          "name": "Lumenos Plans - Blue Access Choice",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-lumenosplansbluepreferred",
+          "name": "Lumenos Plans - Blue Preferred",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-nationalppobluecardppo",
+          "name": "National - PPO - BlueCard PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-nationalppobluecardppobasic",
+          "name": "National - PPO - BlueCard PPO Basic",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-networkblue",
+          "name": "NetworkBlue",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-ppo",
+          "name": "PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessgbba",
+          "name": "Preferred DirectAccess - gbba",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessgcva",
+          "name": "Preferred DirectAccess - gcva",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessgdva",
+          "name": "Preferred DirectAccess - gdva",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessgffa",
+          "name": "Preferred DirectAccess - gffa",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessgfga",
+          "name": "Preferred DirectAccess - gfga",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessggfa",
+          "name": "Preferred DirectAccess - ggfa",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessggga",
+          "name": "Preferred DirectAccess - ggga",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessghha",
+          "name": "Preferred DirectAccess - ghha",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessgjfa",
+          "name": "Preferred DirectAccess - gjfa",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessgkja",
+          "name": "Preferred DirectAccess - gkja",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessglva",
+          "name": "Preferred DirectAccess - glva",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessgmva",
+          "name": "Preferred DirectAccess - gmva",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessgnfa",
+          "name": "Preferred DirectAccess - gnfa",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessgnqa",
+          "name": "Preferred DirectAccess - gnqa",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessgnva",
+          "name": "Preferred DirectAccess - gnva",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessgqfa",
+          "name": "Preferred DirectAccess - gqfa",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessgwea",
+          "name": "Preferred DirectAccess - gwea",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccessgzea",
+          "name": "Preferred DirectAccess - gzea",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccesspluswdentalwhsa",
+          "name": "Preferred DirectAccess Plus with Dental & HSA",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccesspluswhsa",
+          "name": "Preferred DirectAccess Plus with HSA",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccesswhra",
+          "name": "Preferred Direct Access with HRA",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "anthembluecrossblueshield-preferreddirectaccesswhsa",
+          "name": "Preferred Direct Access with HSA",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "avmedhealth",
+      "name": "AvMed Health",
+      "plans": [
+        {
+          "uid": "avmedhealth-avmedopenaccess",
+          "name": "Open Access",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bcbs",
+      "name": "Blue Cross Blue Shield",
+      "plans": [
+        {
+          "uid": "bcbs-bluecardppo",
+          "name": "Blue Card - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbs-bluecrosscaliforniappo",
+          "name": "Blue Cross California - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbs-blueshieldaccesshmo",
+          "name": "Blue Shield Access+ - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbs-blueshieldactivechoice",
+          "name": "Blue Shield Active Choice",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbs-blueshieldactivestart",
+          "name": "Blue Shield Active Start",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbs-blueshieldbalance",
+          "name": "Blue Shield Balance",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbs-blueshieldbaseppo",
+          "name": "Blue Shield Base - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbs-blueshieldcaliforniachoiceppo",
+          "name": "Blue Shield California Choice - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbs-blueshieldcaliforniappo",
+          "name": "Blue Shield California - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbs-blueshieldcoreflex",
+          "name": "Blue Shield Core Flex",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbs-blueshieldsavings",
+          "name": "Blue Shield Savings",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbs-blueshieldspectrumppo",
+          "name": "Blue Shield Spectrum - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbs-floridabluepreferredpatientcareppo",
+          "name": "Florida - Blue Preferred Patient Care - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbs-illinoisppo",
+          "name": "Illinois - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbs-texasbluechoice",
+          "name": "Texas - Blue Choice",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bcbsalabama",
+      "name": "Blue Cross Blue Shield of Alabama (BCBSAL)",
+      "plans": [
+        {
+          "uid": "bcbsalabama-bcbsalppo",
+          "name": "PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bcbsflorida",
+      "name": "Blue Cross Blue Shield of Florida (BCBSFL)",
+      "plans": [
+        {
+          "uid": "bcbsflorida-floridabluebluecarehmo",
+          "name": "Florida Blue - BlueCare - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbsflorida-floridablueblueoptionshix",
+          "name": "Florida Blue - BlueOptions - HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbsflorida-floridablueblueselect",
+          "name": "Florida Blue - BlueSelect",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bcbsillinois",
+      "name": "Blue Cross Blue Shield of Illinois (BCBSIL)",
+      "plans": [
+        {
+          "uid": "bcbsillinois-bcbsilblueadvantagehmo",
+          "name": "Blue Advantage - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbsillinois-bcbsilbluechoiceselect",
+          "name": "BlueChoice Select",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bcbsillinois-bcbsilhmoillinois",
+          "name": "HMO - Illinois",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bcbskansascity",
+      "name": "Blue Cross Blue Shield of Kansas City (BCBSKC)",
+      "plans": [
+        {
+          "uid": "bcbskansascity-bcbskcpreferredcareblueppo",
+          "name": "Preferred Care Blue - PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bcbsmassachusetts",
+      "name": "Blue Cross Blue Shield of Massachusetts (BCBSMA)",
+      "plans": [
+        {
+          "uid": "bcbsmassachusetts-bcbsmabluecareelectppo",
+          "name": "Blue Care Elect - PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bcbsmichigan",
+      "name": "Blue Cross Blue Shield of Michigan (BCBSMI)",
+      "plans": [
+        {
+          "uid": "bcbsmichigan-communitybluebluepreferredppo",
+          "name": "Communty Blue & Blue Preferred - PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bcbsminnesota",
+      "name": "Blue Cross Blue Shield of Minnesota (BCBSMN)",
+      "plans": [
+        {
+          "uid": "bcbsminnesota-bcbsmnbluecrossaccord",
+          "name": "Blue Cross Accord",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bcbsnorthcarolina",
+      "name": "Blue Cross Blue Shield of North Carolina (BCBSNC)",
+      "plans": [
+        {
+          "uid": "bcbsnorthcarolina-bcbsncblueoptionsppo",
+          "name": "BlueOptions - PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bcbsoklahoma",
+      "name": "Blue Cross Blue Shield of Oklahoma (BCBSOK)",
+      "plans": [
+        {
+          "uid": "bcbsoklahoma-bcbsokbluechoice",
+          "name": "BlueChoice",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bcbstennessee",
+      "name": "Blue Cross Blue Shield of Tennessee (BCBSTN)",
+      "plans": [
+        {
+          "uid": "bcbstennessee-bcbstnnetworks",
+          "name": "Network S",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bcbstexas",
+      "name": "Blue Cross Blue Shield of Texas (BCBSTX)",
+      "plans": [
+        {
+          "uid": "bcbstexas-bcbstxblueadvantagehmohix",
+          "name": "Blue Advantage - HMO - HIX",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bcbswyoming",
+      "name": "Blue Cross Blue Shield of Wyoming (BCBSWY)",
+      "plans": [
+        {
+          "uid": "bcbswyoming-bcbswybluechoicepersonal",
+          "name": "BlueChoice Personal",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bluecrossblueshieldnewmexico",
+      "name": "Blue Cross Blue Shield of New Mexico (BCBSNM)",
+      "plans": [
+        {
+          "uid": "bluecrossblueshieldnewmexico-bcbsnmpponm",
+          "name": "PPO New Mexico",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bluecrossblueshieldofgeorgia",
+      "name": "Blue Cross Blue Shield of Georgia (BCBSGA)",
+      "plans": [
+        {
+          "uid": "bluecrossblueshieldofgeorgia-bluechoiceoptionpos",
+          "name": "BlueChoice Option - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bluecrossblueshieldofgeorgia-blueessentialopenaccesspos",
+          "name": "Blue Essential Open Access - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bluecrossblueshieldofgeorgia-blueopenaccesspos",
+          "name": "Blue Open Access - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bluecrossblueshieldofgeorgia-healthysupportopenaccesspos",
+          "name": "Healthy Support Open Access - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bluecrossblueshieldofgeorgia-nationalppobluecardppo",
+          "name": "National - PPO - BlueCare PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bluecrossblueshieldofgeorgia-nationalppobluecardppobasic",
+          "name": "National - PPO - BlueCare PPO Basic",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bluecrossblueshieldofgeorgia-preferredguidedaccess",
+          "name": "Preferred Guided Access",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "bluecrossblueshieldofgeorgia-premierguidedaccess",
+          "name": "Premier Guided Access",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bluecrossidaho",
+      "name": "Blue Cross of Idaho",
+      "plans": [
+        {
+          "uid": "bluecrossidaho-bluecrossidppo",
+          "name": "PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "blueshieldofcalifornia",
+      "name": "Blue Shield of California",
+      "plans": [
+        {
+          "uid": "blueshieldofcalifornia-accesshmo",
+          "name": "Access+ - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "blueshieldofcalifornia-blueshield65plushmo",
+          "name": "Blue Shield 65 Plus - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "blueshieldofcalifornia-blueshieldcabasicepobronzelevelhix",
+          "name": "Basic EPO - Bronze level HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "blueshieldofcalifornia-blueshieldcabasicppobronzelevelhix",
+          "name": "Basic PPO - Bronze level HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "blueshieldofcalifornia-blueshieldofcaliforniapponetwork",
+          "name": "Blue Shield of California - PPO Network",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "blueshieldofcalifornia-federalemployeehealthbenefitprogramaccesshmo",
+          "name": "Federal Employee Health Benefit Program Access+ - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "blueshieldofcalifornia-localaccesshmo",
+          "name": "Local Access+ - HMO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bridgespan",
+      "name": "Bridgespan",
+      "plans": [
+        {
+          "uid": "bridgespan-bridgespanhix",
+          "name": "Bridgespan - HIX",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "capitalblue",
+      "name": "Capital Blue",
+      "plans": [
+        {
+          "uid": "capitalblue-keystonehealthplancentralhmo",
+          "name": "Keystone Health Plan Central - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "capitalblue-keystonehealthplancentralhmobehavioralhealth",
+          "name": "Keystone Health Plan Central - HMO - Behavioral Health",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "capitalblue-ppo",
+          "name": "PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "capitalblue-ppochoice1",
+          "name": "PPO - Choice 1",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "capitalblue-ppochoice2",
+          "name": "PPO - Choice 2",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "carefirstbcbs",
+      "name": "CareFirst Blue Cross Blue Shield",
+      "plans": [
+        {
+          "uid": "carefirstbcbs-carefirstbluechoiceadvantage",
+          "name": "CareFirst BlueChoice Advantage",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "carefirstbcbs-carefirstbluechoicentwkpos",
+          "name": "CareFirst BlueChoice Network - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "carefirstbcbs-carefirstbluepreferredppo",
+          "name": "CareFirst BluePreferred - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "carefirstbcbs-carefirstmarylandpos",
+          "name": "CareFirst Maryland - POS",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "cigna",
+      "name": "Cigna",
+      "plans": [
+        {
+          "uid": "cigna-choicefundoaplus",
+          "name": "Choice Fund Open Access Plus",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "cigna-choicefundoapluswithcarelink",
+          "name": "Choice Fund Open Access Plus with CareLink",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "cigna-choicefundppo",
+          "name": "Choice Fund - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "cigna-dentalepo",
+          "name": "Dental - EPO",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "cigna-dentalhmo",
+          "name": "Dental - HMO",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "cigna-dentalppo",
+          "name": "Dental - PPO",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "cigna-hmo",
+          "name": "HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "cigna-network",
+          "name": "Network",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "cigna-openaccess",
+          "name": "Open Access",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "cigna-openaccessplus",
+          "name": "Open Access Plus",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "cigna-openaccesspluswithcarelink",
+          "name": "Open Access Plus with CareLink",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "cigna-pos",
+          "name": "POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "cigna-ppo",
+          "name": "PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "cigna-vision",
+          "name": "Vision",
+          "category": [
+            "vision"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "cofinity",
+      "name": "Cofinity",
+      "plans": [
+        {
+          "uid": "cofinity-ppo",
+          "name": "PPO",
+          "category": [
+            "dental"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "connecticare",
+      "name": "Connecticare",
+      "plans": [
+        {
+          "uid": "connecticare-connecticareflexpos",
+          "name": "FlexPOS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "connecticare-hmoopenaccess",
+          "name": "HMO - Open Access",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "coordinatedcareofwa",
+      "name": "Coordinated Care of Washington",
+      "plans": [
+        {
+          "uid": "coordinatedcareofwa-coordinatedcareofwaexchange",
+          "name": "Exchange",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "coventry",
+      "name": "Coventry Health Care",
+      "plans": [
+        {
+          "uid": "coventry-carelinkhealthplansppo",
+          "name": "Carelink Health Plans - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-coventrycarelinkhmohix",
+          "name": "Coventry Carelink - HMO & HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-coventryemployergrouphmoopenaccessfl",
+          "name": "Coventry Employer Group - HMO/Open Access - Florida",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-coventrymohmoppo",
+          "name": "Coventry Health Care of Missouri - HMO & PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-coventryofdelawarehmo",
+          "name": "Coventry Health Care of Delaware - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-coventryofflemployergroupppo",
+          "name": "Coventry Health Care of Florida - Employer Group - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-coventryoffloridahmo",
+          "name": "Coventry Health Care of Florida - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-coventryoffloridappo",
+          "name": "Coventry Health Care of Florida - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-coventryofgeorgiahmo",
+          "name": "Coventry Health Care of Georgia - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-coventryofmissourihmopos",
+          "name": "Coventry Health Care of Missouri - HMO & POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-coventryofok",
+          "name": "Coventry Health Care of Oklahoma",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-coventryofvirginiahmo",
+          "name": "Coventry Health Care of Virginia - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-coventryokhmo",
+          "name": "Coventry Health Care of Oklahoma - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-coventryonehmohix",
+          "name": "CoventryOne - HMO & HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-firsthealthnetworkppo",
+          "name": "First Health Network - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-healthamericahealthassuranceppo",
+          "name": "HealthAmerica HealthAssurance - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-healthamericappo",
+          "name": "HealthAmerica - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "coventry-ppoplatinum",
+          "name": "PPO - Platinum",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "delta",
+      "name": "Delta Dental",
+      "plans": [
+        {
+          "uid": "delta-ppo",
+          "name": "PPO",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "delta-premier",
+          "name": "Premier",
+          "category": [
+            "dental"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "dentalnetwork",
+      "name": "Dental Network of America",
+      "plans": [
+        {
+          "uid": "dentalnetwork-deltanetworkofamerica",
+          "name": "Dental Network of America",
+          "category": [
+            "dental"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "dentemax",
+      "name": "DenteMax",
+      "plans": [
+        {
+          "uid": "dentemax-dentemaxdental",
+          "name": "DenteMax Dental",
+          "category": [
+            "dental"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "emblemhealth",
+      "name": "EmblemHealth",
+      "plans": [
+        {
+          "uid": "emblemhealth-emblemhealthppoepoghi",
+          "name": "EmblemHealth - PPO & EPO - GHI",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "emblemhealth-hipselectppoepo",
+          "name": "HIP Select - PPO & EPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "empirebluecross",
+      "name": "Empire Blue Cross",
+      "plans": [
+        {
+          "uid": "empirebluecross-accesssmhmo",
+          "name": "Access(SM) - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecross-blueaccesschoicestlouis",
+          "name": "Blue Access Choice - St Louis",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecross-bluepreferredpos",
+          "name": "Blue Preferred - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecross-directhmo",
+          "name": "Direct - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecross-hmo",
+          "name": "HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecross-hmobluepriority",
+          "name": "HMO - Blue Priority",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "empirebluecrossblueshield",
+      "name": "Empire Blue Cross Blue Shield",
+      "plans": [
+        {
+          "uid": "empirebluecrossblueshield-accesssmhmo",
+          "name": "Access(SM) - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecrossblueshield-blueaccesschoicestlouis",
+          "name": "Blue Access Choice - St Louis",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecrossblueshield-bluepreferredpos",
+          "name": "Blue Preferred - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecrossblueshield-directhmo",
+          "name": "Direct - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecrossblueshield-directpayhmo",
+          "name": "Direct Pay - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecrossblueshield-empirededfirstprismppo",
+          "name": "Empire Ded First Prism - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecrossblueshield-empireppo",
+          "name": "Empire - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecrossblueshield-empirepponslij",
+          "name": "Empire - PPO - NS-LIJ",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecrossblueshield-empireppoplus",
+          "name": "Empire - PPO Plus",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecrossblueshield-hmo",
+          "name": "HMO",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "empirebluecrossblueshield-hmobluepriority",
+          "name": "HMO - Blue Priority",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecrossblueshield-nationalppobluecardppo",
+          "name": "National - PPO - BlueCard PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecrossblueshield-nationalppobluecardppobasic",
+          "name": "National - PPO - BlueCard PPO Basic",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "empirebluecrossblueshield-ppoepo",
+          "name": "PPO/EPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "firstchoice",
+      "name": "First Choice",
+      "plans": [
+        {
+          "uid": "firstchoice-firstchoiceppo",
+          "name": "PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "guardiandental",
+      "name": "Guardian Dental",
+      "plans": [
+        {
+          "uid": "guardiandental-dhmomdgprepaid",
+          "name": "DHMO/MDG/Pre-Paid",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "guardiandental-guardiandentalguardpreferred",
+          "name": "Guardian DentalGuard Preferred",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "guardiandental-ppo",
+          "name": "PPO",
+          "category": [
+            "dental"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "healthfirst",
+      "name": "HealthFirst",
+      "plans": [
+        {
+          "uid": "healthfirst-healthfirstny",
+          "name": "HealthFirst - New York",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "healthlink",
+      "name": "HealthLink",
+      "plans": [
+        {
+          "uid": "healthlink-healthlinkppo",
+          "name": "HealthLink - PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "healthnet",
+      "name": "Health Net",
+      "plans": [
+        {
+          "uid": "healthnet-arizonahmo",
+          "name": "Arizona - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-arizonahmoexcelcarenetwork",
+          "name": "Arizona - HMO ExcelCare Network",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-arizonappopos",
+          "name": "Arizona - PPO & POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-bluegoldhmo",
+          "name": "Blue & Gold - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-californialargegroupppo",
+          "name": "California Large Group - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-healthnetcommunitycarenetworkhmohix",
+          "name": "Health Net CommunityCare Network - HMO & HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-healthnetindividualfamilyppohix",
+          "name": "Health Net Individual & Family - PPO & HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-healthyhearthmo",
+          "name": "Healthy Heart - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-hmoemployergroup",
+          "name": "HMO - Employer Group",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-hmoemployergroupplans",
+          "name": "HMO - Employer Group Plans",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-hmoexcelcaresilvernetwork",
+          "name": "HMO - ExcelCare & Silver Network",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-hmoexcelcaresilvernetworkmedicarecob",
+          "name": "HMO - ExcelCare & Silver Network Medicare COB",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-hmoindividualfamily",
+          "name": "HMO - Individual & Family",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-nationalppofirsthealth",
+          "name": "National PPO - First Health",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-oregoncommunitycare",
+          "name": "Oregon - CommunityCare",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-oregonppo",
+          "name": "Oregon - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-ppo",
+          "name": "PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-ppoindividualfamily",
+          "name": "PPO - Individual & Family",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-pposmallbusiness",
+          "name": "PPO - Small Business",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-rubyselecthmosanfrancisco",
+          "name": "Ruby Select - HMO - San Francisco",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-saludhmoplus",
+          "name": "Salud HMO Plus",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-saludppoplus",
+          "name": "Salud PPO Plus",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-seniorityplusamberiihmosnp",
+          "name": "Seniority Plus Amber II - HMO SNP",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-seniorityplusemployerhmo",
+          "name": "Seniority Plus - Employer HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-seniorityplusgreenhmo",
+          "name": "Seniority Plus Green - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "healthnet-violetppo",
+          "name": "Violet - PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "highmarkbluecrossblueshield",
+      "name": "Highmark Blue Cross Blue Shield",
+      "plans": [
+        {
+          "uid": "highmarkbluecrossblueshield-classicblue",
+          "name": "ClassicBlue",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "highmarkbluecrossblueshield-ppoblue",
+          "name": "PPOBlue",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "horizonbcbs",
+      "name": "Horizon Blue Cross Blue Shield",
+      "plans": [
+        {
+          "uid": "horizonbcbs-horizondirectaccess",
+          "name": "Horizon - Direct Access",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "horizonbcbs-horizonhmo",
+          "name": "Horizon - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "horizonbcbs-horizonpos",
+          "name": "Horizon - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "horizonbcbs-horizonppo",
+          "name": "Horizon - PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "humana",
+      "name": "Humana",
+      "plans": [
+        {
+          "uid": "humana-choicecarenetworkppo",
+          "name": "ChoiceCare Network - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "humana-dentalppo",
+          "name": "Dental - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "humana-humanaatlantahmoxhix",
+          "name": "Atlanta - HMOx HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "humana-humanaaustinhmoxhix",
+          "name": "Austin - HMOx HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "humana-humanachoicecarenetworkppo",
+          "name": "ChoiceCare Network - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "humana-humanacohmoxhix",
+          "name": "Colorado - HMOx & HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "humana-humanacolumbusgahmoxhix",
+          "name": "Columbus Georgia - HMOx HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "humana-humanahmopremierhix",
+          "name": "HMO - Premier HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "humana-humanariograndeepoxhix",
+          "name": "Rio Grande - EPOx HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "humana-humanasanantoniohmoxhix",
+          "name": "San Antonio - HMOx HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "humana-humanasouthfloridahumxhmoxhix",
+          "name": "South Florida - HUMx HMOx HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "humana-humanatampabayhumxhmoxhix",
+          "name": "Tampa Bay - HUMx HMOx HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "humana-humanawacohmoxhix",
+          "name": "Waco - HMOx HIX",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ibcamerihealth",
+      "name": "IBC / Amerihealth",
+      "plans": [
+        {
+          "uid": "ibcamerihealth-amerihealthdirectpos",
+          "name": "AmeriHealth Direct - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "ibcamerihealth-amerihealthdirectposvaluenetwork",
+          "name": "AmeriHealth Direct - POS Value Network",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "ibcamerihealth-amerihealthhmo",
+          "name": "AmeriHealth - HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "ibcamerihealth-amerihealthhmovaluenetwork",
+          "name": "AmeriHealth - HMO Value Network",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "ibcamerihealth-amerihealthlocalvaluenetworkepoposppohix",
+          "name": "AmeriHealth Local Value Network - EPO, POS+, PPO HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "ibcamerihealth-amerihealthlocalvaluenetworkhmohmoposhix",
+          "name": "AmeriHealth Local Value Network - HMO, HMO+, POS HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "ibcamerihealth-amerihealthppo",
+          "name": "AmeriHealth - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "ibcamerihealth-amerihealthppovaluenetwork",
+          "name": "AmeriHealth - PPO Value Network",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "ibcamerihealth-amerihealthregionalprefntwkepoposppohix",
+          "name": "AmeriHealth Regional Pref Network - EPO, POS+, PPO HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "ibcamerihealth-amerihealthregionalprefntwkhmohmoposhix",
+          "name": "AmeriHealth Regional Pref Network - HMO, HMO+, POS HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "ibcamerihealth-ibckeystonehmopos",
+          "name": "IBC Keystone - HMO & POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "ibcamerihealth-ibcpersonalchoiceppo",
+          "name": "IBC Personal Choice - PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "kaiser",
+      "name": "Kaiser Permanente",
+      "plans": [
+        {
+          "uid": "kaiser-kaiser",
+          "name": "Kaiser",
+          "category": [
+            "medical",
+            "dental"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "lacarehealth",
+      "name": "LA Care Health",
+      "plans": [
+        {
+          "uid": "lacarehealth-lacarecoveredhix",
+          "name": "LACare Covered - HIX",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "lifewise",
+      "name": "LifeWise",
+      "plans": [
+        {
+          "uid": "lifewise-lifewisehealthplanoforegon",
+          "name": "LifeWise Health Plan of Oregon",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "lovelacehealthplan",
+      "name": "Lovelace Health Plan",
+      "plans": [
+        {
+          "uid": "lovelacehealthplan-ppo",
+          "name": "PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "magnacare",
+      "name": "Magnacare",
+      "plans": [
+        {
+          "uid": "magnacare-magnacareextrahealthrepublichix",
+          "name": "Extra Health Republic - HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "magnacare-magnacareppo",
+          "name": "PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "medicaid",
+      "name": "Medicaid",
+      "plans": [
+        {
+          "uid": "medicaid-medicaid",
+          "name": "Medicaid",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "medicalmutualofohio",
+      "name": "Medical Mutual of Ohio (MMOH)",
+      "plans": [
+        {
+          "uid": "medicalmutualofohio-mmohsupermedplus",
+          "name": "SuperMed Plus",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "medicalmutualofohio-mmohsupermedpos",
+          "name": "SuperMed - POS",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "medicare",
+      "name": "Medicare",
+      "plans": [
+        {
+          "uid": "medicare-medicare",
+          "name": "Medicare",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "metlife",
+      "name": "Metlife",
+      "plans": [
+        {
+          "uid": "metlife-pdp",
+          "name": "PDP",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "metlife-pdpplus",
+          "name": "PDP Plus",
+          "category": [
+            "dental"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "modahealth",
+      "name": "Moda Health",
+      "plans": [
+        {
+          "uid": "modahealth-odsnetwork",
+          "name": "ODS Network",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "molinahealthcare",
+      "name": "Molina Healthcare",
+      "plans": [
+        {
+          "uid": "molinahealthcare-molinamrktplacecahix",
+          "name": "Molina Marketplace - California - HIX",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "multiplan",
+      "name": "Multiplan",
+      "plans": [
+        {
+          "uid": "multiplan-multiplanppo",
+          "name": "PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "multiplan-phcsppo",
+          "name": "PHCS - PPO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "multiplan-phcsppokaiser",
+          "name": "PHCS - PPO - Kaiser",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "mvphealth",
+      "name": "MVP Health",
+      "plans": [
+        {
+          "uid": "mvphealth-hmo",
+          "name": "HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "mvphealth-hmobasix",
+          "name": "HMO Basix",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "mvphealth-hmocareadvantage",
+          "name": "HMO Care Advantage",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "oxfordhealth",
+      "name": "Oxford Health",
+      "plans": [
+        {
+          "uid": "oxfordhealth-oxfordfreedom",
+          "name": "Oxford Freedom",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "oxfordhealth-oxfordliberty",
+          "name": "Oxford Liberty",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "pacificare",
+      "name": "PacifiCare",
+      "plans": [
+        {
+          "uid": "pacificare-pacificarehmo",
+          "name": "HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "pacificare-pacificareppo",
+          "name": "PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "premerabcbs",
+      "name": "Premera Blue Cross Blue Shield",
+      "plans": [
+        {
+          "uid": "premerabcbs-heritageampheritageplus1",
+          "name": "Heritage & Heritage Plus 1",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "premerabcbs-lifewiseconnecthix",
+          "name": "LifeWise Connect - HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "premerabcbs-premeraheritagesignaturehix",
+          "name": "Premera Heritage Signature - HIX",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "priorityhealth",
+      "name": "PriorityHealth",
+      "plans": [
+        {
+          "uid": "priorityhealth-priorityhealthhmo",
+          "name": "HMO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "providence",
+      "name": "Providence",
+      "plans": [
+        {
+          "uid": "providence-providencehealthsystem",
+          "name": "Health System",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "providence-providencepreferredppo",
+          "name": "Preferred - PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "qualcare",
+      "name": "QualCare",
+      "plans": [
+        {
+          "uid": "qualcare-qualcarehmo",
+          "name": "HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "qualcare-qualcareppo",
+          "name": "PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "qualchoice",
+      "name": "QualChoice",
+      "plans": [
+        {
+          "uid": "qualchoice-ppo",
+          "name": "PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "regence",
+      "name": "Regence",
+      "plans": [
+        {
+          "uid": "regence-regenceorpreferredprovidernetwork",
+          "name": "Oregon - Preferred Provider Network",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "regence-regencewapreferredprovidernetwork",
+          "name": "Washington - Preferred Provider Network",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "segamorehealth",
+      "name": "Segamore Health",
+      "plans": [
+        {
+          "uid": "segamorehealth-sagamoreplus",
+          "name": "Sagamore Plus",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "sharphealthplan",
+      "name": "Sharp Health Plan",
+      "plans": [
+        {
+          "uid": "sharphealthplan-sharphealthperformancehix",
+          "name": "Sharp Health Performance - HIX",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "sharphealthplan-sharphealthpremierhix",
+          "name": "Sharp Health Premier - HIX",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "tuftshealthplan",
+      "name": "Tufts Health Plan",
+      "plans": [
+        {
+          "uid": "tuftshealthplan-tuftsppo",
+          "name": "Tufts - PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "uhc",
+      "name": "UnitedHealthcare",
+      "plans": [
+        {
+          "uid": "uhc-choicehmochoiceplushmo",
+          "name": "Choice HMO & Choice Plus HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "uhc-choicepluspos",
+          "name": "Choice Plus - POS",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "uhc-navigatehmonavigatebalancedhmonavigateplushmo",
+          "name": "Navigate HMO & Navigate Balanced HMO & Navigate Plus HMO",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "uhc-navigatenavigatebalanced",
+          "name": "Navigate & Navigate Balanced",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "uhc-navigateplus",
+          "name": "Navigate Plus",
+          "category": [
+            "medical"
+          ]
+        },
+        {
+          "uid": "uhc-optionsppo",
+          "name": "Options - PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "unicare",
+      "name": "UniCare",
+      "plans": [
+        {
+          "uid": "unicare-unicareppo",
+          "name": "UniCare - PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "unitedconcordia",
+      "name": "United Concordia",
+      "plans": [
+        {
+          "uid": "unitedconcordia-unitedconcordiaadvantageplusppo",
+          "name": "Advantage Plus - PPO",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "unitedhealthcaredental",
+      "name": "UnitedHealthcare Dental",
+      "plans": [
+        {
+          "uid": "unitedhealthcaredental-ctemployeeppobasicplan",
+          "name": "CT Employee - PPO Basic Plan",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "unitedhealthcaredental-nationaloptionsppo10",
+          "name": "National Options - PPO 10",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "unitedhealthcaredental-nationaloptionsppo20",
+          "name": "National Options - PPO 20",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "unitedhealthcaredental-nationaloptionsppo30",
+          "name": "National Options - PPO 30",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "unitedhealthcaredental-ppo",
+          "name": "PPO",
+          "category": [
+            "dental"
+          ]
+        },
+        {
+          "uid": "unitedhealthcaredental-pponationalnetwork",
+          "name": "PPO National Network",
+          "category": [
+            "dental"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "vsp",
+      "name": "VSP",
+      "plans": [
+        {
+          "uid": "vsp-vsp",
+          "name": "VSP",
+          "category": [
+            "vision"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "wellmark",
+      "name": "WellMark",
+      "plans": [
+        {
+          "uid": "wellmark-allianceselectiowa",
+          "name": "Alliance Select - Iowa",
+          "category": [
+            "medical"
+          ]
+        }
+      ]
+    }
+  ]
+}

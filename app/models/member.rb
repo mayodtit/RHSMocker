@@ -42,14 +42,11 @@ class Member < User
   has_one :shared_subscription, through: :subscription_user,
                                 class_name: 'Subscription',
                                 source: :subscription
-  has_many :tasks, class_name: 'Task', conditions: ['type NOT IN (?, ?, ?)', 'MessageTask', 'PhoneCallTask', 'ViewTaskTask']
+  has_many :tasks, class_name: 'Task', conditions: ['type NOT IN (?, ?, ?)', 'MessageTask', 'PhoneCallTask', 'InsurancePolicyTask']
   has_many :request_tasks, class_name: 'Task', conditions: {type: %w(UserRequestTask ParsedNurselineRecordTask)}
   has_many :service_tasks, class_name: 'MemberTask',
                            conditions: proc{ {service_type_id: ServiceType.non_engagement_ids} }
   has_many :services
-  has_many :user_images, foreign_key: :user_id,
-                         inverse_of: :user,
-                         dependent: :destroy
   belongs_to :onboarding_group, inverse_of: :users
   belongs_to :referral_code, inverse_of: :users
   has_many :user_requests, foreign_key: :user_id
@@ -70,6 +67,7 @@ class Member < User
   belongs_to :nux_answer
   belongs_to :impersonated_user, class_name: 'Member'
   has_one :enrollment, foreign_key: :user_id, inverse_of: :user, autosave: true
+  has_many :entries
 
   attr_accessible :password, :password_confirmation,
                   :invitation_token, :units,
@@ -86,9 +84,10 @@ class Member < User
                   :cached_notifications_enabled, :email_confirmed,
                   :email_confirmation_token, :advertiser_id,
                   :advertiser_media_source, :advertiser_campaign,
-                  :impersonated_user, :impersonated_user_id,
-                  :enrollment, :payment_token, :coupon_count, :delinquent
+                  :impersonated_user, :impersonated_user_id,:delinquent,
+                  :enrollment, :payment_token, :coupon_count, :unique_on_boarding_user_token
 
+  validates :unique_on_boarding_user_token, uniqueness: true, allow_nil: true
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
   validates :pha, presence: true, if: ->(m){m.pha_id}
   validates :member_flag, inclusion: {in: [true]}
@@ -474,18 +473,26 @@ class Member < User
   end
 
   def add_new_member_content
-    if onboarding_group.try(:mayo_pilot?)
-      cards.create(resource: Content.mayo_pilot, priority: 30) if Content.mayo_pilot
-    end
+    add_mayo_pilot_content
     cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
-    if @cold_weather_content = Content.find_by_document_id('HQ01681')
-      cards.create(resource: @cold_weather_content, priority: 1)
-    end
-    if @happiness_content = Content.find_by_document_id('MY01357')
-      cards.create(resource: @happiness_content, priority: 1)
-    end
+    add_cold_weather_cotent
+    add_happiness_content
     cards.create(resource: CustomCard.swipe_explainer, priority: 0) if CustomCard.swipe_explainer
   end
+
+  def add_mayo_pilot_content
+    cards.create(resource: Content.mayo_pilot, priority: 30) if (onboarding_group.try(:mayo_pilot?)) && (Content.mayo_pilot)
+  end
+
+  def add_cold_weather_cotent
+    cards.create(resource: @cold_weather_content, priority: 1) if @cold_weather_content = Content.find_by_document_id('HQ01681')
+  end
+
+  def add_happiness_content
+    cards.create(resource: @happiness_content, priority: 1) if @happiness_content = Content.find_by_document_id('MY01357')
+  end
+
+
 
   def add_owned_referral_code
     return if owned_referral_code

@@ -13,11 +13,11 @@ class Api::V1::InsurancePoliciesController < Api::V1::ABaseController
   end
 
   def create
-    create_resource @insurance_policies, permitted_params.insurance_policy
+    create_resource @insurance_policies, insurance_policy_attributes
   end
 
   def update
-    update_resource @insurance_policy, permitted_params.insurance_policy
+    update_resource @insurance_policy, insurance_policy_attributes
   end
 
   def destroy
@@ -45,5 +45,29 @@ class Api::V1::InsurancePoliciesController < Api::V1::ABaseController
             types: %w(PPO Premier)
         }
     }
+  end
+
+  def insurance_policy_attributes
+    permitted_params.insurance_policy.tap do |attributes|
+      add_insurance_card_image_attributes(attributes, :front)
+      add_insurance_card_image_attributes(attributes, :back)
+      attributes[:actor] = current_user
+    end
+  end
+
+  def add_insurance_card_image_attributes(attributes, side)
+    attributes[card_key(side)] = card_image_attributes(side) if card_image_key(side)
+  end
+
+  def card_key(side)
+    "insurance_card_#{side}_attributes".to_sym
+  end
+
+  def card_image_attributes(side)
+    {user: @user, image: decode_b64_image(card_image_key(side))}
+  end
+
+  def card_image_key(side)
+    params.require(:insurance_policy)["insurance_card_#{side}_image".to_sym]
   end
 end

@@ -112,11 +112,5 @@ describe Role do
       Member.stub(:find_by_email).with('geoff@getbetter.com') { geoff }
       Role.pha_stakeholders.should == [geoff]
     end
-
-    it 'returns abhik if he has an account' do
-      abhik = build_stubbed :member
-      Member.stub(:find_by_email).with('abhik@getbetter.com') { abhik }
-      Role.pha_stakeholders.should == [abhik]
-    end
   end
 end

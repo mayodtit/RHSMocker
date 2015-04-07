@@ -20,6 +20,7 @@ module Api
       end
 
       def render_failure resp=Hash.new, status=401
+        logger.fatal "KYLEDEBUG - 401 occurred, API: #{request.url}, Session: #{@session.try(:id) || 'None'}" if status == 401
         headers["WWW-Authenticate"] = %(BasicCustom realm="Better") if status == 401
         json = {status_code: status, status:"failure", user_message:""}.merge(resp).as_json
         render :json => json, :status => status

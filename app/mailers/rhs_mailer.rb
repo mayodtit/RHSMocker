@@ -1,12 +1,13 @@
 class RHSMailer < MandrillMailer::TemplateMailer
-  default from: (Rails.env.production? ? 'support@getbetter.com' : "support@#{Rails.env}.getbetter.com")
+  default from: ((Rails.env.production? || Rails.env.demo?) ? 'support@getbetter.com' : "support+#{Rails.env}@getbetter.com")
   default from_name: 'Better'
 
   def before_check(params)
-    if !Rails.env.production? && !whitelisted_email?(params[:to][:email])
+    if (!Rails.env.production? && !Rails.env.demo?) && !whitelisted_email?(params[:to][:email])
       params[:subject] = "[To:" + params[:to][:email] + "]" + params[:subject]
       params[:to][:email] = 'test@getbetter.com'
     end
+    params[:from] = 'support+dev@getbetter.com' if Rails.env.development?
   end
 
   def whitelisted_email?(email)
@@ -30,13 +31,20 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
+  WELCOME_TO_BETTER_FREE_TRIAL_TEMPLATE = 'Welcome to Better, Free Version 3/16/2015'
   def welcome_to_better_free_trial_email(email, salutation)
+    user = Member.find_by_email!(email)
+
     params = {
-      subject: 'Welcome to Better Premium',
+      subject: 'Welcome to Better',
       to: { email: email },
-      template: 'Free Trial Welcome Email',
+      template: WELCOME_TO_BETTER_FREE_TRIAL_TEMPLATE,
+      headers: {
+        'Reply-To' => "Better <support@getbetter.com>"
+      },
       vars: {
-        FNAME: salutation
+        FNAME: salutation,
+        MEMBERNEED: user.nux_answer.try(:phrase) || 'with your health needs'
       }
     }
     send_mail(params)
@@ -56,7 +64,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
 
   def welcome_to_premium_email(email, salutation)
     params = {
-      subject: 'Welcome to Better Premium',
+      subject: 'Welcome to Better',
       to: { email: email },
       template: 'PAID Premium User Welcome',
       vars: {
@@ -135,6 +143,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
   PHA_HEADER_ASSET_ANN = 'meet_your_pha-ann.png'
   PHA_HEADER_ASSET_JACQUI = 'meet_your_pha-jacqui.png'
   PHA_HEADER_ASSET_CRYSTAL = 'meet_your_pha-crystal.png'
+  PHA_HEADER_ASSET_COLE = 'meet_your_pha-cole.png'
+  PHA_HEADER_ASSET_LEILANI = 'meet_your_pha-leilani.png'
 
   def meet_your_pha_header_asset(pha)
     case pha.try(:email)
@@ -154,6 +164,10 @@ class RHSMailer < MandrillMailer::TemplateMailer
       PHA_HEADER_ASSET_JACQUI
     when 'crystal@getbetter.com'
       PHA_HEADER_ASSET_CRYSTAL
+    when 'cole@getbetter.com'
+      PHA_HEADER_ASSET_COLE
+    when 'leilani@getbetter.com'
+      PHA_HEADER_ASSET_LEILANI
     else
       raise 'HEADER ASSET NOT FOUND'
     end
@@ -219,7 +233,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     params = {
       subject: 'Reset Password Instructions for Better',
       to: { email: email },
-      template: 'Password Reset',
+      template: 'Password Recovery email 2/27/2014',
       vars: {
         GREETING: salutation,
         RESETLINK: url
@@ -342,24 +356,6 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
-  def referral_advertisement_email(user)
-    params = {
-      subject: 'Give Better, Get Better',
-      from: 'support@getbetter.com',
-      from_name: 'Better',
-      to: {email: user.email},
-      template: 'Referral Program',
-      headers: {
-        'Reply-To' => 'Better <support@getbetter.com>'
-      },
-      vars: {
-        FNAME: user.salutation,
-        PROMO: user.owned_referral_code.code
-      }
-    }
-    send_mail(params)
-  end
-
   MAYO_PILOT_INVITE_TEMPLATE = 'Mayo Pilot Invitation Plain Text (11/28/2014)'
 
   def mayo_pilot_invite_email(user, provider)
@@ -381,7 +377,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
-  MEET_YOUR_PHA_MONTH_TRIAL_TEMPLATE = 'Meet Your PHA Month Trial 11/10/2014'
+  MEET_YOUR_PHA_MONTH_TRIAL_TEMPLATE = 'Meet Your PHA Month Trial 3/16/2015'
   def meet_your_pha_month_trial_email(email)
     user = Member.find_by_email!(email)
     pha = user.pha
@@ -405,16 +401,90 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
+
   def notify_user_when_first_charge_fail(user)
     params = {
-        subject: 'Your credit card was declined',
-        from: "support@getbetter.com",
+      subject: 'Your credit card was declined',
+      from: "support@getbetter.com",
+      from_name: 'Better',
+      template: "Credit card declined 12/12/2014",
+      to: { email: user.email },
+      vars: {
+        FNAME: user.salutation
+      }
+    }
+    send_mail(params)
+  end
+
+  def notify_trial_will_end(user, customer)
+    plan_name = Stripe::Customer.retrieve(customer).subscriptions.data.first.plan.name
+    pha_first_name = user.pha.first_name
+    params = {
+        subject: "Your trial is ending soon",
         from_name: 'Better',
-        template: "Credit card declined 12/12/2014",
-        to: { email: user.email },
+        template: "Free month ending (email support) 2/16/2015",
+        to: {email: user.email},
         vars: {
-            FNAME: user.salutation,
+          FNAME: user.salutation,
+          PLAN_NAME: plan_name,
+          pha_first_name: pha_first_name
         }
+    }
+    send_mail(params)
+  end
+
+  def confirm_subscription_deletion(user)
+    params = {
+        subject: 'Your subscription has ended',
+        from_name: 'Better',
+        template: "Account downgraded 2/16/2015",
+        to: {email: user.email},
+        vars: {
+          FNAME: user.salutation,
+        }
+    }
+    send_mail(params)
+  end
+
+  def confirm_subscription_change(user, subscription)
+    plan_name = subscription.plan.name
+    params = {
+      subject: 'Your subscription has been updated',
+      from_name: 'Better',
+      to: { email: user.email },
+      template: "Subscription update 2/16/2015",
+      vars: {
+        FNAME: user.salutation,
+        PLAN_NAME: plan_name
+      }
+    }
+    send_mail(params)
+  end
+  
+  def notify_referrer_of_sign_up(referrer, referee)
+    params = {
+      subject: "Good news #{referee.first_name || "your friend"} has signed up for Better!",
+      from_name: 'Better',
+      to: { email: referrer.email },
+      template: 'Tell a Friend Notification 3/16/2015',
+      vars: {
+        FNAME: referrer.first_name,
+        REFEREE_FNAME: referee.first_name
+      }
+    }
+    send_mail(params)
+  end
+
+  def business_on_board_invitation_email(user,link)
+    params = {
+      subject: 'B2B sign up',
+      from_name: 'Better',
+      to: { email: user.email },
+      template: 'B2B Onboarding Email 3/26/2015',
+      vars: {
+        LINK: link,
+        FNAME: user.first_name,
+      }
     }
     send_mail(params)
   end
