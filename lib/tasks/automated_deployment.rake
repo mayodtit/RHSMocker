@@ -9,12 +9,13 @@ namespace :automated_deployment do
   def attempt_deploy!
     Travis::Pro.access_token = ENV['TRAVIS_ACCESS_TOKEN']
     attempts = 0
-    while !jobs_failed? && attempts < 10 do
+    while !jobs_failed? && attempts < 20 do
       deploy! and return if jobs_passed?
       puts 'Not yet ready to deploy, trying again in 30 seconds'
       attempts += 1
       sleep 30
     end
+    puts 'Prerequisites not met, aborting automated deployment.'
   end
 
   def repo
@@ -62,8 +63,13 @@ namespace :automated_deployment do
     end
   end
 
+  def develop?
+    ENV['TRAVIS_BRANCH'] == 'develop'
+  end
+
   def deploy!
     system("bundle exec cap #{deploy_target} deploy")
+    system("bundle exec rake docs:generate api_docs:export S3_BUCKET=btr01-dev") if develop?
     true
   end
 end

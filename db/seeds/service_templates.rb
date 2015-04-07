@@ -36,6 +36,7 @@ APPOINTMENT_BOOKING_DESCRIPTION = <<-eof
 * **Address:**
 * **Phone:**
 * **Reason for visit:**
+* **New Patient:** yes/no
 * **Specific dates/times that work better:**
 
 #PHA message to send (update template here):
@@ -56,4 +57,92 @@ ServiceTemplate.find_or_create_by_name(
     description: APPOINTMENT_BOOKING_DESCRIPTION,
     service_type: ServiceType.find_by_name('appointment booking'),
     time_estimate: 150
+)
+
+CARE_COORDINATION_CALL_DESCRIPTION = <<-eof
+Who to call:
+Phone number:
+For member:
+Reason for call:
+Questions to ask:
+Possible next steps:
+
+**Specialist Call Notes:**
+Who you spoke with:
+Notes from call:
+
+---------------------------------------------------------
+
+**Member update:**
+1)
+
+**PHA Next steps:**
+1) Update member
+2) (if needed)
+
+**Specialist next steps:**
+1) (if needed)
+eof
+
+ServiceTemplate.find_or_create_by_name(
+    name: "care coordination call",
+    title: "Care Coordination Call",
+    description: CARE_COORDINATION_CALL_DESCRIPTION,
+    service_type: ServiceType.find_by_name('care coordination call'),
+    time_estimate: 120
+)
+
+PHA_AUTHORIZATION_DESCRIPTION = <<-eof
+* **Member:**
+* **Insurance company:**
+* **Insurance phone number:**
+* **Purpose of authorization:**
+* **Name of person to authorize**
+* **Link to signed form:**
+* **Date sent to insurance:**
+* **Member information** Birth dates, Address, insurance number, legal name
+eof
+
+ServiceTemplate.find_or_create_by_name(
+    name: "pha authorization",
+    title: "PHA Authorization",
+    description: PHA_AUTHORIZATION_DESCRIPTION,
+    service_type: ServiceType.find_by_name('pha designation for authorization'),
+    time_estimate: 43500
+)
+RECORD_RECOVERY_DESCRIPTION = <<-eof
+Member:
+Purpose of transfer:
+Type of records to request:
+Urgency:
+Link to record request form:
+Date request sent:
+
+**Records Source - Collect from: **
+Name:
+Address:
+Fax Number:
+Office number:
+Record release form:
+
+Call notes:
+Office rep:
+
+**Destination - Send to: **
+Name:
+Address:
+Fax Number:
+Office number:
+Record request form (if needed):
+
+Call notes
+Office rep:
+eof
+
+ServiceTemplate.find_or_create_by_name(
+    name: "record recovery",
+    title: "Record Recovery",
+    description: RECORD_RECOVERY_DESCRIPTION,
+    service_type: ServiceType.find_by_name('record recovery'),
+    time_estimate: 11880
 )
