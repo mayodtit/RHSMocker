@@ -865,9 +865,7 @@ My phone: 650-887-3711
     resp['descriptions'].each{ |o|
       term = filter_term(o['term'])
       name = name.downcase
-      if term == name.downcase
-        return o['descriptionId'] 
-      end
+      return o['descriptionId'] if term == name.downcase
     }
     return nil
   end
@@ -995,11 +993,7 @@ My phone: 650-887-3711
     require 'set'
     unique_conditions = {}
     set = Set.new
-    if type == 'conditions'
-      conditions = Condition.all
-    else
-      conditions = Allergy.all
-    end
+    type == 'conditions' ? conditions = Condition.all : conditions = Allergy.all
 
     # first stage: find unique conditions
     conditions.each do |condition|
@@ -1020,11 +1014,8 @@ My phone: 650-887-3711
 
       if unique_cond_id != cond_id && desc_id != nil
         duplicate_set << cond_id
-        if type == 'conditions'
-          user_conditions = UserCondition.find_all_by_condition_id(cond_id)
-        else
-          user_conditions = UserAllergy.find_all_by_allergy_id(cond_id)
-        end
+        type == 'conditions' ? user_conditions = UserCondition.find_all_by_condition_id(cond_id) : user_conditions = UserAllergy.find_all_by_allergy_id(cond_id)
+
         user_conditions.each do |uc|
           if type == 'conditions'
             uc[:condition_id] = unique_cond_id
@@ -1040,11 +1031,7 @@ My phone: 650-887-3711
     
     # third stage: delete useless conditions
     duplicate_set.each do |id|
-      if type == 'conditions'
-        Condition.find_by_id(id).destroy
-      else
-        Allergy.find_by_id(id).destroy
-      end
+      type == 'conditions' ? Condition.find_by_id(id).destroy : Allergy.find_by_id(id).destroy
       puts "#{id} is removed"
     end
   end
