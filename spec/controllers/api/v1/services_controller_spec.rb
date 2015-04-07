@@ -67,7 +67,7 @@ describe Api::V1::ServicesController do
           o = Object.new
           o.should_receive(:where).with('subject_id' => '1', 'state' => 'unassigned') do
             o_o = Object.new
-            o_o.should_receive(:order).with('due_at, created_at ASC') do
+            o_o.should_receive(:order).with("field(state, 'open', 'waiting', 'completed', 'abandoned'), due_at DESC, created_at DESC") do
               services
             end
             o_o
@@ -85,7 +85,7 @@ describe Api::V1::ServicesController do
           o = Object.new
           o.should_receive(:where).with('subject_id' => '1', 'state' => 'unassigned') do
             o_o = Object.new
-            o_o.should_receive(:order).with('due_at, created_at ASC') do
+            o_o.should_receive(:order).with("field(state, 'open', 'waiting', 'completed', 'abandoned'), due_at DESC, created_at DESC") do
               services
             end
             o_o
@@ -132,7 +132,7 @@ describe Api::V1::ServicesController do
     let(:service) { build_stubbed :service }
 
     def do_request
-      put :update, id: service.id, service: {state_event: 'abandon'}
+      put :update, id: service.id, service: {state_event: 'waiting'}
     end
 
     it_behaves_like 'action requiring authentication and authorization'
@@ -148,7 +148,7 @@ describe Api::V1::ServicesController do
         context 'state event is present' do
           it 'sets the actor to the current user' do
             service.should_receive(:update_attributes).with(
-              'state_event' => 'abandon',
+              'state_event' => 'waiting',
               'actor_id' => user.id
             )
 

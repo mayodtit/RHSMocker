@@ -156,6 +156,7 @@ ServiceType.upsert_attributes!({name: 'preventive care reminders'}, bucket: 'car
 ServiceType.find_or_create_by_name(name: 'urgent care and emergency room', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'prevention screenings', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'assemble care team', bucket: 'care coordination')
+ServiceType.find_or_create_by_name(name: 'care coordination call', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'review discharge papers', bucket: 'care coordination', description_template: REVIEW_DISCHARGE_PAPERS_DESCRIPTION_TEMPLATE)
 
 # Engagement --
