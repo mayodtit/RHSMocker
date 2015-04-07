@@ -110,3 +110,39 @@ ServiceTemplate.find_or_create_by_name(
     service_type: ServiceType.find_by_name('pha designation for authorization'),
     time_estimate: 43500
 )
+RECORD_RECOVERY_DESCRIPTION = <<-eof
+Member:
+Purpose of transfer:
+Type of records to request:
+Urgency:
+Link to record request form:
+Date request sent:
+
+**Records Source - Collect from: **
+Name:
+Address:
+Fax Number:
+Office number:
+Record release form:
+
+Call notes:
+Office rep:
+
+**Destination - Send to: **
+Name:
+Address:
+Fax Number:
+Office number:
+Record request form (if needed):
+
+Call notes
+Office rep:
+eof
+
+ServiceTemplate.find_or_create_by_name(
+    name: "record recovery",
+    title: "Record Recovery",
+    description: RECORD_RECOVERY_DESCRIPTION,
+    service_type: ServiceType.find_by_name('record recovery'),
+    time_estimate: 11880
+)

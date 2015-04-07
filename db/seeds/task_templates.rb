@@ -407,3 +407,180 @@ TaskTemplate.find_or_create_by_name(
     time_estimate: 60,
     service_ordinal: 4
 )
+
+# Record Recovery
+
+RECORD_RECOVERY_VERIFY_REQUEST_INFORMATION_DESCRIPTION = <<-eof
+1. Call source provider (where records are being collected)
+  * Request record release form from source provider
+  * Is there a cost for records? (Better will pay up to $20. If more - see Jenn.
+  * Does it cost anything for electronic copy of records?
+  * How will the records be sent? Fax, secure email, snail mail?
+  * How long does it take to process the request? (If necessary - can you expedite it? )
+  * Record call notes and representative’s name in service description
+1. Call recipient provider to confirm information
+  * Verify contact information
+  * What is the best way to send records? (fax, mail)
+  * How long does it normally take to process?
+  * Record notes and representative’s name in service description
+---------------------------------------------------------
+Call notes:
+Office representative:
+Verified contact information: yes/no
+Form: website/faxed to better/email
+Cost:
+Turnaround time:
+Other:
+
+---------------------------------------------------------
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "record recovery - verify request_informaiton",
+    service_template: ServiceTemplate.find_by_name('record recovery'),
+    title: "Call - Verify Record Request information",
+    description: RECORD_RECOVERY_VERIFY_REQUEST_INFORMATION_DESCRIPTION,
+    time_estimate: 60,
+    service_ordinal: 0
+)
+
+RECORD_RECOVERY_COMPLETE_RECORD_REQUEST_FORM_DESCRIPTION = <<-eof
+1. Go to hellosign.com
+1. Upload form to hellosign
+1. Complete with member’s information
+1. Send to member via HelloSign to obtain signature
+1. Complete task
+
+**HelloSign message template:**
+Hi [member], please review and sign the medical record request form. Let me know if you have any questions. Once it's signed, I'll send it to [source hospital] and we'll get your records transferred. Thanks!
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "record recovery - complete record request form",
+    service_template: ServiceTemplate.find_by_name('record recovery'),
+    title: "Complete record request form and send to member",
+    description: RECORD_RECOVERY_COMPLETE_RECORD_REQUEST_FORM_DESCRIPTION,
+    time_estimate: 60,
+    service_ordinal: 1
+)
+
+RECORD_RECOVERY_SEND_FORM_TO_SOURCE_PROVIDER_DESCRIPTION = <<-eof
+1. Search for signed form on Hellosign.com using member’s email
+1. **If not signed:**
+  * Create an update task for PHA with this copy:
+    Hi [member], we’re working on getting your records transferred and need your signature. We’ve emailed you an authorization form to sign from pha@getbetter.com using Hellosign.com.  Let me know if you have any questions about the form or using hellosign to sign the document. Once it is signed, we’ll send it to [source provider].
+  * Change due date of task for 3 days later
+1. **If signed:**
+  * Save signed form to member’s file in drive
+  * Save signed form to member’s folder in drive as “Signed_RecordRequest”
+  * Right click document and choose “Get Link”
+  * Save link to signed form to service description
+1. Mail **and/or** fax the form to the address/number listed on the form
+1. Complete task
+1. Change next task to assign to PHA
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "record recovery - send form to source provider",
+    service_template: ServiceTemplate.find_by_name('record recovery'),
+    title: "Send signed Record Request Form to source provider",
+    description: RECORD_RECOVERY_SEND_FORM_TO_SOURCE_PROVIDER_DESCRIPTION,
+    time_estimate: 60,
+    service_ordinal: 2
+)
+
+RECORD_RECOVERY_UPDATE_MEMBER_REQUEST_SENT_DESCRIPTION = <<-eof
+**Will be assigned to Specialist, reassign to PHA**
+Signed records release form has been sent to source hospital
+
+1. Send member update message:
+
+  I've sent the records release form you signed to [provider]. I’ll call over in the next couple of days to make sure it was received.
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "record recovery - update member request sent",
+    service_template: ServiceTemplate.find_by_name('record recovery'),
+    title: "Update member - record request form sent",
+    description: RECORD_RECOVERY_UPDATE_MEMBER_REQUEST_SENT_DESCRIPTION,
+    time_estimate: 60,
+    service_ordinal: 3
+)
+
+RECORD_RECOVERY_CONFIRM_REQUEST_RECEIVED_DESCRIPTION = <<-eof
+1. Call source provider to confirm form was received
+1. **If not received:**
+  * Check sfax for confirmation of sending, re-confirm fax number/address with source hospital and resend
+  * Push back task 1 day
+  * Create an update task for PHA with this copy:
+I checked in with [destination hospital] office today and there was a problem on their end so they haven’t received the records request. I’m working with them to fix it and will keep you updated.
+1. **If received, ** complete task
+1. Change next task to assign to PHA
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "record recovery - confirm request received",
+    service_template: ServiceTemplate.find_by_name('record recovery'),
+    title: "Call - Confirm record request form received",
+    description: RECORD_RECOVERY_CONFIRM_REQUEST_RECEIVED_DESCRIPTION,
+    time_estimate: 1440,
+    service_ordinal: 4
+)
+
+RECORD_RECOVERY_UPDATE_MEMBER_REQUEST_RECEIVED_DESCRIPTION = <<-eof
+**Will be assigned to Specialist, reassign to PHA**
+Records release received by source hospital
+
+1. Send member update message:
+
+  The medical record request you signed has been received by [source hospital]. They should arrive at [destination hospital] by [date]. I’ll continue to follow up and let you know when they are transferred!
+
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "record recovery - update member request received",
+    service_template: ServiceTemplate.find_by_name('record recovery'),
+    title: "Update member - forms received by source hospital",
+    description: RECORD_RECOVERY_UPDATE_MEMBER_REQUEST_RECEIVED_DESCRIPTION,
+    time_estimate: 60,
+    service_ordinal: 5
+)
+
+RECORD_RECOVERY_CONFIRM_RECORDS_TRANSFERRED_DESCRIPTION = <<-eof
+1. Call destination provider to confirm records received
+1. **If not received:**
+  * Call source hospital to find out if they were sent
+  * Request that they are resent if needed
+  * Create an update task for PHA with this copy:
+    [destination hospital] hasn’t received your medical records yet. I’ll call [source hospital]  and have your records resent. I’ll be in touch soon with another update
+  * Push back 7 days
+1. **If received, ** complete task
+1. Change next task to assign to PHA
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "record recovery - confirm records transferred",
+    service_template: ServiceTemplate.find_by_name('record recovery'),
+    title: "Confirm medical records were transferred",
+    description: RECORD_RECOVERY_CONFIRM_RECORDS_TRANSFERRED_DESCRIPTION,
+    time_estimate: 10080,
+    service_ordinal: 6
+)
+
+RECORD_RECOVERY_UPDATE_MEMBER_RECORDS_TRANSFERRED_DESCRIPTION = <<-eof
+**Will be assigned to Specialist, reassign to PHA**
+Medical records have been received by source hospital
+
+1. Send member update message:
+
+  Your medical records have been received by [source hospital] and they have them on file at [destination hospital].
+eof
+
+TaskTemplate.find_or_create_by_name(
+    name: "record recovery - update member records transferred",
+    service_template: ServiceTemplate.find_by_name('record recovery'),
+    title: " Update member - medical records transferred",
+    description: RECORD_RECOVERY_UPDATE_MEMBER_RECORDS_TRANSFERRED_DESCRIPTION,
+    time_estimate: 60,
+    service_ordinal: 7
+)
