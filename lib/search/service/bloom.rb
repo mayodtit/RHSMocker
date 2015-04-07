@@ -29,6 +29,8 @@ class Search::Service::Bloom
     new_params['practice_address.state'] = params[:state] if params[:state]
     new_params['practice_address.zip'] = params[:zip] if params[:zip]
     new_params['practice_address.city'] = params[:city] if params[:city]
+    new_params['offset'] = params[:offset] if params[:offset]
+    new_params['limit'] = params[:per] if params[:per]
     new_params
   end
 
@@ -38,6 +40,8 @@ class Search::Service::Bloom
     params.keys.each_with_index do |key, i|
       if key == 'practice_address.zip'
         result << "key#{i}=practice_address.zip&op#{i}=prefix" + params['practice_address.zip'].split(' ').map { |zip| "&value#{i}=#{zip}" }.join
+      elsif key == 'offset' || key == 'limit'
+        result << "#{key.to_s}=" + params[key].to_s.downcase
       else
         result << "key#{i}=#{key.to_s}&op#{i}=prefix&value#{i}=#{params[key].to_s.downcase}"
       end
