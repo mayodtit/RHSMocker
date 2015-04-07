@@ -32,6 +32,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
         @member = Member.create create_attributes
         if @member.errors.empty?
           @session = @member.sessions.create
+          @member.gravatar
           if user_params[:payment_token]
             CreateStripeSubscriptionService.new(user: @member,
                                                 plan_id: 'bp20',

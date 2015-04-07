@@ -270,6 +270,17 @@ class Member < User
     self
   end
 
+  include Gravtastic
+  include HTTParty
+  gravtastic  :secure => true,
+              :size => 240
+  def gravatar
+    if HTTParty.get(gravatar_url :default => 404).code != 404
+      self.avatar_url_override = gravatar_url 
+      self.save
+    end
+  end
+
   def terms_of_service_and_privacy_policy
     return true unless Agreement.active
     user_agreements.map(&:agreement_id).include? Agreement.active.id

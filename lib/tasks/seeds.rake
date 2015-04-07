@@ -908,4 +908,8 @@ My phone: 650-887-3711
     obj.description_id = did
     obj.save
   end
+
+  task :add_gravatar => :environment do
+    User.all.each {|u| u.gravatar if u[:avatar_url_override] == nil}
+  end
 end
