@@ -773,13 +773,12 @@ My phone: 650-887-3711
           loc.latitude = latitude[index]
           loc.longitude = longitude[index]
         end
-        print '.'
-        puts 'Processed ',index, 'records' if index % 5000 == 0
+        print "\r#{index} records processed"
       rescue
         puts "Error adding, ", zipcode
       end
     }
-    puts "Database populated"
+    puts "\nDatabase populated"
   end
 
   desc "Seed common email domains"
