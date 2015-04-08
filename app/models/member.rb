@@ -123,6 +123,7 @@ class Member < User
   after_create :add_onboarding_group_provider
   after_create :add_onboarding_group_cards
   after_create :add_onboarding_group_programs
+  after_create :add_gravatar
   after_save :alert_stakeholders_on_call_status
   after_save :update_referring_scheduled_communications, if: ->(m){m.free_trial_ends_at_changed?}
 
@@ -270,13 +271,9 @@ class Member < User
     self
   end
 
-  include Gravtastic
-  include HTTParty
-  gravtastic  :secure => true,
-              :size => 240
-  def gravatar
-    if HTTParty.get(gravatar_url :default => 404).code != 404
-      self.avatar_url_override = gravatar_url 
+  def add_gravatar
+    if self.avatar_url_override.nil? || self.avatar_url_override.include?('https://secure.gravatar.com/avatar')
+      self.avatar_url_override = GravatarChecker.new(email).check_gravatar
       self.save
     end
   end

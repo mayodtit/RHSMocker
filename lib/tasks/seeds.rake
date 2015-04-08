@@ -936,6 +936,6 @@ My phone: 650-887-3711
   end
 
   task :add_gravatar => :environment do
-    User.all.each {|u| u.gravatar if u[:avatar_url_override] == nil}
+    User.find_each{|u| u.add_gravatar}
   end
 end
