@@ -1012,6 +1012,8 @@ ActiveRecord::Schema.define(:version => 20150403231517) do
     t.datetime "disabled_at"
     t.string   "device_model"
     t.string   "device_os_version"
+    t.integer  "logging_level"
+    t.integer  "logging_command"
   end
 
   add_index "sessions", ["advertiser_id"], :name => "index_sessions_on_advertiser_id"
