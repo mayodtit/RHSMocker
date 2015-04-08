@@ -73,7 +73,7 @@ describe ServiceTemplate do
         member: member,
         subject: relative,
         creator: pha,
-        owner: other_pha,
+        owner_id: other_pha.id,
         assignor: other_pha
       }
 

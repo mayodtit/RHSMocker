@@ -552,6 +552,69 @@ namespace :seeds do
     end
   end
 
+  desc "add markdown messages to a test account."
+  task :add_markdown => :environment do
+    markdown_message_one = <<-EOT
+Hi Kim, I've found you a few highly rated Primary Care Physicians who are close to home, accepting new patients and take your insurance. Here are the details:
+
+[Dr. Mark B Braunstein](http://doctor.webmd.com/doctor/mark-braunstein-md-b1081742-1e00-4523-abf3-28c6b295ca21-overview)
+Address: 4849 Van Nuys Blvd Ste 105, Sherman Oaks ([map](https://www.google.com/maps/search/4849+Van+Nuys+Blvd+Ste+105,+Sherman+Oaks))
+Phone: (818) 905-9586
+Reviews: [HealthGrades](http://www.healthgrades.com/physician/dr-mark-braunstein-x4lnx), [Vitals](http://www.vitals.com/doctors/Dr_Mark_Braunstein/profile), [Yelp](http://www.yelp.com/biz/mark-braunstein-md-sherman-oaks-2), [Yahoo](https://local.yahoo.com/info-20678324-braunstein-mark-md-braunstein-mark-md-sherman-oaks)
+**Next appt: Mid March**
+
+[Dr. Arash D Matian](http://www.primecarela.com/about.html)
+Address: 13425 Ventura Blvd Ste 102, Sherman Oaks ([map](https://www.google.com/maps/search/13425+Ventura+Blvd+Ste+102,+Sherman+Oaks))
+Phone: (818) 995-7784
+Reviews: [HealthGrades](http://www.healthgrades.com/physician/dr-arash-matian-y59jh), [Vitals](http://www.vitals.com/doctors/Dr_Arash_Matian/profile), [Yelp](http://www.yelp.com/biz/prime-care-physicians-sherman-oaks)
+**Next appt: Mid March**
+
+[Dr. Gary S Schneider](http://doctor.webmd.com/doctor/gary-schneider-do-d230d6d4-bed0-412d-a1c7-d408f17f6bda-overview)
+Address: 4849 Van Nuys Blvd Ste 105, Sherman Oaks ([map](https://www.google.com/maps/search/4849+Van+Nuys+Blvd+Ste+105,+Sherman+Oaks))
+Phone: (818) 905-9586
+Reviews: [HealthGrades](http://www.healthgrades.com/physician/dr-gary-schneider-36gpg), [Vitals](http://www.vitals.com/doctors/Dr_Gary_Schneider/profile), [Yelp](http://www.yelp.com/biz/schneider-gary-do-inc-sherman-oaks)
+**Next appt: Mid April**
+
+Let me know which one looks like a good fit for you and I'll book an appointment!
+    EOT
+
+    markdown_message_two = <<-EOT
+# H1 heading
+
+1. my list of items that will wrap in the line and use paragraph formatting to keep it all pretty!
+1. Another list item
+1. Another list item
+1. Another list item
+1. Another list item
+1. Another list item
+1. Another list item
+1. Another list item
+1. Another list item
+1. Another list item with another long bunch of stuff that wraps to the next line
+
+## H2 Heading
+
+Here's a link: [Linky](http://www.google.com) <- Link
+
+Italic *here* but the rest of the line should be non italic.
+Bold **here**
+
+List follows:
++ First thing that you need to do is make sure of something
++ Second **bold** thing here and itâ€™s got a lot of stuff to say about the list
++ The last thing goes here
+
+My phone: 650-887-3711
+    EOT
+    m = Member.find_or_create_by_email!(email: 'test+markdown@getbetter.com',
+                                        user_agreements_attributes: user_agreements_attributes)
+    m.sign_up if m.invited?
+    puts 'Member test+markdown@getbetter.com created' if Member.find(m.id)
+    message_one = m.master_consult.messages.create! user: m, text: markdown_message_one
+    message_two = m.master_consult.messages.create! user: m, text: markdown_message_two
+    puts 'test markdown message is created' if Message.find(message_one.id) && Message.find(message_two.id)
+  end
+
   desc "Adds a system message to a Member's account."
   task :add_system_message, [:user_id] => :environment do |t, args|
     puts "Finding member #{args[:user_id]}"
@@ -710,13 +773,12 @@ namespace :seeds do
           loc.latitude = latitude[index]
           loc.longitude = longitude[index]
         end
-        print '.'
-        puts 'Processed ',index, 'records' if index % 5000 == 0
+        print "\r#{index} records processed"
       rescue
         puts "Error adding, ", zipcode
       end
     }
-    puts "Database populated"
+    puts "\nDatabase populated"
   end
 
   desc "Seed common email domains"
@@ -739,14 +801,8 @@ namespace :seeds do
       uri = URI.parse(url)
       resp = uri.read
 
-      desc_id = al.snomed_code  if resp.include? 'Concept not found'
-
-      if desc_id.nil?
-        json_resp = JSON.parse(resp)
-        match = match_name(al.snomed_name, json_resp)
-        store_terms(al, concept_id, match) unless match.nil?
-
-      else
+      if resp.include? 'Concept not found'
+        desc_id = al.snomed_code
         url = base_url + 'descriptions/' + desc_id.to_s
         uri = URI.parse(url)
         resp = uri.read
@@ -755,10 +811,14 @@ namespace :seeds do
         begin
           concept_id = json_resp["matches"][0]["conceptId"]
 
-          store_terms(al, concept_id, desc_id) unless match.nil?
+          store_terms(al, concept_id, desc_id) unless json_resp['matches'].size == 0
         rescue
           puts "Error @ desc id =", desc_id
         end
+      else
+        json_resp = JSON.parse(resp)
+        match = match_name(al.snomed_name, json_resp)
+        store_terms(al, concept_id, match) unless match.nil?
       end
     end
   end

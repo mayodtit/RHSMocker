@@ -39,10 +39,18 @@ class Api::V1::MembersController < Api::V1::ABaseController
                                                 trial_end: Time.zone.now.pacific.end_of_day + 1.month,
                                                 coupon_code: coupon_code).call
           end
+          SendEmailToStakeholdersService.new(@member).call
+          if user_params[:business_on_board]
+            render_success
+            set_uout
+            generate_invitation_link
+            SendConfirmEmailService.new(@member).call
+            Mails::SendBusinessOnBoardInvitationEmailJob.create(@member.unique_on_boarding_user_token, @link) and
+            return
+          end
           SendWelcomeEmailService.new(@member).call
           SendConfirmEmailService.new(@member).call
           SendDownloadLinkService.new(@member.phone).call if send_download_link?
-          SendEmailToStakeholdersService.new(@member).call
           NotifyReferrerWhenRefereeSignUpService.new(@referral_code, @member).call if @referral_code
 
           # TODO - remove when unneeded
@@ -105,6 +113,24 @@ class Api::V1::MembersController < Api::V1::ABaseController
   end
 
   private
+
+  def generate_invitation_link
+    if Rails.env.development?
+      @link = "better-dev://nb?cmd=onBoarding&uout=#{@member.unique_on_boarding_user_token}"
+    elsif Rails.env.production?
+      @link = "better://nb?cmd=onBoarding&uout=#{@member.unique_on_boarding_user_token}"
+    elsif Rails.env.qa?
+      @link = "better-qa://nb?cmd=onBoarding&uout=#{@member.unique_on_boarding_user_token}"
+    end
+  end
+
+  def set_uout
+    unique_on_boarding_user_token ||= loop do
+      new_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
+      break new_token unless Member.exists?(unique_on_boarding_user_token: new_token)
+    end
+    @member.update_attributes(unique_on_boarding_user_token: unique_on_boarding_user_token)
+  end
 
   def load_members!
     authorize! :index, Member

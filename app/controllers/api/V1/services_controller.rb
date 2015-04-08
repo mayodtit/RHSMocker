@@ -6,30 +6,35 @@ class Api::V1::ServicesController < Api::V1::ABaseController
 
   def index
     authorize! :read, Service
-    services = @member.services.where(params.permit(:subject_id, :state)).order('due_at, created_at ASC')
+    services = @member.services.where(params.permit(:subject_id, :state)).order("field(state, 'open', 'waiting', 'completed', 'abandoned'), due_at DESC, created_at DESC")
     index_resource services.serializer, name: :services
   end
 
   def create
-    authorize! :read, @service_template
     authorize! :create, Service
-    create_params = service_template_attributes
-    @service = @service_template.create_service! create_params
-    render_success(service: @service.serializer)
+    if @service_template
+      @service = @service_template.create_service! create_params
+      render_success(service: @service.serializer)
+    else
+      create_resource Service, create_params
+    end
   end
 
   def show
-    authorize! :read, @service
     show_resource @service.serializer
   end
 
   def update
     authorize! :update, @service
 
-    update_params = service_attributes
+    update_params = permitted_params.service_attributes
 
     if update_params[:state_event].present?
       update_params[:actor_id] = current_user.id
+    end
+
+    if update_params[:state_event] == 'abandon'
+      update_params[update_params[:state_event].event_actor.to_sym] = current_user
     end
 
     if !@service.owner_id && !update_params[:owner_id]
@@ -45,26 +50,33 @@ class Api::V1::ServicesController < Api::V1::ABaseController
 
   private
 
+  def load_member!
+    @member = Member.find(params[:member_id] || params[:user_id])
+  end
+
   def load_service!
     @service = Service.find params[:id]
-  end
-
-  def service_attributes
-    params.require(:service).permit(
-      :title, :description, :state_event, :member_id, :subject_id, :owner_id,
-      :reason_abandoned, :due_at
-    )
-  end
-
-  def service_template_attributes
-    params.permit(:title, :description, :subject_id, :due_at, :owner_id, :service_template_id, :auth_token).tap do |attributes|
-      attributes[:creator] = current_user
-      attributes[:member] = @member
-    end
+    authorize! :read, @service
   end
 
   def load_service_template!
-    @service_template = ServiceTemplate.find params[:service_template_id]
+    if params[:service_template_id]
+      @service_template = ServiceTemplate.find params[:service_template_id]
+      authorize! :read, @service_template
+    end
+  end
+
+  def create_params
+      if @service_template.nil?
+        create_params = permitted_params.service_attributes
+        create_params[:assignor_id] = current_user.id if create_params[:owner_id].present?
+      else
+        create_params = permitted_params.service_template_attributes
+      end
+      create_params[:creator] = current_user
+      create_params[:member] = @member
+      create_params[:actor_id] = current_user.id
+      create_params
   end
 end
 

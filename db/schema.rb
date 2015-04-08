@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150317220250) do
+ActiveRecord::Schema.define(:version => 20150403231517) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -24,6 +24,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.string   "address2"
     t.string   "name"
   end
+
+  add_index "addresses", ["user_id"], :name => "index_addresses_on_user_id"
 
   create_table "agreements", :force => true do |t|
     t.text     "text"
@@ -62,6 +64,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at",   :null => false
   end
 
+  add_index "appointments", ["user_id"], :name => "index_appointments_on_user_id"
+
   create_table "association_types", :force => true do |t|
     t.string   "name"
     t.string   "relationship_type"
@@ -84,6 +88,10 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.integer  "parent_id"
   end
 
+  add_index "associations", ["associate_id"], :name => "index_associations_on_associate_id"
+  add_index "associations", ["association_type_id"], :name => "index_associations_on_association_type_id"
+  add_index "associations", ["creator_id"], :name => "index_associations_on_creator_id"
+  add_index "associations", ["replacement_id"], :name => "index_associations_on_replacement_id"
   add_index "associations", ["user_id"], :name => "index_associations_on_user_id"
 
   create_table "blood_pressures", :force => true do |t|
@@ -136,6 +144,20 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "comments", :force => true do |t|
+    t.string   "title",            :limit => 50, :default => ""
+    t.text     "comment"
+    t.integer  "commentable_id"
+    t.string   "commentable_type"
+    t.integer  "user_id"
+    t.datetime "created_at",                                     :null => false
+    t.datetime "updated_at",                                     :null => false
+  end
+
+  add_index "comments", ["commentable_id"], :name => "index_comments_on_commentable_id"
+  add_index "comments", ["commentable_type"], :name => "index_comments_on_commentable_type"
+  add_index "comments", ["user_id"], :name => "index_comments_on_user_id"
+
   create_table "communication_workflow_templates", :force => true do |t|
     t.integer  "communication_workflow_id"
     t.integer  "message_template_id"
@@ -148,6 +170,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.integer  "relative_hours"
   end
 
+  add_index "communication_workflow_templates", ["communication_workflow_id"], :name => "index_communication_workflow_id"
+
   create_table "communication_workflows", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
@@ -156,8 +180,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
 
   create_table "conditions", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
     t.string   "snomed_name"
     t.string   "snomed_code"
     t.datetime "disabled_at"
@@ -191,6 +215,10 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "disabled_at"
   end
 
+  add_index "consults", ["initiator_id"], :name => "index_consults_on_initiator_id"
+  add_index "consults", ["subject_id"], :name => "index_consults_on_subject_id"
+  add_index "consults", ["symptom_id"], :name => "index_consults_on_symptom_id"
+
   create_table "content_mayo_vocabularies", :force => true do |t|
     t.integer  "content_id"
     t.integer  "mayo_vocabulary_id"
@@ -198,12 +226,18 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at",         :null => false
   end
 
+  add_index "content_mayo_vocabularies", ["content_id"], :name => "index_content_mayo_vocabularies_on_content_id"
+  add_index "content_mayo_vocabularies", ["mayo_vocabulary_id"], :name => "index_content_mayo_vocabularies_on_mayo_vocabulary_id"
+
   create_table "content_references", :force => true do |t|
     t.integer  "referrer_id"
     t.integer  "referee_id"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end
+
+  add_index "content_references", ["referee_id"], :name => "index_content_references_on_referee_id"
+  add_index "content_references", ["referrer_id"], :name => "index_content_references_on_referrer_id"
 
   create_table "contents", :force => true do |t|
     t.string   "title",                  :default => "",    :null => false
@@ -233,6 +267,7 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.string   "preview_image_url"
   end
 
+  add_index "contents", ["condition_id"], :name => "index_contents_on_condition_id"
   add_index "contents", ["document_id"], :name => "index_contents_on_document_id"
 
   create_table "custom_cards", :force => true do |t|
@@ -249,6 +284,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.boolean  "payment_card"
     t.boolean  "pha_card"
   end
+
+  add_index "custom_cards", ["content_id"], :name => "index_custom_cards_on_content_id"
 
   create_table "delayed_jobs", :force => true do |t|
     t.integer  "priority",   :default => 0
@@ -284,6 +321,9 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at",       :null => false
   end
 
+  add_index "discounts", ["referral_code_id"], :name => "index_discounts_on_referral_code_id"
+  add_index "discounts", ["user_id"], :name => "index_discounts_on_user_id"
+
   create_table "domains", :force => true do |t|
     t.string   "email_domain"
     t.datetime "created_at",   :null => false
@@ -299,6 +339,9 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at",   :null => false
   end
 
+  add_index "emergency_contacts", ["designee_id"], :name => "index_emergency_contacts_on_designee_id"
+  add_index "emergency_contacts", ["user_id"], :name => "index_emergency_contacts_on_user_id"
+
   create_table "enrollments", :force => true do |t|
     t.string   "token"
     t.string   "email"
@@ -309,14 +352,15 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.date     "birth_date"
     t.string   "advertiser_id"
     t.string   "time_zone"
-    t.datetime "created_at",              :null => false
-    t.datetime "updated_at",              :null => false
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
     t.integer  "user_id"
     t.string   "advertiser_media_source"
     t.string   "advertiser_campaign"
     t.string   "code"
     t.integer  "referral_code_id"
     t.integer  "onboarding_group_id"
+    t.string   "unique_on_boarding_user_token"
   end
 
   add_index "enrollments", ["email"], :name => "index_enrollments_on_email"
@@ -351,6 +395,9 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at", :null => false
   end
 
+  add_index "factor_contents", ["content_id"], :name => "index_factor_contents_on_content_id"
+  add_index "factor_contents", ["factor_id"], :name => "index_factor_contents_on_factor_id"
+
   create_table "factor_groups", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
@@ -366,6 +413,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.string   "gender"
     t.integer  "factor_group_id"
   end
+
+  add_index "factors", ["factor_group_id"], :name => "index_factors_on_factor_group_id"
 
   create_table "feature_groups", :force => true do |t|
     t.string   "name"
@@ -396,6 +445,9 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.string   "healthkit_source"
   end
 
+  add_index "heights", ["creator_id"], :name => "index_heights_on_creator_id"
+  add_index "heights", ["user_id"], :name => "index_heights_on_user_id"
+
   create_table "insurance_policies", :force => true do |t|
     t.integer  "user_id"
     t.string   "company_name"
@@ -420,6 +472,10 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "disabled_at"
   end
 
+  add_index "insurance_policies", ["insurance_card_back_id"], :name => "index_insurance_policies_on_insurance_card_back_id"
+  add_index "insurance_policies", ["insurance_card_front_id"], :name => "index_insurance_policies_on_insurance_card_front_id"
+  add_index "insurance_policies", ["user_id"], :name => "index_insurance_policies_on_user_id"
+
   create_table "invitations", :force => true do |t|
     t.integer  "member_id"
     t.integer  "invited_member_id"
@@ -429,6 +485,7 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.string   "state"
   end
 
+  add_index "invitations", ["member_id"], :name => "index_invitations_on_member_id"
   add_index "invitations", ["token"], :name => "index_invitations_on_token"
 
   create_table "mayo_vocabularies", :force => true do |t|
@@ -449,6 +506,7 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "free_trial_ends_at"
   end
 
+  add_index "member_state_transitions", ["actor_id"], :name => "index_member_state_transitions_on_actor_id"
   add_index "member_state_transitions", ["member_id"], :name => "index_member_state_transitions_on_member_id"
 
   create_table "message_statuses", :force => true do |t|
@@ -470,6 +528,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.string   "subject"
     t.integer  "content_id"
   end
+
+  add_index "message_templates", ["content_id"], :name => "index_message_templates_on_content_id"
 
   create_table "messages", :force => true do |t|
     t.text     "text"
@@ -513,6 +573,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "disabled_at"
   end
 
+  add_index "nurseline_records", ["api_user_id"], :name => "index_nurseline_records_on_api_user_id"
+
   create_table "nux_answers", :force => true do |t|
     t.text     "name"
     t.datetime "created_at",                   :null => false
@@ -545,6 +607,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at",   :null => false
   end
 
+  add_index "nux_story_changes", ["nux_story_id"], :name => "index_nux_story_changes_on_nux_story_id"
+
   create_table "onboarding_group_cards", :force => true do |t|
     t.integer  "onboarding_group_id"
     t.integer  "resource_id"
@@ -554,12 +618,17 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at",          :null => false
   end
 
+  add_index "onboarding_group_cards", ["onboarding_group_id", "resource_id"], :name => "index_onboarding_group_id_resource_id"
+
   create_table "onboarding_group_programs", :force => true do |t|
     t.integer  "onboarding_group_id"
     t.integer  "program_id"
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
   end
+
+  add_index "onboarding_group_programs", ["onboarding_group_id"], :name => "index_onboarding_group_programs_on_onboarding_group_id"
+  add_index "onboarding_group_programs", ["program_id"], :name => "index_onboarding_group_programs_on_program_id"
 
   create_table "onboarding_groups", :force => true do |t|
     t.string   "name"
@@ -580,6 +649,10 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.boolean  "skip_emails",                   :default => false, :null => false
   end
 
+  add_index "onboarding_groups", ["pha_id"], :name => "index_onboarding_groups_on_pha_id"
+  add_index "onboarding_groups", ["provider_id"], :name => "index_onboarding_groups_on_provider_id"
+  add_index "onboarding_groups", ["trial_nux_story_id"], :name => "index_onboarding_groups_on_trial_nux_story_id"
+
   create_table "parsed_nurseline_records", :force => true do |t|
     t.integer  "user_id"
     t.integer  "consult_id"
@@ -589,6 +662,11 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
   end
+
+  add_index "parsed_nurseline_records", ["consult_id"], :name => "index_parsed_nurseline_records_on_consult_id"
+  add_index "parsed_nurseline_records", ["nurseline_record_id"], :name => "index_parsed_nurseline_records_on_nurseline_record_id"
+  add_index "parsed_nurseline_records", ["phone_call_id"], :name => "index_parsed_nurseline_records_on_phone_call_id"
+  add_index "parsed_nurseline_records", ["user_id"], :name => "index_parsed_nurseline_records_on_user_id"
 
   create_table "permissions", :force => true do |t|
     t.integer  "subject_id"
@@ -614,6 +692,9 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.boolean  "silence_low_welcome_call_email", :default => false, :null => false
   end
 
+  add_index "pha_profiles", ["nux_answer_id"], :name => "index_pha_profiles_on_nux_answer_id"
+  add_index "pha_profiles", ["user_id"], :name => "index_pha_profiles_on_user_id"
+
   create_table "phone_call_summaries", :force => true do |t|
     t.integer  "caller_id",  :null => false
     t.integer  "callee_id",  :null => false
@@ -621,6 +702,9 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  add_index "phone_call_summaries", ["callee_id"], :name => "index_phone_call_summaries_on_callee_id"
+  add_index "phone_call_summaries", ["caller_id"], :name => "index_phone_call_summaries_on_caller_id"
 
   create_table "phone_calls", :force => true do |t|
     t.integer  "user_id"
@@ -670,6 +754,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.integer  "ordinal"
   end
 
+  add_index "program_resources", ["program_id", "resource_id"], :name => "index_program_id_resource_id_on_program_resources"
+
   create_table "programs", :force => true do |t|
     t.string   "title",      :null => false
     t.datetime "created_at", :null => false
@@ -684,6 +770,44 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "provider_profiles", :force => true do |t|
+    t.string   "npi_number", :limit => 10
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "image_url"
+    t.string   "gender"
+    t.text     "ratings"
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
+  end
+
+  create_table "provider_search_preferences", :force => true do |t|
+    t.string   "lat"
+    t.string   "lon"
+    t.decimal  "distance",      :precision => 10, :scale => 0
+    t.string   "gender"
+    t.string   "specialty_uid"
+    t.string   "insurance_uid"
+    t.datetime "created_at",                                   :null => false
+    t.datetime "updated_at",                                   :null => false
+  end
+
+  create_table "provider_search_results", :force => true do |t|
+    t.integer  "provider_profile_id"
+    t.integer  "provider_search_id"
+    t.string   "state"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
+
+  create_table "provider_searches", :force => true do |t|
+    t.integer  "provider_search_preferences_id"
+    t.string   "state"
+    t.integer  "user_id"
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+  end
+
   create_table "providers", :force => true do |t|
     t.integer  "user_id"
     t.string   "address"
@@ -694,6 +818,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end
+
+  add_index "providers", ["user_id"], :name => "index_providers_on_user_id"
 
   create_table "proximities", :force => true do |t|
     t.string  "city"
@@ -714,6 +840,9 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.integer  "user_id"
   end
 
+  add_index "referral_codes", ["creator_id"], :name => "index_referral_codes_on_creator_id"
+  add_index "referral_codes", ["user_id"], :name => "index_referral_codes_on_user_id"
+
   create_table "remote_events", :force => true do |t|
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
@@ -721,6 +850,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.integer  "user_id"
     t.string   "device_id"
   end
+
+  add_index "remote_events", ["user_id"], :name => "index_remote_events_on_user_id"
 
   create_table "roles", :force => true do |t|
     t.string   "name"
@@ -806,18 +937,22 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "created_at", :null => false
   end
 
+  add_index "service_state_transitions", ["actor_id"], :name => "index_service_state_transitions_on_actor_id"
   add_index "service_state_transitions", ["service_id"], :name => "index_service_state_transitions_on_service_id"
 
   create_table "service_templates", :force => true do |t|
     t.string   "name",                               :null => false
     t.string   "title",                              :null => false
-    t.string   "description"
+    t.text     "description"
     t.integer  "service_type_id",                    :null => false
     t.integer  "time_estimate"
     t.datetime "created_at",                         :null => false
     t.datetime "updated_at",                         :null => false
     t.boolean  "timed_service",   :default => false, :null => false
+    t.boolean  "user_facing",     :default => false, :null => false
   end
+
+  add_index "service_templates", ["service_type_id"], :name => "index_service_templates_on_service_type_id"
 
   create_table "service_types", :force => true do |t|
     t.string   "name",                 :null => false
@@ -831,25 +966,34 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
   add_index "service_types", ["name"], :name => "index_service_types_on_name", :unique => true
 
   create_table "services", :force => true do |t|
-    t.string   "title",               :null => false
+    t.string   "title",                                  :null => false
     t.text     "description"
-    t.integer  "service_type_id",     :null => false
-    t.string   "state",               :null => false
-    t.integer  "member_id",           :null => false
+    t.integer  "service_type_id",                        :null => false
+    t.string   "state",                                  :null => false
+    t.integer  "member_id",                              :null => false
     t.integer  "subject_id"
     t.string   "reason_abandoned"
-    t.integer  "creator_id",          :null => false
-    t.integer  "owner_id",            :null => false
-    t.integer  "assignor_id",         :null => false
+    t.integer  "creator_id",                             :null => false
+    t.integer  "owner_id",                               :null => false
+    t.integer  "assignor_id",                            :null => false
     t.datetime "due_at"
     t.datetime "assigned_at"
-    t.datetime "created_at",          :null => false
-    t.datetime "updated_at",          :null => false
+    t.datetime "created_at",                             :null => false
+    t.datetime "updated_at",                             :null => false
     t.integer  "service_template_id"
     t.datetime "completed_at"
     t.datetime "abandoned_at"
     t.integer  "abandoner_id"
+    t.boolean  "user_facing",         :default => false, :null => false
+    t.text     "service_request"
+    t.text     "service_deliverable"
   end
+
+  add_index "services", ["assignor_id"], :name => "index_services_on_assignor_id"
+  add_index "services", ["creator_id"], :name => "index_services_on_creator_id"
+  add_index "services", ["member_id"], :name => "index_services_on_member_id"
+  add_index "services", ["service_type_id"], :name => "index_services_on_service_type_id"
+  add_index "services", ["subject_id"], :name => "index_services_on_subject_id"
 
   create_table "sessions", :force => true do |t|
     t.integer  "member_id"
@@ -871,10 +1015,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
   end
 
   add_index "sessions", ["advertiser_id"], :name => "index_sessions_on_advertiser_id"
-  add_index "sessions", ["apns_token"], :name => "index_sessions_on_apns_token", :unique => true
   add_index "sessions", ["auth_token"], :name => "index_sessions_on_auth_token", :unique => true
   add_index "sessions", ["device_id"], :name => "index_sessions_on_device_id"
-  add_index "sessions", ["gcm_id"], :name => "index_sessions_on_gcm_id", :unique => true
 
   create_table "side_effects", :force => true do |t|
     t.string   "name",        :null => false
@@ -889,6 +1031,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
   end
+
+  add_index "subscription_users", ["subscription_id"], :name => "index_subscription_users_on_subscription_id"
 
   create_table "subscriptions", :force => true do |t|
     t.integer  "owner_id"
@@ -961,6 +1105,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.string   "title"
   end
 
+  add_index "task_guides", ["task_template_id"], :name => "index_task_guides_on_task_template_id"
+
   create_table "task_requirement_templates", :force => true do |t|
     t.string   "title",            :null => false
     t.text     "description"
@@ -968,6 +1114,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
   end
+
+  add_index "task_requirement_templates", ["task_template_id"], :name => "index_task_requirement_templates_on_task_template_id"
 
   create_table "task_requirements", :force => true do |t|
     t.string   "title",                                          :null => false
@@ -978,6 +1126,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "created_at",                                     :null => false
     t.datetime "updated_at",                                     :null => false
   end
+
+  add_index "task_requirements", ["task_requirement_template_id"], :name => "index_task_requirements_on_task_requirement_template_id"
 
   create_table "task_templates", :force => true do |t|
     t.string   "name",                :null => false
@@ -990,6 +1140,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at",          :null => false
     t.integer  "priority"
   end
+
+  add_index "task_templates", ["service_template_id"], :name => "index_task_templates_on_service_template_id"
 
   create_table "tasks", :force => true do |t|
     t.string   "title"
@@ -1027,10 +1179,10 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "member_free_trial_ends_at"
     t.integer  "delayed_job_id"
     t.integer  "day_priority",               :default => 0,     :null => false
-    t.integer  "assigned_task_id"
     t.boolean  "visible_in_queue",           :default => true,  :null => false
     t.integer  "time_estimate"
     t.boolean  "urgent",                     :default => false, :null => false
+    t.boolean  "unread",                     :default => false, :null => false
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"
@@ -1045,6 +1197,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
   end
+
+  add_index "treatment_side_effects", ["treatment_id"], :name => "index_treatment_side_effects_on_treatment_id"
 
   create_table "treatments", :force => true do |t|
     t.string   "name"
@@ -1086,12 +1240,18 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.string   "action"
   end
 
+  add_index "user_changes", ["actor_id"], :name => "index_user_changes_on_actor_id"
+  add_index "user_changes", ["user_id"], :name => "index_user_changes_on_user_id"
+
   create_table "user_condition_user_treatments", :force => true do |t|
     t.integer  "user_condition_id", :null => false
     t.integer  "user_treatment_id", :null => false
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
   end
+
+  add_index "user_condition_user_treatments", ["user_condition_id"], :name => "index_user_condition_user_treatments_on_user_condition_id"
+  add_index "user_condition_user_treatments", ["user_treatment_id"], :name => "index_user_condition_user_treatments_on_user_treatment_id"
 
   create_table "user_conditions", :force => true do |t|
     t.integer  "user_id"
@@ -1106,6 +1266,10 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "diagnosed_date"
   end
 
+  add_index "user_conditions", ["condition_id"], :name => "index_user_conditions_on_condition_id"
+  add_index "user_conditions", ["diagnoser_id"], :name => "index_user_conditions_on_diagnoser_id"
+  add_index "user_conditions", ["user_id"], :name => "index_user_conditions_on_user_id"
+
   create_table "user_content_likes", :force => true do |t|
     t.integer  "user_id"
     t.integer  "content_id"
@@ -1114,12 +1278,18 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at", :null => false
   end
 
+  add_index "user_content_likes", ["content_id"], :name => "index_user_content_likes_on_content_id"
+  add_index "user_content_likes", ["user_id"], :name => "index_user_content_likes_on_user_id"
+
   create_table "user_feature_groups", :force => true do |t|
     t.integer  "user_id"
     t.integer  "feature_group_id"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
   end
+
+  add_index "user_feature_groups", ["feature_group_id"], :name => "index_user_feature_groups_on_feature_group_id"
+  add_index "user_feature_groups", ["user_id"], :name => "index_user_feature_groups_on_user_id"
 
   create_table "user_images", :force => true do |t|
     t.integer  "user_id"
@@ -1129,6 +1299,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.string   "client_guid"
   end
 
+  add_index "user_images", ["user_id"], :name => "index_user_images_on_user_id"
+
   create_table "user_informations", :force => true do |t|
     t.integer  "user_id"
     t.datetime "created_at", :null => false
@@ -1137,6 +1309,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.text     "highlights"
   end
 
+  add_index "user_informations", ["user_id"], :name => "index_user_informations_on_user_id"
+
   create_table "user_programs", :force => true do |t|
     t.integer  "user_id"
     t.integer  "program_id"
@@ -1144,6 +1318,10 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at", :null => false
     t.integer  "subject_id"
   end
+
+  add_index "user_programs", ["program_id"], :name => "index_user_programs_on_program_id"
+  add_index "user_programs", ["subject_id"], :name => "index_user_programs_on_subject_id"
+  add_index "user_programs", ["user_id"], :name => "index_user_programs_on_user_id"
 
   create_table "user_readings", :force => true do |t|
     t.integer  "user_id"
@@ -1167,6 +1345,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at",           :null => false
   end
 
+  add_index "user_request_type_fields", ["user_request_type_id"], :name => "index_user_request_type_fields_on_user_request_type_id"
+
   create_table "user_request_types", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
@@ -1183,6 +1363,10 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.text     "request_data"
   end
 
+  add_index "user_requests", ["subject_id"], :name => "index_user_requests_on_subject_id"
+  add_index "user_requests", ["user_id"], :name => "index_user_requests_on_user_id"
+  add_index "user_requests", ["user_request_type_id"], :name => "index_user_requests_on_user_request_type_id"
+
   create_table "user_roles", :force => true do |t|
     t.integer  "user_id"
     t.integer  "role_id"
@@ -1190,12 +1374,18 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "updated_at", :null => false
   end
 
+  add_index "user_roles", ["role_id"], :name => "index_user_roles_on_role_id"
+  add_index "user_roles", ["user_id"], :name => "index_user_roles_on_user_id"
+
   create_table "user_treatment_side_effects", :force => true do |t|
     t.integer  "user_treatment_id"
     t.integer  "side_effect_id"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
   end
+
+  add_index "user_treatment_side_effects", ["side_effect_id"], :name => "index_user_treatment_side_effects_on_side_effect_id"
+  add_index "user_treatment_side_effects", ["user_treatment_id"], :name => "index_user_treatment_side_effects_on_user_treatment_id"
 
   create_table "user_treatments", :force => true do |t|
     t.boolean  "prescribed_by_doctor"
@@ -1213,6 +1403,10 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.datetime "created_at",           :null => false
     t.datetime "updated_at",           :null => false
   end
+
+  add_index "user_treatments", ["doctor_id"], :name => "index_user_treatments_on_doctor_id"
+  add_index "user_treatments", ["treatment_id"], :name => "index_user_treatments_on_treatment_id"
+  add_index "user_treatments", ["user_id"], :name => "index_user_treatments_on_user_id"
 
   create_table "users", :force => true do |t|
     t.string   "first_name"
@@ -1271,6 +1465,7 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.string   "advertiser_campaign"
     t.integer  "impersonated_user_id"
     t.integer  "coupon_count",                                  :default => 0,     :null => false
+    t.string   "unique_on_boarding_user_token"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true
@@ -1294,5 +1489,8 @@ ActiveRecord::Schema.define(:version => 20150317220250) do
     t.integer  "creator_id"
     t.string   "healthkit_source"
   end
+
+  add_index "weights", ["creator_id"], :name => "index_weights_on_creator_id"
+  add_index "weights", ["user_id"], :name => "index_weights_on_user_id"
 
 end

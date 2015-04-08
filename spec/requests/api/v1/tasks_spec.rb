@@ -57,7 +57,7 @@ describe 'Tasks' do
           context 'the completed task is the last task in its ordinal' do
             it 'should create the tasks with the next ordinal' do
               expect(task).to_not be_completed
-              expect{ do_request(task: {state_event: :complete}) }.to change(Task, :count).by 2
+              expect{ do_request(task: {state_event: :complete}) }.to change(Task, :count).by 1
               expect(response).to be_success
               body = JSON.parse(response.body, symbolize_names: true)
               expect(body[:task].to_json).to eq(task.reload.serializer.as_json.to_json)
@@ -78,19 +78,17 @@ describe 'Tasks' do
           expect(task).to be_abandoned
         end
 
-        context 'there are tasks templates in the service template with a higher ordinal' do
-          let!(:task_template) { create :task_template, service_template: service_template, service_ordinal: 1}
-
-          context 'the abandoned task is the last task in its ordinal' do
-            it 'should create the tasks with the next ordinal' do
-              expect(task).to_not be_abandoned
-              expect{ do_request(task: {state_event: :abandon, reason: 'Just because'}) }.to change(Task, :count).by 2
-              expect(response).to be_success
-              body = JSON.parse(response.body, symbolize_names: true)
-              expect(body[:task].to_json).to eq(task.reload.serializer.as_json.to_json)
-              expect(body[:updated_tasks].to_json).to eq(Task.where(service_ordinal: 1).serializer(shallow: true).as_json.to_json)
-              expect(task).to be_abandoned
-            end
+        context 'task is part of a service' do
+          it 'should abandon the service' do
+            expect(task).to_not be_abandoned
+            expect(service).to_not be_abandoned
+            do_request(task: {state_event: :abandon, reason: 'Just because'})
+            expect(response).to be_success
+            body = JSON.parse(response.body, symbolize_names: true)
+            expect(body[:task].to_json).to eq(task.reload.serializer.as_json.to_json)
+            expect(body[:updated_tasks].to_json).to eq(Task.where(service_ordinal: 1).serializer(shallow: true).as_json.to_json)
+            expect(task).to be_abandoned
+            expect(service.reload).to be_abandoned
           end
         end
       end
