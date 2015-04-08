@@ -66,7 +66,7 @@ resource "Services" do
     end
   end
 
-  describe 'services' do
+  context 'get services with member id' do
     parameter :auth_token, 'Performing hcp\'s auth_token'
     parameter :member_id, 'Member to retrieve services for'
     parameter :subject_id, 'Subject to retrieve services for'
@@ -79,11 +79,33 @@ resource "Services" do
     let!(:abandoned_service) { create :service, :abandoned, member: member, subject: relative }
 
     get '/api/v1/members/:member_id/services/' do
-      example_request '[GET] Get all services for a member' do
+      example_request '[GET] Get all services for a member with member_id' do
         explanation 'Get all services for a member (optionally filter by subject and state)'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
         response[:services].to_json.should == [service, completed_service, abandoned_service].serializer.to_json
+      end
+    end
+  end
+
+  context 'get services of the current user' do
+    parameter :auth_token, 'Performing hcp\'s auth_token'
+    parameter :subject_id, 'Subject to retrieve services for'
+    parameter :member_id, 'retrieve the services for current member'
+
+    required_parameters :auth_token, :member_id
+
+    let(:member_id) { 'current' }
+    let(:subject_id) { relative.id }
+    let!(:completed_service) { create :service, :completed, member: pha, subject: relative}
+    let!(:abandoned_service) { create :service, :abandoned, member: pha, subject: relative}
+
+    get '/api/v1/members/:member_id/services/' do
+      example_request '[GET] Get all services for current member' do
+        explanation 'Get all services for a member (optionally filter by subject and state)'
+        status.should == 200
+        response = JSON.parse response_body, symbolize_names: true
+        response[:services].to_json.should == [completed_service, abandoned_service].serializer.to_json
       end
     end
   end
