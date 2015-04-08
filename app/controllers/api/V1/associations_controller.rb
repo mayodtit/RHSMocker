@@ -1,26 +1,27 @@
 class Api::V1::AssociationsController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_associations!, only: :index
-  before_filter :load_association!, only: [:show, :update, :destroy, :invite]
+  before_filter :load_association!, only: %i(show update destroy invite)
   before_filter :verify_associate!, only: :create
   before_filter :verify_creator_permission!, only: :create
-  before_filter :convert_parameters!, only: [:create, :update]
+  before_filter :set_creator!, only: :create
+  before_filter :set_owner!, only: :create
+  before_filter :convert_parameters!, only: %i(create update)
+  before_filter :unset_android_id_zero!, only: %i(create update)
+  before_filter :change_keys!, only: %i(create update)
 
   def index
-    render_success(associations: @associations.serializer(serializer_options),
-                   permissions: @associations.map(&:permission).serializer)
+    render_success(index_response)
   end
 
   def show
-    render_success(association: @association.serializer(serializer_options),
-                   permissions: [@association.permission].serializer)
+    render_success(show_response)
   end
 
   def create
     @association = @user.associations.create(permitted_params.association)
     if @association.errors.empty?
-      render_success(association: @association.serializer(serializer_options),
-                     permissions: [@association.permission].serializer)
+      render_success(show_response)
     else
       render_failure({reason: @association.errors.full_messages.to_sentence}, 422)
     end
@@ -28,14 +29,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def update
     if @association.update_attributes(permitted_params.association)
-      render_success({association: @association.serializer(serializer_options),
-                      permissions: [@association.permission].serializer.as_json}.tap do |hash|
-                       hash.merge!(users: [@association.user.serializer, @association.associate.serializer]) unless @association.association_type.try(:hcp?)
-                       hash.merge!(inverse_association: @association.pair.serializer) if @association.pair
-                       hash[:permissions] << @association.pair.permission.serializer if @association.pair
-                       hash.merge!(parent_association: @association.parent.serializer) if @association.parent
-                       hash[:permissions] << @association.parent.permission.serializer if @association.parent
-                     end)
+      render_success(update_response)
     else
       render_failure({reason: @association.errors.full_messages.to_sentence}, 422)
     end
@@ -48,8 +42,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def invite
     @association.invite!
-    render_success(association: @association.pair.serializer,
-                   permissions: [@association.pair.permission].serializer)
+    render_success(show_response(@association.pair))
   end
 
   private
@@ -68,11 +61,13 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   end
 
   def verify_associate!
-    if params[:association][:associate_id]
-      @associate = User.find(params[:association][:associate_id])
-      raise CanCan::AccessDenied unless @associate.owner_id == current_user.id
-      raise CanCan::AccessDenied if Association.where(user_id: @associate.owner_id, associate_id: @associate.id).first.try(:replacement)
+    if @associate = User.find_by_id(params[:association][:associate_id])
+      raise CanCan::AccessDenied if @associate.owner_id != current_user.id || replacement_association
     end
+  end
+
+  def replacement_association
+    Association.where(user_id: @associate.owner_id, associate_id: @associate.id).first.try(:replacement)
   end
 
   def verify_creator_permission!
@@ -81,28 +76,34 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
     end
   end
 
-  def convert_parameters!
-    address = params[:association].try(:[], :associate).try(:[], :address)
+  def set_creator!
+    params.require(:association)[:creator_id] = current_user.id
+  end
 
-    params.require(:association)[:creator_id] = current_user.id unless @association
-    if params.require(:association).try(:[], :associate).try(:[], :npi_number)
-      if provider = User.find_by_npi_number(params[:association][:associate][:npi_number])
-        params[:association].except!(:associate)
-        params[:association][:associate_id] = provider.id
-      else
-        params[:association][:associate] = provider_from_search
-        params[:association].change_key!(:associate, :associate_attributes)
-        add_address_attributes(address)
-      end
-    elsif params.require(:association)[:associate]
-      params[:association].change_key!(:associate, :associate_attributes)
-      if AssociationType.find_by_id(params[:association][:association_type_id]).try(:relationship_type) == 'hcp'
-        params[:association][:associate_attributes][:self_owner] ||= true
-      else
-        params[:association][:associate_attributes][:owner_id] ||= @user.id
-      end
-      params[:association][:associate_attributes][:id] = nil if params[:association][:associate_attributes][:id] == 0 # TODO - disable sending fake id from client
-      add_address_attributes(address)
+  def set_owner!
+    if params.require(:association)[:associate]
+      params.require(:association)[:associate][:owner_id] ||= @user.id
+    end
+  end
+
+  def convert_parameters!
+    if associate_npi_number
+      provider = find_or_create_provider_by_npi_number
+      params[:association].except!(:associate)
+      params[:association][:associate_id] = provider.id
+    end
+  end
+
+  def associate_npi_number
+    params.require(:association).try(:[], :associate).try(:[], :npi_number)
+  end
+
+  def find_or_create_provider_by_npi_number
+    if provider = User.find_by_npi_number(associate_npi_number)
+      provider
+    else
+      User.create!(provider_from_search.merge!(self_owner: true))
+      # TODO - add address here
     end
   end
 
@@ -121,10 +122,46 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
     @search_service ||= Search::Service.new
   end
 
-  # Add in address attributes for both NPI and non-NPI providers.
-  # In the future we may auto-populate the address for NPI providers based on Bloom search results.
-  def add_address_attributes(address)
-    params[:association][:associate_attributes][:addresses_attributes] = [address] if address
+  def unset_android_id_zero!
+    params[:association][:associate][:id] = nil if params.require(:association).try(:[], :associate).try(:[], :id).try(:zero?) # TODO - disable sending fake id from client
+  end
+
+  def change_keys!
+    params[:association].try(:[], :associate).try(:change_key!, :address, :address_attributes)
+    params[:association].try(:change_key!, :associate, :associate_attributes)
+  end
+
+  def index_response
+    {
+      associations: @associations.serializer(serializer_options),
+      permissions: @associations.map(&:permission).serializer
+    }
+  end
+
+  def show_response(association=nil)
+    association ||= @association
+    {
+      association: association.serializer(serializer_options),
+      permissions: [association.permission].serializer.as_json
+    }
+  end
+
+  def update_response
+    show_response.tap do |hash|
+      unless @association.association_type.try(:hcp?)
+        hash.merge!(users: [@association.user.serializer, @association.associate.serializer])
+      end
+
+      if @association.pair
+        hash.merge!(inverse_association: @association.pair.serializer)
+        hash[:permissions] << @association.pair.permission.serializer
+      end
+
+      if @association.parent
+        hash.merge!(parent_association: @association.parent.serializer)
+        hash[:permissions] << @association.parent.permission.serializer
+      end
+    end
   end
 
   def serializer_options
