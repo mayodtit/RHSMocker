@@ -80,7 +80,7 @@ class Search::Service::Bloom
       :taxonomy_classification => HCPTaxonomy.get_classification_by_hcp_code(hcp_code)
     }
     avatar_url = User.find_by_npi_number(record['npi']).avatar_url_override if User.find_by_npi_number(record['npi'])
-    santized_record[:avatar_url_override] = avatar_url.to_s if avatar_url
+    santized_record[:avatar_url] = avatar_url.to_s if avatar_url
     santized_record
   end
 
