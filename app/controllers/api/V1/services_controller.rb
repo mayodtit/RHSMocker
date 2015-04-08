@@ -3,9 +3,9 @@ class Api::V1::ServicesController < Api::V1::ABaseController
   before_filter :load_member!, only: [:index, :create]
   before_filter :load_service!, only: [:show, :update]
   before_filter :load_service_template!, only: :create
-  before_filter :load_activities!, only: :activities
+  before_filter :load_user_services!, only: :activities
   before_filter :load_suggestions!, only: :activities
-  before_filter :load_activity_users!, only: :activities
+  before_filter :load_users!, only: :activities
 
   def index
     authorize! :read, Service
@@ -29,9 +29,9 @@ class Api::V1::ServicesController < Api::V1::ABaseController
 
   def activities
     render_success(
-        users: @users.serializer.try(:serializer, options.merge(shallow: true)),
-        activites: @activites.try(:serializer, options.merge(for_activity: true)),
-        suggestions: @suggestions.try(:serializer, options.merge(for_activity: true)))
+        users: @users.serializer(shallow: true),
+        services: @user_services.serializer(for_activity: true),
+        suggestions: @suggestions.serializer)
   end
 
   def update
@@ -40,6 +40,7 @@ class Api::V1::ServicesController < Api::V1::ABaseController
     update_params = permitted_params.service_attributes
 
     if update_params[:state_event].present?
+
       update_params[:actor_id] = current_user.id
     end
 
@@ -76,27 +77,22 @@ class Api::V1::ServicesController < Api::V1::ABaseController
     end
   end
 
-  def load_activities!
+  def load_user_services!
     authorize! :read, Service
-    @activities = Service.where(member: current_user, user_facing: true)
+    @user_services = Service.where(member_id: current_user.id, user_facing: true)
   end
 
   def load_suggestions!
-    authorize! :read, ServiceTemplate
-    @suggestions = ServiceTemplate.where(suggestion: true)
+    authorize! :read, SuggestedService
+    @suggestions = SuggestedService.where(user_id: current_user.id)
   end
 
-  def in_progress_activities
-    @activities.open_state
-  end
-
-  def completed_activities
-    @activities.closed_state
-  end
-
-  def load_activity_users!
-    @users = @activities.members.to_a
-    @users = @users << @user.pha if @user.pha
+  def load_users!
+    @users = @users = [current_user]
+    @users = @users << current_user.pha if current_user.pha
+    @user_services.each do |s|
+      @users = @users << s.subject
+    end
     @users = @users.uniq
   end
 

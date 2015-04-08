@@ -42,11 +42,12 @@ class ServiceSerializer < ActiveModel::Serializer
         id: object.id,
         state: object.state,
         title: object.title,
-        description: object.service_request,
+        request: object.service_request,
+        deliverable: object.service_deliverable,
         due_at: object.due_at,
-        updated_at: object.updated_at,
         owner_id: object.owner_id,
-        deliverable: object.deliverable
+        subject_id: object.subject_id,
+        updated_at: object.updated_at,
     }
   end
 
