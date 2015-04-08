@@ -53,7 +53,7 @@ class UpdateStripeSubscriptionService
     @subscription.plan = @plan_id
     @subscription.prorate = false
     @subscription.save
-    @run_at = @subscription.current_period_end
+    @run_at = DateTime.strptime(@subscription.current_period_end.to_s, '%s')
   end
 
   handle_asynchronously :downgrade_subscription, :run_at => Proc.new { @run_at }
