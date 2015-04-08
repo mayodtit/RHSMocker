@@ -615,6 +615,33 @@ My phone: 650-887-3711
     puts 'test markdown message is created' if Message.find(message_one.id) && Message.find(message_two.id)
   end
 
+  desc "Adds 50 various services to a Member's account"
+  task :add_services, [:user_email] => :environment do |t, args|
+    m = Member.find_or_create_by_email!(email: args[:user_email] || "test+services@getbetter.com",
+                                        password: "password",
+                                        user_agreements_attributes: user_agreements_attributes)
+    m.sign_up if m.invited?
+    if m.pha
+      pha = m.pha
+    else
+      pha = Member.find_or_create_by_email!(email: 'test+pha@getbetter.com',
+                                            user_agreements_attributes: user_agreements_attributes)
+      pha.add_role :pha
+      m.update_attributes(pha: pha)
+    end
+    if m.services.where(state: 'open').count == 25 && m.services.where(state: 'completed').count == 25
+      puts "25 in-progress and 25 completed services are created for user with email: #{m.email}"
+      next
+    end
+    m.services.destroy_all
+    service_type = ServiceType.find_or_create_by_name(name: 'member completes goal', bucket: 'wellness')
+    25.times do |i|
+      m.services.create( title: "open+#{i}", member: m, subject: m, creator: pha, assignor: pha, owner: pha, service_type_id: service_type.id)
+      m.services.create( title: "completed+#{i}", member: m, subject: m, creator: pha, owner: pha, assignor: pha, service_type_id: service_type.id).complete!
+    end
+    puts "25 in-progress and 25 completed services are created for user with email: #{m.email}"
+  end
+
   desc "Adds a system message to a Member's account."
   task :add_system_message, [:user_id] => :environment do |t, args|
     puts "Finding member #{args[:user_id]}"
@@ -773,13 +800,12 @@ My phone: 650-887-3711
           loc.latitude = latitude[index]
           loc.longitude = longitude[index]
         end
-        print '.'
-        puts 'Processed ',index, 'records' if index % 5000 == 0
+        print "\r#{index} records processed"
       rescue
         puts "Error adding, ", zipcode
       end
     }
-    puts "Database populated"
+    puts "\nDatabase populated"
   end
 
   desc "Seed common email domains"

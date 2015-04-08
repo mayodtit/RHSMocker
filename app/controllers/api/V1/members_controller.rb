@@ -117,11 +117,11 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def generate_invitation_link
     if Rails.env.development?
-      @link = "better-dev://nb?cmd='onboarding'+uout='#{@member.unique_on_boarding_user_token}'"
+      @link = "better-dev://nb?cmd=onBoarding&uout=#{@member.unique_on_boarding_user_token}"
     elsif Rails.env.production?
-      @link = "better://nb?cmd='onboarding'+uout='#{@member.unique_on_boarding_user_token}"
+      @link = "better://nb?cmd=onBoarding&uout=#{@member.unique_on_boarding_user_token}"
     elsif Rails.env.qa?
-      @link = "better-qa://nb?cmd='onboarding'+uout='#{@member.unique_on_boarding_user_token}'"
+      @link = "better-qa://nb?cmd=onBoarding&uout=#{@member.unique_on_boarding_user_token}"
     end
   end
 

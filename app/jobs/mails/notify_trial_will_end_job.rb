@@ -4,6 +4,10 @@ class Mails::NotifyTrialWillEndJob < Struct.new(:event)
   end
 
   def perform
-    RHSMailer.notify_trial_will_end(event).deliver
+    customer = event.data.object.customer
+    user = User.find_by_stripe_customer_id(customer)
+    return if user.nil?
+    return if user.pha.nil?
+    RHSMailer.notify_trial_will_end(user, customer).deliver
   end
 end

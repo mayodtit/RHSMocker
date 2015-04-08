@@ -7,19 +7,11 @@ resource "Services" do
 
   let!(:relative) { create :user }
   let!(:member) { create :member, pha: pha }
-  let!(:pha) { create(:pha) }
+  let(:pha) { create(:pha) }
   let(:session) { pha.sessions.create }
-  let!(:other_pha) { create(:pha) }
-  let!(:service) { create(:service) }
-  let(:time) { 4.days.from_now }
-  let(:auth_token) { session.auth_token }
+  let!(:auth_token) { session.auth_token }
 
   let!(:service) { create :service, member: member, subject: relative }
-  let!(:other_service) { create :service, member: member, subject: member }
-  let!(:completed_service) { create :service, :completed, member: member, subject: relative }
-  let!(:abandoned_service) { create :service, :abandoned, member: member, subject: relative }
-
-  let!(:service_template) { create :service_template }
 
   describe 'service' do
     parameter :auth_token, 'Performing hcp\'s auth_token'
@@ -27,7 +19,6 @@ resource "Services" do
 
     required_parameters :auth_token, :id
 
-    let(:auth_token) { session.auth_token }
     let(:id) { service.id }
 
     get '/api/v1/services/:id' do
@@ -46,17 +37,18 @@ resource "Services" do
     parameter :state_event, 'Event to perform on the service (\'reopen\', \'complete\', \'abandon\')'
     parameter :owner_id, 'The id of the owner of this service'
     parameter :due_at, 'When the service is due'
-    parameter :reason_abandoned, 'The reason for abandoning a service'
+    parameter :reason, 'The reason for abandoning a service'
 
     required_parameters :auth_token, :id
-    scope_parameters :service, [:state_event, :owner_id, :due_at, :reason_abandoned]
+    scope_parameters :service, [:state_event, :owner_id, :due_at, :reason]
 
-    let(:auth_token) { session.auth_token }
     let(:id) { service.id }
     let(:state_event) { 'abandon' }
+    let(:other_pha) { create(:pha) }
     let(:owner_id) { other_pha.id }
+    let(:time) { 4.days.from_now }
     let(:due_at) { time }
-    let(:reason_abandoned) { 'unreachable' }
+    let(:reason) { 'unreachable' }
 
     let(:raw_post) { params.to_json }
 
@@ -68,7 +60,6 @@ resource "Services" do
         service.reload
         service.should be_abandoned
         service.owner.should == other_pha
-        service.reason_abandoned.should == 'unreachable'
         service.due_at.to_s.should == time.to_s
         response[:service].to_json.should == service.serializer.to_json
       end
@@ -82,9 +73,10 @@ resource "Services" do
 
     required_parameters :auth_token, :member_id
 
-    let(:auth_token) { session.auth_token }
     let(:member_id) { member.id }
     let(:subject_id) { relative.id }
+    let!(:completed_service) { create :service, :completed, member: member, subject: relative }
+    let!(:abandoned_service) { create :service, :abandoned, member: member, subject: relative }
 
     get '/api/v1/members/:member_id/services/' do
       example_request '[GET] Get all services for a member' do
@@ -106,7 +98,7 @@ resource "Services" do
 
     required_parameters :auth_token, :member_id, :service_template_id
 
-    let(:auth_token) { session.auth_token }
+    let(:service_template) { create :service_template }
     let(:member_id) { member.id }
     let(:title) { 'Title' }
     let(:description) { 'Description' }
