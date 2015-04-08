@@ -12,6 +12,11 @@ class UpdateStripeSubscriptionService
     end
   end
 
+  def when_to_run
+    load_subscription!
+    DateTime.strptime(@subscription.current_period_end.to_s, '%s')
+  end
+
   private
   def load_stripe_customer!
     @customer ||= Stripe::Customer.retrieve(@user.stripe_customer_id)
@@ -55,6 +60,5 @@ class UpdateStripeSubscriptionService
     @subscription.save
     @run_at = DateTime.strptime(@subscription.current_period_end.to_s, '%s')
   end
-
-  handle_asynchronously :downgrade_subscription, :run_at => Proc.new { @run_at }
+  handle_asynchronously :downgrade_subscription, :run_at => Proc.new { |subs|subs.when_to_run }
 end
