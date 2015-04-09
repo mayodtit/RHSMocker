@@ -102,8 +102,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
     if provider = User.find_by_npi_number(associate_npi_number)
       provider
     else
-      User.create!(provider_from_search.merge!(self_owner: true))
-      # TODO - add address here
+      User.create!(provider_from_search.deep_merge(self_owner: true))
     end
   end
 
@@ -115,6 +114,8 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
       # Pivotal: https://www.pivotaltracker.com/story/show/64260740
       attributes.merge!(phone: attributes[:address][:phone])
     end
+    result[:address] = [result[:address]]
+    result.change_key!(:address, :addresses_attributes)
     PermittedParams.new(ActionController::Parameters.new(user: result), current_user).user
   end
 
