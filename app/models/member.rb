@@ -50,6 +50,7 @@ class Member < User
   belongs_to :onboarding_group, inverse_of: :users
   belongs_to :referral_code, inverse_of: :users
   has_many :user_requests, foreign_key: :user_id
+  has_many :suggested_services, foreign_key: :user_id
   has_many :outbound_scheduled_communications, class_name: 'ScheduledCommunication',
                                                foreign_key: :sender_id,
                                                inverse_of: :sender
