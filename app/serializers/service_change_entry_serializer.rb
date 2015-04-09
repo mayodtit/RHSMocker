@@ -3,7 +3,7 @@ class ServiceChangeEntrySerializer < ActiveModel::Serializer
 
   attributes :id, :service_id, :service, :event, :actor, :update_type, :update_data
 
-  def task
+  def service
     object.service.try(:entry_serializer).as_json
   end
 
