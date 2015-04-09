@@ -934,8 +934,4 @@ My phone: 650-887-3711
     obj.description_id = did
     obj.save
   end
-
-  task :add_gravatar => :environment do
-    User.find_each{|u| u.add_gravatar}
-  end
 end
