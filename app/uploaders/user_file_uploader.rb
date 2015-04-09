@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-class UserFileUploader < CarrierWave::Uploader::Base
+class UserFileUploader < BaseUploader
 
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
@@ -8,11 +8,11 @@ class UserFileUploader < CarrierWave::Uploader::Base
 
   # Choose what kind of storage to use for this uploader:
   storage :fog
-  after :store, :encrypt_file
+  # after :store, :encrypt_file
   #
-  def encrypt_file
-    Carrierwave::EncrypterDecrypter::Uploader.encrypt(self)
-  end
+  # def encrypt_file
+  #   Carrierwave::EncrypterDecrypter::Uploader.encrypt(self)
+  # end
   #
   # def fog_public
   #   true
@@ -21,6 +21,10 @@ class UserFileUploader < CarrierWave::Uploader::Base
   # # This is a sensible default for uploaders that are meant to be mounted:
   def store_dir
     "error_log"
+  end
+
+  def fog_public
+    true
   end
   #
   # # Provide a default URL as a default if there hasn't been a file uploaded:
@@ -52,6 +56,6 @@ class UserFileUploader < CarrierWave::Uploader::Base
   # # Override the filename of the uploaded files:
   # # Avoid using model.id or version_name here, see uploader/store.rb for details.
   def filename
-    Time.now
+    hash_filename
   end
 end
