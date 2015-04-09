@@ -153,16 +153,14 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
         hash.merge!(users: [@association.user.serializer, @association.associate.serializer])
       end
 
-      if @association.pair
-        hash.merge!(inverse_association: @association.pair.serializer)
-        hash[:permissions] << @association.pair.permission.serializer
-      end
-
-      if @association.parent
-        hash.merge!(parent_association: @association.parent.serializer)
-        hash[:permissions] << @association.parent.permission.serializer
-      end
+      add_updated_association(hash, @association.pair, :inverse) if @association.pair
+      add_updated_association(hash, @association.parent, :parent) if @association.parent
     end
+  end
+
+  def add_updated_association(hash, association, key)
+    hash.merge!("#{key}_association".to_sym => association.serializer)
+    hash[:permissions] << association.permission.serializer
   end
 
   def serializer_options
