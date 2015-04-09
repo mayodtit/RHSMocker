@@ -103,7 +103,7 @@ resource "Services" do
         explanation 'Get all user facing services for the current user'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        response[:services].to_json.should == [open_service, completed_service, abandoned_service].serializer(for_activity: true).to_json
+        response[:services].to_json.should == [open_service, completed_service, abandoned_service].serializer(shallw: true).to_json
         response[:users].to_json.should == [pha, relative].serializer(shallow: true).to_json
         response[:suggestions].to_json.should == [suggestion].serializer.to_json
       end

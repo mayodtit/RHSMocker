@@ -1,8 +1,8 @@
 class Service < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
 
-  OPEN_STATES = %i(open waiting)
-  CLOSED_STATES = %i(completed abandoned)
+  OPEN_STATES = %w(open waiting)
+  CLOSED_STATES = %w(completed abandoned)
 
   belongs_to :service_type
   belongs_to :service_template
