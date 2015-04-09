@@ -93,8 +93,8 @@ resource "Services" do
 
     required_parameters :auth_token
 
-    let!(:open_service) { create :service, member: pha, subject: relative, user_facing: true}
-    let!(:completed_service) { create :service, :completed, member: pha, subject: relative, user_facing: true}
+    let!(:open_service) { create :service, member: pha, subject: member, user_facing: true}
+    let!(:completed_service) { create :service, :completed, member: pha, subject: member, user_facing: true}
     let!(:abandoned_service) { create :service, :abandoned, member: pha, subject: relative, user_facing: true}
     let!(:suggestion) { create :suggested_service, user: pha}
 
@@ -103,7 +103,7 @@ resource "Services" do
         explanation 'Get all user facing services for the current user'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        response[:services].to_json.should == [open_service, completed_service, abandoned_service].serializer(shallw: true).to_json
+        response[:services].to_json.should == [open_service, completed_service].serializer(shallw: true).to_json
         response[:users].to_json.should == [pha, relative].serializer(shallow: true).to_json
         response[:suggestions].to_json.should == [suggestion].serializer.to_json
       end
