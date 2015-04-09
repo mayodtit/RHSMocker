@@ -93,8 +93,8 @@ resource "Services" do
 
     required_parameters :auth_token
 
-    let!(:open_service) { create :service, member: pha, subject: member, user_facing: true}
-    let!(:completed_service) { create :service, :completed, member: pha, subject: member, user_facing: true}
+    let!(:open_service) { create :service, member: pha, subject: pha, user_facing: true}
+    let!(:completed_service) { create :service, :completed, member: pha, subject: pha, user_facing: true}
     let!(:abandoned_service) { create :service, :abandoned, member: pha, subject: relative, user_facing: true}
     let!(:suggestion) { create :suggested_service, user: pha}
 
