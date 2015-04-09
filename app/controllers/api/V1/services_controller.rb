@@ -51,7 +51,11 @@ class Api::V1::ServicesController < Api::V1::ABaseController
   private
 
   def load_member!
-    @member = Member.find(params[:member_id] || params[:user_id])
+    @member = if (params[:member_id] == 'current' || params[:user_id] == 'current')
+                current_user
+              else
+                Member.find(params[:member_id] || params[:user_id])
+              end
   end
 
   def load_service!
