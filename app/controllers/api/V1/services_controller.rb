@@ -28,10 +28,9 @@ class Api::V1::ServicesController < Api::V1::ABaseController
   end
 
   def activities
-    render_success(
-        users: @users.serializer(shallow: true),
-        services: @user_services.serializer(for_activity: true),
-        suggestions: @suggestions.serializer)
+    render_success(users: @users.serializer(shallow: true),
+                   services: @user_services.serializer(shallow: true),
+                   suggestions: @suggestions.serializer)
   end
 
   def update
@@ -40,7 +39,6 @@ class Api::V1::ServicesController < Api::V1::ABaseController
     update_params = permitted_params.service_attributes
 
     if update_params[:state_event].present?
-
       update_params[:actor_id] = current_user.id
     end
 
@@ -79,19 +77,19 @@ class Api::V1::ServicesController < Api::V1::ABaseController
 
   def load_user_services!
     authorize! :read, Service
-    @user_services = Service.where(member_id: current_user.id, user_facing: true)
+    @user_services = current_user.services.where(user_facing: true).includes(:subject)
   end
 
   def load_suggestions!
     authorize! :read, SuggestedService
-    @suggestions = SuggestedService.where(user_id: current_user.id)
+    @suggestions = current_user.suggested_services
   end
 
   def load_users!
-    @users = @users = [current_user]
-    @users = @users << current_user.pha if current_user.pha
+    @users = [current_user]
+    @users << current_user.pha if current_user.pha
     @user_services.each do |s|
-      @users = @users << s.subject
+      @users << s.subject
     end
     @users = @users.uniq
   end

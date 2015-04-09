@@ -34,7 +34,7 @@ class Service < ActiveRecord::Base
   after_commit :publish
 
   def open?
-    !(OPEN_STATES.include? state)
+    (OPEN_STATES.include? state)
   end
 
   def self.open_state
