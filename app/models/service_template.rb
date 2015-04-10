@@ -3,7 +3,8 @@ class ServiceTemplate < ActiveRecord::Base
   has_many :task_templates
   has_many :suggested_services
 
-  attr_accessible :name, :title, :description, :service_type_id, :service_type, :time_estimate, :timed_service, :user_facing
+  attr_accessible :name, :title, :description, :service_type_id, :service_type, :time_estimate, :timed_service,
+                  :user_facing, :suggestion_description, :suggestion_message
 
   validates :name, :title, :service_type, presence: true
   validates :user_facing, :inclusion => { :in => [true, false] }

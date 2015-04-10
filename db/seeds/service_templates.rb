@@ -25,7 +25,11 @@ ServiceTemplate.find_or_create_by_name(
     title: "Provider Search",
     description: PROVIDER_SEARCH_DESCRIPTION,
     service_type: ServiceType.find_by_name('provider search'),
-    time_estimate: 4500
+    time_estimate: 4500,
+    user_facing: true,
+    suggested_description: "We can find you a doctor near you",
+    suggested_message: "I'd like to find a doctor"
+
 )
 
 APPOINTMENT_BOOKING_DESCRIPTION = <<-eof
@@ -56,7 +60,10 @@ ServiceTemplate.find_or_create_by_name(
     title: "Appointment Booking",
     description: APPOINTMENT_BOOKING_DESCRIPTION,
     service_type: ServiceType.find_by_name('appointment booking'),
-    time_estimate: 150
+    time_estimate: 150,
+    user_facing: true,
+    suggested_description: "We can book an appointment with a doctor for you",
+    suggested_message: "I'm interested in scheduling an appointment"
 )
 
 CARE_COORDINATION_CALL_DESCRIPTION = <<-eof
