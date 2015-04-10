@@ -16,9 +16,7 @@ class GrantReferrerCreditWhenRefereePay
     referrer = find_member(find_stripe_customer_id(@event))
     return if referrer.nil?
     if referrer && has_coupon?(referrer)
-      if redeem_coupon(referrer, referrer_stripe_customer)
-        Mails::ConfirmDiscountReceivedJob.create(referrer.id)
-      end
+      redeem_coupon(referrer, referrer_stripe_customer)
     end
   end
 
@@ -40,6 +38,7 @@ class GrantReferrerCreditWhenRefereePay
     unless used_referral_code?(referee, referrer)
       referrer.discounts.create(referral_code_id: referee.referral_code.id,
                                 discount_percent: 1.0,
+                                referee_id: referee.id,
                                 referrer: true)
     end
   end
@@ -63,9 +62,11 @@ class GrantReferrerCreditWhenRefereePay
                                                    :invoice => invoice_id,
                                                    :description => "Referral Discount")
 
-      referrer_discount_record.update_attributes(invoice_item_id: invoice_item.id)
-      referrer_discount_record.redeemed_at = Time.now
-      referrer_discount_record.save!
+        referrer_discount_record.update_attributes(invoice_item_id: invoice_item.id)
+        referrer_discount_record.redeemed_at = Time.now
+        referrer_discount_record.save!
+        referee = User.find(referrer_discount_record.referee_id)
+        Mails::ConfirmDiscountReceivedJob.create(referrer.id, referee.id)
       end
     end
   end
