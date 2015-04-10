@@ -3,7 +3,7 @@ class ServiceSerializer < ActiveModel::Serializer
 
   attributes :id, :member_id, :user_id, :owner_id, :subject_id, :service_type_id, :state,
              :title, :description, :due_at, :created_at, :updated_at,
-             :user_facing, :service_request, :service_deliverable
+             :user_facing, :service_request, :service_deliverable, :service_update
 
   def attributes
     super.tap do |attrs|

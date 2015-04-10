@@ -6,7 +6,9 @@ ServiceTemplate.upsert_attributes({name: "mayo pilot 2"},
                                   timed_service: true})
 
 PROVIDER_SEARCH_DESCRIPTION = <<-eof
-#Member preference checklist
+**Service assigned to PHA**
+
+#Member Request
 * **Type of Doctor:**
 * **Location (zip):**
 * **Preferences (if any):**
@@ -15,7 +17,8 @@ PROVIDER_SEARCH_DESCRIPTION = <<-eof
 * **Insurance website:**
 * **Employer/Exchanges:**
 
-#PHA message to send (paste templated options here):
+#Specialist notes
+
 eof
 
 ServiceTemplate.upsert_attributes({name: "provider search"},
@@ -28,7 +31,9 @@ ServiceTemplate.upsert_attributes({name: "provider search"},
                                   suggestion_message: "I'd like to find a doctor"})
 
 APPOINTMENT_BOOKING_DESCRIPTION = <<-eof
-#Appointment preferences checklist
+**Service assigned to PHA**
+
+#Member Request
 * **Member:**
 * **Insurance plan:**
 * **Provider:**
@@ -38,14 +43,24 @@ APPOINTMENT_BOOKING_DESCRIPTION = <<-eof
 * **New Patient:** yes/no
 * **Specific dates/times that work better:**
 
-#PHA message to send (update template here):
+#Specialist notes
 
-Here are the details of your appointment:
+Who you spoke with:
+Date of call:
+Available times/Booked time:
+Insurance still up-to-date:
+What to bring:
+Special instructions to prepare:
+eof
+
+APPOINTMENT_BOOKING_UPDATE = <<-eof
+We’ve found you an appointment with Dr. [First Last]. Here are the details:
 
 **Day, Date at Time**
 Dr. First Last
 Address: ([map](map link))
 Phone: Phone number
+-Other details (what to bring, when to arrive)
 
 Let me know if this works for you and I’ll add it to your calendar!
 eof
@@ -56,6 +71,7 @@ ServiceTemplate.upsert_attributes({name: "appointment booking"},
                                   service_type: ServiceType.find_by_name('appointment booking'),
                                   time_estimate: 150,
                                   user_facing: true,
+                                  service_update: APPOINTMENT_BOOKING_UPDATE,
                                   suggestion_description: "We can book an appointment with a doctor for you",
                                   suggestion_message: "I'm interested in scheduling an appointment"})
 
@@ -70,23 +86,24 @@ Possible next steps:
 **Specialist Call Notes:**
 Who you spoke with:
 Notes from call:
+eof
 
----------------------------------------------------------
-
+CARE_COORDINATION_CALL_UPDATE = <<-eof
 **Member update:**
-1)
+1.
 
 **PHA Next steps:**
-1) Update member
-2) (if needed)
+1. Update member
+2. (if needed)
 
 **Specialist next steps:**
-1) (if needed)
+1. (if needed)
 eof
 
 ServiceTemplate.upsert_attributes({name: "care coordination call"},
                                   {title: "Care Coordination Call",
                                   description: CARE_COORDINATION_CALL_DESCRIPTION,
+                                  service_update: CARE_COORDINATION_CALL_UPDATE,
                                   service_type: ServiceType.find_by_name('care coordination call'),
                                   time_estimate: 120})
 
@@ -108,12 +125,15 @@ ServiceTemplate.upsert_attributes({name: "pha authorization"},
                                   time_estimate: 43500}
 )
 RECORD_RECOVERY_DESCRIPTION = <<-eof
-Member:
-Purpose of transfer:
-Type of records to request:
-Urgency:
-Link to record request form:
-Date request sent:
+**Service assigned to Specialist**
+
+#Member Request
+* **Member:**
+* **Purpose of transfer::**
+* **Type of records to request::**
+* **Urgency::**
+* **Link to record request form::**
+* **Date request sent::**
 
 **Records Source - Collect from: **
 Name:
@@ -122,9 +142,6 @@ Fax Number:
 Office number:
 Record release form:
 
-Call notes:
-Office rep:
-
 **Destination - Send to: **
 Name:
 Address:
@@ -132,8 +149,14 @@ Fax Number:
 Office number:
 Record request form (if needed):
 
-Call notes
-Office rep:
+#Specialist notes
+Call notes:
+Office representative:
+Verified contact information: yes/no
+Form: website/faxed to better/email
+Cost:
+Turnaround time:
+Other:
 eof
 
 ServiceTemplate.upsert_attributes({name: "record recovery"},
