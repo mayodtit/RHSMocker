@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Mails::ConfirmDiscountReceivedJob do
   let!(:referrer) { create(:member, :premium) }
   let!(:code) {create(:referral_code, user: referrer)}
-  let!(referee) {create(:member, :premium)}
+  let!(:referee) {create(:member, :premium)}
 
   before do
     Timecop.freeze(Date.today.to_time)

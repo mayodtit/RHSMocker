@@ -421,7 +421,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
       vars: {
         REFERERFIRSTNAME: referrer.first_name,
         REFEREEFIRSTNAME: referee.first_name,
-        PROMO: referrer.referral_code.code
+        PROMO: referrer.owned_referral_code.code
       }
     }
     send_mail(params)
