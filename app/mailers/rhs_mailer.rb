@@ -403,7 +403,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
 
   def confirm_discount_received(referrer, referee)
     params = {
-      subject: 'You should received the discount',
+      subject: "You've received a free month of Better!",
       from_name: "Better",
       template: "Tell a Friend Account Credited 4/9/2015",
       to: {email: referrer.email},

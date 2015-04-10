@@ -53,20 +53,23 @@ class GrantReferrerCreditWhenRefereePay
   def redeem_coupon(referrer, customer)
     referrer_discount_record = referrer.discounts.find_by_redeemed_at(nil)
     invoice_amount = @event.data.object.total
-    invoice_id = @event.data.object.id
-    discount_amount = invoice_amount * (referrer_discount_record.discount_percent)
+    return if invoice_amount == 0
     if referrer_discount_record
+      discount_amount = invoice_amount * (referrer_discount_record.discount_percent)
       if invoice_item = Stripe::InvoiceItem.create(:customer => customer,
                                                    :amount => -discount_amount,
                                                    :currency => "usd",
-                                                   :invoice => invoice_id,
                                                    :description => "Referral Discount")
 
         referrer_discount_record.update_attributes(invoice_item_id: invoice_item.id)
         referrer_discount_record.redeemed_at = Time.now
         referrer_discount_record.save!
-        referee = User.find(referrer_discount_record.referee_id)
-        Mails::ConfirmDiscountReceivedJob.create(referrer.id, referee.id)
+        if referrer_discount_record.referrer
+          referee = User.find(referrer_discount_record.referee_id)
+          Mails::ConfirmDiscountReceivedJob.create(referrer.id, referee.id)
+        else
+          "need to update with another email template"
+        end
       end
     end
   end
