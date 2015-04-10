@@ -24,8 +24,8 @@ ServiceTemplate.upsert_attributes({name: "provider search"},
                                   service_type: ServiceType.find_by_name('provider search'),
                                   time_estimate: 4500,
                                   user_facing: true,
-                                  suggested_description: "We can find you a doctor near you",
-                                  suggested_message: "I'd like to find a doctor"})
+                                  suggestion_description: "We can find you a doctor near you",
+                                  suggestion_message: "I'd like to find a doctor"})
 
 APPOINTMENT_BOOKING_DESCRIPTION = <<-eof
 #Appointment preferences checklist
@@ -56,8 +56,8 @@ ServiceTemplate.upsert_attributes({name: "appointment booking"},
                                   service_type: ServiceType.find_by_name('appointment booking'),
                                   time_estimate: 150,
                                   user_facing: true,
-                                  suggested_description: "We can book an appointment with a doctor for you",
-                                  suggested_message: "I'm interested in scheduling an appointment"})
+                                  suggestion_description: "We can book an appointment with a doctor for you",
+                                  suggestion_message: "I'm interested in scheduling an appointment"})
 
 CARE_COORDINATION_CALL_DESCRIPTION = <<-eof
 Who to call:
