@@ -1,6 +1,6 @@
 class Api::V1::ProvidersController < Api::V1::ABaseController
   before_filter :load_providers!, only: [:index, :search]
-  before_filter :load_provider!, only: [:show, :update]
+  before_filter :load_provider!, only: :show
 
   # deprecated - use #search instead
   def index

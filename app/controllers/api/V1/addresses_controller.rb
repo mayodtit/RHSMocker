@@ -3,6 +3,7 @@ class Api::V1::AddressesController < Api::V1::ABaseController
   before_filter :load_addresses!
   before_filter :load_address!, only: %i(show update destroy)
   before_filter :convert_attributes, only: :update
+  before_filter :load_office_address!, only: [:show_office_address, :update_office_address]
 
   def index
     index_resource @addresses.serializer
@@ -24,6 +25,14 @@ class Api::V1::AddressesController < Api::V1::ABaseController
     destroy_resource @address
   end
 
+  def show_office_address
+    show_resource @office_address.serializer
+  end
+
+  def update_office_address
+    update_resource @office_address, permitted_params.address
+  end
+
   private
 
   def load_addresses!
@@ -43,5 +52,9 @@ class Api::V1::AddressesController < Api::V1::ABaseController
 
   def address_params
     params.require(:address)
+  end
+
+  def load_office_address!
+    @office_address = @addresses.where(name: "Office").first
   end
 end
