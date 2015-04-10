@@ -2,6 +2,7 @@
   {key: 'allow_tos_checked', value: 'false'},
   {key: 'pha_phone_number', value: '5555555555'},
   {key: 'nurse_phone_number', value: '5551112222'},
+  {key: 'outbound_calls_number', value: '5555555556'},
   {key: 'remove_robot_response', value: 'true'},
   {key: 'version', value: '1.0.5'},
   {key: 'android_version', value: '0.0.1'},

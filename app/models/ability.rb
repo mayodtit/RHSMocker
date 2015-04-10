@@ -49,13 +49,21 @@ class Ability
     end
 
     can :manage, UserImage do |o|
-      user.id == o.user_id
+      (user.id == o.user_id) || can?(:manage, o.user)
     end
 
     can :ru, ScheduledPhoneCall do |o|
       (o.state == 'assigned' && o.scheduled_at > Time.now) ||
       o.user_id == user.id ||
       (o.message && o.message.consult && can?(:manage, o.message.consult))
+    end
+
+    can :read, Service do |o|
+      user.id == o.member_id
+    end
+
+    can :read, SuggestedService do |o|
+      user.id == o.user_id
     end
 
     cannot :manage, Program

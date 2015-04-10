@@ -22,11 +22,12 @@ class Api::V1::TasksController < Api::V1::ABaseController
       end
     end
 
-    tasks = query.where(role_id: role.id, visible_in_queue: true).includes(:member).order(task_order)
+    tasks = query.where(role_id: role.id, visible_in_queue: true, unread: false, urgent: false).includes(:member).order(task_order)
+    immediate_tasks = query.where(role_id: role.id, visible_in_queue: true).where('unread IS TRUE OR urgent IS TRUE').includes(:member).order(task_order) if current_user.pha?
     tomorrow_count = 0
     future_count = 0
 
-    if params.has_key? :only_today
+    if only_today?
       eod = Time.now.pacific.end_of_day
       tom_eod = 1.day.from_now.pacific.end_of_day
       future_count = tasks.where('due_at > ?', eod).count
@@ -34,12 +35,14 @@ class Api::V1::TasksController < Api::V1::ABaseController
       tasks = tasks.where('due_at <= ?', eod)
     end
 
-    if params.has_key? :until_tomorrow
+    if until_tomorrow?
       eod = Time.now.pacific.end_of_day
       tom_eod = 1.day.from_now.pacific.end_of_day
       future_count = tasks.where('due_at > ?', tom_eod).count
       tasks = tasks.where('due_at <= ?', tom_eod)
     end
+
+    tasks = immediate_tasks + tasks if current_user.pha?
 
     render_success tasks: tasks.serializer(shallow: true), tomorrow_count: tomorrow_count, future_count: future_count
   end
@@ -91,6 +94,10 @@ class Api::V1::TasksController < Api::V1::ABaseController
       end
     end
 
+    if ( update_params[:state_event] == 'complete' || update_params[:state_event] == 'abandon' ) && @task.service
+      @updated_tasks = @task.service.tasks.open_state.where('service_ordinal > ?', @task.service_ordinal)
+    end
+
     if @task.update_attributes(update_params)
       render_success(task: @task.serializer,
                      updated_tasks: @updated_tasks.try(:serializer, shallow: true) || [])
@@ -119,6 +126,14 @@ class Api::V1::TasksController < Api::V1::ABaseController
   end
 
   def task_attributes
-    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :day_priority, :pubsub_client_id)
+    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :day_priority, :pubsub_client_id, :urgent)
+  end
+
+  def only_today?
+    params[:only_today]
+  end
+
+  def until_tomorrow?
+    params[:until_tomorrow]
   end
 end

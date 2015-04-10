@@ -6,13 +6,20 @@ class Allergy < ActiveRecord::Base
   has_many :users, :through => :user_allergies
 
   attr_accessible :name, :snomed_name, :snomed_code, :food_allergen,
-                  :environment_allergen, :medication_allergen
+                  :environment_allergen, :medication_allergen, :concept_id, :description_id
 
-  searchable do
+  after_commit :reindex
+
+  searchable :auto_index => false do
     text :name
   end
 
   def self.none
     find_by_snomed_code('160244002')
+  end
+
+  def reindex
+    Allergy.reindex
+    Sunspot.commit
   end
 end

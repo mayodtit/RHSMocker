@@ -7,8 +7,8 @@ describe 'DowngradeMemberToFree' do
   before do
     StripeMock.start
     customer = Stripe::Customer.create(email: user.email,
-                                               description: StripeExtension.customer_description(user.id),
-                                               card: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
+                                       description: StripeExtension.customer_description(user.id),
+                                       card: StripeMock.generate_card_token(last4: "0002", exp_year: 1984))
     user.update_attribute(:stripe_customer_id, customer.id)
   end
 
@@ -24,6 +24,10 @@ describe 'DowngradeMemberToFree' do
 
     it 'should set user status to free' do
       expect{ do_method }.to change{ user.reload.status }.from('premium').to('free')
+    end
+
+    it 'should add email to delayed_job' do
+      expect{ do_method }.to change{ Delayed::Job.count }.from(0).to(1)
     end
   end
 end

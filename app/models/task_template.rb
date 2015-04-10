@@ -3,7 +3,7 @@ class TaskTemplate < ActiveRecord::Base
   has_many :tasks
   has_many :task_guides
 
-  attr_accessible :name, :title, :description, :time_estimate, :service_ordinal, :service_template
+  attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template
 
   validates :name, :title, presence: true
 
@@ -24,7 +24,8 @@ class TaskTemplate < ActiveRecord::Base
       subject: attributes[:service] ? attributes[:service].subject : attributes[:subject],
       creator: creator,
       owner: owner,
-      assignor: owner.present? ? (attributes[:assignor] || creator) : nil
+      assignor: owner.present? ? (attributes[:assignor] || creator) : nil,
+      priority: priority || 0
     )
   end
 end

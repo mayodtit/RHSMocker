@@ -1,6 +1,7 @@
 class Task < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
   PRIORITY = 0
+  URGENT_PRIORITY = 12
 
   belongs_to :member
   belongs_to :role, class_name: 'Role'
@@ -14,7 +15,6 @@ class Task < ActiveRecord::Base
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
   has_many :task_guides, class_name: 'TaskGuide', through: :task_template
   has_many :task_requirements
-  has_one :view_task_task
 
   attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id
   attr_accessible :title, :description, :due_at,
@@ -24,9 +24,10 @@ class Task < ActiveRecord::Base
                   :state_event, :service_type_id, :service_type,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
                   :priority, :actor_id, :member_id, :member, :reason, :visible_in_queue,
-                  :day_priority, :time_estimate, :pubsub_client_id
+                  :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
+  validates :urgent, :unread, :inclusion => { :in => [true, false] }
   validates :owner, presence: true, if: lambda { |t| t.owner_id }
   validates :role, presence: true, if: lambda { |t| t.role_id }
   validates :service_type, presence: true, if: lambda { |t| t.service_type_id }
@@ -42,15 +43,17 @@ class Task < ActiveRecord::Base
   before_validation :set_priority, on: :create
   before_validation :set_assigned_at
   before_validation :reset_day_priority
+  before_validation :mark_as_unread
 
   after_commit :publish
   after_save :notify
   after_commit :track_update, on: :update
 
+
   scope :nurse, -> { where(['role_id = ?', Role.find_by_name!('nurse').id]) }
   scope :pha, -> { where(['role_id = ?', Role.find_by_name!('pha').id]) }
   scope :owned, -> (hcp) { where(['state IN (?, ?, ?, ?) AND owner_id = ?', :unstarted, :started, :claimed, :spam, hcp.id]) }
-  scope :needs_triage, -> (hcp) { where(['(owner_id IS NULL AND state NOT IN (?)) OR (state IN (?, ?, ?, ?) AND owner_id = ? AND type IN (?, ?, ?, ?))', :abandoned, :unstarted, :started, :claimed, :spam, hcp.id, PhoneCallTask.name, MessageTask.name, UserRequestTask.name, ParsedNurselineRecordTask.name]) }
+  scope :needs_triage, -> (hcp) { where(['(owner_id IS NULL AND state NOT IN (?)) OR (state IN (?, ?, ?, ?) AND owner_id = ? AND type IN (?, ?, ?, ?, ?))', :abandoned, :unstarted, :started, :claimed, :spam, hcp.id, PhoneCallTask.name, MessageTask.name, UserRequestTask.name, ParsedNurselineRecordTask.name, InsurancePolicyTask.name]) }
   scope :needs_triage_or_owned, -> (hcp) { where(['(state IN (?, ?, ?, ?) AND owner_id = ?) OR (owner_id IS NULL AND state NOT IN (?))', :unstarted, :started, :claimed, :spam, hcp.id, :abandoned]) }
 
   def self.open_state
@@ -82,7 +85,11 @@ class Task < ActiveRecord::Base
   end
 
   def set_priority
-    self.priority = PRIORITY if priority.nil?
+    if urgent?
+      self.priority = URGENT_PRIORITY
+    else
+      self.priority = PRIORITY if priority.nil?
+    end
   end
 
   def reset_day_priority
@@ -104,6 +111,11 @@ class Task < ActiveRecord::Base
       self.assignor = Member.robot
       self.assigned_at = Time.now
     end
+  end
+
+  def mark_as_unread
+    return unless (owner_id_changed? || id_changed?) && owner_id && assignor_id != owner_id && type == 'MemberTask' && owner.has_role?('pha') && !owner.has_role?('specialist') && !urgent?
+    self.unread = true
   end
 
   def notify
@@ -176,6 +188,7 @@ class Task < ActiveRecord::Base
     end
 
     before_transition any - [:claimed] => :claimed do |task|
+      task.unread = false
       task.claimed_at = Time.now
     end
 
@@ -183,11 +196,20 @@ class Task < ActiveRecord::Base
       task.completed_at = Time.now
     end
 
-    before_transition any - [:abandoned] => :abandoned do |task|
-      task.abandoned_at = Time.now
+    after_transition any - :completed => :completed  do |task|
+      task.service.create_next_ordinal_tasks(task.service_ordinal, task.due_at) if task.service
     end
 
-    before_transition :abandoned => any - [:abandoned] do |task|
+    after_transition any - :abandoned => :abandoned  do |task|
+      if task.service
+        task.service.reason = task.reason
+        task.service.abandoner = task.abandoner
+        task.service.abandon!
+      end
+    end
+
+    before_transition any - :abandoned => :abandoned do |task|
+      task.abandoned_at = Time.now
     end
 
     # Audit trail will create a TaskChange in an after_transition. This tells

@@ -59,4 +59,14 @@ namespace :scheduled do
   task :notify_lack_of_messages => :environment do
     ScheduledJobs.notify_lack_of_messages
   end
+
+  desc 'Unstart messages for timed out users.'
+  task :timeout_messages => :environment do
+    ScheduledJobs.timeout_messages
+  end
+
+  desc 'Update user gravatars.'
+  task :update_gravatar => :environment do
+    ScheduledJobs.update_gravatar
+  end
 end

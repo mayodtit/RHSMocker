@@ -4,6 +4,10 @@ describe 'UserImages' do
   let!(:user) { create(:member) }
   let(:session) { user.sessions.create }
 
+  before do
+    CarrierWave::Mount::Mounter.any_instance.stub(:store!)
+  end
+
   context 'existing record' do
     let!(:user_image) { create(:user_image, user: user) }
 

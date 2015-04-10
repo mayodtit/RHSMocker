@@ -8,6 +8,8 @@ class Address < ActiveRecord::Base
 
   validates :user, presence: true
 
+  validates :name, uniqueness: { scope: :user_id }
+
   alias_attribute :line1, :address
   alias_attribute :line2, :address2
   alias_attribute :type, :name

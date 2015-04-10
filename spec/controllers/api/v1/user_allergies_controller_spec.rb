@@ -21,7 +21,14 @@ describe Api::V1::UserAllergiesController do
     it_behaves_like 'action requiring authentication and authorization'
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
-      it_behaves_like 'index action', new.user_allergy
+      it_behaves_like 'success'
+
+      it 'returns the user allergies' do
+        do_request
+        json = JSON.parse(response.body)
+        json['user_allergies'][0]['allergy_id'] == user_allergy.allergy_id
+        json['user_allergies'][0]['allergy'] == user_allergy.allergy.as_json.to_json
+      end
     end
   end
 
@@ -41,10 +48,10 @@ describe Api::V1::UserAllergiesController do
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it_behaves_like 'success'
 
-      it 'returns the user allergies' do
+      it 'returns the user allergy' do
         do_request
         json = JSON.parse(response.body)
-        json['user_allergy'].to_json.should == user_allergy.as_json.to_json
+        json['user_allergy']['allergy'] == user_allergy.allergy.as_json.to_json
       end
     end
   end
@@ -80,7 +87,8 @@ describe Api::V1::UserAllergiesController do
         it 'returns the allergy here' do
           do_request
           json = JSON.parse(response.body)
-          json['user_allergy'].to_json.should == user_allergy.as_json.to_json
+          json['user_allergy']['allergy_id'] == user_allergy.allergy_id
+          json['user_allergy']['allergy'] == user_allergy.allergy.as_json.to_json
         end
       end
 

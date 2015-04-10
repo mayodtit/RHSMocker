@@ -7,7 +7,9 @@ describe 'Ping' do
     let(:apns_token) { 'test_token' }
     let(:gcm_id) { 'test_gcm_id' }
     let(:device_os) {'test_device_os'}
+    let(:device_os_version) {'test_device_os_version'}
     let(:device_timezone) {'ETC'}
+    let(:device_model) {'model'}
 
     def do_request
       post '/api/v1/ping', options
@@ -39,6 +41,35 @@ describe 'Ping' do
         expect(response).to be_success
         expect(session.reload.gcm_id).to eq(gcm_id)
       end
+
+      it 'stores the device os when present' do
+        expect(session.device_os).to be_nil
+        do_request(device_os: device_os)
+        expect(response).to be_success
+        expect(session.reload.device_os).to eq(device_os)
+      end
+
+      it 'stores the device os version when present' do
+        expect(session.device_os_version).to be_nil
+        do_request(device_os_version: device_os_version)
+        expect(response).to be_success
+        expect(session.reload.device_os_version).to eq(device_os_version)
+      end
+
+      it 'stores the device model when present' do
+        expect(session.device_model).to be_nil
+        do_request(device_model: device_model)
+        expect(response).to be_success
+        expect(session.reload.device_model).to eq(device_model)
+      end
+
+      it 'stores the device timezone when present' do
+        expect(session.device_timezone).to be_nil
+        do_request(device_timezone: device_timezone)
+        expect(response).to be_success
+        expect(session.reload.device_timezone).to eq(device_timezone)
+      end
+
 
       context 'with NUX stories' do
         let!(:nux_story) { create(:nux_story, enabled: true) }
@@ -88,10 +119,24 @@ describe 'Ping' do
         expect(session.device_os).to be_nil
         do_request(device_os: device_os)
         expect(response).to be_success
-        expect(session.reload.gcm_id).to be_nil
+        expect(session.reload.device_os).to be_nil
       end
 
-      it 'not store the user information when present' do
+      it 'not store the device os version when present' do
+        expect(session.device_os_version).to be_nil
+        do_request(device_os_version: device_os_version)
+        expect(response).to be_success
+        expect(session.reload.device_os_version).to be_nil
+      end
+
+      it 'not store the device model when present' do
+        expect(session.device_model).to be_nil
+        do_request(device_model: device_model)
+        expect(response).to be_success
+        expect(session.reload.device_model).to be_nil
+      end
+
+      it 'not store the device timezone when present' do
         expect(session.device_timezone).to be_nil
         do_request(device_timezone: device_timezone)
         expect(response).to be_success

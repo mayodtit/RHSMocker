@@ -4,6 +4,7 @@ class SendWelcomeEmailService
   end
 
   def call
+    return if @user.onboarding_group.try(:skip_emails?)
     if @user.trial?
       send_trial_welcome_email
     elsif @user.free?

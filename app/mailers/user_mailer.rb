@@ -1,13 +1,14 @@
 class UserMailer < ActionMailer::Base
   default from: lambda{
-    email = Rails.env.production? ? 'support@getbetter.com' : "support@#{Rails.env}.getbetter.com"
+    email = (Rails.env.production? || Rails.env.demo?) ? 'support@getbetter.com' : "support+#{Rails.env}@getbetter.com"
+    email = 'support+dev@getbetter.com' if email == 'support+development@getbetter.com'
     from_address = Mail::Address.new(email)
     from_address.display_name = 'Better'
     from_address.format
   }
 
   def env
-    Rails.env.production? ? '' : "#{Rails.env}: "
+    (Rails.env.production? || Rails.env.demo?) ? '' : "#{Rails.env}: "
   end
 
   # this method needs to remain since socery doesn't seem to work
@@ -122,5 +123,10 @@ class UserMailer < ActionMailer::Base
     mail(to: %w(kyle@getbetter.com geoff@getbetter.com), subject: "#{env}[Stripe] #{event.data.object.customer} - #{event.type}") do |format|
       format.text{ render text: "Stripe failure: #{event.data.object.customer} - #{event.type}" }
     end
+  end
+
+  def notify_stakeholders_of_new_signup(email, onboarding_group_id)
+    @onboarding_group = OnboardingGroup.find(onboarding_group_id)
+    mail(to: email, subject: "New sign up for #{@onboarding_group.name}")
   end
 end

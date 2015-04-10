@@ -157,4 +157,21 @@ class ScheduledJobs
       end
     end
   end
+
+  def self.timeout_messages
+    Member.phas.each do |pha|
+      if pha.sessions.where(device_os: nil).empty?
+        MessageTask.where(owner_id: pha.id, state: %i(started claimed)).each do |task|
+          task.update_attributes(owner: nil, state_event: :unstart)
+          task.consult.messages.create(user: pha,
+                                       note: true,
+                                       text: "Message Task was unclaimed due to inactivity")
+        end
+      end
+    end
+  end
+
+  def self.update_gravatar
+    User.find_each{|u| u.add_gravatar}
+  end
 end

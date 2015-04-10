@@ -1,38 +1,61 @@
 class ServiceSerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes :id, :title, :state, :description, :due_at, :service_type_id, :created_at, :owner_id
+  attributes :id, :member_id, :user_id, :owner_id, :subject_id, :service_type_id, :state,
+             :title, :description, :due_at, :created_at, :updated_at,
+             :user_facing, :service_request, :service_deliverable
 
   def attributes
-    if options[:shallow]
-      attributes = {
-          id: object.id,
-          title: object.title,
-          description: object.description,
-          service_type_id: object.service_type_id,
-          due_at: object.due_at,
-          created_at: object.created_at
-      }
-    elsif options[:for_subject]
-      attributes = {
-          id: object.id,
-          title: object.title,
-          description: object.description,
-          service_type_id: object.service_type_id,
-          due_at: object.due_at,
-          created_at: object.created_at,
-          service_type: object.service_type,
-          owner: object.owner.try(:serializer, options.merge(shallow: true))
-      }
-      attributes[:tasks] = object.tasks.try(:serializer, options) if object.respond_to? :tasks
-    else
-      super.tap do |attributes|
-        attributes.merge!(
-            owner: object.owner.try(:serializer, options),
-            service_type: object.service_type
-        )
-        attributes[:tasks] = object.tasks.try(:serializer, options.merge(shallow: true)) if object.respond_to? :tasks
+    super.tap do |attrs|
+      if for_subject?
+        attrs.merge!(subject_attributes)
+      elsif non_shallow? # KC - TODO - invert this logic, shallow should be default
+        attrs.merge!(non_shallow_attributes)
       end
+    end
+  end
+
+  private
+
+  def for_subject?
+    options[:for_subject] ? true : false
+  end
+
+  def non_shallow?
+    options[:shallow].blank? ? true : false
+  end
+
+  def for_activity?
+    options[:for_activity] ? true : false
+  end
+
+  def user_id
+    object.member_id
+  end
+
+  def subject_attributes
+    {
+      service_type: object.service_type,
+      owner: object.owner.try(:serializer, options.merge(shallow: true)),
+      member: object.member.try(:serializer, options.merge(shallow: true)),
+      tasks: tasks
+    }
+  end
+
+  def non_shallow_attributes
+    {
+      service_type: object.service_type,
+      owner: object.owner.try(:serializer, options),
+      member: object.member.try(:serializer, options),
+      tasks: tasks
+    }
+  end
+
+  def tasks
+    if object.respond_to? :tasks
+      object.tasks.order('service_ordinal ASC, due_at DESC, created_at DESC').try(:serializer, options.merge(for_subject: true))
+    else
+      nil
     end
   end
 end

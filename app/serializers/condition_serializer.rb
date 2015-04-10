@@ -2,7 +2,7 @@ class ConditionSerializer < ActiveModel::Serializer
   self.root = false
 
   attributes :id, :name, :created_at, :updated_at, :snomed_name, :snomed_code,
-             :content_id
+             :content_id, :concept_id, :description_id
 
   def content_id
     # (TS 2015-01-16) This results in n database queries, one for each related

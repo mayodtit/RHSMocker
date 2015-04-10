@@ -28,34 +28,35 @@ eof
 
 APPOINTMENT_BOOKING_DESCRIPTION_TEMPLATE = <<-eof
 For which person:
+Insurance plan:
 Provider:
 Address:
 Phone number:
 Reason for visit:
-Specific dates/ times that work better
+Specific dates/times that work better:
 
----------------------------------------------------------
+________________________________
+
 Call notes:
+
 Who you spoke with:
 Available times/Booked time:
 Insurance still up-to-date:
 What to bring:
 Special instructions to prepare:
 
-________________________________
-Message to member
-You're all set! Here are the details of your upcoming appointment:
+________________________
 
-_______________________________
-Google Calendar Invite:
+Update message for PHA to send:
 
-Event Title: Appointment with Dr. [Dr. Name]
-Event Location: [Clinic Address]
-Event Content:
-Dr. [Dr. Name]
-[Phone number]
-If you have any questions or need to cancel, just message me here.
+Here are the details of your appointment:
 
+**Day, Date at Time**
+Dr. First Last
+Address: ([map](map link))
+Phone: Phone number
+
+Let me know if this works for you and I’ll add it to your calendar!
 eof
 
 PROVIDER_SEARCH_DESCRIPTION_TEMPLATE = <<-eof
@@ -105,16 +106,27 @@ Perform Preventive Care Assessment
 Offer Creating Care Team Service
 eof
 
+PHA_INTRODUCTION_JACKSONVILLE_DESCRIPTION_TEMPLATE = <<-eof
+Send intro message to member
+
+M1: Hi [Patient], my name is [PHA name] and I'll be your Personal Health Assistant. I'm here to help you with your transition out of the hospital. I am working with your Mayo Clinic care team to transfer over your discharge plan. I will message you in the app as soon as I have it here so we can go over it together.
+eof
+
 REVIEW_MEMBER_MEALS_DESCRIPTION_TEMPLATE = <<eof
 member's goal:
 dates to review:
+eof
+
+REVIEW_DISCHARGE_PAPERS_DESCRIPTION_TEMPLATE = <<eof
+Who reviewed?
+Who double checked?
 eof
 
 # Service Types -
 ServiceType.find_or_create_by_name(name: 'other', bucket: 'other')
 
 # Insurance --
-ServiceType.find_or_create_by_name(name: 'benefit evaluation', bucket: 'insurance')
+ServiceType.find_or_create_by_name(name: 'insurance review', bucket: 'insurance')
 ServiceType.find_or_create_by_name(name: 'claims', bucket: 'insurance')
 ServiceType.upsert_attributes!({name: 'medical bill investigation'}, {bucket: 'insurance', description_template: MEDICAL_BILL_INVESTIGATION_DESCRIPTION_TEMPLATE})
 ServiceType.find_or_create_by_name(name: 'cost estimation', bucket: 'insurance')
@@ -144,6 +156,8 @@ ServiceType.upsert_attributes!({name: 'preventive care reminders'}, bucket: 'car
 ServiceType.find_or_create_by_name(name: 'urgent care and emergency room', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'prevention screenings', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'assemble care team', bucket: 'care coordination')
+ServiceType.find_or_create_by_name(name: 'care coordination call', bucket: 'care coordination')
+ServiceType.find_or_create_by_name(name: 'review discharge papers', bucket: 'care coordination', description_template: REVIEW_DISCHARGE_PAPERS_DESCRIPTION_TEMPLATE)
 
 # Engagement --
 ServiceType.upsert_attributes!({name: 'welcome call'}, {bucket: 'engagement', description_template: WELCOME_CALL_DESCRIPTION_TEMPLATE})
@@ -161,9 +175,11 @@ ServiceType.find_or_create_by_name(name: 'offer care team creation service', buc
 ServiceType.find_or_create_by_name(name: 'complete profile', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'introduction task', bucket: 'engagement')
 ServiceType.upsert_attributes!({name: 'PHA Introduction'}, {bucket: 'engagement', description_template: PHA_INTRODUCTION_DESCRIPTION_TEMPLATE})
+ServiceType.upsert_attributes!({name: 'PHA Introduction - Jacksonville'}, {bucket: 'engagement', description_template: PHA_INTRODUCTION_JACKSONVILLE_DESCRIPTION_TEMPLATE})
 ServiceType.find_or_create_by_name(name: 'check-in message', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'service and message planning', bucket: 'engagement')
 ServiceType.upsert_attributes!({name: 'review member meals'}, {bucket: 'engagement', description_template: REVIEW_MEMBER_MEALS_DESCRIPTION_TEMPLATE})
+ServiceType.find_or_create_by_name(name: 'process insurance card', bucket: 'engagement')
 ServiceType.find_or_create_by_name(name: 'other engagement', bucket: 'engagement')
 
 # Wellness --

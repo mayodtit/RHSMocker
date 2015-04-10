@@ -8,21 +8,19 @@ class UserInformation < ActiveRecord::Base
   validates :user_id, uniqueness: true
 
   after_destroy :track_destroy
-  after_create :track_create
-  after_update :track_update
+  after_create {|c| c.track_changes 'add'}
+  after_update {|c| c.track_changes 'update'}
 
-  def track_create
+  def track_changes(action)
     self.actor_id ||= Member.robot.id
-    UserChange.create! user: user, actor_id: actor_id, action: 'add', data: {informations: [user.first_name, user.last_name]}
-  end
-
-  def track_update
-    self.actor_id ||= Member.robot.id
-    UserChange.create! user: user, actor_id: actor_id, action: 'update', data: {information: [user.first_name, user.last_name]}
+    changes = self.changes
+    unless changes.empty?
+      UserChange.create! user: user, actor_id: actor_id, action: action, data: changes
+    end
   end
 
   def track_destroy
     self.actor_id ||= Member.robot.id
-    UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {informations: [user.first_name, user.last_name]}
+    UserChange.create! user: user, actor_id: actor_id, action: 'destroy', data: {user_information: self.as_json}
   end
 end

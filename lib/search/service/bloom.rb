@@ -29,8 +29,9 @@ class Search::Service::Bloom
     new_params['practice_address.state'] = params[:state] if params[:state]
     new_params['practice_address.zip'] = params[:zip] if params[:zip]
     new_params['practice_address.city'] = params[:city] if params[:city]
+    new_params['offset'] = params[:offset] if params[:offset]
+    new_params['limit'] = params[:per] if params[:per]
     new_params
-
   end
 
   def query_params(params)
@@ -39,8 +40,10 @@ class Search::Service::Bloom
     params.keys.each_with_index do |key, i|
       if key == 'practice_address.zip'
         result << "key#{i}=practice_address.zip&op#{i}=prefix" + params['practice_address.zip'].split(' ').map { |zip| "&value#{i}=#{zip}" }.join
+      elsif key == 'offset' || key == 'limit'
+        result << "#{key.to_s}=" + params[key].to_s.downcase
       else
-        result << "key#{i}=#{key.to_s}&op#{i}=prefix&value#{i}=#{params[key].to_s}"
+        result << "key#{i}=#{key.to_s}&op#{i}=prefix&value#{i}=#{params[key].to_s.downcase}"
       end
     end
     result.join('&')
@@ -66,7 +69,7 @@ class Search::Service::Bloom
     }
 
     hcp_code = get_hcp_code(record['provider_details'])
-    {
+    santized_record = {
       :first_name => prettify(record['first_name']),
       :last_name => prettify(record['last_name']),
       :npi_number => record['npi'].to_s,
@@ -80,6 +83,9 @@ class Search::Service::Bloom
       :provider_taxonomy_code => hcp_code,
       :taxonomy_classification => HCPTaxonomy.get_classification_by_hcp_code(hcp_code)
     }
+    avatar_url = User.find_by_npi_number(record['npi']).avatar_url_override if User.find_by_npi_number(record['npi'])
+    santized_record[:avatar_url] = avatar_url.to_s if avatar_url
+    santized_record
   end
 
   private

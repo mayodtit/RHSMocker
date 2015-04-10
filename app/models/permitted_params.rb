@@ -33,7 +33,8 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
                                              :npi_number,
                                              :subscription_days,
                                              :absolute_subscription_ends_at,
-                                             :skip_credit_card)
+                                             :skip_credit_card,
+                                             :skip_emails)
   end
 
   def referral_code
@@ -92,13 +93,22 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def insurance_policy
-    params.require(:insurance_policy).permit(:id, :company_name, :plan_type, :plan, :subscriber_name, :family_individual, :employer_individual, :employer_exchange,
+    params.require(:insurance_policy).permit(:id, :company_name, :plan_type, :plan, :subscriber_name, :family_individual, :employer_exchange,
                                              :group_number, :effective_date, :termination_date, :member_services_number, :authorized, :policy_member_id, :notes,
                                              :insurance_card_front_client_guid, :insurance_card_back_client_guid)
   end
 
   def service_template
     params.require(:service_template).permit(:name, :title, :description, :service_type_id, :time_estimate)
+  end
+
+  def service_template_attributes
+    params.permit(:service_template_id, :title, :description, :subject_id, :due_at, :owner_id, :service_type, :member_id, :user_facing, :service_request, :service_deliverable)
+  end
+
+  def service_attributes
+    params.require(:service).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id,
+                                    :subject_id, :service_type_id, :user_facing, :service_request, :service_deliverable)
   end
 
   def task_template

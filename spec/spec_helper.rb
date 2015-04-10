@@ -1,4 +1,6 @@
 require 'codeclimate-test-reporter'
+require 'webmock/rspec'
+require 'mandrill_mailer/offline'
 CodeClimate::TestReporter.start
 
 ENV["RAILS_ENV"] ||= 'test'
@@ -45,6 +47,7 @@ RSpec.configure do |config|
   config.before(:each) { Role.find_or_create_by_name!(:pha).id }
   config.before(:each) { Role.find_or_create_by_name!(:pha_lead).id }
   config.before(:each) { Member.robot }
+  config.before(:each) { GravatarChecker.any_instance.stub(:check_gravatar) }
 end
 
 def stub_out_analytics_methods

@@ -15,6 +15,7 @@ resource "Consults" do
 
   before do
     @nurse = Role.find_or_create_by_name 'nurse'
+    CarrierWave::Mount::Mounter.any_instance.stub(:store!)
   end
 
   describe 'existing record' do

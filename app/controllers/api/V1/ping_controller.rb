@@ -1,6 +1,4 @@
 class Api::V1::PingController < Api::V1::ABaseController
-  after_filter :store_apns_token!, if: :session_valid?
-  after_filter :store_gcm_id!, if: :session_valid?
   after_filter :store_device_information!, if: :session_valid?
   after_filter :store_user_information!, if: :session_valid?
 
@@ -28,6 +26,7 @@ class Api::V1::PingController < Api::V1::ABaseController
       metadata_hash.delete('app_store_url')
       metadata_hash.delete('nux_question_text')
       hash.merge!({metadata: metadata_hash})
+      hash.merge!({logging_level: current_session.logging_level, logging_command: current_session.logging_command}) if session_valid?
     end
 
     if ios_version_valid? || android_version_valid?
@@ -63,19 +62,27 @@ class Api::V1::PingController < Api::V1::ABaseController
     (params[:auth_token] && current_session) ? true : false
   end
 
-  def store_apns_token!
-    current_session.store_apns_token!(params[:device_token]) if params[:device_token]
-  end
-
-  def store_gcm_id!
-    current_session.store_gcm_id!(params[:android_gcm_id]) if params[:android_gcm_id]
-  end
-
   def store_device_information!
     changed_attributes = {}
 
+    if params[:device_token] && (current_session.apns_token != params[:device_token])
+      changed_attributes[:apns_token] = params[:device_token]
+    end
+
+    if params[:android_gcm_id] && (current_session.gcm_id != params[:android_gcm_id])
+      changed_attributes[:gcm_id] = params[:android_gcm_id]
+    end
+
     if params[:device_os] && (current_session.device_os != params[:device_os])
       changed_attributes[:device_os] = params[:device_os]
+    end
+
+    if params[:device_os] && (current_session.device_os != params[:device_os])
+      changed_attributes[:device_os] = params[:device_os]
+    end
+
+    if params[:device_os_version] && (current_session.device_os_version != params[:device_os_version])
+      changed_attributes[:device_os_version] = params[:device_os_version]
     end
 
     if params[:app_version] && (current_session.device_app_version != params[:app_version])
@@ -100,6 +107,10 @@ class Api::V1::PingController < Api::V1::ABaseController
 
     if params[:advertiser_id] && (current_session.advertiser_id != params[:advertiser_id])
       changed_attributes[:advertiser_id] = params[:advertiser_id]
+    end
+
+    if params[:device_model] && (current_session.device_model != params[:device_model])
+      changed_attributes[:device_model] = params[:device_model]
     end
 
     unless changed_attributes.empty?
