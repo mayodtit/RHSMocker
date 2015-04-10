@@ -95,6 +95,7 @@ RHSMocker::Application.routes.draw do
       resources :pha_profiles, only: %i(index show create update)
       get 'providers/search', to: 'providers#search'
       resources :providers, only: :index # TODO - this is deprecated; left in for users#index
+      get 'providers/:npi_number', to: 'providers#show'
       resources :provider_call_logs, only: :create
       resources :side_effects, :only => :index
       post :signup, to: 'members#create', as: :signup # TODO - deprecated!
