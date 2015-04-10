@@ -8,6 +8,7 @@ Sunspot.session = ::Sunspot::Rails::StubSessionProxy.new($original_sunspot_sessi
    contents
    diets
    ethnic_groups
+   hcp_taxonomy
    messages
    premium_onboarding
    roles
