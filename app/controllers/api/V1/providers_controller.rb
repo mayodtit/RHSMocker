@@ -12,7 +12,7 @@ class Api::V1::ProvidersController < Api::V1::ABaseController
   end
 
   def show
-    render_success provider: @provider.serializer(serializer_options)
+    show_resource @provider.serializer(serializer_options)
   end
 
   private
