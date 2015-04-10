@@ -28,7 +28,7 @@ class Api::V1::ServicesController < Api::V1::ABaseController
   end
 
   def activities
-    render_success(users: @users.serializer(shallow: true),
+    render_success(users: @users.serializer,
                    services: @user_services.serializer(shallow: true),
                    suggestions: @suggestions.serializer)
   end

@@ -126,7 +126,7 @@ resource "Services" do
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
         response[:services].to_json.should == [open_service, completed_service, abandoned_service].serializer(shallow: true).to_json
-        response[:users].to_json.should == [pha, member, relative].serializer(shallow: true).to_json
+        response[:users].to_json.should == [pha, member, relative].serializer.to_json
         response[:suggestions].to_json.should == [suggestion].serializer.to_json
       end
     end
