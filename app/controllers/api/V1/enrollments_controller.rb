@@ -13,7 +13,8 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
     @enrollment = Enrollment.create enrollment_params
     if @enrollment.errors.empty?
       if params[:enrollment][:business_on_board]
-        render_success
+        @onboarding_group? hash = {onboarding_group_id: @onboarding_group.id}: hash={}
+        render_success(hash)
         set_uout
         generate_invitation_link
         Mails::SendBusinessOnBoardInvitationEmailJob.create(@enrollment.unique_on_boarding_user_token, @link)
