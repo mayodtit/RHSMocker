@@ -1,8 +1,8 @@
 class Api::V1::EnrollmentsController < Api::V1::ABaseController
   skip_before_filter :authentication_check
   before_filter :load_enrollment!, only: %i(show update)
-  before_filter :load_referral_code, only: %i(create update)
-  before_filter :load_onboarding_group, only: %i(create update)
+  before_filter :load_referral_code, only: %i(create update on_board)
+  before_filter :load_onboarding_group, only: %i(create update on_board)
   before_filter :load_stories!, only: :on_board
 
   def show
