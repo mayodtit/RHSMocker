@@ -83,9 +83,8 @@ resource 'Enrollment' do
 
       example_request '[POST] Create Enrollment for business on_boarding users' do
         expect(status).to eq(200)
-        body = JSON.parse(response_body, symbolize_names: true)
-        expect(body[:onboarding_group_id]).to eq(onboarding_group.id)
         expect(Enrollment.count).to eq(1)
+        expect(Enrollment.first.onboarding_group_id).to eq(onboarding_group.id)
         expect(Delayed::Job.count).to eq(1)
         expect(Enrollment.last.unique_on_boarding_user_token).not_to eq(nil)
       end

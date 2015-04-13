@@ -13,8 +13,8 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
     @enrollment = Enrollment.create enrollment_params
     if @enrollment.errors.empty?
       if params[:enrollment][:business_on_board]
-        hash = @onboarding_group ? {onboarding_group_id: @onboarding_group.id} : {}
-        render_success(hash)
+        render_success
+        @enrollment.update_attributes(onboarding_group_id: @onboarding_group.id) if @onboarding_group
         set_uout
         generate_invitation_link
         Mails::SendBusinessOnBoardInvitationEmailJob.create(@enrollment.unique_on_boarding_user_token, @link)
@@ -60,6 +60,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
     elsif obj.is_a? Enrollment
       @hash.merge!(sign_up_story:sign_up_story,
                    enrollment: obj.serializer)
+      @hash.merge!(hide_referral_code: true) if @onboarding_group
       render_success(@hash)
       obj.update_attributes(unique_on_boarding_user_token: nil)
     else
