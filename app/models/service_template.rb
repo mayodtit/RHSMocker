@@ -21,7 +21,8 @@ class ServiceTemplate < ActiveRecord::Base
       assignor: attributes[:assignor] || attributes[:creator],
       actor_id: attributes[:creator] && attributes[:creator].id,
       user_facing: attributes[:user_facing] || user_facing,
-      service_request: attributes[:service_request]
+      service_request: attributes[:service_request],
+      pubsub_client_id: attributes[:pubsub_client_id]
     )
     service.create_next_ordinal_tasks
     service

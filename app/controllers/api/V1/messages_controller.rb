@@ -14,7 +14,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     @message = @consult.messages.create(message_attributes)
     if @message.errors.empty?
       @message = Message.find(@message.id) # force reload of CarrierWave image url
-      render_success(message: @message.serializer, messages: messages.serializer)
+      render_success(message: @message.serializer, messages: messages.serializer, entry: @message.entry.serializer)
     else
       render_failure({reason: @message.errors.full_messages.to_sentence}, 422)
     end

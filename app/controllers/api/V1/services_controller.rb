@@ -14,7 +14,7 @@ class Api::V1::ServicesController < Api::V1::ABaseController
     authorize! :create, Service
     if @service_template
       @service = @service_template.create_service! create_params
-      render_success(service: @service.serializer)
+      render_success(service: @service.serializer, entry: @service.entry.serializer)
     else
       create_resource Service, create_params
     end

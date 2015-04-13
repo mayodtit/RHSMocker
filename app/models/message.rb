@@ -9,6 +9,7 @@ class Message < ActiveRecord::Base
   belongs_to :phone_call_summary, inverse_of: :message
   belongs_to :user_image, inverse_of: :messages
   has_many :message_statuses
+  has_one :entry, as: :resource
   attr_accessor :no_notification, :pubsub_client_id
 
   attr_accessible :user, :user_id, :consult, :consult_id, :content,

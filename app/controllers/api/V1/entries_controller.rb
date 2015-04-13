@@ -10,7 +10,7 @@ class Api::V1::EntriesController < Api::V1::ABaseController
   private
 
   def entries
-    base_entries_with_pagination
+    base_entries_with_pagination.includes(:member).sort_by(&:id)
   end
 
   def base_entries_with_pagination
@@ -22,10 +22,10 @@ class Api::V1::EntriesController < Api::V1::ABaseController
   end
 
   def base_entries_scopes
-    if params[:before]
-      @entries.where('id < ?', params[:before]).order('id DESC')
+    if params[:last_message_date]
+      @entries.where('created_at > ?', Time.parse(params[:last_message_date]))
     else
-      @entries.order('id DESC')
+      @entries.order('id DESC').before(params[:before]).after(params[:after])
     end
   end
 
@@ -43,8 +43,7 @@ class Api::V1::EntriesController < Api::V1::ABaseController
 
   def load_entries!
     authorize! :read, Entry
-    @entries = @member.entries.order('created_at ASC')
+    @entries = @member.entries
     @total_count_per_user = @entries.count
   end
-
 end
