@@ -7,7 +7,8 @@ RHSMocker::Application.routes.draw do
       resources :agreements, only: [:index, :show] do
         get :current, on: :collection
       end
-      resources :allergies, :only => :index
+      resources :allergies, :only => :index #DEPRECATED FOR NOW
+      get 'allergies/search', to: 'allergies#search'
       resources :association_types, :only => :index
       resources :associations, only: [] do
         get :permission, on: :member, to: 'permissions#show'
@@ -24,6 +25,7 @@ RHSMocker::Application.routes.draw do
       resources :diets, :only => :index
       resources :cards, :only => [:show, :update]
       resources :conditions, :only => :index
+      get 'conditions/search', to: 'conditions#search'
       resources :consults, only: %i(index show create) do
         get :current, on: :collection
         resources :messages, only: %i(index create) do
@@ -155,6 +157,7 @@ RHSMocker::Application.routes.draw do
         resources :scheduled_communications, only: %i(index show update destroy)
         resources :scheduled_messages, except: %i(new edit)
         put :secure_update, on: :member, to: 'members#secure_update'
+        resources :services, only: %i(index create)
         resources :subscriptions, only: [:index, :create] do
           delete :destroy, :on => :collection
           put :update, :on => :collection
@@ -185,7 +188,9 @@ RHSMocker::Application.routes.draw do
         get 'queue', on: :collection
         get 'current', on: :collection
       end
-      resources :services, only: [:show, :update]
+      resources :services, only: [:index, :show, :update] do
+        get 'activities', on: :collection
+      end
       resources :metrics, only: [:index] do
         get :inbound, on: :collection
         get :inbound_by_week, on: :collection
@@ -198,7 +203,11 @@ RHSMocker::Application.routes.draw do
       end
       resources :service_templates, only: [:index, :create, :show]
       resources :task_templates, only: [:show, :create]
-      resources :validate_email, :only => :index 
+      resources :domains, only: :index do
+        get :all_domains, on: :collection
+        get :submit, on: :collection
+        get :suggest, on: :collection
+      end
     end
   end
 

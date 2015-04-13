@@ -99,17 +99,17 @@ namespace :seeds do
 
       u.user_conditions.destroy_all
       u.user_conditions.create(:condition_id => 1,
-                             :start_date => Date.parse('18/6/2013'),
-                             :being_treated => true,
-                             :diagnosed => true,
-                             :diagnoser_id => d.id,
-                             :diagnosed_date => Time.parse('20/6/2013'))
+                               :start_date => Date.parse('18/6/2013'),
+                               :being_treated => true,
+                               :diagnosed => true,
+                               :diagnoser_id => d.id,
+                               :diagnosed_date => Time.parse('20/6/2013'))
 
       u.user_treatments.destroy_all
       u.user_treatments.create(:treatment_id => 10,
-                                       :doctor_id => d.id,
-                                       :prescribed_by_doctor => true,
-                                       :start_date => Date.parse('22/6/2013'))
+                               :doctor_id => d.id,
+                               :prescribed_by_doctor => true,
+                               :start_date => Date.parse('22/6/2013'))
     end
   end
 
@@ -414,15 +414,15 @@ namespace :seeds do
     PHA_LEADS = %w(kyle@getbetter.com emilio@getbetter.com neel@getbetter.com)
     PHA_LEADS.each do |email|
       m = Member.find_or_create_by_email!(
-          email: email,
-          user_agreements_attributes: user_agreements_attributes
+        email: email,
+        user_agreements_attributes: user_agreements_attributes
       )
 
       m.update_attributes!(
-          password: 'careportal',
-          password_confirmation: 'careportal',
-          first_name: email[/[^@]+/].capitalize,
-          last_name: LAST_NAMES.sample,
+        password: 'careportal',
+        password_confirmation: 'careportal',
+        first_name: email[/[^@]+/].capitalize,
+        last_name: LAST_NAMES.sample,
       )
 
       m.add_role :pha unless m.pha?
@@ -552,6 +552,96 @@ namespace :seeds do
     end
   end
 
+  desc "add markdown messages to a test account."
+  task :add_markdown => :environment do
+    markdown_message_one = <<-EOT
+Hi Kim, I've found you a few highly rated Primary Care Physicians who are close to home, accepting new patients and take your insurance. Here are the details:
+
+[Dr. Mark B Braunstein](http://doctor.webmd.com/doctor/mark-braunstein-md-b1081742-1e00-4523-abf3-28c6b295ca21-overview)
+Address: 4849 Van Nuys Blvd Ste 105, Sherman Oaks ([map](https://www.google.com/maps/search/4849+Van+Nuys+Blvd+Ste+105,+Sherman+Oaks))
+Phone: (818) 905-9586
+Reviews: [HealthGrades](http://www.healthgrades.com/physician/dr-mark-braunstein-x4lnx), [Vitals](http://www.vitals.com/doctors/Dr_Mark_Braunstein/profile), [Yelp](http://www.yelp.com/biz/mark-braunstein-md-sherman-oaks-2), [Yahoo](https://local.yahoo.com/info-20678324-braunstein-mark-md-braunstein-mark-md-sherman-oaks)
+**Next appt: Mid March**
+
+[Dr. Arash D Matian](http://www.primecarela.com/about.html)
+Address: 13425 Ventura Blvd Ste 102, Sherman Oaks ([map](https://www.google.com/maps/search/13425+Ventura+Blvd+Ste+102,+Sherman+Oaks))
+Phone: (818) 995-7784
+Reviews: [HealthGrades](http://www.healthgrades.com/physician/dr-arash-matian-y59jh), [Vitals](http://www.vitals.com/doctors/Dr_Arash_Matian/profile), [Yelp](http://www.yelp.com/biz/prime-care-physicians-sherman-oaks)
+**Next appt: Mid March**
+
+[Dr. Gary S Schneider](http://doctor.webmd.com/doctor/gary-schneider-do-d230d6d4-bed0-412d-a1c7-d408f17f6bda-overview)
+Address: 4849 Van Nuys Blvd Ste 105, Sherman Oaks ([map](https://www.google.com/maps/search/4849+Van+Nuys+Blvd+Ste+105,+Sherman+Oaks))
+Phone: (818) 905-9586
+Reviews: [HealthGrades](http://www.healthgrades.com/physician/dr-gary-schneider-36gpg), [Vitals](http://www.vitals.com/doctors/Dr_Gary_Schneider/profile), [Yelp](http://www.yelp.com/biz/schneider-gary-do-inc-sherman-oaks)
+**Next appt: Mid April**
+
+Let me know which one looks like a good fit for you and I'll book an appointment!
+    EOT
+
+    markdown_message_two = <<-EOT
+# H1 heading
+
+1. my list of items that will wrap in the line and use paragraph formatting to keep it all pretty!
+1. Another list item
+1. Another list item
+1. Another list item
+1. Another list item
+1. Another list item
+1. Another list item
+1. Another list item
+1. Another list item
+1. Another list item with another long bunch of stuff that wraps to the next line
+
+## H2 Heading
+
+Here's a link: [Linky](http://www.google.com) <- Link
+
+Italic *here* but the rest of the line should be non italic.
+Bold **here**
+
+List follows:
++ First thing that you need to do is make sure of something
++ Second **bold** thing here and itâ€™s got a lot of stuff to say about the list
++ The last thing goes here
+
+My phone: 650-887-3711
+    EOT
+    m = Member.find_or_create_by_email!(email: 'test+markdown@getbetter.com',
+                                        user_agreements_attributes: user_agreements_attributes)
+    m.sign_up if m.invited?
+    puts 'Member test+markdown@getbetter.com created' if Member.find(m.id)
+    message_one = m.master_consult.messages.create! user: m, text: markdown_message_one
+    message_two = m.master_consult.messages.create! user: m, text: markdown_message_two
+    puts 'test markdown message is created' if Message.find(message_one.id) && Message.find(message_two.id)
+  end
+
+  desc "Adds 50 various services to a Member's account"
+  task :add_services, [:user_email] => :environment do |t, args|
+    m = Member.find_or_create_by_email!(email: args[:user_email] || "test+services@getbetter.com",
+                                        password: "password",
+                                        user_agreements_attributes: user_agreements_attributes)
+    m.sign_up if m.invited?
+    if m.pha
+      pha = m.pha
+    else
+      pha = Member.find_or_create_by_email!(email: 'test+pha@getbetter.com',
+                                            user_agreements_attributes: user_agreements_attributes)
+      pha.add_role :pha
+      m.update_attributes(pha: pha)
+    end
+    if m.services.where(state: 'open').count == 25 && m.services.where(state: 'completed').count == 25
+      puts "25 in-progress and 25 completed services are created for user with email: #{m.email}"
+      next
+    end
+    m.services.destroy_all
+    service_type = ServiceType.find_or_create_by_name(name: 'member completes goal', bucket: 'wellness')
+    25.times do |i|
+      m.services.create( title: "open+#{i}", member: m, subject: m, creator: pha, assignor: pha, owner: pha, service_type_id: service_type.id)
+      m.services.create( title: "completed+#{i}", member: m, subject: m, creator: pha, owner: pha, assignor: pha, service_type_id: service_type.id).complete!
+    end
+    puts "25 in-progress and 25 completed services are created for user with email: #{m.email}"
+  end
+
   desc "Adds a system message to a Member's account."
   task :add_system_message, [:user_id] => :environment do |t, args|
     puts "Finding member #{args[:user_id]}"
@@ -677,15 +767,15 @@ namespace :seeds do
 
     welcome_call = ScheduledPhoneCall.create! scheduled_at: time.utc
     welcome_call.update_attributes!(
-        state_event: :assign,
-        assignor: Member.robot,
-        owner: pha
+      state_event: :assign,
+      assignor: Member.robot,
+      owner: pha
     )
     welcome_call.update_attributes!(
-        state_event: :book,
-        booker: user,
-        user: user,
-        callback_phone_number: "1234567890"
+      state_event: :book,
+      booker: user,
+      user: user,
+      callback_phone_number: "1234567890"
     )
     puts welcome_call.id
   end
@@ -705,17 +795,270 @@ namespace :seeds do
     zip.each_with_index { |zipcode, index|
       begin
         Proximity.find_or_create_by_zip_and_city!(zip[index],city[index]) do |loc|
-            loc.state = state[index]
-            loc.county = county[index]
-            loc.latitude = latitude[index]
-            loc.longitude = longitude[index]
+          loc.state = state[index]
+          loc.county = county[index]
+          loc.latitude = latitude[index]
+          loc.longitude = longitude[index]
         end
-        print '.'
-        puts 'Processed ',index, 'records' if index % 5000 == 0
+        print "\r#{index} records processed"
       rescue
         puts "Error adding, ", zipcode
       end
     }
-    puts "Database populated"
+    puts "\nDatabase populated"
+  end
+
+  desc "Seed common email domains"
+  task :domain => :environment do
+    MAILCHECK_DOMAINS.each do |domain|
+      Domain.create!(email_domain: domain)
+    end
+  end
+
+  # Looks at Allergies table and updates entries from db/seeds/allergies.rb by adding description or concept ids
+  task :update_allergies_table => :environment do
+    require 'open-uri'
+    require 'json'
+    total = 0
+    # fix allergies that require manual fix
+    if Allergy.all.size > 140
+      al = Allergy.find_by_name('Sulfonamides')
+      al.snomed_code = '835357010'
+      al.save
+      al = Allergy.find_by_name('Simvastatin')
+      al.snomed_code = '690031018'
+      al.save
+      al = Allergy.find_by_name('Wheat')
+      al.snomed_code = '2575121014'
+      al.save
+      al = Allergy.find_by_name('Scorpion Sting')
+      al.snomed_code = '2645985010'
+      al.save
+    end
+
+    # update allergies using snomed_code
+    Allergy.all.each do |al|
+      concept_id = al.snomed_code
+      base_url = ENV['SNOMED_SEARCH_URL']
+
+      url = base_url + 'concepts/' + concept_id.to_s
+      uri = URI.parse(url)
+      resp = uri.read
+
+      if resp.include? 'Concept not found'
+        desc_id = al.snomed_code
+        url = base_url + 'descriptions/' + desc_id.to_s
+        uri = URI.parse(url)
+        resp = uri.read
+        json_resp = JSON.parse(resp)
+
+        total += 1
+        concept_id = json_resp["matches"][0]["conceptId"]
+        term = filter_term(json_resp["matches"][0]["term"])
+        puts "#{al.name} ?= #{term.capitalize}"
+        al.name = term.capitalize
+        store_terms(al, concept_id, desc_id) unless json_resp['matches'].size == 0
+      else
+        json_resp = JSON.parse(resp)
+        match = match_name(al.name, json_resp)
+        if match.nil?
+          total += 1
+          term = filter_term(json_resp['descriptions'][0]['term'])
+          puts "#{al.name} ?= #{term.capitalize}"
+          al.name = term.capitalize
+          store_terms(al, concept_id, json_resp['descriptions'][0]['descriptionId']) 
+        else
+          store_terms(al, concept_id, match) 
+        end
+      end
+    end
+    puts "TOTAL CHANGED: #{total}"
+
+    remove_duplicates('allergies')
+  end
+
+  def filter_term(term)
+    term = term.downcase
+    term.slice!('(disorder)') if term.include? ('(disorder)')
+    term.slice!('allergy to ') if term.include? ('allergy to ')
+    term.slice!('allergy') if term.include? ('allergy') 
+    term = term.strip
+    term
+  end
+
+  # Finds the description id of an term with by exact match
+  def match_name(name, resp)
+    resp['descriptions'].each{ |o|
+      term = filter_term(o['term'])
+      name = name.downcase
+      return o['descriptionId'] if term == name.downcase
+    }
+    return nil
+  end
+
+  # Looks at Conditions table and updates entries from db/seeds/conditions.rb by adding description or concept ids
+  task :update_conditions_table => :environment do
+    require 'open-uri'
+    require 'json'
+    failed = 0
+    base_url = ENV['SNOMED_SEARCH_URL']
+    counter = 0
+    Condition.all.each do |c|
+      counter += 1
+      print "\r#{counter} "
+      desc_id = c.snomed_code.to_s
+      url = base_url + 'descriptions/' + desc_id
+      uri = URI.parse(url)
+      json0 = JSON.parse(uri.read)['matches'][0]
+
+      # check if snomed_code is description id
+      if json0 && json0['term'] == c.name
+        found = true
+        store_terms(c, json0['conceptId'], desc_id)
+      else
+      # check if snomed_code is concept id
+        concept_id = json0 ? json0['conceptId'] : desc_id
+        url = base_url + 'concepts/' + concept_id
+        uri = URI.parse(url)
+        json = JSON.parse(uri.read)
+        found = false
+        json['descriptions'].each do |concept|
+          if concept['term'] == c.name
+            store_terms(c, concept_id, concept['descriptionId'].to_s)
+            found = true
+            break
+          end
+        end
+      end
+
+      # reassign name if id did not match with name in the snomed database
+      if !found && json0
+        puts "#{desc_id} = #{json0['term']}, original name: #{c.name}" 
+        concept_id = json0['conceptId']
+        c.name = json0['term']
+        store_terms(c, concept_id, desc_id)
+        found = true
+      end
+
+      if !found
+        failed += 1
+        puts "Error @ id = #{desc_id}, name = #{c.name}"
+      end
+    end
+    puts "TOTAL FAILED #{failed}"
+
+    # manually fix conditions that could not be fixed by the script
+    if failed != 0
+      configure_condition(41, '64766004', '107644019', 'Ulcerative colitis')
+      configure_condition(48, '35489007', '486184015', 'Depression')
+      configure_condition(77, '13644009', '475418015', 'Hypercholesterolaemia')
+      configure_condition(93, '235595009', '353135014', 'Gastroesophageal reflux disease')
+      configure_condition(98, '414916001', '2535065012', 'Obesity')
+      configure_condition(153, '44054006', '197761014', 'Type 2 diabetes mellitus')
+      configure_condition(154, '40930008', '492839019', 'Hypothyroid')
+      configure_condition(177, '302866003', '444844011', 'Hypoglycaemia')
+    end
+
+    # remove the duplicate entries
+    remove_duplicates('conditions')
+  end
+
+  def configure_condition(id, cid, did, cname)
+    condition = Condition.find_by_id(id)
+    name = condition.name
+    condition.name = cname
+    condition.description_id = did
+    condition.concept_id = cid
+    puts "#{condition.description_id} = #{condition.name}, original name: #{name}" 
+    condition.save
+  end
+
+  # Populates database using SNOMED api, filters out most synonyms
+  task :populate_allergies_from_snomed => :environment do
+    require 'open-uri'
+    base_url = ENV['SNOMED_SEARCH_URL']
+    puts "Terms parsed: "
+    (0..34).each do |i|
+      skip_counter = i * 100
+
+      query = "descriptions?query=allergy&searchMode=partialMatching&lang=english&statusFilter=activeOnly&skipTo=#{
+      skip_counter}&returnLimit=100&semanticFilter=disorder&normalize=true"
+      url = base_url + query
+      uri = URI.parse(url)
+      resp = uri.read
+      matches = JSON.parse(resp)['matches']
+
+      matches.each do |match|
+        term = match['term']
+
+        unless term.include? '(disorder)'
+          desc_id = match['descriptionId']
+          term = filter_term(match['term'])
+          term = term.capitalize
+          Allergy.find_or_create_by_name(term) do |al|
+            name = term.split(' ')
+            al.description_id = desc_id
+            al.concept_id = match['conceptId']
+            al.snomed_name = match['fsn']
+          end
+        end
+        print "\r#{skip_counter}"
+        skip_counter += 1
+      end
+    end
+  end
+
+  # Updates and saves SNOMED entries that were seeded
+  def store_terms(obj, cid, did)
+    obj.concept_id = cid
+    obj.description_id = did
+    obj.save
+  end
+
+  def remove_duplicates(type)
+    require 'set'
+    unique_conditions = {}
+    set = Set.new
+    type == 'conditions' ? conditions = Condition.all : conditions = Allergy.all
+
+    # first stage: find unique conditions
+    conditions.each do |condition|
+      desc_id = condition[:description_id]
+      if desc_id != nil && !set.include?(desc_id)
+        set << desc_id          
+        unique_conditions[desc_id] = condition[:id]
+      end
+    end
+
+    # second stage: relink existing users
+    duplicate_set = Set.new
+
+    conditions.each do |condition|
+      desc_id = condition[:description_id]
+      cond_id = condition[:id]
+      unique_cond_id = unique_conditions[desc_id]
+
+      if unique_cond_id != cond_id && desc_id != nil
+        duplicate_set << cond_id
+        type == 'conditions' ? user_conditions = UserCondition.find_all_by_condition_id(cond_id) : user_conditions = UserAllergy.find_all_by_allergy_id(cond_id)
+
+        user_conditions.each do |uc|
+          if type == 'conditions'
+            uc[:condition_id] = unique_cond_id
+            puts "#{uc.id} == #{uc[:condition_id]}"
+          else
+            uc[:allergy_id] = unique_cond_id
+            puts "#{uc.id} == #{uc[:allergy_id]}"
+          end
+          uc.destroy unless uc.save
+        end
+      end
+    end 
+    
+    # third stage: delete useless conditions
+    duplicate_set.each do |id|
+      type == 'conditions' ? Condition.find_by_id(id).destroy : Allergy.find_by_id(id).destroy
+      puts "#{id} is removed"
+    end
   end
 end

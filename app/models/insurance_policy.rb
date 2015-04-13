@@ -17,7 +17,7 @@ class InsurancePolicy < ActiveRecord::Base
   validates :insurance_card_front, presence: true, if: ->(ip){ip.insurance_card_front_id}
   validates :insurance_card_back, presence: true, if: ->(ip){ip.insurance_card_back_id}
 
-  before_validation :attach_user_image, if: ->(ip){ip.insurance_card_front_client_guid || ip.insurance_card_back_client_guid}, on: :create
+  before_validation :attach_user_image, if: ->(ip){ip.insurance_card_front_client_guid || ip.insurance_card_back_client_guid}
   after_create :create_tasks
 
   private

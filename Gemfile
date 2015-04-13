@@ -108,3 +108,6 @@ gem 'roo'
 gem 'mail'
 gem 'mailcheck'
 gem 'valid_email', require: 'valid_email/validate_email'       # library for email validation
+gem 'travis', require: false
+gem 'acts_as_commentable', '3.0.1'
+gem 'gravtastic'

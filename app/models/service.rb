@@ -1,6 +1,9 @@
 class Service < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
 
+  OPEN_STATES = %w(open waiting)
+  CLOSED_STATES = %w(completed abandoned)
+
   belongs_to :service_type
   belongs_to :service_template
 
@@ -10,23 +13,45 @@ class Service < ActiveRecord::Base
   belongs_to :creator, class_name: 'Member'
   belongs_to :owner, class_name: 'Member'
   belongs_to :assignor, class_name: 'Member'
+  belongs_to :abandoner, class_name: 'Member'
 
   has_many :service_state_transitions
   has_many :tasks, order: 'service_ordinal ASC, priority DESC, due_at ASC, created_at ASC'
   has_many :service_changes, order: 'created_at DESC'
 
   attr_accessor :actor_id, :change_tracked, :reason
-  attr_accessible :description, :title, :service_type_id, :service_type,
-                  :member_id, :member, :subject_id, :subject, :reason_abandoned,
+  attr_accessible :description, :title, :service_type_id, :service_type, :user_facing, :service_request, :service_deliverable,
+                  :member_id, :member, :subject_id, :subject, :reason_abandoned, :reason, :abandoner, :abandoner_id,
                   :creator_id, :creator, :owner_id, :owner, :assignor_id, :assignor,
-                  :actor_id, :due_at, :state_event, :service_template, :service_template_id
+                  :actor_id, :due_at, :state_event, :service_template, :service_template_id, :service_update
 
   validates :title, :service_type, :state, :member, :creator, :owner, :assignor, :assigned_at, presence: true
+  validates :user_facing, :inclusion => { :in => [true, false] }
   validates :service_template, presence: true, if: lambda { |s| s.service_template_id.present? }
-
   before_validation :set_assigned_at
 
   after_commit :track_update, on: :update
+  after_commit :publish
+
+  def open?
+    (OPEN_STATES.include? state)
+  end
+
+  def self.open_state
+    where(state: OPEN_STATES)
+  end
+
+  def self.closed_state
+    where(state: CLOSED_STATES)
+  end
+
+  def publish
+    if id_changed?
+      PubSub.publish "/members/#{member_id}/subjects/#{subject_id}/services/new", {id: id}
+    else
+      PubSub.publish "/members/#{member_id}/subjects/#{subject_id}/services/update", {id: id}
+    end
+  end
 
   def set_assigned_at
     if owner_id_changed?
@@ -35,11 +60,13 @@ class Service < ActiveRecord::Base
   end
 
   def create_next_ordinal_tasks(current_ordinal = -1, last_due_at = Time.now)
-    return unless service_template && tasks.open_state.empty?
+    return unless open? && service_template && tasks.open_state.empty?
     if next_ordinal = next_ordinal(current_ordinal)
       service_template.task_templates.where(service_ordinal: next_ordinal).each do |task_template|
         task_template.create_task!(service: self, start_at: service_template.timed_service? ? last_due_at : Time.now, assignor: assignor)
       end
+    else
+      self.complete!
     end
   end
 
@@ -50,6 +77,10 @@ class Service < ActiveRecord::Base
 
   state_machine :initial => :open do
     store_audit_trail to: 'ServiceChange', context_to_log: %i(actor_id data reason)
+
+    event :wait do
+      transition any => :waiting
+    end
 
     event :reopen do
       transition any => :open
@@ -69,6 +100,20 @@ class Service < ActiveRecord::Base
 
     before_transition any - :abandoned => :abandoned do |service|
       service.abandoned_at = Time.now
+    end
+
+    after_transition any - :completed => :completed do |service|
+      Task.where(service_id: service.id).each do |task|
+        task.complete!
+      end
+    end
+
+    after_transition any - :abandoned => :abandoned do |service|
+      Task.where(service_id: service.id).each do |task|
+        task.abandoner = service.abandoner
+        task.reason = service.reason
+        task.abandon!
+      end
     end
 
     after_transition any => any do |service|

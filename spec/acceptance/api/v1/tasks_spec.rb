@@ -5,23 +5,8 @@ resource "Tasks" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  before do
-    ViewTaskTask.stub(:create_task_for_task)
-  end
-
-  let!(:pha) { create(:pha) }
+  let(:pha) { create(:pha) }
   let(:session) { pha.sessions.create }
-  let!(:other_pha) { create(:pha) }
-  let!(:task) { create(:member_task) }
-  let!(:another_task) { create(:member_task) }
-  let!(:one_more_task) { create(:member_task) }
-
-  let!(:assigned_task) { create(:member_task, :assigned) }
-  let!(:started_task) { create(:member_task, :started) }
-  let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
-  let!(:completed_task) { create(:member_task, :completed) }
-  let!(:abandoned_task) { create(:member_task, :abandoned) }
-
   let(:auth_token) { session.auth_token }
 
   describe 'tasks' do
@@ -31,15 +16,16 @@ resource "Tasks" do
 
     required_parameters :auth_token
 
-    let(:auth_token) { session.auth_token }
-    let(:state) { 'unstarted' }
+    let!(:task) { create(:member_task) }
+    let!(:another_task) { create(:member_task) }
+    let!(:assigned_task) { create(:member_task, :assigned) }
 
     get '/api/v1/tasks/' do
       example_request '[GET] Get all tasks' do
         explanation 'Get all tasks (along with the member\'s information), most recent first. Accessible only by HCPs'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        response[:tasks].to_json.should == [task, another_task, one_more_task, assigned_task].serializer(shallow: true).to_json
+        response[:tasks].to_json.should == [task, another_task, assigned_task].serializer(shallow: true).to_json
       end
     end
   end
@@ -47,12 +33,11 @@ resource "Tasks" do
   describe 'queue' do
     let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago) }
     let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 2.days.ago) }
+    let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
 
     parameter :auth_token, 'Performing hcp\'s auth_token'
 
     required_parameters :auth_token
-
-    let(:auth_token) { session.auth_token }
 
     get '/api/v1/tasks/queue' do
       example_request '[GET] Get the tasks queue for the current user' do
@@ -71,7 +56,7 @@ resource "Tasks" do
 
     required_parameters :auth_token, :id
 
-    let(:auth_token) { session.auth_token }
+    let(:task) { create(:member_task) }
     let(:id) { task.id }
 
     get '/api/v1/tasks/:id' do
@@ -89,7 +74,7 @@ resource "Tasks" do
 
     required_parameters :auth_token
 
-    let(:auth_token) { session.auth_token }
+    let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
 
     get '/api/v1/tasks/current' do
       example_request '[GET] Get the current claimed task of the pha.' do
@@ -111,11 +96,12 @@ resource "Tasks" do
     required_parameters :auth_token, :id
     scope_parameters :task, [:state_event, :owner_id, :reason]
 
-    let(:auth_token) { session.auth_token }
+    let(:task) { create(:member_task) }
+    let(:state_event) {'abandon'}
     let(:id) { task.id }
-    let(:state_event) { 'abandon' }
     let(:owner_id) { other_pha.id }
     let(:reason) { 'unreachable' }
+    let(:other_pha) { create(:pha) }
 
     let(:raw_post) { params.to_json }
 
@@ -130,7 +116,7 @@ resource "Tasks" do
         task_change = TaskChange.last
         task_change.task.should == task
         task_change.reason.should == 'unreachable'
-        response[:task].to_json.should == task.serializer.to_json
+        response[:task].to_json.should == task.reload.serializer.to_json
       end
     end
   end

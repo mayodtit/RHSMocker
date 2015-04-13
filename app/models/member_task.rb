@@ -1,5 +1,6 @@
 class MemberTask < Task
   include ActiveModel::ForbiddenAttributesProtection
+  PRIORITY = 3
 
   belongs_to :subject, class_name: 'User'
 
@@ -8,6 +9,10 @@ class MemberTask < Task
   validates :member, presence: true
   validates :subject, presence: true
   validates :service_type, presence: true
+
+  def set_priority
+    self.priority = PRIORITY
+  end
 
   def publish
     super

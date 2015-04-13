@@ -116,11 +116,11 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def generate_invitation_link
     if Rails.env.development?
-      @link = "better-dev://nb?cmd='onboarding'+uout='#{@member.unique_on_boarding_user_token}'"
+      @link = "better-dev://nb?cmd=onBoarding&uout=#{@member.unique_on_boarding_user_token}"
     elsif Rails.env.production?
-      @link = "better://nb?cmd='onboarding'+uout='#{@member.unique_on_boarding_user_token}"
+      @link = "better://nb?cmd=onBoarding&uout=#{@member.unique_on_boarding_user_token}"
     elsif Rails.env.qa?
-      @link = "better-qa://nb?cmd='onboarding'+uout='#{@member.unique_on_boarding_user_token}'"
+      @link = "better-qa://nb?cmd=onBoarding&uout=#{@member.unique_on_boarding_user_token}"
     end
   end
 
@@ -257,8 +257,8 @@ class Api::V1::MembersController < Api::V1::ABaseController
   end
 
   MAYO_PILOT_2_TASK_DESCRIPTION = <<-eof
-Check if you've been assigned a "Review Discharge Plan and save information" task from Paul/Meg
-Follow up with Paul/Meg if there is no task.
-Follow "What to do if No Discharge Received" (https://betterpha.squarespace.com/config#/|/stroke-resources/) if you have not been assigned a review discharge form task for patient within 24 hours
+1. Check if you've been assigned a "Review Discharge Plan and save information" task from Paul/Meg
+2. Follow up with Paul/Meg if there is no task.
+3. Follow "What to do if No Discharge Received" (https://betterpha.squarespace.com/config#/|/stroke-resources/) if you have not been assigned a review discharge form task for patient within 24 hours
   eof
 end

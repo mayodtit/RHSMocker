@@ -5,9 +5,10 @@ resource 'Conditions' do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  let!(:condition) { create(:condition) }
+  
 
   get '/api/v1/conditions' do
+    let!(:condition) { create(:condition) }
     example_request '[GET] Get all Conditions' do
       explanation 'Returns an array of Conditions'
       status.should == 200
@@ -24,12 +25,34 @@ resource 'Conditions' do
       required_parameters :q
       let(:q) { condition.name.split(' ').first }
 
-      example_request "[GET] Search Conditions with query string" do
-        explanation "Returns an array of Conditions retrieved by Solr"
+      example_request "[GET] Search Conditions with query string. [DEPRECATED]" do
+        explanation "Returns an array of Conditions retrieved by Solr.  Please use api/v1/conditons/search instead"
         status.should == 200
         body = JSON.parse(response_body, :symbolize_names => true)
         body[:conditions].map{|d| d[:id]}.should include(condition.id)
       end
+    end
+  end
+
+  get '/api/v1/conditions/search' do
+    let!(:condition) { create(:condition,
+      name: "Influenza A (H1N1)",
+      snomed_code: "442696006",
+      snomed_name: "Influenza due to Influenza A virus subtype H1N1 (disorder)",
+      concept_id: "442696006",
+      description_id: "2820794017"
+    ) }
+    let(:q)   { 'H1' }
+
+    before(:each) do
+      Condition.stub_chain(:search, :results).and_return([condition])
+    end
+
+    example_request '[GET] Query SNOMED database' do
+      explanation 'Returns an array of conditions that match the query.'
+      status.should == 200
+      body = JSON.parse(response_body, :symbolize_names => true)
+      body[:conditions].map{|d| d[:id]}.should include(condition.id)
     end
   end
 end
