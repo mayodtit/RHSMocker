@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150410194305) do
+ActiveRecord::Schema.define(:version => 20150411001500) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -312,14 +312,14 @@ ActiveRecord::Schema.define(:version => 20150410194305) do
   end
 
   create_table "discounts", :force => true do |t|
-    t.integer  "referral_code_id",                                :null => false
-    t.integer  "user_id",                                         :null => false
-    t.boolean  "referrer",                                        :null => false
+    t.integer  "referral_code_id",                               :null => false
+    t.integer  "user_id",                                        :null => false
+    t.boolean  "referrer",                                       :null => false
     t.datetime "redeemed_at"
-    t.datetime "created_at",                                      :null => false
-    t.datetime "updated_at",                                      :null => false
+    t.datetime "created_at",                                     :null => false
+    t.datetime "updated_at",                                     :null => false
     t.string   "invoice_item_id"
-    t.decimal  "discount_percent", :precision => 10, :scale => 0, :null => false
+    t.decimal  "discount_percent", :precision => 2, :scale => 1, :null => false
     t.integer  "referee_id"
   end
 
