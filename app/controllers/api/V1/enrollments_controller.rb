@@ -13,7 +13,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
     @enrollment = Enrollment.create enrollment_params
     if @enrollment.errors.empty?
       if params[:enrollment][:business_on_board]
-        @onboarding_group? hash = {onboarding_group_id: @onboarding_group.id}: hash={}
+        hash = @onboarding_group ? {onboarding_group_id: @onboarding_group.id} : {}
         render_success(hash)
         set_uout
         generate_invitation_link
