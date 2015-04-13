@@ -1,7 +1,8 @@
 class UpdateStripeSubscriptionService
-  def initialize(user, plan_id)
+  def initialize(user, plan_id, coupon=nil)
     @user = user
     @plan_id = plan_id
+    @coupon = coupon
   end
 
   def call
@@ -50,6 +51,7 @@ class UpdateStripeSubscriptionService
     load_subscription!
     @subscription.plan = @plan_id
     @subscription.prorate = true
+    @subscription.coupon = @coupon if @coupon
     @subscription.save
   end
 
