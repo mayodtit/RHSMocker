@@ -24,7 +24,8 @@ describe 'Enrollments' do
       end
 
       context 'the user is not existing' do
-        let!(:enrollment){create(:enrollment, unique_on_boarding_user_token: unique_on_boarding_user_token)}
+        let(:onboarding_group) {create(:onboarding_group)}
+        let!(:enrollment){create(:enrollment, unique_on_boarding_user_token: unique_on_boarding_user_token, onboarding_group_id: onboarding_group.id)}
 
         before do
           user.destroy
@@ -35,6 +36,7 @@ describe 'Enrollments' do
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
           expect(body[:stories]).to_not be_empty
+          expect(body[:hide_referral_code]).to eq(true)
         end
       end
     end
