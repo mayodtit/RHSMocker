@@ -46,7 +46,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
 
   def update
     begin
-      if UpdateStripeSubscriptionService.new(@user, subscription_attributes[:plan]).call
+      if UpdateStripeSubscriptionService.new(@user, subscription_attributes[:plan], available_coupon).call
         render_success ({ subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first })
       else
         render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
@@ -98,13 +98,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
         attributes.merge!(trial_end: 1.month.from_now.pacific.end_of_day.to_i)
       end
 
-      if @user.onboarding_group.try(:mayo_pilot?)
-        attributes.merge!(coupon: '50PERCENT')
-      elsif birthday_sale? && single_yearly?(plan_id)
-        attributes.merge!(coupon: '2015BIRTHDAY_SINGLE')
-      elsif birthday_sale? && family_yearly?(plan_id)
-        attributes.merge!(coupon: '2015BIRTHDAY_FAMILY')
-      end
+      attributes.merge!(coupon: available_coupon) if available_coupon
     end
   end
 
@@ -140,5 +134,15 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
 
   def family_yearly?(plan_id)
     'bpYRFamily480' == plan_id
+  end
+
+  def available_coupon
+    if @user.onboarding_group.try(:mayo_pilot?)
+      '50PERCENT'
+    elsif birthday_sale? && single_yearly?(plan_id)
+      '2015BIRTHDAY_SINGLE'
+    elsif birthday_sale? && family_yearly?(plan_id)
+      '2015BIRTHDAY_FAMILY'
+    end
   end
 end
