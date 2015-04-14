@@ -29,11 +29,11 @@ StripeEvent.configure do |events|
 
   events.subscribe 'charge.succeeded' do |event|
     SetDelinquentStatus.new(event).call
-    GrantReferrerCreditWhenRefereePay.new(event).assign_coupon
+    GrantReferrerCreditWhenRefereePayService.new(event).call
   end
 
   events.subscribe 'invoice.created' do |event|
-    GrantReferrerCreditWhenRefereePay.new(event).apply_coupon
+    RedeemDiscountService.new(event).call
   end
 
   events.subscribe 'invoice.payment_succeeded' do |event|
