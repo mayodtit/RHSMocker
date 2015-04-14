@@ -54,4 +54,22 @@ describe Api::V1::ProvidersController do
       end
     end
   end
+
+  describe 'GET show' do
+    def do_request
+      get :show
+    end
+
+    it_behaves_like 'action requiring authentication'
+
+    context 'authenticated', user: :authenticate! do
+      it_behaves_like 'success'
+
+      it 'returns provider from the database' do
+        do_request
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:provider].to_json).to eq([user].serializer(include_nested_information: true, include_roles: true).as_json.to_json)
+      end
+    end
+  end
 end
