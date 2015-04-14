@@ -53,10 +53,21 @@ describe Session do
 
     context 'member is a pha' do
       let!(:pha) {create :pha}
-      let!(:pha_session) { create :session, member: pha }
 
-      it 'sets disabled_at to 15 minutes from now' do
-        expect(pha_session.disabled_at).to eq 15.minutes.from_now
+      context 'member is logging in from care portal' do
+        let!(:pha_cp_session) { create :session, member: pha, device_os: nil }
+
+        it 'sets disabled_at to 15 minutes from now' do
+          expect(pha_cp_session.disabled_at).to eq 15.minutes.from_now
+        end
+      end
+
+      context 'member is logging in from mobile device' do
+        let!(:pha_mobile_session) { create :session, member: pha, device_os: 'iOS' }
+
+        it 'should not set disabled_at' do
+          expect(pha_mobile_session.disabled_at).to be_nil
+        end
       end
     end
 
