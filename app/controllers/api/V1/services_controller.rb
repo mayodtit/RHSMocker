@@ -94,6 +94,7 @@ class Api::V1::ServicesController < Api::V1::ABaseController
     @users << current_user.pha if current_user.pha
     @user_services.each do |s|
       @users << s.subject
+      @users << s.owner
     end
     @users = @users.uniq
   end
