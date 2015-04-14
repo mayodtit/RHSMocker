@@ -33,7 +33,7 @@ StripeEvent.configure do |events|
   end
 
   events.subscribe 'invoice.created' do |event|
-    RedeemDiscountService.new(event).call
+    RedeemDiscountService.new(event: event).call
   end
 
   events.subscribe 'invoice.payment_succeeded' do |event|

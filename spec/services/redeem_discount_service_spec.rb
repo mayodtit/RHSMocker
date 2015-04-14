@@ -31,8 +31,9 @@ describe 'RedeemDiscountService' do
     end
 
     def do_method
-      event = StripeMock.mock_webhook_event('invoice.created', {customer: referrer.stripe_customer_id})
-      RedeemDiscountService.new(event).call
+      invoice = Stripe::Invoice.create
+      event = StripeMock.mock_webhook_event('invoice.created', {id: invoice.id, customer: referrer.stripe_customer_id})
+      RedeemDiscountService.new(event: event, status: :recurring).call
     end
 
     it 'should create an invoice item to deduct the discount amount' do

@@ -48,7 +48,7 @@ class UpdateStripeSubscriptionService
   end
 
   def upgrade_subscription
-    redeem_coupon
+    RedeemDiscountService.new(status: :first, customer: @customer, member: @user).call
     load_subscription!
     @subscription.plan = @plan_id
     @subscription.prorate = true
@@ -56,7 +56,7 @@ class UpdateStripeSubscriptionService
   end
 
   def downgrade_subscription
-    redeem_coupon
+    RedeemDiscountService.new(status: :first, customer: @customer, member: @user).call
     load_subscription!
     @subscription.plan = @plan_id
     @subscription.prorate = false
@@ -64,25 +64,4 @@ class UpdateStripeSubscriptionService
     @run_at = DateTime.strptime(@subscription.current_period_end.to_s, '%s')
   end
   handle_asynchronously :downgrade_subscription, :run_at => Proc.new { |subs|subs.when_to_run }
-
-  def redeem_coupon
-    member_discount_record = @user.discounts.find_by_redeemed_at(nil)
-    if member_discount_record
-      plan = Stripe::Plan.retrieve(@plan_id)
-      monthly_plan_amount = (plan.interval == 'year') ? plan.amount/12 : plan.amount
-      discount_amount = String(monthly_plan_amount * (member_discount_record.discount_percent)).to_i
-      if invoice_item = Stripe::InvoiceItem.create(:customer => @customer,
-                                                   :amount => -discount_amount,
-                                                   :currency => "usd",
-                                                   :description => "Referral Discount")
-        member_discount_record.update_attributes(invoice_item_id: invoice_item.id, redeemed_at: Time.now)
-        if member_discount_record.referrer
-          referee = User.find(member_discount_record.referee_id)
-          Mails::ConfirmDiscountReceivedJob.create(@user.id, referee.id)
-        else
-          "need to update with another email template"
-        end
-      end
-    end
-  end
 end

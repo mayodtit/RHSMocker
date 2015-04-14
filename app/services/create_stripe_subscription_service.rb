@@ -4,7 +4,6 @@ class CreateStripeSubscriptionService
     @plan_id = options[:plan_id]
     @credit_card_token = options[:credit_card_token]
     @trial_end = options[:trial_end]
-    @coupon_code = options[:coupon_code]
   end
 
   def call
@@ -50,7 +49,6 @@ class CreateStripeSubscriptionService
 
   def create_stripe_subscription!
     @customer.subscriptions.create(plan: @plan_id,
-                                   trial_end: @trial_end.try(:to_i),
-                                   coupon: @coupon_code)
+                                   trial_end: @trial_end.try(:to_i))
   end
 end
