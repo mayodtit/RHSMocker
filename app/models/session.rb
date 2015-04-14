@@ -15,8 +15,8 @@ class Session < ActiveRecord::Base
   before_create :set_disabled_at
 
   def set_disabled_at
-    if self.member.pha? && !self.device_os
-      self.disabled_at = 15.minutes.from_now
+    if member.pha? && !device_os
+      self.disabled_at ||= 15.minutes.from_now
     end
   end
 
