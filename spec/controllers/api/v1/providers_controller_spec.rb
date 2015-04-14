@@ -17,6 +17,7 @@ describe Api::V1::ProvidersController do
   before do
     controller.stub(current_ability: ability)
     Search::Service.any_instance.stub(query: [provider])
+    User.stub(find_by_npi_number: [provider])
   end
 
   describe 'GET index' do
@@ -68,7 +69,7 @@ describe Api::V1::ProvidersController do
       it 'returns provider from the database' do
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:provider].to_json).to eq([user].serializer(include_nested_information: true, include_roles: true).as_json.to_json)
+        expect(body[:provider].to_json).to eq([provider].serializer.as_json.to_json)
       end
     end
   end
