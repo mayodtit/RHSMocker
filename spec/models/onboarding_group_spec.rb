@@ -35,7 +35,7 @@ describe OnboardingGroup do
       expect(onboarding_group.free_trial_ends_at).to be_nil
     end
 
-    it 'returns an absolute date if supplied' do
+    it 'returns an absolute date if supplied without free_trial_days' do
       onboarding_group.assign_attributes(premium: true, absolute_free_trial_ends_at: Time.now)
       expect(onboarding_group.free_trial_ends_at).to eq(Time.now)
     end
@@ -48,6 +48,18 @@ describe OnboardingGroup do
     it 'returns nil otherwise' do
       onboarding_group.assign_attributes(premium: true)
       expect(onboarding_group.free_trial_ends_at).to be_nil
+    end
+
+    context 'with both free_trial_days and absolute_free_trial_ends_at' do
+      it 'returns free_trial_days when calculated day is smaller' do
+        onboarding_group.assign_attributes(premium: true, free_trial_days: 1, absolute_free_trial_ends_at: 3.days.from_now)
+        expect(onboarding_group.free_trial_ends_at).to eq(Time.now.pacific.end_of_day + 1.day)
+      end
+
+      it 'returns absolute_free_trial_ends_at when calculated day is larger' do
+        onboarding_group.assign_attributes(premium: true, free_trial_days: 3, absolute_free_trial_ends_at: 1.day.from_now)
+        expect(onboarding_group.free_trial_ends_at).to eq(1.day.from_now)
+      end
     end
   end
 end

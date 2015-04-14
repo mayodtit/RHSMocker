@@ -19,7 +19,7 @@ class Api::V1::PlansController < Api::V1::ABaseController
     @available_plans = []
     stripe_subscriptions = Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions if @user.stripe_customer_id
     @active_plans.each do |plan|
-      if (stripe_subscriptions) && ( stripe_subscriptions.count > 0)
+      if (stripe_subscriptions) && ( stripe_subscriptions.count > 0) && (!stripe_subscriptions.first.cancel_at_period_end)
         @available_plans << StripeExtension.plan_serializer(plan, current_user) if plan.amount > stripe_subscriptions.data[0].plan.amount
       else
         @available_plans << StripeExtension.plan_serializer(plan, current_user)

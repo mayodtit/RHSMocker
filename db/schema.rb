@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150403231517) do
+ActiveRecord::Schema.define(:version => 20150410192220) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -941,15 +941,18 @@ ActiveRecord::Schema.define(:version => 20150403231517) do
   add_index "service_state_transitions", ["service_id"], :name => "index_service_state_transitions_on_service_id"
 
   create_table "service_templates", :force => true do |t|
-    t.string   "name",                               :null => false
-    t.string   "title",                              :null => false
+    t.string   "name",                                      :null => false
+    t.string   "title",                                     :null => false
     t.text     "description"
-    t.integer  "service_type_id",                    :null => false
+    t.integer  "service_type_id",                           :null => false
     t.integer  "time_estimate"
-    t.datetime "created_at",                         :null => false
-    t.datetime "updated_at",                         :null => false
-    t.boolean  "timed_service",   :default => false, :null => false
-    t.boolean  "user_facing",     :default => false, :null => false
+    t.datetime "created_at",                                :null => false
+    t.datetime "updated_at",                                :null => false
+    t.boolean  "timed_service",          :default => false, :null => false
+    t.boolean  "user_facing",            :default => false, :null => false
+    t.text     "suggestion_description"
+    t.text     "suggestion_message"
+    t.text     "service_update"
   end
 
   add_index "service_templates", ["service_type_id"], :name => "index_service_templates_on_service_type_id"
@@ -987,6 +990,7 @@ ActiveRecord::Schema.define(:version => 20150403231517) do
     t.boolean  "user_facing",         :default => false, :null => false
     t.text     "service_request"
     t.text     "service_deliverable"
+    t.text     "service_update"
   end
 
   add_index "services", ["assignor_id"], :name => "index_services_on_assignor_id"
@@ -1040,6 +1044,13 @@ ActiveRecord::Schema.define(:version => 20150403231517) do
     t.integer  "owner_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "suggested_services", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "service_template_id"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
   end
 
   create_table "symptom_medical_advice_items", :force => true do |t|
@@ -1468,6 +1479,7 @@ ActiveRecord::Schema.define(:version => 20150403231517) do
     t.integer  "impersonated_user_id"
     t.integer  "coupon_count",                                  :default => 0,     :null => false
     t.string   "unique_on_boarding_user_token"
+    t.boolean  "delinquent"
   end
 
   add_index "users", ["email", "member_flag"], :name => "index_users_on_email_and_member_flag", :unique => true

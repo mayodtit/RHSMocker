@@ -50,6 +50,7 @@ class Member < User
   belongs_to :onboarding_group, inverse_of: :users
   belongs_to :referral_code, inverse_of: :users
   has_many :user_requests, foreign_key: :user_id
+  has_many :suggested_services, foreign_key: :user_id
   has_many :outbound_scheduled_communications, class_name: 'ScheduledCommunication',
                                                foreign_key: :sender_id,
                                                inverse_of: :sender
@@ -84,7 +85,7 @@ class Member < User
                   :cached_notifications_enabled, :email_confirmed,
                   :email_confirmation_token, :advertiser_id,
                   :advertiser_media_source, :advertiser_campaign,
-                  :impersonated_user, :impersonated_user_id,
+                  :impersonated_user, :impersonated_user_id,:delinquent,
                   :enrollment, :payment_token, :coupon_count, :unique_on_boarding_user_token
 
   validates :unique_on_boarding_user_token, uniqueness: true, allow_nil: true
@@ -106,6 +107,7 @@ class Member < User
   validates :nux_answer, presence: true, if: -> (m) { m.nux_answer_id }
   validates :email_confirmation_token, presence: true, unless: ->(m){m.email_confirmed?}
 
+  before_create :set_delinquent_to_false
   before_validation :set_member_flag
   before_validation :set_default_email_confirmed, on: :create
   before_validation :set_email_confirmation_token, unless: ->(m){m.email_confirmed?}
@@ -123,6 +125,7 @@ class Member < User
   after_create :add_onboarding_group_provider
   after_create :add_onboarding_group_cards
   after_create :add_onboarding_group_programs
+  after_create :add_gravatar
   after_save :alert_stakeholders_on_call_status
   after_save :update_referring_scheduled_communications, if: ->(m){m.free_trial_ends_at_changed?}
 
@@ -268,6 +271,13 @@ class Member < User
 
   def member
     self
+  end
+
+  def add_gravatar
+    if self.avatar_url_override.nil? || self.avatar_url_override.include?('https://secure.gravatar.com/avatar')
+      self.avatar_url_override = GravatarChecker.new(email).check_gravatar
+      self.save
+    end
   end
 
   def terms_of_service_and_privacy_policy
@@ -534,5 +544,10 @@ class Member < User
         rsc.update_publish_at_from_calculation!
       end
     end
+  end
+
+  def set_delinquent_to_false
+    self.delinquent = false
+    nil
   end
 end

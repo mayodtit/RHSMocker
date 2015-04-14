@@ -155,6 +155,66 @@ describe 'Associations' do
           expect(response).to be_success
         end
       end
+
+      context 'with an NPI number' do
+        context 'with an existing NPI user' do
+          let(:npi_number) { '1234567890' }
+          let!(:provider) { create(:member, :chamath, npi_number: npi_number) }
+
+          it 'creates an association' do
+            expect{ do_request(association: {associate: {npi_number: npi_number}}) }.to change(Association, :count).by(1)
+            expect(response).to be_success
+            body = JSON.parse(response.body, symbolize_names: true)
+            association = Association.find(body[:association][:id])
+            expect(body[:association].to_json).to eq(association.serializer(scope: user).as_json.to_json)
+            expect(association.user).to eq(user)
+          end
+        end
+
+        context 'without an existing provider' do
+          let(:npi_number) { '1588730618' }
+          let(:search_results) {
+            {
+              :first_name => "Jeffrey",
+              :last_name => "Croke",
+              :npi_number => "1588730618",
+              :address => {
+                :address => "795 El Camino Real",
+                :address2 => nil,
+                :city => "Palo Alto",
+                :state => "CA",
+                :postal_code => "943012302",
+                :country_code => nil,
+                :phone => "6503214121",
+                :fax => nil
+              },
+              :city => "Palo Alto",
+              :state => "CA",
+              :phone => "6503214121",
+              :expertise => "M.D.",
+              :gender => "male",
+              :healthcare_taxonomy_code => "207R00000X",
+              :provider_taxonomy_code => "207R00000X",
+              :taxonomy_classification => nil
+            }
+          }
+
+          before do
+            Search::Service.any_instance.stub(find: search_results)
+          end
+
+          it 'creates an association and provider from results' do
+            expect{ do_request(association: {associate: {npi_number: npi_number}}) }.to change(Association, :count).by(1)
+            expect(response).to be_success
+            body = JSON.parse(response.body, symbolize_names: true)
+            association = Association.find(body[:association][:id])
+            expect(body[:association].to_json).to eq(association.serializer(scope: user).as_json.to_json)
+            expect(association.user).to eq(user)
+            expect(association.associate.npi_number).to eq(npi_number)
+            expect(association.associate.addresses.count).to eq(1)
+          end
+        end
+      end
     end
 
     context 'for a third party' do

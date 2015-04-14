@@ -58,6 +58,14 @@ class Ability
       (o.message && o.message.consult && can?(:manage, o.message.consult))
     end
 
+    can :read, Service do |o|
+      user.id == o.member_id
+    end
+
+    can :read, SuggestedService do |o|
+      user.id == o.user_id
+    end
+
     cannot :manage, Program
     cannot :manage, CustomCard
     cannot :index, Member

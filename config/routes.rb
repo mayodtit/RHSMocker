@@ -188,7 +188,9 @@ RHSMocker::Application.routes.draw do
         get 'queue', on: :collection
         get 'current', on: :collection
       end
-      resources :services, only: [:show, :update]
+      resources :services, only: [:index, :show, :update] do
+        get 'activities', on: :collection
+      end
       resources :metrics, only: [:index] do
         get :inbound, on: :collection
         get :inbound_by_week, on: :collection

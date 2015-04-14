@@ -170,4 +170,8 @@ class ScheduledJobs
       end
     end
   end
+
+  def self.update_gravatar
+    User.find_each{|u| u.add_gravatar}
+  end
 end

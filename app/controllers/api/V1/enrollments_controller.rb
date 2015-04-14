@@ -59,6 +59,7 @@ class Api::V1::EnrollmentsController < Api::V1::ABaseController
     elsif obj.is_a? Enrollment
       @hash.merge!(sign_up_story:sign_up_story,
                    enrollment: obj.serializer)
+      @hash.merge!(hide_referral_code: true) if obj.onboarding_group
       render_success(@hash)
       obj.update_attributes(unique_on_boarding_user_token: nil)
     else

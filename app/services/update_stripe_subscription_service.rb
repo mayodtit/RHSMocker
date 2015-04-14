@@ -1,7 +1,8 @@
 class UpdateStripeSubscriptionService
-  def initialize(user, plan_id)
+  def initialize(user, plan_id, coupon=nil)
     @user = user
     @plan_id = plan_id
+    @coupon = coupon
   end
 
   def call
@@ -10,6 +11,11 @@ class UpdateStripeSubscriptionService
     else
       downgrade_subscription
     end
+  end
+
+  def when_to_run
+    load_subscription!
+    DateTime.strptime(@subscription.current_period_end.to_s, '%s')
   end
 
   private
@@ -45,6 +51,7 @@ class UpdateStripeSubscriptionService
     load_subscription!
     @subscription.plan = @plan_id
     @subscription.prorate = true
+    @subscription.coupon = @coupon if @coupon
     @subscription.save
   end
 
@@ -53,8 +60,7 @@ class UpdateStripeSubscriptionService
     @subscription.plan = @plan_id
     @subscription.prorate = false
     @subscription.save
-    @run_at = @subscription.current_period_end
+    @run_at = DateTime.strptime(@subscription.current_period_end.to_s, '%s')
   end
-
-  handle_asynchronously :downgrade_subscription, :run_at => Proc.new { @run_at }
+  handle_asynchronously :downgrade_subscription, :run_at => Proc.new { |subs|subs.when_to_run }
 end

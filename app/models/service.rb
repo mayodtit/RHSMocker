@@ -1,7 +1,8 @@
 class Service < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
 
-  OPEN_STATES = %w(completed abandoned)
+  OPEN_STATES = %w(open waiting)
+  CLOSED_STATES = %w(completed abandoned)
 
   belongs_to :service_type
   belongs_to :service_template
@@ -22,7 +23,7 @@ class Service < ActiveRecord::Base
   attr_accessible :description, :title, :service_type_id, :service_type, :user_facing, :service_request, :service_deliverable,
                   :member_id, :member, :subject_id, :subject, :reason_abandoned, :reason, :abandoner, :abandoner_id,
                   :creator_id, :creator, :owner_id, :owner, :assignor_id, :assignor,
-                  :actor_id, :due_at, :state_event, :service_template, :service_template_id
+                  :actor_id, :due_at, :state_event, :service_template, :service_template_id, :service_update
 
   validates :title, :service_type, :state, :member, :creator, :owner, :assignor, :assigned_at, presence: true
   validates :user_facing, :inclusion => { :in => [true, false] }
@@ -33,7 +34,15 @@ class Service < ActiveRecord::Base
   after_commit :publish
 
   def open?
-    !(OPEN_STATES.include? state)
+    (OPEN_STATES.include? state)
+  end
+
+  def self.open_state
+    where(state: OPEN_STATES)
+  end
+
+  def self.closed_state
+    where(state: CLOSED_STATES)
   end
 
   def publish

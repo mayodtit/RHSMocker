@@ -1,8 +1,10 @@
 class ServiceTemplate < ActiveRecord::Base
   belongs_to :service_type
   has_many :task_templates
+  has_many :suggested_services
 
-  attr_accessible :name, :title, :description, :service_type_id, :service_type, :time_estimate, :timed_service, :user_facing
+  attr_accessible :name, :title, :description, :service_type_id, :service_type, :time_estimate, :timed_service,
+                  :user_facing, :suggestion_description, :suggestion_message, :service_update
 
   validates :name, :title, :service_type, presence: true
   validates :user_facing, :inclusion => { :in => [true, false] }
@@ -21,7 +23,8 @@ class ServiceTemplate < ActiveRecord::Base
       assignor: attributes[:assignor] || attributes[:creator],
       actor_id: attributes[:creator] && attributes[:creator].id,
       user_facing: attributes[:user_facing] || user_facing,
-      service_request: attributes[:service_request]
+      service_request: attributes[:service_request],
+      service_update: attributes[:service_update] || service_update
     )
     service.create_next_ordinal_tasks
     service
