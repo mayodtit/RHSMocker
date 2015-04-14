@@ -18,6 +18,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
           render_success({user: @user.serializer,
                           subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first})
           Mails::ConfirmSubscriptionChangeJob.create(@user.id, subscription)
+          RedeemDiscountService.new(status: :first, customer: @customer, member: @user).call
         else
           render_failure({reason: 'Error occurred while adding subscription',
                           user_message: 'Error occurred while adding subscription'}, 422)
