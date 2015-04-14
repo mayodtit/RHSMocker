@@ -22,11 +22,7 @@ class Api::V1::EntriesController < Api::V1::ABaseController
   end
 
   def base_entries_scopes
-    if params[:last_message_date]
-      @entries.where('created_at > ?', Time.parse(params[:last_message_date]))
-    else
-      @entries.order('id DESC').before(params[:before]).after(params[:after])
-    end
+    @entries.order('id DESC').before(params[:before]).after(params[:after])
   end
 
   def page_number
