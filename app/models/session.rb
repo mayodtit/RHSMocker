@@ -12,7 +12,7 @@ class Session < ActiveRecord::Base
 
   before_validation :set_auth_token
   before_destroy :unset_notification_tokens
-  after_commit :set_disabled_at, on: :create
+  before_create :set_disabled_at
 
   def set_disabled_at
     if self.member.pha? && !self.device_os
