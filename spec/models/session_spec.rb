@@ -41,4 +41,32 @@ describe Session do
       end
     end
   end
+
+  describe '#set_disabled_at' do
+    before do
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
+    context 'member is a pha' do
+      let!(:pha) {create :pha}
+      let!(:pha_session) { create :session, member: pha }
+
+      it 'sets disabled_at to 15 minutes from now' do
+        expect(pha_session.disabled_at).to eq 15.minutes.from_now
+      end
+    end
+
+    context 'member is not a pha' do
+      let(:member) { build_stubbed :member }
+      let!(:member_session) { create :session, member: member }
+
+      it 'should not set disabled_at' do
+        expect(member_session.disabled_at).to be_nil
+      end
+    end
+  end
 end

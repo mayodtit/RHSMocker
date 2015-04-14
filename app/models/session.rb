@@ -12,6 +12,13 @@ class Session < ActiveRecord::Base
 
   before_validation :set_auth_token
   before_destroy :unset_notification_tokens
+  after_commit :set_disabled_at, on: :create
+
+  def set_disabled_at
+    if self.member.pha?
+      self.disabled_at = 15.minutes.from_now
+    end
+  end
 
   private
 
