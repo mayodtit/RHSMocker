@@ -12,7 +12,11 @@ class Api::V1::ProvidersController < Api::V1::ABaseController
   end
 
   def show
-    show_resource @provider.serializer(serializer_options)
+    if @provider.is_a?(User)
+      show_resource @provider.serializer(serializer_options)
+    else
+      show_resource @provider
+    end
   end
 
   private
@@ -30,7 +34,7 @@ class Api::V1::ProvidersController < Api::V1::ABaseController
   end
 
   def load_provider!
-    @provider = User.find_by_npi_number(params[:npi_number])
+    @provider = User.find_by_npi_number(params[:npi_number]) || search_service.find(params)
   end
 
   def search_service
