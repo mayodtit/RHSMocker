@@ -51,4 +51,3 @@ describe 'RedeemDiscountService' do
     end
   end
 end
-
