@@ -4,6 +4,8 @@ class StripeExtension
   def self.plan_serializer(stripe_plan, user=nil)
     if user.try(:onboarding_group).try(:mayo_pilot?)
       price = stripe_plan[:metadata][:mayo_pilot_display_price] || "$#{stripe_plan[:price].to_f/100}/month"
+    elsif birthday_sale? && yearly_plan?(stripe_plan)
+      price = stripe_plan[:metadata][:birthday_display_price] || "$#{stripe_plan[:price].to_f/100}/month"
     else
       price = stripe_plan[:metadata][:display_price] || "$#{stripe_plan[:price].to_f/100}/month"
     end
@@ -37,5 +39,13 @@ class StripeExtension
   def self.subscriber_emails(limit = 100)
     puts "Note: this only lists the first 100 customers.  Pagination magic required if/when we have more than that"
     Stripe::Customer.all(limit: limit).map{|c| c.email if c.subscriptions.count != 0}.compact
+  end
+
+  def self.birthday_sale?
+    Time.now > Time.parse('2015-04-13 00:00:00 -0700') && Time.now < Time.parse('2015-05-02 00:00:00 -0700')
+  end
+
+  def self.yearly_plan?(plan)
+    'bpYRSingle192' == plan[:id] || 'bpYRFamily480' == plan[:id]
   end
 end

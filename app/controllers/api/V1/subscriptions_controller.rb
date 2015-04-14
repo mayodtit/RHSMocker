@@ -46,7 +46,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
 
   def update
     begin
-      if UpdateStripeSubscriptionService.new(@user, subscription_attributes[:plan]).call
+      if UpdateStripeSubscriptionService.new(@user, subscription_attributes[:plan], available_coupon).call
         render_success ({ subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first })
       else
         render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
@@ -91,14 +91,19 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
   end
 
   def subscription_attributes
-    {plan: params.require(:subscription).require(:plan_id)}.tap do |attributes|
+    {plan: plan_id}.tap do |attributes|
       if @user.free_trial_ends_at && (@user.free_trial_ends_at.end_of_day > Time.zone.now.end_of_day)
         attributes.merge!(trial_end: @user.free_trial_ends_at.to_i) if @user.free_trial_ends_at
       elsif @user.new_user?
         attributes.merge!(trial_end: 1.month.from_now.pacific.end_of_day.to_i)
       end
-      attributes.merge!(coupon: '50PERCENT') if @user.onboarding_group.try(:mayo_pilot?)
+
+      attributes.merge!(coupon: available_coupon) if available_coupon
     end
+  end
+
+  def plan_id
+    params.require(:subscription).require(:plan_id)
   end
 
   def user_attributes
@@ -108,5 +113,27 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
       subscription_ends_at: nil,
       actor_id: current_user.id
     }
+  end
+
+  def birthday_sale?
+    Time.now > Time.parse('2015-04-13 00:00:00 -0700') && Time.now < Time.parse('2015-05-02 00:00:00 -0700')
+  end
+
+  def single_yearly?(plan_id)
+    'bpYRSingle192' == plan_id
+  end
+
+  def family_yearly?(plan_id)
+    'bpYRFamily480' == plan_id
+  end
+
+  def available_coupon
+    if @user.onboarding_group.try(:mayo_pilot?)
+      '50PERCENT'
+    elsif birthday_sale? && single_yearly?(plan_id)
+      '2015BIRTHDAY_SINGLE'
+    elsif birthday_sale? && family_yearly?(plan_id)
+      '2015BIRTHDAY_FAMILY'
+    end
   end
 end
