@@ -15,11 +15,23 @@ class Api::V1::ProvidersController < Api::V1::ABaseController
     if @provider.is_a?(User)
       show_resource @provider.serializer(serializer_options)
     else
-      show_resource @provider
+      user = User.create!(user_attributes)
+      user.addresses.create!(address_attributes)
+      show_resource user.serializer(serializer_options)
     end
   end
 
   private
+
+  def user_attributes
+    @provider.except(:address, :state, :healthcare_taxonomy_code, :taxonomy_classification)
+  end
+
+  def address_attributes
+  {
+    address: @provider[:address][:address], address2: @provider[:address][:address2], city: @provider[:address][:city], state: @provider[:address][:state], postal_code: @provider[:address][:postal_code]
+  }
+  end
 
   def load_providers!
     # remove whitespace from params
