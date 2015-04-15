@@ -30,25 +30,48 @@ describe 'RedeemDiscountService' do
       StripeMock.stop
     end
 
-    def do_method
-      invoice = Stripe::Invoice.create
-      event = StripeMock.mock_webhook_event('invoice.created', {id: invoice.id, customer: referrer.stripe_customer_id})
-      RedeemDiscountService.new(event: event, status: :recurring).call
+    context "for recurring invoices" do
+      def do_method
+        invoice = Stripe::Invoice.create
+        event = StripeMock.mock_webhook_event('invoice.created', {id: invoice.id, customer: referrer.stripe_customer_id})
+        RedeemDiscountService.new(event: event, status: :recurring).call
+      end
+
+      it 'should create an invoice item to deduct the discount amount' do
+        do_method
+        expect(Stripe::InvoiceItem.all.last.amount).to eq(-19200)
+      end
+
+      it 'should time stamp the redeemed_at for the user' do
+        do_method
+        expect(referrer.reload.discounts.last.redeemed_at).not_to eq(nil)
+      end
+
+      it 'should send a confirmation email to user' do
+        do_method
+        expect(Delayed::Job.count).to eq(1)
+      end
     end
 
-    it 'should create an invoice item to deduct the discount amount' do
-      do_method
-      expect(Stripe::InvoiceItem.all.last.amount).to eq(-19200)
-    end
+    context "for first or updated invoices" do
+      def do_method
+        RedeemDiscountService.new(member: referrer, status: :first, customer: Stripe::Customer.retrieve(referrer.stripe_customer_id)).call
+      end
 
-    it 'should time stamp the redeemed_at for the user' do
-      do_method
-      expect(referrer.reload.discounts.last.redeemed_at).not_to eq(nil)
-    end
+      it 'should create an invoice item to deduct the discount amount' do
+        do_method
+        expect(Stripe::InvoiceItem.all.last.amount).to eq(-19200)
+      end
 
-    it 'should send a confirmation email to user' do
-      do_method
-      expect(Delayed::Job.count).to eq(1)
+      it 'should time stamp the redeemed_at for the user' do
+        do_method
+        expect(referrer.reload.discounts.last.redeemed_at).not_to eq(nil)
+      end
+
+      it 'should send a confirmation email to user' do
+        do_method
+        expect(Delayed::Job.count).to eq(1)
+      end
     end
   end
 end
