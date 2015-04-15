@@ -810,9 +810,7 @@ My phone: 650-887-3711
 
   desc "Seed common email domains"
   task :domain => :environment do
-    MAILCHECK_DOMAINS.each do |domain|
-      Domain.create(email_domain: domain)
-    end
+    Domain.seed_domains
   end
 
   # Looks at Allergies table and updates entries from db/seeds/allergies.rb by adding description or concept ids
