@@ -26,7 +26,7 @@ class ServiceTemplate < ActiveRecord::Base
       service_request: attributes[:service_request],
       service_update: attributes[:service_update] || service_update
     )
-    service.create_next_ordinal_tasks
+    service.create_next_ordinal_tasks 
     service
   end
 end

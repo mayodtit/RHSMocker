@@ -5,12 +5,21 @@ class Entry < ActiveRecord::Base
   serialize :data, Hash
 
   validates :member, :resource, presence: true
-
-  attr_accessible :resource, :resource_id, :member, :member_id, :resource_type, :actor, :actor_id, :data
+  attr_accessor :pubsub_client_id
+  attr_accessible :resource, :resource_id, :member, :member_id, :resource_type, :actor, :actor_id, :data, :pubsub_client_id
 
   after_commit :publish, on: :create
 
   def publish
-    PubSub.publish "/members/#{member.id}/timeline/entries/new", {id: id}
+    PubSub.publish "/members/#{member.id}/timeline/entries/new", {id: id}, pubsub_client_id
   end
+
+  def self.before(id=nil)
+    id ? where('id < ?', id) : scoped
+  end
+
+  def self.after(id=nil)
+    id ? where('id > ?', id) : scoped
+  end
+
 end

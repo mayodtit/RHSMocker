@@ -24,6 +24,7 @@ describe Api::V1::ServicesController do
   describe 'POST create' do
     let(:service_template) {build_stubbed :service_template}
     let(:service) {build_stubbed :service, assigned_at: Time.now}
+    let(:entry) {build_stubbed :entry}
 
     def do_request
       post :create, service_template_id: service_template.id, auth_token: session.auth_token
@@ -32,6 +33,7 @@ describe Api::V1::ServicesController do
     before(:each) do
       ServiceTemplate.stub(:find) {service_template}
       service_template.stub(:create_service!) { service }
+      service.stub(:entry) { entry }
     end
 
     it_behaves_like 'action requiring authentication and authorization'

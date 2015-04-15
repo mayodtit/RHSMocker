@@ -26,7 +26,12 @@ class Api::V1::MemberTasksController < Api::V1::ABaseController
     attributes[:assignor_id] = current_user.id if attributes[:owner_id].present?
     attributes[:actor_id] = current_user.id
 
-    create_resource MemberTask, attributes.merge(member_id: @member.id), name: :task
+    @member_task = MemberTask.create(attributes.merge(member_id: @member.id))
+    if @member_task.errors.empty?
+      render_success(task: @member_task.serializer, entry: @member_task.entry.serializer)
+    else
+      render_failure({reason: @member_task.errors.full_messages.to_sentence}, 422)
+    end
   end
 
   private
