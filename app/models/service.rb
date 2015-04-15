@@ -30,6 +30,8 @@ class Service < ActiveRecord::Base
   validates :service_template, presence: true, if: lambda { |s| s.service_template_id.present? }
   before_validation :set_assigned_at
 
+  after_create :create_next_ordinal_tasks
+
   after_commit :track_update, on: :update
   after_commit :publish
 
