@@ -97,6 +97,10 @@ class User < ActiveRecord::Base
     end
   end
 
+  def self.with_birthday_on(date=Date.today)
+    select{|u| u.birth_date.nil? ? false : u.birth_date.day == date.day && u.birth_date.month == date.month}
+  end
+
   def full_name
     if last_name.present?
       if first_name.present?

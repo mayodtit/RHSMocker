@@ -176,6 +176,19 @@ class ScheduledJobs
   end
 
   def self.birthday_notification
-    User.where('birth_date = ?', Date.today).each{|u| u.birthday_notify}
+    message_box = {}
+    User.with_birthday_on.each{|u|
+      u.owner.nil? ? c = nil : c = u.owner.master_consult
+      unless c.nil?
+        message_box.include?(u.owner.id) ? message_box[u.owner.id].push(u.id) : message_box[u.owner.id] = [u.id]
+      end
+    }
+    message_box.each{|owner,g|
+      if g.count>1
+        c.messages.create(:user => Member.robot, :text => "Better wishes a Jappy Birdday to "+ User.select{|u| g.include? u.id}.map(&:first_name).to_sentence)
+      else
+        (g[0]==owner) ? c.messages.create(:user => Member.robot, :text => [g[0].first_name, ", Jappy Birdday from Better."].join) : c.messages.create(:user => Member.robot, :text => "Jappy Birdday to "+ g[0].first_name)
+      end
+    }
   end
 end
