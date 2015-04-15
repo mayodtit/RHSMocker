@@ -69,4 +69,9 @@ namespace :scheduled do
   task :update_gravatar => :environment do
     ScheduledJobs.update_gravatar
   end
+
+  desc 'Message users with birthday today.'
+  task :birthday_notification => :environment do
+    ScheduledJobs.birthday_notification
+  end
 end

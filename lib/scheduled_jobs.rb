@@ -3,9 +3,9 @@ class ScheduledJobs
     failed_member_ids = [];
     if Metadata.offboard_free_trial_members?
       Member.where(status: :trial)
-            .where('free_trial_ends_at < ?', Time.now)
-            .where('signed_up_at >= ?', Metadata.offboard_free_trial_start_date)
-            .find_each do |member|
+        .where('free_trial_ends_at < ?', Time.now)
+        .where('signed_up_at >= ?', Metadata.offboard_free_trial_start_date)
+        .find_each do |member|
         begin
           member.downgrade!
         rescue
@@ -16,8 +16,8 @@ class ScheduledJobs
 
     if Metadata.offboard_expired_members?
       Member.where(status: :premium)
-            .where('subscription_ends_at < ?', Time.now)
-            .find_each do |member|
+        .where('subscription_ends_at < ?', Time.now)
+        .find_each do |member|
         begin
           member.downgrade!
         rescue
@@ -104,18 +104,18 @@ class ScheduledJobs
   def self.offboard_free_trial_members
     return unless Metadata.offboard_free_trial_members?
     Member.where(status: :trial)
-          .where('free_trial_ends_at < ?', OffboardMemberTask::OFFBOARDING_WINDOW.after(Time.now.pacific))
-          .where('signed_up_at >= ?', Metadata.offboard_free_trial_start_date)
-          .with_request_or_service_task
-          .find_each do |member|
-            next unless member.request_tasks.any? || member.service_tasks.any?
-            t = OffboardMemberTask.create_if_only_for_current_free_trial member
-            if !t || t.valid?
-              Rails.logger.info "Offboarded Member #{member.id}"
-            else
-              Rails.logger.error "Could not create OffboardMemberTask for Member #{member.id}"
-            end
-          end
+      .where('free_trial_ends_at < ?', OffboardMemberTask::OFFBOARDING_WINDOW.after(Time.now.pacific))
+      .where('signed_up_at >= ?', Metadata.offboard_free_trial_start_date)
+      .with_request_or_service_task
+      .find_each do |member|
+      next unless member.request_tasks.any? || member.service_tasks.any?
+      t = OffboardMemberTask.create_if_only_for_current_free_trial member
+      if !t || t.valid?
+        Rails.logger.info "Offboarded Member #{member.id}"
+      else
+        Rails.logger.error "Could not create OffboardMemberTask for Member #{member.id}"
+      end
+    end
   end
 
   def self.unforce_phas_on_call
@@ -152,7 +152,7 @@ class ScheduledJobs
     if Metadata.notify_lack_of_messages?
       Member.premium_states.where("last_contact_at IS NULL or last_contact_at < ?", 1.week.ago).find_each do |member|
         if member.inbound_scheduled_messages.scheduled.empty? && Message.where(user_id: member.id).exists?
-         MessageMemberTask.create_task_for_member(member)
+          MessageMemberTask.create_task_for_member(member)
         end
       end
     end
@@ -173,5 +173,9 @@ class ScheduledJobs
 
   def self.update_gravatar
     User.find_each{|u| u.add_gravatar}
+  end
+
+  def self.birthday_notification
+    User.where('birth_date = ?', Date.today).each{|u| u.birthday_notify}
   end
 end
