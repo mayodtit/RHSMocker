@@ -23,6 +23,7 @@ class ServiceTemplate < ActiveRecord::Base
       user_facing: attributes[:user_facing] || user_facing,
       service_request: attributes[:service_request]
     )
+    service.create_next_ordinal_tasks 
     service
   end
 end
