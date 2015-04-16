@@ -828,4 +828,15 @@ describe Member do
       member.smackdown!
     end
   end
+
+  describe '#queue' do
+    let(:member) { create(:pha) }
+    let!(:assigned_task) { create(:member_task, :assigned, owner: member, due_at: 2.day.from_now.pacific.end_of_day) }
+    let!(:started_task) { create(:member_task, :started, owner: member, due_at: 1.day.from_now.pacific.end_of_day) }
+    let!(:claimed_task) { create(:member_task, :claimed, owner: member) }
+
+    it 'shows all the tasks in the queue of the pha' do
+      expect(member.queue).to eq([claimed_task, started_task, assigned_task])
+    end
+  end
 end
