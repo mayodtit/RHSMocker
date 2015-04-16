@@ -187,7 +187,7 @@ class ScheduledJobs
       if g.count>1
         User.find(owner).master_consult.messages.create(:user => Member.robot, :text => "Better wishes a Jappy Birdday to "+ User.select{|u| g.include? u.id}.map(&:first_name).to_sentence)
       else
-        (g[0]==owner) ? User.find(owner).master_consult.messages.create(:user => Member.robot, :text => [g[0].first_name, ", Jappy Birdday from Better."].join) : c.messages.create(:user => Member.robot, :text => "Jappy Birdday to "+ g[0].first_name)
+        (g[0]==owner) ? User.find(owner).master_consult.messages.create(:user => Member.robot, :text => [g[0].first_name, ", Jappy Birdday from Better."].join) : User.find(owner).master_consult.messages.create(:user => Member.robot, :text => "Jappy Birdday to "+ g[0].first_name)
       end
     }
   end
