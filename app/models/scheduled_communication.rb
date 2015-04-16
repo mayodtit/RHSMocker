@@ -46,6 +46,10 @@ class ScheduledCommunication < ActiveRecord::Base
     where('type != ?', ScheduledSystemMessage.name)
   end
 
+  def self.without_reference_event
+    where(reference_event: nil)
+  end
+
   def self.hold_scheduled!
     scheduled.non_system.each do |c|
       c.hold!
