@@ -18,12 +18,13 @@ class Service < ActiveRecord::Base
   has_many :service_state_transitions
   has_many :tasks, order: 'service_ordinal ASC, priority DESC, due_at ASC, created_at ASC'
   has_many :service_changes, order: 'created_at DESC'
+  has_one :entry, as: :resource
 
-  attr_accessor :actor_id, :change_tracked, :reason
+  attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id
   attr_accessible :description, :title, :service_type_id, :service_type, :user_facing, :service_request, :service_deliverable,
                   :member_id, :member, :subject_id, :subject, :reason_abandoned, :reason, :abandoner, :abandoner_id,
-                  :creator_id, :creator, :owner_id, :owner, :assignor_id, :assignor,
-                  :actor_id, :due_at, :state_event, :service_template, :service_template_id, :service_update
+                  :creator_id, :creator, :owner_id, :owner, :assignor_id, :assignor, :service_update,
+                  :actor_id, :due_at, :state_event, :service_template, :service_template_id, :pubsub_client_id
 
   validates :title, :service_type, :state, :member, :creator, :owner, :assignor, :assigned_at, presence: true
   validates :user_facing, :inclusion => { :in => [true, false] }
@@ -47,9 +48,9 @@ class Service < ActiveRecord::Base
 
   def publish
     if id_changed?
-      PubSub.publish "/members/#{member_id}/subjects/#{subject_id}/services/new", {id: id}
+      PubSub.publish "/members/#{member_id}/subjects/#{subject_id}/services/new", {id: id}, pubsub_client_id
     else
-      PubSub.publish "/members/#{member_id}/subjects/#{subject_id}/services/update", {id: id}
+      PubSub.publish "/members/#{member_id}/subjects/#{subject_id}/services/update", {id: id}, pubsub_client_id
     end
   end
 

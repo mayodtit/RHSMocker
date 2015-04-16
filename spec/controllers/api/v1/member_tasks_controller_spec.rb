@@ -92,10 +92,11 @@ describe Api::V1::MemberTasksController do
 
   describe 'POST create' do
     let(:task) { build_stubbed :task }
-
+    let(:entry) { build_stubbed :entry}
     before do
       MemberTask.stub(:create) { task }
       task.stub(:reload)
+      task.stub(:entry) { entry }
     end
 
     def do_request

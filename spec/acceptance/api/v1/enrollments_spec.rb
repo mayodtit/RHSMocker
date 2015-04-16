@@ -100,7 +100,7 @@ resource 'Enrollment' do
       let(:unique_on_boarding_user_token){ 'uout' }
       let!(:user) { create(:member, unique_on_boarding_user_token: 'uout')}
 
-      example_request '[GET]Get user/enrollment record for business on_boarding users' do
+      example_request '[GET]Get user/enrollment record for business on_boarding users with credentials' do
         explanation 'Return the user_id, auth_token, and on_boarding stories'
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
@@ -120,7 +120,7 @@ resource 'Enrollment' do
       let(:email){ 'zeev@getworse.com' }
       let!(:enrollment) { create(:enrollment, email: email, unique_on_boarding_user_token: 'uout')}
 
-      example_request '[GET]Get user/enrollment record for business on_boarding users' do
+      example_request '[GET]Get user/enrollment record for business on_boarding users without credentials' do
         explanation 'Return the enrollment info and stories'
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)

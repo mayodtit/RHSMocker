@@ -9,6 +9,7 @@ class Message < ActiveRecord::Base
   belongs_to :phone_call_summary, inverse_of: :message
   belongs_to :user_image, inverse_of: :messages
   has_many :message_statuses
+  has_one :entry, as: :resource
   attr_accessor :no_notification, :pubsub_client_id
 
   attr_accessible :user, :user_id, :consult, :consult_id, :content,
@@ -72,9 +73,8 @@ class Message < ActiveRecord::Base
   end
 
   def update_initiator_last_contact_at
-    unless system? || phone_call_summary || (phone_call && phone_call.to_nurse?) || note? || user == consult.initiator
-      consult.initiator.update_attributes! last_contact_at: self.created_at
-    end
+    return if system? || phone_call_summary || (phone_call && phone_call.to_nurse?) || note? || user == consult.initiator
+    consult.initiator.update_attributes! last_contact_at: self.created_at
   end
 
   def self.before(id=nil)
