@@ -477,6 +477,7 @@ describe ScheduledJobs do
         ScheduledJobs.notify_lack_of_messages
       end
     end
+
     context 'metadata exists' do
       context 'metadata is false' do
         before do
@@ -495,13 +496,25 @@ describe ScheduledJobs do
         Metadata.stub(:notify_lack_of_messages?) { true }
       end
 
-      let!(:engaged_member) {create :member, :premium, first_name: 'a', last_contact_at: 1.hour.ago}
-      let!(:free_member) {create :member, :free, first_name: 'b', last_contact_at: 1.hour.ago}
-      let!(:unengaged_member) {create :member, :premium, first_name: 'c', last_contact_at: 2.weeks.ago}
-      let!(:message) {create :message, user: unengaged_member}
-      it 'should run create_if_member_has_no_tasks for every premium_states member' do
-        MessageMemberTask.should_receive(:create_task_for_member).with(unengaged_member)
-        ScheduledJobs.notify_lack_of_messages
+      context 'with an unengaged premium member' do
+        let!(:unengaged_member) { create :member, :premium, first_name: 'c', last_contact_at: 2.weeks.ago }
+        let!(:message) { create :message, user: unengaged_member }
+
+        it 'runs create_task_for_member for every premium_states member' do
+          MessageMemberTask.should_receive(:create_task_for_member).with(unengaged_member)
+          ScheduledJobs.notify_lack_of_messages
+        end
+      end
+
+      context 'with a trial member' do
+        let!(:member) { create(:member, :trial, last_contact_at: 2.weeks.ago) }
+        let!(:scheduled_message) { create(:scheduled_message, recipient: member, reference_event: :free_trial_ends_at, reference: member, relative_days: 0) }
+        let!(:message) { create :message, user: member }
+
+        it 'runs create_task_for_member if the user has a scheduled_communication with a reference_event' do
+          MessageMemberTask.should_receive(:create_task_for_member).with(member)
+          ScheduledJobs.notify_lack_of_messages
+        end
       end
     end
   end
