@@ -185,10 +185,17 @@ class ScheduledJobs
     }
     message_box.each{|owner,g|
       if g.count>1
-        User.find(owner).master_consult.messages.create(:user => Member.robot, :text => "Better wishes a Jappy Birdday to "+ User.select{|u| g.include? u.id}.map(&:first_name).to_sentence)
+        User.find(owner).master_consult.messages.create(:user => Member.robot, :text => birthday_message_loader(g.count, User.select{|u| g.include? u.id}.map(&:first_name)))
       else
-        (g[0]==owner) ? User.find(owner).master_consult.messages.create(:user => Member.robot, :text => [g[0].first_name, ", Jappy Birdday from Better."].join) : User.find(owner).master_consult.messages.create(:user => Member.robot, :text => "Jappy Birdday to "+ g[0].first_name)
+        User.find(owner).master_consult.messages.create(:user => Member.robot, :text => birthday_message_loader(g.count, User.find(g[0]).first_name))
       end
     }
+
+  end
+
+  def self.birthday_message_loader(size, names)
+    m = {:s =>"Happy Birthday to",
+         :pl  =>"Better wishes a Happy Birthday to"}
+    size>1 ? [m[:pl],names.to_sentence].join(" ")+"!" : [m[:s],names].join(" ")+"!"
   end
 end
