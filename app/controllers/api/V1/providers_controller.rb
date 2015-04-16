@@ -29,7 +29,11 @@ class Api::V1::ProvidersController < Api::V1::ABaseController
 
   def address_attributes
   {
-    address: @provider[:address][:address], address2: @provider[:address][:address2], city: @provider[:address][:city], state: @provider[:address][:state], postal_code: @provider[:address][:postal_code]
+    address: @provider[:address][:address],
+    address2: @provider[:address][:address2],
+    city: @provider[:address][:city],
+    state: @provider[:address][:state],
+    postal_code: @provider[:address][:postal_code]
   }
   end
 
