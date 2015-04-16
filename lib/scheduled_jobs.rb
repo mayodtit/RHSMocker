@@ -189,8 +189,8 @@ class ScheduledJobs
       else
         User.find(owner).master_consult.messages.create(:user => Member.robot, :text => birthday_message_loader(g.count, User.find(g[0]).first_name))
       end
+      BirthdayPromotion.new(User.find(owner)).promote
     }
-
   end
 
   def self.birthday_message_loader(size, names)
