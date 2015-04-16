@@ -8,15 +8,6 @@ class UserFileUploader < BaseUploader
 
   # Choose what kind of storage to use for this uploader:
   storage :fog
-  # after :store, :encrypt_file
-  #
-  # def encrypt_file
-  #   Carrierwave::EncrypterDecrypter::Uploader.encrypt(self)
-  # end
-  #
-  # def fog_public
-  #   true
-  # end
   # # Override the directory where uploaded files will be stored.
   # # This is a sensible default for uploaders that are meant to be mounted:
   def store_dir
