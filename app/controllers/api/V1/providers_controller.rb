@@ -1,7 +1,6 @@
 class Api::V1::ProvidersController < Api::V1::ABaseController
   before_filter :load_providers!, only: [:index, :search]
   before_filter :load_provider!, only: :show
-  before_filter :create_user, only: :show
 
   # deprecated - use #search instead
   def index
@@ -13,20 +12,16 @@ class Api::V1::ProvidersController < Api::V1::ABaseController
   end
 
   def show
-    if @provider.is_a?(User)
-      show_resource @provider.serializer(serializer_options)
-    else
-      show_resource @user.serializer(serializer_options)
-    end
+    show_resource @user.serializer(serializer_options)
   end
 
   private
 
   def create_user
-    unless @provider.is_a?(User)
-      @user = User.create!(user_attributes)
-      @user.addresses.create!(address_attributes)
-    end
+    @provider = search_service.find(params)
+    @user_from_provider = User.create!(user_attributes)
+    @user_from_provider.addresses.create!(address_attributes)
+    return @user_from_provider
   end
 
   def user_attributes
@@ -34,13 +29,7 @@ class Api::V1::ProvidersController < Api::V1::ABaseController
   end
 
   def address_attributes
-  {
-    address: @provider[:address][:address],
-    address2: @provider[:address][:address2],
-    city: @provider[:address][:city],
-    state: @provider[:address][:state],
-    postal_code: @provider[:address][:postal_code]
-  }
+    @provider[:address].except(:country_code, :phone, :fax)
   end
 
   def load_providers!
@@ -56,7 +45,7 @@ class Api::V1::ProvidersController < Api::V1::ABaseController
   end
 
   def load_provider!
-    @provider = User.find_by_npi_number(params[:npi_number]) || search_service.find(params)
+    @user = User.find_by_npi_number(params[:npi_number]) || create_user
   end
 
   def search_service
