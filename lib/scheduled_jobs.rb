@@ -183,6 +183,7 @@ class ScheduledJobs
         message_box.include?(u.owner.id) ? message_box[u.owner.id].push(u.id) : message_box[u.owner.id] = [u.id]
       end
     }
+    byebug
     message_box.each{|owner,g|
       if g.count>1
         User.find(owner).master_consult.messages.create(:user => Member.robot, :text => birthday_message_loader(g.count, User.select{|u| g.include? u.id}.map(&:first_name)))
