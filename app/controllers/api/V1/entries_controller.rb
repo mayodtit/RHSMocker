@@ -39,7 +39,7 @@ class Api::V1::EntriesController < Api::V1::ABaseController
 
   def load_entries!
     authorize! :read, Entry
-    @entries = @member.entries
+    @entries = @member.entries.where("!(resource_type = 'Task' && actor_id = ?)", Member.robot.id)
     @total_count_per_user = @entries.count
   end
 end
