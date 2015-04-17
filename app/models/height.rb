@@ -7,7 +7,16 @@ class Height < ActiveRecord::Base
 
   validates :user, :amount, :taken_at, presence: true
 
-  def self.most_recent
-    order('taken_at DESC').first
+  before_validation :set_defaults, on: :create
+
+  def self.most_recent(time=Time.now)
+    where('taken_at < ?', time).order('taken_at DESC').first
+  end
+
+  private
+
+  def set_defaults
+    self.created_at ||= Time.now # set before save, to use value in callbacks
+    self.taken_at ||= created_at
   end
 end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150410192220) do
+ActiveRecord::Schema.define(:version => 20150417153933) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1502,6 +1502,7 @@ ActiveRecord::Schema.define(:version => 20150410192220) do
     t.string   "healthkit_uuid"
     t.integer  "creator_id"
     t.string   "healthkit_source"
+    t.string   "bmi_level"
   end
 
   add_index "weights", ["creator_id"], :name => "index_weights_on_creator_id"
