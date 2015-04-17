@@ -830,13 +830,117 @@ describe Member do
   end
 
   describe '#queue' do
-    let(:member) { create(:pha) }
-    let!(:assigned_task) { create(:member_task, :assigned, owner: member, due_at: 2.day.from_now.pacific.end_of_day) }
-    let!(:started_task) { create(:member_task, :started, owner: member, due_at: 1.day.from_now.pacific.end_of_day) }
-    let!(:claimed_task) { create(:member_task, :claimed, owner: member) }
+    let(:user) do
+      member = build_stubbed :member
+      member.add_role :nurse
+      member
+    end
 
-    it 'shows all the tasks in the queue of the pha' do
-      expect(member.queue).to eq([claimed_task, started_task, assigned_task])
+    let(:tasks) { [build_stubbed(:task), build_stubbed(:task)] }
+
+    let(:nurse_role) do
+      Role.find_by_name! :nurse
+    end
+
+    context 'not on call' do
+      before do
+        described_class.any_instance.stub(:on_call?) { false }
+        described_class.any_instance.stub(:task_order){ 'due_at DESC' }
+      end
+
+      it 'returns tasks for the current hcp' do
+        Task.should_receive(:owned).with(user) do
+          o = Object.new
+          o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
+            o_o = Object.new
+            o_o.stub(:includes).with(:member) do
+              o_o_o = Object.new
+              o_o_o.stub(:order).with('due_at DESC') { tasks }
+              o_o_o
+            end
+            o_o
+          end
+          o
+        end
+        expect(user.queue.first).to eq(tasks)
+      end
+    end
+
+    context 'on call' do
+      before do
+        described_class.any_instance.stub(:on_call?) { true }
+        described_class.any_instance.stub(:task_order){ 'due_at DESC' }
+      end
+
+      context 'metadata says only inbound and unassigned' do
+        before do
+          Metadata.stub(:on_call_queue_only_inbound_and_unassigned?) { true }
+        end
+
+        it 'returns tasks for the current hcp' do
+          Task.should_receive(:needs_triage).with(user) do
+            o_o = Object.new
+            o_o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
+              o_o_o = Object.new
+              o_o_o.stub(:includes).with(:member) do
+                o_o_o_o = Object.new
+                o_o_o_o.stub(:order).with('due_at DESC') { tasks }
+                o_o_o_o
+              end
+              o_o_o
+            end
+            o_o
+          end
+          expect(user.queue).to eq([tasks, 0, 0])
+        end
+      end
+
+      context 'metadata says everything' do
+        before do
+          Metadata.stub(:on_call_queue_only_inbound_and_unassigned?) { false }
+        end
+
+        it 'returns tasks for the current hcp' do
+          Task.should_receive(:needs_triage_or_owned).with(user) do
+            o_o = Object.new
+            o_o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
+              o_o_o = Object.new
+              o_o_o.stub(:includes).with(:member) do
+                o_o_o_o = Object.new
+                o_o_o_o.stub(:order).with('due_at DESC') { tasks }
+                o_o_o_o
+              end
+              o_o_o
+            end
+            o_o
+          end
+          expect(user.queue).to eq([tasks, 0, 0])
+        end
+      end
+    end
+
+    context 'param tells select only today' do
+      let!(:tasks) { [build_stubbed(:task, due_at: 1.days.ago), build_stubbed(:task, due_at: 1.days.from_now)] }
+
+      before do
+        described_class.any_instance.stub(:on_call?) { false }
+        described_class.any_instance.stub(:task_order){ 'due_at DESC' }
+      end
+
+      it 'only return the tasks that due within today' do
+          o_o = Object.new
+          o_o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
+            o_o_o = Object.new
+            o_o_o.stub(:includes).with(:member) do
+              o_o_o_o = Object.new
+              o_o_o_o.stub(:where).with('due_at <= ?', Time.now.pacific.end_of_day) {tasks.first}
+              o_o_o_o
+            end
+            o_o_o
+          end
+        task.should_receive()
+        expect(user.queue(only_today: 'yes')).to eq(tasks.first)
+      end
     end
   end
 end

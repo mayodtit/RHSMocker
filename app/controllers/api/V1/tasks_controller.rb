@@ -12,42 +12,8 @@ class Api::V1::TasksController < Api::V1::ABaseController
 
   def queue
     authorize! :read, Task
-    
     tasks, tomorrow_count, future_count = current_user.queue(params)
-
     render_success tasks: tasks.serializer(shallow: true), tomorrow_count: tomorrow_count, future_count: future_count
-    # query = Task.owned current_user
-    # if current_user.on_call?
-    #   if Metadata.on_call_queue_only_inbound_and_unassigned?
-    #     query = Task.needs_triage current_user
-    #   else
-    #     query = Task.needs_triage_or_owned current_user
-    #   end
-    # end
-    #
-    # tasks = query.where(role_id: role.id, visible_in_queue: true, unread: false, urgent: false).includes(:member).order(task_order)
-    # immediate_tasks = query.where(role_id: role.id, visible_in_queue: true).where('unread IS TRUE OR urgent IS TRUE').includes(:member).order(task_order) if current_user.pha?
-    # tomorrow_count = 0
-    # future_count = 0
-    #
-    # if only_today?
-    #   eod = Time.now.pacific.end_of_day
-    #   tom_eod = 1.day.from_now.pacific.end_of_day
-    #   future_count = tasks.where('due_at > ?', eod).count
-    #   tomorrow_count = tasks.where('due_at > ? && due_at <= ?', eod, tom_eod).count
-    #   tasks = tasks.where('due_at <= ?', eod)
-    # end
-    #
-    # if until_tomorrow?
-    #   eod = Time.now.pacific.end_of_day
-    #   tom_eod = 1.day.from_now.pacific.end_of_day
-    #   future_count = tasks.where('due_at > ?', tom_eod).count
-    #   tasks = tasks.where('due_at <= ?', tom_eod)
-    # end
-    #
-    # tasks = immediate_tasks + tasks if current_user.pha?
-    #
-    # render_success tasks: tasks.serializer(shallow: true), tomorrow_count: tomorrow_count, future_count: future_count
   end
 
   def show
@@ -110,19 +76,6 @@ class Api::V1::TasksController < Api::V1::ABaseController
   end
 
   private
-
-  def task_order
-    pacific_offset = Time.zone_offset('PDT')/3600
-    "DATE(CONVERT_TZ(due_at, '+0:00', '#{pacific_offset}:00')) ASC, priority DESC, day_priority DESC, due_at ASC, created_at ASC"
-  end
-
-  def role
-    if current_user.roles.include? Role.pha
-      return Role.pha
-    elsif current_user.roles.include? Role.nurse
-      return Role.nurse
-    end
-  end
 
   def load_task!
     @task = Task.find params[:id]
