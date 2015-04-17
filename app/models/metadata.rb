@@ -4,7 +4,6 @@ class Metadata < ActiveRecord::Base
   validates :mkey, :mvalue, presence: true
   validates :mkey, uniqueness: true
 
-  after_save :alert_stakeholders_when_phas_forced_off_call
   after_save :alert_stakeholders_when_phas_forced_on_call
 
   def self.to_hash
@@ -108,12 +107,6 @@ class Metadata < ActiveRecord::Base
       Time.strptime Metadata.find_by_mkey('offboard_free_trial_start_date').try(:mvalue), '%m/%d/%Y'
     rescue
       1.year.from_now # e.g. don't do offboarding
-    end
-  end
-
-  def alert_stakeholders_when_phas_forced_off_call
-    if mkey == 'force_phas_off_call' && mvalue_changed?
-      ScheduledJobs.alert_stakeholders_when_phas_forced_off_call
     end
   end
 
