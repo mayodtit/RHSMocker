@@ -90,7 +90,7 @@ resource 'Address' do
       end
     end
 
-    put '/api/v1/users/:user_id/addresses/:id' do
+    put '/api/v1/users/:user_id/addresses/office' do
       let!(:address) { create(:address, user: user, name: 'office') }
 
       parameter :name, 'office'

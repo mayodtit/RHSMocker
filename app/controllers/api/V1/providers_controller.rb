@@ -21,7 +21,7 @@ class Api::V1::ProvidersController < Api::V1::ABaseController
     @provider = search_service.find(params)
     @user_from_provider = User.create!(user_attributes)
     @user_from_provider.addresses.create!(address_attributes)
-    return @user_from_provider
+    @user_from_provider
   end
 
   def user_attributes
