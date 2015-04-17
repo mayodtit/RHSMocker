@@ -101,16 +101,6 @@ class ScheduledJobs
     end
   end
 
-  def self.alert_stakeholders_when_phas_forced_on_call
-    if Metadata.force_phas_on_call? && !Time.now.business_time?
-      body = "ALERT: PHAs are currently forced on call till 9PM PDT."
-
-      Role.pha_stakeholders.each do |s|
-        TwilioModule.message s.text_phone_number, body
-      end
-    end
-  end
-
   def self.notify_lack_of_tasks
     if Metadata.notify_lack_of_tasks?
       Member.premium_states.find_each do |member|

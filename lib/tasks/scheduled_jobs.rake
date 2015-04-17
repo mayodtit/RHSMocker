@@ -35,11 +35,6 @@ namespace :scheduled do
     ScheduledJobs.unforce_phas_on_call
   end
 
-  desc 'Alert stakeholders when phas forced on call'
-  task :alert_stakeholders_when_phas_forced_on_call => :environment do
-    ScheduledJobs.alert_stakeholders_when_phas_forced_on_call
-  end
-
   desc 'Add a task for all active members without a task'
   task :notify_lack_of_tasks => :environment do
     ScheduledJobs.notify_lack_of_tasks
