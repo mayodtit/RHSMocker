@@ -4,8 +4,6 @@ class Metadata < ActiveRecord::Base
   validates :mkey, :mvalue, presence: true
   validates :mkey, uniqueness: true
 
-  after_save :alert_stakeholders_when_phas_forced_on_call
-
   def self.to_hash
     all.inject({}){|hash, metadata| hash[metadata.mkey] = metadata.mvalue; hash}
   end
@@ -107,16 +105,6 @@ class Metadata < ActiveRecord::Base
       Time.strptime Metadata.find_by_mkey('offboard_free_trial_start_date').try(:mvalue), '%m/%d/%Y'
     rescue
       1.year.from_now # e.g. don't do offboarding
-    end
-  end
-
-  def alert_stakeholders_when_phas_forced_on_call
-    return unless mkey == 'force_phas_on_call'
-
-    body = mvalue == 'true' ? "ALERT: PHAs are currently forced on call till 9PM PDT." : "OK: PHAs are no longer forced on call."
-
-    Role.pha_stakeholders.each do |s|
-      TwilioModule.message s.text_phone_number, body
     end
   end
 

@@ -322,60 +322,6 @@ describe ScheduledJobs do
     end
   end
 
-  describe '#alert_stakeholders_when_phas_forced_on_call' do
-    context 'phas forced off call' do
-      let(:stakeholders) { [build_stubbed(:member), build_stubbed(:pha_lead, text_phone_number: '1111111111'), build_stubbed(:pha_lead, text_phone_number: '4083913578')] }
-      before do
-        Metadata.stub(:force_phas_on_call?) { true }
-      end
-
-      context 'during business time' do
-        before do
-          Time.any_instance.stub(:business_time?) { true }
-        end
-
-        it 'does nothing' do
-          TwilioModule.should_not_receive :message
-          ScheduledJobs.alert_stakeholders_when_phas_forced_on_call
-        end
-      end
-
-      context 'not during business time' do
-        before do
-          Time.any_instance.stub(:business_time?) { false }
-        end
-
-        it 'sends a message to each stakeholder' do
-          Role.stub(:pha_stakeholders) { stakeholders }
-          TwilioModule.should_receive(:message).with(
-            nil,
-            "ALERT: PHAs are currently forced on call till 9PM PDT."
-          )
-          TwilioModule.should_receive(:message).with(
-            '1111111111',
-            "ALERT: PHAs are currently forced on call till 9PM PDT."
-          )
-          TwilioModule.should_receive(:message).with(
-            '4083913578',
-            "ALERT: PHAs are currently forced on call till 9PM PDT."
-          )
-          ScheduledJobs.alert_stakeholders_when_phas_forced_on_call
-        end
-      end
-    end
-
-    context 'phas not forced off call' do
-      before do
-        Metadata.stub(:force_phas_on_call?) { false }
-      end
-
-      it 'does nothing' do
-        TwilioModule.should_not_receive :message
-        ScheduledJobs.alert_stakeholders_when_phas_forced_on_call
-      end
-    end
-  end
-
   describe '#notify_lack_of_tasks' do
     context 'metadata does not exists' do
 
