@@ -44,16 +44,6 @@ class ScheduledJobs
     end
   end
 
-  def self.alert_stakeholders_when_phas_forced_off_call
-    if Metadata.force_phas_off_call?
-      body = "ALERT: PHAs are currently forced after hours."
-
-      Role.pha_stakeholders.each do |s|
-        TwilioModule.message s.text_phone_number, body
-      end
-    end
-  end
-
   def self.alert_stakeholders_when_no_pha_on_call
     if Role.pha.on_call? && Role.pha.users.where(on_call: true).count == 0
       body = "ALERT: No PHAs triaging!"
