@@ -103,7 +103,6 @@ describe Search::Service::Bloom do
       new_record[:first_name].should == 'Benjamin'
       new_record[:last_name].should == 'Wang'
       new_record[:npi_number].should == '1457606311'
-      new_record[:city].should == 'Palo Alto'
       new_record[:address][:address].should == '3801 Miranda Ave'
       new_record[:address][:state].should == 'CA'
       new_record[:address][:postal_code].should == '943041207'
