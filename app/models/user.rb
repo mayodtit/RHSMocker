@@ -17,6 +17,7 @@ class User < ActiveRecord::Base
   has_many :user_conditions
   has_many :user_promotions
   has_many :conditions, :through=> :user_conditions
+  has_many :promotions, :through=> :user_promotions
   has_many :user_treatments
   has_many :treatments, :through=> :user_treatments
   belongs_to :ethnic_group

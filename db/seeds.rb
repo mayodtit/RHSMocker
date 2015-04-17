@@ -7,6 +7,7 @@ Sunspot.session = ::Sunspot::Rails::StubSessionProxy.new($original_sunspot_sessi
    conditions
    contents
    diets
+   promotions
    ethnic_groups
    messages
    premium_onboarding
