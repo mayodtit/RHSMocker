@@ -36,6 +36,7 @@ resource 'Providers' do
                  }
   before do
     Search::Service.any_instance.stub(query: [provider])
+    User.stub(find_by_npi_number: [provider])
   end
 
   parameter :auth_token, "Member's auth_token"
@@ -54,6 +55,15 @@ resource 'Providers' do
       expect(status).to eq(200)
       body = JSON.parse(response_body, symbolize_names: true)
       expect(body[:providers].to_json).to eq([provider].as_json.to_json)
+    end
+  end
+
+  get '/api/v1/providers/:npi_number' do
+    example_request '[GET] Get the user from the external source(e.g. NPI database)' do
+      explanation 'Returns user that match the parameters'
+      expect(status).to eq(200)
+      body = JSON.parse(response_body, symbolize_names: true)
+      expect(body[:provider].to_json).to eq([provider].serializer.as_json.to_json)
     end
   end
 end

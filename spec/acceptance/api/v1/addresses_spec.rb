@@ -57,6 +57,62 @@ resource 'Address' do
       end
     end
 
+    get '/api/v1/users/:user_id/addresses/office' do
+      let!(:address) { create(:address, user: user, name: 'office') }
+
+      example_request '[GET] Get Address with the name office' do
+        explanation 'Returns the Address with the name office'
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:address].to_json).to eq(address.serializer.as_json.to_json)
+      end
+    end
+
+    post '/api/v1/users/:user_id/addresses' do
+      let!(:address) { create(:address, user: user, name: 'office') }
+
+      parameter :name, 'office'
+      parameter :line1, 'Address line 1'
+      parameter :line2, 'Address line 2'
+      parameter :city, 'Address city'
+      parameter :state, 'Address state (2 letter abbreviation)'
+      parameter :postal_code, 'Address postal code (5 digit)'
+      scope_parameters :address, [:line1, :line2, :city, :state, :postal_code]
+
+      let(:line1) { '123 Test St.' }
+      let(:raw_post) { params.to_json }
+
+      example_request '[POST] Create Address with the name office' do
+        explanation 'Create the Address with the name office'
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:address][:line1]).to eq(line1)
+      end
+    end
+
+    put '/api/v1/users/:user_id/addresses/office' do
+      let!(:address) { create(:address, user: user, name: 'office') }
+
+      parameter :name, 'office'
+      parameter :line1, 'Address line 1'
+      parameter :line2, 'Address line 2'
+      parameter :city, 'Address city'
+      parameter :state, 'Address state (2 letter abbreviation)'
+      parameter :postal_code, 'Address postal code (5 digit)'
+      scope_parameters :address, [:line1, :line2, :city, :state, :postal_code]
+
+      let(:city) { 'Address city' }
+      let(:id) { address.id }
+      let(:raw_post) { params.to_json }
+
+      example_request '[PUT] Update Address' do
+        explanation 'Update Office Address'
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:address][:city]).to eq(city)
+      end
+    end
+
     delete '/api/v1/users/:user_id/addresses/:id' do
       let(:id) { address.id }
       let(:raw_post) { params.to_json }
