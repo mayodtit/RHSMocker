@@ -84,22 +84,6 @@ class UserMailer < ActionMailer::Base
     mail(to: @care_provider.email, subject: subject)
   end
 
-  def notify_of_abandoned_task(task, care_provider)
-    @abandoner_name = task.abandoner && task.abandoner.first_name
-    @abandoner_name = 'Care Portal' if task.abandoner_id == Member.robot.id
-
-    subject = "#{env}#{@abandoner_name} abandoned task"
-
-    @task = task
-    @care_provider = care_provider
-    mail(to: @care_provider.email, subject: subject)
-  end
-
-  def notify_of_low_welcome_call_availability(pairs)
-    @pairs = pairs
-    mail(to: Role.pha_stakeholders.map(&:email).concat(pairs.keys.map(&:email)).uniq, subject: 'WARNING - Low welcome call availability')
-  end
-
   def notify_of_failed_member_downgrades
     mail(to: "engineering@getbetter.com", subject: "#{env}Failed member downgrades")
   end
