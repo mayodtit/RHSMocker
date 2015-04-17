@@ -15,6 +15,7 @@ class User < ActiveRecord::Base
   has_many :user_allergies
   has_many :allergies, :through=>:user_allergies
   has_many :user_conditions
+  has_many :user_promotions
   has_many :conditions, :through=> :user_conditions
   has_many :user_treatments
   has_many :treatments, :through=> :user_treatments
