@@ -44,16 +44,6 @@ class ScheduledJobs
     end
   end
 
-  def self.alert_stakeholders_when_phas_forced_off_call
-    if Metadata.force_phas_off_call?
-      body = "ALERT: PHAs are currently forced after hours."
-
-      Role.pha_stakeholders.each do |s|
-        TwilioModule.message s.text_phone_number, body
-      end
-    end
-  end
-
   def self.alert_stakeholders_when_no_pha_on_call
     if Role.pha.on_call? && Role.pha.users.where(on_call: true).count == 0
       body = "ALERT: No PHAs triaging!"
@@ -61,23 +51,6 @@ class ScheduledJobs
       Role.pha_stakeholders.each do |s|
         TwilioModule.message s.text_phone_number, body
       end
-    end
-  end
-
-  def self.alert_stakeholders_when_low_welcome_call_availability
-    start_time = Time.now
-    end_time = start_time + 1.week
-
-    available_call_counts = Member.phas_with_profile.inject({}) do |hash, pha|
-      available_count = pha.owned_scheduled_phone_calls.assigned.in_period(start_time, end_time).count
-      if (available_count < 5) && !pha.pha_profile.silence_low_welcome_call_email?
-        hash[pha] = available_count
-      end
-      hash
-    end
-
-    if available_call_counts.any?
-      UserMailer.notify_of_low_welcome_call_availability(available_call_counts).deliver
     end
   end
 
@@ -125,16 +98,6 @@ class ScheduledJobs
       Rails.logger.info "Unforcing PHAs on call at #{Time.now.pacific}"
       m.mvalue = 'false'
       m.save!
-    end
-  end
-
-  def self.alert_stakeholders_when_phas_forced_on_call
-    if Metadata.force_phas_on_call? && !Time.now.business_time?
-      body = "ALERT: PHAs are currently forced on call till 9PM PDT."
-
-      Role.pha_stakeholders.each do |s|
-        TwilioModule.message s.text_phone_number, body
-      end
     end
   end
 

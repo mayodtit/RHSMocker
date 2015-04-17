@@ -11,18 +11,8 @@ namespace :scheduled do
   end
 
   desc 'Alert stakeholders when phas are forced off call'
-  task :alert_stakeholders_when_phas_forced_off_call => :environment do
-    ScheduledJobs.alert_stakeholders_when_phas_forced_off_call
-  end
-
-  desc 'Alert stakeholders when phas are forced off call'
   task :alert_stakeholders_when_no_pha_on_call => :environment do
     ScheduledJobs.alert_stakeholders_when_no_pha_on_call
-  end
-
-  desc 'Alert stakeholders when there is low welcome call availability'
-  task :alert_stakeholders_when_low_welcome_call_availability => :environment do
-    ScheduledJobs.alert_stakeholders_when_low_welcome_call_availability
   end
 
   desc 'Send referral card'
@@ -43,11 +33,6 @@ namespace :scheduled do
   desc 'Unforce phas of call'
   task :unforce_phas_on_call => :environment do
     ScheduledJobs.unforce_phas_on_call
-  end
-
-  desc 'Alert stakeholders when phas forced on call'
-  task :alert_stakeholders_when_phas_forced_on_call => :environment do
-    ScheduledJobs.alert_stakeholders_when_phas_forced_on_call
   end
 
   desc 'Add a task for all active members without a task'
