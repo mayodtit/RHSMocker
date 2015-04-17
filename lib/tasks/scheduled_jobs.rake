@@ -20,11 +20,6 @@ namespace :scheduled do
     ScheduledJobs.alert_stakeholders_when_no_pha_on_call
   end
 
-  desc 'Alert stakeholders when there is low welcome call availability'
-  task :alert_stakeholders_when_low_welcome_call_availability => :environment do
-    ScheduledJobs.alert_stakeholders_when_low_welcome_call_availability
-  end
-
   desc 'Send referral card'
   task :send_referral_card => :environment do
     ScheduledJobs.send_referral_card
