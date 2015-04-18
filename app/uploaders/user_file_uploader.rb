@@ -1,7 +1,6 @@
 # encoding: utf-8
 
 class UserFileUploader < BaseUploader
-
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
@@ -10,6 +9,12 @@ class UserFileUploader < BaseUploader
   storage :fog
   # # Override the directory where uploaded files will be stored.
   # # This is a sensible default for uploaders that are meant to be mounted:
+  after :store, :encrypt_file
+
+  def encrypt_file(file)
+    Carrierwave::EncrypterDecrypter::Uploader.encrypt(self)
+  end
+
   def store_dir
     "error_log"
   end
