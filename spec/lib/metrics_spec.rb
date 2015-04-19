@@ -1,7 +1,7 @@
 describe Metrics do
   before do
     Timecop.freeze(Date.today.to_time)
-    Metrics.instance.reload!
+    described_class.instance.reload!
   end
 
   after do
@@ -39,7 +39,18 @@ describe Metrics do
 
       it 'tracks the event' do
         tracker.should_receive(:import).with(ENV['MIXPANEL_API_KEY'], user.id, 'Message Response', expected_properties).once
-        call_method
+        expect(call_method[:imported_event_count]).to eq(1)
+      end
+
+      context 'during a dry run' do
+        before do
+          described_class.instance.configure(dry_run: true)
+        end
+
+        it "doesn't track the event, but it does see it" do
+          tracker.should_not_receive(:import)
+          expect(call_method[:imported_event_count]).to eq(1)
+        end
       end
     end
 
@@ -61,7 +72,7 @@ describe Metrics do
 
       it 'tracks the first event' do
         tracker.should_receive(:import).with(ENV['MIXPANEL_API_KEY'], user.id, 'Message Response', expected_properties).once
-        call_method
+        expect(call_method[:imported_event_count]).to eq(1)
       end
     end
 
@@ -70,7 +81,7 @@ describe Metrics do
 
       it 'returns messages requiring a response to the console' do
         tracker.should_not_receive(:import)
-        expect(call_method).to eq([user_message])
+        expect(call_method[:needs_response]).to eq([user_message])
       end
     end
   end

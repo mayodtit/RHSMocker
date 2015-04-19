@@ -3,9 +3,10 @@ class Metrics
 
   MESSAGE_RESPONSE_EVENT = 'Message Response'
 
-  def configure(token, api_key)
-    @mixpanel_token = token
-    @mixpanel_api_key = api_key
+  def configure(options={})
+    @mixpanel_token = options[:mixpanel_token]
+    @mixpanel_api_key = options[:mixpanel_api_key]
+    @dry_run = options[:dry_run]
   end
 
   # For each incoming message (where the message user is the consult initiator)
@@ -17,17 +18,24 @@ class Metrics
   # response time metrics until they receive a response.
   #
   def backfill_message_response_events(start_at)
+    imported_event_count = 0
+
     messages(start_at).find_each do |message|
       next unless message.user_id == message.consult.initiator_id
       next if last_seen_message_ids[message.consult_id] > message.id
       if response = identify_response(message)
+        imported_event_count += 1
         track_event(message, response)
       else
         messages_without_response << message
       end
       last_seen_message_ids[message.consult_id] = (response || message).id
     end
-    messages_without_response
+
+    {
+      needs_response: messages_without_response,
+      imported_event_count: imported_event_count
+    }
   end
 
   def reload
@@ -63,10 +71,12 @@ class Metrics
       import_time: import_time.to_i
     }
 
-    tracker.import(mixpanel_api_key,
-                   message.user_id,
-                   MESSAGE_RESPONSE_EVENT,
-                   properties)
+    unless dry_run
+      tracker.import(mixpanel_api_key,
+                     message.user_id,
+                     MESSAGE_RESPONSE_EVENT,
+                     properties)
+    end
   end
 
   # track, per consult id, the latest seen message; this prevents duplicate
@@ -89,6 +99,10 @@ class Metrics
 
   def mixpanel_api_key
     @mixpanel_api_key ||= ENV['MIXPANEL_API_KEY']
+  end
+
+  def dry_run
+    @dry_run
   end
 
   def import_time
