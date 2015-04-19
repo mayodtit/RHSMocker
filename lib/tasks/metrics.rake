@@ -1,29 +1,22 @@
 namespace :metrics do
-  desc 'Test for backfilling Mixpanel data points'
-  task backfill_test: :environment do
-    raise 'Only available in development' unless Rails.env.development?
-
-    time = Time.now.pacific.nine_oclock
-    user_id = 1337
-
-    (1..7).each do |i|
-      properties = {
-        time: (time - i.days).to_i,
-        user_id: user_id,
-        pha_id: 1000 + i,
-        test_id: 3,
-        duration: 30 - i
-      }
-
-      tracker.import(api_key, user_id, 'Message Response', properties)
+  desc 'Backfill Message Response events'
+  task :backfill_message_response_events, [:start_at, :dry_run, :mixpanel_token, :mixpanel_api_key] => [:environment] do |t, args|
+    options = {}.tap do |opts|
+      opts[:start_at] = Time.parse(args[:start_at]) if args[:start_at]
+      opts[:dry_run] = true if args[:dry_run] == 'true'
+      opts[:mixpanel_token] = args[:mixpanel_token] if args[:mixpanel_token]
+      opts[:mixpanel_api_key] = args[:mixpanel_api_key] if args[:mixpanel_api_key]
+      opts[:debug] = true
     end
-  end
 
-  def tracker
-    @tracker ||= Mixpanel::Tracker.new(ENV['MIXPANEL_TOKEN'])
-  end
-
-  def api_key
-    @api_key ||= ENV['MIXPANEL_API_KEY']
+    Metrics.instance.configure(options)
+    Metrics.instance.reload!
+    results = Metrics.instance.backfill_message_response_events
+    puts "Imported #{results[:imported_event_count]} events"
+    puts "Found #{results[:needs_response].count} messages that need response"
+    if results[:needs_response].any?
+      puts "The users with the following ids require a response:"
+      puts "[#{results[:needs_response].map(&:user_id).join(',')}]"
+    end
   end
 end
