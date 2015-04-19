@@ -3,6 +3,11 @@ class Metrics
 
   MESSAGE_RESPONSE_EVENT = 'Message Response'
 
+  def configure(token, api_key)
+    @mixpanel_token = token
+    @mixpanel_api_key = api_key
+  end
+
   # For each incoming message (where the message user is the consult initiator)
   # identify the response and calculate the time between the message and the
   # response.
@@ -26,7 +31,10 @@ class Metrics
   end
 
   def reload
-    instance_variables.each{|var| remove_instance_variable(var) }
+    instance_variables.each do |var|
+      next if %i(@mixpanel_token @mixpanel_api_key).include?(var)
+      remove_instance_variable(var)
+    end
     self
   end
   alias_method :reload!, :reload
@@ -55,7 +63,7 @@ class Metrics
       import_time: import_time.to_i
     }
 
-    tracker.import(api_key,
+    tracker.import(mixpanel_api_key,
                    message.user_id,
                    MESSAGE_RESPONSE_EVENT,
                    properties)
@@ -72,11 +80,15 @@ class Metrics
   end
 
   def tracker
-    @tracker ||= Mixpanel::Tracker.new(ENV['MIXPANEL_TOKEN'])
+    @tracker ||= Mixpanel::Tracker.new(mixpanel_token)
   end
 
-  def api_key
-    @api_key ||= ENV['MIXPANEL_API_KEY']
+  def mixpanel_token
+    @mixpanel_token ||= ENV['MIXPANEL_TOKEN']
+  end
+
+  def mixpanel_api_key
+    @mixpanel_api_key ||= ENV['MIXPANEL_API_KEY']
   end
 
   def import_time
