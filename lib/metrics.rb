@@ -2,13 +2,14 @@ class Metrics
   include Singleton
 
   MESSAGE_RESPONSE_EVENT = 'Message Response'
-  OPTION_KEYS = %i(@mixpanel_token @mixpanel_api_key @dry_run @start_at)
+  OPTION_KEYS = %i(@mixpanel_token @mixpanel_api_key @start_at @dry_run @debug)
 
   def configure(options={})
     @mixpanel_token = options[:mixpanel_token]
     @mixpanel_api_key = options[:mixpanel_api_key]
-    @dry_run = options[:dry_run]
     @start_at = options[:start_at]
+    @dry_run = options[:dry_run]
+    @debug = options[:debug]
   end
 
   # For each incoming message (where the message user is the consult initiator)
@@ -22,17 +23,21 @@ class Metrics
   def backfill_message_response_events
     imported_event_count = 0
 
+    log("Processing #{messages.count} messages:\n")
     messages.find_each do |message|
-      next unless message.user_id == message.consult.initiator_id
-      next if last_seen_message_ids[message.consult_id] > message.id
+      log('*') and next unless message.user_id == message.consult.initiator_id
+      log('*') and next if last_seen_message_ids[message.consult_id] > message.id
       if response = identify_response(message)
+        log('.')
         imported_event_count += 1
         track_event(message, response)
       else
+        log('!')
         messages_without_response << message
       end
       last_seen_message_ids[message.consult_id] = (response || message).id
     end
+    log("\nFinished processing messages\n\n")
 
     {
       needs_response: messages_without_response,
@@ -50,6 +55,11 @@ class Metrics
   alias_method :reload!, :reload
 
   private
+
+  def log(message)
+    print message if debug
+    true
+  end
 
   def messages
     Message.where('created_at > ?', start_at).includes(:consult)
@@ -109,6 +119,10 @@ class Metrics
 
   def dry_run
     @dry_run
+  end
+
+  def debug
+    @debug
   end
 
   def import_time
