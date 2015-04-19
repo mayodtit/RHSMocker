@@ -10,7 +10,7 @@ describe Metrics do
 
   describe '#backfill_message_response_events' do
     def call_method
-      described_class.instance.backfill_message_response_events(Time.now - 2.days)
+      described_class.instance.backfill_message_response_events
     end
 
     let(:tracker) { double(:mixpanel_tracker) }

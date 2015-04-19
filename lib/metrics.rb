@@ -2,11 +2,13 @@ class Metrics
   include Singleton
 
   MESSAGE_RESPONSE_EVENT = 'Message Response'
+  OPTION_KEYS = %i(@mixpanel_token @mixpanel_api_key @dry_run @start_at)
 
   def configure(options={})
     @mixpanel_token = options[:mixpanel_token]
     @mixpanel_api_key = options[:mixpanel_api_key]
     @dry_run = options[:dry_run]
+    @start_at = options[:start_at]
   end
 
   # For each incoming message (where the message user is the consult initiator)
@@ -17,10 +19,10 @@ class Metrics
   # Track messages that do not have responses separately so they do not affect
   # response time metrics until they receive a response.
   #
-  def backfill_message_response_events(start_at)
+  def backfill_message_response_events
     imported_event_count = 0
 
-    messages(start_at).find_each do |message|
+    messages.find_each do |message|
       next unless message.user_id == message.consult.initiator_id
       next if last_seen_message_ids[message.consult_id] > message.id
       if response = identify_response(message)
@@ -40,7 +42,7 @@ class Metrics
 
   def reload
     instance_variables.each do |var|
-      next if %i(@mixpanel_token @mixpanel_api_key).include?(var)
+      next if OPTION_KEYS.include?(var)
       remove_instance_variable(var)
     end
     self
@@ -49,7 +51,7 @@ class Metrics
 
   private
 
-  def messages(start_at)
+  def messages
     Message.where('created_at > ?', start_at).includes(:consult)
   end
 
@@ -99,6 +101,10 @@ class Metrics
 
   def mixpanel_api_key
     @mixpanel_api_key ||= ENV['MIXPANEL_API_KEY']
+  end
+
+  def start_at
+    @start_at ||= Time.now.pacific.beginning_of_day - 1.week
   end
 
   def dry_run
