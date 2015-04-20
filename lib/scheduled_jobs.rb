@@ -176,12 +176,10 @@ class ScheduledJobs
   end
 
   def self.birthday_notification
-    message_box = {}
+    message_box = Hash.new([])
     User.with_birthday_on.each do |u|
-      u.owner.nil? ? c = nil : c = u.owner.master_consult
-      unless c.nil?
-        message_box.include?(u.owner.id) ? message_box[u.owner.id].push(u.id) : message_box[u.owner.id] = [u.id]
-      end
+      next unless u.owner.try(:master_consult)
+      message_box[u.owner.id].push u.id
     end
 
     message_box.each do |owner,list|
