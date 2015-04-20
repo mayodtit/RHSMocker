@@ -65,7 +65,8 @@ class Search::Service::Bloom
       postal_code: p['zip'],
       country_code: p['county_code'],
       phone: p['phone'], # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
-      fax: p['fax']
+      fax: p['fax'],
+      name: "NPI"
     }
 
     hcp_code = get_hcp_code(record['provider_details'])

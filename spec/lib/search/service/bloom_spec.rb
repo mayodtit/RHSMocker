@@ -107,6 +107,7 @@ describe Search::Service::Bloom do
       new_record[:address][:address].should == '3801 Miranda Ave'
       new_record[:address][:state].should == 'CA'
       new_record[:address][:postal_code].should == '943041207'
+      new_record[:address][:name].should == 'NPI'
       new_record[:phone].should == '6504935000'
     end
   end
