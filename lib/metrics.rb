@@ -2,12 +2,13 @@ class Metrics
   include Singleton
 
   MESSAGE_RESPONSE_EVENT = 'Message Response'
-  OPTION_KEYS = %i(@mixpanel_token @mixpanel_api_key @start_at @dry_run @debug)
+  OPTION_KEYS = %i(@mixpanel_token @mixpanel_api_key @start_at @end_at @dry_run @debug)
 
   def configure(options={})
     @mixpanel_token = options[:mixpanel_token]
     @mixpanel_api_key = options[:mixpanel_api_key]
     @start_at = options[:start_at]
+    @end_at = options[:end_at]
     @dry_run = options[:dry_run]
     @debug = options[:debug]
   end
@@ -62,7 +63,9 @@ class Metrics
   end
 
   def messages
-    Message.where('created_at > ?', start_at).includes(:consult)
+    Message.where('created_at > ?', start_at)
+           .where('created_at <= ?', end_at)
+           .includes(:consult)
   end
 
   def identify_response(message)
@@ -80,7 +83,9 @@ class Metrics
       message_id: message.id,
       response_id: response.id,
       duration: response.created_at.to_i - message.created_at.to_i,
-      import_time: import_time.to_i
+      import_time: import_time.to_i,
+      import_start_at: start_at.to_i,
+      import_end_at: end_at.to_i
     }
 
     unless dry_run
@@ -115,6 +120,10 @@ class Metrics
 
   def start_at
     @start_at ||= Time.now.pacific.beginning_of_day - 1.week
+  end
+
+  def end_at
+    @end_at ||= Time.now
   end
 
   def dry_run
