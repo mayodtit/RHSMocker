@@ -19,6 +19,7 @@
 1,30 * * * * cd /home/rhs/api-qa/current ; RAILS_ENV=qa bundle exec rake scheduled:alert_stakeholders_when_phas_forced_on_call > log/cron.log 2>&1
 0 10 * * * cd /home/rhs/api-qa/current ; RAILS_ENV=qa bundle exec rake scheduled:send_referral_card > log/cron.log 2>&1
 0 10 * * * cd /home/rhs/api-qa/current ; RAILS_ENV=qa bundle exec rake scheduled:push_content > log/cron.log 2>&1
+0 16 * * * cd /home/rhs/rails/current ; RAILS_ENV=qa bundle exec rake scheduled:birthday_notification > log/cron.log 2>&1
 0 * * * * cd /home/rhs/api-qa/current ; RAILS_ENV=qa bundle exec rake scheduled:offboard_free_trial_members > log/cron.log 2>&1
 0 11 * * 1-5 cd /home/rhs/api-qa/current ; RAILS_ENV=qa bundle exec rake scheduled:notify_lack_of_tasks > log/cron.log 2>&1
 0 11 * * 1-5 cd /home/rhs/api-qa/current ; RAILS_ENV=qa bundle exec rake scheduled:notify_lack_of_messages > log/cron.log 2>&1
