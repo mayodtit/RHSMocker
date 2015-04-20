@@ -177,21 +177,17 @@ class ScheduledJobs
 
   def self.birthday_notification
     message_box = {}
-    User.with_birthday_on.each{|u|
+    User.with_birthday_on.each do |u|
       u.owner.nil? ? c = nil : c = u.owner.master_consult
       unless c.nil?
         message_box.include?(u.owner.id) ? message_box[u.owner.id].push(u.id) : message_box[u.owner.id] = [u.id]
       end
-    }
-    byebug
-    message_box.each{|owner,g|
-      if g.count>1
-        User.find(owner).master_consult.messages.create(:user => Member.robot, :text => birthday_message_loader(g.count, User.select{|u| g.include? u.id}.map(&:first_name)))
-      else
-        User.find(owner).master_consult.messages.create(:user => Member.robot, :text => birthday_message_loader(g.count, User.find(g[0]).first_name))
-      end
-    }
+    end
 
+    message_box.each do |owner,list|
+      User.find(owner).master_consult.messages.create(:user => Member.robot, :text => birthday_message_loader(list.count, User.select{|u| list.include? u.id}.map(&:first_name),list.include?(owner)))
+      BirthdayPromotion.new(User.find(owner)).promote
+    end
   end
 
   def self.birthday_message_loader(size, names, is_owner)
