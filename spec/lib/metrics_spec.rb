@@ -1,7 +1,11 @@
 describe Metrics do
+  let(:start_at) { Time.now - 1.week }
+  let(:end_at) { Time.now }
+
   before do
     Timecop.freeze(Date.today.to_time)
     described_class.instance.reload!
+    described_class.instance.configure(start_at: start_at, end_at: end_at)
   end
 
   after do
@@ -33,7 +37,9 @@ describe Metrics do
           message_id: user_message.id,
           response_id: response_message.id,
           duration: 60,
-          import_time: Time.now.to_i
+          import_time: Time.now.to_i,
+          import_start_at: start_at.to_i,
+          import_end_at: end_at.to_i
         }
       end
 
@@ -66,7 +72,9 @@ describe Metrics do
           message_id: first_user_message.id,
           response_id: response_message.id,
           duration: 60,
-          import_time: Time.now.to_i
+          import_time: Time.now.to_i,
+          import_start_at: start_at.to_i,
+          import_end_at: end_at.to_i
         }
       end
 
