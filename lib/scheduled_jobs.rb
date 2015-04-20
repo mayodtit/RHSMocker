@@ -183,20 +183,20 @@ class ScheduledJobs
         message_box.include?(u.owner.id) ? message_box[u.owner.id].push(u.id) : message_box[u.owner.id] = [u.id]
       end
     }
-
+    byebug
     message_box.each{|owner,g|
       if g.count>1
         User.find(owner).master_consult.messages.create(:user => Member.robot, :text => birthday_message_loader(g.count, User.select{|u| g.include? u.id}.map(&:first_name)))
       else
         User.find(owner).master_consult.messages.create(:user => Member.robot, :text => birthday_message_loader(g.count, User.find(g[0]).first_name))
       end
-      BirthdayPromotion.new(User.find(owner)).promote
     }
+
   end
 
-  def self.birthday_message_loader(size, names)
-    m = {:s =>"Happy Birthday to",
-         :pl  =>"Better wishes a Happy Birthday to"}
-    size>1 ? [m[:pl],names.to_sentence].join(" ")+"!" : [m[:s],names].join(" ")+"!"
+  def self.birthday_message_loader(size, names, is_owner)
+    message = {:singular => ["Better hopes",  "a Happy Birthday"],
+         :plural  => "Better wishes a Happy Birthday to"}
+    size>1 ? [message[:plural],names.to_sentence].join(" ")+"!" : [message[:singular][0],(is_owner ? "you have" : [names , "has"]),message[:singular][1]].join(" ")+"!"
   end
 end
