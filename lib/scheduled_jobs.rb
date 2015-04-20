@@ -177,12 +177,12 @@ class ScheduledJobs
 
   def self.birthday_notification
     message_box = {}
-    User.with_birthday_on.each{|u|
+    User.with_birthday_on.each do |u|
       u.owner.nil? ? c = nil : c = u.owner.master_consult
       unless c.nil?
         message_box.include?(u.owner.id) ? message_box[u.owner.id].push(u.id) : message_box[u.owner.id] = [u.id]
       end
-    }
+    end
 
     message_box.each do |owner,list|
       User.find(owner).master_consult.messages.create(:user => Member.robot, :text => birthday_message_loader(list.count, User.select{|u| list.include? u.id}.map(&:first_name),list.include?(owner)))
