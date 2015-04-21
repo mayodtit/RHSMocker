@@ -77,6 +77,19 @@ class Api::V1::TasksController < Api::V1::ABaseController
 
   private
 
+  def task_order
+    pacific_offset = Time.zone_offset('PDT')/3600
+    "DATE(CONVERT_TZ(due_at, '+0:00', '#{pacific_offset}:00')) ASC, priority DESC, day_priority DESC, due_at ASC, created_at ASC"
+  end
+
+  def role
+    if current_user.roles.include? Role.pha
+      return Role.pha
+    elsif current_user.roles.include? Role.nurse
+      return Role.nurse
+    end
+  end
+
   def load_task!
     @task = Task.find params[:id]
   end

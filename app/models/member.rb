@@ -339,7 +339,6 @@ class Member < User
   def queue(options = Hash.new)
     return if role.nil?
     query = Task.owned self
-
     if on_call?
       if Metadata.on_call_queue_only_inbound_and_unassigned?
         query = Task.needs_triage self

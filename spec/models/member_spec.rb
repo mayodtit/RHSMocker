@@ -920,26 +920,38 @@ describe Member do
     end
 
     context 'param tells select only today' do
-      let!(:tasks) { [build_stubbed(:task, due_at: 1.days.ago), build_stubbed(:task, due_at: 1.days.from_now)] }
+      let!(:pha) { create(:pha) }
+      let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago) }
+      let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 2.days.from_now) }
+      let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
 
       before do
-        described_class.any_instance.stub(:on_call?) { false }
-        described_class.any_instance.stub(:task_order){ 'due_at DESC' }
+        [assigned_task, started_task, claimed_task].each do |task|
+          task.update_attribute('urgent', false)
+          task.update_attribute('unread', false)
+        end
       end
 
       it 'only return the tasks that due within today' do
-          o_o = Object.new
-          o_o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
-            o_o_o = Object.new
-            o_o_o.stub(:includes).with(:member) do
-              o_o_o_o = Object.new
-              o_o_o_o.stub(:where).with('due_at <= ?', Time.now.pacific.end_of_day) {tasks.first}
-              o_o_o_o
-            end
-            o_o_o
-          end
-        task.should_receive()
-        expect(user.queue(only_today: 'yes')).to eq(tasks.first)
+        expect(pha.queue(only_today: 'yes')).to eq([[assigned_task, claimed_task], 0, 1])
+      end
+    end
+
+    context 'param tells select till tomorrow' do
+      let!(:pha) { create(:pha) }
+      let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.from_now) }
+      let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 1.days.from_now) }
+      let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
+
+      before do
+        [assigned_task, started_task, claimed_task].each do |task|
+          task.update_attribute('urgent', false)
+          task.update_attribute('unread', false)
+        end
+      end
+
+      it 'only return the tasks that due within today' do
+        expect(pha.queue(until_tomorrow: 'yes')).to eq([[claimed_task, started_task], 0, 1])
       end
     end
   end
