@@ -1,8 +1,6 @@
 class MemberSerializer < ActiveModel::Serializer
   self.root = false
 
-  ## TODO NEXT add in city, state by pulling from address record
-
   attributes :id, :first_name, :last_name, :birth_date, :blood_type,
              :diet_id, :email, :ethnic_group_id, :gender, :height,
              :deceased, :date_of_death, :npi_number, :expertise,
