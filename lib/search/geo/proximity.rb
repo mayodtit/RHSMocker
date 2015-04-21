@@ -23,7 +23,7 @@ class Search::Geo::Proximity
 
   def valid_params?(params)
     !params['dist'].nil? && !params['zip'].nil?
-end
+  end
 
   def extract_params(params)
     zip = params['zip']

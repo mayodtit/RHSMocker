@@ -824,7 +824,7 @@ ActiveRecord::Schema.define(:version => 20150420211150) do
 
   create_table "proximities", :force => true do |t|
     t.string  "city"
-    t.integer "zip"
+    t.string  "zip"
     t.string  "state"
     t.string  "county"
     t.float   "latitude"
