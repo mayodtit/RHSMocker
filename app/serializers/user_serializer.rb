@@ -49,6 +49,6 @@ class UserSerializer < ActiveModel::Serializer
   end
 
   def address
-    object.addresses.first
+    object.addresses.find_by_name("office") || object.addresses.find_by_name("NPI")
   end
 end
