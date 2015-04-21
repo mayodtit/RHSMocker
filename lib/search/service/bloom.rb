@@ -75,8 +75,6 @@ class Search::Service::Bloom
       :last_name => prettify(record['last_name']),
       :npi_number => record['npi'].to_s,
       :address => practice_address,
-      :city => prettify(p['city']), # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
-      :state => p['state'], # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
       :phone => p['phone'],
       :expertise => record['credential'],
       :gender => record['gender'],

@@ -4,7 +4,7 @@ class MemberSerializer < ActiveModel::Serializer
   attributes :id, :first_name, :last_name, :birth_date, :blood_type,
              :diet_id, :email, :ethnic_group_id, :gender, :height,
              :deceased, :date_of_death, :npi_number, :expertise,
-             :phone, :nickname, :city, :work_phone_number,
+             :phone, :city, :state, :nickname, :work_phone_number,
              :avatar_url, :ethnic_group, :diet, :address,
              :phone, :units, :client_data,
              :full_name, :created_at, :email_read_only,
@@ -152,7 +152,16 @@ class MemberSerializer < ActiveModel::Serializer
   end
 
   def address
-    object.addresses.first
+    addrs = object.addresses.order("updated_at DESC")
+    addrs.find{|a| a.name == "office"} || addrs.first
+  end
+
+  def city
+    address.try(:city)
+  end
+
+  def state
+    address.try(:state)
   end
 
   def meet_your_pha_text
