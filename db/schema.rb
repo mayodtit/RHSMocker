@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150420211150) do
+ActiveRecord::Schema.define(:version => 20150421183832) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -824,7 +824,7 @@ ActiveRecord::Schema.define(:version => 20150420211150) do
 
   create_table "proximities", :force => true do |t|
     t.string  "city"
-    t.integer "zip"
+    t.string  "zip"
     t.string  "state"
     t.string  "county"
     t.float   "latitude"
