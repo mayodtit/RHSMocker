@@ -1,0 +1,19 @@
+%div.some{:style => "width: 70%; margin: 0 auto;"}
+  %p Hello #{@user.first_name},
+  %p We're here to help you get the most out of your health care. Follow the two steps below to start working with your Personal Health Assistant (PHA).
+  %br
+  %p 1.Get Started:
+  %br
+  %div.some{:style => "background-color: #ea7411; margin:0 auto; vertical-align: middle; padding: 1%; color: white; width: 23%; border-radius: 5%; font-weight: bold; font-size: 120%; text-align: center;"}
+    %a{:href => "http://getbetter.com/app", :style=>'color:#FFF; text-decoration:none;'}Download the app
+  %br
+  %p 2.Open this email on your mobile device:
+  %br
+  %div.some{:style => "background-color: #004ca1; margin:0 auto; vertical-align: middle; padding: 1%; width: 29%; border-radius: 5%; font-weight: bold; font-size: 120%; text-align: center;"}
+    %a{:href => "#{@link}", :href => "http://getbetter.com/app", :style=>'color:#FFF; text-decoration:none;'} Sign in to your account
+  %br
+  %p Your PHA will evaluate your current health insurance and make sure you're up-to-date with all of your medical appointments. Then you'll work together to create long-term health goals that fit your needs.
+  %br
+  %p Take care,
+  %p The Better team
+  %p Questions? Comments? Just reply to this email.

@@ -129,4 +129,10 @@ class UserMailer < ActionMailer::Base
     @onboarding_group = OnboardingGroup.find(onboarding_group_id)
     mail(to: email, subject: "New sign up for #{@onboarding_group.name}")
   end
+
+  def business_on_board_invitation_email(user,link)
+    @user = user
+    @link = link
+    mail(to: @user.email, subject: 'B2B sign up')
+  end
 end
