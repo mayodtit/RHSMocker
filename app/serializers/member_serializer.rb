@@ -153,7 +153,7 @@ class MemberSerializer < ActiveModel::Serializer
 
   def address
     addrs = object.addresses.order("updated_at DESC")
-    addrs.find{|a| a.name == "office"} || addrs.first
+    addrs.find{|a| a.name == "office"} || addrs.find{|a| a.name == "NPI"} || addrs.first
   end
 
   def city
