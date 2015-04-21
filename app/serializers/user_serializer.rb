@@ -4,7 +4,7 @@ class UserSerializer < ActiveModel::Serializer
   attributes :id, :first_name, :last_name, :birth_date, :blood_type,
              :diet_id, :email, :ethnic_group_id, :gender, :height,
              :deceased, :date_of_death, :npi_number, :expertise,
-             :phone, :nickname, :city, :work_phone_number,
+             :phone, :nickname, :work_phone_number,
              :avatar_url, :ethnic_group, :diet, :address,
              :full_name, :provider_taxonomy_code, :taxonomy_classification,
              :email_read_only, :sharing_prohibited, :owner_id, :text_phone_number,
@@ -49,6 +49,6 @@ class UserSerializer < ActiveModel::Serializer
   end
 
   def address
-    object.addresses.first
+    object.addresses.find_by_name("office") || object.addresses.find_by_name("NPI")
   end
 end
