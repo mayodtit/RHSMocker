@@ -49,6 +49,7 @@ class UserSerializer < ActiveModel::Serializer
   end
 
   def address
-    object.addresses.find_by_name("office") || object.addresses.find_by_name("NPI")
+    addrs = object.addresses.order("updated_at DESC")
+    addrs.find{|a| a.name == "office"} || addrs.find{|a| a.name == "NPI"} || addrs.first
   end
 end
