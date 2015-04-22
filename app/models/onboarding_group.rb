@@ -66,7 +66,7 @@ class OnboardingGroup < ActiveRecord::Base
     elsif subscription_days > 0 && absolute_subscription_ends_at
       subscription_days_from_now_or_absolute_subscription_ends_at(time)
     elsif absolute_subscription_ends_at
-      absolute_free_trial_ends_at
+      absolute_subscription_ends_at
     elsif subscription_days > 0
       subscription_days_from_now(time)
     else
@@ -76,7 +76,7 @@ class OnboardingGroup < ActiveRecord::Base
 
   def subscription_days_from_now_or_absolute_subscription_ends_at(time)
     if subscription_days_from_now(time) > absolute_subscription_ends_at
-      absolute_free_trial_ends_at
+      absolute_subscription_ends_at
     else
       subscription_days_from_now(time)
     end
