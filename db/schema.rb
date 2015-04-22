@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150417230241) do
+ActiveRecord::Schema.define(:version => 20150401223307) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1179,8 +1179,6 @@ ActiveRecord::Schema.define(:version => 20150417230241) do
     t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-    t.binary   "iv"
-    t.binary   "key"
   end
 
   add_index "user_files", ["user_id"], :name => "index_user_files_on_user_id"
