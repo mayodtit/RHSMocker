@@ -83,10 +83,6 @@ GEM
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
       json (>= 1.7)
-    carrierwave_encrypter_decrypter (0.0.6)
-      carrierwave
-      logger
-      rails
     codeclimate-test-reporter (0.0.7)
       simplecov (>= 0.7.1, < 1.0.0)
     coderay (1.0.9)
@@ -199,7 +195,6 @@ GEM
       less (~> 2.2.0)
     libv8 (3.16.14.7)
     listen (0.7.3)
-    logger (1.2.8)
     lumberjack (1.0.3)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -445,7 +440,6 @@ DEPENDENCIES
   cancan
   capistrano (~> 2.15)
   carrierwave
-  carrierwave_encrypter_decrypter
   codeclimate-test-reporter
   coffee-rails (~> 3.2.1)
   curb
