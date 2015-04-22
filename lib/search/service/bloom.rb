@@ -82,7 +82,9 @@ class Search::Service::Bloom
       :provider_taxonomy_code => hcp_code,
       :taxonomy_classification => HCPTaxonomy.get_classification_by_hcp_code(hcp_code)
     }
-    avatar_url = User.find_by_npi_number(record['npi']).avatar_url_override if User.find_by_npi_number(record['npi'])
+    avatar_url = User.find_by_npi_number(record['npi']).avatar.url if User.find_by_npi_number(record['npi'])
+    avatar_url_override = User.find_by_npi_number(record['npi']).avatar_url_override if User.find_by_npi_number(record['npi'])
+    avatar_url = avatar_url_override if avatar_url_override
     santized_record[:avatar_url] = avatar_url.to_s if avatar_url
     santized_record
   end
