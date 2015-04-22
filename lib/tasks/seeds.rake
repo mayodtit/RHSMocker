@@ -642,6 +642,20 @@ My phone: 650-887-3711
     puts "25 in-progress and 25 completed services are created for user with email: #{m.email}"
   end
 
+  desc "add b2b onboarding group"
+  task :add_b2b_onboarding  => :environment do
+    o = OnboardingGroup.find_or_create_by_name(name: "b2b onboarding",
+                                               premium: true,
+                                               free_trial_days: 0,
+                                               skip_credit_card: true,
+                                               subscription_days: 90)
+    puts "b2b onboarding group is created" if OnboardingGroup.find_by_name("b2b onboarding")
+    ReferralCode.find_or_create_by_name(name: 'b2b onboarding',
+                                        code: 'b2b_onboarding',
+                                        onboarding_group: o)
+    puts "b2b onboarding referral code is created" if ReferralCode.find_by_name("b2b onboarding")
+  end
+
   desc "Adds a system message to a Member's account."
   task :add_system_message, [:user_id] => :environment do |t, args|
     puts "Finding member #{args[:user_id]}"
