@@ -651,7 +651,7 @@ My phone: 650-887-3711
                                                subscription_days: 90)
     puts "b2b onboarding group is created" if OnboardingGroup.find_by_name("b2b onboarding")
     ReferralCode.find_or_create_by_name(name: 'b2b onboarding',
-                                        code: 'mayopilot2',
+                                        code: 'b2b_onboarding',
                                         onboarding_group: o)
     puts "b2b onboarding referral code is created" if ReferralCode.find_by_name("b2b onboarding")
   end
