@@ -17,6 +17,10 @@ class UserFileUploader < BaseUploader
   def fog_public
     true
   end
+
+  def fog_attributes
+    {'x-amz-server-side-encryption' => 'AES256', 'Cache-Control'=>'max-age=315576000'}
+  end
   #
   # # Provide a default URL as a default if there hasn't been a file uploaded:
   # # def default_url
