@@ -120,6 +120,7 @@ class Task < ActiveRecord::Base
     elsif (owner_id_changed? || id_changed?) && owner_id && assignor_id != owner_id && type == 'MemberTask'
       self.unread = true
     end
+    true
   end
 
   def notify
