@@ -28,18 +28,34 @@ resource "UserConditions" do
   post '/api/v1/users/:user_id/conditions' do
     let!(:user_condition) { build(:user_condition, :user => user) }
 
-    parameter :condition_id, "ID of allergy to add"
+    parameter :condition, "Condition being added"
     parameter :start_date, "Start date of the condition"
     parameter :end_date, "End date of the condition"
     parameter :being_treated, "Boolean; is the condition being treated?"
     parameter :diagnosed, "Boolean; was the condition diagnosed?"
     parameter :diagnoser_id, "ID of the user that made the diagnosis"
     parameter :diagnosed_date, "ID of the user that made the diagnosis"
-    required_parameters :condition_id
-    scope_parameters :user_condition, [:condition_id, :start_date, :end_date, :being_treated, :diagnosed,
+    parameter :name, "Name of condition"
+    parameter :snomed_name, "Official name of condition"
+    parameter :concept_id, "Concept ID of condition (not always unique)"
+    parameter :description_id, "Description ID of condition (unique)"
+    parameter :snomed_code, "Official ID of condition"
+    
+    required_parameters :condition, :name, :snomed_name, :concept_id, :description_id
+    scope_parameters :user_condition, [:condition, :start_date, :end_date, :being_treated, :diagnosed,
                                      :diagnoser_id, :diagnosed_date]
+    scope_parameters :condition, [:name, :snomed_code, :snomed_name, :concept_id, :description_id]
 
-    let(:condition_id) { user_condition.condition_id }
+    let(:condition) { 
+      {
+        name: "ADHD - Attention deficit disorder with hyperactivity",
+        snomed_code: "406506008",
+        snomed_name: "Attention deficit hyperactivity disorder (disorder)",
+        concept_id: "406506008",
+        description_id: "2163260014"
+      }
+    }
+
     let(:start_date) { user_condition.start_date + 1.day }
     let(:end_date) { user_condition.end_date + 1.day }
     let(:being_treated) { true }
