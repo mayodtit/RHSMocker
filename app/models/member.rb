@@ -336,6 +336,40 @@ class Member < User
     mt.create_message(Member.robot, master_consult, false, true, true) if mt
   end
 
+  def queue(options = Hash.new)
+    return if role.nil?
+    query = Task.owned self
+    if on_call?
+      if Metadata.on_call_queue_only_inbound_and_unassigned?
+        query = Task.needs_triage self
+      else
+        query = Task.needs_triage_or_owned self
+      end
+    end
+
+    tasks = query.where(role_id: role.id, visible_in_queue: true, unread: false, urgent: false).includes(:member).order(task_order)
+    immediate_tasks = query.where(role_id: role.id, visible_in_queue: true).where('unread IS TRUE OR urgent IS TRUE').includes(:member).order(task_order) if pha?
+    tomorrow_count = 0
+    future_count = 0
+
+    if options[:only_today]
+      eod = Time.now.pacific.end_of_day
+      tom_eod = 1.day.from_now.pacific.end_of_day
+      future_count = tasks.where('due_at > ?', eod).count
+      tomorrow_count = tasks.where('due_at > ? && due_at <= ?', eod, tom_eod).count
+      tasks = tasks.where('due_at <= ?', eod)
+    end
+
+    if options[:until_tomorrow]
+      tom_eod = 1.day.from_now.pacific.end_of_day
+      future_count = tasks.where('due_at > ?', tom_eod).count
+      tasks = tasks.where('due_at <= ?', tom_eod)
+    end
+
+    tasks = immediate_tasks + tasks if pha?
+    return tasks, tomorrow_count, future_count
+  end
+
   protected
 
   def free_trial_ends_at_is_nil
@@ -343,6 +377,19 @@ class Member < User
   end
 
   private
+
+  def role
+    if roles.include? Role.pha
+      return Role.pha
+    elsif roles.include? Role.nurse
+      return Role.nurse
+    end
+  end
+
+  def task_order
+    pacific_offset = Time.zone_offset('PDT')/3600
+    "DATE(CONVERT_TZ(due_at, '+0:00', '#{pacific_offset}:00')) ASC, priority DESC, day_priority DESC, due_at ASC, created_at ASC"
+  end
 
   state_machine :status, initial: ->(m){m.initial_state} do
     store_audit_trail to: 'MemberStateTransition', context_to_log: %i(actor_id free_trial_ends_at)
