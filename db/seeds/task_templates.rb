@@ -574,3 +574,85 @@ TaskTemplate.upsert_attributes({name: "record recovery - update member records t
                                 description: RECORD_RECOVERY_UPDATE_MEMBER_RECORDS_TRANSFERRED_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 8})
+
+# Prescription Organization
+
+PRESCRIPTION_ORGANIZATION_COLLECT_INFORMATION_DESCRIPTION = <<-eof
+1. If member has login to online portal:
+  * Login to the member’s account
+  * Find list of prescriptions
+  * Download list of prescriptions or screenshot information and save to member’s drive (see Step 3)
+2. If they don’t have/don’t want a login:
+  * Call pharmacy and dial member in for verbal consent if needed
+  * Request a list of the member’s Rx be emailed to pha@getbetter.com or faxed to 8662848260
+  * Questions to ask pharmacy
+  * Do we need written authorization for next time or will their verbal consent today stand?
+  * When I call to refill these prescriptions, what info will you need to refill each prescription?
+  	* Update service notes and spreadsheet with answers to questions
+  * When list received, save list of prescriptions to member’s folder in drive (see Step 3)
+3. Save list/screenshot to member’s folder in drive as: *RxList_PharmacyName_MemberName* (ex: RxList_CVS_12345)
+4. Repeat for all pharmacies member uses
+5. Complete Task
+eof
+
+PRESCRIPTION_ORGANIZATION_UPDATE_MEMBER_INFORMATION_RECEIVED_DESCRIPTION = <<-eof
+1. Update member that prescription information was received
+2. Complete Task
+
+>Hi [member], just an update that we received your prescription information from [pharmacy name]. I’ll update you when we have organized the information and will need you to confirm that we aren’t missing any of your medications.`
+eof
+
+PRESCRIPTION_ORGANIZATION_CREATE_SPREADSHEET_DESCRIPTION = <<-eof
+1. Go to the [CF Template spreadsheet](https://drive.google.com/open?id=1IDP3_rA9wxmImFeUKYwvpDlSL5sWYBisnstj9p_pjfE&authuser=0)
+2. Right click and choose “Make a Copy”
+3. Rename to “Prescription Information - [member id]” (ex: Prescription Information - 122345)
+4. Move document to member’s folder
+5. Right click and choose “Get Link”, copy link and paste in member’s profile and Service Notes
+6. Add each prescription to the spreadsheet
+7. If missing information (refill dates, number of refills, etc) contact pharmacy or make a task for PHA to ask member directly
+8. Complete task
+eof
+
+PRESCRIPTION_ORGANIZATION_UPDATE_MEMBER_CONFIRMATION_DESCRIPTION = <<-eof
+1. Send member a list of the medications (name only) in a message or email
+2. Request that they send the name of any missing supplements or medications
+3. Confirm where they fill/purchase any missing meds so you can coordinate refills
+4. Save information in spreadsheet
+5. Add prescribing doctors to profile
+6. Complete task
+
+> Hi [member], here are the medications that I received information on from [pharmacy]. Are there any medications or supplements that are missing?
+>   - Item 1
+>   - Item 2
+>   - Item 3
+>   - etc
+eof
+
+TaskTemplate.upsert_attributes({name: "prescription organization - collect information"},
+                               {service_template: ServiceTemplate.find_by_name('prescription organization'),
+                                title: "Collect Prescription Information",
+                                description: PRESCRIPTION_ORGANIZATION_COLLECT_INFORMATION_DESCRIPTION,
+                                time_estimate: 60,
+                                service_ordinal: 0})
+
+TaskTemplate.upsert_attributes({name: "prescription organization - send member update - information received"},
+                               {service_template: ServiceTemplate.find_by_name('prescription organization'),
+                                title: "Send member update - prescription information received",
+                                description: PRESCRIPTION_ORGANIZATION_UPDATE_MEMBER_INFORMATION_RECEIVED_DESCRIPTION,
+                                time_estimate: 60,
+                                service_ordinal: 1})
+
+TaskTemplate.upsert_attributes({name: "prescription organization - create spreadsheet"},
+                               {service_template: ServiceTemplate.find_by_name('prescription organization'),
+                                title: "Save prescription information in spreadsheet",
+                                description: PRESCRIPTION_ORGANIZATION_CREATE_SPREADSHEET_DESCRIPTION,
+                                time_estimate: 60,
+                                service_ordinal: 2})
+
+
+TaskTemplate.upsert_attributes({name: "prescription organization - send member - confirmation"},
+                               {service_template: ServiceTemplate.find_by_name('prescription organization'),
+                                title: "Send member update - confirm all prescriptions are on file",
+                                description: PRESCRIPTION_ORGANIZATION_UPDATE_MEMBER_CONFIRMATION_DESCRIPTION,
+                                time_estimate: 60,
+                                service_ordinal: 3})

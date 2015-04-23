@@ -165,3 +165,32 @@ ServiceTemplate.upsert_attributes({name: "record recovery"},
                                   service_type: ServiceType.find_by_name('record recovery'),
                                   time_estimate: 11880}
 )
+
+PRESCRIPTION_ORGANIZATION_DESCRIPTION = <<-eof
+**Service assigned to PHA**
+
+**Pharmacy 1**
+-Phone
+-Address
+-Online portal login
+-Online portal password
+**Pharmacy 2 (if applicable)**
+**Available time for verbal auth:**
+**Link to list of medications from pharmacy:**
+**Link to Prescription Information Spreadsheet:**
+
+eof
+
+PRESCRIPTION_ORGANIZATION_UPDATE = <<-eof
+* Next services that come out it
+* Written auth needed
+* Manual / auto refill services
+
+eof
+
+ServiceTemplate.upsert_attributes({name: "prescription organization"},
+                                  {title: "Prescription Organization",
+                                   description: PRESCRIPTION_ORGANIZATION_DESCRIPTION,
+                                   service_type: ServiceType.find_by_name('prescription management'),
+                                   time_estimate: 240}
+)
