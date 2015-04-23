@@ -132,6 +132,12 @@ PROVIDER_SEARCH_FOLLOW_UP_DESCRIPTION = <<-eof
 2. Complete task
 eof
 
+PROVIDER_SEARCH_FOLLOW_UP_DESCRIPTION = <<-eof
+1. Go to providers tab in member’s profile
+2. Add doctor to profile if they are not already there
+3. Complete task
+eof
+
 TaskTemplate.upsert_attributes({name: "provider search - find options"},
                                {service_template: ServiceTemplate.find_by_name('provider search'),
                                 title: "Find initial provider options",
@@ -150,6 +156,13 @@ TaskTemplate.upsert_attributes({name: "provider search - follow up"},
                                {service_template: ServiceTemplate.find_by_name('provider search'),
                                 title: "Follow up - provider options",
                                 description: PROVIDER_SEARCH_FOLLOW_UP_DESCRIPTION,
+                                time_estimate: 4320,
+                                service_ordinal: 2})
+
+TaskTemplate.upsert_attributes({name: "provider search - add doctor"},
+                               {service_template: ServiceTemplate.find_by_name('provider search'),
+                                title: " Confirm or add doctor to profile",
+                                description: PROVIDER_SEARCH_ADD_DOCTOR_DESCRIPTION,
                                 time_estimate: 4320,
                                 service_ordinal: 2})
 
