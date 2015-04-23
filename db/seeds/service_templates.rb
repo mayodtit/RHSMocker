@@ -31,7 +31,7 @@ ServiceTemplate.upsert_attributes({name: "provider search"},
                                   suggestion_message: "I'd like to find a doctor"})
 
 APPOINTMENT_BOOKING_DESCRIPTION = <<-eof
-**Service assigned to PHA**
+**This Service Is Assigned to PHA**
 
 #Member Request
 * **Member:**
@@ -76,15 +76,19 @@ ServiceTemplate.upsert_attributes({name: "appointment booking"},
                                   suggestion_message: "I'm interested in scheduling an appointment"})
 
 CARE_COORDINATION_CALL_DESCRIPTION = <<-eof
-Who to call:
-Phone number:
-For member:
-Reason for call:
-Questions to ask:
-Possible next steps:
+**This Service Is Assigned to PHA**
 
-**Specialist Call Notes:**
+#Member Request
+* **Who to call:**
+* **Phone number:**
+* **For member:**
+* **Reason for call:**
+* **Questions to ask:**
+* **Possible next steps:**
+
+#Specialist notes
 Who you spoke with:
+Date/time of call:
 Notes from call:
 eof
 
@@ -108,14 +112,19 @@ ServiceTemplate.upsert_attributes({name: "care coordination call"},
                                   time_estimate: 120})
 
 PHA_AUTHORIZATION_DESCRIPTION = <<-eof
+**This Service Is Assigned to Specialist**
+
+#Member Request
 * **Member:**
 * **Insurance company:**
 * **Insurance phone number:**
 * **Purpose of authorization:**
 * **Name of person to authorize**
 * **Link to signed form:**
-* **Date sent to insurance:**
-* **Member information** Birth dates, Address, insurance number, legal name
+* **Date sent to insurance:*
+* **Member information:** Birth dates, Address, insurance number, legal name
+
+#Specialist notes
 eof
 
 ServiceTemplate.upsert_attributes({name: "pha authorization"},
@@ -178,19 +187,18 @@ PRESCRIPTION_ORGANIZATION_DESCRIPTION = <<-eof
 **Available time for verbal auth:**
 **Link to list of medications from pharmacy:**
 **Link to Prescription Information Spreadsheet:**
-
 eof
 
 PRESCRIPTION_ORGANIZATION_UPDATE = <<-eof
 * Next services that come out it
 * Written auth needed
 * Manual / auto refill services
-
 eof
 
 ServiceTemplate.upsert_attributes({name: "prescription organization"},
                                   {title: "Prescription Organization",
                                    description: PRESCRIPTION_ORGANIZATION_DESCRIPTION,
+                                   service_update: PRESCRIPTION_ORGANIZATION_UPDATE,
                                    service_type: ServiceType.find_by_name('prescription management'),
                                    time_estimate: 240}
 )
