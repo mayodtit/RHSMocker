@@ -39,6 +39,7 @@ class Message < ActiveRecord::Base
 
   before_validation :set_user_from_association, on: :create
   before_validation :attach_user_image, if: ->(m){m.user_image_client_guid}, on: :create
+  before_validation :fix_bad_markdown_links, on: :create
   after_commit :publish, on: :create
   after_create :notify_initiator
   after_create :create_task
@@ -55,7 +56,12 @@ class Message < ActiveRecord::Base
   end
 
   def fix_bad_markdown_links!
-    update_attributes!(text: text.gsub(Message::MARKDOWN_LINK_REGEX, '(\1\2)'))
+    fix_bad_markdown_links
+    save!
+  end
+
+  def fix_bad_markdown_links
+    self.text = text.try(:gsub, Message::MARKDOWN_LINK_REGEX, '(\1\2)')
   end
 
   def publish
