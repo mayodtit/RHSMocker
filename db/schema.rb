@@ -1444,7 +1444,6 @@ ActiveRecord::Schema.define(:version => 20150421183832) do
     t.date     "date_of_death"
     t.string   "expertise"
     t.boolean  "deceased",                                      :default => false, :null => false
-    t.string   "city"
     t.string   "type",                                          :default => "",    :null => false
     t.string   "invitation_token"
     t.string   "units",                                         :default => "US",  :null => false
