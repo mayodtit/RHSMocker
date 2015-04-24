@@ -1,5 +1,6 @@
 class Message < ActiveRecord::Base
   MARKDOWN_LINK_REGEX = /\(\s+(\S*)\s*\)|\(\s*(\S*)\s+\)/
+  MYSQL_MARKDOWN_LINK_REGEX = "\\\\([[:space:]].*\\\\)|\\\\(.*[[:space:]]\\\\)"
 
   belongs_to :user
   belongs_to :consult
@@ -47,6 +48,14 @@ class Message < ActiveRecord::Base
   accepts_nested_attributes_for :scheduled_phone_call
   accepts_nested_attributes_for :phone_call_summary
   mount_uploader :image, MessageImageUploader
+
+  def self.with_bad_markdown_links
+    where("text REGEXP \"#{MYSQL_MARKDOWN_LINK_REGEX}\"")
+  end
+
+  def fix_bad_markdown_links!
+    update_attributes!(text: text.gsub(Message::MARKDOWN_LINK_REGEX, '(\1)'))
+  end
 
   def publish
     PubSub.publish "/users/#{consult.initiator_id}/consults/#{consult_id}/messages/new", {id: id}, pubsub_client_id

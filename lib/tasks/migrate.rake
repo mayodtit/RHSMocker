@@ -135,19 +135,17 @@ namespace :migrate do
     }
   end
 
-  MYSQL_MARKDOWN_LINK_REGEX = "\\\\([[:space:]].*\\\\)|\\\\(.*[[:space:]]\\\\)"
-
   task :fix_markdown_links, [:dry_run] => :environment do |t, args|
     dry_run = args[:dry_run] != 'false'
 
     puts 'Dry run! Not committing any changes!' if dry_run
 
-    broken_messages = Message.where("text REGEXP \"#{MYSQL_MARKDOWN_LINK_REGEX}\"")
+    broken_messages = Message.with_bad_markdown_links
 
     puts "Fixing #{pluralize(broken_messages.length, 'message')}."
 
     broken_messages.each do |m|
-      m.update_attributes!(text: m.text.gsub(Message::MARKDOWN_LINK_REGEX, '(\1)')) unless dry_run
+      m.fix_bad_markdown_links! unless dry_run
       print '.'
     end
 
