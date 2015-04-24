@@ -40,7 +40,7 @@ class Search::Service::Bloom
     counter = 0
     params.keys.each do |key|
       if key == 'practice_address.zip'
-        result << "key#=practice_address.zip&op#{counter}=prefix" + params['practice_address.zip'].split(' ').map { |zip| "&value#{counter}=#{zip}" }.join
+        result << "key#{counter}=practice_address.zip&op#{counter}=prefix" + params['practice_address.zip'].split(' ').map { |zip| "&value#{counter}=#{zip}" }.join
       elsif key == 'offset' || key == 'limit'
         result << "#{key.to_s}=" + params[key].to_s.downcase
       elsif key == 'first_name' || key == 'last_name'
@@ -49,7 +49,7 @@ class Search::Service::Bloom
           counter += 1
         end
       else
-        result << "key#=#{key.to_s}&op#{counter}=prefix&value#{counter}=#{params[key].to_s.downcase}"
+        result << "key#{counter}=#{key.to_s}&op#{counter}=prefix&value#{counter}=#{params[key].to_s.downcase}"
       end
       counter += 1
     end
