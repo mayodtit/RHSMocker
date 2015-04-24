@@ -454,6 +454,9 @@ class Member < User
 
     after_transition %i(premium chamath) => :free do |member, transition|
       DestroyStripeSubscriptionService.new(member, :downgrade).call if member.stripe_customer_id
+      [member.outbound_scheduled_communications, member.inbound_scheduled_communications, member.referring_scheduled_communications].each do |communications|
+        communications.each{|communication| communication.cancel!}
+      end
     end
   end
 
