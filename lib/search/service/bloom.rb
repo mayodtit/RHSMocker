@@ -40,20 +40,25 @@ class Search::Service::Bloom
     counter = 0
     params.keys.each do |key|
       if key == 'practice_address.zip'
-        result << "key#{counter}=practice_address.zip&op#{counter}=prefix" + params['practice_address.zip'].split(' ').map { |zip| "&value#{counter}=#{zip}" }.join
+        result << query_string(counter, key, params['practice_address.zip'].split(' '))
       elsif key == 'offset' || key == 'limit'
         result << "#{key.to_s}=" + params[key].to_s.downcase
       elsif key == 'first_name' || key == 'last_name'
         params[key].split(/[\s\-']/).each do |partname|
-          result << "key#{counter}=#{key.to_s}&op#{counter}=prefix&value#{counter}=#{partname.to_s.downcase}"
+          result << query_string(counter, key, partname)
           counter += 1
         end
       else
-        result << "key#{counter}=#{key.to_s}&op#{counter}=prefix&value#{counter}=#{params[key].to_s.downcase}"
+        result << query_string(counter, key, params[key])
       end
       counter += 1
     end
     result.join('&')
+  end
+
+  def query_string(number, key, values)
+    values = [values] if values.is_a? String
+    "key#{number}=#{key.to_s}&op#{number}=prefix" + values.map{|value| "&value#{number}=#{value.to_s.downcase}"}.join
   end
 
   def sanitize_response(response)
