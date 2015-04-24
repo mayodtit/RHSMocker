@@ -150,6 +150,7 @@ ServiceType.find_or_create_by_name(name: 'natural disaster preparedness', bucket
 ServiceType.upsert_attributes!({name: 'provider search'}, {bucket: 'care coordination', description_template: PROVIDER_SEARCH_DESCRIPTION_TEMPLATE})
 ServiceType.upsert_attributes!({name: 'record recovery'}, {bucket: 'care coordination', description_template: RECORD_RECOVERY_DESCRIPTION_TEMPLATE})
 ServiceType.find_or_create_by_name(name: 'prescription management', bucket: 'care coordination')
+ServiceType.find_or_create_by_name(name: 'prescription organization', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'symptom management', bucket: 'care coordination')
 ServiceType.find_or_create_by_name(name: 'other care coordination', bucket: 'care coordination')
 ServiceType.upsert_attributes!({name: 'preventive care reminders'}, bucket: 'care coordination')

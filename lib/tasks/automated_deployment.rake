@@ -2,7 +2,7 @@ require 'travis'
 
 namespace :automated_deployment do
   task deploy: :environment do
-    return unless deploy_target
+    next unless deploy_target
     attempt_deploy!
   end
 
