@@ -12,13 +12,6 @@ class Session < ActiveRecord::Base
 
   before_validation :set_auth_token
   before_destroy :unset_notification_tokens
-  before_create :set_disabled_at
-
-  def set_disabled_at
-    if member.pha? && !device_os
-      self.disabled_at ||= 15.minutes.from_now
-    end
-  end
 
   private
 

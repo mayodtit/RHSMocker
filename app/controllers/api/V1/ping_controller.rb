@@ -4,7 +4,6 @@ class Api::V1::PingController < Api::V1::ABaseController
 
   def index
     keep_alive and return if care_portal?
-    current_session.update_attributes(disabled_at: nil) if session_valid?
 
     hash = {
       revision: REVISION,
