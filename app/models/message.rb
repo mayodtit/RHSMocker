@@ -55,7 +55,7 @@ class Message < ActiveRecord::Base
   end
 
   def fix_bad_markdown_links!
-    update_attributes!(text: text.gsub(Message::MARKDOWN_LINK_REGEX, '(\1)'))
+    update_attributes!(text: text.gsub(Message::MARKDOWN_LINK_REGEX, '(\1\2)'))
   end
 
   def publish
