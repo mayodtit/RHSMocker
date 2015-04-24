@@ -49,6 +49,10 @@ describe Message do
   end
 
   describe '::with_bad_markdown_links' do
+    before do
+      Message.any_instance.stub(:fix_bad_markdown_links)
+    end
+
     let!(:pha) { create(:pha) }
     let!(:member) { create(:member, :premium, pha: pha) }
     let!(:consult) { member.master_consult }
