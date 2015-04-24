@@ -37,14 +37,22 @@ class Search::Service::Bloom
   def query_params(params)
     params = sanitize_params(params)
     result = []
-    params.keys.each_with_index do |key, i|
+    counter = 0
+    params.keys.each do |key|
+      i = counter
       if key == 'practice_address.zip'
         result << "key#{i}=practice_address.zip&op#{i}=prefix" + params['practice_address.zip'].split(' ').map { |zip| "&value#{i}=#{zip}" }.join
       elsif key == 'offset' || key == 'limit'
         result << "#{key.to_s}=" + params[key].to_s.downcase
+      elsif key == 'first_name' || key == 'last_name'
+        params[key].split(/[\s\-']/).each do |partname|
+          result << "key#{counter}=#{key.to_s}&op#{counter}=prefix&value#{counter}=#{partname.to_s.downcase}"
+          counter += 1
+        end
       else
         result << "key#{i}=#{key.to_s}&op#{i}=prefix&value#{i}=#{params[key].to_s.downcase}"
       end
+      counter += 1
     end
     result.join('&')
   end
