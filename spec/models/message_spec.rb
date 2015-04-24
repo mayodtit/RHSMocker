@@ -17,6 +17,48 @@ describe Message do
   it_validates 'foreign key of', :phone_call_summary
   it_validates 'foreign key of', :user_image
 
+  describe '::with_bad_markdown_links' do
+    let!(:pha) { create(:pha) }
+    let!(:member) { create(:member, :premium, pha: pha) }
+    let!(:consult) { member.master_consult }
+    let!(:pre) { consult.messages.create(user: pha, text: '[Bad message]( www.google.com)') }
+    let!(:post) { consult.messages.create(user: pha, text: '[Bad message](www.google.com )') }
+    let!(:both) { consult.messages.create(user: pha, text: '[Bad message]( www.google.com )') }
+
+    it 'returns messages with spaces before, after, or both' do
+      expect(described_class.with_bad_markdown_links).to include(pre, post, both)
+    end
+  end
+
+  describe '#fix_bad_markdown_links!' do
+    context 'with spaces before' do
+      let(:message) { create(:message, text: '[Bad message]( www.google.com)') }
+
+      it 'strips the spaces' do
+        message.fix_bad_markdown_links!
+        expect(message.reload.text).to eq('[Bad message](www.google.com)')
+      end
+    end
+
+    context 'with spaces after' do
+      let(:message) { create(:message, text: '[Bad message](www.google.com )') }
+
+      it 'strips the spaces' do
+        message.fix_bad_markdown_links!
+        expect(message.reload.text).to eq('[Bad message](www.google.com)')
+      end
+    end
+
+    context 'with spaces before and after' do
+      let(:message) { create(:message, text: '[Bad message]( www.google.com )') }
+
+      it 'strips the spaces' do
+        message.fix_bad_markdown_links!
+        expect(message.reload.text).to eq('[Bad message](www.google.com)')
+      end
+    end
+  end
+
   describe 'publish' do
     let(:message) { build_stubbed(:message) }
 
