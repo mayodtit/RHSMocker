@@ -2,6 +2,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_consult!
   before_filter :load_users!, only: :index
+  before_filter :fix_markdown_links!, only: :create
 
   def index
     render_success(consult: @consult.serializer,
@@ -86,5 +87,9 @@ class Api::V1::MessagesController < Api::V1::ABaseController
       attributes[:user] = current_user.impersonated_user || current_user
       attributes[:image] = decode_b64_image(attributes[:image]) if attributes[:image]
     end
+  end
+
+  def fix_markdown_links!
+    params[:message][:text] = params[:message][:text].gsub(Message::MARKDOWN_LINK_REGEX, '(\1\2)') if params[:message].try(:[], :text)
   end
 end

@@ -134,4 +134,34 @@ namespace :migrate do
       task.save
     }
   end
+
+  task :fix_markdown_links, [:dry_run] => :environment do |t, args|
+    dry_run = args[:dry_run] != 'false'
+
+    puts 'Dry run! Not committing any changes!' if dry_run
+
+    broken_messages = Message.with_bad_markdown_links
+
+    puts "Fixing #{pluralize(broken_messages.length, 'message')}."
+
+    broken_messages.each do |m|
+      m.fix_bad_markdown_links! unless dry_run
+      print '.'
+    end
+
+    members = Member.joins(:master_consult).where(consults: {id: broken_messages.map(&:consult_id)})
+
+    puts "\nLogging out #{pluralize(members.length, 'user')}."
+
+    members.each do |member|
+      member.sessions.destroy_all unless dry_run
+      print "."
+    end
+
+    puts "\nAll done!"
+  end
+
+  def pluralize(count, singular)
+    ActionController::Base.helpers.pluralize(count, singular)
+  end
 end
