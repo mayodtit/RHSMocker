@@ -1,4 +1,6 @@
 class Message < ActiveRecord::Base
+  MARKDOWN_LINK_REGEX = /\(\s+(\S*)\s*\)|\(\s*(\S*)\s+\)/
+
   belongs_to :user
   belongs_to :consult
   belongs_to :content

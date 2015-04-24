@@ -254,6 +254,50 @@ describe 'Messages' do
       message = Message.find(body[:message][:id])
       expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
     end
+
+    context 'with erroneous markdown' do
+      describe 'space before' do
+        let(:text) { "[Bad markdown link]( www.google.com)" }
+        let(:message_params) { {message: {text: text}} }
+
+        it 'corrects markdown before it saves' do
+          expect{ do_request(message_params) }.to change(Message, :count).by(1)
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          message = Message.find(body[:message][:id])
+          expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
+          expect(message.text).to eq("[Bad markdown link](www.google.com)")
+        end
+      end
+
+      describe 'space after' do
+        let(:text) { "[Bad markdown link](www.google.com )" }
+        let(:message_params) { {message: {text: text}} }
+
+        it 'corrects markdown before it saves' do
+          expect{ do_request(message_params) }.to change(Message, :count).by(1)
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          message = Message.find(body[:message][:id])
+          expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
+          expect(message.text).to eq("[Bad markdown link](www.google.com)")
+        end
+      end
+
+      describe 'space before and after' do
+        let(:text) { "[Bad markdown link]( www.google.com )" }
+        let(:message_params) { {message: {text: text}} }
+
+        it 'corrects markdown before it saves' do
+          expect{ do_request(message_params) }.to change(Message, :count).by(1)
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          message = Message.find(body[:message][:id])
+          expect(body[:message].to_json).to eq(message.serializer.as_json.to_json)
+          expect(message.text).to eq("[Bad markdown link](www.google.com)")
+        end
+      end
+    end
   end
 
   describe 'POST /api/v1/consults/:consult_id/messages' do
