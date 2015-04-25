@@ -33,6 +33,8 @@ class Api::V1::AddressesController < Api::V1::ABaseController
   def load_address!
     @address = if params[:id] == "office"
                  @addresses.find_by_name!("office")
+               elsif params[:id] == "NPI"
+                 @addresses.find_by_name!("NPI")
                else
                  @addresses.find(params[:id])
                end
