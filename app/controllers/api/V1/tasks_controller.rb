@@ -12,38 +12,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
 
   def queue
     authorize! :read, Task
-
-    query = Task.owned current_user
-    if current_user.on_call?
-      if Metadata.on_call_queue_only_inbound_and_unassigned?
-        query = Task.needs_triage current_user
-      else
-        query = Task.needs_triage_or_owned current_user
-      end
-    end
-
-    tasks = query.where(role_id: role.id, visible_in_queue: true, unread: false, urgent: false).includes(:member).order(task_order)
-    immediate_tasks = query.where(role_id: role.id, visible_in_queue: true).where('unread IS TRUE OR urgent IS TRUE').includes(:member).order(task_order) if current_user.pha?
-    tomorrow_count = 0
-    future_count = 0
-
-    if only_today?
-      eod = Time.now.pacific.end_of_day
-      tom_eod = 1.day.from_now.pacific.end_of_day
-      future_count = tasks.where('due_at > ?', eod).count
-      tomorrow_count = tasks.where('due_at > ? && due_at <= ?', eod, tom_eod).count
-      tasks = tasks.where('due_at <= ?', eod)
-    end
-
-    if until_tomorrow?
-      eod = Time.now.pacific.end_of_day
-      tom_eod = 1.day.from_now.pacific.end_of_day
-      future_count = tasks.where('due_at > ?', tom_eod).count
-      tasks = tasks.where('due_at <= ?', tom_eod)
-    end
-
-    tasks = immediate_tasks + tasks if current_user.pha?
-
+    tasks, tomorrow_count, future_count = current_user.queue(params)
     render_success tasks: tasks.serializer(shallow: true), tomorrow_count: tomorrow_count, future_count: future_count
   end
 
@@ -127,13 +96,5 @@ class Api::V1::TasksController < Api::V1::ABaseController
 
   def task_attributes
     params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :day_priority, :pubsub_client_id, :urgent)
-  end
-
-  def only_today?
-    params[:only_today]
-  end
-
-  def until_tomorrow?
-    params[:until_tomorrow]
   end
 end

@@ -49,4 +49,9 @@ namespace :scheduled do
   task :timeout_messages => :environment do
     ScheduledJobs.timeout_messages
   end
+
+  desc 'Update user gravatars.'
+  task :update_gravatar => :environment do
+    ScheduledJobs.update_gravatar
+  end
 end

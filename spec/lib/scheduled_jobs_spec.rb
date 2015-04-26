@@ -428,4 +428,27 @@ describe ScheduledJobs do
       expect(message_task.owner).to eq(nil)
     end
   end
+
+  describe '#update_gravatar' do
+    context 'avatar_url_override is nil' do
+      let!(:member) { create :member }
+      it 'it should update member\'s gravatar if possible' do
+        expect(member.avatar_url_override).to eq(nil)
+      end
+    end
+
+    context 'avatar_url_override is set to non-gravatar url' do
+      let!(:member) {create :member, avatar_url_override: 'blah'}
+      it 'it should note update member\'s avatar if avatar_url_override is filled with something else not from gravatar' do
+        expect(member.avatar_url_override).to eq('blah')
+      end
+    end
+
+    context 'avatar_url_override is set to gravatar url' do
+      let!(:member) {create :member, avatar_url_override: 'https://secure.gravatar.com/avatar/blah.png'}
+      it 'it should note update member\'s gravatar' do
+        expect(member.avatar_url_override).to eq(nil)
+      end
+    end
+  end
 end

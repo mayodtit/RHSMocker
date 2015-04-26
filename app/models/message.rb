@@ -12,6 +12,7 @@ class Message < ActiveRecord::Base
   belongs_to :phone_call_summary, inverse_of: :message
   belongs_to :user_image, inverse_of: :messages
   has_many :message_statuses
+  has_one :entry, as: :resource
   attr_accessor :no_notification, :pubsub_client_id
 
   attr_accessible :user, :user_id, :consult, :consult_id, :content,
@@ -38,6 +39,7 @@ class Message < ActiveRecord::Base
 
   before_validation :set_user_from_association, on: :create
   before_validation :attach_user_image, if: ->(m){m.user_image_client_guid}, on: :create
+  before_validation :fix_bad_markdown_links, on: :create
   after_commit :publish, on: :create
   after_create :notify_initiator
   after_create :create_task
@@ -54,7 +56,12 @@ class Message < ActiveRecord::Base
   end
 
   def fix_bad_markdown_links!
-    update_attributes!(text: text.gsub(Message::MARKDOWN_LINK_REGEX, '(\1\2)'))
+    fix_bad_markdown_links
+    save!
+  end
+
+  def fix_bad_markdown_links
+    self.text = text.try(:gsub, Message::MARKDOWN_LINK_REGEX, '(\1\2)')
   end
 
   def publish
@@ -83,9 +90,8 @@ class Message < ActiveRecord::Base
   end
 
   def update_initiator_last_contact_at
-    unless system? || phone_call_summary || (phone_call && phone_call.to_nurse?) || note? || user == consult.initiator
-      consult.initiator.update_attributes! last_contact_at: self.created_at
-    end
+    return if system? || phone_call_summary || (phone_call && phone_call.to_nurse?) || note? || user == consult.initiator
+    consult.initiator.update_attributes! last_contact_at: self.created_at
   end
 
   def self.before(id=nil)

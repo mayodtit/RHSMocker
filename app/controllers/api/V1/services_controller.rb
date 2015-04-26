@@ -3,6 +3,9 @@ class Api::V1::ServicesController < Api::V1::ABaseController
   before_filter :load_member!, only: [:index, :create]
   before_filter :load_service!, only: [:show, :update]
   before_filter :load_service_template!, only: :create
+  before_filter :load_user_services!, only: :activities
+  before_filter :load_suggestions!, only: :activities
+  before_filter :load_users!, only: :activities
 
   def index
     authorize! :read, Service
@@ -14,7 +17,7 @@ class Api::V1::ServicesController < Api::V1::ABaseController
     authorize! :create, Service
     if @service_template
       @service = @service_template.create_service! create_params
-      render_success(service: @service.serializer)
+      render_success(service: @service.serializer, entry: @service.entry.serializer)
     else
       create_resource Service, create_params
     end
@@ -22,6 +25,12 @@ class Api::V1::ServicesController < Api::V1::ABaseController
 
   def show
     show_resource @service.serializer
+  end
+
+  def activities
+    render_success(users: @users.serializer,
+                   services: @user_services.serializer(shallow: true),
+                   suggestions: @suggestions.serializer)
   end
 
   def update
@@ -51,7 +60,11 @@ class Api::V1::ServicesController < Api::V1::ABaseController
   private
 
   def load_member!
-    @member = Member.find(params[:member_id] || params[:user_id])
+    @member = if (params[:member_id] == 'current' || params[:user_id] == 'current')
+                current_user
+              else
+                Member.find(params[:member_id] || params[:user_id])
+              end
   end
 
   def load_service!
@@ -64,6 +77,26 @@ class Api::V1::ServicesController < Api::V1::ABaseController
       @service_template = ServiceTemplate.find params[:service_template_id]
       authorize! :read, @service_template
     end
+  end
+
+  def load_user_services!
+    authorize! :read, Service
+    @user_services = current_user.services.where(user_facing: true).includes(:subject)
+  end
+
+  def load_suggestions!
+    authorize! :read, SuggestedService
+    @suggestions = current_user.suggested_services
+  end
+
+  def load_users!
+    @users = [current_user]
+    @users << current_user.pha if current_user.pha
+    @user_services.each do |s|
+      @users << s.subject
+      @users << s.owner
+    end
+    @users = @users.uniq
   end
 
   def create_params

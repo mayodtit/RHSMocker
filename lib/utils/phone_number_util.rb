@@ -22,7 +22,7 @@ module PhoneNumberUtil
   end
 
   def self.format_for_dialing(phone_number)
-    return nil if phone_number.nil?
+    return nil if phone_number.blank?
 
     dialable_phone_number = phone_number
 

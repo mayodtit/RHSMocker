@@ -17,7 +17,42 @@ describe Message do
   it_validates 'foreign key of', :phone_call_summary
   it_validates 'foreign key of', :user_image
 
+  describe 'callbacks' do
+    describe '#fix_bad_markdown_links' do
+      context 'with spaces before' do
+        let(:message) { described_class.new(text: '[Bad message]( www.google.com)') }
+
+        it 'strips the spaces' do
+          message.valid?
+          expect(message.text).to eq('[Bad message](www.google.com)')
+        end
+      end
+
+      context 'with spaces after' do
+        let(:message) { described_class.new(text: '[Bad message](www.google.com )') }
+
+        it 'strips the spaces' do
+          message.valid?
+          expect(message.text).to eq('[Bad message](www.google.com)')
+        end
+      end
+
+      context 'with spaces before and after' do
+        let(:message) { described_class.new(text: '[Bad message]( www.google.com )') }
+
+        it 'strips the spaces' do
+          message.valid?
+          expect(message.text).to eq('[Bad message](www.google.com)')
+        end
+      end
+    end
+  end
+
   describe '::with_bad_markdown_links' do
+    before do
+      Message.any_instance.stub(:fix_bad_markdown_links)
+    end
+
     let!(:pha) { create(:pha) }
     let!(:member) { create(:member, :premium, pha: pha) }
     let!(:consult) { member.master_consult }

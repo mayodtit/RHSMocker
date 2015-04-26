@@ -50,6 +50,7 @@ class Member < User
   belongs_to :onboarding_group, inverse_of: :users
   belongs_to :referral_code, inverse_of: :users
   has_many :user_requests, foreign_key: :user_id
+  has_many :suggested_services, foreign_key: :user_id
   has_many :outbound_scheduled_communications, class_name: 'ScheduledCommunication',
                                                foreign_key: :sender_id,
                                                inverse_of: :sender
@@ -84,7 +85,7 @@ class Member < User
                   :cached_notifications_enabled, :email_confirmed,
                   :email_confirmation_token, :advertiser_id,
                   :advertiser_media_source, :advertiser_campaign,
-                  :impersonated_user, :impersonated_user_id,
+                  :impersonated_user, :impersonated_user_id,:delinquent,
                   :enrollment, :payment_token, :coupon_count, :unique_on_boarding_user_token
 
   validates :unique_on_boarding_user_token, uniqueness: true, allow_nil: true
@@ -106,6 +107,7 @@ class Member < User
   validates :nux_answer, presence: true, if: -> (m) { m.nux_answer_id }
   validates :email_confirmation_token, presence: true, unless: ->(m){m.email_confirmed?}
 
+  before_create :set_delinquent_to_false
   before_validation :set_member_flag
   before_validation :set_default_email_confirmed, on: :create
   before_validation :set_email_confirmation_token, unless: ->(m){m.email_confirmed?}
@@ -326,6 +328,40 @@ class Member < User
     mt.create_message(Member.robot, master_consult, false, true, true) if mt
   end
 
+  def queue(options = Hash.new)
+    return if role.nil?
+    query = Task.owned self
+    if on_call?
+      if Metadata.on_call_queue_only_inbound_and_unassigned?
+        query = Task.needs_triage self
+      else
+        query = Task.needs_triage_or_owned self
+      end
+    end
+
+    tasks = query.where(role_id: role.id, visible_in_queue: true, unread: false, urgent: false).includes(:member).order(task_order)
+    immediate_tasks = query.where(role_id: role.id, visible_in_queue: true).where('unread IS TRUE OR urgent IS TRUE').includes(:member).order(task_order) if pha?
+    tomorrow_count = 0
+    future_count = 0
+
+    if options[:only_today]
+      eod = Time.now.pacific.end_of_day
+      tom_eod = 1.day.from_now.pacific.end_of_day
+      future_count = tasks.where('due_at > ?', eod).count
+      tomorrow_count = tasks.where('due_at > ? && due_at <= ?', eod, tom_eod).count
+      tasks = tasks.where('due_at <= ?', eod)
+    end
+
+    if options[:until_tomorrow]
+      tom_eod = 1.day.from_now.pacific.end_of_day
+      future_count = tasks.where('due_at > ?', tom_eod).count
+      tasks = tasks.where('due_at <= ?', tom_eod)
+    end
+
+    tasks = immediate_tasks + tasks if pha?
+    return tasks, tomorrow_count, future_count
+  end
+
   protected
 
   def free_trial_ends_at_is_nil
@@ -333,6 +369,19 @@ class Member < User
   end
 
   private
+
+  def role
+    if roles.include? Role.pha
+      return Role.pha
+    elsif roles.include? Role.nurse
+      return Role.nurse
+    end
+  end
+
+  def task_order
+    pacific_offset = Time.zone_offset('PDT')/3600
+    "DATE(CONVERT_TZ(due_at, '+0:00', '#{pacific_offset}:00')) ASC, priority DESC, day_priority DESC, due_at ASC, created_at ASC"
+  end
 
   state_machine :status, initial: ->(m){m.initial_state} do
     store_audit_trail to: 'MemberStateTransition', context_to_log: %i(actor_id free_trial_ends_at)
@@ -534,5 +583,10 @@ class Member < User
         rsc.update_publish_at_from_calculation!
       end
     end
+  end
+
+  def set_delinquent_to_false
+    self.delinquent = false
+    nil
   end
 end

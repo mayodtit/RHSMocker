@@ -37,25 +37,53 @@ class OnboardingGroup < ActiveRecord::Base
   def free_trial_ends_at(time=nil)
     if !premium?
       nil
+    elsif free_trial_days > 0 && absolute_free_trial_ends_at
+      free_trial_days_from_now_or_absolute_free_trial_ends_at(time)
     elsif absolute_free_trial_ends_at
       absolute_free_trial_ends_at
     elsif free_trial_days > 0
-      (time || Time.now).pacific.end_of_day + free_trial_days.days
+      free_trial_days_from_now(time)
     else
       nil
     end
   end
 
+  def free_trial_days_from_now_or_absolute_free_trial_ends_at(time)
+    if free_trial_days_from_now(time) > absolute_free_trial_ends_at
+      absolute_free_trial_ends_at
+    else
+      free_trial_days_from_now(time)
+    end
+  end
+
+  def free_trial_days_from_now(time)
+    (time || Time.now).pacific.end_of_day + free_trial_days.days
+  end
+
   def subscription_ends_at(time=nil)
     if !premium?
       nil
+    elsif subscription_days > 0 && absolute_subscription_ends_at
+      subscription_days_from_now_or_absolute_subscription_ends_at(time)
     elsif absolute_subscription_ends_at
       absolute_subscription_ends_at
     elsif subscription_days > 0
-      (time || Time.now).pacific.end_of_day + subscription_days.days
+      subscription_days_from_now(time)
     else
       nil
     end
+  end
+
+  def subscription_days_from_now_or_absolute_subscription_ends_at(time)
+    if subscription_days_from_now(time) > absolute_subscription_ends_at
+      absolute_subscription_ends_at
+    else
+      subscription_days_from_now(time)
+    end
+  end
+
+  def subscription_days_from_now(time)
+    (time || Time.now).pacific.end_of_day + subscription_days.days
   end
 
   def npi_number=(npi_number)

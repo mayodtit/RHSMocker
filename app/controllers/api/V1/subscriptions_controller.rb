@@ -106,15 +106,6 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
     params.require(:subscription).require(:plan_id)
   end
 
-  def message_attributes
-    {
-      text: "Thank you for upgrading your subscription to #{Stripe::Plan.retrieve(subscription_attributes[:plan]).name}.",
-      user_id: Member.robot.id,
-      system: true,
-      consult_id: @user.master_consult.id
-    }
-  end
-
   def user_attributes
     {
       status_event: :upgrade,

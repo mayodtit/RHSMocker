@@ -828,4 +828,131 @@ describe Member do
       member.smackdown!
     end
   end
+
+  describe '#queue' do
+    let(:user) do
+      member = build_stubbed :member
+      member.add_role :nurse
+      member
+    end
+
+    let(:tasks) { [build_stubbed(:task), build_stubbed(:task)] }
+
+    let(:nurse_role) do
+      Role.find_by_name! :nurse
+    end
+
+    context 'not on call' do
+      before do
+        described_class.any_instance.stub(:on_call?) { false }
+        described_class.any_instance.stub(:task_order){ 'due_at DESC' }
+      end
+
+      it 'returns tasks for the current hcp' do
+        Task.should_receive(:owned).with(user) do
+          o = Object.new
+          o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
+            o_o = Object.new
+            o_o.stub(:includes).with(:member) do
+              o_o_o = Object.new
+              o_o_o.stub(:order).with('due_at DESC') { tasks }
+              o_o_o
+            end
+            o_o
+          end
+          o
+        end
+        expect(user.queue.first).to eq(tasks)
+      end
+    end
+
+    context 'on call' do
+      before do
+        described_class.any_instance.stub(:on_call?) { true }
+        described_class.any_instance.stub(:task_order){ 'due_at DESC' }
+      end
+
+      context 'metadata says only inbound and unassigned' do
+        before do
+          Metadata.stub(:on_call_queue_only_inbound_and_unassigned?) { true }
+        end
+
+        it 'returns tasks for the current hcp' do
+          Task.should_receive(:needs_triage).with(user) do
+            o_o = Object.new
+            o_o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
+              o_o_o = Object.new
+              o_o_o.stub(:includes).with(:member) do
+                o_o_o_o = Object.new
+                o_o_o_o.stub(:order).with('due_at DESC') { tasks }
+                o_o_o_o
+              end
+              o_o_o
+            end
+            o_o
+          end
+          expect(user.queue).to eq([tasks, 0, 0])
+        end
+      end
+
+      context 'metadata says everything' do
+        before do
+          Metadata.stub(:on_call_queue_only_inbound_and_unassigned?) { false }
+        end
+
+        it 'returns tasks for the current hcp' do
+          Task.should_receive(:needs_triage_or_owned).with(user) do
+            o_o = Object.new
+            o_o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
+              o_o_o = Object.new
+              o_o_o.stub(:includes).with(:member) do
+                o_o_o_o = Object.new
+                o_o_o_o.stub(:order).with('due_at DESC') { tasks }
+                o_o_o_o
+              end
+              o_o_o
+            end
+            o_o
+          end
+          expect(user.queue).to eq([tasks, 0, 0])
+        end
+      end
+    end
+
+    context 'param tells select only today' do
+      let!(:pha) { create(:pha) }
+      let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago) }
+      let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 2.days.from_now) }
+      let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
+
+      before do
+        [assigned_task, started_task, claimed_task].each do |task|
+          task.update_attribute('urgent', false)
+          task.update_attribute('unread', false)
+        end
+      end
+
+      it 'only return the tasks that due within today' do
+        expect(pha.queue(only_today: 'yes')).to eq([[assigned_task, claimed_task], 0, 1])
+      end
+    end
+
+    context 'param tells select till tomorrow' do
+      let!(:pha) { create(:pha) }
+      let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.from_now) }
+      let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 1.days.from_now) }
+      let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
+
+      before do
+        [assigned_task, started_task, claimed_task].each do |task|
+          task.update_attribute('urgent', false)
+          task.update_attribute('unread', false)
+        end
+      end
+
+      it 'only return the tasks that due within today' do
+        expect(pha.queue(until_tomorrow: 'yes')).to eq([[claimed_task, started_task], 0, 1])
+      end
+    end
+  end
 end

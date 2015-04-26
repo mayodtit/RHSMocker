@@ -69,10 +69,14 @@ resource 'Enrollment' do
       parameter :first_name, 'User first name'
       parameter :last_name, 'User last name'
       parameter :business_on_board, 'a indicator for business on boarding'
-      scope_parameters :enrollment, %i(email first_name last_name business_on_board)
+      parameter :code, 'a referral code that indicate the onboarding_group'
+      scope_parameters :enrollment, %i(email first_name last_name business_on_board code)
 
       let(:email) { 'kyle@getbetter.com' }
       let(:business_on_board) {'yes'}
+      let(:onboarding_group) {create(:onboarding_group)}
+      let(:referral_code) {create(:referral_code, onboarding_group_id: onboarding_group.id)}
+      let(:code) {referral_code.code}
       let(:raw_post) { params.to_json }
 
       required_parameters :email, :first_name, :business_on_board
@@ -80,6 +84,7 @@ resource 'Enrollment' do
       example_request '[POST] Create Enrollment for business on_boarding users' do
         expect(status).to eq(200)
         expect(Enrollment.count).to eq(1)
+        expect(Enrollment.first.onboarding_group_id).to eq(onboarding_group.id)
         expect(Delayed::Job.count).to eq(1)
         expect(Enrollment.last.unique_on_boarding_user_token).not_to eq(nil)
       end
@@ -95,7 +100,7 @@ resource 'Enrollment' do
       let(:unique_on_boarding_user_token){ 'uout' }
       let!(:user) { create(:member, unique_on_boarding_user_token: 'uout')}
 
-      example_request '[GET]Get user/enrollment record for business on_boarding users' do
+      example_request '[GET]Get user/enrollment record for business on_boarding users with credentials' do
         explanation 'Return the user_id, auth_token, and on_boarding stories'
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
@@ -115,7 +120,7 @@ resource 'Enrollment' do
       let(:email){ 'zeev@getworse.com' }
       let!(:enrollment) { create(:enrollment, email: email, unique_on_boarding_user_token: 'uout')}
 
-      example_request '[GET]Get user/enrollment record for business on_boarding users' do
+      example_request '[GET]Get user/enrollment record for business on_boarding users without credentials' do
         explanation 'Return the enrollment info and stories'
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)

@@ -87,7 +87,6 @@ describe Search::Service::Snomed do
     it 'filters condition terms' do
       snomed.send(:condition_filter, 'Cancer of the brain (disorder)').should == true
       snomed.send(:condition_filter, 'Cat allergy').should == true
-      snomed.send(:condition_filter, 'CA - Brain').should == true
       snomed.send(:condition_filter, 'Brain tumor').should == false
     end
   end

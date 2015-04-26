@@ -15,6 +15,7 @@ class Task < ActiveRecord::Base
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
   has_many :task_guides, class_name: 'TaskGuide', through: :task_template
   has_many :task_requirements
+  has_one :entry, as: :resource
 
   attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id
   attr_accessible :title, :description, :due_at,
@@ -114,8 +115,12 @@ class Task < ActiveRecord::Base
   end
 
   def mark_as_unread
-    return unless (owner_id_changed? || id_changed?) && owner_id && assignor_id != owner_id && type == 'MemberTask' && owner.has_role?('pha') && !owner.has_role?('specialist') && !urgent?
-    self.unread = true
+    if urgent? || (owner && owner.has_role?('specialist'))
+      self.unread = false
+    elsif (owner_id_changed? || id_changed?) && owner_id && assignor_id != owner_id && type == 'MemberTask'
+      self.unread = true
+    end
+    true
   end
 
   def notify

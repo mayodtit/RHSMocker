@@ -29,20 +29,36 @@ class Search::Service::Bloom
     new_params['practice_address.state'] = params[:state] if params[:state]
     new_params['practice_address.zip'] = params[:zip] if params[:zip]
     new_params['practice_address.city'] = params[:city] if params[:city]
+    new_params['offset'] = params[:offset] if params[:offset]
+    new_params['limit'] = params[:per] if params[:per]
     new_params
   end
 
   def query_params(params)
     params = sanitize_params(params)
     result = []
-    params.keys.each_with_index do |key, i|
+    counter = 0
+    params.keys.each do |key|
       if key == 'practice_address.zip'
-        result << "key#{i}=practice_address.zip&op#{i}=prefix" + params['practice_address.zip'].split(' ').map { |zip| "&value#{i}=#{zip}" }.join
+        result << query_string(counter, key, params['practice_address.zip'].split(' '))
+      elsif key == 'offset' || key == 'limit'
+        result << "#{key.to_s}=" + params[key].to_s.downcase
+      elsif key == 'first_name' || key == 'last_name'
+        params[key].split(/[\s\-']/).each do |partname|
+          result << query_string(counter, key, partname)
+          counter += 1
+        end
       else
-        result << "key#{i}=#{key.to_s}&op#{i}=prefix&value#{i}=#{params[key].to_s.downcase}"
+        result << query_string(counter, key, params[key])
       end
+      counter += 1
     end
     result.join('&')
+  end
+
+  def query_string(number, key, values)
+    values = [values] if values.is_a? String
+    "key#{number}=#{key.to_s}&op#{number}=prefix" + values.map{|value| "&value#{number}=#{value.to_s.downcase}"}.join
   end
 
   def sanitize_response(response)
@@ -61,17 +77,16 @@ class Search::Service::Bloom
       postal_code: p['zip'],
       country_code: p['county_code'],
       phone: p['phone'], # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
-      fax: p['fax']
+      fax: p['fax'],
+      name: "NPI"
     }
 
     hcp_code = get_hcp_code(record['provider_details'])
-    {
+    santized_record = {
       :first_name => prettify(record['first_name']),
       :last_name => prettify(record['last_name']),
       :npi_number => record['npi'].to_s,
       :address => practice_address,
-      :city => prettify(p['city']), # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
-      :state => p['state'], # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
       :phone => p['phone'],
       :expertise => record['credential'],
       :gender => record['gender'],
@@ -79,6 +94,9 @@ class Search::Service::Bloom
       :provider_taxonomy_code => hcp_code,
       :taxonomy_classification => HCPTaxonomy.get_classification_by_hcp_code(hcp_code)
     }
+    avatar_url = User.find_by_npi_number(record['npi']).avatar_url if User.find_by_npi_number(record['npi'])
+    santized_record[:avatar_url] = avatar_url if avatar_url
+    santized_record
   end
 
   private

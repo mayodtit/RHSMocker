@@ -1,9 +1,9 @@
 class ServiceSerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes :id, :member_id, :user_id, :owner_id, :service_type_id, :state,
+  attributes :id, :member_id, :user_id, :owner_id, :subject_id, :service_type_id, :state,
              :title, :description, :due_at, :created_at, :updated_at,
-             :user_facing, :service_request, :service_deliverable
+             :user_facing, :service_request, :service_deliverable, :service_update
 
   def attributes
     super.tap do |attrs|
@@ -23,6 +23,10 @@ class ServiceSerializer < ActiveModel::Serializer
 
   def non_shallow?
     options[:shallow].blank? ? true : false
+  end
+
+  def for_activity?
+    options[:for_activity] ? true : false
   end
 
   def user_id

@@ -401,12 +401,23 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
-  def notify_trial_will_end(event)
-    customer = event.data.object.customer
-    user = User.find_by_stripe_customer_id(customer)
-    return if user.nil?
+
+  def notify_user_when_first_charge_fail(user)
+    params = {
+      subject: 'Your credit card was declined',
+      from: "support@getbetter.com",
+      from_name: 'Better',
+      template: "Credit card declined 12/12/2014",
+      to: { email: user.email },
+      vars: {
+        FNAME: user.salutation
+      }
+    }
+    send_mail(params)
+  end
+
+  def notify_trial_will_end(user, customer)
     plan_name = Stripe::Customer.retrieve(customer).subscriptions.data.first.plan.name
-    return if user.pha.nil?
     pha_first_name = user.pha.first_name
     params = {
         subject: "Your trial is ending soon",

@@ -11,4 +11,5 @@
 0 * * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:offboard_free_trial_members > log/cron.log 2>&1
 0 11 * * 1-5 cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:notify_lack_of_tasks > log/cron.log 2>&1
 0 11 * * 1-5 cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:notify_lack_of_messages > log/cron.log 2>&1
+0 11 * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:update_gravatar > log/cron.log 2>&1
 */5 * * * * cd /home/rhs/rails/current ; RAILS_ENV=production bundle exec rake scheduled:timeout_messages > log/cron.log 2>&1

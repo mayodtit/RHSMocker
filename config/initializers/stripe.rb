@@ -23,9 +23,12 @@ StripeEvent.configure do |events|
   events.subscribe 'charge.failed' do |event|
     Rails.logger.info("Received Stripe charge.failed, #{event.id} - #{event.type}")
     UserMailer.delay.notify_bosses_when_user_payment_fail(event)
+    SendChargeFailedNotification.new(event).call
+    SetDelinquentStatus.new(event).call
   end
 
   events.subscribe 'charge.succeeded' do |event|
+    SetDelinquentStatus.new(event).call
     GrantReferrerCreditWhenRefereePay.new(event).assign_coupon
   end
 

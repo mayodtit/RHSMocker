@@ -31,7 +31,13 @@ class Api::V1::AddressesController < Api::V1::ABaseController
   end
 
   def load_address!
-    @address = @addresses.find(params[:id])
+    @address = if params[:id] == "office"
+                 @addresses.find_by_name!("office")
+               elsif params[:id] == "NPI"
+                 @addresses.find_by_name!("NPI")
+               else
+                 @addresses.find(params[:id])
+               end
   end
 
   # remove duplicate aliased attributes when present

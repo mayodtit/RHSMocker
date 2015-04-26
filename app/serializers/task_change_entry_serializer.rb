@@ -1,10 +1,18 @@
 class TaskChangeEntrySerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes :id, :task_id, :task, :event, :actor, :update_type, :update_data
+  attributes :id, :service_id, :service_title, :task_id, :task, :event, :actor, :update_type, :update_data
 
   def task
     object.task.try(:entry_serializer).as_json
+  end
+
+  def service_id
+    object.task.try(:service_id)
+  end
+
+  def service_title
+    object.task.service.try(:title) if object.task.respond_to? :service
   end
 
   def event

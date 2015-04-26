@@ -150,6 +150,7 @@ GEM
       multi_json (~> 1.0)
       net-http-persistent (>= 2.7)
       net-http-pipeline
+    gravtastic (3.2.6)
     guard (1.7.0)
       formatador (>= 0.2.4)
       listen (>= 0.6.0)
@@ -450,6 +451,7 @@ DEPENDENCIES
   figaro
   fitter-happier
   fog
+  gravtastic
   guard-rspec
   haml
   httparty

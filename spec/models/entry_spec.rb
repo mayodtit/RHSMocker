@@ -11,7 +11,8 @@ describe Entry do
     it 'publishes that an entry was created' do
       PubSub.should_receive(:publish).with(
           "/members/#{entry.member.id}/timeline/entries/new",
-          {id: entry.id}
+          {id: entry.id},
+          nil
       )
       entry.publish
     end

@@ -81,6 +81,15 @@ class User < ActiveRecord::Base
   after_commit :publish
   after_save :track_update, on: :update
 
+  after_create :add_gravatar
+
+  def add_gravatar
+    if self.avatar_url_override.nil? || self.avatar_url_override.include?('https://secure.gravatar.com/avatar')
+      self.avatar_url_override = GravatarChecker.new(email).check_gravatar
+      self.save
+    end
+  end
+
   def test?
     /\@(getbetter|example).com$/i =~ email
   end

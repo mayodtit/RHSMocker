@@ -66,7 +66,7 @@ resource "Services" do
     end
   end
 
-  describe 'services' do
+  context 'get services with member id' do
     parameter :auth_token, 'Performing hcp\'s auth_token'
     parameter :member_id, 'Member to retrieve services for'
     parameter :subject_id, 'Subject to retrieve services for'
@@ -79,11 +79,55 @@ resource "Services" do
     let!(:abandoned_service) { create :service, :abandoned, member: member, subject: relative }
 
     get '/api/v1/members/:member_id/services/' do
-      example_request '[GET] Get all services for a member' do
+      example_request '[GET] Get all services for a member with member_id' do
         explanation 'Get all services for a member (optionally filter by subject and state)'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
         response[:services].to_json.should == [service, completed_service, abandoned_service].serializer.to_json
+      end
+    end
+  end
+
+  context 'get services of the current user' do
+    parameter :auth_token, 'Performing hcp\'s auth_token'
+    parameter :subject_id, 'Subject to retrieve services for'
+    parameter :member_id, 'retrieve the services for current member'
+
+    required_parameters :auth_token, :member_id
+
+    let(:member_id) { 'current' }
+    let(:subject_id) { relative.id }
+    let!(:completed_service) { create :service, :completed, member: pha, subject: relative}
+    let!(:abandoned_service) { create :service, :abandoned, member: pha, subject: relative}
+
+    get '/api/v1/members/:member_id/services/' do
+      example_request '[GET] Get all services for current member' do
+        explanation 'Get all services for a member (optionally filter by subject and state)'
+        status.should == 200
+        response = JSON.parse response_body, symbolize_names: true
+        response[:services].to_json.should == [completed_service, abandoned_service].serializer.to_json
+      end
+    end
+  end
+
+  describe 'activities' do
+    parameter :auth_token, 'Performing user\'s auth_token'
+
+    required_parameters :auth_token
+
+    let!(:open_service) { create :service, member: pha, subject: member, owner: pha, user_facing: true}
+    let!(:completed_service) { create :service, :completed, member: pha, owner: pha, subject: member, user_facing: true}
+    let!(:abandoned_service) { create :service, :abandoned, member: pha, owner: pha, subject: relative, user_facing: true}
+    let!(:suggestion) { create :suggested_service, user: pha}
+
+    get '/api/v1/services/activities' do
+      example_request '[GET] Get all activites for current user' do
+        explanation 'Get all user facing services for the current user'
+        status.should == 200
+        response = JSON.parse response_body, symbolize_names: true
+        response[:services].to_json.should == [open_service, completed_service, abandoned_service].serializer(shallow: true).to_json
+        response[:users].to_json.should == [pha, member, relative].serializer.to_json
+        response[:suggestions].to_json.should == [suggestion].serializer.to_json
       end
     end
   end

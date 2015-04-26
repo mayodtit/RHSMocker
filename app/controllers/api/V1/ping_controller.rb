@@ -26,6 +26,7 @@ class Api::V1::PingController < Api::V1::ABaseController
       metadata_hash.delete('app_store_url')
       metadata_hash.delete('nux_question_text')
       hash.merge!({metadata: metadata_hash})
+      hash.merge!({logging_level: current_session.logging_level, logging_command: current_session.logging_command}) if session_valid?
     end
 
     if ios_version_valid? || android_version_valid?

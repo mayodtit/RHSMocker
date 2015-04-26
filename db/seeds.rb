@@ -3,11 +3,13 @@ Sunspot.session = ::Sunspot::Rails::StubSessionProxy.new($original_sunspot_sessi
 
 %w(agreements
    allergies
+   domain
    association_types
    conditions
    contents
    diets
    ethnic_groups
+   hcp_taxonomy
    messages
    premium_onboarding
    roles

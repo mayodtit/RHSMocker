@@ -12,6 +12,7 @@ class UserCondition < ActiveRecord::Base
                   :user_disease_treatment_ids, :actor_id
 
   validates :user, :condition, presence: true
+  validates :condition_id, :uniqueness => {:scope => :user_id}
 
   alias_attribute :disease, :condition
   alias_attribute :disease_id, :condition_id
