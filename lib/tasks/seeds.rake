@@ -813,22 +813,6 @@ My phone: 650-887-3711
     Domain.seed_domains
   end
 
-  desc "Seed BMI input data"
-  task :bmi_input_data => :environment do
-    filename = 'bmiagerev.csv'
-    encoding = 'ISO-8859-1'
-    puts "Seeding BMI input data..."
-
-    CSV.foreach(Rails.root.join('lib','assets',filename), encoding: encoding, headers: true) do |row|
-      BmiDataLevel.upsert_attributes!(gender: row['Sex'],
-                                      age: row['Agemos'],
-                                      l: row['L'],
-                                      m: row['M'],
-                                      s: row['S'])
-    end
-    puts "Seeding BMI input data completed!"
-  end
-
   # Looks at Allergies table and updates entries from db/seeds/allergies.rb by adding description or concept ids
   task :update_allergies_table => :environment do
     require 'open-uri'
