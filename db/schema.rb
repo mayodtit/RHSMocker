@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150417153933) do
+ActiveRecord::Schema.define(:version => 20150421003344) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -109,6 +109,16 @@ ActiveRecord::Schema.define(:version => 20150417153933) do
 
   add_index "blood_pressures", ["collection_type_id"], :name => "index_blood_pressures_on_collection_type_id"
   add_index "blood_pressures", ["user_id"], :name => "index_blood_pressures_on_user_id"
+
+  create_table "bmi_data_levels", :force => true do |t|
+    t.string   "gender"
+    t.integer  "age"
+    t.float    "l"
+    t.float    "m"
+    t.float    "s"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "cards", :force => true do |t|
     t.integer  "user_id"
