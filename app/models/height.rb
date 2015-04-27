@@ -1,3 +1,4 @@
+#Amount is in Centimeters
 class Height < ActiveRecord::Base
   belongs_to :user, inverse_of: :heights
   belongs_to :creator, class_name: 'Member'
