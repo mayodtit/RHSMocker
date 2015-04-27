@@ -67,7 +67,7 @@ resource 'Weight' do
   end
 
   post '/api/v1/users/:user_id/weights' do
-    parameter :amount, 'Amount in centimeters'
+    parameter :amount, 'Amount in kilograms'
     parameter :bmi, 'BMI for entry'
     parameter :taken_at, 'Timestamp of when the weight reading was taken'
     scope_parameters :weight, %i(amount bmi taken_at)
