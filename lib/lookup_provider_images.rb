@@ -25,7 +25,7 @@ class LookupProviderImages
       sleep 5 if ((i+1) % 50) == 0
     end
 
-    puts "FINSIHED, UPDATED #{num_found} of #{n} providers"
+    puts "FINISHED, UPDATED #{num_found} of #{n} providers"
   end
 
   def self.filter_image_url(url)
