@@ -26,7 +26,6 @@ describe 'Entries' do
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
         expect(body[:entries].to_json).to eq([entry].serializer.as_json.to_json)
-        expect(body[:entries].first).to have_key(:image_url)
       end
     end
   end
