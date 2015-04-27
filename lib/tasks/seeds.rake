@@ -827,26 +827,36 @@ My phone: 650-887-3711
     Domain.seed_domains
   end
 
+  def update_allergy(name, code)
+    al = Allergy.find_all_by_name(name)
+    if al
+      if al
+        al.each do |a|
+          a.snomed_code = code
+          a.save
+        end
+      end
+    end
+  end
   # Looks at Allergies table and updates entries from db/seeds/allergies.rb by adding description or concept ids
   task :update_allergies_table => :environment do
     require 'open-uri'
     require 'json'
     total = 0
     # fix allergies that require manual fix
-    if Allergy.all.size > 140
-      al = Allergy.find_by_name('Sulfonamides')
-      al.snomed_code = '835357010'
-      al.save
-      al = Allergy.find_by_name('Simvastatin')
-      al.snomed_code = '690031018'
-      al.save
-      al = Allergy.find_by_name('Wheat')
-      al.snomed_code = '2575121014'
-      al.save
-      al = Allergy.find_by_name('Scorpion Sting')
-      al.snomed_code = '2645985010'
+    update_allergy('Sulfonamides', '835357010')
+    update_allergy('Simvastatin', '690031018')
+    update_allergy('Wheat', '2575121014')
+    update_allergy('Scorpion Sting', '2645985010')
+    update_allergy('Peanut', '835353014')
+
+    al = Allergy.find_by_name('Gluten')
+    if al
+      al.snomed_code = '2817840017'
+      al.snomed_name = 'Gluten sensitivity'
       al.save
     end
+
 
     # update allergies using snomed_code
     Allergy.all.each do |al|
@@ -863,13 +873,16 @@ My phone: 650-887-3711
         uri = URI.parse(url)
         resp = uri.read
         json_resp = JSON.parse(resp)
-
-        total += 1
-        concept_id = json_resp["matches"][0]["conceptId"]
-        term = filter_term(json_resp["matches"][0]["term"])
-        puts "#{al.name} ?= #{term.capitalize}"
-        al.name = term.capitalize
-        store_terms(al, concept_id, desc_id) unless json_resp['matches'].size == 0
+        if json_resp["matches"][0]
+          total += 1
+          concept_id = json_resp["matches"][0]["conceptId"]
+          term = filter_term(json_resp["matches"][0]["term"])
+          puts "#{al.name} ?= #{term.capitalize}"
+          al.name = term.capitalize
+          store_terms(al, concept_id, desc_id) unless json_resp['matches'].size == 0
+        else
+          puts "ERROR @ #{desc_id.to_s} = #{al.name}"
+        end
       else
         json_resp = JSON.parse(resp)
         match = match_name(al.name, json_resp)
@@ -915,6 +928,20 @@ My phone: 650-887-3711
     failed = 0
     base_url = ENV['SNOMED_SEARCH_URL']
     counter = 0
+
+    # manually fix conditions that could not be fixed by the script
+    configure_condition('Colitis (Ulcerative)', '64766004', '107644019', 'Ulcerative colitis')
+    configure_condition('Depressive Disorder', '35489007', '486184015', 'Depression')
+    configure_condition('Gastroesophageal reflux', '235595009', '353135014', 'Gastroesophageal reflux disease')
+    configure_condition('Essential Hypertension', '59621000', '99042012', 'Essential hypertension')
+    configure_condition('Type 2 Diabetes', '44054006', '197761014', 'Type 2 diabetes mellitus')
+    configure_condition('Diabetes', '73211009', '121589010', 'Diabetes mellitus')
+    configure_condition('High Cholesterol', '13644009', '475418015', 'Hypercholesterolaemia')
+    configure_condition('Overweight', '414916001', '2535065012', 'Obesity')
+    configure_condition('Overwieght', '414916001', '2535065012', 'Obesity')
+    configure_condition('Underactive Thyroid', '40930008', '492839019', 'Hypothyroid')
+    configure_condition('Chronic metabolic disorder', '302866003', '444844011', 'Hypoglycaemia')
+
     Condition.all.each do |c|
       counter += 1
       print "\r#{counter} "
@@ -959,30 +986,22 @@ My phone: 650-887-3711
     end
     puts "TOTAL FAILED #{failed}"
 
-    # manually fix conditions that could not be fixed by the script
-    if failed != 0
-      configure_condition(41, '64766004', '107644019', 'Ulcerative colitis')
-      configure_condition(48, '35489007', '486184015', 'Depression')
-      configure_condition(77, '13644009', '475418015', 'Hypercholesterolaemia')
-      configure_condition(93, '235595009', '353135014', 'Gastroesophageal reflux disease')
-      configure_condition(98, '414916001', '2535065012', 'Obesity')
-      configure_condition(153, '44054006', '197761014', 'Type 2 diabetes mellitus')
-      configure_condition(154, '40930008', '492839019', 'Hypothyroid')
-      configure_condition(177, '302866003', '444844011', 'Hypoglycaemia')
-    end
-
     # remove the duplicate entries
     remove_duplicates('conditions')
   end
 
-  def configure_condition(id, cid, did, cname)
-    condition = Condition.find_by_id(id)
-    name = condition.name
-    condition.name = cname
-    condition.description_id = did
-    condition.concept_id = cid
-    puts "#{condition.description_id} = #{condition.name}, original name: #{name}" 
-    condition.save
+  def configure_condition(oname, cid, did, cname)
+    conditions = Condition.find_all_by_name(oname)
+    if conditions
+      conditions.each do |condition|
+        name = condition.name
+        condition.name = cname
+        condition.description_id = did
+        condition.concept_id = cid
+        puts "#{condition.description_id} = #{condition.name}, original name: #{name}" 
+        condition.save
+      end
+    end
   end
 
   # Populates database using SNOMED api, filters out most synonyms
@@ -1010,6 +1029,7 @@ My phone: 650-887-3711
           Allergy.find_or_create_by_name(term) do |al|
             name = term.split(' ')
             al.description_id = desc_id
+            al.snomed_code = desc_id
             al.concept_id = match['conceptId']
             al.snomed_name = match['fsn']
           end
@@ -1036,7 +1056,9 @@ My phone: 650-887-3711
     # first stage: find unique conditions
     conditions.each do |condition|
       desc_id = condition[:description_id]
-      if desc_id != nil && !set.include?(desc_id)
+      if desc_id.nil?  
+        puts "ERROR @ #{desc_id} = #{condition[:name]}"
+      elsif !set.include?(desc_id)
         set << desc_id          
         unique_conditions[desc_id] = condition[:id]
       end

@@ -62,7 +62,7 @@ class Search::Service::Snomed
 
   def set_result(current_result, match)
     current_result[:name] = match['term']
-    current_result[:snomed_code] = match['conceptId']
+    current_result[:snomed_code] = match['descriptionId']
     current_result[:snomed_name] = match['fsn']
     current_result[:concept_id] = match['conceptId']
     current_result[:description_id] = match['descriptionId']
