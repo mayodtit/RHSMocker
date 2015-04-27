@@ -1,3 +1,4 @@
+#Amount is in Kilograms
 class Weight < ActiveRecord::Base
   belongs_to :user
   belongs_to :creator, class_name: 'Member'
@@ -39,7 +40,7 @@ class Weight < ActiveRecord::Base
 
   def calculate_bmi_values
     if height = user.heights.most_recent(taken_at)
-      CalculateBmiService.new(height: height, weight: self).call
+      CalculateBmiService.new(height: height, weight: self, birth_date: user.birth_date, gender: user.gender).call
     else
       {}
     end
