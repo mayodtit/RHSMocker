@@ -135,6 +135,10 @@ class ScheduledJobs
   end
 
   def self.update_gravatar
-    User.find_each{|u| u.add_gravatar}
+    User.each do |u|
+      if u.add_gravatar
+        puts "the gravatar has been updated for user with id #{u.id}"
+      end
+    end
   end
 end
