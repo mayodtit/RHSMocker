@@ -1,5 +1,5 @@
 require 'csv'
-include Math
+
 class CalculateBmiService
   def initialize(options)
     @height = options[:height]
