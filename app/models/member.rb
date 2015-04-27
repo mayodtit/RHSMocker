@@ -217,6 +217,10 @@ class Member < User
     has_role?(:pha_lead)
   end
 
+  def specialist?
+    has_role?(:specialist)
+  end
+
   def care_provider?
     pha? || nurse?
   end
