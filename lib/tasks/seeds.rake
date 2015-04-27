@@ -1026,27 +1026,6 @@ My phone: 650-887-3711
     end
   end
 
-  task :check => :environment do
-    require 'set'
-    unique = Set.new
-    Allergy.all.each do |al|
-      if unique.include? al.name
-        puts "ERROR @ #{al.id} #{al.name} "
-      else
-        unique << al.name
-      end
-    end
-
-    unique = Set.new
-    Allergy.all.each do |al|
-      if unique.include? al.description_id
-        puts "ERROR @ #{al.description_id} #{al.name} "
-      else
-        unique << al.description_id
-      end
-    end
-  end
-
   # Updates and saves SNOMED entries that were seeded
   def store_terms(obj, cid, did)
     obj.concept_id = cid
