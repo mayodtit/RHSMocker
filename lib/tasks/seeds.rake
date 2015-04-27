@@ -814,10 +814,14 @@ My phone: 650-887-3711
   end
 
   def update_allergy(name, code)
-    al = Allergy.find_by_name(name)
+    al = Allergy.find_all_by_name(name)
     if al
-      al.snomed_code = code
-      al.save
+      if al
+        al.each do |a|
+          a.snomed_code = code
+          a.save
+        end
+      end
     end
   end
   # Looks at Allergies table and updates entries from db/seeds/allergies.rb by adding description or concept ids
@@ -1059,7 +1063,9 @@ My phone: 650-887-3711
     # first stage: find unique conditions
     conditions.each do |condition|
       desc_id = condition[:description_id]
-      if desc_id != nil && !set.include?(desc_id)
+      if desc_id.nil?  
+        puts "ERROR @ #{desc_id} = #{condition[:name]}"
+      elsif !set.include?(desc_id)
         set << desc_id          
         unique_conditions[desc_id] = condition[:id]
       end
