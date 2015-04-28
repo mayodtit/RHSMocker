@@ -15,13 +15,15 @@ class CalculateBmiService
     }
   end
 
+  private
+
   def bmi
-    @bmi = @weight/((@height/100.0)*(@height/100.0))
+    @bmi ||= @weight / ((@height / 100.0) * (@height / 100.0))
     @bmi
   end
 
   def bmi_level
-    if age > 0 && age < (18*12)
+    if age > 0 && age < (18 * 12)
       if z_score < 4
         @bmi_level = "Severely Underweight"
       elsif z_score < 5
@@ -49,10 +51,10 @@ class CalculateBmiService
 
   def z_score
     look_up_LMS
-    @z_score = if @bmi_record.l != 0
-                 (((@bmi/@bmi_record.m)**@bmi_record.l)-1)/(@bmi_record.l*@bmi_record.s)
+    @z_score = if @bmi_record.power_in_transformation != 0
+                 (((@bmi / @bmi_record.median) ** @bmi_record.power_in_transformation)-1) / (@bmi_record.power_in_transformation * @bmi_record.coefficient_of_variation)
                else
-                 Math.log((@bmi/@bmi_record.m))/@bmi_record.s
+                 Math.log(@bmi / @bmi_record.median) / @bmi_record.coefficient_of_variation
                end
   end
 
