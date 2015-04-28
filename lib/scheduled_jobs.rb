@@ -135,10 +135,12 @@ class ScheduledJobs
   end
 
   def self.update_gravatar
-    User.each do |u|
-      if u.add_gravatar
-        puts "the gravatar has been updated for user with id #{u.id}"
-      end
+    i= 0
+    User.find_each do |u|
+      u.add_gravatar
+      u.avatar_url_override_changed? ? ( puts "." ) : ( puts "*" )
+      puts "user_id: #{u.id}" if i % 100 == 0
+      i += 1
     end
   end
 end
