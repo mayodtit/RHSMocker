@@ -4,7 +4,7 @@ class Weight < ActiveRecord::Base
   belongs_to :creator, class_name: 'Member'
 
   attr_accessible :user, :user_id, :amount, :bmi, :taken_at, :healthkit_uuid,
-                  :healthkit_source, :creator_id, :creator, :bmi_level
+                  :healthkit_source, :creator_id, :creator, :bmi_level, :warning_color
 
   validates :user, :amount, :taken_at, :bmi_level, presence: true
 
