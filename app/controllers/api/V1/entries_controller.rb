@@ -10,19 +10,19 @@ class Api::V1::EntriesController < Api::V1::ABaseController
   private
 
   def entries
-    base_entries_with_pagination.includes(:member).sort_by(&:id)
+    base_entries_with_pagination.includes(:member).sort_by(&:created_at)
   end
 
   def base_entries_with_pagination
     if show_all?
       @entries
     else
-      base_entries_scopes.page(page_number).per(page_size)
+      base_entries_scopes.page(page_number).per(page_size).padding(offset)
     end
   end
 
   def base_entries_scopes
-    @entries.order('id DESC').before(params[:before]).after(params[:after])
+    @entries.order('created_at DESC').order('id DESC')
   end
 
   def page_number
@@ -31,6 +31,10 @@ class Api::V1::EntriesController < Api::V1::ABaseController
 
   def page_size
     @page_size ||= params[:per] || Metadata.default_page_size
+  end
+
+  def offset
+    @offset ||= params[:before] || 0
   end
 
   def show_all?
