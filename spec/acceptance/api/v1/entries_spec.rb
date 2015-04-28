@@ -43,7 +43,6 @@ resource "Entries" do
     let!(:fifth_entry) { create(:entry, member: member) }
 
     get '/api/v1/members/:member_id/entries' do
-      parameter :after, 'filters for entries with ids after, but not including the specified integer id'
       parameter :offset, 'integer offset for the pagination by this amount'
       parameter :page,'integer page number, indexed starting from 1'
       parameter :per, 'integer size of pages'
