@@ -172,4 +172,8 @@ class Metadata < ActiveRecord::Base
   def self.default_page_size
     find_by_mkey('default_page_size').try(:mvalue).try(:to_i)
   end
+
+  def self.birthday_promotion_enabled?
+    Metadata.find_by_mkey('birthday_promotion_enabled').try(:mvalue) == 'true'
+  end
 end

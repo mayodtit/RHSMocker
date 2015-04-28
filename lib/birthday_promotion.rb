@@ -15,8 +15,8 @@ class BirthdayPromotion
       end
     end
   end
-  
-  private 
+
+  private
 
   def member
     @member
