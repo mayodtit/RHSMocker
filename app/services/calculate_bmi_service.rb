@@ -5,7 +5,8 @@ class CalculateBmiService
     @height = options[:height]
     @weight = options[:weight]
     @birth_date = options[:birth_date]
-    @gender = options[:gender]
+    @gender = if options[:gender] == "male" then 1 else 2
+              end
   end
 
   def call
@@ -48,7 +49,7 @@ class CalculateBmiService
   end
 
   def z_score
-    @z_score = if @bmi_record.power_in_transformation != 0
+    @z_score = if bmi_record.power_in_transformation != 0
                  (((bmi / bmi_record.median) ** bmi_record.power_in_transformation)-1) / (bmi_record.power_in_transformation * bmi_record.coefficient_of_variation)
                else
                  Math.log(bmi / bmi_record.median) / bmi_record.coefficient_of_variation
@@ -62,6 +63,6 @@ class CalculateBmiService
   end
 
   def bmi_record
-    @bmi_record ||= BmiDataLevel.find_by_gender_and_age!(gender, age.round)
+    @bmi_record ||= BmiDataLevel.find_by_gender_and_age_in_months!(@gender, age.round)
   end
 end
