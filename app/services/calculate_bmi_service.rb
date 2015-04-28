@@ -19,7 +19,6 @@ class CalculateBmiService
 
   def bmi
     @bmi ||= @weight / ((@height / 100.0) * (@height / 100.0))
-    @bmi
   end
 
   def bmi_level
@@ -34,27 +33,25 @@ class CalculateBmiService
         @bmi_level = "Overweight"
       end
     else
-      if (@bmi < 15)
+      if (bmi < 15)
         @bmi_level = "Severely Underweight"
-      elsif (@bmi < 18.5)
+      elsif (bmi < 18.5)
         @bmi_level = "Underweight"
-      elsif (@bmi < 24.9)
+      elsif (bmi < 24.9)
         @bmi_level = "Normal"
-      elsif (@bmi < 29.9)
+      elsif (bmi < 29.9)
         @bmi_level = "Overweight"
       else
         @bmi_level = "Obese"
       end
     end
-    @bmi_level
   end
 
   def z_score
-    look_up_LMS
     @z_score = if @bmi_record.power_in_transformation != 0
-                 (((@bmi / @bmi_record.median) ** @bmi_record.power_in_transformation)-1) / (@bmi_record.power_in_transformation * @bmi_record.coefficient_of_variation)
+                 (((bmi / bmi_record.median) ** bmi_record.power_in_transformation)-1) / (bmi_record.power_in_transformation * bmi_record.coefficient_of_variation)
                else
-                 Math.log(@bmi / @bmi_record.median) / @bmi_record.coefficient_of_variation
+                 Math.log(bmi / bmi_record.median) / bmi_record.coefficient_of_variation
                end
   end
 
@@ -64,11 +61,7 @@ class CalculateBmiService
     @age
   end
 
-  def look_up_LMS
-    if @gender == "male"
-      @bmi_record = BmiDataLevel.where(gender:1, age: age.round).first
-    else
-      @bmi_record = BmiDataLevel.where(gender:2, age: age.round).first
-    end
+  def bmi_record
+    @bmi_record ||= BmiDataLevel.find_by_gender_and_age!(gender, age.round)
   end
 end
