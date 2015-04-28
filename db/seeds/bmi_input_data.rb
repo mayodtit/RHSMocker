@@ -8,4 +8,3 @@ CSV.foreach(Rails.root.join('lib','assets',filename), encoding: encoding, header
                                    median: row['M'],
                                    coefficient_of_variation: row['S']})
 end
-puts "Seeding BMI input data completed!"
