@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150421003344) do
+ActiveRecord::Schema.define(:version => 20150427210728) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -113,11 +113,11 @@ ActiveRecord::Schema.define(:version => 20150421003344) do
   create_table "bmi_data_levels", :force => true do |t|
     t.string   "gender"
     t.integer  "age"
-    t.float    "l"
-    t.float    "m"
-    t.float    "s"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.float    "power_in_transformation"
+    t.float    "median"
+    t.float    "coefficient_of_variation"
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
   end
 
   create_table "cards", :force => true do |t|
