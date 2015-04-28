@@ -184,7 +184,7 @@ class ScheduledJobs
 
     message_box.each do |owner,list|
       User.find(owner).master_consult.messages.create(:user => Member.robot, :text => birthday_message_loader(list.count, User.select{|u| list.include? u.id}.map(&:first_name),list.include?(owner)))
-      Metadata.birthday_promotion_enabled? ? BirthdayPromotion.new(User.find(owner)).promote : next
+      BirthdayPromotion.new(User.find(owner)).promote if Metadata.birthday_promotion_enabled?
     end
   end
 
