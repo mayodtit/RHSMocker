@@ -34,7 +34,7 @@ class Api::V1::EntriesController < Api::V1::ABaseController
   end
 
   def offset
-    @offset ||= params[:before] || 0
+    @offset ||= params[:offset] || 0
   end
 
   def show_all?

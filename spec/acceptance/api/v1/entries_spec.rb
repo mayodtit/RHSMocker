@@ -44,11 +44,11 @@ resource "Entries" do
 
     get '/api/v1/members/:member_id/entries' do
       parameter :after, 'filters for entries with ids after, but not including the specified integer id'
-      parameter :before, 'integer offset for the pagination by this amount'
+      parameter :offset, 'integer offset for the pagination by this amount'
       parameter :page,'integer page number, indexed starting from 1'
       parameter :per, 'integer size of pages'
 
-      let!(:before) {1}
+      let!(:offset) {1}
       let!(:page) {1}
       let!(:per) {5}
       example_request "[GET] Get paginated entries for a member" do

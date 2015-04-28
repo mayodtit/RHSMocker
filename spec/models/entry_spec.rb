@@ -26,5 +26,4 @@ describe Entry do
       expect(entry.created_at).to eq(message.created_at)
     end
   end
-
 end

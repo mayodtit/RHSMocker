@@ -18,13 +18,4 @@ class Entry < ActiveRecord::Base
   def set_created_at
     self.created_at ||= resource.created_at
   end
-
-  def self.before(time=nil)
-    time ? where('created_at <= ?', time) : scoped
-  end
-
-  def self.after(time=nil)
-    time ? where('created_at >= ?', time) : scoped
-  end
-
 end
