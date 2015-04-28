@@ -4,9 +4,9 @@ class Weight < ActiveRecord::Base
   belongs_to :creator, class_name: 'Member'
 
   attr_accessible :user, :user_id, :amount, :bmi, :taken_at, :healthkit_uuid,
-                  :healthkit_source, :creator_id, :creator
+                  :healthkit_source, :creator_id, :creator, :bmi_level
 
-  validates :user, :amount, :taken_at, presence: true
+  validates :user, :amount, :taken_at, :bmi_level, presence: true
 
   before_validation :set_defaults, on: :create
   before_save :set_bmi_values
