@@ -17,7 +17,7 @@ class Search::Service::Bloom
     unless response['result'].count > 0
       raise ActiveRecord::RecordNotFound, "Could not find User with NPI number: #{params[:npi_number]}"
     end
-    sanitize_record(response['result'].first)
+    prepare_record(response['result'].first)
   end
 
   private
@@ -67,6 +67,28 @@ class Search::Service::Bloom
     end
   end
 
+  def prepare_record(record)
+    sanitized_record = sanitize_record(record)
+
+    u = User.find_by_npi_number(sanitized_record[:npi_number]) if User.find_by_npi_number(sanitized_record[:npi_number])
+    a = Address.where('user_id = ? and name = ?', u.id, 'office')[-1]
+
+    unless a.nil? then
+      office_address = {
+        address: a.address,
+        city: a.city,
+        state: a.state,
+        postal_code: a.postal_code,
+        name: a.name
+      }
+    end
+
+    avatar_url = u.avatar_url unless u.nil?
+    sanitized_record[:avatar_url] = avatar_url if avatar_url
+    sanitized_record[:address] = office_address || sanitized_record[:address]
+    sanitized_record
+  end
+
   def sanitize_record(record)
     p = record['practice_address']
     bloom_address = {
@@ -82,9 +104,10 @@ class Search::Service::Bloom
     }
 
     hcp_code = get_hcp_code(record['provider_details'])
-    santized_record = {
+    sanitized_record = {
       :first_name => prettify(record['first_name']),
       :last_name => prettify(record['last_name']),
+      :address => bloom_address,
       :npi_number => record['npi'].to_s,
       :phone => p['phone'],
       :expertise => record['credential'],
@@ -93,23 +116,7 @@ class Search::Service::Bloom
       :provider_taxonomy_code => hcp_code,
       :taxonomy_classification => HCPTaxonomy.get_classification_by_hcp_code(hcp_code)
     }
-    u = User.find_by_npi_number(record['npi']) if User.find_by_npi_number(record['npi'])
-    a = Address.where('user_id = ? and name = ?', u.id, 'office')[-1]
-
-    unless a.nil? then
-      office_address = {
-        address: a.address,
-        city: a.city,
-        state: a.state,
-        postal_code: a.postal_code,
-        name: a.name
-      }
-    end
-
-    avatar_url = u.avatar_url unless u.nil?
-    santized_record[:avatar_url] = avatar_url if avatar_url
-    santized_record[:address] = office_address || bloom_address
-    santized_record
+    sanitized_record
   end
 
   private
