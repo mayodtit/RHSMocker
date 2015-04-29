@@ -860,6 +860,7 @@ My phone: 650-887-3711
 
     # update allergies using snomed_code
     Allergy.all.each do |al|
+      next if al.description_id
       concept_id = al.snomed_code
       base_url = ENV['SNOMED_SEARCH_URL']
 
