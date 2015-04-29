@@ -96,7 +96,7 @@ class Search::Service::Bloom
     u = User.find_by_npi_number(record['npi']) if User.find_by_npi_number(record['npi'])
     a = Address.where('user_id = ? and name = ?', u.id, 'office')[-1]
 
-    if !a.nil? then
+    unless a.nil? then
       office_address = {
         address: a.address,
         city: a.city,
@@ -106,7 +106,8 @@ class Search::Service::Bloom
       }
     end
 
-    santized_record[:avatar_url] = u.avatar_url if u.avatar_url
+    avatar_url = u.avatar_url unless u.nil?
+    santized_record[:avatar_url] = avatar_url if avatar_url
     santized_record[:address] = office_address || bloom_address
     santized_record
   end
