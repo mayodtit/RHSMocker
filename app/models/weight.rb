@@ -6,7 +6,7 @@ class Weight < ActiveRecord::Base
   attr_accessible :user, :user_id, :amount, :bmi, :taken_at, :healthkit_uuid,
                   :healthkit_source, :creator_id, :creator, :bmi_level, :warning_color
 
-  validates :user, :amount, :taken_at, :bmi_level, presence: true
+  validates :user, :amount, :taken_at, presence: true
 
   before_validation :set_defaults, on: :create
   before_save :set_bmi_values
@@ -25,11 +25,13 @@ class Weight < ActiveRecord::Base
   def set_bmi_values
     self.bmi ||= bmi_values[:bmi]
     self.bmi_level ||= bmi_values[:bmi_level]
+    self.warning_color ||= bmi_values[:warning_color]
   end
 
   def set_bmi_values!
     self.bmi = nil
     self.bmi_level = nil
+    self.warning_color = nil
     @bmi_values = nil
     set_bmi_values
   end

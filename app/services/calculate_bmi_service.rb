@@ -20,7 +20,7 @@ class CalculateBmiService
   private
 
   def bmi
-    @bmi ||= @weight / ((@height / 100.0) * (@height / 100.0))
+    @bmi ||= @weight.amount / ((@height.amount / 100.0) * (@height.amount / 100.0))
   end
 
   def bmi_level
@@ -68,12 +68,12 @@ class CalculateBmiService
   end
 
   def warning_color
-    if bmi_level == "Severely Underweight" || bmi_level == "Obese"
-      @warning_color = "#FF3A30" # Red color Hex Code
-    elsif bmi_level == "Overweight" || bmi_level == "Underweight"
-      @warning_color = "#FFC85A" # Yellow color Hex Code
-    elsif bmi_level == "Normal"
-      @warning_color = "#6A9B6B" # Green color Hec Code
-    end
+    @warning_color = if bmi_level == "Severely Underweight" || bmi_level == "Obese"
+                       "#FF3A30" # Red color Hex Code
+                     elsif bmi_level == "Overweight" || bmi_level == "Underweight"
+                       "#FFC85A" # Yellow color Hex Code
+                     elsif bmi_level == "Normal"
+                       "#6A9B6B" # Green color Hec Code
+                     end
   end
 end
