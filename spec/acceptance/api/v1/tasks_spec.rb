@@ -31,21 +31,45 @@ resource "Tasks" do
   end
 
   describe 'queue' do
-    let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago) }
-    let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 2.days.ago) }
-    let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
+    context 'get the queue of the current user' do
+      let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago) }
+      let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 2.days.ago) }
+      let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
 
-    parameter :auth_token, 'Performing hcp\'s auth_token'
+      parameter :auth_token, 'Performing hcp\'s auth_token'
 
-    required_parameters :auth_token
+      required_parameters :auth_token
+      get '/api/v1/tasks/queue' do
+        example_request '[GET] Get the tasks queue for the current user' do
+          explanation 'Get the task queue for the current user. Accessible only by HCPs'
+          status.should == 200
+          response = JSON.parse response_body, symbolize_names: true
+          response[:tasks].to_json.should == [assigned_task, started_task, claimed_task].serializer(shallow: true).to_json
+          response[:future_count].should == 0
+        end
+      end
+    end
 
-    get '/api/v1/tasks/queue' do
-      example_request '[GET] Get the tasks queue for the current user' do
-        explanation 'Get the task queue for the current user. Accessible only by HCPs'
-        status.should == 200
-        response = JSON.parse response_body, symbolize_names: true
-        response[:tasks].to_json.should == [assigned_task, started_task, claimed_task].serializer(shallow: true).to_json
-        response[:future_count].should == 0
+    context 'get the queue of the user with passed in id'do
+      let(:another_pha) {create(:pha)}
+      let!(:pha_id) {another_pha.id}
+      let!(:assigned_task) { create(:member_task, :assigned, owner: another_pha, due_at: 3.days.ago) }
+      let!(:started_task) { create(:member_task, :started, owner: another_pha, due_at: 2.days.ago) }
+      let!(:claimed_task) { create(:member_task, :claimed, owner: another_pha) }
+
+      parameter :auth_token, 'Performing hcp\'s auth_token'
+      parameter :pha_id, 'the pha whose queue want to be fetched'
+
+      required_parameters :auth_token, :pha_id
+
+      get '/api/v1/tasks/queue' do
+        example_request '[GET] Get the tasks queue for user with the passed id' do
+          explanation 'Get the task queue for the user with passed id. Accessible only by HCPs'
+          status.should == 200
+          response = JSON.parse response_body, symbolize_names: true
+          response[:tasks].to_json.should == [assigned_task, started_task, claimed_task].serializer(shallow: true).to_json
+          response[:future_count].should == 0
+        end
       end
     end
   end

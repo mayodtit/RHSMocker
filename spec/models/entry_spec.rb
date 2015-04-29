@@ -18,4 +18,12 @@ describe Entry do
     end
   end
 
+  describe 'set_created_at' do
+    let(:message) { create :message, created_at: 2.weeks.ago}
+    let(:entry) { create :entry, resource: message}
+
+    it 'should have the same created_at as the message' do
+      expect(entry.created_at).to eq(message.created_at)
+    end
+  end
 end

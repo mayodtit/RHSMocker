@@ -41,43 +41,4 @@ describe Session do
       end
     end
   end
-
-  describe '#set_disabled_at' do
-    before do
-      Timecop.freeze
-    end
-
-    after do
-      Timecop.return
-    end
-
-    context 'member is a pha' do
-      let!(:pha) {create :pha}
-
-      context 'member is logging in from care portal' do
-        let!(:pha_cp_session) { create :session, member: pha, device_os: nil }
-
-        it 'sets disabled_at to 15 minutes from now' do
-          expect(pha_cp_session.disabled_at).to eq 15.minutes.from_now
-        end
-      end
-
-      context 'member is logging in from mobile device' do
-        let!(:pha_mobile_session) { create :session, member: pha, device_os: 'iOS' }
-
-        it 'should not set disabled_at' do
-          expect(pha_mobile_session.disabled_at).to be_nil
-        end
-      end
-    end
-
-    context 'member is not a pha' do
-      let(:member) { build_stubbed :member }
-      let!(:member_session) { create :session, member: member }
-
-      it 'should not set disabled_at' do
-        expect(member_session.disabled_at).to be_nil
-      end
-    end
-  end
 end
