@@ -22,6 +22,7 @@ class User < ActiveRecord::Base
   belongs_to :diet
   has_one :user_information
   has_many :addresses, inverse_of: :user
+  has_many :phone_numbers, as: :phoneable
   has_many :insurance_policies
   has_one :provider
   has_one :emergency_contact
