@@ -1,11 +1,13 @@
 class PhoneNumber < ActiveRecord::Base
   self.inheritance_column = nil
-  attr_accessible :number, :type
+  attr_accessible :number, :type, :primary, :phoneable
 
   belongs_to :phoneable, polymorphic: true
   validates :phoneable, presence: true
 
-  validates :type, inclusion: { in: %w(NPI Fax Home Mobile Office Alternate), message: "%{value} is not a valid phone number type" }
+  PHONE_NUMBER_TYPES = %w(NPI Fax Home Mobile Office Alternate).freeze
+
+  validates :type, inclusion: { in: PHONE_NUMBER_TYPES, message: "%{value} is not a valid phone number type" }
   validate :parseable_phone_number
 
   def parseable_phone_number
