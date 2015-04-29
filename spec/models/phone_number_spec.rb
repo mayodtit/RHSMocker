@@ -23,7 +23,7 @@ describe PhoneNumber do
       let(:phone_number) { PhoneNumber.new(type: nil, number: "4255551111", phoneable: user) }
       it "is not valid" do
         expect(phone_number).to_not be_valid
-        expect(phone_number.errors.messages[:type]).to eq [" is not a valid phone number type"]
+        expect(phone_number.errors[:type]).to eq [" is not a valid phone number type"]
       end
     end
   end
@@ -34,7 +34,7 @@ describe PhoneNumber do
       let(:test_number) { "555-1111" }
       it "is not valid" do
         expect(phone_number).to_not be_valid
-        expect(phone_number.errors.messages[:number]).to eq ["is invalid"]
+        expect(phone_number.errors[:number]).to eq ["is invalid"]
       end
     end
 

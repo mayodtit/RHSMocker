@@ -5,7 +5,7 @@ class PhoneNumber < ActiveRecord::Base
   belongs_to :phoneable, polymorphic: true
   validates :phoneable, presence: true
 
-  PHONE_NUMBER_TYPES = %w(NPI Fax Home Mobile Office Alternate).freeze
+  PHONE_NUMBER_TYPES = %w(Fax Home Work Alternate Mobile NPI Office).freeze
 
   validates :type, inclusion: { in: PHONE_NUMBER_TYPES, message: "%{value} is not a valid phone number type" }
   validate :parseable_phone_number
