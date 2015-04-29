@@ -94,8 +94,9 @@ class Search::Service::Bloom
       :provider_taxonomy_code => hcp_code,
       :taxonomy_classification => HCPTaxonomy.get_classification_by_hcp_code(hcp_code)
     }
-    avatar_url = User.find_by_npi_number(record['npi']).avatar_url if User.find_by_npi_number(record['npi'])
-    santized_record[:avatar_url] = avatar_url if avatar_url
+    u = User.find_by_npi_number(record['npi']) if User.find_by_npi_number(record['npi'])
+    santized_record[:avatar_url] = u.avatar_url if u.avatar_url
+    santized_record[:address] = Address.where('user_id = ? and name = ?', u.id, 'Office') || practice_address
     santized_record
   end
 
