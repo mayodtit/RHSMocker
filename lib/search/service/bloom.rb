@@ -69,7 +69,7 @@ class Search::Service::Bloom
 
   def sanitize_record(record)
     p = record['practice_address']
-    practice_address = {
+    bloom_address = {
       address: prettify(p['address_line']),
       address2: prettify(p['address_details_line']),
       city: prettify(p['city']),
@@ -86,7 +86,6 @@ class Search::Service::Bloom
       :first_name => prettify(record['first_name']),
       :last_name => prettify(record['last_name']),
       :npi_number => record['npi'].to_s,
-      :address => practice_address,
       :phone => p['phone'],
       :expertise => record['credential'],
       :gender => record['gender'],
@@ -95,8 +94,20 @@ class Search::Service::Bloom
       :taxonomy_classification => HCPTaxonomy.get_classification_by_hcp_code(hcp_code)
     }
     u = User.find_by_npi_number(record['npi']) if User.find_by_npi_number(record['npi'])
+    a = Address.where('user_id = ? and name = ?', u.id, 'office')[-1]
+
+    if !a.nil? then
+      office_address = {
+        address: a.address,
+        city: a.city,
+        state: a.state,
+        postal_code: a.postal_code,
+        name: a.name
+      }
+    end
+
     santized_record[:avatar_url] = u.avatar_url if u.avatar_url
-    santized_record[:address] = Address.where('user_id = ? and name = ?', u.id, 'Office') || practice_address
+    santized_record[:address] = office_address || bloom_address
     santized_record
   end
 
