@@ -3,8 +3,7 @@ class CreatePhoneNumbers < ActiveRecord::Migration
     create_table :phone_numbers do |t|
       t.string  :type
       t.string  :number
-      t.integer :phoneable_id
-      t.string  :phoneable_type
+      t.references :phoneable, polymorphic: true, index: true
 
       t.timestamps
     end
