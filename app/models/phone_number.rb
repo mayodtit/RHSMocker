@@ -1,20 +1,19 @@
 class PhoneNumber < ActiveRecord::Base
-  attr_accessible :address_id, :number, :type, :user_id
+  self.inheritance_column = nil
+  attr_accessible :number, :type
 
-  belongs_to :user, inverse_of: :phone_numbers
-  belongs_to :address, inverse_of: :phone_numbers
+  belongs_to :phoneable, polymorphic: true
 
   validates :type, inclusion: { in: %w(NPI Fax Home OFfice Alternate), message: "%{value} is not a valid phone number type" }
-  validate :must_belong_to_user_or_address
+  validate :parseable_phone_number
 
-  def must_belong_to_user_or_address
-    unless user || address
-      unless user
-        errors.add(:user, "or address must be assigned")
+  def parseable_phone_number
+    begin
+      unless Phoner::Phone.parse(number)
+        errors.add(:number, "is invalid")
       end
-      unless address
-        errors.add(:address, "or user must be assigned")
-      end
+    rescue
+      errors.add(:number, "is invalid")
     end
   end
 
@@ -25,6 +24,9 @@ class PhoneNumber < ActiveRecord::Base
   private
 
   def phone
-    @phone_number ||= Phoner::Phone.parse(number)
+    begin
+      @phone_number ||= Phoner::Phone.parse(number)
+    rescue
+    end
   end
 end

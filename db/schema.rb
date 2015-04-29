@@ -749,10 +749,10 @@ ActiveRecord::Schema.define(:version => 20150428001706) do
   create_table "phone_numbers", :force => true do |t|
     t.string   "type"
     t.string   "number"
-    t.integer  "user_id"
-    t.integer  "address_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer  "phoneable_id"
+    t.string   "phoneable_type"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
   end
 
   create_table "program_resources", :force => true do |t|
