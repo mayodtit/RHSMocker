@@ -573,9 +573,10 @@ describe PhoneCall do
     end
 
     context 'pha' do
-      context 'phone number is not valid caller id' do
+      context 'phone number is a blacklisted caller id' do
         before do
-          PhoneNumberUtil.stub(:is_valid_caller_id) { false }
+          PhoneNumber.stub(:not_blacklisted?) { false }
+          # PhoneNumberUtil.stub(:is_valid_caller_id) { false }
         end
 
         it 'creates a phone call with nil origin phone number' do
@@ -593,11 +594,12 @@ describe PhoneCall do
         end
       end
 
-      context 'phone number is valid caller id' do
+      context 'phone number is not blacklisted caller id' do
         let(:db_phone_number) { PhoneNumberUtil::prep_phone_number_for_db(phone_number) }
 
         before do
-          PhoneNumberUtil.stub(:is_valid_caller_id) { true }
+          PhoneNumber.stub(:not_blacklisted?) { true }
+          # PhoneNumberUtil.stub(:is_valid_caller_id) { true }
         end
 
         shared_examples_for 'unable to resolve call for pha' do
@@ -733,9 +735,10 @@ describe PhoneCall do
     end
 
     context 'nurse' do
-      context 'phone number is not valid caller id' do
+      context 'phone number is blacklisted caller id' do
         before do
-          PhoneNumberUtil.stub(:is_valid_caller_id) { false }
+          PhoneNumber.stub(:not_blacklisted?) { false }
+          # PhoneNumberUtil.stub(:is_valid_caller_id) { false }
         end
 
         it 'does nothing' do
@@ -744,11 +747,12 @@ describe PhoneCall do
         end
       end
 
-      context 'phone number is valid caller id' do
+      context 'phone number is not blacklisted caller id' do
         let(:db_phone_number) { PhoneNumberUtil::prep_phone_number_for_db(phone_number) }
 
         before do
-          PhoneNumberUtil.stub(:is_valid_caller_id) { true }
+          PhoneNumber.stub(:not_blacklisted?) { true }
+          # PhoneNumberUtil.stub(:is_valid_caller_id) { true }
         end
 
         shared_examples_for 'unable to resolve call for nurse' do

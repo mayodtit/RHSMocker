@@ -16,10 +16,11 @@ module PhoneNumberUtil
     phone_number
   end
 
+  ## PHONE NUMBER BLACKLIST
   # Assumes phone number is 10-digits
-  def self.is_valid_caller_id(phone_number)
-    !%(7378742833 0000123456 2562533 8656696 266696687).include? phone_number
-  end
+  # def self.is_valid_caller_id(phone_number)
+  #   !%(7378742833 0000123456 2562533 8656696 266696687).include? phone_number
+  # end
 
   def self.format_for_dialing(phone_number)
     return nil if phone_number.blank?

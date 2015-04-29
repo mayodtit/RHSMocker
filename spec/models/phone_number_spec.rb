@@ -8,6 +8,21 @@ describe PhoneNumber do
 
   let(:user) { create(:user) }
 
+  describe ".not_blacklisted?" do
+    ["7378742833","0000123456","2562533","8656696","266696687"].each do |blacklisted_num|
+      it "returns false if it is a blacklisted phone number" do
+        expect(PhoneNumber.new(number: blacklisted_num).not_blacklisted?).to be_false
+        expect(PhoneNumber.not_blacklisted?(blacklisted_num)).to be_false
+      end
+    end
+
+    it "returns true for valid numbers" do
+      valid_phone_number = "4083913578"
+      expect(PhoneNumber.new(number: valid_phone_number).not_blacklisted?).to be_true
+      expect(PhoneNumber.not_blacklisted?(valid_phone_number)).to be_true
+    end
+  end
+
   describe "#type" do
     PhoneNumber::PHONE_NUMBER_TYPES.each do |phone_number_type|
       context "Phone number type #{phone_number_type}" do
