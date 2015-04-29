@@ -3,6 +3,7 @@ class PhoneNumber < ActiveRecord::Base
   attr_accessible :number, :type
 
   belongs_to :phoneable, polymorphic: true
+  validates :phoneable, presence: true
 
   validates :type, inclusion: { in: %w(NPI Fax Home Mobile Office Alternate), message: "%{value} is not a valid phone number type" }
   validate :parseable_phone_number
