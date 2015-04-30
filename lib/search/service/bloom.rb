@@ -63,7 +63,7 @@ class Search::Service::Bloom
 
   def sanitize_response(response)
     response['result'].map do |record|
-      sanitize_record(record)
+      prepare_record(record)
     end
   end
 
@@ -71,7 +71,7 @@ class Search::Service::Bloom
     sanitized_record = sanitize_record(record)
 
     u = User.find_by_npi_number(sanitized_record[:npi_number]) if User.find_by_npi_number(sanitized_record[:npi_number])
-    a = Address.where('user_id = ? and name = ?', u.id, 'office')[-1]
+    a = Address.where('user_id = ? and name = ?', u.id, 'office')[-1] unless u.nil?
 
     unless a.nil? then
       office_address = {
