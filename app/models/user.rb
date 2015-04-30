@@ -100,7 +100,7 @@ class User < ActiveRecord::Base
   end
 
   def self.with_birthday_on(date=Date.today)
-    where("DAY(birth_date) = ? AND MONTH(birth_date) = ?", Date.yesterday.day, Date.yesterday.month)
+    where("DAY(birth_date) = ? AND MONTH(birth_date) = ?", date.day, date.month)
   end
 
   def full_name
