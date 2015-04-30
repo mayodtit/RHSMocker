@@ -7,7 +7,6 @@ class CalculateBmiService
   end
 
   def call
-    byebug
     raise "Preconditions not satisfied to calculate BMI or BMI level" unless (@height && @weight && @birth_date && @gender)
     {
       bmi: bmi,

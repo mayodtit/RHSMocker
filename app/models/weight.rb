@@ -32,7 +32,6 @@ class Weight < ActiveRecord::Base
   end
 
   def calculate_bmi_values
-    byebug
     if most_recent_height_taken_at_weight && user.birth_date && user.gender
       CalculateBmiService.new(height: most_recent_height_taken_at_weight, weight: self, birth_date: user.birth_date, gender: user.gender).call
     else
