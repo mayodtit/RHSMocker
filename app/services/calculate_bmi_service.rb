@@ -7,7 +7,7 @@ class CalculateBmiService
   end
 
   def call
-    raise "Preconditions not satisfied to calculate BMI or BMI level" unless @height
+    raise "Preconditions not satisfied to calculate BMI or BMI level" unless (@height && @weight && @birth_date && @gender)
     {
       bmi: bmi,
       bmi_level: bmi_level
