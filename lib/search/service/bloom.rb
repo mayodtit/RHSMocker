@@ -17,7 +17,7 @@ class Search::Service::Bloom
     unless response['result'].count > 0
       raise ActiveRecord::RecordNotFound, "Could not find User with NPI number: #{params[:npi_number]}"
     end
-    sanitize_record(response['result'].first)
+    prepare_record(response['result'].first)
   end
 
   private
@@ -63,13 +63,36 @@ class Search::Service::Bloom
 
   def sanitize_response(response)
     response['result'].map do |record|
-      sanitize_record(record)
+      prepare_record(record)
     end
+  end
+
+  def prepare_record(record)
+    sanitized_record = sanitize_record(record)
+
+    u = User.find_by_npi_number(sanitized_record[:npi_number])
+    a = u && Address.where('user_id = ? and name = ?', u.id, 'office')[-1]
+
+    office_address = if a
+                       {
+                         address: a.address,
+                         city: a.city,
+                         state: a.state,
+                         postal_code: a.postal_code,
+                         name: a.name
+                       }
+                     else
+                       nil
+                     end
+
+    sanitized_record[:avatar_url] = u.avatar_url if u.try(:avatar_url)
+    sanitized_record[:address] = office_address || sanitized_record[:address]
+    sanitized_record
   end
 
   def sanitize_record(record)
     p = record['practice_address']
-    practice_address = {
+    bloom_address = {
       address: prettify(p['address_line']),
       address2: prettify(p['address_details_line']),
       city: prettify(p['city']),
@@ -82,11 +105,11 @@ class Search::Service::Bloom
     }
 
     hcp_code = get_hcp_code(record['provider_details'])
-    santized_record = {
+    sanitized_record = {
       :first_name => prettify(record['first_name']),
       :last_name => prettify(record['last_name']),
+      :address => bloom_address,
       :npi_number => record['npi'].to_s,
-      :address => practice_address,
       :phone => p['phone'],
       :expertise => record['credential'],
       :gender => record['gender'],
@@ -94,9 +117,7 @@ class Search::Service::Bloom
       :provider_taxonomy_code => hcp_code,
       :taxonomy_classification => HCPTaxonomy.get_classification_by_hcp_code(hcp_code)
     }
-    avatar_url = User.find_by_npi_number(record['npi']).avatar_url if User.find_by_npi_number(record['npi'])
-    santized_record[:avatar_url] = avatar_url if avatar_url
-    santized_record
+    sanitized_record
   end
 
   private

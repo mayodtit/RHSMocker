@@ -63,6 +63,56 @@ describe Search::Service::Bloom do
     end
   end
 
+  describe '#prepare_record' do
+    it 'will take a record and insert modified values into it' do
+      u = FactoryGirl.create(:user, npi_number:'1457606311')
+      FactoryGirl.create(:address, user_id: u.id, address:'da 6 you know it', name:'office', city:'Toronto', state:'ON')
+
+      record = {
+          'business_address' => {
+              'address_line' => '1906 PINE MEADOW DR',
+              'city' => 'SANTA ROSA',
+              'country_code' => 'US',
+              'state' => 'CA',
+              'zip' => '954031584'
+          },
+          'credential' => 'PHARM.D.',
+          'enumeration_date' => '2012-07-17T00:00:00.000Z',
+          'first_name' => 'BENJAMIN',
+          'gender' => 'male',
+          'last_name' => 'WANG',
+          'last_update_date' => '2012-07-17T00:00:00.000Z',
+          'middle_name' => 'SHIAN EN',
+          'name_prefix' => 'DR.',
+          'npi' => '1457606311',
+          'practice_address' => {
+              'address_line' => '3801 MIRANDA AVE',
+              'city' => 'PALO ALTO',
+              'country_code' => 'US',
+              'phone' => '6504935000',
+              'state' => 'CA',
+              'zip' => '943041207'
+          },
+          'provider_details' => [{
+                                     'healthcare_taxonomy_code' => '183500000X',
+                                     'license_number' => '67223',
+                                     'license_number_state' => 'CA',
+                                     'taxonomy_switch' => 'yes'
+                                 }],
+          'sole_proprietor' => 'no',
+          'type' => 'individual'
+      }
+      new_record = npi.send(:prepare_record, record)
+      new_record[:first_name].should == 'Benjamin'
+      new_record[:npi_number].should == '1457606311'
+      new_record[:address][:address].should == 'da 6 you know it'
+      new_record[:address][:city].should == 'Toronto'
+      new_record[:address][:state].should == 'ON'
+      new_record[:address][:name].should == 'office'
+
+    end
+  end
+
   describe '#sanitize_record' do
     it 'will take record and rehash it' do
       record = {
