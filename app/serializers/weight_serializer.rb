@@ -11,7 +11,7 @@ class WeightSerializer < ActiveModel::Serializer
     elsif bmi_level == "Overweight" || bmi_level == "Underweight"
       "#FFC85A" # Yellow color Hex Code
     elsif bmi_level == "Normal"
-      "#6A9B6B" # Green color Hec Code
+      "#6A9B6B" # Green color Hex Code
     end
   end
 
