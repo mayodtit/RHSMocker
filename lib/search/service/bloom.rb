@@ -70,8 +70,8 @@ class Search::Service::Bloom
   def prepare_record(record)
     sanitized_record = sanitize_record(record)
 
-    u = User.find_by_npi_number(sanitized_record[:npi_number]) if User.find_by_npi_number(sanitized_record[:npi_number])
-    a = Address.where('user_id = ? and name = ?', u.id, 'office')[-1] unless u.nil?
+    u = User.find_by_npi_number(sanitized_record[:npi_number])
+    a = u && Address.where('user_id = ? and name = ?', u.id, 'office')[-1]
 
     unless a.nil? then
       office_address = {
