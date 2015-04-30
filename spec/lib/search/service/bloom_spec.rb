@@ -106,6 +106,7 @@ describe Search::Service::Bloom do
       new_record[:first_name].should == 'Benjamin'
       new_record[:npi_number].should == '1457606311'
       new_record[:address][:address].should == 'da 6 you know it'
+      new_record[:address][:city].should == 'Toronto'
       new_record[:address][:state].should == 'ON'
       new_record[:address][:name].should == 'office'
 
