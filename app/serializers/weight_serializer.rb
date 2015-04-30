@@ -6,13 +6,13 @@ class WeightSerializer < ActiveModel::Serializer
              :healthkit_source, :creator_id, :warning_color
 
   def warning_color
-    if bmi_level == "Severely Underweight" || bmi_level == "Obese"
+    case bmi_level
+    when "Severely Underweight", "Obese"
       "#FF3A30" # Red color Hex Code
-    elsif bmi_level == "Overweight" || bmi_level == "Underweight"
+    when "Overweight", "Underweight"
       "#FFC85A" # Yellow color Hex Code
-    elsif bmi_level == "Normal"
+    when "Normal"
       "#6A9B6B" # Green color Hex Code
     end
   end
-
 end
