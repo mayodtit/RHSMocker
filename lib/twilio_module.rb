@@ -12,7 +12,7 @@ module TwilioModule
 
       client.account.messages.create(
         from: alert_phone_number,
-        to: PhoneNumberUtil::format_for_dialing(phone_number),
+        to: format_for_dialing(phone_number),
         body: body
       )
     end
@@ -26,7 +26,7 @@ module TwilioModule
     end
 
     def format_for_dialing(phone_number)
-      PhoneNumberUtil::format_for_dialing(phone_number)
+      PhoneNumber.format_for_dialing(phone_number)
     end
 
     def message(phone_number, body)
