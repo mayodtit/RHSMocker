@@ -1,5 +1,3 @@
-require 'csv'
-
 class CalculateBmiService
   def initialize(options)
     @height = options[:height]
@@ -9,6 +7,7 @@ class CalculateBmiService
   end
 
   def call
+    raise "Preconditions not satisfied to calculate BMI or BMI level" unless @height
     {
       bmi: bmi,
       bmi_level: bmi_level
@@ -22,29 +21,37 @@ class CalculateBmiService
   end
 
   def bmi_level
-    if age > 0 && age < (18 * 12)
-      if z_score < 4
-        @bmi_level = "Severely Underweight"
-      elsif z_score < 5
-        @bmi_level = "Underweight"
-      elsif z_score < 85
-        @bmi_level = "Normal"
-      elsif z_score < 95
-        @bmi_level = "Overweight"
-      end
+    if age_in_months > 0 && age_in_months < (18 * 12)
+      bmi_level_for_child
     else
-      if (bmi < 15)
-        @bmi_level = "Severely Underweight"
-      elsif (bmi < 18.5)
-        @bmi_level = "Underweight"
-      elsif (bmi < 24.9)
-        @bmi_level = "Normal"
-      elsif (bmi < 29.9)
-        @bmi_level = "Overweight"
-      else
-        @bmi_level = "Obese"
-      end
+      bmi_level_for_adult
     end
+  end
+
+  def bmi_level_for_child
+    @bmi_level_for_child ||= if z_score < 4
+                               "Severely Underweight"
+                             elsif z_score < 5
+                               "Underweight"
+                             elsif z_score < 85
+                               "Normal"
+                             elsif z_score < 95
+                               "Overweight"
+                             end
+  end
+
+  def bmi_level_for_adult
+    @bmi_level_for_adult ||= if (bmi < 15)
+                               "Severely Underweight"
+                             elsif (bmi < 18.5)
+                               "Underweight"
+                             elsif (bmi < 24.9)
+                               "Normal"
+                             elsif (bmi < 29.9)
+                               "Overweight"
+                             else
+                               "Obese"
+                             end
   end
 
   def z_score
@@ -55,10 +62,10 @@ class CalculateBmiService
                end
   end
 
-  def age
-    @age = Time.now - @birth_date.to_time
-    @age = @age/(60*60*24*30)
-    @age
+  SECONDS_PER_MONTH = 60 * 60 * 24 * 30
+
+  def age_in_months
+    @age_in_months ||= (Time.now - @birth_date.to_time) / SECONDS_PER_MONTH
   end
 
   def bmi_record
