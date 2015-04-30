@@ -5,8 +5,7 @@ class CalculateBmiService
     @height = options[:height]
     @weight = options[:weight]
     @birth_date = options[:birth_date]
-    @gender = if options[:gender] == "male" then 1 else 2
-              end
+    @gender = options[:gender] == 'male' ? 1 : 2
   end
 
   def call
