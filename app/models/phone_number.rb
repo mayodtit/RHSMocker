@@ -36,6 +36,26 @@ class PhoneNumber < ActiveRecord::Base
     self.class.prep_phone_number_for_db(number)
   end
 
+  def self.format_for_dialing(phone_number)
+    return nil if phone_number.blank?
+
+    dialable_phone_number = phone_number
+
+    if dialable_phone_number[0] != '+'
+      if dialable_phone_number[0] != '1'
+        dialable_phone_number = "+1#{dialable_phone_number}"
+      else
+        dialable_phone_number = "+#{dialable_phone_number}"
+      end
+    end
+
+    dialable_phone_number
+  end
+
+  def format_for_dialing
+    self.class.format_for_dialing(number)
+  end
+
   def parseable_phone_number
     begin
       unless Phoner::Phone.parse(number)

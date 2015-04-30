@@ -104,8 +104,8 @@ class PhoneCall < ActiveRecord::Base
 
   def dial_origin(dialer = nil)
     call = TwilioModule.client.account.calls.create(
-      from: PhoneNumberUtil::format_for_dialing(Metadata.outbound_calls_number),
-      to: PhoneNumberUtil::format_for_dialing(origin_phone_number),
+      from: PhoneNumber.format_for_dialing(Metadata.outbound_calls_number),
+      to: PhoneNumber.format_for_dialing(origin_phone_number),
       url: URL_HELPERS.connect_origin_api_v1_phone_call_url(self),
       method: 'POST',
       status_callback: URL_HELPERS.status_origin_api_v1_phone_call_url(self),
@@ -117,8 +117,8 @@ class PhoneCall < ActiveRecord::Base
 
   def dial_destination(dialer = nil)
     call = TwilioModule.client.account.calls.create(
-      from: PhoneNumberUtil::format_for_dialing(Metadata.outbound_calls_number),
-      to: PhoneNumberUtil::format_for_dialing(destination_phone_number),
+      from: PhoneNumber.format_for_dialing(Metadata.outbound_calls_number),
+      to: PhoneNumber.format_for_dialing(destination_phone_number),
       url: URL_HELPERS.connect_destination_api_v1_phone_call_url(self),
       method: 'POST',
       status_callback: URL_HELPERS.status_destination_api_v1_phone_call_url(self),
