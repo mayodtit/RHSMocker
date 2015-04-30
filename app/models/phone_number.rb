@@ -5,6 +5,7 @@ class PhoneNumber < ActiveRecord::Base
   belongs_to :phoneable, polymorphic: true
   validates :phoneable, presence: true
 
+  VALIDATION_REGEX = /\A\d{10}\Z/
   BLACKLISTED_PHONE_NUMBERS = ["7378742833","0000123456","2562533","8656696","266696687"].freeze
   PHONE_NUMBER_TYPES = %w(Fax Home Work Alternate Mobile NPI Office).freeze
 

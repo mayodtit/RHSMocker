@@ -4,7 +4,7 @@ class FixOrRemoveInvalidPhoneNumbers < ActiveRecord::Migration
   def fix_phone_number(old_phone_number)
     fixed_phone_number = PhoneNumber.prep_phone_number_for_db old_phone_number
     fixed_phone_number = fixed_phone_number[1..-1] if fixed_phone_number && fixed_phone_number[0] == '1'
-    fixed_phone_number = nil unless PhoneNumberUtil::VALIDATION_REGEX =~ fixed_phone_number
+    fixed_phone_number = nil unless PhoneNumber::VALIDATION_REGEX =~ fixed_phone_number
     fixed_phone_number
   end
 

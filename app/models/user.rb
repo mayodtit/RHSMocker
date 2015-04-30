@@ -67,9 +67,9 @@ class User < ActiveRecord::Base
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
   validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_blank: true
-  validates :phone, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
-  validates :work_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
-  validates :text_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
+  validates :phone, format: PhoneNumber::VALIDATION_REGEX, allow_blank: true
+  validates :work_phone_number, format: PhoneNumber::VALIDATION_REGEX, allow_blank: true
+  validates :text_phone_number, format: PhoneNumber::VALIDATION_REGEX, allow_blank: true
 
   mount_uploader :avatar, AvatarUploader
 

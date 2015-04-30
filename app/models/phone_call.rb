@@ -29,8 +29,8 @@ class PhoneCall < ActiveRecord::Base
 
   validates :twilio_conference_name, :identifier_token, :creator, presence: true
   validates :identifier_token, uniqueness: true # Used for nurseline and creating unique conference calls
-  validates :origin_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
-  validates :destination_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: false
+  validates :origin_phone_number, format: PhoneNumber::VALIDATION_REGEX, allow_nil: true
+  validates :destination_phone_number, format: PhoneNumber::VALIDATION_REGEX, allow_nil: false
   validates :to_role_id, presence: true, if: lambda {|p| !p.outbound? }
   validates :to_role, presence: true, if: lambda {|p| p.to_role_id }
   validates :merged_into_phone_call, presence: true, if: lambda {|p| p.merged_into_phone_call_id.present? }
