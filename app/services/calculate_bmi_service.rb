@@ -7,6 +7,7 @@ class CalculateBmiService
   end
 
   def call
+    byebug
     raise "Preconditions not satisfied to calculate BMI or BMI level" unless (@height && @weight && @birth_date && @gender)
     {
       bmi: bmi,
@@ -69,6 +70,6 @@ class CalculateBmiService
   end
 
   def bmi_record
-    @bmi_record ||= BmiDataLevel.find_by_gender_and_age_in_months!(@gender, age.round)
+    @bmi_record ||= BmiDataLevel.find_by_gender_and_age_in_months!(@gender, age_in_months.round)
   end
 end
