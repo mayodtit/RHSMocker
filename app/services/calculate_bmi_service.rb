@@ -12,8 +12,7 @@ class CalculateBmiService
   def call
     {
       bmi: bmi,
-      bmi_level: bmi_level,
-      warning_color: warning_color
+      bmi_level: bmi_level
     }
   end
 
@@ -65,15 +64,5 @@ class CalculateBmiService
 
   def bmi_record
     @bmi_record ||= BmiDataLevel.find_by_gender_and_age_in_months!(@gender, age.round)
-  end
-
-  def warning_color
-    @warning_color = if bmi_level == "Severely Underweight" || bmi_level == "Obese"
-                       "#FF3A30" # Red color Hex Code
-                     elsif bmi_level == "Overweight" || bmi_level == "Underweight"
-                       "#FFC85A" # Yellow color Hex Code
-                     elsif bmi_level == "Normal"
-                       "#6A9B6B" # Green color Hec Code
-                     end
   end
 end
