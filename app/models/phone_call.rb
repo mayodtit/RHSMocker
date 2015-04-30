@@ -131,10 +131,10 @@ class PhoneCall < ActiveRecord::Base
   end
 
   def self.resolve(phone_number, origin_twilio_sid, role = Role.pha)
-    phone_number = PhoneNumberUtil.prep_phone_number_for_db phone_number
+    phone_number = PhoneNumber.prep_phone_number_for_db phone_number
     state_event = role.name == 'pha' ? :resolve : nil
 
-    if PhoneNumberUtil::is_valid_caller_id phone_number
+    if PhoneNumber.not_blacklisted? phone_number
       phone_call = PhoneCall.where(
         state: role.name == 'pha' ? :unresolved : :unclaimed,
         origin_phone_number: phone_number,
@@ -305,11 +305,11 @@ class PhoneCall < ActiveRecord::Base
 
   def prep_phone_numbers
     if self.destination_phone_number_changed?
-      self.destination_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.destination_phone_number
+      self.destination_phone_number = PhoneNumber.prep_phone_number_for_db self.destination_phone_number
     end
 
     if self.origin_phone_number_changed?
-      self.origin_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.origin_phone_number
+      self.origin_phone_number = PhoneNumber.prep_phone_number_for_db self.origin_phone_number
     end
   end
 

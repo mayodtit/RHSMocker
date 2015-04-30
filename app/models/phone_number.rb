@@ -20,6 +20,22 @@ class PhoneNumber < ActiveRecord::Base
     self.class.is_allowable?(number)
   end
 
+  def self.prep_phone_number_for_db(phone_number)
+    return nil if phone_number.nil?
+
+    phone_number = phone_number.to_s.gsub /[^\d]/, ''
+
+    if phone_number.length == 11 && phone_number[0] == '1'
+      phone_number = phone_number[1..-1]
+    end
+
+    phone_number
+  end
+
+  def prep_phone_number_for_db
+    self.class.prep_phone_number_for_db(number)
+  end
+
   def parseable_phone_number
     begin
       unless Phoner::Phone.parse(number)

@@ -342,9 +342,9 @@ class User < ActiveRecord::Base
   end
 
   def prep_phone_numbers
-    self.phone = PhoneNumberUtil::prep_phone_number_for_db self.phone
-    self.work_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.work_phone_number
-    self.text_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.text_phone_number
+    self.phone = PhoneNumber.prep_phone_number_for_db self.phone
+    self.work_phone_number = PhoneNumber.prep_phone_number_for_db self.work_phone_number
+    self.text_phone_number = PhoneNumber.prep_phone_number_for_db self.text_phone_number
   end
 
   def set_defaults

@@ -23,6 +23,32 @@ describe PhoneNumber do
     end
   end
 
+  describe ".prep_phone_number_for_db" do
+    it "returns nil if the input phone number is nil" do
+      raw_phone_number = nil
+      expect(PhoneNumber.new(number: raw_phone_number).prep_phone_number_for_db).to be_nil
+      expect(PhoneNumber.prep_phone_number_for_db(raw_phone_number)).to be_nil
+    end
+
+    it "removes all non-digit characters" do
+      raw_phone_number = "(408) 391 - 3578"
+      expect(PhoneNumber.new(number: raw_phone_number).prep_phone_number_for_db).to eq "4083913578"
+      expect(PhoneNumber.prep_phone_number_for_db(raw_phone_number)).to eq "4083913578"
+    end
+
+    it "removes country code from 11 digit numbers" do
+      raw_phone_number = "14083913578"
+      expect(PhoneNumber.new(number: raw_phone_number).prep_phone_number_for_db).to eq "4083913578"
+      expect(PhoneNumber.prep_phone_number_for_db(raw_phone_number)).to eq "4083913578"
+    end
+
+    it "it removes + characters" do
+      raw_phone_number = "+14083913578"
+      expect(PhoneNumber.new(number: raw_phone_number).prep_phone_number_for_db).to eq "4083913578"
+      expect(PhoneNumber.prep_phone_number_for_db(raw_phone_number)).to eq "4083913578"
+    end
+  end
+
   describe "#type" do
     PhoneNumber::PHONE_NUMBER_TYPES.each do |phone_number_type|
       context "Phone number type #{phone_number_type}" do
