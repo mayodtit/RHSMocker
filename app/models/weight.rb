@@ -4,12 +4,12 @@ class Weight < ActiveRecord::Base
   belongs_to :creator, class_name: 'Member'
 
   attr_accessible :user, :user_id, :amount, :bmi, :taken_at, :healthkit_uuid,
-                  :healthkit_source, :creator_id, :creator, :bmi_level, :warning_color
+                  :healthkit_source, :creator_id, :creator, :bmi_level
 
-  validates :user, :amount, :taken_at, presence: true
+  validates :user, :amount, :taken_at, :bmi, :bmi_level, presence: true
 
   before_validation :set_defaults, on: :create
-  before_save :set_bmi_values
+  before_validation :set_bmi_values
 
   def self.most_recent
     order('taken_at DESC').first
@@ -25,13 +25,11 @@ class Weight < ActiveRecord::Base
   def set_bmi_values
     self.bmi ||= bmi_values[:bmi]
     self.bmi_level ||= bmi_values[:bmi_level]
-    self.warning_color ||= bmi_values[:warning_color]
   end
 
   def set_bmi_values!
     self.bmi = nil
     self.bmi_level = nil
-    self.warning_color = nil
     @bmi_values = nil
     set_bmi_values
   end
