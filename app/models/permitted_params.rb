@@ -61,7 +61,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def weight
-    params.require(:weight).permit(:amount, :bmi, :taken_at, :healthkit_uuid, :healthkit_source)
+    params.require(:weight).permit(:amount, :taken_at, :healthkit_uuid, :healthkit_source)
   end
 
   def discounts
