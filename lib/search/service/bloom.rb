@@ -62,12 +62,16 @@ class Search::Service::Bloom
   end
 
   def sanitize_response(response)
+    @user_map = User.where(npi_number: response['result'].map{|record| record['npi'].to_s}).inject({}){|hash, user| hash[user.npi_number] = user; hash}
+
     response['result'].map do |record|
       sanitize_record(record)
     end
   end
 
   def sanitize_record(record)
+    @user_map ||= {}
+
     p = record['practice_address']
     practice_address = {
       address: prettify(p['address_line']),
@@ -94,8 +98,7 @@ class Search::Service::Bloom
       :provider_taxonomy_code => hcp_code,
       :taxonomy_classification => HCPTaxonomy.get_classification_by_hcp_code(hcp_code)
     }
-    avatar_url = User.find_by_npi_number(record['npi']).avatar_url if User.find_by_npi_number(record['npi'])
-    santized_record[:avatar_url] = avatar_url if avatar_url
+    santized_record[:avatar_url] = @user_map[record['npi'].to_s].avatar_url if @user_map[record['npi'].to_s].try(:avatar_url)
     santized_record
   end
 
