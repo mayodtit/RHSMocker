@@ -1,3 +1,5 @@
+require 'csv'
+
 filename = 'bmiagerev.csv'
 encoding = 'ISO-8859-1'
 puts "Seeding BMI input data..."
