@@ -27,13 +27,6 @@ class Weight < ActiveRecord::Base
     self.bmi_level ||= bmi_values[:bmi_level]
   end
 
-  def set_bmi_values!
-    self.bmi = nil
-    self.bmi_level = nil
-    @bmi_values = nil
-    set_bmi_values
-  end
-
   def bmi_values
     @bmi_values ||= calculate_bmi_values
   end
