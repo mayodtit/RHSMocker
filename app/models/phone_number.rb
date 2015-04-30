@@ -17,8 +17,8 @@ class PhoneNumber < ActiveRecord::Base
     !@blacklist_string.include?(phone_number)
   end
 
-  def not_blacklisted??
-    self.class.is_allowable?(number)
+  def not_blacklisted?
+    self.class.not_blacklisted?(number)
   end
 
   def self.prep_phone_number_for_db(phone_number)
