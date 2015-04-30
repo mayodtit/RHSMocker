@@ -202,3 +202,40 @@ ServiceTemplate.upsert_attributes({name: "prescription organization"},
                                    service_type: ServiceType.find_by_name('prescription management'),
                                    time_estimate: 240}
 )
+
+APPOINTMENT_PREPARATION_CF_DESCRIPTION = <<-eof
+**This Service is assigned to PHA**
+
+#Appointment Information
+* **Member:**
+* **Appointment Date/Time:**
+* **Provider:**
+* **Address:**
+* **Phone:**
+* **Reason for visit:**
+* **New Patient:** yes/no
+eof
+
+APPOINTMENT_PREPARATION_CF_UPDATE = <<-eof
+#PHA notes before appointment
+* **Member confirmed 1 month out: yes/no**
+* **Member confirmed 1 week out: yes/no**
+* **Transportation:**
+* **New symptoms:**
+* **Medication questions:**
+* **Nutrition questions:**
+* **Current BMI:**
+* **All BMI measurements since last visit:**
+
+#PHA notes after appointment
+* **Notes from Appointment:**
+* **Next appointment date/time:**
+eof
+
+ServiceTemplate.upsert_attributes({name: "appointment preparation - cf"},
+                                  {title: "Appointment Preparation - CF",
+                                   description: APPOINTMENT_PREPARATION_CF_DESCRIPTION,
+                                   service_update: APPOINTMENT_PREPARATION_CF_UPDATE,
+                                   service_type: ServiceType.find_by_name('appointment preparation'),
+                                   time_estimate: 240}
+)

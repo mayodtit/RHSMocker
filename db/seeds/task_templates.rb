@@ -745,3 +745,147 @@ TaskTemplate.upsert_attributes({name: "prescription organization - send member -
                                 description: PRESCRIPTION_ORGANIZATION_UPDATE_MEMBER_CONFIRMATION_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 3})
+
+# Appointment Preparation - CF
+APPOINTMENT_PREPARATION_CF_CHECK_IN_MONTH_DESCRIPTION = <<-eof
+**Change due date of this task to 1 month before appointment**
+1. On due date, send details about appointment
+2. Check in about new symptoms, nutrition or medication questions
+3. Add recorded BMI measurements to **Service Update for PHA** and remind to enter BMI
+4. Update confirmed appointment, new symptoms or questions in **Service Update for PHA**
+5. Complete task
+
+**M1:**
+Hi [member], a reminder that your next CF appointment with Dr. [doctor name] is 1 month away! Here are the details of the appointment:
+
+**Day, Date at Time**
+Dr. First Last
+Address: ([map](map link))
+Phone: Phone number
+
+Does this still work with your schedule?
+
+**M2 (if they’ve been tracking BMI):**
+Great! Thanks for entering your BMI measurements. Keep up the good work.
+
+**M2 (if they haven’t been tracking BMI):**
+Just a reminder to keep up the daily weight measurements and save it to your profile by [tapping here](better://nb?cmd=showMedicalInformation).
+
+**M3:**
+Do you have any questions about your medications, nutrition or new symptoms? Send them here and I’ll keep track of them to ask your doctor at your appointment.
+eof
+
+APPOINTMENT_PREPARATION_CF_CHECK_IN_WEEK_DESCRIPTION = <<-eof
+**Change due date of this task to 1 week before appointment**
+1. On due date, send details about appointment and find out how they are getting there
+2. Check in about new symptoms, nutrition or medication questions
+3. Add recorded BMI measurements to **Service Update for PHA** and remind to enter BMI
+4. Update confirmed appointment, new symptoms or questions in **Service Update for PHA**
+5. Complete task
+
+
+**M1:**
+Hi [member], a reminder that your next CF appointment with Dr. [doctor name] is 1 month away! Here are the details of the appointment:
+
+**Day, Date at Time**
+Dr. First Last
+Address: ([map](map link))
+Phone: Phone number
+
+How are you planning on getting to your appointment?
+
+**M2 (if they’ve been tracking BMI):**
+Great! Thanks for entering your BMI measurements. Keep up the good work.
+
+**M2 (if they haven’t been tracking BMI):**
+Just a reminder to keep up the daily weight measurements and save it to your profile by [tapping here](better://nb?cmd=showMedicalInformation).
+
+**M3:**
+Do you have any questions about your medications, nutrition or new symptoms? Send them here and I’ll keep track of them to ask your doctor at your appointment.
+eof
+
+APPOINTMENT_PREPARATION_CF_CHECK_IN_DAY_DESCRIPTION = <<-eof
+**Change due date of this task to 1 day before appointment**
+1. On due date, send details about appointment
+2. Send member information recorded in Service Notes
+3. Complete task
+
+**M1:**
+Hi [member], a reminder that your next CF appointment with Dr. [doctor name] is tomorrow! Here are the details of the appointment:
+
+**Day, Date at Time**
+Dr. First Last
+Address: ([map](map link))
+Phone: Phone number
+
+**M2:**
+Over the last month we’ve been collecting information to help prepare you for your appointment. Here are some things to review with your doctor:
+
+**New symptoms:**
+
+**Current BMI:**
+
+**BMI measurements since your last visit:**
+<BMI>, <date>
+
+**Medication questions:**
+Are you making any changes to my medications?
+If so, how will that affect me?
+**Nutrition questions:**
+Would you recommend I change any of my eating habits?
+
+
+**M3:**
+I’ll check in with you after your appointment! Let me know if you’d like me to email this to you as well.
+eof
+
+APPOINTMENT_PREPARATION_CF_FOLLOW_UP_DESCRIPTION = <<-eof
+*Change due date of this task to same day of appointment**
+1. On due date, ask how appointment went
+2. If they scheduled the next one, add to calendar and assign new Appointment Preparation service due the day of new appointment
+3. If they did not schedule the next one, create Appointment Booking service
+4. Record any notes from the visit to the member’s profile
+5. Assign new services as necessary
+6. Complete task
+
+**M1:**
+How did your appointment go today? Did Dr. [doctor name] suggest any changes to your medications, nutrition or treatment plan?
+
+**M2:**
+Did you already schedule your next appointment?
+
+**M3 (if yes):**
+Great! I’ll add it to your calendar and help you prepare like I did with this appointment.
+
+**M3 (if no):**
+Is there any particular reason it was not scheduled? We can call over and get your next appointment on the calendar for you.
+eof
+
+TaskTemplate.upsert_attributes({name: "appointment preparation - cf - check in - month"},
+                               {service_template: ServiceTemplate.find_by_name('appointment preparation - cf'),
+                                title: "CF Appointment Check in - 1 month",
+                                description: APPOINTMENT_PREPARATION_CF_CHECK_IN_MONTH_DESCRIPTION,
+                                time_estimate: 60,
+                                service_ordinal: 0})
+
+TaskTemplate.upsert_attributes({name: "appointment preparation - cf - check in - week"},
+                               {service_template: ServiceTemplate.find_by_name('appointment preparation - cf'),
+                                title: " CF Appointment Check in - 1 week",
+                                description: APPOINTMENT_PREPARATION_CF_CHECK_IN_WEEK_DESCRIPTION,
+                                time_estimate: 60,
+                                service_ordinal: 1})
+
+TaskTemplate.upsert_attributes({name: "appointment preparation - cf - check in - day"},
+                               {service_template: ServiceTemplate.find_by_name('appointment preparation - cf'),
+                                title: "CF Appointment Check in - 1 day",
+                                description: APPOINTMENT_PREPARATION_CF_CHECK_IN_DAY_DESCRIPTION,
+                                time_estimate: 60,
+                                service_ordinal: 2})
+
+
+TaskTemplate.upsert_attributes({name: "appointment preparation - cf - follow up"},
+                               {service_template: ServiceTemplate.find_by_name('appointment preparation - cf'),
+                                title: "CF Appointment Follow Up",
+                                description: APPOINTMENT_PREPARATION_CF_FOLLOW_UP_DESCRIPTION,
+                                time_estimate: 60,
+                                service_ordinal: 3})
