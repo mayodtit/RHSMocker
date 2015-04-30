@@ -70,6 +70,8 @@ class Search::Service::Bloom
   end
 
   def sanitize_record(record)
+    @user_map ||= {}
+
     p = record['practice_address']
     practice_address = {
       address: prettify(p['address_line']),
