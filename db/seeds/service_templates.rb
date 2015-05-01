@@ -239,3 +239,56 @@ ServiceTemplate.upsert_attributes({name: "appointment preparation - cf"},
                                    service_type: ServiceType.find_by_name('appointment preparation'),
                                    time_estimate: 240}
 )
+BMI_MANAGEMENT_3_MONTHS_DESCRIPTION = <<-eof
+**This Service is Assigned to PHA**
+
+#Weight notes
+* **When to weigh:**
+* **Weigh-in routine:**
+* **Starting BMI:**
+* **Starting date:**
+* **Weight goals:**
+
+#Member request
+* **Member name:**
+* **Doctor name:**
+* **Doctor phone:**
+* **Next CF appointment:**
+
+
+
+#Previous BMI notes
+* Notes/trends from the last 3 months of measuring (barriers to weighing, changes to routine, etc)
+
+#Previous BMI measurements
+**Paste any important past BMI measurements and dates here**
+eof
+
+BMI_MANAGEMENT_3_MONTHS_UPDATE = <<-eof
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+
+Add more notes/measurements below if needed
+
+eof
+
+BMI_MANAGEMENT_3_MONTHS_REQUEST = <<-eof
+Support [member/you] in tracking your BMI to prepare for your appointment with Dr. [doctor name]
+eof
+
+ServiceTemplate.upsert_attributes({name: "bmi management - 3 months"},
+                                  {title: "BMI tracking",
+                                   description: BMI_MANAGEMENT_3_MONTHS_DESCRIPTION,
+                                   service_update: BMI_MANAGEMENT_3_MONTHS_UPDATE,
+                                   service_request: BMI_MANAGEMENT_3_MONTHS_REQUEST,
+                                   user_facing: true,
+                                   service_type: ServiceType.find_by_name('bmi management'),
+                                   timed_service: true,
+                                   time_estimate: 131760
+)
