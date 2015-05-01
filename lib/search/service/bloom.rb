@@ -62,31 +62,34 @@ class Search::Service::Bloom
   end
 
   def sanitize_response(response)
+    @user_map = User.where(npi_number: response['result'].map{|record| record['npi'].to_s}).inject({}){|hash, user| hash[user.npi_number] = user; hash}
+
     response['result'].map do |record|
       prepare_record(record)
     end
   end
 
   def prepare_record(record)
+    @user_map ||= {}
+
     sanitized_record = sanitize_record(record)
 
-    u = User.find_by_npi_number(sanitized_record[:npi_number])
-    a = u && Address.where('user_id = ? and name = ?', u.id, 'office')[-1]
+    # override address when a provider has an office address in our database
+    if u = @user_map[sanitized_record[:npi_number]]
+      if a = u.addresses.find_by_name('office')
+        sanitized_record[:address] = {
+                                       address: a.address,
+                                       city: a.city,
+                                       state: a.state,
+                                       postal_code: a.postal_code,
+                                       name: a.name
+                                     }
+      end
+    end
 
-    office_address = if a
-                       {
-                         address: a.address,
-                         city: a.city,
-                         state: a.state,
-                         postal_code: a.postal_code,
-                         name: a.name
-                       }
-                     else
-                       nil
-                     end
+    # set avatar_url when a provider has one in our database
+    santized_record[:avatar_url] = @user_map[record['npi'].to_s].avatar_url if @user_map[record['npi'].to_s].try(:avatar_url)
 
-    sanitized_record[:avatar_url] = u.avatar_url if u.try(:avatar_url)
-    sanitized_record[:address] = office_address || sanitized_record[:address]
     sanitized_record
   end
 
