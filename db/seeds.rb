@@ -3,6 +3,7 @@ Sunspot.session = ::Sunspot::Rails::StubSessionProxy.new($original_sunspot_sessi
 
 %w(agreements
    allergies
+   backfill_bmi
    bmi_input_data
    domain
    association_types
