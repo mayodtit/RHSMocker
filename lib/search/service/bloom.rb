@@ -6,9 +6,12 @@ class Search::Service::Bloom
   base_uri ENV['BLOOM_API_URL']
 
   def query(params)
+    @zip_codes = params[:zip]
     response = self.class.get('/api/search', :query => query_params(params))
     raise StandardError, 'Non-success response from NPI database' unless response.success?
-    sanitize_response(response.parsed_response)
+    local_addresses = Address.where(name: "Office").select{|address| @zip_codes.include? address.postal_code}
+    local_providers = local_addresses.map{|address| address.user} if local_addresses
+    sanitize_response(response.parsed_response).concat(format_local_providers(local_providers))
   end
 
   def find(params)
@@ -23,6 +26,40 @@ class Search::Service::Bloom
   private
 
   QUERY_PARAMS = [:first_name, :last_name, :npi]
+
+  def format_local_providers(providers)
+    output = []
+    providers.each do |provider|
+     hash={
+       :first_name => provider.first_name,
+       :last_name => provider.last_name,
+       :address => format_address(provider, provider.addresses.find_by_name("Office")),
+       :npi_number => provider.npi_number,
+       :phone => provider.phone,
+       :expertise => provider.expertise,
+       :gender => provider.gender,
+       :healthcare_taxonomy_code => 'hcp_code', # this line left in for backwards compabitility
+       :provider_taxonomy_code => provider.provider_taxonomy_code,
+       :taxonomy_classification => provider.taxonomy_classification
+     }
+      output << hash
+    end
+    output
+  end
+
+  def format_address(provider,address)
+    {
+     address: address.address,
+     address2: address.address2,
+     city: address.city,
+     state: address.state,
+     postal_code: address.postal_code,
+     country_code: nil,
+     phone: provider.phone, # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
+     fax: nil,
+     name: "NPI"
+    }
+  end
 
   def sanitize_params(params)
     new_params = params.reject { |k, v| !QUERY_PARAMS.include?(k.to_sym) }
@@ -71,25 +108,25 @@ class Search::Service::Bloom
 
   def prepare_record(record)
     @user_map ||= {}
-
     sanitized_record = sanitize_record(record)
-
     # override address when a provider has an office address in our database
     if u = @user_map[sanitized_record[:npi_number]]
       if a = u.addresses.find_by_name('office')
-        sanitized_record[:address] = {
-                                       address: a.address,
-                                       city: a.city,
-                                       state: a.state,
-                                       postal_code: a.postal_code,
-                                       name: a.name
-                                     }
+        if @zip_codes.include?(a.postal_code)
+          sanitized_record[:address] = {
+                                         address: a.address,
+                                         city: a.city,
+                                         state: a.state,
+                                         postal_code: a.postal_code,
+                                         name: a.name
+                                       }
+        else
+          sanitized_record = nil
+        end
       end
     end
-
     # set avatar_url when a provider has one in our database
-    santized_record[:avatar_url] = @user_map[record['npi'].to_s].avatar_url if @user_map[record['npi'].to_s].try(:avatar_url)
-
+    sanitized_record[:avatar_url] = @user_map[record['npi'].to_s].avatar_url if @user_map[record['npi'].to_s].try(:avatar_url) if sanitized_record
     sanitized_record
   end
 

@@ -37,6 +37,7 @@ class Api::V1::ProvidersController < Api::V1::ABaseController
     [:first_name, :last_name].each { |k| params[k].strip! unless params[k].nil? }
 
     search_service.proximity(params)
+    #now the params are a bunch of zip codes
     begin
       @providers = search_service.query(params)
     rescue => e
