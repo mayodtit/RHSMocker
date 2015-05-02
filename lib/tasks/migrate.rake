@@ -161,6 +161,11 @@ namespace :migrate do
     puts "\nAll done!"
   end
 
+  desc "Backfill BMI."
+  task :backfill_bmi => :environment do
+    Weight.where(bmi: nil).each{|w| w.save!}
+  end
+
   def pluralize(count, singular)
     ActionController::Base.helpers.pluralize(count, singular)
   end
