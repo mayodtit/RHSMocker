@@ -16,6 +16,5 @@ elsif Rails.env.devhosted? || Rails.env.development?
 end
 TWILIO_SOUNDS_URL_PREFIX = "https://s3-us-west-2.amazonaws.com/btr-static#{folder}/phone"
 
-require 'utils/phone_number_util'
 require 'twilio_module'
 include TwilioModule

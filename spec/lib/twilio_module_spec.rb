@@ -10,8 +10,8 @@ describe PubSub do
 
         it 'sends the body and uses PHA phone number' do
           TwilioModule.client.account.messages.should_receive(:create).with(
-            from: PhoneNumberUtil::format_for_dialing(Metadata.outbound_calls_number),
-            to: PhoneNumberUtil::format_for_dialing('4083913578'),
+            from: PhoneNumber.format_for_dialing(Metadata.outbound_calls_number),
+            to: PhoneNumber.format_for_dialing('4083913578'),
             body: 'Hello'
           )
           TwilioModule.message_without_delay '4083913578', 'Hello'
@@ -21,8 +21,8 @@ describe PubSub do
       context 'not production' do
         it 'prepends the environment to body' do
           TwilioModule.client.account.messages.should_receive(:create).with(
-            from: PhoneNumberUtil::format_for_dialing(SERVICE_ALERT_PHONE_NUMBER),
-            to: PhoneNumberUtil::format_for_dialing('4083913578'),
+            from: PhoneNumber.format_for_dialing(SERVICE_ALERT_PHONE_NUMBER),
+            to: PhoneNumber.format_for_dialing('4083913578'),
             body: 'test - Hello'
           )
           TwilioModule.message_without_delay '4083913578', 'Hello'

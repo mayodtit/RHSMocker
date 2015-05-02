@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150421183832) do
+ActiveRecord::Schema.define(:version => 20150428020845) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -109,6 +109,16 @@ ActiveRecord::Schema.define(:version => 20150421183832) do
 
   add_index "blood_pressures", ["collection_type_id"], :name => "index_blood_pressures_on_collection_type_id"
   add_index "blood_pressures", ["user_id"], :name => "index_blood_pressures_on_user_id"
+
+  create_table "bmi_data_levels", :force => true do |t|
+    t.string   "gender"
+    t.integer  "age_in_months"
+    t.float    "power_in_transformation"
+    t.float    "median"
+    t.float    "coefficient_of_variation"
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
+  end
 
   create_table "cards", :force => true do |t|
     t.integer  "user_id"
@@ -745,6 +755,16 @@ ActiveRecord::Schema.define(:version => 20150421183832) do
   add_index "phone_calls", ["state", "origin_phone_number"], :name => "index_phone_calls_on_state_and_origin_phone_number"
   add_index "phone_calls", ["state"], :name => "index_phone_calls_on_state"
   add_index "phone_calls", ["to_role_id"], :name => "index_phone_calls_on_to_role_id"
+
+  create_table "phone_numbers", :force => true do |t|
+    t.string   "type"
+    t.string   "number"
+    t.boolean  "primary",        :default => false, :null => false
+    t.integer  "phoneable_id"
+    t.string   "phoneable_type"
+    t.datetime "created_at",                        :null => false
+    t.datetime "updated_at",                        :null => false
+  end
 
   create_table "program_resources", :force => true do |t|
     t.integer  "program_id"
@@ -1502,6 +1522,7 @@ ActiveRecord::Schema.define(:version => 20150421183832) do
     t.string   "healthkit_uuid"
     t.integer  "creator_id"
     t.string   "healthkit_source"
+    t.string   "bmi_level"
   end
 
   add_index "weights", ["creator_id"], :name => "index_weights_on_creator_id"

@@ -57,7 +57,8 @@ class MemberSerializer < ActiveModel::Serializer
                             nurse?: object.nurse?,
                             pha?: object.pha?,
                             pha_lead?: object.pha_lead?,
-                            care_provider?: object.care_provider?)
+                            care_provider?: object.care_provider?,
+                            specialist?: object.specialist?)
           attributes.merge!(roles: object.roles.map(&:name))
           attributes.merge!(on_call?: object.on_call?)
         end

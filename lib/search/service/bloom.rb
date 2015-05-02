@@ -17,7 +17,7 @@ class Search::Service::Bloom
     unless response['result'].count > 0
       raise ActiveRecord::RecordNotFound, "Could not find User with NPI number: #{params[:npi_number]}"
     end
-    sanitize_record(response['result'].first)
+    prepare_record(response['result'].first)
   end
 
   private
@@ -62,14 +62,40 @@ class Search::Service::Bloom
   end
 
   def sanitize_response(response)
+    @user_map = User.where(npi_number: response['result'].map{|record| record['npi'].to_s}).inject({}){|hash, user| hash[user.npi_number] = user; hash}
+
     response['result'].map do |record|
-      sanitize_record(record)
+      prepare_record(record)
     end
+  end
+
+  def prepare_record(record)
+    @user_map ||= {}
+
+    sanitized_record = sanitize_record(record)
+
+    # override address when a provider has an office address in our database
+    if u = @user_map[sanitized_record[:npi_number]]
+      if a = u.addresses.find_by_name('office')
+        sanitized_record[:address] = {
+                                       address: a.address,
+                                       city: a.city,
+                                       state: a.state,
+                                       postal_code: a.postal_code,
+                                       name: a.name
+                                     }
+      end
+    end
+
+    # set avatar_url when a provider has one in our database
+    santized_record[:avatar_url] = @user_map[record['npi'].to_s].avatar_url if @user_map[record['npi'].to_s].try(:avatar_url)
+
+    sanitized_record
   end
 
   def sanitize_record(record)
     p = record['practice_address']
-    practice_address = {
+    bloom_address = {
       address: prettify(p['address_line']),
       address2: prettify(p['address_details_line']),
       city: prettify(p['city']),
@@ -82,11 +108,11 @@ class Search::Service::Bloom
     }
 
     hcp_code = get_hcp_code(record['provider_details'])
-    santized_record = {
+    sanitized_record = {
       :first_name => prettify(record['first_name']),
       :last_name => prettify(record['last_name']),
+      :address => bloom_address,
       :npi_number => record['npi'].to_s,
-      :address => practice_address,
       :phone => p['phone'],
       :expertise => record['credential'],
       :gender => record['gender'],
@@ -94,9 +120,7 @@ class Search::Service::Bloom
       :provider_taxonomy_code => hcp_code,
       :taxonomy_classification => HCPTaxonomy.get_classification_by_hcp_code(hcp_code)
     }
-    avatar_url = User.find_by_npi_number(record['npi']).avatar_url if User.find_by_npi_number(record['npi'])
-    santized_record[:avatar_url] = avatar_url if avatar_url
-    santized_record
+    sanitized_record
   end
 
   private
