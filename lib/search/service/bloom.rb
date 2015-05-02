@@ -88,7 +88,7 @@ class Search::Service::Bloom
     end
 
     # set avatar_url when a provider has one in our database
-    santized_record[:avatar_url] = @user_map[record['npi'].to_s].avatar_url if @user_map[record['npi'].to_s].try(:avatar_url)
+    sanitized_record[:avatar_url] = @user_map[record['npi'].to_s].avatar_url if @user_map[record['npi'].to_s].try(:avatar_url)
 
     sanitized_record
   end
