@@ -1,95 +1,176 @@
 # Mayo Pilot 2 --
 
 # Week 1
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
 
+Messaging:
+
+How are you feeling today?
+eof
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 2"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHow are you feeling today? As a reminder, I am extension of your care team at Mayo Clinic and here to help out with your transition after the hospital",
+                                description: description,
                                 time_estimate: 1440,
                                 priority: 1,
                                 service_ordinal: 0})
 
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
+
+Messaging:
+
+Is there anything I can help you with today?
+eof
+
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 3"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHi___, how are things going?",
+                                description: description,
                                 time_estimate: 1440,
                                 priority: 1,
                                 service_ordinal: 1})
 
+description = <<-eof
+-If member has not engaged in previous two messages, make outbound call to member to review discharge plan
+
+-Otherwise, check in with engaged patient/about services being performed or use messaging below
+
+Messaging:
+
+Just checking in about your discharge plans. Would you like to set up a time to talk?
+eof
+
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 4"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nJust checking in, ___. How are you today?",
+                                description: description,
                                 time_estimate: 1440,
                                 priority: 1,
                                 service_ordinal: 2})
 
+description = <<-eof
+-If patient is unengaged (has not responded to previous messages and the outbound call), let Paul/Meg know.
+
+-Otherwise, check in with engaged patient/about services being performed or use messaging below
+
+Messaging:
+
+Do you have any questions about your transition plan?
+eof
+
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 5"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHi ___, Do you have any questions for me as you recuperate?",
+                                description: description,
                                 time_estimate: 1440,
                                 priority: 1,
                                 service_ordinal: 3})
 # Week 2
 
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
+
+Messaging:
+
+How are you doing?
+eof
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 8"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHi ___, wanted to see how you're doing today?",
+                                description: description,
                                 time_estimate: 2880,
                                 priority: 1,
                                 service_ordinal: 4})
 
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
+
+Messaging:
+
+Is there anything I can help with?
+eof
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 10"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nI hope you are doing well ___. Please let me know if I can help out with anything.",
+                                description: description,
                                 time_estimate: 2880,
                                 priority: 1,
                                 service_ordinal: 5})
 
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
+
+Messaging:
+
+How are you feeling today?
+eof
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 12"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHow are you feeling today, ____?",
+                                description: description,
                                 time_estimate: 2880,
                                 priority: 1,
                                 service_ordinal: 6})
 
 # Week 3
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
 
+Messaging:
+
+I wanted to check in and see how you're doing today. Let me know if there’s anything I can get started on for you.
+eof
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 15"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHi ____. I wanted to check in with you and see how you're doing today.",
+                                description: description,
                                 time_estimate: 4320,
                                 priority: 1,
                                 service_ordinal: 7})
 
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
+
+Messaging:
+
+Please let me know what I can do to help. We’re here to support you.
+eof
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 18"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nPlease let me know if I can do anything for you, ___. Here to help out!",
+                                description: description,
                                 time_estimate: 4320,
                                 priority: 1,
                                 service_ordinal: 8})
 # Week 4
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
 
+Messaging:
+
+How’s your week going?
+eof
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 22"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHi ____. I wanted to check in with you and see how you're doing today.",
+                                description: description,
                                 time_estimate: 4320,
                                 priority: 1,
                                 service_ordinal: 9})
 
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
+
+Messaging:
+
+How are you feeling today?
+eof
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 25"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nPlease let me know if I can do anything for you, ___. Here to help out!",
+                                description: description,
                                 time_estimate: 4320,
                                 priority: 1,
                                 service_ordinal: 10})
