@@ -3,7 +3,7 @@ class WeightSerializer < ActiveModel::Serializer
 
   has_one :creator
   attributes :id, :user_id, :amount, :bmi, :taken_at, :healthkit_uuid, :bmi_level,
-             :healthkit_source, :creator_id, :warning_color
+             :healthkit_source, :creator_id, :warning_color, :truncated_bmi
 
   def warning_color
     case bmi_level
@@ -14,5 +14,9 @@ class WeightSerializer < ActiveModel::Serializer
     when "Normal"
       "#6A9B6B" # Green color Hex Code
     end
+  end
+
+  def truncated_bmi
+    bmi.round(1)
   end
 end
