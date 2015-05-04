@@ -6,10 +6,10 @@ class Weight < ActiveRecord::Base
   attr_accessible :user, :user_id, :amount, :bmi, :taken_at, :healthkit_uuid,
                   :healthkit_source, :creator_id, :creator, :bmi_level
 
-  validates :user, :amount, :taken_at, :bmi, :bmi_level, presence: true
+  validates :user, :amount, :taken_at, presence: true
 
   before_validation :set_defaults, on: :create
-  before_validation :set_bmi_values
+  before_save :set_bmi_values
 
   def self.most_recent
     order('taken_at DESC').first

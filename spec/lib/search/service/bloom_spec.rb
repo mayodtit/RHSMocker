@@ -95,7 +95,7 @@ describe Search::Service::Bloom do
     end
   end
 
-  describe '#prepare_record' do
+  describe '#sanitize_response' do
     it 'will take a record and insert modified values into it' do
       u = FactoryGirl.create(:user, npi_number:'1457606311')
       FactoryGirl.create(:address, user_id: u.id, address:'da 6 you know it', name:'office', city:'Toronto', state:'ON')
@@ -134,14 +134,13 @@ describe Search::Service::Bloom do
           'sole_proprietor' => 'no',
           'type' => 'individual'
       }
-      new_record = npi.send(:prepare_record, record)
+      new_record = npi.send(:sanitize_response, 'result' => [record]).try(:first)
       new_record[:first_name].should == 'Benjamin'
       new_record[:npi_number].should == '1457606311'
       new_record[:address][:address].should == 'da 6 you know it'
       new_record[:address][:city].should == 'Toronto'
       new_record[:address][:state].should == 'ON'
       new_record[:address][:name].should == 'office'
-
     end
   end
 
