@@ -35,6 +35,7 @@ APPOINTMENT_BOOKING_DESCRIPTION = <<-eof
 
 #Member Request
 * **Member:**
+* **Date of birth:**
 * **Insurance plan:**
 * **Provider:**
 * **Address:**
@@ -58,8 +59,8 @@ We’ve found you an appointment with Dr. [First Last]. Here are the details:
 
 **Day, Date at Time**
 Dr. First Last
-Address: ([map](map link))
-Phone: Phone number
+Address:
+Phone:
 -Other details (what to bring, when to arrive)
 
 Let me know if this works for you and I’ll add it to your calendar!

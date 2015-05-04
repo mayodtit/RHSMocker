@@ -200,7 +200,10 @@ eof
 
 APPOINTMENT_BOOKING_SEND_CONFIRMATION_DESCRIPTION = <<-eof
 1. Send appointment to member (see Service Update for PHA)
-2. Complete task
+2. Send member a calendar invite (see Service Update for PHA)
+3. Go to providers tab in member’s profile
+4. Add doctor to profile if they are not already there
+5. Complete task
 eof
 
 APPOINTMENT_BOOKING_SEND_CALENDAR_DESCRIPTION = <<-eof
@@ -224,7 +227,7 @@ APPOINTMENT_BOOKING_FOLLOW_UP_TEMPLATE = <<-eof
 1. Change due date of this task to same day of appointment
 2. On due date, send member reminder message:
 
-        How did your appointment go? Do you get all your questions answered?
+        How did your appointment go? Let me know if I can help with any follow up
 
 3. Complete task
 eof
@@ -243,26 +246,12 @@ TaskTemplate.upsert_attributes({name: "appointment booking -  send confirmation"
                                 time_estimate: 30,
                                 service_ordinal: 1})
 
-TaskTemplate.upsert_attributes({name: "appointment booking - calander invite"},
-                               {service_template: ServiceTemplate.find_by_name('appointment booking'),
-                                title: "SEND - calendar invite",
-                                description: APPOINTMENT_BOOKING_SEND_CALENDAR_DESCRIPTION,
-                                time_estimate: 60,
-                                service_ordinal: 2})
-
-TaskTemplate.upsert_attributes({name: "appointment booking - add doctor"},
-                               {service_template: ServiceTemplate.find_by_name('appointment booking'),
-                                title: " Confirm or add doctor to profile",
-                                description: APPOINTMENT_BOOKING_ADD_DOCTOR_DESCRIPTION,
-                                time_estimate: 60,
-                                service_ordinal: 2})
-
 TaskTemplate.upsert_attributes({name: "appointment booking - reminder"},
                                {service_template: ServiceTemplate.find_by_name('appointment booking'),
                                 title: "SEND - Appointment reminder",
                                 description: APPOINTMENT_BOOKING_REMINDER_TEMPLATE,
                                 time_estimate: 60,
-                                service_ordinal: 3})
+                                service_ordinal: 2})
 
 TaskTemplate.upsert_attributes({name: "appointment booking - appointment follow-up"},
                                {service_template: ServiceTemplate.find_by_name('appointment booking'),
