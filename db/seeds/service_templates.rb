@@ -239,6 +239,7 @@ ServiceTemplate.upsert_attributes({name: "appointment preparation - cf"},
                                    service_type: ServiceType.find_by_name('appointment preparation'),
                                    time_estimate: 240}
 )
+
 BMI_MANAGEMENT_3_MONTHS_DESCRIPTION = <<-eof
 **This Service is Assigned to PHA**
 
@@ -290,5 +291,5 @@ ServiceTemplate.upsert_attributes({name: "bmi management - 3 months"},
                                    user_facing: true,
                                    service_type: ServiceType.find_by_name('bmi management'),
                                    timed_service: true,
-                                   time_estimate: 131760
+                                   time_estimate: 131760}
 )

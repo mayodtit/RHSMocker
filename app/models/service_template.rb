@@ -4,7 +4,7 @@ class ServiceTemplate < ActiveRecord::Base
   has_many :suggested_services
 
   attr_accessible :name, :title, :description, :service_type_id, :service_type, :time_estimate, :timed_service,
-                  :user_facing, :suggestion_description, :suggestion_message, :service_update
+                  :user_facing, :suggestion_description, :suggestion_message, :service_update, :service_request
 
   validates :name, :title, :service_type, presence: true
   validates :user_facing, :inclusion => { :in => [true, false] }
@@ -26,7 +26,7 @@ class ServiceTemplate < ActiveRecord::Base
       service_request: attributes[:service_request],
       service_update: attributes[:service_update] || service_update
     )
-    service.create_next_ordinal_tasks 
+    service.create_next_ordinal_tasks
     service
   end
 end
