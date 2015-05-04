@@ -13,6 +13,38 @@ describe Search::Service::Bloom do
     }
   end
 
+  describe "#query" do
+    let!(:params){{"zip" =>"94301, 94303", "dist" =>10}}
+
+    def do_request
+      Search::Service::Bloom.new.query(params)
+    end
+
+    context "there are local records matching the search criteria" do
+      let(:user){create(:user)}
+      let!(:address){create(:address, name: "Office", postal_code: "94301", user: user)}
+
+      before do
+        stub_request(:get, "http://warrior.getbetter.com/api/search?").
+          to_return(:status => 200, :body => "", :headers => {})
+      end
+
+      it "should include the local record to the result" do
+        byebug
+        response.should be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+      end
+    end
+
+    context "there are local records matching the returned provider with unmatching address" do
+      let!(:address){create(:address, name: "Office", postal_code: "27514", user: user)}
+
+      it "should exclude the address from the returned result" do
+
+      end
+    end
+  end
+
   describe '#sanitize_params' do
     before do
       @params[:state] = 'ca'

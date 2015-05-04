@@ -6,7 +6,7 @@ class Search::Service::Bloom
   base_uri ENV['BLOOM_API_URL']
 
   def query(params)
-    @zip_codes = params[:zip]
+    @zip_codes = params["zip"]
     response = self.class.get('/api/search', :query => query_params(params))
     raise StandardError, 'Non-success response from NPI database' unless response.success?
     local_addresses = Address.where(name: "Office").select{|address| @zip_codes.include? address.postal_code}
@@ -28,9 +28,8 @@ class Search::Service::Bloom
   QUERY_PARAMS = [:first_name, :last_name, :npi]
 
   def format_local_providers(providers)
-    output = []
-    providers.each do |provider|
-     hash={
+    providers.map do |provider|
+     {
        :first_name => provider.first_name,
        :last_name => provider.last_name,
        :address => format_address(provider, provider.addresses.find_by_name("Office")),
@@ -42,9 +41,7 @@ class Search::Service::Bloom
        :provider_taxonomy_code => provider.provider_taxonomy_code,
        :taxonomy_classification => provider.taxonomy_classification
      }
-      output << hash
     end
-    output
   end
 
   def format_address(provider,address)
@@ -103,7 +100,7 @@ class Search::Service::Bloom
 
     response['result'].map do |record|
       prepare_record(record)
-    end
+    end.compact
   end
 
   def prepare_record(record)
