@@ -14,7 +14,7 @@ describe Search::Service::Bloom do
   end
 
   describe "#query" do
-    let!(:params){{"zip" =>"94301, 94303", "dist" =>10}}
+    let!(:params){{:zip =>"94301", :dist =>1}}
 
     def do_request
       Search::Service::Bloom.new.query(params)
@@ -25,22 +25,34 @@ describe Search::Service::Bloom do
       let!(:address){create(:address, name: "Office", postal_code: "94301", user: user)}
 
       before do
-        stub_request(:get, "http://warrior.getbetter.com/api/search?").
-          to_return(:status => 200, :body => "", :headers => {})
+        WebMock.allow_net_connect!
+      end
+
+      after do
+        WebMock.disable_net_connect!
       end
 
       it "should include the local record to the result" do
-        byebug
-        response.should be_success
-        body = JSON.parse(response.body, symbolize_names: true)
+        expect(do_request.last[:first_name]).to eq(user.first_name)
       end
     end
 
     context "there are local records matching the returned provider with unmatching address" do
+      let!(:user){create(:user, npi_number: "1710990700")}
       let!(:address){create(:address, name: "Office", postal_code: "27514", user: user)}
 
-      it "should exclude the address from the returned result" do
+      before do
+        WebMock.allow_net_connect!
+      end
 
+      after do
+        WebMock.disable_net_connect!
+      end
+
+      it "should exclude the address from the returned result" do
+        do_request.each do |record|
+          expect(record[:npi_number]).not_to eq(user.npi_number)
+        end
       end
     end
   end
@@ -96,44 +108,45 @@ describe Search::Service::Bloom do
   end
 
   describe '#sanitize_response' do
-    it 'will take a record and insert modified values into it' do
-      u = FactoryGirl.create(:user, npi_number:'1457606311')
-      FactoryGirl.create(:address, user_id: u.id, address:'da 6 you know it', name:'office', city:'Toronto', state:'ON')
+    let(:user){create(:user, npi_number:'1457606311')}
+    let!(:address){create(:address, user: user, address:'da 6 you know it', name:'office', city:'Toronto', state:'ON')}
+    let!(:zip_codes){"943041207"}
+    let!(:record){{
+        'business_address' => {
+            'address_line' => '1906 PINE MEADOW DR',
+            'city' => 'SANTA ROSA',
+            'country_code' => 'US',
+            'state' => 'CA',
+            'zip' => '954031584'
+        },
+        'credential' => 'PHARM.D.',
+        'enumeration_date' => '2012-07-17T00:00:00.000Z',
+        'first_name' => 'BENJAMIN',
+        'gender' => 'male',
+        'last_name' => 'WANG',
+        'last_update_date' => '2012-07-17T00:00:00.000Z',
+        'middle_name' => 'SHIAN EN',
+        'name_prefix' => 'DR.',
+        'npi' => '1457606311',
+        'practice_address' => {
+            'address_line' => '3801 MIRANDA AVE',
+            'city' => 'PALO ALTO',
+            'country_code' => 'US',
+            'phone' => '6504935000',
+            'state' => 'CA',
+            'zip' => '943041207'
+        },
+        'provider_details' => [{
+                                   'healthcare_taxonomy_code' => '183500000X',
+                                   'license_number' => '67223',
+                                   'license_number_state' => 'CA',
+                                   'taxonomy_switch' => 'yes'
+                               }],
+        'sole_proprietor' => 'no',
+        'type' => 'individual'
+    }}
 
-      record = {
-          'business_address' => {
-              'address_line' => '1906 PINE MEADOW DR',
-              'city' => 'SANTA ROSA',
-              'country_code' => 'US',
-              'state' => 'CA',
-              'zip' => '954031584'
-          },
-          'credential' => 'PHARM.D.',
-          'enumeration_date' => '2012-07-17T00:00:00.000Z',
-          'first_name' => 'BENJAMIN',
-          'gender' => 'male',
-          'last_name' => 'WANG',
-          'last_update_date' => '2012-07-17T00:00:00.000Z',
-          'middle_name' => 'SHIAN EN',
-          'name_prefix' => 'DR.',
-          'npi' => '1457606311',
-          'practice_address' => {
-              'address_line' => '3801 MIRANDA AVE',
-              'city' => 'PALO ALTO',
-              'country_code' => 'US',
-              'phone' => '6504935000',
-              'state' => 'CA',
-              'zip' => '943041207'
-          },
-          'provider_details' => [{
-                                     'healthcare_taxonomy_code' => '183500000X',
-                                     'license_number' => '67223',
-                                     'license_number_state' => 'CA',
-                                     'taxonomy_switch' => 'yes'
-                                 }],
-          'sole_proprietor' => 'no',
-          'type' => 'individual'
-      }
+    it 'will take a record and insert modified values into it' do
       new_record = npi.send(:sanitize_response, 'result' => [record]).try(:first)
       new_record[:first_name].should == 'Benjamin'
       new_record[:npi_number].should == '1457606311'

@@ -6,7 +6,7 @@ class Search::Service::Bloom
   base_uri ENV['BLOOM_API_URL']
 
   def query(params)
-    @zip_codes = params["zip"]
+    @zip_codes = params[:zip]
     response = self.class.get('/api/search', :query => query_params(params))
     raise StandardError, 'Non-success response from NPI database' unless response.success?
     local_addresses = Address.where(name: "Office").select{|address| @zip_codes.include? address.postal_code}
@@ -109,15 +109,14 @@ class Search::Service::Bloom
     # override address when a provider has an office address in our database
     if u = @user_map[sanitized_record[:npi_number]]
       if a = u.addresses.find_by_name('office')
-        if @zip_codes.include?(a.postal_code)
-          sanitized_record[:address] = {
-                                         address: a.address,
-                                         city: a.city,
-                                         state: a.state,
-                                         postal_code: a.postal_code,
-                                         name: a.name
-                                       }
-        else
+        sanitized_record[:address] = {
+                                       address: a.address,
+                                       city: a.city,
+                                       state: a.state,
+                                       postal_code: a.postal_code,
+                                       name: a.name
+                                     }
+        if @zip_codes && !@zip_codes.include?(a.postal_code)
           sanitized_record = nil
         end
       end
