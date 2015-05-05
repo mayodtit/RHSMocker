@@ -17,6 +17,6 @@ class WeightSerializer < ActiveModel::Serializer
   end
 
   def bmi
-    object.bmi.round(1) if object.bmi
+    object.bmi.try(:round, 1)
   end
 end
