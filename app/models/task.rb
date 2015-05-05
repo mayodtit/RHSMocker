@@ -28,7 +28,7 @@ class Task < ActiveRecord::Base
                   :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread, :follow_up
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
-  validates :urgent, :unread, :follow_up :inclusion => { :in => [true, false] }
+  validates :urgent, :unread, :follow_up, :inclusion => { :in => [true, false] }
   validates :owner, presence: true, if: lambda { |t| t.owner_id }
   validates :role, presence: true, if: lambda { |t| t.role_id }
   validates :service_type, presence: true, if: lambda { |t| t.service_type_id }
