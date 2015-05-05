@@ -9,9 +9,9 @@ class Search::Service::Bloom
     @zip_codes = params[:zip]
     response = self.class.get('/api/search', :query => query_params(params))
     raise StandardError, 'Non-success response from NPI database' unless response.success?
-    local_addresses = Address.where(name: "Office").select{|address| @zip_codes.include? address.postal_code}
-    local_providers = local_addresses.map{|address| address.user} if local_addresses
-    sanitize_response(response.parsed_response).concat(format_local_providers(local_providers))
+    local_addresses = Address.where(name: "Office").where('postal_code REGEXP ?', params[:zip].split(' ').join('|')).order(:user_id).includes(:user)
+    local_providers = local_addresses.map(&:user)
+    sanitize_response(response.parsed_response).concat(format_local_providers(local_providers, local_addresses))
   end
 
   def find(params)
@@ -27,20 +27,22 @@ class Search::Service::Bloom
 
   QUERY_PARAMS = [:first_name, :last_name, :npi]
 
-  def format_local_providers(providers)
+  def format_local_providers(providers, addresses)
+    addresses_hash = addresses.inject({}){|hash, address| hash[address.user_id] = address; hash}
+
     providers.map do |provider|
-     {
-       :first_name => provider.first_name,
-       :last_name => provider.last_name,
-       :address => format_address(provider, provider.addresses.find_by_name("Office")),
-       :npi_number => provider.npi_number,
-       :phone => provider.phone,
-       :expertise => provider.expertise,
-       :gender => provider.gender,
-       :healthcare_taxonomy_code => 'hcp_code', # this line left in for backwards compabitility
-       :provider_taxonomy_code => provider.provider_taxonomy_code,
-       :taxonomy_classification => provider.taxonomy_classification
-     }
+      {
+        :first_name => provider.first_name,
+        :last_name => provider.last_name,
+        :address => format_address(provider, addresses_hash[provider.id]),
+        :npi_number => provider.npi_number,
+        :phone => provider.phone,
+        :expertise => provider.expertise,
+        :gender => provider.gender,
+        :healthcare_taxonomy_code => 'hcp_code', # this line left in for backwards compabitility
+        :provider_taxonomy_code => provider.provider_taxonomy_code,
+        :taxonomy_classification => provider.taxonomy_classification
+      }
     end
   end
 
@@ -116,13 +118,13 @@ class Search::Service::Bloom
                                        postal_code: a.postal_code,
                                        name: a.name
                                      }
-        if @zip_codes && !@zip_codes.include?(a.postal_code)
+        unless @zip_codes.try(:include?, a.postal_code)
           sanitized_record = nil
         end
       end
     end
     # set avatar_url when a provider has one in our database
-    sanitized_record[:avatar_url] = @user_map[record['npi'].to_s].avatar_url if @user_map[record['npi'].to_s].try(:avatar_url) if sanitized_record
+    sanitized_record[:avatar_url] = @user_map[record['npi'].to_s].avatar_url if (@user_map[record['npi'].to_s].try(:avatar_url) && sanitized_record)
     sanitized_record
   end
 
