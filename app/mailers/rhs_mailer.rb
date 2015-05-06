@@ -11,7 +11,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
   end
 
   def whitelisted_email?(email)
-    email.match(/.*getbetter\.com|.*testelf.*/).present?
+    email.match(/.*getbetter.*|.*testelf.*/).present?
   end
 
   def send_mail(params)
