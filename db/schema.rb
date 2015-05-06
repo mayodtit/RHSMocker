@@ -322,13 +322,15 @@ ActiveRecord::Schema.define(:version => 20150504181638) do
   end
 
   create_table "discounts", :force => true do |t|
-    t.integer  "referral_code_id", :null => false
-    t.integer  "user_id",          :null => false
-    t.string   "coupon",           :null => false
-    t.boolean  "referrer",         :null => false
+    t.integer  "referral_code_id",                               :null => false
+    t.integer  "user_id",                                        :null => false
+    t.boolean  "referrer",                                       :null => false
     t.datetime "redeemed_at"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",                                     :null => false
+    t.datetime "updated_at",                                     :null => false
+    t.string   "invoice_item_id"
+    t.decimal  "discount_percent", :precision => 2, :scale => 1, :null => false
+    t.integer  "referee_id"
   end
 
   add_index "discounts", ["referral_code_id"], :name => "index_discounts_on_referral_code_id"

@@ -19,6 +19,7 @@ class UpdateStripeSubscriptionService
   end
 
   private
+
   def load_stripe_customer!
     @customer ||= Stripe::Customer.retrieve(@user.stripe_customer_id)
   end
@@ -48,6 +49,7 @@ class UpdateStripeSubscriptionService
   end
 
   def upgrade_subscription
+    RedeemDiscountService.new(status: :first, customer: @customer, member: @user, plan: Stripe::Plan.retrieve(@plan_id)).call
     load_subscription!
     @subscription.plan = @plan_id
     @subscription.prorate = true
@@ -56,6 +58,7 @@ class UpdateStripeSubscriptionService
   end
 
   def downgrade_subscription
+    RedeemDiscountService.new(status: :first, customer: @customer, member: @user, plan: Stripe::Plan.retrieve(@plan_id)).call
     load_subscription!
     @subscription.plan = @plan_id
     @subscription.prorate = false
