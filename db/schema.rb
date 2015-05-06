@@ -329,8 +329,8 @@ ActiveRecord::Schema.define(:version => 20150505204406) do
     t.datetime "created_at",                                     :null => false
     t.datetime "updated_at",                                     :null => false
     t.string   "invoice_item_id"
+    t.decimal  "discount_percent", :precision => 2, :scale => 1, :null => false
     t.integer  "referee_id"
-    t.decimal  "discount_percent", :precision => 2, :scale => 1
   end
 
   add_index "discounts", ["referral_code_id"], :name => "index_discounts_on_referral_code_id"
