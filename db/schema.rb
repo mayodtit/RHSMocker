@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150505204406) do
+ActiveRecord::Schema.define(:version => 20150506224408) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -845,12 +845,14 @@ ActiveRecord::Schema.define(:version => 20150505204406) do
   add_index "providers", ["user_id"], :name => "index_providers_on_user_id"
 
   create_table "proximities", :force => true do |t|
-    t.string "city"
-    t.string "zip"
-    t.string "state"
-    t.string "county"
-    t.float  "latitude"
-    t.float  "longitude"
+    t.string   "city"
+    t.string   "zip"
+    t.string   "state"
+    t.string   "county"
+    t.float    "latitude"
+    t.float    "longitude"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "referral_codes", :force => true do |t|
