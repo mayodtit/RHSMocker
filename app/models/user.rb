@@ -22,7 +22,8 @@ class User < ActiveRecord::Base
   belongs_to :diet
   has_one :user_information
   has_many :addresses, inverse_of: :user
-  has_many :phone_numbers, as: :phoneable
+  has_many :phone_numbers, as: :phoneable,
+                           dependent: :destroy
   has_many :insurance_policies
   has_one :provider
   has_one :emergency_contact
@@ -83,12 +84,50 @@ class User < ActiveRecord::Base
   after_save :track_update, on: :update
 
   after_create :add_gravatar
+  after_create :add_phone_numbers
+  after_update :update_phone_numbers
 
   def add_gravatar
     if self.avatar_url_override.nil? || self.avatar_url_override.include?('https://secure.gravatar.com/avatar')
       self.avatar_url_override = GravatarChecker.new(email).check_gravatar
       self.save
     end
+  end
+
+  def add_phone_numbers
+    if phone.present?
+      phone_numbers.create(number: phone, primary: true, type: "Home")
+    end
+    if work_phone_number.present?
+      phone_numbers.create(number: work_phone_number, primary: false, type: "Work")
+    end
+    if text_phone_number.present?
+      phone_numbers.create(number: text_phone_number, primary: false, type: "Mobile")
+    end
+  end
+
+  def update_phone_numbers
+    if phone_changed? && p = phone_obj
+      p.update_attribute(:number, phone)
+    end
+    if work_phone_number_changed? && p = work_phone_number_obj
+      p.update_attribute(:number, work_phone_number)
+    end
+    if text_phone_number_changed? && p = text_phone_number_obj
+      p.update_attribute(:number, text_phone_number)
+    end
+  end
+
+  def phone_obj
+    phone_numbers.find_by_primary(true)
+  end
+
+  def work_phone_number_obj
+    phone_numbers.find_by_type("Work")
+  end
+
+  def text_phone_number_obj
+    phone_numbers.find_by_type("Mobile")
   end
 
   def test?
