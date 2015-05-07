@@ -107,6 +107,11 @@ class Search::Service::Bloom
 
   def prepare_record(record)
     @user_map ||= {}
+
+    unless record['first_name'] && record['last_name']
+      return nil
+    end
+
     sanitized_record = sanitize_record(record)
     # override address when a provider has an office address in our database
     if u = @user_map[sanitized_record[:npi_number]]
