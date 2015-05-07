@@ -1,95 +1,176 @@
 # Mayo Pilot 2 --
 
 # Week 1
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
 
+Messaging:
+
+How are you feeling today?
+eof
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 2"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHow are you feeling today? As a reminder, I am extension of your care team at Mayo Clinic and here to help out with your transition after the hospital",
+                                description: description,
                                 time_estimate: 1440,
                                 priority: 1,
                                 service_ordinal: 0})
 
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
+
+Messaging:
+
+Is there anything I can help you with today?
+eof
+
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 3"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHi___, how are things going?",
+                                description: description,
                                 time_estimate: 1440,
                                 priority: 1,
                                 service_ordinal: 1})
 
+description = <<-eof
+-If member has not engaged in previous two messages, make outbound call to member to review discharge plan
+
+-Otherwise, check in with engaged patient/about services being performed or use messaging below
+
+Messaging:
+
+Just checking in about your discharge plans. Would you like to set up a time to talk?
+eof
+
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 4"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nJust checking in, ___. How are you today?",
+                                description: description,
                                 time_estimate: 1440,
                                 priority: 1,
                                 service_ordinal: 2})
 
+description = <<-eof
+-If patient is unengaged (has not responded to previous messages and the outbound call), let Paul/Meg know.
+
+-Otherwise, check in with engaged patient/about services being performed or use messaging below
+
+Messaging:
+
+Do you have any questions about your transition plan?
+eof
+
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 5"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHi ___, Do you have any questions for me as you recuperate?",
+                                description: description,
                                 time_estimate: 1440,
                                 priority: 1,
                                 service_ordinal: 3})
 # Week 2
 
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
+
+Messaging:
+
+How are you doing?
+eof
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 8"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHi ___, wanted to see how you're doing today?",
+                                description: description,
                                 time_estimate: 2880,
                                 priority: 1,
                                 service_ordinal: 4})
 
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
+
+Messaging:
+
+Is there anything I can help with?
+eof
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 10"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nI hope you are doing well ___. Please let me know if I can help out with anything.",
+                                description: description,
                                 time_estimate: 2880,
                                 priority: 1,
                                 service_ordinal: 5})
 
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
+
+Messaging:
+
+How are you feeling today?
+eof
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 12"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHow are you feeling today, ____?",
+                                description: description,
                                 time_estimate: 2880,
                                 priority: 1,
                                 service_ordinal: 6})
 
 # Week 3
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
 
+Messaging:
+
+I wanted to check in and see how you're doing today. Let me know if there’s anything I can get started on for you.
+eof
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 15"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHi ____. I wanted to check in with you and see how you're doing today.",
+                                description: description,
                                 time_estimate: 4320,
                                 priority: 1,
                                 service_ordinal: 7})
 
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
+
+Messaging:
+
+Please let me know what I can do to help. We’re here to support you.
+eof
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 18"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nPlease let me know if I can do anything for you, ___. Here to help out!",
+                                description: description,
                                 time_estimate: 4320,
                                 priority: 1,
                                 service_ordinal: 8})
 # Week 4
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
 
+Messaging:
+
+How’s your week going?
+eof
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 22"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nHi ____. I wanted to check in with you and see how you're doing today.",
+                                description: description,
                                 time_estimate: 4320,
                                 priority: 1,
                                 service_ordinal: 9})
 
+description = <<-eof
+Check in with engaged patient/about services being performed or use messaging below
+
+Messaging:
+
+How are you feeling today?
+eof
 TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 25"},
                                {service_template: ServiceTemplate.find_by_name('mayo pilot 2'),
                                 title: "Check In with Stroke Patient",
-                                description: "*Check in with engaged patient/about services being performed or use messaging below:*\n**Messaging**\nPlease let me know if I can do anything for you, ___. Here to help out!",
+                                description: description,
                                 time_estimate: 4320,
                                 priority: 1,
                                 service_ordinal: 10})
@@ -200,7 +281,10 @@ eof
 
 APPOINTMENT_BOOKING_SEND_CONFIRMATION_DESCRIPTION = <<-eof
 1. Send appointment to member (see Service Update for PHA)
-2. Complete task
+2. Send member a calendar invite (see Service Update for PHA)
+3. Go to providers tab in member’s profile
+4. Add doctor to profile if they are not already there
+5. Complete task
 eof
 
 APPOINTMENT_BOOKING_SEND_CALENDAR_DESCRIPTION = <<-eof
@@ -224,7 +308,7 @@ APPOINTMENT_BOOKING_FOLLOW_UP_TEMPLATE = <<-eof
 1. Change due date of this task to same day of appointment
 2. On due date, send member reminder message:
 
-        How did your appointment go? Do you get all your questions answered?
+        How did your appointment go? Let me know if I can help with any follow up
 
 3. Complete task
 eof
@@ -243,26 +327,12 @@ TaskTemplate.upsert_attributes({name: "appointment booking -  send confirmation"
                                 time_estimate: 30,
                                 service_ordinal: 1})
 
-TaskTemplate.upsert_attributes({name: "appointment booking - calander invite"},
-                               {service_template: ServiceTemplate.find_by_name('appointment booking'),
-                                title: "SEND - calendar invite",
-                                description: APPOINTMENT_BOOKING_SEND_CALENDAR_DESCRIPTION,
-                                time_estimate: 60,
-                                service_ordinal: 2})
-
-TaskTemplate.upsert_attributes({name: "appointment booking - add doctor"},
-                               {service_template: ServiceTemplate.find_by_name('appointment booking'),
-                                title: " Confirm or add doctor to profile",
-                                description: APPOINTMENT_BOOKING_ADD_DOCTOR_DESCRIPTION,
-                                time_estimate: 60,
-                                service_ordinal: 2})
-
 TaskTemplate.upsert_attributes({name: "appointment booking - reminder"},
                                {service_template: ServiceTemplate.find_by_name('appointment booking'),
                                 title: "SEND - Appointment reminder",
                                 description: APPOINTMENT_BOOKING_REMINDER_TEMPLATE,
                                 time_estimate: 60,
-                                service_ordinal: 3})
+                                service_ordinal: 2})
 
 TaskTemplate.upsert_attributes({name: "appointment booking - appointment follow-up"},
                                {service_template: ServiceTemplate.find_by_name('appointment booking'),
@@ -745,3 +815,355 @@ TaskTemplate.upsert_attributes({name: "prescription organization - send member -
                                 description: PRESCRIPTION_ORGANIZATION_UPDATE_MEMBER_CONFIRMATION_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 3})
+
+# Appointment Preparation - CF
+APPOINTMENT_PREPARATION_CF_CHECK_IN_MONTH_DESCRIPTION = <<-eof
+**Change due date of this task to 1 month before appointment**
+1. On due date, send details about appointment
+2. Check in about new symptoms, nutrition or medication questions
+3. Add recorded BMI measurements to **Service Update for PHA** and remind to enter BMI
+4. Update confirmed appointment, new symptoms or questions in **Service Update for PHA**
+5. Complete task
+
+**M1:**
+Hi [member], a reminder that your next CF appointment with Dr. [doctor name] is 1 month away! Here are the details of the appointment:
+
+**Day, Date at Time**
+Dr. First Last
+Address: ([map](map link))
+Phone: Phone number
+
+Does this still work with your schedule?
+
+**M2 (if they’ve been tracking BMI):**
+Great! Thanks for entering your BMI measurements. Keep up the good work.
+
+**M2 (if they haven’t been tracking BMI):**
+Just a reminder to keep up the daily weight measurements and save it to your profile by [tapping here](better://nb?cmd=showMedicalInformation).
+
+**M3:**
+Do you have any questions about your medications, nutrition or new symptoms? Send them here and I’ll keep track of them to ask your doctor at your appointment.
+eof
+
+APPOINTMENT_PREPARATION_CF_CHECK_IN_WEEK_DESCRIPTION = <<-eof
+**Change due date of this task to 1 week before appointment**
+1. On due date, send details about appointment and find out how they are getting there
+2. Check in about new symptoms, nutrition or medication questions
+3. Add recorded BMI measurements to **Service Update for PHA** and remind to enter BMI
+4. Update confirmed appointment, new symptoms or questions in **Service Update for PHA**
+5. Complete task
+
+
+**M1:**
+Hi [member], a reminder that your next CF appointment with Dr. [doctor name] is 1 month away! Here are the details of the appointment:
+
+**Day, Date at Time**
+Dr. First Last
+Address: ([map](map link))
+Phone: Phone number
+
+How are you planning on getting to your appointment?
+
+**M2 (if they’ve been tracking BMI):**
+Great! Thanks for entering your BMI measurements. Keep up the good work.
+
+**M2 (if they haven’t been tracking BMI):**
+Just a reminder to keep up the daily weight measurements and save it to your profile by [tapping here](better://nb?cmd=showMedicalInformation).
+
+**M3:**
+Do you have any questions about your medications, nutrition or new symptoms? Send them here and I’ll keep track of them to ask your doctor at your appointment.
+eof
+
+APPOINTMENT_PREPARATION_CF_CHECK_IN_DAY_DESCRIPTION = <<-eof
+**Change due date of this task to 1 day before appointment**
+1. On due date, send details about appointment
+2. Send member information recorded in Service Notes
+3. Complete task
+
+**M1:**
+Hi [member], a reminder that your next CF appointment with Dr. [doctor name] is tomorrow! Here are the details of the appointment:
+
+**Day, Date at Time**
+Dr. First Last
+Address: ([map](map link))
+Phone: Phone number
+
+**M2:**
+Over the last month we’ve been collecting information to help prepare you for your appointment. Here are some things to review with your doctor:
+
+**New symptoms:**
+
+**Current BMI:**
+
+**BMI measurements since your last visit:**
+<BMI>, <date>
+
+**Medication questions:**
+Are you making any changes to my medications?
+If so, how will that affect me?
+**Nutrition questions:**
+Would you recommend I change any of my eating habits?
+
+
+**M3:**
+I’ll check in with you after your appointment! Let me know if you’d like me to email this to you as well.
+eof
+
+APPOINTMENT_PREPARATION_CF_FOLLOW_UP_DESCRIPTION = <<-eof
+*Change due date of this task to same day of appointment**
+1. On due date, ask how appointment went
+2. If they scheduled the next one, add to calendar and assign new Appointment Preparation service due the day of new appointment
+3. If they did not schedule the next one, create Appointment Booking service
+4. Record any notes from the visit to the member’s profile
+5. Assign new services as necessary
+6. Complete task
+
+**M1:**
+How did your appointment go today? Did Dr. [doctor name] suggest any changes to your medications, nutrition or treatment plan?
+
+**M2:**
+Did you already schedule your next appointment?
+
+**M3 (if yes):**
+Great! I’ll add it to your calendar and help you prepare like I did with this appointment.
+
+**M3 (if no):**
+Is there any particular reason it was not scheduled? We can call over and get your next appointment on the calendar for you.
+eof
+
+TaskTemplate.upsert_attributes({name: "appointment preparation - cf - check in - month"},
+                               {service_template: ServiceTemplate.find_by_name('appointment preparation - cf'),
+                                title: "CF Appointment Check in - 1 month",
+                                description: APPOINTMENT_PREPARATION_CF_CHECK_IN_MONTH_DESCRIPTION,
+                                time_estimate: 60,
+                                service_ordinal: 0})
+
+TaskTemplate.upsert_attributes({name: "appointment preparation - cf - check in - week"},
+                               {service_template: ServiceTemplate.find_by_name('appointment preparation - cf'),
+                                title: " CF Appointment Check in - 1 week",
+                                description: APPOINTMENT_PREPARATION_CF_CHECK_IN_WEEK_DESCRIPTION,
+                                time_estimate: 60,
+                                service_ordinal: 1})
+
+TaskTemplate.upsert_attributes({name: "appointment preparation - cf - check in - day"},
+                               {service_template: ServiceTemplate.find_by_name('appointment preparation - cf'),
+                                title: "CF Appointment Check in - 1 day",
+                                description: APPOINTMENT_PREPARATION_CF_CHECK_IN_DAY_DESCRIPTION,
+                                time_estimate: 60,
+                                service_ordinal: 2})
+
+
+TaskTemplate.upsert_attributes({name: "appointment preparation - cf - follow up"},
+                               {service_template: ServiceTemplate.find_by_name('appointment preparation - cf'),
+                                title: "CF Appointment Follow Up",
+                                description: APPOINTMENT_PREPARATION_CF_FOLLOW_UP_DESCRIPTION,
+                                time_estimate: 60,
+                                service_ordinal: 3})
+
+# BMI Management
+
+BMI_MANAGEMENT_3_MONTHS_INITIAL_TASK_DESCRIPTION = <<-eof
+1. Change due date of this task to 1 business day before first weigh in (ex. if Monday, schedule task for Friday. If Tuesday, schedule task for Monday, etc)
+2. Schedule a reminder message **due at the time they weigh in** (copy below)
+3. Complete task
+>Hi [member], it’s time for a weigh-in! Go ahead and weigh yourself and [enter it here](better://nb?cmd=showMedicalInformation) or send it in a message.
+eof
+
+BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_A_DESCRIPTION = <<-eof
+1. Schedule a reminder message due at the time they weigh in (copy below)
+2. Complete task
+>Hi [member], it’s time for a weigh-in! Go ahead and weigh yourself and [enter it here](better://nb?cmd=showMedicalInformation) or send it in a message.
+eof
+
+BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_B_DESCRIPTION = <<-eof
+1. Schedule a reminder message due at the time they weigh in (copy below)
+2. Complete task
+> It’s that time again! [Enter your weight here](better://nb?cmd=showMedicalInformation) and I’ll keep track of your progress.
+eof
+
+BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_C_DESCRIPTION = <<-eof
+1. Schedule a reminder message due at the time they weigh in (copy below)
+2. Complete task
+> Hi there [member] - just a reminder for your weekly weigh-in! Hop on that scale and [enter your weight here](better://nb?cmd=showMedicalInformation) or send it in a message.
+eof
+
+BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_D_DESCRIPTION = <<-eof
+1. Schedule a reminder message due at the time they weigh in (copy below)
+2. Complete task
+> Time to weigh yourself! After you do, [tap here to enter it in your profile](better://nb?cmd=showMedicalInformation) or send it to me in a message.
+eof
+
+BMI_MANAGEMENT_3_MONTHS_TASK_B_DESCRIPTION = <<-eof
+1. Check messages and profile to see if member sent or entered their weight for that day
+2. If yes, save BMI and date in **Service Update**, **Service Deliverable** and enter into member’s profile (unless HCC has done so)
+3. Send message
+4. Complete task
+
+**If weight sent/entered:**
+>Thanks for entering your weight - keep up the good work! I’ll remind you again next week.
+
+**If not:**
+>Hi [member], did you get a chance to weigh yourself today?
+
+* Dig in to what blocked them from weighing in today
+eof
+
+BMI_MANAGEMENT_3_MONTHS_COMPILE_BMI_DESCRIPTION = <<-eof
+1. Confirm that all BMI measurements entered in the member’s profile are saved in the **Service Update** and **Service Deliverable**
+2. Add to Service Deliverable:
+  Overall, your BMI [increased/decreased/stayed the same]. Here are the measurements to show Dr. [doctor name] at your next visit:
+3. Send member a message updating them
+Hi [member], I’ve saved the progress of your last 3 months of BMI tracking. You can see details in the Services section of the app. Here are the measurements to show Dr. [doctor name] at your next visit:
+	* **BMI and date:**
+eof
+
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule reminder - weigh 1"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Schedule reminder - Weigh-In 1",
+                                description: APPOINTMENT_PREPARATION_CF_CHECK_IN_MONTH_DESCRIPTION,
+                                time_estimate: 60,
+                                service_ordinal: 0})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 1"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Follow up - Weigh-In 1",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_B_DESCRIPTION,
+                                time_estimate: 2880,
+                                service_ordinal: 1})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule reminder - weighh 2"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Schedule reminder - Weigh-In 2",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_B_DESCRIPTION,
+                                time_estimate: 7200,
+                                service_ordinal: 2})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 2"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Follow up - Weigh-In 2",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_B_DESCRIPTION,
+                                time_estimate: 2880,
+                                service_ordinal: 3})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule reminder - weigh 3"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Schedule reminder - Weigh-In 3",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_C_DESCRIPTION,
+                                time_estimate: 7200,
+                                service_ordinal: 4})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 3"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Follow up - Weigh-In 3",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_B_DESCRIPTION,
+                                time_estimate: 2880,
+                                service_ordinal: 5})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule reminder - weigh 4"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Schedule reminder - Weigh-In 4",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_D_DESCRIPTION,
+                                time_estimate: 7200,
+                                service_ordinal: 6})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 4"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Follow up - Weigh-In 4",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_B_DESCRIPTION,
+                                time_estimate: 2880,
+                                service_ordinal: 7})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule reminder - weigh 5"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Schedule reminder - Weigh-In 5",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_A_DESCRIPTION,
+                                time_estimate: 7200,
+                                service_ordinal: 8})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 5"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Follow up - Weigh-In 5",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_B_DESCRIPTION,
+                                time_estimate: 2880,
+                                service_ordinal: 9})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule reminder - weigh 6"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Schedule reminder - Weigh-In 6",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_B_DESCRIPTION,
+                                time_estimate: 7200,
+                                service_ordinal: 10})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 6"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Follow up - Weigh-In 6",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_B_DESCRIPTION,
+                                time_estimate: 2880,
+                                service_ordinal: 11})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule reminder - weigh 7"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Schedule reminder - Weigh-In 8",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_C_DESCRIPTION,
+                                time_estimate: 7200,
+                                service_ordinal: 12})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 7"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Follow up - Weigh-In 7",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_B_DESCRIPTION,
+                                time_estimate: 2880,
+                                service_ordinal: 13})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule reminder - weigh 8"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Schedule reminder - Weigh-In 8",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_D_DESCRIPTION,
+                                time_estimate: 7200,
+                                service_ordinal: 14})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 8"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Follow up - Weigh-In 8",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_B_DESCRIPTION,
+                                time_estimate: 2880,
+                                service_ordinal: 15})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule reminder - weigh 9"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Schedule reminder - Weigh-In 9",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_A_DESCRIPTION,
+                                time_estimate: 7200,
+                                service_ordinal: 16})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 9"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Follow up - Weigh-In 9",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_B_DESCRIPTION,
+                                time_estimate: 2880,
+                                service_ordinal: 17})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule reminder - weigh 10"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Schedule reminder - Weigh-In 10",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_B_DESCRIPTION,
+                                time_estimate: 7200,
+                                service_ordinal: 18})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 10"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Follow up - Weigh-In 10",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_B_DESCRIPTION,
+                                time_estimate: 2880,
+                                service_ordinal: 19})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule reminder - weigh 11"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Schedule reminder - Weigh-In 11",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_C_DESCRIPTION,
+                                time_estimate: 7200,
+                                service_ordinal: 20})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 11"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Follow up - Weigh-In 11",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_B_DESCRIPTION,
+                                time_estimate: 2880,
+                                service_ordinal: 21})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule reminder - weigh 12"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Schedule reminder - Weigh-In 12",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_D_DESCRIPTION,
+                                time_estimate: 7200,
+                                service_ordinal: 22})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 12"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Follow up - Weigh-In 12",
+                                description: BMI_MANAGEMENT_3_MONTHS_TASK_B_DESCRIPTION,
+                                time_estimate: 2880,
+                                service_ordinal: 23})
+TaskTemplate.upsert_attributes({name: "bmi management - 3 months - compile BMI"},
+                               {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
+                                title: "Follow up - Weigh-In 10",
+                                description: BMI_MANAGEMENT_3_MONTHS_COMPILE_BMI_DESCRIPTION,
+                                time_estimate: 60,
+                                service_ordinal: 24})

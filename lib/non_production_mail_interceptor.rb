@@ -12,6 +12,6 @@ class NonProductionMailInterceptor
   end
 
   def self.whitelisted_email?(email)
-    email.match(/.*getbetter\.com|.*testelf.*/).present?
+    email.match(/.*getbetter.*|.*testelf.*/).present?
   end
 end

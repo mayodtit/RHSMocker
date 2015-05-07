@@ -16,6 +16,7 @@ describe Task do
     it_validates 'presence of', :priority
     it_validates 'inclusion of', :urgent
     it_validates 'inclusion of', :unread
+    it_validates 'inclusion of', :follow_up
     it_validates 'foreign key of', :owner
     it_validates 'foreign key of', :role
     it_validates 'foreign key of', :service_type

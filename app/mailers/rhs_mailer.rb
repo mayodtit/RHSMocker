@@ -11,7 +11,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
   end
 
   def whitelisted_email?(email)
-    email.match(/.*getbetter\.com|.*testelf.*/).present?
+    email.match(/.*getbetter.*|.*testelf.*/).present?
   end
 
   def send_mail(params)
@@ -401,6 +401,20 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
+  def confirm_discount_received(referrer, referee)
+    params = {
+      subject: "You've received a free month of Better!",
+      from_name: "Better",
+      template: "Tell a Friend Account Credited 4/9/2015",
+      to: {email: referrer.email},
+      vars: {
+        REFERERFIRSTNAME: referrer.first_name,
+        REFEREEFIRSTNAME: referee.first_name,
+        PROMO: referrer.owned_referral_code.code
+      }
+    }
+    send_mail(params)
+  end
 
   def notify_user_when_first_charge_fail(user)
     params = {
@@ -483,7 +497,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
       template: 'B2B Onboarding Email 3/26/2015',
       vars: {
         LINK: link,
-        FNAME: user.first_name,
+        FNAME: user.first_name
       }
     }
     send_mail(params)

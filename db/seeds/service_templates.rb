@@ -1,6 +1,6 @@
 ServiceTemplate.upsert_attributes({name: "mayo pilot 2"},
                                   {title: "Mayo Pilot 2 - Stroke",
-                                  description: "Stroke patients need extra attention in the first 30 days. Use the following tasks as message suggestions. If you are already working with member you can abandon the message.",
+                                  description: "Stroke patients need extra attention in the first 30 days. Use the following tasks as message suggestions.",
                                   service_type: ServiceType.find_by_name('member onboarding'),
                                   time_estimate: 43200,
                                   timed_service: true})
@@ -35,6 +35,7 @@ APPOINTMENT_BOOKING_DESCRIPTION = <<-eof
 
 #Member Request
 * **Member:**
+* **Date of birth:**
 * **Insurance plan:**
 * **Provider:**
 * **Address:**
@@ -58,8 +59,8 @@ We’ve found you an appointment with Dr. [First Last]. Here are the details:
 
 **Day, Date at Time**
 Dr. First Last
-Address: ([map](map link))
-Phone: Phone number
+Address:
+Phone:
 -Other details (what to bring, when to arrive)
 
 Let me know if this works for you and I’ll add it to your calendar!
@@ -201,4 +202,95 @@ ServiceTemplate.upsert_attributes({name: "prescription organization"},
                                    service_update: PRESCRIPTION_ORGANIZATION_UPDATE,
                                    service_type: ServiceType.find_by_name('prescription management'),
                                    time_estimate: 240}
+)
+
+APPOINTMENT_PREPARATION_CF_DESCRIPTION = <<-eof
+**This Service is assigned to PHA**
+
+#Appointment Information
+* **Member:**
+* **Appointment Date/Time:**
+* **Provider:**
+* **Address:**
+* **Phone:**
+* **Reason for visit:**
+* **New Patient:** yes/no
+eof
+
+APPOINTMENT_PREPARATION_CF_UPDATE = <<-eof
+#PHA notes before appointment
+* **Member confirmed 1 month out: yes/no**
+* **Member confirmed 1 week out: yes/no**
+* **Transportation:**
+* **New symptoms:**
+* **Medication questions:**
+* **Nutrition questions:**
+* **Current BMI:**
+* **All BMI measurements since last visit:**
+
+#PHA notes after appointment
+* **Notes from Appointment:**
+* **Next appointment date/time:**
+eof
+
+ServiceTemplate.upsert_attributes({name: "appointment preparation - cf"},
+                                  {title: "Appointment Preparation - CF",
+                                   description: APPOINTMENT_PREPARATION_CF_DESCRIPTION,
+                                   service_update: APPOINTMENT_PREPARATION_CF_UPDATE,
+                                   service_type: ServiceType.find_by_name('appointment preparation'),
+                                   time_estimate: 240}
+)
+
+BMI_MANAGEMENT_3_MONTHS_DESCRIPTION = <<-eof
+**This Service is Assigned to PHA**
+
+#Weight notes
+* **When to weigh:**
+* **Weigh-in routine:**
+* **Starting BMI:**
+* **Starting date:**
+* **Weight goals:**
+
+#Member request
+* **Member name:**
+* **Doctor name:**
+* **Doctor phone:**
+* **Next CF appointment:**
+
+
+
+#Previous BMI notes
+* Notes/trends from the last 3 months of measuring (barriers to weighing, changes to routine, etc)
+
+#Previous BMI measurements
+**Paste any important past BMI measurements and dates here**
+eof
+
+BMI_MANAGEMENT_3_MONTHS_UPDATE = <<-eof
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+
+Add more notes/measurements below if needed
+
+eof
+
+BMI_MANAGEMENT_3_MONTHS_REQUEST = <<-eof
+Support [member/you] in tracking your BMI to prepare for your appointment with Dr. [doctor name]
+eof
+
+ServiceTemplate.upsert_attributes({name: "bmi management - 3 months"},
+                                  {title: "BMI tracking",
+                                   description: BMI_MANAGEMENT_3_MONTHS_DESCRIPTION,
+                                   service_update: BMI_MANAGEMENT_3_MONTHS_UPDATE,
+                                   service_request: BMI_MANAGEMENT_3_MONTHS_REQUEST,
+                                   user_facing: true,
+                                   service_type: ServiceType.find_by_name('bmi management'),
+                                   timed_service: true,
+                                   time_estimate: 131760}
 )

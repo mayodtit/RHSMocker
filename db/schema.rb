@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150428020845) do
+ActiveRecord::Schema.define(:version => 20150506224408) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -322,13 +322,15 @@ ActiveRecord::Schema.define(:version => 20150428020845) do
   end
 
   create_table "discounts", :force => true do |t|
-    t.integer  "referral_code_id", :null => false
-    t.integer  "user_id",          :null => false
-    t.string   "coupon",           :null => false
-    t.boolean  "referrer",         :null => false
+    t.integer  "referral_code_id",                               :null => false
+    t.integer  "user_id",                                        :null => false
+    t.boolean  "referrer",                                       :null => false
     t.datetime "redeemed_at"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",                                     :null => false
+    t.datetime "updated_at",                                     :null => false
+    t.string   "invoice_item_id"
+    t.decimal  "discount_percent", :precision => 2, :scale => 1, :null => false
+    t.integer  "referee_id"
   end
 
   add_index "discounts", ["referral_code_id"], :name => "index_discounts_on_referral_code_id"
@@ -843,12 +845,14 @@ ActiveRecord::Schema.define(:version => 20150428020845) do
   add_index "providers", ["user_id"], :name => "index_providers_on_user_id"
 
   create_table "proximities", :force => true do |t|
-    t.string  "city"
-    t.string  "zip"
-    t.string  "state"
-    t.string  "county"
-    t.float   "latitude"
-    t.float   "longitude"
+    t.string   "city"
+    t.string   "zip"
+    t.string   "state"
+    t.string   "county"
+    t.float    "latitude"
+    t.float    "longitude"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "referral_codes", :force => true do |t|
@@ -974,6 +978,7 @@ ActiveRecord::Schema.define(:version => 20150428020845) do
     t.text     "suggestion_description"
     t.text     "suggestion_message"
     t.text     "service_update"
+    t.text     "service_request"
   end
 
   add_index "service_templates", ["service_type_id"], :name => "index_service_templates_on_service_type_id"
@@ -1217,6 +1222,7 @@ ActiveRecord::Schema.define(:version => 20150428020845) do
     t.integer  "time_estimate"
     t.boolean  "urgent",                     :default => false, :null => false
     t.boolean  "unread",                     :default => false, :null => false
+    t.boolean  "follow_up",                  :default => false, :null => false
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"

@@ -15,4 +15,8 @@ class WeightSerializer < ActiveModel::Serializer
       "#6A9B6B" # Green color Hex Code
     end
   end
+
+  def bmi
+    object.bmi.try(:round, 1)
+  end
 end
