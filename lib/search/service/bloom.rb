@@ -109,6 +109,7 @@ class Search::Service::Bloom
   def sanitize_response(response)
     @user_map = User.where(npi_number: response['result'].map{|record| record['npi'].to_s}).inject({}){|hash, user| hash[user.npi_number] = user; hash}
 
+    @hcp_codes = HCPTaxonomy.for_codes(response['result'].map{|provider_hash| provider_hash['provider_details'].first.try(:[], 'healthcare_taxonomy_code')}.uniq).inject({}){|hash, taxonomy_code| hash[taxonomy_code.code] = taxonomy_code; hash}
     response['result'].map do |record|
       prepare_record(record)
     end.compact
@@ -167,7 +168,7 @@ class Search::Service::Bloom
       :gender => record['gender'],
       :healthcare_taxonomy_code => hcp_code, # this line left in for backwards compabitility
       :provider_taxonomy_code => hcp_code,
-      :taxonomy_classification => HCPTaxonomy.get_classification_by_hcp_code(hcp_code)
+      :taxonomy_classification => @hcp_codes[hcp_code].try(:classification)
     }
     sanitized_record
   end
