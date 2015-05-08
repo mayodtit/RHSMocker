@@ -144,6 +144,7 @@ class Search::Service::Bloom
   end
 
   def sanitize_record(record)
+    @hcp_codes ||= {}
     p = record['practice_address']
     bloom_address = {
       address: prettify(p['address_line']),
