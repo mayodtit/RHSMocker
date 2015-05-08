@@ -9,9 +9,18 @@ class Search::Service::Bloom
     @zip_codes = params[:zip]
     response = self.class.get('/api/search', :query => query_params(params))
     raise StandardError, 'Non-success response from NPI database' unless response.success?
-    local_addresses = Address.where(name: "Office").where('postal_code REGEXP ?', params[:zip].split(' ').join('|')).order(:user_id).includes(:user)
+    local_addresses = find_local_addresses(params)
     local_providers = local_addresses.map(&:user)
     sanitize_response(response.parsed_response).concat(format_local_providers(local_providers, local_addresses))
+  end
+
+  def find_local_addresses(params)
+    local_addresses = Address.joins(:user).where(name: 'Office')
+    local_addresses = local_addresses.where('addresses.postal_code REGEXP ?', params[:zip].split(' ').join('|')) if params[:zip]
+    local_addresses = local_addresses.where('users.first_name LIKE ?', params[:first_name]+'%') if params[:first_name]
+    local_addresses = local_addresses.where('users.last_name LIKE ?', params[:last_name]+'%') if params[:last_name]
+    local_addresses = local_addresses.where('users.npi_number REGEXP ?', params[:npi]) if params[:npi]
+    local_addresses.includes(:user)
   end
 
   def find(params)
@@ -100,6 +109,7 @@ class Search::Service::Bloom
   def sanitize_response(response)
     @user_map = User.where(npi_number: response['result'].map{|record| record['npi'].to_s}).inject({}){|hash, user| hash[user.npi_number] = user; hash}
 
+    @hcp_codes = HCPTaxonomy.for_codes(response['result'].map{|provider_hash| provider_hash['provider_details'].first.try(:[], 'healthcare_taxonomy_code')}.uniq).inject({}){|hash, taxonomy_code| hash[taxonomy_code.code] = taxonomy_code; hash}
     response['result'].map do |record|
       prepare_record(record)
     end.compact
@@ -134,6 +144,7 @@ class Search::Service::Bloom
   end
 
   def sanitize_record(record)
+    @hcp_codes ||= {}
     p = record['practice_address']
     bloom_address = {
       address: prettify(p['address_line']),
@@ -158,7 +169,7 @@ class Search::Service::Bloom
       :gender => record['gender'],
       :healthcare_taxonomy_code => hcp_code, # this line left in for backwards compabitility
       :provider_taxonomy_code => hcp_code,
-      :taxonomy_classification => HCPTaxonomy.get_classification_by_hcp_code(hcp_code)
+      :taxonomy_classification => @hcp_codes[hcp_code].try(:classification)
     }
     sanitized_record
   end
