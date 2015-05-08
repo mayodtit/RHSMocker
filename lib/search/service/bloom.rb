@@ -9,13 +9,18 @@ class Search::Service::Bloom
     @zip_codes = params[:zip]
     response = self.class.get('/api/search', :query => query_params(params))
     raise StandardError, 'Non-success response from NPI database' unless response.success?
+    local_addresses = find_local_addresses(params)
+    local_providers = local_addresses.map(&:user)
+    sanitize_response(response.parsed_response).concat(format_local_providers(local_providers, local_addresses))
+  end
+
+  def find_local_addresses(params)
     local_addresses = Address.joins(:user).where(name: 'Office')
-    local_addresses = local_addresses.where('addresses.postal_code REGEXP ?', params[:zip]) if params[:zip]
+    local_addresses = local_addresses.where('addresses.postal_code REGEXP ?', params[:zip].split(' ').join('|')) if params[:zip]
     local_addresses = local_addresses.where('users.first_name LIKE ?', params[:first_name]+'%') if params[:first_name]
     local_addresses = local_addresses.where('users.last_name LIKE ?', params[:last_name]+'%') if params[:last_name]
     local_addresses = local_addresses.where('users.npi_number REGEXP ?', params[:npi]) if params[:npi]
-    local_providers = local_addresses.map(&:user)
-    sanitize_response(response.parsed_response).concat(format_local_providers(local_providers, local_addresses))
+    local_addresses.includes(:user)
   end
 
   def find(params)
