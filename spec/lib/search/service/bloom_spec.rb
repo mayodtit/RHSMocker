@@ -8,7 +8,6 @@ describe Search::Service::Bloom do
 
   before :each do
     @params = {
-      :last_name => 'yuan',
       :auth_token => '12345'
     }
   end
@@ -66,23 +65,45 @@ describe Search::Service::Bloom do
   end
 
   describe '#query_params' do
-    context 'one query parameter' do
-      it 'will return query string with last name as the sole parameter' do
+    context 'search without a zip code' do
+      it 'will return results with no zip code as a query string' do
+        @params[:last_name] = 'yuan'
         query = npi.send(:query_params, @params)
         query.should == 'key0=last_name&op0=prefix&value0=yuan'
       end
     end
 
-    context 'more than one query parameter' do
-      it 'will return string with multiple parameters' do
-        @params[:state] = 'ca'
+    context 'search with a zip code and first_name' do
+      it 'will return a search results with zipcode and first_name' do
+        @params[:first_name] = 'neel'
+        @params[:zip] = '94301'
         query = npi.send(:query_params, @params)
-        query.should == 'key0=last_name&op0=prefix&value0=yuan&key1=practice_address.state&op1=prefix&value1=ca'
+        query.should == 'key0=first_name&op0=prefix&value0=neel&key1=practice_address.zip&op1=prefix&value1=94301'
+      end
+    end
+
+    context 'search with a zip code and last_name' do
+      it 'will return a search results with zipcode and last_name' do
+        @params[:last_name] = 'anand'
+        @params[:zip] = '94301'
+        query = npi.send(:query_params, @params)
+        query.should == 'key0=last_name&op0=prefix&value0=anand&key1=practice_address.zip&op1=prefix&value1=94301'
+      end
+    end
+
+    context 'search with a zip code, first_name and last_name' do
+      it 'will return a search results with zipcode, first_name and last_name' do
+        @params[:last_name] = 'anand'
+        @params[:zip] = '94301'
+        @params[:first_name] = 'neel'
+        query = npi.send(:query_params, @params)
+        query.should == 'key0=last_name&op0=prefix&value0=anand&key1=first_name&op1=prefix&value1=neel&key2=practice_address.zip&op2=prefix&value2=94301'
       end
     end
 
     context 'more than one value for zip parameter' do
       it 'will set the value parameter in the url to multiple values' do
+        @params[:last_name] = 'yuan'
         @params[:zip] = '94301 94306'
         query = npi.send(:query_params, @params)
         query.should ==
