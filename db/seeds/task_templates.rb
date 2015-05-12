@@ -213,12 +213,6 @@ PROVIDER_SEARCH_FOLLOW_UP_DESCRIPTION = <<-eof
 2. Complete task
 eof
 
-PROVIDER_SEARCH_FOLLOW_UP_DESCRIPTION = <<-eof
-1. Go to providers tab in member’s profile
-2. Add doctor to profile if they are not already there
-3. Complete task
-eof
-
 PROVIDER_SEARCH_ADD_DOCTOR_DESCRIPTION = <<-eof
 1. Go to providers tab in member’s profile
 2. Add doctor to profile if they are not already there
