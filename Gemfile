@@ -109,3 +109,4 @@ gem 'travis', require: false
 gem 'acts_as_commentable', '3.0.1'
 gem 'gravtastic'
 gem 'mixpanel-ruby'
+gem 'phone'

@@ -25,35 +25,13 @@ describe Search::Geo::Proximity do
 
   describe '#valid_params' do
     context 'valid params' do
-      it 'should return true' do
+      before do
         @params['dist'] = '3'
         @params['zip'] = '94301'
-        valid = proximity.valid_params?(@params)
-
-        expect(valid).to eq(true)
       end
-    end
 
-    context 'both invalid params' do
       it 'should return true' do
-        valid = proximity.valid_params?(@params)
-
-        expect(valid).to eq(false)
-      end
-    end
-
-    context 'one invalid params' do
-      it 'should return true' do
-        @params['dist'] = '3'
-        valid = proximity.valid_params?(@params)
-
-        expect(valid).to eq(false)
-
-        @params.delete 'dist'
-        @params['zip'] = '94301'
-        valid = proximity.valid_params?(@params)
-
-        expect(valid).to eq(false)
+        expect(proximity.valid_params?(@params)).to eq(true)
       end
     end
   end

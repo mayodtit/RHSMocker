@@ -8,7 +8,12 @@ class Api::V1::ConditionsController < Api::V1::ABaseController
   end
 
   def search
-    @conditions = params[:q].blank? ? Condition.order('name ASC') : snomed_results
+    begin
+      @conditions = params[:q].blank? ? Condition.order('name ASC') : snomed_results
+    rescue => e
+      render_failure({reason: e.message}, 502)
+      return
+    end
     index_resource(@conditions.serializer, name: :diseases) and return if diseases_path?
     index_resource(@conditions.serializer)
   end
@@ -16,11 +21,7 @@ class Api::V1::ConditionsController < Api::V1::ABaseController
   private
 
   def snomed_results
-    begin
-      search_service.snomed_query(params)
-    rescue => e
-      render_failure({reason: e.message}, 502)
-    end
+    search_service.snomed_query(params)
   end
 
   def search_service

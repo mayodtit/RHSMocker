@@ -34,7 +34,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
   validate :not_already_booked
   validate :presence_of_owner_id
   validate :presence_of_user_id
-  validates :callback_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: false, if: lambda { |spc| spc.user_id }
+  validates :callback_phone_number, format: PhoneNumber::VALIDATION_REGEX, allow_blank: false, if: lambda { |spc| spc.user_id }
   validate :scheduled_at_during_on_call
 
   after_create :if_assigned_notify_owner

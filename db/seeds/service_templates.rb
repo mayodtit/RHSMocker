@@ -21,11 +21,16 @@ PROVIDER_SEARCH_DESCRIPTION = <<-eof
 
 eof
 
+PROVIDER_SEARCH_REQUEST = <<-eof
+Find [provider type] near [zip code] who takes [insurance]
+eof
+
 ServiceTemplate.upsert_attributes({name: "provider search"},
-                                  {title: "Provider Search",
+                                  {title: "Find a [provider type]",
                                   description: PROVIDER_SEARCH_DESCRIPTION,
                                   service_type: ServiceType.find_by_name('provider search'),
                                   time_estimate: 4500,
+                                  service_request: PROVIDER_SEARCH_REQUEST,
                                   user_facing: true,
                                   suggestion_description: "We can find you a doctor near you",
                                   suggestion_message: "I'd like to find a doctor"})
@@ -35,6 +40,7 @@ APPOINTMENT_BOOKING_DESCRIPTION = <<-eof
 
 #Member Request
 * **Member:**
+* **Date of birth:**
 * **Insurance plan:**
 * **Provider:**
 * **Address:**
@@ -58,20 +64,25 @@ We’ve found you an appointment with Dr. [First Last]. Here are the details:
 
 **Day, Date at Time**
 Dr. First Last
-Address: ([map](map link))
-Phone: Phone number
+Address:
+Phone:
 -Other details (what to bring, when to arrive)
 
 Let me know if this works for you and I’ll add it to your calendar!
 eof
 
+APPOINTMENT_BOOKING_REQUEST = <<-eof
+Book an appointment [for family member] with Dr. [doctor name] for [reason] on [day/time]
+eof
+
 ServiceTemplate.upsert_attributes({name: "appointment booking"},
-                                  {title: "Appointment Booking",
+                                  {title: "Book appointment with Dr. [doctor name]",
                                   description: APPOINTMENT_BOOKING_DESCRIPTION,
                                   service_type: ServiceType.find_by_name('appointment booking'),
                                   time_estimate: 150,
                                   user_facing: true,
                                   service_update: APPOINTMENT_BOOKING_UPDATE,
+                                  service_request: APPOINTMENT_BOOKING_REQUEST,
                                   suggestion_description: "We can book an appointment with a doctor for you",
                                   suggestion_message: "I'm interested in scheduling an appointment"})
 
@@ -104,10 +115,16 @@ CARE_COORDINATION_CALL_UPDATE = <<-eof
 1. (if needed)
 eof
 
+CARE_COORDINATION_CALL_REQUEST = <<-eof
+Call [doctor/iinsurance/other] for [reason]
+eof
+
 ServiceTemplate.upsert_attributes({name: "care coordination call"},
-                                  {title: "Care Coordination Call",
+                                  {title: "Call [doctor/insurance] for [short reason]",
                                   description: CARE_COORDINATION_CALL_DESCRIPTION,
                                   service_update: CARE_COORDINATION_CALL_UPDATE,
+                                  user_facing: true,
+                                  service_request: CARE_COORDINATION_CALL_REQUEST,
                                   service_type: ServiceType.find_by_name('care coordination call'),
                                   time_estimate: 120})
 
@@ -127,9 +144,15 @@ PHA_AUTHORIZATION_DESCRIPTION = <<-eof
 #Specialist notes
 eof
 
+PHA_AUTHORIZATION_REQUEST = <<-eof
+Authorize [PHA] to speak on your behalf with [insurance company]
+eof
+
 ServiceTemplate.upsert_attributes({name: "pha authorization"},
-                                  {title: "PHA Authorization",
+                                  {title: "Authorize [PHA] with [insurance company]",
                                   description: PHA_AUTHORIZATION_DESCRIPTION,
+                                  user_facing: true,
+                                  service_request: PHA_AUTHORIZATION_REQUEST,
                                   service_type: ServiceType.find_by_name('pha designation for authorization'),
                                   time_estimate: 43500}
 )
@@ -168,9 +191,15 @@ Turnaround time:
 Other:
 eof
 
+RECORD_RECOVERY_REQUEST = <<-eof
+Transfer records from [source] to [destination]
+eof
+
 ServiceTemplate.upsert_attributes({name: "record recovery"},
-                                  {title: "Record Recovery",
+                                  {title: "Transfer records to [destination]",
                                   description: RECORD_RECOVERY_DESCRIPTION,
+                                  user_facing: true,
+                                  service_request: RECORD_RECOVERY_REQUEST,
                                   service_type: ServiceType.find_by_name('record recovery'),
                                   time_estimate: 11880}
 )
@@ -195,10 +224,107 @@ PRESCRIPTION_ORGANIZATION_UPDATE = <<-eof
 * Manual / auto refill services
 eof
 
+PRESCRIPTION_ORGANIZATION_REQUEST = <<-eof
+Organize [member]'s prescriptions from [pharmacy name]
+eof
+
 ServiceTemplate.upsert_attributes({name: "prescription organization"},
                                   {title: "Prescription Organization",
                                    description: PRESCRIPTION_ORGANIZATION_DESCRIPTION,
                                    service_update: PRESCRIPTION_ORGANIZATION_UPDATE,
+                                   user_facing: true,
+                                   service_request: PRESCRIPTION_ORGANIZATION_REQUEST,
                                    service_type: ServiceType.find_by_name('prescription management'),
                                    time_estimate: 240}
+)
+
+APPOINTMENT_PREPARATION_CF_DESCRIPTION = <<-eof
+**This Service is assigned to PHA**
+
+#Appointment Information
+* **Member:**
+* **Appointment Date/Time:**
+* **Provider:**
+* **Address:**
+* **Phone:**
+* **Reason for visit:**
+* **New Patient:** yes/no
+eof
+
+APPOINTMENT_PREPARATION_CF_UPDATE = <<-eof
+#PHA notes before appointment
+* **Member confirmed 1 month out: yes/no**
+* **Member confirmed 1 week out: yes/no**
+* **Transportation:**
+* **New symptoms:**
+* **Medication questions:**
+* **Nutrition questions:**
+* **Current BMI:**
+* **All BMI measurements since last visit:**
+
+#PHA notes after appointment
+* **Notes from Appointment:**
+* **Next appointment date/time:**
+eof
+
+ServiceTemplate.upsert_attributes({name: "appointment preparation - cf"},
+                                  {title: "Appointment Preparation - CF",
+                                   description: APPOINTMENT_PREPARATION_CF_DESCRIPTION,
+                                   service_update: APPOINTMENT_PREPARATION_CF_UPDATE,
+                                   service_type: ServiceType.find_by_name('appointment preparation'),
+                                   time_estimate: 240}
+)
+
+BMI_MANAGEMENT_3_MONTHS_DESCRIPTION = <<-eof
+**This Service is Assigned to PHA**
+
+#Weight notes
+* **When to weigh:**
+* **Weigh-in routine:**
+* **Starting BMI:**
+* **Starting date:**
+* **Weight goals:**
+
+#Member request
+* **Member name:**
+* **Doctor name:**
+* **Doctor phone:**
+* **Next CF appointment:**
+
+
+
+#Previous BMI notes
+* Notes/trends from the last 3 months of measuring (barriers to weighing, changes to routine, etc)
+
+#Previous BMI measurements
+**Paste any important past BMI measurements and dates here**
+eof
+
+BMI_MANAGEMENT_3_MONTHS_UPDATE = <<-eof
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+* **BMI and date:**
+
+Add more notes/measurements below if needed
+
+eof
+
+BMI_MANAGEMENT_3_MONTHS_REQUEST = <<-eof
+Support [member/you] in tracking your BMI to prepare for your appointment with Dr. [doctor name]
+eof
+
+ServiceTemplate.upsert_attributes({name: "bmi management - 3 months"},
+                                  {title: "BMI tracking",
+                                   description: BMI_MANAGEMENT_3_MONTHS_DESCRIPTION,
+                                   service_update: BMI_MANAGEMENT_3_MONTHS_UPDATE,
+                                   service_request: BMI_MANAGEMENT_3_MONTHS_REQUEST,
+                                   user_facing: true,
+                                   service_type: ServiceType.find_by_name('bmi management'),
+                                   timed_service: true,
+                                   time_estimate: 131760}
 )

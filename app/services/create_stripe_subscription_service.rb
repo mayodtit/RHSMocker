@@ -4,7 +4,6 @@ class CreateStripeSubscriptionService
     @plan_id = options[:plan_id]
     @credit_card_token = options[:credit_card_token]
     @trial_end = options[:trial_end]
-    @coupon_code = options[:coupon_code]
   end
 
   def call
@@ -15,7 +14,7 @@ class CreateStripeSubscriptionService
     else
       load_stripe_customer!
     end
-    add_referral_code_coupon!
+    add_referral_code_discount!
     create_stripe_subscription!
   end
 
@@ -40,21 +39,16 @@ class CreateStripeSubscriptionService
     @customer ||= Stripe::Customer.retrieve(@user.stripe_customer_id)
   end
 
-  def add_referral_code_coupon!
+  def add_referral_code_discount!
     if @user.referral_code.try(:user_id)
-      @customer.coupon = ONE_TIME_FIFTY_PERCENT_OFF_COUPON_CODE
       @user.discounts.create(referral_code_id: @user.referral_code.id,
-                             coupon: ONE_TIME_FIFTY_PERCENT_OFF_COUPON_CODE,
+                             discount_percent: 0.5,
                              referrer: false)
-      if @customer.save
-        @user.discounts.last.update_attributes(redeemed_at: Time.now)
-      end
     end
   end
 
   def create_stripe_subscription!
     @customer.subscriptions.create(plan: @plan_id,
-                                   trial_end: @trial_end.try(:to_i),
-                                   coupon: @coupon_code)
+                                   trial_end: @trial_end.try(:to_i))
   end
 end

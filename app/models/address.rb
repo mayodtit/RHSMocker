@@ -2,6 +2,7 @@ class Address < ActiveRecord::Base
   self.inheritance_column = nil
 
   belongs_to :user, inverse_of: :addresses
+  has_many :phone_numbers, as: :phoneable
 
   attr_accessible :user, :user_id, :address, :address2, :line1, :line2, :city,
                   :state, :postal_code, :name, :type

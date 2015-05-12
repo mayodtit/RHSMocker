@@ -5,7 +5,10 @@ resource 'Weight' do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  let!(:user) { create(:member) }
+  let(:birth_date) { Date.today - 24.months }
+  let(:gender) { "male" }
+  let!(:user) { create(:member, birth_date: birth_date, gender: gender) }
+  let!(:height) { create(:height, user: user) }
   let(:session) { user.sessions.create }
   let(:user_id) { user.id }
   let(:auth_token) { session.auth_token }
@@ -67,13 +70,13 @@ resource 'Weight' do
   end
 
   post '/api/v1/users/:user_id/weights' do
-    parameter :amount, 'Amount in centimeters'
-    parameter :bmi, 'BMI for entry'
+    parameter :amount, 'Amount in kilograms'
     parameter :taken_at, 'Timestamp of when the weight reading was taken'
     scope_parameters :weight, %i(amount bmi taken_at)
     required_parameters :amount, :taken_at
 
     let(:amount) { 182.88 }
+    let!(:bmi_data_level){BmiDataLevel.create(gender: 1, age_in_months: 24, power_in_transformation: -2.3428, median: 21.7219, coefficient_of_variation: 0.153241)}
     let(:taken_at) { Time.now }
     let(:raw_post) { params.to_json }
 

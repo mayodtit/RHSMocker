@@ -29,8 +29,8 @@ class PhoneCall < ActiveRecord::Base
 
   validates :twilio_conference_name, :identifier_token, :creator, presence: true
   validates :identifier_token, uniqueness: true # Used for nurseline and creating unique conference calls
-  validates :origin_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: true
-  validates :destination_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_nil: false
+  validates :origin_phone_number, format: PhoneNumber::VALIDATION_REGEX, allow_nil: true
+  validates :destination_phone_number, format: PhoneNumber::VALIDATION_REGEX, allow_nil: false
   validates :to_role_id, presence: true, if: lambda {|p| !p.outbound? }
   validates :to_role, presence: true, if: lambda {|p| p.to_role_id }
   validates :merged_into_phone_call, presence: true, if: lambda {|p| p.merged_into_phone_call_id.present? }
@@ -104,8 +104,8 @@ class PhoneCall < ActiveRecord::Base
 
   def dial_origin(dialer = nil)
     call = TwilioModule.client.account.calls.create(
-      from: PhoneNumberUtil::format_for_dialing(Metadata.outbound_calls_number),
-      to: PhoneNumberUtil::format_for_dialing(origin_phone_number),
+      from: PhoneNumber.format_for_dialing(Metadata.outbound_calls_number),
+      to: PhoneNumber.format_for_dialing(origin_phone_number),
       url: URL_HELPERS.connect_origin_api_v1_phone_call_url(self),
       method: 'POST',
       status_callback: URL_HELPERS.status_origin_api_v1_phone_call_url(self),
@@ -117,8 +117,8 @@ class PhoneCall < ActiveRecord::Base
 
   def dial_destination(dialer = nil)
     call = TwilioModule.client.account.calls.create(
-      from: PhoneNumberUtil::format_for_dialing(Metadata.outbound_calls_number),
-      to: PhoneNumberUtil::format_for_dialing(destination_phone_number),
+      from: PhoneNumber.format_for_dialing(Metadata.outbound_calls_number),
+      to: PhoneNumber.format_for_dialing(destination_phone_number),
       url: URL_HELPERS.connect_destination_api_v1_phone_call_url(self),
       method: 'POST',
       status_callback: URL_HELPERS.status_destination_api_v1_phone_call_url(self),
@@ -131,10 +131,10 @@ class PhoneCall < ActiveRecord::Base
   end
 
   def self.resolve(phone_number, origin_twilio_sid, role = Role.pha)
-    phone_number = PhoneNumberUtil.prep_phone_number_for_db phone_number
+    phone_number = PhoneNumber.prep_phone_number_for_db phone_number
     state_event = role.name == 'pha' ? :resolve : nil
 
-    if PhoneNumberUtil::is_valid_caller_id phone_number
+    if PhoneNumber.not_blacklisted? phone_number
       phone_call = PhoneCall.where(
         state: role.name == 'pha' ? :unresolved : :unclaimed,
         origin_phone_number: phone_number,
@@ -305,11 +305,11 @@ class PhoneCall < ActiveRecord::Base
 
   def prep_phone_numbers
     if self.destination_phone_number_changed?
-      self.destination_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.destination_phone_number
+      self.destination_phone_number = PhoneNumber.prep_phone_number_for_db self.destination_phone_number
     end
 
     if self.origin_phone_number_changed?
-      self.origin_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.origin_phone_number
+      self.origin_phone_number = PhoneNumber.prep_phone_number_for_db self.origin_phone_number
     end
   end
 

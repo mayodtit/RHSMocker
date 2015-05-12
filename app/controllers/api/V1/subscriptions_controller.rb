@@ -18,6 +18,7 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
           render_success({user: @user.serializer,
                           subscription: Stripe::Customer.retrieve(@user.stripe_customer_id).subscriptions.first})
           Mails::ConfirmSubscriptionChangeJob.create(@user.id, subscription)
+          RedeemDiscountService.new(status: :first, customer: @customer, member: @user, plan: Stripe::Plan.retrieve(sa[:plan])).call
         else
           render_failure({reason: 'Error occurred while adding subscription',
                           user_message: 'Error occurred while adding subscription'}, 422)
@@ -115,25 +116,9 @@ class Api::V1::SubscriptionsController < Api::V1::ABaseController
     }
   end
 
-  def birthday_sale?
-    Time.now > Time.parse('2015-04-13 00:00:00 -0700') && Time.now < Time.parse('2015-05-02 00:00:00 -0700')
-  end
-
-  def single_yearly?(plan_id)
-    'bpYRSingle192' == plan_id
-  end
-
-  def family_yearly?(plan_id)
-    'bpYRFamily480' == plan_id
-  end
-
   def available_coupon
     if @user.onboarding_group.try(:mayo_pilot?)
       '50PERCENT'
-    elsif birthday_sale? && single_yearly?(plan_id)
-      '2015BIRTHDAY_SINGLE'
-    elsif birthday_sale? && family_yearly?(plan_id)
-      '2015BIRTHDAY_FAMILY'
     end
   end
 end

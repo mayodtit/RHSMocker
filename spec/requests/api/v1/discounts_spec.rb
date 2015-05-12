@@ -4,7 +4,7 @@ describe 'discounts' do
   let(:user) { create(:member) }
   let(:session) { user.sessions.create }
   let( :referral_code) {create(:referral_code)}
-  let(:discount) { Discount.create(:user_id => user.id, :referral_code_id => referral_code.id, :referrer => false, :coupon => 'coupon' )}
+  let(:discount) { Discount.create(:user_id => user.id, :referral_code_id => referral_code.id, :referrer => false, :discount_percent => 0.5 )}
 
   describe 'GET    /api/v1/users/:user_id/discounts' do
     def do_request(params = {})

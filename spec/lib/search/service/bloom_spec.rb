@@ -8,9 +8,44 @@ describe Search::Service::Bloom do
 
   before :each do
     @params = {
-        :last_name => 'yuan',
-        :auth_token => '12345'
+      :auth_token => '12345'
     }
+  end
+
+  describe "#query" do
+    let!(:params){{:zip =>"27514", :dist =>1}}
+
+    def do_request
+      Search::Service::Bloom.new.query(params)
+    end
+
+    context "there are local records matching the search criteria" do
+      let(:user){create(:user, first_name: "bloom_test 1")}
+      let!(:address){create(:address, name: "Office", postal_code: "27514", user: user)}
+
+      before do
+        stub_request(:any, /warrior.getbetter.com/).to_rack(FakeBloom)
+      end
+
+      it "should include the local record to the result" do
+        expect(do_request.last[:first_name]).to eq(user.first_name)
+      end
+    end
+
+    context "there are local records matching the returned provider with unmatching address" do
+      let!(:user){create(:user, first_name: "bloom test 2",  npi_number: "1417983420")}
+      let!(:address){create(:address, name: "Office", postal_code: "94301", user: user)}
+
+      before do
+        stub_request(:any, /warrior.getbetter.com/).to_rack(FakeBloom)
+      end
+
+      it "should exclude the address from the returned result" do
+        do_request.each do |record|
+          expect(record[:npi_number]).not_to eq(user.npi_number)
+        end
+      end
+    end
   end
 
   describe '#sanitize_params' do
@@ -30,27 +65,49 @@ describe Search::Service::Bloom do
   end
 
   describe '#query_params' do
-    context 'one query parameter' do
-      it 'will return query string with last name as the sole parameter' do
+    context 'search without a zip code' do
+      it 'will return results with no zip code as a query string' do
+        @params[:last_name] = 'yuan'
         query = npi.send(:query_params, @params)
         query.should == 'key0=last_name&op0=prefix&value0=yuan'
       end
     end
 
-    context 'more than one query parameter' do
-      it 'will return string with multiple parameters' do
-        @params[:state] = 'ca'
+    context 'search with a zip code and first_name' do
+      it 'will return a search results with zipcode and first_name' do
+        @params[:first_name] = 'neel'
+        @params[:zip] = '94301'
         query = npi.send(:query_params, @params)
-        query.should == 'key0=last_name&op0=prefix&value0=yuan&key1=practice_address.state&op1=prefix&value1=ca'
+        query.should == 'key0=first_name&op0=prefix&value0=neel&key1=practice_address.zip&op1=prefix&value1=94301'
+      end
+    end
+
+    context 'search with a zip code and last_name' do
+      it 'will return a search results with zipcode and last_name' do
+        @params[:last_name] = 'anand'
+        @params[:zip] = '94301'
+        query = npi.send(:query_params, @params)
+        query.should == 'key0=last_name&op0=prefix&value0=anand&key1=practice_address.zip&op1=prefix&value1=94301'
+      end
+    end
+
+    context 'search with a zip code, first_name and last_name' do
+      it 'will return a search results with zipcode, first_name and last_name' do
+        @params[:last_name] = 'anand'
+        @params[:zip] = '94301'
+        @params[:first_name] = 'neel'
+        query = npi.send(:query_params, @params)
+        query.should == 'key0=last_name&op0=prefix&value0=anand&key1=first_name&op1=prefix&value1=neel&key2=practice_address.zip&op2=prefix&value2=94301'
       end
     end
 
     context 'more than one value for zip parameter' do
       it 'will set the value parameter in the url to multiple values' do
+        @params[:last_name] = 'yuan'
         @params[:zip] = '94301 94306'
         query = npi.send(:query_params, @params)
         query.should ==
-            'key0=last_name&op0=prefix&value0=yuan&key1=practice_address.zip&op1=prefix&value1=94301&value1=94306'
+          'key0=last_name&op0=prefix&value0=yuan&key1=practice_address.zip&op1=prefix&value1=94301&value1=94306'
       end
     end
 

@@ -67,10 +67,15 @@ describe 'Weights' do
       post "/api/v1/users/#{user.id}/weights", params.merge!(auth_token: session.auth_token)
     end
 
+    let(:birth_date) { Date.today - 24.months }
+    let(:gender) { "male" }
+    let!(:user) { create(:member, birth_date: birth_date, gender: gender) }
+    let!(:height) { create(:height, user: user, taken_at: 1.day.ago) }
+    let!(:bmi_data_level){ BmiDataLevel.create(gender: 1, age_in_months: 24, power_in_transformation: -2.3428, median: 21.7219, coefficient_of_variation: 0.153241) }
     let(:weight_attributes) { attributes_for(:weight) }
 
-    it 'creats a weight' do
-      expect{ do_request(weight: weight_attributes) }.to change(Weight, :count).by(1)
+    it 'creates a weight' do
+      expect{ do_request(weight: weight_attributes)}.to change(Weight, :count).by(1)
       expect(response).to be_success
       body = JSON.parse(response.body, symbolize_names: true)
       expect(body[:weight][:amount]).to eq(weight_attributes[:amount].to_f.to_s)

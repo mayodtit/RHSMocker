@@ -6,9 +6,21 @@ class Search::Service::Bloom
   base_uri ENV['BLOOM_API_URL']
 
   def query(params)
+    @zip_codes = params[:zip]
     response = self.class.get('/api/search', :query => query_params(params))
     raise StandardError, 'Non-success response from NPI database' unless response.success?
-    sanitize_response(response.parsed_response)
+    local_addresses = find_local_addresses(params)
+    local_providers = local_addresses.map(&:user)
+    sanitize_response(response.parsed_response).concat(format_local_providers(local_providers, local_addresses))
+  end
+
+  def find_local_addresses(params)
+    local_addresses = Address.joins(:user).where(name: 'Office')
+    local_addresses = local_addresses.where('addresses.postal_code REGEXP ?', params[:zip].split(' ').join('|')) if params[:zip]
+    local_addresses = local_addresses.where('users.first_name LIKE ?', params[:first_name]+'%') if params[:first_name]
+    local_addresses = local_addresses.where('users.last_name LIKE ?', params[:last_name]+'%') if params[:last_name]
+    local_addresses = local_addresses.where('users.npi_number REGEXP ?', params[:npi]) if params[:npi]
+    local_addresses.includes(:user)
   end
 
   def find(params)
@@ -17,12 +29,45 @@ class Search::Service::Bloom
     unless response['result'].count > 0
       raise ActiveRecord::RecordNotFound, "Could not find User with NPI number: #{params[:npi_number]}"
     end
-    sanitize_record(response['result'].first)
+    prepare_record(response['result'].first)
   end
 
   private
 
   QUERY_PARAMS = [:first_name, :last_name, :npi]
+
+  def format_local_providers(providers, addresses)
+    addresses_hash = addresses.inject({}){|hash, address| hash[address.user_id] = address; hash}
+
+    providers.map do |provider|
+      {
+        :first_name => provider.first_name,
+        :last_name => provider.last_name,
+        :address => format_address(provider, addresses_hash[provider.id]),
+        :npi_number => provider.npi_number,
+        :phone => provider.phone,
+        :expertise => provider.expertise,
+        :gender => provider.gender,
+        :healthcare_taxonomy_code => 'hcp_code', # this line left in for backwards compabitility
+        :provider_taxonomy_code => provider.provider_taxonomy_code,
+        :taxonomy_classification => provider.taxonomy_classification
+      }
+    end
+  end
+
+  def format_address(provider,address)
+    {
+     address: address.address,
+     address2: address.address2,
+     city: address.city,
+     state: address.state,
+     postal_code: address.postal_code,
+     country_code: nil,
+     phone: provider.phone, # this line left in for backwards compatibility, deprecated since iOS build 1.0.4
+     fax: nil,
+     name: "NPI"
+    }
+  end
 
   def sanitize_params(params)
     new_params = params.reject { |k, v| !QUERY_PARAMS.include?(k.to_sym) }
@@ -64,16 +109,44 @@ class Search::Service::Bloom
   def sanitize_response(response)
     @user_map = User.where(npi_number: response['result'].map{|record| record['npi'].to_s}).inject({}){|hash, user| hash[user.npi_number] = user; hash}
 
+    @hcp_codes = HCPTaxonomy.for_codes(response['result'].map{|provider_hash| provider_hash['provider_details'].first.try(:[], 'healthcare_taxonomy_code')}.uniq).inject({}){|hash, taxonomy_code| hash[taxonomy_code.code] = taxonomy_code; hash}
     response['result'].map do |record|
-      sanitize_record(record)
+      prepare_record(record)
+    end.compact
+  end
+
+  def prepare_record(record)
+    @user_map ||= {}
+
+    unless record['first_name'] && record['last_name']
+      return nil
     end
+
+    sanitized_record = sanitize_record(record)
+    # override address when a provider has an office address in our database
+    if u = @user_map[sanitized_record[:npi_number]]
+      if a = u.addresses.find_by_name('office')
+        sanitized_record[:address] = {
+                                       address: a.address,
+                                       city: a.city,
+                                       state: a.state,
+                                       postal_code: a.postal_code,
+                                       name: a.name
+                                     }
+        unless @zip_codes.try(:include?, a.postal_code)
+          sanitized_record = nil
+        end
+      end
+    end
+    # set avatar_url when a provider has one in our database
+    sanitized_record[:avatar_url] = @user_map[record['npi'].to_s].avatar_url if (@user_map[record['npi'].to_s].try(:avatar_url) && sanitized_record)
+    sanitized_record
   end
 
   def sanitize_record(record)
-    @user_map ||= {}
-
+    @hcp_codes ||= {}
     p = record['practice_address']
-    practice_address = {
+    bloom_address = {
       address: prettify(p['address_line']),
       address2: prettify(p['address_details_line']),
       city: prettify(p['city']),
@@ -86,20 +159,19 @@ class Search::Service::Bloom
     }
 
     hcp_code = get_hcp_code(record['provider_details'])
-    santized_record = {
+    sanitized_record = {
       :first_name => prettify(record['first_name']),
       :last_name => prettify(record['last_name']),
+      :address => bloom_address,
       :npi_number => record['npi'].to_s,
-      :address => practice_address,
       :phone => p['phone'],
       :expertise => record['credential'],
       :gender => record['gender'],
       :healthcare_taxonomy_code => hcp_code, # this line left in for backwards compabitility
       :provider_taxonomy_code => hcp_code,
-      :taxonomy_classification => HCPTaxonomy.get_classification_by_hcp_code(hcp_code)
+      :taxonomy_classification => @hcp_codes[hcp_code].try(:classification)
     }
-    santized_record[:avatar_url] = @user_map[record['npi'].to_s].avatar_url if @user_map[record['npi'].to_s].try(:avatar_url)
-    santized_record
+    sanitized_record
   end
 
   private

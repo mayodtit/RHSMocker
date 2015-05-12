@@ -22,6 +22,7 @@ class User < ActiveRecord::Base
   belongs_to :diet
   has_one :user_information
   has_many :addresses, inverse_of: :user
+  has_many :phone_numbers, as: :phoneable
   has_many :insurance_policies
   has_one :provider
   has_one :emergency_contact
@@ -60,15 +61,15 @@ class User < ActiveRecord::Base
                   :user_information_attributes, :addresses_attributes,
                   :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id,
                   :provider_taxonomy_code, :owner, :owner_id, :self_owner, :emergency_contact_attributes,
-                  :actor_id, :text_phone_number, :due_date
+                  :actor_id, :text_phone_number, :due_date, :remote_avatar_url
 
   validate :member_flag_is_nil
   validates :deceased, :inclusion => {:in => [true, false]}
   validates :npi_number, :length => {:is => 10}, :uniqueness => true, :if => :npi_number
   validates :email, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}, allow_blank: true
-  validates :phone, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
-  validates :work_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
-  validates :text_phone_number, format: PhoneNumberUtil::VALIDATION_REGEX, allow_blank: true
+  validates :phone, format: PhoneNumber::VALIDATION_REGEX, allow_blank: true
+  validates :work_phone_number, format: PhoneNumber::VALIDATION_REGEX, allow_blank: true
+  validates :text_phone_number, format: PhoneNumber::VALIDATION_REGEX, allow_blank: true
 
   mount_uploader :avatar, AvatarUploader
 
@@ -341,9 +342,9 @@ class User < ActiveRecord::Base
   end
 
   def prep_phone_numbers
-    self.phone = PhoneNumberUtil::prep_phone_number_for_db self.phone
-    self.work_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.work_phone_number
-    self.text_phone_number = PhoneNumberUtil::prep_phone_number_for_db self.text_phone_number
+    self.phone = PhoneNumber.prep_phone_number_for_db self.phone
+    self.work_phone_number = PhoneNumber.prep_phone_number_for_db self.work_phone_number
+    self.text_phone_number = PhoneNumber.prep_phone_number_for_db self.text_phone_number
   end
 
   def set_defaults

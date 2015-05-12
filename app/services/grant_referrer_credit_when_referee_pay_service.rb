@@ -1,9 +1,9 @@
-class GrantReferrerCreditWhenRefereePay
+class GrantReferrerCreditWhenRefereePayService
   def initialize(event)
     @event = event
   end
 
-  def assign_coupon
+  def call
     referee = find_member(find_stripe_customer_id(@event))
     return if referee.nil?
     referral_code = referee.referral_code
@@ -11,20 +11,7 @@ class GrantReferrerCreditWhenRefereePay
     distribute_coupon(referrer, referee) if referrer
   end
 
-  def apply_coupon
-    referrer_stripe_customer = Stripe::Customer.retrieve(find_stripe_customer_id(@event))
-    referrer = find_member(find_stripe_customer_id(@event))
-    return if referrer.nil?
-    if referrer && has_coupon?(referrer)
-      redeem_coupon(referrer, referrer_stripe_customer)
-    end
-  end
-
   private
-
-  def has_coupon?(referrer)
-    !referrer.discounts.where("discounts.redeemed_at IS NULL").nil?
-  end
 
   def find_stripe_customer_id(event)
     event.data.object.customer
@@ -37,7 +24,8 @@ class GrantReferrerCreditWhenRefereePay
   def distribute_coupon(referrer, referee)
     unless used_referral_code?(referee, referrer)
       referrer.discounts.create(referral_code_id: referee.referral_code.id,
-                                coupon: ONE_TIME_HUNDRED_PERCENT_OFF_COUPON_CODE,
+                                discount_percent: 1.0,
+                                referee_id: referee.id,
                                 referrer: true)
     end
   end
@@ -47,15 +35,5 @@ class GrantReferrerCreditWhenRefereePay
       return true if record.user_id == referrer.id
     end
     false
-  end
-
-  def redeem_coupon(referrer, customer)
-    referrer_discount_record = referrer.discounts.find_by_redeemed_at(nil)
-    if referrer_discount_record
-      customer.coupon = referrer_discount_record.coupon
-      customer.save
-      referrer_discount_record.redeemed_at = Time.now
-      referrer_discount_record.save!
-    end
   end
 end
