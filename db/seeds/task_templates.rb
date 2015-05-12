@@ -1020,7 +1020,7 @@ eof
 TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule reminder - weigh 1"},
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
                                 title: "Schedule reminder - Weigh-In 1",
-                                description: APPOINTMENT_PREPARATION_CF_CHECK_IN_MONTH_DESCRIPTION,
+                                description: BMI_MANAGEMENT_3_MONTHS_INITIAL_TASK_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 0})
 TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 1"},
