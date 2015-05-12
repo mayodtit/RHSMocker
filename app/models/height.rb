@@ -6,7 +6,8 @@ class Height < ActiveRecord::Base
   attr_accessible :user, :user_id, :amount, :taken_at, :healthkit_uuid,
                   :healthkit_source, :creator_id, :creator
 
-  validates :user, :amount, :taken_at, presence: true
+  validates :user, :taken_at, presence: true
+  validates :amount, :numericality => { :greater_than => 0}, presence: true
 
   before_validation :set_defaults, on: :create
 
