@@ -3,6 +3,7 @@ module SolrExtensionModule
 
   included do
     attr_accessor :skip_reindex
+    attr_accessible :skip_reindex
     after_commit :reindex, unless: :skip_reindex
   end
 
