@@ -1,6 +1,10 @@
 module SolrExtensionModule
   extend ActiveSupport::Concern
 
+  included do
+    after_commit :reindex
+  end
+
   module ClassMethods
     def or_search(param)
       search do
@@ -16,5 +20,10 @@ module SolrExtensionModule
     def sanitize_solr_query(query)
       query.gsub(/[-+]/, ' ')
     end
+  end
+
+  def reindex
+    self.class.reindex
+    Sunspot.commit
   end
 end
