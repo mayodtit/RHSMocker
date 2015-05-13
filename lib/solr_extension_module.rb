@@ -2,7 +2,8 @@ module SolrExtensionModule
   extend ActiveSupport::Concern
 
   included do
-    after_commit :reindex
+    attr_accessor :skip_reindex
+    after_commit :reindex, unless: :skip_reindex
   end
 
   module ClassMethods
