@@ -1,6 +1,12 @@
 module SolrExtensionModule
   extend ActiveSupport::Concern
 
+  included do
+    attr_accessor :skip_reindex
+    attr_accessible :skip_reindex
+    after_commit :reindex, unless: :skip_reindex
+  end
+
   module ClassMethods
     def or_search(param)
       search do
@@ -16,5 +22,10 @@ module SolrExtensionModule
     def sanitize_solr_query(query)
       query.gsub(/[-+]/, ' ')
     end
+  end
+
+  def reindex
+    self.class.reindex
+    Sunspot.commit
   end
 end

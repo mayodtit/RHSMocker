@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe Content do
   it_has_a 'valid factory'
+  it_behaves_like 'model with SOLR index'
   it_validates 'presence of', :title
   it_validates 'presence of', :raw_body
   it_validates 'presence of', :content_type

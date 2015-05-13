@@ -138,6 +138,22 @@ shared_examples 'can transition from' do |transition, states|
   end
 end
 
+shared_examples 'model with SOLR index' do
+  describe 'after_commit' do
+    it 'causes a reindex' do
+      described_class.should_receive(:reindex).at_least(:once).and_call_original
+      Sunspot.should_receive(:commit).at_least(:once).and_call_original
+      create(described_class.name.underscore.to_sym)
+    end
+
+    it 'skips reindex when skip_reindex is set to true' do
+      described_class.should_not_receive(:reindex)
+      Sunspot.should_not_receive(:commit)
+      create(described_class.name.underscore.to_sym, skip_reindex: true)
+    end
+  end
+end
+
 shared_examples 'phone number format of' do |property, disallow_nil, allow_blank|
   before do
     @model = build_stubbed described_class.name.underscore.to_sym

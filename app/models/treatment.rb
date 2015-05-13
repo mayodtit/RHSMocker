@@ -11,8 +11,6 @@ class Treatment < ActiveRecord::Base
 
   validates :type, :presence => true
 
-  after_commit :reindex
-
   searchable :auto_index => false do
     text :name
     string :type do
@@ -36,10 +34,5 @@ class Treatment < ActiveRecord::Base
 
   def self.type_class(type_name)
     "Treatment::#{type_name.camelize}".constantize
-  end
-
-  def reindex
-    Treatment.reindex
-    Sunspot.commit
   end
 end
