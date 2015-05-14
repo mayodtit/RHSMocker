@@ -176,6 +176,7 @@ namespace :migrate do
       allergy.update_attributes(name: allergy.name.super_titleize,
                                 skip_reindex: true)
     end
+    Allergy.reindex
   end
 
   desc 'Apply #super_titleize to all Condition names'
@@ -184,5 +185,6 @@ namespace :migrate do
       condition.update_attributes(name: condition.name.super_titleize,
                                   skip_reindex: true)
     end
+    Condition.reindex
   end
 end
