@@ -24,6 +24,7 @@ module StringExtension
   end
 
   def character_split_titleize(character)
+    return self if self == character
     split_and_join(character, character) do |word|
       word.super_titleize
     end

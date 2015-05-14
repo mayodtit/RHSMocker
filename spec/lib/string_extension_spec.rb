@@ -59,6 +59,14 @@ describe StringExtension do
         expect('5-HT3-receptor antagonist'.super_titleize).to eq('5-HT3-Receptor Antagonist')
       end
 
+      it 'handles single hyphens' do
+        expect('CCF - Congestive cardiac failure'.super_titleize).to eq('CCF - Congestive Cardiac Failure')
+      end
+
+      it 'handles single slashes' do
+        expect('CCF / Congestive cardiac failure'.super_titleize).to eq('CCF / Congestive Cardiac Failure')
+      end
+
       it 'handles the most complex case I could find' do
         expect('3-Hydroxy-3-methylglutaryl-coenzyme A (HMG CoA) reductase inhibitor'.super_titleize).to eq('3-Hydroxy-3-Methylglutaryl-Coenzyme A (HMG CoA) Reductase Inhibitor')
       end
