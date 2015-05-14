@@ -9,7 +9,6 @@ task :export_referral_codes_from_production => :environment do
 
   CSV.open(file, 'w', :write_headers=> true, :headers => ["name", "code", "onboarding_group_name", "onboarding_group_premium", "onboarding_group_free_trial_days", "onboarding_group_subscription_days", "onboarding_group_skip_credit_card", "onboarding_group_skip_automated_communications", "onboarding_group_skip_emails"]) do |writer|
     referral_codes.each do |codes|
-      next unless codes.present?
       writer << [codes.name,
                  codes.code,
                  codes.onboarding_group.try(:name),
