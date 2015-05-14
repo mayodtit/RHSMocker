@@ -7,12 +7,11 @@ task :import_referral_codes_from_production => :environment do
   filename = "referral_codes_from_prod.csv"
   file = Rails.root.join('lib','assets',filename)
 
-  CSV.open(file, 'w') do |writer|
+  CSV.open(file, 'w', :write_headers=> true, :headers => ["name", "code", "onboarding_group_name", "onboarding_group_premium", "onboarding_group_free_trial_days", "onboarding_group_subscription_days", "onboarding_group_skip_credit_card", "onboarding_group_skip_automated_communications", "onboarding_group_skip_emails"]) do |writer|
     referral_codes.each do |codes|
       next unless codes.present?
       writer << [codes.name,
                  codes.code,
-                 codes.onboarding_group_id,
                  codes.onboarding_group.try(:name),
                  codes.onboarding_group.try(:premium),
                  codes.onboarding_group.try(:free_trial_days),
@@ -33,7 +32,6 @@ task :export_referral_codes_to_QA => :environment do
 
   CSV.foreach(Rails.root.join('lib','assets',filename), encoding: encoding, headers: true) do |row|
     ReferralCode.upsert_attributes!({code: row['code']},
-                                    {name: row['name'],
-                                    onboarding_group_id: row['onboarding_group_id']})
+                                    {name: row['name']})
   end
 end
