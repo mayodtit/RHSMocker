@@ -4,7 +4,7 @@ class MessageSerializer < ActiveModel::Serializer
 
   attributes :id, :text, :created_at, :consult_id, :title, :image_url, :type,
              :content_id, :symptom_id, :condition_id, :note, :user_image_id,
-             :contents, :system, :user_id
+             :contents, :system, :user_id, :service_id, :services
 
   def attributes
     super.tap do |attributes|
@@ -56,6 +56,20 @@ class MessageSerializer < ActiveModel::Serializer
         {
           id: content.id,
           title: content.title,
+          image_url: root_url + better_logo_asset_path
+        }
+      ]
+    else
+      []
+    end
+  end
+
+  def services
+    if service
+      [
+        {
+          id: service.id,
+          title: service.title,
           image_url: root_url + better_logo_asset_path
         }
       ]
