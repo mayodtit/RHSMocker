@@ -7,6 +7,7 @@ class Message < ActiveRecord::Base
   belongs_to :content
   belongs_to :symptom
   belongs_to :condition
+  belongs_to :service, inverse_of: :messages
   belongs_to :phone_call, inverse_of: :message
   belongs_to :scheduled_phone_call, inverse_of: :message
   belongs_to :phone_call_summary, inverse_of: :message
@@ -25,7 +26,8 @@ class Message < ActiveRecord::Base
                   :symptom, :symptom_id, :condition, :condition_id,
                   :off_hours, :note, :user_image, :user_image_id,
                   :user_image_client_guid, :no_notification,
-                  :system, :automated, :pubsub_client_id
+                  :system, :automated, :pubsub_client_id,
+                  :service, :service_id
 
   validates :user, :consult, presence: true
   validates :off_hours, inclusion: {in: [true, false]}
@@ -33,6 +35,7 @@ class Message < ActiveRecord::Base
   validates :symptom, presence: true, if: lambda{|m| m.symptom_id}
   validates :condition, presence: true, if: lambda{|m| m.condition_id}
   validates :phone_call, presence: true, if: lambda{|m| m.phone_call_id}
+  validates :service, presence: true, if: ->(m){m.service_id}
   validates :scheduled_phone_call, presence: true, if: lambda{|m| m.scheduled_phone_call_id}
   validates :phone_call_summary, presence: true, if: lambda{|m| m.phone_call_summary_id}
   validates :user_image, presence: true, if: ->(m){m.user_image_id}
