@@ -16,6 +16,7 @@ describe Message do
   it_validates 'foreign key of', :scheduled_phone_call
   it_validates 'foreign key of', :phone_call_summary
   it_validates 'foreign key of', :user_image
+  it_validates 'foreign key of', :service
 
   describe 'callbacks' do
     describe '#fix_bad_markdown_links' do

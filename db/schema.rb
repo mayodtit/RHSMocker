@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150506224408) do
+ActiveRecord::Schema.define(:version => 20150515144355) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -563,6 +563,7 @@ ActiveRecord::Schema.define(:version => 20150506224408) do
     t.string   "user_image_client_guid"
     t.boolean  "system"
     t.boolean  "automated",               :default => false, :null => false
+    t.integer  "service_id"
   end
 
   add_index "messages", ["consult_id", "created_at", "note"], :name => "index_messages_on_consult_id_and_created_at_and_note"
