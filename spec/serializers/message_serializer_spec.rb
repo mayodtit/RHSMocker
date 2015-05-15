@@ -23,7 +23,8 @@ describe MessageSerializer do
           {
             id: service.id,
             title: service.title,
-            image_url: 'http://localhost/assets/logo_58.png'
+            image_url: 'http://localhost/assets/logo_58.png',
+            action_url: "better-test://nb?cmd=services&id=#{service.id}"
           }
         ]
       )

@@ -70,7 +70,8 @@ class MessageSerializer < ActiveModel::Serializer
         {
           id: service.id,
           title: service.title,
-          image_url: root_url + better_logo_asset_path
+          image_url: root_url + better_logo_asset_path,
+          action_url: "#{native_bridge_protocol}://nb?cmd=services&id=#{service.id}"
         }
       ]
     else
@@ -83,6 +84,14 @@ class MessageSerializer < ActiveModel::Serializer
       protocol + '://' + host
     else
       ''
+    end
+  end
+
+  def native_bridge_protocol
+    if Rails.env.development? || Rails.env.devhosted?
+      'better-dev'
+    else
+      "better-#{Rails.env}"
     end
   end
 
