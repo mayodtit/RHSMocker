@@ -1,6 +1,6 @@
 class MessageSerializer < ActiveModel::Serializer
   self.root = false
-  delegate :content, to: :object
+  delegate :content, :service, to: :object
 
   attributes :id, :text, :created_at, :consult_id, :title, :image_url, :type,
              :content_id, :symptom_id, :condition_id, :note, :user_image_id,
