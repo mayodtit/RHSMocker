@@ -196,7 +196,7 @@ describe User do
   describe '#age' do
     let!(:no_birthday_user) { build_stubbed(:user, :birth_date => nil) }
     let!(:baby_user) { build_stubbed(:user, :birth_date => 11.months.ago) }
-    let!(:yr_user) { build_stubbed(:user, :birth_date => 13.months.ago) } 
+    let!(:yr_user) { build_stubbed(:user, :birth_date => 13.months.ago) }
     let!(:adult_user) { build_stubbed(:user, :birth_date => 360.months.ago) }
     #let(:user) { blood_pressure.user }
 
@@ -454,6 +454,33 @@ describe User do
           UserChange.should_receive(:create!).with hash_including(actor_id: pha.id)
           user.send(:track_update)
         end
+      end
+    end
+  end
+
+  context "PhoneNumber life-cycle hook methods" do
+    describe "#add_phone_numbers" do
+      let(:member) { create(:member, phone: "9253038831", work_phone_number: "5072842511", text_phone_number: "9253038831") }
+      it "creates PhoneNumber objects when a User is created" do
+        expect(member.phone_obj.number).to eq "9253038831"
+        expect(member.work_phone_number_obj.number).to eq "5072842511"
+        expect(member.text_phone_number_obj.number).to eq "9253038831"
+      end
+    end
+
+    describe "#update_phone_numbers" do
+      let(:member) { create(:member, phone: "9253038831", work_phone_number: "5072842511", text_phone_number: "9253038831") }
+      it "updates primary PhoneNumber object when updated on the user" do
+        member.update_attribute(:phone, "9253038832")
+        expect(member.phone_obj.number).to eq "9253038832"
+      end
+      it "updates work PhoneNumber object when updated on the user" do
+        member.update_attribute(:work_phone_number, "5072842512")
+        expect(member.work_phone_number_obj.number).to eq "5072842512"
+      end
+      it "updates text PhoneNumber object when updated on the user" do
+        member.update_attribute(:text_phone_number, "9253038832")
+        expect(member.text_phone_number_obj.number).to eq "9253038832"
       end
     end
   end
