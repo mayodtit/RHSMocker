@@ -23,4 +23,20 @@ class Allergy < ActiveRecord::Base
   def self.none
     find_by_snomed_code('160244002')
   end
+
+  def self.identify_synonyms!
+    names_with_duplicates.each do |name|
+      master = find_by_name_and_master_synonym_id(name, nil)
+      where(name: name, master_synonym_id: nil).where('id != ?', master.id).each do |instance|
+        instance.user_allergies.each do |ua|
+          ua.update_attributes!(allergy: master)
+        end
+        instance.update_attributes!(master_synonym: master)
+      end
+    end
+  end
+
+  def self.names_with_duplicates
+    group(:name).count.reject{|k, v| v < 2}.keys
+  end
 end
