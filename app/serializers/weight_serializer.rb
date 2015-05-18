@@ -9,11 +9,11 @@ class WeightSerializer < ActiveModel::Serializer
 
   def warning_color # deprecated!
     case bmi_warning_level_display_level
-    when :severe
+    when 'severe'
       "#FF3A30" # Red color Hex Code
-    when :warn
+    when 'warn'
       "#FFC85A" # Yellow color Hex Code
-    when :normal
+    when 'normal'
       "#6A9B6B" # Green color Hex Code
     end
   end
@@ -29,11 +29,11 @@ class WeightSerializer < ActiveModel::Serializer
   def bmi_warning_level_display_level
     case bmi_level
     when "Severely Underweight", "Obese"
-      :severe
+      'severe'
     when "Overweight", "Underweight"
-      :warn
+      'warn'
     when "Normal"
-      :normal
+      'normal'
     end
   end
 
