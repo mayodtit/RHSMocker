@@ -5,12 +5,14 @@ module Api
       before_filter :force_development_lag!
       before_filter :authentication_check
 
+      AUTHENTICATION_FAILURE_REASON = "Your session has expired, please log in again."
+
       def authentication_check
-        return render_failure({reason:"Invalid auth_token"}) if params[:auth_token].blank?
+        return render_failure({reason: AUTHENTICATION_FAILURE_REASON}) if params[:auth_token].blank?
         @session = Session.find_by_auth_token(params[:auth_token])
-        return render_failure({reason:"Invalid auth_token"}) unless @session
+        return render_failure({reason: AUTHENTICATION_FAILURE_REASON}) unless @session
         member = @session.member
-        return render_failure({reason:"Invalid auth_token"}) unless member
+        return render_failure({reason: AUTHENTICATION_FAILURE_REASON}) unless member
         auto_login(member)
       end
 
