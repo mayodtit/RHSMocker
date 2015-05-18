@@ -17,7 +17,8 @@ class RedeemDiscountService
   private
 
   def redeem_coupon(member, customer, status)
-    plan = @plan || customer.subscriptions.data.first.plan
+    plan = @plan || customer.try(:subscriptions).try(:data).try(:first).try(:plan)
+    return unless plan
     if eligible_for_discount(status, member, customer)
       discount_amount = calculate_discount(plan)
       if invoice_item = create_invoice_item(customer, discount_amount)
