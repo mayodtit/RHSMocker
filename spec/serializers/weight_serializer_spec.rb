@@ -11,6 +11,7 @@ describe WeightSerializer do
       expect(result[:warning_color]).to eq('#FF3A30')
       expect(result[:bmi_warning_level]).to eq('severely-underweight')
       expect(result[:bmi_warning_level_display]).to eq('Severely Underweight')
+      expect(result[:bmi_warning_level_display_level]).to eq('severe')
     end
   end
 end
