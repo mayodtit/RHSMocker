@@ -73,12 +73,14 @@ resource "Messages" do
   post '/api/v1/consults/:consult_id/messages' do
     parameter :text, 'Message text'
     parameter :content_id, 'ID of Content to link to Message'
+    parameter :service_id, 'ID of Service to link to Message'
     parameter :image, 'Base64-encoded image'
     parameter :user_image_client_guid, 'Client-generated unique identifier for associated UserImage'
-    scope_parameters :message, [:text, :content_id, :image, :user_image_client_guid]
+    scope_parameters :message, [:text, :content_id, :service_id, :image, :user_image_client_guid]
 
     let(:text) { 'text' }
     let(:content_id) { create(:content).id }
+    let(:service_id) { create(:service, member: user).id }
     let(:image) { base64_test_image }
     let(:raw_post) { params.to_json }
 

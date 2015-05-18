@@ -81,7 +81,7 @@ class Api::V1::MessagesController < Api::V1::ABaseController
   end
 
   def message_attributes
-    params.require(:message).permit(:text, :image, :content_id, :symptom_id, :condition_id, :note).tap do |attributes|
+    permitted_params.message.tap do |attributes|
       attributes[:pubsub_client_id] = params[:pubsub_client_id]
       attributes[:user] = current_user.impersonated_user || current_user
       attributes[:image] = decode_b64_image(attributes[:image]) if attributes[:image]

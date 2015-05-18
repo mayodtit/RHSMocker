@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe Treatment do
   it_has_a 'valid factory'
+  it_behaves_like 'model with SOLR index'
   it_validates 'presence of', :type
 
   it 'defaults to Treatment::Medicine type' do

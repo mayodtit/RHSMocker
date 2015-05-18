@@ -5,4 +5,5 @@ describe Height do
   it_validates 'presence of', :user
   it_validates 'presence of', :amount
   it_validates 'presence of', :taken_at
+  it_validates 'numericality of', :amount
 end

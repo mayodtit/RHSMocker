@@ -20,6 +20,8 @@ class Service < ActiveRecord::Base
   has_many :service_changes, order: 'created_at DESC'
   has_one :entry, as: :resource
 
+  has_many :messages, inverse_of: :service
+
   attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id
   attr_accessible :description, :title, :service_type_id, :service_type, :user_facing, :service_request, :service_deliverable,
                   :member_id, :member, :subject_id, :subject, :reason_abandoned, :reason, :abandoner, :abandoner_id,

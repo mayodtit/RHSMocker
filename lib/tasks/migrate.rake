@@ -169,4 +169,22 @@ namespace :migrate do
   def pluralize(count, singular)
     ActionController::Base.helpers.pluralize(count, singular)
   end
+
+  desc 'Apply #super_titleize to all Allergy names'
+  task titleize_allergies: :environment do
+    Allergy.find_each do |allergy|
+      allergy.update_attributes(name: allergy.name.super_titleize,
+                                skip_reindex: true)
+    end
+    Allergy.reindex
+  end
+
+  desc 'Apply #super_titleize to all Condition names'
+  task titleize_conditions: :environment do
+    Condition.find_each do |condition|
+      condition.update_attributes(name: condition.name.super_titleize,
+                                  skip_reindex: true)
+    end
+    Condition.reindex
+  end
 end

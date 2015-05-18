@@ -5,6 +5,7 @@ describe Weight do
   it_validates 'presence of', :user
   it_validates 'presence of', :amount
   it_validates 'presence of', :taken_at
+  it_validates 'numericality of', :amount
 
   describe '::most_recent' do
     let!(:weight) { create(:weight) }
