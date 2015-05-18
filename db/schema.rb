@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150515144814) do
+ActiveRecord::Schema.define(:version => 20150518204014) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -46,6 +46,7 @@ ActiveRecord::Schema.define(:version => 20150515144814) do
     t.datetime "disabled_at"
     t.string   "concept_id"
     t.string   "description_id"
+    t.integer  "master_synonym_id"
   end
 
   create_table "api_users", :force => true do |t|
