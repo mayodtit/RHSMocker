@@ -187,4 +187,9 @@ namespace :migrate do
     end
     Condition.reindex
   end
+
+  desc 'Deduplicate Allergy records with the same names'
+  task deduplicate_allergies: :environment do
+    Allergy.deduplicate_names!
+  end
 end
