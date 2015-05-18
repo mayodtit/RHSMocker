@@ -3,9 +3,10 @@ class WeightSerializer < ActiveModel::Serializer
 
   has_one :creator
   attributes :id, :user_id, :amount, :bmi, :taken_at, :healthkit_uuid, :bmi_level,
-             :healthkit_source, :creator_id, :warning_color
+             :healthkit_source, :creator_id, :warning_color,
+             :bmi_warning_level, :bmi_warning_level_display
 
-  def warning_color
+  def warning_color # deprecated!
     case bmi_level
     when "Severely Underweight", "Obese"
       "#FF3A30" # Red color Hex Code
@@ -14,6 +15,14 @@ class WeightSerializer < ActiveModel::Serializer
     when "Normal"
       "#6A9B6B" # Green color Hex Code
     end
+  end
+
+  def bmi_warning_level
+    bmi_level.try(:parameterize)
+  end
+
+  def bmi_warning_level_display
+    bmi_level.try(:titleize)
   end
 
   def bmi
