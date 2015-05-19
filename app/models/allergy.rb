@@ -31,9 +31,11 @@ class Allergy < ActiveRecord::Base
         instance.user_allergies.each do |ua|
           ua.update_attributes!(allergy: master)
         end
-        instance.update_attributes!(master_synonym: master)
+        instance.update_attributes!(master_synonym: master, skip_reindex: true)
       end
     end
+    reindex
+    Sunspot.commit
   end
 
   def self.names_with_duplicates
