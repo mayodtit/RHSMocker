@@ -187,4 +187,9 @@ namespace :migrate do
     end
     Condition.reindex
   end
+
+  desc 'Identify and mark synonyms for all Allergy records'
+  task identify_allergy_synonyms: :environment do
+    Allergy.identify_synonyms!
+  end
 end
