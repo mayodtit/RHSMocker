@@ -9,7 +9,11 @@ class Api::V1::ServicesController < Api::V1::ABaseController
 
   def index
     authorize! :read, Service
-    services = @member.services.where(params.permit(:subject_id, :state)).order("field(state, 'open', 'waiting', 'completed', 'abandoned'), due_at DESC, created_at DESC")
+    if params[:user_facing] = true
+      services = @member.services.where(user_facing: true).order('updated_at DESC, created_at DESC')
+    else
+      services = @member.services.where(params.permit(:subject_id, :state)).order("field(state, 'open', 'waiting', 'completed', 'abandoned'), due_at DESC, created_at DESC")
+    end
     index_resource services.serializer, name: :services
   end
 
@@ -112,5 +116,3 @@ class Api::V1::ServicesController < Api::V1::ABaseController
       create_params
   end
 end
-
-
