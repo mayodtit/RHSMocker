@@ -12,6 +12,7 @@ class Task < ActiveRecord::Base
   belongs_to :service
   belongs_to :service_type
   belongs_to :task_template
+  belongs_to :modal_template
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
   has_many :task_guides, class_name: 'TaskGuide', through: :task_template
   has_many :task_requirements
@@ -25,7 +26,7 @@ class Task < ActiveRecord::Base
                   :state_event, :service_type_id, :service_type,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
                   :priority, :actor_id, :member_id, :member, :reason, :visible_in_queue,
-                  :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread, :follow_up
+                  :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread, :follow_up, :modal_template, :modal_template_id
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :urgent, :unread, :follow_up, :inclusion => { :in => [true, false] }
@@ -35,6 +36,7 @@ class Task < ActiveRecord::Base
   validates :service, presence: true, if: lambda { |t| t.service_id }
   validates :service_ordinal, presence: true, if: lambda { |t| t.service_id }
   validates :task_template, presence: true, if: lambda { |t| t.task_template_id }
+  validates :modal_template, presence: true, if: lambda { |t| t.modal_template_id}
   validates :member, presence: true, if: lambda { |t| t.member_id }
   validates :reason, presence: true, if: lambda { |t| (t.due_at_changed? && t.due_at_was.present?) || (t.state_changed? && t.abandoned?) }
   validate :attrs_for_states

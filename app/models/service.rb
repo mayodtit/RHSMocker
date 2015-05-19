@@ -69,11 +69,21 @@ class Service < ActiveRecord::Base
         task_template.create_task!(service: self, start_at: service_template.timed_service? ? last_due_at : Time.now, assignor: assignor)
       end
     else
+      set_notify_pha_modal
       self.complete!
     end
   end
 
+  def set_notify_pha_modal
+    if self.service_template.name == "appointment booking"
+      m = ModalTemplate.find_by_title("Did you add doctor?")
+      last_task = self.tasks.where(service_ordinal: @last_ordinal)
+      last_task.each {|t| t.update_attribute(:modal_template_id, m.id)}
+    end
+  end
+
   def next_ordinal(current_ordinal)
+    @last_ordinal = current_ordinal
     return unless service_template
     service_template.task_templates.where('service_ordinal > ?', current_ordinal).minimum(:service_ordinal)
   end
