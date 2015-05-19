@@ -29,16 +29,35 @@ describe Allergy do
     end
 
     context 'with UserAllergies' do
-      before do
-        allergy_duplicates.each do |duplicate|
-          create(:user_allergy, allergy: duplicate)
+      context 'for different users' do
+        before do
+          allergy_duplicates.each do |duplicate|
+            create(:user_allergy, allergy: duplicate)
+          end
+        end
+
+        it 'assigns UserAllergies referencing duplicates to the single Allergy' do
+          expect(allergy.user_allergies.count).to be_zero
+          described_class.identify_synonyms!
+          expect(allergy.user_allergies.count).to eq(number_of_duplicates)
         end
       end
 
-      it 'assigns UserAllergies referencing duplicates to the single Allergy' do
-        expect(allergy.user_allergies.count).to be_zero
-        described_class.identify_synonyms!
-        expect(allergy.user_allergies.count).to eq(number_of_duplicates)
+      context 'for users with synonyms selected' do
+        let!(:user) { create(:user) }
+
+        before do
+          allergy_duplicates.each do |duplicate|
+            create(:user_allergy, user: user, allergy: duplicate)
+          end
+        end
+
+        it 'deletes UserAllergy records that point to synonyms' do
+          expect(UserAllergy.count).to eq(number_of_duplicates)
+          described_class.identify_synonyms!
+          expect(UserAllergy.count).to eq(1)
+          expect(user.allergies).to eq([allergy])
+        end
       end
     end
   end

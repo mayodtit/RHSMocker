@@ -29,7 +29,9 @@ class Allergy < ActiveRecord::Base
       master = find_by_name_and_master_synonym_id(name, nil)
       where(name: name, master_synonym_id: nil).where('id != ?', master.id).each do |instance|
         instance.user_allergies.each do |ua|
-          ua.update_attributes!(allergy: master)
+          unless ua.update_attributes(allergy: master)
+            ua.destroy
+          end
         end
         instance.update_attributes!(master_synonym: master, skip_reindex: true)
       end
