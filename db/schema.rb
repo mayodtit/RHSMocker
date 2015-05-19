@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150515144814) do
+ActiveRecord::Schema.define(:version => 20150518061319) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -578,6 +578,15 @@ ActiveRecord::Schema.define(:version => 20150515144814) do
     t.string   "mvalue",     :null => false
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "modal_templates", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.string   "accept"
+    t.string   "reject"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "nurseline_records", :force => true do |t|
@@ -1225,6 +1234,7 @@ ActiveRecord::Schema.define(:version => 20150515144814) do
     t.boolean  "urgent",                     :default => false, :null => false
     t.boolean  "unread",                     :default => false, :null => false
     t.boolean  "follow_up",                  :default => false, :null => false
+    t.integer  "modal_template_id"
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"
