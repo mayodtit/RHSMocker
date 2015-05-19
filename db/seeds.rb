@@ -9,6 +9,7 @@
    ethnic_groups
    hcp_taxonomy
    messages
+   modal_templates
    premium_onboarding
    roles
    service_types
