@@ -1,7 +1,6 @@
 class ServiceTemplate < ActiveRecord::Base
   belongs_to :service_type
   has_many :task_templates
-  has_many :suggested_services
 
   attr_accessible :name, :title, :description, :service_type_id, :service_type, :time_estimate, :timed_service,
                   :user_facing, :suggestion_description, :suggestion_message, :service_update, :service_request
