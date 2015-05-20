@@ -1,9 +1,10 @@
 class TaskTemplate < ActiveRecord::Base
   belongs_to :service_template
+  belongs_to :modal_template
   has_many :tasks
   has_many :task_guides
 
-  attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template
+  attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :modal_template
 
   validates :name, :title, presence: true
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150518061319) do
+ActiveRecord::Schema.define(:version => 20150520065759) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1189,6 +1189,7 @@ ActiveRecord::Schema.define(:version => 20150518061319) do
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
     t.integer  "priority"
+    t.integer  "modal_template_id"
   end
 
   add_index "task_templates", ["service_template_id"], :name => "index_task_templates_on_service_template_id"
