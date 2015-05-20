@@ -9,7 +9,7 @@ class Api::V1::ServicesController < Api::V1::ABaseController
 
   def index
     authorize! :read, Service
-    if params[:user_facing] = true
+    if params[:user_facing] == true
       services = @member.services.where(user_facing: true).order('updated_at DESC, created_at DESC')
     else
       services = @member.services.where(params.permit(:subject_id, :state)).order("field(state, 'open', 'waiting', 'completed', 'abandoned'), due_at DESC, created_at DESC")
