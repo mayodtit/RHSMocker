@@ -3,8 +3,8 @@ class MessageEntrySerializer < ActiveModel::Serializer
   delegate :content, :service, to: :object
 
   attributes :id, :sender, :receiver, :text, :created_at, :image_url, :type,
-             :content_id, :symptom_id, :condition_id, :user_image_id, :service_id,
-             :contents, :services, :system, :note
+             :content_id, :symptom_id, :condition_id, :user_image_id,
+             :contents, :service_id, :services, :system, :note
 
   def sender
     object.consult.initiator.full_name
