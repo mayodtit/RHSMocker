@@ -77,8 +77,6 @@ class TaskSerializer < ActiveModel::Serializer
   end
 
   def modal_template
-    if object.task_template.modal_template
-      object.task_template.modal_template
-    end
+    object.task_template.try(:modal_template)
   end
 end
