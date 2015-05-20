@@ -22,7 +22,6 @@ describe Task do
     it_validates 'foreign key of', :service_type
     it_validates 'foreign key of', :task_template
     it_validates 'foreign key of', :member
-    it_validates 'foreign key of', :modal_template
 
     describe '#service' do
       let(:task) { build_stubbed :task }
