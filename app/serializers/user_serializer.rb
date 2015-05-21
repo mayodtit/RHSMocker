@@ -10,6 +10,8 @@ class UserSerializer < ActiveModel::Serializer
              :email_read_only, :sharing_prohibited, :owner_id, :text_phone_number,
              :due_date
 
+  has_many :phone_numbers
+
   def attributes
     if options[:shallow]
       {
@@ -54,14 +56,14 @@ class UserSerializer < ActiveModel::Serializer
   end
 
   def phone
-    object.phone_obj.try(:prep_phone_number_for_db) || object.phone
+    object.phone_obj.try(:number)
   end
 
   def work_phone_number
-    object.work_phone_number_obj.try(:prep_phone_number_for_db) || object.work_phone_number
+    object.work_phone_number_obj.try(:number)
   end
 
   def text_phone_number
-    object.text_phone_number_obj.try(:prep_phone_number_for_db) || object.text_phone_number
+    object.text_phone_number_obj.try(:number)
   end
 end

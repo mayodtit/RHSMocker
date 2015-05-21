@@ -18,7 +18,7 @@ class PhoneNumber < ActiveRecord::Base
   end
 
   def not_blacklisted?
-    self.class.not_blacklisted?(number)
+    self.class.not_blacklisted?(self[:number])
   end
 
   def self.prep_phone_number_for_db(phone_number)
@@ -34,7 +34,7 @@ class PhoneNumber < ActiveRecord::Base
   end
 
   def prep_phone_number_for_db
-    self.class.prep_phone_number_for_db(number)
+    self.class.prep_phone_number_for_db(self[:number])
   end
 
   def self.format_for_dialing(phone_number)
@@ -54,7 +54,7 @@ class PhoneNumber < ActiveRecord::Base
   end
 
   def format_for_dialing
-    self.class.format_for_dialing(number)
+    self.class.format_for_dialing(self[:number])
   end
 
   def parseable_phone_number
@@ -69,6 +69,10 @@ class PhoneNumber < ActiveRecord::Base
 
   def display
     phone.format("(%a) %f-%l")
+  end
+
+  def number
+    prep_phone_number_for_db
   end
 
   private
