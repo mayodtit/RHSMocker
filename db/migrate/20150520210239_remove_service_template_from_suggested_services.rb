@@ -4,6 +4,6 @@ class RemoveServiceTemplateFromSuggestedServices < ActiveRecord::Migration
   end
 
   def down
-    add_column :suggested_services, :service_template_id
+    add_column :suggested_services, :service_template_id, :integer
   end
 end
