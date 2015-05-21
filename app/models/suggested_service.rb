@@ -2,10 +2,12 @@ class SuggestedService < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
 
   belongs_to :user, class_name: 'Member'
-  belongs_to :service_template
-  has_one :service_type, through: :service_template
+  belongs_to :suggested_service_template
 
-  attr_accessible :user, :user_id, :service_template, :service_template_id
+  attr_accessible :user, :user_id, :suggested_service_template,
+                  :suggested_service_template_id
 
-  validates :user, :service_template, presence: true
+  validates :user, :suggested_service_template, presence: true
+
+  delegate :title, :description, :message, to: :suggested_service_template
 end
