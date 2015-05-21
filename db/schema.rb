@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150518204014) do
+ActiveRecord::Schema.define(:version => 20150520221146) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -969,17 +969,15 @@ ActiveRecord::Schema.define(:version => 20150518204014) do
   add_index "service_state_transitions", ["service_id"], :name => "index_service_state_transitions_on_service_id"
 
   create_table "service_templates", :force => true do |t|
-    t.string   "name",                                      :null => false
-    t.string   "title",                                     :null => false
+    t.string   "name",                               :null => false
+    t.string   "title",                              :null => false
     t.text     "description"
-    t.integer  "service_type_id",                           :null => false
+    t.integer  "service_type_id",                    :null => false
     t.integer  "time_estimate"
-    t.datetime "created_at",                                :null => false
-    t.datetime "updated_at",                                :null => false
-    t.boolean  "timed_service",          :default => false, :null => false
-    t.boolean  "user_facing",            :default => false, :null => false
-    t.text     "suggestion_description"
-    t.text     "suggestion_message"
+    t.datetime "created_at",                         :null => false
+    t.datetime "updated_at",                         :null => false
+    t.boolean  "timed_service",   :default => false, :null => false
+    t.boolean  "user_facing",     :default => false, :null => false
     t.text     "service_update"
     t.text     "service_request"
   end
@@ -1075,11 +1073,20 @@ ActiveRecord::Schema.define(:version => 20150518204014) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "suggested_services", :force => true do |t|
-    t.integer  "user_id"
+  create_table "suggested_service_templates", :force => true do |t|
     t.integer  "service_template_id"
+    t.string   "title"
+    t.text     "description"
+    t.text     "message"
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
+  end
+
+  create_table "suggested_services", :force => true do |t|
+    t.integer  "user_id"
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
+    t.integer  "suggested_service_template_id"
   end
 
   create_table "symptom_medical_advice_items", :force => true do |t|
