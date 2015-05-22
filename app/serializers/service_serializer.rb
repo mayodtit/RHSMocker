@@ -1,9 +1,12 @@
 class ServiceSerializer < ActiveModel::Serializer
   self.root = false
 
+  delegate :member, :owner, :service_type, to: :object
+
   attributes :id, :member_id, :user_id, :owner_id, :subject_id, :service_type_id, :state,
              :title, :description, :due_at, :created_at, :updated_at,
-             :user_facing, :service_request, :service_deliverable, :service_update
+             :user_facing, :service_request, :service_deliverable, :service_update,
+             :owner_full_name, :service_type_name
 
   def attributes
     super.tap do |attrs|
@@ -17,6 +20,16 @@ class ServiceSerializer < ActiveModel::Serializer
 
   private
 
+  alias_method :user_id, :member_id
+
+  def owner_full_name
+    owner.try(:full_name)
+  end
+
+  def service_type_name
+    service_type.try(:name)
+  end
+
   def for_subject?
     options[:for_subject] ? true : false
   end
@@ -29,24 +42,20 @@ class ServiceSerializer < ActiveModel::Serializer
     options[:for_activity] ? true : false
   end
 
-  def user_id
-    object.member_id
-  end
-
   def subject_attributes
     {
-      service_type: object.service_type,
-      owner: object.owner.try(:serializer, options.merge(shallow: true)),
-      member: object.member.try(:serializer, options.merge(shallow: true)),
+      service_type: service_type,
+      owner: owner.try(:serializer, options.merge(shallow: true)),
+      member: member.try(:serializer, options.merge(shallow: true)),
       tasks: tasks
     }
   end
 
   def non_shallow_attributes
     {
-      service_type: object.service_type,
-      owner: object.owner.try(:serializer, options),
-      member: object.member.try(:serializer, options),
+      service_type: service_type,
+      owner: owner.try(:serializer, options),
+      member: member.try(:serializer, options),
       tasks: tasks
     }
   end
