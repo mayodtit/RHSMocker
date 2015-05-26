@@ -83,7 +83,7 @@ resource "Services" do
         explanation 'Get all services for a member (optionally filter by subject and state)'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        response[:services].to_json.should == [service, completed_service, abandoned_service].serializer.to_json
+        response[:services].to_json.should == [service, completed_service, abandoned_service].serializer(shallow: true).to_json
       end
     end
   end
@@ -105,7 +105,7 @@ resource "Services" do
         explanation 'Get all services for a member (optionally filter by subject and state)'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        response[:services].to_json.should == [completed_service, abandoned_service].serializer.to_json
+        response[:services].to_json.should == [completed_service, abandoned_service].serializer(shallow: true).to_json
       end
     end
   end
