@@ -19,6 +19,7 @@ class MemberSerializer < ActiveModel::Serializer
              :cached_notifications_enabled, :due_date
 
   has_one :nux_answer
+  has_many :phone_numbers
 
   def attributes
     if options[:shallow]

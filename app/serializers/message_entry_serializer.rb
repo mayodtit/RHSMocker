@@ -1,10 +1,10 @@
 class MessageEntrySerializer < ActiveModel::Serializer
   self.root = false
-  delegate :content, to: :object
+  delegate :content, :service, to: :object
 
   attributes :id, :sender, :receiver, :text, :created_at, :image_url, :type,
              :content_id, :symptom_id, :condition_id, :user_image_id,
-             :contents, :system, :note
+             :contents, :service_id, :services, :system, :note
 
   def sender
     object.consult.initiator.full_name
@@ -30,19 +30,33 @@ class MessageEntrySerializer < ActiveModel::Serializer
   def contents
     if content.try(:show_mayo_logo?)
       [
-          {
-              id: content.id,
-              title: content.title,
-              image_url: root_url + mayo_logo_asset_path
-          }
+        {
+          id: content.id,
+          title: content.title,
+          image_url: root_url + mayo_logo_asset_path
+        }
       ]
     elsif content
       [
-          {
-              id: content.id,
-              title: content.title,
-              image_url: root_url + better_logo_asset_path
-          }
+        {
+          id: content.id,
+          title: content.title,
+          image_url: root_url + better_logo_asset_path
+        }
+      ]
+    else
+      []
+    end
+  end
+
+  def services
+    if service
+      [
+        {
+          id: service.id,
+          title: service.title,
+          image_url: root_url + better_logo_asset_path
+        }
       ]
     else
       []
