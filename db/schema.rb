@@ -1235,7 +1235,6 @@ ActiveRecord::Schema.define(:version => 20150520065759) do
     t.boolean  "urgent",                     :default => false, :null => false
     t.boolean  "unread",                     :default => false, :null => false
     t.boolean  "follow_up",                  :default => false, :null => false
-    t.integer  "modal_template_id"
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"
