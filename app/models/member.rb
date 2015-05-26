@@ -86,7 +86,9 @@ class Member < User
                   :email_confirmation_token, :advertiser_id,
                   :advertiser_media_source, :advertiser_campaign,
                   :impersonated_user, :impersonated_user_id,:delinquent,
-                  :enrollment, :payment_token, :coupon_count, :unique_on_boarding_user_token
+                  :enrollment, :payment_token, :coupon_count, :unique_on_boarding_user_token,
+                  :kinsights_token, :kinsights_patient_url,
+                  :kinsights_profile_url
 
   validates :unique_on_boarding_user_token, uniqueness: true, allow_nil: true
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
