@@ -1,12 +1,14 @@
 class ScheduledMessage < ScheduledCommunication
   belongs_to :message
   belongs_to :content
+  belongs_to :service
 
-  attr_accessible :message, :message_id, :text, :content, :content_id
+  attr_accessible :message, :message_id, :text, :content, :content_id, :service, :service_id
 
   validates :sender, :text, presence: true
   validates :message, presence: true, if: ->(s){s.message_id}
   validates :content, presence: true, if: ->(s){s.content_id}
+  validates :service, presence: true, if: ->(s){s.service_id}
 
   def formatted_text
     MessageTemplate.formatted_text(sender, recipient, text, variables)
@@ -21,6 +23,7 @@ class ScheduledMessage < ScheduledCommunication
                                  consult: recipient.master_consult,
                                  text: formatted_text,
                                  content: content,
+                                 service: service,
                                  automated: true)
   end
 
