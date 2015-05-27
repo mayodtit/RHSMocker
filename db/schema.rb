@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150526060742) do
+ActiveRecord::Schema.define(:version => 20150527174930) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -921,6 +921,7 @@ ActiveRecord::Schema.define(:version => 20150526060742) do
     t.integer  "relative_days"
     t.integer  "content_id"
     t.integer  "delayed_job_id"
+    t.integer  "service_id"
   end
 
   add_index "scheduled_communications", ["recipient_id", "state", "type"], :name => "index_scheduled_communications_recipient_id_state_type"
