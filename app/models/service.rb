@@ -21,6 +21,7 @@ class Service < ActiveRecord::Base
   has_one :entry, as: :resource
 
   has_many :messages, inverse_of: :service
+  has_many :scheduled_communications, inverse_of: :service
 
   attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id
   attr_accessible :description, :title, :service_type_id, :service_type, :user_facing, :service_request, :service_deliverable,
