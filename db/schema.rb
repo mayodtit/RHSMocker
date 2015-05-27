@@ -581,6 +581,15 @@ ActiveRecord::Schema.define(:version => 20150520221146) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "modal_templates", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.string   "accept"
+    t.string   "reject"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
   create_table "nurseline_records", :force => true do |t|
     t.text     "payload"
     t.datetime "created_at",  :null => false
@@ -1188,6 +1197,7 @@ ActiveRecord::Schema.define(:version => 20150520221146) do
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
     t.integer  "priority"
+    t.integer  "modal_template_id"
   end
 
   add_index "task_templates", ["service_template_id"], :name => "index_task_templates_on_service_template_id"

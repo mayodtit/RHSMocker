@@ -106,6 +106,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:service_template).permit(:name, :title, :description, :service_type_id, :time_estimate)
   end
 
+  def modal_template
+    params.require(:modal_template).permit(:title, :description, :accept, :reject)
+  end
+
   def service_template_attributes
     params.permit(:service_template_id, :title, :description, :subject_id, :due_at, :owner_id, :service_type, :member_id, :user_facing, :service_request, :service_deliverable, :service_update)
   end
@@ -116,7 +120,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def task_template
-    params.require(:task_template).permit(:name, :title, :service_template, :description, :time_estimate, :service_ordinal)
+    params.require(:task_template).permit(:name, :title, :service_template, :description, :time_estimate, :service_ordinal, :modal_template_id)
   end
   private
 

@@ -333,7 +333,8 @@ TaskTemplate.upsert_attributes({name: "appointment booking - appointment follow-
                                 title: "SEND - Appointment follow-up",
                                 description: APPOINTMENT_BOOKING_FOLLOW_UP_TEMPLATE,
                                 time_estimate: 60,
-                                service_ordinal: 3})
+                                service_ordinal: 3,
+                                modal_template: ModalTemplate.find_by_title('Did you add doctor?')})
 
 #Care Coordination Call
 
