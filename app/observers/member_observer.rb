@@ -4,6 +4,12 @@ class MemberObserver < ActiveRecord::Observer
     set_self_owner(member)
   end
 
+  def after_create(member)
+    if member.kinsights_token.present?
+      KinsightsSignupJob.create(member.id)
+    end
+  end
+
   private
 
   def add_automated_communication_workflows(member)
