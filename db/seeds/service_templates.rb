@@ -31,9 +31,7 @@ ServiceTemplate.upsert_attributes({name: "provider search"},
                                   service_type: ServiceType.find_by_name('provider search'),
                                   time_estimate: 4500,
                                   service_request: PROVIDER_SEARCH_REQUEST,
-                                  user_facing: true,
-                                  suggestion_description: "We can find you a doctor near you",
-                                  suggestion_message: "I'd like to find a doctor"})
+                                  user_facing: true})
 
 APPOINTMENT_BOOKING_DESCRIPTION = <<-eof
 **This Service Is Assigned to PHA**
@@ -82,9 +80,7 @@ ServiceTemplate.upsert_attributes({name: "appointment booking"},
                                   time_estimate: 150,
                                   user_facing: true,
                                   service_update: APPOINTMENT_BOOKING_UPDATE,
-                                  service_request: APPOINTMENT_BOOKING_REQUEST,
-                                  suggestion_description: "We can book an appointment with a doctor for you",
-                                  suggestion_message: "I'm interested in scheduling an appointment"})
+                                  service_request: APPOINTMENT_BOOKING_REQUEST})
 
 CARE_COORDINATION_CALL_DESCRIPTION = <<-eof
 **This Service Is Assigned to PHA**

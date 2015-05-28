@@ -4,7 +4,7 @@ shared_examples 'action requiring authentication' do
     do_request
     response.should_not be_success
     json = JSON.parse(response.body)
-    json['reason'].should == "Invalid auth_token"
+    json['reason'].should == "Your session has expired, please log in again."
   end
 end
 

@@ -9,12 +9,14 @@
    ethnic_groups
    hcp_taxonomy
    messages
+   modal_templates
    premium_onboarding
    roles
    service_types
    user_requests
    treatments
    service_templates
+   suggested_service_templates
    task_templates).each do |filename|
      load File.join(Rails.root, 'db', 'seeds', "#{filename}.rb")
    end
