@@ -95,8 +95,8 @@ class Task < ActiveRecord::Base
   end
 
   def set_ordinal
-    if service_id? && task_template_id.nil? && service_ordinal.nil?
-      self.service_ordinal = service.tasks.empty? ? 0 : service.tasks.last.service_ordinal
+    if service_id && task_template_id.nil? && service_ordinal.nil?
+      self.service_ordinal = service.tasks.empty? ? 0 : service.tasks.maximum("service_ordinal")
     end
   end
 
