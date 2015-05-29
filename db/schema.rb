@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150527174930) do
+ActiveRecord::Schema.define(:version => 20150528220142) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -990,6 +990,7 @@ ActiveRecord::Schema.define(:version => 20150527174930) do
     t.boolean  "user_facing",     :default => false, :null => false
     t.text     "service_update"
     t.text     "service_request"
+    t.string   "unique_id"
   end
 
   add_index "service_templates", ["service_type_id"], :name => "index_service_templates_on_service_type_id"
