@@ -107,14 +107,26 @@ class User < ActiveRecord::Base
   end
 
   def update_phone_numbers
-    if phone_changed? && p = phone_obj
-      p.update_attribute(:number, phone)
+    if phone_changed?
+      if p = phone_obj
+        p.update_attribute(:number, phone)
+      else
+        phone_numbers.create(number: phone, primary: true, type: "Home")
+      end
     end
-    if work_phone_number_changed? && p = work_phone_number_obj
-      p.update_attribute(:number, work_phone_number)
+    if work_phone_number_changed?
+      if p = work_phone_number_obj
+        p.update_attribute(:number, work_phone_number)
+      else
+        phone_numbers.create(number: work_phone_number, primary: false, type: "Work")
+      end
     end
-    if text_phone_number_changed? && p = text_phone_number_obj
-      p.update_attribute(:number, text_phone_number)
+    if text_phone_number_changed?
+      if p = text_phone_number_obj
+        p.update_attribute(:number, text_phone_number)
+      else
+        phone_numbers.create(number: text_phone_number, primary: false, type: "Mobile")
+      end
     end
   end
 
