@@ -4,11 +4,12 @@ class ServiceTemplate < ActiveRecord::Base
   has_many :suggested_service_templates
 
   attr_accessible :name, :title, :description, :service_type_id, :service_type, :time_estimate, :timed_service,
-                  :user_facing, :service_update, :service_request, :unique_id
+                  :user_facing, :service_update, :service_request, :unique_id, :version
 
   validates :name, :title, :service_type, presence: true
   validates :user_facing, :inclusion => { :in => [true, false] }
   validates :unique_id, uniqueness: true
+  validates :version, presence: true, if: ->(st){st.unique_id}
 
   before_validation :set_unique_id, on: :create
 
