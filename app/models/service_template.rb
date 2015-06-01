@@ -43,16 +43,12 @@ class ServiceTemplate < ActiveRecord::Base
 
   state_machine :initial => :unpublished do
 
-    event :unpublish do
-      transition any => :unpublished
-    end
-
     event :publish do
-      transition any => :published
+      transition :unpublished => :published
     end
 
     event :retire do
-      transition any => :retired
+      transition :published => :retired
     end
   end
 end
