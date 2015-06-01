@@ -98,6 +98,27 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
+  def custom_welcome_email(email, template)
+    user = Member.find_by_email!(email)
+    pha = user.pha
+    subject = 'Welcome to Better'
+
+    params = {
+      subject: subject,
+      from: pha.email,
+      from_name: pha.full_name,
+      to: { email: email },
+      template: template,
+      headers: {
+        'Reply-To' => "#{pha.full_name} <premium@getbetter.com>"
+      },
+      vars: {
+        FNAME: user.salutation
+      }
+    }
+    send_mail(params)
+  end
+
   PREMIUM_WELCOME_TEMPLATE_CLARE = 'Meet Clare, Your PHA 9/4/2014'
   PREMIUM_WELCOME_TEMPLATE_LAUREN = 'Meet Lauren, Your PHA 9/4/2014'
   PREMIUM_WELCOME_TEMPLATE_MEG = 'Meet Meg, Your PHA 9/4/2014'
@@ -474,7 +495,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
     }
     send_mail(params)
   end
-  
+
   def notify_referrer_of_sign_up(referrer, referee)
     params = {
       subject: "Good news #{referee.first_name || "your friend"} has signed up for Better!",

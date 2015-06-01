@@ -5,7 +5,9 @@ class SendWelcomeEmailService
 
   def call
     return if @user.onboarding_group.try(:skip_emails?)
-    if @user.trial?
+    if @user.onboarding_group.try(:welcome_email_template)
+      send_templated_welcome_email(@user.onboarding_group.welcome_email_template)
+    elsif @user.trial?
       send_trial_welcome_email
     elsif @user.free?
       send_free_welcome_email
@@ -30,5 +32,9 @@ class SendWelcomeEmailService
 
   def send_premium_welcome_email
     Mails::MeetYourPhaMonthTrialJob.create(@user.id)
+  end
+
+  def send_templated_welcome_email(template)
+    Mails::CustomWelcomeEmailJob.create(@user.id, template)
   end
 end
