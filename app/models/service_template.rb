@@ -12,6 +12,7 @@ class ServiceTemplate < ActiveRecord::Base
   validates :version, presence: true, uniqueness: true, if: ->(st){st.unique_id}
 
   before_validation :set_unique_id, on: :create
+  before_validation :set_version, on: :create
 
   def create_service!(attributes = {})
     service = Service.create!(
@@ -39,6 +40,10 @@ class ServiceTemplate < ActiveRecord::Base
       new_unique_id = Base64.urlsafe_encode64(SecureRandom.base64(36))
       break new_unique_id unless self.class.exists?(unique_id: new_unique_id)
     end
+  end
+
+  def set_version
+    self.version = self.class.where(unique_id: unique_id).maximum(:version).try(:+, 1) || 0
   end
 
   state_machine :initial => :unpublished do
