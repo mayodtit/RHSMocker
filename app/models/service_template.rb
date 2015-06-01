@@ -4,12 +4,12 @@ class ServiceTemplate < ActiveRecord::Base
   has_many :suggested_service_templates
 
   attr_accessible :name, :title, :description, :service_type_id, :service_type, :time_estimate, :timed_service,
-                  :user_facing, :service_update, :service_request, :unique_id, :version
+                  :user_facing, :service_update, :service_request, :unique_id, :version, :state
 
   validates :name, :title, :service_type, presence: true
   validates :user_facing, :inclusion => { :in => [true, false] }
   validates :unique_id, uniqueness: true
-  validates :version, presence: true, if: ->(st){st.unique_id}
+  validates :version, presence: true, uniqueness: true, if: ->(st){st.unique_id}
 
   before_validation :set_unique_id, on: :create
 
@@ -38,6 +38,21 @@ class ServiceTemplate < ActiveRecord::Base
     self.unique_id ||= loop do
       new_unique_id = Base64.urlsafe_encode64(SecureRandom.base64(36))
       break new_unique_id unless self.class.exists?(unique_id: new_unique_id)
+    end
+  end
+
+  state_machine :initial => :unpublished do
+
+    event :unpublish do
+      transition any => :unpublished
+    end
+
+    event :publish do
+      transition any => :published
+    end
+
+    event :retire do
+      transition any => :retired
     end
   end
 end
