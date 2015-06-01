@@ -18,7 +18,7 @@ class Task < ActiveRecord::Base
   has_one :entry, as: :resource
 
   attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id
-  attr_accessible :title, :description, :due_at,
+  attr_accessible :title, :description, :due_at, :queue_event,
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
                   :abandoner, :abandoner_id, :role, :role_id,
@@ -165,7 +165,7 @@ class Task < ActiveRecord::Base
     end
   end
 
-  state_machine :initial => :unstarted do
+  state_machine :state, :initial => :unstarted do
     store_audit_trail to: 'TaskChange', context_to_log: [:actor_id, :data, :reason]
 
     event :unstart do
@@ -221,6 +221,26 @@ class Task < ActiveRecord::Base
     # after_commit track_update to not create another TaskChange
     after_transition any => any do |task|
       task.change_tracked = true
+    end
+  end
+
+  state_machine :queue do
+    store_audit_trail to: 'TaskChange', context_to_log: [:actor_id, :data, :reason]
+
+    event :enqueue_pha do
+      transition any => :pha
+    end
+
+    event :enqueue_specialist do
+      transition any => :specialist
+    end
+
+    event :enqueue_hcc do
+      transition any => :hcc
+    end
+
+    event :enqueue_nurse do
+      transition any => :nurse
     end
   end
 
