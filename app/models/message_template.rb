@@ -3,6 +3,7 @@ class MessageTemplate < ActiveRecord::Base
   has_many :system_message_workflow_templates, inverse_of: :message_template
   has_many :communication_workflows, through: :message_workflow_templates
   belongs_to :content
+  belongs_to :onboarding_group
 
   attr_accessible :name, :text, :subject, :content, :content_id
 
