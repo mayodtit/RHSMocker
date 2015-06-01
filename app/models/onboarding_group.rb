@@ -9,7 +9,8 @@ class OnboardingGroup < ActiveRecord::Base
   has_many :programs, through: :onboarding_group_programs
   belongs_to :pha, class_name: 'Member'
   belongs_to :trial_nux_story, class_name: 'NuxStory'
-  has_one :welcome_message_template, class_name: 'MessageTemplate'
+  has_one :welcome_message_template, class_name: 'MessageTemplate',
+                                     foreign_key: :onboarding_group_id
 
   accepts_nested_attributes_for :provider
 
