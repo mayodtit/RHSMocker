@@ -98,20 +98,16 @@ class RHSMailer < MandrillMailer::TemplateMailer
     send_mail(params)
   end
 
-  def custom_welcome_email(email, template)
-    user = Member.find_by_email!(email)
-    pha = user.pha
+  def custom_welcome_email(user_id, template)
+    user = Member.find(user_id)
     subject = 'Welcome to Better'
 
     params = {
       subject: subject,
-      from: pha.email,
-      from_name: pha.full_name,
-      to: { email: email },
+      from: "support@getbetter.com",
+      from_name: 'Better',
+      to: { email: user.email },
       template: template,
-      headers: {
-        'Reply-To' => "#{pha.full_name} <premium@getbetter.com>"
-      },
       vars: {
         FNAME: user.salutation
       }

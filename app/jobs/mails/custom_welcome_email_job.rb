@@ -4,7 +4,6 @@ class Mails::CustomWelcomeEmailJob < Struct.new(:user_id, :template)
   end
 
   def perform
-    user = Member.find(user_id)
-    RHSMailer.custom_welcome_email(user.email, template).deliver
+    RHSMailer.custom_welcome_email(user_id, template).deliver
   end
 end
