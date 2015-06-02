@@ -32,8 +32,10 @@ class Service < ActiveRecord::Base
   validates :title, :service_type, :state, :member, :creator, :owner, :assignor, :assigned_at, presence: true
   validates :user_facing, :inclusion => { :in => [true, false] }
   validates :service_template, presence: true, if: lambda { |s| s.service_template_id.present? }
-  before_validation :set_assigned_at
 
+  before_validation :set_defaults, on: :create
+  before_validation :set_assigned_at
+  after_create :create_next_ordinal_tasks
   after_commit :track_update, on: :update
   after_commit :publish
 
@@ -158,5 +160,21 @@ class Service < ActiveRecord::Base
     elsif _data = data
       ServiceChange.create! service: self, actor_id: self.actor_id, event: 'update', data: _data, reason: reason
     end
+  end
+
+  private
+
+  def set_defaults
+    self.title ||= service_template.try(:title)
+    self.description ||= service_template.try(:description)
+    self.service_type ||= service_template.try(:service_type)
+    self.due_at ||= service_template.try(:calculated_due_at)
+    self.service_update ||= service_template.try(:service_update)
+    self.user_facing = service_template.try(:user_facing) if user_facing.nil?
+    self.subject ||= member
+    self.owner ||= member.try(:pha)
+    self.assignor ||= creator
+    self.actor_id ||= creator.try(:id)
+    true
   end
 end
