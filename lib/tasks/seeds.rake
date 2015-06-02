@@ -1106,4 +1106,13 @@ My phone: 650-887-3711
       end
     end
   end
+
+  task :backfill_states_service_templates => :environment do
+    ServiceTemplate.all.each do |st|
+      if st.state == nil
+        st.state = 'published'
+        st.save!
+      end
+    end
+  end
 end
