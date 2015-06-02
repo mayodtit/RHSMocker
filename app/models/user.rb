@@ -57,12 +57,13 @@ class User < ActiveRecord::Base
   attr_accessor :actor_id
 
   attr_accessible :first_name, :last_name, :avatar, :gender, :birth_date, :email,
-                  :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
+                  :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
                   :date_of_death, :expertise, :city, :avatar_url_override, :client_data,
                   :user_information_attributes, :addresses_attributes,
-                  :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id,
+                  :provider_attributes, :nickname, :default_hcp_association_id,
                   :provider_taxonomy_code, :owner, :owner_id, :self_owner, :emergency_contact_attributes,
-                  :actor_id, :text_phone_number, :due_date, :remote_avatar_url
+                  :actor_id, :due_date, :remote_avatar_url,
+                  :phone, :work_phone_number, :text_phone_number
 
   validate :member_flag_is_nil
   validates :deceased, :inclusion => {:in => [true, false]}
@@ -84,8 +85,6 @@ class User < ActiveRecord::Base
   after_save :track_update, on: :update
 
   after_create :add_gravatar
-  after_create :add_phone_numbers
-  after_update :update_phone_numbers
 
   def add_gravatar
     if self.avatar_url_override.nil? || self.avatar_url_override.include?('https://secure.gravatar.com/avatar')
@@ -94,48 +93,61 @@ class User < ActiveRecord::Base
     end
   end
 
-  def add_phone_numbers
-    if phone.present?
-      phone_numbers.create(number: phone, primary: true, type: "Home")
-    end
-    if work_phone_number.present?
-      phone_numbers.create(number: work_phone_number, primary: false, type: "Work")
-    end
-    if text_phone_number.present?
-      phone_numbers.create(number: text_phone_number, primary: false, type: "Mobile")
+  def phone_reader(phone_type)
+    return unless [:phone, :work_phone_number, :text_phone_number].include?(phone_type)
+    phone_type_name = "#{phone_type}_obj".to_sym
+    self.send(phone_type_name).try(:number)
+  end
+
+  PREDEFINED_PHONE_NUMBER_ATTRS = {
+    phone:             { primary: true, type: "Home" },
+    work_phone_number: { primary: false, type: "Work" },
+    text_phone_number: { primary: false, type: "Mobile" }
+  }
+
+  def phone_setter(new_phone, phone_type)
+    return unless [:phone, :work_phone_number, :text_phone_number].include?(phone_type)
+    phone_type_name = "#{phone_type}_obj".to_sym
+    if p = self.send(phone_type_name)
+      if p.number != new_phone
+        p.update_attributes(number: new_phone)
+      end
+    else
+      new_phone_attrs = PREDEFINED_PHONE_NUMBER_ATTRS[phone_type].merge({number: new_phone})
+      phone_numbers.create(new_phone_attrs)
     end
   end
 
-  def update_phone_numbers
-    if phone_changed?
-      if p = phone_obj
-        p.update_attribute(:number, phone)
-      else
-        phone_numbers.create(number: phone, primary: true, type: "Home")
-      end
-    end
-    if work_phone_number_changed?
-      if p = work_phone_number_obj
-        p.update_attribute(:number, work_phone_number)
-      else
-        phone_numbers.create(number: work_phone_number, primary: false, type: "Work")
-      end
-    end
-    if text_phone_number_changed?
-      if p = text_phone_number_obj
-        p.update_attribute(:number, text_phone_number)
-      else
-        phone_numbers.create(number: text_phone_number, primary: false, type: "Mobile")
-      end
-    end
+  def phone
+    phone_reader(:phone)
+  end
+
+  def phone=(new_phone)
+    phone_setter(new_phone, :phone)
   end
 
   def phone_obj
     phone_numbers.find_by_primary(true)
   end
 
+  def work_phone_number
+    phone_reader(:work_phone_number)
+  end
+
+  def work_phone_number=(new_work_phone_number)
+    phone_setter(new_work_phone_number, :work_phone_number)
+  end
+
   def work_phone_number_obj
     phone_numbers.find_by_type("Work")
+  end
+
+  def text_phone_number
+    phone_reader(:text_phone_number)
+  end
+
+  def text_phone_number=(new_text_phone_number)
+    phone_setter(new_text_phone_number, :text_phone_number)
   end
 
   def text_phone_number_obj
