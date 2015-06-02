@@ -10,6 +10,7 @@ class ServiceTemplate < ActiveRecord::Base
   validates :user_facing, :inclusion => { :in => [true, false] }
   validates :unique_id, uniqueness: true
   validates :version, presence: true, uniqueness: true, if: ->(st){st.unique_id}
+  validates :state, presence: true, uniqueness: true, if: ->(st){st.unique_id && st.version}
 
   before_validation :set_unique_id, on: :create
   before_validation :set_version, on: :create
