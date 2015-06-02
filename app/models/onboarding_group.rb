@@ -20,7 +20,8 @@ class OnboardingGroup < ActiveRecord::Base
                   :trial_nux_story_id, :stripe_coupon_code,
                   :absolute_subscription_ends_at, :subscription_days,
                   :skip_credit_card, :skip_automated_communications,
-                  :skip_emails, :welcome_email_template
+                  :skip_emails, :welcome_email_template, :welcome_email_template_id,
+                  :welcome_message_template, :welcome_message_template_id
 
   validates :name, presence: true
   validates :provider, presence: true, if: ->(o){o.provider_id}
