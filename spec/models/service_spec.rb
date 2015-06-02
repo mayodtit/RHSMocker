@@ -22,6 +22,23 @@ describe Service do
     end
   end
 
+  describe '#set_defaults' do
+    let(:service_template) { create(:service_template) }
+    let(:pha) { create(:pha) }
+    let(:member) { create(:member, :premium, pha: pha) }
+
+    it 'creates a Service from ServiceTemplate when present' do
+      service = described_class.create(service_template: service_template, member: member, creator: pha)
+      expect(service).to be_valid
+      expect(service.title).to eq(service_template.title)
+      expect(service.description).to eq(service_template.description)
+      expect(service.service_type).to eq(service_template.service_type)
+      expect(service.due_at.to_i).to eq(service_template.calculated_due_at.to_i)
+      expect(service.service_update).to eq(service_template.service_update)
+      expect(service.user_facing).to eq(service_template.user_facing)
+    end
+  end
+
   describe '#set_assigned_at' do
     let(:service) { build :service }
 
