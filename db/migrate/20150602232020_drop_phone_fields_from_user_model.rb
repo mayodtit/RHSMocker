@@ -1,4 +1,4 @@
-class DropPhoneFieldsFromUser < ActiveRecord::Migration
+class DropPhoneFieldsFromUserModel < ActiveRecord::Migration
   def up
     remove_column :users, :phone
     remove_column :users, :work_phone_number
