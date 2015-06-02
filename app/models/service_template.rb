@@ -44,6 +44,7 @@ class ServiceTemplate < ActiveRecord::Base
 
   def set_version
     self.version = self.class.where(unique_id: unique_id).maximum(:version).try(:+, 1) || 0
+    self.save!
   end
 
   state_machine :initial => :unpublished do
