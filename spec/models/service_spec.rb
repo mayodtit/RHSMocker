@@ -178,6 +178,7 @@ describe Service do
   describe '#create_tasks' do
     before do
       Timecop.freeze
+      described_class.any_instance.stub(:complete!)
     end
 
     after do
@@ -207,7 +208,7 @@ describe Service do
         it 'should create tasks with that ordinal starting now' do
           Task.should_receive(:create!).with(hash_including(service_ordinal: 0))
           Task.should_not_receive(:create!).with(hash_including(service_ordinal: 1, due_at: (Time.now + task_template.time_estimate)))
-          service.create_next_ordinal_tasks( -1 , 1.day.from_now)
+          service.create_next_ordinal_tasks(-1 , 1.day.from_now)
         end
       end
     end
