@@ -42,6 +42,7 @@ class Task < ActiveRecord::Base
 
   before_validation :set_role, on: :create
   before_validation :set_priority, on: :create
+  before_validation :set_ordinal, on: :create
   before_validation :set_assigned_at
   before_validation :reset_day_priority
   before_validation :mark_as_unread
@@ -90,6 +91,12 @@ class Task < ActiveRecord::Base
       self.priority = URGENT_PRIORITY
     else
       self.priority = PRIORITY if priority.nil?
+    end
+  end
+
+  def set_ordinal
+    if service_id && task_template_id.nil? && service_ordinal.nil?
+      self.service_ordinal = service.tasks.empty? ? 0 : service.tasks.maximum("service_ordinal")
     end
   end
 

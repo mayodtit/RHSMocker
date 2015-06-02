@@ -293,6 +293,29 @@ describe Task do
     end
   end
 
+  describe '#set_ordinal' do
+    context 'the service has existing tasks' do
+      let!(:service) { create :service}
+      let!(:service_task) {create :task, service: service, service_ordinal: 1}
+      let(:task) { build :task, service: service }
+
+      it 'sets it to zero' do
+        task.set_ordinal
+        task.service_ordinal.should == 1
+      end
+    end
+
+    context 'the service has no tasks' do
+      let!(:empty_service) { create :service}
+      let(:task) { build :task, service: empty_service }
+
+      it 'sets it to zero' do
+        task.set_ordinal
+        task.service_ordinal.should == 0
+      end
+    end
+  end
+
   describe '#reset_day_priority' do
     let(:task) { build :task, day_priority: 11 }
 
