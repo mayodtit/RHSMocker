@@ -13,12 +13,89 @@ describe Service do
     it_validates 'presence of', :assignor
     it_validates 'foreign key of', :service_template
 
-    its 'validates presence of assigned_at' do
+    it 'validates presence of assigned_at' do
       service = build_stubbed :service
       service.stub(:owner_id_changed?) { false }
       service.assigned_at = nil
       service.should_not be_valid
       service.errors[:assigned_at].should include("can't be blank")
+    end
+
+    describe '#no_brackes_in_user_facing_attributes' do
+      let(:service) { build(:service) }
+
+      it 'prevents brackets the title' do
+        service.title = "This has a [placeholder]"
+        expect(service).to_not be_valid
+        expect(service.errors[:title]).to include("shouldn't contain placeholder text")
+      end
+
+      it 'prevents brackets in the service_request' do
+        service.service_request = "This has a [placeholder]"
+        expect(service).to_not be_valid
+        expect(service.errors[:service_request]).to include("shouldn't contain placeholder text")
+      end
+
+      it 'prevents brackets in the service_deliverable' do
+        service.service_deliverable = "This has a [placeholder]"
+        expect(service).to_not be_valid
+        expect(service.errors[:service_deliverable]).to include("shouldn't contain placeholder text")
+      end
+
+      it 'does not validate persisted records' do
+        service.save!
+        service.title = "This has a [placeholder]"
+        service.service_request = "This has a [placeholder]"
+        service.service_deliverable = "This has a [placeholder]"
+        expect(service).to be_valid
+      end
+    end
+
+    describe 'BRACKETS_REGEX' do
+      it 'matches placeholder text' do
+        expect("This has a [placeholder]".match(Service::BRACKETS_REGEX)).to_not be_nil
+      end
+
+      it 'matches an open bracket' do
+        expect("This has a [placeholder".match(Service::BRACKETS_REGEX)).to_not be_nil
+      end
+
+      it 'matches a closed bracket' do
+        expect("This has a placeholder]".match(Service::BRACKETS_REGEX)).to_not be_nil
+      end
+
+      it 'allows links' do
+        expect("This has a [link](www.google.com)".match(Service::BRACKETS_REGEX)).to be_nil
+      end
+
+      it 'matches placeholder text with links' do
+        expect("This has a [link](www.google.com) and a [placeholder]".match(Service::BRACKETS_REGEX)).to_not be_nil
+      end
+
+      it 'matches an open bracket with links' do
+        expect("This has a [link](www.google.com) and a [placeholder".match(Service::BRACKETS_REGEX)).to_not be_nil
+      end
+
+      it 'matches a closed bracket with links' do
+        expect("This has a [link](www.google.com) and a placeholder]".match(Service::BRACKETS_REGEX)).to_not be_nil
+      end
+    end
+  end
+
+  describe '#set_defaults' do
+    let(:service_template) { create(:service_template) }
+    let(:pha) { create(:pha) }
+    let(:member) { create(:member, :premium, pha: pha) }
+
+    it 'creates a Service from ServiceTemplate when present' do
+      service = described_class.create(service_template: service_template, member: member, creator: pha)
+      expect(service).to be_valid
+      expect(service.title).to eq(service_template.title)
+      expect(service.description).to eq(service_template.description)
+      expect(service.service_type).to eq(service_template.service_type)
+      expect(service.due_at.to_i).to eq(service_template.calculated_due_at.to_i)
+      expect(service.service_update).to eq(service_template.service_update)
+      expect(service.user_facing).to eq(service_template.user_facing)
     end
   end
 
@@ -117,7 +194,7 @@ describe Service do
         it 'should create tasks with that ordinal starting at the due date' do
           Task.should_receive(:create!).with(hash_including(service_ordinal: 0))
           Task.should_not_receive(:create!).with(hash_including(service_ordinal: 1, due_at: (1.day.from_now + task_template.time_estimate)))
-          service.create_next_ordinal_tasks(-1, 1.day.from_now)
+          service.reload.create_next_ordinal_tasks(-1, 1.day.from_now)
         end
       end
 
@@ -130,7 +207,7 @@ describe Service do
         it 'should create tasks with that ordinal starting now' do
           Task.should_receive(:create!).with(hash_including(service_ordinal: 0))
           Task.should_not_receive(:create!).with(hash_including(service_ordinal: 1, due_at: (Time.now + task_template.time_estimate)))
-          service.create_next_ordinal_tasks( -1 , 1.day.from_now)
+          service.reload.create_next_ordinal_tasks(-1 , 1.day.from_now)
         end
       end
     end

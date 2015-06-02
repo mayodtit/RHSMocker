@@ -19,11 +19,11 @@ class Api::V1::ServicesController < Api::V1::ABaseController
 
   def create
     authorize! :create, Service
-    if @service_template
-      @service = @service_template.create_service! create_params
+    @service = Service.create(create_attributes)
+    if @service.errors.empty?
       render_success(service: @service.serializer, entry: @service.entry.serializer)
     else
-      create_resource Service, create_params
+      render_failure({reason: @service.errors.full_messages.to_sentence}, 422)
     end
   end
 
@@ -103,16 +103,13 @@ class Api::V1::ServicesController < Api::V1::ABaseController
     @users = @users.uniq
   end
 
-  def create_params
-      if @service_template.nil?
-        create_params = permitted_params.service_attributes
-        create_params[:assignor_id] = current_user.id if create_params[:owner_id].present?
-      else
-        create_params = permitted_params.service_template_attributes
-      end
-      create_params[:creator] = current_user
-      create_params[:member] = @member
-      create_params[:actor_id] = current_user.id
-      create_params
+  def create_attributes
+    permitted_params.service_attributes.tap do |attributes|
+      attributes[:service_template] = @service_template
+      attributes[:assignor] = current_user if attributes[:owner_id]
+      attributes[:creator] = current_user
+      attributes[:member] = @member
+      attributes[:actor_id] = current_user.id
+    end
   end
 end
