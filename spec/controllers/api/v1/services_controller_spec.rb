@@ -22,17 +22,16 @@ describe Api::V1::ServicesController do
   end
 
   describe 'POST create' do
-    let(:service_template) {build_stubbed :service_template}
-    let(:service) {build_stubbed :service, assigned_at: Time.now}
-    let(:entry) {build_stubbed :entry}
-
-    def do_request
-      post :create, service_template_id: service_template.id, auth_token: session.auth_token
+    def do_request(params={})
+      post :create, params.merge!(auth_token: session.auth_token)
     end
 
-    before(:each) do
-      ServiceTemplate.stub(:find) {service_template}
-      service_template.stub(:create_service!) { service }
+    let(:service_template) { build_stubbed(:service_template) }
+    let(:service) { build_stubbed :service, assigned_at: Time.now }
+    let(:entry) { build_stubbed :entry }
+
+    before do
+      Service.stub(:create) { service }
       service.stub(:entry) { entry }
     end
 
@@ -40,14 +39,15 @@ describe Api::V1::ServicesController do
 
     context 'authenticated and authorized', :user => :authenticate_and_authorize! do
       it 'attempts to create the record' do
-        service_template.should_receive(:create_service!).once
-        do_request
+        Service.should_receive(:create).once.and_return(service)
+        do_request(service: {service_template_id: service_template.id})
       end
 
       it 'returns the service' do
-        do_request
-        json = JSON.parse(response.body)
-        json['service'].to_json.should == service.serializer.as_json.to_json
+        do_request(service: {service_template_id: service_template.id})
+        expect(response).to be_success
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:service].to_json).to eq(service.serializer.as_json.to_json)
       end
     end
   end
