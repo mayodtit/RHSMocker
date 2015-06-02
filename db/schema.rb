@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150601232510) do
+ActiveRecord::Schema.define(:version => 20150602002628) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -536,11 +536,10 @@ ActiveRecord::Schema.define(:version => 20150601232510) do
   create_table "message_templates", :force => true do |t|
     t.string   "name"
     t.text     "text"
-    t.datetime "created_at",          :null => false
-    t.datetime "updated_at",          :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
     t.string   "subject"
     t.integer  "content_id"
-    t.integer  "onboarding_group_id"
   end
 
   add_index "message_templates", ["content_id"], :name => "index_message_templates_on_content_id"
@@ -674,6 +673,7 @@ ActiveRecord::Schema.define(:version => 20150601232510) do
     t.boolean  "skip_automated_communications", :default => false, :null => false
     t.boolean  "skip_emails",                   :default => false, :null => false
     t.string   "welcome_email_template"
+    t.integer  "welcome_message_template_id"
   end
 
   add_index "onboarding_groups", ["pha_id"], :name => "index_onboarding_groups_on_pha_id"
