@@ -1,6 +1,6 @@
 class ServiceTemplate < ActiveRecord::Base
   belongs_to :service_type
-  has_many :task_templates
+  has_many :task_templates, dependent: :destroy
   has_many :suggested_service_templates
 
   attr_accessible :name, :title, :description, :service_type_id, :service_type, :time_estimate, :timed_service,
@@ -9,8 +9,10 @@ class ServiceTemplate < ActiveRecord::Base
   validates :name, :title, :service_type, presence: true
   validates :user_facing, :inclusion => { :in => [true, false] }
   validates :unique_id, uniqueness: true
-  validates :version, presence: true, uniqueness: true, if: ->(st){st.unique_id}
-  validates :state, presence: true, uniqueness: true, if: ->(st){st.unique_id && st.version}
+  validates :version, presence: true
+  validates :version, uniqueness: { scope: :unique_id }
+  validates :state, presence: true
+  validates :state, uniqueness: { scope: :unique_id }, unless: :retired?
 
   before_validation :set_unique_id, on: :create
   before_validation :set_version, on: :create
@@ -36,6 +38,8 @@ class ServiceTemplate < ActiveRecord::Base
     service
   end
 
+  private
+
   def set_unique_id
     self.unique_id ||= loop do
       new_unique_id = Base64.urlsafe_encode64(SecureRandom.base64(36))
@@ -45,7 +49,6 @@ class ServiceTemplate < ActiveRecord::Base
 
   def set_version
     self.version = self.class.where(unique_id: unique_id).maximum(:version).try(:+, 1) || 0
-    self.save!
   end
 
   state_machine :initial => :unpublished do
@@ -57,5 +60,12 @@ class ServiceTemplate < ActiveRecord::Base
     event :retire do
       transition :published => :retired
     end
+
+    before_transition :unpublished => :published do |service_template|
+      service_template.class.where(state: 'published', unique_id: service_template.unique_id).each do |st|
+        st.retire!
+      end
+    end
+
   end
 end
