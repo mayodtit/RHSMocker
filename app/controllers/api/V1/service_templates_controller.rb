@@ -2,6 +2,7 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_service_templates!
   before_filter :load_service_template!, only: :show
+  before_filter :prevent_update_service_template, only: :update
 
   def index
     authorize! :read, ServiceTemplate
@@ -21,9 +22,7 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   def update
     authorize! :update, @service_template
 
-    update_params = service_template_attributes
-
-    if @service_template.update_attributes(update_params)
+    if @service_template.update_attributes(service_template_attributes)
       render_success(service_template: @service_template.serializer)
     else
       render_failure({reason: @service_template.errors.full_messages.to_sentence}, 422)
@@ -31,6 +30,12 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   end
 
   private
+
+  def prevent_update_service_template
+    if @service_template.published? || @service_template.retired?
+      render_failure({reason: 'ServiceTemplate is published or retired. You cannot update it.'}, 422)
+    end
+  end
 
   def load_service_template!
     @service_template = ServiceTemplate.find params[:id]
