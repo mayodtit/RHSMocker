@@ -1,6 +1,6 @@
 class Mails::CustomWelcomeEmailJob < Struct.new(:user_id, :template)
-  def self.create(user_id)
-    Delayed::Job.enqueue(new(user_id))
+  def self.create(user_id, template)
+    Delayed::Job.enqueue(new(user_id, template))
   end
 
   def perform
