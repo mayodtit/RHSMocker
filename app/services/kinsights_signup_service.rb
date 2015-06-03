@@ -8,6 +8,8 @@ class KinsightsSignupService < Struct.new(:user, :token)
       body = JSON.parse(response.body, symbolize_names: true)
       user.update_attributes!(kinsights_patient_url: body[:patient_url],
                               kinsights_profile_url: body[:profile_url])
+      NewKinsightsMemberTask.create(member: user.owner,
+                                    subject: user)
     end
   end
 
