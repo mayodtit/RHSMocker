@@ -50,19 +50,16 @@ FactoryGirl.define do
       factory :admin, traits: %i(admin_role)
 
       trait :nurse_role do
-        work_phone_number '4083913578'
         after(:create) {|user| user.add_role(:nurse)}
       end
       factory :nurse, traits: %i(nurse_role)
 
       trait :pha_role do
-        work_phone_number '5552223333'
         after(:create) {|user| user.add_role(:pha)}
       end
       factory :pha, traits: %i(pha_role)
 
       trait :pha_lead_role do
-        work_phone_number '4153333333'
         after(:create) {|user| user.add_role(:pha_lead)}
       end
       factory :pha_lead, traits: %i(pha_lead_role)

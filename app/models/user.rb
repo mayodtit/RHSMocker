@@ -77,7 +77,6 @@ class User < ActiveRecord::Base
 
   before_validation :set_owner, on: :create
   before_validation :unset_member_flag
-  before_validation :prep_phone_numbers
   before_validation :set_defaults
   before_validation :strip_attributes
   before_create :create_google_analytics_uuid
@@ -106,14 +105,17 @@ class User < ActiveRecord::Base
   }
 
   def phone_setter(new_phone, phone_type)
+    new_prepped_phone = PhoneNumber.prep_phone_number_for_db(new_phone)
+
     return unless [:phone, :work_phone_number, :text_phone_number].include?(phone_type)
     phone_type_name = "#{phone_type}_obj".to_sym
     if p = self.send(phone_type_name)
-      if p.number != new_phone
-        p.update_attributes(number: new_phone)
+      p.number = new_prepped_phone
+      if p.number != new_prepped_phone
+        p.update_attributes(number: new_prepped_phone)
       end
     else
-      new_phone_attrs = PREDEFINED_PHONE_NUMBER_ATTRS[phone_type].merge({number: new_phone})
+      new_phone_attrs = PREDEFINED_PHONE_NUMBER_ATTRS[phone_type].merge({number: new_prepped_phone})
       phone_numbers.create(new_phone_attrs)
     end
   end
@@ -402,12 +404,6 @@ class User < ActiveRecord::Base
     if instance_of?(User)
       self.member_flag = nil
     end
-  end
-
-  def prep_phone_numbers
-    self.phone = PhoneNumber.prep_phone_number_for_db self.phone
-    self.work_phone_number = PhoneNumber.prep_phone_number_for_db self.work_phone_number
-    self.text_phone_number = PhoneNumber.prep_phone_number_for_db self.text_phone_number
   end
 
   def set_defaults
