@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150527174930) do
+ActiveRecord::Schema.define(:version => 20150602002628) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -672,6 +672,8 @@ ActiveRecord::Schema.define(:version => 20150527174930) do
     t.boolean  "skip_credit_card",              :default => false, :null => false
     t.boolean  "skip_automated_communications", :default => false, :null => false
     t.boolean  "skip_emails",                   :default => false, :null => false
+    t.string   "welcome_email_template"
+    t.integer  "welcome_message_template_id"
   end
 
   add_index "onboarding_groups", ["pha_id"], :name => "index_onboarding_groups_on_pha_id"

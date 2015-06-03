@@ -45,7 +45,10 @@ class Consult < ActiveRecord::Base
     return if initiator.onboarding_group.try(:skip_automated_communications?)
     nux_answer_name = initiator.nux_answer.try(:name) || 'something else'
 
-    if initiator.free?
+    if initiator.onboarding_group.try(:welcome_message_template)
+      mt = initiator.onboarding_group.welcome_message_template
+      mt.create_message initiator.pha, self, true, false, true if mt
+    elsif initiator.free?
       MessageTemplate.find_by_name('Free Onboarding').try(:create_message, initiator.pha, self, true, true, true)
     elsif Role.pha.on_call?
       mt = MessageTemplate.find_by_name "New Premium Member Part 1: #{nux_answer_name}"
