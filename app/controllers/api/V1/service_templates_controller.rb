@@ -41,7 +41,7 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   end
 
   def service_template_attributes
-    params.require(:service_template).permit(:name, :title, :description, :service_type_id, :time_estimate)
+    params.require(:service_template).permit(:name, :title, :description, :service_type_id, :time_estimate, :state)
   end
 
 end
