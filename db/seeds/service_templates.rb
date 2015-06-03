@@ -6,9 +6,11 @@ ServiceTemplate.upsert_attributes({name: "mayo pilot 2"},
                                   timed_service: true})
 
 PROVIDER_SEARCH_DESCRIPTION = <<-eof
-**Service assigned to PHA**
+**This service is assigned to PHA**
 
 #Member Request
+* **Member:**
+* **Date of birth:**
 * **Type of Doctor:**
 * **Location (zip):**
 * **Preferences (if any):**
@@ -17,12 +19,23 @@ PROVIDER_SEARCH_DESCRIPTION = <<-eof
 * **Insurance website:**
 * **Employer/Exchanges:**
 
-#Specialist notes
+#Specialist Notes
+
+eof
+
+PROVIDER_SEARCH_UPDATE = <<-eof
+#User-Facing Service Deliverable Draft:
+
+#Member update:
+
+#PHA next steps:
+
+#Specialist next steps:
 
 eof
 
 PROVIDER_SEARCH_REQUEST = <<-eof
-Find [provider type] near [zip code] who takes [insurance]
+Find [provider type] near [zip code] who takes [insurance], [other preferences]
 eof
 
 ServiceTemplate.upsert_attributes({name: "provider search"},
@@ -31,10 +44,11 @@ ServiceTemplate.upsert_attributes({name: "provider search"},
                                   service_type: ServiceType.find_by_name('provider search'),
                                   time_estimate: 4500,
                                   service_request: PROVIDER_SEARCH_REQUEST,
+                                  service_update: PROVIDER_SEARCH_UPDATE,
                                   user_facing: true})
 
 APPOINTMENT_BOOKING_DESCRIPTION = <<-eof
-**This Service Is Assigned to PHA**
+**This service is assigned to PHA**
 
 #Member Request
 * **Member:**
@@ -44,37 +58,43 @@ APPOINTMENT_BOOKING_DESCRIPTION = <<-eof
 * **Address:**
 * **Phone:**
 * **Reason for visit:**
-* **New Patient:** yes/no
+* **New Patient:** Yes/No
 * **Specific dates/times that work better:**
 
-#Specialist notes
+#Specialist Notes
 
-Who you spoke with:
 Date of call:
+Who you spoke with:
 Available times/Booked time:
-Insurance still up-to-date:
+Insurance still up-to-date: Yes/No
 What to bring:
 Special instructions to prepare:
 eof
 
 APPOINTMENT_BOOKING_UPDATE = <<-eof
-We’ve found you an appointment with Dr. [First Last]. Here are the details:
+#User-Facing Service Deliverable Draft:
 
-**Day, Date at Time**
-Dr. First Last
+Appointment details:
+**[Day, Date at Time]**
+Dr. [First Last]
 Address:
 Phone:
--Other details (what to bring, when to arrive)
+Other details: [what to bring, when to arrive]
 
-Let me know if this works for you and I’ll add it to your calendar!
+#Member update:
+
+#PHA next steps:
+
+#Specialist next steps:
+
 eof
 
 APPOINTMENT_BOOKING_REQUEST = <<-eof
-Book an appointment [for family member] with Dr. [doctor name] for [reason] on [day/time]
+Book appointment with Dr. [First Last] for [reason] on [day/time]
 eof
 
 ServiceTemplate.upsert_attributes({name: "appointment booking"},
-                                  {title: "Book appointment with Dr. [doctor name]",
+                                  {title: "Book appointment with Dr. [First Last]",
                                   description: APPOINTMENT_BOOKING_DESCRIPTION,
                                   service_type: ServiceType.find_by_name('appointment booking'),
                                   time_estimate: 150,
@@ -83,40 +103,41 @@ ServiceTemplate.upsert_attributes({name: "appointment booking"},
                                   service_request: APPOINTMENT_BOOKING_REQUEST})
 
 CARE_COORDINATION_CALL_DESCRIPTION = <<-eof
-**This Service Is Assigned to PHA**
+**This service is assigned to PHA**
 
 #Member Request
+* **Member:**
+* **Date of birth:**
 * **Who to call:**
 * **Phone number:**
-* **For member:**
 * **Reason for call:**
 * **Questions to ask:**
 * **Possible next steps:**
 
-#Specialist notes
+#Specialist Notes
+Date of call:
 Who you spoke with:
-Date/time of call:
 Notes from call:
+
 eof
 
 CARE_COORDINATION_CALL_UPDATE = <<-eof
-**Member update:**
-1.
+#User-Facing Service Deliverable Draft:
 
-**PHA Next steps:**
-1. Update member
-2. (if needed)
+#Member update:
 
-**Specialist next steps:**
-1. (if needed)
+#PHA next steps:
+
+#Specialist next steps:
+
 eof
 
 CARE_COORDINATION_CALL_REQUEST = <<-eof
-Call [doctor/iinsurance/other] for [reason]
+Call [doctor/insurance/other] for [long reason]
 eof
 
 ServiceTemplate.upsert_attributes({name: "care coordination call"},
-                                  {title: "Call [doctor/insurance] for [short reason]",
+                                  {title: "Call [doctor/insurance/other] for [short reason]",
                                   description: CARE_COORDINATION_CALL_DESCRIPTION,
                                   service_update: CARE_COORDINATION_CALL_UPDATE,
                                   user_facing: true,

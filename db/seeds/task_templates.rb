@@ -178,57 +178,84 @@ TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 25"},
 # Provider Search
 
 PROVIDER_SEARCH_FIND_OPTIONS_TEMPLATE = <<-eof
+**This task is assigned to Specialist**
+
 1. Go to insurance website and search by:
   * Specialty
   * Distance (5 miles, expand if no options, shorten if >50 options)
   * Preferences
-2. Sort search results by distance and export to pdf
-3. Go down the list and call providers and ask:
-  * Accepts new patients?
-  * Accepts insurance plan?
-  * Next available appointment? (ex: “late march” not specific date/time)
-  * Meets other preferences? (ex. holistic, treats rare disease, LGBTQ friendly, etc)
-  * Confirm address?
-4. Stop when you have 3 options
-5. Open the [“Format Doctor Recommendations” Tool](http://remotehealthservices.github.io/doctor_recommendation_formatter/) and add information for chosen options
-6. Search for provider’s profile link (from hospital/clinic) add to tool
-7. Google the provider name and location (Dr. First Last, State)
-8. Add review links to tool
-9. Save templated options to the Service Description
-10. Complete Task
-11. Save pdf of initial insurance options as “ZipCode_DoctorType.pdf” to [Provider Search Documents Folder](http://goo.gl/V9snYH)
-12. Complete task
+2. Sort search results by distance and export to PDF
+3. Open the [“Format Doctor Recommendations” Tool](http://remotehealthservices.github.io/doctor_recommendation_formatter/)
+4. Follow the instructions in the tool to call and gather information about potential providers
+5. Copy and paste formatted provider options into Service Deliverable Draft
+6. Complete Task
+7. Save PDF of initial insurance options as “ZipCode_DoctorType.pdf” to [Provider Search Documents Folder](http://goo.gl/V9snYH)
+8. Complete Task
 eof
 
 PROVIDER_SEARCH_SEND_OPTIONS_DESCRIPTION = <<-eof
-1. Send options to member (see Service Update for PHA)
-2. Complete task
+**This task is assigned to PHA**
+
+1. Copy, paste, and edit into User-Facing Service Request:
+
+        [mm/dd]: We found you a few [provider type]s who are close to your [location], accepting new patients, and take your insurance. Please take a look at the options below.
+
+2. Copy and paste provider options from Service Deliverable Draft into User-Facing Service Deliverable
+3. Send this message to member:
+        We found you a few [provider type]s who are close to your [location], accepting new patients, and take your insurance.
+
+        [Copy and paste provider options from Service Deliverable Draft here]
+
+        Let us know if you want us to book you an appointment or discuss these options.
+
+4. Complete Task
 eof
 
 PROVIDER_SEARCH_FOLLOW_UP_DESCRIPTION = <<-eof
-1. Send check in message to member
+1. Send message to member:
 
-          Just checking in to see what you thought of the providers I sent over. Would you like me to book an appointment with one of them?
+        Just checking in to see what you thought of the [provider type]s I sent over. Let us know if you want to book an appointment with one of them, or if you would like to discuss the options!
 
-2. Complete task
+2. Complete Task
 eof
 
 PROVIDER_SEARCH_ADD_DOCTOR_DESCRIPTION = <<-eof
-1. Go to providers tab in member’s profile
-2. Add doctor to profile if they are not already there
-3. Complete task
+**This task is assigned to PHA**
+
+**If user selects a provider:**
+  1. Go to Providers tab in member’s profile and Add Provider
+  2. Send message to member:
+
+          I’m glad you were able to choose a [provider type] from the options we sent. We’ve also added [Dr. First Last] to your Care Team [here](better://nb?cmd=showCareTeam). Do you want us to help you book an appointment with [him/her]?
+
+  3. Copy, paste, and edit into User-Facing Service Request:
+
+          **[mm/dd]: You selected Dr. [First Last] as your dentist.**
+
+  4. Complete Task
+
+**If user doesn’t select one of the providers:**
+  1. Send message to member:
+
+          Let us know if there is anything we can do to expand our search, or help you find better [provider type] options. We’re also here to answer any other questions you have!
+
+  2. Copy, paste, and edit into User-Facing Service Request:
+
+          **[mm/dd]: You didn’t select any of the [provider type]s from the options. [Include details about next steps].**
+
+  3. Complete Task
 eof
 
 TaskTemplate.upsert_attributes({name: "provider search - find options"},
                                {service_template: ServiceTemplate.find_by_name('provider search'),
-                                title: "Find initial provider options",
+                                title: "Search - initial provider options",
                                 description: PROVIDER_SEARCH_FIND_OPTIONS_TEMPLATE,
                                 time_estimate: 240,
                                 service_ordinal: 0})
 
 TaskTemplate.upsert_attributes({name: "provider search -  send options"},
                                {service_template: ServiceTemplate.find_by_name('provider search'),
-                                title: "SEND - provider options",
+                                title: "Send member - provider options",
                                 description: PROVIDER_SEARCH_SEND_OPTIONS_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 1})
@@ -250,87 +277,122 @@ TaskTemplate.upsert_attributes({name: "provider search - add doctor"},
 # Appointment Booking
 
 APPOINTMENT_BOOKING_CALL_PROVIDER_TEMPLATE = <<-eof
-1. Call provider office
-2. Book appointment that fits member’s preferences
-3. **If there is a cancellation fee and the appointment is within 48 hours of calling, don’t book unless urgent appointment**
-4. If there is no appointment during member’s preferences:
-  * Reassign task to PHA and add to title: “UPDATE -” and include in service description:
-    -Explanation (no appts available during preferred time)
-    -Available appointment information
-    -PHA Next Steps:
-      1) Update member and request new preferences
-      2) Send task back to HSA with update
-  * Call back to book when PHA gets new information from member
-  * Book next available appointment only if limited options
-5. Once booked, confirm:
+**This task is assigned to Specialist**
+
+1. Call provider's office and add notes to Internal Service Notes - Specialist Notes
+2. Book appointment that fits member’s preferences (**If there is a cancellation fee, and the appointment is within 48 hours of calling, don’t book unless urgent appointment**)
+3. **If there is no appointment during member’s preferences, ask about earliest availability after that:**
+  * Reassign task to PHA and add to title: “UPDATE -”. Add the following to Internal Service Updates:
+      * Member update:
+          - Explanation (no appts available during preferred time)
+          - Available appointment information
+      * PHA next steps:
+          1. Copy, paste, and edit into User-Facing Service Request:
+
+              [mm/dd]: There weren’t any appointments that matched your availability. We’ll book an appointment on another date that works for [you/member name].
+
+          2. Send message to member with member update from Internal Service Updates - Member update and request new availability
+          3. Send task back to Specialist with new availability in Internal Service Updates - Specialist next steps
+  * Call provider again to book after PHA gets member’s new availability in Internal Service Updates - Specialist next steps
+5. Once booked, confirm details with office:
   * Time and date of appointment
   * Location
-  * Insurance
+  * Insurance on file
   * Visit length
   * Cancellation policy
-6. Request new patient paperwork for member to complete before visit to be faxed to 866-284-8260
-7. Update message in service notes with appointment information
-8. Complete task
+  * If new patient, request new patient paperwork for member to complete before visit to be faxed to 866-284-8260
+7. Add appointment information into Service Deliverable Draft
+8. Complete Task
 eof
 
 APPOINTMENT_BOOKING_SEND_CONFIRMATION_DESCRIPTION = <<-eof
-1. Send appointment to member (see Service Update for PHA)
-2. Send member a calendar invite (see Service Update for PHA)
-3. Go to providers tab in member’s profile
-4. Add doctor to profile if they are not already there
-5. Complete task
-eof
+**This task is assigned to PHA**
 
-APPOINTMENT_BOOKING_SEND_CALENDAR_DESCRIPTION = <<-eof
-1. Send member a calendar invite (see Service Update for PHA)
-2. Complete task
-eof
+1. See Service Deliverable Draft
+2. Copy and paste appointment details from Service Deliverable Draft into User-Facing Service Deliverable
+3. Copy, paste, and edit into User-Facing Service Request:
 
-APPOINTMENT_BOOKING_ADD_DOCTOR_DESCRIPTION = <<-eof
-1. Go to providers tab in member’s profile
-2. Add doctor to profile if they are not already there
-3. Complete task
+        **[mm/dd]: We booked [you/member name] an appointment with Dr. [First Last]. The details are below for you to view.**
+
+4. Send this message to member:
+
+        We booked [you/member name] an appointment with Dr. [First Last]. Here are the details of your appointment:
+
+        [Copy and paste appointment details from Service Deliverable Draft]
+
+        We’ve also sent you a calendar reminder via email. Let us know if we need to make any changes!
+
+5. Create an event in Google Calendar - Member Appointment Calendar in the following format:
+
+  Event Title: Appointment with Dr. [First Last]
+  Event Location: Address, city
+  Calendar: Member Appointment
+  Event Description:
+  [Copy and paste appointment details from Service Deliverable Draft]
+  Add: Member’s email address
+
+  * **Time zone:** Confirm that member’s time zone matches event time zone
+  * Save and send invitation to guest
+
+
+6. Go to Providers tab in member’s profile and Add Provider if not listed
+7. If you added Provider, send message to member:
+
+        We’ve also added [Dr. First Last] to your Care Team [here](better://nb?cmd=showCareTeam).
+
+8. Complete Task
 eof
 
 APPOINTMENT_BOOKING_REMINDER_TEMPLATE = <<-eof
+**This task is assigned to PHA**
+
 1. Change due date of this task to day before appointment
-2. On due date, send member reminder message with appointment details (see Service Update for PHA)
-3. Complete task
+2. On due date, send message to member:
+
+        Remember, [your/member name’s] appointment with Dr. [First Last] is [tomorrow]. Here are the details of the appointment:
+
+        [Copy and paste appointment details from Service Deliverable Draft]
+
+        Can we help [you/member name] prepare for the visit?
+
+3. Complete Task
 eof
 
 APPOINTMENT_BOOKING_FOLLOW_UP_TEMPLATE = <<-eof
+**This task is assigned to PHA**
+
 1. Change due date of this task to same day of appointment
-2. On due date, send member reminder message:
+2. On due date, send member follow-up message:
 
-        How did your appointment go? Let me know if I can help with any follow up
+        How did your appointment with Dr. [First Last] go? Let us know if we can help with any follow up.
 
-3. Complete task
+3. Complete Task
 eof
 
 TaskTemplate.upsert_attributes({name: "appointment booking - call provider"},
                                {service_template: ServiceTemplate.find_by_name('appointment booking'),
-                                title: "Call provider to book appointment",
+                                title: "Call - book appointment with provider",
                                 description: APPOINTMENT_BOOKING_CALL_PROVIDER_TEMPLATE,
                                 time_estimate: 60,
                                 service_ordinal: 0})
 
 TaskTemplate.upsert_attributes({name: "appointment booking -  send confirmation"},
                                {service_template: ServiceTemplate.find_by_name('appointment booking'),
-                                title: "SEND - appointment confirmation",
+                                title: "Send member update - appointment booked",
                                 description: APPOINTMENT_BOOKING_SEND_CONFIRMATION_DESCRIPTION,
                                 time_estimate: 30,
                                 service_ordinal: 1})
 
 TaskTemplate.upsert_attributes({name: "appointment booking - reminder"},
                                {service_template: ServiceTemplate.find_by_name('appointment booking'),
-                                title: "SEND - Appointment reminder",
+                                title: "Send member - appointment reminder",
                                 description: APPOINTMENT_BOOKING_REMINDER_TEMPLATE,
                                 time_estimate: 60,
                                 service_ordinal: 2})
 
 TaskTemplate.upsert_attributes({name: "appointment booking - appointment follow-up"},
                                {service_template: ServiceTemplate.find_by_name('appointment booking'),
-                                title: "SEND - Appointment follow-up",
+                                title: "Follow up - appointment",
                                 description: APPOINTMENT_BOOKING_FOLLOW_UP_TEMPLATE,
                                 time_estimate: 60,
                                 service_ordinal: 3,
@@ -339,28 +401,46 @@ TaskTemplate.upsert_attributes({name: "appointment booking - appointment follow-
 #Care Coordination Call
 
 MAKE_CARE_COORDINATION_CALL_DESCRIPTION = <<-eof
+**This task is assigned to Specialist**
+
 1. Make phone call
-2. Record who you spoke with and complete notes from call
-3. Update “Service Update for PHA”
-4. Complete task
+2. Record call details and notes in Internal Service Notes - Specialist Notes
+3. Update Internal Service Updates - Member update
+4. Create follow-up tasks if necessary
+5. Complete Task
 eof
 
 CARE_COORDINATION_CALL_SEND_MEMBER_UPDATES_DESCRIPTION = <<-eof
-1. Review “Service Update for PHA”
-2. Update member
-3. Complete PHA next steps (see service description)
+**This task is assigned to PHA**
+
+1. See Internal Service Updates - Member update
+2. Compose message to member from Specialist’s notes in Service Deliverable Draft section
+3. Copy and paste call notes from Service Deliverable Draft into User-Facing Service Deliverable
+4. Copy, paste, and edit into User-Facing Service Request:
+
+        **[mm/dd of call]: We spoke with [doctor/insurance/other] about your questions. The notes are below for you to view.**
+
+5. Send message to member:
+
+        We spoke with [doctor/insurance/other] about your questions and we’ve organized the notes for you to review.
+
+        [Copy and paste call notes from Service Deliverable Draft here]
+
+        Let us know if you have any questions!
+
+6. Complete Task
 eof
 
 TaskTemplate.upsert_attributes({name: "care coordination call - make call"},
                                {service_template: ServiceTemplate.find_by_name('care coordination call'),
-                                title: "Make Care Coordination Call",
+                                title: "Call - care coordination",
                                 description: MAKE_CARE_COORDINATION_CALL_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 0})
 
 TaskTemplate.upsert_attributes({name: "care coordination call - send update"},
                                {service_template: ServiceTemplate.find_by_name('care coordination call'),
-                                title: "Send member update",
+                                title: "Send member update - call notes",
                                 description: CARE_COORDINATION_CALL_SEND_MEMBER_UPDATES_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 1})
