@@ -20,7 +20,7 @@ class ServiceSerializer < ActiveModel::Serializer
 
   private
 
-  alias_method :user_id, :subject_id
+  alias_method :user_id, :member_id
 
   def owner_full_name
     owner.try(:full_name)
