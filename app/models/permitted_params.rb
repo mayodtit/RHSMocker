@@ -103,7 +103,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def service_template
-    params.require(:service_template).permit(:name, :title, :description, :service_type_id, :time_estimate, :state)
+    params.require(:service_template).permit(:name, :title, :description, :service_type_id, :time_estimate, :state_event)
   end
 
   def modal_template
