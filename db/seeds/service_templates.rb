@@ -374,7 +374,7 @@ ServiceTemplate.upsert_attributes({name: "appointment preparation - cf"},
 )
 
 BMI_MANAGEMENT_3_MONTHS_DESCRIPTION = <<-eof
-**This Service is Assigned to PHA**
+**This service is assigned to PHA**
 
 #Weight notes
 * **When to weigh:**
@@ -389,8 +389,6 @@ BMI_MANAGEMENT_3_MONTHS_DESCRIPTION = <<-eof
 * **Doctor phone:**
 * **Next CF appointment:**
 
-
-
 #Previous BMI notes
 * Notes/trends from the last 3 months of measuring (barriers to weighing, changes to routine, etc)
 
@@ -399,6 +397,10 @@ BMI_MANAGEMENT_3_MONTHS_DESCRIPTION = <<-eof
 eof
 
 BMI_MANAGEMENT_3_MONTHS_UPDATE = <<-eof
+#User-Facing Service Deliverable Draft:
+
+Here are the measurements to show Dr. [First Last] at your next visit:
+
 * **BMI and date:**
 * **BMI and date:**
 * **BMI and date:**
@@ -410,14 +412,19 @@ BMI_MANAGEMENT_3_MONTHS_UPDATE = <<-eof
 
 Add more notes/measurements below if needed
 
+---------------------------------------------------------------------------------------------------
+12 total weigh ins
+2 tasks per week for 3 months = 24 tasks
+1 follow up task to compile data = 1 task
+Total = 25 tasks
 eof
 
 BMI_MANAGEMENT_3_MONTHS_REQUEST = <<-eof
-Support [member/you] in tracking your BMI to prepare for your appointment with Dr. [doctor name]
+Support you in tracking your weight as part of meeting your nutrition goals over the next 6 months
 eof
 
 ServiceTemplate.upsert_attributes({name: "bmi management - 3 months"},
-                                  {title: "BMI tracking",
+                                  {title: "Track your weight",
                                    description: BMI_MANAGEMENT_3_MONTHS_DESCRIPTION,
                                    service_update: BMI_MANAGEMENT_3_MONTHS_UPDATE,
                                    service_request: BMI_MANAGEMENT_3_MONTHS_REQUEST,
