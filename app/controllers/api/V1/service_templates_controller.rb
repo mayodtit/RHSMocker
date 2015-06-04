@@ -22,10 +22,16 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   def update
     authorize! :update, @service_template
 
-    if @service_template.update_attributes(service_template_attributes)
-      render_success(service_template: @service_template.serializer)
+    if service_template_attributes[:state_event] == 'publish'
+      @service_template.publish!
+    end
+
+    @new_service_template = ServiceTemplate.create_service_template_deep_copy!(service_template_attributes.merge(unique_id: @service_template.unique_id))
+
+    if @new_service_template.update_attributes(service_template_attributes)
+      render_success(service_template: @new_service_template.serializer)
     else
-      render_failure({reason: @service_template.errors.full_messages.to_sentence}, 422)
+      render_failure({reason: @new_service_template.errors.full_messages.to_sentence}, 422)
     end
   end
 
@@ -46,7 +52,6 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   end
 
   def service_template_attributes
-    params.require(:service_template).permit(:name, :title, :description, :service_type_id, :time_estimate, :state)
+    params.require(:service_template).permit(:name, :title, :description, :service_type_id, :time_estimate, :state_event)
   end
-
 end
