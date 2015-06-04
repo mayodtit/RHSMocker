@@ -37,21 +37,6 @@ class ServiceTemplate < ActiveRecord::Base
     service
   end
 
-  def create_service_template_deep_copy!(attributes = {})
-    service_template = ServiceTemplate.create!(
-      name: attributes[:name],
-      title: attributes[:title],
-      description: attributes[:description],
-      service_type_id: attributes[:service_type_id],
-      time_estimate: attributes[:time_estimate],
-      timed_service: attributes[:timed_service],
-      user_facing: attributes[:user_facing],
-      service_update: attributes[:service_update],
-      service_request: attributes[:service_request]
-    )
-    service_template
-  end
-
   private
 
   def set_unique_id
