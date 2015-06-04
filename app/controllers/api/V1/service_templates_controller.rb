@@ -35,6 +35,14 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
     end
   end
 
+  def destroy
+    authorize! :destroy, @service_template
+
+    if @service_template.unpublished?
+      destroy_resource @service_template
+    end
+  end
+
   private
 
   def prevent_update_service_template
