@@ -232,7 +232,7 @@ PROVIDER_SEARCH_ADD_DOCTOR_DESCRIPTION = <<-eof
 
 3. Copy, paste, and edit into User-Facing Service Request:
 
-        **[mm/dd]: You selected Dr. [First Last] as your dentist.**
+        [mm/dd]: You selected Dr. [First Last] as your dentist.
 
 4. Complete Task
 ------------------------------------------------
@@ -244,7 +244,7 @@ PROVIDER_SEARCH_ADD_DOCTOR_DESCRIPTION = <<-eof
 
 2. Copy, paste, and edit into User-Facing Service Request:
 
-        **[mm/dd]: You didn’t select any of the [provider type]s from the options. [Include details about next steps].**
+        [mm/dd]: You didn’t select any of the [provider type]s from the options. [Include details about next steps].
 
 3. Complete Task
 eof
@@ -321,7 +321,7 @@ APPOINTMENT_BOOKING_SEND_CONFIRMATION_DESCRIPTION = <<-eof
 2. Copy and paste appointment details from Service Deliverable Draft into User-Facing Service Deliverable
 3. Copy, paste, and edit into User-Facing Service Request:
 
-        **[mm/dd]: We booked [you/member name] an appointment with Dr. [First Last]. The details are below for you to view.**
+        [mm/dd]: We booked [you/member name] an appointment with Dr. [First Last]. The details are below for you to view.
 
 4. Send this message to member:
 
@@ -427,7 +427,7 @@ CARE_COORDINATION_CALL_SEND_MEMBER_UPDATES_DESCRIPTION = <<-eof
 3. Copy and paste call notes from Service Deliverable Draft into User-Facing Service Deliverable
 4. Copy, paste, and edit into User-Facing Service Request:
 
-        **[mm/dd of call]: We spoke with [doctor/insurance/other] about your questions. The notes are below for you to view.**
+        [mm/dd of call]: We spoke with [doctor/insurance/other] about your questions. The notes are below for you to view.
 
 5. Send message to member:
 
@@ -468,107 +468,172 @@ PHA_AUTHORIZATION_OBTAIN_FORM_DESCRIPTION = <<-eof
 eof
 
 PHA_AUTHORIZATION_SEND_FORM_TO_MEMBER_DESCRIPTION = <<-eof
-1. Go to hellosign.com
-2. Upload form to hellosign
-3. Complete with member’s information
-4. Update Hellosign Cover page message
+**This task is assigned to Specialist**
 
-        Please sign the form from your insurance company that allows us to speak on your behalf and obtain information. Let me know if you have any questions. Once it's signed, I'll send it to insurance.
+**Fill out authorization form**
+1. Find link to blank form in Internal Service Notes - Specialist Notes
+2. Download form to computer
+3. Fill out in Preview with member’s and Better’s information
+4. Upload to member’s Google Drive folder - save as “ForReview_[LastName]_[FirstName]_[Authorization]”
+5. Copy and paste link to drafted form into Internal Service Notes - Specialist Notes
+6. Change title of task to: “Proofread - authorization form”
+7. Reassign to another Specialist to proofread
 
-5. Send form to member to sign
-6. Complete task
-7. Change next task to assign to PHA
+**Proofread**
+1. Find the link to the drafted form in Internal Service Notes - Specialist Notes
+2. Download the form and open in Preview
+3. Proofread the form using the checklist in Internal Service Notes - Specialist Notes and make any necessary changes
+4. Go to HelloSign.com
+5. Upload form to HelloSign
+6. Add signature and date fields to form
+7. Input correct member name and email address
+8. Copy and paste in HelloSign:
+
+        Document Title:
+
+        PHA Authorization Form
+
+        Message:
+
+        Here is the form from your insurance company that allows us to speak on your behalf and get information for you. Once it's signed, we’ll send it to your insurance company. Send us a message in the app if you have any questions!
+
+9. Send form to member
+10. Complete Task
+11. Reassign next automatic task to PHA (“Send member update - sign authorization form”)
 eof
 
 PHA_AUTHORIZATION_SIGN_AUTHORIZATION_FORM_DESCRIPTION = <<-eof
-1) Send message to member to request that they sign authorization form
-> I just sent over an authorization form from [company] for you to sign which allows me to speak on your behalf. You should see an email from HelloSign.com with the form. Please let me know if you have any questions
-2) Complete task
+**This task is assigned to PHA**
+
+1. Copy, paste, and edit User-Facing Service Request:
+
+        [mm/dd]: We sent you an authorization form to sign via HelloSign.
+
+2. Send message to member:
+
+        We just sent you an authorization form to sign, which allows us to speak on your behalf. You should see an email from HelloSign.com with the form. Once it’s signed, we’ll send it to your insurance. Let us know if you have any questions!
+
+3. Complete Task
 eof
 
 PHA_AUTHORIZATION_SEND_FORM_TO_INSURANCE_DESCRIPTION = <<-eof
-1. Search for signed form on Hellosign.com using member’s email
-2. **If not signed**
-  * Assign a task for PHA titled “UPDATE - member needs to sign form” with this message:
+**This task is assigned to Specialist**
 
-            I’ve emailed you an authorization form to sign from Hellosign.com. Let me know if you have any questions. Once it is signed, we’ll send it to your  insurance company. Thanks!
+1. Search for signed form on HelloSign.com using member’s email address
+2. **If form not signed:**
+  - Add a new service task assigned to PHA titled: “UPDATE - remind member to sign authorization form”
+  - Copy and paste into the new Task Steps:
 
-   Change due date of task for 3 days later
-3. **If signed**
-  * Save signed form to member’s folder in drive as “Signed_<insurance>Authorization”
-  * Right click document and choose “Get Link”
-  * Save link to signed form to service description and member’s profile under insurance tab
-4. Mail **and/or** fax the form to the address/number listed on the form
-5. Complete task
-6. Change next task to assign to PHA
+            Send message to member:
+
+            Just a reminder to sign the authorization form that we sent you through HelloSign.com. Once it’s signed, we’ll send it to your insurance. Let us know if you have any questions. Thanks!
+
+  - Copy, paste, and edit this into Internal Service Notes - Specialist Notes:
+
+            [mm/dd]: Checked HelloSign for signed form and created task for PHA to remind member to sign form.
+
+  * Push current task back 1 day (“Send - signed authorization form to insurance”). Reason: Waiting on member.
+3. **If form signed:**
+  * Download signed form from HelloSign
+  * Upload signed form to member’s Google Drive folder - save as “Signed_InsuranceName_Authorization”
+  * Paste link to signed form into Internal Service Notes - Specialist Notes
+  * Mail **and/or** fax the form to the address/number listed on the form
+  * Complete Task
+  * Reassign next automatic task to PHA (“Send member update - authorization form sent”)
 eof
 
 PHA_AUTHORIZATION_UPDATE_MEMBER_AUTHORIZATION_SENT_DESCRIPTION = <<-eof
-**Will be assigned to Specialist, reassign to PHA**
-1. Send member update:
+**This task is assigned to PHA**
 
-        I've sent the authorization form to your insurance company.  It can take up to 30 days for this form to process. I’ll follow up to make sure it goes through.  In the mean time,  I’ll dial you in for verbal consent if we need to speak to  your insurance company. Do you have any questions?
+1. Copy, paste, and edit into User-Facing Service Request:
 
-2. Complete task
+        [mm/dd]: We received your signed authorization form and sent it to your insurance company.
+
+2. Send message to member:
+
+        We've sent your signed authorization form to your insurance company. It can take up to 30 days for this form to process, but we’ll follow up to make sure it goes through. Do you have any questions?
+
+3. Complete Task
 eof
 
 PHA_AUTHORIZATION_CALL_CONFIRM_AUTHORIZATION_DESCRIPTION = <<-eof
+**This task is assigned to Specialist**
+
 1. Call insurance company
-2. Confirm form was received and is on file
-3. **If not received:**
+2. Confirm authorization form was received and is on file
+3. **If form not received:**
   * Resend authorization form to insurance
-  * Reschedule task for 14 days later
-  * Assign a task for PHA to update member with this message:
+  * Add a new service task assigned to PHA titled: “UPDATE - authorization form sent”
+  * Copy, paste, and edit into the new Task Steps:
+          1. Copy, paste, and edit User-Facing Service Request:
 
-              I checked on the authorization we filed. They did not have it on file. I've sent the authorization form again today.  I’ll follow up in the next few weeks and will let you know when it goes through!
+                  [mm/dd]: We called your insurance to check on the authorization form. They did not have it on file so we resent the form.
 
-4. **If received:**
-  * Go to insurance tab in member’s profile
+          2. Send message to member:
+
+                  We called your insurance to check on the authorization form, and they didn’t have it on file yet. This happens often with insurance companies, but not to worry because we’ve sent the form again. We’ll follow up in two weeks to let you know when it goes through!
+
+  * Copy, paste, and edit into Internal Service Notes - Specialist Notes:
+
+            [mm/dd]: Called insurance company and authorization form was not on file. Resent authorization form and created task for PHA to send member update.
+
+  * Push current task back 12 days (“Call - confirm authorization on file”). Reason: Waiting on 3rd party.
+4. **If form received:**
+  * Go to Insurance tab in member’s Profile
   * Change “Authorization on file” to “Yes”
-5. Complete task
-6. Change next task to assign to PHA
+  * Complete Task
+  * Reassign next automatic task to PHA (“Send member update - authorization form on file”)
 eof
 
 PHA_AUTHORIZATION_UPDATE_MEMBER_AUTHORIZATION_ON_FILE_DESCRIPTION = <<-eof
-**Will be assigned to Specialist, reassign to PHA**
-1. Send member update:
+**This task is assigned to PHA**
 
-    The authorization form you signed is on file with your insurance company.  Next time I call over, we shouldn’t need to dial you in for verbal consent!
+1. Copy, paste, and edit into User-Facing Service Request:
 
-2. Complete task
+        [mm/dd]: We called to confirm the authorization for us to speak on your behalf is on file.
+
+2. Copy, paste, and edit into User-Facing Service Deliverable:
+
+        We had your insurance process an authorization form so that Personal Health Assistants at Better can speak on your behalf. It will be good for one year from the date it was processed.
+
+3. Send message to member:
+
+        Good news! The authorization form you signed is now on file with your insurance company, which means we can speak on your behalf. Take a deep breath, no more waiting on hold with your insurance company again.
+
+4. Complete Task
 eof
 
 TaskTemplate.upsert_attributes({name: "pha authorization - obtain authorization form"},
                                {service_template: ServiceTemplate.find_by_name('pha authorization'),
-                                title: "Obtain Authorization Form",
+                                title: "Obtain authorization form",
                                 description: PHA_AUTHORIZATION_OBTAIN_FORM_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 0})
 
 TaskTemplate.upsert_attributes({name: "pha authorization - send form to member"},
                                {service_template: ServiceTemplate.find_by_name('pha authorization'),
-                                title: "Send Authorization Form to Member",
+                                title: "Fill out authorization form",
                                 description: PHA_AUTHORIZATION_SEND_FORM_TO_MEMBER_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 0})
 
 TaskTemplate.upsert_attributes({name: "pha authorization - sign authorization form"},
                                {service_template: ServiceTemplate.find_by_name('pha authorization'),
-                                title: "Update member - sign authorization form",
+                                title: "Send member update - sign authorization form",
                                 description: PHA_AUTHORIZATION_SIGN_AUTHORIZATION_FORM_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 1})
 
 TaskTemplate.upsert_attributes({name: "pha authorization - send form to insurance"},
                                {service_template: ServiceTemplate.find_by_name('pha authorization'),
-                                title: "Send Signed Authorization Form to Insurance",
+                                title: "Send - signed authorization form to insurance",
                                 description: PHA_AUTHORIZATION_SEND_FORM_TO_INSURANCE_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 2})
 
 TaskTemplate.upsert_attributes({name: "pha authorization - update member authorization sent"},
                                {service_template: ServiceTemplate.find_by_name('pha authorization'),
-                                title: "Update member - Authorization form sent",
+                                title: "Send member update - authorization form sent",
                                 description: PHA_AUTHORIZATION_UPDATE_MEMBER_AUTHORIZATION_SENT_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 3})
@@ -582,7 +647,7 @@ TaskTemplate.upsert_attributes({name: "pha authorization - call confirm authoriz
 
 TaskTemplate.upsert_attributes({name: "pha authorization - update member authorization on file"},
                                {service_template: ServiceTemplate.find_by_name('pha authorization'),
-                                title: "Update member - Authorization form on file",
+                                title: "Send member update - authorization form on file",
                                 description: PHA_AUTHORIZATION_UPDATE_MEMBER_AUTHORIZATION_ON_FILE_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 5})
@@ -590,172 +655,252 @@ TaskTemplate.upsert_attributes({name: "pha authorization - update member authori
 # Record Recovery
 
 RECORD_RECOVERY_VERIFY_REQUEST_INFORMATION_DESCRIPTION = <<-eof
-1. Call source provider (where records are being collected)
-  * Request record release form from source provider
-  * Is there a cost for records? (Better will pay up to $20. If more - see Jenn.
-  * Does it cost anything for electronic copy of records?
-  * How will the records be sent? Fax, secure email, snail mail?
-  * How long does it take to process the request? (If necessary - can you expedite it? )
-  * Record call notes and representative’s name in service description
-2. Call recipient provider to confirm information
+**This task is assigned to Specialist**
+
+1. Call Source Provider and record notes in Internal Service Notes - Specialist Notes
   * Verify contact information
-  * What is the best way to send records? (fax, mail)
-  * How long does it normally take to process?
-  * Record notes and representative’s name in service description
+  * Is it a generic form or specific for the provider?
+  * How do I access or obtain records release form? Fax, email, website?
+  * Verify number/address/email to send signed records release form
+  * How will the records be sent to destination provider? Fax, secure email, snail mail? To member or destination provider?
+  * Is there a cost for records? (Better will pay up to $20. If more - see Jenn)
+  * How long does it take to process the request? (If necessary - can you expedite it?)
+2. If records release form is on website, copy and paste link into Internal Service Notes - Specialist Notes
+3. Call Destination Provider and record notes in Internal Service Notes - Specialist Notes
+  * Verify contact information
+  * How long does it normally take to process the records?
+  * Let them know if records are being faxed/mailed or dropped of by the patient
 eof
 
 RECORD_RECOVERY_COMPLETE_RECORD_REQUEST_FORM_DESCRIPTION = <<-eof
-1. Go to hellosign.com
-2. Upload form to hellosign
-3. Complete with member’s information
-4. Update Hellosign Cover page message
+**This task is assigned to Specialist**
 
-        Please review and sign the medical record request form. Let me know if you have any questions.  Once it's signed,  I'll send it to [source hospital] and we'll get your records transferred. Thanks!
+**Fill out authorization form**
 
-5. Send to member via HelloSign to obtain signature
-6. Complete task
-7. Change next task to assign to PHA
+1. Find link to blank records release form in Internal Service Notes - Specialist Notes or check sfax for form
+2. Download form to your computer
+3. Fill out in Preview with member’s and providers’ information
+4. Upload to member’s Google Drive folder  - save as “ForReview_[LastName]_[FirstName]_[SourceProvider]_[DestinationProvider]”
+5. Copy and paste link to drafted form into Internal Service Notes - Specialist Notes
+6. Change title of task to: “Proofread - records release form”
+7. Reassign to another Specialist to proofread
+
+**Proofread**
+
+1. Find the link to drafted form in Internal Service Notes - Specialist Notes
+2. Download the form and open in Preview
+3. Proofread the form using the checklist in Internal Service Notes - Specialist Notes and make any necessary changes
+4. Go to HelloSign.com
+5. Upload form to HelloSign
+6. Add signature and date fields to form
+7. Input correct member name and email address
+8. Copy, paste, and edit in HelloSign:
+
+          Document Title:
+
+          Medical Records Release Form
+
+          Message:
+
+          Here is the medical records release form for you to sign. Once it's signed, we’ll send it to [source provider]. Send us a message in the app if you have any questions!
+
+9. Send form to member
+10. Complete Task
+11. Reassign next automatic task to PHA (“Send member update - sign records release form”)
 eof
 
 RECORD_RECOVERY_SIGN_AUTHORIZATION_FORM_DESCRIPTION = <<-eof
-1. Send message to member to request that they sign authorization form
+**This task is assigned to PHA**
 
-        I just sent over a record request form for you to sign. Once you do, I’ll send it to your doctor to get your records transferred. Please let me know if you have any questions!
+1. Copy, paste, and edit into User-Facing Service Request:
 
-2. Complete task
+        [mm/dd]: We sent you a records release form from [source provider] to sign via HelloSign.com.
+
+2. Send message to member:
+
+        We’ve just sent you a records release form to sign. You should see an email from HelloSign.com with the form. Once it’s signed, we’ll send it to your doctor to get your records transferred. Let us know if you have any questions!
+
+3. Complete Task
 eof
 
 RECORD_RECOVERY_SEND_FORM_TO_SOURCE_PROVIDER_DESCRIPTION = <<-eof
-1. Search for signed form on Hellosign.com using member’s email
-2. **If not signed:**
-  * Create an update task for PHA with this copy:
+**This task is assigned to Specialist**
 
-            Hi [member], we’re working on getting your records transferred and need your signature. We’ve emailed you an authorization form to sign from pha@getbetter.com using Hellosign.com.  Let me know if you have any questions about the form or using hellosign to sign the document. Once it is signed, we’ll send it to [source provider].*
+1. Search for signed form on HelloSign.com using member’s email address
+2. **If form not signed:**
+  * Add a new service task assigned to PHA titled: “UPDATE - remind member to sign records release form”
+  * Copy, paste, and edit into the new Task Steps:
+    1. Send message to member using the details in the Member Request below:
 
-  * Change due date of task for 3 days later
-3. **If signed:**
-  * Save signed form to member’s file in drive
-  * Save signed form to member’s folder in drive as “Signed_RecordRequest”
-  * Right click document and choose “Get Link”
-  * Save link to signed form to service description
-4. Mail **and/or** fax the form to the address/number listed on the form
-5. Complete task
-6. Change next task to assign to PHA
+        Just a reminder to sign the records release form that we sent you through HelloSign.com. Once it’s signed, we’ll send it to [source provider]. Let us know if you have any questions. Thanks!
+
+  * Copy, paste and edit this into Internal Service Notes - Specialist Notes:
+  * [mm/dd]: Checked HelloSign for signed form and created task for PHA to remind member to sign form.
+  * Push current task back 1 day (“Send - signed records release form to insurance”). Reason: Waiting on member.
+3. **If form signed:**
+  * Download signed form from HelloSign
+  * Upload signed form to member’s Google Drive folder - save as “Signed_HospitalName_RecordRequest”
+  * Paste link to signed form into Internal Service Notes - Specialist Notes
+  * Mail **and/or** fax the form to the address/number listed on the form
+  * Record date request sent under Internal Service Notes - Specialist Notes
+  * Complete Task
+  * Reassign next automatic task to PHA (“Send member update - records release form sent”)
 eof
 
 RECORD_RECOVERY_UPDATE_MEMBER_REQUEST_SENT_DESCRIPTION = <<-eof
-**Will be assigned to Specialist, reassign to PHA**
-1. Send member update:
+**This task is assigned to PHA**
 
-        I've sent the records release form you signed to [provider]. I’ll call over in the next couple of days to make sure it was received.
+1. Copy, paste, and edit into User-Facing Service Request:
 
-2. Complete task
+        [mm/dd]: We sent your signed records release form to [source provider].
+
+2. Send message to member:
+
+        We’ve sent the records release form to [source provider]. We’ll call them in a few days to confirm that it was received.
+
+3. Complete Task
 eof
 
 RECORD_RECOVERY_CONFIRM_REQUEST_RECEIVED_DESCRIPTION = <<-eof
-1. Call source provider to confirm form was received
-2. **If not received:**
-  * Check sfax for confirmation of sending, re-confirm fax number/address with source hospital and resend
-  * Push back task 1 day
-  * Create an update task for PHA with this copy:
+**This task is assigned to Specialist**
 
-            I checked in with [destination hospital] office today and there was a problem on their end so they haven’t received the records request. I’m working with them to fix it and will keep you updated.
+1. If records release form was mailed, push current task back 5 days (“Call - confirm records release form received”). Reason: Waiting on 3rd party.
+2. Call source provider to confirm form was received
+3. **If form not received:**
+  * Check sfax for confirmation of sending, reconfirm fax number/address with source provider, and resend
+  * Add a new service task assigned to PHA titled: “UPDATE - records release form not received”
+  * Copy, paste, and edit into the new Task Steps:
 
-3. **If received, ** complete task
-4. Change next task to assign to PHA
+        1. Copy, paste, and edit into User-Facing Service Request:
+
+                [mm/dd]: We called [source provider] and they hadn’t received the records release form. We’re going to resend it and confirm that they receive it.
+
+        2. Send message to member using the details in the Member Request below:
+
+                We checked in with [source provider] today and they haven’t received the records release form yet. We’re working with to track down the issue, but we’ve sent the form again to confirm they receive it. We’ll keep you updated!
+
+  * Push current task back 1 day (“Call - confirm records release form received”). Reason: Waiting on 3rd party.
+4. **If form received:**
+  * Complete Task
+  * Reassign next automatic task to PHA (“Send member update - forms received by source provider”)
 eof
 
 RECORD_RECOVERY_UPDATE_MEMBER_REQUEST_RECEIVED_DESCRIPTION = <<-eof
-**Will be assigned to Specialist, reassign to PHA**
-1. Send member update:
+**This task is assigned to PHA**
 
-        The medical record request you signed has been received by [source hospital]. They should arrive at [destination hospital] by [date]. I’ll continue to follow up and let you know when they are transferred!
+1. Copy, paste, and edit into User-Facing Service Request:
 
-2. Complete task
+        [mm/dd]: We’ve contacted [source provider] and they’ve received the records release form.
+
+2. Send message to member:
+
+        The records release form you signed has been received by [source provider]. Your records should arrive at [destination provider] in the next week. We’ll continue to follow up and let you know when they are transferred!
+
+3. Complete Task
 eof
 
 RECORD_RECOVERY_CONFIRM_RECORDS_TRANSFERRED_DESCRIPTION = <<-eof
-1. Call destination provider to confirm records received
-2. **If not received:**
-  * Call source hospital to find out if they were sent
-  * Request that they are resent if needed
-  * Create an update task for PHA with this copy:
+**This task is assigned to Specialist**
 
-            [destination hospital] hasn’t received your medical records yet. I’ll call [source hospital]  and have your records resent. I’ll be in touch soon with another update
+1. Call destination provider to confirm records transferred
+2. **If records not received:**
+  * Call source provider and find out if medical records were sent
+  * Request that records are re-sent if needed
+  * Add a new service task assigned to PHA titled: “UPDATE - medical records have not been received”
+  * Copy, paste, and edit into the new Task Steps:
 
-  * Push back 7 days
-3. **If received, ** complete task
-4. Change next task to assign to PHA
+        1. Copy, paste, and edit into User-Facing Service Request:
+
+                [mm/dd]: We called [destination provider] and they haven’t received your medical records yet. We are working to make sure they receive it.
+
+        2. Send message to member using the details in the Member Request below:
+
+                We called [destination provider] and they haven’t received your medical records yet. We’ll call [source provider] and have your records re-sent. We’ll be in touch soon with another update.
+
+  * Push current task back 7 days (“Call - confirm medical records transferred”). Reason: Waiting on 3rd party.
+
+3.**If records received:**
+  * Complete Task
+  * Reassign next automatic task to PHA (“Send member update - medical records transferred”)
 eof
 
 RECORD_RECOVERY_UPDATE_MEMBER_RECORDS_TRANSFERRED_DESCRIPTION = <<-eof
-**Will be assigned to Specialist, reassign to PHA**
-1. Send member update:
+**This task is assigned to PHA**
 
-        Your medical records have been received by [source hospital] and they have them on file at [destination hospital].
+1. Copy, paste, and edit into User-Facing Service Request:
 
-2. Complete task
+        [mm/dd]: We contacted [destination provider], and they have your medical records on file.
+
+2. Copy, paste, and edit into User-Facing Service Deliverable:
+
+        We transferred your medical records from [source provider], and they are now on file at [destination provider].
+
+3. Send message to member:
+
+        The waiting is over, your medical records have been transferred! They’re now on file at [destination provider]. Please let us know if you have any questions.
+
+4. Complete Task
 eof
 
 TaskTemplate.upsert_attributes({name: "record recovery - verify request_informaiton"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
-                                title: "Call - Verify Record Request information",
+                                title: "Call - verify records release information",
                                 description: RECORD_RECOVERY_VERIFY_REQUEST_INFORMATION_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 0})
 
 TaskTemplate.upsert_attributes({name: "record recovery - complete record request form"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
-                                title: "Complete record request form and send to member",
+                                title: "Fill out records release form",
                                 description: RECORD_RECOVERY_COMPLETE_RECORD_REQUEST_FORM_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 1})
 
 TaskTemplate.upsert_attributes({name: "record recovery - sign authorization form"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
-                                title: "Update member - sign authorization form",
+                                title: "Send member update - sign records release form",
                                 description: RECORD_RECOVERY_SIGN_AUTHORIZATION_FORM_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 2})
 
 TaskTemplate.upsert_attributes({name: "record recovery - send form to source provider"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
-                                title: "Send signed Record Request Form to source provider",
+                                title: "Send - signed records release form to source provider",
                                 description: RECORD_RECOVERY_SEND_FORM_TO_SOURCE_PROVIDER_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 3})
 
 TaskTemplate.upsert_attributes({name: "record recovery - update member request sent"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
-                                title: "Update member - record request form sent",
+                                title: "Send member update - records release form sent",
                                 description: RECORD_RECOVERY_UPDATE_MEMBER_REQUEST_SENT_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 4})
 
 TaskTemplate.upsert_attributes({name: "record recovery - confirm request received"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
-                                title: "Call - Confirm record request form received",
+                                title: "Call - confirm records release form received",
                                 description: RECORD_RECOVERY_CONFIRM_REQUEST_RECEIVED_DESCRIPTION,
                                 time_estimate: 1440,
                                 service_ordinal: 5})
 
 TaskTemplate.upsert_attributes({name: "record recovery - update member request received"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
-                                title: "Update member - forms received by source hospital",
+                                title: "Send member update - forms received by source provider",
                                 description: RECORD_RECOVERY_UPDATE_MEMBER_REQUEST_RECEIVED_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 6})
 
 TaskTemplate.upsert_attributes({name: "record recovery - confirm records transferred"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
-                                title: "Confirm medical records were transferred",
+                                title: "Call - confirm medical records transferred",
                                 description: RECORD_RECOVERY_CONFIRM_RECORDS_TRANSFERRED_DESCRIPTION,
                                 time_estimate: 10080,
                                 service_ordinal: 7})
 
 TaskTemplate.upsert_attributes({name: "record recovery - update member records transferred"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
-                                title: " Update member - medical records transferred",
+                                title: "Send member update - medical records transferred",
                                 description: RECORD_RECOVERY_UPDATE_MEMBER_RECORDS_TRANSFERRED_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 8})

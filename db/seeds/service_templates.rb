@@ -146,75 +146,156 @@ ServiceTemplate.upsert_attributes({name: "care coordination call"},
                                   time_estimate: 120})
 
 PHA_AUTHORIZATION_DESCRIPTION = <<-eof
-**This Service Is Assigned to Specialist**
+**This service is assigned to Specialist**
 
 #Member Request
 * **Member:**
+* **Date of birth:**
+* **Address:**
+* **Legal name:**
+* **Insurance member ID**
 * **Insurance company:**
 * **Insurance phone number:**
-* **Purpose of authorization:**
-* **Name of person to authorize**
-* **Link to signed form:**
-* **Date sent to insurance:*
-* **Member information:** Birth dates, Address, insurance number, legal name
+* **Purpose of authorization:** Care Coordination
+* **Name of person to authorize:** Better and [PHA]
 
-#Specialist notes
+#Specialist Notes
+Date of call:
+Who you spoke with:
+Notes from call:
+
+* **Link to blank form:**
+* **Date sent to insurance:**
+* **Link to drafted form:**
+* **Link to signed form:**
+
+**Proofread the form by marking an “x” by each item that you check.**
+**Proofreader name:**
+**Date:**
+
+  * Member name ( )
+  * Date of birth  ( )
+  * Address ( )
+  * Better’s information ( )
+  * Correct insurance company ( )
+  * Insurance member ID ( )
+
+eof
+
+PHA_AUTHORIZATION_UPDATE = <<-eof
+#User-Facing Service Deliverable Draft:
+
+#Member update:
+
+#PHA next steps:
+
+#Specialist next steps:
+
 eof
 
 PHA_AUTHORIZATION_REQUEST = <<-eof
-Authorize [PHA] to speak on your behalf with [insurance company]
+Authorize Better to speak on your behalf with [insurance company]. This usually takes insurance companies 30 days to process.
 eof
 
 ServiceTemplate.upsert_attributes({name: "pha authorization"},
-                                  {title: "Authorize [PHA] with [insurance company]",
+                                  {title: "Authorize Better with [insurance company]",
                                   description: PHA_AUTHORIZATION_DESCRIPTION,
+                                  service_update: PHA_AUTHORIZATION_UPDATE,
                                   user_facing: true,
                                   service_request: PHA_AUTHORIZATION_REQUEST,
                                   service_type: ServiceType.find_by_name('pha designation for authorization'),
                                   time_estimate: 43500}
 )
 RECORD_RECOVERY_DESCRIPTION = <<-eof
-**Service assigned to Specialist**
+**This service is assigned to Specialist**
 
 #Member Request
 * **Member:**
-* **Purpose of transfer::**
-* **Type of records to request::**
-* **Urgency::**
-* **Link to record request form::**
-* **Date request sent::**
+* **Date of birth:**
+* **Purpose of transfer:**
+* **Type of records to release:**
+* **Urgency:**
 
-**Records Source - Collect from: **
+**Source Provider Info: **
 Name:
 Address:
 Fax Number:
-Office number:
-Record release form:
+Phone number:
 
-**Destination - Send to: **
+**Destination Provider Info:**
 Name:
 Address:
 Fax Number:
-Office number:
-Record request form (if needed):
+Phone number:
 
-#Specialist notes
+#Specialist Notes
+**Link to blank records release form:**
+**Link to drafted form:**
+**Link to signed form:**
+Date records release form sent: [mm/dd/yy]
+
+**Call notes - Source Provider:**
+Date of call:
+Who you spoke with:
 Call notes:
-Office representative:
-Verified contact information: yes/no
-Form: website/faxed to better/email
-Cost:
+Verified contact information: Yes/No
+Form type: Generic/Specific for Provider
+How the records will be sent:
+Cost for records:
 Turnaround time:
+
+**Call notes - Destination Provider:**
+Date of call:
+Who you spoke with:
+Call notes:
+Verified contact information: Yes/No
+Processing time:
 Other:
+
+**Proofread the form by marking an “x” by each item that you check.**
+**Proofreader name:**
+**Date:**
+
+* Member name ()
+* Date of birth  ()
+* Address ()
+* Source Provider info ()
+* Destination Provider info ()
+* Type of records ()
+* Date requested ()
+
+**Call notes - Form Received:**
+Date of call:
+Who you spoke with:
+Call notes:
+Records release form received: Yes/No
+
+**Call notes - Records Transferred:**
+Date of call:
+Who you spoke with:
+Call notes:
+Records transferred: Yes/No
+eof
+
+RECORD_RECOVERY_UPDATE = <<-eof
+#User-Facing Service Deliverable Draft:
+
+#Member update:
+
+#PHA next steps:
+
+#Specialist next steps:
+
 eof
 
 RECORD_RECOVERY_REQUEST = <<-eof
-Transfer records from [source] to [destination]
+Transfer medical records from [source provider] to [destination provider] for [reason]. This can take up to 30 days depending on the process of the medical records office.
 eof
 
 ServiceTemplate.upsert_attributes({name: "record recovery"},
-                                  {title: "Transfer records to [destination]",
+                                  {title: "Transfer medical records to [destination provider]",
                                   description: RECORD_RECOVERY_DESCRIPTION,
+                                  service_update: RECORD_RECOVERY_UPDATE,
                                   user_facing: true,
                                   service_request: RECORD_RECOVERY_REQUEST,
                                   service_type: ServiceType.find_by_name('record recovery'),
