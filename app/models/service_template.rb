@@ -8,7 +8,6 @@ class ServiceTemplate < ActiveRecord::Base
 
   validates :name, :title, :service_type, presence: true
   validates :user_facing, :inclusion => { :in => [true, false] }
-  validates :unique_id, uniqueness: true
   validates :version, presence: true
   validates :version, uniqueness: { scope: :unique_id }
   validates :state, presence: true
