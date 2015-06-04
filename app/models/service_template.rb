@@ -4,7 +4,7 @@ class ServiceTemplate < ActiveRecord::Base
   has_many :suggested_service_templates
 
   attr_accessible :name, :title, :description, :service_type_id, :service_type, :time_estimate, :timed_service,
-                  :user_facing, :service_update, :service_request, :unique_id, :version, :state
+                  :user_facing, :service_update, :service_request, :unique_id, :version, :state_event
 
   validates :name, :title, :service_type, presence: true
   validates :user_facing, :inclusion => { :in => [true, false] }
@@ -38,6 +38,21 @@ class ServiceTemplate < ActiveRecord::Base
     service
   end
 
+  def create_service_template_deep_copy!(attributes = {})
+    service_template = ServiceTemplate.create!(
+      name: attributes[:name],
+      title: attributes[:title],
+      description: attributes[:description],
+      service_type_id: attributes[:service_type_id],
+      time_estimate: attributes[:time_estimate],
+      timed_service: attributes[:timed_service],
+      user_facing: attributes[:user_facing],
+      service_update: attributes[:service_update],
+      service_request: attributes[:service_request]
+    )
+    service_template
+  end
+
   private
 
   def set_unique_id
@@ -66,6 +81,5 @@ class ServiceTemplate < ActiveRecord::Base
         st.retire!
       end
     end
-
   end
 end
