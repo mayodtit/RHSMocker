@@ -16,9 +16,11 @@ describe KinsightsSignupService do
     it 'posts a request to kinsights with the given token and sets local values' do
       expect(user.kinsights_patient_url).to be_nil
       expect(user.kinsights_profile_url).to be_nil
+      NewKinsightsMemberTask.should_receive(:create).with(member: user.owner, subject: user)
       described_class.new(user, token).call
       expect(user.kinsights_patient_url).to eq(patient_url)
       expect(user.kinsights_profile_url).to eq(profile_url)
+
     end
   end
 end
