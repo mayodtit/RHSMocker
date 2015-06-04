@@ -412,11 +412,6 @@ Here are the measurements to show Dr. [First Last] at your next visit:
 
 Add more notes/measurements below if needed
 
----------------------------------------------------------------------------------------------------
-12 total weigh ins
-2 tasks per week for 3 months = 24 tasks
-1 follow up task to compile data = 1 task
-Total = 25 tasks
 eof
 
 BMI_MANAGEMENT_3_MONTHS_REQUEST = <<-eof
