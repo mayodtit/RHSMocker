@@ -203,6 +203,7 @@ PROVIDER_SEARCH_SEND_OPTIONS_DESCRIPTION = <<-eof
 
 2. Copy and paste provider options from Service Deliverable Draft into User-Facing Service Deliverable
 3. Send message to member:
+
         We found you a few [provider type]s who are close to your [location], accepting new patients, and take your insurance.
 
         [Copy and paste provider options from Service Deliverable Draft here]
@@ -235,7 +236,9 @@ PROVIDER_SEARCH_ADD_DOCTOR_DESCRIPTION = <<-eof
         [mm/dd]: You selected Dr. [First Last] as your dentist.
 
 4. Complete Task
+
 ------------------------------------------------
+
 **If user doesn’t select one of the providers:**
 
 1. Send message to member:
@@ -457,14 +460,14 @@ TaskTemplate.upsert_attributes({name: "care coordination call - send update"},
 # PHA Authorization
 
 PHA_AUTHORIZATION_OBTAIN_FORM_DESCRIPTION = <<-eof
-1.  Check Google Drive folder for form:
-  * [Insurance forms folder](http://goo.gl/tgmqxW)
-2. If authorization form not on file
-  * Go to insurance website, locate “Forms” section and look for “Authorization to release PHI” form.
-  * If unable to find online, call insurance and confirm that you have the right authorization form or have it sent to pha@getbetter OR directly to member if necessary.
-3. When you have the correct form, save to drive folder with insurance name (eg “Blue Shield of CA”) as “InsuranceName_AuthorizationForm”
-4. Add link to blank form to service description.
-5. Complete task
+**This task is assigned to Specialist**
+
+1. Check Google Drive folder for authorization form
+  * [Insurance Forms folder](http://goo.gl/tgmqxW)
+2. If authorization form not on file, call insurance company to obtain form and have it sent to pha@getbetter.com OR directly to member if necessary
+3. When you have the correct form, save to Google Drive folder - [Insurance Forms folder](http://goo.gl/tgmqxW) with name as “InsuranceName_AuthorizationForm”  (eg “Blue Shield of CA”)
+4. Copy and paste link to blank form into Internal Service Notes - Specialist Notes
+5. Complete Task
 eof
 
 PHA_AUTHORIZATION_SEND_FORM_TO_MEMBER_DESCRIPTION = <<-eof
@@ -675,7 +678,7 @@ eof
 RECORD_RECOVERY_COMPLETE_RECORD_REQUEST_FORM_DESCRIPTION = <<-eof
 **This task is assigned to Specialist**
 
-**Fill out authorization form**
+**Fill out release form**
 
 1. Find link to blank records release form in Internal Service Notes - Specialist Notes or check sfax for form
 2. Download form to your computer
