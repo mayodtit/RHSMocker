@@ -187,10 +187,11 @@ PROVIDER_SEARCH_FIND_OPTIONS_TEMPLATE = <<-eof
 2. Sort search results by distance and export to PDF
 3. Open the [“Format Doctor Recommendations” Tool](http://remotehealthservices.github.io/doctor_recommendation_formatter/)
 4. Follow the instructions in the tool to call and gather information about potential providers
-5. Copy and paste formatted provider options into Service Deliverable Draft
-6. Complete Task
-7. Save PDF of initial insurance options as “ZipCode_DoctorType.pdf” to [Provider Search Documents Folder](http://goo.gl/V9snYH)
-8. Complete Task
+5. Copy, paste, and edit the formatted provider options into Service Updates and Service Deliverable Draft - depending on whether most reviews are good or not
+6. Copy and paste the provider search notes into Internal Service Notes - Specialist Notes
+7. If you have not already, make sure to upload doctors’ photos to database of Providers in Care Portal
+8. Save PDF of initial insurance options as “ZipCode_DoctorType.pdf” to [Provider Search Documents Folder](http://goo.gl/V9snYH)
+9. Complete Task
 eof
 
 PROVIDER_SEARCH_SEND_OPTIONS_DESCRIPTION = <<-eof
@@ -201,12 +202,12 @@ PROVIDER_SEARCH_SEND_OPTIONS_DESCRIPTION = <<-eof
         [mm/dd]: We found you a few [provider type]s who are close to your [location], accepting new patients, and take your insurance. Please take a look at the options below.
 
 2. Copy and paste provider options from Service Deliverable Draft into User-Facing Service Deliverable
-3. Send this message to member:
+3. Send message to member:
         We found you a few [provider type]s who are close to your [location], accepting new patients, and take your insurance.
 
         [Copy and paste provider options from Service Deliverable Draft here]
 
-        Let us know if you want us to book you an appointment or discuss these options.
+        Let us know if you want us to book you an appointment with one, or discuss the options.
 
 4. Complete Task
 eof
@@ -223,27 +224,29 @@ PROVIDER_SEARCH_ADD_DOCTOR_DESCRIPTION = <<-eof
 **This task is assigned to PHA**
 
 **If user selects a provider:**
-  1. Go to Providers tab in member’s profile and Add Provider
-  2. Send message to member:
 
-          I’m glad you were able to choose a [provider type] from the options we sent. We’ve also added [Dr. First Last] to your Care Team [here](better://nb?cmd=showCareTeam). Do you want us to help you book an appointment with [him/her]?
+1. Go to Providers tab in member’s profile and Add Provider
+2. Send message to member:
 
-  3. Copy, paste, and edit into User-Facing Service Request:
+        I’m glad you were able to choose a [provider type] from the options we sent. We’ve also added [Dr. First Last] to your Care Team [here](better://nb?cmd=showCareTeam). Do you want us to help you book an appointment with [him/her]?
 
-          **[mm/dd]: You selected Dr. [First Last] as your dentist.**
+3. Copy, paste, and edit into User-Facing Service Request:
 
-  4. Complete Task
+        **[mm/dd]: You selected Dr. [First Last] as your dentist.**
 
+4. Complete Task
+------------------------------------------------
 **If user doesn’t select one of the providers:**
-  1. Send message to member:
 
-          Let us know if there is anything we can do to expand our search, or help you find better [provider type] options. We’re also here to answer any other questions you have!
+1. Send message to member:
 
-  2. Copy, paste, and edit into User-Facing Service Request:
+        Let us know if there is anything we can do to expand our search, or help you find better [provider type] options. We’re also here to answer any other questions you have!
 
-          **[mm/dd]: You didn’t select any of the [provider type]s from the options. [Include details about next steps].**
+2. Copy, paste, and edit into User-Facing Service Request:
 
-  3. Complete Task
+        **[mm/dd]: You didn’t select any of the [provider type]s from the options. [Include details about next steps].**
+
+3. Complete Task
 eof
 
 TaskTemplate.upsert_attributes({name: "provider search - find options"},
@@ -269,7 +272,7 @@ TaskTemplate.upsert_attributes({name: "provider search - follow up"},
 
 TaskTemplate.upsert_attributes({name: "provider search - add doctor"},
                                {service_template: ServiceTemplate.find_by_name('provider search'),
-                                title: " Confirm or add doctor to profile",
+                                title: "Confirm and add doctor to profile",
                                 description: PROVIDER_SEARCH_ADD_DOCTOR_DESCRIPTION,
                                 time_estimate: 4320,
                                 service_ordinal: 2})
@@ -292,7 +295,13 @@ APPOINTMENT_BOOKING_CALL_PROVIDER_TEMPLATE = <<-eof
               [mm/dd]: There weren’t any appointments that matched your availability. We’ll book an appointment on another date that works for [you/member name].
 
           2. Send message to member with member update from Internal Service Updates - Member update and request new availability
-          3. Send task back to Specialist with new availability in Internal Service Updates - Specialist next steps
+          3. Copy, paste and edit this into Internal Service Updates - Specialist next steps:
+
+              [mm/dd]: Messaged member to ask about new availability
+              Available dates/times:
+
+          4. Send task back to Specialist with new availability in Internal Service Updates - Specialist next steps
+
   * Call provider again to book after PHA gets member’s new availability in Internal Service Updates - Specialist next steps
 5. Once booked, confirm details with office:
   * Time and date of appointment
@@ -316,7 +325,7 @@ APPOINTMENT_BOOKING_SEND_CONFIRMATION_DESCRIPTION = <<-eof
 
 4. Send this message to member:
 
-        We booked [you/member name] an appointment with Dr. [First Last]. Here are the details of your appointment:
+        We booked [you/member name] an appointment with Dr. [First Last]. Here are the details of your appointment.
 
         [Copy and paste appointment details from Service Deliverable Draft]
 
@@ -349,7 +358,7 @@ APPOINTMENT_BOOKING_REMINDER_TEMPLATE = <<-eof
 1. Change due date of this task to day before appointment
 2. On due date, send message to member:
 
-        Remember, [your/member name’s] appointment with Dr. [First Last] is [tomorrow]. Here are the details of the appointment:
+        Remember, [your/member name’s] appointment with Dr. [First Last] is [tomorrow]. Here are the details of the appointment.
 
         [Copy and paste appointment details from Service Deliverable Draft]
 

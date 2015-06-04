@@ -35,7 +35,7 @@ PROVIDER_SEARCH_UPDATE = <<-eof
 eof
 
 PROVIDER_SEARCH_REQUEST = <<-eof
-Find [provider type] near [zip code] who takes [insurance], [other preferences]
+Find a [provider type] near [zip code] who takes [insurance], [other preferences]
 eof
 
 ServiceTemplate.upsert_attributes({name: "provider search"},
