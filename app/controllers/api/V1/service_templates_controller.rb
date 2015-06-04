@@ -61,8 +61,4 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   def load_service_templates!
     @service_templates = ServiceTemplate.where(params.permit(:service_type_id))
   end
-
-  def service_template_attributes
-    params.require(:service_template).permit(:name, :title, :description, :service_type_id, :time_estimate, :state_event)
-  end
 end
