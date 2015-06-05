@@ -27,7 +27,7 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
     end
 
     if @service_template.unpublished?
-      update_resource @service_template, permitted_params.service_template
+      update_resource @service_template, permitted_params.service_template_attributes
     else
       @new_service_template = ServiceTemplate.create!(@service_template.attributes.except(:id, :version, :created_at, :updated_at, :state_event))
       @new_service_template.task_templates.each do |tt|
