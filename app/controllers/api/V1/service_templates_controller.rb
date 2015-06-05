@@ -11,7 +11,13 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
 
   def create
     authorize! :create, ServiceTemplate
-    create_resource @service_templates, permitted_params.service_template
+
+    if unique_id = params[:service_template].try(:[], :unique_id)
+      @current_service_template = ServiceTemplate.where(unique_id: unique_id).order('version DESC').first!
+      @new_service_template = @current_service_template.create_deep_copy!
+    else
+      create_resource @service_templates, permitted_params.service_template_attributes
+    end
   end
 
   def show
