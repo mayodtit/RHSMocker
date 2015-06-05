@@ -1195,58 +1195,80 @@ TaskTemplate.upsert_attributes({name: "appointment preparation - cf - follow up"
 # BMI Management
 
 BMI_MANAGEMENT_3_MONTHS_INITIAL_TASK_DESCRIPTION = <<-eof
+**This task is assigned to PHA**
+
 1. Change due date of this task to 1 business day before first weigh in (ex. if Monday, schedule task for Friday. If Tuesday, schedule task for Monday, etc)
 2. Schedule a reminder message **due at the time they weigh in** (copy below)
 3. Complete task
->Hi [member], it’s time for a weigh-in! Go ahead and weigh yourself and [enter it here](better://nb?cmd=showMedicalInformation) or send it in a message.
+
+        Hi [member], it’s time for a weigh-in! Go ahead and weigh yourself and [enter it here](better://nb?cmd=showMedicalInformation) or send it in a message.
+
 eof
 
 BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_A_DESCRIPTION = <<-eof
 1. Schedule a reminder message due at the time they weigh in (copy below)
 2. Complete task
->Hi [member], it’s time for a weigh-in! Go ahead and weigh yourself and [enter it here](better://nb?cmd=showMedicalInformation) or send it in a message.
+
+        Hi [member], it’s time for a weigh-in! Go ahead and weigh yourself and [enter it here](better://nb?cmd=showMedicalInformation) or send it in a message.
+
 eof
 
 BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_B_DESCRIPTION = <<-eof
 1. Schedule a reminder message due at the time they weigh in (copy below)
 2. Complete task
-> It’s that time again! [Enter your weight here](better://nb?cmd=showMedicalInformation) and I’ll keep track of your progress.
+
+        It’s that time again! [Enter your weight here](better://nb?cmd=showMedicalInformation) and I’ll keep track of your progress.
+
 eof
 
 BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_C_DESCRIPTION = <<-eof
 1. Schedule a reminder message due at the time they weigh in (copy below)
 2. Complete task
-> Hi there [member] - just a reminder for your weekly weigh-in! Hop on that scale and [enter your weight here](better://nb?cmd=showMedicalInformation) or send it in a message.
+
+        Hi there [member] - just a reminder for your weekly weigh-in! Hop on that scale and [enter your weight here](better://nb?cmd=showMedicalInformation) or send it in a message.
+
 eof
 
 BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_D_DESCRIPTION = <<-eof
 1. Schedule a reminder message due at the time they weigh in (copy below)
 2. Complete task
-> Time to weigh yourself! After you do, [tap here to enter it in your profile](better://nb?cmd=showMedicalInformation) or send it to me in a message.
+
+        Time to weigh yourself! After you do, [tap here to enter it in your profile](better://nb?cmd=showMedicalInformation) or send it to me in a message.
+
 eof
 
 BMI_MANAGEMENT_3_MONTHS_TASK_B_DESCRIPTION = <<-eof
+**This task is assigned to PHA**
+
 1. Check messages and profile to see if member sent or entered their weight for that day
 2. If yes, save BMI and date in **Service Update**, **Service Deliverable** and enter into member’s profile (unless HCC has done so)
 3. Send message
 4. Complete task
 
 **If weight sent/entered:**
->Thanks for entering your weight - keep up the good work! I’ll remind you again next week.
+
+        Thanks for entering your weight - keep up the good work! I’ll remind you again next week.
 
 **If not:**
->Hi [member], did you get a chance to weigh yourself today?
+
+        Hi [member], did you get a chance to weigh yourself today?
 
 * Dig in to what blocked them from weighing in today
 eof
 
 BMI_MANAGEMENT_3_MONTHS_COMPILE_BMI_DESCRIPTION = <<-eof
+**This task is assigned to PHA**
+
 1. Confirm that all BMI measurements entered in the member’s profile are saved in the **Service Update** and **Service Deliverable**
 2. Add to Service Deliverable:
-  Overall, your BMI [increased/decreased/stayed the same]. Here are the measurements to show Dr. [doctor name] at your next visit:
+
+        Overall, your BMI [increased/decreased/stayed the same]. Here are the measurements to show Dr. [doctor name] at your next visit:
+
 3. Send member a message updating them
-Hi [member], I’ve saved the progress of your last 3 months of BMI tracking. You can see details in the Services section of the app. Here are the measurements to show Dr. [doctor name] at your next visit:
-	* **BMI and date:**
+
+        Hi [member], I’ve saved the progress of your last 3 months of BMI tracking. You can see details in the Services section of the app. Here are the measurements to show Dr. [doctor name] at your next visit:
+	       * **BMI and date:**
+
 eof
 
 TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule reminder - weigh 1"},
@@ -1265,7 +1287,7 @@ TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule remi
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
                                 title: "Schedule reminder - Weigh-In 2",
                                 description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_B_DESCRIPTION,
-                                time_estimate: 7200,
+                                time_estimate: 14400,
                                 service_ordinal: 2})
 TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 2"},
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
@@ -1277,7 +1299,7 @@ TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule remi
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
                                 title: "Schedule reminder - Weigh-In 3",
                                 description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_C_DESCRIPTION,
-                                time_estimate: 7200,
+                                time_estimate: 14400,
                                 service_ordinal: 4})
 TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 3"},
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
@@ -1289,7 +1311,7 @@ TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule remi
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
                                 title: "Schedule reminder - Weigh-In 4",
                                 description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_D_DESCRIPTION,
-                                time_estimate: 7200,
+                                time_estimate: 14400,
                                 service_ordinal: 6})
 TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 4"},
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
@@ -1301,7 +1323,7 @@ TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule remi
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
                                 title: "Schedule reminder - Weigh-In 5",
                                 description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_A_DESCRIPTION,
-                                time_estimate: 7200,
+                                time_estimate: 14400,
                                 service_ordinal: 8})
 TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 5"},
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
@@ -1313,7 +1335,7 @@ TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule remi
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
                                 title: "Schedule reminder - Weigh-In 6",
                                 description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_B_DESCRIPTION,
-                                time_estimate: 7200,
+                                time_estimate: 14400,
                                 service_ordinal: 10})
 TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 6"},
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
@@ -1325,7 +1347,7 @@ TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule remi
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
                                 title: "Schedule reminder - Weigh-In 8",
                                 description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_C_DESCRIPTION,
-                                time_estimate: 7200,
+                                time_estimate: 14400,
                                 service_ordinal: 12})
 TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 7"},
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
@@ -1337,7 +1359,7 @@ TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule remi
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
                                 title: "Schedule reminder - Weigh-In 8",
                                 description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_D_DESCRIPTION,
-                                time_estimate: 7200,
+                                time_estimate: 14400,
                                 service_ordinal: 14})
 TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 8"},
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
@@ -1349,7 +1371,7 @@ TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule remi
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
                                 title: "Schedule reminder - Weigh-In 9",
                                 description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_A_DESCRIPTION,
-                                time_estimate: 7200,
+                                time_estimate: 14400,
                                 service_ordinal: 16})
 TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 9"},
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
@@ -1361,7 +1383,7 @@ TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule remi
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
                                 title: "Schedule reminder - Weigh-In 10",
                                 description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_B_DESCRIPTION,
-                                time_estimate: 7200,
+                                time_estimate: 14400,
                                 service_ordinal: 18})
 TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 10"},
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
@@ -1373,7 +1395,7 @@ TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule remi
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
                                 title: "Schedule reminder - Weigh-In 11",
                                 description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_C_DESCRIPTION,
-                                time_estimate: 7200,
+                                time_estimate: 14400,
                                 service_ordinal: 20})
 TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 11"},
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
@@ -1385,7 +1407,7 @@ TaskTemplate.upsert_attributes({name: "bmi management - 3 months - schedule remi
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
                                 title: "Schedule reminder - Weigh-In 12",
                                 description: BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_D_DESCRIPTION,
-                                time_estimate: 7200,
+                                time_estimate: 14400,
                                 service_ordinal: 22})
 TaskTemplate.upsert_attributes({name: "bmi management - 3 months - follow up - weigh 12"},
                                {service_template: ServiceTemplate.find_by_name('bmi management - 3 months'),
