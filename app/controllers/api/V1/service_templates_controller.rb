@@ -22,26 +22,11 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   def update
     authorize! :update, @service_template
 
-    if service_template_attributes[:state_event] == 'publish'
+    if permitted_params.service_template_attributes[:state_event] == 'publish'
       @service_template.publish!
     end
 
-    if @service_template.unpublished?
-      update_resource @service_template, permitted_params.service_template_attributes
-    else
-      @new_service_template = ServiceTemplate.create!(@service_template.attributes.except(:id, :version, :created_at, :updated_at, :state_event))
-      @new_service_template.task_templates.each do |tt|
-        @new_task_template = TaskTemplate.create!(tt.new_task_template_attributes.merge(:service_template, @new_service_template))
-        @new_modal_template = ModalTemplate.create!(tt.modal_template) if @new_task_template.modal_template_id
-        tt.update_attributes!(:modal_template_id, @new_modal_template.id) if @new_task_template.modal_template_id
-      end
-
-      if @new_service_template.errors.empty?
-        render_success(service_template: @new_service_template.serializer)
-      else
-        render_failure({reason: @new_service_template.errors.full_messages.to_sentence}, 422)
-      end
-    end
+    update_resource @service_template, permitted_params.service_template_attributes
   end
 
   def destroy
