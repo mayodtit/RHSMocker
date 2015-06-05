@@ -37,6 +37,14 @@ class ServiceTemplate < ActiveRecord::Base
     service
   end
 
+  def create_deep_copy!
+    new_service_template = self.class.create!(attributes.except('id', 'version', 'state', 'created_at', 'updated_at'))
+    task_templates.each do |tt|
+      tt.create_deep_copy!(new_service_template)
+    end
+    new_service_template
+  end
+
   private
 
   def set_unique_id
