@@ -202,7 +202,7 @@ RHSMocker::Application.routes.draw do
       resources :service_types, only: [:index] do
         get :buckets, on: :collection
       end
-      resources :service_templates, only: [:index, :create, :show]
+      resources :service_templates, only: [:index, :create, :show, :update, :destroy]
       resources :task_templates, only: [:show, :create]
       resources :domains, only: :index do
         get :all_domains, on: :collection
