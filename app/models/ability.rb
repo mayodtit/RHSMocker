@@ -120,9 +120,12 @@ class Ability
       can :manage, ScheduledMessage
       can :manage, ScheduledCommunication
       can :manage, MessageTemplate
+      can :manage, Entry
+    end
+
+    if user.service_admin?
       can :manage, ServiceTemplate
       can :manage, TaskTemplate
-      can :manage, Entry
     end
 
     if user.pha_lead?
