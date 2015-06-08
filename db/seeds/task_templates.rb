@@ -1671,7 +1671,7 @@ TaskTemplate.upsert_attributes({name: "kinsights records - send member update - 
                                 title: "Send member update - forms received by source provider",
                                 description: KINSIGHTS_RECORDS_SEND_MEMBER_UPDATE_FORMS_RECEIVED,
                                 time_estimate: 60,
-                                service_ordinal: 7
+                                service_ordinal: 7})
 TaskTemplate.upsert_attributes({name: "kinsights records - check sfax"},
                                {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
                                 title: "Check sfax - Confirm records received",
