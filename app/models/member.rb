@@ -535,11 +535,11 @@ class Member < User
   end
 
   def add_weather_content
-      if (5..9).include?(Date.today.month)
-        add_hot_weather_content
-      else
-        add_cold_weather_content
-      end
+    if (5..9).include?(Date.today.month)
+      add_hot_weather_content
+    else
+      add_cold_weather_content
+    end
   end
 
   def add_mayo_pilot_content
