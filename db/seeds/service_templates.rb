@@ -496,7 +496,6 @@ ServiceTemplate.upsert_attributes({name: "Kinsights Records"},
                                   service_request: KINSIGHTS_RECORD_REQUEST,
                                   user_facing: true,
                                   service_type: ServiceType.find_by_name('record recovery'),
-                                  timed_service: true,
                                   time_estimate: 43200}
 )
 
@@ -536,8 +535,8 @@ eof
 
 ServiceTemplate.upsert_attributes({name: "PHA Intro + Check-Ins - Kinsights"},
                                  {title: "Kinsights Check-In",
-                                  description: KINSIGHTS_RECORD_DESCRIPTION,
-                                  service_update: KINSIGHTS_RECORD_UPDATE,
+                                  description: KINSIGHTS_ONBOARDING_DESCRIPTION,
+                                  service_update: KINSIGHTS_ONBOARDING_UPDATE,
                                   user_facing: false,
                                   service_type: ServiceType.find_by_name('member onboarding'),
                                   timed_service: true,
