@@ -1700,24 +1700,16 @@ KINSIGHTS_CHECKINS_PHA_INTRO = <<-eof
 
 **If NO info on child yet:**
 
-M1
+Hello! I'm [PHA name], your Personal Health Assistant at Better. We are excited to work with you as a Kinsights community member! We'll get started by reviewing [child's name]'s Kinsights profile, and then creating a profile for [her/him] in your Better app. We'll continue to keep your child's Kinsights profile up-to-date with any new information.
 
-        I’m ____,  your Personal Health Assistant at Better. We are excited to work with you as a Kinsights community member! We’ll get started by reviewing your Kinsights profile and create a profile for your child’s information in Better. We’ll also keep your Kinsight profile up-to-date with any other information.
 
-M2
-
-        A few services that other Kinsights members find most helpful are: booking appointments, investigating insurance or medical bills, collecting medical records and uploading them to Kinsights, and looking for prescription rebates or assistance programs. Would you like to get started on any of these?
+A few services that other Kinsights members find most helpful are: booking appointments, reviewing medical bills, collecting medical records and uploading them to Kinsights, and researching for prescription rebates or assistance programs. Would you like to get started on any of these?
 
 **If Info in profile:**
 
-M1
+Hi, I'm [PHA name], your Personal Health Assistant at Better. We are excited to work with you as a Kinsights community member! We've reviewed your profile and we'll be creating a profile for your child very soon. Then, we're ready to get started serving you and [child's name]!
 
-        I’m [PHA Name],  your Personal Health Assistant at Better. We are excited to work with you as a Kinsights community members to serve you and [Child’s name]! We’ve reviewed your profile and are working on creating a profile for [child’s name].
-
-M2
-
-        Based on your Kinsights profile here’s what I think would be helpful: Booking [child’s name] next pulmonary appointment, reviewing any medical bills in question, collecting [child’s name] and uploading them to Kinsights. Is there anything else that we can get started on for you?
-
+Based on your Kinsights profile here’s what I think would be helpful: Booking [child’s name] next pulmonary appointment, reviewing any medical bills in question, collecting [child’s name]'s medical record and uploading them to Kinsights. Is there anything else that we can get started on for you?
 eof
 
 KINSIGHTS_CHECKINS_CHECK_IN = <<-eof

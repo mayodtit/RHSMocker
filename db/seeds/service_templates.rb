@@ -434,7 +434,7 @@ Collect and upload your child’s medical records to Kinsights from [Dr First La
 eof
 
 KINSIGHTS_RECORD_DESCRIPTION = <<-eof
-*This service is assigned to Specialist**
+**This service is assigned to Specialist**
 
 #Member Request
 * **Member:**
@@ -481,13 +481,13 @@ KINSIGHTS_RECORD_UPDATE = <<-eof
 #Specialist next steps:
 
 Proofread the form by marking an “x” by each item that you check:
-  * Member name ()
-  * Date of birth  ()
-  * Address ()
-  * Correct Insurance company ()
-  * Insurance number ()
-  * Correct places to sign/initial ()
-  * Date  ()
+  - Member name ()
+  - Date of birth  ()
+  - Address ()
+  - Correct Insurance company ()
+  - Insurance number ()
+  - Correct places to sign/initial ()
+  - Date ()
 eof
 
 ServiceTemplate.upsert_attributes({name: "Kinsights Records"},
