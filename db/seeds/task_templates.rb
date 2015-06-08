@@ -1421,3 +1421,394 @@ TaskTemplate.upsert_attributes({name: "bmi management - 3 months - compile BMI"}
                                 description: BMI_MANAGEMENT_3_MONTHS_COMPILE_BMI_DESCRIPTION,
                                 time_estimate: 60,
                                 service_ordinal: 24})
+
+# kinsights records RECOVERY
+
+KINSIGHTS_RECORDS_CALL_VERIFY_RECORDS = <<-eof
+**This task is assigned to Specialist**
+
+1. Call Source Provider and record notes in Internal Service Notes - Specialist Notes
+  * Request records release form from source provider via fax, email, or website
+  * Is there a cost for records? (Better will pay up to $20. If more - see Jenn)
+  * Does it cost anything for electronic copy of records?
+  * How will the records be sent? Fax, secure email, snail mail? To member or destination provider?
+  * How long does it take to process the request? (If necessary - can you expedite it?)
+  * Is it a generic form or specific for the provider
+2. If records release form is on website, copy and paste link into Internal Service Notes - Member Request: Source Provider Info
+3. Call Destination Provider and record notes in Internal Service Notes - Specialist Notes
+  * Verify contact information
+  * How long does it normally take to process?
+  * Let them know if records are being faxed/mailed or dropped of by the patient
+eof
+
+KINSIGHTS_RECORDS_FILL_OUT_FORMS = <<-eof
+**This task is assigned to Specialist**
+
+1. Find link to records release form in Internal Service Notes - Member Request or check sfax for form
+2. Download form to your computer
+3. Fill out with member’s information, signature fields, and date in Preview
+4. Upload to member’s Google Drive folder  - save as “ForReview_[LastName]_[FirstName]_[SourceProvider]_[Destination Provider]”
+5. Copy and paste link to filled out form in Internal Service Notes - Specialist Notes
+7. Complete Task
+eof
+
+KINSIGHTS_RECORDS_SEND_FORMS = <<-eof
+**This task is assigned to Specialist**
+
+1. Reassign to another Specialist who can proofread and send the records release form
+2. Find the link to the filled out form in Internal Service Notes - Specialist Notes
+3. Download the form and open in Preview
+4. Proofread the form using the checklist in Internal Service Notes - Specialist Notes and make any necessary changes
+5. Go to HelloSign.com
+6. Upload form to HelloSign
+7. Input correct member name and email address
+8. Update HelloSign message:
+
+        Document Title:
+
+        Records Release Form
+
+        Message:
+
+        Here is the records release form for you to sign. Once it's signed, I'll send it to [source provider]. Send me a message in the app if you have any questions!
+
+9. Send form to member
+10. Go to member’s Google Drive
+10. Complete Task
+11. Reassign next automatic task to PHA (“Send member update - sign records release form”)
+eof
+
+KINSIGHTS_RECORDS_SEND_MEMBER_UPDATE_SIGN_FORMS = <<-eof
+**This task is assigned to PHA**
+
+1. Copy, paste, and edit into User-Facing Service Request:
+
+        [mm/dd]: We sent you a records release form from [source provider] to sign via HelloSign.
+
+2. Send message to member:
+
+        We’ve sent a records release form for you to sign. You should see an email from HelloSign.com with the form. Once it’s signed, We’ll send it to your doctor to get your records transferred. Let us know if you have any questions!
+
+3. Complete Task
+eof
+
+KINSIGHTS_RECORDS_SEND_FORMS_TO_PROVIDER = <<-eof
+**This task is assigned to Specialist**
+
+1. Search for signed form on HelloSign.com using member’s email address
+2. **If form not signed:**
+
+  * Create a new task assigned to PHA titled: “UPDATE - remind member to sign records release form”
+  * Copy and paste the following steps and Member Request into the new Task Steps:
+
+            1. Send message to member using the details in the Member Request below:
+
+                    Just a reminder to sign the records release form that we sent you through HelloSign.com. Once it’s signed, we’ll send it to [source provider]. Let us know if you have any questions. Thanks!
+
+                    [Copy and paste the Internal Service Notes - Member Request]
+
+  * Copy and paste this into Internal Service Notes - Specialist Notes:
+
+            [mm/dd]: Checked HelloSign for signed form and created task for PHA to remind member to sign form
+
+  * Push current task back 1 day (“Send - signed authorization form to insurance”)
+
+3. **If form signed:**
+  * Download signed form from HelloSign
+  * Upload signed form to member’s Google Drive folder - save as “Signed_HospitalName_RecordRequest”
+  * Paste link to signed form into Internal Service Notes - Specialist Notes
+4. Mail **and/or** fax the form to the address/number listed on the form
+5. Record date request sent under Internal Service Notes - Specialist Notes
+5. Complete Task
+6. Reassign next automatic task to PHA (“Send member update - records release form sent”)
+eof
+
+KINSIGHTS_RECORDS_SEND_MEMBER_UPDATE_FORMS_SENT = <<-eof
+**This task is assigned to PHA**
+
+1. Copy, paste, and edit into User-Facing Service Request:
+
+        [mm/dd]: You signed the release form and we sent it to [source provider].
+
+2. Send message to member:
+
+        We’ve sent the records release form to [source provider]. We’ll call them in a couple days to confirm that it was received.
+
+3. Complete Task
+eof
+
+KINSIGHTS_RECORDS_CALL_CONFIRM_FORM_RECEIVED = <<-eof
+**This task is assigned to Specialist**
+
+1. Call source provider to confirm form was received
+2. **If form not received:**
+  * Check sfax for confirmation of sending, re-confirm fax number/address with source provider, and resend
+  * Create a new task assigned to PHA titled: “UPDATE - remind member to sign records release form”
+  * Copy and paste the following steps, link to the Service, and Member Request into the new Task Steps:
+
+            Service: [Link to this Service]
+            [Copy and paste Member Request]
+
+            1. Click on the link to the Service
+            2. Copy, paste, and edit into User-Facing Service Request:
+
+                    [mm/dd]: We called [source provider] and they hadn’t received the records release form. We’re going to resend it and confirm that they receive it.
+
+            2. Send message to member:
+
+                    We checked in with [source provider] today and there was a problem on their end so they haven’t received the records release form. We’re working with them to fix this and will keep you updated.
+
+  * Push current task back 1 day (“Call - confirm records release form received”)
+
+3.**If form received:**
+  * Complete Task
+  * Reassign next automatic task to PHA (“Send member update - forms received by source provider”)
+eof
+
+KINSIGHTS_RECORDS_SEND_MEMBER_UPDATE_FORMS_RECEIVED = <<-eof
+**This task is assigned to PHA**
+
+1. Copy, paste, and edit into User-Facing Service Request:
+
+        [mm/dd]: We’ve contacted [source provider] and they received the records release form.
+
+2. Send message to member:
+
+        The records release form you signed has been received by [source provider]. They should arrive at [destination provider] in the next week. We’ll continue to follow up and let you know when they are transferred!
+
+3. Complete Task
+eof
+
+KINSIGHTS_RECORDS_CHECK_SFAX = <<-eof
+**This task is assigned to Specialist**
+
+1. Check sfax to see if records came in
+2. **If not received:**
+ * Check sfax for confirmation of sending, re-confirm fax number/address with source hospital and resend
+ * Push back task 1 day
+ * Create an update task for PHA with this copy:
+
+            I checked in to see if we got the records from [source doctor] and there was a problem on their end so we haven’t received the records. I’m working with them to fix it and will keep you updated.
+
+3.**If received, ** complete task
+4.  Reassign next automatic task ("Upload and edit record to Kinsights") to Ninette, Jenn, Clare, or Sheila
+eof
+
+KINSIGHTS_RECORDS_UPLOAD_TO_KINSIGHTS = <<-eof
+**This task is assigned to Ninette, Jenn, Clare, or Sheila **
+
+1. Download records for child from sfax
+2. Log-into Admin account and find member’s profile and find child.
+  username: BetterPHA
+  password: G3tB3tt3r!
+
+3. Upload PDF to profile (on right hand side of portal)
+4. Review records and upload pertinent information into Kinsights
+  * Allergies
+  * Medical conditions
+  * Next appointment
+  * Height / weight
+  * Immunizations
+5. Download the completed Kinsights records and save signed form to member’s file in drive as “memberID_KinsightsRecords_date”
+6. Complete task
+7. Reassign next automatic task (“Send member update - medical records uploaded ”) to PHA
+eof
+
+KINSIGHTS_RECORDS_SEND_MEMBER_UPDATE_RECORDS_UPLOADED = <<-eof
+**This task is assigned to PHA**
+
+1. Send message to member to let them know that medical records have been uploaded:
+
+        We’ve uploaded your child’s medical records to kinsights! You can download a short version that is great to use for caregivers or new doctors appointments from Kinsights. Let me know if you have any questions
+
+2. Complete task
+eof
+
+TaskTemplate.upsert_attributes({name: "kinsights records - call - verify records"},
+                               {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
+                                title: "Call - verify records release information",
+                                description: KINSIGHTS_RECORDS_CALL_VERIFY_RECORDS,
+                                time_estimate: 60,
+                                service_ordinal: 0})
+TaskTemplate.upsert_attributes({name: "kinsights records - fill out release form"},
+                               {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
+                                title: "Fill out records release form",
+                                description: KINSIGHTS_RECORDS_FILL_OUT_FORMS,
+                                time_estimate: 60,
+                                service_ordinal: 1})
+TaskTemplate.upsert_attributes({name: "kinsights records - send authorization form"},
+                               {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
+                                title: "Proofread and send completed authorization form",
+                                description: KINSIGHTS_RECORDS_SEND_FORMS,
+                                time_estimate: 60,
+                                service_ordinal: 2})
+TaskTemplate.upsert_attributes({name: "kinsights records - send member update - sign forms"},
+                               {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
+                                title: "Send member update - sign records release form",
+                                description: KINSIGHTS_RECORDS_SEND_MEMBER_UPDATE_SIGN_FORMS,
+                                time_estimate: 60,
+                                service_ordinal: 3})
+TaskTemplate.upsert_attributes({name: "kinsights records - send release form to source provider"},
+                               {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
+                                title: "Send - signed records release form to source provider",
+                                description: KINSIGHTS_RECORDS_SEND_FORMS_TO_PROVIDER,
+                                time_estimate: 1440,
+                                service_ordinal: 4})
+TaskTemplate.upsert_attributes({name: "kinsights records - send member update - forms sent"},
+                               {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
+                                title: "Send member update - records release form sent",
+                                description: KINSIGHTS_RECORDS_SEND_MEMBER_UPDATE_FORMS_SENT,
+                                time_estimate: 60,
+                                service_ordinal: 5})
+TaskTemplate.upsert_attributes({name: "kinsights records - call - confirm forms received"},
+                               {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
+                                title: "Call - confirm records release form received",
+                                description: KINSIGHTS_RECORDS_CALL_CONFIRM_FORM_RECEIVED,
+                                time_estimate: 1440,
+                                service_ordinal: 6})
+TaskTemplate.upsert_attributes({name: "kinsights records - send member update - forms received"},
+                               {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
+                                title: "Send member update - forms received by source provider",
+                                description: KINSIGHTS_RECORDS_SEND_MEMBER_UPDATE_FORMS_RECEIVED,
+                                time_estimate: 60,
+                                service_ordinal: 7
+TaskTemplate.upsert_attributes({name: "kinsights records - check sfax"},
+                               {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
+                                title: "Check sfax - Confirm records received",
+                                description: KINSIGHTS_RECORDS_CHECK_SFAX,
+                                time_estimate: 1440,
+                                service_ordinal: 8})
+TaskTemplate.upsert_attributes({name: "kinsights records - upload to kinsights"},
+                               {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
+                                title: "Upload and edit record to Kinsights",
+                                description: KINSIGHTS_RECORDS_UPLOAD_TO_KINSIGHTS,
+                                time_estimate: 60,
+                                service_ordinal: 9})
+TaskTemplate.upsert_attributes({name: "kinsights records - send member update - records uploaded"},
+                               {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
+                                title: " Send member update - medical records uploaded",
+                                description: KINSIGHTS_RECORDS_UPLOAD_TO_KINSIGHTS,
+                                time_estimate: 60,
+                                service_ordinal: 10})
+
+# PHA Intro + Check-Ins - Kinsights
+KINSIGHTS_CHECKINS_PHA_INTRO = <<-eof
+**This task is assigned to PHA**
+
+1. Review Better profile for notes on child
+2. Edit message draft below to introduce yourself
+
+**If NO info on child yet:**
+
+M1
+
+        I’m ____,  your Personal Health Assistant at Better. We are excited to work with you as a Kinsights community member! We’ll get started by reviewing your Kinsights profile and create a profile for your child’s information in Better. We’ll also keep your Kinsight profile up-to-date with any other information.
+
+M2
+
+        A few services that other Kinsights members find most helpful are: booking appointments, investigating insurance or medical bills, collecting medical records and uploading them to Kinsights, and looking for prescription rebates or assistance programs. Would you like to get started on any of these?
+
+**If Info in profile:**
+
+M1
+
+        I’m [PHA Name],  your Personal Health Assistant at Better. We are excited to work with you as a Kinsights community members to serve you and [Child’s name]! We’ve reviewed your profile and are working on creating a profile for [child’s name].
+
+M2
+
+        Based on your Kinsights profile here’s what I think would be helpful: Booking [child’s name] next pulmonary appointment, reviewing any medical bills in question, collecting [child’s name] and uploading them to Kinsights. Is there anything else that we can get started on for you?
+
+eof
+
+KINSIGHTS_CHECKINS_CHECK_IN = <<-eof
+**This task is assigned to PHA**
+
+**Update Kinsights profile/Better profile**
+1. Log into Kinsights account and click on child’s profile
+2. Compare Kinsights and Better for differences
+3. Make changes to both to reconcile
+4. Records updates in Internal Service Updates
+
+**Send message to member**
+
+Send message of your choice
+eof
+
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - pha intro"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: " PHA Intro - Kinsights",
+                                description: KINSIGHTS_CHECKINS_PHA_INTRO,
+                                time_estimate: 60,
+                                service_ordinal: 0})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 1"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 1})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 2"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 2})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 3"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 3})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 4"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 4})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 5"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 5})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 6"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 6})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 7"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 7})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 8"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 8})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 9"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 9})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 10"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 10})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 11"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 11})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 12"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 12})
