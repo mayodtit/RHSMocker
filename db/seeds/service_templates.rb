@@ -427,4 +427,75 @@ ServiceTemplate.upsert_attributes({name: "bmi management - 3 months"},
                                    service_type: ServiceType.find_by_name('bmi management'),
                                    timed_service: true,
                                    time_estimate: 131760}
+
+KINSIGHTS_RECORD_REQUEST = <<-eof
+Collect and upload your child’s medical records to Kinsights from [Dr First Last]. This process can take up to 30 days depending on the office’s turn around time.
+eof
+
+KINSIGHTS_RECORD_DESCRIPTION = <<-eof
+*This service is assigned to Specialist**
+
+#Member Request
+* **Member:**
+* **Date of birth:**
+* **Purpose of transfer:** Personal Use
+* **Type of records to request:** All
+* **Link to blank record request form:**
+* **Link to complete record request form:**
+* **Link to signed request form:**
+* **Date request sent:**
+* **Link to member’s Kinsights profile: **
+
+**Records Source 1 - Collect from: **
+Name:
+Address:
+Fax Number:
+Office number:
+Record release form:
+
+**Destination - Send to: **
+Name: Better
+Address: 514 High Street Suite 4, Palo Alto, CA 94301
+Fax Number:
+HSA number’s Phone number:
+
+
+#Specialist Notes
+**Call notes - Source Provider:**
+Date of call:
+Who you spoke with:
+Call notes:
+Cost for records:
+How the records will sent:
+Turnaround time:
+Type of form: Generic/Specific for Provider
+
+
+**Records release form:**
+Date records release form sent: [mm/dd/yy]
+Date entered into Kinsights: [mm/dd/yy]
+eof
+
+KINSIGHTS_RECORD_UPDATE = <<-eof
+#Specialist next steps:
+
+Proofread the form by marking an “x” by each item that you check:
+  * Member name ()
+  * Date of birth  ()
+  * Address ()
+  * Correct Insurance company ()
+  * Insurance number ()
+  * Correct places to sign/initial ()
+  * Date  ()
+eof
+
+ServiceTemplate.upsert_attributes({name: "Kinsights Records"},
+                                 {title: "Collect and upload your child’s medical records to Kinsights",
+                                  description: KINSIGHTS_RECORD_DESCRIPTION,
+                                  service_update: KINSIGHTS_RECORD_UPDATE,
+                                  service_request: KINSIGHTS_RECORD_REQUEST,
+                                  user_facing: true,
+                                  service_type: ServiceType.find_by_name('record recovery'),
+                                  timed_service: true,
+                                  time_estimate: 43200}
 )
