@@ -427,6 +427,7 @@ ServiceTemplate.upsert_attributes({name: "bmi management - 3 months"},
                                    service_type: ServiceType.find_by_name('bmi management'),
                                    timed_service: true,
                                    time_estimate: 131760}
+)
 
 KINSIGHTS_RECORD_REQUEST = <<-eof
 Collect and upload your child’s medical records to Kinsights from [Dr First Last]. This process can take up to 30 days depending on the office’s turn around time.
