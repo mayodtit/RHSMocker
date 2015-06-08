@@ -504,3 +504,6 @@ DEPENDENCIES
   uglifier (>= 1.0.3)
   valid_email
   zeus-parallel_tests
+
+BUNDLED WITH
+   1.10.1
