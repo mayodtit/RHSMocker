@@ -1690,3 +1690,125 @@ TaskTemplate.upsert_attributes({name: "kinsights records - send member update - 
                                 description: KINSIGHTS_RECORDS_UPLOAD_TO_KINSIGHTS,
                                 time_estimate: 60,
                                 service_ordinal: 10})
+
+# PHA Intro + Check-Ins - Kinsights
+KINSIGHTS_CHECKINS_PHA_INTRO = <<-eof
+**This task is assigned to PHA**
+
+1. Review Better profile for notes on child
+2. Edit message draft below to introduce yourself
+
+**If NO info on child yet:**
+
+M1
+
+        I’m ____,  your Personal Health Assistant at Better. We are excited to work with you as a Kinsights community member! We’ll get started by reviewing your Kinsights profile and create a profile for your child’s information in Better. We’ll also keep your Kinsight profile up-to-date with any other information.
+
+M2
+
+        A few services that other Kinsights members find most helpful are: booking appointments, investigating insurance or medical bills, collecting medical records and uploading them to Kinsights, and looking for prescription rebates or assistance programs. Would you like to get started on any of these?
+
+**If Info in profile:**
+
+M1
+
+        I’m [PHA Name],  your Personal Health Assistant at Better. We are excited to work with you as a Kinsights community members to serve you and [Child’s name]! We’ve reviewed your profile and are working on creating a profile for [child’s name].
+
+M2
+
+        Based on your Kinsights profile here’s what I think would be helpful: Booking [child’s name] next pulmonary appointment, reviewing any medical bills in question, collecting [child’s name] and uploading them to Kinsights. Is there anything else that we can get started on for you?
+
+eof
+
+KINSIGHTS_CHECKINS_CHECK_IN = <<-eof
+**This task is assigned to PHA**
+
+**Update Kinsights profile/Better profile**
+1. Log into Kinsights account and click on child’s profile
+2. Compare Kinsights and Better for differences
+3. Make changes to both to reconcile
+4. Records updates in Internal Service Updates
+
+**Send message to member**
+
+Send message of your choice
+eof
+
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - pha intro"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: " PHA Intro - Kinsights",
+                                description: KINSIGHTS_CHECKINS_PHA_INTRO,
+                                time_estimate: 60,
+                                service_ordinal: 0})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 1"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 1})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 2"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 2})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 3"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 3})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 4"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 4})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 5"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 5})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 6"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 6})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 7"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 7})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 8"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 8})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 9"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 9})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 10"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 10})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 11"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 11})
+TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 12"},
+                               {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
+                                title: "Kinsights profile check + Send check-in",
+                                description: KINSIGHTS_CHECKINS_CHECK_IN,
+                                time_estimate: 10080,
+                                service_ordinal: 12})

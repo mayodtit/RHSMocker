@@ -499,3 +499,47 @@ ServiceTemplate.upsert_attributes({name: "Kinsights Records"},
                                   timed_service: true,
                                   time_estimate: 43200}
 )
+
+KINSIGHTS_ONBOARDING_DESCRIPTION = <<-eof
+**This service is assigned to PHA**
+
+**Profile for child built yet?:** Yes/No
+**Asana task to create profile:**
+**Kinsight info in profile notes?:** Yes/no
+**Link to Kinsights Profile:**
+  username: BetterPHA
+  password: G3tB3tt3r!
+
+#Check-in Message once a week
+
+#Sign into Kinsights and update data
+Each week review Better profile and Kinsight profile. Make additions to either Better profile or to Kinsight profile if discrepancies.
+
+**Areas to update: **
+* Height, Weight, BMI
+* Any allergies
+* Medical Conditions: Cystic Fibrosis
+* Immunizations
+* Any upcoming appointments
+eof
+
+KINSIGHTS_ONBOARDING_UPDATE = <<-eof
+#Kinsights Profile updates
+**[mm/dd/yy]:**
+**[mm/dd/yy]:**
+**[mm/dd/yy]:**
+**[mm/dd/yy]:**
+
+Add more notes/measurements below if needed
+
+eof
+
+ServiceTemplate.upsert_attributes({name: "PHA Intro + Check-Ins - Kinsights"},
+                                 {title: "Kinsights Check-In",
+                                  description: KINSIGHTS_RECORD_DESCRIPTION,
+                                  service_update: KINSIGHTS_RECORD_UPDATE,
+                                  user_facing: false,
+                                  service_type: ServiceType.find_by_name('member onboarding'),
+                                  timed_service: true,
+                                  time_estimate: 121020}
+)
