@@ -1,6 +1,6 @@
 class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   before_filter :load_user!
-  before_filter :load_service_templates!
+  before_filter :load_service_templates!, only: :index
   before_filter :load_service_template!, only: %w(show update)
   before_filter :prevent_update_service_template, only: :update
 
@@ -56,7 +56,20 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   end
 
   def load_service_templates!
-    @service_templates = ServiceTemplate.where(params.permit(:service_type_id))
+    authorize! :index, ServiceTemplate
+
+    search_params = params.permit(:state)
+
+    if search_params.has_key?(:state) && search_params[:state] == 'published'
+      search_params[:state] = 'published'
+    elsif search_params.has_key?(:state) && search_params[:state] == 'unpublished'
+      search_params[:state] = 'unpublished'
+    else
+      search_params[:state] = 'retired'
+    end
+
+    @service_templates = ServiceTemplate.where(search_params).order('service_templates.created_at DESC')
+    @service_templates = @service_templates.title_search(params[:title]) if params[:title]
   end
 
   def new_task_template_attributes

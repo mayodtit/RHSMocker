@@ -45,6 +45,11 @@ class ServiceTemplate < ActiveRecord::Base
     new_service_template
   end
 
+  def self.title_search(string)
+    wildcard = "%#{string}%"
+    where("service_templates.title LIKE ?", wildcard)
+  end
+
   private
 
   def set_unique_id
