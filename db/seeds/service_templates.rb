@@ -428,3 +428,118 @@ ServiceTemplate.upsert_attributes({name: "bmi management - 3 months"},
                                    timed_service: true,
                                    time_estimate: 131760}
 )
+
+KINSIGHTS_RECORD_REQUEST = <<-eof
+Collect and upload your child’s medical records to Kinsights from [Dr First Last]. This process can take up to 30 days depending on the office’s turn around time.
+eof
+
+KINSIGHTS_RECORD_DESCRIPTION = <<-eof
+**This service is assigned to Specialist**
+
+#Member Request
+* **Member:**
+* **Date of birth:**
+* **Purpose of transfer:** Personal Use
+* **Type of records to request:** All
+* **Link to blank record request form:**
+* **Link to complete record request form:**
+* **Link to signed request form:**
+* **Date request sent:**
+* **Link to member’s Kinsights profile: **
+
+**Records Source 1 - Collect from: **
+Name:
+Address:
+Fax Number:
+Office number:
+Record release form:
+
+**Destination - Send to: **
+Name: Better
+Address: 514 High Street Suite 4, Palo Alto, CA 94301
+Fax Number:
+HSA number’s Phone number:
+
+
+#Specialist Notes
+**Call notes - Source Provider:**
+Date of call:
+Who you spoke with:
+Call notes:
+Cost for records:
+How the records will sent:
+Turnaround time:
+Type of form: Generic/Specific for Provider
+
+
+**Records release form:**
+Date records release form sent: [mm/dd/yy]
+Date entered into Kinsights: [mm/dd/yy]
+eof
+
+KINSIGHTS_RECORD_UPDATE = <<-eof
+#Specialist next steps:
+
+Proofread the form by marking an “x” by each item that you check:
+  - Member name ()
+  - Date of birth  ()
+  - Address ()
+  - Correct Insurance company ()
+  - Insurance number ()
+  - Correct places to sign/initial ()
+  - Date ()
+eof
+
+ServiceTemplate.upsert_attributes({name: "Kinsights Records"},
+                                 {title: "Collect and upload your child’s medical records to Kinsights",
+                                  description: KINSIGHTS_RECORD_DESCRIPTION,
+                                  service_update: KINSIGHTS_RECORD_UPDATE,
+                                  service_request: KINSIGHTS_RECORD_REQUEST,
+                                  user_facing: true,
+                                  service_type: ServiceType.find_by_name('record recovery'),
+                                  time_estimate: 43200}
+)
+
+KINSIGHTS_ONBOARDING_DESCRIPTION = <<-eof
+**This service is assigned to PHA**
+
+**Profile for child built yet?:** Yes/No
+**Asana task to create profile:**
+**Kinsight info in profile notes?:** Yes/no
+**Link to Kinsights Profile:**
+  username: BetterPHA
+  password: G3tB3tt3r!
+
+#Check-in Message once a week
+
+#Sign into Kinsights and update data
+Each week review Better profile and Kinsight profile. Make additions to either Better profile or to Kinsight profile if discrepancies.
+
+**Areas to update: **
+* Height, Weight, BMI
+* Any allergies
+* Medical Conditions: Cystic Fibrosis
+* Immunizations
+* Any upcoming appointments
+eof
+
+KINSIGHTS_ONBOARDING_UPDATE = <<-eof
+#Kinsights Profile updates
+**[mm/dd/yy]:**
+**[mm/dd/yy]:**
+**[mm/dd/yy]:**
+**[mm/dd/yy]:**
+
+Add more notes/measurements below if needed
+
+eof
+
+ServiceTemplate.upsert_attributes({name: "PHA Intro + Check-Ins - Kinsights"},
+                                 {title: "Kinsights Check-In",
+                                  description: KINSIGHTS_ONBOARDING_DESCRIPTION,
+                                  service_update: KINSIGHTS_ONBOARDING_UPDATE,
+                                  user_facing: false,
+                                  service_type: ServiceType.find_by_name('member onboarding'),
+                                  timed_service: true,
+                                  time_estimate: 121020}
+)

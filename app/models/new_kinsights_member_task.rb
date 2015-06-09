@@ -16,15 +16,8 @@ class NewKinsightsMemberTask < Task
 
   private
 
-  TASK_DESCRIPTION = <<-eof
-1. Log into Kinsights
-2. Populate member's profile based off their Kinsights profile
-3. Copy family notes into member's profile
-
-eof
-
   def set_defaults
-    self.title ||= "New Kinsights Member"
+    self.title ||= "PHA Introduction - Kinsights"
     self.description ||= default_description
     self.creator ||= Member.robot
     self.due_at ||= Time.now + 5.minutes
@@ -32,6 +25,30 @@ eof
   end
 
   def default_description
-    TASK_DESCRIPTION + "Kinsights Patient URL: #{subject.kinsights_patient_url}\nKinsights Profile URL: #{subject.kinsights_profile_url}"
+<<-eof
+Link to HCC flow on website:  https://betterpha.squarespace.com/kinsights-pilot/
+
+#HCC Instructions
+**Collect KInsight data**
+Open Kinsights to review / Collect Data
+Kinsights Patient URL: #{subject.kinsights_patient_url}
+Kinsights Profile URL: #{subject.kinsights_profile_url}
+username: BetterPHA
+password: G3tB3tt3r!
+Add in member data to profile/ update section:
+  * Child’s name
+  * Child’s DOB
+  * Height, weight, BMI
+  * Any allergies
+  * Medical Conditions: Cystic Fibrosis
+  * Immunizations
+
+**Add Asana Task for add profile for child:**
+  1 .[Click here](https://app.asana.com/0/22759152719009/22759152719009) to add member to Baymax Asana Project and find template for kinsight. Copy template to create the task
+  2. Title the task: Kinsights- Member ID #
+  3. Paste the careportal member link into task
+  4. List name of child/family and birthday
+  5. Assign to Kyle to be due same day and you're done!
+eof
   end
 end
