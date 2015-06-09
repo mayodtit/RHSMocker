@@ -124,7 +124,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def feature_flag
-    params.require(:feature_flag).permit(:title, :enabled, :description)
+    params.require(:feature_flag).permit(:mvalue)
   end
 
   private

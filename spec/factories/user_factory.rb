@@ -49,6 +49,11 @@ FactoryGirl.define do
       end
       factory :admin, traits: %i(admin_role)
 
+      trait :super_admin_role do
+        after(:create) {|user| user.add_role(:super_admin)}
+      end
+      factory :super_admin, traits: %i(super_admin_role)
+
       trait :nurse_role do
         work_phone_number '4083913578'
         after(:create) {|user| user.add_role(:nurse)}

@@ -433,6 +433,7 @@ ActiveRecord::Schema.define(:version => 20150609211901) do
     t.integer  "feature_flag_id"
     t.integer  "actor_id"
     t.text     "data"
+    t.string   "action"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
   end

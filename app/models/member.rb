@@ -207,6 +207,10 @@ class Member < User
     has_role?(:admin)
   end
 
+  def super_admin?
+    has_role?(:super_admin)
+  end
+
   def nurse?
     has_role?(:nurse)
   end

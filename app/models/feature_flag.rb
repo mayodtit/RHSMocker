@@ -2,13 +2,10 @@ class FeatureFlag < Metadata
 
   has_many :feature_flag_changes
 
-  attr_accessible :description
+  attr_accessor :actor_id
+  attr_accessible :description, :actor_id
 
   after_save :track_update, on: :update
-
-  def feature_enabled?
-    mvalue == 'true'
-  end
 
   def track_update
     changes = self.changes.except(:created_at, :updated_at, :avatar)

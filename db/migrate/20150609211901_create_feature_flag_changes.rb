@@ -4,7 +4,7 @@ class CreateFeatureFlagChanges < ActiveRecord::Migration
       t.integer :feature_flag_id
       t.integer :actor_id
       t.text :data
-
+      t.string :action
       t.timestamps
     end
       add_index :feature_flag_changes, :feature_flag_id
