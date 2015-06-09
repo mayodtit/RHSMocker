@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150602002628) do
+ActiveRecord::Schema.define(:version => 20150609211901) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -429,6 +429,16 @@ ActiveRecord::Schema.define(:version => 20150602002628) do
 
   add_index "factors", ["factor_group_id"], :name => "index_factors_on_factor_group_id"
 
+  create_table "feature_flag_changes", :force => true do |t|
+    t.integer  "feature_flag_id"
+    t.integer  "actor_id"
+    t.text     "data"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
+  add_index "feature_flag_changes", ["feature_flag_id"], :name => "index_feature_flag_changes_on_feature_flag_id"
+
   create_table "feature_groups", :force => true do |t|
     t.string   "name"
     t.datetime "created_at",        :null => false
@@ -575,10 +585,12 @@ ActiveRecord::Schema.define(:version => 20150602002628) do
   add_index "messages", ["user_id"], :name => "index_messages_on_user_id"
 
   create_table "metadata", :force => true do |t|
-    t.string   "mkey",       :null => false
-    t.string   "mvalue",     :null => false
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.string   "mkey",        :null => false
+    t.string   "mvalue",      :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.string   "type"
+    t.text     "description"
   end
 
   create_table "modal_templates", :force => true do |t|

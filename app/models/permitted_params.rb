@@ -122,6 +122,11 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   def task_template
     params.require(:task_template).permit(:name, :title, :service_template, :description, :time_estimate, :service_ordinal, :modal_template_id)
   end
+
+  def feature_flag
+    params.require(:feature_flag).permit(:title, :enabled, :description)
+  end
+
   private
 
   def user_request_attributes
