@@ -227,6 +227,10 @@ class Member < User
     pha? || nurse?
   end
 
+  def beta?
+    has_role?(:beta)
+  end
+
   def on_call?
     nurse? || read_attribute(:on_call)
   end
