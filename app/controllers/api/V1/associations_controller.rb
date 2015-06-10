@@ -49,9 +49,9 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def load_associations!
     @associations = if params[:state] == 'pending'
-                      @user.associations.pending.includes(:permission)
+                      @user.associations.pending.includes(:permission, :associate)
                     else
-                      @user.associations.enabled.includes(:permission)
+                      @user.associations.enabled.includes(:permission, :associate)
                     end
   end
 
@@ -172,7 +172,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   def serializer_options
     {}.tap do |options|
       options.merge!(scope: current_user)
-      options.merge!(include_nested_information: true) if current_user.care_provider?
+      options.merge!(shallow: true) if current_user.care_provider?
     end
   end
 end
