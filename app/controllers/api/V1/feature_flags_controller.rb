@@ -7,8 +7,10 @@ class Api::V1::FeatureFlagsController < Api::V1::ABaseController
   end
 
   def update
-    permitted_params.feature_flag[:actor_id] = current_user.id if current_user
-    update_resource @feature_flag, permitted_params.feature_flag
+    feature_flag_params = permitted_params.feature_flag
+    feature_flag_params[:actor_id] =  current_user.id if current_user
+
+    update_resource @feature_flag, feature_flag_params
   end
 
   private

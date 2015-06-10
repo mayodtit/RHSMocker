@@ -15,6 +15,10 @@ class FeatureFlag < Metadata
     end
   end
 
+  def actor_id
+    @actor_id || Member.robot.id
+  end
+
   def track_update
     changes = self.changes.except(:created_at, :updated_at)
     return if changes.empty?
