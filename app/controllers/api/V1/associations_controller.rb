@@ -49,9 +49,9 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def load_associations!
     @associations = if params[:state] == 'pending'
-                      @user.associations.pending.includes(:permission)
+                      @user.associations.pending.includes(:permission, :associate)
                     else
-                      @user.associations.enabled.includes(:permission)
+                      @user.associations.enabled.includes(:permission, :associate)
                     end
   end
 
