@@ -5,6 +5,8 @@ class FeatureFlag < Metadata
   attr_accessor :actor_id
   attr_accessible :description, :actor_id, :disabled_at
 
+  validates :actor_id, presence: true, on: :update
+
   after_save :track_update, on: :update
 
   def feature_enabled?
