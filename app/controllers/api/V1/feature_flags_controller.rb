@@ -15,7 +15,7 @@ class Api::V1::FeatureFlagsController < Api::V1::ABaseController
 
   def load_feature_flags!
     authorize! :manage, FeatureFlag
-    @feature_flags = FeatureFlag.all
+    @feature_flags = FeatureFlag.where(disabled_at: nil)
   end
 
   def load_feature_flag!

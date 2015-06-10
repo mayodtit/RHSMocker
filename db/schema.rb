@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150609211901) do
+ActiveRecord::Schema.define(:version => 20150610191411) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -592,6 +592,7 @@ ActiveRecord::Schema.define(:version => 20150609211901) do
     t.datetime "updated_at",  :null => false
     t.string   "type"
     t.text     "description"
+    t.datetime "disabled_at"
   end
 
   create_table "modal_templates", :force => true do |t|
