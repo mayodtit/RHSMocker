@@ -4,6 +4,7 @@ class Service < ActiveRecord::Base
   OPEN_STATES = %w(open waiting)
   CLOSED_STATES = %w(completed abandoned)
   BRACKETS_REGEX = /\[(?!.*\]\()|\][^\(]|\]$/
+  BRACES_REGEX = /{|}/
 
   belongs_to :service_type
   belongs_to :service_template
@@ -34,6 +35,7 @@ class Service < ActiveRecord::Base
   validates :user_facing, :inclusion => { :in => [true, false] }
   validates :service_template, presence: true, if: lambda { |s| s.service_template_id.present? }
   validate :no_brackets_in_user_facing_attributes, on: :create
+  validate :no_braces_in_user_facing_attributes
 
   before_validation :set_defaults, on: :create
   before_validation :set_assigned_at
@@ -184,6 +186,14 @@ class Service < ActiveRecord::Base
   def no_brackets_in_user_facing_attributes
     %i(title service_request service_deliverable).each do |attribute|
       if send(attribute).try(:match, BRACKETS_REGEX)
+        errors.add(attribute, "shouldn't contain placeholder text")
+      end
+    end
+  end
+
+  def no_braces_in_user_facing_attributes
+    %i(title service_request service_deliverable).each do |attribute|
+      if send(attribute).try(:match, BRACES_REGEX)
         errors.add(attribute, "shouldn't contain placeholder text")
       end
     end
