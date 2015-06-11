@@ -831,110 +831,81 @@ ServiceTemplate.upsert_attributes({name: "Book Dentist Appointment"},
                                    time_estimate: 240}
 )
 
-REVIEW_MEDICAL_BILL_DESCRIPTION = <<-eof
+
+PT_APPOINTMENT_DESCRIPTION = <<-eof
 **This service is assigned to PHA**
 
 #Member Request
 * **Member:**
 * **Date of birth:**
-* **Question about bill:**
-* **Link to medical bill:**
-* **Date of service:**
+* **Insurance plan:**
+* **Physical Therapist:**
+* **Address:**
+* **Phone:**
+* **Reason for visit:** consultation /rehab /follow up
+* **Did doctor send over order to this PT? Or do you have a physical copy:**
+* **Prescribing doctor:**
+* **Phone:**
+* **New Patient:** Yes/No
+* **Specific dates/times that work better:**
 
-* **Insurance at time at DOS:**
-* **Insurance card in profile:** yes/no
-* **Auth on file:** yes/no
-* **Insurance phone number:**
-* **Insurance website username:**
-* **Insurance website password:**
+#Additional Information/Questions
 
-* **Provider:**
-* **Provider phone number:**
-* **Account #:**
-
-
-#Additional Information/Questions:
 #Specialist Notes
+* Date of call:
+* Who you spoke with:
+* Available times/Booked time:
+* Insurance on file still up-to-date: Yes/No
+* Cancellation policy: Yes/No
+* Do they have a prescription from doctor yet?
+* If no, Where do they send the prescription?
+* New patient paperwork:
+* Length of visit:
+* What to bring:
+* Special instructions to prepare:
 
-##Review of Medical Bill
--Date of service:
--Provider:
--CPT code (or procedure code):
--Total billed amount
--Allowed Amount
--Member owes:
--Notes about bill:
--Hypothesis:
+#Service Update
+#PHA Next Steps
+1.
+2.
 
--Next Steps:
-
-
-
-##Call with Insurance (delete if not necessary)
--Date of call:
--Who you spoke with:
--Insurance effective date:
--Insurance termination date:
--Notes:
-
--Call reference number:
-
-
-Call with Provider (delete if not necessary)
--Date of call:
--Who you spoke with:
--Insurance on file:
--Notes:
-
-
-Additional Information  Search (delete if not necessary)
-	-Link to EOB in member’s file
-- Notes:
-
-#PHA next steps:
-
-#Specialist next steps:
-
+#Specialist Next Steps/Tasks
+If they need prescription sent over
+1. Call prescribing doctor to have them send it over
+2. Follow up with PT to see they got it 2 days later.
 eof
 
-REVIEW_MEDICAL_BILL_UPDATE = <<-eof
+PT_APPOINTMENT_UPDATE = <<-eof
 #Service Request Update:
 
-        {mm/dd}: We booked {you/member name} a dentist appointment with Dr. {First Last}. The appointment details are below for you to view.
+> {mm/dd}: We booked {you/member name} a physical therapist appointment with {Dr. First Last}. The appointment details are below for you to view.
 
 #Service Deliverable:
-{Day, Date, and Time}
+Appointment details:
+**Day, Date at Time**
 Dr. {First Last}
-Address:
+Address:  {map}
 Phone:
 Other details: {what to bring, when to arrive}
-Cancellation fee:
-Answers to your questions:
+
 
 #Member Message:
+> We’ve booked the physical therapist appointment that you requested and sent you a calendar reminder. Let us know if you need to make any changes.
 
-        We’ve booked the dentist appointment you requested and sent you a calendar reminder. Let us know if you need to make any changes.
-
-**If dentist verifies coverage**
-
-        We’ve asked your dentist to check your insurance coverage. Book appointment with Dr. {First Last} for {cleaning and exam /follow-up/ procedure} on {day/time}They may be contacting you with more information.
-
-**If dentist does not verify coverage**
-
-        We asked your dentist to verify your insurance coverage, but they were unable to do so. If you’d like, we can find another dentist to ensure that you are covered.
-
+**If need PT prescription:**
+> As part of your visit they need a prescription for physical therapy from {prescribing doctor}. Not to worry, we are already coordinating between the offices so it is there when you arrive.
 eof
 
-REVIEW_MEDICAL_BILL_REQUEST = <<-eof
-Investigate {member’s} medical bill from {provider} for  {reason for investigation}. We’ll take a couple of days to review with our medical billing specialists and update you with our next steps.
+PT_APPOINTMENT_REQUEST = <<-eof
+Book appointment with {Dr. First Last} for {consultation /rehab /follow up} on {day/time}
 eof
 
-ServiceTemplate.upsert_attributes({name: "Review medical bill"},
-                                  {title: "Medical Bill Investigation",
-                                   description: REVIEW_MEDICAL_BILL_DESCRIPTION,
-                                   service_update: REVIEW_MEDICAL_BILL_UPDATE,
+ServiceTemplate.upsert_attributes({name: "Book PT Appointment"},
+                                  {title: "Book physical therapist appointment with {Dr. First Last}",
+                                   description: PT_APPOINTMENT_DESCRIPTION,
+                                   service_update: PT_APPOINTMENT_UPDATE,
                                    user_facing: true,
-                                   service_request: REVIEW_MEDICAL_BILL_REQUEST,
-                                   service_type: ServiceType.find_by_name('medical bill investigation'),
-                                   time_estimate: 2880}
+                                   service_request: PT_APPOINTMENT_REQUEST,
+                                   service_type: ServiceType.find_by_name('appointment booking'),
+                                   time_estimate: 240}
 )

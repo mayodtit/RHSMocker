@@ -2032,52 +2032,54 @@ DENTIST_APPOINTMENT_CALL_DENTIST <<-eof
 1. Call dentist's office and add notes to Specialist Notes
 2. Book appointment that fits member’s preferences (**If there is a cancellation fee, and the appointment is within 48 hours of calling, don’t book unless urgent appointment**)
 3. If there is no appointment during member’s preferences, ask about earliest availability after that:
- Reassign task to PHA and add to title: “BLOCKED -”. Add the following to Internal Service Notes:
-Service Update:
-Explanation (no appts available during preferred time)
-Available appointment information
-PHA Next Steps:
-Update User-Facing Service Request:
+  * Reassign task to PHA and add to title: “BLOCKED -”. Add the following to Internal Service Notes:
+    * Service Update:
+      * Explanation (no appts available during preferred time)
+      * Available appointment information
+    * PHA Next Steps:
+      1. Update User-Facing Service Request:
 
->{mm/dd}: There were no appointments that matched your availability. We will book you an appointment when we find a date that does work.
+          > {mm/dd}: There were no appointments that matched your availability. We will book you an appointment when we find a date that does work.
 
-Update member - send message, attach Service, and request new availability
+      2. Update member - send message, attach Service, and request new availability
 
->We called Dr. {First Last}’s office, and they are {all booked/closed} for {preferred time}. Are you available any of the following times?
+          > We called Dr. {First Last}’s office, and they are {all booked/closed} for {preferred time}. Are you available any of the following times?
 
-Send task back to Specialist with update
- Call provider again to book with new member preference
+      3. Send task back to Specialist with update
+  * Call provider again to book with new member preference
 5. Once booked, confirm details with office:
-Time and date of appointment
-Location
-Insurance on file
-Benefits/coverage check prior to service
-Visit length
-Cancellation policy
-If new patient, request new patient paperwork for member to complete before visit to be faxed to 866-284-8260
-7. Update Service Deliverable in Drafts for User-Facing Updates with appointment information
-Appointment details:
-{Day, Date, and Time}
-Dr. {First Last}
-Address:
-Phone:
-Other details: {what to bring, when to arrive}
-Cancellation fee:
-Answers to your questions:
+  * Time and date of appointment
+  * Location
+  * Insurance on file
+  * Benefits/coverage check prior to service
+  * Visit length
+  * Cancellation policy
+  * If new patient, request new patient paperwork for member to complete before visit to be faxed to 866-284-8260
+6. Update Service Deliverable in Drafts for User-Facing Updates with appointment information
+    Appointment details:
+    {Day, Date, and Time}
+    Dr. {First Last}
+    Address:
+    Phone:
+    Other details: {what to bring, when to arrive}
+    Cancellation fee:
+    Answers to your questions:
 
-8. Update Service Request in Drafts for User-Facing Updates:
+7. Update Service Request in Drafts for User-Facing Updates:
 
-{mm/dd}: We booked {you/member name} a dentist appointment with Dr. {First Last}. The appointment details are below for you to view.
+    > {mm/dd}: We booked {you/member name} a dentist appointment with Dr. {First Last}. The appointment details are below for you to view.
 
-9. Update Member Message in Drafts for User-Facing Updates:
+8. Update Member Message in Drafts for User-Facing Updates:
 
-We’ve booked the dentist appointment you requested and sent you a calendar reminder. Let us know if you need to make any changes.
+    > We’ve booked the dentist appointment you requested and sent you a calendar reminder. Let us know if you need to make any changes.
 
-**If dentist verifies coverage**
-We’ve asked your dentist to check your insurance coverage. They may be contacting you with more information.
+  **If dentist verifies coverage**
 
-**If dentist does not verify coverage**
-We asked your dentist to verify your insurance coverage, but they were unable to do so. If you’d like, we can find another dentist to ensure that you are covered.
+    > We’ve asked your dentist to check your insurance coverage. They may be contacting you with more information.
+
+  **If dentist does not verify coverage**
+
+    > We asked your dentist to verify your insurance coverage, but they were unable to do so. If you’d like, we can find another dentist to ensure that you are covered.
 
 9. Complete Task
 eof
@@ -2086,27 +2088,27 @@ eof
 DENTIST_APPOINTMENT_SEND_MEMBER_UPDATE = <<-eof
 **This task is assigned to PHA**
 
-Review Drafts for User-Facing Updates.
-Edit drafts as necessary.
-Copy and paste Member Message, Service Request, and Service Deliverable from Drafts to the appropriate User-Facing fields.
-**Attach correct service to Member Message**
-Send updates.
-Create an event in Google Calendar - Member Appointment Calendar in the following format:
+1. Review Drafts for User-Facing Updates.
+2. Edit drafts as necessary.
+3. Copy and paste Member Message, Service Request, and Service Deliverable from Drafts to the appropriate User-Facing fields.
+4. **Attach correct service to Member Message**
+5. Send updates.
+6.Create an event in Google Calendar - Member Appointment Calendar in the following format:
 
-Event Title: Appointment with Dr. {First Last}
-Event Location: Address, city
-Calendar: Member Appointment
-Event Description:
-{Copy and paste appointment details from Service Deliverable Draft}
-Add: Member’s email address
+  Event Title: Appointment with Dr. {First Last}
+  Event Location: Address, city
+  Calendar: Member Appointment
+  Event Description:
+  {Copy and paste appointment details from Service Deliverable Draft}
+  Add: Member’s email address
 
-**Time zone:** Confirm that member’s time zone matches event time zone
-Save and send invitation to guest
+  * **Time zone:** Confirm that member’s time zone matches event time zone
+  * Save and send invitation to guest
 
 5. Go to Providers tab in member’s profile and Add Provider if not listed
 6. If you added Provider -- send message to member
 
-I’ve also added {Dr. First Last} to your Care Team [here](better://nb?cmd=showCareTeam).
+    > I’ve also added {Dr. First Last} to your Care Team [here](better://nb?cmd=showCareTeam).
 
 5. Complete Task
 eof
@@ -2117,9 +2119,9 @@ DENTIST_APPOINTMENT_SEND_MEMBER_REMINDER<<-eof
 1. Change due date of this task to day before appointment
 2. On due date, send message with the attached Service to member
 
-As a reminder, {your/your child’s} appointment with Dr. {First Last} is {tomorrow}.  A quick tip: if your dentist recommends additional services during your appointment, we suggest confirming that they are covered by your insurance.
+    > As a reminder, {your/your child’s} appointment with Dr. {First Last} is {tomorrow}.  A quick tip: if your dentist recommends additional services during your appointment, we suggest confirming that they are covered by your insurance.
 
-**Attach correct Service to message**
+    **Attach correct Service to message**
 
 3. Complete Task
 eof
@@ -2130,7 +2132,7 @@ DENTIST_APPOINTMENT_FOLLOW_UP = <<-eof
 1. Change due date of this task to same day of appointment
 2. On due date, send member follow-up message:
 
-How did the dentist appointment go? Do you need to schedule any follow-up dental work?
+    > How did the dentist appointment go? Do you need to schedule any follow-up dental work?
 
 3. Complete Task
 eof
@@ -2160,92 +2162,130 @@ TaskTemplate.upsert_attributes({name: "Dentist Appointment - Follow Up"},
                                 time_estimate: 60,
                                 service_ordinal: 3})
 
-# MEDICAL BILL Investigation
+# PT APPOINTMENT Booking
 
-MEDICAL_BILL_INVESTIGATION_COLLECT_INFORMATION = <<-eof
-**This task is assigned to [HCC/PHA]**
-1. Collect all information for Member Request in Internal Service Notes
-2. Save link to medical bill, insurance card, and any additional paperwork sent in member’s google drive folder.
+DENTIST_APPOINTMENT_CALL_DENTIST <<-eof
+**This task is assigned to Specialist**
 
-        Medical Bill [memberLAST_NAME]_[provider]_[date-of-service]
-        example: DOE_JOHN _columbiadoctors_01/01/15
+1. Call physical therapist’s office and add notes to Specialist Notes
+2. Book appointment that fits member’s preferences (**If there is a cancellation fee, and the appointment is within 48 hours of calling, don’t book unless urgent appointment**)
+3. If there is no appointment during member’s preferences, ask about earliest availability after that:
+  * Reassign task to PHA and add to title: “BLOCKED -”. Add the following to Internal Service Notes:
+        * Service Update:
+          * Explanation (no appts available during preferred time)
+          * Available appointment information
+        * PHA Next Steps:
+          1. Update User-Facing Service Request:
 
-3. Complete task
+              > {mm/dd}: There were no appointments that matched your availability. We will book you an appointment when we find a date that does work.
+
+          2. Update member - send message, attach Service, and request new availability
+
+              > We called Dr {First Last}’s office, and they are {all booked/closed} for {preferred time}. Are you available any of the following times?
+
+          3. Send task back to Specialist with update
+        * Call provider again to book with new member preference
+4. Once booked, confirm details with office:
+  * Time and date of appointment
+  * Location
+  * Insurance on file
+  * Visit length
+  * Cancellation policy
+  * If new patient, request new patient paperwork for member to complete before visit to be faxed to 866-284-8260
+5. Update Service Deliverable in Drafts for User-Facing Updates with appointment information
+  * Appointment details:
+  * **Day, Date at Time**
+  * Dr. {First Last}
+  * Address:  {map}
+  * Phone:
+  * Other details: {what to bring, when to arrive}
+
+6. Update Service Request in Drafts for User-Facing Updates:
+
+    > {mm/dd}: We booked [you/member name] a physical therapist appointment with{Dr. First Last}. The appointment details are below for you to view.
+
+7. Update Member Message in Drafts for User-Facing Updates:
+
+    > We’ve booked the physical therapist appointment that you requested and sent you a calendar reminder. Let us know if you need to make any changes.
+
+8. Complete Task
 eof
 
-MEDICAL_BILL_INVESTIGATION_REVIEW_MEDICAL_BILL = <<-eof
-**This task is assigned to Specialist/ Crystal**
 
-1. Review medical bill and note information in Internal Service Notes → Specialist Notes → Review of
-2. Edit service deliverable draft in Service Update → After Specialist Review
-3. Add PHA next steps in Service Update
-4. Complete task
-eof
-
-MEDICAL_BILL_INVESTIGATION_SEND_MEMBER_UPDATE = <<-eof
+PT_APPOINTMENT_SEND_MEMBER_UPDATE = <<-eof
 **This task is assigned to PHA**
 
-1. Copy, paste, and edit into User-Facing Service Request:
+1. Review Drafts for User-Facing Updates.
+2. Edit drafts as necessary.
+3. Copy and paste Member Message, Service Request, and Service Deliverable from Drafts to the appropriate User-Facing fields.
+4. **Attach correct service to Member Message**
+5. Send updates.
+6. Create an event in Google Calendar - Member Appointment Calendar in the following format:
 
-        [mm/dd]: [Short update.]
+  Event Title: Appointment with {Dr. First Last}
+  Event Location: Address, city
+  Calendar: Member Appointment
+  Event Description:
+  {Copy and paste appointment details from Service Deliverable Draft}
+  Add: Member’s email address
 
-2. Send message to member:
+  * **Time zone:** Confirm that member’s time zone matches event time zone
+  * Save and send invitation to guest
 
-        > [Message to member]
+7. Go to Providers tab in member’s profile and Add Provider if not listed
+8. If you added Provider -- send message to member
+
+    > I’ve also added {Dr. First Last} to your Care Team [here](better://nb?cmd=showCareTeam).
+
+9. Complete Task
+eof
+
+PT_APPOINTMENT_SEND_MEMBER_REMINDER<<-eof
+**This task is assigned to PHA**
+
+1. Change due date of this task to day before appointment
+2. On due date, send message with the attached Service to member
+
+  > As a reminder, {your/your child’s} appointment with {Dr. First Last} is {tomorrow}.  Remember to wear comfortable clothes and athletic shoes.
+  > A quick tip: if your physical therapist recommends additional services during your appointment, we suggest confirming that they are covered by your insurance.
+
+  **Attach correct Service to message**
 
 3. Complete Task
 eof
 
-MEDICAL_BILL_INVESTIGATION_CALL_INSURANCE = <<-eof
-**This task is assigned to Specialist**
+PT_APPOINTMENT_FOLLOW_UP = <<-eof
+**This task is assigned to PHA**
 
-1. Abandon task if not necessary.
-2. Call insurance provider.
-3. Follow question guide in Specialist Notes → Call with Insurance, and record call details.
-4. Update service deliverable draft in Service Updates
-5. Create follow-up tasks if necessary
-6. Complete task
+1. Change due date of this task to same day of appointment
+2. On due date, send member follow-up message:
+
+    > How did the physical therapist appointment go? Did you get any home exercises to do? If so, how often are you support to do them?
+
+3. Complete Task
 eof
 
-MEDICAL_BILL_INVESTIGATION_CALL_PROVIDER = <<-eof
-**This task is assigned to Specialist**
-
-1. Abandon task if not necessary
-2. Call doctor’s office
-3. Follow question guide in Specialist Notes, and record call details.
-  * If provider has not yet conducted a coverage check, but is willing to call the insurance company, initiate a follow-up task to call the doctor’s office.
-4. Update service deliverable draft in Service Updates if doctor’s office provides coverage information.
-5. Create follow-up tasks if necessary
-6. Complete Task
-eof
-
-TaskTemplate.upsert_attributes({name: "Medical Bill Investigation - Collect Information"},
-                               {service_template: ServiceTemplate.find_by_name('Review medical bill'),
-                                title: "Collect Medical Bill Information",
-                                description: MEDICAL_BILL_INVESTIGATION_COLLECT_INFORMATION,
+TaskTemplate.upsert_attributes({name: "PT Appointment - Call PT"},
+                               {service_template: ServiceTemplate.find_by_name('Book PT Appointment'),
+                                title: "Call - book appointment with physical therapist",
+                                description: PT_APPOINTMENT_CALL_PT,
                                 time_estimate: 60,
                                 service_ordinal: 0})
-TaskTemplate.upsert_attributes({name: "Medical Bill Investigation - Review Medical Bill"},
-                               {service_template: ServiceTemplate.find_by_name('Review medical bill'),
-                                title: "Review Medical Bill",
-                                description: MEDICAL_BILL_INVESTIGATION_REVIEW_MEDICAL_BILL,
-                                time_estimate: 2880,
+TaskTemplate.upsert_attributes({name: "PT Appointment - Send Member Update"},
+                               {service_template: ServiceTemplate.find_by_name('Book PT Appointment'),
+                                title: "Send member update - appointment booked",
+                                description: PT_APPOINTMENT_SEND_MEMBER_UPDATE,
+                                time_estimate: 60,
                                 service_ordinal: 1})
-TaskTemplate.upsert_attributes({name: "Medical Bill Investigation - Send Member Update"},
-                               {service_template: ServiceTemplate.find_by_name('Review medical bill'),
-                                title: "Send member update - [Initial Review of Medical Bill]",
-                                description: MEDICAL_BILL_INVESTIGATION_SEND_MEMBER_UPDATE,
+TaskTemplate.upsert_attributes({name: "PT Appointment - Send Member Reminder"},
+                               {service_template: ServiceTemplate.find_by_name('Book PT Appointment'),
+                                title: "Send member - appointment reminder",
+                                description: PT_APPOINTMENT_SEND_MEMBER_REMINDER,
                                 time_estimate: 60,
                                 service_ordinal: 2})
-TaskTemplate.upsert_attributes({name: "Medical Bill Investigation - Call Insurance Provider"},
-                               {service_template: ServiceTemplate.find_by_name('Review medical bill'),
-                                title: "Call - Insurance Provider ",
-                                description: MEDICAL_BILL_INVESTIGATION_CALL_INSURANCE,
-                                time_estimate: 1440,
-                                service_ordinal: 2})
-TaskTemplate.upsert_attributes({name: "Medical Bill Investigation - Call Provider"},
-                               {service_template: ServiceTemplate.find_by_name('Review medical bill'),
-                                title: "Call - Provider ",
-                                description: MEDICAL_BILL_INVESTIGATION_CALL_PROVIDER,
-                                time_estimate: 1440,
-                                service_ordinal: 2})
+TaskTemplate.upsert_attributes({name: "PT Appointment - Follow Up"},
+                               {service_template: ServiceTemplate.find_by_name('Book PT Appointment'),
+                                title: "Follow up - appointment",
+                                description: PT_APPOINTMENT_FOLLOW_UP,
+                                time_estimate: 60,
+                                service_ordinal: 3})
