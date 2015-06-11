@@ -2026,7 +2026,7 @@ TaskTemplate.upsert_attributes({name: "Eligibility/Benefits Check - Send Member 
                                 service_ordinal: 1})
 
 
-DENTIST_APPOINTMENT_CALL_DENTIST <<-eof
+DENTIST_APPOINTMENT_CALL_DENTIST = <<-eof
 **This task is assigned to Specialist**
 
 1. Call dentist's office and add notes to Specialist Notes
@@ -2113,7 +2113,7 @@ DENTIST_APPOINTMENT_SEND_MEMBER_UPDATE = <<-eof
 5. Complete Task
 eof
 
-DENTIST_APPOINTMENT_SEND_MEMBER_REMINDER<<-eof
+DENTIST_APPOINTMENT_SEND_MEMBER_REMINDER = <<-eof
 **This task is assigned to PHA**
 
 1. Change due date of this task to day before appointment
@@ -2164,7 +2164,7 @@ TaskTemplate.upsert_attributes({name: "Dentist Appointment - Follow Up"},
 
 # PT APPOINTMENT Booking
 
-DENTIST_APPOINTMENT_CALL_DENTIST <<-eof
+PT_APPOINTMENT_CALL_PT =  <<-eof
 **This task is assigned to Specialist**
 
 1. Call physical therapist’s office and add notes to Specialist Notes
@@ -2240,7 +2240,7 @@ PT_APPOINTMENT_SEND_MEMBER_UPDATE = <<-eof
 9. Complete Task
 eof
 
-PT_APPOINTMENT_SEND_MEMBER_REMINDER<<-eof
+PT_APPOINTMENT_SEND_MEMBER_REMINDER = <<-eof
 **This task is assigned to PHA**
 
 1. Change due date of this task to day before appointment
