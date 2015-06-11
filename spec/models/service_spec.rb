@@ -21,50 +21,6 @@ describe Service do
       service.errors[:assigned_at].should include("can't be blank")
     end
 
-    describe 'BRACKETS_REGEX' do
-      it 'matches placeholder text' do
-        expect("This has a [placeholder]".match(Service::BRACKETS_REGEX)).to_not be_nil
-      end
-
-      it 'matches an open bracket' do
-        expect("This has a [placeholder".match(Service::BRACKETS_REGEX)).to_not be_nil
-      end
-
-      it 'matches a closed bracket' do
-        expect("This has a placeholder]".match(Service::BRACKETS_REGEX)).to_not be_nil
-      end
-
-      it 'allows links' do
-        expect("This has a [link](www.google.com)".match(Service::BRACKETS_REGEX)).to be_nil
-      end
-
-      it 'matches placeholder text with links' do
-        expect("This has a [link](www.google.com) and a [placeholder]".match(Service::BRACKETS_REGEX)).to_not be_nil
-      end
-
-      it 'matches an open bracket with links' do
-        expect("This has a [link](www.google.com) and a [placeholder".match(Service::BRACKETS_REGEX)).to_not be_nil
-      end
-
-      it 'matches a closed bracket with links' do
-        expect("This has a [link](www.google.com) and a placeholder]".match(Service::BRACKETS_REGEX)).to_not be_nil
-      end
-    end
-
-    describe 'BRACES_REGEX' do
-      it 'matches placeholder text' do
-        expect("This has a {placeholder}".match(Service::BRACES_REGEX)).to_not be_nil
-      end
-
-      it 'matches an open brace' do
-        expect("This has a {placeholder".match(Service::BRACES_REGEX)).to_not be_nil
-      end
-
-      it 'matches a closed brace' do
-        expect("This has a placeholder}".match(Service::BRACES_REGEX)).to_not be_nil
-      end
-    end
-
     describe '#no_brackes_in_user_facing_attributes' do
       let(:service) { build(:service) }
 
@@ -84,14 +40,6 @@ describe Service do
         service.service_deliverable = "This has a [placeholder]"
         expect(service).to_not be_valid
         expect(service.errors[:service_deliverable]).to include("shouldn't contain placeholder text")
-      end
-
-      it 'does not validate persisted records' do
-        service.save!
-        service.title = "This has a [placeholder]"
-        service.service_request = "This has a [placeholder]"
-        service.service_deliverable = "This has a [placeholder]"
-        expect(service).to be_valid
       end
     end
 

@@ -20,39 +20,13 @@ describe Message do
     it_validates 'foreign key of', :user_image
     it_validates 'foreign key of', :service
 
-    describe 'BRACES_REGEX' do
-      it 'matches placeholder text' do
-        expect("This has a {placeholder}".match(Service::BRACES_REGEX)).to_not be_nil
-      end
-
-      it 'matches an open brace' do
-        expect("This has a {placeholder".match(Service::BRACES_REGEX)).to_not be_nil
-      end
-
-      it 'matches a closed brace' do
-        expect("This has a placeholder}".match(Service::BRACES_REGEX)).to_not be_nil
-      end
-    end
-
-    describe '#no_braces_in_user_facing_attributes' do
-      let(:service) { build(:service) }
+    describe '#no_placeholders_in_user_facing_attributes' do
+      let(:message) { build(:message) }
 
       it 'prevents braces the title' do
-        service.title = "This has a {placeholder}"
-        expect(service).to_not be_valid
-        expect(service.errors[:title]).to include("shouldn't contain placeholder text")
-      end
-
-      it 'prevents braces in the service_request' do
-        service.service_request = "This has a {placeholder}"
-        expect(service).to_not be_valid
-        expect(service.errors[:service_request]).to include("shouldn't contain placeholder text")
-      end
-
-      it 'prevents braces in the service_deliverable' do
-        service.service_deliverable = "This has a {placeholder}"
-        expect(service).to_not be_valid
-        expect(service.errors[:service_deliverable]).to include("shouldn't contain placeholder text")
+        message.text = "This has a {placeholder}"
+        expect(message).to_not be_valid
+        expect(message.errors[:text]).to include("shouldn't contain placeholder text")
       end
     end
   end
