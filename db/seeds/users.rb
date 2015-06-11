@@ -165,6 +165,17 @@ PHA_ATTRIBUTES = [
     arrow_image: 'cole-arrow.jpg',
     avatar_image: 'cole-avatar.png',
     bio_image: 'cole-bio_image.jpg'
+  },
+  {
+    email: 'mnorton@getbetter.com',
+    first_name: 'Meg',
+    last_name: 'N',
+    gender: 'female',
+    bio: "Meg is a patient advocate with over 8 years of experience in concierge medicine and customer service. Most recently, she worked at Columbia University Medical Center where she helped establish the Patient Facilitated Services program.",
+    first_person_bio: "I have over 8 years of experience as patient advocate and medical concierge. I’ve lived all across the US, but California is where I call home. In my free time I enjoy barre classes and baking.",
+    arrow_image: 'mnorton-arrow.png',
+    avatar_image: 'mnorton-avatar.png',
+    bio_image: 'mnorton-bio_image.png'
   }
 ]
 

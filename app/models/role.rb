@@ -38,6 +38,10 @@ class Role < ActiveRecord::Base
     find_by_name! 'nurse'
   end
 
+  def self.beta
+    find_by_name! 'beta'
+  end
+
   def self.pha_stakeholders
     leads = Role.pha_lead.users.members
 

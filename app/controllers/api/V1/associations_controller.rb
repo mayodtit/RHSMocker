@@ -19,7 +19,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   end
 
   def create
-    @association = @user.associations.create(permitted_params.association)
+    @association = @user.associations.create(create_attributes)
     if @association.errors.empty?
       render_success(show_response)
     else
@@ -49,9 +49,9 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def load_associations!
     @associations = if params[:state] == 'pending'
-                      @user.associations.pending.includes(:permission)
+                      @user.associations.pending.includes(:permission, :associate)
                     else
-                      @user.associations.enabled.includes(:permission)
+                      @user.associations.enabled.includes(:permission, :associate)
                     end
   end
 
@@ -132,6 +132,12 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
     params[:association].try(:change_key!, :associate, :associate_attributes)
   end
 
+  def create_attributes
+    permitted_params.association.tap do |attributes|
+      attributes[:association_type_id] ||= AssociationType.family_default_id
+    end
+  end
+
   def index_response
     {
       associations: @associations.serializer(serializer_options),
@@ -166,7 +172,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   def serializer_options
     {}.tap do |options|
       options.merge!(scope: current_user)
-      options.merge!(include_nested_information: true) if current_user.care_provider?
+      options.merge!(shallow: true) if current_user.care_provider?
     end
   end
 end
