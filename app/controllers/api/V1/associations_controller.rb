@@ -172,7 +172,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   def serializer_options
     {}.tap do |options|
       options.merge!(scope: current_user)
-      options.merge!(shallow: true) if current_user.care_provider?
+      options.merge!(include_nested_information: true) if current_user.care_provider?
     end
   end
 end
