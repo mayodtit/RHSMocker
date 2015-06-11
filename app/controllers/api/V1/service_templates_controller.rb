@@ -1,6 +1,6 @@
 class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   before_filter :load_user!
-  before_filter :load_service_templates!, only: :index
+  before_filter :load_service_templates!
   before_filter :load_service_template!, only: %w(show update)
   before_filter :prevent_update_service_template, only: :update
 
@@ -64,7 +64,7 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
       search_params[:state] = 'published'
     elsif search_params.has_key?(:state) && search_params[:state] == 'unpublished'
       search_params[:state] = 'unpublished'
-    else
+    elsif search_params.has_key?(:state) && search_params[:state] == 'retired'
       search_params[:state] = 'retired'
     end
 
