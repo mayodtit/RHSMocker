@@ -110,7 +110,6 @@ class User < ActiveRecord::Base
     return unless [:phone, :work_phone_number, :text_phone_number].include?(phone_type)
     phone_type_name = "#{phone_type}_obj".to_sym
     if p = self.send(phone_type_name)
-      p.number = new_prepped_phone
       if p.number != new_prepped_phone
         p.update_attributes(number: new_prepped_phone)
       end

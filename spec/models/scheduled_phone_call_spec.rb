@@ -116,7 +116,6 @@ describe ScheduledPhoneCall do
         end
 
         it 'does not set the user phone' do
-          scheduled_phone_call.user.should_receive(:save!)
           scheduled_phone_call.set_user_phone_if_missing
           scheduled_phone_call.user.phone.should == scheduled_phone_call.callback_phone_number
         end
