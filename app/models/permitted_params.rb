@@ -111,7 +111,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def service_template_attributes
-    params.permit(:service_template_id, :title, :description, :subject_id, :due_at, :owner_id, :service_type, :member_id, :user_facing, :service_request, :service_deliverable, :service_update, :unique_id)
+    params.require(:service_template).permit(:service_template_id, :name, :title, :description, :subject_id, :due_at, :owner_id, :service_type, :service_type_id, :time_estimate, :member_id, :user_facing, :service_request, :service_deliverable, :service_update, :unique_id)
   end
 
   def service_attributes
