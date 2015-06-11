@@ -174,7 +174,7 @@ PHA_ATTRIBUTES = [
     bio: "Meg is a patient advocate with over 8 years of experience in concierge medicine and customer service. Most recently, she worked at Columbia University Medical Center where she helped establish the Patient Facilitated Services program.",
     first_person_bio: "I have over 8 years of experience as patient advocate and medical concierge. I’ve lived all across the US, but California is where I call home. In my free time I enjoy barre classes and baking.",
     arrow_image: 'mnorton-arrow.png',
-    avatar_image: 'mnorton-avatar.png',
+    avatar_image: 'mnorton-avatar.jpg',
     bio_image: 'mnorton-bio_image.png'
   }
 ]
