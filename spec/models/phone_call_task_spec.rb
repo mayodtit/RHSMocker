@@ -223,7 +223,11 @@ describe PhoneCallTask do
 
   describe '#notify' do
     let(:task) { build :phone_call_task }
-    let(:pha) { build :pha, text_phone_number: '000' }
+    let(:pha) do
+      pha = create(:pha)
+      pha.text_phone_number = '6503214000'
+      pha
+    end
 
     context 'task is not for pha' do
       before do
@@ -247,7 +251,16 @@ describe PhoneCallTask do
         end
 
         context 'unassigned' do
-          let(:phas) { [build_stubbed(:pha, text_phone_number: '111'), build_stubbed(:pha, text_phone_number: '222'), build_stubbed(:pha, text_phone_number: '333')] }
+          let(:phas) do
+            pha1 = create(:pha)
+            pha1.text_phone_number = '6503214111'
+            pha2 = create(:pha)
+            pha2.text_phone_number = '6503214222'
+            pha3 = create(:pha)
+            pha3.text_phone_number = '6503214333'
+
+            [pha1, pha2, pha3]
+          end
 
           before do
             task.stub(:unassigned?) { true }
@@ -259,9 +272,9 @@ describe PhoneCallTask do
           end
 
           it 'texts the phas on duty' do
-            TwilioModule.should_receive(:message).with '111', 'ALERT: Inbound phone call needs triage'
-            TwilioModule.should_receive(:message).with '222', 'ALERT: Inbound phone call needs triage'
-            TwilioModule.should_receive(:message).with '333', 'ALERT: Inbound phone call needs triage'
+            TwilioModule.should_receive(:message).with '6503214111', 'ALERT: Inbound phone call needs triage'
+            TwilioModule.should_receive(:message).with '6503214222', 'ALERT: Inbound phone call needs triage'
+            TwilioModule.should_receive(:message).with '6503214333', 'ALERT: Inbound phone call needs triage'
             task.notify
           end
         end
@@ -291,7 +304,7 @@ describe PhoneCallTask do
             end
 
             it 'texts the owner' do
-              TwilioModule.should_receive(:message).with '000', 'ALERT: Inbound phone call assigned to you'
+              TwilioModule.should_receive(:message).with '6503214000', 'ALERT: Inbound phone call assigned to you'
               task.notify
             end
           end

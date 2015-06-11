@@ -154,7 +154,14 @@ describe ScheduledJobs do
       end
 
       context 'no phas on call' do
-        let(:stakeholders) { [build_stubbed(:member), build_stubbed(:pha_lead, text_phone_number: '1111111111'), build_stubbed(:pha_lead, text_phone_number: '4083913578')] }
+        let(:stakeholders) do
+          member = create(:member)
+          pha_lead = create(:pha_lead)
+          pha_lead.text_phone_number = '1111111111'
+          pha_lead2 = create(:pha_lead)
+          pha_lead2.text_phone_number = '4083913578'
+          [member, pha_lead, pha_lead2]
+        end
 
         before do
           Role.stub_chain(:pha, :users) do

@@ -429,7 +429,11 @@ describe ScheduledPhoneCall do
     end
 
     describe '#cancel' do
-      let!(:member_with_phone) { create(:member, phone: 1234567890)}
+      let!(:member_with_phone) do
+        member = create(:member)
+        member.phone = "1234567890"
+        member
+      end
       let!(:booked_scheduled_phone_call) { create(:scheduled_phone_call, :booked, owner: pha, user: member_with_phone) }
 
       it_behaves_like 'cannot transition from', :cancel!, [:ended, :canceled]
