@@ -1804,3 +1804,448 @@ TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 12"},
                                 description: KINSIGHTS_CHECKINS_CHECK_IN,
                                 time_estimate: 10080,
                                 service_ordinal: 12})
+
+# Procedure Check
+
+PROCEDURE_CHECK_CALL_PROVIDER = <<-eof
+**This task is assigned to Specialist**
+
+1. Call doctor’s office
+2. Follow question guide in Specialist Notes, and record call details there:
+  * Date of call:
+  * Who you spoke with:
+  * Insurance on file:
+  Questions:
+  * I would like to confirm that all of the services will be covered at the time of visit.  Have you performed a benefits check for the member?
+  **If yes**
+  - What are the coverage details?
+  	-Notes:
+  -Did you ask about the status of the member’s deductible?
+  	-Abandon next task (call insurance)
+  **If no**
+  -Are you willing to call {insurance} and check the members coverage?
+  **If yes**
+  -Great!  When do you expect this to be completed, so we can follow up?
+  **If provider has not yet conducted a coverage check, but is willing to call the insurance company, initiate a follow-up task to call the doctor’s office.**
+  **If no**
+  -May I have the service details?
+  		-CPT code/ other code:
+  		-Diagnosis (DX) code:
+  		-Do the provider and the facility bill separately? Yes/No
+  			-Provider tax ID:
+  			-Facility tax ID:
+
+3. Update Service Deliverable in Drafts for User-Facing Updates if doctor’s office provides coverage information:
+  * Insurance provider:
+  * Percent coverage for {service} with Dr. {First Last}:
+  * You’ve paid {$} towards your deductible of {deductible}
+
+4. Update Service Request in Drafts for User-Facing Updates
+
+        {mm/dd}: We called Dr. {First Last}’s office to check your coverage for {procedure}.  The coverage details are below for you to view.
+
+5. Update Member Message in Drafts for User-Facing Updates:
+
+  **If covered**
+
+    > Hi {member}, we checked if {insurance/provider} will cover your {service} with Dr. [First Last], and good news!  {Insurance} will cover {amt % of cost / $amt} once you’ve met your deductible for this year. To date you’ve paid {amount paid} out of {total deductible}. Let us know if you have any questions.
+
+    Would you like to schedule the {procedure}?
+
+
+  **If not covered**
+
+    > Hi {member}, we checked if {insurance} will cover your {service} with Dr. [First Last], and unfortunately {insurance} does not cover it.  Are you still interested in {service}?  If so, we can look for options that are affordable.
+
+6. Complete Task
+eof
+
+PROCEDURE_CHECK_CALL_INSURANCE_PROVIDER = <<-eof
+#Task Steps:
+**This task is assigned to Specialist**
+
+1. Abandon this task if it is not necessary.
+2. Call insurance provider.
+3. Follow question guide in Specialist Notes, and record call details there:
+  ##Call with Insurance
+  * Date of call:
+  * Who you spoke with:
+  * Insurance effective date:
+  * Insurance termination date:
+  Questions:
+  * Is the member eligible for {service}?
+  * What type of coverage does the member have for {service}?
+  	-In network coverage:
+  	-Out of network coverage:
+  * Does {service} apply to the member’s deductible?
+  * Is {Provider} in or out of network?
+  * What is the current state of the member’s deductible?
+  * Is there a prior authorization required for the service?
+  	-If yes, how is it obtained?
+  	-Notes:
+  * Is there a referral required for this service?
+  	-If yes, how is it obtained?
+  	-Notes:
+  * Are there any limitations for the service {office visit limit, max price, etc…}?
+  * Call reference number:
+
+4. Update Service Deliverable in Drafts for User-Facing Updates
+  * Insurance provider:
+  * Percent coverage for {service} with Dr. {First Last}:
+  * You’ve paid {$} towards your deductible of {deductible}
+5. Update Service Request in Drafts for User-Facing Updates
+
+        {mm/dd}: We called Dr. {First Last}’s office to check your coverage for {procedure}.  The coverage details are below for you to view.
+
+6. Update Member Message in Drafts for User-Facing Updates:
+
+  **If covered**
+
+          Hi {member}, we checked if {insurance} will cover your {service} with Dr. [First Last], and good news!  {Insurance} will cover {amt} % of the cost.
+
+   **If not covered**
+
+          Hi {member}, we checked if {insurance} will cover your {service} with Dr. [First Last], and unfortunately {insurance} does not cover it.
+
+          Are you still interested in {service}?  If so, we can look for options that are affordable.
+
+7. Create follow-up tasks if necessary
+8. Complete task
+eof
+
+PROCEDURE_CHECK_SEND_MEMBER_UPDATE = <<-eof
+**This task is assigned to PHA**
+
+1. Review Drafts for User-Facing Updates.
+2. Edit drafts as necessary.
+3. Copy and paste Member Message, Service Request, and Service Deliverable from Drafts to the appropriate User-Facing fields.
+4. **Attach correct service to Member Message**
+5. Send updates.
+6. Complete Task.
+eof
+
+TaskTemplate.upsert_attributes({name: "Prodedure Check - Call Provider"},
+                               {service_template: ServiceTemplate.find_by_name('Check Member’s Procedure Coverage with Provider'),
+                                title: "Call - Provider",
+                                description: PROCEDURE_CHECK_CALL_PROVIDER,
+                                time_estimate: 60,
+                                service_ordinal: 0})
+TaskTemplate.upsert_attributes({name: "Prodedure Check - Call Insurance Provider"},
+                               {service_template: ServiceTemplate.find_by_name('Check Member’s Procedure Coverage with Provider'),
+                                title: "Call - Insurance Provider",
+                                description: PROCEDURE_CHECK_CALL_INSURANCE_PROVIDER,
+                                time_estimate: 60,
+                                service_ordinal: 1})
+TaskTemplate.upsert_attributes({name: "Prodedure Check - Send Member Update"},
+                               {service_template: ServiceTemplate.find_by_name('Check Member’s Procedure Coverage with Provider'),
+                                title: "Send Member Update - Procedure coverage check",
+                                description: PROCEDURE_CHECK_SEND_MEMBER_UPDATE,
+                                time_estimate: 60,
+                                service_ordinal: 2})
+
+# Eligibility Check
+ELIGIBILITY_BENEFITS_CHECK_CALL_INSURANCE_PROVIDER = <<-eof
+**This task is assigned to Specialist**
+
+1. Call insurance provider.
+2. Follow question guide in Specialist Notes and record call details:
+  * Date of call:
+  * Who you spoke with:
+  * Insurance effective date:
+  * Insurance termination date:
+
+  **Inquiry based on member request:**
+
+  * Is the member eligible for {service}?
+  * What type of coverage does the member have for {service}?
+  	-In network coverage:
+  	-Out of network coverage:
+  * Does {service} apply to the member’s deductible?
+  * What is the current state of the member’s deductible?
+  * Is there a prior authorization required for the service?
+  	-If yes, how is it obtained?
+  	-Notes:
+  * Is there a referral required for this service?
+  	-If yes, how is it obtained?
+  	-Notes:
+  * Are there any limitations for the service {office visit limit, max price, etc…}?
+  * Call reference number:
+
+3. Update Service Deliverable in Drafts for User-Facing Updates:
+  * Insurance provider:
+  * Percent coverage for {service} with an in-network provider:
+  * Percent coverage for {service} with an out-of-network provider:
+  * You’ve paid {$} towards your deductible of {deductible}
+  * A referral for this service is [not] required
+
+4. Update Service Request in Drafts for User-Facing Updates.
+
+        {mm/dd}: We called {Insurance} to check your coverage for {member inquiry}.  The coverage details are below for you to view.
+
+5. Update Member Message in Drafts for User-Facing Updates.
+  **If covered**
+
+          Hi {member} we checked if you are eligible for {service}, and good news!  Your insurance quoted that you are eligible for {service}.  {Insurance} will cover { % / $ amount} of the cost up to {benefit limitation}.
+
+
+          Even though it is covered, we also have to understand how it fits in with your deductible. To date this year, you’ve paid {$} out of {deductible}. This means that you’ll have to pay the full bill until you’ve paid {$} more. OR Since you’ve met your deductible insurance will kick in right away and insurance will cover {%}.
+
+
+          It is important to follow the instructions of the insurance company and even then it is important to remember that this is just a quote.
+
+  **If not covered**
+
+          Hi {member}, we checked if you are eligible for {service}, and unfortunately {insurance} does not cover it.  Are you still interested in {service}?  If so, we can look for options that are affordable.
+
+6. Create follow-up tasks if necessary
+7. Complete Task
+eof
+
+ELIGIBILITY_BENEFITS_SEND_MEMBER_UPDATE = <<-eof
+**This task is assigned to PHA**
+
+1. Review Drafts for User-Facing Updates.
+2. Edit drafts as necessary.
+3. Copy and paste Member Message, Service Request, and Service Deliverable from Drafts to the appropriate User-Facing fields.
+4. **Attach correct service to Member Message**
+5. Send updates.
+6. Complete Task
+eof
+
+TaskTemplate.upsert_attributes({name: "Eligibility/Benefits Check  - Call Insurance Provider"},
+                               {service_template: ServiceTemplate.find_by_name('Check Member’s Eligibility/Benefits with Insurance'),
+                                title: "Call - Insurance Provider",
+                                description: ELIGIBILITY_BENEFITS_CHECK_CALL_INSURANCE_PROVIDER,
+                                time_estimate: 60,
+                                service_ordinal: 0})
+TaskTemplate.upsert_attributes({name: "Eligibility/Benefits Check - Send Member Update"},
+                               {service_template: ServiceTemplate.find_by_name('Check Member’s Eligibility/Benefits with Insurance'),
+                                title: "Send Member Update - eligibility/benefits call notes",
+                                description: ELIGIBILITY_BENEFITS_SEND_MEMBER_UPDATE,
+                                time_estimate: 60,
+                                service_ordinal: 1})
+
+
+DENTIST_APPOINTMENT_CALL_DENTIST <<-eof
+**This task is assigned to Specialist**
+
+1. Call dentist's office and add notes to Specialist Notes
+2. Book appointment that fits member’s preferences (**If there is a cancellation fee, and the appointment is within 48 hours of calling, don’t book unless urgent appointment**)
+3. If there is no appointment during member’s preferences, ask about earliest availability after that:
+ Reassign task to PHA and add to title: “BLOCKED -”. Add the following to Internal Service Notes:
+Service Update:
+Explanation (no appts available during preferred time)
+Available appointment information
+PHA Next Steps:
+Update User-Facing Service Request:
+
+>{mm/dd}: There were no appointments that matched your availability. We will book you an appointment when we find a date that does work.
+
+Update member - send message, attach Service, and request new availability
+
+>We called Dr. {First Last}’s office, and they are {all booked/closed} for {preferred time}. Are you available any of the following times?
+
+Send task back to Specialist with update
+ Call provider again to book with new member preference
+5. Once booked, confirm details with office:
+Time and date of appointment
+Location
+Insurance on file
+Benefits/coverage check prior to service
+Visit length
+Cancellation policy
+If new patient, request new patient paperwork for member to complete before visit to be faxed to 866-284-8260
+7. Update Service Deliverable in Drafts for User-Facing Updates with appointment information
+Appointment details:
+{Day, Date, and Time}
+Dr. {First Last}
+Address:
+Phone:
+Other details: {what to bring, when to arrive}
+Cancellation fee:
+Answers to your questions:
+
+8. Update Service Request in Drafts for User-Facing Updates:
+
+{mm/dd}: We booked {you/member name} a dentist appointment with Dr. {First Last}. The appointment details are below for you to view.
+
+9. Update Member Message in Drafts for User-Facing Updates:
+
+We’ve booked the dentist appointment you requested and sent you a calendar reminder. Let us know if you need to make any changes.
+
+**If dentist verifies coverage**
+We’ve asked your dentist to check your insurance coverage. They may be contacting you with more information.
+
+**If dentist does not verify coverage**
+We asked your dentist to verify your insurance coverage, but they were unable to do so. If you’d like, we can find another dentist to ensure that you are covered.
+
+9. Complete Task
+eof
+
+
+DENTIST_APPOINTMENT_SEND_MEMBER_UPDATE = <<-eof
+**This task is assigned to PHA**
+
+Review Drafts for User-Facing Updates.
+Edit drafts as necessary.
+Copy and paste Member Message, Service Request, and Service Deliverable from Drafts to the appropriate User-Facing fields.
+**Attach correct service to Member Message**
+Send updates.
+Create an event in Google Calendar - Member Appointment Calendar in the following format:
+
+Event Title: Appointment with Dr. {First Last}
+Event Location: Address, city
+Calendar: Member Appointment
+Event Description:
+{Copy and paste appointment details from Service Deliverable Draft}
+Add: Member’s email address
+
+**Time zone:** Confirm that member’s time zone matches event time zone
+Save and send invitation to guest
+
+5. Go to Providers tab in member’s profile and Add Provider if not listed
+6. If you added Provider -- send message to member
+
+I’ve also added {Dr. First Last} to your Care Team [here](better://nb?cmd=showCareTeam).
+
+5. Complete Task
+eof
+
+DENTIST_APPOINTMENT_SEND_MEMBER_REMINDER<<-eof
+**This task is assigned to PHA**
+
+1. Change due date of this task to day before appointment
+2. On due date, send message with the attached Service to member
+
+As a reminder, {your/your child’s} appointment with Dr. {First Last} is {tomorrow}.  A quick tip: if your dentist recommends additional services during your appointment, we suggest confirming that they are covered by your insurance.
+
+**Attach correct Service to message**
+
+3. Complete Task
+eof
+
+DENTIST_APPOINTMENT_FOLLOW_UP = <<-eof
+**This task is assigned to PHA**
+
+1. Change due date of this task to same day of appointment
+2. On due date, send member follow-up message:
+
+How did the dentist appointment go? Do you need to schedule any follow-up dental work?
+
+3. Complete Task
+eof
+
+TaskTemplate.upsert_attributes({name: "Dentist Appointment - Call Dentist"},
+                               {service_template: ServiceTemplate.find_by_name('Book Dentist Appointment'),
+                                title: "Call - book appointment with dentist",
+                                description: DENTIST_APPOINTMENT_CALL_DENTIST,
+                                time_estimate: 60,
+                                service_ordinal: 0})
+TaskTemplate.upsert_attributes({name: "Dentist Appointment - Send Member Update"},
+                               {service_template: ServiceTemplate.find_by_name('Book Dentist Appointment'),
+                                title: "Send member update - appointment booked",
+                                description: DENTIST_APPOINTMENT_SEND_MEMBER_UPDATE,
+                                time_estimate: 60,
+                                service_ordinal: 1})
+TaskTemplate.upsert_attributes({name: "Dentist Appointment - Send Member Reminder"},
+                               {service_template: ServiceTemplate.find_by_name('Book Dentist Appointment'),
+                                title: "Send member - appointment reminder",
+                                description: DENTIST_APPOINTMENT_SEND_MEMBER_REMINDER,
+                                time_estimate: 60,
+                                service_ordinal: 2})
+TaskTemplate.upsert_attributes({name: "Dentist Appointment - Follow Up"},
+                               {service_template: ServiceTemplate.find_by_name('Book Dentist Appointment'),
+                                title: "Follow up - appointment",
+                                description: DENTIST_APPOINTMENT_FOLLOW_UP,
+                                time_estimate: 60,
+                                service_ordinal: 3})
+
+# MEDICAL BILL Investigation
+
+MEDICAL_BILL_INVESTIGATION_COLLECT_INFORMATION = <<-eof
+**This task is assigned to [HCC/PHA]**
+1. Collect all information for Member Request in Internal Service Notes
+2. Save link to medical bill, insurance card, and any additional paperwork sent in member’s google drive folder.
+
+        Medical Bill [memberLAST_NAME]_[provider]_[date-of-service]
+        example: DOE_JOHN _columbiadoctors_01/01/15
+
+3. Complete task
+eof
+
+MEDICAL_BILL_INVESTIGATION_REVIEW_MEDICAL_BILL = <<-eof
+**This task is assigned to Specialist/ Crystal**
+
+1. Review medical bill and note information in Internal Service Notes → Specialist Notes → Review of
+2. Edit service deliverable draft in Service Update → After Specialist Review
+3. Add PHA next steps in Service Update
+4. Complete task
+eof
+
+MEDICAL_BILL_INVESTIGATION_SEND_MEMBER_UPDATE = <<-eof
+**This task is assigned to PHA**
+
+1. Copy, paste, and edit into User-Facing Service Request:
+
+        [mm/dd]: [Short update.]
+
+2. Send message to member:
+
+        > [Message to member]
+
+3. Complete Task
+eof
+
+MEDICAL_BILL_INVESTIGATION_CALL_INSURANCE = <<-eof
+**This task is assigned to Specialist**
+
+1. Abandon task if not necessary.
+2. Call insurance provider.
+3. Follow question guide in Specialist Notes → Call with Insurance, and record call details.
+4. Update service deliverable draft in Service Updates
+5. Create follow-up tasks if necessary
+6. Complete task
+eof
+
+MEDICAL_BILL_INVESTIGATION_CALL_PROVIDER = <<-eof
+**This task is assigned to Specialist**
+
+1. Abandon task if not necessary
+2. Call doctor’s office
+3. Follow question guide in Specialist Notes, and record call details.
+  * If provider has not yet conducted a coverage check, but is willing to call the insurance company, initiate a follow-up task to call the doctor’s office.
+4. Update service deliverable draft in Service Updates if doctor’s office provides coverage information.
+5. Create follow-up tasks if necessary
+6. Complete Task
+eof
+
+TaskTemplate.upsert_attributes({name: "Medical Bill Investigation - Collect Information"},
+                               {service_template: ServiceTemplate.find_by_name('Review medical bill'),
+                                title: "Collect Medical Bill Information",
+                                description: MEDICAL_BILL_INVESTIGATION_COLLECT_INFORMATION,
+                                time_estimate: 60,
+                                service_ordinal: 0})
+TaskTemplate.upsert_attributes({name: "Medical Bill Investigation - Review Medical Bill"},
+                               {service_template: ServiceTemplate.find_by_name('Review medical bill'),
+                                title: "Review Medical Bill",
+                                description: MEDICAL_BILL_INVESTIGATION_REVIEW_MEDICAL_BILL,
+                                time_estimate: 2880,
+                                service_ordinal: 1})
+TaskTemplate.upsert_attributes({name: "Medical Bill Investigation - Send Member Update"},
+                               {service_template: ServiceTemplate.find_by_name('Review medical bill'),
+                                title: "Send member update - [Initial Review of Medical Bill]",
+                                description: MEDICAL_BILL_INVESTIGATION_SEND_MEMBER_UPDATE,
+                                time_estimate: 60,
+                                service_ordinal: 2})
+TaskTemplate.upsert_attributes({name: "Medical Bill Investigation - Call Insurance Provider"},
+                               {service_template: ServiceTemplate.find_by_name('Review medical bill'),
+                                title: "Call - Insurance Provider ",
+                                description: MEDICAL_BILL_INVESTIGATION_CALL_INSURANCE,
+                                time_estimate: 1440,
+                                service_ordinal: 2})
+TaskTemplate.upsert_attributes({name: "Medical Bill Investigation - Call Provider"},
+                               {service_template: ServiceTemplate.find_by_name('Review medical bill'),
+                                title: "Call - Provider ",
+                                description: MEDICAL_BILL_INVESTIGATION_CALL_PROVIDER,
+                                time_estimate: 1440,
+                                service_ordinal: 2})
