@@ -92,6 +92,19 @@ class User < ActiveRecord::Base
     end
   end
 
+  def self.create_with_phone_numbers!(args)
+    phone_number_list = [:phone, :work_phone_number, :text_phone_number].inject({}) do |phone_numbers, phone_type|
+      phone_numbers[phone_type] = args.delete(phone_type)
+      phone_numbers
+    end
+    new_user = User.create!(args)
+    phone_number_list.each do |phone_type, phone_number|
+      next unless phone_number
+      new_user.send("#{phone_type}=".to_sym, phone_number)
+    end
+    new_user
+  end
+
   def phone_reader(phone_type)
     return unless [:phone, :work_phone_number, :text_phone_number].include?(phone_type)
     phone_type_name = "#{phone_type}_obj".to_sym
