@@ -4,7 +4,7 @@ class TaskTemplate < ActiveRecord::Base
   has_many :tasks
   has_many :task_guides
 
-  attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :modal_template
+  attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template
 
   validates :name, :title, presence: true
 
