@@ -138,7 +138,6 @@ Prep:
   def set_user_phone_if_missing
     if user && !user.phone
       user.phone = callback_phone_number
-      user.save!
     end
   end
 
