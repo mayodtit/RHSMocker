@@ -85,24 +85,32 @@ class User < ActiveRecord::Base
 
   after_create :add_gravatar
 
+  def initialize(attributes = nil, options = {})
+    phone_numbers = {}
+    if attributes.is_a?(Hash)
+      [:phone, :work_phone_number, :text_phone_number].each do |phone_type|
+        phone_numbers[phone_type] = attributes.delete(phone_type)
+      end
+    end
+    new_user = super
+    new_user.instance_variable_set(:@phone_numbers, phone_numbers)
+    new_user
+  end
+
+  after_create :assign_phone_numbers
+  def assign_phone_numbers
+    @phone_numbers && @phone_numbers.each do |phone_type, phone_number|
+      next unless phone_number
+      self.send("#{phone_type}=".to_sym, phone_number)
+    end
+    @phone_numbers = nil
+  end
+
   def add_gravatar
     if self.avatar_url_override.nil? || self.avatar_url_override.include?('https://secure.gravatar.com/avatar')
       self.avatar_url_override = GravatarChecker.new(email).check_gravatar
       self.save
     end
-  end
-
-  def self.create_with_phone_numbers!(args)
-    phone_number_list = [:phone, :work_phone_number, :text_phone_number].inject({}) do |phone_numbers, phone_type|
-      phone_numbers[phone_type] = args.delete(phone_type)
-      phone_numbers
-    end
-    new_user = User.create!(args)
-    phone_number_list.each do |phone_type, phone_number|
-      next unless phone_number
-      new_user.send("#{phone_type}=".to_sym, phone_number)
-    end
-    new_user
   end
 
   def phone_reader(phone_type)

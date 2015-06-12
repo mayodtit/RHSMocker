@@ -102,7 +102,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
     if provider = User.find_by_npi_number(associate_npi_number)
       provider
     else
-      User.create_with_phone_numbers!(provider_from_search.deep_merge(self_owner: true))
+      User.create!(provider_from_search.deep_merge(self_owner: true))
     end
   end
 
