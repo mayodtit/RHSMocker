@@ -1,6 +1,6 @@
 class Api::V1::TaskTemplatesController < Api::V1::ABaseController
   before_filter :load_user!
-  before_filter :load_task_template!, only: %w(show update)
+  before_filter :load_task_template!, only: %w(show update destroy)
   before_filter :load_task_templates!
   before_filter :prevent_update_task_template, only: :update
 
