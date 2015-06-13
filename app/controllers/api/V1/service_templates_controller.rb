@@ -28,7 +28,7 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   def update
     authorize! :update, @service_template
 
-    if permitted_params.service_template_attributes[:state_event] == 'publish'
+    if params[:state_event] == 'publish'
       @service_template.publish!
     end
 
