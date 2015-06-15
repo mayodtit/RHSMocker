@@ -50,6 +50,18 @@ class ServiceTemplate < ActiveRecord::Base
     where("service_templates.title LIKE ?", wildcard)
   end
 
+  def self.published
+    where(state: :published)
+  end
+
+  def self.unpublished
+    where(state: :unpublished)
+  end
+
+  def self.retired
+    where(state: :retired)
+  end
+
   private
 
   def set_unique_id

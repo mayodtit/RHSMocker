@@ -52,7 +52,17 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   def load_service_templates!
     authorize! :index, ServiceTemplate
 
-    @service_templates = ServiceTemplate.where(state: params[:state]).order('service_templates.created_at DESC')
+    @service_templates = ServiceTemplate.order('id DESC')
+
+    case params[:state]
+      when 'unpublished'
+        @service_templates = @service_templates.unpublished
+      when 'published'
+        @service_templates = @service_templates.published
+      when 'retired'
+        @service_templates = @service_templates.retired
+    end
+
     @service_templates = @service_templates.title_search(params[:title]) if params[:title]
   end
 
