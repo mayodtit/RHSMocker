@@ -52,17 +52,7 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   def load_service_templates!
     authorize! :index, ServiceTemplate
 
-    search_params = params.permit(:state)
-
-    if search_params.has_key?(:state) && search_params[:state] == 'published'
-      search_params[:state] = 'published'
-    elsif search_params.has_key?(:state) && search_params[:state] == 'unpublished'
-      search_params[:state] = 'unpublished'
-    elsif search_params.has_key?(:state) && search_params[:state] == 'retired'
-      search_params[:state] = 'retired'
-    end
-
-    @service_templates = ServiceTemplate.where(search_params).order('service_templates.created_at DESC')
+    @service_templates = ServiceTemplate.where(state: params[:state]).order('service_templates.created_at DESC')
     @service_templates = @service_templates.title_search(params[:title]) if params[:title]
   end
 
