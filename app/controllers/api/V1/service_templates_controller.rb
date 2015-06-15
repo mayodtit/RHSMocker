@@ -45,12 +45,6 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
 
   private
 
-  def prevent_update_service_template
-    if @service_template.published? || @service_template.retired?
-      render_failure({reason: 'ServiceTemplate is published or retired. You cannot update it.'}, 422)
-    end
-  end
-
   def load_service_template!
     @service_template = ServiceTemplate.find params[:id]
   end
@@ -70,6 +64,12 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
 
     @service_templates = ServiceTemplate.where(search_params).order('service_templates.created_at DESC')
     @service_templates = @service_templates.title_search(params[:title]) if params[:title]
+  end
+
+  def prevent_update_service_template
+    if @service_template.published? || @service_template.retired?
+      render_failure({reason: 'ServiceTemplate is published or retired. You cannot update it.'}, 422)
+    end
   end
 
   def new_task_template_attributes
