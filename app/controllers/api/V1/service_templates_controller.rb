@@ -1,7 +1,7 @@
 class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_service_templates!
-  before_filter :load_service_template!, only: %w(show update)
+  before_filter :load_service_template!, only: %i(show update)
   before_filter :prevent_update_service_template, only: :update
 
   def index
