@@ -57,6 +57,8 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   end
 
   def prevent_update_service_template
+    authorize! :update, @service_template
+
     if @service_template.published? || @service_template.retired?
       render_failure({reason: 'ServiceTemplate is published or retired. You cannot update it.'}, 422)
     end
