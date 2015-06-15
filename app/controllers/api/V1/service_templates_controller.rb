@@ -61,8 +61,4 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
       render_failure({reason: 'ServiceTemplate is published or retired. You cannot update it.'}, 422)
     end
   end
-
-  def new_task_template_attributes
-    params.require(:task_template).permit(:name, :title, :description, :time_estimate, :service_ordinal)
-  end
 end
