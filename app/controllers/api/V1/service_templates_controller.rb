@@ -15,6 +15,12 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
     if unique_id = params[:service_template].try(:[], :unique_id)
       @current_service_template = ServiceTemplate.where(unique_id: unique_id).order('version DESC').first!
       @new_service_template = @current_service_template.create_deep_copy!
+      if @new_service_template.errors.empty?
+        @new_service_template.reload
+        render_success(service_template: @new_service_template.serializer)
+      else
+        render_failure({reason: @new_service_template.errors.full_messages.to_sentence}, 422)
+      end
     else
       create_resource @service_templates, permitted_params.service_template_attributes
     end
