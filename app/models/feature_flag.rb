@@ -3,18 +3,18 @@ class FeatureFlag < Metadata
   has_many :feature_flag_changes
 
   attr_accessor :actor_id
-  attr_accessible :description, :actor_id, :disabled_at
+  attr_accessible :description, :actor_id, :disabled_at, :enabled
 
   validates :actor_id, presence: true, on: :update
 
   after_save :track_update, on: :update
 
-  def feature_enabled?
-    if mvalue == 'true'
-      true
-    else
-      false
-    end
+  def enabled=(value)
+    self.mvalue = value ? "true" : "false"
+  end
+
+  def enabled?
+    mvalue == 'true'
   end
 
   def actor_id

@@ -1,9 +1,13 @@
 class Api::V1::FeatureFlagsController < Api::V1::ABaseController
   before_filter :load_feature_flags!, only: :index
-  before_filter :load_feature_flag!, only: :update
+  before_filter :load_feature_flag!, only: [:update, :show]
 
   def index
     index_resource @feature_flags.serializer
+  end
+
+  def show
+    show_resource @feature_flag.serializer
   end
 
   def update

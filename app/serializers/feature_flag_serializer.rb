@@ -1,9 +1,14 @@
 class FeatureFlagSerializer < ActiveModel::Serializer
   self.root = false
+  delegate :mkey, :enabled?, to: :object
 
-  attributes :title, :mvalue, :description
+  attributes :id, :title, :enabled, :description
 
   def title
-    object.mkey.try(:titleize)
+    mkey.try(:titleize)
+  end
+
+  def enabled
+    enabled?
   end
 end

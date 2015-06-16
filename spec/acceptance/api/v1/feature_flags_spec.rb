@@ -25,6 +25,15 @@ resource 'FeatureFlag' do
       end
     end
 
+    get '/api/v1/feature_flags/:id' do
+      example_request '[GET] Get Feature Flag' do
+        explanation 'Returns a Feature Flag'
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:feature_flag].to_json).to eq([feature_flag].serializer.as_json.to_json)
+      end
+    end
+
     put '/api/v1/feature_flags/:id' do
       parameter :mvalue, 'Boolean value of the FeatureFlag'
       scope_parameters :feature_flag, [:mvalue]
