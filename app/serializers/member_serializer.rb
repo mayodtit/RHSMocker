@@ -55,6 +55,7 @@ class MemberSerializer < ActiveModel::Serializer
       super.tap do |attributes|
         if options[:include_roles]
           attributes.merge!(admin?: object.admin?,
+                            super_admin?: object.super_admin?,
                             nurse?: object.nurse?,
                             pha?: object.pha?,
                             pha_lead?: object.pha_lead?,

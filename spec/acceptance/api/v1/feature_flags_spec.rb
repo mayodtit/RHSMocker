@@ -26,20 +26,22 @@ resource 'FeatureFlag' do
     end
 
     get '/api/v1/feature_flags/:id' do
+      let(:id) { feature_flag.id }
+
       example_request '[GET] Get Feature Flag' do
         explanation 'Returns a Feature Flag'
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
-        expect(body[:feature_flag].to_json).to eq([feature_flag].serializer.as_json.to_json)
+        expect(body[:feature_flag].to_json).to eq(feature_flag.serializer.as_json.to_json)
       end
     end
 
     put '/api/v1/feature_flags/:id' do
-      parameter :mvalue, 'Boolean value of the FeatureFlag'
-      scope_parameters :feature_flag, [:mvalue]
-      required_parameters :mvalue
+      parameter :enabled, 'Boolean value of the FeatureFlag'
+      scope_parameters :feature_flag, [:enabled]
+      required_parameters :enabled
 
-      let(:mvalue) { "true" }
+      let(:enabled) { true }
       let(:id) { feature_flag.id }
       let(:raw_post) { params.to_json }
 
@@ -47,7 +49,7 @@ resource 'FeatureFlag' do
         explanation 'Update the FeatureFlag'
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
-        expect(body[:feature_flag][:mvalue]).to eq(mvalue.to_s)
+        expect(body[:feature_flag][:enabled]).to be_true
       end
     end
   end
