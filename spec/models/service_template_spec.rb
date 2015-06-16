@@ -7,6 +7,10 @@ describe ServiceTemplate do
     it_validates 'presence of', :name
     it_validates 'presence of', :title
     it_validates 'presence of', :service_type
+    it_validates 'presence of', :version
+    it_validates 'presence of', :state
+    it_validates 'uniqueness of', :state, :unique_id
+    it_validates 'uniqueness of', :version, :unique_id
   end
 
   describe '#create_service!' do
@@ -80,6 +84,16 @@ describe ServiceTemplate do
       service = service_template.create_service! attributes
       service.should be_valid
       service.id.should be_present
+    end
+  end
+
+  describe '#create_deep_copy!' do
+    let(:service_template) { build_stubbed(:service_template)}
+
+    it 'creates a deep copy of the current service template' do
+      service_template.should_receive(:create_deep_copy!) { service_template }
+
+      service_template.create_deep_copy!.should == service_template
     end
   end
 end
