@@ -28,7 +28,7 @@ describe 'ServiceTemplates' do
       end
     end
 
-    describe 'GET /api/v1/message_templates/:id' do
+    describe 'GET /api/v1/service_templates/:id' do
       def do_request
         get "/api/v1/service_templates/#{service_template.id}", auth_token: session.auth_token
       end
@@ -58,5 +58,4 @@ describe 'ServiceTemplates' do
       end
     end
   end
-
 end
