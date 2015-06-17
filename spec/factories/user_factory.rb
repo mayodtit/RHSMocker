@@ -73,6 +73,12 @@ FactoryGirl.define do
         email 'kyle@getbetter.com'
         password 'password'
       end
+
+      trait :service_admin_role do
+        work_phone_number '5552223333'
+        after(:create) {|user| user.add_role(:service_admin)}
+      end
+      factory :service_admin, traits: %i(service_admin_role)
     end
   end
 end
