@@ -42,6 +42,7 @@ class Task < ActiveRecord::Base
 
   before_validation :set_role, on: :create
   before_validation :set_priority, on: :create
+  before_validation :set_ordinal, on: :create
   before_validation :set_assigned_at
   before_validation :reset_day_priority
   before_validation :mark_as_unread
@@ -54,7 +55,7 @@ class Task < ActiveRecord::Base
   scope :nurse, -> { where(['role_id = ?', Role.find_by_name!('nurse').id]) }
   scope :pha, -> { where(['role_id = ?', Role.find_by_name!('pha').id]) }
   scope :owned, -> (hcp) { where(['state IN (?, ?, ?, ?) AND owner_id = ?', :unstarted, :started, :claimed, :spam, hcp.id]) }
-  scope :needs_triage, -> (hcp) { where(['(owner_id IS NULL AND state NOT IN (?)) OR (state IN (?, ?, ?, ?) AND owner_id = ? AND type IN (?, ?, ?, ?, ?))', :abandoned, :unstarted, :started, :claimed, :spam, hcp.id, PhoneCallTask.name, MessageTask.name, UserRequestTask.name, ParsedNurselineRecordTask.name, InsurancePolicyTask.name]) }
+  scope :needs_triage, -> (hcp) { where(['(owner_id IS NULL AND state NOT IN (?)) OR (state IN (?, ?, ?, ?) AND owner_id = ? AND type IN (?, ?, ?, ?, ?, ?))', :abandoned, :unstarted, :started, :claimed, :spam, hcp.id, PhoneCallTask.name, MessageTask.name, UserRequestTask.name, ParsedNurselineRecordTask.name, InsurancePolicyTask.name, NewKinsightsMemberTask.name]) }
   scope :needs_triage_or_owned, -> (hcp) { where(['(state IN (?, ?, ?, ?) AND owner_id = ?) OR (owner_id IS NULL AND state NOT IN (?))', :unstarted, :started, :claimed, :spam, hcp.id, :abandoned]) }
 
   def self.open_state
@@ -90,6 +91,12 @@ class Task < ActiveRecord::Base
       self.priority = URGENT_PRIORITY
     else
       self.priority = PRIORITY if priority.nil?
+    end
+  end
+
+  def set_ordinal
+    if service_id && task_template_id.nil? && service_ordinal.nil?
+      self.service_ordinal = service.tasks.empty? ? 0 : service.tasks.maximum("service_ordinal")
     end
   end
 

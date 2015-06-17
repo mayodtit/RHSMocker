@@ -57,12 +57,13 @@ class User < ActiveRecord::Base
   attr_accessor :actor_id
 
   attr_accessible :first_name, :last_name, :avatar, :gender, :birth_date, :email,
-                  :phone, :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
+                  :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
                   :date_of_death, :expertise, :city, :avatar_url_override, :client_data,
                   :user_information_attributes, :addresses_attributes,
-                  :provider_attributes, :work_phone_number, :nickname, :default_hcp_association_id,
+                  :provider_attributes, :nickname, :default_hcp_association_id,
                   :provider_taxonomy_code, :owner, :owner_id, :self_owner, :emergency_contact_attributes,
-                  :actor_id, :text_phone_number, :due_date, :remote_avatar_url
+                  :actor_id, :due_date, :remote_avatar_url,
+                  :phone, :work_phone_number, :text_phone_number
 
   validate :member_flag_is_nil
   validates :deceased, :inclusion => {:in => [true, false]}
@@ -76,7 +77,6 @@ class User < ActiveRecord::Base
 
   before_validation :set_owner, on: :create
   before_validation :unset_member_flag
-  before_validation :prep_phone_numbers
   before_validation :set_defaults
   before_validation :strip_attributes
   before_create :create_google_analytics_uuid
@@ -84,8 +84,27 @@ class User < ActiveRecord::Base
   after_save :track_update, on: :update
 
   after_create :add_gravatar
-  after_create :add_phone_numbers
-  after_update :update_phone_numbers
+
+  def initialize(attributes = nil, options = {})
+    phone_numbers = {}
+    if attributes.is_a?(Hash)
+      [:phone, :work_phone_number, :text_phone_number].each do |phone_type|
+        phone_numbers[phone_type] = attributes.delete(phone_type)
+      end
+    end
+    new_user = super
+    new_user.instance_variable_set(:@phone_numbers, phone_numbers)
+    new_user
+  end
+
+  after_create :assign_phone_numbers
+  def assign_phone_numbers
+    @phone_numbers && @phone_numbers.each do |phone_type, phone_number|
+      next unless phone_number
+      self.send("#{phone_type}=".to_sym, phone_number)
+    end
+    @phone_numbers = nil
+  end
 
   def add_gravatar
     if self.avatar_url_override.nil? || self.avatar_url_override.include?('https://secure.gravatar.com/avatar')
@@ -94,36 +113,63 @@ class User < ActiveRecord::Base
     end
   end
 
-  def add_phone_numbers
-    if phone.present?
-      phone_numbers.create(number: phone, primary: true, type: "Home")
-    end
-    if work_phone_number.present?
-      phone_numbers.create(number: work_phone_number, primary: false, type: "Work")
-    end
-    if text_phone_number.present?
-      phone_numbers.create(number: text_phone_number, primary: false, type: "Mobile")
+  def phone_reader(phone_type)
+    return unless [:phone, :work_phone_number, :text_phone_number].include?(phone_type)
+    phone_type_name = "#{phone_type}_obj".to_sym
+    self.send(phone_type_name).try(:number)
+  end
+
+  PREDEFINED_PHONE_NUMBER_ATTRS = {
+    phone:             { primary: true, type: "Home" },
+    work_phone_number: { primary: false, type: "Work" },
+    text_phone_number: { primary: false, type: "Mobile" }
+  }
+
+  def phone_setter(new_phone, phone_type)
+    new_prepped_phone = PhoneNumber.prep_phone_number_for_db(new_phone)
+
+    return unless [:phone, :work_phone_number, :text_phone_number].include?(phone_type)
+    phone_type_name = "#{phone_type}_obj".to_sym
+    if p = self.send(phone_type_name)
+      if p.number != new_prepped_phone
+        p.update_attributes(number: new_prepped_phone)
+      end
+    else
+      new_phone_attrs = PREDEFINED_PHONE_NUMBER_ATTRS[phone_type].merge({number: new_prepped_phone})
+      phone_numbers.create(new_phone_attrs)
     end
   end
 
-  def update_phone_numbers
-    if phone_changed? && p = phone_obj
-      p.update_attribute(:number, phone)
-    end
-    if work_phone_number_changed? && p = work_phone_number_obj
-      p.update_attribute(:number, work_phone_number)
-    end
-    if text_phone_number_changed? && p = text_phone_number_obj
-      p.update_attribute(:number, text_phone_number)
-    end
+  def phone
+    phone_reader(:phone)
+  end
+
+  def phone=(new_phone)
+    phone_setter(new_phone, :phone)
   end
 
   def phone_obj
     phone_numbers.find_by_primary(true)
   end
 
+  def work_phone_number
+    phone_reader(:work_phone_number)
+  end
+
+  def work_phone_number=(new_work_phone_number)
+    phone_setter(new_work_phone_number, :work_phone_number)
+  end
+
   def work_phone_number_obj
     phone_numbers.find_by_type("Work")
+  end
+
+  def text_phone_number
+    phone_reader(:text_phone_number)
+  end
+
+  def text_phone_number=(new_text_phone_number)
+    phone_setter(new_text_phone_number, :text_phone_number)
   end
 
   def text_phone_number_obj
@@ -378,12 +424,6 @@ class User < ActiveRecord::Base
     if instance_of?(User)
       self.member_flag = nil
     end
-  end
-
-  def prep_phone_numbers
-    self.phone = PhoneNumber.prep_phone_number_for_db self.phone
-    self.work_phone_number = PhoneNumber.prep_phone_number_for_db self.work_phone_number
-    self.text_phone_number = PhoneNumber.prep_phone_number_for_db self.text_phone_number
   end
 
   def set_defaults

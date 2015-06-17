@@ -1,7 +1,7 @@
 class ServiceSerializer < ActiveModel::Serializer
   self.root = false
 
-  delegate :member, :owner, :service_type, to: :object
+  delegate :member, :owner, :subject, :service_type, to: :object
 
   attributes :id, :member_id, :user_id, :owner_id, :subject_id, :service_type_id, :state,
              :title, :description, :due_at, :created_at, :updated_at,
@@ -47,6 +47,7 @@ class ServiceSerializer < ActiveModel::Serializer
       service_type: service_type,
       owner: owner.try(:serializer, options.merge(shallow: true)),
       member: member.try(:serializer, options.merge(shallow: true)),
+      subject: subject.try(:serializer, options.merge(shallow: true)),
       tasks: tasks
     }
   end
@@ -56,6 +57,7 @@ class ServiceSerializer < ActiveModel::Serializer
       service_type: service_type,
       owner: owner.try(:serializer, options),
       member: member.try(:serializer, options),
+      subject: subject.try(:serializer, options),
       tasks: tasks
     }
   end

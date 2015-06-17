@@ -1738,6 +1738,8 @@ describe PhoneCall do
     end
 
     describe '#dial!' do
+      let(:nurse) { create(:nurse) }
+
       before do
         phone_call.state = 'claimed'
         phone_call.claimer = nurse

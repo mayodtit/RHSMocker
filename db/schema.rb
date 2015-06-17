@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150530002030) do
+ActiveRecord::Schema.define(:version => 20150609214846) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -672,6 +672,8 @@ ActiveRecord::Schema.define(:version => 20150530002030) do
     t.boolean  "skip_credit_card",              :default => false, :null => false
     t.boolean  "skip_automated_communications", :default => false, :null => false
     t.boolean  "skip_emails",                   :default => false, :null => false
+    t.string   "welcome_email_template"
+    t.integer  "welcome_message_template_id"
   end
 
   add_index "onboarding_groups", ["pha_id"], :name => "index_onboarding_groups_on_pha_id"
@@ -1481,7 +1483,6 @@ ActiveRecord::Schema.define(:version => 20150530002030) do
     t.datetime "updated_at",                                                       :null => false
     t.string   "avatar"
     t.string   "email"
-    t.string   "phone"
     t.string   "crypted_password"
     t.string   "salt"
     t.string   "reset_password_token"
@@ -1501,7 +1502,6 @@ ActiveRecord::Schema.define(:version => 20150530002030) do
     t.string   "google_analytics_uuid",           :limit => 36
     t.string   "avatar_url_override"
     t.text     "client_data"
-    t.string   "work_phone_number"
     t.string   "nickname"
     t.integer  "default_hcp_association_id"
     t.boolean  "member_flag"
@@ -1517,7 +1517,6 @@ ActiveRecord::Schema.define(:version => 20150530002030) do
     t.boolean  "on_call",                                       :default => false
     t.string   "status"
     t.integer  "nux_answer_id"
-    t.string   "text_phone_number"
     t.string   "time_zone"
     t.boolean  "cached_notifications_enabled"
     t.boolean  "email_confirmed"
@@ -1539,7 +1538,6 @@ ActiveRecord::Schema.define(:version => 20150530002030) do
   add_index "users", ["email_confirmation_token"], :name => "index_users_on_email_confirmation_token"
   add_index "users", ["onboarding_group_id"], :name => "index_users_on_onboarding_group_id"
   add_index "users", ["pha_id"], :name => "index_users_on_pha_id"
-  add_index "users", ["phone"], :name => "index_users_on_phone"
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token"
   add_index "users", ["type", "last_contact_at"], :name => "index_users_on_type_and_last_contact_at"
   add_index "users", ["type", "pha_id", "last_contact_at"], :name => "index_users_on_type_and_pha_id_and_last_contact_at"
