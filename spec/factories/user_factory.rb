@@ -81,8 +81,10 @@ FactoryGirl.define do
       end
 
       trait :service_admin_role do
-        work_phone_number '5552223333'
-        after(:create) {|user| user.add_role(:service_admin)}
+        after(:create) do |user|
+          user.add_role :service_admin
+          user.work_phone_number = '5552223333'
+        end
       end
       factory :service_admin, traits: %i(service_admin_role)
     end
