@@ -14,6 +14,7 @@ class ServiceTemplate < ActiveRecord::Base
   validates :version, uniqueness: { scope: :unique_id }
   validates :state, presence: true
   validates :state, uniqueness: { scope: :unique_id }, unless: :retired?
+  validate :no_placeholders_in_user_facing_attributes
 
   before_validation :set_unique_id, on: :create
   before_validation :set_version, on: :create
@@ -73,6 +74,16 @@ class ServiceTemplate < ActiveRecord::Base
     before_transition :unpublished => :published do |service_template|
       service_template.class.where(state: :published, unique_id: service_template.unique_id).each do |st|
         st.retire!
+      end
+    end
+  end
+
+  def no_placeholders_in_user_facing_attributes
+    %i(title service_request).each do |attribute|
+      if send(attribute).try(:match, RegularExpressions.braces)
+        errors.add(attribute, "shouldn't contain placeholder text")
+      elsif send(attribute).try(:match, RegularExpressions.brackets)
+        errors.add(attribute, "shouldn't contain placeholder text")
       end
     end
   end
