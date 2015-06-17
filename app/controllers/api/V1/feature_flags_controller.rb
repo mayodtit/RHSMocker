@@ -26,6 +26,6 @@ class Api::V1::FeatureFlagsController < Api::V1::ABaseController
 
   def load_feature_flag!
     authorize! :manage, FeatureFlag
-    @feature_flag = FeatureFlag.find(params[:id])
+    @feature_flag = FeatureFlag.find_by_mkey(params[:id])
   end
 end

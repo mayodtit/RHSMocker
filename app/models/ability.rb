@@ -66,6 +66,8 @@ class Ability
       user.id == o.user_id
     end
 
+    can :read, FeatureFlag
+
     cannot :manage, Program
     cannot :manage, CustomCard
     cannot :index, Member
