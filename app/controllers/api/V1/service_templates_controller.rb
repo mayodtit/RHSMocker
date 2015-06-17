@@ -1,7 +1,7 @@
 class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_service_templates!
-  before_filter :load_service_template!, only: %i(show update)
+  before_filter :load_service_template!, only: %i(show update destroy)
   before_filter :prevent_update_service_template, only: :update
 
   def index
@@ -53,6 +53,7 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
 
   def load_service_template!
     @service_template = ServiceTemplate.find params[:id]
+    authorize! :manage, @service_template
   end
 
   def load_service_templates!
