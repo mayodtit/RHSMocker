@@ -5,8 +5,8 @@ resource "ServiceTemplates" do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
-  let!(:pha) { create(:pha) }
-  let(:session) { pha.sessions.create }
+  let!(:service_admin) { create(:service_admin) }
+  let(:session) { service_admin.sessions.create }
   let!(:service_template) { create(:service_template) }
   let!(:another_service_template) { create(:service_template) }
   let(:auth_token) { session.auth_token }
@@ -20,7 +20,7 @@ resource "ServiceTemplates" do
       Timecop.return
     end
 
-    parameter :auth_token, 'Performing hcp\'s auth_token'
+    parameter :auth_token, 'Service Admin\'s auth_token'
     parameter :id, 'Service id'
 
     required_parameters :auth_token, :id
@@ -34,7 +34,7 @@ resource "ServiceTemplates" do
         explanation 'Get all service templates'
         status.should == 200
         response = JSON.parse response_body, symbolize_names: true
-        response[:service_templates].to_json.should == [service_template, another_service_template].serializer.to_json
+        response[:service_templates].to_json.should == [another_service_template, service_template].serializer.to_json
       end
     end
 
@@ -70,6 +70,37 @@ resource "ServiceTemplates" do
         explanation "Returns the created user service_template object"
         expect(status).to eq(200)
         JSON.parse(response_body)['service_template'].should be_a Hash
+      end
+    end
+
+    put '/api/v1/service_templates/:id' do
+      let!(:service_template) { create(:service_template) }
+
+      parameter :name, "name of the service template"
+      parameter :title, "title of the service template"
+      parameter :description, "description of the service template"
+      parameter :service_type_id, "Integer; id of the associated service type"
+      parameter :time_estimate, "Estimate in minutes for length of service"
+      scope_parameters :service_template, [:name, :title, :description, :service_type_id, :time_estimate]
+
+      let(:title) { 'New Service Template Title' }
+      let(:raw_post) { params.to_json }
+
+      example_request '[PUT] Update service template' do
+        explanation 'Update Service Template'
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:service_template][:title]).to eq(title)
+      end
+    end
+
+    delete '/api/v1/service_templates/:id' do
+      let(:id) { service_template.id }
+      let(:raw_post) { params.to_json }
+
+      example_request '[DELETE] Destroy service template' do
+        explanation 'Destroy a Service Template'
+        expect(status).to eq(200)
       end
     end
   end
