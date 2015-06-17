@@ -205,14 +205,6 @@ class Task < ActiveRecord::Base
       task.service.create_next_ordinal_tasks(task.service_ordinal, task.due_at) if task.service
     end
 
-    after_transition any - :abandoned => :abandoned  do |task|
-      if task.service
-        task.service.reason = task.reason
-        task.service.abandoner = task.abandoner
-        task.service.abandon!
-      end
-    end
-
     before_transition any - :abandoned => :abandoned do |task|
       task.abandoned_at = Time.now
     end
