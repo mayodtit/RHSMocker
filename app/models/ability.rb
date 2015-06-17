@@ -121,6 +121,8 @@ class Ability
       can :manage, ScheduledCommunication
       can :manage, MessageTemplate
       can :manage, Entry
+      can :read, ServiceTemplate
+      can :read, TaskTemplate
     end
 
     if user.service_admin?
