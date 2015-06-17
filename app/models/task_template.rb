@@ -7,6 +7,7 @@ class TaskTemplate < ActiveRecord::Base
   attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template
 
   validates :name, :title, presence: true
+  validate :no_placeholders_in_user_facing_attributes
 
   def create_task!(attributes = {})
     creator = attributes[:service] ? attributes[:service].creator : attributes[:creator]
@@ -33,5 +34,15 @@ class TaskTemplate < ActiveRecord::Base
   def create_deep_copy!(override_service_template=nil)
     new_modal_template = modal_template.try(:create_copy!)
     self.class.create!(attributes.except('id', 'service_template_id', 'created_at', 'updated_at', 'modal_template_id').merge(service_template: override_service_template || service_template, modal_template: new_modal_template || modal_template))
+  end
+
+  def no_placeholders_in_user_facing_attributes
+    %i(name title description).each do |attribute|
+      if send(attribute).try(:match, RegularExpressions.braces)
+        errors.add(attribute, "shouldn't contain placeholder text")
+      elsif send(attribute).try(:match, RegularExpressions.brackets)
+        errors.add(attribute, "shouldn't contain placeholder text")
+      end
+    end
   end
 end
