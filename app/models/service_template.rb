@@ -79,7 +79,7 @@ class ServiceTemplate < ActiveRecord::Base
   end
 
   def no_placeholders_in_user_facing_attributes
-    %i(title service_request).each do |attribute|
+    %i(name title service_request service_update description).each do |attribute|
       if send(attribute).try(:match, RegularExpressions.braces)
         errors.add(attribute, "shouldn't contain placeholder text")
       elsif send(attribute).try(:match, RegularExpressions.brackets)
