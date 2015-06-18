@@ -38,10 +38,8 @@ class TaskTemplate < ActiveRecord::Base
 
   def no_placeholders_in_user_facing_attributes
     %i(name title description).each do |attribute|
-      if send(attribute).try(:match, RegularExpressions.braces)
-        errors.add(attribute, "shouldn't contain placeholder text")
-      elsif send(attribute).try(:match, RegularExpressions.brackets)
-        errors.add(attribute, "shouldn't contain placeholder text")
+      if send(attribute).try(:match, RegularExpressions.brackets)
+        errors.add(attribute, "shouldn't contain any brackets other than markdown")
       end
     end
   end
