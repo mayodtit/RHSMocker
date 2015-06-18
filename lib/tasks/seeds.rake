@@ -1101,7 +1101,7 @@ My phone: 650-887-3711
   task :backfill_unique_id_service_templates => :environment do
     ServiceTemplate.all.each do |st|
       if st.unique_id == nil
-        st.set_unique_id
+        st.send(:set_unique_id)
         st.save!
       end
     end
