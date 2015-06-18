@@ -72,7 +72,7 @@ class ServiceTemplate < ActiveRecord::Base
     end
 
     before_transition :unpublished => :published do |service_template|
-      service_template.class.where(state: :published, unique_id: service_template.unique_id).each do |st|
+      service_template.class.published.where(unique_id: service_template.unique_id).each do |st|
         st.retire!
       end
     end
