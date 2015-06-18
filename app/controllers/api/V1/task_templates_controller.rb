@@ -37,7 +37,7 @@ class Api::V1::TaskTemplatesController < Api::V1::ABaseController
 
   def prevent_update_task_template
     if @task_template.service_template.try(:published?) || @task_template.service_template.try(:retired?)
-      render_failure({reason: 'TaskTemplate\'s associated ServiceTemplate is published or retired. You cannot update it!'}, 422)
+      render_failure({reason: "TaskTemplate's associated ServiceTemplate is published or retired. You cannot update it!"}, 422)
     end
   end
 end
