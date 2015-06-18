@@ -59,12 +59,12 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
     @service_templates = ServiceTemplate.order('id DESC')
 
     case params[:state]
-      when 'unpublished'
-        @service_templates = @service_templates.unpublished
-      when 'published'
-        @service_templates = @service_templates.published
-      when 'retired'
-        @service_templates = @service_templates.retired
+    when 'unpublished'
+      @service_templates = @service_templates.unpublished
+    when 'published'
+      @service_templates = @service_templates.published
+    when 'retired'
+      @service_templates = @service_templates.retired
     end
 
     @service_templates = @service_templates.title_search(params[:title]) if params[:title]
