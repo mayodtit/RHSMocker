@@ -60,7 +60,8 @@ class MemberSerializer < ActiveModel::Serializer
                             pha_lead?: object.pha_lead?,
                             care_provider?: object.care_provider?,
                             specialist?: object.specialist?,
-                            beta?: object.beta?)
+                            beta?: object.beta?,
+                            service_admin?: object.service_admin?)
           attributes.merge!(roles: object.roles.map(&:name))
           attributes.merge!(on_call?: object.on_call?)
         end
