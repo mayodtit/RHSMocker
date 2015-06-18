@@ -14,7 +14,7 @@ resource 'FeatureFlag' do
   required_parameters :auth_token
 
   context 'existing record' do
-    let!(:feature_flag) { create(:feature_flag) }
+    let!(:feature_flag) { create(:feature_flag, mkey: 'key_1') }
 
     get '/api/v1/feature_flags' do
       example_request '[GET] Get all Feature Flags' do
@@ -25,8 +25,8 @@ resource 'FeatureFlag' do
       end
     end
 
-    get '/api/v1/feature_flags/:id' do
-      let(:id) { feature_flag.id }
+    get '/api/v1/feature_flags/:mkey' do
+      let(:mkey) { feature_flag.mkey }
 
       example_request '[GET] Get Feature Flag' do
         explanation 'Returns a Feature Flag'
@@ -36,13 +36,13 @@ resource 'FeatureFlag' do
       end
     end
 
-    put '/api/v1/feature_flags/:id' do
+    put '/api/v1/feature_flags/:mkey' do
       parameter :enabled, 'Boolean value of the FeatureFlag'
       scope_parameters :feature_flag, [:enabled]
       required_parameters :enabled
 
       let(:enabled) { true }
-      let(:id) { feature_flag.id }
+      let(:mkey) { feature_flag.mkey }
       let(:raw_post) { params.to_json }
 
       example_request '[PUT] Update FeatureFlag' do
