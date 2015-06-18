@@ -58,6 +58,7 @@ RHSMocker::Application.routes.draw do
       resources :enrollments, only: %i(show create update) do
         get :on_board, on: :collection
       end
+      resources :feature_flags, only: [:index, :update, :show]
       resources :ethnic_groups, :only => :index
       get 'factors/:symptom_id', to: 'factor_groups#index' # TODO - deprecated!
       resources :locations, :only => :create

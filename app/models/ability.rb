@@ -66,11 +66,20 @@ class Ability
       user.id == o.user_id
     end
 
+    can :read, FeatureFlag
+
     cannot :manage, Program
     cannot :manage, CustomCard
     cannot :index, Member
 
     if user.admin?
+      can :manage, :all
+      cannot :manage, FeatureFlag
+      can :assign_roles, User
+      can :read, :metrics
+    end
+
+    if user.super_admin?
       can :manage, :all
       can :assign_roles, User
       can :read, :metrics
