@@ -16,7 +16,6 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
       @current_service_template = ServiceTemplate.where(unique_id: unique_id).order('version DESC').first!
       @new_service_template = @current_service_template.create_deep_copy!
       if @new_service_template.errors.empty?
-        @new_service_template.reload
         render_success(service_template: @new_service_template.serializer)
       else
         render_failure({reason: @new_service_template.errors.full_messages.to_sentence}, 422)
@@ -34,10 +33,6 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
   def update
     authorize! :update, @service_template
 
-    if params[:state_event] == 'publish'
-      @service_template.publish!
-    end
-
     update_resource @service_template, permitted_params.service_template_attributes
   end
 
@@ -46,6 +41,8 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
 
     if @service_template.unpublished?
       destroy_resource @service_template
+    else
+      render_failure({reason: "You can not delete a #{@service_template.state} service template."}, 422)
     end
   end
 
