@@ -22,7 +22,7 @@ resource 'SuggestedService' do
         explanation 'Returns an array of SuggestedServices'
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
-        expect(body[:suggested_services].to_json).to eq([suggested_service].serializer.as_json.to_json)
+        expect(body[:suggested_services].to_json).to eq([suggested_service].serializer(include_nested: true).as_json.to_json)
       end
     end
 
@@ -33,7 +33,7 @@ resource 'SuggestedService' do
         explanation 'Returns the SuggestedService'
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
-        expect(body[:suggested_service].to_json).to eq(suggested_service.serializer.as_json.to_json)
+        expect(body[:suggested_service].to_json).to eq(suggested_service.serializer(include_nested: true).as_json.to_json)
       end
     end
   end

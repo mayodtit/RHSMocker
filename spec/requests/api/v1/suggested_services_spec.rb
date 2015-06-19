@@ -16,7 +16,7 @@ describe 'SuggestedServices' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:suggested_services].to_json).to eq([suggested_service].serializer.as_json.to_json)
+        expect(body[:suggested_services].to_json).to eq([suggested_service].serializer(include_nested: true).as_json.to_json)
       end
     end
 
@@ -29,7 +29,7 @@ describe 'SuggestedServices' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:suggested_services].to_json).to eq([suggested_service].serializer.as_json.to_json)
+        expect(body[:suggested_services].to_json).to eq([suggested_service].serializer(include_nested: true).as_json.to_json)
       end
     end
 
@@ -42,7 +42,7 @@ describe 'SuggestedServices' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:suggested_service].to_json).to eq(suggested_service.serializer.as_json.to_json)
+        expect(body[:suggested_service].to_json).to eq(suggested_service.serializer(include_nested: true).as_json.to_json)
       end
     end
 
@@ -55,7 +55,7 @@ describe 'SuggestedServices' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:suggested_service].to_json).to eq(suggested_service.serializer.as_json.to_json)
+        expect(body[:suggested_service].to_json).to eq(suggested_service.serializer(include_nested: true).as_json.to_json)
       end
     end
   end
