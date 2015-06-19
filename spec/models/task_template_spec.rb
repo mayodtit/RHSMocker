@@ -132,4 +132,14 @@ describe TaskTemplate do
       task.id.should be_present
     end
   end
+
+  describe '#create_deep_copy!' do
+    let(:task_template) { build_stubbed(:task_template)}
+
+    it 'creates a deep copy of the current task template' do
+      task_template.should_receive(:create_deep_copy!) { task_template }
+
+      task_template.create_deep_copy!.should == task_template
+    end
+  end
 end

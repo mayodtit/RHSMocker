@@ -141,8 +141,9 @@ resource "Services" do
     parameter :service_template_id, 'The service type of the task'
 
     required_parameters :auth_token, :member_id, :service_template_id
+    scope_parameters :service_template, [:name, :title, :description, :service_type_id, :time_estimate]
 
-    let(:service_template) { create :service_template }
+    let(:service_template) { create(:service_template) }
     let(:member_id) { member.id }
     let(:title) { 'Title' }
     let(:description) { 'Description' }

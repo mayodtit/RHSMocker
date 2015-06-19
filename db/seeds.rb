@@ -7,6 +7,7 @@
    contents
    diets
    ethnic_groups
+   feature_flags
    hcp_taxonomy
    messages
    modal_templates

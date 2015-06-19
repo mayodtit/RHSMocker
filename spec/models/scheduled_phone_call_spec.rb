@@ -116,7 +116,6 @@ describe ScheduledPhoneCall do
         end
 
         it 'does not set the user phone' do
-          scheduled_phone_call.user.should_receive(:save!)
           scheduled_phone_call.set_user_phone_if_missing
           scheduled_phone_call.user.phone.should == scheduled_phone_call.callback_phone_number
         end
@@ -429,7 +428,11 @@ describe ScheduledPhoneCall do
     end
 
     describe '#cancel' do
-      let!(:member_with_phone) { create(:member, phone: 1234567890)}
+      let!(:member_with_phone) do
+        member = create(:member)
+        member.phone = "1234567890"
+        member
+      end
       let!(:booked_scheduled_phone_call) { create(:scheduled_phone_call, :booked, owner: pha, user: member_with_phone) }
 
       it_behaves_like 'cannot transition from', :cancel!, [:ended, :canceled]

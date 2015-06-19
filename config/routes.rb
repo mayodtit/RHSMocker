@@ -58,6 +58,7 @@ RHSMocker::Application.routes.draw do
       resources :enrollments, only: %i(show create update) do
         get :on_board, on: :collection
       end
+      resources :feature_flags, only: [:index, :update, :show]
       resources :ethnic_groups, :only => :index
       get 'factors/:symptom_id', to: 'factor_groups#index' # TODO - deprecated!
       resources :locations, :only => :create
@@ -202,8 +203,8 @@ RHSMocker::Application.routes.draw do
       resources :service_types, only: [:index] do
         get :buckets, on: :collection
       end
-      resources :service_templates, only: [:index, :create, :show]
-      resources :task_templates, only: [:show, :create]
+      resources :service_templates, only: %i(index create show update destroy)
+      resources :task_templates, only: %i(index create show update destroy)
       resources :domains, only: :index do
         get :all_domains, on: :collection
         get :submit, on: :collection

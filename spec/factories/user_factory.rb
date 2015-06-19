@@ -49,21 +49,32 @@ FactoryGirl.define do
       end
       factory :admin, traits: %i(admin_role)
 
+      trait :super_admin_role do
+        after(:create) {|user| user.add_role(:super_admin)}
+      end
+      factory :super_admin, traits: %i(super_admin_role)
+
       trait :nurse_role do
-        work_phone_number '4083913578'
-        after(:create) {|user| user.add_role(:nurse)}
+        after(:create) do |user|
+          user.add_role(:nurse)
+          user.work_phone_number = '4083913578'
+        end
       end
       factory :nurse, traits: %i(nurse_role)
 
       trait :pha_role do
-        work_phone_number '5552223333'
-        after(:create) {|user| user.add_role(:pha)}
+        after(:create) do |user|
+          user.add_role(:pha)
+          user.work_phone_number = '5552223333'
+        end
       end
       factory :pha, traits: %i(pha_role)
 
       trait :pha_lead_role do
-        work_phone_number '4153333333'
-        after(:create) {|user| user.add_role(:pha_lead)}
+        after(:create) do |user|
+          user.add_role(:pha_lead)
+          user.work_phone_number = '4153333333'
+        end
       end
       factory :pha_lead, traits: %i(pha_lead_role)
 
@@ -73,6 +84,14 @@ FactoryGirl.define do
         email 'kyle@getbetter.com'
         password 'password'
       end
+
+      trait :service_admin_role do
+        after(:create) do |user|
+          user.add_role :service_admin
+          user.work_phone_number = '5552223333'
+        end
+      end
+      factory :service_admin, traits: %i(service_admin_role)
     end
   end
 end
