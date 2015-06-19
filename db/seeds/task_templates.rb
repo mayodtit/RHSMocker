@@ -199,14 +199,14 @@ PROVIDER_SEARCH_SEND_OPTIONS_DESCRIPTION = <<-eof
 
 1. Copy, paste, and edit into User-Facing Service Request:
 
-        [mm/dd]: We found you a few [provider type]s who are close to your [location], accepting new patients, and take your insurance. Please take a look at the options below.
+        {mm/dd}: We found you a few {provider type}s who are close to your {location}, accepting new patients, and take your insurance. Please take a look at the options below.
 
 2. Copy and paste provider options from Service Deliverable Draft into User-Facing Service Deliverable
 3. Send message to member:
 
-        We found you a few [provider type]s who are close to your [location], accepting new patients, and take your insurance.
+        We found you a few {provider type}s who are close to your {location}, accepting new patients, and take your insurance.
 
-        [Copy and paste provider options from Service Deliverable Draft here]
+        {Copy and paste provider options from Service Deliverable Draft here}
 
         Let us know if you want us to book you an appointment with one, or discuss the options.
 
@@ -216,7 +216,7 @@ eof
 PROVIDER_SEARCH_FOLLOW_UP_DESCRIPTION = <<-eof
 1. Send message to member:
 
-        Just checking in to see what you thought of the [provider type]s I sent over. Let us know if you want to book an appointment with one of them, or if you would like to discuss the options!
+        Just checking in to see what you thought of the {provider type}s I sent over. Let us know if you want to book an appointment with one of them, or if you would like to discuss the options!
 
 2. Complete Task
 eof
@@ -229,11 +229,11 @@ PROVIDER_SEARCH_ADD_DOCTOR_DESCRIPTION = <<-eof
 1. Go to Providers tab in member’s profile and Add Provider
 2. Send message to member:
 
-        I’m glad you were able to choose a [provider type] from the options we sent. We’ve also added [Dr. First Last] to your Care Team [here](better://nb?cmd=showCareTeam). Do you want us to help you book an appointment with [him/her]?
+        I’m glad you were able to choose a {provider type} from the options we sent. We’ve also added {Dr. First Last} to your Care Team [here](better://nb?cmd=showCareTeam). Do you want us to help you book an appointment with {him/her}?
 
 3. Copy, paste, and edit into User-Facing Service Request:
 
-        [mm/dd]: You selected Dr. [First Last] as your dentist.
+        {mm/dd}: You selected Dr. {First Last} as your dentist.
 
 4. Complete Task
 
@@ -243,11 +243,11 @@ PROVIDER_SEARCH_ADD_DOCTOR_DESCRIPTION = <<-eof
 
 1. Send message to member:
 
-        Let us know if there is anything we can do to expand our search, or help you find better [provider type] options. We’re also here to answer any other questions you have!
+        Let us know if there is anything we can do to expand our search, or help you find better {provider type} options. We’re also here to answer any other questions you have!
 
 2. Copy, paste, and edit into User-Facing Service Request:
 
-        [mm/dd]: You didn’t select any of the [provider type]s from the options. [Include details about next steps].
+        {mm/dd}: You didn’t select any of the {provider type}s from the options. {Include details about next steps}.
 
 3. Complete Task
 eof
@@ -295,12 +295,12 @@ APPOINTMENT_BOOKING_CALL_PROVIDER_TEMPLATE = <<-eof
       * PHA next steps:
           1. Copy, paste, and edit into User-Facing Service Request:
 
-              [mm/dd]: There weren’t any appointments that matched your availability. We’ll book an appointment on another date that works for [you/member name].
+              {mm/dd}: There weren’t any appointments that matched your availability. We’ll book an appointment on another date that works for {you/member name}.
 
           2. Send message to member with member update from Internal Service Updates - Member update and request new availability
           3. Copy, paste and edit this into Internal Service Updates - Specialist next steps:
 
-              [mm/dd]: Messaged member to ask about new availability
+              {mm/dd}: Messaged member to ask about new availability
               Available dates/times:
 
           4. Send task back to Specialist with new availability in Internal Service Updates - Specialist next steps
@@ -324,23 +324,23 @@ APPOINTMENT_BOOKING_SEND_CONFIRMATION_DESCRIPTION = <<-eof
 2. Copy and paste appointment details from Service Deliverable Draft into User-Facing Service Deliverable
 3. Copy, paste, and edit into User-Facing Service Request:
 
-        [mm/dd]: We booked [you/member name] an appointment with Dr. [First Last]. The details are below for you to view.
+        {mm/dd}: We booked {you/member name} an appointment with Dr. {First Last}. The details are below for you to view.
 
 4. Send this message to member:
 
-        We booked [you/member name] an appointment with Dr. [First Last]. Here are the details of your appointment.
+        We booked {you/member name} an appointment with Dr. {First Last}. Here are the details of your appointment.
 
-        [Copy and paste appointment details from Service Deliverable Draft]
+        {Copy and paste appointment details from Service Deliverable Draft}
 
         We’ve also sent you a calendar reminder via email. Let us know if we need to make any changes!
 
 5. Create an event in Google Calendar - Member Appointment Calendar in the following format:
 
-  Event Title: Appointment with Dr. [First Last]
+  Event Title: Appointment with Dr. {First Last}
   Event Location: Address, city
   Calendar: Member Appointment
   Event Description:
-  [Copy and paste appointment details from Service Deliverable Draft]
+  {Copy and paste appointment details from Service Deliverable Draft}
   Add: Member’s email address
 
   * **Time zone:** Confirm that member’s time zone matches event time zone
@@ -350,7 +350,7 @@ APPOINTMENT_BOOKING_SEND_CONFIRMATION_DESCRIPTION = <<-eof
 6. Go to Providers tab in member’s profile and Add Provider if not listed
 7. If you added Provider, send message to member:
 
-        We’ve also added [Dr. First Last] to your Care Team [here](better://nb?cmd=showCareTeam).
+        We’ve also added {Dr. First Last} to your Care Team [here](better://nb?cmd=showCareTeam).
 
 8. Complete Task
 eof
@@ -361,11 +361,11 @@ APPOINTMENT_BOOKING_REMINDER_TEMPLATE = <<-eof
 1. Change due date of this task to day before appointment
 2. On due date, send message to member:
 
-        Remember, [your/member name’s] appointment with Dr. [First Last] is [tomorrow]. Here are the details of the appointment.
+        Remember, {your/member name’s} appointment with Dr. {First Last} is {tomorrow}. Here are the details of the appointment.
 
-        [Copy and paste appointment details from Service Deliverable Draft]
+        {Copy and paste appointment details from Service Deliverable Draft}
 
-        Can we help [you/member name] prepare for the visit?
+        Can we help {you/member name} prepare for the visit?
 
 3. Complete Task
 eof
@@ -376,7 +376,7 @@ APPOINTMENT_BOOKING_FOLLOW_UP_TEMPLATE = <<-eof
 1. Change due date of this task to same day of appointment
 2. On due date, send member follow-up message:
 
-        How did your appointment with Dr. [First Last] go? Let us know if we can help with any follow up.
+        How did your appointment with Dr. {First Last} go? Let us know if we can help with any follow up.
 
 3. Complete Task
 eof
@@ -430,13 +430,13 @@ CARE_COORDINATION_CALL_SEND_MEMBER_UPDATES_DESCRIPTION = <<-eof
 3. Copy and paste call notes from Service Deliverable Draft into User-Facing Service Deliverable
 4. Copy, paste, and edit into User-Facing Service Request:
 
-        [mm/dd of call]: We spoke with [doctor/insurance/other] about your questions. The notes are below for you to view.
+        {mm/dd of call}: We spoke with {doctor/insurance/other} about your questions. The notes are below for you to view.
 
 5. Send message to member:
 
-        We spoke with [doctor/insurance/other] about your questions and we’ve organized the notes for you to review.
+        We spoke with {doctor/insurance/other} about your questions and we’ve organized the notes for you to review.
 
-        [Copy and paste call notes from Service Deliverable Draft here]
+        {Copy and paste call notes from Service Deliverable Draft here}
 
         Let us know if you have any questions!
 
@@ -477,7 +477,7 @@ PHA_AUTHORIZATION_SEND_FORM_TO_MEMBER_DESCRIPTION = <<-eof
 1. Find link to blank form in Internal Service Notes - Specialist Notes
 2. Download form to computer
 3. Fill out in Preview with member’s and Better’s information
-4. Upload to member’s Google Drive folder - save as “ForReview_[LastName]_[FirstName]_[Authorization]”
+4. Upload to member’s Google Drive folder - save as “ForReview_{LastName}_{FirstName}_{Authorization}”
 5. Copy and paste link to drafted form into Internal Service Notes - Specialist Notes
 6. Change title of task to: “Proofread - authorization form”
 7. Reassign to another Specialist to proofread
@@ -510,7 +510,7 @@ PHA_AUTHORIZATION_SIGN_AUTHORIZATION_FORM_DESCRIPTION = <<-eof
 
 1. Copy, paste, and edit User-Facing Service Request:
 
-        [mm/dd]: We sent you an authorization form to sign via HelloSign.
+        {mm/dd}: We sent you an authorization form to sign via HelloSign.
 
 2. Send message to member:
 
@@ -533,7 +533,7 @@ PHA_AUTHORIZATION_SEND_FORM_TO_INSURANCE_DESCRIPTION = <<-eof
 
   - Copy, paste, and edit this into Internal Service Notes - Specialist Notes:
 
-            [mm/dd]: Checked HelloSign for signed form and created task for PHA to remind member to sign form.
+            {mm/dd}: Checked HelloSign for signed form and created task for PHA to remind member to sign form.
 
   * Push current task back 1 day (“Send - signed authorization form to insurance”). Reason: Waiting on member.
 3. **If form signed:**
@@ -550,7 +550,7 @@ PHA_AUTHORIZATION_UPDATE_MEMBER_AUTHORIZATION_SENT_DESCRIPTION = <<-eof
 
 1. Copy, paste, and edit into User-Facing Service Request:
 
-        [mm/dd]: We received your signed authorization form and sent it to your insurance company.
+        {mm/dd}: We received your signed authorization form and sent it to your insurance company.
 
 2. Send message to member:
 
@@ -570,7 +570,7 @@ PHA_AUTHORIZATION_CALL_CONFIRM_AUTHORIZATION_DESCRIPTION = <<-eof
   * Copy, paste, and edit into the new Task Steps:
           1. Copy, paste, and edit User-Facing Service Request:
 
-                  [mm/dd]: We called your insurance to check on the authorization form. They did not have it on file so we resent the form.
+                  {mm/dd}: We called your insurance to check on the authorization form. They did not have it on file so we resent the form.
 
           2. Send message to member:
 
@@ -578,7 +578,7 @@ PHA_AUTHORIZATION_CALL_CONFIRM_AUTHORIZATION_DESCRIPTION = <<-eof
 
   * Copy, paste, and edit into Internal Service Notes - Specialist Notes:
 
-            [mm/dd]: Called insurance company and authorization form was not on file. Resent authorization form and created task for PHA to send member update.
+            {mm/dd}: Called insurance company and authorization form was not on file. Resent authorization form and created task for PHA to send member update.
 
   * Push current task back 12 days (“Call - confirm authorization on file”). Reason: Waiting on 3rd party.
 4. **If form received:**
@@ -593,7 +593,7 @@ PHA_AUTHORIZATION_UPDATE_MEMBER_AUTHORIZATION_ON_FILE_DESCRIPTION = <<-eof
 
 1. Copy, paste, and edit into User-Facing Service Request:
 
-        [mm/dd]: We called to confirm the authorization for us to speak on your behalf is on file.
+        {mm/dd}: We called to confirm the authorization for us to speak on your behalf is on file.
 
 2. Copy, paste, and edit into User-Facing Service Deliverable:
 
@@ -683,7 +683,7 @@ RECORD_RECOVERY_COMPLETE_RECORD_REQUEST_FORM_DESCRIPTION = <<-eof
 1. Find link to blank records release form in Internal Service Notes - Specialist Notes or check sfax for form
 2. Download form to your computer
 3. Fill out in Preview with member’s and providers’ information
-4. Upload to member’s Google Drive folder  - save as “ForReview_[LastName]_[FirstName]_[SourceProvider]_[DestinationProvider]”
+4. Upload to member’s Google Drive folder  - save as “ForReview_{LastName}_{FirstName}_{SourceProvider}_{DestinationProvider}”
 5. Copy and paste link to drafted form into Internal Service Notes - Specialist Notes
 6. Change title of task to: “Proofread - records release form”
 7. Reassign to another Specialist to proofread
@@ -705,7 +705,7 @@ RECORD_RECOVERY_COMPLETE_RECORD_REQUEST_FORM_DESCRIPTION = <<-eof
 
           Message:
 
-          Here is the medical records release form for you to sign. Once it's signed, we’ll send it to [source provider]. Send us a message in the app if you have any questions!
+          Here is the medical records release form for you to sign. Once it's signed, we’ll send it to {source provider}. Send us a message in the app if you have any questions!
 
 9. Send form to member
 10. Complete Task
@@ -717,7 +717,7 @@ RECORD_RECOVERY_SIGN_AUTHORIZATION_FORM_DESCRIPTION = <<-eof
 
 1. Copy, paste, and edit into User-Facing Service Request:
 
-        [mm/dd]: We sent you a records release form from [source provider] to sign via HelloSign.com.
+        {mm/dd}: We sent you a records release form from {source provider} to sign via HelloSign.com.
 
 2. Send message to member:
 
@@ -735,10 +735,10 @@ RECORD_RECOVERY_SEND_FORM_TO_SOURCE_PROVIDER_DESCRIPTION = <<-eof
   * Copy, paste, and edit into the new Task Steps:
     1. Send message to member using the details in the Member Request below:
 
-        Just a reminder to sign the records release form that we sent you through HelloSign.com. Once it’s signed, we’ll send it to [source provider]. Let us know if you have any questions. Thanks!
+        Just a reminder to sign the records release form that we sent you through HelloSign.com. Once it’s signed, we’ll send it to {source provider}. Let us know if you have any questions. Thanks!
 
   * Copy, paste and edit this into Internal Service Notes - Specialist Notes:
-  * [mm/dd]: Checked HelloSign for signed form and created task for PHA to remind member to sign form.
+  * {mm/dd}: Checked HelloSign for signed form and created task for PHA to remind member to sign form.
   * Push current task back 1 day (“Send - signed records release form to insurance”). Reason: Waiting on member.
 3. **If form signed:**
   * Download signed form from HelloSign
@@ -755,11 +755,11 @@ RECORD_RECOVERY_UPDATE_MEMBER_REQUEST_SENT_DESCRIPTION = <<-eof
 
 1. Copy, paste, and edit into User-Facing Service Request:
 
-        [mm/dd]: We sent your signed records release form to [source provider].
+        {mm/dd}: We sent your signed records release form to {source provider}.
 
 2. Send message to member:
 
-        We’ve sent the records release form to [source provider]. We’ll call them in a few days to confirm that it was received.
+        We’ve sent the records release form to {source provider}. We’ll call them in a few days to confirm that it was received.
 
 3. Complete Task
 eof
@@ -776,11 +776,11 @@ RECORD_RECOVERY_CONFIRM_REQUEST_RECEIVED_DESCRIPTION = <<-eof
 
         1. Copy, paste, and edit into User-Facing Service Request:
 
-                [mm/dd]: We called [source provider] and they hadn’t received the records release form. We’re going to resend it and confirm that they receive it.
+                {mm/dd}: We called {source provider} and they hadn’t received the records release form. We’re going to resend it and confirm that they receive it.
 
         2. Send message to member using the details in the Member Request below:
 
-                We checked in with [source provider] today and they haven’t received the records release form yet. We’re working with to track down the issue, but we’ve sent the form again to confirm they receive it. We’ll keep you updated!
+                We checked in with {source provider} today and they haven’t received the records release form yet. We’re working with to track down the issue, but we’ve sent the form again to confirm they receive it. We’ll keep you updated!
 
   * Push current task back 1 day (“Call - confirm records release form received”). Reason: Waiting on 3rd party.
 4. **If form received:**
@@ -793,11 +793,11 @@ RECORD_RECOVERY_UPDATE_MEMBER_REQUEST_RECEIVED_DESCRIPTION = <<-eof
 
 1. Copy, paste, and edit into User-Facing Service Request:
 
-        [mm/dd]: We’ve contacted [source provider] and they’ve received the records release form.
+        {mm/dd}: We’ve contacted {source provider} and they’ve received the records release form.
 
 2. Send message to member:
 
-        The records release form you signed has been received by [source provider]. Your records should arrive at [destination provider] in the next week. We’ll continue to follow up and let you know when they are transferred!
+        The records release form you signed has been received by {source provider}. Your records should arrive at {destination provider} in the next week. We’ll continue to follow up and let you know when they are transferred!
 
 3. Complete Task
 eof
@@ -814,11 +814,11 @@ RECORD_RECOVERY_CONFIRM_RECORDS_TRANSFERRED_DESCRIPTION = <<-eof
 
         1. Copy, paste, and edit into User-Facing Service Request:
 
-                [mm/dd]: We called [destination provider] and they haven’t received your medical records yet. We are working to make sure they receive it.
+                {mm/dd}: We called {destination provider} and they haven’t received your medical records yet. We are working to make sure they receive it.
 
         2. Send message to member using the details in the Member Request below:
 
-                We called [destination provider] and they haven’t received your medical records yet. We’ll call [source provider] and have your records re-sent. We’ll be in touch soon with another update.
+                We called {destination provider} and they haven’t received your medical records yet. We’ll call {source provider} and have your records re-sent. We’ll be in touch soon with another update.
 
   * Push current task back 7 days (“Call - confirm medical records transferred”). Reason: Waiting on 3rd party.
 
@@ -832,15 +832,15 @@ RECORD_RECOVERY_UPDATE_MEMBER_RECORDS_TRANSFERRED_DESCRIPTION = <<-eof
 
 1. Copy, paste, and edit into User-Facing Service Request:
 
-        [mm/dd]: We contacted [destination provider], and they have your medical records on file.
+        {mm/dd}: We contacted {destination provider}, and they have your medical records on file.
 
 2. Copy, paste, and edit into User-Facing Service Deliverable:
 
-        We transferred your medical records from [source provider], and they are now on file at [destination provider].
+        We transferred your medical records from {source provider}, and they are now on file at {destination provider}.
 
 3. Send message to member:
 
-        The waiting is over, your medical records have been transferred! They’re now on file at [destination provider]. Please let us know if you have any questions.
+        The waiting is over, your medical records have been transferred! They’re now on file at {destination provider}. Please let us know if you have any questions.
 
 4. Complete Task
 eof
@@ -932,13 +932,13 @@ PRESCRIPTION_ORGANIZATION_UPDATE_MEMBER_INFORMATION_RECEIVED_DESCRIPTION = <<-eo
 1. Update member that prescription information was received
 2. Complete Task
 
->Hi [member], just an update that we received your prescription information from [pharmacy name]. I’ll update you when we have organized the information and will need you to confirm that we aren’t missing any of your medications.`
+>Hi {member}, just an update that we received your prescription information from {pharmacy name}. I’ll update you when we have organized the information and will need you to confirm that we aren’t missing any of your medications.`
 eof
 
 PRESCRIPTION_ORGANIZATION_CREATE_SPREADSHEET_DESCRIPTION = <<-eof
 1. Go to the [CF Template spreadsheet](https://drive.google.com/open?id=1IDP3_rA9wxmImFeUKYwvpDlSL5sWYBisnstj9p_pjfE&authuser=0)
 2. Right click and choose “Make a Copy”
-3. Rename to “Prescription Information - [member id]” (ex: Prescription Information - 122345)
+3. Rename to “Prescription Information - {member id}” (ex: Prescription Information - 122345)
 4. Move document to member’s folder
 5. Right click and choose “Get Link”, copy link and paste in member’s profile and Service Notes
 6. Add each prescription to the spreadsheet
@@ -954,7 +954,7 @@ PRESCRIPTION_ORGANIZATION_UPDATE_MEMBER_CONFIRMATION_DESCRIPTION = <<-eof
 5. Add prescribing doctors to profile
 6. Complete task
 
-> Hi [member], here are the medications that I received information on from [pharmacy]. Are there any medications or supplements that are missing?
+> Hi {member}, here are the medications that I received information on from {pharmacy}. Are there any medications or supplements that are missing?
 >   - Item 1
 >   - Item 2
 >   - Item 3
@@ -974,7 +974,7 @@ Service introduction (HCC)
 **Go to Prescription Refills Service**
 
 **M2: (if no)**
->`Great, I have a few questions to get started that will help your PHA [PHA name] start getting your prescriptions organized for you.`
+>`Great, I have a few questions to get started that will help your PHA {PHA name} start getting your prescriptions organized for you.`
 
 ##Collect Information
 
@@ -982,13 +982,13 @@ Service introduction (HCC)
 >`What pharmacy do you use to refill your prescriptions?`
 
 **M2:**
-> `Thanks for sharing. If you have one, would you be comfortable sharing with us the login and password to your online [pharmacy name] account? If you don’t have one, we can help you set one up.`
+> `Thanks for sharing. If you have one, would you be comfortable sharing with us the login and password to your online {pharmacy name} account? If you don’t have one, we can help you set one up.`
 
 **M3: (if member has log-in)**
 > `Thanks! I’ve saved this information securely in your profile. We’ll log in to get the information on your prescriptions. `
 
 **M3: (if member does not have online account)**
-> `No problem, we’ll help set it up. Would you like us to make one for you using [email from profile]? If so, this will be the login and we’ll set the password to getbetter123. `
+> `No problem, we’ll help set it up. Would you like us to make one for you using {email from profile}? If so, this will be the login and we’ll set the password to getbetter123. `
 
 **M3: (does not want online account)**
 > `No problem, we’ll call over to your pharmacy to get your prescription information. We’ll need to get your verbal authorization with a short 2 minute call.
@@ -999,11 +999,11 @@ When are you available for a short call?
 ***Record information in Service Description***
 
 **M4: (confirm insurance) **
->`Sounds good. To confirm, is [insurance] still your current plan?`
+>`Sounds good. To confirm, is {insurance} still your current plan?`
 
 ##Set Expectation for next steps:
 **M1: **
->`We’ll review your prescriptions and confirm with you that they are all up to date. Then we’ll ensure that your prescriptions are filled or delivered on time, that you’re using any available rebates or discounts, and that you can make use of more affordable home delivery options. Your PHA [PHA name] will check in with you tomorrow/later today after they have reviewed your information`
+>`We’ll review your prescriptions and confirm with you that they are all up to date. Then we’ll ensure that your prescriptions are filled or delivered on time, that you’re using any available rebates or discounts, and that you can make use of more affordable home delivery options. Your PHA {PHA name} will check in with you tomorrow/later today after they have reviewed your information`
 
 ## Offer next service:
 
@@ -1058,7 +1058,7 @@ APPOINTMENT_PREPARATION_CF_CHECK_IN_MONTH_DESCRIPTION = <<-eof
 5. Complete task
 
 **M1:**
-Hi [member], a reminder that your next CF appointment with Dr. [doctor name] is 1 month away! Here are the details of the appointment:
+Hi {member}, a reminder that your next CF appointment with Dr. {doctor name} is 1 month away! Here are the details of the appointment:
 
 **Day, Date at Time**
 Dr. First Last
@@ -1087,7 +1087,7 @@ APPOINTMENT_PREPARATION_CF_CHECK_IN_WEEK_DESCRIPTION = <<-eof
 
 
 **M1:**
-Hi [member], a reminder that your next CF appointment with Dr. [doctor name] is 1 month away! Here are the details of the appointment:
+Hi {member}, a reminder that your next CF appointment with Dr. {doctor name} is 1 month away! Here are the details of the appointment:
 
 **Day, Date at Time**
 Dr. First Last
@@ -1113,7 +1113,7 @@ APPOINTMENT_PREPARATION_CF_CHECK_IN_DAY_DESCRIPTION = <<-eof
 3. Complete task
 
 **M1:**
-Hi [member], a reminder that your next CF appointment with Dr. [doctor name] is tomorrow! Here are the details of the appointment:
+Hi {member}, a reminder that your next CF appointment with Dr. {doctor name} is tomorrow! Here are the details of the appointment:
 
 **Day, Date at Time**
 Dr. First Last
@@ -1151,7 +1151,7 @@ APPOINTMENT_PREPARATION_CF_FOLLOW_UP_DESCRIPTION = <<-eof
 6. Complete task
 
 **M1:**
-How did your appointment go today? Did Dr. [doctor name] suggest any changes to your medications, nutrition or treatment plan?
+How did your appointment go today? Did Dr. {doctor name} suggest any changes to your medications, nutrition or treatment plan?
 
 **M2:**
 Did you already schedule your next appointment?
@@ -1201,7 +1201,7 @@ BMI_MANAGEMENT_3_MONTHS_INITIAL_TASK_DESCRIPTION = <<-eof
 2. Schedule a reminder message **due at the time they weigh in** (copy below)
 3. Complete task
 
-        Hi [member], it’s time for a weigh-in! Go ahead and weigh yourself and [enter it here](better://nb?cmd=showMedicalInformation) or send it in a message.
+        Hi {member}, it’s time for a weigh-in! Go ahead and weigh yourself and [enter it here](better://nb?cmd=showMedicalInformation) or send it in a message.
 
 eof
 
@@ -1209,7 +1209,7 @@ BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_A_DESCRIPTION = <<-eof
 1. Schedule a reminder message due at the time they weigh in (copy below)
 2. Complete task
 
-        Hi [member], it’s time for a weigh-in! Go ahead and weigh yourself and [enter it here](better://nb?cmd=showMedicalInformation) or send it in a message.
+        Hi {member}, it’s time for a weigh-in! Go ahead and weigh yourself and [enter it here](better://nb?cmd=showMedicalInformation) or send it in a message.
 
 eof
 
@@ -1225,7 +1225,7 @@ BMI_MANAGEMENT_3_MONTHS_TASK_A_MESSAGE_C_DESCRIPTION = <<-eof
 1. Schedule a reminder message due at the time they weigh in (copy below)
 2. Complete task
 
-        Hi there [member] - just a reminder for your weekly weigh-in! Hop on that scale and [enter your weight here](better://nb?cmd=showMedicalInformation) or send it in a message.
+        Hi there {member} - just a reminder for your weekly weigh-in! Hop on that scale and [enter your weight here](better://nb?cmd=showMedicalInformation) or send it in a message.
 
 eof
 
@@ -1251,7 +1251,7 @@ BMI_MANAGEMENT_3_MONTHS_TASK_B_DESCRIPTION = <<-eof
 
 **If not:**
 
-        Hi [member], did you get a chance to weigh yourself today?
+        Hi {member}, did you get a chance to weigh yourself today?
 
 * Dig in to what blocked them from weighing in today
 eof
@@ -1262,11 +1262,11 @@ BMI_MANAGEMENT_3_MONTHS_COMPILE_BMI_DESCRIPTION = <<-eof
 1. Confirm that all BMI measurements entered in the member’s profile are saved in the **Service Update** and **Service Deliverable**
 2. Add to Service Deliverable:
 
-        Overall, your BMI [increased/decreased/stayed the same]. Here are the measurements to show Dr. [doctor name] at your next visit:
+        Overall, your BMI {increased/decreased/stayed the same}. Here are the measurements to show Dr. {doctor name} at your next visit:
 
 3. Send member a message updating them
 
-        Hi [member], I’ve saved the progress of your last 3 months of BMI tracking. You can see details in the Services section of the app. Here are the measurements to show Dr. [doctor name] at your next visit:
+        Hi {member}, I’ve saved the progress of your last 3 months of BMI tracking. You can see details in the Services section of the app. Here are the measurements to show Dr. {doctor name} at your next visit:
 	       * **BMI and date:**
 
 eof
@@ -1447,7 +1447,7 @@ KINSIGHTS_RECORDS_FILL_OUT_FORMS = <<-eof
 1. Find link to records release form in Internal Service Notes - Member Request or check sfax for form
 2. Download form to your computer
 3. Fill out with member’s information, signature fields, and date in Preview
-4. Upload to member’s Google Drive folder  - save as “ForReview_[LastName]_[FirstName]_[SourceProvider]_[Destination Provider]”
+4. Upload to member’s Google Drive folder  - save as “ForReview_{LastName}_{FirstName}_{SourceProvider}_{Destination Provider}”
 5. Copy and paste link to filled out form in Internal Service Notes - Specialist Notes
 7. Complete Task
 eof
@@ -1470,7 +1470,7 @@ KINSIGHTS_RECORDS_SEND_FORMS = <<-eof
 
         Message:
 
-        Here is the records release form for you to sign. Once it's signed, I'll send it to [source provider]. Send me a message in the app if you have any questions!
+        Here is the records release form for you to sign. Once it's signed, I'll send it to {source provider}. Send me a message in the app if you have any questions!
 
 9. Send form to member
 10. Go to member’s Google Drive
@@ -1483,7 +1483,7 @@ KINSIGHTS_RECORDS_SEND_MEMBER_UPDATE_SIGN_FORMS = <<-eof
 
 1. Copy, paste, and edit into User-Facing Service Request:
 
-        [mm/dd]: We sent you a records release form from [source provider] to sign via HelloSign.
+        {mm/dd}: We sent you a records release form from {source provider} to sign via HelloSign.
 
 2. Send message to member:
 
@@ -1503,13 +1503,13 @@ KINSIGHTS_RECORDS_SEND_FORMS_TO_PROVIDER = <<-eof
 
             1. Send message to member using the details in the Member Request below:
 
-                    Just a reminder to sign the records release form that we sent you through HelloSign.com. Once it’s signed, we’ll send it to [source provider]. Let us know if you have any questions. Thanks!
+                    Just a reminder to sign the records release form that we sent you through HelloSign.com. Once it’s signed, we’ll send it to {source provider}. Let us know if you have any questions. Thanks!
 
-                    [Copy and paste the Internal Service Notes - Member Request]
+                    {Copy and paste the Internal Service Notes - Member Request}
 
   * Copy and paste this into Internal Service Notes - Specialist Notes:
 
-            [mm/dd]: Checked HelloSign for signed form and created task for PHA to remind member to sign form
+            {mm/dd}: Checked HelloSign for signed form and created task for PHA to remind member to sign form
 
   * Push current task back 1 day (“Send - signed authorization form to insurance”)
 
@@ -1528,11 +1528,11 @@ KINSIGHTS_RECORDS_SEND_MEMBER_UPDATE_FORMS_SENT = <<-eof
 
 1. Copy, paste, and edit into User-Facing Service Request:
 
-        [mm/dd]: You signed the release form and we sent it to [source provider].
+        {mm/dd}: You signed the release form and we sent it to {source provider}.
 
 2. Send message to member:
 
-        We’ve sent the records release form to [source provider]. We’ll call them in a couple days to confirm that it was received.
+        We’ve sent the records release form to {source provider}. We’ll call them in a couple days to confirm that it was received.
 
 3. Complete Task
 eof
@@ -1546,17 +1546,17 @@ KINSIGHTS_RECORDS_CALL_CONFIRM_FORM_RECEIVED = <<-eof
   * Create a new task assigned to PHA titled: “UPDATE - remind member to sign records release form”
   * Copy and paste the following steps, link to the Service, and Member Request into the new Task Steps:
 
-            Service: [Link to this Service]
-            [Copy and paste Member Request]
+            Service: {Link to this Service}
+            {Copy and paste Member Request}
 
             1. Click on the link to the Service
             2. Copy, paste, and edit into User-Facing Service Request:
 
-                    [mm/dd]: We called [source provider] and they hadn’t received the records release form. We’re going to resend it and confirm that they receive it.
+                    {mm/dd}: We called {source provider} and they hadn’t received the records release form. We’re going to resend it and confirm that they receive it.
 
             2. Send message to member:
 
-                    We checked in with [source provider] today and there was a problem on their end so they haven’t received the records release form. We’re working with them to fix this and will keep you updated.
+                    We checked in with {source provider} today and there was a problem on their end so they haven’t received the records release form. We’re working with them to fix this and will keep you updated.
 
   * Push current task back 1 day (“Call - confirm records release form received”)
 
@@ -1570,11 +1570,11 @@ KINSIGHTS_RECORDS_SEND_MEMBER_UPDATE_FORMS_RECEIVED = <<-eof
 
 1. Copy, paste, and edit into User-Facing Service Request:
 
-        [mm/dd]: We’ve contacted [source provider] and they received the records release form.
+        {mm/dd}: We’ve contacted {source provider} and they received the records release form.
 
 2. Send message to member:
 
-        The records release form you signed has been received by [source provider]. They should arrive at [destination provider] in the next week. We’ll continue to follow up and let you know when they are transferred!
+        The records release form you signed has been received by {source provider}. They should arrive at {destination provider} in the next week. We’ll continue to follow up and let you know when they are transferred!
 
 3. Complete Task
 eof
@@ -1588,7 +1588,7 @@ KINSIGHTS_RECORDS_CHECK_SFAX = <<-eof
  * Push back task 1 day
  * Create an update task for PHA with this copy:
 
-            I checked in to see if we got the records from [source doctor] and there was a problem on their end so we haven’t received the records. I’m working with them to fix it and will keep you updated.
+            I checked in to see if we got the records from {source doctor} and there was a problem on their end so we haven’t received the records. I’m working with them to fix it and will keep you updated.
 
 3.**If received, ** complete task
 4.  Reassign next automatic task ("Upload and edit record to Kinsights") to Ninette, Jenn, Clare, or Sheila
@@ -1700,16 +1700,16 @@ KINSIGHTS_CHECKINS_PHA_INTRO = <<-eof
 
 **If NO info on child yet:**
 
-Hello! I'm [PHA name], your Personal Health Assistant at Better. We are excited to work with you as a Kinsights community member! We'll get started by reviewing [child's name]'s Kinsights profile, and then creating a profile for [her/him] in your Better app. We'll continue to keep your child's Kinsights profile up-to-date with any new information.
+Hello! I'm {PHA name}, your Personal Health Assistant at Better. We are excited to work with you as a Kinsights community member! We'll get started by reviewing {child's name}'s Kinsights profile, and then creating a profile for {her/him} in your Better app. We'll continue to keep your child's Kinsights profile up-to-date with any new information.
 
 
 A few services that other Kinsights members find most helpful are: booking appointments, reviewing medical bills, collecting medical records and uploading them to Kinsights, and researching for prescription rebates or assistance programs. Would you like to get started on any of these?
 
 **If Info in profile:**
 
-Hi, I'm [PHA name], your Personal Health Assistant at Better. We are excited to work with you as a Kinsights community member! We've reviewed your profile and we'll be creating a profile for your child very soon. Then, we're ready to get started serving you and [child's name]!
+Hi, I'm {PHA name}, your Personal Health Assistant at Better. We are excited to work with you as a Kinsights community member! We've reviewed your profile and we'll be creating a profile for your child very soon. Then, we're ready to get started serving you and {child's name}!
 
-Based on your Kinsights profile here’s what I think would be helpful: Booking [child’s name] next pulmonary appointment, reviewing any medical bills in question, collecting [child’s name]'s medical record and uploading them to Kinsights. Is there anything else that we can get started on for you?
+Based on your Kinsights profile here’s what I think would be helpful: Booking {child’s name} next pulmonary appointment, reviewing any medical bills in question, collecting {child’s name}'s medical record and uploading them to Kinsights. Is there anything else that we can get started on for you?
 eof
 
 KINSIGHTS_CHECKINS_CHECK_IN = <<-eof
@@ -1848,14 +1848,14 @@ PROCEDURE_CHECK_CALL_PROVIDER = <<-eof
 
   **If covered**
 
-    > Hi {member}, we checked if {insurance/provider} will cover your {service} with Dr. [First Last], and good news!  {Insurance} will cover {amt % of cost / $amt} once you’ve met your deductible for this year. To date you’ve paid {amount paid} out of {total deductible}. Let us know if you have any questions.
+    > Hi {member}, we checked if {insurance/provider} will cover your {service} with Dr. {First Last], and good news!  {Insurance} will cover {amt % of cost / $amt} once you’ve met your deductible for this year. To date you’ve paid {amount paid} out of {total deductible}. Let us know if you have any questions.
 
     Would you like to schedule the {procedure}?
 
 
   **If not covered**
 
-    > Hi {member}, we checked if {insurance} will cover your {service} with Dr. [First Last], and unfortunately {insurance} does not cover it.  Are you still interested in {service}?  If so, we can look for options that are affordable.
+    > Hi {member}, we checked if {insurance} will cover your {service} with Dr. {First Last}, and unfortunately {insurance} does not cover it.  Are you still interested in {service}?  If so, we can look for options that are affordable.
 
 6. Complete Task
 eof
@@ -1901,11 +1901,11 @@ PROCEDURE_CHECK_CALL_INSURANCE_PROVIDER = <<-eof
 
   **If covered**
 
-          Hi {member}, we checked if {insurance} will cover your {service} with Dr. [First Last], and good news!  {Insurance} will cover {amt} % of the cost.
+          Hi {member}, we checked if {insurance} will cover your {service} with Dr. {First Last}, and good news!  {Insurance} will cover {amt} % of the cost.
 
    **If not covered**
 
-          Hi {member}, we checked if {insurance} will cover your {service} with Dr. [First Last], and unfortunately {insurance} does not cover it.
+          Hi {member}, we checked if {insurance} will cover your {service} with Dr. {First Last}, and unfortunately {insurance} does not cover it.
 
           Are you still interested in {service}?  If so, we can look for options that are affordable.
 
@@ -1976,7 +1976,7 @@ ELIGIBILITY_BENEFITS_CHECK_CALL_INSURANCE_PROVIDER = <<-eof
   * Percent coverage for {service} with an in-network provider:
   * Percent coverage for {service} with an out-of-network provider:
   * You’ve paid {$} towards your deductible of {deductible}
-  * A referral for this service is [not] required
+  * A referral for this service is {not} required
 
 4. Update Service Request in Drafts for User-Facing Updates.
 
@@ -2202,7 +2202,7 @@ PT_APPOINTMENT_CALL_PT =  <<-eof
 
 6. Update Service Request in Drafts for User-Facing Updates:
 
-    > {mm/dd}: We booked [you/member name] a physical therapist appointment with{Dr. First Last}. The appointment details are below for you to view.
+    > {mm/dd}: We booked {you/member name} a physical therapist appointment with{Dr. First Last}. The appointment details are below for you to view.
 
 7. Update Member Message in Drafts for User-Facing Updates:
 
