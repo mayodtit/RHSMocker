@@ -35,11 +35,11 @@ PROVIDER_SEARCH_UPDATE = <<-eof
 eof
 
 PROVIDER_SEARCH_REQUEST = <<-eof
-Find a [provider type] near [zip code] who takes [insurance], [other preferences]
+Find a {provider type} near {zip code} who takes {insurance}, {other preferences}
 eof
 
 ServiceTemplate.upsert_attributes({name: "provider search"},
-                                  {title: "Find a [provider type]",
+                                  {title: "Find a {provider type}",
                                   description: PROVIDER_SEARCH_DESCRIPTION,
                                   service_type: ServiceType.find_by_name('provider search'),
                                   time_estimate: 4500,
@@ -75,11 +75,11 @@ APPOINTMENT_BOOKING_UPDATE = <<-eof
 #User-Facing Service Deliverable Draft:
 
 Appointment details:
-**[Day, Date at Time]**
-Dr. [First Last]
+**{Day, Date at Time}**
+Dr. {First Last}
 Address:
 Phone:
-Other details: [what to bring, when to arrive]
+Other details: {what to bring, when to arrive}
 
 #Member update:
 
@@ -90,11 +90,11 @@ Other details: [what to bring, when to arrive]
 eof
 
 APPOINTMENT_BOOKING_REQUEST = <<-eof
-Book appointment with Dr. [First Last] for [reason] on [day/time]
+Book appointment with Dr. {First Last} for {reason} on {day/time}
 eof
 
 ServiceTemplate.upsert_attributes({name: "appointment booking"},
-                                  {title: "Book appointment with Dr. [First Last]",
+                                  {title: "Book appointment with Dr. {First Last}",
                                   description: APPOINTMENT_BOOKING_DESCRIPTION,
                                   service_type: ServiceType.find_by_name('appointment booking'),
                                   time_estimate: 150,
@@ -133,11 +133,11 @@ CARE_COORDINATION_CALL_UPDATE = <<-eof
 eof
 
 CARE_COORDINATION_CALL_REQUEST = <<-eof
-Call [doctor/insurance/other] for [long reason]
+Call {doctor/insurance/other} for {long reason}
 eof
 
 ServiceTemplate.upsert_attributes({name: "care coordination call"},
-                                  {title: "Call [doctor/insurance/other] for [short reason]",
+                                  {title: "Call {doctor/insurance/other} for {short reason}",
                                   description: CARE_COORDINATION_CALL_DESCRIPTION,
                                   service_update: CARE_COORDINATION_CALL_UPDATE,
                                   user_facing: true,
@@ -157,7 +157,7 @@ PHA_AUTHORIZATION_DESCRIPTION = <<-eof
 * **Insurance company:**
 * **Insurance phone number:**
 * **Purpose of authorization:** Care Coordination
-* **Name of person to authorize:** Better and [PHA]
+* **Name of person to authorize:** Better and {PHA}
 
 #Specialist Notes
 Date of call:
@@ -194,11 +194,11 @@ PHA_AUTHORIZATION_UPDATE = <<-eof
 eof
 
 PHA_AUTHORIZATION_REQUEST = <<-eof
-Authorize Better to speak on your behalf with [insurance company]. This usually takes insurance companies 30 days to process.
+Authorize Better to speak on your behalf with {insurance company}. This usually takes insurance companies 30 days to process.
 eof
 
 ServiceTemplate.upsert_attributes({name: "pha authorization"},
-                                  {title: "Authorize Better with [insurance company]",
+                                  {title: "Authorize Better with {insurance company}",
                                   description: PHA_AUTHORIZATION_DESCRIPTION,
                                   service_update: PHA_AUTHORIZATION_UPDATE,
                                   user_facing: true,
@@ -232,7 +232,7 @@ Phone number:
 **Link to blank records release form:**
 **Link to drafted form:**
 **Link to signed form:**
-Date records release form sent: [mm/dd/yy]
+Date records release form sent: {mm/dd/yy}
 
 **Call notes - Source Provider:**
 Date of call:
@@ -289,11 +289,11 @@ RECORD_RECOVERY_UPDATE = <<-eof
 eof
 
 RECORD_RECOVERY_REQUEST = <<-eof
-Transfer medical records from [source provider] to [destination provider] for [reason]. This can take up to 30 days depending on the process of the medical records office.
+Transfer medical records from {source provider} to {destination provider} for {reason}. This can take up to 30 days depending on the process of the medical records office.
 eof
 
 ServiceTemplate.upsert_attributes({name: "record recovery"},
-                                  {title: "Transfer medical records to [destination provider]",
+                                  {title: "Transfer medical records to {destination provider}",
                                   description: RECORD_RECOVERY_DESCRIPTION,
                                   service_update: RECORD_RECOVERY_UPDATE,
                                   user_facing: true,
@@ -323,7 +323,7 @@ PRESCRIPTION_ORGANIZATION_UPDATE = <<-eof
 eof
 
 PRESCRIPTION_ORGANIZATION_REQUEST = <<-eof
-Organize [member]'s prescriptions from [pharmacy name]
+Organize {member}'s prescriptions from {pharmacy name}
 eof
 
 ServiceTemplate.upsert_attributes({name: "prescription organization"},
@@ -399,7 +399,7 @@ eof
 BMI_MANAGEMENT_3_MONTHS_UPDATE = <<-eof
 #User-Facing Service Deliverable Draft:
 
-Here are the measurements to show Dr. [First Last] at your next visit:
+Here are the measurements to show Dr. {First Last} at your next visit:
 
 * **BMI and date:**
 * **BMI and date:**
@@ -430,7 +430,7 @@ ServiceTemplate.upsert_attributes({name: "bmi management - 3 months"},
 )
 
 KINSIGHTS_RECORD_REQUEST = <<-eof
-Collect and upload your child’s medical records to Kinsights from [Dr First Last]. This process can take up to 30 days depending on the office’s turn around time.
+Collect and upload your child’s medical records to Kinsights from {Dr First Last}. This process can take up to 30 days depending on the office’s turn around time.
 eof
 
 KINSIGHTS_RECORD_DESCRIPTION = <<-eof
@@ -473,8 +473,8 @@ Type of form: Generic/Specific for Provider
 
 
 **Records release form:**
-Date records release form sent: [mm/dd/yy]
-Date entered into Kinsights: [mm/dd/yy]
+Date records release form sent: {mm/dd/yy}
+Date entered into Kinsights: {mm/dd/yy}
 eof
 
 KINSIGHTS_RECORD_UPDATE = <<-eof
@@ -525,10 +525,10 @@ eof
 
 KINSIGHTS_ONBOARDING_UPDATE = <<-eof
 #Kinsights Profile updates
-**[mm/dd/yy]:**
-**[mm/dd/yy]:**
-**[mm/dd/yy]:**
-**[mm/dd/yy]:**
+**{mm/dd/yy}:**
+**{mm/dd/yy}:**
+**{mm/dd/yy}:**
+**{mm/dd/yy}:**
 
 Add more notes/measurements below if needed
 
@@ -635,7 +635,7 @@ Would you like to schedule the {procedure}?
 
 
  **If not covered**
-> Hi {member}, we checked if {insurance} will cover your {service} with Dr. [First Last], and unfortunately {insurance} does not cover it.  Are you still interested in {service}?  If so, we can look for options that are affordable.
+> Hi {member}, we checked if {insurance} will cover your {service} with Dr. {First Last}, and unfortunately {insurance} does not cover it.  Are you still interested in {service}?  If so, we can look for options that are affordable.
 eof
 
 PROCEDURE_CHECK_REQUEST = <<-eof
@@ -680,7 +680,7 @@ ELIGIBILITY_BENEFITS_CHECK_DESCRIPTION = <<-eof
 * What type of coverage does the member have for {service}?
 	-In network coverage:
 	-Out of network coverage:
-* Does [service] apply to the member’s deductible?
+* Does {service} apply to the member’s deductible?
 * What is the current state of the member’s deductible?
 * Is there a prior authorization required for the service?
 	-If yes, how is it obtained?
@@ -709,7 +709,7 @@ ELIGIBILITY_BENEFITS_CHECK_UPDATE = <<-eof
 * Percent coverage for {service} with an in-network provider:
 * Percent coverage for {service} with an out-of-network provider:
 * You’ve paid {$} towards your deductible of {deductible}
-* A referral for this service is [not] required
+* A referral for this service is {not} required
 
 #Member Message:
 **If covered**
@@ -786,7 +786,7 @@ After Specialist Review:
 
 #Member Message:
 
-Hi [member], we’ve reviewed your medical bill and we working on gathering more information.  We will be calling your {insurance, provider} to get to the bottom of this!
+Hi {member}, we’ve reviewed your medical bill and we working on gathering more information.  We will be calling your {insurance, provider} to get to the bottom of this!
 
 We might need to get your verbal authorization over the phone to get this information. Do you have a 30-minute window of time you are available to answer our phone call tomorrow or later this week?
 
@@ -795,7 +795,7 @@ After Further Investigation
 
 #Member update for simple bill breakdown:
 
-Hi {member}, we’ve reviewed your medical bill and called [insurance, provider] to confirm the amount you owe and accuracy. Here is the breakdown:
+Hi {member}, we’ve reviewed your medical bill and called {insurance, provider} to confirm the amount you owe and accuracy. Here is the breakdown:
 
 {Provider & Date of Visit}
 **Total billed:**
@@ -804,7 +804,7 @@ Hi {member}, we’ve reviewed your medical bill and called [insurance, provider]
 ** Insurance paid**
 ** Your Total**
 
-You'll notice that insurance {did or did not pay}, this is because you {have not or have} met your deductible for {year}. Your deductible is [ Deductible $] and to date you’ve paid [$amount toward deductible]. *
+You'll notice that insurance {did or did not pay}, this is because you {have not or have} met your deductible for {year}. Your deductible is {Deductible $} and to date you’ve paid {$amount toward deductible}. *
 
 If not met deductible  -
 {For future visits and bill, you'll continue to pay the full contracted rate until you meet your deductible. *}
@@ -814,7 +814,7 @@ If have met deductible
 
 
 **Here is how to pay: **
-	[Add in instructions]
+	{Add in instructions}
 eof
 
 DENTIST_APPOINTMENT_REQUEST = <<-eof
