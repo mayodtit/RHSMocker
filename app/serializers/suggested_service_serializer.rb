@@ -11,8 +11,10 @@ class SuggestedServiceSerializer < ActiveModel::Serializer
 
   def attributes
     super.tap do |attrs|
-      attrs[:user] = user.try(:serializer, shallow: true).try(:as_json)
-      attrs[:user_pha] = user.try(:pha).try(:serializer, shallow: true).try(:as_json)
+      if include_nested?
+        attrs[:user] = user.try(:serializer, shallow: true).try(:as_json)
+        attrs[:user_pha] = user.try(:pha).try(:serializer, shallow: true).try(:as_json)
+      end
     end
   end
 
