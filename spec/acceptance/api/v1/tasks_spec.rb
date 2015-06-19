@@ -12,7 +12,7 @@ resource "Tasks" do
   describe 'tasks' do
 
     parameter :auth_token, 'Performing hcp\'s auth_token'
-    parameter :state, 'Filter by the state of task (e.g. \'unstarted\',\'started\', \'completed\')'
+    parameter :state, 'Filter by the state of task (e.g. \'unclaimed\',\'claimed\', \'completed\')'
 
     required_parameters :auth_token
 
@@ -33,8 +33,8 @@ resource "Tasks" do
   describe 'queue' do
     context 'get the queue of the current user' do
       let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago) }
-      let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 2.days.ago) }
-      let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
+      let!(:claimed_task) { create(:member_task, :claimed, owner: pha, due_at: 2.days.ago) }
+      let!(:another_claimed_task) { create(:member_task, :claimed, owner: pha) }
 
       parameter :auth_token, 'Performing hcp\'s auth_token'
 
@@ -44,7 +44,7 @@ resource "Tasks" do
           explanation 'Get the task queue for the current user. Accessible only by HCPs'
           status.should == 200
           response = JSON.parse response_body, symbolize_names: true
-          response[:tasks].to_json.should == [assigned_task, started_task, claimed_task].serializer(shallow: true).to_json
+          response[:tasks].to_json.should == [assigned_task, claimed_task, another_claimed_task].serializer(shallow: true).to_json
           response[:future_count].should == 0
         end
       end
@@ -54,8 +54,8 @@ resource "Tasks" do
       let(:another_pha) {create(:pha)}
       let!(:pha_id) {another_pha.id}
       let!(:assigned_task) { create(:member_task, :assigned, owner: another_pha, due_at: 3.days.ago) }
-      let!(:started_task) { create(:member_task, :started, owner: another_pha, due_at: 2.days.ago) }
-      let!(:claimed_task) { create(:member_task, :claimed, owner: another_pha) }
+      let!(:claimed_task) { create(:member_task, :claimed, owner: another_pha, due_at: 2.days.ago) }
+      let!(:another_claimed_task) { create(:member_task, :claimed, owner: another_pha) }
 
       parameter :auth_token, 'Performing hcp\'s auth_token'
       parameter :pha_id, 'the pha whose queue want to be fetched'
@@ -67,7 +67,7 @@ resource "Tasks" do
           explanation 'Get the task queue for the user with passed id. Accessible only by HCPs'
           status.should == 200
           response = JSON.parse response_body, symbolize_names: true
-          response[:tasks].to_json.should == [assigned_task, started_task, claimed_task].serializer(shallow: true).to_json
+          response[:tasks].to_json.should == [assigned_task, claimed_task, another_claimed_task].serializer(shallow: true).to_json
           response[:future_count].should == 0
         end
       end
@@ -113,7 +113,7 @@ resource "Tasks" do
   describe 'update task' do
     parameter :auth_token, 'Performing hcp\'s auth_token'
     parameter :id, 'Task id'
-    parameter :state_event, 'Event to perform on the task (\'unstart\', \'start\', \'claim\', \'abandon\', \'complete\')'
+    parameter :state_event, 'Event to perform on the task (\'unclaim\',  \'claim\', \'report_blocked_by_internal\', \'report_blocked_by_external\', \'abandon\', \'complete\')'
     parameter :owner_id, 'The id of the owner of this task'
     parameter :reason, 'The reason for abandoning a task'
 

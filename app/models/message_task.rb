@@ -69,24 +69,4 @@ class MessageTask < Task
       self.assigned_at = Time.now
     end
   end
-
-  state_machine do
-    event :flag do
-      transition any => :spam
-    end
-
-    before_transition any - [:unstarted] => :spam do |task|
-      task.assignor = task.owner
-      task.assigned_at = Time.now
-      task.owner = Member.geoff
-    end
-
-    after_transition :spam => :completed do |task|
-      task.member.smackdown!
-    end
-
-    after_transition any => [:abandoned, :completed] do |task|
-      task.consult.deactivate! unless task.consult.inactive?
-    end
-  end
 end

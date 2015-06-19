@@ -929,11 +929,11 @@ describe Member do
     context 'param tells select only today' do
       let!(:pha) { create(:pha) }
       let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago) }
-      let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 2.days.from_now) }
-      let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
+      let!(:claimed_task) { create(:member_task, :claimed, owner: pha, due_at: 2.days.from_now) }
+      let!(:another_claimed_task) { create(:member_task, :claimed, owner: pha) }
 
       before do
-        [assigned_task, started_task, claimed_task].each do |task|
+        [assigned_task, claimed_task, another_claimed_task].each do |task|
           task.update_attribute('urgent', false)
           task.update_attribute('unread', false)
         end
@@ -947,11 +947,11 @@ describe Member do
     context 'param tells select till tomorrow' do
       let!(:pha) { create(:pha) }
       let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.from_now) }
-      let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 1.days.from_now) }
-      let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
+      let!(:claimed_task) { create(:member_task, :claimed, owner: pha, due_at: 1.days.from_now) }
+      let!(:another_claimed_task) { create(:member_task, :claimed, owner: pha) }
 
       before do
-        [assigned_task, started_task, claimed_task].each do |task|
+        [assigned_task, claimed_task, another_claimed_task].each do |task|
           task.update_attribute('urgent', false)
           task.update_attribute('unread', false)
         end

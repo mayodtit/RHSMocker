@@ -45,7 +45,7 @@ namespace :scheduled do
     ScheduledJobs.notify_lack_of_messages
   end
 
-  desc 'Unstart messages for timed out users.'
+  desc 'Unclaim messages for timed out users.'
   task :timeout_messages => :environment do
     ScheduledJobs.timeout_messages
   end

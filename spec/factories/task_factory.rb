@@ -10,11 +10,9 @@ FactoryGirl.define do
       assigned_at Time.now
     end
 
-    trait :started do
-      state 'started'
-      association :owner, factory: :member
-      association :assignor, factory: :member
-      started_at Time.now
+    trait :unclaimed do
+      state 'unclaimed'
+      unclaimed_at Time.now
     end
 
     trait :claimed do
@@ -29,6 +27,20 @@ FactoryGirl.define do
       association :owner, factory: :member
       association :assignor, factory: :member
       completed_at Time.now
+    end
+
+    trait :blocked_internal do
+      state 'blocked_internal'
+      association :owner, factory: :member
+      association :assignor, factory: :member
+      blocked_internal_at Time.now
+    end
+
+    trait :blocked_external do
+      state 'blocked_external'
+      association :owner, factory: :member
+      association :assignor, factory: :member
+      blocked_external_at Time.now
     end
 
     trait :abandoned do

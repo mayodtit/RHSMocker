@@ -33,8 +33,8 @@ class PhoneCallTask < Task
     end
   end
 
-  state_machine :initial => :unstarted do
-    before_transition any => :unstarted do |task|
+  state_machine :initial => :unclaimed do
+    before_transition any => :unclaimed do |task|
       task.phone_call.update_attributes!(state_event: :unclaim)
     end
 

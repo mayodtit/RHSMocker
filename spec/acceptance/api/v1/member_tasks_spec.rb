@@ -67,7 +67,7 @@ resource "Member Tasks" do
         expect(task.title).to eq(title)
         expect(task.description).to eq(description)
         expect(task.due_at.to_i).to eq(task_due_at.to_i)
-        expect(task).to be_unstarted
+        expect(task).to be_unclaimed
         expect(task.owner).to eq(pha)
         expect(task.service_type).to eq(service_type)
       end
