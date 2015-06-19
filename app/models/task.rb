@@ -45,6 +45,7 @@ class Task < ActiveRecord::Base
   before_validation :set_assigned_at
   before_validation :reset_day_priority
   before_validation :mark_as_unread
+  before_validation :set_unclaimed_state_attributes, on: :create
 
   after_commit :publish
   after_save :notify
@@ -137,6 +138,10 @@ class Task < ActiveRecord::Base
     true
   end
 
+  def set_unclaimed_state_attributes
+    self.unclaimed_at = Time.now
+  end
+
   def notify
     return unless for_pha?
 
@@ -184,7 +189,7 @@ class Task < ActiveRecord::Base
     end
 
     event :claim do
-      transition any - [:claimed] => :claimed
+      transition any => :claimed
     end
 
     event :abandon do
