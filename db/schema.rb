@@ -1006,6 +1006,9 @@ ActiveRecord::Schema.define(:version => 20150610191411) do
     t.boolean  "user_facing",     :default => false, :null => false
     t.text     "service_update"
     t.text     "service_request"
+    t.string   "unique_id"
+    t.integer  "version",         :default => 0,     :null => false
+    t.string   "state"
   end
 
   add_index "service_templates", ["service_type_id"], :name => "index_service_templates_on_service_type_id"
