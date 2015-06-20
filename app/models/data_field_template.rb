@@ -3,6 +3,8 @@ class DataFieldTemplate < ActiveRecord::Base
   self.inheritance_column = nil
 
   belongs_to :service_template, inverse_of: :data_field_templates
+  has_many :task_data_field_templates, inverse_of: :data_field_template
+  has_many :task_templates, through: :task_data_field_templates
   has_many :data_fields, inverse_of: :data_field_template
 
   attr_accessible :service_template, :service_template_id, :name, :type,
