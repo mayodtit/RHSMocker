@@ -6,6 +6,14 @@ class TaskTemplate < ActiveRecord::Base
   has_many :task_step_templates, inverse_of: :task_template
   has_many :task_data_field_templates, inverse_of: :task_template
   has_many :data_field_templates, through: :task_data_field_templates
+  has_many :input_task_data_field_templates, class_name: 'TaskDataFieldTemplate',
+                                             conditions: {type: :input}
+  has_many :input_data_field_templates, through: :input_task_data_field_templates,
+                                        source: :data_field_template
+  has_many :output_task_data_field_templates, class_name: 'TaskDataFieldTemplate',
+                                             conditions: {type: :output}
+  has_many :output_data_field_templates, through: :output_task_data_field_templates,
+                                         source: :data_field_template
 
   attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template
 

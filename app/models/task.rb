@@ -18,6 +18,14 @@ class Task < ActiveRecord::Base
   has_many :task_steps, inverse_of: :task
   has_many :task_data_fields, inverse_of: :task
   has_many :data_fields, through: :task_data_fields
+  has_many :input_task_data_fields, class_name: 'TaskDataField',
+                                    conditions: {type: :input}
+  has_many :input_data_fields, through: :input_task_data_fields,
+                               source: :data_field
+  has_many :output_task_data_fields, class_name: 'TaskDataField',
+                                    conditions: {type: :output}
+  has_many :output_data_fields, through: :output_task_data_fields,
+                                source: :data_field
   has_one :entry, as: :resource
 
   attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id

@@ -3,5 +3,6 @@ FactoryGirl.define do
     task
     data_field
     task_data_field_template
+    type :input
   end
 end
