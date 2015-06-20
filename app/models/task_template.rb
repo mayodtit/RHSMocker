@@ -3,6 +3,7 @@ class TaskTemplate < ActiveRecord::Base
   belongs_to :modal_template
   has_many :tasks
   has_many :task_guides
+  has_many :task_step_templates, inverse_of: :task_template
 
   attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template
 
