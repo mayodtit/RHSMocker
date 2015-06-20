@@ -6,6 +6,7 @@ class Service < ActiveRecord::Base
 
   belongs_to :service_type
   belongs_to :service_template
+  has_many :data_fields, inverse_of: :service
 
   belongs_to :member
   belongs_to :subject, class_name: 'User'
