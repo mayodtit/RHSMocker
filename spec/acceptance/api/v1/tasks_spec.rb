@@ -34,8 +34,6 @@ resource "Tasks" do
     context 'get the queue of the current user' do
       let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago) }
       let!(:claimed_task) { create(:member_task, :claimed, owner: pha, due_at: 2.days.ago) }
-      let!(:another_claimed_task) { create(:member_task, :claimed, owner: pha) }
-
       parameter :auth_token, 'Performing hcp\'s auth_token'
 
       required_parameters :auth_token
@@ -44,7 +42,7 @@ resource "Tasks" do
           explanation 'Get the task queue for the current user. Accessible only by HCPs'
           status.should == 200
           response = JSON.parse response_body, symbolize_names: true
-          response[:tasks].to_json.should == [assigned_task, claimed_task, another_claimed_task].serializer(shallow: true).to_json
+          response[:tasks].to_json.should == [assigned_task, claimed_task].serializer(shallow: true).to_json
           response[:future_count].should == 0
         end
       end
@@ -55,8 +53,6 @@ resource "Tasks" do
       let!(:pha_id) {another_pha.id}
       let!(:assigned_task) { create(:member_task, :assigned, owner: another_pha, due_at: 3.days.ago) }
       let!(:claimed_task) { create(:member_task, :claimed, owner: another_pha, due_at: 2.days.ago) }
-      let!(:another_claimed_task) { create(:member_task, :claimed, owner: another_pha) }
-
       parameter :auth_token, 'Performing hcp\'s auth_token'
       parameter :pha_id, 'the pha whose queue want to be fetched'
 
@@ -67,7 +63,7 @@ resource "Tasks" do
           explanation 'Get the task queue for the user with passed id. Accessible only by HCPs'
           status.should == 200
           response = JSON.parse response_body, symbolize_names: true
-          response[:tasks].to_json.should == [assigned_task, claimed_task, another_claimed_task].serializer(shallow: true).to_json
+          response[:tasks].to_json.should == [assigned_task, claimed_task].serializer(shallow: true).to_json
           response[:future_count].should == 0
         end
       end

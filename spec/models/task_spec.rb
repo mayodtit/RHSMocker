@@ -24,7 +24,7 @@ describe Task do
     it_validates 'foreign key of', :member
 
     describe '#service' do
-      let(:task) { build_stubbed :task }
+      let!(:task) { create :task }
 
       context 'service id exists' do
         before do
@@ -52,7 +52,7 @@ describe Task do
     end
 
     describe '#service_ordinal' do
-      let(:task) { build_stubbed :task }
+      let!(:task) { create :task }
 
       context 'service id exists' do
         before do
@@ -772,9 +772,7 @@ describe Task do
     end
 
     describe '#claim' do
-      let(:task) { build :task, assignor: pha }
-
-      it_behaves_like 'cannot transition from', :claim!, [:claimed]
+      let(:task) { build :task}
 
       it 'changes state to claimed' do
         task.should_not be_claimed
@@ -801,8 +799,6 @@ describe Task do
     describe '#report_blocked_by_internal' do
       let(:task) { build :task, assignor: pha }
 
-      it_behaves_like 'cannot transition from', :report_blocked_by_internal!, [:blocked_internal]
-
       it 'changes state to blocked_internal' do
         task.should_not be_blocked_internal
         task.owner = pha
@@ -827,8 +823,6 @@ describe Task do
 
     describe '#report_blocked_by_external' do
       let(:task) { build :task, assignor: pha }
-
-      it_behaves_like 'cannot transition from', :report_blocked_by_external!, [:blocked_external]
 
       it 'changes state to blocked_external' do
         task.should_not be_blocked_external
@@ -1056,10 +1050,12 @@ describe Task do
       context 'because only filtered out attributes changed' do
         before do
           task.created_at = 4.days.ago
+          task.unclaimed_at = 4.days.ago
           task.updated_at = 3.days.ago
           task.assigned_at = 3.days.ago
-          task.started_at = 2.days.ago
           task.claimed_at = 1.days.ago
+          task.blocked_internal_at = 1.days.ago
+          task.blocked_external_at = 1.days.ago
           task.completed_at = 2.days.ago
           task.abandoned_at = 10.days.ago
           task.assignor_id = 2

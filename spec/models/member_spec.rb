@@ -930,17 +930,16 @@ describe Member do
       let!(:pha) { create(:pha) }
       let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago) }
       let!(:claimed_task) { create(:member_task, :claimed, owner: pha, due_at: 2.days.from_now) }
-      let!(:another_claimed_task) { create(:member_task, :claimed, owner: pha) }
 
       before do
-        [assigned_task, claimed_task, another_claimed_task].each do |task|
+        [assigned_task, claimed_task].each do |task|
           task.update_attribute('urgent', false)
           task.update_attribute('unread', false)
         end
       end
 
       it 'only return the tasks that due within today' do
-        expect(pha.queue(only_today: 'yes')).to eq([[assigned_task, claimed_task], 0, 1])
+        expect(pha.queue(only_today: 'yes')).to eq([[assigned_task], 0, 1])
       end
     end
 
@@ -948,17 +947,16 @@ describe Member do
       let!(:pha) { create(:pha) }
       let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.from_now) }
       let!(:claimed_task) { create(:member_task, :claimed, owner: pha, due_at: 1.days.from_now) }
-      let!(:another_claimed_task) { create(:member_task, :claimed, owner: pha) }
 
       before do
-        [assigned_task, claimed_task, another_claimed_task].each do |task|
+        [assigned_task, claimed_task].each do |task|
           task.update_attribute('urgent', false)
           task.update_attribute('unread', false)
         end
       end
 
       it 'only return the tasks that due within today' do
-        expect(pha.queue(until_tomorrow: 'yes')).to eq([[claimed_task, started_task], 0, 1])
+        expect(pha.queue(until_tomorrow: 'yes')).to eq([[claimed_task], 0, 1])
       end
     end
   end

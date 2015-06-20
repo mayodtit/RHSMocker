@@ -213,6 +213,7 @@ class Task < ActiveRecord::Base
     end
 
     before_transition any - [:unclaimed] => :unclaimed do |task|
+      task.owner_id = nil
       task.unclaimed_at = Time.now
     end
 

@@ -70,7 +70,7 @@ describe Api::V1::MemberTasksController do
               o_o = Object.new
               o_o.should_receive(:where).with('state' => 'unassigned') do
                 o_o_o = Object.new
-                o_o_o.should_receive(:order).with("field(state, ''unclaimed', 'claimed', 'blocked_internal', 'blocked_external', 'completed', 'abandoned'), due_at DESC, created_at DESC") do
+                o_o_o.should_receive(:order).with("field(state, 'unclaimed', 'claimed', 'blocked_internal', 'blocked_external', 'completed', 'abandoned'), due_at DESC, created_at DESC") do
                   o_o_o_o = Object.new
                   o_o_o_o.should_receive(:includes).with(:service_type, :owner) { tasks }
                   o_o_o_o

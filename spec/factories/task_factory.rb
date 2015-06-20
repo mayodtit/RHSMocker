@@ -7,6 +7,8 @@ FactoryGirl.define do
     trait :assigned do
       association :owner, factory: :member
       association :assignor, factory: :member
+      state 'claimed'
+      claimed_at Time.now
       assigned_at Time.now
     end
 
