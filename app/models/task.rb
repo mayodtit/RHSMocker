@@ -16,6 +16,8 @@ class Task < ActiveRecord::Base
   has_many :task_guides, class_name: 'TaskGuide', through: :task_template
   has_many :task_requirements
   has_many :task_steps, inverse_of: :task
+  has_many :task_data_fields, inverse_of: :task
+  has_many :data_fields, through: :task_data_fields
   has_one :entry, as: :resource
 
   attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id

@@ -3,6 +3,9 @@ class TaskDataFieldTemplate < ActiveRecord::Base
 
   belongs_to :task_template, inverse_of: :task_data_field_templates
   belongs_to :data_field_template, inverse_of: :task_data_field_templates
+  has_many :task_data_fields, inverse_of: :task_data_field_template
+  has_many :tasks, through: :task_data_fields
+  has_many :data_fields, through: :task_data_fields
 
   attr_accessible :task_template, :task_template_id, :data_field_template, :data_field_template_id, :ordinal, :section
 
