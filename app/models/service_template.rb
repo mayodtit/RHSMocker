@@ -2,6 +2,7 @@ class ServiceTemplate < ActiveRecord::Base
   belongs_to :service_type
   has_many :task_templates, dependent: :destroy
   has_many :suggested_service_templates
+  has_many :data_field_templates, inverse_of: :service_template
 
   attr_accessible :name, :title, :description, :service_type_id,
                   :service_type, :time_estimate, :timed_service,
