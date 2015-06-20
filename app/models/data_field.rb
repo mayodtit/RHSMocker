@@ -10,7 +10,7 @@ class DataField < ActiveRecord::Base
 
   validates :service, :data_field_template, presence: true
 
-  delegate :name, :type, :required_for_service_creation, to: :data_field_template
+  delegate :name, :type, :required_for_service_start, to: :data_field_template
 
   def completed?
     data.present?

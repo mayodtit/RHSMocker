@@ -8,17 +8,17 @@ class DataFieldTemplate < ActiveRecord::Base
   has_many :data_fields, inverse_of: :data_field_template
 
   attr_accessible :service_template, :service_template_id, :name, :type,
-                  :required_for_service_creation
+                  :required_for_service_start
 
   validates :service_template, :name, :type, presence: true
-  validates :required_for_service_creation, inclusion: {in: [true, false]}
+  validates :required_for_service_start, inclusion: {in: [true, false]}
 
   before_validation :set_defaults, on: :create
 
   private
 
   def set_defaults
-    self.required_for_service_creation = false if required_for_service_creation.nil?
+    self.required_for_service_start = false if required_for_service_start.nil?
     true
   end
 end

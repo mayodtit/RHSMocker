@@ -3,6 +3,6 @@ FactoryGirl.define do
     service_template
     sequence(:name) {|n| "DataFieldTemplate #{n}"}
     type 'boolean'
-    required_for_service_creation false
+    required_for_service_start false
   end
 end

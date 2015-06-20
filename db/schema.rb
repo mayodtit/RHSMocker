@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150620063318) do
+ActiveRecord::Schema.define(:version => 20150620064109) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -302,9 +302,9 @@ ActiveRecord::Schema.define(:version => 20150620063318) do
     t.integer  "service_template_id"
     t.string   "name"
     t.string   "type"
-    t.boolean  "required_for_service_creation"
-    t.datetime "created_at",                    :null => false
-    t.datetime "updated_at",                    :null => false
+    t.boolean  "required_for_service_start"
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
   end
 
   create_table "data_fields", :force => true do |t|
