@@ -59,11 +59,10 @@ class Task < ActiveRecord::Base
   before_validation :set_assigned_at
   before_validation :reset_day_priority
   before_validation :mark_as_unread
-
-  after_commit :publish
+  after_create :create_task_steps!, if: :task_template
   after_save :notify
+  after_commit :publish
   after_commit :track_update, on: :update
-
 
   scope :nurse, -> { where(['role_id = ?', Role.find_by_name!('nurse').id]) }
   scope :pha, -> { where(['role_id = ?', Role.find_by_name!('pha').id]) }
@@ -311,6 +310,12 @@ class Task < ActiveRecord::Base
       service.tasks.maximum(:service_ordinal) || 0
     else
       nil
+    end
+  end
+
+  def create_task_steps!
+    task_template.task_step_templates.each do |task_step_template|
+      task_steps.create!(task_step_template: task_step_template)
     end
   end
 end
