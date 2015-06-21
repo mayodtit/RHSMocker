@@ -37,6 +37,7 @@ class Service < ActiveRecord::Base
 
   before_validation :set_defaults, on: :create
   before_validation :set_assigned_at
+  after_create :create_data_fields!, if: :service_template
   after_create :create_next_ordinal_tasks
   after_commit :track_update, on: :update
   after_commit :publish
@@ -188,6 +189,12 @@ class Service < ActiveRecord::Base
       elsif send(attribute).try(:match, RegularExpressions.brackets)
         errors.add(attribute, "shouldn't contain placeholder text")
       end
+    end
+  end
+
+  def create_data_fields!
+    service_template.data_field_templates.each do |data_field_template|
+      data_fields.create!(data_field_template: data_field_template)
     end
   end
 end
