@@ -1,9 +1,9 @@
 class Task < ActiveRecord::Base
-  include ActiveModel::ForbiddenAttributesProtection
   PRIORITY = 0
   URGENT_PRIORITY = 12
 
   belongs_to :member
+  belongs_to :subject, class_name: 'User'
   belongs_to :role, class_name: 'Role'
   belongs_to :owner, class_name: 'Member'
   belongs_to :creator, class_name: 'Member'
@@ -28,7 +28,8 @@ class Task < ActiveRecord::Base
                                 source: :data_field
   has_one :entry, as: :resource
 
-  attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id
+  attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id,
+                :start_at
   attr_accessible :title, :description, :due_at,
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
@@ -36,7 +37,8 @@ class Task < ActiveRecord::Base
                   :state_event, :service_type_id, :service_type,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
                   :priority, :actor_id, :member_id, :member, :reason, :visible_in_queue,
-                  :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread, :follow_up
+                  :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread, :follow_up,
+                  :start_at
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :urgent, :unread, :follow_up, :inclusion => { :in => [true, false] }
@@ -51,9 +53,7 @@ class Task < ActiveRecord::Base
   validate :attrs_for_states
   validate :one_claimed_per_owner
 
-  before_validation :set_role, on: :create
-  before_validation :set_priority, on: :create
-  before_validation :set_ordinal, on: :create
+  before_validation :set_defaults, on: :create
   before_validation :set_assigned_at
   before_validation :reset_day_priority
   before_validation :mark_as_unread
@@ -91,24 +91,6 @@ class Task < ActiveRecord::Base
 
   def self.open
     where('state NOT IN (?)', ['completed', 'abandoned'])
-  end
-
-  def set_role
-    self.role_id = Role.find_by_name!(:pha).id if role_id.nil?
-  end
-
-  def set_priority
-    if urgent?
-      self.priority = URGENT_PRIORITY
-    else
-      self.priority = PRIORITY if priority.nil?
-    end
-  end
-
-  def set_ordinal
-    if service_id && task_template_id.nil? && service_ordinal.nil?
-      self.service_ordinal = service.tasks.empty? ? 0 : service.tasks.maximum("service_ordinal")
-    end
   end
 
   def reset_day_priority
@@ -288,6 +270,45 @@ class Task < ActiveRecord::Base
       self.change_tracked = false
     elsif _data = data
       TaskChange.create! task: self, actor_id: self.actor_id, event: 'update', data: _data, reason: reason
+    end
+  end
+
+  private
+
+  def set_defaults
+    self.title ||= task_template.try(:title)
+    self.description ||= task_template.try(:description)
+    self.due_at ||= task_template.try(:calculated_due_at, start_at)
+    self.time_estimate ||= task_template.try(:time_estimate)
+    self.service_type ||= service.try(:service_type)
+    self.member ||= service.try(:member)
+    self.subject ||= service.try(:subject)
+    self.creator ||= service.try(:creator)
+    self.owner ||= service.try(:owner)
+    self.assignor ||= owner
+    self.role ||= Role.find_by_name(:pha)
+    self.priority = calculated_priority
+    self.service_ordinal = calculated_service_ordinal
+    true
+  end
+
+  def calculated_priority
+    if urgent?
+      URGENT_PRIORITY
+    else
+      priority || task_template.try(:priority) || PRIORITY
+    end
+  end
+
+  def calculated_service_ordinal
+    task_template.try(:service_ordinal) || service_ordinal_for_one_off
+  end
+
+  def service_ordinal_for_one_off
+    if service
+      service.tasks.maximum(:service_ordinal) || 0
+    else
+      nil
     end
   end
 end

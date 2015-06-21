@@ -1,6 +1,4 @@
 class Service < ActiveRecord::Base
-  include ActiveModel::ForbiddenAttributesProtection
-
   OPEN_STATES = %w(open waiting)
   CLOSED_STATES = %w(completed abandoned)
 
@@ -72,7 +70,7 @@ class Service < ActiveRecord::Base
     return if tasks.empty? && service_template.task_templates.empty?
     if next_ordinal = next_ordinal(current_ordinal)
       service_template.task_templates.where(service_ordinal: next_ordinal).each do |task_template|
-        task_template.create_task!(service: self, start_at: service_template.timed_service? ? last_due_at : Time.now, assignor: assignor)
+        tasks.create!(task_template: task_template, start_at: service_template.timed_service? ? last_due_at : Time.now)
       end
     else
       self.complete!
