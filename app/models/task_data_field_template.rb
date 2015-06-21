@@ -23,6 +23,6 @@ class TaskDataFieldTemplate < ActiveRecord::Base
   private
 
   def set_defaults
-    self.ordinal = task_template.try(:task_data_field_templates).try(:max_by, &:ordinal).try(:+, 1) || 0
+    self.ordinal = task_template.try(:task_data_field_templates).try(:max_by, &:ordinal).try(:ordinal).try(:+, 1) || 0
   end
 end
