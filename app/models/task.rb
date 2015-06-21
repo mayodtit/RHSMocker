@@ -15,8 +15,10 @@ class Task < ActiveRecord::Base
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
   has_many :task_guides, class_name: 'TaskGuide', through: :task_template
   has_many :task_requirements
-  has_many :task_steps, inverse_of: :task
-  has_many :task_data_fields, inverse_of: :task
+  has_many :task_steps, inverse_of: :task,
+                        dependent: :destroy
+  has_many :task_data_fields, inverse_of: :task,
+                              dependent: :destroy
   has_many :data_fields, through: :task_data_fields
   has_many :input_task_data_fields, class_name: 'TaskDataField',
                                     conditions: {type: :input}

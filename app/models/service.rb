@@ -4,7 +4,8 @@ class Service < ActiveRecord::Base
 
   belongs_to :service_type
   belongs_to :service_template
-  has_many :data_fields, inverse_of: :service
+  has_many :data_fields, inverse_of: :service,
+                         dependent: :destroy
 
   belongs_to :member
   belongs_to :subject, class_name: 'User'
@@ -15,7 +16,8 @@ class Service < ActiveRecord::Base
   belongs_to :abandoner, class_name: 'Member'
 
   has_many :service_state_transitions
-  has_many :tasks, order: 'service_ordinal ASC, priority DESC, due_at ASC, created_at ASC'
+  has_many :tasks, order: 'service_ordinal ASC, priority DESC, due_at ASC, created_at ASC',
+                   dependent: :destroy
   has_many :service_changes, order: 'created_at DESC'
   has_one :entry, as: :resource
 
