@@ -42,7 +42,7 @@ class Task < ActiveRecord::Base
   before_validation :set_role, on: :create
   before_validation :set_priority, on: :create
   before_validation :set_ordinal, on: :create
-  before_validation :set_assigned_at
+  before_validation :set_assignor_id
   before_validation :reset_day_priority
   before_validation :mark_as_unread
   before_validation :set_unclaimed_state_attributes, on: :create
@@ -114,9 +114,10 @@ class Task < ActiveRecord::Base
     end
   end
 
-  def set_assigned_at
+  def set_assignor_id
     if owner_id_changed?
       self.assigned_at = Time.now
+      self.assignor_id = actor_id
     end
   end
 

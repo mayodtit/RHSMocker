@@ -4,17 +4,18 @@ FactoryGirl.define do
     association :creator, factory: :member
     due_at Time.now
 
+
+    trait :unclaimed do
+      state 'unclaimed'
+      unclaimed_at Time.now
+    end
+
     trait :assigned do
       association :owner, factory: :member
       association :assignor, factory: :member
       state 'claimed'
       claimed_at Time.now
       assigned_at Time.now
-    end
-
-    trait :unclaimed do
-      state 'unclaimed'
-      unclaimed_at Time.now
     end
 
     trait :claimed do
