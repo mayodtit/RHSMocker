@@ -23,11 +23,13 @@ class Task < ActiveRecord::Base
   has_many :input_task_data_fields, class_name: 'TaskDataField',
                                     conditions: {type: :input}
   has_many :input_data_fields, through: :input_task_data_fields,
-                               source: :data_field
+                               source: :data_field,
+                               include: :data_field_template
   has_many :output_task_data_fields, class_name: 'TaskDataField',
                                     conditions: {type: :output}
   has_many :output_data_fields, through: :output_task_data_fields,
-                                source: :data_field
+                                source: :data_field,
+                                include: :data_field_template
   has_one :entry, as: :resource
 
   attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id,
