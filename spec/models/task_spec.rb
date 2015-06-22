@@ -731,6 +731,13 @@ describe Task do
         task.unclaimed_at.should == Time.now
       end
 
+      it 'sets owner to nil' do
+        task.unclaimed_at.should be_nil
+        task.owner = pha
+        task.unclaim!
+        task.owner_id.should be_nil
+      end
+
       it 'indicates a change was tracked' do
         task.unclaim!
         expect(task.change_tracked).to be_true
