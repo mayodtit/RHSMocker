@@ -18,7 +18,7 @@ class Task < ActiveRecord::Base
   has_one :entry, as: :resource
 
   attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id
-  attr_accessible :title, :description, :due_at,
+  attr_accessible :title, :description, :due_at, :queue,
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
                   :abandoner, :abandoner_id, :role, :role_id,
@@ -46,6 +46,7 @@ class Task < ActiveRecord::Base
   before_validation :reset_day_priority
   before_validation :mark_as_unread
   before_validation :set_unclaimed_state_attributes, on: :create
+  before_validation :set_queue
 
   after_commit :publish
   after_save :notify
@@ -127,6 +128,19 @@ class Task < ActiveRecord::Base
     if self.owner
       self.assignor = Member.robot
       self.assigned_at = Time.now
+    end
+  end
+
+
+  def set_queue
+    if queue.nil?
+      if [PhoneCallTask.name, MessageTask.name, UserRequestTask.name, ParsedNurselineRecordTask.name, InsurancePolicyTask.name, NewKinsightsMemberTask.name].include? type
+        queue = 'hcc'
+      elsif owner && owner.has_role?('specialist')
+        queue = 'specialist'
+      else
+        queue = 'pha'
+      end
     end
   end
 
