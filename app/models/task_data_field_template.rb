@@ -8,6 +8,7 @@ class TaskDataFieldTemplate < ActiveRecord::Base
   has_many :task_data_fields, inverse_of: :task_data_field_template
   has_many :tasks, through: :task_data_fields
   has_many :data_fields, through: :task_data_fields
+  symbolize :type, in: TYPES
 
   attr_accessible :task_template, :task_template_id, :data_field_template,
                   :data_field_template_id, :ordinal, :section, :type

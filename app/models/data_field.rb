@@ -9,6 +9,7 @@ class DataField < ActiveRecord::Base
   attr_accessible :service, :service_id, :data_field_template, :data_field_template_id, :data
 
   validates :service, :data_field_template, presence: true
+  validates :data_field_template_id, uniqueness: :service_id
 
   delegate :name, :type, :required_for_service_start, to: :data_field_template
 
