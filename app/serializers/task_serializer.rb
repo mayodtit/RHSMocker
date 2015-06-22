@@ -4,8 +4,16 @@ class TaskSerializer < ActiveModel::Serializer
   attributes :id, :title, :state, :description, :due_at, :type, :created_at,
              :owner_id, :service_type_id, :triage_state, :member_id, :day_priority, :task_template_id, :urgent, :unread, :follow_up, :modal_template
 
+  delegate :task_steps, :input_data_fields, :output_data_fields, to: :object
+
   def attributes
-    if options[:shallow]
+    if options[:workflow]
+      super.tap do |attrs|
+        attrs[:task_steps] = task_steps.serializer.as_json
+        attrs[:input_data_fields] = input_data_fields.serializer.as_json
+        attrs[:output_data_fields] = output_data_fields.serializer.as_json
+      end
+    elsif options[:shallow]
       attributes = {
         id: object.id,
         title: object.title,
