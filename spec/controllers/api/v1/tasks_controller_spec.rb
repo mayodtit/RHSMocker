@@ -199,6 +199,7 @@ describe Api::V1::TasksController do
               put :update, id: task.id, task: {state_event: 'abandon', reason: 'poo'}
             end
           end
+        end
 
         context 'owner id is present' do
           def do_request

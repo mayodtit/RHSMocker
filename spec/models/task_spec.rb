@@ -425,40 +425,6 @@ describe Task do
     end
   end
 
-  describe '#set_assigned_at' do
-    let(:task) { build :task }
-
-    before do
-      Timecop.freeze
-    end
-
-    after do
-      Timecop.return
-    end
-
-    context 'owner id changed' do
-      before do
-        task.stub(:owner_id_changed?) { true }
-      end
-
-      it 'sets assigned at' do
-        task.set_assigned_at
-        task.assigned_at.should == Time.now
-      end
-    end
-
-    context 'owner id not changed' do
-      before do
-        task.stub(:owner_id_changed?) { false }
-      end
-
-      it 'sets assigned at to' do
-        task.set_assigned_at
-        task.assigned_at.should be_nil
-      end
-    end
-  end
-
   describe '#notify' do
     let(:task) { build :task }
     let(:pha) { build :pha }
