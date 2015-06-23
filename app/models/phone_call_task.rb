@@ -19,6 +19,7 @@ class PhoneCallTask < Task
       :nurse
     else
       :hcc
+    end
   end
 
   def set_role

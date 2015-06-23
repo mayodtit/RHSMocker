@@ -4,6 +4,10 @@ class UpgradeTask < Task
 
   validates :member, presence: true
 
+  def default_queue
+    :hcc
+  end
+
   def set_priority
     self.priority = PRIORITY
   end
