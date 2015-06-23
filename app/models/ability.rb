@@ -132,6 +132,7 @@ class Ability
       can :manage, Entry
       can :read, ServiceTemplate
       can :read, TaskTemplate
+      can :manage, DataField
     end
 
     if user.service_admin?

@@ -127,6 +127,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:feature_flag).permit(:enabled)
   end
 
+  def data_field
+    params.require(:data_field).permit(:data)
+  end
+
   private
 
   def user_request_attributes

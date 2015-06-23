@@ -54,6 +54,7 @@ RHSMocker::Application.routes.draw do
       resources :dashboard, only: :index do
         get :onboarding_calls, on: :collection
       end
+      resources :data_fields, only: %i(show update)
       resources :diseases, :only => :index, :controller => :conditions
       resources :enrollments, only: %i(show create update) do
         get :on_board, on: :collection
