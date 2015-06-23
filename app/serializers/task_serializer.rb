@@ -1,7 +1,7 @@
 class TaskSerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes :id, :title, :state, :description, :due_at, :type, :created_at,
+  attributes :id, :title, :state, :description, :due_at, :type, :created_at, :queue,
              :owner_id, :service_type_id, :triage_state, :member_id, :day_priority, :task_template_id, :urgent, :unread, :follow_up, :modal_template
 
   def attributes

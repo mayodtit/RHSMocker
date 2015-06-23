@@ -1,6 +1,7 @@
 class Member < User
   authenticates_with_sorcery!
   has_many :sessions, dependent: :destroy
+  has_many :care_portal_sessions, dependent: :destroy
   has_many :discounts, foreign_key: :user_id
   has_many :user_roles, foreign_key: :user_id, inverse_of: :user
   has_many :roles, through: :user_roles
@@ -348,13 +349,13 @@ class Member < User
 
   def queue(options = Hash.new)
     return if role.nil?
-    query = Task.owned self
-    if on_call?
-      if Metadata.on_call_queue_only_inbound_and_unassigned?
-        query = Task.needs_triage self
-      else
-        query = Task.needs_triage_or_owned self
-      end
+
+    if specialist?
+      query = Task.specialist_queue
+    elsif on_call?
+      query = Task.hcc_queue(self)
+    else
+      query = Task.pha_queue(self)
     end
 
     tasks = query.where(role_id: role.id, visible_in_queue: true, unread: false, urgent: false).includes(:member).order(task_order)

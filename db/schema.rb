@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150622203816) do
+ActiveRecord::Schema.define(:version => 20150622234702) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1074,6 +1074,8 @@ ActiveRecord::Schema.define(:version => 20150622203816) do
     t.string   "device_os_version"
     t.integer  "logging_level"
     t.integer  "logging_command"
+    t.string   "type"
+    t.string   "queue_mode"
   end
 
   add_index "sessions", ["advertiser_id"], :name => "index_sessions_on_advertiser_id"

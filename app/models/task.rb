@@ -2,6 +2,8 @@ class Task < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
   PRIORITY = 0
   URGENT_PRIORITY = 12
+  QUEUE_TYPES = %i(hcc pha nurse specialist)
+  symbolize :queue, in: QUEUE_TYPES
 
   belongs_to :member
   belongs_to :role, class_name: 'Role'
@@ -45,19 +47,11 @@ class Task < ActiveRecord::Base
   before_validation :set_assignor_id
   before_validation :reset_day_priority
   before_validation :mark_as_unread
-  before_validation :set_unclaimed_state_attributes, on: :create
-  before_validation :set_queue
+  before_validation :set_queue, on: :create
 
   after_commit :publish
   after_save :notify
   after_commit :track_update, on: :update
-
-
-  scope :nurse, -> { where(['role_id = ?', Role.find_by_name!('nurse').id]) }
-  scope :pha, -> { where(['role_id = ?', Role.find_by_name!('pha').id]) }
-  scope :owned, -> (hcp) { where(['state IN (?) AND owner_id = ?', :claimed, hcp.id]) }
-  scope :needs_triage, -> (hcp) { where(['(owner_id IS NULL AND state NOT IN (?)) OR (state IN (?, ?) AND owner_id = ? AND type IN (?, ?, ?, ?, ?, ?))', :abandoned, :unclaimed, :claimed, hcp.id, PhoneCallTask.name, MessageTask.name, UserRequestTask.name, ParsedNurselineRecordTask.name, InsurancePolicyTask.name, NewKinsightsMemberTask.name]) }
-  scope :needs_triage_or_owned, -> (hcp) { where(['(state IN (?, ?) AND owner_id = ?) OR (owner_id IS NULL AND state NOT IN (?))', :unclaimed, :claimed, hcp.id, :abandoned]) }
 
   def self.open_state
     where(state: %i(unclaimed blocked_internal blocked_external claimed))
@@ -65,6 +59,22 @@ class Task < ActiveRecord::Base
 
   def self.blocked
     where(state: %i(blocked_internal blocked_external))
+  end
+
+  def self.nurse_queue
+    where(queue: :nurse, state: :unclaimed)
+  end
+
+  def self.hcc_queue(hcp)
+    where(queue: :hcc).where(['(state IN (?)) OR (state IN (?) AND owner_id = ?)', :unclaimed, :claimed, hcp.id])
+  end
+
+  def self.pha_queue(hcp)
+    where(queue: :pha, owner_id: hcp.id)
+  end
+
+  def self.specialist_queue
+    where(queue: :specialist)
   end
 
   def blocked?
@@ -80,7 +90,7 @@ class Task < ActiveRecord::Base
   end
 
   def for_nurse?
-    role.name == 'nurse'
+    queue == :nurse
   end
 
   def for_pha?
@@ -133,15 +143,7 @@ class Task < ActiveRecord::Base
 
 
   def set_queue
-    if queue.nil?
-      if [PhoneCallTask.name, MessageTask.name, UserRequestTask.name, ParsedNurselineRecordTask.name, InsurancePolicyTask.name, NewKinsightsMemberTask.name].include? type
-        queue = 'hcc'
-      elsif owner && owner.has_role?('specialist')
-        queue = 'specialist'
-      else
-        queue = 'pha'
-      end
-    end
+    self.queue = default_queue
   end
 
   def mark_as_unread
@@ -151,10 +153,6 @@ class Task < ActiveRecord::Base
       self.unread = true
     end
     true
-  end
-
-  def set_unclaimed_state_attributes
-    self.unclaimed_at = Time.now
   end
 
   def notify
@@ -196,7 +194,18 @@ class Task < ActiveRecord::Base
     #escalate method goes here
   end
 
-  state_machine :initial => :unclaimed do
+  def initial_state
+    if owner_id.present?
+      self.claimed_at = Time.now
+      :claimed
+    else
+      self.unclaimed_at = Time.now
+      :unclaimed
+    end
+  end
+
+
+  state_machine initial: -> (t){t.initial_state} do
     store_audit_trail to: 'TaskChange', context_to_log: [:actor_id, :data, :reason]
 
     event :unclaim do
