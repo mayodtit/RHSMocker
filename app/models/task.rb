@@ -2,6 +2,7 @@ class Task < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
   PRIORITY = 0
   URGENT_PRIORITY = 12
+
   QUEUE_TYPES = %i(hcc pha nurse specialist)
   symbolize :queue, in: QUEUE_TYPES
 
@@ -90,7 +91,7 @@ class Task < ActiveRecord::Base
   end
 
   def for_nurse?
-    queue == :nurse
+    role.name == 'nurse'
   end
 
   def for_pha?
@@ -143,7 +144,9 @@ class Task < ActiveRecord::Base
 
 
   def set_queue
-    self.queue = default_queue
+    if queue.nil?
+      queue = try(:default_queue)
+    end
   end
 
   def mark_as_unread

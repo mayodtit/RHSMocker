@@ -7,6 +7,10 @@ class MessageMemberTask < Task
 
   before_validation :set_required_attrs, on: :create
 
+  def default_queue
+    :pha
+  end
+
   def set_required_attrs
     self.title = "Message member"
     self.service_type = ServiceType.find_by_name! 're-engagement'

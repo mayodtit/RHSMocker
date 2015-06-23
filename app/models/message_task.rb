@@ -22,6 +22,10 @@ class MessageTask < Task
   before_validation :set_owner, on: :create
   before_validation :set_member, on: :create
 
+  def default_queue
+    :hcc
+  end
+
   def set_consult
     if consult.nil? && message.present?
       self.consult_id = message.consult_id

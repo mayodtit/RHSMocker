@@ -7,6 +7,10 @@ class AddTasksTask < Task
 
   before_validation :set_required_attrs, on: :create
 
+  def default_queue
+    :pha
+  end
+
   def set_required_attrs
     self.title = "Find new services for member"
     self.service_type = ServiceType.find_by_name! 're-engagement'

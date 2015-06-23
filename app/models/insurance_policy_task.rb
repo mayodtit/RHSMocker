@@ -10,6 +10,10 @@ class InsurancePolicyTask < Task
 
   before_validation :set_defaults, on: :create
 
+  def default_queue
+    :hcc
+  end
+
   def set_priority
     self.priority = PRIORITY
   end
