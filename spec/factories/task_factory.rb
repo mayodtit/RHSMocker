@@ -3,7 +3,7 @@ FactoryGirl.define do
     sequence(:title) { |n| "Plan to do something for the #{n}th time." }
     association :creator, factory: :member
     due_at Time.now
-
+    queue 'pha'
 
     trait :unclaimed do
       state 'unclaimed'

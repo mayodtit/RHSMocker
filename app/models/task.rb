@@ -142,10 +142,13 @@ class Task < ActiveRecord::Base
     end
   end
 
+  def default_queue
+    :pha
+  end
 
   def set_queue
     if queue.nil?
-      queue = try(:default_queue)
+      self.queue = try(:default_queue)
     end
   end
 
