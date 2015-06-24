@@ -19,7 +19,8 @@ class Task < ActiveRecord::Base
                         dependent: :destroy
   has_many :task_data_fields, inverse_of: :task,
                               dependent: :destroy
-  has_many :data_fields, through: :task_data_fields
+  has_many :data_fields, through: :task_data_fields,
+                         include: :data_field_template
   has_many :input_task_data_fields, class_name: 'TaskDataField',
                                     conditions: {type: :input}
   has_many :input_data_fields, through: :input_task_data_fields,
