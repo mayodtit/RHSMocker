@@ -5,6 +5,7 @@ class Service < ActiveRecord::Base
   belongs_to :service_type
   belongs_to :service_template
   has_many :data_fields, inverse_of: :service,
+                         include: :data_field_template,
                          dependent: :destroy
 
   belongs_to :member
@@ -38,6 +39,7 @@ class Service < ActiveRecord::Base
   before_validation :set_defaults, on: :create
   before_validation :set_assigned_at
   after_create :create_data_fields!, if: :service_template
+  after_create :create_service_blocked_task!, if: :waiting?
   after_create :create_next_ordinal_tasks
   after_commit :track_update, on: :update
   after_commit :publish
@@ -69,6 +71,7 @@ class Service < ActiveRecord::Base
   end
 
   def create_next_ordinal_tasks(current_ordinal=-1, last_due_at=Time.now)
+    return if waiting?
     return unless open? && service_template && tasks.open_state.empty?
     return if tasks.empty? && service_template.task_templates.empty?
     if next_ordinal = next_ordinal(current_ordinal)
@@ -85,7 +88,15 @@ class Service < ActiveRecord::Base
     service_template.task_templates.where('service_ordinal > ?', current_ordinal).minimum(:service_ordinal)
   end
 
-  state_machine :initial => :open do
+  def initial_state
+    if service_template.try(:data_field_templates).try(:select, &:required_for_service_start).try(:any?)
+      :waiting
+    else
+      :open
+    end
+  end
+
+  state_machine initial: ->(s){s.initial_state} do
     store_audit_trail to: 'ServiceChange', context_to_log: %i(actor_id data reason)
 
     event :wait do
@@ -196,5 +207,14 @@ class Service < ActiveRecord::Base
     service_template.data_field_templates.each do |data_field_template|
       data_fields.create!(data_field_template: data_field_template)
     end
+  end
+
+  def create_service_requirements_task!
+    return if service_requirements_task
+  end
+
+  def create_service_blocked_task!
+    return if ServiceBlockedTask.where(service_id: id).any?
+    ServiceBlockedTask.create!(service: self, title: 'Unblock service', due_at: Time.now)
   end
 end
