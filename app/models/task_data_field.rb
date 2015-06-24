@@ -5,7 +5,8 @@ class TaskDataField < ActiveRecord::Base
   belongs_to :task, inverse_of: :task_data_fields
   belongs_to :data_field, inverse_of: :task_data_fields
   belongs_to :task_data_field_template, inverse_of: :task_data_fields
-  has_many :task_step_data_fields, inverse_of: :task_data_field
+  has_many :task_step_data_fields, inverse_of: :task_data_field,
+                                   dependent: :destroy
   has_many :task_steps, through: :task_step_data_fields
   symbolize :type, in: TYPES
 
