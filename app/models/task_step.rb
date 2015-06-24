@@ -13,6 +13,7 @@ class TaskStep < ActiveRecord::Base
   validates :completed, inclusion: {in: [true, false]}
 
   before_validation :set_defaults, on: :create
+  after_create :create_task_step_data_fields!, if: :task_step_template
 
   delegate :description, :ordinal, to: :task_step_template
 
@@ -21,5 +22,12 @@ class TaskStep < ActiveRecord::Base
   def set_defaults
     self.completed = false if completed.nil?
     true
+  end
+
+  def create_task_step_data_fields!
+    task_step_template.task_step_data_field_templates.each do |task_step_data_field_template|
+      task_step_data_fields.create!(task_step_data_field_template: task_step_data_field_template,
+                                    task_data_field: task.output_task_data_fields.find_by_task_data_field_template_id!(task_step_data_field_template.task_data_field_template_id))
+    end
   end
 end

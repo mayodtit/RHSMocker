@@ -61,8 +61,8 @@ class Task < ActiveRecord::Base
   before_validation :set_assigned_at
   before_validation :reset_day_priority
   before_validation :mark_as_unread
-  after_create :create_task_steps!, if: :task_template
   after_create :create_task_data_fields!, if: :task_template
+  after_create :create_task_steps!, if: :task_template
   after_save :notify
   after_commit :publish
   after_commit :track_update, on: :update
@@ -316,16 +316,16 @@ class Task < ActiveRecord::Base
     end
   end
 
-  def create_task_steps!
-    task_template.task_step_templates.each do |task_step_template|
-      task_steps.create!(task_step_template: task_step_template)
-    end
-  end
-
   def create_task_data_fields!
     task_template.task_data_field_templates.each do |task_data_field_template|
       task_data_fields.create!(task_data_field_template: task_data_field_template,
                                data_field: service.data_fields.find_by_data_field_template_id!(task_data_field_template.data_field_template_id))
+    end
+  end
+
+  def create_task_steps!
+    task_template.task_step_templates.each do |task_step_template|
+      task_steps.create!(task_step_template: task_step_template)
     end
   end
 end
