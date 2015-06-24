@@ -64,29 +64,44 @@ namespace :seeds do
 
     # create steps for task template 1
     CALL_INSTRUCTIONS = <<-eof
-Dial **{Provider phone number}**.
+* Dial **{Provider phone number}**.
+* Introduce yourself:
+  * Hi, I'm {YOUR NAME}, a care coordinator for your patient {Member full name}.
+  * {Member full name}'s date of birth is {Member date of birth}.
     eof
 
-    task_template_1.task_step_templates.create(description: 'Call the office', details: CALL_INSTRUCTIONS)
+    task_template_1.task_step_templates.create(description: "Call provider's office", details: CALL_INSTRUCTIONS)
 
     CALL_SCRIPT = <<-eof
-
+* I would like to book an appointment for {Member full name} with {Provider full name}.
+* {Member full name} wants an appointment because {Reason for visit}.
+* What are the next available appointments you have?
     eof
 
-    tst_2 = task_template_1.task_step_templates.create(description: 'Introduce yourself and make request')
+    tst_2 = task_template_1.task_step_templates.create(description: 'Ask for available appointments', details: CALL_SCRIPT)
     tst_2.task_step_data_field_templates.create(task_data_field_template: tdft_appointment_option_1)
     tst_2.task_step_data_field_templates.create(task_data_field_template: tdft_appointment_option_2)
     tst_2.task_step_data_field_templates.create(task_data_field_template: tdft_appointment_option_3)
-    tst_3 = task_template_1.task_step_templates.create(description: "If this matches, the user's request, book it")
 
-    CONFIRMATION = <<-eof
-
+    BOOK_SCRIPT = <<-eof
+* Dates/times that work for member: {Specific dates/times that work better}
+* Check which appointment option matches member’s availability
+* Great, I would like to book an appointment with {Provider full name} on...
     eof
 
+    tst_3 = task_template_1.task_step_templates.create(description: "Book appointment", details: BOOK_SCRIPT)
     tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_time)
     tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_details)
     tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_cancellation_policy)
     tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_other_information)
+
+    CONFIRM_SCRIPT = <<-eof
+Confirm information included in the task
+
+> KC: In the future, I can template this out, but because it's loaded on page-load now, I can't dynamically refresh it. Yet.
+    eof
+
+    task_template_1.task_step_templates.create(description: "Confirm appointment", details: CONFIRM_SCRIPT)
 
     # link task template 2 inputs
     task_template_2.input_task_data_field_templates.create(data_field_template: dft_booked_appointment_time)
