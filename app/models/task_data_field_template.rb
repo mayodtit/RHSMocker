@@ -5,6 +5,9 @@ class TaskDataFieldTemplate < ActiveRecord::Base
 
   belongs_to :task_template, inverse_of: :task_data_field_templates
   belongs_to :data_field_template, inverse_of: :task_data_field_templates
+  has_many :task_step_data_field_templates, inverse_of: :task_data_field_template,
+                                            dependent: :destroy
+  has_many :task_step_templates, through: :task_step_data_field_templates
   has_many :task_data_fields, inverse_of: :task_data_field_template
   has_many :tasks, through: :task_data_fields
   has_many :data_fields, through: :task_data_fields
@@ -20,6 +23,14 @@ class TaskDataFieldTemplate < ActiveRecord::Base
   validates :type, presence: true, inclusion: {in: TYPES}
 
   before_validation :set_defaults, on: :create
+
+  def input?
+    type == :input
+  end
+
+  def output?
+    type == :output
+  end
 
   private
 

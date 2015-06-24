@@ -2,6 +2,10 @@ class TaskStepTemplate < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
 
   belongs_to :task_template, inverse_of: :task_step_templates
+  has_many :task_step_data_field_templates, inverse_of: :task_step_template,
+                                            dependent: :destroy
+  has_many :task_data_field_templates, through: :task_step_data_field_templates
+  has_many :data_field_templates, through: :task_data_field_templates
   has_many :task_steps, inverse_of: :task_step_template
 
   attr_accessible :task_template, :task_template_id, :description, :ordinal

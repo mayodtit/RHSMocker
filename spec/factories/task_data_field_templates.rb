@@ -4,5 +4,9 @@ FactoryGirl.define do
     data_field_template
     ordinal 0
     type :input
+
+    trait :output do
+      type :output
+    end
   end
 end
