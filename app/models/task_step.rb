@@ -48,6 +48,6 @@ class TaskStep < ActiveRecord::Base
   end
 
   def task_data_field_value(key)
-    task.data_fields.includes(:data_field_template).where(data_field_templates: {name: (key)}).first.try(:data)
+    task.service.data_fields.includes(:data_field_template).where(data_field_templates: {name: (key)}).first.try(:data)
   end
 end
