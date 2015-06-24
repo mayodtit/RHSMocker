@@ -63,17 +63,30 @@ namespace :seeds do
     tdft_booked_appointment_other_information = task_template_1.output_task_data_field_templates.create(data_field_template: dft_booked_appointment_other_information)
 
     # create steps for task template 1
-    task_template_1.task_step_templates.create(description: 'Call the office')
+    CALL_INSTRUCTIONS = <<-eof
+Dial **{Provider phone number}**.
+    eof
+
+    task_template_1.task_step_templates.create(description: 'Call the office', details: CALL_INSTRUCTIONS)
+
+    CALL_SCRIPT = <<-eof
+
+    eof
+
     tst_2 = task_template_1.task_step_templates.create(description: 'Introduce yourself and make request')
     tst_2.task_step_data_field_templates.create(task_data_field_template: tdft_appointment_option_1)
     tst_2.task_step_data_field_templates.create(task_data_field_template: tdft_appointment_option_2)
     tst_2.task_step_data_field_templates.create(task_data_field_template: tdft_appointment_option_3)
     tst_3 = task_template_1.task_step_templates.create(description: "If this matches, the user's request, book it")
+
+    CONFIRMATION = <<-eof
+
+    eof
+
     tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_time)
     tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_details)
     tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_cancellation_policy)
     tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_other_information)
-    task_template_1.task_step_templates.create(description: "Otherwise, mark as blocked")
 
     # link task template 2 inputs
     task_template_2.input_task_data_field_templates.create(data_field_template: dft_booked_appointment_time)
@@ -82,6 +95,36 @@ namespace :seeds do
     task_template_2.input_task_data_field_templates.create(data_field_template: dft_booked_appointment_other_information)
 
     # create steps for task template 2
-    task_template_2.task_step_templates.create(description: "Send update to member")
+    SERVICE_DELIVERABLE = <<-eof
+**We booked {Member full name} an appointment with Dr. {Provider full name}.**
+
+Appointment details:
+
+**{Booked appointment time}**
+Dr. {Provider full name}
+Address: {Provider address}
+Phone: {Provider phone number}
+Other details: {Booked appointment details}
+Cancellation policy: {Booked appointment cancellation policy}
+Answers to your questions: {Booked appointment other information}
+    eof
+
+    task_template_2.task_step_templates.create(description: "Update service deliverable", details: "Edit or save the following template to the deliverable for this service.", template: SERVICE_DELIVERABLE)
+
+    MESSAGE_TEMPLATE = <<-eof
+**We booked {Member full name} an appointment with Dr. {Provider full name}.**
+
+Appointment details:
+
+**{Booked appointment time}**
+Dr. {Provider full name}
+Address: {Provider address}
+Phone: {Provider phone number}
+Other details: {Booked appointment details}
+Cancellation policy: {Booked appointment cancellation policy}
+Answers to your questions: {Booked appointment other information}
+    eof
+
+    task_template_2.task_step_templates.create(description: "Send update message to member", details: "Edit or send the following template to the member.", template: MESSAGE_TEMPLATE)
   end
 end
