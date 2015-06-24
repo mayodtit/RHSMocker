@@ -19,9 +19,11 @@ class TaskStep < ActiveRecord::Base
   delegate :description, :ordinal, :details, :template, to: :task_step_template
 
   def injected_details
-    details.gsub(RegularExpressions.capture_braces) do |match|
-      task_data_field_value(match[1..-2]) || match
-    end
+    inject_data_field_values(details)
+  end
+
+  def injected_template
+    inject_data_field_values(template)
   end
 
   private
@@ -35,6 +37,13 @@ class TaskStep < ActiveRecord::Base
     task_step_template.task_step_data_field_templates.each do |task_step_data_field_template|
       task_step_data_fields.create!(task_step_data_field_template: task_step_data_field_template,
                                     task_data_field: task.output_task_data_fields.find_by_task_data_field_template_id!(task_step_data_field_template.task_data_field_template_id))
+    end
+  end
+
+  def inject_data_field_values(attr)
+    return nil unless attr
+    attr.gsub(RegularExpressions.capture_braces) do |match|
+      task_data_field_value(match[1..-2]) || match
     end
   end
 
