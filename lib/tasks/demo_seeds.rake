@@ -23,15 +23,6 @@ namespace :seeds do
                                                              time_estimate: 60,
                                                              service_ordinal: 1)
 
-    # create steps for task template 1
-    task_template_1.task_step_templates.create(description: 'Call the office')
-    task_template_1.task_step_templates.create(description: 'Introduce yourself and make request')
-    task_template_1.task_step_templates.create(description: "If this matches, the user's request, book it")
-    task_template_1.task_step_templates.create(description: "Otherwise, mark as blocked")
-
-    # create steps for task template 2
-    task_template_2.task_step_templates.create(description: "Send update to member")
-
     # create all data fields used in the service
     dft_member_full_name = service_template.data_field_templates.create(name: 'Member full name', type: :string, required_for_service_start: true)
     dft_member_date_of_birth = service_template.data_field_templates.create(name: 'Member date of birth', type: :date, required_for_service_start: true)
@@ -63,18 +54,34 @@ namespace :seeds do
     task_template_1.input_task_data_field_templates.create(data_field_template: dft_preferred_times)
 
     # link task template 1 outputs
-    task_template_1.output_task_data_field_templates.create(data_field_template: dft_appointment_option_1)
-    task_template_1.output_task_data_field_templates.create(data_field_template: dft_appointment_option_2)
-    task_template_1.output_task_data_field_templates.create(data_field_template: dft_appointment_option_3)
-    task_template_1.output_task_data_field_templates.create(data_field_template: dft_booked_appointment_time)
-    task_template_1.output_task_data_field_templates.create(data_field_template: dft_booked_appointment_details)
-    task_template_1.output_task_data_field_templates.create(data_field_template: dft_booked_appointment_cancellation_policy)
-    task_template_1.output_task_data_field_templates.create(data_field_template: dft_booked_appointment_other_information)
+    tdft_appointment_option_1 = task_template_1.output_task_data_field_templates.create(data_field_template: dft_appointment_option_1)
+    tdft_appointment_option_2 = task_template_1.output_task_data_field_templates.create(data_field_template: dft_appointment_option_2)
+    tdft_appointment_option_3 = task_template_1.output_task_data_field_templates.create(data_field_template: dft_appointment_option_3)
+    tdft_booked_appointment_time = task_template_1.output_task_data_field_templates.create(data_field_template: dft_booked_appointment_time)
+    tdft_booked_appointment_details = task_template_1.output_task_data_field_templates.create(data_field_template: dft_booked_appointment_details)
+    tdft_booked_appointment_cancellation_policy = task_template_1.output_task_data_field_templates.create(data_field_template: dft_booked_appointment_cancellation_policy)
+    tdft_booked_appointment_other_information = task_template_1.output_task_data_field_templates.create(data_field_template: dft_booked_appointment_other_information)
+
+    # create steps for task template 1
+    task_template_1.task_step_templates.create(description: 'Call the office')
+    tst_2 = task_template_1.task_step_templates.create(description: 'Introduce yourself and make request')
+    tst_2.task_step_data_field_templates.create(task_data_field_template: tdft_appointment_option_1)
+    tst_2.task_step_data_field_templates.create(task_data_field_template: tdft_appointment_option_2)
+    tst_2.task_step_data_field_templates.create(task_data_field_template: tdft_appointment_option_3)
+    tst_3 = task_template_1.task_step_templates.create(description: "If this matches, the user's request, book it")
+    tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_time)
+    tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_details)
+    tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_cancellation_policy)
+    tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_other_information)
+    task_template_1.task_step_templates.create(description: "Otherwise, mark as blocked")
 
     # link task template 2 inputs
     task_template_2.input_task_data_field_templates.create(data_field_template: dft_booked_appointment_time)
     task_template_2.input_task_data_field_templates.create(data_field_template: dft_booked_appointment_details)
     task_template_2.input_task_data_field_templates.create(data_field_template: dft_booked_appointment_cancellation_policy)
     task_template_2.input_task_data_field_templates.create(data_field_template: dft_booked_appointment_other_information)
+
+    # create steps for task template 2
+    task_template_2.task_step_templates.create(description: "Send update to member")
   end
 end
