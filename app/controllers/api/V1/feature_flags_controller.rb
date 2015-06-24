@@ -1,5 +1,5 @@
 class Api::V1::FeatureFlagsController < Api::V1::ABaseController
-  skip_before_filter :authentication_check, only: :index
+  skip_before_filter :authentication_check, only: [:index, :show]
   before_filter :load_feature_flags!, only: :index
   before_filter :load_feature_flag!, only: [:update, :show]
 
