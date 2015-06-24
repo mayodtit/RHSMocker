@@ -1,6 +1,7 @@
 class TaskStepDataFieldTemplate < ActiveRecord::Base
   belongs_to :task_step_template, inverse_of: :task_step_data_field_templates
   belongs_to :task_data_field_template, inverse_of: :task_step_data_field_templates
+  has_many :task_step_data_fields, inverse_of: :task_step_data_field_template
 
   attr_accessible :task_step_template, :task_step_template_id,
                   :task_data_field_template, :task_data_field_template_id,
