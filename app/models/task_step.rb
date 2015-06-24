@@ -16,7 +16,7 @@ class TaskStep < ActiveRecord::Base
   before_validation :set_defaults, on: :create
   after_create :create_task_step_data_fields!, if: :task_step_template
 
-  delegate :description, :ordinal, to: :task_step_template
+  delegate :description, :ordinal, :details, to: :task_step_template
 
   private
 
