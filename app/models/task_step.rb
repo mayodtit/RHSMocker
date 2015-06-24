@@ -16,7 +16,7 @@ class TaskStep < ActiveRecord::Base
   before_validation :set_defaults, on: :create
   after_create :create_task_step_data_fields!, if: :task_step_template
 
-  delegate :description, :ordinal, :details, to: :task_step_template
+  delegate :description, :ordinal, :details, :template, to: :task_step_template
 
   def injected_details
     details.gsub(RegularExpressions.capture_braces) do |match|

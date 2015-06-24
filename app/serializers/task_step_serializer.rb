@@ -1,7 +1,7 @@
 class TaskStepSerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes :id, :description, :ordinal, :details, :completed
+  attributes :id, :description, :ordinal, :details, :template, :completed
 
   delegate :data_fields, to: :object
 

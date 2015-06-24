@@ -9,7 +9,7 @@ class TaskStepTemplate < ActiveRecord::Base
   has_many :task_steps, inverse_of: :task_step_template
 
   attr_accessible :task_template, :task_template_id, :description, :ordinal,
-                  :details
+                  :details, :template
 
   validates :task_template, :description, presence: true
   validates :ordinal, presence: true,
