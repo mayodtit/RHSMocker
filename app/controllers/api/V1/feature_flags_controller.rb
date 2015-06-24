@@ -1,4 +1,5 @@
 class Api::V1::FeatureFlagsController < Api::V1::ABaseController
+  skip_before_filter :authentication_check, only: :index
   before_filter :load_feature_flags!, only: :index
   before_filter :load_feature_flag!, only: [:update, :show]
 
@@ -21,12 +22,10 @@ class Api::V1::FeatureFlagsController < Api::V1::ABaseController
   private
 
   def load_feature_flags!
-    authorize! :read, FeatureFlag
     @feature_flags = FeatureFlag.where(disabled_at: nil)
   end
 
   def load_feature_flag!
-    authorize! :read, FeatureFlag
     @feature_flag = FeatureFlag.find_by_mkey(params[:id])
   end
 end
