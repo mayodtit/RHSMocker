@@ -19,6 +19,8 @@ class ServiceTemplate < ActiveRecord::Base
   before_validation :set_unique_id, on: :create
   before_validation :set_version, on: :create
 
+  after_commit :publish, on: :update
+
   def calculated_due_at(time=Time.now)
     time.business_minutes_from(time_estimate.to_i)
   end
@@ -46,6 +48,10 @@ class ServiceTemplate < ActiveRecord::Base
 
   def self.retired
     where(state: :retired)
+  end
+
+  def publish
+    PubSub.publish "/service_templates/new", {state: :published}
   end
 
   private
