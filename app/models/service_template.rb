@@ -55,7 +55,6 @@ class ServiceTemplate < ActiveRecord::Base
       PubSub.publish "/service_templates/new", { id: id }, {state: :published}
     else
       PubSub.publish "/service_templates/update", { id: id }, {state: :published}
-      PubSub.publish "/service_templates/#{id}/update", { id: id }, {state: :published}
     end
   end
 
