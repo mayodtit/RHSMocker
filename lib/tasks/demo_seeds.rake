@@ -79,9 +79,9 @@ namespace :seeds do
     eof
 
     tst_2 = task_template_1.task_step_templates.create(description: 'Ask for available appointments', details: CALL_SCRIPT)
-    tst_2.task_step_data_field_templates.create(task_data_field_template: tdft_appointment_option_1)
-    tst_2.task_step_data_field_templates.create(task_data_field_template: tdft_appointment_option_2)
-    tst_2.task_step_data_field_templates.create(task_data_field_template: tdft_appointment_option_3)
+    tst_2.task_step_data_field_templates.create(task_data_field_template: tdft_appointment_option_1, required_for_task_step_completion: true)
+    tst_2.task_step_data_field_templates.create(task_data_field_template: tdft_appointment_option_2, required_for_task_step_completion: true)
+    tst_2.task_step_data_field_templates.create(task_data_field_template: tdft_appointment_option_3, required_for_task_step_completion: true)
 
     BOOK_SCRIPT = <<-eof
 * Dates/times that work for member: {Specific dates/times that work better}
@@ -90,10 +90,10 @@ namespace :seeds do
     eof
 
     tst_3 = task_template_1.task_step_templates.create(description: "Book appointment", details: BOOK_SCRIPT)
-    tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_time)
-    tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_details)
-    tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_cancellation_policy)
-    tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_other_information)
+    tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_time, required_for_task_step_completion: true)
+    tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_details, required_for_task_step_completion: true)
+    tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_cancellation_policy, required_for_task_step_completion: true)
+    tst_3.task_step_data_field_templates.create(task_data_field_template: tdft_booked_appointment_other_information, required_for_task_step_completion: true)
 
     CONFIRM_SCRIPT = <<-eof
 Confirm information included in the task
