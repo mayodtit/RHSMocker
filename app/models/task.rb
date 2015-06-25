@@ -71,7 +71,7 @@ class Task < ActiveRecord::Base
   end
 
   def self.pha_queue(hcp)
-    where(queue: :pha, owner_id: hcp.id)
+    where(queue: :pha, owner_id: hcp.id).open_state
   end
 
   def self.specialist_queue
@@ -291,8 +291,6 @@ class Task < ActiveRecord::Base
     end
 
     case state
-      when 'unclaimed'
-        validate_actor_and_timestamp_exist :unclaim
       when 'claimed'
         validate_actor_and_timestamp_exist :claim
       when 'blocked_internal'
