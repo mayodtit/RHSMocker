@@ -2,7 +2,6 @@ class MemberObserver < ActiveRecord::Observer
   def after_commit(member)
     add_automated_communication_workflows(member)
     set_self_owner(member)
-    if member.send(:transaction_include_action?, :create) &&
   end
 
   private
