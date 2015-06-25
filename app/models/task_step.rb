@@ -8,15 +8,18 @@ class TaskStep < ActiveRecord::Base
   has_many :task_data_fields, through: :task_step_data_fields
   has_many :data_fields, through: :task_data_fields
 
-  attr_accessible :task, :task_id, :task_step_template, :task_step_template_id
+  attr_accessible :task, :task_id, :task_step_template, :task_step_template_id,
+                  :completed_at
 
   validates :task, :task_step_template, presence: true
-  validates :completed, inclusion: {in: [true, false]}
 
-  before_validation :set_defaults, on: :create
   after_create :create_task_step_data_fields!, if: :task_step_template
 
   delegate :description, :ordinal, :details, :template, to: :task_step_template
+
+  def completed?
+    completed_at.present?
+  end
 
   def injected_details
     inject_data_field_values(details)
@@ -27,11 +30,6 @@ class TaskStep < ActiveRecord::Base
   end
 
   private
-
-  def set_defaults
-    self.completed = false if completed.nil?
-    true
-  end
 
   def create_task_step_data_fields!
     task_step_template.task_step_data_field_templates.each do |task_step_data_field_template|
