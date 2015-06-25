@@ -127,6 +127,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:feature_flag).permit(:enabled)
   end
 
+  def task_step
+    params.require(:task_step).permit(:completed)
+  end
+
   def data_field
     params.require(:data_field).permit(:data)
   end

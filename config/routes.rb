@@ -110,6 +110,7 @@ RHSMocker::Application.routes.draw do
         resources :contents, only: :index, controller: :symptom_contents
         post :check, on: :collection, to: 'symptom_contents#index'
       end
+      resources :task_steps, only: %i(show update)
       resources :treatments, :only => :index
       get :user, to: 'members#current' # TODO - this should be deprecated in favor of members#current
       put :user, to: 'members#update_current' # TODO - this should be deprecated in general, client should know the ID

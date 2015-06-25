@@ -9,7 +9,7 @@ class TaskStep < ActiveRecord::Base
   has_many :data_fields, through: :task_data_fields
 
   attr_accessible :task, :task_id, :task_step_template, :task_step_template_id,
-                  :completed_at
+                  :completed_at, :completed
 
   validates :task, :task_step_template, presence: true
 
@@ -19,6 +19,14 @@ class TaskStep < ActiveRecord::Base
 
   def completed?
     completed_at.present?
+  end
+
+  def completed=(flag)
+    if flag
+      self.completed_at = Time.now
+    else
+      self.completed_at = nil
+    end
   end
 
   def injected_details
