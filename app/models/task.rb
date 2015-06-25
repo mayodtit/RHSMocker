@@ -166,6 +166,10 @@ class Task < ActiveRecord::Base
   state_machine :initial => :unstarted do
     store_audit_trail to: 'TaskChange', context_to_log: [:actor_id, :data, :reason]
 
+    state :completed do
+      validate :task_steps_completed
+    end
+
     event :unstart do
       transition any => :unstarted
     end
@@ -245,6 +249,12 @@ class Task < ActiveRecord::Base
       if task && task.id != id
         errors.add(:state, "cannot claim more than one task.")
       end
+    end
+  end
+
+  def task_steps_completed
+    unless task_steps.incomplete.empty?
+      errors.add(:task_steps, 'must be completed before completing task')
     end
   end
 

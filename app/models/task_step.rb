@@ -17,6 +17,14 @@ class TaskStep < ActiveRecord::Base
 
   delegate :description, :ordinal, :details, :template, to: :task_step_template
 
+  def self.completed
+    where('completed_at IS NOT NULL')
+  end
+
+  def self.incomplete
+    where(completed_at: nil)
+  end
+
   def completed?
     completed_at.present?
   end
