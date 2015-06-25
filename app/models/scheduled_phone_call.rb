@@ -37,7 +37,7 @@ class ScheduledPhoneCall < ActiveRecord::Base
   validates :callback_phone_number, format: PhoneNumber::VALIDATION_REGEX, allow_blank: false, if: lambda { |spc| spc.user_id }
   validate :scheduled_at_during_on_call
 
-  after_create :if_assigned_notify_owner
+  after_commit :if_assigned_notify_owner, on: :create
   after_save :set_user_phone_if_missing
 
   def self.assigned
