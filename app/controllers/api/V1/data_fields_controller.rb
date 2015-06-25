@@ -7,7 +7,7 @@ class Api::V1::DataFieldsController < Api::V1::ABaseController
   end
 
   def update
-    update_resource @data_field, permitted_params.data_field
+    update_resource @data_field, update_params
   end
 
   private
@@ -15,5 +15,11 @@ class Api::V1::DataFieldsController < Api::V1::ABaseController
   def load_data_field!
     @data_field = DataField.find(params[:id])
     authorize! :manage, @data_field
+  end
+
+  def update_params
+    permitted_params.data_field.tap do |attributes|
+      attributes[:actor] = current_user
+    end
   end
 end

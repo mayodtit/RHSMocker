@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150625021224) do
+ActiveRecord::Schema.define(:version => 20150625035240) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -297,6 +297,14 @@ ActiveRecord::Schema.define(:version => 20150625021224) do
   end
 
   add_index "custom_cards", ["content_id"], :name => "index_custom_cards_on_content_id"
+
+  create_table "data_field_changes", :force => true do |t|
+    t.integer  "data_field_id"
+    t.integer  "actor_id"
+    t.text     "data"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
 
   create_table "data_field_templates", :force => true do |t|
     t.integer  "service_template_id"
