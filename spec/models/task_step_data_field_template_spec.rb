@@ -5,6 +5,7 @@ describe TaskStepDataFieldTemplate do
 
   it_validates 'presence of', :task_step_template
   it_validates 'presence of', :task_data_field_template
+  it_validates 'inclusion of', :required_for_task_step_completion
 
   describe 'ordinal validations' do
     before do

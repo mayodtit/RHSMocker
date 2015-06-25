@@ -1,6 +1,7 @@
 class TaskStepDataField < ActiveRecord::Base
   belongs_to :task_step, inverse_of: :task_step_data_fields
   belongs_to :task_data_field, inverse_of: :task_step_data_fields
+  has_one :data_field, through: :task_data_field
   belongs_to :task_step_data_field_template, inverse_of: :task_step_data_fields
 
   attr_accessible :task_step, :task_step_id, :task_data_field, :task_data_field_id,
@@ -10,6 +11,10 @@ class TaskStepDataField < ActiveRecord::Base
   validate :task_data_field_is_output
 
   delegate :ordinal, to: :task_step_data_field_template
+
+  def self.required
+    includes(:task_step_data_field_template).where(task_step_data_field_templates: {required_for_task_step_completion: true})
+  end
 
   private
 

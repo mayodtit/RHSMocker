@@ -12,6 +12,7 @@ class TaskStep < ActiveRecord::Base
                   :completed_at, :completed
 
   validates :task, :task_step_template, presence: true
+  validate :required_task_step_data_fields_completed, if: :completed?
 
   after_create :create_task_step_data_fields!, if: :task_step_template
 
@@ -46,6 +47,12 @@ class TaskStep < ActiveRecord::Base
   end
 
   private
+
+  def required_task_step_data_fields_completed
+    if task_step_data_fields.required.includes(:data_field).select{|t| t.data_field.incomplete?}.any?
+      errors.add(:task_step_data_fields, 'must be completed to complete task step')
+    end
+  end
 
   def create_task_step_data_fields!
     task_step_template.task_step_data_field_templates.each do |task_step_data_field_template|

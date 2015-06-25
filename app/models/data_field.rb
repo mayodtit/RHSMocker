@@ -16,4 +16,8 @@ class DataField < ActiveRecord::Base
   def completed?
     data.present?
   end
+
+  def incomplete?
+    data.blank?
+  end
 end
