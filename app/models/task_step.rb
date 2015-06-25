@@ -7,14 +7,18 @@ class TaskStep < ActiveRecord::Base
                                    dependent: :destroy
   has_many :task_data_fields, through: :task_step_data_fields
   has_many :data_fields, through: :task_data_fields
+  has_many :task_step_changes, inverse_of: :task_step,
+                               dependent: :destroy
+  attr_accessor :actor
 
   attr_accessible :task, :task_id, :task_step_template, :task_step_template_id,
-                  :completed_at, :completed
+                  :completed_at, :completed, :actor
 
   validates :task, :task_step_template, presence: true
   validate :required_task_step_data_fields_completed, if: :completed?
 
   after_create :create_task_step_data_fields!, if: :task_step_template
+  after_update :track_changes
 
   delegate :description, :ordinal, :details, :template, to: :task_step_template
 
@@ -59,6 +63,16 @@ class TaskStep < ActiveRecord::Base
       task_step_data_fields.create!(task_step_data_field_template: task_step_data_field_template,
                                     task_data_field: task.output_task_data_fields.find_by_task_data_field_template_id!(task_step_data_field_template.task_data_field_template_id))
     end
+  end
+
+  def track_update
+    if changes_to_track.any?
+      task_step_changes.create!(actor: actor, data: changes_to_track)
+    end
+  end
+
+  def changes_to_track
+    changes.slice(:created_at)
   end
 
   def inject_data_field_values(attr)

@@ -7,7 +7,7 @@ class Api::V1::TaskStepsController < Api::V1::ABaseController
   end
 
   def update
-    update_resource @task_step, permitted_params.task_step
+    update_resource @task_step, update_params
   end
 
   private
@@ -15,5 +15,11 @@ class Api::V1::TaskStepsController < Api::V1::ABaseController
   def load_task_step!
     @task_step = TaskStep.find(params[:id])
     authorize! :manage, @task_step
+  end
+
+  def update_params
+    permitted_params.task_step.tap do |attributes|
+      attributes[:actor] = current_user
+    end
   end
 end
