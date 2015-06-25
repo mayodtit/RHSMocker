@@ -123,12 +123,6 @@ class Service < ActiveRecord::Base
       service.abandoned_at = Time.now
     end
 
-    after_transition any - :completed => :completed do |service|
-      Task.where(service_id: service.id).each do |task|
-        task.complete!
-      end
-    end
-
     after_transition any - :abandoned => :abandoned do |service|
       Task.where(service_id: service.id).each do |task|
         task.abandoner = service.abandoner
