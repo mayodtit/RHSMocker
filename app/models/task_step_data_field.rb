@@ -10,7 +10,7 @@ class TaskStepDataField < ActiveRecord::Base
   validates :task_step, :task_data_field, :task_step_data_field_template, presence: true
   validate :task_data_field_is_output
 
-  delegate :ordinal, to: :task_step_data_field_template
+  delegate :ordinal, :required_for_task_step_completion?, to: :task_step_data_field_template
 
   def self.required
     includes(:task_step_data_field_template).where(task_step_data_field_templates: {required_for_task_step_completion: true})
