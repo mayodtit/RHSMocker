@@ -6,6 +6,7 @@ class TaskTemplate < ActiveRecord::Base
 
   attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template
 
+  validate :copy_title_to_name
   validates :name, :title, presence: true
   validate :no_placeholders_in_user_facing_attributes
 
@@ -34,6 +35,12 @@ class TaskTemplate < ActiveRecord::Base
   def create_deep_copy!(override_service_template=nil)
     new_modal_template = modal_template.try(:create_copy!)
     self.class.create!(attributes.except('id', 'service_template_id', 'created_at', 'updated_at', 'modal_template_id').merge(service_template: override_service_template || service_template, modal_template: new_modal_template || modal_template))
+  end
+
+  def copy_title_to_name
+    if !self.name
+      self.name = self.title
+    end
   end
 
   def no_placeholders_in_user_facing_attributes
