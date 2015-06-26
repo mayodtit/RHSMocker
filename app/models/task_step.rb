@@ -18,7 +18,7 @@ class TaskStep < ActiveRecord::Base
   validate :required_task_step_data_fields_completed, if: :completed?
 
   after_create :create_task_step_data_fields!, if: :task_step_template
-  after_update :track_changes
+  after_update :track_changes!
 
   delegate :description, :ordinal, :details, :template, to: :task_step_template
 
@@ -65,7 +65,7 @@ class TaskStep < ActiveRecord::Base
     end
   end
 
-  def track_update
+  def track_changes!
     if changes_to_track.any?
       task_step_changes.create!(actor: actor, data: changes_to_track)
     end

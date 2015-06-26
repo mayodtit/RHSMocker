@@ -15,7 +15,7 @@ class DataField < ActiveRecord::Base
   validates :service, :data_field_template, presence: true
   validates :data_field_template_id, uniqueness: :service_id
 
-  after_update :track_update
+  after_update :track_changes!
 
   delegate :name, :type, :required_for_service_start, to: :data_field_template
 
@@ -29,7 +29,7 @@ class DataField < ActiveRecord::Base
 
   private
 
-  def track_update
+  def track_changes!
     if changes_to_track.any?
       data_field_changes.create!(actor: actor, data: changes_to_track)
     end
