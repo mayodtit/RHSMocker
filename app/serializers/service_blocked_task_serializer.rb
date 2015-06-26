@@ -12,6 +12,8 @@ class ServiceBlockedTaskSerializer < TaskSerializer
   end
 
   def data_fields
-    service.data_fields.select(&:required_for_service_start).serializer.as_json
+    service.data_fields.select(&:required_for_service_start).serializer.as_json.each do |data_field|
+      data_field[:required] = true
+    end
   end
 end

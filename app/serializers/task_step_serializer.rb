@@ -4,7 +4,7 @@ class TaskStepSerializer < ActiveModel::Serializer
   attributes :id, :description, :ordinal, :details, :template, :completed,
              :injected_details, :injected_template
 
-  delegate :data_fields, :completed?, to: :object
+  delegate :completed?, :task_step_data_fields, to: :object
 
   def attributes
     super.tap do |attrs|
@@ -14,5 +14,15 @@ class TaskStepSerializer < ActiveModel::Serializer
 
   def completed
     completed?
+  end
+
+  private
+
+  def data_fields
+    task_step_data_fields.map do |task_step_data_field|
+      task_step_data_field.data_field.serializer.as_json.tap do |data_field|
+        data_field[:required] = task_step_data_field.required_for_task_step_completion?
+      end
+    end
   end
 end
