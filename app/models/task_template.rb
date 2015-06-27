@@ -6,7 +6,7 @@ class TaskTemplate < ActiveRecord::Base
 
   attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template
 
-  validate :copy_title_to_name
+  before_validation :copy_title_to_name
   validates :name, :title, presence: true
   validate :no_placeholders_in_user_facing_attributes
 
