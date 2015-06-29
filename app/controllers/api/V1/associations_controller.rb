@@ -19,9 +19,9 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   end
 
   def create
-    puts "CREATE ATTRIBUTES: #{create_attributes}"
+    puts "\n\nCREATE ATTRIBUTES: #{create_attributes}"
     @association = @user.associations.create(create_attributes)
-    puts "ASSOCIATION: #{@association.inspect} \n\n\n// #{@association.errors.full_messages.to_sentence}"
+    puts "\n\nASSOCIATION: #{@association.inspect} \n\n\n// #{@association.errors.full_messages.to_sentence}"
     if @association.errors.empty?
       render_success(show_response)
     else

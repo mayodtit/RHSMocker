@@ -94,15 +94,19 @@ class User < ActiveRecord::Base
     end
     new_user = super
     new_user.instance_variable_set(:@phone_numbers, phone_numbers)
+    puts "\n\nINITIALIZE - new user phone_numbers: #{new_user.instance_variable_get(:@phone_numbers)}"
     new_user
   end
 
   after_create :assign_phone_numbers
   def assign_phone_numbers
+    puts "\n\nASSIGN_PHONE_NUMBERS - #{@phone_numbers}"
     @phone_numbers && @phone_numbers.each do |phone_type, phone_number|
+      puts "--- #{phone_type} -- #{phone_number}"
       next unless phone_number
       self.send("#{phone_type}=".to_sym, phone_number)
     end
+    puts "\n\nASSIGNED: #{phone}"
     @phone_numbers = nil
   end
 
