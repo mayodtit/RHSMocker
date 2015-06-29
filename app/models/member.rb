@@ -351,7 +351,9 @@ class Member < User
   def queue(options = Hash.new)
     return if role.nil?
 
-    if specialist?
+    if nurse?
+      query = Task.nurse_queue
+    elsif specialist?
       query = Task.specialist_queue
     elsif on_call?
       query = Task.hcc_queue(self)

@@ -10,12 +10,13 @@ class PhoneCallTask < Task
 
   validates :phone_call, presence: true
   validate :one_open_per_phone_call
+  validate :one_claimed_per_owner
 
   before_validation :set_role, on: :create
   before_validation :set_member
 
   def default_queue
-    if (role && for_nurse?) || phone_call.to_nurse? 
+    if (role && for_nurse?) || phone_call.to_nurse?
       :nurse
     else
       :hcc
@@ -70,6 +71,15 @@ class PhoneCallTask < Task
     task = self.class.open.where(phone_call_id: phone_call_id).first
     if task && task.id != id
       errors.add(:phone_call_id, "open PhoneCallTask already exists for #{phone_call_id}")
+    end
+  end
+
+  def one_claimed_per_owner
+    if state == 'claimed'
+      task = Task.find_by_type_and_owner_id_and_state(PhoneCallTask.name, owner_id, 'claimed')
+      if task && task.id != id
+        errors.add(:state, "cannot claim more than one phone call task.")
+      end
     end
   end
 
