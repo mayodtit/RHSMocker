@@ -15,7 +15,7 @@ class PhoneCallTask < Task
   before_validation :set_member
 
   def default_queue
-    if role && for_nurse?
+    if (role && for_nurse?) || phone_call.to_nurse? 
       :nurse
     else
       :hcc
@@ -23,7 +23,7 @@ class PhoneCallTask < Task
   end
 
   def set_role
-    self.role_id = phone_call.to_role_id if role_id.nil?
+    self.role_id = self.role_id = phone_call.to_role_id if role_id.nil?
   end
 
   def set_member
