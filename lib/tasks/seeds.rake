@@ -1097,21 +1097,12 @@ My phone: 650-887-3711
     end
   end
 
-
-  task :backfill_unique_id_service_templates => :environment do
+  task :backfill_unique_id_states_service_templates => :environment do
     ServiceTemplate.all.each do |st|
-      if st.unique_id == nil
-        st.send(:set_unique_id)
-        st.save!
-      end
-    end
-  end
-
-  task :backfill_states_service_templates => :environment do
-    ServiceTemplate.all.each do |st|
-      if st.state == nil
+      if st.state == nil && st.unique_id == nil
         st.state = 'published'
-        st.save!
+        st.send(:set_unique_id)
+        st.save(validate: false)
       end
     end
   end

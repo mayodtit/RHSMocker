@@ -130,6 +130,7 @@ class Member < User
   after_create :add_onboarding_group_programs
   after_save :alert_stakeholders_on_call_status
   after_save :update_referring_scheduled_communications, if: ->(m){m.free_trial_ends_at_changed?}
+  after_commit :create_kinsights_job, on: :create
 
   SIGNED_UP_STATES = %i(free trial premium chamath)
   def self.signed_up
@@ -620,5 +621,11 @@ class Member < User
   def set_delinquent_to_false
     self.delinquent = false
     nil
+  end
+
+  def create_kinsights_job
+    if kinsights_token.present?
+      KinsightsSignupJob.create(id)
+    end
   end
 end

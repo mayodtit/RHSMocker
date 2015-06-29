@@ -1,7 +1,7 @@
 class ServiceTemplateSerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes  :id, :name, :title, :description, :service_type_id, :time_estimate, :due_at, :user_facing, :service_request, :service_update, :version, :unique_id, :state, :state_events
+  attributes  :id, :name, :title, :description, :service_type_id, :time_estimate, :due_at, :user_facing, :service_request, :service_update, :version, :unique_id, :state, :state_events, :created_at
 
   def attributes
     if options[:shallow]

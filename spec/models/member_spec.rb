@@ -960,4 +960,24 @@ describe Member do
       end
     end
   end
+
+  describe '#create_kinsights_job' do
+    context 'member is created with kinsights_token' do
+      let(:member) { build_stubbed(:member, kinsights_token: 1) }
+
+      it 'creates a KinsightsSignupJob' do
+        KinsightsSignupJob.should_receive(:create).with(member.id)
+        member.send(:create_kinsights_job)
+      end
+    end
+
+    context 'member is created without kinsights_token' do
+      let(:member) { build_stubbed(:member) }
+
+      it 'does nothing' do
+        KinsightsSignupJob.should_not_receive(:create).with(member.id)
+        member.send(:create_kinsights_job)
+      end
+    end
+  end
 end
