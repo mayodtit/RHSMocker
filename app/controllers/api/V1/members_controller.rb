@@ -8,6 +8,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
   before_filter :load_onboarding_group!, only: :create
   before_filter :load_enrollment!, only: :create
   before_filter :convert_parameters!, only: [:create, :update, :update_current]
+  before_filter :update_session_queue!, if: :session_valid?
 
   def index
     render_success(users: @members.includes(:pha).serializer(list: true),
@@ -85,6 +86,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
   end
 
   def update
+    update_queue_mode(params[:queue_mode]) if params[:queue_mode]
     if @member.update_attributes(permitted_params(@member).user)
       render_success user: @member.serializer(serializer_options),
                      member: @member.serializer(serializer_options)
@@ -230,6 +232,19 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   def user_params
     params.fetch(:user){params.require(:member)}
+  end
+
+  def update_session_queue!
+    queue_mode = params.fetch(:user)[:queue_mode]
+    if current_user && current_user.care_provider?
+      if queue_mode && (current_session.queue_mode != queue_mode)
+        current_session.update_attributes!(queue_mode: queue_mode)
+      end
+    end
+  end
+
+  def session_valid?
+    (params[:auth_token] && current_session) ? true : false
   end
 
   def serializer_options

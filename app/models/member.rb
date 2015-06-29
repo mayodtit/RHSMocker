@@ -245,6 +245,11 @@ class Member < User
     nurse? || read_attribute(:on_call)
   end
 
+  def queue_mode
+    return unless care_portal_sessions.first
+    care_portal_sessions.first.queue_mode
+  end
+
   def is_premium?
     status?(:trial) || status?(:premium) || status?(:chamath)
   end
@@ -353,12 +358,17 @@ class Member < User
 
     if nurse?
       query = Task.nurse_queue
-    elsif specialist?
-      query = Task.specialist_queue
-    elsif on_call?
-      query = Task.hcc_queue(self)
-    else
-      query = Task.pha_queue(self)
+    elsif queue_mode
+      case queue_mode
+      when 'hcc'
+        query = Task.hcc_queue(self)
+      when 'pha'
+        query = Task.pha_queue(self)
+      when 'specialist'
+        query = Task.specialist_queue
+      else
+        query = Task.pha_queue(self)
+      end
     end
 
     tasks = query.where(role_id: role.id, visible_in_queue: true, unread: false, urgent: false).includes(:member).order(task_order)

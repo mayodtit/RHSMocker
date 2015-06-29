@@ -16,7 +16,7 @@ class MemberSerializer < ActiveModel::Serializer
              :subscription_ends_at,
              :invitation_url, :signed_up_at,
              :status, :status_events, :meet_your_pha_text, :text_phone_number, :time_zone,
-             :cached_notifications_enabled, :due_date
+             :cached_notifications_enabled, :due_date, :queue_mode
 
   has_one :nux_answer
   has_many :phone_numbers
@@ -64,7 +64,7 @@ class MemberSerializer < ActiveModel::Serializer
                             beta?: object.beta?,
                             service_admin?: object.service_admin?)
           attributes.merge!(roles: object.roles.map(&:name))
-          attributes.merge!(on_call?: object.on_call?)
+          attributes.merge!(on_call?: object.on_call?, queue_mode: queue_mode)
         end
 
         if options[:include_health_information]
@@ -98,6 +98,10 @@ class MemberSerializer < ActiveModel::Serializer
 
   def email_read_only
     true
+  end
+
+  def queue_mode
+    object.care_portal_sessions.first.try(:queue_mode)
   end
 
   def sharing_prohibited

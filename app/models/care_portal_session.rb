@@ -8,7 +8,7 @@ class CarePortalSession < Session
   attr_accessible :queue_mode
 
   validates :queue_mode, presence: true
-  validate :member_uniqueness
+  validate :member_uniqueness, on: :create
 
   before_validation :set_defaults, on: :create
   before_validation :destroy_other_sessions, on: :create
