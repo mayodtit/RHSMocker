@@ -369,9 +369,11 @@ class Member < User
       else
         query = Task.pha_queue(self)
       end
+    else
+      query = Task.pha_queue(self)
     end
 
-    tasks = query.where(role_id: role.id, visible_in_queue: true, unread: false, urgent: false).includes(:member).order(task_order)
+    tasks = query.where(visible_in_queue: true, unread: false, urgent: false).includes(:member).order(task_order)
     immediate_tasks = query.where(role_id: role.id, visible_in_queue: true).where('unread IS TRUE OR urgent IS TRUE').includes(:member).order(task_order) if pha?
     tomorrow_count = 0
     future_count = 0

@@ -604,7 +604,7 @@ describe PhoneCall do
           context 'member with phone exists' do
             let(:member) { build(:member) }
             before do
-              Member.stub(:find_by_phone).with(db_phone_number) { member }
+              PhoneNumber.stub_chain(:find_by_number, :phoneable).and_return(member)
             end
 
             it 'creates a PhoneCall' do
@@ -654,7 +654,7 @@ describe PhoneCall do
 
           context 'member with phone does not exist' do
             before do
-              Member.stub(:find_by_phone).with(db_phone_number) { nil }
+              PhoneNumber.stub_chain(:find_by_number, :phoneable).and_return(nil)
             end
 
             it 'creates a PhoneCall without a member' do
@@ -755,7 +755,7 @@ describe PhoneCall do
           context 'member with phone exists' do
             let(:member) { build(:member) }
             before do
-              Member.stub(:find_by_phone).with(db_phone_number) { member }
+              PhoneNumber.stub_chain(:find_by_number, :phoneable).and_return(member)
             end
 
             it 'creates a PhoneCall' do
@@ -805,7 +805,7 @@ describe PhoneCall do
 
           context 'member with phone does not exist' do
             before do
-              Member.stub(:find_by_phone).with(db_phone_number) { nil }
+              PhoneNumber.stub_chain(:find_by_number, :phoneable).and_return(nil)
             end
 
             it 'does nothing' do

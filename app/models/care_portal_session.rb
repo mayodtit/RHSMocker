@@ -37,6 +37,8 @@ class CarePortalSession < Session
       last_mode
     elsif member.try(:specialist?)
       :specialist
+    elsif member.try(:hcc?)
+      :hcc
     else
       :pha
     end
