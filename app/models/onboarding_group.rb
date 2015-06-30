@@ -22,7 +22,8 @@ class OnboardingGroup < ActiveRecord::Base
                   :skip_credit_card, :skip_automated_communications,
                   :skip_emails, :welcome_email_template, :welcome_email_template_id,
                   :welcome_message_template, :welcome_message_template_id,
-                  :header_asset, :header_asset_url
+                  :header_asset, :header_asset_url, :background_asset,
+                  :background_asset_url
 
   validates :name, presence: true
   validates :provider, presence: true, if: ->(o){o.provider_id}
@@ -38,9 +39,14 @@ class OnboardingGroup < ActiveRecord::Base
   before_validation :set_defaults
 
   mount_uploader :header_asset, OnboardingGroupHeaderAssetUploader
+  mount_uploader :background_asset, OnboardingGroupBackgroundAssetUploader
 
   def header_asset_url
     header_asset.url
+  end
+
+  def background_asset_url
+    background_asset.url
   end
 
   def free_trial_ends_at(time=nil)
