@@ -21,7 +21,8 @@ class OnboardingGroup < ActiveRecord::Base
                   :absolute_subscription_ends_at, :subscription_days,
                   :skip_credit_card, :skip_automated_communications,
                   :skip_emails, :welcome_email_template, :welcome_email_template_id,
-                  :welcome_message_template, :welcome_message_template_id
+                  :welcome_message_template, :welcome_message_template_id,
+                  :header_asset, :header_asset_url
 
   validates :name, presence: true
   validates :provider, presence: true, if: ->(o){o.provider_id}
@@ -35,6 +36,12 @@ class OnboardingGroup < ActiveRecord::Base
   validates :skip_emails, inclusion: {in: [true, false]}
 
   before_validation :set_defaults
+
+  mount_uploader :header_asset, OnboardingGroupHeaderAssetUploader
+
+  def header_asset_url
+    header_asset.url
+  end
 
   def free_trial_ends_at(time=nil)
     if !premium?
