@@ -23,7 +23,6 @@ class User < ActiveRecord::Base
   has_one :user_information
   has_many :addresses, inverse_of: :user
   has_many :phone_numbers, as: :phoneable,
-                           inverse_of: :phoneable,
                            dependent: :destroy
   has_many :insurance_policies
   has_one :provider
@@ -86,6 +85,27 @@ class User < ActiveRecord::Base
 
   after_create :add_gravatar
 
+  ## FYI Phone numbers might not be set when using find_or_create_ (http://blog.dalethatcher.com/2008/03/rails-dont-override-initialize-on.html)
+  def initialize(attributes = nil, options = {})
+    phone_numbers = {}
+    if attributes.is_a?(Hash)
+      [:phone, :work_phone_number, :text_phone_number].each do |phone_type|
+        phone_numbers[phone_type] = attributes.delete(phone_type)
+      end
+    end
+    super
+    @phone_numbers = phone_numbers
+  end
+
+  after_create :assign_phone_numbers
+  def assign_phone_numbers
+    @phone_numbers && @phone_numbers.each do |phone_type, phone_number|
+      next unless phone_number
+      self.send("#{phone_type}=".to_sym, phone_number)
+    end
+    @phone_numbers = nil
+  end
+
   def add_gravatar
     if self.avatar_url_override.nil? || self.avatar_url_override.include?('https://secure.gravatar.com/avatar')
       self.avatar_url_override = GravatarChecker.new(email).check_gravatar
@@ -118,7 +138,7 @@ class User < ActiveRecord::Base
       found_phone_number.update_attributes(number: new_prepped_phone)
     elsif found_phone_number.nil? && new_prepped_phone.present?
       new_phone_attrs = PREDEFINED_PHONE_NUMBER_ATTRS[phone_type].merge({number: new_prepped_phone})
-      phone_numbers.build(new_phone_attrs)
+      phone_numbers.create(new_phone_attrs)
     end
   end
 
