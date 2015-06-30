@@ -95,6 +95,5 @@ def object_plural_symbol(object)
 end
 
 def base64_test_image
-  file = Rails.root.join('spec','support','kbcat.jpg')
-  Base64.encode64(open(file) { |io| io.read })
+  Base64.encode64(open(Rails.root.join('spec','support','kbcat.jpg')) { |io| io.read })
 end
