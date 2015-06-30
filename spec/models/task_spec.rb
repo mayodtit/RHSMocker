@@ -648,56 +648,6 @@ describe Task do
     end
   end
 
-  describe 'scopes' do
-    let!(:pha) { create :pha }
-    let!(:other_pha) { create :pha }
-
-    before do
-      Role.any_instance.stub(:on_call?) { true }
-    end
-
-    describe '#owned' do
-      let!(:task_1) { create :member_task, :assigned, owner: pha }
-      let!(:task_5) { create :member_task, :assigned, owner: other_pha }
-      let!(:task_6) { create :member_task, :abandoned }
-
-      it 'returns owned tasks' do
-        tasks = Task.owned(pha)
-        tasks.should be_include(task_1)
-        tasks.should_not be_include(task_5)
-        tasks.should_not be_include(task_6)
-      end
-    end
-
-    describe '#needs_triage' do
-      let!(:task_1) { create :member_task, :assigned, owner: pha }
-      let!(:task_2) { create :member_task }
-      let!(:task_6) { create :member_task, :abandoned }
-
-      it 'returns tasks that are unassigned or assigned inbound tasks' do
-        tasks = Task.needs_triage(pha)
-        tasks.should_not be_include(task_1)
-        tasks.should be_include(task_2)
-        tasks.should_not be_include(task_6)
-      end
-    end
-
-    describe '#needs_triage_or_owned' do
-      let!(:task_1) { create :member_task, :assigned, owner: pha }
-      let!(:task_2) { create :member_task }
-      let!(:task_5) { create :member_task, :assigned, owner: other_pha }
-      let!(:task_6) { create :member_task, :abandoned }
-
-      it 'returns tasks that are unassigned or assigned inbound tasks or owned' do
-        tasks = Task.needs_triage_or_owned(pha)
-        tasks.should be_include(task_1)
-        tasks.should be_include(task_2)
-        tasks.should_not be_include(task_5)
-        tasks.should_not be_include(task_6)
-      end
-    end
-  end
-
   describe 'states' do
     let(:task) { build :task }
     let(:pha) { build_stubbed :pha }
@@ -724,15 +674,7 @@ describe Task do
         task.should be_unclaimed
       end
 
-      it 'sets unclaimed at' do
-        task.unclaimed_at.should be_nil
-        task.owner = pha
-        task.unclaim!
-        task.unclaimed_at.should == Time.now
-      end
-
       it 'sets owner to nil' do
-        task.unclaimed_at.should be_nil
         task.owner = pha
         task.unclaim!
         task.owner_id.should be_nil

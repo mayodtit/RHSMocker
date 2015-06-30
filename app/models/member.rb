@@ -246,8 +246,15 @@ class Member < User
   end
 
   def queue_mode
-    return unless care_portal_sessions.first
-    care_portal_sessions.first.queue_mode
+    if care_portal_sessions.first
+      care_portal_sessions.first.queue_mode
+    elsif nurse?
+      :nurse
+    elsif specialist?
+      :specialist
+    else
+      :pha
+    end
   end
 
   def is_premium?

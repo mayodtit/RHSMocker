@@ -843,7 +843,7 @@ describe Member do
       member
     end
 
-    let(:tasks) { [build_stubbed(:task), build_stubbed(:task)] }
+    let!(:tasks) { [create(:task, queue: :nurse)] }
 
     let(:nurse_role) do
       Role.find_by_name! :nurse
@@ -856,9 +856,9 @@ describe Member do
       end
 
       it 'returns tasks for the current hcp' do
-        Task.should_receive(:owned).with(user) do
+        Task.should_receive(:nurse_queue) do
           o = Object.new
-          o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
+          o.stub(:where).with(visible_in_queue: true, :unread=>false, :urgent=>false) do
             o_o = Object.new
             o_o.stub(:includes).with(:member) do
               o_o_o = Object.new
@@ -870,59 +870,6 @@ describe Member do
           o
         end
         expect(user.queue.first).to eq(tasks)
-      end
-    end
-
-    context 'on call' do
-      before do
-        described_class.any_instance.stub(:on_call?) { true }
-        described_class.any_instance.stub(:task_order){ 'due_at DESC' }
-      end
-
-      context 'metadata says only inbound and unassigned' do
-        before do
-          Metadata.stub(:on_call_queue_only_inbound_and_unassigned?) { true }
-        end
-
-        it 'returns tasks for the current hcp' do
-          Task.should_receive(:needs_triage).with(user) do
-            o_o = Object.new
-            o_o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
-              o_o_o = Object.new
-              o_o_o.stub(:includes).with(:member) do
-                o_o_o_o = Object.new
-                o_o_o_o.stub(:order).with('due_at DESC') { tasks }
-                o_o_o_o
-              end
-              o_o_o
-            end
-            o_o
-          end
-          expect(user.queue).to eq([tasks, 0, 0])
-        end
-      end
-
-      context 'metadata says everything' do
-        before do
-          Metadata.stub(:on_call_queue_only_inbound_and_unassigned?) { false }
-        end
-
-        it 'returns tasks for the current hcp' do
-          Task.should_receive(:needs_triage_or_owned).with(user) do
-            o_o = Object.new
-            o_o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
-              o_o_o = Object.new
-              o_o_o.stub(:includes).with(:member) do
-                o_o_o_o = Object.new
-                o_o_o_o.stub(:order).with('due_at DESC') { tasks }
-                o_o_o_o
-              end
-              o_o_o
-            end
-            o_o
-          end
-          expect(user.queue).to eq([tasks, 0, 0])
-        end
       end
     end
 
