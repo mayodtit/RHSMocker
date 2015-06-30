@@ -1,7 +1,7 @@
 class ServiceTemplateSerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes  :id, :name, :title, :description, :service_type_id, :time_estimate, :due_at, :user_facing, :service_request, :service_update, :version, :unique_id, :state, :state_events, :created_at, :unpublished_version_id
+  attributes  :id, :name, :title, :description, :service_type_id, :time_estimate, :due_at, :user_facing, :service_request, :service_update, :version, :unique_id, :state, :state_events, :created_at, :unpublished_version_id, :timed_service
 
   delegate :unique_id, :published?, to: :object
 
