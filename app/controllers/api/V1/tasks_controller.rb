@@ -56,8 +56,8 @@ class Api::V1::TasksController < Api::V1::ABaseController
       update_params[:assignor_id] = current_user.id
     end
 
-    if update_params[:owner_id].present? && @task.state == 'unclaimed'
-      update_params[:state_event] = "claim"
+    if update_params[:owner_id] && !update_params[:state_event] && @task.state == 'unclaimed'
+      update_params[:state_event] = 'claim'
     end
 
     if ( update_params[:state_event] == 'complete' || update_params[:state_event] == 'abandon' ) && @task.service
