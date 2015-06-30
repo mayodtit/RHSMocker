@@ -85,6 +85,7 @@ class User < ActiveRecord::Base
 
   after_create :add_gravatar
 
+  ## FYI Phone numbers might not be set when using find_or_create_ (http://blog.dalethatcher.com/2008/03/rails-dont-override-initialize-on.html)
   def initialize(attributes = nil, options = {})
     phone_numbers = {}
     if attributes.is_a?(Hash)
@@ -92,9 +93,8 @@ class User < ActiveRecord::Base
         phone_numbers[phone_type] = attributes.delete(phone_type)
       end
     end
-    new_user = super
-    new_user.instance_variable_set(:@phone_numbers, phone_numbers)
-    new_user
+    super
+    @phone_numbers = phone_numbers
   end
 
   after_create :assign_phone_numbers
