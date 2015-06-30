@@ -360,11 +360,11 @@ class Member < User
       query = Task.nurse_queue
     elsif queue_mode
       case queue_mode
-      when 'hcc'
+      when :hcc
         query = Task.hcc_queue(self)
-      when 'pha'
+      when :pha
         query = Task.pha_queue(self)
-      when 'specialist'
+      when :specialist
         query = Task.specialist_queue
       else
         query = Task.pha_queue(self)

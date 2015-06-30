@@ -235,7 +235,7 @@ class Api::V1::MembersController < Api::V1::ABaseController
   end
 
   def update_session_queue!
-    queue_mode = params.fetch(:user)[:queue_mode]
+    queue_mode = params.fetch(:user)[:queue_mode] if params[:user]
     if current_user && current_user.care_provider?
       if queue_mode && (current_session.queue_mode != queue_mode)
         current_session.update_attributes!(queue_mode: queue_mode)
