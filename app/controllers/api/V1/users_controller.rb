@@ -7,7 +7,15 @@ class Api::V1::UsersController < Api::V1::ABaseController
   end
 
   def update
-    update_resource @user, permitted_params(@user).user, serializer_options: serializer_options
+    if @user.update_attributes(permitted_params(@user).user)
+      render_success user: @user.serializer(serializer_options).as_json
+    else
+      if @user.errors[:phone_numbers].any?
+        render_failure({reason: 'Phone number is invalid'}, 422)
+      else
+        render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
+      end
+    end
   end
 
   def invite

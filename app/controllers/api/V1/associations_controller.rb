@@ -31,7 +31,17 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
     if @association.update_attributes(permitted_params.association)
       render_success(update_response)
     else
-      render_failure({reason: @association.errors.full_messages.to_sentence}, 422)
+      if @association.errors["associate.phone_numbers"].any?
+        if @association.try(:association_type).try(:hcp?)
+          render_failure({reason: "Care Team Member's phone number is invalid"}, 422)
+        elsif @association.try(:asscoiation_type).try(:family?)
+          render_failure({reason: "Family Member's phone number is invalid"}, 422)
+        else
+          render_failure({reason: 'Phone number is invalid'}, 422)
+        end
+      else
+        render_failure({reason: @association.errors.full_messages.to_sentence}, 422)
+      end
     end
   end
 
