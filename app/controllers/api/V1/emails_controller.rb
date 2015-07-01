@@ -4,9 +4,9 @@ class Api::V1::EmailsController < Api::V1::ABaseController
 
   def exists
     if @user
-      render_success(exists: true, onboarding_group: onboarding_group)
+      render_success(requires_sign_up: true, onboarding_group: onboarding_group)
     else
-      render_success(exists: false)
+      render_success(requires_sign_up: false)
     end
   end
 
