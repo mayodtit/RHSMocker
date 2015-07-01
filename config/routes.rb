@@ -55,7 +55,7 @@ RHSMocker::Application.routes.draw do
         get :onboarding_calls, on: :collection
       end
       resources :diseases, :only => :index, :controller => :conditions
-      get :emails, to: 'emails#exists'
+      get :email_validations, to: 'email_validations#exists'
       resources :enrollments, only: %i(show create update) do
         get :on_board, on: :collection
       end
