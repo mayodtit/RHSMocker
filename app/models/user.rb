@@ -85,6 +85,7 @@ class User < ActiveRecord::Base
 
   after_create :add_gravatar
 
+  ## FYI Phone numbers might not be set when using find_or_create_ (http://blog.dalethatcher.com/2008/03/rails-dont-override-initialize-on.html)
   def initialize(attributes = nil, options = {})
     phone_numbers = {}
     if attributes.is_a?(Hash)
@@ -92,9 +93,8 @@ class User < ActiveRecord::Base
         phone_numbers[phone_type] = attributes.delete(phone_type)
       end
     end
-    new_user = super
-    new_user.instance_variable_set(:@phone_numbers, phone_numbers)
-    new_user
+    super
+    @phone_numbers = phone_numbers
   end
 
   after_create :assign_phone_numbers
@@ -130,11 +130,13 @@ class User < ActiveRecord::Base
 
     return unless [:phone, :work_phone_number, :text_phone_number].include?(phone_type)
     phone_type_name = "#{phone_type}_obj".to_sym
-    if p = self.send(phone_type_name)
-      if p.number != new_prepped_phone
-        p.update_attributes(number: new_prepped_phone)
-      end
-    else
+    found_phone_number = self.send(phone_type_name)
+
+    if found_phone_number && new_prepped_phone.nil?
+      found_phone_number.destroy
+    elsif found_phone_number && found_phone_number.number != new_prepped_phone
+      found_phone_number.update_attributes(number: new_prepped_phone)
+    elsif found_phone_number.nil? && new_prepped_phone.present?
       new_phone_attrs = PREDEFINED_PHONE_NUMBER_ATTRS[phone_type].merge({number: new_prepped_phone})
       phone_numbers.create(new_phone_attrs)
     end
