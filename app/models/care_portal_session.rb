@@ -13,6 +13,18 @@ class CarePortalSession < Session
   before_validation :set_defaults, on: :create
   before_validation :destroy_other_sessions, on: :create
 
+  def default_queue_mode
+    if member.try(:nurse?)
+      :nurse
+    elsif last_mode = self.class.last_queue_mode(member)
+      last_mode
+    elsif member.try(:specialist?)
+      :specialist
+    else
+      :pha
+    end
+  end
+
   private
 
   def member_uniqueness
@@ -28,18 +40,6 @@ class CarePortalSession < Session
 
   def destroy_other_sessions
     self.class.where(member_id: member_id).destroy_all
-  end
-
-  def default_queue_mode
-    if member.try(:nurse?)
-      :nurse
-    elsif last_mode = self.class.last_queue_mode(member)
-      last_mode
-    elsif member.try(:specialist?)
-      :specialist
-    else
-      :pha
-    end
   end
 
   def self.last_queue_mode(member)
