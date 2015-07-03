@@ -135,6 +135,7 @@ class Ability
     if user.service_admin?
       can :manage, ServiceTemplate
       can :manage, TaskTemplate
+      can :manage, TaskTemplateSet
     end
 
     if user.pha_lead?
