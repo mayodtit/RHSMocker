@@ -2,6 +2,7 @@ class ServiceTemplate < ActiveRecord::Base
   belongs_to :service_type
   has_many :task_templates, dependent: :destroy
   has_many :suggested_service_templates
+  has_many :task_template_sets
 
   attr_accessible :name, :title, :description, :service_type_id,
                   :service_type, :time_estimate, :timed_service,
@@ -20,6 +21,7 @@ class ServiceTemplate < ActiveRecord::Base
   before_validation :set_version, on: :create
 
   after_commit :publish
+  after_commit :create_initial_task_template_set, on: :create
 
   def calculated_due_at(time=Time.now)
     time.business_minutes_from(time_estimate.to_i)
@@ -94,5 +96,9 @@ class ServiceTemplate < ActiveRecord::Base
         errors.add(attribute, "shouldn't contain any brackets other than markdown")
       end
     end
+  end
+
+  def create_initial_task_template_set
+    TaskTemplateSet.create!(service_template_id: self.id)
   end
 end

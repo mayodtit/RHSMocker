@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150630174518) do
+ActiveRecord::Schema.define(:version => 20150703000120) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1209,17 +1209,26 @@ ActiveRecord::Schema.define(:version => 20150630174518) do
 
   add_index "task_requirements", ["task_requirement_template_id"], :name => "index_task_requirements_on_task_requirement_template_id"
 
+  create_table "task_template_sets", :force => true do |t|
+    t.boolean  "result"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+    t.integer  "service_template_id"
+    t.integer  "parent_id"
+  end
+
   create_table "task_templates", :force => true do |t|
-    t.string   "name",                :null => false
-    t.string   "title",               :null => false
+    t.string   "name",                 :null => false
+    t.string   "title",                :null => false
     t.text     "description"
     t.integer  "time_estimate"
     t.integer  "service_ordinal"
     t.integer  "service_template_id"
-    t.datetime "created_at",          :null => false
-    t.datetime "updated_at",          :null => false
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
     t.integer  "priority"
     t.integer  "modal_template_id"
+    t.integer  "task_template_set_id"
   end
 
   add_index "task_templates", ["service_template_id"], :name => "index_task_templates_on_service_template_id"
