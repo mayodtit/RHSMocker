@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150625042702) do
+ActiveRecord::Schema.define(:version => 20150705163558) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1337,7 +1337,7 @@ ActiveRecord::Schema.define(:version => 20150625042702) do
     t.string   "type"
     t.integer  "parsed_nurseline_record_id"
     t.integer  "service_type_id"
-    t.integer  "priority",                   :default => 0,     :null => false
+    t.integer  "priority"
     t.integer  "service_id"
     t.integer  "service_ordinal"
     t.integer  "task_template_id"
