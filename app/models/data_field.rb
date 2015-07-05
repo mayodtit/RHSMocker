@@ -13,7 +13,7 @@ class DataField < ActiveRecord::Base
                   :data_field_template_id, :data, :actor
 
   validates :service, :data_field_template, presence: true
-  validates :data_field_template_id, uniqueness: :service_id
+  validates :data_field_template_id, uniqueness: {scope: :service_id}
 
   after_update :track_changes!
 
