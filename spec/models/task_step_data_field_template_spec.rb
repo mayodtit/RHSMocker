@@ -8,10 +8,6 @@ describe TaskStepDataFieldTemplate do
   it_validates 'inclusion of', :required_for_task_step_completion
 
   describe 'ordinal validations' do
-    before do
-      described_class.any_instance.stub(:set_defaults)
-    end
-
     it_validates 'presence of', :ordinal
     it_validates 'uniqueness of', :ordinal, :task_step_template_id
     it_validates 'numericality of', :ordinal
