@@ -1,7 +1,4 @@
 class Task < ActiveRecord::Base
-  PRIORITY = 0
-  URGENT_PRIORITY = 12
-
   belongs_to :member
   belongs_to :subject, class_name: 'User'
   belongs_to :role, class_name: 'Role'
@@ -128,20 +125,6 @@ class Task < ActiveRecord::Base
     true
   end
 
-  def notify
-    return unless for_pha?
-
-    if owner_id_changed? || id_changed?
-      if unassigned?
-        Role.pha.users.where(on_call: true).each do |m|
-          UserMailer.delay.notify_of_unassigned_task self, m
-        end
-      elsif assignor_id != owner_id
-        UserMailer.delay.notify_of_assigned_task self, owner
-      end
-    end
-  end
-
   def unassigned?
     owner_id.nil?
   end
@@ -246,7 +229,7 @@ class Task < ActiveRecord::Base
   def one_claimed_per_owner
     if state == 'claimed'
       task = Task.find_by_owner_id_and_state(owner_id, 'claimed')
-      if task && task.id != id
+      if task.try(:id).try(:!=, id)
         errors.add(:state, "cannot claim more than one task.")
       end
     end
@@ -288,7 +271,21 @@ class Task < ActiveRecord::Base
     end
   end
 
-  private
+  def notify
+    return unless for_pha?
+
+    if owner_id_changed? || id_changed?
+      if unassigned?
+        Role.pha.users.where(on_call: true).each do |m|
+          UserMailer.delay.notify_of_unassigned_task self, m
+        end
+      elsif assignor_id != owner_id
+        UserMailer.delay.notify_of_assigned_task self, owner
+      end
+    end
+  end
+
+  protected
 
   def set_defaults
     self.title ||= task_template.try(:title)
@@ -302,22 +299,12 @@ class Task < ActiveRecord::Base
     self.owner ||= service.try(:owner)
     self.assignor ||= owner
     self.role ||= Role.find_by_name(:pha)
-    self.priority = calculated_priority
-    self.service_ordinal = calculated_service_ordinal
+    self.priority ||= task_template.try(:priority) || 0
+    self.service_ordinal ||= task_template.try(:service_ordinal) || service_ordinal_for_one_off
     true
   end
 
-  def calculated_priority
-    if urgent?
-      URGENT_PRIORITY
-    else
-      priority || task_template.try(:priority) || PRIORITY
-    end
-  end
-
-  def calculated_service_ordinal
-    task_template.try(:service_ordinal) || service_ordinal_for_one_off
-  end
+  private
 
   def service_ordinal_for_one_off
     if service

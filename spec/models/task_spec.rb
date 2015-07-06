@@ -24,7 +24,7 @@ describe Task do
     it_validates 'foreign key of', :member
 
     describe '#service' do
-      let(:task) { build_stubbed :task }
+      let(:task) { build :task }
 
       context 'service id exists' do
         before do
@@ -44,7 +44,7 @@ describe Task do
           task.role = build_stubbed :role
         end
 
-        it 'doesn\'t validate presence' do
+        it "doesn't validate presence" do
           task.stub(:service) { nil }
           task.should be_valid
         end
@@ -52,7 +52,7 @@ describe Task do
     end
 
     describe '#service_ordinal' do
-      let(:task) { build_stubbed :task }
+      let(:task) { build :task }
 
       context 'service id exists' do
         before do
@@ -72,7 +72,7 @@ describe Task do
           task.role = build_stubbed :role
         end
 
-        it 'doesn\'t validate presence' do
+        it "doesn't validate presence" do
           task.service_ordinal = 1
           task.should be_valid
         end
@@ -80,25 +80,23 @@ describe Task do
     end
 
     describe '#one_claimed_per_owner' do
-      let(:claimed_task) { build_stubbed :task, :claimed }
+      let!(:claimed_task) { create :task, :claimed }
 
       context 'task is claimed' do
         let(:task) { build :task, :claimed }
 
+        it 'passes if no other claimed task exists for the owner' do
+          task.should be_valid
+        end
+
         it 'fails if another claimed task exists for the owner' do
-          Task.stub(:find_by_owner_id_and_state).with(task.owner_id, 'claimed') { claimed_task }
+          task.owner = claimed_task.owner
           task.should_not be_valid
         end
 
-        it 'passes if no other claimed task exists for the owner' do
-          Task.stub(:find_by_owner_id_and_state).with(task.owner_id, 'claimed') { nil }
-          task.should be_valid
-        end
-
         it 'passes if the other claimed task is this task' do
-          task = build_stubbed :task, :claimed, role_id: @pha_id
-          Task.stub(:find_by_owner_id_and_state).with(task.owner_id, 'claimed') { task }
-          task.should be_valid
+          claimed_task.owner = claimed_task.owner
+          expect(claimed_task).to be_valid
         end
       end
 
@@ -259,60 +257,6 @@ describe Task do
       open_tasks.should be_include(claimed_task)
       open_tasks.should_not be_include(completed_task)
       open_tasks.should_not be_include(abandoned_task)
-    end
-  end
-
-  describe '#set_role' do
-    let(:task) { build :task }
-
-    context 'role_id is nil' do
-      it 'sets it to pha' do
-        task.set_role
-        task.role_id.should == @pha_id
-      end
-    end
-
-    context' role_id is present' do
-      before do
-        task.stub(:role_id) { 2 }
-      end
-
-      it 'does nothing' do
-        task.should_not_receive(:role_id=)
-        task.set_role
-      end
-    end
-  end
-
-  describe '#set_priority' do
-    let(:task) { build :task }
-
-    it 'sets it to zero' do
-      task.set_priority
-      task.priority.should == 0
-    end
-  end
-
-  describe '#set_ordinal' do
-    context 'the service has existing tasks' do
-      let!(:service) { create :service}
-      let!(:service_task) {create :task, service: service, service_ordinal: 1}
-      let(:task) { build :task, service: service }
-
-      it 'sets it to zero' do
-        task.set_ordinal
-        task.service_ordinal.should == 1
-      end
-    end
-
-    context 'the service has no tasks' do
-      let!(:empty_service) { create :service}
-      let(:task) { build :task, service: empty_service }
-
-      it 'sets it to zero' do
-        task.set_ordinal
-        task.service_ordinal.should == 0
-      end
     end
   end
 
