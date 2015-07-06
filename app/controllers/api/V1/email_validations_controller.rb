@@ -1,12 +1,12 @@
-class Api::V1::EmailsController < Api::V1::ABaseController
+class Api::V1::EmailValidationsController < Api::V1::ABaseController
   skip_before_filter :authentication_check
   before_filter :load_user_from_email
 
   def exists
     if @user
-      render_success(requires_sign_up: true, onboarding_group: onboarding_group)
+      render_success(requires_sign_up: false, onboarding_group: onboarding_group)
     else
-      render_success(requires_sign_up: false)
+      render_success(requires_sign_up: true)
     end
   end
 
