@@ -1,15 +1,14 @@
 class ServiceBlockedTask < Task
-  PRIORITY = 100
-
   validates :service, presence: true
 
   after_save :unlock_service!, if: :completed?
 
-  def set_priority
-    self.priority = PRIORITY
-  end
-
   private
+
+  def set_defaults
+    self.priority ||= 100
+    super
+  end
 
   def unlock_service!
     service.reopen!

@@ -1,6 +1,5 @@
 class ParsedNurselineRecordTask < Task
   include ActiveModel::ForbiddenAttributesProtection
-  PRIORITY = 8
 
   belongs_to :parsed_nurseline_record
 
@@ -8,7 +7,9 @@ class ParsedNurselineRecordTask < Task
 
   validates :parsed_nurseline_record, presence: true
 
-  def set_priority
-    self.priority = PRIORITY
+  private
+
+  def set_defaults
+    self.priority ||= 8
   end
 end

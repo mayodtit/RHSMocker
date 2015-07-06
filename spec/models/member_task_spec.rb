@@ -10,7 +10,7 @@ describe MemberTask do
   end
   describe '#publish' do
     let(:task) { build(:member_task) }
-    
+
     context 'new record' do
       before do
         task.stub(:id) { 2 }
@@ -34,8 +34,9 @@ describe MemberTask do
       end
 
       let!(:member_task) { create(:member_task) }
+
       it 'has default priority of 3' do
-        member_task[:priority].should == 3
+        member_task.priority.should == 3
       end
     end
 

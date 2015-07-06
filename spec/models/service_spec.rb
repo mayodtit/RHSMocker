@@ -176,9 +176,8 @@ describe Service do
         let!(:another_task_template) {create :task_template, service_template: service_template, service_ordinal: 1}
 
         it 'should create tasks with that ordinal starting at the due date' do
-          Task.should_receive(:create!).with(hash_including(service_ordinal: 0))
-          Task.should_not_receive(:create!).with(hash_including(service_ordinal: 1, due_at: (1.day.from_now + task_template.time_estimate)))
-          service.reload.create_next_ordinal_tasks(-1, 1.day.from_now)
+          expect{ service.reload.create_next_ordinal_tasks(-1, 1.day.from_now) }.to change(Task, :count).by(1)
+          expect(service.tasks.last.due_at).to eq(task_template.calculated_due_at(1.day.from_now + task_template.time_estimate))
         end
       end
 
@@ -189,9 +188,8 @@ describe Service do
         let!(:another_task_template) {create :task_template, service_template: service_template, service_ordinal: 1}
 
         it 'should create tasks with that ordinal starting now' do
-          Task.should_receive(:create!).with(hash_including(service_ordinal: 0))
-          Task.should_not_receive(:create!).with(hash_including(service_ordinal: 1, due_at: (Time.now + task_template.time_estimate)))
-          service.reload.create_next_ordinal_tasks(-1 , 1.day.from_now)
+          expect{ service.reload.create_next_ordinal_tasks(-1, 1.day.from_now) }.to change(Task, :count).by(1)
+          expect(service.tasks.last.due_at).to eq(task_template.calculated_due_at(Time.now + task_template.time_estimate))
         end
       end
     end
@@ -203,8 +201,7 @@ describe Service do
       let!(:another_task_template) {create :task_template, service_template: service_template, service_ordinal: 1}
 
       it 'should not create any tasks' do
-        Task.should_not_receive(:create!)
-        service.create_next_ordinal_tasks(3)
+        expect{ service.create_next_ordinal_tasks(3) }.to_not change(Task, :count)
       end
     end
   end
