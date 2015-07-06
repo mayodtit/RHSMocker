@@ -10,18 +10,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
     if @user.update_attributes(permitted_params(@user).user)
       render_success user: @user.serializer(serializer_options).as_json
     else
-      if @user.errors[:phone_numbers].any?
-        @association = current_user.associations.find_by_associate_id(@user.id)
-        if @association.try(:association_type).try(:hcp?)
-          render_failure({reason: "Care Team Member's phone number is invalid"}, 422)
-        elsif @association.try(:association_type).try(:family?)
-          render_failure({reason: "Family Member's phone number is invalid"}, 422)
-        else
-          render_failure({reason: 'Phone number is invalid'}, 422)
-        end
-      else
-        render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
-      end
+      render_failure({reason: error_reason_string}, 422)
     end
   end
 
@@ -62,5 +51,19 @@ class Api::V1::UsersController < Api::V1::ABaseController
     {}.tap do |options|
       options.merge!(include_nested_information: true) if current_user.care_provider?
     end
+  end
+
+  def error_reason_string
+    if @user.errors[:phone_numbers].any?
+      @association = current_user.associations.find_by_associate_id(@user.id)
+      if @association.try(:association_type).try(:hcp?)
+        return "Care Team Member's phone number is invalid"
+      elsif @association.try(:association_type).try(:family?)
+        return "Family Member's phone number is invalid"
+      else
+        return "Phone number is invalid"
+      end
+    end
+    @user.errors.full_messages.to_sentence
   end
 end
