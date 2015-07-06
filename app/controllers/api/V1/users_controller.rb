@@ -11,7 +11,14 @@ class Api::V1::UsersController < Api::V1::ABaseController
       render_success user: @user.serializer(serializer_options).as_json
     else
       if @user.errors[:phone_numbers].any?
-        render_failure({reason: 'Phone number is invalid'}, 422)
+        @association = current_user.associations.find_by_associate_id(@user.id)
+        if @association.try(:association_type).try(:hcp?)
+          render_failure({reason: "Care Team Member's phone number is invalid"}, 422)
+        elsif @association.try(:association_type).try(:family?)
+          render_failure({reason: "Family Member's phone number is invalid"}, 422)
+        else
+          render_failure({reason: 'Phone number is invalid'}, 422)
+        end
       else
         render_failure({reason: @user.errors.full_messages.to_sentence}, 422)
       end
