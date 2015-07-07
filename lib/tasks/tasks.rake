@@ -150,3 +150,37 @@ namespace :tasks do
     end
   end
 end
+
+  desc "Backfill unstarted/started tasks to unclaimed/claimed"
+  task :backfill_tasks_from_unstarted_started_to_claimed_unclaimed => :environment do
+    puts "Updating unstarted tasks without a member to unclaimed tasks\n:"
+    Task.where(state: :unstarted, owner_id: nil).find_each do |t|
+      begin
+        t.update_attribute(:state, :unclaime)
+        print '.'
+      rescue
+        puts "Error with message: #{message.id}\n"
+      end
+    end
+
+    puts "Updating unstarted tasks without a member to claiemd tasks \n:"
+    Task.where(state: :unstarted).where('owner_id IS NOT NULL').find_each do |t|
+      begin
+        t.update_attribute(:state, :claimed)
+        print '.'
+      rescue
+        puts "Error with message: #{message.id}\n"
+      end
+    end
+
+    puts "Updating started tasks to claimed tasks \n:"
+    Task.where(state: :started).find_each do |t|
+      begin
+        t.update_attribute(:state, :claimed)
+        print '.'
+      rescue
+        puts "Error with message: #{message.id}\n"
+      end
+    end
+  end
+end
