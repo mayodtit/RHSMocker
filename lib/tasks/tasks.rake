@@ -149,7 +149,6 @@ namespace :tasks do
       end
     end
   end
-end
 
   desc "Backfill unstarted/started tasks to unclaimed/claimed"
   task :backfill_tasks_from_unstarted_started_to_claimed_unclaimed => :environment do
