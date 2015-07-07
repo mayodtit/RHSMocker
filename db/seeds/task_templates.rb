@@ -1817,7 +1817,7 @@ eof
 
 INSURANCE_CALL_SEND_MEMBER_UPDATE = <<-eof
 1. Review Service Update in Internal Service Notes
-2. Compose call notes into Service Deliverable in Drafts for User-Facing Update
+2. Compose user-facing call notes in Service Deliverable Draft
 3. Copy and paste Service Deliverable Draft into User-Facing Service Deliverable
 4. Send message to member, and attach correct Service to message:
 
