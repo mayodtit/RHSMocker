@@ -1805,7 +1805,7 @@ TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 12"},
                                 time_estimate: 10080,
                                 service_ordinal: 12})
 #INSURANCE Call
-INSURACNE_CALL_MAKE_CALL = <<-eof
+INSURANCE_CALL_MAKE_CALL = <<-eof
 **This task is assigned to Specialist**
 
 1. Call insurance company
@@ -1833,7 +1833,7 @@ eof
 TaskTemplate.upsert_attributes({name: "insurance call - make call"},
                                {service_template: ServiceTemplate.find_by_name('Insurance Call'),
                                 title: "Call - insurance",
-                                description: INSURACNE_CALL_MAKE_CALL,
+                                description: INSURANCE_CALL_MAKE_CALL,
                                 time_estimate: 60,
                                 service_ordinal: 0})
 TaskTemplate.upsert_attributes({name: "insurance call - send member update"},
