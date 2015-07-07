@@ -1804,3 +1804,41 @@ TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 12"},
                                 description: KINSIGHTS_CHECKINS_CHECK_IN,
                                 time_estimate: 10080,
                                 service_ordinal: 12})
+#INSURANCE Call
+INSURACNE_CALL_MAKE_CALL = <<-eof
+**This task is assigned to Specialist**
+
+1. Call insurance company
+2. Record call notes in Specialist Notes
+3. Add Service Update in Internal Service Notes
+4. Create follow-up tasks if necessary
+5. Complete Task
+eof
+
+INSURANCE_CALL_SEND_MEMBER_UPDATE = <<-eof
+1. Review Service Update in Internal Service Notes
+2. Compose call notes into Service Deliverable in Drafts for User-Facing Update
+3. Copy and paste Service Deliverable Draft into User-Facing Service Deliverable
+4. Send message to member, and attach correct Service to message:
+
+    >  We spoke with {insurance company} about your questions and we’ve organized the notes for you to review.
+
+    > {Copy and paste Service Deliverable Draft here}
+
+    > Let us know if you have any questions!
+
+5. Complete Task
+eof
+
+TaskTemplate.upsert_attributes({name: "insurance call - make call"},
+                               {service_template: ServiceTemplate.find_by_name('Insurance Call'),
+                                title: "Call - insurance",
+                                description: INSURACNE_CALL_MAKE_CALL,
+                                time_estimate: 60,
+                                service_ordinal: 0})
+TaskTemplate.upsert_attributes({name: "insurance call - send member update"},
+                               {service_template: ServiceTemplate.find_by_name('Insurance Call'),
+                                title: "Send member update - call notes",
+                                description: INSURANCE_CALL_SEND_MEMBER_UPDATE,
+                                time_estimate: 60,
+                                service_ordinal: 1})
