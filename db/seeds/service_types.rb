@@ -127,6 +127,7 @@ ServiceType.find_or_create_by_name(name: 'other', bucket: 'other')
 
 # Insurance --
 ServiceType.find_or_create_by_name(name: 'insurance review', bucket: 'insurance')
+ServiceType.find_or_create_by_name(name: 'insurance call', bucket: 'insurance')
 ServiceType.find_or_create_by_name(name: 'claims', bucket: 'insurance')
 ServiceType.upsert_attributes!({name: 'medical bill investigation'}, {bucket: 'insurance', description_template: MEDICAL_BILL_INVESTIGATION_DESCRIPTION_TEMPLATE})
 ServiceType.find_or_create_by_name(name: 'cost estimation', bucket: 'insurance')
