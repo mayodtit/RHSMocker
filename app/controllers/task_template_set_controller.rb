@@ -1,6 +1,6 @@
 class TaskTemplateSetController < ApplicationController
-  before_filter :load_task_template!, only: %i(show update destroy)
-  before_filter :load_task_templates!, only: %i(index create)
+  before_filter :load_task_template_set!, only: %i(show update destroy)
+  before_filter :load_task_template_sets!, only: %i(index create)
   before_filter :load_user!
 
   def index
