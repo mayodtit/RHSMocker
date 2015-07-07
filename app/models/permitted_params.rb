@@ -123,6 +123,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:task_template).permit(:name, :title, :service_template, :service_template_id, :description, :time_estimate, :service_ordinal, :modal_template_id)
   end
 
+  def task_template_set
+    params.require(:task_template_set).permit(:result, :service_template_id, :parent_id, :affirmative_child_id, :negative_child_id)
+  end
+
   def feature_flag
     params.require(:feature_flag).permit(:enabled)
   end
