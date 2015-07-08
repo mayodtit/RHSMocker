@@ -10,7 +10,6 @@ class TaskTemplate < ActiveRecord::Base
   before_validation :copy_title_to_name
   validates :name, :title, presence: true
   validate :no_placeholders_in_user_facing_attributes
-  after_commit :create_task_template_set, on: :create
 
   def create_task!(attributes = {})
     creator = attributes[:service] ? attributes[:service].creator : attributes[:creator]
@@ -50,12 +49,6 @@ class TaskTemplate < ActiveRecord::Base
       if send(attribute).try(:match, RegularExpressions.brackets)
         errors.add(attribute, "shouldn't contain any brackets other than markdown")
       end
-    end
-  end
-
-  def create_task_template_set
-    if self.task_template_set.nil?
-      self.task_template_set = TaskTemplateSet.create!(service_template_id: self.service_template.id)
     end
   end
 end
