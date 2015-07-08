@@ -147,9 +147,7 @@ class Task < ActiveRecord::Base
   end
 
   def set_queue
-    if queue.nil?
-      self.queue = try(:default_queue)
-    end
+    self.queue ||= default_queue
   end
 
   def mark_as_unread
@@ -196,10 +194,6 @@ class Task < ActiveRecord::Base
     end
   end
 
-  def escalate
-    #escalate method goes here
-  end
-
   def initial_state
     if owner_id.present?
       self.claimed_at = Time.now
@@ -212,7 +206,7 @@ class Task < ActiveRecord::Base
 
 
   state_machine initial: -> (t){t.initial_state} do
-    store_audit_trail to: 'TaskChange', context_to_log: [:actor_id, :data, :reason]
+    store_audit_trail to: 'TaskChange', context_to_log: %i(:actor_id, :data, :reason)
 
     event :unclaim do
       transition any => :unclaimed
@@ -239,32 +233,32 @@ class Task < ActiveRecord::Base
     end
 
     event :unblock do
-      transition [:blocked_internal, :blocked_external] => :unclaimed
+      transition %i(blocked_internal blocked_external) => :unclaimed
     end
 
-    before_transition any - [:unclaimed] => :unclaimed do |task|
+    before_transition any - :unclaimed => :unclaimed do |task|
       task.owner_id = nil
       task.unclaimed_at = Time.now
     end
 
-    before_transition any - [:blocked_internal] => :blocked_internal do |task|
+    before_transition any - :blocked_internal => :blocked_internal do |task|
       task.blocked_internal_at = Time.now
     end
 
-    before_transition any - [:blocked_external] => :blocked_external do |task|
+    before_transition any - :blocked_external => :blocked_external do |task|
       task.blocked_external_at = Time.now
     end
 
-    before_transition [:blocked_external, :blocked_internal] => :unclaimed do |task|
+    before_transition %i(blocked_internal blocked_external) => :unclaimed do |task|
       task.unblocked_at = Time.now
     end
 
-    before_transition any - [:claimed] => :claimed do |task|
+    before_transition any - :claimed => :claimed do |task|
       task.unread = false
       task.claimed_at = Time.now
     end
 
-    before_transition any - [:completed] => :completed do |task|
+    before_transition any - :completed => :completed do |task|
       task.completed_at = Time.now
     end
 

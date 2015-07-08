@@ -354,31 +354,25 @@ class Member < User
     end
   end
 
-  def smackdown!
-    downgrade!
-    mt = MessageTemplate.find_by_name 'TOS Violation'
-    mt.create_message(Member.robot, master_consult, false, true, true) if mt
-  end
-
   def queue(options = Hash.new)
     return if role.nil?
 
-    if nurse?
-      query = Task.nurse_queue
-    elsif queue_mode
-      case queue_mode
-      when :hcc
-        query = Task.hcc_queue(self)
-      when :pha
-        query = Task.pha_queue(self)
-      when :specialist
-        query = Task.specialist_queue
-      else
-        query = Task.pha_queue(self)
-      end
-    else
-      query = Task.pha_queue(self)
-    end
+    query = if nurse?
+              Task.nurse_queue
+            elsif queue_mode
+              case queue_mode
+              when :hcc
+                Task.hcc_queue(self)
+              when :pha
+                Task.pha_queue(self)
+              when :specialist
+                Task.specialist_queue
+              else
+                Task.pha_queue(self)
+              end
+            else
+              Task.pha_queue(self)
+            end
 
     tasks = query.where(visible_in_queue: true, unread: false, urgent: false).includes(:member).order(task_order)
     immediate_tasks = query.where(role_id: role.id, visible_in_queue: true).where('unread IS TRUE OR urgent IS TRUE').includes(:member).order(task_order) if pha?

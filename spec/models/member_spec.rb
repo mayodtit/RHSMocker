@@ -813,29 +813,6 @@ describe Member do
     end
   end
 
-  describe '#smackdown!' do
-    let(:member) { build :member }
-    let(:consult) { build :consult }
-    let(:message_template) { build :message_template }
-
-    before do
-      MessageTemplate.stub(:find_by_name).with('TOS Violation') { message_template }
-      message_template.stub :create_message
-      member.stub(:master_consult) { consult }
-      member.stub :downgrade!
-    end
-
-    it 'downgrades the user' do
-      member.should_receive :downgrade!
-      member.smackdown!
-    end
-
-    it 'creates the user' do
-      message_template.should_receive(:create_message).with(Member.robot, consult, false, true, true)
-      member.smackdown!
-    end
-  end
-
   describe '#queue' do
     let(:user) do
       member = build_stubbed :member

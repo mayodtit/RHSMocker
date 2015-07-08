@@ -13,6 +13,11 @@ class CarePortalSession < Session
   before_validation :set_defaults, on: :create
   before_validation :destroy_other_sessions, on: :create
 
+  def self.last_queue_mode(member)
+    return nil unless member
+    unscoped.where(member_id: member.id).last.try(:queue_mode)
+  end
+
   def default_queue_mode
     if member.try(:nurse?)
       :nurse
@@ -40,10 +45,5 @@ class CarePortalSession < Session
 
   def destroy_other_sessions
     self.class.where(member_id: member_id).destroy_all
-  end
-
-  def self.last_queue_mode(member)
-    return nil unless member
-    unscoped.where(member_id: member.id).last.try(:queue_mode)
   end
 end

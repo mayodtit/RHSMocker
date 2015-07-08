@@ -24,7 +24,7 @@ class PhoneCallTask < Task
   end
 
   def set_role
-    self.role_id = self.role_id = phone_call.to_role_id if role_id.nil?
+    self.role_id = phone_call.to_role_id if role_id.nil?
   end
 
   def set_member

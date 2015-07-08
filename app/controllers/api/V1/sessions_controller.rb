@@ -31,11 +31,7 @@ class Api::V1::SessionsController < Api::V1::ABaseController
   end
 
   def load_sessions!
-    if params[:care_portal]
-      @sessions = @user.care_portal_sessions
-    else
-      @sessions = @user.sessions
-    end
+    @sessions = params[:care_portal] ? @user.care_portal_sessions : @user.sessions
   end
 
   def email

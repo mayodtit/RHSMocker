@@ -86,7 +86,6 @@ class Api::V1::MembersController < Api::V1::ABaseController
   end
 
   def update
-    update_queue_mode(params[:queue_mode]) if params[:queue_mode]
     if @member.update_attributes(permitted_params(@member).user)
       render_success user: @member.serializer(serializer_options),
                      member: @member.serializer(serializer_options)
