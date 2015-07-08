@@ -120,7 +120,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def task_template
-    params.require(:task_template).permit(:name, :title, :service_template, :service_template_id, :description, :time_estimate, :service_ordinal, :modal_template_id)
+    params.require(:task_template).permit(:name, :title, :service_template, :service_template_id, :description, :time_estimate, :service_ordinal, :modal_template_id, :task_template_set_id)
   end
 
   def task_template_set
