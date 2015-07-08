@@ -206,7 +206,7 @@ class Task < ActiveRecord::Base
 
 
   state_machine initial: -> (t){t.initial_state} do
-    store_audit_trail to: 'TaskChange', context_to_log: %i(:actor_id, :data, :reason)
+    store_audit_trail to: 'TaskChange', context_to_log: [:actor_id, :data, :reason]
 
     event :unclaim do
       transition any => :unclaimed
