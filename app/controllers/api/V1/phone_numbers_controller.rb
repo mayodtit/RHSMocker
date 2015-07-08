@@ -29,12 +29,9 @@ class Api::V1::PhoneNumbersController < Api::V1::ABaseController
   private
 
   def load_owner!
-    puts "PhoneNumbersController#load_owner! - params: #{params}"
     if params[:user_id]
-      puts "Looking up User ID: #{params[:user_id]}"
       @owner = User.find(params[:user_id])
     end
-    puts "PHONE NUMBERS: #{@owner.phone_numbers}"
     authorize! :manage, @owner
   end
 
