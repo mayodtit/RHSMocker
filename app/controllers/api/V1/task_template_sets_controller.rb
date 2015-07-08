@@ -1,4 +1,4 @@
-class TaskTemplateSetController < ApplicationController
+class Api::V1::TaskTemplateSetsController < Api::V1::ABaseController
   before_filter :load_task_template_set!, only: %i(show update destroy)
   before_filter :load_task_template_sets!, only: %i(index create)
   before_filter :load_user!
@@ -30,7 +30,7 @@ class TaskTemplateSetController < ApplicationController
     authorize! :manage, @task_template_set
   end
 
-  def load_task_templates!
+  def load_task_template_sets!
     @task_template_sets = TaskTemplateSet.where(params.permit(:service_template_id))
   end
 end

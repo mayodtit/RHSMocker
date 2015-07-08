@@ -207,6 +207,7 @@ RHSMocker::Application.routes.draw do
       end
       resources :service_templates, only: %i(index create show update destroy)
       resources :task_templates, only: %i(index create show update destroy)
+      resources :task_template_sets, only: %i(index create show update destroy)
       resources :domains, only: :index do
         get :all_domains, on: :collection
         get :submit, on: :collection
