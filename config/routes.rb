@@ -55,9 +55,11 @@ RHSMocker::Application.routes.draw do
         get :onboarding_calls, on: :collection
       end
       resources :diseases, :only => :index, :controller => :conditions
+      get :email_validations, to: 'email_validations#exists'
       resources :enrollments, only: %i(show create update) do
         get :on_board, on: :collection
       end
+      resources :feature_flags, only: [:index, :update, :show]
       resources :ethnic_groups, :only => :index
       get 'factors/:symptom_id', to: 'factor_groups#index' # TODO - deprecated!
       resources :locations, :only => :create
@@ -163,6 +165,7 @@ RHSMocker::Application.routes.draw do
           delete :destroy, :on => :collection
           put :update, :on => :collection
         end
+        resources :suggested_services, only: %i(index show)
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
           resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
@@ -202,8 +205,8 @@ RHSMocker::Application.routes.draw do
       resources :service_types, only: [:index] do
         get :buckets, on: :collection
       end
-      resources :service_templates, only: [:index, :create, :show]
-      resources :task_templates, only: [:show, :create]
+      resources :service_templates, only: %i(index create show update destroy)
+      resources :task_templates, only: %i(index create show update destroy)
       resources :domains, only: :index do
         get :all_domains, on: :collection
         get :submit, on: :collection

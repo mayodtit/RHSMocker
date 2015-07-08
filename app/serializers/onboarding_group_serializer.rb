@@ -7,9 +7,30 @@ class OnboardingGroupSerializer < ActiveModel::Serializer
              :subscription_days, :absolute_subscription_ends_at,
              :skip_credit_card, :skip_emails
 
+  delegate :id, :name, :header_asset_url, :background_asset_url, to: :object
+
+  def attributes
+    if for_onboarding?
+      {
+        id: id,
+        name: name,
+        header_asset_url: header_asset_url,
+        background_asset_url: background_asset_url
+      }
+    else
+      super
+    end
+  end
+
   def provider
     return nil unless object.provider
     object.provider.as_json(only: :full_name,
                             methods: :full_name)
+  end
+
+  private
+
+  def for_onboarding?
+    options[:for_onboarding]
   end
 end

@@ -651,7 +651,14 @@ describe Member do
         end
 
         context 'phas are on call' do
-          let(:stakeholders) { [build_stubbed(:member), build_stubbed(:pha_lead, work_phone_number: '1111111111'), build_stubbed(:pha_lead, work_phone_number: '4083913578')] }
+          let(:stakeholders) do
+            member = create(:member)
+            pha_lead = create(:pha_lead)
+            pha_lead.work_phone_number = '1111111111'
+            pha_lead2 = create(:pha_lead)
+            pha_lead2.work_phone_number = '4083913578'
+            [member, pha_lead, pha_lead2]
+          end
 
           before do
             Role.stub_chain(:pha, :on_call?) { true }

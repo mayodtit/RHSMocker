@@ -43,7 +43,11 @@ describe WelcomeCallTask do
   end
 
   describe '#set_priority_high'do
-    let(:pha) { build_stubbed :pha, text_phone_number: "1234567890" }
+    let(:pha) do
+      pha = create(:pha)
+      pha.text_phone_number = "1234567890"
+      pha
+    end
     let(:scheduled_phone_call) { build_stubbed :scheduled_phone_call, owner: pha, assignor: pha }
     let(:welcome_call_task) { build_stubbed :welcome_call_task, scheduled_phone_call: scheduled_phone_call, owner: pha, assignor: pha  }
 

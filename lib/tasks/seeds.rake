@@ -1096,4 +1096,14 @@ My phone: 650-887-3711
       puts "#{id} is removed"
     end
   end
+
+  task :backfill_unique_id_states_service_templates => :environment do
+    ServiceTemplate.all.each do |st|
+      if st.state == nil && st.unique_id == nil
+        st.state = 'published'
+        st.send(:set_unique_id)
+        st.save(validate: false)
+      end
+    end
+  end
 end

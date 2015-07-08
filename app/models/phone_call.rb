@@ -146,7 +146,9 @@ class PhoneCall < ActiveRecord::Base
         return phone_call
       end
 
-      if member = Member.find_by_phone(phone_number)
+      member = PhoneNumber.find_by_number(phone_number).try(:phoneable)
+
+      if member.try(:is_a?, Member)
         phone_call = PhoneCall.create(
           user: member,
           origin_phone_number: phone_number,

@@ -103,7 +103,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def service_template
-    params.require(:service_template).permit(:name, :title, :description, :service_type_id, :time_estimate)
+    params.require(:service_template).permit(:name, :title, :description, :service_type_id, :time_estimate, :state_event)
   end
 
   def modal_template
@@ -111,7 +111,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def service_template_attributes
-    params.permit(:service_template_id, :title, :description, :subject_id, :due_at, :owner_id, :service_type, :member_id, :user_facing, :service_request, :service_deliverable, :service_update)
+    params.require(:service_template).permit(:service_template_id, :name, :title, :description, :subject_id, :owner_id, :service_type, :service_type_id, :time_estimate, :member_id, :user_facing, :service_request, :service_deliverable, :service_update, :unique_id, :state_event, :timed_service)
   end
 
   def service_attributes
@@ -120,8 +120,13 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def task_template
-    params.require(:task_template).permit(:name, :title, :service_template, :description, :time_estimate, :service_ordinal, :modal_template_id)
+    params.require(:task_template).permit(:name, :title, :service_template, :service_template_id, :description, :time_estimate, :service_ordinal, :modal_template_id)
   end
+
+  def feature_flag
+    params.require(:feature_flag).permit(:enabled)
+  end
+
   private
 
   def user_request_attributes

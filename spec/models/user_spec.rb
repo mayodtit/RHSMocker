@@ -187,12 +187,6 @@ describe User do
     end
   end
 
-  describe 'phone numbers' do
-    it_validates 'phone number format of', :phone, false, true
-    it_validates 'phone number format of', :work_phone_number, false, true
-    it_validates 'phone number format of', :text_phone_number, false, true
-  end
-
   describe '#age' do
     let!(:no_birthday_user) { build_stubbed(:user, :birth_date => nil) }
     let!(:baby_user) { build_stubbed(:user, :birth_date => 11.months.ago) }
@@ -404,6 +398,39 @@ describe User do
     end
   end
 
+  describe "phone numbers" do
+    let(:user)  do
+      u = create :user
+      u.phone = "4153333333"
+      u.work_phone_number = "4154444444"
+      u.text_phone_number = "4155555555"
+      u
+    end
+
+    context ".create" do
+      it "creates a phone number" do
+        expect(user.phone).to eq "4153333333"
+      end
+      it "creates a work phone number" do
+        expect(user.work_phone_number).to eq "4154444444"
+      end
+      it "creates a text phone number" do
+        expect(user.text_phone_number).to eq "4155555555"
+      end
+    end
+
+    context ".update" do
+      it "updates phone using setter" do
+        user.phone = "4156666666"
+        expect(user.phone).to eq "4156666666"
+      end
+      it "updates using update_attributes" do
+        user.update_attributes(phone: "4157777777")
+        expect(user.phone).to eq "4157777777"
+      end
+    end
+  end
+
   describe '#track_update' do
     let!(:user) { create :user }
 
@@ -454,33 +481,6 @@ describe User do
           UserChange.should_receive(:create!).with hash_including(actor_id: pha.id)
           user.send(:track_update)
         end
-      end
-    end
-  end
-
-  context "PhoneNumber life-cycle hook methods" do
-    describe "#add_phone_numbers" do
-      let(:member) { create(:member, phone: "9253038831", work_phone_number: "5072842511", text_phone_number: "9253038831") }
-      it "creates PhoneNumber objects when a User is created" do
-        expect(member.phone_obj.number).to eq "9253038831"
-        expect(member.work_phone_number_obj.number).to eq "5072842511"
-        expect(member.text_phone_number_obj.number).to eq "9253038831"
-      end
-    end
-
-    describe "#update_phone_numbers" do
-      let(:member) { create(:member, phone: "9253038831", work_phone_number: "5072842511", text_phone_number: "9253038831") }
-      it "updates primary PhoneNumber object when updated on the user" do
-        member.update_attribute(:phone, "9253038832")
-        expect(member.phone_obj.number).to eq "9253038832"
-      end
-      it "updates work PhoneNumber object when updated on the user" do
-        member.update_attribute(:work_phone_number, "5072842512")
-        expect(member.work_phone_number_obj.number).to eq "5072842512"
-      end
-      it "updates text PhoneNumber object when updated on the user" do
-        member.update_attribute(:text_phone_number, "9253038832")
-        expect(member.text_phone_number_obj.number).to eq "9253038832"
       end
     end
   end

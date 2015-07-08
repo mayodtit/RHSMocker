@@ -6,17 +6,40 @@ describe Message do
   it_has_a 'valid factory', :with_phone_call
   it_has_a 'valid factory', :with_scheduled_phone_call
   it_has_a 'valid factory', :with_phone_call_summary
-  it_validates 'presence of', :user
-  it_validates 'presence of', :consult
-  it_validates 'inclusion of', :off_hours
-  it_validates 'foreign key of', :content
-  it_validates 'foreign key of', :symptom
-  it_validates 'foreign key of', :condition
-  it_validates 'foreign key of', :phone_call
-  it_validates 'foreign key of', :scheduled_phone_call
-  it_validates 'foreign key of', :phone_call_summary
-  it_validates 'foreign key of', :user_image
-  it_validates 'foreign key of', :service
+
+  describe 'validations' do
+    it_validates 'presence of', :user
+    it_validates 'presence of', :consult
+    it_validates 'inclusion of', :off_hours
+    it_validates 'foreign key of', :content
+    it_validates 'foreign key of', :symptom
+    it_validates 'foreign key of', :condition
+    it_validates 'foreign key of', :phone_call
+    it_validates 'foreign key of', :scheduled_phone_call
+    it_validates 'foreign key of', :phone_call_summary
+    it_validates 'foreign key of', :user_image
+    it_validates 'foreign key of', :service
+
+    describe '#no_placeholders_in_user_facing_attributes' do
+      let(:message) { build(:message) }
+
+      context 'with curly braces' do
+        it 'prevents braces the title' do
+          message.text = "This has a {placeholder}"
+          expect(message).to_not be_valid
+          expect(message.errors[:text]).to include("shouldn't contain any curly braces")
+        end
+      end
+
+      context 'with square brackets' do
+        it 'prevents brackets the title' do
+          message.text = "This has a [placeholder]"
+          expect(message).to_not be_valid
+          expect(message.errors[:text]).to include("shouldn't contain any square brackets")
+        end
+      end
+    end
+  end
 
   describe 'callbacks' do
     describe '#fix_bad_markdown_links' do

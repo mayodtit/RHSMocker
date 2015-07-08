@@ -54,16 +54,4 @@ class UserSerializer < ActiveModel::Serializer
     addrs = object.addresses.order("updated_at DESC")
     addrs.find{|a| a.name.try(:downcase) == "office"} || addrs.find{|a| a.name == "NPI"} || addrs.first
   end
-
-  def phone
-    object.phone_obj.try(:number)
-  end
-
-  def work_phone_number
-    object.work_phone_number_obj.try(:number)
-  end
-
-  def text_phone_number
-    object.text_phone_number_obj.try(:number)
-  end
 end

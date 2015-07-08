@@ -208,6 +208,10 @@ class Member < User
     has_role?(:admin)
   end
 
+  def super_admin?
+    has_role?(:super_admin)
+  end
+
   def nurse?
     has_role?(:nurse)
   end
@@ -222,6 +226,10 @@ class Member < User
 
   def specialist?
     has_role?(:specialist)
+  end
+
+  def service_admin?
+    has_role?(:service_admin)
   end
 
   def care_provider?

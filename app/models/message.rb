@@ -1,7 +1,4 @@
 class Message < ActiveRecord::Base
-  MARKDOWN_LINK_REGEX = /\(\s+(\S*)\s*\)|\(\s*(\S*)\s+\)/
-  MYSQL_MARKDOWN_LINK_REGEX = "\\\\([[:space:]].*\\\\)|\\\\(.*[[:space:]]\\\\)"
-
   belongs_to :user
   belongs_to :consult
   belongs_to :content
@@ -39,6 +36,7 @@ class Message < ActiveRecord::Base
   validates :scheduled_phone_call, presence: true, if: lambda{|m| m.scheduled_phone_call_id}
   validates :phone_call_summary, presence: true, if: lambda{|m| m.phone_call_summary_id}
   validates :user_image, presence: true, if: ->(m){m.user_image_id}
+  validate :no_placeholders_in_user_facing_attributes, on: :create
 
   before_validation :set_user_from_association, on: :create
   before_validation :attach_user_image, if: ->(m){m.user_image_client_guid}, on: :create
@@ -55,7 +53,7 @@ class Message < ActiveRecord::Base
   mount_uploader :image, MessageImageUploader
 
   def self.with_bad_markdown_links
-    where("text REGEXP \"#{MYSQL_MARKDOWN_LINK_REGEX}\"")
+    where("text REGEXP \"#{RegularExpressions.mysql_markdown_link}\"")
   end
 
   def fix_bad_markdown_links!
@@ -64,7 +62,7 @@ class Message < ActiveRecord::Base
   end
 
   def fix_bad_markdown_links
-    self.text = text.try(:gsub, Message::MARKDOWN_LINK_REGEX, '(\1\2)')
+    self.text = text.try(:gsub, RegularExpressions.markdown_link, '(\1\2)')
   end
 
   def publish
@@ -118,6 +116,16 @@ class Message < ActiveRecord::Base
   end
 
   private
+
+  def no_placeholders_in_user_facing_attributes
+    if text.try(:match, RegularExpressions.braces)
+      errors.add(:text, "shouldn't contain any curly braces")
+    end
+
+    if text.try(:match, RegularExpressions.brackets)
+      errors.add(:text, "shouldn't contain any square brackets")
+    end
+  end
 
   def set_user_from_association
     self.user_id ||= phone_call.try(:user_id)

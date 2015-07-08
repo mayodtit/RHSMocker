@@ -35,11 +35,11 @@ PROVIDER_SEARCH_UPDATE = <<-eof
 eof
 
 PROVIDER_SEARCH_REQUEST = <<-eof
-Find a [provider type] near [zip code] who takes [insurance], [other preferences]
+Find a {provider type} near {zip code} who takes {insurance}, {other preferences}
 eof
 
 ServiceTemplate.upsert_attributes({name: "provider search"},
-                                  {title: "Find a [provider type]",
+                                  {title: "Find a {provider type}",
                                   description: PROVIDER_SEARCH_DESCRIPTION,
                                   service_type: ServiceType.find_by_name('provider search'),
                                   time_estimate: 4500,
@@ -75,11 +75,11 @@ APPOINTMENT_BOOKING_UPDATE = <<-eof
 #User-Facing Service Deliverable Draft:
 
 Appointment details:
-**[Day, Date at Time]**
-Dr. [First Last]
+**{Day, Date at Time}**
+Dr. {First Last}
 Address:
 Phone:
-Other details: [what to bring, when to arrive]
+Other details: {what to bring, when to arrive}
 
 #Member update:
 
@@ -90,11 +90,11 @@ Other details: [what to bring, when to arrive]
 eof
 
 APPOINTMENT_BOOKING_REQUEST = <<-eof
-Book appointment with Dr. [First Last] for [reason] on [day/time]
+Book appointment with Dr. {First Last} for {reason} on {day/time}
 eof
 
 ServiceTemplate.upsert_attributes({name: "appointment booking"},
-                                  {title: "Book appointment with Dr. [First Last]",
+                                  {title: "Book appointment with Dr. {First Last}",
                                   description: APPOINTMENT_BOOKING_DESCRIPTION,
                                   service_type: ServiceType.find_by_name('appointment booking'),
                                   time_estimate: 150,
@@ -133,11 +133,11 @@ CARE_COORDINATION_CALL_UPDATE = <<-eof
 eof
 
 CARE_COORDINATION_CALL_REQUEST = <<-eof
-Call [doctor/insurance/other] for [long reason]
+Call {doctor/insurance/other} for {long reason}
 eof
 
 ServiceTemplate.upsert_attributes({name: "care coordination call"},
-                                  {title: "Call [doctor/insurance/other] for [short reason]",
+                                  {title: "Call {doctor/insurance/other} for {short reason}",
                                   description: CARE_COORDINATION_CALL_DESCRIPTION,
                                   service_update: CARE_COORDINATION_CALL_UPDATE,
                                   user_facing: true,
@@ -157,7 +157,7 @@ PHA_AUTHORIZATION_DESCRIPTION = <<-eof
 * **Insurance company:**
 * **Insurance phone number:**
 * **Purpose of authorization:** Care Coordination
-* **Name of person to authorize:** Better and [PHA]
+* **Name of person to authorize:** Better and {PHA}
 
 #Specialist Notes
 Date of call:
@@ -194,11 +194,11 @@ PHA_AUTHORIZATION_UPDATE = <<-eof
 eof
 
 PHA_AUTHORIZATION_REQUEST = <<-eof
-Authorize Better to speak on your behalf with [insurance company]. This usually takes insurance companies 30 days to process.
+Authorize Better to speak on your behalf with {insurance company}. This usually takes insurance companies 30 days to process.
 eof
 
 ServiceTemplate.upsert_attributes({name: "pha authorization"},
-                                  {title: "Authorize Better with [insurance company]",
+                                  {title: "Authorize Better with {insurance company}",
                                   description: PHA_AUTHORIZATION_DESCRIPTION,
                                   service_update: PHA_AUTHORIZATION_UPDATE,
                                   user_facing: true,
@@ -232,7 +232,7 @@ Phone number:
 **Link to blank records release form:**
 **Link to drafted form:**
 **Link to signed form:**
-Date records release form sent: [mm/dd/yy]
+Date records release form sent: {mm/dd/yy}
 
 **Call notes - Source Provider:**
 Date of call:
@@ -289,11 +289,11 @@ RECORD_RECOVERY_UPDATE = <<-eof
 eof
 
 RECORD_RECOVERY_REQUEST = <<-eof
-Transfer medical records from [source provider] to [destination provider] for [reason]. This can take up to 30 days depending on the process of the medical records office.
+Transfer medical records from {source provider} to {destination provider} for {reason}. This can take up to 30 days depending on the process of the medical records office.
 eof
 
 ServiceTemplate.upsert_attributes({name: "record recovery"},
-                                  {title: "Transfer medical records to [destination provider]",
+                                  {title: "Transfer medical records to {destination provider}",
                                   description: RECORD_RECOVERY_DESCRIPTION,
                                   service_update: RECORD_RECOVERY_UPDATE,
                                   user_facing: true,
@@ -323,7 +323,7 @@ PRESCRIPTION_ORGANIZATION_UPDATE = <<-eof
 eof
 
 PRESCRIPTION_ORGANIZATION_REQUEST = <<-eof
-Organize [member]'s prescriptions from [pharmacy name]
+Organize {member}'s prescriptions from {pharmacy name}
 eof
 
 ServiceTemplate.upsert_attributes({name: "prescription organization"},
@@ -399,7 +399,7 @@ eof
 BMI_MANAGEMENT_3_MONTHS_UPDATE = <<-eof
 #User-Facing Service Deliverable Draft:
 
-Here are the measurements to show Dr. [First Last] at your next visit:
+Here are the measurements to show Dr. {First Last} at your next visit:
 
 * **BMI and date:**
 * **BMI and date:**
@@ -430,7 +430,7 @@ ServiceTemplate.upsert_attributes({name: "bmi management - 3 months"},
 )
 
 KINSIGHTS_RECORD_REQUEST = <<-eof
-Collect and upload your child’s medical records to Kinsights from [Dr First Last]. This process can take up to 30 days depending on the office’s turn around time.
+Collect and upload your child’s medical records to Kinsights from {Dr First Last}. This process can take up to 30 days depending on the office’s turn around time.
 eof
 
 KINSIGHTS_RECORD_DESCRIPTION = <<-eof
@@ -473,8 +473,8 @@ Type of form: Generic/Specific for Provider
 
 
 **Records release form:**
-Date records release form sent: [mm/dd/yy]
-Date entered into Kinsights: [mm/dd/yy]
+Date records release form sent: {mm/dd/yy}
+Date entered into Kinsights: {mm/dd/yy}
 eof
 
 KINSIGHTS_RECORD_UPDATE = <<-eof
@@ -525,10 +525,10 @@ eof
 
 KINSIGHTS_ONBOARDING_UPDATE = <<-eof
 #Kinsights Profile updates
-**[mm/dd/yy]:**
-**[mm/dd/yy]:**
-**[mm/dd/yy]:**
-**[mm/dd/yy]:**
+**{mm/dd/yy}:**
+**{mm/dd/yy}:**
+**{mm/dd/yy}:**
+**{mm/dd/yy}:**
 
 Add more notes/measurements below if needed
 
@@ -542,6 +542,372 @@ ServiceTemplate.upsert_attributes({name: "PHA Intro + Check-Ins - Kinsights"},
                                   service_type: ServiceType.find_by_name('member onboarding'),
                                   timed_service: true,
                                   time_estimate: 121020}
+)
+
+PROCEDURE_CHECK_DESCRIPTION = <<-eof
+**This service is assigned to Specialist**
+
+#Member Request
+* **Member:**
+* **Date of birth:**
+* **Doctor:**
+* **Doctor Phone number:**
+* **Insurance provider:**
+* **Insurance plan:**
+* **Insurance phone number:**
+* **Auth on file?:** yes/no who?
+* **Time set up with member for verbal auth:**
+* **Procedure coverage inquiry:**
+
+#Additional Information/Questions
+
+#Specialist Notes
+
+##Call with Provider
+* Date of call:
+* Who you spoke with:
+* Insurance on file:
+Questions:
+* I would like to confirm that all of the services will be covered at the time of visit.  Have you performed a benefits check for the member?
+
+**If yes**
+- What are the coverage details?
+	-Notes:
+-Did you ask about the status of the member’s deductible?
+	-Abandon next task (call insurance)
+**If no**
+-Are you willing to call {insurance} and check the members coverage?
+**If yes**
+-Great!  When do you expect this to be completed, so we can follow up?
+**If no**
+-May I have the service details?
+		-CPT code/ other code:
+		-Diagnosis (DX) code:
+		-Do the provider and the facility bill separately? Yes/No
+			-Provider tax ID:
+			-Facility tax ID:
+
+##Call with Insurance
+* Date of call:
+* Who you spoke with:
+* Insurance effective date:
+* Insurance termination date:
+Questions:
+* Is the member eligible for {service}?
+* What type of coverage does the member have for {service}?
+	-In network coverage:
+	-Out of network coverage:
+* Does {service} apply to the member’s deductible?
+* What is the current state of the member’s deductible?
+* Is there a prior authorization required for the service?
+	-If yes, how is it obtained?
+	-Notes:
+* Is there a referral required for this service?
+	-If yes, how is it obtained?
+	-Notes:
+* Are there any limitations for the service {office visit limit, max price, etc…}?
+* Call reference number:
+
+>#Service Update
+>#PHA Next Steps:
+>#Specialist Next Steps
+
+eof
+
+PROCEDURE_CHECK_UPDATE = <<-eof
+#Service Request Update:
+
+        {mm/dd}: We called Dr. {First Last}’s office to check your coverage for {procedure}.  The coverage details are below for you to view.
+
+
+#Service Deliverable:
+* Insurance provider:
+* {Copayment / Percent coverage for service} with Dr. {First Last}:
+* You’ve paid {$} towards your deductible of {deductible}
+* **Final payment is based on contract with your insurance.**
+
+#Member Message:
+
+**If covered**
+> Hi {member}, we checked if {insurance/provider} will cover your {service} with Dr. {First Last}, and good news!  {Insurance} will cover {amt % of cost / $amt} once you’ve met your deductible for this year. To date you’ve paid {amount paid} out of {total deductible}. Let us know if you have any questions.
+
+Would you like to schedule the {procedure}?
+
+
+ **If not covered**
+> Hi {member}, we checked if {insurance} will cover your {service} with Dr. {First Last}, and unfortunately {insurance} does not cover it.  Are you still interested in {service}?  If so, we can look for options that are affordable.
+eof
+
+PROCEDURE_CHECK_REQUEST = <<-eof
+Check insurance coverage for {procedure} with Dr. {First Last}’s office. This can take up to a week depending on the availability of Dr. {First Last}’s billing department.
+eof
+
+ServiceTemplate.upsert_attributes({name: "Check Member’s Procedure Coverage with Provider"},
+                                  {title: "Check Insurance Coverage for {procedure} with Dr. {First Last}",
+                                   description: PROCEDURE_CHECK_DESCRIPTION,
+                                   service_update: PROCEDURE_CHECK_UPDATE,
+                                   user_facing: true,
+                                   service_request: PROCEDURE_CHECK_REQUEST,
+                                   service_type: ServiceType.find_by_name('eligibility check'),
+                                   time_estimate: 180}
+)
+
+ELIGIBILITY_BENEFITS_CHECK_DESCRIPTION = <<-eof
+**This service is assigned to {PHA}**
+
+#Member Request
+* **Member:**
+* **Date of birth:**
+* **Insurance provider:**
+* **Insurance plan:**
+* **Insurance phone number:**
+* **Auth on file?:** yes/no who?
+* **Time set up with member for verbal auth:**
+* **Eligibility/Benefits inquiry:**
+
+#Additional Information/Questions
+
+#Specialist Notes
+
+* Date of call:
+* Who you spoke with:
+* Insurance effective date:
+* Insurance termination date:
+
+**Inquiry based on member request:**
+
+* Is the member eligible for {service}?
+* What type of coverage does the member have for {service}?
+	-In network coverage:
+	-Out of network coverage:
+* Does {service} apply to the member’s deductible?
+* What is the current state of the member’s deductible?
+* Is there a prior authorization required for the service?
+	-If yes, how is it obtained?
+	-Notes:
+* Is there a referral required for this service?
+	-If yes, how is it obtained?
+	-Notes:
+* Are there any limitations for the service {office visit limit, max price, etc…}?
+* Call reference number:
+
+#Service Update
+#PHA Next Steps:
+1.
+2.
+#Specialist Next Steps
+
+eof
+
+ELIGIBILITY_BENEFITS_CHECK_UPDATE = <<-eof
+#Service Request Update:
+
+        {mm/dd}: We called {Insurance} to check your coverage for {member inquiry}.  The coverage details are below for you to view.
+
+#Service Deliverable:
+* Insurance provider:
+* Percent coverage for {service} with an in-network provider:
+* Percent coverage for {service} with an out-of-network provider:
+* You’ve paid {$} towards your deductible of {deductible}
+* A referral for this service is {not} required
+
+#Member Message:
+**If covered**
+> Hi {member} we checked if you are eligible for {service}, and good news!  Your insurance quoted that you are eligible for {service}.  {Insurance} will cover { % / $ amount} of the cost up to {benefit limitation}.
+
+
+> Even though it is covered, we also have to understand how it fits in with your deductible. To date this year, you’ve paid {$} out of {deductible}. This means that you’ll have to pay the full bill until you’ve paid {$} more. OR Since you’ve met your deductible insurance will kick in right away and insurance will cover {%}.
+
+
+> It is important to follow the instructions of the insurance company and even then, it is important to remember that this is just a quote.
+
+ **If not covered**
+> Hi {member}, we checked if you are eligible for {service}, and unfortunately {insurance} does not cover it.  Are you still interested in {service}?  If so, we can look for options that are affordable.
+
+eof
+
+ELIGIBILITY_BENEFITS_CHECK_REQUEST = <<-eof
+Check to see if {specific member inquiry} is covered by {insurance}
+eof
+
+ServiceTemplate.upsert_attributes({name: "Check Member’s Eligibility/Benefits with Insurance"},
+                                  {title: "Check insurance coverage for {specific member inquiry}",
+                                   description: ELIGIBILITY_BENEFITS_CHECK_DESCRIPTION,
+                                   service_update: ELIGIBILITY_BENEFITS_CHECK_UPDATE,
+                                   user_facing: true,
+                                   service_request: ELIGIBILITY_BENEFITS_CHECK_REQUEST,
+                                   service_type: ServiceType.find_by_name('eligibility check'),
+                                   time_estimate: 120}
+)
+
+DENTIST_APPOINTMENT_DESCRIPTION = <<-eof
+**This service is assigned to {PHA}**
+
+#Member Request
+* **Member:**
+* **Date of birth:**
+* **Dental insurance plan:**
+* **Dentist:**
+* **Address:**
+* **Phone:**
+* **Reason for visit:** cleaning & exam /follow-up/ procedure
+* **New Patient:** Yes/No
+* **Specific dates/times that work better:**
+
+#Additional Information/Questions
+
+#Specialist Notes
+* Date of call:
+* Who you spoke with:
+* Available times/Booked time:
+* Insurance on file still up-to-date: Yes/No
+* Benefits/coverage check prior to member’s service: Yes/No
+* Dentist office will update member with coverage check and price estimate: Yes/No
+* Can you if they are due for another cleaning? Has it been six months? Yes/No
+* Cancellation policy: Yes/No
+* New patient paperwork:
+* Length of visit:
+* What to bring:
+* Special instructions to prepare:
+
+
+#Service Update
+#PHA Next Steps:
+1.
+2.
+#Specialist Next Steps
+
+eof
+
+DENTIST_APPOINTMENT_UPDATE = <<-eof
+#Service Deliverable:
+
+After Specialist Review:
+
+#Member Message:
+
+Hi {member}, we’ve reviewed your medical bill and we working on gathering more information.  We will be calling your {insurance, provider} to get to the bottom of this!
+
+We might need to get your verbal authorization over the phone to get this information. Do you have a 30-minute window of time you are available to answer our phone call tomorrow or later this week?
+
+
+After Further Investigation
+
+#Member update for simple bill breakdown:
+
+Hi {member}, we’ve reviewed your medical bill and called {insurance, provider} to confirm the amount you owe and accuracy. Here is the breakdown:
+
+{Provider & Date of Visit}
+**Total billed:**
+**Contracted rate**
+**{Co-payment Co-insurance}**
+** Insurance paid**
+** Your Total**
+
+You'll notice that insurance {did or did not pay}, this is because you {have not or have} met your deductible for {year}. Your deductible is {Deductible $} and to date you’ve paid {$amount toward deductible}. *
+
+If not met deductible  -
+{For future visits and bill, you'll continue to pay the full contracted rate until you meet your deductible. *}
+
+If have met deductible
+{You’ve met the deductible so insurance will pay the majority of the bill but you’ll be responsible for your copayment and coinsurance. }
+
+
+**Here is how to pay: **
+	{Add in instructions}
+eof
+
+DENTIST_APPOINTMENT_REQUEST = <<-eof
+Book appointment with Dr. {First Last} for {cleaning and exam /follow-up/ procedure} on {day/time}
+eof
+
+ServiceTemplate.upsert_attributes({name: "Book Dentist Appointment"},
+                                  {title: "Book dentist appointment with Dr. {First Last}",
+                                   description: DENTIST_APPOINTMENT_DESCRIPTION,
+                                   service_update: DENTIST_APPOINTMENT_UPDATE,
+                                   user_facing: true,
+                                   service_request: DENTIST_APPOINTMENT_REQUEST,
+                                   service_type: ServiceType.find_by_name('appointment booking'),
+                                   time_estimate: 240}
+)
+
+
+PT_APPOINTMENT_DESCRIPTION = <<-eof
+**This service is assigned to PHA**
+
+#Member Request
+* **Member:**
+* **Date of birth:**
+* **Insurance plan:**
+* **Physical Therapist:**
+* **Address:**
+* **Phone:**
+* **Reason for visit:** consultation /rehab /follow up
+* **Did doctor send over order to this PT? Or do you have a physical copy:**
+* **Prescribing doctor:**
+* **Phone:**
+* **New Patient:** Yes/No
+* **Specific dates/times that work better:**
+
+#Additional Information/Questions
+
+#Specialist Notes
+* Date of call:
+* Who you spoke with:
+* Available times/Booked time:
+* Insurance on file still up-to-date: Yes/No
+* Cancellation policy: Yes/No
+* Do they have a prescription from doctor yet?
+* If no, Where do they send the prescription?
+* New patient paperwork:
+* Length of visit:
+* What to bring:
+* Special instructions to prepare:
+
+#Service Update
+#PHA Next Steps
+1.
+2.
+
+#Specialist Next Steps/Tasks
+If they need prescription sent over
+1. Call prescribing doctor to have them send it over
+2. Follow up with PT to see they got it 2 days later.
+eof
+
+PT_APPOINTMENT_UPDATE = <<-eof
+#Service Request Update:
+
+> {mm/dd}: We booked {you/member name} a physical therapist appointment with {Dr. First Last}. The appointment details are below for you to view.
+
+#Service Deliverable:
+Appointment details:
+**Day, Date at Time**
+Dr. {First Last}
+Address:  {map}
+Phone:
+Other details: {what to bring, when to arrive}
+
+
+#Member Message:
+> We’ve booked the physical therapist appointment that you requested and sent you a calendar reminder. Let us know if you need to make any changes.
+
+**If need PT prescription:**
+> As part of your visit they need a prescription for physical therapy from {prescribing doctor}. Not to worry, we are already coordinating between the offices so it is there when you arrive.
+eof
+
+PT_APPOINTMENT_REQUEST = <<-eof
+Book appointment with {Dr. First Last} for {consultation /rehab /follow up} on {day/time}
+eof
+
+ServiceTemplate.upsert_attributes({name: "Book PT Appointment"},
+                                  {title: "Book physical therapist appointment with {Dr. First Last}",
+                                   description: PT_APPOINTMENT_DESCRIPTION,
+                                   service_update: PT_APPOINTMENT_UPDATE,
+                                   user_facing: true,
+                                   service_request: PT_APPOINTMENT_REQUEST,
+                                   service_type: ServiceType.find_by_name('appointment booking'),
+                                   time_estimate: 240}
 )
 
 INSURANCE_CALL_DESCRIPTION = <<-eof
