@@ -24,7 +24,6 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
                                        :to_role_id)
   end
 
-  ## TODO pass phoneable_id, phoneable_type ?
   def phone_number
     params.require(:phone_number).permit(:number,
                                          :type,

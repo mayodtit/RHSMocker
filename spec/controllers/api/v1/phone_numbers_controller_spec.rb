@@ -61,10 +61,10 @@ describe Api::V1::PhoneNumbersController do
 
     it_behaves_like "action requiring authentication and authorization"
 
-    context 'authenticated and authorized', user: :authenticate_and_authorize! do
-      it_behaves_like 'success'
+    context "authenticated and authorized", user: :authenticate_and_authorize! do
+      it_behaves_like "success"
 
-      it 'returns the phone number' do
+      it "returns the phone number" do
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
         expect(body[:phone_number].to_json).to eq(phone_number.serializer.as_json.to_json)
@@ -77,12 +77,12 @@ describe Api::V1::PhoneNumbersController do
       put :update, user_id: user.id, id: phone_number.id, phone_number: { number: "4257654321" }
     end
 
-    it_behaves_like 'action requiring authentication and authorization'
+    it_behaves_like "action requiring authentication and authorization"
 
-    context 'authenticated and authorized', user: :authenticate_and_authorize! do
-      it_behaves_like 'success'
+    context "authenticated and authorized", user: :authenticate_and_authorize! do
+      it_behaves_like "success"
 
-      it 'returns the updated phone number' do
+      it "returns the updated phone number" do
         do_request
         body = JSON.parse(response.body, symbolize_names: true)
         phone_number.number = "4257654321"
@@ -91,5 +91,22 @@ describe Api::V1::PhoneNumbersController do
     end
   end
 
-  describe "DELETE destroy"
+  describe "DELETE destroy" do
+    def do_request
+      delete :destroy, user_id: user.id, id: phone_number.id
+    end
+
+    it_behaves_like "action requiring authentication and authorization"
+
+    context "authenticated and authorized", user: :authenticate_and_authorize! do
+      context "destroy succeeds" do
+        before do
+          phone_number.stub(destroy: true)
+        end
+
+        it_behaves_like "success"
+      end
+    end
+  end
+
 end
