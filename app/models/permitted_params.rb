@@ -24,6 +24,12 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
                                        :to_role_id)
   end
 
+  def phone_number
+    params.require(:phone_number).permit(:number,
+                                         :type,
+                                         :primary)
+  end
+
   def onboarding_group
     params.require(:onboarding_group).permit(:name,
                                              :premium,

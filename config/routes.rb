@@ -157,6 +157,7 @@ RHSMocker::Application.routes.draw do
           get :inbox, :on => :collection
           get :timeline, :on => :collection
         end
+        resources :phone_numbers, except: %i(new edit)
         resources :scheduled_communications, only: %i(index show update destroy)
         resources :scheduled_messages, except: %i(new edit)
         put :secure_update, on: :member, to: 'members#secure_update'
