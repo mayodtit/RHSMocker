@@ -156,10 +156,10 @@ namespace :tasks do
     Task.where(state: :unstarted, owner_id: nil).update_all(state: :unclaimed)
 
     puts "Updating unstarted tasks without a member to claiemd tasks \n:"
-    Task.where(state: :unstarted).where('owner_id IS NOT NULL').update_all(state: :claimed, claimed_at: Time.now)
+    Task.where(state: :unstarted).where('owner_id IS NOT NULL').update_all("state = 'claimed', claimed_at = assigned_at")
 
     puts "Updating started tasks to claimed tasks \n:"
-    Task.where(state: :started).update_all(state: :claimed, claimed_at: Time.now)
+    Task.where(state: :started).update_all("state = 'claimed', claimed_at = assigned_at")
   end
 
   desc "Backfill tasks with queues"
