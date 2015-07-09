@@ -3,6 +3,9 @@ class Task < ActiveRecord::Base
   PRIORITY = 0
   URGENT_PRIORITY = 12
 
+  QUEUE_TYPES = %i(hcc pha nurse specialist)
+  symbolize :queue, in: QUEUE_TYPES
+
   belongs_to :member
   belongs_to :role, class_name: 'Role'
   belongs_to :owner, class_name: 'Member'
@@ -18,7 +21,7 @@ class Task < ActiveRecord::Base
   has_one :entry, as: :resource
 
   attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id
-  attr_accessible :title, :description, :due_at,
+  attr_accessible :title, :description, :due_at, :queue,
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
                   :abandoner, :abandoner_id, :role, :role_id,
@@ -38,28 +41,45 @@ class Task < ActiveRecord::Base
   validates :member, presence: true, if: lambda { |t| t.member_id }
   validates :reason, presence: true, if: lambda { |t| (t.due_at_changed? && t.due_at_was.present?) || (t.state_changed? && t.abandoned?) }
   validate :attrs_for_states
-  validate :one_claimed_per_owner
 
   before_validation :set_role, on: :create
   before_validation :set_priority, on: :create
   before_validation :set_ordinal, on: :create
-  before_validation :set_assigned_at
+  before_validation :set_assignor_id
   before_validation :reset_day_priority
   before_validation :mark_as_unread
+  before_validation :set_queue, on: :create
 
   after_commit :publish
   after_save :notify
   after_commit :track_update, on: :update
 
-
-  scope :nurse, -> { where(['role_id = ?', Role.find_by_name!('nurse').id]) }
-  scope :pha, -> { where(['role_id = ?', Role.find_by_name!('pha').id]) }
-  scope :owned, -> (hcp) { where(['state IN (?, ?, ?, ?) AND owner_id = ?', :unstarted, :started, :claimed, :spam, hcp.id]) }
-  scope :needs_triage, -> (hcp) { where(['(owner_id IS NULL AND state NOT IN (?)) OR (state IN (?, ?, ?, ?) AND owner_id = ? AND type IN (?, ?, ?, ?, ?, ?))', :abandoned, :unstarted, :started, :claimed, :spam, hcp.id, PhoneCallTask.name, MessageTask.name, UserRequestTask.name, ParsedNurselineRecordTask.name, InsurancePolicyTask.name, NewKinsightsMemberTask.name]) }
-  scope :needs_triage_or_owned, -> (hcp) { where(['(state IN (?, ?, ?, ?) AND owner_id = ?) OR (owner_id IS NULL AND state NOT IN (?))', :unstarted, :started, :claimed, :spam, hcp.id, :abandoned]) }
-
   def self.open_state
-    where(state: %i(unstarted started claimed))
+    where(state: %i(unclaimed blocked_internal blocked_external claimed))
+  end
+
+  def self.blocked
+    where(state: %i(blocked_internal blocked_external))
+  end
+
+  def self.nurse_queue
+    where(queue: :nurse, state: :unclaimed)
+  end
+
+  def self.hcc_queue(hcp)
+    where(queue: :hcc).where(['(state IN (?)) OR (state IN (?) AND owner_id = ?)', :unclaimed, :claimed, hcp.id])
+  end
+
+  def self.pha_queue(hcp)
+    where(queue: :pha, owner_id: hcp.id).open_state
+  end
+
+  def self.specialist_queue
+    where(queue: :specialist)
+  end
+
+  def blocked?
+    %w(blocked_internal blocked_external).include? state
   end
 
   def open?
@@ -106,9 +126,10 @@ class Task < ActiveRecord::Base
     end
   end
 
-  def set_assigned_at
+  def set_assignor_id
     if owner_id_changed?
       self.assigned_at = Time.now
+      self.assignor_id = actor_id
     end
   end
 
@@ -119,6 +140,14 @@ class Task < ActiveRecord::Base
       self.assignor = Member.robot
       self.assigned_at = Time.now
     end
+  end
+
+  def default_queue
+    :pha
+  end
+
+  def set_queue
+    self.queue ||= default_queue
   end
 
   def mark_as_unread
@@ -165,19 +194,26 @@ class Task < ActiveRecord::Base
     end
   end
 
-  state_machine :initial => :unstarted do
+  def initial_state
+    if owner_id.present?
+      self.claimed_at = Time.now
+      :claimed
+    else
+      self.unclaimed_at = Time.now
+      :unclaimed
+    end
+  end
+
+
+  state_machine initial: -> (t){t.initial_state} do
     store_audit_trail to: 'TaskChange', context_to_log: [:actor_id, :data, :reason]
 
-    event :unstart do
-      transition any => :unstarted
-    end
-
-    event :start do
-      transition any => :started
+    event :unclaim do
+      transition any => :unclaimed
     end
 
     event :claim do
-      transition any - [:claimed] => :claimed
+      transition any => :claimed
     end
 
     event :abandon do
@@ -188,16 +224,41 @@ class Task < ActiveRecord::Base
       transition any => :completed
     end
 
-    before_transition any - [:started] => :started do |task|
-      task.started_at = Time.now
+    event :report_blocked_by_internal do
+      transition any => :blocked_internal
     end
 
-    before_transition any - [:claimed] => :claimed do |task|
+    event :report_blocked_by_external do
+      transition any => :blocked_external
+    end
+
+    event :unblock do
+      transition %i(blocked_internal blocked_external) => :unclaimed
+    end
+
+    before_transition any - :unclaimed => :unclaimed do |task|
+      task.owner_id = nil
+      task.unclaimed_at = Time.now
+    end
+
+    before_transition any - :blocked_internal => :blocked_internal do |task|
+      task.blocked_internal_at = Time.now
+    end
+
+    before_transition any - :blocked_external => :blocked_external do |task|
+      task.blocked_external_at = Time.now
+    end
+
+    before_transition %i(blocked_internal blocked_external) => :unclaimed do |task|
+      task.unblocked_at = Time.now
+    end
+
+    before_transition any - :claimed => :claimed do |task|
       task.unread = false
       task.claimed_at = Time.now
     end
 
-    before_transition any - [:completed] => :completed do |task|
+    before_transition any - :completed => :completed do |task|
       task.completed_at = Time.now
     end
 
@@ -224,28 +285,21 @@ class Task < ActiveRecord::Base
     end
 
     case state
-      when 'started'
-        validate_timestamp_exists :start
       when 'claimed'
-        validate_timestamp_exists :claim
+        validate_actor_and_timestamp_exist :claim
+      when 'blocked_internal'
+        validate_actor_and_timestamp_exist :report_blocked_by_internal
+      when 'blocked_external'
+        validate_actor_and_timestamp_exist :report_blocked_by_external
       when 'completed'
-        validate_timestamp_exists :complete
+        validate_actor_and_timestamp_exist :complete
       when 'abandoned'
         validate_actor_and_timestamp_exist :abandon
     end
 
-    if %w(started claimed completed).include? state
+    if %w(claimed completed).include? state
       if owner_id.nil?
         errors.add(:owner_id, "must be present when #{self.class.name} is #{state}")
-      end
-    end
-  end
-
-  def one_claimed_per_owner
-    if state == 'claimed'
-      task = Task.find_by_owner_id_and_state(owner_id, 'claimed')
-      if task && task.id != id
-        errors.add(:state, "cannot claim more than one task.")
       end
     end
   end
@@ -261,8 +315,11 @@ class Task < ActiveRecord::Base
       :created_at,
       :updated_at,
       :assigned_at,
-      :started_at,
       :claimed_at,
+      :unclaimed_at,
+      :unblocked_at,
+      :blocked_internal_at,
+      :blocked_external_at,
       :completed_at,
       :abandoned_at,
       :abandoner_id,

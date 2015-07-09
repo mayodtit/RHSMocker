@@ -1,6 +1,7 @@
 class Member < User
   authenticates_with_sorcery!
   has_many :sessions, dependent: :destroy
+  has_many :care_portal_sessions, dependent: :destroy
   has_many :discounts, foreign_key: :user_id
   has_many :user_roles, foreign_key: :user_id, inverse_of: :user
   has_many :roles, through: :user_roles
@@ -244,6 +245,18 @@ class Member < User
     nurse? || read_attribute(:on_call)
   end
 
+  def queue_mode
+    if care_portal_sessions.first
+      care_portal_sessions.first.queue_mode
+    elsif nurse?
+      :nurse
+    elsif specialist?
+      :specialist
+    else
+      :pha
+    end
+  end
+
   def is_premium?
     status?(:trial) || status?(:premium) || status?(:chamath)
   end
@@ -341,24 +354,27 @@ class Member < User
     end
   end
 
-  def smackdown!
-    downgrade!
-    mt = MessageTemplate.find_by_name 'TOS Violation'
-    mt.create_message(Member.robot, master_consult, false, true, true) if mt
-  end
-
   def queue(options = Hash.new)
     return if role.nil?
-    query = Task.owned self
-    if on_call?
-      if Metadata.on_call_queue_only_inbound_and_unassigned?
-        query = Task.needs_triage self
-      else
-        query = Task.needs_triage_or_owned self
-      end
-    end
 
-    tasks = query.where(role_id: role.id, visible_in_queue: true, unread: false, urgent: false).includes(:member).order(task_order)
+    query = if nurse?
+              Task.nurse_queue
+            elsif queue_mode
+              case queue_mode
+              when :hcc
+                Task.hcc_queue(self)
+              when :pha
+                Task.pha_queue(self)
+              when :specialist
+                Task.specialist_queue
+              else
+                Task.pha_queue(self)
+              end
+            else
+              Task.pha_queue(self)
+            end
+
+    tasks = query.where(visible_in_queue: true, unread: false, urgent: false).includes(:member).order(task_order)
     immediate_tasks = query.where(role_id: role.id, visible_in_queue: true).where('unread IS TRUE OR urgent IS TRUE').includes(:member).order(task_order) if pha?
     tomorrow_count = 0
     future_count = 0

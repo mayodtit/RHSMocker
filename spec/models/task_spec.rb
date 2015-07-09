@@ -24,7 +24,7 @@ describe Task do
     it_validates 'foreign key of', :member
 
     describe '#service' do
-      let(:task) { build_stubbed :task }
+      let!(:task) { create :task }
 
       context 'service id exists' do
         before do
@@ -52,7 +52,7 @@ describe Task do
     end
 
     describe '#service_ordinal' do
-      let(:task) { build_stubbed :task }
+      let!(:task) { create :task }
 
       context 'service id exists' do
         before do
@@ -74,39 +74,6 @@ describe Task do
 
         it 'doesn\'t validate presence' do
           task.service_ordinal = 1
-          task.should be_valid
-        end
-      end
-    end
-
-    describe '#one_claimed_per_owner' do
-      let(:claimed_task) { build_stubbed :task, :claimed }
-
-      context 'task is claimed' do
-        let(:task) { build :task, :claimed }
-
-        it 'fails if another claimed task exists for the owner' do
-          Task.stub(:find_by_owner_id_and_state).with(task.owner_id, 'claimed') { claimed_task }
-          task.should_not be_valid
-        end
-
-        it 'passes if no other claimed task exists for the owner' do
-          Task.stub(:find_by_owner_id_and_state).with(task.owner_id, 'claimed') { nil }
-          task.should be_valid
-        end
-
-        it 'passes if the other claimed task is this task' do
-          task = build_stubbed :task, :claimed, role_id: @pha_id
-          Task.stub(:find_by_owner_id_and_state).with(task.owner_id, 'claimed') { task }
-          task.should be_valid
-        end
-      end
-
-      context 'task is not claimed' do
-        let(:task) { build :task, :started }
-
-        it 'passes if another claimed tasks exists for the owner' do
-          Task.stub(:find_by_owner_id_and_state).with(task.owner_id, 'claimed') { claimed_task }
           task.should be_valid
         end
       end
@@ -188,13 +155,18 @@ describe Task do
   describe '#open?' do
     let(:task) { build :task }
 
-    it 'returns true when unstarted' do
-      task.state = 'unstarted'
+    it 'returns true when unclaimed' do
+      task.state = 'unclaimed'
       task.should be_open
     end
 
-    it 'returns true when started' do
-      task.state = 'started'
+    it 'returns true when blocked_internal' do
+      task.state = 'blocked_internal'
+      task.should be_open
+    end
+
+    it 'returns true when blocked_external' do
+      task.state = 'blocked_external'
       task.should be_open
     end
 
@@ -244,19 +216,21 @@ describe Task do
 
   describe '#open' do
     it 'returns tasks that are still open' do
-      unstarted_task = create(:task)
       assigned_task = create(:task, :assigned)
-      started_task = create(:task, :started)
+      unclaimed_task = create(:task, :unclaimed)
       claimed_task = create(:task, :claimed)
+      blocked_internal_task = create(:task, :blocked_internal)
+      blocked_external_task = create(:task, :blocked_external)
       completed_task = create(:task, :completed)
       abandoned_task = create(:task, :abandoned)
 
       open_tasks = Task.open
 
-      open_tasks.should be_include(unstarted_task)
       open_tasks.should be_include(assigned_task)
-      open_tasks.should be_include(started_task)
+      open_tasks.should be_include(unclaimed_task)
       open_tasks.should be_include(claimed_task)
+      open_tasks.should be_include(blocked_internal_task)
+      open_tasks.should be_include(blocked_external_task)
       open_tasks.should_not be_include(completed_task)
       open_tasks.should_not be_include(abandoned_task)
     end
@@ -447,40 +421,6 @@ describe Task do
             end
           end
         end
-      end
-    end
-  end
-
-  describe '#set_assigned_at' do
-    let(:task) { build :task }
-
-    before do
-      Timecop.freeze
-    end
-
-    after do
-      Timecop.return
-    end
-
-    context 'owner id changed' do
-      before do
-        task.stub(:owner_id_changed?) { true }
-      end
-
-      it 'sets assigned at' do
-        task.set_assigned_at
-        task.assigned_at.should == Time.now
-      end
-    end
-
-    context 'owner id not changed' do
-      before do
-        task.stub(:owner_id_changed?) { false }
-      end
-
-      it 'sets assigned at to' do
-        task.set_assigned_at
-        task.assigned_at.should be_nil
       end
     end
   end
@@ -708,56 +648,6 @@ describe Task do
     end
   end
 
-  describe 'scopes' do
-    let!(:pha) { create :pha }
-    let!(:other_pha) { create :pha }
-
-    before do
-      Role.any_instance.stub(:on_call?) { true }
-    end
-
-    describe '#owned' do
-      let!(:task_1) { create :member_task, :assigned, owner: pha }
-      let!(:task_5) { create :member_task, :assigned, owner: other_pha }
-      let!(:task_6) { create :member_task, :abandoned }
-
-      it 'returns owned tasks' do
-        tasks = Task.owned(pha)
-        tasks.should be_include(task_1)
-        tasks.should_not be_include(task_5)
-        tasks.should_not be_include(task_6)
-      end
-    end
-
-    describe '#needs_triage' do
-      let!(:task_1) { create :member_task, :assigned, owner: pha }
-      let!(:task_2) { create :member_task }
-      let!(:task_6) { create :member_task, :abandoned }
-
-      it 'returns tasks that are unassigned or assigned inbound tasks' do
-        tasks = Task.needs_triage(pha)
-        tasks.should_not be_include(task_1)
-        tasks.should be_include(task_2)
-        tasks.should_not be_include(task_6)
-      end
-    end
-
-    describe '#needs_triage_or_owned' do
-      let!(:task_1) { create :member_task, :assigned, owner: pha }
-      let!(:task_2) { create :member_task }
-      let!(:task_5) { create :member_task, :assigned, owner: other_pha }
-      let!(:task_6) { create :member_task, :abandoned }
-
-      it 'returns tasks that are unassigned or assigned inbound tasks or owned' do
-        tasks = Task.needs_triage_or_owned(pha)
-        tasks.should be_include(task_1)
-        tasks.should be_include(task_2)
-        tasks.should_not be_include(task_5)
-        tasks.should_not be_include(task_6)
-      end
-    end
-  end
-
   describe 'states' do
     let(:task) { build :task }
     let(:pha) { build_stubbed :pha }
@@ -771,50 +661,33 @@ describe Task do
       Timecop.return
     end
 
-    it 'has an initial state of unstarted' do
-      task.should be_unstarted
+    it 'has an initial state of unclaimed' do
+      task.should be_unclaimed
     end
 
-    describe '#unstart' do
-      let(:task) { build :task, :started }
+    describe '#unclaim' do
+      let(:task) { build :task, :claimed }
 
-      it 'changes state to unstarted' do
-        task.should_not be_unstarted
-        task.unstart!
-        task.should be_unstarted
+      it 'changes state to unclaimed' do
+        task.should_not be_unclaimed
+        task.unclaim!
+        task.should be_unclaimed
+      end
+
+      it 'sets owner to nil' do
+        task.owner = pha
+        task.unclaim!
+        task.owner_id.should be_nil
       end
 
       it 'indicates a change was tracked' do
-        task.unstart!
-        expect(task.change_tracked).to be_true
-      end
-    end
-
-    describe '#start' do
-      let(:task) { build :task, :assigned }
-
-      it 'changes state to started' do
-        task.should_not be_started
-        task.start!
-        task.should be_started
-      end
-
-      it 'sets started at' do
-        task.started_at.should be_nil
-        task.start!
-        task.started_at.should == Time.now
-      end
-
-      it 'indicates a change was tracked' do
-        task.start!
+        task.unclaim!
         expect(task.change_tracked).to be_true
       end
     end
 
     describe '#claim' do
-      let(:task) { build :task, assignor: pha }
-
-      it_behaves_like 'cannot transition from', :claim!, [:claimed]
+      let(:task) { build :task}
 
       it 'changes state to claimed' do
         task.should_not be_claimed
@@ -834,6 +707,56 @@ describe Task do
         task.claimed_at.should be_nil
         task.owner = pha
         task.claim!
+        expect(task.change_tracked).to be_true
+      end
+    end
+
+    describe '#report_blocked_by_internal' do
+      let(:task) { build :task, assignor: pha }
+
+      it 'changes state to blocked_internal' do
+        task.should_not be_blocked_internal
+        task.owner = pha
+        task.report_blocked_by_internal!
+        task.should be_blocked_internal
+      end
+
+      it 'sets blocked internal at' do
+        task.blocked_internal_at.should be_nil
+        task.owner = pha
+        task.report_blocked_by_internal!
+        task.blocked_internal_at.should == Time.now
+      end
+
+      it 'indicates a change was tracked' do
+        task.blocked_internal_at.should be_nil
+        task.owner = pha
+        task.report_blocked_by_internal!
+        expect(task.change_tracked).to be_true
+      end
+    end
+
+    describe '#report_blocked_by_external' do
+      let(:task) { build :task, assignor: pha }
+
+      it 'changes state to blocked_external' do
+        task.should_not be_blocked_external
+        task.owner = pha
+        task.report_blocked_by_external!
+        task.should be_blocked_external
+      end
+
+      it 'sets blocked external at' do
+        task.blocked_external_at.should be_nil
+        task.owner = pha
+        task.report_blocked_by_external!
+        task.blocked_external_at.should == Time.now
+      end
+
+      it 'indicates a change was tracked' do
+        task.blocked_external_at.should be_nil
+        task.owner = pha
+        task.report_blocked_by_external!
         expect(task.change_tracked).to be_true
       end
     end
@@ -1042,16 +965,18 @@ describe Task do
       context 'because only filtered out attributes changed' do
         before do
           task.created_at = 4.days.ago
+          task.unclaimed_at = 4.days.ago
           task.updated_at = 3.days.ago
           task.assigned_at = 3.days.ago
-          task.started_at = 2.days.ago
           task.claimed_at = 1.days.ago
+          task.blocked_internal_at = 1.days.ago
+          task.blocked_external_at = 1.days.ago
           task.completed_at = 2.days.ago
           task.abandoned_at = 10.days.ago
           task.assignor_id = 2
           task.abandoner_id = 5
           task.creator_id = 3
-          task.state = 'unstarted'
+          task.state = 'unclaimed'
           task.visible_in_queue = true
           task.stub(:previous_changes) { task.changes }
         end

@@ -24,9 +24,9 @@ resource "Sessions" do
         explanation 'returns the user and auth_token and set disabled at'
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
-        expect(user.sessions.count).to eq(1)
-        expect(user.sessions.last.disabled_at).not_to eq(nil)
-        expect(body[:auth_token]).to eq(user.sessions.first.auth_token)
+        expect(user.care_portal_sessions.count).to eq(1)
+        expect(user.care_portal_sessions.last.disabled_at).not_to eq(nil)
+        expect(body[:auth_token]).to eq(user.care_portal_sessions.first.auth_token)
         expect(body[:user].to_json).to eq(user.serializer(include_roles: true).as_json.to_json)
       end
     end

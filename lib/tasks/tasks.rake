@@ -149,4 +149,53 @@ namespace :tasks do
       end
     end
   end
+
+  desc "Backfill unstarted/started tasks to unclaimed/claimed"
+  task :backfill_tasks_from_unstarted_started_to_claimed_unclaimed => :environment do
+    puts "Updating unstarted tasks without a member to unclaimed tasks\n:"
+    Task.where(state: :unstarted, owner_id: nil).update_all(state: :unclaimed)
+
+    puts "Updating unstarted tasks without a member to claiemd tasks \n:"
+    Task.where(state: :unstarted).where('owner_id IS NOT NULL').update_all("state = 'claimed', claimed_at = assigned_at")
+
+    puts "Updating started tasks to claimed tasks \n:"
+    Task.where(state: :started).update_all("state = 'claimed', claimed_at = assigned_at")
+  end
+
+  desc "Backfill tasks with queues"
+  task :backfill_tasks_with_queues => :environment do
+    puts "Updating open tasks with the correct queue...\n"
+    Task.open_state.find_each do |t|
+      if t.owner.try(:specialist?)
+        t.update_attribute(:queue, :specialist)
+      elsif t.for_nurse?
+        t.update_attribute(:queue, :nurse)
+      elsif t.type == 'PhoneCallTask'
+        t.update_attribute(:queue, :hcc)
+      elsif t.type == 'MessageTask'
+        if t.owner_id && t.message.consult.initiator.pha_id == t.owner_id
+          t.update_attribute(:queue, :pha)
+        else
+          t.update_attribute(:queue, :hcc)
+        end
+      else
+        t.update_attribute(:queue, t.default_queue)
+      end
+    end
+
+    puts "Updating message tasks to HCC queue...\n"
+    MessageTask.where(state: %i(completed abandoned)).update_all(queue: :hcc)
+
+    puts "Updating member tasks to PHA queue...\n"
+    MemberTask.where(state: %i(completed abandoned)).update_all(queue: :pha)
+
+    puts "Updating nurse PhoneCallTasks to nurse queue...\n"
+    PhoneCallTask.joins(:role).where(state: %i(completed abandoned)).where('roles.name = "nurse"').update_all(queue: :nurse)
+
+    puts "Updating other PhoneCallTasks to hcc queue...\n"
+    PhoneCallTask.joins(:role).where(state: %i(completed abandoned)).where('roles.name <> "nurse"').update_all(queue: :hcc)
+
+    puts "Updating all other tasks to PHA queue..\n"
+    Task.where(state: %i(completed abandoned)).where(queue: nil).update_all(queue: :pha)
+  end
 end
