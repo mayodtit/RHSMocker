@@ -54,7 +54,42 @@ describe Api::V1::PhoneNumbersController do
     end
   end
 
-  describe "GET show"
-  describe "PUT update"
+  describe "GET show" do
+    def do_request
+      get :show, user_id: user.id, id: phone_number.id
+    end
+
+    it_behaves_like "action requiring authentication and authorization"
+
+    context 'authenticated and authorized', user: :authenticate_and_authorize! do
+      it_behaves_like 'success'
+
+      it 'returns the phone number' do
+        do_request
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:phone_number].to_json).to eq(phone_number.serializer.as_json.to_json)
+      end
+    end
+  end
+
+  describe "PUT update" do
+    def do_request
+      put :update, user_id: user.id, id: phone_number.id, phone_number: { number: "4257654321" }
+    end
+
+    it_behaves_like 'action requiring authentication and authorization'
+
+    context 'authenticated and authorized', user: :authenticate_and_authorize! do
+      it_behaves_like 'success'
+
+      it 'returns the updated phone number' do
+        do_request
+        body = JSON.parse(response.body, symbolize_names: true)
+        phone_number.number = "4257654321"
+        expect(body[:phone_number].to_json).to eq(phone_number.serializer.as_json.to_json)
+      end
+    end
+  end
+
   describe "DELETE destroy"
 end
