@@ -13,7 +13,9 @@ module TimeoutModule
   end
 
   def keep_alive(expires_at=15.minutes.from_now)
-    update_attribute(:disabled_at, expires_at)
+    if FeatureFlag.find_by_mkey('idle_timeout').try(:enabled?)
+      update_attribute(:disabled_at, expires_at)
+    end
   end
 
   alias_method :destroy!, :destroy

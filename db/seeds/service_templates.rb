@@ -909,3 +909,57 @@ ServiceTemplate.upsert_attributes({name: "Book PT Appointment"},
                                    service_type: ServiceType.find_by_name('appointment booking'),
                                    time_estimate: 240}
 )
+
+INSURANCE_CALL_DESCRIPTION = <<-eof
+**This service is assigned to PHA**
+
+#Member Request
+* **Member:**
+* **Date of birth:**
+
+* **Insurance company:**
+* **Insurance phone number:**
+* **Insurance plan type:**
+* **Insurance member ID:**
+
+* ** Authorization on file** Yes/No
+* **If yes, who:**
+* ** Time window to conference member:**
+* ** Member Phone number:**
+
+
+* **Reason for call/Background:**
+* **Questions to ask:**
+* **Possible next steps:**
+
+#Specialist Notes
+Date of call:
+Who you spoke with:
+Notes from call:
+
+#Service update:
+
+#PHA next steps:
+
+#Specialist next steps:
+
+eof
+
+INSURANCE_CALL_UPDATE = <<-eof
+#Service Deliverable Draft
+
+eof
+
+INSURANCE_CALL_REQUEST = <<-eof
+Call {insurance company} for {long reason}
+eof
+
+ServiceTemplate.upsert_attributes({name: "Insurance Call"},
+                                  {title: "Call {insurance company} for {short reason}",
+                                   description: INSURANCE_CALL_DESCRIPTION,
+                                   service_update: INSURANCE_CALL_UPDATE,
+                                   service_request: INSURANCE_CALL_REQUEST,
+                                   user_facing: true,
+                                   service_type: ServiceType.find_by_name('insurance call'),
+                                   time_estimate: 120}
+)

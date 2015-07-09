@@ -1102,7 +1102,7 @@ My phone: 650-887-3711
       if st.state == nil && st.unique_id == nil
         st.state = 'published'
         st.send(:set_unique_id)
-        st.save!
+        st.save(validate: false)
       end
     end
   end

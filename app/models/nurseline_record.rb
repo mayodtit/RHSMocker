@@ -7,7 +7,7 @@ class NurselineRecord < ActiveRecord::Base
 
   validates :api_user, :payload, presence: true
 
-  after_create :create_processing_job
+  after_commit :create_processing_job, on: :create
 
   private
 

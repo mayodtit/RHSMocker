@@ -713,6 +713,8 @@ ActiveRecord::Schema.define(:version => 20150705163558) do
     t.boolean  "skip_emails",                   :default => false, :null => false
     t.string   "welcome_email_template"
     t.integer  "welcome_message_template_id"
+    t.string   "header_asset"
+    t.string   "background_asset"
   end
 
   add_index "onboarding_groups", ["pha_id"], :name => "index_onboarding_groups_on_pha_id"

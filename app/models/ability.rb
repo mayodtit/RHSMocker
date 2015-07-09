@@ -32,6 +32,10 @@ class Ability
       user.id == p.subject.user_id
     end
 
+    can :manage, PhoneNumber do |p|
+      user.id == p.phoneable_id && p.phoneable_type == "User"
+    end
+
     can :manage, Permission do |p|
       user.id == p.subject.associate_id || user.id == p.subject.associate.owner_id
     end
@@ -65,8 +69,6 @@ class Ability
     can :read, SuggestedService do |o|
       user.id == o.user_id
     end
-
-    can :read, FeatureFlag
 
     cannot :manage, Program
     cannot :manage, CustomCard
@@ -125,6 +127,7 @@ class Ability
 
       can :manage, ScheduledPhoneCall
       can :index, ScheduledPhoneCall
+      can :manage, PhoneNumber
       can :create, Card
       can :manage, ScheduledMessage
       can :manage, ScheduledCommunication

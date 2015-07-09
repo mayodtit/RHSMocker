@@ -24,6 +24,12 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
                                        :to_role_id)
   end
 
+  def phone_number
+    params.require(:phone_number).permit(:number,
+                                         :type,
+                                         :primary)
+  end
+
   def onboarding_group
     params.require(:onboarding_group).permit(:name,
                                              :premium,
@@ -111,7 +117,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def service_template_attributes
-    params.require(:service_template).permit(:service_template_id, :name, :title, :description, :subject_id, :owner_id, :service_type, :service_type_id, :time_estimate, :member_id, :user_facing, :service_request, :service_deliverable, :service_update, :unique_id, :state_event)
+    params.require(:service_template).permit(:service_template_id, :name, :title, :description, :subject_id, :owner_id, :service_type, :service_type_id, :time_estimate, :member_id, :user_facing, :service_request, :service_deliverable, :service_update, :unique_id, :state_event, :timed_service)
   end
 
   def service_attributes

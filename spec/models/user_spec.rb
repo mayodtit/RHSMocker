@@ -398,6 +398,39 @@ describe User do
     end
   end
 
+  describe "phone numbers" do
+    let(:user)  do
+      u = create :user
+      u.phone = "4153333333"
+      u.work_phone_number = "4154444444"
+      u.text_phone_number = "4155555555"
+      u
+    end
+
+    context ".create" do
+      it "creates a phone number" do
+        expect(user.phone).to eq "4153333333"
+      end
+      it "creates a work phone number" do
+        expect(user.work_phone_number).to eq "4154444444"
+      end
+      it "creates a text phone number" do
+        expect(user.text_phone_number).to eq "4155555555"
+      end
+    end
+
+    context ".update" do
+      it "updates phone using setter" do
+        user.phone = "4156666666"
+        expect(user.phone).to eq "4156666666"
+      end
+      it "updates using update_attributes" do
+        user.update_attributes(phone: "4157777777")
+        expect(user.phone).to eq "4157777777"
+      end
+    end
+  end
+
   describe '#track_update' do
     let!(:user) { create :user }
 

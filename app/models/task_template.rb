@@ -23,11 +23,18 @@ class TaskTemplate < ActiveRecord::Base
                   :service_ordinal, :service_template, :service_template_id,
                   :modal_template
 
+  before_validation :copy_title_to_name
   validates :name, :title, presence: true
   validate :no_placeholders_in_user_facing_attributes
 
   def calculated_due_at(time=Time.now)
     time.business_minutes_from(time_estimate.to_i)
+  end
+
+  def copy_title_to_name
+    if !self.name
+      self.name = self.title
+    end
   end
 
   def create_deep_copy!(override_service_template=nil)

@@ -43,7 +43,7 @@ class Message < ActiveRecord::Base
   before_validation :attach_user_image, if: ->(m){m.user_image_client_guid}, on: :create
   before_validation :fix_bad_markdown_links, on: :create
   after_commit :publish, on: :create
-  after_create :notify_initiator
+  after_commit :notify_initiator, on: :create
   after_create :create_task
   after_create :update_initiator_last_contact_at
   after_create :activate_consult
