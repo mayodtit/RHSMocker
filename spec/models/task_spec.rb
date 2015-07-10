@@ -537,7 +537,7 @@ describe Task do
   end
 
   describe '#publish' do
-    let(:task) { build(:task) }
+    let(:task) { build(:task, queue: :pha) }
 
     context 'is called after' do
       it 'create' do
@@ -645,6 +645,20 @@ describe Task do
           task.publish
         end
       end
+    end
+
+    it 'should publish to the tasks queue channel' do
+      task.stub(:id_changed?) { true }
+      PubSub.should_receive(:publish).with(
+        "/tasks/new",
+        {id: task.id},
+        nil
+      )
+      PubSub.should_receive(:publish).with(
+      '/tasks/queue/pha',
+       { id: task.id }
+      )
+      task.publish
     end
   end
 
