@@ -4,8 +4,6 @@ class OffboardMemberTask < Task
 
   validates :member, :service_type, presence: true
 
-  before_validation :set_owner, on: :create
-
   def self.create_if_only_for_current_free_trial(member)
     if member.free_trial_ends_at && where(member_id: member.id, member_free_trial_ends_at: member.free_trial_ends_at).count == 0
       create member: member
@@ -20,6 +18,7 @@ class OffboardMemberTask < Task
     self.creator = Member.robot
     self.due_at = 1.business_day.before(member.free_trial_ends_at.pacific)
     self.member_free_trial_ends_at = member.free_trial_ends_at
+    self.owner ||= member.try(:pha)
     super
   end
 end

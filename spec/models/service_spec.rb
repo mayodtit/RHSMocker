@@ -161,7 +161,7 @@ describe Service do
 
   describe '#create_tasks' do
     before do
-      Timecop.freeze
+      Timecop.freeze(Time.parse('2015-07-09 12:00:00 -0700'))
     end
 
     after do
@@ -177,7 +177,7 @@ describe Service do
 
         it 'should create tasks with that ordinal starting at the due date' do
           expect{ service.reload.create_next_ordinal_tasks(-1, 1.day.from_now) }.to change(Task, :count).by(1)
-          expect(service.tasks.last.due_at).to eq(task_template.calculated_due_at(1.day.from_now + task_template.time_estimate))
+          expect(service.tasks.last.due_at).to eq(task_template.calculated_due_at(1.day.from_now))
         end
       end
 
@@ -189,7 +189,7 @@ describe Service do
 
         it 'should create tasks with that ordinal starting now' do
           expect{ service.reload.create_next_ordinal_tasks(-1, 1.day.from_now) }.to change(Task, :count).by(1)
-          expect(service.tasks.last.due_at).to eq(task_template.calculated_due_at(Time.now + task_template.time_estimate))
+          expect(service.tasks.last.due_at).to eq(task_template.calculated_due_at(Time.now))
         end
       end
     end

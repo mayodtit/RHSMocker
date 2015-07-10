@@ -2,108 +2,87 @@ require 'spec_helper'
 
 describe NewMemberTask do
   it_has_a 'valid factory'
+  it_validates 'presence of', :member
 
-  describe 'validations' do
-    it_validates 'presence of', :member
-  end
+  describe 'defaults' do
+    let(:pha) { create(:pha) }
+    let(:user) { create(:member, :premium, pha: pha) }
 
-  describe '#set_due_at' do
-    let(:task) { build :new_member_task }
-
-    context 'due_at is present' do
-      before do
-        task.stub(:due_at) { Time.now }
-      end
-
-      it 'does nothing' do
-        task.should_not_receive :due_at=
-        task.set_due_at
-      end
+    it 'sets the owner' do
+      task = create(:new_member_task, member: user, owner: nil)
+      expect(task.owner).to eq(pha)
     end
 
-    context 'due_at is not present' do
-      before do
-        task.due_at = nil
-      end
+    describe 'due_at' do
+      let(:task) { build(:new_member_task, due_at: nil) }
 
-      after do
-        Timecop.return
-      end
-
-      context 'now is while phas on call' do
+      context 'PHAs are on call' do
         before do
-          Timecop.freeze Time.parse('Mon, 30 Jun 2014 8:00:00 PDT -07:00')
+          Timecop.freeze
+          Role.stub_chain(:pha, :during_on_call?).and_return(true)
         end
 
-        before do
-          Role.stub_chain(:pha, :during_on_call?) { true }
+        after do
+          Timecop.return
         end
 
-        it 'sets due at to end of work day' do
-          task.set_due_at
-          task.due_at.should == Time.parse('Mon, 30 Jun 2014 18:00:00 PDT -07:00')
+        it 'sets due_at to 6PM today' do
+          expect(task.due_at).to be_nil
+          task.valid?
+          expect(task.due_at).to eq(Time.now.change(hour: 18))
         end
       end
 
-      context 'now is not while phas on call' do
+      context 'PHAs not on call' do
         before do
-          Role.stub_chain(:pha, :during_on_call?) { false }
+          Role.stub_chain(:pha, :during_on_call?).and_return(false)
         end
 
-        context 'now is sunday' do
+        context 'on the weekend' do
           before do
-            Timecop.freeze Time.parse('Sun, 29 Jun 2014 8:00:00 PDT -07:00')
+            Timecop.freeze(Time.parse('2015-07-11 12:00:00 -0700'))
           end
 
-          it 'sets due at to beginning of next work day' do
-            task.set_due_at
-            task.due_at.should == Time.parse("Mon, 30 Jun 2014 0#{ON_CALL_START_HOUR}:00:00 PDT -07:00")
+          after do
+            Timecop.return
+          end
+
+          it 'sets due_at to next weekday at ON_CALL_START_HOUR' do
+            expect(task.due_at).to be_nil
+            task.valid?
+            expect(task.due_at).to eq(Time.parse('2015-07-13 6:00:00 -0700'))
           end
         end
 
-        context 'now is saturday' do
+        context 'before midnight' do
           before do
-            Timecop.freeze Time.parse('Sat, 28 Jun 2014 8:00:00 PDT -07:00')
+            Timecop.freeze(Time.parse('2015-07-09 23:00:00 -0700'))
           end
 
-          it 'sets due at to beginning of next work day' do
-            task.set_due_at
-            task.due_at.should == Time.parse("Mon, 30 Jun 2014 0#{ON_CALL_START_HOUR}:00:00 PDT -07:00")
+          after do
+            Timecop.return
+          end
+
+          it 'sets due_at to tomorrow before noon' do
+            expect(task.due_at).to be_nil
+            task.valid?
+            expect(task.due_at).to eq(Time.parse('2015-07-10 12:00:00 -0700'))
           end
         end
 
-        context 'now is a weekday' do
-          context 'now is past 9pm' do
-            before do
-              Timecop.freeze Time.parse('Mon, 30 Jun 2014 21:00:00 PDT -07:00')
-            end
-
-            it 'sets due at to the middle of the next work day' do
-              task.set_due_at
-              task.due_at.should == Time.parse('Tues, 31 Jun 2014 12:00:00 PDT -07:00')
-            end
+        context 'after midnight' do
+          before do
+            Timecop.freeze(Time.parse('2015-07-10 01:00:00 -0700'))
           end
 
-          context 'now is before 9am' do
-            before do
-              Timecop.freeze Time.parse('Mon, 30 Jun 2014 02:00:00 PDT -07:00')
-            end
-
-            it 'sets due at to end of the work day' do
-              task.set_due_at
-              task.due_at.should == Time.parse('Mon, 30 Jun 2014 18:00:00 PDT -07:00')
-            end
+          after do
+            Timecop.return
           end
 
-          context 'now is between 9am and 6pm' do
-            before do
-              Timecop.freeze Time.parse('Mon, 30 Jun 2014 02:00:00 PDT -07:00')
-            end
-
-            it 'sets due at to the end of the work day' do
-              task.set_due_at
-              task.due_at.should == Time.parse('Mon, 30 Jun 2014 18:00:00 PDT -07:00')
-            end
+          it 'sets due_at to 6PM today' do
+            expect(task.due_at).to be_nil
+            task.valid?
+            expect(task.due_at).to eq(Time.parse('2015-07-10 18:00:00 -0700'))
           end
         end
       end
