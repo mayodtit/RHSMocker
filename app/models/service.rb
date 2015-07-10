@@ -99,6 +99,7 @@ class Service < ActiveRecord::Base
     end
   end
 
+  # WIP
   def check_current_task_template_result(current_task_template_set)
     current_task_template_set.task
   end
