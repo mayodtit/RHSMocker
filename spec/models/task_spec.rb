@@ -555,6 +555,7 @@ describe Task do
     context 'new record' do
       before do
         task.stub(:id_changed?) { true }
+        task.stub(:queue) { nil }
       end
 
       it 'publishes that a new phone call was created' do
@@ -572,6 +573,7 @@ describe Task do
 
       before do
         task.stub(:id_changed?) { false }
+        task.stub(:queue) { nil }
       end
 
       it 'publishes that a phone call was updated' do
@@ -594,6 +596,7 @@ describe Task do
 
       before do
         task.stub(:owner_id) { 3 }
+        task.stub(:queue) { nil }
       end
 
       it 'published to the owners channel' do
@@ -612,6 +615,7 @@ describe Task do
 
       before do
         task.stub(:owner_id_changed?) { true }
+        task.stub(:queue) { nil }
       end
 
       context 'there was a previous owner' do
