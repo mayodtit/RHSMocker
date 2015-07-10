@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150710221931) do
+ActiveRecord::Schema.define(:version => 20150710231404) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1222,28 +1222,6 @@ ActiveRecord::Schema.define(:version => 20150710221931) do
     t.datetime "updated_at",                  :null => false
     t.string   "type"
   end
-
-  create_table "task_requirement_templates", :force => true do |t|
-    t.string   "title",            :null => false
-    t.text     "description"
-    t.integer  "task_template_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
-  end
-
-  add_index "task_requirement_templates", ["task_template_id"], :name => "index_task_requirement_templates_on_task_template_id"
-
-  create_table "task_requirements", :force => true do |t|
-    t.string   "title",                                          :null => false
-    t.text     "description"
-    t.integer  "task_requirement_template_id"
-    t.integer  "task_id"
-    t.boolean  "completed",                    :default => true
-    t.datetime "created_at",                                     :null => false
-    t.datetime "updated_at",                                     :null => false
-  end
-
-  add_index "task_requirements", ["task_requirement_template_id"], :name => "index_task_requirements_on_task_requirement_template_id"
 
   create_table "task_step_changes", :force => true do |t|
     t.integer  "task_step_id"
