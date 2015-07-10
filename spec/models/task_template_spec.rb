@@ -4,7 +4,14 @@ describe TaskTemplate do
   it_has_a 'valid factory'
 
   describe 'validations' do
+    before do
+      described_class.any_instance.stub(:copy_title_to_name)
+    end
+
+    it_validates 'presence of', :name
     it_validates 'presence of', :title
+    it_validates 'foreign key of', :service_template
+    it_validates 'foreign key of', :modal_template
   end
 
   describe '#create_deep_copy!' do

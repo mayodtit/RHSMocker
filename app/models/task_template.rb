@@ -1,6 +1,4 @@
 class TaskTemplate < ActiveRecord::Base
-  include ActiveModel::ForbiddenAttributesProtection
-
   belongs_to :service_template
   belongs_to :modal_template
   has_many :tasks
@@ -22,18 +20,14 @@ class TaskTemplate < ActiveRecord::Base
                   :service_ordinal, :service_template, :service_template_id,
                   :modal_template
 
-  before_validation :copy_title_to_name
   validates :name, :title, presence: true
-  validate :no_placeholders_in_user_facing_attributes
+  validates :service_template, presence: true, if: :service_template_id
+  validates :modal_template, presence: true, if: :modal_template_id
+
+  before_validation :copy_title_to_name
 
   def calculated_due_at(time=Time.now)
     time.business_minutes_from(time_estimate.to_i)
-  end
-
-  def copy_title_to_name
-    if !self.name
-      self.name = self.title
-    end
   end
 
   def create_deep_copy!(override_service_template=nil)
@@ -43,11 +37,9 @@ class TaskTemplate < ActiveRecord::Base
 
   private
 
-  def no_placeholders_in_user_facing_attributes
-    %i(name title description).each do |attribute|
-      if send(attribute).try(:match, RegularExpressions.brackets)
-        errors.add(attribute, "shouldn't contain any brackets other than markdown")
-      end
+  def copy_title_to_name
+    if !self.name
+      self.name = self.title
     end
   end
 end
