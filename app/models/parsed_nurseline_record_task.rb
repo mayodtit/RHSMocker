@@ -9,7 +9,12 @@ class ParsedNurselineRecordTask < Task
 
   private
 
+  def default_queue
+    :hcc
+  end
+
   def set_defaults
     self.priority ||= 8
+    super
   end
 end

@@ -9,6 +9,10 @@ class NewKinsightsMemberTask < Task
 
   private
 
+  def default_queue
+    :hcc
+  end
+
   def set_defaults
     self.title ||= "PHA Introduction - Kinsights"
     self.description ||= default_description

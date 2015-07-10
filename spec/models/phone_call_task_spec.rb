@@ -105,12 +105,12 @@ describe PhoneCallTask do
       end
     end
 
-    describe '#unstart' do
-      let(:task) { build :phone_call_task, :started }
+    describe '#unclaim' do
+      let(:task) { build :phone_call_task, :claimed }
 
       it 'unclaims a call' do
         task.phone_call.should_receive(:update_attributes!).with(state_event: :unclaim)
-        task.unstart!
+        task.unclaim!
       end
     end
 

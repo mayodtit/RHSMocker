@@ -9,6 +9,10 @@ class InsurancePolicyTask < Task
 
   private
 
+  def default_queue
+    :hcc
+  end
+
   TASK_DESCRIPTION = <<-eof
 1. Verify new insurance policy is in their profile.
 2. Acknowledge to the member that we've heard them and are processing their Insurance policy.

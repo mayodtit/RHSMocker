@@ -17,6 +17,10 @@ class UserRequestTask < Task
     super
   end
 
+  def default_queue
+    :hcc
+  end
+
   def set_user_request_subject
     if subject_id_changed? && user_request.subject != subject
       user_request.update_attributes! subject: subject

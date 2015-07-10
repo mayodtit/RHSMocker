@@ -7,6 +7,7 @@ class PhoneCallTask < Task
 
   validates :phone_call, presence: true
   validate :one_open_per_phone_call, if: :open?
+  validate :one_claimed_per_owner
 
   delegate :consult, to: :phone_call
 
@@ -39,6 +40,14 @@ class PhoneCallTask < Task
 
   private
 
+  def default_queue
+    if (role && for_nurse?) || phone_call.to_nurse?
+      :nurse
+    else
+      :hcc
+    end
+  end
+
   def set_defaults
     self.member ||= phone_call.try(:user)
     self.role ||= phone_call.try(:to_role)
@@ -58,8 +67,17 @@ class PhoneCallTask < Task
     search_scope.any?
   end
 
-  state_machine :initial => :unstarted do
-    before_transition any => :unstarted do |task|
+  def one_claimed_per_owner
+    if claimed?
+      task = self.class.find_by_owner_id_and_state(owner_id, :claimed)
+      if task && task.id != id
+        errors.add(:state, "cannot claim more than one phone call task.")
+      end
+    end
+  end
+
+  state_machine :initial => :unclaimed do
+    before_transition any => :unclaimed do |task|
       task.phone_call.update_attributes!(state_event: :unclaim)
     end
 

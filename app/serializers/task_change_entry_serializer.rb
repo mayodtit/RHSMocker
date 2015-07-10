@@ -20,7 +20,7 @@ class TaskChangeEntrySerializer < ActiveModel::Serializer
       'created'
     elsif object.event == 'update'
       'updated'
-    elsif object.event == 'unstart' && object.data && object.data.keys.first == "owner_id"
+    elsif object.event == 'update' && object.data && object.data.keys.first == "owner_id"
       'assigned'
     else
       object.to

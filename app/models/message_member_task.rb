@@ -12,6 +12,10 @@ class MessageMemberTask < Task
 
   private
 
+  def default_queue
+    :pha
+  end
+
   def set_defaults
     self.title = "Message member"
     self.description = "Member has not been messages in a week. Please send them a message."

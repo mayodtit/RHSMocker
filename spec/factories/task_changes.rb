@@ -5,8 +5,6 @@ FactoryGirl.define do
     association :task, factory: :member_task
     association :actor, factory: :member
     event 'update'
-    from 'unstarted'
-    to 'started'
     data({description: ['first description', 'second description']})
     created_at "2014-10-09 16:39:14"
   end

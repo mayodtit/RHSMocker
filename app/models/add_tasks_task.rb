@@ -12,6 +12,10 @@ class AddTasksTask < Task
 
   private
 
+  def default_queue
+    :pha
+  end
+
   def set_defaults
     self.title = "Find new services for member"
     self.description = "The member current has no tasks in progress."

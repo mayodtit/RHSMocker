@@ -62,6 +62,14 @@ FactoryGirl.define do
       end
       factory :nurse, traits: %i(nurse_role)
 
+      trait :specialist_role do
+        after(:create) do |user|
+          user.add_role(:specialist)
+          user.work_phone_number = '4083913578'
+        end
+      end
+      factory :specialist, traits: %i(specialist_role)
+
       trait :pha_role do
         after(:create) do |user|
           user.add_role(:pha)

@@ -30,6 +30,10 @@ class MessageTask < Task
 
   private
 
+  def default_queue
+    :hcc
+  end
+
   def one_open_per_consult
     if open_message_tasks_for_consult?
       errors.add(:consult_id, "open MessageTask already exists for Consult #{consult_id}")
@@ -61,25 +65,5 @@ class MessageTask < Task
                     end
 
     super
-  end
-
-  state_machine do
-    event :flag do
-      transition any => :spam
-    end
-
-    before_transition any - [:unstarted] => :spam do |task|
-      task.assignor = task.owner
-      task.assigned_at = Time.now
-      task.owner = Member.geoff
-    end
-
-    after_transition :spam => :completed do |task|
-      task.member.smackdown!
-    end
-
-    after_transition any => [:abandoned, :completed] do |task|
-      task.consult.deactivate! unless task.consult.inactive?
-    end
   end
 end

@@ -21,6 +21,10 @@ class MemberTask < Task
 
   private
 
+  def default_queue
+    :pha
+  end
+
   def set_defaults
     self.priority ||= 3
     super

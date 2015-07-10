@@ -1101,6 +1101,8 @@ ActiveRecord::Schema.define(:version => 20150705163558) do
     t.string   "device_os_version"
     t.integer  "logging_level"
     t.integer  "logging_command"
+    t.string   "type"
+    t.string   "queue_mode"
   end
 
   add_index "sessions", ["advertiser_id"], :name => "index_sessions_on_advertiser_id"
@@ -1326,7 +1328,6 @@ ActiveRecord::Schema.define(:version => 20150705163558) do
     t.integer  "phone_call_summary_id"
     t.datetime "due_at"
     t.datetime "assigned_at"
-    t.datetime "started_at"
     t.datetime "claimed_at"
     t.datetime "completed_at"
     t.datetime "created_at",                                    :null => false
@@ -1352,6 +1353,11 @@ ActiveRecord::Schema.define(:version => 20150705163558) do
     t.boolean  "urgent",                     :default => false, :null => false
     t.boolean  "unread",                     :default => false, :null => false
     t.boolean  "follow_up",                  :default => false, :null => false
+    t.datetime "unclaimed_at"
+    t.datetime "blocked_internal_at"
+    t.datetime "blocked_external_at"
+    t.datetime "unblocked_at"
+    t.string   "queue"
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"

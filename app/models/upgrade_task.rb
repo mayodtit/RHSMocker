@@ -5,6 +5,10 @@ class UpgradeTask < Task
 
   private
 
+  def default_queue
+    :hcc
+  end
+
   def set_defaults
     self.priority ||= 6
     super
