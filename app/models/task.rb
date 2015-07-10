@@ -13,7 +13,6 @@ class Task < ActiveRecord::Base
   belongs_to :service_type
   belongs_to :task_template
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
-  has_many :task_guides, class_name: 'TaskGuide', through: :task_template
   has_many :task_requirements
   has_many :task_steps, inverse_of: :task,
                         dependent: :destroy
