@@ -10,7 +10,7 @@ describe MemberTask do
   end
   describe '#publish' do
     let(:task) { build(:member_task) }
-    
+
     context 'new record' do
       before do
         task.stub(:id) { 2 }
@@ -77,6 +77,7 @@ describe MemberTask do
         task.stub(:id_changed?) { true }
         task.stub(:member_id) { 1 }
         task.stub(:subject_id) { 5 }
+        task.stub(:queue) { nil }
       end
 
       it 'publishes that a new task was created' do
@@ -100,6 +101,7 @@ describe MemberTask do
         task.stub(:id_changed?) { false }
         task.stub(:member_id) { 1 }
         task.stub(:subject_id) { 5 }
+        task.stub(:queue) { nil }
       end
 
       it 'publishes that a task was updated' do
