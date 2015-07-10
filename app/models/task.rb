@@ -202,7 +202,7 @@ class Task < ActiveRecord::Base
     end
 
     after_transition any - :completed => :completed  do |task|
-      task.service.create_next_ordinal_tasks(task.service_ordinal, task.due_at) if task.service
+      task.service.create_next_task_template_set_tasks(task.task_template.task_template_set, task.due_at, check_result)
     end
 
     before_transition any - :abandoned => :abandoned do |task|

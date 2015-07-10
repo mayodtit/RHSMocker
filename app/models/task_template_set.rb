@@ -5,7 +5,7 @@ class TaskTemplateSet < ActiveRecord::Base
   # parent_id - for the parent TaskTemplateSet
   # affirmative_child_id - for the child if the result is affirmative
   # negative_child_id - for the child if the result is negative
-  attr_accessible :result, :service_template_id, :parent_id, :affirmative_child_id, :negative_child_id
+  attr_accessible :result, :service_template_id, :parent_id, :affirmative_child_id, :negative_child_id, :task_templates
 
   def create_parent_association!(parent_id)
     if self.parent_id.nil?

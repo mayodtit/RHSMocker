@@ -36,7 +36,7 @@ class Service < ActiveRecord::Base
 
   before_validation :set_defaults, on: :create
   before_validation :set_assigned_at
-  after_create :create_next_ordinal_tasks
+  after_create :create_next_task_template_set_tasks
   after_commit :track_update, on: :update
   after_commit :publish
 
@@ -66,6 +66,7 @@ class Service < ActiveRecord::Base
     end
   end
 
+=begin
   def create_next_ordinal_tasks(current_ordinal=-1, last_due_at=Time.now)
     return unless open? && service_template && tasks.open_state.empty?
     return if tasks.empty? && service_template.task_templates.empty?
@@ -81,6 +82,25 @@ class Service < ActiveRecord::Base
   def next_ordinal(current_ordinal)
     return unless service_template
     service_template.task_templates.where('service_ordinal > ?', current_ordinal).minimum(:service_ordinal)
+  end
+=end
+
+  # Needs to check for the Tasks for certain TaskTemplateSet. Result of all tasks of a certain TaskTemplateSet will result in the "result" of the TaskTemplateSet.
+
+  def create_next_task_template_set_tasks(current_task_template_set = self.service_template.task_template_sets.first, last_due_at=Time.now)
+    if current_task_template_set.result == true && (affirmative_child_id = current_task_template_set.affirmative_child_id)
+      TaskTemplateSet.find(affirmative_child_id).task_templates.each do |task_template|
+        task_template.create_task!(service: self, start_at: service_template.timed_service? ? last_due_at : Time.now, assignor: assignor)
+      end
+    elsif current_task_template_set.result == false && (negative_child_id = current_task_template_set.negative_child_id)
+      TaskTemplateSet.find(negative_child_id).task_templates.each do |task_template|
+        task_template.create_task!(service: self, start_at: service_template.timed_service? ? last_due_at : Time.now, assignor: assignor)
+      end
+    end
+  end
+
+  def check_current_task_template_result(current_task_template_set)
+    current_task_template_set.task
   end
 
   state_machine :initial => :open do
