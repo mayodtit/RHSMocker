@@ -2,10 +2,8 @@ class TaskTemplateSet < ActiveRecord::Base
   has_many :task_templates
   belongs_to :service_template
 
-  # parent_id - for the parent TaskTemplateSet
-  # affirmative_child_id - for the child if the result is affirmative
-  # negative_child_id - for the child if the result is negative
   attr_accessible :result, :service_template_id, :parent_id, :affirmative_child_id, :negative_child_id, :task_templates
+  validates :service_template_id, presence: true
 
   def create_association!(affirmative_child_id, negative_child_id)
     self.affirmative_child_id = affirmative_child_id
