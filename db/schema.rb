@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150710180331) do
+ActiveRecord::Schema.define(:version => 20150713192929) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1214,7 +1214,6 @@ ActiveRecord::Schema.define(:version => 20150710180331) do
     t.datetime "created_at",           :null => false
     t.datetime "updated_at",           :null => false
     t.integer  "service_template_id"
-    t.integer  "parent_id"
     t.integer  "affirmative_child_id"
     t.integer  "negative_child_id"
   end
