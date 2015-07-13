@@ -7,7 +7,7 @@ class ServiceTemplate < ActiveRecord::Base
   attr_accessible :name, :title, :description, :service_type_id,
                   :service_type, :time_estimate, :timed_service,
                   :user_facing, :service_update, :service_request,
-                  :unique_id, :version, :state_event
+                  :unique_id, :version, :state_event, :task_template_sets
 
   validates :name, :title, :service_type, presence: true
   validates :user_facing, inclusion: {in: [true, false]}
@@ -98,6 +98,7 @@ class ServiceTemplate < ActiveRecord::Base
     end
   end
 
+  # An empty TaskTemplateSet associates with the current ServiceTemplate
   def create_initial_task_template_set
     TaskTemplateSet.create!(service_template_id: self.id)
   end

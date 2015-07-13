@@ -12,11 +12,7 @@ class Api::V1::TaskTemplateSetsController < Api::V1::ABaseController
   end
 
   def update
-    if params[:task_template_set].try(:[], :affirmative_child_id) || params[:task_template_set].try(:[], :negative_child_id)
-      @task_template_set.create_child_association!(permitted_params.task_template_set[:affirmative_child_id], permitted_params.task_template_set[:negative_child_id])
-    elsif params[:task_template_set].try(:[], :parent_id) # for the cases except the first TaskTemplateSet
-      @task_template_set.create_parent_association!(permitted_params.task_template_set[:parent_id])
-    end
+    @task_template_set.create_association!(permitted_params.task_template_set[:affirmative_child_id], permitted_params.task_template_set[:negative_child_id])
     update_resource(@task_template_set, permitted_params.task_template_set)
   end
 
