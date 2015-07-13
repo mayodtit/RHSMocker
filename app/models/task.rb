@@ -49,6 +49,7 @@ class Task < ActiveRecord::Base
   before_validation :reset_day_priority
   before_validation :mark_as_unread
   before_validation :set_queue, on: :create
+  before_validation :set_owner_based_on_queue
 
   after_commit :publish
   after_save :notify
@@ -148,6 +149,17 @@ class Task < ActiveRecord::Base
 
   def set_queue
     self.queue ||= default_queue
+  end
+
+  def set_owner_based_on_queue
+    if queue_changed?
+      if queue == :pha
+        self.set_owner
+      else
+        self.state_event = :unclaim
+        self.owner_id = nil
+      end
+    end
   end
 
   def mark_as_unread

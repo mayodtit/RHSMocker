@@ -4,7 +4,7 @@ class TaskTemplate < ActiveRecord::Base
   has_many :tasks
   has_many :task_guides
 
-  attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template
+  attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template, :queue
 
   before_validation :copy_title_to_name
   validates :name, :title, presence: true
@@ -28,7 +28,8 @@ class TaskTemplate < ActiveRecord::Base
       creator: creator,
       owner: owner,
       assignor: owner.present? ? (attributes[:assignor] || creator) : nil,
-      priority: priority || 0
+      priority: priority || 0,
+      queue: queue || :pha
     )
   end
 

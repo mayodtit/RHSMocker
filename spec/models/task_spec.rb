@@ -666,6 +666,38 @@ describe Task do
     end
   end
 
+  describe '#set_owner_based_on_queue' do
+    let(:task) { build :task }
+    let(:pha) { build :pha }
+    let(:member) {build :member, pha: pha}
+
+    context 'queue changes to PHA' do
+      before do
+        task.stub(:member) {member}
+        task.stub(:queue_changed?) {true}
+        task.stub(:queue) { :pha }
+      end
+
+      it 'should set the owner to the members PHA' do
+        task.set_owner_based_on_queue
+        task.owner.should == pha
+      end
+    end
+
+    context 'queue changes to other than pha' do
+      before do
+        task.stub(:queue_changed?) {true}
+        task.stub(:queue) { :hcc }
+      end
+
+      it 'should set the owner to nil' do
+        task.set_owner_based_on_queue
+        task.owner.should be_nil
+        task.should be_unclaimed
+      end
+    end
+  end
+
   describe 'states' do
     let(:task) { build :task }
     let(:pha) { build_stubbed :pha }
