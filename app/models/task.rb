@@ -154,10 +154,13 @@ class Task < ActiveRecord::Base
   def set_owner_based_on_queue
     if queue_changed?
       if queue == :pha
-        self.set_owner
-      else
+        if member && member.pha
+          self.owner = member.pha
+          self.assignor_id = actor_id || Member.robot.id
+          self.assigned_at = Time.now
+        end
+      elsif queue == :hcc
         self.state_event = :unclaim
-        self.owner_id = nil
       end
     end
   end
