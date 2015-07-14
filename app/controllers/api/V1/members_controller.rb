@@ -1,12 +1,8 @@
 class Api::V1::MembersController < Api::V1::ABaseController
-  skip_before_filter :authentication_check, only: :create
   before_filter :load_members!, only: :index
-  before_filter :load_member!, only: [:show, :update]
+  before_filter :load_member!, only: %i(show update)
   before_filter :convert_legacy_parameters!, only: :secure_update # TODO - remove when deprecated routes are removed
   before_filter :load_member_from_login!, only: :secure_update
-  before_filter :load_referral_code!, only: :create
-  before_filter :load_onboarding_group!, only: :create
-  before_filter :load_enrollment!, only: :create
   before_filter :convert_parameters!, only: [:create, :update, :update_current]
   before_filter :update_session_queue!, only: [:create, :update, :update_current], if: :session_valid?
 
@@ -22,88 +18,6 @@ class Api::V1::MembersController < Api::V1::ABaseController
                    member: @member.serializer(serializer_options)
   end
 
-  def current
-    render_success user: current_user.serializer(include_roles: true),
-                   member: current_user.serializer(include_roles: true)
-  end
-
-  def create
-    begin
-      ActiveRecord::Base.transaction do
-        @member = Member.create create_attributes
-        if @member.errors.empty?
-          @session = @member.sessions.create
-          if user_params[:payment_token]
-            CreateStripeSubscriptionService.new(user: @member,
-                                                plan_id: 'bp20',
-                                                credit_card_token: user_params[:payment_token],
-                                                trial_end: Time.zone.now.pacific.end_of_day + 1.month,
-                                                coupon_code: coupon_code).call
-          end
-          SendEmailToStakeholdersService.new(@member).call
-          if user_params[:business_on_board]
-            render_success
-            set_uout
-            generate_invitation_link
-            SendConfirmEmailService.new(@member).call
-            Mails::SendBusinessOnBoardInvitationEmailJob.create(@member.unique_on_boarding_user_token, @link) and
-            return
-          end
-          SendWelcomeEmailService.new(@member).call
-          SendConfirmEmailService.new(@member).call
-          SendDownloadLinkService.new(@member.phone).call if send_download_link?
-          NotifyReferrerWhenRefereeSignUpService.new(@referral_code, @member).call if @referral_code
-
-          # TODO - remove when unneeded
-          if mayo_pilot_2?
-            MemberTask.create(title: 'Discharge Instructions Follow Up',
-                              description: MAYO_PILOT_2_TASK_DESCRIPTION,
-                              due_at: 1.business_day.from_now,
-                              service_type: ServiceType.find_by_name('other engagement'),
-                              member: @member,
-                              subject: @member,
-                              owner: @member.pha,
-                              creator: Member.robot,
-                              assignor: Member.robot)
-          end
-
-          render_success user: @member.serializer,
-                         member: @member.reload.serializer,
-                         pha_profile: @member.pha.try(:pha_profile).try(:serializer),
-                         auth_token: @session.auth_token
-        else
-          render_failure({reason: @member.errors.full_messages.to_sentence,
-                          user_message: @member.errors.full_messages.to_sentence}, 422)
-        end
-      end
-    rescue Stripe::CardError => e
-      render_failure({reason: e.as_json['code'],
-                      user_message: e.as_json['message']}, 422) and return
-    rescue Stripe::StripeError => e
-      render_failure({reason: e.to_s,
-                      user_message: "There's an error with your credit card, please try another one"}, 422) and return
-    end
-  end
-
-  def update
-    if @member.update_attributes(permitted_params(@member).user)
-      render_success user: @member.serializer(serializer_options),
-                     member: @member.serializer(serializer_options)
-    else
-      render_failure({reason: @member.errors.full_messages.to_sentence}, 422)
-    end
-  end
-
-  def update_current
-    if current_user.update_attributes(permitted_params(current_user).user)
-      @member = Member.find(current_user.id) # force reload of CarrierWave image for correct URL
-      render_success user: @member.serializer,
-                     member: @member.serializer
-    else
-      render_failure({reason: current_user.errors.full_messages.to_sentence}, 422)
-    end
-  end
-
   def secure_update
     if @member.update_attributes(permitted_params(@member).secure_user)
       render_success user: @member.serializer,
@@ -114,24 +28,6 @@ class Api::V1::MembersController < Api::V1::ABaseController
   end
 
   private
-
-  def generate_invitation_link
-    if Rails.env.development?
-      @link = "better-dev://nb?cmd=onBoarding&uout=#{@member.unique_on_boarding_user_token}"
-    elsif Rails.env.production?
-      @link = "better://nb?cmd=onBoarding&uout=#{@member.unique_on_boarding_user_token}"
-    elsif Rails.env.qa?
-      @link = "better-qa://nb?cmd=onBoarding&uout=#{@member.unique_on_boarding_user_token}"
-    end
-  end
-
-  def set_uout
-    unique_on_boarding_user_token ||= loop do
-      new_token = Base64.urlsafe_encode64(SecureRandom.base64(36))
-      break new_token unless Member.exists?(unique_on_boarding_user_token: new_token)
-    end
-    @member.update_attributes(unique_on_boarding_user_token: unique_on_boarding_user_token)
-  end
 
   def load_members!
     authorize! :index, Member
@@ -155,7 +51,11 @@ class Api::V1::MembersController < Api::V1::ABaseController
   end
 
   def load_member!
-    @member = Member.find(params[:id])
+    @member = if params[:id] == 'current'
+                current_user
+              else
+                Member.find(params[:id])
+              end
     authorize! :manage, @member
   end
 
@@ -181,23 +81,6 @@ class Api::V1::MembersController < Api::V1::ABaseController
     authorize! :manage, @member
   end
 
-  def load_referral_code!
-    @referral_code = ReferralCode.find_by_code(user_params[:code]) if user_params[:code]
-  end
-
-  def load_onboarding_group!
-    @onboarding_group = @referral_code.try(:onboarding_group)
-    @onboarding_group ||= OnboardingGroup.find_by_name('Generic 14-day trial onboarding group') if Metadata.signup_free_trial?
-  end
-
-  def coupon_code
-    @onboarding_group ? @onboarding_group.stripe_coupon_code : nil
-  end
-
-  def load_enrollment!
-    @enrollment = Enrollment.find_by_token(user_params[:enrollment_token]) if user_params[:enrollment_token]
-  end
-
   def convert_parameters!
     user_params[:avatar] = decode_b64_image(user_params[:avatar]) if user_params[:avatar]
     %w(user_information address insurance_policy provider emergency_contact).each do |key|
@@ -208,29 +91,12 @@ class Api::V1::MembersController < Api::V1::ABaseController
     user_params[:actor_id] = current_user.id if current_user
   end
 
-  def user_agreements_attributes
-    return [] unless Agreement.active
-    if user_params[:agreement_id]
-      [
-        {
-          agreement_id: user_params[:agreement_id],
-          ip_address: request.remote_ip,
-          user_agent: request.env['HTTP_USER_AGENT']
-        }
-      ]
-    elsif user_params[:tos_checked] && Metadata.allow_tos_checked?
-      [
-        {
-          agreement_id: Agreement.active.id,
-          ip_address: request.remote_ip,
-          user_agent: request.env['HTTP_USER_AGENT']
-        }
-      ]
-    end
-  end
-
   def user_params
     params.fetch(:user){params.require(:member)}
+  end
+
+  def session_valid?
+    current_session ? true : false
   end
 
   def update_session_queue!
@@ -241,38 +107,4 @@ class Api::V1::MembersController < Api::V1::ABaseController
       end
     end
   end
-
-  def session_valid?
-    current_session ? true : false
-  end
-
-  def serializer_options
-    {}.tap do |options|
-      options.merge!(include_nested_information: true, include_roles: true) if current_user.care_provider?
-      options.merge!(include_onboarding_information: true) if current_user.admin? || current_user.pha? || current_user.pha_lead?
-    end
-  end
-
-  def create_attributes
-    permitted_params.user.tap do |attributes|
-      attributes[:referral_code] = @referral_code if @referral_code
-      attributes[:onboarding_group] = @onboarding_group if @onboarding_group
-      attributes[:enrollment] = @enrollment if @enrollment
-      attributes[:time_zone] = params[:device_properties].try(:[], :device_timezone)
-    end
-  end
-
-  def send_download_link?
-    params[:send_download_link]
-  end
-
-  def mayo_pilot_2?
-    @onboarding_group.try(:name) == 'Mayo Pilot 2'
-  end
-
-  MAYO_PILOT_2_TASK_DESCRIPTION = <<-eof
-1. Check if you've been assigned a "Review Discharge Plan and save information" task from Paul/Meg
-2. Follow up with Paul/Meg if there is no task.
-3. Follow "What to do if No Discharge Received" (https://betterpha.squarespace.com/config#/|/stroke-resources/) if you have not been assigned a review discharge form task for patient within 24 hours
-  eof
 end
