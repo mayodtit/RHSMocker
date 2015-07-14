@@ -837,7 +837,7 @@ describe Member do
           o = Object.new
           o.stub(:where).with(visible_in_queue: true, :unread=>false, :urgent=>false) do
             o_o = Object.new
-            o_o.stub(:includes).with(:member) do
+            o_o.stub(:includes).with(:member, :member => :phone_numbers) do
               o_o_o = Object.new
               o_o_o.stub(:order).with('due_at DESC') { tasks }
               o_o_o
