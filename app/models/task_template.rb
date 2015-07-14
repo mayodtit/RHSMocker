@@ -28,7 +28,8 @@ class TaskTemplate < ActiveRecord::Base
       creator: creator,
       owner: owner,
       assignor: owner.present? ? (attributes[:assignor] || creator) : nil,
-      priority: priority || 0
+      priority: priority || 0,
+      time_zone: attributes[:service] ? attributes[:service].time_zone : attributes[:subject].time_zone
     )
   end
 

@@ -21,7 +21,7 @@ class Task < ActiveRecord::Base
   has_one :entry, as: :resource
 
   attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id
-  attr_accessible :title, :description, :due_at, :queue,
+  attr_accessible :title, :description, :due_at, :queue, :time_zone,
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
                   :abandoner, :abandoner_id, :role, :role_id,
@@ -49,6 +49,7 @@ class Task < ActiveRecord::Base
   before_validation :reset_day_priority
   before_validation :mark_as_unread
   before_validation :set_queue, on: :create
+  before_validation :set_time_zone, on: :create
 
   after_commit :publish
   after_save :notify
@@ -148,6 +149,10 @@ class Task < ActiveRecord::Base
 
   def set_queue
     self.queue ||= default_queue
+  end
+
+  def set_time_zone
+    self.time_zone ||= service.try(:time_zone) || member.try(:time_zone)
   end
 
   def mark_as_unread

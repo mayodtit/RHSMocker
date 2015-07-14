@@ -177,6 +177,7 @@ class Service < ActiveRecord::Base
     self.owner ||= member.try(:pha)
     self.assignor ||= creator
     self.actor_id ||= creator.try(:id)
+    self.time_zone ||= member.try(:time_zone)
     true
   end
 
