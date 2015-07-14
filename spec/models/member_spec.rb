@@ -860,7 +860,7 @@ describe Member do
           o = Object.new
           o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
             o_o = Object.new
-            o_o.stub(:includes).with(:member) do
+            o_o.stub(:includes).with(:member, :member => :phone_numbers) do
               o_o_o = Object.new
               o_o_o.stub(:order).with('due_at DESC') { tasks }
               o_o_o
@@ -889,7 +889,7 @@ describe Member do
             o_o = Object.new
             o_o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
               o_o_o = Object.new
-              o_o_o.stub(:includes).with(:member) do
+              o_o_o.stub(:includes).with(:member, :member => :phone_numbers) do
                 o_o_o_o = Object.new
                 o_o_o_o.stub(:order).with('due_at DESC') { tasks }
                 o_o_o_o
@@ -912,7 +912,7 @@ describe Member do
             o_o = Object.new
             o_o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
               o_o_o = Object.new
-              o_o_o.stub(:includes).with(:member) do
+              o_o_o.stub(:includes).with(:member, :member => :phone_numbers) do
                 o_o_o_o = Object.new
                 o_o_o_o.stub(:order).with('due_at DESC') { tasks }
                 o_o_o_o
