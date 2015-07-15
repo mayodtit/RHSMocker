@@ -29,7 +29,7 @@ class TaskTemplate < ActiveRecord::Base
       owner: owner,
       assignor: owner.present? ? (attributes[:assignor] || creator) : nil,
       priority: priority || 0,
-      time_zone: attributes[:service] ? attributes[:service].time_zone : attributes[:subject].time_zone
+      time_zone: attributes[:service] ? attributes[:service].time_zone : attributes[:subject].try(:time_zone)
     )
   end
 
