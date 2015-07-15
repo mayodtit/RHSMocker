@@ -19,7 +19,7 @@ describe SignUpService do
   let(:first_name) { 'Kyle' }
   let(:last_name) { 'Chilcutt' }
   let(:referring_user) { create(:member, :premium) }
-  let!(:onboarding_group) { create(:onboarding_group, premium: true, stripe_coupon_code: stripe_coupon.id) }
+  let!(:onboarding_group) { create(:onboarding_group, name: 'Mayo Pilot 2', premium: true, stripe_coupon_code: stripe_coupon.id) }
   let!(:referral_code) { create(:referral_code, onboarding_group: onboarding_group, user: referring_user) }
   let!(:enrollment) do
     create(:enrollment, onboarding_group: onboarding_group,
@@ -50,7 +50,6 @@ describe SignUpService do
       let(:options) do
         {
           send_download_link: true,
-          mayo_pilot_2: true
         }
       end
 

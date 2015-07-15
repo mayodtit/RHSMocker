@@ -75,7 +75,7 @@ class SignUpService < Struct.new(:params, :options)
 
   # TODO - remove when unneeded
   def do_random_bullshit!
-    if options[:mayo_pilot_2]
+    if @member.onboarding_group.try(:name) == 'Mayo Pilot 2'
       MemberTask.create!(title: 'Discharge Instructions Follow Up',
                          description: MAYO_PILOT_2_TASK_DESCRIPTION,
                          due_at: 1.business_day.from_now,

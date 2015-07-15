@@ -2,7 +2,7 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
   skip_before_filter :authentication_check
 
   def sign_up
-    sign_up_response = SignUpService.new(sign_up_params).call
+    sign_up_response = SignUpService.new(sign_up_params, sign_up_options).call
     if sign_up_response[:success]
       render_success(user: sign_up_response[:user].serializer,
                      member: sign_up_response[:user].serializer,
@@ -22,6 +22,12 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
       subscription: {
         payment_token: user_params[:payment_token]
       }
+    }
+  end
+
+  def sign_up_options
+    {
+      send_download_link: params[:send_download_link].present?,
     }
   end
 
@@ -79,13 +85,5 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
 
   def coupon_code
     @onboarding_group ? @onboarding_group.stripe_coupon_code : nil
-  end
-
-  def send_download_link?
-    params[:send_download_link]
-  end
-
-  def mayo_pilot_2?
-    @onboarding_group.try(:name) == 'Mayo Pilot 2'
   end
 end
