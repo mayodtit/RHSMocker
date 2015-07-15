@@ -1,6 +1,6 @@
 class Api::V1::UsersController < Api::V1::ABaseController
   before_filter :load_user!, only: %i(show update)
-  before_filter :convert_parameters!, only: :update
+  before_filter :update_session_queue!, only: :update
 
   def show
     render_success(user: @user.serializer(serializer_options),
@@ -10,7 +10,9 @@ class Api::V1::UsersController < Api::V1::ABaseController
   def update
     if @user.update_attributes(update_params)
       @user = User.find(@user.id) # force reload of CarrierWave image for correct URL
-      render_success(user: @user.serializer(serializer_options))
+      render_success(user: @user.serializer(serializer_options),
+                     member: @user.serializer(serializer_options))
+
     else
       render_failure({reason: error_reason_string}, 422)
     end
@@ -33,13 +35,22 @@ class Api::V1::UsersController < Api::V1::ABaseController
     @user = if params[:id] == 'current'
               current_user
             else
-              User.find_by_id(params[:id])
+              User.find(params[:id])
             end
     authorize! :manage, @user
   end
 
+  def update_session_queue!
+    return unless current_session
+    return unless @user == current_user
+    return unless current_user.care_provider?
+    return unless user_params[:queue_mode]
+    return if current_session.queue_mode == user_params[:queue_mode]
+    current_session.update_attributes!(queue_mode: user_params[:queue_mode])
+  end
+
   def update_params
-    permitted_params(@member).user.tap do |attrs|
+    permitted_params(@user).user.tap do |attrs|
       # decode images
       attrs[:avatar] = decode_b64_image(user_params[:avatar]) if user_params[:avatar]
 
@@ -55,7 +66,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
 
       # set attributes
       attrs[:user_agreements_attributes] = user_agreements_attributes if user_params[:tos_checked] || user_params[:agreement_id]
-      attrs[:time_zone] = params[:device_properties].try(:[], :device_timezone)
+      attrs[:time_zone] = params[:device_properties].try(:[], :device_timezone) if @user == current_user
       attrs[:actor_id] = current_user.try(:id)
     end
   end

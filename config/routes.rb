@@ -66,10 +66,12 @@ RHSMocker::Application.routes.draw do
       post :login, to: 'sessions#create', as: :login # TODO - deprecated!
       delete :logout, to: 'sessions#destroy', as: :logout # TODO - deprecated!
       post :members, to: 'onboarding#sign_up' # TODO - deprecated!
-      resources :members, only: [:index, :show, :update] do
+      get 'members/:id', to: 'users#show'
+      put 'members/:id', to: 'users#update'
+      get 'members/current', to: 'users#show', id: 'current'
+      put 'members/update_current', to: 'users#update', id: 'current'
+      resources :members, only: :index do
         put :secure_update, on: :member
-        get :current, on: :collection, to: 'members#show', id: 'current'
-        put :update_current, on: :collection, to: 'members#update', id: 'current'
         resources :tasks, only: [:index, :create], controller: 'member_tasks'
         resources :entries, only: :index
         resources :services, only: [:index, :create]
@@ -112,9 +114,9 @@ RHSMocker::Application.routes.draw do
         post :check, on: :collection, to: 'symptom_contents#index'
       end
       resources :treatments, :only => :index
-      get :user, to: 'members#current' # TODO - this should be deprecated in favor of members#current
-      put :user, to: 'members#update_current' # TODO - this should be deprecated in general, client should know the ID
-      put 'user/:id', to: 'users#update' # TODO - deprecated, use users#update
+      get :user, to: 'users#show', id: 'current' # TODO - deprecated
+      put :user, to: 'users#update', id: 'current' # TODO -deprecated
+      put 'user/:id', to: 'users#update' # TODO - deprecated
       post 'user/update_password', to: 'members#secure_update', as: :update_password # TODO - deprecated!
       post 'user/update_email', to: 'members#secure_update', as: :update_email # TODO - deprecated!
       resources :user_request_types, only: %i(index show create update)
@@ -138,7 +140,7 @@ RHSMocker::Application.routes.draw do
         resources :credits, :only => [:index, :show, :create] do
           get 'available', :on => :collection
         end
-        get :current, on: :collection, to: 'members#current'
+        get :current, on: :collection, to: 'users#show', id: 'current' # TODO - deprecated
         resources :conditions, except: [:new, :edit], controller: 'user_conditions' do
           resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
