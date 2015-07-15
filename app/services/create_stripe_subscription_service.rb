@@ -4,6 +4,7 @@ class CreateStripeSubscriptionService
     @plan_id = options[:plan_id]
     @credit_card_token = options[:credit_card_token]
     @trial_end = options[:trial_end]
+    @coupon_code = options[:coupon_code]
   end
 
   def call
@@ -23,7 +24,8 @@ class CreateStripeSubscriptionService
   def create_stripe_customer!
     @customer = Stripe::Customer.create(card: @credit_card_token,
                                         email: @user.email,
-                                        description: StripeExtension.customer_description(@user.id))
+                                        description: StripeExtension.customer_description(@user.id),
+                                        coupon: @coupon_code)
     @user.update_attribute(:stripe_customer_id, @customer.id)
     @customer.save
   end
