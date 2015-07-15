@@ -82,8 +82,4 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
       ]
     end
   end
-
-  def coupon_code
-    @onboarding_group ? @onboarding_group.stripe_coupon_code : nil
-  end
 end
