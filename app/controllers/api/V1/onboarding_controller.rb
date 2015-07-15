@@ -16,11 +16,20 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
 
   private
 
+  def sign_up_params
+    {
+      user: sign_up_user_params,
+      subscription: {
+        payment_token: user_params[:payment_token]
+      }
+    }
+  end
+
   def user_params
     params.fetch(:user){params.require(:member)}
   end
 
-  def sign_up_params
+  def sign_up_user_params
     permitted_params.user.tap do |attrs|
       # decode images
       attrs[:avatar] = decode_b64_image(user_params[:avatar]) if user_params[:avatar]
