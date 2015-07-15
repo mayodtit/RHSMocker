@@ -53,6 +53,10 @@ class Api::V1::MembersController < Api::V1::ABaseController
 
   private
 
+  def user_params
+    params.fetch(:user){params.require(:member)}
+  end
+
   def load_members!
     authorize! :index, Member
     search_params = params.permit(:pha_id, :is_premium, :status)
