@@ -37,6 +37,6 @@ class Api::V1::MemberTasksController < Api::V1::ABaseController
   private
 
   def task_attributes
-    params.require(:task).permit(:title, :description, :due_at, :owner_id, :subject_id, :service_type_id, :day_priority, :urgent, :service_id)
+    params.require(:task).permit(:title, :description, :due_at, :owner_id, :subject_id, :service_type_id, :day_priority, :urgent, :service_id, :task_template_set_id)
   end
 end

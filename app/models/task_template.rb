@@ -29,7 +29,8 @@ class TaskTemplate < ActiveRecord::Base
       creator: creator,
       owner: owner,
       assignor: owner.present? ? (attributes[:assignor] || creator) : nil,
-      priority: priority || 0
+      priority: priority || 0,
+      task_template_set_id: attributes[:task_template_set_id] || task_template_set_id
     )
   end
 

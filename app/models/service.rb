@@ -71,19 +71,25 @@ class Service < ActiveRecord::Base
     return if tasks.empty? && service_template.task_templates.empty?
     if next_task_template_set = next_task_template_set(current_task_template_set)
       next_task_template_set.task_templates.each do |task_template|
-        task_template.create_task!(service: self, start_at: service_template.timed_service? ? last_due_at : Time.now, assignor: assignor)
+        task_template.create_task!(service: self, start_at: service_template.timed_service? ? last_due_at : Time.now, assignor: assignor, task_template_set_id: next_task_template_set.id)
       end
     else
       self.complete!
     end
   end
 
+  def check_each_task(current_task_template_set)
+    Task.where(task_template_set_id: current_task_template_set.id).each do |t|
+      t.result? ? true : false
+    end
+  end
+
   def next_task_template_set(current_task_template_set)
     if current_task_template_set.nil?
       self.service_template.task_template_sets.first
-    elsif current_task_template_set.affirmative_child_id
+    elsif current_task_template_set.affirmative_child_id && check_each_task(current_task_template_set)
       TaskTemplateSet.find(current_task_template_set.try(:affirmative_child_id))
-    elsif current_task_template_set.negative_child_id
+    elsif current_task_template_set.negative_child_id && !check_each_task(current_task_template_set)
       TaskTemplateSet.find(current_task_template_set.try(:negative_child_id))
     else
       nil
