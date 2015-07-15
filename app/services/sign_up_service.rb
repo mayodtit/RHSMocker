@@ -11,7 +11,7 @@ class SignUpService < Struct.new(:params, :options)
       ActiveRecord::Base.transaction do
         create_member!
         create_session!
-        create_subscription! if params[:payment_token]
+        create_subscription! if params[:subscription].try(:[], :payment_token)
         send_welcome_emails!
         send_download_link! if options[:send_download_link]
         notify_other_users!
@@ -22,23 +22,23 @@ class SignUpService < Struct.new(:params, :options)
         user: @member,
         auth_token: @auth_token
       }
-    rescue ActiveRecord::RecordInvalid => e
-      {
-        success: false,
-        reason: e.record.errors.full_messages.to_sentence
-      }
-    rescue Exception => e
-      {
-        success: false,
-        reason: e.to_s
-      }
+   rescue ActiveRecord::RecordInvalid => e
+     {
+       success: false,
+       reason: e.record.errors.full_messages.to_sentence
+     }
+   rescue Exception => e
+     {
+       success: false,
+       reason: e.to_s
+     }
     end
   end
 
   private
 
   def create_member!
-    @member = Member.create!(params)
+    @member = Member.create!(params[:user])
   end
 
   def create_session!
@@ -49,13 +49,13 @@ class SignUpService < Struct.new(:params, :options)
     begin
       CreateStripeSubscriptionService.new(user: @member,
                                           plan_id: 'bp20',
-                                          credit_card_token: params[:payment_token],
+                                          credit_card_token: params[:subscription][:payment_token],
                                           trial_end: Time.zone.now.pacific.end_of_day + 1.month,
-                                          coupon_code: coupon_code).call
+                                          coupon_code: @member.onboarding_group.try(:stripe_coupon_code)).call
     rescue Stripe::CardError => e
-      raise e.as_json['message'], e
+      raise e.message
     rescue Stripe::StripeError => e
-      raise "There's an error with your credit card, please try another one", e
+      raise "There's an error with your credit card, please try another one"
     end
   end
 
@@ -70,21 +70,21 @@ class SignUpService < Struct.new(:params, :options)
 
   def notify_other_users!
     SendEmailToStakeholdersService.new(@member).call
-    NotifyReferrerWhenRefereeSignUpService.new(@referral_code, @member).call if @referral_code
+    NotifyReferrerWhenRefereeSignUpService.new(@member.referral_code, @member).call if @member.referral_code.try(:user)
   end
 
   # TODO - remove when unneeded
   def do_random_bullshit!
     if options[:mayo_pilot_2]
-      MemberTask.create(title: 'Discharge Instructions Follow Up',
-                        description: MAYO_PILOT_2_TASK_DESCRIPTION,
-                        due_at: 1.business_day.from_now,
-                        service_type: ServiceType.find_by_name('other engagement'),
-                        member: @member,
-                        subject: @member,
-                        owner: @member.pha,
-                        creator: Member.robot,
-                        assignor: Member.robot)
+      MemberTask.create!(title: 'Discharge Instructions Follow Up',
+                         description: MAYO_PILOT_2_TASK_DESCRIPTION,
+                         due_at: 1.business_day.from_now,
+                         service_type: ServiceType.find_by_name('other engagement'),
+                         member: @member,
+                         subject: @member,
+                         owner: @member.pha,
+                         creator: Member.robot,
+                         assignor: Member.robot)
     end
   end
 
