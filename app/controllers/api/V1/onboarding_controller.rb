@@ -1,6 +1,14 @@
 class Api::V1::OnboardingController < Api::V1::ABaseController
   skip_before_filter :authentication_check
 
+  def email_validation
+    if @user = Member.find_by_email(params[:email])
+      render_success(requires_sign_up: false, onboarding_group: onboarding_group_for_onboarding)
+    else
+      render_success(requires_sign_up: true)
+    end
+  end
+
   def sign_up
     sign_up_response = SignUpService.new(sign_up_params, sign_up_options).call
     if sign_up_response[:success]
@@ -15,6 +23,14 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
   end
 
   private
+
+  def onboarding_group_for_onboarding
+    if onboarding_group = @user.onboarding_group
+      onboarding_group.serializer(for_onboarding: true).as_json
+    else
+      nil
+    end
+  end
 
   def sign_up_params
     {

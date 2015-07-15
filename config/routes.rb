@@ -55,7 +55,7 @@ RHSMocker::Application.routes.draw do
         get :onboarding_calls, on: :collection
       end
       resources :diseases, :only => :index, :controller => :conditions
-      get :email_validations, to: 'email_validations#exists'
+      get :email_validations, to: 'onboarding#email_validation'
       resources :enrollments, only: %i(show create update) do
         get :on_board, on: :collection
       end
@@ -78,6 +78,10 @@ RHSMocker::Application.routes.draw do
         resources :task_changes, only: :index
       end
       resources :message_templates, except: %i(new edit)
+      resources :onboarding, only: [] do
+        get :email_validation
+        post :sign_up
+      end
       resources :onboarding_groups, only: %i(index show create update) do
         resources :users, only: %i(index create destroy), controller: 'onboarding_group_users'
       end

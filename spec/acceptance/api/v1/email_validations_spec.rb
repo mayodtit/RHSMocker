@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'rspec_api_documentation/dsl'
 
-resource 'Address' do
+resource 'Email Validations' do
   header 'Accept', 'application/json'
   header 'Content-Type', 'application/json'
 
@@ -14,7 +14,7 @@ resource 'Address' do
 
     let(:email) { user.email }
 
-    example_request '[GET] Check email address for onboarding' do
+    example_request '[DEPRECATED] [GET] Check email address for onboarding' do
       explanation 'Check the email address'
       expect(status).to eq(200)
       body = JSON.parse(response_body, symbolize_names: true)
