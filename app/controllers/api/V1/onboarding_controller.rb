@@ -9,6 +9,15 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
     end
   end
 
+  def referral_code_validation
+    @referral_code = ReferralCode.find_by_code!(params[:code])
+    if @referral_code.onboarding_group.try(:skip_credit_card?)
+      render_success(skip_credit_card: true)
+    else
+      render_success(skip_credit_card: false)
+    end
+  end
+
   def sign_up
     sign_up_response = SignUpService.new(sign_up_params, sign_up_options).call
     if sign_up_response[:success]
@@ -19,15 +28,6 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
     else
       render_failure({reason: sign_up_response[:reason],
                       user_message: sign_up_response[:reason]}, 422)
-    end
-  end
-
-  def referral_code_validation
-    @referral_code = ReferralCode.find_by_code!(params[:code])
-    if @referral_code.onboarding_group.try(:skip_credit_card?)
-      render_success(skip_credit_card: true)
-    else
-      render_success(skip_credit_card: false)
     end
   end
 
