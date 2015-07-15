@@ -125,7 +125,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def task_template_set
-    params.require(:task_template_set).permit(:result, :service_template_id, :affirmative_child_id, :negative_child_id)
+    params.require(:task_template_set).permit(:service_template_id, :affirmative_child_id, :negative_child_id)
   end
 
   def feature_flag
