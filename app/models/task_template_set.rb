@@ -1,5 +1,6 @@
 class TaskTemplateSet < ActiveRecord::Base
   has_many :task_templates
+  has_many :tasks, through: :task_templates
   belongs_to :service_template
 
   attr_accessible :result, :service_template_id, :affirmative_child_id, :negative_child_id, :task_templates
