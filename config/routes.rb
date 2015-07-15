@@ -65,7 +65,8 @@ RHSMocker::Application.routes.draw do
       resources :locations, :only => :create
       post :login, to: 'sessions#create', as: :login # TODO - deprecated!
       delete :logout, to: 'sessions#destroy', as: :logout # TODO - deprecated!
-      resources :members, only: [:index, :show, :create, :update] do
+      post :members, to: 'onboarding#sign_up' # TODO - deprecated!
+      resources :members, only: [:index, :show, :update] do
         get :current, on: :collection
         put :secure_update, on: :member
         put :update_current, on: :collection # TODO - this should be deprecated in general, client should know the ID
@@ -100,7 +101,7 @@ RHSMocker::Application.routes.draw do
       get 'providers/:npi_number', to: 'providers#show'
       resources :provider_call_logs, only: :create
       resources :side_effects, :only => :index
-      post :signup, to: 'members#create', as: :signup # TODO - deprecated!
+      post :signup, to: 'onboarding#sign_up', as: :signup # TODO - deprecated
       resources :service_status, only: :index
       resources :sms_notifications, only: [] do
         post :download, on: :collection
